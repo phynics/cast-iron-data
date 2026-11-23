@@ -29,85 +29,67 @@ abilities = ["24", "16", "-", "-", "11", "1"]
 _This hulking figure shines with a metallic luster as a heavy yellow gas flows from the creature's
 back._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: construct
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Experience points: 38,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 28
+Touch: 12
+Flat-footed: 25
+AC modifiers: +3 Dex, +16 natural, -1 size
+Hit points: 140 (20d10+30)
+Fort: +6
+Ref: +9
+Will: +6
+Dr: 10/bludgeoning and magic
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Br Weap: 15-ft. cone, see below, Reflex DC 20 half, usable every 1d4 rounds
+Melee: 4 claws +26 (1d6+7)
+Reach: 10
+Rend: 2 claws, 1d6+10
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+:::
 
-**Perception:** +0
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +15
+Constant: air walk, true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 24, Dex 16, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +20
+Combat maneuver bonus: +28
+Combat maneuver defense: 41
+:::
 
-**Armor class:** 28
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 25
-
-**AC modifiers:** +3 Dex, +16 natural, -1 size
-
-**Hit points:** 140 (20d10+30)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +6
-
-**Dr:** 10/bludgeoning and magic
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 15-ft. cone, see below, Reflex DC 20 half, usable every 1d4 rounds
-
-**Melee:** 4 claws +26 (1d6+7)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+10
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +15
-
-**Constant:**
-
-- air walk, true seeing
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 16, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 41
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

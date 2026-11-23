@@ -29,99 +29,73 @@ abilities = ["6", "15", "14", "11", "12", "13"]
 _Dressed in red robes like those of a monk, this little monster displays a sharp-toothed smile and
 flips a gold coin in its hand._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+aura: stymie channeling (20 ft.; DC 12)
+Alignment: Chaotic evil
+Type: fey
+Initiative: +2
+Perception: +6
+Senses: Low-light vision
+Size: small
+Experience points: 400
+:::
 
-**aura:** stymie channeling (20 ft.; DC 12)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 14 (2d6+7)
+Fort: +2
+Ref: +5
+Will: +4; +4 vs. divine magic
+Dr: 5/cold iron
+Sr: 12
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 30 ft.
+Melee: bite +4 (1d4-2), dagger +4 (1d3-2/19-20)
+:::
 
-**Perception:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: prestidigitation, putrefy food and drink (DC 11), ghost sound (DC 12), silent image (DC 12)
+Per day: 1/day: glitterdust
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
-
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 14 (2d6+7)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +4; +4 vs. divine magic
-
-**Dr:** 5/cold iron
-
-**Sr:** 12
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +4 (1d4-2), dagger +4 (1d3-2/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- prestidigitation, putrefy food and drink (DC 11), ghost sound (DC 12), silent image (DC 12)
-
-**Per day:**
-
-- 1/day: glitterdust
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 14, Int 11, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 10
-
-**Feats:** Skill Focus (Stealth), Toughness^B^, Weapon Finesse^B^
-
-**Skills:** Bluff +6, Disable Device +8, Escape Artist +7, Perception +6, Sense Motive +6, Stealth
-+18 (+14 when moving)
-
-**Racial Modifiers:** +4 Disable Device, +4 Stealth (+0 when moving)
-
-**Languages:** Aklo
-
-**Special qualities:** [compression](ref/umr/compression), magic bag
+::: statblock
+Ability scores: Str 6, Dex 15, Con 14, Int 11, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: -2
+Combat maneuver defense: 10
+Feats: Skill Focus (Stealth), Toughness^B^, Weapon Finesse^B^
+Skills: Bluff +6, Disable Device +8, Escape Artist +7, Perception +6, Sense Motive +6, Stealth +18 (+14 when moving)
+Racial Modifiers: +4 Disable Device, +4 Stealth (+0 when moving)
+Languages: Aklo
+Special qualities: [compression](ref/umr/compression), magic bag
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any urban
-
-**Organization:** solitary, pair, congregation (3-12), or infestation (13-20 plus 1-3 sorcerers of
-1st-3rd level, 1 rogue leader of 2nd-4th level, 2-14 trained [dire rats](ref/monster/rat-dire-rat),
-2-5 trained [venomous snakes](ref/monster/snake-venomous-snake), and 1-3
-[rat swarms](ref/monster/rat-rat-swarm))
-
-**Treasure:** Double; always gold coins
+::: statblock
+Environment: any urban
+Organization: solitary, pair, congregation (3-12), or infestation (13-20 plus 1-3 sorcerers of 1st-3rd level, 1 rogue leader of 2nd-4th level, 2-14 trained [dire rats](ref/monster/rat-dire-rat), 2-5 trained [venomous snakes](ref/monster/snake-venomous-snake), and 1-3 [rat swarms](ref/monster/rat-rat-swarm))
+Treasure: Double; always gold coins
+:::
 
 ### Special Abilities
 

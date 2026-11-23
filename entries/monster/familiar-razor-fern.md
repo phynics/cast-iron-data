@@ -27,73 +27,59 @@ abilities = ["5", "15", "11", "-", "10", "6"]
 
 _This vaguely human-shaped plant slashes out with dangerous-looking barbed fronds._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Type: plant
+Size: tiny
+tremorsense: 15
+Experience points: 100
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +2
+Will: +0
+Defensive abilities: shielding frond
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 15 ft.
+Melee: 2 fronds +4 (1d4-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 15, Con 11, Int -, Wis 10, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 7
+Feats: Weapon Finesse
+:::
 
-**tremorsense:** 15
+### Ecology
 
-**Experience points:** 100
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +0
-
-**Defensive abilities:** shielding frond
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 15 ft.
-
-**Melee:** 2 fronds +4 (1d4-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 15, Con 11, Int -, Wis 10, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 7
-
-**Feats:** Weapon Finesse
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or thicket (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or thicket (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

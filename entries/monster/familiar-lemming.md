@@ -30,69 +30,57 @@ abilities = ["1", "12", "6", "2", "13", "4"]
 
 _This small, plump rodent has a calico mix of color and a short tail._
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Type: animal
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Experience points: 50
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 size
+Hit points: 2 (1d8-2)
+Fort: +2
+Ref: +3
+Will: +1
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 15 ft.
+Melee: bite -1 (1d2-5)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 1, Dex 12, Con 6, Int 2, Wis 13, Cha 4
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 2 (6 vs. trip)
+Feats: Great Fortitude
+Skills: Stealth +17
+:::
 
-**Experience points:** 50
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 size
-
-**Hit points:** 2 (1d8-2)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 15 ft.
-
-**Melee:** bite -1 (1d2-5)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 12, Con 6, Int 2, Wis 13, Cha 4
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 2 (6 vs. trip)
-
-**Feats:** Great Fortitude
-
-**Skills:** Stealth +17
-
-**Ecology**
-
-**Environment:** cold plains
-
-**Organization:** solitary, pair, or slice (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: cold plains
+Organization: solitary, pair, or slice (3-30)
+Treasure: None
+:::
 
 ### Description
 

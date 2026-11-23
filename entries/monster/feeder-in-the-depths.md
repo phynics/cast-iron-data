@@ -30,85 +30,65 @@ abilities = ["24", "15", "20", "13", "15", "14"]
 _An immense gray-and-white shark glides through the water, its piercing red eyes revealing a vicious
 intelligence._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: blood feast (30 ft.)
+blindsense: 30
+Size: huge
+Initiative: +2
+Keen Scent: present
+Alignment: Lawful evil
+Type: Magical beast
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**aura:** blood feast (30 ft.)
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 18
+AC modifiers: +2 Dex, +10 natural, -2 size
+Hit points: 105 (10d10+50); blood feast
+Fort: +12
+Ref: +9
+Will: +7
+Resist: cold 20
+Sr: 19
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: swim 80 ft.
+Melee: bite +15/+10 (2d6+10/19-20 plus deadly bleeding)
+Reach: 10
+Space: 15
+Spec Att: swift bite
+:::
 
-**Keen Scent:** present
+### Statistics
 
-**Alignment:** Lawful evil
+::: statblock
+Ability scores: Str 24, Dex 15, Con 20, Int 13, Wis 15, Cha 14
+Base attack bonus: +10
+Combat maneuver bonus: +19
+Combat maneuver defense: 31 (can't be tripped)
+Feats: Combat Reflexes, Improved Critical (bite), Intimidating Prowess, Iron Will, Vital Strike
+Skills: Intimidate +19, Knowledge (religion) +11, Perception +20, Swim +15
+Racial Modifiers: +5 Perception
+Languages: Aklo, Aquan, Infernal
+:::
 
-**Type:** Magical beast
+### Ecology
 
-**Perception:** +20
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 4,800
-
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +10 natural, -2 size
-
-**Hit points:** 105 (10d10+50); blood feast
-
-**Fort:** +12
-
-**Ref:** +9
-
-**Will:** +7
-
-**Resist:** cold 20
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** swim 80 ft.
-
-**Melee:** bite +15/+10 (2d6+10/19-20 plus deadly bleeding)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** swift bite
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 15, Con 20, Int 13, Wis 15, Cha 14
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 31 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Intimidating Prowess, Iron Will, Vital Strike
-
-**Skills:** Intimidate +19, Knowledge (religion) +11, Perception +20, Swim +15
-
-**Racial Modifiers:** +5 Perception
-
-**Languages:** Aklo, Aquan, Infernal
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

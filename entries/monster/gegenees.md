@@ -32,80 +32,61 @@ abilities = ["26", "14", "25", "10", "13", "11"]
 _Tattoos cover the blue skin of this towering, six-armed giant, and large tusks jut from his lower
 jaw._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +6
+Type: Monstrous humanoid
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 76,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 30
+Touch: 10
+Flat-footed: 28
+AC modifiers: +2 Dex, +20 natural, -2 size
+Hit points: 250 (20d10+140)
+Fort: +13
+Ref: +14
+Will: +13
+:::
 
-**Initiative:** +6
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 50 ft.
+Melee: club +26/+21/+16/+11 (2d6+12), 2 heavy picks +26 (2d6+8/×4), 2 slams +21 (2d6+4 plus [grab](ref/umr/grab)) or 6 slams +26 (2d6+8 plus grab)
+Ranged: spear +20/+15/+10/+5 (3d6+8/×3), 2 spears +20 (3d6+8/×3)
+Reach: 15
+Space: 15
+Spec Att: clobber, extra attacks, multiweapon mastery
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 14, Con 25, Int 10, Wis 13, Cha 11
+Base attack bonus: +20
+Combat maneuver bonus: +30 (+32 bull rush, +34 grapple)
+Combat maneuver defense: 42 (44 vs. bull rush)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Initiative, Intimidating Prowess, Power Attack, Quick Draw, Staggering Critical, Stunning Critical
+Skills: Climb +16
+Languages: Giant
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 10
-
-**Flat-footed:** 28
-
-**AC modifiers:** +2 Dex, +20 natural, -2 size
-
-**Hit points:** 250 (20d10+140)
-
-**Fort:** +13
-
-**Ref:** +14
-
-**Will:** +13
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** club +26/+21/+16/+11 (2d6+12), 2 heavy picks +26 (2d6+8/×4), 2 slams +21 (2d6+4 plus
-[grab](ref/umr/grab)) or 6 slams +26 (2d6+8 plus grab)
-
-**Ranged:** spear +20/+15/+10/+5 (3d6+8/×3), 2 spears +20 (3d6+8/×3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** clobber, extra attacks, multiweapon mastery
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 14, Con 25, Int 10, Wis 13, Cha 11
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +30 (+32 bull rush, +34 grapple)
-
-**Combat maneuver defense:** 42 (44 vs. bull rush)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Initiative,
-Intimidating Prowess, Power Attack, Quick Draw, Staggering Critical, Stunning Critical
-
-**Skills:** Climb +16
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** any temperate or warm land
-
-**Organization:** solitary, hunting party (2-5), or clan (6-25 plus 1 clan headman \[barbarian,
-druid, or ranger of 4th-8th level\] and 3 venerable mothers \[oracles or witches of 3rd-5th level\])
-
-**Treasure:** Standard
+::: statblock
+Environment: any temperate or warm land
+Organization: solitary, hunting party (2-5), or clan (6-25 plus 1 clan headman \[barbarian, druid, or ranger of 4th-8th level\] and 3 venerable mothers \[oracles or witches of 3rd-5th level\])
+Treasure: Standard
+:::
 
 ### Special Abilities
 

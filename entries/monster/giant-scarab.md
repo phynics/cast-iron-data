@@ -29,71 +29,58 @@ abilities = ["27", "12", "16", "-", "10", "1"]
 _This glossy beetle is the size of a cow, and has a hard, blue-black carapace spattered with dust
 and dung._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 2,400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 67 (9d8+27)
+Fort: +9
+Ref: +4
+Will: +3; +4 vs. disease and paralysis
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 40 ft., climb 20 ft., fly 20 ft. (average)
+Melee: bite +13 (2d4+12 plus disease and gnaw)
+Reach: 5
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 27, Dex 12, Con 16, Int -, Wis 10, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +15
+Combat maneuver defense: 26 (34 vs. trip)
+Skills: Climb +16, Perception +4
+Racial Modifiers: +4 Perception
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** +3; +4 vs. disease and paralysis
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., fly 20 ft. (average)
-
-**Melee:** bite +13 (2d4+12 plus disease and gnaw)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 12, Con 16, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26 (34 vs. trip)
-
-**Skills:** Climb +16, Perception +4
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary or swarm (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary or swarm (3-9)
+Treasure: None
+:::
 
 ### Special Abilities
 

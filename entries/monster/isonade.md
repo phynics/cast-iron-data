@@ -31,91 +31,67 @@ abilities = ["34", "13", "22", "13", "20", "9"]
 _This massive horror looks like a shark protected by a crab carapace, with a tail, flanks, and
 pectoral fins covered in cruel hooks._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +1
+Keen Scent: present
+Type: Magical beast
+Perception: +28
+Senses: Darkvision 120 ft.
+Subtype: Aquatic
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 28
+Touch: 8
+Flat-footed: 26
+AC modifiers: +1 Dex, +1 dodge, +20 natural, -4 size
+Hit points: 230 (20d10+120)
+Fort: +18
+Ref: +13
+Will: +13
+Sr: 26
+:::
 
-**Initiative:** +1
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: swim 100 ft.
+Capsize: present
+F Swallow: present
+Melee: bite +29 (2d8+12 plus [grab](ref/umr/grab)), 2 fins +28 (2d8+12 plus grab), tail slap +23 (2d8+6 plus grab)
+Reach: 20
+Reach P: 30 ft. with tail slap
+Space: 20
+Spec Att: hooked appendages
+Swallow: 3d6 bludgeoning damage, AC 20, 23 hp
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Perception:** +28
+::: statblock
+Ability scores: Str 34, Dex 13, Con 22, Int 13, Wis 20, Cha 9
+Base attack bonus: +20
+Combat maneuver bonus: +36 (+40 drag, grapple)
+Combat maneuver defense: 48 (50 vs. drag)
+Feats: Combat Expertise, Dodge, Greater Drag, Improved Drag, Improved Vital Strike, Iron Will, Mobility, Skill Focus (Stealth), Spring Attack, Vital Strike, Weapon Focus (bite)
+Skills: Perception +28, Stealth +18 (+28 in deep water), Swim +43
+Racial Modifiers: +10 Stealth in deep water
+Languages: Aquan, Common
+:::
 
-**Senses:** Darkvision 120 ft.
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 51,200
-
-**Armor class:** 28
-
-**Touch:** 8
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +1 dodge, +20 natural, -4 size
-
-**Hit points:** 230 (20d10+120)
-
-**Fort:** +18
-
-**Ref:** +13
-
-**Will:** +13
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** swim 100 ft.
-
-**Capsize:** present
-
-**F Swallow:** present
-
-**Melee:** bite +29 (2d8+12 plus [grab](ref/umr/grab)), 2 fins +28 (2d8+12 plus grab), tail slap +23
-(2d8+6 plus grab)
-
-**Reach:** 20
-
-**Reach P:** 30 ft. with tail slap
-
-**Space:** 20
-
-**Spec Att:** hooked appendages
-
-**Swallow:** 3d6 bludgeoning damage, AC 20, 23 hp
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 13, Con 22, Int 13, Wis 20, Cha 9
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +36 (+40 drag, grapple)
-
-**Combat maneuver defense:** 48 (50 vs. drag)
-
-**Feats:** Combat Expertise, Dodge, Greater Drag, Improved Drag, Improved Vital Strike, Iron Will,
-Mobility, Skill Focus (Stealth), Spring Attack, Vital Strike, Weapon Focus (bite)
-
-**Skills:** Perception +28, Stealth +18 (+28 in deep water), Swim +43
-
-**Racial Modifiers:** +10 Stealth in deep water
-
-**Languages:** Aquan, Common
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

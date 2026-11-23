@@ -29,73 +29,59 @@ abilities = ["20", "11", "-", "-", "11", "1"]
 
 _Thin veins of black rock crisscross the frame of this hulking construct._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: necrotic field (30 ft.)
+Type: construct
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**aura:** necrotic field (30 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 21
+Touch: 9
+Flat-footed: 21
+AC modifiers: +12 natural, -1 size
+Hit points: 85 (10d10+30)
+Fort: +3
+Ref: +3
+Will: +3
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** +0
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +14 (2d6+5 plus 2d6 negative energy)
+Reach: 10
+Space: 10
+Spec Att: create spawn
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +0
+::: statblock
+Ability scores: Str 20, Dex 11, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 26
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 9
-
-**Flat-footed:** 21
-
-**AC modifiers:** +12 natural, -1 size
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +3
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +14 (2d6+5 plus 2d6 negative energy)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** create spawn
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 11, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 26
-
-**Ecology**
-
-**Environment:** any underground (Darklands)
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any underground (Darklands)
+Organization: solitary or gang (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

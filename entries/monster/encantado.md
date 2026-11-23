@@ -31,96 +31,69 @@ abilities = ["16", "21", "20", "13", "18", "21"]
 
 _This graceful creature combines the features of a human and a river dolphin._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +9
+Size: medium
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Shapechanger
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 21
+Touch: 20
+Flat-footed: 16
+AC modifiers: +5 deflection, +5 Dex, +1 natural
+Hit points: 95 (10d6+60)
+Fort: +13
+Ref: +17
+Will: +16
+Dr: 10/cold iron
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 80 ft.
+Melee: slam +10 (1d4+4 plus intoxication) or spear +8 (1d8+4/×3)
+Ranged: spear +10 (1d8+3/×3)
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +15
+At will: charm person (DC 16), suggestion (DC 18), unnatural lust (DC 17)
+Per day: 3/day: charm monster (DC 18), confusion (DC 19), daze monster (DC 17)
+Per week: control weather
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 16, Dex 21, Con 20, Int 13, Wis 18, Cha 21
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Agile Maneuvers, Deceitful, Improved Initiative, Toughness, Weapon Finesse
+Skills: Bluff +22, Diplomacy +18, Disguise +7, Perform (dance) +13, Sense Motive +11, Stealth +18, Swim +15
+Languages: Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: [change shape](ref/umr/change-shape) (dolphin or Medium humanoid; [alter self](ref/spell/alter-self) or [beast shape I](ref/spell/beast-shape-1)), enchanting grace, [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 20
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 deflection, +5 Dex, +1 natural
-
-**Hit points:** 95 (10d6+60)
-
-**Fort:** +13
-
-**Ref:** +17
-
-**Will:** +16
-
-**Dr:** 10/cold iron
-
-**Offense**
-
-**Speed:** 30 ft., swim 80 ft.
-
-**Melee:** slam +10 (1d4+4 plus intoxication) or spear +8 (1d8+4/×3)
-
-**Ranged:** spear +10 (1d8+3/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**At will:**
-
-- charm person (DC 16), suggestion (DC 18), unnatural lust (DC 17)
-
-**Per day:**
-
-- 3/day: charm monster (DC 18), confusion (DC 19), daze monster (DC 17)
-
-**Per week:**
-
-- control weather
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 21, Con 20, Int 13, Wis 18, Cha 21
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Agile Maneuvers, Deceitful, Improved Initiative, Toughness, Weapon Finesse
-
-**Skills:** Bluff +22, Diplomacy +18, Disguise +7, Perform (dance) +13, Sense Motive +11, Stealth
-+18, Swim +15
-
-**Languages:** Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (dolphin or Medium humanoid;
-[alter self](ref/spell/alter-self) or [beast shape I](ref/spell/beast-shape-1)), enchanting grace,
-[hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm rivers
-
-**Organization:** solitary
-
-**Treasure:** Standard (spear); other treasure
+::: statblock
+Environment: warm rivers
+Organization: solitary
+Treasure: Standard (spear); other treasure
+:::
 
 ### Special Abilities
 

@@ -34,90 +34,69 @@ abilities = ["17", "14", "16", "13", "13", "16"]
 _This hag's hair, claws, and teeth crackle with sparks of electricity. Her windswept hair billows up
 from her brow like a thunderhead._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Type: Monstrous humanoid
+Perception: +14
+Senses: Child-scent, Darkvision 60 ft.
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +2 Dex, +1 dodge, +8 natural
+Hit points: 85 (10d10+30)
+Fort: +6
+Ref: +9
+Will: +8
+Immune: electricity
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: bite +13 (1d6+3 plus 1d6 electricity), 2 claws +13 (1d4+3 plus 1d6 electricity)
+Spec Att: storm strike, whipping winds
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+At will: bleed, gust of wind (DC 15), whispering wind
+Per day: 3/day: invisibility, lightning bolt (DC 16), river of wind (DC 17), sleet storm\
+1/day: control winds (DC 18)
+:::
 
-**Senses:** Child-scent, Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 17, Dex 14, Con 16, Int 13, Wis 13, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 26
+Feats: Combat Casting, Dodge, Flyby Attack, Mobility, Vital Strike
+Skills: Bluff +10, Fly +17, Intimidate +15, Perception +14, Spellcraft +7, Stealth +15
+Languages: Common, Giant
+Special qualities: storm rider
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +1 dodge, +8 natural
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +8
-
-**Immune:** electricity
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** bite +13 (1d6+3 plus 1d6 electricity), 2 claws +13 (1d4+3 plus 1d6 electricity)
-
-**Spec Att:** storm strike, whipping winds
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**At will:**
-
-- bleed, gust of wind (DC 15), whispering wind
-
-**Per day:**
-
-- 3/day: invisibility, lightning bolt (DC 16), river of wind (DC 17), sleet storm
-- 1/day: control winds (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 16, Int 13, Wis 13, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Casting, Dodge, Flyby Attack, Mobility, Vital Strike
-
-**Skills:** Bluff +10, Fly +17, Intimidate +15, Perception +14, Spellcraft +7, Stealth +15
-
-**Languages:** Common, Giant
-
-**Special qualities:** storm rider
-
-**Ecology**
-
-**Environment:** any temperate
-
-**Organization:** solitary or coven (3 hags of any kind)
-
-**Treasure:** Standard
+::: statblock
+Environment: any temperate
+Organization: solitary or coven (3 hags of any kind)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,105 +31,75 @@ abilities = ["31", "14", "-", "12", "19", "19"]
 _Taut, leathery skin clings to the skeleton of this giant, whose hide garments only partially
 conceal the simple geometric tattoos and ancient battle scars that decorate his flesh._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Size: huge
+Initiative: +2
+Perception: +27
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 29
+Touch: 11
+Flat-footed: 26
+AC modifiers: +4 armor, +2 Dex, +1 dodge, +14 natural, -2 size
+Hit points: 190 (20d8+100)
+Fort: +10
+Ref: +10
+Will: +16
+Chan Res: +4
+Defensive abilities:
+Dr: 5/-
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 25
+:::
 
-**Initiative:** +2
+### Offense
 
-**Perception:** +27
+::: statblock
+Speed: 30 ft., (40 ft. without armor)
+Melee: battleaxe +23/+18/+13 (3d6+15/19-20/×3) or 2 slams +23 (1d8+10 plus curse of frozen flesh)
+Ranged: rock +16 (2d6+10)
+Reach: 15
+Rock Th: 120 ft.
+Space: 15
+Spec Att: curse of frozen flesh, lingering curses
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +19
+At will: ill omen
+Per day: 3/day: bestow curse (DC 18), blindness/deafness (DC 17)\
+1/day: cone of cold (DC 19)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 31, Dex 14, Con -, Int 12, Wis 19, Cha 19
+Base attack bonus: +15
+Combat maneuver bonus: +27
+Combat maneuver defense: 40
+Feats: Combat Reflexes, Dodge, Intimidating Prowess, Lightning Reflexes, Mobility, Point-Blank Shot, Power Attack, Precise Shot, Toughness, Vital Strike
+Skills: Climb +17, Intimidate +37, Knowledge (religion) +7, Perception +27
+Languages: Common, Giant
+:::
 
-**Armor class:** 29
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 armor, +2 Dex, +1 dodge, +14 natural, -2 size
-
-**Hit points:** 190 (20d8+100)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +16
-
-**Chan Res:** +4
-
-**Defensive abilities:**
-
-**Dr:** 5/-
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft., (40 ft. without armor)
-
-**Melee:** battleaxe +23/+18/+13 (3d6+15/19-20/×3) or 2 slams +23 (1d8+10 plus curse of frozen
-flesh)
-
-**Ranged:** rock +16 (2d6+10)
-
-**Reach:** 15
-
-**Rock Th:** 120 ft.
-
-**Space:** 15
-
-**Spec Att:** curse of frozen flesh, lingering curses
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +19
-
-**At will:**
-
-- ill omen
-
-**Per day:**
-
-- 3/day: bestow curse (DC 18), blindness/deafness (DC 17)
-- 1/day: cone of cold (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 14, Con -, Int 12, Wis 19, Cha 19
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 40
-
-**Feats:** Combat Reflexes, Dodge, Intimidating Prowess, Lightning Reflexes, Mobility, Point-Blank
-Shot, Power Attack, Precise Shot, Toughness, Vital Strike
-
-**Skills:** Climb +17, Intimidate +37, Knowledge (religion) +7, Perception +27
-
-**Languages:** Common, Giant
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary or warband (1 indarugant and 2-6
-[taiga giants](ref/monster/giant-taiga-giant))
-
-**Treasure:** Standard (Ah, spear)
+::: statblock
+Environment: cold mountains
+Organization: solitary or warband (1 indarugant and 2-6 [taiga giants](ref/monster/giant-taiga-giant))
+Treasure: Standard (Ah, spear)
+:::
 
 ### Special Abilities
 

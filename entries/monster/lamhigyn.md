@@ -33,73 +33,59 @@ abilities = ["18", "15", "13", "5", "12", "8"]
 
 _This small, three-eyed creature has ragged, red-streaked wings and a menacingly barbed tail._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Initiative: +6
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., See in darkness
+Size: small
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 32 (5d10+5)
+Fort: +5
+Ref: +6
+Will: +2
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Constrict: 1d3+1
+Melee: sting +10 (1d3+4 plus poison), 2 wings +5 (1d3+2 plus [grab](ref/umr/grab))
+Spec Att: poison, wrap wings
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 18, Dex 15, Con 13, Int 5, Wis 12, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Flyby Attack, Hover, Improved Initiative
+Skills: Fly +16, Perception +9, Stealth +14
+Languages: Abyssal
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 32 (5d10+5)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Constrict:** 1d3+1
-
-**Melee:** sting +10 (1d3+4 plus poison), 2 wings +5 (1d3+2 plus [grab](ref/umr/grab))
-
-**Spec Att:** poison, wrap wings
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 13, Int 5, Wis 12, Cha 8
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Flyby Attack, Hover, Improved Initiative
-
-**Skills:** Fly +16, Perception +9, Stealth +14
-
-**Languages:** Abyssal
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, clutch (3-9), or hive (10-30)
-
-**Treasure:** None
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, clutch (3-9), or hive (10-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

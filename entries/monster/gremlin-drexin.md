@@ -30,89 +30,68 @@ _This pale, spindly creature has a vaguely humanoid shape, but with arms unnatur
 torso. Strands of long white hair sprout from its bulbous head, and its eyes are pools of liquid
 darkness._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: [mental static](ref/umr/mental-static-aura) (DC 13)
+Alignment: Chaotic evil
+Type: fey
+Initiative: +8
+Perception: +12
+Senses: Darkvision 120 ft., Low-light vision
+Size: small
+Experience points: 600
+:::
 
-**aura:** [mental static](ref/umr/mental-static-aura) (DC 13)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 12
+AC modifiers: +4 Dex, +1 natural, +1 size
+Hit points: 16 (3d6+6)
+Fort: +2
+Ref: +7
+Will: +5
+Dr: 5/cold iron
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 30 ft.
+Melee: bite +1 (1d4-1), 2 claws +1 (1d3-1)
+:::
 
-**Perception:** +12
+::: statblock
+title = "Psychic Magic"
+Caster level: 6
+Concentration: +8
+Power points: 5
+Psychoactive powers: babble, 2 PE, DC 14, id insinuation I, 2 PE, DC 14, mental block, 1 PE, DC 13, mind thrust I, 1 PE, DC 13, telekinetic projectile, 1 PE
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 9, Dex 18, Con 13, Int 14, Wis 14, Cha 15
+Base attack bonus: +1
+Combat maneuver bonus: -1
+Combat maneuver defense: 13
+Feats: Improved Initiative, Toughness
+Skills: Acrobatics +10, Bluff +8, Climb +3, Craft (traps) +12, Disable Device +7, Escape Artist +10, Intimidate +9, Knowledge (arcana) +4, Perception +12
+Racial Modifiers: +4 Craft (traps), +4 Intimidate, +4 Perception
+Languages: Aklo, Undercommon
+Special qualities: trap savant
+:::
 
-**Experience points:** 600
+### Ecology {#stat-ecology}
 
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +1 natural, +1 size
-
-**Hit points:** 16 (3d6+6)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +1 (1d4-1), 2 claws +1 (1d3-1)
-
-**Psychic Magic**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Power points:** 5
-
-**Psychoactive powers:**
-
-- babble, 2 PE, DC 14, id insinuation I, 2 PE, DC 14, mental block, 1 PE, DC 13, mind thrust I, 1
-  PE, DC 13, telekinetic projectile, 1 PE
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 18, Con 13, Int 14, Wis 14, Cha 15
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Improved Initiative, Toughness
-
-**Skills:** Acrobatics +10, Bluff +8, Climb +3, Craft (traps) +12, Disable Device +7, Escape Artist
-+10, Intimidate +9, Knowledge (arcana) +4, Perception +12
-
-**Racial Modifiers:** +4 Craft (traps), +4 Intimidate, +4 Perception
-
-**Languages:** Aklo, Undercommon
-
-**Special qualities:** trap savant
-
-**Ecology**
-
-**Environment:** any underground or urban
-
-**Organization:** solitary, pair, or mob (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground or urban
+Organization: solitary, pair, or mob (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,125 +32,78 @@ _This horribly withered creature moves in jerks and twitches as if constantly wr
 Waves of shadow undulate through the creature's body, emerging like appendages from just beneath its
 dry, stretched skin._
 
-**Challenge rating:** 12
-
 **Human lich [cleric](ref/class/cleric) of [Urgathoa](ref/faith/urgathoa) 11**
 
-**augment:** Humanoid
+::: statblock
+Challenge rating: 12
+augment: Humanoid
+aura: delusory aura (100 ft.)
+Initiative: +0
+Size: medium
+Alignment: Neutral evil
+Perception: +20
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 19,200
+:::
 
-**aura:** delusory aura (100 ft.)
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 21
+AC modifiers: +7 armor, +1 deflection, +3 natural
+Hit points: 97 (11d8+44)
+Fort: +7
+Ref: +3
+Will: +12
+Chan Res: +4
+Defensive abilities: soul shield, spell storm
+Dr: 15/bludgeoning and magic
+Immune: cold, electricity, [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft.
+Ch N En: 9/day, DC 19, 6d6
+Melee: +1 scythe +15/+10 (2d4+8/19-20/×4)
+Spec Att: disembodied strike (1d8+5); hand of the acolyte (8/day), soul lash (DC 19; 5d6)
+:::
 
-**Perception:** +20
-
-**Senses:** Darkvision 60 ft.
-
-**Type:** undead
-
-**Experience points:** 19,200
-
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +7 armor, +1 deflection, +3 natural
-
-**Hit points:** 97 (11d8+44)
-
-**Fort:** +7
-
-**Ref:** +3
-
-**Will:** +12
-
-**Chan Res:** +4
-
-**Defensive abilities:** soul shield, spell storm
-
-**Dr:** 15/bludgeoning and magic
-
-**Immune:** cold, electricity, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** 9/day, DC 19, 6d6
-
-**Melee:** +1 scythe +15/+10 (2d4+8/19-20/×4)
-
-**Spec Att:** disembodied strike (1d8+5); hand of the acolyte (8/day), soul lash (DC 19; 5d6)
-
-**Prepared Spells**
-
-**Caster level:** 11
-
-**Concentration:** +16
-
-**6th-level spells:**
-
-- antilife shell, create undead^D^
-
-**5th-level spells:**
-
-- flame strike (DC 20), slay living^D^, symbol of pain (DC 20), unhallow
-
-**4th-level spells:**
-
-- divine power, freedom of movement, imbue with spell ability^D^, spell immunity, unholy blight (DC
-  19)
-
-**3rd-level spells:**
-
-- animate dead^D^, bestow curse (DC 18), dispel magic, glyph of warding (DC 18), invisibility purge,
-  protection from energy
-
-**2nd-level spells:**
-
-- death knell^D^, desecrate, gentle repose, hold person (DC 17), resist energy, silence (DC 17)
-
-**1st-level spells:**
-
-- cause fear^D^ (DC 16), command (DC 16), entropic shield, deathwatch, doom (DC 16), protection from
-  good, shield of faith
-
-**Cantrips:**
-
-- bleed, detect magic, guidance, read magic
-
-**Domains:** Death, Magic
+::: statblock
+title = "Prepared Spells"
+Caster level: 11
+Concentration: +16
+6th-level spells: antilife shell, create undead^D^
+5th-level spells: flame strike (DC 20), slay living^D^, symbol of pain (DC 20), unhallow
+4th-level spells: divine power, freedom of movement, imbue with spell ability^D^, spell immunity, unholy blight (DC 19)
+3rd-level spells: animate dead^D^, bestow curse (DC 18), dispel magic, glyph of warding (DC 18), invisibility purge, protection from energy
+2nd-level spells: death knell^D^, desecrate, gentle repose, hold person (DC 17), resist energy, silence (DC 17)
+1st-level spells: cause fear^D^ (DC 16), command (DC 16), entropic shield, deathwatch, doom (DC 16), protection from good, shield of faith
+Cantrips: bleed, detect magic, guidance, read magic
+Domains: Death, Magic
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 10, Con -, Int 13, Wis 21, Cha 18
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24
-
-**Feats:** Combat Expertise, Craft Wondrous Item, Extra Channel, Improved Critical (scythe),
-Improved Trip, Selective Channeling, Weapon Focus (scythe)
-
-**Skills:** Knowledge (arcana) +15, Perception +16, Sense Motive +19, Spellcraft +15
-
-**Languages:** Common, Necril
-
-**Special qualities:** death's embrace
-
-**Gear:** +1 breastplate, +1 scythe, ring of prot1
+::: statblock
+Ability scores: Str 20, Dex 10, Con -, Int 13, Wis 21, Cha 18
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 24
+Feats: Combat Expertise, Craft Wondrous Item, Extra Channel, Improved Critical (scythe), Improved Trip, Selective Channeling, Weapon Focus (scythe)
+Skills: Knowledge (arcana) +15, Perception +16, Sense Motive +19, Spellcraft +15
+Languages: Common, Necril
+Special qualities: death's embrace
+Gear: +1 breastplate, +1 scythe, ring of prot1
+:::
 
 ### Description
 

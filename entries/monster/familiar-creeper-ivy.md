@@ -27,73 +27,59 @@ abilities = ["7", "14", "10", "-", "10", "5"]
 
 _The creeping tendrils of this plant creature guide its way up tree trunks and walls._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Type: plant
+Size: tiny
+Experience points: 100
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 natural, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +2
+Will: +0
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 15 ft., climb 15 ft.
+Constrict: 1d3-2
+Grab: Medium
+Melee: slam +0 (1d2-2 plus grab)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 7, Dex 14, Con 10, Int -, Wis 10, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 8 (can't be tripped)
+Skills: Climb +6
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 natural, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 15 ft., climb 15 ft.
-
-**Constrict:** 1d3-2
-
-**Grab:** Medium
-
-**Melee:** slam +0 (1d2-2 plus grab)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 14, Con 10, Int -, Wis 10, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 8 (can't be tripped)
-
-**Skills:** Climb +6
-
-**Ecology**
-
-**Environment:** temperate forests and urban
-
-**Organization:** solitary, pair, or tangle (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests and urban
+Organization: solitary, pair, or tangle (3-10)
+Treasure: None
+:::
 
 ### Description
 

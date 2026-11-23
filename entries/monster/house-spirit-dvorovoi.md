@@ -33,97 +33,71 @@ abilities = ["19", "16", "14", "9", "13", "16"]
 _A wild mop of hair tops this small humanoid creature's head. It has prominent gleaming eyes and a
 toothy grin._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +3
+Perception: +9
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +3 natural, +1 size
+Hit points: 38 (7d6+14)
+Fort: +4
+Ref: +8
+Will: +6
+Dr: 5/cold iron
+Sr: 15
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft.
+Melee: pitchfork +8 (1d8+6)
+Ranged: pitchfork +7 (1d8+6)
+:::
 
-**Senses:** Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+Constant: speak with animals
+At will: charm animal (DC 14), hide from animals, invisibility
+Per day: 3/day: break (DC 14), reduce person (DC 14)\
+1/day: entangle (DC 14)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 19, Dex 16, Con 14, Int 9, Wis 13, Cha 16
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Catch Off-Guard, Combat Reflexes, Throw Anything, Two-Handed Thrower
+Skills: Acrobatics +10, Bluff +10, Diplomacy +9, Knowledge (nature) +5, Perception +9
+Racial Modifiers: +4 Handle Animal
+Languages: Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: [compression](ref/umr/compression), oversized weapons, [wild empathy](ref/ability/wild-empathy) +18
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +3 natural, +1 size
-
-**Hit points:** 38 (7d6+14)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +6
-
-**Dr:** 5/cold iron
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** pitchfork +8 (1d8+6)
-
-**Ranged:** pitchfork +7 (1d8+6)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- charm animal (DC 14), hide from animals, invisibility
-
-**Per day:**
-
-- 3/day: break (DC 14), reduce person (DC 14)
-- 1/day: entangle (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 16, Con 14, Int 9, Wis 13, Cha 16
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Catch Off-Guard, Combat Reflexes, Throw Anything, Two-Handed Thrower
-
-**Skills:** Acrobatics +10, Bluff +10, Diplomacy +9, Knowledge (nature) +5, Perception +9
-
-**Racial Modifiers:** +4 Handle Animal
-
-**Languages:** Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** [compression](ref/umr/compression), oversized weapons,
-[wild empathy](ref/ability/wild-empathy) +18
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or gathering (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or gathering (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

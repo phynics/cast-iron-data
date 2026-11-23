@@ -32,78 +32,60 @@ abilities = ["15", "16", "15", "8", "12", "17"]
 _This hideous humanoid creature has slimy, transparent skin; webbed, humanoid hands; and a
 snaggletoothed, horse-like face._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: fey
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +13
+Senses: Low-light vision
+Subtype: Aquatic, Shapechanger
+Experience points: 1,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 38 (7d6+14)
+Fort: +4
+Ref: +8
+Will: +6
+Resist: fire 10
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., swim 40 ft.
+Melee: 2 slams +6 (1d6+2 plus [grab](ref/umr/grab))
+Spec Att: captivating lure
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 16, Con 15, Int 8, Wis 12, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +5 (+9 grapple)
+Combat maneuver defense: 18
+Feats: Alertness, Deceitful, Improved Initiative, Weapon Finesse
+Skills: Bluff +15, Disguise +15, Sense Motive +13, Stealth +13, Swim +10
+Languages: Aquan, Common, Sylvan; [telepathy](ref/umr/telepathy) (1 mile, previously touched creatures only)
+Special qualities: [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (hippocampus or horse, [beast shape IV](ref/spell/beast-shape-4); Small or Medium humanoid, [alter self](ref/spell/alter-self))
+:::
 
-**Subtype:** Aquatic, Shapechanger
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 38 (7d6+14)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +6
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft.
-
-**Melee:** 2 slams +6 (1d6+2 plus [grab](ref/umr/grab))
-
-**Spec Att:** captivating lure
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 16, Con 15, Int 8, Wis 12, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5 (+9 grapple)
-
-**Combat maneuver defense:** 18
-
-**Feats:** Alertness, Deceitful, Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +15, Disguise +15, Sense Motive +13, Stealth +13, Swim +10
-
-**Languages:** Aquan, Common, Sylvan; [telepathy](ref/umr/telepathy) (1 mile, previously touched
-creatures only)
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape)
-(hippocampus or horse, [beast shape IV](ref/spell/beast-shape-4); Small or Medium humanoid,
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or shoal (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any water
+Organization: solitary or shoal (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

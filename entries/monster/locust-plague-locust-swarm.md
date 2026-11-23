@@ -30,77 +30,61 @@ abilities = ["1", "18", "17", "-", "13", "2"]
 
 _Buzzing with an ear-shattering drone, this cloud is full of particularly vicious-looking locusts._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: fine
+Initiative: +4
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Type: vermin
+Experience points: 4,800
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 22
+Touch: 22
+Flat-footed: 18
+AC modifiers: +4 Dex, +8 size
+Hit points: 90 (12d8+36)
+Fort: +11
+Ref: +8
+Will: +5
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 10 ft., climb 10 ft., fly 40 ft. (average)
+Distraction: 19
+Melee: swarm (4d6 plus distraction)
+Reach: 0
+Space: 10
+Spec Att: devour, voracious
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 18, Con 17, Int -, Wis 13, Cha 2
+Base attack bonus: +9
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +12
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 22
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +8 size
-
-**Hit points:** 90 (12d8+36)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +5
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., fly 40 ft. (average)
-
-**Distraction:** 19
-
-**Melee:** swarm (4d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** devour, voracious
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 18, Con 17, Int -, Wis 13, Cha 2
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +12
-
-**Ecology**
-
-**Environment:** warm deserts or plains
-
-**Organization:** solitary, pair, or calamity (3-64)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts or plains
+Organization: solitary, pair, or calamity (3-64)
+Treasure: None
+:::
 
 ### Special Abilities
 

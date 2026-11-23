@@ -30,71 +30,58 @@ abilities = ["14", "28", "15", "-", "11", "3"]
 _Several thin tendrils extend aggressively from the open tip of this red tube made of a coralline
 substance._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +5
+Will: +1
+Defensive abilities: tube armor
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 10 ft., swim 20 ft.
+Melee: 2 stings +4 (1d4+2 plus poison)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 14, Dex 28, Con 15, Int -, Wis 11, Cha 3
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 18 (can't be tripped)
+Skills: Swim +10
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 600
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Defensive abilities:** tube armor
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft.
-
-**Melee:** 2 stings +4 (1d4+2 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 28, Con 15, Int -, Wis 11, Cha 3
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Skills:** Swim +10
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or cluster (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or cluster (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

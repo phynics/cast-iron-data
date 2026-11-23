@@ -29,75 +29,60 @@ abilities = ["25", "15", "17", "2", "12", "10"]
 _This immense spotted lion stands as tall as a man at the shoulder, its fur matted with the blood of
 its victims._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 60 (8d8+24)
+Fort: +9
+Ref: +8
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +12 (1d8+7 plus [grab](ref/umr/grab)), 2 claws +13 (1d6+7)
+Pounce: present
+Rake: 2 claws +13, 1d6+7
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 15, Con 17, Int 2, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Improved Initiative, Run, Skill Focus (Perception), Weapon Focus (claw)
+Skills: Acrobatics +11, Perception +11, Stealth +7 (+11 in undergrowth)
+Racial Modifiers: +4 Acrobatics, +4 Stealth (+8 in undergrowth)
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 60 (8d8+24)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +12 (1d8+7 plus [grab](ref/umr/grab)), 2 claws +13 (1d6+7)
-
-**Pounce:** present
-
-**Rake:** 2 claws +13, 1d6+7
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 15, Con 17, Int 2, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Improved Initiative, Run, Skill Focus (Perception), Weapon Focus (claw)
-
-**Skills:** Acrobatics +11, Perception +11, Stealth +7 (+11 in undergrowth)
-
-**Racial Modifiers:** +4 Acrobatics, +4 Stealth (+8 in undergrowth)
-
-**Ecology**
-
-**Environment:** warm plains or hills
-
-**Organization:** solitary, pair, or pride (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm plains or hills
+Organization: solitary, pair, or pride (3-8)
+Treasure: Incidental
+:::
 
 ### Description
 

@@ -32,106 +32,75 @@ _This wolf-like creature's body is composed of thick vines, fine vegetation that
 fur, and enormous thorns. Its eyes shine with a green glow, and prickly vines cover the immense,
 antler-like growths on its head._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +4
+Size: large
+Alignment: Neutral good
+Perception: +22
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Type: plant
+Experience points: 12,800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 26
+Touch: 14
+Flat-footed: 21
+AC modifiers: +4 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 136 (16d8+64)
+Fort: +14
+Ref: +11
+Will: +8
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: cold 10
+Vulner: fire
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +22
+::: statblock
+Speed: 40 ft.
+Melee: gore +21 (2d8+9 plus rampant growth), bite +21 (2d8+9)
+Pow Ch: gore, 4d8+13
+Reach: 10
+Space: 10
+Spec Att: rampant growth
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +15
+Constant: speak with plants
+At will: detect evil
+Per day: 3/day: command plants (DC 16)\
+1/day: tree stride, wall of thorns
+:::
 
-**Type:** plant
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 28, Dex 19, Con 18, Int 12, Wis 17, Cha 15
+Base attack bonus: +12
+Combat maneuver bonus: +22
+Combat maneuver defense: 37
+Feats: Combat Reflexes, Dodge, Lightning Reflexes, Mobility, Power Attack, Spring Attack, Weapon Focus (bite), Weapon Focus (gore)
+Skills: Acrobatics +8 (+12 when jumping), Diplomacy +10, Intimidate +10, Knowledge (nature) +5, Perception +22
+Racial Modifiers: +4 Acrobatics when jumping
+Languages: Common, Sylvan
+Special qualities: thorny body, verdant glide
+:::
 
-**Armor class:** 26
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 136 (16d8+64)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +8
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 10
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +21 (2d8+9 plus rampant growth), bite +21 (2d8+9)
-
-**Pow Ch:** gore, 4d8+13
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** rampant growth
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +15
-
-**Constant:**
-
-- speak with plants
-
-**At will:**
-
-- detect evil
-
-**Per day:**
-
-- 3/day: command plants (DC 16)
-- 1/day: tree stride, wall of thorns
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 19, Con 18, Int 12, Wis 17, Cha 15
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 37
-
-**Feats:** Combat Reflexes, Dodge, Lightning Reflexes, Mobility, Power Attack, Spring Attack, Weapon
-Focus (bite), Weapon Focus (gore)
-
-**Skills:** Acrobatics +8 (+12 when jumping), Diplomacy +10, Intimidate +10, Knowledge (nature) +5,
-Perception +22
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** thorny body, verdant glide
-
-**Ecology**
-
-**Environment:** cold or temperate forests
-
-**Organization:** solitary, pair, or pack
-
-**Treasure:** Standard
+::: statblock
+Environment: cold or temperate forests
+Organization: solitary, pair, or pack
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,107 +31,74 @@ abilities = ["52", "31", "42", "3", "32", "27"]
 _This mountain of filthy green sludge heaps up on itself, extending six tentacles and unfolding its
 core to reveal a single red eye._
 
-**Challenge rating:** 29
+::: statblock
+Challenge rating: 29
+aura: polluted magic (300 ft.)
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +14
+Type: ooze
+Perception: +32
+Senses: Darkvision 600 ft.
+Subtype: Kaiju, Water
+tremorsense: 600
+Experience points: 6,553,600
+:::
 
-**aura:** polluted magic (300 ft.)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 47
+Touch: 13
+Flat-footed: 36
+AC modifiers: +10 Dex, +1 dodge, +34 natural, -8 size
+Hit points: 717 (35d8+560)
+Fort: +27
+Ref: +23
+Will: +24
+Defensive abilities: absorb magic, recovery
+Dr: 20/epic
+Ferocity: present
+Fh: 30
+Immune: ability damage, ability drain, acid, death effects, disease, energy drain, fear, poison, [ooze traits](ref/umr/ooze-traits)
+Resist: acid 30, cold 30, electricity 30, fire 30, sonic 30, negative energy 30
+Sr: 40
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +14
+::: statblock
+Speed: 50 ft., climb 50 ft., swim 100 ft.
+Constrict: 4d6+31 plus 2d6 acid
+F Swallow: present
+Melee: 6 tentacles +40 (4d6+21/19-20 plus 2d6 acid and [grab](ref/umr/grab))
+Reach: 60
+Space: 80
+Spec Att: acid beam, hurl foe, infuse terrain
+Swallow: 10d6 acid and 10d6 bludgeoning damage, AC 27, 71 hp
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +32
+::: statblock
+Ability scores: Str 52, Dex 31, Con 42, Int 3, Wis 32, Cha 27
+Base attack bonus: +26
+Combat maneuver bonus: +55 (+59 bull rush)
+Combat maneuver defense: 76 (78 vs. bull rush, can't be tripped)
+Feats: Blinding Critical, Combat Reflexes, Critical Focus, Dodge, Greater Bull Rush, Greater Vital Strike, Improved Bull Rush, Improved Critical (tentacle), Improved Initiative, Improved Lightning Reflexes, Improved Vital Strike, Iron Will, Lightning Reflexes, Lunge, Mobility, Power Attack, Vital Strike, Weapon Focus (tentacle)
+Skills: Climb +44
+Racial Modifiers: +16 Perception
+Languages: Aquan (can't speak)
+Special qualities: massive
+:::
 
-**Senses:** Darkvision 600 ft.
+### Ecology
 
-**Subtype:** Kaiju, Water
-
-**tremorsense:** 600
-
-**Experience points:** 6,553,600
-
-**Armor class:** 47
-
-**Touch:** 13
-
-**Flat-footed:** 36
-
-**AC modifiers:** +10 Dex, +1 dodge, +34 natural, -8 size
-
-**Hit points:** 717 (35d8+560)
-
-**Fort:** +27
-
-**Ref:** +23
-
-**Will:** +24
-
-**Defensive abilities:** absorb magic, recovery
-
-**Dr:** 20/epic
-
-**Ferocity:** present
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, acid, death effects, disease, energy drain, fear, poison,
-[ooze traits](ref/umr/ooze-traits)
-
-**Resist:** acid 30, cold 30, electricity 30, fire 30, sonic 30, negative energy 30
-
-**Sr:** 40
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft., swim 100 ft.
-
-**Constrict:** 4d6+31 plus 2d6 acid
-
-**F Swallow:** present
-
-**Melee:** 6 tentacles +40 (4d6+21/19-20 plus 2d6 acid and [grab](ref/umr/grab))
-
-**Reach:** 60
-
-**Space:** 80
-
-**Spec Att:** acid beam, hurl foe, infuse terrain
-
-**Swallow:** 10d6 acid and 10d6 bludgeoning damage, AC 27, 71 hp
-
-**Statistics**
-
-**Ability scores:** Str 52, Dex 31, Con 42, Int 3, Wis 32, Cha 27
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +55 (+59 bull rush)
-
-**Combat maneuver defense:** 76 (78 vs. bull rush, can't be tripped)
-
-**Feats:** Blinding Critical, Combat Reflexes, Critical Focus, Dodge, Greater Bull Rush, Greater
-Vital Strike, Improved Bull Rush, Improved Critical (tentacle), Improved Initiative, Improved
-Lightning Reflexes, Improved Vital Strike, Iron Will, Lightning Reflexes, Lunge, Mobility, Power
-Attack, Vital Strike, Weapon Focus (tentacle)
-
-**Skills:** Climb +44
-
-**Racial Modifiers:** +16 Perception
-
-**Languages:** Aquan (can't speak)
-
-**Special qualities:** massive
-
-**Ecology**
-
-**Environment:** warm swamps
-
-**Organization:** solitary (unique)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm swamps
+Organization: solitary (unique)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

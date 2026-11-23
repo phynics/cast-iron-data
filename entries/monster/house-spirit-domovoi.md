@@ -32,94 +32,69 @@ abilities = ["10", "15", "14", "9", "13", "15"]
 
 _Barely knee-high, this small creature looks like a hairy old man with more beard than flesh._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic good
+Type: fey
+Initiative: +6
+Perception: +7
+Senses: Low-light vision
+Size: tiny
+Experience points: 800
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 14
+AC modifiers: +2 Dex, +1 dodge, +2 natural, +2 size
+Hit points: 27 (5d6+10)
+Fort: +3
+Ref: +6
+Will: +5
+Dr: 5/cold iron
+Sr: 14
+:::
 
-**Initiative:** +6
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft.
+Melee: club +4 (1d3)
+Spec Att: telekinesis
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+At will: invisibility, lullaby (DC 12), mage hand, mending, prestidigitation
+Per day: 3/day: reduce person (DC 13), sleep (DC 13)
+Per week: augury
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 10, Dex 15, Con 14, Int 9, Wis 13, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 13
+Feats: Dodge, Improved Initiative, Mobility
+Skills: Acrobatics +7, Bluff +8, Diplomacy +8, Handle Animal +7, Sense Motive +7, Stealth +17
+Languages: Common, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (cat or dog; [beast shape I](ref/spell/beast-shape-1)), [compression](ref/umr/compression)
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +1 dodge, +2 natural, +2 size
-
-**Hit points:** 27 (5d6+10)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +5
-
-**Dr:** 5/cold iron
-
-**Sr:** 14
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** club +4 (1d3)
-
-**Spec Att:** telekinesis
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**At will:**
-
-- invisibility, lullaby (DC 12), mage hand, mending, prestidigitation
-
-**Per day:**
-
-- 3/day: reduce person (DC 13), sleep (DC 13)
-
-**Per week:**
-
-- augury
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 14, Int 9, Wis 13, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13
-
-**Feats:** Dodge, Improved Initiative, Mobility
-
-**Skills:** Acrobatics +7, Bluff +8, Diplomacy +8, Handle Animal +7, Sense Motive +7, Stealth +17
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (cat or dog;
-[beast shape I](ref/spell/beast-shape-1)), [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or gathering (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or gathering (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

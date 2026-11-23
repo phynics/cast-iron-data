@@ -30,114 +30,79 @@ abilities = ["14", "16", "16", "7", "18", "10"]
 _Garbed in tattered robes, this emaciated humanoid creature stares out with unblinking white eyes.
 In one hand, he clutches a great blade, while his other hand holds an idol of some fell power._
 
-**Challenge rating:** 5
-
 **Male morlock [cleric](ref/class/cleric) of [Lamashtu](ref/faith/lamashtu) 4**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +3
+Size: medium
+Type: Monstrous humanoid
+Perception: +8
+Senses: Darkvision 120 ft., Scent
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 18
+AC modifiers: +7 armor, +2 Dex, +1 natural
+Hit points: 59 (4d8+3d10+25\~7)
+Fort: +9
+Ref: +8
+Will: +14
+Immune: disease, poison
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 40 ft., climb 30 ft., (30 ft. in armor)
+Ch N En: 3/day, DC 12, 2d6
+Melee: mwk falchion +9/+4 (2d4+3/18-20) or bite +3 (1d4+1)
+Sneak: +1d6
+:::
 
-**Senses:** Darkvision 120 ft., Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +8
+Per day: 7/day: touch of chaos, vision of madness, +/-2
+:::
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +7 armor, +2 Dex, +1 natural
-
-**Hit points:** 59 (4d8+3d10+25\~7)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +14
-
-**Immune:** disease, poison
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft., (30 ft. in armor)
-
-**Ch N En:** 3/day, DC 12, 2d6
-
-**Melee:** mwk falchion +9/+4 (2d4+3/18-20) or bite +3 (1d4+1)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +8
-
-**Per day:**
-
-- 7/day: touch of chaos, vision of madness, +/-2
-
-**Prepared Spells**
-
-**Caster level:** 4
-
-**Concentration:** +8
-
-**2nd-level spells:**
-
-- align weapon^D^, chaos only, hold person (DC 16), resist energy, spiritual weapon
-
-**1st-level spells:**
-
-- cure light wounds, divine favor, murderous command (DC 15), protection from law^D^, shield of
-  faith
-
-**Cantrips:**
-
-- bleed (DC 14), create water, detect magic, purify food and drink (DC 14)
-
-**Domains:** Chaos, [Madness](ref/domain/madness)
+::: statblock
+title = "Prepared Spells"
+Caster level: 4
+Concentration: +8
+2nd-level spells: align weapon^D^, chaos only, hold person (DC 16), resist energy, spiritual weapon
+1st-level spells: cure light wounds, divine favor, murderous command (DC 15), protection from law^D^, shield of faith
+Cantrips: bleed (DC 14), create water, detect magic, purify food and drink (DC 14)
+Domains: Chaos, [Madness](ref/domain/madness)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 14, Dex 16, Con 16, Int 7, Wis 18, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Combat Casting, Extra Channel, Iron Will, Power Attack
-
-**Skills:** Acrobatics +8, Climb +18, Knowledge (planes) +4, Perception +8, Sense Motive +8, Stealth
--1 (+3 in caverns)
-
-**Racial Modifiers:** +8 Acrobatics, +8 Climb
-
-**Languages:** Undercommon
-
-**Special qualities:** +4 stealth in caverns, expert climber, leap attack, swarming
-
-**Combat gear:** potion of bestow curse, scroll of daze monster, Dcure light wounds/30 charges
-
-**Other gear:** +1 chainmail, mwk falchion, Iclk1,
-[silver holy symbol](ref/eq-misc/holy-symbol-silver) of Lamashtu
+::: statblock
+Ability scores: Str 14, Dex 16, Con 16, Int 7, Wis 18, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Combat Casting, Extra Channel, Iron Will, Power Attack
+Skills: Acrobatics +8, Climb +18, Knowledge (planes) +4, Perception +8, Sense Motive +8, Stealth -1 (+3 in caverns)
+Racial Modifiers: +8 Acrobatics, +8 Climb
+Languages: Undercommon
+Special qualities: +4 stealth in caverns, expert climber, leap attack, swarming
+Combat gear: potion of bestow curse, scroll of daze monster, Dcure light wounds/30 charges
+Other gear: +1 chainmail, mwk falchion, Iclk1, [silver holy symbol](ref/eq-misc/holy-symbol-silver) of Lamashtu
+:::
 
 ### Description
 

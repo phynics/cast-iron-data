@@ -33,92 +33,69 @@ abilities = ["12", "17", "15", "9", "14", "16"]
 _Covered in sleek black fur, this vaguely feline humanoid holds flickering flames in its clawed
 hand._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +3
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 14
+AC modifiers: +3 Dex, +2 natural, +2 size
+Hit points: 22 (4d6+8)
+Fort: +3
+Ref: +7
+Will: +6
+Dr: 2/cold iron
+Resist: fire 5
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: 2 claws +7 (1d3+1)
+Sneak: +1d6
+Spec Att: luck touch
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +7
+At will: daze (DC 13), produce flame
+Per month: divination
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 12, Dex 17, Con 15, Int 9, Wis 14, Cha 16
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Go Unnoticed, Weapon Finesse
+Skills: Acrobatics +8, Climb +11, Escape Artist +10, Intimidate +5, Knowledge (local) +4, Perception +9, Stealth +18
+Languages: Common, Sylvan
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +2 natural, +2 size
-
-**Hit points:** 22 (4d6+8)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +6
-
-**Dr:** 2/cold iron
-
-**Resist:** fire 5
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** 2 claws +7 (1d3+1)
-
-**Sneak:** +1d6
-
-**Spec Att:** luck touch
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +7
-
-**At will:**
-
-- daze (DC 13), produce flame
-
-**Per month:**
-
-- divination
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 15, Int 9, Wis 14, Cha 16
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Go Unnoticed, Weapon Finesse
-
-**Skills:** Acrobatics +8, Climb +11, Escape Artist +10, Intimidate +5, Knowledge (local) +4,
-Perception +9, Stealth +18
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,93 +32,69 @@ abilities = ["16", "1", "18", "-", "1", "1"]
 _An acidic tang fills the air of this small, glittering cave. Several extremely sharp formations are
 as large as a human head._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: hypnotic lure (30 ft., DC 18)
+blindsight: 30
+Size: huge
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Earth, Extraplanar
+tremorsense: 60
+Experience points: 6,400
+:::
 
-**aura:** hypnotic lure (30 ft., DC 18)
+### Defense
 
-**blindsight:** 30
+::: statblock
+Armor class: 15
+Touch: 3
+Flat-footed: 15
+AC modifiers: -5 Dex, +12 natural, -2 size
+Hit points: 119 (14d8+56)
+Fort: +8
+Ref: -1
+Will: -1
+Dr: 10/-
+Immune: acid, cold, [ooze traits](ref/umr/ooze-traits)
+Resist: electricity 20, fire 20
+Vulner: sonic
+Weaknesses: brittle
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** -5
+::: statblock
+Speed: 5 ft., burrow 5 ft.
+Engulf: DC 20, 6d8 piercing/slashing and 2d6 acid
+Melee: slam +11 (3d8+4/18-20 plus pull)
+Pull: slam, 5 ft.
+Reach: 15
+Space: 15
+Spec Att: razor sharp
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str 16, Dex 1, Con 18, Int -, Wis 1, Cha 1
+Base attack bonus: +10
+Combat maneuver bonus: +15
+Combat maneuver defense: 20 (can't be tripped)
+Skills: Stealth -3 (+7 underground)
+Racial Modifiers: +10 Stealth (+20 underground)
+Special qualities: [freeze](ref/umr/freeze) (as geode)
+:::
 
-**Perception:** -5
+### Ecology
 
-**Subtype:** Earth, Extraplanar
-
-**tremorsense:** 60
-
-**Experience points:** 6,400
-
-**Armor class:** 15
-
-**Touch:** 3
-
-**Flat-footed:** 15
-
-**AC modifiers:** -5 Dex, +12 natural, -2 size
-
-**Hit points:** 119 (14d8+56)
-
-**Fort:** +8
-
-**Ref:** -1
-
-**Will:** -1
-
-**Dr:** 10/-
-
-**Immune:** acid, cold, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** electricity 20, fire 20
-
-**Vulner:** sonic
-
-**Weaknesses:** brittle
-
-**Offense**
-
-**Speed:** 5 ft., burrow 5 ft.
-
-**Engulf:** DC 20, 6d8 piercing/slashing and 2d6 acid
-
-**Melee:** slam +11 (3d8+4/18-20 plus pull)
-
-**Pull:** slam, 5 ft.
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** razor sharp
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 1, Con 18, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 20 (can't be tripped)
-
-**Skills:** Stealth -3 (+7 underground)
-
-**Racial Modifiers:** +10 Stealth (+20 underground)
-
-**Special qualities:** [freeze](ref/umr/freeze) (as geode)
-
-**Ecology**
-
-**Environment:** any underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary
-
-**Treasure:** Double; gems and crystals
+::: statblock
+Environment: any underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary
+Treasure: Double; gems and crystals
+:::
 
 ### Special Abilities
 

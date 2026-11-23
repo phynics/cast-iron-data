@@ -31,155 +31,92 @@ abilities = ["43", "34", "30", "17", "22", "25"]
 _This mighty, two-headed dragon has a six-legged serpentine body that ends in a writhing, whip-like
 tail._
 
-**Challenge rating:** 24
-
-**aura:** [frightful presence](ref/umr/frightful-presence) (300 ft., DC 33)
-
-**Size:** colossal
-
-**Type:** dragon
-
-**Initiative:** +16
-
-**Alignment:** Neutral
-
-**Perception:** +49
-
-**Senses:** Darkvision 300 ft., Low-light vision, Scent, True seeing
-
-**Experience points:** 1,228,800
-
-**Armor class:** 42
-
-**Touch:** 14
-
-**Flat-footed:** 30
-
-**AC modifiers:** +12 Dex, +28 natural, -8 size
-
-**Hit points:** 528 (32d12+320)
-
-**Fort:** +28
-
-**Ref:** +30
-
-**Will:** +24
-
-**Dr:** 20/epic
-
-**Fh:** 20
-
-**Immune:** acid, charm, curses, electricity, fear, paralysis, petrification, sleep
-
-**Resist:** cold 30, fire 30, sonic 30
-
-**Sr:** 35
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft., swim 50 ft., fly 250 ft. (poor)
-
-**Melee:** 2 bites +40 (4d8+16/19-20 plus myth-drinker), 2 claws +40 (2d8+16), 2 tail slaps +35
-(4d6+8/19-20)
-
-**Reach:** 30
-
-**Rend:** 2 bites, 4d8+16 plus myth-drinker
-
-**Space:** 30
-
-**Spec Att:** breath weapon, godslayer, swift tail, synchronized strike, tail snap
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- true seeing
-
-**Per month:**
-
-- miracle
-
-**Spells Known**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**9th-level spells:**
-
-- 6/day: dominate monster (DC 26), foresight, time stop
-
-**8th-level spells:**
-
-- 6/day: greater prying eyes, maze, sunburst (DC 25)
-
-**7th-level spells:**
-
-- 7/day: greater arcane sight, greater scrying (DC 24), greater teleport
-
-**6th-level spells:**
-
-- 7/day: disintegrate (DC 23), mass suggestion (DC 23), shadow walk (DC 23)
-
-**5th-level spells:**
-
-- 7/day: cone of cold (DC 22), feeblemind (DC 22), hold monster (DC 22), wall of force
-
-**4th-level spells:**
-
-- 7/day: arcane eye, bestow curse (DC 21), dimension door, stone shape
-
-**3rd-level spells:**
-
-- 8/day: clairaudience/clairvoyance, dispel magic, haste, ray of exhaustion (DC 20)
-
-**2nd-level spells:**
-
-- 8/day: blur, glitterdust (DC 19), invisibility, mirror image, whispering wind
-
-**1st-level spells:**
-
-- 8/day: alarm, comprehend languages, expeditious retreat, shield, unseen servant
-
-**Cantrips:**
-
-- At will: arcane mark, bleed (DC 17), dancing lights, detect magic, ghost sound (DC 17), mage hand,
-  message, prestidigitation, read magic
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 34, Con 30, Int 17, Wis 22, Cha 25
-
-**Base attack bonus:** +32
-
-**Combat maneuver bonus:** +56
-
-**Combat maneuver defense:** 78 (86 vs. trip)
-
-**Feats:** Alertness, Arcane Strike, Combat Reflexes, Empower Spell, Flyby Attack, Greater Spell
-Penetration, Greater Vital Strike, Hover, Improved Critical (bite, tail slap), Improved Initiative,
-Improved Vital Strike, Lunge, Power Attack, Quicken Spell, Vital Strike
-
-**Skills:** Acrobatics +44, Bluff +42, Climb +24, Diplomacy +42, Fly +0, Use Magic Device +42
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Draconic, Infernal, Undercommon
-
-**Special qualities:** impossible coordination
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Challenge rating: 24
+aura: [frightful presence](ref/umr/frightful-presence) (300 ft., DC 33)
+Size: colossal
+Type: dragon
+Initiative: +16
+Alignment: Neutral
+Perception: +49
+Senses: Darkvision 300 ft., Low-light vision, Scent, True seeing
+Experience points: 1,228,800
+:::
+
+### Defense
+
+::: statblock
+Armor class: 42
+Touch: 14
+Flat-footed: 30
+AC modifiers: +12 Dex, +28 natural, -8 size
+Hit points: 528 (32d12+320)
+Fort: +28
+Ref: +30
+Will: +24
+Dr: 20/epic
+Fh: 20
+Immune: acid, charm, curses, electricity, fear, paralysis, petrification, sleep
+Resist: cold 30, fire 30, sonic 30
+Sr: 35
+:::
+
+### Offense
+
+::: statblock
+Speed: 50 ft., climb 50 ft., swim 50 ft., fly 250 ft. (poor)
+Melee: 2 bites +40 (4d8+16/19-20 plus myth-drinker), 2 claws +40 (2d8+16), 2 tail slaps +35 (4d6+8/19-20)
+Reach: 30
+Rend: 2 bites, 4d8+16 plus myth-drinker
+Space: 30
+Spec Att: breath weapon, godslayer, swift tail, synchronized strike, tail snap
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: true seeing
+Per month: miracle
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 20
+Concentration: +27
+9th-level spells: 6/day: dominate monster (DC 26), foresight, time stop
+8th-level spells: 6/day: greater prying eyes, maze, sunburst (DC 25)
+7th-level spells: 7/day: greater arcane sight, greater scrying (DC 24), greater teleport
+6th-level spells: 7/day: disintegrate (DC 23), mass suggestion (DC 23), shadow walk (DC 23)
+5th-level spells: 7/day: cone of cold (DC 22), feeblemind (DC 22), hold monster (DC 22), wall of force
+4th-level spells: 7/day: arcane eye, bestow curse (DC 21), dimension door, stone shape
+3rd-level spells: 8/day: clairaudience/clairvoyance, dispel magic, haste, ray of exhaustion (DC 20)
+2nd-level spells: 8/day: blur, glitterdust (DC 19), invisibility, mirror image, whispering wind
+1st-level spells: 8/day: alarm, comprehend languages, expeditious retreat, shield, unseen servant
+Cantrips: At will: arcane mark, bleed (DC 17), dancing lights, detect magic, ghost sound (DC 17), mage hand, message, prestidigitation, read magic
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 43, Dex 34, Con 30, Int 17, Wis 22, Cha 25
+Base attack bonus: +32
+Combat maneuver bonus: +56
+Combat maneuver defense: 78 (86 vs. trip)
+Feats: Alertness, Arcane Strike, Combat Reflexes, Empower Spell, Flyby Attack, Greater Spell Penetration, Greater Vital Strike, Hover, Improved Critical (bite, tail slap), Improved Initiative, Improved Vital Strike, Lunge, Power Attack, Quicken Spell, Vital Strike
+Skills: Acrobatics +44, Bluff +42, Climb +24, Diplomacy +42, Fly +0, Use Magic Device +42
+Racial Modifiers: +4 Perception
+Languages: Abyssal, Aklo, Celestial, Common, Draconic, Infernal, Undercommon
+Special qualities: impossible coordination
+:::
+
+### Ecology
+
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -30,105 +30,75 @@ abilities = ["24", "17", "21", "15", "22", "20"]
 _At the core of this multi-limbed monstrosity of claws and blades struggles a glistening mass of
 veins, organs, and twisted flesh._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +7
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 19,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 26
+Touch: 13
+Flat-footed: 22
+AC modifiers: +3 Dex, +1 dodge, +13 natural, -1 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +9
+Will: +17
+Dr: 10/silver or good
+Immune: cold
+Regen: 5 (good weapons and spells, silver weapons)
+Sr: 23
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Bleed: 1d6
+Melee: 4 claws +20 (1d8+7/19-20 plus bleed)
+Reach: 10
+Rend: 2 claws, 1d8+7
+Space: 10
+Spec Att: poison, surgical strikes, unnerving gaze (30 ft.; DC 22)
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+At will: bleed (DC 15), plane shift, from the Material Plane to the Plane of Shadow Plane, self only, stabilize
+Per day: 3/day: cure serious wounds, restoration\
+1/day: breath of life
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+::: statblock
+Ability scores: Str 24, Dex 17, Con 21, Int 15, Wis 22, Cha 20
+Base attack bonus: +14
+Combat maneuver bonus: +22
+Combat maneuver defense: 36 (38 vs. trip)
+Feats: Cleave, Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack
+Skills: Heal +23, Intimidate +22, Knowledge (arcana, local, religion) +9, Perception +23, Sense Motive +23, Stealth +16
+Languages: Common, Infernal
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 13
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 Dex, +1 dodge, +13 natural, -1 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +9
-
-**Will:** +17
-
-**Dr:** 10/silver or good
-
-**Immune:** cold
-
-**Regen:** 5 (good weapons and spells, silver weapons)
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Bleed:** 1d6
-
-**Melee:** 4 claws +20 (1d8+7/19-20 plus bleed)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d8+7
-
-**Space:** 10
-
-**Spec Att:** poison, surgical strikes, unnerving gaze (30 ft.; DC 22)
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**At will:**
-
-- bleed (DC 15), plane shift, from the Material Plane to the Plane of Shadow Plane, self only,
-  stabilize
-
-**Per day:**
-
-- 3/day: cure serious wounds, restoration
-- 1/day: breath of life
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 21, Int 15, Wis 22, Cha 20
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 36 (38 vs. trip)
-
-**Feats:** Cleave, Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Power
-Attack
-
-**Skills:** Heal +23, Intimidate +22, Knowledge (arcana, local, religion) +9, Perception +23, Sense
-Motive +23, Stealth +16
-
-**Languages:** Common, Infernal
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, or gang (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, or gang (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

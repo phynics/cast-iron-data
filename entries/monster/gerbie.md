@@ -31,93 +31,70 @@ abilities = ["6", "16", "13", "11", "16", "21"]
 _This half-mouse, half-lizard creature has large eyes and stands on its hind legs, radiating an air
 of goodwill._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: friendship (60 ft., DC 18)
+Alignment: Chaotic good
+Type: fey
+Initiative: +3
+Perception: +13
+Senses: Low-light vision
+Size: small
+Experience points: 1,200
+:::
 
-**aura:** friendship (60 ft., DC 18)
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 38 (7d6+14)
+Fort: +3
+Ref: +8
+Will: +8
+Dr: 10/cold iron
+Sr: 15
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 30 ft.
+Melee: bite +7 (1d4-2) or touch +8 (forget)
+Spec Att: forget, mental cacophony
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +12
+At will: calm animals (DC 16), calm emotions (DC 17), charm monster (DC 18), tongues (DC 17)
+Per day: 3/day: detect thoughts (DC 17)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 6, Dex 16, Con 13, Int 11, Wis 16, Cha 21
+Base attack bonus: +3
+Combat maneuver bonus: +0
+Combat maneuver defense: 14
+Feats: Dodge, Toughness, Weapon Finesse, Weapon Focus (touch)
+Skills: Acrobatics +12, Diplomacy +19, Heal +10
+Racial Modifiers: +4 Diplomacy
+Languages: First Speech; _truespeech_
+Special qualities: charmer
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 38 (7d6+14)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 10/cold iron
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +7 (1d4-2) or touch +8 (forget)
-
-**Spec Att:** forget, mental cacophony
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**At will:**
-
-- calm animals (DC 16), calm emotions (DC 17), charm monster (DC 18), tongues (DC 17)
-
-**Per day:**
-
-- 3/day: detect thoughts (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 16, Con 13, Int 11, Wis 16, Cha 21
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 14
-
-**Feats:** Dodge, Toughness, Weapon Finesse, Weapon Focus (touch)
-
-**Skills:** Acrobatics +12, Diplomacy +19, Heal +10
-
-**Racial Modifiers:** +4 Diplomacy
-
-**Languages:** First Speech; _truespeech_
-
-**Special qualities:** charmer
-
-**Ecology**
-
-**Environment:** any (First World)
-
-**Organization:** solitary, pair, or party (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (First World)
+Organization: solitary, pair, or party (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

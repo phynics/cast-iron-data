@@ -33,109 +33,76 @@ _This goat-like creature has a thick, snowy-white woolen coat. Its eyes gleam wi
 sheen. Its hooves have sharpened, serrated edges and are soaked in blood. A single strand of scarlet
 thread is tangled between its curled ram horns._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +8
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Scent, True seeing
+Subtype: Good, Lawful, Native
+Experience points: 19,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 28
+Touch: 14
+Flat-footed: 23
+AC modifiers: +4 Dex, +1 dodge, +14 natural, -1 size
+Hit points: 168 (16d10+80)
+Fort: +15
+Ref: +9
+Will: +16
+Dr: 10/cold iron and evil
+Immune: fire, poison, death effects
+Resist: acid 10, cold 10, electricity 10
+Sr: 23
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: slam +25 (2d6+10), 2 hooves +20 (1d8+5 plus bleed)
+Reach: 5
+Space: 10
+Spec Att: bleed 1, fiendbane headbutt, smiting absolution
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +19
+Constant: true seeing
+At will: detect evil, light, protection from evil, virtue
+Per day: 3/day: break enchantment, dispel chaos (DC 21), dispel evil (DC 21), find the path, holy smite (DC 17)\
+1/day: atonement
+:::
 
-**Senses:** Darkvision 60 ft., Scent, True seeing
+### Statistics
 
-**Subtype:** Good, Lawful, Native
+::: statblock
+Ability scores: Str 30, Dex 18, Con 20, Int 12, Wis 18, Cha 16
+Base attack bonus: +16
+Combat maneuver bonus: +27
+Combat maneuver defense: 42 (46 vs. trip)
+Feats: Ability Focus (smiting absolution), Cleave, Dodge, Improved Initiative, Iron Will, Mobility, Power Attack, Spring Attack
+Skills: Acrobatics +24 (+28 when jumping), Climb +18, Intimidate +22, Knowledge (local) +20, Perception +23
+Racial Modifiers: +4 Acrobatics (+8 when jumping), +8 Perception
+Languages: Abyssal, Celestial, Common
+Special qualities: ritual of atonement, sacrificial wound, true resurrection
+:::
 
-**Experience points:** 19,200
+### Ecology {#stat-ecology}
 
-**Armor class:** 28
-
-**Touch:** 14
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 Dex, +1 dodge, +14 natural, -1 size
-
-**Hit points:** 168 (16d10+80)
-
-**Fort:** +15
-
-**Ref:** +9
-
-**Will:** +16
-
-**Dr:** 10/cold iron and evil
-
-**Immune:** fire, poison, death effects
-
-**Resist:** acid 10, cold 10, electricity 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** slam +25 (2d6+10), 2 hooves +20 (1d8+5 plus bleed)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** bleed 1, fiendbane headbutt, smiting absolution
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +19
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- detect evil, light, protection from evil, virtue
-
-**Per day:**
-
-- 3/day: break enchantment, dispel chaos (DC 21), dispel evil (DC 21), find the path, holy smite (DC
-  17)
-- 1/day: atonement
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 18, Con 20, Int 12, Wis 18, Cha 16
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 42 (46 vs. trip)
-
-**Feats:** Ability Focus (smiting absolution), Cleave, Dodge, Improved Initiative, Iron Will,
-Mobility, Power Attack, Spring Attack
-
-**Skills:** Acrobatics +24 (+28 when jumping), Climb +18, Intimidate +22, Knowledge (local) +20,
-Perception +23
-
-**Racial Modifiers:** +4 Acrobatics (+8 when jumping), +8 Perception
-
-**Languages:** Abyssal, Celestial, Common
-
-**Special qualities:** ritual of atonement, sacrificial wound, true resurrection
-
-**Ecology**
-
-**Environment:** any (Material Plane)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Material Plane)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

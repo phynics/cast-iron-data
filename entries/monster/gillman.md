@@ -32,76 +32,61 @@ abilities = ["12", "13", "13", "9", "8", "10"]
 _A handsome, well-formed man walks out of the waves, the gill slits on the side of his neck
 flexing._
 
-**Challenge rating:** 1/3
-
 **Gillman [warrior](ref/npcclass/warrior) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/3
+Type: humanoid
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +2
+Subtype: Aquatic
+Experience points: 135
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 10
+AC modifiers: +1 Dex
+Hit points: 6 (1d10+1)
+Fort: +3
+Ref: +1
+Will: -1; +2 vs. enchantment
+Weaknesses: water dependent
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: spear +2 (1d8+1)
+Ranged: light crossbow +2 (1d8+1/×3)
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Experience points:** 135
+::: statblock
+Ability scores: Str 12, Dex 13, Con 13, Int 9, Wis 8, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 13
+Feats: Skill Focus (Perception)
+Skills: Perception +2, Swim +13
+Languages: Aboleth, Common
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Armor class:** 11
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 10
-
-**AC modifiers:** +1 Dex
-
-**Hit points:** 6 (1d10+1)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** -1; +2 vs. enchantment
-
-**Weaknesses:** water dependent
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** spear +2 (1d8+1)
-
-**Ranged:** light crossbow +2 (1d8+1/×3)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 13, Con 13, Int 9, Wis 8, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +2, Swim +13
-
-**Languages:** Aboleth, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate ocean
-
-**Organization:** solitary, patrol (2-6), band (6-10 plus 1 lieutenant of 3rd level), company (11-60
-plus 3 lieutenants of 3rd level, 2 commands of 5th level, 1 commodore of 7th level, and 3-12 squids)
-
-**Treasure:** NPC gear (trident, light crossbow with 10 bolts); other treasure
+::: statblock
+Environment: temperate ocean
+Organization: solitary, patrol (2-6), band (6-10 plus 1 lieutenant of 3rd level), company (11-60 plus 3 lieutenants of 3rd level, 2 commands of 5th level, 1 commodore of 7th level, and 3-12 squids)
+Treasure: NPC gear (trident, light crossbow with 10 bolts); other treasure
+:::
 
 ### Special Abilities
 

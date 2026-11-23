@@ -29,91 +29,67 @@ special_qualities = "change shape (humanoid form or sandstorm form; polymorph)"
 abilities = ["1", "22", "21", "12", "12", "13"]
 +++
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: fine
+Initiative: +6
+Alignment: Neutral
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft., Sandsight
+Subtype: Earth, Elemental, Swarm
+tremorsense: 60
+Experience points: 12,800
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 34
+Touch: 25
+Flat-footed: 27
+AC modifiers: +6 Dex, +1 dodge, +9 natural, +8 size
+Hit points: 147 (14d10+70)
+Fort: +9
+Ref: +15
+Will: +12
+Defensive abilities: swarm traits
+Dr: 10/-
+Immune: [elemental](ref/subtype/elemental) traits, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Distraction: 22
+Melee: swarm (6d6 plus distraction)
+Reach: 0
+Space: 5
+Spec Att: create sand, sand blast
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Sandsight
+::: statblock
+Ability scores: Str 1, Dex 22, Con 21, Int 12, Wis 12, Cha 13
+Base attack bonus: +14
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Dodge, Improved Iron Will, Improved Sunder, Iron Will, Mobility, Power Attack, Step Up
+Skills: Acrobatics +20, Fly +35, Intimidate +18, Knowledge (planes) +18, Linguistics +4, Perception +18
+Racial Modifiers: +8 Stealth in sand
+Languages: Aquan, Auran, Common, Ignan, Terran
+Special qualities: [change shape](ref/umr/change-shape) (humanoid form or sandstorm form; [polymorph](ref/spell/polymorph))
+:::
 
-**Subtype:** Earth, Elemental, Swarm
+### Ecology {#stat-ecology}
 
-**tremorsense:** 60
-
-**Experience points:** 12,800
-
-**Armor class:** 34
-
-**Touch:** 25
-
-**Flat-footed:** 27
-
-**AC modifiers:** +6 Dex, +1 dodge, +9 natural, +8 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +9
-
-**Ref:** +15
-
-**Will:** +12
-
-**Defensive abilities:** swarm traits
-
-**Dr:** 10/-
-
-**Immune:** [elemental](ref/subtype/elemental) traits, weapon damage
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Distraction:** 22
-
-**Melee:** swarm (6d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 5
-
-**Spec Att:** create sand, sand blast
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 22, Con 21, Int 12, Wis 12, Cha 13
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Dodge, Improved Iron Will, Improved Sunder, Iron Will, Mobility, Power Attack, Step Up
-
-**Skills:** Acrobatics +20, Fly +35, Intimidate +18, Knowledge (planes) +18, Linguistics +4,
-Perception +18
-
-**Racial Modifiers:** +8 Stealth in sand
-
-**Languages:** Aquan, Auran, Common, Ignan, Terran
-
-**Special qualities:** [change shape](ref/umr/change-shape) (humanoid form or sandstorm form;
-[polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any desert ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any desert ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary, pair, or gang (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

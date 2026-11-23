@@ -31,76 +31,60 @@ abilities = ["22", "18", "-", "11", "13", "5"]
 _This muscular warrior is carefully sculpted from clay and has a large scarab beetle in place of its
 head._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 20
+AC modifiers: +4 Dex, +10 natural
+Hit points: 102 (15d10+20)
+Fort: +5
+Ref: +11
+Will: +8
+Dr: 10/-
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: +1 heavy mace +23/+18/+13 (1d8+9)
+Spec Att: morphic head
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 18, Con -, Int 11, Wis 13, Cha 5
+Base attack bonus: +15
+Combat maneuver bonus: +21 (+23 bull rush)
+Combat maneuver defense: 35 (37 vs. bull rush)
+Feats: Alertness, Improved Bull Rush, Iron Will, Lightning Reflexes, Power Attack, Vital Strike, Weapon Focus (heavy mace), Weapon Specialization (heavy mace)
+Skills: Acrobatics +10, Climb +10, Perception +15, Sense Motive +7, Stealth +10
+Languages: Ancient Osiriani
+Special qualities: soldier's training, warrior's mace
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +10 natural
-
-**Hit points:** 102 (15d10+20)
-
-**Fort:** +5
-
-**Ref:** +11
-
-**Will:** +8
-
-**Dr:** 10/-
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 heavy mace +23/+18/+13 (1d8+9)
-
-**Spec Att:** morphic head
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 18, Con -, Int 11, Wis 13, Cha 5
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +21 (+23 bull rush)
-
-**Combat maneuver defense:** 35 (37 vs. bull rush)
-
-**Feats:** Alertness, Improved Bull Rush, Iron Will, Lightning Reflexes, Power Attack, Vital Strike,
-Weapon Focus (heavy mace), Weapon Specialization (heavy mace)
-
-**Skills:** Acrobatics +10, Climb +10, Perception +15, Sense Motive +7, Stealth +10
-
-**Languages:** Ancient Osiriani
-
-**Special qualities:** soldier's training, warrior's mace
-
-**Ecology**
-
-**Environment:** warm deserts (Osirion)
-
-**Organization:** solitary or unit (2-20)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts (Osirion)
+Organization: solitary or unit (2-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

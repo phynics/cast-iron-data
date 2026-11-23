@@ -30,115 +30,77 @@ abilities = ["28", "25", "28", "23", "24", "31"]
 _This enormous amalgamation of stone and plant matter takes the shape of an old man leaning on an
 equally huge staff._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Size: gargantuan
+Initiative: +11
+Alignment: Neutral
+Type: outsider
+Perception: +38
+Senses: Darkvision 60 ft., True seeing
+Subtype: Earth, Kami, Native
+tremorsense: 60
+Experience points: 307,200
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 34
+Touch: 14
+Flat-footed: 26
+AC modifiers: +7 Dex, +1 dodge, +20 natural, -4 size
+Hit points: 348 (24d10+216)
+Fort: +25
+Ref: +17
+Will: +23
+Dr: 15/cold iron and bludgeoning
+Fh: 20
+Immune: bleed, mind-affecting effects, petrification, polymorph
+Resist: acid 10, electricity 10, fire 10
+Sr: 31
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., burrow 40 ft.
+Melee: +5 quarterstaff +32/+27/+22/+17 (3d6+14), +5 quarterstaff +32 (3d6+9) or 2 slams +29 (2d10+9)
+Reach: 20
+Sp Extra: earth glide
+Space: 20
+:::
 
-**Perception:** +38
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +30
+Constant: true seeing, speak with animals, speak with plants, stone tell
+At will: detect thoughts (DC 22), greater teleport, self only, only within the boundaries of its ward, stone shape, wood shape
+Per day: 3/day: control plants (DC 28), earthquake (DC 28), heal, repel metal or stone, summon nature's ally IX\
+1/day: true resurrection
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Earth, Kami, Native
+::: statblock
+Ability scores: Str 28, Dex 25, Con 28, Int 23, Wis 24, Cha 31
+Base attack bonus: +24
+Combat maneuver bonus: +37 (+39 bull rush and overrun)
+Combat maneuver defense: 55 (57 vs. bull rush and overrun)
+Feats: Alertness, Combat Casting, Combat Reflexes, Dodge, Great Fortitude, Improved Bull Rush, Improved Initiative, Improved Overrun, Iron Will, Lightning Reflexes, Power Attack, Two-Weapon Fighting
+Skills: Acrobatics +31 (+39 when jumping), Bluff +37, Diplomacy +34, Heal +34, Intimidate +34, Knowledge (geography) +33, Perception +38
+Languages: Common, Terran; _speak with animals, speak with plants, stone tell,_ [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: infused quarterstaff, manipulate terrain, merge with ward, ward (region)
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 34
-
-**Touch:** 14
-
-**Flat-footed:** 26
-
-**AC modifiers:** +7 Dex, +1 dodge, +20 natural, -4 size
-
-**Hit points:** 348 (24d10+216)
-
-**Fort:** +25
-
-**Ref:** +17
-
-**Will:** +23
-
-**Dr:** 15/cold iron and bludgeoning
-
-**Fh:** 20
-
-**Immune:** bleed, mind-affecting effects, petrification, polymorph
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 50 ft., burrow 40 ft.
-
-**Melee:** +5 quarterstaff +32/+27/+22/+17 (3d6+14), +5 quarterstaff +32 (3d6+9) or 2 slams +29
-(2d10+9)
-
-**Reach:** 20
-
-**Sp Extra:** earth glide
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +30
-
-**Constant:**
-
-- true seeing, speak with animals, speak with plants, stone tell
-
-**At will:**
-
-- detect thoughts (DC 22), greater teleport, self only, only within the boundaries of its ward,
-  stone shape, wood shape
-
-**Per day:**
-
-- 3/day: control plants (DC 28), earthquake (DC 28), heal, repel metal or stone, summon nature's
-  ally IX
-- 1/day: true resurrection
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 25, Con 28, Int 23, Wis 24, Cha 31
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +37 (+39 bull rush and overrun)
-
-**Combat maneuver defense:** 55 (57 vs. bull rush and overrun)
-
-**Feats:** Alertness, Combat Casting, Combat Reflexes, Dodge, Great Fortitude, Improved Bull Rush,
-Improved Initiative, Improved Overrun, Iron Will, Lightning Reflexes, Power Attack, Two-Weapon
-Fighting
-
-**Skills:** Acrobatics +31 (+39 when jumping), Bluff +37, Diplomacy +34, Heal +34, Intimidate +34,
-Knowledge (geography) +33, Perception +38
-
-**Languages:** Common, Terran; _speak with animals, speak with plants, stone tell,_
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** infused quarterstaff, manipulate terrain, merge with ward, ward (region)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -31,73 +31,59 @@ abilities = ["26", "7", "-", "-", "11", "1"]
 _Resembling an unearthed vein of dull gray minerals, this crude, hunchbacked humanoid figure uses
 its arms to support itself._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: -2
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 26
+Touch: 7
+Flat-footed: 26
+AC modifiers: -2 Dex, +19 natural, -1 size
+Hit points: 107 (14d10+30)
+Fort: +4
+Ref: +2
+Will: +4
+Dr: 10/adamantine
+Immune: acid, [construct traits](ref/umr/construct-traits), electricity, magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +21 (2d10+8)
+Reach: 10
+Space: 10
+Spec Att: retributive miasma
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 7, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +14
+Combat maneuver bonus: +23
+Combat maneuver defense: 31 (39 vs. bull rush, reposition)
+Special qualities: divination screen, intractable density
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 7
-
-**Flat-footed:** 26
-
-**AC modifiers:** -2 Dex, +19 natural, -1 size
-
-**Hit points:** 107 (14d10+30)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +4
-
-**Dr:** 10/adamantine
-
-**Immune:** acid, [construct traits](ref/umr/construct-traits), electricity, magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +21 (2d10+8)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** retributive miasma
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 7, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 31 (39 vs. bull rush, reposition)
-
-**Special qualities:** divination screen, intractable density
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or curtain (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or curtain (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

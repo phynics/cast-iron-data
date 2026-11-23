@@ -30,88 +30,68 @@ special_qualities = "mount (horse), mounted archer, order of the warrior (honor 
 abilities = ["16", "10", "16", "12", "10", "15"]
 +++
 
-**Challenge rating:** 12
-
 **Hobgoblin [samurai](ref/class/samurai) 13**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 12
+Type: humanoid
+Initiative: +4
+Alignment: Lawful evil
+Size: medium
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid
+Experience points: 19,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 24
+Touch: 11
+Flat-footed: 24
+AC modifiers: +9 armor, +1 deflection, +1 natural, +3 shield
+Hit points: 141 (13d10+65)
+Fort: +13
+Ref: +6
+Will: +8
+Defensive abilities: greater resolve, honorable stand 1/day, resolve 7/day
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +0
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Goblinoid
-
-**Experience points:** 19,200
-
-**Armor class:** 24
-
-**Touch:** 11
-
-**Flat-footed:** 24
-
-**AC modifiers:** +9 armor, +1 deflection, +1 natural, +3 shield
-
-**Hit points:** 141 (13d10+65)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +8
-
-**Defensive abilities:** greater resolve, honorable stand 1/day, resolve 7/day
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +1 shock katana +18/+13/+8 (1d8+4/15-20 plus 1d6 electricity) or mwk naginata +17/+12/+7
-(1d8+4/×4)
-
-**Ranged:** mwk composite shortbow +14/+9/+4 (1d6+3/×3)
-
-**Spec Att:** banner +3/+2, challenge (+13, DR 4/-, 5/day), demanding challenge
+::: statblock
+Speed: 20 ft.
+Melee: +1 shock katana +18/+13/+8 (1d8+4/15-20 plus 1d6 electricity) or mwk naginata +17/+12/+7 (1d8+4/×4)
+Ranged: mwk composite shortbow +14/+9/+4 (1d6+3/×3)
+Spec Att: banner +3/+2, challenge (+13, DR 4/-, 5/day), demanding challenge
+:::
 
 ### Tactics
 
 **During Combat** The commander challenges an enemy leader and fires flaming burst arrows from
 horseback until the initial target is dead, then uses Chain Challenge to challenge another.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 16, Dex 10, Con 16, Int 12, Wis 10, Cha 15
+::: statblock
+Ability scores: Str 16, Dex 10, Con 16, Int 12, Wis 10, Cha 15
+Base attack bonus: +13
+Combat maneuver bonus: +16
+Combat maneuver defense: 27
+Feats: Chain Challenge, Improved Critical (katana), Improved Initiative, Iron Will, Mounted Archery, Mounted Combat, Toughness, Vital Strike, Weapon Focus (katana)
+Skills: Diplomacy +18, Intimidate +18, Knowledge (history) +17, Ride +9, Stealth -3
+Languages: Common, Goblin, Infernal
+Special qualities: mount (horse), mounted archer, order of the warrior (honor in all things 3/day, way of the samurai), weapon expertise (katana)
+Combat gear: 8 +1 flaming burst arrows, potion of cure serious wounds
+Other gear: +2 Airon lamellar, +1 heavy steel shield, +1 shock katana, mwk csb10+3, mwk -naginata, Iamu1, Iclk2, ring of prot1, 201 gp
+:::
 
-**Base attack bonus:** +13
+### Ecology
 
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 27
-
-**Feats:** Chain Challenge, Improved Critical (katana), Improved Initiative, Iron Will, Mounted
-Archery, Mounted Combat, Toughness, Vital Strike, Weapon Focus (katana)
-
-**Skills:** Diplomacy +18, Intimidate +18, Knowledge (history) +17, Ride +9, Stealth -3
-
-**Languages:** Common, Goblin, Infernal
-
-**Special qualities:** mount (horse), mounted archer, order of the warrior (honor in all things
-3/day, way of the samurai), weapon expertise (katana)
-
-**Combat gear:** 8 +1 flaming burst arrows, potion of cure serious wounds
-
-**Other gear:** +2 Airon lamellar, +1 heavy steel shield, +1 shock katana, mwk csb10+3, mwk
--naginata, Iamu1, Iclk2, ring of prot1, 201 gp
-
-**Ecology**
-
-**Environment:** temperate hills
+::: statblock
+Environment: temperate hills
+:::
 
 ### Description
 

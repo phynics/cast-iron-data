@@ -28,96 +28,58 @@ special_qualities = "bloodline arcana (heal when casting necromancy spells)"
 abilities = ["13", "22", "-", "15", "16", "22"]
 +++
 
-**Challenge rating:** 12
-
 **Ghoul [sorcerer](ref/class/sorcerer) 12**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Perception: +20
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 19,200
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 17
+AC modifiers: +4 armor, +1 deflection, +6 Dex, +2 natural
+Hit points: 176 (2d8+12d6+125\~14)
+Fort: +10
+Ref: +12
+Will: +14
+Chan Res: +2
+Defensive abilities: _[nondetection](ref/spell/nondetection)_
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 10
+:::
 
-**Perception:** +20
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: bite +13 (1d6+1 plus disease and paralysis), 2 claws +13 (1d6+1 plus paralysis)
+Paralysis: 1d4+1 rounds, DC 23, elves are immune to this effect), ravenous frenzy (12/day
+Spec Att: disease (DC 23)
+:::
 
-**Type:** undead
-
-**Experience points:** 19,200
-
-**Armor class:** 23
-
-**Touch:** 17
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +1 deflection, +6 Dex, +2 natural
-
-**Hit points:** 176 (2d8+12d6+125\~14)
-
-**Fort:** +10
-
-**Ref:** +12
-
-**Will:** +14
-
-**Chan Res:** +2
-
-**Defensive abilities:** _[nondetection](ref/spell/nondetection)_
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** bite +13 (1d6+1 plus disease and paralysis), 2 claws +13 (1d6+1 plus paralysis)
-
-**Paralysis:** 1d4+1 rounds, DC 23, elves are immune to this effect), ravenous frenzy (12/day
-
-**Spec Att:** disease (DC 23)
-
-**Spells Known**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**6th-level spells:**
-
-- 4/day: mislead (DC 22), move earth
-
-**5th-level spells:**
-
-- 6/day: dominate person (DC 21), hungry earth (DC 21), suffocation (DC 21)
-
-**4th-level spells:**
-
-- 7/day: beast shape II, black tentacles, dimension door, fear
-
-**3rd-level spells:**
-
-- 7/day: gaseous form, lightning bolt (DC 19), nondetection, stinking cloud (DC 19), vampiric touch
-
-**2nd-level spells:**
-
-- 8/day: alter self, command undead (DC 18), false life, feast of ashes (DC 18), invisibility,
-  mirror image
-
-**1st-level spells:**
-
-- 8/day: burning hands (DC 17), grease (DC 17), mage armor, obscuring mist, ray of enfeeblement (DC
-  17), silent image
-
-**Cantrips:**
-
-- At will: arcane mark, dancing lights, daze (DC 16), detect magic, light, mage hand,
-  prestidigitation (DC 16), ray of frost, read magic
-
-**Bloodline:** [ghoul](ref/sorcbloodline/ghoul)
+::: statblock
+title = "Spells Known"
+Caster level: 12
+Concentration: +18
+6th-level spells: 4/day: mislead (DC 22), move earth
+5th-level spells: 6/day: dominate person (DC 21), hungry earth (DC 21), suffocation (DC 21)
+4th-level spells: 7/day: beast shape II, black tentacles, dimension door, fear
+3rd-level spells: 7/day: gaseous form, lightning bolt (DC 19), nondetection, stinking cloud (DC 19), vampiric touch
+2nd-level spells: 8/day: alter self, command undead (DC 18), false life, feast of ashes (DC 18), invisibility, mirror image
+1st-level spells: 8/day: burning hands (DC 17), grease (DC 17), mage armor, obscuring mist, ray of enfeeblement (DC 17), silent image
+Cantrips: At will: arcane mark, dancing lights, daze (DC 16), detect magic, light, mage hand, prestidigitation (DC 16), ray of frost, read magic
+Bloodline: [ghoul](ref/sorcbloodline/ghoul)
+:::
 
 ### Tactics
 
@@ -139,32 +101,26 @@ first sign she is in serious danger.
 the monarch's statistics are AC 19, touch 17, flat-footed 13; hp 161; Defensive Abilities
 [channel resistance](ref/rule/channel-resistance) +2.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 13, Dex 22, Con -, Int 15, Wis 16, Cha 22
+::: statblock
+Ability scores: Str 13, Dex 22, Con -, Int 15, Wis 16, Cha 22
+Base attack bonus: +7
+Combat maneuver bonus: +8
+Combat maneuver defense: 25
+Feats: Eschew Materials, Improved Initiative, Lightning Reflexes, Old as Dust, Quicken Spell, Sleeper, Toughness, Warren Digger, Weapon Finesse
+Skills: Bluff +13, Intimidate +23, Perception +20, Spellcraft +19, Stealth +28
+Languages: Common, Draconic, Undercommon
+Special qualities: bloodline arcana (heal when casting necromancy spells)
+Combat gear: 2 potion of inflict moderate wounds, scroll of magic jar, scroll of teleport
+Other gear: +2 Asilken ceremonial armor, Iboid2, Ihbac2, ring of prot1, I-stalker's mask, 470 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 25
-
-**Feats:** Eschew Materials, Improved Initiative, Lightning Reflexes, Old as Dust, Quicken Spell,
-Sleeper, Toughness, Warren Digger, Weapon Finesse
-
-**Skills:** Bluff +13, Intimidate +23, Perception +20, Spellcraft +19, Stealth +28
-
-**Languages:** Common, Draconic, Undercommon
-
-**Special qualities:** bloodline arcana (heal when casting necromancy spells)
-
-**Combat gear:** 2 potion of inflict moderate wounds, scroll of magic jar, scroll of teleport
-
-**Other gear:** +2 Asilken ceremonial armor, Iboid2, Ihbac2, ring of prot1, I-stalker's mask, 470 gp
-
-**Ecology**
-
-**Environment:** any land
+::: statblock
+Environment: any land
+:::
 
 ### Description
 

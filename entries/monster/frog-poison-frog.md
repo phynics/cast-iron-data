@@ -28,71 +28,58 @@ abilities = ["2", "12", "11", "1", "9", "10"]
 
 _This small frog is bright green and red, with electric-blue stripes on its hind legs._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +3
+Senses: Low-light vision
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +3
+Will: -1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 10 ft., swim 20 ft.
+Melee: bite +3 (1 plus poison)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 2, Dex 12, Con 11, Int 1, Wis 9, Cha 10
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5 (9 vs. trip)
+Feats: Weapon Finesse
+Skills: Acrobatics +5 (+1 jumping), Perception +3, Stealth +13, Swim +9
+Racial Modifiers: +4 Acrobatics (+8 jumping), +4 Stealth
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** -1
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft.
-
-**Melee:** bite +3 (1 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 12, Con 11, Int 1, Wis 9, Cha 10
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5 (9 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +5 (+1 jumping), Perception +3, Stealth +13, Swim +9
-
-**Racial Modifiers:** +4 Acrobatics (+8 jumping), +4 Stealth
-
-**Ecology**
-
-**Environment:** warm marshes and aquatic
-
-**Organization:** solitary, pair, or army (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm marshes and aquatic
+Organization: solitary, pair, or army (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,143 +32,92 @@ abilities = ["35", "29", "37", "18", "22", "21"]
 _This red-winged angel is blindfolded and wrapped with bloody bandages. What shows of her flesh is
 scarred with celestial runes._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: primal (30 ft.), protective
+blindsense: 120
+Initiative: +13
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +42
+Senses: Darkvision 60 ft., Detect evil, True seeing, Zealous vision
+Subtype: Angel, Extraplanar, Good, Lawful
+Experience points: 4,915,200
+:::
 
-**aura:** primal (30 ft.), protective
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 44
+Touch: 19
+Flat-footed: 34
+AC modifiers: +9 Dex, +1 dodge, +25 natural, -1 size; +4 deflection vs. evil
+Hit points: 610 (33d10+429)
+Fort: +31
+Ref: +20
+Will: +26; +4 vs. poison, +4 resistance vs. evil
+Dr: 15/epic and evil
+Immune: ability damage, ability drain, acid, bleed, charm effects, compulsion effects, cold, death effects, energy drain, petrification
+Regen: 10 (evil artifacts, effects, and spells)
+Resist: electricity 30, fire 30
+:::
 
-**Initiative:** +13
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., fly 60 ft. (average)
+Melee: Cicatrix +50/+45/+40/+35 (1d6+17/17-20 plus 1 bleed and 2d6 vicious)
+Ranged: Cicatrix +47 (1d6+17/17-20 plus 1 bleed)
+Reach: 10
+Space: 10
+Spec Att: smite evil 7/day (+5 attack and AC, +20 damage, disintegrate evil outsiders)
+:::
 
-**Alignment:** Lawful good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: detect evil, true seeing
+At will: command^M^ (DC 16), greater teleport, haste^M^, paladin's sacrifice, pain strike (DC 18)
+Per day: 3/day: discern location, geas/quest (DC 21), heal, holy word^M^ (DC 22), mark of justice (DC 20), mass pain strike (DC 20), searing light^M^
+:::
 
-**Type:** outsider
-
-**Perception:** +42
-
-**Senses:** Darkvision 60 ft., Detect evil, True seeing, Zealous vision
-
-**Subtype:** Angel, Extraplanar, Good, Lawful
-
-**Experience points:** 4,915,200
-
-**Armor class:** 44
-
-**Touch:** 19
-
-**Flat-footed:** 34
-
-**AC modifiers:** +9 Dex, +1 dodge, +25 natural, -1 size; +4 deflection vs. evil
-
-**Hit points:** 610 (33d10+429)
-
-**Fort:** +31
-
-**Ref:** +20
-
-**Will:** +26; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 15/epic and evil
-
-**Immune:** ability damage, ability drain, acid, bleed, charm effects, compulsion effects, cold,
-death effects, energy drain, petrification
-
-**Regen:** 10 (evil artifacts, effects, and spells)
-
-**Resist:** electricity 30, fire 30
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (average)
-
-**Melee:** Cicatrix +50/+45/+40/+35 (1d6+17/17-20 plus 1 bleed and 2d6 vicious)
-
-**Ranged:** Cicatrix +47 (1d6+17/17-20 plus 1 bleed)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** smite evil 7/day (+5 attack and AC, +20 damage, disintegrate evil outsiders)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- detect evil, true seeing
-
-**At will:**
-
-- command^M^ (DC 16), greater teleport, haste^M^, paladin's sacrifice, pain strike (DC 18)
-
-**Per day:**
-
-- 3/day: discern location, geas/quest (DC 21), heal, holy word^M^ (DC 22), mark of justice (DC 20),
-  mass pain strike (DC 20), searing light^M^
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**4th-level spells:**
-
-- blaze of glory (DC 19), break enchantment, death ward, king's castle
-
-**3rd-level spells:**
-
-- dispel magic, fire of judgment (DC 18), prayer, righteous vigor
-
-**2nd-level spells:**
-
-- bull's strength, corruption resistance, litany of warding, remove paralysis, shield other
-
-**1st-level spells:**
-
-- divine favor, 3, hero's defiance, lesser restoration, 2
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+Concentration: +25
+4th-level spells: blaze of glory (DC 19), break enchantment, death ward, king's castle
+3rd-level spells: dispel magic, fire of judgment (DC 18), prayer, righteous vigor
+2nd-level spells: bull's strength, corruption resistance, litany of warding, remove paralysis, shield other
+1st-level spells: divine favor, 3, hero's defiance, lesser restoration, 2
+:::
 
 ###### M {#footnote-m}
 
 Vildeis can use the mythic version of this ability in her realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 35, Dex 29, Con 37, Int 18, Wis 22, Cha 21
+::: statblock
+Ability scores: Str 35, Dex 29, Con 37, Int 18, Wis 22, Cha 21
+Base attack bonus: +33
+Combat maneuver bonus: +46
+Combat maneuver defense: 66
+Feats: Blinding Critical, Combat Casting, Combat Reflexes, Critical Focus, Deadly Aim, Dodge, Flyby Attack, Improved Critical (dagger), Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Power Attack, Spell Penetration, Step Up, Vital Strike, Weapon Focus (dagger)
+Skills: Acrobatics +45, Bluff +41, Fly +26, Intimidate +41, Knowledge (planes) +40, Perception +42, Sense Motive +42, Sleight of Hand +45, Stealth +41
+Languages: Celestial, Draconic; _truespeech_
+Special qualities: [lay on hands](ref/ability/lay-on-hands) (16d6, 25/day), seed of life, [empyreal lord traits](ref/umr/empyreal-lord-traits)
+Faith: Vildeis
+:::
 
-**Base attack bonus:** +33
+### Ecology
 
-**Combat maneuver bonus:** +46
-
-**Combat maneuver defense:** 66
-
-**Feats:** Blinding Critical, Combat Casting, Combat Reflexes, Critical Focus, Deadly Aim, Dodge,
-Flyby Attack, Improved Critical (dagger), Improved Initiative, Improved Iron Will, Improved Vital
-Strike, Iron Will, Power Attack, Spell Penetration, Step Up, Vital Strike, Weapon Focus (dagger)
-
-**Skills:** Acrobatics +45, Bluff +41, Fly +26, Intimidate +41, Knowledge (planes) +40, Perception
-+42, Sense Motive +42, Sleight of Hand +45, Stealth +41
-
-**Languages:** Celestial, Draconic; _truespeech_
-
-**Special qualities:** [lay on hands](ref/ability/lay-on-hands) (16d6, 25/day), seed of life,
-[empyreal lord traits](ref/umr/empyreal-lord-traits)
-
-**Faith:** Vildeis
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** unique
-
-**Treasure:** Standard (Cicatrix); other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: unique
+Treasure: Standard (Cicatrix); other treasure
+:::
 
 ### Special Abilities
 

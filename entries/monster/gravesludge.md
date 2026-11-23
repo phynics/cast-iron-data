@@ -30,98 +30,72 @@ abilities = ["31", "22", "24", "15", "21", "20"]
 _This filthy, shuddering mass of sludge and bones seems to have formed from a mass of muddy grave
 soil._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+blindsight: 60
+Initiative: +10
+Lifesense: present
+Size: medium
+Alignment: Neutral evil
+Type: ooze
+Perception: +19
+Experience points: 19,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 27
+Touch: 21
+Flat-footed: 21
+AC modifiers: +5 deflection, +6 Dex, +6 natural
+Hit points: 161 (14d8+98)
+Fort: +11
+Ref: +15
+Will: +11
+Defensive abilities: haunted, negative energy affinity
+Dr: 10/good
+Immune: acid, cold, death effects, energy drain, fear, negative energy, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Lifesense:** present
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Melee: 2 slams +20 (2d8+10/19-20 plus 2d6 negative energy and lifeleech)
+Reach: 10
+Space: 5
+Spec Att: create spawn, lifeleech, swift slam
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+At will: ghost sound (DC 15), telekinesis (DC 20)
+Per day: 3/day: quickened death knell (DC 17), phantasmal killer (DC 19), wall of ectoplasm (DC 20)\
+1/day: harm (DC 21)
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +19
+::: statblock
+Ability scores: Str 31, Dex 22, Con 24, Int 15, Wis 21, Cha 20
+Base attack bonus: +10
+Combat maneuver bonus: +20
+Combat maneuver defense: 41
+Feats: Combat Casting, Combat Reflexes, Improved Critical (slam), Improved Initiative, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (death knell)
+Skills: Climb +24, Knowledge (religion) +16, Perception +19, Stealth +20
+Languages: Common; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 21
-
-**Flat-footed:** 21
-
-**AC modifiers:** +5 deflection, +6 Dex, +6 natural
-
-**Hit points:** 161 (14d8+98)
-
-**Fort:** +11
-
-**Ref:** +15
-
-**Will:** +11
-
-**Defensive abilities:** haunted, negative energy affinity
-
-**Dr:** 10/good
-
-**Immune:** acid, cold, death effects, energy drain, fear, negative energy,
-[ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Melee:** 2 slams +20 (2d8+10/19-20 plus 2d6 negative energy and lifeleech)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** create spawn, lifeleech, swift slam
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**At will:**
-
-- ghost sound (DC 15), telekinesis (DC 20)
-
-**Per day:**
-
-- 3/day: quickened death knell (DC 17), phantasmal killer (DC 19), wall of ectoplasm (DC 20)
-- 1/day: harm (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 22, Con 24, Int 15, Wis 21, Cha 20
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 41
-
-**Feats:** Combat Casting, Combat Reflexes, Improved Critical (slam), Improved Initiative, Iron
-Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (death knell)
-
-**Skills:** Climb +24, Knowledge (religion) +16, Perception +19, Stealth +20
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or haunt (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or haunt (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

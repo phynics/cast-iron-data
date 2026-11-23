@@ -28,91 +28,68 @@ special_attacks = "runes"
 abilities = ["29", "14", "20", "9", "11", "16"]
 +++
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: fear aura (60 ft., DC 21)
+blindsight: 60
+Alignment: Chaotic evil
+Size: huge
+Type: humanoid
+Initiative: +6
+Perception: +9
+Subtype: Giant
+Experience points: 12,800
+:::
 
-**aura:** fear aura (60 ft., DC 21)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 25
+Touch: 10
+Flat-footed: 23
+AC modifiers: +2 Dex, +15 natural, -2 size
+Hit points: 152 (16d8+80)
+Fort: +15
+Ref: +7
+Will: +7
+Defensive abilities:
+Fh: 4
+Resist: cold 10, electricity 10, fire 10
+Rock Ct: present
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 30 ft.
+Grab: Large
+Melee: bite +19 (2d8+9 plus grab), 2 claws +19 (1d8+9 plus 1d6 energy)
+Reach: 15
+Rock Th: 120 ft.
+Space: 15
+Spec Att: runes
+Swallow: 2d8+13 bludgeoning damage, AC 17, 15 hp
+:::
 
-**Type:** humanoid
+### Statistics
 
-**Initiative:** +6
+::: statblock
+Ability scores: Str 29, Dex 14, Con 20, Int 9, Wis 11, Cha 16
+Base attack bonus: +12
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 35
+Feats: Awesome Blow, Cleave, Critical Focus
+Skills: Climb +17, Intimidate +11, Perception +9
+Languages: Giant, Thassilonian (can't speak)
+:::
 
-**Perception:** +9
+### Ecology
 
-**Subtype:** Giant
-
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +2 Dex, +15 natural, -2 size
-
-**Hit points:** 152 (16d8+80)
-
-**Fort:** +15
-
-**Ref:** +7
-
-**Will:** +7
-
-**Defensive abilities:**
-
-**Fh:** 4
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Grab:** Large
-
-**Melee:** bite +19 (2d8+9 plus grab), 2 claws +19 (1d8+9 plus 1d6 energy)
-
-**Reach:** 15
-
-**Rock Th:** 120 ft.
-
-**Space:** 15
-
-**Spec Att:** runes
-
-**Swallow:** 2d8+13 bludgeoning damage, AC 17, 15 hp
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 14, Con 20, Int 9, Wis 11, Cha 16
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 35
-
-**Feats:** Awesome Blow, Cleave, Critical Focus
-
-**Skills:** Climb +17, Intimidate +11, Perception +9
-
-**Languages:** Giant, Thassilonian (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

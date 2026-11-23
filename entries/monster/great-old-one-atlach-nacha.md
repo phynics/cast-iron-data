@@ -32,127 +32,83 @@ abilities = ["44", "36", "44", "29", "33", "28"]
 _The size of a bull elephant, this red-and-black arachnid has a bloated body and spindly legs, made
 all the more horrifying by the all-too-human appearance of its baleful visage._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+Type: aberration
+aura: unspeakable presence (300 ft., DC 35)
+Size: huge
+Initiative: +23
+Alignment: Neutral evil
+Perception: +46
+Senses: Darkvision 60 ft., See in darkness, True seeing
+Subtype: Evil, Great Old One
+Experience points: 4,915,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** unspeakable presence (300 ft., DC 35)
+::: statblock
+Armor class: 46
+Touch: 32
+Flat-footed: 32
+AC modifiers: +13 Dex, +1 dodge, +10 insight, +14 natural, -2 size
+Hit points: 688 (32d8+544)
+Fort: +27
+Ref: +23
+Will: +29
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, immortality, insanity (DC 35)
+Dr: 15/epic and lawful
+Fh: 25
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, poison
+Resist: fire 30, sonic 30
+Sr: 39
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +23
+::: statblock
+Speed: 80 ft., climb 80 ft.
+M Power: 10/day, surge +1d12
+Melee: bite +39 touch (4d10+25/19-20 plus poison), 4 claws +39 (3d6+25/19-20)
+Ranged: web +35 touch (special/×3)
+Reach: 15
+Space: 15
+Spec Att: critical poisoning, dreams of futility, feed, penetrating bite, poison, powerful blows
+Web: DC 43, 32 hp
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +37
+Constant: feather fall, freedom of movement, true seeing
+At will: astral projection, dimension door, dream, greater dispel magic, insanity (DC 27), levitate, nightmare (DC 24), sending, telekinesis (DC 24)
+Per day: 3/day: creeping doom, demand (DC 27), quickened feeblemind (DC 24)\
+1/day: imprisonment (DC 28), symbol of insanity (DC 27), dominate monster (DC 28)
+:::
 
-**Perception:** +46
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness, True seeing
+::: statblock
+Ability scores: Str 44, Dex 36, Con 44, Int 29, Wis 33, Cha 28
+Base attack bonus: +24
+Combat maneuver bonus: +43 (+47 bull rush)
+Combat maneuver defense: 77 (79 vs. bull rush)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Dodge, Greater Bull Rush, Greater Vital Strike, Improved Bull Rush, Improved Critical (bite), Improved Critical (claw), Improved Vital Strike, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Spring Attack, Staggering Critical, Vital Strike
+Skills: Acrobatics +48 (+88 when jumping), Climb +60, Intimidate +44, Knowledge (arcana, dungeoneering, history, religion) +41, Perception +46, Use Magic Device +41
+Racial Modifiers: +40 Acrobatics when jumping
+Languages: Aklo, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: otherworldly leap, swift construction
+Faith: Atlach-Nacha
+:::
 
-**Subtype:** Evil, Great Old One
+### Ecology
 
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 32
-
-**Flat-footed:** 32
-
-**AC modifiers:** +13 Dex, +1 dodge, +10 insight, +14 natural, -2 size
-
-**Hit points:** 688 (32d8+544)
-
-**Fort:** +27
-
-**Ref:** +23
-
-**Will:** +29
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, immortality,
-insanity (DC 35)
-
-**Dr:** 15/epic and lawful
-
-**Fh:** 25
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, petrification, poison
-
-**Resist:** fire 30, sonic 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 80 ft., climb 80 ft.
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** bite +39 touch (4d10+25/19-20 plus poison), 4 claws +39 (3d6+25/19-20)
-
-**Ranged:** web +35 touch (special/×3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** critical poisoning, dreams of futility, feed, penetrating bite, poison, powerful blows
-
-**Web:** DC 43, 32 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +37
-
-**Constant:**
-
-- feather fall, freedom of movement, true seeing
-
-**At will:**
-
-- astral projection, dimension door, dream, greater dispel magic, insanity (DC 27), levitate,
-  nightmare (DC 24), sending, telekinesis (DC 24)
-
-**Per day:**
-
-- 3/day: creeping doom, demand (DC 27), quickened feeblemind (DC 24)
-- 1/day: imprisonment (DC 28), symbol of insanity (DC 27), dominate monster (DC 28)
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 36, Con 44, Int 29, Wis 33, Cha 28
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +43 (+47 bull rush)
-
-**Combat maneuver defense:** 77 (79 vs. bull rush)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Dodge, Greater Bull Rush, Greater Vital
-Strike, Improved Bull Rush, Improved Critical (bite), Improved Critical (claw), Improved Vital
-Strike, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(feeblemind), Spring Attack, Staggering Critical, Vital Strike
-
-**Skills:** Acrobatics +48 (+88 when jumping), Climb +60, Intimidate +44, Knowledge (arcana,
-dungeoneering, history, religion) +41, Perception +46, Use Magic Device +41
-
-**Racial Modifiers:** +40 Acrobatics when jumping
-
-**Languages:** Aklo, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** otherworldly leap, swift construction
-
-**Faith:** Atlach-Nacha
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any underground
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

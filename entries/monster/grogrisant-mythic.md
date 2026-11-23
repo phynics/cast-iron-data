@@ -33,104 +33,75 @@ like the sun._
 
 **Mythic Grogrisant**
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Mythic rank: 6
+aura: blazing mane (60 ft., DC 20)
+Size: huge
+Initiative: +12, Mythic Improved Initiative
+Type: Magical beast
+Alignment: Neutral
+Perception: +21
+Senses: Darkvision 120 ft., Low-light vision, Scent
+Subtype: Mythic
+Experience points: 76,800
+:::
 
-**Mythic rank:** 6
+### Defense
 
-**aura:** blazing mane (60 ft., DC 20)
+::: statblock
+Armor class: 33
+Touch: 33
+Flat-footed: 31
+AC modifiers: +2 Dex, +23 natural, -2 size
+Hit points: 285 (18d10+186)
+Fort: +20
+Ref: +13
+Will: +14
+Dr: 10/epic and piercing
+Immune: disease, fire, light effects, poison
+Resist: acid 10, electricity 10
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +12, Mythic Improved Initiative
+::: statblock
+Speed: 50 ft., climb 30 ft.
+M Power: 6/day, surge +1d8
+Melee: bite +26 (3d6+15/19-20), 2 claws +26 (1d8+10)
+Reach: 15
+Space: 15
+Spec Att: powerful bite
+:::
 
-**Type:** Magical beast
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +19
+Constant: nondetection, pass without trace
+At will: dancing lights, fire shield, sunbeam (DC 16)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +21
+::: statblock
+Ability scores: Str 30, Dex 15, Con 24, Int 6, Wis 23, Cha 13
+Base attack bonus: +18
+Combat maneuver bonus: +30 (+32 sunder)
+Combat maneuver defense: 42 (44 vs. sunder, 46 vs. trip)
+Feats: Great Fortitude, Mythic Improved Initiative, Improved Sunder, Improved Vital Strike, Mythic Iron Will, Power Attack, Skill Focus (Perception, Stealth), Mythic Vital Strike
+Skills: Acrobatics +2 (+10 when jumping), Climb +22, Perception +21, Stealth +18
+Languages: Sphinx (can't speak)
+Special qualities: pure body, quick recovery, shrug it off
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, Scent
+### Ecology
 
-**Subtype:** Mythic
-
-**Experience points:** 76,800
-
-**Armor class:** 33
-
-**Touch:** 33
-
-**Flat-footed:** 31
-
-**AC modifiers:** +2 Dex, +23 natural, -2 size
-
-**Hit points:** 285 (18d10+186)
-
-**Fort:** +20
-
-**Ref:** +13
-
-**Will:** +14
-
-**Dr:** 10/epic and piercing
-
-**Immune:** disease, fire, light effects, poison
-
-**Resist:** acid 10, electricity 10
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**M Power:** 6/day, surge +1d8
-
-**Melee:** bite +26 (3d6+15/19-20), 2 claws +26 (1d8+10)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** powerful bite
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +19
-
-**Constant:**
-
-- nondetection, pass without trace
-
-**At will:**
-
-- dancing lights, fire shield, sunbeam (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 15, Con 24, Int 6, Wis 23, Cha 13
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +30 (+32 sunder)
-
-**Combat maneuver defense:** 42 (44 vs. sunder, 46 vs. trip)
-
-**Feats:** Great Fortitude, Mythic Improved Initiative, Improved Sunder, Improved Vital Strike,
-Mythic Iron Will, Power Attack, Skill Focus (Perception, Stealth), Mythic Vital Strike
-
-**Skills:** Acrobatics +2 (+10 when jumping), Climb +22, Perception +21, Stealth +18
-
-**Languages:** Sphinx (can't speak)
-
-**Special qualities:** pure body, quick recovery, shrug it off
-
-**Ecology**
-
-**Environment:** temperate or warm plains or hills
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: temperate or warm plains or hills
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

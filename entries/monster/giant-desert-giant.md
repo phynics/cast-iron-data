@@ -33,88 +33,65 @@ abilities = ["26", "17", "21", "13", "12", "10"]
 _Loose robes conceal the sand-etched features of this lanky giant. In each hand he grips a scimitar
 nearly the length of a human._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: humanoid
+Initiative: +3
+Size: large
+Alignment: Lawful neutral
+Perception: +9
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 6,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 24
+Touch: 13
+Flat-footed: 20
+AC modifiers: +2 armor, +3 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 123 (13d8+65)
+Fort: +9
+Ref: +11
+Will: +5
+Immune: fire
+Rock Ct: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 50 ft.
+Melee: mwk scimitars +16/+16/+11/+11 (1d8+8/15-20) or 2 slams +16 (1d8+8)
+Ranged: rock +12 (1d8+12)
+Reach: 10
+Rock Th: 100 ft.
+Space: 10
+Spec Att: scimitar training
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 17, Con 21, Int 13, Wis 12, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +18
+Combat maneuver defense: 32 (36 vs. disarm and sunder)
+Feats: Combat Reflexes, Dodge, Improved Critical (scimitar), Improved Two-Weapon Fighting, Mobility, Two-Weapon Fighting, Weapon Focus (scimitar)
+Skills: Acrobatics +16 (+24 when jumping), Intimidate +11, Perception +9
+Languages: Common, Giant
+Special qualities: sandwalking
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 24
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 armor, +3 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 123 (13d8+65)
-
-**Fort:** +9
-
-**Ref:** +11
-
-**Will:** +5
-
-**Immune:** fire
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** mwk scimitars +16/+16/+11/+11 (1d8+8/15-20) or 2 slams +16 (1d8+8)
-
-**Ranged:** rock +12 (1d8+12)
-
-**Reach:** 10
-
-**Rock Th:** 100 ft.
-
-**Space:** 10
-
-**Spec Att:** scimitar training
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 17, Con 21, Int 13, Wis 12, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 32 (36 vs. disarm and sunder)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (scimitar), Improved Two-Weapon Fighting,
-Mobility, Two-Weapon Fighting, Weapon Focus (scimitar)
-
-**Skills:** Acrobatics +16 (+24 when jumping), Intimidate +11, Perception +9
-
-**Languages:** Common, Giant
-
-**Special qualities:** sandwalking
-
-**Ecology**
-
-**Environment:** warm desert
-
-**Organization:** solitary, gang (2-4), band (5-8), raiding party (9-12 plus 1 fighter of 1st-3rd
-level), or tribe (10-30 plus 35% noncombatants, 1-3 clerics of 2nd-4th level, 2-4 fighters of
-1st-3rd level, and 1 fighter sheik of 4th-6th level, 50% chance of 10-20 human slaves)
-
-**Treasure:** Standard (2 mwk scimitars, leather armor); other treasure
+::: statblock
+Environment: warm desert
+Organization: solitary, gang (2-4), band (5-8), raiding party (9-12 plus 1 fighter of 1st-3rd level), or tribe (10-30 plus 35% noncombatants, 1-3 clerics of 2nd-4th level, 2-4 fighters of 1st-3rd level, and 1 fighter sheik of 4th-6th level, 50% chance of 10-20 human slaves)
+Treasure: Standard (2 mwk scimitars, leather armor); other treasure
+:::
 
 ### Special Abilities
 

@@ -31,75 +31,60 @@ abilities = ["34", "14", "-", "-", "11", "1"]
 _This massive, hunched monstrosity has a hide that appears to be a mix of reptilian scales of
 various colors._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Type: construct
+Size: huge
+Initiative: +2
+Alignment: Neutral
+Perception: +26
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 76,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 31
+Touch: 10
+Flat-footed: 29
+AC modifiers: +2 Dex, +21 natural, -2 size
+Hit points: 155 (21d10+40)
+Fort: +7
+Ref: +9
+Will: +7
+Dr: 15/adamantine and magic
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Br Weap: copper, red
+Melee: bite +31 (2d8+12), 2 claws +31 (2d6+12), tail slap +26 (2d6+18)
+Reach: 15
+Space: 15
+Spec Att: berserk, powerful tail, rampage
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 14, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +21
+Combat maneuver bonus: +35
+Combat maneuver defense: 47
+Special qualities: draconic grafts (dragon-like senses, grafted head \[copper\], powerful tail)
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 10
-
-**Flat-footed:** 29
-
-**AC modifiers:** +2 Dex, +21 natural, -2 size
-
-**Hit points:** 155 (21d10+40)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +7
-
-**Dr:** 15/adamantine and magic
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Br Weap:** copper, red
-
-**Melee:** bite +31 (2d8+12), 2 claws +31 (2d6+12), tail slap +26 (2d6+18)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** berserk, powerful tail, rampage
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 14, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +35
-
-**Combat maneuver defense:** 47
-
-**Special qualities:** draconic grafts (dragon-like senses, grafted head \[copper\], powerful tail)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

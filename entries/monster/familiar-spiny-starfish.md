@@ -28,77 +28,61 @@ abilities = ["4", "13", "14", "-", "11", "3"]
 
 _This brightly colored, star-shaped creature has many spines growing from its five arms._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: tiny
+tremorsense: 20
+Type: vermin
+Experience points: 65
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 14
+AC modifiers: +1 Dex, +2 natural, +2 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +1
+Will: +0
+Defensive abilities: rapid healing
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 5 ft., climb 5 ft., swim 5 ft.
+Grab: Small
+Melee: slam -1 (1d2-3 plus grab)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Size:** tiny
+### Statistics
 
-**tremorsense:** 20
+::: statblock
+Ability scores: Str 4, Dex 13, Con 14, Int -, Wis 11, Cha 3
+Base attack bonus: +0
+Combat maneuver bonus: -1 (+5 when grappling)
+Combat maneuver defense: 6 (can't be tripped)
+Skills: Climb +5
+Special qualities: firm grip
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 65
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +2 natural, +2 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +1
-
-**Will:** +0
-
-**Defensive abilities:** rapid healing
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 5 ft., climb 5 ft., swim 5 ft.
-
-**Grab:** Small
-
-**Melee:** slam -1 (1d2-3 plus grab)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 13, Con 14, Int -, Wis 11, Cha 3
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1 (+5 when grappling)
-
-**Combat maneuver defense:** 6 (can't be tripped)
-
-**Skills:** Climb +5
-
-**Special qualities:** firm grip
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, pair, or cluster (3-22)
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary, pair, or cluster (3-22)
+Treasure: None
+:::
 
 ### Special Abilities
 

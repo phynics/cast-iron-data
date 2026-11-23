@@ -35,106 +35,75 @@ abilities = ["21", "17", "21", "18", "16", "24"]
 _This eerie creature has the upper body of a beautiful, pale green woman, but her lower body is a
 pulsating mound of fungus._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +18
+Type: plant
+Senses: Darkvision 60 ft., Detect good, Low-light vision
+Subtype: Extraplanar
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 20
+AC modifiers: +3 Dex, +10 natural
+Hit points: 114 (12d8+60)
+Fort: +13
+Ref: +7
+Will: +7
+Dr: 10/cold iron or good
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+Resist: acid 10, cold 10
+Sr: 20
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +18
+::: statblock
+Speed: 20 ft.
+Constrict: 1d4+5
+E Drain: 1 level, DC 23
+Melee: 2 claws +14 (1d6+5), 4 tentacles +12 (1d4+2 plus [grab](ref/umr/grab))
+Spec Att: compel plants, create spawn, sporepod
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +16
+Constant: detect good, tongues
+At will: veil (DC 23, self only)
+Per day: 3/day: charm monster (DC 21), detect thoughts (DC 19), suggestion (DC 20)\
+1/day: dominate person (DC 22), mind fog (DC 22), slow (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 21, Dex 17, Con 21, Int 18, Wis 16, Cha 24
+Base attack bonus: +9
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 27 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Improved Initiative, Multiattack, Power Attack, Skill Focus (Disguise)
+Skills: Bluff +22, Disguise +28, Sense Motive +18, Use Magic Device +22
+Languages: Abyssal, Aklo, Common, Undercommon; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+Special qualities: plant empathy +23
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 Dex, +10 natural
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +13
-
-**Ref:** +7
-
-**Will:** +7
-
-**Dr:** 10/cold iron or good
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Constrict:** 1d4+5
-
-**E Drain:** 1 level, DC 23
-
-**Melee:** 2 claws +14 (1d6+5), 4 tentacles +12 (1d4+2 plus [grab](ref/umr/grab))
-
-**Spec Att:** compel plants, create spawn, sporepod
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +16
-
-**Constant:**
-
-- detect good, tongues
-
-**At will:**
-
-- veil (DC 23, self only)
-
-**Per day:**
-
-- 3/day: charm monster (DC 21), detect thoughts (DC 19), suggestion (DC 20)
-- 1/day: dominate person (DC 22), mind fog (DC 22), slow (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con 21, Int 18, Wis 16, Cha 24
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Initiative, Multiattack, Power Attack, Skill
-Focus (Disguise)
-
-**Skills:** Bluff +22, Disguise +28, Sense Motive +18, Use Magic Device +22
-
-**Languages:** Abyssal, Aklo, Common, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.,
-_[tongues](ref/spell/tongues)_
-
-**Special qualities:** plant empathy +23
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or cult (fungus queen plus 2-12 controlled plants and minions)
-
-**Treasure:** Double
+::: statblock
+Environment: any underground
+Organization: solitary or cult (fungus queen plus 2-12 controlled plants and minions)
+Treasure: Double
+:::
 
 ### Special Abilities
 

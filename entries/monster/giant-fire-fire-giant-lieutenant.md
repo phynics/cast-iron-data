@@ -30,64 +30,47 @@ special_qualities = "expert trainer +3, mount (giant dire boar), order of the li
 abilities = ["29", "11", "25", "12", "16", "17"]
 +++
 
-**Challenge rating:** 16
-
 **[Fire giant](ref/monster/giant-fire-fire-giant) [cavalier](ref/class/cavalier) 6**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 16
+Type: humanoid
+Initiative: +4
+Size: large
+Alignment: Lawful evil
+Perception: +19
+Senses: Low-light vision
+Subtype: Fire, Giant
+Experience points: 76,800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 32
+Touch: 10
+Flat-footed: 32
+AC modifiers: +10 armor, +1 deflection, +8 natural, +4 shield, -1 size
+Hit points: 253 (15d8+6d10+153\~21)
+Fort: +21
+Ref: +7
+Will: +12
+Immune: fire
+Rock Ct: present
+Vulner: cold
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +19
-
-**Senses:** Low-light vision
-
-**Subtype:** Fire, Giant
-
-**Experience points:** 76,800
-
-**Armor class:** 32
-
-**Touch:** 10
-
-**Flat-footed:** 32
-
-**AC modifiers:** +10 armor, +1 deflection, +8 natural, +4 shield, -1 size
-
-**Hit points:** 253 (15d8+6d10+153\~21)
-
-**Fort:** +21
-
-**Ref:** +7
-
-**Will:** +12
-
-**Immune:** fire
-
-**Rock Ct:** present
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 bastard sword +27/+22/+17/+12 (2d8+10/19-20) or +1 valiant lance +26/+21/+16/+11
-(2d6+14/×3) or 2 slams +25 (1d8+9)
-
-**Ranged:** rock +17 (1d8+14 plus 1d6 fire)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** banner +2/+1, cavalier's charge, challenge (+8, 3/day), heated rock
+::: statblock
+Speed: 30 ft.
+Melee: +1 bastard sword +27/+22/+17/+12 (2d8+10/19-20) or +1 valiant lance +26/+21/+16/+11 (2d6+14/×3) or 2 slams +25 (1d8+9)
+Ranged: rock +17 (1d8+14 plus 1d6 fire)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: banner +2/+1, cavalier's charge, challenge (+8, 3/day), heated rock
+:::
 
 ### Tactics
 
@@ -97,36 +80,26 @@ abilities = ["29", "11", "25", "12", "16", "17"]
 opponent, and charges that foe atop her steed with her valiant lance. Once in the thick of combat,
 she eschews her lance for her bastard sword, hewing foes surrounding her.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 29, Dex 11, Con 25, Int 12, Wis 16, Cha 17
+::: statblock
+Ability scores: Str 29, Dex 11, Con 25, Int 12, Wis 16, Cha 17
+Base attack bonus: +17
+Combat maneuver bonus: +27 (+29 overrun, +29 sunder)
+Combat maneuver defense: 38 (40 vs. overrun, 40 vs. sunder)
+Feats: Cleave, Exotic Weapon Proficiency (bastard sword), Great Cleave, Improved Initiative, Improved Overrun, Improved Sunder, Iron Will, Mounted Combat, Power Attack, Precise Strike, Pushing Assault, Trample, Weapon Focus (bastard sword)
+Skills: Climb +15
+Languages: Common, Giant, Orc
+Special qualities: expert trainer +3, mount (giant dire boar), order of the lion (lion's call), tactician (2/day, 6 rounds, standard action)
+Combat gear: 3 potion of cure serious wounds, potion of haste
+Other gear: +1 human-[defiant](ref/magic-enh/defiant) [full plate](ref/eq-armor/full-plate), +2 ramming heavy steel shield, +1 bastard sword, +1 valiant lance, Ihbmp2ic, I-horn of battle clarity, I-horn of fog, ring of prot1, I-vambraces of the tactician
+:::
 
-**Base attack bonus:** +17
+### Ecology
 
-**Combat maneuver bonus:** +27 (+29 overrun, +29 sunder)
-
-**Combat maneuver defense:** 38 (40 vs. overrun, 40 vs. sunder)
-
-**Feats:** Cleave, Exotic Weapon Proficiency (bastard sword), Great Cleave, Improved Initiative,
-Improved Overrun, Improved Sunder, Iron Will, Mounted Combat, Power Attack, Precise Strike, Pushing
-Assault, Trample, Weapon Focus (bastard sword)
-
-**Skills:** Climb +15
-
-**Languages:** Common, Giant, Orc
-
-**Special qualities:** expert trainer +3, mount (giant dire boar), order of the lion (lion's call),
-tactician (2/day, 6 rounds, standard action)
-
-**Combat gear:** 3 potion of cure serious wounds, potion of haste
-
-**Other gear:** +1 human-[defiant](ref/magic-enh/defiant) [full plate](ref/eq-armor/full-plate), +2
-ramming heavy steel shield, +1 bastard sword, +1 valiant lance, Ihbmp2ic, I-horn of battle clarity,
-I-horn of fog, ring of prot1, I-vambraces of the tactician
-
-**Ecology**
-
-**Environment:** warm mountains
+::: statblock
+Environment: warm mountains
+:::
 
 ### Description
 

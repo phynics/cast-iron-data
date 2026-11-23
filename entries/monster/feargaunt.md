@@ -32,96 +32,71 @@ abilities = ["-", "21", "17", "12", "16", "19"]
 _This hulking shadow exudes a palpable menace, its form twisting into the shapes of hooks, grasping
 hands, and writhing tentacles._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: nightmare (60 ft., DC 20)
+Alignment: Chaotic evil
+Initiative: +9
+Size: large
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Incorporeal
+Experience points: 6,400
+:::
 
-**aura:** nightmare (60 ft., DC 20)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 23
+Touch: 23
+Flat-footed: 17
+AC modifiers: +7 deflection, +5 Dex, +1 dodge, -1 size
+Hit points: 102 (12d10+36)
+Fort: +7
+Ref: +13
+Will: +11
+Incorporeal: present
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: tormenting touch +16 (6d6)
+Reach: 10
+Space: 10
+Spec Att: tormenting touch
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+At will: fear (DC 17), ghost sound (DC 14)
+Per day: 3/day: confusion (DC 17), nightmare (DC 19), phantasmal killer (DC 18)
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 21, Con 17, Int 12, Wis 16, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 37
+Feats: Blind-Fight, Dodge, Flyby Attack, Improved Initiative, Lunge, Skill Focus (Stealth)
+Skills: Bluff +19, Fly +26, Intimidate +19, Knowledge (planes) +16, Perception +18, Sense Motive +18, Stealth +22
+Languages: Common (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: never far behind, prideful defense
+:::
 
-**Subtype:** Extraplanar, Incorporeal
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 23
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 deflection, +5 Dex, +1 dodge, -1 size
-
-**Hit points:** 102 (12d10+36)
-
-**Fort:** +7
-
-**Ref:** +13
-
-**Will:** +11
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** tormenting touch +16 (6d6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** tormenting touch
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**At will:**
-
-- fear (DC 17), ghost sound (DC 14)
-
-**Per day:**
-
-- 3/day: confusion (DC 17), nightmare (DC 19), phantasmal killer (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 21, Con 17, Int 12, Wis 16, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 37
-
-**Feats:** Blind-Fight, Dodge, Flyby Attack, Improved Initiative, Lunge, Skill Focus (Stealth)
-
-**Skills:** Bluff +19, Fly +26, Intimidate +19, Knowledge (planes) +16, Perception +18, Sense Motive
-+18, Stealth +22
-
-**Languages:** Common (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** never far behind, prideful defense
-
-**Ecology**
-
-**Environment:** any ([Dimension of Dreams](ref/rule/dimension-of-dreams))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Dimension of Dreams](ref/rule/dimension-of-dreams))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

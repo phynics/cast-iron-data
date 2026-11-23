@@ -34,128 +34,82 @@ and her bestial legs._
 
 **Mythic Glaistig**
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+Mythic rank: 10
+aura: reveler's rapture (30 ft., Will DC 32)
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +26, Mythic Improved Initiative
+Size: medium
+Perception: +37
+Senses: Low-light vision
+Subtype: Earth, Mythic
+tremorsense: 120
+Experience points: 409,600
+:::
 
-**Mythic rank:** 10
+### Defense
 
-**aura:** reveler's rapture (30 ft., Will DC 32)
+::: statblock
+Armor class: 40
+Touch: 32
+Flat-footed: 28
+AC modifiers: +10 deflection, +12 Dex, +8 natural
+Hit points: 422 (25d6+335)
+Fort: +18
+Ref: +26
+Will: +23; second save
+Dr: 15/cold iron and epic
+Immune: daze, mind-affecting effects, stagger, stun
+Regen: 30 (air; see airbane)
+Resist: acid 30, cold 30, electricity 30, fire 30, sonic 30
+Sr: 32
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Type:** fey
+::: statblock
+Speed: 60 ft., burrow 60 ft., climb 60 ft.
+M Power: 10/day, +1d12
+Melee: earth whip +26/+21/+16 (10d6+20/19-20 bludgeoning, piercing, or slashing plus hex) or leaf whip +26/+21/+16 (20d6+30/19-20 slashing plus hex)
+Ranged: earth blast +36 (10d6+30/19-20 bludgeoning, piercing, or slashing plus hex) or leaf blast +36 (20d6+40/19-20 slashing plus hex)
+Reach: 5
+Reach P: 10 ft. with earth whip or leaf whip
+Sp Extra: earth glide
+Space: 5
+Spec Att: infusions (bowling infusion, deadly earth, entangling infusion, extended range, fragmentation, grappling infusion, impale, kinetic whip, mobile blast, pushing infusion, snake, wall), terrakinesis, witch of the fey
+:::
 
-**Initiative:** +26, Mythic Improved Initiative
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 25
+Concentration: +35
+Constant: freedom of movement, pass without trace
+At will: create water, know direction, purify food and drink, transport via plants
+Per day: 3/day: clashing rocks (DC 29), quickened confusion (DC 23), flesh to stone (DC 26), move earth, summon nature's ally IX
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +37
+::: statblock
+Ability scores: Str 28, Dex 35, Con 30, Int 27, Wis 28, Cha 31
+Base attack bonus: +12
+Combat maneuver bonus: +21
+Combat maneuver defense: 69
+Feats: Combat Casting, Mythic Combat Reflexes, Mythic Defensive Combat Training, Mythic Improved Critical (kinetic blast), Mythic Improved Initiative, Improved Precise Shot, Point-Blank Shot, Precise Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (confusion), Skill Focus (Bluff), Skill Focus (Sense Motive), Weapon Finesse, Mythic Weapon Focus (kinetic blast)
+Skills: Acrobatics +40, Bluff +44, Climb +17, Diplomacy +38, Disguise +28, Perform (dance) +38, Sense Motive +43, Sleight of Hand +40, Stealth +40, Use Magic Device +38
+Languages: Common, Elven, Sylvan, Terran
+Special qualities: divine source, sylvan grace
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Subtype:** Earth, Mythic
-
-**tremorsense:** 120
-
-**Experience points:** 409,600
-
-**Armor class:** 40
-
-**Touch:** 32
-
-**Flat-footed:** 28
-
-**AC modifiers:** +10 deflection, +12 Dex, +8 natural
-
-**Hit points:** 422 (25d6+335)
-
-**Fort:** +18
-
-**Ref:** +26
-
-**Will:** +23; second save
-
-**Dr:** 15/cold iron and epic
-
-**Immune:** daze, mind-affecting effects, stagger, stun
-
-**Regen:** 30 (air; see airbane)
-
-**Resist:** acid 30, cold 30, electricity 30, fire 30, sonic 30
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 60 ft., burrow 60 ft., climb 60 ft.
-
-**M Power:** 10/day, +1d12
-
-**Melee:** earth whip +26/+21/+16 (10d6+20/19-20 bludgeoning, piercing, or slashing plus hex) or
-leaf whip +26/+21/+16 (20d6+30/19-20 slashing plus hex)
-
-**Ranged:** earth blast +36 (10d6+30/19-20 bludgeoning, piercing, or slashing plus hex) or leaf
-blast +36 (20d6+40/19-20 slashing plus hex)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with earth whip or leaf whip
-
-**Sp Extra:** earth glide
-
-**Space:** 5
-
-**Spec Att:** infusions (bowling infusion, deadly earth, entangling infusion, extended range,
-fragmentation, grappling infusion, impale, kinetic whip, mobile blast, pushing infusion, snake,
-wall), terrakinesis, witch of the fey
-
-**Spell-Like Abilities**
-
-**Caster level:** 25
-
-**Concentration:** +35
-
-**Constant:**
-
-- freedom of movement, pass without trace
-
-**At will:**
-
-- create water, know direction, purify food and drink, transport via plants
-
-**Per day:**
-
-- 3/day: clashing rocks (DC 29), quickened confusion (DC 23), flesh to stone (DC 26), move earth,
-  summon nature's ally IX
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 35, Con 30, Int 27, Wis 28, Cha 31
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 69
-
-**Feats:** Combat Casting, Mythic Combat Reflexes, Mythic Defensive Combat Training, Mythic Improved
-Critical (kinetic blast), Mythic Improved Initiative, Improved Precise Shot, Point-Blank Shot,
-Precise Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (confusion), Skill Focus
-(Bluff), Skill Focus (Sense Motive), Weapon Finesse, Mythic Weapon Focus (kinetic blast)
-
-**Skills:** Acrobatics +40, Bluff +44, Climb +17, Diplomacy +38, Disguise +28, Perform (dance) +38,
-Sense Motive +43, Sleight of Hand +40, Stealth +40, Use Magic Device +38
-
-**Languages:** Common, Elven, Sylvan, Terran
-
-**Special qualities:** divine source, sylvan grace
-
-**Ecology**
-
-**Environment:** temperate forests or swamps
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: temperate forests or swamps
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -31,128 +31,83 @@ abilities = ["40", "27", "42", "22", "30", "27"]
 _This great reptilian monster is an aquatic lizard with a beard of tentacles and a sting-tipped
 tail._
 
-**Challenge rating:** 27
+::: statblock
+Challenge rating: 27
+aura: toxic breath (30 ft., DC 41), unspeakable presence (300 ft., DC 33)
+blindsight: 120
+Alignment: Chaotic neutral
+Initiative: +22
+Size: large
+Type: Magical beast
+Perception: +43
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic, Chaotic, Extraplanar, Great Old One
+Experience points: 3,276,800
+:::
 
-**aura:** toxic breath (30 ft., DC 41), unspeakable presence (300 ft., DC 33)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 45
+Touch: 27
+Flat-footed: 37
+AC modifiers: +8 Dex, +10 insight, +18 natural, -1 size
+Hit points: 645 (30d10+480)
+Fort: +33
+Ref: +25
+Will: +22
+Defensive abilities: immortality, insanity (DC 41), spines
+Dr: 15/epic and lawful
+Fh: 20
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, poison
+Resist: acid 30, fire 30
+Sr: 38
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Initiative:** +22
+::: statblock
+Speed: 50 ft., swim 120 ft.
+Constrict: 4d6+22
+M Power: 10/day, surge +1d12
+Melee: bite +44 (4d8+22/19-20), 2 claws +44 (2d8+22/19-20), sting +44 (3d6+22/19-20 plus poison), tentacle beard +39 (4d6+22 plus [grab](ref/umr/grab))
+Reach: 10
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: critical poisoning, poison, powerful blows (bite, claws, sting, tentacle beard), vengeful dreams
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 27
+Concentration: +35
+Constant: air walk
+At will: cloudkill (DC 23), dimension door, dream, greater dispel magic, hallucinatory terrain, nightmare (DC 23), plane shift, transmute rock to mud, wind walk
+Per day: 3/day: demand, quickened feeblemind (DC 23), horrid wilting (DC 26)\
+1/day: control weather, symbol of insanity (DC 26), tsunami (DC 26)
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Perception:** +43
+::: statblock
+Ability scores: Str 40, Dex 27, Con 42, Int 22, Wis 30, Cha 27
+Base attack bonus: +30
+Combat maneuver bonus: +46 (+50 bull rush, grapple, or overrun)
+Combat maneuver defense: 74 (76 vs. bull rush or overrun, 78 vs. trip)
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Critical (bite), Improved Critical (claw), Improved Critical (sting), Improved Initiative, Improved Iron Will, Improved Overrun, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind)
+Skills: Knowledge (arcana, history, nature, religion) +36, Perception +43, Spellcraft +36, Stealth +37, Swim +56
+Languages: Aklo, Aquan, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious), otherworldly insight
+Faith: Bokrug
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Aquatic, Chaotic, Extraplanar, Great Old One
-
-**Experience points:** 3,276,800
-
-**Armor class:** 45
-
-**Touch:** 27
-
-**Flat-footed:** 37
-
-**AC modifiers:** +8 Dex, +10 insight, +18 natural, -1 size
-
-**Hit points:** 645 (30d10+480)
-
-**Fort:** +33
-
-**Ref:** +25
-
-**Will:** +22
-
-**Defensive abilities:** immortality, insanity (DC 41), spines
-
-**Dr:** 15/epic and lawful
-
-**Fh:** 20
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, petrification, poison
-
-**Resist:** acid 30, fire 30
-
-**Sr:** 38
-
-**Offense**
-
-**Speed:** 50 ft., swim 120 ft.
-
-**Constrict:** 4d6+22
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** bite +44 (4d8+22/19-20), 2 claws +44 (2d8+22/19-20), sting +44 (3d6+22/19-20 plus
-poison), tentacle beard +39 (4d6+22 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** critical poisoning, poison, powerful blows (bite, claws, sting, tentacle beard),
-vengeful dreams
-
-**Spell-Like Abilities**
-
-**Caster level:** 27
-
-**Concentration:** +35
-
-**Constant:**
-
-- air walk
-
-**At will:**
-
-- cloudkill (DC 23), dimension door, dream, greater dispel magic, hallucinatory terrain, nightmare
-  (DC 23), plane shift, transmute rock to mud, wind walk
-
-**Per day:**
-
-- 3/day: demand, quickened feeblemind (DC 23), horrid wilting (DC 26)
-- 1/day: control weather, symbol of insanity (DC 26), tsunami (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 27, Con 42, Int 22, Wis 30, Cha 27
-
-**Base attack bonus:** +30
-
-**Combat maneuver bonus:** +46 (+50 bull rush, grapple, or overrun)
-
-**Combat maneuver defense:** 74 (76 vs. bull rush or overrun, 78 vs. trip)
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Overrun,
-Improved Bull Rush, Improved Critical (bite), Improved Critical (claw), Improved Critical (sting),
-Improved Initiative, Improved Iron Will, Improved Overrun, Iron Will, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind)
-
-**Skills:** Knowledge (arcana, history, nature, religion) +36, Perception +43, Spellcraft +36,
-Stealth +37, Swim +56
-
-**Languages:** Aklo, Aquan, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), otherworldly insight
-
-**Faith:** Bokrug
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any water
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

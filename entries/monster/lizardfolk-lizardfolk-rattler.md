@@ -30,81 +30,62 @@ special_qualities = "bardic knowledge +2, hold breath, versatile performance (pe
 abilities = ["18", "12", "15", "9", "8", "14"]
 +++
 
-**Challenge rating:** 5
-
 **Lizardfolk [bard](ref/class/bard) 4**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +8
+Subtype: Reptilian
+Experience points: 1,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 armor, +1 Dex, +5 natural
+Hit points: 43 (6d8+16)
+Fort: +7
+Ref: +6
+Will: +4; +4 vs. bardic performance, language-dependent, and sonic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft., swim 15 ft.
+Melee: mwk club +10 (1d6+4), bite +3 (1d4+2) or 2 claws +8 (1d4+4), bite +3 (1d4+2)
+Ranged: javelin +5 (1d6+4)
+Spec Att: bardic performance 12 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 14\], [inspire competence](ref/performance/inspire-competence) +2, [inspire courage](ref/performance/inspire-courage) +1)
+:::
 
-**Subtype:** Reptilian
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 18, Dex 12, Con 15, Int 9, Wis 8, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 19
+Feats: Dazzling Display, Intimidating Prowess, Weapon Focus (club)
+Skills: Acrobatics +14, Intimidate +15, Perception +8, Perform (percussion) +11, Swim +16
+Racial Modifiers: +4 Acrobatics
+Languages: Draconic
+Special qualities: bardic knowledge +2, [hold breath](ref/umr/hold-breath), versatile performance (percussion)
+Combat gear: potion of cure light wounds, 2 alchemist's fire
+Other gear: mwk leather armor, mwk club, Iclk1, masterwork war rattle
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 armor, +1 Dex, +5 natural
-
-**Hit points:** 43 (6d8+16)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +4; +4 vs. bardic performance, language-dependent, and sonic
-
-**Offense**
-
-**Speed:** 30 ft., swim 15 ft.
-
-**Melee:** mwk club +10 (1d6+4), bite +3 (1d4+2) or 2 claws +8 (1d4+4), bite +3 (1d4+2)
-
-**Ranged:** javelin +5 (1d6+4)
-
-**Spec Att:** bardic performance 12 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 14\],
-[inspire competence](ref/performance/inspire-competence) +2,
-[inspire courage](ref/performance/inspire-courage) +1)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 12, Con 15, Int 9, Wis 8, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dazzling Display, Intimidating Prowess, Weapon Focus (club)
-
-**Skills:** Acrobatics +14, Intimidate +15, Perception +8, Perform (percussion) +11, Swim +16
-
-**Racial Modifiers:** +4 Acrobatics
-
-**Languages:** Draconic
-
-**Special qualities:** bardic knowledge +2, [hold breath](ref/umr/hold-breath), versatile
-performance (percussion)
-
-**Combat gear:** potion of cure light wounds, 2 alchemist's fire
-
-**Other gear:** mwk leather armor, mwk club, Iclk1, masterwork war rattle
-
-**Ecology**
-
-**Environment:** temperate swamps
+::: statblock
+Environment: temperate swamps
+:::
 
 ### Description
 

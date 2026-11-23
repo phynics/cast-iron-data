@@ -31,102 +31,74 @@ abilities = ["18", "15", "15", "10", "17", "14"]
 _This squat figure seems to be a clockwork approximation of a dwarf, crafted from dark bronze or a
 strange steel alloy. Its eyes glow with a piercing white light._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +6
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 armor, +2 Dex, +4 natural
+Hit points: 80 (8d10+36)
+Fort: +8
+Ref: +4
+Will: +9
+Defensive abilities: armor of will, constructed
+Dr: 5/chaotic
+Regen: 3 (chaotic)
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft.
+Melee: +1 warhammer +14/+9 (1d8+7/×3)
+Spec Att: compulsive orthodoxy
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+At will: bane (DC 13), command (DC 13), forbid action (DC 13), litany of sloth (DC 13)
+Per day: 5/day: litany of weakness (DC 13)\
+3/day: divine favor, enthrall (DC 14), litany of entanglement (DC 15), protection from chaos (DC 13), zone of truth (DC 14)\
+1/day: bestow curse (DC 15), litany of vengeance (DC 17), terrible remorse (DC 16)
+Per week: plane shift, self only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+::: statblock
+Ability scores: Str 18, Dex 15, Con 15, Int 10, Wis 17, Cha 14
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 24
+Feats: Alertness, Improved Initiative, Persuasive, Weapon Focus (warhammer)
+Skills: Diplomacy +13, Intimidate +13, Knowledge (history, religion) +6, Perception +14
+Languages: truespeech
+Special qualities: discern heritage, slow and steady
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 armor, +2 Dex, +4 natural
-
-**Hit points:** 80 (8d10+36)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +9
-
-**Defensive abilities:** armor of will, constructed
-
-**Dr:** 5/chaotic
-
-**Regen:** 3 (chaotic)
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +1 warhammer +14/+9 (1d8+7/×3)
-
-**Spec Att:** compulsive orthodoxy
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**At will:**
-
-- bane (DC 13), command (DC 13), forbid action (DC 13), litany of sloth (DC 13)
-
-**Per day:**
-
-- 5/day: litany of weakness (DC 13)
-- 3/day: divine favor, enthrall (DC 14), litany of entanglement (DC 15), protection from chaos (DC
-  13), zone of truth (DC 14)
-- 1/day: bestow curse (DC 15), litany of vengeance (DC 17), terrible remorse (DC 16)
-
-**Per week:**
-
-- plane shift, self only
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 15, Int 10, Wis 17, Cha 14
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24
-
-**Feats:** Alertness, Improved Initiative, Persuasive, Weapon Focus (warhammer)
-
-**Skills:** Diplomacy +13, Intimidate +13, Knowledge (history, religion) +6, Perception +14
-
-**Languages:** truespeech
-
-**Special qualities:** discern heritage, slow and steady
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or council (3-5)
-
-**Treasure:** Standard (+1 warhammer); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or council (3-5)
+Treasure: Standard (+1 warhammer); other treasure
+:::
 
 ### Special Abilities
 

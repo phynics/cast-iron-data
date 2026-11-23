@@ -28,69 +28,57 @@ abilities = ["14", "15", "13", "2", "14", "7"]
 _A formidable pair of heavy horns curls from the forehead of this sturdy, brown-and-white-furred
 ram._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +5
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +3 (1d4+3)
+Pow Ch: gore, 1d8+3
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 14, Dex 15, Con 13, Int 2, Wis 14, Cha 7
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Improved Bull Rush, Skill Focus (Acrobatics)
+Skills: Acrobatics +13 (+17 jump), Perception +6
+Racial Modifiers: +4 Acrobatics
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +3 (1d4+3)
-
-**Pow Ch:** gore, 1d8+3
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 13, Int 2, Wis 14, Cha 7
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Improved Bull Rush, Skill Focus (Acrobatics)
-
-**Skills:** Acrobatics +13 (+17 jump), Perception +6
-
-**Racial Modifiers:** +4 Acrobatics
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, pair, or herd (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: temperate mountains
+Organization: solitary, pair, or herd (3-30)
+Treasure: None
+:::
 
 ### Description
 

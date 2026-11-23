@@ -32,111 +32,77 @@ abilities = ["50", "33", "44", "15", "32", "31"]
 _This impossibly enormous, whale-like monstrosity glares with a hundred red eyes, its cavernous maw
 lined with rows of sharp teeth._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+Size: colossal
+Initiative: +15
+Type: Magical beast
+Alignment: Neutral
+Perception: +48
+Senses: Low-light vision, Scent, See in darkness, True seeing
+Subtype: Water
+Experience points: 9,830,400
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +15
+::: statblock
+Armor class: 48
+Touch: 13
+Flat-footed: 37
+AC modifiers: +11 Dex, +35 natural, -8 size
+Hit points: 765 (34d10+578)
+Fort: +36
+Ref: +30
+Will: +24
+Defensive abilities: all-around vision, recovery
+Dr: 20/epic
+Immune: ability damage, ability drain, bleed, cold, death effects, disease, energy drain, fear, paralysis, sleep
+Resist: acid 30, electricity 30, fire 30
+Sr: 41
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 200 ft., fly 100 ft. (poor)
+F Swallow: present
+Melee: bite +46 (10d8+30/19-20 plus disjoining bite and [grab](ref/umr/grab)), slam +46 (10d6+30/19-20), tail slap +41 (6d10+30/19-20 plus dimensional vortex)
+Reach: 100
+Space: 100
+Spec Att: disjoining bite, eye beams, hurl foe, inhalation, pierce immunities
+Swallow: present
+:::
 
-**Perception:** +48
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 30
+Concentration: +40
+Constant: true seeing
+Per day: 3/day: plane shift (DC 27)\
+1/day: tsunami (DC 29)
+:::
 
-**Senses:** Low-light vision, Scent, See in darkness, True seeing
+### Statistics
 
-**Subtype:** Water
+::: statblock
+Ability scores: Str 50, Dex 33, Con 44, Int 15, Wis 32, Cha 31
+Base attack bonus: +34
+Combat maneuver bonus: +62 (+66 bull rush)
+Combat maneuver defense: 83 (85 vs. bull rush, can't be tripped)
+Feats: Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Vital Strike, Hover, Improved Bull Rush, Improved Critical (bite, slam, tail slap), Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike, Wingover
+Skills: Fly +36
+Languages: Aklo, Common, Sylvan
+Special qualities: labyrinthine innards, massive, planar acclimation, powerful blows (bite, slam, tail slap)
+:::
 
-**Experience points:** 9,830,400
+### Ecology
 
-**Armor class:** 48
-
-**Touch:** 13
-
-**Flat-footed:** 37
-
-**AC modifiers:** +11 Dex, +35 natural, -8 size
-
-**Hit points:** 765 (34d10+578)
-
-**Fort:** +36
-
-**Ref:** +30
-
-**Will:** +24
-
-**Defensive abilities:** all-around vision, recovery
-
-**Dr:** 20/epic
-
-**Immune:** ability damage, ability drain, bleed, cold, death effects, disease, energy drain, fear,
-paralysis, sleep
-
-**Resist:** acid 30, electricity 30, fire 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** swim 200 ft., fly 100 ft. (poor)
-
-**F Swallow:** present
-
-**Melee:** bite +46 (10d8+30/19-20 plus disjoining bite and [grab](ref/umr/grab)), slam +46
-(10d6+30/19-20), tail slap +41 (6d10+30/19-20 plus dimensional vortex)
-
-**Reach:** 100
-
-**Space:** 100
-
-**Spec Att:** disjoining bite, eye beams, hurl foe, inhalation, pierce immunities
-
-**Swallow:** present
-
-**Spell-Like Abilities**
-
-**Caster level:** 30
-
-**Concentration:** +40
-
-**Constant:**
-
-- true seeing
-
-**Per day:**
-
-- 3/day: plane shift (DC 27)
-- 1/day: tsunami (DC 29)
-
-**Statistics**
-
-**Ability scores:** Str 50, Dex 33, Con 44, Int 15, Wis 32, Cha 31
-
-**Base attack bonus:** +34
-
-**Combat maneuver bonus:** +62 (+66 bull rush)
-
-**Combat maneuver defense:** 83 (85 vs. bull rush, can't be tripped)
-
-**Feats:** Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Vital Strike, Hover, Improved
-Bull Rush, Improved Critical (bite, slam, tail slap), Improved Initiative, Improved Iron Will,
-Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike, Wingover
-
-**Skills:** Fly +36
-
-**Languages:** Aklo, Common, Sylvan
-
-**Special qualities:** labyrinthine innards, massive, planar acclimation, powerful blows (bite,
-slam, tail slap)
-
-**Ecology**
-
-**Environment:** any oceans (First World)
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple; consists of swallowed treasure
+::: statblock
+Environment: any oceans (First World)
+Organization: solitary (unique)
+Treasure: Triple; consists of swallowed treasure
+:::
 
 ### Special Abilities
 

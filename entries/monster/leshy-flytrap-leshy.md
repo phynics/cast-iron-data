@@ -33,95 +33,71 @@ abilities = ["12", "15", "14", "10", "15", "15"]
 _This cluster of flytraps has a vaguely humanoid shape. The beady eyes atop the largest flytrap
 glare menacingly._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Leshy, Shapechanger
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 15
+AC modifiers: +2 Dex, +4 natural, +1 size
+Hit points: 39 (6d8+12)
+Fort: +7
+Ref: +4
+Will: +4
+Immune: electricity, [plant traits](ref/umr/plant-traits), sonic
+Resist: fire 5
+:::
 
-**Perception:** +11
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft.
+Melee: bite +7 (1d4+1 plus 1d4 acid and digest), 2 flytrap hands +7 (1d3+1 plus 1d3 acid and digest)
+Ranged: acidic spittle +7 (1d4 acid and digest)
+Sneak: +1d6
+Spec Att: digest
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+Constant: pass without trace, CL 12th
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Leshy, Shapechanger
+::: statblock
+Ability scores: Str 12, Dex 15, Con 14, Int 10, Wis 15, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Combat Reflexes, Improved Initiative, Weapon Focus (bite)
+Skills: Intimidate +8, Perception +11
+Racial Modifiers: +4 Stealth in wetlands, +4 Survival in wetlands
+Languages: Druidic, Sylvan; _plantspeech_ (flytraps)
+Special qualities: amalgam, [change shape](ref/umr/change-shape) (small flytrap; [tree shape](ref/spell/tree-shape)), verdant burst
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +4 natural, +1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +4
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits), sonic
-
-**Resist:** fire 5
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +7 (1d4+1 plus 1d4 acid and digest), 2 flytrap hands +7 (1d3+1 plus 1d3 acid and
-digest)
-
-**Ranged:** acidic spittle +7 (1d4 acid and digest)
-
-**Sneak:** +1d6
-
-**Spec Att:** digest
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Constant:**
-
-- pass without trace, CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 14, Int 10, Wis 15, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Combat Reflexes, Improved Initiative, Weapon Focus (bite)
-
-**Skills:** Intimidate +8, Perception +11
-
-**Racial Modifiers:** +4 Stealth in wetlands, +4 Survival in wetlands
-
-**Languages:** Druidic, Sylvan; _plantspeech_ (flytraps)
-
-**Special qualities:** amalgam, [change shape](ref/umr/change-shape) (small flytrap;
-[tree shape](ref/spell/tree-shape)), verdant burst
-
-**Ecology**
-
-**Environment:** warm marshes or wetlands
-
-**Organization:** solitary or cluster (4-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm marshes or wetlands
+Organization: solitary or cluster (4-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

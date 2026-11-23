@@ -29,85 +29,67 @@ special_qualities = "amphibious"
 abilities = ["34", "10", "24", "-", "13", "2"]
 +++
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: gargantuan
+Initiative: +4
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 19,200
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 26
+Touch: 6
+Flat-footed: 26
+AC modifiers: +20 natural, -4 size
+Hit points: 184 (16d8+112)
+Fort: +17
+Ref: +5
+Will: +6
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: 2 claws +20 (1d8+12), sting +20 (2d6+12 plus poison)
+Reach: 20
+Reach P: 30 ft. with sting
+Space: 20
+Spec Att: spit
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
-
-**tremorsense:** 30
-
-**Type:** vermin
-
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 6
-
-**Flat-footed:** 26
-
-**AC modifiers:** +20 natural, -4 size
-
-**Hit points:** 184 (16d8+112)
-
-**Fort:** +17
-
-**Ref:** +5
-
-**Will:** +6
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** 2 claws +20 (1d8+12), sting +20 (2d6+12 plus poison)
-
-**Reach:** 20
-
-**Reach P:** 30 ft. with sting
-
-**Space:** 20
-
-**Spec Att:** spit
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 10, Con 24, Int -, Wis 13, Cha 2
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 38
-
-**Feats:** Improved Initiative^B^
-
-**Skills:** Swim +20
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 34, Dex 10, Con 24, Int -, Wis 13, Cha 2
+Base attack bonus: +12
+Combat maneuver bonus: +28
+Combat maneuver defense: 38
+Feats: Improved Initiative^B^
+Skills: Swim +20
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate or warm ocean
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm ocean
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

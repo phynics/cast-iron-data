@@ -34,107 +34,75 @@ abilities = ["-", "27", "22", "31", "20", "27"]
 _This cloud of swirling energy flickers like lightning, with raw magical power playing across its
 form._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: energy channel (30 ft., DC 26)
+blindsense: 60
+Initiative: +12
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +25
+Senses: Arcane sight, Darkvision 60 ft.
+Subtype: Herald, Incorporeal
+Experience points: 51,200
+:::
 
-**aura:** energy channel (30 ft., DC 26)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 27
+Touch: 27
+Flat-footed: 18
+AC modifiers: +8 deflection, +8 Dex, +1 dodge
+Hit points: 195 (17d10+102)
+Fort: +18
+Ref: +13
+Will: +17; +2 vs. chaos/evil/good/law
+Immune: poison
+Incorporeal: present
+Resist: acid 30, cold 30, divine power 30 (such as from _[flame strike](ref/spell/flame-strike)_), electricity 30, fire 30, sonic 30
+Sr: 31
+:::
 
-**Initiative:** +12
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 60 ft. (perfect)
+Melee: 2 incorporeal touches +25 (4d6 plus energy channel)
+Ranged: 2 eldritch blasts +25 touch (4d6 plus special)
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +25
+Constant: arcane sight, 120 ft., protection from chaos/evil/good/law
+At will: clairaudience/clairvoyance, greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: cloudkill (DC 23), cure critical wounds, lightning bolt (DC 21), telekinesis (DC 23)\
+1/day: harm (DC 24), heal, limited wish (DC 25), plane shift (DC 25)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +25
+::: statblock
+Ability scores: Str -, Dex 27, Con 22, Int 31, Wis 20, Cha 27
+Base attack bonus: +17
+Combat maneuver bonus: +25
+Combat maneuver defense: 44
+Feats: Combat Casting, Combat Reflexes, Command Undead, Dodge, Great Fortitude, Greater Spell Penetration, Improved Initiative, Iron Will, Spell Penetration
+Skills: Craft (alchemy) +30, Sense Motive +25, Spellcraft +30, Stealth +28, Use Magic Device +28
+Languages: Abyssal, Ancient Osiriani, Celestial, Common, Draconic, Infernal, Protean; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: change shape (corporeal form)
+:::
 
-**Senses:** Arcane sight, Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Herald, Incorporeal
-
-**Experience points:** 51,200
-
-**Armor class:** 27
-
-**Touch:** 27
-
-**Flat-footed:** 18
-
-**AC modifiers:** +8 deflection, +8 Dex, +1 dodge
-
-**Hit points:** 195 (17d10+102)
-
-**Fort:** +18
-
-**Ref:** +13
-
-**Will:** +17; +2 vs. chaos/evil/good/law
-
-**Immune:** poison
-
-**Incorporeal:** present
-
-**Resist:** acid 30, cold 30, divine power 30 (such as from
-_[flame strike](ref/spell/flame-strike)_), electricity 30, fire 30, sonic 30
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 incorporeal touches +25 (4d6 plus energy channel)
-
-**Ranged:** 2 eldritch blasts +25 touch (4d6 plus special)
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +25
-
-**Constant:**
-
-- arcane sight, 120 ft., protection from chaos/evil/good/law
-
-**At will:**
-
-- clairaudience/clairvoyance, greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: cloudkill (DC 23), cure critical wounds, lightning bolt (DC 21), telekinesis (DC 23)
-- 1/day: harm (DC 24), heal, limited wish (DC 25), plane shift (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 27, Con 22, Int 31, Wis 20, Cha 27
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 44
-
-**Feats:** Combat Casting, Combat Reflexes, Command Undead, Dodge, Great Fortitude, Greater Spell
-Penetration, Improved Initiative, Iron Will, Spell Penetration
-
-**Skills:** Craft (alchemy) +30, Sense Motive +25, Spellcraft +30, Stealth +28, Use Magic Device +28
-
-**Languages:** Abyssal, Ancient Osiriani, Celestial, Common, Draconic, Infernal, Protean;
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** change shape (corporeal form)
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

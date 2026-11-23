@@ -30,75 +30,60 @@ abilities = ["16", "17", "14", "6", "13", "7"]
 _This combination of a lily pad and a flytrap is ringed with horrifying fangs and has another tiny,
 toothy maw at its center._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +7
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Type: plant
+Size: small
+Experience points: 800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +3 Dex, +2 natural, +1 size
+Hit points: 26 (4d8+8)
+Fort: +6
+Ref: +4
+Will: +2
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: fire 10
+:::
 
-**Perception:** +10
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: 2 bites +8 (1d6+3)
+Spec Att: blood-burning fangs, wail of the water's dead
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 16, Dex 17, Con 14, Int 6, Wis 13, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 18 (can't be tripped)
+Feats: Improved Initiative, Weapon Focus (bite)
+Skills: Perception +10, Stealth +12, Swim +9
+Racial Modifiers: +4 Perception
+Languages: Aquan
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +2 natural, +1 size
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +2
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** 2 bites +8 (1d6+3)
-
-**Spec Att:** blood-burning fangs, wail of the water's dead
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 17, Con 14, Int 6, Wis 13, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Feats:** Improved Initiative, Weapon Focus (bite)
-
-**Skills:** Perception +10, Stealth +12, Swim +9
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Aquan
-
-**Ecology**
-
-**Environment:** temperate marshes or rivers
-
-**Organization:** solitary, pair, or clutch (2-7)
-
-**Treasure:** None
+::: statblock
+Environment: temperate marshes or rivers
+Organization: solitary, pair, or clutch (2-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

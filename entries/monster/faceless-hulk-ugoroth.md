@@ -33,103 +33,75 @@ abilities = ["26", "11", "19", "16", "11", "16"]
 _This hairless, leathery giant has no discernible features aside from unsettling whorls across its
 skin and grotesque, slurping tongues where its face should be._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +0
+Size: large
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 9
+Flat-footed: 18
+AC modifiers: +9 natural, -1 size
+Hit points: 119 (14d8+56)
+Fort: +8
+Ref: +4
+Will: +11
+Dr: 10/piercing or slashing
+Resist: cold 5, fire 5
+Rock Ct: present
+:::
 
-**Initiative:** +0
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+B Drain: 1d2 Constitution
+Melee: mwk greataxe +18/+13 (3d6+12/×3) or 2 slams +17 (1d6+12 plus [grab](ref/umr/grab))
+Ranged: rock +10 (1d8+8)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: explosive expansion
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: tongues
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 26, Dex 11, Con 19, Int 16, Wis 11, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +19 (+21 bull rush)
+Combat maneuver defense: 29 (31 vs. bull rush)
+Feats: Awesome Blow, Cleave, Deceitful, Improved Bull Rush, Iron Will, Power Attack, Throw Anything
+Skills: Acrobatics +3, Bluff +21, Climb +25
+Racial Modifiers: +4 Disguise, +8 Escape Artist
+Languages: Aquan, Common
+Special qualities: [change shape](ref/umr/change-shape) (Large humanoid; [alter self](ref/spell/alter-self)), [compression](ref/umr/compression), faceless
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +9 natural, -1 size
-
-**Hit points:** 119 (14d8+56)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +11
-
-**Dr:** 10/piercing or slashing
-
-**Resist:** cold 5, fire 5
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** mwk greataxe +18/+13 (3d6+12/×3) or 2 slams +17 (1d6+12 plus [grab](ref/umr/grab))
-
-**Ranged:** rock +10 (1d8+8)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** explosive expansion
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- tongues
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 11, Con 19, Int 16, Wis 11, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19 (+21 bull rush)
-
-**Combat maneuver defense:** 29 (31 vs. bull rush)
-
-**Feats:** Awesome Blow, Cleave, Deceitful, Improved Bull Rush, Iron Will, Power Attack, Throw
-Anything
-
-**Skills:** Acrobatics +3, Bluff +21, Climb +25
-
-**Racial Modifiers:** +4 Disguise, +8 Escape Artist
-
-**Languages:** Aquan, Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Large humanoid;
-[alter self](ref/spell/alter-self)), [compression](ref/umr/compression), faceless
-
-**Ecology**
-
-**Environment:** any hills or mountains
-
-**Organization:** solitary, pair, or tribe (3-12)
-
-**Treasure:** Standard (mwk greataxe); other treasure
+::: statblock
+Environment: any hills or mountains
+Organization: solitary, pair, or tribe (3-12)
+Treasure: Standard (mwk greataxe); other treasure
+:::
 
 ### Special Abilities
 

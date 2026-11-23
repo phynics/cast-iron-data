@@ -29,69 +29,57 @@ abilities = ["12", "13", "15", "2", "12", "9"]
 
 _This shaggy, hoofed quadruped sports an elongated neck and large, crooked teeth._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 10
+AC modifiers: +1 Dex
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +3
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +1 (1d6+1)
+Spec Att: spit (+1 ranged touch)
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 13, Con 15, Int 2, Wis 12, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 12 (16 vs. trip)
+Feats: Endurance
+Skills: Acrobatics +5 (+9 when jumping)
+Racial Modifiers: +4 Acrobatics when jumping
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 10
-
-**AC modifiers:** +1 Dex
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +1 (1d6+1)
-
-**Spec Att:** spit (+1 ranged touch)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 13, Con 15, Int 2, Wis 12, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12 (16 vs. trip)
-
-**Feats:** Endurance
-
-**Skills:** Acrobatics +5 (+9 when jumping)
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Ecology**
-
-**Environment:** cold or temperate hills or mountains
-
-**Organization:** solitary, pair, or herd (3-15)
-
-**Treasure:** None
+::: statblock
+Environment: cold or temperate hills or mountains
+Organization: solitary, pair, or herd (3-15)
+Treasure: None
+:::
 
 ### Special Abilities
 

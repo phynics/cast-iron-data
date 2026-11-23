@@ -30,71 +30,58 @@ abilities = ["12", "15", "18", "1", "12", "11"]
 
 _A mouth like a lamprey's gnashes curved teeth at one end of this slimy, eel-like fish._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Subtype: Aquatic
+Size: tiny
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 17 (2d8+8)
+Fort: +7
+Ref: +7
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +4 (1d3+1)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 12, Dex 15, Con 18, Int 1, Wis 12, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +1 (+5 grapple)
+Combat maneuver defense: 12 (can't be tripped)
+Feats: Lightning Reflexes
+Skills: Escape Artist +6, Swim +14
+Racial Modifiers: +4 Escape Artist
+Special qualities: slime cloud
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 17 (2d8+8)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +4 (1d3+1)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 18, Int 1, Wis 12, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1 (+5 grapple)
-
-**Combat maneuver defense:** 12 (can't be tripped)
-
-**Feats:** Lightning Reflexes
-
-**Skills:** Escape Artist +6, Swim +14
-
-**Racial Modifiers:** +4 Escape Artist
-
-**Special qualities:** slime cloud
-
-**Ecology**
-
-**Environment:** temperate water
-
-**Organization:** solitary, pair, or group (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate water
+Organization: solitary, pair, or group (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

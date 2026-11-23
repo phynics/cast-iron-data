@@ -32,90 +32,69 @@ abilities = ["19", "17", "14", "12", "14", "19"]
 
 _This woman's fox-like tail and the wood-lined hollow inside her back reveal her true fey nature._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +3
+Size: medium
+Perception: +12
+Senses: Darkvision 60 ft., Detect snares and pits, Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +3 natural
+Hit points: 38 (7d6+14)
+Fort: +4
+Ref: +8
+Will: +7
+Immune: charm effects, compulsion effects
+Regen: 3 (acid or fire)
+Resist: cold 10
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: slam +7 (1d6+4), tail slap +7 (1d6+4 plus 1d4 Cha damage)
+Spec Att: lashing tail, manipulate luck
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +8
+Constant: detect snares and pits, endure elements, pass without trace
+Per day: 3/day: charm person (DC 15), daze monster (DC 16), wood shape\
+1/day: deep slumber (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft., Detect snares and pits, Low-light vision, Scent
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 19, Dex 17, Con 14, Int 12, Wis 14, Cha 19
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 21
+Feats: Deceitful, Dodge, Mobility, Power Attack
+Skills: Bluff +16, Disguise +16, Stealth +13, Use Magic Device +14
+Languages: Common, Giant, Sylvan
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +3 natural
-
-**Hit points:** 38 (7d6+14)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +7
-
-**Immune:** charm effects, compulsion effects
-
-**Regen:** 3 (acid or fire)
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +7 (1d6+4), tail slap +7 (1d6+4 plus 1d4 Cha damage)
-
-**Spec Att:** lashing tail, manipulate luck
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect snares and pits, endure elements, pass without trace
-
-**Per day:**
-
-- 3/day: charm person (DC 15), daze monster (DC 16), wood shape
-- 1/day: deep slumber (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 17, Con 14, Int 12, Wis 14, Cha 19
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21
-
-**Feats:** Deceitful, Dodge, Mobility, Power Attack
-
-**Skills:** Bluff +16, Disguise +16, Stealth +13, Use Magic Device +14
-
-**Languages:** Common, Giant, Sylvan
-
-**Ecology**
-
-**Environment:** cold forests or mountains
-
-**Organization:** solitary, pair, or family (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold forests or mountains
+Organization: solitary, pair, or family (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

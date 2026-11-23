@@ -33,95 +33,70 @@ of twigs._
 
 **Mythic Leanan Sidhe**
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Mythic rank: 3
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +7, Mythic Improved Initiative
+Size: medium
+Perception: +19
+Senses: Low-light vision
+Subtype: Mythic
+Experience points: 6,400
+:::
 
-**Mythic rank:** 3
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 25
+Touch: 19
+Flat-footed: 21
+AC modifiers: +5 deflection, +3 Dex, +1 dodge, +6 natural
+Hit points: 100 (11d6+62)
+Fort: +12
+Ref: +15
+Will: +13
+Dr: 10/cold iron and epic
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +7, Mythic Improved Initiative
+::: statblock
+Speed: 30 ft., fly 30 ft. (good)
+M Power: 3/day, surge +1d6
+Melee: dagger +5 (1d4/19-20) or touch +5 (1d4 Cha damage)
+Spec Att: life drain
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+At will: calm emotions (DC 18), crushing despair (DC 20), dimension door, self plus 50 lbs. of objects only
+Per day: 3/day: animal trance (DC 18), quickened charm person (DC 17)
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 10, Dex 17, Con 18, Int 13, Wis 12, Cha 21
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 24
+Feats: Alertness, Combat Casting, Dodge, Mythic Improved Initiative, Mythic Persuasive, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (charm person), Spell Focus (enchantment)
+Skills: Bluff +19, Diplomacy +25, Sense Motive +19, Spellcraft +6
+Languages: Sylvan; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (any female humanoid), skill blessing, spell blessing, unearthly grace
+:::
 
-**Subtype:** Mythic
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 25
-
-**Touch:** 19
-
-**Flat-footed:** 21
-
-**AC modifiers:** +5 deflection, +3 Dex, +1 dodge, +6 natural
-
-**Hit points:** 100 (11d6+62)
-
-**Fort:** +12
-
-**Ref:** +15
-
-**Will:** +13
-
-**Dr:** 10/cold iron and epic
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (good)
-
-**M Power:** 3/day, surge +1d6
-
-**Melee:** dagger +5 (1d4/19-20) or touch +5 (1d4 Cha damage)
-
-**Spec Att:** life drain
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**At will:**
-
-- calm emotions (DC 18), crushing despair (DC 20), dimension door, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: animal trance (DC 18), quickened charm person (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 18, Int 13, Wis 12, Cha 21
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 24
-
-**Feats:** Alertness, Combat Casting, Dodge, Mythic Improved Initiative, Mythic Persuasive, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (charm person), Spell Focus (enchantment)
-
-**Skills:** Bluff +19, Diplomacy +25, Sense Motive +19, Spellcraft +6
-
-**Languages:** Sylvan; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any female humanoid), skill blessing,
-spell blessing, unearthly grace
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or retinue (1 plus 3-7 guards and sycophants of 1st-3rd level)
-
-**Treasure:** Double (dagger); other treasure
+::: statblock
+Environment: any land
+Organization: solitary or retinue (1 plus 3-7 guards and sycophants of 1st-3rd level)
+Treasure: Double (dagger); other treasure
+:::
 
 ### Special Abilities
 

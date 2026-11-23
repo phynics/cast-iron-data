@@ -30,97 +30,71 @@ abilities = ["22", "18", "18", "9", "13", "15"]
 _This giant moth has a head like a doe skull and six short tentacles instead of legs. Its wings
 drizzle a cascade of shimmering dust._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: inevitability (30 ft, DC 20)
+Alignment: Chaotic evil
+Type: fey
+Initiative: +8
+Size: large
+Perception: +21
+Senses: Low-light vision, See in darkness
+Experience points: 4,800
+:::
 
-**aura:** inevitability (30 ft, DC 20)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 21
+Touch: 14
+Flat-footed: 16
+AC modifiers: +4 Dex, +1 dodge, +7 natural, -1 size
+Hit points: 97 (13d6+52)
+Fort: +8
+Ref: +12
+Will: +11
+Dr: 10/cold iron
+Resist: acid 10, cold 10, fire 10
+Sr: 19
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Melee: 4 tentacles +12 (1d6+3 plus 1d4 Con damage)
+Reach: 10
+Space: 10
+Spec Att: hollow eyes
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +9
+At will: death knell (DC 14), dimension door, self plus 50 lbs. of objects only, glitterdust (DC 14), scorching ray
+Per day: 3/day: diminish plants, enervation, rusting grasp
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Low-light vision, See in darkness
+::: statblock
+Ability scores: Str 22, Dex 18, Con 18, Int 9, Wis 13, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +13
+Combat maneuver defense: 28
+Feats: Ability Focus (aura of inevitability), Alertness, Combat Reflexes, Dodge, Improved Initiative, Iron Will, Weapon Focus (tentacle)
+Skills: Acrobatics +20, Fly +22, Perception +21, Sense Motive +21, Stealth +16
+Languages: First Speech; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +1 dodge, +7 natural, -1 size
-
-**Hit points:** 97 (13d6+52)
-
-**Fort:** +8
-
-**Ref:** +12
-
-**Will:** +11
-
-**Dr:** 10/cold iron
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Melee:** 4 tentacles +12 (1d6+3 plus 1d4 Con damage)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** hollow eyes
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +9
-
-**At will:**
-
-- death knell (DC 14), dimension door, self plus 50 lbs. of objects only, glitterdust (DC 14),
-  scorching ray
-
-**Per day:**
-
-- 3/day: diminish plants, enervation, rusting grasp
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 18, Con 18, Int 9, Wis 13, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 28
-
-**Feats:** Ability Focus (aura of inevitability), Alertness, Combat Reflexes, Dodge, Improved
-Initiative, Iron Will, Weapon Focus (tentacle)
-
-**Skills:** Acrobatics +20, Fly +22, Perception +21, Sense Motive +21, Stealth +16
-
-**Languages:** First Speech; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any (First World)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (First World)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

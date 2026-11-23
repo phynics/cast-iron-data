@@ -32,84 +32,64 @@ abilities = ["31", "16", "21", "2", "16", "11"]
 _This immense white worm has a single circular eye in the center of its head. Wisps of icy fog waft
 up from between its mandibles._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: huge
+Initiative: +7
+Type: Magical beast
+Alignment: Neutral
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold
+Experience points: 19,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 27
+Touch: 11
+Flat-footed: 24
+AC modifiers: +3 Dex, +16 natural, -2 size
+Hit points: 168 (16d10+80)
+Fort: +15
+Ref: +13
+Will: +10
+Immune: cold
+Vulner: fire
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Br Weap: 60-ft. cone, 15d6 cold damage, Reflex DC 23 half, usable once per hour
+Melee: bite +25 (4d10+15 plus 4d6 cold)
+Reach: 10
+Space: 15
+Spec Att: death throes, trill
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 16, Con 21, Int 2, Wis 16, Cha 11
+Base attack bonus: +16
+Combat maneuver bonus: +28
+Combat maneuver defense: 41 (can't be tripped)
+Feats: Cleave, Combat Reflexes, Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Stand Still, Weapon Focus (bite)
+Skills: Perception +17, Stealth +6 (+14 in ice and snow)
+Racial Modifiers: +8 Stealth in ice and snow
+Special qualities: cold
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 11
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 Dex, +16 natural, -2 size
-
-**Hit points:** 168 (16d10+80)
-
-**Fort:** +15
-
-**Ref:** +13
-
-**Will:** +10
-
-**Immune:** cold
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Br Weap:** 60-ft. cone, 15d6 cold damage, Reflex DC 23 half, usable once per hour
-
-**Melee:** bite +25 (4d10+15 plus 4d6 cold)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** death throes, trill
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 16, Con 21, Int 2, Wis 16, Cha 11
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 41 (can't be tripped)
-
-**Feats:** Cleave, Combat Reflexes, Improved Initiative, Iron Will, Power Attack, Skill Focus
-(Perception), Stand Still, Weapon Focus (bite)
-
-**Skills:** Perception +17, Stealth +6 (+14 in ice and snow)
-
-**Racial Modifiers:** +8 Stealth in ice and snow
-
-**Special qualities:** cold
-
-**Ecology**
-
-**Environment:** cold plains or mountains
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: cold plains or mountains
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

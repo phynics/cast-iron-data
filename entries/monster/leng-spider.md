@@ -32,108 +32,76 @@ abilities = ["26", "29", "26", "21", "17", "22"]
 _This immense purple spider has a legspan of nearly forty feet and a hideously bloated body, yet
 still moves with fluid grace._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Size: huge
+Initiative: +13
+Type: Magical beast
+Perception: +21
+Senses: Arcane sight, Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+tremorsense: 60
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 20
+AC modifiers: +9 Dex, +12 natural, -2 size
+Hit points: 202 (15d10+120)
+Fort: +17
+Ref: +18
+Will: +10
+Fh: 10
+Immune: cold, confusion and insanity effects, poison, sonic
+Sr: 25
+:::
 
-**Initiative:** +13
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: mwk flail +22/+17/+12 (3d6+8), bite +16 (2d6+4 plus poison)
+Ranged: mwk bolas +23 (1d8+8)
+Reach: 15
+Space: 15
+Spec Att: web weaponry
+Web: +24 ranged, DC 25, 15 hp
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+Constant: arcane sight, freedom of movement, tongues
+At will: dispel magic, fabricate, webs only
+Per day: 3/day: air walk, invisibility, major image (DC 19)\
+1/day: charm monster (DC 20), insanity (DC 23), mirage arcana (DC 21), veil (DC 22)
+:::
 
-**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 26, Dex 29, Con 26, Int 21, Wis 17, Cha 22
+Base attack bonus: +15
+Combat maneuver bonus: +25
+Combat maneuver defense: 44 (54 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Improved Initiative, Improved Trip, Iron Will, Point-Blank Shot, Precise Shot, Vital Strike
+Skills: Acrobatics +27 (+31 jump), Climb +34, Craft (traps) +20, Knowledge (any one) +20, Perception +21, Spellcraft +20, Use Magic Device +21
+Languages: Aklo; _[tongues](ref/spell/tongues)_
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +9 Dex, +12 natural, -2 size
-
-**Hit points:** 202 (15d10+120)
-
-**Fort:** +17
-
-**Ref:** +18
-
-**Will:** +10
-
-**Fh:** 10
-
-**Immune:** cold, confusion and insanity effects, poison, sonic
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** mwk flail +22/+17/+12 (3d6+8), bite +16 (2d6+4 plus poison)
-
-**Ranged:** mwk bolas +23 (1d8+8)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** web weaponry
-
-**Web:** +24 ranged, DC 25, 15 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**Constant:**
-
-- arcane sight, freedom of movement, tongues
-
-**At will:**
-
-- dispel magic, fabricate, webs only
-
-**Per day:**
-
-- 3/day: air walk, invisibility, major image (DC 19)
-- 1/day: charm monster (DC 20), insanity (DC 23), mirage arcana (DC 21), veil (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 29, Con 26, Int 21, Wis 17, Cha 22
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 44 (54 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Initiative, Improved Trip, Iron Will,
-Point-Blank Shot, Precise Shot, Vital Strike
-
-**Skills:** Acrobatics +27 (+31 jump), Climb +34, Craft (traps) +20, Knowledge (any one) +20,
-Perception +21, Spellcraft +20, Use Magic Device +21
-
-**Languages:** Aklo; _[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cult (3-6)
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary, pair, or cult (3-6)
+Treasure: Double
+:::
 
 ### Special Abilities
 

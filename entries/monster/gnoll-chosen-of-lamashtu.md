@@ -28,103 +28,64 @@ special_attacks = "might of the gods (+11, 11 rounds/day)~scythe of evil (5 roun
 abilities = ["18", "8", "14", "8", "16", "14"]
 +++
 
-**Challenge rating:** 12
-
 **Gnoll [cleric](ref/class/cleric) of [Lamashtu](ref/faith/lamashtu) 11**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: medium
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 19,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 22
+Touch: 10
+Flat-footed: 22
+AC modifiers: +10 armor, +1 deflection, -1 Dex, +2 natural
+Hit points: 95 (13d8+37)
+Fort: +13
+Ref: +3
+Will: +13
+Dr: 10/adamantine (110 hp)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 20 ft.
+Ch N En: 7/day, DC 17, 6d6
+Melee: +1 falchion +15/+10 (2d4+7/18-20), +1 spear +14/+9 (1d8+5/×3)
+Ranged: +1 spear +9 (1d8+5/×3)
+Spec Att: might of the gods (+11, 11 rounds/day), scythe of evil (5 rounds, 1/day)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +14
+Per day: 6/day: strength surge, +5, touch of evil, 5 rounds
+:::
 
-**Subtype:** Gnoll\
-**Experience points:** 19,200
-
-**Armor class:** 22
-
-**Touch:** 10
-
-**Flat-footed:** 22
-
-**AC modifiers:** +10 armor, +1 deflection, -1 Dex, +2 natural
-
-**Hit points:** 95 (13d8+37)
-
-**Fort:** +13
-
-**Ref:** +3
-
-**Will:** +13
-
-**Dr:** 10/adamantine (110 hp)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** 7/day, DC 17, 6d6
-
-**Melee:** +1 falchion +15/+10 (2d4+7/18-20), +1 spear +14/+9 (1d8+5/×3)
-
-**Ranged:** +1 spear +9 (1d8+5/×3)
-
-**Spec Att:** might of the gods (+11, 11 rounds/day), scythe of evil (5 rounds, 1/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**Per day:**
-
-- 6/day: strength surge, +5, touch of evil, 5 rounds
-
-**Prepared Spells**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**6th-level spells:**
-
-- stoneskin^D^, summon monster VI
-
-**5th-level spells:**
-
-- breath of life, righteous might^D^, slay living (DC 18)
-
-**4th-level spells:**
-
-- confusion (DC 17), divine power, freedom of movement, unholy blight^D^ (DC 17)
-
-**3rd-level spells:**
-
-- bestow curse (DC 16), blindness/deafness (DC 16), cure serious wounds, magic vestment^D^, vision
-  of hell (DC 16), wind wall
-
-**2nd-level spells:**
-
-- aid, blinding ray (DC 15), bull's strength^D^, death knell (DC 15), hold person (DC 15), sound
-  burst (DC 15)
-
-**1st-level spells:**
-
-- cause fear (DC 14), enlarge person (DC 14), entropic shield, forbid action (DC 14), murderous
-  command (DC 14), protection from good^D^
-
-**Cantrips:**
-
-- bleed (DC 13), detect magic, read magic, stabilize
-
-**Domains:** Evil, Strength
+::: statblock
+title = "Prepared Spells"
+Caster level: 11
+Concentration: +14
+6th-level spells: stoneskin^D^, summon monster VI
+5th-level spells: breath of life, righteous might^D^, slay living (DC 18)
+4th-level spells: confusion (DC 17), divine power, freedom of movement, unholy blight^D^ (DC 17)
+3rd-level spells: bestow curse (DC 16), blindness/deafness (DC 16), cure serious wounds, magic vestment^D^, vision of hell (DC 16), wind wall
+2nd-level spells: aid, blinding ray (DC 15), bull's strength^D^, death knell (DC 15), hold person (DC 15), sound burst (DC 15)
+1st-level spells: cause fear (DC 14), enlarge person (DC 14), entropic shield, forbid action (DC 14), murderous command (DC 14), protection from good^D^
+Cantrips: bleed (DC 13), detect magic, read magic, stabilize
+Domains: Evil, Strength
+:::
 
 ###### D {#footnote-d}
 
@@ -138,31 +99,25 @@ herself.
 **During Combat** The gnoll provides more allies for her pack with summon monster VI, then uses her
 spells to empower her allies as they head into combat.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 18, Dex 8, Con 14, Int 8, Wis 16, Cha 14
+::: statblock
+Ability scores: Str 18, Dex 8, Con 14, Int 8, Wis 16, Cha 14
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 23
+Feats: Cleave, Combat Casting, Extra Channel, Iron Will, Power Attack, Selective Channeling, Weapon Focus (falchion)
+Skills: Perception +8, Spellcraft +10
+Languages: Gnoll
+Combat gear: Dcure moderate wounds/20 charges
+Other gear: +2 chainmail, +1 falchion, +1 spear, Iamu1, Iclk1, Ihbac2, ring of prot1, silver holy symbol, granite and diamond dust (worth 750 gp), 448 gp
+:::
 
-**Base attack bonus:** +9
+### Ecology
 
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 23
-
-**Feats:** Cleave, Combat Casting, Extra Channel, Iron Will, Power Attack, Selective Channeling,
-Weapon Focus (falchion)
-
-**Skills:** Perception +8, Spellcraft +10
-
-**Languages:** Gnoll
-
-**Combat gear:** Dcure moderate wounds/20 charges
-
-**Other gear:** +2 chainmail, +1 falchion, +1 spear, Iamu1, Iclk1, Ihbac2, ring of prot1, silver
-holy symbol, granite and diamond dust (worth 750 gp), 448 gp
-
-**Ecology**
-
-**Environment:** warm plains or desert
+::: statblock
+Environment: warm plains or desert
+:::
 
 ### Description
 

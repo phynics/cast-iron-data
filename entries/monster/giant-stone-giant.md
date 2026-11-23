@@ -31,84 +31,63 @@ abilities = ["27", "15", "19", "10", "12", "10"]
 _This giant has chiseled, muscular features and a flat, forward-sloping head, looking almost as if
 it were carved of stone._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: humanoid
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 4,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 20
+AC modifiers: +2 Dex, +11 natural, -1 size
+Hit points: 102 (12d8+48)
+Fort: +12
+Ref: +6
+Will: +7
+Defensive abilities: improved rock catching
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: greatclub +16/+11 (2d8+12) or 2 slams +16 (1d8+8)
+Ranged: rock +11/+6 (1d8+12)
+Reach: 10
+Rock Th: 180 ft.
+Space: 10
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 27, Dex 15, Con 19, Int 10, Wis 12, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +18
+Combat maneuver defense: 30
+Feats: Iron Will, Martial Weapon Proficiency (greatclub), Point-Blank Shot, Power Attack, Precise Shot, Quick Draw
+Skills: Climb +12, Intimidate +12, Perception +12, Stealth +4 (+12 in rocky terrain)
+Racial Modifiers: +8 Stealth in rocky terrain
+Languages: Common, Giant
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +11 natural, -1 size
-
-**Hit points:** 102 (12d8+48)
-
-**Fort:** +12
-
-**Ref:** +6
-
-**Will:** +7
-
-**Defensive abilities:** improved rock catching
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** greatclub +16/+11 (2d8+12) or 2 slams +16 (1d8+8)
-
-**Ranged:** rock +11/+6 (1d8+12)
-
-**Reach:** 10
-
-**Rock Th:** 180 ft.
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 15, Con 19, Int 10, Wis 12, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 30
-
-**Feats:** Iron Will, Martial Weapon Proficiency (greatclub), Point-Blank Shot, Power Attack,
-Precise Shot, Quick Draw
-
-**Skills:** Climb +12, Intimidate +12, Perception +12, Stealth +4 (+12 in rocky terrain)
-
-**Racial Modifiers:** +8 Stealth in rocky terrain
-
-**Languages:** Common, Giant
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, gang (2-5), band (4-8), hunting party (9-12 plus 1 elder), or tribe
-(13-30 plus 35% noncombatants, 1-3 elders, and 4-6
-[dire bears](ref/monster/bear-dire-bear-cave-bear))
-
-**Treasure:** Standard (greatclub); other treasure
+::: statblock
+Environment: temperate mountains
+Organization: solitary, gang (2-5), band (4-8), hunting party (9-12 plus 1 elder), or tribe (13-30 plus 35% noncombatants, 1-3 elders, and 4-6 [dire bears](ref/monster/bear-dire-bear-cave-bear))
+Treasure: Standard (greatclub); other treasure
+:::
 
 ### Special Abilities
 

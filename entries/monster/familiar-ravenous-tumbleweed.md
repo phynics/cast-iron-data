@@ -29,71 +29,58 @@ abilities = ["6", "13", "12", "-", "11", "4"]
 
 _This tangle of dry-looking vegetation has grown into a spherical ball of thorny twigs and roots._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Type: plant
+Size: tiny
+Experience points: 135
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 13
+AC modifiers: +1 Dex, +1 natural, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +1
+Will: +0
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 30 ft.
+Melee: slam +0 (1d4-2)
+Reach: 0
+Space: 2-1/2
+Spec Att: hurtling charge
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 6, Dex 13, Con 12, Int -, Wis 11, Cha 4
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 7 (can't be tripped)
+Special qualities: wind-borne
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +1 natural, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +0
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +0 (1d4-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** hurtling charge
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 13, Con 12, Int -, Wis 11, Cha 4
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 7 (can't be tripped)
-
-**Special qualities:** wind-borne
-
-**Ecology**
-
-**Environment:** warm deserts or plains
-
-**Organization:** solitary, pair, or drift (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts or plains
+Organization: solitary, pair, or drift (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

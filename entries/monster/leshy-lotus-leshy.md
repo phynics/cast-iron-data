@@ -32,94 +32,71 @@ abilities = ["10", "15", "16", "16", "19", "15"]
 
 _A plant whose body resembles a blooming lotus flower exudes an air of serenity._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: tranquility (20 ft., DC 15, 10 rounds)
+Initiative: +6
+Alignment: Neutral
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Leshy, Shapechanger
+Experience points: 1,600
+:::
 
-**aura:** tranquility (20 ft., DC 15, 10 rounds)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 20
+Touch: 18
+Flat-footed: 17
+AC modifiers: +2 Dex, +1 dodge, +4 Wis, +2 natural, +1 size
+Hit points: 52 (7d8+21)
+Fort: +8
+Ref: +4
+Will: +6
+Immune: electricity, [plant traits](ref/umr/plant-traits), sonic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 30 ft.
+Melee: slam +8 (1d4)
+Ranged: seed spray +8 (1d3 nonlethal/×3 plus dream pollen)
+Sp Extra: lily pad stride
+Spec Att: dream pollen, seed spray
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +16
+Constant: lily pad stride, pass without trace
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 15, Con 16, Int 16, Wis 19, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +4
+Combat maneuver defense: 21
+Feats: Dodge, Improved Initiative, Skill Focus (Knowledge \[religion\]), Weapon Finesse
+Skills: Diplomacy +9, Heal +11, Knowledge (religion) +13, Perception +14
+Racial Modifiers: +4 Stealth in aquatic terrain, +4 Survival in aquatic terrain
+Languages: Druidic, Sylvan; _plantspeech_ (lotuses)
+Special qualities: [change shape](ref/umr/change-shape) (small lotus flower; [tree shape](ref/spell/tree-shape)), verdant burst
+:::
 
-**Subtype:** Leshy, Shapechanger
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 18
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +1 dodge, +4 Wis, +2 natural, +1 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +6
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits), sonic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +8 (1d4)
-
-**Ranged:** seed spray +8 (1d3 nonlethal/×3 plus dream pollen)
-
-**Sp Extra:** lily pad stride
-
-**Spec Att:** dream pollen, seed spray
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +16
-
-**Constant:**
-
-- lily pad stride, pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 16, Int 16, Wis 19, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Improved Initiative, Skill Focus (Knowledge \[religion\]), Weapon Finesse
-
-**Skills:** Diplomacy +9, Heal +11, Knowledge (religion) +13, Perception +14
-
-**Racial Modifiers:** +4 Stealth in aquatic terrain, +4 Survival in aquatic terrain
-
-**Languages:** Druidic, Sylvan; _plantspeech_ (lotuses)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (small lotus flower;
-[tree shape](ref/spell/tree-shape)), verdant burst
-
-**Ecology**
-
-**Environment:** warm lakes or ponds
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm lakes or ponds
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,98 +32,72 @@ abilities = ["20", "19", "20", "17", "16", "17"]
 _This horse-sized insect has a brilliant red carapace, and its monstrous face reflects great
 intelligence and confidence._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+blindsense: 30
+Initiative: +8 (+12 with hive mind)
+Size: large
+Alignment: Lawful neutral
+Type: Monstrous humanoid
+Perception: +18 (+22 with hive mind)
+Senses: Darkvision 60 ft., Hive mind
+Experience points: 9,600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** +8 (+12 with hive mind)
+::: statblock
+Armor class: 27
+Touch: 16
+Flat-footed: 22
+AC modifiers: +2 deflection, +4 Dex, +1 dodge, +11 natural, -1 size
+Hit points: 126 (12d10+60)
+Fort: +11
+Ref: +14
+Will: +13
+Resist: sonic 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 50 ft.
+Melee: sting +16 (1d8+5 plus poison), 2 claws +16 (1d4+5/19-20), bite +16 (1d6+5)
+Ranged: javelin +15/+10/+5 (1d6+5 plus poison)
+Reach: 5
+Space: 10
+Spec Att: poison
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+At will: charm monster (DC 17), clairaudience/clairvoyance, detect thoughts (DC 15)
+Per day: 3/day: hold monster (DC 18)\
+1/day: feeblemind (DC 18)
+:::
 
-**Perception:** +18 (+22 with hive mind)
+### Statistics
 
-**Senses:** Darkvision 60 ft., Hive mind
+::: statblock
+Ability scores: Str 20, Dex 19, Con 20, Int 17, Wis 16, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 35 (39 vs. trip)
+Feats: Dodge, Improved Initiative, Mobility, Quick Draw, Spring Attack, Vital Strike
+Skills: Climb +20, Diplomacy +15, Sense Motive +15, Spellcraft +15, Stealth +15
+Languages: Common, telepathy 150 ft.
+Special qualities: formian traits, inspire hive, [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 16
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 deflection, +4 Dex, +1 dodge, +11 natural, -1 size
-
-**Hit points:** 126 (12d10+60)
-
-**Fort:** +11
-
-**Ref:** +14
-
-**Will:** +13
-
-**Resist:** sonic 10
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** sting +16 (1d8+5 plus poison), 2 claws +16 (1d4+5/19-20), bite +16 (1d6+5)
-
-**Ranged:** javelin +15/+10/+5 (1d6+5 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**At will:**
-
-- charm monster (DC 17), clairaudience/clairvoyance, detect thoughts (DC 15)
-
-**Per day:**
-
-- 3/day: hold monster (DC 18)
-- 1/day: feeblemind (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 19, Con 20, Int 17, Wis 16, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 35 (39 vs. trip)
-
-**Feats:** Dodge, Improved Initiative, Mobility, Quick Draw, Spring Attack, Vital Strike
-
-**Skills:** Climb +20, Diplomacy +15, Sense Motive +15, Spellcraft +15, Stealth +15
-
-**Languages:** Common, telepathy 150 ft.
-
-**Special qualities:** formian traits, inspire hive,
-[undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** warm or temperate land or underground
-
-**Organization:** Solitary, team (2-4), platoon (1 plus 7-18 warriors and 6-12 workers), or royal
-guard (4 plus 12-20 warriors)
-
-**Treasure:** Standard (9 javelins); other treasure
+::: statblock
+Environment: warm or temperate land or underground
+Organization: Solitary, team (2-4), platoon (1 plus 7-18 warriors and 6-12 workers), or royal guard (4 plus 12-20 warriors)
+Treasure: Standard (9 javelins); other treasure
+:::
 
 ### Special Abilities
 

@@ -30,71 +30,60 @@ abilities = ["13", "13", "14", "2", "11", "4"]
 _This squat equine plods forward with large, curious eyes. As it nears, it extends its muzzle,
 clearly expecting a treat._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 10
+AC modifiers: +1 Dex
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +4
+Will: +0
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 hooves -3 (1d3)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, Scent
-
-**Experience points:** 200
-
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 10
-
-**AC modifiers:** +1 Dex
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 hooves -3 (1d3)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 13, Con 14, Int 2, Wis 11, Cha 4
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13 (17 vs. trip)
-
-**Feats:** Endurance, Run^B^
-
-**Skills:** Perception +5
-
-**Special qualities:** docile (see [horse](ref/monster/horse))
+::: statblock
+Ability scores: Str 13, Dex 13, Con 14, Int 2, Wis 11, Cha 4
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 13 (17 vs. trip)
+Feats: Endurance, Run^B^
+Skills: Perception +5
+Special qualities: docile (see [horse](ref/monster/horse))
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, or herd (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, or herd (3-30)
+Treasure: None
+:::
 
 ### Description
 

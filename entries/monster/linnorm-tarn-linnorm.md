@@ -32,95 +32,68 @@ abilities = ["42", "26", "32", "7", "25", "27"]
 _This nightmarishly huge, snake-like dragon possesses two equally fearsome heads. Its twin jaws
 seethe with acid and poison._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Alignment: Chaotic evil
+Size: colossal
+Type: dragon
+Initiative: +12
+Perception: +40
+Senses: All-around vision, Darkvision 120 ft., Low-light vision, Scent, True seeing
+Subtype: Aquatic
+Experience points: 307,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 36
+Touch: 10
+Flat-footed: 28
+AC modifiers: +8 Dex, +26 natural, -8 size
+Hit points: 385 (22d12+242)
+Fort: +24
+Ref: +23
+Will: +20
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/cold iron
+Immune: acid, curse effects, [flanking](ref/rule/flanking) mind-affecting effects, paralysis, poison, sleep
+Regen: 15 (cold iron)
+Sr: 31
+:::
 
-**Type:** dragon
+### Offense
 
-**Initiative:** +12
+::: statblock
+Speed: 40 ft., swim 80 ft., fly 100 ft. (average)
+Constrict: tail, 3d6+24
+Melee: 2 bites +30 (3d8+16/19-20 plus poison), 2 claws +30 (2d6+16), tail +25 (3d6+8 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 30
+Spec Att: breath weapon, death curse
+:::
 
-**Perception:** +40
+### Statistics
 
-**Senses:** All-around vision, Darkvision 120 ft., Low-light vision, Scent, True seeing
+::: statblock
+Ability scores: Str 42, Dex 26, Con 32, Int 7, Wis 25, Cha 27
+Base attack bonus: +22
+Combat maneuver bonus: +46 (+50 grapple)
+Combat maneuver defense: 64 (can't be tripped)
+Feats: Awesome Blow, Blind-Fight, Combat Reflexes, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Overrun, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Fly +25
+Racial Modifiers: +8 Perception
+Languages: Aklo, Draconic, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 10
-
-**Flat-footed:** 28
-
-**AC modifiers:** +8 Dex, +26 natural, -8 size
-
-**Hit points:** 385 (22d12+242)
-
-**Fort:** +24
-
-**Ref:** +23
-
-**Will:** +20
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/cold iron
-
-**Immune:** acid, curse effects, [flanking](ref/rule/flanking) mind-affecting effects, paralysis,
-poison, sleep
-
-**Regen:** 15 (cold iron)
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., swim 80 ft., fly 100 ft. (average)
-
-**Constrict:** tail, 3d6+24
-
-**Melee:** 2 bites +30 (3d8+16/19-20 plus poison), 2 claws +30 (2d6+16), tail +25 (3d6+8 plus
-[grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** breath weapon, death curse
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 26, Con 32, Int 7, Wis 25, Cha 27
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +46 (+50 grapple)
-
-**Combat maneuver defense:** 64 (can't be tripped)
-
-**Feats:** Awesome Blow, Blind-Fight, Combat Reflexes, Improved Bull Rush, Improved Critical (bite),
-Improved Initiative, Improved Overrun, Improved Vital Strike, Lightning Reflexes, Power Attack,
-Vital Strike
-
-**Skills:** Fly +25
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Aklo, Draconic, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** cold lakes and swamps
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: cold lakes and swamps
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -33,73 +33,59 @@ abilities = ["17", "13", "-", "10", "12", "11"]
 _This hideously malformed, hairless, pustule-covered corpse moves and snarls more like an undead
 hound than an undead man._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft., Scent
+Type: undead
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 13
+AC modifiers: +1 Dex, +3 natural
+Hit points: 9 (2d8)
+Fort: +0
+Ref: +1
+Will: +4
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: bite +4 (1d6+3 plus feed), 2 claws +5 (1d4+3)
+Sp Extra: four-footed run
+Spec Att: charging trip, diseased pustules, feed
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 17, Dex 13, Con -, Int 10, Wis 12, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Weapon Focus (claw)
+Skills: Climb +8, Perception +6
+Languages: Common
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +3 natural
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** +1
-
-**Will:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +4 (1d6+3 plus feed), 2 claws +5 (1d4+3)
-
-**Sp Extra:** four-footed run
-
-**Spec Att:** charging trip, diseased pustules, feed
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 13, Con -, Int 10, Wis 12, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Weapon Focus (claw)
-
-**Skills:** Climb +8, Perception +6
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, gang (3-5), or pack (6-11)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, gang (3-5), or pack (6-11)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -33,102 +33,75 @@ eyeball she clutches in her claws._
 
 **Mythic Graeae**
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Mythic rank: 2
+blindsense: 30
+Initiative: +3
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Evil, Mythic
+Experience points: 1,600
+:::
 
-**Mythic rank:** 2
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 65 (6d10+32)
+Fort: +3
+Ref: +8
+Will: +8
+Dr: 5/epic
+Sr: 16
+Weaknesses: eye of the graeae
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+M Power: 2/day, surge +1d6
+Melee: 2 claw +8 (1d6+2)
+Spec Att: luck ripple
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +12
+At will: arcane sight, fly, undetectable alignment
+Per day: 5/day: ill omen (DC 17)\
+3/day: augury, enthrall (DC 18), feast of ashes (DC 18)\
+1/day: ray of exhaustion (DC 19)
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +10
+::: statblock
+Ability scores: Str 14, Dex 17, Con 12, Int 23, Wis 13, Cha 8
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Mythic Combat Casting, Iron Will, Toughness
+Skills: Bluff +5, Craft (alchemy) +15, Fly +15, Intimidate +8, Knowledge (arcana) +12, Perception +10, Use Magic Device +5
+Languages: Aklo, Common, Giant, Goblin, Sylvan
+Special qualities: coven, fate casting
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Evil, Mythic
-
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 65 (6d10+32)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 5/epic
-
-**Sr:** 16
-
-**Weaknesses:** eye of the graeae
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**M Power:** 2/day, surge +1d6
-
-**Melee:** 2 claw +8 (1d6+2)
-
-**Spec Att:** luck ripple
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +12
-
-**At will:**
-
-- arcane sight, fly, undetectable alignment
-
-**Per day:**
-
-- 5/day: ill omen (DC 17)
-- 3/day: augury, enthrall (DC 18), feast of ashes (DC 18)
-- 1/day: ray of exhaustion (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 12, Int 23, Wis 13, Cha 8
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Mythic Combat Casting, Iron Will, Toughness
-
-**Skills:** Bluff +5, Craft (alchemy) +15, Fly +15, Intimidate +8, Knowledge (arcana) +12,
-Perception +10, Use Magic Device +5
-
-**Languages:** Aklo, Common, Giant, Goblin, Sylvan
-
-**Special qualities:** coven, fate casting
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, a pair, or coven (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, a pair, or coven (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

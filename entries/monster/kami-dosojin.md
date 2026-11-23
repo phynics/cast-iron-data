@@ -31,100 +31,72 @@ abilities = ["15", "17", "16", "12", "14", "17"]
 _This ancient, weathered statue of a venerable monk with a shaven head possesses an air of both
 reverence and patience._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +7
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Kami, Native
+Experience points: 3,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +3 Dex, +7 natural
+Hit points: 85 (10d10+30)
+Fort: +10
+Ref: +6
+Will: +11
+Dr: 5/cold iron
+Fh: 4
+Immune: bleed, mind-affecting effects, petrification, polymorph
+Resist: acid 10, electricity 10, fire 10
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +13 (1d6+2)
+Spec Att: manipulate path, mimic statue
+:::
 
-**Perception:** +4
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Constant: know direction, misdirection (DC 15), speak with plants
+Per day: 3/day: dispel magic, fog cloud, quickened invisibility, longstrider, pass without trace, stone shape\
+1/day: locate object, mirage arcana (DC 18), nondetection
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Kami, Native
+::: statblock
+Ability scores: Str 15, Dex 17, Con 16, Int 12, Wis 14, Cha 17
+Base attack bonus: +10
+Combat maneuver bonus: +12
+Combat maneuver defense: 25
+Feats: Alertness, Improved Initiative, Iron Will, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility), Weapon Focus (slam)
+Skills: Bluff +16, Diplomacy +16, Disguise +16 (+36 as statue), Knowledge (nature) +14, Perception +4
+Languages: Common; _[speak with plants](ref/spell/speak-with-plants),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: merge with ward, ward (roads or trails)
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +7 natural
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +11
-
-**Dr:** 5/cold iron
-
-**Fh:** 4
-
-**Immune:** bleed, mind-affecting effects, petrification, polymorph
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +13 (1d6+2)
-
-**Spec Att:** manipulate path, mimic statue
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Constant:**
-
-- know direction, misdirection (DC 15), speak with plants
-
-**Per day:**
-
-- 3/day: dispel magic, fog cloud, quickened invisibility, longstrider, pass without trace, stone
-  shape
-- 1/day: locate object, mirage arcana (DC 18), nondetection
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 17, Con 16, Int 12, Wis 14, Cha 17
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25
-
-**Feats:** Alertness, Improved Initiative, Iron Will, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility), Weapon Focus (slam)
-
-**Skills:** Bluff +16, Diplomacy +16, Disguise +16 (+36 as statue), Knowledge (nature) +14,
-Perception +4
-
-**Languages:** Common; _[speak with plants](ref/spell/speak-with-plants),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** merge with ward, ward (roads or trails)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, mated pair, or cloister (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, mated pair, or cloister (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

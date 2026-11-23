@@ -30,83 +30,63 @@ abilities = ["20", "17", "18", "15", "16", "15"]
 
 _A curved shell protects an unsightly mass of barbed tentacles, ringed by numerous inhuman eyes._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+Initiative: +3
+Size: large
+Alignment: Neutral evil
+Perception: +20
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +3 Dex, +10 natural, -1 size
+Hit points: 104 (11d8+55)
+Fort: +9
+Ref: +6
+Will: +12
+Immune: disease, mind-affecting effects, poison
+Resist: cold 10, electricity 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 10 ft., climb 10 ft., swim 40 ft.
+Jet: 120
+Melee: 4 tentacles +14 (1d6+2 plus calcifying sting)
+Reach: 15
+Space: 10
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 20, Dex 17, Con 18, Int 15, Wis 16, Cha 15
+Base attack bonus: +8
+Combat maneuver bonus: +14
+Combat maneuver defense: 27 (can't be tripped)
+Feats: Alertness, Combat Reflexes, Great Fortitude, Iron Will, Toughness, Weapon Focus (tentacle)
+Skills: Climb +18
+Languages: Aklo, Aquan, Common; [telepathy](ref/umr/telepathy) (100 ft.)
+Special qualities: [amphibious](ref/umr/amphibious), black coral secretion, calcified minion
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +10 natural, -1 size
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +12
-
-**Immune:** disease, mind-affecting effects, poison
-
-**Resist:** cold 10, electricity 10
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., swim 40 ft.
-
-**Jet:** 120
-
-**Melee:** 4 tentacles +14 (1d6+2 plus calcifying sting)
-
-**Reach:** 15
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 18, Int 15, Wis 16, Cha 15
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Feats:** Alertness, Combat Reflexes, Great Fortitude, Iron Will, Toughness, Weapon Focus
-(tentacle)
-
-**Skills:** Climb +18
-
-**Languages:** Aklo, Aquan, Common; [telepathy](ref/umr/telepathy) (100 ft.)
-
-**Special qualities:** [amphibious](ref/umr/amphibious), black coral secretion, calcified minion
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or coven (1-2 incutilis lords plus 3-7
-[incutilises](ref/monster/incutilis))
-
-**Treasure:** Standard; giant red pearl worth 500 gp, other treasure
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or coven (1-2 incutilis lords plus 3-7 [incutilises](ref/monster/incutilis))
+Treasure: Standard; giant red pearl worth 500 gp, other treasure
+:::
 
 ### Special Abilities
 

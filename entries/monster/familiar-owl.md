@@ -25,71 +25,58 @@ melee = "2 talons +5 (1d4-2)"
 abilities = ["6", "17", "11", "2", "15", "6"]
 +++
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +3
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Size: tiny
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +5
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 10 ft., fly 60 ft. (average)
+Melee: 2 talons +5 (1d4-2)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 6, Dex 17, Con 11, Int 2, Wis 15, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 9
+Feats: Weapon Finesse
+Skills: Fly +7, Perception +10, Stealth +15
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (average)
-
-**Melee:** 2 talons +5 (1d4-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con 11, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 9
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +7, Perception +10, Stealth +15
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

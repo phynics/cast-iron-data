@@ -30,120 +30,81 @@ abilities = ["15", "15", "18", "15", "16", "16"]
 _The dry rasping of spidery legs brings this hideous monstrosity into view - a nightmarish,
 centaurian fusion of drow and spider._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +2
+Size: large
+Perception: +15
+Senses: Darkvision 120 ft., Detect good, Detect law, Detect magic
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +2 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +5
+Will: +9
+Immune: sleep
+Sr: 18
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: mwk heavy mace +9/+4 (1d8+3), bite +3 (1d4+1 plus poison)
+Ranged: mwk composite longbow +8/+3 (1d8+2/×3)
+Reach: 5
+Space: 10
+Web: +7 ranged, DC 18, hp 9
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Constant: detect good, detect law, detect magic
+At will: dancing lights, darkness, faerie fire
+Per day: 1/day: clairaudience/clairvoyance, deeper darkness, dispel magic, levitate, suggestion (DC 16)
+:::
 
-**Senses:** Darkvision 120 ft., Detect good, Detect law, Detect magic
+::: statblock
+title = "Spells Known"
+Caster level: 6
+3rd-level spells: 4/day: lightning bolt (DC 16)
+2nd-level spells: 6/day: invisibility, web (DC 15)
+1st-level spells: 7/day: mage armor, magic missile, ray of enfeeblement (DC 14), silent image (DC 14)
+Cantrips: At will: bleed (DC 13), daze (DC 13), ghost sound, mage hand, ray of frost, read magic, resistance
+:::
 
-**Experience points:** 3,200
+### Statistics
 
-**Armor class:** 20
+::: statblock
+Ability scores: Str 15, Dex 15, Con 18, Int 15, Wis 16, Cha 16
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (33 vs. trip)
+Feats: Blind-Fight, Dodge, Combat Casting, Weapon Focus (bite, mace)
+Skills: Climb +22, Intimidate +15, Knowledge (arcana) +14, Perception +15, Spellcraft +14, Stealth +14
+Racial Modifiers: +4 Stealth
+Languages: Common, Elven, Undercommon
+Special qualities: [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Touch:** 12
+### Ecology
 
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +9
-
-**Immune:** sleep
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** mwk heavy mace +9/+4 (1d8+3), bite +3 (1d4+1 plus poison)
-
-**Ranged:** mwk composite longbow +8/+3 (1d8+2/×3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Web:** +7 ranged, DC 18, hp 9
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Constant:**
-
-- detect good, detect law, detect magic
-
-**At will:**
-
-- dancing lights, darkness, faerie fire
-
-**Per day:**
-
-- 1/day: clairaudience/clairvoyance, deeper darkness, dispel magic, levitate, suggestion (DC 16)
-
-**Spells Known**
-
-**Caster level:** 6
-
-**3rd-level spells:**
-
-- 4/day: lightning bolt (DC 16)
-
-**2nd-level spells:**
-
-- 6/day: invisibility, web (DC 15)
-
-**1st-level spells:**
-
-- 7/day: mage armor, magic missile, ray of enfeeblement (DC 14), silent image (DC 14)
-
-**Cantrips:**
-
-- At will: bleed (DC 13), daze (DC 13), ghost sound, mage hand, ray of frost, read magic, resistance
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 18, Int 15, Wis 16, Cha 16
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (33 vs. trip)
-
-**Feats:** Blind-Fight, Dodge, Combat Casting, Weapon Focus (bite, mace)
-
-**Skills:** Climb +22, Intimidate +15, Knowledge (arcana) +14, Perception +15, Spellcraft +14,
-Stealth +14
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Elven, Undercommon
-
-**Special qualities:** [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or group (3-8)
-
-**Treasure:** Double (mwk heavy mace, mwk cl20+2); additional treasure
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or group (3-8)
+Treasure: Double (mwk heavy mace, mwk cl20+2); additional treasure
+:::
 
 ### Special Abilities
 

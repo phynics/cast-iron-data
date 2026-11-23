@@ -30,80 +30,62 @@ abilities = ["16", "5", "20", "-", "1", "1"]
 _A quivering pile of tumorous flesh, this creature leaves a trail of slime as it hungrily searches
 for sustenance._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsight: 60
+Initiative: -3
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Senses: Scent
+Experience points: 800
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -3
+::: statblock
+Armor class: 8
+Touch: 6
+Flat-footed: 8
+AC modifiers: -3 Dex, +2 natural, -1 size
+Hit points: 47 (5d8+25)
+Fort: +6
+Ref: -2
+Will: -4
+Amorph: present
+Defensive abilities:
+Immune: [ooze traits](ref/umr/ooze-traits)
+Regen: 5 (acid or fire)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Constrict: 1d6+4 plus disease
+Melee: slam +5 (1d6+4 plus disease and [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 16, Dex 5, Con 20, Int -, Wis 1, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 14 (can't be tripped)
+Special qualities: [compression](ref/umr/compression), monstrous growth, reactive regeneration, slime trail
+:::
 
-**Senses:** Scent
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 8
-
-**Touch:** 6
-
-**Flat-footed:** 8
-
-**AC modifiers:** -3 Dex, +2 natural, -1 size
-
-**Hit points:** 47 (5d8+25)
-
-**Fort:** +6
-
-**Ref:** -2
-
-**Will:** -4
-
-**Amorph:** present
-
-**Defensive abilities:**
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Constrict:** 1d6+4 plus disease
-
-**Melee:** slam +5 (1d6+4 plus disease and [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 5, Con 20, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Special qualities:** [compression](ref/umr/compression), monstrous growth, reactive regeneration,
-slime trail
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary or cluster (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land or underground
+Organization: solitary or cluster (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

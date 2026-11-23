@@ -28,71 +28,58 @@ abilities = ["1", "16", "8", "2", "15", "3"]
 _This small, sand-colored rodent has long hind legs and large ears. Its tufted tail is longer than
 the animal itself._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Size: diminutive
+Initiative: +7
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +5
+Will: +2
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: bite -1 (1d2-5)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 1, Dex 16, Con 8, Int 2, Wis 15, Cha 3
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 4
+Feats: Improved Initiative
+Skills: Acrobatics +11, Perception +6
+Racial Modifiers: +4 Acrobatics, +4 Perception
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite -1 (1d2-5)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 16, Con 8, Int 2, Wis 15, Cha 3
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 4
-
-**Feats:** Improved Initiative
-
-**Skills:** Acrobatics +11, Perception +6
-
-**Racial Modifiers:** +4 Acrobatics, +4 Perception
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or burrow (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or burrow (3-8)
+Treasure: None
+:::
 
 ### Description
 

@@ -28,73 +28,59 @@ abilities = ["3", "16", "10", "2", "13", "7"]
 
 _This small, furry creature has enormous glossy eyes, long legs, and elongated fingers._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Size: diminutive
+Initiative: +3
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +5
+Will: +1
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite +7 (1d2-4)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 3, Dex 16, Con 10, Int 2, Wis 13, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5 (9 vs. trip)
+Feats: Weapon Finesse
+Skills: Acrobatics +7, Climb +8, Perception +5, Stealth +19
+Racial Modifiers: +4 Acrobatics, +4 Climb, +4 Perception
+Special qualities: tarsier's leap
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite +7 (1d2-4)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 16, Con 10, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5 (9 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +7, Climb +8, Perception +5, Stealth +19
-
-**Racial Modifiers:** +4 Acrobatics, +4 Climb, +4 Perception
-
-**Special qualities:** tarsier's leap
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary, pair, or family (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary, pair, or family (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

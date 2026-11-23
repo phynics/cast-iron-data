@@ -31,69 +31,57 @@ _A chilling statue strands behind a dark altar, both smeared with evidence of gr
 monstrous statue, sculpted as a perverse amalgam of both man and beast, raises a wickedly curved
 sacrificial dagger above its head, its bejeweled eyes seeming to glint with murderous zeal._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 20
+Touch: 8
+Flat-footed: 20
+AC modifiers: -1 Dex, +12 natural, -1 size
+Hit points: 79 (9d10+30)
+Fort: +3
+Ref: +2
+Will: +3
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: dagger +14 (1d6+9/19-20) or 2 slams +14 (1d6+6)
+Reach: 10
+Space: 10
+Spec Att: prostration, sacrifice
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 8, Con 10, Int 10, Wis 11, Cha 1
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 25
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 8
-
-**Flat-footed:** 20
-
-**AC modifiers:** -1 Dex, +12 natural, -1 size
-
-**Hit points:** 79 (9d10+30)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +3
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +14 (1d6+9/19-20) or 2 slams +14 (1d6+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** prostration, sacrifice
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 8, Con 10, Int 10, Wis 11, Cha 1
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 25
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

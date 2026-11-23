@@ -31,118 +31,80 @@ abilities = ["34", "20", "27", "15", "23", "20"]
 _This vast draconic serpent has a pair of leathery wings that don't appear to be strong enough to
 allow the creature to fly._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +5
+Type: Magical beast
+Perception: +19
+Senses: Darkvision 60 ft., Detect scrying, Low-light vision, Scent, See in darkness
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 29
+Touch: 11
+Flat-footed: 24
+AC modifiers: +5 Dex, +18 natural, -4 size
+Hit points: 202 (15d10+120)
+Fort: +17
+Ref: +14
+Will: +11
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, no breath
+Dr: 10/magic and slashing
+Fh: 10
+Immune: acid, cold
+Sr: 25
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity), susceptible to sunlight
+:::
 
-**Initiative:** +5
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Constrict: 2d8+18
+Melee: bite +23 (2d6+12), tail slap +23 (2d8+12 plus [grab](ref/umr/grab)), 2 wings +21 (2d6+6)
+Reach: 20
+Space: 20
+Spec Att: crush, squeezing coils
+Swallow: 2d6+18 bludgeoning plus 6d6 acid damage, AC 19, 20 hp
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+Constant: detect scrying, freedom of movement
+At will: gaseous form, locate creature, locate object, telekinesis (DC 20)
+Per day: 3/day: demand (DC 23), limited wish, to duplicate sorcerer/wizard spells of 6th level or lower only\
+1/day: discern location, ethereal jaunt, scrying (DC 19), vision
+Per year: interplanetary teleport
+:::
 
-**Senses:** Darkvision 60 ft., Detect scrying, Low-light vision, Scent, See in darkness
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 34, Dex 20, Con 27, Int 15, Wis 23, Cha 20
+Base attack bonus: +15
+Combat maneuver bonus: +31 (+33 bull rush)
+Combat maneuver defense: 46 (48 vs. bull rush)
+Feats: Awesome Blow, Combat Casting, Combat Reflexes, Flyby Attack, Improved Bull Rush, Multiattack, Power Attack, Snatch
+Skills: Fly +20, Knowledge (geography) +12, Perception +19
+Racial Modifiers: +8 Spellcraft, +8 Survival
+Languages: Aklo, Common, Draconic
+Special qualities: answer beckoning, contingency, hunter, manipulate magic, powerful tail
+:::
 
-**Armor class:** 29
+### Ecology {#stat-ecology}
 
-**Touch:** 11
-
-**Flat-footed:** 24
-
-**AC modifiers:** +5 Dex, +18 natural, -4 size
-
-**Hit points:** 202 (15d10+120)
-
-**Fort:** +17
-
-**Ref:** +14
-
-**Will:** +11
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, no breath
-
-**Dr:** 10/magic and slashing
-
-**Fh:** 10
-
-**Immune:** acid, cold
-
-**Sr:** 25
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity), susceptible to sunlight
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Constrict:** 2d8+18
-
-**Melee:** bite +23 (2d6+12), tail slap +23 (2d8+12 plus [grab](ref/umr/grab)), 2 wings +21 (2d6+6)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** crush, squeezing coils
-
-**Swallow:** 2d6+18 bludgeoning plus 6d6 acid damage, AC 19, 20 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**Constant:**
-
-- detect scrying, freedom of movement
-
-**At will:**
-
-- gaseous form, locate creature, locate object, telekinesis (DC 20)
-
-**Per day:**
-
-- 3/day: demand (DC 23), limited wish, to duplicate sorcerer/wizard spells of 6th level or lower
-  only
-- 1/day: discern location, ethereal jaunt, scrying (DC 19), vision
-
-**Per year:**
-
-- interplanetary teleport
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 20, Con 27, Int 15, Wis 23, Cha 20
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +31 (+33 bull rush)
-
-**Combat maneuver defense:** 46 (48 vs. bull rush)
-
-**Feats:** Awesome Blow, Combat Casting, Combat Reflexes, Flyby Attack, Improved Bull Rush,
-Multiattack, Power Attack, Snatch
-
-**Skills:** Fly +20, Knowledge (geography) +12, Perception +19
-
-**Racial Modifiers:** +8 Spellcraft, +8 Survival
-
-**Languages:** Aklo, Common, Draconic
-
-**Special qualities:** answer beckoning, contingency, hunter, manipulate magic, powerful tail
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

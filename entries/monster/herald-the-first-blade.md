@@ -34,109 +34,77 @@ abilities = ["32", "13", "28", "10", "15", "13"]
 _Harsh flourishes decorate the armor of this ironclad giant, as though it were the war regalia of
 some merciless warlord._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: rage (100 ft.)
+Alignment: Chaotic neutral
+Initiative: +5
+Size: large
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Ironsense 60 ft., Low-light vision
+Subtype: Chaotic, Extraplanar, Herald
+Experience points: 51,200
+:::
 
-**aura:** rage (100 ft.)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 30
+Touch: 10
+Flat-footed: 29
+AC modifiers: +20 armor, +1 Dex, -1 size
+Hit points: 261 (18d10+162)
+Fort: +20
+Ref: +12
+Will: +8
+Dr: 15/adamantine and law
+Fortif: 75
+Immune: magic, poison
+Regen: 5 (adamantine)
+Resist: cold 10, sonic 10
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Bleed: 1d10
+Melee: 2 slams +29 (2d10+16/19-20 plus bleed)
+Reach: 10
+Space: 10
+Spec Att: bladed slam, powerful blows
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +19
+At will: instant summons, any nonmagical weapon
+Per day: 3/day: chill metal (DC 13), heat metal (DC 13), repel metal or stone, wall of iron\
+1/day: blade barrier (DC 17)
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft., Ironsense 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 13, Con 28, Int 10, Wis 15, Cha 13
+Base attack bonus: +18
+Combat maneuver bonus: +30 (+32 bull rush or overrun)
+Combat maneuver defense: 41 (43 vs. bull rush or overrun)
+Feats: Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Initiative, Improved Overrun, Power Attack, Weapon Focus (slam)
+Skills: Acrobatics +22, Climb +32, Intimidate +22, Knowledge (history) +21, Perception +23, Sense Motive +23
+Languages: Abyssal, Celestial, Common, Infernal, Protean
+Special qualities: [change shape](ref/umr/change-shape) (swarm form; see below), lord of battle, [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Chaotic, Extraplanar, Herald
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 10
-
-**Flat-footed:** 29
-
-**AC modifiers:** +20 armor, +1 Dex, -1 size
-
-**Hit points:** 261 (18d10+162)
-
-**Fort:** +20
-
-**Ref:** +12
-
-**Will:** +8
-
-**Dr:** 15/adamantine and law
-
-**Fortif:** 75
-
-**Immune:** magic, poison
-
-**Regen:** 5 (adamantine)
-
-**Resist:** cold 10, sonic 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d10
-
-**Melee:** 2 slams +29 (2d10+16/19-20 plus bleed)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bladed slam, powerful blows
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +19
-
-**At will:**
-
-- instant summons, any nonmagical weapon
-
-**Per day:**
-
-- 3/day: chill metal (DC 13), heat metal (DC 13), repel metal or stone, wall of iron
-- 1/day: blade barrier (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 13, Con 28, Int 10, Wis 15, Cha 13
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +30 (+32 bull rush or overrun)
-
-**Combat maneuver defense:** 41 (43 vs. bull rush or overrun)
-
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved
-Initiative, Improved Overrun, Power Attack, Weapon Focus (slam)
-
-**Skills:** Acrobatics +22, Climb +32, Intimidate +22, Knowledge (history) +21, Perception +23,
-Sense Motive +23
-
-**Languages:** Abyssal, Celestial, Common, Infernal, Protean
-
-**Special qualities:** [change shape](ref/umr/change-shape) (swarm form; see below), lord of battle,
-[no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

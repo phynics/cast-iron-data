@@ -29,88 +29,54 @@ special_qualities = "fetish, hyena shape"
 abilities = ["12", "12", "15", "18", "14", "8"]
 +++
 
-**Challenge rating:** 13
-
 **Gnoll [witch](ref/class/witch) ([bouda](ref/arc-witch/bouda)) 12**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +5
+Size: medium
+Perception: +16
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 25,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 18
+AC modifiers: +4 armor, +1 deflection, +1 Dex, +3 natural
+Hit points: 105 (2d8+12d6+54\~14)
+Fort: +11
+Ref: +9
+Will: +14
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 30 ft.
+Melee: +2 dagger +10/+5 (1d4+3/19-20)
+Spec Att: hexes ([blight](ref/hex/blight) \[120 feet\], bouda's eye, [disguise](ref/hex/disguise) \[12 hours\], [evil eye](ref/hex/evil-eye) \[-4, 7 rounds\], [hag's eye](ref/hex/hags-eye) \[12 minutes/day\], [retribution](ref/hex/retribution) \[4 rounds\])
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft.
-
-**Subtype:** Gnoll\
-**Experience points:** 25,600
-
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 armor, +1 deflection, +1 Dex, +3 natural
-
-**Hit points:** 105 (2d8+12d6+54\~14)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +14
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 dagger +10/+5 (1d4+3/19-20)
-
-**Spec Att:** hexes ([blight](ref/hex/blight) \[120 feet\], bouda's eye,
-[disguise](ref/hex/disguise) \[12 hours\], [evil eye](ref/hex/evil-eye) \[-4, 7 rounds\],
-[hag's eye](ref/hex/hags-eye) \[12 minutes/day\], [retribution](ref/hex/retribution) \[4 rounds\])
-
-**Prepared Spells**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**6th-level spells:**
-
-- mass suggestion (DC 21), slay living (DC 20)
-
-**5th-level spells:**
-
-- baleful polymorph (DC 19), cloudkill (DC 19), waves of fatigue
-
-**4th-level spells:**
-
-- cape of wasps, crushing despair (DC 19), cure serious wounds, dimension door
-
-**3rd-level spells:**
-
-- bestow curse (DC 17), countless eyes, dispel magic, stinking cloud (DC 17), vampiric touch
-
-**2nd-level spells:**
-
-- blindness/deafness (DC 16), burning gaze (DC 16), glitterdust (DC 16), see invisibility, touch of
-  idiocy
-
-**1st-level spells:**
-
-- beguiling gift (DC 16), bungle (DC 16), burning hands (DC 15), mage armor, ray of enfeeblement (DC
-  15)
-
-**Cantrips:**
-
-- bleed (DC 14), detect magic, putrefy food and drink, touch of fatigue (DC 14)
-
-**Patron:** [trickery](ref/patron/trickery)
+::: statblock
+title = "Prepared Spells"
+Caster level: 12
+Concentration: +16
+6th-level spells: mass suggestion (DC 21), slay living (DC 20)
+5th-level spells: baleful polymorph (DC 19), cloudkill (DC 19), waves of fatigue
+4th-level spells: cape of wasps, crushing despair (DC 19), cure serious wounds, dimension door
+3rd-level spells: bestow curse (DC 17), countless eyes, dispel magic, stinking cloud (DC 17), vampiric touch
+2nd-level spells: blindness/deafness (DC 16), burning gaze (DC 16), glitterdust (DC 16), see invisibility, touch of idiocy
+1st-level spells: beguiling gift (DC 16), bungle (DC 16), burning hands (DC 15), mage armor, ray of enfeeblement (DC 15)
+Cantrips: bleed (DC 14), detect magic, putrefy food and drink, touch of fatigue (DC 14)
+Patron: [trickery](ref/patron/trickery)
+:::
 
 ### Tactics
 
@@ -123,33 +89,26 @@ enemies for slay living or baleful polymorph.
 **Base Statistics** Without countless eyes and mage armor, the gnoll's statistics are Senses no
 all-around vision; AC 15, touch 12, flat-footed 14.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 12, Dex 12, Con 15, Int 18, Wis 14, Cha 8
+::: statblock
+Ability scores: Str 12, Dex 12, Con 15, Int 18, Wis 14, Cha 8
+Base attack bonus: +7
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Combat Casting, Improved Initiative, Improved Natural Armor, Iron Will, Lightning Reflexes, Spell Focus (enchantment), Toughness
+Skills: Heal +12, Intimidate +16, Knowledge (arcana) +21, Perception +16
+Languages: Abyssal, Common, Giant, Gnoll, Orc
+Special qualities: fetish, hyena shape
+Combat gear: 2 potion of cure moderate wounds, 2 scroll of black tentacles, Dlightning bolt/20 charges
+Other gear: +2 dagger, Iamu1, Iclk2, Ihbvi2, ring of prot1, 198 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Casting, Improved Initiative, Improved Natural Armor, Iron Will, Lightning
-Reflexes, Spell Focus (enchantment), Toughness
-
-**Skills:** Heal +12, Intimidate +16, Knowledge (arcana) +21, Perception +16
-
-**Languages:** Abyssal, Common, Giant, Gnoll, Orc
-
-**Special qualities:** fetish, hyena shape
-
-**Combat gear:** 2 potion of cure moderate wounds, 2 scroll of black tentacles, Dlightning bolt/20
-charges
-
-**Other gear:** +2 dagger, Iamu1, Iclk2, Ihbvi2, ring of prot1, 198 gp
-
-**Ecology**
-
-**Environment:** warm plains or desert
+::: statblock
+Environment: warm plains or desert
+:::
 
 ### Description
 

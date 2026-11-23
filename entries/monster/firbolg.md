@@ -32,93 +32,70 @@ abilities = ["20", "13", "14", "15", "13", "14"]
 _This burly, eight-foot-tall humanoid, dressed in a bearskin and equipped with a massive axe, has
 long, red hair and a bushy beard._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: humanoid
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 1,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 17
+AC modifiers: +2 armor, +1 Dex, +5 natural, -1 size
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +5
+Will: +6
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: Huge greataxe +8 (3d8+7/×3)
+Ranged: rock +5 (2d6+10)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: oversized weapons
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+At will: reduce person (DC 13)
+Per day: 1/day: alter self, confusion (DC 16), detect magic, know direction
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 20, Dex 13, Con 14, Int 15, Wis 13, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +10
+Combat maneuver defense: 21
+Feats: Deflect Arrows, Improved Initiative, Lightning Reflexes
+Skills: Climb +12, Knowledge (nature) +6, Perception +8
+Languages: Common, Giant
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 armor, +1 Dex, +5 natural, -1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** Huge greataxe +8 (3d8+7/×3)
-
-**Ranged:** rock +5 (2d6+10)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** oversized weapons
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**At will:**
-
-- reduce person (DC 13)
-
-**Per day:**
-
-- 1/day: alter self, confusion (DC 16), detect magic, know direction
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 14, Int 15, Wis 13, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21
-
-**Feats:** Deflect Arrows, Improved Initiative, Lightning Reflexes
-
-**Skills:** Climb +12, Knowledge (nature) +6, Perception +8
-
-**Languages:** Common, Giant
-
-**Ecology**
-
-**Environment:** temperate hills or forests
-
-**Organization:** solitary, pair, gang (3-8), clan (9-16), or enclave (10-40)
-
-**Treasure:** Standard (leather armor, greataxe); [sack](ref/eq-misc/sack) with other treasure
+::: statblock
+Environment: temperate hills or forests
+Organization: solitary, pair, gang (3-8), clan (9-16), or enclave (10-40)
+Treasure: Standard (leather armor, greataxe); [sack](ref/eq-misc/sack) with other treasure
+:::
 
 ### Special Abilities
 

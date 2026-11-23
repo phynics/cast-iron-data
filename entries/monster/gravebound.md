@@ -31,77 +31,61 @@ abilities = ["18", "13", "-", "11", "12", "17"]
 _This humanoid figure has two impossibly deep pits where its eyes should be, and long claws that
 stretch toward the ground._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Earth
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 37 (5d8+15)
+Fort: +4
+Ref: +2
+Will: +5
+Amorph: present
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: tied to the grave, vulnerable to _consecration_
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Melee: 2 claws +8 (1d6+4 plus disease)
+Spec Att: bury alive, gravedigger
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Earth
+::: statblock
+Ability scores: Str 18, Dex 13, Con -, Int 11, Wis 12, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 18
+Feats: Ability Focus (gravedigger), Improved Initiative, Weapon Focus (claw)
+Skills: Acrobatics +5, Intimidate +10, Knowledge (religion) +7, Perception +8, Stealth +8
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +5
-
-**Amorph:** present
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** tied to the grave, vulnerable to _consecration_
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Melee:** 2 claws +8 (1d6+4 plus disease)
-
-**Spec Att:** bury alive, gravedigger
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con -, Int 11, Wis 12, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 18
-
-**Feats:** Ability Focus (gravedigger), Improved Initiative, Weapon Focus (claw)
-
-**Skills:** Acrobatics +5, Intimidate +10, Knowledge (religion) +7, Perception +8, Stealth +8
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any land (graveyards)
-
-**Organization:** solitary, pair, or tomb (3-6)
-
-**Treasure:** Standard; [shovel](ref/eq-misc/shovel-common), other treasure
+::: statblock
+Environment: any land (graveyards)
+Organization: solitary, pair, or tomb (3-6)
+Treasure: Standard; [shovel](ref/eq-misc/shovel-common), other treasure
+:::
 
 ### Special Abilities
 

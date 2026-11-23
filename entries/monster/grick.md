@@ -29,71 +29,58 @@ abilities = ["12", "14", "13", "3", "14", "5"]
 _This pallid, slimy, worm-like creature is the size of a human, its mouth a sickening tangle of
 tentacles and hooked jaws._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Scent
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 27 (5d8+5)
+Fort: +2
+Ref: +3
+Will: +6
+Dr: 10/magic
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +4 (1d4+1), 4 tentacles -1 (1d4)
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 12, Dex 14, Con 13, Int 3, Wis 14, Cha 5
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 16 (can't be tripped)
+Feats: Combat Reflexes, Skill Focus (Perception), Stand Still
+Skills: Climb +9, Perception +12, Stealth +6 (+14 in rocky terrain)
+Racial Modifiers: +8 Stealth in rocky terrain
+Languages: Aklo (can't speak)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 27 (5d8+5)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +6
-
-**Dr:** 10/magic
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +4 (1d4+1), 4 tentacles -1 (1d4)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 14, Con 13, Int 3, Wis 14, Cha 5
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16 (can't be tripped)
-
-**Feats:** Combat Reflexes, Skill Focus (Perception), Stand Still
-
-**Skills:** Climb +9, Perception +12, Stealth +6 (+14 in rocky terrain)
-
-**Racial Modifiers:** +8 Stealth in rocky terrain
-
-**Languages:** Aklo (can't speak)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or cluster (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary or cluster (2-5)
+Treasure: Incidental
+:::
 
 ### Description
 

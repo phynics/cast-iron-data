@@ -31,74 +31,59 @@ _The faint chemical smell lingering on this creature's skin hints that it is not
 person. Small, almost imperceptible flaws suggest that the creature's skin is somehow stretched over
 an invisible frame._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 26
+Touch: 16
+Flat-footed: 20
+AC modifiers: +5 Dex, +1 dodge, +10 natural
+Hit points: 117 (15d10+35)
+Fort: +5
+Ref: +10
+Will: +5
+Dr: 10/magic
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +22 (1d8+7/19-20)
+Spec Att: dread, rage, [sneak attack](ref/ability/sneak-attack) +3d6
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 25, Dex 21, Con -, Int 16, Wis 11, Cha 14
+Base attack bonus: +15
+Combat maneuver bonus: +22
+Combat maneuver defense: 38
+Feats: Combat Expertise, Combat Reflexes, Deceitful, Dodge, Improved Critical (slam), Improved Feint, Improved Initiative, Toughness
+Skills: Bluff +21, Disguise +4, Sense Motive +15, Stealth +20
+Languages: Aklo, Common, Kelish
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 16
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 Dex, +1 dodge, +10 natural
-
-**Hit points:** 117 (15d10+35)
-
-**Fort:** +5
-
-**Ref:** +10
-
-**Will:** +5
-
-**Dr:** 10/magic
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +22 (1d8+7/19-20)
-
-**Spec Att:** dread, rage, [sneak attack](ref/ability/sneak-attack) +3d6
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 21, Con -, Int 16, Wis 11, Cha 14
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 38
-
-**Feats:** Combat Expertise, Combat Reflexes, Deceitful, Dodge, Improved Critical (slam), Improved
-Feint, Improved Initiative, Toughness
-
-**Skills:** Bluff +21, Disguise +4, Sense Motive +15, Stealth +20
-
-**Languages:** Aklo, Common, Kelish
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

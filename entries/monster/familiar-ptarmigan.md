@@ -30,71 +30,58 @@ abilities = ["2", "14", "7", "2", "14", "5"]
 
 _This small bird has a mix of brown and white feathers and makes a loud croaking sound._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +2
+Senses: Low-light vision
+Size: tiny
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 2 (1d8-2)
+Fort: +0
+Ref: +4
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 20 ft., fly 40 ft. (poor)
+Melee: bite +4 (1d2-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 2, Dex 14, Con 7, Int 2, Wis 14, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6
+Feats: Weapon Finesse
+Skills: Stealth +14 (+18 in snow)
+Racial Modifiers: +4 Stealth in snow
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 2 (1d8-2)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (poor)
-
-**Melee:** bite +4 (1d2-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 14, Con 7, Int 2, Wis 14, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6
-
-**Feats:** Weapon Finesse
-
-**Skills:** Stealth +14 (+18 in snow)
-
-**Racial Modifiers:** +4 Stealth in snow
-
-**Ecology**
-
-**Environment:** cold forests and plains
-
-**Organization:** solitary, pair, or flock (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: cold forests and plains
+Organization: solitary, pair, or flock (3-12)
+Treasure: None
+:::
 
 ### Description
 

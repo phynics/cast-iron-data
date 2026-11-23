@@ -29,75 +29,60 @@ abilities = ["18", "17", "12", "10", "15", "11"]
 _This immense eagle's feathers are golden brown and shimmer in the light. Its sharp beak and curved
 talons are dark yellow._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +3
+Size: large
+Type: Magical beast
+Alignment: Neutral good
+Perception: +15
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 12
+AC modifiers: +3 Dex, +3 natural, -1 size
+Hit points: 26 (4d10+4)
+Fort: +5
+Ref: +7
+Will: +3
+Evasion: present
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 10 ft., fly 80 ft. (average)
+Melee: 2 claws +7 (1d8+4), bite +7 (1d6+4)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 17, Con 12, Int 10, Wis 15, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Alertness, Flyby Attack
+Skills: Fly +8, Perception +15, Sense Motive +4
+Racial Modifiers: +4 Perception
+Languages: Auran (can't speak)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +3 natural, -1 size
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +3
-
-**Evasion:** present
-
-**Offense**
-
-**Speed:** 10 ft., fly 80 ft. (average)
-
-**Melee:** 2 claws +7 (1d8+4), bite +7 (1d6+4)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 12, Int 10, Wis 15, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Alertness, Flyby Attack
-
-**Skills:** Fly +8, Perception +15, Sense Motive +4
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Auran (can't speak)
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, pair, or eyrie (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate mountains
+Organization: solitary, pair, or eyrie (3-12)
+Treasure: None
+:::
 
 ### Description
 

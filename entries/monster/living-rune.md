@@ -31,98 +31,72 @@ abilities = ["-", "32", "18", "15", "14", "20"]
 _A pulsating glyph animates into a quickly flowing script that changes form as it rewrites itself,
 before finally assembling into an arcane symbol that flares with untold magical power._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: aberration
+blindsight: 60
+Initiative: +15
+Size: medium
+Alignment: Neutral evil
+Perception: +27
+tremorsense: 60
+Experience points: 25,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 28
+Touch: 28
+Flat-footed: 16
+AC modifiers: +6 deflection, +11 Dex, +1 dodge
+Hit points: 153 (18d8+72)
+Fort: +10
+Ref: +17
+Will: +15
+Amorph: present
+Immune: bleed, disease, magic, paralysis, poison, stunning
+Vulner: sonic
+:::
 
-**Initiative:** +15
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft., climb 50 ft.
+Melee: glyph touch +24 touch (3d8 electricity)
+Reach: 0
+Space: 5
+Spec Att: symbols of power
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+At will: arcane mark, illusory script (DC 18), telekinesis (sustained force only, DC 20)
+Per day: 3/day: explosive runes (DC 18), greater glyph of warding (DC 21), sepia snake sigil (DC 18)
+:::
 
-**Perception:** +27
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str -, Dex 32, Con 18, Int 15, Wis 14, Cha 20
+Base attack bonus: +13
+Combat maneuver bonus: +13
+Combat maneuver defense: 41 (can't be tripped)
+Feats: Alertness, Combat Expertise, Deceitful, Dodge, Improved Initiative, Iron Will, Mobility, Skill Focus (Stealth), Spring Attack
+Skills: Acrobatics +15, Bluff +15, Climb +12, Disguise +7, Sense Motive +19, Stealth +35
+Languages: truescript
+Special qualities: camouflage, [compression](ref/umr/compression), two-dimensional
+:::
 
-**Experience points:** 25,600
+### Ecology {#stat-ecology}
 
-**Armor class:** 28
-
-**Touch:** 28
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, +11 Dex, +1 dodge
-
-**Hit points:** 153 (18d8+72)
-
-**Fort:** +10
-
-**Ref:** +17
-
-**Will:** +15
-
-**Amorph:** present
-
-**Immune:** bleed, disease, magic, paralysis, poison, stunning
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft.
-
-**Melee:** glyph touch +24 touch (3d8 electricity)
-
-**Reach:** 0
-
-**Space:** 5
-
-**Spec Att:** symbols of power
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**At will:**
-
-- arcane mark, illusory script (DC 18), telekinesis (sustained force only, DC 20)
-
-**Per day:**
-
-- 3/day: explosive runes (DC 18), greater glyph of warding (DC 21), sepia snake sigil (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 32, Con 18, Int 15, Wis 14, Cha 20
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 41 (can't be tripped)
-
-**Feats:** Alertness, Combat Expertise, Deceitful, Dodge, Improved Initiative, Iron Will, Mobility,
-Skill Focus (Stealth), Spring Attack
-
-**Skills:** Acrobatics +15, Bluff +15, Climb +12, Disguise +7, Sense Motive +19, Stealth +35
-
-**Languages:** truescript
-
-**Special qualities:** camouflage, [compression](ref/umr/compression), two-dimensional
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or string (3-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or string (3-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -30,49 +30,40 @@ special_qualities = "fast movement, hold breath"
 abilities = ["21", "14", "19", "9", "12", "8"]
 +++
 
-**Challenge rating:** 2
-
 **Lizardfolk [barbarian](ref/class/barbarian) 1**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +2
+Size: medium
+Perception: +6
+Subtype: Reptilian
+Experience points: 600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 15
+AC modifiers: +2 armor, +2 Dex, +5 natural, -2 rage
+Hit points: 33 (2d8+1d12+12\~3)
+Fort: +9
+Ref: +2
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
-
-**Subtype:** Reptilian
-
-**Experience points:** 600
-
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 armor, +2 Dex, +5 natural, -2 rage
-
-**Hit points:** 33 (2d8+1d12+12\~3)
-
-**Fort:** +9
-
-**Ref:** +2
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 40 ft., swim 15 ft.
-
-**Melee:** mwk morningstar +8 (1d8+5), bite +5 (1d6+2) or 2 claws +7 (1d4+5), bite +5 (1d6+2)
-
-**Ranged:** javelin +4 (1d6+5)
-
-**Spec Att:** rage (6 rounds/day)
+::: statblock
+Speed: 40 ft., swim 15 ft.
+Melee: mwk morningstar +8 (1d8+5), bite +5 (1d6+2) or 2 claws +7 (1d4+5), bite +5 (1d6+2)
+Ranged: javelin +4 (1d6+5)
+Spec Att: rage (6 rounds/day)
+:::
 
 ### Tactics
 
@@ -83,31 +74,26 @@ first.
 17; hp 27; Fort +7, Will +1; Melee mwk morningstar +6 (1d8+3), bite +3 (1d6+1) or claw +5 (1d4+3),
 bite +3 (1d6+1); Str 17, Con 15; CMB +5; Skills Swim +16.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 21, Dex 14, Con 19, Int 9, Wis 12, Cha 8
+::: statblock
+Ability scores: Str 21, Dex 14, Con 19, Int 9, Wis 12, Cha 8
+Base attack bonus: +2
+Combat maneuver bonus: +7
+Combat maneuver defense: 17
+Feats: Multiattack, Power Attack
+Skills: Acrobatics +10 (+14 when jumping), Perception +6, Swim +18
+Languages: Draconic
+Special qualities: fast movement, [hold breath](ref/umr/hold-breath)
+Combat gear: potion of cure moderate wounds
+Other gear: mwk leather armor, mwk morningstar, 4 javelins, 8 gp
+:::
 
-**Base attack bonus:** +2
+### Ecology
 
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 17
-
-**Feats:** Multiattack, Power Attack
-
-**Skills:** Acrobatics +10 (+14 when jumping), Perception +6, Swim +18
-
-**Languages:** Draconic
-
-**Special qualities:** fast movement, [hold breath](ref/umr/hold-breath)
-
-**Combat gear:** potion of cure moderate wounds
-
-**Other gear:** mwk leather armor, mwk morningstar, 4 javelins, 8 gp
-
-**Ecology**
-
-**Environment:** temperate swamps
+::: statblock
+Environment: temperate swamps
+:::
 
 ### Description
 

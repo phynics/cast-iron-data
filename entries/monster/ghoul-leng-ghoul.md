@@ -31,81 +31,62 @@ abilities = ["24", "24", "-", "17", "20", "23"]
 _This semi-canine humanoid has rancid green flesh and hoof-like feet, yet its eyes sparkle with the
 gleam of intelligence._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Type: undead
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 25
+Touch: 17
+Flat-footed: 18
+AC modifiers: +7 Dex, +8 natural
+Hit points: 126 (12d8+72)
+Fort: +10
+Ref: +11
+Will: +13
+Chan Res: +4
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +20
+::: statblock
+Speed: 30 ft., burrow 30 ft., climb 30 ft.
+Melee: bite +16 (1d8+7 plus disease and paralysis), 2 claws +17 (1d6+7 plus paralysis)
+Rend: 2 claws, 1d6+10
+Sneak: +2d6
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 24, Dex 24, Con -, Int 17, Wis 20, Cha 23
+Base attack bonus: +9
+Combat maneuver bonus: +16 (+18 trip)
+Combat maneuver defense: 33 (35 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Improved Feint, Improved Trip, Lunge, Weapon Focus (claws)
+Skills: Acrobatics +19, Climb +30, Knowledge (arcana, dungeoneering, planes, religion) +12, Perception +20, Sense Motive +20, Stealth +22
+Languages: Aklo, Common
+Special qualities: erudite
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 25
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +7 Dex, +8 natural
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +10
-
-**Ref:** +11
-
-**Will:** +13
-
-**Chan Res:** +4
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft., climb 30 ft.
-
-**Melee:** bite +16 (1d8+7 plus disease and paralysis), 2 claws +17 (1d6+7 plus paralysis)
-
-**Rend:** 2 claws, 1d6+10
-
-**Sneak:** +2d6
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 24, Con -, Int 17, Wis 20, Cha 23
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16 (+18 trip)
-
-**Combat maneuver defense:** 33 (35 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Feint, Improved Trip, Lunge, Weapon Focus
-(claws)
-
-**Skills:** Acrobatics +19, Climb +30, Knowledge (arcana, dungeoneering, planes, religion) +12,
-Perception +20, Sense Motive +20, Stealth +22
-
-**Languages:** Aklo, Common
-
-**Special qualities:** erudite
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cult (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or cult (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

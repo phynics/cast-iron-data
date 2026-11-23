@@ -32,93 +32,68 @@ abilities = ["21", "15", "18", "12", "14", "11"]
 _This giant translucent leech has three squirming tentacles around an orifice on one end and a
 stinger on the other._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+thoughtsense: 60
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 23
+Touch: 12
+Flat-footed: 20
+AC modifiers: +2 Dex, +1 dodge, +11 natural, -1 size
+Hit points: 127 (15d8+60)
+Fort: +11
+Ref: +7
+Will: +11
+Dr: 10/slashing
+Immune: acid
+Resist: cold 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., burrow 20 ft., swim 30 ft., burrow (wet earth or saturated stone only)
+Engulf: DC 22
+Melee: sting +16 (1d8+5 plus poison and probe intellect), 3 tentacles +14 (1d6+2 plus [grab](ref/umr/grab))
+Reach: 10
+Sp Extra: aquiferous glide
+Space: 10
+Spec Att: adaptive digestion, poison
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 21, Dex 15, Con 18, Int 12, Wis 14, Cha 11
+Base attack bonus: +11
+Combat maneuver bonus: +17 (+21 grapple)
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Multiattack, Skill Focus (Stealth), Weapon Focus (sting, tentacle)
+Skills: Escape Artist +20, Perception +20, Swim +31
+Racial Modifiers: +4 Stealth when swimming
+Languages: Aklo, Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**thoughtsense:** 60
-
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 12
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +1 dodge, +11 natural, -1 size
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +11
-
-**Ref:** +7
-
-**Will:** +11
-
-**Dr:** 10/slashing
-
-**Immune:** acid
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft., swim 30 ft., burrow (wet earth or saturated stone only)
-
-**Engulf:** DC 22
-
-**Melee:** sting +16 (1d8+5 plus poison and probe intellect), 3 tentacles +14 (1d6+2 plus
-[grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Sp Extra:** aquiferous glide
-
-**Space:** 10
-
-**Spec Att:** adaptive digestion, poison
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 15, Con 18, Int 12, Wis 14, Cha 11
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +17 (+21 grapple)
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Multiattack, Skill Focus
-(Stealth), Weapon Focus (sting, tentacle)
-
-**Skills:** Escape Artist +20, Perception +20, Swim +31
-
-**Racial Modifiers:** +4 Stealth when swimming
-
-**Languages:** Aklo, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate fresh water or underground
-
-**Organization:** solitary, squad (2-9), or colony (10-200 and 1 hyaleth queen)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate fresh water or underground
+Organization: solitary, squad (2-9), or colony (10-200 and 1 hyaleth queen)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

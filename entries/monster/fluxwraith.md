@@ -31,98 +31,72 @@ abilities = ["-", "28", "-", "18", "20", "23"]
 _This hovering, translucent humanoid appears to sleep serenely, even as shards of flickering energy
 encircle it, each fragment reflecting younger or older versions of itself._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: slow aura (30 ft.)
+Initiative: +13
+Lifesense: present
+Size: medium
+Alignment: Neutral evil
+Perception: +37
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 102,400
+:::
 
-**aura:** slow aura (30 ft.)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 26
+Touch: 26
+Flat-footed: 16
+AC modifiers: +6 deflection, +9 Dex, +1 dodge
+Hit points: 273 (26d8+156)
+Fort: +14
+Ref: +17
+Will: +20
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Lifesense:** present
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: incorporeal touch +28 (15d6 plus time shift)
+Spec Att: temporal madness, time shift
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+At will: arcane sight, deja vu, haste
+Per day: 3/day: quickened deja vu, hold monster (DC 21), mirror image, temporal stasis (DC 24)\
+1/day: time stop (DC 25)
+:::
 
-**Perception:** +37
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 28, Con -, Int 18, Wis 20, Cha 23
+Base attack bonus: +19
+Combat maneuver bonus: +28
+Combat maneuver defense: 45
+Feats: Ability Focus (time shift), Alertness, Combat Casting, Combat Expertise, Combat Reflexes, Dodge, Flyby Attack, Hover, Improved Initiative, Lunge, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (deja vu), Stand Still
+Skills: Acrobatics +25, Diplomacy +25, Sense Motive +37, Spellcraft +23, Stealth +20
+Languages: Ancient Osiriani, Azlanti, Common, Cyclops, Thassilonian
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 102,400
-
-**Armor class:** 26
-
-**Touch:** 26
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, +9 Dex, +1 dodge
-
-**Hit points:** 273 (26d8+156)
-
-**Fort:** +14
-
-**Ref:** +17
-
-**Will:** +20
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** incorporeal touch +28 (15d6 plus time shift)
-
-**Spec Att:** temporal madness, time shift
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**At will:**
-
-- arcane sight, deja vu, haste
-
-**Per day:**
-
-- 3/day: quickened deja vu, hold monster (DC 21), mirror image, temporal stasis (DC 24)
-- 1/day: time stop (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 28, Con -, Int 18, Wis 20, Cha 23
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 45
-
-**Feats:** Ability Focus (time shift), Alertness, Combat Casting, Combat Expertise, Combat Reflexes,
-Dodge, Flyby Attack, Hover, Improved Initiative, Lunge, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (deja vu), Stand Still
-
-**Skills:** Acrobatics +25, Diplomacy +25, Sense Motive +37, Spellcraft +23, Stealth +20
-
-**Languages:** Ancient Osiriani, Azlanti, Common, Cyclops, Thassilonian
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or cluster (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary or cluster (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

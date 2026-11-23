@@ -35,104 +35,75 @@ hundred gigantic victims girds a twisted humanoid body covered in angry red burn
 scars of crippling battles. Despite its wounds, the surviving figure exerts a terrible strength,
 hefting its grisly armor with ease._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Size: gargantuan
+Type: humanoid
+Initiative: +7
+Alignment: Lawful evil
+Perception: +29
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Giant, Lawful
+Experience points: 51,200
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 29
+Touch: 9
+Flat-footed: 26
+AC modifiers: +6 armor, +3 Dex, +14 natural, -4 size
+Hit points: 237 (19d8+152)
+Fort: +19
+Ref: +11
+Will: +12
+Dr: 10/chaotic
+Immune: fire
+Resist: acid 10, cold 10, electricity 10, sonic 10
+Rock Ct: present
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 60 ft.
+Melee: mwk ranseur +24/+19/+14 (4d6+19)
+Ranged: rock +14 (2d6+19 plus 6d6 fire)
+Reach: 20
+Rock Th: 140 ft.
+Space: 20
+Spec Att: hurl fireball
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +17
+At will: disguise self, levitate, major image (DC 15), pyrotechnics
+Per day: 3/day: animate dead, dispel magic, unholy blight (DC 16), wall of fire
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Giant, Lawful
+::: statblock
+Ability scores: Str 37, Dex 16, Con 26, Int 20, Wis 22, Cha 15
+Base attack bonus: +14
+Combat maneuver bonus: +31
+Combat maneuver defense: 44
+Feats: Alertness, Awesome Blow, Catch Off-Guard, Combat Reflexes, Improved Bull Rush, Improved Initiative, Improvised Weapon Mastery, Lightning Reflexes, Power Attack, Throw Anything
+Skills: Climb +35, Knowledge (planes) +21, Perception +29
+Languages: Common, Giant, Infernal
+Special qualities: planar empowerment
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 9
-
-**Flat-footed:** 26
-
-**AC modifiers:** +6 armor, +3 Dex, +14 natural, -4 size
-
-**Hit points:** 237 (19d8+152)
-
-**Fort:** +19
-
-**Ref:** +11
-
-**Will:** +12
-
-**Dr:** 10/chaotic
-
-**Immune:** fire
-
-**Resist:** acid 10, cold 10, electricity 10, sonic 10
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** mwk ranseur +24/+19/+14 (4d6+19)
-
-**Ranged:** rock +14 (2d6+19 plus 6d6 fire)
-
-**Reach:** 20
-
-**Rock Th:** 140 ft.
-
-**Space:** 20
-
-**Spec Att:** hurl fireball
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +17
-
-**At will:**
-
-- disguise self, levitate, major image (DC 15), pyrotechnics
-
-**Per day:**
-
-- 3/day: animate dead, dispel magic, unholy blight (DC 16), wall of fire
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 16, Con 26, Int 20, Wis 22, Cha 15
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 44
-
-**Feats:** Alertness, Awesome Blow, Catch Off-Guard, Combat Reflexes, Improved Bull Rush, Improved
-Initiative, Improvised Weapon Mastery, Lightning Reflexes, Power Attack, Throw Anything
-
-**Skills:** Climb +35, Knowledge (planes) +21, Perception +29
-
-**Languages:** Common, Giant, Infernal
-
-**Special qualities:** planar empowerment
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or gang (3-7)
-
-**Treasure:** Standard (mwk breastplate, mwk ranseur); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or gang (3-7)
+Treasure: Standard (mwk breastplate, mwk ranseur); other treasure
+:::
 
 ### Special Abilities
 

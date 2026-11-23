@@ -31,65 +31,55 @@ abilities = ["8", "14", "11", "2", "10", "4"]
 _This bipedal mammal has a long tail, short arms, and long, limber legs that afford a strange
 hopping gait._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision
+Size: small
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +4
+Will: +0
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 40 ft.
+Melee: slam +0 (1d3-1)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 8, Dex 14, Con 11, Int 2, Wis 10, Cha 4
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 10
+Feats: Skill Focus (Acrobatics)
+Skills: Acrobatics +5, Perception +4
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** slam +0 (1d3-1)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con 11, Int 2, Wis 10, Cha 4
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 10
-
-**Feats:** Skill Focus (Acrobatics)
-
-**Skills:** Acrobatics +5, Perception +4
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary, pair, or court (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary, pair, or court (3-10)
+Treasure: None
+:::
 
 ### Description
 

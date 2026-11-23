@@ -31,81 +31,63 @@ abilities = ["-", "18", "-", "10", "10", "21"]
 _This translucent, floating head has a bluish tinge and a humanoid face twisted in an enraged
 scowl._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+Alignment: Chaotic evil
+Initiative: +8
+Lifesense: present
+Perception: +9
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Incorporeal
+Type: undead
+Experience points: 2,400
+:::
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 16
+AC modifiers: +5 deflection, +4 Dex, +1 size
+Hit points: 57 (6d8+30)
+Fort: +7
+Ref: +8
+Will: +5
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Initiative:** +8
+### Offense
 
-**Lifesense:** present
+::: statblock
+Speed: fly 60 ft. (good)
+Melee: incorporeal touch +9 (2d6 negative energy)
+Spec Att: baleful gust, create spawn
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 18, Con -, Int 10, Wis 10, Cha 21
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 22
+Feats: Flyby Attack, Improved Initiative, Lightning Reflexes
+Skills: Fly +19, Intimidate +14, Perception +9, Stealth +17
+Languages: Common
+:::
 
-**Size:** small
+### Ecology
 
-**Subtype:** Incorporeal
-
-**Type:** undead
-
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 deflection, +4 Dex, +1 size
-
-**Hit points:** 57 (6d8+30)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** fly 60 ft. (good)
-
-**Melee:** incorporeal touch +9 (2d6 negative energy)
-
-**Spec Att:** baleful gust, create spawn
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con -, Int 10, Wis 10, Cha 21
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 22
-
-**Feats:** Flyby Attack, Improved Initiative, Lightning Reflexes
-
-**Skills:** Fly +19, Intimidate +14, Perception +9, Stealth +17
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

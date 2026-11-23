@@ -30,98 +30,72 @@ abilities = ["6", "17", "-", "15", "14", "17"]
 _Grasping arms emerge from a tangled cluster of debris and mechanical parts. A metal skull hovers
 above the clanging mess._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +7
+Perception: +12
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: undead
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 17
+AC modifiers: +3 Dex, +3 natural, +2 size
+Hit points: 52 (7d8+21)
+Fort: +5
+Ref: +7
+Will: +7
+Chan Res: +4
+Defensive abilities: rejuvenation
+Dr: 5/-
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +12
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: 2 slams +5 (1d4-2)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Size:** tiny
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +12
+At will: detect magic, mending, telekinesis (DC 18)
+Per day: 3/day: make whole
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 6, Dex 17, Con -, Int 15, Wis 14, Cha 17
+Base attack bonus: +5
+Combat maneuver bonus: +6
+Combat maneuver defense: 14
+Feats: Flyby Attack, Improved Initiative, Lightning Reflexes, Skill Focus (Stealth)
+Skills: Craft (traps) +17, Disable Device +10, Fly +20, Knowledge (engineering) +9, Perception +12, Spellcraft +10, Stealth +24
+Racial Modifiers: +8 Craft (traps)
+Languages: Aklo, Common, Undercommon
+Special qualities: create trap, resetter
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +3 natural, +2 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +7
-
-**Chan Res:** +4
-
-**Defensive abilities:** rejuvenation
-
-**Dr:** 5/-
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** 2 slams +5 (1d4-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**At will:**
-
-- detect magic, mending, telekinesis (DC 18)
-
-**Per day:**
-
-- 3/day: make whole
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con -, Int 15, Wis 14, Cha 17
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 14
-
-**Feats:** Flyby Attack, Improved Initiative, Lightning Reflexes, Skill Focus (Stealth)
-
-**Skills:** Craft (traps) +17, Disable Device +10, Fly +20, Knowledge (engineering) +9, Perception
-+12, Spellcraft +10, Stealth +24
-
-**Racial Modifiers:** +8 Craft (traps)
-
-**Languages:** Aklo, Common, Undercommon
-
-**Special qualities:** create trap, resetter
-
-**Ecology**
-
-**Environment:** any urban or underground
-
-**Organization:** solitary or gang (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban or underground
+Organization: solitary or gang (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

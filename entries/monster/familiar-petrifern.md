@@ -31,69 +31,57 @@ abilities = ["2", "9", "13", "-", "6", "9"]
 _This tiny, unassuming tree is shaped like a miniature person, with branches for arms and roots for
 feet._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+blindsight: 30
+Size: diminutive
+Initiative: -1
+Alignment: Neutral
+Perception: -2
+Type: plant
+Experience points: 65
+:::
 
-**blindsight:** 30
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 15
+AC modifiers: -1 Dex, +2 natural, +4 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: -1
+Will: -2
+Defensive abilities: self-petrification, toxic secretion
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Initiative:** -1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: slam +0 (1d2-4)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** -2
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 2, Dex 9, Con 13, Int -, Wis 6, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: -5
+Combat maneuver defense: 1
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** -1 Dex, +2 natural, +4 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** -1
-
-**Will:** -2
-
-**Defensive abilities:** self-petrification, toxic secretion
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** slam +0 (1d2-4)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 9, Con 13, Int -, Wis 6, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -5
-
-**Combat maneuver defense:** 1
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary, pair, or bundle (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any forest
+Organization: solitary, pair, or bundle (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

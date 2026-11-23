@@ -31,73 +31,59 @@ abilities = ["16", "9", "-", "-", "11", "1"]
 _This icy statue stands a head taller than a normal human. A rime of frost coats it, and razor-sharp
 shards of ice adorn its limbs._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: construct
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold
+Experience points: 1,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: -1 Dex, +8 natural
+Hit points: 53 (6d10+20)
+Fort: +2
+Ref: +1
+Will: +2
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits), cold, magic
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Br Weap: 20-ft. cone, 3d6 cold damage, Reflex DC 13 half, usable once every 1d4 rounds
+Melee: 2 slams +9 (1d6+3 plus 1d6 cold)
+Spec Att: cold (1d6), icy destruction
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 18
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** -1 Dex, +8 natural
-
-**Hit points:** 53 (6d10+20)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +2
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), cold, magic
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 20-ft. cone, 3d6 cold damage, Reflex DC 13 half, usable once every 1d4 rounds
-
-**Melee:** 2 slams +9 (1d6+3 plus 1d6 cold)
-
-**Spec Att:** cold (1d6), icy destruction
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 18
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any cold
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

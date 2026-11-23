@@ -33,93 +33,69 @@ abilities = ["8", "15", "14", "12", "13", "17"]
 _Verdant stalks entwine one another to create a humanoid shape with a giant snapdragon blossom for a
 head._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Leshy, Shapechanger
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 39 (6d8+12)
+Fort: +7
+Ref: +4
+Will: +3
+Immune: electricity, [plant traits](ref/umr/plant-traits), sonic
+:::
 
-**Perception:** +6
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft.
+Melee: bite +7 (1d6-1)
+Ranged: bloom lasso +7 (1 plus crippling hysterics)
+Spec Att: bardic performance 13 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 15\], [inspire competence](ref/performance/inspire-competence) +2, [inspire courage](ref/performance/inspire-courage) +1), bloom lasso, crippling hysterics
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+Constant: pass without trace
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Leshy, Shapechanger
+::: statblock
+Ability scores: Str 8, Dex 15, Con 14, Int 12, Wis 13, Cha 17
+Base attack bonus: +4
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Improved Initiative, Skill Focus (Bluff), Weapon Finesse
+Skills: Bluff +12, Diplomacy +5, Perception +6
+Racial Modifiers: +4 Stealth and Survival in hills and urban areas
+Languages: Common, Druidic, Sylvan; _plantspeech_ (snapdragons)
+Special qualities: [change shape](ref/umr/change-shape) (Small flower patch; [tree shape](ref/spell/tree-shape)), greenspeaker, verdant burst
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +3
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits), sonic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +7 (1d6-1)
-
-**Ranged:** bloom lasso +7 (1 plus crippling hysterics)
-
-**Spec Att:** bardic performance 13 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 15\],
-[inspire competence](ref/performance/inspire-competence) +2,
-[inspire courage](ref/performance/inspire-courage) +1), bloom lasso, crippling hysterics
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**Constant:**
-
-- pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 14, Int 12, Wis 13, Cha 17
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Improved Initiative, Skill Focus (Bluff), Weapon Finesse
-
-**Skills:** Bluff +12, Diplomacy +5, Perception +6
-
-**Racial Modifiers:** +4 Stealth and Survival in hills and urban areas
-
-**Languages:** Common, Druidic, Sylvan; _plantspeech_ (snapdragons)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small flower patch;
-[tree shape](ref/spell/tree-shape)), greenspeaker, verdant burst
-
-**Ecology**
-
-**Environment:** temperate hills or urban
-
-**Organization:** solitary, patch (2-8), or entourage (1-3 plus 2-16 other leshys)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate hills or urban
+Organization: solitary, patch (2-8), or entourage (1-3 plus 2-16 other leshys)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

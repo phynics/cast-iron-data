@@ -28,67 +28,56 @@ abilities = ["14", "15", "15", "2", "13", "6"]
 
 _This hyena is covered in shaggy, tan-colored fur with black and brown stripes._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +3 (1d6+3 plus [trip](ref/umr/trip))
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 14, Dex 15, Con 15, Int 2, Wis 13, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Perception +8, Stealth +6 (+10 in tall grass)
+Racial Modifiers: +4 Stealth in tall grass
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +3 (1d6+3 plus [trip](ref/umr/trip))
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 15, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +8, Stealth +6 (+10 in tall grass)
-
-**Racial Modifiers:** +4 Stealth in tall grass
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Description
 

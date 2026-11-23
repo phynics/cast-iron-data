@@ -31,130 +31,84 @@ abilities = ["36", "30", "45", "19", "28", "25"]
 _A hideous tangle of hair-like fungal filaments writhes with nauseating purpose. Bones lie tangled
 in the wriggling mass, arrayed around a central draconic skull._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+aura: unspeakable presence (300 ft., DC 31)
+blindsight: 60
+Size: gargantuan
+Initiative: +24
+Alignment: Neutral evil
+Perception: +40
+Senses: Low-light vision
+Type: plant
+Subtype: Aquatic, Evil, Great Old One
+Experience points: 2,457,600
+:::
 
-**aura:** unspeakable presence (300 ft., DC 31)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 44
+Touch: 26
+Flat-footed: 34
+AC modifiers: +10 Dex, +10 insight, +18 natural, -4 size
+Hit points: 602 (28d8+476)
+Fort: +33
+Ref: +21
+Will: +20
+Amorph: present
+Defensive abilities: all-around vision, immortality, insanity (DC 31)
+Dr: 15/epic and slashing
+Fh: 20
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, [plant traits](ref/umr/plant-traits), poison
+Resist: acid 30, fire 30
+Sr: 37
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +24
+::: statblock
+Speed: 40 ft., climb 40 ft., swim 60 ft.
+Constrict: 3d6+13
+M Power: 10/day, surge +1d12
+Melee: 4 tentacles +35 (3d6+18/19-20 plus [grab](ref/umr/grab)), bite +35 (4d8+18/19-20 plus dread decay)
+Reach: 20
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 20
+Spec Att: entangling shroud, infected dreams
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 26
+Concentration: +33
+Constant: air walk, greater magic fang
+At will: animate dead, control undead (DC 24), dimension door, dream, greater dispel magic, nightmare (DC 22), wall of thorns
+Per day: 3/day: control plants (DC 25), create greater undead, create undead, demand (DC 25), quickened feeblemind (DC 22)\
+1/day: cursed earth, microcosm (DC 26), symbol of insanity (DC 25)
+:::
 
-**Perception:** +40
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 36, Dex 30, Con 45, Int 19, Wis 28, Cha 25
+Base attack bonus: +21
+Combat maneuver bonus: +38
+Combat maneuver defense: 68
+Feats: Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Critical (tentacle), Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind, wither limb), Staggering Critical, Vital Strike
+Skills: Climb +21
+Languages: Aklo; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious), [compression](ref/umr/compression), contagious lore, [no breath](ref/umr/no-breath), powerful tentacles
+Faith: Xhamen-Dor
+:::
 
-**Type:** plant
+### Ecology
 
-**Subtype:** Aquatic, Evil, Great Old One
-
-**Experience points:** 2,457,600
-
-**Armor class:** 44
-
-**Touch:** 26
-
-**Flat-footed:** 34
-
-**AC modifiers:** +10 Dex, +10 insight, +18 natural, -4 size
-
-**Hit points:** 602 (28d8+476)
-
-**Fort:** +33
-
-**Ref:** +21
-
-**Will:** +20
-
-**Amorph:** present
-
-**Defensive abilities:** all-around vision, immortality, insanity (DC 31)
-
-**Dr:** 15/epic and slashing
-
-**Fh:** 20
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, petrification, [plant traits](ref/umr/plant-traits), poison
-
-**Resist:** acid 30, fire 30
-
-**Sr:** 37
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft., swim 60 ft.
-
-**Constrict:** 3d6+13
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 4 tentacles +35 (3d6+18/19-20 plus [grab](ref/umr/grab)), bite +35 (4d8+18/19-20 plus
-dread decay)
-
-**Reach:** 20
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 20
-
-**Spec Att:** entangling shroud, infected dreams
-
-**Spell-Like Abilities**
-
-**Caster level:** 26
-
-**Concentration:** +33
-
-**Constant:**
-
-- air walk, greater magic fang
-
-**At will:**
-
-- animate dead, control undead (DC 24), dimension door, dream, greater dispel magic, nightmare (DC
-  22), wall of thorns
-
-**Per day:**
-
-- 3/day: control plants (DC 25), create greater undead, create undead, demand (DC 25), quickened
-  feeblemind (DC 22)
-- 1/day: cursed earth, microcosm (DC 26), symbol of insanity (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 30, Con 45, Int 19, Wis 28, Cha 25
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +38
-
-**Combat maneuver defense:** 68
-
-**Feats:** Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Critical (tentacle),
-Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes,
-Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind, wither limb),
-Staggering Critical, Vital Strike
-
-**Skills:** Climb +21
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [compression](ref/umr/compression),
-contagious lore, [no breath](ref/umr/no-breath), powerful tentacles
-
-**Faith:** Xhamen-Dor
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

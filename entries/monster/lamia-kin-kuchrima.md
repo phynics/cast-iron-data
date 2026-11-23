@@ -34,76 +34,60 @@ abilities = ["20", "22", "19", "7", "9", "10"]
 _This vaguely humanoid creature has a vulture's head and wings for arms, and wields an enormous bow
 in its taloned feet._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Type: Monstrous humanoid
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 22
+Touch: 16
+Flat-footed: 16
+AC modifiers: +6 Dex, +6 natural
+Hit points: 104 (11d10+44)
+Fort: +7
+Ref: +13
+Will: +6
+Immune: disease, magic missile
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Melee: bite +16 (1d6+5 plus disease), 2 talons +16 (1d4+5)
+Ranged: mwk Large composite longbow +18/+13/+8 (2d6+5/×3)
+Spec Att: catastrophic shot, disease
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 20, Dex 22, Con 19, Int 7, Wis 9, Cha 10
+Base attack bonus: +11
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 32
+Feats: Deadly Aim, Improved Initiative, Point-Blank Shot, Precise Shot, Rapid Shot, Skill Focus (Perception)
+Skills: Fly +24, Perception +19
+Languages: Common, Giant, Thassilonian
+Special qualities: oversized weapon
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 16
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +6 natural
-
-**Hit points:** 104 (11d10+44)
-
-**Fort:** +7
-
-**Ref:** +13
-
-**Will:** +6
-
-**Immune:** disease, magic missile
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Melee:** bite +16 (1d6+5 plus disease), 2 talons +16 (1d4+5)
-
-**Ranged:** mwk Large composite longbow +18/+13/+8 (2d6+5/×3)
-
-**Spec Att:** catastrophic shot, disease
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 22, Con 19, Int 7, Wis 9, Cha 10
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 32
-
-**Feats:** Deadly Aim, Improved Initiative, Point-Blank Shot, Precise Shot, Rapid Shot, Skill Focus
-(Perception)
-
-**Skills:** Fly +24, Perception +19
-
-**Languages:** Common, Giant, Thassilonian
-
-**Special qualities:** oversized weapon
-
-**Ecology**
-
-**Environment:** any mountains
-
-**Organization:** solitary, pair, flight (3-7), or gluttony (8-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any mountains
+Organization: solitary, pair, flight (3-7), or gluttony (8-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

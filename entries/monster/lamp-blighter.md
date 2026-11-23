@@ -32,101 +32,72 @@ _This creature looks like a tiny, stooped elf with gray skin, cruel claws, and g
 wings. Its mirthless grin exposes sharp teeth, and a bloody string of humanoid eyeballs adorns its
 neck._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsight: 60
+Alignment: Chaotic evil
+Type: fey
+Initiative: +5
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 2,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 11
+AC modifiers: +5 Dex, +1 dodge, +1 size
+Hit points: 45 (10d6+10)
+Fort: +4
+Ref: +12
+Will: +9
+Defensive abilities: invisibility
+Dr: 10/cold iron
+Sr: 17
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 30 ft.
+Melee: bite +11 (1d8-2), 2 claws +11 (1d10-2/19-20 plus eye pluck)
+Ranged: +1 shortbow +13 (1d4-1/×3)
+Spec Att: eye pluck, special arrows
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+Constant: detect chaos, detect evil, detect good, detect law
+At will: darkness
+Per day: 1/day: dancing lights, deeper darkness, detect thoughts (DC 14), disguise self, dispel magic, entangle (DC 13), shield
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 7, Dex 20, Con 12, Int 16, Wis 15, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +2
+Combat maneuver defense: 18
+Feats: Dodge, Point-Blank Shot, Precise Shot, Weapon Finesse, Weapon Focus (shortbow)
+Skills: Acrobatics +16, Bluff +13, Disguise +13, Sense Motive +13, Stealth +22, Use Magic Device +13
+Languages: Common, Sylvan, Undercommon
+Gear: +1 shortbow
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 11
-
-**AC modifiers:** +5 Dex, +1 dodge, +1 size
-
-**Hit points:** 45 (10d6+10)
-
-**Fort:** +4
-
-**Ref:** +12
-
-**Will:** +9
-
-**Defensive abilities:** invisibility
-
-**Dr:** 10/cold iron
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +11 (1d8-2), 2 claws +11 (1d10-2/19-20 plus eye pluck)
-
-**Ranged:** +1 shortbow +13 (1d4-1/×3)
-
-**Spec Att:** eye pluck, special arrows
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law
-
-**At will:**
-
-- darkness
-
-**Per day:**
-
-- 1/day: dancing lights, deeper darkness, detect thoughts (DC 14), disguise self, dispel magic,
-  entangle (DC 13), shield
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 20, Con 12, Int 16, Wis 15, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 18
-
-**Feats:** Dodge, Point-Blank Shot, Precise Shot, Weapon Finesse, Weapon Focus (shortbow)
-
-**Skills:** Acrobatics +16, Bluff +13, Disguise +13, Sense Motive +13, Stealth +22, Use Magic Device
-+13
-
-**Languages:** Common, Sylvan, Undercommon
-
-**Gear:** +1 shortbow
-
-**Ecology**
-
-**Environment:** temperate forests and urban
-
-**Organization:** solitary, pair, or band (3-5)
-
-**Treasure:** Standard (+1 shortbow); other treasure
+::: statblock
+Environment: temperate forests and urban
+Organization: solitary, pair, or band (3-5)
+Treasure: Standard (+1 shortbow); other treasure
+:::
 
 ### Special Abilities
 

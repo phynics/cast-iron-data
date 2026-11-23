@@ -31,79 +31,62 @@ abilities = ["21", "16", "17", "9", "12", "14"]
 _The scales on this twelve-foot-long water snake's back appear to be nothing more than smooth river
 stones, a few of which glint with traces of gold._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +7
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Tremorsense: present
+Experience points: 1,600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 Dex, +6 natural, -1 size
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +8
+Will: +3
+Resist: cold 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +10 (1d8+5 plus [grab](ref/umr/grab) and poison), tail slap +5 (1d8+2)
+Reach: 10
+Space: 10
+Spec Att: chilling currents
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 16, Con 17, Int 9, Wis 12, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 25 (can't be tripped)
+Feats: Improved Initiative, Skill Focus (Stealth), Stealthy
+Skills: Escape Artist +5, Perception +6, Stealth +9, Swim +18
+Languages: Common (can't speak)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Tremorsense:** present
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +6 natural, -1 size
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +3
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +10 (1d8+5 plus [grab](ref/umr/grab) and poison), tail slap +5 (1d8+2)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** chilling currents
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 16, Con 17, Int 9, Wis 12, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Feats:** Improved Initiative, Skill Focus (Stealth), Stealthy
-
-**Skills:** Escape Artist +5, Perception +6, Stealth +9, Swim +18
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** temperate or cold rivers
-
-**Organization:** solitary or nest (3-5)
-
-**Treasure:** Incidental; 10d10 gp
+::: statblock
+Environment: temperate or cold rivers
+Organization: solitary or nest (3-5)
+Treasure: Incidental; 10d10 gp
+:::
 
 ### Special Abilities
 

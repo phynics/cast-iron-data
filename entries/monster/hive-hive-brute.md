@@ -32,87 +32,65 @@ abilities = ["24", "15", "16", "6", "13", "3"]
 _This hulking, four-legged beast has thick, chitinous plates covering its body. Steaming acid drips
 from its snapping maw._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+blindsense: 60
+blindsight: 10
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Perception: +14
+Senses: Hive mind
+Subtype: Hive
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 19
+AC modifiers: +2 Dex, +10 natural, -1 size
+Hit points: 102 (12d8+48)
+Fort: +7
+Ref: +8
+Will: +11
+Defensive abilities: corrosive blood (1d6 acid), heat adaptability
+Immune: acid
+:::
 
-**blindsight:** 10
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +15 (1d8+7), 2 claws +15 (1d6+7/19-20), tail slap +10 (1d8+3)
+Reach: 10
+Space: 10
+Spec Att: acid spray, death throes (12d6, DC 19)
+:::
 
-**Size:** large
+### Statistics
 
-**Alignment:** Neutral evil
+::: statblock
+Ability scores: Str 24, Dex 15, Con 16, Int 6, Wis 13, Cha 3
+Base attack bonus: +9
+Combat maneuver bonus: +17
+Combat maneuver defense: 29 (33 vs trip)
+Feats: Improved Critical (claw), Improved Initiative, Iron Will, Lightning Reflexes, Toughness, Vital Strike
+Skills: Climb +15, Perception +14
+Languages: Aklo (can't speak)
+Special qualities: blind
+:::
 
-**Perception:** +14
+### Ecology
 
-**Senses:** Hive mind
-
-**Subtype:** Hive
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +10 natural, -1 size
-
-**Hit points:** 102 (12d8+48)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +11
-
-**Defensive abilities:** corrosive blood (1d6 acid), heat adaptability
-
-**Immune:** acid
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +15 (1d8+7), 2 claws +15 (1d6+7/19-20), tail slap +10 (1d8+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** acid spray, death throes (12d6, DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 15, Con 16, Int 6, Wis 13, Cha 3
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 29 (33 vs trip)
-
-**Feats:** Improved Critical (claw), Improved Initiative, Iron Will, Lightning Reflexes, Toughness,
-Vital Strike
-
-**Skills:** Climb +15, Perception +14
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** blind
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or hive (1-10 plus 1-50 hive workers and
-[warriors](ref/monster/hive-hive-warrior) plus 1 [queen](ref/monster/hive-hive-queen)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or hive (1-10 plus 1-50 hive workers and [warriors](ref/monster/hive-hive-warrior) plus 1 [queen](ref/monster/hive-hive-queen)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

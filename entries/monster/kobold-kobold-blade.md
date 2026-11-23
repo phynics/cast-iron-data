@@ -31,80 +31,63 @@ abilities = ["10", "18", "10", "13", "10", "8"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 3
-
 **Kobold [fighter](ref/class/fighter) 4**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 3
+Type: humanoid
+Initiative: +4
+Alignment: Lawful evil
+Perception: +2
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 22
+Touch: 15
+Flat-footed: 18
+AC modifiers: +6 armor, +4 Dex, +1 natural, +1 size
+Hit points: 30 (4d10+4)
+Fort: +4
+Ref: +5
+Will: +1 (+1 vs. fear)
+Defensive abilities: bravery +1
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +2
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: mwk rapier +11 (1d4+2/18-20)
+Ranged: mwk light crossbow +10 (1d6/19-20)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Reptilian
+::: statblock
+Ability scores: Str 10, Dex 18, Con 10, Int 13, Wis 10, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +3 (+5 dirty trick)
+Combat maneuver defense: 17 (19 vs. dirty trick)
+Feats: Combat Expertise, Improved Dirty Trick, Weapon Finesse, Weapon Focus (rapier), Weapon Specialization (rapier)
+Skills: Craft (trapmaking) +3, Stealth +13
+Languages: Common, Draconic
+Special qualities: armor training 1, crafty
+Combat gear: I-elixir of fire breath, potion of cure moderate wounds
+Other gear: mwk breastplate, mwk light crossbow with 10 bolts, mwk rapier
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 armor, +4 Dex, +1 natural, +1 size
-
-**Hit points:** 30 (4d10+4)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk rapier +11 (1d4+2/18-20)
-
-**Ranged:** mwk light crossbow +10 (1d6/19-20)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 18, Con 10, Int 13, Wis 10, Cha 8
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +3 (+5 dirty trick)
-
-**Combat maneuver defense:** 17 (19 vs. dirty trick)
-
-**Feats:** Combat Expertise, Improved Dirty Trick, Weapon Finesse, Weapon Focus (rapier), Weapon
-Specialization (rapier)
-
-**Skills:** Craft (trapmaking) +3, Stealth +13
-
-**Languages:** Common, Draconic
-
-**Special qualities:** armor training 1, crafty
-
-**Combat gear:** I-elixir of fire breath, potion of cure moderate wounds
-
-**Other gear:** mwk breastplate, mwk light crossbow with 10 bolts, mwk rapier
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
+::: statblock
+Environment: temperate underground or deep forest
+:::
 
 ### Description
 

@@ -29,81 +29,67 @@ special_qualities = "trapfinding +1"
 abilities = ["19", "14", "15", "6", "12", "8"]
 +++
 
-**Challenge rating:** 3
-
 **Gnoll [fighter](ref/class/fighter) 1/[rogue](ref/class/rogue) 1**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +2
+Size: medium
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 dodge, +1 natural
+Hit points: 27 (3d8+1d10+9\~4)
+Fort: +7
+Ref: +4
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +5
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Gnoll\
-**Experience points:** 800
-
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 dodge, +1 natural
-
-**Hit points:** 27 (3d8+1d10+9\~4)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** greatclub +6 (1d10+6)
-
-**Ranged:** javelin +4 (1d6+4)
-
-**Sneak:** +1d6
+::: statblock
+Speed: 30 ft.
+Melee: greatclub +6 (1d10+6)
+Ranged: javelin +4 (1d6+4)
+Sneak: +1d6
+:::
 
 ### Tactics
 
 **During Combat** A bruiser flanks with its packmates whenever possible, and takes time to
 reposition if separated from allies.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 19, Dex 14, Con 15, Int 6, Wis 12, Cha 8
+::: statblock
+Ability scores: Str 19, Dex 14, Con 15, Int 6, Wis 12, Cha 8
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Dodge, Mobility, Power Attack
+Skills: Acrobatics +9, Perception +5
+Languages: Gnoll
+Special qualities: [trapfinding](ref/ability/trapfinding) +1
+Combat gear: 2 potion of cure light wounds, 2 alchemist's fire, 2 tanglefoot bags
+Other gear: greatclub, 5 javelins, I-daredevil boots
+:::
 
-**Base attack bonus:** +2
+### Ecology
 
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dodge, Mobility, Power Attack
-
-**Skills:** Acrobatics +9, Perception +5
-
-**Languages:** Gnoll
-
-**Special qualities:** [trapfinding](ref/ability/trapfinding) +1
-
-**Combat gear:** 2 potion of cure light wounds, 2 alchemist's fire, 2 tanglefoot bags
-
-**Other gear:** greatclub, 5 javelins, I-daredevil boots
-
-**Ecology**
-
-**Environment:** warm plains or desert
+::: statblock
+Environment: warm plains or desert
+:::
 
 ### Description
 

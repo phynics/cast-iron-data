@@ -32,111 +32,76 @@ abilities = ["20", "23", "26", "31", "20", "25"]
 _This large creature has the upper body of a winged woman and the lower body of a snake. She looks
 withered, like a preserved corpse._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsense: 60
+Initiative: +10
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +25
+Senses: Darkvision 120 ft., Low-light vision, Scent
+Subtype: Evil, Extraplanar, Lawful
+Experience points: 51,200
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 30
+Touch: 17
+Flat-footed: 24
+AC modifiers: +2 deflection, +6 Dex, +13 natural, -1 size
+Hit points: 229 (17d10+136)
+Fort: +20
+Ref: +11
+Will: +17
+Dr: 10/cold iron and magic
+Regen: 5 (acid)
+Resist: cold 30, electricity 30, fire 30, sonic 30
+Sr: 26
+Weaknesses: divine separation
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft.
+Constrict: 1d8+5
+Melee: 2 slams +21 (1d6+5 plus 1d4 Intelligence drain), tail slap +16 (1d8+2 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: power surge
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +22
+At will: detect magic, floating disk, mage hand, read magic, tongues
+Per day: 3/day: cure serious wounds, dispel magic, displacement, fireball (DC 20), greater teleport, self plus 50 lbs. of objects only, hold person (DC 20), lightning bolt (DC 20), limited wish, magic missile, plane shift (DC 24), slow (DC 20), stinking cloud (DC 20), vampiric touch
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 20, Dex 23, Con 26, Int 31, Wis 20, Cha 25
+Base attack bonus: +17
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 41 (can't be tripped)
+Feats: Combat Casting, Combat Reflexes, Craft Wondrous Item, Great Fortitude, Hover, Improved Initiative, Improved Iron Will, Iron Will, Scribe Scroll
+Skills: Diplomacy +24, Escape Artist +23, Fly +21, Heal +22, Use Magic Device +27
+Languages: Aklo, Azlanti, Draconic, Infernal, Terran, Thassilonian; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (human; [alter self](ref/spell/alter-self)), feed, spell-like crafting
+:::
 
-**Subtype:** Evil, Extraplanar, Lawful
+### Ecology {#stat-ecology}
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 17
-
-**Flat-footed:** 24
-
-**AC modifiers:** +2 deflection, +6 Dex, +13 natural, -1 size
-
-**Hit points:** 229 (17d10+136)
-
-**Fort:** +20
-
-**Ref:** +11
-
-**Will:** +17
-
-**Dr:** 10/cold iron and magic
-
-**Regen:** 5 (acid)
-
-**Resist:** cold 30, electricity 30, fire 30, sonic 30
-
-**Sr:** 26
-
-**Weaknesses:** divine separation
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d8+5
-
-**Melee:** 2 slams +21 (1d6+5 plus 1d4 Intelligence drain), tail slap +16 (1d8+2 plus
-[grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** power surge
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**At will:**
-
-- detect magic, floating disk, mage hand, read magic, tongues
-
-**Per day:**
-
-- 3/day: cure serious wounds, dispel magic, displacement, fireball (DC 20), greater teleport, self
-  plus 50 lbs. of objects only, hold person (DC 20), lightning bolt (DC 20), limited wish, magic
-  missile, plane shift (DC 24), slow (DC 20), stinking cloud (DC 20), vampiric touch
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 23, Con 26, Int 31, Wis 20, Cha 25
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 41 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Reflexes, Craft Wondrous Item, Great Fortitude, Hover, Improved
-Initiative, Improved Iron Will, Iron Will, Scribe Scroll
-
-**Skills:** Diplomacy +24, Escape Artist +23, Fly +21, Heal +22, Use Magic Device +27
-
-**Languages:** Aklo, Azlanti, Draconic, Infernal, Terran, Thassilonian;
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (human;
-[alter self](ref/spell/alter-self)), feed, spell-like crafting
-
-**Ecology**
-
-**Environment:** any land (extraplanar)
-
-**Organization:** solitary or cabal (herald and 1d4 charmed outsiders of CR 5 to CR 10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land (extraplanar)
+Organization: solitary or cabal (herald and 1d4 charmed outsiders of CR 5 to CR 10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

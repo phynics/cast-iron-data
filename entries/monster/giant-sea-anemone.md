@@ -31,79 +31,62 @@ abilities = ["12", "15", "18", "-", "10", "2"]
 _This giant, tubular creature ends in a mass of thick and brilliantly colored tendrils arrayed
 around an enormous, toothless maw._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 30
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +0
+Subtype: Aquatic
+Type: vermin
+Experience points: 600
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 34 (4d8+16)
+Fort: +8
+Ref: +3
+Will: +1
+Amorph: present
+Immune: gaze attacks, mind-affecting effects, poison, vision-based effects
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft.
+Melee: tentacles +3 (2d6+1 plus [grab](ref/umr/grab) and poison)
+Reach: 10
+Space: 10
+Swallow: 1d6+1 bludgeoning damage, AC 11, 3 hp
+:::
 
-**Perception:** +0
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 12, Dex 15, Con 18, Int -, Wis 10, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 17 (can't be tripped)
+Skills: Stealth +6
+Racial Modifiers: +8 Stealth
+Special qualities: anchored, sightless
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +8
-
-**Ref:** +3
-
-**Will:** +1
-
-**Amorph:** present
-
-**Immune:** gaze attacks, mind-affecting effects, poison, vision-based effects
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Melee:** tentacles +3 (2d6+1 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Swallow:** 1d6+1 bludgeoning damage, AC 11, 3 hp
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 18, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17 (can't be tripped)
-
-**Skills:** Stealth +6
-
-**Racial Modifiers:** +8 Stealth
-
-**Special qualities:** anchored, sightless
-
-**Ecology**
-
-**Environment:** any oceans or coastlines
-
-**Organization:** solitary, pair, or cluster (2-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any oceans or coastlines
+Organization: solitary, pair, or cluster (2-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

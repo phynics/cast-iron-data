@@ -28,67 +28,56 @@ melee = "gore +2 (1d4+1)"
 abilities = ["12", "13", "12", "2", "11", "5"]
 +++
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Size: small
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 12
+AC modifiers: +1 Dex, +1 natural, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +3
+Will: +0
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+Melee: gore +2 (1d4+1)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 13, Con 12, Int 2, Wis 11, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 11 (15 vs. trip)
+Feats: Nimble Moves
+Skills: Acrobatics +1 (+5 when jumping), Climb +5, Survival +0 (+4 to find food)
+Racial Modifiers: +4 Acrobatics when jumping, +4 Survival to find food
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +1 natural, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +2 (1d4+1)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 13, Con 12, Int 2, Wis 11, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11 (15 vs. trip)
-
-**Feats:** Nimble Moves
-
-**Skills:** Acrobatics +1 (+5 when jumping), Climb +5, Survival +0 (+4 to find food)
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Survival to find food
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

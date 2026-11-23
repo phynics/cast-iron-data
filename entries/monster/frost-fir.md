@@ -32,81 +32,63 @@ abilities = ["15", "10", "16", "11", "12", "9"]
 _The faint scent of pine sap accompanies this vaguely tree-shaped creature, which stands on two
 towering trunk-like legs. Its arms resemble the branches of a snow-laden conifer._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +0
+Size: medium
+Alignment: Neutral evil
+Perception: +5
+Senses: Low-light vision
+Type: plant
+Subtype: Cold
+Experience points: 400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 13
+Touch: 10
+Flat-footed: 13
+AC modifiers: +3 natural
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +0
+Will: +1
+Dr: 2/slashing
+Immune: cold, [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Melee: slam +3 (1d6+3 plus sticky resin)
+Spec Att: sticky resin
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 15, Dex 10, Con 16, Int 11, Wis 12, Cha 9
+Base attack bonus: +1
+Combat maneuver bonus: +3 (+5 disarm, grapple and steal)
+Combat maneuver defense: 13
+Feats: Power Attack, Skill Focus (Intimidate)
+Skills: Intimidate +4, Perception +5, Stealth +6 (+12 in forests)
+Racial Modifiers: +2 Stealth (+6 in forests)
+Languages: Sylvan, Treant
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 10
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 natural
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +0
-
-**Will:** +1
-
-**Dr:** 2/slashing
-
-**Immune:** cold, [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +3 (1d6+3 plus sticky resin)
-
-**Spec Att:** sticky resin
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 10, Con 16, Int 11, Wis 12, Cha 9
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3 (+5 disarm, grapple and steal)
-
-**Combat maneuver defense:** 13
-
-**Feats:** Power Attack, Skill Focus (Intimidate)
-
-**Skills:** Intimidate +4, Perception +5, Stealth +6 (+12 in forests)
-
-**Racial Modifiers:** +2 Stealth (+6 in forests)
-
-**Languages:** Sylvan, Treant
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** cold and temperate forests
-
-**Organization:** solitary, pair, stand (3-6), or grove (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold and temperate forests
+Organization: solitary, pair, stand (3-6), or grove (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

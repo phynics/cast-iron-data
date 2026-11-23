@@ -30,71 +30,58 @@ abilities = ["18", "9", "-", "-", "11", "1"]
 _This gilded statue appears to be crafted of solid gold plates, its shining visage carved with
 exquisite detail into an eerie replica of a human face._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: construct
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: -1 Dex, +10 natural
+Hit points: 64 (8d10+20)
+Fort: +2
+Ref: +1
+Will: +2
+Defensive abilities: conductivity, heat shimmer
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits), electricity, fire
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +12 (1d8+4 plus 1d6 fire)
+Spec Att: heat, molten destruction
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 21
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +10 natural
-
-**Hit points:** 64 (8d10+20)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +2
-
-**Defensive abilities:** conductivity, heat shimmer
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), electricity, fire
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +12 (1d8+4 plus 1d6 fire)
-
-**Spec Att:** heat, molten destruction
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 21
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

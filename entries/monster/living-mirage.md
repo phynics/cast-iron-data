@@ -34,79 +34,62 @@ abilities = ["-", "10", "20", "-", "1", "10"]
 _A glimmering vision shimmers on the horizon, the very air coalescing into an oasis that may or may
 not exist._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: gargantuan
+Initiative: +0
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 6,400
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 6
+Touch: 6
+Flat-footed: 6
+AC modifiers: -4 size
+Hit points: 114 (12d8+60)
+Fort: +9
+Ref: +4
+Will: -1
+Defensive abilities: natural invisibility
+Dr: 10/magic
+Immune: sonic, [ooze traits](ref/umr/ooze-traits)
+Resist: cold 10, fire 10
+Weaknesses: vulnerable to wind
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: fly 20 ft. (perfect)
+Melee: touch +5 (8d6 plus desiccation)
+Reach: 20
+Space: 20
+Spec Att: consuming mirage (DC 21, 6d6 and desiccation), desiccation, project mirage (DC 20)
+:::
 
-**Perception:** -5
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str -, Dex 10, Con 20, Int -, Wis 1, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 23
+Skills: Fly +2
+Special qualities: gaseous
+:::
 
-**Armor class:** 6
+### Ecology
 
-**Touch:** 6
-
-**Flat-footed:** 6
-
-**AC modifiers:** -4 size
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** -1
-
-**Defensive abilities:** natural invisibility
-
-**Dr:** 10/magic
-
-**Immune:** sonic, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** cold 10, fire 10
-
-**Weaknesses:** vulnerable to wind
-
-**Offense**
-
-**Speed:** fly 20 ft. (perfect)
-
-**Melee:** touch +5 (8d6 plus desiccation)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** consuming mirage (DC 21, 6d6 and desiccation), desiccation, project mirage (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 10, Con 20, Int -, Wis 1, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 23
-
-**Skills:** Fly +2
-
-**Special qualities:** gaseous
-
-**Ecology**
-
-**Environment:** any deserts or oceans
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any deserts or oceans
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

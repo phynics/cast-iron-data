@@ -31,101 +31,72 @@ abilities = ["12", "21", "19", "4", "10", "21"]
 _Within a halo of brilliant, glowing orbs are the distinctive features of a compact feline with
 tufted ears, a short tail, and keen, piercing eyes._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: hallowed lights (60 ft., DC 26)
+Initiative: +5
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +0
+Senses: Arcane sight, Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Experience points: 102,400
+:::
 
-**aura:** hallowed lights (60 ft., DC 26)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 23
+AC modifiers: +5 Dex, +1 dodge, +12 natural, +1 size
+Hit points: 241 (23d10+115)
+Fort: +17
+Ref: +20
+Will: +14
+Immune: blindness, fire, light effects
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +29 (1d6+1), 2 claws +29 (1d6+1)
+Pounce: present
+Rake: 2 claws +29, 1d6+1
+Ranged: blinding orb +24 touch (10d8 plus blindness)
+Sneak: +6d6
+Spec Att: blinding orb (DC 26), release shining child
+:::
 
-**Perception:** +0
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 23
+Concentration: +28
+Constant: arcane sight
+At will: daylight, major image (DC 18), mirror image, rainbow pattern (DC 19)
+Per day: 3/day: quickened dispel magic, prismatic spray (DC 22), scintillating pattern
+:::
 
-**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 21, Con 19, Int 4, Wis 10, Cha 21
+Base attack bonus: +23
+Combat maneuver bonus: +23
+Combat maneuver defense: 39 (43 vs. trip)
+Feats: Dodge, Following Step, Iron Will, Lightning Reflexes, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dispel magic), Skill Focus (Acrobatics), Spring Attack, Step Up, Step Up And Strike, Toughness, Weapon Finesse
+Skills: Acrobatics +37 (+41 when jumping), Climb +9
+Languages: Azlanti, Thassilonian (can't speak)
+:::
 
-**Experience points:** 102,400
+### Ecology {#stat-ecology}
 
-**Armor class:** 29
-
-**Touch:** 17
-
-**Flat-footed:** 23
-
-**AC modifiers:** +5 Dex, +1 dodge, +12 natural, +1 size
-
-**Hit points:** 241 (23d10+115)
-
-**Fort:** +17
-
-**Ref:** +20
-
-**Will:** +14
-
-**Immune:** blindness, fire, light effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +29 (1d6+1), 2 claws +29 (1d6+1)
-
-**Pounce:** present
-
-**Rake:** 2 claws +29, 1d6+1
-
-**Ranged:** blinding orb +24 touch (10d8 plus blindness)
-
-**Sneak:** +6d6
-
-**Spec Att:** blinding orb (DC 26), release shining child
-
-**Spell-Like Abilities**
-
-**Caster level:** 23
-
-**Concentration:** +28
-
-**Constant:**
-
-- arcane sight
-
-**At will:**
-
-- daylight, major image (DC 18), mirror image, rainbow pattern (DC 19)
-
-**Per day:**
-
-- 3/day: quickened dispel magic, prismatic spray (DC 22), scintillating pattern
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 21, Con 19, Int 4, Wis 10, Cha 21
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 39 (43 vs. trip)
-
-**Feats:** Dodge, Following Step, Iron Will, Lightning Reflexes, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (dispel magic), Skill Focus (Acrobatics), Spring
-Attack, Step Up, Step Up And Strike, Toughness, Weapon Finesse
-
-**Skills:** Acrobatics +37 (+41 when jumping), Climb +9
-
-**Languages:** Azlanti, Thassilonian (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,98 +32,71 @@ abilities = ["3", "19", "11", "14", "14", "15"]
 _Grimacing like a maniac, this lean little bat-eared horror displays a mouth full of needle-like
 teeth and glowing, orange eyes._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Type: fey
+Initiative: +4
+Perception: +6
+Senses: Darkvision 120 ft., Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 18
+Touch: 17
+Flat-footed: 13
+AC modifiers: +4 Dex, +1 dodge, +1 natural, +2 size
+Hit points: 6 (1d6+3)
+Fort: +0
+Ref: +6
+Will: +4
+Dr: 5/cold iron
+Sr: 12
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 40 ft.
+Melee: short sword +6 (1d3-4/19-20), bite +1 (1d2-4)
+Reach: 0
+Sneak: +1d6
+Space: 2-1/2
+Spec Att: tinker
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +3
+At will: prestidigitation
+Per hour: dimension door, self plus 5 lbs. only
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 3, Dex 19, Con 11, Int 14, Wis 14, Cha 15
+Base attack bonus: +0
+Combat maneuver bonus: +2
+Combat maneuver defense: 9
+Feats: Dodge, Toughness, Weapon Finesse
+Skills: Bluff +6, Craft (traps) +10, Disable Device +9, Escape Artist +8, Perception +6, Sleight of Hand +8, Stealth +16, Use Magic Device +6
+Racial Modifiers: +4 Craft (traps), +4 Disable Device
+Languages: Undercommon
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +1 dodge, +1 natural, +2 size
-
-**Hit points:** 6 (1d6+3)
-
-**Fort:** +0
-
-**Ref:** +6
-
-**Will:** +4
-
-**Dr:** 5/cold iron
-
-**Sr:** 12
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** short sword +6 (1d3-4/19-20), bite +1 (1d2-4)
-
-**Reach:** 0
-
-**Sneak:** +1d6
-
-**Space:** 2-1/2
-
-**Spec Att:** tinker
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**At will:**
-
-- prestidigitation
-
-**Per hour:**
-
-- dimension door, self plus 5 lbs. only
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 19, Con 11, Int 14, Wis 14, Cha 15
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 9
-
-**Feats:** Dodge, Toughness, Weapon Finesse
-
-**Skills:** Bluff +6, Craft (traps) +10, Disable Device +9, Escape Artist +8, Perception +6, Sleight
-of Hand +8, Stealth +16, Use Magic Device +6
-
-**Racial Modifiers:** +4 Craft (traps), +4 Disable Device
-
-**Languages:** Undercommon
-
-**Ecology**
-
-**Environment:** any underground or urban
-
-**Organization:** solitary, pair, mob (3-12), or infestation (13-20 with 1-3 sorcerers of 1st-3rd
-level, 1 rogue leader of 2nd-4th level, 2-8 trained [stirges](ref/monster/stirge), 2-5 trained
-[darkmantles](ref/monster/darkmantle), and 1-2 trained [dire bats](ref/monster/bat-dire-bat))
-
-**Treasure:** Standard (short sword); other treasure
+::: statblock
+Environment: any underground or urban
+Organization: solitary, pair, mob (3-12), or infestation (13-20 with 1-3 sorcerers of 1st-3rd level, 1 rogue leader of 2nd-4th level, 2-8 trained [stirges](ref/monster/stirge), 2-5 trained [darkmantles](ref/monster/darkmantle), and 1-2 trained [dire bats](ref/monster/bat-dire-bat))
+Treasure: Standard (short sword); other treasure
+:::
 
 ### Special Abilities
 

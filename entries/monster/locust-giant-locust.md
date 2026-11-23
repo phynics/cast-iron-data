@@ -31,75 +31,60 @@ abilities = ["16", "15", "13", "-", "10", "7"]
 
 _The mandibles of this enormous grasshopper churn and grind as it quests for food._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 22 (4d8+4)
+Fort: +5
+Ref: +3
+Will: +1
+Immune: mind-affecting effects
+Resist: acid 5
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 60 ft. (average)
+Melee: bite +6 (1d8+4)
+Ranged: spit +5 touch (1d3 acid)
+Spec Att: voracious
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 16, Dex 15, Con 13, Int -, Wis 10, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 18 (26 vs. trip)
+Skills: Acrobatics +2 (+20 jumping), Climb +11
+Racial Modifiers: +18 Acrobatics while jumping
+Special qualities: leap
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Resist:** acid 5
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 60 ft. (average)
-
-**Melee:** bite +6 (1d8+4)
-
-**Ranged:** spit +5 touch (1d3 acid)
-
-**Spec Att:** voracious
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 13, Int -, Wis 10, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18 (26 vs. trip)
-
-**Skills:** Acrobatics +2 (+20 jumping), Climb +11
-
-**Racial Modifiers:** +18 Acrobatics while jumping
-
-**Special qualities:** leap
-
-**Ecology**
-
-**Environment:** temperate or warm deserts or plains
-
-**Organization:** solitary, pair, gang (3-8), or colony (5-20)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm deserts or plains
+Organization: solitary, pair, gang (3-8), or colony (5-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

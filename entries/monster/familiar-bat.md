@@ -25,73 +25,59 @@ melee = "bite +6 (1d3-5)"
 abilities = ["1", "15", "6", "2", "14", "5"]
 +++
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Type: animal
+blindsense: 20
+Size: diminutive
+Initiative: +2
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 50
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 20
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 2 (1d8-2)
+Fort: +0
+Ref: +4
+Will: +2
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 5 ft., fly 40 ft. (good)
+Melee: bite +6 (1d3-5)
+Reach: 0
+Space: 1
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +6
+::: statblock
+Ability scores: Str 1, Dex 15, Con 6, Int 2, Wis 14, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 3
+Feats: Weapon Finesse
+Skills: Fly +16, Perception +6
+Racial Modifiers: +4 Perception
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 50
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 2 (1d8-2)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 5 ft., fly 40 ft. (good)
-
-**Melee:** bite +6 (1d3-5)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 6, Int 2, Wis 14, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 3
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +16, Perception +6
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** temperate and hot forests and deserts
-
-**Organization:** colony (10-400)
-
-**Treasure:** None
+::: statblock
+Environment: temperate and hot forests and deserts
+Organization: colony (10-400)
+Treasure: None
+:::
 
 ### Description
 

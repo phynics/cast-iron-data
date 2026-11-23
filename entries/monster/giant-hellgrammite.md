@@ -35,79 +35,62 @@ abilities = ["19", "15", "16", "-", "9", "2"]
 _This long, insectile creature has massive mandibles and dozens of segmented legs extend from its
 sides._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +3
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: vermin
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 16
+AC modifiers: +2 Dex, +7 natural, -1 size
+Hit points: 52 (7d8+21)
+Fort: +8
+Ref: +4
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Constrict: 2d6+4
+Melee: bite +8 (2d6+4 plus [grab](ref/umr/grab)), tail slap +3 (1d8+2)
+Reach: 5
+Space: 10
+Spec Att: death grip
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 19, Dex 15, Con 16, Int -, Wis 9, Cha 2
+Base attack bonus: +5
+Combat maneuver bonus: +10 (+14 grapple)
+Combat maneuver defense: 22 (can't be tripped)
+Skills: Perception +3 (+7 in water), Stealth -2 (+6 in water), Swim +12
+Racial Modifiers: +4 Perception (+8 in water), +8 Stealth in water
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +7 natural, -1 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Constrict:** 2d6+4
-
-**Melee:** bite +8 (2d6+4 plus [grab](ref/umr/grab)), tail slap +3 (1d8+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** death grip
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 16, Int -, Wis 9, Cha 2
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10 (+14 grapple)
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Skills:** Perception +3 (+7 in water), Stealth -2 (+6 in water), Swim +12
-
-**Racial Modifiers:** +4 Perception (+8 in water), +8 Stealth in water
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate rivers
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate rivers
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

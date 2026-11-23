@@ -33,94 +33,70 @@ abilities = ["25", "18", "-", "13", "15", "18"]
 _This creature's pallid skin and dead, vacant eyes belie its healthy, powerful physique. It is clad
 in fearsome armor._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +4
+Alignment: Lawful evil
+Size: medium
+Perception: +20
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 9,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 25
+Touch: 12
+Flat-footed: 23
+AC modifiers: +9 armor, +1 Dex, +1 dodge, +2 natural, +2 shield
+Hit points: 127 (15d8+60)
+Fort: +9
+Ref: +9
+Will: +11
+Dr: 10/glass or obsidian
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Resist: electricity 10, fire 10
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +20
+::: statblock
+Speed: 40 ft., (30 ft. in armor)
+E Drain: 1d4 levels, DC 21
+Melee: +1 bastard sword +20/+15/+10 (1d10+8/17-20) or slam +18 (1d4+10 plus energy drain)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +19
+At will: death knell (DC 16), protection from good, speak with dead (DC 17)
+Per day: 3/day: bestow curse (DC 17)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 25, Dex 18, Con -, Int 13, Wis 15, Cha 18
+Base attack bonus: +11
+Combat maneuver bonus: +18
+Combat maneuver defense: 33
+Feats: Cleave, Dodge, Great Cleave, Improved Critical (bastard sword), Mobility, Power Attack, Spring Attack, Weapon Focus (bastard sword)
+Skills: Acrobatics +4, Disguise +15, Sense Motive +9, Stealth +11
+Languages: Common, Infernal
+Special qualities: unkillable
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 23
-
-**AC modifiers:** +9 armor, +1 Dex, +1 dodge, +2 natural, +2 shield
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +11
-
-**Dr:** 10/glass or obsidian
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. in armor)
-
-**E Drain:** 1d4 levels, DC 21
-
-**Melee:** +1 bastard sword +20/+15/+10 (1d10+8/17-20) or slam +18 (1d4+10 plus energy drain)
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +19
-
-**At will:**
-
-- death knell (DC 16), protection from good, speak with dead (DC 17)
-
-**Per day:**
-
-- 3/day: bestow curse (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 18, Con -, Int 13, Wis 15, Cha 18
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 33
-
-**Feats:** Cleave, Dodge, Great Cleave, Improved Critical (bastard sword), Mobility, Power Attack,
-Spring Attack, Weapon Focus (bastard sword)
-
-**Skills:** Acrobatics +4, Disguise +15, Sense Motive +9, Stealth +11
-
-**Languages:** Common, Infernal
-
-**Special qualities:** unkillable
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard (+1 bastard sword, full plate, heavy steel shield); other gear
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard (+1 bastard sword, full plate, heavy steel shield); other gear
+:::
 
 ### Special Abilities
 

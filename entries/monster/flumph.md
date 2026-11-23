@@ -33,69 +33,57 @@ abilities = ["10", "16", "11", "10", "14", "10"]
 _This pale, jellyfish-like creature floats gently in the air, two long eyestalks extending from
 either side of its puckered mouth._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: aberration
+Initiative: +3
+Alignment: Lawful good
+Perception: +7
+Senses: Darkvision 60 ft.
+Size: small
+Experience points: 400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 15
+AC modifiers: +3 Dex, +4 natural, +1 size
+Hit points: 9 (2d8)
+Fort: +0
+Ref: +3
+Will: +5
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 5 ft., fly 20 ft. (perfect)
+Melee: sting +5 (1d4 plus acid injection)
+Spec Att: stench spray
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 16, Con 11, Int 10, Wis 14, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 13
+Feats: Weapon Finesse
+Skills: Diplomacy +2, Sense Motive +3, Stealth +11
+Languages: Aklo, Common
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +4 natural, +1 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** +3
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 5 ft., fly 20 ft. (perfect)
-
-**Melee:** sting +5 (1d4 plus acid injection)
-
-**Spec Att:** stench spray
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 16, Con 11, Int 10, Wis 14, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 13
-
-**Feats:** Weapon Finesse
-
-**Skills:** Diplomacy +2, Sense Motive +3, Stealth +11
-
-**Languages:** Aklo, Common
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary, pair, or colony (4-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land or underground
+Organization: solitary, pair, or colony (4-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -34,77 +34,61 @@ abilities = ["19", "14", "15", "7", "12", "10"]
 _Spikes cover the body of this vaguely reptilian creature. Its fearsome face features dagger-sharp
 teeth and glowing red eyes._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 60 (8d10+16)
+Fort: +8
+Ref: +8
+Will: +5
+Ferocity: present
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 15 ft.
+Melee: bite +11 (1d8+4), 2 claws +11 (1d6+4), tail slap +11 (1d4+4)
+Reach: 10
+Space: 10
+Spec Att: spiked tail, toss
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 14, Con 15, Int 7, Wis 12, Cha 10
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 25 (29 vs. trip)
+Feats: Improved Iron Will, Iron Will, Power Attack, Vital Strike
+Skills: Climb +10
+Languages: Common (can't speak)
+Special qualities: trackless
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 60 (8d10+16)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +5
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 30 ft., burrow 15 ft.
-
-**Melee:** bite +11 (1d8+4), 2 claws +11 (1d6+4), tail slap +11 (1d4+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** spiked tail, toss
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con 15, Int 7, Wis 12, Cha 10
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 25 (29 vs. trip)
-
-**Feats:** Improved Iron Will, Iron Will, Power Attack, Vital Strike
-
-**Skills:** Climb +10
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** trackless
-
-**Ecology**
-
-**Environment:** temperate forests or marshes
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests or marshes
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

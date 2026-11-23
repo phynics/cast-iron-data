@@ -30,71 +30,58 @@ abilities = ["11", "14", "13", "6", "12", "13"]
 _This earless, panther-like beast snarls as the skin of its face twitches, then peels back to reveal
 the bone and flesh beneath._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +6
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +2 (1d6), 2 claws +2 (1d4)
+Spec Att: skullface
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 11, Dex 14, Con 13, Int 6, Wis 12, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 14 (18 vs. trip)
+Feats: Improved Initiative
+Skills: Intimidate +1 (+5 to demoralize), Perception +5, Stealth +10
+Racial Modifiers: +4 Intimidate to demoralize, +4 Stealth
+Languages: Sylvan (can't speak)
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +2 (1d6), 2 claws +2 (1d4)
-
-**Spec Att:** skullface
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 14, Con 13, Int 6, Wis 12, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14 (18 vs. trip)
-
-**Feats:** Improved Initiative
-
-**Skills:** Intimidate +1 (+5 to demoralize), Perception +5, Stealth +10
-
-**Racial Modifiers:** +4 Intimidate to demoralize, +4 Stealth
-
-**Languages:** Sylvan (can't speak)
-
-**Ecology**
-
-**Environment:** temperate forests or plains
-
-**Organization:** solitary, pair, or pride (6-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests or plains
+Organization: solitary, pair, or pride (6-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

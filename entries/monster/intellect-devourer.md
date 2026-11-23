@@ -30,102 +30,73 @@ abilities = ["12", "23", "21", "16", "10", "17"]
 _Devoid of a head, or any features at all save for four short, clawed legs, this creature's body
 looks like a large, glistening brain._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+blindsight: 60
+Alignment: Chaotic evil
+Initiative: +10
+Perception: +19
+Senses: Detect magic
+Size: small
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 22
+Touch: 17
+Flat-footed: 16
+AC modifiers: +6 Dex, +5 natural, +1 size
+Hit points: 84 (8d8+48)
+Fort: +7
+Ref: +8
+Will: +8
+Dr: 10/adamantine and magic
+Immune: fire, mind-affecting effects
+Resist: cold 20, electricity 20, sonic 20
+Sr: 23
+Weaknesses: vulnerable to _[protection from evil](ref/spell/protection-from-evil)_
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +10
+::: statblock
+Speed: 40 ft.
+Melee: 4 claws +13 (1d4+1)
+Sneak: +3d6
+Spec Att: body thief
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Constant: detect magic
+At will: confusion (DC 17, single target only), daze monster (DC 15, no HD limit), inflict serious wounds (DC 16), invisibility, !_reduce size_, as [reduce person](ref/spell/reduce-person) but self only
+Per day: 3/day: cure moderate wounds, globe of invulnerability
+:::
 
-**Senses:** Detect magic
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 23, Con 21, Int 16, Wis 10, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Improved Initiative, Iron Will, Toughness, Weapon Finesse
+Skills: Bluff +19, Disguise +11, Sense Motive +8, Stealth +29, Use Magic Device +11
+Racial Modifiers: +8 Bluff, +8 Perception, +8 Stealth
+Languages: Undercommon (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +5 natural, +1 size
-
-**Hit points:** 84 (8d8+48)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 10/adamantine and magic
-
-**Immune:** fire, mind-affecting effects
-
-**Resist:** cold 20, electricity 20, sonic 20
-
-**Sr:** 23
-
-**Weaknesses:** vulnerable to _[protection from evil](ref/spell/protection-from-evil)_
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 4 claws +13 (1d4+1)
-
-**Sneak:** +3d6
-
-**Spec Att:** body thief
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- confusion (DC 17, single target only), daze monster (DC 15, no HD limit), inflict serious wounds
-  (DC 16), invisibility, !_reduce size_, as [reduce person](ref/spell/reduce-person) but self only
-
-**Per day:**
-
-- 3/day: cure moderate wounds, globe of invulnerability
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 23, Con 21, Int 16, Wis 10, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Improved Initiative, Iron Will, Toughness, Weapon Finesse
-
-**Skills:** Bluff +19, Disguise +11, Sense Motive +8, Stealth +29, Use Magic Device +11
-
-**Racial Modifiers:** +8 Bluff, +8 Perception, +8 Stealth
-
-**Languages:** Undercommon (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, brood (2-6), or tribe (7-16)
-
-**Treasure:** Double
+::: statblock
+Environment: any underground
+Organization: solitary, brood (2-6), or tribe (7-16)
+Treasure: Double
+:::
 
 ### Special Abilities
 

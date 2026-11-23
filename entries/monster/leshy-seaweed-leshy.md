@@ -32,93 +32,69 @@ abilities = ["10", "13", "14", "9", "15", "12"]
 _This vaguely humanoid plant creature has a body formed of soggy green seaweed and wears crude armor
 made from seashells._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Aquatic, Leshy, Shapechanger
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 14
+AC modifiers: +1 armor, +1 Dex, +2 natural, +1 size
+Hit points: 30 (4d8+12)
+Fort: +6
+Ref: +2
+Will: +3
+Immune: electricity, sonic, [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +7
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Melee: slam +4 (1d6)
+Ranged: water jet +5 touch (1 plus blind)
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +9
+Constant: pass without trace
+Per day: 1/day: entangle (in water only, DC 12)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Aquatic, Leshy, Shapechanger
+::: statblock
+Ability scores: Str 10, Dex 13, Con 14, Int 9, Wis 15, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 13
+Feats: Ability Focus (water jet), Toughness
+Skills: Perception +7, Swim +8
+Racial Modifiers: +4 Stealth and Survival in water
+Languages: Druidic, Sylvan; _plantspeech_ (seaweed)
+Special qualities: air cyst, [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (Small seaweed; [tree shape](ref/spell/tree-shape)), verdant burst
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 armor, +1 Dex, +2 natural, +1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +6
-
-**Ref:** +2
-
-**Will:** +3
-
-**Immune:** electricity, sonic, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Melee:** slam +4 (1d6)
-
-**Ranged:** water jet +5 touch (1 plus blind)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +9
-
-**Constant:**
-
-- pass without trace
-
-**Per day:**
-
-- 1/day: entangle (in water only, DC 12)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 14, Int 9, Wis 15, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13
-
-**Feats:** Ability Focus (water jet), Toughness
-
-**Skills:** Perception +7, Swim +8
-
-**Racial Modifiers:** +4 Stealth and Survival in water
-
-**Languages:** Druidic, Sylvan; _plantspeech_ (seaweed)
-
-**Special qualities:** air cyst, [amphibious](ref/umr/amphibious),
-[change shape](ref/umr/change-shape) (Small seaweed; [tree shape](ref/spell/tree-shape)), verdant
-burst
-
-**Ecology**
-
-**Environment:** any ocean or coastline
-
-**Organization:** solitary or patch (2-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ocean or coastline
+Organization: solitary or patch (2-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

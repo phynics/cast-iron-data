@@ -32,88 +32,65 @@ abilities = ["26", "19", "19", "10", "14", "11"]
 _This towering, plant-encrusted woman wields a massive bow, and her dark skin is decorated with
 numerous intricate tattoos._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Type: humanoid
+Initiative: +4
+Alignment: Neutral
+Perception: +15
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 24
+Touch: 16
+Flat-footed: 20
+AC modifiers: +4 deflection, +4 Dex, +8 natural, -2 size
+Hit points: 127 (15d8+60)
+Fort: +9
+Ref: +13
+Will: +7
+Defensive abilities: spell storing, warding tattoos
+Immune: disease, poison
+Rock Ct: present
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 slams +17 (2d6+8)
+Ranged: mwk composite longbow +15/+10/+5 (3d6+8/19-20/×3)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 19, Con 19, Int 10, Wis 14, Cha 11
+Base attack bonus: +11
+Combat maneuver bonus: +21
+Combat maneuver defense: 39
+Feats: Deadly Aim, Improved Critical (longbow), Improved Precise Shot, Point-Blank Shot, Precise Shot, Rapid Shot, Skill Focus (Stealth), Weapon Focus (longbow)
+Skills: Climb +12, Craft (bows) +8, Perception +15
+Racial Modifiers: +4 Climb, +8 Stealth in forests
+Languages: Common, Giant
+Special qualities: archery expert
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 16
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 deflection, +4 Dex, +8 natural, -2 size
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +9
-
-**Ref:** +13
-
-**Will:** +7
-
-**Defensive abilities:** spell storing, warding tattoos
-
-**Immune:** disease, poison
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 slams +17 (2d6+8)
-
-**Ranged:** mwk composite longbow +15/+10/+5 (3d6+8/19-20/×3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con 19, Int 10, Wis 14, Cha 11
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 39
-
-**Feats:** Deadly Aim, Improved Critical (longbow), Improved Precise Shot, Point-Blank Shot, Precise
-Shot, Rapid Shot, Skill Focus (Stealth), Weapon Focus (longbow)
-
-**Skills:** Climb +12, Craft (bows) +8, Perception +15
-
-**Racial Modifiers:** +4 Climb, +8 Stealth in forests
-
-**Languages:** Common, Giant
-
-**Special qualities:** archery expert
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, hunting party (2-9 plus 1-3 [girallons](ref/monster/girallon)), or tribe
-(10-40, plus 35% noncombatants, 1-3 druids or sorcerers of 2nd-5th level, 1 ranger or barbarian of
-3rd-7th level, and 2-8 girallons)
-
-**Treasure:** Standard (mwk cl40+8); other treasure
+::: statblock
+Environment: warm forests
+Organization: solitary, hunting party (2-9 plus 1-3 [girallons](ref/monster/girallon)), or tribe (10-40, plus 35% noncombatants, 1-3 druids or sorcerers of 2nd-5th level, 1 ranger or barbarian of 3rd-7th level, and 2-8 girallons)
+Treasure: Standard (mwk cl40+8); other treasure
+:::
 
 ### Special Abilities
 

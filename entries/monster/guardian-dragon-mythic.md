@@ -33,138 +33,88 @@ like burnished gold._
 
 **Mythic Guardian Dragon**
 
-**Challenge rating:** 24
+::: statblock
+Challenge rating: 24
+Mythic rank: 10
+aura: frightful presence (300 ft., DC 30), security (1,000 ft.)
+blindsight: 120
+Type: dragon
+Size: gargantuan
+Initiative: +15, Mythic Improved Initiative
+Alignment: Neutral
+Perception: +44
+Senses: Darkvision 120 ft., Detect magic, Detect scrying, Low-light vision, Mistsight
+Subtype: Aquatic, Mythic
+Experience points: 1,228,800
+:::
 
-**Mythic rank:** 10
+### Defense
 
-**aura:** frightful presence (300 ft., DC 30), security (1,000 ft.)
+::: statblock
+Armor class: 44
+Touch: 7
+Flat-footed: 43
+AC modifiers: +6 armor, +1 Dex, +31 natural, -4 size
+Hit points: 529 (26d12+360)
+Fort: +25
+Ref: +16
+Will: +24
+Dr: 15/epic and magic
+Fortif: 50
+Immune: ability damage, ability drain, curses, death effects, dragon traits, sleep, paralysis, poison
+P Blood: dragon bile
+Resist: acid 30, cold 30, electricity 30, fire 30, sonic 30
+Sr: 35
+Unstop: present
+:::
 
-**blindsight:** 120
+### Offense
 
-**Type:** dragon
+::: statblock
+Speed: 50 ft., climb 30 ft., swim 30 ft., fly 200 ft. (average)
+Br Weap: 60-ft. cone, 2d4 Con damage from poison, Fortitude DC 33 half, usable every 1d4 rounds
+Constrict: 2d8+21
+F Swallow: present
+M Power: 10/day, surge +1d12
+Melee: 2 claws +36 (2d8+14), bite +36 (4d6+21 plus [grab](ref/umr/grab) and poison), 2 wings +34 (2d6+7), tail slap +34 (2d8+21 plus grab)
+Reach: 15
+Reach P: 20 ft. with bite
+Space: 20
+Spec Att: agonizing venom, lingering poisonous cloud, poison
+Swallow: 6d6 bludgeoning damage plus poison, AC 25, 52 hp
+:::
 
-**Size:** gargantuan
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 26
+Concentration: +33
+Constant: detect magic, detect scrying
+At will: discern location, false vision, see aura of security, fog cloud, greater dispel magic, locate object, major curse (DC 22), persuasive goad (DC 18)
+Per day: 3/day: geas/quest (DC 23), leashed shackles (DC 21), maze, plant growth, spell turning, wall of stone, wall of thorns\
+1/day: breath of life, dimensional lock, limited wish (DC 24), mage's disjunction (DC 26), plane shift, word of recall
+:::
 
-**Initiative:** +15, Mythic Improved Initiative
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 38, Dex 13, Con 30, Int 15, Wis 24, Cha 25
+Base attack bonus: +26
+Combat maneuver bonus: +44 (+48 grapple)
+Combat maneuver defense: 51 (55 vs. grapple, can't be tripped)
+Feats: Blinding Critical, Mythic Cleave, Mythic Critical Focus, Death from Above, Flyby Attack, Great Cleave, Hover, Mythic Improved Initiative, Mythic Iron Will, Multiattack, Mythic Power Attack, Staggering Critical, Stunning Critical
+Skills: Climb +38, Fly +11, Use Magic Device +23
+Racial Modifiers: +8 Knowledge (geography), +8 Perception, +8 Stealth, +8 Survival
+Languages: Abyssal, Celestial, Common, Draconic, Infernal, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious), heroic challenge, [mythic immortality](ref/umr/mythic-immortality), recuperation, secret lair, vengeful seeker
+:::
 
-**Perception:** +44
+### Ecology
 
-**Senses:** Darkvision 120 ft., Detect magic, Detect scrying, Low-light vision, Mistsight
-
-**Subtype:** Aquatic, Mythic
-
-**Experience points:** 1,228,800
-
-**Armor class:** 44
-
-**Touch:** 7
-
-**Flat-footed:** 43
-
-**AC modifiers:** +6 armor, +1 Dex, +31 natural, -4 size
-
-**Hit points:** 529 (26d12+360)
-
-**Fort:** +25
-
-**Ref:** +16
-
-**Will:** +24
-
-**Dr:** 15/epic and magic
-
-**Fortif:** 50
-
-**Immune:** ability damage, ability drain, curses, death effects, dragon traits, sleep, paralysis,
-poison
-
-**P Blood:** dragon bile
-
-**Resist:** acid 30, cold 30, electricity 30, fire 30, sonic 30
-
-**Sr:** 35
-
-**Unstop:** present
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft., swim 30 ft., fly 200 ft. (average)
-
-**Br Weap:** 60-ft. cone, 2d4 Con damage from poison, Fortitude DC 33 half, usable every 1d4 rounds
-
-**Constrict:** 2d8+21
-
-**F Swallow:** present
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 2 claws +36 (2d8+14), bite +36 (4d6+21 plus [grab](ref/umr/grab) and poison), 2 wings +34
-(2d6+7), tail slap +34 (2d8+21 plus grab)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 20
-
-**Spec Att:** agonizing venom, lingering poisonous cloud, poison
-
-**Swallow:** 6d6 bludgeoning damage plus poison, AC 25, 52 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 26
-
-**Concentration:** +33
-
-**Constant:**
-
-- detect magic, detect scrying
-
-**At will:**
-
-- discern location, false vision, see aura of security, fog cloud, greater dispel magic, locate
-  object, major curse (DC 22), persuasive goad (DC 18)
-
-**Per day:**
-
-- 3/day: geas/quest (DC 23), leashed shackles (DC 21), maze, plant growth, spell turning, wall of
-  stone, wall of thorns
-- 1/day: breath of life, dimensional lock, limited wish (DC 24), mage's disjunction (DC 26), plane
-  shift, word of recall
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 13, Con 30, Int 15, Wis 24, Cha 25
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +44 (+48 grapple)
-
-**Combat maneuver defense:** 51 (55 vs. grapple, can't be tripped)
-
-**Feats:** Blinding Critical, Mythic Cleave, Mythic Critical Focus, Death from Above, Flyby Attack,
-Great Cleave, Hover, Mythic Improved Initiative, Mythic Iron Will, Multiattack, Mythic Power Attack,
-Staggering Critical, Stunning Critical
-
-**Skills:** Climb +38, Fly +11, Use Magic Device +23
-
-**Racial Modifiers:** +8 Knowledge (geography), +8 Perception, +8 Stealth, +8 Survival
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious), heroic challenge,
-[mythic immortality](ref/umr/mythic-immortality), recuperation, secret lair, vengeful seeker
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Other (triple, plus one artifact or major item)
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Other (triple, plus one artifact or major item)
+:::
 
 ### Special Abilities
 

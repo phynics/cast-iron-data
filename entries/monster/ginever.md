@@ -29,75 +29,60 @@ abilities = ["18", "15", "21", "8", "14", "11"]
 
 _This lanky, yellow-eyed drunk sways unsteadily, draped in the stink of barley and fermentation._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Type: Monstrous humanoid
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 luck
+Hit points: 63 (6d10+30)
+Fort: +7
+Ref: +7
+Will: +7
+Defensive abilities: drunken defense
+Immune: poison
+Resist: acid 10, cold 10
+Weaknesses: vicious sobriety
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: touch +10 (inebriate) or bite +10 (1d6+2)
+Spec Att: fortifying gaze, inebriate
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 15, Con 21, Int 8, Wis 14, Cha 11
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 27
+Feats: Ability Focus (inebriate), Alertness, Power Attack
+Skills: Disguise +2 (+6 when appearing human), Intimidate +9, Perception +4
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 luck
-
-**Hit points:** 63 (6d10+30)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +7
-
-**Defensive abilities:** drunken defense
-
-**Immune:** poison
-
-**Resist:** acid 10, cold 10
-
-**Weaknesses:** vicious sobriety
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** touch +10 (inebriate) or bite +10 (1d6+2)
-
-**Spec Att:** fortifying gaze, inebriate
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 21, Int 8, Wis 14, Cha 11
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 27
-
-**Feats:** Ability Focus (inebriate), Alertness, Power Attack
-
-**Skills:** Disguise +2 (+6 when appearing human), Intimidate +9, Perception +4
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary or gang (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

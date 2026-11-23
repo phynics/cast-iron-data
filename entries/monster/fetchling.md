@@ -30,92 +30,71 @@ abilities = ["13", "17", "14", "8", "8", "14"]
 
 _This gaunt man appears drained of color, like a person viewed at twilight or in a dark alley._
 
-**Challenge rating:** 1/2
-
 **Fetchling [rogue](ref/class/rogue) 1**
 
-**Initiative:** +3
+::: statblock
+Challenge rating: 1/2
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Native
+Experience points: 200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +4 armor, +3 Dex
+Hit points: 10 (1d8+2)
+Fort: +2
+Ref: +5
+Will: -1
+Defensive abilities: shadow bending
+Resist: cold 5, electricity 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Melee: dagger +3 (1d4+1/19-20)
+Sneak: +1d6
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +3
+Per day: 1/day: disguise self, humanoid only
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 13, Dex 17, Con 14, Int 8, Wis 8, Cha 14
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Weapon Finesse
+Skills: Appraise +3, Bluff +6, Diplomacy +6, Sense Motive +3, Stealth +7
+Racial Modifiers: +2 Knowledge (planes), +2 Stealth
+Languages: Common
+Special qualities: [trapfinding](ref/ability/trapfinding) +1
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +3 Dex
-
-**Hit points:** 10 (1d8+2)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** -1
-
-**Defensive abilities:** shadow bending
-
-**Resist:** cold 5, electricity 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +3 (1d4+1/19-20)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**Per day:**
-
-- 1/day: disguise self, humanoid only
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 14, Int 8, Wis 8, Cha 14
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Weapon Finesse
-
-**Skills:** Appraise +3, Bluff +6, Diplomacy +6, Sense Motive +3, Stealth +7
-
-**Racial Modifiers:** +2 Knowledge (planes), +2 Stealth
-
-**Languages:** Common
-
-**Special qualities:** [trapfinding](ref/ability/trapfinding) +1
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, guild (3-12), or enclave (13-30 plus 1-4 2nd-4th level rogue
-spies, 1-4 2nd-4th level sorcerers, and 1 3rd-6th level fighter/rogue leader)
-
-**Treasure:** NPC gear (chain shirt, dagger); other treasure
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, guild (3-12), or enclave (13-30 plus 1-4 2nd-4th level rogue spies, 1-4 2nd-4th level sorcerers, and 1 3rd-6th level fighter/rogue leader)
+Treasure: NPC gear (chain shirt, dagger); other treasure
+:::
 
 ### Special Abilities
 

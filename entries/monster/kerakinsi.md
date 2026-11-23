@@ -30,73 +30,59 @@ abilities = ["12", "15", "13", "9", "14", "10"]
 _This winged creature's streamlined head features sunken, glassy eyes and a circular mouth lined
 with needle-sharp teeth._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +11
+Senses: Darkvision 60 ft.
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +2 Dex, +1 dodge, +4 natural
+Hit points: 39 (6d10+6)
+Fort: +3
+Ref: +7
+Will: +7
+Immune: deafness, electricity, sonic
+Weaknesses: wind dependence
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 40 ft. (good)
+Melee: bite +7 (1d4+1), 2 talons +7 (1d8+1)
+Spec Att: discharge, thunderclap
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 12, Dex 15, Con 13, Int 9, Wis 14, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Dodge, Flyby Attack, Mobility
+Skills: Fly +15, Perception +11, Stealth +11
+Languages: Auran
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +1 dodge, +4 natural
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +7
-
-**Immune:** deafness, electricity, sonic
-
-**Weaknesses:** wind dependence
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (good)
-
-**Melee:** bite +7 (1d4+1), 2 talons +7 (1d8+1)
-
-**Spec Att:** discharge, thunderclap
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 13, Int 9, Wis 14, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Dodge, Flyby Attack, Mobility
-
-**Skills:** Fly +15, Perception +11, Stealth +11
-
-**Languages:** Auran
-
-**Ecology**
-
-**Environment:** warm swamps
-
-**Organization:** solitary, pair, or storm (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm swamps
+Organization: solitary, pair, or storm (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

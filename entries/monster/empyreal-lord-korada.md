@@ -31,136 +31,89 @@ abilities = ["26", "30", "33", "25", "35", "38"]
 _This serene, acrobatic man has stiff sideburns, a beard like a monkey, and three golden-furred
 tails._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+aura: primal (30 ft.)
+blindsense: 60
+Initiative: +22
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +46
+Senses: Darkvision 60 ft., Detect evil, Detect thoughts, Low-light vision
+Subtype: Agathion, Extraplanar, Good
+Experience points: 2,457,600
+:::
 
-**aura:** primal (30 ft.)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 45
+Touch: 40
+Flat-footed: 36
+AC modifiers: +10 Dex, +1 dodge, +2 insight, +13 natural, -1 size, +6 sacred, +12 Wis
+Hit points: 528 (32d10+352)
+Fort: +21
+Ref: +30
+Will: +30
+Defensive abilities: never surprised
+Dr: 10/epic and evil
+Immune: ability damage, ability drain, charm effects, compulsion effects, death effects, disease, electricity, energy drain, petrification, poison
+Regen: 10 (evil artifacts, effects, and spells)
+Resist: cold 30, sonic 30
+Sr: 37
+:::
 
-**Initiative:** +22
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 90 ft., climb 30 ft., fly 60 ft. (average)
+Melee: unarmed strike +31/+36/+31/+26 (2d10+8) or +5 quarterstaff +44/+39/+34/+29 (1d8+13) or flurry of blows +38/+38/+33/+33/+28/+28/+23 (2d10+8)
+Reach: 10
+Space: 10
+Spec Att: shatter spells, stunning fist (8/day, DC 22)
+:::
 
-**Alignment:** Neutral good
-
-**Type:** outsider
-
-**Perception:** +46
-
-**Senses:** Darkvision 60 ft., Detect evil, Detect thoughts, Low-light vision
-
-**Subtype:** Agathion, Extraplanar, Good
-
-**Experience points:** 2,457,600
-
-**Armor class:** 45
-
-**Touch:** 40
-
-**Flat-footed:** 36
-
-**AC modifiers:** +10 Dex, +1 dodge, +2 insight, +13 natural, -1 size, +6 sacred, +12 Wis
-
-**Hit points:** 528 (32d10+352)
-
-**Fort:** +21
-
-**Ref:** +30
-
-**Will:** +30
-
-**Defensive abilities:** never surprised
-
-**Dr:** 10/epic and evil
-
-**Immune:** ability damage, ability drain, charm effects, compulsion effects, death effects,
-disease, electricity, energy drain, petrification, poison
-
-**Regen:** 10 (evil artifacts, effects, and spells)
-
-**Resist:** cold 30, sonic 30
-
-**Sr:** 37
-
-**Offense**
-
-**Speed:** 90 ft., climb 30 ft., fly 60 ft. (average)
-
-**Melee:** unarmed strike +31/+36/+31/+26 (2d10+8) or +5 quarterstaff +44/+39/+34/+29 (1d8+13) or
-flurry of blows +38/+38/+33/+33/+28/+28/+23 (2d10+8)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** shatter spells, stunning fist (8/day, DC 22)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +34
-
-**Constant:**
-
-- detect evil, detect thoughts, foresight^M^, sanctuary^M^ (DC 25), water walk
-
-**At will:**
-
-- augury, bless^M^, calm animals (DC 25), calm emotions (DC 26), cure serious wounds^M^, greater
-  teleport, mirror image^M^
-
-**Per day:**
-
-- 3/day: divination, mad monkeys, quickened mirror image^M^, neutralize poison, true seeing, wall of
-  force^M^
-- 1/day: antimagic field, moment of prescience
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +34
+Constant: detect evil, detect thoughts, foresight^M^, sanctuary^M^ (DC 25), water walk
+At will: augury, bless^M^, calm animals (DC 25), calm emotions (DC 26), cure serious wounds^M^, greater teleport, mirror image^M^
+Per day: 3/day: divination, mad monkeys, quickened mirror image^M^, neutralize poison, true seeing, wall of force^M^\
+1/day: antimagic field, moment of prescience
+:::
 
 ###### M {#footnote-m}
 
 Korada can use the mythic version of this ability in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 26, Dex 30, Con 33, Int 25, Wis 35, Cha 38
-
-**Base attack bonus:** +32
-
-**Combat maneuver bonus:** +41 (+43 disarm or grapple, +45 trip)
-
-**Combat maneuver defense:** 84 (86 vs. disarm, grapple, or trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Greater Trip, Improved Disarm, Improved
-Grapple, Improved Initiative, Improved Trip, Improved Unarmed Strike^B^, Lunge, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (mirror image), Scorpion Style, Snatch Arrows,
-Spring Attack, Step Up, Stunning Fist^B^, Weapon Finesse
-
-**Skills:** Acrobatics +44 (+68 when jumping), Bluff +32, Climb +50, Diplomacy +45, Disguise +32,
-Sense Motive +46, Spellcraft +22, Stealth +40
-
-**Racial Modifiers:** +24 Acrobatics when jumping
-
-**Languages:** xCe, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** abundant step, [change shape](ref/umr/change-shape) (avoral or any humanoid;
-[shapechange](ref/spell/shapechange)), combat style master,
-[empyreal lord traits](ref/umr/empyreal-lord-traits), ki pool (22 points; adamantine, epic, good,
-lawful, magic, mythic, silver), [lay on hands](ref/ability/lay-on-hands) (15d6, 29/day), seed of
-life, tranquil master
-
-**Faith:** Korada
+::: statblock
+Ability scores: Str 26, Dex 30, Con 33, Int 25, Wis 35, Cha 38
+Base attack bonus: +32
+Combat maneuver bonus: +41 (+43 disarm or grapple, +45 trip)
+Combat maneuver defense: 84 (86 vs. disarm, grapple, or trip)
+Feats: Combat Expertise, Combat Reflexes, Dodge, Greater Trip, Improved Disarm, Improved Grapple, Improved Initiative, Improved Trip, Improved Unarmed Strike^B^, Lunge, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mirror image), Scorpion Style, Snatch Arrows, Spring Attack, Step Up, Stunning Fist^B^, Weapon Finesse
+Skills: Acrobatics +44 (+68 when jumping), Bluff +32, Climb +50, Diplomacy +45, Disguise +32, Sense Motive +46, Spellcraft +22, Stealth +40
+Racial Modifiers: +24 Acrobatics when jumping
+Languages: xCe, Infernal; _speak with animals, truespeech_
+Special qualities: abundant step, [change shape](ref/umr/change-shape) (avoral or any humanoid; [shapechange](ref/spell/shapechange)), combat style master, [empyreal lord traits](ref/umr/empyreal-lord-traits), ki pool (22 points; adamantine, epic, good, lawful, magic, mythic, silver), [lay on hands](ref/ability/lay-on-hands) (15d6, 29/day), seed of life, tranquil master
+Faith: Korada
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any forests or mountains ([Nirvana](ref/rule/nirvana))
-
-**Organization:** unique
-
-**Treasure:** Standard (+5 quarterstaff); other treasure
+::: statblock
+Environment: any forests or mountains ([Nirvana](ref/rule/nirvana))
+Organization: unique
+Treasure: Standard (+5 quarterstaff); other treasure
+:::
 
 ### Special Abilities
 

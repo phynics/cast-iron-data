@@ -31,78 +31,61 @@ abilities = ["15", "15", "16", "10", "12", "8"]
 _Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant
 eyes._
 
-**Challenge rating:** 1/2
-
 **Hobgoblin [fighter](ref/class/fighter) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +3 armor, +2 Dex, +1 shield
+Hit points: 17 (1d10+7)
+Fort: +5
+Ref: +2
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft.
+Melee: longsword +4 (1d8+2/19-20)
+Ranged: longbow +3 (1d8/×3)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Goblinoid
+::: statblock
+Ability scores: Str 15, Dex 15, Con 16, Int 10, Wis 12, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Toughness, Weapon Focus (longsword)
+Skills: Perception +2, Stealth +5
+Racial Modifiers: +4 Stealth
+Languages: Common, Goblin
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 armor, +2 Dex, +1 shield
-
-**Hit points:** 17 (1d10+7)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** longsword +4 (1d8+2/19-20)
-
-**Ranged:** longbow +3 (1d8/×3)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 16, Int 10, Wis 12, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Toughness, Weapon Focus (longsword)
-
-**Skills:** Perception +2, Stealth +5
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Goblin
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** gang (4-9), warband (10-24), or tribe (25+ plus 50% noncombatants, 1 sergeant of
-3rd level per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 6-12
-[leopards](ref/monster/cat-leopard), and 1-4 [ogres](ref/monster/ogre) or 1-2
-[trolls](ref/monster/troll))
-
-**Treasure:** NPC gear (studded leather armor, light steel shield, longsword, lb20); other treasure
+::: statblock
+Environment: temperate hills
+Organization: gang (4-9), warband (10-24), or tribe (25+ plus 50% noncombatants, 1 sergeant of 3rd level per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 6-12 [leopards](ref/monster/cat-leopard), and 1-4 [ogres](ref/monster/ogre) or 1-2 [trolls](ref/monster/troll))
+Treasure: NPC gear (studded leather armor, light steel shield, longsword, lb20); other treasure
+:::
 
 ### Description
 

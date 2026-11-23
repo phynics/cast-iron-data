@@ -30,81 +30,63 @@ abilities = ["26", "6", "15", "7", "12", "9"]
 _This enormous white fungus has sharp spines on its stalk, and its multiple caps are covered in
 blood-red globules that appear on the brink of rupturing._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsense: 30
+Size: huge
+Initiative: +2
+Alignment: Neutral evil
+Perception: +13
+Senses: Low-light vision
+Type: plant
+Experience points: 2,400
+:::
 
-**blindsense:** 30
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 6
+Flat-footed: 19
+AC modifiers: -2 Dex, +13 natural, -2 size
+Hit points: 58 (9d8+18)
+Fort: +8
+Ref: +3
+Will: +6
+Defensive abilities: acid rupture
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 10 ft.
+Melee: 2 slams +12 (1d8+8 plus paralysis)
+Paralysis: 1 round, DC 16
+Reach: 15
+Space: 15
+Spec Att: spine spray, spore cloud
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 6, Con 15, Int 7, Wis 12, Cha 9
+Base attack bonus: +6
+Combat maneuver bonus: +16
+Combat maneuver defense: 24
+Feats: Improved Initiative, Iron Will, Lightning Reflexes, Lunge, Power Attack
+Skills: Perception +13
+Languages: Sylvan (can't speak)
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 6
-
-**Flat-footed:** 19
-
-**AC modifiers:** -2 Dex, +13 natural, -2 size
-
-**Hit points:** 58 (9d8+18)
-
-**Fort:** +8
-
-**Ref:** +3
-
-**Will:** +6
-
-**Defensive abilities:** acid rupture
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 2 slams +12 (1d8+8 plus paralysis)
-
-**Paralysis:** 1 round, DC 16
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** spine spray, spore cloud
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 6, Con 15, Int 7, Wis 12, Cha 9
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 24
-
-**Feats:** Improved Initiative, Iron Will, Lightning Reflexes, Lunge, Power Attack
-
-**Skills:** Perception +13
-
-**Languages:** Sylvan (can't speak)
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any forest
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

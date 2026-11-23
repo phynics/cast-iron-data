@@ -36,90 +36,69 @@ abilities = ["10", "15", "16", "7", "14", "15"]
 _Mismatched eyes dot this plant creature's thick mushroom cap, while below works an overlarge maw
 set with pale fungal teeth._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Leshy, Shapechanger
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +2
+Will: +2
+Immune: electricity, sonic, [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +2
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft.
+Melee: bite +2 (1d6), 2 claws +2 (1d3)
+Ranged: puffball +4 (1 plus spores)
+Spec Att: spores
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+Constant: pass without trace
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Leshy, Shapechanger
+::: statblock
+Ability scores: Str 10, Dex 15, Con 16, Int 7, Wis 14, Cha 15
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 12
+Feats: Blind-Fight
+Skills: Stealth +10 (+14 in swamps and underground), Survival +3 (+7 in swamps and underground)
+Racial Modifiers: +4 Stealth and Survival in swamps and underground
+Languages: Druidic, Sylvan; _plantspeech_ (fungi)
+Special qualities: [change shape](ref/umr/change-shape) (Small fungus; [tree shape](ref/spell/tree-shape)), verdant burst
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** electricity, sonic, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +2 (1d6), 2 claws +2 (1d3)
-
-**Ranged:** puffball +4 (1 plus spores)
-
-**Spec Att:** spores
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**Constant:**
-
-- pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 16, Int 7, Wis 14, Cha 15
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12
-
-**Feats:** Blind-Fight
-
-**Skills:** Stealth +10 (+14 in swamps and underground), Survival +3 (+7 in swamps and underground)
-
-**Racial Modifiers:** +4 Stealth and Survival in swamps and underground
-
-**Languages:** Druidic, Sylvan; _plantspeech_ (fungi)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small fungus;
-[tree shape](ref/spell/tree-shape)), verdant burst
-
-**Ecology**
-
-**Environment:** any swamp or underground
-
-**Organization:** solitary or cluster (2-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any swamp or underground
+Organization: solitary or cluster (2-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

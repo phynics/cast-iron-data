@@ -29,110 +29,78 @@ abilities = ["15", "25", "21", "16", "14", "18"]
 
 _Eight tentacles ending in claws grow from the base of this glistening and gruesome floating brain._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +11
+Perception: +23
+Senses: Analyze aura, Darkvision 60 ft.
+Size: small
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 25
+Touch: 19
+Flat-footed: 17
+AC modifiers: +7 Dex, +1 dodge, +6 natural, +1 size
+Hit points: 123 (13d8+65)
+Fort: +9
+Ref: +11
+Will: +12
+Dr: 10/adamantine and magic
+Immune: fire, mind-affecting effects
+Resist: cold 20, electricity 20, sonic 20
+Sr: 25
+Weaknesses: vulnerable to _[protection from evil](ref/spell/protection-from-evil)_
+:::
 
-**Initiative:** +11
+### Offense
 
-**Perception:** +23
+::: statblock
+Speed: 10 ft., fly 50 ft. (perfect)
+Melee: 8 claws +18 (1d4+2 plus attach \[once per round if two or more claws hit the same creature\])
+Spec Att: body thief
+:::
 
-**Senses:** Analyze aura, Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Constant: analyze aura
+At will: invisibility, !_reduce size_, as [reduce person](ref/spell/reduce-person) but self only and affects aberrations
+:::
 
-**Size:** small
+::: statblock
+title = "Psychic Magic"
+Caster level: 10
+Concentration: +14
+Power points: 24
+Psychoactive powers: anticipate thoughts, 2 PE, DC 16, ego whip IV, 6 PE, DC 20, globe of invulnerability, 4 PE, id insinuation III, 4 PE, DC 17
+:::
 
-**Experience points:** 9,600
+### Statistics
 
-**Armor class:** 25
+::: statblock
+Ability scores: Str 15, Dex 25, Con 21, Int 16, Wis 14, Cha 18
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 28
+Feats: Agile Maneuvers, Dodge, Improved Initiative, Iron Will, Mobility, Weapon Finesse, Weapon Focus (claw)
+Skills: Bluff +25, Diplomacy +24, Disguise +25, Sense Motive +15, Stealth +35
+Racial Modifiers: +8 Bluff, +8 Perception, +8 Stealth
+Languages: Aklo (can't speak), Common (can't speak), Undercommon (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Touch:** 19
+### Ecology
 
-**Flat-footed:** 17
-
-**AC modifiers:** +7 Dex, +1 dodge, +6 natural, +1 size
-
-**Hit points:** 123 (13d8+65)
-
-**Fort:** +9
-
-**Ref:** +11
-
-**Will:** +12
-
-**Dr:** 10/adamantine and magic
-
-**Immune:** fire, mind-affecting effects
-
-**Resist:** cold 20, electricity 20, sonic 20
-
-**Sr:** 25
-
-**Weaknesses:** vulnerable to _[protection from evil](ref/spell/protection-from-evil)_
-
-**Offense**
-
-**Speed:** 10 ft., fly 50 ft. (perfect)
-
-**Melee:** 8 claws +18 (1d4+2 plus attach \[once per round if two or more claws hit the same
-creature\])
-
-**Spec Att:** body thief
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Constant:**
-
-- analyze aura
-
-**At will:**
-
-- invisibility, !_reduce size_, as [reduce person](ref/spell/reduce-person) but self only and
-  affects aberrations
-
-**Psychic Magic**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Power points:** 24
-
-**Psychoactive powers:**
-
-- anticipate thoughts, 2 PE, DC 16, ego whip IV, 6 PE, DC 20, globe of invulnerability, 4 PE, id
-  insinuation III, 4 PE, DC 17
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 25, Con 21, Int 16, Wis 14, Cha 18
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 28
-
-**Feats:** Agile Maneuvers, Dodge, Improved Initiative, Iron Will, Mobility, Weapon Finesse, Weapon
-Focus (claw)
-
-**Skills:** Bluff +25, Diplomacy +24, Disguise +25, Sense Motive +15, Stealth +35
-
-**Racial Modifiers:** +8 Bluff, +8 Perception, +8 Stealth
-
-**Languages:** Aklo (can't speak), Common (can't speak), Undercommon (can't speak);
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, brood (4-8), or tribe (10-30)
-
-**Treasure:** Double
+::: statblock
+Environment: any underground
+Organization: solitary, brood (4-8), or tribe (10-30)
+Treasure: Double
+:::
 
 ### Special Abilities
 

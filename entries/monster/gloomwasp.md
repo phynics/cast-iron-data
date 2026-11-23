@@ -31,95 +31,71 @@ abilities = ["12", "21", "16", "5", "14", "17"]
 
 _The stinger and antennae of this dog-sized wasp pulsate with a dim, violet light._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +5
+Type: Magical beast
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, See invisibility
+Size: small
+Experience points: 2,400
+:::
 
-**Initiative:** +5
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 17
+AC modifiers: +5 Dex, +1 dodge, +6 natural, +1 size
+Hit points: 59 (7d10+21)
+Fort: +8
+Ref: +10
+Will: +4
+Defensive abilities: shadow blending
+Immune: poison
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Melee: sting +9 (1d6+1 plus blacklight)
+Ranged: 2 light rays +13 (1d6/×4 plus blacklight)
+Spec Att: blacklight, light ray
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +10
+Constant: see invisibility
+Per day: 1/day: dancing lights, dust of twilight (DC 15), light
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 12, Dex 21, Con 16, Int 5, Wis 14, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +7
+Combat maneuver defense: 23
+Feats: Dodge, Flyby Attack, Point-Blank Shot, Rapid Shot
+Skills: Fly +16, Perception +12, Stealth +14
+Racial Modifiers: +4 Perception
+Languages: Undercommon (can't speak)
+Special qualities: corrupt light
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 Dex, +1 dodge, +6 natural, +1 size
-
-**Hit points:** 59 (7d10+21)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +4
-
-**Defensive abilities:** shadow blending
-
-**Immune:** poison
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Melee:** sting +9 (1d6+1 plus blacklight)
-
-**Ranged:** 2 light rays +13 (1d6/×4 plus blacklight)
-
-**Spec Att:** blacklight, light ray
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**Constant:**
-
-- see invisibility
-
-**Per day:**
-
-- 1/day: dancing lights, dust of twilight (DC 15), light
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 21, Con 16, Int 5, Wis 14, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 23
-
-**Feats:** Dodge, Flyby Attack, Point-Blank Shot, Rapid Shot
-
-**Skills:** Fly +16, Perception +12, Stealth +14
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Undercommon (can't speak)
-
-**Special qualities:** corrupt light
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, cluster (2-6), or nest (7-24)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, cluster (2-6), or nest (7-24)
+Treasure: None
+:::
 
 ### Special Abilities
 

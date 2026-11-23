@@ -29,84 +29,63 @@ abilities = ["24", "19", "-", "11", "16", "21"]
 _This skeletal horror staggers under the weight of the massive hook and chain impaling the bones of
 its midsection._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: whispers (30 ft., DC 27)
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +3
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 76,800
+:::
 
-**aura:** whispers (30 ft., DC 27)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 31
+Touch: 15
+Flat-footed: 26
+AC modifiers: +4 Dex, +1 dodge, +16 natural
+Hit points: 228 (24d8+120)
+Fort: +13
+Ref: +12
+Will: +17
+Chan Res: +6
+Dr: 10/bludgeoning
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: spiked chain +26/+21/+16/+11 (2d4+10/19-20 plus chains of the dead) or 2 claws +25 (2d8+7)
+Reach: 5
+Reach P: 10 ft. with spiked chain
+Space: 5
+:::
 
-**Perception:** +3
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 24, Dex 19, Con -, Int 11, Wis 16, Cha 21
+Base attack bonus: +18
+Combat maneuver bonus: +25
+Combat maneuver defense: 40
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Dodge, Improved Critical (spiked chain), Improved Initiative, Improved Vital Strike, Lunge, Power Attack, Step Up, Vital Strike, Weapon Focus (spiked chain)
+Skills: Climb +34
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 15
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +1 dodge, +16 natural
-
-**Hit points:** 228 (24d8+120)
-
-**Fort:** +13
-
-**Ref:** +12
-
-**Will:** +17
-
-**Chan Res:** +6
-
-**Dr:** 10/bludgeoning
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spiked chain +26/+21/+16/+11 (2d4+10/19-20 plus chains of the dead) or 2 claws +25
-(2d8+7)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with spiked chain
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 19, Con -, Int 11, Wis 16, Cha 21
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 40
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Dodge, Improved Critical (spiked
-chain), Improved Initiative, Improved Vital Strike, Lunge, Power Attack, Step Up, Vital Strike,
-Weapon Focus (spiked chain)
-
-**Skills:** Climb +34
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or plague (3-18)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or plague (3-18)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

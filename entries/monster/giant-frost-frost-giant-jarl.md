@@ -30,81 +30,57 @@ special_qualities = "favored terrain (cold +4, forest +2), hunter's bond (compan
 abilities = ["32", "19", "27", "12", "12", "10"]
 +++
 
-**Challenge rating:** 18
-
 **[Frost giant](ref/monster/giant-frost-frost-giant) [ranger](ref/class/ranger) 9**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 18
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Size: large
+Perception: +24
+Senses: Low-light vision
+Subtype: Cold, Giant
+Experience points: 153,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 35
+Touch: 15
+Flat-footed: 31
+AC modifiers: +9 armor, +2 deflection, +4 Dex, +11 natural, -1 size
+Hit points: 328 (14d8+9d10+216\~23)
+Fort: +26
+Ref: +17
+Will: +13
+Evasion: present
+Immune: cold
+Rock Ct: present
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +24
+::: statblock
+Speed: 40 ft.
+Fav En: giants +2, humans +4
+Melee: +1 warhammer +27/+22/+17/+12 (2d6+12/×3), +1 warhammer +27/+22/+17 (2d6+12/×3)
+Ranged: rock +22 (1d8+16) or +1 warhammer +24/+19 (2d6+1/×3)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: combat style (two-weapon)
+:::
 
-**Senses:** Low-light vision
-
-**Subtype:** Cold, Giant
-
-**Experience points:** 153,600
-
-**Armor class:** 35
-
-**Touch:** 15
-
-**Flat-footed:** 31
-
-**AC modifiers:** +9 armor, +2 deflection, +4 Dex, +11 natural, -1 size
-
-**Hit points:** 328 (14d8+9d10+216\~23)
-
-**Fort:** +26
-
-**Ref:** +17
-
-**Will:** +13
-
-**Evasion:** present
-
-**Immune:** cold
-
-**Rock Ct:** present
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Fav En:** giants +2, humans +4
-
-**Melee:** +1 warhammer +27/+22/+17/+12 (2d6+12/×3), +1 warhammer +27/+22/+17 (2d6+12/×3)
-
-**Ranged:** rock +22 (1d8+16) or +1 warhammer +24/+19 (2d6+1/×3)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** combat style (two-weapon)
-
-**Prepared Spells**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**2nd-level spells:**
-
-- communal returning weapon
-
-**1st-level spells:**
-
-- call animal, charm animal (DC 12), lead blades
+::: statblock
+title = "Prepared Spells"
+Caster level: 6
+Concentration: +7
+2nd-level spells: communal returning weapon
+1st-level spells: call animal, charm animal (DC 12), lead blades
+:::
 
 ### Tactics
 
@@ -112,39 +88,27 @@ abilities = ["32", "19", "27", "12", "12", "10"]
 
 **During Combat** The jarl makes full attacks with his warhammers against targets at any range.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 32, Dex 19, Con 27, Int 12, Wis 12, Cha 10
+::: statblock
+Ability scores: Str 32, Dex 19, Con 27, Int 12, Wis 12, Cha 10
+Base attack bonus: +19
+Combat maneuver bonus: +31
+Combat maneuver defense: 47
+Feats: Double Slice, Dreadful Carnage, Endurance, Furious Focus, Greater Two-Weapon Fighting, Improved Iron Will, Improved Two-Weapon Fighting, Iron Will, Point-Blank Shot, Power Attack, Precise Shot, Toughness, Two-Weapon Fighting, Two-Weapon Rend, Weapon Focus (warhammer)
+Skills: Acrobatics +8 (+12 when jumping), Climb +23, Intimidate +23, Perception +24
+Racial Modifiers: +4 Acrobatics when jumping, +4 Stealth in snow
+Languages: Common, Giant
+Special qualities: [favored terrain](ref/ability/favored-terrain) (cold +4, forest +2), hunter's bond (companions), swift tracker, track +4, [wild empathy](ref/ability/wild-empathy) +9, [woodland stride](ref/ability/woodland-stride)
+Combat gear: 3 potion of cure serious wounds, potion of protection from energy (fire), 2 alchemist's fire
+Other gear: +4 chain shirt, 2 +1 warhammer, Iamu2, Ibopm4dc, I-boots of the winterlands, Iclk3, ring of prot2, I-stone of alarm, 1,886 gp
+:::
 
-**Base attack bonus:** +19
+### Ecology
 
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 47
-
-**Feats:** Double Slice, Dreadful Carnage, Endurance, Furious Focus, Greater Two-Weapon Fighting,
-Improved Iron Will, Improved Two-Weapon Fighting, Iron Will, Point-Blank Shot, Power Attack, Precise
-Shot, Toughness, Two-Weapon Fighting, Two-Weapon Rend, Weapon Focus (warhammer)
-
-**Skills:** Acrobatics +8 (+12 when jumping), Climb +23, Intimidate +23, Perception +24
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Stealth in snow
-
-**Languages:** Common, Giant
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (cold +4, forest +2), hunter's
-bond (companions), swift tracker, track +4, [wild empathy](ref/ability/wild-empathy) +9,
-[woodland stride](ref/ability/woodland-stride)
-
-**Combat gear:** 3 potion of cure serious wounds, potion of protection from energy (fire), 2
-alchemist's fire
-
-**Other gear:** +4 chain shirt, 2 +1 warhammer, Iamu2, Ibopm4dc, I-boots of the winterlands, Iclk3,
-ring of prot2, I-stone of alarm, 1,886 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

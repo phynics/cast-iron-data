@@ -32,71 +32,58 @@ abilities = ["13", "15", "-", "13", "14", "14"]
 _This humanoid creature has long, sharp teeth, and its pallid flesh is stretched tightly over its
 starved frame._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 13 (2d8+4)
+Fort: +2
+Ref: +2
+Will: +5
+Chan Res: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft.
+Melee: bite +3 (1d6+1 plus disease and paralysis) and 2 claws +3 (1d6+1 plus paralysis)
+Paralysis: 1d4+1 rounds, DC 13, elves are immune to this effect
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 13, Dex 15, Con -, Int 13, Wis 14, Cha 14
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Weapon Finesse
+Skills: Acrobatics +4, Climb +6
+Languages: Common
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +5
-
-**Chan Res:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +3 (1d6+1 plus disease and paralysis) and 2 claws +3 (1d6+1 plus paralysis)
-
-**Paralysis:** 1d4+1 rounds, DC 13, elves are immune to this effect
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con -, Int 13, Wis 14, Cha 14
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +4, Climb +6
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, gang (2-4), or pack (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, gang (2-4), or pack (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

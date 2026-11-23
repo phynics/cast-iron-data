@@ -32,110 +32,78 @@ abilities = ["10", "21", "18", "14", "17", "21"]
 _Tears stream from this beautiful but sullen creature's eyes, forming a puddle beneath her delicate
 feet._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: insane beauty (30 ft.)
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +5
+Size: medium
+Perception: +15
+Senses: Darkvision 90 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**aura:** insane beauty (30 ft.)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 15
+AC modifiers: +5 deflection, +5 Dex
+Hit points: 52 (7d6+28)
+Fort: +6
+Ref: +10
+Will: +8
+Dr: 5/cold iron
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +9 (1d4/19-20)
+Ranged: mwk sling +9 (1d4)
+Spec Att: weep
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +12
+At will: meld into stone, stone tell
+:::
 
-**Perception:** +15
+::: statblock
+title = "Prepared Spells"
+Caster level: 5
+Concentration: +8
+3rd-level spells: stone shape
+2nd-level spells: spider climb, stone call
+1st-level spells: cure light wounds, faerie fire, magic stone
+Cantrips: detect magic, detect poison, light, mending
+:::
 
-**Senses:** Darkvision 90 ft., Low-light vision
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 10, Dex 21, Con 18, Int 14, Wis 17, Cha 21
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 23
+Feats: Alertness, Combat Casting, Point-Blank Shot, Weapon Finesse
+Skills: Diplomacy +13, Perform (sing) +9, Sense Motive +15, Spellcraft +9, Stealth +15, Use Magic Device +15
+Languages: Aklo, Common, Undercommon
+Special qualities: guarded
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 20
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 deflection, +5 Dex
-
-**Hit points:** 52 (7d6+28)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dagger +9 (1d4/19-20)
-
-**Ranged:** mwk sling +9 (1d4)
-
-**Spec Att:** weep
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**At will:**
-
-- meld into stone, stone tell
-
-**Prepared Spells**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**3rd-level spells:**
-
-- stone shape
-
-**2nd-level spells:**
-
-- spider climb, stone call
-
-**1st-level spells:**
-
-- cure light wounds, faerie fire, magic stone
-
-**Cantrips:**
-
-- detect magic, detect poison, light, mending
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 21, Con 18, Int 14, Wis 17, Cha 21
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 23
-
-**Feats:** Alertness, Combat Casting, Point-Blank Shot, Weapon Finesse
-
-**Skills:** Diplomacy +13, Perform (sing) +9, Sense Motive +15, Spellcraft +9, Stealth +15, Use
-Magic Device +15
-
-**Languages:** Aklo, Common, Undercommon
-
-**Special qualities:** guarded
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Standard (mwk dagger, mwk sling); other treasure
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Standard (mwk dagger, mwk sling); other treasure
+:::
 
 ### Special Abilities
 

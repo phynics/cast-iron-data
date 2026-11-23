@@ -31,86 +31,64 @@ abilities = ["32", "9", "-", "15", "14", "13"]
 _Made of polished iron, this mighty golem resembles a keen-eyed dwarf. It carries a warhammer and a
 shield bearing Torag's symbol._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: construct
+Size: huge
+Initiative: +3
+Alignment: Lawful good
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar, Herald
+Experience points: 51,200
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 32
+Touch: 7
+Flat-footed: 32
+AC modifiers: -1 Dex, +20 natural, +5 shield, -2 size
+Hit points: 157 (18d10+58)
+Fort: +6
+Ref: +5
+Will: +8
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: 30 ft.
+Melee: warhammer +27/+22/+17/+12 (3d6+11/×3)
+Reach: 15
+Space: 15
+Spec Att: breath weapon, hammer storm
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 9, Con -, Int 15, Wis 14, Cha 13
+Base attack bonus: +18
+Combat maneuver bonus: +31 (+33 bull rush)
+Combat maneuver defense: 40 (46 vs. bull rush, 44 vs. trip)
+Feats: Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Initiative, Power Attack, Stand Still, Throw Anything, Toughness
+Skills: Knowledge (dungeoneering, engineering, history, local, nature, religion) +11, Perception +20
+Languages: Celestial, Dwarven, Ignan, Terran
+Special qualities: ablative adaptation, defender's shield, dwarf traits (defensive training, hardy, hatred, stability, stonecunning, weapon familiarity)
+Gear: +3 heavy steel shield
+:::
 
-**Subtype:** Extraplanar, Herald
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 32
-
-**Touch:** 7
-
-**Flat-footed:** 32
-
-**AC modifiers:** -1 Dex, +20 natural, +5 shield, -2 size
-
-**Hit points:** 157 (18d10+58)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +8
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** warhammer +27/+22/+17/+12 (3d6+11/×3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** breath weapon, hammer storm
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 9, Con -, Int 15, Wis 14, Cha 13
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +31 (+33 bull rush)
-
-**Combat maneuver defense:** 40 (46 vs. bull rush, 44 vs. trip)
-
-**Feats:** Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Initiative, Power
-Attack, Stand Still, Throw Anything, Toughness
-
-**Skills:** Knowledge (dungeoneering, engineering, history, local, nature, religion) +11, Perception
-+20
-
-**Languages:** Celestial, Dwarven, Ignan, Terran
-
-**Special qualities:** ablative adaptation, defender's shield, dwarf traits (defensive training,
-hardy, hatred, stability, stonecunning, weapon familiarity)
-
-**Gear:** +3 heavy steel shield
-
-**Ecology**
-
-**Environment:** any land ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([Heaven](ref/rule/heaven))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

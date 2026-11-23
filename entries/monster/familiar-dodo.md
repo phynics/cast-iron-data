@@ -34,65 +34,55 @@ abilities = ["7", "11", "14", "2", "9", "6"]
 _This plump, gray, flightless bird waddles about on ungainly legs, fearlessly bobbing its prodigious
 beak._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +0
+Alignment: Neutral
+Perception: +3
+Senses: Low-light vision
+Size: small
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 11
+AC modifiers: +1 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +2
+Will: -1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 20 ft.
+Melee: bite +0 (1d3-2)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 7, Dex 11, Con 14, Int 2, Wis 9, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 7
+Feats: Weapon Focus (bite)
+Skills: Perception +3
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** -1
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +0 (1d3-2)
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 11, Con 14, Int 2, Wis 9, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 7
-
-**Feats:** Weapon Focus (bite)
-
-**Skills:** Perception +3
-
-**Ecology**
-
-**Environment:** warm coastlines and plains
-
-**Organization:** solitary, pair, or huddle (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm coastlines and plains
+Organization: solitary, pair, or huddle (3-6)
+Treasure: None
+:::
 
 ### Description
 

@@ -30,108 +30,78 @@ abilities = ["8", "13", "12", "11", "17", "14"]
 
 _This tiny, crudely carved statue of a robed man has glowing runes running across its surface._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Alignment: Lawful neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Kami, Native
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 14
+AC modifiers: +1 Dex, +2 natural, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +2
+Will: +8
+Dr: 5/cold iron
+Fh: 2
+Immune: bleed, mind-affecting effects, petrification, polymorph
+Resist: acid 10, electricity 10, fire 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 30 ft.
+Melee: improvised weapon +4 (1d4+2/×3)
+Ranged: improvised weapon +6 (1d3+2/×3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+At will: invisibility, self only, statue, self only
+Per day: 3/day: hide from animals, purify food and drink
+Per week: commune with nature, CL 12th
+:::
 
-**Subtype:** Kami, Native
+### Statistics
 
-**Size:** tiny
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +2 natural, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Fh:** 2
-
-**Immune:** bleed, mind-affecting effects, petrification, polymorph
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** improvised weapon +4 (1d4+2/×3)
-
-**Ranged:** improvised weapon +6 (1d3+2/×3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**At will:**
-
-- invisibility, self only, statue, self only
-
-**Per day:**
-
-- 3/day: hide from animals, purify food and drink
-
-**Per week:**
-
-- commune with nature, CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 12, Int 11, Wis 17, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Alertness, Catch Off-Guard^B^, Iron Will, Throw Anything^B^
-
-**Skills:** Heal +9, Knowledge (nature) +6, Perception +11
-
-**Languages:** Common
-
-**Special qualities:** improvised weapon mastery, merge with ward, ward (minor works of
-civilization)
+::: statblock
+Ability scores: Str 8, Dex 13, Con 12, Int 11, Wis 17, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 11
+Feats: Alertness, Catch Off-Guard^B^, Iron Will, Throw Anything^B^
+Skills: Heal +9, Knowledge (nature) +6, Perception +11
+Languages: Common
+Special qualities: improvised weapon mastery, merge with ward, ward (minor works of civilization)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or gang (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

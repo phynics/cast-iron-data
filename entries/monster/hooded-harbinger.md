@@ -32,115 +32,81 @@ _This creature resembles a mummified humanoid swathed in filthy, sallow rags. It
 and ragged coverings make its height hard to judge. Its arms appear abnormally long, or perhaps
 dislocated and hanging freely. A hood of the same jaundiced fabric obscures its face._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: aberration
+aura: profane reek (DC 21), [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +21
+Senses: Darkvision 60 ft., See invisibility
+Experience points: 19,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** profane reek (DC 21), [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+::: statblock
+Armor class: 27
+Touch: 17
+Flat-footed: 23
+AC modifiers: +4 Dex, +10 natural, +3 profane
+Hit points: 161 (17d8+85)
+Fort: +12
+Ref: +11
+Will: +13
+Dr: 10/lawful and slashing
+Immune: death effects, mind-affecting effects, poison
+Resist: cold 10
+Sr: 23
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 30 ft.
+Ch N En: 3/day, DC 21, command undead only
+Melee: 2 slams +20 (2d6+8/19-20 plus [trip](ref/umr/trip)) or melee touch +20 (bloodless touch)
+Reach: 10
+Space: 5
+Spec Att: manifest Yellow Sign, prophetic utterance
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +18
+Constant: see invisibility, tongues
+At will: detect good, detect law
+Per day: 3/day: confusion (DC 17), mass hold person (DC 20), plane shift, silence (DC 15), teleport, self plus 50 lbs. of objects only\
+1/day: freedom of movement
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Darkvision 60 ft., See invisibility
-
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 17
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 Dex, +10 natural, +3 profane
-
-**Hit points:** 161 (17d8+85)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +13
-
-**Dr:** 10/lawful and slashing
-
-**Immune:** death effects, mind-affecting effects, poison
-
-**Resist:** cold 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** 3/day, DC 21, command undead only
-
-**Melee:** 2 slams +20 (2d6+8/19-20 plus [trip](ref/umr/trip)) or melee touch +20 (bloodless touch)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** manifest Yellow Sign, prophetic utterance
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +18
-
-**Constant:**
-
-- see invisibility, tongues
-
-**At will:**
-
-- detect good, detect law
-
-**Per day:**
-
-- 3/day: confusion (DC 17), mass hold person (DC 20), plane shift, silence (DC 15), teleport, self
-  plus 50 lbs. of objects only
-- 1/day: freedom of movement
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 18, Con 21, Int 16, Wis 13, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 34
-
-**Feats:** Bleeding Critical, Combat Casting, Combat Reflexes, Command Undead^B^, Critical Focus,
-Great Fortitude, Improved Critical (slam), Improved Initiative, Iron Will, Lightning Reflexes
-
-**Skills:** Acrobatics +24, Climb +28, Escape Artist +24, Intimidate +31, Knowledge (religion) +27,
-Perception +21, Stealth +24
-
-**Racial Modifiers:** +4 Knowledge (religion), +8 Intimidate
-
-**Languages:** Aklo, Common; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
-
-**Special qualities:** terrible visage
+::: statblock
+Ability scores: Str 26, Dex 18, Con 21, Int 16, Wis 13, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +20
+Combat maneuver defense: 34
+Feats: Bleeding Critical, Combat Casting, Combat Reflexes, Command Undead^B^, Critical Focus, Great Fortitude, Improved Critical (slam), Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Acrobatics +24, Climb +28, Escape Artist +24, Intimidate +31, Knowledge (religion) +27, Perception +21, Stealth +24
+Racial Modifiers: +4 Knowledge (religion), +8 Intimidate
+Languages: Aklo, Common; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+Special qualities: terrible visage
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,96 +32,70 @@ abilities = ["35", "13", "23", "12", "16", "12"]
 _This towering giant has finely chiseled features. Her skin is pale and smooth, and her long wispy
 hair flutters as if in a breeze._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: NG or NE
+Size: huge
+Type: humanoid
+Initiative: +1
+Perception: +17
+Senses: Low-light vision, Scent
+Subtype: Giant
+Experience points: 12,800
+:::
 
-**Alignment:** NG or NE
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 25
+Touch: 9
+Flat-footed: 24
+AC modifiers: +4 armor, +1 Dex, +12 natural, -2 size
+Hit points: 168 (16d8+96)
+Fort: +16
+Ref: +6
+Will: +10
+Rock Ct: present
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 50 ft.
+Melee: morningstar +22/+17/+12 (4d6+18) or 2 slams +22 (2d6+12)
+Ranged: rock +12 (2d6+18)
+Reach: 15
+Rock Th: 140 ft.
+Space: 15
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+At will: levitate, self plus 2,000 lbs., obscuring mist
+Per day: 1/day: fog cloud
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 35, Dex 13, Con 23, Int 12, Wis 16, Cha 12
+Base attack bonus: +12
+Combat maneuver bonus: +26
+Combat maneuver defense: 37
+Feats: Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Overrun, Intimidating Prowess, Iron Will, Power Attack
+Skills: Climb +19, Craft (any one) +10
+Languages: Common, Giant
+Special qualities: oversized weapon
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 9
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 armor, +1 Dex, +12 natural, -2 size
-
-**Hit points:** 168 (16d8+96)
-
-**Fort:** +16
-
-**Ref:** +6
-
-**Will:** +10
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** morningstar +22/+17/+12 (4d6+18) or 2 slams +22 (2d6+12)
-
-**Ranged:** rock +12 (2d6+18)
-
-**Reach:** 15
-
-**Rock Th:** 140 ft.
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**At will:**
-
-- levitate, self plus 2,000 lbs., obscuring mist
-
-**Per day:**
-
-- 1/day: fog cloud
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 13, Con 23, Int 12, Wis 16, Cha 12
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 37
-
-**Feats:** Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Overrun, Intimidating
-Prowess, Iron Will, Power Attack
-
-**Skills:** Climb +19, Craft (any one) +10
-
-**Languages:** Common, Giant
-
-**Special qualities:** oversized weapon
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, gang (2-5), family (2-5 plus 35% noncombatants plus 1 sorcerer or cleric
-of 4th-7th level and 2-5 [griffons](ref/monster/griffon)), or tribe (6-20 plus 1 sorcerer or cleric
-oracle of 7th-12th level and 2-5 griffons)
-
-**Treasure:** Standard (chain shirt, morningstar); other treasure
+::: statblock
+Environment: temperate mountains
+Organization: solitary, gang (2-5), family (2-5 plus 35% noncombatants plus 1 sorcerer or cleric of 4th-7th level and 2-5 [griffons](ref/monster/griffon)), or tribe (6-20 plus 1 sorcerer or cleric oracle of 7th-12th level and 2-5 griffons)
+Treasure: Standard (chain shirt, morningstar); other treasure
+:::
 
 ### Special Abilities
 

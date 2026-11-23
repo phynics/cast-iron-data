@@ -29,73 +29,59 @@ abilities = ["24", "10", "24", "2", "16", "9"]
 _This bull-like creature seems to be made of interlocking metallic plates. Faint plumes of green
 smoke puff from its mouth._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +4
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 20
+AC modifiers: +11 natural, -1 size
+Hit points: 100 (8d10+56)
+Fort: +13
+Ref: +6
+Will: +7
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Br Weap: 60-foot cone, turn to stone, Fortitude DC 21 negates
+Melee: gore +14 (2d8+7), 2 hooves +9 (1d6+3)
+Reach: 5
+Space: 10
+Trample: 2d8+10, DC 21
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 24, Dex 10, Con 24, Int 2, Wis 16, Cha 9
+Base attack bonus: +8
+Combat maneuver bonus: +16
+Combat maneuver defense: 26
+Feats: Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception)
+Skills: Perception +17
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +11 natural, -1 size
-
-**Hit points:** 100 (8d10+56)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 60-foot cone, turn to stone, Fortitude DC 21 negates
-
-**Melee:** gore +14 (2d8+7), 2 hooves +9 (1d6+3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 2d8+10, DC 21
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 10, Con 24, Int 2, Wis 16, Cha 9
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 26
-
-**Feats:** Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception)
-
-**Skills:** Perception +17
-
-**Ecology**
-
-**Environment:** temperate plains, rocky hills, and underground
-
-**Organization:** solitary, pair, pack (3-4), or herd (5-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains, rocky hills, and underground
+Organization: solitary, pair, pack (3-4), or herd (5-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

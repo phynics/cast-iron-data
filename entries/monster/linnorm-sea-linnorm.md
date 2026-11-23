@@ -33,94 +33,68 @@ _This unfathomably large serpent sports a distinctly draconic face. Its body is 
 with swatches of crimson. An entrancing set of lures dangles off its face, each glowing with a
 pulsating orange light accented by regular electrical discharges._
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+Size: colossal
+Type: dragon
+Initiative: +13
+Alignment: Neutral evil
+Perception: +37
+Senses: Darkvision 60 ft., Low-light vision, Scent, True seeing
+Subtype: Aquatic
+Experience points: 614,400
+:::
 
-**Size:** colossal
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 39
+Touch: 11
+Flat-footed: 30
+AC modifiers: +9 Dex, +28 natural, -8 size
+Hit points: 455 (26d12+286)
+Fort: +26
+Ref: +24
+Will: +23
+Defensive abilities: [freedom of movement](ref/spell/freedom-of-movement)
+Dr: 20/cold iron
+Immune: curse effects, electricity, mind-affecting effects, paralysis, poison, sleep
+Regen: 15 (cold iron)
+Sr: 33
+:::
 
-**Initiative:** +13
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., swim 100 ft., fly 100 ft. (average)
+Br Weap: DC 34
+Constrict: tail, 3d6+24
+Melee: bite +35 (3d8+17/19-20 plus poison), 2 claws +35 (2d8+17), tail slap +30 (3d6+8 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 30
+Spec Att: death curse, lure
+:::
 
-**Perception:** +37
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
+::: statblock
+Ability scores: Str 44, Dex 28, Con 32, Int 7, Wis 27, Cha 29
+Base attack bonus: +26
+Combat maneuver bonus: +51
+Combat maneuver defense: 70 (can't be tripped)
+Feats: Cleave, Combat Reflexes, Following Step, Great Cleave, Greater Vital Strike, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Power Attack, Snatch, Step Up, Step Up and Strike, Vital Strike
+Skills: Acrobatics +9 (+13 when jumping), Fly +30
+Languages: Aklo, Draconic, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 614,400
-
-**Armor class:** 39
-
-**Touch:** 11
-
-**Flat-footed:** 30
-
-**AC modifiers:** +9 Dex, +28 natural, -8 size
-
-**Hit points:** 455 (26d12+286)
-
-**Fort:** +26
-
-**Ref:** +24
-
-**Will:** +23
-
-**Defensive abilities:** [freedom of movement](ref/spell/freedom-of-movement)
-
-**Dr:** 20/cold iron
-
-**Immune:** curse effects, electricity, mind-affecting effects, paralysis, poison, sleep
-
-**Regen:** 15 (cold iron)
-
-**Sr:** 33
-
-**Offense**
-
-**Speed:** 40 ft., swim 100 ft., fly 100 ft. (average)
-
-**Br Weap:** DC 34
-
-**Constrict:** tail, 3d6+24
-
-**Melee:** bite +35 (3d8+17/19-20 plus poison), 2 claws +35 (2d8+17), tail slap +30 (3d6+8 plus
-[grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** death curse, lure
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 28, Con 32, Int 7, Wis 27, Cha 29
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +51
-
-**Combat maneuver defense:** 70 (can't be tripped)
-
-**Feats:** Cleave, Combat Reflexes, Following Step, Great Cleave, Greater Vital Strike, Improved
-Critical (bite), Improved Initiative, Improved Vital Strike, Power Attack, Snatch, Step Up, Step Up
-and Strike, Vital Strike
-
-**Skills:** Acrobatics +9 (+13 when jumping), Fly +30
-
-**Languages:** Aklo, Draconic, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** cold oceans
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: cold oceans
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

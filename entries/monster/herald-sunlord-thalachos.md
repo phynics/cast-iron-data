@@ -35,113 +35,78 @@ abilities = ["24", "19", "24", "19", "23", "22"]
 _This platinum-skinned, four-armed angelic being glows with the power of the sun. He bears two
 flaming scimitars and a bow._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: protective aura (20 ft.)
+Initiative: +8
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Angel, Extraplanar, Good, Herald, Shapechanger
+Experience points: 51,200
+:::
 
-**aura:** protective aura (20 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 29
+Touch: 13
+Flat-footed: 25
+AC modifiers: +4 Dex, +16 natural, -1 size; +4 deflection vs. evil
+Hit points: 187 (15d10+105)
+Fort: +18
+Ref: +13
+Will: +13; +4 vs. poison, +4 resistance vs. evil
+Dr: 10/evil
+Immune: acid, cold, fire, petrification
+Regen: 10 (evil effects or weapons)
+Resist: electricity 10
+Sr: 26
+Uncanny dodge: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 50 ft., fly 100 ft. (good)
+Melee: +1 flaming holy scimitars +19/+19/+14/+14/+9/+9 (1d8+8/18-20 plus 1d6 fire plus stun)
+Ranged: +1 flaming holy composite longbow +19/+14/+9 (2d6+8/×3 plus 1d6 fire)
+Reach: 10
+Space: 10
+Spec Att: stun
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+At will: aid, continual flame, detect evil, discern lies (DC 20), dispel evil (DC 21), dispel magic, holy aura (DC 24), holy smite (DC 20), holy word (DC 23), invisibility, self only, plane shift (DC 21), remove curse, remove disease, remove fear
+Per day: 7/day: cure light wounds, daylight, see invisibility\
+1/day: blade barrier (DC 22), fire shield, flame strike (DC 21), heal, sunburst (DC 24)
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 19, Con 24, Int 19, Wis 23, Cha 22
+Base attack bonus: +15
+Combat maneuver bonus: +23
+Combat maneuver defense: 37
+Feats: Double Slice, Great Fortitude, Greater Two-Weapon Fighting, Improved Initiative, Improved Two-Weapon Fighting, Iron Will, Two-Weapon Fighting, Weapon Focus (scimitar)
+Skills: Acrobatics +19, Diplomacy +24, Sense Motive +24, Stealth +18
+Languages: Celestial, Common; _truespeech_
+Special qualities: divine trigger, [change shape](ref/umr/change-shape) (Small or Medium humanoid or elemental; [alter self](ref/spell/alter-self) or [elemental body II](ref/spell/elemental-body-2))
+:::
 
-**Subtype:** Angel, Extraplanar, Good, Herald, Shapechanger
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 29
-
-**Touch:** 13
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +16 natural, -1 size; +4 deflection vs. evil
-
-**Hit points:** 187 (15d10+105)
-
-**Fort:** +18
-
-**Ref:** +13
-
-**Will:** +13; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 10/evil
-
-**Immune:** acid, cold, fire, petrification
-
-**Regen:** 10 (evil effects or weapons)
-
-**Resist:** electricity 10
-
-**Sr:** 26
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 50 ft., fly 100 ft. (good)
-
-**Melee:** +1 flaming holy scimitars +19/+19/+14/+14/+9/+9 (1d8+8/18-20 plus 1d6 fire plus stun)
-
-**Ranged:** +1 flaming holy composite longbow +19/+14/+9 (2d6+8/×3 plus 1d6 fire)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** stun
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**At will:**
-
-- aid, continual flame, detect evil, discern lies (DC 20), dispel evil (DC 21), dispel magic, holy
-  aura (DC 24), holy smite (DC 20), holy word (DC 23), invisibility, self only, plane shift (DC 21),
-  remove curse, remove disease, remove fear
-
-**Per day:**
-
-- 7/day: cure light wounds, daylight, see invisibility
-- 1/day: blade barrier (DC 22), fire shield, flame strike (DC 21), heal, sunburst (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 19, Con 24, Int 19, Wis 23, Cha 22
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 37
-
-**Feats:** Double Slice, Great Fortitude, Greater Two-Weapon Fighting, Improved Initiative, Improved
-Two-Weapon Fighting, Iron Will, Two-Weapon Fighting, Weapon Focus (scimitar)
-
-**Skills:** Acrobatics +19, Diplomacy +24, Sense Motive +24, Stealth +18
-
-**Languages:** Celestial, Common; _truespeech_
-
-**Special qualities:** divine trigger, [change shape](ref/umr/change-shape) (Small or Medium
-humanoid or elemental; [alter self](ref/spell/alter-self) or
-[elemental body II](ref/spell/elemental-body-2))
-
-**Ecology**
-
-**Environment:** any (extraplanar)
-
-**Organization:** solitary
-
-**Treasure:** Triple (2 +1 flaming holy scimitars, +1 flaming holy cl40)
+::: statblock
+Environment: any (extraplanar)
+Organization: solitary
+Treasure: Triple (2 +1 flaming holy scimitars, +1 flaming holy cl40)
+:::
 
 ### Special Abilities
 

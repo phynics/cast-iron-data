@@ -32,67 +32,56 @@ abilities = ["12", "17", "16", "-", "7", "2"]
 _Bristling with coarse hairs, this enormous fly's legs twitch just before it launches into the air
 on buzzing wings._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +3
+Will: -2
+Immune: disease, mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 60 ft. (good)
+Melee: bite +2 (1d6+1 plus disease)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 12, Dex 17, Con 16, Int -, Wis 7, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 15 (21 vs. trip)
+Skills: Climb +9, Perception +2
+Racial Modifiers: +4 Perception
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** -2
-
-**Immune:** disease, mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 60 ft. (good)
-
-**Melee:** bite +2 (1d6+1 plus disease)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 16, Int -, Wis 7, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15 (21 vs. trip)
-
-**Skills:** Climb +9, Perception +2
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** any temperate or tropical
-
-**Organization:** solitary, pair, or swarm (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate or tropical
+Organization: solitary, pair, or swarm (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

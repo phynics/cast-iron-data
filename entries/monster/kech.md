@@ -30,85 +30,66 @@ abilities = ["13", "15", "12", "10", "12", "11"]
 _This hairless simian's leathery skin has a camouflage pattern to it that shifts and changes as the
 creature moves._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +2
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 dodge, +3 natural
+Hit points: 26 (4d10+4)
+Fort: +2
+Ref: +6
+Will: +5
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +5 (1d6+1), 2 claws +5 (1d4+1)
+Ranged: longbow +6 (1d8/×3)
+Rend: 2 claws 1d4 +1
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +4
+Constant: pass without trace
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 13, Dex 15, Con 12, Int 10, Wis 12, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Dodge, Mobility
+Skills: Acrobatics +6 (+10 when jumping), Climb +16, Perception +10, Stealth +13 (+19 in forests and jungles)
+Racial Modifiers: +2 Perception, +4 Stealth (+10 in forests and jungles)
+Languages: Kech
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 dodge, +3 natural
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +5 (1d6+1), 2 claws +5 (1d4+1)
-
-**Ranged:** longbow +6 (1d8/×3)
-
-**Rend:** 2 claws 1d4 +1
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +4
-
-**Constant:**
-
-- pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 12, Int 10, Wis 12, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Dodge, Mobility
-
-**Skills:** Acrobatics +6 (+10 when jumping), Climb +16, Perception +10, Stealth +13 (+19 in forests
-and jungles)
-
-**Racial Modifiers:** +2 Perception, +4 Stealth (+10 in forests and jungles)
-
-**Languages:** Kech
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or tribe (3-36 plus 2-6
-[dire apes](ref/monster/ape-dire-ape-gigantopithecus))
-
-**Treasure:** Standard (lb20); other treasure
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or tribe (3-36 plus 2-6 [dire apes](ref/monster/ape-dire-ape-gigantopithecus))
+Treasure: Standard (lb20); other treasure
+:::
 
 ### Description
 

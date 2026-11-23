@@ -29,69 +29,57 @@ abilities = ["1", "4", "12", "-", "7", "9"]
 
 _This dark-yellow, hand-length slug is covered in a pattern of black spots and stripes._
 
-**Challenge rating:** -
+::: statblock
+Challenge rating: -
+Size: diminutive
+Initiative: -3
+Alignment: Neutral
+Perception: -2
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 0
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** -3
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 11
+AC modifiers: -3 Dex, +4 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: -3
+Will: -2
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** -2
+::: statblock
+Speed: 5 ft., climb 5 ft.
+Reach: 0
+Space: 1
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 1, Dex 4, Con 12, Int -, Wis 7, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: -7
+Combat maneuver defense: -2 (can't be tripped)
+Skills: Climb +3
+Special qualities: [compression](ref/umr/compression), slime strand, suction
+:::
 
-**Experience points:** 0
+### Ecology
 
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** -3 Dex, +4 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** -3
-
-**Will:** -2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 5 ft., climb 5 ft.
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 4, Con 12, Int -, Wis 7, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -7
-
-**Combat maneuver defense:** -2 (can't be tripped)
-
-**Skills:** Climb +3
-
-**Special qualities:** [compression](ref/umr/compression), slime strand, suction
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or cornucopia (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or cornucopia (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

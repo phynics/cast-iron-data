@@ -30,127 +30,83 @@ abilities = ["40", "34", "41", "31", "34", "37"]
 
 _Blue-gray wings extend over the jeweled bangles and gossamer veils of this androgynous angel._
 
-**Challenge rating:** 29
+::: statblock
+Challenge rating: 29
+aura: primal aura (30 ft.), protective aura (20 ft.)
+blindsense: 60
+Initiative: +16
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +49
+Senses: Darkvision 60 ft., Detect evil, Low-light vision, True seeing
+Subtype: Angel, Extraplanar, Good
+Experience points: 6,553,600
+:::
 
-**aura:** primal aura (30 ft.), protective aura (20 ft.)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 48
+Touch: 48
+Flat-footed: 35
+AC modifiers: +12 Dex, +1 dodge, +12 insight, +13 sacred
+Hit points: 697 (34d10+510)
+Fort: +26
+Ref: +31
+Will: +31; +4 vs. poison
+Defensive abilities: adoration, flawless form, freedom's call
+Dr: 20/epic and evil
+Immune: ability damage, ability drain, acid, charm effects, cold, compulsion effects, daze, death effects, energy drain, petrification
+Regen: 30 (deific or mythic)
+Resist: electricity 30, fire 30
+Sr: 40
+:::
 
-**Initiative:** +16
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 60 ft., fly 120 ft. (good)
+Melee: +5 disruption holy merciful flail +54/+49/+44/+39 (1d8+33/19-20), 2 wings +44 (2d6+20), slam +44 (1d4+20)
+Pounce: present
+Spec Att: endless dance
+:::
 
-**Alignment:** Neutral good
-
-**Type:** outsider
-
-**Perception:** +49
-
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, True seeing
-
-**Subtype:** Angel, Extraplanar, Good
-
-**Experience points:** 6,553,600
-
-**Armor class:** 48
-
-**Touch:** 48
-
-**Flat-footed:** 35
-
-**AC modifiers:** +12 Dex, +1 dodge, +12 insight, +13 sacred
-
-**Hit points:** 697 (34d10+510)
-
-**Fort:** +26
-
-**Ref:** +31
-
-**Will:** +31; +4 vs. poison
-
-**Defensive abilities:** adoration, flawless form, freedom's call
-
-**Dr:** 20/epic and evil
-
-**Immune:** ability damage, ability drain, acid, charm effects, cold, compulsion effects, daze,
-death effects, energy drain, petrification
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** electricity 30, fire 30
-
-**Sr:** 40
-
-**Offense**
-
-**Speed:** 60 ft., fly 120 ft. (good)
-
-**Melee:** +5 disruption holy merciful flail +54/+49/+44/+39 (1d8+33/19-20), 2 wings +44 (2d6+20),
-slam +44 (1d4+20)
-
-**Pounce:** present
-
-**Spec Att:** endless dance
-
-**Spell-Like Abilities**
-
-**Caster level:** 29
-
-**Concentration:** +42
-
-**Constant:**
-
-- detect evil, true seeing
-
-**At will:**
-
-- cure critical wounds^M^, detect anxieties (DC 25), detect desires (DC 25), detect thoughts (DC
-  25), good hope, greater dispel magic, greater teleport, holy word^M^ (DC 30), matchmaker (DC 25),
-  plane shift^M^ (DC 30), project image (DC 30), shapechange
-
-**Per day:**
-
-- 3/day: discern location, quickened greater invisibility, heroes' feast, irresistible dance^M^ (DC
-  31), limited wish, to duplicate 5th-level or lower bard spells only, mass heal, mind blank, moment
-  of prescience, sympathy (DC 31)
-- 1/day: time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 29
+Concentration: +42
+Constant: detect evil, true seeing
+At will: cure critical wounds^M^, detect anxieties (DC 25), detect desires (DC 25), detect thoughts (DC 25), good hope, greater dispel magic, greater teleport, holy word^M^ (DC 30), matchmaker (DC 25), plane shift^M^ (DC 30), project image (DC 30), shapechange
+Per day: 3/day: discern location, quickened greater invisibility, heroes' feast, irresistible dance^M^ (DC 31), limited wish, to duplicate 5th-level or lower bard spells only, mass heal, mind blank, moment of prescience, sympathy (DC 31)\
+1/day: time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Arshea can use the mythic version of this ability in certain conditions (see Nomadic).
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 40, Dex 34, Con 41, Int 31, Wis 34, Cha 37
+::: statblock
+Ability scores: Str 40, Dex 34, Con 41, Int 31, Wis 34, Cha 37
+Base attack bonus: +34
+Combat maneuver bonus: +49 (+53 disarm, +51 trip)
+Combat maneuver defense: 97 (99 vs. disarm and trip)
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Greater Disarm, Greater Spell Penetration, Improved Critical (flail), Improved Disarm, Improved Initiative, Improved Trip, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater invisibility), Skill Focus (Diplomacy, Perform \[dance\]), Spell Penetration, Staggering Critical
+Skills: Acrobatics +49, Bluff +50, Diplomacy +56, Disguise +47, Perform (dance) +56, Sense Motive +49, Spellcraft +44, Stealth +49, Use Magic Device +50
+Languages: Celestial; [telepathy](ref/umr/telepathy) 300 ft., _truespeech_
+Special qualities: fulfillment, nomadic, seed of life, unlimited abandon, [empyreal lord traits](ref/umr/empyreal-lord-traits)
+Faith: Arshea
+:::
 
-**Base attack bonus:** +34
+### Ecology
 
-**Combat maneuver bonus:** +49 (+53 disarm, +51 trip)
-
-**Combat maneuver defense:** 97 (99 vs. disarm and trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Greater Disarm, Greater Spell
-Penetration, Improved Critical (flail), Improved Disarm, Improved Initiative, Improved Trip,
-Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater
-invisibility), Skill Focus (Diplomacy, Perform \[dance\]), Spell Penetration, Staggering Critical
-
-**Skills:** Acrobatics +49, Bluff +50, Diplomacy +56, Disguise +47, Perform (dance) +56, Sense
-Motive +49, Spellcraft +44, Stealth +49, Use Magic Device +50
-
-**Languages:** Celestial; [telepathy](ref/umr/telepathy) 300 ft., _truespeech_
-
-**Special qualities:** fulfillment, nomadic, seed of life, unlimited abandon,
-[empyreal lord traits](ref/umr/empyreal-lord-traits)
-
-**Faith:** Arshea
-
-**Ecology**
-
-**Environment:** any ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (+5 DR holy M light flail); other treasure
+::: statblock
+Environment: any ([Nirvana](ref/rule/nirvana))
+Organization: solitary (unique)
+Treasure: Triple (+5 DR holy M light flail); other treasure
+:::
 
 ### Special Abilities
 

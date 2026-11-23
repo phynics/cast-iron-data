@@ -30,87 +30,65 @@ abilities = ["38", "22", "29", "5", "20", "23"]
 _A snake-like, dragon-headed monster of tremendous size rises up, drifts of snow and ice tumbling
 from its coiling flanks._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic evil
+Size: colossal
+Type: dragon
+Initiative: +10
+Perception: +26
+Senses: Darkvision 120 ft., Low-light vision, Scent, True seeing
+Experience points: 102,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 32
+Touch: 8
+Flat-footed: 26
+AC modifiers: +6 Dex, +24 natural, -8 size
+Hit points: 279 (18d12+162)
+Fort: +20
+Ref: +19
+Will: +16
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/cold iron
+Immune: cold, curse effects, mind-affecting effects, paralysis, poison, sleep
+Regen: 10 (cold iron)
+Sr: 28
+:::
 
-**Type:** dragon
+### Offense
 
-**Initiative:** +10
+::: statblock
+Speed: 40 ft., climb 40 ft., swim 40 ft., fly 100 ft. (average)
+Constrict: tail, 3d6+21
+Melee: bite +24 (3d8+14/19-20 plus poison), 2 claws +24 (2d6+14), tail +19 (3d6+7 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 30
+Spec Att: breath weapon, death curse
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision, Scent, True seeing
+::: statblock
+Ability scores: Str 38, Dex 22, Con 29, Int 5, Wis 20, Cha 23
+Base attack bonus: +18
+Combat maneuver bonus: +40 (+44 grapple)
+Combat maneuver defense: 56 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Climb +43, Fly +19
+Languages: Aklo, Draconic, Sylvan
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 8
-
-**Flat-footed:** 26
-
-**AC modifiers:** +6 Dex, +24 natural, -8 size
-
-**Hit points:** 279 (18d12+162)
-
-**Fort:** +20
-
-**Ref:** +19
-
-**Will:** +16
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/cold iron
-
-**Immune:** cold, curse effects, mind-affecting effects, paralysis, poison, sleep
-
-**Regen:** 10 (cold iron)
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft., swim 40 ft., fly 100 ft. (average)
-
-**Constrict:** tail, 3d6+21
-
-**Melee:** bite +24 (3d8+14/19-20 plus poison), 2 claws +24 (2d6+14), tail +19 (3d6+7 plus
-[grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** breath weapon, death curse
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 22, Con 29, Int 5, Wis 20, Cha 23
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +40 (+44 grapple)
-
-**Combat maneuver defense:** 56 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Bull Rush, Improved Critical (bite), Improved
-Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Climb +43, Fly +19
-
-**Languages:** Aklo, Draconic, Sylvan
-
-**Ecology**
-
-**Environment:** cold hills and mountains
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: cold hills and mountains
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

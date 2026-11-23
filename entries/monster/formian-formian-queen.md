@@ -31,104 +31,74 @@ abilities = ["6", "5", "20", "19", "18", "25"]
 _This large and majestic creature is nearly immobile, her massive abdomen swollen with her impending
 brood._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+blindsense: 30
+Initiative: +6 (+10 with hive mind)
+Size: large
+Alignment: Lawful neutral
+Type: Monstrous humanoid
+Perception: +35 (+39 with hive mind)
+Senses: Darkvision 60 ft., Hive mind
+tremorsense: 60
+Experience points: 102,400
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** +6 (+10 with hive mind)
+::: statblock
+Armor class: 32
+Touch: 6
+Flat-footed: 32
+AC modifiers: -3 Dex, +26 natural, -1 size
+Hit points: 276 (24d10+144)
+Fort: +15
+Ref: +13
+Will: +20
+Dr: 10/-
+Fh: 10
+Resist: sonic 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 5 ft.
+Melee: 2 claws +33 (4d8+10)
+Reach: 10
+Space: 10
+Spec Att: telepathic feedback
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +24
+At will: magic jar, other formians only, magic missile
+Per day: 1/day: invisibility, feeblemind (DC 21)\
+3/day: commune with nature, empowered cone of cold (DC 22), permanent image, quickened magic missile, repulsion (DC 23), teleport
+:::
 
-**Perception:** +35 (+39 with hive mind)
+### Statistics
 
-**Senses:** Darkvision 60 ft., Hive mind
+::: statblock
+Ability scores: Str 6, Dex 5, Con 20, Int 19, Wis 18, Cha 25
+Base attack bonus: +24
+Combat maneuver bonus: +35
+Combat maneuver defense: 42 (50 vs. trip)
+Feats: Alertness, Blind-Fight, Combat Casting, Craft Wondrous Item, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (cone of cold), Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Quicken Spell-Like Ability (magic missile), Spell Penetration, Toughness
+Skills: Diplomacy +31, Sense Motive +12, Spellcraft +28
+Languages: Common, Dwarven, Terran, Undercommon; [telepathy](ref/umr/telepathy) 200 ft.
+Special qualities: formian traits, hive frenzy
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 6
-
-**Flat-footed:** 32
-
-**AC modifiers:** -3 Dex, +26 natural, -1 size
-
-**Hit points:** 276 (24d10+144)
-
-**Fort:** +15
-
-**Ref:** +13
-
-**Will:** +20
-
-**Dr:** 10/-
-
-**Fh:** 10
-
-**Resist:** sonic 10
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Melee:** 2 claws +33 (4d8+10)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** telepathic feedback
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +24
-
-**At will:**
-
-- magic jar, other formians only, magic missile
-
-**Per day:**
-
-- 1/day: invisibility, feeblemind (DC 21)
-- 3/day: commune with nature, empowered cone of cold (DC 22), permanent image, quickened magic
-  missile, repulsion (DC 23), teleport
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 5, Con 20, Int 19, Wis 18, Cha 25
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +35
-
-**Combat maneuver defense:** 42 (50 vs. trip)
-
-**Feats:** Alertness, Blind-Fight, Combat Casting, Craft Wondrous Item, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (cone of cold), Great Fortitude, Improved
-Initiative, Iron Will, Lightning Reflexes, Quicken Spell-Like Ability (magic missile), Spell
-Penetration, Toughness
-
-**Skills:** Diplomacy +31, Sense Motive +12, Spellcraft +28
-
-**Languages:** Common, Dwarven, Terran, Undercommon; [telepathy](ref/umr/telepathy) 200 ft.
-
-**Special qualities:** formian traits, hive frenzy
-
-**Ecology**
-
-**Environment:** warm or temperate land or underground
-
-**Organization:** hive (1 plus 300-5,000 [formians](ref/family/formian))
-
-**Treasure:** Triple
+::: statblock
+Environment: warm or temperate land or underground
+Organization: hive (1 plus 300-5,000 [formians](ref/family/formian))
+Treasure: Triple
+:::
 
 ### Special Abilities
 

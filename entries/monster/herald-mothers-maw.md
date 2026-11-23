@@ -32,111 +32,72 @@ _This skull is as large as an ogre and surrounded by buzzing flies. Its bat wing
 actually carry it, yet it moves through the air as easily as a bird. It is surrounded by the stink
 of rotting meat, spice, and perfume._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: desecrate
+Initiative: +11
+Size: large
+Lifesense: present
+Alignment: Neutral evil
+Perception: +28
+Senses: Darkvision 60 ft., Scent
+Subtype: Evil, Extraplanar
+Type: undead
+Experience points: 51,200
+:::
 
-**aura:** desecrate
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 30
+Touch: 16
+Flat-footed: 23
+AC modifiers: +7 Dex, +14 natural, -1 size
+Hit points: 230 (20d8+140)
+Fort: +13
+Ref: +16
+Will: +18
+Chan Res: +4
+Dr: 15/bludgeoning and good
+Fh: 5 or 20 (see Devour Soul)
+Immune: cold, electricity, [undead traits](ref/umr/undead-traits)
+Resist: fire 30
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Lifesense:** present
+::: statblock
+Speed: 10 ft., fly 40 ft. (average)
+Br Weap: 60-ft. cone, 15d6 negative energy, Reflex DC 26 half, usable every 1d4 rounds
+Ch N En: 9/day, DC 19, 6d6
+Melee: bite +26 (5d6+17/19-20 plus 1d10 bleed, 1d6 Con drain, [grab](ref/umr/grab), and mummy rot \[DC 26\])
+Reach: 10
+Space: 10
+Spec Att: devour soul
+Swallow: special acid damage, AC 17, 20 hp
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +18
+Constant: desecrate
+At will: contagion (DC 19), dimension door, ghoul hunger (DC 18), inflict critical wounds (DC 20)
+Per day: 1/day: animate dead, create undead, eyebite (DC 22), plane shift
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
-
-**Subtype:** Evil, Extraplanar
-
-**Type:** undead
-
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 16
-
-**Flat-footed:** 23
-
-**AC modifiers:** +7 Dex, +14 natural, -1 size
-
-**Hit points:** 230 (20d8+140)
-
-**Fort:** +13
-
-**Ref:** +16
-
-**Will:** +18
-
-**Chan Res:** +4
-
-**Dr:** 15/bludgeoning and good
-
-**Fh:** 5 or 20 (see Devour Soul)
-
-**Immune:** cold, electricity, [undead traits](ref/umr/undead-traits)
-
-**Resist:** fire 30
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (average)
-
-**Br Weap:** 60-ft. cone, 15d6 negative energy, Reflex DC 26 half, usable every 1d4 rounds
-
-**Ch N En:** 9/day, DC 19, 6d6
-
-**Melee:** bite +26 (5d6+17/19-20 plus 1d10 bleed, 1d6 Con drain, [grab](ref/umr/grab), and mummy
-rot \[DC 26\])
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** devour soul
-
-**Swallow:** special acid damage, AC 17, 20 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**Constant:**
-
-- desecrate
-
-**At will:**
-
-- contagion (DC 19), dimension door, ghoul hunger (DC 18), inflict critical wounds (DC 20)
-
-**Per day:**
-
-- 1/day: animate dead, create undead, eyebite (DC 22), plane shift
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 25, Con -, Int 21, Wis 20, Cha 22
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +27 (+31 grapple)
-
-**Combat maneuver defense:** 44 (can't be tripped)
-
-**Feats:** Cleave, Command Undead, Critical Focus, Improved Critical (bite), Improved Initiative^B^,
-Improved Iron Will, Improved Lightning Reflexes, Lightning Reflexes, Power Attack, Staggering
-Critical, Stunning Critical^B^, Toughness
-
-**Skills:** Acrobatics +27 (+19 jump), Fly +28, Intimidate +29, Knowledge (planes) +25, Perception
-+28, Profession (cook) +25, Sense Motive +28, Stealth +26
-
-**Special qualities:** deathless, true herald
+::: statblock
+Ability scores: Str 33, Dex 25, Con -, Int 21, Wis 20, Cha 22
+Base attack bonus: +15
+Combat maneuver bonus: +27 (+31 grapple)
+Combat maneuver defense: 44 (can't be tripped)
+Feats: Cleave, Command Undead, Critical Focus, Improved Critical (bite), Improved Initiative^B^, Improved Iron Will, Improved Lightning Reflexes, Lightning Reflexes, Power Attack, Staggering Critical, Stunning Critical^B^, Toughness
+Skills: Acrobatics +27 (+19 jump), Fly +28, Intimidate +29, Knowledge (planes) +25, Perception +28, Profession (cook) +25, Sense Motive +28, Stealth +26
+Special qualities: deathless, true herald
+:::
 
 ###### B {#footnote-b}
 

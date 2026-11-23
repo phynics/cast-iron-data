@@ -31,82 +31,63 @@ abilities = ["9", "13", "10", "10", "9", "8"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 1/4
-
 **Kobold [warrior](ref/npcclass/warrior) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/4
+Type: humanoid
+Initiative: +1
+Alignment: Lawful evil
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 100
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 14
+AC modifiers: +2 armor, +1 Dex, +1 natural, +1 size
+Hit points: 5 (1d10)
+Fort: +2
+Ref: +1
+Will: -1
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +5
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: spear +1 (1d6-1)
+Ranged: sling +3 (1d3-1)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Reptilian
+::: statblock
+Ability scores: Str 9, Dex 13, Con 10, Int 10, Wis 9, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: -1
+Combat maneuver defense: 10
+Feats: Skill Focus (Perception)
+Skills: Craft (trapmaking) +6, Perception +5, Stealth +5
+Racial Modifiers: +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)
+Languages: Common, Draconic
+Special qualities: crafty
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 armor, +1 Dex, +1 natural, +1 size
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** -1
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spear +1 (1d6-1)
-
-**Ranged:** sling +3 (1d3-1)
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 13, Con 10, Int 10, Wis 9, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 10
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Craft (trapmaking) +6, Perception +5, Stealth +5
-
-**Racial Modifiers:** +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)
-
-**Languages:** Common, Draconic
-
-**Special qualities:** crafty
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
-
-**Organization:** solitary, gang (2-4), nest (5-30 plus equal number of noncombatants, 1 sergeant of
-3rd level per 20 adults, and 1 leader of 4th-6th level), or tribe (31-300 plus 35% noncombatants, 1
-sergeant of 3rd level per 20 adults, 2 lieutenants of 4th level, 1 leader of 6th-8th level, and 5-16
-[dire rats](ref/monster/rat-dire-rat))
-
-**Treasure:** NPC gear (leather armor, spear, sling); other treasure
+::: statblock
+Environment: temperate underground or deep forest
+Organization: solitary, gang (2-4), nest (5-30 plus equal number of noncombatants, 1 sergeant of 3rd level per 20 adults, and 1 leader of 4th-6th level), or tribe (31-300 plus 35% noncombatants, 1 sergeant of 3rd level per 20 adults, 2 lieutenants of 4th level, 1 leader of 6th-8th level, and 5-16 [dire rats](ref/monster/rat-dire-rat))
+Treasure: NPC gear (leather armor, spear, sling); other treasure
+:::
 
 ### Special Abilities
 

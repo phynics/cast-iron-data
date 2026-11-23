@@ -33,102 +33,72 @@ abilities = ["37", "20", "33", "12", "29", "26"]
 _This dragon has a long neck and terrible claws. The beast shrieks and babbles, thrashing its tail
 and wings in a violent manner._
 
-**Challenge rating:** 23
+::: statblock
+Challenge rating: 23
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 31)
+blindsight: 120
+Alignment: Chaotic evil
+Type: dragon
+Size: huge
+Initiative: +5
+Perception: +38
+Senses: Darkvision 120 ft., Low-light vision, Scent, True seeing
+Subtype: Air, Fire
+Experience points: 819,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 31)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 40
+Touch: 14
+Flat-footed: 34
+AC modifiers: +5 Dex, +1 dodge, +26 natural, -2 size
+Hit points: 455 (26d12+286)
+Fort: +26
+Ref: +20
+Will: +24
+Dr: 15/vorpal
+Fh: 15
+Immune: fire, paralysis, sleep
+Resist: acid 30, electricity 30, sonic 30
+Sr: 31
+Vulner: cold
+Weaknesses: fear of vorpal weapons
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Type:** dragon
+::: statblock
+Speed: 40 ft., fly 80 ft. (poor)
+Burn: 6d6, DC 34
+Melee: bite +37 (4d8+19/19-20/×3), 2 claws +37 (3d6+13/19-20 plus [grab](ref/umr/grab)), tail slap +32 (2d8+19), 2 wings +32 (1d8+6)
+Ranged: 2 eye rays +29 touch (15d6 fire/19-20 plus burn)
+Reach: 15
+Space: 15
+Spec Att: burble, eye rays, whiffling
+:::
 
-**Size:** huge
+### Statistics
 
-**Initiative:** +5
+::: statblock
+Ability scores: Str 37, Dex 20, Con 33, Int 12, Wis 29, Cha 26
+Base attack bonus: +26
+Combat maneuver bonus: +41 (+45 grapple)
+Combat maneuver defense: 57
+Feats: Awesome Blow, Bleeding Critical, Critical Focus, Dodge, Flyby Attack, Improved Bull Rush, Improved Critical (×3: bite, claws, eye rays), Mobility, Power Attack, Spring Attack, Vital Strike
+Skills: Acrobatics +31 (+35 jump), Escape Artist +31, Fly +26, Intimidate +37, Knowledge (nature) +30, Perception +38, Sense Motive +38
+Languages: Aklo, Common, Draconic, Gm, Sylvan
+Special qualities: planar acclimation
+:::
 
-**Perception:** +38
+### Ecology
 
-**Senses:** Darkvision 120 ft., Low-light vision, Scent, True seeing
-
-**Subtype:** Air, Fire
-
-**Experience points:** 819,200
-
-**Armor class:** 40
-
-**Touch:** 14
-
-**Flat-footed:** 34
-
-**AC modifiers:** +5 Dex, +1 dodge, +26 natural, -2 size
-
-**Hit points:** 455 (26d12+286)
-
-**Fort:** +26
-
-**Ref:** +20
-
-**Will:** +24
-
-**Dr:** 15/vorpal
-
-**Fh:** 15
-
-**Immune:** fire, paralysis, sleep
-
-**Resist:** acid 30, electricity 30, sonic 30
-
-**Sr:** 31
-
-**Vulner:** cold
-
-**Weaknesses:** fear of vorpal weapons
-
-**Offense**
-
-**Speed:** 40 ft., fly 80 ft. (poor)
-
-**Burn:** 6d6, DC 34
-
-**Melee:** bite +37 (4d8+19/19-20/×3), 2 claws +37 (3d6+13/19-20 plus [grab](ref/umr/grab)), tail
-slap +32 (2d8+19), 2 wings +32 (1d8+6)
-
-**Ranged:** 2 eye rays +29 touch (15d6 fire/19-20 plus burn)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** burble, eye rays, whiffling
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 20, Con 33, Int 12, Wis 29, Cha 26
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +41 (+45 grapple)
-
-**Combat maneuver defense:** 57
-
-**Feats:** Awesome Blow, Bleeding Critical, Critical Focus, Dodge, Flyby Attack, Improved Bull Rush,
-Improved Critical (×3: bite, claws, eye rays), Mobility, Power Attack, Spring Attack, Vital Strike
-
-**Skills:** Acrobatics +31 (+35 jump), Escape Artist +31, Fly +26, Intimidate +37, Knowledge
-(nature) +30, Perception +38, Sense Motive +38
-
-**Languages:** Aklo, Common, Draconic, Gm, Sylvan
-
-**Special qualities:** planar acclimation
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any forests
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -31,81 +31,63 @@ abilities = ["12", "17", "13", "8", "15", "10"]
 _This humanoid turtle crouches near the water, a suspicious look in its eyes. The top of its
 bowl-shaped head is filled with water._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Initiative: +3
+Type: Monstrous humanoid
+Perception: +2
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Aquatic
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 12
+AC modifiers: +3 Dex, +1 natural, +1 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +6
+Will: +5
+Resist: acid 5, cold 5
+Weaknesses: head bowl
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 20 ft., swim 40 ft.
+Grab: Medium
+Melee: 2 claws +5 (1d3+1 plus grab)
+Rake: 2 claws +5, 1d3+1
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 17, Con 13, Int 8, Wis 15, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +3 (+7 grapple)
+Combat maneuver defense: 16
+Feats: Great Fortitude, Nimble Moves
+Skills: Escape Artist +10, Heal +5
+Racial Modifiers: +4 Escape Artist
+Languages: Aquan, Common
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +1 natural, +1 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +5
-
-**Resist:** acid 5, cold 5
-
-**Weaknesses:** head bowl
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**Grab:** Medium
-
-**Melee:** 2 claws +5 (1d3+1 plus grab)
-
-**Rake:** 2 claws +5, 1d3+1
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 13, Int 8, Wis 15, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3 (+7 grapple)
-
-**Combat maneuver defense:** 16
-
-**Feats:** Great Fortitude, Nimble Moves
-
-**Skills:** Escape Artist +10, Heal +5
-
-**Racial Modifiers:** +4 Escape Artist
-
-**Languages:** Aquan, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any lake or river
-
-**Organization:** solitary, pair, or bale (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any lake or river
+Organization: solitary, pair, or bale (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

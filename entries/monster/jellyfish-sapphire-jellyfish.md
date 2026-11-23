@@ -32,81 +32,63 @@ abilities = ["26", "19", "24", "-", "12", "1"]
 _This tremendous, translucent jellyfish glows with blue internal light, and the water around its
 bell vibrates with an electrical charge._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+blindsense: 30
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: vermin
+Experience points: 12,800
+:::
 
-**blindsense:** 30
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 24
+Touch: 12
+Flat-footed: 20
+AC modifiers: +4 Dex, +12 natural, -2 size
+Hit points: 138 (12d8+84)
+Fort: +15
+Ref: +8
+Will: +5
+Amorph: present
+Dr: 10/piercing or slashing
+Immune: electricity, mind-affecting effects
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 30 ft.
+Melee: 4 tentacles +15 (1d8+8 plus poison)
+Reach: 20
+Space: 15
+Spec Att: electricity blast
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 26, Dex 19, Con 24, Int -, Wis 12, Cha 1
+Base attack bonus: +9
+Combat maneuver bonus: +19
+Combat maneuver defense: 33 (can't be tripped)
+Skills: Swim +16
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 12,800
-
-**Armor class:** 24
-
-**Touch:** 12
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +12 natural, -2 size
-
-**Hit points:** 138 (12d8+84)
-
-**Fort:** +15
-
-**Ref:** +8
-
-**Will:** +5
-
-**Amorph:** present
-
-**Dr:** 10/piercing or slashing
-
-**Immune:** electricity, mind-affecting effects
-
-**Offense**
-
-**Speed:** swim 30 ft.
-
-**Melee:** 4 tentacles +15 (1d8+8 plus poison)
-
-**Reach:** 20
-
-**Space:** 15
-
-**Spec Att:** electricity blast
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con 24, Int -, Wis 12, Cha 1
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Skills:** Swim +16
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** warm or temperate oceans
-
-**Organization:** solitary, pack (2-3), or bloom (4-7)
-
-**Treasure:** None
+::: statblock
+Environment: warm or temperate oceans
+Organization: solitary, pack (2-3), or bloom (4-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

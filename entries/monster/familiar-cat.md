@@ -25,71 +25,58 @@ melee = "2 claws +4 (1d2-4), bite +4 (1d3-4)"
 abilities = ["3", "15", "8", "2", "12", "7"]
 +++
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +4 (1d2-4), bite +4 (1d3-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 15, Con 8, Int 2, Wis 12, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6 (10 vs. trip)
+Feats: Weapon Finesse
+Skills: Climb +6, Perception +5, Stealth +14
+Racial Modifiers: +4 Climb, +4 Stealth
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +4 (1d2-4), bite +4 (1d3-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 8, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6 (10 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +6, Perception +5, Stealth +14
-
-**Racial Modifiers:** +4 Climb, +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate and hot plains or urban
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate and hot plains or urban
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Description
 

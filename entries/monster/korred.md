@@ -32,94 +32,70 @@ abilities = ["19", "17", "14", "12", "14", "13"]
 _This knobby-kneed, stunted humanoid, has a particularly thick beard and wild mane of hair, hiding
 most of its body from view._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +3
+Perception: +14
+Senses: Low-light vision
+Size: small
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 33 (6d6+12)
+Fort: +4
+Ref: +8
+Will: +7
+Dr: 5/cold iron
+Sr: 15
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 30 ft.
+Melee: club +8 (1d4+6)
+Ranged: rock +8 (1d6+4)
+Rock Th: 100 ft.
+Spec Att: animated hair, stunning laugh
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+At will: animate rope, shatter (DC 13), stone shape
+Per day: 1/day: stone tell
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 19, Dex 17, Con 14, Int 12, Wis 14, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 20
+Feats: Dodge, Mobility, Skill Focus (Perception)
+Skills: Acrobatics +12, Bluff +10, Craft (rope, sculpture) +10, Stealth +16
+Languages: Common, Sylvan
+Special qualities: stone stride
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 33 (6d6+12)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +7
-
-**Dr:** 5/cold iron
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** club +8 (1d4+6)
-
-**Ranged:** rock +8 (1d6+4)
-
-**Rock Th:** 100 ft.
-
-**Spec Att:** animated hair, stunning laugh
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**At will:**
-
-- animate rope, shatter (DC 13), stone shape
-
-**Per day:**
-
-- 1/day: stone tell
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 17, Con 14, Int 12, Wis 14, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 20
-
-**Feats:** Dodge, Mobility, Skill Focus (Perception)
-
-**Skills:** Acrobatics +12, Bluff +10, Craft (rope, sculpture) +10, Stealth +16
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** stone stride
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Standard (club); [rope](ref/eq-misc/rope-50-ft), [shears](ref/eq-misc/shears-small),
-other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or gang (3-6)
+Treasure: Standard (club); [rope](ref/eq-misc/rope-50-ft), [shears](ref/eq-misc/shears-small), other treasure
+:::
 
 ### Special Abilities
 

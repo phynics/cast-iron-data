@@ -31,132 +31,84 @@ abilities = ["24", "43", "44", "35", "31", "36"]
 _This entity appears to be a skeletal human form hidden under tattered yellow robes, but it moves
 with unsettling, inhuman grace._
 
-**Challenge rating:** 29
+::: statblock
+Challenge rating: 29
+Type: aberration
+aura: unspeakable presence (300 ft., DC 40)
+Alignment: Chaotic evil
+Initiative: +26
+Size: medium
+Perception: +47
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Evil, Great Old One
+Experience points: 6,553,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** unspeakable presence (300 ft., DC 40)
+::: statblock
+Armor class: 48
+Touch: 37
+Flat-footed: 31
+AC modifiers: +16 Dex, +1 dodge, +10 insight, +11 natural
+Hit points: 731 (34d8+578)
+Fort: +28
+Ref: +27
+Will: +29
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, immortality, insanity (DC 40)
+Dr: 15/epic and lawful
+Fh: 25
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, sonic
+Resist: acid 30, electricity 30, fire 30
+Sr: 40
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +26
+::: statblock
+Speed: 80 ft.
+Bleed: 1d6
+M Power: 10/day, surge +1d12
+Melee: 4 tattered lash +41 (2d8+7 plus bleed)
+Reach: 40
+Sneak: +10d6
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 5
+Spec Att: fulvous dreams, reveal visage,, Yellow Sign
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 29
+Concentration: +42
+Constant: air walk, freedom of movement, tongues, true seeing
+At will: astral projection, dimension door, dream, enervation, greater dispel magic, insanity (DC 30), mirage arcana (DC 28), nightmare (DC 28), sending, veil, wish, see below
+Per day: 3/day: demand (DC 31), quickened feeblemind, interplanetary teleport, mass suggestion (DC 29), project image (DC 30)\
+1/day: symbol of death (DC 31), symbol of fear (DC 29), symbol of insanity (DC 31), symbol of pain (DC 28), symbol of persuasion (DC 29), symbol of strife (DC 32), symbol of stunning (DC 30), symbol of weakness (DC 30)
+:::
 
-**Perception:** +47
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 24, Dex 43, Con 44, Int 35, Wis 31, Cha 36
+Base attack bonus: +25
+Combat maneuver bonus: +41
+Combat maneuver defense: 69 (can't be tripped)
+Feats: Agile Maneuvers, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Greater Feint, Greater Vital Strike, Improved Critical (tattered lash), Improved Feint, Improved Vital Strike, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Spring Attack, Staggering Critical, Vital Strike, Weapon Finesse, Whirlwind Attack
+Skills: Acrobatics +53 (+73 when jumping), Bluff +47, Disguise +47, Perform (act) +47, Sense Motive +44, Sleight of Hand +50, Spellcraft +49, Stealth +53, Use Magic Device +47
+Racial Modifiers: +20 Acrobatics when jumping
+Languages: xAk; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+Special qualities: otherworldly insight
+Faith: Hastur
+:::
 
-**Subtype:** Chaotic, Evil, Great Old One
+### Ecology
 
-**Experience points:** 6,553,600
-
-**Armor class:** 48
-
-**Touch:** 37
-
-**Flat-footed:** 31
-
-**AC modifiers:** +16 Dex, +1 dodge, +10 insight, +11 natural
-
-**Hit points:** 731 (34d8+578)
-
-**Fort:** +28
-
-**Ref:** +27
-
-**Will:** +29
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, immortality,
-insanity (DC 40)
-
-**Dr:** 15/epic and lawful
-
-**Fh:** 25
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, petrification, sonic
-
-**Resist:** acid 30, electricity 30, fire 30
-
-**Sr:** 40
-
-**Offense**
-
-**Speed:** 80 ft.
-
-**Bleed:** 1d6
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 4 tattered lash +41 (2d8+7 plus bleed)
-
-**Reach:** 40
-
-**Sneak:** +10d6
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 5
-
-**Spec Att:** fulvous dreams, reveal visage,, Yellow Sign
-
-**Spell-Like Abilities**
-
-**Caster level:** 29
-
-**Concentration:** +42
-
-**Constant:**
-
-- air walk, freedom of movement, tongues, true seeing
-
-**At will:**
-
-- astral projection, dimension door, dream, enervation, greater dispel magic, insanity (DC 30),
-  mirage arcana (DC 28), nightmare (DC 28), sending, veil, wish, see below
-
-**Per day:**
-
-- 3/day: demand (DC 31), quickened feeblemind, interplanetary teleport, mass suggestion (DC 29),
-  project image (DC 30)
-- 1/day: symbol of death (DC 31), symbol of fear (DC 29), symbol of insanity (DC 31), symbol of pain
-  (DC 28), symbol of persuasion (DC 29), symbol of strife (DC 32), symbol of stunning (DC 30),
-  symbol of weakness (DC 30)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 43, Con 44, Int 35, Wis 31, Cha 36
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +41
-
-**Combat maneuver defense:** 69 (can't be tripped)
-
-**Feats:** Agile Maneuvers, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Greater Feint,
-Greater Vital Strike, Improved Critical (tattered lash), Improved Feint, Improved Vital Strike,
-Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Spring Attack,
-Staggering Critical, Vital Strike, Weapon Finesse, Whirlwind Attack
-
-**Skills:** Acrobatics +53 (+73 when jumping), Bluff +47, Disguise +47, Perform (act) +47, Sense
-Motive +44, Sleight of Hand +50, Spellcraft +49, Stealth +53, Use Magic Device +47
-
-**Racial Modifiers:** +20 Acrobatics when jumping
-
-**Languages:** xAk; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
-
-**Special qualities:** otherworldly insight
-
-**Faith:** Hastur
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

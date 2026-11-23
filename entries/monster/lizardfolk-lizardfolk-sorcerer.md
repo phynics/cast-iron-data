@@ -29,86 +29,54 @@ special_qualities = "bloodline arcana (spells that deal acid damage deal +1 dama
 abilities = ["17", "10", "15", "11", "8", "18"]
 +++
 
-**Challenge rating:** 12
-
 **Lizardfolk [sorcerer](ref/class/sorcerer) 11**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +4
+Size: medium
+Perception: +4
+Subtype: Reptilian
+Experience points: 19,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 21
+AC modifiers: +4 armor, +1 deflection, +6 natural
+Hit points: 97 (2d8+11d6+50\~13)
+Fort: +10
+Ref: +7
+Will: +10
+Resist: acid 10
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., swim 15 ft.
+Br Weap: 60-foot line, 11d6 acid, DC 19, 1/day
+Melee: 2 claws +10 (1d6+3 plus 1d6 acid), bite +5 (1d4+1)
+Spec Att: claws (1d4+3 plus 1d6 acid, treated as magic weapons, 7 rounds/day)
+:::
 
-**Subtype:** Reptilian
-
-**Experience points:** 19,200
-
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 armor, +1 deflection, +6 natural
-
-**Hit points:** 97 (2d8+11d6+50\~13)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +10
-
-**Resist:** acid 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 15 ft.
-
-**Br Weap:** 60-foot line, 11d6 acid, DC 19, 1/day
-
-**Melee:** 2 claws +10 (1d6+3 plus 1d6 acid), bite +5 (1d4+1)
-
-**Spec Att:** claws (1d4+3 plus 1d6 acid, treated as magic weapons, 7 rounds/day)
-
-**Spells Known**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**5th-level spells:**
-
-- 4/day: acidic spray (DC 19), [spell resistance](ref/rule/spell-resistance), wall of stone (DC 19)
-
-**4th-level spells:**
-
-- 7/day: black tentacles, fear (DC 18), remove curse, vitriolic mist
-
-**3rd-level spells:**
-
-- 7/day: dispel magic, fly, haste, major image (DC 17), wind wall
-
-**2nd-level spells:**
-
-- 7/day: acid arrow, create pit (DC 16), [darkvision](ref/rule/darkvision), frigid touch, resist
-  energy, web (DC 16)
-
-**1st-level spells:**
-
-- 7/day: corrosive touch, endure elements, grease (DC 15), mage armor, ray of enfeeblement (DC 15),
-  shocking grasp
-
-**Cantrips:**
-
-- At will: acid splash, detect magic, detect poison, open/close, read magic, resistance, spark,
-  mending, message
-
-**Bloodline:** [draconic](ref/sorcbloodline/draconic) (black)
+::: statblock
+title = "Spells Known"
+Caster level: 11
+Concentration: +15
+5th-level spells: 4/day: acidic spray (DC 19), [spell resistance](ref/rule/spell-resistance), wall of stone (DC 19)
+4th-level spells: 7/day: black tentacles, fear (DC 18), remove curse, vitriolic mist
+3rd-level spells: 7/day: dispel magic, fly, haste, major image (DC 17), wind wall
+2nd-level spells: 7/day: acid arrow, create pit (DC 16), [darkvision](ref/rule/darkvision), frigid touch, resist energy, web (DC 16)
+1st-level spells: 7/day: corrosive touch, endure elements, grease (DC 15), mage armor, ray of enfeeblement (DC 15), shocking grasp
+Cantrips: At will: acid splash, detect magic, detect poison, open/close, read magic, resistance, spark, mending, message
+Bloodline: [draconic](ref/sorcbloodline/draconic) (black)
+:::
 
 ### Tactics
 
@@ -122,36 +90,27 @@ warriors.
 **Base Statistics** Without mage armor, the lizardfolk's statistics are AC 17, touch 11,
 flat-footed 17.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 17, Dex 10, Con 15, Int 11, Wis 8, Cha 18
+::: statblock
+Ability scores: Str 17, Dex 10, Con 15, Int 11, Wis 8, Cha 18
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 27
+Feats: Combat Casting, Elemental Focus (acid), Eschew Materials, Improved Initiative, Iron Will, Lightning Reflexes, Reach Spell, Toughness, Weapon Focus (claw)
+Skills: Acrobatics +6, Climb +7, Use Magic Device +13
+Racial Modifiers: +4 Acrobatics
+Languages: Common, Draconic
+Special qualities: bloodline arcana (spells that deal acid damage deal +1 damage per die), [hold breath](ref/umr/hold-breath)
+Combat gear: potion of cure moderate wounds, scroll of false life, 2 scroll of invisibility, Dfireball/12 charges, Dmagic missile/50 charges
+Other gear: Iamu1, Iclk2, Ihbac2, ring of prot1, 150 gp
+:::
 
-**Base attack bonus:** +6
+### Ecology
 
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Casting, Elemental Focus (acid), Eschew Materials, Improved Initiative, Iron Will,
-Lightning Reflexes, Reach Spell, Toughness, Weapon Focus (claw)
-
-**Skills:** Acrobatics +6, Climb +7, Use Magic Device +13
-
-**Racial Modifiers:** +4 Acrobatics
-
-**Languages:** Common, Draconic
-
-**Special qualities:** bloodline arcana (spells that deal acid damage deal +1 damage per die),
-[hold breath](ref/umr/hold-breath)
-
-**Combat gear:** potion of cure moderate wounds, scroll of false life, 2 scroll of invisibility,
-Dfireball/12 charges, Dmagic missile/50 charges
-
-**Other gear:** Iamu1, Iclk2, Ihbac2, ring of prot1, 150 gp
-
-**Ecology**
-
-**Environment:** temperate swamps
+::: statblock
+Environment: temperate swamps
+:::
 
 ### Description
 

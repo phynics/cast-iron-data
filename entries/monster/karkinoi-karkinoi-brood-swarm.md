@@ -31,81 +31,63 @@ abilities = ["6", "14", "13", "3", "10", "7"]
 
 _Each member of this horde of blue crab-like things is armed with a menacing, oversized pincer._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +6
+Type: Monstrous humanoid
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Swarm
+Size: tiny
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 16
+AC modifiers: +2 Dex, +4 natural, +2 size
+Hit points: 39 (6d10+6)
+Fort: +3
+Ref: +7
+Will: +5
+Defensive abilities: swarm traits
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Distraction: 14
+Melee: swarm (2d6)
+Reach: 0
+Space: 10
+Spec Att: clinging grasp (DC 15), consume
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic, Swarm
+::: statblock
+Ability scores: Str 6, Dex 14, Con 13, Int 3, Wis 10, Cha 7
+Base attack bonus: +6
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Agile Maneuvers, Improved Initiative, Step Up
+Skills: Swim +15
+Languages: Aquan
+Special qualities: scuttling swarm, water dependency
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +4 natural, +2 size
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +5
-
-**Defensive abilities:** swarm traits
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Distraction:** 14
-
-**Melee:** swarm (2d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** clinging grasp (DC 15), consume
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 14, Con 13, Int 3, Wis 10, Cha 7
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Agile Maneuvers, Improved Initiative, Step Up
-
-**Skills:** Swim +15
-
-**Languages:** Aquan
-
-**Special qualities:** scuttling swarm, water dependency
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or wave (3-4 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary, pair, or wave (3-4 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

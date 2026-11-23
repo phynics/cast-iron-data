@@ -30,80 +30,62 @@ abilities = ["25", "18", "25", "1", "12", "6"]
 _This towering plant is a mass of vines and barbs. Several stalks are horribly mobile, each ending
 in a set of green, toothy jaws._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Initiative: +8
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Type: plant
+tremorsense: 60
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 18
+AC modifiers: +4 Dex, +10 natural, -2 size
+Hit points: 149 (13d8+91)
+Fort: +17
+Ref: +8
+Will: +5
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: acid 20
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 10 ft.
+Melee: 4 bites +15 (1d8+7 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: engulf
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 25, Dex 18, Con 25, Int 1, Wis 12, Cha 6
+Base attack bonus: +9
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Cleave, Great Fortitude, Improved Initiative, Power Attack, Skill Focus (Stealth), Vital Strike, Weapon Focus (bite)
+Skills: Perception +10, Stealth +9 (+17 in undergrowth)
+Racial Modifiers: +8 Stealth in undergrowth
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +10 natural, -2 size
-
-**Hit points:** 149 (13d8+91)
-
-**Fort:** +17
-
-**Ref:** +8
-
-**Will:** +5
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** acid 20
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 4 bites +15 (1d8+7 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** engulf
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 18, Con 25, Int 1, Wis 12, Cha 6
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Cleave, Great Fortitude, Improved Initiative, Power Attack, Skill Focus (Stealth), Vital
-Strike, Weapon Focus (bite)
-
-**Skills:** Perception +10, Stealth +9 (+17 in undergrowth)
-
-**Racial Modifiers:** +8 Stealth in undergrowth
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, pair, or grove (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate swamps
+Organization: solitary, pair, or grove (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

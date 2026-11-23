@@ -31,90 +31,66 @@ abilities = ["46", "30", "33", "7", "25", "28"]
 _This gigantic, wingless, four-armed dragon has rivulets of bright red magma coursing through its
 serpentine body._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+Alignment: Chaotic evil
+Size: colossal
+Type: dragon
+Initiative: +14
+Perception: +34
+Senses: Darkvision 60 ft., Low-light vision, Scent, True seeing
+Experience points: 409,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 37
+Touch: 12
+Flat-footed: 27
+AC modifiers: +10 Dex, +25 natural, -8 size
+Hit points: 420 (24d12+264)
+Fort: +25
+Ref: +26
+Will: +21
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/cold iron
+Immune: curse effects, fire, mind-affecting effects, paralysis, poison, sleep
+Regen: 20 (cold iron)
+Sr: 32
+:::
 
-**Type:** dragon
+### Offense
 
-**Initiative:** +14
+::: statblock
+Speed: 40 ft., climb 40 ft., swim 60 ft., fly 100 ft. (average)
+Constrict: tail, 3d6+27
+Melee: bite +34 (3d8+18/19-20 plus poison), 4 claws +34 (2d6+18), tail +29 (3d6+9 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 30
+Spec Att: breath weapon, death curse
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
+::: statblock
+Ability scores: Str 46, Dex 30, Con 33, Int 7, Wis 25, Cha 28
+Base attack bonus: +24
+Combat maneuver bonus: +50 (+54 grapple)
+Combat maneuver defense: 70 (can't be tripped)
+Feats: Awesome Blow, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Climb +26, Fly +29
+Languages: Aklo, Draconic, Sylvan
+Special qualities: lava affinity
+:::
 
-**Experience points:** 409,600
+### Ecology
 
-**Armor class:** 37
-
-**Touch:** 12
-
-**Flat-footed:** 27
-
-**AC modifiers:** +10 Dex, +25 natural, -8 size
-
-**Hit points:** 420 (24d12+264)
-
-**Fort:** +25
-
-**Ref:** +26
-
-**Will:** +21
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/cold iron
-
-**Immune:** curse effects, fire, mind-affecting effects, paralysis, poison, sleep
-
-**Regen:** 20 (cold iron)
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft., swim 60 ft., fly 100 ft. (average)
-
-**Constrict:** tail, 3d6+27
-
-**Melee:** bite +34 (3d8+18/19-20 plus poison), 4 claws +34 (2d6+18), tail +29 (3d6+9 plus
-[grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** breath weapon, death curse
-
-**Statistics**
-
-**Ability scores:** Str 46, Dex 30, Con 33, Int 7, Wis 25, Cha 28
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +50 (+54 grapple)
-
-**Combat maneuver defense:** 70 (can't be tripped)
-
-**Feats:** Awesome Blow, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush,
-Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power
-Attack, Vital Strike
-
-**Skills:** Climb +26, Fly +29
-
-**Languages:** Aklo, Draconic, Sylvan
-
-**Special qualities:** lava affinity
-
-**Ecology**
-
-**Environment:** cold volcanic mountains
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: cold volcanic mountains
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

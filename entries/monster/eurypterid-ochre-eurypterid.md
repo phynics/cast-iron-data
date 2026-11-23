@@ -31,83 +31,66 @@ abilities = ["8", "13", "10", "-", "13", "2"]
 _Two large pincers grasp at the air before this sleek creature, while a finned tail bristling with a
 long, thin stinger rises from behind._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Initiative: +5
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Size: small
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 135
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +1
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 20 ft., swim 40 ft.
+Melee: 2 claws +0 (1d2-1), sting +0 (1d2-1 plus poison)
+Reach: 5
+Reach P: 10 ft. with sting
+Space: 5
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Aquatic
-
-**tremorsense:** 30
-
-**Type:** vermin
-
-**Experience points:** 135
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**Melee:** 2 claws +0 (1d2-1), sting +0 (1d2-1 plus poison)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with sting
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 10, Int -, Wis 13, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 9
-
-**Feats:** Improved Initiative^B^
-
-**Skills:** Swim +9 (uses Dexterity on Climb and Swim checks)
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 8, Dex 13, Con 10, Int -, Wis 13, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 9
+Feats: Improved Initiative^B^
+Skills: Swim +9 (uses Dexterity on Climb and Swim checks)
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm ocean
-
-**Organization:** solitary, pair, or swarm (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm ocean
+Organization: solitary, pair, or swarm (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

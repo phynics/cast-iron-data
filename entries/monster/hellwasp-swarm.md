@@ -31,84 +31,64 @@ abilities = ["1", "22", "14", "6", "13", "9"]
 _This hideous, buzzing cloud of insects is comprised of black and yellow wasps with hungry red
 eyes._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: diminutive
+Initiative: +10
+Alignment: Lawful evil
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Swarm
+Type: vermin
+Experience points: 4,800
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 21
+Touch: 21
+Flat-footed: 14
+AC modifiers: +6 Dex, +1 dodge, +4 size
+Hit points: 90 (12d8+36)
+Fort: +10
+Ref: +10
+Will: +7
+Dr: 10/good
+Immune: swarm traits, weapon damage
+Resist: fire 10
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 5 ft., fly 40 ft. (good)
+Distraction: 18
+Melee: swarm (3d6 plus distraction and poison)
+Reach: 0
+Space: 10
+Spec Att: inhabit
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Swarm
+::: statblock
+Ability scores: Str 1, Dex 22, Con 14, Int 6, Wis 13, Cha 9
+Base attack bonus: +9
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Ability Focus (poison), Dodge, Improved Initiative, Iron Will, Skill Focus (Perception), Toughness
+Skills: Fly +25, Perception +4, Stealth +24
+Languages: Infernal
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 21
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 Dex, +1 dodge, +4 size
-
-**Hit points:** 90 (12d8+36)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +7
-
-**Dr:** 10/good
-
-**Immune:** swarm traits, weapon damage
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 5 ft., fly 40 ft. (good)
-
-**Distraction:** 18
-
-**Melee:** swarm (3d6 plus distraction and poison)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** inhabit
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 22, Con 14, Int 6, Wis 13, Cha 9
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Ability Focus (poison), Dodge, Improved Initiative, Iron Will, Skill Focus (Perception),
-Toughness
-
-**Skills:** Fly +25, Perception +4, Stealth +24
-
-**Languages:** Infernal
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or infestation (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or infestation (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

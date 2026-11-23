@@ -30,99 +30,73 @@ abilities = ["12", "16", "15", "12", "11", "13"]
 _This creature looks like a gilled dolphin with a row of spiral horns down its back, arcs of
 electricity crackling between them._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: fey
+Initiative: +7
+Size: large
+Lifesense: present
+Alignment: Neutral good
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 1,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 12
+AC modifiers: +3 Dex, +3 natural, -1 size
+Hit points: 33 (6d6+12)
+Fort: +4
+Ref: +8
+Will: +5
+Defensive abilities: bioelectric shield
+Dr: 5/cold iron
+Immune: electricity
+Resist: cold 5
+:::
 
-**Size:** large
+### Offense
 
-**Lifesense:** present
+::: statblock
+Speed: swim 80 ft.
+Melee: bite +6 (1d8+1 plus 3d6 electricity)
+Reach: 5
+Sp Extra: telekinetic levitation
+Space: 10
+:::
 
-**Alignment:** Neutral good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Constant: mage hand
+Per day: 3/day: lightning bolt (DC 14)
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 16, Con 15, Int 12, Wis 11, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 18 (can't be tripped)
+Feats: Improved Initiative, Weapon Finesse, Weapon Focus (BIte)
+Skills: Acrobatics +12, Diplomacy +10, Stealth +8, Swim +18, Use Magic Device +8
+Languages: Aquan, Ekekeh, First Speech
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +3 natural, -1 size
-
-**Hit points:** 33 (6d6+12)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +5
-
-**Defensive abilities:** bioelectric shield
-
-**Dr:** 5/cold iron
-
-**Immune:** electricity
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** swim 80 ft.
-
-**Melee:** bite +6 (1d8+1 plus 3d6 electricity)
-
-**Reach:** 5
-
-**Sp Extra:** telekinetic levitation
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Constant:**
-
-- mage hand
-
-**Per day:**
-
-- 3/day: lightning bolt (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 16, Con 15, Int 12, Wis 11, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Feats:** Improved Initiative, Weapon Finesse, Weapon Focus (BIte)
-
-**Skills:** Acrobatics +12, Diplomacy +10, Stealth +8, Swim +18, Use Magic Device +8
-
-**Languages:** Aquan, Ekekeh, First Speech
-
-**Ecology**
-
-**Environment:** any oceans (First World)
-
-**Organization:** solitary, pair, family (3-6), or pod (7-18)
-
-**Treasure:** Standard
+::: statblock
+Environment: any oceans (First World)
+Organization: solitary, pair, family (3-6), or pod (7-18)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

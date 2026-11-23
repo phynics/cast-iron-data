@@ -30,75 +30,60 @@ abilities = ["22", "15", "20", "4", "17", "11"]
 _This magnificent creature seems to be a horse, but the sparkle in its eyes reveals its supernatural
 origins._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 73 (7d10+35)
+Fort: +10
+Ref: +7
+Will: +5
+Resist: energy 10 (see genie-touched abilities)
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 60 ft.
+Melee: bite +12 (1d8+6), 2 hooves +11 (1d6+3)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 22, Dex 15, Con 20, Int 4, Wis 17, Cha 11
+Base attack bonus: +7
+Combat maneuver bonus: +14
+Combat maneuver defense: 26
+Feats: Endurance, Multiattack, Run, Weapon Focus (hooves)
+Skills: Acrobatics +7, Perception +9
+Languages: see below
+Special qualities: genie-touched abilities
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 73 (7d10+35)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +5
-
-**Resist:** energy 10 (see genie-touched abilities)
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** bite +12 (1d8+6), 2 hooves +11 (1d6+3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 20, Int 4, Wis 17, Cha 11
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 26
-
-**Feats:** Endurance, Multiattack, Run, Weapon Focus (hooves)
-
-**Skills:** Acrobatics +7, Perception +9
-
-**Languages:** see below
-
-**Special qualities:** genie-touched abilities
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or herd (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or herd (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

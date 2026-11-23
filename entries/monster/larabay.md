@@ -32,89 +32,69 @@ abilities = ["18", "22", "21", "15", "16", "17"]
 _This pale, blond-haired humanoid possesses bright blue eyes, needle-like teeth, and the large,
 multicolored wings of a parrot._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +10
+Size: medium
+Perception: +27
+Senses: Low-light vision
+Subtype: Shapechanger
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 25
+Touch: 17
+Flat-footed: 18
+AC modifiers: +6 Dex, +1 dodge, +8 natural
+Hit points: 144 (17d6+85)
+Fort: +10
+Ref: +16
+Will: +13
+Resist: cold 10, electricity 10, fire 10
+:::
 
-**Initiative:** +10
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 50 ft. (good)
+Melee: rapier +15/+10 (1d6+4/18-20 plus mischief)
+Spec Att: befuddling gaze
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +14
+Per day: 5/day: burning hands (DC 14), gust of wind (DC 15)\
+3/day: hallucinatory terrain (DC 17), invisibility, solid fog, suggestion (DC 15)\
+1/day: cone of cold (DC 18), mirage arcana (DC 18)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 18, Dex 22, Con 21, Int 15, Wis 16, Cha 17
+Base attack bonus: +8
+Combat maneuver bonus: +14
+Combat maneuver defense: 29
+Feats: Agile Maneuvers, Alertness, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Mobility, Weapon Finesse, Weapon Focus (rapier)
+Skills: Bluff +23, Diplomacy +23, Disguise +23, Sense Motive +27, Stealth +26
+Languages: Common, Polyglot, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (Medium humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 Dex, +1 dodge, +8 natural
-
-**Hit points:** 144 (17d6+85)
-
-**Fort:** +10
-
-**Ref:** +16
-
-**Will:** +13
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (good)
-
-**Melee:** rapier +15/+10 (1d6+4/18-20 plus mischief)
-
-**Spec Att:** befuddling gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**Per day:**
-
-- 5/day: burning hands (DC 14), gust of wind (DC 15)
-- 3/day: hallucinatory terrain (DC 17), invisibility, solid fog, suggestion (DC 15)
-- 1/day: cone of cold (DC 18), mirage arcana (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 22, Con 21, Int 15, Wis 16, Cha 17
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 29
-
-**Feats:** Agile Maneuvers, Alertness, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative,
-Mobility, Weapon Finesse, Weapon Focus (rapier)
-
-**Skills:** Bluff +23, Diplomacy +23, Disguise +23, Sense Motive +27, Stealth +26
-
-**Languages:** Common, Polyglot, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** temperate or warm coastlines or forests
-
-**Organization:** solitary, pair, or rabble (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm coastlines or forests
+Organization: solitary, pair, or rabble (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

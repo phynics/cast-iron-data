@@ -30,69 +30,57 @@ abilities = ["2", "15", "7", "2", "14", "5"]
 
 _This white-and-gray bird has a reddish-orange beak._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Size: tiny
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 2 (1d8-2)
+Fort: +0
+Ref: +4
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 10 ft., fly 40 ft. (average)
+Melee: bite -2 (1d3-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 2, Dex 15, Con 7, Int 2, Wis 14, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6
+Feats: Skill Focus (Fly)
+Skills: Fly +9, Perception +6
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 2 (1d8-2)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (average)
-
-**Melee:** bite -2 (1d3-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 15, Con 7, Int 2, Wis 14, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6
-
-**Feats:** Skill Focus (Fly)
-
-**Skills:** Fly +9, Perception +6
-
-**Ecology**
-
-**Environment:** cold coastlines
-
-**Organization:** solitary, pair, or flock (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: cold coastlines
+Organization: solitary, pair, or flock (3-20)
+Treasure: None
+:::
 
 ### Description
 

@@ -25,69 +25,57 @@ melee = "bite +3 (1d3-4 plus attach)"
 abilities = ["2", "13", "12", "1", "10", "5"]
 +++
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +3
+Will: +0
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite +3 (1d3-4 plus attach)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 2, Dex 13, Con 12, Int 1, Wis 10, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5 (9 vs. trip)
+Feats: Weapon Finesse
+Skills: Acrobatics +5 (+1 when jumping), Climb +9, Perception +4
+Racial Modifiers: -4 Acrobatics when jumping, +4 Perception, +4 Survival
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite +3 (1d3-4 plus attach)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 13, Con 12, Int 1, Wis 10, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5 (9 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +5 (+1 when jumping), Climb +9, Perception +4
-
-**Racial Modifiers:** -4 Acrobatics when jumping, +4 Perception, +4 Survival
-
-**Ecology**
-
-**Environment:** temperate islands
-
-**Organization:** solitary or pair
+::: statblock
+Environment: temperate islands
+Organization: solitary or pair
+:::
 
 ### Description
 

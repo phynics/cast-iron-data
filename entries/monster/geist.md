@@ -30,81 +30,62 @@ abilities = ["-", "20", "-", "15", "15", "21"]
 
 _This disembodied phantom wears black robes that swirl around a maw of sharp teeth._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +9
+Size: medium
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 15
+AC modifiers: +5 deflection, +5 Dex
+Hit points: 114 (12d8+60)
+Fort: +9
+Ref: +9
+Will: +10
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: sunlight powerlessness
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +17
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: incorporeal bite +14 (1d6 negative energy plus 1d4 Con)
+Spec Att: spiritual manipulation, terrifying laughter (30 ft.; DC 21)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 20, Con -, Int 15, Wis 15, Cha 21
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 29
+Feats: Blind-Fight, Combat Reflexes, Flyby Attack, Improved Initiative, Skill Focus (Stealth), Weapon Finesse
+Skills: Bluff +17, Fly +18, Intimidate +20, Knowledge (religion) +15, Perception +17, Sense Motive +17, Stealth +26
+Languages: Abyssal, Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 deflection, +5 Dex
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +10
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** sunlight powerlessness
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** incorporeal bite +14 (1d6 negative energy plus 1d4 Con)
-
-**Spec Att:** spiritual manipulation, terrifying laughter (30 ft.; DC 21)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 20, Con -, Int 15, Wis 15, Cha 21
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 29
-
-**Feats:** Blind-Fight, Combat Reflexes, Flyby Attack, Improved Initiative, Skill Focus (Stealth),
-Weapon Finesse
-
-**Skills:** Bluff +17, Fly +18, Intimidate +20, Knowledge (religion) +15, Perception +17, Sense
-Motive +17, Stealth +26
-
-**Languages:** Abyssal, Common
-
-**Ecology**
-
-**Environment:** any (haunted sites or ruins)
-
-**Organization:** solitary or haunting (2-7)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any (haunted sites or ruins)
+Organization: solitary or haunting (2-7)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

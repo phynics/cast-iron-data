@@ -33,71 +33,58 @@ abilities = ["17", "12", "-", "-", "11", "1"]
 _A lurching mash-up of rotting flesh, jagged bone, and coarse hair, this humanoid monstrosity reeks
 of death and decay._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: foul [stench](ref/umr/stench) (DC 12, 1 round)
+blindsense: 10
+Type: construct
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**aura:** foul [stench](ref/umr/stench) (DC 12, 1 round)
+### Defense
 
-**blindsense:** 10
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 42 (4d10+20)
+Fort: +1
+Ref: +2
+Will: +1
+Dr: 5/bludgeoning or slashing
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Type:** construct
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +7 (1d8+3 plus disease)
+Spec Att: plague carrier
+:::
 
-**Size:** medium
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 17, Dex 12, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 18
+:::
 
-**Perception:** +0
+### Ecology
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 42 (4d10+20)
-
-**Fort:** +1
-
-**Ref:** +2
-
-**Will:** +1
-
-**Dr:** 5/bludgeoning or slashing
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +7 (1d8+3 plus disease)
-
-**Spec Att:** plague carrier
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 12, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 18
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

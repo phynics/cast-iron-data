@@ -30,81 +30,63 @@ abilities = ["6", "15", "10", "13", "14", "15"]
 _This withered, eyeless little creature has a mushroom cap for a head, and a stringy fungus beard
 frames his toothless grin._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: fey
+Initiative: +2
+Alignment: Neutral evil
+Perception: +6
+Size: tiny
+tremorsense: 30
+Experience points: 200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 3 (1d6)
+Fort: +0
+Ref: +4
+Will: +4
+Defensive abilities: ant affinity
+Dr: 2/cold iron
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft., burrow 10 ft.
+Melee: slam +0 (1d2-2)
+Reach: 0
+Space: 2-1/2
+Spec Att: nuno's curse
+:::
 
-**Size:** tiny
+### Statistics
 
-**tremorsense:** 30
+::: statblock
+Ability scores: Str 6, Dex 15, Con 10, Int 13, Wis 14, Cha 15
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 8
+Feats: Ability Focus (nuno's curse)
+Skills: Bluff +6, Knowledge (dungeoneering) +6, Perception +6
+Racial Modifiers: +4 Knowledge (dungeoneering)
+Languages: Aklo, Sylvan, Terran
+Special qualities: wax locator
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 3 (1d6)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +4
-
-**Defensive abilities:** ant affinity
-
-**Dr:** 2/cold iron
-
-**Offense**
-
-**Speed:** 20 ft., burrow 10 ft.
-
-**Melee:** slam +0 (1d2-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** nuno's curse
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 10, Int 13, Wis 14, Cha 15
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 8
-
-**Feats:** Ability Focus (nuno's curse)
-
-**Skills:** Bluff +6, Knowledge (dungeoneering) +6, Perception +6
-
-**Racial Modifiers:** +4 Knowledge (dungeoneering)
-
-**Languages:** Aklo, Sylvan, Terran
-
-**Special qualities:** wax locator
-
-**Ecology**
-
-**Environment:** any warm land or underground
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any warm land or underground
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

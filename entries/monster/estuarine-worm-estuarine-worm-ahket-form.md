@@ -32,88 +32,66 @@ abilities = ["32", "16", "23", "1", "13", "8"]
 _As thick and tall as a towering palm tree, this mud-colored worm hisses through a fanged mouth.
 Atop its head, a small protuberance shines like a star._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Initiative: +7
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+tremorsense: 30
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 19
+AC modifiers: +3 Dex, +11 natural, -2 size
+Hit points: 126 (11d10+66)
+Fort: +13
+Ref: +10
+Will: +6; +4 vs. enchantment
+Defensive abilities: willful
+Dr: 5/piercing or slashing
+Resist: acid 10, fire 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 20 ft., swim 20 ft.
+Constrict: 2d8+11
+Melee: bite +20 (2d8+11/19-20 plus [grab](ref/umr/grab)), tail slap +15 (2d8+5)
+Reach: 10
+Space: 15
+Spec Att: guiding star (DC 14)
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 16, Con 23, Int 1, Wis 13, Cha 8
+Base attack bonus: +11
+Combat maneuver bonus: +24
+Combat maneuver defense: 37 (can't be tripped)
+Feats: Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Skill Focus (Stealth)
+Skills: Perception +11, Stealth +8 (+16 in water), Swim +19
+Racial Modifiers: +8 Stealth in water
+Special qualities: [amphibious](ref/umr/amphibious), seasonal transformation
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**tremorsense:** 30
-
-**Experience points:** 9,600
-
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +11 natural, -2 size
-
-**Hit points:** 126 (11d10+66)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +6; +4 vs. enchantment
-
-**Defensive abilities:** willful
-
-**Dr:** 5/piercing or slashing
-
-**Resist:** acid 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft., swim 20 ft.
-
-**Constrict:** 2d8+11
-
-**Melee:** bite +20 (2d8+11/19-20 plus [grab](ref/umr/grab)), tail slap +15 (2d8+5)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** guiding star (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 16, Con 23, Int 1, Wis 13, Cha 8
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Feats:** Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Skill Focus
-(Perception), Skill Focus (Stealth)
-
-**Skills:** Perception +11, Stealth +8 (+16 in water), Swim +19
-
-**Racial Modifiers:** +8 Stealth in water
-
-**Special qualities:** [amphibious](ref/umr/amphibious), seasonal transformation
-
-**Ecology**
-
-**Environment:** warm marshes and rivers
-
-**Organization:** solitary, pair, or nest (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm marshes and rivers
+Organization: solitary, pair, or nest (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

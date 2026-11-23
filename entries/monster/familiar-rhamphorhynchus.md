@@ -32,73 +32,59 @@ abilities = ["6", "17", "11", "2", "14", "11"]
 _This creature looks like a cross between a bird and a reptile, sporting leathery wings, a beak
 filled with needle-like teeth, and a long tail ending in a diamond-shaped vane._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +3
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +7
+Will: +2
+Evasion: present
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 10 ft., fly 40 ft. (good)
+Melee: bite +0 (1d3-2)
+Reach: 0
+Space: 2-1/2
+Spec Att: sudden swoop
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 6, Dex 17, Con 11, Int 2, Wis 14, Cha 11
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 9
+Feats: Lightning Reflexes
+Skills: Fly +11, Perception +6, Stealth +11
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +2
-
-**Evasion:** present
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (good)
-
-**Melee:** bite +0 (1d3-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** sudden swoop
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con 11, Int 2, Wis 14, Cha 11
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 9
-
-**Feats:** Lightning Reflexes
-
-**Skills:** Fly +11, Perception +6, Stealth +11
-
-**Ecology**
-
-**Environment:** warm coastlines or forests
-
-**Organization:** solitary, pair, or flock (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: warm coastlines or forests
+Organization: solitary, pair, or flock (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

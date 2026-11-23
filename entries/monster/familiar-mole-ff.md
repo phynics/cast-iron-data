@@ -29,71 +29,58 @@ abilities = ["5", "11", "14", "2", "10", "7"]
 _This brown, apparently eyeless rodent has a furry cylindrical body, a pointed snout, and large,
 thick paws that end in digging claws._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Initiative: +0
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Size: tiny
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +2
+Will: +0
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., burrow 10 ft.
+Melee: claw -1 (1d2-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 11, Con 14, Int 2, Wis 10, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 5
+Feats: Skill Focus (Perception)
+Skills: Perception +7
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 20 ft., burrow 10 ft.
-
-**Melee:** claw -1 (1d2-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 11, Con 14, Int 2, Wis 10, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 5
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +7
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or labor (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, pair, or labor (3-16)
+Treasure: None
+:::
 
 ### Description
 

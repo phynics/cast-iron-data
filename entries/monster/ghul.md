@@ -35,87 +35,65 @@ abilities = ["22", "15", "-", "14", "15", "18"]
 _Draped in fine dark robes, this undead creature's body seems to be made of equal parts bone,
 leathery flesh, and blood-red smoke._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Type: undead
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 51 (6d8+24)
+Fort: +8
+Ref: +4
+Will: +7
+Dr: 5/good
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: fire 10
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Bleed: 1
+Melee: bite +10 (1d6+6), 2 claws +10 (1d4+6 plus bleed)
+Rend: 2 claws, 1d6+6
+Spec Att: cursed claws
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 22, Dex 15, Con -, Int 14, Wis 15, Cha 18
+Base attack bonus: +4
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Great Fortitude, Power Attack, Step Up
+Skills: Bluff +10, Climb +18, Diplomacy +7, Intimidate +11, Perception +15
+Racial Modifiers: +4 Perception, +8 Survival when following tracks
+Languages: Common, one elemental language (Aquan, Auran, Ignan, or Terran), one planar language (Abyssal, Celestial, or Infernal)
+Special qualities: [change shape](ref/umr/change-shape) (hyena; does not detect as undead in this form; [beast shape I](ref/spell/beast-shape-1)), genie-kin
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 51 (6d8+24)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +7
-
-**Dr:** 5/good
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Bleed:** 1
-
-**Melee:** bite +10 (1d6+6), 2 claws +10 (1d4+6 plus bleed)
-
-**Rend:** 2 claws, 1d6+6
-
-**Spec Att:** cursed claws
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con -, Int 14, Wis 15, Cha 18
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Great Fortitude, Power Attack, Step Up
-
-**Skills:** Bluff +10, Climb +18, Diplomacy +7, Intimidate +11, Perception +15
-
-**Racial Modifiers:** +4 Perception, +8 Survival when following tracks
-
-**Languages:** Common, one elemental language (Aquan, Auran, Ignan, or Terran), one planar language
-(Abyssal, Celestial, or Infernal)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (hyena; does not detect as undead in
-this form; [beast shape I](ref/spell/beast-shape-1)), genie-kin
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary or pack (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts
+Organization: solitary or pack (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

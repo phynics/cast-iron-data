@@ -32,73 +32,59 @@ abilities = ["13", "10", "13", "9", "10", "10"]
 _This reptilian humanoid has green scales, a short and toothy snout, and a thick alligator-like
 tail._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: humanoid
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +1
+Subtype: Reptilian
+Experience points: 400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 17
+AC modifiers: +5 natural, +2 shield
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +0
+Will: +0
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 15 ft.
+Melee: morningstar +2 (1d8+1), bite +0 (1d4), or claw +2 (1d4+1), bite +2 (1d4+1)
+Ranged: javelin +1 (1d6+1)
+:::
 
-**Perception:** +1
+### Statistics
 
-**Subtype:** Reptilian
+::: statblock
+Ability scores: Str 13, Dex 10, Con 13, Int 9, Wis 10, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 12
+Feats: Multiattack
+Skills: Acrobatics +2, Perception +1, Swim +8
+Racial Modifiers: +4 Acrobatics
+Languages: Draconic
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 natural, +2 shield
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +0
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 30 ft., swim 15 ft.
-
-**Melee:** morningstar +2 (1d8+1), bite +0 (1d4), or claw +2 (1d4+1), bite +2 (1d4+1)
-
-**Ranged:** javelin +1 (1d6+1)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 10, Con 13, Int 9, Wis 10, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 12
-
-**Feats:** Multiattack
-
-**Skills:** Acrobatics +2, Perception +1, Swim +8
-
-**Racial Modifiers:** +4 Acrobatics
-
-**Languages:** Draconic
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, pair, band (3-12), or tribe (13-60)
-
-**Treasure:** NPC gear (heavy wooden shield, morningstar, 3 javelins)
+::: statblock
+Environment: temperate swamps
+Organization: solitary, pair, band (3-12), or tribe (13-60)
+Treasure: NPC gear (heavy wooden shield, morningstar, 3 javelins)
+:::
 
 ### Special Abilities
 

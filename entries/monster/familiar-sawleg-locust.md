@@ -29,75 +29,60 @@ abilities = ["4", "13", "11", "-", "10", "7"]
 
 _The cat-sized insect has a long, cigar-shaped body. Its spiny back legs are long and limber._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: vermin
+Experience points: 100
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 13
+AC modifiers: +1 Dex, +1 natural, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +1
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 15 ft., climb 15 ft., fly 40 ft. (average)
+Melee: bite -1 (1d3-3)
+Reach: 0
+Space: 2-1/2
+Spec Att: voracious
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 4, Dex 13, Con 11, Int -, Wis 10, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 6 (14 vs. trip)
+Skills: Acrobatics +0 (+8 when jumping), Climb +9
+Racial Modifiers: +8 Acrobatics (when jumping)
+Special qualities: leap
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +1 natural, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 15 ft., climb 15 ft., fly 40 ft. (average)
-
-**Melee:** bite -1 (1d3-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** voracious
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 13, Con 11, Int -, Wis 10, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 6 (14 vs. trip)
-
-**Skills:** Acrobatics +0 (+8 when jumping), Climb +9
-
-**Racial Modifiers:** +8 Acrobatics (when jumping)
-
-**Special qualities:** leap
-
-**Ecology**
-
-**Environment:** any desert or plains
-
-**Organization:** solitary, pair, or flight (3-18)
-
-**Treasure:** None
+::: statblock
+Environment: any desert or plains
+Organization: solitary, pair, or flight (3-18)
+Treasure: None
+:::
 
 ### Special Abilities
 

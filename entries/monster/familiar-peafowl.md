@@ -32,67 +32,56 @@ abilities = ["7", "12", "10", "1", "6", "13"]
 _This bird's royal-blue body is upstaged only by the magnificent array of feathers that radiate from
 its back._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: -2
+Senses: Low-light vision
+Size: small
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +3
+Will: -2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** -2
+::: statblock
+Speed: 20 ft., fly 40 ft. (clumsy)
+Melee: 2 talons +2 (1d3-2)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 7, Dex 12, Con 10, Int 1, Wis 6, Cha 13
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 8
+Feats: Weapon Finesse
+Skills: Fly -1
+Special qualities: drift
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** -2
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (clumsy)
-
-**Melee:** 2 talons +2 (1d3-2)
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 12, Con 10, Int 1, Wis 6, Cha 13
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 8
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly -1
-
-**Special qualities:** drift
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary, pair, or muster (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary, pair, or muster (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

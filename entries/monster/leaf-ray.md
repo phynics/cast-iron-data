@@ -30,69 +30,57 @@ abilities = ["12", "16", "17", "1", "13", "4"]
 _This creature looks like a broad leaf with whiskers like a catfish and a dangerous stinger trailing
 behind it._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +3
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Type: plant
+Size: small
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +3
+Will: +1
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +5
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 5 ft., fly 40 ft. (average)
+Melee: stinger +3 (1d4+1 plus poison)
+Spec Att: poison, seed
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 16, Con 17, Int 1, Wis 13, Cha 4
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 14 (can't be tripped)
+Feats: Flyby Attack
+Skills: Fly +9, Perception +5
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 5 ft., fly 40 ft. (average)
-
-**Melee:** stinger +3 (1d4+1 plus poison)
-
-**Spec Att:** poison, seed
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 16, Con 17, Int 1, Wis 13, Cha 4
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Feats:** Flyby Attack
-
-**Skills:** Fly +9, Perception +5
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary or rustle (2-20)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary or rustle (2-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -29,73 +29,59 @@ abilities = ["30", "10", "23", "1", "13", "2"]
 
 _This fish is enormous - a sleek predator with bony scales and a long set of toothy jaws._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 8
+Flat-footed: 19
+AC modifiers: +11 natural, -2 size
+Hit points: 73 (7d8+42)
+Fort: +11
+Ref: +7
+Will: +5
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +13 (2d6+15 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Swallow: 2d6+10 bludgeoning damage, AC 15, hp 7
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 30, Dex 10, Con 23, Int 1, Wis 13, Cha 2
+Base attack bonus: +5
+Combat maneuver bonus: +17 (+21 grapple)
+Combat maneuver defense: 27 (can't be tripped)
+Feats: Improved Initiative, Iron Will, Lightning Reflexes, Power Attack
+Skills: Perception +11, Swim +18
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 8
-
-**Flat-footed:** 19
-
-**AC modifiers:** +11 natural, -2 size
-
-**Hit points:** 73 (7d8+42)
-
-**Fort:** +11
-
-**Ref:** +7
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +13 (2d6+15 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Swallow:** 2d6+10 bludgeoning damage, AC 15, hp 7
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 10, Con 23, Int 1, Wis 13, Cha 2
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +17 (+21 grapple)
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Feats:** Improved Initiative, Iron Will, Lightning Reflexes, Power Attack
-
-**Skills:** Perception +11, Swim +18
-
-**Ecology**
-
-**Environment:** temperate freshwater
-
-**Organization:** solitary, pair, or school (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate freshwater
+Organization: solitary, pair, or school (3-6)
+Treasure: None
+:::
 
 ### Description
 

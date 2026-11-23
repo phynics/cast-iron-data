@@ -29,79 +29,62 @@ abilities = ["19", "1", "19", "5", "12", "16"]
 
 _Glowing motes of electricity dance over this massive ursine creature's hairless hide._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: electrocution (10 ft., DC 18)
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Type: Magical beast
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**aura:** electrocution (10 ft., DC 18)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +8 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +9
+Will: +6
+Ferocity: present
+Immune: electricity
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Melee: bite +12 (2d6+4 plus 1d6 electricity), 2 claws +12 (1d6+4 plus 1d6 electricity)
+Reach: 5
+Space: 10
+Spec Att: howl of hungry lightning
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Perception:** +13
+::: statblock
+Ability scores: Str 19, Dex 1, Con 19, Int 5, Wis 12, Cha 16
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Combat Reflexes, Improved Initiative, Improved Iron Will, Iron Will, Power Attack
+Skills: Perception +13, Swim +12
+Languages: Aquan
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +8 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +6
-
-**Ferocity:** present
-
-**Immune:** electricity
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Melee:** bite +12 (2d6+4 plus 1d6 electricity), 2 claws +12 (1d6+4 plus 1d6 electricity)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** howl of hungry lightning
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 1, Con 19, Int 5, Wis 12, Cha 16
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Improved Iron Will, Iron Will, Power Attack
-
-**Skills:** Perception +13, Swim +12
-
-**Languages:** Aquan
-
-**Ecology**
-
-**Environment:** warm swamps
-
-**Organization:** solitary, pair, or ravage (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm swamps
+Organization: solitary, pair, or ravage (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

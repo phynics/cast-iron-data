@@ -31,107 +31,75 @@ abilities = ["23", "16", "19", "17", "18", "20"]
 _Dozens of antlers crown this slender biped's masked head. Its wicked claws clutch a bloodstained
 sack._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Native
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 24
+Touch: 12
+Flat-footed: 21
+AC modifiers: +3 Dex, +12 natural, -1 size
+Hit points: 115 (12d10+48)
+Fort: +12
+Ref: +7
+Will: +12
+Dr: 10/silver
+Immune: disease, fire, poison, fear
+Resist: acid 10, cold 10
+Sr: 20
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: 2 claws +17 (1d8+6/19-20 plus [grab](ref/umr/grab)), gore +17 (2d6+6)
+Reach: 10
+Rend: 2 claws, 2d6+6
+Space: 10
+Spec Att: disemboweling critical, harvest heart
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+Constant: pass without trace, speak with animals
+At will: atavism (DC 19), dominate animal (DC 18), transport via plants, self plus 50 lbs. of objects only
+Per day: 3/day: air walk, snare, spike stones (DC 19), summon nature's ally VII, animals only\
+1/day: summon (level 3, 1 [baykok](ref/monster/baykok) 35%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil, Native
+::: statblock
+Ability scores: Str 23, Dex 16, Con 19, Int 17, Wis 18, Cha 20
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 32
+Feats: Blind-Fight, Combat Casting, Improved Critical (claws), Improved Initiative, Power Attack, Vital Strike
+Skills: Bluff +20, Climb +14, Craft (trap) +18, Handle Animal +20, Knowledge (nature) +18, Perception +19
+Languages: Abyssal, Aklo, Common, Druidic, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 12
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 Dex, +12 natural, -1 size
-
-**Hit points:** 115 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +12
-
-**Dr:** 10/silver
-
-**Immune:** disease, fire, poison, fear
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** 2 claws +17 (1d8+6/19-20 plus [grab](ref/umr/grab)), gore +17 (2d6+6)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 2d6+6
-
-**Space:** 10
-
-**Spec Att:** disemboweling critical, harvest heart
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Constant:**
-
-- pass without trace, speak with animals
-
-**At will:**
-
-- atavism (DC 19), dominate animal (DC 18), transport via plants, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: air walk, snare, spike stones (DC 19), summon nature's ally VII, animals only
-- 1/day: summon (level 3, 1 [baykok](ref/monster/baykok) 35%)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 16, Con 19, Int 17, Wis 18, Cha 20
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 32
-
-**Feats:** Blind-Fight, Combat Casting, Improved Critical (claws), Improved Initiative, Power
-Attack, Vital Strike
-
-**Skills:** Bluff +20, Climb +14, Craft (trap) +18, Handle Animal +20, Knowledge (nature) +18,
-Perception +19
-
-**Languages:** Abyssal, Aklo, Common, Druidic, Sylvan;
-_[speak with animals](ref/spell/speak-with-animals)_
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary, pair, or hunt (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest
+Organization: solitary, pair, or hunt (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

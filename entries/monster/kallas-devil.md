@@ -33,96 +33,68 @@ _Growing from the back of a horse-like beast is the torso of a sea hag with gros
 and large, clawed hands. Its tangled web of stringy hair does not hide the disturbing fact that the
 hideous creature has no skin, and is built of gore and viscera._
 
-**Challenge rating:** 9
-
 **Variant nuckelavee**
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 20)
+::: statblock
+Challenge rating: 9
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 20)
+Type: fey
+Initiative: +5
+Size: large
+Alignment: Neutral evil
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 22
+Touch: 16
+Flat-footed: 15
+AC modifiers: +5 Dex, +2 dodge, +6 natural, -1 size
+Hit points: 102 (12d6+60)
+Fort: +9
+Ref: +15
+Will: +10
+Dr: 10/cold iron
+Immune: poison, disease
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft., swim 50 ft.
+Br Weap: 30-ft. cone, 10d6, Reflex DC 21 half, usable every 1d4 rounds
+Melee: mwk trident +11/+6 (2d6+5), bite +10 (1d8+5 plus disease), 2 hooves +5 (1d6+2 plus disease)
+Reach: 5
+Space: 10
+Spec Att: evil eye
+Trample: 1d6+7, DC 21
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+Per day: 3/day: black tentacles, call lightning, stinking cloud (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 16
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +2 dodge, +6 natural, -1 size
-
-**Hit points:** 102 (12d6+60)
-
-**Fort:** +9
-
-**Ref:** +15
-
-**Will:** +10
-
-**Dr:** 10/cold iron
-
-**Immune:** poison, disease
-
-**Offense**
-
-**Speed:** 50 ft., swim 50 ft.
-
-**Br Weap:** 30-ft. cone, 10d6, Reflex DC 21 half, usable every 1d4 rounds
-
-**Melee:** mwk trident +11/+6 (2d6+5), bite +10 (1d8+5 plus disease), 2 hooves +5 (1d6+2 plus
-disease)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** evil eye
-
-**Trample:** 1d6+7, DC 21
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**Per day:**
-
-- 3/day: black tentacles, call lightning, stinking cloud (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 20, Con 20, Int 13, Wis 15, Cha 18
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 29 (33 vs. trip)
-
-**Feats:** Dodge, Lightning Reflexes, Lightning Stance, Mobility, Spring Attack, Wind Stance
-
-**Skills:** Acrobatics +20 (+28 when jumping), Escape Artist +20, Intimidate +16, Knowledge (nature)
-+16, Perception +17, Stealth +16, Swim +28
-
-**Languages:** Aklo, Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious),
-[undersized weapons](ref/umr/undersized-weapons)
-
-**Gear:** mwk trident
+::: statblock
+Ability scores: Str 21, Dex 20, Con 20, Int 13, Wis 15, Cha 18
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 29 (33 vs. trip)
+Feats: Dodge, Lightning Reflexes, Lightning Stance, Mobility, Spring Attack, Wind Stance
+Skills: Acrobatics +20 (+28 when jumping), Escape Artist +20, Intimidate +16, Knowledge (nature) +16, Perception +17, Stealth +16, Swim +28
+Languages: Aklo, Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious), [undersized weapons](ref/umr/undersized-weapons)
+Gear: mwk trident
+:::
 
 ### Special Abilities
 

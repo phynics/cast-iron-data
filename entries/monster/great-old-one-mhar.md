@@ -31,120 +31,81 @@ abilities = ["42", "13", "38", "28", "31", "29"]
 _Eight pairs of crystalline legs support this enormous volcano. The volcano's crater constantly
 spews smoke and roiling lava._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+Type: aberration
+aura: cloak of ash (30 ft.), unspeakable presence (300 ft., DC 35)
+blindsight: 120
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +15
+Perception: +45
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Great Old One
+tremorsense: 600
+Experience points: 2,457,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** cloak of ash (30 ft.), unspeakable presence (300 ft., DC 35)
+::: statblock
+Armor class: 43
+Touch: 13
+Flat-footed: 42
+AC modifiers: +1 Dex, +10 insight, +30 natural, -8 size
+Hit points: 592 (32d8+448)
+Fort: +24
+Ref: +13
+Will: +28
+Defensive abilities: earthen regeneration, insanity (DC 35)
+Dr: 15/epic and good
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, fire, mind-affecting effects, paralysis, petrification, [plane shift](ref/spell/plane-shift)
+Regen: 20 (electricity, see below)
+Resist: acid 30, electricity 30, sonic 10
+Sr: 37
+:::
 
-**blindsight:** 120
+### Offense
 
-**Alignment:** Chaotic evil
+::: statblock
+Speed: 40 ft., burrow 120 ft.
+M Power: 10/day, surge +1d12
+Melee: 4 claws +33 (4d12+16/19-20 plus 2d6 fire)
+Reach: 50
+Space: 50
+Spec Att: taphophobic dreams, volcanic tempest
+:::
 
-**Size:** colossal
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 32
+Concentration: +41
+At will: dimension door, dream, greater dispel magic, insanity (DC 26), mindwipe (DC 23), nightmare (DC 24), synesthesia (DC 22), wall of fire, wall of stone
+Per day: 3/day: demand (DC 27), earthquake (DC 27), quickened feeblemind (DC 24)\
+1/day: meteor swarm (DC 28), microcosm (DC 28), symbol of insanity (DC 27)
+:::
 
-**Initiative:** +15
+### Statistics
 
-**Perception:** +45
+::: statblock
+Ability scores: Str 42, Dex 13, Con 38, Int 28, Wis 31, Cha 29
+Base attack bonus: +24
+Combat maneuver bonus: +48 (+52 bull rush)
+Combat maneuver defense: 69 (71 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Vital Strike, Improved Bull Rush, Improved Critical (claw), Improved Initiative, Improved Lightning Reflexes, Improved Vital Strike, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Stunning Critical, Vital Strike, Weapon Focus (claw)
+Skills: Climb +51
+Languages: Aklo, Ignan, Terran; [telepathy](ref/umr/telepathy) (100 ft.)
+Special qualities: massive, otherworldly insight
+Faith: Mhar
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Chaotic, Evil, Great Old One
-
-**tremorsense:** 600
-
-**Experience points:** 2,457,600
-
-**Armor class:** 43
-
-**Touch:** 13
-
-**Flat-footed:** 42
-
-**AC modifiers:** +1 Dex, +10 insight, +30 natural, -8 size
-
-**Hit points:** 592 (32d8+448)
-
-**Fort:** +24
-
-**Ref:** +13
-
-**Will:** +28
-
-**Defensive abilities:** earthen regeneration, insanity (DC 35)
-
-**Dr:** 15/epic and good
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain, fire,
-mind-affecting effects, paralysis, petrification, [plane shift](ref/spell/plane-shift)
-
-**Regen:** 20 (electricity, see below)
-
-**Resist:** acid 30, electricity 30, sonic 10
-
-**Sr:** 37
-
-**Offense**
-
-**Speed:** 40 ft., burrow 120 ft.
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 4 claws +33 (4d12+16/19-20 plus 2d6 fire)
-
-**Reach:** 50
-
-**Space:** 50
-
-**Spec Att:** taphophobic dreams, volcanic tempest
-
-**Spell-Like Abilities**
-
-**Caster level:** 32
-
-**Concentration:** +41
-
-**At will:**
-
-- dimension door, dream, greater dispel magic, insanity (DC 26), mindwipe (DC 23), nightmare (DC
-  24), synesthesia (DC 22), wall of fire, wall of stone
-
-**Per day:**
-
-- 3/day: demand (DC 27), earthquake (DC 27), quickened feeblemind (DC 24)
-- 1/day: meteor swarm (DC 28), microcosm (DC 28), symbol of insanity (DC 27)
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 13, Con 38, Int 28, Wis 31, Cha 29
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +48 (+52 bull rush)
-
-**Combat maneuver defense:** 69 (71 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Vital Strike,
-Improved Bull Rush, Improved Critical (claw), Improved Initiative, Improved Lightning Reflexes,
-Improved Vital Strike, Lightning Reflexes, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Stunning Critical, Vital Strike,
-Weapon Focus (claw)
-
-**Skills:** Climb +51
-
-**Languages:** Aklo, Ignan, Terran; [telepathy](ref/umr/telepathy) (100 ft.)
-
-**Special qualities:** massive, otherworldly insight
-
-**Faith:** Mhar
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary (unique)
-
-**Treasure:** Double
+::: statblock
+Environment: any land
+Organization: solitary (unique)
+Treasure: Double
+:::
 
 ### Special Abilities
 

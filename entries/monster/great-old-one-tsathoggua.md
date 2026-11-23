@@ -31,172 +31,98 @@ abilities = ["48", "33", "46", "31", "32", "35"]
 _Neither quite humanoid nor quite toad, this lumbering monstrosity maintains a malevolent expression
 on its bat-like face._
 
-**Challenge rating:** 29
-
-**Type:** aberration
-
-**aura:** unspeakable presence (300 ft., DC 38, 10 rounds)
-
-**Alignment:** Chaotic evil
-
-**Initiative:** +21
-
-**Size:** large
-
-**Perception:** +47
-
-**Senses:** Darkvision 60 ft., See in darkness, True seeing
-
-**Subtype:** Chaotic, Evil, Great Old One
-
-**Experience points:** 6,553,600
-
-**Armor class:** 47
-
-**Touch:** 30
-
-**Flat-footed:** 36
-
-**AC modifiers:** +11 Dex, +10 insight, +17 natural, -1 size
-
-**Hit points:** 742 (33d8+594)
-
-**Fort:** +29
-
-**Ref:** +24
-
-**Will:** +29
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, immortality,
-insanity (DC 38)
-
-**Dr:** 15/epic and lawful
-
-**Fh:** 25
-
-**Immune:** ability damage, ability drain, acid, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, petrification
-
-**Resist:** electricity 30, sonic 30
-
-**Sr:** 40
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Constrict:** 4d6+25
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** bite +42 (8d10+28/18-20/×3 plus feed), 2 claws +42 (5d6+28/18-20/×3 plus
-[grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** consume spellcaster, create spawn, feed, outcast's dreams
-
-**Spell-Like Abilities**
-
-**Caster level:** 29
-
-**Concentration:** +41
-
-**Constant:**
-
-- air walk, freedom of movement, tongues, true seeing
-
-**At will:**
-
-- astral projection, dimension door, dream, greater dispel magic, insanity (DC 29), nightmare (DC
-  27), sending
-
-**Per day:**
-
-- 3/day: demand (DC 30), quickened feeblemind (DC 27), hungry pit (DC 27), power word stun
-- 1/day: maze, weird (DC 31), wish
-
-**Spells Known**
-
-**Caster level:** 29
-
-**Concentration:** +41
-
-**9th-level spells:**
-
-- 7/day: imprisonment (DC 31), time stop
-
-**8th-level spells:**
-
-- 8/day: polymorph any object (DC 30), prismatic wall (DC 30)
-
-**7th-level spells:**
-
-- 8/day: greater teleport, word of chaos (DC 29)
-
-**6th-level spells:**
-
-- 8/day: heal, word of recall
-
-**5th-level spells:**
-
-- 8/day: dominate person (DC 27), wall of force
-
-**4th-level spells:**
-
-- 9/day: black tentacles, greater magic fang
-
-**3rd-level spells:**
-
-- 9/day: displacement, fly
-
-**2nd-level spells:**
-
-- 9/day: command undead (DC 24), invisibility
-
-**1st-level spells:**
-
-- 9/day: mage armor, reduce person (DC 23)
-
-**Cantrips:**
-
-- At will: arcane mark, bleed, dancing lights, detect magic, ghost sound (DC 22), prestidigitation
-
-**Statistics**
-
-**Ability scores:** Str 48, Dex 33, Con 46, Int 31, Wis 32, Cha 35
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +44 (+48 sunder)
-
-**Combat maneuver defense:** 75 (77 vs. sunder)
-
-**Feats:** Arcane Strike, Blinding Critical, Combat Reflexes, Critical Focus, Empower Spell, Eschew
-Materials, Greater Sunder, Greater Vital Strike, Improved Critical (bite), Improved Critical (claw),
-Improved Sunder, Improved Vital Strike, Lightning Reflexes, Power Attack, Quicken Spell, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Vital Strike
-
-**Skills:** Bluff +45, Fly +45, Intimidate +48, Knowledge (arcana) +46, Perception +47, Sense Motive
-+44, Spellcraft +46, Stealth +43, Use Magic Device +45
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 300 ft., _[tongues](ref/spell/tongues)_
-
-**Special qualities:** adaptive spellcasting, item creation, powerful blows
-
-**Faith:** Tsathoggua
-
-**Ecology**
-
-**Environment:** any (Darklands)
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Challenge rating: 29
+Type: aberration
+aura: unspeakable presence (300 ft., DC 38, 10 rounds)
+Alignment: Chaotic evil
+Initiative: +21
+Size: large
+Perception: +47
+Senses: Darkvision 60 ft., See in darkness, True seeing
+Subtype: Chaotic, Evil, Great Old One
+Experience points: 6,553,600
+:::
+
+### Defense
+
+::: statblock
+Armor class: 47
+Touch: 30
+Flat-footed: 36
+AC modifiers: +11 Dex, +10 insight, +17 natural, -1 size
+Hit points: 742 (33d8+594)
+Fort: +29
+Ref: +24
+Will: +29
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, immortality, insanity (DC 38)
+Dr: 15/epic and lawful
+Fh: 25
+Immune: ability damage, ability drain, acid, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification
+Resist: electricity 30, sonic 30
+Sr: 40
+:::
+
+### Offense
+
+::: statblock
+Speed: 50 ft.
+Constrict: 4d6+25
+M Power: 10/day, surge +1d12
+Melee: bite +42 (8d10+28/18-20/×3 plus feed), 2 claws +42 (5d6+28/18-20/×3 plus [grab](ref/umr/grab))
+Reach: 10
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: consume spellcaster, create spawn, feed, outcast's dreams
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 29
+Concentration: +41
+Constant: air walk, freedom of movement, tongues, true seeing
+At will: astral projection, dimension door, dream, greater dispel magic, insanity (DC 29), nightmare (DC 27), sending
+Per day: 3/day: demand (DC 30), quickened feeblemind (DC 27), hungry pit (DC 27), power word stun\
+1/day: maze, weird (DC 31), wish
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 29
+Concentration: +41
+9th-level spells: 7/day: imprisonment (DC 31), time stop
+8th-level spells: 8/day: polymorph any object (DC 30), prismatic wall (DC 30)
+7th-level spells: 8/day: greater teleport, word of chaos (DC 29)
+6th-level spells: 8/day: heal, word of recall
+5th-level spells: 8/day: dominate person (DC 27), wall of force
+4th-level spells: 9/day: black tentacles, greater magic fang
+3rd-level spells: 9/day: displacement, fly
+2nd-level spells: 9/day: command undead (DC 24), invisibility
+1st-level spells: 9/day: mage armor, reduce person (DC 23)
+Cantrips: At will: arcane mark, bleed, dancing lights, detect magic, ghost sound (DC 22), prestidigitation
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 48, Dex 33, Con 46, Int 31, Wis 32, Cha 35
+Base attack bonus: +24
+Combat maneuver bonus: +44 (+48 sunder)
+Combat maneuver defense: 75 (77 vs. sunder)
+Feats: Arcane Strike, Blinding Critical, Combat Reflexes, Critical Focus, Empower Spell, Eschew Materials, Greater Sunder, Greater Vital Strike, Improved Critical (bite), Improved Critical (claw), Improved Sunder, Improved Vital Strike, Lightning Reflexes, Power Attack, Quicken Spell, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Vital Strike
+Skills: Bluff +45, Fly +45, Intimidate +48, Knowledge (arcana) +46, Perception +47, Sense Motive +44, Spellcraft +46, Stealth +43, Use Magic Device +45
+Languages: Aklo; [telepathy](ref/umr/telepathy) 300 ft., _[tongues](ref/spell/tongues)_
+Special qualities: adaptive spellcasting, item creation, powerful blows
+Faith: Tsathoggua
+:::
+
+### Ecology
+
+::: statblock
+Environment: any (Darklands)
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

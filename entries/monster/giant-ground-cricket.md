@@ -28,69 +28,57 @@ abilities = ["15", "14", "15", "-", "11", "2"]
 
 _Long spines jut from the legs and back of this enormous cricket._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 natural
+Hit points: 26 (4d8+8)
+Fort: +6
+Ref: +3
+Will: +1
+Defensive abilities: spines
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., burrow 10 ft., climb 20 ft.
+Melee: bite +5 (1d8+3)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 15, Dex 14, Con 15, Int -, Wis 11, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 17 (25 vs. trip)
+Skills: Acrobatics +2 (+10 when jumping), Climb +10
+Racial Modifiers: +8 Acrobatics when jumping
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 natural
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +1
-
-**Defensive abilities:** spines
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft., climb 20 ft.
-
-**Melee:** bite +5 (1d8+3)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 15, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17 (25 vs. trip)
-
-**Skills:** Acrobatics +2 (+10 when jumping), Climb +10
-
-**Racial Modifiers:** +8 Acrobatics when jumping
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or colony (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or colony (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

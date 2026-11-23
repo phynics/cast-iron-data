@@ -31,69 +31,59 @@ abilities = ["14", "17", "16", "2", "15", "7"]
 _This majestic beast stands the height of a man at its shoulders, a many-tipped rack of proud
 antlers crowning its head._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +8
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: gore +3 (1d6+2), 2 hooves -2 (1d3+1)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
-
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +3 (1d6+2), 2 hooves -2 (1d3+1)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 16, Int 2, Wis 15, Cha 7
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 16 (20 vs. trip)
-
-**Feats:** Lightning Reflexes, Run^B^
-
-**Skills:** Perception +7
+::: statblock
+Ability scores: Str 14, Dex 17, Con 16, Int 2, Wis 15, Cha 7
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 16 (20 vs. trip)
+Feats: Lightning Reflexes, Run^B^
+Skills: Perception +7
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** cold or temperate plains
-
-**Organization:** solitary, pair, or herd (3-50)
-
-**Treasure:** None
+::: statblock
+Environment: cold or temperate plains
+Organization: solitary, pair, or herd (3-50)
+Treasure: None
+:::
 
 ### Description
 

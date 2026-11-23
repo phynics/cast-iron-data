@@ -32,113 +32,80 @@ abilities = ["32", "22", "22", "13", "21", "17"]
 _Tumorous, misshapen vines laden with dark red fruit make up the form of this lumbering humanoid
 creature, and its face is marked only by a pair of glowing, crimson eyes._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Initiative: +10
+Size: large
+Alignment: Neutral evil
+Perception: +32
+Senses: Low-light vision
+Type: plant
+tremorsense: 30
+Experience points: 76,800
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 31
+Touch: 15
+Flat-footed: 25
+AC modifiers: +6 Dex, +16 natural, -1 size
+Hit points: 252 (24d8+144)
+Fort: +20
+Ref: +14
+Will: +15
+Amorph: present
+Dr: 10/magic and slashing
+Fh: 15
+Immune: death effects, energy drain, negative energy, [plant traits](ref/umr/plant-traits)
+Resist: cold 10, fire 10
+Sr: 27
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +32
+::: statblock
+Speed: 30 ft., burrow 15 ft.
+B Drain: 1d4 Constitution
+Bleed: 1d6
+Melee: 2 slam +28 (2d4+11 plus [grab](ref/umr/grab)), 4 tentacles +27 (1d6+5 plus bleed and pull)
+Pull: tentacle, 5 ft.
+Ranged: bombardment +23 touch (8d6 negative energy plus splash)
+Reach: 10
+Reach P: 30 ft. with tentacles
+Space: 10
+Spec Att: bombardment, create spawn
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 24
+Concentration: +27
+Per day: 3/day: wall of thorns\
+1/day: animate plants (DC 20)
+:::
 
-**Type:** plant
+### Statistics
 
-**tremorsense:** 30
+::: statblock
+Ability scores: Str 32, Dex 22, Con 22, Int 13, Wis 21, Cha 17
+Base attack bonus: +18
+Combat maneuver bonus: +30
+Combat maneuver defense: 46 (48 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Dimensional Agility, Dimensional Assault, Dimensional Dervish, Dimensional Savant, Improved Initiative, Improved Trip, Iron Will, Multiattack, Power Attack, Weapon Focus (tentacle)
+Skills: Perception +32, Sense Motive +29, Stealth +29
+Languages: Azlanti, Sylvan (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: bloodfruit, fieldbound
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 15
-
-**Flat-footed:** 25
-
-**AC modifiers:** +6 Dex, +16 natural, -1 size
-
-**Hit points:** 252 (24d8+144)
-
-**Fort:** +20
-
-**Ref:** +14
-
-**Will:** +15
-
-**Amorph:** present
-
-**Dr:** 10/magic and slashing
-
-**Fh:** 15
-
-**Immune:** death effects, energy drain, negative energy, [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft., burrow 15 ft.
-
-**B Drain:** 1d4 Constitution
-
-**Bleed:** 1d6
-
-**Melee:** 2 slam +28 (2d4+11 plus [grab](ref/umr/grab)), 4 tentacles +27 (1d6+5 plus bleed and
-pull)
-
-**Pull:** tentacle, 5 ft.
-
-**Ranged:** bombardment +23 touch (8d6 negative energy plus splash)
-
-**Reach:** 10
-
-**Reach P:** 30 ft. with tentacles
-
-**Space:** 10
-
-**Spec Att:** bombardment, create spawn
-
-**Spell-Like Abilities**
-
-**Caster level:** 24
-
-**Concentration:** +27
-
-**Per day:**
-
-- 3/day: wall of thorns
-- 1/day: animate plants (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 22, Con 22, Int 13, Wis 21, Cha 17
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 46 (48 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Dimensional Agility, Dimensional Assault, Dimensional
-Dervish, Dimensional Savant, Improved Initiative, Improved Trip, Iron Will, Multiattack, Power
-Attack, Weapon Focus (tentacle)
-
-**Skills:** Perception +32, Sense Motive +29, Stealth +29
-
-**Languages:** Azlanti, Sylvan (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** bloodfruit, fieldbound
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

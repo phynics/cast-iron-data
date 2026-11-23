@@ -26,71 +26,58 @@ special_qualities = "weak flier"
 abilities = ["3", "15", "10", "2", "12", "7"]
 +++
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 40 ft., climb 10 ft., fly 40 ft. (poor)
+Melee: bite +4 (1d4-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 15, Con 10, Int 2, Wis 12, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6
+Feats: Weapon Finesse
+Skills: Climb +10
+Special qualities: weak flier
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft., climb 10 ft., fly 40 ft. (poor)
-
-**Melee:** bite +4 (1d4-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 10, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +10
-
-**Special qualities:** weak flier
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** single, pair, or nest (4-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests
+Organization: single, pair, or nest (4-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

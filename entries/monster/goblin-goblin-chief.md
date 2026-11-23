@@ -30,53 +30,42 @@ special_qualities = "armor training 2"
 abilities = ["18", "16", "14", "10", "12", "6"]
 +++
 
-**Challenge rating:** 9
-
 **Oversized goblin [fighter](ref/class/fighter) 10**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 9
+Type: humanoid
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid
+Experience points: 6,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 19
+AC modifiers: +9 armor, +3 Dex
+Hit points: 89 (10d10+30)
+Fort: +10
+Ref: +7
+Will: +7 (+3 vs. fear)
+Defensive abilities: bravery +3
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +11
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Goblinoid
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +9 armor, +3 Dex
-
-**Hit points:** 89 (10d10+30)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +7 (+3 vs. fear)
-
-**Defensive abilities:** bravery +3
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 horsechopper +17/+12 (1d10+9/19-20/×3)
-
-**Ranged:** composite longbow +14/+9 (1d8+5/×3)
-
-**Spec Att:** weapon training (polearms +2, bows +1)
+::: statblock
+Speed: 30 ft.
+Melee: +1 horsechopper +17/+12 (1d10+9/19-20/×3)
+Ranged: composite longbow +14/+9 (1d8+5/×3)
+Spec Att: weapon training (polearms +2, bows +1)
+:::
 
 ### Tactics
 
@@ -84,36 +73,27 @@ abilities = ["18", "16", "14", "10", "12", "6"]
 tries to trip any approaching enemies. He tries to keep enemies at a distance so he can take
 advantage of his weapon's reach.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 18, Dex 16, Con 14, Int 10, Wis 12, Cha 6
+::: statblock
+Ability scores: Str 18, Dex 16, Con 14, Int 10, Wis 12, Cha 6
+Base attack bonus: +10
+Combat maneuver bonus: +14 (+16 trip)
+Combat maneuver defense: 27
+Feats: Combat Reflexes, Greater Trip, Greater Weapon Focus (horsechopper), Improved Critical (horsechopper), Improved Initiative, Iron Will, Power Attack, Step Up, Tripping Strike, Weapon Focus (horsechopper), Weapon Specialization (horsechopper)
+Skills: Intimidate +6, Perception +11, Ride +4, Stealth +9
+Racial Modifiers: +4 Ride, +4 Stealth
+Languages: Goblin
+Special qualities: armor training 2
+Combat gear: 3 potion of cure light wounds, potion of fly, potion of invisibility
+Other gear: mwk full plate, +1 horsechopper, cl20, I-campfire bead, I-cloak of fangs, I-necklace of fireballs/type I, 2,119 gp
+:::
 
-**Base attack bonus:** +10
+### Ecology
 
-**Combat maneuver bonus:** +14 (+16 trip)
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Reflexes, Greater Trip, Greater Weapon Focus (horsechopper), Improved Critical
-(horsechopper), Improved Initiative, Iron Will, Power Attack, Step Up, Tripping Strike, Weapon Focus
-(horsechopper), Weapon Specialization (horsechopper)
-
-**Skills:** Intimidate +6, Perception +11, Ride +4, Stealth +9
-
-**Racial Modifiers:** +4 Ride, +4 Stealth
-
-**Languages:** Goblin
-
-**Special qualities:** armor training 2
-
-**Combat gear:** 3 potion of cure light wounds, potion of fly, potion of invisibility
-
-**Other gear:** mwk full plate, +1 horsechopper, cl20, I-campfire bead, I-cloak of fangs, I-necklace
-of fireballs/type I, 2,119 gp
-
-**Ecology**
-
-**Environment:** temperate forest and plains (usually coastal regions)
+::: statblock
+Environment: temperate forest and plains (usually coastal regions)
+:::
 
 ### Description
 

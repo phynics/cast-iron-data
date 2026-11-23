@@ -28,75 +28,60 @@ special_qualities = "castle"
 abilities = ["42", "9", "-", "-", "15", "1"]
 +++
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Size: colossal
+Type: construct
+Initiative: -1
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 102,400
+:::
 
-**Size:** colossal
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 31
+Touch: 1
+Flat-footed: 31
+AC modifiers: -1 Dex, +30 natural, -8 size
+Hit points: 206 (23d10+80)
+Fort: +7
+Ref: +6
+Will: +9
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** -1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: gore +31 (4d8+16), 2 slams +31 (3d6+16)
+Reach: 30
+Space: 30
+Spec Att: quake
+Trample: 3d6+24, DC 37
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 42, Dex 9, Con -, Int -, Wis 15, Cha 1
+Base attack bonus: +23
+Combat maneuver bonus: +47
+Combat maneuver defense: 56 (60 vs. trip)
+Special qualities: castle
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 1
-
-**Flat-footed:** 31
-
-**AC modifiers:** -1 Dex, +30 natural, -8 size
-
-**Hit points:** 206 (23d10+80)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +9
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +31 (4d8+16), 2 slams +31 (3d6+16)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** quake
-
-**Trample:** 3d6+24, DC 37
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 9, Con -, Int -, Wis 15, Cha 1
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +47
-
-**Combat maneuver defense:** 56 (60 vs. trip)
-
-**Special qualities:** castle
-
-**Ecology**
-
-**Environment:** temperate and warm deserts
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate and warm deserts
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

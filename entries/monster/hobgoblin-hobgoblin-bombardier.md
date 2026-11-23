@@ -33,67 +33,49 @@ abilities = ["12", "18", "16", "14", "10", "8"]
 _Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant
 eyes._
 
-**Challenge rating:** 7
-
 **Hobgoblin [alchemist](ref/class/alchemist) ([grenadier](ref/arc-alchemist/grenadier)) 8**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 7
+Type: humanoid
+Initiative: +4
+Alignment: Lawful evil
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid
+Experience points: 3,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 armor, +4 Dex
+Hit points: 71 (8d8+32)
+Fort: +9
+Ref: +10
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 30 ft.
+Melee: mwk short sword +8/+3 (1d6+1/19-20)
+Ranged: bomb +12/+7 (4d6+2 fire)
+Spec Att: alchemical weapon (swift action), bomb 14/day (4d6+2 fire, DC 16), directed blast
+:::
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Goblinoid
-
-**Experience points:** 3,200
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +4 Dex
-
-**Hit points:** 71 (8d8+32)
-
-**Fort:** +9
-
-**Ref:** +10
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk short sword +8/+3 (1d6+1/19-20)
-
-**Ranged:** bomb +12/+7 (4d6+2 fire)
-
-**Spec Att:** alchemical weapon (swift action), bomb 14/day (4d6+2 fire, DC 16), directed blast
-
-**Spellcasting**
-
-**Caster level:** 8
-
-**3rd-level spells:**
-
-- fly, haste
-
-**2nd-level spells:**
-
-- barkskin, cat's grace, false life, invisibility, resist energy
-
-**1st-level spells:**
-
-- bomber's eye, expeditious retreat, shield, true strike, 2
+::: statblock
+title = "Spellcasting"
+Caster level: 8
+3rd-level spells: fly, haste
+2nd-level spells: barkskin, cat's grace, false life, invisibility, resist energy
+1st-level spells: bomber's eye, expeditious retreat, shield, true strike, 2
+:::
 
 ### Tactics
 
@@ -102,37 +84,26 @@ grouped closely together. He uses unstable accelerants with the bombs that seem 
 He saves most of his alchemical items to use with the alchemical weapon ability if he gets stuck
 fighting in melee range. In this circumstance, he drinks his mutagen before attacking.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 12, Dex 18, Con 16, Int 14, Wis 10, Cha 8
+::: statblock
+Ability scores: Str 12, Dex 18, Con 16, Int 14, Wis 10, Cha 8
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 21
+Feats: Point-Blank Shot, Precise Shot, Throw Anything, Toughness, Weapon Focus (bomb)
+Skills: Craft (alchemy) +15, Heal +7, Knowledge (arcana) +11, Knowledge (engineering) +8, Perception +16, Spellcraft +13, Use Magic Device +6
+Languages: Aklo, Common, Goblin, Sylvan
+Special qualities: alchemy (alchemy crafting +8, identify potions), alternate racial features, discoveries ([concussive bomb](ref/discovery/concussive-bomb) \[4d4+2 sonic plus deafness\], [fast bombs](ref/discovery/fast-bombs), [precise bombs](ref/discovery/precise-bombs) \[2 squares\], [smoke bomb](ref/discovery/smoke-bomb), [stink bomb](ref/discovery/stink-bomb)), mutagen (+4/-2, +2 natural, 80 minutes), swift alchemy
+Combat gear: Dcure light wounds/40 charges, 3 acid, 4 alchemist's fire, 2 sss, 2 tanglefoot bags, 3 unstable accelerant
+Other gear: +2 leather armor, bombchucker, mwk short sword, I-eyes of the eagle, 30 gp
+:::
 
-**Base attack bonus:** +6
+### Ecology
 
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21
-
-**Feats:** Point-Blank Shot, Precise Shot, Throw Anything, Toughness, Weapon Focus (bomb)
-
-**Skills:** Craft (alchemy) +15, Heal +7, Knowledge (arcana) +11, Knowledge (engineering) +8,
-Perception +16, Spellcraft +13, Use Magic Device +6
-
-**Languages:** Aklo, Common, Goblin, Sylvan
-
-**Special qualities:** alchemy (alchemy crafting +8, identify potions), alternate racial features,
-discoveries ([concussive bomb](ref/discovery/concussive-bomb) \[4d4+2 sonic plus deafness\],
-[fast bombs](ref/discovery/fast-bombs), [precise bombs](ref/discovery/precise-bombs) \[2 squares\],
-[smoke bomb](ref/discovery/smoke-bomb), [stink bomb](ref/discovery/stink-bomb)), mutagen (+4/-2, +2
-natural, 80 minutes), swift alchemy
-
-**Combat gear:** Dcure light wounds/40 charges, 3 acid, 4 alchemist's fire, 2 sss, 2 tanglefoot
-bags, 3 unstable accelerant
-
-**Other gear:** +2 leather armor, bombchucker, mwk short sword, I-eyes of the eagle, 30 gp
-
-**Ecology**
-
-**Environment:** temperate hills
+::: statblock
+Environment: temperate hills
+:::
 
 ### Special Abilities
 

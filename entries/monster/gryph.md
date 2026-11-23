@@ -30,67 +30,56 @@ abilities = ["11", "15", "14", "2", "12", "7"]
 _This hawk-sized avian looks much like a six-legged stork. Its feathers are unkempt and greasy, and
 its beak is razor-sharp._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 15 (2d10+4)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., fly 50 ft. (good)
+Melee: bite +5 (1d6/×3), claw +5 ([grab](ref/umr/grab))
+Spec Att: implant eggs
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 11, Dex 15, Con 14, Int 2, Wis 12, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +1 (+5 start grapple, +9 maintain grapple)
+Combat maneuver defense: 13 (21 vs. trip)
+Feats: Weapon Finesse
+Skills: Fly +8, Perception +5, Stealth +10
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (good)
-
-**Melee:** bite +5 (1d6/×3), claw +5 ([grab](ref/umr/grab))
-
-**Spec Att:** implant eggs
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 14, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1 (+5 start grapple, +9 maintain grapple)
-
-**Combat maneuver defense:** 13 (21 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +8, Perception +5, Stealth +10
-
-**Ecology**
-
-**Environment:** temperate forests or underground
-
-**Organization:** solitary, flock (2-8), or throng (9-20)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests or underground
+Organization: solitary, flock (2-8), or throng (9-20)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

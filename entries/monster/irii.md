@@ -32,119 +32,78 @@ abilities = ["26", "27", "28", "25", "21", "24"]
 _This strangely unnerving entity looks like a thin, graceful human, save for its insectile features
 and shimmering gossamer wings._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Alignment: LN or CN
+aura: aura of fate (30 ft.)
+Initiative: +12/+2; chronosurge
+Size: medium
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Shapechanger
+Experience points: 204,800
+:::
 
-**Alignment:** LN or CN
+### Defense
 
-**aura:** aura of fate (30 ft.)
+::: statblock
+Armor class: 34
+Touch: 26
+Flat-footed: 25
+AC modifiers: +8 Dex, +1 dodge, +7 insight, +8 natural
+Hit points: 333 (23d10+207)
+Fort: +16
+Ref: +22
+Will: +18
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, frozen moment, temporal insight, temporal mastery
+Dr: 15/chaos or lawful (see text)
+Fh: 10
+Immune: disease, paralysis, slow, stun
+Improved evasion: present
+Sr: 30
+:::
 
-**Initiative:** +12/+2; chronosurge
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 60 ft., fly 90 ft. (perfect)
+Melee: 2 +2 adamantine longswords +31/+26/+21/+16 (1d8+10/17-20)
+Sp Extra: (30 ft., fly 60 ft. without _[haste](ref/spell/haste)_)
+Spec Att: curse of time, temporal manipulation
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +26
+Constant: freedom of movement, haste, tongues
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: disintegrate (DC 23), quickened dispel magic, persistent image (DC 22), quickened slow (DC 20)\
+1/day: divination, heal, temporal stasis (DC 25), time stop
+Per year: wish
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 26, Dex 27, Con 28, Int 25, Wis 21, Cha 24
+Base attack bonus: +23
+Combat maneuver bonus: +31
+Combat maneuver defense: 57
+Feats: Double Slice, Flyby Attack, Greater Two-Weapon Fighting, Improved Critical (longsword), Improved Initiative, Improved Two-Weapon Fighting, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dispel magic, mirror image, slow), Two-Weapon Fighting, Weapon Focus (longsword)
+Skills: Acrobatics +34, Bluff +33, Disable Device +34, Disguise +30, Sense Motive +31, Spellcraft +30, Stealth +34, Use Magic Device +33
+Languages: Abyssal, Aklo, Celestial, Common; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Subtype:** Extraplanar, Shapechanger
+### Ecology
 
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 26
-
-**Flat-footed:** 25
-
-**AC modifiers:** +8 Dex, +1 dodge, +7 insight, +8 natural
-
-**Hit points:** 333 (23d10+207)
-
-**Fort:** +16
-
-**Ref:** +22
-
-**Will:** +18
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, frozen moment,
-temporal insight, temporal mastery
-
-**Dr:** 15/chaos or lawful (see text)
-
-**Fh:** 10
-
-**Immune:** disease, paralysis, slow, stun
-
-**Improved evasion:** present
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 60 ft., fly 90 ft. (perfect)
-
-**Melee:** 2 +2 adamantine longswords +31/+26/+21/+16 (1d8+10/17-20)
-
-**Sp Extra:** (30 ft., fly 60 ft. without _[haste](ref/spell/haste)_)
-
-**Spec Att:** curse of time, temporal manipulation
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +26
-
-**Constant:**
-
-- freedom of movement, haste, tongues
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: disintegrate (DC 23), quickened dispel magic, persistent image (DC 22), quickened slow (DC
-  20)
-- 1/day: divination, heal, temporal stasis (DC 25), time stop
-
-**Per year:**
-
-- wish
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 27, Con 28, Int 25, Wis 21, Cha 24
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 57
-
-**Feats:** Double Slice, Flyby Attack, Greater Two-Weapon Fighting, Improved Critical (longsword),
-Improved Initiative, Improved Two-Weapon Fighting, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (dispel magic, mirror image, slow), Two-Weapon
-Fighting, Weapon Focus (longsword)
-
-**Skills:** Acrobatics +34, Bluff +33, Disable Device +34, Disguise +30, Sense Motive +31,
-Spellcraft +30, Stealth +34, Use Magic Device +33
-
-**Languages:** Abyssal, Aklo, Celestial, Common; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any ([Dimension of Time](ref/rule/dimension-of-time))
-
-**Organization:** solitary or pair
-
-**Treasure:** Triple (2 +2 MA longswords); other treasure
+::: statblock
+Environment: any ([Dimension of Time](ref/rule/dimension-of-time))
+Organization: solitary or pair
+Treasure: Triple (2 +2 MA longswords); other treasure
+:::
 
 ### Special Abilities
 

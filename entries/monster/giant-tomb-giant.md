@@ -35,108 +35,76 @@ abilities = ["32", "17", "26", "13", "19", "14"]
 _This towering, lean figure is hairless and has smooth, milky white skin. A scythe gleams in her
 hands._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: humanoid
+Initiative: +3
+Size: large
+Alignment: Neutral evil
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 19,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 28
+Touch: 12
+Flat-footed: 25
+AC modifiers: +6 armor, +3 Dex, +10 natural, -1 size
+Hit points: 162 (13d8+104)
+Fort: +16
+Ref: +7
+Will: +10
+Defensive abilities: negative energy affinity
+Immune: death effects, paralysis
+Rock Ct: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., (30 ft. in armor)
+E Drain: 1 level, DC 18
+Melee: mwk scythe +20/+15 (2d6+16/19-20/×4 plus energy drain) or 2 slams +19 (1d6+11 plus energy drain)
+Ranged: rock +12 (1d8+11)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +14
+Constant: deathwatch
+At will: detect undead
+Per day: 3/day: make whole, sculpt corpse\
+1/day: animate dead, control undead (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 32, Dex 17, Con 26, Int 13, Wis 19, Cha 14
+Base attack bonus: +9
+Combat maneuver bonus: +21 (+23 trip)
+Combat maneuver defense: 34 (36 vs. trip)
+Feats: Combat Expertise, Improved Critical (scythe), Improved Iron Will, Improved Trip, Iron Will, Martial Weapon Proficiency (scythe), Power Attack
+Skills: Climb +12, Knowledge (religion) +14, Perception +15
+Languages: Common, Giant
+Special qualities: corpse stitcher, sinister synergy
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 12
-
-**Flat-footed:** 25
-
-**AC modifiers:** +6 armor, +3 Dex, +10 natural, -1 size
-
-**Hit points:** 162 (13d8+104)
-
-**Fort:** +16
-
-**Ref:** +7
-
-**Will:** +10
-
-**Defensive abilities:** negative energy affinity
-
-**Immune:** death effects, paralysis
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. in armor)
-
-**E Drain:** 1 level, DC 18
-
-**Melee:** mwk scythe +20/+15 (2d6+16/19-20/×4 plus energy drain) or 2 slams +19 (1d6+11 plus energy
-drain)
-
-**Ranged:** rock +12 (1d8+11)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +14
-
-**Constant:**
-
-- deathwatch
-
-**At will:**
-
-- detect undead
-
-**Per day:**
-
-- 3/day: make whole, sculpt corpse
-- 1/day: animate dead, control undead (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 17, Con 26, Int 13, Wis 19, Cha 14
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +21 (+23 trip)
-
-**Combat maneuver defense:** 34 (36 vs. trip)
-
-**Feats:** Combat Expertise, Improved Critical (scythe), Improved Iron Will, Improved Trip, Iron
-Will, Martial Weapon Proficiency (scythe), Power Attack
-
-**Skills:** Climb +12, Knowledge (religion) +14, Perception +15
-
-**Languages:** Common, Giant
-
-**Special qualities:** corpse stitcher, sinister synergy
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary, pair, or cabal (3-13)
-
-**Treasure:** Standard (mwk breastplate, mwk scythe)
+::: statblock
+Environment: any land or underground
+Organization: solitary, pair, or cabal (3-13)
+Treasure: Standard (mwk breastplate, mwk scythe)
+:::
 
 ### Special Abilities
 

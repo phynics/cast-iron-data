@@ -31,92 +31,70 @@ abilities = ["5", "18", "13", "10", "13", "14"]
 _Perched on the prickly legs of a cricket, this tiny creature has gossamer wings and the upper body
 of an elven woman._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: fey
+Initiative: +4
+Alignment: Neutral good
+Perception: +5
+Senses: Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 12
+AC modifiers: +4 Dex, +1 dodge, +2 size
+Hit points: 4 (1d6+1)
+Fort: +1
+Ref: +6
+Will: +3
+Dr: 5/cold iron
+Sr: 16
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., fly 40 ft. (average)
+Melee: short sword -1 (1d3-3/19-20)
+Ranged: longbow +6 (1d4-3/×3)
+Reach: 0
+Space: 2-1/2
+Spec Att: fiddle
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +11
+Per day: 3/day: disguise self, entangle (DC 13), invisibility, self only, pyrotechnics (DC 14)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 5, Dex 18, Con 13, Int 10, Wis 13, Cha 14
+Base attack bonus: +0
+Combat maneuver bonus: +2
+Combat maneuver defense: 10 (16 vs. trip)
+Feats: Dodge
+Skills: Acrobatics +8 (+12 jump), Escape Artist +8, Fly +12, Perception +5, Perform (string) +6, Stealth +16
+Racial Modifiers: +4 Acrobatics when jumping
+Languages: Common, Sylvan
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +1 dodge, +2 size
-
-**Hit points:** 4 (1d6+1)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +3
-
-**Dr:** 5/cold iron
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (average)
-
-**Melee:** short sword -1 (1d3-3/19-20)
-
-**Ranged:** longbow +6 (1d4-3/×3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** fiddle
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: disguise self, entangle (DC 13), invisibility, self only, pyrotechnics (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 18, Con 13, Int 10, Wis 13, Cha 14
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 10 (16 vs. trip)
-
-**Feats:** Dodge
-
-**Skills:** Acrobatics +8 (+12 jump), Escape Artist +8, Fly +12, Perception +5, Perform (string) +6,
-Stealth +16
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, gang (2-5), or band (6-11)
-
-**Treasure:** NPC gear (short sword, lb20); other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, gang (2-5), or band (6-11)
+Treasure: NPC gear (short sword, lb20); other treasure
+:::
 
 ### Special Abilities
 

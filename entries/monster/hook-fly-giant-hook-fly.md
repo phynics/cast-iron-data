@@ -30,67 +30,56 @@ abilities = ["11", "13", "14", "-", "11", "2"]
 _This enormous, horrifically bloated fly has a proboscis shaped like a serrated hook. Its
 many-faceted eyes smolder like hot coals._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: small
+Type: vermin
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft., fly 60 ft. (average)
+Melee: bite +3 (1d4 plus attach)
+Spec Att: death throes, spawn brood
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 11, Dex 13, Con 14, Int -, Wis 11, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +1 (+9 grapple when attached)
+Combat maneuver defense: 12 (20 vs. trip)
+Skills: Fly +3
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (average)
-
-**Melee:** bite +3 (1d4 plus attach)
-
-**Spec Att:** death throes, spawn brood
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 13, Con 14, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1 (+9 grapple when attached)
-
-**Combat maneuver defense:** 12 (20 vs. trip)
-
-**Skills:** Fly +3
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cloud (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or cloud (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

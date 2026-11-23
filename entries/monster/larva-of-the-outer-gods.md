@@ -31,104 +31,76 @@ abilities = ["20", "26", "23", "11", "20", "23"]
 _This creature is a terrifying amalgamation of chitinous scales, bloated flesh, unblinking eyes, and
 writhing tentacles._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: aberration
+Alignment: Chaotic neutral
+Initiative: +12
+Size: large
+Perception: +17
+Senses: Darkvision 60 ft., See in darkness
+Experience points: 51,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 32
+Touch: 17
+Flat-footed: 24
+AC modifiers: +8 Dex, +15 natural, -1 size
+Hit points: 207 (18d8+126)
+Fort: +14
+Ref: +14
+Will: +18
+Amorph: present
+Dr: 10/lawful
+Immune: cold, fire, sonic
+Regen: 10 (lawful spells and effects)
+Resist: acid 10, electricity 10
+Sr: 26
+:::
 
-**Initiative:** +12
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., fly 60 ft. (perfect)
+Melee: 8 tentacles +19 (1d6+2 plus poison)
+Reach: 15
+Space: 10
+Spec Att: liberated flesh, maddening song, poison
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+At will: dimensional anchor, summon instrument, teleport, self only
+Per day: 5/day: chaos hammer (DC 20), dispel magic, magic circle against law\
+3/day: control summoned creature (DC 20), deafening song bolt, song of discord (DC 21)\
+1/day: summon monster VIII, word of chaos (DC 23)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Experience points:** 51,200
+::: statblock
+Ability scores: Str 20, Dex 26, Con 23, Int 11, Wis 20, Cha 23
+Base attack bonus: +13
+Combat maneuver bonus: +19
+Combat maneuver defense: 37 (49 vs. trip)
+Feats: Combat Reflexes, Great Fortitude, Improved Initiative, Iron Will, Multiattack, Skill Focus (Perform \[wind\]), Toughness, Weapon Finesse, Weapon Focus (tentacle)
+Skills: Fly +26, Knowledge (planes) +18, Perception +17, Perform (wind) +33, Spellcraft +21
+Languages: Aklo; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [no breath](ref/umr/no-breath), starflight, void singer
+:::
 
-**Armor class:** 32
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 24
-
-**AC modifiers:** +8 Dex, +15 natural, -1 size
-
-**Hit points:** 207 (18d8+126)
-
-**Fort:** +14
-
-**Ref:** +14
-
-**Will:** +18
-
-**Amorph:** present
-
-**Dr:** 10/lawful
-
-**Immune:** cold, fire, sonic
-
-**Regen:** 10 (lawful spells and effects)
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (perfect)
-
-**Melee:** 8 tentacles +19 (1d6+2 plus poison)
-
-**Reach:** 15
-
-**Space:** 10
-
-**Spec Att:** liberated flesh, maddening song, poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**At will:**
-
-- dimensional anchor, summon instrument, teleport, self only
-
-**Per day:**
-
-- 5/day: chaos hammer (DC 20), dispel magic, magic circle against law
-- 3/day: control summoned creature (DC 20), deafening song bolt, song of discord (DC 21)
-- 1/day: summon monster VIII, word of chaos (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 26, Con 23, Int 11, Wis 20, Cha 23
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 37 (49 vs. trip)
-
-**Feats:** Combat Reflexes, Great Fortitude, Improved Initiative, Iron Will, Multiattack, Skill
-Focus (Perform \[wind\]), Toughness, Weapon Finesse, Weapon Focus (tentacle)
-
-**Skills:** Fly +26, Knowledge (planes) +18, Perception +17, Perform (wind) +33, Spellcraft +21
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath), starflight, void singer
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or choir (4-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or choir (4-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

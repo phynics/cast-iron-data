@@ -30,106 +30,74 @@ abilities = ["8", "17", "12", "13", "12", "7"]
 _A single eye peers from behind the armor plates and keen-edged blades that compose the cage-like
 exterior of this tiny flying orb._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +7
+Alignment: Lawful evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Deathwatch
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 14
+AC modifiers: +3 Dex, +2 natural, +2 size
+Hit points: 19 (3d10+3)
+Fort: +2
+Ref: +8
+Will: +4
+Dr: 5/good or silver
+Immune: cold
+Regen: 2 (good weapons and spells, silver weapons)
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., fly 50 ft. (perfect)
+Bleed: 1d2
+Melee: gore +4 (1d4-1 plus bleed)
+Reach: 0
+Space: 2-1/2
+Spec Att: unnerving gaze (30 ft., DC 9)
+:::
 
-**Senses:** Darkvision 60 ft., Deathwatch
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +4
+Constant: deathwatch
+At will: bleed (DC 8), mage hand, open/close
+Per day: 3/day: inflict light wounds (DC 9)
+Per week: commune, CL 12th; 6 questions
+:::
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 17, Con 12, Int 13, Wis 12, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Bluff +4, Escape Artist +9, Fly +15, Intimidate +4, Perception +7, Sense Motive +7, Sleight of Hand +9, Stealth +17
+Languages: Common, Infernal (can't speak)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +2 natural, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +2
-
-**Ref:** +8
-
-**Will:** +4
-
-**Dr:** 5/good or silver
-
-**Immune:** cold
-
-**Regen:** 2 (good weapons and spells, silver weapons)
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (perfect)
-
-**Bleed:** 1d2
-
-**Melee:** gore +4 (1d4-1 plus bleed)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** unnerving gaze (30 ft., DC 9)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +4
-
-**Constant:**
-
-- deathwatch
-
-**At will:**
-
-- bleed (DC 8), mage hand, open/close
-
-**Per day:**
-
-- 3/day: inflict light wounds (DC 9)
-
-**Per week:**
-
-- commune, CL 12th; 6 questions
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 17, Con 12, Int 13, Wis 12, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Bluff +4, Escape Artist +9, Fly +15, Intimidate +4, Perception +7, Sense Motive +7,
-Sleight of Hand +9, Stealth +17
-
-**Languages:** Common, Infernal (can't speak)
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, pack (3-5), or squad (6-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, pack (3-5), or squad (6-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

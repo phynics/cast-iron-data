@@ -32,102 +32,73 @@ abilities = ["29", "24", "21", "14", "20", "19"]
 _This unnatural beast's clawed hands dangle in front of its hind paws. Its bat-winged form blends
 humanoid features with canine._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +11
+Size: medium
+Perception: +21
+Senses: Darkvision 60 ft., Scent, Sense fear
+Subtype: Extraplanar
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 25
+Touch: 18
+Flat-footed: 17
+AC modifiers: +7 Dex, +1 dodge, +7 natural
+Hit points: 123 (13d8+65)
+Fort: +9
+Ref: +11
+Will: +13
+Defensive abilities: negative energy affinity
+Fh: 10
+Immune: cold, disease
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 40 ft. (good)
+Melee: bite +18 (2d6+9/19-20), 2 claws +18 (1d6+9)
+Spec Att: haunting howl, mutilate
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: sense fear
+At will: locate creature, locate object
+Per day: 3/day: dimension door, quickened summon swarm, bats only\
+1/day: word of recall, see grave link
+:::
 
-**Senses:** Darkvision 60 ft., Scent, Sense fear
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 29, Dex 24, Con 21, Int 14, Wis 20, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +18
+Combat maneuver defense: 36
+Feats: Dodge, Flyby Attack, Improved Critical (bite), Improved Initiative, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (summon swarm), Vital Strike
+Skills: Acrobatics +23, Disguise +17 (+27 when using charnel deception), Fly +27, Perception +21
+Racial Modifiers: +10 Disguise when using charnel deception
+Languages: Aklo, Common
+Special qualities: charnel deception, [freeze](ref/umr/freeze) (as human skeleton when using charnel deception), grave link, [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 18
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 Dex, +1 dodge, +7 natural
-
-**Hit points:** 123 (13d8+65)
-
-**Fort:** +9
-
-**Ref:** +11
-
-**Will:** +13
-
-**Defensive abilities:** negative energy affinity
-
-**Fh:** 10
-
-**Immune:** cold, disease
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (good)
-
-**Melee:** bite +18 (2d6+9/19-20), 2 claws +18 (1d6+9)
-
-**Spec Att:** haunting howl, mutilate
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- sense fear
-
-**At will:**
-
-- locate creature, locate object
-
-**Per day:**
-
-- 3/day: dimension door, quickened summon swarm, bats only
-- 1/day: word of recall, see grave link
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 24, Con 21, Int 14, Wis 20, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 36
-
-**Feats:** Dodge, Flyby Attack, Improved Critical (bite), Improved Initiative, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (summon swarm), Vital Strike
-
-**Skills:** Acrobatics +23, Disguise +17 (+27 when using charnel deception), Fly +27, Perception +21
-
-**Racial Modifiers:** +10 Disguise when using charnel deception
-
-**Languages:** Aklo, Common
-
-**Special qualities:** charnel deception, [freeze](ref/umr/freeze) (as human skeleton when using
-charnel deception), grave link, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pack (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary or pack (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

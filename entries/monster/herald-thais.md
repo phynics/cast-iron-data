@@ -34,112 +34,78 @@ abilities = ["24", "26", "22", "21", "18", "24"]
 _This defiant, angelic woman has two black wings and three white wings, and bears a crystalline
 halberd._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: bravery (30 ft.)
+Alignment: Chaotic good
+Initiative: +12
+Size: large
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Chaotic, Extraplanar, Good, Herald, Shapechanger
+Experience points: 51,200
+:::
 
-**aura:** bravery (30 ft.)
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 32
+Touch: 25
+Flat-footed: 23
+AC modifiers: +7 deflection, +8 Dex, +1 dodge, +7 natural, -1 size
+Hit points: 195 (17d10+102)
+Fort: +17
+Ref: +21
+Will: +12
+Defensive abilities: armor of valor
+Dr: 15/lawful
+Immune: electricity, fear, petrification
+Improved evasion: present
+Resist: cold 10, fire 10
+Sr: 26
+Uncanny dodge: present
+:::
 
-**Initiative:** +12
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 50 ft., fly 80 ft. (good)
+Melee: +2 anarchic keen halberd +25/+20/+15/+10 (2d8+12/×3)
+Reach: 10
+Space: 10
+Spec Att: luck domain, penetrating gaze
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +22
+At will: freedom of movement, greater heroism, true strike
+Per day: 3/day: break enchantment, displacement, greater dispel magic, plane shift, self and willing targets only, shout (DC 21)\
+1/day: greater planar ally, one bralani or ghaele azata only, hallow, word of chaos (DC 24)
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 26, Con 22, Int 21, Wis 18, Cha 24
+Base attack bonus: +17
+Combat maneuver bonus: +25
+Combat maneuver defense: 51
+Feats: Combat Expertise, Combat Reflexes, Dodge, Flyby Attack, Hover, Improved Initiative, Iron Will, Lightning Reflexes, Mobility
+Skills: Acrobatics +28, Bluff +27, Diplomacy +24, Disguise +17, Perform (dance) +24, Sense Motive +24, Sleight of Hand +28, Stealth +24
+Languages: Auran, Celestial, Common, Draconic, Infernal; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (female elf, half-elf, or human from Medium to Huge size; [alter self](ref/spell/alter-self) or [giant form II](ref/spell/giant-form-2))
+:::
 
-**Subtype:** Chaotic, Extraplanar, Good, Herald, Shapechanger
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 32
-
-**Touch:** 25
-
-**Flat-footed:** 23
-
-**AC modifiers:** +7 deflection, +8 Dex, +1 dodge, +7 natural, -1 size
-
-**Hit points:** 195 (17d10+102)
-
-**Fort:** +17
-
-**Ref:** +21
-
-**Will:** +12
-
-**Defensive abilities:** armor of valor
-
-**Dr:** 15/lawful
-
-**Immune:** electricity, fear, petrification
-
-**Improved evasion:** present
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 26
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 50 ft., fly 80 ft. (good)
-
-**Melee:** +2 anarchic keen halberd +25/+20/+15/+10 (2d8+12/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** luck domain, penetrating gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**At will:**
-
-- freedom of movement, greater heroism, true strike
-
-**Per day:**
-
-- 3/day: break enchantment, displacement, greater dispel magic, plane shift, self and willing
-  targets only, shout (DC 21)
-- 1/day: greater planar ally, one bralani or ghaele azata only, hallow, word of chaos (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 26, Con 22, Int 21, Wis 18, Cha 24
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 51
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Flyby Attack, Hover, Improved Initiative, Iron
-Will, Lightning Reflexes, Mobility
-
-**Skills:** Acrobatics +28, Bluff +27, Diplomacy +24, Disguise +17, Perform (dance) +24, Sense
-Motive +24, Sleight of Hand +28, Stealth +24
-
-**Languages:** Auran, Celestial, Common, Draconic, Infernal; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (female elf, half-elf, or human from
-Medium to Huge size; [alter self](ref/spell/alter-self) or [giant form II](ref/spell/giant-form-2))
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary
-
-**Treasure:** Triple (+2 anarchic keen halberd)
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary
+Treasure: Triple (+2 anarchic keen halberd)
+:::
 
 ### Special Abilities
 

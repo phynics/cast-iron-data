@@ -31,86 +31,65 @@ abilities = ["34", "17", "26", "9", "14", "17"]
 _A massive draconic creature with a bird-like head dives from the sky, letting loose a piercing
 scream as it descends._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: dragon
+Size: huge
+Initiative: +7
+Alignment: Neutral
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 51,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 29
+Touch: 11
+Flat-footed: 26
+AC modifiers: +3 Dex, +18 natural, -2 size
+Hit points: 261 (18d12+144)
+Fort: +19
+Ref: +16
+Will: +13
+Dr: 10/magic
+Immune: magic paralysis and sleep
+Resist: acid 10, cold 10, electricity 10, fire 10
+Sr: 26
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 160 ft. (average)
+Br Weap: 50-ft. cone, 14d6 sonic damage, Reflex DC 27 for half, usable every 1d4 rounds
+Melee: bite +28 (2d6+12), 2 claws +28 (1d8+12), tail slap +26 (2d6+6), 2 wings +26 (1d8+6)
+Reach: 15
+Space: 15
+Spec Att: wailing dive
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 17, Con 26, Int 9, Wis 14, Cha 17
+Base attack bonus: +18
+Combat maneuver bonus: +32
+Combat maneuver defense: 45 (49 vs. trip)
+Feats: Flyby Attack, Hover, Improved Initiative, Improved Sunder, Lightning Reflexes, Multiattack, Power Attack, Snatch, Wingover
+Skills: Climb +19, Intimidate +16, Perception +23
+Languages: Draconic
+Special qualities: [compression](ref/umr/compression), piercing beak
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +3 Dex, +18 natural, -2 size
-
-**Hit points:** 261 (18d12+144)
-
-**Fort:** +19
-
-**Ref:** +16
-
-**Will:** +13
-
-**Dr:** 10/magic
-
-**Immune:** magic paralysis and sleep
-
-**Resist:** acid 10, cold 10, electricity 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., fly 160 ft. (average)
-
-**Br Weap:** 50-ft. cone, 14d6 sonic damage, Reflex DC 27 for half, usable every 1d4 rounds
-
-**Melee:** bite +28 (2d6+12), 2 claws +28 (1d8+12), tail slap +26 (2d6+6), 2 wings +26 (1d8+6)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** wailing dive
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 17, Con 26, Int 9, Wis 14, Cha 17
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 45 (49 vs. trip)
-
-**Feats:** Flyby Attack, Hover, Improved Initiative, Improved Sunder, Lightning Reflexes,
-Multiattack, Power Attack, Snatch, Wingover
-
-**Skills:** Climb +19, Intimidate +16, Perception +23
-
-**Languages:** Draconic
-
-**Special qualities:** [compression](ref/umr/compression), piercing beak
-
-**Ecology**
-
-**Environment:** tropical forests
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: tropical forests
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

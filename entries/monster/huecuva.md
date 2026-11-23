@@ -33,73 +33,59 @@ abilities = ["13", "14", "-", "4", "12", "12"]
 _Rotting vestments hang across the withered flesh of this walking corpse, and its mouth hangs open
 in a silent scream._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: faithlessness (30 ft.)
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Perception: +5
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 600
+:::
 
-**aura:** faithlessness (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 16 (3d8+3)
+Fort: +2
+Ref: +3
+Will: +4
+Dr: 5/magic or silver
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +4 (1d4+1 plus disease)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 13, Dex 14, Con -, Int 4, Wis 12, Cha 12
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Improved Initiative, Weapon Focus (claw)
+Skills: Perception +5, Stealth +7
+Special qualities: false humanity
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +4
-
-**Dr:** 5/magic or silver
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +4 (1d4+1 plus disease)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 14, Con -, Int 4, Wis 12, Cha 12
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative, Weapon Focus (claw)
-
-**Skills:** Perception +5, Stealth +7
-
-**Special qualities:** false humanity
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cloister (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or cloister (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

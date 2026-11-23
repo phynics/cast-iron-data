@@ -29,97 +29,64 @@ special_qualities = "icewalker"
 abilities = ["26", "11", "22", "14", "14", "16"]
 +++
 
-**Challenge rating:** 12
-
 **[Frost giant](ref/monster/giant-frost-frost-giant) [sorcerer](ref/class/sorcerer) 6**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Size: large
+Perception: +25
+Senses: Low-light vision
+Subtype: Cold, Giant
+Experience points: 19,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 26
+Touch: 10
+Flat-footed: 26
+AC modifiers: +2 armor, +1 deflection, +10 natural, +4 shield, -1 size
+Hit points: 204 (14d8+6d6+120\~20)
+Fort: +17
+Ref: +8
+Will: +11
+Immune: cold
+Rock Ct: present
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +25
+::: statblock
+Speed: 40 ft.
+Melee: mwk morningstar +21/+16/+11 (2d6+12) or 2 slams +20 (1d8+8 plus 1d6 cold)
+Ranged: rock +12 (1d8+12 plus 1d6 cold)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+Per day: 7/day: !_cold steel_, grant weapon or 50 ammunition [frost](ref/magic-enh/frost) weapon special ability for 3 rounds
+:::
 
-**Subtype:** Cold, Giant
-
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +2 armor, +1 deflection, +10 natural, +4 shield, -1 size
-
-**Hit points:** 204 (14d8+6d6+120\~20)
-
-**Fort:** +17
-
-**Ref:** +8
-
-**Will:** +11
-
-**Immune:** cold
-
-**Rock Ct:** present
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** mwk morningstar +21/+16/+11 (2d6+12) or 2 slams +20 (1d8+8 plus 1d6 cold)
-
-**Ranged:** rock +12 (1d8+12 plus 1d6 cold)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Per day:**
-
-- 7/day: !_cold steel_, grant weapon or 50 ammunition [frost](ref/magic-enh/frost) weapon special
-  ability for 3 rounds
-
-**Spells Known**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**3rd-level spells:**
-
-- 4/day: dispel magic
-
-**2nd-level spells:**
-
-- 6/day: frigid touch, ice slick, rage (DC 16)
-
-**1st-level spells:**
-
-- 7/day: enlarge person, expeditious retreat, obscuring mist, shield, true strike
-
-**Cantrips:**
-
-- At will: detect magic, ghost sound (DC 13), flare (DC 13), mage hand, message, ray of frost, touch
-  of fatigue (DC 13)
-
-**Bloodline:** [boreal](ref/sorcbloodline/boreal)
+::: statblock
+title = "Spells Known"
+Caster level: 6
+Concentration: +9
+3rd-level spells: 4/day: dispel magic
+2nd-level spells: 6/day: frigid touch, ice slick, rage (DC 16)
+1st-level spells: 7/day: enlarge person, expeditious retreat, obscuring mist, shield, true strike
+Cantrips: At will: detect magic, ghost sound (DC 13), flare (DC 13), mage hand, message, ray of frost, touch of fatigue (DC 13)
+Bloodline: [boreal](ref/sorcbloodline/boreal)
+:::
 
 ### Tactics
 
@@ -129,38 +96,27 @@ abilities = ["26", "11", "22", "14", "14", "16"]
 them at range with his wand of ice storm or wand of lightning bolt. He casts ice slick and uses his
 icewalker bloodline ability to outmaneuver his opponents in icy and snowy areas.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 26, Dex 11, Con 22, Int 14, Wis 14, Cha 16
+::: statblock
+Ability scores: Str 26, Dex 11, Con 22, Int 14, Wis 14, Cha 16
+Base attack bonus: +13
+Combat maneuver bonus: +22
+Combat maneuver defense: 33
+Feats: Arcane Strike, Born of Frost, Chilled Rock, Combat Casting, Eschew Materials, Extend Spell, Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes, Power Attack, Skill Focus (Stealth)
+Skills: Bluff +12, Climb +21, Craft (alchemy) +15, Intimidate +16, Knowledge (arcana) +15, Perception +25, Spellcraft +15, Stealth +12 (+16 in snow)
+Racial Modifiers: +4 Stealth in snow
+Languages: Abyssal, Auran, Common, Giant
+Special qualities: icewalker
+Combat gear: 2 potion of cure serious wounds, potion of invisibility, potion of protection from energy (fire), Dice storm/10 charges, Dlightning bolt/10 charges, Dsolid fog/5 charges, 4 alchemist's fire
+Other gear: mwk morningstar, Iamu1, Iboa2, ring of prot1, 362 gp
+:::
 
-**Base attack bonus:** +13
+### Ecology
 
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 33
-
-**Feats:** Arcane Strike, Born of Frost, Chilled Rock, Combat Casting, Eschew Materials, Extend
-Spell, Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes, Power Attack, Skill
-Focus (Stealth)
-
-**Skills:** Bluff +12, Climb +21, Craft (alchemy) +15, Intimidate +16, Knowledge (arcana) +15,
-Perception +25, Spellcraft +15, Stealth +12 (+16 in snow)
-
-**Racial Modifiers:** +4 Stealth in snow
-
-**Languages:** Abyssal, Auran, Common, Giant
-
-**Special qualities:** icewalker
-
-**Combat gear:** 2 potion of cure serious wounds, potion of invisibility, potion of protection from
-energy (fire), Dice storm/10 charges, Dlightning bolt/10 charges, Dsolid fog/5 charges, 4
-alchemist's fire
-
-**Other gear:** mwk morningstar, Iamu1, Iboa2, ring of prot1, 362 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

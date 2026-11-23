@@ -31,119 +31,78 @@ abilities = ["30", "35", "34", "26", "23", "31"]
 _This woman with four armor-clad arms and wings of incandescent magma has the lower torso of a
 powerful reptile._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+Initiative: +16
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +50
+Senses: Darkvision 60 ft., Flamesense, True seeing
+Subtype: Evil, Extraplanar, Fire
+Experience points: 4,915,200
+:::
 
-**Initiative:** +16
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 46
+Touch: 22
+Flat-footed: 33
+AC modifiers: +12 Dex, +1 dodge, +24 natural, -1 size
+Hit points: 610 (33d10+429)
+Fort: +23
+Ref: +30
+Will: +24
+Dr: 15/-
+Immune: ability damage and drain, charm and compulsion effects, death effects, energy drain, fire, petrification
+Regen: 30 (deific or mythic cold)
+Sr: 39
+Vulner: cold
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., fly 100 ft. (average)
+Melee: +4 earth-outsider-bane flaming burst longsword +44/+39/+34/+29 (2d6+14 plus 1d6 fire/17-20), 3 +4 earth-outsider-bane flaming burst longswords +40 (2d6+9 plus 1d6 fire/17-20), 2 claws +37 (1d8+5 plus 1d10 fire plus trip)
+Reach: 10
+Space: 10
+Spec Att: limitless fire 3/day, scorching rend
+:::
 
-**Perception:** +50
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +38
+Constant: fire shield\#P, warm, freedom of movement, true seeing
+At will: fireball\#P (DC 23), greater teleport, pyrotechnics (DC 22), scorching ray\#P, wall of fire\#P
+Per day: 3/day: delayed blast fireball (DC 27), fire storm\#P (DC 27), incendiary cloud (DC 28), wall of lava\
+1/day: meteor swarm\#P (DC 29), summon (level 9, 2d4 fiendish elder fire elementals 100%)
+:::
 
-**Senses:** Darkvision 60 ft., Flamesense, True seeing
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Fire
+::: statblock
+Ability scores: Str 30, Dex 35, Con 34, Int 26, Wis 23, Cha 31
+Base attack bonus: +33
+Combat maneuver bonus: +44
+Combat maneuver defense: 67
+Feats: Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Escape Route, Greater Feint, Improved Critical (longsword), Improved Feint, Improved Initiative, Lunge, Mobility, Multiweapon Fighting, Precise Strike, Seize the Moment, Spring Attack, Toughness, Two-Weapon Feint
+Skills: Acrobatics +48, Bluff +46, Diplomacy +43, Perform (dance) +46, Sense Motive +42, Spellcraft +41, Stealth +44, Use Magic Device +43
+Racial Modifiers: +8 Perception
+Languages: Aquan, Auran, Draconic, Ignan, Terran, telepathy 300 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any fire elemental; [elemental body IV](ref/spell/elemental-body-4)), elemental realm, fire tyrant, pyroportation
+Faith: Ymeri
+:::
 
-**Experience points:** 4,915,200
+### Ecology
 
-**Armor class:** 46
-
-**Touch:** 22
-
-**Flat-footed:** 33
-
-**AC modifiers:** +12 Dex, +1 dodge, +24 natural, -1 size
-
-**Hit points:** 610 (33d10+429)
-
-**Fort:** +23
-
-**Ref:** +30
-
-**Will:** +24
-
-**Dr:** 15/-
-
-**Immune:** ability damage and drain, charm and compulsion effects, death effects, energy drain,
-fire, petrification
-
-**Regen:** 30 (deific or mythic cold)
-
-**Sr:** 39
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 50 ft., fly 100 ft. (average)
-
-**Melee:** +4 earth-outsider-bane flaming burst longsword +44/+39/+34/+29 (2d6+14 plus 1d6
-fire/17-20), 3 +4 earth-outsider-bane flaming burst longswords +40 (2d6+9 plus 1d6 fire/17-20), 2
-claws +37 (1d8+5 plus 1d10 fire plus trip)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** limitless fire 3/day, scorching rend
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +38
-
-**Constant:**
-
-- fire shield\#P, warm, freedom of movement, true seeing
-
-**At will:**
-
-- fireball\#P (DC 23), greater teleport, pyrotechnics (DC 22), scorching ray\#P, wall of fire\#P
-
-**Per day:**
-
-- 3/day: delayed blast fireball (DC 27), fire storm\#P (DC 27), incendiary cloud (DC 28), wall of
-  lava
-- 1/day: meteor swarm\#P (DC 29), summon (level 9, 2d4 fiendish elder fire elementals 100%)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 35, Con 34, Int 26, Wis 23, Cha 31
-
-**Base attack bonus:** +33
-
-**Combat maneuver bonus:** +44
-
-**Combat maneuver defense:** 67
-
-**Feats:** Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Escape
-Route, Greater Feint, Improved Critical (longsword), Improved Feint, Improved Initiative, Lunge,
-Mobility, Multiweapon Fighting, Precise Strike, Seize the Moment, Spring Attack, Toughness,
-Two-Weapon Feint
-
-**Skills:** Acrobatics +48, Bluff +46, Diplomacy +43, Perform (dance) +46, Sense Motive +42,
-Spellcraft +41, Stealth +44, Use Magic Device +43
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Aquan, Auran, Draconic, Ignan, Terran, telepathy 300 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any fire elemental;
-[elemental body IV](ref/spell/elemental-body-4)), elemental realm, fire tyrant, pyroportation
-
-**Faith:** Ymeri
-
-**Ecology**
-
-**Environment:** any ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (4 L +4 BANE-earth-outsider flaming burst longswords); other treasure
+::: statblock
+Environment: any ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary (unique)
+Treasure: Triple (4 L +4 BANE-earth-outsider flaming burst longswords); other treasure
+:::
 
 ### Special Abilities
 

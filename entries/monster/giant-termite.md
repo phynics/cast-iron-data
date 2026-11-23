@@ -29,69 +29,57 @@ abilities = ["17", "11", "14", "-", "12", "7"]
 
 _This pony-sized insect has long black mandibles and a banded abdomen of white._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Scent
+tremorsense: 60
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +5 natural
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +1
+Will: +2
+Immune: disease, mind-affecting effects
+Resist: acid 5
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Melee: bite +6 (1d8+4 plus 1d6 acid)
+Spec Att: gnaw, swarming
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 17, Dex 11, Con 14, Int -, Wis 12, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 16
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 natural
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +1
-
-**Will:** +2
-
-**Immune:** disease, mind-affecting effects
-
-**Resist:** acid 5
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Melee:** bite +6 (1d8+4 plus 1d6 acid)
-
-**Spec Att:** gnaw, swarming
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 11, Con 14, Int -, Wis 12, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 16
-
-**Ecology**
-
-**Environment:** warm forests, plains, or underground
-
-**Organization:** solitary, pair, nest (3-9), or colony (10-60)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests, plains, or underground
+Organization: solitary, pair, nest (3-9), or colony (10-60)
+Treasure: None
+:::
 
 ### Special Abilities
 

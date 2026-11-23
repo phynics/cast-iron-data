@@ -29,67 +29,56 @@ abilities = ["14", "14", "15", "1", "13", "2"]
 
 _This long, lean fish has a muscular body and a head with long jaws filled with sharp teeth._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +3 (1d6+3 plus [grab](ref/umr/grab))
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 14, Con 15, Int 1, Wis 13, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +3 (+7 grapple)
+Combat maneuver defense: 15 (can't be tripped)
+Feats: Improved Initiative
+Skills: Perception +6, Swim +10
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +3 (1d6+3 plus [grab](ref/umr/grab))
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 14, Con 15, Int 1, Wis 13, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3 (+7 grapple)
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Feats:** Improved Initiative
-
-**Skills:** Perception +6, Swim +10
-
-**Ecology**
-
-**Environment:** temperate freshwater
-
-**Organization:** solitary, pair, or school (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate freshwater
+Organization: solitary, pair, or school (3-6)
+Treasure: None
+:::
 
 ### Description
 

@@ -31,103 +31,74 @@ abilities = ["13", "16", "14", "11", "17", "14"]
 _This diminutive humanoid looks like a truly ancient but proud old warrior. A tiny tree branch juts
 from the top of his head._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: aura of luck (15 ft.)
+Initiative: +7
+Alignment: Lawful neutral
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Kami, Native
+Size: tiny
+Experience points: 800
+:::
 
-**aura:** aura of luck (15 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +4
+Will: +7
+Dr: 5/cold iron or evil
+Fh: 3
+Immune: bleed, mind-affecting effects, petrification, polymorph
+Resist: acid 10, electricity 10, fire 10
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: short sword +7 (1d3+1/19-20)
+Spec Att: precise attacks
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+Constant: speak with plants
+At will: mending, purify food and drink
+Per day: 3/day: detect snares and pits, remove sickness\
+1/day: delay poison, goodberry, soften earth and stone
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Kami, Native
+::: statblock
+Ability scores: Str 13, Dex 16, Con 14, Int 11, Wis 17, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 16
+Feats: Alertness, Improved Initiative
+Skills: Appraise +7, Bluff +9, Diplomacy +9, Sense Motive +12
+Languages: Common; _[speak with plants](ref/spell/speak-with-plants),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: merge with ward, ward (bonsai trees and small plants)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +7
-
-**Dr:** 5/cold iron or evil
-
-**Fh:** 3
-
-**Immune:** bleed, mind-affecting effects, petrification, polymorph
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** short sword +7 (1d3+1/19-20)
-
-**Spec Att:** precise attacks
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**Constant:**
-
-- speak with plants
-
-**At will:**
-
-- mending, purify food and drink
-
-**Per day:**
-
-- 3/day: detect snares and pits, remove sickness
-- 1/day: delay poison, goodberry, soften earth and stone
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 14, Int 11, Wis 17, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16
-
-**Feats:** Alertness, Improved Initiative
-
-**Skills:** Appraise +7, Bluff +9, Diplomacy +9, Sense Motive +12
-
-**Languages:** Common; _[speak with plants](ref/spell/speak-with-plants),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** merge with ward, ward (bonsai trees and small plants)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, garden (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, garden (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

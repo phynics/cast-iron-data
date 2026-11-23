@@ -35,98 +35,72 @@ the creature, and crackling sparks erupt from its body. Screeching wildly, it de
 from the sky, its blood-flecked wings tipped with cruel curved hooks, and its protruding lower beak
 scalloped with vicious, jagged barbs._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Evil, Extraplanar, Shapechanger
+Experience points: 12,800
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 20
+AC modifiers: +5 Dex, +10 natural
+Hit points: 133 (14d10+56)
+Fort: +13
+Ref: +14
+Will: +10
+Dr: 10/magic and cold iron
+Immune: electricity
+Resist: cold 10, fire 10
+Sr: 22
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 60 ft. (good), (30 ft. in humanoid form)
+Bleed: 1d6
+Br Weap: 60-ft. line, 8d6 electricity, Reflex DC 21 half, usable every 1d4 rounds
+Melee: bite +19 (1d6+4 plus 1d6 bleed and 1d6 electricity), 2 talons +19 (1d4+4 plus 1d6 electricity and [grab](ref/umr/grab)), 2 hook +13 (1d4+2 plus 1d6 electricity)
+Spec Att: electrical discharge
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+Per day: 3/day: call lightning, charm person, gust of wind
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Shapechanger
+::: statblock
+Ability scores: Str 18, Dex 21, Con 19, Int 15, Wis 18, Cha 20
+Base attack bonus: +14
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 33
+Feats: Flyby Attack, Hover, Improved Initiative, Iron Will, Vital Strike, Weapon Focus (bite), Weapon Focus (talons)
+Skills: Bluff +22, Diplomacy +19, Sense Motive +21, Spellcraft +19, Stealth +22
+Languages: Abyssal, Common, Infernal, Polyglot, Sylvan; _[speak with animals](ref/spell/speak-with-animals),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (one humanoid), shaman form
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 Dex, +10 natural
-
-**Hit points:** 133 (14d10+56)
-
-**Fort:** +13
-
-**Ref:** +14
-
-**Will:** +10
-
-**Dr:** 10/magic and cold iron
-
-**Immune:** electricity
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good), (30 ft. in humanoid form)
-
-**Bleed:** 1d6
-
-**Br Weap:** 60-ft. line, 8d6 electricity, Reflex DC 21 half, usable every 1d4 rounds
-
-**Melee:** bite +19 (1d6+4 plus 1d6 bleed and 1d6 electricity), 2 talons +19 (1d4+4 plus 1d6
-electricity and [grab](ref/umr/grab)), 2 hook +13 (1d4+2 plus 1d6 electricity)
-
-**Spec Att:** electrical discharge
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**Per day:**
-
-- 3/day: call lightning, charm person, gust of wind
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 21, Con 19, Int 15, Wis 18, Cha 20
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 33
-
-**Feats:** Flyby Attack, Hover, Improved Initiative, Iron Will, Vital Strike, Weapon Focus (bite),
-Weapon Focus (talons)
-
-**Skills:** Bluff +22, Diplomacy +19, Sense Motive +21, Spellcraft +19, Stealth +22
-
-**Languages:** Abyssal, Common, Infernal, Polyglot, Sylvan;
-_[speak with animals](ref/spell/speak-with-animals),_ [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (one humanoid), shaman form
-
-**Ecology**
-
-**Environment:** temperate or warm forest
-
-**Organization:** solitary, pair, or flock (2d6)
-
-**Treasure:** Standard; including impundulu fat, see below
+::: statblock
+Environment: temperate or warm forest
+Organization: solitary, pair, or flock (2d6)
+Treasure: Standard; including impundulu fat, see below
+:::
 
 ### Special Abilities
 

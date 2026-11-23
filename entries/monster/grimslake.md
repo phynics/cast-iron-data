@@ -33,98 +33,74 @@ abilities = ["24", "13", "19", "6", "14", "11"]
 
 _This maggot-like creature has a long tail covered with frightening hooked suckers._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +5
+Size: large
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+tremorsense: 30
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 68 (8d8+32)
+Fort: +6
+Ref: +5
+Will: +10
+Defensive abilities: slashing scales
+Fh: 5
+Immune: disease
+Resist: acid 10, fire 10
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., burrow 20 ft., climb 20 ft.
+Constrict: 1d6+6
+Melee: bite +12 (2d6+7 plus [grab](ref/umr/grab)), sting +12 (1d6+7 plus grab)
+Reach: 10
+Space: 10
+Spec Att: marrow drain, penetrating jaws
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +6
+Per day: 3/day: death knell (DC 12), ray of exhaustion (DC 13)\
+1/day: slow (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 24, Dex 13, Con 19, Int 6, Wis 14, Cha 11
+Base attack bonus: +6
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 25 (can't be tripped)
+Feats: Improved Initiative, Iron Will, Lightning Reflexes, Step Up
+Skills: Climb +26, Perception +13
+Languages: Abyssal
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 68 (8d8+32)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +10
-
-**Defensive abilities:** slashing scales
-
-**Fh:** 5
-
-**Immune:** disease
-
-**Resist:** acid 10, fire 10
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft., climb 20 ft.
-
-**Constrict:** 1d6+6
-
-**Melee:** bite +12 (2d6+7 plus [grab](ref/umr/grab)), sting +12 (1d6+7 plus grab)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** marrow drain, penetrating jaws
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +6
-
-**Per day:**
-
-- 3/day: death knell (DC 12), ray of exhaustion (DC 13)
-- 1/day: slow (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 13, Con 19, Int 6, Wis 14, Cha 11
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Feats:** Improved Initiative, Iron Will, Lightning Reflexes, Step Up
-
-**Skills:** Climb +26, Perception +13
-
-**Languages:** Abyssal
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or tangle (3-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or tangle (3-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

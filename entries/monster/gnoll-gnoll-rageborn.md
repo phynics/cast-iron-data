@@ -30,52 +30,42 @@ special_qualities = "fast movement"
 abilities = ["23", "13", "20", "8", "12", "6"]
 +++
 
-**Challenge rating:** 3
-
 **Gnoll [barbarian](ref/class/barbarian) ([pack rager](ref/arc-barbarian/pack-rager))**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 15
+AC modifiers: +6 armor, +1 Dex, +1 natural, -2 rage
+Hit points: 49 (2d8+2d12+22\~4)
+Fort: +11
+Ref: +1
+Will: +3
+Uncanny dodge: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Gnoll\
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 armor, +1 Dex, +1 natural, -2 rage
-
-**Hit points:** 49 (2d8+2d12+22\~4)
-
-**Fort:** +11
-
-**Ref:** +1
-
-**Will:** +3
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk greataxe +10 (1d12+9/×3), bite +4 (1d6+3) or bite +9 (1d6+9)
-
-**Ranged:** mwk javelin +5 (1d6+6)
-
-**Spec Att:** rage (9 rounds/day)
+::: statblock
+Speed: 30 ft.
+Melee: mwk greataxe +10 (1d12+9/×3), bite +4 (1d6+3) or bite +9 (1d6+9)
+Ranged: mwk javelin +5 (1d6+6)
+Spec Att: rage (9 rounds/day)
+:::
 
 ### Tactics
 
@@ -83,31 +73,26 @@ abilities = ["23", "13", "20", "8", "12", "6"]
 flat-footed 17; hp 41; Fort +9, Will +1; Melee mwk greataxe +8 (1d12+6/×3), bite +7 (1d6+6); Str 19,
 Con 16; CMB +7, CMD 18; Skills Climb +6.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 23, Dex 13, Con 20, Int 8, Wis 12, Cha 6
+::: statblock
+Ability scores: Str 23, Dex 13, Con 20, Int 8, Wis 12, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 18
+Feats: Coordinated Reposition, Snapping Jaws, Step Up
+Skills: Acrobatics +3, Climb +8, Perception +6
+Languages: Gnoll
+Special qualities: fast movement
+Combat gear: potion of cure moderate wounds, 3 alchemist's fire
+Other gear: mwk breastplate, mwk greataxe, 2 mwk javelins, 18 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 18
-
-**Feats:** Coordinated Reposition, Snapping Jaws, Step Up
-
-**Skills:** Acrobatics +3, Climb +8, Perception +6
-
-**Languages:** Gnoll
-
-**Special qualities:** fast movement
-
-**Combat gear:** potion of cure moderate wounds, 3 alchemist's fire
-
-**Other gear:** mwk breastplate, mwk greataxe, 2 mwk javelins, 18 gp
-
-**Ecology**
-
-**Environment:** warm plains or desert
+::: statblock
+Environment: warm plains or desert
+:::
 
 ### Description
 

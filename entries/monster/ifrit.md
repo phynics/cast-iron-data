@@ -30,101 +30,77 @@ abilities = ["10", "16", "12", "13", "6", "17"]
 
 _This muscular, fiery-skinned man has flaming hair and spotted horns upon his brow._
 
-**Challenge rating:** 1/2
-
 **Ifrit [sorcerer](ref/class/sorcerer) 1**
 
-**Initiative:** +3
+::: statblock
+Challenge rating: 1/2
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: -2
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex
+Hit points: 8 (1d6+2)
+Fort: +1
+Ref: +3
+Will: +0
+Resist: fire 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** -2
+::: statblock
+Speed: 30 ft.
+Melee: scimitar +0 (1d6/18-20)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+Per day: 6/day: burning hands (DC 15), elemental ray, 1d6 fire
+:::
 
-**Subtype:** Native
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: burning hands (DC 15), mage armor
+Cantrips: At will: acid splash, detect magic, flare (DC 14), prestidigitation
+Bloodline: [elemental](ref/sorcbloodline/elemental) (fire)
+:::
 
-**Experience points:** 200
+### Statistics
 
-**Armor class:** 13
+::: statblock
+Ability scores: Str 10, Dex 16, Con 12, Int 13, Wis 6, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 13
+Feats: Eschew Materials, Martial Weapon Proficiency (scimitar)
+Skills: Bluff +7, Knowledge (arcana) +5, Spellcraft +5
+Languages: Common, Gm, Ignan
+Special qualities: bloodline arcana, fire affinity
+:::
 
-**Touch:** 13
+### Ecology
 
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex
-
-**Hit points:** 8 (1d6+2)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +0
-
-**Resist:** fire 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** scimitar +0 (1d6/18-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**Per day:**
-
-- 6/day: burning hands (DC 15), elemental ray, 1d6 fire
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: burning hands (DC 15), mage armor
-
-**Cantrips:**
-
-- At will: acid splash, detect magic, flare (DC 14), prestidigitation
-
-**Bloodline:** [elemental](ref/sorcbloodline/elemental) (fire)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 16, Con 12, Int 13, Wis 6, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 13
-
-**Feats:** Eschew Materials, Martial Weapon Proficiency (scimitar)
-
-**Skills:** Bluff +7, Knowledge (arcana) +5, Spellcraft +5
-
-**Languages:** Common, Gm, Ignan
-
-**Special qualities:** bloodline arcana, fire affinity
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gang (3-5)
-
-**Treasure:** NPC gear (scimitar); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gang (3-5)
+Treasure: NPC gear (scimitar); other treasure
+:::
 
 ### Special Abilities
 

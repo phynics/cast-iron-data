@@ -32,107 +32,74 @@ abilities = ["30", "13", "20", "13", "18", "19"]
 _A hideous mound of shuddering, pustule-encrusted flesh, this bloated creature's gaping maw is
 filled with terrible teeth._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: [stench](ref/umr/stench) (30 ft., DC 25)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +5
+Type: Monstrous humanoid
+Perception: +28
+Senses: Darkvision 90 ft., Low-light vision
+Experience points: 51,200
+:::
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 25)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 31
+Touch: 10
+Flat-footed: 29
+AC modifiers: +1 Dex, +1 dodge, +21 natural, -2 size
+Hit points: 220 (21d10+105)
+Fort: +12
+Ref: +15
+Will: +18
+Dr: 10/cold iron and piercing
+Immune: acid, poison
+Resist: electricity 10, fire 10
+Sr: 26
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Melee: bite +29 (2d8+10/19-20/×4 plus 2d6 acid damage and 2 Wisdom drain), 2 claws +29 (1d8+10 plus 2 Wisdom drain)
+Reach: 15
+Space: 15
+Spec Att: devastating bite, vile spew
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +19
+Constant: fly
+At will: grease (DC 15), major image (DC 17), ventriloquism (DC 15)
+Per day: 3/day: charm monster (DC 18), gust of wind (DC 16), quickened stinking cloud (DC 17), suggestion (DC 17)\
+1/day: deep slumber (DC 17), mass charm monster (DC 22), mirror image
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Darkvision 90 ft., Low-light vision
+::: statblock
+Ability scores: Str 30, Dex 13, Con 20, Int 13, Wis 18, Cha 19
+Base attack bonus: +21
+Combat maneuver bonus: +33
+Combat maneuver defense: 45 (can't be tripped)
+Feats: Critical Focus, Dodge, Improved Critical (bite), Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (stinking cloud), Staggering Critical, Vital Strike
+Skills: Fly +32, Intimidate +28, Perception +28, Sense Motive +25, Stealth +17
+Languages: Abyssal, Common, Giant, Thassilonian
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 10
-
-**Flat-footed:** 29
-
-**AC modifiers:** +1 Dex, +1 dodge, +21 natural, -2 size
-
-**Hit points:** 220 (21d10+105)
-
-**Fort:** +12
-
-**Ref:** +15
-
-**Will:** +18
-
-**Dr:** 10/cold iron and piercing
-
-**Immune:** acid, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Melee:** bite +29 (2d8+10/19-20/×4 plus 2d6 acid damage and 2 Wisdom drain), 2 claws +29 (1d8+10
-plus 2 Wisdom drain)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** devastating bite, vile spew
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +19
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- grease (DC 15), major image (DC 17), ventriloquism (DC 15)
-
-**Per day:**
-
-- 3/day: charm monster (DC 18), gust of wind (DC 16), quickened stinking cloud (DC 17), suggestion
-  (DC 17)
-- 1/day: deep slumber (DC 17), mass charm monster (DC 22), mirror image
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 13, Con 20, Int 13, Wis 18, Cha 19
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 45 (can't be tripped)
-
-**Feats:** Critical Focus, Dodge, Improved Critical (bite), Improved Initiative, Iron Will,
-Lightning Reflexes, Mobility, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (stinking cloud), Staggering Critical, Vital
-Strike
-
-**Skills:** Fly +32, Intimidate +28, Perception +28, Sense Motive +25, Stealth +17
-
-**Languages:** Abyssal, Common, Giant, Thassilonian
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary or feast (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold mountains
+Organization: solitary or feast (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

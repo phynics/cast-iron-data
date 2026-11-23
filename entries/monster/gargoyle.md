@@ -31,75 +31,60 @@ abilities = ["15", "14", "16", "6", "11", "7"]
 _Seemingly carved from a dark gray stone, this sinister crouching humanoid resembles a horned,
 winged demon._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Type: Monstrous humanoid
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Earth
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 natural
+Hit points: 42 (5d10+15)
+Fort: +4
+Ref: +6
+Will: +4
+Dr: 10/magic
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft., fly 60 ft. (average)
+Melee: 2 claws +7 (1d6+2), bite +7 (1d4+2), gore +7 (1d4+2)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 14, Con 16, Int 6, Wis 11, Cha 7
+Base attack bonus: +5
+Combat maneuver bonus: +7
+Combat maneuver defense: 19
+Feats: Hover, Improved Initiative, Skill Focus (Fly)
+Skills: Fly +12, Perception +5, Stealth +11 (+17 in stony areas)
+Racial Modifiers: +2 Stealth (+6 in stony environs)
+Languages: Common, Terran
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**Subtype:** Earth
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +4
-
-**Dr:** 10/magic
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (average)
-
-**Melee:** 2 claws +7 (1d6+2), bite +7 (1d4+2), gore +7 (1d4+2)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 16, Int 6, Wis 11, Cha 7
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19
-
-**Feats:** Hover, Improved Initiative, Skill Focus (Fly)
-
-**Skills:** Fly +12, Perception +5, Stealth +11 (+17 in stony areas)
-
-**Racial Modifiers:** +2 Stealth (+6 in stony environs)
-
-**Languages:** Common, Terran
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or wing (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or wing (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

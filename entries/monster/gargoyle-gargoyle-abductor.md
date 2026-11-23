@@ -33,78 +33,58 @@ abilities = ["20", "18", "18", "8", "9", "7"]
 _The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour
 innocent passers-by. Then it moves - to do just that._
 
-**Challenge rating:** 10
-
 **Gargoyle [fighter](ref/class/fighter) 5**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: Monstrous humanoid
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Earth
+Experience points: 9,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 24
+Touch: 15
+Flat-footed: 19
+AC modifiers: +5 armor, +4 Dex, +1 dodge, +4 natural
+Hit points: 94 (5d10+5d10+40\~10)
+Fort: +9
+Ref: +9
+Will: +4; +1 vs. fear
+Defensive abilities: bravery +1
+Dr: 10/magic
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 40 ft., fly 60 ft. (average)
+Melee: bite +15 (1d6+5), 2 claws +15 (1d6+5), gore +15 (1d4+5)
+Ranged: +1 longbow +16/+11 (1d8+2/×3)
+Spec Att: weapon training (bows +1)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Earth
-
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 armor, +4 Dex, +1 dodge, +4 natural
-
-**Hit points:** 94 (5d10+5d10+40\~10)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +4; +1 vs. fear
-
-**Defensive abilities:** bravery +1
-
-**Dr:** 10/magic
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (average)
-
-**Melee:** bite +15 (1d6+5), 2 claws +15 (1d6+5), gore +15 (1d4+5)
-
-**Ranged:** +1 longbow +16/+11 (1d8+2/×3)
-
-**Spec Att:** weapon training (bows +1)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 18, Con 18, Int 8, Wis 9, Cha 7
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 30
-
-**Feats:** Combat Reflexes, Coordinated Maneuvers, Dodge, Flyby Attack, Hover, Improved Initiative,
-Lookout, Skill Focus (Fly)
-
-**Skills:** Fly +23, Perception +7, Stealth +17
-
-**Racial Modifiers:** +2 Stealth (+6 in stony environs)
-
-**Languages:** Common, Terran
-
-**Special qualities:** armor training 1, [freeze](ref/umr/freeze)
-
-**Gear:** +1 chain shirt, +1 longbow
+::: statblock
+Ability scores: Str 20, Dex 18, Con 18, Int 8, Wis 9, Cha 7
+Base attack bonus: +10
+Combat maneuver bonus: +15
+Combat maneuver defense: 30
+Feats: Combat Reflexes, Coordinated Maneuvers, Dodge, Flyby Attack, Hover, Improved Initiative, Lookout, Skill Focus (Fly)
+Skills: Fly +23, Perception +7, Stealth +17
+Racial Modifiers: +2 Stealth (+6 in stony environs)
+Languages: Common, Terran
+Special qualities: armor training 1, [freeze](ref/umr/freeze)
+Gear: +1 chain shirt, +1 longbow
+:::
 
 ### Special Abilities
 

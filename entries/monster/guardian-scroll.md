@@ -32,87 +32,66 @@ abilities = ["14", "15", "-", "4", "10", "12"]
 
 _This innocuous-looking scroll flits about with serpentine grace, baring its razor-sharp edges._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 dodge, +2 size
+Hit points: 27 (5d10)
+Fort: +1
+Ref: +5
+Will: +1
+Dr: 5/magic
+Immune: bludgeoning, crushing, and falling damage, [construct traits](ref/umr/construct-traits)
+Vulner: fire
+Weaknesses: susceptible to mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 10 ft., fly 40 ft. (perfect)
+Bleed: 1d2
+Constrict: 1d4+3
+Grab: Medium
+Melee: slice +9 (1d4+3 plus 1d2 bleed and grab)
+Reach: 0
+Space: 2-1/2
+Spec Att: smothering wrap
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 14, Dex 15, Con -, Int 4, Wis 10, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +5 (+9 grapple)
+Combat maneuver defense: 18
+Feats: Dodge, Flyby Attack, Lightning Reflexes
+Skills: Acrobatics +4, Fly +20
+Languages: Common (can't speak)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 dodge, +2 size
-
-**Hit points:** 27 (5d10)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +1
-
-**Dr:** 5/magic
-
-**Immune:** bludgeoning, crushing, and falling damage, [construct traits](ref/umr/construct-traits)
-
-**Vulner:** fire
-
-**Weaknesses:** susceptible to mind-affecting effects
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (perfect)
-
-**Bleed:** 1d2
-
-**Constrict:** 1d4+3
-
-**Grab:** Medium
-
-**Melee:** slice +9 (1d4+3 plus 1d2 bleed and grab)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** smothering wrap
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con -, Int 4, Wis 10, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5 (+9 grapple)
-
-**Combat maneuver defense:** 18
-
-**Feats:** Dodge, Flyby Attack, Lightning Reflexes
-
-**Skills:** Acrobatics +4, Fly +20
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or collection (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or collection (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

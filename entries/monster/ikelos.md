@@ -32,82 +32,63 @@ abilities = ["-", "19", "12", "15", "16", "17"]
 _This creature's eyes are large and lidless, and its large head dominates its lanky frame. Tiny
 wings spread across its back and the four digits of each hand end in sharp claws._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: lethargy (30 ft., DC 17, 10 rounds)
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Incorporeal
+Experience points: 3,200
+:::
 
-**aura:** lethargy (30 ft., DC 17, 10 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 13
+AC modifiers: +3 deflection, +4 Dex, +1 dodge
+Hit points: 67 (9d10+18)
+Fort: +7
+Ref: +7
+Will: +9
+Defensive abilities: dream-phased
+Incorporeal: present
+Weaknesses: fear dependency
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 30 ft. (perfect)
+Melee: 2 incorporeal claws +13 (2d6)
+Spec Att: frightful gaze
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +15
+::: statblock
+Ability scores: Str -, Dex 19, Con 12, Int 15, Wis 16, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 27
+Feats: Dodge, Improved Initiative, Mobility, Stealthy, Toughness
+Skills: Acrobatics +16, Bluff +15, Escape Artist +6, Fly +24, Intimidate +15, Perception +15, Sense Motive +15, Spellcraft +14, Stealth +18
+Languages: Aklo, Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: feed on fear
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Extraplanar, Incorporeal
-
-**Experience points:** 3,200
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 deflection, +4 Dex, +1 dodge
-
-**Hit points:** 67 (9d10+18)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +9
-
-**Defensive abilities:** dream-phased
-
-**Incorporeal:** present
-
-**Weaknesses:** fear dependency
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Melee:** 2 incorporeal claws +13 (2d6)
-
-**Spec Att:** frightful gaze
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 19, Con 12, Int 15, Wis 16, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 27
-
-**Feats:** Dodge, Improved Initiative, Mobility, Stealthy, Toughness
-
-**Skills:** Acrobatics +16, Bluff +15, Escape Artist +6, Fly +24, Intimidate +15, Perception +15,
-Sense Motive +15, Spellcraft +14, Stealth +18
-
-**Languages:** Aklo, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** feed on fear
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pack (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary or pack (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

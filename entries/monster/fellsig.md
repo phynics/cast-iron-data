@@ -32,94 +32,72 @@ abilities = ["16", "10", "-", "8", "13", "12"]
 _This squat figure's rough-hewn visage is frozen in a mask of pain, while the cracks in its dark
 stone body glow with a fiery inner heat._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +0
+Size: medium
+Alignment: Neutral evil
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Fire
+tremorsense: 30
+Type: undead
+Experience points: 800
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +5 natural
+Hit points: 27 (5d8+5)
+Fort: +2
+Ref: +1
+Will: +5
+Defensive abilities: molten heart
+Immune: fire, [undead traits](ref/umr/undead-traits)
+Vulner: cold
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft.
+Burn: 1d6, DC 13
+Melee: slam +6 (1d4+4 plus burn)
+Ranged: lava ball +3 ranged touch (1d6 fire plus burn)
+Spec Att: eruption, lava ball
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Per day: 5/day: pyrotechnics\
+3/day: burning hands (DC 12)
+:::
 
-**Subtype:** Fire
+### Statistics
 
-**tremorsense:** 30
+::: statblock
+Ability scores: Str 16, Dex 10, Con -, Int 8, Wis 13, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +6 (+8 bull rush)
+Combat maneuver defense: 16 (18 vs. bull rush)
+Feats: Blind-Fight, Improved Bull Rush, Power Attack
+Skills: Craft (any) +6, Intimidate +9, Perception +9
+Languages: Dwarven, Ignan
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 natural
-
-**Hit points:** 27 (5d8+5)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +5
-
-**Defensive abilities:** molten heart
-
-**Immune:** fire, [undead traits](ref/umr/undead-traits)
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Burn:** 1d6, DC 13
-
-**Melee:** slam +6 (1d4+4 plus burn)
-
-**Ranged:** lava ball +3 ranged touch (1d6 fire plus burn)
-
-**Spec Att:** eruption, lava ball
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Per day:**
-
-- 5/day: pyrotechnics
-- 3/day: burning hands (DC 12)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 10, Con -, Int 8, Wis 13, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6 (+8 bull rush)
-
-**Combat maneuver defense:** 16 (18 vs. bull rush)
-
-**Feats:** Blind-Fight, Improved Bull Rush, Power Attack
-
-**Skills:** Craft (any) +6, Intimidate +9, Perception +9
-
-**Languages:** Dwarven, Ignan
-
-**Ecology**
-
-**Environment:** any mountains or underground
-
-**Organization:** solitary, pair, or flow (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any mountains or underground
+Organization: solitary, pair, or flow (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

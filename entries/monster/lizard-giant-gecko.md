@@ -28,67 +28,56 @@ abilities = ["13", "15", "12", "2", "14", "7"]
 _With large bulging eyes to spot prey from afar, this oversized, smooth-scaled lizard has splayed,
 padded feet and a toothy maw._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +5
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +2 (2d4+1)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 13, Dex 15, Con 12, Int 2, Wis 14, Cha 7
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14 (18 vs. trip)
+Feats: Improved Initiative
+Skills: Climb +21, Perception +6
+Racial Modifiers: +8 Climb
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +2 (2d4+1)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 12, Int 2, Wis 14, Cha 7
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14 (18 vs. trip)
-
-**Feats:** Improved Initiative
-
-**Skills:** Climb +21, Perception +6
-
-**Racial Modifiers:** +8 Climb
-
-**Ecology**
-
-**Environment:** warm forests or mountains
-
-**Organization:** solitary, pair, or nest (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or mountains
+Organization: solitary, pair, or nest (3-6)
+Treasure: None
+:::
 
 ### Description
 

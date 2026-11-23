@@ -32,118 +32,79 @@ abilities = ["31", "13", "26", "14", "21", "20"]
 _This six-armed creature appears to be made of stone. Its lower torso is a collection of whirring
 rings of metal._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: shield of law (DC 23)
+Size: huge
+Initiative: +5
+Alignment: Lawful neutral
+Type: outsider
+Perception: +34
+Senses: Darkvision 60 ft., Detect chaos, Detect magic, Low-light vision, True seeing
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 307,200
+:::
 
-**aura:** shield of law (DC 23)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 36
+Touch: 18
+Flat-footed: 35
+AC modifiers: +4 deflection, +1 Dex, +5 insight, +18 natural, -2 size
+Hit points: 337 (22d10+216)
+Fort: +25
+Ref: +12
+Will: +22
+Defensive abilities: constructed
+Dr: 15/chaotic
+Immune: energy spells
+Regen: 10 (chaotic)
+Sr: 31
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: +2 [wounding](ref/magic-enh/wounding) spear +32/+27/+22/+17 (3d6+17/×3 plus 1 bleed), +2 wounding longsword +32 (3d6+12/19-20 plus 1 bleed), +2 wounding morningstar +32 (3d6+12 plus 1 bleed) or 4 slams +30 (2d8+10)
+Ranged: 2 energy bolts +21 (10d6 energy)
+Reach: 15
+Space: 15
+Spec Att: cunning reflexes, multiweapon mastery, perfect prediction, wounding weapons
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 22
+Concentration: +27
+Constant: detect chaos, detect magic, shield of law (DC 23), true seeing
+At will: dispel magic, greater teleport, self plus 50 lbs. of objects only, sending
+Per day: 3/day: dictum (DC 22), dimensional anchor (DC 19), dimensional lock (DC 23), disintegrate (DC 21), dismissal (DC 20), greater scrying (DC 22), plane shift (DC 20), wall of force\
+1/day: imprisonment (DC 24)
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect chaos, Detect magic, Low-light vision, True seeing
+::: statblock
+Ability scores: Str 31, Dex 13, Con 26, Int 14, Wis 21, Cha 20
+Base attack bonus: +22
+Combat maneuver bonus: +34
+Combat maneuver defense: 50 (can't be tripped)
+Feats: Blind-Fight, Combat Expertise, Combat Reflexes, Greater Bull Rush, Greater Vital Strike, Improved Bull Rush, Improved Disarm, Improved Initiative, Improved Vital Strike, Power Attack, Vital Strike
+Skills: Fly +30, Intimidate +30, Knowledge (arcana, geography) +24, Perception +34, Sense Motive +30, Spellcraft +24
+Racial Modifiers: +4 Perception
+Languages: truespeech
+Special qualities: perfect prediction
+:::
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 18
-
-**Flat-footed:** 35
-
-**AC modifiers:** +4 deflection, +1 Dex, +5 insight, +18 natural, -2 size
-
-**Hit points:** 337 (22d10+216)
-
-**Fort:** +25
-
-**Ref:** +12
-
-**Will:** +22
-
-**Defensive abilities:** constructed
-
-**Dr:** 15/chaotic
-
-**Immune:** energy spells
-
-**Regen:** 10 (chaotic)
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** +2 [wounding](ref/magic-enh/wounding) spear +32/+27/+22/+17 (3d6+17/×3 plus 1 bleed), +2
-wounding longsword +32 (3d6+12/19-20 plus 1 bleed), +2 wounding morningstar +32 (3d6+12 plus 1
-bleed) or 4 slams +30 (2d8+10)
-
-**Ranged:** 2 energy bolts +21 (10d6 energy)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** cunning reflexes, multiweapon mastery, perfect prediction, wounding weapons
-
-**Spell-Like Abilities**
-
-**Caster level:** 22
-
-**Concentration:** +27
-
-**Constant:**
-
-- detect chaos, detect magic, shield of law (DC 23), true seeing
-
-**At will:**
-
-- dispel magic, greater teleport, self plus 50 lbs. of objects only, sending
-
-**Per day:**
-
-- 3/day: dictum (DC 22), dimensional anchor (DC 19), dimensional lock (DC 23), disintegrate (DC 21),
-  dismissal (DC 20), greater scrying (DC 22), plane shift (DC 20), wall of force
-- 1/day: imprisonment (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 13, Con 26, Int 14, Wis 21, Cha 20
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 50 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Expertise, Combat Reflexes, Greater Bull Rush, Greater Vital Strike,
-Improved Bull Rush, Improved Disarm, Improved Initiative, Improved Vital Strike, Power Attack, Vital
-Strike
-
-**Skills:** Fly +30, Intimidate +30, Knowledge (arcana, geography) +24, Perception +34, Sense Motive
-+30, Spellcraft +24
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** truespeech
-
-**Special qualities:** perfect prediction
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double (+2 longsword, +2 spear, +2 morningstar); other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double (+2 longsword, +2 spear, +2 morningstar); other treasure
+:::
 
 ### Special Abilities
 

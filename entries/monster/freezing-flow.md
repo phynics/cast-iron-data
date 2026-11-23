@@ -31,79 +31,62 @@ abilities = ["18", "16", "20", "-", "1", "1"]
 
 _This transparent blue formation of ice is as forbidding as the serpent it resembles._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsense: 60
+Initiative: -5
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Cold, Water
+Experience points: 1,200
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 13
+AC modifiers: +3 Dex, +4 natural, -1 size
+Hit points: 47 (5d8+25)
+Fort: +6
+Ref: +3
+Will: -4
+Immune: cold, [ooze traits](ref/umr/ooze-traits)
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Constrict: 2d4+6 plus 1d6 cold
+Melee: slam +6 (2d4+6/19-20 plus 1d6 cold and [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: jagged slam, numbing touch
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 18, Dex 16, Con 20, Int -, Wis 1, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 13
+Skills: Swim +12
+Special qualities: crystalline
+:::
 
-**Subtype:** Cold, Water
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +4 natural, -1 size
-
-**Hit points:** 47 (5d8+25)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** -4
-
-**Immune:** cold, [ooze traits](ref/umr/ooze-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Constrict:** 2d4+6 plus 1d6 cold
-
-**Melee:** slam +6 (2d4+6/19-20 plus 1d6 cold and [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** jagged slam, numbing touch
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con 20, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 13
-
-**Skills:** Swim +12
-
-**Special qualities:** crystalline
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any cold
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

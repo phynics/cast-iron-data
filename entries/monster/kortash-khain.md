@@ -30,170 +30,86 @@ abilities = ["13", "21", "-", "17", "32", "31"]
 
 _This withered humanoid wears sooty, fire-blackened robes and a headdress of black and gold._
 
-**Challenge rating:** 23
-
-**Mythic rank:** 6
-
 **Male ghoul [cleric](ref/class/cleric) of [Kabriri](ref/faith/kabriri)
 5/[sorcerer](ref/class/sorcerer) (wildblooded) 5/mystic theurge 10/hierophant 6**
 
-**Alignment:** Chaotic evil
-
-**Initiative:** +11
-
-**Size:** medium
-
-**Perception:** +11
-
-**Senses:** Darkvision 60 ft., Deathwatch (30 ft.), True seeing
-
-**Type:** undead
-
-**Experience points:** 819,200
-
-**Armor class:** 39
-
-**Touch:** 22
-
-**Flat-footed:** 34
-
-**AC modifiers:** +5 armor, +5 deflection, +5 Dex, +2 luck, +7 natural, +5 shield
-
-**Hit points:** 391 (2d8+5d8+5d6+10d6+308\~22)
-
-**Fort:** +25
-
-**Ref:** +17
-
-**Will:** +34
-
-**Chan Res:** +2
-
-**Defensive abilities:** _contingencies_, hard to kill, _[mind blank](ref/spell/mind-blank)_, mythic
-saving throws
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** 15/day, DC 22, 3d6
-
-**M Power:** 15/day, surge +1d8
-
-**Melee:** bite +12 (1d6+1 plus disease and paralysis), 2 claws +12 (1d4+1 plus paralysis), staff of
-power +14/+9/+4 (1d6+3)
-
-**Paralysis:** 1d4+1 rounds, DC 21, elves are immune to this effect
-
-**Ranged:** ray +17 (by spell/19-20)
-
-**Spec Att:** alter channel, the blood is the life (13/day), death's kiss (2 rounds, 14/day),
-disease, divine surge (inspired spell), eldritch breach, enduring blessing (1 minute/level), faith's
-reach, lore keeper, spell synthesis
-
-**Spell-Like Abilities**
-
-**Caster level:** 22
-
-**Per day:**
-
-- 2/day: ghoul touch
-- 1/day: undead minion
-
-**Prepared Spells**
-
-**Caster level:** 15
-
-**Concentration:** +26
-
-**8th-level spells:**
-
-- fire storm^M^ (DC 29), mind blank^D^, already cast, unholy aura
-
-**7th-level spells:**
-
-- destruction^D^ (2, DC 29), empowered flame strike, 2, repulsion (DC 28)
-
-**6th-level spells:**
-
-- create undead^D^, greater dispel magic, harm^M^ (2, DC 29), plague storm, word of recall
-
-**5th-level spells:**
-
-- plane shift^M^ (DC 26), scrying (DC 26), slay living^D^ (3, DC 27), steal power (DC 28), true
-  seeing, already cast
-
-**4th-level spells:**
-
-- aura of doom, blessing of fervor, dismissal (DC 25), divine power, enervation^D^^M^, 2, freedom of
-  movement
-
-**3rd-level spells:**
-
-- bestow curse (3, DC 25), dispel magic, magic vestment, already cast, prayer^M^, 2, seek
-  thoughts^D^
-
-**2nd-level spells:**
-
-- darkness^M^, ghoul touch^D^ (DC 25), remove paralysis, resist energy, 2, silence^M^ (2, DC 23),
-  spiritual weapon
-
-**1st-level spells:**
-
-- comprehend languages^D^, divine favor, entropic shield, protection from good, 3, shield of
-  faith^M^, 2
-
-**Cantrips:**
-
-- detect magic, guidance, light, mending
-
-**Domains:** Undead, Thought
-
-**Spells Known**
-
-**Caster level:** 15
-
-**Concentration:** +25
-
-**7th-level spells:**
-
-- 5/day: finger of death^M^ (DC 29), power word blind, prismatic spray^M^
-
-**6th-level spells:**
-
-- 8/day: contagious flame, contingency^M^, greater dispel magic, undeath to death (DC 28)
-
-**5th-level spells:**
-
-- 8/day: cone of cold (DC 25), dominate person^M^ (DC 25), mage's private sanctum, teleport, waves
-  of fatigue
-
-**4th-level spells:**
-
-- 8/day: animate dead, bestow curse (DC 26), charm monster (DC 24), enervation^M^, fire shield
-
-**3rd-level spells:**
-
-- 8/day: fly, hold person (DC 23), magic circle against good, nondetection, vampiric touch^M^
-
-**2nd-level spells:**
-
-- 9/day: command undead (DC 23), false life, mirror image, resist energy, scorching ray, spider
-  climb^M^
-
-**1st-level spells:**
-
-- 9/day: chill touch (DC 23), expeditious retreat, feather fall, ray of enfeeblement (DC 23), silent
-  image (DC 21), vanish
-
-**Cantrips:**
-
-- At will: acid splash, arcane mark, dancing lights, ghost sound (DC 20), mage hand, message,
-  prestidigitation, read magic, touch of fatigue
-
-**Bloodline:** [undead](ref/sorcbloodline/undead) (sanguine)
+::: statblock
+Challenge rating: 23
+Mythic rank: 6
+Alignment: Chaotic evil
+Initiative: +11
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft., Deathwatch (30 ft.), True seeing
+Type: undead
+Experience points: 819,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 39
+Touch: 22
+Flat-footed: 34
+AC modifiers: +5 armor, +5 deflection, +5 Dex, +2 luck, +7 natural, +5 shield
+Hit points: 391 (2d8+5d8+5d6+10d6+308\~22)
+Fort: +25
+Ref: +17
+Will: +34
+Chan Res: +2
+Defensive abilities: _contingencies_, hard to kill, _[mind blank](ref/spell/mind-blank)_, mythic saving throws
+Immune: [undead traits](ref/umr/undead-traits)
+:::
+
+### Offense
+
+::: statblock
+Speed: 30 ft.
+Ch N En: 15/day, DC 22, 3d6
+M Power: 15/day, surge +1d8
+Melee: bite +12 (1d6+1 plus disease and paralysis), 2 claws +12 (1d4+1 plus paralysis), staff of power +14/+9/+4 (1d6+3)
+Paralysis: 1d4+1 rounds, DC 21, elves are immune to this effect
+Ranged: ray +17 (by spell/19-20)
+Spec Att: alter channel, the blood is the life (13/day), death's kiss (2 rounds, 14/day), disease, divine surge (inspired spell), eldritch breach, enduring blessing (1 minute/level), faith's reach, lore keeper, spell synthesis
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 22
+Per day: 2/day: ghoul touch\
+1/day: undead minion
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 15
+Concentration: +26
+8th-level spells: fire storm^M^ (DC 29), mind blank^D^, already cast, unholy aura
+7th-level spells: destruction^D^ (2, DC 29), empowered flame strike, 2, repulsion (DC 28)
+6th-level spells: create undead^D^, greater dispel magic, harm^M^ (2, DC 29), plague storm, word of recall
+5th-level spells: plane shift^M^ (DC 26), scrying (DC 26), slay living^D^ (3, DC 27), steal power (DC 28), true seeing, already cast
+4th-level spells: aura of doom, blessing of fervor, dismissal (DC 25), divine power, enervation^D^^M^, 2, freedom of movement
+3rd-level spells: bestow curse (3, DC 25), dispel magic, magic vestment, already cast, prayer^M^, 2, seek thoughts^D^
+2nd-level spells: darkness^M^, ghoul touch^D^ (DC 25), remove paralysis, resist energy, 2, silence^M^ (2, DC 23), spiritual weapon
+1st-level spells: comprehend languages^D^, divine favor, entropic shield, protection from good, 3, shield of faith^M^, 2
+Cantrips: detect magic, guidance, light, mending
+Domains: Undead, Thought
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 15
+Concentration: +25
+7th-level spells: 5/day: finger of death^M^ (DC 29), power word blind, prismatic spray^M^
+6th-level spells: 8/day: contagious flame, contingency^M^, greater dispel magic, undeath to death (DC 28)
+5th-level spells: 8/day: cone of cold (DC 25), dominate person^M^ (DC 25), mage's private sanctum, teleport, waves of fatigue
+4th-level spells: 8/day: animate dead, bestow curse (DC 26), charm monster (DC 24), enervation^M^, fire shield
+3rd-level spells: 8/day: fly, hold person (DC 23), magic circle against good, nondetection, vampiric touch^M^
+2nd-level spells: 9/day: command undead (DC 23), false life, mirror image, resist energy, scorching ray, spider climb^M^
+1st-level spells: 9/day: chill touch (DC 23), expeditious retreat, feather fall, ray of enfeeblement (DC 23), silent image (DC 21), vanish
+Cantrips: At will: acid splash, arcane mark, dancing lights, ghost sound (DC 20), mage hand, message, prestidigitation, read magic, touch of fatigue
+Bloodline: [undead](ref/sorcbloodline/undead) (sanguine)
+:::
 
 ###### M {#footnote-m}
 
@@ -203,35 +119,20 @@ mythic spell
 
 domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 13, Dex 21, Con -, Int 17, Wis 32, Cha 31
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 32
-
-**Feats:** Accursed Critical, Craft Wondrous Item, Demonic Obedience, Empower Spell, Eschew
-Materials, Extra Channel, Improved Critical (ray), Mythic Spell Lore, Spell Focus (necromancy),
-Thanatopic Spell, Toughness, Weapon Focus (ray)
-
-**Skills:** Intimidate +32, Knowledge (arcana, planes, religion) +28, Spellcraft +28, Use Magic
-Device +24
-
-**Languages:** Common
-
-**Special qualities:** amazing initiative, aura, bloodline arcana (+1 caster level with necromancy
-spells), combined spells (5th), exceptional wealth, ghoulish apotheosis (+4 Charisma), mythic
-spellcasting, recuperation
-
-**Combat gear:** I-crown of conquest, rod of extend metamagic rod, I-greater strand of prayer beads,
-ring of st, scroll of tongues, scroll of TFstaff of necromancy, scroll of OP
-
-**Other gear:** +4 MM buckler, Iamu5, Iboid6, Iclk5, I-darkskull/invisibility purge, I-deathwatch
-eyes, Ihbmp6wc, ring of prot5, eye ointment (worth 250 gp), gold and platinum
-[holy symbol](ref/eq-misc/holy-symbol) (worth 1,000 gp)
+::: statblock
+Ability scores: Str 13, Dex 21, Con -, Int 17, Wis 32, Cha 31
+Base attack bonus: +11
+Combat maneuver bonus: +12
+Combat maneuver defense: 32
+Feats: Accursed Critical, Craft Wondrous Item, Demonic Obedience, Empower Spell, Eschew Materials, Extra Channel, Improved Critical (ray), Mythic Spell Lore, Spell Focus (necromancy), Thanatopic Spell, Toughness, Weapon Focus (ray)
+Skills: Intimidate +32, Knowledge (arcana, planes, religion) +28, Spellcraft +28, Use Magic Device +24
+Languages: Common
+Special qualities: amazing initiative, aura, bloodline arcana (+1 caster level with necromancy spells), combined spells (5th), exceptional wealth, ghoulish apotheosis (+4 Charisma), mythic spellcasting, recuperation
+Combat gear: I-crown of conquest, rod of extend metamagic rod, I-greater strand of prayer beads, ring of st, scroll of tongues, scroll of TFstaff of necromancy, scroll of OP
+Other gear: +4 MM buckler, Iamu5, Iboid6, Iclk5, I-darkskull/invisibility purge, I-deathwatch eyes, Ihbmp6wc, ring of prot5, eye ointment (worth 250 gp), gold and platinum [holy symbol](ref/eq-misc/holy-symbol) (worth 1,000 gp)
+:::
 
 ### Special Abilities
 

@@ -30,84 +30,64 @@ abilities = ["29", "10", "24", "2", "11", "3"]
 
 _Fungus drips from this grotesque tree's ridged bark as its branches wave like boneless arms._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+blindsense: 60
+Size: huge
+Initiative: +4
+Alignment: Neutral evil
+Perception: +14
+Senses: Low-light vision
+Type: plant
+Experience points: 25,600
+:::
 
-**blindsense:** 60
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 28
+Touch: 8
+Flat-footed: 28
+AC modifiers: +20 natural, -2 size
+Hit points: 184 (16d8+112)
+Fort: +17
+Ref: +7
+Will: +5
+Defensive abilities: all-around vision
+Dr: 10/slashing
+Immune: [plant traits](ref/umr/plant-traits), poison
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 10 ft.
+Melee: 2 tendrils +20 (2d6+9/19-20), slam +20 (1d8+13/19-20 plus disease)
+Reach: 15
+Space: 15
+Spec Att: disease
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 29, Dex 10, Con 24, Int 2, Wis 11, Cha 3
+Base attack bonus: +12
+Combat maneuver bonus: +23
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Improved Critical (slam, tendril), Improved Initiative, Lightning Reflexes, Power Attack, Skill Focus (Perception), Weapon Focus (slam, tendril)
+Skills: Perception +14, Stealth +3 (+11 in forests)
+Racial Modifiers: +8 Stealth in forests
+Special qualities: hardy stump, virulent roots
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 8
-
-**Flat-footed:** 28
-
-**AC modifiers:** +20 natural, -2 size
-
-**Hit points:** 184 (16d8+112)
-
-**Fort:** +17
-
-**Ref:** +7
-
-**Will:** +5
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 10/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits), poison
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 2 tendrils +20 (2d6+9/19-20), slam +20 (1d8+13/19-20 plus disease)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** disease
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 10, Con 24, Int 2, Wis 11, Cha 3
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Improved Critical (slam, tendril), Improved Initiative, Lightning Reflexes, Power Attack,
-Skill Focus (Perception), Weapon Focus (slam, tendril)
-
-**Skills:** Perception +14, Stealth +3 (+11 in forests)
-
-**Racial Modifiers:** +8 Stealth in forests
-
-**Special qualities:** hardy stump, virulent roots
-
-**Ecology**
-
-**Environment:** any forest or underground
-
-**Organization:** solitary, pair, or festering grove (6-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any forest or underground
+Organization: solitary, pair, or festering grove (6-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

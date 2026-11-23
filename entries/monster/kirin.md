@@ -30,125 +30,86 @@ abilities = ["20", "23", "18", "18", "21", "23"]
 _With draconic scales covering much of its body, this stag-like creature moves with awe-inspiring
 grace._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +6
+Size: large
+Alignment: Lawful good
+Type: Magical beast
+Perception: +17
+Senses: Darkvision 60 ft., Detect evil, Low-light vision, Scent
+Subtype: Air
+Experience points: 3,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 14
+AC modifiers: +6 Dex, +5 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +12
+Will: +10
+Resist: cold 10, electricity 30, fire 10
+Sr: 18
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 60 ft., fly 120 ft. (good)
+Br Weap: 15-ft. cone, 5d6 fire damage, Reflex DC 18 for half, usable every 1d4 rounds
+Melee: gore +14 (1d8+5), 2 hooves +8 (1d6+2)
+Pow Ch: gore, 2d8+14
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +15
+Constant: detect evil, water walk
+At will: gaseous form, gust of wind
+Per day: 1/day: break enchantment, create food and water, major creation, wind walk, self only
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, Scent
+::: statblock
+title = "Spells Known"
+Caster level: 6
+Concentration: +12
+3rd-level spells: 4/day: lightning bolt (DC 19)
+2nd-level spells: 7/day: lesser restoration, scorching ray
+1st-level spells: 8/day: color spray (DC 17), cure light wounds, disguise self, remove fear, sanctuary (DC 17)
+Cantrips: At will: arcane mark, create water, detect magic, guidance, mage hand, mending, stabilize
+:::
 
-**Subtype:** Air
+### Statistics
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 Dex, +5 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +12
-
-**Will:** +10
-
-**Resist:** cold 10, electricity 30, fire 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 60 ft., fly 120 ft. (good)
-
-**Br Weap:** 15-ft. cone, 5d6 fire damage, Reflex DC 18 for half, usable every 1d4 rounds
-
-**Melee:** gore +14 (1d8+5), 2 hooves +8 (1d6+2)
-
-**Pow Ch:** gore, 2d8+14
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +15
-
-**Constant:**
-
-- detect evil, water walk
-
-**At will:**
-
-- gaseous form, gust of wind
-
-**Per day:**
-
-- 1/day: break enchantment, create food and water, major creation, wind walk, self only
-
-**Spells Known**
-
-**Caster level:** 6
-
-**Concentration:** +12
-
-**3rd-level spells:**
-
-- 4/day: lightning bolt (DC 19)
-
-**2nd-level spells:**
-
-- 7/day: lesser restoration, scorching ray
-
-**1st-level spells:**
-
-- 8/day: color spray (DC 17), cure light wounds, disguise self, remove fear, sanctuary (DC 17)
-
-**Cantrips:**
-
-- At will: arcane mark, create water, detect magic, guidance, mage hand, mending, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 23, Con 18, Int 18, Wis 21, Cha 23
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Combat Casting, Eschew Materials^B^, Flyby Attack, Hover, Iron Will, Weapon Focus (gore)
-
-**Skills:** Diplomacy +15, Perform (sing) +15, Sense Motive +14
-
-**Languages:** Abyssal, Auran, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+::: statblock
+Ability scores: Str 20, Dex 23, Con 18, Int 18, Wis 21, Cha 23
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Combat Casting, Eschew Materials^B^, Flyby Attack, Hover, Iron Will, Weapon Focus (gore)
+Skills: Diplomacy +15, Perform (sing) +15, Sense Motive +14
+Languages: Abyssal, Auran, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

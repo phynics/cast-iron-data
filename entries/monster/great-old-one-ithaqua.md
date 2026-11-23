@@ -32,129 +32,84 @@ abilities = ["46", "31", "42", "29", "31", "30"]
 _This looming humanoid shape has long, gangly limbs, glowing red eyes, and a gaping mouth full of
 fangs._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: unspeakable presence (300 ft., DC 36)
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +24
+Type: Monstrous humanoid
+Perception: +45
+Senses: Darkvision 60 ft., Low-light vision, Snow vision, True seeing
+Subtype: Air, Chaotic, Cold, Evil, Great Old One
+Experience points: 4,915,200
+:::
 
-**aura:** unspeakable presence (300 ft., DC 36)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 46
+Touch: 27
+Flat-footed: 35
+AC modifiers: +10 Dex, +1 dodge, +10 insight, +19 natural, -4 size
+Hit points: 688 (32d10+512)
+Fort: +26
+Ref: +30
+Will: +28
+Defensive abilities: immortality, insanity (DC 36)
+Dr: 15/epic and lawful
+Fh: 25
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, storms
+Resist: electricity 30, sonic 30
+Sr: 39
+Vulner: fire
+Weaknesses: arctic bound
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +24
+::: statblock
+Speed: 60 ft.
+M Power: 10/day, surge +1d12
+Melee: 2 slams +46 (4d6+18/19-20 plus [grab](ref/umr/grab))
+Ranged: 4 wind blasts +38 (8d6/19-20 plus hurl)
+Reach: 20
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 20
+Spec Att: arctic dreams, create wendigo, howl
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +38
+Constant: air walk, true seeing
+At will: control weather, as druid, control winds, dimension door, dream, gust of wind (DC 22), ice storm, nightmare (DC 25), whispering wind, wind walk (DC 36)
+Per day: 3/day: demand (DC 28), quickened feeblemind (DC 25), quickened gust of wind (DC 22), summon (level 9, 2d4 wendigos 100%)\
+1/day: interplanetary teleport, arctic regions only, storm of vengeance (DC 29), whirlwind (DC 28)
+:::
 
-**Perception:** +45
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Snow vision, True seeing
+::: statblock
+Ability scores: Str 46, Dex 31, Con 42, Int 29, Wis 31, Cha 30
+Base attack bonus: +32
+Combat maneuver bonus: +54 (+58 bull rush)
+Combat maneuver defense: 95 (97 vs. bull rush)
+Feats: Awesome Blow, Blinding Critical, Critical Focus, Dodge, Greater Bull Rush, Improved Bull Rush, Improved Critical (slam), Improved Critical (wind blast), Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind, gust of wind), Spring Attack
+Skills: Acrobatics +42, Knowledge (arcana, geography, history, nature, planes, religion) +41, Perception +45, Use Magic Device +42
+Languages: Aklo, Aquan, Giant; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: otherworldly insight, wind walk
+Faith: Ithaqua
+:::
 
-**Subtype:** Air, Chaotic, Cold, Evil, Great Old One
+### Ecology
 
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 27
-
-**Flat-footed:** 35
-
-**AC modifiers:** +10 Dex, +1 dodge, +10 insight, +19 natural, -4 size
-
-**Hit points:** 688 (32d10+512)
-
-**Fort:** +26
-
-**Ref:** +30
-
-**Will:** +28
-
-**Defensive abilities:** immortality, insanity (DC 36)
-
-**Dr:** 15/epic and lawful
-
-**Fh:** 25
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, petrification, storms
-
-**Resist:** electricity 30, sonic 30
-
-**Sr:** 39
-
-**Vulner:** fire
-
-**Weaknesses:** arctic bound
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 2 slams +46 (4d6+18/19-20 plus [grab](ref/umr/grab))
-
-**Ranged:** 4 wind blasts +38 (8d6/19-20 plus hurl)
-
-**Reach:** 20
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 20
-
-**Spec Att:** arctic dreams, create wendigo, howl
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +38
-
-**Constant:**
-
-- air walk, true seeing
-
-**At will:**
-
-- control weather, as druid, control winds, dimension door, dream, gust of wind (DC 22), ice storm,
-  nightmare (DC 25), whispering wind, wind walk (DC 36)
-
-**Per day:**
-
-- 3/day: demand (DC 28), quickened feeblemind (DC 25), quickened gust of wind (DC 22), summon (level
-  9, 2d4 wendigos 100%)
-- 1/day: interplanetary teleport, arctic regions only, storm of vengeance (DC 29), whirlwind (DC 28)
-
-**Statistics**
-
-**Ability scores:** Str 46, Dex 31, Con 42, Int 29, Wis 31, Cha 30
-
-**Base attack bonus:** +32
-
-**Combat maneuver bonus:** +54 (+58 bull rush)
-
-**Combat maneuver defense:** 95 (97 vs. bull rush)
-
-**Feats:** Awesome Blow, Blinding Critical, Critical Focus, Dodge, Greater Bull Rush, Improved Bull
-Rush, Improved Critical (slam), Improved Critical (wind blast), Improved Initiative, Improved
-Lightning Reflexes, Lightning Reflexes, Mobility, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind, gust of wind), Spring Attack
-
-**Skills:** Acrobatics +42, Knowledge (arcana, geography, history, nature, planes, religion) +41,
-Perception +45, Use Magic Device +42
-
-**Languages:** Aklo, Aquan, Giant; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** otherworldly insight, wind walk
-
-**Faith:** Ithaqua
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any cold
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

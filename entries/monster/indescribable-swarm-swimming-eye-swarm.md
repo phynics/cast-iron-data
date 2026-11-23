@@ -29,77 +29,61 @@ abilities = ["3", "17", "15", "2", "16", "6"]
 
 _At the heart of each of these tiny blobs of slime and tentacles is a single, eerily human eye._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Initiative: +7
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Swarm
+Size: tiny
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 12
+AC modifiers: +3 Dex, +1 dodge, +2 size
+Hit points: 45 (7d8+14)
+Fort: +4
+Ref: +5
+Will: +8
+Defensive abilities: all-around vision, ruptured membranes, swarm traits
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: swim 40 ft.
+Distraction: 15
+Melee: swarm (2d6 plus poison)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic, Swarm
+::: statblock
+Ability scores: Str 3, Dex 17, Con 15, Int 2, Wis 16, Cha 6
+Base attack bonus: +5
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Dodge, Improved Initiative, Skill Focus (Swim), Skill Focus (Perception)
+Skills: Perception +12, Swim +14
+Special qualities: indescribable swarm (DC 15)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +1 dodge, +2 size
-
-**Hit points:** 45 (7d8+14)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +8
-
-**Defensive abilities:** all-around vision, ruptured membranes, swarm traits
-
-**Offense**
-
-**Speed:** swim 40 ft.
-
-**Distraction:** 15
-
-**Melee:** swarm (2d6 plus poison)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 17, Con 15, Int 2, Wis 16, Cha 6
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Dodge, Improved Initiative, Skill Focus (Swim), Skill Focus (Perception)
-
-**Skills:** Perception +12, Swim +14
-
-**Special qualities:** indescribable swarm (DC 15)
-
-**Ecology**
-
-**Environment:** temperate or warm water
-
-**Organization:** solitary or bloom (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm water
+Organization: solitary or bloom (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

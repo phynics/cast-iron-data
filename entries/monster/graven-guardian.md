@@ -31,85 +31,67 @@ abilities = ["16", "15", "-", "-", "12", "1"]
 _This jackal-headed, brightly painted clay statue animates and lurches forward, hefting a wickedly
 hooked sword._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: construct
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 natural
+Hit points: 53 (6d10+20)
+Fort: +2
+Ref: +4
+Will: +3
+Dr: 5/adamantine
+Fh: 2
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 16
+Weaknesses: faith bound
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: +1 [keen](ref/magic-enh/keen) scimitar +10/+5 (1d6+5/15-20 plus bleed) or slam +9 (1d6+4)
+Spec Att: bleed 2, magic weapon, rest eternal
+:::
 
-**Perception:** +1
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +0
+Per day: 1/day: haste, self only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 16, Dex 15, Con -, Int -, Wis 12, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 21
+Special qualities: guardian domains (Death, Repose)
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 natural
-
-**Hit points:** 53 (6d10+20)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +3
-
-**Dr:** 5/adamantine
-
-**Fh:** 2
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 16
-
-**Weaknesses:** faith bound
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 [keen](ref/magic-enh/keen) scimitar +10/+5 (1d6+5/15-20 plus bleed) or slam +9 (1d6+4)
-
-**Spec Att:** bleed 2, magic weapon, rest eternal
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +0
-
-**Per day:**
-
-- 1/day: haste, self only
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con -, Int -, Wis 12, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21
-
-**Special qualities:** guardian domains (Death, Repose)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, band (2-4), or assembly (5-12)
-
-**Treasure:** Incidental (mwk scimitar); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, band (2-4), or assembly (5-12)
+Treasure: Incidental (mwk scimitar); other treasure
+:::
 
 ### Special Abilities
 

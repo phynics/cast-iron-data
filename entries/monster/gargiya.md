@@ -31,78 +31,61 @@ abilities = ["31", "13", "23", "2", "10", "10"]
 _With burning eyes and a snapping maw, this blood-red serpent rises from the ocean's depths.
 Sweltering heat radiates from its rippling scales._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Initiative: +1
+Type: Magical beast
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 90 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 24
+Touch: 9
+Flat-footed: 23
+AC modifiers: +1 Dex, +15 natural, -2 size
+Hit points: 138 (12d10+72)
+Fort: +14
+Ref: +11
+Will: +4
+Immune: fire
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 50 ft.
+Constrict: 3d6+12
+Melee: bite +20 (3d6+10/19-20 plus [grab](ref/umr/grab)), tail slap +15 (2d6+5)
+Reach: 15
+Space: 15
+Spec Att: boiling seas, dying gasp, scalding scales
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 90 ft., Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 13, Con 23, Int 2, Wis 10, Cha 10
+Base attack bonus: +12
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 35 (can't be tripped)
+Feats: Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Lightning Reflexes, Power Attack
+Skills: Perception +6, Stealth +4, Swim +22
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 9
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +15 natural, -2 size
-
-**Hit points:** 138 (12d10+72)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +4
-
-**Immune:** fire
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft.
-
-**Constrict:** 3d6+12
-
-**Melee:** bite +20 (3d6+10/19-20 plus [grab](ref/umr/grab)), tail slap +15 (2d6+5)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** boiling seas, dying gasp, scalding scales
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 13, Con 23, Int 2, Wis 10, Cha 10
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 35 (can't be tripped)
-
-**Feats:** Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Lightning
-Reflexes, Power Attack
-
-**Skills:** Perception +6, Stealth +4, Swim +22
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary or shoal (2-3)
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary or shoal (2-3)
+Treasure: None
+:::
 
 ### Special Abilities
 

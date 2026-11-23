@@ -35,93 +35,66 @@ abilities = ["34", "15", "24", "10", "12", "15"]
 _This giant's skin is dead black, and it wears a gold-inlaid breastplate, a headdress, and armbands
 decorated with skulls._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: humanoid
+Initiative: +2
+Size: large
+Alignment: Lawful evil
+Perception: +14
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Extraplanar, Giant
+Experience points: 25,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 28
+Touch: 11
+Flat-footed: 26
+AC modifiers: +5 armor, +2 Dex, +12 natural, -1 size
+Hit points: 218 (19d8+133)
+Fort: +18
+Ref: +8
+Will: +7
+Defensive abilities: shadow cloak
+Rock Ct: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft.
+E Drain: 1 level, DC 21
+Melee: mwk great terbutje +23/+23/+18/+13 (2d8+12/19-20 plus energy drain) or 2 slams +25 (1d8+12 plus energy drain)
+Ranged: rock +16 (1d8+12/19-20)
+Reach: 10
+Rock Th: 180 ft.
+Space: 10
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 15, Con 24, Int 10, Wis 12, Cha 15
+Base attack bonus: +14
+Combat maneuver bonus: +27
+Combat maneuver defense: 39
+Feats: Cleave, Combat Reflexes, Double Slice, Great Cleave, Improved Bull Rush, Improved Critical (great terbutje), Improved Critical (rock), Power Attack, Two-Weapon Fighting, Vital Strike
+Skills: Climb +21, Intimidate +15, Perception +14 (+18 in dim light), Stealth +4 (+12 in dim light)
+Racial Modifiers: +4 Perception in dim light, +8 Stealth in dim light
+Languages: Giant, Shadowtongue
+Special qualities: militant
+:::
 
-**Subtype:** Extraplanar, Giant
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 armor, +2 Dex, +12 natural, -1 size
-
-**Hit points:** 218 (19d8+133)
-
-**Fort:** +18
-
-**Ref:** +8
-
-**Will:** +7
-
-**Defensive abilities:** shadow cloak
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**E Drain:** 1 level, DC 21
-
-**Melee:** mwk great terbutje +23/+23/+18/+13 (2d8+12/19-20 plus energy drain) or 2 slams +25
-(1d8+12 plus energy drain)
-
-**Ranged:** rock +16 (1d8+12/19-20)
-
-**Reach:** 10
-
-**Rock Th:** 180 ft.
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 15, Con 24, Int 10, Wis 12, Cha 15
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 39
-
-**Feats:** Cleave, Combat Reflexes, Double Slice, Great Cleave, Improved Bull Rush, Improved
-Critical (great terbutje), Improved Critical (rock), Power Attack, Two-Weapon Fighting, Vital Strike
-
-**Skills:** Climb +21, Intimidate +15, Perception +14 (+18 in dim light), Stealth +4 (+12 in dim
-light)
-
-**Racial Modifiers:** +4 Perception in dim light, +8 Stealth in dim light
-
-**Languages:** Giant, Shadowtongue
-
-**Special qualities:** militant
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, gang (2-5), family (6-13 plus 35% noncombatants, 1 cleric or witch
-shaman of 5th-8th level, and 1 fighter or barbarian chief of 7th-10th level), or company (14-33 plus
-1 fighter or barbarian chief of 7th-10th level)
-
-**Treasure:** Standard (+1 MG breastplate, mwk -great terbutje); gold jewelry and adornments worth
-500 gp, other treasure
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, gang (2-5), family (6-13 plus 35% noncombatants, 1 cleric or witch shaman of 5th-8th level, and 1 fighter or barbarian chief of 7th-10th level), or company (14-33 plus 1 fighter or barbarian chief of 7th-10th level)
+Treasure: Standard (+1 MG breastplate, mwk -great terbutje); gold jewelry and adornments worth 500 gp, other treasure
+:::
 
 ### Special Abilities
 

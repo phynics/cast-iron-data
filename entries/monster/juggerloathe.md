@@ -30,84 +30,64 @@ abilities = ["32", "13", "26", "5", "19", "12"]
 _This massive spiked creature has smoking black pits for eyes, an enormous maw, and a tail that
 appears to be an armored cobra._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +5
+Type: Magical beast
+Perception: +16
+Senses: Darkvision 120 ft., Low-light vision, Scent
+tremorsense: 120
+Experience points: 76,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 32
+Touch: 7
+Flat-footed: 31
+AC modifiers: +1 Dex, +25 natural, -4 size
+Hit points: 256 (19d10+152)
+Fort: +19
+Ref: +14
+Will: +12
+Dr: 10/adamantine
+Sr: 22
+:::
 
-**Initiative:** +5
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft., burrow 30 ft.
+Melee: 2 bites +26 (3d8+11), 2 claws +26 (2d8+11)
+Reach: 20
+Space: 20
+Spec Att: devour life, ejection, leaping shockwave
+Swallow: AC 23, hp 30
+Trample: 2d8+11, DC 30
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 32, Dex 13, Con 26, Int 5, Wis 19, Cha 12
+Base attack bonus: +19
+Combat maneuver bonus: +34 (+36 bull rush)
+Combat maneuver defense: 45 (47 vs. bull rush, 49 vs. trip)
+Feats: Improved Bull Rush, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Lunge, Power Attack, Run, Skill Focus (Perception), Snatch
+Skills: Acrobatics +17, Perception +16
+Languages: Orc
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 32
-
-**Touch:** 7
-
-**Flat-footed:** 31
-
-**AC modifiers:** +1 Dex, +25 natural, -4 size
-
-**Hit points:** 256 (19d10+152)
-
-**Fort:** +19
-
-**Ref:** +14
-
-**Will:** +12
-
-**Dr:** 10/adamantine
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 40 ft., burrow 30 ft.
-
-**Melee:** 2 bites +26 (3d8+11), 2 claws +26 (2d8+11)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** devour life, ejection, leaping shockwave
-
-**Swallow:** AC 23, hp 30
-
-**Trample:** 2d8+11, DC 30
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 13, Con 26, Int 5, Wis 19, Cha 12
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +34 (+36 bull rush)
-
-**Combat maneuver defense:** 45 (47 vs. bull rush, 49 vs. trip)
-
-**Feats:** Improved Bull Rush, Improved Initiative, Improved Iron Will, Iron Will, Lightning
-Reflexes, Lunge, Power Attack, Run, Skill Focus (Perception), Snatch
-
-**Skills:** Acrobatics +17, Perception +16
-
-**Languages:** Orc
-
-**Ecology**
-
-**Environment:** any (Hold of Belkzen)
-
-**Organization:** unique
-
-**Treasure:** Double
+::: statblock
+Environment: any (Hold of Belkzen)
+Organization: unique
+Treasure: Double
+:::
 
 ### Special Abilities
 

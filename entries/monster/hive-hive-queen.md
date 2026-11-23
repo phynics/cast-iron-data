@@ -32,89 +32,66 @@ abilities = ["28", "19", "19", "15", "18", "6"]
 _Black, chitinous armor covers this enormous insectile creature. Caustic saliva drips from its
 mandibles._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+blindsense: 60
+blindsight: 10
+Size: huge
+Initiative: +8
+Alignment: Neutral evil
+Perception: +22
+Senses: Hive mind
+Subtype: Hive
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 26
+Touch: 12
+Flat-footed: 22
+AC modifiers: +4 Dex, +14 Natural, -2 size
+Hit points: 127 (15d8+60)
+Fort: +9
+Ref: +9
+Will: +13
+Defensive abilities: corrosive blood (1d8 acid), heat adaptability
+Immune: acid
+:::
 
-**blindsight:** 10
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 50 ft., climb 20 ft.
+Melee: bite +18 (2d6+9/19-20), 2 claws +18 (1d10+9/19-20), tail slap +16 (2d6+4)
+Reach: 15
+Reach P: 20 ft. with tail slap
+Space: 15
+Spec Att: death throes (15d6, DC 21)
+:::
 
-**Initiative:** +8
+### Statistics
 
-**Alignment:** Neutral evil
+::: statblock
+Ability scores: Str 28, Dex 19, Con 19, Int 15, Wis 18, Cha 6
+Base attack bonus: +11
+Combat maneuver bonus: +22
+Combat maneuver defense: 36
+Feats: Combat Reflexes, Improved Critical (bite), Improved Critical (claw), Improved Initiative, Improved Vital Strike, Multiattack, Power Attack, Vital Strike
+Skills: Climb +35
+Languages: Aklo, Common (can't speak); [telepathy](ref/umr/telepathy) 1 mile (hive)
+Special qualities: blind, egg layer
+:::
 
-**Perception:** +22
+### Ecology
 
-**Senses:** Hive mind
-
-**Subtype:** Hive
-
-**Experience points:** 9,600
-
-**Armor class:** 26
-
-**Touch:** 12
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +14 Natural, -2 size
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +13
-
-**Defensive abilities:** corrosive blood (1d8 acid), heat adaptability
-
-**Immune:** acid
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft.
-
-**Melee:** bite +18 (2d6+9/19-20), 2 claws +18 (1d10+9/19-20), tail slap +16 (2d6+4)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with tail slap
-
-**Space:** 15
-
-**Spec Att:** death throes (15d6, DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 19, Con 19, Int 15, Wis 18, Cha 6
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 36
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Improved Critical (claw), Improved Initiative,
-Improved Vital Strike, Multiattack, Power Attack, Vital Strike
-
-**Skills:** Climb +35
-
-**Languages:** Aklo, Common (can't speak); [telepathy](ref/umr/telepathy) 1 mile (hive)
-
-**Special qualities:** blind, egg layer
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or hive (1 plus 1-20 [larva swarms](ref/monster/hive-hive-larva-swarm)
-and 1-50 hive workers and [warriors](ref/monster/hive-hive-warrior))
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or hive (1 plus 1-20 [larva swarms](ref/monster/hive-hive-larva-swarm) and 1-50 hive workers and [warriors](ref/monster/hive-hive-warrior))
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

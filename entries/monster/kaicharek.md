@@ -32,85 +32,67 @@ abilities = ["14", "15", "16", "11", "13", "14"]
 _This grotesque, crimson worm-like creature has a circular mouth full of fangs. A pair of segmented
 tentacles sporting razor-edged ridges protrudes from the sides of its mouth._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Type: Magical beast
+Size: medium
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +6
+Will: +4
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., burrow 20 ft., climb 20 ft.
+B Drain: 1 Constitution
+Melee: bite +7 (1d6+2 plus [grab](ref/umr/grab)), 2 tentacles +2 (1d4+1 plus 1d4 bleed)
+Spec Att: impaling thrust, slashing talons
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+Per day: 3/day: hidden presence (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 14, Dex 15, Con 16, Int 11, Wis 13, Cha 14
+Base attack bonus: +5
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 19
+Feats: Combat Reflexes, Iron Will, Skill Focus (Stealth)
+Skills: Climb +15, Perception +7, Stealth +13
+Languages: Abyssal (can't speak)
+Special qualities: hidden feeding
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft., climb 20 ft.
-
-**B Drain:** 1 Constitution
-
-**Melee:** bite +7 (1d6+2 plus [grab](ref/umr/grab)), 2 tentacles +2 (1d4+1 plus 1d4 bleed)
-
-**Spec Att:** impaling thrust, slashing talons
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**Per day:**
-
-- 3/day: hidden presence (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 16, Int 11, Wis 13, Cha 14
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 19
-
-**Feats:** Combat Reflexes, Iron Will, Skill Focus (Stealth)
-
-**Skills:** Climb +15, Perception +7, Stealth +13
-
-**Languages:** Abyssal (can't speak)
-
-**Special qualities:** hidden feeding
-
-**Ecology**
-
-**Environment:** any (Blood Vale)
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (Blood Vale)
+Organization: solitary, pair, or cluster (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

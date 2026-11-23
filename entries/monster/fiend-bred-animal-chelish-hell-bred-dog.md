@@ -29,71 +29,58 @@ abilities = ["14", "15", "15", "2", "10", "6"]
 
 _This reddish-brown canine has a square, athletic build. Its dripping saliva smells of sulfur._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +4 (1d6+3 plus [trip](ref/umr/trip))
+Spec Att: sulfurous spittle
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 14, Dex 15, Con 15, Int 2, Wis 10, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16 (20 vs. trip)
+Feats: Improved Initiative, Skill Focus (Survival)
+Skills: Acrobatics +6 (+10 when jumping), Perception +4
+Racial Modifiers: +4 Acrobatics when jumping, +4 Survival when tracking by scent
+Special qualities: hot climate adaptation
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +4 (1d6+3 plus [trip](ref/umr/trip))
-
-**Spec Att:** sulfurous spittle
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 15, Int 2, Wis 10, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16 (20 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Survival)
-
-**Skills:** Acrobatics +6 (+10 when jumping), Perception +4
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Survival when tracking by scent
-
-**Special qualities:** hot climate adaptation
-
-**Ecology**
-
-**Environment:** temperate or warm forests or plains
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests or plains
+Organization: solitary, pair, or pack (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

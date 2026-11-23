@@ -32,104 +32,74 @@ abilities = ["40", "16", "23", "15", "20", "17"]
 _This giant has the arms and armor of an ancient warrior. Her golden skin and flame-colored hair
 amplify the light around her._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Alignment: CG or CE
+aura: solar (60 ft., DC 24)
+Size: huge
+Type: humanoid
+Initiative: +3
+Perception: +31
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 76,800
+:::
 
-**Alignment:** CG or CE
+### Defense
 
-**aura:** solar (60 ft., DC 24)
+::: statblock
+Armor class: 31
+Touch: 11
+Flat-footed: 28
+AC modifiers: +5 armor, +3 Dex, +15 natural, -2 size
+Hit points: 241 (23d8+138)
+Fort: +19
+Ref: +12
+Will: +14
+Immune: blind, dazzled, fire
+Resist: cold 30, electricity 30
+Rock Ct: present
+:::
 
-**Size:** huge
+### Offense
 
-**Type:** humanoid
+::: statblock
+Speed: 35 ft., (50 ft. without armor)
+Melee: mwk heavy mace +31/+26/+21/+16 (3d6+22) or 2 slams +30 (2d6+15)
+Ranged: mwk atlatl +19/+14/+9/+4 (2d6+15 plus sun dart)
+Reach: 15
+Space: 15
+Spec Att: sun dart
+:::
 
-**Initiative:** +3
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 21
+Concentration: +24
+At will: daylight, eagle eye, remove blindness/deafness, sunburst (DC 21)
+Per day: 3/day: quickened blistering invective (DC 15)\
+1/day: flame strike (DC 18), waves of exhaustion
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 40, Dex 16, Con 23, Int 15, Wis 20, Cha 17
+Base attack bonus: +17
+Combat maneuver bonus: +34
+Combat maneuver defense: 47
+Feats: Greater Vital Strike, Improved Vital Strike, Iron Will, Lightning Reflexes, Martial Weapon Proficiency (atlatl), Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (blistering invective), Rapid Reload (atlatl), Vital Strike
+Skills: Climb +25
+Languages: Common, Giant, Ignan
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 11
-
-**Flat-footed:** 28
-
-**AC modifiers:** +5 armor, +3 Dex, +15 natural, -2 size
-
-**Hit points:** 241 (23d8+138)
-
-**Fort:** +19
-
-**Ref:** +12
-
-**Will:** +14
-
-**Immune:** blind, dazzled, fire
-
-**Resist:** cold 30, electricity 30
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 35 ft., (50 ft. without armor)
-
-**Melee:** mwk heavy mace +31/+26/+21/+16 (3d6+22) or 2 slams +30 (2d6+15)
-
-**Ranged:** mwk atlatl +19/+14/+9/+4 (2d6+15 plus sun dart)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** sun dart
-
-**Spell-Like Abilities**
-
-**Caster level:** 21
-
-**Concentration:** +24
-
-**At will:**
-
-- daylight, eagle eye, remove blindness/deafness, sunburst (DC 21)
-
-**Per day:**
-
-- 3/day: quickened blistering invective (DC 15)
-- 1/day: flame strike (DC 18), waves of exhaustion
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 16, Con 23, Int 15, Wis 20, Cha 17
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 47
-
-**Feats:** Greater Vital Strike, Improved Vital Strike, Iron Will, Lightning Reflexes, Martial
-Weapon Proficiency (atlatl), Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (blistering invective), Rapid Reload (atlatl),
-Vital Strike
-
-**Skills:** Climb +25
-
-**Languages:** Common, Giant, Ignan
-
-**Ecology**
-
-**Environment:** warm deserts or mountains
-
-**Organization:** solitary, pair, or family (3-5 plus 35% noncombatants and 1 cleric of 7th-10th
-level)
-
-**Treasure:** Standard (mwk -atlatl, mwk morningstar, mwk scale mail); other treasure
+::: statblock
+Environment: warm deserts or mountains
+Organization: solitary, pair, or family (3-5 plus 35% noncombatants and 1 cleric of 7th-10th level)
+Treasure: Standard (mwk -atlatl, mwk morningstar, mwk scale mail); other treasure
+:::
 
 ### Special Abilities
 

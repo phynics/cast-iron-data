@@ -29,71 +29,58 @@ abilities = ["16", "15", "14", "2", "15", "7"]
 
 _This large bird has brown and gray feathers and a vicious hooked beak._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 dodge, +3 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +6
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., fly 60 ft. (average)
+Melee: bite +5 (1d8+4 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: impale
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 15, Con 14, Int 2, Wis 15, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Dodge, Flyby Attack, Skill Focus (Perception)
+Skills: Fly +7, Perception +9
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 dodge, +3 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (average)
-
-**Melee:** bite +5 (1d8+4 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** impale
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 14, Int 2, Wis 15, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Dodge, Flyby Attack, Skill Focus (Perception)
-
-**Skills:** Fly +7, Perception +9
-
-**Ecology**
-
-**Environment:** any temperate
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any temperate
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

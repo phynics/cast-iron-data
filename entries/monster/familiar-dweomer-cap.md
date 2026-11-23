@@ -27,71 +27,58 @@ abilities = ["1", "8", "12", "-", "12", "2"]
 
 _Undulating patterns of purple and orange luminescence play across this strange mushroom's gills._
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Initiative: -1
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: tiny
+Experience points: 50
+:::
 
-**Initiative:** -1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 11
+AC modifiers: -1 Dex, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: -1
+Will: +1; +2 vs. spells and [spell-like abilities](ref/umr/spell-like-abilities)
+Defensive abilities: arcanophage
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 5 ft., climb 5 ft.
+Reach: 0
+Space: 2-1/2
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 1, Dex 8, Con 12, Int -, Wis 12, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 2 (can't be tripped)
+Skills: Climb +7
+Special qualities: aura luminescence
+:::
 
-**Experience points:** 50
+### Ecology
 
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** -1 Dex, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** -1
-
-**Will:** +1; +2 vs. spells and [spell-like abilities](ref/umr/spell-like-abilities)
-
-**Defensive abilities:** arcanophage
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 5 ft., climb 5 ft.
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 8, Con 12, Int -, Wis 12, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 2 (can't be tripped)
-
-**Skills:** Climb +7
-
-**Special qualities:** aura luminescence
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or patch (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or patch (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

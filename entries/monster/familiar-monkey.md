@@ -25,71 +25,58 @@ melee = "bite +4 melee (1d3-4)"
 abilities = ["3", "15", "10", "2", "12", "5"]
 +++
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +4 melee (1d3-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 15, Con 10, Int 2, Wis 12, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6
+Feats: Weapon Finesse
+Skills: Acrobatics +10, Climb +10, Perception +5
+Racial Modifiers: +8 Acrobatics
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +4 melee (1d3-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 10, Int 2, Wis 12, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +10, Climb +10, Perception +5
-
-**Racial Modifiers:** +8 Acrobatics
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, band (3-9), or troop (10-40)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, band (3-9), or troop (10-40)
+Treasure: None
+:::
 
 ### Description
 

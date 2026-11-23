@@ -31,83 +31,66 @@ abilities = ["10", "12", "15", "-", "10", "1"]
 _This miniscule red jellyfish has long, writhing red tentacles and a translucent bell that glows
 with an eerie blue light._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Aquatic, Extraplanar
+Size: tiny
+Type: vermin
+Experience points: 200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 9 (1d8+5)
+Fort: +4
+Ref: +1
+Will: +0
+Amorph: present
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Speed: swim 20 ft.
+Melee: 2 tentacles +2 (1d2)
+Reach: 0
+Space: 2-1/2
+Spec Att: corpse pilot
+:::
 
-**Subtype:** Aquatic, Extraplanar
+### Statistics
 
-**Size:** tiny
-
-**Type:** vermin
-
-**Experience points:** 200
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 9 (1d8+5)
-
-**Fort:** +4
-
-**Ref:** +1
-
-**Will:** +0
-
-**Amorph:** present
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** swim 20 ft.
-
-**Melee:** 2 tentacles +2 (1d2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** corpse pilot
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 12, Con 15, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 9 (can't be tripped)
-
-**Feats:** toughness^B^
-
-**Skills:** Swim +9
-
-**Special qualities:** air bell, [compression](ref/umr/compression)
+::: statblock
+Ability scores: Str 10, Dex 12, Con 15, Int -, Wis 10, Cha 1
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 9 (can't be tripped)
+Feats: toughness^B^
+Skills: Swim +9
+Special qualities: air bell, [compression](ref/umr/compression)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any water ([Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary, pack (2-5), or bloom (6-13)
-
-**Treasure:** None
+::: statblock
+Environment: any water ([Plane of Water](ref/rule/plane-of-water))
+Organization: solitary, pack (2-5), or bloom (6-13)
+Treasure: None
+:::
 
 ### Special Abilities
 

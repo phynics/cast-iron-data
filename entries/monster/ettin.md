@@ -32,81 +32,62 @@ abilities = ["23", "8", "15", "6", "10", "11"]
 _This lumbering, filthy, two-headed giant wears tattered remnants of leather armor and clutches a
 large flail in each fist._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: large
+Perception: +12
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: +2 armor, -1 Dex, +8 natural, -1 size
+Hit points: 65 (10d8+20)
+Fort: +9
+Ref: +2
+Will: +5
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: 2 flails +12/+7 (2d6+6)
+Ranged: 2 javelins +5 (1d8+6)
+Reach: 10
+Space: 10
+Spec Att: superior two-weapon fighting
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 8, Con 15, Int 6, Wis 10, Cha 11
+Base attack bonus: +7
+Combat maneuver bonus: +14
+Combat maneuver defense: 23
+Feats: Cleave, Improved Initiative, Improved Overrun, Iron Will, Power Attack
+Skills: Handle Animal +8
+Racial Modifiers: +4 on Perception
+Languages: pidgin of Giant, Goblin, and Orc
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 armor, -1 Dex, +8 natural, -1 size
-
-**Hit points:** 65 (10d8+20)
-
-**Fort:** +9
-
-**Ref:** +2
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 flails +12/+7 (2d6+6)
-
-**Ranged:** 2 javelins +5 (1d8+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** superior two-weapon fighting
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 8, Con 15, Int 6, Wis 10, Cha 11
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 23
-
-**Feats:** Cleave, Improved Initiative, Improved Overrun, Iron Will, Power Attack
-
-**Skills:** Handle Animal +8
-
-**Racial Modifiers:** +4 on Perception
-
-**Languages:** pidgin of Giant, Goblin, and Orc
-
-**Ecology**
-
-**Environment:** cold hills
-
-**Organization:** solitary, pair, gang (3-6), troupe (1-2 plus 1-2
-[brown bears](ref/monster/bear-grizzly-bear)), band (3-6 plus 1-2 brown bears), or colony (3-6 plus
-1-2 brown bears and 7-12 [orcs](ref/monster/orc) or 9-16 [goblins](ref/monster/goblin))
-
-**Treasure:** Standard (leather armor, 2 light flails, 4 javelins); other treasure
+::: statblock
+Environment: cold hills
+Organization: solitary, pair, gang (3-6), troupe (1-2 plus 1-2 [brown bears](ref/monster/bear-grizzly-bear)), band (3-6 plus 1-2 brown bears), or colony (3-6 plus 1-2 brown bears and 7-12 [orcs](ref/monster/orc) or 9-16 [goblins](ref/monster/goblin))
+Treasure: Standard (leather armor, 2 light flails, 4 javelins); other treasure
+:::
 
 ### Special Abilities
 

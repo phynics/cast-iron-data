@@ -29,71 +29,58 @@ abilities = ["22", "8", "-", "-", "11", "1"]
 _This decaying taxidermic bear is held together with thick stitches, metal armor plates, and a
 pungent chemical fluid._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 20
+Touch: 8
+Flat-footed: 20
+AC modifiers: -1 Dex, +12 natural, -1 size
+Hit points: 74 (8d10+30)
+Fort: +2
+Ref: +1
+Will: +2
+Defensive abilities: [hardness](ref/umr/hardness) 5
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Constrict: 1d8+6
+Melee: 2 claws +13 (1d8+6 plus [grab](ref/umr/grab) and poison)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 8, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 24 (28 vs. trip)
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 8
-
-**Flat-footed:** 20
-
-**AC modifiers:** -1 Dex, +12 natural, -1 size
-
-**Hit points:** 74 (8d10+30)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +2
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 5
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d8+6
-
-**Melee:** 2 claws +13 (1d8+6 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 8, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

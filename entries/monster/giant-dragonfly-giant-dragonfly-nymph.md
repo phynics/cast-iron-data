@@ -31,77 +31,61 @@ abilities = ["15", "13", "14", "-", "12", "5"]
 _This glittering blue dragonfly is about the size of a horse and is large enough to carry off small
 farm animals or people._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Aquatic
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 14
+AC modifiers: +1 Dex, +3 natural, +1 size
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +2
+Will: +2
+Immune: mind-affecting effects
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 10 ft., swim 30 ft.
+Melee: bite +6 (2d6+3)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 5
+Spec Att: extending jaw
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 15, Dex 13, Con 14, Int -, Wis 12, Cha 5
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 15 (23 vs. trip)
+Skills: Stealth +5 (+13 in shallow water), Swim +10
+Racial Modifiers: +8 Stealth in shallow water
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +3 natural, +1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 10 ft., swim 30 ft.
-
-**Melee:** bite +6 (2d6+3)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 5
-
-**Spec Att:** extending jaw
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 14, Int -, Wis 12, Cha 5
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15 (23 vs. trip)
-
-**Skills:** Stealth +5 (+13 in shallow water), Swim +10
-
-**Racial Modifiers:** +8 Stealth in shallow water
-
-**Ecology**
-
-**Environment:** temperate or warm water
-
-**Organization:** solitary, pair, or brood (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm water
+Organization: solitary, pair, or brood (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

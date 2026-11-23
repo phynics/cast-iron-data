@@ -31,109 +31,75 @@ abilities = ["27", "10", "24", "15", "24", "27"]
 _This imposing anthropomorphic being comprised of stone and spiked steel armor hefts an intimidating
 hammer._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Initiative: +4
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft., Detect chaos, Low-light vision, True seeing
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 153,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 33
+Touch: 13
+Flat-footed: 33
+AC modifiers: +4 deflection, +20 natural, -1 size
+Hit points: 280 (20d10+170)
+Fort: +23
+Ref: +10
+Will: +23
+Defensive abilities: constructed, unimpeachable
+Dr: 15/chaotic
+Regen: 10 (chaotic)
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: +1 axiomatic warhammer +28/+23/+18/+13 (2d6+9/19-20/×3)
+Reach: 10
+Space: 10
+Spec Att: disperse the rabble, drastic measures, smite chaos 3/day (+8 damage)
+Trample: 2d6+12, DC 28
+:::
 
-**Perception:** +30
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: detect chaos, shield of law (DC 26), true seeing
+At will: enthrall (DC 20), mark of justice, order's wrath (DC 22)
+Per day: 3/day: dimension door, dispel chaos, fly, greater command (DC 23), greater dispel magic, plane shift (DC 23)\
+1/day: dictum (DC 25)
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos, Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+::: statblock
+Ability scores: Str 27, Dex 10, Con 24, Int 15, Wis 24, Cha 27
+Base attack bonus: +20
+Combat maneuver bonus: +29 (33 disarm)
+Combat maneuver defense: 43 (45 vs. disarm)
+Feats: Cleave, Combat Expertise, Disarming Strike, Great Cleave, Greater Disarm, Improved Critical (warhammer), Improved Disarm, Improved Initiative, Intimidating Prowess, Power Attack
+Skills: Diplomacy +21, Fly +8, Intimidate +39, Knowledge (geography, history, nobility) +12, Knowledge (local) +22, Perception +30
+Languages: truespeech
+Special qualities: judicious
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 13
-
-**Flat-footed:** 33
-
-**AC modifiers:** +4 deflection, +20 natural, -1 size
-
-**Hit points:** 280 (20d10+170)
-
-**Fort:** +23
-
-**Ref:** +10
-
-**Will:** +23
-
-**Defensive abilities:** constructed, unimpeachable
-
-**Dr:** 15/chaotic
-
-**Regen:** 10 (chaotic)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 axiomatic warhammer +28/+23/+18/+13 (2d6+9/19-20/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** disperse the rabble, drastic measures, smite chaos 3/day (+8 damage)
-
-**Trample:** 2d6+12, DC 28
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- detect chaos, shield of law (DC 26), true seeing
-
-**At will:**
-
-- enthrall (DC 20), mark of justice, order's wrath (DC 22)
-
-**Per day:**
-
-- 3/day: dimension door, dispel chaos, fly, greater command (DC 23), greater dispel magic, plane
-  shift (DC 23)
-- 1/day: dictum (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 10, Con 24, Int 15, Wis 24, Cha 27
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +29 (33 disarm)
-
-**Combat maneuver defense:** 43 (45 vs. disarm)
-
-**Feats:** Cleave, Combat Expertise, Disarming Strike, Great Cleave, Greater Disarm, Improved
-Critical (warhammer), Improved Disarm, Improved Initiative, Intimidating Prowess, Power Attack
-
-**Skills:** Diplomacy +21, Fly +8, Intimidate +39, Knowledge (geography, history, nobility) +12,
-Knowledge (local) +22, Perception +30
-
-**Languages:** truespeech
-
-**Special qualities:** judicious
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, investigation (1 hykariut plus 4-8
-[arbiters](ref/monster/inevitable-arbiter)), or mitigation (1 hykariut plus 5-10 arbiters and 2-8
-[kolyaruts](ref/monster/inevitable-kolyarut) or [zelekhuts](ref/monster/inevitable-zelekhut))
-
-**Treasure:** Standard (L +1 axiomatic warhammer); other treasure
+::: statblock
+Environment: any urban
+Organization: solitary, investigation (1 hykariut plus 4-8 [arbiters](ref/monster/inevitable-arbiter)), or mitigation (1 hykariut plus 5-10 arbiters and 2-8 [kolyaruts](ref/monster/inevitable-kolyarut) or [zelekhuts](ref/monster/inevitable-zelekhut))
+Treasure: Standard (L +1 axiomatic warhammer); other treasure
+:::
 
 ### Special Abilities
 

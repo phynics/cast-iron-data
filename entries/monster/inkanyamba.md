@@ -32,86 +32,67 @@ _This monstrous serpent rises to a great height, unfurling an opalescent hood th
 shield. Swaying from side to side, the creature drops open its elongated jaw to reveal an assortment
 of different-sized fangs. As it hisses, lightning slashes the storm-gray sky behind it._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +7
+Type: Magical beast
+Perception: +16
+Senses: Darkvision 120 ft., Scent, Venomsense
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 28
+Touch: 10
+Flat-footed: 24
+AC modifiers: +3 Dex, +1 dodge, +18 natural, -4 size
+Hit points: 178 (17d10+85)
+Fort: +15
+Ref: +15
+Will: +10
+Dr: 10/magic
+Immune: electricity, poison
+:::
 
-**Initiative:** +7
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 60 ft., swim 60 ft.
+Constrict: 4d8+12
+Melee: bite +25 (4d8+12 plus [grab](ref/umr/grab) and poison), tail slap +20 (3d8+6)
+Spec Att: breath weapon, hypnotic sway, protean venom
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Per day: 1/day: call lightning (DC 18), control weather
+:::
 
-**Senses:** Darkvision 120 ft., Scent, Venomsense
+### Statistics
 
-**Experience points:** 25,600
+::: statblock
+Ability scores: Str 34, Dex 17, Con 20, Int 13, Wis 17, Cha 20
+Base attack bonus: +17
+Combat maneuver bonus: +33 (+37)
+Combat maneuver defense: 47
+Feats: Awesome Blow, Dodge, Improved Bull Rush, Improved Initiative, Iron Will, Lightning Reflexes, Lunge, Mobility, Power Attack, Spring Attack
+Skills: Climb +23
+Languages: Aquan, Common, Draconic
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Armor class:** 28
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 Dex, +1 dodge, +18 natural, -4 size
-
-**Hit points:** 178 (17d10+85)
-
-**Fort:** +15
-
-**Ref:** +15
-
-**Will:** +10
-
-**Dr:** 10/magic
-
-**Immune:** electricity, poison
-
-**Offense**
-
-**Speed:** 60 ft., swim 60 ft.
-
-**Constrict:** 4d8+12
-
-**Melee:** bite +25 (4d8+12 plus [grab](ref/umr/grab) and poison), tail slap +20 (3d8+6)
-
-**Spec Att:** breath weapon, hypnotic sway, protean venom
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Per day:**
-
-- 1/day: call lightning (DC 18), control weather
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 17, Con 20, Int 13, Wis 17, Cha 20
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +33 (+37)
-
-**Combat maneuver defense:** 47
-
-**Feats:** Awesome Blow, Dodge, Improved Bull Rush, Improved Initiative, Iron Will, Lightning
-Reflexes, Lunge, Mobility, Power Attack, Spring Attack
-
-**Skills:** Climb +23
-
-**Languages:** Aquan, Common, Draconic
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** tropical rivers and lakes
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: tropical rivers and lakes
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

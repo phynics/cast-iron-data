@@ -119,7 +119,7 @@ FRONT_MATTER_END = "\n+++\n"
 
 # The slices already written to the corpus: (pass, --only value or None for the whole pass).
 # `--check` with no scope arguments checks exactly these.
-APPLIED: list[tuple[str, str | None]] = [("creature", "a-d")]
+APPLIED: list[tuple[str, str | None]] = [("creature", "a-l")]
 
 PASS_FOLDERS = {"creature": ("monster",), "fixes": ()}
 KNOWN_PASSES = ("creature", "npc", "item", "fixes")
@@ -138,8 +138,8 @@ BOLD_ONLY = re.compile(r"^\*\*([^*:]+)\*\*$", re.S)
 GUARDED = re.compile(r"\\[-+0-9: \t]")
 RESERVED_KEYS = ("entry-related",)  # crates/schema/src/headings.rs RESERVED_ANCHOR_KEYS
 
-# (path, publication and page, [(old text, new text), ...]). Each old text occurs exactly once
-# before the fix and never after it.
+# (path, publication and page, note, [(old text, new text, later forms of the new text...), ...]).
+# Each old text occurs exactly once before the fix and never after it.
 PRINT_FIXES = (
     (
         "entries/monster/elemental-lord-ymeri.md",
@@ -156,6 +156,10 @@ PRINT_FIXES = (
                 "plus 1d10 fire plus trip)\n",
                 "**Melee:** +4 earth-outsider-bane flaming burst longsword +44/+39/+34/+29 (2d6+14 plus 1d6\n"
                 "fire/17-20), 3 +4 earth-outsider-bane flaming burst longswords +40 (2d6+9 plus 1d6 fire/17-20), 2\n"
+                "claws +37 (1d8+5 plus 1d10 fire plus trip)\n",
+                # The same line once the creature pass has made it a row.
+                "\nMelee: +4 earth-outsider-bane flaming burst longsword +44/+39/+34/+29 (2d6+14 plus 1d6 "
+                "fire/17-20), 3 +4 earth-outsider-bane flaming burst longswords +40 (2d6+9 plus 1d6 fire/17-20), 2 "
                 "claws +37 (1d8+5 plus 1d10 fire plus trip)\n",
             ),
         ),
@@ -688,11 +692,11 @@ def fix_state(root: Path, fix) -> tuple[str, str]:
     """(`pending` | `applied` | `unknown`, the text with the fix applied)."""
     rel, _, _, pairs = fix
     text = (root / rel).read_text(encoding="utf-8")
-    if all(text.count(old) == 0 and text.count(new) == 1 for old, new in pairs):
+    if all(text.count(pair[0]) == 0 and sum(text.count(new) for new in pair[1:]) == 1 for pair in pairs):
         return "applied", text
-    if all(text.count(old) == 1 for old, _ in pairs):
-        for old, new in pairs:
-            text = text.replace(old, new)
+    if all(text.count(pair[0]) == 1 for pair in pairs):
+        for pair in pairs:
+            text = text.replace(pair[0], pair[1])
         return "pending", text
     return "unknown", text
 
@@ -1059,7 +1063,7 @@ class SelfTest(unittest.TestCase):
             (root / "entries/eq-weaponenh").mkdir(parents=True)
             (root / "scripts").mkdir()
             for rel, _, _, pairs in PRINT_FIXES:
-                (root / rel).write_text(FRONT.replace("creature", "item") + "".join(old for old, _ in pairs), encoding="utf-8")
+                (root / rel).write_text(FRONT.replace("creature", "item") + "".join(pair[0] for pair in pairs), encoding="utf-8")
             (root / "entries/monster/aasimar.md").write_text(FRONT + SAMPLE, encoding="utf-8")
             (root / "entries/monster/zombie.md").write_text(FRONT + SAMPLE.replace("**Touch:** 10", "Prose."), encoding="utf-8")
             sink = open(os.devnull, "w")
@@ -1076,6 +1080,13 @@ class SelfTest(unittest.TestCase):
             self.assertEqual(run(root, "write", ["creature"], None, sink), 0)
             self.assertEqual(before, {path: path.read_bytes() for path in root.rglob("*.md")})
             self.assertEqual(sorted(path.name for path in root.rglob("*.tmp")), [])
+            for fix in PRINT_FIXES:
+                self.assertEqual(fix_state(root, fix)[0], "applied")
+                path = root / fix[0]
+                for pair in fix[3]:
+                    for later in pair[2:]:
+                        path.write_text(path.read_text(encoding="utf-8").replace(pair[1], later), encoding="utf-8")
+                self.assertEqual(fix_state(root, fix)[0], "applied")
 
 
 if __name__ == "__main__":

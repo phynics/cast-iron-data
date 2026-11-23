@@ -29,85 +29,60 @@ special_qualities = "cruelties (fatigued, staggered), fiendish boon (fiendish di
 abilities = ["20", "17", "-", "13", "16", "18"]
 +++
 
-**Challenge rating:** 8
-
 **Ghoul [antipaladin](ref/class/antipaladin) 7**
 
-**aura:** cowardice (10 ft.)
+::: statblock
+Challenge rating: 8
+aura: cowardice (10 ft.)
+Alignment: Chaotic evil
+Initiative: +3
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +6 armor, +3 Dex, +2 natural
+Hit points: 99 (2d8+7d10+52\~9)
+Fort: +13
+Ref: +9
+Will: +15
+Chan Res: +2
+Immune: disease, [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 20 ft.
+Ch N En: DC 17, 4d6
+Melee: mwk greataxe +15/+10 (1d12+7/19-20/×3), bite +8 (1d6+2 plus disease and paralysis) or bite +13 (1d6+5 plus disease and paralysis), 2 claws +13 (1d6+5 plus paralysis)
+Paralysis: 1d4+1 rounds, DC 15, elves are immune to this effect), smite good 3/day (+4 attack and AC, +7 damage
+Ranged: mwk composite shortbow +12/+7 (1d6+5/×3)
+Spec Att: disease (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+At will: detect good
+:::
 
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 armor, +3 Dex, +2 natural
-
-**Hit points:** 99 (2d8+7d10+52\~9)
-
-**Fort:** +13
-
-**Ref:** +9
-
-**Will:** +15
-
-**Chan Res:** +2
-
-**Immune:** disease, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** DC 17, 4d6
-
-**Melee:** mwk greataxe +15/+10 (1d12+7/19-20/×3), bite +8 (1d6+2 plus disease and paralysis) or
-bite +13 (1d6+5 plus disease and paralysis), 2 claws +13 (1d6+5 plus paralysis)
-
-**Paralysis:** 1d4+1 rounds, DC 15, elves are immune to this effect), smite good 3/day (+4 attack
-and AC, +7 damage
-
-**Ranged:** mwk composite shortbow +12/+7 (1d6+5/×3)
-
-**Spec Att:** disease (DC 15)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**At will:**
-
-- detect good
-
-**Prepared Spells**
-
-**Caster level:** 4
-
-**Concentration:** +8
-
-**2nd-level spells:**
-
-- desecrate
-
-**1st-level spells:**
-
-- disguise self, inflict light wounds (DC 15)
+::: statblock
+title = "Prepared Spells"
+Caster level: 4
+Concentration: +8
+2nd-level spells: desecrate
+1st-level spells: disguise self, inflict light wounds (DC 15)
+:::
 
 ### Tactics
 
@@ -118,32 +93,26 @@ statistics).
 **During Combat** The commander begins combat by charging in on his boar. He prefers to attack with
 his greataxe.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 17, Con -, Int 13, Wis 16, Cha 18
+::: statblock
+Ability scores: Str 20, Dex 17, Con -, Int 13, Wis 16, Cha 18
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 26
+Feats: Cleave, Improved Critical (greataxe), Power Attack, Toughness, Weapon Focus (greataxe)
+Skills: Bluff +11, Intimidate +16, Perception +15, Ride +12
+Languages: Common, Undercommon
+Special qualities: cruelties (fatigued, staggered), fiendish boon (fiendish dire boar servant), touch of corruption 7/day (3d6)
+Combat gear: scroll of inflict serious wounds
+Other gear: mwk breastplate, mwk csb20, mwk greataxe, Ibogs2, 79 gp
+:::
 
-**Base attack bonus:** +8
+### Ecology
 
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26
-
-**Feats:** Cleave, Improved Critical (greataxe), Power Attack, Toughness, Weapon Focus (greataxe)
-
-**Skills:** Bluff +11, Intimidate +16, Perception +15, Ride +12
-
-**Languages:** Common, Undercommon
-
-**Special qualities:** cruelties (fatigued, staggered), fiendish boon (fiendish dire boar servant),
-touch of corruption 7/day (3d6)
-
-**Combat gear:** scroll of inflict serious wounds
-
-**Other gear:** mwk breastplate, mwk csb20, mwk greataxe, Ibogs2, 79 gp
-
-**Ecology**
-
-**Environment:** any land
+::: statblock
+Environment: any land
+:::
 
 ### Description
 

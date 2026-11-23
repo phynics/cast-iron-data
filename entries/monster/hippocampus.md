@@ -31,73 +31,59 @@ abilities = ["16", "9", "15", "2", "12", "11"]
 _This creature has the foreparts of a horse and the hindquarters of a fish. Its forelegs end in
 splayed fins rather than hooves._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: -1
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 12
+Touch: 8
+Flat-footed: 12
+AC modifiers: -1 Dex, +4 natural, -1 size
+Hit points: 15 (2d10+4)
+Fort: +5
+Ref: +2
+Will: +1
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft., swim 60 ft.
+Melee: bite +4 (1d4+3), tail slap -1 (1d4+1)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 16, Dex 9, Con 15, Int 2, Wis 12, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 15
+Feats: Endurance
+Skills: Perception +6, Swim +11
+Special qualities: water dependency
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 8
-
-**Flat-footed:** 12
-
-**AC modifiers:** -1 Dex, +4 natural, -1 size
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 5 ft., swim 60 ft.
-
-**Melee:** bite +4 (1d4+3), tail slap -1 (1d4+1)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 9, Con 15, Int 2, Wis 12, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 15
-
-**Feats:** Endurance
-
-**Skills:** Perception +6, Swim +11
-
-**Special qualities:** water dependency
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or school (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary, pair, or school (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

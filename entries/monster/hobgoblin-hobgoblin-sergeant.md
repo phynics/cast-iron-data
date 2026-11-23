@@ -32,77 +32,62 @@ abilities = ["15", "14", "16", "13", "10", "8"]
 _Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant
 eyes._
 
-**Challenge rating:** 2
-
 **Hobgoblin [fighter](ref/class/fighter) 3**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 2
+Type: humanoid
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +4 armor, +2 Dex, +1 shield
+Hit points: 33 (3d10+12)
+Fort: +6
+Ref: +3
+Will: +3 (+1 vs. fear)
+Defensive abilities: bravery +1
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft.
+Melee: mwk longsword +6 (1d8+2/19-20) or flail +5 (1d8+2)
+Ranged: mwk longbow +6 (1d8/×3)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Goblinoid
+::: statblock
+Ability scores: Str 15, Dex 14, Con 16, Int 13, Wis 10, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 17
+Feats: Cleave, Iron Will, Motivated March, Power Attack
+Skills: Climb +7, Stealth +7
+Languages: Common, Giant, Goblin
+Special qualities: armor training 1
+Combat gear: potion of bull's strength, 2 alchemist's fire, caltrops, smokestick
+Other gear: mwk chain shirt, mwk light wooden shield, lfx, mwk lb20, mwk longsword, 187 gp
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 armor, +2 Dex, +1 shield
-
-**Hit points:** 33 (3d10+12)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +3 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk longsword +6 (1d8+2/19-20) or flail +5 (1d8+2)
-
-**Ranged:** mwk longbow +6 (1d8/×3)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 16, Int 13, Wis 10, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17
-
-**Feats:** Cleave, Iron Will, Motivated March, Power Attack
-
-**Skills:** Climb +7, Stealth +7
-
-**Languages:** Common, Giant, Goblin
-
-**Special qualities:** armor training 1
-
-**Combat gear:** potion of bull's strength, 2 alchemist's fire, caltrops, smokestick
-
-**Other gear:** mwk chain shirt, mwk light wooden shield, lfx, mwk lb20, mwk longsword, 187 gp
-
-**Ecology**
-
-**Environment:** temperate hills
+::: statblock
+Environment: temperate hills
+:::
 
 ### Description
 

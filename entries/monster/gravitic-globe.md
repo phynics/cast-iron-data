@@ -29,67 +29,52 @@ abilities = ["30", "8", "-", "-", "1", "1"]
 _This large, adamantine sphere is carved to resemble the surface of Golarion, and burns with magical
 flame._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: magnetism (30 ft., DC 20)
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: -5
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**aura:** magnetism (30 ft., DC 20)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: -1 Dex, +10 natural, -1 size
+Hit points: 140 (20d10+30)
+Fort: +6
+Ref: +5
+Will: +1
+Defensive abilities: [hardness](ref/umr/hardness) 20, magnetism
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Burn: 2d6 fire, DC 20
+Melee: slam +29 (3d6+15 plus burn)
+Reach: 5
+Space: 10
+Trample: 3d6+15 plus burn, DC 30
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** -5
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 9,600
-
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** -1 Dex, +10 natural, -1 size
-
-**Hit points:** 140 (20d10+30)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +1
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 20, magnetism
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Burn:** 2d6 fire, DC 20
-
-**Melee:** slam +29 (3d6+15 plus burn)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 3d6+15 plus burn, DC 30
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 8, Con -, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 40 (can't be tripped)
+::: statblock
+Ability scores: Str 30, Dex 8, Con -, Int -, Wis 1, Cha 1
+Base attack bonus: +20
+Combat maneuver bonus: +31
+Combat maneuver defense: 40 (can't be tripped)
+:::
 
 ### Special Abilities
 

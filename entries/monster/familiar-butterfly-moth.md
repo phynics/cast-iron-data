@@ -26,67 +26,56 @@ abilities = ["1", "13", "4", "-", "12", "7"]
 _This graceful winged insect is a riot of color that glides through the air like a flittering
 dream._
 
-**Challenge rating:** -
+::: statblock
+Challenge rating: -
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Scent
+Type: vermin
+Experience points: 0
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 size
+Hit points: 1 (1d8-3)
+Fort: -1
+Ref: +1
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 5 ft., fly 30 ft. (average)
+Reach: 0
+Space: 1
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 1, Dex 13, Con 4, Int -, Wis 12, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 2 (10 vs. trip)
+Skills: Fly +7
+:::
 
-**Experience points:** 0
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 size
-
-**Hit points:** 1 (1d8-3)
-
-**Fort:** -1
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 5 ft., fly 30 ft. (average)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 13, Con 4, Int -, Wis 12, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 2 (10 vs. trip)
-
-**Skills:** Fly +7
-
-**Ecology**
-
-**Environment:** any temperate or warm
-
-**Organization:** solitary, pair, or kaleidoscope (3-100)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate or warm
+Organization: solitary, pair, or kaleidoscope (3-100)
+Treasure: None
+:::
 
 ### Description
 

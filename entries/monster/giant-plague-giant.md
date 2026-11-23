@@ -31,102 +31,73 @@ abilities = ["32", "20", "25", "15", "20", "17"]
 
 _This oversized humanoid is dressed in tattered rags that don't quite cover its diseased body._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Size: huge
+Type: humanoid
+Initiative: +9
+Alignment: Neutral evil
+Perception: +26
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 38,400
+:::
 
-**Size:** huge
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 29
+Touch: 13
+Flat-footed: 24
+AC modifiers: +5 Dex, +16 natural, -2 size
+Hit points: 207 (18d8+126)
+Fort: +15
+Ref: +11
+Will: +18
+Immune: disease
+Rock Ct: present
+:::
 
-**Initiative:** +9
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft.
+Melee: mwk flail +23/+18/+13 (3d6+11 plus disease), slam +17 (1d8+5 plus disease) or 2 slams +22 (1d8+11 plus disease)
+Ranged: rock +17 (2d8+16) or corpse +17 (2d6+16 plus disease)
+Reach: 15
+Rock Th: 140 ft.
+Space: 15
+Spec Att: hurl corpse
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +18
+At will: contagion (DC 17), death knell (DC 15)
+Per day: 3/day: plague carrier (DC 18), plague storm (DC 20), wither limb (DC 19)\
+1/day: summon (level 6, 1 tick swarm 100%)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 32, Dex 20, Con 25, Int 15, Wis 20, Cha 17
+Base attack bonus: +13
+Combat maneuver bonus: +26 (+30 disarm and trip)
+Combat maneuver defense: 41 (43 vs. disarm and trip)
+Feats: Combat Casting, Combat Expertise, Great Fortitude, Greater Disarm, Greater Trip, Improved Disarm, Improved Initiative, Improved Trip, Iron Will
+Skills: Heal +26, Knowledge (religion) +20, Perception +26
+Languages: Common, Giant
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 13
-
-**Flat-footed:** 24
-
-**AC modifiers:** +5 Dex, +16 natural, -2 size
-
-**Hit points:** 207 (18d8+126)
-
-**Fort:** +15
-
-**Ref:** +11
-
-**Will:** +18
-
-**Immune:** disease
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** mwk flail +23/+18/+13 (3d6+11 plus disease), slam +17 (1d8+5 plus disease) or 2 slams +22
-(1d8+11 plus disease)
-
-**Ranged:** rock +17 (2d8+16) or corpse +17 (2d6+16 plus disease)
-
-**Reach:** 15
-
-**Rock Th:** 140 ft.
-
-**Space:** 15
-
-**Spec Att:** hurl corpse
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +18
-
-**At will:**
-
-- contagion (DC 17), death knell (DC 15)
-
-**Per day:**
-
-- 3/day: plague carrier (DC 18), plague storm (DC 20), wither limb (DC 19)
-- 1/day: summon (level 6, 1 tick swarm 100%)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 20, Con 25, Int 15, Wis 20, Cha 17
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +26 (+30 disarm and trip)
-
-**Combat maneuver defense:** 41 (43 vs. disarm and trip)
-
-**Feats:** Combat Casting, Combat Expertise, Great Fortitude, Greater Disarm, Greater Trip, Improved
-Disarm, Improved Initiative, Improved Trip, Iron Will
-
-**Skills:** Heal +26, Knowledge (religion) +20, Perception +26
-
-**Languages:** Common, Giant
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or colony (3-16 plus 1-3 oracles or witches of 5th-9th level, 2-5
-rogues of 5th-9th level, and one high priest cleric of 7th-10th level along with 2-5
-[leukodaemons](ref/monster/daemon-leukodaemon) and 1-4 [gholes](ref/monster/ghole))
-
-**Treasure:** Standard (mwk light flail); 4 rocks or corpses, other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or colony (3-16 plus 1-3 oracles or witches of 5th-9th level, 2-5 rogues of 5th-9th level, and one high priest cleric of 7th-10th level along with 2-5 [leukodaemons](ref/monster/daemon-leukodaemon) and 1-4 [gholes](ref/monster/ghole))
+Treasure: Standard (mwk light flail); 4 rocks or corpses, other treasure
+:::
 
 ### Special Abilities
 

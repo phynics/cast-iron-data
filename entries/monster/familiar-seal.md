@@ -35,69 +35,57 @@ abilities = ["8", "13", "11", "2", "13", "6"]
 _This sleek aquatic mammal has a pair of flippers, a powerful tail, and a muzzle full of small,
 sharp teeth._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Size: small
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 12
+AC modifiers: +1 Dex, +1 natural, +1 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +3
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 10 ft., swim 60 ft.
+Melee: bite +0 (1d4-1)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 8, Dex 13, Con 11, Int 2, Wis 13, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 9 (can't be tripped)
+Feats: Skill Focus (Swim)
+Skills: Perception +5, Swim +14
+Racial Modifiers: +4 Perception
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +1 natural, +1 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., swim 60 ft.
-
-**Melee:** bite +0 (1d4-1)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 11, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 9 (can't be tripped)
-
-**Feats:** Skill Focus (Swim)
-
-**Skills:** Perception +5, Swim +14
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or rookery (3-22)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or rookery (3-22)
+Treasure: None
+:::
 
 ### Description
 

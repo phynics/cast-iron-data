@@ -30,77 +30,61 @@ abilities = ["16", "14", "15", "1", "10", "5"]
 _This stout, serpentine creature's body ripples with muscle. Jagged fangs line its broad, powerful
 jaws._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+blindsight: 60
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Constrict: 1d6+4
+Melee: bite +4 (1d6+4 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +4
+::: statblock
+Ability scores: Str 16, Dex 14, Con 15, Int 1, Wis 10, Cha 5
+Base attack bonus: +2
+Combat maneuver bonus: +6 (+10 grapple)
+Combat maneuver defense: 18
+Feats: Improved Initiative, Skill Focus (Stealth)
+Skills: Climb +11, Perception +4, Stealth +10
+Racial Modifiers: +4 Stealth
+Special qualities: glide
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Constrict:** 1d6+4
-
-**Melee:** bite +4 (1d6+4 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 14, Con 15, Int 1, Wis 10, Cha 5
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6 (+10 grapple)
-
-**Combat maneuver defense:** 18
-
-**Feats:** Improved Initiative, Skill Focus (Stealth)
-
-**Skills:** Climb +11, Perception +4, Stealth +10
-
-**Racial Modifiers:** +4 Stealth
-
-**Special qualities:** glide
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or coil (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or coil (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

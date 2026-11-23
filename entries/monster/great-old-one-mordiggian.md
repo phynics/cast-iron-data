@@ -31,132 +31,84 @@ abilities = ["-", "40", "44", "33", "34", "37"]
 _This massive worm-like creature appears to be made of solid darkness that sucks surrounding light
 into its body to be forever extinguished._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+Type: aberration
+aura: unspeakable presence (300 ft., DC 40)
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +31
+Perception: +50
+Senses: All-around vision, Darkvision 60 ft., See in darkness, True seeing
+Subtype: Chaotic, Evil, Great Old One, Incorporeal
+Experience points: 9,830,400
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** unspeakable presence (300 ft., DC 40)
+::: statblock
+Armor class: 47
+Touch: 47
+Flat-footed: 31
+AC modifiers: +13 deflection, +15 Dex, +1 dodge, +12 insight, -4 size
+Hit points: 752 (35d8+595)
+Fort: +28
+Ref: +26
+Will: +31
+Defensive abilities: absorb light, immortality, insanity (DC 40)
+Dr: 20/epic and lawful
+Fh: 30
+Immune: ability damage, ability drain, acid, aging, blindness, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, and petrification
+Incorporeal: present
+Resist: electricity 30, fire 30
+Sr: 41
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: fly 60 ft. (perfect)
+Constrict: 5d6+13
+Engulf: DC 27, 20d6 negative energy and 1d4 negative levels
+M Power: 10/day, surge +1d12
+Melee: 6 +5 tentacles +43 (5d6+18/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Reach P: 40 ft. with tentacle
+Space: 20
+Spec Att: dreams of darkness, tentacles
+:::
 
-**Initiative:** +31
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 30
+Concentration: +43
+Constant: speak with dead (DC 26), true seeing
+At will: astral projection, create undead, death knell (DC 25), deeper darkness, dream, greater dispel magic, greater teleport, nightmare (DC 28), sending
+Per day: 3/day: demand (DC 31), quickened deeper darkness, energy drain (DC 32), quickened feeblemind (DC 28)\
+1/day: destruction (DC 30), power word kill, symbol of death (DC 31), symbol of insanity (DC 31), true resurrection
+:::
 
-**Perception:** +50
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft., See in darkness, True seeing
+::: statblock
+Ability scores: Str -, Dex 40, Con 44, Int 33, Wis 34, Cha 37
+Base attack bonus: +26
+Combat maneuver bonus: +45 (+49 disarm)
+Combat maneuver defense: 81 (83 vs. disarm)
+Feats: Ability Focus (slay living), Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Greater Disarm, Greater Vital Strike, Improved Critical (tentacle), Improved Disarm, Improved Initiative, Improved Vital Strike, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (deeper darkness, feeblemind, slay living), Vital Strike, Weapon Focus (tentacle)
+Skills: Acrobatics +53, Bluff +48, Diplomacy +48, Sense Motive +47, Spellcraft +49, Stealth +41, Use Magic Device +48
+Languages: Aklo, Necril, _[speak with dead](ref/spell/speak-with-dead)_; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [no breath](ref/umr/no-breath)
+Faith: Mordiggian
+:::
 
-**Subtype:** Chaotic, Evil, Great Old One, Incorporeal
+### Ecology
 
-**Experience points:** 9,830,400
-
-**Armor class:** 47
-
-**Touch:** 47
-
-**Flat-footed:** 31
-
-**AC modifiers:** +13 deflection, +15 Dex, +1 dodge, +12 insight, -4 size
-
-**Hit points:** 752 (35d8+595)
-
-**Fort:** +28
-
-**Ref:** +26
-
-**Will:** +31
-
-**Defensive abilities:** absorb light, immortality, insanity (DC 40)
-
-**Dr:** 20/epic and lawful
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, acid, aging, blindness, cold, death effects, disease,
-energy drain, mind-affecting effects, paralysis, and petrification
-
-**Incorporeal:** present
-
-**Resist:** electricity 30, fire 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Constrict:** 5d6+13
-
-**Engulf:** DC 27, 20d6 negative energy and 1d4 negative levels
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 6 +5 tentacles +43 (5d6+18/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Reach P:** 40 ft. with tentacle
-
-**Space:** 20
-
-**Spec Att:** dreams of darkness, tentacles
-
-**Spell-Like Abilities**
-
-**Caster level:** 30
-
-**Concentration:** +43
-
-**Constant:**
-
-- speak with dead (DC 26), true seeing
-
-**At will:**
-
-- astral projection, create undead, death knell (DC 25), deeper darkness, dream, greater dispel
-  magic, greater teleport, nightmare (DC 28), sending
-
-**Per day:**
-
-- 3/day: demand (DC 31), quickened deeper darkness, energy drain (DC 32), quickened feeblemind (DC
-  28)
-- 1/day: destruction (DC 30), power word kill, symbol of death (DC 31), symbol of insanity (DC 31),
-  true resurrection
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 40, Con 44, Int 33, Wis 34, Cha 37
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +45 (+49 disarm)
-
-**Combat maneuver defense:** 81 (83 vs. disarm)
-
-**Feats:** Ability Focus (slay living), Blinding Critical, Combat Expertise, Combat Reflexes,
-Critical Focus, Dodge, Greater Disarm, Greater Vital Strike, Improved Critical (tentacle), Improved
-Disarm, Improved Initiative, Improved Vital Strike, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (deeper darkness, feeblemind, slay living), Vital
-Strike, Weapon Focus (tentacle)
-
-**Skills:** Acrobatics +53, Bluff +48, Diplomacy +48, Sense Motive +47, Spellcraft +49, Stealth +41,
-Use Magic Device +48
-
-**Languages:** Aklo, Necril, _[speak with dead](ref/spell/speak-with-dead)_;
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Faith:** Mordiggian
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

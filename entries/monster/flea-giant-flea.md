@@ -31,73 +31,59 @@ abilities = ["12", "15", "13", "-", "11", "6"]
 _A hideous, dog-sized flea leaps about on long, gangly legs. The sharp, jagged edges of its jaws
 greedily clatter for blood._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: small
+Type: vermin
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +2
+Will: +0
+Dr: 5/slashing
+Immune: disease, mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: bite +2 (1d4+1 plus disease)
+Spec Att: disease
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 12, Dex 15, Con 13, Int -, Wis 11, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 12
+Skills: Acrobatics +0 (+20 when jumping)
+Racial Modifiers: +20 Acrobatics when jumping
+Special qualities: uncanny leap
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +0
-
-**Dr:** 5/slashing
-
-**Immune:** disease, mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +2 (1d4+1 plus disease)
-
-**Spec Att:** disease
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 13, Int -, Wis 11, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12
-
-**Skills:** Acrobatics +0 (+20 when jumping)
-
-**Racial Modifiers:** +20 Acrobatics when jumping
-
-**Special qualities:** uncanny leap
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary, cluster (2-6), or colony (7-12)
-
-**Treasure:** None
+::: statblock
+Environment: any land or underground
+Organization: solitary, cluster (2-6), or colony (7-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

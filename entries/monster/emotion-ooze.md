@@ -30,73 +30,59 @@ abilities = ["20", "5", "18", "-", "15", "23"]
 
 _This viscous blob of brightly colored goo quivers and pulses in a curious manner._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: emotion (DC 20)
+blindsense: 120
+Initiative: -3
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: +2
+Experience points: 2,400
+:::
 
-**aura:** emotion (DC 20)
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 13
+AC modifiers: +6 deflection, -3 Dex
+Hit points: 76 (9d8+36)
+Fort: +13
+Ref: +6
+Will: +11
+Amorph: present
+Immune: mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Initiative:** -3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: slam +11 (1d8+7 plus emotional scarring)
+Spec Att: compel emotion, emotional scarring
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str 20, Dex 5, Con 18, Int -, Wis 15, Cha 23
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 16
+Skills: Climb +13
+Special qualities: [compression](ref/umr/compression), emotional attunement, empathic healing
+:::
 
-**Perception:** +2
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +6 deflection, -3 Dex
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +11
-
-**Amorph:** present
-
-**Immune:** mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** slam +11 (1d8+7 plus emotional scarring)
-
-**Spec Att:** compel emotion, emotional scarring
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 5, Con 18, Int -, Wis 15, Cha 23
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 16
-
-**Skills:** Climb +13
-
-**Special qualities:** [compression](ref/umr/compression), emotional attunement, empathic healing
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, conflict (3-12, often with different attuned emotions)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, conflict (3-12, often with different attuned emotions)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

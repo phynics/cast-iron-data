@@ -33,86 +33,65 @@ abilities = ["30", "11", "-", "6", "17", "21"]
 _The bones and skulls of countless smaller creatures dribble from the joints and rib cage of this
 massive skeleton._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: starvation (60 ft., DC 25)
+Size: huge
+Initiative: +4
+Alignment: Neutral evil
+Perception: +20
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 25,600
+:::
 
-**aura:** starvation (60 ft., DC 25)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 28
+Touch: 8
+Flat-footed: 28
+AC modifiers: +20 natural, -2 size
+Hit points: 180 (19d8+95)
+Fort: +11
+Ref: +6
+Will: +14
+Chan Res: +4
+Dr: 10/bludgeoning
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Br Weap: 30-ft. cone, 12d6 bludgeoning damage, Reflex DC 24 half, usable every 1d4 rounds
+Melee: bite +22 (2d8+10 plus [grab](ref/umr/grab)), 2 claws +23 (2d6+10/19-20)
+Reach: 15
+Space: 15
+Spec Att: corpse consumption
+Swallow: 6d6 bludgeoning damage, AC 20, 18 hp
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 30, Dex 11, Con -, Int 6, Wis 17, Cha 21
+Base attack bonus: +14
+Combat maneuver bonus: +26 (+28 bull rush, +30 grapple)
+Combat maneuver defense: 36 (38 vs. bull rush)
+Feats: Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Critical (claw), Improved Initiative, Intimidating Prowess, Power Attack, Vital Strike, Weapon Focus (claw)
+Skills: Climb +23, Intimidate +32, Perception +20
+Languages: Common (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 8
-
-**Flat-footed:** 28
-
-**AC modifiers:** +20 natural, -2 size
-
-**Hit points:** 180 (19d8+95)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +14
-
-**Chan Res:** +4
-
-**Dr:** 10/bludgeoning
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 30-ft. cone, 12d6 bludgeoning damage, Reflex DC 24 half, usable every 1d4 rounds
-
-**Melee:** bite +22 (2d8+10 plus [grab](ref/umr/grab)), 2 claws +23 (2d6+10/19-20)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** corpse consumption
-
-**Swallow:** 6d6 bludgeoning damage, AC 20, 18 hp
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 11, Con -, Int 6, Wis 17, Cha 21
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +26 (+28 bull rush, +30 grapple)
-
-**Combat maneuver defense:** 36 (38 vs. bull rush)
-
-**Feats:** Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Critical (claw),
-Improved Initiative, Intimidating Prowess, Power Attack, Vital Strike, Weapon Focus (claw)
-
-**Skills:** Climb +23, Intimidate +32, Perception +20
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

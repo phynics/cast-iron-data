@@ -34,83 +34,63 @@ abilities = ["36", "19", "26", "15", "20", "15"]
 _This enormous beast has the combined features of an elephant and a serpent. Its tremendous maw
 sports six frightening tusks._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +4
+Type: Magical beast
+Perception: +28
+Senses: Darkvision 120 ft., Scent
+Experience points: 76,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 31
+Touch: 11
+Flat-footed: 26
+AC modifiers: +4 Dex, +1 dodge, +20 natural, -4 size
+Hit points: 283 (21d10+168)
+Fort: +20
+Ref: +16
+Will: +12
+Dr: 10/magic
+Sr: 27
+:::
 
-**Initiative:** +4
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft., swim 30 ft.
+Melee: bite +30 (4d8+13/19-20), 2 stomps +27 (2d6+6), tail slap +27 (2d6+6)
+Reach: 20
+Space: 20
+Spec Att: impaling bite, thunderous stomp (DC 28)
+Trample: 2d6+19, DC 33
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Darkvision 120 ft., Scent
+::: statblock
+Ability scores: Str 36, Dex 19, Con 26, Int 15, Wis 20, Cha 15
+Base attack bonus: +21
+Combat maneuver bonus: +38
+Combat maneuver defense: 53 (55 vs. trip)
+Feats: Awesome Blow, Bleeding Critical, Cleave, Critical Focus, Dodge, Improved Bull Rush, Improved Critical (bite), Mobility, Multiattack, Power Attack, Spring Attack
+Skills: Acrobatics +15 (+19 when jumping), Bluff +4, Intimidate +15, Perception +28, Sense Motive +13, Stealth +10, Swim +45
+Languages: Aquan, Common, Draconic
+Special qualities: aquatic elusion, [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +1 dodge, +20 natural, -4 size
-
-**Hit points:** 283 (21d10+168)
-
-**Fort:** +20
-
-**Ref:** +16
-
-**Will:** +12
-
-**Dr:** 10/magic
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 40 ft., swim 30 ft.
-
-**Melee:** bite +30 (4d8+13/19-20), 2 stomps +27 (2d6+6), tail slap +27 (2d6+6)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** impaling bite, thunderous stomp (DC 28)
-
-**Trample:** 2d6+19, DC 33
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 19, Con 26, Int 15, Wis 20, Cha 15
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +38
-
-**Combat maneuver defense:** 53 (55 vs. trip)
-
-**Feats:** Awesome Blow, Bleeding Critical, Cleave, Critical Focus, Dodge, Improved Bull Rush,
-Improved Critical (bite), Mobility, Multiattack, Power Attack, Spring Attack
-
-**Skills:** Acrobatics +15 (+19 when jumping), Bluff +4, Intimidate +15, Perception +28, Sense
-Motive +13, Stealth +10, Swim +45
-
-**Languages:** Aquan, Common, Draconic
-
-**Special qualities:** aquatic elusion, [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm lakes and rivers
-
-**Organization:** solitary
-
-**Treasure:** Double; at least 50% gems
+::: statblock
+Environment: warm lakes and rivers
+Organization: solitary
+Treasure: Double; at least 50% gems
+:::
 
 ### Special Abilities
 

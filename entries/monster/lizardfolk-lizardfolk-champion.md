@@ -30,80 +30,62 @@ special_qualities = "expert trainer +4, greater tactician (2/day, 7 rounds, swif
 abilities = ["21", "10", "17", "7", "12", "12"]
 +++
 
-**Challenge rating:** 10
-
 **Lizardfolk [cavalier](ref/class/cavalier) 9**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 10
+Type: humanoid
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +13
+Subtype: Reptilian
+Experience points: 9,600
+:::
 
-**Initiative:** +0
+### Defense {#stat-defense}
 
-**Size:** medium
+::: statblock
+Armor class: 27
+Touch: 10
+Flat-footed: 27
+AC modifiers: +9 armor, +5 natural, +3 shield
+Hit points: 100 (2d8+9d10+42\~11)
+Fort: +12
+Ref: +3
+Will: +4
+:::
 
-**Alignment:** Neutral
+### Offense {#stat-offense}
 
-**Perception:** +13
+::: statblock
+Speed: 20 ft., swim 15 ft.
+Melee: +1 lance +17/+12 (1d8+8/19-20/×3) or claw +15 (1d6+5), bite +10 (1d4+2)
+Ranged: javelin +10 (1d6+5)
+Spec Att: banner +2/+1, cavalier's charge, challenge (+9, +3, 3/day)
+:::
 
-**Subtype:** Reptilian
+### Statistics {#stat-statistics}
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 21, Dex 10, Con 17, Int 7, Wis 12, Cha 12
+Base attack bonus: +10
+Combat maneuver bonus: +15
+Combat maneuver defense: 25
+Feats: Duck and Cover, Improved Critical (lance), Improved Natural Attack (claw), Mounted Combat, Power Attack, Ride-By Attack, Shield Wall, Trample, Weapon Focus (lance)
+Skills: Perception +13, Ride +5
+Racial Modifiers: +4 Acrobatics
+Languages: Draconic
+Special qualities: expert trainer +4, greater tactician (2/day, 7 rounds, swift action), [hold breath](ref/umr/hold-breath), mount (styracosaurus), order of the dragon (aid allies, strategy)
+Combat gear: 2 potion of cure moderate wounds, 2 alchemist's fire
+Other gear: +1 half-plate, +1 heavy wooden shield, +1 lance, 2 javelins, Ibogs2, 191 gp
+:::
 
-**Armor class:** 27
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 27
-
-**AC modifiers:** +9 armor, +5 natural, +3 shield
-
-**Hit points:** 100 (2d8+9d10+42\~11)
-
-**Fort:** +12
-
-**Ref:** +3
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft., swim 15 ft.
-
-**Melee:** +1 lance +17/+12 (1d8+8/19-20/×3) or claw +15 (1d6+5), bite +10 (1d4+2)
-
-**Ranged:** javelin +10 (1d6+5)
-
-**Spec Att:** banner +2/+1, cavalier's charge, challenge (+9, +3, 3/day)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 10, Con 17, Int 7, Wis 12, Cha 12
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 25
-
-**Feats:** Duck and Cover, Improved Critical (lance), Improved Natural Attack (claw), Mounted
-Combat, Power Attack, Ride-By Attack, Shield Wall, Trample, Weapon Focus (lance)
-
-**Skills:** Perception +13, Ride +5
-
-**Racial Modifiers:** +4 Acrobatics
-
-**Languages:** Draconic
-
-**Special qualities:** expert trainer +4, greater tactician (2/day, 7 rounds, swift action),
-[hold breath](ref/umr/hold-breath), mount (styracosaurus), order of the dragon (aid allies,
-strategy)
-
-**Combat gear:** 2 potion of cure moderate wounds, 2 alchemist's fire
-
-**Other gear:** +1 half-plate, +1 heavy wooden shield, +1 lance, 2 javelins, Ibogs2, 191 gp
-
-**Ecology**
-
-**Environment:** temperate swamps
+::: statblock
+Environment: temperate swamps
+:::
 
 ### Description
 

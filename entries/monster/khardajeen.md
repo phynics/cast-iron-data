@@ -32,91 +32,68 @@ abilities = ["18", "25", "22", "19", "22", "29"]
 _Four tentacles stick out of a churning nucleus of multicolored fluid. Plates of rock and metal
 orbit the floating mass._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: aberration
+Initiative: +11
+Size: medium
+Alignment: Neutral evil
+Perception: +29
+Senses: Darkvision 120 ft., True seeing
+Experience points: 38,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 22
+AC modifiers: +7 Dex, +12 natural
+Hit points: 210 (20d8+120)
+Fort: +12
+Ref: +15
+Will: +18
+Amorph: present
+Defensive abilities: [darkvision](ref/rule/darkvision) adaptation
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., fly 60 ft. (perfect)
+Melee: 4 tentacles +19 (1d8+4)
+Ranged: manifest gem +23 touch (6d6/19-20, see text)
+Spec Att: powerful tentacles, ray mastery
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +23
+Constant: true seeing
+:::
 
-**Senses:** Darkvision 120 ft., True seeing
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 18, Dex 25, Con 22, Int 19, Wis 22, Cha 29
+Base attack bonus: +15
+Combat maneuver bonus: +19
+Combat maneuver defense: 36
+Feats: Combat Casting, Combat Expertise, Critical Focus, Greater Spell Penetration, Improved Critical (ray), Improved Initiative, Lightning Reflexes, Point-Blank Shot, Spell Penetration, Weapon Focus (ray)
+Skills: Fly +30, Intimidate +32, Knowledge (arcana) +27, Perception +29, Spellcraft +27, Use Magic Device +29
+Languages: Aklo (can't speak), Azlanti (can't speak), Terran (can't speak), Undercommon (can't speak)
+Special qualities: manifest gems, [no breath](ref/umr/no-breath)
+:::
 
-**Armor class:** 29
+### Ecology {#stat-ecology}
 
-**Touch:** 17
-
-**Flat-footed:** 22
-
-**AC modifiers:** +7 Dex, +12 natural
-
-**Hit points:** 210 (20d8+120)
-
-**Fort:** +12
-
-**Ref:** +15
-
-**Will:** +18
-
-**Amorph:** present
-
-**Defensive abilities:** [darkvision](ref/rule/darkvision) adaptation
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (perfect)
-
-**Melee:** 4 tentacles +19 (1d8+4)
-
-**Ranged:** manifest gem +23 touch (6d6/19-20, see text)
-
-**Spec Att:** powerful tentacles, ray mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +23
-
-**Constant:**
-
-- true seeing
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 25, Con 22, Int 19, Wis 22, Cha 29
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 36
-
-**Feats:** Combat Casting, Combat Expertise, Critical Focus, Greater Spell Penetration, Improved
-Critical (ray), Improved Initiative, Lightning Reflexes, Point-Blank Shot, Spell Penetration, Weapon
-Focus (ray)
-
-**Skills:** Fly +30, Intimidate +32, Knowledge (arcana) +27, Perception +29, Spellcraft +27, Use
-Magic Device +29
-
-**Languages:** Aklo (can't speak), Azlanti (can't speak), Terran (can't speak), Undercommon (can't
-speak)
-
-**Special qualities:** manifest gems, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or a disassembly (3-12)
-
-**Treasure:** Incidental; 1d4+1 [dull gray](ref/magic-ioun/dull-gray-stone) ioun stones
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or a disassembly (3-12)
+Treasure: Incidental; 1d4+1 [dull gray](ref/magic-ioun/dull-gray-stone) ioun stones
+:::
 
 ### Special Abilities
 

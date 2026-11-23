@@ -30,80 +30,62 @@ abilities = ["13", "16", "17", "11", "16", "14"]
 _Bladed whips and spiked chains sprout from the stumps of this humanoid torso's amputated limbs.
 Elongated saw blades loll out of its distended mouth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 natural
+Hit points: 51 (6d10+18)
+Fort: +5
+Ref: +8
+Will: +8
+Dr: 5/good or silver
+Immune: cold
+Regen: 2 (good weapons and spells, silver weapons)
+Sr: 16
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: 4 bladed limbs (1d6+1 plus [trip](ref/umr/trip))
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 13, Dex 16, Con 17, Int 11, Wis 16, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 21 (25 vs. trip)
+Feats: Dodge, Power Attack, Weapon Focus (bladed limb)
+Skills: Acrobatics +12, Climb +9, Intimidate +11, Knowledge (planes) +6, Perception +12, Sense Motive +9, Stealth +12
+Languages: Common, Infernal
+Special qualities: configuration of chains, slow fall
+:::
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 5/good or silver
-
-**Immune:** cold
-
-**Regen:** 2 (good weapons and spells, silver weapons)
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** 4 bladed limbs (1d6+1 plus [trip](ref/umr/trip))
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 17, Int 11, Wis 16, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Feats:** Dodge, Power Attack, Weapon Focus (bladed limb)
-
-**Skills:** Acrobatics +12, Climb +9, Intimidate +11, Knowledge (planes) +6, Perception +12, Sense
-Motive +9, Stealth +12
-
-**Languages:** Common, Infernal
-
-**Special qualities:** configuration of chains, slow fall
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, or tangle (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, or tangle (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

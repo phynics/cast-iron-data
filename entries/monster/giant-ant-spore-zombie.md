@@ -31,75 +31,60 @@ abilities = ["18", "10", "-", "10", "13", "17"]
 _The top of this large, black ant's head is cracked open, and a pulsing, brown growth twists up out
 of the gap._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Perception: +12
+Senses: Darkvision 60 ft., Scent
+Subtype: Augmented vermin
+Type: undead
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 17
+AC modifiers: +7 natural
+Hit points: 34 (4d8+16)
+Fort: +4
+Ref: +3
+Will: +5
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 50 ft., climb 20 ft.
+Melee: bite +7 (1d6+4 plus [grab](ref/umr/grab)), sting +7 (1d4+4 plus poison)
+Spec Att: spore burst (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Augmented vermin
+::: statblock
+Ability scores: Str 18, Dex 10, Con -, Int 10, Wis 13, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 18 (26 vs. trip)
+Feats: Improved Initiative, Lightning Reflexes, Toughness
+Skills: Climb +19, Perception +12
+Racial Modifiers: +4 Perception, +4 Survival
+Languages: Abyssal (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 natural
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft.
-
-**Melee:** bite +7 (1d6+4 plus [grab](ref/umr/grab)), sting +7 (1d4+4 plus poison)
-
-**Spec Att:** spore burst (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 10, Con -, Int 10, Wis 13, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 18 (26 vs. trip)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Toughness
-
-**Skills:** Climb +19, Perception +12
-
-**Racial Modifiers:** +4 Perception, +4 Survival
-
-**Languages:** Abyssal (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or bloom (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or bloom (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,75 +30,60 @@ abilities = ["20", "9", "-", "-", "11", "1"]
 _This jagged construct of glass has a human's shape, save that one arm ends in a jagged hammer and
 another in a spike of glass._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 21
+AC modifiers: -1 Dex, +13 natural, -1 size
+Hit points: 96 (12d10+30)
+Fort: +4
+Ref: +3
+Will: +4
+Defensive abilities: reflect spells
+Dr: 5/adamantine
+Immune: magic, [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Bleed: 1d8
+Melee: 2 slams +16 (2d8+5 plus bleed)
+Reach: 10
+Space: 10
+Spec Att: dazzling brightness
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 27
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** -1 Dex, +13 natural, -1 size
-
-**Hit points:** 96 (12d10+30)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +4
-
-**Defensive abilities:** reflect spells
-
-**Dr:** 5/adamantine
-
-**Immune:** magic, [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d8
-
-**Melee:** 2 slams +16 (2d8+5 plus bleed)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** dazzling brightness
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 27
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or gang (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

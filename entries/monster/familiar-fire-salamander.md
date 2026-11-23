@@ -27,73 +27,59 @@ abilities = ["2", "14", "8", "1", "8", "6"]
 
 _Yellow spots and stripes run from this amphibian's wide snout to the tip of its tail._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Size: diminutive
+Initiative: +2
+Alignment: Neutral
+Perception: -1
+Senses: Low-light vision, Scent
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +4
+Will: -1
+Defensive abilities: skin secretions
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 20 ft.
+Melee: bite +6 (1d2-4)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** -1
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 2, Dex 14, Con 8, Int 1, Wis 8, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 4 (8 vs. trip)
+Feats: Weapon Finesse
+Skills: Escape Artist +6, Stealth +18, Swim +10
+Racial Modifiers: +4 Escape Artist
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** -1
-
-**Defensive abilities:** skin secretions
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft.
-
-**Melee:** bite +6 (1d2-4)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 14, Con 8, Int 1, Wis 8, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 4 (8 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Escape Artist +6, Stealth +18, Swim +10
-
-**Racial Modifiers:** +4 Escape Artist
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or congress (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or congress (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

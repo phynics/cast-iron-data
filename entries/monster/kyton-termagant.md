@@ -30,86 +30,64 @@ abilities = ["28", "19", "30", "16", "25", "21"]
 _This hovering iron maiden heaves forth a monstrously pregnant mass of tortured limbs and raw
 tentacles._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Initiative: +8
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 102,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 31
+Touch: 14
+Flat-footed: 26
+AC modifiers: +4 Dex, +1 dodge, +17 natural, -1 size
+Hit points: 263 (17d10+170)
+Fort: +20
+Ref: +11
+Will: +19
+Dr: 10/good and silver
+Immune: cold
+Regen: 10 (good weapons and spells, silver weapons)
+Sr: 28
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 40 ft. (perfect)
+Melee: 2 slams +25 (1d8+9/19-20 plus 2d6 bleed), 7 tentacles +20 (1d6+4 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: flux infusion, rupture, shared rupture, unnerving gaze (30 ft., DC 23)
+:::
 
-**Perception:** +27
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 28, Dex 19, Con 30, Int 16, Wis 25, Cha 21
+Base attack bonus: +17
+Combat maneuver bonus: +27 (+31 grapple)
+Combat maneuver defense: 42 (can't be tripped)
+Feats: Combat Reflexes, Critical Focus, Dodge, Improved Critical (slams), Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Spring Attack
+Skills: Bluff +25, Fly +30, Intimidate +25, Knowledge (planes, religion) +23, Perception +27, Sense Motive +27, Stealth +20
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 31
-
-**Touch:** 14
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +1 dodge, +17 natural, -1 size
-
-**Hit points:** 263 (17d10+170)
-
-**Fort:** +20
-
-**Ref:** +11
-
-**Will:** +19
-
-**Dr:** 10/good and silver
-
-**Immune:** cold
-
-**Regen:** 10 (good weapons and spells, silver weapons)
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (perfect)
-
-**Melee:** 2 slams +25 (1d8+9/19-20 plus 2d6 bleed), 7 tentacles +20 (1d6+4 plus
-[grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** flux infusion, rupture, shared rupture, unnerving gaze (30 ft., DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 19, Con 30, Int 16, Wis 25, Cha 21
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +27 (+31 grapple)
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Improved Critical (slams), Improved Initiative,
-Iron Will, Lightning Reflexes, Mobility, Spring Attack
-
-**Skills:** Bluff +25, Fly +30, Intimidate +25, Knowledge (planes, religion) +23, Perception +27,
-Sense Motive +27, Stealth +20
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, or circle (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, or circle (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,108 +32,75 @@ abilities = ["31", "18", "32", "15", "21", "24"]
 _This imposing humanoid is clad in black chainmail with a featureless helm. It clutches a serrated
 dire flail in its gauntlets, and several pairs of manacles on its belt writhe of their own accord._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Initiative: +4
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., True seeing
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 153,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 32
+Touch: 12
+Flat-footed: 30
+AC modifiers: +6 armor, +2 Dex, +14 natural
+Hit points: 297 (18d10+198)
+Fort: +19
+Ref: +15
+Will: +16
+Dr: 15/good and silver
+Immune: cold, disease
+Regen: 15 (good weapons and spells, silver weapons)
+Sr: 29
+Weaknesses: iron chair (see text)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., (30 ft. without armor)
+Melee: +1 vicious dire flail +28/+23/+18/+13 (1d8+16 plus 2d6), +1 vicious dire flail +28/+23 (1d8+6 plus 2d6)
+Ranged: mwk manacles +23 (1d4+11 nonlethal plus trip)
+Spec Att: animated manacles, forbearance, unnerving gaze (30 ft., DC 26)
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+Constant: true seeing
+At will: deeper darkness, detect thoughts (DC 19), discern lies (DC 21), order's wrath (DC 21)
+Per day: 3/day: greater command (DC 22), greater teleport\
+1/day: imprisonment (DC 26), greater prying eyes
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+::: statblock
+Ability scores: Str 31, Dex 18, Con 32, Int 15, Wis 21, Cha 24
+Base attack bonus: +18
+Combat maneuver bonus: +28 (+32 trip)
+Combat maneuver defense: 32 (44 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Enforcer, Great Fortitude, Greater Trip, Improved Trip, Improved Two-Weapon Fighting, Two-Weapon Fighting, Weapon Focus (dire flail)
+Skills: Bluff +28, Intimidate +28, Knowledge (local, planes, religion) +23, Perception +26, Sense Motive +26, Stealth +21
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: institutionalized
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 12
-
-**Flat-footed:** 30
-
-**AC modifiers:** +6 armor, +2 Dex, +14 natural
-
-**Hit points:** 297 (18d10+198)
-
-**Fort:** +19
-
-**Ref:** +15
-
-**Will:** +16
-
-**Dr:** 15/good and silver
-
-**Immune:** cold, disease
-
-**Regen:** 15 (good weapons and spells, silver weapons)
-
-**Sr:** 29
-
-**Weaknesses:** iron chair (see text)
-
-**Offense**
-
-**Speed:** 20 ft., (30 ft. without armor)
-
-**Melee:** +1 vicious dire flail +28/+23/+18/+13 (1d8+16 plus 2d6), +1 vicious dire flail +28/+23
-(1d8+6 plus 2d6)
-
-**Ranged:** mwk manacles +23 (1d4+11 nonlethal plus trip)
-
-**Spec Att:** animated manacles, forbearance, unnerving gaze (30 ft., DC 26)
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- deeper darkness, detect thoughts (DC 19), discern lies (DC 21), order's wrath (DC 21)
-
-**Per day:**
-
-- 3/day: greater command (DC 22), greater teleport
-- 1/day: imprisonment (DC 26), greater prying eyes
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 18, Con 32, Int 15, Wis 21, Cha 24
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +28 (+32 trip)
-
-**Combat maneuver defense:** 32 (44 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Enforcer, Great Fortitude, Greater Trip, Improved
-Trip, Improved Two-Weapon Fighting, Two-Weapon Fighting, Weapon Focus (dire flail)
-
-**Skills:** Bluff +28, Intimidate +28, Knowledge (local, planes, religion) +23, Perception +26,
-Sense Motive +26, Stealth +21
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** institutionalized
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary
-
-**Treasure:** Double (mwk chainmail); 4 masterwork [manacles](ref/eq-misc/manacles-masterwork), +1
-[vicious](ref/magic-enh/vicious)/+1 vicious [dire flail](ref/eq-weapon/dire-flail), other treasure
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary
+Treasure: Double (mwk chainmail); 4 masterwork [manacles](ref/eq-misc/manacles-masterwork), +1 [vicious](ref/magic-enh/vicious)/+1 vicious [dire flail](ref/eq-weapon/dire-flail), other treasure
+:::
 
 ### Special Abilities
 

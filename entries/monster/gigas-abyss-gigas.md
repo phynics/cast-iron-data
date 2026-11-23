@@ -35,104 +35,74 @@ writhe beneath its smooth, hairless jet hide, giving its frame a gnarled, unbala
 moves with a loping gait, however, and wears its armor, composed of thick, welded plates,
 effortlessly._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+blindsight: 100
+Alignment: Chaotic evil
+Size: gargantuan
+Type: humanoid
+Initiative: +5
+Perception: +27
+Subtype: Chaotic, Evil, Extraplanar, Giant
+Experience points: 76,800
+:::
 
-**blindsight:** 100
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 31
+Touch: 7
+Flat-footed: 30
+AC modifiers: +9 armor, +1 Dex, +15 natural, -4 size
+Hit points: 283 (21d8+189)
+Fort: +21
+Ref: +8
+Will: +10
+Dr: 3/-, 10/lawful
+Immune: electricity
+Resist: acid 10, cold 10, fire 10, sonic 10
+Rock Ct: present
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Type:** humanoid
+::: statblock
+Speed: 60 ft., (50 ft. in armor)
+Melee: mwk adamantine warhammer +25/+20/+15 (4d6+19/19-20/×3), bite +19 (2d8+6 plus wrenching spasms)
+Ranged: rock +13 (4d6+19)
+Reach: 20
+Rock Th: 160 ft.
+Space: 20
+:::
 
-**Initiative:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +18
+At will: deeper darkness, fear (DC 15), mirror image
+Per day: 3/day: dispel magic, dominate person (DC 17), telekinesis (DC 17), true seeing
+:::
 
-**Perception:** +27
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar, Giant
+::: statblock
+Ability scores: Str 37, Dex 12, Con 28, Int 20, Wis 17, Cha 15
+Base attack bonus: +15
+Combat maneuver bonus: +32 (+34 bull rush, +36 sunder)
+Combat maneuver defense: 43 (45 vs. bull rush and sunder)
+Feats: Awesome Blow, Catch Off-Guard, Combat Reflexes, Greater Sunder, Improved Bull Rush, Improved Critical (warhammer), Improved Initiative, Improved Sunder, Power Attack, Stand Still, Throw Anything
+Skills: Climb +32, Intimidate +26, Knowledge (planes) +26, Perception +27
+Languages: Abyssal, Common, Giant
+Special qualities: planar empowerment
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 7
-
-**Flat-footed:** 30
-
-**AC modifiers:** +9 armor, +1 Dex, +15 natural, -4 size
-
-**Hit points:** 283 (21d8+189)
-
-**Fort:** +21
-
-**Ref:** +8
-
-**Will:** +10
-
-**Dr:** 3/-, 10/lawful
-
-**Immune:** electricity
-
-**Resist:** acid 10, cold 10, fire 10, sonic 10
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 60 ft., (50 ft. in armor)
-
-**Melee:** mwk adamantine warhammer +25/+20/+15 (4d6+19/19-20/×3), bite +19 (2d8+6 plus wrenching
-spasms)
-
-**Ranged:** rock +13 (4d6+19)
-
-**Reach:** 20
-
-**Rock Th:** 160 ft.
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +18
-
-**At will:**
-
-- deeper darkness, fear (DC 15), mirror image
-
-**Per day:**
-
-- 3/day: dispel magic, dominate person (DC 17), telekinesis (DC 17), true seeing
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 12, Con 28, Int 20, Wis 17, Cha 15
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +32 (+34 bull rush, +36 sunder)
-
-**Combat maneuver defense:** 43 (45 vs. bull rush and sunder)
-
-**Feats:** Awesome Blow, Catch Off-Guard, Combat Reflexes, Greater Sunder, Improved Bull Rush,
-Improved Critical (warhammer), Improved Initiative, Improved Sunder, Power Attack, Stand Still,
-Throw Anything
-
-**Skills:** Climb +32, Intimidate +26, Knowledge (planes) +26, Perception +27
-
-**Languages:** Abyssal, Common, Giant
-
-**Special qualities:** planar empowerment
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or gang (3-7)
-
-**Treasure:** Standard (MA full plate, MA warhammer); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or gang (3-7)
+Treasure: Standard (MA full plate, MA warhammer); other treasure
+:::
 
 ### Special Abilities
 

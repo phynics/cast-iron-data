@@ -31,73 +31,55 @@ abilities = ["23", "12", "20", "8", "15", "11"]
 _The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour
 innocent passers-by. Then it moves - to do just that._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +1
+Size: large
+Type: Monstrous humanoid
+Perception: +15
+Senses: Darkvision 60 ft.
+Subtype: Earth
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 23
+AC modifiers: +1 Dex, +14 natural, -1 size
+Hit points: 105 (10d10+50)
+Fort: +10
+Ref: +8
+Will: +9
+Dr: 10/magic
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft., fly 60 ft. (average)
+Melee: bite +15 (1d8+6), 4 claws +15 (1d6+6/19-20), gore +15 (1d4+6)
+Reach: 10
+Rend: 1d6+6
+Space: 10
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Earth
-
-**Experience points:** 6,400
-
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +14 natural, -1 size
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +9
-
-**Dr:** 10/magic
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (average)
-
-**Melee:** bite +15 (1d8+6), 4 claws +15 (1d6+6/19-20), gore +15 (1d4+6)
-
-**Reach:** 10
-
-**Rend:** 1d6+6
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 12, Con 20, Int 8, Wis 15, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 28
-
-**Feats:** Great Fortitude, Hover, Improved Critical (claws), Power Attack, Skill Focus (Fly)
-
-**Skills:** Fly +18, Perception +15, Stealth +10
-
-**Racial Modifiers:** +2 Stealth (+6 in stony environs)
-
-**Languages:** Common, Terran
-
-**Special qualities:** [freeze](ref/umr/freeze)
+::: statblock
+Ability scores: Str 23, Dex 12, Con 20, Int 8, Wis 15, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 28
+Feats: Great Fortitude, Hover, Improved Critical (claws), Power Attack, Skill Focus (Fly)
+Skills: Fly +18, Perception +15, Stealth +10
+Racial Modifiers: +2 Stealth (+6 in stony environs)
+Languages: Common, Terran
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
 ### Special Abilities
 

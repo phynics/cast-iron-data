@@ -33,73 +33,59 @@ abilities = ["20", "9", "-", "-", "11", "1"]
 _A hideous monstrosity crafted from body parts stitched together with thick string, wire, and metal
 staples lurches to horrific life._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 20
+Touch: 8
+Flat-footed: 20
+AC modifiers: -1 Dex, +12 natural, -1 size
+Hit points: 79 (9d10+30)
+Fort: +3
+Ref: +2
+Will: +3
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +13 (2d8+5)
+Reach: 10
+Space: 10
+Spec Att: berserk
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 24
+Languages: none
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 8
-
-**Flat-footed:** 20
-
-**AC modifiers:** -1 Dex, +12 natural, -1 size
-
-**Hit points:** 79 (9d10+30)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +3
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +13 (2d8+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** berserk
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 24
-
-**Languages:** none
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

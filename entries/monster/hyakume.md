@@ -31,100 +31,73 @@ abilities = ["18", "27", "24", "19", "22", "29"]
 _This bloated creature's eyes protrude from between the fleshy fat rolls of its neckless, hulking
 form._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: aberration
+Initiative: +12
+Size: large
+Alignment: Neutral evil
+Perception: +19
+Senses: All-around vision, Darkvision 90 ft., Low-light vision
+Experience points: 51,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +12
+::: statblock
+Armor class: 32
+Touch: 18
+Flat-footed: 23
+AC modifiers: +8 Dex, +1 dodge, +14 natural, -1 size
+Hit points: 218 (19d8+133)
+Fort: +13
+Ref: +14
+Will: +17
+Immune: cold
+Resist: electricity 10, fire 10
+Sr: 26
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +18 (3d6+4)
+Reach: 10
+Space: 10
+Spec Att: drain memory, quivering palm (1/day, DC 25), stunning fist (4/day, DC 25)
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +24
+At will: clairvoyance/clairaudience, share memory
+Per day: 5/day: divination\
+3/day: cold ice strike, discordant blast, sonic thrust
+:::
 
-**Senses:** All-around vision, Darkvision 90 ft., Low-light vision
+### Statistics
 
-**Experience points:** 51,200
+::: statblock
+Ability scores: Str 18, Dex 27, Con 24, Int 19, Wis 22, Cha 29
+Base attack bonus: +14
+Combat maneuver bonus: +19
+Combat maneuver defense: 38
+Feats: Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Improved Unarmed Strike, Mobility, Skill Focus (Sense Motive), Stunning Fist, Weapon Focus (slam), Wind Stance
+Skills: Acrobatics +23, Bluff +21, Craft (any) +10, Diplomacy +17, Intimidate +24, Knowledge (arcana, planes, religion) +12, Perception +19, Swim +8, Use Magic Device +17
+Languages: Common, Undercommon; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: eye probe, monk abilities, transfer memories
+:::
 
-**Armor class:** 32
+### Ecology
 
-**Touch:** 18
-
-**Flat-footed:** 23
-
-**AC modifiers:** +8 Dex, +1 dodge, +14 natural, -1 size
-
-**Hit points:** 218 (19d8+133)
-
-**Fort:** +13
-
-**Ref:** +14
-
-**Will:** +17
-
-**Immune:** cold
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 26
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +18 (3d6+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** drain memory, quivering palm (1/day, DC 25), stunning fist (4/day, DC 25)
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +24
-
-**At will:**
-
-- clairvoyance/clairaudience, share memory
-
-**Per day:**
-
-- 5/day: divination
-- 3/day: cold ice strike, discordant blast, sonic thrust
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 27, Con 24, Int 19, Wis 22, Cha 29
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 38
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Improved Unarmed Strike,
-Mobility, Skill Focus (Sense Motive), Stunning Fist, Weapon Focus (slam), Wind Stance
-
-**Skills:** Acrobatics +23, Bluff +21, Craft (any) +10, Diplomacy +17, Intimidate +24, Knowledge
-(arcana, planes, religion) +12, Perception +19, Swim +8, Use Magic Device +17
-
-**Languages:** Common, Undercommon; [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** eye probe, monk abilities, transfer memories
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or enclave (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary or enclave (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

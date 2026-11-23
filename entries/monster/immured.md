@@ -30,79 +30,64 @@ abilities = ["16", "11", "-", "5", "13", "14"]
 _Through cracked, sickly blue lips, this pallid humanoid figure emits deep gasps as if struggling to
 breathe._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: breathlessness (10 ft., DC 14)
+Initiative: +4
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 800
+:::
 
-**aura:** breathlessness (10 ft., DC 14)
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: +6 natural
+Hit points: 26 (4d8+8)
+Fort: +3
+Ref: +1
+Will: +5
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: bound
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: slam +6 (1d4+4)
+Spec Att: breach, seize
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Type:** undead
-
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 natural
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** bound
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +6 (1d4+4)
-
-**Spec Att:** breach, seize
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 11, Con -, Int 5, Wis 13, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6 (+8 drag)
-
-**Combat maneuver defense:** 16 (18 vs. drag)
-
-**Feats:** Improved Drag^B^, Improved Initiative, Power Attack
-
-**Skills:** Perception +6, Stealth +5
-
-**Languages:** Common (can't speak)
+::: statblock
+Ability scores: Str 16, Dex 11, Con -, Int 5, Wis 13, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +6 (+8 drag)
+Combat maneuver defense: 16 (18 vs. drag)
+Feats: Improved Drag^B^, Improved Initiative, Power Attack
+Skills: Perception +6, Stealth +5
+Languages: Common (can't speak)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any urban
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary or gang (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

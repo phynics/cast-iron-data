@@ -31,105 +31,77 @@ abilities = ["11", "16", "14", "11", "11", "14"]
 _A sphere of bronze and copper set with a single eye, this winged creature has two clawed hands, one
 of which clutches a knife._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Alignment: Lawful neutral
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft., Detect chaos, Low-light vision
+Subtype: Extraplanar, Inevitable, Lawful
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 natural, +2 size
+Hit points: 15 (2d10+4)
+Fort: +5
+Ref: +3
+Will: +3
+Defensive abilities: constant vigilance, constructed
+Regen: 2 (chaotic)
+Sr: 13
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft., fly 50 ft. (average)
+Melee: short sword +7 (1d3/19-20)
+Reach: 0
+Space: 2-1/2
+Spec Att: electrical burst
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: +4
+Constant: detect chaos
+Per day: 3/day: command (DC 13), make whole, protection from chaos
+Per week: commune, CL 12th; 6 questions
+:::
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+### Statistics
 
-**Size:** tiny
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 natural, +2 size
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +3
-
-**Defensive abilities:** constant vigilance, constructed
-
-**Regen:** 2 (chaotic)
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (average)
-
-**Melee:** short sword +7 (1d3/19-20)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** electrical burst
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** +4
-
-**Constant:**
-
-- detect chaos
-
-**Per day:**
-
-- 3/day: command (DC 13), make whole, protection from chaos
-
-**Per week:**
-
-- commune, CL 12th; 6 questions
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 16, Con 14, Int 11, Wis 11, Cha 14
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 13
-
-**Feats:** Flyby Attack, Weapon Finesse^B^
-
-**Skills:** Diplomacy +7, Sense Motive +5, Stealth +16
-
-**Languages:** truespeech
-
-**Special qualities:** locate inevitable
+::: statblock
+Ability scores: Str 11, Dex 16, Con 14, Int 11, Wis 11, Cha 14
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 13
+Feats: Flyby Attack, Weapon Finesse^B^
+Skills: Diplomacy +7, Sense Motive +5, Stealth +16
+Languages: truespeech
+Special qualities: locate inevitable
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, or flock (3-14)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or flock (3-14)
+Treasure: None
+:::
 
 ### Special Abilities
 

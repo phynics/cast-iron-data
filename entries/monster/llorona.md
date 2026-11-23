@@ -31,79 +31,62 @@ abilities = ["-", "25", "-", "11", "13", "24"]
 _Weeping and wearing a damp funeral dress, this ghostly woman carries an air of menace and
 overwhelming despair about her._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +11
+Size: medium
+Alignment: Neutral evil
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 12,800
+:::
 
-**Initiative:** +11
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 25
+Touch: 25
+Flat-footed: 17
+AC modifiers: +7 deflection, +7 Dex, +1 dodge
+Hit points: 138 (12d8+84)
+Fort: +11
+Ref: +13
+Will: +9
+Chan Res: +2
+Defensive abilities: rejuvenation
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: 2 incorporeal touches +16 (4d6 plus Con drain)
+Spec Att: grasping hands, wail
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 25, Con -, Int 11, Wis 13, Cha 24
+Base attack bonus: +9
+Combat maneuver bonus: +16 (+23 grapple)
+Combat maneuver defense: 34
+Feats: Dodge, Flyby Attack, Improved Initiative, Lightning Reflexes, Lunge, Mobility
+Skills: Fly +30, Intimidate +22, Perception +16, Stealth +22
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 25
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 deflection, +7 Dex, +1 dodge
-
-**Hit points:** 138 (12d8+84)
-
-**Fort:** +11
-
-**Ref:** +13
-
-**Will:** +9
-
-**Chan Res:** +2
-
-**Defensive abilities:** rejuvenation
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** 2 incorporeal touches +16 (4d6 plus Con drain)
-
-**Spec Att:** grasping hands, wail
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 25, Con -, Int 11, Wis 13, Cha 24
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16 (+23 grapple)
-
-**Combat maneuver defense:** 34
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Lightning Reflexes, Lunge, Mobility
-
-**Skills:** Fly +30, Intimidate +22, Perception +16, Stealth +22
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any shorelines or swamps
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any shorelines or swamps
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -28,77 +28,63 @@ abilities = ["17", "14", "17", "2", "13", "10"]
 
 _This dark horse has striking coloring and a ferocious look in its bloodshot eyes._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +5
+Will: +2
+Defensive abilities: shifting trot
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +4 (1d8+3), 2 hooves -1 (1d6+1)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, Scent
-
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +2
-
-**Defensive abilities:** shifting trot
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +4 (1d8+3), 2 hooves -1 (1d6+1)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 17, Int 2, Wis 13, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Feats:** Intimidating Prowess, Run^B^, Skill Focus (Stealth)
-
-**Skills:** Intimidate +4, Perception +5, Stealth +5
-
-**Special qualities:** docile, smoke resistance
+::: statblock
+Ability scores: Str 17, Dex 14, Con 17, Int 2, Wis 13, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 18 (22 vs. trip)
+Feats: Intimidating Prowess, Run^B^, Skill Focus (Stealth)
+Skills: Intimidate +4, Perception +5, Stealth +5
+Special qualities: docile, smoke resistance
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate or warm plains
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm plains
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

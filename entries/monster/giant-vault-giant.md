@@ -33,100 +33,72 @@ abilities = ["36", "15", "29", "20", "23", "16"]
 _This saurian giant's body is covered in pale aquamarine scales, and a dark, rigid crest runs from
 its head to the tip of its thick tail. Its blue eyes give off a soft glow._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Size: gargantuan
+Type: humanoid
+Initiative: +6
+Alignment: Lawful evil
+Perception: +29
+Senses: Darkvision 120 ft., Low-light vision, Scent
+Subtype: Aquatic, Giant, Reptilian
+Experience points: 102,400
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 32
+Touch: 8
+Flat-footed: 30
+AC modifiers: +2 Dex, +24 natural, -4 size
+Hit points: 270 (20d8+180)
+Fort: +15
+Ref: +10
+Will: +20
+Immune: cold, mind-affecting effects
+Sr: 28
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 50 ft., swim 60 ft.
+Melee: +1 returning spear +26/+21/+16 (4d6+20/19-20/×3), bite +19 (2d8+6), or bite +24 (2d8+13), 2 claws +24 (2d6+13)
+Ranged: +1 returning spear +15 (4d6+14/19-20/×3)
+Reach: 20
+Space: 20
+Spec Att: tail swat
+:::
 
-**Perception:** +29
+::: statblock
+title = "Psychic Magic"
+Caster level: 19
+Concentration: +24
+Power points: 20
+Psychoactive powers: anticipate thoughts, 2 PE, DC 17, greater synaptic pulse, 5 PE, DC 20, mental barrier IV, 5 PE, mindlink, 1 PE, mind probe, 4 PE, DC 19, mind thrust V, 5 PE, DC 20, riding possession, 4 PE, DC 19
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Aquatic, Giant, Reptilian
+::: statblock
+Ability scores: Str 36, Dex 15, Con 29, Int 20, Wis 23, Cha 16
+Base attack bonus: +15
+Combat maneuver bonus: +32 (+34 bull rush)
+Combat maneuver defense: 44 (46 vs. bull rush)
+Feats: Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Critical (spear), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Vital Strike, Weapon Focus (spear)
+Skills: Acrobatics +12 (+20 when jumping), Climb +36
+Languages: Aquan, Common, Draconic, Giant, Undercommon
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 8
-
-**Flat-footed:** 30
-
-**AC modifiers:** +2 Dex, +24 natural, -4 size
-
-**Hit points:** 270 (20d8+180)
-
-**Fort:** +15
-
-**Ref:** +10
-
-**Will:** +20
-
-**Immune:** cold, mind-affecting effects
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 50 ft., swim 60 ft.
-
-**Melee:** +1 returning spear +26/+21/+16 (4d6+20/19-20/×3), bite +19 (2d8+6), or bite +24 (2d8+13),
-2 claws +24 (2d6+13)
-
-**Ranged:** +1 returning spear +15 (4d6+14/19-20/×3)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** tail swat
-
-**Psychic Magic**
-
-**Caster level:** 19
-
-**Concentration:** +24
-
-**Power points:** 20
-
-**Psychoactive powers:**
-
-- anticipate thoughts, 2 PE, DC 17, greater synaptic pulse, 5 PE, DC 20, mental barrier IV, 5 PE,
-  mindlink, 1 PE, mind probe, 4 PE, DC 19, mind thrust V, 5 PE, DC 20, riding possession, 4 PE, DC
-  19
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 15, Con 29, Int 20, Wis 23, Cha 16
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +32 (+34 bull rush)
-
-**Combat maneuver defense:** 44 (46 vs. bull rush)
-
-**Feats:** Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Critical (spear), Improved
-Initiative, Iron Will, Lightning Reflexes, Power Attack, Vital Strike, Weapon Focus (spear)
-
-**Skills:** Acrobatics +12 (+20 when jumping), Climb +36
-
-**Languages:** Aquan, Common, Draconic, Giant, Undercommon
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any coastal (Sightless Sea)
-
-**Organization:** solitary, pair, hunting party (3-9), or war band (10-18 plus 1 mesmerist or
-psychic of 3rd-6th level)
-
-**Treasure:** Standard (G +1 returning spear); other treasure
+::: statblock
+Environment: any coastal (Sightless Sea)
+Organization: solitary, pair, hunting party (3-9), or war band (10-18 plus 1 mesmerist or psychic of 3rd-6th level)
+Treasure: Standard (G +1 returning spear); other treasure
+:::
 
 ### Special Abilities
 

@@ -32,67 +32,56 @@ abilities = ["15", "14", "15", "2", "12", "8"]
 _This mangy canine's face has the same flat nose, beady eyes, and protruding teeth as a rat grown
 grotesquely large._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 9 (1d8+5)
+Fort: +4
+Ref: +4
+Will: +1
+Immune: disease
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +2 (1d6+3 plus allergic reaction)
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 14, Con 15, Int 2, Wis 12, Cha 8
+Base attack bonus: +0
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Toughness
+Skills: Stealth +6
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 9 (1d8+5)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +1
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +2 (1d6+3 plus allergic reaction)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 15, Int 2, Wis 12, Cha 8
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Toughness
-
-**Skills:** Stealth +6
-
-**Ecology**
-
-**Environment:** temperate forest, swamp, or underground
-
-**Organization:** solitary or pack (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forest, swamp, or underground
+Organization: solitary or pack (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

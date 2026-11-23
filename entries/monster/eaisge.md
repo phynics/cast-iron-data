@@ -32,81 +32,63 @@ abilities = ["15", "10", "-", "6", "8", "13"]
 _Water gushes from the mouth and nose of this bloated creature. Broken wood and jagged nails jut
 from its half-rotted flesh._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +0
+Size: medium
+Alignment: Neutral evil
+Perception: +3
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: undead
+Experience points: 400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 12
+Touch: 10
+Flat-footed: 12
+AC modifiers: +2 natural
+Hit points: 16 (3d8+3)
+Fort: +2
+Ref: +1
+Will: +4
+Dr: 5/piercing or slashing
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 5, fire 5
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Melee: slam +4 (1d8+3)
+Ranged: gush +2 (1d4+2 plus [trip](ref/umr/trip))
+Spec Att: create spawn, embedded debris, gush
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 15, Dex 10, Con -, Int 6, Wis 8, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 14
+Feats: Blind-Fight, Iron Will
+Skills: Intimidate +6, Perception +3, Stealth +5 (+9 underwater), Swim +6
+Racial Modifiers: +4 Stealth underwater
+Languages: Aquan
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 10
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 natural
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +4
-
-**Dr:** 5/piercing or slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 5, fire 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +4 (1d8+3)
-
-**Ranged:** gush +2 (1d4+2 plus [trip](ref/umr/trip))
-
-**Spec Att:** create spawn, embedded debris, gush
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 10, Con -, Int 6, Wis 8, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 14
-
-**Feats:** Blind-Fight, Iron Will
-
-**Skills:** Intimidate +6, Perception +3, Stealth +5 (+9 underwater), Swim +6
-
-**Racial Modifiers:** +4 Stealth underwater
-
-**Languages:** Aquan
-
-**Ecology**
-
-**Environment:** any swamp or water
-
-**Organization:** solitary, pair, or wreck (3-15)
-
-**Treasure:** Standard
+::: statblock
+Environment: any swamp or water
+Organization: solitary, pair, or wreck (3-15)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

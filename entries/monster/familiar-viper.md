@@ -25,71 +25,58 @@ melee = "bite +5 (1d2-2 plus poison)"
 abilities = ["4", "17", "8", "1", "13", "2"]
 +++
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +3
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 natural, +2 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +5
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee: bite +5 (1d2-2 plus poison)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 4, Dex 17, Con 8, Int 1, Wis 13, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 8 (can't be tripped)
+Feats: Weapon Finesse
+Skills: Climb +11
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 natural, +2 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +5 (1d2-2 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 17, Con 8, Int 1, Wis 13, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 8 (can't be tripped)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +11
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** any temperate and warm
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any temperate and warm
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

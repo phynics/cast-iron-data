@@ -28,101 +28,76 @@ abilities = ["14", "16", "15", "8", "9", "14"]
 
 _The pockets of this urchin are stuffed with worthless objects._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: discordant (20 ft.)
+Alignment: Chaotic evil
+Type: fey
+Initiative: +3
+Perception: +5
+Senses: Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**aura:** discordant (20 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 19 (3d6+9)
+Fort: +3
+Ref: +6
+Will: +2
+Dr: 5/cold iron
+Sr: 13
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 30 ft.
+Melee: spiked chain +6 (1d4+3)
+Reach: 0
+Reach P: 5 ft. with spiked chain
+Space: 2-1/2
+Spec Att: lashing chains, malicious mischief
+:::
 
-**Perception:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5
+At will: alter self, Small humanoid child only, ghost sound (DC 12)
+Per day: 1/day: lesser confusion (DC 13), murderous command (DC 13), rage
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 19 (3d6+9)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +2
-
-**Dr:** 5/cold iron
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spiked chain +6 (1d4+3)
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with spiked chain
-
-**Space:** 2-1/2
-
-**Spec Att:** lashing chains, malicious mischief
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**At will:**
-
-- alter self, Small humanoid child only, ghost sound (DC 12)
-
-**Per day:**
-
-- 1/day: lesser confusion (DC 13), murderous command (DC 13), rage
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 16, Con 15, Int 8, Wis 9, Cha 14
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Power Attack, Skill Focus (Stealth), Toughness^B^, Weapon Finesse^B^
-
-**Skills:** Acrobatics +9, Bluff +8, Perception +5, Sleight of Hand +13, Stealth +20
-
-**Racial Modifiers:** +4 Sleight of Hand
-
-**Languages:** Aklo, Common, Undercommon
+::: statblock
+Ability scores: Str 14, Dex 16, Con 15, Int 8, Wis 9, Cha 14
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Power Attack, Skill Focus (Stealth), Toughness^B^, Weapon Finesse^B^
+Skills: Acrobatics +9, Bluff +8, Perception +5, Sleight of Hand +13, Stealth +20
+Racial Modifiers: +4 Sleight of Hand
+Languages: Aklo, Common, Undercommon
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any underground or urban
-
-**Organization:** solitary, pair, or mob (3-8)
-
-**Treasure:** Standard (spiked chain); other treasure
+::: statblock
+Environment: any underground or urban
+Organization: solitary, pair, or mob (3-8)
+Treasure: Standard (spiked chain); other treasure
+:::
 
 ### Special Abilities
 

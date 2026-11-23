@@ -30,71 +30,58 @@ abilities = ["28", "9", "-", "-", "11", "1"]
 _This towering stone automaton bears the likeness of an archaic, armored warrior. It moves with
 ponderous but inexorable steps._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 12,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 26
+Touch: 8
+Flat-footed: 26
+AC modifiers: -1 Dex, +18 natural, -1 size
+Hit points: 107 (14d10+30)
+Fort: +4
+Ref: +3
+Will: +4
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +22 (2d10+9)
+Reach: 10
+Space: 10
+Spec Att: slow
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +14
+Combat maneuver bonus: +24
+Combat maneuver defense: 33
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 8
-
-**Flat-footed:** 26
-
-**AC modifiers:** -1 Dex, +18 natural, -1 size
-
-**Hit points:** 107 (14d10+30)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +4
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +22 (2d10+9)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** slow
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 33
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

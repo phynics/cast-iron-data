@@ -32,105 +32,74 @@ abilities = ["15", "14", "15", "8", "13", "10"]
 _This human-sized spider has a red eyes, spindly legs, and cloak-like folds of black flesh that
 obscure its head._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Sense poison
+Subtype: Evil, Extraplanar, Shapechanger
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +6
+Will: +2
+Dr: 5/good
+Immune: poison
+Sr: 15
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +8 (1d8+3 plus poison)
+Sneak: +1d6
+Spec Att: poison
+Web: +7 ranged, DC 14, 5 hp
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +6
+Constant: negate aroma
+At will: bleed, prestidigitation, stabilize
+Per day: 3/day: alchemical allocation, death knell (DC 12), invisibility, self only, obscuring mist, vomit swarm, spiders only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Sense poison
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Shapechanger
+::: statblock
+Ability scores: Str 15, Dex 14, Con 15, Int 8, Wis 13, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +7
+Combat maneuver defense: 19 (31 vs. trip)
+Feats: Improved Initiative, Point-Blank Shot, Weapon Focus (bite)
+Skills: Climb +10, Craft (alchemy) +7, Knowledge (nature) +7, Perception +9, Stealth +14
+Racial Modifiers: +4 Stealth
+Languages: Abyssal, Infernal, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (Diminutive spider; [vermin shape II](ref/spell/vermin-shape-2)), deft limbs
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +2
-
-**Dr:** 5/good
-
-**Immune:** poison
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +8 (1d8+3 plus poison)
-
-**Sneak:** +1d6
-
-**Spec Att:** poison
-
-**Web:** +7 ranged, DC 14, 5 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +6
-
-**Constant:**
-
-- negate aroma
-
-**At will:**
-
-- bleed, prestidigitation, stabilize
-
-**Per day:**
-
-- 3/day: alchemical allocation, death knell (DC 12), invisibility, self only, obscuring mist, vomit
-  swarm, spiders only
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 15, Int 8, Wis 13, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19 (31 vs. trip)
-
-**Feats:** Improved Initiative, Point-Blank Shot, Weapon Focus (bite)
-
-**Skills:** Climb +10, Craft (alchemy) +7, Knowledge (nature) +7, Perception +9, Stealth +14
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Abyssal, Infernal, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Diminutive spider;
-[vermin shape II](ref/spell/vermin-shape-2)), deft limbs
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or swarm (3-12)
-
-**Treasure:** Standard; usually alchemical weapons
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary, pair, or swarm (3-12)
+Treasure: Standard; usually alchemical weapons
+:::
 
 ### Special Abilities
 

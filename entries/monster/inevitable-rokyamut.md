@@ -31,119 +31,80 @@ abilities = ["32", "11", "28", "19", "22", "23"]
 _Built of steel and clockwork, this massive figure has the lower body of an elephant and the upper
 body of a four-armed giant._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+aura: shield of law (DC 24), unrelenting geometry (300 ft.)
+Size: gargantuan
+Initiative: +0
+Alignment: Lawful neutral
+Type: outsider
+Perception: +29
+Senses: Darkvision 60 ft., Detect chaos, Detect law, Detect magic, Low-light vision, True seeing
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 204,800
+:::
 
-**aura:** shield of law (DC 24), unrelenting geometry (300 ft.)
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 34
+Touch: 10
+Flat-footed: 34
+AC modifiers: +4 deflection, +24 natural, -4 size
+Hit points: 350 (20d10+240)
+Fort: +21
+Ref: +6
+Will: +18
+Defensive abilities: constructed, prudent positioning
+Dr: 15/chaotic
+Immune: electricity, fire
+Regen: 10 (chaotic)
+Resist: sonic 30
+Sr: 30
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 50 ft., fly 40 ft. (good)
+Melee: +2 [brilliant energy](ref/magic-enh/brilliant-energy) starknife +28/+23/+18/+13 (2d6+13/19-20/×3), 3 +2 brilliant energy starknives +28 (2d6+7/19-20/×3) or 4 slams +27 (2d6+11)
+Pounce: present
+Ranged: +2 brilliant energy starknife +19/+14/+9/+4 (2d6+13/19-20/×3)
+Reach: 20
+Space: 20
+Spec Att: expeditious calculation, symbological attack
+Trample: 2d6+16, DC 31
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+Constant: detect chaos, detect law, detect magic, shield of law (DC 24), true seeing
+At will: arrow of law (DC 18), greater dispel magic, order's wrath (DC 20)
+Per day: 3/day: circle of clarity, dispel chaos (DC 21), greater forbid action (DC 21), hold monster (DC 21), dictum (DC 23), summon monster IX, lawful creatures only\
+1/day: gate, planar travel only
+:::
 
-**Perception:** +29
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect chaos, Detect law, Detect magic, Low-light vision, True seeing
+::: statblock
+Ability scores: Str 32, Dex 11, Con 28, Int 19, Wis 22, Cha 23
+Base attack bonus: +20
+Combat maneuver bonus: +35 (+37 bull rush)
+Combat maneuver defense: 49 (51 vs. bull rush, 53 vs. trip)
+Feats: Awesome Blow, Cleave, Combat Expertise, Deflect Arrows, Improved Bull Rush, Improved Critical (starknife), Lunge, Point-Blank Shot, Power Attack, Two-Weapon Fighting, Weapon Focus (starknife)
+Skills: Appraise +27, Fly +21, Intimidate +29, Knowledge (arcana, nature) +14, Knowledge (engineering) +27, Linguistics +24, Perception +29, Sense Motive +29, Spellcraft +14
+Languages: truespeech
+:::
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+### Ecology
 
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 10
-
-**Flat-footed:** 34
-
-**AC modifiers:** +4 deflection, +24 natural, -4 size
-
-**Hit points:** 350 (20d10+240)
-
-**Fort:** +21
-
-**Ref:** +6
-
-**Will:** +18
-
-**Defensive abilities:** constructed, prudent positioning
-
-**Dr:** 15/chaotic
-
-**Immune:** electricity, fire
-
-**Regen:** 10 (chaotic)
-
-**Resist:** sonic 30
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 50 ft., fly 40 ft. (good)
-
-**Melee:** +2 [brilliant energy](ref/magic-enh/brilliant-energy) starknife +28/+23/+18/+13
-(2d6+13/19-20/×3), 3 +2 brilliant energy starknives +28 (2d6+7/19-20/×3) or 4 slams +27 (2d6+11)
-
-**Pounce:** present
-
-**Ranged:** +2 brilliant energy starknife +19/+14/+9/+4 (2d6+13/19-20/×3)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** expeditious calculation, symbological attack
-
-**Trample:** 2d6+16, DC 31
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**Constant:**
-
-- detect chaos, detect law, detect magic, shield of law (DC 24), true seeing
-
-**At will:**
-
-- arrow of law (DC 18), greater dispel magic, order's wrath (DC 20)
-
-**Per day:**
-
-- 3/day: circle of clarity, dispel chaos (DC 21), greater forbid action (DC 21), hold monster (DC
-  21), dictum (DC 23), summon monster IX, lawful creatures only
-- 1/day: gate, planar travel only
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 11, Con 28, Int 19, Wis 22, Cha 23
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +35 (+37 bull rush)
-
-**Combat maneuver defense:** 49 (51 vs. bull rush, 53 vs. trip)
-
-**Feats:** Awesome Blow, Cleave, Combat Expertise, Deflect Arrows, Improved Bull Rush, Improved
-Critical (starknife), Lunge, Point-Blank Shot, Power Attack, Two-Weapon Fighting, Weapon Focus
-(starknife)
-
-**Skills:** Appraise +27, Fly +21, Intimidate +29, Knowledge (arcana, nature) +14, Knowledge
-(engineering) +27, Linguistics +24, Perception +29, Sense Motive +29, Spellcraft +14
-
-**Languages:** truespeech
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or faculty (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary, pair, or faculty (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

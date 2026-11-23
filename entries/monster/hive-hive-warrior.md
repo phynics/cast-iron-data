@@ -32,82 +32,63 @@ abilities = ["18", "15", "15", "11", "16", "5"]
 _This creature is humanoid in shape, but covered with chitinous plating. Its head is elongated, and
 it has a long, bladed tail._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+blindsense: 60
+blindsight: 10
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +14
+Senses: Hive mind
+Subtype: Hive
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 natural
+Hit points: 52 (8d8+16)
+Fort: +4
+Ref: +4
+Will: +9
+Defensive abilities: corrosive blood (1d4), heat adaptability
+Immune: acid
+:::
 
-**blindsight:** 10
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +9 (1d6+4), 2 claws +10 (1d4+4), tail slap +7 (1d6+2)
+Spec Att: acid spit (DC 16), death throes (8d6, DC 16)
+:::
 
-**Size:** medium
+### Statistics
 
-**Alignment:** Neutral evil
+::: statblock
+Ability scores: Str 18, Dex 15, Con 15, Int 11, Wis 16, Cha 5
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Combat Reflexes, Improved Initiative, Multiattack, Vital Strike
+Skills: Climb +23, Perception +14
+Languages: Aklo (can't speak)
+Special qualities: blind
+:::
 
-**Perception:** +14
+### Ecology
 
-**Senses:** Hive mind
-
-**Subtype:** Hive
-
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 natural
-
-**Hit points:** 52 (8d8+16)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +9
-
-**Defensive abilities:** corrosive blood (1d4), heat adaptability
-
-**Immune:** acid
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +9 (1d6+4), 2 claws +10 (1d4+4), tail slap +7 (1d6+2)
-
-**Spec Att:** acid spit (DC 16), death throes (8d6, DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 15, Int 11, Wis 16, Cha 5
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Reflexes, Improved Initiative, Multiattack, Vital Strike
-
-**Skills:** Climb +23, Perception +14
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** blind
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or hive (1-50 hive workers and warriors plus 1-20
-[larva swarms](ref/monster/hive-hive-larva-swarm) and 1 [queen](ref/monster/hive-hive-queen))
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or hive (1-50 hive workers and warriors plus 1-20 [larva swarms](ref/monster/hive-hive-larva-swarm) and 1 [queen](ref/monster/hive-hive-queen))
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

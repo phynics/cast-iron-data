@@ -32,91 +32,67 @@ abilities = ["36", "23", "28", "5", "21", "26"]
 _This massive, eel-like dragon has two webbed talons. Its tail ends in large and powerful-looking
 flukes._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Alignment: Chaotic evil
+Type: dragon
+Size: gargantuan
+Initiative: +10
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision, Scent, True seeing
+Subtype: Aquatic
+Experience points: 76,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 30
+Touch: 12
+Flat-footed: 24
+AC modifiers: +6 Dex, +18 natural, -4 size
+Hit points: 248 (16d12+144)
+Fort: +19
+Ref: +18
+Will: +15
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/cold iron
+Immune: cold, curse effects, mind-affecting effects, paralysis, poison, sleep
+Regen: 10 (cold iron)
+Sr: 27
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +10
+::: statblock
+Speed: 30 ft., swim 60 ft., fly 100 ft. (average)
+Constrict: tail, 2d6+19
+Melee: bite +25 (2d8+13/19-20 plus poison), 2 claws +25 (2d6+13), tail +20 (2d6+6 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: breath weapon, death curse
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
+::: statblock
+Ability scores: Str 36, Dex 23, Con 28, Int 5, Wis 21, Cha 26
+Base attack bonus: +16
+Combat maneuver bonus: +33 (+37 grapple)
+Combat maneuver defense: 49 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Fly +19
+Languages: Aklo, Draconic, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 12
-
-**Flat-footed:** 24
-
-**AC modifiers:** +6 Dex, +18 natural, -4 size
-
-**Hit points:** 248 (16d12+144)
-
-**Fort:** +19
-
-**Ref:** +18
-
-**Will:** +15
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/cold iron
-
-**Immune:** cold, curse effects, mind-affecting effects, paralysis, poison, sleep
-
-**Regen:** 10 (cold iron)
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft., fly 100 ft. (average)
-
-**Constrict:** tail, 2d6+19
-
-**Melee:** bite +25 (2d8+13/19-20 plus poison), 2 claws +25 (2d6+13), tail +20 (2d6+6 plus
-[grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** breath weapon, death curse
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 23, Con 28, Int 5, Wis 21, Cha 26
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +33 (+37 grapple)
-
-**Combat maneuver defense:** 49 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Bull Rush, Improved Critical (bite), Improved
-Initiative, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Fly +19
-
-**Languages:** Aklo, Draconic, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** cold mountainous coastlines
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: cold mountainous coastlines
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

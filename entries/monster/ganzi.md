@@ -32,95 +32,71 @@ abilities = ["10", "13", "16", "10", "8", "17"]
 _This dark-skinned woman moves with grace and confidence, but her vibrant eyes hold a hint of
 unpredictable wildness._
 
-**Challenge rating:** 1/2
-
 **Female ganzi [bard](ref/class/bard) 1**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 1/2
+Alignment: Chaotic neutral
+Initiative: +1
+Size: medium
+Type: outsider
+Perception: +3
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 armor, +1 Dex, +1 shield
+Hit points: 12 (1d8+4)
+Fort: +3
+Ref: +3
+Will: +1; +2 vs. polymorph effects
+Resist: acid 5, electricity 5, sonic 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Melee: dagger +0 (1d4/19-20)
+Spec Att: bardic performance 7 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 13\], [inspire courage](ref/performance/inspire-courage) +1), ganzi oddity (quibble)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 2/day: cure light wounds, grease (DC 14)
+Cantrips: At will: daze (DC 13), ghost sound (DC 13), mage hand, prestidigitation
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 10, Dex 13, Con 16, Int 10, Wis 8, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 11
+Feats: Arcane Strike
+Skills: Acrobatics +4, Diplomacy +7, Perception +3
+Racial Modifiers: +2 Sense Motive, +2 Survival
+Languages: Common, Protean
+Special qualities: bardic knowledge +1
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +1 Dex, +1 shield
-
-**Hit points:** 12 (1d8+4)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +1; +2 vs. polymorph effects
-
-**Resist:** acid 5, electricity 5, sonic 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +0 (1d4/19-20)
-
-**Spec Att:** bardic performance 7 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 13\],
-[inspire courage](ref/performance/inspire-courage) +1), ganzi oddity (quibble)
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 2/day: cure light wounds, grease (DC 14)
-
-**Cantrips:**
-
-- At will: daze (DC 13), ghost sound (DC 13), mage hand, prestidigitation
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 16, Int 10, Wis 8, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11
-
-**Feats:** Arcane Strike
-
-**Skills:** Acrobatics +4, Diplomacy +7, Perception +3
-
-**Racial Modifiers:** +2 Sense Motive, +2 Survival
-
-**Languages:** Common, Protean
-
-**Special qualities:** bardic knowledge +1
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary, pair, or band (3-12)
-
-**Treasure:** NPC gear (leather armor, light steel shield, dagger); other treasure
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary, pair, or band (3-12)
+Treasure: NPC gear (leather armor, light steel shield, dagger); other treasure
+:::
 
 ### Special Abilities
 

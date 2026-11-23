@@ -30,110 +30,76 @@ abilities = ["24", "23", "20", "13", "20", "19"]
 _Metallic plating and stone make up this creature's body. Sharpened brass wings stretch from its
 back, and its head bears three faces._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: malfunctioning (100 ft.)
+Initiative: +6
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +18
+Senses: Arcane sight, Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 38,400
+:::
 
-**aura:** malfunctioning (100 ft.)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 29
+Touch: 15
+Flat-footed: 23
+AC modifiers: +6 Dex, +14 natural, -1 size
+Hit points: 187 (15d10+105)
+Fort: +14
+Ref: +11
+Will: +14
+Defensive abilities: all-around vision, constructed
+Regen: 10 (chaotic)
+Sr: 25
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: 2 claws +21 (2d6+7), 2 slams +21 (1d6+7), 2 wings +21 (1d6+7)
+Reach: 10
+Rend: 2 wings, 2d6+10
+Space: 10
+Spec Att: dismantling gaze, wings
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +19
+Constant: arcane sight, true seeing
+At will: chill metal (DC 16), heat metal (DC 16)
+Per day: 3/day: locate object, modify memory (DC 18), rusting grasp, wall of force\
+1/day: disintegrate (DC 20), feeblemind, mark of justice
+Per week: lesser geas (DC 18)
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision, True seeing
+::: statblock
+Ability scores: Str 24, Dex 23, Con 20, Int 13, Wis 20, Cha 19
+Base attack bonus: +15
+Combat maneuver bonus: +23 (+27 disarm, +27 steal)
+Combat maneuver defense: 39 (41 vs. disarm, 41 vs. steal)
+Feats: Combat Expertise, Combat Reflexes, Flyby Attack, Greater Disarm, Greater Steal, Improved Disarm, Improved Steal, Quick Steal
+Skills: Diplomacy +16, Disable Device +16, Fly +16, Intimidate +16, Knowledge (engineering) +15, Perception +18, Use Magic Device +14
+Languages: truespeech
+:::
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 15
-
-**Flat-footed:** 23
-
-**AC modifiers:** +6 Dex, +14 natural, -1 size
-
-**Hit points:** 187 (15d10+105)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +14
-
-**Defensive abilities:** all-around vision, constructed
-
-**Regen:** 10 (chaotic)
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Melee:** 2 claws +21 (2d6+7), 2 slams +21 (1d6+7), 2 wings +21 (1d6+7)
-
-**Reach:** 10
-
-**Rend:** 2 wings, 2d6+10
-
-**Space:** 10
-
-**Spec Att:** dismantling gaze, wings
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +19
-
-**Constant:**
-
-- arcane sight, true seeing
-
-**At will:**
-
-- chill metal (DC 16), heat metal (DC 16)
-
-**Per day:**
-
-- 3/day: locate object, modify memory (DC 18), rusting grasp, wall of force
-- 1/day: disintegrate (DC 20), feeblemind, mark of justice
-
-**Per week:**
-
-- lesser geas (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 23, Con 20, Int 13, Wis 20, Cha 19
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +23 (+27 disarm, +27 steal)
-
-**Combat maneuver defense:** 39 (41 vs. disarm, 41 vs. steal)
-
-**Feats:** Combat Expertise, Combat Reflexes, Flyby Attack, Greater Disarm, Greater Steal, Improved
-Disarm, Improved Steal, Quick Steal
-
-**Skills:** Diplomacy +16, Disable Device +16, Fly +16, Intimidate +16, Knowledge (engineering) +15,
-Perception +18, Use Magic Device +14
-
-**Languages:** truespeech
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or intervention (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or intervention (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

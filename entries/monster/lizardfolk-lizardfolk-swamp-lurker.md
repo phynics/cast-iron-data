@@ -30,83 +30,63 @@ special_qualities = "favored terrain (swamp +2), hold breath, hunter's bond (com
 abilities = ["18", "12", "17", "9", "12", "8"]
 +++
 
-**Challenge rating:** 8
-
 **Lizardfolk [ranger](ref/class/ranger) 7**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 8
+Type: humanoid
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Perception: +12
+Subtype: Reptilian
+Experience points: 4,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 20
+AC modifiers: +4 armor, +1 Dex, +6 natural
+Hit points: 87 (2d8+7d10+40\~9)
+Fort: +11
+Ref: +6
+Will: +3
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Fav En: humans +4, reptilian humanoids +2
+Melee: 2 claws +13 (1d6+4), bite +7 (1d4+2), tail slap +7 (1d4+2)
+Ranged: +1 composite longbow +10/+5 (1d8+5/×3)
+Spec Att: combat style (natural weapon)
+:::
 
-**Subtype:** Reptilian
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 18, Dex 12, Con 17, Int 9, Wis 12, Cha 8
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 23
+Feats: Aquatic Adaption, Dangerous Tail, Endurance, Improved Initiative, Improved Natural Attack (claw), Point-Blank Shot, Swift Swimmer, Weapon Focus (claw)
+Skills: Acrobatics +5, Climb +14, Handle Animal +3, Heal +6
+Racial Modifiers: +4 Acrobatics
+Languages: Draconic
+Special qualities: [favored terrain](ref/ability/favored-terrain) (swamp +2), [hold breath](ref/umr/hold-breath), hunter's bond (companions), track +3, [wild empathy](ref/ability/wild-empathy) +6, [woodland stride](ref/ability/woodland-stride)
+Combat gear: 4 +1 BANE-human arrows, 2 potion of barkskin, potion of cure moderate wounds, scroll of speak with plants, tanglefoot bag
+Other gear: +1 studded leather armor, +1 cl30+4, fishing net, 55 gp
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 armor, +1 Dex, +6 natural
-
-**Hit points:** 87 (2d8+7d10+40\~9)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Fav En:** humans +4, reptilian humanoids +2
-
-**Melee:** 2 claws +13 (1d6+4), bite +7 (1d4+2), tail slap +7 (1d4+2)
-
-**Ranged:** +1 composite longbow +10/+5 (1d8+5/×3)
-
-**Spec Att:** combat style (natural weapon)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 12, Con 17, Int 9, Wis 12, Cha 8
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23
-
-**Feats:** Aquatic Adaption, Dangerous Tail, Endurance, Improved Initiative, Improved Natural Attack
-(claw), Point-Blank Shot, Swift Swimmer, Weapon Focus (claw)
-
-**Skills:** Acrobatics +5, Climb +14, Handle Animal +3, Heal +6
-
-**Racial Modifiers:** +4 Acrobatics
-
-**Languages:** Draconic
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (swamp +2),
-[hold breath](ref/umr/hold-breath), hunter's bond (companions), track +3,
-[wild empathy](ref/ability/wild-empathy) +6, [woodland stride](ref/ability/woodland-stride)
-
-**Combat gear:** 4 +1 BANE-human arrows, 2 potion of barkskin, potion of cure moderate wounds,
-scroll of speak with plants, tanglefoot bag
-
-**Other gear:** +1 studded leather armor, +1 cl30+4, fishing net, 55 gp
-
-**Ecology**
-
-**Environment:** temperate swamps
+::: statblock
+Environment: temperate swamps
+:::
 
 ### Description
 

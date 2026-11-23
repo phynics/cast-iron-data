@@ -30,82 +30,65 @@ abilities = ["36", "15", "-", "-", "11", "1"]
 _Pale green metal makes up the body of this automaton. Despite its towering size, it moves with
 lithe quickness._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: impeded magic (60 ft.)
+Type: construct
+Size: huge
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 153,600
+:::
 
-**aura:** impeded magic (60 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 32
+Touch: 10
+Flat-footed: 30
+AC modifiers: +2 Dex, +22 natural, -2 size
+Hit points: 202 (25d10+65)
+Fort: +8
+Ref: +10
+Will: +8; +8 vs. spells, [spell-like abilities](ref/umr/spell-like-abilities), and supernatural abilities
+Defensive abilities: spell absorption
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 40 ft.
+Melee: 2 slams +36 (4d8+19/19-20 plus spell sunder)
+Reach: 15
+Space: 15
+Spec Att: construct bane
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +0
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 153,600
-
-**Armor class:** 32
-
-**Touch:** 10
-
-**Flat-footed:** 30
-
-**AC modifiers:** +2 Dex, +22 natural, -2 size
-
-**Hit points:** 202 (25d10+65)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +8; +8 vs. spells, [spell-like abilities](ref/umr/spell-like-abilities), and supernatural
-abilities
-
-**Defensive abilities:** spell absorption
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 slams +36 (4d8+19/19-20 plus spell sunder)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** construct bane
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 15, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +40
-
-**Combat maneuver defense:** 52
-
-**Feats:** Toughness^B^
+::: statblock
+Ability scores: Str 36, Dex 15, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +25
+Combat maneuver bonus: +40
+Combat maneuver defense: 52
+Feats: Toughness^B^
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any (Numeria, Thassilon)
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria, Thassilon)
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

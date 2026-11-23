@@ -30,79 +30,63 @@ special_qualities = "favored terrain (desert +2), track +1, wild empathy +1"
 abilities = ["18", "15", "15", "8", "12", "6"]
 +++
 
-**Challenge rating:** 4
-
 **Gnoll [ranger](ref/class/ranger) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +2
+Size: medium
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 1,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +4 armor, +2 Dex, +1 natural
+Hit points: 38 (2d8+3d10+13\~5)
+Fort: +9
+Ref: +6
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft.
+Fav En: humans +2
+Melee: spear +8 (1d8+6/×3)
+Ranged: mwk composite longbow +8 (1d8+4/×3)
+Spec Att: combat style (archery)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Gnoll\
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 18, Dex 15, Con 15, Int 8, Wis 12, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Endurance, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (longbow)
+Skills: Climb +11, Knowledge (nature) +4, Perception +9
+Languages: Gnoll
+Special qualities: [favored terrain](ref/ability/favored-terrain) (desert +2), track +1, [wild empathy](ref/ability/wild-empathy) +1
+Combat gear: potion of cure moderate wounds, tanglefoot bag
+Other gear: mwk chain shirt, mwk cl20+4, spear, Iclk1
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 armor, +2 Dex, +1 natural
-
-**Hit points:** 38 (2d8+3d10+13\~5)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** humans +2
-
-**Melee:** spear +8 (1d8+6/×3)
-
-**Ranged:** mwk composite longbow +8 (1d8+4/×3)
-
-**Spec Att:** combat style (archery)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 15, Int 8, Wis 12, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Endurance, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (longbow)
-
-**Skills:** Climb +11, Knowledge (nature) +4, Perception +9
-
-**Languages:** Gnoll
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (desert +2), track +1,
-[wild empathy](ref/ability/wild-empathy) +1
-
-**Combat gear:** potion of cure moderate wounds, tanglefoot bag
-
-**Other gear:** mwk chain shirt, mwk cl20+4, spear, Iclk1
-
-**Ecology**
-
-**Environment:** warm plains or desert
+::: statblock
+Environment: warm plains or desert
+:::
 
 ### Description
 

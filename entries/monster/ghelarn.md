@@ -31,85 +31,65 @@ abilities = ["17", "10", "16", "3", "14", "3"]
 _Purple tentacles emerge from a white, coral-like rock formation, tracing whirled patterns in the
 surrounding sand._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft.
+tremorsense: 30
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 14
+Touch: 9
+Flat-footed: 14
+AC modifiers: +5 natural, -1 size
+Hit points: 22 (3d8+9)
+Fort: +4
+Ref: +1
+Will: +5
+Defensive abilities: carapace
+Resist: fire 5
+Vulner: sonic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Entrap: DC 14, 1d8 rounds, [hardness](ref/umr/hardness) 5, hp 8
+Melee: 2 tentacles +4 (1d6+3)
+Reach: 10
+Space: 10
+Spec Att: leeching tendrils
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 10, Con 16, Int 3, Wis 14, Cha 3
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 16
+Feats: Combat Reflexes, Skill Focus (Perception)
+Skills: Perception +10, Stealth +4 (+14 in deserts)
+Racial Modifiers: +4 Stealth (+14 in deserts)
+Special qualities: hibernate
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 9
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 natural, -1 size
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +4
-
-**Ref:** +1
-
-**Will:** +5
-
-**Defensive abilities:** carapace
-
-**Resist:** fire 5
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Entrap:** DC 14, 1d8 rounds, [hardness](ref/umr/hardness) 5, hp 8
-
-**Melee:** 2 tentacles +4 (1d6+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** leeching tendrils
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con 16, Int 3, Wis 14, Cha 3
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 16
-
-**Feats:** Combat Reflexes, Skill Focus (Perception)
-
-**Skills:** Perception +10, Stealth +4 (+14 in deserts)
-
-**Racial Modifiers:** +4 Stealth (+14 in deserts)
-
-**Special qualities:** hibernate
-
-**Ecology**
-
-**Environment:** cold or temperate deserts
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: cold or temperate deserts
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

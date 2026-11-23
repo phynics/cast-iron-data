@@ -34,97 +34,72 @@ abilities = ["9", "13", "12", "8", "11", "12"]
 _This small, bizarre humanoid creature has fin-like wings, strange yellow skin, and tiny black eyes
 burning with malevolence._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: fey
+Initiative: +5
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 4 (1d6+1)
+Fort: +1
+Ref: +3
+Will: +2
+Dr: 2/cold iron
+Sr: 11
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 10 ft., swim 20 ft., fly 20 ft. (average)
+Melee: bite +1 (1d3-1)
+Reach: 0
+Space: 2-1/2
+Spec Att: misplacement
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +2
+At will: prestidigitation, ventriloquism (DC 12)
+Per day: 1/day: scare (DC 13)
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 9, Dex 13, Con 12, Int 8, Wis 11, Cha 12
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 8
+Feats: Improved Initiative
+Skills: Disable Device +3, Disguise +5, Fly +5
+Racial Modifiers: +2 Disable Device, +2 Sleight of Hand
+Languages: Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 4 (1d6+1)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +2
-
-**Dr:** 2/cold iron
-
-**Sr:** 11
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft., fly 20 ft. (average)
-
-**Melee:** bite +1 (1d3-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** misplacement
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**At will:**
-
-- prestidigitation, ventriloquism (DC 12)
-
-**Per day:**
-
-- 1/day: scare (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 13, Con 12, Int 8, Wis 11, Cha 12
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 8
-
-**Feats:** Improved Initiative
-
-**Skills:** Disable Device +3, Disguise +5, Fly +5
-
-**Racial Modifiers:** +2 Disable Device, +2 Sleight of Hand
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate coasts
-
-**Organization:** solitary, pair, or swarm (4-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate coasts
+Organization: solitary, pair, or swarm (4-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -28,71 +28,58 @@ abilities = ["18", "15", "15", "2", "13", "6"]
 
 _This large hyena has a thick head, rheumy red eyes, and a mouth filled with sharp, powerful teeth._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 26 (4d8+8)
+Fort: +6
+Ref: +6
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +6 (2d6+6 plus [trip](ref/umr/trip))
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 18, Dex 15, Con 15, Int 2, Wis 13, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Skill Focus (Perception, Stealth)
+Skills: Perception +8, Stealth +7 (+11 in tall grass or heavy undergrowth)
+Racial Modifiers: +4 Stealth in tall grass
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +6 (2d6+6 plus [trip](ref/umr/trip))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 15, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Skill Focus (Perception, Stealth)
-
-**Skills:** Perception +8, Stealth +7 (+11 in tall grass or heavy undergrowth)
-
-**Racial Modifiers:** +4 Stealth in tall grass
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or pack (3-8)
+Treasure: Incidental
+:::
 
 ### Description
 

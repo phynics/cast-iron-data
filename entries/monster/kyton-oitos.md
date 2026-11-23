@@ -30,101 +30,72 @@ abilities = ["19", "20", "23", "19", "20", "20"]
 _The golden bones of this magnificent skeleton are clad in monstrous face-skins sewn into a cape and
 skirt adorned with gold pendants._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +9
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 12,800
+:::
 
-**Initiative:** +9
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 20
+AC modifiers: +5 Dex, +10 natural
+Hit points: 149 (13d10+78)
+Fort: +14
+Ref: +11
+Will: +15
+Dr: 10/bludgeoning and silver or bludgeoning and good
+Immune: cold
+Regen: 5 (good)
+Sr: 22
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: 2 claws +17 (1d6+11/19-20 plus 2d6 cold), lash +17 (2d4+11 plus 2d6 cold)
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +16
+Constant: fly
+At will: deeper darkness, plane shift, between the Material Plane, Shadow Plane, and evil-aligned planes only; lawful creatures only, speak with dead (DC 18)
+Per day: 3/day: charm monster (DC 19), dimensional anchor, fabricate, shadow walk\
+1/day: eyebite (DC 21), summon monster V, evil creatures only
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+::: statblock
+Ability scores: Str 19, Dex 20, Con 23, Int 19, Wis 20, Cha 20
+Base attack bonus: +13
+Combat maneuver bonus: +17 (+19 trip)
+Combat maneuver defense: 32 (34 trip)
+Feats: Combat Expertise, Combat Reflexes, Improved Critical (claw), Improved Initiative, Improved Trip, Iron Will, Lightning Reflexes
+Skills: Appraise +20, Bluff +21, Craft (any one) +20, Diplomacy +21, Sense Motive +21, Spellcraft +20, Stealth +21
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: dark traveler
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 Dex, +10 natural
-
-**Hit points:** 149 (13d10+78)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +15
-
-**Dr:** 10/bludgeoning and silver or bludgeoning and good
-
-**Immune:** cold
-
-**Regen:** 5 (good)
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** 2 claws +17 (1d6+11/19-20 plus 2d6 cold), lash +17 (2d4+11 plus 2d6 cold)
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +16
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- deeper darkness, plane shift, between the Material Plane, Shadow Plane, and evil-aligned planes
-  only; lawful creatures only, speak with dead (DC 18)
-
-**Per day:**
-
-- 3/day: charm monster (DC 19), dimensional anchor, fabricate, shadow walk
-- 1/day: eyebite (DC 21), summon monster V, evil creatures only
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 20, Con 23, Int 19, Wis 20, Cha 20
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +17 (+19 trip)
-
-**Combat maneuver defense:** 32 (34 trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Critical (claw), Improved Initiative,
-Improved Trip, Iron Will, Lightning Reflexes
-
-**Skills:** Appraise +20, Bluff +21, Craft (any one) +20, Diplomacy +21, Sense Motive +21,
-Spellcraft +20, Stealth +21
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** dark traveler
-
-**Ecology**
-
-**Environment:** any ([Shadow Plane](ref/rule/shadow-plane))
-
-**Organization:** solitary, pair, or delegation (1 plus 1d6 [kytons](ref/family/kyton))
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Shadow Plane](ref/rule/shadow-plane))
+Organization: solitary, pair, or delegation (1 plus 1d6 [kytons](ref/family/kyton))
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -30,69 +30,57 @@ abilities = ["13", "15", "14", "2", "13", "6"]
 _This sandy-colored canine resembles a slender-bodied wolf with short, graceful legs. It watches
 with dark brown eyes._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 9 (1d8+5)
+Fort: +4
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft.
+Melee: bite +2 (1d4+1 plus [trip](ref/umr/trip))
+Spec Att: opportunistic bite
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 15, Con 14, Int 2, Wis 13, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 12 (16 vs. trip)
+Feats: Toughness
+Skills: Bluff +2, Perception +5
+Racial Modifiers: +4 Bluff, +4 Survival when tracking by scent
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 9 (1d8+5)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +2 (1d4+1 plus [trip](ref/umr/trip))
-
-**Spec Att:** opportunistic bite
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 14, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12 (16 vs. trip)
-
-**Feats:** Toughness
-
-**Skills:** Bluff +2, Perception +5
-
-**Racial Modifiers:** +4 Bluff, +4 Survival when tracking by scent
-
-**Ecology**
-
-**Environment:** warm deserts or plains
-
-**Organization:** solitary, pair, or pack (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts or plains
+Organization: solitary, pair, or pack (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

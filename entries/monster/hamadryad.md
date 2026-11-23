@@ -30,103 +30,72 @@ abilities = ["12", "23", "23", "18", "19", "22"]
 
 _This regal woman exhibits the grace and pride of the forest's most ancient trees._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic good
+Type: fey
+Initiative: +6
+Size: medium
+Perception: +31
+Senses: Low-light vision
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 22
+AC modifiers: +6 Dex, +1 dodge, +12 natural
+Hit points: 190 (20d6+120)
+Fort: +12
+Ref: +18
+Will: +18
+Dr: 10/cold iron
+Fh: 5
+Resist: acid 30, cold 30, electricity 30
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +16/+11 (1d4+5/19-20)
+Ranged: +2 speed composite longbow +18/+18/+13 (1d8+7/×3)
+:::
 
-**Perception:** +31
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+Constant: speak with animals, speak with plants
+At will: entangle (DC 17), hold animal (DC 18), rusting grasp, tree shape, wood shape, 10 lbs. only
+Per day: 5/day: charm monster (DC 20), charm person (DC 17), confusion (DC 19), deep slumber (DC 19), neutralize poison, sending, dryads only, suggestion (DC 19), tree stride\
+1/day: call lightning storm (DC 21), changestaff, greater heroism, heal, liveoak, summon nature's ally VIII
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 51,200
+::: statblock
+Ability scores: Str 12, Dex 23, Con 23, Int 18, Wis 19, Cha 22
+Base attack bonus: +10
+Combat maneuver bonus: +11
+Combat maneuver defense: 28
+Feats: Alertness, Combat Casting, Dodge, Great Fortitude, Improved Iron Will, Iron Will, Mounted Combat, Stealthy, Toughness, Weapon Finesse
+Skills: Bluff +29, Climb +14, Sense Motive +19, Spellcraft +14, Stealth +19, Survival +14
+Racial Modifiers: +8 Craft (wood)
+Languages: Common, Elven, Sylvan; _speak with animals, speak with plants, tongues_
+Special qualities: druid magic, tree meld, [wild empathy](ref/ability/wild-empathy), woodcraft
+:::
 
-**Armor class:** 29
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 22
-
-**AC modifiers:** +6 Dex, +1 dodge, +12 natural
-
-**Hit points:** 190 (20d6+120)
-
-**Fort:** +12
-
-**Ref:** +18
-
-**Will:** +18
-
-**Dr:** 10/cold iron
-
-**Fh:** 5
-
-**Resist:** acid 30, cold 30, electricity 30
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dagger +16/+11 (1d4+5/19-20)
-
-**Ranged:** +2 speed composite longbow +18/+18/+13 (1d8+7/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**Constant:**
-
-- speak with animals, speak with plants
-
-**At will:**
-
-- entangle (DC 17), hold animal (DC 18), rusting grasp, tree shape, wood shape, 10 lbs. only
-
-**Per day:**
-
-- 5/day: charm monster (DC 20), charm person (DC 17), confusion (DC 19), deep slumber (DC 19),
-  neutralize poison, sending, dryads only, suggestion (DC 19), tree stride
-- 1/day: call lightning storm (DC 21), changestaff, greater heroism, heal, liveoak, summon nature's
-  ally VIII
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 23, Con 23, Int 18, Wis 19, Cha 22
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 28
-
-**Feats:** Alertness, Combat Casting, Dodge, Great Fortitude, Improved Iron Will, Iron Will, Mounted
-Combat, Stealthy, Toughness, Weapon Finesse
-
-**Skills:** Bluff +29, Climb +14, Sense Motive +19, Spellcraft +14, Stealth +19, Survival +14
-
-**Racial Modifiers:** +8 Craft (wood)
-
-**Languages:** Common, Elven, Sylvan; _speak with animals, speak with plants, tongues_
-
-**Special qualities:** druid magic, tree meld, [wild empathy](ref/ability/wild-empathy), woodcraft
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** retinue (1 plus 2-5 [dryads](ref/monster/dryad)) or court (1 plus 2-12
-[centaurs](ref/monster/centaur), 2-12 dryads, 2-8 [satyrs](ref/monster/satyr), and 1-2
-[treants](ref/monster/treant))
-
-**Treasure:** Triple (+2 speed cl20+5, mwk dagger); other treasure
+::: statblock
+Environment: temperate forests
+Organization: retinue (1 plus 2-5 [dryads](ref/monster/dryad)) or court (1 plus 2-12 [centaurs](ref/monster/centaur), 2-12 dryads, 2-8 [satyrs](ref/monster/satyr), and 1-2 [treants](ref/monster/treant))
+Treasure: Triple (+2 speed cl20+5, mwk dagger); other treasure
+:::
 
 ### Special Abilities
 

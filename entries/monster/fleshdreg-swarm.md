@@ -31,81 +31,63 @@ abilities = ["2", "13", "15", "2", "11", "2"]
 _Hundreds of wads of squirming flesh with flailing appendages move together in a cluster of teeth
 and claws._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+Initiative: +5
+Alignment: Neutral evil
+Perception: +5
+Senses: Darkvision 60 ft., Sin-scent
+Subtype: Swarm
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 14
+AC modifiers: +1 Dex, +2 natural, +2 size
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +4
+Will: +3
+Defensive abilities: swarm traits
+Immune: mind-affecting effects
+Sr: 13
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., climb 10 ft.
+Distraction: 13
+Melee: swarm (1d6 plus distraction)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft., Sin-scent
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 2, Dex 13, Con 15, Int 2, Wis 11, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Perception +5, Stealth +13
+Special qualities: arcane bite
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +2 natural, +2 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +3
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 30 ft., climb 10 ft.
-
-**Distraction:** 13
-
-**Melee:** swarm (1d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 13, Con 15, Int 2, Wis 11, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Perception +5, Stealth +13
-
-**Special qualities:** arcane bite
-
-**Ecology**
-
-**Environment:** any ruins
-
-**Organization:** solitary, pair, or infestation (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any ruins
+Organization: solitary, pair, or infestation (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

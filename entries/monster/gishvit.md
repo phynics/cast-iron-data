@@ -32,85 +32,67 @@ abilities = ["6", "15", "9", "11", "10", "14"]
 _A set of insectile legs emerges from this book, sharp teeth ring the tome's edges, and a ribbon
 bookmark protrudes menacingly from its open pages._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +6
+Alignment: Lawful neutral
+Type: outsider
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Lawful
+Size: tiny
+Experience points: 200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d10-1)
+Fort: -1
+Ref: +4
+Will: +2
+Weaknesses: vulnerable to _[erase](ref/spell/erase)_
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite +1 (1d4-2), ribbon +3 touch ([grab](ref/umr/grab))
+Reach: 0
+Reach P: 10 ft. with ribbon
+Space: 2-1/2
+Spec Att: overwhelm, ribbon
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Lawful
-
-**Size:** tiny
-
-**Experience points:** 200
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d10-1)
-
-**Fort:** -1
-
-**Ref:** +4
-
-**Will:** +2
-
-**Weaknesses:** vulnerable to _[erase](ref/spell/erase)_
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite +1 (1d4-2), ribbon +3 touch ([grab](ref/umr/grab))
-
-**Reach:** 0
-
-**Reach P:** 10 ft. with ribbon
-
-**Space:** 2-1/2
-
-**Spec Att:** overwhelm, ribbon
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 9, Int 11, Wis 10, Cha 14
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1 (+3 grapple, +11 when maintaining grapple with ribbon)
-
-**Combat maneuver defense:** 9 (11 vs. grapple, 17 vs. trip)
-
-**Feats:** Improved Grapple^B^, Improved Initiative
-
-**Skills:** Climb +10, Knowledge (arcana, history) +4, Perception +4, Sense Motive +4
-
-**Languages:** _truespeech_ (can't speak)
-
-**Special qualities:** transcription
+::: statblock
+Ability scores: Str 6, Dex 15, Con 9, Int 11, Wis 10, Cha 14
+Base attack bonus: +1
+Combat maneuver bonus: +1 (+3 grapple, +11 when maintaining grapple with ribbon)
+Combat maneuver defense: 9 (11 vs. grapple, 17 vs. trip)
+Feats: Improved Grapple^B^, Improved Initiative
+Skills: Climb +10, Knowledge (arcana, history) +4, Perception +4, Sense Motive +4
+Languages: _truespeech_ (can't speak)
+Special qualities: transcription
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or curation (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary, pair, or curation (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

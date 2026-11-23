@@ -32,96 +32,71 @@ abilities = ["39", "14", "23", "16", "20", "15"]
 _This giant is a towering, muscular human of heroic proportions, with bronze skin, dark hair, and
 sparkling green eyes._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic good
+Size: huge
+Type: humanoid
+Initiative: +2
+Perception: +27
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 28
+Touch: 10
+Flat-footed: 26
+AC modifiers: +6 armor, +2 Dex, +12 natural, -2 size
+Hit points: 199 (19d8+114)
+Fort: +17
+Ref: +8
+Will: +13
+Immune: electricity
+Rock Ct: present
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 50 ft., swim 40 ft., swim (35 ft., swim 30 ft. in armor)
+Melee: mwk greatsword +27/+22/+17 (4d6+21/17-20) or 2 slams +26 (2d6+14)
+Ranged: mwk composite longbow +15/+10/+5 (3d6+14/×3)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Constant: freedom of movement
+Per day: 2/day: control weather, levitate\
+1/day: call lightning (DC 15), chain lightning (DC 18)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 39, Dex 14, Con 23, Int 16, Wis 20, Cha 15
+Base attack bonus: +14
+Combat maneuver bonus: +30
+Combat maneuver defense: 42
+Feats: Awesome Blow, Cleave, Combat Reflexes, Improved Bull Rush, Improved Critical (greatsword), Improved Sunder, Improved Vital Strike, Iron Will, Power Attack, Vital Strike
+Skills: Acrobatics +18, Climb +17
+Languages: Auran, Common, Draconic, Giant
+Special qualities: militant, water breathing
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +6 armor, +2 Dex, +12 natural, -2 size
-
-**Hit points:** 199 (19d8+114)
-
-**Fort:** +17
-
-**Ref:** +8
-
-**Will:** +13
-
-**Immune:** electricity
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 50 ft., swim 40 ft., swim (35 ft., swim 30 ft. in armor)
-
-**Melee:** mwk greatsword +27/+22/+17 (4d6+21/17-20) or 2 slams +26 (2d6+14)
-
-**Ranged:** mwk composite longbow +15/+10/+5 (3d6+14/×3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Constant:**
-
-- freedom of movement
-
-**Per day:**
-
-- 2/day: control weather, levitate
-- 1/day: call lightning (DC 15), chain lightning (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 39, Dex 14, Con 23, Int 16, Wis 20, Cha 15
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 42
-
-**Feats:** Awesome Blow, Cleave, Combat Reflexes, Improved Bull Rush, Improved Critical
-(greatsword), Improved Sunder, Improved Vital Strike, Iron Will, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +18, Climb +17
-
-**Languages:** Auran, Common, Draconic, Giant
-
-**Special qualities:** militant, water breathing
-
-**Ecology**
-
-**Environment:** any warm
-
-**Organization:** solitary or family (2-5 plus 1 sorcerer or cleric of 7th-10th level, 1-2
-[rocs](ref/monster/roc), 2-6 [griffons](ref/monster/griffon), and 2-8 [sharks](ref/monster/shark))
-
-**Treasure:** Standard (mwk breastplate, mwk cl20+14, mwk greatsword); other treasure
+::: statblock
+Environment: any warm
+Organization: solitary or family (2-5 plus 1 sorcerer or cleric of 7th-10th level, 1-2 [rocs](ref/monster/roc), 2-6 [griffons](ref/monster/griffon), and 2-8 [sharks](ref/monster/shark))
+Treasure: Standard (mwk breastplate, mwk cl20+14, mwk greatsword); other treasure
+:::
 
 ### Special Abilities
 

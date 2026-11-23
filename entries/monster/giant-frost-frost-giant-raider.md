@@ -30,65 +30,48 @@ special_qualities = "fast movement"
 abilities = ["39", "11", "28", "10", "16", "8"]
 +++
 
-**Challenge rating:** 11
-
 **[Frost giant](ref/monster/giant-frost-frost-giant) [barbarian](ref/class/barbarian) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +0
+Size: large
+Perception: +22
+Senses: Low-light vision
+Subtype: Cold, Giant
+Experience points: 12,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 23
+Touch: 8
+Flat-footed: 23
+AC modifiers: +5 armor, +1 deflection, +10 natural, -2 rage, -1 size
+Hit points: 227 (14d8+2d12+146\~16)
+Fort: +22
+Ref: +5
+Will: +10
+Immune: cold
+Rock Ct: present
+Uncanny dodge: present
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +22
-
-**Senses:** Low-light vision
-
-**Subtype:** Cold, Giant
-
-**Experience points:** 12,800
-
-**Armor class:** 23
-
-**Touch:** 8
-
-**Flat-footed:** 23
-
-**AC modifiers:** +5 armor, +1 deflection, +10 natural, -2 rage, -1 size
-
-**Hit points:** 227 (14d8+2d12+146\~16)
-
-**Fort:** +22
-
-**Ref:** +5
-
-**Will:** +10
-
-**Immune:** cold
-
-**Rock Ct:** present
-
-**Uncanny dodge:** present
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** +1 greataxe +27/+22/+17 (3d6+22/×3)
-
-**Ranged:** rock +11 (1d8+21)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** rage (13 rounds/day), rage powers ([knockback](ref/ragepower/knockback))
+::: statblock
+Speed: 50 ft.
+Melee: +1 greataxe +27/+22/+17 (3d6+22/×3)
+Ranged: rock +11 (1d8+21)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: rage (13 rounds/day), rage powers ([knockback](ref/ragepower/knockback))
+:::
 
 ### Tactics
 
@@ -99,35 +82,27 @@ her intimidated targets on the defensive.
 flat-footed 25; hp 195; Fort +20, Will +8; +1 greataxe +25/+20/+15 (3d6+19/×3); rock +11 (1d8+18);
 Str 35, Con 24; CMB +25, CMD 36; Skills Climb +18, Intimidate +30.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 39, Dex 11, Con 28, Int 10, Wis 16, Cha 8
+::: statblock
+Ability scores: Str 39, Dex 11, Con 28, Int 10, Wis 16, Cha 8
+Base attack bonus: +12
+Combat maneuver bonus: +27 (+29 bull rush)
+Combat maneuver defense: 36 (38 vs. bull rush)
+Feats: Cleave, Dazzling Display, Great Cleave, Improved Bull Rush, Intimidating Prowess, Power Attack, Shatter Defenses, Weapon Focus (greataxe)
+Skills: Climb +20, Intimidate +32, Perception +22, Stealth -5 (-1 in snow)
+Racial Modifiers: +4 Stealth in snow
+Languages: Common, Giant
+Special qualities: fast movement
+Combat gear: 2 potion of cure serious wounds, potion of displacement, potion of protection from arrows, potion of protection from energy (fire), 5 alchemist's fire
+Other gear: +1 chain shirt, +1 greataxe, Iamu1, Ibogs2, Iclk1, ring of prot1, 380 gp
+:::
 
-**Base attack bonus:** +12
+### Ecology
 
-**Combat maneuver bonus:** +27 (+29 bull rush)
-
-**Combat maneuver defense:** 36 (38 vs. bull rush)
-
-**Feats:** Cleave, Dazzling Display, Great Cleave, Improved Bull Rush, Intimidating Prowess, Power
-Attack, Shatter Defenses, Weapon Focus (greataxe)
-
-**Skills:** Climb +20, Intimidate +32, Perception +22, Stealth -5 (-1 in snow)
-
-**Racial Modifiers:** +4 Stealth in snow
-
-**Languages:** Common, Giant
-
-**Special qualities:** fast movement
-
-**Combat gear:** 2 potion of cure serious wounds, potion of displacement, potion of protection from
-arrows, potion of protection from energy (fire), 5 alchemist's fire
-
-**Other gear:** +1 chain shirt, +1 greataxe, Iamu1, Ibogs2, Iclk1, ring of prot1, 380 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

@@ -30,71 +30,58 @@ abilities = ["27", "12", "-", "-", "11", "1"]
 _A vaguely humanoid shape made of metal lurches to life with the grinding whir and frantic ticking
 of hundreds of gears._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: construct
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 26
+Touch: 10
+Flat-footed: 25
+AC modifiers: +1 Dex, +16 natural, -1 size
+Hit points: 118 (16d10+30)
+Fort: +5
+Ref: +6
+Will: +5
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +23 (2d10+8 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: death burst, grind, wall of gears
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 27, Dex 12, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +16
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 36
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 10
-
-**Flat-footed:** 25
-
-**AC modifiers:** +1 Dex, +16 natural, -1 size
-
-**Hit points:** 118 (16d10+30)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +5
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +23 (2d10+8 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** death burst, grind, wall of gears
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 12, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 36
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

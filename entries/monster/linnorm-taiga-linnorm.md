@@ -30,89 +30,66 @@ abilities = ["43", "25", "30", "6", "23", "28"]
 _With menacing black horns jutting from its head, this two-legged dragon is covered in dark green
 scales and vicious black barbs._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Alignment: Chaotic evil
+Size: colossal
+Type: dragon
+Initiative: +11
+Perception: +30
+Senses: Darkvision 60 ft., Low-light vision, Scent, True seeing
+Experience points: 204,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 34
+Touch: 9
+Flat-footed: 27
+AC modifiers: +7 Dex, +25 natural, -8 size
+Hit points: 346 (21d12+210)
+Fort: +22
+Ref: +21
+Will: +18
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, spines
+Dr: 15/cold iron
+Immune: curse effects, electricity, mind-affecting effects, paralysis, poison, sleep
+Regen: 15 (cold iron)
+Sr: 30
+:::
 
-**Type:** dragon
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 40 ft., swim 60 ft., fly 100 ft. (average)
+Constrict: tail, 3d6+24
+Melee: bite +29 (3d8+16/19-20 plus poison), 2 claws +29 (2d6+16), tail +24 (3d6+8 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 30
+Spec Att: breath weapon, death curse
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
+::: statblock
+Ability scores: Str 43, Dex 25, Con 30, Int 6, Wis 23, Cha 28
+Base attack bonus: +21
+Combat maneuver bonus: +45 (+49 grapple)
+Combat maneuver defense: 62 (can't be tripped)
+Feats: Awesome Blow, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Fly +23
+Racial Modifiers: +8 Stealth in forests
+Languages: Aklo, Draconic, Sylvan
+:::
 
-**Experience points:** 204,800
+### Ecology
 
-**Armor class:** 34
-
-**Touch:** 9
-
-**Flat-footed:** 27
-
-**AC modifiers:** +7 Dex, +25 natural, -8 size
-
-**Hit points:** 346 (21d12+210)
-
-**Fort:** +22
-
-**Ref:** +21
-
-**Will:** +18
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, spines
-
-**Dr:** 15/cold iron
-
-**Immune:** curse effects, electricity, mind-affecting effects, paralysis, poison, sleep
-
-**Regen:** 15 (cold iron)
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 40 ft., swim 60 ft., fly 100 ft. (average)
-
-**Constrict:** tail, 3d6+24
-
-**Melee:** bite +29 (3d8+16/19-20 plus poison), 2 claws +29 (2d6+16), tail +24 (3d6+8 plus
-[grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** breath weapon, death curse
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 25, Con 30, Int 6, Wis 23, Cha 28
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +45 (+49 grapple)
-
-**Combat maneuver defense:** 62 (can't be tripped)
-
-**Feats:** Awesome Blow, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush,
-Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Fly +23
-
-**Racial Modifiers:** +8 Stealth in forests
-
-**Languages:** Aklo, Draconic, Sylvan
-
-**Ecology**
-
-**Environment:** cold forests
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: cold forests
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

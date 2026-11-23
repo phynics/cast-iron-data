@@ -30,96 +30,70 @@ abilities = ["22", "21", "18", "5", "19", "12"]
 _Twisting vines and vibrant flowers grow from the back of this titanic, multicolored reptile. A
 sickly-sweet scent fills the swirling air around it._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: deleriant aura (50 ft.)
+blindsense: 30
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +9
+Type: Magical beast
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 25,600
+:::
 
-**aura:** deleriant aura (50 ft.)
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 27
+Touch: 13
+Flat-footed: 22
+AC modifiers: +5 Dex, +14 natural, -2 size
+Hit points: 171 (18d10+72)
+Fort: +15
+Ref: +16
+Will: +12
+Defensive abilities: all-around vision, displacement
+Evasion: present
+Immune: illusions
+Uncanny dodge: present
+Vulner: cold
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +22 (2d6+6), 2 claws +22 (1d8+6), tail slap +17 (2d6+3) or tongue +22
+Pull: tongue, 10 ft.
+Reach: 10
+Reach P: 25 ft. with tongue
+Space: 15
+Spec Att: tongue
+Swallow: 3d6+6, AC 17, hp 17
+:::
 
-**Initiative:** +9
+### Statistics
 
-**Type:** Magical beast
+::: statblock
+Ability scores: Str 22, Dex 21, Con 18, Int 5, Wis 19, Cha 12
+Base attack bonus: +18
+Combat maneuver bonus: +26
+Combat maneuver defense: 41 (45 vs. trip)
+Feats: Combat Reflexes, Critical Focus, Endurance, Improved Initiative, Iron Will, Run, Skill Focus (Perception), Skill Focus (Stealth), Staggering Critical
+Skills: Climb +23, Perception +16, Stealth +21
+Racial Modifiers: +12 Stealth
+Languages: Sylvan (can't speak)
+:::
 
-**Perception:** +16
+### Ecology
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 25,600
-
-**Armor class:** 27
-
-**Touch:** 13
-
-**Flat-footed:** 22
-
-**AC modifiers:** +5 Dex, +14 natural, -2 size
-
-**Hit points:** 171 (18d10+72)
-
-**Fort:** +15
-
-**Ref:** +16
-
-**Will:** +12
-
-**Defensive abilities:** all-around vision, displacement
-
-**Evasion:** present
-
-**Immune:** illusions
-
-**Uncanny dodge:** present
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +22 (2d6+6), 2 claws +22 (1d8+6), tail slap +17 (2d6+3) or tongue +22
-
-**Pull:** tongue, 10 ft.
-
-**Reach:** 10
-
-**Reach P:** 25 ft. with tongue
-
-**Space:** 15
-
-**Spec Att:** tongue
-
-**Swallow:** 3d6+6, AC 17, hp 17
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 21, Con 18, Int 5, Wis 19, Cha 12
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 41 (45 vs. trip)
-
-**Feats:** Combat Reflexes, Critical Focus, Endurance, Improved Initiative, Iron Will, Run, Skill
-Focus (Perception), Skill Focus (Stealth), Staggering Critical
-
-**Skills:** Climb +23, Perception +16, Stealth +21
-
-**Racial Modifiers:** +12 Stealth
-
-**Languages:** Sylvan (can't speak)
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: any forest
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -32,102 +32,75 @@ abilities = ["3", "13", "11", "10", "14", "6"]
 _As if the world's most revolting lapdog had somehow learned to walk on its back legs, this sickly
 creature slinks forward carefully._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+aura: unluck (20 ft.)
+Type: fey
+Initiative: +5
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 120 ft., Low-light vision
+Size: tiny
+Experience points: 200
+:::
 
-**aura:** unluck (20 ft.)
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 6 (1d6+3)
+Fort: +0
+Ref: +3
+Will: +4
+Dr: 2/cold iron
+Sr: 7
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: dagger +3 (1d2-4/19-20)
+Ranged: shortbow +3 (1d3-4/×3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Perception:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: -1
+At will: prestidigitation, speak with animals
+Per day: 1/day: shatter (DC 10)
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
-
-**Experience points:** 200
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 6 (1d6+3)
-
-**Fort:** +0
-
-**Ref:** +3
-
-**Will:** +4
-
-**Dr:** 2/cold iron
-
-**Sr:** 7
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +3 (1d2-4/19-20)
-
-**Ranged:** shortbow +3 (1d3-4/×3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** -1
-
-**At will:**
-
-- prestidigitation, speak with animals
-
-**Per day:**
-
-- 1/day: shatter (DC 10)
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 13, Con 11, Int 10, Wis 14, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5
-
-**Feats:** Improved Initiative, Toughness^B^, Weapon Finesse^B^
-
-**Skills:** Bluff +2, Craft (traps) +4, Disable Device +2, Perception +6 (+2 to listen), Ride +2,
-Stealth +17
-
-**Racial Modifiers:** +4 Stealth, -4 Perception when listening
-
-**Languages:** Gnoll, Undercommon
+::: statblock
+Ability scores: Str 3, Dex 13, Con 11, Int 10, Wis 14, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5
+Feats: Improved Initiative, Toughness^B^, Weapon Finesse^B^
+Skills: Bluff +2, Craft (traps) +4, Disable Device +2, Perception +6 (+2 to listen), Ride +2, Stealth +17
+Racial Modifiers: +4 Stealth, -4 Perception when listening
+Languages: Gnoll, Undercommon
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm hills
-
-**Organization:** solitary, pair, mob (3-12), or infestation (13-20 with 1-3 druids of 1st-3rd
-level, 1 fighter leader of 2nd-4th level, 2-8 trained [stirges](ref/monster/stirge), and 2-5 trained
-[baboons](ref/monster/baboon))
-
-**Treasure:** Standard (dagger, sb20); other treasure
+::: statblock
+Environment: warm hills
+Organization: solitary, pair, mob (3-12), or infestation (13-20 with 1-3 druids of 1st-3rd level, 1 fighter leader of 2nd-4th level, 2-8 trained [stirges](ref/monster/stirge), and 2-5 trained [baboons](ref/monster/baboon))
+Treasure: Standard (dagger, sb20); other treasure
+:::
 
 ### Special Abilities
 

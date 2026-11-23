@@ -32,111 +32,80 @@ abilities = ["19", "16", "19", "10", "14", "11"]
 
 _Holding a massive battleaxe and shield, this tall, helmed warrior is grim and fierce._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic neutral
+Initiative: +7
+Size: medium
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft., Deathwatch
+Subtype: Extraplanar
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 24
+Touch: 13
+Flat-footed: 21
+AC modifiers: +7 armor, +3 Dex, +4 shield
+Hit points: 123 (13d10+52)
+Fort: +12
+Ref: +11
+Will: +8
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/cold iron and lawful
+Fh: 5
+Immune: cold, disease, fear, poison
+Resist: acid 10, electricity 10, fire 10
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +2 battleaxe +19/+14/+9 (1d8+6/×3)
+Ranged: mwk throwing axe +17 (1d6+4)
+Spec Att: challenge of single combat
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +10
+Constant: deathwatch, freedom of movement
+At will: rage
+Per day: 3/day: divine power\
+1/day: heroes' feast
+:::
 
-**Senses:** Darkvision 60 ft., Deathwatch
+### Statistics
 
-**Subtype:** Extraplanar
-
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 13
-
-**Flat-footed:** 21
-
-**AC modifiers:** +7 armor, +3 Dex, +4 shield
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +8
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/cold iron and lawful
-
-**Fh:** 5
-
-**Immune:** cold, disease, fear, poison
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 battleaxe +19/+14/+9 (1d8+6/×3)
-
-**Ranged:** mwk throwing axe +17 (1d6+4)
-
-**Spec Att:** challenge of single combat
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +10
-
-**Constant:**
-
-- deathwatch, freedom of movement
-
-**At will:**
-
-- rage
-
-**Per day:**
-
-- 3/day: divine power
-- 1/day: heroes' feast
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 16, Con 19, Int 10, Wis 14, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 30
-
-**Feats:** Combat Reflexes, Improved Initiative, Improved Iron Will^B^, Iron Will, Power Attack,
-Stand Still, Step Up, Strike Back
-
-**Skills:** Intimidate +16, Knowledge (engineering) +16, Perception +18
-
-**Languages:** Celestial, Common
-
-**Special qualities:** battle-trained, thirst for battle
+::: statblock
+Ability scores: Str 19, Dex 16, Con 19, Int 10, Wis 14, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +17
+Combat maneuver defense: 30
+Feats: Combat Reflexes, Improved Initiative, Improved Iron Will^B^, Iron Will, Power Attack, Stand Still, Step Up, Strike Back
+Skills: Intimidate +16, Knowledge (engineering) +16, Perception +18
+Languages: Celestial, Common
+Special qualities: battle-trained, thirst for battle
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, squad (3-6), or warband (7-16)
-
-**Treasure:** Triple (+2 scale mail, +2 heavy wooden shield, +2 battleaxe, mwk -throwing axe)
+::: statblock
+Environment: any
+Organization: solitary, squad (3-6), or warband (7-16)
+Treasure: Triple (+2 scale mail, +2 heavy wooden shield, +2 battleaxe, mwk -throwing axe)
+:::
 
 ### Special Abilities
 

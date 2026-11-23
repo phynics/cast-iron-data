@@ -29,76 +29,59 @@ abilities = ["13", "10", "13", "10", "10", "9"]
 
 _This small, centaur-like ant creature bears a huge, bulging sack on its armored back._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+blindsense: 30
+Initiative: +0 (+4 with hive mind)
+Alignment: Lawful neutral
+Type: Monstrous humanoid
+Perception: +4 (+8 with hive mind)
+Senses: Darkvision 60 ft., Hive mind
+Size: small
+Experience points: 200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** +0 (+4 with hive mind)
+::: statblock
+Armor class: 12
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 natural, +1 size
+Hit points: 6 (1d10+1)
+Fort: +1
+Ref: +2
+Will: +2
+Resist: sonic 10
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft., burrow 10 ft.
+Melee: bite +3 (1d6+1)
+:::
 
-**Perception:** +4 (+8 with hive mind)
+### Statistics
 
-**Senses:** Darkvision 60 ft., Hive mind
+::: statblock
+Ability scores: Str 13, Dex 10, Con 13, Int 10, Wis 10, Cha 9
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 11 (15 vs. trip)
+Feats: Skill Focus (Profession \[miner\])
+Skills: Climb +5, Knowledge (engineering) +4, Perception +4 (+8 with hive mind), Profession (miner) +7
+Languages: Common, telepathy 60 ft.
+Special qualities: able assistant, formian traits, peerless bearer
+:::
 
-**Size:** small
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 12
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 natural, +1 size
-
-**Hit points:** 6 (1d10+1)
-
-**Fort:** +1
-
-**Ref:** +2
-
-**Will:** +2
-
-**Resist:** sonic 10
-
-**Offense**
-
-**Speed:** 40 ft., burrow 10 ft.
-
-**Melee:** bite +3 (1d6+1)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 10, Con 13, Int 10, Wis 10, Cha 9
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 11 (15 vs. trip)
-
-**Feats:** Skill Focus (Profession \[miner\])
-
-**Skills:** Climb +5, Knowledge (engineering) +4, Perception +4 (+8 with hive mind), Profession
-(miner) +7
-
-**Languages:** Common, telepathy 60 ft.
-
-**Special qualities:** able assistant, formian traits, peerless bearer
-
-**Ecology**
-
-**Environment:** warm or temperate land or underground
-
-**Organization:** solitary, work crew (6-12 plus 1
-[taskmaster](ref/monster/formian-formian-taskmaster)), band (3-15 plus 5-8
-[warriors](ref/monster/formian-formian-warrior) and 1 taskmaster)
-
-**Treasure:** Incidental; occasionally a 10-50 gp gem embedded into a worker's carapace
+::: statblock
+Environment: warm or temperate land or underground
+Organization: solitary, work crew (6-12 plus 1 [taskmaster](ref/monster/formian-formian-taskmaster)), band (3-15 plus 5-8 [warriors](ref/monster/formian-formian-warrior) and 1 taskmaster)
+Treasure: Incidental; occasionally a 10-50 gp gem embedded into a worker's carapace
+:::
 
 ### Special Abilities
 

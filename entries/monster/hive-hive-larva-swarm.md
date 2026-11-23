@@ -31,80 +31,62 @@ abilities = ["1", "15", "16", "-", "10", "1"]
 
 _This mass of writhing, maggot-like creatures secretes a caustic odor._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+blindsense: 60
+blindsight: 10
+Size: fine
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Hive mind
+Subtype: Hive, Swarm
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 Size
+Hit points: 52 (7d8+21)
+Fort: +5
+Ref: +4
+Will: +5
+Defensive abilities: corrosive blood (1d4), heat adaptability, swarm traits
+Immune: acid, mind-affecting effects, weapon damage
+:::
 
-**blindsight:** 10
+### Offense
 
-**Size:** fine
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Melee: swarm (2d6 plus distraction and poison)
+Reach: 10
+Space: 10
+Spec Att: death throes (7d6, DC 16), infest, poison
+:::
 
-**Initiative:** +2
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 1, Dex 15, Con 16, Int -, Wis 10, Cha 1
+Base attack bonus: +5
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Special qualities: blind
+:::
 
-**Perception:** +0
+### Ecology
 
-**Senses:** Hive mind
-
-**Subtype:** Hive, Swarm
-
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 Size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +5
-
-**Defensive abilities:** corrosive blood (1d4), heat adaptability, swarm traits
-
-**Immune:** acid, mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Melee:** swarm (2d6 plus distraction and poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** death throes (7d6, DC 16), infest, poison
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 16, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Special qualities:** blind
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or hive (1-20 plus 1-50 hive workers and
-[warriors](ref/monster/hive-hive-warrior) and 1 [queen](ref/monster/hive-hive-queen))
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or hive (1-20 plus 1-50 hive workers and [warriors](ref/monster/hive-hive-warrior) and 1 [queen](ref/monster/hive-hive-queen))
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

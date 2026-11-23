@@ -27,65 +27,55 @@ abilities = ["18", "16", "14", "2", "11", "4"]
 
 _This somewhat irritated-looking, one-humped camel has been outfitted with a bridle and saddle._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 10
+AC modifiers: +3 Dex, +1 natural, -1 size
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +6
+Will: +0
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +4 (1d4+6)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 18, Dex 16, Con 14, Int 2, Wis 11, Cha 4
+Base attack bonus: +1
+Combat maneuver bonus: +6
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Endurance
+Skills: Perception +5
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex, +1 natural, -1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +4 (1d4+6)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con 14, Int 2, Wis 11, Cha 4
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Endurance
-
-**Skills:** Perception +5
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

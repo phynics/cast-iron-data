@@ -29,80 +29,62 @@ abilities = ["31", "26", "18", "1", "12", "6"]
 _This plant is covered with dozens of clear tendrils, each tipped with a glistening red bulb.
 Whip-like fronds unfurl from the center._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: huge
+Initiative: +12
+Alignment: Neutral
+Perception: +28
+Senses: Low-light vision
+Type: plant
+tremorsense: 60
+Experience points: 19,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +12
+::: statblock
+Armor class: 27
+Touch: 17
+Flat-footed: 18
+AC modifiers: +8 Dex, +1 dodge, +10 natural, -2 size
+Hit points: 153 (18d8+72)
+Fort: +15
+Ref: +16
+Will: +9
+Defensive abilities: stupefaction pollen
+Dr: 10/slashing
+Immune: acid, [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +28
+::: statblock
+Speed: 20 ft.
+Constrict: 2d6+10 plus 1d6 acid
+Melee: 2 slams +21 (2d6+10/19-20 plus 1d6 acid and adhesive)
+Reach: 15
+Space: 15
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 31, Dex 26, Con 18, Int 1, Wis 12, Cha 6
+Base attack bonus: +13
+Combat maneuver bonus: +25
+Combat maneuver defense: 44
+Feats: Combat Reflexes, Dodge, Improved Critical (slam), Improved Initiative, Iron Will, Lightning Reflexes, Lunge, Power Attack, Skill Focus (Perception)
+Skills: Perception +28
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +8 Dex, +1 dodge, +10 natural, -2 size
-
-**Hit points:** 153 (18d8+72)
-
-**Fort:** +15
-
-**Ref:** +16
-
-**Will:** +9
-
-**Defensive abilities:** stupefaction pollen
-
-**Dr:** 10/slashing
-
-**Immune:** acid, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Constrict:** 2d6+10 plus 1d6 acid
-
-**Melee:** 2 slams +21 (2d6+10/19-20 plus 1d6 acid and adhesive)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 26, Con 18, Int 1, Wis 12, Cha 6
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 44
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (slam), Improved Initiative, Iron Will,
-Lightning Reflexes, Lunge, Power Attack, Skill Focus (Perception)
-
-**Skills:** Perception +28
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, pair, or grove (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate swamps
+Organization: solitary, pair, or grove (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

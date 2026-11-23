@@ -30,105 +30,75 @@ abilities = ["27", "15", "22", "12", "17", "18"]
 _This sleek, three-headed dragon rears up on its hind legs, wings spread and flames licking out from
 behind three sets of fangs._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Type: dragon
+Size: huge
+Initiative: +2
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 28
+Touch: 10
+Flat-footed: 26
+AC modifiers: +2 Dex, +18 natural, -2 size
+Hit points: 212 (17d12+102)
+Fort: +16
+Ref: +14
+Will: +15
+Dr: 10/lawful
+Immune: fire, paralysis, poison, sleep
+Regen: 5 (acid)
+Sr: 26
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 30 ft., swim 50 ft., fly 100 ft. (poor)
+Br Weap: 40-ft. cone, 5d6 fire, Reflex DC 24 for half, usable every 1d4 rounds
+Melee: 3 bites +24 (2d8+8), 2 claws +23 (1d8+8)
+Reach: 10
+Reach P: 20 ft. with bite
+Space: 15
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +19
+Constant: true seeing
+At will: charm person (DC 15), dancing lights, message
+Per day: 3/day: alter self, bestow curse (DC 18), greater dispel magic\
+1/day: lesser geas (DC 18), limited wish, mislead (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Experience points:** 51,200
+::: statblock
+Ability scores: Str 27, Dex 15, Con 22, Int 12, Wis 17, Cha 18
+Base attack bonus: +17
+Combat maneuver bonus: +27
+Combat maneuver defense: 39
+Feats: Awesome Blow, Combat Reflexes, Flyby Attack, Improved Bull Rush, Iron Will, Lightning Reflexes, Power Attack, Stand Still, Weapon Focus (bite)
+Skills: Bluff +17, Diplomacy +17, Fly +7
+Languages: Common, Draconic, Sylvan
+Special qualities: multi-headed
+:::
 
-**Armor class:** 28
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +2 Dex, +18 natural, -2 size
-
-**Hit points:** 212 (17d12+102)
-
-**Fort:** +16
-
-**Ref:** +14
-
-**Will:** +15
-
-**Dr:** 10/lawful
-
-**Immune:** fire, paralysis, poison, sleep
-
-**Regen:** 5 (acid)
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft., fly 100 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 5d6 fire, Reflex DC 24 for half, usable every 1d4 rounds
-
-**Melee:** 3 bites +24 (2d8+8), 2 claws +23 (1d8+8)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +19
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- charm person (DC 15), dancing lights, message
-
-**Per day:**
-
-- 3/day: alter self, bestow curse (DC 18), greater dispel magic
-- 1/day: lesser geas (DC 18), limited wish, mislead (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 15, Con 22, Int 12, Wis 17, Cha 18
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 39
-
-**Feats:** Awesome Blow, Combat Reflexes, Flyby Attack, Improved Bull Rush, Iron Will, Lightning
-Reflexes, Power Attack, Stand Still, Weapon Focus (bite)
-
-**Skills:** Bluff +17, Diplomacy +17, Fly +7
-
-**Languages:** Common, Draconic, Sylvan
-
-**Special qualities:** multi-headed
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

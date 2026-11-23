@@ -30,73 +30,59 @@ abilities = ["18", "13", "14", "2", "13", "7"]
 _This large bird has gray-and-white feathers, a long beak, and a bulbous sac on its throat that
 glows with a pale, sapphire light._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +1 Dex, +1 dodge, +4 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +5
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 20 ft. (average)
+Melee: bite +6 (1d8+6 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Swallow: 1d6 acid damage, AC 12, 3 hp
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 13, Con 14, Int 2, Wis 13, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Dodge, Flyby Attack, Hover
+Skills: Acrobatics +5, Fly +3
+Special qualities: throat sack
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +1 dodge, +4 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (average)
-
-**Melee:** bite +6 (1d8+6 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Swallow:** 1d6 acid damage, AC 12, 3 hp
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 14, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Dodge, Flyby Attack, Hover
-
-**Skills:** Acrobatics +5, Fly +3
-
-**Special qualities:** throat sack
-
-**Ecology**
-
-**Environment:** temperate rivers and coasts
-
-**Organization:** solitary or flock (4-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate rivers and coasts
+Organization: solitary or flock (4-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,65 +31,55 @@ abilities = ["6", "11", "13", "2", "9", "8"]
 _This wide-faced animal looks like a small, plump bear with a flat black nose, small round eyes, and
 white-tufted ears._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +0
+Alignment: Neutral
+Perception: +3
+Senses: Low-light vision
+Size: small
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 11
+AC modifiers: +1 size
+Hit points: 5 (1d8+1)
+Fort: +5
+Ref: +2
+Will: -1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: 2 claws -1 (1d3-2)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 6, Dex 11, Con 13, Int 2, Wis 9, Cha 8
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 7 (11 vs. trip)
+Feats: Great Fortitude
+Skills: Climb +6, Perception +3
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** -1
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** 2 claws -1 (1d3-2)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 11, Con 13, Int 2, Wis 9, Cha 8
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 7 (11 vs. trip)
-
-**Feats:** Great Fortitude
-
-**Skills:** Climb +6, Perception +3
-
-**Ecology**
-
-**Environment:** temperate and warm forests
-
-**Organization:** solitary, pair, or group (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate and warm forests
+Organization: solitary, pair, or group (3-5)
+Treasure: None
+:::
 
 ### Description
 

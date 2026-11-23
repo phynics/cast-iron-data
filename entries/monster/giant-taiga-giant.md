@@ -35,94 +35,69 @@ abilities = ["31", "14", "22", "12", "17", "15"]
 _This muscular giant has dark gray skin and fiery red hair. Its lower jaw bears sharp fangs, and it
 wields a huge, primitive spear._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic neutral
+Size: huge
+Type: humanoid
+Initiative: +2
+Perception: +13
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 26
+Touch: 14
+Flat-footed: 24
+AC modifiers: +4 armor, +4 deflection, +2 Dex, +8 natural, -2 size
+Hit points: 157 (15d8+90)
+Fort: +15
+Ref: +9
+Will: +10
+Immune: enchantment and illusion spells
+Rock Ct: present
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 30 ft., (40 ft. without armor)
+Melee: spear +19/+14/+9 (3d6+15/×3) or 2 slams +19 (1d8+10)
+Ranged: rock +12 (2d6+15) or spear +11 (3d6+10/×3)
+Reach: 15
+Rock Th: 140 ft.
+Space: 15
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision
-
-**Subtype:** Giant
-
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 14
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 armor, +4 deflection, +2 Dex, +8 natural, -2 size
-
-**Hit points:** 157 (15d8+90)
-
-**Fort:** +15
-
-**Ref:** +9
-
-**Will:** +10
-
-**Immune:** enchantment and illusion spells
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 30 ft., (40 ft. without armor)
-
-**Melee:** spear +19/+14/+9 (3d6+15/×3) or 2 slams +19 (1d8+10)
-
-**Ranged:** rock +12 (2d6+15) or spear +11 (3d6+10/×3)
-
-**Reach:** 15
-
-**Rock Th:** 140 ft.
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 14, Con 22, Int 12, Wis 17, Cha 15
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 39
-
-**Feats:** Alertness, Cleave, Endurance, Iron Will, Lightning Reflexes, Power Attack,
-Self-Sufficient, Shot on the Run^B^, Vital Strike
-
-**Skills:** Climb +15, Knowledge (religion) +11, Perception +13
-
-**Racial Modifiers:** +6 Stealth in undergrowth
-
-**Languages:** Common, Giant
-
-**Special qualities:** spirit summoning
+::: statblock
+Ability scores: Str 31, Dex 14, Con 22, Int 12, Wis 17, Cha 15
+Base attack bonus: +11
+Combat maneuver bonus: +23
+Combat maneuver defense: 39
+Feats: Alertness, Cleave, Endurance, Iron Will, Lightning Reflexes, Power Attack, Self-Sufficient, Shot on the Run^B^, Vital Strike
+Skills: Climb +15, Knowledge (religion) +11, Perception +13
+Racial Modifiers: +6 Stealth in undergrowth
+Languages: Common, Giant
+Special qualities: spirit summoning
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** cold mountains or forests
-
-**Organization:** solitary, warband (2-7), or tribe (20-50 plus 30% noncombatants, 1 druid or oracle
-of 3rd-5th level, 2-4 barbarian or ranger hunters of 3rd-5th level, 1 chieftain barbarian or fighter
-of 4th-7th level, 2-6 [dire bears](ref/monster/bear-dire-bear-cave-bear), 2-6
-[dire tigers](ref/monster/tiger-dire-tiger-smilodon), and 8-12
-[stone giants](ref/monster/giant-stone-giant))
-
-**Treasure:** Standard (Ah, spear); other treasure
+::: statblock
+Environment: cold mountains or forests
+Organization: solitary, warband (2-7), or tribe (20-50 plus 30% noncombatants, 1 druid or oracle of 3rd-5th level, 2-4 barbarian or ranger hunters of 3rd-5th level, 1 chieftain barbarian or fighter of 4th-7th level, 2-6 [dire bears](ref/monster/bear-dire-bear-cave-bear), 2-6 [dire tigers](ref/monster/tiger-dire-tiger-smilodon), and 8-12 [stone giants](ref/monster/giant-stone-giant))
+Treasure: Standard (Ah, spear); other treasure
+:::
 
 ### Special Abilities
 

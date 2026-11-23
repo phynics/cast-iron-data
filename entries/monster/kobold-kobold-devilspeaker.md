@@ -32,99 +32,63 @@ abilities = ["4", "16", "10", "10", "16", "14"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 7
-
 **Kobold [cleric](ref/class/cleric) of [Asmodeus](ref/faith/asmodeus) 8**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 7
+Type: humanoid
+Initiative: +3
+Alignment: Lawful evil
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 3,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 21
+Touch: 14
+Flat-footed: 18
+AC modifiers: +4 armor, +3 Dex, +1 natural, +2 shield, +1 size
+Hit points: 47 (8d8+8)
+Fort: +6
+Ref: +5
+Will: +9
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +5
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Ch N En: 5/day, DC 16, 4d6
+Melee: mwk dagger +5/+0 (1d3-3/19-20)
+Ranged: dagger +10 (1d3-3/19-20)
+Spec Att: staff of order (4 rounds, 1/day)
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+At will: master's illusion, 8 rounds/day
+Per day: 6/day: copycat, 8 rounds, touch of law
+:::
 
-**Subtype:** Reptilian
-
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 armor, +3 Dex, +1 natural, +2 shield, +1 size
-
-**Hit points:** 47 (8d8+8)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +9
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** 5/day, DC 16, 4d6
-
-**Melee:** mwk dagger +5/+0 (1d3-3/19-20)
-
-**Ranged:** dagger +10 (1d3-3/19-20)
-
-**Spec Att:** staff of order (4 rounds, 1/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**At will:**
-
-- master's illusion, 8 rounds/day
-
-**Per day:**
-
-- 6/day: copycat, 8 rounds, touch of law
-
-**Prepared Spells**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**4th-level spells:**
-
-- aura of doom (DC 17), confusion^D^ (DC 17), cure critical wounds
-
-**3rd-level spells:**
-
-- animate dead, blindness/deafness (DC 16), deeper darkness, magic circle against chaos^D^, summon
-  monster III
-
-**2nd-level spells:**
-
-- death knell (DC 15), hold person (DC 15), invisibility^D^, lesser animate dead, protective
-  penumbra
-
-**1st-level spells:**
-
-- bane (DC 14), bless, disguise self^D^, moment of greatness, obscuring mist, sanctuary (DC 14)
-
-**Cantrips:**
-
-- bleed (DC 13), detect magic, guidance, mending
-
-**Domains:** Law, Trickery
+::: statblock
+title = "Prepared Spells"
+Caster level: 8
+Concentration: +11
+4th-level spells: aura of doom (DC 17), confusion^D^ (DC 17), cure critical wounds
+3rd-level spells: animate dead, blindness/deafness (DC 16), deeper darkness, magic circle against chaos^D^, summon monster III
+2nd-level spells: death knell (DC 15), hold person (DC 15), invisibility^D^, lesser animate dead, protective penumbra
+1st-level spells: bane (DC 14), bless, disguise self^D^, moment of greatness, obscuring mist, sanctuary (DC 14)
+Cantrips: bleed (DC 13), detect magic, guidance, mending
+Domains: Law, Trickery
+:::
 
 ###### D {#footnote-d}
 
@@ -139,34 +103,27 @@ animate dead, aura of doom, bless, cure critical wounds, deeper darkness, lesser
 summon monster III as well as using her wand of cure light wounds or channeling negative energy to
 heal undead.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 4, Dex 16, Con 10, Int 10, Wis 16, Cha 14
+::: statblock
+Ability scores: Str 4, Dex 16, Con 10, Int 10, Wis 16, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +2
+Combat maneuver defense: 15
+Feats: Channeled Shield Wall, Combat Casting, Selective Channeling, Toughness
+Skills: Craft (trapmaking) +2, Spellcraft +11, Stealth +18
+Racial Modifiers: +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)
+Languages: Draconic
+Special qualities: crafty
+Combat gear: I-feather token (whip), I-pearl of power/2nd level, Dcure light wounds
+Other gear: +1 studded leather armor, +1 light wooden shield, dagger, mwk dagger, various onyx gems worth 200 gp
+:::
 
-**Base attack bonus:** +6
+### Ecology
 
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15
-
-**Feats:** Channeled Shield Wall, Combat Casting, Selective Channeling, Toughness
-
-**Skills:** Craft (trapmaking) +2, Spellcraft +11, Stealth +18
-
-**Racial Modifiers:** +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)
-
-**Languages:** Draconic
-
-**Special qualities:** crafty
-
-**Combat gear:** I-feather token (whip), I-pearl of power/2nd level, Dcure light wounds
-
-**Other gear:** +1 studded leather armor, +1 light wooden shield, dagger, mwk dagger, various onyx
-gems worth 200 gp
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
+::: statblock
+Environment: temperate underground or deep forest
+:::
 
 ### Description
 

@@ -30,77 +30,61 @@ abilities = ["1", "15", "10", "-", "11", "2"]
 
 _Thousands upon thousands of locusts dance and drone in a dark and ravenous cloud._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Size: fine
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Type: vermin
+Experience points: 600
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 size
+Hit points: 18 (4d8)
+Fort: +4
+Ref: +3
+Will: +1
+Defensive abilities: swarm traits
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 10 ft., climb 10 ft., fly 30 ft. (average)
+Distraction: 12
+Melee: swarm (1d6)
+Reach: 0
+Space: 10
+Spec Att: devour, voracious (see [giant locust](ref/monster/locust-giant-locust))
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 15, Con 10, Int -, Wis 11, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +3
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 size
-
-**Hit points:** 18 (4d8)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +1
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., fly 30 ft. (average)
-
-**Distraction:** 12
-
-**Melee:** swarm (1d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** devour, voracious (see [giant locust](ref/monster/locust-giant-locust))
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 10, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +3
-
-**Ecology**
-
-**Environment:** temperate or warm deserts or plains
-
-**Organization:** solitary, pair, cloud (3-20), or plague (21-100 or more)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm deserts or plains
+Organization: solitary, pair, cloud (3-20), or plague (21-100 or more)
+Treasure: None
+:::
 
 ### Special Abilities
 

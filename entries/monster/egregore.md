@@ -30,115 +30,82 @@ abilities = ["22", "17", "18", "19", "20", "23"]
 _Within a swirl of light, a clump of brains wrapped in arcs of light pulses and throbs. The
 impression of an open eye floats before it._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+aura: [mental static](ref/umr/mental-static-aura) (30 ft., DC 22)
+Initiative: +7
+Size: large
+Lifesense: present
+Alignment: Neutral
+Perception: +21
+Senses: Darkvision 60 ft.
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [mental static](ref/umr/mental-static-aura) (30 ft., DC 22)
+::: statblock
+Armor class: 27
+Touch: 13
+Flat-footed: 23
+AC modifiers: +4 armor, +3 Dex, +1 dodge, +6 natural, +4 shield, -1 size
+Hit points: 123 (13d8+65)
+Fort: +10
+Ref: +9
+Will: +15
+Amorph: present
+Dr: 5/-
+Fh: 5
+Sr: 21
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., fly 40 ft. (perfect)
+Melee: 4 light tentacles +14 (1d8+6)
+Reach: 10
+Space: 10
+Spec Att: hypnotic oscillation, light tentacles
+:::
 
-**Lifesense:** present
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +19
+Constant: mage armor, mental barrier I
+At will: cure moderate wounds
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Psychic Magic"
+Caster level: 13
+Concentration: +19
+Power points: 24
+Psychoactive powers: heal, 6 PE, mass bear's endurance, 6 PE, mass bull's strength, 6 PE
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 22, Dex 17, Con 18, Int 19, Wis 20, Cha 23
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 30
+Feats: Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Toughness
+Skills: Bluff +19, Escape Artist +19, Fly +25, Intimidate +22, Knowledge (arcana) +20, Perception +21, Sense Motive +18, Spellcraft +20
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: cult mind, psychic conduit
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 armor, +3 Dex, +1 dodge, +6 natural, +4 shield, -1 size
-
-**Hit points:** 123 (13d8+65)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +15
-
-**Amorph:** present
-
-**Dr:** 5/-
-
-**Fh:** 5
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (perfect)
-
-**Melee:** 4 light tentacles +14 (1d8+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** hypnotic oscillation, light tentacles
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +19
-
-**Constant:**
-
-- mage armor, mental barrier I
-
-**At will:**
-
-- cure moderate wounds
-
-**Psychic Magic**
-
-**Caster level:** 13
-
-**Concentration:** +19
-
-**Power points:** 24
-
-**Psychoactive powers:**
-
-- heal, 6 PE, mass bear's endurance, 6 PE, mass bull's strength, 6 PE
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 17, Con 18, Int 19, Wis 20, Cha 23
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 30
-
-**Feats:** Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning
-Reflexes, Toughness
-
-**Skills:** Bluff +19, Escape Artist +19, Fly +25, Intimidate +22, Knowledge (arcana) +20,
-Perception +21, Sense Motive +18, Spellcraft +20
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** cult mind, psychic conduit
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** cult (1 plus 13-20 cultists)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: cult (1 plus 13-20 cultists)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

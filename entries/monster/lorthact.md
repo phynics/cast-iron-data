@@ -32,125 +32,79 @@ abilities = ["22", "33", "35", "30", "26", "37"]
 _This devilish humanoid has five horns growing out of his forehead that resemble a crown. He stands
 on stout cloven hooves._
 
-**Challenge rating:** 25
+::: statblock
+Challenge rating: 25
+aura: unholy aura
+Initiative: +11
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +43
+Senses: Darkvision 60 ft., True seeing
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 1,638,400
+:::
 
-**aura:** unholy aura
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 45
+Touch: 29
+Flat-footed: 33
+AC modifiers: +6 armor, +5 deflection, +11 Dex, +1 dodge, +2 luck, +10 natural
+Hit points: 560 (32d10+384)
+Fort: +26
+Ref: +31
+Will: +30
+Dr: 20/good and silver
+Evasion: present
+Immune: fire, poison
+Regen: 5 (good weapons or spells)
+Resist: acid 30, cold 30
+Sr: 36
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +44 (1d6+6 plus 1 Int drain) or +2 quarterstaff +40/+35/+30/+25 (1d6+11 plus 1 Intelligence drain)
+Spec Att: Intelligence drain, scholastic masquerade, spell reservoir
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 25
+Concentration: +38
+Constant: mind blank, tongues, true seeing
+At will: alter self, blasphemy (DC 30), dominate person (DC 28), freedom of movement, greater arcane sight, greater dispel magic, greater invisibility, greater scrying (DC 30), greater shadow conjuration (DC 30), greater shadow evocation (DC 31), greater teleport, mass suggestion (DC 29), programmed image (DC 29), unholy aura (DC 31)
+Per day: 3/day: banishment (DC 29), quickened greater dispel magic, empowered horrid wilting (DC 31), polymorph any object (DC 31), spell turning\
+1/day: dominate monster (DC 32), limited wish, mage's disjunction (DC 32), prismatic sphere, time stop
+:::
 
-**Perception:** +43
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 22, Dex 33, Con 35, Int 30, Wis 26, Cha 37
+Base attack bonus: +32
+Combat maneuver bonus: +38
+Combat maneuver defense: 65
+Feats: Deflect Arrows, Destructive Dispel, Dispel Synergy, Dodge, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (horrid wilting), Flyby Attack, Great Fortitude, Greater Spell Penetration, Improved Great Fortitude, Improved Unarmed Strike, Iron Will, Power Attack, Quicken Spell-Like Ability (greater dispel magic), Spell Penetration, Weapon Finesse, Weapon Focus (claw)
+Skills: Acrobatics +36, Bluff +48, Craft (alchemy) +30, Sense Motive +30, Sleight of Hand +30, Spellcraft +45, Stealth +46, Use Magic Device +45
+Languages: Abyssal, Aklo, Azlanti, Celestial, Common, Draconic, Dwarven, Elven, Giant, Ignan, Infernal, Undercommon; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: infernal duke traits, temporal anomaly
+Combat gear: I-boots of speed, 2 [rods of cancellation](ref/magic-rod/rod-of-cancellation), scroll of OP
+Other gear: Iboa6, I-mirror of life trapping, ring of eva, ring of prot5
+Faith: lorthact
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 1,638,400
-
-**Armor class:** 45
-
-**Touch:** 29
-
-**Flat-footed:** 33
-
-**AC modifiers:** +6 armor, +5 deflection, +11 Dex, +1 dodge, +2 luck, +10 natural
-
-**Hit points:** 560 (32d10+384)
-
-**Fort:** +26
-
-**Ref:** +31
-
-**Will:** +30
-
-**Dr:** 20/good and silver
-
-**Evasion:** present
-
-**Immune:** fire, poison
-
-**Regen:** 5 (good weapons or spells)
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 36
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +44 (1d6+6 plus 1 Int drain) or +2 quarterstaff +40/+35/+30/+25 (1d6+11 plus 1
-Intelligence drain)
-
-**Spec Att:** Intelligence drain, scholastic masquerade, spell reservoir
-
-**Spell-Like Abilities**
-
-**Caster level:** 25
-
-**Concentration:** +38
-
-**Constant:**
-
-- mind blank, tongues, true seeing
-
-**At will:**
-
-- alter self, blasphemy (DC 30), dominate person (DC 28), freedom of movement, greater arcane sight,
-  greater dispel magic, greater invisibility, greater scrying (DC 30), greater shadow conjuration
-  (DC 30), greater shadow evocation (DC 31), greater teleport, mass suggestion (DC 29), programmed
-  image (DC 29), unholy aura (DC 31)
-
-**Per day:**
-
-- 3/day: banishment (DC 29), quickened greater dispel magic, empowered horrid wilting (DC 31),
-  polymorph any object (DC 31), spell turning
-- 1/day: dominate monster (DC 32), limited wish, mage's disjunction (DC 32), prismatic sphere, time
-  stop
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 33, Con 35, Int 30, Wis 26, Cha 37
-
-**Base attack bonus:** +32
-
-**Combat maneuver bonus:** +38
-
-**Combat maneuver defense:** 65
-
-**Feats:** Deflect Arrows, Destructive Dispel, Dispel Synergy, Dodge, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (horrid wilting), Flyby Attack, Great Fortitude,
-Greater Spell Penetration, Improved Great Fortitude, Improved Unarmed Strike, Iron Will, Power
-Attack, Quicken Spell-Like Ability (greater dispel magic), Spell Penetration, Weapon Finesse, Weapon
-Focus (claw)
-
-**Skills:** Acrobatics +36, Bluff +48, Craft (alchemy) +30, Sense Motive +30, Sleight of Hand +30,
-Spellcraft +45, Stealth +46, Use Magic Device +45
-
-**Languages:** Abyssal, Aklo, Azlanti, Celestial, Common, Draconic, Dwarven, Elven, Giant, Ignan,
-Infernal, Undercommon; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** infernal duke traits, temporal anomaly
-
-**Combat gear:** I-boots of speed, 2 [rods of cancellation](ref/magic-rod/rod-of-cancellation),
-scroll of OP
-
-**Other gear:** Iboa6, I-mirror of life trapping, ring of eva, ring of prot5
-
-**Faith:** lorthact
-
-**Ecology**
-
-**Environment:** any (Korvosa)
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any (Korvosa)
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

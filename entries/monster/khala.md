@@ -34,102 +34,74 @@ abilities = ["30", "22", "27", "22", "21", "25"]
 _This dragon has broad, ragged wings. Its serpentine body ends in three long, flailing necks with
 hissing, triangular heads._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic evil
+Type: dragon
+Initiative: +10
+Size: large
+Perception: +30
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold
+Experience points: 102,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 31
+Touch: 15
+Flat-footed: 25
+AC modifiers: +6 Dex, +16 natural, -1 size
+Hit points: 261 (18d12+144)
+Fort: +19
+Ref: +17
+Will: +16
+Immune: cold, disease, paralysis, sleep
+Resist: acid 10, electricity 10
+Vulner: fire
+:::
 
-**Initiative:** +10
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., fly 90 ft. (good)
+Br Weap: 60-ft. line, 16d6 cold damage, Reflex DC 27 half, usable every 1d4 rounds
+Constrict: 2d8+10
+Melee: 3 bites +27 (2d10+10/19-20 plus disease), tail +25 (2d8+10 plus [grab](ref/umr/grab))
+Reach: 10
+Rend: 2 bites, 2d10+15
+Space: 10
+Spec Att: tenacious grapple
+:::
 
-**Perception:** +30
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +23
+Per day: 3/day: fire shield, chill shield only, empowered ice storm, incendiary cloud (DC 25, deals cold damage), suggestion (DC 20)\
+1/day: control weather, polar ray
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Cold
+::: statblock
+Ability scores: Str 30, Dex 22, Con 27, Int 22, Wis 21, Cha 25
+Base attack bonus: +18
+Combat maneuver bonus: +29 (+33 grapple)
+Combat maneuver defense: 45 (can't be tripped)
+Feats: Alertness, Critical Focus, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (ice storm), Flyby Attack, Improved Critical (bite), Improved Initiative, Multiattack, Power Attack, Staggering Critical, Stunning Critical
+Skills: Appraise +27, Bluff +28, Diplomacy +28, Fly +29, Intimidate +28, Knowledge (geography, local) +27, Perception +30
+Languages: Abyssal, Aquan, Common, Draconic, Giant, Goblin
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 15
-
-**Flat-footed:** 25
-
-**AC modifiers:** +6 Dex, +16 natural, -1 size
-
-**Hit points:** 261 (18d12+144)
-
-**Fort:** +19
-
-**Ref:** +17
-
-**Will:** +16
-
-**Immune:** cold, disease, paralysis, sleep
-
-**Resist:** acid 10, electricity 10
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft., fly 90 ft. (good)
-
-**Br Weap:** 60-ft. line, 16d6 cold damage, Reflex DC 27 half, usable every 1d4 rounds
-
-**Constrict:** 2d8+10
-
-**Melee:** 3 bites +27 (2d10+10/19-20 plus disease), tail +25 (2d8+10 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Rend:** 2 bites, 2d10+15
-
-**Space:** 10
-
-**Spec Att:** tenacious grapple
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +23
-
-**Per day:**
-
-- 3/day: fire shield, chill shield only, empowered ice storm, incendiary cloud (DC 25, deals cold
-  damage), suggestion (DC 20)
-- 1/day: control weather, polar ray
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 22, Con 27, Int 22, Wis 21, Cha 25
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +29 (+33 grapple)
-
-**Combat maneuver defense:** 45 (can't be tripped)
-
-**Feats:** Alertness, Critical Focus, Empower [Spell-Like Ability](ref/umr/spell-like-abilities)
-(ice storm), Flyby Attack, Improved Critical (bite), Improved Initiative, Multiattack, Power Attack,
-Staggering Critical, Stunning Critical
-
-**Skills:** Appraise +27, Bluff +28, Diplomacy +28, Fly +29, Intimidate +28, Knowledge (geography,
-local) +27, Perception +30
-
-**Languages:** Abyssal, Aquan, Common, Draconic, Giant, Goblin
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any cold
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

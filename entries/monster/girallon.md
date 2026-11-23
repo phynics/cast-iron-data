@@ -29,71 +29,58 @@ abilities = ["19", "17", "18", "2", "12", "7"]
 _This four-armed, gorilla-like creature, covered with matted white fur, roars in rage as it rears up
 to its full, towering height._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 Dex, +6 natural, -1 size
+Hit points: 73 (7d10+35)
+Fort: +9
+Ref: +8
+Will: +5
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +10 (1d6+4), 4 claws +10 (1d4+4 plus rend)
+Reach: 10
+Rend: 4 claws, 1d4+6
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 17, Con 18, Int 2, Wis 12, Cha 7
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 25
+Feats: Improved Initiative, Iron Will, Skill Focus (Perception), Toughness
+Skills: Climb +12, Perception +11, Stealth +5
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +6 natural, -1 size
-
-**Hit points:** 73 (7d10+35)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +10 (1d6+4), 4 claws +10 (1d4+4 plus rend)
-
-**Reach:** 10
-
-**Rend:** 4 claws, 1d4+6
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 17, Con 18, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25
-
-**Feats:** Improved Initiative, Iron Will, Skill Focus (Perception), Toughness
-
-**Skills:** Climb +12, Perception +11, Stealth +5
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary or company (5-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary or company (5-8)
+Treasure: None
+:::
 
 ### Description
 

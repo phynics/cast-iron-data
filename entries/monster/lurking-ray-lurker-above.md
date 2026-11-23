@@ -28,86 +28,65 @@ melee = "slam +15 (3d6+15 plus grab)"
 abilities = ["30", "12", "19", "2", "15", "9"]
 +++
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+blindsense: 10
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Scent
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 10
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 18
+AC modifiers: +1 Dex, +10 natural, -2 size
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: +4
+Will: +9
+Amorph: present
+Dr: 10/piercing or slashing
+Resist: cold 10, fire 10
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 10 ft., climb 5 ft., fly 40 ft. (poor)
+Constrict: 3d6+15
+Melee: slam +15 (3d6+15 plus [grab](ref/umr/grab))
+Reach: 10
+Smother: present
+Space: 15
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +5
+::: statblock
+Ability scores: Str 30, Dex 12, Con 19, Int 2, Wis 15, Cha 9
+Base attack bonus: +7
+Combat maneuver bonus: +19 (+23 grapple)
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative, Skill Focus (Perception), Skill Focus (Stealth)
+Skills: Climb +18, Perception +5, Stealth +8 (+16 in rocky areas)
+Racial Modifiers: +4 Stealth (+12 in rocky areas)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +10 natural, -2 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +9
-
-**Amorph:** present
-
-**Dr:** 10/piercing or slashing
-
-**Resist:** cold 10, fire 10
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 10 ft., climb 5 ft., fly 40 ft. (poor)
-
-**Constrict:** 3d6+15
-
-**Melee:** slam +15 (3d6+15 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Smother:** present
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 12, Con 19, Int 2, Wis 15, Cha 9
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +19 (+23 grapple)
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative, Skill Focus (Perception), Skill Focus
-(Stealth)
-
-**Skills:** Climb +18, Perception +5, Stealth +8 (+16 in rocky areas)
-
-**Racial Modifiers:** +4 Stealth (+12 in rocky areas)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

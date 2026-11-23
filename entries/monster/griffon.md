@@ -29,77 +29,61 @@ abilities = ["16", "15", "16", "5", "13", "8"]
 _This majestic beast has the body of a lion, the head and forelegs of a great eagle, and a massive
 pair of feathered wings._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +6
+Will: +4
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 80 ft. (average)
+Melee: bite +8 (1d6+3), 2 talons +7 (1d6+3)
+Pounce: present
+Rake: 2 claws +7, 1d4+3
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 16, Dex 15, Con 16, Int 5, Wis 13, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (25 vs. trip)
+Feats: Iron Will, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Acrobatics +10, Fly +6, Perception +12
+Racial Modifiers: +4 Acrobatics, +4 Perception
+Languages: Common (can't speak)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., fly 80 ft. (average)
-
-**Melee:** bite +8 (1d6+3), 2 talons +7 (1d6+3)
-
-**Pounce:** present
-
-**Rake:** 2 claws +7, 1d4+3
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 16, Int 5, Wis 13, Cha 8
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Feats:** Iron Will, Skill Focus (Perception), Weapon Focus (bite)
-
-**Skills:** Acrobatics +10, Fly +6, Perception +12
-
-**Racial Modifiers:** +4 Acrobatics, +4 Perception
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary, pair, or pride (6-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate hills
+Organization: solitary, pair, or pride (6-10)
+Treasure: Incidental
+:::
 
 ### Description
 

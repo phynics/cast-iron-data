@@ -31,79 +31,62 @@ abilities = ["1", "12", "12", "-", "11", "1"]
 _The tiny, buzzing insects that make up this cloud have distinctive bloated bodies and sharp, if
 miniscule, proboscises._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Type: vermin
+Experience points: 400
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 size
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +1
+Will: +0
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 10 ft., fly 30 ft. (average)
+Bleed: 1
+Distraction: 12
+Melee: swarm (1d6 plus bleed and distraction)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 12, Con 12, Int -, Wis 11, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Fly +7
+Special qualities: gestate
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +1
-
-**Will:** +0
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 10 ft., fly 30 ft. (average)
-
-**Bleed:** 1
-
-**Distraction:** 12
-
-**Melee:** swarm (1d6 plus bleed and distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 12, Con 12, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Fly +7
-
-**Special qualities:** gestate
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cloud (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or cloud (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

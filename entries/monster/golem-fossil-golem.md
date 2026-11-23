@@ -29,75 +29,62 @@ abilities = ["25", "13", "-", "-", "10", "1"]
 _Fossilized bones make up the body of this animated construct, from its horned shoulders to its
 tyrannosaur-skulled hands._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: construct
+Size: huge
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 26
+Touch: 9
+Flat-footed: 25
+AC modifiers: +1 Dex, +17 natural, -2 size
+Hit points: 122 (15d10+40)
+Fort: +5
+Ref: +6
+Will: +5
+Dr: 10/adamantine and bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 bites +20 (6d6+7 plus petrification)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 9
-
-**Flat-footed:** 25
-
-**AC modifiers:** +1 Dex, +17 natural, -2 size
-
-**Hit points:** 122 (15d10+40)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +5
-
-**Dr:** 10/adamantine and bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 bites +20 (6d6+7 plus petrification)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 13, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 35
-
-**Feats:** Combat Reflexes^B^
+::: statblock
+Ability scores: Str 25, Dex 13, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +24
+Combat maneuver defense: 35
+Feats: Combat Reflexes^B^
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

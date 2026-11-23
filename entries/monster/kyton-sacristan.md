@@ -30,88 +30,65 @@ abilities = ["20", "16", "21", "13", "14", "15"]
 _Chains and piercings torture this being's bloodless flesh. The greatest violations invade its face
 and mouth._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 9,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 19
+AC modifiers: +3 Dex, +9 natural
+Hit points: 126 (12d10+60)
+Fort: +13
+Ref: +7
+Will: +10
+Dr: 10/silver or good
+Immune: cold
+Regen: 5 (good spells and weapons, silver)
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: mwk spiked chain +18/+13/+8 (2d4+7) or 2 claws +17 (1d4+5)
+Reach: 5
+Reach P: 10 ft. with spiked chain
+Space: 5
+Spec Att: shadow scream, unnerving gaze (30 ft., DC 18)
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 20, Dex 16, Con 21, Int 13, Wis 14, Cha 15
+Base attack bonus: +12
+Combat maneuver bonus: +17 (+19 bull rush)
+Combat maneuver defense: 30 (32 vs. bull rush)
+Feats: Bleeding Critical, Cleave, Critical Focus, Great Cleave, Improved Bull Rush, Power Attack
+Skills: Acrobatics +15, Bluff +17, Climb +17, Intimidate +17, Perception +17, Sense Motive +17, Stealth +18
+Languages: Common, Infernal
+:::
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 22
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +9 natural
-
-**Hit points:** 126 (12d10+60)
-
-**Fort:** +13
-
-**Ref:** +7
-
-**Will:** +10
-
-**Dr:** 10/silver or good
-
-**Immune:** cold
-
-**Regen:** 5 (good spells and weapons, silver)
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk spiked chain +18/+13/+8 (2d4+7) or 2 claws +17 (1d4+5)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with spiked chain
-
-**Space:** 5
-
-**Spec Att:** shadow scream, unnerving gaze (30 ft., DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con 21, Int 13, Wis 14, Cha 15
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +17 (+19 bull rush)
-
-**Combat maneuver defense:** 30 (32 vs. bull rush)
-
-**Feats:** Bleeding Critical, Cleave, Critical Focus, Great Cleave, Improved Bull Rush, Power Attack
-
-**Skills:** Acrobatics +15, Bluff +17, Climb +17, Intimidate +17, Perception +17, Sense Motive +17,
-Stealth +18
-
-**Languages:** Common, Infernal
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, bodyguard (1d4 plus 1 [kyton](ref/family/kyton) of lower CR
-\[usually an [ostiarius](ref/monster/kyton-ostiarius)\]), or entourage (2d6 plus 1 kyton of higher
-CR)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, bodyguard (1d4 plus 1 [kyton](ref/family/kyton) of lower CR \[usually an [ostiarius](ref/monster/kyton-ostiarius)\]), or entourage (2d6 plus 1 kyton of higher CR)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

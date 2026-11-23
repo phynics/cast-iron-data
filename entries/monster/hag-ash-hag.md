@@ -31,96 +31,70 @@ abilities = ["14", "12", "14", "17", "15", "13"]
 _This spindly, hunched crone's skin is a sickly gray color, as is her stringy hair, which is
 peppered with globs of what appear to be ashes._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +14
+Senses: Darkvision 60 ft.
+Experience points: 1,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 52 (7d10+14)
+Fort: +4
+Ref: +6
+Will: +9
+Immune: fire
+Sr: 16
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: bite +9 (1d6+2), 2 claws +9 (1d4+2)
+Spec Att: choke on cinders
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11; save DCs are Int-based
+Constant: pass without trace, tongues
+At will: alter self, beguiling gift (DC 14), burning hands (DC 14), detect magic, infernal healing
+Per day: 3/day: burning gaze (DC 15), feast of ashes (DC 15), inflict moderate wounds (DC 15), invisibility, self only\
+1/day: ash storm, cup of dust (DC 16), inflict serious wounds (DC 17), phantasmal killer (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 14, Dex 12, Con 14, Int 17, Wis 15, Cha 13
+Base attack bonus: +7
+Combat maneuver bonus: +9
+Combat maneuver defense: 20
+Feats: Alertness, Combat Casting, Deceitful, Iron Will
+Skills: Bluff +6, Diplomacy +5, Disguise +10, Sense Motive +11, Spellcraft +10, Stealth +8 (+12 in burned or ash-covered environments)
+Languages: Aklo, Common, Giant; _[tongues](ref/spell/tongues)_
+Special qualities: ash affinity
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 52 (7d10+14)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +9
-
-**Immune:** fire
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +9 (1d6+2), 2 claws +9 (1d4+2)
-
-**Spec Att:** choke on cinders
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11; save DCs are Int-based
-
-**Constant:**
-
-- pass without trace, tongues
-
-**At will:**
-
-- alter self, beguiling gift (DC 14), burning hands (DC 14), detect magic, infernal healing
-
-**Per day:**
-
-- 3/day: burning gaze (DC 15), feast of ashes (DC 15), inflict moderate wounds (DC 15),
-  invisibility, self only
-- 1/day: ash storm, cup of dust (DC 16), inflict serious wounds (DC 17), phantasmal killer (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 12, Con 14, Int 17, Wis 15, Cha 13
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 20
-
-**Feats:** Alertness, Combat Casting, Deceitful, Iron Will
-
-**Skills:** Bluff +6, Diplomacy +5, Disguise +10, Sense Motive +11, Spellcraft +10, Stealth +8 (+12
-in burned or ash-covered environments)
-
-**Languages:** Aklo, Common, Giant; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** ash affinity
-
-**Ecology**
-
-**Environment:** any urban or ruins
-
-**Organization:** solitary or coven (3 hags of any kind)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban or ruins
+Organization: solitary or coven (3 hags of any kind)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

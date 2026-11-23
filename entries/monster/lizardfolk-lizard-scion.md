@@ -31,77 +31,61 @@ abilities = ["16", "11", "14", "9", "12", "11"]
 _This muscular lizardfolk towers above others of its kind, a primeval behemoth painted with
 elaborate designs._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +5
+Subtype: Reptilian
+Experience points: 1,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 45 (7d8+14)
+Fort: +7
+Ref: +2
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Blood Rage: present
+Melee: mwk trident +9 (2d6+3), bite +5 (1d8+1) or 2 claws +7 (1d6+3), bite +5 (1d8+1)
+Ranged: mwk javelin +5 (1d8+3)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +5
+### Statistics
 
-**Subtype:** Reptilian
+::: statblock
+Ability scores: Str 16, Dex 11, Con 14, Int 9, Wis 12, Cha 11
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 19
+Feats: Cleave, Multiattack, Power Attack, Weapon Focus (trident)
+Skills: Perception +5, Swim +14
+Languages: Draconic
+Special qualities: [hold breath](ref/umr/hold-breath), lizardfolk blood
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 45 (7d8+14)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Blood Rage:** present
-
-**Melee:** mwk trident +9 (2d6+3), bite +5 (1d8+1) or 2 claws +7 (1d6+3), bite +5 (1d8+1)
-
-**Ranged:** mwk javelin +5 (1d8+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 11, Con 14, Int 9, Wis 12, Cha 11
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 19
-
-**Feats:** Cleave, Multiattack, Power Attack, Weapon Focus (trident)
-
-**Skills:** Perception +5, Swim +14
-
-**Languages:** Draconic
-
-**Special qualities:** [hold breath](ref/umr/hold-breath), lizardfolk blood
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, band (with 3-12 lizardfolk), or tribe (with 13-60 lizardfolk)
-
-**Treasure:** NPC gear (mwk trident, 2 mwk javelins)
+::: statblock
+Environment: temperate swamps
+Organization: solitary, band (with 3-12 lizardfolk), or tribe (with 13-60 lizardfolk)
+Treasure: NPC gear (mwk trident, 2 mwk javelins)
+:::
 
 ### Special Abilities
 

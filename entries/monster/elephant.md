@@ -28,72 +28,58 @@ abilities = ["30", "10", "19", "2", "13", "7"]
 
 _These thick-skinned animals bear large ivory tusks flanking a long, prehensile snout._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +21
+Senses: Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 17
+Touch: 8
+Flat-footed: 17
+AC modifiers: +9 natural, -2 size
+Hit points: 93 (11d8+44)
+Fort: +13
+Ref: +7
+Will: +6
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +16 (2d8+10), slam +16 (2d6+10)
+Reach: 10
+Space: 15
+Trample: 2d8+15; DC 25
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 30, Dex 10, Con 19, Int 2, Wis 13, Cha 7
+Base attack bonus: +8
+Combat maneuver bonus: +20
+Combat maneuver defense: 30 (34 vs. trip)
+Feats: Endurance, Great Fortitude, Improved Bull Rush, Iron Will, Power Attack, Skill Focus (Perception)
+Skills: Perception +21
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 8
-
-**Flat-footed:** 17
-
-**AC modifiers:** +9 natural, -2 size
-
-**Hit points:** 93 (11d8+44)
-
-**Fort:** +13
-
-**Ref:** +7
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +16 (2d8+10), slam +16 (2d6+10)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Trample:** 2d8+15; DC 25
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 10, Con 19, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 30 (34 vs. trip)
-
-**Feats:** Endurance, Great Fortitude, Improved Bull Rush, Iron Will, Power Attack, Skill Focus
-(Perception)
-
-**Skills:** Perception +21
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary or herd (6-30)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary or herd (6-30)
+Treasure: None
+:::
 
 ### Description
 

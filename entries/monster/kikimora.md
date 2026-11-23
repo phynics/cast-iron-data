@@ -30,89 +30,68 @@ abilities = ["13", "18", "15", "12", "16", "21"]
 _This crone has avian features, including a long nose resembling a beak, clawed hands, and bird-like
 feet._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +8
+Size: medium
+Perception: +13
+Senses: Low-light vision
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +1 dodge, +3 natural
+Hit points: 45 (7d6+21)
+Fort: +4
+Ref: +9
+Will: +8
+Dr: 5/cold iron
+Sr: 16
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +7 (1d4+1)
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +12
+At will: forced quiet, invisibility, self only, mending, prestidigitation, stone call
+Per day: 3/day: break (DC 16), charm animal (DC 16), deep slumber (DC 18), pain strike (DC 16)\
+1/day: major image (DC 18), make whole, summon swarm
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 13, Dex 18, Con 15, Int 12, Wis 16, Cha 21
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 19
+Feats: Dodge, Improved Initiative, Stealthy, Toughness, Weapon Finesse
+Skills: Acrobatics +14, Appraise +8, Bluff +15, Escape Artist +16, Perception +13, Sleight of Hand +14, Stealth +16
+Languages: Common, Sylvan
+Special qualities: hidey-hole
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +1 dodge, +3 natural
-
-**Hit points:** 45 (7d6+21)
-
-**Fort:** +4
-
-**Ref:** +9
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +7 (1d4+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**At will:**
-
-- forced quiet, invisibility, self only, mending, prestidigitation, stone call
-
-**Per day:**
-
-- 3/day: break (DC 16), charm animal (DC 16), deep slumber (DC 18), pain strike (DC 16)
-- 1/day: major image (DC 18), make whole, summon swarm
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 18, Con 15, Int 12, Wis 16, Cha 21
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dodge, Improved Initiative, Stealthy, Toughness, Weapon Finesse
-
-**Skills:** Acrobatics +14, Appraise +8, Bluff +15, Escape Artist +16, Perception +13, Sleight of
-Hand +14, Stealth +16
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** hidey-hole
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,99 +31,72 @@ abilities = ["18", "17", "16", "11", "16", "15"]
 _Seemingly one with the forest, this tall man is dressed in the browns and greens of a woodsman and
 sports a pair of stag's antlers upon his brow._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic neutral
+Initiative: +3 (+5 in forests)
+Size: medium
+Type: Monstrous humanoid
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3 (+5 in forests)
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +3 armor, +3 Dex, +4 natural
+Hit points: 68 (8d10+24)
+Fort: +5
+Ref: +9
+Will: +9
+Defensive abilities: defy the gods
+Dr: 10/magic
+Resist: cold 10, electricity 10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: sickle +12/+7 (1d6+4) and gore +7 (1d6+2)
+Pow Ch: gore, 2d6+6
+Ranged: mwk composite longbow +13/+8 (1d8+4/×3)
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+Constant: speak with animals
+Per day: 3/day: faerie fire, longstrider\
+1/day: freedom of movement
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 18, Dex 17, Con 16, Int 11, Wis 16, Cha 15
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 25
+Feats: Deadly Aim, Point-Blank Shot, Precise Shot, Weapon Focus (composite longbow)
+Skills: Handle Animal +8, Intimidate +12, Knowledge (geography) +6 (+8 in forests), Perception +14 (+16 in forests)
+Racial Modifiers: +2 Knowledge (geography) in forests, +2 Perception in forests, +2 Stealth in forests, +2 Survival in forests
+Languages: Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: [favored terrain](ref/ability/favored-terrain) (forest +2), martial training, swift tracking
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 armor, +3 Dex, +4 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +9
-
-**Defensive abilities:** defy the gods
-
-**Dr:** 10/magic
-
-**Resist:** cold 10, electricity 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** sickle +12/+7 (1d6+4) and gore +7 (1d6+2)
-
-**Pow Ch:** gore, 2d6+6
-
-**Ranged:** mwk composite longbow +13/+8 (1d8+4/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**Constant:**
-
-- speak with animals
-
-**Per day:**
-
-- 3/day: faerie fire, longstrider
-- 1/day: freedom of movement
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 16, Int 11, Wis 16, Cha 15
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25
-
-**Feats:** Deadly Aim, Point-Blank Shot, Precise Shot, Weapon Focus (composite longbow)
-
-**Skills:** Handle Animal +8, Intimidate +12, Knowledge (geography) +6 (+8 in forests), Perception
-+14 (+16 in forests)
-
-**Racial Modifiers:** +2 Knowledge (geography) in forests, +2 Perception in forests, +2 Stealth in
-forests, +2 Survival in forests
-
-**Languages:** Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (forest +2), martial training,
-swift tracking
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or band (3-6)
-
-**Treasure:** Standard (sickle, mwk cl20+4, wooden); other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or band (3-6)
+Treasure: Standard (sickle, mwk cl20+4, wooden); other treasure
+:::
 
 ### Special Abilities
 

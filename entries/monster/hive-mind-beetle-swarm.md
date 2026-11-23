@@ -31,115 +31,81 @@ abilities = ["1", "16", "14", "15", "12", "5"]
 _This churning cloud of beetles buzzes with a steady discharge of sizzling arcs of electricity
 leaping from insect to insect. The patterns on their wings resemble humanoid eyes._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Size: diminutive
+Initiative: +7
+Alignment: Lawful neutral
+Type: Magical beast
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Swarm
+Experience points: 25,600
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 25
+Touch: 25
+Flat-footed: 14
+AC modifiers: +3 Dex, +8 dodge, +4 size
+Hit points: 170 (20d10+60)
+Fort: +16
+Ref: +15
+Will: +9
+Defensive abilities: swarm traits
+Immune: electricity, weapon damage
+Weaknesses: exposed nerves
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 5 ft., fly 30 ft. (perfect)
+Distraction: 24
+Melee: swarm (8d6 electricity plus distraction)
+Reach: 0
+Space: 10
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +11
+Constant: thought echo
+At will: shocking grasp
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Psychic Magic"
+Caster level: 14
+Concentration: +16
+Power points: 15
+Psychoactive powers: explode head, 5 PE, DC 18, greater synaptic pulse, 5 PE, DC 18, lightning bolt, 3 PE, DC 19, mental barrier III, 4 PE, mind probe, 4 PE, DC 16, mind thrust IV, 4 PE, DC 16, synapse overload, 5 PE, DC 17, synaptic scramble, 4 PE, DC 17, thought shield IV, 5 PE
+:::
 
-**Subtype:** Swarm
+### Statistics
 
-**Experience points:** 25,600
+::: statblock
+Ability scores: Str 1, Dex 16, Con 14, Int 15, Wis 12, Cha 5
+Base attack bonus: +20
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Ability Focus (distraction), Flyby Attack, Great Fortitude, Greater Spell Penetration, Improved Initiative, Iron Will, Spell Focus (enchantment), Spell Focus (evocation), Spell Penetration, Toughness
+Skills: Fly +40, Knowledge (nature) +22, Perception +28, Spellcraft +22
+Racial Modifiers: +4 Perception
+Languages: _[thought echo](ref/spell/thought-echo)_ (can't speak)
+Special qualities: reflexive dodge
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 25
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +8 dodge, +4 size
-
-**Hit points:** 170 (20d10+60)
-
-**Fort:** +16
-
-**Ref:** +15
-
-**Will:** +9
-
-**Defensive abilities:** swarm traits
-
-**Immune:** electricity, weapon damage
-
-**Weaknesses:** exposed nerves
-
-**Offense**
-
-**Speed:** 5 ft., fly 30 ft. (perfect)
-
-**Distraction:** 24
-
-**Melee:** swarm (8d6 electricity plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +11
-
-**Constant:**
-
-- thought echo
-
-**At will:**
-
-- shocking grasp
-
-**Psychic Magic**
-
-**Caster level:** 14
-
-**Concentration:** +16
-
-**Power points:** 15
-
-**Psychoactive powers:**
-
-- explode head, 5 PE, DC 18, greater synaptic pulse, 5 PE, DC 18, lightning bolt, 3 PE, DC 19,
-  mental barrier III, 4 PE, mind probe, 4 PE, DC 16, mind thrust IV, 4 PE, DC 16, synapse overload,
-  5 PE, DC 17, synaptic scramble, 4 PE, DC 17, thought shield IV, 5 PE
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 16, Con 14, Int 15, Wis 12, Cha 5
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Ability Focus (distraction), Flyby Attack, Great Fortitude, Greater Spell Penetration,
-Improved Initiative, Iron Will, Spell Focus (enchantment), Spell Focus (evocation), Spell
-Penetration, Toughness
-
-**Skills:** Fly +40, Knowledge (nature) +22, Perception +28, Spellcraft +22
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** _[thought echo](ref/spell/thought-echo)_ (can't speak)
-
-**Special qualities:** reflexive dodge
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or colony (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or colony (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

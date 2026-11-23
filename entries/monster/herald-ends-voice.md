@@ -31,116 +31,77 @@ abilities = ["18", "17", "24", "17", "16", "22"]
 _A long crimson cloak drapes over the form of this large faceless being, which floats just above the
 ground on footless legs as its menacing flail crackles with blue currents of electricity._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic neutral
+Initiative: +7
+Size: large
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., Trueseeing
+Subtype: Chaotic, Extraplanar
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 31
+Touch: 15
+Flat-footed: 27
+AC modifiers: +3 Dex, +1 dodge, +2 insight, +16 natural, -1 size; never surprised or flat-footed
+Hit points: 225 (18d10+126)
+Fort: +18
+Ref: +11
+Will: +19
+Dr: 10/law and magic
+Fh: 5
+Immune: confusion, insanity
+Resist: acid 30, cold 30, electricity 30, fire 30
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 40 ft. (average)
+Melee: +1 shock heavy flail +23/+18/+13/+8 (2d8+7/17-20 plus 1d6 electricity and maddening strike)
+Reach: 10
+Space: 10
+Spec Att: destructive aura
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+Constant: foresight, self only, true seeing, self only
+At will: arcane eye, quickened bleed (DC 16), hideous laughter (DC 18), knock, magic missile, shatter (DC 18), telepathic bond, touch of idiocy, true strike
+Per day: 5/day: confusion (DC 20), contact other plane, see below, feeblemind (DC 21), greater teleport, self plus 50 lbs. of objects only, mind fog (DC 21), nightmare (DC 21), phantasmal killer (DC 21)\
+1/day: break enchantment, disintegrate (DC 22), harm (DC 22), insanity (DC 23), mage's disjunction (DC 25), mass invisibility, moment of prescience, power word kill, weird (DC 25)
+:::
 
-**Senses:** Darkvision 60 ft., Trueseeing
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 17, Con 24, Int 17, Wis 16, Cha 22
+Base attack bonus: +18
+Combat maneuver bonus: +23 (+25 sunder)
+Combat maneuver defense: 39 (41 vs. sunder, can't be tripped)
+Feats: Combat Casting, Combat Expertise, Dodge, Improved Critical (heavy flail), Improved Initiative, Improved Iron Will, Improved Sunder, Iron Will, Weapon Focus (heavy flail)
+Skills: Disable Device +18, Fly +16, Intimidate +24, Knowledge (geography) +18, Knowledge (history) +21, Perception +21, Sense Motive +21, Spellcraft +18, Stealth +17, Use Magic Device +24
+Racial Modifiers: +4 Acrobatics when jumping
+Languages: Aklo, Ancient Osiriani, Azlanti, Common, Cyclops, Draconic, Orvian; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: madness, [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 15
-
-**Flat-footed:** 27
-
-**AC modifiers:** +3 Dex, +1 dodge, +2 insight, +16 natural, -1 size; never surprised or flat-footed
-
-**Hit points:** 225 (18d10+126)
-
-**Fort:** +18
-
-**Ref:** +11
-
-**Will:** +19
-
-**Dr:** 10/law and magic
-
-**Fh:** 5
-
-**Immune:** confusion, insanity
-
-**Resist:** acid 30, cold 30, electricity 30, fire 30
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (average)
-
-**Melee:** +1 shock heavy flail +23/+18/+13/+8 (2d8+7/17-20 plus 1d6 electricity and maddening
-strike)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** destructive aura
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**Constant:**
-
-- foresight, self only, true seeing, self only
-
-**At will:**
-
-- arcane eye, quickened bleed (DC 16), hideous laughter (DC 18), knock, magic missile, shatter (DC
-  18), telepathic bond, touch of idiocy, true strike
-
-**Per day:**
-
-- 5/day: confusion (DC 20), contact other plane, see below, feeblemind (DC 21), greater teleport,
-  self plus 50 lbs. of objects only, mind fog (DC 21), nightmare (DC 21), phantasmal killer (DC 21)
-- 1/day: break enchantment, disintegrate (DC 22), harm (DC 22), insanity (DC 23), mage's disjunction
-  (DC 25), mass invisibility, moment of prescience, power word kill, weird (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 24, Int 17, Wis 16, Cha 22
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +23 (+25 sunder)
-
-**Combat maneuver defense:** 39 (41 vs. sunder, can't be tripped)
-
-**Feats:** Combat Casting, Combat Expertise, Dodge, Improved Critical (heavy flail), Improved
-Initiative, Improved Iron Will, Improved Sunder, Iron Will, Weapon Focus (heavy flail)
-
-**Skills:** Disable Device +18, Fly +16, Intimidate +24, Knowledge (geography) +18, Knowledge
-(history) +21, Perception +21, Sense Motive +21, Spellcraft +18, Stealth +17, Use Magic Device +24
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Languages:** Aklo, Ancient Osiriani, Azlanti, Common, Cyclops, Draconic, Orvian;
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** madness, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any ([Astral Plane](ref/rule/astral-plane) or Pharasma's
-[Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary
-
-**Treasure:** Standard (L +1 shock heavy flail); other treasure
+::: statblock
+Environment: any ([Astral Plane](ref/rule/astral-plane) or Pharasma's [Boneyard](ref/rule/purgatory))
+Organization: solitary
+Treasure: Standard (L +1 shock heavy flail); other treasure
+:::
 
 ### Special Abilities
 

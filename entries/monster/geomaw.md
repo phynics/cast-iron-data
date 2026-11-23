@@ -31,86 +31,65 @@ abilities = ["24", "7", "20", "6", "11", "13"]
 _This worm-like creature's outer body consists of stone plates, and a cavernous maw contains a
 sparkling mass of red crystals._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+Initiative: +2
+Size: large
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 19
+Touch: 7
+Flat-footed: 19
+AC modifiers: -2 Dex, +12 natural, -1 size
+Hit points: 95 (10d8+50)
+Fort: +10
+Ref: +3
+Will: +7
+Weaknesses: blind, blood gorger
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 10 ft., burrow 20 ft.
+F Swallow: present
+Melee: bite +14 (2d6+14)
+Reach: 10
+Space: 10
+Spec Att: blood lantern, powerful bite
+Swallow: 2d6+14 plus 2d6 points of acid damage, AC 16, 10 hit points
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 24, Dex 7, Con 20, Int 6, Wis 11, Cha 13
+Base attack bonus: +7
+Combat maneuver bonus: +15
+Combat maneuver defense: 23
+Feats: Great Fortitude, Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus (bite)
+Skills: Perception +13, Stealth +7 (+15 in rocky terrain)
+Racial Modifiers: +8 Stealth in rocky terrain
+Languages: Aklo
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 7
-
-**Flat-footed:** 19
-
-**AC modifiers:** -2 Dex, +12 natural, -1 size
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +10
-
-**Ref:** +3
-
-**Will:** +7
-
-**Weaknesses:** blind, blood gorger
-
-**Offense**
-
-**Speed:** 10 ft., burrow 20 ft.
-
-**F Swallow:** present
-
-**Melee:** bite +14 (2d6+14)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** blood lantern, powerful bite
-
-**Swallow:** 2d6+14 plus 2d6 points of acid damage, AC 16, 10 hit points
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 7, Con 20, Int 6, Wis 11, Cha 13
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 23
-
-**Feats:** Great Fortitude, Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus
-(bite)
-
-**Skills:** Perception +13, Stealth +7 (+15 in rocky terrain)
-
-**Racial Modifiers:** +8 Stealth in rocky terrain
-
-**Languages:** Aklo
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or frenzy (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary or frenzy (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

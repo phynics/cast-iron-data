@@ -33,101 +33,75 @@ abilities = ["20", "13", "19", "14", "14", "15"]
 
 _This being resembles a towering human with skin of polished stone and glittering agate eyes._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +5
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Earth, Extraplanar
+tremorsense: 60
+Experience points: 3,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +4
+Will: +8
+Immune: electricity
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 60 ft., climb 20 ft.
+Melee: 2 slams +13 (2d6+5) or mwk scimitar +14/+9 (1d8+7/18-20)
+Reach: 10
+Space: 10
+Spec Att: earth mastery, metalmorph, stone curse
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+At will: meld into stone, plane shift, willing targets to elemental planes, Astral Plane, or Material Plane only, soften earth and stone, stone shape, veil, self only
+Per day: 3/day: quickened glitterdust (DC 14), stoneskin, rusting grasp, stone tell, wall of stone\
+1/day: transmute mud to rock, transmute rock to mud
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Earth, Extraplanar
-
-**tremorsense:** 60
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +4
-
-**Will:** +8
-
-**Immune:** electricity
-
-**Offense**
-
-**Speed:** 20 ft., burrow 60 ft., climb 20 ft.
-
-**Melee:** 2 slams +13 (2d6+5) or mwk scimitar +14/+9 (1d8+7/18-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** earth mastery, metalmorph, stone curse
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**At will:**
-
-- meld into stone, plane shift, willing targets to elemental planes, Astral Plane, or Material Plane
-  only, soften earth and stone, stone shape, veil, self only
-
-**Per day:**
-
-- 3/day: quickened glitterdust (DC 14), stoneskin, rusting grasp, stone tell, wall of stone
-- 1/day: transmute mud to rock, transmute rock to mud
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 19, Int 14, Wis 14, Cha 15
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Casting, Greater Bull Rush, Improved Bull Rush, Improved Initiative^B^, Power
-Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (glitterdust)
-
-**Skills:** Appraise +14, Bluff +14, Climb +25, Craft (gemcutting) +14, Knowledge (engineering) +14,
-Perception +14, Sense Motive +14, Spellcraft +14
-
-**Languages:** Aquan, Auran, Common, Ignan, Terran; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** stone glide
+::: statblock
+Ability scores: Str 20, Dex 13, Con 19, Int 14, Wis 14, Cha 15
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 26
+Feats: Combat Casting, Greater Bull Rush, Improved Bull Rush, Improved Initiative^B^, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (glitterdust)
+Skills: Appraise +14, Bluff +14, Climb +25, Craft (gemcutting) +14, Knowledge (engineering) +14, Perception +14, Sense Motive +14, Spellcraft +14
+Languages: Aquan, Auran, Common, Ignan, Terran; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: stone glide
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary, pair, company (3-6), or band (7-12)
-
-**Treasure:** Standard (mwk scimitar); other treasure
+::: statblock
+Environment: any ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary, pair, company (3-6), or band (7-12)
+Treasure: Standard (mwk scimitar); other treasure
+:::
 
 ### Special Abilities
 

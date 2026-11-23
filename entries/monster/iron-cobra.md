@@ -30,73 +30,59 @@ abilities = ["12", "15", "-", "-", "11", "1"]
 _This creature resembles a small, metallic cobra. Its body is made of overlapping iron plates, and
 its eyes are pinpoints of red light._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: construct
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 18
+AC modifiers: +2 Dex, +7 natural, +1 size
+Hit points: 15 (1d10+10)
+Fort: +0
+Ref: +2
+Will: +0
+Dr: 5/-
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 13
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 40 ft.
+Melee: bite +3 (1d6+1 plus poison)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 15, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 13 (can't be tripped)
+Skills: Stealth +12
+Racial Modifiers: +6 Stealth
+Special qualities: find target
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +7 natural, +1 size
-
-**Hit points:** 15 (1d10+10)
-
-**Fort:** +0
-
-**Ref:** +2
-
-**Will:** +0
-
-**Dr:** 5/-
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +3 (1d6+1 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Skills:** Stealth +12
-
-**Racial Modifiers:** +6 Stealth
-
-**Special qualities:** find target
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or nest (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or nest (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

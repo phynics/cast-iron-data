@@ -30,97 +30,73 @@ abilities = ["19", "20", "-", "15", "17", "22"]
 _This deathly pale beauty's skin is blemished with bruises and cuts, yet a smile shows behind her
 flowing tangle of hair._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Perception: +20
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 12,800
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 20
+AC modifiers: +5 Dex, +10 natural
+Hit points: 147 (14d8+84)
+Fort: +10
+Ref: +9
+Will: +12
+Chan Res: +2
+Dr: 10/magic
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +20
+::: statblock
+Speed: 30 ft.
+Bleed: 5
+Melee: 2 claws +15 (1d6+4/19-20 plus paralysis), 4 hair barbs +12 (1d6+2/19-20 plus bleed)
+Paralysis: 1d4+1 rounds, DC 23
+Reach: 5
+Reach P: 10 ft. with hair barbs
+Space: 5
+Spec Att: infectious laughter
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +20
+Per day: 3/day: feather fall, levitate, ray of enfeeblement (DC 17), unnatural lust (DC 18)\
+1/day: charm monster (DC 19), vampiric touch (DC 19)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 19, Dex 20, Con -, Int 15, Wis 17, Cha 22
+Base attack bonus: +10
+Combat maneuver bonus: +14
+Combat maneuver defense: 29
+Feats: Combat Reflexes, Improved Critical (claw), Improved Critical (hair barb), Improved Initiative, Improved Natural Attack (hair barb), Multiattack, Weapon Finesse
+Skills: Bluff +20, Disguise +23, Perform (sing) +10, Sense Motive +20, Stealth +22
+Languages: Common, Elven, Sylvan
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 Dex, +10 natural
-
-**Hit points:** 147 (14d8+84)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +12
-
-**Chan Res:** +2
-
-**Dr:** 10/magic
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 5
-
-**Melee:** 2 claws +15 (1d6+4/19-20 plus paralysis), 4 hair barbs +12 (1d6+2/19-20 plus bleed)
-
-**Paralysis:** 1d4+1 rounds, DC 23
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with hair barbs
-
-**Space:** 5
-
-**Spec Att:** infectious laughter
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +20
-
-**Per day:**
-
-- 3/day: feather fall, levitate, ray of enfeeblement (DC 17), unnatural lust (DC 18)
-- 1/day: charm monster (DC 19), vampiric touch (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 20, Con -, Int 15, Wis 17, Cha 22
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 29
-
-**Feats:** Combat Reflexes, Improved Critical (claw), Improved Critical (hair barb), Improved
-Initiative, Improved Natural Attack (hair barb), Multiattack, Weapon Finesse
-
-**Skills:** Bluff +20, Disguise +23, Perform (sing) +10, Sense Motive +20, Stealth +22
-
-**Languages:** Common, Elven, Sylvan
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

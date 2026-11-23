@@ -29,86 +29,68 @@ special_qualities = "rogue talents (finesse rogue), trapfinding +1, weapon famil
 abilities = ["11", "19", "14", "8", "12", "8"]
 +++
 
-**Challenge rating:** 1
-
 **Goblin [rogue](ref/class/rogue) 2**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1
+Type: humanoid
+Initiative: +4
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Goblinoid
+Experience points: 400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 14
+AC modifiers: +3 armor, +4 Dex, +1 size
+Hit points: 16 (2d8+4)
+Fort: +2
+Ref: +7
+Will: +1
+Evasion: present
+:::
 
-**Perception:** +6
+### Offense
 
-**Senses:** Darkvision 60 ft.
-
-**Size:** small
-
-**Subtype:** Goblinoid
-
-**Experience points:** 400
-
-**Armor class:** 18
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 armor, +4 Dex, +1 size
-
-**Hit points:** 16 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +1
-
-**Evasion:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dogslicer +5 (1d4/19-20), dogslicer +4 (1d4/19-20)
-
-**Ranged:** shortbow +6 (1d4/×3)
-
-**Sneak:** +1d6
+::: statblock
+Speed: 30 ft.
+Melee: mwk dogslicer +5 (1d4/19-20), dogslicer +4 (1d4/19-20)
+Ranged: shortbow +6 (1d4/×3)
+Sneak: +1d6
+:::
 
 ### Tactics
 
 **During Combat** A sneak tries to ambush opponents so it can make sneak attacks, then uses
 Acrobatics to flank.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 11, Dex 19, Con 14, Int 8, Wis 12, Cha 8
+::: statblock
+Ability scores: Str 11, Dex 19, Con 14, Int 8, Wis 12, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 14
+Feats: Two-Weapon Fighting, Weapon Finesse
+Skills: Acrobatics +8, Climb +4
+Languages: Goblin
+Special qualities: rogue talents ([finesse rogue](ref/talent/finesse-rogue)), [trapfinding](ref/ability/trapfinding) +1, weapon familiarity
+Combat gear: potion of cure light wounds, potion of jump, potion of feather fall, 4 alchemist's fire, 2 sss, 4 thunderstones
+Other gear: studded leather armor, dogslicer, mwk dogslicer, sb20, 18 gp
+:::
 
-**Base attack bonus:** +1
+### Ecology
 
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 14
-
-**Feats:** Two-Weapon Fighting, Weapon Finesse
-
-**Skills:** Acrobatics +8, Climb +4
-
-**Languages:** Goblin
-
-**Special qualities:** rogue talents ([finesse rogue](ref/talent/finesse-rogue)),
-[trapfinding](ref/ability/trapfinding) +1, weapon familiarity
-
-**Combat gear:** potion of cure light wounds, potion of jump, potion of feather fall, 4 alchemist's
-fire, 2 sss, 4 thunderstones
-
-**Other gear:** studded leather armor, dogslicer, mwk dogslicer, sb20, 18 gp
-
-**Ecology**
-
-**Environment:** temperate forest and plains (usually coastal regions)
+::: statblock
+Environment: temperate forest and plains (usually coastal regions)
+:::
 
 ### Description
 

@@ -31,75 +31,60 @@ abilities = ["15", "17", "15", "2", "12", "10"]
 _This immense moth has huge purple wings marked with spiraling black patterns that seem to shift and
 writhe._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +3
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 1,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 16
+AC modifiers: +3 Dex, +7 natural, -1 size
+Hit points: 37 (5d10+10)
+Fort: +3
+Ref: +7
+Will: +5
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft., fly 40 ft. (good)
+Melee: bite +6 (1d8+2), 2 claws +6 (1d6+2)
+Reach: 5
+Space: 10
+Spec Att: confusion, implant, pheromones
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 17, Con 15, Int 2, Wis 12, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Ability Focus (confusion), Flyby Attack, Hover
+Skills: Fly +5, Perception +9, Stealth +7 (+11 in dim light)
+Racial Modifiers: +4 Stealth in dim light
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +7 natural, -1 size
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (good)
-
-**Melee:** bite +6 (1d8+2), 2 claws +6 (1d6+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** confusion, implant, pheromones
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 17, Con 15, Int 2, Wis 12, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Ability Focus (confusion), Flyby Attack, Hover
-
-**Skills:** Fly +5, Perception +9, Stealth +7 (+11 in dim light)
-
-**Racial Modifiers:** +4 Stealth in dim light
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

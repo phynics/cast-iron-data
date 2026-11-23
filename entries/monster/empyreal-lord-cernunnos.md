@@ -32,176 +32,102 @@ abilities = ["29", "35", "39", "18", "22", "21"]
 _This tall, graceful person has elven features, the horns of a majestic stag and a piercing, ageless
 stare._
 
-**Challenge rating:** 30
-
-**aura:** primal (30 ft.)
-
-**blindsense:** 60
-
-**Alignment:** Chaotic good
-
-**Initiative:** +16
-
-**Size:** large
-
-**Type:** outsider
-
-**Perception:** +43
-
-**Senses:** Darkvision 60 ft., Detect evil, Detect poison, Discern lies, Low-light vision, True
-seeing
-
-**Subtype:** Azata, Chaotic, Extraplanar, Good
-
-**Experience points:** 9,830,400
-
-**Armor class:** 48
-
-**Touch:** 22
-
-**Flat-footed:** 35
-
-**AC modifiers:** +12 Dex, +1 dodge, +26 natural, -1 size
-
-**Hit points:** 663 (34d10+476)
-
-**Fort:** +25
-
-**Ref:** +31
-
-**Will:** +25
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, lightning rod,
-unbound
-
-**Dr:** 15/epic and evil
-
-**Immune:** ability damage, ability drain, charm effects, compulsion effects, death effects,
-electricity, energy drain, petrification
-
-**Regen:** 10 (evil artifacts, effects, and spells)
-
-**Resist:** cold 30, fire 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (average)
-
-**Melee:** +5 holy cold iron club +48/+43/+38/+33 (1d8+18/15-20), gore +43 (2d8+18)
-
-**Pow Ch:** gore, 4d8+13 and horned lord's charge
-
-**Ranged:** +5 evil outsider bane composite longbow +51/+46/+41/+36 (2d6+14/19-20/×4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** greater slaying arrow, horned lord's charge, wild shape (as 20th level druid)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- detect evil, discern lies, detect poison, freedom of movement, true seeing
-
-**At will:**
-
-- greater teleport, haste^M^, true strike^M^
-
-**Per day:**
-
-- 3/day: break enchantment^M^, breath of life^M^, dimensional anchor (DC 19)
-- 1/day: discern location, mage's disjunction^M^ (DC 24), time stop^M^
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**9th-level spells:**
-
-- elemental swarm, foresight, summon nature's ally IX, 2
-
-**8th-level spells:**
-
-- control plants (DC 24), repel metal or stone, sunburst (DC 24), whirlwind (DC 24)
-
-**7th-level spells:**
-
-- control weather, creeping doom (DC 23), heal, sunbeam (DC 23)
-
-**6th-level spells:**
-
-- antilife shell, greater dispel magic, 2, move earth, wall of stone (DC 22)
-
-**5th-level spells:**
-
-- atonement, baleful polymorph (DC 21), death ward, transmute rock to mud, wall of thorns
-
-**4th-level spells:**
-
-- cure serious wounds, 2, freedom of movement, rusting grasp, true form (DC 20)
-
-**3rd-level spells:**
-
-- call lightning (DC 19), cure moderate wounds, neutralize poison, 2, remove disease
-
-**2nd-level spells:**
-
-- chill metal (DC 18), fog cloud, heat metal (DC 18), lesser restoration, resist energy, 2
-
-**1st-level spells:**
-
-- calm animals (DC 17), 2, cure light wounds, 2, pass without trace, 2
-
-**Cantrips:**
-
-- create water, mending, purify food and drink, read magic
+::: statblock
+Challenge rating: 30
+aura: primal (30 ft.)
+blindsense: 60
+Alignment: Chaotic good
+Initiative: +16
+Size: large
+Type: outsider
+Perception: +43
+Senses: Darkvision 60 ft., Detect evil, Detect poison, Discern lies, Low-light vision, True seeing
+Subtype: Azata, Chaotic, Extraplanar, Good
+Experience points: 9,830,400
+:::
+
+### Defense
+
+::: statblock
+Armor class: 48
+Touch: 22
+Flat-footed: 35
+AC modifiers: +12 Dex, +1 dodge, +26 natural, -1 size
+Hit points: 663 (34d10+476)
+Fort: +25
+Ref: +31
+Will: +25
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, lightning rod, unbound
+Dr: 15/epic and evil
+Immune: ability damage, ability drain, charm effects, compulsion effects, death effects, electricity, energy drain, petrification
+Regen: 10 (evil artifacts, effects, and spells)
+Resist: cold 30, fire 30
+Sr: 41
+:::
+
+### Offense
+
+::: statblock
+Speed: 40 ft., fly 60 ft. (average)
+Melee: +5 holy cold iron club +48/+43/+38/+33 (1d8+18/15-20), gore +43 (2d8+18)
+Pow Ch: gore, 4d8+13 and horned lord's charge
+Ranged: +5 evil outsider bane composite longbow +51/+46/+41/+36 (2d6+14/19-20/×4)
+Reach: 10
+Space: 10
+Spec Att: greater slaying arrow, horned lord's charge, wild shape (as 20th level druid)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: detect evil, discern lies, detect poison, freedom of movement, true seeing
+At will: greater teleport, haste^M^, true strike^M^
+Per day: 3/day: break enchantment^M^, breath of life^M^, dimensional anchor (DC 19)\
+1/day: discern location, mage's disjunction^M^ (DC 24), time stop^M^
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+Concentration: +26
+9th-level spells: elemental swarm, foresight, summon nature's ally IX, 2
+8th-level spells: control plants (DC 24), repel metal or stone, sunburst (DC 24), whirlwind (DC 24)
+7th-level spells: control weather, creeping doom (DC 23), heal, sunbeam (DC 23)
+6th-level spells: antilife shell, greater dispel magic, 2, move earth, wall of stone (DC 22)
+5th-level spells: atonement, baleful polymorph (DC 21), death ward, transmute rock to mud, wall of thorns
+4th-level spells: cure serious wounds, 2, freedom of movement, rusting grasp, true form (DC 20)
+3rd-level spells: call lightning (DC 19), cure moderate wounds, neutralize poison, 2, remove disease
+2nd-level spells: chill metal (DC 18), fog cloud, heat metal (DC 18), lesser restoration, resist energy, 2
+1st-level spells: calm animals (DC 17), 2, cure light wounds, 2, pass without trace, 2
+Cantrips: create water, mending, purify food and drink, read magic
+:::
 
 ###### M {#footnote-m}
 
 Cernunnos can use the mythic version of this ability in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 29, Dex 35, Con 39, Int 18, Wis 22, Cha 21
+::: statblock
+Ability scores: Str 29, Dex 35, Con 39, Int 18, Wis 22, Cha 21
+Base attack bonus: +34
+Combat maneuver bonus: +44
+Combat maneuver defense: 67
+Feats: Combat Reflexes, Deadly Aim, Dodge, Improved Critical (longbow), Improved Critical (scimitar), Improved Initiative, Improved Precise Shot, Mobility, Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Rapid Shot, Shot on the Run, Weapon Focus (club), Weapon Focus (gore), Weapon Focus (longbow)
+Skills: Acrobatics +46 (+50 when jumping), Diplomacy +22, Fly +10, Handle Animal +22, Ride +32
+Languages: Celestial, Draconic, Infernal, Sylvan; _truespeech_
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self)), [empyreal lord traits](ref/umr/empyreal-lord-traits), perfect archer, seed of life
+Faith: Cernunnos
+:::
 
-**Base attack bonus:** +34
+### Ecology
 
-**Combat maneuver bonus:** +44
-
-**Combat maneuver defense:** 67
-
-**Feats:** Combat Reflexes, Deadly Aim, Dodge, Improved Critical (longbow), Improved Critical
-(scimitar), Improved Initiative, Improved Precise Shot, Mobility, Point-Blank Shot, Power Attack,
-Precise Shot, Quick Draw, Rapid Shot, Shot on the Run, Weapon Focus (club), Weapon Focus (gore),
-Weapon Focus (longbow)
-
-**Skills:** Acrobatics +46 (+50 when jumping), Diplomacy +22, Fly +10, Handle Animal +22, Ride +32
-
-**Languages:** Celestial, Draconic, Infernal, Sylvan; _truespeech_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self)), [empyreal lord traits](ref/umr/empyreal-lord-traits), perfect
-archer, seed of life
-
-**Faith:** Cernunnos
-
-**Ecology**
-
-**Environment:** any forest or plain ([Elysium](ref/rule/elysium))
-
-**Organization:** unique
-
-**Treasure:** Standard (+5 holy MC club, +5 BANE-evil-outsider longbow); other treasure
+::: statblock
+Environment: any forest or plain ([Elysium](ref/rule/elysium))
+Organization: unique
+Treasure: Standard (+5 holy MC club, +5 BANE-evil-outsider longbow); other treasure
+:::
 
 ### Special Abilities
 

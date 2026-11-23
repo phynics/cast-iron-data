@@ -30,82 +30,62 @@ abilities = ["16", "19", "14", "7", "10", "11"]
 
 _This bizarre amalgam of monstrous parts rampages forth, an eldritch rune seared upon its forehead._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic neutral
+Initiative: +4
+Size: medium
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 26
+Touch: 14
+Flat-footed: 22
+AC modifiers: +4 Dex, +12 natural
+Hit points: 85 (10d10+30)
+Fort: +7
+Ref: +11
+Will: +9
+Improved evasion: present
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 40 ft. (good)
+Melee: bite +14 (1d6+3 plus 1d6 electricity), gore +14 (1d6+3 plus 1d6 electricity), tail slap +12 (1d6+1 plus 1d6 electricity)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 5
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 16, Dex 19, Con 14, Int 7, Wis 10, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 27 (can't be tripped)
+Feats: Combat Reflexes, Great Fortitude, Iron Will, Multiattack, Toughness, Weapon Finesse
+Skills: Bluff +13, Climb +11, Knowledge (planes) +6, Perception +13, Sense Motive +8, Stealth +12
+Languages: Common
+Special qualities: evolution points (bite, climb, energy attacks, flight \[2\], gore, improved evasion, improved natural armor \[2\], reach \[bite\], tail, tail slap)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 26
-
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +12 natural
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +9
-
-**Improved evasion:** present
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 40 ft. (good)
-
-**Melee:** bite +14 (1d6+3 plus 1d6 electricity), gore +14 (1d6+3 plus 1d6 electricity), tail slap
-+12 (1d6+1 plus 1d6 electricity)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 19, Con 14, Int 7, Wis 10, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Feats:** Combat Reflexes, Great Fortitude, Iron Will, Multiattack, Toughness, Weapon Finesse
-
-**Skills:** Bluff +13, Climb +11, Knowledge (planes) +6, Perception +13, Sense Motive +8, Stealth
-+12
-
-**Languages:** Common
-
-**Special qualities:** evolution points (bite, climb, energy attacks, flight \[2\], gore, improved
-evasion, improved natural armor \[2\], reach \[bite\], tail, tail slap)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Description
 

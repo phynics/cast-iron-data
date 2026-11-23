@@ -32,85 +32,64 @@ abilities = ["31", "22", "21", "12", "12", "13"]
 _This hulking humanoid figure of packed red sand is no taller than an average human, but it is
 brawny and exceptionally broad._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft., Sandsight
+Subtype: Earth, Elemental
+tremorsense: 60
+Experience points: 12,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 26
+Touch: 17
+Flat-footed: 19
+AC modifiers: +6 Dex, +1 dodge, +9 natural
+Hit points: 147 (14d10+70)
+Fort: +9
+Ref: +15
+Will: +12
+Dr: 10/-
+Immune: elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Distraction: 22
+Melee: 2 slams +24 (1d8+10 plus distraction)
+Spec Att: slashing sand
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Sandsight
+::: statblock
+Ability scores: Str 31, Dex 22, Con 21, Int 12, Wis 12, Cha 13
+Base attack bonus: +14
+Combat maneuver bonus: +24 (+26 sunder)
+Combat maneuver defense: 41 (43 vs. sunder)
+Feats: Dodge, Improved Iron Will, Improved Sunder, Iron Will, Mobility, Power Attack, Step Up
+Skills: Acrobatics +20, Fly +23, Intimidate +18, Knowledge (planes) +18, Linguistics +4, Perception +18
+Racial Modifiers: +8 Stealth in sand
+Languages: Aquan, Auran, Common, Ignan, Terran
+Special qualities: [change shape](ref/umr/change-shape) (humanoid form or sandstorm form; [polymorph](ref/spell/polymorph)), [compression](ref/umr/compression)
+:::
 
-**Subtype:** Earth, Elemental
+### Ecology {#stat-ecology}
 
-**tremorsense:** 60
-
-**Experience points:** 12,800
-
-**Armor class:** 26
-
-**Touch:** 17
-
-**Flat-footed:** 19
-
-**AC modifiers:** +6 Dex, +1 dodge, +9 natural
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +9
-
-**Ref:** +15
-
-**Will:** +12
-
-**Dr:** 10/-
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Distraction:** 22
-
-**Melee:** 2 slams +24 (1d8+10 plus distraction)
-
-**Spec Att:** slashing sand
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 22, Con 21, Int 12, Wis 12, Cha 13
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +24 (+26 sunder)
-
-**Combat maneuver defense:** 41 (43 vs. sunder)
-
-**Feats:** Dodge, Improved Iron Will, Improved Sunder, Iron Will, Mobility, Power Attack, Step Up
-
-**Skills:** Acrobatics +20, Fly +23, Intimidate +18, Knowledge (planes) +18, Linguistics +4,
-Perception +18
-
-**Racial Modifiers:** +8 Stealth in sand
-
-**Languages:** Aquan, Auran, Common, Ignan, Terran
-
-**Special qualities:** [change shape](ref/umr/change-shape) (humanoid form or sandstorm form;
-[polymorph](ref/spell/polymorph)), [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any desert ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any desert ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary, pair, or gang (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

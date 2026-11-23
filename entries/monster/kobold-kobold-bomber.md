@@ -32,96 +32,76 @@ abilities = ["8", "16", "8", "15", "13", "8"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 1
-
 **Kobold [alchemist](ref/class/alchemist)
 ([alchemical trapper](ref/arc-alchemist/alchemical-trapper)) 2**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1
+Type: humanoid
+Initiative: +3
+Alignment: Lawful evil
+Perception: +3
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 19
+Touch: 14
+Flat-footed: 16
+AC modifiers: +4 armor, +3 Dex, +1 natural, +1 size
+Hit points: 12 (2d8)
+Fort: +2
+Ref: +6
+Will: +1; +2 vs. poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +3
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: mwk spear +2 (1d6-1/×3)
+Ranged: sling +5 (1d3-1)
+Spec Att: bomb 6/day (1d6+2 fire, DC 13), bomb trap
+:::
 
-**Size:** small
-
-**Subtype:** Reptilian
-
-**Experience points:** 400
-
-**Armor class:** 19
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 armor, +3 Dex, +1 natural, +1 size
-
-**Hit points:** 12 (2d8)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +1; +2 vs. poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk spear +2 (1d6-1/×3)
-
-**Ranged:** sling +5 (1d3-1)
-
-**Spec Att:** bomb 6/day (1d6+2 fire, DC 13), bomb trap
-
-**Spellcasting**
-
-**Caster level:** 2
-
-**1st-level spells:**
-
-- abjuring step, endure elements, shield
+::: statblock
+title = "Spellcasting"
+Caster level: 2
+1st-level spells: abjuring step, endure elements, shield
+:::
 
 ### Tactics
 
 **During Combat** The kobold uses her mutagen and extracts to strengthen her defense, and throws
 bombs at her enemies.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 8, Dex 16, Con 8, Int 15, Wis 13, Cha 8
+::: statblock
+Ability scores: Str 8, Dex 16, Con 8, Int 15, Wis 13, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: -1
+Combat maneuver defense: 12
+Feats: Brew Potion, Extra Bombs, Throw Anything
+Skills: Acrobatics +3, Craft (trapmaking) +9, Stealth +10
+Racial Modifiers: +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)
+Languages: Common, Draconic, Gm, Goblin
+Special qualities: alchemy (alchemy crafting +2, identify potions), crafty, mutagen (+4/-2, +2 natural, 20 minutes), [poison use](ref/ability/poison-use)
+Combat gear: potion of invisibility, acid, 3 alchemist's fire
+Other gear: chain shirt, mwk spear, sling, 8 gp
+:::
 
-**Base attack bonus:** +1
+### Ecology
 
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Brew Potion, Extra Bombs, Throw Anything
-
-**Skills:** Acrobatics +3, Craft (trapmaking) +9, Stealth +10
-
-**Racial Modifiers:** +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)
-
-**Languages:** Common, Draconic, Gm, Goblin
-
-**Special qualities:** alchemy (alchemy crafting +2, identify potions), crafty, mutagen (+4/-2, +2
-natural, 20 minutes), [poison use](ref/ability/poison-use)
-
-**Combat gear:** potion of invisibility, acid, 3 alchemist's fire
-
-**Other gear:** chain shirt, mwk spear, sling, 8 gp
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
+::: statblock
+Environment: temperate underground or deep forest
+:::
 
 ### Description
 

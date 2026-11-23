@@ -30,100 +30,75 @@ abilities = ["21", "11", "20", "8", "18", "15"]
 _This amorphous creature resembles a golden-hued jellyfish that floats through the air, fleshy
 tentacles dangling down in a line._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+blindsense: 120
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +18
+Senses: Darkvision 60 ft.
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +10 natural, -1 size
+Hit points: 104 (11d8+55)
+Fort: +8
+Ref: +5
+Will: +13
+Amorph: present
+Defensive abilities: lulling thoughts
+Regen: 2 (acid)
+Weaknesses: ley line dependency
+:::
 
-**Initiative:** +0
+### Offense
 
-**Size:** large
+::: statblock
+Speed: fly 40 ft. (good)
+Constrict: 1d6+5
+Engulf: DC 20, 1d6 acid and paralysis
+Melee: 2 slams +13 (1d6+5 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +13
+Per day: 3/day: mental block (DC 14), synesthesia (DC 15)\
+1/day: id insinuation IV (DC 17)
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 21, Dex 11, Con 20, Int 8, Wis 18, Cha 15
+Base attack bonus: +8
+Combat maneuver bonus: +14
+Combat maneuver defense: 24 (can't be tripped)
+Feats: Combat Reflexes, Iron Will, Lightning Reflexes, Lunge, Power Attack, Weapon Focus (slam)
+Skills: Acrobatics +3, Fly +10, Perception +18, Perform (sing) +17, Stealth +5
+Racial Modifiers: +4 Perform (sing)
+Languages: Brethedan; [telepathy](ref/umr/telepathy) (touch)
+Special qualities: atavistic fury, sense ley line
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +10 natural, -1 size
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +13
-
-**Amorph:** present
-
-**Defensive abilities:** lulling thoughts
-
-**Regen:** 2 (acid)
-
-**Weaknesses:** ley line dependency
-
-**Offense**
-
-**Speed:** fly 40 ft. (good)
-
-**Constrict:** 1d6+5
-
-**Engulf:** DC 20, 1d6 acid and paralysis
-
-**Melee:** 2 slams +13 (1d6+5 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +13
-
-**Per day:**
-
-- 3/day: mental block (DC 14), synesthesia (DC 15)
-- 1/day: id insinuation IV (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 11, Con 20, Int 8, Wis 18, Cha 15
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 24 (can't be tripped)
-
-**Feats:** Combat Reflexes, Iron Will, Lightning Reflexes, Lunge, Power Attack, Weapon Focus (slam)
-
-**Skills:** Acrobatics +3, Fly +10, Perception +18, Perform (sing) +17, Stealth +5
-
-**Racial Modifiers:** +4 Perform (sing)
-
-**Languages:** Brethedan; [telepathy](ref/umr/telepathy) (touch)
-
-**Special qualities:** atavistic fury, sense ley line
-
-**Ecology**
-
-**Environment:** any sky
-
-**Organization:** solitary, pair, or flotilla (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any sky
+Organization: solitary, pair, or flotilla (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

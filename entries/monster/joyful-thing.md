@@ -32,96 +32,71 @@ abilities = ["10", "6", "15", "16", "11", "17"]
 _This slug-like humanoid has neither arms nor legs and is covered in spiked, rusted chains. Its
 lolling tongue drips with thick saliva._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 2,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 19
+AC modifiers: -2 Dex, +8 natural, +3 profane
+Hit points: 68 (8d10+24)
+Fort: +11
+Ref: +5
+Will: +9
+Immune: fear, pain effects
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft.
+Melee: spiked chain +11/+6 (2d4+3 plus [grab](ref/umr/grab))
+Spec Att: taste fear
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: levitate, mage hand
+At will: bane (DC 14), cause fear (DC 14), command (DC 14), darkness
+Per day: 3/day: bestow curse (DC 16), crushing despair (DC 17), hold person (DC 15), mirror image\
+1/day: augury, summon (level 3, 1 augur kyton 35%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native
+::: statblock
+Ability scores: Str 10, Dex 6, Con 15, Int 16, Wis 11, Cha 17
+Base attack bonus: +8
+Combat maneuver bonus: +8 (+10 grapple)
+Combat maneuver defense: 19 (21 vs. grapple, can't be tripped)
+Feats: Improved Grapple, Improved Initiative, Lightning Reflexes, Toughness
+Skills: Diplomacy +14, Sense Motive +11, Spellcraft +14
+Languages: Common, Hallit, Shadowtongue
+Special qualities: blessing of pain, exploid pain, umbral embrace
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** -2 Dex, +8 natural, +3 profane
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +11
-
-**Ref:** +5
-
-**Will:** +9
-
-**Immune:** fear, pain effects
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** spiked chain +11/+6 (2d4+3 plus [grab](ref/umr/grab))
-
-**Spec Att:** taste fear
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- levitate, mage hand
-
-**At will:**
-
-- bane (DC 14), cause fear (DC 14), command (DC 14), darkness
-
-**Per day:**
-
-- 3/day: bestow curse (DC 16), crushing despair (DC 17), hold person (DC 15), mirror image
-- 1/day: augury, summon (level 3, 1 augur kyton 35%)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 6, Con 15, Int 16, Wis 11, Cha 17
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +8 (+10 grapple)
-
-**Combat maneuver defense:** 19 (21 vs. grapple, can't be tripped)
-
-**Feats:** Improved Grapple, Improved Initiative, Lightning Reflexes, Toughness
-
-**Skills:** Diplomacy +14, Sense Motive +11, Spellcraft +14
-
-**Languages:** Common, Hallit, Shadowtongue
-
-**Special qualities:** blessing of pain, exploid pain, umbral embrace
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or coven (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or coven (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

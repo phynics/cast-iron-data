@@ -31,93 +31,69 @@ abilities = ["26", "12", "22", "7", "13", "15"]
 _This minuscule, fleshy plant creature has mottled, green-and-black skin and tiny eyes that peer
 malevolently from beneath layers of dripping, fungal hair._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +5
+Alignment: Neutral evil
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Experience points: 12,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 27
+Touch: 12
+Flat-footed: 26
+AC modifiers: +1 Dex, +15 natural, +1 size
+Hit points: 168 (16d8+96)
+Fort: +16
+Ref: +8
+Will: +6
+Immune: electricity, [plant traits](ref/umr/plant-traits), sonic
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +14
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft.
+Melee: bite +21 (2d6+8/19-20), 3 slams +21 (1d8+8 plus choking fungus)
+Spec Att: choking fungus, rotten flesh
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+Constant: pass without trace
+Per day: 3/day: entangle, underground only; DC 13
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 26, Dex 12, Con 22, Int 7, Wis 13, Cha 15
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 30
+Feats: Alertness, Combat Reflexes, Diehard, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Lunge, Power Attack
+Skills: Perception +14, Sense Motive +3, Stealth +16 (+20 when underground)
+Racial Modifiers: +4 Stealth when underground
+Languages: Abyssal, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (Small fungus; [tree shape](ref/spell/tree-shape))
+:::
 
-**Armor class:** 27
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +15 natural, +1 size
-
-**Hit points:** 168 (16d8+96)
-
-**Fort:** +16
-
-**Ref:** +8
-
-**Will:** +6
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits), sonic
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +21 (2d6+8/19-20), 3 slams +21 (1d8+8 plus choking fungus)
-
-**Spec Att:** choking fungus, rotten flesh
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Constant:**
-
-- pass without trace
-
-**Per day:**
-
-- 3/day: entangle, underground only; DC 13
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 12, Con 22, Int 7, Wis 13, Cha 15
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 30
-
-**Feats:** Alertness, Combat Reflexes, Diehard, Improved Critical (bite), Improved Initiative,
-Lightning Reflexes, Lunge, Power Attack
-
-**Skills:** Perception +14, Sense Motive +3, Stealth +16 (+20 when underground)
-
-**Racial Modifiers:** +4 Stealth when underground
-
-**Languages:** Abyssal, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small fungus;
-[tree shape](ref/spell/tree-shape))
-
-**Ecology**
-
-**Environment:** temperate forests or underground
-
-**Organization:** solitary, pair, or infestation (8-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests or underground
+Organization: solitary, pair, or infestation (8-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

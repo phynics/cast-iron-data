@@ -32,80 +32,63 @@ abilities = ["12", "17", "13", "12", "12", "8"]
 _Its slick skin a mottled pattern of bright colors, this agile, frog-like humanoid carries a bow and
 wears leather armor._
 
-**Challenge rating:** 1/2
-
 **Grippli [ranger](ref/class/ranger) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +3
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Grippli
+Experience points: 200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 armor, +3 Dex, +1 size
+Hit points: 12 (1d10+2)
+Fort: +3
+Ref: +5
+Will: +1
+:::
 
-**Perception:** +5
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Fav En: vermin +2
+Melee: short sword +3 (1d4+1/19-20)
+Ranged: dart +5 (1d3+1) or net +5 (special)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Grippli
+::: statblock
+Ability scores: Str 12, Dex 17, Con 13, Int 12, Wis 12, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Self-Sufficient
+Skills: Acrobatics +4, Climb +13, Perception +5
+Racial Modifiers: +4 Stealth in forests or marshes
+Languages: Common, Grippli
+Special qualities: swamp stride, track, [wild empathy](ref/ability/wild-empathy)
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +3 Dex, +1 size
-
-**Hit points:** 12 (1d10+2)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Fav En:** vermin +2
-
-**Melee:** short sword +3 (1d4+1/19-20)
-
-**Ranged:** dart +5 (1d3+1) or net +5 (special)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 13, Int 12, Wis 12, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Self-Sufficient
-
-**Skills:** Acrobatics +4, Climb +13, Perception +5
-
-**Racial Modifiers:** +4 Stealth in forests or marshes
-
-**Languages:** Common, Grippli
-
-**Special qualities:** swamp stride, track, [wild empathy](ref/ability/wild-empathy)
-
-**Ecology**
-
-**Environment:** warm forests or marshes
-
-**Organization:** solitary, gang (2-5), pack (6-11), or tribe (21-30 plus 1 cleric leader of 3rd
-level)
-
-**Treasure:** NPC gear (leather armor, 4 dart, net, short sword); other treasure
+::: statblock
+Environment: warm forests or marshes
+Organization: solitary, gang (2-5), pack (6-11), or tribe (21-30 plus 1 cleric leader of 3rd level)
+Treasure: NPC gear (leather armor, 4 dart, net, short sword); other treasure
+:::
 
 ### Special Abilities
 

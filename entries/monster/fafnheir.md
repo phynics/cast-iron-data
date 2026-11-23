@@ -30,105 +30,73 @@ abilities = ["45", "30", "36", "18", "27", "29"]
 _The scales of this craggy serpentine dragon are scarred and blackened. Its eyes flare with
 nightmarish power, and its mouth drips with liquid flame._
 
-**Challenge rating:** 24
+::: statblock
+Challenge rating: 24
+Alignment: Chaotic evil
+Size: colossal
+Type: dragon
+Initiative: +14
+Perception: +46
+Senses: Darkvision 60 ft., Low-light vision, Scent, True seeing
+Experience points: 1,228,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 42
+Touch: 12
+Flat-footed: 32
+AC modifiers: +10 Dex, +30 natural, -8 size
+Hit points: 526 (27d12+351)
+Fort: +28
+Ref: +25
+Will: +23
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/cold iron and epic
+Immune: curse effects, dragon traits, electricity, fire, mind-affecting effects, paralysis, poison, sleep
+Sr: 35
+:::
 
-**Type:** dragon
+### Offense
 
-**Initiative:** +14
+::: statblock
+Speed: 50 ft., burrow 30 ft., swim 50 ft., fly 100 ft. (average)
+Constrict: tail, 4d6+8
+Melee: bite +36 (6d6+17/19-20 plus poison), 2 claws +36 (2d8+17/19-20), gore +36 (4d6+17/19-20), tail slap +31 (4d6+8 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 30
+Spec Att: breath weapon, death curse
+:::
 
-**Perception:** +46
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +29
+At will: greater dispel magic
+Per day: 3/day: quickened greater dispel magic, limited wish, plane shift, between First World and Material Plane only, spell turning, wall of force
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
+### Statistics
 
-**Experience points:** 1,228,800
+::: statblock
+Ability scores: Str 45, Dex 30, Con 36, Int 18, Wis 27, Cha 29
+Base attack bonus: +27
+Combat maneuver bonus: +52 (+56 grapple)
+Combat maneuver defense: 72 (can't be tripped)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Bull Rush, Improved Critical (bite), Improved Critical (claws), Improved Critical (gore), Improved Initiative, Improved Vital Strike, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater dispel magic), Staggering Critical, Vital Strike
+Skills: Fly +32, Use Magic Device +39
+Racial Modifiers: +8 Perception
+Languages: Aklo, Common, Draconic, Skald, Sylvan
+:::
 
-**Armor class:** 42
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 32
-
-**AC modifiers:** +10 Dex, +30 natural, -8 size
-
-**Hit points:** 526 (27d12+351)
-
-**Fort:** +28
-
-**Ref:** +25
-
-**Will:** +23
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/cold iron and epic
-
-**Immune:** curse effects, dragon traits, electricity, fire, mind-affecting effects, paralysis,
-poison, sleep
-
-**Sr:** 35
-
-**Offense**
-
-**Speed:** 50 ft., burrow 30 ft., swim 50 ft., fly 100 ft. (average)
-
-**Constrict:** tail, 4d6+8
-
-**Melee:** bite +36 (6d6+17/19-20 plus poison), 2 claws +36 (2d8+17/19-20), gore +36 (4d6+17/19-20),
-tail slap +31 (4d6+8 plus [grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** breath weapon, death curse
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +29
-
-**At will:**
-
-- greater dispel magic
-
-**Per day:**
-
-- 3/day: quickened greater dispel magic, limited wish, plane shift, between First World and Material
-  Plane only, spell turning, wall of force
-
-**Statistics**
-
-**Ability scores:** Str 45, Dex 30, Con 36, Int 18, Wis 27, Cha 29
-
-**Base attack bonus:** +27
-
-**Combat maneuver bonus:** +52 (+56 grapple)
-
-**Combat maneuver defense:** 72 (can't be tripped)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Bull Rush,
-Improved Critical (bite), Improved Critical (claws), Improved Critical (gore), Improved Initiative,
-Improved Vital Strike, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(greater dispel magic), Staggering Critical, Vital Strike
-
-**Skills:** Fly +32, Use Magic Device +39
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Aklo, Common, Draconic, Skald, Sylvan
-
-**Ecology**
-
-**Environment:** any (Grungir Forest)
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any (Grungir Forest)
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

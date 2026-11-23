@@ -32,79 +32,62 @@ abilities = ["22", "1", "20", "-", "1", "1"]
 _This grotesque mass of blubber and rancid flesh piles up hideously upon itself, opening a vast maw
 filled with teeth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: [stench](ref/umr/stench) (DC 18, 10 rounds)
+Initiative: -5
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 18, 10 rounds)
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 16
+Touch: 4
+Flat-footed: 16
+AC modifiers: -5 Dex, +12 natural, -1 size
+Hit points: 57 (6d8+30)
+Fort: +7
+Ref: -3
+Will: -3
+Immune: acid, bludgeoning and piercing damage, [ooze traits](ref/umr/ooze-traits)
+Resist: cold 10, electricity 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 40 ft.
+Constrict: 2d6+9
+Melee: slam +9 (2d6+9 plus [grab](ref/umr/grab) and nausea)
+Reach: 5
+Space: 10
+Spec Att: create spawn
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 22, Dex 1, Con 20, Int -, Wis 1, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +11 (+15 grapple)
+Combat maneuver defense: 16 (can't be tripped)
+Skills: Swim +14
+Special qualities: decompose, water dependency
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 16
-
-**Touch:** 4
-
-**Flat-footed:** 16
-
-**AC modifiers:** -5 Dex, +12 natural, -1 size
-
-**Hit points:** 57 (6d8+30)
-
-**Fort:** +7
-
-**Ref:** -3
-
-**Will:** -3
-
-**Immune:** acid, bludgeoning and piercing damage, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** cold 10, electricity 10
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**Constrict:** 2d6+9
-
-**Melee:** slam +9 (2d6+9 plus [grab](ref/umr/grab) and nausea)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** create spawn
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 1, Con 20, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +11 (+15 grapple)
-
-**Combat maneuver defense:** 16 (can't be tripped)
-
-**Skills:** Swim +14
-
-**Special qualities:** decompose, water dependency
-
-**Ecology**
-
-**Environment:** any oceans or coastlines
-
-**Organization:** solitary, pair, or beaching (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans or coastlines
+Organization: solitary, pair, or beaching (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

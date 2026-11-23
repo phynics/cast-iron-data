@@ -32,77 +32,61 @@ abilities = ["19", "16", "18", "12", "13", "15"]
 _Hair like rotting seaweed drapes this ancient witch. Loose, algae-colored skin sags off her starved
 frame._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: horrific appearance (60 ft.)
+Alignment: Chaotic evil
+Initiative: +3
+Size: medium
+Type: Monstrous humanoid
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 1,200
+:::
 
-**aura:** horrific appearance (60 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 Dex, +3 natural
+Hit points: 38 (4d10+16)
+Fort: +5
+Ref: +7
+Will: +5
+Sr: 15
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Melee: 2 claws +8 (1d6+4)
+Spec Att: evil eye
+:::
 
-**Type:** Monstrous humanoid
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 19, Dex 16, Con 18, Int 12, Wis 13, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Skill Focus (Bluff, Perception)
+Skills: Bluff +9, Knowledge (any one) +5, Perception +11, Stealth +10, Swim +19
+Languages: Common, Giant
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +3 natural
-
-**Hit points:** 38 (4d10+16)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +5
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Melee:** 2 claws +8 (1d6+4)
-
-**Spec Att:** evil eye
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 16, Con 18, Int 12, Wis 13, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Skill Focus (Bluff, Perception)
-
-**Skills:** Bluff +9, Knowledge (any one) +5, Perception +11, Stealth +10, Swim +19
-
-**Languages:** Common, Giant
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any aquatic
-
-**Organization:** solitary or coven (3 hags of any kind)
-
-**Treasure:** Standard
+::: statblock
+Environment: any aquatic
+Organization: solitary or coven (3 hags of any kind)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

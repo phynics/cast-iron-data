@@ -30,106 +30,68 @@ special_qualities = "icicle 9/day (1d6+3)"
 abilities = ["34", "8", "18", "13", "23", "14"]
 +++
 
-**Challenge rating:** 13
-
 **[Frost giant](ref/monster/giant-frost-frost-giant) [cleric](ref/class/cleric) 8**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: large
+Perception: +30
+Senses: Low-light vision
+Subtype: Cold, Giant
+Experience points: 25,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 27
+Touch: 9
+Flat-footed: 27
+AC modifiers: +8 armor, +1 deflection, -1 Dex, +10 natural, -1 size
+Hit points: 195 (22d8+96)
+Fort: +19
+Ref: +7
+Will: +16
+Immune: cold
+Rock Ct: present
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +30
+::: statblock
+Speed: 30 ft.
+Ch N En: 5/day, DC 16, 4d6
+Melee: +1 battleaxe +28/+23/+18/+13 (2d6+13/×3)
+Ranged: rock +14 (1d8+18)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: might of the gods (+8, 8 rounds/day), weapon master (8 rounds/day)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +14
+Per day: 9/day: strength surge, +4\
+9/day: battle rage, +4
+:::
 
-**Subtype:** Cold, Giant
-
-**Experience points:** 25,600
-
-**Armor class:** 27
-
-**Touch:** 9
-
-**Flat-footed:** 27
-
-**AC modifiers:** +8 armor, +1 deflection, -1 Dex, +10 natural, -1 size
-
-**Hit points:** 195 (22d8+96)
-
-**Fort:** +19
-
-**Ref:** +7
-
-**Will:** +16
-
-**Immune:** cold
-
-**Rock Ct:** present
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** 5/day, DC 16, 4d6
-
-**Melee:** +1 battleaxe +28/+23/+18/+13 (2d6+13/×3)
-
-**Ranged:** rock +14 (1d8+18)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** might of the gods (+8, 8 rounds/day), weapon master (8 rounds/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +14
-
-**Per day:**
-
-- 9/day: strength surge, +4
-- 9/day: battle rage, +4
-
-**Prepared Spells**
-
-**Caster level:** 8
-
-**Concentration:** +14
-
-**4th-level spells:**
-
-- blessing of fervor, communal protection from energy, divine power^D^, unholy blight (DC 20)
-
-**3rd-level spells:**
-
-- enter image, invisibility purge, magic vestment^D^, protection from energy, sacred bond
-
-**2nd-level spells:**
-
-- align weapon, death knell (DC 18), hold person (DC 18), magic boulder, spiritual weapon^D^, weapon
-  of awe
-
-**1st-level spells:**
-
-- bane (DC 17), bless, command (DC 17), cure light wounds, divine favor, enlarge person^D^ (DC 17),
-  shield of faith
-
-**Cantrips:**
-
-- detect magic, guidance, mending, read magic
-
-**Domains:** Strength, [War](ref/domain/war)
+::: statblock
+title = "Prepared Spells"
+Caster level: 8
+Concentration: +14
+4th-level spells: blessing of fervor, communal protection from energy, divine power^D^, unholy blight (DC 20)
+3rd-level spells: enter image, invisibility purge, magic vestment^D^, protection from energy, sacred bond
+2nd-level spells: align weapon, death knell (DC 18), hold person (DC 18), magic boulder, spiritual weapon^D^, weapon of awe
+1st-level spells: bane (DC 17), bless, command (DC 17), cure light wounds, divine favor, enlarge person^D^ (DC 17), shield of faith
+Cantrips: detect magic, guidance, mending, read magic
+Domains: Strength, [War](ref/domain/war)
+:::
 
 ###### D {#footnote-d}
 
@@ -143,40 +105,27 @@ Domain spell
 **During Combat** The battle priest opens combat by casting divine power, then uses spells like
 blessing of fervor to support allies and unholy blight to harm opponents.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 34, Dex 8, Con 18, Int 13, Wis 23, Cha 14
+::: statblock
+Ability scores: Str 34, Dex 8, Con 18, Int 13, Wis 23, Cha 14
+Base attack bonus: +16
+Combat maneuver bonus: +29 (+31 sunder)
+Combat maneuver defense: 39 (41 vs. sunder)
+Feats: Brew Potion, Cleave, Combat Casting, Craft Magic Arms and Armor, Craft Wand, Great Cleave, Improved Sunder, Lightning Reflexes, Martial Weapon Proficiency (battleaxe), Power Attack, Vital Strike
+Skills: Climb +17, Craft (armor) +10, Intimidate +15, Knowledge (religion) +14, Perception +30, Spellcraft +7, Stealth +1 (+5 in snow)
+Racial Modifiers: +4 Stealth in snow
+Languages: Abyssal, Common, Giant
+Special qualities: icicle 9/day (1d6+3)
+Combat gear: 2 potion of bull's strength, 4 potion of cure serious wounds, 2 potion of protection from energy, potion of water breathing, Dcure critical wounds/15 charges, Dcure moderate wounds/15 charges
+Other gear: mwk chainmail, +1 battleaxe, Iamu1, I-boots of the winterlands, Ihbw2, ring of prot1, ring of ring of sustenance, 2 golden bracelets for sacred bond, silver unholy symbol, scp, 4,410 gp
+:::
 
-**Base attack bonus:** +16
+### Ecology
 
-**Combat maneuver bonus:** +29 (+31 sunder)
-
-**Combat maneuver defense:** 39 (41 vs. sunder)
-
-**Feats:** Brew Potion, Cleave, Combat Casting, Craft Magic Arms and Armor, Craft Wand, Great
-Cleave, Improved Sunder, Lightning Reflexes, Martial Weapon Proficiency (battleaxe), Power Attack,
-Vital Strike
-
-**Skills:** Climb +17, Craft (armor) +10, Intimidate +15, Knowledge (religion) +14, Perception +30,
-Spellcraft +7, Stealth +1 (+5 in snow)
-
-**Racial Modifiers:** +4 Stealth in snow
-
-**Languages:** Abyssal, Common, Giant
-
-**Special qualities:** icicle 9/day (1d6+3)
-
-**Combat gear:** 2 potion of bull's strength, 4 potion of cure serious wounds, 2 potion of
-protection from energy, potion of water breathing, Dcure critical wounds/15 charges, Dcure moderate
-wounds/15 charges
-
-**Other gear:** mwk chainmail, +1 battleaxe, Iamu1, I-boots of the winterlands, Ihbw2, ring of
-prot1, ring of ring of sustenance, 2 golden bracelets for sacred bond, silver unholy symbol, scp,
-4,410 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

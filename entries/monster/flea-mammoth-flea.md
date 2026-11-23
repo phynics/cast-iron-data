@@ -31,85 +31,67 @@ abilities = ["13", "17", "13", "-", "11", "6"]
 _This mammoth flea is size of a horse. Its legs dangle awkwardly from its great, swollen body
 armored entirely in disfigured plates._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 9
+AC modifiers: +3 Dex, +1 dodge, -1 size
+Hit points: 22 (4d8+4)
+Fort: +5
+Ref: +4
+Will: +1
+Dr: 5/slashing
+Immune: disease, mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+B Drain: 1d2 Con
+Melee: bite +4 (1d8+3 plus blood drain and disease)
+Reach: 10
+Space: 10
+Spec Att: disease
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
-
-**Experience points:** 600
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 9
-
-**AC modifiers:** +3 Dex, +1 dodge, -1 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +1
-
-**Dr:** 5/slashing
-
-**Immune:** disease, mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**B Drain:** 1d2 Con
-
-**Melee:** bite +4 (1d8+3 plus blood drain and disease)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** disease
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 13, Int -, Wis 11, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dodge^B^
-
-**Skills:** Acrobatics +0 (+20 when jumping)
-
-**Racial Modifiers:** +20 Acrobatics when jumping
-
-**Special qualities:** uncanny leap (see [giant flea](ref/monster/flea-giant-flea))
+::: statblock
+Ability scores: Str 13, Dex 17, Con 13, Int -, Wis 11, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Dodge^B^
+Skills: Acrobatics +0 (+20 when jumping)
+Racial Modifiers: +20 Acrobatics when jumping
+Special qualities: uncanny leap (see [giant flea](ref/monster/flea-giant-flea))
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate forests, hills, mountains, or plains
-
-**Organization:** solitary, pair, or cluster (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests, hills, mountains, or plains
+Organization: solitary, pair, or cluster (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

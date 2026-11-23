@@ -31,83 +31,64 @@ abilities = ["-", "21", "14", "5", "12", "15"]
 _The painted ochre lines of this stylized bison seem to shift and flow, giving the primitive drawing
 an eerie sense of life and otherworldly majesty._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+aura: captivating artistry (30 ft., DC 15)
+blindsight: 30
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Perception: +5
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** captivating artistry (30 ft., DC 15)
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 12
+AC modifiers: +2 deflection, +5 Dex, +1 dodge
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +7
+Will: +6
+Amorph: present
+Immune: bleed, disease, paralysis, poison, stunning
+Weaknesses: vulnerable to _[erase](ref/spell/erase)_
+:::
 
-**blindsight:** 30
+### Offense
 
-**Initiative:** +9
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: ocherous touch +9 touch (1d6 plus 2d6 bleed)
+Reach: 0
+Space: 5
+Spec Att: manifestation, ocherous touch
+:::
 
-**Size:** medium
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str -, Dex 21, Con 14, Int 5, Wis 12, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +4
+Combat maneuver defense: 22 (can't be tripped)
+Feats: Dodge, Improved Initiative, Mobility
+Skills: Climb +8, Perception +5, Stealth +13
+Languages: Terran (can't speak)
+Special qualities: [compression](ref/umr/compression), [freeze](ref/umr/freeze), two-dimensional
+:::
 
-**Perception:** +5
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 deflection, +5 Dex, +1 dodge
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +6
-
-**Amorph:** present
-
-**Immune:** bleed, disease, paralysis, poison, stunning
-
-**Weaknesses:** vulnerable to _[erase](ref/spell/erase)_
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** ocherous touch +9 touch (1d6 plus 2d6 bleed)
-
-**Reach:** 0
-
-**Space:** 5
-
-**Spec Att:** manifestation, ocherous touch
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 21, Con 14, Int 5, Wis 12, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Mobility
-
-**Skills:** Climb +8, Perception +5, Stealth +13
-
-**Languages:** Terran (can't speak)
-
-**Special qualities:** [compression](ref/umr/compression), [freeze](ref/umr/freeze), two-dimensional
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or collection (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or collection (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

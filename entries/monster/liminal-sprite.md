@@ -31,95 +31,71 @@ abilities = ["8", "17", "14", "15", "12", "15"]
 _This creature resembles an elven courtier in miniature, dressed in the latest fashion and moth-like
 wings on its back._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +7
+Perception: +7
+Senses: Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 natural, +2 size
+Hit points: 16 (3d6+6)
+Fort: +3
+Ref: +6
+Will: +4
+Dr: 5/cold iron
+Immune: sleep
+Sr: 13
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Melee: rapier +6 (1d3-1/18-20)
+Reach: 0
+Space: 2-1/2
+Spec Att: repartee
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+At will: daze (DC 12), prestidigitation
+Per day: 3/day: fumbletongue (DC 13), invisibility, self only, memory lapse (DC 13)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 8, Dex 17, Con 14, Int 15, Wis 12, Cha 15
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 11
+Feats: Improved Initiative, Weapon Finesse
+Skills: Diplomacy +8, Perform (comedy) +8, Sense Motive +7, Stealth +17
+Languages: Elven, Common, Sylvan
+Special qualities: versatile performance
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 natural, +2 size
-
-**Hit points:** 16 (3d6+6)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +4
-
-**Dr:** 5/cold iron
-
-**Immune:** sleep
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Melee:** rapier +6 (1d3-1/18-20)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** repartee
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**At will:**
-
-- daze (DC 12), prestidigitation
-
-**Per day:**
-
-- 3/day: fumbletongue (DC 13), invisibility, self only, memory lapse (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 17, Con 14, Int 15, Wis 12, Cha 15
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Diplomacy +8, Perform (comedy) +8, Sense Motive +7, Stealth +17
-
-**Languages:** Elven, Common, Sylvan
-
-**Special qualities:** versatile performance
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or court (3-6)
-
-**Treasure:** Standard (rapier); other treasure
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or court (3-6)
+Treasure: Standard (rapier); other treasure
+:::
 
 ### Special Abilities
 

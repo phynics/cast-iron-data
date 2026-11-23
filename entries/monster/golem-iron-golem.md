@@ -30,71 +30,58 @@ abilities = ["32", "9", "-", "-", "11", "1"]
 _This iron automaton stands twice as tall as a normal human. Its heavy footfalls shake the ground
 with bone-jarring force._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 25,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 28
+Touch: 8
+Flat-footed: 28
+AC modifiers: -1 Dex, +20 natural, -1 size
+Hit points: 129 (18d10+30)
+Fort: +6
+Ref: +5
+Will: +6
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +28 (2d10+16/19-20)
+Reach: 10
+Space: 10
+Spec Att: breath weapon, powerful blows
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +18
+Combat maneuver bonus: +30
+Combat maneuver defense: 39
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 8
-
-**Flat-footed:** 28
-
-**AC modifiers:** -1 Dex, +20 natural, -1 size
-
-**Hit points:** 129 (18d10+30)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +6
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +28 (2d10+16/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** breath weapon, powerful blows
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 39
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

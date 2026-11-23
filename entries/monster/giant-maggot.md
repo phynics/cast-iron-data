@@ -33,65 +33,55 @@ abilities = ["10", "8", "16", "-", "5", "1"]
 _This enormous maggot has greasy, pale flesh and a dripping, circular mouth filled with tiny, sharp
 teeth._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: -3
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 200
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 9
+Touch: 9
+Flat-footed: 9
+AC modifiers: -1 Dex
+Hit points: 7 (1d8+3)
+Fort: +5
+Ref: -1
+Will: -3
+Immune: disease, mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** -3
+::: statblock
+Speed: 10 ft., burrow 5 ft.
+Melee: bite +0 (1d6)
+Spec Att: regurgitate
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 10, Dex 8, Con 16, Int -, Wis 5, Cha 1
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 9 (can't be tripped)
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 9
-
-**Touch:** 9
-
-**Flat-footed:** 9
-
-**AC modifiers:** -1 Dex
-
-**Hit points:** 7 (1d8+3)
-
-**Fort:** +5
-
-**Ref:** -1
-
-**Will:** -3
-
-**Immune:** disease, mind-affecting effects
-
-**Offense**
-
-**Speed:** 10 ft., burrow 5 ft.
-
-**Melee:** bite +0 (1d6)
-
-**Spec Att:** regurgitate
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 8, Con 16, Int -, Wis 5, Cha 1
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 9 (can't be tripped)
-
-**Ecology**
-
-**Environment:** any temperate or tropical
-
-**Organization:** solitary or swarm (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate or tropical
+Organization: solitary or swarm (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

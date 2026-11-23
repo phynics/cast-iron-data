@@ -30,69 +30,57 @@ abilities = ["15", "14", "13", "1", "12", "2"]
 
 _Deadly, wolf like teeth fill the mouth of this brawny fish._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +5
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 50 ft.
+Melee: bite +4 (1d6+3)
+Spec Att: interlocking bite
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 14, Con 13, Int 1, Wis 12, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +4 (+8 grapple)
+Combat maneuver defense: 16
+Feats: Skill Focus (Perception), Skill Focus (Swim)
+Skills: Perception +8, Stealth +6, Swim +17
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** swim 50 ft.
-
-**Melee:** bite +4 (1d6+3)
-
-**Spec Att:** interlocking bite
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 13, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4 (+8 grapple)
-
-**Combat maneuver defense:** 16
-
-**Feats:** Skill Focus (Perception), Skill Focus (Swim)
-
-**Skills:** Perception +8, Stealth +6, Swim +17
-
-**Ecology**
-
-**Environment:** warm rivers or swamps
-
-**Organization:** solitary, pair, group (3-5), or school (5-20)
-
-**Treasure:** None
+::: statblock
+Environment: warm rivers or swamps
+Organization: solitary, pair, group (3-5), or school (5-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

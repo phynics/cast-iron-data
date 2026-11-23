@@ -29,79 +29,62 @@ abilities = ["17", "15", "16", "5", "12", "9"]
 _This large leopard has six colorful snakes, hissing and ready to strike, sprouting from its
 shoulders._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 14
+AC modifiers: +2 Dex, +1 dodge, +5 natural, -1 size
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +6
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft.
+Br Weap: 30-ft. cone, sleep, Fortitude DC 15 negates, usable every 1d4 rounds
+Melee: bite +7 (1d6+3), 2 claws +7 (1d3+3), snakes +2 (1d4+1)
+Pounce: present
+Reach: 5
+Reach P: 10 ft. with snakes
+Space: 10
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 17, Dex 15, Con 16, Int 5, Wis 12, Cha 9
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Combat Reflexes, Dodge, Mobility
+Skills: Acrobatics +6 (+10 when jumping), Perception +8, Stealth +6
+Racial Modifiers: +4 Stealth
+Languages: Aklo
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +1 dodge, +5 natural, -1 size
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Br Weap:** 30-ft. cone, sleep, Fortitude DC 15 negates, usable every 1d4 rounds
-
-**Melee:** bite +7 (1d6+3), 2 claws +7 (1d3+3), snakes +2 (1d4+1)
-
-**Pounce:** present
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with snakes
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 16, Int 5, Wis 12, Cha 9
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Mobility
-
-**Skills:** Acrobatics +6 (+10 when jumping), Perception +8, Stealth +6
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** temperate or warm plains
-
-**Organization:** solitary, pair, or pack (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm plains
+Organization: solitary, pair, or pack (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

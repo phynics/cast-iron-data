@@ -32,80 +32,62 @@ abilities = ["24", "16", "19", "7", "12", "17"]
 _This grotesque, emerald-scaled creature resembles a crossbreed of an eel, a viperfish, and a clawed
 humanoid._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+blindsense: 30
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 21
+Touch: 14
+Flat-footed: 17
+AC modifiers: +3 Dex, +1 dodge, +7 natural
+Hit points: 102 (12d8+48)
+Fort: +8
+Ref: +9
+Will: +11
+Immune: disease
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Melee: bite +16 (1d8+7 plus disease), 2 claws +16 (1d6+7)
+Spec Att: light lure
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +12
+::: statblock
+Ability scores: Str 24, Dex 16, Con 19, Int 7, Wis 12, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Combat Reflexes, Critical Focus, Dodge, Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Perception +12, Swim +15
+Languages: Aklo, Aquan, Undercommon
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 14
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +1 dodge, +7 natural
-
-**Hit points:** 102 (12d8+48)
-
-**Fort:** +8
-
-**Ref:** +9
-
-**Will:** +11
-
-**Immune:** disease
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Melee:** bite +16 (1d8+7 plus disease), 2 claws +16 (1d6+7)
-
-**Spec Att:** light lure
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 16, Con 19, Int 7, Wis 12, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Improved Initiative, Iron Will, Lightning
-Reflexes
-
-**Skills:** Perception +12, Swim +15
-
-**Languages:** Aklo, Aquan, Undercommon
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** cold or temperate water or underground
-
-**Organization:** solitary, pair, or cell (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold or temperate water or underground
+Organization: solitary, pair, or cell (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -36,99 +36,73 @@ abilities = ["-", "16", "-", "13", "17", "18"]
 _This ghostly crusader floats just above the ground, yet despite its phantom-like appearance, its
 armor and weapons seem quite solid._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+blindsense: 60
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 4,800
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 22
+Touch: 17
+Flat-footed: 19
+AC modifiers: +4 armor, +4 deflection, +3 Dex, +1 shield
+Hit points: 93 (11d8+44)
+Fort: +7
+Ref: +6
+Will: +10
+Chan Res: +4
+Defensive abilities: rejuvenation
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Resist: acid 5, fire 5
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 30 ft. (good)
+Melee: longsword +11/+6 (1d8 force/19-20 plus 2d6 negative energy and despair), light shield +13 (1d3 force plus 2d6 negative energy and despair)
+Ranged: longbow +11/+6 (1d8 force/×3 plus 2d6 negative energy and despair)
+Spec Att: agent of despair, curse of the unburied, phantom armaments, touch of the grave
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Per day: 3/day: deeper darkness, telekinesis (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 16, Con -, Int 13, Wis 17, Cha 18
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 25
+Feats: Combat Expertise, Deadly Aim, Improved Shield Bash, Shield Slam, Two-Weapon Fighting, Weapon Focus (longsword)
+Skills: Fly +15, Intimidate +18, Knowledge (religion) +10, Perception +17
+Special qualities: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 17
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 armor, +4 deflection, +3 Dex, +1 shield
-
-**Hit points:** 93 (11d8+44)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +10
-
-**Chan Res:** +4
-
-**Defensive abilities:** rejuvenation
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Resist:** acid 5, fire 5
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** fly 30 ft. (good)
-
-**Melee:** longsword +11/+6 (1d8 force/19-20 plus 2d6 negative energy and despair), light shield +13
-(1d3 force plus 2d6 negative energy and despair)
-
-**Ranged:** longbow +11/+6 (1d8 force/×3 plus 2d6 negative energy and despair)
-
-**Spec Att:** agent of despair, curse of the unburied, phantom armaments, touch of the grave
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Per day:**
-
-- 3/day: deeper darkness, telekinesis (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 16, Con -, Int 13, Wis 17, Cha 18
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 25
-
-**Feats:** Combat Expertise, Deadly Aim, Improved Shield Bash, Shield Slam, Two-Weapon Fighting,
-Weapon Focus (longsword)
-
-**Skills:** Fly +15, Intimidate +18, Knowledge (religion) +10, Perception +17
-
-**Special qualities:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, squad (2-6), or platoon (7-16)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, squad (2-6), or platoon (7-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

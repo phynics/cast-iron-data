@@ -32,106 +32,77 @@ abilities = ["40", "11", "25", "12", "15", "18"]
 
 _This blue-skinned giant's clothing and beard whip about like sails caught in a storm._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: CG or CE
+Size: huge
+Type: humanoid
+Initiative: +4
+Perception: +24
+Senses: Low-light vision
+Subtype: Aquatic, Giant
+Experience points: 38,400
+:::
 
-**Alignment:** CG or CE
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 28
+Touch: 8
+Flat-footed: 28
+AC modifiers: +20 natural, -2 size
+Hit points: 218 (19d8+133)
+Fort: +18
+Ref: +8
+Will: +10
+Resist: cold 30, electricity 30
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 50 ft., swim 40 ft.
+Melee: mwk trident +29/+24/+19 (3d6+22) or 2 slams +27 (2d6+15)
+Ranged: rock +13 (2d8+22)
+Reach: 15
+Rock Th: 110 ft.
+Space: 15
+Spec Att: conch focus
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +18
+Constant: freedom of movement
+Per day: 3/day: aqueous orb (DC 17), control winds (DC 19), shout (DC 18), summon nature's ally VII, swimming creatures only, water breathing\
+1/day: vortex (DC 20)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic, Giant
-
-**Experience points:** 38,400
-
-**Armor class:** 28
-
-**Touch:** 8
-
-**Flat-footed:** 28
-
-**AC modifiers:** +20 natural, -2 size
-
-**Hit points:** 218 (19d8+133)
-
-**Fort:** +18
-
-**Ref:** +8
-
-**Will:** +10
-
-**Resist:** cold 30, electricity 30
-
-**Offense**
-
-**Speed:** 50 ft., swim 40 ft.
-
-**Melee:** mwk trident +29/+24/+19 (3d6+22) or 2 slams +27 (2d6+15)
-
-**Ranged:** rock +13 (2d8+22)
-
-**Reach:** 15
-
-**Rock Th:** 110 ft.
-
-**Space:** 15
-
-**Spec Att:** conch focus
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +18
-
-**Constant:**
-
-- freedom of movement
-
-**Per day:**
-
-- 3/day: aqueous orb (DC 17), control winds (DC 19), shout (DC 18), summon nature's ally VII,
-  swimming creatures only, water breathing
-- 1/day: vortex (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 11, Con 25, Int 12, Wis 15, Cha 18
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +31 (+33 bull rush)
-
-**Combat maneuver defense:** 41 (43 vs. bull rush)
-
-**Feats:** Augment Summoning^B^ (with conch), Combat Reflexes, Critical Focus, Improved Bull Rush,
-Improved Initiative, Iron Will, Lightning Reflexes, Martial Weapon Proficiency (trident), Power
-Attack, Vital Strike, Weapon Focus (trident)
-
-**Skills:** Intimidate +17, Knowledge (nature) +11, Perception +24, Swim +24
-
-**Languages:** Aquan, Common, Giant
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 40, Dex 11, Con 25, Int 12, Wis 15, Cha 18
+Base attack bonus: +14
+Combat maneuver bonus: +31 (+33 bull rush)
+Combat maneuver defense: 41 (43 vs. bull rush)
+Feats: Augment Summoning^B^ (with conch), Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Initiative, Iron Will, Lightning Reflexes, Martial Weapon Proficiency (trident), Power Attack, Vital Strike, Weapon Focus (trident)
+Skills: Intimidate +17, Knowledge (nature) +11, Perception +24, Swim +24
+Languages: Aquan, Common, Giant
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any oceans
-
-**Organization:** solitary, gang (2-5), family (2-5 plus 35% noncombatants and 1 druid or sorcerer
-of 4th-7th level)
-
-**Treasure:** Standard (mwk trident); other treasure
+::: statblock
+Environment: any oceans
+Organization: solitary, gang (2-5), family (2-5 plus 35% noncombatants and 1 druid or sorcerer of 4th-7th level)
+Treasure: Standard (mwk trident); other treasure
+:::
 
 ### Special Abilities
 

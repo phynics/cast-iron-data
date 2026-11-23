@@ -29,77 +29,63 @@ abilities = ["3", "12", "10", "-", "13", "5"]
 _This twitching, slithering coil of bright-green vines is covered with hooked thorns and tiny
 barbs._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Initiative: +1
+Alignment: Neutral
+Perception: +1
+Type: plant
+Senses: Blood sense, Low-light vision
+Size: tiny
+Experience points: 135
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +1
+Will: +1
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +1
+### Offense
 
-**Type:** plant
+::: statblock
+Speed: 15 ft., climb 15 ft.
+Melee: vine +3 (1d2-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Blood sense, Low-light vision
+### Statistics
 
-**Size:** tiny
-
-**Experience points:** 135
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 15 ft., climb 15 ft.
-
-**Melee:** vine +3 (1d2-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 12, Con 10, Int -, Wis 13, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5
-
-**Feats:** Weapon Finesse^B^
-
-**Skills:** Climb +4
-
-**Special qualities:** seal wound
+::: statblock
+Ability scores: Str 3, Dex 12, Con 10, Int -, Wis 13, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5
+Feats: Weapon Finesse^B^
+Skills: Climb +4
+Special qualities: seal wound
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or clinic (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or clinic (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

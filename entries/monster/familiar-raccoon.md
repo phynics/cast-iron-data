@@ -25,69 +25,57 @@ melee = "bite +4 (1d3-1)"
 abilities = ["8", "15", "11", "2", "16", "5"]
 +++
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +3
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 natural, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +4
+Will: +3
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite +4 (1d3-1)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 15, Con 11, Int 2, Wis 16, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 9 (13 vs. trip)
+Feats: Weapon Finesse
+Skills: Climb +10, Sleight of Hand +3
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 natural, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite +4 (1d3-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 11, Int 2, Wis 16, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 9 (13 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +10, Sleight of Hand +3
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or gaze (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or gaze (2-4)
+Treasure: None
+:::
 
 ### Description
 

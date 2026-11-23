@@ -36,80 +36,62 @@ abilities = ["25", "12", "18", "11", "16", "11"]
 _This towering menace has a horrible, vertically aligned mouth and arms that split at the elbows
 into twin clawed hands._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +1
+Size: large
+Perception: +27
+Senses: Darkvision 60 ft.
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 23
+AC modifiers: +1 Dex, +14 natural, -1 size
+Hit points: 127 (15d8+60)
+Fort: +9
+Ref: +6
+Will: +12
+Immune: disease, poison
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +17 (1d8+7), 4 claws +17 (1d6+7)
+Reach: 15
+Rend: 2 claws, 1d6+10
+Space: 10
+:::
 
-**Perception:** +27
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 25, Dex 12, Con 18, Int 11, Wis 16, Cha 11
+Base attack bonus: +11
+Combat maneuver bonus: +19
+Combat maneuver defense: 30
+Feats: Awesome Blow, Blind-Fight, Combat Reflexes, Greater Bull Rush, Improved Bull Rush, Lunge, Power Attack, Skill Focus (Perception)
+Skills: Climb +15, Escape Artist +13, Knowledge (dungeoneering) +10, Perception +27
+Racial Modifiers: +4 Escape Artist
+Languages: Undercommon
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +14 natural, -1 size
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +12
-
-**Immune:** disease, poison
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +17 (1d8+7), 4 claws +17 (1d6+7)
-
-**Reach:** 15
-
-**Rend:** 2 claws, 1d6+10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con 18, Int 11, Wis 16, Cha 11
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 30
-
-**Feats:** Awesome Blow, Blind-Fight, Combat Reflexes, Greater Bull Rush, Improved Bull Rush, Lunge,
-Power Attack, Skill Focus (Perception)
-
-**Skills:** Climb +15, Escape Artist +13, Knowledge (dungeoneering) +10, Perception +27
-
-**Racial Modifiers:** +4 Escape Artist
-
-**Languages:** Undercommon
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or camp (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or camp (3-10)
+Treasure: Standard
+:::
 
 ### Description
 

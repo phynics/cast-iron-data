@@ -28,85 +28,67 @@ special_qualities = "amphibious"
 abilities = ["18", "17", "16", "-", "13", "2"]
 +++
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 1,600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 16
+AC modifiers: +3 Dex, +7 natural, -1 size
+Hit points: 52 (7d8+21)
+Fort: +8
+Ref: +7
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Melee: 2 claws +8 (1d6+4), sting +8 (1d4+4 plus poison)
+Pounce: present
+Reach: 10
+Reach P: 15 ft. with sting
+Space: 10
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
-
-**tremorsense:** 30
-
-**Type:** vermin
-
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +7 natural, -1 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Melee:** 2 claws +8 (1d6+4), sting +8 (1d4+4 plus poison)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with sting
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 16, Int -, Wis 13, Cha 2
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23
-
-**Feats:** Improved Initiative, Lightning Reflexes^B^
-
-**Skills:** Swim +12
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 18, Dex 17, Con 16, Int -, Wis 13, Cha 2
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 23
+Feats: Improved Initiative, Lightning Reflexes^B^
+Skills: Swim +12
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate or warm ocean
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm ocean
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

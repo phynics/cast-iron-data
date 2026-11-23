@@ -31,79 +31,62 @@ abilities = ["1", "18", "15", "-", "10", "2"]
 _A mass of wriggling black creatures each the size of a man's finger stirs the stagnant water before
 enveloping its victim._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsight: 30
+Size: diminutive
+Initiative: +4
+Alignment: Neutral
+Perception: +0
+Subtype: Aquatic, Swarm
+Type: vermin
+Experience points: 1,200
+:::
 
-**blindsight:** 30
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 size
+Hit points: 39 (6d8+12)
+Fort: +7
+Ref: +6
+Will: +2
+Immune: mind-affecting effects, swarm traits, weapon damage
+Weaknesses: susceptible to salt (see [giant leech](ref/monster/leech-giant-leech))
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft., swim 30 ft.
+Distraction: 15
+Melee: swarm (2d6 plus poison)
+Reach: 0
+Space: 10
+Spec Att: blood drain
+:::
 
-**Perception:** +0
+### Statistics
 
-**Subtype:** Aquatic, Swarm
+::: statblock
+Ability scores: Str 1, Dex 18, Con 15, Int -, Wis 10, Cha 2
+Base attack bonus: +4
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Stealth +16 (+24 in swamps), Swim +12
+Racial Modifiers: +8 Stealth in swamps, uses Dexterity to modify Swim checks
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +2
-
-**Immune:** mind-affecting effects, swarm traits, weapon damage
-
-**Weaknesses:** susceptible to salt (see [giant leech](ref/monster/leech-giant-leech))
-
-**Offense**
-
-**Speed:** 5 ft., swim 30 ft.
-
-**Distraction:** 15
-
-**Melee:** swarm (2d6 plus poison)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** blood drain
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 18, Con 15, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Stealth +16 (+24 in swamps), Swim +12
-
-**Racial Modifiers:** +8 Stealth in swamps, uses Dexterity to modify Swim checks
-
-**Ecology**
-
-**Environment:** temperate or warm marshes
-
-**Organization:** solitary, pair, or infestation (3-6 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm marshes
+Organization: solitary, pair, or infestation (3-6 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

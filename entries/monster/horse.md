@@ -30,75 +30,62 @@ abilities = ["16", "14", "17", "2", "13", "7"]
 _This proud horse thunders across the grassy plain with fluid grace, wind tugging at its
 loose-fitting barding._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 9
+AC modifiers: +2 Dex, -1 size
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +5
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: 2 hooves -2 (1d4+1)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision, Scent
-
-**Experience points:** 400
-
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 9
-
-**AC modifiers:** +2 Dex, -1 size
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 2 hooves -2 (1d4+1)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 14, Con 17, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Endurance, Run^B^
-
-**Skills:** Perception +6
-
-**Special qualities:** docile
+::: statblock
+Ability scores: Str 16, Dex 14, Con 17, Int 2, Wis 13, Cha 7
+Base attack bonus: +1
+Combat maneuver bonus: +5
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Endurance, Run^B^
+Skills: Perception +6
+Special qualities: docile
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, or herd (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, or herd (3-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

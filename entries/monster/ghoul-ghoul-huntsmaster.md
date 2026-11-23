@@ -29,67 +29,51 @@ special_qualities = "favored terrain (underground +2), hunter's bond (animal), t
 abilities = ["15", "20", "-", "13", "16", "18"]
 +++
 
-**Challenge rating:** 7
-
 **Ghoul [ranger](ref/class/ranger) 6**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Perception: +14
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +5
+### Defense {#stat-defense}
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 15
+AC modifiers: +3 armor, +5 Dex, +2 natural
+Hit points: 80 (2d8+6d10+38\~8)
+Fort: +9
+Ref: +10
+Will: +8
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +14
+### Offense {#stat-offense}
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 40 ft.
+Fav En: elves +2, humans +4
+Melee: +1 bite +13 (1d6+3 plus disease and paralysis), 2 +1 claws +14 (1d8+3 plus paralysis)
+Paralysis: 1d4+1 rounds, DC 15, elves are immune to this effect
+Ranged: mwk composite longbow +13/+8 (1d8+2/×3)
+Spec Att: combat style (archery), disease (DC 15)
+:::
 
-**Type:** undead
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 armor, +5 Dex, +2 natural
-
-**Hit points:** 80 (2d8+6d10+38\~8)
-
-**Fort:** +9
-
-**Ref:** +10
-
-**Will:** +8
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Fav En:** elves +2, humans +4
-
-**Melee:** +1 bite +13 (1d6+3 plus disease and paralysis), 2 +1 claws +14 (1d8+3 plus paralysis)
-
-**Paralysis:** 1d4+1 rounds, DC 15, elves are immune to this effect
-
-**Ranged:** mwk composite longbow +13/+8 (1d8+2/×3)
-
-**Spec Att:** combat style (archery), disease (DC 15)
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**1st-level spells:**
-
-- longstrider, magic fang
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+Concentration: +6
+1st-level spells: longstrider, magic fang
+:::
 
 ### Tactics
 
@@ -100,34 +84,26 @@ _[greater magic fang](ref/spell/magic-fang-greater)_ on himself as well as on hi
 _[greater magic fang](ref/spell/magic-fang-greater),_ the huntsmaster's statistics are Speed 30 ft.;
 Melee bite +12 (1d6+2 plus disease and paralysis), 2 claws +13 (1d8+2 plus paralysis).
 
-**Statistics**
+### Statistics {#stat-statistics}
 
-**Ability scores:** Str 15, Dex 20, Con -, Int 13, Wis 16, Cha 18
+::: statblock
+Ability scores: Str 15, Dex 20, Con -, Int 13, Wis 16, Cha 18
+Base attack bonus: +7
+Combat maneuver bonus: +9
+Combat maneuver defense: 24
+Feats: Corpse Companion, Endurance, Improved Natural Attack (claw), Point-Blank Shot, Rapid Shot, Weapon Finesse, Weapon Focus (claw)
+Skills: Acrobatics +13 (+17 when jumping), Climb +13
+Languages: Common, Undercommon
+Special qualities: [favored terrain](ref/ability/favored-terrain) (underground +2), hunter's bond (animal), track +3, [wild empathy](ref/ability/wild-empathy) +10
+Combat gear: 3 +1 BANE-human arrows, 2 +1 SK arrows, potion of inflict moderate wounds, Dgreater magic fang/12 charges
+Other gear: mwk studded leather armor, mwk cl50, 42 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 24
-
-**Feats:** Corpse Companion, Endurance, Improved Natural Attack (claw), Point-Blank Shot, Rapid
-Shot, Weapon Finesse, Weapon Focus (claw)
-
-**Skills:** Acrobatics +13 (+17 when jumping), Climb +13
-
-**Languages:** Common, Undercommon
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (underground +2), hunter's
-bond (animal), track +3, [wild empathy](ref/ability/wild-empathy) +10
-
-**Combat gear:** 3 +1 BANE-human arrows, 2 +1 SK arrows, potion of inflict moderate wounds, Dgreater
-magic fang/12 charges
-
-**Other gear:** mwk studded leather armor, mwk cl50, 42 gp
-
-**Ecology**
-
-**Environment:** any land
+::: statblock
+Environment: any land
+:::
 
 ### Description
 

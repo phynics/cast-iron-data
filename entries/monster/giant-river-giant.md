@@ -31,86 +31,64 @@ abilities = ["20", "11", "19", "9", "10", "8"]
 
 _This slender giant dresses in simple clothes and has swirling patterns on her green skin._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: CG or CE
+Type: humanoid
+Initiative: +4
+Size: large
+Perception: +6
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 2,400
+:::
 
-**Alignment:** CG or CE
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +3 armor, +7 natural, -1 size
+Hit points: 68 (8d8+32)
+Fort: +10
+Ref: +2
+Will: +2
+Rock Ct: present
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: spear +11/+6 (2d6+7/×3) or 2 slams +10 (1d8+5)
+Ranged: rock +6 (1d8+5)
+Reach: 10
+Rock Th: 100 ft.
+Space: 10
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 11, Con 19, Int 9, Wis 10, Cha 8
+Base attack bonus: +6
+Combat maneuver bonus: +12 (+14 bull rush)
+Combat maneuver defense: 22 (24 vs. bull rush)
+Feats: Improved Bull Rush, Improved Initiative, Martial Weapon Proficiency (spear), Weapon Focus (spear)
+Skills: Acrobatics +0 (+4 when boating), Perception +6, Swim +10
+Racial Modifiers: +4 Acrobatics when boating, +4 Profession (sailor), +4 Survival when boating, +4 Swim
+Languages: Common, Giant
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 armor, +7 natural, -1 size
-
-**Hit points:** 68 (8d8+32)
-
-**Fort:** +10
-
-**Ref:** +2
-
-**Will:** +2
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** spear +11/+6 (2d6+7/×3) or 2 slams +10 (1d8+5)
-
-**Ranged:** rock +6 (1d8+5)
-
-**Reach:** 10
-
-**Rock Th:** 100 ft.
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 11, Con 19, Int 9, Wis 10, Cha 8
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12 (+14 bull rush)
-
-**Combat maneuver defense:** 22 (24 vs. bull rush)
-
-**Feats:** Improved Bull Rush, Improved Initiative, Martial Weapon Proficiency (spear), Weapon Focus
-(spear)
-
-**Skills:** Acrobatics +0 (+4 when boating), Perception +6, Swim +10
-
-**Racial Modifiers:** +4 Acrobatics when boating, +4 Profession (sailor), +4 Survival when boating,
-+4 Swim
-
-**Languages:** Common, Giant
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any rivers
-
-**Organization:** solitary, pair, or family (3-5 plus 1d2 [crocodiles](ref/monster/crocodile),
-[grizzly bears](ref/monster/bear-grizzly-bear), or [tigers](ref/monster/tiger))
-
-**Treasure:** Standard (spear, leather armor); other treasure
+::: statblock
+Environment: any rivers
+Organization: solitary, pair, or family (3-5 plus 1d2 [crocodiles](ref/monster/crocodile), [grizzly bears](ref/monster/bear-grizzly-bear), or [tigers](ref/monster/tiger))
+Treasure: Standard (spear, leather armor); other treasure
+:::
 
 ### Description
 

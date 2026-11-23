@@ -29,86 +29,65 @@ abilities = ["29", "21", "22", "4", "12", "11"]
 
 _This massive lion's fur and skin shimmer with a golden sheen._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +9
+Type: Magical beast
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 29
+Touch: 13
+Flat-footed: 24
+AC modifiers: +5 Dex, +16 natural, -2 size
+Hit points: 184 (16d10+96)
+Fort: +16
+Ref: +15
+Will: +8
+Dr: 10/epic
+Immune: disease, poison
+Resist: fire 10
+:::
 
-**Initiative:** +9
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft.
+Melee: bite +23 (3d6+13 plus [grab](ref/umr/grab)), 2 claws +23 (1d8+9)
+Pounce: present
+Rake: 2 claws +23, 1d8+9
+Reach: 10
+Space: 15
+Spec Att: powerful bite, tearing claws
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 29, Dex 21, Con 22, Int 4, Wis 12, Cha 11
+Base attack bonus: +16
+Combat maneuver bonus: +27 (+31 sunder)
+Combat maneuver defense: 42 (44 vs. sunder, 46 vs. trip)
+Feats: Greater Sunder, Improved Initiative, Improved Sunder, Iron Will, Power Attack, Run, Skill Focus (Perception), Vital Strike
+Skills: Acrobatics +16 (+20 when jumping), Climb +16, Perception +11, Stealth +8
+Racial Modifiers: +4 Acrobatics, +4 Stealth
+Languages: Common (can't speak)
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 13
-
-**Flat-footed:** 24
-
-**AC modifiers:** +5 Dex, +16 natural, -2 size
-
-**Hit points:** 184 (16d10+96)
-
-**Fort:** +16
-
-**Ref:** +15
-
-**Will:** +8
-
-**Dr:** 10/epic
-
-**Immune:** disease, poison
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +23 (3d6+13 plus [grab](ref/umr/grab)), 2 claws +23 (1d8+9)
-
-**Pounce:** present
-
-**Rake:** 2 claws +23, 1d8+9
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** powerful bite, tearing claws
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 21, Con 22, Int 4, Wis 12, Cha 11
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +27 (+31 sunder)
-
-**Combat maneuver defense:** 42 (44 vs. sunder, 46 vs. trip)
-
-**Feats:** Greater Sunder, Improved Initiative, Improved Sunder, Iron Will, Power Attack, Run, Skill
-Focus (Perception), Vital Strike
-
-**Skills:** Acrobatics +16 (+20 when jumping), Climb +16, Perception +11, Stealth +8
-
-**Racial Modifiers:** +4 Acrobatics, +4 Stealth
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** warm plains or hills
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm plains or hills
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

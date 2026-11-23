@@ -33,88 +33,66 @@ _This monstrous clam's conjoined shells open wide enough to swallow a horse. Ins
 siphons flank the thing's innards, which resemble a fleshy, vaguely humanoid woman, save that
 instead of a face, it has a singular massive maw filled with rows of ravenous teeth._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +0
+Type: Magical beast
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 26
+Touch: 8
+Flat-footed: 26
+AC modifiers: +18 natural, -2 size
+Hit points: 149 (13d10+78)
+Fort: +14
+Ref: +10
+Will: +8
+Dr: 10/magic and slashing
+Immune: disease, poison
+:::
 
-**Initiative:** +0
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Jet: 300
+Melee: bite +20 (2d6+9/19-20), 2 slams +20 (1d8+9 plus [grab](ref/umr/grab))
+Ranged: siphon dart +11 (2d6+9/19-20 plus poison)
+Reach: 15
+Space: 15
+Spec Att: devastating bite, siphon jet
+Swallow: 4d8 acid damage, AC 19, 28 hp
+Trample: 1d8+13, DC 22
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 10, Con 23, Int 7, Wis 18, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 34 (can't be tripped)
+Feats: Combat Reflexes, Improved Critical (siphon dart), Improved Lightning Reflexes, Lightning Reflexes, Point-Blank Shot, Precise Shot, Vital Strike
+Skills: Perception +13, Swim +27
+Languages: Aquan
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 26
-
-**Touch:** 8
-
-**Flat-footed:** 26
-
-**AC modifiers:** +18 natural, -2 size
-
-**Hit points:** 149 (13d10+78)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +8
-
-**Dr:** 10/magic and slashing
-
-**Immune:** disease, poison
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Jet:** 300
-
-**Melee:** bite +20 (2d6+9/19-20), 2 slams +20 (1d8+9 plus [grab](ref/umr/grab))
-
-**Ranged:** siphon dart +11 (2d6+9/19-20 plus poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** devastating bite, siphon jet
-
-**Swallow:** 4d8 acid damage, AC 19, 28 hp
-
-**Trample:** 1d8+13, DC 22
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 10, Con 23, Int 7, Wis 18, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 34 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Critical (siphon dart), Improved Lightning Reflexes, Lightning
-Reflexes, Point-Blank Shot, Precise Shot, Vital Strike
-
-**Skills:** Perception +13, Swim +27
-
-**Languages:** Aquan
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, cluster (2-5), or field (6-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any oceans
+Organization: solitary, cluster (2-5), or field (6-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

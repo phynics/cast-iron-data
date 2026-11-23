@@ -31,71 +31,58 @@ abilities = ["3", "13", "10", "2", "8", "12"]
 _This rotund parrot has vibrant green-and-black feathers, a short hooked beak, and an array of white
 whiskers._
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +3
+Senses: Low-light vision
+Size: tiny
+Experience points: 50
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +5
+Will: -1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft., climb 10 ft.
+Melee: bite -2 (1d3-4)
+Reach: 0
+Sp Extra: glide
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 13, Con 10, Int 2, Wis 8, Cha 12
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5
+Feats: Lightning Reflexes
+Skills: Climb +4, Perception +3
+:::
 
-**Experience points:** 50
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** -1
-
-**Offense**
-
-**Speed:** 30 ft., climb 10 ft.
-
-**Melee:** bite -2 (1d3-4)
-
-**Reach:** 0
-
-**Sp Extra:** glide
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 13, Con 10, Int 2, Wis 8, Cha 12
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5
-
-**Feats:** Lightning Reflexes
-
-**Skills:** Climb +4, Perception +3
-
-**Ecology**
-
-**Environment:** warm jungles
-
-**Organization:** solitary, pair, or family (3-4)
-
-**Treasure:** None
+::: statblock
+Environment: warm jungles
+Organization: solitary, pair, or family (3-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

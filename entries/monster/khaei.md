@@ -30,85 +30,66 @@ abilities = ["10", "13", "14", "7", "10", "13"]
 _This short, stunted humanoid is bald and has weirdly twisted limbs, its body seeming to fade and
 come apart at the edges._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +5
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft.
+Size: small
+Experience points: 800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 14
+AC modifiers: +1 Dex, +3 natural, +1 size
+Hit points: 30 (4d10+8)
+Fort: +3
+Ref: +5
+Will: +4
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft.
+Melee: club +5 (1d4) or touch +5 (lost time)
+Ranged: sling +6 (1d3)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +5
+Constant: blur
+At will: dancing lights
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 10, Dex 13, Con 14, Int 7, Wis 10, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Combat Reflexes, Improved Initiative
+Skills: Perception +7, Stealth +16
+Racial Modifiers: +4 Stealth
+Languages: Undercommon
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +3 natural, +1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** club +5 (1d4) or touch +5 (lost time)
-
-**Ranged:** sling +6 (1d3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +5
-
-**Constant:**
-
-- blur
-
-**At will:**
-
-- dancing lights
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 14, Int 7, Wis 10, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Combat Reflexes, Improved Initiative
-
-**Skills:** Perception +7, Stealth +16
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Undercommon
-
-**Ecology**
-
-**Environment:** any underground (beneath Kaer Maga)
-
-**Organization:** solitary, pair, gang (3-5), or village (6-30)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground (beneath Kaer Maga)
+Organization: solitary, pair, gang (3-5), or village (6-30)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

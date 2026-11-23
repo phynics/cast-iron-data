@@ -29,98 +29,71 @@ abilities = ["6", "17", "-", "21", "20", "21"]
 _Glittering jewels encrust this leering skull as it floats up into the air on a swirling vortex of
 dust and shimmering magic._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +7
+Alignment: Neutral evil
+Perception: +27
+Senses: Darkvision 60 ft., True seeing
+Size: tiny
+Type: undead
+Experience points: 38,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 25
+Touch: 21
+Flat-footed: 21
+AC modifiers: +3 Dex, +1 dodge, +4 natural, +5 profane, +2 size
+Hit points: 142 (15d8+75)
+Fort: +15
+Ref: +15
+Will: +21
+Chan Res: +5
+Defensive abilities: rejuvenation, unholy grace
+Dr: 20/-
+Immune: acid, cold, electricity, magic, polymorph, [undead traits](ref/umr/undead-traits)
+Weaknesses: torpor, vorpal susceptibility
+:::
 
-**Perception:** +27
+### Offense
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Speed: fly 30 ft. (perfect)
+Reach: 0
+Space: 2-1/2
+Spec Att: devour soul
+:::
 
-**Size:** tiny
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: true seeing
+At will: greater bestow curse (DC 21), telekinesis (DC 20), wail of the banshee (20-ft.-radius spread centered on the demilich; DC 24)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 6, Dex 17, Con -, Int 21, Wis 20, Cha 21
+Base attack bonus: +11
+Combat maneuver bonus: +12
+Combat maneuver defense: 30
+Feats: Ability Focus (devour soul), Alertness, Defensive Combat Training, Dodge, Flyby Attack, Improved Initiative, Iron Will, Lightning Reflexes, Mobility
+Skills: Bluff +20, Fly +23, Knowledge (arcana) +23, Knowledge (dungeoneering) +20, Knowledge (planes) +15, Perception +27, Sense Motive +27, Spellcraft +23, Stealth +24
+Languages: Abyssal, Aklo, Common, Draconic, Giant, Infernal
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 21
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural, +5 profane, +2 size
-
-**Hit points:** 142 (15d8+75)
-
-**Fort:** +15
-
-**Ref:** +15
-
-**Will:** +21
-
-**Chan Res:** +5
-
-**Defensive abilities:** rejuvenation, unholy grace
-
-**Dr:** 20/-
-
-**Immune:** acid, cold, electricity, magic, polymorph, [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** torpor, vorpal susceptibility
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** devour soul
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- greater bestow curse (DC 21), telekinesis (DC 20), wail of the banshee (20-ft.-radius spread
-  centered on the demilich; DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con -, Int 21, Wis 20, Cha 21
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 30
-
-**Feats:** Ability Focus (devour soul), Alertness, Defensive Combat Training, Dodge, Flyby Attack,
-Improved Initiative, Iron Will, Lightning Reflexes, Mobility
-
-**Skills:** Bluff +20, Fly +23, Knowledge (arcana) +23, Knowledge (dungeoneering) +20, Knowledge
-(planes) +15, Perception +27, Sense Motive +27, Spellcraft +23, Stealth +24
-
-**Languages:** Abyssal, Aklo, Common, Draconic, Giant, Infernal
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

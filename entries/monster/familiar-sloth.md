@@ -25,71 +25,58 @@ melee = "2 claws -1 (1d2-3)"
 abilities = ["5", "7", "12", "2", "12", "7"]
 +++
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Initiative: -2
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 11
+Touch: 10
+Flat-footed: 11
+AC modifiers: -2 Dex, +1 natural, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +0
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 5 ft., climb 5 ft.
+Melee: 2 claws -1 (1d2-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 7, Con 12, Int 2, Wis 12, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -4
+Combat maneuver defense: 3 (7 vs. trip)
+Feats: Skill Focus (Stealth)
+Skills: Climb +10
+Racial Modifiers: +4 Climb, +4 Stealth, +4 Swim
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 11
-
-**Touch:** 10
-
-**Flat-footed:** 11
-
-**AC modifiers:** -2 Dex, +1 natural, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +0
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 5 ft., climb 5 ft.
-
-**Melee:** 2 claws -1 (1d2-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 7, Con 12, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -4
-
-**Combat maneuver defense:** 3 (7 vs. trip)
-
-**Feats:** Skill Focus (Stealth)
-
-**Skills:** Climb +10
-
-**Racial Modifiers:** +4 Climb, +4 Stealth, +4 Swim
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

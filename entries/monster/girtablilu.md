@@ -30,94 +30,70 @@ abilities = ["20", "15", "21", "10", "14", "11"]
 
 _The body of a spear-wielding woman rises from the front of this monstrously huge scorpion._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +6
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +14
+Senses: Darkvision 60 ft.
+tremorsense: 30
+Experience points: 4,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +2 armor, +2 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 105 (10d10+50)
+Fort: +8
+Ref: +11
+Will: +9
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Constrict: 1d6+5
+Melee: mwk spear +15/+10 (1d8+7/×3), 2 claws +9 (1d6+2 plus [grab](ref/umr/grab)), sting +9 (1d6+2 plus poison)
+Ranged: mwk spear +12 (1d8+5/×3)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +10
+Per day: 1/day: summon nature's ally V, 1d3 giant scorpions
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 30
+::: statblock
+Ability scores: Str 20, Dex 15, Con 21, Int 10, Wis 14, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 29 (41 vs. trip)
+Feats: Dodge, Improved Initiative, Lightning Reflexes, Mobility, Vital Strike
+Skills: Climb +17, Craft (any one) +8, Knowledge (history) +5, Perception +14
+Racial Modifiers: +4 Climb, +4 Perception, +4 Stealth
+Languages: Common, Girtablilu
+Special qualities: scorpion empathy +10, [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 armor, +2 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Constrict:** 1d6+5
-
-**Melee:** mwk spear +15/+10 (1d8+7/×3), 2 claws +9 (1d6+2 plus [grab](ref/umr/grab)), sting +9
-(1d6+2 plus poison)
-
-**Ranged:** mwk spear +12 (1d8+5/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +10
-
-**Per day:**
-
-- 1/day: summon nature's ally V, 1d3 giant scorpions
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 21, Int 10, Wis 14, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 29 (41 vs. trip)
-
-**Feats:** Dodge, Improved Initiative, Lightning Reflexes, Mobility, Vital Strike
-
-**Skills:** Climb +17, Craft (any one) +8, Knowledge (history) +5, Perception +14
-
-**Racial Modifiers:** +4 Climb, +4 Perception, +4 Stealth
-
-**Languages:** Common, Girtablilu
-
-**Special qualities:** scorpion empathy +10, [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, patrol (3-5 plus 2-4
-[giant scorpions](ref/monster/scorpion-giant-scorpion)), or cult (6-14 plus 3-6 temple guardians of
-3rd level, 1 cleric or oracle leader of 6th level, and 4-9 giant scorpions)
-
-**Treasure:** Standard (leather armor, mwk spear)
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, patrol (3-5 plus 2-4 [giant scorpions](ref/monster/scorpion-giant-scorpion)), or cult (6-14 plus 3-6 temple guardians of 3rd level, 1 cleric or oracle leader of 6th level, and 4-9 giant scorpions)
+Treasure: Standard (leather armor, mwk spear)
+:::
 
 ### Special Abilities
 

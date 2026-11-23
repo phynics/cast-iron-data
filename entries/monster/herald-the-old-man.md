@@ -35,108 +35,79 @@ abilities = ["20", "31", "20", "21", "31", "22"]
 _This bald old human man has long white eyebrows and an even longer white beard. He carries a staff
 adorned with metal rings._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsight: 30
+Initiative: +10
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar, Herald, Lawful
+Experience points: 51,200
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 37
+Touch: 35
+Flat-footed: 26
+AC modifiers: +10 Dex, +1 dodge, +4 monk, +10 Wis, +2 natural
+Hit points: 178 (17d10+85)
+Fort: +10
+Ref: +20
+Will: +20
+Dr: 10/chaotic
+Immune: disease, poison
+Improved evasion: present
+Regen: 15 (chaotic)
+Resist: acid 30, cold 30, electricity 30, fire 30, sonic 30
+Sr: 26
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 80 ft., climb 30 ft., swim 30 ft.
+Melee: unarmed strike +27/+22/+17/+12 (2d8+5) or flurry of blows +20/+20/+15/+15/+10/+10/+5 (2d8+5)
+Ranged: pebble +27/+22/+17/+12 (1d3+5)
+Spec Att: stunning fist (16/day, DC 28)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +23
+Per day: 7/day: air walk, augury, cure light wounds, dimension door, invisibility, true strike, water walk\
+3/day: commune, haste, heal, legend lore
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Extraplanar, Herald, Lawful
-
-**Experience points:** 51,200
-
-**Armor class:** 37
-
-**Touch:** 35
-
-**Flat-footed:** 26
-
-**AC modifiers:** +10 Dex, +1 dodge, +4 monk, +10 Wis, +2 natural
-
-**Hit points:** 178 (17d10+85)
-
-**Fort:** +10
-
-**Ref:** +20
-
-**Will:** +20
-
-**Dr:** 10/chaotic
-
-**Immune:** disease, poison
-
-**Improved evasion:** present
-
-**Regen:** 15 (chaotic)
-
-**Resist:** acid 30, cold 30, electricity 30, fire 30, sonic 30
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 80 ft., climb 30 ft., swim 30 ft.
-
-**Melee:** unarmed strike +27/+22/+17/+12 (2d8+5) or flurry of blows +20/+20/+15/+15/+10/+10/+5
-(2d8+5)
-
-**Ranged:** pebble +27/+22/+17/+12 (1d3+5)
-
-**Spec Att:** stunning fist (16/day, DC 28)
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +23
-
-**Per day:**
-
-- 7/day: air walk, augury, cure light wounds, dimension door, invisibility, true strike, water walk
-- 3/day: commune, haste, heal, legend lore
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 31, Con 20, Int 21, Wis 31, Cha 22
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +27 (+29 disarm, +31 grapple, +29 trip)
-
-**Combat maneuver defense:** 57 (59 vs. disarm, 59 vs. grapple, 59 vs. trip)
-
-**Feats:** Agile Maneuvers, Combat Expertise, Dodge, Greater Grapple, Improved Disarm, Improved
-Grapple, Improved Trip, Improved Unarmed Strike^B^, Mobility, Stunning Fist^B^, Weapon Finesse^B^,
-Wind Stance
-
-**Skills:** Acrobatics +30 (+66 when jumping), Climb +13, Knowledge (history) +22, Perception +30,
-Perform (string) +23, Ride +27
-
-**Languages:** Common, Tien, Vudrani; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** monk abilities
+::: statblock
+Ability scores: Str 20, Dex 31, Con 20, Int 21, Wis 31, Cha 22
+Base attack bonus: +17
+Combat maneuver bonus: +27 (+29 disarm, +31 grapple, +29 trip)
+Combat maneuver defense: 57 (59 vs. disarm, 59 vs. grapple, 59 vs. trip)
+Feats: Agile Maneuvers, Combat Expertise, Dodge, Greater Grapple, Improved Disarm, Improved Grapple, Improved Trip, Improved Unarmed Strike^B^, Mobility, Stunning Fist^B^, Weapon Finesse^B^, Wind Stance
+Skills: Acrobatics +30 (+66 when jumping), Climb +13, Knowledge (history) +22, Perception +30, Perform (string) +23, Ride +27
+Languages: Common, Tien, Vudrani; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: monk abilities
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land ([Axis](ref/rule/utopia))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([Axis](ref/rule/utopia))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

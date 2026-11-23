@@ -32,104 +32,75 @@ abilities = ["26", "13", "21", "13", "14", "12"]
 _This giant has a majestic presence and stoic bearing. His rocky, red-brown skin is shot through
 with streaks of shimmering color._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: humanoid
+Initiative: +5
+Size: large
+Alignment: Neutral good
+Perception: +15
+Senses: Low-light vision
+Subtype: Giant
+tremorsense: 30
+Experience points: 6,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 23
+Touch: 10
+Flat-footed: 22
+AC modifiers: +4 armor, +1 Dex, +9 natural, -1 size
+Hit points: 133 (14d8+70)
+Fort: +9
+Ref: +7
+Will: +11
+Resist: acid 10, fire 10
+Rock Ct: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 40 ft.
+Melee: greatclub +17/+12 (2d8+12) or 2 slams +17 (1d8+8)
+Ranged: rock +12 (1d8+8)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +15
+At will: detect poison, know direction
+Per day: 3/day: animal messenger, cure moderate wounds, detect animals or plants, speak with animals, stone shape\
+1/day: commune with nature
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 26, Dex 13, Con 21, Int 13, Wis 14, Cha 12
+Base attack bonus: +10
+Combat maneuver bonus: +19
+Combat maneuver defense: 30
+Feats: Improved Initiative, Lightning Reflexes, Martial Weapon Proficiency (greatclub), Power Attack, Skill Focus (Climb), Skill Focus (Perception), Weapon Focus (rock)
+Skills: Climb +18, Diplomacy +8, Knowledge (geography) +5, Perception +15
+Racial Modifiers: +4 Knowledge (geography)
+Languages: Common, Giant, Terran
+Special qualities: earth attunement
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 10
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 armor, +1 Dex, +9 natural, -1 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +11
-
-**Resist:** acid 10, fire 10
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** greatclub +17/+12 (2d8+12) or 2 slams +17 (1d8+8)
-
-**Ranged:** rock +12 (1d8+8)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +15
-
-**At will:**
-
-- detect poison, know direction
-
-**Per day:**
-
-- 3/day: animal messenger, cure moderate wounds, detect animals or plants, speak with animals, stone
-  shape
-- 1/day: commune with nature
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 13, Con 21, Int 13, Wis 14, Cha 12
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 30
-
-**Feats:** Improved Initiative, Lightning Reflexes, Martial Weapon Proficiency (greatclub), Power
-Attack, Skill Focus (Climb), Skill Focus (Perception), Weapon Focus (rock)
-
-**Skills:** Climb +18, Diplomacy +8, Knowledge (geography) +5, Perception +15
-
-**Racial Modifiers:** +4 Knowledge (geography)
-
-**Languages:** Common, Giant, Terran
-
-**Special qualities:** earth attunement
-
-**Ecology**
-
-**Environment:** temperate or warm deserts or plains
-
-**Organization:** solitary, pair or family (3-5 plus 2-3 non-combatants)
-
-**Treasure:** Standard (Ah, greatclub); other treasure
+::: statblock
+Environment: temperate or warm deserts or plains
+Organization: solitary, pair or family (3-5 plus 2-3 non-combatants)
+Treasure: Standard (Ah, greatclub); other treasure
+:::
 
 ### Special Abilities
 

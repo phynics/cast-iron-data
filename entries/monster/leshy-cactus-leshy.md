@@ -31,90 +31,69 @@ abilities = ["12", "14", "15", "7", "14", "11"]
 
 _A prickly cactus's arms are covered in vicious spines._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Leshy
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +3
+Will: +3
+Defensive abilities: needly skin
+Immune: electricity, [plant traits](ref/umr/plant-traits), sonic
+:::
 
-**Perception:** +7
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +4 (1d4+1)
+Spec Att: launch needle
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +6
+Constant: pass without trace
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Leshy
+::: statblock
+Ability scores: Str 12, Dex 14, Con 15, Int 7, Wis 14, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Endurance, Nimble Moves
+Skills: Acrobatics +2, Perception +7
+Racial Modifiers: +4 Stealth and Survival in deserts
+Languages: Druidic, Sylvan; _plantspeech_ (cacti)
+Special qualities: [change shape](ref/umr/change-shape) (Small cactus; [tree shape](ref/spell/tree-shape)), grow fruit, verdant burst
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +3
-
-**Defensive abilities:** needly skin
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits), sonic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +4 (1d4+1)
-
-**Spec Att:** launch needle
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +6
-
-**Constant:**
-
-- pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 14, Con 15, Int 7, Wis 14, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Endurance, Nimble Moves
-
-**Skills:** Acrobatics +2, Perception +7
-
-**Racial Modifiers:** +4 Stealth and Survival in deserts
-
-**Languages:** Druidic, Sylvan; _plantspeech_ (cacti)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small cactus;
-[tree shape](ref/spell/tree-shape)), grow fruit, verdant burst
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary or patch (2-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts
+Organization: solitary or patch (2-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

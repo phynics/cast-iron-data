@@ -32,88 +32,65 @@ abilities = ["27", "12", "19", "10", "12", "10"]
 _Soot, ash, and coal dust streak this giant's rust-colored skin. Her eyes hold a look of both
 determination and detachment._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: humanoid
+Initiative: +1
+Size: large
+Alignment: Lawful neutral
+Perception: +9
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 3,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +3 armor, +1 Dex, +7 natural, -1 size
+Hit points: 85 (10d8+40)
+Fort: +11
+Ref: +6
+Will: +4
+Resist: fire 30
+Rock Ct: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 40 ft.
+Melee: warhammer +15/+10 (2d6+12/×3) or 2 slams +14 (1d8+8)
+Ranged: rock +8 (1d8+8)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 27, Dex 12, Con 19, Int 10, Wis 12, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +16 (+18 sunder)
+Combat maneuver defense: 29 (31 vs. sunder)
+Feats: Improved Sunder, Lightning Reflexes, Martial Weapon Proficiency (warhammer), Power Attack, Weapon Focus (warhammer)
+Skills: Craft (armor) +12, Intimidate +8, Perception +9
+Racial Modifiers: +4 Craft (armor), +4 Craft (weapons)
+Languages: Common, Giant
+Special qualities: shattering blow
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 armor, +1 Dex, +7 natural, -1 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +4
-
-**Resist:** fire 30
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** warhammer +15/+10 (2d6+12/×3) or 2 slams +14 (1d8+8)
-
-**Ranged:** rock +8 (1d8+8)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 12, Con 19, Int 10, Wis 12, Cha 10
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +16 (+18 sunder)
-
-**Combat maneuver defense:** 29 (31 vs. sunder)
-
-**Feats:** Improved Sunder, Lightning Reflexes, Martial Weapon Proficiency (warhammer), Power
-Attack, Weapon Focus (warhammer)
-
-**Skills:** Craft (armor) +12, Intimidate +8, Perception +9
-
-**Racial Modifiers:** +4 Craft (armor), +4 Craft (weapons)
-
-**Languages:** Common, Giant
-
-**Special qualities:** shattering blow
-
-**Ecology**
-
-**Environment:** warm mountains or underground
-
-**Organization:** solitary, pair, mining expedition (3-7), or tribe (5-20 plus 25% noncombatants and
-1 cleric, or 1 fighter of 4th to 6th level plus 1-3
-[giant frilled lizards](ref/monster/lizard-giant-frilled-lizard))
-
-**Treasure:** Standard (warhammer, studded leather armor); other treasure
+::: statblock
+Environment: warm mountains or underground
+Organization: solitary, pair, mining expedition (3-7), or tribe (5-20 plus 25% noncombatants and 1 cleric, or 1 fighter of 4th to 6th level plus 1-3 [giant frilled lizards](ref/monster/lizard-giant-frilled-lizard))
+Treasure: Standard (warhammer, studded leather armor); other treasure
+:::
 
 ### Special Abilities
 

@@ -35,95 +35,72 @@ abilities = ["32", "11", "26", "13", "21", "18"]
 _This beast has three shark-like heads on short, scaly necks, while its lower body appears to be
 that of an octopus._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +4
+Type: Magical beast
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 102,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 32
+Touch: 6
+Flat-footed: 32
+AC modifiers: +26 natural, -4 size
+Hit points: 270 (20d10+160)
+Fort: +20
+Ref: +12
+Will: +11
+Immune: electricity, poison
+:::
 
-**Initiative:** +4
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Constrict: 1d8+5 plus poison
+Jet: 200
+Melee: 3 bites +27 (2d8+11/19-20), 8 tentacles +26 (1d8+5 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: rend ship, vicious grapple
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +22
+Per day: 3/day: chain lightning (DC 20), geyser (DC 19)\
+1/day: summon (level 8, 1d4+1 dire sharks 50%), vortex (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 32, Dex 11, Con 26, Int 13, Wis 21, Cha 18
+Base attack bonus: +20
+Combat maneuver bonus: +35 (+39 grapple)
+Combat maneuver defense: 45
+Feats: Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Multiattack, Power Attack, Sickening Critical, Snatch, Weapon Focus (tentacle)
+Skills: Perception +28, Stealth +11, Swim +42
+Languages: Aquan, Common
+Special qualities: vicious grapple
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 6
-
-**Flat-footed:** 32
-
-**AC modifiers:** +26 natural, -4 size
-
-**Hit points:** 270 (20d10+160)
-
-**Fort:** +20
-
-**Ref:** +12
-
-**Will:** +11
-
-**Immune:** electricity, poison
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Constrict:** 1d8+5 plus poison
-
-**Jet:** 200
-
-**Melee:** 3 bites +27 (2d8+11/19-20), 8 tentacles +26 (1d8+5 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** rend ship, vicious grapple
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +22
-
-**Per day:**
-
-- 3/day: chain lightning (DC 20), geyser (DC 19)
-- 1/day: summon (level 8, 1d4+1 dire sharks 50%), vortex (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 11, Con 26, Int 13, Wis 21, Cha 18
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +35 (+39 grapple)
-
-**Combat maneuver defense:** 45
-
-**Feats:** Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved
-Initiative, Multiattack, Power Attack, Sickening Critical, Snatch, Weapon Focus (tentacle)
-
-**Skills:** Perception +28, Stealth +11, Swim +42
-
-**Languages:** Aquan, Common
-
-**Special qualities:** vicious grapple
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: warm oceans
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -30,75 +30,60 @@ abilities = ["1", "13", "10", "-", "10", "2"]
 _All but invisible in the water, this foul swarm of fist-sized jellyfish wriggles and writhes, a
 virtual wall of stinging tentacles._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Swarm
+Type: vermin
+Experience points: 2,400
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 size
+Hit points: 54 (12d8)
+Fort: +8
+Ref: +5
+Will: +4
+Immune: swarm traits, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: swim 20 ft.
+Distraction: 16
+Melee: swarm (3d6 plus poison)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic, Swarm
+::: statblock
+Ability scores: Str 1, Dex 13, Con 10, Int -, Wis 10, Cha 2
+Base attack bonus: +9
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Swim +9, Stealth +29
+Racial Modifiers: +16 Stealth
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 size
-
-**Hit points:** 54 (12d8)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +4
-
-**Immune:** swarm traits, weapon damage
-
-**Offense**
-
-**Speed:** swim 20 ft.
-
-**Distraction:** 16
-
-**Melee:** swarm (3d6 plus poison)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 13, Con 10, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Swim +9, Stealth +29
-
-**Racial Modifiers:** +16 Stealth
-
-**Ecology**
-
-**Environment:** any aquatic
-
-**Organization:** solitary or bloom (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: any aquatic
+Organization: solitary or bloom (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,96 +31,72 @@ abilities = ["20", "12", "19", "14", "17", "19"]
 _The flesh of this withered woman's face stretches tightly over her skull, with one red eye bulging
 fat in its socket._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Type: Monstrous humanoid
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 19
+AC modifiers: +1 Dex, +4 insight, +5 natural
+Hit points: 85 (9d10+36)
+Fort: +9
+Ref: +7
+Will: +9
+Defensive abilities: lunatic insight
+Ferocity: present
+Immune: confusion, fear, insanity
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: bite +14 (1d6+5), 2 claws +14 (1d6+5)
+Rend: 2 claws, 1d6+3+7
+Spec Att: dreadful ravings
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+At will: augury, deathwatch, doom (DC 15)
+Per day: 3/day: death knell (DC 16), rage, speak with dead (DC 17)\
+1/day: bestow curse (DC 18), confusion (DC 18), divination, fear (DC 18), tongues
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 20, Dex 12, Con 19, Int 14, Wis 17, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 29
+Feats: Alertness, Combat Casting, Great Fortitude, Power Attack, Skill Focus (Intimidate)
+Skills: Intimidate +19, Knowledge (planes) +11, Perception +17, Sense Motive +14, Spellcraft +11
+Languages: Aklo, Common
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +4 insight, +5 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +9
-
-**Defensive abilities:** lunatic insight
-
-**Ferocity:** present
-
-**Immune:** confusion, fear, insanity
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +14 (1d6+5), 2 claws +14 (1d6+5)
-
-**Rend:** 2 claws, 1d6+3+7
-
-**Spec Att:** dreadful ravings
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**At will:**
-
-- augury, deathwatch, doom (DC 15)
-
-**Per day:**
-
-- 3/day: death knell (DC 16), rage, speak with dead (DC 17)
-- 1/day: bestow curse (DC 18), confusion (DC 18), divination, fear (DC 18), tongues
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 12, Con 19, Int 14, Wis 17, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 29
-
-**Feats:** Alertness, Combat Casting, Great Fortitude, Power Attack, Skill Focus (Intimidate)
-
-**Skills:** Intimidate +19, Knowledge (planes) +11, Perception +17, Sense Motive +14, Spellcraft +11
-
-**Languages:** Aklo, Common
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary or coven (three hags of any kind)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary or coven (three hags of any kind)
+Treasure: Standard
+:::
 
 ### Special Abilities
 
