@@ -26,7 +26,7 @@ caster_level = "8th"
 ::: statblock
 Aura: moderate necromancy
 CL: 8th
-Slot: rod
+Slot: none
 Price: 14,400 gp
 Weight: 4 lbs.
 :::

@@ -18,8 +18,8 @@ normal = "You take a -4 penalty on attack rolls made with an improvised weapon."
 +++
 
 Foes are surprised by your skilled use of unorthodox and improvised weapons.\
-**Prerequisites:** [Unarmed Combatant](ref/rule/unarmed-combatant), Dex 13. **Benefit:** You do not
-suffer any penalties for using an improvised melee weapon. Unarmed opponents are
-[flat-footed](ref/rule/flat-footed) against any attacks you make with an improvised melee weapon.
-You receive a +1 circumstance bonus on attack rolls made with thrown splash weapons.\
+**Prerequisites:** [Unarmed Combatant](ref/rule/unarmed-combatant), Dex 13.\
+**Benefit:** You do not suffer any penalties for using an improvised melee weapon. Unarmed opponents
+are [flat-footed](ref/rule/flat-footed) against any attacks you make with an improvised melee
+weapon. You receive a +1 circumstance bonus on attack rolls made with thrown splash weapons.\
 **Normal:** You take a -4 penalty on attack rolls made with an improvised weapon.

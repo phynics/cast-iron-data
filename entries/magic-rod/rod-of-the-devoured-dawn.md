@@ -23,7 +23,7 @@ caster_level = "10th"
 ::: statblock
 Aura: moderate illusion and transmutation
 CL: 10th
-Slot: rod
+Slot: none
 Price: 20,000 gp
 Weight: 10 lbs.
 :::
