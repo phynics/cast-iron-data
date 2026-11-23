@@ -6,6 +6,8 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grounding_goo", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
 
 [fields]
 kind = "class_option"

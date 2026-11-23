@@ -241,6 +241,7 @@ ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/parano
 ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis	affliction	game-mastery-guide	no-page		
 ref/discovery/acid-bomb	class_option	advanced-players-guide	unconfirmed	29	only a short title is on the proposed page, which proves little
 ref/discovery/alchemical-strike	class_option	magic-tactics-toolbox	coarse	12	the proposal is a section or parent page
+ref/discovery/confusion-bomb	class_option	ultimate-magic	unconfirmed	15	only a short title is on the proposed page, which proves little
 ref/discovery/cursed-bomb	class_option	champions-of-corruption	unconfirmed	26	only a short title is on the proposed page, which proves little
 ref/discovery/darkness-bomb	class_option	advanced-race-guide	unconfirmed	205	only a short title is on the proposed page, which proves little
 ref/discovery/defoliant-bomb	class_option	advanced-race-guide	unconfirmed	44	only a short title is on the proposed page, which proves little
@@ -249,6 +250,7 @@ ref/discovery/force-bomb	class_option	advanced-players-guide	unconfirmed	30	only
 ref/discovery/frost-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
 ref/discovery/glassfoot-bomb	class_option	advanced-race-guide	unconfirmed	205	only a short title is on the proposed page, which proves little
 ref/discovery/greater-change-alignment	class_option	champions-of-purity	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/discovery/grounding-goo	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
 ref/discovery/holy-bombs	class_option	champions-of-purity	unconfirmed	24	only a short title is on the proposed page, which proves little
 ref/discovery/inferno-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
 ref/discovery/ooze-blight	class_option	monster-hunters-handbook	unconfirmed	17	only a short title is on the proposed page, which proves little
@@ -260,7 +262,9 @@ ref/discovery/sand-bomb	class_option	antiheros-handbook	unconfirmed	29	only a sh
 ref/discovery/shock-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
 ref/discovery/siege-bomb	class_option	ultimate-combat	unconfirmed	24	only a short title is on the proposed page, which proves little
 ref/discovery/smoke-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
+ref/discovery/solid-ground	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
 ref/discovery/stink-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
+ref/discovery/thorny-bomb	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
 ref/domain/air	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
 ref/domain/animal	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
 ref/domain/artifice	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
@@ -333,6 +337,8 @@ ref/eidolon/div	class_option	pathfinder-unchained	unconfirmed	32	the name is a h
 ref/eidolon/elemental	class_option	pathfinder-unchained	unconfirmed	33	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/genie	class_option	elemental-masters-handbook	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/inevitable	class_option	pathfinder-unchained	unconfirmed	33	only a short title is on the proposed page, which proves little
+ref/eidolon/kami	class_option	wilderness-origins	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/eidolon/plant	class_option	ultimate-wilderness	unconfirmed	95	the name is a heading only on page 17, far from the proposed page 95; which one prints the option is not settled
 ref/eidolon/protean	class_option	pathfinder-unchained	unconfirmed	33	the name is a heading only on page 215, far from the proposed page 33; which one prints the option is not settled
 ref/eidolon/psychopomp	class_option	pathfinder-unchained	unconfirmed	34	the name is a heading only on page 215, far from the proposed page 34; which one prints the option is not settled
 ref/eidolon/radiant	class_option	plane-hoppers-handbook	unconfirmed	25	only a short title is on the proposed page, which proves little
@@ -344,6 +350,7 @@ ref/hex/cackle	class_option	monster-summoners-handbook	book-differs		the referen
 ref/hex/cackle	class_option	people-of-the-wastes	book-differs		the reference lists the entry only in other books
 ref/hex/mothers-eye	class_option	legacy-of-the-first-world	unconfirmed	17	only a short title is on the proposed page, which proves little
 ref/hex/soothsayer	class_option	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
+ref/hex/verdant-familiar	class_option	wilderness-origins	no-page		
 ref/hex/witchs-charge	class_option	champions-of-purity	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/hkdiscipline/call-armor	class_option	path-of-the-hellknight	unconfirmed	59	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/hkdiscipline/command	class_option	path-of-the-hellknight	unconfirmed	59	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -398,6 +405,8 @@ ref/ragepower/fjord-linnorm-death-curse	class_option	advanced-class-guide	no-pag
 ref/ragepower/flight-response	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-abyssal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-air-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-ancestor-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-atavism-totem	class_option	villain-codex	unconfirmed	140	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-beast-totem	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-brawler	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-celestial-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -407,8 +416,10 @@ ref/ragepower/greater-cult-totem	class_option	horror-adventures	unconfirmed	46	t
 ref/ragepower/greater-daemon-totem	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-draconic-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-earth-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-eclipsing-rage	class_option	ultimate-wilderness	unconfirmed	36	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-elemental-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-elemental-rage	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-erratic-charge	class_option	villain-codex	unconfirmed	176	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ferocious-beast	class_option	animal-archive	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ferocious-mount	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ferocious-trample	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -419,13 +430,17 @@ ref/ragepower/greater-ground-breaker	class_option	ultimate-combat	unconfirmed	27
 ref/ragepower/greater-guarded-life	class_option	ultimate-combat	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-hurling	class_option	advanced-players-guide	unconfirmed	76	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-infernal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-moon-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-spire-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-spirit-totem	class_option	advanced-players-guide	unconfirmed	77	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-suffocating-grip	class_option	legacy-of-the-first-world	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-sun-totem	class_option	qadira-jewel-of-the-east	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-tyrant-totem	class_option	ultimate-wilderness	unconfirmed	36	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-undead-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-water-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/ice-linnorm-death-curse	class_option	advanced-class-guide	no-page		
 ref/ragepower/lesser-abyssal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-atavism-totem	class_option	villain-codex	unconfirmed	140	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/lesser-celestial-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/lesser-celestial-totem	class_option	champions-of-purity	unconfirmed	22	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/lesser-draconic-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -495,6 +510,12 @@ ref/talent/slow-reactions	class_option	core-rulebook	unconfirmed	68	only a short
 ref/talent/survivalist	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/swimming-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/underhanded	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/vigtalent/environmental-weapon	class_option	ultimate-intrigue	unconfirmed	14	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/vigtalent/expose-weaknesses	class_option	ultimate-intrigue	unconfirmed	14	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/vigtalent/foe-collision	class_option	ultimate-intrigue	unconfirmed	14	only a short title is on the proposed page, which proves little
+ref/vigtalent/mighty-ambush	class_option	ultimate-intrigue	unconfirmed	15	only a short title is on the proposed page, which proves little
+ref/vigtalent/sucker-punch	class_option	ultimate-intrigue	unconfirmed	16	only a short title is on the proposed page, which proves little
+ref/vigtalent/throat-jab	class_option	ultimate-intrigue	unconfirmed	16	only a short title is on the proposed page, which proves little
 ref/carried/mythic-adventures/feats/ascendant-spell/mythic	feat	mythic-adventures	heading-form	55	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
 ref/carried/mythic-adventures/feats/marked-for-glory/mythic	feat	mythic-adventures	heading-form	69	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
 ref/carried/mythic-adventures/feats/mythic-companion/mythic	feat	mythic-adventures	heading-form	70	base feat title on the cited page; the X, Mythic heading was not matched by the text scan

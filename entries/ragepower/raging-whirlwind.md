@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_whirlwind", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "36"
 
 [fields]
 kind = "class_option"

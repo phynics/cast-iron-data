@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychokinetic_tincture", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "21"
 
 [fields]
 kind = "class_option"
