@@ -15,6 +15,8 @@ kind = "creature"
 cr = "8"
 +++
 
+## Duergar Strandrider {#stat-duergar-strandrider}
+
 _This stout, gray-skinned warrior sits astride an enormous spider._
 
 Duergar [cavalier](ref/class/cavalier) ([beast rider](ref/arc-cavalier/beast-rider)) 9\
@@ -81,54 +83,55 @@ Where the ironclads are immovable, their counterparts - the strandriders - are s
 passage, these duergar harvest the egg sacks of giant female spiders, claiming the cluster's
 strongest specimens to use as their future mounts.
 
-> ### Many-Legged Mount
->
-> Giant spider animal companion\
-> N Large vermin
->
-> ::: statblock
-> Init: +3
-> Senses: [darkvision](ref/rule/darkvision) 60 ft., [tremorsense](ref/umr/tremorsense) 30 ft.; Perception +0
-> :::
+## Many-Legged Mount {#stat-many-legged-mount}
+
+Giant spider animal companion\
+N Large vermin
+
+::: statblock
+Challenge rating: -
+Init: +3
+Senses: [darkvision](ref/rule/darkvision) 60 ft., [tremorsense](ref/umr/tremorsense) 30 ft.; Perception +0
+:::
 
 ### Defense
 
-> ::: statblock
-> AC: 23, touch 12, flat-footed 20 (+4 armor, +3 Dex, +7 natural, -1 size)
-> hp: 60 (8d8+24)
-> Fort: +9
-> Ref: +5
-> Will: +2 (+6 vs. enchantments)
-> Defensive Abilities: [evasion](ref/ability/evasion), mindless
-> :::
+::: statblock
+AC: 23, touch 12, flat-footed 20 (+4 armor, +3 Dex, +7 natural, -1 size)
+hp: 60 (8d8+24)
+Fort: +9
+Ref: +5
+Will: +2 (+6 vs. enchantments)
+Defensive Abilities: [evasion](ref/ability/evasion), mindless
+:::
 
 ### Offense
 
-> ::: statblock
-> Speed: 30 ft., climb 30 ft.
-> Melee: bite +7/+2 (1d8+3 plus poison)
-> Space: 10 ft.
-> Reach: 10 ft.
-> :::
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +7/+2 (1d8+3 plus poison)
+Space: 10 ft.
+Reach: 10 ft.
+:::
 
 ### Statistics
 
-> ::: statblock
-> Str: 15
-> Dex: 16
-> Con: 16
-> Int: -
-> Wis: 10
-> Cha: 2
-> Base Atk: +6
-> CMB: +9
-> CMD: 22 (34 vs. trip)
-> Feats: [Endurance](ref/feat/endurance)
-> Tricks: attack, come, defend, down, guard, heel
-> Skills: Climb +8
-> SQ: combat riding, devotion, extra attack
-> Gear: [chain shirt](ref/eq-armor/chain-shirt) [barding](ref/eq-armor/barding)
-> :::
+::: statblock
+Str: 15
+Dex: 16
+Con: 16
+Int: -
+Wis: 10
+Cha: 2
+Base Atk: +6
+CMB: +9
+CMD: 22 (34 vs. trip)
+Feats: [Endurance](ref/feat/endurance)
+Tricks: attack, come, defend, down, guard, heel
+Skills: Climb +8
+SQ: combat riding, devotion, extra attack
+Gear: [chain shirt](ref/eq-armor/chain-shirt) [barding](ref/eq-armor/barding)
+:::
 
 ### Special Abilities
 

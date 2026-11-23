@@ -15,6 +15,8 @@ kind = "creature"
 cr = "4"
 +++
 
+## God Caller {#stat-god-caller}
+
 Human [summoner](ref/class/summoner) 5\
 N Medium humanoid (human)
 
@@ -148,47 +150,48 @@ Hidden away in the Graidmere Swamp, in the dark holy place called Baallalota, Cl
 Blackearth (NE female changeling summoner 10) guides the remnants of her proud clan in their
 reverence for the Mother of Fangs, the snake-like spirit of the swamp - and perhaps something more.
 
-> ### Called Eidolon
->
-> N Medium outsider (extraplanar)
->
-> ::: statblock
-> Init: +3
-> Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +7
-> :::
+## Called Eidolon {#stat-called-eidolon}
+
+N Medium outsider (extraplanar)
+
+::: statblock
+Challenge rating: -
+Init: +3
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +7
+:::
 
 ### Defense
 
-> ::: statblock
-> AC: 21, touch 13, flat-footed 18 (+3 Dex, +8 natural)
-> hp: 34 (4d10+12)
-> Fort: +6
-> Ref: +7
-> Will: +3
-> Defensive Abilities: [evasion](ref/ability/evasion)
-> :::
+::: statblock
+AC: 21, touch 13, flat-footed 18 (+3 Dex, +8 natural)
+hp: 34 (4d10+12)
+Fort: +6
+Ref: +7
+Will: +3
+Defensive Abilities: [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-> ::: statblock
-> Speed: 40 ft., swim 40 ft.
-> Melee: bite +7 (1d6+3), 2 pincers +5 (1d6+1 plus [grab](ref/umr/grab))
-> :::
+::: statblock
+Speed: 40 ft., swim 40 ft.
+Melee: bite +7 (1d6+3), 2 pincers +5 (1d6+1 plus [grab](ref/umr/grab))
+:::
 
 ### Statistics
 
-> ::: statblock
-> Str: 16
-> Dex: 16
-> Con: 14
-> Int: 7
-> Wis: 10
-> Cha: 11
-> Base Atk: +4
-> CMB: +7 (+11 grapple)
-> CMD: 20 (24 vs. trip)
-> Feats: [Iron Will](ref/feat/iron-will), [Multiattack](ref/feat/multiattack), Toughness
-> Skills: Intimidate +4, Perception +7, Sense Motive +7, Stealth +8, Swim +13
-> Languages: Common
-> SQ: link, evolutions (bite, gills, improved natural armor, limbs \[arms\], limbs \[legs, 2\], pincers, swim), share spells
-> :::
+::: statblock
+Str: 16
+Dex: 16
+Con: 14
+Int: 7
+Wis: 10
+Cha: 11
+Base Atk: +4
+CMB: +7 (+11 grapple)
+CMD: 20 (24 vs. trip)
+Feats: [Iron Will](ref/feat/iron-will), [Multiattack](ref/feat/multiattack), Toughness
+Skills: Intimidate +4, Perception +7, Sense Motive +7, Stealth +8, Swim +13
+Languages: Common
+SQ: link, evolutions (bite, gills, improved natural armor, limbs \[arms\], limbs \[legs, 2\], pincers, swim), share spells
+:::

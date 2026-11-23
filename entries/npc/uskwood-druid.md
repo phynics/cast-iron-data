@@ -15,6 +15,8 @@ kind = "creature"
 cr = "10"
 +++
 
+## Uskwood Druid {#stat-uskwood-druid}
+
 Elf [druid](ref/class/druid) of [Zon-Kuthon](ref/faith/zon-kuthon) 11\
 NE Medium humanoid (elf)
 
@@ -141,61 +143,62 @@ from making use of flames that might set the forest ablaze. Even the light that 
 forest is blasphemy to an Uskwood druid, and kindling a campfire within its reaches invites certain
 death.
 
-> ### Dire Bat Companion
->
-> This Uskwood druid's animal companion is an immense, coal-black dire bat that sometimes carries
-> the druid as a rider to scout stretches of the Uskwood from the air. The creature is carnivorous
-> and vicious, and the druid has taught it to leave the gore on its body after it fights or feasts.
->
-> This dire bat resembles most predators of the Uskwood: cruel, feral, and unnerving. There's no
-> clear division between predator and prey in the forest. Even the smallest creatures, such as
-> centipedes, insects, and arachnids, tend to be venomous, and the largest predators might be
-> brought down by a group of other vicious beasts. Only the Uskwood druids and their magic can
-> control these monsters. The albinos torture and retrain potential animal companions until they're
-> broken in rather than attempting to entice them into service or befriending them.
->
-> ### Dire Bat Animal Companion
->
-> N Large animal
->
-> ::: statblock
-> Init: +4
-> Senses: [blindsense](ref/rule/blindsight-and-blindsense) 40 ft.; Perception +13
-> :::
+### Dire Bat Companion
+
+This Uskwood druid's animal companion is an immense, coal-black dire bat that sometimes carries the
+druid as a rider to scout stretches of the Uskwood from the air. The creature is carnivorous and
+vicious, and the druid has taught it to leave the gore on its body after it fights or feasts.
+
+This dire bat resembles most predators of the Uskwood: cruel, feral, and unnerving. There's no clear
+division between predator and prey in the forest. Even the smallest creatures, such as centipedes,
+insects, and arachnids, tend to be venomous, and the largest predators might be brought down by a
+group of other vicious beasts. Only the Uskwood druids and their magic can control these monsters.
+The albinos torture and retrain potential animal companions until they're broken in rather than
+attempting to entice them into service or befriending them.
+
+## Dire Bat Animal Companion {#stat-dire-bat-animal-companion}
+
+N Large animal
+
+::: statblock
+Challenge rating: -
+Init: +4
+Senses: [blindsense](ref/rule/blindsight-and-blindsense) 40 ft.; Perception +13
+:::
 
 ### Defense
 
-> ::: statblock
-> AC: 22, touch 13, flat-footed 18 (+4 Dex, +9 natural, -1 size)
-> hp: 67 (9d8+27)
-> Fort: +8
-> Ref: +10
-> Will: +5 (+4 vs. enchantment)
-> Defensive Abilities: devotion, [evasion](ref/ability/evasion)
-> :::
+::: statblock
+AC: 22, touch 13, flat-footed 18 (+4 Dex, +9 natural, -1 size)
+hp: 67 (9d8+27)
+Fort: +8
+Ref: +10
+Will: +5 (+4 vs. enchantment)
+Defensive Abilities: devotion, [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-> ::: statblock
-> Speed: 20 ft., fly 40 ft. (good)
-> Melee: bite +11/+6 (2d6+7)
-> Space: 10 ft.
-> Reach: 5 ft.
-> :::
+::: statblock
+Speed: 20 ft., fly 40 ft. (good)
+Melee: bite +11/+6 (2d6+7)
+Space: 10 ft.
+Reach: 5 ft.
+:::
 
 ### Statistics
 
-> ::: statblock
-> Str: 21
-> Dex: 18
-> Con: 14
-> Int: 2
-> Wis: 14
-> Cha: 6
-> Base Atk: +6
-> CMB: +12
-> CMD: 26
-> Feats: [Improved Natural Attack](ref/feat/improved-natural-attack) (bite), [Power Attack](ref/feat/power-attack), Toughness, [Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (bite)
-> Skills: Fly +10, Perception +13
-> SQ: link, share spells, tricks (attack \[any\], come, defend, down, fetch, guard, seek, stay, work)
-> :::
+::: statblock
+Str: 21
+Dex: 18
+Con: 14
+Int: 2
+Wis: 14
+Cha: 6
+Base Atk: +6
+CMB: +12
+CMD: 26
+Feats: [Improved Natural Attack](ref/feat/improved-natural-attack) (bite), [Power Attack](ref/feat/power-attack), Toughness, [Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (bite)
+Skills: Fly +10, Perception +13
+SQ: link, share spells, tricks (attack \[any\], come, defend, down, fetch, guard, seek, stay, work)
+:::

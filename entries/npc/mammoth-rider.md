@@ -15,6 +15,8 @@ kind = "creature"
 cr = "14"
 +++
 
+## Mammoth Rider {#stat-mammoth-rider}
+
 Human [barbarian](ref/class/barbarian) 3/[druid](ref/class/druid) 6/mammoth rider 6\
 CN Medium humanoid (human)
 
@@ -146,50 +148,51 @@ making their way through the Realm of the Mammoth Lords are wise to enlist local
 placate local rulers and negotiate taboos, lest they find themselves in the path of a stampeding
 beast or the set spear of a charging rider.
 
-> ### Mammoth Steed
->
-> Mastodon animal companion\
-> N Huge animal
->
-> ::: statblock
-> Init: +2
-> Senses: [low-light vision](ref/rule/low-light-vision), scent; Perception +15
-> :::
+## Mammoth Steed {#stat-mammoth-steed}
+
+Mastodon animal companion\
+N Huge animal
+
+::: statblock
+Challenge rating: -
+Init: +2
+Senses: [low-light vision](ref/rule/low-light-vision), scent; Perception +15
+:::
 
 ### Defense
 
-> ::: statblock
-> AC: 25, touch 10, flat-footed 23 (+2 Dex, +15 natural, -2 size)
-> hp: 115 (10d8+70)
-> Fort: +13
-> Ref: +9
-> Will: +7 (+4 vs. enchantments); +4 vs. charm, compulsion, and fear
-> Defensive Abilities: [evasion](ref/ability/evasion)
-> :::
+::: statblock
+AC: 25, touch 10, flat-footed 23 (+2 Dex, +15 natural, -2 size)
+hp: 115 (10d8+70)
+Fort: +13
+Ref: +9
+Will: +7 (+4 vs. enchantments); +4 vs. charm, compulsion, and fear
+Defensive Abilities: [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-> ::: statblock
-> Speed: 40 ft.
-> Melee: gore +16 (2d8+11), slam +16 (2d6+11)
-> Space: 15 ft.
-> Reach: 10 ft.
-> Special Attacks: trample (2d8+16, DC 26)
-> :::
+::: statblock
+Speed: 40 ft.
+Melee: gore +16 (2d8+11), slam +16 (2d6+11)
+Space: 15 ft.
+Reach: 10 ft.
+Special Attacks: trample (2d8+16, DC 26)
+:::
 
 ### Statistics
 
-> ::: statblock
-> Str: 32
-> Dex: 14
-> Con: 22
-> Int: 2
-> Wis: 14
-> Cha: 7
-> Base Atk: +7
-> CMB: +20
-> CMD: 32 (36 vs. trip)
-> Feats: [Diehard](ref/feat/diehard), [Endurance](ref/feat/endurance), [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness)
-> Skills: Perception +15
-> SQ: tricks (attack \[all creatures\], come, defend, down, fetch, guard, heel, perform, stay, work)
-> :::
+::: statblock
+Str: 32
+Dex: 14
+Con: 22
+Int: 2
+Wis: 14
+Cha: 7
+Base Atk: +7
+CMB: +20
+CMD: 32 (36 vs. trip)
+Feats: [Diehard](ref/feat/diehard), [Endurance](ref/feat/endurance), [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness)
+Skills: Perception +15
+SQ: tricks (attack \[all creatures\], come, defend, down, fetch, guard, heel, perform, stay, work)
+:::

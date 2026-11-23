@@ -15,6 +15,8 @@ kind = "creature"
 cr = "6"
 +++
 
+## Molthuni Commander {#stat-molthuni-commander}
+
 Human [aristocrat](ref/npcclass/aristocrat) 2/[cavalier](ref/class/cavalier) 5\
 LN Medium humanoid (human)
 
@@ -80,50 +82,51 @@ papers. Pathfinders and Nirmathi, especially, are considered enemies of the stat
 discovered, a Molthuni commander and his forces will do what is necessary to remove the threat to
 the nation.
 
-> ### Commander's Mount
->
-> Horse animal companion\
-> N Large animal
->
-> ::: statblock
-> Init: +2
-> Senses: [low-light vision](ref/rule/low-light-vision), scent; Perception +1
-> :::
+## Commander's Mount {#stat-commanders-mount}
+
+Horse animal companion\
+N Large animal
+
+::: statblock
+Challenge rating: -
+Init: +2
+Senses: [low-light vision](ref/rule/low-light-vision), scent; Perception +1
+:::
 
 ### Defense
 
-> ::: statblock
-> AC: 21, touch 11, flat-footed 19 (+4 armor, +2 Dex, +6 natural, -1 size)
-> hp: 42 (5d8+20)
-> Fort: +7
-> Ref: +6
-> Will: +2
-> Defensive Abilities: [evasion](ref/ability/evasion)
-> :::
+::: statblock
+AC: 21, touch 11, flat-footed 19 (+4 armor, +2 Dex, +6 natural, -1 size)
+hp: 42 (5d8+20)
+Fort: +7
+Ref: +6
+Will: +2
+Defensive Abilities: [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-> ::: statblock
-> Speed: 50 ft.
-> Melee: bite +6 (1d4+4), 2 hooves +4 (1d6+2)
-> Space: 10 ft.
-> Reach: 5 ft.
-> :::
+::: statblock
+Speed: 50 ft.
+Melee: bite +6 (1d4+4), 2 hooves +4 (1d6+2)
+Space: 10 ft.
+Reach: 5 ft.
+:::
 
 ### Statistics
 
-> ::: statblock
-> Str: 19
-> Dex: 14
-> Con: 17
-> Int: 2
-> Wis: 12
-> Cha: 6
-> Base Atk: +3
-> CMB: +8
-> CMD: 20 (24 vs. trip)
-> Feats: [Endurance](ref/feat/endurance), Light Armor Proficiency, [Multiattack](ref/feat/multiattack), [Toughness](ref/feat/toughness)
-> Skills: Swim +10
-> SQ: combat trained, tricks (attack, come, defend, down, guard, heel, perform, stay)
-> Gear: [chain shirt](ref/eq-armor/chain-shirt) [barding](ref/eq-armor/barding)
-> :::
+::: statblock
+Str: 19
+Dex: 14
+Con: 17
+Int: 2
+Wis: 12
+Cha: 6
+Base Atk: +3
+CMB: +8
+CMD: 20 (24 vs. trip)
+Feats: [Endurance](ref/feat/endurance), Light Armor Proficiency, [Multiattack](ref/feat/multiattack), [Toughness](ref/feat/toughness)
+Skills: Swim +10
+SQ: combat trained, tricks (attack, come, defend, down, guard, heel, perform, stay)
+Gear: [chain shirt](ref/eq-armor/chain-shirt) [barding](ref/eq-armor/barding)
+:::
