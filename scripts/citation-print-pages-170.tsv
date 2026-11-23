@@ -2567,7 +2567,7 @@ ref/carried/core-rulebook/rules/glossary/special-abilities/poison/terinav-root	c
 ref/carried/core-rulebook/rules/glossary/special-abilities/poison/ungol-dust	core-rulebook	560	print	
 ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wolfsbane	core-rulebook	560	print	
 ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wyvern-poison	core-rulebook	560	print	
-ref/carried/advanced-race-guide/races/duergar/new-racial-rules/duergar-equipment/spellscorch/spellscorch	advanced-race-guide		unconfirmed	proposed page 1 is not credible and the title is not on it or the two pages after it
+ref/carried/advanced-race-guide/races/duergar/new-racial-rules/duergar-equipment/spellscorch/spellscorch	advanced-race-guide	187	print		the poison is in the Duergar Equipment text and Table 3-1 on this page
 ref/discovery/acid-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
 ref/discovery/awakened-intellect	advanced-players-guide	31	print	
 ref/discovery/bone-spike-mutagen	antiheros-handbook	29	print	
@@ -2575,9 +2575,9 @@ ref/discovery/chameleon	advanced-race-guide	191	print
 ref/discovery/combine-extracts	advanced-players-guide	29	print	
 ref/discovery/concentrate-poison	advanced-players-guide	29	print	
 ref/discovery/concussive-bomb	advanced-players-guide	29	print		title text only (no heading form): the name is on page 29 and on none of the two pages each side
-ref/discovery/darkness-bomb	advanced-race-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/darkness-bomb	advanced-race-guide	205	print		discovery text under the svirfneblin Deep Bomber on this page
 ref/discovery/deadly-excretions	advanced-race-guide	191	print	
-ref/discovery/defoliant-bomb	advanced-race-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/defoliant-bomb	advanced-race-guide	44	print		discovery text under New Alchemist Discovery (bramble brewer) on this page
 ref/discovery/delayed-bomb	advanced-players-guide	29	print	
 ref/discovery/dilution	advanced-players-guide	29	print	
 ref/discovery/dispelling-bomb	advanced-players-guide	30	print	
@@ -2593,7 +2593,7 @@ ref/discovery/feral-mutagen	advanced-players-guide	30	print
 ref/discovery/fire-brand	advanced-race-guide	116	print	
 ref/discovery/force-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
 ref/discovery/frost-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
-ref/discovery/glassfoot-bomb	advanced-race-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/glassfoot-bomb	advanced-race-guide	205	print		discovery text under the svirfneblin Deep Bomber on this page
 ref/discovery/grand-inspiring-cognatogen	advanced-class-guide	75	print	
 ref/discovery/grand-mutagen	advanced-players-guide	30	print	
 ref/discovery/greater-inspiring-cognatogen	advanced-class-guide	75	print	
@@ -4338,3 +4338,39 @@ ref/carried/bestiary-2/monsters/swarm/jellyfish/special-abilities/poison/jellyfi
 ref/carried/bestiary-2/monsters/tenebrous-worm/special-abilities/poison/tenebrous-worm-venom	bestiary-2	260	print		the ability text with this save DC and effect is in the creature's stat block on this page
 ref/carried/bestiary-2/monsters/tentamort/special-abilities/poison/tentamort-venom	bestiary-2	261	print		the ability text with this save DC and effect is in the creature's stat block on this page
 ref/carried/bestiary-2/monsters/toad/giant/special-abilities/poison-skin/toad-venom	bestiary-2	268	print		proposal 307 (a section or parent page), print 268: the ability text with this save DC and effect is in the creature's stat block on this page
+ref/racial-trait/dwarf/attributes	advanced-race-guide	10	print		the trait is in the Dwarf Racial Traits block on this page
+ref/racial-trait/dwarf/darkvision	advanced-race-guide	10	print		the trait is in the Dwarf Racial Traits block on this page
+ref/racial-trait/dwarf/defensive-training	advanced-race-guide	10	print		the trait is in the Dwarf Racial Traits block on this page
+ref/racial-trait/dwarf/greed	advanced-race-guide	10	print		the trait is in the Dwarf Racial Traits block on this page
+ref/racial-trait/dwarf/hardy	advanced-race-guide	10	print		the trait is in the Dwarf Racial Traits block on this page
+ref/racial-trait/dwarf/hatred	advanced-race-guide	10	print		the trait is in the Dwarf Racial Traits block on this page
+ref/racial-trait/dwarf/languages	advanced-race-guide	10	print		the trait is in the Dwarf Racial Traits block on this page
+ref/racial-trait/dwarf/stability	advanced-race-guide	10	print		the trait is in the Dwarf Racial Traits block on this page
+ref/racial-trait/dwarf/stonecunning	advanced-race-guide	10	print		the trait is in the Dwarf Racial Traits block on this page
+ref/racial-trait/elf/attributes	advanced-race-guide	20	print		the trait is in the Elf Racial Traits block on this page
+ref/racial-trait/elf/elven-immunities	advanced-race-guide	20	print		the trait is in the Elf Racial Traits block on this page
+ref/racial-trait/elf/elven-magic	advanced-race-guide	20	print		the trait is in the Elf Racial Traits block on this page
+ref/racial-trait/elf/keen-senses	advanced-race-guide	20	print		the trait is in the Elf Racial Traits block on this page
+ref/racial-trait/elf/low-light-vision	advanced-race-guide	20	print		the trait is in the Elf Racial Traits block on this page
+ref/racial-trait/elf/weapon-familiarity	advanced-race-guide	20	print		the trait is in the Elf Racial Traits block on this page
+ref/racial-trait/gnome/attributes	advanced-race-guide	30	print		the trait is in the Gnome Racial Traits block on this page
+ref/racial-trait/gnome/gnome-magic	advanced-race-guide	30	print		the trait is in the Gnome Racial Traits block on this page
+ref/racial-trait/gnome/hatred	advanced-race-guide	30	print		the trait is in the Gnome Racial Traits block on this page
+ref/racial-trait/gnome/illusion-resistance	advanced-race-guide	30	print		the trait is in the Gnome Racial Traits block on this page
+ref/racial-trait/gnome/keen-senses	advanced-race-guide	30	print		the trait is in the Gnome Racial Traits block on this page
+ref/racial-trait/gnome/obsessive	advanced-race-guide	30	print		the trait is in the Gnome Racial Traits block on this page
+ref/racial-trait/half-elf/attributes	advanced-race-guide	40	print		the trait is in the Half-Elf Racial Traits block on this page
+ref/racial-trait/half-orc/attributes	advanced-race-guide	50	print		the trait is in the Half-Orc Racial Traits block on this page
+ref/racial-trait/half-orc/darkvision	advanced-race-guide	50	print		the trait is in the Half-Orc Racial Traits block on this page
+ref/racial-trait/half-orc/orc-ferocity	advanced-race-guide	50	print		the trait is in the Half-Orc Racial Traits block on this page
+ref/racial-trait/half-orc/weapon-familiarity	advanced-race-guide	50	print		the trait is in the Half-Orc Racial Traits block on this page
+ref/racial-trait/halfling/attributes	advanced-race-guide	60	print		the trait is in the Halfling Racial Traits block on this page
+ref/racial-trait/halfling/keen-senses	advanced-race-guide	60	print		the trait is in the Halfling Racial Traits block on this page
+ref/racial-trait/halfling/languages	advanced-race-guide	60	print		the trait is in the Halfling Racial Traits block on this page
+ref/racial-trait/halfling/sure-footed	advanced-race-guide	60	print		the trait is in the Halfling Racial Traits block on this page
+ref/racial-trait/human/attributes	advanced-race-guide	70	print		the trait is in the Human Racial Traits block on this page
+ref/racial-trait/human/bonus-feat	advanced-race-guide	70	print		the trait is in the Human Racial Traits block on this page
+ref/racial-trait/human/skilled	advanced-race-guide	70	print		the trait is in the Human Racial Traits block on this page
+ref/affliction/standard-offensive-traits/life-stealing-venom	advanced-race-guide	235	print		the venom is in the Racial Trait Builder offensive trait list on this page
+ref/affliction/standard-offensive-traits/paralytic-venom	advanced-race-guide	235	print		the venom is in the Racial Trait Builder offensive trait list on this page
+ref/affliction/standard-offensive-traits/weakening-venom	advanced-race-guide	235	print		the venom is in the Racial Trait Builder offensive trait list on this page

@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-race-guide"
+page = "205"
 
 [fields]
 kind = "class_option"

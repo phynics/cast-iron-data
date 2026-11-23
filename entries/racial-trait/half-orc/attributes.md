@@ -15,6 +15,7 @@ publication = "inner-sea-races"
 page = "237"
 [[sources]]
 publication = "advanced-race-guide"
+page = "50"
 [[sources]]
 publication = "core-rulebook"
 
