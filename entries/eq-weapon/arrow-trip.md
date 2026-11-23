@@ -32,9 +32,13 @@ maneuver against the target with a Combat Maneuver Bonus of +5. For the purpose 
 [Combat Maneuver Bonuses or penalties](ref/rule/combat-maneuvers) based on size, the arrow is
 treated as if it were the size of the creature it was designed for.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (20 cold iron + 15 magnesium + 20
-myrrh)/earth; **Craft DC** 25\
-**Time** 10 minutes; **Tools** -; **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(20 cold iron + 15 magnesium + 20 myrrh)/earth](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: -
+Type: alchemical weapon
+:::
 
 **Note:** Weight is based on 20 normal [arrows](ref/eq-weapon/arrow) weighing three pounds and
 assuming these "squat" arrows weigh slightly more. The source material lists weight as —.

@@ -32,9 +32,13 @@ with enough black, blue, green, or red marker dye to coat about 1 square foot. T
 marker dye cannot be washed off except with magic for the first 72 hours, but fades completely after
 2 weeks.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (1 cold iron + 1 phosphorus)/earth;
-**Craft DC** 25\
-**Time** 10 minutes; **Tools** -; **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(1 cold iron + 1 phosphorus)/earth](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: -
+Type: alchemical weapon
+:::
 
 **Note:** Weight is based on 20 normal [arrows](ref/eq-weapon/arrow) weighing three pounds. The
 source material lists weight as —.

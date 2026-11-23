@@ -29,6 +29,10 @@ damage you take from [bleed](ref/rule/bleed) effects during this time is multipl
 (rounded up). Swallowing a [blood-chilling pill](ref/eq-misc/blood-chilling-pill) while under the
 effects of a blood-boiling pill negates the effects of both pills.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (30 ginger extract + 8 gold + 15
-mugwort extract)/ceration; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(30 ginger extract + 8 gold + 15 mugwort extract)/ceration](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical remedy
+:::

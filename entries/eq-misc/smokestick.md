@@ -34,6 +34,10 @@ fills a 10-foot cube (treat the effect as a [fog cloud](ref/spell/fog-cloud) spe
 moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and
 the smoke dissipates naturally after 1 minute.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (4 darkwood + 5
-saltpeter)/calcination; **Craft DC** 20\
-**Time** 1 hour; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(4 darkwood + 5 saltpeter)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 1 hour
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical tool
+:::

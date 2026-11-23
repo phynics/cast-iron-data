@@ -31,6 +31,10 @@ The firework deals 2d6 points of fire damage to any creature within 10 feet of i
 skydragon's flight path causes it to hit a solid object, the firework continues in a random
 direction but subtracts 30 feet from its movement for that round.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (30 black powder + 30 magnesium + 40
-phosphorus)/calcination; **Craft DC** 30\
-**Time** 1 day; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(30 black powder + 30 magnesium + 40 phosphorus)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 30
+Time: 1 day
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical weapon
+:::

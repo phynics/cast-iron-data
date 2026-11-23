@@ -31,6 +31,10 @@ wear imposing war paint for more than 1 minute per day, you take 1 point of
 [Constitution damage](ref/rule/ability-damage-drain), plus 1 point of Constitution damage for every
 minute you wear the paint that day after the first.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (12 dew of lunary + 10
-realgar)/earth; **Craft DC** 25\
-**Time** 10 minutes; **Tools** -; **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(12 dew of lunary + 10 realgar)/earth](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: -
+Type: alchemical tool
+:::

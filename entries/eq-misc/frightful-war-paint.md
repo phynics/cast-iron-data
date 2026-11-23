@@ -35,6 +35,10 @@ more than 1 minute per day (whether as a single use of it or as multiple uses ov
 of time), you take 1 point of [Constitution damage](ref/rule/ability-damage-drain), plus 1 point of
 Wisdom damage for every minute you wear the paint that day after the first.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (40 dew of lunary + 40 quicksilver +
-50 realgar)/earth; **Craft DC** 30\
-**Time** 10 minutes; **Tools** -; **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(40 dew of lunary + 40 quicksilver + 50 realgar)/earth](ref/rule/spontaneous-alchemy)
+Craft DC: 30
+Time: 10 minutes
+Tools: -
+Type: alchemical tool
+:::

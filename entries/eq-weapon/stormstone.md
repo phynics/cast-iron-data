@@ -34,6 +34,10 @@ stormstone become [staggered](ref/misc/staggered) for 1 round in addition to the
 stormstone ignores non-mythic resistances, non-mythic immunity to electricity or sonic damage, and
 non-mythic silencing effects.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (15 black powder + 85
-phosphorus)/digestion; **Craft DC** 30\
-**Time** 1 hour; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(15 black powder + 85 phosphorus)/digestion](ref/rule/spontaneous-alchemy)
+Craft DC: 30
+Time: 1 hour
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical weapon
+:::

@@ -36,6 +36,10 @@ blindness). If not mounted on a solid, immobile object, a sparking pinwheel cann
 instead fills a single 5-foot square with a shower of sparks; its effects are otherwise unchanged
 for creatures adjacent to or passing through that square.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (5 black powder + 15 magnesium + 30
-phosphorus)/calcination; **Craft DC** 25\
-**Time** 1 hour; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(5 black powder + 15 magnesium + 30 phosphorus)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 hour
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical weapon
+:::

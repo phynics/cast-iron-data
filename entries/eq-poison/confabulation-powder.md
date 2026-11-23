@@ -38,6 +38,10 @@ confabulated memories can be removed with a restoration or heal spell
 
 **Cure:** 1 save
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (20 quicksilver + 15 cytillesh
-spores)/digestion; **Craft** DC 18\
-**Time** 1 day; **Tools** heat source; **Type** poison
+::: statblock
+Spontaneous Alchemy Recipe: [(20 quicksilver + 15 cytillesh spores)/digestion](ref/rule/spontaneous-alchemy)
+Craft: DC 18
+Time: 1 day
+Tools: heat source
+Type: poison
+:::

@@ -307,6 +307,14 @@ the block is titled `Shield Bash Attacks`, the printed name of that paragraph, a
 above must open with it. The shield spikes print two paragraphs, `Light shield` and `Heavy shield`:
 each becomes a block with its printed name as the title.
 
+`recipe` (every item folder, 73 entries): the alchemical recipe paragraph, `**[Spontaneous
+Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 quicksilver + 10 realgar)/distillation; **Craft
+DC** 20` and the line of `Time`, `Tools` and `Type`. It is not a variant with a printed name, so
+the block is untitled and stands where the paragraph stands. The label is plain and the link moves
+onto the value (the recipe), as for the weapon groups; one entry (`poison-diffuser`) prints the
+label without the link. The poison recipes print `**Craft** DC 13`,
+with `DC` outside the bold; the row is kept as printed (`Craft: DC 13`).
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -347,8 +355,7 @@ APPLIED: list[tuple[str, str | None]] = [
     ("npc", None),
     ("item", None),
     ("siege", None),
-    ("shield", None),
-]
+]  # the variant kinds join it below
 
 PASS_FOLDERS = {
     "sources": ("monster", "npc", "*"),
@@ -356,12 +363,11 @@ PASS_FOLDERS = {
     "npc": ("npc",),
     "item": ("*",),
     "siege": ("eq-siegeengine",),
-    "shield": ("eq-armor", "eq-armorenh"),
     "fixes": (),
 }
-PASS_KIND = {"creature": "creature", "npc": "creature", "item": "item", "siege": "item", "shield": "item"}
+PASS_KIND = {"creature": "creature", "npc": "creature", "item": "item", "siege": "item"}
 NOT_ITEM_FOLDERS = ("carried", "monster", "npc")
-KNOWN_PASSES = ("sources", "creature", "npc", "item", "siege", "shield", "fixes")
+KNOWN_PASSES = ("sources", "creature", "npc", "item", "siege", "fixes")  # the variant kinds join it below
 
 # Rule S: the zones of a body whose raw `**Sources:**` lines the pass handles now, and the label.
 SOURCES_LABEL = "**Sources:**"
@@ -1908,8 +1914,32 @@ def classify_variant(plan, body: str) -> str:
     return "paragraphs" if plan(chunks(body.split("\n"))) else "already"
 
 
-VARIANT_PLANS = {"shield": plan_shield}
-VARIANT_COMMAS: dict[str, tuple[str, ...]] = {}
+RECIPE_LABEL = "**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe**"
+
+
+def plan_recipe(cs: list[list[str]]) -> dict[int, dict]:
+    """K-recipe. The paragraph that opens with the linked label `Spontaneous Alchemy Recipe`
+    (alchemical items, weapons and poisons): one untitled block where it stands. The link moves
+    onto the value, which is the recipe itself (`(6 quicksilver + 10 realgar)/distillation`)."""
+    return {
+        index: {"link_labels": True}
+        for index, chunk in enumerate(cs)
+        if chunk[0].startswith((RECIPE_LABEL + " ", "**Spontaneous Alchemy Recipe** "))
+    }
+
+
+# name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
+VARIANT_KINDS = {
+    "recipe": (("*",), plan_recipe, ()),
+    "shield": (("eq-armor", "eq-armorenh"), plan_shield, ()),
+}
+VARIANT_PLANS = {name: plan for name, (_, plan, _) in VARIANT_KINDS.items()}
+VARIANT_COMMAS = {name: commas for name, (_, _, commas) in VARIANT_KINDS.items()}
+for _name, (_folders, _, _) in VARIANT_KINDS.items():
+    PASS_FOLDERS[_name] = _folders
+    PASS_KIND[_name] = "item"
+    APPLIED.append((_name, None))
+KNOWN_PASSES = KNOWN_PASSES[:-1] + tuple(VARIANT_KINDS) + ("fixes",)
 
 
 # ---- the sources pass ------------------------------------------------------------------------------
@@ -2541,7 +2571,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3492,6 +3522,42 @@ class VariantSelfTest(unittest.TestCase):
         self.assertEqual(vrows("**Int** 14, **Wis** 16, **Cha** 14", ("Wis", "Cha")), [("Int", "14"), ("Wis", "16"), ("Cha", "14")])
         with self.assertRaises(Queue):
             vrows("**Int** 14, **Wis** 16", ())
+
+
+class RecipeSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nPrice: 30 gp\nWeight: -\n:::\n\nThe liquid.\n\n"
+        "**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 quicksilver + 10\n"
+        "realgar)/distillation; **Craft DC** 20\\\n"
+        "**Time** 10 minutes; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical tool\n"
+    )
+
+    def test_a_recipe_becomes_an_untitled_block_and_the_link_moves_onto_the_recipe(self):
+        new = convert_variants(self.BODY, plan_recipe)
+        self.assertTrue(new.endswith(
+            "::: statblock\nSpontaneous Alchemy Recipe: [(6 quicksilver + 10 realgar)/distillation](ref/rule/spontaneous-alchemy)\n"
+            "Craft DC: 20\nTime: 10 minutes\nTools: [retort](ref/eq-misc/retort)\nType: alchemical tool\n:::\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_recipe, new), "already")
+
+    def test_a_wrapped_label_and_the_craft_dc_split_read_as_printed(self):
+        wrapped = self.BODY.replace("**Craft DC**", "**Craft\nDC**")
+        self.assertIn("Craft DC: 20\n", convert_variants(wrapped, plan_recipe))
+        unlinked = self.BODY.replace("**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe**", "**Spontaneous Alchemy Recipe**")
+        self.assertIn("Spontaneous Alchemy Recipe: (6 quicksilver + 10 realgar)/distillation\n", convert_variants(unlinked, plan_recipe))
+        poison = self.BODY.replace("**Craft DC** 20", "**Craft** DC 13")
+        self.assertIn("Craft: DC 13\n", convert_variants(poison, plan_recipe))
+
+    def test_what_the_rule_does_not_cover_queues(self):
+        for reason, body in {
+            "label-twice": self.BODY.replace("**Time** 10 minutes", "**Craft DC** 9"),
+            "linked-label": self.BODY.replace("realgar)/distillation;", "[realgar](ref/eq-misc/realgar))/distillation;"),
+            "unlabelled-line": self.BODY.replace("**Time**", "Time"),
+        }.items():
+            with self.subTest(reason=reason):
+                with self.assertRaises(Queue) as caught:
+                    convert_variants(body, plan_recipe)
+                self.assertEqual(caught.exception.reason, reason)
 
 
 class SourcesSelfTest(unittest.TestCase):

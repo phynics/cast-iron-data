@@ -33,10 +33,13 @@ with the following adjustments: Reflex DC 10, Strength DC 12 to break, 10 points
 to cut through, concentration DC 10 to cast spells. A tangleshot arrow imposes a -1 penalty on
 attack rolls because of its weight.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (18 myrrh + 26 urea)/congelation;
-**Craft DC** 25\
-**Time** 10 minutes; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical
-weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(18 myrrh + 26 urea)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical weapon
+:::
 
 **Note:** Weight is based on 20 normal [arrows](ref/eq-weapon/arrow) weighing three pounds and
 assuming these arrows (with a -1 penalty on attacks to to weight) are somewhat heavier. The source

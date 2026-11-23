@@ -29,6 +29,10 @@ tunnel is supported by sturdy fungal tubes. A tunnel creeper cannot eat through 
 material denser than common stone. A tunnel creeper takes 10 minutes to carve a tunnel through
 stone, or 5 minutes to carve through wood, after which the fungus withers and falls to the ground.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (100 brimstone + 90 magnesium + 35
-cytillesh spores)/fermentation; **Craft DC** 25\
-**Time** 1 day; **Tools** heat source; **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(100 brimstone + 90 magnesium + 35 cytillesh spores)/fermentation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 day
+Tools: heat source
+Type: alchemical tool
+:::
