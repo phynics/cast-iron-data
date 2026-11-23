@@ -12,6 +12,7 @@ publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
+prerequisites = "Unarmed Combatant, Dex 13"
 benefit = "You do not suffer any penalties for using an improvised melee weapon. Unarmed opponents are flat-footed against any attacks you make with an improvised melee weapon. You receive a +1 circumstance bonus on attack rolls made with thrown splash weapons."
 normal = "You take a -4 penalty on attack rolls made with an improvised weapon."
 +++
