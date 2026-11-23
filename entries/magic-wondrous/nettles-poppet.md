@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "heaven-unleashed"
 page = "55"
+[[sources]]
+publication = "ultimate-equipment"
+page = "302"
 
 [fields]
 kind = "item"
@@ -34,6 +37,7 @@ its appearance adjusts to mimic its owner after it has been carried for more tha
 
 ### Construction
 
-**Sources:** Ultimate Equipment pg 302\
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse)
+Cost: 1,250 gp
+:::

@@ -113,10 +113,7 @@ this manner.
 
 ### Construction
 
-**Sources:** Classic Treasures Revisited pg 14\
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage hand](ref/spell/mage-hand) (remote activation cube only),
-[summon monster I](ref/spell/summon-monster-1) (discriminating cube only),
-[wall of force](ref/spell/wall-of-force); **Cost** 20,000 gp (discriminating cube), 28,000 gp (cube
-of varied force walls), 31,000 gp (cube of force), 35,000 gp (independent cube of force,
-rechargeable cube of force, remote activation cube)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage hand](ref/spell/mage-hand) (remote activation cube only), [summon monster I](ref/spell/summon-monster-1) (discriminating cube only), [wall of force](ref/spell/wall-of-force)
+Cost: 20,000 gp (discriminating cube), 28,000 gp (cube of varied force walls), 31,000 gp (cube of force), 35,000 gp (independent cube of force, rechargeable cube of force, remote activation cube)
+:::

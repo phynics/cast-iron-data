@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "heaven-unleashed"
 page = "55"
+[[sources]]
+publication = "ultimate-equipment"
+page = "260"
+[[sources]]
+publication = "core-rulebook"
+page = "525"
 
 [fields]
 kind = "item"
@@ -33,6 +39,7 @@ consumed at least 1 pound of humanoid flesh within the past week.
 
 ### Construction
 
-**Sources:** Ultimate Equipment pg 260, PRPG Core Rulebook pg 525\
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove disease](ref/spell/remove-disease); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove disease](ref/spell/remove-disease)
+Cost: 3,750 gp
+:::
