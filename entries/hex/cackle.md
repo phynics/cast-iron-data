@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "magical-marketplace", "monster-summoner
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cackle", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "66"
 
 [fields]
 kind = "class_option"

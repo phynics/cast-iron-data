@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obfuscate_story", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "193"
 
 [fields]
 kind = "class_option"

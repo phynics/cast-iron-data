@@ -6,6 +6,8 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_ferocious_beast", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "animal-archive"
 
 [fields]
 kind = "class_option"

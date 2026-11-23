@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snipers_eye", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "131"
 
 [fields]
 kind = "class_option"

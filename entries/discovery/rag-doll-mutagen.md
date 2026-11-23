@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rag_doll_mutagen", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "116"
 
 [fields]
 kind = "class_option"

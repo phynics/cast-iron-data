@@ -2568,3 +2568,376 @@ ref/carried/core-rulebook/rules/glossary/special-abilities/poison/ungol-dust	cor
 ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wolfsbane	core-rulebook	560	print	
 ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wyvern-poison	core-rulebook	560	print	
 ref/carried/advanced-race-guide/races/duergar/new-racial-rules/duergar-equipment/spellscorch/spellscorch	advanced-race-guide		unconfirmed	proposed page 1 is not credible and the title is not on it or the two pages after it
+ref/discovery/acid-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/awakened-intellect	advanced-players-guide	31	print	
+ref/discovery/bone-spike-mutagen	antiheros-handbook	29	print	
+ref/discovery/chameleon	advanced-race-guide	191	print	
+ref/discovery/combine-extracts	advanced-players-guide	29	print	
+ref/discovery/concentrate-poison	advanced-players-guide	29	print	
+ref/discovery/concussive-bomb	advanced-players-guide	29	print		title text only (no heading form): the name is on page 29 and on none of the two pages each side
+ref/discovery/darkness-bomb	advanced-race-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/deadly-excretions	advanced-race-guide	191	print	
+ref/discovery/defoliant-bomb	advanced-race-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/delayed-bomb	advanced-players-guide	29	print	
+ref/discovery/dilution	advanced-players-guide	29	print	
+ref/discovery/dispelling-bomb	advanced-players-guide	30	print	
+ref/discovery/elixir-of-life	advanced-players-guide	30	print	
+ref/discovery/enhance-potion	advanced-players-guide	30	print	
+ref/discovery/eternal-potion	advanced-players-guide	30	print	
+ref/discovery/eternal-youth	advanced-players-guide	31	print	
+ref/discovery/explosive-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/extend-potion	advanced-players-guide	30	print	
+ref/discovery/fast-bombs	advanced-players-guide	30	print	
+ref/discovery/fast-healing	advanced-players-guide	31	print	
+ref/discovery/feral-mutagen	advanced-players-guide	30	print	
+ref/discovery/fire-brand	advanced-race-guide	116	print	
+ref/discovery/force-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/frost-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/glassfoot-bomb	advanced-race-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/grand-inspiring-cognatogen	advanced-class-guide	75	print	
+ref/discovery/grand-mutagen	advanced-players-guide	30	print	
+ref/discovery/greater-inspiring-cognatogen	advanced-class-guide	75	print	
+ref/discovery/greater-mutagen	advanced-players-guide	30	print	
+ref/discovery/greater-plague-bomb	advanced-race-guide	153	print		title text only (no heading form): the name is on page 153 and on none of the two pages each side
+ref/discovery/hellfire-bomb	agents-of-evil	25	print	
+ref/discovery/inferno-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/infuse-mutagen	advanced-players-guide	30	print	
+ref/discovery/infusion	advanced-players-guide	31	print	
+ref/discovery/inspired-bomb	advanced-class-guide	75	print	
+ref/discovery/inspiring-cognatogen	advanced-class-guide	75	print	
+ref/discovery/jury-rigged-bomb	antiheros-handbook	29	print		title text only (no heading form): the name is on page 29 and on none of the two pages each side
+ref/discovery/lingering-plague	advanced-race-guide	153	print	
+ref/discovery/madness-bomb	advanced-players-guide	31	print	
+ref/discovery/philosophers-stone	advanced-players-guide	31	print	
+ref/discovery/poison-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/poison-touch	advanced-players-guide	32	print	
+ref/discovery/precise-bombs	advanced-players-guide	31	print	
+ref/discovery/rag-doll-mutagen	advanced-race-guide	116	print	
+ref/discovery/rocket-bomb	advanced-race-guide	116	print	
+ref/discovery/sand-bomb	antiheros-handbook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/scrap-bomb	advanced-race-guide	116	print	
+ref/discovery/shock-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/smoke-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/sticky-bomb	advanced-players-guide	31	print	
+ref/discovery/sticky-poison	advanced-players-guide	31	print	
+ref/discovery/stink-bomb	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/true-mutagen	advanced-players-guide	32	print	
+ref/discovery/underwater-demolition	advanced-race-guide	191	print	
+ref/evolution/ability-increase	advanced-players-guide	61	print	
+ref/evolution/bite	advanced-players-guide	60	print	
+ref/evolution/blindsense	advanced-players-guide	63	print	
+ref/evolution/blindsight	advanced-players-guide	63	print	
+ref/evolution/breath-weapon	advanced-players-guide	63	print	
+ref/evolution/burrow	advanced-players-guide	63	print	
+ref/evolution/claws	advanced-players-guide	60	print	
+ref/evolution/climb	advanced-players-guide	60	print	
+ref/evolution/constrict	advanced-players-guide	61	print	
+ref/evolution/damage-reduction	advanced-players-guide	63	print	
+ref/evolution/energy-attacks	advanced-players-guide	62	print	
+ref/evolution/fast-healing	advanced-players-guide	64	print	
+ref/evolution/flight	advanced-players-guide	62	print	
+ref/evolution/frightful-presence	advanced-players-guide	63	print	
+ref/evolution/gills	advanced-players-guide	60	print	
+ref/evolution/gore	advanced-players-guide	62	print	
+ref/evolution/grab	advanced-players-guide	62	print	
+ref/evolution/immunity	advanced-players-guide	62	print	
+ref/evolution/improved-damage	advanced-players-guide	60	print	
+ref/evolution/improved-natural-armor	advanced-players-guide	60	print	
+ref/evolution/large	advanced-players-guide	64	print	
+ref/evolution/limbs	advanced-players-guide	62	print	
+ref/evolution/magic-attacks	advanced-players-guide	60	print	
+ref/evolution/mount	advanced-players-guide	60	print	
+ref/evolution/pincers	advanced-players-guide	60	print	
+ref/evolution/poison	advanced-players-guide	62	print	
+ref/evolution/pounce	advanced-players-guide	60	print	
+ref/evolution/pull	advanced-players-guide	60	print	
+ref/evolution/push	advanced-players-guide	61	print	
+ref/evolution/rake	advanced-players-guide	62	print	
+ref/evolution/reach	advanced-players-guide	61	print	
+ref/evolution/rend	advanced-players-guide	62	print	
+ref/evolution/resistance	advanced-players-guide	61	print	
+ref/evolution/scent	advanced-players-guide	61	print	
+ref/evolution/shadow-blend	advanced-race-guide	111	print		the heading is on the proposed page (111) and on 110,111; the row keeps the proposal
+ref/evolution/shadow-form	advanced-race-guide	111	print	
+ref/evolution/skilled	advanced-players-guide	61	print	
+ref/evolution/slam	advanced-players-guide	61	print	
+ref/evolution/spell-resistance	advanced-players-guide	64	print	
+ref/evolution/sting	advanced-players-guide	61	print	
+ref/evolution/swallow-whole	advanced-players-guide	63	print	
+ref/evolution/swim	advanced-players-guide	61	print	
+ref/evolution/tail-slap	advanced-players-guide	61	print	
+ref/evolution/tail	advanced-players-guide	61	print	
+ref/evolution/tentacle	advanced-players-guide	61	print	
+ref/evolution/trample	advanced-players-guide	62	print	
+ref/evolution/tremorsense	advanced-players-guide	62	print	
+ref/evolution/trip	advanced-players-guide	63	print	
+ref/evolution/weapon-training	advanced-players-guide	63	print	
+ref/evolution/web	advanced-players-guide	63	print	
+ref/evolution/wing-buffet	advanced-players-guide	61	print	
+ref/hex/agony	advanced-players-guide	67	print	
+ref/hex/blight	advanced-players-guide	66	print	
+ref/hex/cackle	advanced-players-guide	66	print	
+ref/hex/cauldron	advanced-players-guide	66	print	
+ref/hex/charm	advanced-players-guide	66	print	
+ref/hex/coven	advanced-players-guide	66	print	
+ref/hex/death-curse	advanced-players-guide	69	print	
+ref/hex/disguise	advanced-players-guide	66	print	
+ref/hex/eternal-slumber	advanced-players-guide	69	print	
+ref/hex/evil-eye	advanced-players-guide	66	print	
+ref/hex/flight	advanced-players-guide	66	print	
+ref/hex/forced-reincarnation	advanced-players-guide	69	print	
+ref/hex/fortune	advanced-players-guide	66	print	
+ref/hex/hags-eye	advanced-players-guide	67	print	
+ref/hex/healing	advanced-players-guide	66	print		the heading is on the proposed page (66) and on 64,66,68; the row keeps the proposal
+ref/hex/life-giver	advanced-players-guide	69	print	
+ref/hex/major-healing	advanced-players-guide	68	print	
+ref/hex/misfortune	advanced-players-guide	66	print	
+ref/hex/natural-disaster	advanced-players-guide	69	print	
+ref/hex/nightmares	advanced-players-guide	68	print	
+ref/hex/retribution	advanced-players-guide	68	print	
+ref/hex/slumber	advanced-players-guide	66	print	
+ref/hex/tongues	advanced-players-guide	67	print	
+ref/hex/vision	advanced-players-guide	68	print	
+ref/hex/ward	advanced-players-guide	67	print	
+ref/hex/waxen-image	advanced-players-guide	68	print	
+ref/hex/weather-control	advanced-players-guide	69	print	
+ref/invtalent/amazing-inspiration	advanced-class-guide	32	print	
+ref/invtalent/applied-engineering	advanced-class-origins	15	print	
+ref/invtalent/blinding-strike	advanced-class-guide	32	print		title text only (no heading form): the name is on page 32 and on none of the two pages each side
+ref/invtalent/chroniclers-insight	adventurers-guide	146	print	
+ref/invtalent/combat-inspiration	advanced-class-guide	32	print	
+ref/invtalent/confusing-strike	advanced-class-guide	32	print		title text only (no heading form): the name is on page 32 and on none of the two pages each side
+ref/invtalent/deafening-strike	advanced-class-guide	32	print		title text only (no heading form): the name is on page 32 and on none of the two pages each side
+ref/invtalent/device-talent	advanced-class-guide	32	print	
+ref/invtalent/didactic-strike	adventurers-guide	147	print	
+ref/invtalent/domino-effect	advanced-class-origins		unconfirmed	only a short title is on the proposed page, which proves little
+ref/invtalent/effortless-aid	advanced-class-guide	32	print	
+ref/invtalent/eidetic-recollection	advanced-class-guide	32	print	
+ref/invtalent/empathy	advanced-class-guide	32	print	
+ref/invtalent/expanded-inspiration	advanced-class-guide	32	print	
+ref/invtalent/greater-combat-inspiration	advanced-class-guide	32	print	
+ref/invtalent/hidden-agendas	advanced-class-guide	32	print	
+ref/invtalent/inspirational-expertise	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/inspired-alertness	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/inspired-intelligence	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/inspired-intimidator	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/item-lore	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/perceptive-tracking	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/prolonged-study	advanced-class-origins	15	print		title text only (no heading form): the name is on page 15 and on none of the two pages each side
+ref/invtalent/quick-study	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/repositioning-strike	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/rogue-talent	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/sapping-offensive	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/sickening-offensive	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/slowing-strike	advanced-class-origins		unconfirmed	only a short title is on the proposed page, which proves little
+ref/invtalent/stealing-strike	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/studied-defense	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/tenacious-inspiration	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/timed-strike	advanced-class-origins		unconfirmed	only a short title is on the proposed page, which proves little
+ref/invtalent/toppling-strike	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/unconventional-inspiration	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/underworld-inspiration	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/oraclecurse/clouded-vision	advanced-players-guide	43	print	
+ref/oraclecurse/deaf	advanced-players-guide	44	print	
+ref/oraclecurse/haunted	advanced-players-guide	44	print	
+ref/oraclecurse/lame	advanced-players-guide	44	print	
+ref/oraclecurse/tongues	advanced-players-guide	44	print	
+ref/oraclecurse/wasting	advanced-players-guide	44	print	
+ref/patron/agility	advanced-players-guide	70	print	
+ref/patron/animals	advanced-players-guide	70	print	
+ref/patron/deception	advanced-players-guide	70	print	
+ref/patron/elements	advanced-players-guide	70	print	
+ref/patron/endurance	advanced-players-guide	70	print	
+ref/patron/plague	advanced-players-guide	70	print	
+ref/patron/shadow	advanced-players-guide	70	print	
+ref/patron/strength	advanced-players-guide	70	print	
+ref/patron/trickery	advanced-players-guide	70	print	
+ref/patron/water	advanced-players-guide	70	print	
+ref/patron/wisdom	advanced-players-guide	70	print	
+ref/ragepower/abyssal-blood	advanced-class-guide	80	print	
+ref/ragepower/battle-roar	advanced-class-guide	114	print	
+ref/ragepower/beast-totem	advanced-players-guide	74	print	
+ref/ragepower/bloody-bite	agents-of-evil	25	print	
+ref/ragepower/boasting-taunt	advanced-players-guide	74	print	
+ref/ragepower/brawler	advanced-players-guide	74	print	
+ref/ragepower/celestial-blood	advanced-class-guide	80	print	
+ref/ragepower/chaos-totem	advanced-players-guide	74	print	
+ref/ragepower/come-and-get-me	advanced-players-guide	74	print	
+ref/ragepower/disruptive	advanced-players-guide	74	print	
+ref/ragepower/draconic-blood	advanced-class-guide	80	print	
+ref/ragepower/elemental-blood	advanced-class-guide	80	print	
+ref/ragepower/elemental-rage	advanced-players-guide	74	print	
+ref/ragepower/energy-absorption	advanced-players-guide	75	print	
+ref/ragepower/energy-eruption	advanced-players-guide	75	print	
+ref/ragepower/energy-resistance	advanced-players-guide	75	print	
+ref/ragepower/feasting-bite	agents-of-evil	25	print	
+ref/ragepower/ferocious-beast	animal-archive	7	print	
+ref/ragepower/ferocious-mount	advanced-players-guide	75	print	
+ref/ragepower/ferocious-trample	advanced-players-guide	75	print	
+ref/ragepower/fey-blood	advanced-class-guide	80	print	
+ref/ragepower/fiend-totem	advanced-players-guide	75	print	
+ref/ragepower/fierce-fortitude	advanced-class-guide	114	print	
+ref/ragepower/flesh-wound	advanced-players-guide	76	print	
+ref/ragepower/good-for-what-ails-you	advanced-players-guide	76	print	
+ref/ragepower/greater-abyssal-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-beast-totem	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-brawler	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-celestial-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-chaos-totem	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-draconic-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-elemental-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-elemental-rage	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-energy-resistance	advanced-players-guide	75	print		title text only (no heading form): the name is on page 75 and on none of the two pages each side
+ref/ragepower/greater-ferocious-beast	animal-archive		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-ferocious-mount	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-ferocious-trample	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-fey-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-fiend-totem	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-hurling	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-infernal-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-spirit-totem	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-undead-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/ground-breaker	advanced-players-guide	76	print	
+ref/ragepower/guarded-life	advanced-players-guide	76	print	
+ref/ragepower/hurling-charge	advanced-players-guide	76	print	
+ref/ragepower/hurling	advanced-players-guide	76	print	
+ref/ragepower/infernal-blood	advanced-class-guide	80	print	
+ref/ragepower/inspire-ferocity	advanced-players-guide	76	print	
+ref/ragepower/knockdown	advanced-players-guide	76	print	
+ref/ragepower/lesser-abyssal-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-beast-totem	advanced-players-guide	74	print		title text only (no heading form): the name is on page 74 and on none of the two pages each side
+ref/ragepower/lesser-celestial-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-chaos-totem	advanced-players-guide	74	print		title text only (no heading form): the name is on page 74 and on none of the two pages each side
+ref/ragepower/lesser-draconic-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-elemental-blood	advanced-class-guide	80	print		title text only (no heading form): the name is on page 80 and on none of the two pages each side
+ref/ragepower/lesser-elemental-rage	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-fey-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-fiend-totem	advanced-players-guide	75	print		title text only (no heading form): the name is on page 75 and on none of the two pages each side
+ref/ragepower/lesser-hurling	advanced-players-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/ragepower/lesser-infernal-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-spirit-totem	advanced-players-guide	77	print		title text only (no heading form): the name is on page 77 and on none of the two pages each side
+ref/ragepower/lesser-undead-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/liquid-courage	advanced-players-guide	76	print	
+ref/ragepower/overbearing-advance	advanced-players-guide	76	print	
+ref/ragepower/overbearing-onslaught	advanced-players-guide	76	print	
+ref/ragepower/raging-flier	advanced-class-guide	114	print	
+ref/ragepower/reckless-abandon	advanced-players-guide	76	print	
+ref/ragepower/roaring-drunk	advanced-players-guide	76	print	
+ref/ragepower/smasher	advanced-players-guide	76	print	
+ref/ragepower/spellbreaker	advanced-players-guide	76	print	
+ref/ragepower/spirit-steed	advanced-players-guide	77	print	
+ref/ragepower/spirit-totem	advanced-players-guide	77	print	
+ref/ragepower/staggering-drunk	advanced-players-guide	77	print	
+ref/ragepower/ultimate-clarity	advanced-class-guide	114	print	
+ref/ragepower/undead-blood	advanced-class-guide	80	print	
+ref/ragepower/witch-hunter	advanced-players-guide	77	print	
+ref/shamanhex/chant	advanced-class-guide	36	print	
+ref/shamanhex/charm	advanced-class-guide	36	print	
+ref/shamanhex/evil-eye	advanced-class-guide	36	print	
+ref/shamanhex/fetish	advanced-class-guide	36	print	
+ref/shamanhex/fortune	advanced-class-guide	36	print	
+ref/shamanhex/fury	advanced-class-guide	36	print	
+ref/shamanhex/healing	advanced-class-guide	37	print	
+ref/shamanhex/misfortune	advanced-class-guide	37	print	
+ref/shamanhex/secret	advanced-class-guide	37	print	
+ref/shamanhex/shapeshift	advanced-class-guide	37	print	
+ref/shamanhex/tongues	advanced-class-guide	37	print	
+ref/shamanhex/ward	advanced-class-guide	37	print		the heading is on the proposed page (37) and on 37,38; the row keeps the proposal
+ref/shamanhex/witch-hex	advanced-class-guide	37	print	
+ref/slayertalent/assassinate	advanced-class-guide	54	print	
+ref/slayertalent/blood-reader	advanced-class-origins	21	print	
+ref/slayertalent/deadly-range	advanced-class-guide	53	print	
+ref/slayertalent/foil-scrutiny	advanced-class-guide	53	print	
+ref/slayertalent/ranger-combat-style	advanced-class-guide	53	print	
+ref/slayertalent/rogue-and-ninja-advanced-talents	advanced-class-guide	55	print	
+ref/slayertalent/rogue-talent	advanced-class-guide	53	print	
+ref/slayertalent/slayer-camouflage	advanced-class-guide	55	print		title text only (no heading form): the name is on page 55 and on none of the two pages each side
+ref/slayertalent/slowing-strike	advanced-class-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/slayertalent/studied-ally	advanced-class-origins	21	print	
+ref/slayertalent/trapfinding	advanced-class-guide	54	print	
+ref/slayertalent/woodland-stride	advanced-class-guide	55	print	
+ref/soctalent/beginners-luck	antiheros-handbook	16	print	
+ref/soctalent/conflicted-identity	antiheros-handbook	16	print	
+ref/soctalent/hidden-magic	antiheros-handbook	16	print	
+ref/soctalent/notorious-fool	antiheros-handbook	16	print	
+ref/swashdeed/bleeding-wound	advanced-class-guide	58	print	
+ref/swashdeed/cheat-death	advanced-class-guide	59	print	
+ref/swashdeed/deadly-stab	advanced-class-guide	59	print	
+ref/swashdeed/derring-do	advanced-class-guide	56	print	
+ref/swashdeed/dizzying-defense	advanced-class-guide	59	print	
+ref/swashdeed/dodging-panache	advanced-class-guide	57	print	
+ref/swashdeed/evasive	advanced-class-guide	59	print	
+ref/swashdeed/kip-up	advanced-class-guide	57	print	
+ref/swashdeed/menacing-swordplay	advanced-class-guide	57	print	
+ref/swashdeed/opportune-parry-and-riposte	advanced-class-guide	57	print	
+ref/swashdeed/perfect-thrust	advanced-class-guide	59	print	
+ref/swashdeed/precise-strike	advanced-class-guide	57	print	
+ref/swashdeed/stunning-stab	advanced-class-guide	59	print	
+ref/swashdeed/subtle-blade	advanced-class-guide	59	print	
+ref/swashdeed/superior-feint	advanced-class-guide	58	print	
+ref/swashdeed/swashbuckler-initiative	advanced-class-guide	58	print	
+ref/swashdeed/swashbucklers-edge	advanced-class-guide	59	print	
+ref/swashdeed/swashbucklers-grace	advanced-class-guide	58	print	
+ref/talent/another-day	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/aspexias-mysticism	adventurers-guide	53	print	
+ref/talent/assault-leader	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/befuddling-strike	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/camouflage	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/canny-observer	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/careful-stab	adventurers-guide	53	print	
+ref/talent/charmer	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/coax-information	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/combat-swipe	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/cunning-trigger	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/deadly-cocktail	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/deadly-scratch	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
+ref/talent/deadly-sneak	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/disarming-luck	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
+ref/talent/distracting-attack	advanced-players-guide	128	print		proposal 1 (placeholder), print 128: heading on exactly one page of the whole book
+ref/talent/entanglement-of-blades	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/expert-leaper	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/false-friend	advanced-race-guide	193	print		proposal 1 (placeholder), print 193: heading on exactly one page of the whole book
+ref/talent/fast-fingers	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/fast-getaway	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/fast-picks	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/fast-tumble	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/follow-clues	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/founders-blessing	adventurers-guide	53	print	
+ref/talent/frugal-trapsmith	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
+ref/talent/graceful-faller	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
+ref/talent/grazing-shot	agents-of-evil	24	print	
+ref/talent/guileful-polyglot	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/hairpin-trick	adventurers-guide	53	print	
+ref/talent/hard-to-fool	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
+ref/talent/honeyed-words	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/hunters-surprise	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
+ref/talent/knock-out-blow	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
+ref/talent/knockout-queen	adventurers-guide	53	print	
+ref/talent/lasting-poison	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/master-of-disguise	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/nimble-climber-catfolk	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
+ref/talent/obfuscate-story	advanced-race-guide	193	print		proposal 1 (placeholder), print 193: heading on exactly one page of the whole book
+ref/talent/offensive-defense	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/peerless-maneuver	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/positioning-attack	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/powerful-sneak	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/quick-disguise	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/quick-trapsmith	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/redirect-attack	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
+ref/talent/shrinewalk	adventurers-guide	53	print	
+ref/talent/silencing-strike	adventurers-guide	53	print		title text only (no heading form): the name is on page 53 and on none of the two pages each side
+ref/talent/single-minded-appraiser	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
+ref/talent/snap-shot	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/snipers-eye	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/steal-the-story	advanced-race-guide	193	print		proposal 1 (placeholder), print 193: heading on exactly one page of the whole book
+ref/talent/stealthy-sniper	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
+ref/talent/strong-impression	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/survivalist	advanced-players-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/swift-poison	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
+ref/talent/thoughtful-reexamining	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
+ref/talent/vicious-claws	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
+ref/vigtalent/combat-expertise	antiheros-handbook	16	print	
+ref/vigtalent/poisoner	antiheros-handbook	16	print	
+ref/vigtalent/signature-arrows	antiheros-handbook	16	print	
+ref/vigtalent/sweeping-strike	antiheros-handbook	16	print	
+ref/vigtalent/vigilantes-reflexes	antiheros-handbook	17	print	
