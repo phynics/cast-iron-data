@@ -3931,7 +3931,7 @@ ref/discovery/doppelganger-simulacrum	ultimate-magic	15	print
 ref/discovery/grand-cognatogen	ultimate-magic	16	print		
 ref/discovery/greater-alchemical-simulacrum	ultimate-magic	16	print		
 ref/discovery/greater-cognatogen	ultimate-magic	16	print		
-ref/discovery/grounding-goo	ultimate-wilderness		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/grounding-goo	ultimate-wilderness	34	print		the alchemist discovery is printed as a heading (name, dagger, colon) on this page
 ref/discovery/healing-touch	ultimate-magic	16	print		
 ref/discovery/incendiary-charge	villain-codex	236	print		
 ref/discovery/lingering-spirit	ultimate-magic	16	print		
@@ -3942,19 +3942,19 @@ ref/discovery/penetrating-charge	villain-codex	236	print
 ref/discovery/pheromones	ultimate-wilderness	34	print		
 ref/discovery/plague-bomb	ultimate-magic	16	print		
 ref/discovery/preserve-organs	ultimate-magic	17	print		
-ref/discovery/solid-ground	ultimate-wilderness		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/solid-ground	ultimate-wilderness	34	print		the alchemist discovery is printed as a heading (name, dagger, colon) on this page
 ref/discovery/spontaneous-healing	ultimate-magic	17	print		
 ref/discovery/strafe-bomb	ultimate-magic	17	print		
 ref/discovery/sunlight-bomb	ultimate-magic	17	print		
 ref/discovery/tanglefoot-bomb	ultimate-magic	17	print		
 ref/discovery/tentacle	ultimate-magic	17	print		
-ref/discovery/thorny-bomb	ultimate-wilderness		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/thorny-bomb	ultimate-wilderness	34	print		the alchemist discovery is printed as a heading (name, dagger, colon) on this page
 ref/discovery/tumor-familiar	ultimate-magic	17	print		
 ref/discovery/vestigial-arm	ultimate-magic	18	print		
 ref/discovery/volumizer	ultimate-wilderness	34	print		
 ref/discovery/wings	ultimate-magic	18	print		
 ref/eidolon/kami	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/eidolon/plant	ultimate-wilderness		unconfirmed	the name is a heading only on page 17, far from the proposed page 95; which one prints the option is not settled	
+ref/eidolon/plant	ultimate-wilderness	95	print		the Plant Eidolon Subtype heading is on this page; the description starts here
 ref/evolution/basic-magic	ultimate-magic	76	print		
 ref/evolution/channel-resistance	ultimate-magic	77	print		
 ref/evolution/dimension-door	ultimate-magic	78	print		
@@ -4035,11 +4035,11 @@ ref/ragepower/furious-barrage	villain-codex	176	print
 ref/ragepower/furious-draw	villain-codex	176	print		
 ref/ragepower/greater-ancestor-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
 ref/ragepower/greater-atavism-totem	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-eclipsing-rage	ultimate-wilderness		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-eclipsing-rage	ultimate-wilderness	36	print		the rage power is printed as Name, Greater (Su) on this page
 ref/ragepower/greater-erratic-charge	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
 ref/ragepower/greater-moon-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
 ref/ragepower/greater-spire-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-tyrant-totem	ultimate-wilderness		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-tyrant-totem	ultimate-wilderness	36	print		the rage power is printed as Name, Greater (Su) on this page
 ref/ragepower/hissing-rage	ultimate-wilderness	36	print		
 ref/ragepower/lesser-ancestor-totem	wilderness-origins	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
 ref/ragepower/lesser-atavism-totem	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	

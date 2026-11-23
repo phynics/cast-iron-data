@@ -84,13 +84,10 @@ ref/affliction/xacarba/vile-disjunction	affliction	pathfinder-18-descent-into-mi
 ref/discovery/alchemical-strike	class_option	magic-tactics-toolbox	coarse	12	the proposal is a section or parent page
 ref/discovery/confusion-bomb	class_option	ultimate-magic	unconfirmed	15	only a short title is on the proposed page, which proves little
 ref/discovery/cursed-bomb	class_option	champions-of-corruption	unconfirmed	26	only a short title is on the proposed page, which proves little
-ref/discovery/grounding-goo	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
 ref/discovery/ooze-blight	class_option	monster-hunters-handbook	unconfirmed	17	only a short title is on the proposed page, which proves little
 ref/discovery/profane-bomb	class_option	champions-of-corruption	unconfirmed	26	only a short title is on the proposed page, which proves little
 ref/discovery/remedy-extract	class_option	healers-handbook	no-page		
 ref/discovery/sand-bomb	class_option	antiheros-handbook	unconfirmed	29	only a short title is on the proposed page, which proves little
-ref/discovery/solid-ground	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
-ref/discovery/thorny-bomb	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
 ref/domain/air	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
 ref/domain/animal	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
 ref/domain/artifice	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
@@ -154,7 +151,6 @@ ref/eidolon/astral	class_option	plane-hoppers-handbook	unconfirmed	24	title not 
 ref/eidolon/deepwater	class_option	blood-of-the-sea	unconfirmed	23	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/genie	class_option	elemental-masters-handbook	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/kami	class_option	wilderness-origins	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/plant	class_option	ultimate-wilderness	unconfirmed	95	the name is a heading only on page 17, far from the proposed page 95; which one prints the option is not settled
 ref/eidolon/radiant	class_option	plane-hoppers-handbook	unconfirmed	25	only a short title is on the proposed page, which proves little
 ref/eidolon/storykin	class_option	plane-hoppers-handbook	unconfirmed	26	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/twinned	class_option	legacy-of-the-first-world	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -189,7 +185,6 @@ ref/ragepower/greater-atavism-totem	class_option	villain-codex	unconfirmed	140	t
 ref/ragepower/greater-cult-totem	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-daemon-totem	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-earth-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-eclipsing-rage	class_option	ultimate-wilderness	unconfirmed	36	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-erratic-charge	class_option	villain-codex	unconfirmed	176	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ferocious-beast	class_option	animal-archive	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-fire-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -197,7 +192,6 @@ ref/ragepower/greater-moon-totem	class_option	wilderness-origins	unconfirmed	24	
 ref/ragepower/greater-spire-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-suffocating-grip	class_option	legacy-of-the-first-world	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-sun-totem	class_option	qadira-jewel-of-the-east	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-tyrant-totem	class_option	ultimate-wilderness	unconfirmed	36	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-water-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/lesser-atavism-totem	class_option	villain-codex	unconfirmed	140	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/rangertrap/acid-trap	class_option	kobolds-of-golarion	unconfirmed	20	title not found on the proposed page or the two pages around it, nor as a heading in the book
