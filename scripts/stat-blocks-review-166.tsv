@@ -154,23 +154,12 @@ entries/magic-wondrous/ioun-stone.md	item	sources-unparsed	Pathfinder Society Pr
 entries/magic-wondrous/rechargeable-cube-of-force.md	item	print-fix	row `13-14`: the item starts at the foot of p. 13 and its Construction is the first line of p. 14 (Classic Treasures Revisited pp. 13-14)
 entries/magic-wondrous/remote-activation-cube.md	item	print-fix	row `14` kept (its own text, the foot of the Rechargeable block to the Remote Activation block of p. 14); row `13` added for the variant paragraphs of the body (Classic Treasures Revisited p. 14)
 entries/magic-wondrous/slashing-cloak.md	item	print-fix	Construction: the cost printed once; the import left `; Cost 10,000 gp` twice (Ultimate Equipment p. 268)
-entries/monster/aether-elemental.md	creature	section-after-heading	6 Challenge rating lines
-entries/monster/aether-elemental.md	creature	sources-page-conflict	bestiary-5: 106 / 107
-entries/monster/air-elemental.md	creature	section-after-heading	7 Challenge rating lines
-entries/monster/air-elemental.md	creature	sources-page-conflict	bestiary: 120 / 121
-entries/monster/benaioh.md	creature	section-after-heading	2 Challenge rating lines
 entries/monster/bog-strider.md	creature	print-254	tremorParens: in water
 entries/monster/brambleblight.md	creature	section-after-heading	Offense
 entries/monster/cauldron-bloom.md	creature	print-254	tremorParens: 1 mile
 entries/monster/duergar-duergar-tyrant.md	creature	multi-label-paragraph	Kineticist Wild Talents Known:
-entries/monster/earth-elemental.md	creature	section-after-heading	6 Challenge rating lines
-entries/monster/earth-elemental.md	creature	sources-page-conflict	bestiary: 122 / 123
 entries/monster/elemental-lord-ymeri.md	creature	print-fix	melee: `flaming burst` where the import left `EFB` (Planes of Power p. 54)
-entries/monster/ettercap.md	creature	section-after-heading	4 Challenge rating lines
-entries/monster/fire-elemental.md	creature	section-after-heading	6 Challenge rating lines
-entries/monster/fire-elemental.md	creature	sources-page-conflict	bestiary: 124 / 125
 entries/monster/ghul.md	creature	print-fix	rows: the Ghul on p. 62 and the Great Ghuls on p. 63 (Dark Markets, a Guide to Katapesh pp. 62-63)
-entries/monster/goblin-goblin-vulture-pilot.md	creature	section-after-heading	2 Challenge rating lines
 entries/monster/hag-annis-hag.md	creature	sources-unparsed	Blood of the Coven
 entries/monster/hag-ash-hag.md	creature	sources-unparsed	Blood of the Coven
 entries/monster/hag-blood-hag.md	creature	sources-unparsed	Blood of the Coven
@@ -184,23 +173,11 @@ entries/monster/hag-winter-hag.md	creature	sources-unparsed	Blood of the Coven
 entries/monster/herald-gravedragger.md	creature	print-254	othersubs: Herald
 entries/monster/herald-great-elder-iuu.md	creature	print-254	othersubs: Herald
 entries/monster/herald-latten-mechanism.md	creature	print-254	othersubs: Herald
-entries/monster/ice-elemental.md	creature	section-after-heading	6 Challenge rating lines
-entries/monster/ice-elemental.md	creature	sources-page-conflict	bestiary-2: 114 / 115
 entries/monster/lich-forsaken-lich.md	creature	print-254	augment: Humanoid
-entries/monster/lightning-elemental.md	creature	section-after-heading	6 Challenge rating lines
-entries/monster/lightning-elemental.md	creature	sources-page-conflict	bestiary-2: 116 / 117
-entries/monster/magma-elemental.md	creature	section-after-heading	6 Challenge rating lines
-entries/monster/magma-elemental.md	creature	sources-page-conflict	bestiary-2: 118 / 119
-entries/monster/moit-of-shub-niggurath-spawning-canker.md	creature	section-after-heading	2 Challenge rating lines
-entries/monster/mud-elemental.md	creature	section-after-heading	6 Challenge rating lines
-entries/monster/mud-elemental.md	creature	sources-page-conflict	bestiary-2: 120 / 121
 entries/monster/oni-yamabushi-tengu.md	creature	print-254	othersubs: Tengu
 entries/monster/shadow.md	creature	print-fix	rows: the Shadow on p. 46 (the contents page) and its Variants on p. 49 (Undead Revisited pp. 46, 49)
-entries/monster/ship-in-a-bottle.md	creature	section-after-heading	2 Challenge rating lines
 entries/monster/stygira.md	creature	print-254	blindsightParens: 120 ft. with green eyes), _[true seeing](ref/spell/true-seeing)_ (with gem eye
 entries/monster/triaxian.md	creature	print-254	othersubs: Triaxian
-entries/monster/water-elemental.md	creature	section-after-heading	6 Challenge rating lines
-entries/monster/water-elemental.md	creature	sources-page-conflict	bestiary: 126 / 127
 entries/monster/wight.md	creature	print-fix	rows: the Wight on p. 58, Accursed Treasure on p. 61 and its Variants on p. 62 (Undead Revisited pp. 58, 61-62)
 entries/npc/axe-lord.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
 entries/npc/celestial-theurge.md	npc	spell-header	**Sorcerer Spells Known** (CL 6th; concentration +7; 25% spe
