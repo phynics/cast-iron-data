@@ -22,7 +22,11 @@ Price: 300 gp
 
 ### Construction
 
-**Craft DC** 25; **Cost** 150 gp\
+::: statblock
+Craft DC: 25
+Cost: 150 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 Torpinal is a serum that makes the injected subject more cooperative during interrogation. It has a

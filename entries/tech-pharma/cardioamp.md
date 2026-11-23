@@ -22,7 +22,11 @@ Price: 4,550 gp
 
 ### Construction
 
-**Craft DC** 30; **Cost** 2,275 gp\
+::: statblock
+Craft DC: 30
+Cost: 2,275 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 This potent drug can revive a recently deceased victim. If administered to a corpse within 1 minute

@@ -22,7 +22,11 @@ Price: 100 gp
 
 ### Construction
 
-**Craft DC** 22; **Cost** 50 gp\
+::: statblock
+Craft DC: 22
+Cost: 50 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 The crew of the Divinity did their best to avoid exposure to [radiation](ref/rule/radiation), but

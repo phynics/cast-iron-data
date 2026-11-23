@@ -24,9 +24,11 @@ Price: 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade 
 
 ### Construction
 
-**Craft DC** 23 (Grade I), DC 24 (Grade II), DC 25 (Grade III), DC 26 (Grade IV), DC 27 (Grade V);
-**Cost** 125 gp (Grade I), 250 gp (Grade II), 375 gp (Grade III), 500 gp (Grade IV), 625 gp (Grade
-V)\
+::: statblock
+Craft DC: 23 (Grade I), DC 24 (Grade II), DC 25 (Grade III), DC 26 (Grade IV), DC 27 (Grade V)
+Cost: 125 gp (Grade I), 250 gp (Grade II), 375 gp (Grade III), 500 gp (Grade IV), 625 gp (Grade V)
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 Hemochem stops bleeding and promotes healing. A single dose of hemochem grants

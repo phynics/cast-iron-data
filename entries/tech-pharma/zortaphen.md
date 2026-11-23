@@ -22,7 +22,11 @@ Price: 2,250 gp
 
 ### Construction
 
-**Craft DC** 22; **Cost** 1,125 gp\
+::: statblock
+Craft DC: 22
+Cost: 1,125 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 Zortaphen is a powerful anesthetic. A creature that takes a dose of zortaphen must succeed at a DC
