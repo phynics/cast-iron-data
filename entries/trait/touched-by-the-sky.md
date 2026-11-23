@@ -7,6 +7,9 @@ source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touched_by_the_sky", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "16"
 
 [fields]
 kind = "trait"
