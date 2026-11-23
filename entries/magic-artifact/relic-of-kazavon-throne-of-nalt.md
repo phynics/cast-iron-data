@@ -43,12 +43,17 @@ has to another.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 10\
-**Senses** 30 ft.\
-**Int** 10, **Wis** 12, **Cha** 10\
-**Communication** empathy\
-**Powers** at will - [detect evil](ref/spell/detect-evil), [detect good](ref/spell/detect-good),
-[discern lies](ref/spell/discern-lies) (DC 16)\
+::: statblock
+Alignment: LE
+Ego: 10
+Senses: 30 ft.
+Int: 10
+Wis: 12
+Cha: 10
+Communication: empathy
+Powers: at will - [detect evil](ref/spell/detect-evil), [detect good](ref/spell/detect-good), [discern lies](ref/spell/discern-lies) (DC 16)
+:::
+
 3/day - [dismissal](ref/spell/dismissal) (DC 17), [greater command](ref/spell/command-greater) (DC
 17)\
 1/day - [planar binding](ref/spell/planar-binding) (DC 19)

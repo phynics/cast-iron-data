@@ -59,12 +59,18 @@ destroyed by a successful [sunder](ref/rule/sunder) combat maneuver.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 16\
-**Senses** 60 ft., [darkvision](ref/rule/darkvision)\
-**Int** 10, **Wis** 12, **Cha** 14\
-**Communication** telepathy\
-**[Special Purpose](ref/rule/special-purpose-items)** slay all\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 20th, concentration +22)\
+::: statblock
+Alignment: LE
+Ego: 16
+Senses: 60 ft., [darkvision](ref/rule/darkvision)
+Int: 10
+Wis: 12
+Cha: 14
+Communication: telepathy
+Special Purpose: [slay all](ref/rule/special-purpose-items)
+Spell-Like Abilities: [(CL 20th, concentration +22)](ref/umr/spell-like-abilities)
+:::
+
 3/day-[alter self](ref/spell/alter-self), [darkness](ref/spell/darkness),
 [spider climb](ref/spell/spider-climb), [true strike](ref/spell/true-strike)\
 1/day-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),

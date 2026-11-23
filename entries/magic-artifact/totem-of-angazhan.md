@@ -81,12 +81,18 @@ slay the creature as long as it is able.
 
 ### Statistics
 
-**Alignment** CE; **Ego** 18\
-**Senses** 30 ft. hearing and [tremorsense](ref/umr/tremorsense), true seeing\
-**Int** 7, **Wis** 14, **Cha** 13\
-**Communication** empathy\
-**[Special Purpose](ref/rule/special-purpose-items)** slay all non-Angazhan worshipers\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 20th; concentration +21)\
+::: statblock
+Alignment: CE
+Ego: 18
+Senses: 30 ft. hearing and [tremorsense](ref/umr/tremorsense), true seeing
+Int: 7
+Wis: 14
+Cha: 13
+Communication: empathy
+Special Purpose: [slay all non-Angazhan worshipers](ref/rule/special-purpose-items)
+Spell-Like Abilities: [(CL 20th; concentration +21)](ref/umr/spell-like-abilities)
+:::
+
 _At will_-[weird](ref/spell/weird) (DC 20)\
 _1/day_-[reincarnate](ref/spell/reincarnate) (charau-ka; see description)\
 _1/year_-_[reincarnate](ref/spell/reincarnate)_ (dire ape; see description)
