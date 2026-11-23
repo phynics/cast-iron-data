@@ -6,6 +6,9 @@ source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackened", path = "json/class_ability_curses.json" },
 ]
+[[sources]]
+publication = "blood-of-angels"
+page = "26"
 
 [fields]
 kind = "class_option"

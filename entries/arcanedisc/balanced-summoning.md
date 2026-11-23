@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balanced_summoning", path = "json/class_ability_arcane_discoveries.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "20"
 
 [fields]
 kind = "class_option"

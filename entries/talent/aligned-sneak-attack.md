@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aligned_sneak_attack", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "13"
 
 [fields]
 kind = "class_option"

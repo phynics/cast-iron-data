@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_voice", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "class_option"

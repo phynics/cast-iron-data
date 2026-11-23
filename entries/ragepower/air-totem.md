@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_totem", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "11"
 
 [fields]
 kind = "class_option"

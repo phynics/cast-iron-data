@@ -6,6 +6,8 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deepwater", path = "json/class_ability_unchained_eidolons.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
 
 [fields]
 kind = "class_option"

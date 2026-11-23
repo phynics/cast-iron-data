@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_animal_fury", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "27"
 
 [fields]
 kind = "class_option"

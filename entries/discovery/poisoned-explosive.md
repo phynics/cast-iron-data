@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisoned_explosive", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "class_option"

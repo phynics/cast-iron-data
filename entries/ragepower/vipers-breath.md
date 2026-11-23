@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vipers_breath", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "class_option"

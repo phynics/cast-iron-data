@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_strikes", path = "json/class_ability_style_strikes.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "31"
 
 [fields]
 kind = "class_option"

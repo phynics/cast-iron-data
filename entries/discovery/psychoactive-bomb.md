@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychoactive_bomb", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "15"
 
 [fields]
 kind = "class_option"

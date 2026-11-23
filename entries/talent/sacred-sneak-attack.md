@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_sneak_attack", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "25"
 
 [fields]
 kind = "class_option"

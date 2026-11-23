@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demolition_charge", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "27"
 
 [fields]
 kind = "class_option"

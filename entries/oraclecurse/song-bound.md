@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "song_bound", path = "json/class_ability_curses.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "12"
 
 [fields]
 kind = "class_option"

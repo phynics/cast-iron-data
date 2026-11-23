@@ -6,6 +6,8 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "graceful_athlete", path = "json/class_ability_slayer_talents.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
 
 [fields]
 kind = "class_option"

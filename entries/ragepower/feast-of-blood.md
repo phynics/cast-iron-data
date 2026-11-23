@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feast_of_blood", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "8"
 
 [fields]
 kind = "class_option"

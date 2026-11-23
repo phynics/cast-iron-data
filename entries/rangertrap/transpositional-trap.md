@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transpositional_trap", path = "json/class_ability_ranger_traps.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "11"
 
 [fields]
 kind = "class_option"

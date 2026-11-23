@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steward_of_the_great_beyond", path = "json/class_ability_arcane_discoveries.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "27"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "regenerative_sinew", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "17"
 
 [fields]
 kind = "class_option"

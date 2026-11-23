@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malleable_flesh", path = "json/class_ability_vigilante_talents.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "7"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minds_eye", path = "json/class_ability_phrenic_amplifications.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "13"
 
 [fields]
 kind = "class_option"

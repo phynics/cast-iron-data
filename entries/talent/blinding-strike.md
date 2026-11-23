@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_strike", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "9"
 
 [fields]
 kind = "class_option"

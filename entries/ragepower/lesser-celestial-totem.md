@@ -6,6 +6,8 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lesser_celestial_totem", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
 
 [fields]
 kind = "class_option"
