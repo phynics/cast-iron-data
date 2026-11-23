@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "inner-sea-intrigue"
+page = "31"
 
 [fields]
 kind = "class_option"
