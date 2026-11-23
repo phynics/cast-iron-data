@@ -15,49 +15,55 @@ kind = "creature"
 cr = "10"
 +++
 
-**Challenge rating:** 10
-
-**XP** 9,600\
 Human necromancer 11\
-LN Medium humanoid (human)\
-**Init** +5; **Senses** [darkvision](ref/rule/darkvision) 60 ft.,
-_[see invisibility](ref/spell/see-invisibility);_ Perception +4
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 10
+XP: 9,600
+Init: +5
+Senses: [darkvision](ref/rule/darkvision) 60 ft., _[see invisibility](ref/spell/see-invisibility);_ Perception +4
+:::
 
 ### Defense
 
-**AC** 16, touch 11, flat-footed 15 (+4 armor, +1 Dex, +1 natural)\
-**hp** 100 (11d6+59)\
-**Fort** +10, **Ref** +6, **Will** +10\
-**Resist** fire 30
+::: statblock
+AC: 16, touch 11, flat-footed 15 (+4 armor, +1 Dex, +1 natural)
+hp: 100 (11d6+59)
+Fort: +10
+Ref: +6
+Will: +10
+Resist: fire 30
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk dagger +6 (1d4/19-20)\
-**Special Attacks** channel negative energy (DC 17, 8/day)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 11th; concentration +16)\
-_8/day_-grave touch (5 rounds)\
-**Necromancer Spells Prepared** (CL 11th; concentration +16)\
-_6th_-[create undead](ref/spell/create-undead), [eyebite](ref/spell/eyebite) (DC 23)\
-_5th_-[baleful polymorph](ref/spell/baleful-polymorph) (DC 20), [magic jar](ref/spell/magic-jar) (DC
-22), [teleport](ref/spell/teleport), [waves of fatigue](ref/spell/waves-of-fatigue)\
-_4th_-[animate dead](ref/spell/animate-dead), [enervation](ref/spell/enervation),
-[fear](ref/spell/fear) (DC 21), [solid fog](ref/spell/solid-fog),
-[wall of fire](ref/spell/wall-of-fire)\
-_3rd_-[blink](ref/spell/blink), [fireball](ref/spell/fireball) (DC 18), [fly](ref/spell/fly),
-[ray of exhaustion](ref/spell/ray-of-exhaustion) (DC 20), [vampiric touch](ref/spell/vampiric-touch)
-(2)\
-_2nd_-[blindness/deafness](ref/spell/blindness-deafness) (DC 19),
-[false life](ref/spell/false-life), [resist energy](ref/spell/resist-energy),
-[see invisibility](ref/spell/see-invisibility), [scare](ref/spell/scare) (DC 19),
-[scorching ray](ref/spell/scorching-ray)\
-_1st_-[alarm](ref/spell/alarm), [burning hands](ref/spell/burning-hands) (DC 16),
-[cause fear](ref/spell/cause-fear) (DC 18), [detect undead](ref/spell/detect-undead),
-[expeditious retreat](ref/spell/expeditious-retreat), [mage armor](ref/spell/mage-armor),
-[magic missile](ref/spell/magic-missile)\
-_0 (at will)_-[bleed](ref/spell/bleed) (DC 17), [detect magic](ref/spell/detect-magic),
-[read magic](ref/spell/read-magic), [touch of fatigue](ref/spell/touch-of-fatigue) (DC 17)\
-**Opposition Schools** enchantment, illusion
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +6 (1d4/19-20)
+Special Attacks: channel negative energy (DC 17, 8/day)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11th
+Concentration: +16
+8/day: grave touch (5 rounds)
+:::
+
+::: statblock
+title = "Necromancer Spells Prepared"
+Caster level: 11th
+Concentration: +16
+6th: [create undead](ref/spell/create-undead), [eyebite](ref/spell/eyebite) (DC 23)
+5th: [baleful polymorph](ref/spell/baleful-polymorph) (DC 20), [magic jar](ref/spell/magic-jar) (DC 22), [teleport](ref/spell/teleport), [waves of fatigue](ref/spell/waves-of-fatigue)
+4th: [animate dead](ref/spell/animate-dead), [enervation](ref/spell/enervation), [fear](ref/spell/fear) (DC 21), [solid fog](ref/spell/solid-fog), [wall of fire](ref/spell/wall-of-fire)
+3rd: [blink](ref/spell/blink), [fireball](ref/spell/fireball) (DC 18), [fly](ref/spell/fly), [ray of exhaustion](ref/spell/ray-of-exhaustion) (DC 20), [vampiric touch](ref/spell/vampiric-touch) (2)
+2nd: [blindness/deafness](ref/spell/blindness-deafness) (DC 19), [false life](ref/spell/false-life), [resist energy](ref/spell/resist-energy), [see invisibility](ref/spell/see-invisibility), [scare](ref/spell/scare) (DC 19), [scorching ray](ref/spell/scorching-ray)
+1st: [alarm](ref/spell/alarm), [burning hands](ref/spell/burning-hands) (DC 16), [cause fear](ref/spell/cause-fear) (DC 18), [detect undead](ref/spell/detect-undead), [expeditious retreat](ref/spell/expeditious-retreat), [mage armor](ref/spell/mage-armor), [magic missile](ref/spell/magic-missile)
+0 (at will): [bleed](ref/spell/bleed) (DC 17), [detect magic](ref/spell/detect-magic), [read magic](ref/spell/read-magic), [touch of fatigue](ref/spell/touch-of-fatigue) (DC 17)
+Opposition Schools: enchantment, illusion
+:::
 
 ### Tactics
 
@@ -73,30 +79,23 @@ flat-footed 11; **hp** 85; **Resist** none.
 
 ### Statistics
 
-**Str** 10, **Dex** 12, **Con** 16, **Int** 20, **Wis** 8, **Cha** 14\
-**Base Atk** +5; **CMB** +5; **CMD** 16\
-**Feats** [Brew Potion](ref/feat/brew-potion), [Combat Casting](ref/feat/combat-casting),
-[Command Undead](ref/feat/command-undead), [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Greater Spell Focus](ref/feat/greater-spell-focus) (necromancy),
-[Improved Channel](ref/feat/improved-channel), [Improved Initiative](ref/feat/improved-initiative),
-[Iron Will](ref/feat/iron-will), [Scribe Scroll](ref/feat/scribe-scroll),
-[Spell Focus](ref/feat/spell-focus) (necromancy), [Toughness](ref/feat/toughness)\
-**Skills** Craft (alchemy) +19, Fly +5, Heal +4, Intimidate +7, Knowledge (arcana) +19, Knowledge
-(dungeoneering, engineering, geography, history, local, nature, nobility, planes) +13, Knowledge
-(religion) +18, Perception +4, Spellcraft +19\
-**Languages** Aklo, Common, Dwarven, Elven, Goblin, Infernal\
-**SQ** arcane bond (rat), life sight (10 feet, 11 rounds/day)\
-**Combat Gear** potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of
-[displacement](ref/spell/displacement), potion of [invisibility](ref/spell/invisibility),
-[robe of bones](ref/magic-wondrous/robe-of-bones); **Other Gear** masterwork
-[dagger](ref/eq-weapon/dagger),
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[belt of mighty constitution +2](ref/magic-wondrous/belt-of-mighty-constitution-2),
-[cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2),
-[goggles of night](ref/magic-wondrous/goggles-of-night),
-[headband of vast intelligence +2](ref/magic-wondrous/headband-of-vast-intelligence-2),
-[spellbook](ref/eq-misc/spellbook), crystal for magic jar (worth 100 gp), onyx gems (worth 300 gp),
-623 gp
+::: statblock
+Str: 10
+Dex: 12
+Con: 16
+Int: 20
+Wis: 8
+Cha: 14
+Base Atk: +5
+CMB: +5
+CMD: 16
+Feats: [Brew Potion](ref/feat/brew-potion), [Combat Casting](ref/feat/combat-casting), [Command Undead](ref/feat/command-undead), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Greater Spell Focus](ref/feat/greater-spell-focus) (necromancy), [Improved Channel](ref/feat/improved-channel), [Improved Initiative](ref/feat/improved-initiative), [Iron Will](ref/feat/iron-will), [Scribe Scroll](ref/feat/scribe-scroll), [Spell Focus](ref/feat/spell-focus) (necromancy), [Toughness](ref/feat/toughness)
+Skills: Craft (alchemy) +19, Fly +5, Heal +4, Intimidate +7, Knowledge (arcana) +19, Knowledge (dungeoneering, engineering, geography, history, local, nature, nobility, planes) +13, Knowledge (religion) +18, Perception +4, Spellcraft +19
+Languages: Aklo, Common, Dwarven, Elven, Goblin, Infernal
+SQ: arcane bond (rat), life sight (10 feet, 11 rounds/day)
+Combat Gear: potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of [displacement](ref/spell/displacement), potion of [invisibility](ref/spell/invisibility), [robe of bones](ref/magic-wondrous/robe-of-bones)
+Other Gear: masterwork [dagger](ref/eq-weapon/dagger), [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [belt of mighty constitution +2](ref/magic-wondrous/belt-of-mighty-constitution-2), [cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2), [goggles of night](ref/magic-wondrous/goggles-of-night), [headband of vast intelligence +2](ref/magic-wondrous/headband-of-vast-intelligence-2), [spellbook](ref/eq-misc/spellbook), crystal for magic jar (worth 100 gp), onyx gems (worth 300 gp), 623 gp
+:::
 
 ### Description
 

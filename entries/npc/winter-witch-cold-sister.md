@@ -18,67 +18,80 @@ cr = "9"
 _The blistering cold doesn't seem to touch this raven-haired woman's skin. She holds a spear tipped
 with jagged ice._
 
-**Challenge rating:** 9
-
-**XP** 6,400\
 Female human [witch](ref/class/witch) ([winter witch](ref/arc-witch/winter-witch)) 5/winter witch 5\
-LE Medium humanoid (human)\
-**Init** +2; **Senses** Perception +9
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 9
+XP: 6,400
+Init: +2
+Senses: Perception +9
+:::
 
 ### Defense
 
-**AC** 15, touch 14, flat-footed 12 (+1 armor, +1 deflection, +2 Dex, +1 dodge)\
-**hp** 37 (10 HD; 5d6+5d6)\
-**Fort** +7, **Ref** +9, **Will** +10\
-**Resist** cold 5
+::: statblock
+AC: 15, touch 14, flat-footed 12 (+1 armor, +1 deflection, +2 Dex, +1 dodge)
+hp: 37 (10 HD; 5d6+5d6)
+Fort: +7
+Ref: +9
+Will: +10
+Resist: cold 5
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 spear +4 (1d8)\
-**Special Attacks** hexes (blight \[100 feet\], evil eye \[-4, 7 rounds\], flight \[feather fall at
-will, levitate 1/day, fly 10 minutes/day\], hoarfrost, slumber \[10 rounds\])\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 5th; concentration +7s)\
-_Constant_-[endure elements](ref/spell/endure-elements) (cold temperatures only)\
-**Witch Spells Prepared** (CL 9th; concentration +13)\
-_5th_-[cone of cold](ref/spell/cone-of-cold) (DC 20)\
-_4th_-[lesser geas](ref/spell/geas-lesser) (DC 19), [phantasmal killer](ref/spell/phantasmal-killer)
-(DC 18), [wall of ice](ref/spell/wall-of-ice) (DC 19)\
-_3rd_-[bestow curse](ref/spell/bestow-curse) (DC 17), [share senses](ref/spell/share-senses),
-[sleet storm](ref/spell/sleet-storm), [twilight knife](ref/spell/twilight-knife)\
-_2nd_-[detect thoughts](ref/spell/detect-thoughts) (DC 16), [fog cloud](ref/spell/fog-cloud),
-[hold person](ref/spell/hold-person) (DC 17), [perceive cues](ref/spell/perceive-cues),
-[zone of truth](ref/spell/zone-of-truth) (DC 17)\
-_1st_-[beguiling gift](ref/spell/beguiling-gift) (DC 15), [chill touch](ref/spell/chill-touch) (DC
-15), [command](ref/spell/command) (DC 16), [icicle dagger](ref/spell/icicle-dagger),
-[unshakable chill](ref/spell/unshakable-chill) (DC 16)\
-_0 (at will)_-[daze](ref/spell/daze) (DC 14), [detect magic](ref/spell/detect-magic),
-[ray of frost](ref/spell/ray-of-frost), [read magic](ref/spell/read-magic)\
-**Patron** winter
+::: statblock
+Speed: 30 ft.
+Melee: +1 spear +4 (1d8)
+Special Attacks: hexes (blight \[100 feet\], evil eye \[-4, 7 rounds\], flight \[feather fall at will, levitate 1/day, fly 10 minutes/day\], hoarfrost, slumber \[10 rounds\])
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5th
+Concentration: +7s
+Constant: [endure elements](ref/spell/endure-elements) (cold temperatures only)
+:::
+
+::: statblock
+title = "Witch Spells Prepared"
+Caster level: 9th
+Concentration: +13
+5th: [cone of cold](ref/spell/cone-of-cold) (DC 20)
+4th: [lesser geas](ref/spell/geas-lesser) (DC 19), [phantasmal killer](ref/spell/phantasmal-killer) (DC 18), [wall of ice](ref/spell/wall-of-ice) (DC 19)
+3rd: [bestow curse](ref/spell/bestow-curse) (DC 17), [share senses](ref/spell/share-senses), [sleet storm](ref/spell/sleet-storm), [twilight knife](ref/spell/twilight-knife)
+2nd: [detect thoughts](ref/spell/detect-thoughts) (DC 16), [fog cloud](ref/spell/fog-cloud), [hold person](ref/spell/hold-person) (DC 17), [perceive cues](ref/spell/perceive-cues), [zone of truth](ref/spell/zone-of-truth) (DC 17)
+1st: [beguiling gift](ref/spell/beguiling-gift) (DC 15), [chill touch](ref/spell/chill-touch) (DC 15), [command](ref/spell/command) (DC 16), [icicle dagger](ref/spell/icicle-dagger), [unshakable chill](ref/spell/unshakable-chill) (DC 16)
+0 (at will): [daze](ref/spell/daze) (DC 14), [detect magic](ref/spell/detect-magic), [ray of frost](ref/spell/ray-of-frost), [read magic](ref/spell/read-magic)
+Patron: winter
+:::
 
 ### Statistics
 
-**Str** 8, **Dex** 14, **Con** 10, **Int** 18, **Wis** 12, **Cha** 14\
-**Base Atk** +4; **CMB** +3; **CMD** 15\
-**Feats** [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge),
-[Great Fortitude](ref/feat/great-fortitude), [Lightning Reflexes](ref/feat/lightning-reflexes),
-[Magical Aptitude](ref/feat/magical-aptitude), [Spell Focus](ref/feat/spell-focus) (enchantment)\
-**Skills** Diplomacy +6, Fly +11, Intimidate +13, Knowledge (arcana) +15, Knowledge (nature) +15,
-Perception +9, Sense Motive +9, Spellcraft +21, Swim +3, Use Magic Device +19\
-**Languages** Common, Giant, Hallit, Skald\
-**SQ** cold flesh, freeze and thaw (2/day), hyperboreal patronage, ice magic, sculpt ice and snow,
-unnatural cold, winter witchcraft, witch's familiar (fox)
+::: statblock
+Str: 8
+Dex: 14
+Con: 10
+Int: 18
+Wis: 12
+Cha: 14
+Base Atk: +4
+CMB: +3
+CMD: 15
+Feats: [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge), [Great Fortitude](ref/feat/great-fortitude), [Lightning Reflexes](ref/feat/lightning-reflexes), [Magical Aptitude](ref/feat/magical-aptitude), [Spell Focus](ref/feat/spell-focus) (enchantment)
+Skills: Diplomacy +6, Fly +11, Intimidate +13, Knowledge (arcana) +15, Knowledge (nature) +15, Perception +9, Sense Motive +9, Spellcraft +21, Swim +3, Use Magic Device +19
+Languages: Common, Giant, Hallit, Skald
+SQ: cold flesh, freeze and thaw (2/day), hyperboreal patronage, ice magic, sculpt ice and snow, unnatural cold, winter witchcraft, witch's familiar (fox)
+:::
 
 ### Ecology
 
-**Environment** any (Irrisen)\
-**Organization** solitary\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (+1
-[quarterstaff](ref/eq-weapon/quarterstaff),
-[bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1),
-[cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2), potions of
-[cure moderate wounds](ref/spell/cure-moderate-wounds) \[2\],
-[ring of protection +1](ref/magic-ring/ring-of-protection-1))
+::: statblock
+Environment: any (Irrisen)
+Organization: solitary
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (+1 [quarterstaff](ref/eq-weapon/quarterstaff), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), [cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2), potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) \[2\], [ring of protection +1](ref/magic-ring/ring-of-protection-1))
+:::
 
 ### Special Abilities
 

@@ -15,32 +15,42 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Gnome [monk](ref/class/monk) 4\
-LN Small humanoid (gnome)\
-**Init** +1; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +12
+LN Small humanoid (gnome)
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +1
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +12
+:::
 
 ### Defense
 
-**AC** 21, touch 17, flat-footed 19 (+4 armor, +1 Dex, +1 dodge, +1 monk, +1 size, +3 Wis)\
-**hp** 25 (4d8+4)\
-**Fort** +5, **Ref** +6, **Will** +8; +2 vs. enchantments and illusions\
-**Defensive Abilities** defensive training (+4 dodge bonus to AC vs. giants),
-[evasion](ref/ability/evasion)
+::: statblock
+AC: 21, touch 17, flat-footed 19 (+4 armor, +1 Dex, +1 dodge, +1 monk, +1 size, +3 Wis)
+hp: 25 (4d8+4)
+Fort: +5
+Ref: +6
+Will: +8; +2 vs. enchantments and illusions
+Defensive Abilities: defensive training (+4 dodge bonus to AC vs. giants), [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** unarmed strike +6 (1d6+1) or +1 kama +6 (1d4+2) or unarmed strike flurry of blows +5/+5
-(1d6+1)\
-**Ranged** shuriken +5 (1d1+1) or shuriken flurry of blows +4/+4 (1d1+1)\
-**Special Attacks** +1 on attack rolls against goblinoid and reptilian humanoids, flurry of blows,
-stunning fist (4/day, DC 15)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 4th; concentration +5)\
-_1/day_-[dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound),
-[prestidigitation](ref/spell/prestidigitation), [speak with animals](ref/spell/speak-with-animals)
+::: statblock
+Speed: 30 ft.
+Melee: unarmed strike +6 (1d6+1) or +1 kama +6 (1d4+2) or unarmed strike flurry of blows +5/+5 (1d6+1)
+Ranged: shuriken +5 (1d1+1) or shuriken flurry of blows +4/+4 (1d1+1)
+Special Attacks: +1 on attack rolls against goblinoid and reptilian humanoids, flurry of blows, stunning fist (4/day, DC 15)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4th
+Concentration: +5
+1/day: [dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound), [prestidigitation](ref/spell/prestidigitation), [speak with animals](ref/spell/speak-with-animals)
+:::
 
 ### Tactics
 
@@ -51,21 +61,23 @@ _1/day_-[dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghos
 
 ### Statistics
 
-**Str** 12, **Dex** 13, **Con** 10, **Int** 12, **Wis** 16, **Cha** 12\
-**Base Atk** +3; **CMB** +4; **CMD** 19\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike),
-[Scorpion Style](ref/feat/scorpion-style), [Stunning Fist](ref/feat/stunning-fist),
-[Weapon Focus](ref/feat/weapon-focus) (unarmed strike)\
-**Skills** Acrobatics +8, Bluff +5, Climb +6, Perception +12, Stealth +12\
-**Languages** Common, Elven, Gnome, Sylvan\
-**SQ** fast movement, ki pool (5 points, magic), maneuver training, slow fall 20 ft.\
-**Combat Gear** potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of
-[mage armor](ref/spell/mage-armor), oil of [magic weapon](ref/spell/magic-weapon),
-[smokestick](ref/eq-misc/smokestick), [tanglefoot bag](ref/eq-weapon/tanglefoot-bag); **Other Gear**
-[kama](ref/eq-weapon/kama), [shuriken](ref/eq-weapon/shuriken) (20),
-[bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 124 gp
+::: statblock
+Str: 12
+Dex: 13
+Con: 10
+Int: 12
+Wis: 16
+Cha: 12
+Base Atk: +3
+CMB: +4
+CMD: 19
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Scorpion Style](ref/feat/scorpion-style), [Stunning Fist](ref/feat/stunning-fist), [Weapon Focus](ref/feat/weapon-focus) (unarmed strike)
+Skills: Acrobatics +8, Bluff +5, Climb +6, Perception +12, Stealth +12
+Languages: Common, Elven, Gnome, Sylvan
+SQ: fast movement, ki pool (5 points, magic), maneuver training, slow fall 20 ft.
+Combat Gear: potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [mage armor](ref/spell/mage-armor), oil of [magic weapon](ref/spell/magic-weapon), [smokestick](ref/eq-misc/smokestick), [tanglefoot bag](ref/eq-weapon/tanglefoot-bag)
+Other Gear: [kama](ref/eq-weapon/kama), [shuriken](ref/eq-weapon/shuriken) (20), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 124 gp
+:::
 
 ### Description
 

@@ -15,27 +15,35 @@ kind = "creature"
 cr = "1"
 +++
 
-**Challenge rating:** 1
-
-**XP** 400\
 Human [barbarian](ref/class/barbarian) 2\
-CN Medium humanoid\
-**Init** +1; **Senses** Perception +6
+CN Medium humanoid
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +1
+Senses: Perception +6
+:::
 
 ### Defense
 
-**AC** 13, touch 9, flat-footed 12 (+4 armor, +1 Dex, -2 rage)\
-**hp** 25 (2d12+12)\
-**Fort** +8, **Ref** +1, **Will** +3\
-**Defensive Abilities** [uncanny dodge](ref/ability/uncanny-dodge)
+::: statblock
+AC: 13, touch 9, flat-footed 12 (+4 armor, +1 Dex, -2 rage)
+hp: 25 (2d12+12)
+Fort: +8
+Ref: +1
+Will: +3
+Defensive Abilities: [uncanny dodge](ref/ability/uncanny-dodge)
+:::
 
 ### Offense
 
-**Speed** 40 ft.\
-**Melee** greatclub +6 (1d10+6) and bite +1 (1d4+2) or unarmed strike +6 (1d3+4) and bite +1 (1d4+2)
-or bite +6 (1d4+4 plus +2 bonus on grapple)\
-**Ranged** throwing axe +3 (1d6+4)\
-**Special Attacks** rage (9 rounds/day), rage power (animal fury)
+::: statblock
+Speed: 40 ft.
+Melee: greatclub +6 (1d10+6) and bite +1 (1d4+2) or unarmed strike +6 (1d3+4) and bite +1 (1d4+2) or bite +6 (1d4+4 plus +2 bonus on grapple)
+Ranged: throwing axe +3 (1d6+4)
+Special Attacks: rage (9 rounds/day), rage power (animal fury)
+:::
 
 ### Tactics
 
@@ -46,17 +54,23 @@ grapple); Climb +4, Swim +4
 
 ### Statistics
 
-**Str** 19, **Dex** 13, **Con** 20, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +2; **CMB** +6 (+8 grapple); **CMD** 15 (17 vs. grapple)\
-**Feats** [Improved Grapple](ref/feat/improved-grapple),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike)\
-**Skills** Climb +6, Handle Animal +4, Perception +6, Survival +6, Swim +6\
-**Languages** Common\
-**SQ** fast movement\
-**Gear** [hide armor](ref/eq-armor/hide), [greatclub](ref/eq-weapon/greatclub),
-[throwing axes](ref/eq-weapon/throwing-axe) (2)\
-**Boon** A cannibal can assist the PCs by tracking a single sentient creature (or a single group of
-sentient creatures) through the wilderness for up to 3 days.
+::: statblock
+Str: 19
+Dex: 13
+Con: 20
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +2
+CMB: +6 (+8 grapple)
+CMD: 15 (17 vs. grapple)
+Feats: [Improved Grapple](ref/feat/improved-grapple), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike)
+Skills: Climb +6, Handle Animal +4, Perception +6, Survival +6, Swim +6
+Languages: Common
+SQ: fast movement
+Gear: [hide armor](ref/eq-armor/hide), [greatclub](ref/eq-weapon/greatclub), [throwing axes](ref/eq-weapon/throwing-axe) (2)
+Boon: A cannibal can assist the PCs by tracking a single sentient creature (or a single group of sentient creatures) through the wilderness for up to 3 days.
+:::
 
 ### Description
 

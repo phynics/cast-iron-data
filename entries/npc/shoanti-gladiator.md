@@ -17,26 +17,34 @@ cr = "2"
 
 _This shaven-headed brute wields a massive spiked hammer and bears scars from dozens of battles._
 
-**Challenge rating:** 2
-
-**XP** 600\
 Male human [barbarian](ref/class/barbarian) 3\
-CN Medium humanoid (human)\
-**Init** +0; **Senses** Perception +8
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +0
+Senses: Perception +8
+:::
 
 ### Defense
 
-**AC** 15, touch 8, flat-footed 15 (+7 armor, -2 rage)\
-**hp** 34 (3d12+9)\
-**Fort** +6, **Ref** +1, **Will** +5\
-**Defensive Abilities** [uncanny dodge](ref/ability/uncanny-dodge),
-[trap sense](ref/ability/trap-sense) +1
+::: statblock
+AC: 15, touch 8, flat-footed 15 (+7 armor, -2 rage)
+hp: 34 (3d12+9)
+Fort: +6
+Ref: +1
+Will: +5
+Defensive Abilities: [uncanny dodge](ref/ability/uncanny-dodge), [trap sense](ref/ability/trap-sense) +1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk earth breaker\* +8 (2d6+6/×3) or spiked gauntlet +7 (1d4+6)\
-**Special Attacks** rage (9 rounds/day), rage powers (knockback)
+::: statblock
+Speed: 30 ft.
+Melee: mwk earth breaker\* +8 (2d6+6/×3) or spiked gauntlet +7 (1d4+6)
+Special Attacks: rage (9 rounds/day), rage powers (knockback)
+:::
 
 ### Tactics
 
@@ -46,21 +54,29 @@ gauntlet +5 (1d4+3); **Str** 15, **Con** 12; **CMB** 5, **CMD** 15.
 
 ### Statistics
 
-**Str** 19, **Dex** 10, **Con** 16, **Int** 8, **Wis** 15, **Cha** 14\
-**Base Atk** +3; **CMB** +7; **CMD** 15\
-**Feats** [Cleave](ref/feat/cleave), [Improved Bull Rush](ref/feat/improved-bull-rush),
-[Power Attack](ref/feat/power-attack)\
-**Skills** Handle Animal +8, Intimidate +8, Perception +8, Ride +3, Survival +8\
-**Languages** Common, Shoanti\
-**SQ** fast movement
+::: statblock
+Str: 19
+Dex: 10
+Con: 16
+Int: 8
+Wis: 15
+Cha: 14
+Base Atk: +3
+CMB: +7
+CMD: 15
+Feats: [Cleave](ref/feat/cleave), [Improved Bull Rush](ref/feat/improved-bull-rush), [Power Attack](ref/feat/power-attack)
+Skills: Handle Animal +8, Intimidate +8, Perception +8, Ride +3, Survival +8
+Languages: Common, Shoanti
+SQ: fast movement
+:::
 
 ### Ecology
 
-**Environment** any (Magnimar)\
-**Organization** solitary\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (+1
-[breastplate](ref/eq-armor/breastplate), masterwork [earth breaker](ref/eq-weapon/earth-breaker),
-[spiked gauntlet](ref/eq-weapon/spiked-gauntlet), other treasure)
+::: statblock
+Environment: any (Magnimar)
+Organization: solitary
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (+1 [breastplate](ref/eq-armor/breastplate), masterwork [earth breaker](ref/eq-weapon/earth-breaker), [spiked gauntlet](ref/eq-weapon/spiked-gauntlet), other treasure)
+:::
 
 ### Description
 

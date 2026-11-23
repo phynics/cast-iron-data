@@ -15,47 +15,55 @@ kind = "creature"
 cr = "4"
 +++
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Human [fighter](ref/class/fighter) 2/[rogue](ref/class/rogue) 3\
-CN Medium humanoid (human)\
-**Init** +7; **Senses** Perception +9
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +7
+Senses: Perception +9
+:::
 
 ### Defense
 
-**AC** 18, touch 14, flat-footed 14 (+4 armor, +3 Dex, +1 dodge)\
-**hp** 37 (5 HD; 2d10+3d8+13)\
-**Fort** +6, **Ref** +6 (+1 vs. traps), **Will** +2 (+1 vs. fear)\
-**Defensive Abilities** bravery +1, [evasion](ref/ability/evasion),
-[trap sense](ref/ability/trap-sense) +1
+::: statblock
+AC: 18, touch 14, flat-footed 14 (+4 armor, +3 Dex, +1 dodge)
+hp: 37 (5 HD; 2d10+3d8+13)
+Fort: +6
+Ref: +6 (+1 vs. traps)
+Will: +2 (+1 vs. fear)
+Defensive Abilities: bravery +1, [evasion](ref/ability/evasion), [trap sense](ref/ability/trap-sense) +1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk short sword +8 (1d6+2/19-20) or mwk handaxe +8 (1d6+2/×3)\
-**Ranged** longbow +7 (1d8/×3) or blowgun +7 (1d2 plus poison)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +2d6
+::: statblock
+Speed: 30 ft.
+Melee: mwk short sword +8 (1d6+2/19-20) or mwk handaxe +8 (1d6+2/×3)
+Ranged: longbow +7 (1d8/×3) or blowgun +7 (1d2 plus poison)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +2d6
+:::
 
 ### Statistics
 
-**Str** 14, **Dex** 17, **Con** 14, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +4; **CMB** +6; **CMD** 20\
-**Feats** [Dodge](ref/feat/dodge), [Improved Initiative](ref/feat/improved-initiative),
-[Mobility](ref/feat/mobility), [Point-Blank Shot](ref/feat/point-blank-shot),
-[Shot on the Run](ref/feat/shot-on-the-run), [Two-Weapon Fighting](ref/feat/two-weapon-fighting),
-[Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Acrobatics +9, Climb +8, Disable Device +10, Escape Artist +10, Perception +9, Sense
-Motive +7, Stealth +11, Survival +7, Swim +8\
-**Languages** Common\
-**SQ** rogue talents ([finesse rogue](ref/talent/finesse-rogue)),
-[trapfinding](ref/ability/trapfinding) +1\
-**Combat Gear** potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of
-[invisibility](ref/spell/invisibility), [alchemist's fire](ref/eq-weapon/alchemists-fire),
-[bloodroot](ref/eq-poison/bloodroot) poison (2 doses),
-[tanglefoot bag](ref/eq-weapon/tanglefoot-bag); **Other Gear** [mithral](ref/eq-material/mithral)
-[chain shirt](ref/eq-armor/chain-shirt), blowgun (with 10 [darts](ref/eq-weapon/dart)), mwk
-[thieves tools](ref/eq-misc/thieves-tools-masterwork)
+::: statblock
+Str: 14
+Dex: 17
+Con: 14
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +4
+CMB: +6
+CMD: 20
+Feats: [Dodge](ref/feat/dodge), [Improved Initiative](ref/feat/improved-initiative), [Mobility](ref/feat/mobility), [Point-Blank Shot](ref/feat/point-blank-shot), [Shot on the Run](ref/feat/shot-on-the-run), [Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Acrobatics +9, Climb +8, Disable Device +10, Escape Artist +10, Perception +9, Sense Motive +7, Stealth +11, Survival +7, Swim +8
+Languages: Common
+SQ: rogue talents ([finesse rogue](ref/talent/finesse-rogue)), [trapfinding](ref/ability/trapfinding) +1
+Combat Gear: potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of [invisibility](ref/spell/invisibility), [alchemist's fire](ref/eq-weapon/alchemists-fire), [bloodroot](ref/eq-poison/bloodroot) poison (2 doses), [tanglefoot bag](ref/eq-weapon/tanglefoot-bag)
+Other Gear: [mithral](ref/eq-material/mithral) [chain shirt](ref/eq-armor/chain-shirt), blowgun (with 10 [darts](ref/eq-weapon/dart)), mwk [thieves tools](ref/eq-misc/thieves-tools-masterwork)
+:::
 
 ### Description
 

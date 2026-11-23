@@ -15,39 +15,53 @@ kind = "creature"
 cr = "5"
 +++
 
-**Challenge rating:** 5
-
-**XP** 1,600\
 Elf [sorcerer](ref/class/sorcerer) 6\
-NE Medium humanoid (elf)\
-**Init** +6; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +4
+NE Medium humanoid (elf)
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +6
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +4
+:::
 
 ### Defense
 
-**AC** 18, touch 14, flat-footed 15 (+4 armor, +1 deflection, +2 Dex, +1 dodge)\
-**hp** 35 (6d6+12)\
-**Fort** +4, **Ref** +5, **Will** +7; +2 vs. enchantments\
-**Immune** sleep; **Resist** electricity 10
+::: statblock
+AC: 18, touch 14, flat-footed 15 (+4 armor, +1 deflection, +2 Dex, +1 dodge)
+hp: 35 (6d6+12)
+Fort: +4
+Ref: +5
+Will: +7; +2 vs. enchantments
+Immune: sleep
+Resist: electricity 10
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** spear +2 (1d8-1/×3)\
-**Ranged** mwk longbow +6 (1d8/×3)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 6th; concentration +9)\
-_6/day_-elemental ray (1d6+3 electricity)\
-**Sorcerer Spells Known** (CL 6th; concentration +9)\
-_3rd (4/day)_-[lightning bolt](ref/spell/lightning-bolt) (DC 17)\
-_2nd (6/day)_-[gust of wind](ref/spell/gust-of-wind) (DC 16),
-[scorching ray](ref/spell/scorching-ray) (electricity), [spectral hand](ref/spell/spectral-hand)\
-_1st (7/day)_-[burning hands](ref/spell/burning-hands) (electricity; DC 15),
-[mage armor](ref/spell/mage-armor), [magic missile](ref/spell/magic-missile),
-[obscuring mist](ref/spell/obscuring-mist), [shocking grasp](ref/spell/shocking-grasp)\
-_0 (at will)_-[acid splash](ref/spell/acid-splash) (electricity),
-[dancing lights](ref/spell/dancing-lights), [detect magic](ref/spell/detect-magic),
-[light](ref/spell/light), [mage hand](ref/spell/mage-hand), [ray of frost](ref/spell/ray-of-frost)
-(electricity), [read magic](ref/spell/read-magic)\
-**Bloodline** [elemental](ref/sorcbloodline/elemental) (air)
+::: statblock
+Speed: 30 ft.
+Melee: spear +2 (1d8-1/×3)
+Ranged: mwk longbow +6 (1d8/×3)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6th
+Concentration: +9
+6/day: elemental ray (1d6+3 electricity)
+:::
+
+::: statblock
+title = "Sorcerer Spells Known"
+Caster level: 6th
+Concentration: +9
+3rd (4/day): [lightning bolt](ref/spell/lightning-bolt) (DC 17)
+2nd (6/day): [gust of wind](ref/spell/gust-of-wind) (DC 16), [scorching ray](ref/spell/scorching-ray) (electricity), [spectral hand](ref/spell/spectral-hand)
+1st (7/day): [burning hands](ref/spell/burning-hands) (electricity; DC 15), [mage armor](ref/spell/mage-armor), [magic missile](ref/spell/magic-missile), [obscuring mist](ref/spell/obscuring-mist), [shocking grasp](ref/spell/shocking-grasp)
+0 (at will): [acid splash](ref/spell/acid-splash) (electricity), [dancing lights](ref/spell/dancing-lights), [detect magic](ref/spell/detect-magic), [light](ref/spell/light), [mage hand](ref/spell/mage-hand), [ray of frost](ref/spell/ray-of-frost) (electricity), [read magic](ref/spell/read-magic)
+Bloodline: [elemental](ref/sorcbloodline/elemental) (air)
+:::
 
 ### Tactics
 
@@ -60,20 +74,23 @@ flat-footed 11.
 
 ### Statistics
 
-**Str** 8, **Dex** 15, **Con** 12, **Int** 12, **Wis** 12, **Cha** 16\
-**Base Atk** +3; **CMB** +2; **CMD** 16\
-**Feats** [Dodge](ref/feat/dodge), [Eschew Materials](ref/feat/eschew-materials),
-[Improved Initiative](ref/feat/improved-initiative), [Spell Focus](ref/feat/spell-focus) (evocation)\
-**Skills** Fly +10, Knowledge (arcana) +9, Linguistics +2, Perception +4, Spellcraft +10 (+12 to
-identify magic item properties)\
-**Languages** Auran, Common, Draconic, Elven\
-**SQ** bloodline arcana (change energy damage spells to electricity), elven magic, weapon
-familiarity\
-**Combat Gear** scroll of [fly](ref/spell/fly), scroll of [gaseous form](ref/spell/gaseous-form),
-scroll of [levitate](ref/spell/levitate); **Other Gear** masterwork [longbow](ref/eq-weapon/longbow)
-with 20 arrows, [spear](ref/eq-weapon/spear),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1)
+::: statblock
+Str: 8
+Dex: 15
+Con: 12
+Int: 12
+Wis: 12
+Cha: 16
+Base Atk: +3
+CMB: +2
+CMD: 16
+Feats: [Dodge](ref/feat/dodge), [Eschew Materials](ref/feat/eschew-materials), [Improved Initiative](ref/feat/improved-initiative), [Spell Focus](ref/feat/spell-focus) (evocation)
+Skills: Fly +10, Knowledge (arcana) +9, Linguistics +2, Perception +4, Spellcraft +10 (+12 to identify magic item properties)
+Languages: Auran, Common, Draconic, Elven
+SQ: bloodline arcana (change energy damage spells to electricity), elven magic, weapon familiarity
+Combat Gear: scroll of [fly](ref/spell/fly), scroll of [gaseous form](ref/spell/gaseous-form), scroll of [levitate](ref/spell/levitate)
+Other Gear: masterwork [longbow](ref/eq-weapon/longbow) with 20 arrows, [spear](ref/eq-weapon/spear), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1)
+:::
 
 ### Description
 

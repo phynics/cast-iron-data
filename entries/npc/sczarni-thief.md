@@ -15,41 +15,55 @@ kind = "creature"
 cr = "2"
 +++
 
-**Challenge rating:** 2
-
-**XP** 600\
 Human [rogue](ref/class/rogue) 3\
-CN Medium humanoid (human)\
-**Init** +7; **Senses** Perception +7
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +7
+Senses: Perception +7
+:::
 
 ### Defense
 
-**AC** 18, touch 14, flat-footed 14 (+4 armor, +3 Dex, +1 dodge)\
-**hp** 20 (3d8+3)\
-**Fort** +1, **Ref** +6 (+1 vs. traps), **Will** +2\
-**Defensive Abilities** [evasion](ref/ability/evasion), [trap sense](ref/ability/trap-sense) +1
+::: statblock
+AC: 18, touch 14, flat-footed 14 (+4 armor, +3 Dex, +1 dodge)
+hp: 20 (3d8+3)
+Fort: +1
+Ref: +6 (+1 vs. traps)
+Will: +2
+Defensive Abilities: [evasion](ref/ability/evasion), [trap sense](ref/ability/trap-sense) +1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk short sword +6 (1d6+2/19-20) or dagger +5 (1d4+3/19-20)\
-**Ranged** dagger +5 (1d4+2/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +2d6
+::: statblock
+Speed: 30 ft.
+Melee: mwk short sword +6 (1d6+2/19-20) or dagger +5 (1d4+3/19-20)
+Ranged: dagger +5 (1d4+2/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +2d6
+:::
 
 ### Statistics
 
-**Str** 14, **Dex** 17, **Con** 10, **Int** 8, **Wis** 12, **Cha** 13\
-**Base Atk** +2; **CMB** +4; **CMD** 18\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge),
-[Improved Initiative](ref/feat/improved-initiative), [Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Acrobatics +9, Bluff +7, Climb +7, Disable Device +9, Escape Artist +7, Knowledge (local)
-+5, Perception +7, Sense Motive +5, Sleight of Hand +8, Stealth +9\
-**Languages** Common, Varisian\
-**SQ** rogue talents ([finesse rogue](ref/talent/finesse-rogue)),
-[trapfinding](ref/ability/trapfinding) +1\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds); **Other Gear** +1
-[studded leather](ref/eq-armor/studded-leather), mwk [short sword](ref/eq-weapon/short-sword),
-[dagger](ref/eq-weapon/dagger), mwk [thieves tools](ref/eq-misc/thieves-tools-masterwork), 13 gp
+::: statblock
+Str: 14
+Dex: 17
+Con: 10
+Int: 8
+Wis: 12
+Cha: 13
+Base Atk: +2
+CMB: +4
+CMD: 18
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge), [Improved Initiative](ref/feat/improved-initiative), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Acrobatics +9, Bluff +7, Climb +7, Disable Device +9, Escape Artist +7, Knowledge (local) +5, Perception +7, Sense Motive +5, Sleight of Hand +8, Stealth +9
+Languages: Common, Varisian
+SQ: rogue talents ([finesse rogue](ref/talent/finesse-rogue)), [trapfinding](ref/ability/trapfinding) +1
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds)
+Other Gear: +1 [studded leather](ref/eq-armor/studded-leather), mwk [short sword](ref/eq-weapon/short-sword), [dagger](ref/eq-weapon/dagger), mwk [thieves tools](ref/eq-misc/thieves-tools-masterwork), 13 gp
+:::
 
 ### Description
 

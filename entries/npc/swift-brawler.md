@@ -15,27 +15,36 @@ kind = "creature"
 cr = "11"
 +++
 
-**Challenge rating:** 11
-
-**XP** 12,800\
 Human [monk](ref/class/monk) 12\
-LN Medium humanoid (human)\
-**Init** +2; **Senses** Perception +20
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 11
+XP: 12,800
+Init: +2
+Senses: Perception +20
+:::
 
 ### Defense
 
-**AC** 23, touch 21, flat-footed 21 (+2 armor, +1 deflection, +2 Dex, +3 monk, +5 Wis)\
-**hp** 75 (12d8+18)\
-**Fort** +10, **Ref** +11, **Will** +14; +2 vs. enchantments\
-**Defensive Abilities** [improved evasion](ref/ability/improved-evasion); **Immune** disease, poison
+::: statblock
+AC: 23, touch 21, flat-footed 21 (+2 armor, +1 deflection, +2 Dex, +3 monk, +5 Wis)
+hp: 75 (12d8+18)
+Fort: +10
+Ref: +11
+Will: +14; +2 vs. enchantments
+Defensive Abilities: [improved evasion](ref/ability/improved-evasion)
+Immune: disease, poison
+:::
 
 ### Offense
 
-**Speed** 70 ft.\
-**Melee** mwk quarterstaff +13/+8 (1d6+3) or +1 unarmed strike +13/+8 (2d6+4) or +1 unarmed strike
-flurry of blows +14/+14/+9/+9/+4 (2d6+3)\
-**Ranged** shuriken +11/+6 (1d2+3) or shuriken flurry of blows +12/+12/+7/+7/+2 (1d2+3)\
-**Special Attacks** flurry of blows, stunning fist (12/day, DC 21)
+::: statblock
+Speed: 70 ft.
+Melee: mwk quarterstaff +13/+8 (1d6+3) or +1 unarmed strike +13/+8 (2d6+4) or +1 unarmed strike flurry of blows +14/+14/+9/+9/+4 (2d6+3)
+Ranged: shuriken +11/+6 (1d2+3) or shuriken flurry of blows +12/+12/+7/+7/+2 (1d2+3)
+Special Attacks: flurry of blows, stunning fist (12/day, DC 21)
+:::
 
 ### Tactics
 
@@ -49,30 +58,23 @@ his target's AC has been compromised in some way.
 
 ### Statistics
 
-**Str** 16, **Dex** 15, **Con** 12, **Int** 10, **Wis** 20, **Cha** 8\
-**Base Atk** +9; **CMB** +15 (+17 trip); **CMD** 33 (35 vs. trip)\
-**Feats** [Acrobatic Steps](ref/feat/acrobatic-steps), [Combat Reflexes](ref/feat/combat-reflexes),
-[Deflect Arrows](ref/feat/deflect-arrows), [Extra Ki](ref/feat/extra-ki),
-[Gorgon's Fist](ref/feat/gorgons-fist), [Improved Trip](ref/feat/improved-trip),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Lunge](ref/feat/lunge),
-[Nimble Moves](ref/feat/nimble-moves), [Power Attack](ref/feat/power-attack),
-[Scorpion Style](ref/feat/scorpion-style), [Spring Attack](ref/feat/spring-attack),
-[Stunning Fist](ref/feat/stunning-fist)\
-**Skills** Acrobatics +15 (+43 when jumping), Climb +11, Knowledge (geography, local) +4, Knowledge
-(history) +6, Knowledge (religion) +7, Linguistics +3, Perception +20, Sense Motive +18, Stealth
-+15, Swim +7\
-**Languages** Common, Dwarven, Elven, Gnome, Orc\
-**SQ** abundant step, diamond body, fast movement, high jump, ki pool (13 points, lawful, magic),
-maneuver training, purity of body, slow fall 60 ft., wholeness of body\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds), potion of
-[mirror image](ref/spell/mirror-image); **Other Gear** masterwork
-[quarterstaff](ref/eq-weapon/quarterstaff), [shuriken](ref/eq-weapon/shuriken) (20),
-[amulet of mighty fists +1](ref/magic-wondrous/amulet-of-mighty-fists-1),
-[belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2),
-[bracers of armor +2](ref/magic-wondrous/bracers-of-armor-2),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), 46 gp
+::: statblock
+Str: 16
+Dex: 15
+Con: 12
+Int: 10
+Wis: 20
+Cha: 8
+Base Atk: +9
+CMB: +15 (+17 trip)
+CMD: 33 (35 vs. trip)
+Feats: [Acrobatic Steps](ref/feat/acrobatic-steps), [Combat Reflexes](ref/feat/combat-reflexes), [Deflect Arrows](ref/feat/deflect-arrows), [Extra Ki](ref/feat/extra-ki), [Gorgon's Fist](ref/feat/gorgons-fist), [Improved Trip](ref/feat/improved-trip), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Lunge](ref/feat/lunge), [Nimble Moves](ref/feat/nimble-moves), [Power Attack](ref/feat/power-attack), [Scorpion Style](ref/feat/scorpion-style), [Spring Attack](ref/feat/spring-attack), [Stunning Fist](ref/feat/stunning-fist)
+Skills: Acrobatics +15 (+43 when jumping), Climb +11, Knowledge (geography, local) +4, Knowledge (history) +6, Knowledge (religion) +7, Linguistics +3, Perception +20, Sense Motive +18, Stealth +15, Swim +7
+Languages: Common, Dwarven, Elven, Gnome, Orc
+SQ: abundant step, diamond body, fast movement, high jump, ki pool (13 points, lawful, magic), maneuver training, purity of body, slow fall 60 ft., wholeness of body
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds), potion of [mirror image](ref/spell/mirror-image)
+Other Gear: masterwork [quarterstaff](ref/eq-weapon/quarterstaff), [shuriken](ref/eq-weapon/shuriken) (20), [amulet of mighty fists +1](ref/magic-wondrous/amulet-of-mighty-fists-1), [belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2), [bracers of armor +2](ref/magic-wondrous/bracers-of-armor-2), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 46 gp
+:::
 
 ### Description
 

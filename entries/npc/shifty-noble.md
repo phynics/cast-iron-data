@@ -18,45 +18,60 @@ cr = "2"
 _This well-dressed noble carries herself with poise, and her eyes seem to catalog everything she
 observes._
 
-**Challenge rating:** 2
-
-**XP** 600\
 Female human [aristocrat](ref/npcclass/aristocrat) 2/[rogue](ref/class/rogue) 1\
-LN Medium humanoid (human)\
-**Init** +2; **Senses** Perception +9
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +2
+Senses: Perception +9
+:::
 
 ### Defense
 
-**AC** 13, touch 12, flat-footed 11 (+1 armor, +2 Dex)\
-**hp** 13 (3 HD; 1d8+2d8+)\
-**Fort** +2, **Ref** +4, **Will** +4
+::: statblock
+AC: 13, touch 12, flat-footed 11 (+1 armor, +2 Dex)
+hp: 13 (3 HD; 1d8+2d8+)
+Fort: +2
+Ref: +4
+Will: +4
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk dagger +1 (1d4-1/19-20)\
-**Ranged** mwk dagger +4 (1d4-1/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +1d6
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +1 (1d4-1/19-20)
+Ranged: mwk dagger +4 (1d4-1/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +1d6
+:::
 
 ### Statistics
 
-**Str** 8, **Dex** 14, **Con** 10, **Int** 12, **Wis** 13, **Cha** 17\
-**Base Atk** +1; **CMB** +0; **CMD** 12\
-**Feats** [Alertness](ref/feat/alertness), [Great Fortitude](ref/feat/great-fortitude),
-[Skill Focus](ref/feat/skill-focus) (Bluff)\
-**Skills** Bluff +12, Diplomacy +8, Disable Device +7, Disguise +8, Escape Artist +7, Knowledge
-(local) +6, Perception +9, Sense Motive +8, Sleight of Hand +8, Stealth +8\
-**Languages** Common, Infernal\
-**SQ** [trapfinding](ref/ability/trapfinding) +1
+::: statblock
+Str: 8
+Dex: 14
+Con: 10
+Int: 12
+Wis: 13
+Cha: 17
+Base Atk: +1
+CMB: +0
+CMD: 12
+Feats: [Alertness](ref/feat/alertness), [Great Fortitude](ref/feat/great-fortitude), [Skill Focus](ref/feat/skill-focus) (Bluff)
+Skills: Bluff +12, Diplomacy +8, Disable Device +7, Disguise +8, Escape Artist +7, Knowledge (local) +6, Perception +9, Sense Motive +8, Sleight of Hand +8, Stealth +8
+Languages: Common, Infernal
+SQ: [trapfinding](ref/ability/trapfinding) +1
+:::
 
 ### Ecology
 
-**Environment** any urban\
-**Organization** solitary\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork
-[dagger](ref/eq-weapon/dagger), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), potion
-of [cure light wounds](ref/spell/cure-light-wounds), [sunrods](ref/eq-misc/sunrod) (2), other
-treasure)
+::: statblock
+Environment: any urban
+Organization: solitary
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork [dagger](ref/eq-weapon/dagger), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), potion of [cure light wounds](ref/spell/cure-light-wounds), [sunrods](ref/eq-misc/sunrod) (2), other treasure)
+:::
 
 ### Description
 

@@ -15,24 +15,33 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Half-orc [warrior](ref/npcclass/warrior) 5\
-N Medium humanoid (human, orc)\
-**Init** +1; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +0
+N Medium humanoid (human, orc)
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +1
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +0
+:::
 
 ### Defense
 
-**AC** 16, touch 11, flat-footed 15 (+4 armor, +1 Dex, +1 natural)\
-**hp** 37 (5d10+10)\
-**Fort** +5, **Ref** +2, **Will** +0\
-**Defensive Abilities** orc ferocity
+::: statblock
+AC: 16, touch 11, flat-footed 15 (+4 armor, +1 Dex, +1 natural)
+hp: 37 (5d10+10)
+Fort: +5
+Ref: +2
+Will: +0
+Defensive Abilities: orc ferocity
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** unarmed strike +7 (1d3+2) or sap +7 (1d6+2 nonlethal) or warhammer +7 (1d8+3/×3)
+::: statblock
+Speed: 30 ft.
+Melee: unarmed strike +7 (1d3+2) or sap +7 (1d6+2 nonlethal) or warhammer +7 (1d8+3/×3)
+:::
 
 ### Tactics
 
@@ -42,18 +51,23 @@ drinks her potion of enlarge person.
 
 ### Statistics
 
-**Str** 14, **Dex** 13, **Con** 12, **Int** 9, **Wis** 8, **Cha** 10\
-**Base Atk** +5; **CMB** +7; **CMD** 18\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes),
-[Improved Bull Rush](ref/feat/improved-bull-rush),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike)\
-**Skills** Intimidate +9, Perception +0\
-**Languages** Common, Orc\
-**SQ** orc blood, weapon familiarity\
-**Combat Gear** potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of
-[enlarge person](ref/spell/enlarge-person); **Other Gear** [chain shirt](ref/eq-armor/chain-shirt),
-[sap](ref/eq-weapon/sap), [warhammer](ref/eq-weapon/warhammer),
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), 137 gp
+::: statblock
+Str: 14
+Dex: 13
+Con: 12
+Int: 9
+Wis: 8
+Cha: 10
+Base Atk: +5
+CMB: +7
+CMD: 18
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Improved Bull Rush](ref/feat/improved-bull-rush), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike)
+Skills: Intimidate +9, Perception +0
+Languages: Common, Orc
+SQ: orc blood, weapon familiarity
+Combat Gear: potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [enlarge person](ref/spell/enlarge-person)
+Other Gear: [chain shirt](ref/eq-armor/chain-shirt), [sap](ref/eq-weapon/sap), [warhammer](ref/eq-weapon/warhammer), [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), 137 gp
+:::
 
 ### Description
 

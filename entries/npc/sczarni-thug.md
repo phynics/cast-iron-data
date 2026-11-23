@@ -18,46 +18,61 @@ cr = "1"
 _This thuggish Varisian wears black garb and tattered rags that conceal his myriad small blades and
 reveal runic tattoos._
 
-**Challenge rating:** 1
-
-**XP** 400\
 Male human [rogue](ref/class/rogue) 2\
-LE Medium humanoid (human)\
-**Init** +3; **Senses** Perception +6
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +3
+Senses: Perception +6
+:::
 
 ### Defense
 
-**AC** 14, touch 13, flat-footed 11 (+1 armor, +3 Dex)\
-**hp** 18 (2d8+6)\
-**Fort** +2, **Ref** +6, **Will** +1\
-**Defensive Abilities** [evasion](ref/ability/evasion)
+::: statblock
+AC: 14, touch 13, flat-footed 11 (+1 armor, +3 Dex)
+hp: 18 (2d8+6)
+Fort: +2
+Ref: +6
+Will: +1
+Defensive Abilities: [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk short sword +3 (1d6+1/19-20) or dagger +2 (1d4+1/19-20)\
-**Ranged** dagger +4 (1d4+1/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +1d6
+::: statblock
+Speed: 30 ft.
+Melee: mwk short sword +3 (1d6+1/19-20) or dagger +2 (1d4+1/19-20)
+Ranged: dagger +4 (1d4+1/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +1d6
+:::
 
 ### Statistics
 
-**Str** 13, **Dex** 17, **Con** 14, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +1; **CMB** +4; **CMD** 15\
-**Feats** [Agile Maneuvers](ref/feat/agile-maneuvers), [Combat Reflexes](ref/feat/combat-reflexes)\
-**Skills** Acrobatics +8, Bluff +4, Climb +6, Disable Device +8, Escape Artist +8, Intimidate +4,
-Perception +6, Sleight of Hand +8, Stealth +8\
-**Languages** Common, Varisian\
-**SQ** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +1),
-[trapfinding](ref/ability/trapfinding) +1
+::: statblock
+Str: 13
+Dex: 17
+Con: 14
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +1
+CMB: +4
+CMD: 15
+Feats: [Agile Maneuvers](ref/feat/agile-maneuvers), [Combat Reflexes](ref/feat/combat-reflexes)
+Skills: Acrobatics +8, Bluff +4, Climb +6, Disable Device +8, Escape Artist +8, Intimidate +4, Perception +6, Sleight of Hand +8, Stealth +8
+Languages: Common, Varisian
+SQ: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +1), [trapfinding](ref/ability/trapfinding) +1
+:::
 
 ### Ecology
 
-**Environment** any (Varisia)\
-**Organization** solitary, pair, or gang (3-12)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork
-[padded armor](ref/eq-armor/padded), [daggers](ref/eq-weapon/dagger) (3), masterwork
-[short sword](ref/eq-weapon/short-sword), masterwork
-[thieves' tools](ref/eq-misc/thieves-tools-masterwork), other treasure)
+::: statblock
+Environment: any (Varisia)
+Organization: solitary, pair, or gang (3-12)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork [padded armor](ref/eq-armor/padded), [daggers](ref/eq-weapon/dagger) (3), masterwork [short sword](ref/eq-weapon/short-sword), masterwork [thieves' tools](ref/eq-misc/thieves-tools-masterwork), other treasure)
+:::
 
 ### Description
 

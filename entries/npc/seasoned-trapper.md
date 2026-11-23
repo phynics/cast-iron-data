@@ -15,24 +15,33 @@ kind = "creature"
 cr = "1"
 +++
 
-**Challenge rating:** 1
-
-**XP** 400\
 Halfling [expert](ref/npcclass/expert) 3\
-N Small humanoid (halfling)\
-**Init** +2; **Senses** Perception +7
+N Small humanoid (halfling)
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +2
+Senses: Perception +7
+:::
 
 ### Defense
 
-**AC** 16, touch 13, flat-footed 14 (+3 armor, +2 Dex, +1 size)\
-**hp** 13 (3d8)\
-**Fort** +2, **Ref** +4, **Will** +4; +2 vs. fear
+::: statblock
+AC: 16, touch 13, flat-footed 14 (+3 armor, +2 Dex, +1 size)
+hp: 13 (3d8)
+Fort: +2
+Ref: +4
+Will: +4; +2 vs. fear
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** spear +3 (1d6/×3)\
-**Ranged** mwk light crossbow +6 (1d6/19-20)
+::: statblock
+Speed: 20 ft.
+Melee: spear +3 (1d6/×3)
+Ranged: mwk light crossbow +6 (1d6/19-20)
+:::
 
 ### Tactics
 
@@ -40,18 +49,22 @@ N Small humanoid (halfling)\
 
 ### Statistics
 
-**Str** 10, **Dex** 15, **Con** 10, **Int** 9, **Wis** 10, **Cha** 10\
-**Base Atk** +2; **CMB** +1; **CMD** 13\
-**Feats** [Deadly Aim](ref/feat/deadly-aim), [Skill Focus](ref/feat/skill-focus) (Survival)\
-**Skills** Acrobatics +3 (-1 when jumping), Climb +5, Craft (leather) +5, Craft (traps) +7, Heal +6,
-Knowledge (nature) +3, Perception +7, Ride +5, Stealth +11, Survival +9, Swim +4\
-**Languages** Common, Halfling\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds); **Other Gear**
-[studded leather](ref/eq-armor/studded-leather), masterwork
-[light crossbow](ref/eq-weapon/light-crossbow) with 40 bolts, [spear](ref/eq-weapon/spear),
-masterwork [artisan's tools](ref/eq-misc/artisans-tools-masterwork) (leather, traps),
-[bit and bridle](ref/eq-misc/bit-and-bridle), [riding dog](ref/eq-misc/dog-riding),
-[riding saddle](ref/eq-misc/saddle-riding), 92 gp
+::: statblock
+Str: 10
+Dex: 15
+Con: 10
+Int: 9
+Wis: 10
+Cha: 10
+Base Atk: +2
+CMB: +1
+CMD: 13
+Feats: [Deadly Aim](ref/feat/deadly-aim), [Skill Focus](ref/feat/skill-focus) (Survival)
+Skills: Acrobatics +3 (-1 when jumping), Climb +5, Craft (leather) +5, Craft (traps) +7, Heal +6, Knowledge (nature) +3, Perception +7, Ride +5, Stealth +11, Survival +9, Swim +4
+Languages: Common, Halfling
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds)
+Other Gear: [studded leather](ref/eq-armor/studded-leather), masterwork [light crossbow](ref/eq-weapon/light-crossbow) with 40 bolts, [spear](ref/eq-weapon/spear), masterwork [artisan's tools](ref/eq-misc/artisans-tools-masterwork) (leather, traps), [bit and bridle](ref/eq-misc/bit-and-bridle), [riding dog](ref/eq-misc/dog-riding), [riding saddle](ref/eq-misc/saddle-riding), 92 gp
+:::
 
 ### Description
 

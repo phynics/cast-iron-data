@@ -15,24 +15,33 @@ kind = "creature"
 cr = "1"
 +++
 
-**Challenge rating:** 1
-
-**XP** 400\
 Human [aristocrat](ref/npcclass/aristocrat) 3\
-N Medium humanoid (human)\
-**Init** +1; **Senses** Perception +5
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +1
+Senses: Perception +5
+:::
 
 ### Defense
 
-**AC** 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)\
-**hp** 19 (3d8+6)\
-**Fort** +1, **Ref** +2, **Will** +2
+::: statblock
+AC: 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)
+hp: 19 (3d8+6)
+Fort: +1
+Ref: +2
+Will: +2
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk longsword +4 (1d8+1/19-20) or dagger +3 (1d4+1/19-20)\
-**Ranged** composite shortbow +3 (1d6+1/×3)
+::: statblock
+Speed: 20 ft.
+Melee: mwk longsword +4 (1d8+1/19-20) or dagger +3 (1d4+1/19-20)
+Ranged: composite shortbow +3 (1d6+1/×3)
+:::
 
 ### Tactics
 
@@ -41,19 +50,22 @@ flanking and aid another. He stays mounted to take advantage of his horse's atta
 
 ### Statistics
 
-**Str** 13, **Dex** 12, **Con** 10, **Int** 8, **Wis** 9, **Cha** 11\
-**Base Atk** +2; **CMB** +3; **CMD** 14\
-**Feats** [Mounted Combat](ref/feat/mounted-combat), [Power Attack](ref/feat/power-attack),
-[Toughness](ref/feat/toughness)\
-**Skills** Diplomacy +4, Handle Animal +6, Intimidate +4, Knowledge (nobility) +3, Perception +5,
-Ride +2\
-**Languages** Common\
-**Combat Gear** [holy water](ref/eq-weapon/holy-water); **Other Gear**
-[chainmail](ref/eq-armor/chainmail), [composite shortbow](ref/eq-weapon/composite-shortbow) (+1 Str)
-with 20 arrows, [dagger](ref/eq-weapon/dagger), masterwork [longsword](ref/eq-weapon/longsword),
-[bit and bridle](ref/eq-misc/bit-and-bridle),
-[light horse (combat trained)](ref/eq-misc/light-horse-combat-trained),
-[riding saddle](ref/eq-misc/saddle-riding), [saddlebags](ref/eq-misc/saddlebags), 11 gp
+::: statblock
+Str: 13
+Dex: 12
+Con: 10
+Int: 8
+Wis: 9
+Cha: 11
+Base Atk: +2
+CMB: +3
+CMD: 14
+Feats: [Mounted Combat](ref/feat/mounted-combat), [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness)
+Skills: Diplomacy +4, Handle Animal +6, Intimidate +4, Knowledge (nobility) +3, Perception +5, Ride +2
+Languages: Common
+Combat Gear: [holy water](ref/eq-weapon/holy-water)
+Other Gear: [chainmail](ref/eq-armor/chainmail), [composite shortbow](ref/eq-weapon/composite-shortbow) (+1 Str) with 20 arrows, [dagger](ref/eq-weapon/dagger), masterwork [longsword](ref/eq-weapon/longsword), [bit and bridle](ref/eq-misc/bit-and-bridle), [light horse (combat trained)](ref/eq-misc/light-horse-combat-trained), [riding saddle](ref/eq-misc/saddle-riding), [saddlebags](ref/eq-misc/saddlebags), 11 gp
+:::
 
 ### Description
 

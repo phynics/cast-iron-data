@@ -15,24 +15,33 @@ kind = "creature"
 cr = "2"
 +++
 
-**Challenge rating:** 2
-
-**XP** 600\
 Human [warrior](ref/npcclass/warrior) 4\
-CE Medium humanoid (human)\
-**Init** +3; **Senses** Perception -1
+CE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +3
+Senses: Perception -1
+:::
 
 ### Defense
 
-**AC** 17, touch 14, flat-footed 13 (+3 armor, +3 Dex, +1 dodge)\
-**hp** 26 (4d10+4)\
-**Fort** +4, **Ref** +4, **Will** +0
+::: statblock
+AC: 17, touch 14, flat-footed 13 (+3 armor, +3 Dex, +1 dodge)
+hp: 26 (4d10+4)
+Fort: +4
+Ref: +4
+Will: +0
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk scimitar +6 (1d6+1/18-20)\
-**Ranged** mwk heavy crossbow +8 (1d10/19-20) or throwing axe +7 (1d6+1)
+::: statblock
+Speed: 30 ft.
+Melee: mwk scimitar +6 (1d6+1/18-20)
+Ranged: mwk heavy crossbow +8 (1d10/19-20) or throwing axe +7 (1d6+1)
+:::
 
 ### Tactics
 
@@ -41,18 +50,22 @@ scimitar.
 
 ### Statistics
 
-**Str** 12, **Dex** 16, **Con** 11, **Int** 10, **Wis** 8, **Cha** 9\
-**Base Atk** +4; **CMB** +5; **CMD** 19\
-**Feats** [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility), [Toughness](ref/feat/toughness)\
-**Skills** Acrobatics +6, Climb +6, Intimidate +6, Profession (sailor) +3, Swim +17\
-**Languages** Common, Orc\
-**Combat Gear** [elixir of swimming](ref/magic-wondrous/elixir-of-swimming), potion of
-[bull's strength](ref/spell/bulls-strength), potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2), potion of [jump](ref/spell/jump),
-[alchemist's fire](ref/eq-weapon/alchemists-fire); **Other Gear**
-[studded leather](ref/eq-armor/studded-leather), masterwork
-[heavy crossbow](ref/eq-weapon/heavy-crossbow) with 10 bolts, masterwork
-[scimitar](ref/eq-weapon/scimitar), [throwing axe](ref/eq-weapon/throwing-axe), 231 gp
+::: statblock
+Str: 12
+Dex: 16
+Con: 11
+Int: 10
+Wis: 8
+Cha: 9
+Base Atk: +4
+CMB: +5
+CMD: 19
+Feats: [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility), [Toughness](ref/feat/toughness)
+Skills: Acrobatics +6, Climb +6, Intimidate +6, Profession (sailor) +3, Swim +17
+Languages: Common, Orc
+Combat Gear: [elixir of swimming](ref/magic-wondrous/elixir-of-swimming), potion of [bull's strength](ref/spell/bulls-strength), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [jump](ref/spell/jump), [alchemist's fire](ref/eq-weapon/alchemists-fire)
+Other Gear: [studded leather](ref/eq-armor/studded-leather), masterwork [heavy crossbow](ref/eq-weapon/heavy-crossbow) with 10 bolts, masterwork [scimitar](ref/eq-weapon/scimitar), [throwing axe](ref/eq-weapon/throwing-axe), 231 gp
+:::
 
 ### Description
 

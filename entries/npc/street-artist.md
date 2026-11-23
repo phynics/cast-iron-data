@@ -15,42 +15,45 @@ kind = "creature"
 cr = "7"
 +++
 
-**Challenge rating:** 7
-
-**XP** 3,200\
 Elf [bard](ref/class/bard) 8\
-CN Medium humanoid (elf)\
-**Init** +3; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +13
+CN Medium humanoid (elf)
+
+::: statblock
+Challenge rating: 7
+XP: 3,200
+Init: +3
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +13
+:::
 
 ### Defense
 
-**AC** 18, touch 15, flat-footed 14 (+3 armor, +1 deflection, +3 Dex, +1 dodge)\
-**hp** 43 (8d8+4)\
-**Fort** +3, **Ref** +10, **Will** +7; +2 vs. enchantments, +4 vs. bardic performance,
-language-dependent, and sonic\
-**Immune** sleep
+::: statblock
+AC: 18, touch 15, flat-footed 14 (+3 armor, +1 deflection, +3 Dex, +1 dodge)
+hp: 43 (8d8+4)
+Fort: +3
+Ref: +10
+Will: +7; +2 vs. enchantments, +4 vs. bardic performance, language-dependent, and sonic
+Immune: sleep
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** rapier +7/+2 (1d6+1/18-20)\
-**Ranged** +1 longbow +10/+5 (1d8+1/×3)\
-**Special Attacks** bardic performance 21 rounds/day (move action;
-[countersong](ref/performance/countersong), [dirge of doom](ref/performance/dirge-of-doom),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate),
-[inspire competence](ref/performance/inspire-competence) +3,
-[inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion))\
-**Bard Spells Known** (CL 8th; concentration +11)\
-_3rd (3/day)_-[haste](ref/spell/haste) (DC 18), [major image](ref/spell/major-image) (DC 18),
-[sepia snake sigil](ref/spell/sepia-snake-sigil) (DC 18)\
-_2nd (5/day)_-invisibility, [mirror image](ref/spell/mirror-image), [shatter](ref/spell/shatter),
-[sound burst](ref/spell/sound-burst) (DC 16)\
-_1st (5/day)_-[animate rope](ref/spell/animate-rope), [disguise self](ref/spell/disguise-self),
-[grease](ref/spell/grease), [lesser confusion](ref/spell/confusion-lesser) (DC 14),
-[silent image](ref/spell/silent-image) (DC 16)\
-_0 (at will)_-[daze](ref/spell/daze) (DC 15), [detect magic](ref/spell/detect-magic),
-[light](ref/spell/light), [mage hand](ref/spell/mage-hand),
-[prestidigitation](ref/spell/prestidigitation), [read magic](ref/spell/read-magic)
+::: statblock
+Speed: 30 ft.
+Melee: rapier +7/+2 (1d6+1/18-20)
+Ranged: +1 longbow +10/+5 (1d8+1/×3)
+Special Attacks: bardic performance 21 rounds/day (move action; [countersong](ref/performance/countersong), [dirge of doom](ref/performance/dirge-of-doom), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [inspire competence](ref/performance/inspire-competence) +3, [inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion))
+:::
+
+::: statblock
+title = "Bard Spells Known"
+Caster level: 8th
+Concentration: +11
+3rd (3/day): [haste](ref/spell/haste) (DC 18), [major image](ref/spell/major-image) (DC 18), [sepia snake sigil](ref/spell/sepia-snake-sigil) (DC 18)
+2nd (5/day): invisibility, [mirror image](ref/spell/mirror-image), [shatter](ref/spell/shatter), [sound burst](ref/spell/sound-burst) (DC 16)
+1st (5/day): [animate rope](ref/spell/animate-rope), [disguise self](ref/spell/disguise-self), [grease](ref/spell/grease), [lesser confusion](ref/spell/confusion-lesser) (DC 14), [silent image](ref/spell/silent-image) (DC 16)
+0 (at will): [daze](ref/spell/daze) (DC 15), [detect magic](ref/spell/detect-magic), [light](ref/spell/light), [mage hand](ref/spell/mage-hand), [prestidigitation](ref/spell/prestidigitation), [read magic](ref/spell/read-magic)
+:::
 
 ### Tactics
 
@@ -63,21 +66,23 @@ spell DCs by 2; **Cha** 17; **Skills** Bluff +10, Perform (dance) +14.
 
 ### Statistics
 
-**Str** 13, **Dex** 16, **Con** 10, **Int** 10, **Wis** 10, **Cha** 17\
-**Base Atk** +6; **CMB** +7; **CMD** 22\
-**Feats** [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),
-[Point-Blank Shot](ref/feat/point-blank-shot), [Shot on the Run](ref/feat/shot-on-the-run)\
-**Skills** Acrobatics +7, Bluff +12, Climb +10, Escape Artist +14, Knowledge (arcane, local, nature,
-planes) +8, Perception +13, Perform (dance) +16, Sleight of Hand +11, Stealth +14\
-**Languages** Common, Elven\
-**SQ** bardic knowledge +4, elven magic, lore master 1/day, versatile performance (dance, comedy),
-weapon familiarity\
-**Combat Gear** potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of
-[eagle's splendor](ref/spell/eagles-splendor), potion of [invisibility](ref/spell/invisibility);
-**Other Gear** +1 [leather armor](ref/eq-armor/leather), +1 [longbow](ref/eq-weapon/longbow) with 20
-arrows, [rapier](ref/eq-weapon/rapier),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), 45 gp
+::: statblock
+Str: 13
+Dex: 16
+Con: 10
+Int: 10
+Wis: 10
+Cha: 17
+Base Atk: +6
+CMB: +7
+CMD: 22
+Feats: [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility), [Point-Blank Shot](ref/feat/point-blank-shot), [Shot on the Run](ref/feat/shot-on-the-run)
+Skills: Acrobatics +7, Bluff +12, Climb +10, Escape Artist +14, Knowledge (arcane, local, nature, planes) +8, Perception +13, Perform (dance) +16, Sleight of Hand +11, Stealth +14
+Languages: Common, Elven
+SQ: bardic knowledge +4, elven magic, lore master 1/day, versatile performance (dance, comedy), weapon familiarity
+Combat Gear: potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of [eagle's splendor](ref/spell/eagles-splendor), potion of [invisibility](ref/spell/invisibility)
+Other Gear: +1 [leather armor](ref/eq-armor/leather), +1 [longbow](ref/eq-weapon/longbow) with 20 arrows, [rapier](ref/eq-weapon/rapier), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 45 gp
+:::
 
 ### Description
 

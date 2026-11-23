@@ -15,38 +15,52 @@ kind = "creature"
 cr = "1"
 +++
 
-**Challenge rating:** 1
-
-**XP** 400\
 Human [commoner](ref/npcclass/commoner) 1/[warrior](ref/npcclass/warrior) 2\
-N Medium humanoid\
-**Init** +0; **Senses** Perception -1
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +0
+Senses: Perception -1
+:::
 
 ### Defense
 
-**AC** 12, touch 10, flat-footed 12 (+2 armor)\
-**hp** 23 (3 HD; 1d6+2d10+9)\
-**Fort** +7, **Ref** +0, **Will** -1
+::: statblock
+AC: 12, touch 10, flat-footed 12 (+2 armor)
+hp: 23 (3 HD; 1d6+2d10+9)
+Fort: +7
+Ref: +0
+Will: -1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** club +3 (1d6+1) or dagger +3 (1d4+1/19-20)\
-**Ranged** club +2 (1d6+1) or dagger +2 (1d4+1/19-20)
+::: statblock
+Speed: 30 ft.
+Melee: club +3 (1d6+1) or dagger +3 (1d4+1/19-20)
+Ranged: club +2 (1d6+1) or dagger +2 (1d4+1/19-20)
+:::
 
 ### Statistics
 
-**Str** 13, **Dex** 11, **Con** 14, **Int** 10, **Wis** 9, **Cha** 8\
-**Base Atk** +2; **CMB** +3; **CMD** 13\
-**Feats** [Great Fortitude](ref/feat/great-fortitude),
-[Improved Bull Rush](ref/feat/improved-bull-rush), [Power Attack](ref/feat/power-attack)\
-**Skills** Climb +5, Handle Animal +4, Intimidate +5, Profession (choose one) +3, Ride +4, Swim +5\
-**Languages** Common\
-**Gear** [leather armor](ref/eq-armor/leather), [club](ref/eq-weapon/club),
-[dagger](ref/eq-weapon/dagger), [gallon jug of ale](ref/eq-misc/ale-gallon)\
-**Boon** A drunkard can be persuaded to make a loud, obnoxious disturbance as a distraction,
-imposing a -2 penalty on opposed Perception checks (as against Stealth or Sleight of Hand) for up to
-1 minute for any NPCs who can see and hear him.
+::: statblock
+Str: 13
+Dex: 11
+Con: 14
+Int: 10
+Wis: 9
+Cha: 8
+Base Atk: +2
+CMB: +3
+CMD: 13
+Feats: [Great Fortitude](ref/feat/great-fortitude), [Improved Bull Rush](ref/feat/improved-bull-rush), [Power Attack](ref/feat/power-attack)
+Skills: Climb +5, Handle Animal +4, Intimidate +5, Profession (choose one) +3, Ride +4, Swim +5
+Languages: Common
+Gear: [leather armor](ref/eq-armor/leather), [club](ref/eq-weapon/club), [dagger](ref/eq-weapon/dagger), [gallon jug of ale](ref/eq-misc/ale-gallon)
+Boon: A drunkard can be persuaded to make a loud, obnoxious disturbance as a distraction, imposing a -2 penalty on opposed Perception checks (as against Stealth or Sleight of Hand) for up to 1 minute for any NPCs who can see and hear him.
+:::
 
 ### Description
 

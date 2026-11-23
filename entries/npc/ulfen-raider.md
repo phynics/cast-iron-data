@@ -18,42 +18,59 @@ cr = "1/2"
 _This fur-clad and fiercely rugged barbarian stands ready to do battle with a deadly looking
 battleaxe clenched in one hand._
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [barbarian](ref/class/barbarian) 1\
-CN Medium humanoid (human)\
-**Init** +1; **Senses** Perception +5
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +1
+Senses: Perception +5
+:::
 
 ### Defense
 
-**AC** 17, touch 9, flat-footed 16 (+6 armor, +1 Dex, -2 rage, +2 shield)\
-**hp** 17 (1d12+5)\
-**Fort** +6, **Ref** +1, **Will** +3
+::: statblock
+AC: 17, touch 9, flat-footed 16 (+6 armor, +1 Dex, -2 rage, +2 shield)
+hp: 17 (1d12+5)
+Fort: +6
+Ref: +1
+Will: +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** battleaxe +6 (1d8+4/×3)\
-**Special Attacks** rage (6 rounds/day)
+::: statblock
+Speed: 30 ft.
+Melee: battleaxe +6 (1d8+4/×3)
+Special Attacks: rage (6 rounds/day)
+:::
 
 ### Statistics
 
-**Str** 19, **Dex** 12, **Con** 18, **Int** 10, **Wis** 13, **Cha** 8\
-**Base Atk** +1; **CMB** +5; **CMD** 14\
-**Feats** [Power Attack](ref/feat/power-attack), [Weapon Focus](ref/feat/weapon-focus) (battleaxe)\
-**Skills** Intimidate +3, Perception +5, Profession (sailor) +2, Survival +5, Swim +1\
-**Languages** Common, Skald\
-**SQ** fast movement
+::: statblock
+Str: 19
+Dex: 12
+Con: 18
+Int: 10
+Wis: 13
+Cha: 8
+Base Atk: +1
+CMB: +5
+CMD: 14
+Feats: [Power Attack](ref/feat/power-attack), [Weapon Focus](ref/feat/weapon-focus) (battleaxe)
+Skills: Intimidate +3, Perception +5, Profession (sailor) +2, Survival +5, Swim +1
+Languages: Common, Skald
+SQ: fast movement
+:::
 
 ### Ecology
 
-**Environment** any\
-**Organization** solitary, pair, or raiding party (2d6 Ulfen raiders and one longboat captain)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget)
-([chainmail](ref/eq-armor/chainmail), [heavy wooden shield](ref/eq-armor/heavy-wooden-shield),
-[battleaxe](ref/eq-weapon/battleaxe), potion of [cure light wounds](ref/spell/cure-light-wounds),
-other treasure)
+::: statblock
+Environment: any
+Organization: solitary, pair, or raiding party (2d6 Ulfen raiders and one longboat captain)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) ([chainmail](ref/eq-armor/chainmail), [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), [battleaxe](ref/eq-weapon/battleaxe), potion of [cure light wounds](ref/spell/cure-light-wounds), other treasure)
+:::
 
 ### Description
 

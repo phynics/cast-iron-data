@@ -15,27 +15,35 @@ kind = "creature"
 cr = "2"
 +++
 
-**Challenge rating:** 2
-
-**XP** 600\
 Human [monk](ref/class/monk) 3\
-LN Medium humanoid (human)\
-**Init** +5; **Senses** Perception +10
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +5
+Senses: Perception +10
+:::
 
 ### Defense
 
-**AC** 20, touch 16, flat-footed 18 (+4 armor, +1 Dex, +1 dodge, +4 Wis)\
-**hp** 20 (3d8+3)\
-**Fort** +4, **Ref** +4, **Will** +7; +2 vs. enchantments\
-**Defensive Abilities** [evasion](ref/ability/evasion)
+::: statblock
+AC: 20, touch 16, flat-footed 18 (+4 armor, +1 Dex, +1 dodge, +4 Wis)
+hp: 20 (3d8+3)
+Fort: +4
+Ref: +4
+Will: +7; +2 vs. enchantments
+Defensive Abilities: [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-**Speed** 40 ft.\
-**Melee** unarmed strike +5 (1d6+2) or nunchaku +4 (1d6+2) or unarmed strike flurry of blows +3/+3
-(1d6+2)\
-**Ranged** shuriken +3 (1d2+2)\
-**Special Attacks** flurry of blows, stunning fist (3/day, DC 15)
+::: statblock
+Speed: 40 ft.
+Melee: unarmed strike +5 (1d6+2) or nunchaku +4 (1d6+2) or unarmed strike flurry of blows +3/+3 (1d6+2)
+Ranged: shuriken +3 (1d2+2)
+Special Attacks: flurry of blows, stunning fist (3/day, DC 15)
+:::
 
 ### Tactics
 
@@ -49,21 +57,22 @@ Perception +8; **AC** 15, touch 14, flat-footed 13; **Wis** 15; **CMD** 18; **Sk
 
 ### Statistics
 
-**Str** 14, **Dex** 13, **Con** 12, **Int** 10, **Wis** 19, **Cha** 8\
-**Base Atk** +2; **CMB** +5; **CMD** 20\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge),
-[Improved Initiative](ref/feat/improved-initiative),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike),
-[Stunning Fist](ref/feat/stunning-fist), [Weapon Focus](ref/feat/weapon-focus) (unarmed strike)\
-**Skills** Acrobatics +7 (+11 when jumping), Climb +6, Intimidate +5, Perception +10, Sense Motive
-+10, Stealth +7, Survival +5, Swim +6\
-**SQ** fast movement, maneuver training\
-**Combat Gear** potions of [cure light wounds](ref/spell/cure-light-wounds) (3), potion of
-[mage armor](ref/spell/mage-armor), potion of [magic weapon](ref/spell/magic-weapon), potion of
-[owl's wisdom](ref/spell/owls-wisdom), [smokesticks](ref/eq-misc/smokestick) (3); **Other Gear**
-[dagger](ref/eq-weapon/dagger), [nunchaku](ref/eq-weapon/nunchaku),
-[shuriken](ref/eq-weapon/shuriken) (20),
-[bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), 30 gp
+::: statblock
+Str: 14
+Dex: 13
+Con: 12
+Int: 10
+Wis: 19
+Cha: 8
+Base Atk: +2
+CMB: +5
+CMD: 20
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge), [Improved Initiative](ref/feat/improved-initiative), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Stunning Fist](ref/feat/stunning-fist), [Weapon Focus](ref/feat/weapon-focus) (unarmed strike)
+Skills: Acrobatics +7 (+11 when jumping), Climb +6, Intimidate +5, Perception +10, Sense Motive +10, Stealth +7, Survival +5, Swim +6
+SQ: fast movement, maneuver training
+Combat Gear: potions of [cure light wounds](ref/spell/cure-light-wounds) (3), potion of [mage armor](ref/spell/mage-armor), potion of [magic weapon](ref/spell/magic-weapon), potion of [owl's wisdom](ref/spell/owls-wisdom), [smokesticks](ref/eq-misc/smokestick) (3)
+Other Gear: [dagger](ref/eq-weapon/dagger), [nunchaku](ref/eq-weapon/nunchaku), [shuriken](ref/eq-weapon/shuriken) (20), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), 30 gp
+:::
 
 ### Description
 
