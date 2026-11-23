@@ -360,6 +360,41 @@ PRINT_FIXES = (
         (('price = "+1,500 gp **Weight** +1 lb."\n', 'price = "+1,500 gp"\n'),),
     ),
     (
+        "entries/magic-piercing/body-piercings-minor.md",
+        "Champions of Corruption p. 28",
+        "aura `faint transmutation` and caster level `3rd`; the import ran them together",
+        (
+            ('aura = "faint transmutation CL 3rd"\n', 'aura = "faint transmutation"\ncaster_level = "3rd"\n'),
+            ("\nAura: faint transmutation CL 3rd\n", "\nAura: faint transmutation\nCL: 3rd\n"),
+        ),
+    ),
+    (
+        "entries/magic-wondrous/slashing-cloak.md",
+        "Ultimate Equipment p. 268",
+        "Construction: the cost printed once; the import left `; Cost 10,000 gp` twice",
+        (
+            (
+                "[blade barrier](ref/spell/blade-barrier); **Cost** 10,000 gp; **Cost** 10,000 gp\n",
+                "[blade barrier](ref/spell/blade-barrier); **Cost** 10,000 gp\n",
+                # The same line once the item pass has made it rows.
+                "\nRequirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blade barrier](ref/spell/blade-barrier)\n"
+                "Cost: 10,000 gp\n:::\n",
+            ),
+        ),
+    ),
+    (
+        "entries/magic-armor/planar-invasion-shield.md",
+        "Ultimate Equipment p. 349",
+        "Construction: the intended item `absorbing shield` as a link, without the emphasis that held the `;`",
+        (
+            (
+                "**Requirements** _absorbing shield;_ **Cost** -\n",
+                "**Requirements** [absorbing shield](ref/magic-armor/absorbing-shield); **Cost** -\n",
+                "\nRequirements: [absorbing shield](ref/magic-armor/absorbing-shield)\nCost: -\n:::\n",
+            ),
+        ),
+    ),
+    (
         "entries/npc/winter-witch-cold-sister.md",
         "Irrisen, Land of Eternal Winter p. 62",
         "Spell-Like Abilities concentration: `+7`; the import left `+7s`",

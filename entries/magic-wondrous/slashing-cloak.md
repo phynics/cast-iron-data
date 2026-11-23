@@ -20,8 +20,13 @@ aura = "faint illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion and transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion and transmutation
+CL: 5th
+Slot: shoulders
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 This thick burgundy cloak is trimmed with [mithral](ref/eq-material/mithral) plates and cut to fit
 handsomely over heavy armor. As a full-round action, the wearer can spin in his space, damaging each
@@ -32,5 +37,7 @@ weapon property to the cloak's cost.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blade barrier](ref/spell/blade-barrier); **Cost** 10,000 gp; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blade barrier](ref/spell/blade-barrier)
+Cost: 10,000 gp
+:::
