@@ -53,20 +53,50 @@ Category: Close Assault
 Proficiency: Siege Engine
 :::
 
-**Huge**\
-**Cost** 500 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 6; **Aim** 0; **Load** 0; **Speed** 15 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Huge"
+Cost: 500 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 6
+Aim: 0
+Load: 0
+Speed: 15 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
-**Gargantuan**\
-**Cost** 1,000 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 9; **Aim** 0; **Load** 0; **Speed** 15 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Gargantuan"
+Cost: 1,000 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 9
+Aim: 0
+Load: 0
+Speed: 15 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
-**Colossal**\
-**Cost** 2,000 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 18; **Aim** 0; **Load** 0; **Speed** 15 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Colossal"
+Cost: 2,000 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 18
+Aim: 0
+Load: 0
+Speed: 15 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::

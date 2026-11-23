@@ -42,26 +42,66 @@ and a Colossal one has 1,250 hit points.
 |Gargantuan|50|
 |Colossal|200|
 
-**Large**\
-**Cost** 1,000 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 6; **Aim** 0; **Load** 0; **Speed** 15 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Large"
+Cost: 1,000 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 6
+Aim: 0
+Load: 0
+Speed: 15 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
-**Huge**\
-**Cost** 2,000 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 12; **Aim** 0; **Load** 0; **Speed** 15 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Huge"
+Cost: 2,000 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 12
+Aim: 0
+Load: 0
+Speed: 15 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
-**Gargantuan**\
-**Cost** 5,000 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 24; **Aim** 0; **Load** 0; **Speed** 15 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Gargantuan"
+Cost: 5,000 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 24
+Aim: 0
+Load: 0
+Speed: 15 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
-**Colossal**\
-**Cost** 10,000 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 48; **Aim** 0; **Load** 0; **Speed** 15 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Colossal"
+Cost: 10,000 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 48
+Aim: 0
+Load: 0
+Speed: 15 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::

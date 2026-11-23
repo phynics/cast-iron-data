@@ -33,26 +33,66 @@ Escalade ladders cannot be armored.
 |Gargantuan|10 ft.|40 ft.|
 |Colossal|10 ft.|60 ft.|
 
-**Large**\
-**Cost** 5 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 2; **Aim** 0; **Load** 0; **Speed** 0 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Large"
+Cost: 5 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 2
+Aim: 0
+Load: 0
+Speed: 0 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
-**Huge**\
-**Cost** 10 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 4; **Aim** 0; **Load** 0; **Speed** 0 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Huge"
+Cost: 10 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 4
+Aim: 0
+Load: 0
+Speed: 0 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
-**Gargantuan**\
-**Cost** 50 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 6; **Aim** 0; **Load** 0; **Speed** 0 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Gargantuan"
+Cost: 50 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 6
+Aim: 0
+Load: 0
+Speed: 0 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
-**Colossal**\
-**Cost** 250 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 8; **Aim** 0; **Load** 0; **Speed** 0 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+title = "Colossal"
+Cost: 250 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 8
+Aim: 0
+Load: 0
+Speed: 0 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
