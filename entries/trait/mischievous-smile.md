@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "divine-anthology"
+page = "17"
 
 [fields]
 kind = "trait"

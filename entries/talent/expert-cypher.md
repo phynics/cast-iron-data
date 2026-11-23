@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "divine-anthology"
+page = "7"
 
 [fields]
 kind = "class_option"

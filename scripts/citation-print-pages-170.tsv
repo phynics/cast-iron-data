@@ -673,6 +673,7 @@ ref/trait/master-messenger	adventurers-armory-2	3	print
 ref/trait/mastery-of-form	blood-of-the-moon	7	print	
 ref/trait/mechanical-aptitude	blood-of-the-ancients	19	print	
 ref/trait/merabian-mentorship	blood-of-the-elements	11	print	
+ref/trait/mischievous-smile	divine-anthology	17	print		the religion trait is printed on this page as Mischievous Smite (Chaldira Zuzaristan); the entry title reads Mischievous Smile
 ref/trait/motherless	blood-of-fiends	30	print	
 ref/trait/naturalist	blood-of-the-ancients	11	print	
 ref/trait/nauseating-spit	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
@@ -3218,7 +3219,7 @@ ref/talent/disease-use	blood-of-the-moon	19	print
 ref/talent/dispelling-attack	core-rulebook	70	print		title text only (no heading form): the name is on page 70 and on none of the two pages each side
 ref/talent/eerie-disappearance	heroes-of-the-streets	26	print	
 ref/talent/emboldening-strike	blood-of-shadows	8	print		title text only (no heading form): the name is on page 8 and on none of the two pages each side
-ref/talent/expert-cypher	divine-anthology		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/expert-cypher	divine-anthology	7	print		the rogue talent is printed on this page as Expert Cipher (Ex); the entry title reads Expert Cypher
 ref/talent/extinguishing-strike	blood-of-shadows	8	print		title text only (no heading form): the name is on page 8 and on none of the two pages each side
 ref/talent/extra-earthcraft	elemental-masters-handbook	9	print	
 ref/talent/face-in-the-crowd	blood-of-the-moon	19	print	
