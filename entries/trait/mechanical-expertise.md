@@ -7,6 +7,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mechanical_expertise", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "3"
 
 [fields]
 kind = "trait"

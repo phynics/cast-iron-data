@@ -7,6 +7,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_fighter", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "23"
 
 [fields]
 kind = "trait"

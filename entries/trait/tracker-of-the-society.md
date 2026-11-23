@@ -7,6 +7,12 @@ source_ids = ["shattered-star-players-guide", "faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tracker_of_the_society", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "shattered-star-players-guide"
+page = "5"
+[[sources]]
+publication = "faction-guide"
+page = "62"
 
 [fields]
 kind = "trait"

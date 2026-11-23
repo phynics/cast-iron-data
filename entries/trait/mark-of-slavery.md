@@ -7,6 +7,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_slavery", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "22"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,9 @@ source_ids = ["kingmaker-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_scion", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "kingmaker-players-guide"
+page = "12"
 
 [fields]
 kind = "trait"

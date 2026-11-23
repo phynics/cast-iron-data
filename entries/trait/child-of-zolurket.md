@@ -7,6 +7,9 @@ source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_zolurket", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "7"
 
 [fields]
 kind = "trait"

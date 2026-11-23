@@ -7,6 +7,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mana_wastes_medic", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "10"
 
 [fields]
 kind = "trait"

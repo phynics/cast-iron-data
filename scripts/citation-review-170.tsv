@@ -108,9 +108,9 @@ ref/carried/bestiary-2/monsters/bee/giant/special-abilities/poison/giant-bee-ven
 ref/carried/bestiary-2/monsters/catoblepas/special-abilities/poison-breath/catoblepas-venom	affliction	bestiary-2	coarse	52	the proposal is a section or parent page
 ref/carried/bestiary-2/monsters/centipede/giant-whiptail/special-abilities/poison/giant-whiptail-centipede-venom	affliction	bestiary-2	no-page		
 ref/carried/bestiary-2/monsters/centipede/titan/special-abilities/poison/titan-centipede-venom	affliction	bestiary-2	coarse	266	the proposal is a section or parent page
-ref/carried/bestiary-2/monsters/daemon/cacodaemon/special-abilities/disease/cacodaemonia	affliction	bestiary-2	ambiguous		several pages proposed
-ref/carried/bestiary-2/monsters/daemon/meladaemon/special-abilities/disease/daemonic-wasting	affliction	bestiary-2	ambiguous		several pages proposed
-ref/carried/bestiary-2/monsters/daemon/piscodaemon/special-abilities/poison/piscodaemon-venom	affliction	bestiary-2	ambiguous		several pages proposed
+ref/carried/bestiary-2/monsters/daemon/cacodaemon/special-abilities/disease/cacodaemonia	affliction	bestiary-2	ambiguous	62,306	several pages proposed
+ref/carried/bestiary-2/monsters/daemon/meladaemon/special-abilities/disease/daemonic-wasting	affliction	bestiary-2	ambiguous	62,306	several pages proposed
+ref/carried/bestiary-2/monsters/daemon/piscodaemon/special-abilities/poison/piscodaemon-venom	affliction	bestiary-2	ambiguous	62,306	several pages proposed
 ref/carried/bestiary-2/monsters/death-worm/special-abilities/poison/death-worm-venom	affliction	bestiary-2	coarse	76	the proposal is a section or parent page
 ref/carried/bestiary-2/monsters/devil/accuser/special-abilities/disease/devil-chills/accuser-devil	affliction	bestiary-2	coarse	307	the proposal is a section or parent page
 ref/carried/bestiary-2/monsters/devilfish/special-abilities/poison/devilfish-venom	affliction	bestiary-2	coarse	88	the proposal is a section or parent page
@@ -123,8 +123,8 @@ ref/carried/bestiary-2/monsters/leng-spider/special-abilities/poison/leng-spider
 ref/carried/bestiary-2/monsters/mandragora/special-abilities/poison/mandragora-venom	affliction	bestiary-2	coarse	185	the proposal is a section or parent page
 ref/carried/bestiary-2/monsters/neh-thalggu/special-abilities/poison/neh-thalggu-venom	affliction	bestiary-2	coarse	197	the proposal is a section or parent page
 ref/carried/bestiary-2/monsters/nereid/special-abilities/poison/nereid-poison	affliction	bestiary-2	coarse	198	the proposal is a section or parent page
-ref/carried/bestiary-2/monsters/nightshade/nightcrawler/special-abilities/poison/nightshade-venom	affliction	bestiary-2	ambiguous		several pages proposed
-ref/carried/bestiary-2/monsters/qlippoth/chernobue/special-abilities/poison/chernobue-venom	affliction	bestiary-2	ambiguous		several pages proposed
+ref/carried/bestiary-2/monsters/nightshade/nightcrawler/special-abilities/poison/nightshade-venom	affliction	bestiary-2	ambiguous	199,308	several pages proposed
+ref/carried/bestiary-2/monsters/qlippoth/chernobue/special-abilities/poison/chernobue-venom	affliction	bestiary-2	ambiguous	218,308	several pages proposed
 ref/carried/bestiary-2/monsters/ray/stingray/special-abilities/poison/sting-ray-venom	affliction	bestiary-2	no-page		
 ref/carried/bestiary-2/monsters/reefclaw/special-abilities/poison/reefclaw-venom	affliction	bestiary-2	coarse	234	the proposal is a section or parent page
 ref/carried/bestiary-2/monsters/sard/special-abilities/poison/sard-venom	affliction	bestiary-2	coarse	237	the proposal is a section or parent page
@@ -140,15 +140,15 @@ ref/carried/bestiary-2/monsters/tenebrous-worm/special-abilities/poison/tenebrou
 ref/carried/bestiary-2/monsters/tentamort/special-abilities/poison/tentamort-venom	affliction	bestiary-2	coarse	261	the proposal is a section or parent page
 ref/carried/bestiary-2/monsters/toad/giant/special-abilities/poison-skin/toad-venom	affliction	bestiary-2	coarse	307	the proposal is a section or parent page
 ref/carried/bestiary-3/monsters/ascomoid/special-abilities/poison/ascomoid-spores	affliction	bestiary-3	coarse	20	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/asura/aghasura/special-abilities/poison/aghasura-venom	affliction	bestiary-3	ambiguous		several pages proposed
-ref/carried/bestiary-3/monsters/asura/asurendra/special-abilities/poison/asurendra-venom	affliction	bestiary-3	ambiguous		several pages proposed
-ref/carried/bestiary-3/monsters/asura/tripurasura/special-abilities/poison/tripurasura-venom	affliction	bestiary-3	ambiguous		several pages proposed
+ref/carried/bestiary-3/monsters/asura/aghasura/special-abilities/poison/aghasura-venom	affliction	bestiary-3	ambiguous	21,304	several pages proposed
+ref/carried/bestiary-3/monsters/asura/asurendra/special-abilities/poison/asurendra-venom	affliction	bestiary-3	ambiguous	21,304	several pages proposed
+ref/carried/bestiary-3/monsters/asura/tripurasura/special-abilities/poison/tripurasura-venom	affliction	bestiary-3	ambiguous	21,304	several pages proposed
 ref/carried/bestiary-3/monsters/bandersnatch/variant-bandersnatches/confounding-bandersnatch-1-cr/confounding-bandersnatch-venom	affliction	bestiary-3	coarse	32	the proposal is a section or parent page
 ref/carried/bestiary-3/monsters/deathweb/special-abilities/poison/deathweb-venom	affliction	bestiary-3	coarse	65	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/div/doru/special-abilities/poison/doru-venom	affliction	bestiary-3	ambiguous		several pages proposed
-ref/carried/bestiary-3/monsters/div/ghawwas/special-abilities/poison/ghawwas-venom	affliction	bestiary-3	ambiguous		several pages proposed
-ref/carried/bestiary-3/monsters/div/pairaka/special-abilities/disease/pairaka-bubonic-plague	affliction	bestiary-3	ambiguous		several pages proposed
-ref/carried/bestiary-3/monsters/div/pairaka/special-abilities/disease/pairaka-shakes	affliction	bestiary-3	ambiguous		several pages proposed
+ref/carried/bestiary-3/monsters/div/doru/special-abilities/poison/doru-venom	affliction	bestiary-3	ambiguous	82,305	several pages proposed
+ref/carried/bestiary-3/monsters/div/ghawwas/special-abilities/poison/ghawwas-venom	affliction	bestiary-3	ambiguous	82,305	several pages proposed
+ref/carried/bestiary-3/monsters/div/pairaka/special-abilities/disease/pairaka-bubonic-plague	affliction	bestiary-3	ambiguous	82,305	several pages proposed
+ref/carried/bestiary-3/monsters/div/pairaka/special-abilities/disease/pairaka-shakes	affliction	bestiary-3	ambiguous	82,305	several pages proposed
 ref/carried/bestiary-3/monsters/fey-creature/special-abilities/poison-skin/fey-giant-toad-venom	affliction	bestiary-3	no-page		
 ref/carried/bestiary-3/monsters/girtablilu/special-abilities/poison/girtablilu-venom	affliction	bestiary-3	coarse	130	the proposal is a section or parent page
 ref/carried/bestiary-3/monsters/huecuva/special-abilities/disease/filth-fever/huecuva	affliction	bestiary-3	coarse	150	the proposal is a section or parent page
@@ -164,7 +164,7 @@ ref/carried/bestiary-3/monsters/megafauna/megalania/special-abilities/poison/meg
 ref/carried/bestiary-3/monsters/naga/lunar/special-abilities/poison/lunar-naga-venom	affliction	bestiary-3	no-page		
 ref/carried/bestiary-3/monsters/naga/water/special-abilities/poison/water-naga-venom	affliction	bestiary-3	coarse	308	the proposal is a section or parent page
 ref/carried/bestiary-3/monsters/nue/special-abilities/poison/nue-venom	affliction	bestiary-3	coarse	204	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/oni/spirit/special-abilities/poison/spirit-oni-venom	affliction	bestiary-3	ambiguous		several pages proposed
+ref/carried/bestiary-3/monsters/oni/spirit/special-abilities/poison/spirit-oni-venom	affliction	bestiary-3	ambiguous	205,307	several pages proposed
 ref/carried/bestiary-3/monsters/parasite/giant-rot-grub/special-abilities/poison/giant-rot-grub-venom	affliction	bestiary-3	no-page		
 ref/carried/bestiary-3/monsters/pukwudgie/special-abilities/poison/pukwudgie-venom	affliction	bestiary-3	coarse	223	the proposal is a section or parent page
 ref/carried/bestiary-3/monsters/rakshasa/raktavarna/special-abilities/poison/raktavarna-rakshasa-venom	affliction	bestiary-3	coarse	224	the proposal is a section or parent page
@@ -184,12 +184,12 @@ ref/carried/bestiary/monsters/centipede/giant/special-abilities/poison-ex/giant-
 ref/carried/bestiary/monsters/couatl/special-abilities/poison/couatl-venom	affliction	bestiary	coarse	49	the proposal is a section or parent page
 ref/carried/bestiary/monsters/dark-creeper/special-abilities/poison-use/black-smear/dark-creeper	affliction	bestiary	no-page		
 ref/carried/bestiary/monsters/dark-stalker/special-abilities/poison-use/black-smear/dark-stalker	affliction	bestiary	no-page		
-ref/carried/bestiary/monsters/demon/quasit/special-abilities/poison/quasit-poison	affliction	bestiary	ambiguous		several pages proposed
-ref/carried/bestiary/monsters/devil/bearded/special-abilities/beard/devil-chills/bearded-devil	affliction	bestiary	ambiguous		several pages proposed
-ref/carried/bestiary/monsters/devil/bone/special-abilities/poison/bone-devil-venom	affliction	bestiary	ambiguous		several pages proposed
-ref/carried/bestiary/monsters/devil/imp/special-abilities/poison/imp-venom	affliction	bestiary	ambiguous		several pages proposed
-ref/carried/bestiary/monsters/devil/pit-fiend/pit-fiend/special-abilities/disease/devil-chills/pit-fiend	affliction	bestiary	ambiguous		several pages proposed
-ref/carried/bestiary/monsters/devil/pit-fiend/pit-fiend/special-abilities/poison/pit-fiend-venom	affliction	bestiary	ambiguous		several pages proposed
+ref/carried/bestiary/monsters/demon/quasit/special-abilities/poison/quasit-poison	affliction	bestiary	ambiguous	57,311	several pages proposed
+ref/carried/bestiary/monsters/devil/bearded/special-abilities/beard/devil-chills/bearded-devil	affliction	bestiary	ambiguous	72,311	several pages proposed
+ref/carried/bestiary/monsters/devil/bone/special-abilities/poison/bone-devil-venom	affliction	bestiary	ambiguous	72,311	several pages proposed
+ref/carried/bestiary/monsters/devil/imp/special-abilities/poison/imp-venom	affliction	bestiary	ambiguous	72,311	several pages proposed
+ref/carried/bestiary/monsters/devil/pit-fiend/pit-fiend/special-abilities/disease/devil-chills/pit-fiend	affliction	bestiary	ambiguous	72,311	several pages proposed
+ref/carried/bestiary/monsters/devil/pit-fiend/pit-fiend/special-abilities/poison/pit-fiend-venom	affliction	bestiary	ambiguous	72,311	several pages proposed
 ref/carried/bestiary/monsters/drider/special-abilities/poison/drider-venom	affliction	bestiary	no-page		
 ref/carried/bestiary/monsters/ettercap/special-abilities/poison/ettercap-venom	affliction	bestiary	coarse	129	the proposal is a section or parent page
 ref/carried/bestiary/monsters/familiar/viper/special-abilities/poison/viper-venom	affliction	bestiary	coarse	131	the proposal is a section or parent page
@@ -1068,26 +1068,61 @@ ref/racial-trait/human/skilled	racial_trait	ultimate-intrigue	book-differs		the 
 ref/racial-trait/human/skilled	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan	trait	advanced-players-guide	no-page		
 ref/trait/abject-belief	trait	faiths-and-philosophies	page-format	0	
+ref/trait/absolute-loyalty	trait	knights-of-the-inner-sea	page-format	0	
+ref/trait/affinity-for-the-elements	trait	faiths-of-corruption	unconfirmed	19	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/best-customer	trait	jade-regent-players-guide	book-differs		the reference lists the entry only in other books
+ref/trait/blessed-mutt	trait	wilderness-origins	no-page		
 ref/trait/born-free	trait	faiths-and-philosophies	page-format	0	
 ref/trait/bound-by-honor	trait	faiths-and-philosophies	page-format	0	
+ref/trait/calistrian-courtesan	trait	elves-of-golarion	unconfirmed	15	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/chosen-of-iomedae	trait	champions-of-purity	unconfirmed	13	title not found on the proposed page or the two pages around it
+ref/trait/clamber	trait	wilderness-origins	no-page		
 ref/trait/crisis-of-faith	trait	faiths-and-philosophies	page-format	0	
+ref/trait/daring-doomsayer	trait	second-darkness-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	cheliax-empire-of-devils	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	ultimate-campaign	book-differs		the reference lists the entry only in other books
+ref/trait/demonblight-reistance	trait	people-of-the-wastes	unconfirmed	3	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/desert-child	trait	inner-sea-primer	book-differs		the reference lists the entry only in other books
 ref/trait/devout-visionary	trait	faiths-and-philosophies	page-format	0	
 ref/trait/divine-denier	trait	faiths-and-philosophies	page-format	0	
+ref/trait/dockside-avenger	trait	curse-of-the-crimson-throne-players-guide	book-differs		the reference lists the entry only in other books
+ref/trait/dueling-cloak-adept	trait	knights-of-the-inner-sea	page-format	0	
 ref/trait/elven-polytheist	trait	faiths-of-purity	unconfirmed	20	title not found on the proposed page or the two pages around it
+ref/trait/elven-reflexes	trait	legacy-of-fire-players-guide	book-differs		the reference lists the entry only in other books
+ref/trait/emberkin-imposter	trait	qadira-jewel-of-the-east	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/favored-son-or-daughter	trait	advanced-players-guide	no-page		
+ref/trait/fixer-of-odds	trait	second-darkness-players-guide	book-differs		the reference lists the entry only in other books
+ref/trait/foreign-tongued	trait	jade-regent-players-guide	book-differs		the reference lists the entry only in other books
+ref/trait/goblin-bravery	trait	goblins-of-golarion	book-differs		the reference lists the entry only in other books
+ref/trait/godclaw-disciple	trait	path-of-the-hellknight	unconfirmed	56	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/hellknight-inquisitor	trait	path-of-the-hellknight	unconfirmed	56	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/influence	trait	ultimate-campaign	unconfirmed	60	title is a common word: it is on the proposed page and the one before, and as a heading on another page, so the page is not settled
+ref/trait/inspiring-rush	trait	knights-of-the-inner-sea	page-format	0	
 ref/trait/mischievous-smile	trait	divine-anthology	no-page		
 ref/trait/monastic	trait	faiths-and-philosophies	page-format	0	
 ref/trait/nature-worshiper	trait	faiths-and-philosophies	page-format	0	
+ref/trait/nauseating-spit	trait	wilderness-origins	no-page		
+ref/trait/portentous-perception	trait	second-darkness-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/proxy-of-many	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
+ref/trait/questing-hellknight	trait	path-of-the-hellknight	unconfirmed	56	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/running-pig	trait	wilderness-origins	no-page		
+ref/trait/sandpoint-faithful	trait	rise-of-the-runelords-anniversary-edition-players-guide	book-differs		the reference lists the entry only in other books
+ref/trait/savage-breaker	trait	ultimate-equipment	book-differs		the reference lists the entry only in other books
+ref/trait/savanna-child	trait	legacy-of-fire-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/scourge-of-the-seas	trait	inner-sea-npc-codex	book-differs		the reference lists the entry only in other books
 ref/trait/self-actualization	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
+ref/trait/sodden-chld	trait	people-of-the-wastes	unconfirmed	3	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/steel-skin	trait	knights-of-the-inner-sea	page-format	0	
+ref/trait/thrill-seeker-rotr	trait	rise-of-the-runelords-anniversary-edition-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/totemist	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/trait/traditionalist	trait	divine-anthology	book-differs		the reference lists the entry only in other books
 ref/trait/traditionalist	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
+ref/trait/treerazers-bane	trait	elves-of-golarion	no-page		
+ref/trait/treerazers-bane	trait	inner-sea-primer	no-page		
+ref/trait/underlying-principles	trait	faiths-of-balance	unconfirmed	15	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/varisian-immunity	trait	curse-of-the-crimson-throne-players-guide	book-differs		the reference lists the entry only in other books
+ref/trait/wasteland-vargrant	trait	people-of-the-wastes	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/wendifa-apprentice	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/trait/zealots-bearing	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/acid-drop-trap	trap	monster-codex	no-page		

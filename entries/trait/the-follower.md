@@ -7,6 +7,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_follower", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "37"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,12 @@ source_ids = ["qadira-jewel-of-the-east", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watching_taldor", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "9"
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "9"
 
 [fields]
 kind = "trait"

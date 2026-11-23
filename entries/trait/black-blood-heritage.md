@@ -7,6 +7,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_blood_heritage", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "19"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,9 @@ source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrune_loyal_agent", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "pathfinder-104-wrath-of-thrune"
+page = "6"
 
 [fields]
 kind = "trait"

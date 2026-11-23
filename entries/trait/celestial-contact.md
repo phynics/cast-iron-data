@@ -7,6 +7,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_contact", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "197"
 
 [fields]
 kind = "trait"
