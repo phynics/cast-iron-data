@@ -13,7 +13,7 @@ page = "10"
 [fields]
 kind = "item"
 category = "Weapon Modifications"
-price = "+1,500 gp **Weight** +1 lb."
+price = "+1,500 gp"
 weight = "+1 lb."
 +++
 

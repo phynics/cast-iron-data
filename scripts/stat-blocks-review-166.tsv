@@ -1,0 +1,73 @@
+path	pass	reason	detail
+entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
+entries/monster/aether-elemental.md	creature	section-after-heading	6 Challenge rating lines
+entries/monster/air-elemental.md	creature	section-after-heading	7 Challenge rating lines
+entries/monster/akata.md	creature	section-after-heading	2 Challenge rating lines
+entries/monster/benaioh.md	creature	section-after-heading	2 Challenge rating lines
+entries/monster/bog-strider.md	creature	print-254	tremorParens: in water
+entries/monster/boggard-boggard-abyssal-warrior.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-brute.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-champion.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-farcroaker.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-hunter.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-priest-king.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-prophet.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-savage.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-scarred-one.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-stalker.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard-boggard-swampseer.md	creature	multi-label-paragraph	Subtype
+entries/monster/boggard.md	creature	multi-label-paragraph	Subtype
+entries/monster/brambleblight.md	creature	section-after-heading	Offense
+entries/monster/cauldron-bloom.md	creature	print-254	tremorParens: 1 mile
+entries/monster/charau-ka-devotee-of-the-ravener-king.md	creature	multi-label-paragraph	Subtype
+entries/monster/charau-ka-jungle-trickster.md	creature	multi-label-paragraph	Subtype
+entries/monster/charau-ka-simian-sharpshooter.md	creature	multi-label-paragraph	Subtype
+entries/monster/charau-ka.md	creature	multi-label-paragraph	Subtype
+entries/monster/dhampir.md	creature	multi-label-paragraph	Subtype
+entries/monster/draugr.md	creature	section-after-heading	2 Challenge rating lines
+entries/monster/duergar-duergar-tyrant.md	creature	multi-label-paragraph	Kineticist Wild Talents Known:
+entries/monster/earth-elemental.md	creature	section-after-heading	6 Challenge rating lines
+entries/monster/elemental-lord-ymeri.md	creature	print-fix	melee: `flaming burst` where the import left `EFB` (Planes of Power p. 54)
+entries/monster/ettercap.md	creature	section-after-heading	4 Challenge rating lines
+entries/monster/fire-elemental.md	creature	section-after-heading	6 Challenge rating lines
+entries/monster/gnoll-chosen-of-lamashtu.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-eye-of-lamashtu.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-flind.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-gnoll-bouda.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-gnoll-bruiser.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-gnoll-lieutenant.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-gnoll-packlord.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-gnoll-rageborn.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-gnoll-ravager.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-gnoll-sergeant.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll-gnoll-warden.md	creature	multi-label-paragraph	Subtype
+entries/monster/gnoll.md	creature	multi-label-paragraph	Subtype
+entries/monster/goblin-goblin-vulture-pilot.md	creature	section-after-heading	2 Challenge rating lines
+entries/monster/herald-gravedragger.md	creature	print-254	othersubs: Herald
+entries/monster/herald-great-elder-iuu.md	creature	print-254	othersubs: Herald
+entries/monster/herald-latten-mechanism.md	creature	print-254	othersubs: Herald
+entries/monster/herd-animal-oxen.md	creature	multi-label-paragraph	Sources
+entries/monster/ice-elemental.md	creature	section-after-heading	6 Challenge rating lines
+entries/monster/kuru.md	creature	multi-label-paragraph	Subtype
+entries/monster/lashunta.md	creature	multi-label-paragraph	Subtype
+entries/monster/lich-forsaken-lich.md	creature	print-254	augment: Humanoid
+entries/monster/lightning-elemental.md	creature	section-after-heading	6 Challenge rating lines
+entries/monster/magma-elemental.md	creature	section-after-heading	6 Challenge rating lines
+entries/monster/mephit.md	creature	multi-label-paragraph	Subtype
+entries/monster/moit-of-shub-niggurath-spawning-canker.md	creature	section-after-heading	2 Challenge rating lines
+entries/monster/mud-elemental.md	creature	section-after-heading	6 Challenge rating lines
+entries/monster/mummy-lord.md	creature	multi-label-paragraph	Subtype
+entries/monster/oni-yamabushi-tengu.md	creature	print-254	othersubs: Tengu
+entries/monster/ship-in-a-bottle.md	creature	section-after-heading	2 Challenge rating lines
+entries/monster/skulk.md	creature	multi-label-paragraph	Subtype
+entries/monster/strix-itaraak-champion.md	creature	multi-label-paragraph	Subtype
+entries/monster/strix-strix-infiltrator.md	creature	multi-label-paragraph	Subtype
+entries/monster/strix-strix-rokoa.md	creature	multi-label-paragraph	Subtype
+entries/monster/strix-strix-voyager.md	creature	multi-label-paragraph	Subtype
+entries/monster/strix.md	creature	multi-label-paragraph	Subtype
+entries/monster/stygira.md	creature	print-254	blindsightParens: 120 ft. with green eyes), _[true seeing](ref/spell/true-seeing)_ (with gem eye
+entries/monster/syrinx.md	creature	multi-label-paragraph	Subtype
+entries/monster/tengu.md	creature	multi-label-paragraph	Subtype
+entries/monster/triaxian.md	creature	print-254	othersubs: Triaxian
+entries/monster/waldgeist.md	creature	section-after-heading	2 Challenge rating lines
+entries/monster/water-elemental.md	creature	section-after-heading	6 Challenge rating lines
