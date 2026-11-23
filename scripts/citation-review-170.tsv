@@ -2,8 +2,6 @@ entry_id	kind	publication	reason	candidate_page	note
 ref/affliction/adaro/nettlefin-toxin	affliction	pathfinder-38-racing-to-ruin	coarse	80	the proposal is a section or parent page
 ref/affliction/akata/void-death	affliction	pathfinder-14-children-of-the-void	coarse	80	the proposal is a section or parent page
 ref/affliction/ammut/wasting-curse-su	affliction	pathfinder-84-pyramid-of-the-sky-pharaoh	coarse	82	the proposal is a section or parent page
-ref/affliction/asura-asurendra/curse-of-false-wisdom-su	affliction	bestiary-3	no-page		
-ref/affliction/asura-asurendra/poison-ex	affliction	bestiary-3	no-page		
 ref/affliction/automaton-familiar-automaton/arcane-fever	affliction	construct-handbook	coarse	24	the proposal is a section or parent page
 ref/affliction/benaioh/wormrot	affliction	pathfinder-93-forge-of-the-giant-god	no-page		
 ref/affliction/black-shuck/shucks-kiss	affliction	pathfinder-129-the-twilight-child	coarse	82	the proposal is a section or parent page
@@ -18,12 +16,9 @@ ref/affliction/daemonic-harbinger-braismois/poison-1-broken-oath	affliction	drum
 ref/affliction/daemonic-harbinger-braismois/poison-2-promise-of-power	affliction	druma-profit-and-prophecy	no-page		
 ref/affliction/daemonic-harbinger-braismois/poison-3-silence	affliction	druma-profit-and-prophecy	no-page		
 ref/affliction/daughter-of-urgathoa/bubonic-plague	affliction	pathfinder-8-seven-days-to-the-grave	coarse	82	the proposal is a section or parent page
-ref/affliction/demon-schir/gray-pox	affliction	bestiary-3	no-page		
 ref/affliction/devil-rust-devil-ferrugon/scarlet-tetanus	affliction	pathfinder-101-the-kintargo-contract	coarse	82	the proposal is a section or parent page
 ref/affliction/disease/disease-name-ex-or-su	affliction	bestiary-5	no-page		
-ref/affliction/div-pairaka/bubonic-plague	affliction	bestiary-3	no-page		
 ref/affliction/div-pairaka/bubonic-plague	affliction	pathfinder-20-house-of-the-beast	no-page		
-ref/affliction/div-pairaka/shakes	affliction	bestiary-3	no-page		
 ref/affliction/div-pairaka/shakes	affliction	pathfinder-20-house-of-the-beast	no-page		
 ref/affliction/drakainia/poison-glands-poison	affliction	bestiary-4	no-page		
 ref/affliction/drekavac/bubonic-plague	affliction	pathfinder-31-stolen-land	coarse	78	the proposal is a section or parent page
@@ -139,46 +134,6 @@ ref/carried/bestiary-2/monsters/swarm/jellyfish/special-abilities/poison/jellyfi
 ref/carried/bestiary-2/monsters/tenebrous-worm/special-abilities/poison/tenebrous-worm-venom	affliction	bestiary-2	coarse	260	the proposal is a section or parent page
 ref/carried/bestiary-2/monsters/tentamort/special-abilities/poison/tentamort-venom	affliction	bestiary-2	coarse	261	the proposal is a section or parent page
 ref/carried/bestiary-2/monsters/toad/giant/special-abilities/poison-skin/toad-venom	affliction	bestiary-2	coarse	307	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/ascomoid/special-abilities/poison/ascomoid-spores	affliction	bestiary-3	coarse	20	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/asura/aghasura/special-abilities/poison/aghasura-venom	affliction	bestiary-3	ambiguous	21,304	several pages proposed
-ref/carried/bestiary-3/monsters/asura/asurendra/special-abilities/poison/asurendra-venom	affliction	bestiary-3	ambiguous	21,304	several pages proposed
-ref/carried/bestiary-3/monsters/asura/tripurasura/special-abilities/poison/tripurasura-venom	affliction	bestiary-3	ambiguous	21,304	several pages proposed
-ref/carried/bestiary-3/monsters/bandersnatch/variant-bandersnatches/confounding-bandersnatch-1-cr/confounding-bandersnatch-venom	affliction	bestiary-3	coarse	32	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/deathweb/special-abilities/poison/deathweb-venom	affliction	bestiary-3	coarse	65	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/div/doru/special-abilities/poison/doru-venom	affliction	bestiary-3	ambiguous	82,305	several pages proposed
-ref/carried/bestiary-3/monsters/div/ghawwas/special-abilities/poison/ghawwas-venom	affliction	bestiary-3	ambiguous	82,305	several pages proposed
-ref/carried/bestiary-3/monsters/div/pairaka/special-abilities/disease/pairaka-bubonic-plague	affliction	bestiary-3	ambiguous	82,305	several pages proposed
-ref/carried/bestiary-3/monsters/div/pairaka/special-abilities/disease/pairaka-shakes	affliction	bestiary-3	ambiguous	82,305	several pages proposed
-ref/carried/bestiary-3/monsters/fey-creature/special-abilities/poison-skin/fey-giant-toad-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/girtablilu/special-abilities/poison/girtablilu-venom	affliction	bestiary-3	coarse	130	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/huecuva/special-abilities/disease/filth-fever/huecuva	affliction	bestiary-3	coarse	150	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/jellyfish/deaths-head/special-abilities/poison/deaths-head-jellyfish-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/jellyfish/sapphire/special-abilities/poison/sapphire-jellyfish-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/jorogumo/special-abilities/poison/jorogumo-venom	affliction	bestiary-3	coarse	156	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/kamadan/dusk-kamadan-cr-1/dusk-kamadan-snake-venom	affliction	bestiary-3	coarse	158	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/linnorm/cairn/special-abilities/poison/cairn-linnorm-venom	affliction	bestiary-3	coarse	181	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/linnorm/fjord/special-abilities/poison/fjord-linnorm-venom	affliction	bestiary-3	coarse	181	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/linnorm/taiga/special-abilities/poison/tiaga-linnorm-venom	affliction	bestiary-3	coarse	181	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/linnorm/tor/special-abilities/poison/tor-linnorm-venom	affliction	bestiary-3	coarse	181	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/megafauna/megalania/special-abilities/poison/megalania-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/naga/lunar/special-abilities/poison/lunar-naga-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/naga/water/special-abilities/poison/water-naga-venom	affliction	bestiary-3	coarse	308	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/nue/special-abilities/poison/nue-venom	affliction	bestiary-3	coarse	204	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/oni/spirit/special-abilities/poison/spirit-oni-venom	affliction	bestiary-3	ambiguous	205,307	several pages proposed
-ref/carried/bestiary-3/monsters/parasite/giant-rot-grub/special-abilities/poison/giant-rot-grub-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/pukwudgie/special-abilities/poison/pukwudgie-venom	affliction	bestiary-3	coarse	223	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/rakshasa/raktavarna/special-abilities/poison/raktavarna-rakshasa-venom	affliction	bestiary-3	coarse	224	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/scorpion/deadfall/special-abilities/poison/deadfall-scorpion-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/scorpion/ghost/special-abilities/poison/ghost-scorpion-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/sea-anemone/giant/special-abilities/poison/giant-sea-anemone-venom	affliction	bestiary-3	coarse	306	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/snake-swarm/swarm/snake/venomous/special-abilities/poison/snake-swarm-venom	affliction	bestiary-3	coarse	249	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/spider-eater/special-abilities/poison/spider-eater-venom	affliction	bestiary-3	coarse	255	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/spider/giant-crab/special-abilities/poison/giant-crab-spider-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/spider/ogre/special-abilities/poison/ogre-spider-venom	affliction	bestiary-3	no-page		
-ref/carried/bestiary-3/monsters/swarm/hellwasp/special-abilities/poison/hellwasp-swarm-venom	affliction	bestiary-3	coarse	307	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/thriae/thriae-queen/special-abilities/poison/thriae-seer-venom	affliction	bestiary-3	coarse	263	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/thriae/thriae-soldier/special-abilities/poison/thriae-soldier-venom	affliction	bestiary-3	coarse	263	the proposal is a section or parent page
-ref/carried/bestiary-3/monsters/wolf-in-sheeps-clothing/special-abilities/implant/wold-in-sheeps-clothing-egg	affliction	bestiary-3	coarse	285	the proposal is a section or parent page
 ref/carried/core-rulebook/rules/glossary/special-abilities/poison/burnt-othur-fumes	affliction	core-rulebook	no-page		
 ref/carried/game-mastery-guide/rules/drugs-and-addiction/addiction/minor-addiction	affliction	game-mastery-guide	no-page		
 ref/carried/game-mastery-guide/rules/drugs-and-addiction/addiction/moderate-addiction	affliction	game-mastery-guide	no-page		
