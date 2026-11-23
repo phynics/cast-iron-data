@@ -7,6 +7,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_potion_brewer", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "2"
 
 [fields]
 kind = "trait"

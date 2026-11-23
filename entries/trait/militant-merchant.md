@@ -7,6 +7,9 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "militant_merchant", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "14"
 
 [fields]
 kind = "trait"

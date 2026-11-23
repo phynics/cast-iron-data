@@ -7,6 +7,9 @@ source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walking_ward", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "25"
 
 [fields]
 kind = "trait"
