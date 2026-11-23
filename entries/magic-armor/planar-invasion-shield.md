@@ -23,8 +23,12 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** shield; **Weight** 15 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: shield
+Weight: 15 lbs.
+:::
 
 This shield behaves in all ways as an [absorbing shield](ref/magic-armor/absorbing-shield) until its
 owner attempts to use its disintegration power in combat. Once he does, it instead causes one or
@@ -44,4 +48,7 @@ allows its wearer to abandon it.
 
 ### Construction
 
-**Requirements** _absorbing shield;_ **Cost** -
+::: statblock
+Requirements: [absorbing shield](ref/magic-armor/absorbing-shield)
+Cost: -
+:::

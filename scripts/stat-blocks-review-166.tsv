@@ -311,7 +311,7 @@ entries/eq-weaponenh/brutally-weighted.md	item	label-without-separator	Weight
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
 entries/magic-armor/armor-of-the-shadow-lord.md	item	variant-paragraphs	Alignment
 entries/magic-armor/gossamer-shrouds-of-the-clairvoyant.md	item	variant-paragraphs	Alignment
-entries/magic-armor/planar-invasion-shield.md	item	label-without-separator	Cost
+entries/magic-armor/planar-invasion-shield.md	item	print-fix	Construction: the intended item `absorbing shield` as a link, without the emphasis that held the `;` (Ultimate Equipment p. 349)
 entries/magic-armor/shield-of-the-mage.md	item	variant-paragraphs	Alignment
 entries/magic-artifact/alaznists-hateful-ranseur.md	item	variant-paragraphs	Alignment
 entries/magic-artifact/belimariuss-invidious-halberd.md	item	variant-paragraphs	Alignment
@@ -453,6 +453,7 @@ entries/magic-necrotoxin/lazurite-flakes.md	item	variant-paragraphs	Type
 entries/magic-necrotoxin/memento-mori.md	item	variant-paragraphs	Type
 entries/magic-necrotoxin/quick-rot.md	item	variant-paragraphs	Type
 entries/magic-necrotoxin/xensh-spores.md	item	variant-paragraphs	Type
+entries/magic-piercing/body-piercings-minor.md	item	print-fix	aura `faint transmutation` and caster level `3rd`; the import ran them together (Champions of Corruption p. 28)
 entries/magic-poison/abyssal-arsenic.md	item	variant-paragraphs	Type; Requirements
 entries/magic-poison/burning-heart.md	item	variant-paragraphs	Type; Requirements
 entries/magic-poison/dust-of-eox.md	item	variant-paragraphs	Type; Requirements
@@ -533,7 +534,7 @@ entries/magic-wondrous/phylactery-of-jadis-vel.md	item	variant-paragraphs	Alignm
 entries/magic-wondrous/rechargeable-cube-of-force.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: sources-page-conflict)
 entries/magic-wondrous/rechargeable-cube-of-force.md	item	sources-page-conflict	classic-treasures-revisited: 13 / 14
 entries/magic-wondrous/remote-activation-cube.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13; Classic Treasures Revisited pg 14 (rule S in every zone: sources-page-conflict)
-entries/magic-wondrous/slashing-cloak.md	item	label-twice	Cost
+entries/magic-wondrous/slashing-cloak.md	item	print-fix	Construction: the cost printed once; the import left `; Cost 10,000 gp` twice (Ultimate Equipment p. 268)
 entries/magic-wondrous/the-bloodwind.md	item	variant-paragraphs	Alignment
 entries/monster/aether-elemental.md	creature	raw-sources-line	5 in variant paragraphs: Bestiary 5 pg 106; Bestiary 5 pg 107 (rule S in every zone: sources-page-conflict)
 entries/monster/aether-elemental.md	creature	section-after-heading	6 Challenge rating lines
