@@ -7,6 +7,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_malignancies", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "10"
 
 [fields]
 kind = "trait"
