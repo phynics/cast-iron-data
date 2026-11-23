@@ -12,6 +12,7 @@ relations = [
 ]
 [[sources]]
 publication = "inner-sea-races"
+page = "238"
 [[sources]]
 publication = "core-rulebook"
 page = "26"
