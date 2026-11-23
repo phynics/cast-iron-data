@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "core-rulebook"
+page = "558"
 
 [fields]
 kind = "none"

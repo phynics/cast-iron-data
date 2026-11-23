@@ -3119,7 +3119,7 @@ ref/ragepower/night-vision	core-rulebook	33	print
 ref/ragepower/no-escape	core-rulebook	33	print	
 ref/ragepower/penetrating-bite	champions-of-corruption	27	print	
 ref/ragepower/powerful-blow	core-rulebook	33	print	
-ref/ragepower/quick-reflexes	core-rulebook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/ragepower/quick-reflexes	core-rulebook	33	print		the rage power is printed under its name on this page
 ref/ragepower/raging-climber	core-rulebook	33	print	
 ref/ragepower/raging-leaper	core-rulebook	33	print	
 ref/ragepower/raging-swimmer	core-rulebook	33	print	
@@ -3231,7 +3231,7 @@ ref/talent/shadows-chill	blood-of-shadows	8	print		title text only (no heading f
 ref/talent/shove-aside	cohorts-and-companions	27	print	
 ref/talent/skill-mastery	core-rulebook	70	print	
 ref/talent/slippery-mind	core-rulebook	70	print	
-ref/talent/slow-reactions	core-rulebook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/talent/slow-reactions	core-rulebook	68	print		the rogue talent is printed under its name on this page
 ref/talent/stand-up	core-rulebook	68	print	
 ref/talent/stem-the-flow	champions-of-purity	25	print	
 ref/talent/stony-skin	elemental-masters-handbook	9	print	
@@ -4387,3 +4387,23 @@ ref/ragepower/ice-linnorm-death-curse	advanced-class-guide	114	print		the rage p
 ref/ragepower/taiga-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Taiga on this page
 ref/ragepower/tarn-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Tarn on this page
 ref/ragepower/tor-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Tor on this page
+ref/carried/core-rulebook/rules/glossary/special-abilities/poison/burnt-othur-fumes	core-rulebook	558	print		the poison (save DC, frequency, effects, cure) is in the Poison list of the glossary on this page; Table 16-2 repeats it on page 559
+ref/performance/countersong	core-rulebook	36	print		the bardic performance is printed under its name on this page
+ref/performance/dirge-of-doom	core-rulebook	37	print		the bardic performance is printed under its name on this page
+ref/performance/fascinate	core-rulebook	37	print		the bardic performance is printed under its name on this page
+ref/performance/inspire-competence	core-rulebook	37	print		the bardic performance is printed under its name on this page
+ref/performance/inspire-courage	core-rulebook	37	print		the bardic performance is printed under its name on this page
+ref/performance/inspire-greatness	core-rulebook	37	print		the bardic performance is printed under its name on this page
+ref/performance/suggestion	core-rulebook	37	print		the bardic performance is printed under its name on this page
+ref/performance/deadly-performance	core-rulebook	38	print		the bardic performance is printed under its name on this page
+ref/performance/frightening-tune	core-rulebook	38	print		the bardic performance is printed under its name on this page
+ref/performance/inspire-heroics	core-rulebook	38	print		the bardic performance is printed under its name on this page
+ref/performance/mass-suggestion	core-rulebook	38	print		the bardic performance is printed under its name on this page
+ref/performance/soothing-performance	core-rulebook	38	print		the bardic performance is printed under its name on this page
+ref/racial-trait/dwarf/attributes	core-rulebook	21	print		the ability score line is in the Dwarf Racial Traits block on this page
+ref/racial-trait/elf/attributes	core-rulebook	22	print		the ability score line is in the Elf Racial Traits block on this page
+ref/racial-trait/gnome/attributes	core-rulebook	23	print		the ability score line is in the Gnome Racial Traits block on this page
+ref/racial-trait/half-elf/attributes	core-rulebook	24	print		the ability score line is in the Half-elf Racial Traits block on this page
+ref/racial-trait/half-orc/attributes	core-rulebook	25	print		the ability score line is in the Half-orc Racial Traits block on this page
+ref/racial-trait/halfling/attributes	core-rulebook	26	print		the ability score line is in the Halfling Racial Traits block on this page
+ref/racial-trait/human/attributes	core-rulebook	27	print		the ability score line is in the Human Racial Traits block on this page

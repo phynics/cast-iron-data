@@ -18,6 +18,7 @@ publication = "advanced-race-guide"
 page = "20"
 [[sources]]
 publication = "core-rulebook"
+page = "22"
 
 [fields]
 kind = "racial_trait"
