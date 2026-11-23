@@ -34,9 +34,10 @@ combat bonuses to nearby allies. Carrying a flag in combat requires a free hand.
 
 ## Flag
 
-**Price** 5 gp (ensign or courtesy, large), 2 gp (ensign or courtesy, small), 10 gp (personal
-signal, large), 4 gp (personal signal, small); **Weight** 1 lb. (ensign or courtesy, large), -
-(ensign or courtesy, small), 1 lb. (personal signal, large), - (personal signal, small)
+::: statblock
+Price: 5 gp (ensign or courtesy, large), 2 gp (ensign or courtesy, small), 10 gp (personal signal, large), 4 gp (personal signal, small)
+Weight: 1 lb. (ensign or courtesy, large), - (ensign or courtesy, small), 1 lb. (personal signal, large), - (personal signal, small)
+:::
 
 Small nautical flags measure 3 feet by 5 feet, while large ones measure 6 feet by 10 feet. Most
 ships fly a large national flag (or "ensign") and a small courtesy flag (the flag of the nation

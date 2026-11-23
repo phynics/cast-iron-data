@@ -38,8 +38,11 @@ points the second.
 
 ## Efreeti switch
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 An efreeti switch is the activation device for _efreeti cord;_ it measures approximately 6 inches in
 length and is made of a supple, red-brown alchemical compound. It is not consumed when activating a
