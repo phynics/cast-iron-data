@@ -9,6 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "faiths-and-philosophies"
+page = "inside cover"
 
 [fields]
 kind = "trait"

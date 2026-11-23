@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-unchained"
+page = "34"
 
 [fields]
 kind = "class_option"

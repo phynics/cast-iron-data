@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-race-guide"
+page = "187"
 
 [fields]
 kind = "none"
