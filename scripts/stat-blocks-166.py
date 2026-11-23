@@ -245,7 +245,11 @@ S2  Line. `Book pg N[, Book pg N]` with each page `N` or `N-N`. Each book name i
     `publications.toml` read exactly (`\\#` is `#`) or one of the two import spellings in
     `SOURCE_ALIASES` (`Pathfinder RPG Bestiary`, `PRPG Core Rulebook`). A line that wraps joins
     with one space. A name that does not map queues the file (`sources-unmapped-book`), as does
-    any other form (`sources-unparsed`: no page, `pg. 159, 163`, a second page after a comma, markup).
+    any other form (`sources-unparsed`: no page, markup; a page that is not a number).
+S2b More pages of one book. `Book pg N, N` and `Book pg. N, N` (a bare number after a comma, and
+    `pg.` with a full stop) cite several pages of one book. Each page gets its own row, in print
+    order (owner ruling, orchestrator of 2026-11-23); two different lines that cite two pages of a
+    new book still conflict.
 S3  Body. The line leaves, with its hard break. A paragraph that held only the line goes with
     one adjoining blank line. When the line was the last of its paragraph, the line before it
     loses its break. A label that does not open a line, or a line that ends the paragraph with a
@@ -2291,11 +2295,19 @@ def parse_sources_text(text: str, names: dict[str, str]) -> list[tuple[str, str,
     rest = text
     while rest:
         for name in ordered:
-            if rest.startswith(name + " pg "):
-                page = SOURCE_PAGE.match(rest, len(name) + 4)
+            marker = " pg. " if rest.startswith(name + " pg. ") else " pg "
+            if rest.startswith(name + marker):
+                page = SOURCE_PAGE.match(rest, len(name) + len(marker))
                 if page and (page.end() == len(rest) or rest.startswith(", ", page.end())):
                     cites.append((name, names[name], page.group()))
                     rest = rest[page.end() + 2 :] if page.end() < len(rest) else ""
+                    # More pages of the same book: `pg. 159, 163` (S2b). A bare number after the comma.
+                    while rest:
+                        more = SOURCE_PAGE.match(rest)
+                        if not more or not (more.end() == len(rest) or rest.startswith(", ", more.end())):
+                            break
+                        cites.append((name, names[name], more.group()))
+                        rest = rest[more.end() + 2 :] if more.end() < len(rest) else ""
                     break
         else:
             unknown = re.match(r"(.+?) pg (\d+(?:-\d+)?)(?:, |$)", rest)
@@ -2445,7 +2457,8 @@ def move_sources(text: str, kind: str, names: dict[str, str], zones: tuple[str, 
     have = sources_front_rows(front)
     source_ids = tomllib.loads(front.replace("+++\n", "", 2)).get("source_ids", [])
     added: list[tuple[str, str]] = []
-    for _, _, _, _, cites in found:
+    added_from: dict[tuple[str, str], int] = {}  # the line each added row came from
+    for line_number, (_, _, _, _, cites) in enumerate(found):
         for _, publication, page in cites:
             if publication not in source_ids:
                 raise Queue("sources-book-not-in-source-ids", publication)
@@ -2454,8 +2467,12 @@ def move_sources(text: str, kind: str, names: dict[str, str], zones: tuple[str, 
             if held:
                 if not any(page_covers(row_page, page) for row_page in held):
                     raise Queue("sources-page-conflict", f"{publication}: {', '.join(str(p) for p in held)} / {page}")
-            elif not new_pages:
+            elif not new_pages or (
+                page not in new_pages and all(added_from[(publication, earlier)] == line_number for earlier in new_pages)
+            ):
+                # S4/S2b: the first page of a new book, or another page of the same citation line.
                 added.append((publication, page))
+                added_from[(publication, page)] = line_number
             elif set(new_pages) != {page}:
                 raise Queue("sources-page-conflict", f"{publication}: {', '.join(new_pages)} / {page}")
 
@@ -4275,12 +4292,11 @@ class SourcesSelfTest(unittest.TestCase):
         cases = [
             ("sources-unmapped-book", "**Sources:** Dragon Magazine pg 5\\\n**A:** 1"),
             ("sources-unparsed", "**Sources:** Blood of the Coven\\\n**A:** 1"),
-            ("sources-unparsed", "**Sources:** PRPG Core Rulebook pg. 159, 163\\\n**A:** 1"),
-            ("sources-unparsed", "**Sources:** Bestiary pg 5, 6\\\n**A:** 1"),
+            ("sources-unparsed", "**Sources:** PRPG Core Rulebook pg. 159, x\\\n**A:** 1"),
+            ("sources-page-conflict", "**Sources:** Bestiary pg 5, 6\\\n**A:** 1"),
             ("sources-unmapped-book", "**Sources:** _Bestiary_ pg 5\\\n**A:** 1"),
             ("sources-book-not-in-source-ids", "**Sources:** Pathfinder #93: Forge pg 5\\\n**A:** 1".replace("Pathfinder #93: Forge", "Pathfinder \\#93: Forge")),
             ("sources-page-conflict", "**Sources:** Bestiary pg 11\\\n**A:** 1"),
-            ("sources-page-conflict", "**Sources:** Ultimate Equipment pg 5, Ultimate Equipment pg 6\\\n**A:** 1"),
             ("sources-shape", "**Sources:** Bestiary pg 10\\\n"),
             ("sources-shape", "Text **Sources:** Bestiary pg 10\n**Sources:** Bestiary pg 10\\\nline"),
         ]
@@ -4315,6 +4331,18 @@ class SourcesSelfTest(unittest.TestCase):
         self.assertEqual(converted[2].count("[[sources]]"), SOURCES_FRONT.count("[[sources]]"))  # no row added
         self.assertEqual(self.plan(rows("10", "11"), body)[0], "converted")  # a second row holds it
         self.assertEqual(self.plan(rows("10", "12"), body)[0], "queue:sources-page-conflict")
+
+    def test_several_pages_of_one_book_in_one_line_get_a_row_each_and_two_lines_still_conflict(self):
+        self.assertEqual(
+            parse_sources_text("PRPG Core Rulebook pg. 159, 163, Bestiary pg 4", self.names),
+            [("PRPG Core Rulebook", "core-rulebook", "159"), ("PRPG Core Rulebook", "core-rulebook", "163"), ("Bestiary", "bestiary", "4")],
+        )
+        status, _, text = self.plan(SOURCES_FRONT, "\n**Sources:** PRPG Core Rulebook pg. 159, 163\\\n**A:** 1\n")
+        self.assertEqual(status, "converted")
+        self.assertIn('[[sources]]\npublication = "core-rulebook"\npage = "159"\n[[sources]]\npublication = "core-rulebook"\npage = "163"\n\n[fields]', text)
+        self.assertEqual(self.plan(text, "")[0], "skipped")
+        two_lines = "\n**Sources:** PRPG Core Rulebook pg 159\\\n**A:** 1\n\n**Sources:** PRPG Core Rulebook pg 163\\\n**B:** 2\n"
+        self.assertEqual(self.plan(SOURCES_FRONT, two_lines)[0], "queue:sources-page-conflict")
 
     def test_a_page_range_and_an_escaped_hash_read(self):
         self.assertEqual(
