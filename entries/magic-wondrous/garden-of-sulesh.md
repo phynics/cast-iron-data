@@ -15,7 +15,7 @@ kind = "item"
 category = "Wondrous Items"
 price = "56,000 gp"
 weight = "-"
-slot = "genie seal"
+slot = "none"
 aura = "strong enchantment"
 caster_level = "15th"
 +++
@@ -23,7 +23,7 @@ caster_level = "15th"
 ::: statblock
 Aura: strong enchantment
 CL: 15th
-Slot: genie seal
+Slot: none
 Price: 56,000 gp
 Weight: -
 :::

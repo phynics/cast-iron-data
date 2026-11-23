@@ -14,8 +14,6 @@ page = "166"
 kind = "none"
 +++
 
-**Elysium**
-
 **Cat:** Outer Plane (chaotic good)
 
 **Desc:** Elysium is a place of bold deeds and fiery passions, where heroes clash and revel, and

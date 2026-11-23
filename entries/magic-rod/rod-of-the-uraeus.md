@@ -18,7 +18,7 @@ kind = "item"
 category = "Rods"
 price = "14,400 gp"
 weight = "4 lbs."
-slot = "rod"
+slot = "none"
 aura = "moderate necromancy"
 caster_level = "8th"
 +++
@@ -26,7 +26,7 @@ caster_level = "8th"
 ::: statblock
 Aura: moderate necromancy
 CL: 8th
-Slot: rod
+Slot: none
 Price: 14,400 gp
 Weight: 4 lbs.
 :::
