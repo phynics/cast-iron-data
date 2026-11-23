@@ -35,9 +35,12 @@ This outfit includes heavy woolen pants, a tunic, leather boots, a belt, sturdy 
 heavy tabard bearing the colors or sigil of a noble house or organization. Many organizations
 provide new squires this outfit for free, with the expectation they wear it during their duties.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

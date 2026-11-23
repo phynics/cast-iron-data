@@ -36,9 +36,12 @@ sashes. The outfit is designed to give you maximum mobility, and it's made of hi
 You can conceal small weapons in pockets hidden in the folds, and the sashes are strong enough to
 serve as short ropes.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

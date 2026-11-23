@@ -1,6 +1,5 @@
 path	pass	reason	detail
 entries/eq-misc/angelstep.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/artisans-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/autosniper-trap.md	item	variant-paragraphs	Autosniper Trap
 entries/eq-misc/balloon-trap.md	item	variant-paragraphs	Sirocco Balloon Trap - CR 14
 entries/eq-misc/bear-trap.md	item	variant-paragraphs	Bear Trap - CR 1
@@ -8,22 +7,13 @@ entries/eq-misc/bell-tripwire-trap.md	item	variant-paragraphs	Bell Tripwire Trap
 entries/eq-misc/black-amaranth.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/bloody-mandrake.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/bone-reed.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/burglars-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/cloud-puff.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/cold-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/courtesans-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/courtiers-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/dilettantes-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/doctors-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/dragon-rose.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/dream-lichen.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/ear-trumpet-common.md	item	variant-paragraphs	Price
 entries/eq-misc/ear-trumpet-masterwork.md	item	variant-paragraphs	Price
 entries/eq-misc/ear-trumpet.md	item	variant-paragraphs	Price
 entries/eq-misc/efreeti-cord.md	item	variant-paragraphs	Price
-entries/eq-misc/entertainers-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/executioners-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/explorers-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/fairy-cap.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/flag-ensign-or-courtesy-large.md	item	variant-paragraphs	Price
 entries/eq-misc/flag-ensign-or-courtesy-small.md	item	variant-paragraphs	Price
@@ -35,7 +25,6 @@ entries/eq-misc/gas-mask.md	item	variant-paragraphs	Price
 entries/eq-misc/goblinvine.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/heathensnuff.md	item	variant-paragraphs	Type
 entries/eq-misc/hobgoblin-war-draught.md	item	variant-paragraphs	Craft DC
-entries/eq-misc/hot-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/leechwort.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/love-in-idleness.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/manacles-common.md	item	label-without-separator	Category
@@ -44,45 +33,19 @@ entries/eq-misc/manacles-mithral.md	item	label-without-separator	Category
 entries/eq-misc/merfolks-comb.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/mimameith.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/moly.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/monks-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/nepenthe.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/net-rigging.md	item	variant-paragraphs	Falling Net Trap
 entries/eq-misc/nightsage.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/nobles-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/peasants-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/perfume-cologne.md	item	variant-paragraphs	Price
 entries/eq-misc/perfume-common-per-dose.md	item	variant-paragraphs	Price
 entries/eq-misc/perfume-exotic-per-dose.md	item	variant-paragraphs	Price
-entries/eq-misc/pickpockets-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/poison-latch-needle.md	item	variant-paragraphs	Poison Latch Needle Trap
 entries/eq-misc/portable-bolt-trap.md	item	variant-paragraphs	Portable Bolt Trap - CR 1/2
 entries/eq-misc/pull-cord-grenade.md	item	variant-paragraphs	Type
-entries/eq-misc/royal-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/scholars-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/seeing-slime.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/snake-oil.md	item	variant-paragraphs	Type
-entries/eq-misc/squires-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-artisans-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-burglars-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-cold-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-courtesans-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-courtiers-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-doctors-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-entertainers-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-executioners-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-explorers-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-hot-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-monks-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-nobles-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-peasants-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-pickpockets-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-royal-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-scholars-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-squires-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tear-away-travelers-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/trapped-item-trapped-disguise-kit.md	item	variant-paragraphs	Trapped Disguise Kit; Trapped Scroll Case
 entries/eq-misc/trapped-item-trapped-scroll-case.md	item	variant-paragraphs	Trapped Disguise Kit; Trapped Scroll Case
-entries/eq-misc/travelers-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/trespassers-boot.md	item	variant-paragraphs	Trespasser's Boot - CR 1/2
 entries/eq-misc/venom-trap.md	item	variant-paragraphs	Venom Trap - CR varies
 entries/eq-misc/wagon-heavy-travel-per-mile.md	item	label-without-separator	Category

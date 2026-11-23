@@ -35,9 +35,12 @@ This outfit includes fine silk or satin garments tailored to complement your fig
 the outfit contains a loose shawl or robe with several discreet pockets for items such as perfume,
 massage oils, or even a small dagger.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

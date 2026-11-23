@@ -36,9 +36,12 @@ items are generally mismatched, each having been selected as "superior" from som
 clothing, and are rife with pockets and small hidey-holes. It the wearer a +2 circumstance bonus on
 Sleight of Hand checks made to conceal a small object on her body.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is
