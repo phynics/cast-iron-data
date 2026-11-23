@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "antiheros-handbook"
+page = "29"
 
 [fields]
 kind = "class_option"

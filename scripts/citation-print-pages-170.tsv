@@ -2653,7 +2653,7 @@ ref/discovery/precise-bombs	advanced-players-guide	31	print
 ref/discovery/rag-doll-mutagen	advanced-race-guide	116	print	
 ref/discovery/remedy-extract	healers-handbook	11	print		the alchemist discovery is printed under its name on this page
 ref/discovery/rocket-bomb	advanced-race-guide	116	print	
-ref/discovery/sand-bomb	antiheros-handbook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/sand-bomb	antiheros-handbook	29	print		the alchemist discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/scrap-bomb	advanced-race-guide	116	print	
 ref/discovery/shock-bomb	advanced-players-guide	31	print		the discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/smoke-bomb	advanced-players-guide	31	print		the discovery is printed as a heading (name, asterisk, colon) on this page
