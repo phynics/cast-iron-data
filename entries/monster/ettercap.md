@@ -30,76 +30,60 @@ abilities = ["14", "17", "17", "6", "15", "8"]
 _This hideous purple creature walks upright like a man, but its face is that of a spider, and its
 hands are sickle-shaped claws._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 30 (4d8+12)
+Fort: +6
+Ref: +4
+Will: +6
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +5 (1d6+2 plus poison) and 2 claws +5 (1d4+2)
+Spec Att: traps
+Web: +6 ranged, DC 15, hp 4
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 17, Con 17, Int 6, Wis 15, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Great Fortitude, Improved Initiative
+Skills: Climb +14, Craft (trapmaking) +8, Perception +9, Stealth +7
+Racial Modifiers: +8 on Craft (trapmaking)
+Languages: Common
+Special qualities: spider empathy +7
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +5 (1d6+2 plus poison) and 2 claws +5 (1d4+2)
-
-**Spec Att:** traps
-
-**Web:** +6 ranged, DC 15, hp 4
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 17, Int 6, Wis 15, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Great Fortitude, Improved Initiative
-
-**Skills:** Climb +14, Craft (trapmaking) +8, Perception +9, Stealth +7
-
-**Racial Modifiers:** +8 on Craft (trapmaking)
-
-**Languages:** Common
-
-**Special qualities:** spider empathy +7
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or nest (3-6 plus 2-8
-[giant spiders](ref/monster/spider-giant-spider))
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or nest (3-6 plus 2-8 [giant spiders](ref/monster/spider-giant-spider))
+Treasure: Standard
+:::
 
 ### Special Abilities
 
@@ -126,53 +110,38 @@ allowing ettercaps to train giant spiders and use them as guardians.
 Deadfalls, nooses, and spear traps are the most common traps ettercaps build with their webs. An
 ettercap doesn't require gold to build its traps, merely time.
 
-**Ettercap Deadfall**
+::: statblock
+title = "Ettercap Deadfall"
+Type: Mechanical
+Challenge rating: 3
+Perception DC: 20
+Disable Device DC: 20
+Trigger: location
+Effect: +10 melee (4d6), multiple targets (all targets in a 10-ft. square)
+Reset: repair
+:::
 
-**Type:** Mechanical
+::: statblock
+title = "Ettercap Noose"
+Type: Mechanical
+Challenge rating: 1
+Perception DC: 20
+Disable Device DC: 20
+Trigger: location
+Effect: +15 CMB check (grapple)
+Reset: repair
+:::
 
-**Challenge rating:** 3
-
-**Perception DC:** 20
-
-**Disable Device DC:** 20
-
-**Trigger:** location
-
-**Effect:** +10 melee (4d6), multiple targets (all targets in a 10-ft. square)
-
-**Reset:** repair
-
-**Ettercap Noose**
-
-**Type:** Mechanical
-
-**Challenge rating:** 1
-
-**Perception DC:** 20
-
-**Disable Device DC:** 20
-
-**Trigger:** location
-
-**Effect:** +15 CMB check (grapple)
-
-**Reset:** repair
-
-**Ettercap Spear Trap**
-
-**Type:** Mechanical
-
-**Challenge rating:** 2
-
-**Perception DC:** 20
-
-**Disable Device DC:** 20
-
-**Trigger:** location
-
-**Effect:** +15 melee (1d6+6)
-
-**Reset:** repair
+::: statblock
+title = "Ettercap Spear Trap"
+Type: Mechanical
+Challenge rating: 2
+Perception DC: 20
+Disable Device DC: 20
+Trigger: location
+Effect: +15 melee (1d6+6)
+Reset: repair
+:::
 
 ### Description
 

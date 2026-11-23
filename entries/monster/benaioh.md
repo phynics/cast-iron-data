@@ -30,83 +30,65 @@ abilities = ["28", "9", "-", "-", "2", "1"]
 _This towering humanoid figure appears to be sculpted from clay. Fine cracks thread through the
 creature's body, leaking a steady stream of putrescent slime._
 
-**Benaioh (Clay Vessel)**
+## Benaioh (Clay Vessel) {#stat-clay-vessel}
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsense: 30
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: -4
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 90
+Experience points: 3,200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: -1 Dex, +10 natural, -1 size
+Hit points: 52 (4d10+30)
+Fort: +1
+Ref: +0
+Will: -3
+Defensive abilities: clay shell
+Dr: 5/adamantine and bludgeoning
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 15
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +12 (1d8+9)
+Reach: 10
+Space: 10
+Spec Att: disease, spray slime
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** -4
+::: statblock
+Ability scores: Str 28, Dex 9, Con -, Int -, Wis 2, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +14
+Combat maneuver defense: 23
+Special qualities: [freeze](ref/umr/freeze), symbiotic senses
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**tremorsense:** 90
-
-**Experience points:** 3,200
-
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** -1 Dex, +10 natural, -1 size
-
-**Hit points:** 52 (4d10+30)
-
-**Fort:** +1
-
-**Ref:** +0
-
-**Will:** -3
-
-**Defensive abilities:** clay shell
-
-**Dr:** 5/adamantine and bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +12 (1d8+9)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** disease, spray slime
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 9, Con -, Int -, Wis 2, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 23
-
-**Special qualities:** [freeze](ref/umr/freeze), symbiotic senses
-
-**Ecology**
-
-**Environment:** any mountains or underground
-
-**Organization:** solitary, pair, or guard (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any mountains or underground
+Organization: solitary, pair, or guard (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 
@@ -204,74 +186,59 @@ the lower depths of the Darklands. In accounts of this practice, the flesh-devou
 serves as a punishment or torture, but the end result is similar - the creation of guardians. These
 stories go on to describe guardians with powerful abilities.
 
-**Benaioh (Ooze Form)**
+## Benaioh (Ooze Form) {#stat-ooze-form}
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsense: 30
+Initiative: -2
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -4
+tremorsense: 90
+Experience points: 3,200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 7
+Touch: 7
+Flat-footed: 7
+AC modifiers: -2 Dex, -1 size
+Hit points: 84 (8d8+48)
+Fort: +8
+Ref: +0
+Will: -2
+Immune: disease, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 10 ft., swim 10 ft.
+Engulf: DC 22, 6d6 acid plus disease
+Melee: slam +13 (1d12+12 plus 1d6 acid and disease)
+Reach: 10
+Space: 10
+Spec Att: disease
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -4
+::: statblock
+Ability scores: Str 26, Dex 6, Con 23, Int -, Wis 3, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +15
+Combat maneuver defense: 23 (can't be tripped)
+Skills: Climb +16
+:::
 
-**tremorsense:** 90
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 7
-
-**Touch:** 7
-
-**Flat-footed:** 7
-
-**AC modifiers:** -2 Dex, -1 size
-
-**Hit points:** 84 (8d8+48)
-
-**Fort:** +8
-
-**Ref:** +0
-
-**Will:** -2
-
-**Immune:** disease, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 10 ft., swim 10 ft.
-
-**Engulf:** DC 22, 6d6 acid plus disease
-
-**Melee:** slam +13 (1d12+12 plus 1d6 acid and disease)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** disease
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 6, Con 23, Int -, Wis 3, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 23 (can't be tripped)
-
-**Skills:** Climb +16
-
-**Ecology**
-
-**Environment:** any mountains or underground
-
-**Organization:** solitary, pair, or guard (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any mountains or underground
+Organization: solitary, pair, or guard (3-12)
+Treasure: None
+:::
