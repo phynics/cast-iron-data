@@ -6,7 +6,6 @@ source_ids = ["ultimate-equipment"]
 section = ["Rules", "Arms And Armor", "Weapons", "Weapon Descriptions"]
 tags = ["shield", "weapon"]
 provenance = [
-  { dataset = "psrd-data", record = "pfsrd://Ultimate Equipment/Rules/Arms And Armor/Armor/Armor and Shields/Madu", path = "ultimate_equipment/item/shield/madu.json" },
   { dataset = "psrd-data", record = "pfsrd://Ultimate Equipment/Rules/Arms And Armor/Weapons/Weapon Descriptions/Madu", path = "ultimate_equipment/item/weapon/madu.json" },
 ]
 [[sources]]
