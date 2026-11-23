@@ -28,7 +28,11 @@ Usage: 20 charges
 
 ### Construction
 
-**Craft DC** 25; **Cost** 30,000 gp\
+::: statblock
+Craft DC: 25
+Cost: 30,000 gp
+:::
+
 [Craft Technological Item](ref/feat/craft-technological-item),
 [nanotech lab](ref/rule/crafting-laboratories)
 

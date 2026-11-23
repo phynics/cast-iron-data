@@ -28,7 +28,11 @@ Usage: disposable
 
 ### Construction
 
-**Craft DC** 26; **Cost** 1,800 gp\
+::: statblock
+Craft DC: 26
+Cost: 1,800 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)
 

@@ -29,7 +29,11 @@ Usage: 1 charge/round
 
 ### Construction
 
-**Craft DC** 32; **Cost** 45,000 gp\
+::: statblock
+Craft DC: 32
+Cost: 45,000 gp
+:::
+
 [Craft Technological Item](ref/feat/craft-technological-item),
 [Craft Wondrous Item](ref/feat/craft-wondrous-item), [graviton lab](ref/rule/crafting-laboratories),
 [enervation](ref/spell/enervation), [telekinesis](ref/spell/telekinesis)

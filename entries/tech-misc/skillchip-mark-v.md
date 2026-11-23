@@ -30,9 +30,11 @@ Usage: -
 
 ### Construction
 
-**Craft DC** 24 (mark I), DC 26 (mark II), DC 28 (mark III), DC 30 (mark IV), DC 32 (mark V)\
-**Cost** 200 gp (mark I), 800 gp (mark II), 1,800 gp (mark III), 3,200 gp (mark IV), 5,000 gp (mark
-V)\
+::: statblock
+Craft DC: 24 (mark I), DC 26 (mark II), DC 28 (mark III), DC 30 (mark IV), DC 32 (mark V)
+Cost: 200 gp (mark I), 800 gp (mark II), 1,800 gp (mark III), 3,200 gp (mark IV), 5,000 gp (mark V)
+:::
+
 [Craft Technological Item](ref/feat/craft-technological-item), at least 10 ranks in skill to be
 encoded, [cybernetics lab](ref/rule/crafting-laboratories)
 

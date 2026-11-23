@@ -27,7 +27,11 @@ Usage: 1 charge/round
 
 ### Construction
 
-**Craft DC** 26; **Cost** 1,000 gp\
+::: statblock
+Craft DC: 26
+Cost: 1,000 gp
+:::
+
 [Craft Technological Item](ref/feat/craft-technological-item),
 [graviton lab](ref/rule/crafting-laboratories)
 

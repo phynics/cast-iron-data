@@ -370,7 +370,7 @@ trap is prose, so the sentence rule is off for it), and the empty `Effects` row 
 Where the import dropped the bold of a label (`Type** mechanical; Perception DC 20`), the label stays
 inside the value as printed.
 
-`techcons` (`tech-*`, 250 entries; applied to one folder at a time, `VARIANT_ONLY`): the
+`techcons` (`tech-*`, 250 entries; it was applied one folder at a time, `VARIANT_ONLY`, and now covers all): the
 Construction of a technological item prints `**Craft DC** 21; **Cost** 4,000 gp` and then a line
 with no label (`Craft Technological Item, …`, and the lab). Owner ruling 3 (amending item ruling
 10): `Craft DC` and `Cost` become one untitled block under `### Construction`, which stays, and the
@@ -2171,8 +2171,8 @@ VARIANT_KINDS = {
 }
 VARIANT_PLANS = {name: plan for name, (_, plan, _) in VARIANT_KINDS.items()}
 VARIANT_COMMAS = {name: commas for name, (_, _, commas) in VARIANT_KINDS.items()}
-# The kinds applied to one slice of their folders so far: name -> the `--only` value of the slice.
-VARIANT_ONLY: dict[str, str] = {"techcons": "tech-pharma,tech-armor,tech-cyber,tech-weapon"}
+# The kinds applied to one slice of their folders so far: name -> the `--only` value of the slice (none at present: `techcons` now covers every folder).
+VARIANT_ONLY: dict[str, str] = {}
 for _name, (_folders, _, _) in VARIANT_KINDS.items():
     PASS_FOLDERS[_name] = _folders
     PASS_KIND[_name] = "item"
