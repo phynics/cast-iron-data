@@ -1,7 +1,7 @@
 +++
 id = "ref/rule/nirvana-pa"
 kind = "rule"
-title = "Nirvana_pa"
+title = "Nirvana"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nirvana_pa", path = "json/rules_campaign_types09.json" },

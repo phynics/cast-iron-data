@@ -1,7 +1,7 @@
 +++
 id = "ref/rule/races-ui"
 kind = "rule"
-title = "races_ui"
+title = "Races (Pursuits)"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "races_ui", path = "json/rules_adv_gm02.json" },

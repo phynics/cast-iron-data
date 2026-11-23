@@ -1,7 +1,7 @@
 +++
 id = "ref/rule/axis-pa"
 kind = "rule"
-title = "Axis_pa"
+title = "Axis"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axis_pa", path = "json/rules_campaign_types09.json" },

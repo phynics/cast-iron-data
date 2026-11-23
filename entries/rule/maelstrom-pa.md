@@ -1,7 +1,7 @@
 +++
 id = "ref/rule/maelstrom-pa"
 kind = "rule"
-title = "Maelstrom_pa"
+title = "The Maelstrom"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maelstrom_pa", path = "json/rules_campaign_types09.json" },
