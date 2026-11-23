@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Elven Herbs
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Elven Herbs
+:::
 
 This seed casing reacts to its user's physical condition. When crushed in a
 [nauseated](ref/misc/nauseated) target's face, the sickly-sweet smell of tintalviel seeds cures the

@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 This alchemical anesthetic, developed from ancient recipes for Sarenite sacred wine, grants a
 powerful resistance to pain. For 1 hour after drinking anesthetic wine, you gain a +5 bonus on

@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 These spectacles have lenses made of smoked glass that help protect against creatures with
 [gaze](ref/umr/gaze) attacks. You are always treated as averting your gaze when dealing with gaze

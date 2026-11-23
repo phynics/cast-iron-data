@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "7 lbs."
 +++
 
-**Price** 75 gp; **Weight** 7 lbs.\
-**Category** Tools
+::: statblock
+Price: 75 gp
+Weight: 7 lbs.
+Category: Tools
+:::
 
 This wooden board bears a number of narrow, thin holes large enough to hold by the fingertips. The
 board mounts to a wall, allowing climbers to practice their technique and improve their grip by

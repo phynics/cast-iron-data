@@ -17,8 +17,11 @@ price = "1000 gp"
 weight = "45 lbs."
 +++
 
-**Price** 1000 gp; **Weight** 45 lbs.\
-**Category** Kits
+::: statblock
+Price: 1000 gp
+Weight: 45 lbs.
+Category: Kits
+:::
 
 The arcane adept has collected useful magical gear to ensure her success on her adventures, and she
 prides herself on having just the right tool for the job. This equipment package is appropriate for

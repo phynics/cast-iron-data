@@ -23,8 +23,11 @@ price = "1 gp"
 weight = "3 lbs."
 +++
 
-**Price** 1 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 1 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 Bellows are useful for starting fires, providing a +1 circumstance bonus on Survival checks to start
 or maintain fires.

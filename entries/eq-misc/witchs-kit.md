@@ -17,8 +17,11 @@ price = "21 gp"
 weight = "21 lbs."
 +++
 
-**Price** 21 gp; **Weight** 21 lbs.\
-**Category** Kits
+::: statblock
+Price: 21 gp
+Weight: 21 lbs.
+Category: Kits
+:::
 
 This kit includes a [backpack](ref/eq-misc/backpack), a [bedroll](ref/eq-misc/bedroll), a
 [belt pouch](ref/eq-misc/belt-pouch), [candles](ref/eq-misc/candle) (10), [chalk](ref/eq-misc/chalk)

@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 In some religions, you are allowed to tattoo or brand your deity's holy symbol onto your skin
 (typically the palm, back of the hand, or forearm) in a special ceremony. Thereafter, it functions

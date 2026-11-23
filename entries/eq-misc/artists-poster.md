@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Price** 15 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 15 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This illustrated piece of paper typically measures 24 inches wide and 32 inches long. An artist's
 poster is typically used as an advertisement that can be easily seen by crowds of people. Placing a

@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This metal container comes with a small removable lid, and holds a small crucible in which to burn
 incense. Used in religious ceremonies or rituals, a censer can hold up to 10 pieces of

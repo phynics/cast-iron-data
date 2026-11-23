@@ -25,8 +25,10 @@ weight = "3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)"
 
 ## Prosthetic
 
-**Price** 10 gp (arm), 1 gp (foot), 1 gp (hand), 20 gp (leg); **Weight** 3 lbs. (arm), 2 lbs.
-(foot), 1 lb. (hand), 6 lbs. (leg)
+::: statblock
+Price: 10 gp (arm), 1 gp (foot), 1 gp (hand), 20 gp (leg)
+Weight: 3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)
+:::
 
 People who lose hands, arms, legs, or feet in combat sometimes replace them with prosthetics:
 realistic simulations of their missing limbs. Usually carved of wood and painted to match the

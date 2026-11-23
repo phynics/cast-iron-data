@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 50 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This 5-foot square of paper is covered in alchemical tar on both sides. Removing its protective wax
 cover and applying the tar paper to a surface requires a full-round action. Any creature that enters

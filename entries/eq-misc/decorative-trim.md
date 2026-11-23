@@ -17,8 +17,11 @@ price = "1 sp-50 gp"
 weight = "-"
 +++
 
-**Price** 1 sp-50 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 1 sp-50 gp
+Weight: -
+Category: Clothing
+:::
 
 This decorative set of collars, cuffs, and trim pieces attaches to otherwise plain clothes. Frequent
 travelers, such as merchants or entertainers, use trim to blend in with the local styles without

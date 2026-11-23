@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This compound comes in a tiny eyedropper. When you combine a dose of poison diffuser with a dose of
 contact or ingested poison, the poison becomes a gas, slowly diffusing into the surrounding air. The

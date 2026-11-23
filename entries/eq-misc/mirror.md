@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 10 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This hand-held mirror is about a foot across. Unlike many higher-quality glass mirrors, this one is
 made out of polished steel and sturdy enough that you can drop it without risk of breakage.

@@ -17,9 +17,12 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Channel Foci\
-**Deity** Abadar
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Channel Foci
+Deity: Abadar
+:::
 
 This set of small gold-plated scales is inscribed with words from Abadar's holy text. When
 activated, its presence aids in negotiations, making attempts to change the attitude of another

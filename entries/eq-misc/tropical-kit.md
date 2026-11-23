@@ -17,8 +17,11 @@ price = "120 gp"
 weight = "6 lbs."
 +++
 
-**Price** 120 gp; **Weight** 6 lbs.\
-**Category** Kits
+::: statblock
+Price: 120 gp
+Weight: 6 lbs.
+Category: Kits
+:::
 
 This kit is intended for hot and moist environments such as jungles and warm marshes. It includes 1
 dose each of [antiplague](ref/eq-misc/antiplague) and [antitoxin](ref/eq-misc/antitoxin), five

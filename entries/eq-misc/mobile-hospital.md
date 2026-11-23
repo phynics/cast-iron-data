@@ -17,8 +17,11 @@ price = "1,000 gp"
 weight = "500 lbs."
 +++
 
-**Price** 1,000 gp; **Weight** 500 lbs.\
-**Category** Kits
+::: statblock
+Price: 1,000 gp
+Weight: 500 lbs.
+Category: Kits
+:::
 
 This kit for a wagon provides all the equipment needed to care for up to 10 sick or injured people
 at a time. It includes two large [tents](ref/eq-misc/tent-small), 10 [cots](ref/eq-misc/cot) with

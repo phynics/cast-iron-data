@@ -17,8 +17,11 @@ price = "263 gp"
 weight = "90 lbs."
 +++
 
-**Price** 263 gp; **Weight** 90 lbs.\
-**Category** Kits
+::: statblock
+Price: 263 gp
+Weight: 90 lbs.
+Category: Kits
+:::
 
 This kit is particularly useful for dungeon explorers who specialize in trapping or taming whatever
 vile quarry they find. A trapper's kit contains an [average lock](ref/eq-misc/lock-average), a

@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "1 lb."
 +++
 
-**Price** 75 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 75 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This spiraled metal rod has alchemically treated bristles that can be used in the barrel of an early
 or advanced firearm to liquefy grime and bullet fouling while leaving a thin protective film in the

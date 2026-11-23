@@ -23,8 +23,11 @@ price = "3 gp"
 weight = "4 lbs."
 +++
 
-**Price** 3 gp; **Weight** 4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 3 gp
+Weight: 4 lbs.
+Category: Clothing
+:::
 
 This set of flashy, perhaps even gaudy, clothes is meant for entertaining. Entertainer's outfits
 come in a wide range of styles, from scandalous to flattering to absurd. While the outfit looks

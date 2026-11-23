@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 These inexpensive, watertight goggles are essential protection for land-dwellers' eyes, particularly
 in salt water or water high in particulates. Any land-dweller wearing goggles can use visual

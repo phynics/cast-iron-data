@@ -20,8 +20,11 @@ price = "15 gp"
 weight = "5 lbs."
 +++
 
-**Price** 15 gp; **Weight** 5 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 15 gp
+Weight: 5 lbs.
+Category: Alchemical Tools
+:::
 
 This thick whitewash is laced with exotic oils, and it dries to a lovely finish run through with
 subtle swirls. Difficult to notice, these patterns help obscure seams and details in whatever the

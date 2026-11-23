@@ -19,8 +19,10 @@ weight = "15 1/2 lbs. (abberation), 15 1/2 lbs. (fey), 17 lbs. (ooze), 15 lbs. (
 
 ## Monster hunter's kit
 
-**Price** 257 gp (abberation), 224 gp (fey), 232 gp (ooze), 202 gp (regular); **Weight** 15 1/2 lbs.
-(abberation), 15 1/2 lbs. (fey), 17 lbs. (ooze), 15 lbs. (regular)
+::: statblock
+Price: 257 gp (abberation), 224 gp (fey), 232 gp (ooze), 202 gp (regular)
+Weight: 15 1/2 lbs. (abberation), 15 1/2 lbs. (fey), 17 lbs. (ooze), 15 lbs. (regular)
+:::
 
 This kit includes a [bear trap](ref/eq-misc/bear-trap), a
 [footprint book](ref/eq-misc/footprint-book), a [scent cloak](ref/eq-misc/scent-cloak), and

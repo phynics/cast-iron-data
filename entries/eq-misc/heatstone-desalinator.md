@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 10 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Most desalination equipment is rare, slow, and energy-intensive enough that magic is the preferred
 method for turning salt water into fresh drinking water. The power provided by this device's

@@ -19,8 +19,10 @@ weight = "8 lbs. (adamantine), 8 lbs. (lopping), 1/2 lb. (small)"
 
 ## Shears
 
-**Price** 3,003 gp (adamantine), 3 gp (lopping), 5 sp (small); **Weight** 8 lbs. (adamantine), 8
-lbs. (lopping), 1/2 lb. (small)
+::: statblock
+Price: 3,003 gp (adamantine), 3 gp (lopping), 5 sp (small)
+Weight: 8 lbs. (adamantine), 8 lbs. (lopping), 1/2 lb. (small)
+:::
 
 Shears are used to quickly cut through items by snipping them between two sharp blades fitted with a
 spring to allow the jaws to open again after closing. Small shears can be used in one hand and are

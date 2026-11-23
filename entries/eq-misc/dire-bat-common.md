@@ -19,8 +19,10 @@ weight = "- (common), 400 lbs. (riding), 450 lbs. (riding, combat trained)"
 
 ## Dire bat
 
-**Price** 220 gp (common), 300 gp (riding), 450 gp (riding, combat trained); **Weight** - (common),
-400 lbs. (riding), 450 lbs. (riding, combat trained)
+::: statblock
+Price: 220 gp (common), 300 gp (riding), 450 gp (riding, combat trained)
+Weight: - (common), 400 lbs. (riding), 450 lbs. (riding, combat trained)
+:::
 
 Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel
 lords, either for brutish protection or to pit against equally vicious creatures in violent animal

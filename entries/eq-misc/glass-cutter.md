@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This small metal rod has a tiny sharp wheel on one end and a bulb on the other. You score the glass
 with the wheel and tap it with the bulb to break it. If you succeed at a DC 15 Sleight of Hand

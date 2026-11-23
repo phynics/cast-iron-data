@@ -26,8 +26,10 @@ price = "1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Pe
 weight = "- Perfume (common), - Perfume (exotic), - Perfume (rare)"
 +++
 
-**Price** 1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare);
-**Weight** - Perfume (common), - Perfume (exotic), - Perfume (rare)
+::: statblock
+Price: 1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare)
+Weight: - Perfume (common), - Perfume (exotic), - Perfume (rare)
+:::
 
 Perfume and cologne are common accessories for those who hope to avoid offending through scent.
 Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours

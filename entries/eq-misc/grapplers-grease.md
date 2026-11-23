@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 gp; **Weight** 1/2 lb.\
-**Category** Tools
+::: statblock
+Price: 5 gp
+Weight: 1/2 lb.
+Category: Tools
+:::
 
 When applied to your body, this pale grease made from animal fat makes you more difficult to
 grapple. While covered in the grease, you gain a +4 bonus to CMD against [grapple](ref/rule/grapple)

@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This metal canteen has a flattened, curved shape so you can easily conceal it in a pocket or against
 your body. A typical hip flask holds 8 ounces, and like a regular [flask](ref/eq-misc/flask) may be

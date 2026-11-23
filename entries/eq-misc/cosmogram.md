@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 200 gp; **Weight** 1/2 lb.\
-**Category** Tools
+::: statblock
+Price: 200 gp
+Weight: 1/2 lb.
+Category: Tools
+:::
 
 This eldritch chart describes part of the unfathomably vast shape of the physical universe and the
 subtler motions of the stars. A cosmogram grants a +1 circumstance bonus on Knowledge (geography)

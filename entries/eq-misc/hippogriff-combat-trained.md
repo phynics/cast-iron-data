@@ -17,8 +17,11 @@ price = "5,000 gp"
 weight = "500 lbs."
 +++
 
-**Price** 5,000 gp; **Weight** 500 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 5,000 gp
+Weight: 500 lbs.
+Category: Mounts/Pets
+:::
 
 Less intelligent and easier to train than [griffons](ref/monster/griffon),
 [hippogriffs](ref/monster/hippogriff) make reliable winged mounts.

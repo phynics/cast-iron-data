@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "1 lb."
 +++
 
-**Price** 15 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 15 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 These leather goggles have dark, purple-hued lenses coated with a special alchemical substance that
 reveals particular psychic spectrums. To provide any benefit, the goggles must be continuously worn

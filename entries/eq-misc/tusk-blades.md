@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "10 lbs."
 +++
 
-**Price** 50 gp; **Weight** 10 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 50 gp
+Weight: 10 lbs.
+Category: Animal Gear
+:::
 
 These metal caps must be specially fitted to a creature's horns or tusks; a blade reminiscent of a
 sword or axe head projects from each cap. If the creature makes a gore attack (including as part of

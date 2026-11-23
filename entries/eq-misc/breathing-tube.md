@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1/10 lbs."
 +++
 
-**Price** 1 gp; **Weight** 1/10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1/10 lbs.
+Category: Adventuring Gear
+:::
 
 This simple, hollow tube roughly as long as the user's forearm is typically made to resemble a
 specific type of aquatic foliage, so that its user remains inconspicuous while underwater. Using a

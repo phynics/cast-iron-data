@@ -20,8 +20,11 @@ price = "1 gp-1,000 gp"
 weight = "1 lb.-5 lbs."
 +++
 
-**Price** 1 gp-1,000 gp; **Weight** 1 lb.-5 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 1 gp-1,000 gp
+Weight: 1 lb.-5 lbs.
+Category: Entertainment
+:::
 
 This box features moving parts, secret panels, or unusual codes and locking mechanisms. Depending on
 the box, a Disable Device, Knowledge (engineering), Linguistics, or simple Intelligence check might

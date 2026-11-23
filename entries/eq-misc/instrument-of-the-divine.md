@@ -17,9 +17,12 @@ price = "200 gp"
 weight = "3 lbs."
 +++
 
-**Price** 200 gp; **Weight** 3 lbs.\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: 200 gp
+Weight: 3 lbs.
+Category: Channel Foci
+Deity: Any
+:::
 
 This [masterwork musical instrument](ref/eq-misc/musical-instrument-masterwork) may be of any type
 (lyre, harp, drum, and so on). As a focus, it transforms faith into powerful music. Once activated,

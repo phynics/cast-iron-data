@@ -17,8 +17,11 @@ price = "310 gp"
 weight = "8 lbs."
 +++
 
-**Price** 310 gp; **Weight** 8 lbs.\
-**Category** Kits
+::: statblock
+Price: 310 gp
+Weight: 8 lbs.
+Category: Kits
+:::
 
 This kit contains items helpful in navigating the winding corridors of pyramids, but is also useful
 in other crypts and tombs. It contains three sticks of [chalk](ref/eq-misc/chalk), five sheets of

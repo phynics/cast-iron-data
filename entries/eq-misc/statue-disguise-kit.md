@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "8 lbs."
 +++
 
-**Price** 50 gp; **Weight** 8 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 8 lbs.
+Category: Tools
+:::
 
 This disguise kit includes metallic or stone-colored makeup and cloth that you can apply to appear
 to be a statue; it grants a +2 bonus only on Disguise checks to resemble metal, stone, or similar

@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "2 lbs."
 +++
 
-**Price** 80 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 80 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 These pouch-like boots come in sets of four, and can be placed on an animal's paws and fastened with
 a drawstring. The soles are sewn with treated leather shaped like human footprints that allow the

@@ -17,8 +17,11 @@ price = "2,700 gp"
 weight = "8 lbs."
 +++
 
-**Price** 2,700 gp; **Weight** 8 lbs.\
-**Category** Kits
+::: statblock
+Price: 2,700 gp
+Weight: 8 lbs.
+Category: Kits
+:::
 
 This waterproof and flame-resistant case contains items useful to a spellcaster traveling the
 Elemental Planes, either intentionally or due to some mishap. The kit includes durable guides to

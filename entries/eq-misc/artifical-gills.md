@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "15 lbs."
 +++
 
-**Price** 50 gp; **Weight** 15 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 15 lbs.
+Category: Adventuring Gear
+:::
 
 Flexible tubes connect a hand pump and a breathing mask to this reinforced leather backpack. When
 the hand pump is pressed, the artificial gills draw in oxygen from the surrounding water and feed it

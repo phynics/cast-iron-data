@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "-"
 +++
 
-**Price** 150 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 150 gp
+Weight: -
+Category: Tincture
+:::
 
 This simple, rosy liquid smells of fresh flowers and perfume. For 1 hour after drinking this
 tincture, you gain a +2 alchemical bonus on Diplomacy checks, and if you fail a Diplomacy check to

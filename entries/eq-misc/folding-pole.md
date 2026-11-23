@@ -17,8 +17,11 @@ price = "2 sp"
 weight = "10 lbs."
 +++
 
-**Price** 2 sp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 sp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 This hinged pole can be unfolded and locked in place with sliding pins, creating a 10-foot pole.
 When collapsed, it is only 3 feet long. Assembling or collapsing the pole is a full-round action.

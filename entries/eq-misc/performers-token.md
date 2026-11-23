@@ -17,8 +17,11 @@ price = "2 sp"
 weight = "-"
 +++
 
-**Price** 2 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Most commonly shaped like a coin, a performer's token is a small keepsake given out by stage
 performers prior to their presentations or used as a token of admission to closed-door performances.

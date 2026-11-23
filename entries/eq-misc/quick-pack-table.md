@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "20 lbs."
 +++
 
-**Price** 5 gp; **Weight** 20 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 20 lbs.
+Category: Adventuring Gear
+:::
 
 A quick-pack table is a piece of lightweight furniture designed to be both portable and versatile.
 Street-corner hawkers commonly use such tables to display small goods for sale.

@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Tincture
+:::
 
 This orange liquid invigorates the mind. For 1 hour after drinking this tincture, you gain a +2
 alchemical bonus on Knowledge checks and can attempt untrained Knowledge checks if the DC is 15 or

@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This variant [sunrod](ref/eq-misc/sunrod) was developed by [fetchling](ref/race/fetchling)
 [alchemists](ref/class/alchemist). When twisted as a standard action, a gloomstick begins drawing in

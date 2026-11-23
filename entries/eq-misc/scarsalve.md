@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 This alchemical substance, originally developed by secretive worshipers of
 [Zon-Kuthon](ref/faith/zon-kuthon) to hide the marks of their devotion, has become popular among

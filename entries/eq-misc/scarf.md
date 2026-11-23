@@ -23,8 +23,11 @@ price = "1 sp-5 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 sp-5 gp; **Weight** 1/2 lb.\
-**Category** Clothing
+::: statblock
+Price: 1 sp-5 gp
+Weight: 1/2 lb.
+Category: Clothing
+:::
 
 Entertainers often employ seductive garb and entrancing props in their performances. Scarves of
 colorful cloth or transparent silk, often embroidered with elaborate scenes or motifs, are favorite

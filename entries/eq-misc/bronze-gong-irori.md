@@ -17,9 +17,12 @@ price = "100 gp"
 weight = "5 lbs."
 +++
 
-**Price** 100 gp; **Weight** 5 lbs.\
-**Category** Channel Foci\
-**Deity** Irori
+::: statblock
+Price: 100 gp
+Weight: 5 lbs.
+Category: Channel Foci
+Deity: Irori
+:::
 
 When activated, this small masterwork metal gong remains charged with power for 8 hours. When the
 gong is struck softly, it emits a clear and pleasing tone that instantly focuses the striker's

@@ -19,8 +19,10 @@ weight = "12 lbs. (treated hemp), 5 lbs. (woven kelp)"
 
 ## Marine rope
 
-**Price** 10 gp (treated hemp), 20 gp (woven kelp); **Weight** 12 lbs. (treated hemp), 5 lbs. (woven
-kelp)
+::: statblock
+Price: 10 gp (treated hemp), 20 gp (woven kelp)
+Weight: 12 lbs. (treated hemp), 5 lbs. (woven kelp)
+:::
 
 Rope used by surface dwellers breaks down when submerged for long periods, so undersea dwellers make
 use of rope designed to withstand their environment. Treated hemp rope is usually created by

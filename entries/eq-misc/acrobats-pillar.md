@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "40 lbs."
 +++
 
-**Price** 50 gp; **Weight** 40 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 40 lbs.
+Category: Tools
+:::
 
 This training contraption consists of a stout, 7-foot-tall wooden pillar with spring-powered wood
 and brass arms jutting sideways at different heights. When the springs are wound, the arms wave

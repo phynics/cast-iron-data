@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Anderos salve and mulibrous tincture are two very different alchemical concoctions with contrary but
 similar goals: refining the mortal body and quieting mental stresses. Anderos salve is a gray paste

@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "5 oz."
 +++
 
-**Price** 10 gp; **Weight** 5 oz.\
-**Category** Mounts/Pets
+::: statblock
+Price: 10 gp
+Weight: 5 oz.
+Category: Mounts/Pets
+:::
 
 These animals are found in areas of the Mwangi Expanse. They have a psychoactive skin venom which
 acts as a mild hallucinogen if the toad's skin is licked - though breeding programs for these

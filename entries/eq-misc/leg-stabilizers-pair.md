@@ -17,8 +17,11 @@ price = "1,000 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1,000 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 1,000 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 These devices strap onto a character's legs in order to allow for easier movement in low- or
 high-gravity environments. A character wearing leg stabilizers can move and attempt Acrobatics

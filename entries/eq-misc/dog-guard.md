@@ -31,8 +31,10 @@ weight = "25 lbs. (guard), 5 lbs. (lap), 50 lbs. (riding)"
 
 ## Dog
 
-**Price** 25 gp (guard), 15 gp (lap), 150 gp (riding); **Weight** 25 lbs. (guard), 5 lbs. (lap), 50
-lbs. (riding)
+::: statblock
+Price: 25 gp (guard), 15 gp (lap), 150 gp (riding)
+Weight: 25 lbs. (guard), 5 lbs. (lap), 50 lbs. (riding)
+:::
 
 Most dogs fall into one of the following categories.
 

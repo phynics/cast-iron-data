@@ -25,8 +25,11 @@ weight = "6 lbs."
 
 ## Courtier's outfit
 
-**Price** 30 gp; **Weight** 6 lbs.\
-**Category** Clothing
+::: statblock
+Price: 30 gp
+Weight: 6 lbs.
+Category: Clothing
+:::
 
 This outfit includes tailored clothes in whatever fashion happens to be current in noble courts of
 that region. Anyone trying to influence nobles or courtiers while wearing street dress will have a

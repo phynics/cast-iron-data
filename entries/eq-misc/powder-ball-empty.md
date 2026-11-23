@@ -19,7 +19,10 @@ weight = "4 lbs. (empty), 1 lb. (fuel)"
 
 ## Powder ball
 
-**Price** 400 gp (empty), 300 gp (fuel); **Weight** 4 lbs. (empty), 1 lb. (fuel)
+::: statblock
+Price: 400 gp (empty), 300 gp (fuel)
+Weight: 4 lbs. (empty), 1 lb. (fuel)
+:::
 
 This steel sphere is about the size of a standard cannon ball, though it's significantly lighter.
 Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By

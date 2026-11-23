@@ -23,8 +23,11 @@ price = "1-6 gp"
 weight = "50 lbs."
 +++
 
-**Price** 1-6 gp; **Weight** 50 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 1-6 gp
+Weight: 50 lbs.
+Category: Mounts/Pets
+:::
 
 As an agricultural animal, goats provide milk, meat, hair, and hide, and they are sometimes used to
 clear fields of weeds and shrubbery. Some spellcasters bond with them as familiars.

@@ -20,8 +20,11 @@ price = "5 sp"
 weight = "5 lbs."
 +++
 
-**Price** 5 sp; **Weight** 5 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 5 sp
+Weight: 5 lbs.
+Category: Alchemical Tools
+:::
 
 This white, dry powder mixes with water to form a paste, which hardens over the course of an hour to
 create a solid material. It can be used to make casts of footprints or carvings, fill in gaps or

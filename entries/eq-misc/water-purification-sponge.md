@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This fist-sized blue sponge absorbs up to 1 pint of water; squeezing the water out of the sponge
 filters and purifies it, making it safe for drinking, washing, and similar activities. Filling and

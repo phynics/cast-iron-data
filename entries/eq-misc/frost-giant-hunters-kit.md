@@ -17,8 +17,11 @@ price = "305 gp"
 weight = "35 lbs."
 +++
 
-**Price** 305 gp; **Weight** 35 lbs.\
-**Category** Kits
+::: statblock
+Price: 305 gp
+Weight: 35 lbs.
+Category: Kits
+:::
 
 This kit includes five bags of [caltrops](ref/eq-misc/caltrops), a [sarissa](ref/eq-weapon/sarissa),
 and two [tangleburn bags](ref/eq-weapon/tangleburn-bag).

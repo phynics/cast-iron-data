@@ -17,8 +17,11 @@ price = "35 gp"
 weight = "2 lbs."
 +++
 
-**Price** 35 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 35 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 This lumpy, lard-like, alchemical substance is designed to protect armor and weapons from dents and
 cracks that commonly develop in close-combat equipment. When liberally applied to armor or weapons,

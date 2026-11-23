@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "20 lbs."
 +++
 
-**Price** 5 gp; **Weight** 20 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 20 lbs.
+Category: Clothing
+:::
 
 Each ski is a flat piece of wood about 5-6 feet long for a Medium wearer, curled up slightly at the
 front end, with lengthwise grooves along the underside and a wooden or metal bracket with laces on

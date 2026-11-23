@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "20 lbs."
 +++
 
-**Price** 80 gp; **Weight** 20 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 80 gp
+Weight: 20 lbs.
+Category: Animal Gear
+:::
 
 This clear, 1-inch-thick glass orb is the size of a large melon and hangs from a thick chain. It can
 hold up to 2 gallons of freshwater or saltwater, allowing it to house aquatic creatures such as fish

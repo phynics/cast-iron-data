@@ -23,8 +23,11 @@ price = "2 gp"
 weight = "2 lbs."
 +++
 
-**Price** 2 gp; **Weight** 2 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 2 gp
+Weight: 2 lbs.
+Category: Animal Gear
+:::
 
 This leather or hemp harness allows a holder to restrain and control a domesticated animal. A
 harness is standard equipment for anyone trying to teach an animal tricks with the Handle Animal

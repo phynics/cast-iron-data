@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "1 lb."
 +++
 
-**Price** 300 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 300 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 A spike hilt can be added to any one-handed or two-handed sword or hafted weapon, which conceals a
 [dagger](ref/eq-weapon/dagger) within the larger weapon. An observer who succeeds at a DC 20

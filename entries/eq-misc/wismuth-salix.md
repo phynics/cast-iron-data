@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This pink liquid has a horrible chalky taste, but is quite effective at counteracting nausea,
 indigestion, and diarrhea. A vial of wismuth salix, taken in small doses during the day, alleviates

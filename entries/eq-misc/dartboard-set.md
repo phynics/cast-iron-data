@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "10 lbs."
 +++
 
-**Price** 5 sp; **Weight** 10 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 5 sp
+Weight: 10 lbs.
+Category: Entertainment
+:::
 
 This set includes a multicolored board and six brass-tipped darts. The board usually consists of a
 layer of soft wood or cork on a hardwood backing.

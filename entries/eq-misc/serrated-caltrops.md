@@ -17,8 +17,11 @@ price = "451 gp"
 weight = "2 lbs."
 +++
 
-**Price** 451 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 451 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Often used by ogres, bugbears, and other creatures that delight in causing excruciating pain to
 others, these caltrops have serrated edges that leave rough wounds that are difficult to heal.

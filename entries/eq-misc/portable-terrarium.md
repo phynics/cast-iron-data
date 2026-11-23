@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "4 lbs."
 +++
 
-**Price** 100 gp; **Weight** 4 lbs.\
-**Category** Tools
+::: statblock
+Price: 100 gp
+Weight: 4 lbs.
+Category: Tools
+:::
 
 This small glass enclosure is 1 foot wide, 1 foot tall, and reinforced with a wooden or metal frame.
 Tiny air holes in the lid allow living creatures inside the portable terrarium to breathe, and the

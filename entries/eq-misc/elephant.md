@@ -20,8 +20,11 @@ price = "1,000 gp"
 weight = "5 tons"
 +++
 
-**Price** 1,000 gp; **Weight** 5 tons\
-**Category** Mounts/Pets
+::: statblock
+Price: 1,000 gp
+Weight: 5 tons
+Category: Mounts/Pets
+:::
 
 These Huge animals are exceptionally strong and are quick learners. Some cultures train them for
 battle or labor. Most known elephants come from savannas or vast rainforest regions. They eat so

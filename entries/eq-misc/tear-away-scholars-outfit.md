@@ -25,8 +25,11 @@ weight = "6 lbs."
 
 ## Scholar's outfit
 
-**Price** 5 gp; **Weight** 6 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 6 lbs.
+Category: Clothing
+:::
 
 Perfect for a scholar, this outfit includes a robe, a belt, a cap, soft shoes, and possibly a cloak.
 

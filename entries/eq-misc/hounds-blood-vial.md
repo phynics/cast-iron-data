@@ -17,8 +17,11 @@ price = "110 gp"
 weight = "-"
 +++
 
-**Price** 110 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 110 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 If you apply the thick, red paste known as hound's blood to your nostrils or upper lip, it greatly
 enhances your sense of smell. For most creatures, this grants a +2 alchemical bonus on Perception

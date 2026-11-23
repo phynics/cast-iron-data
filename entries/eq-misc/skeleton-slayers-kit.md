@@ -17,8 +17,11 @@ price = "120 gp"
 weight = "32 lbs."
 +++
 
-**Price** 120 gp; **Weight** 32 lbs.\
-**Category** Kits
+::: statblock
+Price: 120 gp
+Weight: 32 lbs.
+Category: Kits
+:::
 
 This kit contains all the tools necessary for clearing out small packs of skeletons from tombs and
 crypts. It includes three flasks of [acid](ref/eq-weapon/acid), a [club](ref/eq-weapon/club), a

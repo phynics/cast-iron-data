@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 Darklands explorers who frequently run afoul of [troglodytes](ref/monster/troglodyte), pockets of
 natural gas, and toxic fumes from magma flows use this dense flask to ease their breathing. You can

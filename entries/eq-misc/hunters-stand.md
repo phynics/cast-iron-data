@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "15 lbs."
 +++
 
-**Price** 25 gp; **Weight** 15 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 15 lbs.
+Category: Adventuring Gear
+:::
 
 This platform can be secured to a tree in order to elevate you and give you a better vantage point.
 It takes 1 minute to secure a hunter's stand. Once in the stand, you gain the benefit of

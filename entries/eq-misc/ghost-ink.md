@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Pale blue when wet, ghost ink dries to near-transparency 1 minute after application. Ghost ink is
 used to subtly mark trails and locations. The pigment glows red under the light shed by

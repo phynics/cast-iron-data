@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "450 lbs."
 +++
 
-**Price** 75 gp; **Weight** 450 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 75 gp
+Weight: 450 lbs.
+Category: Mounts/Pets
+:::
 
 These sturdy and majestic caribou roam the northern tundra in great herds, and provide fur, meat,
 and other useful products to both Erutaki and Varki herders and hunters. Irrisen's Jadwiga,

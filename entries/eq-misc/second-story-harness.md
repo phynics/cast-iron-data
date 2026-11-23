@@ -17,8 +17,11 @@ price = "55 gp"
 weight = "3 lbs."
 +++
 
-**Price** 55 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 55 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 A second-story harness is a series of straps, trusses, and buckles that can be worn over clothing or
 armor. A second-story harness allows the wearer to, as a move action, secure herself in place on a

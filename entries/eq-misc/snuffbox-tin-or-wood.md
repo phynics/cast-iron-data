@@ -19,8 +19,10 @@ weight = "- (bone or tortoise shell), - (ivory or precious metal), - (tin or woo
 
 ## Snuffbox
 
-**Price** 25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood);
-**Weight** - (bone or tortoise shell), - (ivory or precious metal), - (tin or wood)
+::: statblock
+Price: 25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood)
+Weight: - (bone or tortoise shell), - (ivory or precious metal), - (tin or wood)
+:::
 
 This tiny, ornamented box's hinged lid latches in place to form a tight seal. The box is used to
 hold various snuffs, powders, tobacco, and similar substances. The box can be made from any number

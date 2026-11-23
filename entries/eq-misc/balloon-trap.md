@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "4 lbs."
 +++
 
-**Price** 150 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 150 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 This trap consists of a buoyant balloon tied to an anchor by a very thin strand of metal. The strand
 acts as a vertical tripwire that triggers the trap, targeting any flying creature that contacts it.

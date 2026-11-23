@@ -22,8 +22,11 @@ weight = "3 lbs."
 
 ## Pickpocket's outfit
 
-**Price** 5 gp; **Weight** 3 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 3 lbs.
+Category: Clothing
+:::
 
 Outfitted with concealed pockets, this clothing gives you a +2 bonus when hiding small objects on
 your person.

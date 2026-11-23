@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Tincture
+:::
 
 This silvery liquid amplifies magical energies. For 1 hour after drinking this tincture, treat your
 caster level as 2 higher for the purpose of determining spells' durations and ranges. The liquid

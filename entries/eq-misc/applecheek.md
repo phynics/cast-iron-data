@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction
 in [halflings](ref/race/halfling). The slight swelling - especially in the face - and mild redness

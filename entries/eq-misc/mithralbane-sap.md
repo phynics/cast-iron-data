@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This black alchemical concoction reacts when it comes into contact with metal, rapidly expanding
 into a sticky, inflexible substance that temporarily renders armor more difficult to use. When the

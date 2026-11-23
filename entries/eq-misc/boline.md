@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 10 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 Bolines are hook-shaped knives commonly used by herbalists and spellcasters to harvest ingredients
 for their craft. A boline's blade is typically 5 inches long, and is too small and irregular to use

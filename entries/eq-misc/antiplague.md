@@ -23,8 +23,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 If you drink a vial of this foul-tasting, milky tonic, you gain a +5 alchemical bonus on Fortitude
 saving throws against disease for the next hour. If already infected, you may also make two saving

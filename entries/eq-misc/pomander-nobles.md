@@ -19,7 +19,10 @@ weight = "1/2 lb. (merchant's), 1/2 lb. (noble's)"
 
 ## Pomander
 
-**Price** 12 gp (merchant's), 225 gp (noble's); **Weight** 1/2 lb. (merchant's), 1/2 lb. (noble's)
+::: statblock
+Price: 12 gp (merchant's), 225 gp (noble's)
+Weight: 1/2 lb. (merchant's), 1/2 lb. (noble's)
+:::
 
 A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a
 walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and

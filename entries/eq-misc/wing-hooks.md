@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "2 lbs."
 +++
 
-**Price** 150 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 150 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 These wooden braces hook on to a [gathlain's](ref/race/gathlain) wings to help in clinging to ivy,
 tree limbs, or other surfaces with significant handholds. Many wing hooks are decorated with

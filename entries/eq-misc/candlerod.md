@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 1 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 Similar to but weaker than a [sunrod](ref/eq-misc/sunrod), this stick glows like a candle when
 struck and lasts for 12 hours.

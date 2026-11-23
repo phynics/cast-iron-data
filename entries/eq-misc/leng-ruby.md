@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "-"
 +++
 
-**Price** 500 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 500 gp
+Weight: -
+Category: Black Market
+:::
 
 Leng rubies are red gemstones all identical in size and appearance, distinguishable from ordinary
 rubies by their complete lack of imperfections or inclusions. Mined on the desolate Plateau of

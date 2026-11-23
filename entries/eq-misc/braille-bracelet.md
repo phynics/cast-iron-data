@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This bracelet contains 10 small clay beads, each carved with a raised symbol. The beads can be
 removed from the bracelet cord and rearranged in any order. Once arranged, the carvings can be felt

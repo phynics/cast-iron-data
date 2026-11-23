@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This pouch of toiletries includes a comb, scissors, a nail file, a sponge, a hairbrush, a miniature
 mirror, soap, a chewing stick, and tooth powder.

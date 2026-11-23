@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "8 lbs."
 +++
 
-**Price** 20 gp; **Weight** 8 lbs.\
-**Category** Clothing
+::: statblock
+Price: 20 gp
+Weight: 8 lbs.
+Category: Clothing
+:::
 
 These clothes are favored by gnome inventors and wanderers, and consist of sturdy boots, a pair of
 stout linen pants or skirt, a cloth shirt, leather gloves, a hat and cloak, and numerous belts,

@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 40 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 40 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This alchemical fluid is viscous and clear, and it emits a strong chemical smell when exposed to
 air. Vermin are attracted to it and perceive anything marked with it as prey. Spiders, insects, and

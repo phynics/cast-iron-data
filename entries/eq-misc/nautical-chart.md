@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Nautical charts map waterways, showing the depth of water and height of coastlines, as well as
 currents, harbors, navigational hazards, reefs, and tides. A nautical chart grants a +4 circumstance

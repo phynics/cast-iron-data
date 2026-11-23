@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "-"
 +++
 
-**Price** 80 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 80 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 When ingested, this thin serum awakens your potential for independent action. If you are under the
 influence of a mind-affecting effect, you receive a new saving throw with a +4 alchemical bonus to

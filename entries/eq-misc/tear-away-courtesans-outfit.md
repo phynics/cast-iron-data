@@ -22,8 +22,11 @@ weight = "4 lbs."
 
 ## Courtesan's outfit
 
-**Price** 8 gp; **Weight** 4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 8 gp
+Weight: 4 lbs.
+Category: Clothing
+:::
 
 This outfit includes fine silk or satin garments tailored to complement your figure. In addition,
 the outfit contains a loose shawl or robe with several discreet pockets for items such as perfume,

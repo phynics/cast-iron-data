@@ -20,8 +20,11 @@ price = "1,000 gp"
 weight = "1 lb."
 +++
 
-**Price** 1,000 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1,000 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 Objects viewed through a spyglass are magnified to twice their size. Characters using a spyglass
 take a -1 penalty on Perception skill checks per 20 feet of distance to the target, if the target is

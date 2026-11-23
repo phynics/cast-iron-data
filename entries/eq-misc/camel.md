@@ -23,8 +23,11 @@ price = "150 gp"
 weight = "1,500 lbs"
 +++
 
-**Price** 150 gp; **Weight** 1,500 lbs\
-**Category** Mounts/Pets
+::: statblock
+Price: 150 gp
+Weight: 1,500 lbs
+Category: Mounts/Pets
+:::
 
 Due to their incredible endurance, these Large animals are the preferred mounts of desert-dwelling
 people. [Camels](ref/monster/herd-animal-camel) tend to be ill-tempered beasts.

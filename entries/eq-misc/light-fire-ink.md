@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "-"
 +++
 
-**Price** 40 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 40 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This alchemically infused ink ensures secret messages destroy themselves after being read. If light
 strikes the ink after it has dried, chemicals cause it to spontaneously combust within about a

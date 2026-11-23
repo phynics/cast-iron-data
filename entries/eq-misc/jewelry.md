@@ -20,8 +20,11 @@ price = "Varies"
 weight = "Varies"
 +++
 
-**Price** Varies; **Weight** Varies\
-**Category** Clothing
+::: statblock
+Price: Varies
+Weight: Varies
+Category: Clothing
+:::
 
 The price of jewelry varies wildly by its quality. Many cultures, particularly nomads, consciously
 use jewelry as a form of portable wealth, most notably with belts and bangles made from coins. A

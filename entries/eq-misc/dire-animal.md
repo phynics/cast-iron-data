@@ -17,8 +17,11 @@ price = "Varies"
 weight = "-"
 +++
 
-**Price** Varies; **Weight** -\
-**Category** Mounts/Pets
+::: statblock
+Price: Varies
+Weight: -
+Category: Mounts/Pets
+:::
 
 Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel
 lords, either for brutish protection or to pit against equally vicious creatures in violent animal

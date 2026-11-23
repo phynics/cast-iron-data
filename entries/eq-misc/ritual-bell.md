@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This large, handheld silver bell has a long wooden handle. Ritual bells are typically used for
 ceremonial purposes, often as a means of getting the attention of large audiences. Each ritual bell

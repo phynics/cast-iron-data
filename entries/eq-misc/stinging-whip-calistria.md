@@ -17,9 +17,12 @@ price = "50 gp"
 weight = "5 lbs."
 +++
 
-**Price** 50 gp; **Weight** 5 lbs.\
-**Category** Channel Foci\
-**Deity** [Calistria](ref/faith/calistria)
+::: statblock
+Price: 50 gp
+Weight: 5 lbs.
+Category: Channel Foci
+Deity: [Calistria](ref/faith/calistria)
+:::
 
 This whip is made from braids of metallic wire. When it is activated, the wielder can expend the
 power within it to gain a sacred (if activated with positive energy) or profane (if activated with

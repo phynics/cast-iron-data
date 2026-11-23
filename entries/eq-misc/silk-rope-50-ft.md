@@ -20,7 +20,10 @@ price = "10 gp"
 weight = "5 lbs."
 +++
 
-**Price** 10 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 This 50-foot length of silk rope has 4 hit points and can be broken with a DC 24 Strength check.

@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 This term covers items not listed elsewhere, such as elaborate wigs, silk-lined cloaks, and ruffled
 blouses. While such garments usually offers no benefit beyond fashion, a silksworn occultist must

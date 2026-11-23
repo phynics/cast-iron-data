@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 A miner's bird is a Diminutive, semi-trained animal (typically a canary or other delicate songbird)
 in a portable cage. The enclosure is most often made of wood or metal. The bird within has 1 hit

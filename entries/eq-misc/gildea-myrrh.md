@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Known colloquially as "healing myrrh," gildea myrrh is the most famous invention of the scholars of
 Katheer's Venicaan College of Medicaments and Chirurgery.

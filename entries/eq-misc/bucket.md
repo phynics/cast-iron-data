@@ -20,7 +20,10 @@ price = "5 sp"
 weight = "2 lbs."
 +++
 
-**Price** 5 sp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 A typical bucket has a rope handle and can hold 1-2 gallons of liquid.

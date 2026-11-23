@@ -26,8 +26,11 @@ price = "1 cp-20 gp"
 weight = "-"
 +++
 
-**Price** 1 cp-20 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 cp-20 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 The price of a tattoo depends on the quality, size, and number of colors used. A coin-sized tattoo
 in blue ink that will blur over a decade costs 1 cp, a hand-sized one in black ink that won't fade

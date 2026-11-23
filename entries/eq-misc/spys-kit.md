@@ -17,8 +17,11 @@ price = "140 gp"
 weight = "12-1/2 lbs."
 +++
 
-**Price** 140 gp; **Weight** 12-1/2 lbs.\
-**Category** Kits
+::: statblock
+Price: 140 gp
+Weight: 12-1/2 lbs.
+Category: Kits
+:::
 
 This kit includes a [book of letters](ref/eq-misc/book-of-letters), a
 [disguise kit](ref/eq-misc/disguise-kit), a [hollow-heeled boot](ref/eq-misc/hollow-heeled-boot),

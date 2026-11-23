@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "25 lbs."
 +++
 
-**Price** 30 gp; **Weight** 25 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 30 gp
+Weight: 25 lbs.
+Category: Adventuring Gear
+:::
 
 A cannon ball is the ammunition of a [cannon](ref/eq-siegeengine/cannon) and many other siege
 firearms. Picking up or drawing a cannon ball requires a move action for Medium and Small creatures,

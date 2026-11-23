@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This foot-long strip of double-sided alchemical adhesive is sealed with waxed paper. When unsealed
 (this requires a move action) and pressed between two surfaces (this also requires a move action), a

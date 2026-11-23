@@ -17,8 +17,11 @@ price = "5,000 gp"
 weight = "1,600 lbs."
 +++
 
-**Price** 5,000 gp; **Weight** 1,600 lbs.\
-**Category** Transport, Air
+::: statblock
+Price: 5,000 gp
+Weight: 1,600 lbs.
+Category: Transport, Air
+:::
 
 A rare and dangerous marvel from the strange nation of Alkenstar, this light, airborne device is
 held aloft by a huge buoyant balloon which is attached by chains to an open-air wicker basket.

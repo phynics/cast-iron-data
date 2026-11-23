@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "-"
 +++
 
-**Price** 150 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 150 gp
+Weight: -
+Category: Tincture
+:::
 
 This tincture is made of thick syrup dissolved in potent alcohol. For 1 hour after drinking this
 tincture, you gain DR 1/slashing or piercing and can ignore pain effects. This numbing of your body

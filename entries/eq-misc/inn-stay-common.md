@@ -22,9 +22,10 @@ weight = "- (common), - (good), - (poor), - (suite, average), - (suite, luxuriou
 
 ## Inn stay
 
-**Price** 5 sp (common), 2 gp (good), 2 sp (poor), 16 gp (suite, average), 32 gp+ (suite,
-luxurious), 4 gp (suite, small); **Weight** - (common), - (good), - (poor), - (suite, average), -
-(suite, luxurious), - (suite, small)
+::: statblock
+Price: 5 sp (common), 2 gp (good), 2 sp (poor), 16 gp (suite, average), 32 gp+ (suite, luxurious), 4 gp (suite, small)
+Weight: - (common), - (good), - (poor), - (suite, average), - (suite, luxurious), - (suite, small)
+:::
 
 The listed price is for a single night's stay at an inn. Poor accommodations at an inn amount to a
 place on the floor near the hearth. Common accommodations consist of a place on a raised, heated

@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "-"
 +++
 
-**Price** 80 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 80 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 [Pathfinders](ref/rule/aff-scholars) pride themselves on their camaraderie, and among the worst
 threats are those that can magically compel agents to fight among themselves. Nostalgia oil is a

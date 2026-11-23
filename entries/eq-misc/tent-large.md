@@ -28,8 +28,10 @@ weight = "40 lbs. (large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)
 
 ## Tent
 
-**Price** 30 gp (large), 15 gp (medium), 100 gp (pavilion), 10 gp (small); **Weight** 40 lbs.
-(large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)
+::: statblock
+Price: 30 gp (large), 15 gp (medium), 100 gp (pavilion), 10 gp (small)
+Weight: 40 lbs. (large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)
+:::
 
 Tents come in a variety of sizes and accommodate between one and 10 people. A small tent holds one
 Medium creature and takes 20 minutes to assemble, a medium tent holds two creatures and takes 30

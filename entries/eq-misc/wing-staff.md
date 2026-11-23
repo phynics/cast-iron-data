@@ -17,8 +17,11 @@ price = "1,000 gp"
 weight = "6 lbs."
 +++
 
-**Price** 1,000 gp; **Weight** 6 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1,000 gp
+Weight: 6 lbs.
+Category: Adventuring Gear
+:::
 
 This [quarterstaff](ref/eq-weapon/quarterstaff) can unfold two sails on each side to become a simple
 glider that takes up no more space than its wielder. With a successful DC 10 Fly check as a

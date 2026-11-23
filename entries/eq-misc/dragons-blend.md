@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Food/Drink
+:::
 
 This aromatic blend fills the belly with the sensation of fire, warming the drinker's body. By
 drinking two cups of dragon's blend coffee, you gain cold resistance 5 for 1 hour. Once the coffee

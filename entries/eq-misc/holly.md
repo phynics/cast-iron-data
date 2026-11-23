@@ -17,8 +17,11 @@ price = "0 gp"
 weight = "-"
 +++
 
-**Price** 0 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 0 gp
+Weight: -
+Category: Black Market
+:::
 
 The bright red berries of the holly tree have many uses as decorations and ritual objects. Druids
 harvest holly berries with specially prepared tools and during sacred times of the year.

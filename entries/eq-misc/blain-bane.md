@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This alchemically infused wax is spread over exposed skin to protect it from chapping, cold, dry
 winds, heat, and the loss of moisture. Applying it takes 5 minutes; once applied, it reduces any

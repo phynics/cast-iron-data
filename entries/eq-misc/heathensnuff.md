@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Black Market
+:::
 
 Others lacking the will to harden themselves appropriately turn to alchemical methods to endure.
 This purplish paste is made from sea urchin toxins and numbs the user's ability to sense pain.

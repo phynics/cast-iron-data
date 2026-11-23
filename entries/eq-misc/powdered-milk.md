@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 This dry powder can be mixed with water to produce skim milk. It is dried by slowly adding millet
 flour to milk while heating it, cooking it down until it becomes thick, then allowing it to dry.

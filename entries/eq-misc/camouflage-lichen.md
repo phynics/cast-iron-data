@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Though [oreads](ref/race/oread) with obviously stony features are rare, almost all oreads have an
 essentially earthen quality to their skin that makes it perfect for cultivating plant life. Where

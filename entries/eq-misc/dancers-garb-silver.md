@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "5 lbs."
 +++
 
-**Price** 200 gp; **Weight** 5 lbs.\
-**Category** Clothing
+::: statblock
+Price: 200 gp
+Weight: 5 lbs.
+Category: Clothing
+:::
 
 In addition to granting the same bonus on Perform (dance) checks as regular dancer's garb, silver
 dancer's garb is considered a silver instrument for

@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 20 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 These offerings take many forms, such as food, incense, pinwheels, rare teas, perfectly smooth white
 pebbles, or stone tablets, but they are always kept in pouches tied with ribbon. Travelers in the

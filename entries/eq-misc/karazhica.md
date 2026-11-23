@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Food/Drink
+:::
 
 The gold standard of coffee in Ular Kel, Karazhica is notable for its acidity and smooth flavor. By
 drinking two cups of Karazhica coffee, you can walk for an additional hour before you must make a

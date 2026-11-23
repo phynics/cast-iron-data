@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "10 lbs."
 +++
 
-**Price** 5 gp; **Weight** 10 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 5 gp
+Weight: 10 lbs.
+Category: Animal Gear
+:::
 
 Used in the Realm of the Mammoth Lords to train and direct domesticated megafauna, this goad is a
 sturdy wooden pole 10 to 15 feet long with a prod of polished bone, ivory, or soapstone on one end.

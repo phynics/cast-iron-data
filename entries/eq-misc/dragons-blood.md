@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "1 lb."
 +++
 
-**Price** 60 gp; **Weight** 1 lb.\
-**Category** Dragoncraft
+::: statblock
+Price: 60 gp
+Weight: 1 lb.
+Category: Dragoncraft
+:::
 
 Renowned for its energizing and defensive properties, dragon's blood has a variety of effects,
 depending on how it's used. In addition to use in its raw form, it's also valuable as an alchemical

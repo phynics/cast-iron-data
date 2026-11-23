@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "5 lbs."
 +++
 
-**Price** 1 sp; **Weight** 5 lbs.\
-**Category** Tools
+::: statblock
+Price: 1 sp
+Weight: 5 lbs.
+Category: Tools
+:::
 
 Swim fins add 10 feet to your swimming speed but reduce your base speed to 5 feet. Donning or
 doffing swim fins requires 5 rounds.

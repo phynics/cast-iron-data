@@ -17,8 +17,11 @@ price = "1,200 gp"
 weight = "1 lb."
 +++
 
-**Price** 1,200 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 1,200 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 This strange piece of equipment only works for [sylphs](ref/race/sylph) and similar creatures, whose
 light, airy bodies can be borne upon the winds. Looking like a fine silk traveler's cloak, a wing

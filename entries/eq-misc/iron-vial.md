@@ -20,7 +20,10 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This metal potion bottle has [hardness](ref/umr/hardness) 5, 3 hit points, and a break DC of 14.

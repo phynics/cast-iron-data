@@ -20,8 +20,11 @@ price = "3 gp"
 weight = "5 lbs."
 +++
 
-**Price** 3 gp; **Weight** 5 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 3 gp
+Weight: 5 lbs.
+Category: Mounts/Pets
+:::
 
 These Tiny herbivorous primates can be found in a variety of habitats, but typically favor warm
 forests and jungles. They can grasp and carry objects that weigh under a pound. They are sometimes

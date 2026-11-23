@@ -20,8 +20,11 @@ price = "1 cp"
 weight = "1 lb."
 +++
 
-**Price** 1 cp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 cp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the
 [light level](ref/rule/vision-and-light) by one step for an additional 20 feet beyond that area

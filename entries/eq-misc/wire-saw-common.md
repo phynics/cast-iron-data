@@ -19,7 +19,10 @@ weight = "- (adamantine), - (common)"
 
 ## Wire saw
 
-**Price** 150 gp (adamantine), 30 gp (common); **Weight** - (adamantine), - (common)
+::: statblock
+Price: 150 gp (adamantine), 30 gp (common)
+Weight: - (adamantine), - (common)
+:::
 
 This flexible saw consists of an abrasive wire hooked to two metal rings. By feeding the wire around
 a deadbolt or small door bar, you can use the rings to quietly saw through the obstruction. The saw

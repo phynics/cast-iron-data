@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "20 lbs."
 +++
 
-**Price** 10 gp; **Weight** 20 lbs.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 20 lbs.
+Category: Tools
+:::
 
 This pair of small grindstones allows a user to grind a number of substances into a fine powder. The
 amount of powder the quern produces varies depending on the substance, but you can grind 8 pounds of

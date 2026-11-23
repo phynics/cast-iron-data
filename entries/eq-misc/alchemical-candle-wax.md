@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1 lb."
 +++
 
-**Price** 150 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 150 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle
 made from alchemical candle wax normally possesses a sweet, honey-like smell, but a character who is

@@ -17,8 +17,11 @@ price = "115 gp"
 weight = "1 lb."
 +++
 
-**Price** 115 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 115 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This ornately etched [censer](ref/eq-misc/censer) has a small hidden compartment under the heat
 source that can hold 1 dose of poison. When in use, the censer's heat source indirectly heats the

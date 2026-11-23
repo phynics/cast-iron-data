@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "1 lb."
 +++
 
-**Price** 30 gp; **Weight** 1 lb.\
-**Category** Kits
+::: statblock
+Price: 30 gp
+Weight: 1 lb.
+Category: Kits
+:::
 
 An incredibly useful kit for convincing cultists and evildoers of all kinds to divulge their
 nefarious plots, interrogation tools appear intentionally gruesome. Various pliers, knives, hooks,

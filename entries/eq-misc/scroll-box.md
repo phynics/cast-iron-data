@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This wooden box easily holds 10 scrolls and has small clips or bookmarks for easier indexing.
 Retrieving a scroll from a held scroll box is a move action. A scroll box has

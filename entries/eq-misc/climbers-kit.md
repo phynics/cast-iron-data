@@ -20,7 +20,10 @@ price = "80 gp"
 weight = "5 lbs."
 +++
 
-**Price** 80 gp; **Weight** 5 lbs.\
-**Category** Tools
+::: statblock
+Price: 80 gp
+Weight: 5 lbs.
+Category: Tools
+:::
 
 These crampons, pitons, ropes, and other tools give you a +2 circumstance bonus on Climb checks.

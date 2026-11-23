@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "2 lbs."
 +++
 
-**Price** 100 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 You can consult this book while attempting a Linguistics check to understand or create a coded
 message; doing so makes the task take 10 times longer than normal but grants you a +2 circumstance

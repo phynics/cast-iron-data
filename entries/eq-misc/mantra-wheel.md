@@ -17,8 +17,11 @@ price = "450 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 450 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 450 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This handheld metal cylinder is embossed with traditional symbols tied to protectiveness and has a
 handle that can be used to spin it. Mantra wheels are often used by divine spellcasters who are

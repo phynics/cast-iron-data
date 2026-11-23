@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "1 lb."
 +++
 
-**Price** 75 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 75 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 When this unguent - prepared with vile alchemical reagents and the gore of fiends - is applied to a
 wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms

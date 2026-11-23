@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "500 lbs."
 +++
 
-**Price** 200 gp; **Weight** 500 lbs.\
-**Category** Kits
+::: statblock
+Price: 200 gp
+Weight: 500 lbs.
+Category: Kits
+:::
 
 This kit for a [heavy wagon](ref/eq-misc/wagon-heavy) provides a water tank, platform pump, and a
 rotating nozzle. If the operator succeeds at a DC 20 Strength check, the fire pump releases a stream

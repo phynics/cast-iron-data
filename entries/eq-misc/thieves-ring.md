@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Tools
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Tools
+:::
 
 This slightly oversized ring conceals a few lockpicks and other tools coiled inside its band. These
 discreet tools, made of a metal alloy that springs straight once the tool is removed from the band,

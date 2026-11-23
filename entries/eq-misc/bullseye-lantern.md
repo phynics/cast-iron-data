@@ -23,8 +23,11 @@ price = "12 gp (normal), 17 gp (waterproof)"
 weight = "3 lbs."
 +++
 
-**Price** 12 gp (normal), 17 gp (waterproof); **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 12 gp (normal), 17 gp (waterproof)
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 A bullseye lantern provides normal light in a 60-foot cone and increases the
 [light level](ref/rule/vision-and-light) by one step in the area beyond that, out to a 120-foot cone

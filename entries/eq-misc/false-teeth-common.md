@@ -19,8 +19,10 @@ weight = "1/2 lb. (clockwork), - (common), - (masterwork)"
 
 ## False teeth
 
-**Price** 100 gp (clockwork), 5 gp (common), 50 gp (masterwork); **Weight** 1/2 lb. (clockwork), -
-(common), - (masterwork)
+::: statblock
+Price: 100 gp (clockwork), 5 gp (common), 50 gp (masterwork)
+Weight: 1/2 lb. (clockwork), - (common), - (masterwork)
+:::
 
 These prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from
 wood or animal teeth are more common, while masterwork varieties are sculpted from bone or

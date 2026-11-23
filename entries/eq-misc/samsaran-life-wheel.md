@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 25 gp; **Weight** 1/2 lb.\
-**Category** Tools
+::: statblock
+Price: 25 gp
+Weight: 1/2 lb.
+Category: Tools
+:::
 
 This handheld wooden spool spins freely within a box-like housing. Inscribed upon the exterior of
 the spool are dozens of samsaran prayers along with names or symbols associated with a samsaran's

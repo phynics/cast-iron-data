@@ -19,8 +19,10 @@ weight = "6 tons (combat-trained), 6 tons (normal)"
 
 ## Woolly mammoth
 
-**Price** 4,500 gp (combat-trained), 3,000 gp (normal); **Weight** 6 tons (combat-trained), 6 tons
-(normal)
+::: statblock
+Price: 4,500 gp (combat-trained), 3,000 gp (normal)
+Weight: 6 tons (combat-trained), 6 tons (normal)
+:::
 
 Poached from the Realm of the Mammoth Lords, these hairy pachyderms are used by the orcs of Belkzen
 as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit

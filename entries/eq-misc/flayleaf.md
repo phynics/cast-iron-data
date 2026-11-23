@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 20 gp
+Weight: -
+Category: Black Market
+:::
 
 These narrow, rust-colored leaves produce a mildly hallucinogenic smoke that also serves as powerful
 sedative. Users are immune to pain for 4 hours after smoking flayleaf, but during this time they

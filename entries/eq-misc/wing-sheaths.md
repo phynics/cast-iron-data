@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "10 lbs."
 +++
 
-**Price** 10 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 Wing sheaths are protective coverings created from thick fabric or canvas. The sheaths are designed
 to tightly cover a pair of wings to keep them hidden beneath a cloak or loose-fitting clothing.

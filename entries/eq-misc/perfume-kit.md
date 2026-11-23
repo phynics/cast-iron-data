@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "10 lbs."
 +++
 
-**Price** 40 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 40 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 A perfume kit consists of an atomizer and a diverse array of perfumes, scented oils, wild flowers,
 and herbs. Applying scents from a perfume kit takes 1 minute, and grants you a +1 circumstance bonus

@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1/4 lb."
 +++
 
-**Price** 10 gp; **Weight** 1/4 lb.\
-**Category** Clothing
+::: statblock
+Price: 10 gp
+Weight: 1/4 lb.
+Category: Clothing
+:::
 
 Made from hardened leather reinforced with a band of metal, this collar protects the wearer against
 [vampire](ref/template/vampire) bites when worn around the throat. It provides a +1 armor bonus to

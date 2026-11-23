@@ -19,7 +19,10 @@ weight = "5 lbs., 2-1/2 lbs. (mithral)"
 
 ## Cauldron
 
-**Price** 1 gp, 2,501 gp (mithral); **Weight** 5 lbs., 2-1/2 lbs. (mithral)
+::: statblock
+Price: 1 gp, 2,501 gp (mithral)
+Weight: 5 lbs., 2-1/2 lbs. (mithral)
+:::
 
 This larger version of an iron pot holds approximately 1 gallon - enough to fill the bellies of four
 hungry humans for one meal. It can also be used for potion-making and similar activities. A mithral

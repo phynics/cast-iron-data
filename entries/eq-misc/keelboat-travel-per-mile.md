@@ -21,8 +21,11 @@ price = "3,000 gp"
 
 ## Keelboat
 
-**Price** 3,000 gp; **Price of Passage** (per mile) 1 sp\
-**Category** Transport, Sea
+::: statblock
+Price: 3,000 gp
+Price of Passage: (per mile) 1 sp
+Category: Transport, Sea
+:::
 
 This 50- to 75-foot-long ship is 15 to 20 feet wide and has a dozen [oars](ref/eq-misc/oar) to
 supplement its single mast with a square sail. A [keelboat](ref/rule/wv-keelboat) requires a crew of

@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "10 lbs."
 +++
 
-**Price** 80 gp; **Weight** 10 lbs.\
-**Category** Kits
+::: statblock
+Price: 80 gp
+Weight: 10 lbs.
+Category: Kits
+:::
 
 This kit consists of hooks, knives, tweezers, and other metal tools, plus various vials of
 alchemical preservatives, all organized within a sturdy satchel. The tools provide a +2 circumstance

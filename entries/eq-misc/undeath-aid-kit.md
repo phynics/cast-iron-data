@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 500 gp; **Weight** 1/2 lb.\
-**Category** Kits
+::: statblock
+Price: 500 gp
+Weight: 1/2 lb.
+Category: Kits
+:::
 
 This small leather satchel contains various alchemical remedies that treat common maladies caused by
 exposure to undead. An undeath aid kit contains 1 dose of each of the following alchemical remedies:

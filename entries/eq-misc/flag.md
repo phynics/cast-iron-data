@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "3 lbs."
 +++
 
-**Price** 10 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 A flag is a colorful banner that bears the heraldry or symbol of a nation or organization. A
 character with the [Flagbearer](ref/feat/flagbearer) feat who bears a flag can grant additional

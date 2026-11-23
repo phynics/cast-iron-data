@@ -19,8 +19,10 @@ weight = "3 lbs. (common), 4 lbs. (elegant), 3 lbs. (simple)"
 
 ## Cane
 
-**Price** 1 sp (common), 25 gp (elegant), 2 gp (simple); **Weight** 3 lbs. (common), 4 lbs.
-(elegant), 3 lbs. (simple)
+::: statblock
+Price: 1 sp (common), 25 gp (elegant), 2 gp (simple)
+Weight: 3 lbs. (common), 4 lbs. (elegant), 3 lbs. (simple)
+:::
 
 A cane is a walking stick fashioned from wood. A cane sports either a metal cap or a curved top
 that's easy to grip. Simple canes are no more than a sturdy branch, while high quality canes are

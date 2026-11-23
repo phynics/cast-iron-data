@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Entertainment
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Entertainment
+:::
 
 This group of four brightly colored sticks is adorned with colorful streamers that can be juggled
 and manipulated to create displays and patterns. Halflings use them to even greater effect, gaining

@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "50 lbs."
 +++
 
-**Price** 5 gp; **Weight** 50 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 50 lbs.
+Category: Adventuring Gear
+:::
 
 This dense anchor is attached to a sturdy but easily detachable chain (removing the chain is a move
 action). Wearing a bottomwalker's anchor all but guarantees an undersea explorer a swiftly sinking

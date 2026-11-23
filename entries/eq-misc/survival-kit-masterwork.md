@@ -19,7 +19,10 @@ weight = "4 lbs. (common), 5 lbs. (masterwork)"
 
 ## Survival kit
 
-**Price** 5 gp (common), 50 gp (masterwork); **Weight** 4 lbs. (common), 5 lbs. (masterwork)
+::: statblock
+Price: 5 gp (common), 50 gp (masterwork)
+Weight: 4 lbs. (common), 5 lbs. (masterwork)
+:::
 
 A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It
 typically contains a [flint and steel](ref/eq-misc/flint-and-steel), a

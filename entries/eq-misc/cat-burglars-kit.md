@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "12 lbs."
 +++
 
-**Price** 15 gp; **Weight** 12 lbs.\
-**Category** Kits
+::: statblock
+Price: 15 gp
+Weight: 12 lbs.
+Category: Kits
+:::
 
 This kit includes a [glass cutter](ref/eq-misc/glass-cutter), [glue paper](ref/eq-misc/glue-paper)
 (5 sheets), a [grappling hook](ref/eq-misc/grappling-hook), a

@@ -20,8 +20,11 @@ price = "5 sp-10 gp"
 weight = "15 lbs."
 +++
 
-**Price** 5 sp-10 gp; **Weight** 15 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 5 sp-10 gp
+Weight: 15 lbs.
+Category: Entertainment
+:::
 
 This simple 10-pins game is often complicated by irregularities in the ball, the pins, and the
 playing field.

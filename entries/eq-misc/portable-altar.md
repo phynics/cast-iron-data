@@ -23,8 +23,11 @@ price = "250 gp"
 weight = "40 lbs."
 +++
 
-**Price** 250 gp; **Weight** 40 lbs.\
-**Category** Tools
+::: statblock
+Price: 250 gp
+Weight: 40 lbs.
+Category: Tools
+:::
 
 A portable altar is typically made of wood and is ornately carved and decorated with the iconography
 of a specific religion. The top of the altar lifts up, and items such as candles, incense, and oil

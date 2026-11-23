@@ -17,9 +17,12 @@ price = "250 gp"
 weight = "1 lb."
 +++
 
-**Price** 250 gp; **Weight** 1 lb.\
-**Category** Channel Foci\
-**Deity** [Nethys](ref/faith/nethys)
+::: statblock
+Price: 250 gp
+Weight: 1 lb.
+Category: Channel Foci
+Deity: [Nethys](ref/faith/nethys)
+:::
 
 This mask is a representation of Nethys's own. Activating the mask charges it with healing power. If
 a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes

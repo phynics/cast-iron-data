@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "12 lbs."
 +++
 
-**Price** 30 gp; **Weight** 12 lbs.\
-**Category** Tools
+::: statblock
+Price: 30 gp
+Weight: 12 lbs.
+Category: Tools
+:::
 
 This form-fitting garment is strung all around with dozens of small bells. You can practice your
 sneaking technique by donning a belled catsuit and then attempting to move without letting any of

@@ -23,8 +23,11 @@ price = "15 gp"
 weight = "1 lb."
 +++
 
-**Price** 15 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 15 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This dye (available in several colors) creates an obvious stain wherever it is splashed. Washing has
 no effect for the first 72 hours (though magic can erase it), but it fades completely after 2 weeks.

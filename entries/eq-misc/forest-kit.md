@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "29 lbs."
 +++
 
-**Price** 25 gp; **Weight** 29 lbs.\
-**Category** Kits
+::: statblock
+Price: 25 gp
+Weight: 29 lbs.
+Category: Kits
+:::
 
 This kit contains tools useful for building shelters and finding food in a forest. It includes a
 [bear trap](ref/eq-misc/bear-trap), [camouflage netting](ref/eq-misc/camouflage-netting), five

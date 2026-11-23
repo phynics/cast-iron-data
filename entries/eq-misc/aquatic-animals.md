@@ -17,8 +17,11 @@ price = "Varies"
 weight = "-"
 +++
 
-**Price** Varies; **Weight** -\
-**Category** Mounts/Pets
+::: statblock
+Price: Varies
+Weight: -
+Category: Mounts/Pets
+:::
 
 Many of the following aquatic animals can be bought at seaside markets or from fisherfolk merchants
 out at sea. Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating

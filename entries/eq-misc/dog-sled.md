@@ -25,8 +25,11 @@ category = "Miscellaneous Equipment"
 price = "20 gp"
 +++
 
-**Price** 20 gp; **Price of Passage** (per mile) 3 cp\
-**Category** Transport, Land
+::: statblock
+Price: 20 gp
+Price of Passage: (per mile) 3 cp
+Category: Transport, Land
+:::
 
 This sled is designed to be pulled over snow and ice by a team of trained
 [riding dogs](ref/eq-misc/dog-riding). Most sleds have runners at the back for a musher to stand on.

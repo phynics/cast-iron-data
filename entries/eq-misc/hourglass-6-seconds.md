@@ -25,8 +25,10 @@ weight = "1 lb. (1 hour), 1/2 lb. (1 minute), - (6 seconds)"
 
 ## Hourglass
 
-**Price** 25 gp (1 hour), 20 gp (1 minute), 10 gp (6 seconds); **Weight** 1 lb. (1 hour), 1/2 lb. (1
-minute), - (6 seconds)
+::: statblock
+Price: 25 gp (1 hour), 20 gp (1 minute), 10 gp (6 seconds)
+Weight: 1 lb. (1 hour), 1/2 lb. (1 minute), - (6 seconds)
+:::
 
 The standard hourglass takes 1 hour to empty the sand from the upper chamber; smaller ones that mark
 time more precisely are also readily available, in 1-minute and 6-second sizes. Hourglasses tracking

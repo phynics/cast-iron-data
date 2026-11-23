@@ -17,8 +17,11 @@ price = "35 gp"
 weight = "-"
 +++
 
-**Price** 35 gp; **Weight** -\
-**Category** Elven Herbs
+::: statblock
+Price: 35 gp
+Weight: -
+Category: Elven Herbs
+:::
 
 The scent of freshly crushed sootheweed leaves makes animals and some magical beasts become docile
 after 1 full round of exposure to the plant's fragrance. When used within 30 feet of an animal or

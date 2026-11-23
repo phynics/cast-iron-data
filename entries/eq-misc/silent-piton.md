@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 sp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 A silent piton is identical to a regular [piton](ref/eq-misc/piton), except it has been alchemically
 treated to reduce the noise it generates when driven into a surface. A silent piton staked into a

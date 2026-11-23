@@ -20,8 +20,11 @@ price = "1 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 cp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 cp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 This drink is brewed by pouring boiling water through crushed, roasted coffee beans. Two cups is
 potent enough to reduce the penalties from the [fatigued](ref/misc/fatigued) condition from -2 to -1

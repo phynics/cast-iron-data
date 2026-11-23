@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "5 lbs."
 +++
 
-**Price** 50 gp; **Weight** 5 lbs.\
-**Category** Kits
+::: statblock
+Price: 50 gp
+Weight: 5 lbs.
+Category: Kits
+:::
 
 This leather doctor's bag contains all the accoutrements a phrenologist needs to measure skulls.
 This kit contains several metal skull calipers of various sizes, a labeled chalkware bust of a

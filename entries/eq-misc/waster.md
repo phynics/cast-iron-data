@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "varies"
 +++
 
-**Price** 1 gp; **Weight** varies\
-**Category** Tools
+::: statblock
+Price: 1 gp
+Weight: varies
+Category: Tools
+:::
 
 A waster is a heavily weighted wooden practice weapon, used as a way to build endurance and
 expertise with a specific weapon. All wasters are designed to emulate a specific melee weapon (such

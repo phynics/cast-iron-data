@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Concoctions
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Concoctions
+:::
 
 A favorite of Ustalavic alchemists, this pale sludge hampers your fear response, granting a +2
 alchemical bonus on your saves against fear effects. The concoction's necrotic components dull

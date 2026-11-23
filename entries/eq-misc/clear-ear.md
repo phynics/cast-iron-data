@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Price** 15 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 15 gp
+Weight: -
+Category: Black Market
+:::
 
 This green gel is poured into the user's ear and takes effect 2 hours later, enhancing senses and
 memory but increasing irritability. For 6 hours, the user gains a +2 alchemical bonus on Perception

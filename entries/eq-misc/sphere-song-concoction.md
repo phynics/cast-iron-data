@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Concoctions
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Concoctions
+:::
 
 This syrupy concoction fills you with a dreamy, peaceful feeling, providing a +1 alchemical bonus on
 Will saving throws. However, the dreaminess slows your reactions to danger, imparting a -2 penalty

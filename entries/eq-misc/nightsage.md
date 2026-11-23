@@ -20,10 +20,15 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 14; **Yield** 1 dose\
-**Terrain** any jungles\
+::: statblock
+Price: 100 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 14
+Yield: 1 dose
+Terrain: any jungles
+:::
+
 **Preparation** A dose of nightsage must be sprinkled with holy water periodically over an 8-hour
 drying process in natural sunlight; this process requires a successful DC 12 Craft (alchemy) check
 and one flask of holy water.\

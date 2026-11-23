@@ -19,7 +19,10 @@ weight = "2 lbs. (basic), 6 lbs. (fancy)"
 
 ## Pirate clothes
 
-**Price** 1 sp (basic), 30 gp (fancy); **Weight** 2 lbs. (basic), 6 lbs. (fancy)
+::: statblock
+Price: 1 sp (basic), 30 gp (fancy)
+Weight: 2 lbs. (basic), 6 lbs. (fancy)
+:::
 
 Pirates can appear in a variety of clothing styles, but most wear a basic outfit consisting of a
 linen shirt, canvas knee-breeches, cotton stockings, and leather shoes (though some pirates prefer

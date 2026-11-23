@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "1 lb."
 +++
 
-**Price** 60 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 60 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 This gray, greasy topical lotion strengthens and straightens the leg muscles of bandy-legged
 hobgoblins. Applying loping ointment requires 1 full-round action. A hobgoblin under the effects of

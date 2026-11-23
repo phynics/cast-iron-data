@@ -17,8 +17,11 @@ price = "400 gp"
 weight = "2 lbs."
 +++
 
-**Price** 400 gp; **Weight** 2 lbs.\
-**Category** Food/Drink
+::: statblock
+Price: 400 gp
+Weight: 2 lbs.
+Category: Food/Drink
+:::
 
 A rare breed of wasp produces the honey used to make this spiced, mead-like drink. For 1 hour after
 consuming a glass of wasp metheglin (this takes 1 round), the drinker is quick to respond to harm,

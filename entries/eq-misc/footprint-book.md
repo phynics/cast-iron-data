@@ -20,8 +20,11 @@ price = "50 gp"
 weight = "3 lbs."
 +++
 
-**Price** 50 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 This 50-page tome contains accurate drawings of common animal, humanoid, and monster tracks, as well
 as notes on stride length, tread depth, and similarly useful information. The book gives you a +2

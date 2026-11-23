@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 15 gp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 15 gp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 These red and white wines grown in certain coastal vineyards have a sweet-tart flavor valued by
 nobles in many lands.

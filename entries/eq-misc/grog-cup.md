@@ -19,8 +19,10 @@ weight = "1 lb. (cup), 8 lbs. (gallon), 1/2 lb. (mug)"
 
 ## Grog
 
-**Price** 1 cp (cup), 1 sp (gallon), 2 cp (mug); **Weight** 1 lb. (cup), 8 lbs. (gallon), 1/2 lb.
-(mug)
+::: statblock
+Price: 1 cp (cup), 1 sp (gallon), 2 cp (mug)
+Weight: 1 lb. (cup), 8 lbs. (gallon), 1/2 lb. (mug)
+:::
 
 Sailors, especially on pirate crews, often demand daily rations of alcohol. To prevent hoarding of
 alcohol (resulting in drunkenness and subsequent hangovers), most captains mix alcohol with water

@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "-"
 +++
 
-**Price** 150 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 150 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This tiny set of sculpted claws, made from stone carefully chipped from the Battle of Charda
 monument, is set upon a fine chain. Once per day when attempting an

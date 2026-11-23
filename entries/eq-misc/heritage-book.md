@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "2 lbs."
 +++
 
-**Price** 50 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This collection of genealogical tables, descriptions of common traits found in particular noble
 families, heraldry, scurrilous rumors, and ancestral deeds provides readers with a great deal of

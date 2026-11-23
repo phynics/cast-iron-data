@@ -17,9 +17,12 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Channel Foci\
-**Deity** [Gorum](ref/faith/gorum)
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Channel Foci
+Deity: [Gorum](ref/faith/gorum)
+:::
 
 This simple iron amulet is in the shape of an eye within a helm. It must be worn in plain sight to
 have any effect. When activated, an iron eye allows its wielder to expend its power to gain a sacred

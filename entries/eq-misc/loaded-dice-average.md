@@ -25,7 +25,10 @@ weight = "- (average), - (superior)"
 
 ## Loaded dice
 
-**Price** 10 gp (average), 50 gp (superior); **Weight** - (average), - (superior)
+::: statblock
+Price: 10 gp (average), 50 gp (superior)
+Weight: - (average), - (superior)
+:::
 
 Most loaded dice are weighted, with a heavier substance included opposite the desired number. You
 can spot this tampering with a DC 15 Appraise or Perception check. Superior dice (such as wooden

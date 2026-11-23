@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "10 lbs."
 +++
 
-**Price** 5 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 5 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 This leather packet contains tools and materials for repairing items created with one specific Craft
 skill. Using a mending kit grants a +2 circumstance bonus on Craft checks made to repair a damaged

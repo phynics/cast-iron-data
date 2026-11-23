@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "3 lbs."
 +++
 
-**Price** 2 gp; **Weight** 3 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 2 gp
+Weight: 3 lbs.
+Category: Mounts/Pets
+:::
 
 Farm ducks are used for eggs, meat, and down, while wild ducks are hunted for meat. Ducks have the
 same statistics as ravens.

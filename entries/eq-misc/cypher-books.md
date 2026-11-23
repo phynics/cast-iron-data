@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "2 lbs."
 +++
 
-**Price** 150 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 150 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 These books, always sold in identical pairs, contain numbered grids on each page which simply and
 easily catalog random lists of words. This allows a user to write messages which substitute letters

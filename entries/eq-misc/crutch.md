@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "2 lbs."
 +++
 
-**Price** 5 sp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 A crutch is a simple device composed of wood or metal and held under the arm to assist the injured
 or impaired with walking. Using a crutch requires a free hand, but does not impede movement speed

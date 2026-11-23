@@ -23,8 +23,11 @@ price = "40 gp"
 weight = "-"
 +++
 
-**Price** 40 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 40 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This clear resin protects a weapon from harmful attacks made by oozes and
 [rust monsters](ref/monster/rust-monster), as well as from similar effects that corrode or melt

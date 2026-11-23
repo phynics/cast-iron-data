@@ -17,8 +17,11 @@ price = "27 gp"
 weight = "30 lbs."
 +++
 
-**Price** 27 gp; **Weight** 30 lbs.\
-**Category** Kits
+::: statblock
+Price: 27 gp
+Weight: 30 lbs.
+Category: Kits
+:::
 
 This kit is designed for use in cold climates, where the weather can be deadly and the terrain
 treacherous. It includes 10 [candles](ref/eq-misc/candle), a [candle lamp](ref/eq-misc/candle-lamp),

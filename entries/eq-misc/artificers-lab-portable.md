@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "40 lbs."
 +++
 
-**Price** 300 gp; **Weight** 40 lbs.\
-**Category** Tools
+::: statblock
+Price: 300 gp
+Weight: 40 lbs.
+Category: Tools
+:::
 
 The portable artificer's lab contains everything needed to create magic items, though many of the
 tools and implements are of only the most basic type. This lab allows the artificer to spend 4 hours

@@ -17,8 +17,11 @@ price = "2 sp"
 weight = "1 lb."
 +++
 
-**Price** 2 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 An insulated metal cup with a resealable top, this container can hold any sort of potable liquid.
 Liquids stored within the flask maintain their temperature for three times as long as those in a cup

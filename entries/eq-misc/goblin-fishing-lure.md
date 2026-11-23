@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 The end of this fishing lure is colored in bright greens and shaped like a comical goblin face. The
 lure's ridiculous coloration and unique shape attract all sorts of fish. Using this lure grants a +2

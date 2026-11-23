@@ -17,8 +17,11 @@ price = "2 cp"
 weight = "2 lbs."
 +++
 
-**Price** 2 cp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 cp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 A pickle extractor is little more than a spike stuck through the end of a stick, used mainly by
 goblins to grab things at the bottom of a barrel.

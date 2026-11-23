@@ -20,8 +20,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This simple lens allows a closer look at small objects. It is also useful as a substitute for a
 [flint and steel](ref/eq-misc/flint-and-steel) when starting fires. Lighting a fire with a

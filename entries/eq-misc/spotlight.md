@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "18 lbs."
 +++
 
-**Price** 75 gp; **Weight** 18 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 75 gp
+Weight: 18 lbs.
+Category: Adventuring Gear
+:::
 
 This large contraption functions like a [hooded lantern](ref/eq-misc/hooded-lantern), shedding large
 amounts of light in a single direction. A spotlight also contains several mirrors which amplify and

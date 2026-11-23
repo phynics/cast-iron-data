@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This reagent is often stored in the form of small, salty pellets in a dry container, though it can
 also be mixed with a flask of water and carried that way. Nushadir neutralizes

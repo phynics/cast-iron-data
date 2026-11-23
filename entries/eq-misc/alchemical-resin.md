@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 When applied to your hands, this clear, sticky substance made from alchemically prepared pine sap
 provides a +2 alchemical bonus to your CMD against disarm attempts, on combat maneuver checks to

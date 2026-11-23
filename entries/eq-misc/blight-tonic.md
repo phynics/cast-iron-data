@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1 lb."
 +++
 
-**Price** 150 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 150 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 Blight tonic increases the potency of a creature's disease attack transmitted by physical contact,
 such as a [dire rat's](ref/monster/rat-dire-rat) [filth fever](ref/disease/filth-fever). The next

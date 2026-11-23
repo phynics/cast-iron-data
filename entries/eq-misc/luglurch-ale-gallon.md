@@ -19,8 +19,11 @@ weight = "-"
 
 ## Luglurch Ale
 
-**Price** 1 gp/gallon, 4 sp/mug; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp/gallon, 4 sp/mug
+Weight: -
+Category: Food/Drink
+:::
 
 Non-halflings do not receive any bonus from this drink. Most races find this pale and frothy beer
 too salty to swallow, but halflings simply consider it an acquired taste. Drinking three or more

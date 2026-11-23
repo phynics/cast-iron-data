@@ -17,8 +17,11 @@ price = "350 gp"
 weight = "1 lb."
 +++
 
-**Price** 350 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 350 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This alchemical salve strengthens the material of a weapon, improves its balance, gives it greater
 flexibility without sacrificing resilience, and enhances its ability to hold an edge or point and

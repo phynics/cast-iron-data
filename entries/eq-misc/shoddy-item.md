@@ -17,8 +17,11 @@ price = "varies"
 weight = "varies"
 +++
 
-**Price** varies; **Weight** varies\
-**Category** Adventuring Gear
+::: statblock
+Price: varies
+Weight: varies
+Category: Adventuring Gear
+:::
 
 A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that
 its materials and workmanship are worse than expected, but the flaws are concealed. Layers of

@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This milky white liquid bubbles into a 1-foot-thick semi-solid sheet of foam when splashed across
 the ground. You can spend a minute to apply a flask of impact foam to a 10-foot-radius area, or you

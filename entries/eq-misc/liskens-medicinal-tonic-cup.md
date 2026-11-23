@@ -19,8 +19,11 @@ weight = "-"
 
 ## Lisken's Medicinal Tonic
 
-**Price** 10 gp/cup; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 10 gp/cup
+Weight: -
+Category: Food/Drink
+:::
 
 Non-halflings do not receive any bonus from this drink. This mild sedative is normally used to treat
 insomnia, making the drinker reluctant to take hasty actions but adept at remaining still or silent.

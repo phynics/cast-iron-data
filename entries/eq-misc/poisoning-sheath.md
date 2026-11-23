@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This scabbard contains strips of natural sea sponges on its interior. By carefully pouring a dose of
 poison into the empty scabbard (a full-round action), you saturate the sponges with the toxin, which

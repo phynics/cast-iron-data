@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This 1-foot-long, silver-tipped tin rod glows dimly when struck as a standard action. It sheds dim
 light in a 30-foot radius. However, the light given off by a moonrod is particularly easily to

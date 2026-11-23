@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "4 lbs."
 +++
 
-**Price** 10 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 These two sturdy walking staves are topped with padded cradles that fit under the arm. Aquatic
 creatures with slow land speeds, such as merfolk or tritons, use land limbs to improve their

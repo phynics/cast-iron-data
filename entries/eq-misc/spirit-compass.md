@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This device resembles an ordinary compass, save that it is filled with alcohol and water, in which
 bob two pieces of alchemically treated metal (one silver and one iron). A spirit compass can be

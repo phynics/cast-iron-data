@@ -17,8 +17,11 @@ price = "5 cp-10 gp"
 weight = "-"
 +++
 
-**Price** 5 cp-10 gp; **Weight** -\
-**Category** Lodging/Services
+::: statblock
+Price: 5 cp-10 gp
+Weight: -
+Category: Lodging/Services
+:::
 
 Whether a brazen strumpet, gigolo, saucy tart, escort, or expensive doxy, this person is available
 for an adventurer who needs intimacy. An hour's diversion typically costs a few silver pieces plus

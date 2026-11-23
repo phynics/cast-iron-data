@@ -20,8 +20,11 @@ price = "50 gp"
 weight = "2 lbs."
 +++
 
-**Price** 50 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 A geographically relevant map grants a user a +1 circumstance bonus on Survival checks made to
 navigate in the wilderness. It also can be used to grant the same bonus on Knowledge (dungeoneering)

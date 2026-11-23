@@ -20,8 +20,11 @@ price = "50 gp"
 weight = "2 lbs."
 +++
 
-**Price** 50 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This framework of interlocking metal arms is used to duplicate drawings, allowing enlarging (up to
 twice the original size) or shrinking (down to half the original size) of the copy in the process.

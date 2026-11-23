@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "20 lbs."
 +++
 
-**Price** 15 gp; **Weight** 20 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 15 gp
+Weight: 20 lbs.
+Category: Adventuring Gear
+:::
 
 After 10 minutes of assembly, this collection of wooden slats provides support for a cylindrical
 watertight canvas cloth. It can hold enough water to allow 1 Medium creature to bathe in comfort

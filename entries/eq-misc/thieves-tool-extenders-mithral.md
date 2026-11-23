@@ -19,7 +19,10 @@ weight = "3 lbs. (common), 1 1/2 lbs. (mithral)"
 
 ## Thieves' tool extenders
 
-**Price** 70 gp (common), 820 gp (mithral); **Weight** 3 lbs. (common), 1 1/2 lbs. (mithral)
+::: statblock
+Price: 70 gp (common), 820 gp (mithral)
+Weight: 3 lbs. (common), 1 1/2 lbs. (mithral)
+:::
 
 These long-reaching extenders can be attached to or detached from
 [thieves' tools](ref/eq-misc/thieves-tools) as a standard action, allowing the user to make Disable

@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This elixir turns its imbiber fiery red, making it easier to pass as an
 [efreeti](ref/monster/genie-efreeti). Unscrupulous efreet can sell fireskin elixir to guests who

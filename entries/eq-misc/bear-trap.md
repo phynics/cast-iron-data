@@ -23,8 +23,11 @@ price = "2 gp"
 weight = "10 lbs."
 +++
 
-**Price** 2 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 2 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 Although intended for trapping large animals, bear traps work as well for trapping humanoids or
 monsters. The hinged jaws of the trap are attached to a chain, which in turn is secured to a spike

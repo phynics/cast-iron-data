@@ -20,7 +20,10 @@ price = "1 sp-2,000 gp"
 weight = "1 lb.-5 lbs."
 +++
 
-**Price** 1 sp-2,000 gp; **Weight** 1 lb.-5 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 1 sp-2,000 gp
+Weight: 1 lb.-5 lbs.
+Category: Entertainment
+:::
 
 Kites range from canvas toys to ornate, silken works of art.

@@ -23,8 +23,11 @@ price = "20 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 20 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This bubbling purple gel eats through adhesives. Each vial can cover a single 5-foot square. It
 destroys most normal adhesives (such as tar, tree sap, or glue) in a single round but takes 1d4+1

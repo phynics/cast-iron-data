@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1 lb."
 +++
 
-**Price** 150 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 150 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This gritty, gray ointment weakens rocky materials. When applied to an object made of stone, it
 reduces the object's [hardness](ref/umr/hardness) by 3 for 10 minutes. As a standard action, a

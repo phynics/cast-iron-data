@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "10 lbs."
 +++
 
-**Price** 20 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 These heavy and overlapping layers of clothing, coupled with a wide hat outfitted with a dense,
 veil-like netting around its brim, makes it all but impossible for Diminutive and Fine creatures to

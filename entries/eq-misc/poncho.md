@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "2 lbs."
 +++
 
-**Price** 5 sp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 sp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 This circle of water-resistant fabric (typically wool or leather) has a hooded opening in the
 center, making it easy to slip it on or off and protecting your entire body from rain or snow.

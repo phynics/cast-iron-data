@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "50 lbs."
 +++
 
-**Price** 500 gp; **Weight** 50 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 500 gp
+Weight: 50 lbs.
+Category: Adventuring Gear
+:::
 
 This clockwork device is powered by heatstones and seawater and can turn a ship's
 [oar](ref/eq-misc/oar) with tireless mechanical strokes. When installed on a water vehicle that uses

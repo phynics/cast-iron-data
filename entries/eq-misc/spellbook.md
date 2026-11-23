@@ -20,8 +20,11 @@ price = "15 gp"
 weight = "3 lbs."
 +++
 
-**Price** 15 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 15 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page
 each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins

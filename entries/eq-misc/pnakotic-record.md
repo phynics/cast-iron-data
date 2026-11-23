@@ -17,8 +17,11 @@ price = "2,000 gp"
 weight = "10 lbs."
 +++
 
-**Price** 2,000 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 2,000 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 These strange books are fashioned from a metallic alloy, the crafting of which is known only to
 [yithians](ref/monster/yithian) and a very few others. Supposedly taken from the same collection as

@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "50 lbs."
 +++
 
-**Price** 5 gp; **Weight** 50 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 5 gp
+Weight: 50 lbs.
+Category: Mounts/Pets
+:::
 
 These Small animals are vicious scavengers in the wild. However, dire rats raised in captivity can
 be trained as loyal pets and protectors. Pet dire rats do not have filth fever.

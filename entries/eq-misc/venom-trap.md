@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "10 lbs."
 +++
 
-**Price** 300 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 300 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 A venom trap is a special [bear trap](ref/eq-misc/bear-trap) that includes a reservoir that can hold
 up to 3 doses of injury poison, and a pump system designed to recoat the trap as a trapped target

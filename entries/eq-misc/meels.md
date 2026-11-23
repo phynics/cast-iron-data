@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "30 lbs."
 +++
 
-**Price** 10 gp; **Weight** 30 lbs.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 30 lbs.
+Category: Tools
+:::
 
 Also called Vudrani clubs, meels are heavily weighted clubs used to train one's strength. They range
 in size from only a few pounds to specially crafted lead or stone meels which weigh as much as a

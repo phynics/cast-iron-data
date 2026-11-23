@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "25 lbs."
 +++
 
-**Price** 300 gp; **Weight** 25 lbs.\
-**Category** Kits
+::: statblock
+Price: 300 gp
+Weight: 25 lbs.
+Category: Kits
+:::
 
 This kit includes five bags of [caltrops](ref/eq-misc/caltrops), 2 doses of
 [fire ward gel](ref/eq-misc/fire-ward-gel), and a [sarissa](ref/eq-weapon/sarissa).

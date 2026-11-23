@@ -17,8 +17,11 @@ price = "120 gp"
 weight = "2 lbs."
 +++
 
-**Price** 120 gp; **Weight** 2 lbs.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 120 gp
+Weight: 2 lbs.
+Category: Alchemical Remedies
+:::
 
 This alchemical fertilizer boosts the growth of plants. As a standard action, a plant creature can
 absorb the fertilizer by rubbing it on its body in order to gain 1 temporary hit point per Hit Die;

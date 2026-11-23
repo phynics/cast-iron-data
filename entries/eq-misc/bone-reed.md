@@ -17,10 +17,15 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 24; **Yield** 1 dose\
-**Terrain** any swamps\
+::: statblock
+Price: 75 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 24
+Yield: 1 dose
+Terrain: any swamps
+:::
+
 **Preparation** A bone reed must be pressed and dried. This process requires a successful DC 10
 Craft (alchemy) check and takes 8 hours to complete.\
 **Use** A creature that sleeps for at least 8 hours in 1 day with a bone reed bound to one of its

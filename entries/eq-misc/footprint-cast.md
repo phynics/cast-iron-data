@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This quick-drying cast is perfect for preserving a set of footprints in order to examine them later.
 By spending 1 minute setting the cast and waiting for it to dry, you can copy footprints, allowing

@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "1 lb."
 +++
 
-**Price** 40 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 40 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 This flask of red liquid is enough to for 1 day stave off a vampire's hunger for blood. Few
 [vampires](ref/template/vampire) enjoy it; most describe it as tasting stale and artificial. Some,

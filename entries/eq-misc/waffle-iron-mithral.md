@@ -19,7 +19,10 @@ weight = "5 lbs. (common), 2-1/2 lbs. (mithral)"
 
 ## Waffle iron
 
-**Price** 1 gp (common), 2,501 gp (mithral); **Weight** 5 lbs. (common), 2-1/2 lbs. (mithral)
+::: statblock
+Price: 1 gp (common), 2,501 gp (mithral)
+Weight: 5 lbs. (common), 2-1/2 lbs. (mithral)
+:::
 
 This pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook
 with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons

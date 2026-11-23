@@ -20,8 +20,11 @@ price = "50 gp"
 weight = "8 lbs."
 +++
 
-**Price** 50 gp; **Weight** 8 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 8 lbs.
+Category: Tools
+:::
 
 This kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on
 Disguise checks. A disguise kit is exhausted after 10 uses.

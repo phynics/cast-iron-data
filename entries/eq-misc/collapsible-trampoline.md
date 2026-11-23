@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "10 lbs."
 +++
 
-**Price** 50 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 This compact trampoline comes apart and rolls up like a tent for easy transport. Setting up or
 taking apart the trampoline takes 1 minute. When operated by two creatures, the collapsible

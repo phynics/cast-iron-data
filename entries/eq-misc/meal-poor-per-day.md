@@ -22,8 +22,10 @@ weight = "- (common, per day), - (good, per day), - (poor, per day)"
 
 ## Meal
 
-**Price** 3 sp (common, per day), 5 sp (good, per day), 1 sp (poor, per day); **Weight** - (common,
-per day), - (good, per day), - (poor, per day)
+::: statblock
+Price: 3 sp (common, per day), 5 sp (good, per day), 1 sp (poor, per day)
+Weight: - (common, per day), - (good, per day), - (poor, per day)
+:::
 
 The listed price is for a day's worth of meals. Poor meals might consist of bread, baked turnips,
 onions, and water. Common meals might consist of bread, chicken stew, carrots, and watered-down ale

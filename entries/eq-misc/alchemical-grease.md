@@ -23,8 +23,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 Each pot of this slick black goo has sufficient contents to cover one Medium creature or two Small
 ones. If you coat yourself in alchemical grease, you gain a +5 alchemical bonus on Escape Artist

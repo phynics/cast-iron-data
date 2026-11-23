@@ -20,8 +20,11 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 A 1-pint flask of oil burns for 6 hours in a lantern or lamp. You can also use a flask of oil as a
 splash weapon. Use the rules for [alchemist's fire](ref/eq-weapon/alchemists-fire), except that it

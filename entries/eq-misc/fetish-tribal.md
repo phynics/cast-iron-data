@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Tools
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Tools
+:::
 
 Tribal fetishes vary from tribe to tribe, but are generally small, carved wooden or stone religious
 symbols, luck tokens, or curious naturally occurring objects specially carved to resemble something

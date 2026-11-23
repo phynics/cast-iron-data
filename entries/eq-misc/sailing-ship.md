@@ -19,8 +19,11 @@ category = "Miscellaneous Equipment"
 price = "10,000 gp"
 +++
 
-**Price** 10,000 gp; **Price of Passage** (per mile) 2 sp\
-**Category** Transport, Sea
+::: statblock
+Price: 10,000 gp
+Price of Passage: (per mile) 2 sp
+Category: Transport, Sea
+:::
 
 This large, seaworthy ship is 75 to 90 feet long, 20 feet wide, and has a crew of 20. It can carry
 150 tons of cargo. It has square sails on its two masts and can make sea voyages. A

@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1 lb."
 +++
 
-**Price** 150 gp; **Weight** 1 lb.\
-**Category** [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+::: statblock
+Price: 150 gp
+Weight: 1 lb.
+Category: [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+:::
 
 The first volume of the Pathfinder Chronicles to contain only accounts of Pathfinders' exploits on
 other planes, the fourteenth volume features a record of Gilray Jandivan's journey to 23 Abyssal

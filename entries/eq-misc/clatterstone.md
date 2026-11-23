@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "2 lbs."
 +++
 
-**Price** 30 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 Comprising several chunks of magnetized ore connected by twine, a clatterstone creates an intense
 racket when it strikes a solid surface. The combination of magnetic disturbances, noise, and

@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** Entertainment
+::: statblock
+Price: 20 gp
+Weight: -
+Category: Entertainment
+:::
 
 This small kite is usually painted with a fierce face and bright colors and is edged with serrated
 wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to

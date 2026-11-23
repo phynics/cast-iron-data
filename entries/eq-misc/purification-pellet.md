@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This tablet of compressed herbs and potent alchemical reagents can purify tainted, brackish, muddy,
 or alkaline water in order to make it drinkable. If used to purify water that is diseased or

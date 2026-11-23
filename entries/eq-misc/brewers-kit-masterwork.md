@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "50 lbs."
 +++
 
-**Price** 75 gp; **Weight** 50 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 75 gp
+Weight: 50 lbs.
+Category: Alchemical Tools
+:::
 
 This exceptionally crafted kit provides extra spices, a wider variety of herbs, and higher quality
 tools than a normal brewer's kit. A masterwork brewer's kit grants a +2 circumstance bonus on Craft

@@ -22,8 +22,10 @@ weight = "6 lbs. (common, pitcher), 1-1/2 lbs. (fine, bottle)"
 
 ## Wine
 
-**Price** 2 sp (common, pitcher), 10 gp (fine, bottle); **Weight** 6 lbs. (common, pitcher), 1-1/2
-lbs. (fine, bottle)
+::: statblock
+Price: 2 sp (common, pitcher), 10 gp (fine, bottle)
+Weight: 6 lbs. (common, pitcher), 1-1/2 lbs. (fine, bottle)
+:::
 
 Wine is made from fermented fruit juice, usually grapes, but also sometimes berries, apples, or even
 rice (sake). The lower listed price is for unremarkable common wine and the higher is for

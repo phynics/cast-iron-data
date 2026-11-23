@@ -22,7 +22,10 @@ weight = "25 lbs. (common), 15 lbs. (deluxe)"
 
 ## Dungeoneering kit
 
-**Price** 15 gp (common), 130 gp (deluxe); **Weight** 25 lbs. (common), 15 lbs. (deluxe)
+::: statblock
+Price: 15 gp (common), 130 gp (deluxe)
+Weight: 25 lbs. (common), 15 lbs. (deluxe)
+:::
 
 This bundle of essential supplies for exploring ruins and abandoned cities includes two
 [candles](ref/eq-misc/candle), [chalk](ref/eq-misc/chalk), a [hammer](ref/eq-misc/hammer) and four

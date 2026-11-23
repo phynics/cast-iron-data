@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "5 lbs."
 +++
 
-**Price** 100 gp; **Weight** 5 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 100 gp
+Weight: 5 lbs.
+Category: Animal Gear
+:::
 
 This thick, heavily padded sleeve fits over the wearer's arm and serves as a target for animals
 being trained to attack. When used in conjunction with the Handle Animal skill to train an animal

@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "17 lbs."
 +++
 
-**Price** 30 gp; **Weight** 17 lbs.\
-**Category** Kits
+::: statblock
+Price: 30 gp
+Weight: 17 lbs.
+Category: Kits
+:::
 
 This kit includes 1 vial of [alchemist's fire](ref/eq-weapon/alchemists-fire), 1 flask of
 [acid](ref/eq-weapon/acid), 10 [torches](ref/eq-misc/torch), one

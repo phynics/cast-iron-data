@@ -19,8 +19,11 @@ weight = "1 lb."
 
 ## Pickles, Goblin (1 jar)
 
-**Price** 4 sp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 4 sp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 Goblins pickle everything, and thus goblin pickles can be composed of almost anything. Their only
 shared characteristic is that they're mostly edible. At the GM's discretion, a non-goblin who eats a

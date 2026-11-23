@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 When lit, this spiral-shaped [candle](ref/eq-misc/candle) burns for 24 hours, but if a haunt
 manifests or an undead creature comes within 5 feet of a lit soul candle, the candle goes out in a

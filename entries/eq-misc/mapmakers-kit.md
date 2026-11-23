@@ -23,8 +23,11 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 10 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This small kit contains a simple slate with a grid carved into its surface and a number of
 differently colored pieces of [chalk](ref/eq-misc/chalk). If you use this kit to draw a map as you

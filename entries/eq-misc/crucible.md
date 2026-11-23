@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "30 lbs."
 +++
 
-**Price** 20 gp; **Weight** 30 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 30 lbs.
+Category: Alchemical Tools
+:::
 
 A crucible is a type of vessel that can be heated to extreme temperatures for the purpose of
 inducing special alchemical reactions. A portable crucible is a cylinder 12 inches tall and 18

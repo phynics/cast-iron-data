@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "2 lbs."
 +++
 
-**Price** 100 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 100 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This ornate leather sheath is covered in tables of magical notation and arcane formulae, as well as
 common spell triggers and reagents. Referring to these handy bits of notation grants you a +2

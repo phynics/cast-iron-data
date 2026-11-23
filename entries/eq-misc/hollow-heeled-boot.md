@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 This boot contains a hollow that grants a +4 bonus on Sleight of Hand checks to conceal items within
 the boot while wearing it. The hollow can hold up to 8 cubic inches. Putting on or removing the boot

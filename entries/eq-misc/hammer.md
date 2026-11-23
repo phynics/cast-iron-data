@@ -20,8 +20,11 @@ price = "5 sp"
 weight = "2 lbs."
 +++
 
-**Price** 5 sp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 If a hammer is used in combat, treat it as a one-handed
 [improvised weapon](ref/misc/improvised-weapons) that deals bludgeoning damage equal to that of a

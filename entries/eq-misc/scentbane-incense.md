@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "-"
 +++
 
-**Price** 80 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 80 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Scentbane incense is a form of [smokestick](ref/eq-misc/smokestick) that also blocks most scents. As
 long as the smoke lasts, creatures with the [scent](ref/umr/scent) special ability must make

@@ -17,8 +17,11 @@ price = "1 cp"
 weight = "3 oz."
 +++
 
-**Price** 1 cp; **Weight** 3 oz.\
-**Category** Mounts/Pets
+::: statblock
+Price: 1 cp
+Weight: 3 oz.
+Category: Mounts/Pets
+:::
 
 These creatures come in many forms, from the lighter-colored 20-legged variety to the darker
 300-legged variety. Typically, these arthropods are what pass for pets in the slums, but the young

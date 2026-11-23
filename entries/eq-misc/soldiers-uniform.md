@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "5 lbs."
 +++
 
-**Price** 1 gp; **Weight** 5 lbs.\
-**Category** Clothing
+::: statblock
+Price: 1 gp
+Weight: 5 lbs.
+Category: Clothing
+:::
 
 The exact details of this item varies from country to country, but typically includes sturdy boots,
 leather breeches or a kilt, a belt, a shirt, gloves, a cloak or jacket, and a hat. The belt includes

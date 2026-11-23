@@ -19,7 +19,10 @@ weight = "1-1/2 lbs. (bottle), - (glass)"
 
 ## Absinthe
 
-**Price** 30 gp (bottle), 3 gp (glass); **Weight** 1-1/2 lbs. (bottle), - (glass)
+::: statblock
+Price: 30 gp (bottle), 3 gp (glass)
+Weight: 1-1/2 lbs. (bottle), - (glass)
+:::
 
 This green alcoholic drink, made from wormwood, is rumored to enhance creativity, which makes it a
 favored beverage of artists and eccentrics.

@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 200 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the
 ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed

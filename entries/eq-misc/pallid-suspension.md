@@ -17,8 +17,11 @@ price = "324 gp"
 weight = "-"
 +++
 
-**Price** 324 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 324 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This small vial contains an alchemical suspension that preserves a sample of pallid gift. This
 functions like [plague powder](ref/eq-weapon/plague-powder) for

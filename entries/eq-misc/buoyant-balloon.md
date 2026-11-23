@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This fist-sized alchemically treated animal bladder is tightly sealed around a small wooden grip. By
 giving the handle a sharp twist you break a tiny glass ampoule just inside the bladder, filling the

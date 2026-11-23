@@ -22,8 +22,11 @@ weight = "8 lbs."
 
 ## Executioner's outfit
 
-**Price** 5 gp; **Weight** 8 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 8 lbs.
+Category: Clothing
+:::
 
 Typically worn by jailers or executioners, this outfit includes a black woolen shirt, a tunic,
 pants, a belt, sturdy boots, a balaclava or hood, and a great cloak. This outfit is generally too

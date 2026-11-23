@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 This fabric vest contains pockets full of cork, providing the wearer additional buoyancy. Originally
 worn by fishers and sailors, it protects against drowning. While wearing a cork vest, you take a -2

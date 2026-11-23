@@ -20,7 +20,10 @@ price = "5 sp"
 weight = "-"
 +++
 
-**Price** 5 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This needle allows you to stitch together cloth, canvas, or thin leather.

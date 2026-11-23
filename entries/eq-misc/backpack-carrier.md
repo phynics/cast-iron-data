@@ -22,9 +22,10 @@ weight = "5 lbs. (carrier), 2 lbs. (common), 4 lbs. (hydration), 4 lbs. (masterw
 
 ## Backpack
 
-**Price** 25 gp (carrier), 2 gp (common), 40 gp (hydration), 50 gp (masterwork), 25 gp (weaponrack);
-**Weight** 5 lbs. (carrier), 2 lbs. (common), 4 lbs. (hydration), 4 lbs. (masterwork), 5 lbs.
-(weaponrack)
+::: statblock
+Price: 25 gp (carrier), 2 gp (common), 40 gp (hydration), 50 gp (masterwork), 25 gp (weaponrack)
+Weight: 5 lbs. (carrier), 2 lbs. (common), 4 lbs. (hydration), 4 lbs. (masterwork), 5 lbs. (weaponrack)
+:::
 
 This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic
 feet of material. Some may have one or more smaller pockets on the sides.

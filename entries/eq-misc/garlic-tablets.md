@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 20 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 These small gray-white tablets are made of dehydrated and condensed garlic bulbs. One hour after you
 eat a garlic tablet, you begin to stink as the essence of the tablet seeps out of your pores. This

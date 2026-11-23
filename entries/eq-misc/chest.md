@@ -23,8 +23,10 @@ price = "25 gp (huge), 10 gp (large), 5 gp (medium), 2 gp (small)"
 weight = "250 lbs. (huge), 100 lbs. (large), 50 lbs. (medium), 25 lbs. (small)"
 +++
 
-**Price** 25 gp (huge), 10 gp (large), 5 gp (medium), 2 gp (small); **Weight** 250 lbs. (huge), 100
-lbs. (large), 50 lbs. (medium), 25 lbs. (small)
+::: statblock
+Price: 25 gp (huge), 10 gp (large), 5 gp (medium), 2 gp (small)
+Weight: 250 lbs. (huge), 100 lbs. (large), 50 lbs. (medium), 25 lbs. (small)
+:::
 
 The common wooden chest comes in several sizes, including small (2 cubic feet, 1 hit point, break DC
 17), medium (4 cubic feet, 15 hp, break DC 23), large (6 cubic feet, 30 hit points, break DC 29),

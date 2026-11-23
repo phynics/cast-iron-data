@@ -26,8 +26,11 @@ price = "4 sp"
 weight = "-"
 +++
 
-**Price** 4 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 4 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 A sheet of ordinary paper typically measures 9 inches by 6 inches and is unsuitable for making
 magical scrolls. It has [hardness](ref/umr/hardness) 0, 1 hit point, and a break DC of 5.

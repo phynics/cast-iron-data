@@ -19,7 +19,10 @@ weight = "- (fake area map), - (fake coins)"
 
 ## Lure
 
-**Price** 20 gp (fake area map), 5 gp (fake coins); **Weight** - (fake area map), - (fake coins)
+::: statblock
+Price: 20 gp (fake area map), 5 gp (fake coins)
+Weight: - (fake area map), - (fake coins)
+:::
 
 Among Darklanders, the process of luring surface dwellers into danger is known as "deepbaiting."
 This practice is highly refined in [kobold](ref/monster/kobold) culture, and requires a substantial

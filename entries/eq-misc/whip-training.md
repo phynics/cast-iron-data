@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "2 lbs."
 +++
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Animal Gear
+:::
 
 This short lash has a reach of only 10 feet, but is otherwise identical to a normal
 [whip](ref/eq-weapon/whip). The wielder gains a +2 circumstance bonus on

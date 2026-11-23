@@ -20,8 +20,11 @@ price = "30 gp"
 weight = "2 lbs."
 +++
 
-**Price** 30 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 30 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This chain is made of interlocking metal links roughly an inch long, and thick enough to bear large
 amounts of weight. It has [hardness](ref/umr/hardness) 10 and 5 hit points. It can be burst with a

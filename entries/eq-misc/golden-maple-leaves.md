@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 50 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 These potent additives can only be culled from a rare maple tree known to grow exclusively in urban
 areas. These small, elaborately twisting trees are extremely slow to grow and mature - the leaves

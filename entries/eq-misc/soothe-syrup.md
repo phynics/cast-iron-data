@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 25 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 25 gp
+Weight: 1/2 lb.
+Category: Alchemical Remedies
+:::
 
 This sweet and wholesome-tasting blue liquid creates a sense of warmth and comfort. Soothe syrup
 coats your stomach and makes it much more difficult for you to succumb to queasiness. For 1 hour

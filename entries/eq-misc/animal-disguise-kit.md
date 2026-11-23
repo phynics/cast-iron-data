@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "8 lbs."
 +++
 
-**Price** 100 gp; **Weight** 8 lbs.\
-**Category** Tools
+::: statblock
+Price: 100 gp
+Weight: 8 lbs.
+Category: Tools
+:::
 
 This leather pouch contains dyes, odorous balsams, colorchanging eye drops, reversible collars, and
 a host of other tools to disguise one animal as another. The kit grants a +4 circumstance bonus on

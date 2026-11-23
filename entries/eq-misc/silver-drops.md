@@ -17,8 +17,11 @@ price = "180 gp"
 weight = "-"
 +++
 
-**Price** 180 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 180 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 A creature with DR/silver can swallow these bitter-tasting capsules of a concentrated alchemical
 silver to convert their [damage reduction](ref/rule/damage-reduction) to DR/- for 2d4 rounds. When

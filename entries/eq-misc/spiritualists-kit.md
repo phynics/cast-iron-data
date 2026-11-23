@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "34 lbs."
 +++
 
-**Price** 50 gp; **Weight** 34 lbs.\
-**Category** Kits
+::: statblock
+Price: 50 gp
+Weight: 34 lbs.
+Category: Kits
+:::
 
 This kit includes a [backpack](ref/eq-misc/backpack), a [bedroll](ref/eq-misc/bedroll), a
 [belt pouch](ref/eq-misc/belt-pouch), a [censer](ref/eq-misc/censer), a flask of

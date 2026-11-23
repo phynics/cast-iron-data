@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Tincture
+:::
 
 This dark green liquid has a pungent odor. For 1 hour after you drink this tincture, your muscles
 instinctively react to danger and you gain a +2 dodge bonus to AC. Your involuntary muscle movement

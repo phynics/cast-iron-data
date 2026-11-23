@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 10 gp; **Weight** 1/2 lb.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 1/2 lb.
+Category: Tools
+:::
 
 This bauble, bit of clothing, or relic has some minor historical significance. Though not especially
 valuable, it's useful to an [occultist](ref/class/occultist), who can use it as an implement. Any

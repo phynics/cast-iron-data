@@ -17,8 +17,11 @@ price = "120 gp"
 weight = "-"
 +++
 
-**Price** 120 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 120 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 You can accept [alchemical burn](ref/misc/alchemical-burn) when you imbibe this draught to gain 1
 grit point or 1 panache point. The effects of rake's friend last for 1 hour; if not spent within 1

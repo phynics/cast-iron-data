@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This set of bulky wooden rings is the key to a substitution code set at the rings' creation. A base
 set comes with two identical rings. Additional rings can be made for 4 gp apiece. Using the cipher

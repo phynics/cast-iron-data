@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This little metal container holds a waxy fuel that creates enough heat to cook with but only as much
 light as a [candle](ref/eq-misc/candle). To snuff the flame, close the metal lid on the container;

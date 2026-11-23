@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "7 lbs."
 +++
 
-**Price** 100 gp; **Weight** 7 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: 7 lbs.
+Category: Alchemical Tools
+:::
 
 This small canister has a hand pump, allowing it to forcefully eject the semi-ethereal green
 concoction held within. Spraying a creature with ectoplasmic tracer is a ranged touch attack with a

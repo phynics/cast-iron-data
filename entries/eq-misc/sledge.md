@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "10 lbs."
 +++
 
-**Price** 1 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is
 also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used

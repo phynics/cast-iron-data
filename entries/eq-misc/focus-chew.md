@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "-"
 +++
 
-**Price** 40 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 40 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 When chewed, this spongy gum releases mild stimulants that heighten your focus. Derros use focus
 chew in an effort to improve their experiments, though spellcasters from other Darklands cultures

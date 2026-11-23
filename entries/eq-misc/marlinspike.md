@@ -17,8 +17,11 @@ price = "8 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 8 sp; **Weight** 1/2 lb.\
-**Category** Tools
+::: statblock
+Price: 8 sp
+Weight: 1/2 lb.
+Category: Tools
+:::
 
 These polished metal spikes can aid you in performing a variety of rope work, including tying and
 untying knots, untangling things, splicing rope, or tensioning ropes. A typical spike is somewhere

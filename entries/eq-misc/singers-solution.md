@@ -17,8 +17,11 @@ price = "120 gp"
 weight = "-"
 +++
 
-**Price** 120 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 120 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 When you imbibe this draught, you can accept [alchemical burn](ref/misc/alchemical-burn) to gain an
 additional 4 rounds of bardic performance or raging song for the day. The effects of singer's

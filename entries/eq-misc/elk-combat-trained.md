@@ -19,7 +19,10 @@ weight = "-"
 
 ## Riding Animals
 
-**Price** Varies; **Weight** -
+::: statblock
+Price: Varies
+Weight: -
+:::
 
 When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending
 on the animal's size. In addition, most of these animals can be purchased already trained for combat

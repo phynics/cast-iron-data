@@ -17,8 +17,11 @@ price = "3 gp"
 weight = "-"
 +++
 
-**Price** 3 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 3 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This tonic reduces menstrual pains and dramatically reduces the chances of conception during sexual
 intercourse if taken daily for 1 month. The effects last as long as it is taken daily thereafter.

@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 This sheath is designed to be strapped around your forearm, but it is too bulky to be hidden under a
 long sleeve. It can hold one forearm-length item, such as a [dagger](ref/eq-weapon/dagger),

@@ -23,8 +23,11 @@ price = "1 gp"
 weight = "5 lbs."
 +++
 
-**Price** 1 gp; **Weight** 5 lbs.\
-**Category** Clothing
+::: statblock
+Price: 1 gp
+Weight: 5 lbs.
+Category: Clothing
+:::
 
 This set of clothes consists of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps
 with a vest or jacket), and an ample cloak with a hood.

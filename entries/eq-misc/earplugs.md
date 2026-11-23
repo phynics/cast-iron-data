@@ -23,8 +23,11 @@ price = "3 cp"
 weight = "-"
 +++
 
-**Price** 3 cp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 cp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Made of waxed cotton or cork, earplugs give you a +2 circumstance bonus on saves against effects
 that require hearing, but also cause a -5 penalty on hearing-based Perception checks.

@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1 lb."
 +++
 
-**Price** 150 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 150 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 When you apply this thin gel to your skin, armor, or clothing, it creates a resistant barrier that
 protects you from fire or heat damage. You gain fire resistance 5. The gel burns away as it absorbs

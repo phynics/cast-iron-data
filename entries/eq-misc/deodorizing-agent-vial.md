@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Coating a creature in a vial of this milky, odorless substance takes 1 minute and renders it
 scentless for 1d3 hours. Creatures that rely on scent for locating creatures do not gain the benefit

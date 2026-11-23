@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "1 lb."
 +++
 
-**Price** 250 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 250 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 The canny [half-elf](ref/race/half-elf) sometimes needs a little something extra to look like a full
 elf. Ear extensions make somewhat elongated half-elf ears look like sharp elf ears, and colored

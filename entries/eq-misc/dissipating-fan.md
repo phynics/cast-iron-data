@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "6 lbs."
 +++
 
-**Price** 150 gp; **Weight** 6 lbs.\
-**Category** Tools
+::: statblock
+Price: 150 gp
+Weight: 6 lbs.
+Category: Tools
+:::
 
 This large wood-and-canvas fan is 2 feet wide and ideal for quickly dispersing smoke or other
 harmful gases. While waving a dissipating fan, you gain a +2 circumstance bonus on Fortitude saving

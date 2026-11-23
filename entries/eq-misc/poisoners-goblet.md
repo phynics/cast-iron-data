@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "2 lbs."
 +++
 
-**Price** 100 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 100 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This is an elegantly styled, gem-encrusted drinking chalice made of smooth jade, obsidian, or a
 burnished fine metal. The chalice has a hidden compartment in the stem that allows for the insertion

@@ -20,8 +20,11 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This square yard of heavy cloth is suitable for painting, for covering items in a rainstorm, for
 creating a sail, or as an improvised bag. It is not waterproof but can be treated with oil, wax, or

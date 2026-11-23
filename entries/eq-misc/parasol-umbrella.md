@@ -19,7 +19,10 @@ weight = "2 lbs. (common), 3 lbs. (umbrella)"
 
 ## Parasol
 
-**Price** 1 gp (common), 2 gp (umbrella); **Weight** 2 lbs. (common), 3 lbs. (umbrella)
+::: statblock
+Price: 1 gp (common), 2 gp (umbrella)
+Weight: 2 lbs. (common), 3 lbs. (umbrella)
+:::
 
 This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct
 sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1

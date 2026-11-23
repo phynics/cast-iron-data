@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "-"
 +++
 
-**Price** 80 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 80 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Drinking this crystal-clear liquid accelerates the natural process of healing Constitution damage.
 Resting for 1 hour after drinking a vial heals you of 1 point of

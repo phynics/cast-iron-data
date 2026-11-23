@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "3 lbs."
 +++
 
-**Price** 10 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 Used to carry out a private conversation even in a crowded room or public place, this 5-foot-long,
 1/2-inch-wide leather hose widens into a copper bell at each end. To use it, one conversation

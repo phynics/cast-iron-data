@@ -19,7 +19,10 @@ weight = "-, - (magic)"
 
 ## Laundry
 
-**Price** 1 sp, 1 gp (magic); **Weight** -, - (magic)
+::: statblock
+Price: 1 sp, 1 gp (magic)
+Weight: -, - (magic)
+:::
 
 The listed price is for up to four items (such as trousers, an undergarment, shirt, and jacket or
 vest). Additional items may be washed for 3 cp each. Laundry is finished the next day unless you

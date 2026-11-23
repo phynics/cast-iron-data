@@ -20,8 +20,11 @@ price = "3 gp"
 weight = "10 lbs."
 +++
 
-**Price** 3 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 If a miner's pick is used in combat, treat it as a two-handed
 [improvised weapon](ref/misc/improvised-weapons) that deals piercing damage equal to that of a

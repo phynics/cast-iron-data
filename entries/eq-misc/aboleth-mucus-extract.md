@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 100 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This jar contains 6 ounces of alchemically preserved [aboleth](ref/monster/alghollthu-aboleth)
 mucus. When 1 ounce of the extract is applied to a living creature's mouth, nose, and throat (a

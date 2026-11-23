@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Food/Drink
+:::
 
 This exotic dessert is made with milk and cream, often flavored with fruit or mint. Because it
 quickly melts at room temperature, it must be made fresh from snow or ice, or maintained at a low

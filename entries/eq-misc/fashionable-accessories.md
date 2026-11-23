@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "5 lbs."
 +++
 
-**Price** 20 gp; **Weight** 5 lbs.\
-**Category** Clothing
+::: statblock
+Price: 20 gp
+Weight: 5 lbs.
+Category: Clothing
+:::
 
 These accessories allow a courtier's, entertainer's, or noble's outfit to match the height of style
 in a particular city for 2d4 months. You gain a +2 circumstance bonus on Diplomacy checks to make

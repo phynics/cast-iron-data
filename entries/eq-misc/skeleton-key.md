@@ -20,8 +20,11 @@ price = "85 gp"
 weight = "-"
 +++
 
-**Price** 85 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 85 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Many door locks have a similar design and thus can be unlocked by a similar key. A skeleton key may
 be tried on any standard door lock that uses a key, even if you don't have the Disable Device skill.

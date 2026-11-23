@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "1 lb."
 +++
 
-**Price** 30 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 30 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foul-smelling
 herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors

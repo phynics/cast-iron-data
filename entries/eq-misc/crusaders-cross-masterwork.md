@@ -19,8 +19,10 @@ weight = "- (masterwork), - (standard)"
 
 ## Crusader's cross (standard)
 
-**Price** PFS Legal 50 gp (masterwork), PFS Legal 1 gp (standard); **Weight** - (masterwork), -
-(standard)
+::: statblock
+Price: PFS Legal 50 gp (masterwork), PFS Legal 1 gp (standard)
+Weight: - (masterwork), - (standard)
+:::
 
 This palm-sized cross has arms of equal length and an emblem etched at the center. When purchased,
 the bearer's personal emblem or motto is etched on one side, and name, rank, and nation on the

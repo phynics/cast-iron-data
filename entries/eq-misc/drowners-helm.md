@@ -17,8 +17,11 @@ price = "35 gp"
 weight = "10 lbs."
 +++
 
-**Price** 35 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 35 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 This metal helmet sports an open top and a tightly sealed collar that closes securely around the
 neck. Water is poured into the open top, filling the helmet and forcing you to

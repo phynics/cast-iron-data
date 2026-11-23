@@ -23,8 +23,11 @@ price = "50 gp"
 weight = "2 lbs."
 +++
 
-**Price** 50 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This protective mask gives you a +1 circumstance bonus on Fortitude saves made against airborne
 toxins and scent-based effects. In Korvosa, it is a minor crime to wear a doctor's mask in public if

@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Tools
+:::
 
 A fire carrier is a conical device made of thickly insulated leather and wood designed to carry a
 live coal under a layer of ash. A fire carrier can keep a coal red hot for 24 hours and allows

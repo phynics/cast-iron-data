@@ -20,8 +20,11 @@ price = "1 sp-10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 sp-10 gp; **Weight** 2 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 1 sp-10 gp
+Weight: 2 lbs.
+Category: Entertainment
+:::
 
 Board games have innumerable types and variations. Siege, a strategy game where players try to
 surround the other's pieces, is popular with older adults, while more chaotic games like Wyvern's

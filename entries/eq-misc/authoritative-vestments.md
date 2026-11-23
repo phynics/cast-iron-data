@@ -17,9 +17,12 @@ price = "450 gp"
 weight = "15 lbs."
 +++
 
-**Price** 450 gp; **Weight** 15 lbs.\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: 450 gp
+Weight: 15 lbs.
+Category: Channel Foci
+Deity: Any
+:::
 
 Typically worn by senior members of a faith, these cumbersome but splendidly ornate garments create
 an aura of dignity and gravitas that few dare to challenge. When activated, the garments make you

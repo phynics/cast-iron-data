@@ -23,8 +23,11 @@ price = "4 cp"
 weight = "2 lbs."
 +++
 
-**Price** 4 cp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 4 cp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Saws can take many different shapes, from small carpentry saws to the long, two-handled saws used by
 lumberjacks. You can insert a saw between a door and its frame to cut through wooden bolts or bars,

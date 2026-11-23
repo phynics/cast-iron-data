@@ -17,8 +17,11 @@ price = "1,000 gp"
 weight = "500 lbs."
 +++
 
-**Price** 1,000 gp; **Weight** 500 lbs.\
-**Category** Tools
+::: statblock
+Price: 1,000 gp
+Weight: 500 lbs.
+Category: Tools
+:::
 
 The dwarves of Highhelm fill these 20-foot-diameter cloth balloons with a secret and highly
 flammable gas (included in the price) and then release them into the sky over their enemies. To

@@ -17,8 +17,11 @@ price = "400 gp"
 weight = "4 lbs."
 +++
 
-**Price** 400 gp; **Weight** 4 lbs.\
-**Category** Tools
+::: statblock
+Price: 400 gp
+Weight: 4 lbs.
+Category: Tools
+:::
 
 A vigil cap is built like a [tinker's cap](ref/eq-misc/tinkers-cap), but with shades and wideview
 mirrors instead of magnifying lenses. The helmet's arms can be adjusted (as a full-round action that

@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "-"
 +++
 
-**Price** 2 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 2 gp
+Weight: -
+Category: Black Market
+:::
 
 Also known as deadly nightshade, this plant, with its distinctive greenish-purple leaves and dull
 black berries, has served as a cosmetic and medicine for longer than memory despite its

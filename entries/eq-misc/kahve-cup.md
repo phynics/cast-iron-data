@@ -20,8 +20,11 @@ price = "2 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 2 cp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 2 cp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 This style of coffee is served with generous helpings of milk, sugar, and spices to counteract its
 natural bitterness. Kahve is drunk throughout the day, both at home and at coffeehouses around town.

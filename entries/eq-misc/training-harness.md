@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "10 lbs."
 +++
 
-**Price** 10 gp; **Weight** 10 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 10 gp
+Weight: 10 lbs.
+Category: Animal Gear
+:::
 
 This specialized gear must be tailored to a specific type of animal. A training harness provides a
 +2 bonus on Handle Animal checks made with an animal wearing it.

@@ -23,8 +23,11 @@ price = "200 gp"
 weight = "15 lbs."
 +++
 
-**Price** 200 gp; **Weight** 15 lbs.\
-**Category** Clothing
+::: statblock
+Price: 200 gp
+Weight: 15 lbs.
+Category: Clothing
+:::
 
 Royal clothes are ostentatious, with gems, gold, silk, and fur in abundance. A royal outfit is
 rarely designed for regular wear or inclement weather - or even for donning unaided - as it's

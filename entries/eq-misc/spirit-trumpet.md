@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This telescopic horn is constructed of thin sheets of tin rolled into concentric cones, and measures
 about 3 feet long when fully extended. Primarily used by fraudulent mediums to disguise the true

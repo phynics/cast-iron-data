@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "-"
 +++
 
-**Price** 150 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 150 gp
+Weight: -
+Category: Tincture
+:::
 
 This tincture contains powdered plant roots and comes in [cold-weather](ref/rule/cold-dangers) and
 [hot-weather](ref/rule/heat-dangers) varieties. For 6 hours after drinking the tincture, you gain a

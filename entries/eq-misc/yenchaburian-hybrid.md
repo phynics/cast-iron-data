@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Food/Drink
+:::
 
 This bitter coffee cultivar increases the drinker's alertness to nearby threats. For 1 hour after
 drinking two cups of Yenchaburian hybrid coffee, you gain a +2 competence bonus on Perception checks

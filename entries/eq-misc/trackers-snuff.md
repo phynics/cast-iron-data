@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 When inhaled, this finely ground, alchemically treated [tobacco](ref/eq-misc/tobacco) greatly
 enhances your senses, especially your sense of smell. It grants the scent ability and a +2

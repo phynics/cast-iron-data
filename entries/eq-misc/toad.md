@@ -20,8 +20,11 @@ price = "2 cp"
 weight = "7 oz."
 +++
 
-**Price** 2 cp; **Weight** 7 oz.\
-**Category** Mounts/Pets
+::: statblock
+Price: 2 cp
+Weight: 7 oz.
+Category: Mounts/Pets
+:::
 
 This Diminutive amphibian is primarily kept as a familiar by spellcasters. Toads live in most
 temperate and warm environments, and eat insects.

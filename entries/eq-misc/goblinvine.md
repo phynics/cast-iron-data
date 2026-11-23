@@ -20,10 +20,15 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 16; **Yield** 1 dose (1 lb.)\
-**Terrain** any forests, mountains, plains, or swamps\
+::: statblock
+Price: 30 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 16
+Yield: 1 dose (1 lb.)
+Terrain: any forests, mountains, plains, or swamps
+:::
+
 **Preparation** Properly preparing a dose of goblinvine requires a successful DC 20 Sleight of Hand
 check and 1 minute of work to weave and roll the vines into a compact, fist-sized ball so the hairy
 side of the leaves faces inward. On a failure by 5 or more, the leaves become torn and ruined. If

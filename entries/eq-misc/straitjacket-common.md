@@ -19,7 +19,10 @@ weight = "1 lb. (common), 1 lb. (masterwork)"
 
 ## Straitjacket
 
-**Price** 5 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)
+::: statblock
+Price: 5 gp (common), 50 gp (masterwork)
+Weight: 1 lb. (common), 1 lb. (masterwork)
+:::
 
 Fashioned of durable canvas and leather straps, this instrument of restraint prevents its wearer
 from using his arms entirely. Properly binding a creature in a straitjacket requires 1 minute, and

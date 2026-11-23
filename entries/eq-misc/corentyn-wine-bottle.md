@@ -19,8 +19,11 @@ weight = "1/2 lb."
 
 ## Corentyn wine
 
-**Price** 15 gp/bottle; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 15 gp/bottle
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 Red and white wines grown in the salt spray of Corentyn have a sweet-tart flavor valued by nobles
 throughout Cheliax.

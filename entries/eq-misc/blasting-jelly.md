@@ -17,8 +17,11 @@ price = "45 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 45 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 45 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This volatile gray paste sticks to solid surfaces and creates a concentrated blast when exposed to
 fire, making it a valuable excavation tool. You can apply 1 dose of blasting jelly to a 5-foot

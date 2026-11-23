@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "3 lbs."
 +++
 
-**Price** 50 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 This blessed thurible holds up to 10 pieces of [incense](ref/eq-misc/incense), and burns at a rate
 of 1 stick per hour. If a [smokestick](ref/eq-misc/smokestick) is added to the incense in the

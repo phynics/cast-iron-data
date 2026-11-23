@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "4 lbs."
 +++
 
-**Price** 25 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 This unique instrument is composed of a 1-foot-long, sealed glass tube filled with a clear
 alchemical solution. Eight smaller glass vessels, each containing a different uniquely colored

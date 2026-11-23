@@ -20,7 +20,10 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This glass bottle holds about a pint and includes a cork.

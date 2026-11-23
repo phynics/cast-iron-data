@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Lodging/Services
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Lodging/Services
+:::
 
 A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level
 expert with 3 ranks in [Heal](ref/skill/heal), the [Skill Focus](ref/feat/skill-focus) (Heal) feat,

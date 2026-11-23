@@ -22,9 +22,10 @@ weight = "40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, r
 
 ## Saddle
 
-**Price** 60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding), 20 gp (military),
-5 gp (pack), 10 gp (riding); **Weight** 40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs.
-(exotic, riding), 30 lbs. (military), 15 lbs. (pack), 25 lbs. (riding)
+::: statblock
+Price: 60 gp (exotic, military), 15 gp (exotic, pack), 30 gp (exotic, riding), 20 gp (military), 5 gp (pack), 10 gp (riding)
+Weight: 40 lbs. (exotic, military), 20 lbs. (exotic, pack), 30 lbs. (exotic, riding), 30 lbs. (military), 15 lbs. (pack), 25 lbs. (riding)
+:::
 
 Saddles are used to support a rider or supplies on a mount.
 

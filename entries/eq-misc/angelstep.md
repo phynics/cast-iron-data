@@ -17,10 +17,15 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 18; **Yield** 1 dose\
-**Terrain** temperate or warm deserts\
+::: statblock
+Price: 25 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 18
+Yield: 1 dose
+Terrain: temperate or warm deserts
+:::
+
 **Preparation** A dose of angelstep can be used raw or processed into a pigment that can be worn on
 the skin. Processing a dose of the pigment takes 4 hours and requires a successful DC 15 Craft
 (alchemy) check. Angelstep pigment costs twice as much as the raw fungus.\

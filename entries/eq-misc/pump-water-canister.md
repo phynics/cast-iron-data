@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "5 lbs."
 +++
 
-**Price** 75 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 75 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 This metal container holds 4 gallons of water. As a standard action that provokes attacks of
 opportunity, you can use the hand pump and hose at the top to spray water up to 10 feet away.

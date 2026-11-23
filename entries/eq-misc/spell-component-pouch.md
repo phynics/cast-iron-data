@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "2 lbs."
 +++
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 A spellcaster with a spell component pouch is assumed to have all the material components and
 focuses needed for spellcasting, except for components that have a specific cost, divine focuses,

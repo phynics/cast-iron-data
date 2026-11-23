@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "20 lbs."
 +++
 
-**Price** 10 gp; **Weight** 20 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 20 lbs.
+Category: Adventuring Gear
+:::
 
 This wooden table has jointed legs and a hinge down the middle. When fully extended, it is a
 2-foot-by-4-foot table, but collapses down to 2 feet by 2 feet by 2 inches. Setting up the table is

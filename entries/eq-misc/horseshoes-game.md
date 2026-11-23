@@ -17,7 +17,10 @@ price = "5 sp"
 weight = "3 lbs."
 +++
 
-**Price** 5 sp; **Weight** 3 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 5 sp
+Weight: 3 lbs.
+Category: Entertainment
+:::
 
 This game includes two iron stakes and four iron horseshoes.

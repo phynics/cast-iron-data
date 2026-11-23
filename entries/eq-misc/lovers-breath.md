@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Clothing
+:::
 
 This alchemical perfume is distilled from a blend of humanoid pheromones and fey sweat. When applied
 as a full-round action, it grants the wearer a +2 circumstance bonus on all Charisma checks and

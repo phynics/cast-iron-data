@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "40 lbs."
 +++
 
-**Price** 100 gp; **Weight** 40 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: 40 lbs.
+Category: Adventuring Gear
+:::
 
 This boat has a canvas hull and wooden frame that can be easily disassembled. When collapsed, the
 boat fits into a pack that can be carried by one person. When expanded, this boat has the same base

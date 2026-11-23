@@ -17,7 +17,10 @@ price = "2 gp"
 weight = "10 lbs."
 +++
 
-**Price** 2 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 No description was provided for this entry.

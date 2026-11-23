@@ -17,8 +17,11 @@ price = "12 gp"
 weight = "1/10 lb."
 +++
 
-**Price** 12 gp; **Weight** 1/10 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 12 gp
+Weight: 1/10 lb.
+Category: Adventuring Gear
+:::
 
 A concealment coin appears in all respects like a typical coin of the realm and is often crafted
 from an ordinary coin - though for soft metals like gold, the coin is typically made with an iron or

@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "25 lbs."
 +++
 
-**Price** 300 gp; **Weight** 25 lbs.\
-**Category** Tools
+::: statblock
+Price: 300 gp
+Weight: 25 lbs.
+Category: Tools
+:::
 
 An anchoring balloon is a single-use alchemical device designed to provide a standing platform on a
 gaseous planet. When a cord is pulled as a standard action, an alchemical reaction fills the balloon

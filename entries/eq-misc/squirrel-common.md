@@ -19,7 +19,10 @@ weight = "2 lbs. (common), 1 lb. (flying)"
 
 ## Squirrel
 
-**Price** 1 gp (common), 20 gp (flying); **Weight** 2 lbs. (common), 1 lb. (flying)
+::: statblock
+Price: 1 gp (common), 20 gp (flying)
+Weight: 2 lbs. (common), 1 lb. (flying)
+:::
 
 These tiny rodents are as common in the wild as rats are in cities. They typically eat nuts, seeds,
 and vegetation. Squirrels have the same statistics as rats.

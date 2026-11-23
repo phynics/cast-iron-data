@@ -20,8 +20,10 @@ price = "100 gp (gold), 5 gp (iron), 500 gp (cold iron or platinum), 25 gp (silv
 weight = "1 lb. (gold, iron, cold iron, platinum, silver), - (wooden)"
 +++
 
-**Price** 100 gp (gold), 5 gp (iron), 500 gp (cold iron or platinum), 25 gp (silver), 1 gp (wooden);
-**Weight** 1 lb. (gold, iron, cold iron, platinum, silver), - (wooden)
+::: statblock
+Price: 100 gp (gold), 5 gp (iron), 500 gp (cold iron or platinum), 25 gp (silver), 1 gp (wooden)
+Weight: 1 lb. (gold, iron, cold iron, platinum, silver), - (wooden)
+:::
 
 A holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral
 clerics who want to cast good spells or channel positive energy). Each religion has its own holy

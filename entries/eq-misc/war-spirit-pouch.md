@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This tiny bundle of sacred herbs and bones supposedly attracts the attention of helpful
 battle-spirits. By crushing the pouch as a standard action, an orc (or a creature from a suitably

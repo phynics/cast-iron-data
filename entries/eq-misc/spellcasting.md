@@ -20,8 +20,11 @@ price = "caster level × spell level × 10 gp"
 weight = "-"
 +++
 
-**Price** caster level × spell level × 10 gp; **Weight** -\
-**Category** Lodging/Services
+::: statblock
+Price: caster level × spell level × 10 gp
+Weight: -
+Category: Lodging/Services
+:::
 
 The indicated amount is how much it costs to get a spellcaster to cast a spell for you. This price
 assumes that you can go to the spellcaster and have the spell cast at her convenience (generally at

@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 80 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 80 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This vial at first seems to be empty, but when it's opened, a rush of wind issues forth from within.
 When elemental breath is inhaled (as drinking a potion) by an air-breathing creature, that creature

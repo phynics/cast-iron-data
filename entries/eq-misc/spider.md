@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "8 oz."
 +++
 
-**Price** 25 gp; **Weight** 8 oz.\
-**Category** Mounts/Pets
+::: statblock
+Price: 25 gp
+Weight: 8 oz.
+Category: Mounts/Pets
+:::
 
 These Tiny spiders have red bodies and black legs. They are hunting spiders, so they do not cast
 webs, though they are poisonous.

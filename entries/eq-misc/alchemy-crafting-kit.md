@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "5 lbs."
 +++
 
-**Price** 25 gp; **Weight** 5 lbs.\
-**Category** Tools
+::: statblock
+Price: 25 gp
+Weight: 5 lbs.
+Category: Tools
+:::
 
 An alchemist with an alchemy crafting kit is assumed to have all the material components needed for
 his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy

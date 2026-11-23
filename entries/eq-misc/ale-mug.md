@@ -22,7 +22,10 @@ weight = "8 lbs. (gallon), 1 lb. (mug)"
 
 ## Ale
 
-**Price** 2 sp (gallon), 4 cp (mug); **Weight** 8 lbs. (gallon), 1 lb. (mug)
+::: statblock
+Price: 2 sp (gallon), 4 cp (mug)
+Weight: 8 lbs. (gallon), 1 lb. (mug)
+:::
 
 Ale is a type of beer brewed from malted barley. It has a sweet, full-bodied, and sometimes fruity
 taste.

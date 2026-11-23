@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Favored by young rakes and other well-to-do inebriates, this crystalline powder resembles salt.
 Mixed with water, it makes a fizzing cocktail that eliminates the effects of a hangover within 10

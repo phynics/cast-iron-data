@@ -17,8 +17,11 @@ price = "1 sp-50 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 sp-50 gp; **Weight** 1/2 lb.\
-**Category** Clothing
+::: statblock
+Price: 1 sp-50 gp
+Weight: 1/2 lb.
+Category: Clothing
+:::
 
 Much like hats, vests appear in almost all cultures. Though the basic design remains the same, they
 vary wildly in cut, color, and function. The difference between the court vests of Taldor and the

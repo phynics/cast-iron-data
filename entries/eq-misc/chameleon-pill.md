@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This pill causes the imbiber's skin to shift colors and patterns to match whatever is behind her. As
 long as a significant portion of her skin is exposed (her head and forearms, for example), the

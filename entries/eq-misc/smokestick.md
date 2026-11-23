@@ -23,8 +23,11 @@ price = "20 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 20 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke
 fills a 10-foot cube (treat the effect as a [fog cloud](ref/spell/fog-cloud) spell, except that a

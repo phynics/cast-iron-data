@@ -23,8 +23,11 @@ price = "5 sp"
 weight = "1 lb."
 +++
 
-**Price** 5 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 A drill can create a 1-inch-diameter hole in stone, wood, or metal as a standard action. Harder
 materials wear down or break the drill more quickly. Hearing the sound of drilling requires a DC 15

@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "5 lbs."
 +++
 
-**Price** 100 gp; **Weight** 5 lbs.\
-**Category** Clothing
+::: statblock
+Price: 100 gp
+Weight: 5 lbs.
+Category: Clothing
+:::
 
 This combination of loose-fitting sashes, veils, and ornamentation accentuates a dancer's form and
 movements. Dancer's garb provides a +2 circumstance bonus on Perform (dance) checks, similar to that

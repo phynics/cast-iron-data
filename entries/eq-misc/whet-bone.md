@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "2 lbs."
 +++
 
-**Price** 1 sp; **Weight** 2 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 1 sp
+Weight: 2 lbs.
+Category: Animal Gear
+:::
 
 This hardened mixture of animal marrow and minerals is shaped into a long bone. When chewed upon by
 a creature for no fewer than 15 minutes, a whet bone grants the creature a +1 bonus on its next

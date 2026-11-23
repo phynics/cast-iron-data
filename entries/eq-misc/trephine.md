@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Torture Implements
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Torture Implements
+:::
 
 This surgical instrument has a serrated, circular blade that is used to bore holes into the skulls
 of patients to relieve cranial swelling from head trauma or, as some chirurgeons believe, release

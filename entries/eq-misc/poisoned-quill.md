@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Tools
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Tools
+:::
 
 This long [pen](ref/eq-misc/inkpen) is made from a delicate feather and has a thin and unusually
 long nib. The quill is typically white in color, though variations that are crimson, onyx, or some

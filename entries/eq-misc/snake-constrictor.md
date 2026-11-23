@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "60 lbs."
 +++
 
-**Price** 5 gp; **Weight** 60 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 5 gp
+Weight: 60 lbs.
+Category: Mounts/Pets
+:::
 
 These Medium reptiles are found chiefly in warm climates. Somewhat aggressive, constrictors squeeze
 their prey to death before consuming it. Due to their size, these snakes are less popular for

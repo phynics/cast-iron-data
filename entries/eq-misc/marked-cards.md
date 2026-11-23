@@ -23,8 +23,11 @@ price = "1 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 gp; **Weight** 1 lb.\
-**Category** Entertainment
+::: statblock
+Price: 1 gp
+Weight: 1 lb.
+Category: Entertainment
+:::
 
 Whether bent, colored, or scratched, marked [cards](ref/eq-misc/cards) allow an informed user to
 know what's on the front of the card by viewing the mark on the back. Realizing that the cards are

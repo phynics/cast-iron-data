@@ -17,8 +17,11 @@ price = "35 gp"
 weight = "-"
 +++
 
-**Price** 35 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 35 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This fiber is composed of tiny strands of razor-sharp glass laced with alchemical elements. Anyone
 who touches it finds her skin irritated by countless tiny abrasions. Though it causes only minor

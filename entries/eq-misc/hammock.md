@@ -20,8 +20,11 @@ price = "1 sp"
 weight = "3 lbs."
 +++
 
-**Price** 1 sp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 This blanket or net is attached to strong ropes, allowing you to hang it from a heavy branch or two
 trees and sleep above the ground. Climbing into or out of a hammock is a full-round action. A

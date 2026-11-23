@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "3 lbs."
 +++
 
-**Price** 50 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 This portfolio contains examples of official letters along with proper forms of address, etiquette,
 and turns of phrase. Used by bureaucrats, diplomats, and clerks, it's also useful for counterfeiting

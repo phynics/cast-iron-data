@@ -17,8 +17,11 @@ price = "12 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 12 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 12 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 Obals are small silver or gold coins that are embossed with a [holy symbol](ref/eq-misc/holy-symbol)
 and blessed by a priest of a god of war or death. Inquisitors and warpriests traditionally place the

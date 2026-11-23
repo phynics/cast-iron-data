@@ -23,8 +23,11 @@ price = "50 gp"
 weight = "3 lbs."
 +++
 
-**Price** 50 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 When filled with coal and common herbs worth 2 sp, this miniature brazier fills an area 30 feet in
 diameter with light smoke for 1 hour. Any creature in the area of this smoke gains a +2 circumstance

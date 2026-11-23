@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "5 lbs."
 +++
 
-**Price** 50 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 This 50-foot length of [silk rope](ref/eq-misc/silk-rope-50-ft) is treated with alchemical reagents
 that give it a distinctly dusty odor. When any part of the rope is touched to an open flame, it

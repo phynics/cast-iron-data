@@ -19,7 +19,10 @@ weight = "- (map), - (text)"
 
 ## Scribe
 
-**Price** 10 gp (map), 1 gp (text); **Weight** - (map), - (text)
+::: statblock
+Price: 10 gp (map), 1 gp (text)
+Weight: - (map), - (text)
+:::
 
 A scribe is a literate person with clear handwriting who can take dictation or transcribe text
 documents. You must provide ink and writing materials, though the scribe can acquire these for you

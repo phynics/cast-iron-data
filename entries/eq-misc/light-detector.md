@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This hand-sized metal plate is covered with a thin layer of light-sensitive transparent paste. If
 exposed to light, the paste darkens and becomes opaque, depending on the amount of light. Bright

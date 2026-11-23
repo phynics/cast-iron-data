@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 Almost any preserved food can be found in gnome [trail rations](ref/eq-misc/trail-rations), which
 are designed to keep a wandering [gnome](ref/race/gnome) from needing to dine on the same meal twice

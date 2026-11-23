@@ -19,7 +19,10 @@ weight = "1 lb. (blue), 1 lb. (common)"
 
 ## Rat
 
-**Price** 1 gp (blue), 1 cp (common); **Weight** 1 lb. (blue), 1 lb. (common)
+::: statblock
+Price: 1 gp (blue), 1 cp (common)
+Weight: 1 lb. (blue), 1 lb. (common)
+:::
 
 These Tiny rodents live everywhere and eat nearly anything. Despite having a reputation as
 disease-ridden scavengers, domesticated rats are clean, loyal creatures that make excellent

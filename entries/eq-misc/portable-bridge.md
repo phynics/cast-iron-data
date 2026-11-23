@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "60 lbs."
 +++
 
-**Price** 200 gp; **Weight** 60 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 200 gp
+Weight: 60 lbs.
+Category: Adventuring Gear
+:::
 
 When staked down with eight [pitons](ref/eq-misc/piton) (four on each side of the gap), this rope
 and slat bridge can support up to 1,500 pounds and span a 30-foot gap. It rolls up into a parcel

@@ -18,8 +18,11 @@ price = "-"
 
 ## Coach cab
 
-**Price** -; **Price of Passage** (per mile) 3 cp\
-**Category** Transport, Land
+::: statblock
+Price: -
+Price of Passage: (per mile) 3 cp
+Category: Transport, Land
+:::
 
 The price given is for a ride in a coach that transports people (and light cargo) between towns. For
 a ride in a cab that transports passengers within a city, 1 copper piece usually takes you anywhere

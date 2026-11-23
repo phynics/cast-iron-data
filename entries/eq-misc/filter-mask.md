@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "4 lbs."
 +++
 
-**Price** 5 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 A filter mask is a rubber-sealed leather mask with a filtering respiration apparatus. Ordinary
 filter masks have cloth filters laced with floral perfumes, while masterwork filter masks use

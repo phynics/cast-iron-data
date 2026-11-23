@@ -17,8 +17,11 @@ price = "12 gp"
 weight = "80 lbs."
 +++
 
-**Price** 12 gp; **Weight** 80 lbs.\
-**Category** Kits
+::: statblock
+Price: 12 gp
+Weight: 80 lbs.
+Category: Kits
+:::
 
 This kit is actually four bundles of gear, designed so four individuals can share the load. It
 consists of four [bedrolls](ref/eq-misc/bedroll), four [blankets](ref/eq-misc/blanket), a day's

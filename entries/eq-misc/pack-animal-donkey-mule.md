@@ -19,8 +19,10 @@ weight = "600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pac
 
 ## Pack Animal
 
-**Price** 8 gp Pack animal (donkey/mule), 15 gp Pack animal (ox), 24 gp Pack animal (yak);
-**Weight** 600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pack animal (yak)
+::: statblock
+Price: 8 gp Pack animal (donkey/mule), 15 gp Pack animal (ox), 24 gp Pack animal (yak)
+Weight: 600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pack animal (yak)
+:::
 
 Working animals are universal, but the animal type varies according to local availability. Elephants
 carry goods in much of the Mwangi Expanse. Yaks pull loads in mountainous regions. In many other

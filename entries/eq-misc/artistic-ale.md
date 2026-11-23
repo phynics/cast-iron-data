@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Tincture
+:::
 
 Favored by performers of all kinds, this tincture is a blend of alchemically enhanced herbs and
 spices mixed into a pint of ale. For 6 hours after drinking this tincture, you gain a +2 alchemical

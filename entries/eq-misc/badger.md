@@ -17,7 +17,10 @@ price = "15 gp"
 weight = "20 lbs."
 +++
 
-**Price** 15 gp; **Weight** 20 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 15 gp
+Weight: 20 lbs.
+Category: Mounts/Pets
+:::
 
 These fierce, burrowing creatures are only rarely kept as pets.

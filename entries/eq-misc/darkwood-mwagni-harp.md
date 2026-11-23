@@ -17,8 +17,11 @@ price = "130 gp"
 weight = "1-1/2 lb."
 +++
 
-**Price** 130 gp; **Weight** 1-1/2 lb.\
-**Category** Tools
+::: statblock
+Price: 130 gp
+Weight: 1-1/2 lb.
+Category: Tools
+:::
 
 Musicians in the Mwangi Expanse make frequent use of carved harps strung with strings made from
 natural materials. These harps often feature ornately detailed soundboards and necks shaped like

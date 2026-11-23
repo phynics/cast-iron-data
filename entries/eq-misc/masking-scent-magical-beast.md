@@ -19,8 +19,10 @@ weight = "- (animal), - (humanoid), - (magical beast)"
 
 ## Masking scent
 
-**Price** 25 gp (animal), 50 gp (humanoid), 100 gp (magical beast); **Weight** - (animal), -
-(humanoid), - (magical beast)
+::: statblock
+Price: 25 gp (animal), 50 gp (humanoid), 100 gp (magical beast)
+Weight: - (animal), - (humanoid), - (magical beast)
+:::
 
 This item comes in a variety of scents (matching any one animal, humanoid, or magical beast). One
 vial applied to a single Medium-sized creature changes its scent to that of the masking scent's

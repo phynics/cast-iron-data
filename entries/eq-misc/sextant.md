@@ -26,8 +26,11 @@ price = "500 gp"
 weight = "2 lbs."
 +++
 
-**Price** 500 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 500 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 A sextant is used to determine your latitude. Using a sextant with an
 [astrolabe](ref/eq-misc/astrolabe) gives you a +4 circumstance bonus on Survival checks made to

@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "-"
 +++
 
-**Price** 150 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 150 gp
+Weight: -
+Category: Tincture
+:::
 
 This navy blue liquid is riddled with colorful flecks of minerals. For 1 hour after drinking this
 tincture, you gain a +5 alchemical bonus on [concentration](ref/rule/concentration) checks. The

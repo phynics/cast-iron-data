@@ -17,8 +17,11 @@ price = "1,100 gp"
 weight = "9 lbs."
 +++
 
-**Price** 1,100 gp; **Weight** 9 lbs.\
-**Category** Kits
+::: statblock
+Price: 1,100 gp
+Weight: 9 lbs.
+Category: Kits
+:::
 
 This pack includes several items necessary to injure or intimidate a variety of evil outsiders, or
 to overcome their [damage reduction](ref/rule/damage-reduction). The kit contains a

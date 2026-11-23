@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 25 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 You can use this smelly, silvery paste to temporarily repair metal objects. It is sold in a sealed
 flask and reacts with air, turning solid in 1d6+4 minutes. You must make an appropriate DC 20 Craft

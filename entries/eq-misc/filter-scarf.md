@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Clothing
+:::
 
 Made of heavy material, this scarf filters out dust, sand, smoke, and other airborne contaminants.
 When worn over your nose and mouth, this scarf grants you a +1 resistance bonus on saving throws

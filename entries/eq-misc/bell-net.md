@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "2 lbs."
 +++
 
-**Price** 2 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Copper bells hang at each the corners of this 5-foot-by-5-foot wire net. A bell net is designed to
 blanket gear while you sleep, hunt, cook, or otherwise can't give it your full attention, rasing an

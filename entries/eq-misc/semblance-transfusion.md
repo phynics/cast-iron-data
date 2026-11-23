@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 When combined with a drop of a humanoid's blood, this solution allows the
 [homunculus](ref/monster/homunculus) that drinks it to grow to size Small and assume the likeness of

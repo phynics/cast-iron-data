@@ -17,8 +17,11 @@ price = "Varies"
 weight = "-"
 +++
 
-**Price** Varies; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: Varies
+Weight: -
+Category: Clothing
+:::
 
 This is a small ornament used to hold an element of clothing, such as a cloak or cape, in place.
 Many organizations provide special brooches as a symbol of membership or to honor a special

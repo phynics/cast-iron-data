@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "37 lbs."
 +++
 
-**Price** 40 gp; **Weight** 37 lbs.\
-**Category** Kits
+::: statblock
+Price: 40 gp
+Weight: 37 lbs.
+Category: Kits
+:::
 
 This kit includes an [alchemy crafting kit](ref/eq-misc/alchemy-crafting-kit), a
 [backpack](ref/eq-misc/backpack), a [bedroll](ref/eq-misc/bedroll), a

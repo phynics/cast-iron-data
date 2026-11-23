@@ -20,8 +20,11 @@ price = "40 gp"
 weight = "4-1/2 lbs."
 +++
 
-**Price** 40 gp; **Weight** 4-1/2 lbs.\
-**Category** Kits
+::: statblock
+Price: 40 gp
+Weight: 4-1/2 lbs.
+Category: Kits
+:::
 
 This bundle contains a map case, two vials of [ink](ref/eq-misc/ink), two
 [inkpens](ref/eq-misc/inkpen), 10 sheets of [paper](ref/eq-misc/paper-sheet), two blank

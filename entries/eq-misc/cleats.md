@@ -26,8 +26,11 @@ price = "5 gp"
 weight = "2 lbs."
 +++
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 Cleats reduce the penalty for walking over slick surfaces by 50%. For example, walking across ice
 normally costs 2 squares of movement (1 square plus a 1 square penalty) for every square of

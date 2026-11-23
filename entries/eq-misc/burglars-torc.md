@@ -17,8 +17,11 @@ price = "2,102 gp"
 weight = "5 lbs."
 +++
 
-**Price** 2,102 gp; **Weight** 5 lbs.\
-**Category** Black Market
+::: statblock
+Price: 2,102 gp
+Weight: 5 lbs.
+Category: Black Market
+:::
 
 Appearing as a heavy, elaborate neckpiece while worn, a burglar's torc can be removed and
 disassembled into its component parts in 4 minutes (or in 1 minute if the user is trained in the

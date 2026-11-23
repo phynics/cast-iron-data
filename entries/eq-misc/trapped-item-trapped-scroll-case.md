@@ -19,8 +19,10 @@ weight = "8 lbs. (trapped disguise kit), 1 lb. (trapped scroll case)"
 
 ## Trapped item
 
-**Price** 50 gp (trapped disguise kit), 40 gp (trapped scroll case); **Weight** 8 lbs. (trapped
-disguise kit), 1 lb. (trapped scroll case)
+::: statblock
+Price: 50 gp (trapped disguise kit), 40 gp (trapped scroll case)
+Weight: 8 lbs. (trapped disguise kit), 1 lb. (trapped scroll case)
+:::
 
 Kobold artisans are constantly looking for new ways to increase the effectiveness of their traps,
 all while decreasing their setup time. To fit these two needs, kobold inventors have created a

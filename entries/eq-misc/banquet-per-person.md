@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Food/Drink
+:::
 
 A banquet includes several food courses, good drinks, and servants to bring the food and take away
 empty plates. The listed price is for having a banquet at a restaurant (though some restaurant

@@ -17,8 +17,11 @@ price = "1,000 gp"
 weight = "15 lbs."
 +++
 
-**Price** 1,000 gp; **Weight** 15 lbs.\
-**Category** Black Market
+::: statblock
+Price: 1,000 gp
+Weight: 15 lbs.
+Category: Black Market
+:::
 
 A premium hookah is similar to a standard [hookah](ref/eq-misc/hookah), except it sports enough
 hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each

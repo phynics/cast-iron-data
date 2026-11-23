@@ -17,8 +17,11 @@ price = "180 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 180 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 180 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 Originally brewed from waters adjacent to one of the Plane of Water's subaquatic suns, a vial of
 light of Axtarr glows like a [candle](ref/eq-misc/candle) until expended. A vial of light of Axtarr

@@ -20,8 +20,11 @@ price = "2 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 2 cp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 2 cp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 This is a loaf of bread with a crust that ranges from crisp to soft, depending on the local
 ingredients and baking methods. Bread may be leavened or unleavened, depending on whether yeast is

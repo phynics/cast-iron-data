@@ -16,9 +16,12 @@ category = "Miscellaneous Equipment"
 price = "6,700 gp"
 +++
 
-**Price** 6,700 gp; **Accuracy** +7\
-**Category** [Dungeon Guides](ref/rule/dungeon-guides)\
-**Associated Skill** Knowledge (engineering) (DC 25)
+::: statblock
+Price: 6,700 gp
+Accuracy: +7
+Category: [Dungeon Guides](ref/rule/dungeon-guides)
+Associated Skill: Knowledge (engineering) (DC 25)
+:::
 
 This thick leather-bound book was stolen from the Technic League by unknown hands, and describes one
 of the earliest surveys of the Silver Mount of Numeria and nearby ruins. The League's assassins

@@ -20,8 +20,11 @@ price = "5 sp"
 weight = "-"
 +++
 
-**Price** 5 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Sticks of charcoal are useful for marking floors and walls, writing on
 [paper](ref/eq-misc/paper-sheet) or [parchment](ref/eq-misc/parchment-sheet), and making rubbings of

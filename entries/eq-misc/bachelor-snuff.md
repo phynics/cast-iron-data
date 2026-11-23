@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Black Market
+:::
 
 If inhaled through the nose, this sooty-smelling golden powder renders humanoid males temporarily
 sterile without otherwise affecting their performance. A dose typically lasts 1-3 days. Long-term

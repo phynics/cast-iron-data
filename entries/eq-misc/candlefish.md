@@ -17,8 +17,11 @@ price = "7 sp"
 weight = "1 lb."
 +++
 
-**Price** 7 sp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 7 sp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 This long, oily, salted fish comes strung on a wick similar to that found in a candle. The fish can
 be cooked and eaten as a tasty trail ration, with the listed price buying a fish big enough for one

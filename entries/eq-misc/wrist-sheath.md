@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath
 can hold one forearmlength item, such as a [dagger](ref/eq-weapon/dagger),

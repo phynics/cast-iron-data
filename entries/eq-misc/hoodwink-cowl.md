@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "3 lbs."
 +++
 
-**Price** 75 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 75 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 This uncomfortable mask consists of a black cloth hood, padded leather earmuffs, and shuttered
 goggles that block vision. A creature wearing a hoodwink cowl is [blinded](ref/misc/blinded) and

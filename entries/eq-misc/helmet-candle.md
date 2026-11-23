@@ -20,8 +20,11 @@ price = "2 gp"
 weight = "4 lbs"
 +++
 
-**Price** 2 gp; **Weight** 4 lbs\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 4 lbs
+Category: Adventuring Gear
+:::
 
 This device consists of a helmet with a short, thin spike on top upon which a
 [candle](ref/eq-misc/candle) is stuck, freeing your hands for other tasks.

@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 Notations on surviving in the wilderness (and accompanying illustrations) fill this manual. If you
 have no skill ranks in Survival, you can consult this manual as part of attempting a Survival check

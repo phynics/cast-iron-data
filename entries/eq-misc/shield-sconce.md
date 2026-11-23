@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This metal frame holds a [torch](ref/eq-misc/torch) and is designed to be strapped to the front of a
 light, heavy, or tower shield, allowing you to carry a torch without giving up your shield or

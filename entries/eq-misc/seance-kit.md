@@ -17,8 +17,11 @@ price = "290 gp"
 weight = "12 lbs."
 +++
 
-**Price** 290 gp; **Weight** 12 lbs.\
-**Category** Kits
+::: statblock
+Price: 290 gp
+Weight: 12 lbs.
+Category: Kits
+:::
 
 This stained mahogany box contains tools that aid in contacting supernatural beings either as part
 of an act or a genuine ritual. This kit includes a nonmagical

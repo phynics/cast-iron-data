@@ -17,8 +17,11 @@ price = "1,000 gp"
 weight = "10 lbs."
 +++
 
-**Price** 1,000 gp; **Weight** 10 lbs.\
-**Category** Black Market
+::: statblock
+Price: 1,000 gp
+Weight: 10 lbs.
+Category: Black Market
+:::
 
 The Bamboo Palace is a bonsai group planting of bamboo that has been shaped to resemble Hwanggot's
 royal palace in Haseoung. The bonsai is nonmagical, but in its pristine state is a magnificent

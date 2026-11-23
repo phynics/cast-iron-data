@@ -17,10 +17,15 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 18; **Yield** 1 dose\
-**Terrain** any forests or mountains\
+::: statblock
+Price: 25 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 18
+Yield: 1 dose
+Terrain: any forests or mountains
+:::
+
 **Preparation** The petals of a dragon rose must be delicately removed from the stem and then soaked
 in a mixture brewed from the flower stalk's sap for 2 hours; this requires a successful DC 15 Craft
 (alchemy) check.\

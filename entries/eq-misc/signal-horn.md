@@ -23,8 +23,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Sounding a horn requires a DC 10 Perform (wind) check and can convey concepts such as "Attack!",
 "Help!", "Advance!", "Retreat!", "Fire!", and "Alarm!" The report of a signal horn can be clearly

@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "6 lbs."
 +++
 
-**Price** 200 gp; **Weight** 6 lbs.\
-**Category** Tools
+::: statblock
+Price: 200 gp
+Weight: 6 lbs.
+Category: Tools
+:::
 
 These inks, pens, papers, templates for certificates, and tools for modifying or copying official
 seals facilitates the creation of counterfeit documents. It grants a +2 circumstance bonus on

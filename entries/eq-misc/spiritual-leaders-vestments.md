@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "8 lbs."
 +++
 
-**Price** 100 gp; **Weight** 8 lbs.\
-**Category** Clothing
+::: statblock
+Price: 100 gp
+Weight: 8 lbs.
+Category: Clothing
+:::
 
 These fine garments come in assorted vibrant colors and are used in the most important religious or
 spiritual ceremonies. The vestments typically include a robe or cloak embroidered with a religion's

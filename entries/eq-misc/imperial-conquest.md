@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "4 lbs."
 +++
 
-**Price** 250 gp; **Weight** 4 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 250 gp
+Weight: 4 lbs.
+Category: Entertainment
+:::
 
 This strategy [game](ref/eq-misc/board-game), best played with an elaborate ebony board and
 intricate ivory pieces, follows deceptively simple rules with great strategic depth. While the game

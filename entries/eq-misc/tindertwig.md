@@ -23,8 +23,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 The alchemical substance on the end of this small, wooden stick ignites when struck against a rough
 surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame

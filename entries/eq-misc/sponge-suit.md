@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "2 lbs. (or 10 lbs.)"
 +++
 
-**Price** 30 gp; **Weight** 2 lbs. (or 10 lbs.)\
-**Category** Clothing
+::: statblock
+Price: 30 gp
+Weight: 2 lbs. (or 10 lbs.)
+Category: Clothing
+:::
 
 Outwardly, this suit of clothing appears to be an ordinary
 [traveler's outfit](ref/eq-misc/travelers-outfit), albeit cut from thicker-than-normal cloth. The

@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This item is the equivalent of a healer's kit, except its materials are especially suitable for
 treating common animals (cats, dogs, goats, oxen, sheep, and so on). It provides a +3 circumstance

@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "2 lbs."
 +++
 
-**Price** 200 gp; **Weight** 2 lbs.\
-**Category** Food/Drink
+::: statblock
+Price: 200 gp
+Weight: 2 lbs.
+Category: Food/Drink
+:::
 
 This deep red wine is highly tannic and has notes of currants and cocoa and an aroma of cedar.
 Sangwine is a favorite of Caliphas's elite, who associate drinking it with long life. Drinking a

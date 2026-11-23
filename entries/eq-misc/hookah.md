@@ -17,8 +17,11 @@ price = "400 gp"
 weight = "10 lbs."
 +++
 
-**Price** 400 gp; **Weight** 10 lbs.\
-**Category** Black Market
+::: statblock
+Price: 400 gp
+Weight: 10 lbs.
+Category: Black Market
+:::
 
 The bowl of this glass water pipe can be loaded with any inhalable drug, alchemical powder, or
 alchemical liquid. You must set down a hookah in a free space (a move action) and fill the water jar

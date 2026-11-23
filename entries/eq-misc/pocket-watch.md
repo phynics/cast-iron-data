@@ -17,7 +17,10 @@ price = "250 gp"
 weight = "1 lb."
 +++
 
-**Price** 250 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 250 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This miniature clock is small enough to carry.

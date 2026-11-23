@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "3 lbs."
 +++
 
-**Price** 10 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 This 100-page book contains face drawings of male and female dwarves, elves, gnomes, half-elves,
 half-orcs, halflings, and humans. By selecting an appropriate drawing and adding hair, a beard, or

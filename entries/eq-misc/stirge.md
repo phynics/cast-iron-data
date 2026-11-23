@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Mounts/Pets
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Mounts/Pets
+:::
 
 These Tiny beasts are allegedly sold for indoor defense to rich clients, but often wind up in exotic
 blood sports. Despite the popular misconception that stirges are untameable vermin, such creatures

@@ -17,10 +17,13 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 13\
-**Terrain** forests or plains
+::: statblock
+Price: 5 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 13
+Terrain: forests or plains
+:::
 
 Clerics of [Desna](ref/faith/desna) claim that the Great Dreamer planted the first seed of this
 flower with her own hand. When the orange petals are cured and left to steep in hot water, the

@@ -20,8 +20,11 @@ price = "200 gp"
 weight = "7 lbs."
 +++
 
-**Price** 200 gp; **Weight** 7 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 200 gp
+Weight: 7 lbs.
+Category: Mounts/Pets
+:::
 
 Found primarily in temperate forests, pseudodragons are intelligent enough that some consider their
 sale slavery. A handful of pseudodragons offer themselves for hire to adventurers, typically for

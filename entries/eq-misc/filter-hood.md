@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "4 lbs."
 +++
 
-**Price** 10 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 This snug leather hood has built-in goggles and a filtration tube containing sponges. A filter hood
 uses your helm slot and imposes a -2 penalty on hearing- and sight-based Perception checks. While

@@ -17,8 +17,11 @@ price = "1,500 gp"
 weight = "30 lbs."
 +++
 
-**Price** 1,500 gp; **Weight** 30 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 1,500 gp
+Weight: 30 lbs.
+Category: Alchemical Tools
+:::
 
 A more advanced version of the [clockwork prowler](ref/eq-misc/clockwork-prowler), this device is
 more metal than wood. It moves at a speed of 20 feet and can be programmed with up to four

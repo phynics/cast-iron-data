@@ -17,8 +17,11 @@ price = "8 gp"
 weight = "600-800 lbs."
 +++
 
-**Price** 8 gp; **Weight** 600-800 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 8 gp
+Weight: 600-800 lbs.
+Category: Mounts/Pets
+:::
 
 Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy
 loads over vast distances. Unlike a [horse](ref/eq-misc/horse), a donkey or mule is willing (though

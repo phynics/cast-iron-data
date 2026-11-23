@@ -20,8 +20,11 @@ price = "45 gp"
 weight = "1 lb."
 +++
 
-**Price** 45 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 45 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 The space at the bottom of this sword scabbard is just large enough to hold a potion flask. Some are
 accessed from the outside; others open on the inside with a secret catch at the top end. Finding the

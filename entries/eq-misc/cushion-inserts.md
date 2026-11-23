@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "-"
 +++
 
-**Price** 5 sp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 5 sp
+Weight: -
+Category: Clothing
+:::
 
 These rubber boot or shoe inserts cushion your feet and improve your gait, granting you a +1
 circumstance bonus on Constitution checks to continue running and to avoid nonlethal damage from a

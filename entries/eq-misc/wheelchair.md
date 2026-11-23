@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "25 lbs."
 +++
 
-**Price** 20 gp; **Weight** 25 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 25 lbs.
+Category: Adventuring Gear
+:::
 
 This device is a chair, typically made from wood, with large wheels attached on either side. A
 wheelchair can seat a single Medium or Small creature. When seated in a wheelchair, you can propel

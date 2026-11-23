@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 sp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 Sold in pairs, these cords have an elastic quality. Both cords measure 2 feet long but can be
 extended to 4 feet. Each end of a cord has a small metal hook. Employed together, these cords can be

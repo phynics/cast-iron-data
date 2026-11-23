@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Lodging/Services
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Lodging/Services
+:::
 
 This title includes valets, butlers, lady's maids, ladies-in-waiting, secretaries, stewards,
 concierges, majordomos, manservants, bodyservants, and other skilled, trusted servants and employees

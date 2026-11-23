@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "2 lbs."
 +++
 
-**Price** 50 gp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 50 gp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 This close-fitting bodysuit of soft, dark fabric is favored by ninja and assassins. When worn, it
 grants a +2 circumstance bonus on Stealth checks. Wearing armor with a base armor bonus higher than

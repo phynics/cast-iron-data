@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "2 lbs."
 +++
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 You mix this fine gray powder with water and a cubic foot of sand or gravel to form a durable
 stone-like material. Until it cures, it has the consistency of thick mud, and you must hold it in

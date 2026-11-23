@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This snuff can be used to shake off the effects of nausea. If you take it before being exposed to an
 effect that would give you the [nauseated](ref/misc/nauseated) condition and allows a saving throw,

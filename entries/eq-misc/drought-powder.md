@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This unique, salty alchemical powder is crafted in Darklands communities where fresh water is either
 scarce or guarded by dangerous predators. Consuming 1 dose allows you to go without water for 3 days

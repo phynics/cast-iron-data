@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 10 gp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 10 gp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 This one-piece suit of clothing reduces one's drag in the water, making swimming easier. It provides
 a +1 circumstance bonus on Swim checks. The suit only grants this bonus if it is the outermost

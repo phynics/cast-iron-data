@@ -17,8 +17,11 @@ price = "530 gp"
 weight = "1 lb."
 +++
 
-**Price** 530 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 530 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This 10-foot-long [chain](ref/eq-misc/chain-10-ft) has [hardness](ref/umr/hardness) 15 and 5 hit
 points. A successful DC 28 Strength check is required to burst it, making it strong enough to hold

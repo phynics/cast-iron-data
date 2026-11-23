@@ -17,9 +17,12 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Channel Foci\
-**Deity** [Gozreh](ref/faith/gozreh)
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Channel Foci
+Deity: [Gozreh](ref/faith/gozreh)
+:::
 
 This is a hand-carved icon of a human figure. When the icon is activated and a flower is placed in
 the niche, the icon grants the bearer a +1 luck bonus to Armor Class for 1 hour, but only against

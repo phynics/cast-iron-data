@@ -22,8 +22,10 @@ weight = "- (aggression), - (arousal), - (simple), - (susceptibility)"
 
 ## Alchemical pheromones
 
-**Price** 150 gp (aggression), 300 gp (arousal), 1 gp (simple), 300 gp (susceptibility);
-**Weight** - (aggression), - (arousal), - (simple), - (susceptibility)
+::: statblock
+Price: 150 gp (aggression), 300 gp (arousal), 1 gp (simple), 300 gp (susceptibility)
+Weight: - (aggression), - (arousal), - (simple), - (susceptibility)
+:::
 
 Alchemical pheromones are variously colored liquids typically stored in glass vials. These
 pheromones combine the natural scent of an animal (such as a wolf), humanoid (such as a human),

@@ -17,8 +17,11 @@ price = "2 sp"
 weight = "2 lbs."
 +++
 
-**Price** 2 sp; **Weight** 2 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 2 sp
+Weight: 2 lbs.
+Category: Animal Gear
+:::
 
 This hard-bristled tool has a handle that slips over the wearer's hand, and is used by animal
 breeders, owners, and grooms to brush the animals in their care, loosening dirt and detritus from

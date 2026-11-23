@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "4 lbs."
 +++
 
-**Price** 50 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 These specially modified [caltrops](ref/eq-misc/caltrops) have clusters of needle-sharp spines that
 are slightly longer and more brittle than those on normal caltrops. Like standard caltrops, a

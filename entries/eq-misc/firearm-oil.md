@@ -17,8 +17,11 @@ price = "260 gp"
 weight = "1 lb."
 +++
 
-**Price** 260 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 260 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This clear, viscous oil comes in a squat bottle with a dropper that dispenses one drop of oil at a
 time. When applied to an early or advanced firearm, it seeps into the weapon's inner workings and

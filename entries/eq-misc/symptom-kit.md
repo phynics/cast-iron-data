@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "5 lbs."
 +++
 
-**Price** 25 gp; **Weight** 5 lbs.\
-**Category** Tools
+::: statblock
+Price: 25 gp
+Weight: 5 lbs.
+Category: Tools
+:::
 
 This small wooden box has many tiny compartments filled with items useful if you want to feign a
 sickness, as well as a handy reference book outlining common indicators for some of the more feared

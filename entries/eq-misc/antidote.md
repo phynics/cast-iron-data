@@ -17,8 +17,11 @@ price = "varies"
 weight = "-"
 +++
 
-**Price** varies; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: varies
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Generally stored in a glass vial, an antidote is formulated to counteract a specific poison chosen
 at the time of the antidote's creation. Drinking the antidote grants a +10 alchemical bonus on

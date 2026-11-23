@@ -20,8 +20,11 @@ price = "2 gp"
 weight = "8 oz."
 +++
 
-**Price** 2 gp; **Weight** 8 oz.\
-**Category** Mounts/Pets
+::: statblock
+Price: 2 gp
+Weight: 8 oz.
+Category: Mounts/Pets
+:::
 
 These Tiny animals eat smaller animals and can be found in nearly any environment. They are clever
 and curious, traits that are magnified when they are kept as familiars. Many varieties of weasel

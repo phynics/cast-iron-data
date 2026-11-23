@@ -17,7 +17,10 @@ price = "1,500 gp"
 weight = "500 lbs."
 +++
 
-**Price** 1,500 gp; **Weight** 500 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 1,500 gp
+Weight: 500 lbs.
+Category: Mounts/Pets
+:::
 
 These Large avian predators are sometimes used as hunting animals but are prized as mounts.

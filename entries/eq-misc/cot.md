@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "30 lbs."
 +++
 
-**Price** 1 gp; **Weight** 30 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 30 lbs.
+Category: Adventuring Gear
+:::
 
 This elevated camp bed is made of wood and canvas, and is particularly useful when the ground is wet
 or rocky. It is large enough for a full-grown human, but folds down into a 4-foot by 9-inch

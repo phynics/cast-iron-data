@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 These sharply scented gray crystals cause people inhaling them to regain consciousness. Smelling
 salts grant you a new saving throw to resist any spell or effect that has already rendered you

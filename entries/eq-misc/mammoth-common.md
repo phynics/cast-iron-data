@@ -19,8 +19,10 @@ weight = "8 tons (combat-trained), 8 tons (common)"
 
 ## Mammoth
 
-**Price** 2,250 gp (combat-trained), 2,000 gp (common); **Weight** 8 tons (combat-trained), 8 tons
-(common)
+::: statblock
+Price: 2,250 gp (combat-trained), 2,000 gp (common)
+Weight: 8 tons (combat-trained), 8 tons (common)
+:::
 
 This woollier variety of the mastodon is adapted to cold, and is a larger and more powerfully built
 cousin to the elephant. A favored beast of burden among Kellid tribes, mammoths are more

@@ -20,8 +20,11 @@ price = "3 gp"
 weight = "16 lbs."
 +++
 
-**Price** 3 gp; **Weight** 16 lbs.\
-**Category** Kits
+::: statblock
+Price: 3 gp
+Weight: 16 lbs.
+Category: Kits
+:::
 
 This kit contains an [iron pot](ref/eq-misc/pot-iron), an iron [skillet](ref/eq-misc/skillet), a
 ladle, a skewer, a wooden cutting board, a cutting knife, an iron tripod for the pot, a packet of

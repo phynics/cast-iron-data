@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "-"
 +++
 
-**Price** 60 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 60 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This specialized [ink](ref/eq-misc/ink) can be mixed with a contact poison to make the poison last
 longer on paper. Once applied to a sheet of paper, the ink remains slightly tacky and keeps the

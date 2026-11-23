@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "2 lbs."
 +++
 
-**Price** 25 gp; **Weight** 2 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 25 gp
+Weight: 2 lbs.
+Category: Mounts/Pets
+:::
 
 These cunning animals (especially the [blue-ringed](ref/monster/familiar-blue-ringed-octopus)
 variety) can be employed as familiars by aquatic spellcasters. If they are kept is pets, they must

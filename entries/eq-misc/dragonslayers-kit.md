@@ -20,8 +20,11 @@ price = "485 gp"
 weight = "64 lbs."
 +++
 
-**Price** 485 gp; **Weight** 64 lbs.\
-**Category** Kits
+::: statblock
+Price: 485 gp
+Weight: 64 lbs.
+Category: Kits
+:::
 
 Aimed more at hired blades than seasoned adventurers, this kit provides supplemental equipment for
 outfitting hirelings to hunt dragons. It includes a potion of

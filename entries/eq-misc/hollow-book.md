@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "3 lbs."
 +++
 
-**Price** 15 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 15 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 Under regular scrutiny, a hollow book appears as a normal tome. However, it is designed to hold a
 concealed item within its pages. One type of hollow book simply has a cavity cut into the interior

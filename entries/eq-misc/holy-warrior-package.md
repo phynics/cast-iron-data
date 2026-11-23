@@ -17,8 +17,11 @@ price = "1000 gp"
 weight = "102 lbs."
 +++
 
-**Price** 1000 gp; **Weight** 102 lbs.\
-**Category** Kits
+::: statblock
+Price: 1000 gp
+Weight: 102 lbs.
+Category: Kits
+:::
 
 The holy warrior is prepared to use her might and zeal to take the fight to the enemy, but she
 understands the importance of having the right equipment to overcome the resistances of her

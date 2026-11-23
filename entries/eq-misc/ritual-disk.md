@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This simple disk, usually carved from stone or fashioned from metal, is engraved with a portion of a
 specific religious rite or ritual. A single disk details only part of a ritual, requiring multiple

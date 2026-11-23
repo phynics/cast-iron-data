@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 gp; **Weight** 1/2 lb.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 1/2 lb.
+Category: Clothing
+:::
 
 These cloaks are popular among traveling bards, and each patchwork cloak is unique. The patches
 represent where the traveler has been, and often the performer uses them to recall specific stories

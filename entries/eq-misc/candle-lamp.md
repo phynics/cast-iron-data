@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 A candle lamp is a small lantern-like device with glass panels and a slot to hold a
 [candle](ref/eq-misc/candle). It protects the candle from drafts and catches wax drippings. It

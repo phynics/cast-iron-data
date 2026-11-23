@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "40 lbs."
 +++
 
-**Price** 10 gp; **Weight** 40 lbs.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 40 lbs.
+Category: Tools
+:::
 
 This is a straw-stuffed wire frame of a monstrous creature, wrapped in burlap and coated in the musk
 of that particular creature. When using the Handle Animal skill to teach the attack trick, having a

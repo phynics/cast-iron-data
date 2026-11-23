@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "7 lbs."
 +++
 
-**Price** 5 gp; **Weight** 7 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 5 gp
+Weight: 7 lbs.
+Category: Mounts/Pets
+:::
 
 These nocturnal hunter-scavengers are found primarily in forested terrains, and are noted for their
 domino mask-like visages, highly dextrous forepaws (which they rely on for their hyper-sensitive

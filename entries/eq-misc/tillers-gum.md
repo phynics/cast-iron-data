@@ -20,8 +20,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This gum has alchemical properties that allow it to soak up magical energy and release it when the
 gum is chewed. As a standard action, a stick of tiller's gum can be imbued with a spell of up to 3rd

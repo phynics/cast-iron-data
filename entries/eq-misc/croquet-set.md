@@ -17,7 +17,10 @@ price = "5 sp"
 weight = "10 lbs."
 +++
 
-**Price** 5 sp; **Weight** 10 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 5 sp
+Weight: 10 lbs.
+Category: Entertainment
+:::
 
 This set includes four wooden mallets, nine wooden wickets (goals), and four wooden balls.

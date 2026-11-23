@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "1-1/2 lbs."
 +++
 
-**Price** 2 gp; **Weight** 1-1/2 lbs.\
-**Category** Food/Drink
+::: statblock
+Price: 2 gp
+Weight: 1-1/2 lbs.
+Category: Food/Drink
+:::
 
 Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and
 dried vegetables. If you are a [dwarf](ref/race/dwarf) who subsists on nothing but these rations for

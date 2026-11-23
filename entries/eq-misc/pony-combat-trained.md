@@ -28,10 +28,10 @@ weight = "2,000 lbs. (heavy), 3,000 lbs. (heavy, combat trained), 900 lbs. (ligh
 
 ## Horse
 
-**Price** 200 gp (heavy), 300 gp (heavy, combat trained), 75 gp (light), 110 gp (light, combat
-trained), 30 gp (pony), 45 gp (pony, combat trained); **Weight** 2,000 lbs. (heavy), 3,000 lbs.
-(heavy, combat trained), 900 lbs. (light), 1,200 lbs. (light, combat trained), 800 lbs. (pony), 900
-lbs. (pony, combat trained)
+::: statblock
+Price: 200 gp (heavy), 300 gp (heavy, combat trained), 75 gp (light), 110 gp (light, combat trained), 30 gp (pony), 45 gp (pony, combat trained)
+Weight: 2,000 lbs. (heavy), 3,000 lbs. (heavy, combat trained), 900 lbs. (light), 1,200 lbs. (light, combat trained), 800 lbs. (pony), 900 lbs. (pony, combat trained)
+:::
 
 This Large quadruped is used as a mount and pack animal. Horses can be trained for combat but
 otherwise are skittish around battle. Many cultures support breeding programs and often consider

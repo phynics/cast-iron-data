@@ -19,8 +19,11 @@ weight = "1/2 lb./gallon"
 
 ## Air tank
 
-**Price** 5 sp/ gallon; **Weight** 1/2 lb./gallon\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp/ gallon
+Weight: 1/2 lb./gallon
+Category: Adventuring Gear
+:::
 
 Tanks full of normal air don't last long as breathing devices, but a large air tank is excellent for
 ensuring a character has a swiftly rising [buoyancy](ref/rule/buoyancy), and a savvy diver can

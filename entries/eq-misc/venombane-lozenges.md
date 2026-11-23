@@ -17,8 +17,11 @@ price = "35 gp"
 weight = "-"
 +++
 
-**Price** 35 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 35 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 These faintly glowing lozenges often come in a discrete brown pouch. A single venombane lozenge
 lasts for 5 minutes after being placed in a creature's mouth. During this time, the user gains a

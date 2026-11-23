@@ -26,8 +26,11 @@ price = "1 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 cp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 cp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 Powdered chalk, flour, and similar materials are popular with adventurers for their utility in
 pinpointing invisible creatures. Throwing a bag of powder into a square is an attack against AC 5,

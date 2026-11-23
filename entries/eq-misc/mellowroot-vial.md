@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Sneaky goblin chieftains give this orange paste to the tribe's warriors before proposing a
 particularly bold raid. Consuming mellowroot causes a euphoric feeling that makes you feel

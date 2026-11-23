@@ -17,8 +17,11 @@ price = "644 gp"
 weight = "30 lbs."
 +++
 
-**Price** 644 gp; **Weight** 30 lbs.\
-**Category** Kits
+::: statblock
+Price: 644 gp
+Weight: 30 lbs.
+Category: Kits
+:::
 
 Pits, fissures, and errant magic might unexpectedly drop a traveler into underground tunnels. This
 backpack contains a variety of tools to survive an accidental subterranean expedition, including

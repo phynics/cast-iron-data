@@ -17,9 +17,12 @@ price = "75 gp"
 weight = "5 lbs."
 +++
 
-**Price** 75 gp; **Weight** 5 lbs.\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: 75 gp
+Weight: 5 lbs.
+Category: Channel Foci
+Deity: Any
+:::
 
 Carved from heartwood and bearing ornate symbols along its length, this staff is used to reveal
 critical or uplifting information to other members of the faith, usually during a sermon. When

@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "1 lb."
 +++
 
-**Price** 500 gp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 500 gp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 This bizarre fruit appears to be carved from stone, though it has a lovely aroma and is easily
 consumed. Stone fruits occasionally sprout from the strange tree-like monument known as the

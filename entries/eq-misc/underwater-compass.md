@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 20 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This otherwise ordinary [compass](ref/eq-misc/compass) is sealed inside a glass case amid a quantity
 of clear oil. The oil keeps the glass from cracking at high pressures, allowing the compass to

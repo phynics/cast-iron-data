@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 When worn inside voluminous sleeves, this leather holster allows you to draw a concealed
 [hand crossbow](ref/eq-weapon/hand-crossbow) or [coat pistol](ref/eq-weapon/coat-pistol) as a move

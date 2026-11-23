@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 A wooden frame approximately the same size as a large book surrounds this thinly sliced piece of
 polished black stone. Rubbing a damp cloth over the slate erases anything scribed with chalk on its

@@ -17,8 +17,11 @@ price = "12 gp"
 weight = "1 lb."
 +++
 
-**Price** 12 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 12 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This curved wicker basket is worn like a glove over one hand. The basket extends approximately 2
 feet in a steady curve, allowing you to launch a thrown splash weapon at incredible speeds and over

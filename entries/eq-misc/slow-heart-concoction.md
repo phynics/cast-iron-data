@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Concoctions
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Concoctions
+:::
 
 This inky concoction slows the flow of blood, reducing any [bleed](ref/rule/bleed) damage you would
 suffer by 2 and causing you to automatically stabilize when dying. The concoction dulls your

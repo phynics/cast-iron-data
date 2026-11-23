@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "2 lbs."
 +++
 
-**Price** 2 gp; **Weight** 2 lbs.\
-**Category** Black Market
+::: statblock
+Price: 2 gp
+Weight: 2 lbs.
+Category: Black Market
+:::
 
 Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow
 provides dim illumination in the area immediately surrounding the fist-sized lump of false

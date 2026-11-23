@@ -23,8 +23,11 @@ price = "2 cp"
 weight = "1 lb."
 +++
 
-**Price** 2 cp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 cp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 A whetstone allows you to sharpen a blade by sliding it against the stone at a precise angle. Honing
 a blade with a whetstone requires about 15 minutes of work and grants the weapon a +1 bonus on your

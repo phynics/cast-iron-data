@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 75 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 When imbibed, this effervescent solution causes a heavy warmth to spread from your stomach outward
 to your limbs, resulting in feelings of security and well-being. If you sleep for at least 1 hour

@@ -23,8 +23,11 @@ price = "1 sp-50 gp"
 weight = "1/2 lb.-2 lbs."
 +++
 
-**Price** 1 sp-50 gp; **Weight** 1/2 lb.-2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 1 sp-50 gp
+Weight: 1/2 lb.-2 lbs.
+Category: Clothing
+:::
 
 Hats of various styles appear in all cultures. Ranging from the turban to the tricorne to the furred
 cap, a hat can be a simple covering for the head. Particular hats are sometimes mandatory for social

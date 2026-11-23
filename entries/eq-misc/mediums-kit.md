@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "14 lbs."
 +++
 
-**Price** 40 gp; **Weight** 14 lbs.\
-**Category** Kits
+::: statblock
+Price: 40 gp
+Weight: 14 lbs.
+Category: Kits
+:::
 
 This kit includes tools that aid in contacting supernatural beings. It includes an
 [automatic writing planchette](ref/eq-misc/automatic-writing-planchette),

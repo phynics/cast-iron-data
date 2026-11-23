@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "4 lbs."
 +++
 
-**Price** 200 gp; **Weight** 4 lbs.\
-**Category** Tools
+::: statblock
+Price: 200 gp
+Weight: 4 lbs.
+Category: Tools
+:::
 
 This expertly crafted helmet has several small arms that hold magnifying lenses near the wearer's
 face. They're kept in place by locking hinges and crude gyroscopes that compensate for normal head

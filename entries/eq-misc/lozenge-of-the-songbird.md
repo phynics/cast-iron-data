@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This honey-coated candy is made of soothing reagents. If eaten, it takes 1 round to begin working,
 then grants a +2 alchemical bonus on all Perform (sing) checks for 1 hour.

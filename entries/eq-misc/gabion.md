@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This tough wickerwork cylinder is typically 3 feet tall and 2 feet wide. It has no top or bottom,
 and can be filled with about 10 cubic feet of earth, stone, or other heavy materials while standing

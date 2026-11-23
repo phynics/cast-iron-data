@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "3 lbs."
 +++
 
-**Price** 75 gp; **Weight** 3 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 75 gp
+Weight: 3 lbs.
+Category: Alchemical Tools
+:::
 
 A blend of finely ground plaster, burning spices, and insect secretions, houndbane dust deters
 tracking animals. A single pouch can be spread over a 5-foot area as a standard action. For 24 hours

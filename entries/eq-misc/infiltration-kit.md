@@ -17,8 +17,11 @@ price = "140 gp"
 weight = "15 lbs."
 +++
 
-**Price** 140 gp; **Weight** 15 lbs.\
-**Category** Kits
+::: statblock
+Price: 140 gp
+Weight: 15 lbs.
+Category: Kits
+:::
 
 This kit is useful to [Pathfinders](ref/rule/aff-scholars) who must practice guile and deception in
 order to acquire useful information, and includes a set of [caltrops](ref/eq-misc/caltrops),

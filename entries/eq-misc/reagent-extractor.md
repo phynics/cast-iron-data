@@ -17,8 +17,11 @@ price = "1,000 gp"
 weight = "10 lbs."
 +++
 
-**Price** 1,000 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 1,000 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 These connected glass-and-copper apparatuses have [heatstones](ref/eq-misc/heatstone) and other
 components installed at the base of each container to break down magic liquids placed within. Any

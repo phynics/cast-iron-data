@@ -19,8 +19,11 @@ weight = "- (cold, hot, public)"
 
 ## Bath
 
-**Price** 2 cp (cold), 6 cp (hot), 2 sp-1 gp (public); **Weight** - (cold, hot, public)\
-**Category** Lodging/Services
+::: statblock
+Price: 2 cp (cold), 6 cp (hot), 2 sp-1 gp (public)
+Weight: - (cold, hot, public)
+Category: Lodging/Services
+:::
 
 A cold bath usually involves someone else's used soapy bath water. A hot bath is a one-person
 washtub filled with hot water one pot at a time. A public bath is a bath facility (such as a bath

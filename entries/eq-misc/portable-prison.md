@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "300 lbs."
 +++
 
-**Price** 200 gp; **Weight** 300 lbs.\
-**Category** Kits
+::: statblock
+Price: 200 gp
+Weight: 300 lbs.
+Category: Kits
+:::
 
 This kit for a [wagon](ref/eq-misc/wagon) provides a set of metal bars with a door for transporting
 imprisoned people or creatures. Though portable prisons were originally developed by traveling acts

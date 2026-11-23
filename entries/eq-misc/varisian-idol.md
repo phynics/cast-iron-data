@@ -23,8 +23,11 @@ price = "75 gp"
 weight = "1 lb."
 +++
 
-**Price** 75 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 75 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 Scavenged from mysterious monuments, these depictions of forgotten figures and nameless spirits are
 often sold as good luck charms, but most commoners don't know that they can also be used to augment

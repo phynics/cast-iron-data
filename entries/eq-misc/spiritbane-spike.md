@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "1 lb."
 +++
 
-**Price** 300 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 300 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 When you slash this alchemically treated iron spike against your flesh - a move action that deals
 1d6 points of damage - the spike extends and becomes a [short sword](ref/eq-weapon/short-sword) with

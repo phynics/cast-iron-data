@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Tincture
+:::
 
 This pitch-black liquid slows your heart rate, putting you in an almost trance-like state. For 1
 hour after drinking this tincture, you gain a +2 alchemical bonus on Stealth checks, you can use

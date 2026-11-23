@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "9 lbs."
 +++
 
-**Price** 300 gp; **Weight** 9 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 300 gp
+Weight: 9 lbs.
+Category: Adventuring Gear
+:::
 
 This crossbow-style device is modified to throw splash weapons or contact poisons rather than firing
 bolts. Its trigger connects to a long spool of wire, which can be strung across one or two 5-foot

@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "5 lbs."
 +++
 
-**Price** 25 gp; **Weight** 5 lbs.\
-**Category** Food/Drink
+::: statblock
+Price: 25 gp
+Weight: 5 lbs.
+Category: Food/Drink
+:::
 
 This includes a tray, a teapot, a whisk, a bowl to mix the tea in, four tiny cups, and a decorative
 box in which to store all of these items. The ceremonial brewing of tea is part of the classical tea

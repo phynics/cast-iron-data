@@ -17,8 +17,11 @@ price = "2 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 2 sp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 sp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 While surface dwellers sometimes use all manner of wall hooks to hang items for decoration or
 convenience, wall hooks are essential underwater to prevent loose objects from simply drifting away

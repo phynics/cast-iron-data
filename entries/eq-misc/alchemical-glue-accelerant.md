@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This tiny dropper contains a liquid that speeds up the cure time of
 [alchemical glue](ref/eq-misc/alchemical-glue). Applying the accelerant is a standard action.

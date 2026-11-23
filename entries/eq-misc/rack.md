@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "500 lbs."
 +++
 
-**Price** 300 gp; **Weight** 500 lbs.\
-**Category** Torture Implements
+::: statblock
+Price: 300 gp
+Weight: 500 lbs.
+Category: Torture Implements
+:::
 
 The rack is one of the most infamous and feared devices in the torturer's arsenal, capable of
 inflicting ruinous damage to a victim's body. Helpless victims are splayed across the device's

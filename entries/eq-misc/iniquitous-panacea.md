@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "1 lb."
 +++
 
-**Price** 200 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 200 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 Although it's often packaged and sold as a cure-all, this nefarious snake-oil concoction temporarily
 weakens the immune system of whoever consumes it, accelerating the rate at which the drinker suffers

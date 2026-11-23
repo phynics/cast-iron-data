@@ -17,8 +17,11 @@ price = "121 gp"
 weight = "38 lbs."
 +++
 
-**Price** 121 gp; **Weight** 38 lbs.\
-**Category** Kits
+::: statblock
+Price: 121 gp
+Weight: 38 lbs.
+Category: Kits
+:::
 
 This kit is ideal for adventurers who venture into sunken ruins or half-flooded temples, and
 includes an [air bladder](ref/eq-misc/air-bladder), a common [buoy](ref/eq-misc/buoy), 30 feet of

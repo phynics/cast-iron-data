@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This whistle produces sound at a pitch that can only be heard by aberrations, animals, dragons, fey,
 and magical beasts. The sound can be detected easily (Perception DC 0) from a quarter-mile away. If

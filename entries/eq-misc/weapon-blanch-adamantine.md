@@ -22,8 +22,10 @@ weight = "1/2 lb. (adamantine), 1/2 lb. (cold iron), 1/2 lb. (silver)"
 
 ## Weapon blanch
 
-**Price** 100 gp (adamantine), 20 gp (cold iron), 5 gp (silver); **Weight** 1/2 lb. (adamantine),
-1/2 lb. (cold iron), 1/2 lb. (silver)
+::: statblock
+Price: 100 gp (adamantine), 20 gp (cold iron), 5 gp (silver)
+Weight: 1/2 lb. (adamantine), 1/2 lb. (cold iron), 1/2 lb. (silver)
+:::
 
 These silver, alchemical powders have a gritty consistency, appearing at first glance to be simple
 metal shavings. When poured on a weapon and placed over a hot flame for a full round, however, they

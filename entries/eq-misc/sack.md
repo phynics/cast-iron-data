@@ -20,8 +20,11 @@ price = "1 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 sp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This heavy canvas sack, useful for carrying adventuring gear and other supplies, holds about 4 cubic
 feet. A leather thong threaded through loops at the bag's end allows it to be tied shut easily.

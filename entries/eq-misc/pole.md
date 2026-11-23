@@ -20,8 +20,11 @@ price = "5 cp"
 weight = "8 lbs."
 +++
 
-**Price** 5 cp; **Weight** 8 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 cp
+Weight: 8 lbs.
+Category: Adventuring Gear
+:::
 
 This 10-foot length of wood is useful for probing pits, flagstones, and murky liquids from a safe
 distance.

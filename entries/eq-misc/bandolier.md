@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "-"
 +++
 
-**Price** 5 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This leather belt is worn over one shoulder and runs diagonally across the chest and back. It has
 small loops or pouches for holding eight objects the size of a flask or small dagger. You can use

@@ -26,8 +26,11 @@ price = "5 gp"
 weight = "4 lbs."
 +++
 
-**Price** 5 gp; **Weight** 4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 4 lbs.
+Category: Clothing
+:::
 
 These high-tension nets of rope or sinew in wooden frames are lashed to the feet to spread your
 weight across the snow, making you much less likely to break through the crust and rendering walking

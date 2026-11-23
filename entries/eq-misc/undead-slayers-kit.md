@@ -17,8 +17,11 @@ price = "402 gp"
 weight = "7 lbs."
 +++
 
-**Price** 402 gp; **Weight** 7 lbs.\
-**Category** Kits
+::: statblock
+Price: 402 gp
+Weight: 7 lbs.
+Category: Kits
+:::
 
 This kit includes a [wooden holy symbol](ref/eq-misc/wooden-holy-symbol), a necklace of garlic
 bulbs, a [hammer](ref/eq-misc/hammer), a [wooden stake](ref/eq-weapon/wooden-stake), 2 flasks of

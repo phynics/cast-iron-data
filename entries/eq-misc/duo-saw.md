@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "20 lbs."
 +++
 
-**Price** 100 gp; **Weight** 20 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: 20 lbs.
+Category: Adventuring Gear
+:::
 
 Sometimes referred to as a "misery whip," this long blade (between 4 and 12 feet) is lined with
 numerous metal teeth. Thick handholds at each end of the blade allow a Medium or larger creature to

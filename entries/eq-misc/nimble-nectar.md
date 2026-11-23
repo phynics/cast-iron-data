@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Tincture
+:::
 
 This runny green liquid increases your heart rate. For 1 hour after drinking this tincture, you gain
 a +2 alchemical bonus on initiative checks and Reflex saves. This causes trembling, and you take a

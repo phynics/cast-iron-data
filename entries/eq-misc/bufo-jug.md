@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Food/Drink
+:::
 
 This drink is a favorite of goblins, boggards, and other primitive humanoids. It is made by soaking
 a poisonous toad or frog (or its eggs) in weak beer, or by "milking" these animals for their poison

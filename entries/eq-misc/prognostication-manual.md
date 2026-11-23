@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "3 lbs."
 +++
 
-**Price** 30 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 30 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 This small but thick booklet contains information on a specific form of folk divination, such as
 cartomancy, cheiromancy, crystallomancy, or horoscopy. Using such a book while reading a creature's

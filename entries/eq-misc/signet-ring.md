@@ -21,8 +21,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This ring has an embossed design, typically a family crest or official icon. You press a signet ring
 into softened [wax](ref/eq-misc/sealing-wax) to leave an impression of this symbol.

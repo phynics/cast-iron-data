@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This bottle of viscous blue oil sublimates slightly when exposed to air. When poured over water, the
 oil pools on the surface and takes 1 round to spread out from the point of origin in a 20-foot

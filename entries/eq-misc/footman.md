@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "-"
 +++
 
-**Price** 5 sp; **Weight** -\
-**Category** Lodging/Services
+::: statblock
+Price: 5 sp
+Weight: -
+Category: Lodging/Services
+:::
 
 A footman is a house servant in good physical shape, who is dressed in his employer's livery and
 capable of running ahead of his employer to make arrangements at a destination (such as an inn or a

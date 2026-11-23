@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Developed by followers of Norgorber, this inky paste aids unskilled poison-users. When smeared on
 the fingers, a dose of blackfingers paste prevents accidental poisoning while applying poison to a

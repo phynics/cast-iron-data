@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "3 lbs."
 +++
 
-**Price** 10 gp; **Weight** 3 lbs.\
-**Category** Clothing
+::: statblock
+Price: 10 gp
+Weight: 3 lbs.
+Category: Clothing
+:::
 
 These honed metal blades are worn on boots to enable swift passage over ice. The wearer may move
 (but not climb) at her full speed on level icy surfaces. Her speed is halved when moving up an icy

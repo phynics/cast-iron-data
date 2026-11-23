@@ -17,8 +17,11 @@ price = "12 gp"
 weight = "-"
 +++
 
-**Price** 12 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 12 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 These small capsules consist of a concentrated mix of nausea-inducing herbs. To use a capsule, you
 bite down and ingest its contents, which almost immediately cause you to projectile vomit. The

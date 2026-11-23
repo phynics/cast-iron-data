@@ -17,10 +17,15 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Price** 15 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 20; **Yield** 1d4 doses\
-**Terrain** any plains or swamps\
+::: statblock
+Price: 15 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 20
+Yield: 1d4 doses
+Terrain: any plains or swamps
+:::
+
 **Preparation** A bloody mandrake must be pulped so that its sticky red sap can be gathered,
 skimmed, and then refined into an even stickier paste; this process requires a successful DC 15
 Craft (alchemy) check and 1d4 hours of work per yield.\

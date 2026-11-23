@@ -17,7 +17,10 @@ price = "3 sp"
 weight = "3 lbs."
 +++
 
-**Price** 3 sp; **Weight** 3 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 3 sp
+Weight: 3 lbs.
+Category: Entertainment
+:::
 
 This includes a wool-stuffed leather ball and a wooden racket strung with animal gut.

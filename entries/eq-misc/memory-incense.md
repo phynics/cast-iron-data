@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 This purple incense is a powerful aid to amnesiacs and those prone to nocturnal fits. A creature
 that sleeps for at least 1 hour within 10 feet of burning memory incense retains any memories

@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "4 lbs."
 +++
 
-**Price** 20 gp; **Weight** 4 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 4 lbs.
+Category: Alchemical Tools
+:::
 
 This ruby-red earth can be sprinkled over a 5-foot patch of ground as a standard action that
 provokes attacks of opportunity. Non-creature plants and fungi in the area grow with alarming speed,

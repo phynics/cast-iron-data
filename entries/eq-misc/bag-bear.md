@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "3 lbs."
 +++
 
-**Price** 2 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 These sacks each include a 20-foot-long rope, from which they may be easily suspended from a tree
 limb or similar anchor point. Placing foodstuffs or fragile materials in hanging sacks is often

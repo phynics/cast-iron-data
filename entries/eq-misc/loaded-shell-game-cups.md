@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This set of three cups and accompanying balls are designed for cheating at the popular shell game.
 In the game, a dealer places three identical cups opening-side down and shows the customer (or mark)

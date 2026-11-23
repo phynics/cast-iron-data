@@ -19,8 +19,10 @@ weight = "50 lbs. (medium), 250 lbs. (huge), 100 lbs. (large), 25 lbs. (small)"
 
 ## Treasure chest
 
-**Price** 7 gp (medium), 37 gp (huge), 15 gp (large), 3 gp (small); **Weight** 50 lbs. (medium), 250
-lbs. (huge), 100 lbs. (large), 25 lbs. (small)
+::: statblock
+Price: 7 gp (medium), 37 gp (huge), 15 gp (large), 3 gp (small)
+Weight: 50 lbs. (medium), 250 lbs. (huge), 100 lbs. (large), 25 lbs. (small)
+:::
 
 A treasure chest is a common wooden [chest](ref/eq-misc/chest) treated with resin to make the wood
 water-resistant. Metal bands, usually bronze to prevent rusting, are strapped around the treasure

@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "10 lbs."
 +++
 
-**Price** 50 gp; **Weight** 10 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 10 lbs.
+Category: Alchemical Tools
+:::
 
 This fluid is used to preserve corpses, whether for later dissection, taxidermy, necromancy, or
 magic such as [raise dead](ref/spell/raise-dead). Embalming fluid is technically a poison, and using

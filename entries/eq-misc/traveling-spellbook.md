@@ -23,8 +23,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 A traveling [spellbook](ref/eq-misc/spellbook) is less cumbersome than a normal one, but holds fewer
 spells. It has 50 pages. Some wizards prefer to travel with a smaller spellbook, omitting

@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 Used by [hobgoblin](ref/race/hobgoblin) [alchemists](ref/class/alchemist) to equip their comrades,
 these spherical glass vials can each be filled with 1 dose of an alchemical splash weapon, allowing

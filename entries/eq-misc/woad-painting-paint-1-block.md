@@ -19,7 +19,10 @@ weight = "1 lb. (kit), - (paint, 1 block)"
 
 ## Woad painting
 
-**Price** 300 gp (kit), 60 gp (paint, 1 block); **Weight** 1 lb. (kit), - (paint, 1 block)
+::: statblock
+Price: 300 gp (kit), 60 gp (paint, 1 block)
+Weight: 1 lb. (kit), - (paint, 1 block)
+:::
 
 Though associated with the woad plant, the alchemical ingredients of this blue paste can vary
 considerably. When preparing a spell, you can grind the spell's material components and mix them

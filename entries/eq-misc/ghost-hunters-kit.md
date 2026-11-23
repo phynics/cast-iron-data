@@ -17,8 +17,11 @@ price = "670 gp"
 weight = "22 lbs."
 +++
 
-**Price** 670 gp; **Weight** 22 lbs.\
-**Category** Kits
+::: statblock
+Price: 670 gp
+Weight: 22 lbs.
+Category: Kits
+:::
 
 This sturdy satchel is the quintessential toolkit for detecting [ghosts](ref/template/ghost) and
 sending them to their final slumber. This kit includes 10 [candles](ref/eq-misc/candle), three

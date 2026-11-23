@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "3 lbs."
 +++
 
-**Price** 100 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 100 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 This small box contains a wide variety of remedies and treatments against not only specific poisons
 but also their most common methods of delivery, including such things as purgatives to eliminate

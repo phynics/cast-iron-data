@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "3 lbs."
 +++
 
-**Price** 60 gp; **Weight** 3 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 60 gp
+Weight: 3 lbs.
+Category: Alchemical Tools
+:::
 
 This form of the common embalming agent comes in a glass beaker with a thick rubber stopper, and is
 employed in regions such as Ustalav, where alchemy is prized as a viable defense against the

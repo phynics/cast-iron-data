@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 When you scatter this very fine pale blue powder on the ground, it reveals the tracks of any
 creatures or individuals that have passed through the area within the last 48 hours. The powder also

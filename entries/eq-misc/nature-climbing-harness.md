@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "4 lbs."
 +++
 
-**Price** 60 gp; **Weight** 4 lbs.\
-**Category** Tools
+::: statblock
+Price: 60 gp
+Weight: 4 lbs.
+Category: Tools
+:::
 
 A nature climbing harness is a series of buckles, straps, and trusses that can be worn over clothing
 or light armor. As a standard action, you can secure yourself in place on a vertical surface so that

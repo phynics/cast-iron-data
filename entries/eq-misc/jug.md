@@ -20,8 +20,11 @@ price = "3 cp"
 weight = "9 lbs."
 +++
 
-**Price** 3 cp; **Weight** 9 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 cp
+Weight: 9 lbs.
+Category: Adventuring Gear
+:::
 
 This basic clay jug is fitted with a stopper and holds 1 gallon of liquid. The listed weight is for
 a jug filled with water, wine, or ale; when empty, it weighs about 1/2 pound.

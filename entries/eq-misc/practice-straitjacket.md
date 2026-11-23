@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "2 lbs."
 +++
 
-**Price** 100 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 100 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This straitjacket is designed for use by a single person. The leather straps and arm restraints are
 accessible in such a way as to be tightened by the wearer. Restraining or releasing oneself through

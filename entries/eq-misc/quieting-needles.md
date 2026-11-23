@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Black Market
+:::
 
 A set of quieting needles costs 25 gp. Inserted into a corpse's heart, lungs, and other organs, the
 needles can be well hidden inside a slain body with a minute of work and a Sleight of Hand check -

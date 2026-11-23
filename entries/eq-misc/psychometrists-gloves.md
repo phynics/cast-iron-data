@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "5 lbs."
 +++
 
-**Price** 10 gp; **Weight** 5 lbs.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 5 lbs.
+Category: Tools
+:::
 
 These layered lambskin gloves are specially designed and psychically attuned to increase the tactile
 sensitivity of the wearer's hands. To provide any benefit, the gloves must be worn for 8

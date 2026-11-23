@@ -17,8 +17,11 @@ price = "120 gp"
 weight = "10 lbs."
 +++
 
-**Price** 120 gp; **Weight** 10 lbs.\
-**Category** Clothing
+::: statblock
+Price: 120 gp
+Weight: 10 lbs.
+Category: Clothing
+:::
 
 This thick iron gauntlet is more an encasing than a piece of armor. It has only a few moving joints,
 and the position of its fingers and wrist must be adjusted and locked into place before the wielder

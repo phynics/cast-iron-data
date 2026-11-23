@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "3 lbs."
 +++
 
-**Price** 5 gp; **Weight** 3 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 5 gp
+Weight: 3 lbs.
+Category: Mounts/Pets
+:::
 
 These spiny mammals roll into a ball when threatened. They are sometimes kept as pets and are
 favored by some wizards as familiars.

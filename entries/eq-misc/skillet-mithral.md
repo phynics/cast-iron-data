@@ -19,7 +19,10 @@ weight = "4 lbs. (common), 2 lbs. (mithral)"
 
 ## Skillet
 
-**Price** 8 sp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)
+::: statblock
+Price: 8 sp (common), 2,001 gp (mithral)
+Weight: 4 lbs. (common), 2 lbs. (mithral)
+:::
 
 This 8-inch-diameter skillet has a long handle and feet so you can rest it on a fire or hot coals.
 Adventurers prefer models with a hinged handle that folds over the top of the skillet for easier

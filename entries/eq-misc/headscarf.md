@@ -17,8 +17,11 @@ price = "1 sp-10 gp"
 weight = "-"
 +++
 
-**Price** 1 sp-10 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 1 sp-10 gp
+Weight: -
+Category: Clothing
+:::
 
 Often worn for privacy, religious or cultural reasons, or protection from the elements, full scarves
 designed to be wrapped around the head are common accessories throughout Golarion. Headscarves of

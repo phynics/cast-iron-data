@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This item works like a standard [wrist sheath](ref/eq-misc/wrist-sheath), but releasing an item from
 it is a swift action. Preparing the sheath for this use requires cranking the sheath's tiny gears

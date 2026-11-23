@@ -19,7 +19,10 @@ weight = "1/2 lb. (cup), 2 lbs. (wineskin)"
 
 ## Pulque
 
-**Price** 1 sp (cup), 4 sp (wineskin); **Weight** 1/2 lb. (cup), 2 lbs. (wineskin)
+::: statblock
+Price: 1 sp (cup), 4 sp (wineskin)
+Weight: 1/2 lb. (cup), 2 lbs. (wineskin)
+:::
 
 This nutritious milk-colored alcoholic beverage is fermented from the heart of the agave or century
 plant.

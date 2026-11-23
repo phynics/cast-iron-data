@@ -17,8 +17,11 @@ price = "2,250 gp"
 weight = "5 lbs."
 +++
 
-**Price** 2,250 gp; **Weight** 5 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 2,250 gp
+Weight: 5 lbs.
+Category: Alchemical Tools
+:::
 
 This thick clay mixture comes in a jar stamped with a silhouette of whatever creature can be created
 using its contents. By adding a drop of blood to a scoop of homunculus clay, you can create a

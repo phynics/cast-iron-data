@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This packet filled with spikey-edged leaves has a pungent scent almost strong enough to make your
 eyes water. While you chew the leaves, you ignore the effects of [fatigue](ref/misc/fatigued). The

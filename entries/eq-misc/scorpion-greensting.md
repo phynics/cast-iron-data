@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "9 oz."
 +++
 
-**Price** 15 gp; **Weight** 9 oz.\
-**Category** Mounts/Pets
+::: statblock
+Price: 15 gp
+Weight: 9 oz.
+Category: Mounts/Pets
+:::
 
 Typically found in forested areas, these Tiny scorpions sport pincers too small to be dangerous to
 anything larger than an insect, but they still possess a poisonous stinger. Sometimes they are kept

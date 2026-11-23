@@ -17,8 +17,11 @@ price = "1000 gp"
 weight = "44 lbs."
 +++
 
-**Price** 1000 gp; **Weight** 44 lbs.\
-**Category** Kits
+::: statblock
+Price: 1000 gp
+Weight: 44 lbs.
+Category: Kits
+:::
 
 The lore seeker has the equipment necessary to delve into ancient ruins searching for lost
 knowledge. As this equipment package contains little by way of armor or weapons, it is most

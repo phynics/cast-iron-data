@@ -17,8 +17,11 @@ price = "32 gp"
 weight = "-"
 +++
 
-**Price** 32 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 32 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Extracted from bioluminescent jellyfish, plankton, and other marine organisms that glow in the
 ocean's depths, this ink is refined in a process that makes the ink stable and long lasting. This

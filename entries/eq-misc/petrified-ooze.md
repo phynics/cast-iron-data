@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 80 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 80 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This tiny blob of ooze looks like a small disc of green stone when inactive, and is stored in a
 circular dish with an airtight cover. When the cover is removed and the ooze is exposed to air, the

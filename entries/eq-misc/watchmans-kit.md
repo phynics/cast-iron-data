@@ -17,8 +17,11 @@ price = "3 gp"
 weight = "10 lbs."
 +++
 
-**Price** 3 gp; **Weight** 10 lbs.\
-**Category** Kits
+::: statblock
+Price: 3 gp
+Weight: 10 lbs.
+Category: Kits
+:::
 
 This kit includes a badge (tin brooch worth 5 sp), [flint and steel](ref/eq-misc/flint-and-steel), a
 [shield sconce](ref/eq-misc/shield-sconce), a [signal whistle](ref/eq-misc/whistle-signal), and

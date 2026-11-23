@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "10 lbs."
 +++
 
-**Price** 200 gp; **Weight** 10 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 200 gp
+Weight: 10 lbs.
+Category: Mounts/Pets
+:::
 
 While it is easier to train a full-grown [hippogriff](ref/monster/hippogriff) than a griffon, the
 eggs of these creatures are still prized by breeders.

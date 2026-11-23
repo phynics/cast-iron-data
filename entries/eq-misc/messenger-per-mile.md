@@ -22,8 +22,11 @@ weight = "-"
 
 ## Messenger
 
-**Price** 2 cp per mile; **Weight** -\
-**Category** Lodging/Services
+::: statblock
+Price: 2 cp per mile
+Weight: -
+Category: Lodging/Services
+:::
 
 A messenger carries a written or verbal message to its intended target. Verbal messages must be
 short enough for the messenger to memorize (typically about 25 words). A few messengers have

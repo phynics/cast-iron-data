@@ -19,7 +19,10 @@ weight = "1 lb. (locket), 1 lb. (pocket watch)"
 
 ## Hypnotist's locket
 
-**Price** 15 gp (locket), 250 gp (pocket watch); **Weight** 1 lb. (locket), 1 lb. (pocket watch)
+::: statblock
+Price: 15 gp (locket), 250 gp (pocket watch)
+Weight: 1 lb. (locket), 1 lb. (pocket watch)
+:::
 
 A small, elliptical metal case containing a small portrait or keepsake, a hypnotist's locket can be
 attached to a belt or worn as a pendant. When hanging from a metal chain, a hypnotist's locket

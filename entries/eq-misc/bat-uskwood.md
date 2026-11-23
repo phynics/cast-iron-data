@@ -22,7 +22,10 @@ weight = "1 lb., 2 lbs. (Uskwood)"
 
 ## Bat
 
-**Price** 5 gp, 50 gp (Uskwood); **Weight** 1 lb., 2 lbs. (Uskwood)
+::: statblock
+Price: 5 gp, 50 gp (Uskwood)
+Weight: 1 lb., 2 lbs. (Uskwood)
+:::
 
 These Diminutive rodents are nocturnal fliers that eat insects and fruit. They rely primarily on
 sound to navigate rather than sight. They can be found all over Golarion and are absent only in

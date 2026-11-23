@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Tincture
+:::
 
 This fizzy drink causes a tingling in the optic nerves. For 1 hour after drinking this tincture, you
 gain a +2 alchemical bonus on Perception checks and Will saving throws to disbelieve illusions. You

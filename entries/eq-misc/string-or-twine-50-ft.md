@@ -26,8 +26,11 @@ price = "1 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 cp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 cp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 Sold in balls or spools of 50 feet, string and twine are useful for rigging traps and alarms and are
 a vital component of grappling bolts and arrows. String or twine has [hardness](ref/umr/hardness) 0,

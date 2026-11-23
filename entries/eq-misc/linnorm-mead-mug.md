@@ -19,8 +19,11 @@ weight = "1/2 lb."
 
 ## Linnorm mead
 
-**Price** 5 cp/mug; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 5 cp/mug
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 The favorite drink of the Ulfen, this honey mead has traveled with them into the southern lands. It
 is sweet and strong and, according to Ulfen bards, is an indisputable aid to singing.

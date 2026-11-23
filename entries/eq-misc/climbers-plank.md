@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "4 lbs."
 +++
 
-**Price** 20 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 A climber's plank is a 1-foot-wide wooden plank with a steel-capped spike carved on one end. The
 spiked end can be driven into a wall to create a temporary platform. Driving a climber's plank into

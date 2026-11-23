@@ -20,7 +20,10 @@ price = "1 gp (common), 2,001 gp (mithral)"
 weight = "4 lbs. (common), 2 lbs. (mithral)"
 +++
 
-**Price** 1 gp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)
+::: statblock
+Price: 1 gp (common), 2,001 gp (mithral)
+Weight: 4 lbs. (common), 2 lbs. (mithral)
+:::
 
 Throwing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a
 range increment of 10 feet. Objects with ample places to catch the hook have an AC of 5.

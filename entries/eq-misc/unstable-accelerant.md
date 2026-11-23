@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 50 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 A volatile mix of incendiary reagents, unstable accelerant can be thrown just like
 [alchemist's fire](ref/eq-weapon/alchemists-fire). In the hands of an

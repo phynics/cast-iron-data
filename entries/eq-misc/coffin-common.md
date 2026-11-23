@@ -25,7 +25,10 @@ weight = "30 lbs. (common), 50 lbs. (ornate)"
 
 ## Coffin
 
-**Price** 10 gp (common), 100 gp (ornate); **Weight** 30 lbs. (common), 50 lbs. (ornate)
+::: statblock
+Price: 10 gp (common), 100 gp (ornate)
+Weight: 30 lbs. (common), 50 lbs. (ornate)
+:::
 
 A plain coffin is made of simple wood and has a loose, flat lid that can be nailed onto it. Ornate
 coffins are favored by aristocratic families for displaying their dead, and include upholstered

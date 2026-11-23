@@ -20,8 +20,11 @@ price = "1 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 cp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 cp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 This tough, dried cake is a halfling invention made from flour, water, and spices. Wandermeal keeps
 for months without spoiling, travels well, and fills the belly. However, eating it for over a week

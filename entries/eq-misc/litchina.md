@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "2 lbs."
 +++
 
-**Price** 100 gp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 100 gp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 Though Taramai is long dead, and that first Keleshite invasion now little more than scattered stone
 foundations crumbling amid the grass, his legacy remains a point of great cultural pride among the

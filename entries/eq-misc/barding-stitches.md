@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Animal Gear
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Animal Gear
+:::
 
 This thin, specially treated wire can be used to attach barding to creatures whose body types cannot
 normally accommodate armor, such as piscine, serpentine, and verminous animals, by delicately and

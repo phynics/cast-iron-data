@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 gp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that
 must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you

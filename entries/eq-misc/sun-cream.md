@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 10 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 10 gp
+Weight: 1/2 lb.
+Category: Alchemical Remedies
+:::
 
 Each application of this alchemical solution, typically compounded from substances found in desert
 flowers, fruits, and roots, heals 1d4 points of nonlethal damage that the target has taken from

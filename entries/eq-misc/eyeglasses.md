@@ -17,7 +17,10 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Tools
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Tools
+:::
 
 Also known as spectacles, eyeglasses compensate for poor vision or magnify small details.

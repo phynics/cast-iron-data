@@ -23,8 +23,11 @@ price = "5 gp"
 weight = "10-100 lbs."
 +++
 
-**Price** 5 gp; **Weight** 10-100 lbs.\
-**Category** Tools
+::: statblock
+Price: 5 gp
+Weight: 10-100 lbs.
+Category: Tools
+:::
 
 While anvil sizes vary depending on the type of smithing for which they are used, all anvils have
 the same basic shape and construction. Blacksmith anvils are much heavier and larger (100 pounds)

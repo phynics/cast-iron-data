@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "8 lbs."
 +++
 
-**Price** 500 gp; **Weight** 8 lbs.\
-**Category** Kits
+::: statblock
+Price: 500 gp
+Weight: 8 lbs.
+Category: Kits
+:::
 
 This small, latched wooden case contains numerous tools and devices used in hunting and slaying
 vampires. It contains 10 cloves of garlic, four [masterwork](ref/rule/masterwork-weapons)

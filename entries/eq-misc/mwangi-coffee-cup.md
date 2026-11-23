@@ -19,7 +19,10 @@ weight = "1/2 lb."
 
 ## Mwangi coffee
 
-**Price** 3 cp/cup; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 3 cp/cup
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 Coffee brewed "Mwangi style" has a wine-like acid taste that is too strong for a novice palate.

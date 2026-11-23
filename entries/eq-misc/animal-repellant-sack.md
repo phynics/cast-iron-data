@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This heavy canvas sack can carry adventuring gear and other supplies. It holds 4 cubic feet of goods
 and has a leather thong that allows it to be tied shut. The sack is laced with scents that animals

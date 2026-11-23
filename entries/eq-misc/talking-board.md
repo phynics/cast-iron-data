@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "2 lbs."
 +++
 
-**Price** 15 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 15 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This thin, rectangular wooden board is printed with an arching array of alphabetical letters,
 numbers, and short affirmative and negative messages. Paired with a small, heart-shaped pointer on

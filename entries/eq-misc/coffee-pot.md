@@ -17,8 +17,11 @@ price = "3 gp"
 weight = "4 lbs."
 +++
 
-**Price** 3 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 This tall, teapot-like device contains a small chamber for coffee grounds and a large chamber for
 water, connected by a small tube. Heating the pot forces boiling water through the tube and into the

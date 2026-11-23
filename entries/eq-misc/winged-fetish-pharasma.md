@@ -17,9 +17,12 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Channel Foci\
-**Deity** [Pharasma](ref/faith/pharasma)
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Channel Foci
+Deity: [Pharasma](ref/faith/pharasma)
+:::
 
 This amulet is made of a dulled dagger wrapped with feathers. When activated, it protects the wearer
 against undead creatures. The first time the wearer is subject to an attack from an undead creature

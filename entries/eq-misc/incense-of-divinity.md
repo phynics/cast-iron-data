@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 200 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 **Mythic:** If you are a mythic divine spellcaster and burn this incense while preparing spells, you
 can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an

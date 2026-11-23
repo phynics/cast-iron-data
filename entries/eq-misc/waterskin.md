@@ -22,8 +22,11 @@ weight = "4 lbs."
 
 ## Waterskin (or wineskin)
 
-**Price** 1 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 This bag is made of an animal bladder or treated leather. It is watertight and holds about 1/2
 gallon of liquid. The listed weight is for a waterskin full of water; empty, it weighs about 2

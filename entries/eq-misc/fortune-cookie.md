@@ -17,7 +17,10 @@ price = "1 cp"
 weight = "-"
 +++
 
-**Price** 1 cp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 1 cp
+Weight: -
+Category: Food/Drink
+:::
 
 This twist of hard, baked pastry surrounds a slip of paper that contains cryptic advice.

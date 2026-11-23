@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 One of the oldest known dwarven ales, longbeard lambic is fermented with wild airborne yeasts and
 cultures, especially those that proliferate in the dank caves where it has been brewed since long

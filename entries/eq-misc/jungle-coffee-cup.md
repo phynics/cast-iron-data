@@ -17,7 +17,10 @@ price = "3 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 3 cp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 3 cp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 Coffee brewed "jungle style" has a wine-like acidic taste that is too strong for a novice palate.

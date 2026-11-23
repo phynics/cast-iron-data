@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "10 lbs."
 +++
 
-**Price** 75 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 75 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 This small cauldron of alchemically treated tar gives off thick, acrid smoke when ignited. The smoke
 rises to an altitude of 25 feet, then spreads horizontally, creating an artificial smoke ceiling 5

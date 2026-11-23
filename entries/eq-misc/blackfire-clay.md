@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "10 lbs."
 +++
 
-**Price** 20 gp; **Weight** 10 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 10 lbs.
+Category: Alchemical Tools
+:::
 
 This pliant black clay is always pleasantly warm to the touch. Working blackfire clay in your hands
 for a full round causes the clay to grow much warmer, granting you a +4 alchemical bonus on saving

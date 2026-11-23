@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "1 lb."
 +++
 
-**Price** 300 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 300 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 The palms and fingers of these leather gloves are covered in small hair-like bristles, resembling
 those found on the feet of geckos, that aid you when climbing. Gecko gloves grant you a +1

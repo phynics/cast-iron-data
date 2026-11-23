@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "1 lb."
 +++
 
-**Price** 80 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 80 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 **Mythic:** Consuming a vial of surge syrup grants you a +1d4 alchemical bonus on your next mythic
 surge roll. Every round after you consume surge syrup that you don't use your surge ability, the

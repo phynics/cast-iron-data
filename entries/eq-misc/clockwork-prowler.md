@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "25 lbs."
 +++
 
-**Price** 500 gp; **Weight** 25 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 500 gp
+Weight: 25 lbs.
+Category: Alchemical Tools
+:::
 
 This 2-foot-tall wooden clockwork automaton is shaped roughly like a short-backed, wheeled chair.
 When wound up with the folding handle at its side, the clockwork prowler trundles forward at a speed

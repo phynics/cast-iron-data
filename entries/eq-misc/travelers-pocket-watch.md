@@ -17,8 +17,11 @@ price = "1,000 gp"
 weight = "1 lb."
 +++
 
-**Price** 1,000 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 1,000 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This bulky, key-wound, pocket-sized clock has three faces, each with its own hour hand. Each face
 can be wound and calibrated separately to account for up to three different time zones (for local

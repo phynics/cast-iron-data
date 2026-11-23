@@ -17,8 +17,11 @@ price = "2,000 gp"
 weight = "100 lbs."
 +++
 
-**Price** 2,000 gp; **Weight** 100 lbs.\
-**Category** Black Market
+::: statblock
+Price: 2,000 gp
+Weight: 100 lbs.
+Category: Black Market
+:::
 
 This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting
 from its back and small wheels on the feet for ease of transportation. A pump organ can seat a

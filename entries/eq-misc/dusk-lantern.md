@@ -20,8 +20,11 @@ price = "35 gp (normal), 40 gp (waterproof)"
 weight = "4 lbs."
 +++
 
-**Price** 35 gp (normal), 40 gp (waterproof); **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 35 gp (normal), 40 gp (waterproof)
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 This specialized [bullseye lantern](ref/eq-misc/bullseye-lantern) has a ruby lens that covers the
 original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when

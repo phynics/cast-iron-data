@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Kits
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Kits
+:::
 
 A musk kit consists of a dozen vials of concentrated fluids, prepared animal glands, and plant
 compounds. You can use the distinctly scented musks to mark possessions, locations, and trails which

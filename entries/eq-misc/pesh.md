@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 20 gp
+Weight: -
+Category: Black Market
+:::
 
 The milk of this vibrantly green cactus, when mixed with resins and other ingredients, congeals into
 sticky, black chunks with an exceedingly sour taste. Though pesh comes in several different

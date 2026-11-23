@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "2 lbs."
 +++
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 One end of this 6-foot-long pole supports a wide metal hoop covered by a thin mesh net. You can use
 this to sift objects from material capable of passing through the net, such as sand or water. You

@@ -22,7 +22,10 @@ weight = "5 lbs. (common), 5 lbs. (custom shape)"
 
 ## Branding iron
 
-**Price** 2 gp (common), 10 gp (custom shape); **Weight** 5 lbs. (common), 5 lbs. (custom shape)
+::: statblock
+Price: 2 gp (common), 10 gp (custom shape)
+Weight: 5 lbs. (common), 5 lbs. (custom shape)
+:::
 
 This length of bare metal is 2 to 4 feet long. One end serves as a handle, while the other forms a
 simple shape, such as a square or circle. Branding irons with ends that form complex symbols, such

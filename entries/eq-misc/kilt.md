@@ -17,8 +17,11 @@ price = "2 sp"
 weight = "1 lb."
 +++
 
-**Price** 2 sp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 2 sp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 This heavy pleated skirt is usually worn by men. Most have a specific design or pattern that
 represents allegiance to a particular clan or other social group.

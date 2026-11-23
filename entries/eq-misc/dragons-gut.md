@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Dragoncraft
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Dragoncraft
+:::
 
 A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called
 dragon's gut. When used as a [thrown splash weapon](ref/rule/throw-splash-weapon), dragon's gut

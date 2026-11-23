@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "5 lbs."
 +++
 
-**Price** 80 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 80 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 Heavy gray mist fills the interior of a storm glass, a receptacle lined with thin metal strips and
 equipped with metal tuning forks jutting from inside the top and bottom of the glass. The forks are

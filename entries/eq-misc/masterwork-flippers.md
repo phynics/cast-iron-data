@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 These sleek and aquadynamic flippers grant their wearer a +2 circumstance bonus on Swim checks to
 perform complex maneuvers underwater or swim through rough waters. This bonus doesn't stack with
