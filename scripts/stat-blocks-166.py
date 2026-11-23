@@ -2172,7 +2172,7 @@ VARIANT_KINDS = {
 VARIANT_PLANS = {name: plan for name, (_, plan, _) in VARIANT_KINDS.items()}
 VARIANT_COMMAS = {name: commas for name, (_, _, commas) in VARIANT_KINDS.items()}
 # The kinds applied to one slice of their folders so far: name -> the `--only` value of the slice.
-VARIANT_ONLY: dict[str, str] = {"techcons": "tech-pharma,tech-armor,tech-cyber"}
+VARIANT_ONLY: dict[str, str] = {"techcons": "tech-pharma,tech-armor,tech-cyber,tech-weapon"}
 for _name, (_folders, _, _) in VARIANT_KINDS.items():
     PASS_FOLDERS[_name] = _folders
     PASS_KIND[_name] = "item"

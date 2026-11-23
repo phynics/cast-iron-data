@@ -50,6 +50,10 @@ source of high radiation to those in contact with it, a source of medium radiati
 
 ### Construction
 
-**Craft DC** 35; **Cost** 72,000 gp\
+::: statblock
+Craft DC: 35
+Cost: 72,000 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)

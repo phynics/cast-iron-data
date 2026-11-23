@@ -38,6 +38,10 @@ plasmathrower is fire damage and the other half is electricity damage.
 
 ### Construction
 
-**Craft DC** 32; **Cost** 15,000 gp\
+::: statblock
+Craft DC: 32
+Cost: 15,000 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)

@@ -34,7 +34,11 @@ Special: See text
 
 ### Construction
 
-**Craft DC** 26; **Cost** 4,620 gp\
+::: statblock
+Craft DC: 26
+Cost: 4,620 gp
+:::
+
 [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories), [scorching ray](ref/spell/scorching-ray),

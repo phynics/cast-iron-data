@@ -32,7 +32,11 @@ Special: [Slow-firing](ref/misc/slow-firing), [touch](ref/misc/touch)
 
 ### Construction
 
-**Craft DC** 32; **Cost** 25,000 gp\
+::: statblock
+Craft DC: 32
+Cost: 25,000 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [nanotech lab](ref/rule/crafting-laboratories)
 
