@@ -77,14 +77,12 @@ into or out of the cube.
 
 ### Discriminating Cube
 
-**Sources:** Classic Treasures Revisited pg 13\
 This cube of force only creates one type of screen, which excludes living matter. Each of the five
 active faces sets the screen to exclude a different type of living matter (using the same categories
 as the [bane](ref/magic-enh/bane) weapon special ability).
 
 ### Cube of Varied Force Walls
 
-**Sources:** Classic Treasures Revisited pg 13\
 This cube functions exactly like a cube of force except that each wall of the cube can be activated
 independently and can even have different effects. For example, one wall can block living matter,
 another wall can block magic, and a third can keep out gases, while the other sides are open without
@@ -94,21 +92,18 @@ cost a total of 7 charges per minute.
 
 ### Independent Cube of Force
 
-**Sources:** Classic Treasures Revisited pg 13\
 The independent cube of force functions exactly like a cube of force except that it remains
 activated when dropped or set down. Anyone can pick up and deactivate the item or change the active
 type of wall; otherwise it shuts off when it runs out of charges.
 
 ### Rechargeable Cube of Force
 
-**Sources:** Classic Treasures Revisited pg 13\
 This cube functions like a cube of force except that it can be recharged by casting a
 _[wall of force](ref/spell/wall-of-force)_ spell into it. Each spell cast in this manner adds 2
 charges to the cube. The cube cannot hold more than 36 charges.
 
 ### Remote Activation Cube
 
-**Sources:** Classic Treasures Revisited pg 13\
 This cube of force can be activated or deactivated from a distance via use of the spell
 _[mage hand](ref/spell/mage-hand)_ or the [hand of the apprentice](ref/arcaneschool/universalist)
 ability. The antimagic wall and the wall that keeps out all things prevent remote deactivation in

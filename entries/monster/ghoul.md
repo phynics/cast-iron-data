@@ -118,7 +118,6 @@ meet their ends. Lacedons have a base land speed of 30 feet and a swim speed of 
 
 ### Variant Ghouls
 
-**Sources:** Classic Horrors Revisited pg 31\
 The typical ghoul is assumed to have come from a Medium humanoid like a human, half-elf, dwarf, or
 elf. Yet some humanoids have remarkably different characteristics that make these ghouls more or
 less powerful.

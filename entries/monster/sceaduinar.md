@@ -141,8 +141,6 @@ form a larger band to strike against a particularly dangerous foe.
 
 ### Sceaduinar Specialists
 
-**Sources:** Pathfinder \#141: Last Watch pg 65
-
 Adventurers venturing into sceaduinar territory may encounter more skilled specimens in their ranks.
 
 **Geotrophos (CR +1):** Sceaduinar geometrist-midwives seek out the irregular crystalline angles

@@ -43,7 +43,6 @@ make than ordinary armor of that type (double all Craft results).
 Dragonhide has 10 hit points per inch of thickness and [hardness](ref/umr/hardness) 10. The hide of
 a dragon is typically between 1/2 inch and 1 inch thick.
 
-**Sources:** Dragonslayer's Handbook pg 19\
 A classic status symbol for adventurers across Golarion, dragonhide armor is coveted for its
 toughness. Though smiths have been making dragonhide armor for centuries without the benefit of
 dragoncrafting, those with the [Dragoncrafting](ref/feat/dragoncrafting) feat are able to improve

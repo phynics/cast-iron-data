@@ -32,7 +32,6 @@ Outfitted with concealed pockets, this clothing gives you a +2 bonus when hiding
 your person.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

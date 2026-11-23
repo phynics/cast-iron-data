@@ -33,7 +33,6 @@ This set of clothes consists of boots, a wool skirt or breeches, a sturdy belt, 
 with a vest or jacket), and an ample cloak with a hood.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "ranged-tactics-toolbox"
 page = "20"
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
 
 [fields]
 kind = "item"
@@ -31,7 +34,6 @@ exquisite acoustic properties grant the listener a +4 circumstance bonus instead
 
 ## Ear trumpet
 
-**Sources:** Ultimate Equipment pg 56\
 **Price** 5 gp; **Weight** 2 lbs.\
 **Category** Adventuring Gear
 

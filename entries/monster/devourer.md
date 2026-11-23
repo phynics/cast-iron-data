@@ -140,7 +140,6 @@ stand 10 feet tall but weigh a mere 200 pounds.
 
 ### Variants
 
-**Sources:** Undead Revisited pg 13\
 When a devourer manifests, it undergoes a dramatic transformation - one more invasive and
 overwhelming than those most undead transformations involve. The devourer's body and mind are
 reshaped and reformed by the alien influences that created it, and what remains of the source is

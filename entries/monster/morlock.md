@@ -135,7 +135,6 @@ although the majority of their kind die far sooner than that due to violence.
 
 ### Morlock Religion
 
-**Sources:** Darklands Revisited pg 31\
 Morlocks most often worship their ancient human ancestors, idealized versions of the legendary pure
 beings their race once resembled. As they don't venerate deities, these morlocks do not have access
 to cleric domains and most often take levels in oracle and shaman, with witches filling in as arcane

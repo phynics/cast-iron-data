@@ -131,7 +131,6 @@ power in their violent society.
 
 ### Daemonic Parents
 
-**Sources:** Darklands Revisited pg 55\
 Urdefhans frequently summon daemons from Abaddon to sire new generations of urdefhans. Such pairings
 occasionally result in the creation of half-fiends, who are destined to become leaders in urdefhan
 society. Erodaemons are the most common type of daemons summoned to breed with urdefhans. A variant

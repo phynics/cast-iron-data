@@ -115,7 +115,6 @@ puppets of a sinister and unknown master race deep under the sea.
 
 ### Advancment and Variants
 
-**Sources:** Pathfinder \#124: City in the Deep pg 75\
 Merfolk advance by character class. Adventuring merfolk are most often bards, kineticists, rangers,
 skalds, sorcerers, and swashbucklers. They explore coastlines and sunken ruins, and they
 occasionally ally with surface dwellers who use magic to venture beneath the waves. Though

@@ -52,13 +52,11 @@ half damage from exposure to vacuum and underwater pressure.
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 12,000 gp\
 This stone sustains the wearer without air, but he is always [staggered](ref/misc/staggered).
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 500 gp\
 This stone grants a +4 competence bonus on Constitution checks to
 [hold your breath](ref/misc/hold-your-breath).

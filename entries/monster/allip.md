@@ -139,7 +139,6 @@ in a world now no longer even holding the satisfaction of vengeance.
 
 ### Variant
 
-**Sources:** Undead Revisited pg 55\
 **Scribbling Allip (+1 CR):** Reports from reputable ghost hunters claim that some rare allips have
 developed the ability to physically manifest their babbled words into tangible, ectoplasmic script,
 expectorating their mutterings corporeally like tangled webs that drape across dungeon corridors and

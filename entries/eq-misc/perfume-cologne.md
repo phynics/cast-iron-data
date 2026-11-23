@@ -18,6 +18,9 @@ page = "12"
 [[sources]]
 publication = "adventurers-armory"
 page = "19"
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
 
 [fields]
 kind = "item"
@@ -38,7 +41,6 @@ against creatures who, at the GM's discretion, would not be swayed by scent).
 
 ## Perfume/cologne
 
-**Sources:** Ultimate Equipment pg 57, Adventurer's Armory pg 19\
 **Price** 5 gp; **Weight** -\
 **Category** Adventuring Gear
 

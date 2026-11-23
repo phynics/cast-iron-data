@@ -228,10 +228,11 @@ S1  Scope. The creatures of `entries/monster` and `entries/npc` and the items ou
     `**Sources:**` label at the start of a line outside a stat block. Its zone is one of
     `statistics` (the statistics region of a creature, C1; the lead paragraph of an item that
     has no stat block yet), `construction` (the paragraph directly under the first
-    `### Construction` of an item) or `variant` (every other line). The slices apply
-    `SOURCES_ZONES` (`statistics` and `construction`); the `variant` lines wait for the slice of
-    their variant kind, and the TSV lists them as `raw-sources-line`, with what rule S would do
-    with the file in every zone.
+    `### Construction` of an item) or `variant` (every other line). Since owner ruling 1 of
+    2026-11-23 the rule applies to every zone (`SOURCES_ZONES`, with the variant paragraphs
+    included). A file with a line the rule cannot move is queued whole, as before, with the
+    reason (`sources-page-conflict`, `sources-unparsed`, ...). `raw-sources-line` stays in the TSV
+    code for a zone the rule is set not to apply to; it lists none at present.
 S2  Line. `Book pg N[, Book pg N]` with each page `N` or `N-N`. Each book name is a title of
     `publications.toml` read exactly (`\\#` is `#`) or one of the two import spellings in
     `SOURCE_ALIASES` (`Pathfinder RPG Bestiary`, `PRPG Core Rulebook`). A line that wraps joins
@@ -296,7 +297,7 @@ FRONT_MATTER_END = "\n+++\n"
 # The slices already written to the corpus: (pass, --only value or None for the whole pass).
 # `--check` with no scope arguments checks exactly these.
 APPLIED: list[tuple[str, str | None]] = [
-    ("sources", None),  # the zones of `SOURCES_ZONES` only; the variant paragraphs come with their own slices
+    ("sources", None),  # every zone, the variant paragraphs included
     ("creature", None),
     ("npc", None),
     ("item", None),
@@ -309,8 +310,8 @@ KNOWN_PASSES = ("sources", "creature", "npc", "item", "fixes")
 
 # Rule S: the zones of a body whose raw `**Sources:**` lines the pass handles now, and the label.
 SOURCES_LABEL = "**Sources:**"
-SOURCES_ZONES = ("statistics", "construction")
 ALL_ZONES = ("statistics", "construction", "variant")
+SOURCES_ZONES = ALL_ZONES
 SOURCE_PAGE = re.compile(r"\d+(?:-\d+)?")
 # Printed names that are not a title in `publications.toml`: the two import spellings, as
 # `scripts/sources-field.py` reviewed them.
@@ -2963,7 +2964,7 @@ class SourcesSelfTest(unittest.TestCase):
         "Pathfinder #93: Forge": "pathfinder-93-forge",
     }
 
-    def plan(self, front: str, body: str, kind: str = "creature", zones=SOURCES_ZONES):
+    def plan(self, front: str, body: str, kind: str = "creature", zones=("statistics", "construction")):
         return plan_sources(front + body, kind, self.names, zones)
 
     def test_a_creature_citation_leaves_the_statistics_and_the_agreeing_row_stays(self):
@@ -2971,10 +2972,11 @@ class SourcesSelfTest(unittest.TestCase):
         self.assertEqual(status, "converted")
         self.assertEqual(text, SOURCES_FRONT + SOURCES_CREATURE.replace("**Sources:** Bestiary pg 10\\\n", "", 1))
         self.assertEqual(self.plan(text.split("\n\n")[0] + "\n\n" + text.split("\n\n", 1)[1], "")[0], "skipped")
-        self.assertEqual(plan_sources(text, "creature", self.names)[0], "skipped")
+        self.assertEqual(plan_sources(text, "creature", self.names, ("statistics", "construction"))[0], "skipped")
 
     def test_an_item_citation_in_construction_gains_rows_after_the_old_ones(self):
-        status, _, text = self.plan(SOURCES_ITEM_FRONT, SOURCES_ITEM, "item")
+        narrow = ("statistics", "construction")
+        status, _, text = self.plan(SOURCES_ITEM_FRONT, SOURCES_ITEM, "item", narrow)
         self.assertEqual(status, "converted")
         self.assertIn(
             '[[sources]]\npublication = "bestiary"\npage = "10"\n'
@@ -2983,11 +2985,16 @@ class SourcesSelfTest(unittest.TestCase):
             text,
         )
         self.assertEqual(text.split("+++\n", 2)[2], SOURCES_ITEM.replace("**Sources:** Ultimate Equipment pg 302, PRPG Core Rulebook pg 525\\\n", "", 1))
-        self.assertEqual(plan_sources(text, "item", self.names)[0], "skipped")  # idempotent
-        # The variant line is not in the applied zones; every zone would conflict on the page.
-        self.assertEqual(self.plan(text, "", "item")[0], "skipped")
-        self.assertEqual(plan_sources(text, "item", self.names, ALL_ZONES)[0], "queue:sources-page-conflict")
-        self.assertEqual(sources_leftovers(SOURCES_ITEM, "item"), ["Ultimate Equipment pg 99"])
+        self.assertEqual(plan_sources(text, "item", self.names, narrow)[0], "skipped")  # idempotent
+        # The variant line is outside the narrow zones; in every zone (the default) it conflicts on the page.
+        self.assertEqual(self.plan(text, "", "item", narrow)[0], "skipped")
+        self.assertEqual(plan_sources(text, "item", self.names)[0], "queue:sources-page-conflict")
+        self.assertEqual(sources_leftovers(SOURCES_ITEM, "item"), [])
+        # A variant line whose page a row holds moves like any other.
+        agreeing = SOURCES_ITEM.replace("Ultimate Equipment pg 99", "Ultimate Equipment pg 302")
+        moved = plan_sources(text.split("+++\n", 2)[0] + "+++\n" + text.split("+++\n", 2)[1] + "+++\n" + agreeing, "item", self.names)
+        self.assertEqual(moved[0], "converted")
+        self.assertNotIn("**Sources:**", moved[2])
 
     def test_the_rows_go_before_expanded_in_and_into_a_front_without_rows(self):
         head = (
@@ -3129,7 +3136,7 @@ class SourcesSelfTest(unittest.TestCase):
                 (root / rel).parent.mkdir(parents=True, exist_ok=True)
                 (root / rel).write_text(ITEM_FRONT + "".join(pair[0] for pair in pairs), encoding="utf-8")
             path = root / "entries/magic-wondrous/x.md"
-            path.write_text(SOURCES_ITEM_FRONT + SOURCES_ITEM, encoding="utf-8")
+            path.write_text(SOURCES_ITEM_FRONT + SOURCES_ITEM.replace("pg 99", "pg 302"), encoding="utf-8")
             sink = open(os.devnull, "w")
             self.addCleanup(sink.close)
             self.assertEqual(run(root, "check", ["sources"], None, sink), 1)
@@ -3139,7 +3146,8 @@ class SourcesSelfTest(unittest.TestCase):
             self.assertIn("::: statblock\nRequirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item)\nCost: 1,250 gp\n:::", text)
             self.assertEqual(run(root, "check", ["sources", "item"], None, sink), 0)
             tsv = (root / REVIEW_TSV).read_text(encoding="utf-8")
-            self.assertIn("entries/magic-wondrous/x.md\titem\traw-sources-line\t1 in variant paragraphs: Ultimate Equipment pg 99 (rule S in every zone: sources-page-conflict)\n", tsv)
+            self.assertNotIn("raw-sources-line", tsv)
+            self.assertNotIn("**Sources:**", text)
             before = path.read_bytes()
             self.assertEqual(run(root, "write", ["sources", "item"], None, sink), 0)
             self.assertEqual(before, path.read_bytes())

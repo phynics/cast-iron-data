@@ -13,6 +13,9 @@ page = "267"
 [[sources]]
 publication = "darklands-revisited"
 page = "49"
+[[sources]]
+publication = "monster-codex"
+page = "212"
 
 [fields]
 kind = "creature"
@@ -121,8 +124,6 @@ A typical troglodyte stands about 5 feet tall and weighs 150 pounds.
 
 ### Troglodyte Variants
 
-**Sources:** Monster Codex pg 212
-
 Although most troglodytes are represented by the cave-dwelling creatures documented above, after
 untold millennia, several troglodyte variants have evolved from the ancient xulgath bloodline and
 adapted to life in different environments and climates.
@@ -169,8 +170,6 @@ troglodyte paragon's skills (not counting ranks gained through class levels) are
 Perception +7, Stealth +10 (+14 in rocky areas).
 
 ### Xulgaths
-
-**Sources:** Darklands Revisited pg 49
 
 Xulgath is the proper term for the troglodyte race; their modern name is a derisive term coined by
 other species. The xulgath inhabitants of the lowest Darklands continue the legacy of their species,

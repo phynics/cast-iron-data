@@ -122,7 +122,6 @@ darkness, insanity, and blood. Gug savants add +1 to their CR.
 
 ### Variant Gugs
 
-**Sources:** Darklands Revisited pg 19\
 First appearing in H. P. Lovecraft's novella, _The Dream-Quest of Unknown Kadath,_ gugs have their
 roots in the popular Cthulhu mythos. The background for gugs presented in this article matches the
 gug backstory presented in the writings of Lovecraft, but their added history on Golarion has led to

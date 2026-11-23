@@ -80,7 +80,6 @@ Cost: 62,500 gp
 
 ## Helm of Brilliance (Lesser)
 
-**Sources:** Ultimate Equipment pg 243, Classic Treasures Revisited pg 31\
 **Aura** moderate varied; **CL** 5th\
 **Slot** head; **Price** 36,000 gp; **Weight** 3 lbs.
 

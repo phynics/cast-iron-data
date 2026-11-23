@@ -51,12 +51,10 @@ Weight: —
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 7,200 gp\
 This stone grants a +2 enhancement bonus to Wisdom and a -2 penalty on Perception checks.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 200 gp\
 This stone grants a +1 competence bonus on one Wisdom-based skill.

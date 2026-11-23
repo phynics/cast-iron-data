@@ -36,7 +36,6 @@ pockets (especially the cloak). The outfit also includes any extra accessories y
 as a scarf or a wide-brimmed hat.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

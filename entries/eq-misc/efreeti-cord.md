@@ -38,7 +38,6 @@ points the second.
 
 ## Efreeti switch
 
-**Sources:** Ultimate Intrigue pg 236\
 **Price** 25 gp; **Weight** -\
 **Category** Alchemical Tools
 

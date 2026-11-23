@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "bestiary"
 page = "239"
+[[sources]]
+publication = "monster-codex"
+page = "188"
 
 [fields]
 kind = "creature"
@@ -117,8 +120,6 @@ bloodlusts and cruel natures. Malenti often serve as spies and assassins for sah
 rumors of all-malenti tribes in isolated reaches of the sea persist.
 
 ### Sahuagin Mutants
-
-**Sources:** Monster Codex pg 188
 
 Inherent instability in sahuagin genes makes them susceptible to mutations. Not all these mutations
 are beneficial, and defective sahuagin rarely survive long after hatching. Sahuagin mutants that do

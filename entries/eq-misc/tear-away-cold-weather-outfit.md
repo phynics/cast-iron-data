@@ -41,7 +41,6 @@ animal pelts. This outfit grants a +5 circumstance bonus on Fortitude saving thr
 to [cold weather](ref/rule/cold-dangers).
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

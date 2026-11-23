@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "bestiary"
 page = "220"
+[[sources]]
+publication = "monster-codex"
+page = "152"
 
 [fields]
 kind = "creature"
@@ -122,8 +125,6 @@ giants) often subjugate ogre families to serve them in such regards.
 A typical adult ogre stands 10 feet tall and weighs roughly 650 pounds.
 
 ### Ogre Simple Templates
-
-**Sources:** Monster Codex pg 152
 
 Whether it's due to inbreeding, magical or alchemical experimentation, or strange environs, ogres
 are far more prone to mutations than other races. Ogres can survive with defects that would outright

@@ -125,8 +125,6 @@ undeath.
 
 ### Variant
 
-**Sources:** Undead Revisited pg 55
-
 **Corpulent Spectre (+1 CR):** Ancient spectres that are able to satisfy their all-consuming rage by
 engaging in perpetual, gluttonous feasts upon the living undergo a startling transformation, growing
 in size and strength as their incorporeal bulk oozes and writhes around them in miasmal folds,

@@ -126,7 +126,6 @@ templates, or you can increase the basic wraith to a Large 16 HD undead.
 
 ### Variant
 
-**Sources:** Undead Revisited pg 55\
 **White Wraith (+1 CR):** Created by fiends from the distilled and corrupted souls of holy crusading
 knights who succumbed to temptation and died as sinners and blasphemers, white wraiths are composed
 of blinding white light rather than darkness. These tortured souls deal 2d6 points of cold damage

@@ -50,7 +50,6 @@ and a break DC of 30. They are otherwise treated as masterwork manacles.
 
 ### Expanded Information\*\*
 
-**Sources:** Path of the Hellknight pg 15\
 The specifics of their effects are largely left to the GM's discretion, due in large part to
 manacles' versatility. However, for their most common uses, GMs might employ the following effects.
 

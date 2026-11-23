@@ -220,7 +220,6 @@ stories go on to describe guardians with powerful abilities.
 
 **Perception:** -4
 
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 84\
 **tremorsense:** 90
 
 **Experience points:** 3,200
