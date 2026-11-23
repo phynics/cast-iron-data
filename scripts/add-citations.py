@@ -445,6 +445,7 @@ def sibling_page(entry: Entry, pub: str, by_id: dict[str, Entry]) -> str | None:
 BASIS: Counter[str] = Counter()
 PRINT: dict[tuple[str, str], str] = {}
 PRINT_NOTES: dict[tuple[str, str], str] = {}
+QUEUED_DIFFERS: set[tuple[str, str]] = set()  # books the review queue already holds as book-differs
 PROPOSAL_ONLY: list[tuple[str, str, str]] = []
 
 
@@ -470,6 +471,9 @@ def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
         BASIS["sibling agrees with proposal" if confident else "sibling only"] += 1
         return sib, None, "", ""
     if cand is None:
+        if (entry.id, pub) in QUEUED_DIFFERS:
+            # Without the proposals file a rerun must not turn a queued book into a row.
+            return None, "book-differs", "", "the reference lists the entry only in other books"
         return None, "no-proposal", "", ""
     if confident:
         if not PAGE_FORM.match(cpage):
@@ -582,6 +586,17 @@ def self_test() -> int:
         expect(("ref/trait/t1", "b", "book-differs") not in review_of(root), "the review line goes with the row")
         expect(run(root, *slice_args, "--check") == 0, "stable after the fill")
 
+        # An entry whose books are all book-differs keeps no rows, and a rerun without the
+        # proposals file leaves it alone.
+        entry("t5", ["a", "b"])
+        cand5 = candidates([
+            ("ref/trait/t5", "a", "", "none", "no-aon-source-for-book"),
+            ("ref/trait/t5", "b", "", "none", "no-aon-source-for-book"),
+        ])
+        run(root, "--slice", "trait", "--candidates", str(cand5), "--write")
+        expect(rows_of(root, "t5") == [], "an entry whose books are all book-differs gets no rows")
+        expect(run(root, "--slice", "trait", "--check") == 0, "a rerun without proposals leaves it alone")
+
         # Coarse and page-format rows are book-only and queued.
         entry("t2", ["a"])
         entry("t3", ["a"])
@@ -674,6 +689,7 @@ def reset_state() -> None:
     BASIS.clear()
     PRINT.clear()
     PRINT_NOTES.clear()
+    QUEUED_DIFFERS.clear()
     PROPOSAL_ONLY.clear()
 
 
@@ -717,6 +733,9 @@ def main(argv: list[str] | None = None) -> int:
             if row.get("note"):
                 PRINT_NOTES[key] = row["note"]
     order = {pid: i for i, pid in enumerate(titles)}
+    for line in read_review(review_path):
+        if line["reason"] == "book-differs":
+            QUEUED_DIFFERS.add((line["entry_id"], line["publication"]))
 
     counts: Counter[str] = Counter()
     changed: list[tuple[Entry, str]] = []
