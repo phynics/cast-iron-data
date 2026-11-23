@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Greenblood Oil", path = "core_rulebook/affliction/poison/greenblood_oil.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "559"
 
 [fields]
 kind = "none"

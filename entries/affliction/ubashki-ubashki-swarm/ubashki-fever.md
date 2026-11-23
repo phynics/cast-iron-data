@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ubashki_ubashki_swarm|affliction:ubashki-fever", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "19"
 
 [fields]
 kind = "none"

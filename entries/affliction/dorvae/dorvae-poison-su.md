@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dorvae|affliction:dorvae-poison-su", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "62"
 
 [fields]
 kind = "none"

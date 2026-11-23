@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_cantor|affliction:lingering-touch", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
 
 [fields]
 kind = "none"

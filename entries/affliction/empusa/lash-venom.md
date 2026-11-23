@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empusa|affliction:lash-venom", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "232"
 
 [fields]
 kind = "none"

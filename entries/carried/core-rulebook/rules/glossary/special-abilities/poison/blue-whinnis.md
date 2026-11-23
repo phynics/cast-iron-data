@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Blue Whinnis", path = "core_rulebook/affliction/poison/blue_whinnis.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "558"
 
 [fields]
 kind = "none"

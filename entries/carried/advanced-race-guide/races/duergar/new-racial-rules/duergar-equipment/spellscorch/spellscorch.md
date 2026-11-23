@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Duergar/New Racial Rules/Duergar Equipment/Spellscorch/Spellscorch", path = "advanced_race_guide/affliction/poison/spellscorch.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Spider/Giant Tarantula/Special Abilities/Poison/Giant Tarantula Venom", path = "bestiary_2/affliction/poison/giant_tarantula_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

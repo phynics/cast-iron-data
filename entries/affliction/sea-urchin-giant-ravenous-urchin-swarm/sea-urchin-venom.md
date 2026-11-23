@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_urchin_giant_ravenous_urchin_swarm|affliction:sea-urchin-venom", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
 
 [fields]
 kind = "none"

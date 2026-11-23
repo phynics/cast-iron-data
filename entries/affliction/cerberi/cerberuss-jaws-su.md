@@ -8,6 +8,11 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerberi|affliction:cerberuss-jaws-su", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "51"
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
 
 [fields]
 kind = "none"

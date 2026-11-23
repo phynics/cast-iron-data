@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_inubrix_golem|affliction:abysium-residue", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
 
 [fields]
 kind = "none"

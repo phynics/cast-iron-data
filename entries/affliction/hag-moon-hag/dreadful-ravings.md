@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_moon_hag|affliction:dreadful-ravings", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "242"
 
 [fields]
 kind = "none"

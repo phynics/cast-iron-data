@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Nightshade/Nightcrawler/Special Abilities/Poison/Nightshade Venom", path = "bestiary_2/affliction/poison/nightshade_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

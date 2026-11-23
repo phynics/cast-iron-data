@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Golem/Iron/Golem/Iron/Special Abilities/Breath Weapon/Breath weapon/Iron Golem", path = "bestiary/affliction/poison/breath_weapon_iron_golem.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"

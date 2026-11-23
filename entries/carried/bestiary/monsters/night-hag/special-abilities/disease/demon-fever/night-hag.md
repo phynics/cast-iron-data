@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Night Hag/Special Abilities/Disease/Demon Fever/Night Hag", path = "bestiary/affliction/disease/demon_fever_night_hag.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"

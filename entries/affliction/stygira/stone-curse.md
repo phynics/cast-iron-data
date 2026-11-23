@@ -8,6 +8,8 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stygira|affliction:stone-curse", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-33-the-varnhold-vanishing"
 
 [fields]
 kind = "none"

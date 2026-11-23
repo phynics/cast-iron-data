@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_lord_isph_aun_vuln|affliction:winds-of-isph-aun-vuln", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"

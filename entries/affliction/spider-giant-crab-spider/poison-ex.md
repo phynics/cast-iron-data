@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_giant_crab_spider|affliction:poison-ex", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "254"
 
 [fields]
 kind = "none"

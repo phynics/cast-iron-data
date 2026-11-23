@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Ghoul/Special Abilities/Disease/Ghoul Fever", path = "bestiary/affliction/disease/ghoul_fever.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "146"
 
 [fields]
 kind = "none"

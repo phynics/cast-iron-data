@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nekomata|affliction:nekomata-madness", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "201"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moxix|affliction:moxixs-delectation", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
 
 [fields]
 kind = "none"

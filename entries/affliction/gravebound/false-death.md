@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravebound|affliction:false-death", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "128"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Parasite/Giant Rot Grub/Special Abilities/Poison/Giant Rot Grub Venom", path = "bestiary_3/affliction/poison/giant_rot_grub_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

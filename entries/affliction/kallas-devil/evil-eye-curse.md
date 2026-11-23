@@ -8,6 +8,8 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kallas_devil|affliction:evil-eye-curse", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
 
 [fields]
 kind = "none"

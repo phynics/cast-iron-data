@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_dream|affliction:nightmare-curse", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "29"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spark_nettle|affliction:levitation-poison", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-36-sound-of-a-thousand-screams"
 
 [fields]
 kind = "none"

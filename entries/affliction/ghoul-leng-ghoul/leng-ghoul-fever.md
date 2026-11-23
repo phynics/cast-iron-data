@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_leng_ghoul|affliction:leng-ghoul-fever", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "120"
 
 [fields]
 kind = "none"

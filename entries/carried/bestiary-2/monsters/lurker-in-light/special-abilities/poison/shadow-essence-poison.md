@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Lurker in Light/Special Abilities/Poison/Shadow essence poison", path = "bestiary_2/affliction/poison/shadow_essence_poison.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "180"
 
 [fields]
 kind = "none"

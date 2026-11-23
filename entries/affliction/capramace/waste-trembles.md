@@ -8,6 +8,12 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "capramace|affliction:waste-trembles", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "50"
+[[sources]]
+publication = "wardens-of-the-reborn-forge"
+page = "61"
 
 [fields]
 kind = "none"

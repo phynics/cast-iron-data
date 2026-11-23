@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magma_ooze|affliction:magma-ooze-poison", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "184"
 
 [fields]
 kind = "none"

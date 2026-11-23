@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Dark Creeper/Special Abilities/Poison Use/Black Smear/Dark Creeper", path = "bestiary/affliction/poison/black_smear_dark_creeper.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"

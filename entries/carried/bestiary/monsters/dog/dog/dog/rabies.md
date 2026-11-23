@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Dog/Dog/Dog/Rabies", path = "bestiary/affliction/disease/rabies.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "87"
 
 [fields]
 kind = "none"

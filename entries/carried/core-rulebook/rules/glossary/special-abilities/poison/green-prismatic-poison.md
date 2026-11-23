@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Green Prismatic Poison", path = "core_rulebook/affliction/poison/green_prismatic_poison.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "559"
 
 [fields]
 kind = "none"

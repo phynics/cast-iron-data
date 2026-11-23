@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Iron Cobra/Special Abilities/Poison/Black Adder Venom", path = "bestiary/affliction/poison/black_adder_venom.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "182"
 
 [fields]
 kind = "none"

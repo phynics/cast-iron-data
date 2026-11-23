@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heartrot_tree|affliction:heartrot-disease", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
 
 [fields]
 kind = "none"

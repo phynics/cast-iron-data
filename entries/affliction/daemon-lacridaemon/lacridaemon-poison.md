@@ -8,6 +8,10 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_lacridaemon|affliction:lacridaemon-poison", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
 
 [fields]
 kind = "none"
