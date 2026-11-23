@@ -29,75 +29,62 @@ abilities = ["17", "10", "-", "8", "10", "13"]
 _This barnacle-encrusted walking corpse looks like a zombie, but is dripping with water and gives
 off a nauseating stench._
 
-**Challenge rating:** 2
+## Draugr {#stat-draugr}
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +0
+Size: medium
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Water
+Type: undead
+Experience points: 600
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 14
+AC modifiers: +2 armor, +2 natural
+Hit points: 19 (3d8+6)
+Fort: +2
+Ref: +1
+Will: +3
+Dr: 5/bludgeoning or slashing
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: fire 10
+:::
 
-**Perception:** +6
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: greataxe +5 (1d12+4/×3 plus nausea) or slam +5 (1d10+4 plus nausea)
+:::
 
-**Subtype:** Water
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 17, Dex 10, Con -, Int 8, Wis 10, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 15
+Feats: Power Attack, Toughness
+Skills: Climb +9
+Languages: Common (can't speak)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 armor, +2 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +3
-
-**Dr:** 5/bludgeoning or slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** greataxe +5 (1d12+4/×3 plus nausea) or slam +5 (1d10+4 plus nausea)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con -, Int 8, Wis 10, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15
-
-**Feats:** Power Attack, Toughness
-
-**Skills:** Climb +9
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any coastal
-
-**Organization:** solitary or crew (2-8)
-
-**Treasure:** Standard (greataxe, leather armor); other treasure
+::: statblock
+Environment: any coastal
+Organization: solitary or crew (2-8)
+Treasure: Standard (greataxe, leather armor); other treasure
+:::
 
 ### Special Abilities
 
@@ -116,9 +103,11 @@ In the case of draugr who manifest when an entire ship sinks, these undead usual
 wreck of their ship. Some draugr may be found under the control of aquatic necromancers, while
 others may wander the seas as undead pirates aboard ghost ships.
 
-**Draugr Captain**
+## Draugr Captain {#stat-captain}
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+:::
 
 Draugr captains have malevolent, burning red eyes. They may be more richly dressed than other
 draugr, though their clothes are always in a similar tattered condition.
