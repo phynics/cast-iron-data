@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_fanged_pounce", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "176"
 
 [fields]
 kind = "class_option"

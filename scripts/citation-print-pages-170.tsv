@@ -3910,3 +3910,230 @@ ref/rangertrap/summoned-ally-trap	ranged-tactics-toolbox	15	print-offset		offset
 ref/talent/bomber	ranged-tactics-toolbox	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
 ref/talent/bombers-discovery	ranged-tactics-toolbox	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
 ref/talent/without-a-trace	ranged-tactics-toolbox	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
+ref/arcanedisc/arcane-builder	ultimate-magic	86	print		
+ref/arcanedisc/fast-study	ultimate-magic	86	print		
+ref/arcanedisc/feral-speech	ultimate-magic	86	print		
+ref/arcanedisc/golem-constructor	ultimate-magic	86	print		
+ref/arcanedisc/immortality	ultimate-magic	86	print		
+ref/arcanedisc/multimorph	ultimate-magic	86	print		
+ref/arcanedisc/opposition-research	ultimate-magic	86	print		
+ref/arcanedisc/split-slot	ultimate-magic	86	print		
+ref/arcanedisc/staff-like-wand	ultimate-magic	87	print		
+ref/arcanedisc/true-name	ultimate-magic	87	print		
+ref/discovery/alchemical-simulacrum	ultimate-magic	15	print		the heading is on the proposed page (15) and on 15,16; the row keeps the proposal
+ref/discovery/alchemical-zombie	ultimate-magic	15	print		
+ref/discovery/bitter-pill	ultimate-wilderness	34	print		
+ref/discovery/blinding-bomb	ultimate-magic	15	print		
+ref/discovery/bottled-ooze	ultimate-magic	15	print		
+ref/discovery/cognatogen	ultimate-magic	15	print		the heading is on the proposed page (15) and on 15,16; the row keeps the proposal
+ref/discovery/confusion-bomb	ultimate-magic		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/doppelganger-simulacrum	ultimate-magic	15	print		
+ref/discovery/grand-cognatogen	ultimate-magic	16	print		
+ref/discovery/greater-alchemical-simulacrum	ultimate-magic	16	print		
+ref/discovery/greater-cognatogen	ultimate-magic	16	print		
+ref/discovery/grounding-goo	ultimate-wilderness		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/healing-touch	ultimate-magic	16	print		
+ref/discovery/incendiary-charge	villain-codex	236	print		
+ref/discovery/lingering-spirit	ultimate-magic	16	print		
+ref/discovery/mummification	ultimate-magic	16	print		
+ref/discovery/mutagen	ultimate-magic	16	print		
+ref/discovery/parasitic-twin	ultimate-magic	16	print		
+ref/discovery/penetrating-charge	villain-codex	236	print		
+ref/discovery/pheromones	ultimate-wilderness	34	print		
+ref/discovery/plague-bomb	ultimate-magic	16	print		
+ref/discovery/preserve-organs	ultimate-magic	17	print		
+ref/discovery/solid-ground	ultimate-wilderness		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/spontaneous-healing	ultimate-magic	17	print		
+ref/discovery/strafe-bomb	ultimate-magic	17	print		
+ref/discovery/sunlight-bomb	ultimate-magic	17	print		
+ref/discovery/tanglefoot-bomb	ultimate-magic	17	print		
+ref/discovery/tentacle	ultimate-magic	17	print		
+ref/discovery/thorny-bomb	ultimate-wilderness		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/tumor-familiar	ultimate-magic	17	print		
+ref/discovery/vestigial-arm	ultimate-magic	18	print		
+ref/discovery/volumizer	ultimate-wilderness	34	print		
+ref/discovery/wings	ultimate-magic	18	print		
+ref/eidolon/kami	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/plant	ultimate-wilderness		unconfirmed	the name is a heading only on page 17, far from the proposed page 95; which one prints the option is not settled	
+ref/evolution/basic-magic	ultimate-magic	76	print		
+ref/evolution/channel-resistance	ultimate-magic	77	print		
+ref/evolution/dimension-door	ultimate-magic	78	print		
+ref/evolution/head	ultimate-magic	77	print		
+ref/evolution/hooves	ultimate-magic	77	print		
+ref/evolution/incorporeal-form	ultimate-magic	78	print		
+ref/evolution/keen-scent	ultimate-magic	77	print		
+ref/evolution/lifesense	ultimate-magic	78	print		
+ref/evolution/low-light-vision	ultimate-magic	77	print		
+ref/evolution/major-magic	ultimate-magic	78	print		
+ref/evolution/minor-magic	ultimate-magic	77	print		
+ref/evolution/no-breath	ultimate-magic	78	print		
+ref/evolution/see-in-darkness	ultimate-magic	78	print		
+ref/evolution/ultimate-magic	ultimate-magic	78	print		
+ref/evolution/undead-appearance	ultimate-magic	77	print		
+ref/evolution/unnatural-aura	ultimate-magic	77	print		
+ref/hex/beast-eye	ultimate-magic	82	print		
+ref/hex/beast-of-ill-omen	ultimate-magic	81	print		
+ref/hex/child-scent	ultimate-magic	81	print		
+ref/hex/city-sight	ultimate-wilderness	88	print		
+ref/hex/cook-people	ultimate-magic	82	print		
+ref/hex/dire-prophecy	ultimate-magic	82	print		
+ref/hex/enemy-ground	ultimate-wilderness	88	print		
+ref/hex/feral-speech	ultimate-magic	81	print		
+ref/hex/floating-lotus	wilderness-origins	16	print		
+ref/hex/heralding-bloom	wilderness-origins	16	print		
+ref/hex/hidden-home	ultimate-magic	82	print		
+ref/hex/hoarfrost	ultimate-magic	82	print		
+ref/hex/ice-tomb	ultimate-magic	82	print		
+ref/hex/iceplant	wilderness-origins	17	print		
+ref/hex/infected-wounds	ultimate-magic	82	print		
+ref/hex/leshy-summoning	wilderness-origins	17	print		
+ref/hex/nails	ultimate-magic	81	print		
+ref/hex/no-place-like-home	ultimate-wilderness	88	print		
+ref/hex/poison-steep	ultimate-magic	81	print		
+ref/hex/prehensile-hair	ultimate-magic	81	print		
+ref/hex/scar	ultimate-magic	81	print		
+ref/hex/speak-in-dreams	ultimate-magic	82	print		
+ref/hex/summers-heat	ultimate-wilderness	88	print		
+ref/hex/summon-spirit	ultimate-magic	83	print		
+ref/hex/swamp-hag	ultimate-magic	82	print		
+ref/hex/unnerve-beasts	ultimate-magic	82	print		
+ref/hex/water-lung	ultimate-magic	82	print		
+ref/hex/witchs-brew	ultimate-magic	82	print		
+ref/hex/witchs-hut	ultimate-magic	83	print		
+ref/kipower/floating-breath	wilderness-origins	31	print		
+ref/kipower/racing-current	wilderness-origins	31	print		
+ref/kipower/zephyr-blow	wilderness-origins	31	print		
+ref/oraclecurse/putrid	wilderness-origins	31	print		
+ref/oraclecurse/scourge	wilderness-origins	31	print		
+ref/patron/ancestors	ultimate-magic	83	print		
+ref/patron/autumn	ultimate-wilderness	88	print		
+ref/patron/death	ultimate-magic	83	print		
+ref/patron/enchantment	ultimate-magic	83	print		
+ref/patron/healing	ultimate-magic	83	print		the heading is on the proposed page (83) and on 83,85; the row keeps the proposal
+ref/patron/insanity	ultimate-magic	83	print		
+ref/patron/light	ultimate-magic	83	print		
+ref/patron/moon	ultimate-magic	83	print		
+ref/patron/occult	ultimate-magic	83	print		
+ref/patron/portents	ultimate-magic	83	print		
+ref/patron/spirits	ultimate-magic	83	print		
+ref/patron/spring	ultimate-wilderness	88	print		
+ref/patron/stars	ultimate-magic	83	print		
+ref/patron/time	ultimate-magic	83	print		
+ref/patron/vengeance	ultimate-magic	83	print		
+ref/patron/winter	ultimate-magic	83	print		
+ref/patron/winter	ultimate-wilderness	88	print		
+ref/patron/woodlands	ultimate-wilderness	89	print		
+ref/ragepower/ancestor-totem	wilderness-origins	24	print		
+ref/ragepower/atavism-totem	villain-codex	140	print		
+ref/ragepower/autumn-rage	ultimate-wilderness	36	print		
+ref/ragepower/bestial-flyer	ultimate-wilderness	36	print		
+ref/ragepower/contagious-rage	ultimate-wilderness	36	print		
+ref/ragepower/dissipating-rage	ultimate-wilderness	36	print		
+ref/ragepower/eclipsing-rage	ultimate-wilderness	36	print		
+ref/ragepower/erratic-charge	villain-codex	176	print		
+ref/ragepower/furious-barrage	villain-codex	176	print		
+ref/ragepower/furious-draw	villain-codex	176	print		
+ref/ragepower/greater-ancestor-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-atavism-totem	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-eclipsing-rage	ultimate-wilderness		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-erratic-charge	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-moon-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-spire-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-tyrant-totem	ultimate-wilderness		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/hissing-rage	ultimate-wilderness	36	print		
+ref/ragepower/lesser-ancestor-totem	wilderness-origins	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
+ref/ragepower/lesser-atavism-totem	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/lesser-moon-totem	wilderness-origins	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
+ref/ragepower/lesser-spire-totem	wilderness-origins	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
+ref/ragepower/lesser-tyrant-totem	ultimate-wilderness	37	print		title text only (no heading form): the name is on page 37 and on none of the two pages each side
+ref/ragepower/lizard-stride	ultimate-wilderness	36	print		
+ref/ragepower/moon-totem	wilderness-origins	24	print		
+ref/ragepower/pack-rage	ultimate-wilderness	36	print		
+ref/ragepower/raging-flyer	ultimate-wilderness	36	print		
+ref/ragepower/raging-whirlwind	ultimate-wilderness	36	print		
+ref/ragepower/savage-hurl	villain-codex	176	print		
+ref/ragepower/spire-totem	wilderness-origins	24	print		
+ref/ragepower/spring-rage	ultimate-wilderness	36	print		
+ref/ragepower/summer-rage	ultimate-wilderness	36	print		
+ref/ragepower/two-fanged-pounce	villain-codex	176	print		
+ref/ragepower/tyrant-totem	ultimate-wilderness	36	print		
+ref/ragepower/winter-rage	ultimate-wilderness	37	print		
+ref/slayertalent/sticks-and-stones	ultimate-wilderness	86	print		
+ref/slayertalent/sunlight-strike	ultimate-wilderness	86	print		
+ref/slayertalent/sure-footing	ultimate-wilderness	86	print		
+ref/slayertalent/toxin-training	ultimate-wilderness	86	print		
+ref/soctalent/any-guise	ultimate-intrigue	10	print		
+ref/soctalent/case-the-joint	ultimate-intrigue	10	print		
+ref/soctalent/celebrity-discount	ultimate-intrigue	10	print		
+ref/soctalent/celebrity-perks	ultimate-intrigue	11	print		
+ref/soctalent/double-time	ultimate-intrigue	11	print		
+ref/soctalent/everyman	ultimate-intrigue	11	print		
+ref/soctalent/feign-innocence	ultimate-intrigue	11	print		
+ref/soctalent/gossip-collector	ultimate-intrigue	11	print		
+ref/soctalent/great-renown	ultimate-intrigue	11	print		
+ref/soctalent/immediate-change	ultimate-intrigue	11	print		
+ref/soctalent/in-vogue	ultimate-intrigue	11	print		
+ref/soctalent/incredible-renown	ultimate-intrigue	11	print		
+ref/soctalent/instant-recognition	ultimate-intrigue	11	print		
+ref/soctalent/loyal-aid	ultimate-intrigue	11	print		
+ref/soctalent/many-guises	ultimate-intrigue	12	print		
+ref/soctalent/mockingbird	ultimate-intrigue	12	print		
+ref/soctalent/quick-change	ultimate-intrigue	12	print		
+ref/soctalent/renown	ultimate-intrigue	12	print		the heading is on the proposed page (12) and on 11,12; the row keeps the proposal
+ref/soctalent/safe-house	ultimate-intrigue	12	print		
+ref/soctalent/social-grace	ultimate-intrigue	12	print		
+ref/soctalent/subjective-truth	ultimate-intrigue	13	print		
+ref/soctalent/triumphant-return	ultimate-intrigue	13	print		
+ref/talent/follow-along	ultimate-intrigue	44	print		
+ref/talent/hidden-mind	ultimate-intrigue	44	print		
+ref/talent/shades-of-gray	ultimate-intrigue	44	print		
+ref/talent/stalker-talent	ultimate-intrigue	44	print		
+ref/vigtalent/another-day	ultimate-intrigue	13	print		
+ref/vigtalent/armor-skin	ultimate-intrigue	13	print		
+ref/vigtalent/blind-spot	ultimate-intrigue	13	print		
+ref/vigtalent/chase-master	ultimate-intrigue	14	print		
+ref/vigtalent/close-the-gap	ultimate-intrigue	14	print		
+ref/vigtalent/combat-skill	ultimate-intrigue	14	print		
+ref/vigtalent/cunning-feint	ultimate-intrigue	14	print		
+ref/vigtalent/environmental-weapon	ultimate-intrigue		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/vigtalent/evasive	ultimate-intrigue	14	print		
+ref/vigtalent/expose-weaknesses	ultimate-intrigue		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/vigtalent/favored-maneuver	ultimate-intrigue	14	print		
+ref/vigtalent/fist-of-the-avenger	ultimate-intrigue	14	print		
+ref/vigtalent/foe-collision	ultimate-intrigue		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/vigtalent/heavy-training	ultimate-intrigue	14	print		
+ref/vigtalent/hide-in-plain-sight	ultimate-intrigue	14	print		
+ref/vigtalent/inspired-vigilante	ultimate-intrigue	14	print		
+ref/vigtalent/leave-an-opening	ultimate-intrigue	14	print		title text only (no heading form): the name is on page 14 and on none of the two pages each side
+ref/vigtalent/lethal-grace	ultimate-intrigue	15	print		
+ref/vigtalent/living-shield	ultimate-intrigue	15	print		
+ref/vigtalent/mad-rush	ultimate-intrigue	15	print		
+ref/vigtalent/mighty-ambush	ultimate-intrigue		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/vigtalent/nothing-can-stop-me	ultimate-intrigue	15	print		
+ref/vigtalent/perfect-fall	ultimate-intrigue	15	print		
+ref/vigtalent/perfect-vulnerability	ultimate-intrigue	15	print		
+ref/vigtalent/pull-into-the-shadows	ultimate-intrigue	15	print		
+ref/vigtalent/returning-weapon	ultimate-intrigue	15	print		
+ref/vigtalent/rogue-talent	ultimate-intrigue	15	print		
+ref/vigtalent/rooftop-infiltrator	ultimate-intrigue	15	print		
+ref/vigtalent/shadows-sight	ultimate-intrigue	15	print		
+ref/vigtalent/shadows-speed	ultimate-intrigue	15	print		
+ref/vigtalent/shield-of-blades	ultimate-intrigue	16	print		
+ref/vigtalent/shield-of-fury	ultimate-intrigue	16	print		
+ref/vigtalent/signature-weapon	ultimate-intrigue	16	print		
+ref/vigtalent/silent-dispatch	ultimate-intrigue	16	print		
+ref/vigtalent/sniper	ultimate-intrigue	16	print		
+ref/vigtalent/stalker-sense	ultimate-intrigue	16	print		
+ref/vigtalent/strike-the-unseen	ultimate-intrigue	16	print		
+ref/vigtalent/sucker-punch	ultimate-intrigue		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/vigtalent/sure-footed	ultimate-intrigue	16	print		
+ref/vigtalent/surprise-strike	ultimate-intrigue	16	print		
+ref/vigtalent/throat-jab	ultimate-intrigue		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/vigtalent/twisting-fear	ultimate-intrigue	16	print		
+ref/vigtalent/unexpected-strike	ultimate-intrigue	16	print		
+ref/vigtalent/unkillable	ultimate-intrigue	16	print		
+ref/vigtalent/up-close-and-personal	ultimate-intrigue	17	print		
+ref/discovery/boneshard-bomb	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
+ref/discovery/ectoplasmic-bomb	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
+ref/discovery/phantom-limb	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
+ref/discovery/psychokinetic-tincture	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)

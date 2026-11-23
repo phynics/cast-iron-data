@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moon", path = "json/class_ability_patrons.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "83"
 
 [fields]
 kind = "class_option"
