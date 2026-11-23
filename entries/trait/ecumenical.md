@@ -7,6 +7,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ecumenical", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "3"
 
 [fields]
 kind = "trait"

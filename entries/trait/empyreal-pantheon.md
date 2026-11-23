@@ -7,6 +7,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_pantheon", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "23"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,8 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "born_free", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
 
 [fields]
 kind = "trait"

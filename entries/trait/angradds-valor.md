@@ -7,6 +7,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angradds_valor", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "16"
 
 [fields]
 kind = "trait"
