@@ -7,6 +7,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agent_of_chance", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "218"
+[[sources]]
+publication = "faiths-of-purity"
+page = "20"
 
 [fields]
 kind = "trait"

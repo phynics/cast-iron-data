@@ -7,6 +7,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mock_gladiator", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "16"
 
 [fields]
 kind = "trait"

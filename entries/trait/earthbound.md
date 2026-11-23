@@ -7,6 +7,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthbound", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "11"
 
 [fields]
 kind = "trait"

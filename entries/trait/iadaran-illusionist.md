@@ -7,6 +7,12 @@ source_ids = ["inner-sea-primer", "elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iadaran_illusionist", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "10"
+[[sources]]
+publication = "elves-of-golarion"
+page = "15"
 
 [fields]
 kind = "trait"

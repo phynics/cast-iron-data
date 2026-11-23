@@ -7,6 +7,12 @@ source_ids = ["inner-sea-primer", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chivalrous", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "21"
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "13"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,12 @@ source_ids = ["inner-sea-primer", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dominator", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "5"
+[[sources]]
+publication = "orcs-of-golarion"
+page = "23"
 
 [fields]
 kind = "trait"

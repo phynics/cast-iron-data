@@ -7,6 +7,12 @@ source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artifact_hunter_gs", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "giantslayer-players-guide"
+page = "6"
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "30"
 
 [fields]
 kind = "trait"

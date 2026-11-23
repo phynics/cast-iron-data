@@ -7,6 +7,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_role_model", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "33"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,9 @@ source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_kintargo", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "hells-rebels-players-guide"
+page = "10"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,9 @@ source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ex_iomedaean", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "hells-vengeance-players-guide"
+page = "12"
 
 [fields]
 kind = "trait"

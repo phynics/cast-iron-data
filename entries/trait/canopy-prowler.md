@@ -7,6 +7,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canopy_prowler", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "trait"

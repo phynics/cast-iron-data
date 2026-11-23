@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayed_cotct", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "8"
 
 [fields]
 kind = "trait"
