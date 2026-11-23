@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "blood-of-the-moon"
+page = "13"
 
 [fields]
 kind = "class_option"
