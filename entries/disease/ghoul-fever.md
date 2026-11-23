@@ -27,8 +27,8 @@ kind = "none"
 
 **Cure:** 2 consecutive saves
 
-A humanoid who dies of ghoul fever rises as a [ghoul](ref/monster/ghoul) at the next midnight. A
-humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is
-not under the control of any other ghouls, but it hungers for the flesh of the living and behaves
-like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast (advanced
-ghoul). The save DC is Charisma-based.
+The save DC is Charisma-based. A humanoid who dies of ghoul fever rises as a
+[ghoul](ref/monster/ghoul) at the next midnight. A humanoid who becomes a ghoul in this way retains
+none of the abilities it possessed in life. It is not under the control of any other ghouls, but it
+hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4
+Hit Dice or more rises as a ghast.

@@ -35,11 +35,11 @@ other type can be used on a broad range of spells.
 |[Antiplague](ref/eq-reagent/antiplague)|[Heroes' feast](ref/spell/heroes-feast), [remove disease](ref/spell/remove-disease)|-|
 |[Antitoxin](ref/eq-reagent/antitoxin)|[Neutralize poison](ref/spell/neutralize-poison)|-|
 |[Bladeguard](ref/eq-reagent/bladeguard)|[Wall of iron](ref/spell/wall-of-iron)|-|
-|[Dragon's gut](ref/eq-reagent/dragons-gut)|[Acid arrow](ref/spell/acid-arrow), [acid fog](ref/spell/acid-fog), [acidic spray](ref/spell/acidic-spray)|(see text)|
+|[Dragon's gut](ref/eq-misc/dragons-gut)|[Acid arrow](ref/spell/acid-arrow), [acid fog](ref/spell/acid-fog), [acidic spray](ref/spell/acidic-spray)|(see text)|
 |[Flash Powder](ref/eq-reagent/flash-powder)|[Flare](ref/spell/flare), [pyrotechnics](ref/spell/pyrotechnics)|-|
 |[Itching Powder](ref/eq-reagent/itching-powder)|[Glitterdust](ref/spell/glitterdust), [repel vermin](ref/spell/repel-vermin), [summon swarm](ref/spell/summon-swarm)|-|
 |[Liquid Ice](ref/eq-reagent/liquid-ice)|[Cone of cold](ref/spell/cone-of-cold), [gentle repose](ref/spell/gentle-repose), [ray of frost](ref/spell/ray-of-frost), [protection from energy](ref/spell/protection-from-energy), [resist energy](ref/spell/resist-energy)|_[Ray of frost](ref/spell/ray-of-frost)_|
-|[Odor Stalk](ref/eq-reagent/odor-stalk)|[Ghoul touch](ref/spell/ghoul-touch), [repel vermin](ref/spell/repel-vermin), [stinking cloud](ref/spell/stinking-cloud)|(see text)|
+|[Odor Stalk](ref/eq-misc/odor-stalk)|[Ghoul touch](ref/spell/ghoul-touch), [repel vermin](ref/spell/repel-vermin), [stinking cloud](ref/spell/stinking-cloud)|(see text)|
 |[Smokestick](ref/eq-reagent/smokestick)|[Fog cloud](ref/spell/fog-cloud), [obscuring mist](ref/spell/obscuring-mist), [pyrotechnics](ref/spell/pyrotechnics)|-|
 |[Tanglefoot Bag](ref/eq-reagent/tanglefoot-bag)|[Black tentacles](ref/spell/black-tentacles), [slow](ref/spell/slow), [web](ref/spell/web)|-|
 |[Thunderstone](ref/eq-reagent/thunderstone)|[Alarm](ref/spell/alarm), [glyph of warding](ref/spell/glyph-of-warding)|-|

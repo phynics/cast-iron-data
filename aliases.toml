@@ -4567,7 +4567,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/shared-wrath"
-target = "ref/carried/advanced-players-guide/spells/shared-wrath"
+target = "ref/spell/shared-wrath"
 basis = "carried"
 
 [[entries]]
@@ -4702,7 +4702,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/tireless-pursuers"
-target = "ref/carried/advanced-players-guide/spells/tireless-pursuers"
+target = "ref/spell/tireless-pursuers"
 basis = "carried"
 
 [[entries]]
@@ -14362,7 +14362,7 @@ basis = "direct"
 
 [[entries]]
 old = "bestiary/monsters/dog/dog/dog/rabies"
-target = "ref/carried/bestiary/monsters/dog/dog/dog/rabies"
+target = "ref/disease/rabies"
 basis = "carried"
 
 [[entries]]
@@ -14972,7 +14972,7 @@ basis = "direct"
 
 [[entries]]
 old = "bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
-target = "ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
+target = "ref/disease/ghoul-fever"
 basis = "carried"
 
 [[entries]]
@@ -31381,6 +31381,16 @@ target = "ref/trap/bear-trap"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/advanced-players-guide/spells/shared-wrath"
+target = "ref/spell/shared-wrath"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/tireless-pursuers"
+target = "ref/spell/tireless-pursuers"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/advanced-race-guide/races/aasimars"
 target = "ref/race/aasimar"
 basis = "shared"
@@ -31518,6 +31528,16 @@ basis = "shared"
 [[entries]]
 old = "ref/carried/advanced-race-guide/races/wayangs"
 target = "ref/race/wayang"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/bestiary/monsters/dog/dog/dog/rabies"
+target = "ref/disease/rabies"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
+target = "ref/disease/ghoul-fever"
 basis = "shared"
 
 [[entries]]
@@ -32166,6 +32186,11 @@ target = "ref/spell/water-walk-communal"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
+target = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/arrows"
 target = "ref/eq-weapon/arrow"
 basis = "shared"
@@ -32448,6 +32473,16 @@ basis = "shared"
 [[entries]]
 old = "ref/eq-misc/tear-away-dilettantes-outfit"
 target = "ref/eq-misc/dilettantes-outfit"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-reagent/dragons-gut"
+target = "ref/eq-misc/dragons-gut"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-reagent/odor-stalk"
+target = "ref/eq-misc/odor-stalk"
 basis = "shared"
 
 [[entries]]
@@ -38962,7 +38997,7 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
-target = "ref/carried/ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
+target = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
 basis = "carried"
 
 [[entries]]
