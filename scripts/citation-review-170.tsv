@@ -78,6 +78,9 @@ ref/sorcbloodline/starsoul	class_option	ultimate-magic	marker		paragraph agrees;
 ref/sorcbloodline/stormborn	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/undead	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/verdant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/carried/mythic-adventures/feats/ascendant-spell/mythic	feat	mythic-adventures	heading-form	55	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
+ref/carried/mythic-adventures/feats/marked-for-glory/mythic	feat	mythic-adventures	heading-form	69	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
+ref/carried/mythic-adventures/feats/mythic-companion/mythic	feat	mythic-adventures	heading-form	70	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
 ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan	trait	advanced-players-guide	no-page		
 ref/trait/demon-hunter	trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	cheliax-empire-of-devils	book-differs		the reference lists the entry only in other books

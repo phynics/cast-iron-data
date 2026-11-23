@@ -10,8 +10,6 @@ provenance = [
 [[sources]]
 publication = "advanced-class-origins"
 page = "23"
-[[sources]]
-publication = "inner-sea-npc-codex"
 
 [fields]
 kind = "trait"

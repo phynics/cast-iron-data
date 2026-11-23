@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/quick-draw", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "71"
 
 [fields]
 kind = "feat"

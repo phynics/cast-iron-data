@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/improved-stonecunning", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "67"
 
 [fields]
 kind = "feat"
