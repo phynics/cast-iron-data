@@ -4123,10 +4123,6 @@ entry = "ref/spell/share-senses"
 
 [[books.chapters.children]]
 title = "Shared Wrath"
-entry = "ref/carried/advanced-players-guide/spells/shared-wrath"
-
-[[books.chapters.children]]
-title = "Shared Wrath"
 entry = "ref/spell/shared-wrath"
 
 [[books.chapters.children]]
@@ -4232,10 +4228,6 @@ entry = "ref/spell/thundering-drums"
 [[books.chapters.children]]
 title = "Timely Inspiration"
 entry = "ref/spell/timely-inspiration"
-
-[[books.chapters.children]]
-title = "Tireless Pursuers"
-entry = "ref/carried/advanced-players-guide/spells/tireless-pursuers"
 
 [[books.chapters.children]]
 title = "Tireless Pursuers"

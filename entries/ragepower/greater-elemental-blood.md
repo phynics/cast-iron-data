@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-class-guide"
+page = "80"
 
 [fields]
 kind = "class_option"

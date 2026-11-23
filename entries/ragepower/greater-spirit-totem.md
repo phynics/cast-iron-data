@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
+page = "77"
 
 [fields]
 kind = "class_option"

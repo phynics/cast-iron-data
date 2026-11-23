@@ -593,10 +593,6 @@ entry = "ref/monster/dog"
 
 [[books.chapters.children.children]]
 title = "Rabies"
-entry = "ref/carried/bestiary/monsters/dog/dog/dog/rabies"
-
-[[books.chapters.children.children]]
-title = "Rabies"
 entry = "ref/disease/rabies"
 
 [[books.chapters.children]]
@@ -1206,18 +1202,6 @@ entry = "ref/carried/bestiary/monsters/ghost"
 [[books.chapters.children]]
 title = "Ghoul"
 entry = "ref/monster/ghoul"
-
-[[books.chapters.children.children]]
-title = "Special Abilities"
-anchor = "special-abilities"
-
-[[books.chapters.children.children.children]]
-title = "Disease"
-anchor = "disease"
-
-[[books.chapters.children.children.children.children]]
-title = "Ghoul Fever"
-entry = "ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
 
 [[books.chapters.children.children]]
 title = "Ghoul Fever"

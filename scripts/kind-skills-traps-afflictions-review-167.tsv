@@ -157,7 +157,8 @@ ref/disease/final-rest	kind	rule	affliction	disease		Numeria, Land of Fallen Sta
 ref/disease/firegut	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/fungal-flu	kind	rule	affliction	disease		Pathfinder #13: Shadow in the Sky p. 81	first word of the printed `Type` line
 ref/disease/ghoul-fever	kind	rule	affliction	disease		Bestiary p. 146	first word of the printed `Type` line
-ref/disease/ghoul-fever	variant				ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever	alias	affliction			ref/disease/ghoul-fever	Bestiary p. 146	owner ruling of 2026-11-23 (#267): kept ref/disease/ghoul-fever; the Bestiary prints the disease once, so the carried entry is no second printing
+ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever	book-node-removed				bestiary		the kept entry already has a node in this book
 ref/disease/glacier-plague	kind	rule	affliction	disease		Irrisen - Land of Eternal Winter p. 48	first word of the printed `Type` line
 ref/disease/green-haze	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/greenscale	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
@@ -170,7 +171,8 @@ ref/disease/pallid-gift	kind	rule	affliction	disease		Villain Codex	first word o
 ref/disease/pulsing-puffs	kind	rule	affliction	disease		Heart of the Jungle p. 8	first word of the printed `Type` line
 ref/disease/pulsing-puffs	variant				ref/affliction/polevik/pulsing-puffs		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/rabies	kind	rule	affliction	disease		Bestiary p. 87	first word of the printed `Type` line
-ref/disease/rabies	variant				ref/carried/bestiary/monsters/dog/dog/dog/rabies		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/carried/bestiary/monsters/dog/dog/dog/rabies	alias	affliction			ref/disease/rabies	Bestiary p. 87	owner ruling of 2026-11-23 (#267): kept ref/disease/rabies; the Bestiary prints the disease once, so the carried entry is no second printing
+ref/carried/bestiary/monsters/dog/dog/dog/rabies	book-node-removed				bestiary		the kept entry already has a node in this book
 ref/disease/red-ache	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
 ref/disease/red-ache	variant				ref/affliction/tick-giant-tick/red-ache		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/red-drip	kind	rule	affliction	disease		Undead Unleashed p. 63	first word of the printed `Type` line

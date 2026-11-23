@@ -15,8 +15,10 @@ publication = "inner-sea-races"
 page = "237"
 [[sources]]
 publication = "core-rulebook"
+page = "23"
 [[sources]]
 publication = "advanced-race-guide"
+page = "30"
 
 [fields]
 kind = "racial_trait"

@@ -9,7 +9,6 @@ ref/affliction/bogwid/bogwid-fever	affliction	pathfinder-62-curse-of-the-ladys-l
 ref/affliction/bolla/bolla-lethargy	affliction	pathfinder-136-temple-of-the-peacock-spirit	coarse	88	the proposal is a section or parent page
 ref/affliction/bramblelash/tropical-bramblelash-poison	affliction	pathfinder-115-trail-of-the-hunted	coarse	84	the proposal is a section or parent page
 ref/affliction/cerberi/cerberuss-jaws-su	affliction	pathfinder-28-the-infernal-syndrome	coarse	84	the proposal is a section or parent page
-ref/affliction/cunning/basic-poison	affliction	pathfinder-unchained	no-page		
 ref/affliction/daemon-lacridaemon/lacridaemon-poison	affliction	bestiary-6	no-page		
 ref/affliction/daemon-lacridaemon/lacridaemon-poison	affliction	book-of-the-damned-volume-3-horsemen-of-the-apocalypse	no-page		
 ref/affliction/daemonic-harbinger-braismois/poison-1-broken-oath	affliction	druma-profit-and-prophecy	no-page		
@@ -42,10 +41,7 @@ ref/affliction/kallas-devil/evil-eye-curse	affliction	fey-revisited	coarse	32	th
 ref/affliction/kyton-cantor/lingering-touch	affliction	occult-bestiary	no-page		
 ref/affliction/kyton-termagant/flux-infusion	affliction	inner-sea-bestiary	no-page		
 ref/affliction/mana-wastes-mutant/mana-fever	affliction	inner-sea-bestiary	no-page		
-ref/affliction/me-pit-fiend/disease	affliction	pathfinder-unchained	no-page		
-ref/affliction/me-pit-fiend/poison	affliction	pathfinder-unchained	no-page		
 ref/affliction/merlucent/vitrify	affliction	pathfinder-104-wrath-of-thrune	coarse	90	the proposal is a section or parent page
-ref/affliction/monstrous/basic-disease	affliction	pathfinder-unchained	no-page		
 ref/affliction/moxix/moxixs-delectation	affliction	inner-sea-bestiary	coarse	32	the proposal is a section or parent page
 ref/affliction/ningyo-undead-ningyo/ningyo-flesh	affliction	pathfinder-37-souls-for-smugglers-shiv	coarse	80	the proposal is a section or parent page
 ref/affliction/ningyo/ningyo-flesh	affliction	pathfinder-37-souls-for-smugglers-shiv	coarse	80	the proposal is a section or parent page
@@ -68,9 +64,6 @@ ref/affliction/seeded/seedborne-consumption-su	affliction	pathfinder-113-what-gr
 ref/affliction/sha/touch-of-madness	affliction	pathfinder-80-empty-graves	coarse	86	the proposal is a section or parent page
 ref/affliction/spark-nettle/levitation-poison	affliction	pathfinder-36-sound-of-a-thousand-screams	no-page		
 ref/affliction/sphinx-cynosphinx/carrion-fever	affliction	pathfinder-82-secrets-of-the-sphinx	no-page		
-ref/affliction/standard-offensive-traits/life-stealing-venom	affliction	advanced-race-guide	no-page		
-ref/affliction/standard-offensive-traits/paralytic-venom	affliction	advanced-race-guide	no-page		
-ref/affliction/standard-offensive-traits/weakening-venom	affliction	advanced-race-guide	no-page		
 ref/affliction/stygira/stone-curse	affliction	pathfinder-33-the-varnhold-vanishing	coarse	88	the proposal is a section or parent page
 ref/affliction/tatzlwyrm/tatzlwyrm-poison	affliction	hollows-last-hope	coarse	18	the proposal is a section or parent page
 ref/affliction/tatzlwyrm/tatzlwyrm-poison	affliction	pathfinder-31-stolen-land	coarse	82	the proposal is a section or parent page
@@ -88,12 +81,6 @@ ref/affliction/wendigo/wendigo-psychosis-su	affliction	pathfinder-6-spires-of-xi
 ref/affliction/xacarba/fiendish-bile	affliction	pathfinder-18-descent-into-midnight	coarse	88	the proposal is a section or parent page
 ref/affliction/xacarba/mysterious-blood	affliction	pathfinder-18-descent-into-midnight	coarse	88	the proposal is a section or parent page
 ref/affliction/xacarba/vile-disjunction	affliction	pathfinder-18-descent-into-midnight	coarse	88	the proposal is a section or parent page
-ref/carried/advanced-players-guide/spells/transmute-potion-to-poison/transmuted-poisons/0-level-potion-poison	affliction	advanced-players-guide	no-page		
-ref/carried/advanced-players-guide/spells/transmute-potion-to-poison/transmuted-poisons/1st-level-potion-poison	affliction	advanced-players-guide	no-page		
-ref/carried/advanced-players-guide/spells/transmute-potion-to-poison/transmuted-poisons/2nd-level-potion-poison	affliction	advanced-players-guide	no-page		
-ref/carried/advanced-players-guide/spells/transmute-potion-to-poison/transmuted-poisons/3rd-level-potion-poison	affliction	advanced-players-guide	no-page		
-ref/carried/advanced-race-guide/races/duergar/new-racial-rules/duergar-equipment/spellscorch/spellscorch	affliction	advanced-race-guide	unconfirmed	1	proposed page 1 is not credible and the title is not on it or the two pages after it
-ref/carried/core-rulebook/rules/glossary/special-abilities/poison/burnt-othur-fumes	affliction	core-rulebook	no-page		
 ref/carried/game-mastery-guide/rules/drugs-and-addiction/addiction/minor-addiction	affliction	game-mastery-guide	no-page		
 ref/carried/game-mastery-guide/rules/drugs-and-addiction/addiction/moderate-addiction	affliction	game-mastery-guide	no-page		
 ref/carried/game-mastery-guide/rules/drugs-and-addiction/addiction/severe-addiction	affliction	game-mastery-guide	no-page		
@@ -105,31 +92,19 @@ ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-
 ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/multiple-personality-disorder	affliction	game-mastery-guide	no-page		
 ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/paranoia	affliction	game-mastery-guide	no-page		
 ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis	affliction	game-mastery-guide	no-page		
-ref/discovery/acid-bomb	class_option	advanced-players-guide	unconfirmed	29	only a short title is on the proposed page, which proves little
 ref/discovery/alchemical-strike	class_option	magic-tactics-toolbox	coarse	12	the proposal is a section or parent page
 ref/discovery/confusion-bomb	class_option	ultimate-magic	unconfirmed	15	only a short title is on the proposed page, which proves little
 ref/discovery/cursed-bomb	class_option	champions-of-corruption	unconfirmed	26	only a short title is on the proposed page, which proves little
-ref/discovery/darkness-bomb	class_option	advanced-race-guide	unconfirmed	205	only a short title is on the proposed page, which proves little
-ref/discovery/defoliant-bomb	class_option	advanced-race-guide	unconfirmed	44	only a short title is on the proposed page, which proves little
-ref/discovery/explosive-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
-ref/discovery/force-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
-ref/discovery/frost-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
-ref/discovery/glassfoot-bomb	class_option	advanced-race-guide	unconfirmed	205	only a short title is on the proposed page, which proves little
 ref/discovery/greater-change-alignment	class_option	champions-of-purity	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/discovery/grounding-goo	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
 ref/discovery/holy-bombs	class_option	champions-of-purity	unconfirmed	24	only a short title is on the proposed page, which proves little
-ref/discovery/inferno-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
 ref/discovery/ooze-blight	class_option	monster-hunters-handbook	unconfirmed	17	only a short title is on the proposed page, which proves little
-ref/discovery/poison-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
 ref/discovery/profane-bomb	class_option	champions-of-corruption	unconfirmed	26	only a short title is on the proposed page, which proves little
 ref/discovery/ranged-baptism	class_option	champions-of-purity	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/discovery/remedy-extract	class_option	healers-handbook	no-page		
 ref/discovery/sand-bomb	class_option	antiheros-handbook	unconfirmed	29	only a short title is on the proposed page, which proves little
-ref/discovery/shock-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
 ref/discovery/siege-bomb	class_option	ultimate-combat	unconfirmed	24	only a short title is on the proposed page, which proves little
-ref/discovery/smoke-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
 ref/discovery/solid-ground	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
-ref/discovery/stink-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
 ref/discovery/thorny-bomb	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
 ref/domain/air	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
 ref/domain/animal	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
@@ -190,23 +165,11 @@ ref/domain/water	class_option	inner-sea-gods	marker		paragraph agrees; it ends t
 ref/domain/weather	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
 ref/eidolon/aberrant	class_option	horror-realms	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/aeon	class_option	plane-hoppers-handbook	unconfirmed	24	only a short title is on the proposed page, which proves little
-ref/eidolon/agathion	class_option	pathfinder-unchained	unconfirmed	29	the name is a heading only on page 214, far from the proposed page 29; which one prints the option is not settled
-ref/eidolon/angel	class_option	pathfinder-unchained	unconfirmed	30	only a short title is on the proposed page, which proves little
-ref/eidolon/archon	class_option	pathfinder-unchained	unconfirmed	30	only a short title is on the proposed page, which proves little
 ref/eidolon/astral	class_option	plane-hoppers-handbook	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/azata	class_option	pathfinder-unchained	unconfirmed	30	only a short title is on the proposed page, which proves little
-ref/eidolon/daemon	class_option	pathfinder-unchained	unconfirmed	31	only a short title is on the proposed page, which proves little
 ref/eidolon/deepwater	class_option	blood-of-the-sea	unconfirmed	23	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/demon	class_option	pathfinder-unchained	unconfirmed	31	the name is a heading only on page 215, far from the proposed page 31; which one prints the option is not settled
-ref/eidolon/devil	class_option	pathfinder-unchained	unconfirmed	32	only a short title is on the proposed page, which proves little
-ref/eidolon/div	class_option	pathfinder-unchained	unconfirmed	32	the name is a heading only on page 215, far from the proposed page 32; which one prints the option is not settled
-ref/eidolon/elemental	class_option	pathfinder-unchained	unconfirmed	33	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/genie	class_option	elemental-masters-handbook	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/inevitable	class_option	pathfinder-unchained	unconfirmed	33	only a short title is on the proposed page, which proves little
 ref/eidolon/kami	class_option	wilderness-origins	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/plant	class_option	ultimate-wilderness	unconfirmed	95	the name is a heading only on page 17, far from the proposed page 95; which one prints the option is not settled
-ref/eidolon/protean	class_option	pathfinder-unchained	unconfirmed	33	the name is a heading only on page 215, far from the proposed page 33; which one prints the option is not settled
-ref/eidolon/psychopomp	class_option	pathfinder-unchained	unconfirmed	34	the name is a heading only on page 215, far from the proposed page 34; which one prints the option is not settled
 ref/eidolon/radiant	class_option	plane-hoppers-handbook	unconfirmed	25	only a short title is on the proposed page, which proves little
 ref/eidolon/storykin	class_option	plane-hoppers-handbook	unconfirmed	26	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/twinned	class_option	legacy-of-the-first-world	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -232,13 +195,8 @@ ref/invtalent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the prop
 ref/invtalent/greater-numerical-alchemy	class_option	disciples-doctrine	unconfirmed	17	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/invtalent/iconclastic-strike	class_option	inner-sea-intrigue	unconfirmed	31	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/invtalent/masterful-numerical-strike	class_option	disciples-doctrine	no-page		
-ref/invtalent/repositioning-strike	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/invtalent/sapping-offensive	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/invtalent/sickening-offensive	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/invtalent/slowing-strike	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
-ref/invtalent/stealing-strike	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/invtalent/timed-strike	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
-ref/invtalent/toppling-strike	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ninjatrick/advanced-talent	class_option	ultimate-combat	unconfirmed	16	the name is a heading only on page 32, far from the proposed page 16; which one prints the option is not settled
 ref/ninjatrick/breath-of-the-ancestors	class_option	legacy-of-dragons	unconfirmed	22	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ninjatrick/deflect-arrows	class_option	ultimate-combat	unconfirmed	15	only a short title is on the proposed page, which proves little
@@ -249,76 +207,32 @@ ref/oraclecurse/pranked	class_option	legacy-of-the-first-world	unconfirmed	10	on
 ref/oraclecurse/reclusive	class_option	legacy-of-the-first-world	unconfirmed	22	only a short title is on the proposed page, which proves little
 ref/patron/aurora	class_option	paths-of-the-righteous	unconfirmed	31	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/patron/nightmares	class_option	horror-adventures	book-differs		the reference lists the entry only in other books
-ref/performance/countersong	class_option	core-rulebook	no-page		
-ref/performance/deadly-performance	class_option	core-rulebook	no-page		
-ref/performance/dirge-of-doom	class_option	core-rulebook	no-page		
 ref/performance/distraction	class_option	core-rulebook	book-differs		the reference lists the entry only in other books
-ref/performance/fascinate	class_option	core-rulebook	no-page		
-ref/performance/frightening-tune	class_option	core-rulebook	no-page		
-ref/performance/inspire-competence	class_option	core-rulebook	no-page		
-ref/performance/inspire-courage	class_option	core-rulebook	no-page		
-ref/performance/inspire-greatness	class_option	core-rulebook	no-page		
-ref/performance/inspire-heroics	class_option	core-rulebook	no-page		
-ref/performance/mass-suggestion	class_option	core-rulebook	no-page		
-ref/performance/soothing-performance	class_option	core-rulebook	no-page		
-ref/performance/suggestion	class_option	core-rulebook	no-page		
 ref/phrenicamp/complex-countermeasures	class_option	occult-adventures	unconfirmed	60	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/phrenicamp/dragons-breath	class_option	occult-origins	unconfirmed	16	only a short title is on the proposed page, which proves little
 ref/ragepower/armor-ripper	class_option	blood-of-the-moon	unconfirmed	13	only a short title is on the proposed page, which proves little
-ref/ragepower/cairn-linnorm-death-curse	class_option	advanced-class-guide	no-page		
-ref/ragepower/crag-linnorm-death-curse	class_option	advanced-class-guide	no-page		
-ref/ragepower/fjord-linnorm-death-curse	class_option	advanced-class-guide	no-page		
 ref/ragepower/flight-response	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-abyssal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-air-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ancestor-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-atavism-totem	class_option	villain-codex	unconfirmed	140	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-beast-totem	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-brawler	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-celestial-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-celestial-totem	class_option	champions-of-purity	unconfirmed	22	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-chaos-totem	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-cult-totem	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-daemon-totem	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-draconic-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-earth-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-eclipsing-rage	class_option	ultimate-wilderness	unconfirmed	36	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-elemental-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-elemental-rage	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-erratic-charge	class_option	villain-codex	unconfirmed	176	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ferocious-beast	class_option	animal-archive	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-ferocious-mount	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-ferocious-trample	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-fey-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-fiend-totem	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-fire-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ground-breaker	class_option	ultimate-combat	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-guarded-life	class_option	ultimate-combat	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-hurling	class_option	advanced-players-guide	unconfirmed	76	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-infernal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-moon-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-spire-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-spirit-totem	class_option	advanced-players-guide	unconfirmed	77	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-suffocating-grip	class_option	legacy-of-the-first-world	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-sun-totem	class_option	qadira-jewel-of-the-east	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-tyrant-totem	class_option	ultimate-wilderness	unconfirmed	36	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-undead-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-water-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/ice-linnorm-death-curse	class_option	advanced-class-guide	no-page		
-ref/ragepower/lesser-abyssal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/lesser-atavism-totem	class_option	villain-codex	unconfirmed	140	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/lesser-celestial-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/lesser-celestial-totem	class_option	champions-of-purity	unconfirmed	22	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/lesser-draconic-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/lesser-elemental-rage	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/lesser-fey-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/lesser-hurling	class_option	advanced-players-guide	unconfirmed	76	only a short title is on the proposed page, which proves little
-ref/ragepower/lesser-infernal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/lesser-undead-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/quick-reflexes	class_option	core-rulebook	unconfirmed	33	only a short title is on the proposed page, which proves little
-ref/ragepower/taiga-linnorm-death-curse	class_option	advanced-class-guide	no-page		
-ref/ragepower/tarn-linnorm-death-curse	class_option	advanced-class-guide	no-page		
-ref/ragepower/tor-linnorm-death-curse	class_option	advanced-class-guide	no-page		
 ref/rangertrap/acid-trap	class_option	kobolds-of-golarion	unconfirmed	20	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/rangertrap/anchoring-trap	class_option	demon-hunters-handbook	unconfirmed	11	only a short title is on the proposed page, which proves little
 ref/rangertrap/cleansing-trap	class_option	people-of-the-wastes	unconfirmed	17	only a short title is on the proposed page, which proves little
@@ -328,7 +242,6 @@ ref/rangertrap/tar-trap	class_option	kobolds-of-golarion	unconfirmed	21	only a s
 ref/rangertrap/telepathy-trap	class_option	demon-hunters-handbook	unconfirmed	11	only a short title is on the proposed page, which proves little
 ref/rangertrap/tripwire	class_option	kobolds-of-golarion	unconfirmed	21	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/slayertalent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
-ref/slayertalent/slowing-strike	class_option	advanced-class-guide	unconfirmed	53	only a short title is on the proposed page, which proves little
 ref/sorcbloodline/aberrant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/abyssal	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/aquatic	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
@@ -352,28 +265,17 @@ ref/sorcbloodline/stormborn	class_option	ultimate-magic	marker		paragraph agrees
 ref/sorcbloodline/undead	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/verdant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/talent/armor-piercer	class_option	monster-hunters-handbook	unconfirmed	9	only a short title is on the proposed page, which proves little
-ref/talent/befuddling-strike	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/camouflage	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/climbing-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/confounding-blades	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/deadly-sneak	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/disabling-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/entanglement-of-blades	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/escaping-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/expert-cypher	class_option	divine-anthology	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/flying-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
-ref/talent/greater-multitalented	class_option	pathfinder-unchained	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/greater-terrain-mastery	class_option	pathfinder-unchained	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/grit	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/ki-pool	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/master-of-disguise	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/offensive-defense	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/powerful-sneak	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/riding-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/sleight-of-hand-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/slow-reactions	class_option	core-rulebook	unconfirmed	68	only a short title is on the proposed page, which proves little
-ref/talent/survivalist	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/swimming-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/underhanded	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/vigtalent/environmental-weapon	class_option	ultimate-intrigue	unconfirmed	14	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -386,8 +288,6 @@ ref/carried/mythic-adventures/feats/ascendant-spell/mythic	feat	mythic-adventure
 ref/carried/mythic-adventures/feats/marked-for-glory/mythic	feat	mythic-adventures	heading-form	69	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
 ref/carried/mythic-adventures/feats/mythic-companion/mythic	feat	mythic-adventures	heading-form	70	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
 ref/racial-trait/dwarf/attributes	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/dwarf/attributes	racial_trait	advanced-race-guide	coarse	10	the proposal is a section or parent page
-ref/racial-trait/dwarf/attributes	racial_trait	core-rulebook	coarse	21	the proposal is a section or parent page
 ref/racial-trait/dwarf/attributes	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/attributes	racial_trait	legacy-of-dragons	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/attributes	racial_trait	occult-adventures	book-differs		the reference lists the entry only in other books
@@ -395,7 +295,6 @@ ref/racial-trait/dwarf/attributes	racial_trait	ultimate-intrigue	book-differs		t
 ref/racial-trait/dwarf/attributes	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/darkvision	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/darkvision	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/dwarf/darkvision	racial_trait	advanced-race-guide	coarse	10	the proposal is a section or parent page
 ref/racial-trait/dwarf/darkvision	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/darkvision	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/darkvision	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
@@ -408,13 +307,11 @@ ref/racial-trait/dwarf/darkvision	racial_trait	rival-guide	book-differs		the ref
 ref/racial-trait/dwarf/darkvision	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/darkvision	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/defensive-training	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/dwarf/defensive-training	racial_trait	advanced-race-guide	coarse	10	the proposal is a section or parent page
 ref/racial-trait/dwarf/defensive-training	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/defensive-training	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/defensive-training	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/defensive-training	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/greed	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/dwarf/greed	racial_trait	advanced-race-guide	coarse	10	the proposal is a section or parent page
 ref/racial-trait/dwarf/greed	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/greed	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/greed	racial_trait	heroes-of-the-wild	book-differs		the reference lists the entry only in other books
@@ -424,7 +321,6 @@ ref/racial-trait/dwarf/greed	racial_trait	occult-adventures	book-differs		the re
 ref/racial-trait/dwarf/greed	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/hardy	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/hardy	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/dwarf/hardy	racial_trait	advanced-race-guide	coarse	10	the proposal is a section or parent page
 ref/racial-trait/dwarf/hardy	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/hardy	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/hardy	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
@@ -436,7 +332,6 @@ ref/racial-trait/dwarf/hardy	racial_trait	ultimate-intrigue	book-differs		the re
 ref/racial-trait/dwarf/hardy	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/hatred	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/hatred	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/dwarf/hatred	racial_trait	advanced-race-guide	coarse	10	the proposal is a section or parent page
 ref/racial-trait/dwarf/hatred	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/hatred	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/hatred	racial_trait	heroes-of-the-streets	book-differs		the reference lists the entry only in other books
@@ -447,7 +342,6 @@ ref/racial-trait/dwarf/hatred	racial_trait	rival-guide	book-differs		the referen
 ref/racial-trait/dwarf/hatred	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/languages	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/languages	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/dwarf/languages	racial_trait	advanced-race-guide	coarse	10	the proposal is a section or parent page
 ref/racial-trait/dwarf/languages	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/languages	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/languages	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
@@ -477,7 +371,6 @@ ref/racial-trait/dwarf/medium	racial_trait	ultimate-wilderness	book-differs		the
 ref/racial-trait/dwarf/slow-and-steady	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/stability	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/stability	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/dwarf/stability	racial_trait	advanced-race-guide	coarse	10	the proposal is a section or parent page
 ref/racial-trait/dwarf/stability	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/stability	racial_trait	heroes-of-the-streets	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/stability	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
@@ -485,7 +378,6 @@ ref/racial-trait/dwarf/stability	racial_trait	legacy-of-dragons	book-differs		th
 ref/racial-trait/dwarf/stability	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/stability	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/stonecunning	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/dwarf/stonecunning	racial_trait	advanced-race-guide	coarse	10	the proposal is a section or parent page
 ref/racial-trait/dwarf/stonecunning	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/stonecunning	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/stonecunning	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
@@ -504,8 +396,6 @@ ref/racial-trait/dwarf/weapon-familiarity	racial_trait	legacy-of-the-first-world
 ref/racial-trait/dwarf/weapon-familiarity	racial_trait	rival-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/dwarf/weapon-familiarity	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/attributes	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/elf/attributes	racial_trait	advanced-race-guide	coarse	20	the proposal is a section or parent page
-ref/racial-trait/elf/attributes	racial_trait	core-rulebook	coarse	22	the proposal is a section or parent page
 ref/racial-trait/elf/attributes	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/attributes	racial_trait	legacy-of-dragons	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/attributes	racial_trait	occult-adventures	book-differs		the reference lists the entry only in other books
@@ -513,7 +403,6 @@ ref/racial-trait/elf/attributes	racial_trait	pathfinder-124-city-in-the-deep	boo
 ref/racial-trait/elf/attributes	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/attributes	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/elven-immunities	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/elf/elven-immunities	racial_trait	advanced-race-guide	coarse	20	the proposal is a section or parent page
 ref/racial-trait/elf/elven-immunities	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/elven-immunities	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/elven-immunities	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
@@ -522,14 +411,12 @@ ref/racial-trait/elf/elven-immunities	racial_trait	legacy-of-the-first-world	boo
 ref/racial-trait/elf/elven-immunities	racial_trait	pathfinder-124-city-in-the-deep	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/elven-magic	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/elven-magic	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/elf/elven-magic	racial_trait	advanced-race-guide	coarse	20	the proposal is a section or parent page
 ref/racial-trait/elf/elven-magic	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/elven-magic	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/elven-magic	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/elven-magic	racial_trait	legacy-of-the-first-world	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/elven-magic	racial_trait	pathfinder-124-city-in-the-deep	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/keen-senses	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/elf/keen-senses	racial_trait	advanced-race-guide	coarse	20	the proposal is a section or parent page
 ref/racial-trait/elf/keen-senses	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/keen-senses	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/keen-senses	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
@@ -556,7 +443,6 @@ ref/racial-trait/elf/languages	racial_trait	ultimate-intrigue	book-differs		the 
 ref/racial-trait/elf/languages	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/low-light-vision	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/low-light-vision	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/elf/low-light-vision	racial_trait	advanced-race-guide	coarse	20	the proposal is a section or parent page
 ref/racial-trait/elf/low-light-vision	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/low-light-vision	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/low-light-vision	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
@@ -592,7 +478,6 @@ ref/racial-trait/elf/normal-speed	racial_trait	occult-adventures	book-differs		t
 ref/racial-trait/elf/normal-speed	racial_trait	pathfinder-124-city-in-the-deep	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/normal-speed	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/weapon-familiarity	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/elf/weapon-familiarity	racial_trait	advanced-race-guide	coarse	20	the proposal is a section or parent page
 ref/racial-trait/elf/weapon-familiarity	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/weapon-familiarity	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/weapon-familiarity	racial_trait	heroes-of-the-streets	book-differs		the reference lists the entry only in other books
@@ -603,8 +488,6 @@ ref/racial-trait/elf/weapon-familiarity	racial_trait	legacy-of-the-first-world	b
 ref/racial-trait/elf/weapon-familiarity	racial_trait	pathfinder-124-city-in-the-deep	book-differs		the reference lists the entry only in other books
 ref/racial-trait/elf/weapon-familiarity	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/attributes	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/gnome/attributes	racial_trait	advanced-race-guide	coarse	30	the proposal is a section or parent page
-ref/racial-trait/gnome/attributes	racial_trait	core-rulebook	coarse	23	the proposal is a section or parent page
 ref/racial-trait/gnome/attributes	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/attributes	racial_trait	legacy-of-dragons	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/attributes	racial_trait	occult-adventures	book-differs		the reference lists the entry only in other books
@@ -616,7 +499,6 @@ ref/racial-trait/gnome/defensive-training	racial_trait	heroes-from-the-fringe	bo
 ref/racial-trait/gnome/defensive-training	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/defensive-training	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/gnome-magic	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/gnome/gnome-magic	racial_trait	advanced-race-guide	coarse	30	the proposal is a section or parent page
 ref/racial-trait/gnome/gnome-magic	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/gnome-magic	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/gnome-magic	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
@@ -625,7 +507,6 @@ ref/racial-trait/gnome/gnome-magic	racial_trait	legacy-of-the-first-world	book-d
 ref/racial-trait/gnome/gnome-magic	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/hatred	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/hatred	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/gnome/hatred	racial_trait	advanced-race-guide	coarse	30	the proposal is a section or parent page
 ref/racial-trait/gnome/hatred	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/hatred	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/hatred	racial_trait	heroes-of-the-streets	book-differs		the reference lists the entry only in other books
@@ -635,14 +516,12 @@ ref/racial-trait/gnome/hatred	racial_trait	occult-adventures	book-differs		the r
 ref/racial-trait/gnome/hatred	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/illusion-resistance	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/illusion-resistance	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/gnome/illusion-resistance	racial_trait	advanced-race-guide	coarse	30	the proposal is a section or parent page
 ref/racial-trait/gnome/illusion-resistance	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/illusion-resistance	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/illusion-resistance	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/illusion-resistance	racial_trait	legacy-of-the-first-world	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/illusion-resistance	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/keen-senses	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/gnome/keen-senses	racial_trait	advanced-race-guide	coarse	30	the proposal is a section or parent page
 ref/racial-trait/gnome/keen-senses	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/keen-senses	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/keen-senses	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
@@ -679,7 +558,6 @@ ref/racial-trait/gnome/low-light-vision	racial_trait	ultimate-intrigue	book-diff
 ref/racial-trait/gnome/low-light-vision	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/obsessive	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/obsessive	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/gnome/obsessive	racial_trait	advanced-race-guide	coarse	30	the proposal is a section or parent page
 ref/racial-trait/gnome/obsessive	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/obsessive	racial_trait	heroes-of-the-streets	book-differs		the reference lists the entry only in other books
 ref/racial-trait/gnome/obsessive	racial_trait	heroes-of-the-wild	book-differs		the reference lists the entry only in other books
@@ -723,9 +601,7 @@ ref/racial-trait/half-elf/adaptability	racial_trait	occult-adventures	book-diffe
 ref/racial-trait/half-elf/adaptability	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-elf/adaptability	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-elf/attributes	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/half-elf/attributes	racial_trait	advanced-race-guide	coarse	40	the proposal is a section or parent page
 ref/racial-trait/half-elf/attributes	racial_trait	bastards-of-golarion	book-differs		the reference lists the entry only in other books
-ref/racial-trait/half-elf/attributes	racial_trait	core-rulebook	coarse	24	the proposal is a section or parent page
 ref/racial-trait/half-elf/attributes	racial_trait	darklands-revisited	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-elf/attributes	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-elf/attributes	racial_trait	legacy-of-dragons	book-differs		the reference lists the entry only in other books
@@ -814,10 +690,8 @@ ref/racial-trait/half-elf/normal-speed	racial_trait	horror-adventures	book-diffe
 ref/racial-trait/half-elf/normal-speed	racial_trait	occult-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-elf/normal-speed	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/attributes	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/half-orc/attributes	racial_trait	advanced-race-guide	coarse	50	the proposal is a section or parent page
 ref/racial-trait/half-orc/attributes	racial_trait	agents-of-evil	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/attributes	racial_trait	bastards-of-golarion	book-differs		the reference lists the entry only in other books
-ref/racial-trait/half-orc/attributes	racial_trait	core-rulebook	coarse	25	the proposal is a section or parent page
 ref/racial-trait/half-orc/attributes	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/attributes	racial_trait	legacy-of-dragons	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/attributes	racial_trait	occult-adventures	book-differs		the reference lists the entry only in other books
@@ -825,7 +699,6 @@ ref/racial-trait/half-orc/attributes	racial_trait	ultimate-intrigue	book-differs
 ref/racial-trait/half-orc/attributes	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/darkvision	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/darkvision	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/half-orc/darkvision	racial_trait	advanced-race-guide	coarse	50	the proposal is a section or parent page
 ref/racial-trait/half-orc/darkvision	racial_trait	agents-of-evil	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/darkvision	racial_trait	bastards-of-golarion	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/darkvision	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
@@ -894,7 +767,6 @@ ref/racial-trait/half-orc/orc-blood	racial_trait	advanced-players-guide	book-dif
 ref/racial-trait/half-orc/orc-blood	racial_trait	bastards-of-golarion	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/orc-blood	racial_trait	occult-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/orc-ferocity	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/half-orc/orc-ferocity	racial_trait	advanced-race-guide	coarse	50	the proposal is a section or parent page
 ref/racial-trait/half-orc/orc-ferocity	racial_trait	agents-of-evil	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/orc-ferocity	racial_trait	bastards-of-golarion	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/orc-ferocity	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
@@ -905,7 +777,6 @@ ref/racial-trait/half-orc/orc-ferocity	racial_trait	horror-adventures	book-diffe
 ref/racial-trait/half-orc/orc-ferocity	racial_trait	legacy-of-dragons	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/orc-ferocity	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/weapon-familiarity	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/half-orc/weapon-familiarity	racial_trait	advanced-race-guide	coarse	50	the proposal is a section or parent page
 ref/racial-trait/half-orc/weapon-familiarity	racial_trait	bastards-of-golarion	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/weapon-familiarity	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/weapon-familiarity	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
@@ -916,8 +787,6 @@ ref/racial-trait/half-orc/weapon-familiarity	racial_trait	legacy-of-dragons	book
 ref/racial-trait/half-orc/weapon-familiarity	racial_trait	legacy-of-the-first-world	book-differs		the reference lists the entry only in other books
 ref/racial-trait/half-orc/weapon-familiarity	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/attributes	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/halfling/attributes	racial_trait	advanced-race-guide	coarse	60	the proposal is a section or parent page
-ref/racial-trait/halfling/attributes	racial_trait	core-rulebook	coarse	26	the proposal is a section or parent page
 ref/racial-trait/halfling/attributes	racial_trait	halflings-of-golarion	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/attributes	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/attributes	racial_trait	legacy-of-dragons	book-differs		the reference lists the entry only in other books
@@ -938,7 +807,6 @@ ref/racial-trait/halfling/fearless	racial_trait	ultimate-wilderness	book-differs
 ref/racial-trait/halfling/halfling-luck	racial_trait	halflings-of-golarion	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/halfling-luck	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/keen-senses	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/halfling/keen-senses	racial_trait	advanced-race-guide	coarse	60	the proposal is a section or parent page
 ref/racial-trait/halfling/keen-senses	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/keen-senses	racial_trait	halflings-of-golarion	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/keen-senses	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
@@ -951,7 +819,6 @@ ref/racial-trait/halfling/keen-senses	racial_trait	legacy-of-the-first-world	boo
 ref/racial-trait/halfling/keen-senses	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/languages	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/languages	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/halfling/languages	racial_trait	advanced-race-guide	coarse	60	the proposal is a section or parent page
 ref/racial-trait/halfling/languages	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/languages	racial_trait	halflings-of-golarion	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/languages	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
@@ -981,7 +848,6 @@ ref/racial-trait/halfling/small	racial_trait	occult-adventures	book-differs		the
 ref/racial-trait/halfling/small	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/small	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/sure-footed	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/halfling/sure-footed	racial_trait	advanced-race-guide	coarse	60	the proposal is a section or parent page
 ref/racial-trait/halfling/sure-footed	racial_trait	halflings-of-golarion	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/sure-footed	racial_trait	heroes-from-the-fringe	book-differs		the reference lists the entry only in other books
 ref/racial-trait/halfling/sure-footed	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
@@ -1000,8 +866,6 @@ ref/racial-trait/halfling/weapon-familiarity	racial_trait	legacy-of-the-first-wo
 ref/racial-trait/halfling/weapon-familiarity	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/attributes	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/attributes	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/human/attributes	racial_trait	advanced-race-guide	coarse	70	the proposal is a section or parent page
-ref/racial-trait/human/attributes	racial_trait	core-rulebook	coarse	27	the proposal is a section or parent page
 ref/racial-trait/human/attributes	racial_trait	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/attributes	racial_trait	legacy-of-dragons	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/attributes	racial_trait	occult-adventures	book-differs		the reference lists the entry only in other books
@@ -1009,7 +873,6 @@ ref/racial-trait/human/attributes	racial_trait	ultimate-intrigue	book-differs		t
 ref/racial-trait/human/attributes	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/bonus-feat	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/bonus-feat	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/human/bonus-feat	racial_trait	advanced-race-guide	coarse	70	the proposal is a section or parent page
 ref/racial-trait/human/bonus-feat	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/bonus-feat	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/bonus-feat	racial_trait	heroes-of-the-streets	book-differs		the reference lists the entry only in other books
@@ -1052,7 +915,6 @@ ref/racial-trait/human/normal-speed	racial_trait	occult-adventures	book-differs	
 ref/racial-trait/human/normal-speed	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/skilled	racial_trait	advanced-class-guide	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/skilled	racial_trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
-ref/racial-trait/human/skilled	racial_trait	advanced-race-guide	coarse	70	the proposal is a section or parent page
 ref/racial-trait/human/skilled	racial_trait	blood-of-shadows	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/skilled	racial_trait	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/skilled	racial_trait	heroes-of-the-streets	book-differs		the reference lists the entry only in other books
@@ -1063,32 +925,22 @@ ref/racial-trait/human/skilled	racial_trait	legacy-of-the-first-world	book-diffe
 ref/racial-trait/human/skilled	racial_trait	occult-adventures	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/skilled	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/skilled	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
-ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan	trait	advanced-players-guide	no-page		
-ref/trait/abject-belief	trait	faiths-and-philosophies	page-format	0	
 ref/trait/absolute-loyalty	trait	knights-of-the-inner-sea	page-format	0	
 ref/trait/affinity-for-the-elements	trait	faiths-of-corruption	unconfirmed	19	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/best-customer	trait	jade-regent-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/blessed-mutt	trait	wilderness-origins	no-page		
-ref/trait/born-free	trait	faiths-and-philosophies	page-format	0	
-ref/trait/bound-by-honor	trait	faiths-and-philosophies	page-format	0	
 ref/trait/calistrian-courtesan	trait	elves-of-golarion	unconfirmed	15	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/chosen-of-iomedae	trait	champions-of-purity	unconfirmed	13	title not found on the proposed page or the two pages around it
 ref/trait/clamber	trait	wilderness-origins	no-page		
-ref/trait/crisis-of-faith	trait	faiths-and-philosophies	page-format	0	
 ref/trait/daring-doomsayer	trait	second-darkness-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	cheliax-empire-of-devils	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	ultimate-campaign	book-differs		the reference lists the entry only in other books
-ref/trait/demonblight-reistance	trait	people-of-the-wastes	unconfirmed	3	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/desert-child	trait	inner-sea-primer	book-differs		the reference lists the entry only in other books
-ref/trait/devout-visionary	trait	faiths-and-philosophies	page-format	0	
-ref/trait/divine-denier	trait	faiths-and-philosophies	page-format	0	
 ref/trait/dockside-avenger	trait	curse-of-the-crimson-throne-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/dueling-cloak-adept	trait	knights-of-the-inner-sea	page-format	0	
 ref/trait/elven-polytheist	trait	faiths-of-purity	unconfirmed	20	title not found on the proposed page or the two pages around it
 ref/trait/elven-reflexes	trait	legacy-of-fire-players-guide	book-differs		the reference lists the entry only in other books
-ref/trait/emberkin-imposter	trait	qadira-jewel-of-the-east	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/trait/favored-son-or-daughter	trait	advanced-players-guide	no-page		
 ref/trait/fixer-of-odds	trait	second-darkness-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/foreign-tongued	trait	jade-regent-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/goblin-bravery	trait	goblins-of-golarion	book-differs		the reference lists the entry only in other books
@@ -1097,31 +949,21 @@ ref/trait/hellknight-inquisitor	trait	path-of-the-hellknight	unconfirmed	56	titl
 ref/trait/influence	trait	ultimate-campaign	unconfirmed	60	title is a common word: it is on the proposed page and the one before, and as a heading on another page, so the page is not settled
 ref/trait/inspiring-rush	trait	knights-of-the-inner-sea	page-format	0	
 ref/trait/mischievous-smile	trait	divine-anthology	no-page		
-ref/trait/monastic	trait	faiths-and-philosophies	page-format	0	
-ref/trait/nature-worshiper	trait	faiths-and-philosophies	page-format	0	
 ref/trait/nauseating-spit	trait	wilderness-origins	no-page		
 ref/trait/portentous-perception	trait	second-darkness-players-guide	book-differs		the reference lists the entry only in other books
-ref/trait/proxy-of-many	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/trait/questing-hellknight	trait	path-of-the-hellknight	unconfirmed	56	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/running-pig	trait	wilderness-origins	no-page		
 ref/trait/sandpoint-faithful	trait	rise-of-the-runelords-anniversary-edition-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/savage-breaker	trait	ultimate-equipment	book-differs		the reference lists the entry only in other books
 ref/trait/savanna-child	trait	legacy-of-fire-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/scourge-of-the-seas	trait	inner-sea-npc-codex	book-differs		the reference lists the entry only in other books
-ref/trait/self-actualization	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
-ref/trait/sodden-chld	trait	people-of-the-wastes	unconfirmed	3	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/steel-skin	trait	knights-of-the-inner-sea	page-format	0	
 ref/trait/thrill-seeker-rotr	trait	rise-of-the-runelords-anniversary-edition-players-guide	book-differs		the reference lists the entry only in other books
-ref/trait/totemist	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/trait/traditionalist	trait	divine-anthology	book-differs		the reference lists the entry only in other books
-ref/trait/traditionalist	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/trait/treerazers-bane	trait	elves-of-golarion	no-page		
 ref/trait/treerazers-bane	trait	inner-sea-primer	no-page		
 ref/trait/underlying-principles	trait	faiths-of-balance	unconfirmed	15	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/varisian-immunity	trait	curse-of-the-crimson-throne-players-guide	book-differs		the reference lists the entry only in other books
-ref/trait/wasteland-vargrant	trait	people-of-the-wastes	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/trait/wendifa-apprentice	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
-ref/trait/zealots-bearing	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/acid-drop-trap	trap	monster-codex	no-page		
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragon-dung-pit-trap	trap	monster-codex	no-page		
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragonfire-trap	trap	monster-codex	no-page		
