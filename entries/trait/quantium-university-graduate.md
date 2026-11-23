@@ -7,6 +7,9 @@ source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quantium_university_graduate", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "14"
 
 [fields]
 kind = "trait"
