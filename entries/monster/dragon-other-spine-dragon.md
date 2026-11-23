@@ -32,102 +32,75 @@ abilities = ["32", "15", "29", "16", "22", "19"]
 _This dragon bears a forest of razor-sharp crystalline spines. Its wings are transparent and seem
 almost to be made of glass._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+blindsight: 30
+Alignment: Chaotic neutral
+Type: dragon
+Size: gargantuan
+Initiative: +2
+Perception: +25
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Earth
+Experience points: 76,800
+:::
 
-**blindsight:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 31
+Touch: 9
+Flat-footed: 28
+AC modifiers: +2 Dex, +1 dodge, +22 natural, -4 size
+Hit points: 248 (16d12+144)
+Fort: +19
+Ref: +12
+Will: +16
+Defensive abilities: ray deflection, spines
+Dr: 10/adamantine
+Immune: paralysis, sleep effects, sonic
+Resist: cold 20, electricity 20, fire 20
+Sr: 27
+:::
 
-**Type:** dragon
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 30 ft.
+Melee: bite +23 (2d8+11), claws +23 (2d6+11), tail slap +18 (2d8+16)
+Ranged: 4 spines +14 (2d8+11)
+Reach: 15
+Space: 20
+Spec Att: breath weapon, spines
+:::
 
-**Initiative:** +2
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +20
+Per day: 3/day: spike growth (DC 17), spike stones (DC 18), telekinesis (DC 19)\
+1/day: telekinetic sphere (DC 22), wall of force
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 15, Con 29, Int 16, Wis 22, Cha 19
+Base attack bonus: +16
+Combat maneuver bonus: +31
+Combat maneuver defense: 44
+Feats: Awesome Blow, Combat Reflexes, Dodge, Improved Bull Rush, Point-Blank Shot, Power Attack, Precise Shot, Vital Strike
+Skills: Appraise +22, Bluff +23, Fly +15, Intimidate +23, Knowledge (engineering) +22, Perception +25, Sense Motive +25, Stealth +9
+Languages: Common, Draconic
+:::
 
-**Subtype:** Earth
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 9
-
-**Flat-footed:** 28
-
-**AC modifiers:** +2 Dex, +1 dodge, +22 natural, -4 size
-
-**Hit points:** 248 (16d12+144)
-
-**Fort:** +19
-
-**Ref:** +12
-
-**Will:** +16
-
-**Defensive abilities:** ray deflection, spines
-
-**Dr:** 10/adamantine
-
-**Immune:** paralysis, sleep effects, sonic
-
-**Resist:** cold 20, electricity 20, fire 20
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +23 (2d8+11), claws +23 (2d6+11), tail slap +18 (2d8+16)
-
-**Ranged:** 4 spines +14 (2d8+11)
-
-**Reach:** 15
-
-**Space:** 20
-
-**Spec Att:** breath weapon, spines
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +20
-
-**Per day:**
-
-- 3/day: spike growth (DC 17), spike stones (DC 18), telekinesis (DC 19)
-- 1/day: telekinetic sphere (DC 22), wall of force
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 15, Con 29, Int 16, Wis 22, Cha 19
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 44
-
-**Feats:** Awesome Blow, Combat Reflexes, Dodge, Improved Bull Rush, Point-Blank Shot, Power Attack,
-Precise Shot, Vital Strike
-
-**Skills:** Appraise +22, Bluff +23, Fly +15, Intimidate +23, Knowledge (engineering) +22,
-Perception +25, Sense Motive +25, Stealth +9
-
-**Languages:** Common, Draconic
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: temperate hills
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

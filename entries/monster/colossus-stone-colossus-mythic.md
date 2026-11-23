@@ -33,103 +33,75 @@ _This immense stone figure appears to be a keep that uprooted itself and went fo
 
 **Mythic Stone Colossus**
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Mythic rank: 7
+aura: selective antimagic aura (30 ft.)
+Size: colossal
+Type: construct
+Initiative: +11, Mythic Improved Initiative
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Colossus, Mythic
+Experience points: 204,800
+:::
 
-**Mythic rank:** 7
+### Defense
 
-**aura:** selective antimagic aura (30 ft.)
+::: statblock
+Armor class: 31
+Touch: 2
+Flat-footed: 31
+AC modifiers: +29 natural, -8 size
+Hit points: 265 (21d10+150)
+Fort: +7
+Ref: +7
+Will: +7
+Dr: 10/epic
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** colossal
+### Offense
 
-**Type:** construct
+::: statblock
+Speed: 40 ft.
+M Power: 7/day, surge +1d10
+Melee: 2 slams +32 (3d10+19/19-20) or stomp +32 (6d10+28 plus pinning stomp)
+Ranged: light ballista +13 (3d8/×3)
+Reach: 30
+Space: 30
+Spec Att: mythic quickening, pinning stomp
+:::
 
-**Initiative:** +11, Mythic Improved Initiative
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +16
+Per day: 3/day: wall of stone (DC 16)\
+1/day: repulsion (DC 17)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 48, Dex 11, Con -, Int 5, Wis 10, Cha 7
+Base attack bonus: +21
+Combat maneuver bonus: +48 (+53 sunder)
+Combat maneuver defense: 60 (65 vs. sunder)
+Feats: Cleave, Mythic Deadly Aim, Great Cleave, Improved Critical (slam), Mythic Improved Initiative, Mythic Improved Sunder, Improved Vital Strike, Mythic Point-Blank Shot, Power Attack, Precise Shot, Vital Strike
+Skills: Intimidate +11, Perception +11
+Languages: Common
+Special qualities: alternate form, movable keep, mythic creation, mythic resilience, self repair, siege tower
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Colossus, Mythic
-
-**Experience points:** 204,800
-
-**Armor class:** 31
-
-**Touch:** 2
-
-**Flat-footed:** 31
-
-**AC modifiers:** +29 natural, -8 size
-
-**Hit points:** 265 (21d10+150)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +7
-
-**Dr:** 10/epic
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**M Power:** 7/day, surge +1d10
-
-**Melee:** 2 slams +32 (3d10+19/19-20) or stomp +32 (6d10+28 plus pinning stomp)
-
-**Ranged:** light ballista +13 (3d8/×3)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** mythic quickening, pinning stomp
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +16
-
-**Per day:**
-
-- 3/day: wall of stone (DC 16)
-- 1/day: repulsion (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 48, Dex 11, Con -, Int 5, Wis 10, Cha 7
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +48 (+53 sunder)
-
-**Combat maneuver defense:** 60 (65 vs. sunder)
-
-**Feats:** Cleave, Mythic Deadly Aim, Great Cleave, Improved Critical (slam), Mythic Improved
-Initiative, Mythic Improved Sunder, Improved Vital Strike, Mythic Point-Blank Shot, Power Attack,
-Precise Shot, Vital Strike
-
-**Skills:** Intimidate +11, Perception +11
-
-**Languages:** Common
-
-**Special qualities:** alternate form, movable keep, mythic creation, mythic resilience, self
-repair, siege tower
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or mobile fortification (1 plus 6-12 Medium humanoid archers)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or mobile fortification (1 plus 6-12 Medium humanoid archers)
+Treasure: None
+:::
 
 ### Special Abilities
 

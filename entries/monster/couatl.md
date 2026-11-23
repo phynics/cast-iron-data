@@ -29,117 +29,81 @@ abilities = ["20", "16", "20", "17", "19", "17"]
 
 _This great serpent has multicolored wings and eyes that glimmer with intense awareness._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +7
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Detect chaos/evil/good/law
+Subtype: Native
+Experience points: 9,600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 18
+AC modifiers: +3 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 126 (12d10+60)
+Fort: +9
+Ref: +13
+Will: +14
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Constrict: 1d8+7
+Melee: bite +16 (1d8+7 plus [grab](ref/umr/grab) and poison)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Constant: detect chaos, detect evil, detect good, detect law
+At will: detect thoughts (DC 15), ethereal jaunt, CL 16th, invisibility, plane shift (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
+::: statblock
+title = "Spells Known"
+Caster level: 9
+4th-level spells: 4/day: charm monster (DC 17), freedom of movement
+3rd-level spells: 7/day: gaseous form, magic circle against evil, summon monster III
+2nd-level spells: 7/day: cure moderate wounds, eagle's splendor, scorching ray, silence (DC 15)
+1st-level spells: 7/day: endure elements, mage armor, obscuring mist, protection from chaos, true strike
+Cantrips: At will: daze, disrupt undead, light, ray of frost, read magic, resistance, stabilize
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 9,600
-
-**Armor class:** 22
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 126 (12d10+60)
-
-**Fort:** +9
-
-**Ref:** +13
-
-**Will:** +14
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Constrict:** 1d8+7
-
-**Melee:** bite +16 (1d8+7 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law
-
-**At will:**
-
-- detect thoughts (DC 15), ethereal jaunt, CL 16th, invisibility, plane shift (DC 20)
-
-**Spells Known**
-
-**Caster level:** 9
-
-**4th-level spells:**
-
-- 4/day: charm monster (DC 17), freedom of movement
-
-**3rd-level spells:**
-
-- 7/day: gaseous form, magic circle against evil, summon monster III
-
-**2nd-level spells:**
-
-- 7/day: cure moderate wounds, eagle's splendor, scorching ray, silence (DC 15)
-
-**1st-level spells:**
-
-- 7/day: endure elements, mage armor, obscuring mist, protection from chaos, true strike
-
-**Cantrips:**
-
-- At will: daze, disrupt undead, light, ray of frost, read magic, resistance, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con 20, Int 17, Wis 19, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Alertness, Dodge, Empower Spell, Eschew Materials^B^, Improved Initiative, Iron Will,
-Lightning Reflexes
-
-**Skills:** Acrobatics +18, Bluff +9, Diplomacy +18, Fly +20, Knowledge (arcana) +9, Perception +23,
-Use Magic Device +18
-
-**Languages:** Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+::: statblock
+Ability scores: Str 20, Dex 16, Con 20, Int 17, Wis 19, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Alertness, Dodge, Empower Spell, Eschew Materials^B^, Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Acrobatics +18, Bluff +9, Diplomacy +18, Fly +20, Knowledge (arcana) +9, Perception +23, Use Magic Device +18
+Languages: Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or flight (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or flight (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

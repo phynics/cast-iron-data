@@ -31,159 +31,93 @@ abilities = ["24", "27", "26", "26", "31", "25"]
 _Within the shadows of this vaguely humanoid figure stir swirling colors and spheres, as if it
 encompassed all the night sky._
 
-**Challenge rating:** 20
-
-**blindsight:** 120
-
-**Initiative:** +12
-
-**Size:** large
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +41
-
-**Senses:** Darkvision 120 ft., True seeing
-
-**Subtype:** Aeon, Extraplanar
-
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 24
-
-**Flat-footed:** 27
-
-**AC modifiers:** +6 deflection, +8 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 324 (24d10+192)
-
-**Fort:** +24
-
-**Ref:** +18
-
-**Will:** +26
-
-**Fh:** 10
-
-**Immune:** cold, critical hits, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 0 ft., fly 60 ft. (perfect)
-
-**Melee:** touch +30 (20d8 energy)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** sphere of creation, sphere of oblivion
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**At will:**
-
-- create food and water, mending, rusting grasp (DC 21), stone shape, wood shape (DC 19)
-
-**Per day:**
-
-- 7/day: fabricate, plant growth, sculpt sound, shout (DC 21)
-- 5/day: break enchantment, daylight, deeper darkness, freedom of movement, major creation
-- 3/day: disintegrate (DC 23), horrid wilting (DC 25)
-- 1/day: mage's disjunction (DC 26), wish (DC 26)
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**9th-level spells:**
-
-- astral projection, gate, implosion (3, DC 29)
-
-**8th-level spells:**
-
-- cloak of chaos (DC 28), holy aura (DC 28), shield of law (DC 28), summon monster VIII, unholy aura
-  (DC 28)
-
-**7th-level spells:**
-
-- blasphemy (DC 27), destruction (DC 27), dictum (DC 27), holy word (DC 27), word of chaos (DC 27)
-
-**6th-level spells:**
-
-- banishment (DC 26), forbiddance (DC 26), geas, legend lore, repulsion (DC 26), veil (DC 26)
-
-**5th-level spells:**
-
-- contact other plane, dispel chaos (DC 25), dispel evil (DC 25), dispel good (DC 25), dispel law
-  (DC 25), teleport
-
-**4th-level spells:**
-
-- chaos hammer (DC 24), holy smite (DC 24), order's wrath (DC 21), restoration, scrying (DC 24),
-  unholy blight (DC 24)
-
-**3rd-level spells:**
-
-- clairaudience/clairvoyance, magic circle against chaos, magic circle against evil, magic circle
-  against good, magic circle against law, suggestion (DC 23)
-
-**2nd-level spells:**
-
-- align weapon, detect thoughts (DC 22), enthrall (DC 22), make whole, see invisibility,
-  undetectable alignment, zone of truth (DC 22)
-
-**1st-level spells:**
-
-- detect chaos, detect evil, detect good, detect law, identify, magic aura, true strike
-
-**Cantrips:**
-
-- create water, detect magic, guidance, read magic
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 27, Con 26, Int 26, Wis 31, Cha 25
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 57 (can't be tripped)
-
-**Feats:** Alertness, Combat Casting, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative,
-Improved Iron Will, Iron Will, Lightning Reflexes, Lightning Stance, Mobility, Wind Stance
-
-**Skills:** Appraise +30, Bluff +32, Fly +16, Intimidate +27, Knowledge (arcana, planes) +47,
-Knowledge (engineering) +44, Perception +41, Sense Motive +39, Spellcraft +30, Stealth +27, Use
-Magic Device +27
-
-**Languages:** _envisaging_
-
-**Special qualities:** extension of all, void form
-
-**Ecology**
-
-**Environment:** any (Outer Planes)
-
-**Organization:** solitary or tribunal (1 pleroma, 3 [akhanas](ref/monster/aeon-akhana), and 2-5
-[theletos](ref/monster/aeon-theletos))
-
-**Treasure:** None
+::: statblock
+Challenge rating: 20
+blindsight: 120
+Initiative: +12
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +41
+Senses: Darkvision 120 ft., True seeing
+Subtype: Aeon, Extraplanar
+Experience points: 307,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 36
+Touch: 24
+Flat-footed: 27
+AC modifiers: +6 deflection, +8 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 324 (24d10+192)
+Fort: +24
+Ref: +18
+Will: +26
+Fh: 10
+Immune: cold, critical hits, poison
+Resist: electricity 10, fire 10
+Sr: 31
+:::
+
+### Offense
+
+::: statblock
+Speed: 0 ft., fly 60 ft. (perfect)
+Melee: touch +30 (20d8 energy)
+Reach: 10
+Space: 10
+Spec Att: sphere of creation, sphere of oblivion
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+At will: create food and water, mending, rusting grasp (DC 21), stone shape, wood shape (DC 19)
+Per day: 7/day: fabricate, plant growth, sculpt sound, shout (DC 21)\
+5/day: break enchantment, daylight, deeper darkness, freedom of movement, major creation\
+3/day: disintegrate (DC 23), horrid wilting (DC 25)\
+1/day: mage's disjunction (DC 26), wish (DC 26)
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+Concentration: +27
+9th-level spells: astral projection, gate, implosion (3, DC 29)
+8th-level spells: cloak of chaos (DC 28), holy aura (DC 28), shield of law (DC 28), summon monster VIII, unholy aura (DC 28)
+7th-level spells: blasphemy (DC 27), destruction (DC 27), dictum (DC 27), holy word (DC 27), word of chaos (DC 27)
+6th-level spells: banishment (DC 26), forbiddance (DC 26), geas, legend lore, repulsion (DC 26), veil (DC 26)
+5th-level spells: contact other plane, dispel chaos (DC 25), dispel evil (DC 25), dispel good (DC 25), dispel law (DC 25), teleport
+4th-level spells: chaos hammer (DC 24), holy smite (DC 24), order's wrath (DC 21), restoration, scrying (DC 24), unholy blight (DC 24)
+3rd-level spells: clairaudience/clairvoyance, magic circle against chaos, magic circle against evil, magic circle against good, magic circle against law, suggestion (DC 23)
+2nd-level spells: align weapon, detect thoughts (DC 22), enthrall (DC 22), make whole, see invisibility, undetectable alignment, zone of truth (DC 22)
+1st-level spells: detect chaos, detect evil, detect good, detect law, identify, magic aura, true strike
+Cantrips: create water, detect magic, guidance, read magic
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 24, Dex 27, Con 26, Int 26, Wis 31, Cha 25
+Base attack bonus: +24
+Combat maneuver bonus: +32
+Combat maneuver defense: 57 (can't be tripped)
+Feats: Alertness, Combat Casting, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Lightning Stance, Mobility, Wind Stance
+Skills: Appraise +30, Bluff +32, Fly +16, Intimidate +27, Knowledge (arcana, planes) +47, Knowledge (engineering) +44, Perception +41, Sense Motive +39, Spellcraft +30, Stealth +27, Use Magic Device +27
+Languages: _envisaging_
+Special qualities: extension of all, void form
+:::
+
+### Ecology
+
+::: statblock
+Environment: any (Outer Planes)
+Organization: solitary or tribunal (1 pleroma, 3 [akhanas](ref/monster/aeon-akhana), and 2-5 [theletos](ref/monster/aeon-theletos))
+Treasure: None
+:::
 
 ### Special Abilities
 

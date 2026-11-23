@@ -34,81 +34,63 @@ abilities = ["20", "16", "-", "-", "11", "1"]
 _This spider-like creature seems to be made entirely out of weapons and splintered planks, its legs
 ending in curved blades._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: construct
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 16
+AC modifiers: +3 Dex, +7 natural, -1 size
+Hit points: 74 (8d10+30)
+Fort: +2
+Ref: +5
+Will: +2
+Defensive abilities: all-around vision
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +12 (1d8+5), 2 claws +12 (1d8+5)
+Reach: 10
+Space: 10
+Spec Att: collapse, weapon thief
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 16, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +8
+Combat maneuver bonus: +14 (+16 disarm)
+Combat maneuver defense: 27 (29 vs. disarm)
+Feats: Improved Disarm, Power Attack
+Skills: Climb +13, Stealth -1 (+7 when collapsed)
+Racial Modifiers: +8 Stealth when collapsed
+Special qualities: shared enhancement
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +7 natural, -1 size
-
-**Hit points:** 74 (8d10+30)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +2
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +12 (1d8+5), 2 claws +12 (1d8+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** collapse, weapon thief
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14 (+16 disarm)
-
-**Combat maneuver defense:** 27 (29 vs. disarm)
-
-**Feats:** Improved Disarm, Power Attack
-
-**Skills:** Climb +13, Stealth -1 (+7 when collapsed)
-
-**Racial Modifiers:** +8 Stealth when collapsed
-
-**Special qualities:** shared enhancement
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

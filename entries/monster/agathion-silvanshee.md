@@ -30,108 +30,75 @@ abilities = ["3", "15", "12", "10", "12", "13"]
 
 _This black cat has gray stripes, violet eyes, and an unusual white blaze on its chest._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +6
+Alignment: Neutral good
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Agathion, Extraplanar, Good
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Neutral good
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 natural, +2 size
+Hit points: 13 (2d10+2)
+Fort: +5
+Ref: +6
+Will: +2; +4 vs. poison
+Dr: 5/evil or silver
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+Sr: 13
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 30 ft., fly 90 ft. (good)
+Melee: bite +6 (1d3-4), 2 claws +6 (1d2-4)
+Pounce: present
+Spec Att: heroic strength
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: +3
+Constant: know direction, speak with animals
+At will: dancing lights, prestidigitation, stabilize
+Per day: 1/day: dimension door, self plus 5 lbs. of objects only
+Per week: commune, 6 questions; CL 12th
+:::
 
-**Subtype:** Agathion, Extraplanar, Good
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 15, Con 12, Int 10, Wis 12, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 8 (12 vs. trip)
+Feats: Improved Initiative, Weapon Finesse
+Skills: Acrobatics +11, Climb +7, Knowledge (arcana) +5, Perception +10, Stealth +19
+Racial Modifiers: +4 Acrobatics, +4 Perception, +4 Stealth
+Languages: Celestial, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: cat's luck, flight, [lay on hands](ref/ability/lay-on-hands) (1d6, 1/day, always as a 2nd-level paladin), spectral mist
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 natural, +2 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +2; +4 vs. poison
-
-**Dr:** 5/evil or silver
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 30 ft., fly 90 ft. (good)
-
-**Melee:** bite +6 (1d3-4), 2 claws +6 (1d2-4)
-
-**Pounce:** present
-
-**Spec Att:** heroic strength
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** +3
-
-**Constant:**
-
-- know direction, speak with animals
-
-**At will:**
-
-- dancing lights, prestidigitation, stabilize
-
-**Per day:**
-
-- 1/day: dimension door, self plus 5 lbs. of objects only
-
-**Per week:**
-
-- commune, 6 questions; CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 12, Int 10, Wis 12, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 8 (12 vs. trip)
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +11, Climb +7, Knowledge (arcana) +5, Perception +10, Stealth +19
-
-**Racial Modifiers:** +4 Acrobatics, +4 Perception, +4 Stealth
-
-**Languages:** Celestial, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** cat's luck, flight, [lay on hands](ref/ability/lay-on-hands) (1d6, 1/day,
-always as a 2nd-level paladin), spectral mist
-
-**Ecology**
-
-**Environment:** any land ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or clowder (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or clowder (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

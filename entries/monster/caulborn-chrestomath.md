@@ -30,96 +30,70 @@ abilities = ["2", "2", "19", "25", "21", "22"]
 _This bloated, larval sack of green and pink flesh is wet and curdled, its brain-like wrinkles
 interrupted by transparent membranes showing dark fluid within._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsense: 60
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +18
+Senses: Thoughtsense
+Subtype: Extraplanar
+Experience points: 2,400
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 16
+AC modifiers: +6 deflection, -4 Dex, +4 natural
+Hit points: 95 (10d10+40)
+Fort: +13
+Ref: -1
+Will: +14
+Defensive abilities: psychic deflection
+Immune: sensory effects
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: fly 10 ft. (average)
+Spec Att: mind flood
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +12
+Constant: detect magic, detect thoughts, tongues
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Thoughtsense
+::: statblock
+Ability scores: Str 2, Dex 2, Con 19, Int 25, Wis 21, Cha 22
+Base attack bonus: +10
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Ability Focus (mind flood), Great Fortitude, Improved Initiative, Improved Iron Will, Iron Will
+Skills: Appraise +19, Fly +9, Knowledge (arcana, history, local, planes, religion) +32, Perception +18, Sense Motive +18, Spellcraft +19
+Racial Modifiers: +10 Knowledge (all)
+Languages: Abyssal, Aklo, Celestial, Common, Draconic, Elven, Infernal, Thassilonian, Undercommon; _[tongues](ref/spell/tongues),_ [telepathy](ref/umr/telepathy) 1 mile.
+Special qualities: advanced hive mind, cooperative scrying, psychic deflection, racial memory, [thoughtsense](ref/umr/thoughtsense)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, -4 Dex, +4 natural
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +13
-
-**Ref:** -1
-
-**Will:** +14
-
-**Defensive abilities:** psychic deflection
-
-**Immune:** sensory effects
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** fly 10 ft. (average)
-
-**Spec Att:** mind flood
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect magic, detect thoughts, tongues
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 2, Con 19, Int 25, Wis 21, Cha 22
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Ability Focus (mind flood), Great Fortitude, Improved Initiative, Improved Iron Will,
-Iron Will
-
-**Skills:** Appraise +19, Fly +9, Knowledge (arcana, history, local, planes, religion) +32,
-Perception +18, Sense Motive +18, Spellcraft +19
-
-**Racial Modifiers:** +10 Knowledge (all)
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Draconic, Elven, Infernal, Thassilonian,
-Undercommon; _[tongues](ref/spell/tongues),_ [telepathy](ref/umr/telepathy) 1 mile.
-
-**Special qualities:** advanced hive mind, cooperative scrying, psychic deflection, racial memory,
-[thoughtsense](ref/umr/thoughtsense)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, catechumen (1 plus 2-4 [caulborn](ref/monster/caulborn)), array (2-4
-plus 4-12 caulborn)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, catechumen (1 plus 2-4 [caulborn](ref/monster/caulborn)), array (2-4 plus 4-12 caulborn)
+Treasure: None
+:::
 
 ### Special Abilities
 

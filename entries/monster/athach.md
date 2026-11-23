@@ -32,82 +32,63 @@ abilities = ["32", "13", "25", "7", "12", "6"]
 _This giant's maw contains a pair of dripping tusks, but it is its gangly third arm that makes its
 appearance truly bizarre._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Size: huge
+Type: humanoid
+Initiative: +1
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 26
+Touch: 9
+Flat-footed: 25
+AC modifiers: +2 armor, +1 Dex, +15 natural, -2 size
+Hit points: 161 (14d8+98)
+Fort: +16
+Ref: +5
+Will: +7
+Resist: cold 10
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 50 ft.
+Melee: 2 slams +19 (1d8+11), bite +19 (2d6+11 plus poison) or heavy mace +19/+14 (3d6+11), bite +17 (2d6+5 plus poison)
+Ranged: rock +10/+5 (2d6+16)
+Reach: 15
+Rock Th: 140 ft.
+Space: 15
+Spec Att: swift claw
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 13, Con 25, Int 7, Wis 12, Cha 6
+Base attack bonus: +10
+Combat maneuver bonus: +23
+Combat maneuver defense: 34
+Feats: Cleave, Improved Iron Will, Iron Will, Lunge, Multiattack, Power Attack, Vital Strike
+Skills: Acrobatics +1 (+9 jump), Climb +20, Perception +12, Stealth -7
+Languages: Giant
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 9
-
-**Flat-footed:** 25
-
-**AC modifiers:** +2 armor, +1 Dex, +15 natural, -2 size
-
-**Hit points:** 161 (14d8+98)
-
-**Fort:** +16
-
-**Ref:** +5
-
-**Will:** +7
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 2 slams +19 (1d8+11), bite +19 (2d6+11 plus poison) or heavy mace +19/+14 (3d6+11), bite
-+17 (2d6+5 plus poison)
-
-**Ranged:** rock +10/+5 (2d6+16)
-
-**Reach:** 15
-
-**Rock Th:** 140 ft.
-
-**Space:** 15
-
-**Spec Att:** swift claw
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 13, Con 25, Int 7, Wis 12, Cha 6
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 34
-
-**Feats:** Cleave, Improved Iron Will, Iron Will, Lunge, Multiattack, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +1 (+9 jump), Climb +20, Perception +12, Stealth -7
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** cold or temperate hills
-
-**Organization:** solitary, gang (2-4), or tribe (7-12)
-
-**Treasure:** Standard (leather armor, heavy wooden shield, heavy mace); other treasure
+::: statblock
+Environment: cold or temperate hills
+Organization: solitary, gang (2-4), or tribe (7-12)
+Treasure: Standard (leather armor, heavy wooden shield, heavy mace); other treasure
+:::
 
 ### Special Abilities
 

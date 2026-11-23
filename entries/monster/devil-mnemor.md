@@ -31,114 +31,80 @@ abilities = ["18", "18", "18", "17", "15", "17"]
 _This ghoulish figure wears a tattered robe and stares with milky-white eyes, a proboscis-like
 tongue snaking out over its distended jaw._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Detect magic, Detect thoughts, See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 1,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 57 (6d10+24)
+Fort: +6
+Ref: +9
+Will: +7
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 16
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +11 (1d6+4), proboscis +10 touch (memory siphon)
+Spec Att: memory siphon
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+Constant: detect magic, detect thoughts
+At will: greater teleport, suggestion (DC 15)
+Per day: 1/day: summon (level 3, 1 [bearded devil](ref/monster/devil-bearded-devil-barbazu) or 6 [lemures](ref/monster/devil-lemure) 50%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, Detect thoughts, See in darkness
+::: statblock
+title = "Psychic Magic"
+Caster level: 6
+Concentration: +9
+Power points: 16
+Psychoactive powers: aversion, 2 PE, DC 15, calm emotions, 2 PE, DC 15, confusion, 4 PE, DC 17, deja vu, 1 PE, invisibility, 2 PE
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 18, Dex 18, Con 18, Int 17, Wis 15, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 24
+Feats: Improved Initiative, Power Attack, Weapon Focus (claw)
+Skills: Bluff +12, Diplomacy +12, Sense Motive +11, Spellcraft +12, Stealth +13, Use Magic Device +9
+Racial Modifiers: +4 Knowledge
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: easily forgotten
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +7
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +11 (1d6+4), proboscis +10 touch (memory siphon)
-
-**Spec Att:** memory siphon
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Constant:**
-
-- detect magic, detect thoughts
-
-**At will:**
-
-- greater teleport, suggestion (DC 15)
-
-**Per day:**
-
-- 1/day: summon (level 3, 1 [bearded devil](ref/monster/devil-bearded-devil-barbazu) or 6
-  [lemures](ref/monster/devil-lemure) 50%)
-
-**Psychic Magic**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Power points:** 16
-
-**Psychoactive powers:**
-
-- aversion, 2 PE, DC 15, calm emotions, 2 PE, DC 15, confusion, 4 PE, DC 17, deja vu, 1 PE,
-  invisibility, 2 PE
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 18, Con 18, Int 17, Wis 15, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 24
-
-**Feats:** Improved Initiative, Power Attack, Weapon Focus (claw)
-
-**Skills:** Bluff +12, Diplomacy +12, Sense Motive +11, Spellcraft +12, Stealth +13, Use Magic
-Device +9
-
-**Racial Modifiers:** +4 Knowledge
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** easily forgotten
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

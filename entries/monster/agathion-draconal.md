@@ -30,167 +30,98 @@ abilities = ["36", "15", "27", "24", "24", "23"]
 _This noble creature seems to be part serpent, part humanoid, and part dragon, with great wings and
 a crown of horns._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: protective aura (20 ft.)
+blindsense: 60
+Initiative: +6
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +48
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Agathion, Extraplanar, Good
+Experience points: 307,200
+:::
 
-**aura:** protective aura (20 ft.)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 36
+Touch: 18
+Flat-footed: 33
+AC modifiers: +2 Dex, +1 dodge, +6 insight, +18 natural, -1 size
+Hit points: 324 (24d10+192)
+Fort: +22
+Ref: +16
+Will: +17; +4 vs. poison, +4 resistance vs. evil
+Dr: 15/evil and silver
+Immune: one energy type (see Celestial Focus), electricity, petrification
+Regen: 10 (evil weapons and spells)
+Resist: cold 10, sonic 10
+Sr: 31
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., fly 120 ft. (average)
+Br Weap: 120-ft. line, 20d6 energy damage, Reflex DC 30 half, usable once every 1d4 rounds
+Melee: bite +36 (2d6+13 plus 1d6 energy), 2 claws +31 (1d8+6 plus 1d6 energy)
+Reach: 10
+Space: 10
+:::
 
-**Alignment:** Neutral good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 24
+Concentration: +30
+Constant: speak with animals
+At will: beast shape II, command (DC 17), detect thoughts, elemental body III, air or water elementals only, greater teleport, self plus 50 lbs. of objects only, gust of wind, hold monster (DC 20), identify, light, lightning bolt (DC 19), mage hand, message
+Per day: 7/day: break enchantment, cure serious wounds, neutralize poison, remove disease\
+3/day: control water, control weather, control winds, heal, plane shift (DC 23)
+:::
 
-**Type:** outsider
-
-**Perception:** +48
-
-**Senses:** Darkvision 120 ft., Low-light vision
-
-**Subtype:** Agathion, Extraplanar, Good
-
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 18
-
-**Flat-footed:** 33
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 insight, +18 natural, -1 size
-
-**Hit points:** 324 (24d10+192)
-
-**Fort:** +22
-
-**Ref:** +16
-
-**Will:** +17; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 15/evil and silver
-
-**Immune:** one energy type (see Celestial Focus), electricity, petrification
-
-**Regen:** 10 (evil weapons and spells)
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., fly 120 ft. (average)
-
-**Br Weap:** 120-ft. line, 20d6 energy damage, Reflex DC 30 half, usable once every 1d4 rounds
-
-**Melee:** bite +36 (2d6+13 plus 1d6 energy), 2 claws +31 (1d8+6 plus 1d6 energy)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 24
-
-**Concentration:** +30
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- beast shape II, command (DC 17), detect thoughts, elemental body III, air or water elementals
-  only, greater teleport, self plus 50 lbs. of objects only, gust of wind, hold monster (DC 20),
-  identify, light, lightning bolt (DC 19), mage hand, message
-
-**Per day:**
-
-- 7/day: break enchantment, cure serious wounds, neutralize poison, remove disease
-- 3/day: control water, control weather, control winds, heal, plane shift (DC 23)
-
-**Prepared Spells**
-
-**Caster level:** 17
-
-**Concentration:** +23
-
-**9th-level spells:**
-
-- implosion (DC 26), storm of vengeance^D^ (DC 26)
-
-**8th-level spells:**
-
-- demand^D^, earthquake, quickened holy smite (DC 21), holy word (DC 24), quickened invisibility
-  purge
-
-**5th-level spells:**
-
-- breath of life, dispel evil^D^, flame strike (DC 22), greater command (DC 22),
-  [spell resistance](ref/rule/spell-resistance), true seeing
-
-**4th-level spells:**
-
-- cure critical wounds, 3, freedom of movement, holy smite^D^ (DC 21), repel vermin (DC 21)
-
-**3rd-level spells:**
-
-- bestow curse (DC 20), daylight, dispel magic, helping hand, magic vestment^D^, prayer, protection
-  from energy
-
-**2nd-level spells:**
-
-- align weapon^D^, good only, calm emotions (DC 19), enthrall, hold person (DC 19), lesser
-  restoration, 2, shield other
-
-**1st-level spells:**
-
-- bless, detect undead, divine favor^D^, obscuring mist, remove fear, sanctuary (DC 18), shield of
-  faith
-
-**Cantrips:**
-
-- detect poison, guidance, purify food and drink, stabilize
-
-**Domains:** Good, Nobility
+::: statblock
+title = "Prepared Spells"
+Caster level: 17
+Concentration: +23
+9th-level spells: implosion (DC 26), storm of vengeance^D^ (DC 26)
+8th-level spells: demand^D^, earthquake, quickened holy smite (DC 21), holy word (DC 24), quickened invisibility purge
+5th-level spells: breath of life, dispel evil^D^, flame strike (DC 22), greater command (DC 22), [spell resistance](ref/rule/spell-resistance), true seeing
+4th-level spells: cure critical wounds, 3, freedom of movement, holy smite^D^ (DC 21), repel vermin (DC 21)
+3rd-level spells: bestow curse (DC 20), daylight, dispel magic, helping hand, magic vestment^D^, prayer, protection from energy
+2nd-level spells: align weapon^D^, good only, calm emotions (DC 19), enthrall, hold person (DC 19), lesser restoration, 2, shield other
+1st-level spells: bless, detect undead, divine favor^D^, obscuring mist, remove fear, sanctuary (DC 18), shield of faith
+Cantrips: detect poison, guidance, purify food and drink, stabilize
+Domains: Good, Nobility
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 36, Dex 15, Con 27, Int 24, Wis 24, Cha 23
+::: statblock
+Ability scores: Str 36, Dex 15, Con 27, Int 24, Wis 24, Cha 23
+Base attack bonus: +24
+Combat maneuver bonus: +38
+Combat maneuver defense: 57 (can't be tripped)
+Feats: Alertness, Combat Casting, Dodge, Empower Spell, Greater Spell Penetration, Improved Initiative, Iron Will, Mobility, Power Attack, Quicken Spell, Skill Focus (Perception), Spell Penetration
+Skills: Acrobatics +25, Bluff +29, Diplomacy +26, Sense Motive +34, Spellcraft +27, Stealth +21, Use Magic Device +26
+Racial Modifiers: +4 Perception
+Languages: xCe, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: celestial focus, divine insight, [lay on hands](ref/ability/lay-on-hands) (10d6, 16/day, as a 20th-level paladin)
+:::
 
-**Base attack bonus:** +24
+### Ecology
 
-**Combat maneuver bonus:** +38
-
-**Combat maneuver defense:** 57 (can't be tripped)
-
-**Feats:** Alertness, Combat Casting, Dodge, Empower Spell, Greater Spell Penetration, Improved
-Initiative, Iron Will, Mobility, Power Attack, Quicken Spell, Skill Focus (Perception), Spell
-Penetration
-
-**Skills:** Acrobatics +25, Bluff +29, Diplomacy +26, Sense Motive +34, Spellcraft +27, Stealth +21,
-Use Magic Device +26
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** xCe, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** celestial focus, divine insight, [lay on hands](ref/ability/lay-on-hands)
-(10d6, 16/day, as a 20th-level paladin)
-
-**Ecology**
-
-**Environment:** any air ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or flight (3-6)
-
-**Treasure:** Double
+::: statblock
+Environment: any air ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or flight (3-6)
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -29,73 +29,59 @@ abilities = ["15", "12", "19", "2", "14", "3"]
 
 _This mangy stray animal growls and whimpers miserably. Stinking blue drool drips from its fangs._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Initiative: +1
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft.
+Size: small
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 16
+AC modifiers: +1 Dex, +5 natural, +1 size
+Hit points: 42 (5d8+20)
+Fort: +7
+Ref: +2
+Will: +6
+Resist: acid 5
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +7 (1d4+2), 2 claws +6 (1d3+2)
+Spec Att: poison spray
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 15, Dex 12, Con 19, Int 2, Wis 14, Cha 3
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Great Fortitude, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Climb +10
+Racial Modifiers: +4 Stealth in urban environments
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +5 natural, +1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +6
-
-**Resist:** acid 5
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +7 (1d4+2), 2 claws +6 (1d3+2)
-
-**Spec Att:** poison spray
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 12, Con 19, Int 2, Wis 14, Cha 3
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Great Fortitude, Skill Focus (Perception), Weapon Focus (bite)
-
-**Skills:** Climb +10
-
-**Racial Modifiers:** +4 Stealth in urban environments
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or pack (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

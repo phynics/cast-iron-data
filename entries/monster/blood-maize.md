@@ -31,79 +31,62 @@ abilities = ["12", "14", "13", "2", "11", "15"]
 _Razor-sharp leaves dripping in blood span the length of this cornstalk, while a snake-like root
 digs into the soft ground._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 30
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision
+Type: plant
+tremorsense: 60
+Experience points: 600
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex
+Hit points: 19 (3d8+6)
+Fort: +4
+Ref: +3
+Will: +1
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Bleed: 1d6
+Melee: 3 slams +3 (1d4+1 plus bleed)
+Spec Att: blinding bloom
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 14, Con 13, Int 2, Wis 11, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Skill Focus (Stealth), Toughness
+Skills: Perception +4, Stealth +12
+Racial Modifiers: +2 Stealth
+Special qualities: change foliage, root deep
+:::
 
-**Type:** plant
+### Ecology {#stat-ecology}
 
-**tremorsense:** 60
-
-**Experience points:** 600
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Bleed:** 1d6
-
-**Melee:** 3 slams +3 (1d4+1 plus bleed)
-
-**Spec Att:** blinding bloom
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 14, Con 13, Int 2, Wis 11, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Skill Focus (Stealth), Toughness
-
-**Skills:** Perception +4, Stealth +12
-
-**Racial Modifiers:** +2 Stealth
-
-**Special qualities:** change foliage, root deep
-
-**Ecology**
-
-**Environment:** temperate or warm plains
-
-**Organization:** solitary or patch (2-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm plains
+Organization: solitary or patch (2-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

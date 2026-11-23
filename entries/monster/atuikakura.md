@@ -31,89 +31,66 @@ abilities = ["36", "25", "22", "3", "18", "13"]
 _This enormous red worm-like creature has several rows of white spines and a circular mouth filled
 with hooked teeth._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Size: gargantuan
+Initiative: +11
+Type: Magical beast
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+tremorsense: 120
+Experience points: 38,400
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 29
+Touch: 13
+Flat-footed: 22
+AC modifiers: +7 Dex, +16 natural, -4 size
+Hit points: 207 (18d10+108)
+Fort: +17
+Ref: +18
+Will: +12
+Defensive abilities: collapse
+Fh: 20
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 120 ft.
+Capsize: present
+Melee: bite +27 (3d6+13 plus poison), slam +27 (2d8+13/19-20 plus poison), tentacles +25 (2d6+6 plus [grab](ref/umr/grab) and poison)
+Reach: 20
+Space: 20
+Spec Att: self-evisceration, spiny slam, tentacle grip
+Swallow: 6d6+19 bludgeoning damage, AC 18, 20 hp
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 36, Dex 25, Con 22, Int 3, Wis 18, Cha 13
+Base attack bonus: +18
+Combat maneuver bonus: +35 (+39 grapple)
+Combat maneuver defense: 52 (can't be tripped)
+Feats: Combat Reflexes, Critical Focus, Improved Critical (slam), Improved Initiative, Improved Iron Will, Iron Will, Multiattack, Power Attack, Staggering Critical
+Skills: Perception +16, Stealth +15, Swim +21
+Racial Modifiers: +8 Stealth
+Languages: Aquan
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**tremorsense:** 120
-
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 13
-
-**Flat-footed:** 22
-
-**AC modifiers:** +7 Dex, +16 natural, -4 size
-
-**Hit points:** 207 (18d10+108)
-
-**Fort:** +17
-
-**Ref:** +18
-
-**Will:** +12
-
-**Defensive abilities:** collapse
-
-**Fh:** 20
-
-**Offense**
-
-**Speed:** 10 ft., swim 120 ft.
-
-**Capsize:** present
-
-**Melee:** bite +27 (3d6+13 plus poison), slam +27 (2d8+13/19-20 plus poison), tentacles +25 (2d6+6
-plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** self-evisceration, spiny slam, tentacle grip
-
-**Swallow:** 6d6+19 bludgeoning damage, AC 18, 20 hp
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 25, Con 22, Int 3, Wis 18, Cha 13
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +35 (+39 grapple)
-
-**Combat maneuver defense:** 52 (can't be tripped)
-
-**Feats:** Combat Reflexes, Critical Focus, Improved Critical (slam), Improved Initiative, Improved
-Iron Will, Iron Will, Multiattack, Power Attack, Staggering Critical
-
-**Skills:** Perception +16, Stealth +15, Swim +21
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Aquan
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

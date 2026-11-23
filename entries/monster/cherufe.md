@@ -31,100 +31,74 @@ abilities = ["26", "13", "20", "11", "14", "11"]
 
 _This towering reptilian humanoid seems to be made of obsidian scales over a molten magma core._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Size: huge
+Initiative: +5
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Fire
+Experience points: 25,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 24
+Touch: 9
+Flat-footed: 23
+AC modifiers: +1 Dex, +15 natural, -2 size
+Hit points: 189 (18d10+90)
+Fort: +16
+Ref: +14
+Will: +10
+Defensive abilities: fire healing
+Dr: 10/-
+Immune: fire
+Vulner: cold
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft., swim 30 ft.
+Burn: 2d6 fire, DC 24
+Melee: 2 claws +25 (2d6+8 plus burn), bite +25 (2d8+8 plus burn)
+Ranged: rock +19 (2d8+10 plus burn)
+Reach: 15
+Rock Th: 120 ft.
+Space: 15
+Spec Att: heat
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +18
+Per month: earthquake
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Fire
+::: statblock
+Ability scores: Str 26, Dex 13, Con 20, Int 11, Wis 14, Cha 11
+Base attack bonus: +18
+Combat maneuver bonus: +28
+Combat maneuver defense: 39
+Feats: Diehard, Endurance, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (bite), Weapon Focus (claw), Weapon Focus (rock)
+Skills: Climb +23
+Languages: Common
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 9
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +15 natural, -2 size
-
-**Hit points:** 189 (18d10+90)
-
-**Fort:** +16
-
-**Ref:** +14
-
-**Will:** +10
-
-**Defensive abilities:** fire healing
-
-**Dr:** 10/-
-
-**Immune:** fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 50 ft., swim 30 ft.
-
-**Burn:** 2d6 fire, DC 24
-
-**Melee:** 2 claws +25 (2d6+8 plus burn), bite +25 (2d8+8 plus burn)
-
-**Ranged:** rock +19 (2d8+10 plus burn)
-
-**Reach:** 15
-
-**Rock Th:** 120 ft.
-
-**Space:** 15
-
-**Spec Att:** heat
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +18
-
-**Per month:**
-
-- earthquake
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 13, Con 20, Int 11, Wis 14, Cha 11
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 39
-
-**Feats:** Diehard, Endurance, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack,
-Weapon Focus (bite), Weapon Focus (claw), Weapon Focus (rock)
-
-**Skills:** Climb +23
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any mountains
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any mountains
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

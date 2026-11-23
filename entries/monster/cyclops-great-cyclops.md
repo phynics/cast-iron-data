@@ -35,83 +35,63 @@ abilities = ["36", "13", "25", "7", "14", "8"]
 _This misshapen but incredibly muscular humanoid has a single huge bloodshot eye set under a short,
 jagged horn on its brow._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Size: huge
+Type: humanoid
+Initiative: +1
+Perception: +22
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 26
+Touch: 9
+Flat-footed: 25
+AC modifiers: +4 armor, +1 Dex, +13 natural, -2 size
+Hit points: 195 (17d8+119)
+Fort: +12
+Ref: +6
+Will: +14
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 50 ft., (35 ft. in armor)
+Melee: mwk greatclub +24/+19/+14 (3d8+19), gore +18 (1d8+6) or gore +23 (1d8+13), 2 slams +23 (2d6+13)
+Pow Ch: gore, 4d8+24
+Ranged: rock +12 (2d6+19)
+Reach: 15
+Rock Th: 120 ft.
+Space: 15
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 36, Dex 13, Con 25, Int 7, Wis 14, Cha 8
+Base attack bonus: +12
+Combat maneuver bonus: +27
+Combat maneuver defense: 38
+Feats: Awesome Blow, Cleave, Critical Focus, Diehard, Endurance, Improved Bull Rush, Iron Will, Power Attack, Sickening Critical
+Skills: Perception +22
+Languages: Common, Cyclops, Giant
+Special qualities: flash of brutality
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 9
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 armor, +1 Dex, +13 natural, -2 size
-
-**Hit points:** 195 (17d8+119)
-
-**Fort:** +12
-
-**Ref:** +6
-
-**Will:** +14
-
-**Offense**
-
-**Speed:** 50 ft., (35 ft. in armor)
-
-**Melee:** mwk greatclub +24/+19/+14 (3d8+19), gore +18 (1d8+6) or gore +23 (1d8+13), 2 slams +23
-(2d6+13)
-
-**Pow Ch:** gore, 4d8+24
-
-**Ranged:** rock +12 (2d6+19)
-
-**Reach:** 15
-
-**Rock Th:** 120 ft.
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 13, Con 25, Int 7, Wis 14, Cha 8
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 38
-
-**Feats:** Awesome Blow, Cleave, Critical Focus, Diehard, Endurance, Improved Bull Rush, Iron Will,
-Power Attack, Sickening Critical
-
-**Skills:** Perception +22
-
-**Languages:** Common, Cyclops, Giant
-
-**Special qualities:** flash of brutality
-
-**Ecology**
-
-**Environment:** any temperate or tropical
-
-**Organization:** solitary, colony (2-5), or tribe (6-14)
-
-**Treasure:** Standard (mwk greatclub, Ah); other treasure
+::: statblock
+Environment: any temperate or tropical
+Organization: solitary, colony (2-5), or tribe (6-14)
+Treasure: Standard (mwk greatclub, Ah); other treasure
+:::
 
 ### Special Abilities
 

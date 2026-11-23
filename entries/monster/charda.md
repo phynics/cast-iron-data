@@ -35,78 +35,61 @@ abilities = ["16", "15", "19", "11", "12", "8"]
 _Armored in dense, bony plates, this four-armed creature drools wretched strings of black bile from
 its fanged maw._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic neutral
+Initiative: +2
+Type: Monstrous humanoid
+Perception: +13
+Senses: Darkvision 120 ft.
+Size: small
+Subtype: Aquatic
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 18
+AC modifiers: +2 Dex, +7 natural, +1 size
+Hit points: 85 (9d10+36)
+Fort: +7
+Ref: +10
+Will: +7
+Ferocity: present
+Immune: cold, poison
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Melee: bite +13 (1d6+3 plus 1d6 cold), 4 claws +14 (1d4+3)
+Spec Att: black bile
+:::
 
-**Senses:** Darkvision 120 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 16, Dex 15, Con 19, Int 11, Wis 12, Cha 8
+Base attack bonus: +9
+Combat maneuver bonus: +11 (+19 bull rush and trip)
+Combat maneuver defense: 23
+Feats: Combat Expertise, Improved Bull Rush, Improved Trip, Lightning Reflexes, Power Attack, Weapon Focus (claw)
+Skills: Intimidate +6, Knowledge (religion) +4, Perception +13, Swim +18
+Languages: Aklo, Undercommon
+Special qualities: [amphibious](ref/umr/amphibious), cold vigor, overwhelming
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +7 natural, +1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +7
-
-**Ferocity:** present
-
-**Immune:** cold, poison
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Melee:** bite +13 (1d6+3 plus 1d6 cold), 4 claws +14 (1d4+3)
-
-**Spec Att:** black bile
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 19, Int 11, Wis 12, Cha 8
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +11 (+19 bull rush and trip)
-
-**Combat maneuver defense:** 23
-
-**Feats:** Combat Expertise, Improved Bull Rush, Improved Trip, Lightning Reflexes, Power Attack,
-Weapon Focus (claw)
-
-**Skills:** Intimidate +6, Knowledge (religion) +4, Perception +13, Swim +18
-
-**Languages:** Aklo, Undercommon
-
-**Special qualities:** [amphibious](ref/umr/amphibious), cold vigor, overwhelming
-
-**Ecology**
-
-**Environment:** cold aquatic or underground
-
-**Organization:** solitary, pair, gang (3-5), or tribe (6-14)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold aquatic or underground
+Organization: solitary, pair, gang (3-5), or tribe (6-14)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

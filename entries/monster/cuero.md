@@ -31,85 +31,65 @@ abilities = ["22", "15", "18", "6", "15", "9"]
 
 _The pink, fleshy underside of this flat, aquatic creature features a large circular maw of fangs._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+blindsense: 30
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 59 (7d8+28)
+Fort: +6
+Ref: +4
+Will: +7
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 10 ft., swim 40 ft.
+B Drain: 1d2 Constitution
+Constrict: 1d6+9
+Melee: slam +10 (1d6+9 plus [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: muddy cloud
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +12
+::: statblock
+Ability scores: Str 22, Dex 15, Con 18, Int 6, Wis 15, Cha 9
+Base attack bonus: +5
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 24
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative, Skill Focus (Stealth)
+Skills: Perception +12, Stealth +11 (+21 in mud or muddy water), Swim +14
+Racial Modifiers: +10 Stealth in mud or muddy water
+Languages: Aklo
+Special qualities: [amphibious](ref/umr/amphibious), [compression](ref/umr/compression)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**B Drain:** 1d2 Constitution
-
-**Constrict:** 1d6+9
-
-**Melee:** slam +10 (1d6+9 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** muddy cloud
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 18, Int 6, Wis 15, Cha 9
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 24
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative, Skill Focus (Stealth)
-
-**Skills:** Perception +12, Stealth +11 (+21 in mud or muddy water), Swim +14
-
-**Racial Modifiers:** +10 Stealth in mud or muddy water
-
-**Languages:** Aklo
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate lakes or rivers
-
-**Organization:** solitary, pair, or pack (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate lakes or rivers
+Organization: solitary, pair, or pack (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

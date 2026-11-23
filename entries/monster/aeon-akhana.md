@@ -31,102 +31,73 @@ abilities = ["21", "23", "26", "16", "21", "18"]
 _Four gray arms project from a swirling mass resembling a giant eye, from which a tail-like
 appendage dangles._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +10
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., Deathwatch
+Subtype: Aeon, Extraplanar
+Experience points: 19,200
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 27
+Touch: 18
+Flat-footed: 21
+AC modifiers: +2 deflection, +6 Dex, +9 natural
+Hit points: 148 (11d10+88)
+Fort: +17
+Ref: +11
+Will: +14
+Fh: 5
+Immune: cold, critical hits, poison
+Resist: electricity 10, fire 10
+Sr: 23
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 40 ft. (poor)
+Melee: 4 claws +16 (1d4+5 plus [grab](ref/umr/grab))
+Spec Att: soul siphoning
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+Constant: deathwatch
+At will: cure serious wounds, gentle repose, inflict serious wounds (DC 17), sanctuary (DC 15)
+Per day: 3/day: restoration, slay living (DC 19)\
+1/day: raise dead
+:::
 
-**Senses:** Darkvision 60 ft., Deathwatch
+### Statistics
 
-**Subtype:** Aeon, Extraplanar
+::: statblock
+Ability scores: Str 21, Dex 23, Con 26, Int 16, Wis 21, Cha 18
+Base attack bonus: +11
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 34 (38 vs. trip)
+Feats: Combat Reflexes, Great Fortitude, Hover, Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Bluff +18, Fly +2, Intimidate +18, Knowledge (planes) +22, Perception +19, Sense Motive +19, Spellcraft +17, Stealth +20
+Languages: _envisaging_
+Special qualities: extension of all, void form
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 18
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 deflection, +6 Dex, +9 natural
-
-**Hit points:** 148 (11d10+88)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +14
-
-**Fh:** 5
-
-**Immune:** cold, critical hits, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (poor)
-
-**Melee:** 4 claws +16 (1d4+5 plus [grab](ref/umr/grab))
-
-**Spec Att:** soul siphoning
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**Constant:**
-
-- deathwatch
-
-**At will:**
-
-- cure serious wounds, gentle repose, inflict serious wounds (DC 17), sanctuary (DC 15)
-
-**Per day:**
-
-- 3/day: restoration, slay living (DC 19)
-- 1/day: raise dead
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 23, Con 26, Int 16, Wis 21, Cha 18
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 34 (38 vs. trip)
-
-**Feats:** Combat Reflexes, Great Fortitude, Hover, Improved Initiative, Iron Will, Lightning
-Reflexes
-
-**Skills:** Bluff +18, Fly +2, Intimidate +18, Knowledge (planes) +22, Perception +19, Sense Motive
-+19, Spellcraft +17, Stealth +20
-
-**Languages:** _envisaging_
-
-**Special qualities:** extension of all, void form
-
-**Ecology**
-
-**Environment:** any (Outer Planes)
-
-**Organization:** solitary, pair, or collective (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (Outer Planes)
+Organization: solitary, pair, or collective (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,69 +31,57 @@ abilities = ["11", "15", "-", "-", "11", "10"]
 
 _A decaying humanoid head floats silently and ominously, its graying teeth eerily clattering._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Initiative: +2
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: undead
+Experience points: 135
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +0
+Ref: +2
+Will: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: slam +2 (1d2)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 11, Dex 15, Con -, Int -, Wis 11, Cha 10
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 10 (can't be tripped)
+Skills: Fly +14
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +0
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** slam +2 (1d2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con -, Int -, Wis 11, Cha 10
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 10 (can't be tripped)
-
-**Skills:** Fly +14
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or patrol (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or patrol (3-6)
+Treasure: None
+:::
 
 ### Description
 

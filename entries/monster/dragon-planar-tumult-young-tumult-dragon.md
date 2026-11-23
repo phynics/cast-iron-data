@@ -30,90 +30,64 @@ abilities = ["25", "12", "23", "14", "17", "16"]
 
 _This dragon seems to be made of parts from different creatures._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic neutral
+Type: dragon
+Initiative: +5
+Size: large
+Perception: +20
+Senses: Dragon senses
+Subtype: Chaotic, Extraplanar
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 23
+AC modifiers: +1 Dex, +14 natural, -1 size
+Hit points: 175 (14d12+84)
+Fort: +15
+Ref: +10
+Will: +12
+Defensive abilities: adaptive form
+Immune: paralysis, sleep, warpproof
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft., climb 60 ft., swim 60 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, 6d8 damage, DC 23
+Melee: bite +20 (2d6+10), 2 claws +20 (1d8+7), tail slap +18 (1d8+10), 2 wings +19 (1d6+3)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+Spec Att: entropic breath, flexible breath
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: entropic shield, obscuring mist
+Cantrips: At will: create water, detect magic, resistance, spark
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar
-
-**Experience points:** 19,200
-
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +14 natural, -1 size
-
-**Hit points:** 175 (14d12+84)
-
-**Fort:** +15
-
-**Ref:** +10
-
-**Will:** +12
-
-**Defensive abilities:** adaptive form
-
-**Immune:** paralysis, sleep, warpproof
-
-**Offense**
-
-**Speed:** 60 ft., climb 60 ft., swim 60 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 6d8 damage, DC 23
-
-**Melee:** bite +20 (2d6+10), 2 claws +20 (1d8+7), tail slap +18 (1d8+10), 2 wings +19 (1d6+3)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** entropic breath, flexible breath
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: entropic shield, obscuring mist
-
-**Cantrips:**
-
-- At will: create water, detect magic, resistance, spark
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con 23, Int 14, Wis 17, Cha 16
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22 (+24 dirty trick)
-
-**Combat maneuver defense:** 33 (35 vs. dirty trick, 37 vs. trip)
-
-**Feats:** Blind-Fight, Combat Expertise, Hover, Improved Dirty Trick, Improved Initiative,
-Multiattack, Weapon Focus (wing)
-
-**Skills:** Acrobatics +15, Bluff +20, Climb +15, Fly +12
-
-**Languages:** Common, Draconic, Protean
+::: statblock
+Ability scores: Str 25, Dex 12, Con 23, Int 14, Wis 17, Cha 16
+Base attack bonus: +14
+Combat maneuver bonus: +22 (+24 dirty trick)
+Combat maneuver defense: 33 (35 vs. dirty trick, 37 vs. trip)
+Feats: Blind-Fight, Combat Expertise, Hover, Improved Dirty Trick, Improved Initiative, Multiattack, Weapon Focus (wing)
+Skills: Acrobatics +15, Bluff +20, Climb +15, Fly +12
+Languages: Common, Draconic, Protean
+:::
 
 ### Description
 

@@ -29,99 +29,74 @@ abilities = ["6", "17", "13", "11", "14", "18"]
 _This miniscule, green-skinned humanoid wields a needle-thin rapier. A pair of dragonfly wings holds
 the wee creature aloft._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic neutral
+Size: diminutive
+Type: fey
+Initiative: +7
+Perception: +7
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 size
+Hit points: 9 (2d6+2)
+Fort: +1
+Ref: +6
+Will: +5
+Dr: 2/cold iron
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 20 ft., fly 50 ft. (good)
+Melee: rapier +8 (1d2-2/18-20)
+Reach: 0
+Sneak: +1d6
+Space: 1
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+Constant: speak with animals
+At will: dancing lights, reduce person (DC 15)
+Per day: 3/day: invisibility, self only\
+1/day: shrink item
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 400
-
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 size
-
-**Hit points:** 9 (2d6+2)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +5
-
-**Dr:** 2/cold iron
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (good)
-
-**Melee:** rapier +8 (1d2-2/18-20)
-
-**Reach:** 0
-
-**Sneak:** +1d6
-
-**Space:** 1
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- dancing lights, reduce person (DC 15)
-
-**Per day:**
-
-- 3/day: invisibility, self only
-- 1/day: shrink item
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con 13, Int 11, Wis 14, Cha 18
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 8
-
-**Feats:** Improved Initiative^B^, Weapon Finesse
-
-**Skills:** Acrobatics +8 (+4 when jumping), Bluff +9, Escape Artist +7, Fly +18, Perception +7,
-Sense Motive +6, Stealth +20
-
-**Languages:** Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+::: statblock
+Ability scores: Str 6, Dex 17, Con 13, Int 11, Wis 14, Cha 18
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 8
+Feats: Improved Initiative^B^, Weapon Finesse
+Skills: Acrobatics +8 (+4 when jumping), Bluff +9, Escape Artist +7, Fly +18, Perception +7, Sense Motive +6, Stealth +20
+Languages: Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any temperate
-
-**Organization:** solitary, pair, gang (3-6), or band (7-14)
-
-**Treasure:** Standard (rapier); other treasure
+::: statblock
+Environment: any temperate
+Organization: solitary, pair, gang (3-6), or band (7-14)
+Treasure: Standard (rapier); other treasure
+:::
 
 ### Description
 

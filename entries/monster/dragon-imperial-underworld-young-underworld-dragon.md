@@ -32,110 +32,80 @@ abilities = ["21", "12", "17", "12", "13", "12"]
 _This serpentine dragon has skin the color of deep volcanic rock, enormous claws, and jagged,
 stone-like horns and scales._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: dragon
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Perception: +12
+Senses: Dragon senses, Smoke vision
+Subtype: Fire
+Experience points: 3,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 20
+AC modifiers: +1 Dex, +10 natural
+Hit points: 76 (8d12+24)
+Fort: +9
+Ref: +7
+Will: +7
+Immune: fire, paralysis, sleep
+Vulner: cold
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., burrow 30 ft., fly 150 ft. (average)
+Br Weap: 60-ft. line, 6d6 fire damage, DC 17
+Melee: bite +14 (1d8+7), 2 claws +13 (1d6+5/19-20), gore +13 (1d6+7)
+Reach: 5
+Reach P: 10 ft. with bite and gore
+Space: 5
+Spec Att: adamantine claws
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +9
+At will: soften earth and stone
+:::
 
-**Senses:** Dragon senses, Smoke vision
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +2
+1st-level spells: 4/day: burning hands (DC 12), cause fear (DC 12)
+Cantrips: At will: acid splash, bleed (DC 11), flare (DC 11), read magic
+:::
 
-**Subtype:** Fire
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 21, Dex 12, Con 17, Int 12, Wis 13, Cha 12
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Improved Critical (claw), Improved Initiative, Skill Focus (Stealth), Weapon Focus (bite)
+Skills: Appraise +12, Climb +16, Intimidate +12, Knowledge (dungeoneering, geography) +12, Perception +12, Stealth +15
+Languages: Common, Draconic
+Special qualities: change shape
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +10 natural
-
-**Hit points:** 76 (8d12+24)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +7
-
-**Immune:** fire, paralysis, sleep
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft., burrow 30 ft., fly 150 ft. (average)
-
-**Br Weap:** 60-ft. line, 6d6 fire damage, DC 17
-
-**Melee:** bite +14 (1d8+7), 2 claws +13 (1d6+5/19-20), gore +13 (1d6+7)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite and gore
-
-**Space:** 5
-
-**Spec Att:** adamantine claws
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +9
-
-**At will:**
-
-- soften earth and stone
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**1st-level spells:**
-
-- 4/day: burning hands (DC 12), cause fear (DC 12)
-
-**Cantrips:**
-
-- At will: acid splash, bleed (DC 11), flare (DC 11), read magic
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 12, Con 17, Int 12, Wis 13, Cha 12
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Improved Critical (claw), Improved Initiative, Skill Focus (Stealth), Weapon Focus (bite)
-
-**Skills:** Appraise +12, Climb +16, Intimidate +12, Knowledge (dungeoneering, geography) +12,
-Perception +12, Stealth +15
-
-**Languages:** Common, Draconic
-
-**Special qualities:** change shape
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

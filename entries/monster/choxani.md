@@ -32,81 +32,63 @@ abilities = ["11", "15", "14", "10", "14", "15"]
 _This faceless, spindly humanoid has dragonfly wings, and its woody skin is covered in shifting
 colors and patterns._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +2
+Size: medium
+Perception: +10
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 dodge, +2 natural
+Hit points: 27 (5d6+10)
+Fort: +3
+Ref: +6
+Will: +6
+Defensive abilities: all-around vision
+Dr: 5/cold iron and slashing
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 40 ft. (average)
+E Drain: 1 level, DC 14
+Melee: discoloring touch +4 touch (1d6 plus energy drain) or rapier +4 (1d6/18-20)
+Ranged: longbow +4 (1d8/×3)
+Spec Att: hypnotic colors
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 11, Dex 15, Con 14, Int 10, Wis 14, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 15
+Feats: Dodge, Mobility, Weapon Finesse
+Skills: Acrobatics +10, Disguise +10, Stealth +14
+Racial Modifiers: +4 Stealth
+Languages: First Speech (written only)
+Special qualities: pattern reading
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 dodge, +2 natural
-
-**Hit points:** 27 (5d6+10)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +6
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 5/cold iron and slashing
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (average)
-
-**E Drain:** 1 level, DC 14
-
-**Melee:** discoloring touch +4 touch (1d6 plus energy drain) or rapier +4 (1d6/18-20)
-
-**Ranged:** longbow +4 (1d8/×3)
-
-**Spec Att:** hypnotic colors
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 14, Int 10, Wis 14, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15
-
-**Feats:** Dodge, Mobility, Weapon Finesse
-
-**Skills:** Acrobatics +10, Disguise +10, Stealth +14
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** First Speech (written only)
-
-**Special qualities:** pattern reading
-
-**Ecology**
-
-**Environment:** any (First World)
-
-**Organization:** solitary, pair, or convocation (3-6)
-
-**Treasure:** Standard (lb20, rapier); other treasure
+::: statblock
+Environment: any (First World)
+Organization: solitary, pair, or convocation (3-6)
+Treasure: Standard (lb20, rapier); other treasure
+:::
 
 ### Special Abilities
 

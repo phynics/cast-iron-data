@@ -30,73 +30,59 @@ abilities = ["14", "13", "13", "-", "11", "2"]
 
 _This monstrous caterpillar's dark-scarlet bristles drip with thick, dangerous-looking venom._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: small
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +2
+Will: +1
+Defensive abilities: bristles
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +5 (1d6+2), bristles +0 (1d4+1 plus poison)
+Spec Att: poison
+Web: +4 ranged, DC 12, 3 hp
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 14, Dex 13, Con 13, Int -, Wis 11, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 14 (can't be tripped)
+Skills: Climb +10
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +1
-
-**Defensive abilities:** bristles
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +5 (1d6+2), bristles +0 (1d4+1 plus poison)
-
-**Spec Att:** poison
-
-**Web:** +4 ranged, DC 12, 3 hp
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 13, Con 13, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Skills:** Climb +10
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary, pair, or clutch (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary, pair, or clutch (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

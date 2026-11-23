@@ -36,109 +36,76 @@ abilities = ["24", "8", "24", "22", "21", "20"]
 _Seemingly fused with a monstrous iron throne, this impossibly corpulent being floats several feet
 off the ground._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: huge
+Initiative: +3
+Alignment: Lawful evil
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 19,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 29
+Touch: 7
+Flat-footed: 29
+AC modifiers: +4 armor, -1 Dex, +18 natural, -2 size
+Hit points: 175 (13d10+104)
+Fort: +17
+Ref: +3
+Will: +13
+Dr: 5/good
+Fh: 5
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 22
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft., fly 40 ft. (perfect)
+Melee: 2 slams +18 (2d8+7), bite +18 (2d6+7)
+Ranged: 3 searing words +10 (4d6 fire and divine)
+Reach: 5
+Space: 15
+Spec Att: blasphemous bile
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +27
+At will: alter self, dream (DC 24), greater teleport, self plus 50 lbs. of objects only, major image (DC 22), mirage arcana (DC 24), ventriloquism (DC 19)
+Per day: 3/day: blasphemy (DC 26), dominate person (DC 24), hold monster (DC 24), insanity (DC 26), touch of idiocy, veil (DC 25)\
+1/day: mind fog (DC 24), screen (DC 27), summon (level 8, 1d6 [bone devils](ref/monster/devil-bone-devil-osyluth) or 2d4 [bearded devils](ref/monster/devil-bearded-devil-barbazu) 50% or 1 [ice devil](ref/monster/devil-ice-devil-gelugon) 20%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 24, Dex 8, Con 24, Int 22, Wis 21, Cha 20
+Base attack bonus: +13
+Combat maneuver bonus: +22
+Combat maneuver defense: 41
+Feats: Diehard, Endurance, Great Fortitude, Improved Initiative, Persuasive, Toughness
+Skills: Bluff +21, Diplomacy +25, Perform (oratory) +18, Sense Motive +21, Spellcraft +22
+Languages: Abyssal, Celestial, Draconic, Infernal
+Special qualities: corpulence
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 7
-
-**Flat-footed:** 29
-
-**AC modifiers:** +4 armor, -1 Dex, +18 natural, -2 size
-
-**Hit points:** 175 (13d10+104)
-
-**Fort:** +17
-
-**Ref:** +3
-
-**Will:** +13
-
-**Dr:** 5/good
-
-**Fh:** 5
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (perfect)
-
-**Melee:** 2 slams +18 (2d8+7), bite +18 (2d6+7)
-
-**Ranged:** 3 searing words +10 (4d6 fire and divine)
-
-**Reach:** 5
-
-**Space:** 15
-
-**Spec Att:** blasphemous bile
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +27
-
-**At will:**
-
-- alter self, dream (DC 24), greater teleport, self plus 50 lbs. of objects only, major image (DC
-  22), mirage arcana (DC 24), ventriloquism (DC 19)
-
-**Per day:**
-
-- 3/day: blasphemy (DC 26), dominate person (DC 24), hold monster (DC 24), insanity (DC 26), touch
-  of idiocy, veil (DC 25)
-- 1/day: mind fog (DC 24), screen (DC 27), summon (level 8, 1d6
-  [bone devils](ref/monster/devil-bone-devil-osyluth) or 2d4
-  [bearded devils](ref/monster/devil-bearded-devil-barbazu) 50% or 1
-  [ice devil](ref/monster/devil-ice-devil-gelugon) 20%)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 8, Con 24, Int 22, Wis 21, Cha 20
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 41
-
-**Feats:** Diehard, Endurance, Great Fortitude, Improved Initiative, Persuasive, Toughness
-
-**Skills:** Bluff +21, Diplomacy +25, Perform (oratory) +18, Sense Motive +21, Spellcraft +22
-
-**Languages:** Abyssal, Celestial, Draconic, Infernal
-
-**Special qualities:** corpulence
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or lecture (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or lecture (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

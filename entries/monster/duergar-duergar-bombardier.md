@@ -30,73 +30,56 @@ special_qualities = "alchemy (alchemy crafting +2, identify potions), discovery 
 abilities = ["12", "16", "15", "15", "10", "4"]
 +++
 
-**Challenge rating:** 1
-
 **Duergar [alchemist](ref/class/alchemist) 2**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1
+Type: humanoid
+Initiative: +4
+Alignment: Lawful evil
+Size: medium
+Perception: +6
+Senses: Darkvision 120 ft.
+Subtype: Dwarf
+Experience points: 400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 18
+AC modifiers: +2 armor, +4 Dex, +6 natural
+Hit points: 18 (2d8+6)
+Fort: +5
+Ref: +7
+Will: +0; +2 vs. spells
+Immune: paralysis, phantasms, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft.
+Melee: light mace +2 (1d6+1)
+Ranged: bomb +6 (1d6+2 acid or fire) or light crossbow +3 (1d8/19-20)
+Spec Att: bomb 6/day (1d6+2 acid or fire, DC 13)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: -1
+Per day: 1/day: invisibility, self only, ironskin
+:::
 
-**Subtype:** Dwarf
-
-**Experience points:** 400
-
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 armor, +4 Dex, +6 natural
-
-**Hit points:** 18 (2d8+6)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +0; +2 vs. spells
-
-**Immune:** paralysis, phantasms, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** light mace +2 (1d6+1)
-
-**Ranged:** bomb +6 (1d6+2 acid or fire) or light crossbow +3 (1d8/19-20)
-
-**Spec Att:** bomb 6/day (1d6+2 acid or fire, DC 13)
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** -1
-
-**Per day:**
-
-- 1/day: invisibility, self only, ironskin
-
-**Spellcasting**
-
-**Caster level:** 2
-
-**1st-level spells:**
-
-- bomber's eye, shield, true strike
+::: statblock
+title = "Spellcasting"
+Caster level: 2
+1st-level spells: bomber's eye, shield, true strike
+:::
 
 ### Tactics
 
@@ -113,36 +96,26 @@ flat-footed 12; Ref +5, Will +1; Ranged bomb +4 (1d6+2 fire) or light crossbow +
 14, Wis 12; CMD 14 (18 vs. bull rush, 18 vs. trip); Skills Heal +6, Disable Device +7, Perception
 +6, Survival +6.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 12, Dex 16, Con 15, Int 15, Wis 10, Cha 4
+::: statblock
+Ability scores: Str 12, Dex 16, Con 15, Int 15, Wis 10, Cha 4
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 16 (20 vs. bull rush or trip)
+Feats: Brew Potion, Extra Bombs, Throw Anything
+Skills: Craft (alchemy) +7, Disable Device +8, Heal +4, Knowledge (arcana) +7, Perception +6
+Languages: Aklo, Common, Draconic, Dwarven, Undercommon
+Special qualities: alchemy (alchemy crafting +2, identify potions), discovery ([acid bomb](ref/discovery/acid-bomb)), ironskinned, mutagen (+4/-2, +2 natural, 20 minutes), [poison use](ref/ability/poison-use), slow and steady, stability
+Combat gear: 2 potion of cure light wounds, 2 potion of detect secret doors, 2 potion of expeditious retreat, 2 potion of negate aroma, 6 acid, 6 alchemist's fire, 6 sss, 6 tanglefoot bags, 6 thunderstones
+Other gear: leather armor, light crossbow with 10 bolts, light mace, I-dust of tracelessness, 6 Qtts, formula book, 2 gp
+:::
 
-**Base attack bonus:** +1
+### Ecology
 
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 16 (20 vs. bull rush or trip)
-
-**Feats:** Brew Potion, Extra Bombs, Throw Anything
-
-**Skills:** Craft (alchemy) +7, Disable Device +8, Heal +4, Knowledge (arcana) +7, Perception +6
-
-**Languages:** Aklo, Common, Draconic, Dwarven, Undercommon
-
-**Special qualities:** alchemy (alchemy crafting +2, identify potions), discovery
-([acid bomb](ref/discovery/acid-bomb)), ironskinned, mutagen (+4/-2, +2 natural, 20 minutes),
-[poison use](ref/ability/poison-use), slow and steady, stability
-
-**Combat gear:** 2 potion of cure light wounds, 2 potion of detect secret doors, 2 potion of
-expeditious retreat, 2 potion of negate aroma, 6 acid, 6 alchemist's fire, 6 sss, 6 tanglefoot bags,
-6 thunderstones
-
-**Other gear:** leather armor, light crossbow with 10 bolts, light mace, I-dust of tracelessness, 6
-Qtts, formula book, 2 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

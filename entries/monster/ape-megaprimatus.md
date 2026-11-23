@@ -29,73 +29,59 @@ abilities = ["29", "15", "22", "2", "12", "15"]
 _This titanic ape has great patches of coarse gray and brown fur, and its skin is thick and
 leathery._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: animal
+Size: gargantuan
+Initiative: +2
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 19
+AC modifiers: +2 Dex, +13 natural, -4 size
+Hit points: 105 (10d8+60)
+Fort: +13
+Ref: +9
+Will: +6
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: 2 slams +13 (1d8+9), bite +12 (2d6+9)
+Reach: 20
+Rend: 2 slams, 1d8+13
+Space: 20
+Spec Att: crash through, mangling rend
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 29, Dex 15, Con 22, Int 2, Wis 12, Cha 15
+Base attack bonus: +7
+Combat maneuver bonus: +20
+Combat maneuver defense: 32
+Feats: Combat Reflexes, Iron Will, Skill Focus (Perception), Snatch, Weapon Focus (slam)
+Skills: Acrobatics +10, Climb +21, Perception +11
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 8
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +13 natural, -4 size
-
-**Hit points:** 105 (10d8+60)
-
-**Fort:** +13
-
-**Ref:** +9
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** 2 slams +13 (1d8+9), bite +12 (2d6+9)
-
-**Reach:** 20
-
-**Rend:** 2 slams, 1d8+13
-
-**Space:** 20
-
-**Spec Att:** crash through, mangling rend
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 15, Con 22, Int 2, Wis 12, Cha 15
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 32
-
-**Feats:** Combat Reflexes, Iron Will, Skill Focus (Perception), Snatch, Weapon Focus (slam)
-
-**Skills:** Acrobatics +10, Climb +21, Perception +11
-
-**Ecology**
-
-**Environment:** warm forests, hills, or mountains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm forests, hills, or mountains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

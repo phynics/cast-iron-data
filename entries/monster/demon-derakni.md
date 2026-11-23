@@ -30,101 +30,74 @@ abilities = ["26", "23", "22", "9", "17", "16"]
 _The size of a horse, this demonic locust has a scorpion's stinger and an almost-human face. Its
 front legs end in clawed hands._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Initiative: +10
+Size: large
+Type: outsider
+Perception: +25
+Senses: Darkvision 60 ft., Scent
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 19
+AC modifiers: +6 Dex, +10 natural, -1 size
+Hit points: 126 (11d10+66)
+Fort: +13
+Ref: +13
+Will: +8
+Dr: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 21
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: bite +18 (1d4+8 plus poison), 2 claws +18 (1d4+8), sting +18 (1d8+8/19-20 plus poison)
+Reach: 10
+Space: 10
+Spec Att: drone
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+At will: contagion (DC 17), greater teleport, self plus 50 lbs. of objects only, gust of wind
+Per day: 3/day: enervation, quickened summon swarm\
+1/day: insect plague, summon (level 4, 1 derakni or 1d4 vescavor swarms 40%)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 26, Dex 23, Con 22, Int 9, Wis 17, Cha 16
+Base attack bonus: +11
+Combat maneuver bonus: +20
+Combat maneuver defense: 36 (44 vs. trip)
+Feats: Flyby Attack, Improved Critical (sting), Improved Initiative, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (summon swarm)
+Skills: Acrobatics +20, Fly +22, Perception +25
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +6 Dex, +10 natural, -1 size
-
-**Hit points:** 126 (11d10+66)
-
-**Fort:** +13
-
-**Ref:** +13
-
-**Will:** +8
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** bite +18 (1d4+8 plus poison), 2 claws +18 (1d4+8), sting +18 (1d8+8/19-20 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** drone
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**At will:**
-
-- contagion (DC 17), greater teleport, self plus 50 lbs. of objects only, gust of wind
-
-**Per day:**
-
-- 3/day: enervation, quickened summon swarm
-- 1/day: insect plague, summon (level 4, 1 derakni or 1d4 vescavor swarms 40%)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 23, Con 22, Int 9, Wis 17, Cha 16
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 36 (44 vs. trip)
-
-**Feats:** Flyby Attack, Improved Critical (sting), Improved Initiative, Iron Will, Power Attack,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (summon swarm)
-
-**Skills:** Acrobatics +20, Fly +22, Perception +25
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or swarm (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or swarm (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

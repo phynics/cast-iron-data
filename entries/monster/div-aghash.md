@@ -30,94 +30,70 @@ abilities = ["14", "15", "16", "13", "13", "18"]
 _Draped in rags and hunched over on goat-like legs, this creature possesses a featureless face, save
 for a large eye ringed by fangs._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Div, Evil, Extraplanar
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 42 (5d10+15)
+Fort: +4
+Ref: +6
+Will: +7
+Dr: 5/cold iron or good
+Immune: fire, poison
+Resist: acid 10, electricity 10
+Sr: 15
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +8 (1d6+2)
+Spec Att: cursed gaze, sandstorm
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+At will: bestow curse (DC 18), detect good, detect magic, dimension door, minor image (DC 16), spectral hand
+Per day: 1/day: suggestion (DC 17), summon (level 3, 1d2 [dorus](ref/monster/div-doru) 25%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Div, Evil, Extraplanar
+::: statblock
+Ability scores: Str 14, Dex 15, Con 16, Int 13, Wis 13, Cha 18
+Base attack bonus: +5
+Combat maneuver bonus: +7
+Combat maneuver defense: 19
+Feats: Alertness, Iron Will, Weapon Focus (claw)
+Skills: Bluff +10, Disguise +12, Sense Motive +9, Spellcraft +9, Stealth +10
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +7
-
-**Dr:** 5/cold iron or good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +8 (1d6+2)
-
-**Spec Att:** cursed gaze, sandstorm
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**At will:**
-
-- bestow curse (DC 18), detect good, detect magic, dimension door, minor image (DC 16), spectral
-  hand
-
-**Per day:**
-
-- 1/day: suggestion (DC 17), summon (level 3, 1d2 [dorus](ref/monster/div-doru) 25%)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 16, Int 13, Wis 13, Cha 18
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19
-
-**Feats:** Alertness, Iron Will, Weapon Focus (claw)
-
-**Skills:** Bluff +10, Disguise +12, Sense Motive +9, Spellcraft +9, Stealth +10
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,90 +32,67 @@ abilities = ["6", "13", "8", "24", "17", "21"]
 _This floating creature is mostly pulsating brain-sac, with an atrophied manikin body hanging under
 it._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 60
+Initiative: +1
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft.
+Experience points: 600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +1 Dex, +1 dodge
+Hit points: 18 (4d10-4)
+Fort: +0
+Ref: +5
+Will: +7
+Immune: mind-affecting effects
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 5 ft., fly 30 ft. (perfect)
+Melee: 2 claws +2 (1d4-2)
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +9
+Constant: detect magic, mage hand, read magic, tongues
+At will: daze (DC 15), detect thoughts (DC 17), ghost sound (DC 15), magic missile
+Per day: 1/day: telekinesis (DC 20)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 6, Dex 13, Con 8, Int 24, Wis 17, Cha 21
+Base attack bonus: +4
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Combat Casting, Dodge
+Skills: Bluff +9, Diplomacy +9, Fly +9, Handle Animal +9, Sense Motive +7, Spellcraft +11, Use Magic Device +9
+Languages: telepathy 100 ft., _[tongues](ref/spell/tongues)_
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +1 Dex, +1 dodge
-
-**Hit points:** 18 (4d10-4)
-
-**Fort:** +0
-
-**Ref:** +5
-
-**Will:** +7
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 5 ft., fly 30 ft. (perfect)
-
-**Melee:** 2 claws +2 (1d4-2)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +9
-
-**Constant:**
-
-- detect magic, mage hand, read magic, tongues
-
-**At will:**
-
-- daze (DC 15), detect thoughts (DC 17), ghost sound (DC 15), magic missile
-
-**Per day:**
-
-- 1/day: telekinesis (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 13, Con 8, Int 24, Wis 17, Cha 21
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Combat Casting, Dodge
-
-**Skills:** Bluff +9, Diplomacy +9, Fly +9, Handle Animal +9, Sense Motive +7, Spellcraft +11, Use
-Magic Device +9
-
-**Languages:** telepathy 100 ft., _[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, trio, or band (4-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary, trio, or band (4-7)
+Treasure: Standard
+:::
 
 ### Description
 

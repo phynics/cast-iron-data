@@ -33,117 +33,81 @@ abilities = ["47", "8", "27", "3", "16", "14"]
 _Two massive limbs drag the bulk of this whale-like beast's body from the churning waters of the
 sea._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+blindsense: 60
+Size: colossal
+Initiative: -1
+Type: Magical beast
+Alignment: Neutral
+Perception: +34
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Behemoth, Water
+Experience points: 307,200
+:::
 
-**blindsense:** 60
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 37
+Touch: 1
+Flat-footed: 37
+AC modifiers: -1 Dex, +36 natural, -8 size
+Hit points: 391 (29d10+232)
+Fort: +24
+Ref: +17
+Will: +14
+Dr: 15/epic
+Immune: ability damage, aging, bleed, cold, disease, energy drain, fire, mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, poison, polymorph
+Regen: 20
+Sr: 31
+Unstop: present
+Vulner: [miracles](ref/spell/miracle) and [wishes](ref/spell/wish)
+:::
 
-**Initiative:** -1
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 20 ft., swim 200 ft.
+Capsize: 25
+F Swallow: present
+Melee: bite +39 (6d6+18/19-20 plus [grab](ref/umr/grab)), 2 claws +39 (3d6+18), tail slap +34 (4d6+9 plus [trip](ref/umr/trip))
+Push: water jet, 20 ft.
+Ranged: water jet +20 (4d8+18/19-20 plus stun and push)
+Reach: 20
+Rend: 2 claws, 3d6+18
+Space: 30
+Spec Att: ruinous
+Swallow: 4d6+27 bludgeoning, AC 28, 39 hp
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +22
+Per day: 3/day: tsunami (DC 21)
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 47, Dex 8, Con 27, Int 3, Wis 16, Cha 14
+Base attack bonus: +29
+Combat maneuver bonus: +55 (+59 grapple or sunder)
+Combat maneuver defense: 64 (66 vs. sunder)
+Feats: Ability Focus (water jet), Cleave, Great Cleave, Greater Sunder, Greater Vital Strike, Improved Critical (bite, water jet), Improved Iron Will, Improved Sunder, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception), Vital Strike
+Skills: Perception +34, Swim +30
+Racial Modifiers: +10 Perception
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic, Behemoth, Water
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 37
-
-**Touch:** 1
-
-**Flat-footed:** 37
-
-**AC modifiers:** -1 Dex, +36 natural, -8 size
-
-**Hit points:** 391 (29d10+232)
-
-**Fort:** +24
-
-**Ref:** +17
-
-**Will:** +14
-
-**Dr:** 15/epic
-
-**Immune:** ability damage, aging, bleed, cold, disease, energy drain, fire, mind-affecting effects,
-negative levels, paralysis, permanent wounds, petrification, poison, polymorph
-
-**Regen:** 20
-
-**Sr:** 31
-
-**Unstop:** present
-
-**Vulner:** [miracles](ref/spell/miracle) and [wishes](ref/spell/wish)
-
-**Offense**
-
-**Speed:** 20 ft., swim 200 ft.
-
-**Capsize:** 25
-
-**F Swallow:** present
-
-**Melee:** bite +39 (6d6+18/19-20 plus [grab](ref/umr/grab)), 2 claws +39 (3d6+18), tail slap +34
-(4d6+9 plus [trip](ref/umr/trip))
-
-**Push:** water jet, 20 ft.
-
-**Ranged:** water jet +20 (4d8+18/19-20 plus stun and push)
-
-**Reach:** 20
-
-**Rend:** 2 claws, 3d6+18
-
-**Space:** 30
-
-**Spec Att:** ruinous
-
-**Swallow:** 4d6+27 bludgeoning, AC 28, 39 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +22
-
-**Per day:**
-
-- 3/day: tsunami (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 47, Dex 8, Con 27, Int 3, Wis 16, Cha 14
-
-**Base attack bonus:** +29
-
-**Combat maneuver bonus:** +55 (+59 grapple or sunder)
-
-**Combat maneuver defense:** 64 (66 vs. sunder)
-
-**Feats:** Ability Focus (water jet), Cleave, Great Cleave, Greater Sunder, Greater Vital Strike,
-Improved Critical (bite, water jet), Improved Iron Will, Improved Sunder, Improved Vital Strike,
-Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception), Vital Strike
-
-**Skills:** Perception +34, Swim +30
-
-**Racial Modifiers:** +10 Perception
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

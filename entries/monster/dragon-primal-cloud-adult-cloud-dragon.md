@@ -29,118 +29,83 @@ special_qualities = "cloud form (16 rounds/day)"
 abilities = ["24", "9", "21", "16", "20", "19"]
 +++
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 22)
+Alignment: Chaotic neutral
+Type: dragon
+Size: huge
+Initiative: +3
+Perception: +24
+Senses: Dragon senses, Mist vision
+Subtype: Air, Extraplanar
+Experience points: 25,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 22)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 29
+Touch: 7
+Flat-footed: 29
+AC modifiers: -1 Dex, +22 natural, -2 size
+Hit points: 184 (16d12+80)
+Fort: +15
+Ref: +9
+Will: +15
+Dr: 5/magic
+Immune: electricity, paralysis, sleep
+Sr: 24
+:::
 
-**Type:** dragon
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 40 ft., swim 40 ft., fly 200 ft. (poor)
+Br Weap: 50-ft. cone, 12d8 electricity, DC 23
+Melee: bite +22 (2d8+10/19-20), 2 claws +22 (2d6+7), tail slap +19 (2d6+10), 2 wings +19 (1d8+3)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: crush
+:::
 
-**Initiative:** +3
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +20
+At will: fog cloud, obscuring mist, solid fog
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spells Known"
+Caster level: 5
+Concentration: +9
+2nd-level spells: 5/day: blur, see invisibility
+1st-level spells: 7/day: charm person (DC 15), detect secret doors, shield, true strike
+Cantrips: At will: dancing lights, detect poison, light, message, prestidigitation, read magic
+:::
 
-**Senses:** Dragon senses, Mist vision
+### Statistics
 
-**Subtype:** Air, Extraplanar
+::: statblock
+Ability scores: Str 24, Dex 9, Con 21, Int 16, Wis 20, Cha 19
+Base attack bonus: +16
+Combat maneuver bonus: +25
+Combat maneuver defense: 34 (38 vs. trip)
+Feats: Critical Focus, Improved Critical (bite), Improved Initiative, Multiattack, Power Attack, Skill Focus (Diplomacy), Weapon Focus (bite, claws)
+Skills: Appraise +22, Diplomacy +29, Fly +10
+Languages: Auran, Common, Draconic, Elven
+Special qualities: cloud form (16 rounds/day)
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 7
-
-**Flat-footed:** 29
-
-**AC modifiers:** -1 Dex, +22 natural, -2 size
-
-**Hit points:** 184 (16d12+80)
-
-**Fort:** +15
-
-**Ref:** +9
-
-**Will:** +15
-
-**Dr:** 5/magic
-
-**Immune:** electricity, paralysis, sleep
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft., fly 200 ft. (poor)
-
-**Br Weap:** 50-ft. cone, 12d8 electricity, DC 23
-
-**Melee:** bite +22 (2d8+10/19-20), 2 claws +22 (2d6+7), tail slap +19 (2d6+10), 2 wings +19 (1d8+3)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** crush
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +20
-
-**At will:**
-
-- fog cloud, obscuring mist, solid fog
-
-**Spells Known**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**2nd-level spells:**
-
-- 5/day: blur, see invisibility
-
-**1st-level spells:**
-
-- 7/day: charm person (DC 15), detect secret doors, shield, true strike
-
-**Cantrips:**
-
-- At will: dancing lights, detect poison, light, message, prestidigitation, read magic
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 9, Con 21, Int 16, Wis 20, Cha 19
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 34 (38 vs. trip)
-
-**Feats:** Critical Focus, Improved Critical (bite), Improved Initiative, Multiattack, Power Attack,
-Skill Focus (Diplomacy), Weapon Focus (bite, claws)
-
-**Skills:** Appraise +22, Diplomacy +29, Fly +10
-
-**Languages:** Auran, Common, Draconic, Elven
-
-**Special qualities:** cloud form (16 rounds/day)
-
-**Ecology**
-
-**Environment:** any sky ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any sky ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

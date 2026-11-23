@@ -32,98 +32,72 @@ abilities = ["28", "21", "18", "12", "13", "17"]
 _This lithe, toothy creature's jet-black skin looks like living tar, and ooze drips from the claws
 that cap its long arms._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Initiative: +9
+Size: medium
+Type: outsider
+Perception: +22
+Senses: Darkvision 120 ft., Detect good, Detect magic
+Subtype: Chaotic, Demodand, Evil, Extraplanar
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 26
+Touch: 13
+Flat-footed: 23
+AC modifiers: +6 armor, +3 Dex, +7 natural
+Hit points: 171 (18d10+72)
+Fort: +15
+Ref: +11
+Will: +12; +4 vs. divine spells
+Dr: 10/good and magic
+Immune: acid, poison
+Resist: cold 10, fire 10
+Sr: 24
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 40 ft. (average)
+Melee: mwk short sword +27/+22/+17/+12 (1d6+9/19-20), mwk short sword +27/+22/+17 (1d6+4/19-20), bite +22 (1d8+4)
+Spec Att: adhesion, faith-stealing strike (DC 22)
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +16
+Constant: detect good, detect magic
+Per day: 3/day: dispel magic\
+1/day: chaos hammer (DC 17), summon (level 4, 1d2 tarry demodands 40%)
+:::
 
-**Senses:** Darkvision 120 ft., Detect good, Detect magic
+### Statistics
 
-**Subtype:** Chaotic, Demodand, Evil, Extraplanar
+::: statblock
+Ability scores: Str 28, Dex 21, Con 18, Int 12, Wis 13, Cha 17
+Base attack bonus: +18
+Combat maneuver bonus: +27
+Combat maneuver defense: 42 (46 vs. disarm)
+Feats: Combat Reflexes, Greater Two-Weapon Fighting, Improved Bull Rush, Improved Initiative, Improved Two-Weapon Fighting, Lunge, Power Attack, Two-Weapon Fighting, Weapon Focus (short sword)
+Skills: Bluff +16, Climb +19, Intimidate +24, Knowledge (arcana) +14, Perception +22
+Languages: Abyssal, Celestial, Common
+Special qualities: heretical soul
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +6 armor, +3 Dex, +7 natural
-
-**Hit points:** 171 (18d10+72)
-
-**Fort:** +15
-
-**Ref:** +11
-
-**Will:** +12; +4 vs. divine spells
-
-**Dr:** 10/good and magic
-
-**Immune:** acid, poison
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (average)
-
-**Melee:** mwk short sword +27/+22/+17/+12 (1d6+9/19-20), mwk short sword +27/+22/+17 (1d6+4/19-20),
-bite +22 (1d8+4)
-
-**Spec Att:** adhesion, faith-stealing strike (DC 22)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +16
-
-**Constant:**
-
-- detect good, detect magic
-
-**Per day:**
-
-- 3/day: dispel magic
-- 1/day: chaos hammer (DC 17), summon (level 4, 1d2 tarry demodands 40%)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 21, Con 18, Int 12, Wis 13, Cha 17
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 42 (46 vs. disarm)
-
-**Feats:** Combat Reflexes, Greater Two-Weapon Fighting, Improved Bull Rush, Improved Initiative,
-Improved Two-Weapon Fighting, Lunge, Power Attack, Two-Weapon Fighting, Weapon Focus (short sword)
-
-**Skills:** Bluff +16, Climb +19, Intimidate +24, Knowledge (arcana) +14, Perception +22
-
-**Languages:** Abyssal, Celestial, Common
-
-**Special qualities:** heretical soul
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or patrol (3-8)
-
-**Treasure:** Standard (mwk breastplate, 2 mwk short swords); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or patrol (3-8)
+Treasure: Standard (mwk breastplate, 2 mwk short swords); other treasure
+:::
 
 ### Special Abilities
 

@@ -31,76 +31,60 @@ abilities = ["-", "28", "-", "9", "16", "23"]
 _The twisted, tormented frame of this ghostly spirit is reflected in the utter anguish that shines
 within its glaring eyes._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +13
+Alignment: Lawful evil
+Size: medium
+Perception: +21
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 19,200
+:::
 
-**Initiative:** +13
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 26
+Touch: 26
+Flat-footed: 16
+AC modifiers: +6 deflection, +9 Dex, +1 dodge
+Hit points: 157 (15d8+90)
+Fort: +13
+Ref: +16
+Will: +14
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +21
+::: statblock
+Speed: fly 30 ft. (perfect)
+Melee: 2 pain touches +20 (8d6/19-20)
+Spec Att: tortured gaze
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 28, Con -, Int 9, Wis 16, Cha 23
+Base attack bonus: +11
+Combat maneuver bonus: +20
+Combat maneuver defense: 37
+Feats: Dodge, Great Fortitude, Improved Critical (pain touch), Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Spring Attack
+Skills: Fly +35, Perception +21, Stealth +27
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology {#stat-ecology}
 
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 26
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, +9 Dex, +1 dodge
-
-**Hit points:** 157 (15d8+90)
-
-**Fort:** +13
-
-**Ref:** +16
-
-**Will:** +14
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Melee:** 2 pain touches +20 (8d6/19-20)
-
-**Spec Att:** tortured gaze
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 28, Con -, Int 9, Wis 16, Cha 23
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 37
-
-**Feats:** Dodge, Great Fortitude, Improved Critical (pain touch), Improved Initiative, Iron Will,
-Lightning Reflexes, Mobility, Spring Attack
-
-**Skills:** Fly +35, Perception +21, Stealth +27
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or torment (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or torment (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

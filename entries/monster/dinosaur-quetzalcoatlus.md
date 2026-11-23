@@ -32,72 +32,58 @@ abilities = ["25", "17", "17", "2", "14", "12"]
 _This immense flying reptile has a staggering wingspan and a brightly colored head with a
 razor-sharp beak._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Size: huge
+Initiative: +7
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 Dex, +1 dodge, +7 natural, -2 size
+Hit points: 82 (11d8+33)
+Fort: +10
+Ref: +12
+Will: +5
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 50 ft. (clumsy)
+Melee: bite +13 (2d8+7/×3), 2 wings +8 (1d6+3)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 17, Con 17, Int 2, Wis 14, Cha 12
+Base attack bonus: +8
+Combat maneuver bonus: +17
+Combat maneuver defense: 31
+Feats: Dodge, Flyby Attack, Improved Initiative, Lightning Reflexes, Lunge, Skill Focus (Perception)
+Skills: Fly +0, Perception +13
+Special qualities: difficult to train, razor-sharp beak
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +1 dodge, +7 natural, -2 size
-
-**Hit points:** 82 (11d8+33)
-
-**Fort:** +10
-
-**Ref:** +12
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (clumsy)
-
-**Melee:** bite +13 (2d8+7/×3), 2 wings +8 (1d6+3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 17, Con 17, Int 2, Wis 14, Cha 12
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 31
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Lightning Reflexes, Lunge, Skill Focus
-(Perception)
-
-**Skills:** Fly +0, Perception +13
-
-**Special qualities:** difficult to train, razor-sharp beak
-
-**Ecology**
-
-**Environment:** warm coastlines, plains, or swamps
-
-**Organization:** solitary, pair, or flock (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm coastlines, plains, or swamps
+Organization: solitary, pair, or flock (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,97 +31,70 @@ abilities = ["11", "17", "14", "14", "13", "16"]
 
 _This bloated spider has a hunchbacked body and a gleam of intelligence in its multiple eyes._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +7
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Shapechanger
+Experience points: 1,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +4 armor, +3 Dex, +3 natural
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +7
+Will: +4
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Melee: bite +8 (1d6 plus poison)
+Spec Att: (+8 ranged, DC 14, hp 5)
+Web: present
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spells Known"
+Caster level: 5
+Concentration: +8
+2nd-level spells: 5/day: invisibility, mirror image
+1st-level spells: 7/day: charm person (DC 14), mage armor, 1 already cast, silent image (DC 14), sleep (DC 14)
+Cantrips: At will: daze (DC 13), detect magic, ghost sound (DC 13), light, mage hand, resistance
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 11, Dex 17, Con 14, Int 14, Wis 13, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Eschew Materials, Improved Initiative, Iron Will, Weapon Finesse
+Skills: Acrobatics +9 (+17 jump), Climb +14, Escape Artist +8, Knowledge (arcana) +7, Perception +9, Stealth +9
+Racial Modifiers: +2 Acrobatics, +2 Perception
+Languages: Common, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +3 Dex, +3 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Melee:** bite +8 (1d6 plus poison)
-
-**Spec Att:** (+8 ranged, DC 14, hp 5)
-
-**Web:** present
-
-**Spells Known**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**2nd-level spells:**
-
-- 5/day: invisibility, mirror image
-
-**1st-level spells:**
-
-- 7/day: charm person (DC 14), mage armor, 1 already cast, silent image (DC 14), sleep (DC 14)
-
-**Cantrips:**
-
-- At will: daze (DC 13), detect magic, ghost sound (DC 13), light, mage hand, resistance
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 17, Con 14, Int 14, Wis 13, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Eschew Materials, Improved Initiative, Iron Will, Weapon Finesse
-
-**Skills:** Acrobatics +9 (+17 jump), Climb +14, Escape Artist +8, Knowledge (arcana) +7, Perception
-+9, Stealth +9
-
-**Racial Modifiers:** +2 Acrobatics, +2 Perception
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** tropical forests
-
-**Organization:** solitary or colony (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: tropical forests
+Organization: solitary or colony (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

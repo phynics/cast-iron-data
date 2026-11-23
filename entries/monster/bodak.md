@@ -34,79 +34,62 @@ abilities = ["13", "15", "-", "6", "13", "16"]
 _The flesh of this emaciated creature appears charred or dried, and its empty eye sockets seep
 trails of smoke._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Type: undead
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +2 Dex, +1 dodge, +8 natural
+Hit points: 85 (10d8+40)
+Fort: +6
+Ref: +5
+Will: +8
+Dr: 10/cold iron
+Immune: electricity, [undead traits](ref/umr/undead-traits)
+Resist: acid 10, fire 10
+Weaknesses: vulnerable to sunlight
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +9 (1d8+1)
+Spec Att: death gaze
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 13, Dex 15, Con -, Int 6, Wis 13, Cha 16
+Base attack bonus: +7
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Dodge, Improved Initiative, Mobility, Toughness, Weapon Focus (slam)
+Skills: Intimidate +11, Perception +14, Stealth +10
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +1 dodge, +8 natural
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +8
-
-**Dr:** 10/cold iron
-
-**Immune:** electricity, [undead traits](ref/umr/undead-traits)
-
-**Resist:** acid 10, fire 10
-
-**Weaknesses:** vulnerable to sunlight
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +9 (1d8+1)
-
-**Spec Att:** death gaze
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con -, Int 6, Wis 13, Cha 16
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Improved Initiative, Mobility, Toughness, Weapon Focus (slam)
-
-**Skills:** Intimidate +11, Perception +14, Stealth +10
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any land (evil Outer Plane)
-
-**Organization:** solitary, pair, or gang (3-4)
-
-**Treasure:** None
+::: statblock
+Environment: any land (evil Outer Plane)
+Organization: solitary, pair, or gang (3-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,98 +31,73 @@ abilities = ["29", "16", "23", "10", "19", "20"]
 
 _This armor-plated creature has four crab-like legs and four arms with razor-sharp pincers._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: aberration
+Size: gargantuan
+Initiative: +7
+Alignment: Lawful evil
+Perception: +27
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+tremorsense: 120
+Experience points: 38,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 30
+Touch: 15
+Flat-footed: 26
+AC modifiers: +5 deflection, +3 Dex, +1 dodge, +15 natural, -4 size
+Hit points: 210 (20d8+120)
+Fort: +17
+Ref: +11
+Will: +18
+Defensive abilities: psychic protection
+Immune: cold
+Resist: acid 20, fire 20
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Melee: 4 claws +21 (2d6+9/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: consume prey
+:::
 
-**Perception:** +27
+::: statblock
+title = "Psychic Magic"
+Caster level: 14
+Concentration: +20
+Power points: 14
+Psychoactive powers: mass inflict pain, 6 PE, DC 22, mind thrust V, 4 PE, DC 20, oneiric horror, 2 PE, DC 18
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 29, Dex 16, Con 23, Int 10, Wis 19, Cha 20
+Base attack bonus: +15
+Combat maneuver bonus: +28 (+32 grapple)
+Combat maneuver defense: 47
+Feats: Combat Reflexes, Dodge, Improved Critical (claw), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Skill Focus (Stealth), Vital Strike, Weapon Focus (claw)
+Skills: Intimidate +29, Perception +27, Sense Motive +24, Stealth +20, Swim +17
+Languages: Aboleth, Aquan
+Special qualities: [amphibious](ref/umr/amphibious), crab walk
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 30
-
-**Touch:** 15
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 deflection, +3 Dex, +1 dodge, +15 natural, -4 size
-
-**Hit points:** 210 (20d8+120)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +18
-
-**Defensive abilities:** psychic protection
-
-**Immune:** cold
-
-**Resist:** acid 20, fire 20
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Melee:** 4 claws +21 (2d6+9/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** consume prey
-
-**Psychic Magic**
-
-**Caster level:** 14
-
-**Concentration:** +20
-
-**Power points:** 14
-
-**Psychoactive powers:**
-
-- mass inflict pain, 6 PE, DC 22, mind thrust V, 4 PE, DC 20, oneiric horror, 2 PE, DC 18
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 16, Con 23, Int 10, Wis 19, Cha 20
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +28 (+32 grapple)
-
-**Combat maneuver defense:** 47
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (claw), Improved Initiative, Improved Vital
-Strike, Iron Will, Lightning Reflexes, Skill Focus (Stealth), Vital Strike, Weapon Focus (claw)
-
-**Skills:** Intimidate +29, Perception +27, Sense Motive +24, Stealth +20, Swim +17
-
-**Languages:** Aboleth, Aquan
-
-**Special qualities:** [amphibious](ref/umr/amphibious), crab walk
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or troop (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or troop (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

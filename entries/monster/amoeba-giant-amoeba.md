@@ -31,75 +31,60 @@ abilities = ["12", "1", "16", "-", "1", "1"]
 _This blob of protoplasm is somewhat transparent, allowing the bones of undigested meals and a dark
 nucleus to be seen within._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsight: 30
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Size: small
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 6
+Touch: 6
+Flat-footed: 6
+AC modifiers: -5 Dex, +1 size
+Hit points: 15 (2d8+6)
+Fort: +3
+Ref: -5
+Will: -5
+Immune: [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 10 ft., climb 10 ft., swim 20 ft.
+Constrict: 1d3+1 plus 1d3 acid
+Melee: slam +3 (1d3+1 plus 1d3 acid and [grab](ref/umr/grab))
+Reach: 5
+Space: 5
+:::
 
-**Perception:** -5
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 1, Con 16, Int -, Wis 1, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: +1 (+5 grapple)
+Combat maneuver defense: 6 (can't be tripped)
+Skills: Climb +9
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 6
-
-**Touch:** 6
-
-**Flat-footed:** 6
-
-**AC modifiers:** -5 Dex, +1 size
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +3
-
-**Ref:** -5
-
-**Will:** -5
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., swim 20 ft.
-
-**Constrict:** 1d3+1 plus 1d3 acid
-
-**Melee:** slam +3 (1d3+1 plus 1d3 acid and [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 1, Con 16, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1 (+5 grapple)
-
-**Combat maneuver defense:** 6 (can't be tripped)
-
-**Skills:** Climb +9
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary or colony (2-9)
-
-**Treasure:** None
+::: statblock
+Environment: any land or underground
+Organization: solitary or colony (2-9)
+Treasure: None
+:::
 
 ### Description
 

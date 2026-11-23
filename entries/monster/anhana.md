@@ -31,90 +31,68 @@ _This miniature young woman has white skin; long, braided hair festooned with ri
 slanted eyes of deep violet. She wears flowing, diaphanous clothing and carries a pair of delicate
 gardening shears._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic good
+Type: fey
+Initiative: +3
+Perception: +12
+Senses: Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 dodge, +1 size
+Hit points: 27 (5d6+10)
+Fort: +3
+Ref: +7
+Will: +6
+Dr: 5/cold iron
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 30 ft.
+Melee: shears +7 (1d8+1/19-20)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +9
+Constant: speak with animals
+At will: ghost sound
+Per day: 3/day: deep slumber (DC 17), entangle (DC 15), hideous laughter (DC 16)\
+1/day: thorn body
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 10, Dex 17, Con 14, Int 13, Wis 14, Cha 19
+Base attack bonus: +2
+Combat maneuver bonus: +1
+Combat maneuver defense: 15
+Feats: Alertness, Dodge, Weapon Finesse
+Skills: Diplomacy +12, Fly +13
+Languages: Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: speak with water
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 size
-
-**Hit points:** 27 (5d6+10)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +6
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** shears +7 (1d8+1/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- ghost sound
-
-**Per day:**
-
-- 3/day: deep slumber (DC 17), entangle (DC 15), hideous laughter (DC 16)
-- 1/day: thorn body
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 14, Int 13, Wis 14, Cha 19
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 15
-
-**Feats:** Alertness, Dodge, Weapon Finesse
-
-**Skills:** Diplomacy +12, Fly +13
-
-**Languages:** Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** speak with water
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary, pair, or sisterhood (3-15)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest
+Organization: solitary, pair, or sisterhood (3-15)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

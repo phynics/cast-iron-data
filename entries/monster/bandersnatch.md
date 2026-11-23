@@ -32,99 +32,70 @@ abilities = ["36", "25", "27", "2", "15", "18"]
 _This six-limbed beast stalks forward with a fluid grace. Barbed quills run along its back, and its
 eyes glow with a blue light._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+blindsense: 120
+Size: gargantuan
+Initiative: +11
+Type: Magical beast
+Alignment: Neutral
+Perception: +26
+Senses: Darkvision 120 ft., Low-light vision, Scent
+Experience points: 102,400
+:::
 
-**blindsense:** 120
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 33
+Touch: 13
+Flat-footed: 26
+AC modifiers: +7 Dex, +20 natural, -4 size
+Hit points: 310 (23d10+184)
+Fort: +21
+Ref: +20
+Will: +11
+Defensive abilities: quick recovery, quill defense
+Fh: 10
+Immune: fear, paralysis, poison, sleep
+:::
 
-**Initiative:** +11
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 60 ft., climb 20 ft.
+Gaze: present
+Melee: bite +32 (2d8+13 plus [grab](ref/umr/grab)), 2 claws +32 (2d6+13/19-20), tail slap +27 (2d8+19/×3 plus pain)
+Pounce: present
+Rake: 4 claws, +32, 2d6+13/19-20
+Ranged: 4 quills +26 (1d10+13/19-20)
+Reach: 15
+Reach P: 20 ft. with tail slap
+Rend: 2 claws, 2d6+19
+Space: 20
+Spec Att: bounding charge, brutal tail, lash out
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +26
+::: statblock
+Ability scores: Str 36, Dex 25, Con 27, Int 2, Wis 15, Cha 18
+Base attack bonus: +23
+Combat maneuver bonus: +40 (+44 grapple)
+Combat maneuver defense: 57 (65 vs. trip)
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Critical Mastery, Exhausting Critical, Improved Critical (claws), Improved Critical (quills), Improved Initiative, Improved Iron Will, Iron Will, Skill Focus (Stealth), Tiring Critical
+Skills: Acrobatics +19 (+31 when jumping), Climb +21, Perception +26
+Racial Modifiers: +8 Acrobatics, +10 Perception, +4 Stealth (+12 forests), +20 Survival when tracking
+Special qualities: planar acclimation, relentless tracker
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, Scent
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 33
-
-**Touch:** 13
-
-**Flat-footed:** 26
-
-**AC modifiers:** +7 Dex, +20 natural, -4 size
-
-**Hit points:** 310 (23d10+184)
-
-**Fort:** +21
-
-**Ref:** +20
-
-**Will:** +11
-
-**Defensive abilities:** quick recovery, quill defense
-
-**Fh:** 10
-
-**Immune:** fear, paralysis, poison, sleep
-
-**Offense**
-
-**Speed:** 60 ft., climb 20 ft.
-
-**Gaze:** present
-
-**Melee:** bite +32 (2d8+13 plus [grab](ref/umr/grab)), 2 claws +32 (2d6+13/19-20), tail slap +27
-(2d8+19/×3 plus pain)
-
-**Pounce:** present
-
-**Rake:** 4 claws, +32, 2d6+13/19-20
-
-**Ranged:** 4 quills +26 (1d10+13/19-20)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with tail slap
-
-**Rend:** 2 claws, 2d6+19
-
-**Space:** 20
-
-**Spec Att:** bounding charge, brutal tail, lash out
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 25, Con 27, Int 2, Wis 15, Cha 18
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +40 (+44 grapple)
-
-**Combat maneuver defense:** 57 (65 vs. trip)
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Critical Mastery, Exhausting
-Critical, Improved Critical (claws), Improved Critical (quills), Improved Initiative, Improved Iron
-Will, Iron Will, Skill Focus (Stealth), Tiring Critical
-
-**Skills:** Acrobatics +19 (+31 when jumping), Climb +21, Perception +26
-
-**Racial Modifiers:** +8 Acrobatics, +10 Perception, +4 Stealth (+12 forests), +20 Survival when
-tracking
-
-**Special qualities:** planar acclimation, relentless tracker
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any forests
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

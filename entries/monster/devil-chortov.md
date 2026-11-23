@@ -33,96 +33,71 @@ a city wall. Girded in fiendishly etched armor too small for its incredible corp
 densely muscled hide spill forth in a flamered avalanche. Gnashing its many-tusked teeth and
 clutching a wicked military fork, the terrible giant rumbles as if preparing to roar or scream._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: huge
+Initiative: -2
+Alignment: Lawful evil
+Type: outsider
+Perception: -1
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 6,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 21
+Touch: 6
+Flat-footed: 21
+AC modifiers: +9 armor, -2 Dex, +6 natural, -2 size
+Hit points: 125 (10d10+70)
+Fort: +14
+Ref: +5
+Will: +2
+Dr: 5/good and piercing
+Immune: fire, poison
+Resist: acid 10, cold 10
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: fork +16/+11 (3d6+12 plus wrath), bite +11 (2d6+4) or 2 slams +16 (1d8+8 plus wrath), bite +11 (2d6+8)
+Reach: 15
+Space: 15
+Spec Att: hellfire soul
+:::
 
-**Perception:** -1
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+At will: burning hands (DC 13), faerie fire, pyrotechnics
+Per day: 3/day: dimension door, fireball (DC 15)\
+1/day: wall of fire, summon (level 4, 3 [bearded devils](ref/monster/devil-bearded-devil-barbazu), 40%)
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 27, Dex 7, Con 24, Int 8, Wis 9, Cha 15
+Base attack bonus: +10
+Combat maneuver bonus: +20
+Combat maneuver defense: 28
+Feats: Awesome Blow, Cleave, Power Attack, Throw Anything, Vital Strike
+Skills: Climb +21, Escape Artist +8, Intimidate +15, Knowledge (planes) +12, Survival +12
+Special qualities: corrupt fire, infernal bondage
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 6
-
-**Flat-footed:** 21
-
-**AC modifiers:** +9 armor, -2 Dex, +6 natural, -2 size
-
-**Hit points:** 125 (10d10+70)
-
-**Fort:** +14
-
-**Ref:** +5
-
-**Will:** +2
-
-**Dr:** 5/good and piercing
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** fork +16/+11 (3d6+12 plus wrath), bite +11 (2d6+4) or 2 slams +16 (1d8+8 plus wrath),
-bite +11 (2d6+8)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** hellfire soul
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**At will:**
-
-- burning hands (DC 13), faerie fire, pyrotechnics
-
-**Per day:**
-
-- 3/day: dimension door, fireball (DC 15)
-- 1/day: wall of fire, summon (level 4, 3 [bearded devils](ref/monster/devil-bearded-devil-barbazu),
-  40%)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 7, Con 24, Int 8, Wis 9, Cha 15
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 28
-
-**Feats:** Awesome Blow, Cleave, Power Attack, Throw Anything, Vital Strike
-
-**Skills:** Climb +21, Escape Artist +8, Intimidate +15, Knowledge (planes) +12, Survival +12
-
-**Special qualities:** corrupt fire, infernal bondage
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary or gang (2-3)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary or gang (2-3)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

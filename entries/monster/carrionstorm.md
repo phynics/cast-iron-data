@@ -34,81 +34,63 @@ abilities = ["1", "11", "-", "2", "14", "13"]
 _Bits of feather and flesh buzz around this swarm of rotting ravens like flies, countless lifeless
 eyes staring out from the chaos._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +4
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Size: tiny
+Type: undead
+Experience points: 400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 size
+Hit points: 11 (2d8+2)
+Fort: +1
+Ref: +0
+Will: +5
+Defensive abilities: swarm traits
+Immune: [undead traits](ref/umr/undead-traits)
+Vulner: channeled energy
+:::
 
-**Perception:** +6
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 10 ft., fly 40 ft. (good)
+Melee: swarm (1d6 plus distraction)
+Reach: 0
+Space: 10
+:::
 
-**Subtype:** Swarm
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 1, Dex 11, Con -, Int 2, Wis 14, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: -1
+Combat maneuver defense: 4 (can't be tripped)
+Feats: Improved Initiative
+Skills: Fly +12, Perception +6
+Languages: Necril
+Special qualities: pallid bond
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +1
-
-**Ref:** +0
-
-**Will:** +5
-
-**Defensive abilities:** swarm traits
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Vulner:** channeled energy
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (good)
-
-**Melee:** swarm (1d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 11, Con -, Int 2, Wis 14, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 4 (can't be tripped)
-
-**Feats:** Improved Initiative
-
-**Skills:** Fly +12, Perception +6
-
-**Languages:** Necril
-
-**Special qualities:** pallid bond
-
-**Ecology**
-
-**Environment:** any near ghouls
-
-**Organization:** solitary, flock (2-4 swarms), or murder (5-12 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any near ghouls
+Organization: solitary, flock (2-4 swarms), or murder (5-12 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

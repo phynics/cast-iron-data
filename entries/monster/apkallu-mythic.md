@@ -33,192 +33,109 @@ crafted from opalescent scales._
 
 **Mythic Apkallu**
 
-**Challenge rating:** 23
-
-**Mythic rank:** 9
-
-**aura:** mythic presence (30 ft., DC 30)
-
-**Initiative:** +21/+1, [dual initiative](ref/umr/dual-initiative)
-
-**Size:** large
-
-**Alignment:** Lawful neutral
-
-**Type:** outsider
-
-**Perception:** +38
-
-**Senses:** Darkvision 60 ft., Detect chaos, Low-light vision, Mistsight, True seeing
-
-**Subtype:** Extraplanar, Lawful, Mythic, Water
-
-**Experience points:** 819,200
-
-**Armor class:** 44
-
-**Touch:** 17
-
-**Flat-footed:** 36
-
-**AC modifiers:** +7 armor, +8 Dex, +20 natural, -1 size
-
-**Hit points:** 469 (23d10+343)
-
-**Fort:** +24
-
-**Ref:** +27
-
-**Will:** +21; second save
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, scale surplice
-
-**Dr:** 20/chaotic and epic
-
-**Immune:** daze, disease, electricity, petrification, poison
-
-**Regen:** 15 (chaotic spells and effects)
-
-**Resist:** cold 20
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft., fly 80 ft. (average)
-
-**M Power:** 9/day, surge +1d10
-
-**Melee:** +2 axiomatic keen potent bronze spear +34/+29/+24/+19 (2d6+17/19-20/×3), bite +24 (1d8+5
-plus mark of restraint)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** paralyzing gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +28
-
-**Constant:**
-
-- detect chaos, freedom of movement, true seeing
-
-**At will:**
-
-- control water, greater teleport, self plus 50 lbs. of objects only, major creation, order's
-  wrath^M^ (DC 23), plane shift (DC 24)
-
-**Per day:**
-
-- 3/day: quickened order's wrath^M^ (DC 23)
-- 1/day: commune
-
-**Psychic Magic**
-
-**Caster level:** 19
-
-**Concentration:** +28
-
-**Power points:** 24
-
-**Psychoactive powers:**
-
-- detect mindscape, 2 PE, DC 21, divide mind, 9 PE, enshroud thoughts, 2 PE, greater create
-  mindscape, 6 PE, DC 25, hypercognition, 2 PE, intellect fortress III, 6 PE, mind probe, 4 PE, DC
-  23, mindlink, 1 PE, mindscape door, 3 PE, DC 22, psychic asylum, 5 PE, psychic reading, 1 PE,
-  thought shield V, 6 PE, tower of iron will V, 9 PE
-
-**Spells Known**
-
-**Caster level:** 19
-
-**Concentration:** +28
-
-**9th-level spells:**
-
-- 5/day: miracle, overwhelming presence (DC 28)
-
-**8th-level spells:**
-
-- 7/day: dimensional lock^M^, mass cure critical wounds (DC 27), shield of law
-
-**7th-level spells:**
-
-- 7/day: destruction (DC 26), dictum^M^, repulsion (DC 26)
-
-**6th-level spells:**
-
-- 7/day: geas/quest, greater dispel magic, heal^M^
-
-**5th-level spells:**
-
-- 8/day: greater command (DC 24), greater forbid action (DC 24), mass cure light wounds (DC 24),
-  wall of stone
-
-**4th-level spells:**
-
-- 8/day: dimensional anchor, divination, restoration, sending^M^
-
-**3rd-level spells:**
-
-- 8/day: create food and water, invisibility purge, speak with dead (DC 22), wind wall
-
-**2nd-level spells:**
-
-- 8/day: calm emotions (DC 21), hold person (DC 21), silence (DC 21), sound burst (DC 21), zone of
-  truth (DC 21)
-
-**1st-level spells:**
-
-- 9/day: comprehend languages, divine favor^M^, obscuring mist^M^, sanctuary^M^ (DC 20), shield of
-  faith^M^
-
-**Cantrips:**
-
-- At will: create water, detect magic, detect poison, guidance, light, mending, purify food and
-  drink, read magic, stabilize
+::: statblock
+Challenge rating: 23
+Mythic rank: 9
+aura: mythic presence (30 ft., DC 30)
+Initiative: +21/+1, [dual initiative](ref/umr/dual-initiative)
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +38
+Senses: Darkvision 60 ft., Detect chaos, Low-light vision, Mistsight, True seeing
+Subtype: Extraplanar, Lawful, Mythic, Water
+Experience points: 819,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 44
+Touch: 17
+Flat-footed: 36
+AC modifiers: +7 armor, +8 Dex, +20 natural, -1 size
+Hit points: 469 (23d10+343)
+Fort: +24
+Ref: +27
+Will: +21; second save
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, scale surplice
+Dr: 20/chaotic and epic
+Immune: daze, disease, electricity, petrification, poison
+Regen: 15 (chaotic spells and effects)
+Resist: cold 20
+Sr: 39
+:::
+
+### Offense
+
+::: statblock
+Speed: 40 ft., swim 40 ft., fly 80 ft. (average)
+M Power: 9/day, surge +1d10
+Melee: +2 axiomatic keen potent bronze spear +34/+29/+24/+19 (2d6+17/19-20/×3), bite +24 (1d8+5 plus mark of restraint)
+Reach: 10
+Space: 10
+Spec Att: paralyzing gaze
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +28
+Constant: detect chaos, freedom of movement, true seeing
+At will: control water, greater teleport, self plus 50 lbs. of objects only, major creation, order's wrath^M^ (DC 23), plane shift (DC 24)
+Per day: 3/day: quickened order's wrath^M^ (DC 23)\
+1/day: commune
+:::
+
+::: statblock
+title = "Psychic Magic"
+Caster level: 19
+Concentration: +28
+Power points: 24
+Psychoactive powers: detect mindscape, 2 PE, DC 21, divide mind, 9 PE, enshroud thoughts, 2 PE, greater create mindscape, 6 PE, DC 25, hypercognition, 2 PE, intellect fortress III, 6 PE, mind probe, 4 PE, DC 23, mindlink, 1 PE, mindscape door, 3 PE, DC 22, psychic asylum, 5 PE, psychic reading, 1 PE, thought shield V, 6 PE, tower of iron will V, 9 PE
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 19
+Concentration: +28
+9th-level spells: 5/day: miracle, overwhelming presence (DC 28)
+8th-level spells: 7/day: dimensional lock^M^, mass cure critical wounds (DC 27), shield of law
+7th-level spells: 7/day: destruction (DC 26), dictum^M^, repulsion (DC 26)
+6th-level spells: 7/day: geas/quest, greater dispel magic, heal^M^
+5th-level spells: 8/day: greater command (DC 24), greater forbid action (DC 24), mass cure light wounds (DC 24), wall of stone
+4th-level spells: 8/day: dimensional anchor, divination, restoration, sending^M^
+3rd-level spells: 8/day: create food and water, invisibility purge, speak with dead (DC 22), wind wall
+2nd-level spells: 8/day: calm emotions (DC 21), hold person (DC 21), silence (DC 21), sound burst (DC 21), zone of truth (DC 21)
+1st-level spells: 9/day: comprehend languages, divine favor^M^, obscuring mist^M^, sanctuary^M^ (DC 20), shield of faith^M^
+Cantrips: At will: create water, detect magic, detect poison, guidance, light, mending, purify food and drink, read magic, stabilize
+:::
 
 ###### M {#footnote-m}
 
 mythic spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 30, Dex 26, Con 33, Int 26, Wis 27, Cha 29
+::: statblock
+Ability scores: Str 30, Dex 26, Con 33, Int 26, Wis 27, Cha 29
+Base attack bonus: +23
+Combat maneuver bonus: +34
+Combat maneuver defense: 52
+Feats: Combat Casting, Combat Reflexes, Craft Wondrous Item, Mythic Divine Interference, Eschew Materials, Flyby Attack, Mythic Improved Initiative, Mythic Lightning Reflexes, Maximize Spell, Mythic Crafter, Mythic Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (order's wrath), Silent Spell
+Skills: Craft (any three) +31, Diplomacy +34, Fly +29, Heal +31
+Racial Modifiers: +4 Perception
+Languages: Aquan, Auran, Celestial; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: archive, [change shape](ref/umr/change-shape) (1 human form and 1 merfolk form; [polymorph](ref/spell/polymorph)), [mythic immortality](ref/umr/mythic-immortality), mythic spellcasting, mythic [spell-like abilities](ref/umr/spell-like-abilities), mythic spellpower (2/day)
+:::
 
-**Base attack bonus:** +23
+### Ecology
 
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 52
-
-**Feats:** Combat Casting, Combat Reflexes, Craft Wondrous Item, Mythic Divine Interference, Eschew
-Materials, Flyby Attack, Mythic Improved Initiative, Mythic Lightning Reflexes, Maximize Spell,
-Mythic Crafter, Mythic Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(order's wrath), Silent Spell
-
-**Skills:** Craft (any three) +31, Diplomacy +34, Fly +29, Heal +31
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Aquan, Auran, Celestial; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** archive, [change shape](ref/umr/change-shape) (1 human form and 1 merfolk
-form; [polymorph](ref/spell/polymorph)), [mythic immortality](ref/umr/mythic-immortality), mythic
-spellcasting, mythic [spell-like abilities](ref/umr/spell-like-abilities), mythic spellpower (2/day)
-
-**Ecology**
-
-**Environment:** any (lawful planes)
-
-**Organization:** solitary
-
-**Treasure:** Standard (+2 axiomatic keen potent MB spear); other treasure
+::: statblock
+Environment: any (lawful planes)
+Organization: solitary
+Treasure: Standard (+2 axiomatic keen potent MB spear); other treasure
+:::
 
 ### Special Abilities
 

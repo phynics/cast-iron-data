@@ -29,73 +29,59 @@ abilities = ["25", "14", "17", "2", "13", "10"]
 _This quadrupedal dinosaur has two rows of dorsal spikes, a spiked tail, and two more spikes
 projecting from its shoulders._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 52 (7d8+21)
+Fort: +8
+Ref: +7
+Will: +3
+Defensive abilities: defensive spikes
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: tail +12 (2d6+10/×3)
+Reach: 10
+Space: 10
+Spec Att: impaling strike
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 14, Con 17, Int 2, Wis 13, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +13 (+15 overrun)
+Combat maneuver defense: 25 (27 vs. overrun, 29 vs. trip)
+Feats: Improved Initiative, Improved Overrun, Power Attack, Weapon Focus (tail)
+Skills: Perception +11
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +3
-
-**Defensive abilities:** defensive spikes
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** tail +12 (2d6+10/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** impaling strike
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 14, Con 17, Int 2, Wis 13, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +13 (+15 overrun)
-
-**Combat maneuver defense:** 25 (27 vs. overrun, 29 vs. trip)
-
-**Feats:** Improved Initiative, Improved Overrun, Power Attack, Weapon Focus (tail)
-
-**Skills:** Perception +11
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

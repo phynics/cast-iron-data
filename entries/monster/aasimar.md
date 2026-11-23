@@ -32,109 +32,83 @@ abilities = ["8", "10", "14", "13", "17", "14"]
 _This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and
 benevolence._
 
-**Challenge rating:** 1/2
-
 **Aasimar [cleric](ref/class/cleric) 1**
 
-**Initiative:** +0
+::: statblock
+Challenge rating: 1/2
+Initiative: +0
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral good
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +5 armor
+Hit points: 11 (1d8+3)
+Fort: +4
+Ref: +0
+Will: +5
+Resist: acid 5, cold 5, electricity 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., (20 ft. in armor)
+Ch P En: 5/day, 1d6, DC 12
+Melee: heavy mace -1 (1d8-1)
+Ranged: light crossbow +0 (1d8/19-20)
+Spec Att: rebuke death (1d4+1, 6/day); touch of good (6/day)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +3
+Per day: 1/day: daylight
+:::
 
-**Subtype:** Native
-
-**Experience points:** 200
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 armor
-
-**Hit points:** 11 (1d8+3)
-
-**Fort:** +4
-
-**Ref:** +0
-
-**Will:** +5
-
-**Resist:** acid 5, cold 5, electricity 5
-
-**Offense**
-
-**Speed:** 30 ft., (20 ft. in armor)
-
-**Ch P En:** 5/day, 1d6, DC 12
-
-**Melee:** heavy mace -1 (1d8-1)
-
-**Ranged:** light crossbow +0 (1d8/19-20)
-
-**Spec Att:** rebuke death (1d4+1, 6/day); touch of good (6/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**Per day:**
-
-- 1/day: daylight
-
-**Prepared Spells**
-
-**Caster level:** 1
-
-**1st-level spells:**
-
-- bless, command (DC 14), protection from evil^D^
-
-**Cantrips:**
-
-- detect magic, guidance, stabilize
-
-**Domains:** Good, [Healing](ref/domain/healing)
+::: statblock
+title = "Prepared Spells"
+Caster level: 1
+1st-level spells: bless, command (DC 14), protection from evil^D^
+Cantrips: detect magic, guidance, stabilize
+Domains: Good, [Healing](ref/domain/healing)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 8, Dex 10, Con 14, Int 13, Wis 17, Cha 14
+::: statblock
+Ability scores: Str 8, Dex 10, Con 14, Int 13, Wis 17, Cha 14
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 9
+Feats: Turn Undead
+Skills: Diplomacy +8, Heal +7, Knowledge (religion) +5
+Racial Modifiers: +2 Diplomacy, +2 Perception
+Languages: Celestial, Common, Draconic
+:::
 
-**Base attack bonus:** +0
+### Ecology
 
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 9
-
-**Feats:** Turn Undead
-
-**Skills:** Diplomacy +8, Heal +7, Knowledge (religion) +5
-
-**Racial Modifiers:** +2 Diplomacy, +2 Perception
-
-**Languages:** Celestial, Common, Draconic
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or team (3-6)
-
-**Treasure:** NPC gear (scale mail, heavy mace, light crossbow with 10 bolts); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or team (3-6)
+Treasure: NPC gear (scale mail, heavy mace, light crossbow with 10 bolts); other treasure
+:::
 
 ### Description
 

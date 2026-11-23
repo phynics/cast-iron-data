@@ -30,96 +30,72 @@ abilities = ["-", "25", "-", "11", "8", "22"]
 _This ghostly apparition floats in the air on backward-facing feet. Its hands end in sharp talons,
 and its eyes glow with blue fire._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft., Scent
+Subtype: Incorporeal
+Type: undead
+Experience points: 12,800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 24
+Touch: 24
+Flat-footed: 16
+AC modifiers: +6 deflection, +7 Dex, +1 dodge
+Hit points: 147 (14d8+84)
+Fort: +10
+Ref: +11
+Will: +10
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: cold iron
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: fly 30 ft. (perfect)
+B Drain: 1d6 Constitution
+Bleed: 1d8
+Melee: 2 incorporeal claws +17 (5d8 plus bleed)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +17
+At will: animal trance (DC 18), speak with animals, veil (self only, as animal with backward feet; DC 22)
+Per day: 3/day: charm animal (DC 17)\
+1/day: magic jar (animals only, DC 21)
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 25, Con -, Int 11, Wis 8, Cha 22
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 34
+Feats: Animal Affinity, Dodge, Flyby Attack, Iron Will, Lunge, Mobility, Stealthy
+Skills: Bluff +16, Escape Artist +9, Fly +15, Sense Motive +13, Stealth +24
+Languages: Common
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 24
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, +7 Dex, +1 dodge
-
-**Hit points:** 147 (14d8+84)
-
-**Fort:** +10
-
-**Ref:** +11
-
-**Will:** +10
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** cold iron
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**B Drain:** 1d6 Constitution
-
-**Bleed:** 1d8
-
-**Melee:** 2 incorporeal claws +17 (5d8 plus bleed)
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +17
-
-**At will:**
-
-- animal trance (DC 18), speak with animals, veil (self only, as animal with backward feet; DC 22)
-
-**Per day:**
-
-- 3/day: charm animal (DC 17)
-- 1/day: magic jar (animals only, DC 21)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 25, Con -, Int 11, Wis 8, Cha 22
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 34
-
-**Feats:** Animal Affinity, Dodge, Flyby Attack, Iron Will, Lunge, Mobility, Stealthy
-
-**Skills:** Bluff +16, Escape Artist +9, Fly +15, Sense Motive +13, Stealth +24
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any aboveground natural area
-
-**Organization:** solitary or with a group of animals
-
-**Treasure:** None
+::: statblock
+Environment: any aboveground natural area
+Organization: solitary or with a group of animals
+Treasure: None
+:::
 
 ### Special Abilities
 

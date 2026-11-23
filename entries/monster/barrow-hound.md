@@ -30,88 +30,68 @@ abilities = ["22", "15", "18", "6", "13", "15"]
 _This large, stocky canine's dark-green fur is braided into intricate patterns that seem to loosen
 and retie themselves on their own._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: fey
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, See invisibility
+Experience points: 2,400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +2 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 75 (10d6+40)
+Fort: +7
+Ref: +9
+Will: +8
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Constrict: 1d8+9
+Melee: bite +11 (1d8+9 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: dimensional bark, howl
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+Constant: see invisibility
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 22, Dex 15, Con 18, Int 6, Wis 13, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 25
+Feats: Blind-Fight, Dodge, Improved Initiative, Vital Strike, Weapon Focus (bite)
+Skills: Acrobatics +13 (+21 when jumping), Climb +17, Perception +12, Sense Motive +12, Stealth +9
+Racial Modifiers: +8 Acrobatics when jumping
+Languages: Sylvan (can't speak)
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 75 (10d6+40)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Constrict:** 1d8+9
-
-**Melee:** bite +11 (1d8+9 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** dimensional bark, howl
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Constant:**
-
-- see invisibility
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 18, Int 6, Wis 13, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 25
-
-**Feats:** Blind-Fight, Dodge, Improved Initiative, Vital Strike, Weapon Focus (bite)
-
-**Skills:** Acrobatics +13 (+21 when jumping), Climb +17, Perception +12, Sense Motive +12, Stealth
-+9
-
-**Racial Modifiers:** +8 Acrobatics when jumping
-
-**Languages:** Sylvan (can't speak)
-
-**Ecology**
-
-**Environment:** any (the First World)
-
-**Organization:** solitary or pack (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any (the First World)
+Organization: solitary or pack (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

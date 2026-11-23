@@ -29,89 +29,67 @@ abilities = ["20", "12", "22", "15", "17", "17"]
 _Four long tentacles writhe from this three-eyed fish-like creature's flanks, and its green body
 glistens with thick, clear slime._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+aura: mucus cloud (5 feet)
+Size: huge
+Initiative: +5
+Alignment: Lawful evil
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** mucus cloud (5 feet)
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 19
+AC modifiers: +1 Dex, +11 natural, -2 size
+Hit points: 84 (8d8+48)
+Fort: +8
+Ref: +5
+Will: +11
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 10 ft., swim 60 ft.
+Melee: 4 tentacles +10 (1d6+5 plus slime)
+Reach: 15
+Space: 15
+:::
 
-**Alignment:** Lawful evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+At will: hypnotic pattern (DC 15), illusory wall (DC 17), mirage arcana (DC 18), persistent image (DC 18), programmed image (DC 19), project image (DC 20), veil (DC 19)
+Per day: 3/day: dominate monster (DC 22)
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 20, Dex 12, Con 22, Int 15, Wis 17, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +13
+Combat maneuver defense: 24 (can't be tripped)
+Feats: Improved Initiative, Iron Will, Lightning Reflexes, Weapon Focus (tentacle)
+Skills: Bluff +11, Intimidate +14, Knowledge (any one) +13, Perception +14, Spellcraft +13, Swim +24
+Languages: Aboleth, Aklo, Aquan, Undercommon
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +11 natural, -2 size
-
-**Hit points:** 84 (8d8+48)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +11
-
-**Offense**
-
-**Speed:** 10 ft., swim 60 ft.
-
-**Melee:** 4 tentacles +10 (1d6+5 plus slime)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**At will:**
-
-- hypnotic pattern (DC 15), illusory wall (DC 17), mirage arcana (DC 18), persistent image (DC 18),
-  programmed image (DC 19), project image (DC 20), veil (DC 19)
-
-**Per day:**
-
-- 3/day: dominate monster (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 12, Con 22, Int 15, Wis 17, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24 (can't be tripped)
-
-**Feats:** Improved Initiative, Iron Will, Lightning Reflexes, Weapon Focus (tentacle)
-
-**Skills:** Bluff +11, Intimidate +14, Knowledge (any one) +13, Perception +14, Spellcraft +13, Swim
-+24
-
-**Languages:** Aboleth, Aklo, Aquan, Undercommon
-
-**Ecology**
-
-**Environment:** any aquatic
-
-**Organization:** solitary, pair, brood (3-6), or shoal (7-19)
-
-**Treasure:** Double
+::: statblock
+Environment: any aquatic
+Organization: solitary, pair, brood (3-6), or shoal (7-19)
+Treasure: Double
+:::
 
 ### Special Abilities
 

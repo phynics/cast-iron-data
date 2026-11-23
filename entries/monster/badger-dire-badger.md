@@ -29,71 +29,58 @@ abilities = ["14", "15", "17", "2", "12", "9"]
 _A tremendous badger snarls and scrapes its wicked, shovel-like claws. Stocky muscles ripple beneath
 its streaked and shaggy fur._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +5
+Will: +2
+Ferocity: present
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Blood Rage: present
+Melee: bite +4 (1d4+2), 2 claws +4 (1d3+2)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 14, Dex 15, Con 17, Int 2, Wis 12, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16 (20 vs. trip)
+Feats: Improved Initiative, Skill Focus (Perception)
+Skills: Escape Artist +6, Perception +10
+Racial Modifiers: +4 Escape Artist
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +2
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Blood Rage:** present
-
-**Melee:** bite +4 (1d4+2), 2 claws +4 (1d3+2)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 17, Int 2, Wis 12, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16 (20 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Escape Artist +6, Perception +10
-
-**Racial Modifiers:** +4 Escape Artist
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or clan (3-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or clan (3-5)
+Treasure: Incidental
+:::
 
 ### Description
 

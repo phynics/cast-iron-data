@@ -33,96 +33,69 @@ abilities = ["42", "18", "-", "11", "20", "25"]
 _Muscle holds together the large bones that form the hull of this ship. Rotting sails hang from
 masts crafted from gigantic spines._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: blood wake (40 ft., DC 30)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +4
+Perception: +40
+Senses: Darkvision 60 ft.
+Subtype: Water
+Type: undead
+Experience points: 153,600
+:::
 
-**aura:** blood wake (40 ft., DC 30)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 36
+Touch: 6
+Flat-footed: 32
+AC modifiers: +3 Dex, +30 natural, -8 size
+Hit points: 299 (26d8+182)
+Fort: +17
+Ref: +14
+Will: +20
+Chan Res: +4
+Defensive abilities: all-around vision, bound souls
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 29
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: swim 60 ft.
+E Drain: 2 levels, DC 30
+Melee: slam +28 (8d8+24 plus energy drain)
+Ranged: 4 bone cannons +15 (6d6+16/×4)
+Reach: 30
+Space: 30
+Spec Att: ghostly boarders, spectral energy cannon
+Trample: 8d8+24 plus energy drain, DC 39
+:::
 
-**Perception:** +40
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 42, Dex 18, Con -, Int 11, Wis 20, Cha 25
+Base attack bonus: +19
+Combat maneuver bonus: +43 (+47 bull rush, +45 overRun)
+Combat maneuver defense: 51 (53 vs. bull rush, can't be tripped)
+Feats: Great Fortitude, Greater Bull Rush, Greater Overrun, Greater Vital Strike, Improved Bull Rush, Improved Great Fortitude, Improved Lightning Reflexes, Improved Vital Strike, Lightning Reflexes, Power Attack, Skill Focus (Perception), Vital Strike, Weapon Focus (slam)
+Skills: Intimidate +36, Knowledge (geography) +13, Perception +40, Profession (sailor) +18, Swim +53
+Languages: Common (can't speak)
+Special qualities: unholy repair
+:::
 
-**Subtype:** Water
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 153,600
-
-**Armor class:** 36
-
-**Touch:** 6
-
-**Flat-footed:** 32
-
-**AC modifiers:** +3 Dex, +30 natural, -8 size
-
-**Hit points:** 299 (26d8+182)
-
-**Fort:** +17
-
-**Ref:** +14
-
-**Will:** +20
-
-**Chan Res:** +4
-
-**Defensive abilities:** all-around vision, bound souls
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**E Drain:** 2 levels, DC 30
-
-**Melee:** slam +28 (8d8+24 plus energy drain)
-
-**Ranged:** 4 bone cannons +15 (6d6+16/×4)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** ghostly boarders, spectral energy cannon
-
-**Trample:** 8d8+24 plus energy drain, DC 39
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 18, Con -, Int 11, Wis 20, Cha 25
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +43 (+47 bull rush, +45 overRun)
-
-**Combat maneuver defense:** 51 (53 vs. bull rush, can't be tripped)
-
-**Feats:** Great Fortitude, Greater Bull Rush, Greater Overrun, Greater Vital Strike, Improved Bull
-Rush, Improved Great Fortitude, Improved Lightning Reflexes, Improved Vital Strike, Lightning
-Reflexes, Power Attack, Skill Focus (Perception), Vital Strike, Weapon Focus (slam)
-
-**Skills:** Intimidate +36, Knowledge (geography) +13, Perception +40, Profession (sailor) +18, Swim
-+53
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** unholy repair
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

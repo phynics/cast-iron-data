@@ -31,82 +31,62 @@ abilities = ["13", "12", "15", "12", "12", "9"]
 _Heat ripples the air near this squat, brass-skinned humanoid. Its head and shoulders blaze with a
 mane of fire._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Fire
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 17
+AC modifiers: +5 armor, +1 Dex, +2 natural
+Hit points: 15 (2d10+4)
+Fort: +5
+Ref: +1
+Will: +4
+Immune: fire
+Sr: 13
+Vulner: cold
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., (20 ft. in armor)
+Heat: 1d6 fire
+Melee: mwk warhammer +4 (1d8+1/×3 plus 1d6 fire)
+Ranged: light hammer +3 (1d4+1 plus 1d6 fire)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 13, Dex 12, Con 15, Int 12, Wis 12, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Power Attack
+Skills: Acrobatics +0, Appraise +6, Climb +3, Craft (any two) +6, Knowledge (nobility) +6, Perception +6
+Languages: Common, Ignan
+:::
 
-**Subtype:** Extraplanar, Fire
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 armor, +1 Dex, +2 natural
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +5
-
-**Ref:** +1
-
-**Will:** +4
-
-**Immune:** fire
-
-**Sr:** 13
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft., (20 ft. in armor)
-
-**Heat:** 1d6 fire
-
-**Melee:** mwk warhammer +4 (1d8+1/×3 plus 1d6 fire)
-
-**Ranged:** light hammer +3 (1d4+1 plus 1d6 fire)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 12, Con 15, Int 12, Wis 12, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Power Attack
-
-**Skills:** Acrobatics +0, Appraise +6, Climb +3, Craft (any two) +6, Knowledge (nobility) +6,
-Perception +6
-
-**Languages:** Common, Ignan
-
-**Ecology**
-
-**Environment:** any land ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary, pair, team (3-6), squad (11-20 plus 2 sergeants of 3rd level and 1
-leader of 3rd-6th level), or clan (30-100 plus 50% noncombatants plus 1 sergeant of 3rd level per 20
-adults, 5 lieutenants of 5th level, and 3 captains of 7th level)
-
-**Treasure:** Standard (mwk scale mail, mwk warhammer, -light hammer); other treasure
+::: statblock
+Environment: any land ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary, pair, team (3-6), squad (11-20 plus 2 sergeants of 3rd level and 1 leader of 3rd-6th level), or clan (30-100 plus 50% noncombatants plus 1 sergeant of 3rd level per 20 adults, 5 lieutenants of 5th level, and 3 captains of 7th level)
+Treasure: Standard (mwk scale mail, mwk warhammer, -light hammer); other treasure
+:::
 
 ### Description
 

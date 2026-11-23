@@ -32,85 +32,65 @@ abilities = ["3", "15", "11", "2", "14", "4"]
 _Hundreds of high-pitched squeaks fill the air as a mass of small, carnivorous bats surges forth,
 all of them hungry for blood._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+blindsense: 20
+Size: diminutive
+Initiative: +2
+Alignment: Neutral
+Perception: +15
+Senses: Low-light vision
+Subtype: Swarm
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 20
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 13 (3d8)
+Fort: +3
+Ref: +7
+Will: +3
+Defensive abilities: swarm traits
+Immune: weapon damage
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 5 ft., fly 40 ft. (good)
+Distraction: 11
+Melee: swarm (1d6)
+Reach: 0
+Space: 10
+Spec Att: wounding
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +15
+::: statblock
+Ability scores: Str 3, Dex 15, Con 11, Int 2, Wis 14, Cha 4
+Base attack bonus: +2
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Lightning Reflexes, Skill Focus (Perception)
+Skills: Fly +12, Perception +15
+Racial Modifiers: +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
+Special qualities: swarm traits
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Subtype:** Swarm
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 13 (3d8)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +3
-
-**Defensive abilities:** swarm traits
-
-**Immune:** weapon damage
-
-**Offense**
-
-**Speed:** 5 ft., fly 40 ft. (good)
-
-**Distraction:** 11
-
-**Melee:** swarm (1d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** wounding
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 11, Int 2, Wis 14, Cha 4
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Fly +12, Perception +15
-
-**Racial Modifiers:** +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
-
-**Special qualities:** swarm traits
-
-**Ecology**
-
-**Environment:** any temperate or tropical
-
-**Organization:** solitary, pair, flight (3-6 swarms), or colony (11-20 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate or tropical
+Organization: solitary, pair, flight (3-6 swarms), or colony (11-20 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

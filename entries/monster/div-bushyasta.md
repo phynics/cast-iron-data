@@ -30,104 +30,74 @@ abilities = ["16", "21", "16", "18", "17", "19"]
 _This gaunt figure has ashy yellow skin and a strange, feathered mask covering most of her face,
 save for her wide, fang-filled mouth._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft., Detect good, Detect magic, See in darkness
+Subtype: Div, Evil, Extraplanar
+Experience points: 2,400
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 14
+AC modifiers: +5 Dex, +4 natural
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +7
+Will: +9
+Defensive abilities: faded
+Dr: 5/cold iron or good
+Immune: fire, poison
+Resist: acid 10, electricity 10
+Sr: 17
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +13 (1d8+3), 2 claws +13 (1d6+3 plus 1d6 nonlethal)
+Spec Att: staggering touch, withering effort
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+Constant: detect good, detect magic, spider climb
+At will: dimension door, self plus 50 lbs. of objects only, touch of fatigue (DC 14)
+Per day: 3/day: deep slumber (DC 17), gust of wind (DC 16)\
+1/day: slow (DC 17), suggestion (DC 17), summon (level 4, 2 [aghashes](ref/monster/div-aghash) 50%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
+### Statistics
 
-**Subtype:** Div, Evil, Extraplanar
+::: statblock
+Ability scores: Str 16, Dex 21, Con 16, Int 18, Wis 17, Cha 19
+Base attack bonus: +8
+Combat maneuver bonus: +11
+Combat maneuver defense: 26
+Feats: Combat Reflexes, Improved Initiative, Vital Strike, Weapon Finesse
+Skills: Bluff +15, Climb +19, Knowledge (arcana, planes, religion) +15, Perception +14, Sense Motive +14, Spellcraft +15, Stealth +16, Use Magic Device +15
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +4 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +9
-
-**Defensive abilities:** faded
-
-**Dr:** 5/cold iron or good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 17
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +13 (1d8+3), 2 claws +13 (1d6+3 plus 1d6 nonlethal)
-
-**Spec Att:** staggering touch, withering effort
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**Constant:**
-
-- detect good, detect magic, spider climb
-
-**At will:**
-
-- dimension door, self plus 50 lbs. of objects only, touch of fatigue (DC 14)
-
-**Per day:**
-
-- 3/day: deep slumber (DC 17), gust of wind (DC 16)
-- 1/day: slow (DC 17), suggestion (DC 17), summon (level 4, 2 [aghashes](ref/monster/div-aghash)
-  50%)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 21, Con 16, Int 18, Wis 17, Cha 19
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Reflexes, Improved Initiative, Vital Strike, Weapon Finesse
-
-**Skills:** Bluff +15, Climb +19, Knowledge (arcana, planes, religion) +15, Perception +14, Sense
-Motive +14, Spellcraft +15, Stealth +16, Use Magic Device +15
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any (Abbadon)
-
-**Organization:** solitary, pair, or gathering (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Abbadon)
+Organization: solitary, pair, or gathering (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,110 +30,76 @@ abilities = ["28", "21", "24", "16", "17", "29"]
 _Its body seemingly made of iron, this shapely feminine form has wrists pierced by chains that end
 in curved blades._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Deathwatch, Detect good, True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 51,200
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 29
+Touch: 16
+Flat-footed: 23
+AC modifiers: +5 Dex, +1 dodge, +13 natural
+Hit points: 212 (17d10+119)
+Fort: +17
+Ref: +12
+Will: +13
+Dr: 10/good and silver
+Immune: acid, bleed, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 26
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Bleed: 2d6
+Melee: daggers +29/+29/+24/+19/+14 (1d4+11/17-20)
+Reach: 10
+Space: 5
+Spec Att: chained daggers, trap making
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +25
+Constant: air walk, deathwatch, detect good, true seeing
+At will: fear (DC 23), greater teleport, self plus 50 lbs. of objects only, invisibility
+Per day: 3/day: greater glyph of warding (DC 25), hold monster (DC 24)\
+1/day: insanity (DC 26), summon (level 4, 2 [piscodaemons](ref/monster/daemon-piscodaemon) 50%), symbol of pain (DC 24)
+:::
 
-**Senses:** Darkvision 60 ft., Deathwatch, Detect good, True seeing
+### Statistics
 
-**Subtype:** Daemon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 28, Dex 21, Con 24, Int 16, Wis 17, Cha 29
+Base attack bonus: +17
+Combat maneuver bonus: +26
+Combat maneuver defense: 42
+Feats: Dodge, Improved Critical (daggers), Improved Initiative, Lightning Reflexes, Mobility, Spring Attack, Stealthy, Step Up, Weapon Focus (daggers)
+Skills: Bluff +29, Craft (traps) +31, Disable Device +25, Escape Artist +7, Intimidate +29, Knowledge (arcana, engineering) +11, Perception +23, Sense Motive +16, Spellcraft +18, Stealth +29, Use Magic Device +19
+Racial Modifiers: +8 Craft (traps)
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 16
-
-**Flat-footed:** 23
-
-**AC modifiers:** +5 Dex, +1 dodge, +13 natural
-
-**Hit points:** 212 (17d10+119)
-
-**Fort:** +17
-
-**Ref:** +12
-
-**Will:** +13
-
-**Dr:** 10/good and silver
-
-**Immune:** acid, bleed, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Bleed:** 2d6
-
-**Melee:** daggers +29/+29/+24/+19/+14 (1d4+11/17-20)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** chained daggers, trap making
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +25
-
-**Constant:**
-
-- air walk, deathwatch, detect good, true seeing
-
-**At will:**
-
-- fear (DC 23), greater teleport, self plus 50 lbs. of objects only, invisibility
-
-**Per day:**
-
-- 3/day: greater glyph of warding (DC 25), hold monster (DC 24)
-- 1/day: insanity (DC 26), summon (level 4, 2 [piscodaemons](ref/monster/daemon-piscodaemon) 50%),
-  symbol of pain (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 21, Con 24, Int 16, Wis 17, Cha 29
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 42
-
-**Feats:** Dodge, Improved Critical (daggers), Improved Initiative, Lightning Reflexes, Mobility,
-Spring Attack, Stealthy, Step Up, Weapon Focus (daggers)
-
-**Skills:** Bluff +29, Craft (traps) +31, Disable Device +25, Escape Artist +7, Intimidate +29,
-Knowledge (arcana, engineering) +11, Perception +23, Sense Motive +16, Spellcraft +18, Stealth +29,
-Use Magic Device +19
-
-**Racial Modifiers:** +8 Craft (traps)
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or inquisition (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or inquisition (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

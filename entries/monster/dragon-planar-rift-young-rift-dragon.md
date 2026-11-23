@@ -30,100 +30,72 @@ abilities = ["27", "12", "21", "14", "17", "18"]
 
 _This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Type: dragon
+Initiative: +5
+Size: large
+Perception: +20
+Senses: Dragon senses
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 23
+AC modifiers: +1 Dex, +14 natural, -1 size
+Hit points: 161 (14d12+70)
+Fort: +14
+Ref: +12
+Will: +12
+Immune: acid, disease, nausea, paralysis, poison, sleep, stun
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft., burrow 30 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, 6d10 acid, Reflex DC 22 half
+Melee: bite +22 (2d6+12/19-20 plus bleed), 2 claws +21 (1d8+8 plus bleed), tail slap +19 (1d8+12), 2 wings +19 (1d6+4)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+Spec Att: bleed 3, corrosion, foul acid
+Trample: 2d6+12 plus bleed, DC 25
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +5
+1st-level spells: 4/day: bane (DC 15), murderous command (DC 15)
+Cantrips: At will: bleed (DC 14), detect magic, read magic, resistance
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar
+::: statblock
+Ability scores: Str 27, Dex 12, Con 21, Int 14, Wis 17, Cha 18
+Base attack bonus: +14
+Combat maneuver bonus: +23
+Combat maneuver defense: 34 (38 vs. trip)
+Feats: Improved Critical (bite), Improved Initiative, Intimidating Prowess, Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (bite)
+Skills: Fly +12, Intimidate +29, Knowledge (arcana, planes) +19, Perception +20, Sense Motive +20, Spellcraft +19, Stealth +14
+Languages: Abyssal, Common, Draconic
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +14 natural, -1 size
-
-**Hit points:** 161 (14d12+70)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +12
-
-**Immune:** acid, disease, nausea, paralysis, poison, sleep, stun
-
-**Offense**
-
-**Speed:** 60 ft., burrow 30 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 6d10 acid, Reflex DC 22 half
-
-**Melee:** bite +22 (2d6+12/19-20 plus bleed), 2 claws +21 (1d8+8 plus bleed), tail slap +19
-(1d8+12), 2 wings +19 (1d6+4)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** bleed 3, corrosion, foul acid
-
-**Trample:** 2d6+12 plus bleed, DC 25
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +5
-
-**1st-level spells:**
-
-- 4/day: bane (DC 15), murderous command (DC 15)
-
-**Cantrips:**
-
-- At will: bleed (DC 14), detect magic, read magic, resistance
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 12, Con 21, Int 14, Wis 17, Cha 18
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 34 (38 vs. trip)
-
-**Feats:** Improved Critical (bite), Improved Initiative, Intimidating Prowess, Lightning Reflexes,
-Multiattack, Power Attack, Weapon Focus (bite)
-
-**Skills:** Fly +12, Intimidate +29, Knowledge (arcana, planes) +19, Perception +20, Sense Motive
-+20, Spellcraft +19, Stealth +14
-
-**Languages:** Abyssal, Common, Draconic
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

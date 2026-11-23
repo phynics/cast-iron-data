@@ -31,92 +31,70 @@ abilities = ["23", "17", "18", "8", "15", "14"]
 _Vibrant blue and yellow feathers adorn the body of this giant, parrot-like bird, but its curved
 beak and powerful talons are instead adorned with dried blood and gore._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 18)
+Alignment: Chaotic evil
+Initiative: +3
+Size: large
+Type: Magical beast
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 18)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +3 Dex, +10 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +11
+Will: +6
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 10 ft., fly 80 ft. (average)
+Melee: bite +18 (2d6+6/19-20 plus 2d6 [bleed](ref/rule/bleed)), 2 talons +17 (1d6+6)
+Reach: 5
+Rend: 2 talons, 1d6+9
+Space: 10
+Spec Att: decapitating strike, hypnotic display
+:::
 
-**Type:** Magical beast
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +14
+Per day: 3/day: entropic shield, ventriloquism (DC 13)
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 17, Con 18, Int 8, Wis 15, Cha 14
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 32
+Feats: Bleeding Critical, Critical Focus, Flyby Attack, Improved Critical (bite), Improved Natural Attack (bite), Skill Focus (Perception)
+Skills: Bluff +5 (+13 to mimic sounds), Fly +7, Perception +14
+Racial Modifiers: +8 Bluff to mimic sounds
+Languages: Abyssal, Auran
+Special qualities: sound mimicry
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +10 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 10 ft., fly 80 ft. (average)
-
-**Melee:** bite +18 (2d6+6/19-20 plus 2d6 [bleed](ref/rule/bleed)), 2 talons +17 (1d6+6)
-
-**Reach:** 5
-
-**Rend:** 2 talons, 1d6+9
-
-**Space:** 10
-
-**Spec Att:** decapitating strike, hypnotic display
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +14
-
-**Per day:**
-
-- 3/day: entropic shield, ventriloquism (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 17, Con 18, Int 8, Wis 15, Cha 14
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 32
-
-**Feats:** Bleeding Critical, Critical Focus, Flyby Attack, Improved Critical (bite), Improved
-Natural Attack (bite), Skill Focus (Perception)
-
-**Skills:** Bluff +5 (+13 to mimic sounds), Fly +7, Perception +14
-
-**Racial Modifiers:** +8 Bluff to mimic sounds
-
-**Languages:** Abyssal, Auran
-
-**Special qualities:** sound mimicry
-
-**Ecology**
-
-**Environment:** tropical jungles
-
-**Organization:** solitary, flight (2-5), or aerie (6-12)
-
-**Treasure:** None
+::: statblock
+Environment: tropical jungles
+Organization: solitary, flight (2-5), or aerie (6-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

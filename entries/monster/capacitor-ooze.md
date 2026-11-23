@@ -30,73 +30,59 @@ abilities = ["22", "1", "24", "-", "1", "1"]
 
 _Electricity crackles and arcs from this undulating mass of orange slime._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: osmotic drain (10 ft., DC 25)
+blindsight: 120
+Initiative: -5
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 12,800
+:::
 
-**aura:** osmotic drain (10 ft., DC 25)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 5
+Touch: 5
+Flat-footed: 5
+AC modifiers: -5 Dex
+Hit points: 195 (17d8+119)
+Fort: +12
+Ref: +0
+Will: +0
+Defensive abilities: electrified
+Immune: electricity, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Initiative:** -5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Melee: slam +18 (2d6+9 plus 4d6 electricity and neurophagic jolt)
+Spec Att: neurophagic jolt
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str 22, Dex 1, Con 24, Int -, Wis 1, Cha 1
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 23
+Skills: Climb +14
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Perception:** -5
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 5
-
-**Touch:** 5
-
-**Flat-footed:** 5
-
-**AC modifiers:** -5 Dex
-
-**Hit points:** 195 (17d8+119)
-
-**Fort:** +12
-
-**Ref:** +0
-
-**Will:** +0
-
-**Defensive abilities:** electrified
-
-**Immune:** electricity, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Melee:** slam +18 (2d6+9 plus 4d6 electricity and neurophagic jolt)
-
-**Spec Att:** neurophagic jolt
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 1, Con 24, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 23
-
-**Skills:** Climb +14
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** cold deserts or plains
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: cold deserts or plains
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

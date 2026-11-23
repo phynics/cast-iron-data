@@ -32,88 +32,67 @@ abilities = ["19", "15", "15", "14", "14", "14"]
 _This snarling, canine beast pads forward on all fours, its slender front limbs looking more like
 hands than a wolf's paws._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Scent
+Subtype: Evil, Extraplanar, Lawful, Shapechanger
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 45 (6d10+12)
+Fort: +6
+Ref: +7
+Will: +7
+Dr: 5/magic
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: bite +10 (1d6+4), 2 claws +10 (1d4+4)
+Spec Att: feed
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+At will: blink, levitate, misdirection
+Per day: 1/day: charm monster (DC 16), crushing despair (DC 16), dimension door
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Lawful, Shapechanger
+::: statblock
+Ability scores: Str 19, Dex 15, Con 15, Int 14, Wis 14, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22 (24 vs. trip)
+Feats: Combat Reflexes, Improved Initiative, Great Fortitude
+Skills: Acrobatics +11, Bluff +11, Diplomacy +11, Intimidate +11, Perception +11
+Languages: Common, Goblin, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (goblin or wolf; [polymorph](ref/spell/polymorph))
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +7
-
-**Dr:** 5/magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +10 (1d6+4), 2 claws +10 (1d4+4)
-
-**Spec Att:** feed
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**At will:**
-
-- blink, levitate, misdirection
-
-**Per day:**
-
-- 1/day: charm monster (DC 16), crushing despair (DC 16), dimension door
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 15, Int 14, Wis 14, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22 (24 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Great Fortitude
-
-**Skills:** Acrobatics +11, Bluff +11, Diplomacy +11, Intimidate +11, Perception +11
-
-**Languages:** Common, Goblin, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (goblin or wolf;
-[polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or cult (1 plus goblin tribe)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary or cult (1 plus goblin tribe)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

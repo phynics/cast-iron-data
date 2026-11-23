@@ -30,102 +30,73 @@ abilities = ["23", "21", "32", "16", "21", "24"]
 _This bipedal jackal has vulture wings and a rat tail ending in a scorpion's stinger. Each of its
 four arms ends in a clawed hand._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Alignment: Chaotic evil
+Initiative: +9
+Size: medium
+Type: Monstrous humanoid
+Perception: +27
+Senses: Deathwatch, Scent, See in darkness
+Experience points: 153,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 33
+Touch: 21
+Flat-footed: 27
+AC modifiers: +5 deflection, +5 Dex, +1 dodge, +12 natural
+Hit points: 313 (19d10+209)
+Fort: +19
+Ref: +16
+Will: +18
+Defensive abilities: negative energy affinity
+Immune: death effects
+Regen: 10 (positive energy)
+Resist: cold 30, fire 30
+Sr: 29
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: bite +29 (2d6+10), 4 claws +29 (1d8+10/19-20), sting +29 (1d6+10 plus poison)
+Pounce: present
+Spec Att: soul rend, swift spawning
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+Constant: deathwatch, greater magic weapon, shield of faith
+At will: animate dead, command undead (DC 19), death knell (DC 19), deeper darkness
+Per day: 3/day: control undead (DC 24), quickened death knell (DC 19)\
+1/day: create greater undead, create undead, finger of death (DC 24)
+:::
 
-**Senses:** Deathwatch, Scent, See in darkness
+### Statistics
 
-**Experience points:** 153,600
+::: statblock
+Ability scores: Str 23, Dex 21, Con 32, Int 16, Wis 21, Cha 24
+Base attack bonus: +19
+Combat maneuver bonus: +25
+Combat maneuver defense: 46
+Feats: Combat Reflexes, Dodge, Flyby Attack, Great Fortitude, Improved Critical (claw), Improved Initiative, Iron Will, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (death knell)
+Skills: Fly +27, Intimidate +29, Knowledge (planes, religion) +22, Perception +27
+Languages: Abyssal, Common
+:::
 
-**Armor class:** 33
+### Ecology
 
-**Touch:** 21
-
-**Flat-footed:** 27
-
-**AC modifiers:** +5 deflection, +5 Dex, +1 dodge, +12 natural
-
-**Hit points:** 313 (19d10+209)
-
-**Fort:** +19
-
-**Ref:** +16
-
-**Will:** +18
-
-**Defensive abilities:** negative energy affinity
-
-**Immune:** death effects
-
-**Regen:** 10 (positive energy)
-
-**Resist:** cold 30, fire 30
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** bite +29 (2d6+10), 4 claws +29 (1d8+10/19-20), sting +29 (1d6+10 plus poison)
-
-**Pounce:** present
-
-**Spec Att:** soul rend, swift spawning
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**Constant:**
-
-- deathwatch, greater magic weapon, shield of faith
-
-**At will:**
-
-- animate dead, command undead (DC 19), death knell (DC 19), deeper darkness
-
-**Per day:**
-
-- 3/day: control undead (DC 24), quickened death knell (DC 19)
-- 1/day: create greater undead, create undead, finger of death (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 21, Con 32, Int 16, Wis 21, Cha 24
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 46
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Great Fortitude, Improved Critical (claw), Improved
-Initiative, Iron Will, Mobility, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (death knell)
-
-**Skills:** Fly +27, Intimidate +29, Knowledge (planes, religion) +22, Perception +27
-
-**Languages:** Abyssal, Common
-
-**Ecology**
-
-**Environment:** warm deserts or mountains
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts or mountains
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

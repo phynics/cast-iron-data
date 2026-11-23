@@ -33,96 +33,70 @@ rooms._
 
 **Mythic Wood Colossus**
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Mythic rank: 6
+aura: selective antimagic aura (30 ft., DC 24, 10 rounds)
+Type: construct
+Size: gargantuan
+Initiative: +9, Mythic Improved Initiative
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Colossus, Mythic
+Experience points: 102,400
+:::
 
-**Mythic rank:** 6
+### Defense
 
-**aura:** selective antimagic aura (30 ft., DC 24, 10 rounds)
+::: statblock
+Armor class: 35
+Touch: 5
+Flat-footed: 35
+AC modifiers: -1 Dex, +30 natural, -4 size
+Hit points: 237 (18d10+138)
+Fort: +6
+Ref: +7
+Will: +9
+Dr: 10/epic
+Fh: 20
+Immune: [construct traits](ref/umr/construct-traits)
+Sec Save: present
+Vulner: fire
+:::
 
-**Type:** construct
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 60 ft.
+M Power: 6/day, surge +1d8
+Melee: 3 slams +31 (2d12+17) or stomp +31 (4d12+25 plus pinning stomp)
+Reach: 20
+Sp Extra: woodland stride
+Space: 20
+Spec Att: mythic quickening, pinning stomp
+:::
 
-**Initiative:** +9, Mythic Improved Initiative
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 45, Dex 9, Con -, Int 5, Wis 12, Cha 16
+Base attack bonus: +18
+Combat maneuver bonus: +39
+Combat maneuver defense: 48
+Feats: Combat Reflexes, Greater Vital Strike, Mythic Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Mythic Power Attack, Toughness, Mythic Vital Strike
+Skills: Intimidate +11, Perception +11
+Languages: Common
+Special qualities: alternate form, mythic creation, mythic resilience
+:::
 
-**Perception:** +11
+### Ecology
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Colossus, Mythic
-
-**Experience points:** 102,400
-
-**Armor class:** 35
-
-**Touch:** 5
-
-**Flat-footed:** 35
-
-**AC modifiers:** -1 Dex, +30 natural, -4 size
-
-**Hit points:** 237 (18d10+138)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +9
-
-**Dr:** 10/epic
-
-**Fh:** 20
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sec Save:** present
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**M Power:** 6/day, surge +1d8
-
-**Melee:** 3 slams +31 (2d12+17) or stomp +31 (4d12+25 plus pinning stomp)
-
-**Reach:** 20
-
-**Sp Extra:** woodland stride
-
-**Space:** 20
-
-**Spec Att:** mythic quickening, pinning stomp
-
-**Statistics**
-
-**Ability scores:** Str 45, Dex 9, Con -, Int 5, Wis 12, Cha 16
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +39
-
-**Combat maneuver defense:** 48
-
-**Feats:** Combat Reflexes, Greater Vital Strike, Mythic Improved Initiative, Improved Vital Strike,
-Iron Will, Lightning Reflexes, Mythic Power Attack, Toughness, Mythic Vital Strike
-
-**Skills:** Intimidate +11, Perception +11
-
-**Languages:** Common
-
-**Special qualities:** alternate form, mythic creation, mythic resilience
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

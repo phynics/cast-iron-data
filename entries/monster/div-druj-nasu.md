@@ -31,104 +31,74 @@ abilities = ["18", "23", "20", "12", "19", "23"]
 _A sickly smell of feral musk, rotting flesh, and acrid sweat surrounds this fly-like creature. Its
 wings fill the air with a dreadful drone even when the creature is still._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., Detect good, Detect magic, See in darkness
+Subtype: Div, Evil, Extraplanar
+Experience points: 4,800
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 24
+Touch: 16
+Flat-footed: 18
+AC modifiers: +6 Dex, +8 natural
+Hit points: 105 (10d10+50)
+Fort: +8
+Ref: +13
+Will: +11
+Dr: 10/cold iron and good
+Immune: fire, poison
+Resist: acid 10, electricity 10
+Sr: 19
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Distraction: 20
+Melee: bite +16 (1d6+4 plus disease), 2 claws +16 (1d4+4 plus distraction)
+Spec Att: disease, droning
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +16
+Constant: detect good, detect magic
+At will: invisibility, self only, putrefy food and drink, see invisibility, summon swarm
+Per day: 3/day: bestow curse (DC 20), command undead (DC 18), enervation\
+1/day: animate dead, insect plague, summon (level 6, 1 [pairaka](ref/monster/div-pairaka) or 1d6 [fiendish](ref/template/fiendish) [giant flies](ref/monster/giant-fly) 50%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
+### Statistics
 
-**Subtype:** Div, Evil, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 23, Con 20, Int 12, Wis 19, Cha 23
+Base attack bonus: +10
+Combat maneuver bonus: +14
+Combat maneuver defense: 30
+Feats: Alertness, Flyby Attack, Hover, Improved Initiative, Weapon Finesse
+Skills: Acrobatics +19, Bluff +19, Fly +22, Knowledge (arcana, planes) +9, Perception +21, Sense Motive +14, Stealth +19
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: swarmwalking, untouched by flame
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 16
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 Dex, +8 natural
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +8
-
-**Ref:** +13
-
-**Will:** +11
-
-**Dr:** 10/cold iron and good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Distraction:** 20
-
-**Melee:** bite +16 (1d6+4 plus disease), 2 claws +16 (1d4+4 plus distraction)
-
-**Spec Att:** disease, droning
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +16
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- invisibility, self only, putrefy food and drink, see invisibility, summon swarm
-
-**Per day:**
-
-- 3/day: bestow curse (DC 20), command undead (DC 18), enervation
-- 1/day: animate dead, insect plague, summon (level 6, 1 [pairaka](ref/monster/div-pairaka) or 1d6
-  [fiendish](ref/template/fiendish) [giant flies](ref/monster/giant-fly) 50%)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 23, Con 20, Int 12, Wis 19, Cha 23
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 30
-
-**Feats:** Alertness, Flyby Attack, Hover, Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +19, Bluff +19, Fly +22, Knowledge (arcana, planes) +9, Perception +21, Sense
-Motive +14, Stealth +19
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** swarmwalking, untouched by flame
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

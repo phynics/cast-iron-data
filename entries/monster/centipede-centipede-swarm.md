@@ -31,87 +31,68 @@ abilities = ["1", "19", "8", "-", "10", "2"]
 _A writhing mass of legs and poisonous pincers swarms across the ground in a deadly, undulating
 wave._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Size: diminutive
+Initiative: +4
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+tremorsense: 30
+Type: vermin
+Experience points: 1,200
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 size
+Hit points: 31 (9d8-9)
+Fort: +5
+Ref: +7
+Will: +3
+Defensive abilities: swarm traits
+Immune: weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Distraction: 13
+Melee: swarm (2d6 plus poison)
+Reach: 0
+Space: 10
+Spec Att: poison
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
-
-**tremorsense:** 30
-
-**Type:** vermin
-
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 size
-
-**Hit points:** 31 (9d8-9)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +3
-
-**Defensive abilities:** swarm traits
-
-**Immune:** weapon damage
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Distraction:** 13
-
-**Melee:** swarm (2d6 plus poison)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 19, Con 8, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Weapon Finesse^B^
-
-**Skills:** Climb +12, Perception +4
-
-**Racial Modifiers:** +4 Perception
+::: statblock
+Ability scores: Str 1, Dex 19, Con 8, Int -, Wis 10, Cha 2
+Base attack bonus: +6
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Weapon Finesse^B^
+Skills: Climb +12, Perception +4
+Racial Modifiers: +4 Perception
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate or warm forest or underground
-
-**Organization:** solitary, pair, or tangle (3-6 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forest or underground
+Organization: solitary, pair, or tangle (3-6 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,121 +32,78 @@ abilities = ["18", "12", "16", "8", "16", "6"]
 _This gray-skinned dwarf wears iron plates over a set of purple and magenta robes and carries a
 warhammer._
 
-**Challenge rating:** 10
-
 **Female duergar [warpriest](ref/class/warpriest) of [Droskar](ref/faith/droskar) 11**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 10
+Type: humanoid
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Perception: +3
+Senses: Darkvision 120 ft.
+Subtype: Dwarf
+Experience points: 9,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 21
+AC modifiers: +10 armor, +1 natural
+Hit points: 108 (11d8+55)
+Fort: +11
+Ref: +5
+Will: +13; +2 bonus vs. spells and [spell-like abilities](ref/umr/spell-like-abilities)
+Defensive abilities: sacred armor (+2; 11 minutes/day)
+Immune: duergar immunities, paralysis, phantasms, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 20 ft.
+Ch N En: 4/day, DC 16, 4d6
+Melee: +1 warhammer +14/+9 (1d10+7/19-20/×3)
+Spec Att: blessings 8/day, fervor 8/day (4d6), sacred weapon (+2 1d10, 11 rounds/day)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +9
+Per day: 1/day: enlarge person (self only) (DC 9), invisibility, self only
+:::
 
-**Subtype:** Dwarf
+::: statblock
+title = "Prepared Spells"
+Caster level: 11
+Concentration: +14
+4th-level spells: divine power, freedom of movement
+3rd-level spells: bestow curse (DC 16), blindness/deafness (DC 16), cure serious wounds, dispel magic, wind wall
+2nd-level spells: cure moderate wounds, hold person (DC 15), shatter (DC 15), sound burst (DC 15), spiritual weapon
+1st-level spells: bless, command (DC 14), divine favor, doom (DC 14), protection from good, shield of faith
+Cantrips: create water, detect magic, detect poison, guidance, resistance
+:::
 
-**Experience points:** 9,600
+### Statistics
 
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +10 armor, +1 natural
-
-**Hit points:** 108 (11d8+55)
-
-**Fort:** +11
-
-**Ref:** +5
-
-**Will:** +13; +2 bonus vs. spells and [spell-like abilities](ref/umr/spell-like-abilities)
-
-**Defensive abilities:** sacred armor (+2; 11 minutes/day)
-
-**Immune:** duergar immunities, paralysis, phantasms, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** 4/day, DC 16, 4d6
-
-**Melee:** +1 warhammer +14/+9 (1d10+7/19-20/×3)
-
-**Spec Att:** blessings 8/day, fervor 8/day (4d6), sacred weapon (+2 1d10, 11 rounds/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +9
-
-**Per day:**
-
-- 1/day: enlarge person (self only) (DC 9), invisibility, self only
-
-**Prepared Spells**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**4th-level spells:**
-
-- divine power, freedom of movement
-
-**3rd-level spells:**
-
-- bestow curse (DC 16), blindness/deafness (DC 16), cure serious wounds, dispel magic, wind wall
-
-**2nd-level spells:**
-
-- cure moderate wounds, hold person (DC 15), shatter (DC 15), sound burst (DC 15), spiritual weapon
-
-**1st-level spells:**
-
-- bless, command (DC 14), divine favor, doom (DC 14), protection from good, shield of faith
-
-**Cantrips:**
-
-- create water, detect magic, detect poison, guidance, resistance
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 12, Con 16, Int 8, Wis 16, Cha 6
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23 (27 vs. bull rush, 27 vs. trip)
-
-**Feats:** Channel Smite, Cleave, Combat Casting, Furious Focus, Improved Critical (warhammer), Iron
-Will, Power Attack, Toughness, Vital Strike, Weapon Focus (warhammer)
-
-**Skills:** Bluff +2, Knowledge (religion) +7, Sense Motive +7, Spellcraft +3, Stealth -1
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Dwarven, Undercommon
-
-**Special qualities:** blessings 8/day (Charm: charming presence, dominance aura; Evil: battle
-companion, unholy strike)
-
-**Combat gear:** I-feather token (whip), scroll of air walk, 2 scroll of dispel magic, scroll of
-heal, Ddeath knell/50 charges
-
-**Other gear:** +2 half-plate, +1 warhammer, Iamu1, Ibogs2, Iclk1,
-[iron unholy symbol](ref/eq-misc/holy-symbol-iron) of Droskar, 11 pp, 23 gp
+::: statblock
+Ability scores: Str 18, Dex 12, Con 16, Int 8, Wis 16, Cha 6
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 23 (27 vs. bull rush, 27 vs. trip)
+Feats: Channel Smite, Cleave, Combat Casting, Furious Focus, Improved Critical (warhammer), Iron Will, Power Attack, Toughness, Vital Strike, Weapon Focus (warhammer)
+Skills: Bluff +2, Knowledge (religion) +7, Sense Motive +7, Spellcraft +3, Stealth -1
+Racial Modifiers: +4 Stealth
+Languages: Common, Dwarven, Undercommon
+Special qualities: blessings 8/day (Charm: charming presence, dominance aura; Evil: battle companion, unholy strike)
+Combat gear: I-feather token (whip), scroll of air walk, 2 scroll of dispel magic, scroll of heal, Ddeath knell/50 charges
+Other gear: +2 half-plate, +1 warhammer, Iamu1, Ibogs2, Iclk1, [iron unholy symbol](ref/eq-misc/holy-symbol-iron) of Droskar, 11 pp, 23 gp
+:::
 
 ### Description
 

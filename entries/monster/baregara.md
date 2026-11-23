@@ -34,104 +34,74 @@ abilities = ["26", "19", "20", "15", "16", "17"]
 _This lumbering ape-like monster has blood-red fur, twisted horns, and a hideous fanged orifice set
 in the center of its chest._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Initiative: +8
+Size: large
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 25
+Touch: 13
+Flat-footed: 21
+AC modifiers: +4 Dex, +12 natural, -1 size
+Hit points: 168 (16d10+80)
+Fort: +15
+Ref: +14
+Will: +10
+Dr: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 23
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., climb 40 ft.
+Melee: bite +23 (1d8+8), 2 claws +23 (1d10+8 plus [grab](ref/umr/grab)), gore +23 (1d8+8)
+Reach: 10
+Space: 10
+Spec Att: devouring grapple, monstrous challenge, one-armed hold
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +19
+Constant: see invisibility
+At will: dispel magic, teleport, self plus 50 lbs. of objects only
+Per day: 3/day: quickened hold person (DC 16)\
+1/day: summon (level 4, 1d4 [dire apes](ref/monster/ape-dire-ape-gigantopithecus) 50% or 1d2 [girallons](ref/monster/girallon) 35%), unholy blight (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar
+::: statblock
+Ability scores: Str 26, Dex 19, Con 20, Int 15, Wis 16, Cha 17
+Base attack bonus: +16
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 39
+Feats: Critical Focus, Improved Initiative, Intimidating Prowess, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (hold person), Step Up, Throw Anything
+Skills: Acrobatics +15, Bluff +14, Climb +27
+Languages: Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 13
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 Dex, +12 natural, -1 size
-
-**Hit points:** 168 (16d10+80)
-
-**Fort:** +15
-
-**Ref:** +14
-
-**Will:** +10
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft., climb 40 ft.
-
-**Melee:** bite +23 (1d8+8), 2 claws +23 (1d10+8 plus [grab](ref/umr/grab)), gore +23 (1d8+8)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** devouring grapple, monstrous challenge, one-armed hold
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +19
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- dispel magic, teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: quickened hold person (DC 16)
-- 1/day: summon (level 4, 1d4 [dire apes](ref/monster/ape-dire-ape-gigantopithecus) 50% or 1d2
-  [girallons](ref/monster/girallon) 35%), unholy blight (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con 20, Int 15, Wis 16, Cha 17
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 39
-
-**Feats:** Critical Focus, Improved Initiative, Intimidating Prowess, Iron Will, Power Attack,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (hold person), Step Up, Throw Anything
-
-**Skills:** Acrobatics +15, Bluff +14, Climb +27
-
-**Languages:** Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** warm forests ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or troop (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or troop (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

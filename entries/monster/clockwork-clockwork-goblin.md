@@ -32,79 +32,64 @@ abilities = ["20", "14", "-", "-", "11", "1"]
 _Haphazard in its creation, this mechanical creature has the shape of a goblin wielding a
 dogslicer._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: +6
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Clockwork
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 dodge, +1 natural, +1 size
+Hit points: 32 (4d10+10)
+Fort: +1
+Ref: +5
+Will: +1
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: fire 5
+Vulner: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+Melee: dogslicer +10 (1d4+5)
+Spec Att: integrated dogslicer, searing eyebeam
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
-
-**Subtype:** Clockwork
-
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 dodge, +1 natural, +1 size
-
-**Hit points:** 32 (4d10+10)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +1
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** fire 5
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dogslicer +10 (1d4+5)
-
-**Spec Att:** integrated dogslicer, searing eyebeam
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 14, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 22
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** difficult to create, swift reactions, unstable creation, winding
+::: statblock
+Ability scores: Str 20, Dex 14, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 22
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: difficult to create, swift reactions, unstable creation, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or gang (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

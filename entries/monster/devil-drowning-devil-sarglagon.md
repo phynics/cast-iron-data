@@ -34,105 +34,75 @@ abilities = ["20", "25", "23", "16", "20", "19"]
 _This serpentine creature has fin-like wings, ram horns, four eyes, and arms that end in masses of
 tentacles._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: heavy aura (10 ft., DC 18)
+Initiative: +7
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft., See in darkness, See invisibility
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 4,800
+:::
 
-**aura:** heavy aura (10 ft., DC 18)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 21
+Touch: 17
+Flat-footed: 13
+AC modifiers: +7 Dex, +1 dodge, +4 natural, -1 size
+Hit points: 103 (9d10+54)
+Fort: +12
+Ref: +10
+Will: +11
+Dr: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 19
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft., swim 40 ft., fly 30 ft. (average)
+Melee: bite +15 (2d6+5), 2 slams +15 (1d8+5 plus poison)
+Reach: 10
+Space: 10
+Spec Att: drown, poison
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: see invisibility, water breathing
+At will: control water, curse water, discern lies, greater teleport, self plus 50 lbs. of objects only, hydraulic push
+Per day: 3/day: hydraulic torrent, poison (DC 18), protection from good\
+1/day: freedom of movement, summon (level 4, 1 drowning devil 35%)
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness, See invisibility
+::: statblock
+Ability scores: Str 20, Dex 25, Con 23, Int 16, Wis 20, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +17
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Agile Maneuvers, Combat Reflexes, Dodge, Weapon Finesse, Wind Stance
+Skills: Bluff +16, Diplomacy +16, Fly +5
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 17
-
-**Flat-footed:** 13
-
-**AC modifiers:** +7 Dex, +1 dodge, +4 natural, -1 size
-
-**Hit points:** 103 (9d10+54)
-
-**Fort:** +12
-
-**Ref:** +10
-
-**Will:** +11
-
-**Dr:** 5/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft., fly 30 ft. (average)
-
-**Melee:** bite +15 (2d6+5), 2 slams +15 (1d8+5 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** drown, poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- see invisibility, water breathing
-
-**At will:**
-
-- control water, curse water, discern lies, greater teleport, self plus 50 lbs. of objects only,
-  hydraulic push
-
-**Per day:**
-
-- 3/day: hydraulic torrent, poison (DC 18), protection from good
-- 1/day: freedom of movement, summon (level 4, 1 drowning devil 35%)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 25, Con 23, Int 16, Wis 20, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Dodge, Weapon Finesse, Wind Stance
-
-**Skills:** Bluff +16, Diplomacy +16, Fly +5
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or guard (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or guard (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

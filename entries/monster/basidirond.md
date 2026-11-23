@@ -30,69 +30,57 @@ abilities = ["20", "13", "16", "-", "11", "1"]
 _This strange plant consists of four spidery stalks, long green tendrils, and an inverted
 bell-shaped cap filled with spores._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Type: plant
+Tremorsense: present
+Experience points: 1,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 17
+AC modifiers: +1 Dex, +7 natural
+Hit points: 52 (7d8+21)
+Fort: +8
+Ref: +3
+Will: +2
+Immune: cold, [plant traits](ref/umr/plant-traits)
+Weaknesses: cold lethargy
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft.
+Melee: slam +10 (1d8+7 plus spores)
+Spec Att: hallucination cloud, spores
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 20, Dex 13, Con 16, Int -, Wis 11, Cha 1
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 21 (25 vs. trip)
+:::
 
-**Tremorsense:** present
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +7 natural
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +8
-
-**Ref:** +3
-
-**Will:** +2
-
-**Immune:** cold, [plant traits](ref/umr/plant-traits)
-
-**Weaknesses:** cold lethargy
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** slam +10 (1d8+7 plus spores)
-
-**Spec Att:** hallucination cloud, spores
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 16, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Ecology**
-
-**Environment:** any non-cold underground
-
-**Organization:** solitary, pair, or grove (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any non-cold underground
+Organization: solitary, pair, or grove (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -31,114 +31,76 @@ abilities = ["22", "19", "24", "23", "16", "23"]
 _This fiend seems carved from weathered ivory, and runes and symbols of power cover its pale flesh.
 Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +36
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 76,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 30
+Touch: 14
+Flat-footed: 26
+AC modifiers: +4 Dex, +16 natural
+Hit points: 225 (18d10+126)
+Fort: +18
+Ref: +10
+Will: +14
+Dr: 10/cold iron and good
+Immune: electricity, mind-affecting effects, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 27
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +24 (2d6+6), gore +24 (2d6+6 plus 1d4 Wis), tail slap +19 (1d8+3)
+Pow Ch: gore, 4d6+12
+Rend: 2 claws, 2d6+9
+Spec Att: idolatry, labyrinthine mindtrap, mindrender, unspeakable truth
+:::
 
-**Perception:** +36
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+Constant: see invisibility
+At will: enter image, greater teleport, self plus 50 lbs. of objects only, meld into stone, possess object, ventriloquism (DC 17)
+Per day: 3/day: charm monster (DC 20), quickened dominate person (DC 21), stone shape, vengeful outrage (DC 22)\
+1/day: mass suggestion (DC 22), statue, summon (level 7, 1 shachath or 1d3 succubi 50%), symbol of persuasion (DC 22)
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 22, Dex 19, Con 24, Int 23, Wis 16, Cha 23
+Base attack bonus: +18
+Combat maneuver bonus: +24
+Combat maneuver defense: 38
+Feats: Alertness, Combat Casting, Deceitful, Greater Vital Strike, Improved Initiative, Improved Vital Strike, Persuasive, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dominate person), Vital Strike
+Skills: Bluff +31, Craft (sculpture, stonemasonry) +18, Sense Motive +28, Spellcraft +16, Stealth +25, Use Magic Device +14
+Racial Modifiers: +8 Perception
+Languages: Abyssal (can't speak), Celestial (can't speak), Draconic (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (Medium humanoid; [polymorph](ref/spell/polymorph)), [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 76,800
+### Ecology {#stat-ecology}
 
-**Armor class:** 30
-
-**Touch:** 14
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +16 natural
-
-**Hit points:** 225 (18d10+126)
-
-**Fort:** +18
-
-**Ref:** +10
-
-**Will:** +14
-
-**Dr:** 10/cold iron and good
-
-**Immune:** electricity, mind-affecting effects, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +24 (2d6+6), gore +24 (2d6+6 plus 1d4 Wis), tail slap +19 (1d8+3)
-
-**Pow Ch:** gore, 4d6+12
-
-**Rend:** 2 claws, 2d6+9
-
-**Spec Att:** idolatry, labyrinthine mindtrap, mindrender, unspeakable truth
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- enter image, greater teleport, self plus 50 lbs. of objects only, meld into stone, possess object,
-  ventriloquism (DC 17)
-
-**Per day:**
-
-- 3/day: charm monster (DC 20), quickened dominate person (DC 21), stone shape, vengeful outrage (DC
-  22)
-- 1/day: mass suggestion (DC 22), statue, summon (level 7, 1 shachath or 1d3 succubi 50%), symbol of
-  persuasion (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 24, Int 23, Wis 16, Cha 23
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 38
-
-**Feats:** Alertness, Combat Casting, Deceitful, Greater Vital Strike, Improved Initiative, Improved
-Vital Strike, Persuasive, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dominate
-person), Vital Strike
-
-**Skills:** Bluff +31, Craft (sculpture, stonemasonry) +18, Sense Motive +28, Spellcraft +16,
-Stealth +25, Use Magic Device +14
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal (can't speak), Celestial (can't speak), Draconic (can't speak);
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium humanoid;
-[polymorph](ref/spell/polymorph)), [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or conspiracy (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or conspiracy (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

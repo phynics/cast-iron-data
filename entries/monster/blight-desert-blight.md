@@ -32,102 +32,74 @@ abilities = ["30", "25", "24", "15", "18", "25"]
 _A roiling mass of orange-brown sludge studded with gleaming red eyes brandishes its lashing
 tentacles._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+blindsight: 120
+Initiative: +11
+Size: medium
+Alignment: Neutral evil
+Type: ooze
+Perception: +19
+Subtype: Blight
+Experience points: 25,600
+:::
 
-**blindsight:** 120
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 28
+Touch: 18
+Flat-footed: 20
+AC modifiers: +7 Dex, +1 dodge, +10 natural
+Hit points: 172 (15d8+105)
+Fort: +12
+Ref: +14
+Will: +11
+Defensive abilities: rejuvenation
+Fh: 10
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+Resist: cold 20, fire 20
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Constrict: 2d6+10
+Melee: 3 tentacles +21 (2d6+10/19-20 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 5
+Spec Att: dehydration pulse, temperature extremes
+:::
 
-**Type:** ooze
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +20
+Per day: 1/day: blight (DC 22), command plants (DC 21), dominate monster (animals and magical beasts only, DC 26), greater curse terrain, hallucinatory terrain (DC 21), waves of fatigue
+:::
 
-**Perception:** +19
+### Statistics
 
-**Subtype:** Blight
+::: statblock
+Ability scores: Str 30, Dex 25, Con 24, Int 15, Wis 18, Cha 25
+Base attack bonus: +11
+Combat maneuver bonus: +21 (+25 grapple)
+Combat maneuver defense: 39 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Improved Critical (tentacle), Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Power Attack
+Skills: Bluff +22, Knowledge (geography) +17, Perception +19, Stealth +22 (+30 in desert terrain)
+Racial Modifiers: +8 Stealth in desert terrain
+Languages: Aklo, Ignan; domain [telepathy](ref/umr/telepathy)
+Special qualities: cursed domain, [favored terrain](ref/ability/favored-terrain) (desert)
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 18
-
-**Flat-footed:** 20
-
-**AC modifiers:** +7 Dex, +1 dodge, +10 natural
-
-**Hit points:** 172 (15d8+105)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +11
-
-**Defensive abilities:** rejuvenation
-
-**Fh:** 10
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** cold 20, fire 20
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Constrict:** 2d6+10
-
-**Melee:** 3 tentacles +21 (2d6+10/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** dehydration pulse, temperature extremes
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +20
-
-**Per day:**
-
-- 1/day: blight (DC 22), command plants (DC 21), dominate monster (animals and magical beasts only,
-  DC 26), greater curse terrain, hallucinatory terrain (DC 21), waves of fatigue
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 25, Con 24, Int 15, Wis 18, Cha 25
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +21 (+25 grapple)
-
-**Combat maneuver defense:** 39 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (tentacle), Improved Initiative, Iron Will,
-Lightning Reflexes, Mobility, Power Attack
-
-**Skills:** Bluff +22, Knowledge (geography) +17, Perception +19, Stealth +22 (+30 in desert
-terrain)
-
-**Racial Modifiers:** +8 Stealth in desert terrain
-
-**Languages:** Aklo, Ignan; domain [telepathy](ref/umr/telepathy)
-
-**Special qualities:** cursed domain, [favored terrain](ref/ability/favored-terrain) (desert)
-
-**Ecology**
-
-**Environment:** any deserts
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any deserts
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

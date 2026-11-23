@@ -28,69 +28,57 @@ abilities = ["29", "17", "25", "2", "16", "14"]
 
 _Fearsome bony growths protrude from several spots in this massive animal's snowy fur._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: animal
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +14
+Senses: Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +3 Dex, +10 natural, -1 size
+Hit points: 115 (10d8+70)
+Fort: +14
+Ref: +10
+Will: +6
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Melee: bite +15 (1d8+9), 2 claws +15 (1d6+9 plus [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 29, Dex 17, Con 25, Int 2, Wis 16, Cha 14
+Base attack bonus: +7
+Combat maneuver bonus: +17 (+21 grapple)
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Endurance, Improved Initiative, Iron Will, Run, Skill Focus (Perception)
+Skills: Perception +14, Swim +21
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +10 natural, -1 size
-
-**Hit points:** 115 (10d8+70)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Melee:** bite +15 (1d8+9), 2 claws +15 (1d6+9 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 17, Con 25, Int 2, Wis 16, Cha 14
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +17 (+21 grapple)
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Endurance, Improved Initiative, Iron Will, Run, Skill Focus (Perception)
-
-**Skills:** Perception +14, Swim +21
-
-**Ecology**
-
-**Environment:** cold coastlines or plains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: cold coastlines or plains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

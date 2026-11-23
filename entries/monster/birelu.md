@@ -32,99 +32,72 @@ _This figure seems caught at the moment of transformation between human and anim
 bearded face seems like a man's, its head is crowned with a rack of antlers, and its hunched body is
 covered in patches of sleek black fur._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic neutral
+Initiative: +10
+Size: medium
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Extraplanar, Incorporeal
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 21
+Touch: 21
+Flat-footed: 14
+AC modifiers: +4 deflection, +6 Dex, +1 dodge
+Hit points: 110 (13d10+39)
+Fort: +11
+Ref: +14
+Will: +7
+Dr: 10/cold iron
+Incorporeal: present
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 50 ft. (perfect)
+Melee: gore +19 (1d8 plus 2d6 force), 2 claws +19 (1d6 plus 2d6 force)
+Pow Ch: gore, 2d8 plus 4d6 force
+Spec Att: force of nature, spirit walk
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +17
+Constant: speak with animals
+At will: call animal, charm animal (DC 15)
+Per day: 3/day: dominate animal (DC 17), moonstruck (DC 18)\
+1/day: baleful polymorph (DC 19), commune with nature
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Extraplanar, Incorporeal
+::: statblock
+Ability scores: Str -, Dex 23, Con 16, Int 10, Wis 13, Cha 19
+Base attack bonus: +13
+Combat maneuver bonus: +19
+Combat maneuver defense: 34
+Feats: Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron Will, Mobility
+Skills: Fly +20, Handle Animal +13, Knowledge (geography) +16, Perception +17
+Languages: Sylvan, _[speak with animals](ref/spell/speak-with-animals)_
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 21
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 deflection, +6 Dex, +1 dodge
-
-**Hit points:** 110 (13d10+39)
-
-**Fort:** +11
-
-**Ref:** +14
-
-**Will:** +7
-
-**Dr:** 10/cold iron
-
-**Incorporeal:** present
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** fly 50 ft. (perfect)
-
-**Melee:** gore +19 (1d8 plus 2d6 force), 2 claws +19 (1d6 plus 2d6 force)
-
-**Pow Ch:** gore, 2d8 plus 4d6 force
-
-**Spec Att:** force of nature, spirit walk
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +17
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- call animal, charm animal (DC 15)
-
-**Per day:**
-
-- 3/day: dominate animal (DC 17), moonstruck (DC 18)
-- 1/day: baleful polymorph (DC 19), commune with nature
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 23, Con 16, Int 10, Wis 13, Cha 19
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 34
-
-**Feats:** Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron Will,
-Mobility
-
-**Skills:** Fly +20, Handle Animal +13, Knowledge (geography) +16, Perception +17
-
-**Languages:** Sylvan, _[speak with animals](ref/spell/speak-with-animals)_
-
-**Ecology**
-
-**Environment:** any forest, mountain, or plains
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any forest, mountain, or plains
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

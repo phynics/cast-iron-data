@@ -31,101 +31,76 @@ abilities = ["21", "14", "17", "14", "14", "13"]
 _Between this dragon's jet-black scales run glowing rivulets of lava, and veins aglow with heat
 shine in the membranes of its wings._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic neutral
+Type: dragon
+Initiative: +6
+Size: medium
+Perception: +14
+Senses: Dragon senses
+Subtype: Extraplanar, Fire
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 20
+AC modifiers: +2 Dex, +10 natural
+Hit points: 85 (9d12+27)
+Fort: +11
+Ref: +8
+Will: +10
+Immune: fire, paralysis, sleep
+Vulner: cold
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 150 ft. (average)
+Br Weap: 30-ft. cone, 6d6 fire, DC 17
+Melee: bite +17 (1d8+12 plus 3 fire), 2 claws +17 (1d6+8), 2 wings +12 (1d4+4)
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +10
+At will: burning hands (DC 12)
+:::
 
-**Senses:** Dragon senses
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +2
+1st-level spells: 4/day: flare burst (DC 12), grease (DC 12)
+Cantrips: At will: bleed (DC 11), detect magic, open/close, spark
+:::
 
-**Subtype:** Extraplanar, Fire
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 21, Dex 14, Con 17, Int 14, Wis 14, Cha 13
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Great Fortitude, Improved Initiative, Iron Will, Power Attack, Vital Strike
+Skills: Acrobatics +11 (+15 jump), Climb +17, Fly +14
+Languages: Common, Draconic, Ignan
+Special qualities: superheated
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +10 natural
-
-**Hit points:** 85 (9d12+27)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +10
-
-**Immune:** fire, paralysis, sleep
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft., fly 150 ft. (average)
-
-**Br Weap:** 30-ft. cone, 6d6 fire, DC 17
-
-**Melee:** bite +17 (1d8+12 plus 3 fire), 2 claws +17 (1d6+8), 2 wings +12 (1d4+4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +10
-
-**At will:**
-
-- burning hands (DC 12)
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**1st-level spells:**
-
-- 4/day: flare burst (DC 12), grease (DC 12)
-
-**Cantrips:**
-
-- At will: bleed (DC 11), detect magic, open/close, spark
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 14, Con 17, Int 14, Wis 14, Cha 13
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Great Fortitude, Improved Initiative, Iron Will, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +11 (+15 jump), Climb +17, Fly +14
-
-**Languages:** Common, Draconic, Ignan
-
-**Special qualities:** superheated
-
-**Ecology**
-
-**Environment:** any mountains or underground ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any mountains or underground ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

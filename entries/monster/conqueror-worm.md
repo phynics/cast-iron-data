@@ -31,158 +31,93 @@ abilities = ["47", "24", "30", "31", "22", "29"]
 _This immense worm resembles a gigantic maggot with pale flesh. Its mouth is peeled back to reveal
 four long, hook-like jaws._
 
-**Challenge rating:** 21
-
-**Type:** aberration
-
-**Size:** colossal
-
-**Initiative:** +11
-
-**Alignment:** Neutral evil
-
-**Perception:** +37
-
-**Senses:** Darkvision 60 ft., True seeing
-
-**tremorsense:** 120
-
-**Experience points:** 409,600
-
-**Armor class:** 37
-
-**Touch:** 9
-
-**Flat-footed:** 30
-
-**AC modifiers:** +7 Dex, +28 natural, -8 size
-
-**Hit points:** 406 (28d8+280)
-
-**Fort:** +21
-
-**Ref:** +18
-
-**Will:** +24
-
-**Defensive abilities:** telepathic escape
-
-**Dr:** 15/good and piercing
-
-**Immune:** acid, cold, disease, mind-affecting effects, poison
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 60 ft., burrow 30 ft.
-
-**Br Weap:** 100-ft. line, 20d8 acid, Reflex DC 34 half, usable every 1d4 rounds
-
-**F Swallow:** present
-
-**Melee:** bite +31 (6d8+18/19-20 plus 8d6 acid), slam +31 (4d10+18/19-20)
-
-**Reach:** 30
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 30
-
-**Spec Att:** mental invader
-
-**Swallow:** 8d6 bludgeoning and 8d6 acid damage, AC 24, 40 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +28
-
-**Constant:**
-
-- air walk, true seeing
-
-**At will:**
-
-- detect thoughts (DC 21)
-
-**Spells Known**
-
-**Caster level:** 19
-
-**Concentration:** +29
-
-**9th-level spells:**
-
-- 5/day: dominate monster (DC 29), implosion (DC 29), time stop
-
-**8th-level spells:**
-
-- 7/day: demand (DC 28), mass charm monster (DC 28), psychic crush IV (DC 27)
-
-**7th-level spells:**
-
-- 8/day: ego whip V (DC 26), insanity (DC 27), project image (DC 27)
-
-**6th-level spells:**
-
-- 8/day: mass inflict pain (DC 25), mind thrust VI (DC 25), veil (DC 26)
-
-**5th-level spells:**
-
-- 8/day: greater command (DC 25), greater synaptic pulse (DC 24), mind fog (DC 25), possession (DC
-  24)
-
-**4th-level spells:**
-
-- 8/day: dream, hallucinatory terrain (DC 24), mind probe (DC 23), scrying (DC 24)
-
-**3rd-level spells:**
-
-- 9/day: clairaudience/clairvoyance, dispel magic, illusory script (DC 23), telekinetic maneuver
-
-**2nd-level spells:**
-
-- 9/day: enthrall (DC 22), share memory (DC 22), status, suggestion (DC 22), undetectable alignment
-
-**1st-level spells:**
-
-- 9/day: alarm, entropic shield, mage armor, psychic reading, unseen servant
-
-**Cantrips:**
-
-- At will: arcane mark, daze (DC 20), detect magic, detect psychic significance, mage hand, message,
-  open/close, read magic, telekinetic projectile
-
-**Statistics**
-
-**Ability scores:** Str 47, Dex 24, Con 30, Int 31, Wis 22, Cha 29
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +47
-
-**Combat maneuver defense:** 64 (can't be tripped)
-
-**Feats:** Combat Casting, Great Fortitude, Hidden Presence, Improved Critical (bite, slam),
-Improved Great Fortitude, Improved Initiative, Intrusive Presence, Iron Will, Lightning Reflexes,
-Logical Spell, Manipulative Presence, Quicken Spell, Vital Strike
-
-**Skills:** Bluff +37, Diplomacy +37, Sense Motive +34, Spellcraft +41, Use Magic Device +37
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Draconic, Dwarven, Elven, Gm, Halfling, Infernal,
-Terran, Undercommon; [telepathy](ref/umr/telepathy) 200 ft.
-
-**Special qualities:** deific
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Challenge rating: 21
+Type: aberration
+Size: colossal
+Initiative: +11
+Alignment: Neutral evil
+Perception: +37
+Senses: Darkvision 60 ft., True seeing
+tremorsense: 120
+Experience points: 409,600
+:::
+
+### Defense
+
+::: statblock
+Armor class: 37
+Touch: 9
+Flat-footed: 30
+AC modifiers: +7 Dex, +28 natural, -8 size
+Hit points: 406 (28d8+280)
+Fort: +21
+Ref: +18
+Will: +24
+Defensive abilities: telepathic escape
+Dr: 15/good and piercing
+Immune: acid, cold, disease, mind-affecting effects, poison
+Sr: 32
+:::
+
+### Offense
+
+::: statblock
+Speed: 60 ft., burrow 30 ft.
+Br Weap: 100-ft. line, 20d8 acid, Reflex DC 34 half, usable every 1d4 rounds
+F Swallow: present
+Melee: bite +31 (6d8+18/19-20 plus 8d6 acid), slam +31 (4d10+18/19-20)
+Reach: 30
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 30
+Spec Att: mental invader
+Swallow: 8d6 bludgeoning and 8d6 acid damage, AC 24, 40 hp
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +28
+Constant: air walk, true seeing
+At will: detect thoughts (DC 21)
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 19
+Concentration: +29
+9th-level spells: 5/day: dominate monster (DC 29), implosion (DC 29), time stop
+8th-level spells: 7/day: demand (DC 28), mass charm monster (DC 28), psychic crush IV (DC 27)
+7th-level spells: 8/day: ego whip V (DC 26), insanity (DC 27), project image (DC 27)
+6th-level spells: 8/day: mass inflict pain (DC 25), mind thrust VI (DC 25), veil (DC 26)
+5th-level spells: 8/day: greater command (DC 25), greater synaptic pulse (DC 24), mind fog (DC 25), possession (DC 24)
+4th-level spells: 8/day: dream, hallucinatory terrain (DC 24), mind probe (DC 23), scrying (DC 24)
+3rd-level spells: 9/day: clairaudience/clairvoyance, dispel magic, illusory script (DC 23), telekinetic maneuver
+2nd-level spells: 9/day: enthrall (DC 22), share memory (DC 22), status, suggestion (DC 22), undetectable alignment
+1st-level spells: 9/day: alarm, entropic shield, mage armor, psychic reading, unseen servant
+Cantrips: At will: arcane mark, daze (DC 20), detect magic, detect psychic significance, mage hand, message, open/close, read magic, telekinetic projectile
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 47, Dex 24, Con 30, Int 31, Wis 22, Cha 29
+Base attack bonus: +21
+Combat maneuver bonus: +47
+Combat maneuver defense: 64 (can't be tripped)
+Feats: Combat Casting, Great Fortitude, Hidden Presence, Improved Critical (bite, slam), Improved Great Fortitude, Improved Initiative, Intrusive Presence, Iron Will, Lightning Reflexes, Logical Spell, Manipulative Presence, Quicken Spell, Vital Strike
+Skills: Bluff +37, Diplomacy +37, Sense Motive +34, Spellcraft +41, Use Magic Device +37
+Languages: Abyssal, Aklo, Celestial, Common, Draconic, Dwarven, Elven, Gm, Halfling, Infernal, Terran, Undercommon; [telepathy](ref/umr/telepathy) 200 ft.
+Special qualities: deific
+:::
+
+### Ecology
+
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

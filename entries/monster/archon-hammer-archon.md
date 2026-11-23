@@ -32,111 +32,77 @@ abilities = ["23", "13", "30", "16", "20", "19"]
 _This stern-looking humanoid wears a suit of armor decorated with sharp lines. He wields a
 hammer-headed polearm with a wicked spike on its reverse side._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: aura of menace (20 ft., DC 26)
+Initiative: +5
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +28
+Senses: Darkvision 60 ft., Detect evil, Low-light vision
+Subtype: Archon, Extraplanar, Good, Lawful
+Experience points: 153,600
+:::
 
-**aura:** aura of menace (20 ft., DC 26)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 33
+Touch: 10
+Flat-footed: 32
+AC modifiers: +11 armor, +1 Dex, +12 natural, -1 size
+Hit points: 310 (20d10+200)
+Fort: +16
+Ref: +13
+Will: +17; +4 vs. poison
+Defensive abilities: reverberation
+Dr: 10/evil
+Immune: bludgeoning, electricity, petrification
+Regen: 5 (evil weapons and spells)
+Sr: 31
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: 30 ft., fly 90 ft. (good)
+Melee: +4 impact lucerne hammer +30/+25/+20/+15 (4d6+13)
+Reach: 10
+Reach P: 15 ft. with lucerne hammer
+Space: 10
+Spec Att: axiomatic barrage, inevitable sunder
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +24
+Constant: detect evil
+At will: break (DC 15), protection from chaos, shield
+Per day: 1/day: dictum, enemy hammer (DC 20), sympathetic vibration
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 13, Con 30, Int 16, Wis 20, Cha 19
+Base attack bonus: +20
+Combat maneuver bonus: +27 (+31 bull rush, +31 sunder)
+Combat maneuver defense: 38 (40 vs. sunder)
+Feats: Cleave, Great Cleave, Greater Sunder, Improved Initiative, Improved Sunder, Improved Vital Strike, Power Attack, Sundering Strike, Vital Strike, Weapon Focus (lucerne hammer)
+Skills: Diplomacy +27, Fly +21, Intimidate +27, Knowledge (engineering, history) +26, Perception +28
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: immovable object
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 10
-
-**Flat-footed:** 32
-
-**AC modifiers:** +11 armor, +1 Dex, +12 natural, -1 size
-
-**Hit points:** 310 (20d10+200)
-
-**Fort:** +16
-
-**Ref:** +13
-
-**Will:** +17; +4 vs. poison
-
-**Defensive abilities:** reverberation
-
-**Dr:** 10/evil
-
-**Immune:** bludgeoning, electricity, petrification
-
-**Regen:** 5 (evil weapons and spells)
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 30 ft., fly 90 ft. (good)
-
-**Melee:** +4 impact lucerne hammer +30/+25/+20/+15 (4d6+13)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with lucerne hammer
-
-**Space:** 10
-
-**Spec Att:** axiomatic barrage, inevitable sunder
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +24
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- break (DC 15), protection from chaos, shield
-
-**Per day:**
-
-- 1/day: dictum, enemy hammer (DC 20), sympathetic vibration
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 13, Con 30, Int 16, Wis 20, Cha 19
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +27 (+31 bull rush, +31 sunder)
-
-**Combat maneuver defense:** 38 (40 vs. sunder)
-
-**Feats:** Cleave, Great Cleave, Greater Sunder, Improved Initiative, Improved Sunder, Improved
-Vital Strike, Power Attack, Sundering Strike, Vital Strike, Weapon Focus (lucerne hammer)
-
-**Skills:** Diplomacy +27, Fly +21, Intimidate +27, Knowledge (engineering, history) +26, Perception
-+28
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** immovable object
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** Double (+2 full plate, +4 impact lucerne hammer); other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or squad (3-6)
+Treasure: Double (+2 full plate, +4 impact lucerne hammer); other treasure
+:::
 
 ### Special Abilities
 

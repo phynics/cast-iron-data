@@ -32,124 +32,83 @@ abilities = ["32", "23", "34", "19", "28", "27"]
 _This creature is covered in snapping jaws, from its massive, toothy head to the various mouths that
 open in its body and tail._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+Alignment: Chaotic neutral
+Size: gargantuan
+Initiative: +10
+Type: Magical beast
+Perception: +35
+Senses: Darkvision 180 ft., Low-light vision, Scent, True seeing
+Subtype: Aquatic
+tremorsense: 60
+Experience points: 409,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 37
+Touch: 13
+Flat-footed: 30
+AC modifiers: +6 Dex, +1 dodge, +24 natural, -4 size
+Hit points: 402 (23d10+276)
+Fort: +25
+Ref: +19
+Will: +18; +8 vs. mind-affecting effects
+Dr: 15/cold iron and lawful
+Immune: disease, nonlethal damage, poison
+Regen: 20 (special)
+Resist: acid 20, cold 20, electricity 20, fire 20
+Sr: 32
+:::
 
-**Initiative:** +10
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 60 ft., swim 60 ft.
+F Swallow: present
+Grab: Colossal
+Melee: ravenous bite +30 (3d6+16/19-20 plus grab), 4 bites +30 (2d6+11/19-20 plus grab), 2 claws +30 (2d6+11)
+Pounce: present
+Reach: 20
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 20
+Spec Att: devour, frightening roar, ravenous bite
+Swallow: see below, AC 22, 40 hp
+Trample: 2d8+16 plus grab, DC 32
+:::
 
-**Perception:** +35
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: air walk, mind blank, true seeing
+At will: control water, control weather, transmute rock to mud
+Per day: 3/day: horrid wilting (DC 26), incendiary cloud (DC 26), meteor swarm (DC 27), polar ray, vision
+:::
 
-**Senses:** Darkvision 180 ft., Low-light vision, Scent, True seeing
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 32, Dex 23, Con 34, Int 19, Wis 28, Cha 27
+Base attack bonus: +23
+Combat maneuver bonus: +38
+Combat maneuver defense: 55
+Feats: Combat Reflexes, Critical Focus, Dodge, Greater Vital Strike, Improved Critical (bite, ravenous bite), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike
+Skills: Climb +37
+Racial Modifiers: +8 Stealth underwater
+Languages: Aquan, Common, Draconic, Terran
+Special qualities: [amphibious](ref/umr/amphibious), destructive, hibernation
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 409,600
-
-**Armor class:** 37
-
-**Touch:** 13
-
-**Flat-footed:** 30
-
-**AC modifiers:** +6 Dex, +1 dodge, +24 natural, -4 size
-
-**Hit points:** 402 (23d10+276)
-
-**Fort:** +25
-
-**Ref:** +19
-
-**Will:** +18; +8 vs. mind-affecting effects
-
-**Dr:** 15/cold iron and lawful
-
-**Immune:** disease, nonlethal damage, poison
-
-**Regen:** 20 (special)
-
-**Resist:** acid 20, cold 20, electricity 20, fire 20
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 60 ft., swim 60 ft.
-
-**F Swallow:** present
-
-**Grab:** Colossal
-
-**Melee:** ravenous bite +30 (3d6+16/19-20 plus grab), 4 bites +30 (2d6+11/19-20 plus grab), 2 claws
-+30 (2d6+11)
-
-**Pounce:** present
-
-**Reach:** 20
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 20
-
-**Spec Att:** devour, frightening roar, ravenous bite
-
-**Swallow:** see below, AC 22, 40 hp
-
-**Trample:** 2d8+16 plus grab, DC 32
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- air walk, mind blank, true seeing
-
-**At will:**
-
-- control water, control weather, transmute rock to mud
-
-**Per day:**
-
-- 3/day: horrid wilting (DC 26), incendiary cloud (DC 26), meteor swarm (DC 27), polar ray, vision
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 23, Con 34, Int 19, Wis 28, Cha 27
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +38
-
-**Combat maneuver defense:** 55
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Greater Vital Strike, Improved Critical (bite,
-ravenous bite), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Staggering
-Critical, Vital Strike
-
-**Skills:** Climb +37
-
-**Racial Modifiers:** +8 Stealth underwater
-
-**Languages:** Aquan, Common, Draconic, Terran
-
-**Special qualities:** [amphibious](ref/umr/amphibious), destructive, hibernation
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any water
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

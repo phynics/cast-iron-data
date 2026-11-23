@@ -34,94 +34,71 @@ abilities = ["21", "19", "16", "21", "20", "20"]
 _As this lithe humanoid moves, its flesh shimmers and wavers, temporarily breaking apart into motes
 of shimmering light._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +8
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Lawful
+Experience points: 4,800
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 Dex, +1 dodge, +6 natural
+Hit points: 85 (10d10+30)
+Fort: +6
+Ref: +11
+Will: +14
+Dr: 10/chaotic
+Immune: disease, electricity, mind-affecting effects
+Regen: 5 (chaotic or magic)
+Resist: cold 10, fire 10
+Sr: 19
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 30 ft. (good)
+Melee: +1 longsword +16/+11 (1d8+7/19-20)
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+Per day: 3/day: dispel chaos, haste, hold monster (DC 20), lightning bolt (DC 18), empowered order's wrath (DC 19), telekinesis (DC 20), true strike\
+1/day: summon inevitable, true seeing
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Lawful
+::: statblock
+Ability scores: Str 21, Dex 19, Con 16, Int 21, Wis 20, Cha 20
+Base attack bonus: +10
+Combat maneuver bonus: +15
+Combat maneuver defense: 30
+Feats: Dodge, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (order's wrath), Improved Initiative, Iron Will, Mobility
+Skills: Craft (any one) +18, Diplomacy +18, Fly +8, Knowledge (any three) +15, Perception +18
+Languages: Abyssal, Celestial, Common, Draconic, Infernal
+Special qualities: crystalline dust form
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +6
-
-**Ref:** +11
-
-**Will:** +14
-
-**Dr:** 10/chaotic
-
-**Immune:** disease, electricity, mind-affecting effects
-
-**Regen:** 5 (chaotic or magic)
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (good)
-
-**Melee:** +1 longsword +16/+11 (1d8+7/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Per day:**
-
-- 3/day: dispel chaos, haste, hold monster (DC 20), lightning bolt (DC 18), empowered order's wrath
-  (DC 19), telekinesis (DC 20), true strike
-- 1/day: summon inevitable, true seeing
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 19, Con 16, Int 21, Wis 20, Cha 20
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 30
-
-**Feats:** Dodge, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (order's wrath),
-Improved Initiative, Iron Will, Mobility
-
-**Skills:** Craft (any one) +18, Diplomacy +18, Fly +8, Knowledge (any three) +15, Perception +18
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** crystalline dust form
-
-**Ecology**
-
-**Environment:** any (lawful plane)
-
-**Organization:** solitary, pair, or team (3-12)
-
-**Treasure:** Standard (+1 longsword); other treasure
+::: statblock
+Environment: any (lawful plane)
+Organization: solitary, pair, or team (3-12)
+Treasure: Standard (+1 longsword); other treasure
+:::
 
 ### Special Abilities
 

@@ -33,80 +33,64 @@ abilities = ["20", "16", "-", "-", "11", "1"]
 _One of this slim construct's arms ends in a whirling clockwork pistol, and a crystalline hourglass
 fits snugly between its pectoral armor plates._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: construct
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 3,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 15
+AC modifiers: +3 Dex, +2 dodge, +5 natural
+Hit points: 69 (9d10+20)
+Fort: +3
+Ref: +8
+Will: +3
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: slam +14 (1d6+7)
+Ranged: pistol +12 (1d8/×4)
+Spec Att: captive time
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +2 dodge, +5 natural
-
-**Hit points:** 69 (9d10+20)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +3
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +14 (1d6+7)
-
-**Ranged:** pistol +12 (1d8/×4)
-
-**Spec Att:** captive time
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 29
-
-**Feats:** Deadly Aim^B^, Improved Initiative^B^, Lightning Reflexes^B^, Point-Blank Shot^B^,
-Precise Shot^B^
-
-**Special qualities:** difficult to create, integrated clockwork pistol, swift reactions, winding
+::: statblock
+Ability scores: Str 20, Dex 16, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 29
+Feats: Deadly Aim^B^, Improved Initiative^B^, Lightning Reflexes^B^, Point-Blank Shot^B^, Precise Shot^B^
+Special qualities: difficult to create, integrated clockwork pistol, swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, or squad (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or squad (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

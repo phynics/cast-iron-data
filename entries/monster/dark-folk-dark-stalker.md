@@ -31,90 +31,68 @@ abilities = ["14", "18", "14", "9", "11", "13"]
 _This tall humanoid's pale brow and black, soulless eyes are all that can be seen above a black
 scarf wrapped around its face._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +4
+Size: medium
+Perception: +8
+Senses: See in darkness
+Subtype: Dark folk
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 armor, +4 Dex, +2 natural
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +9
+Will: +2
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 short swords +6/+6 (1d6+2 plus poison/19-20)
+Sneak: +3d6
+Spec Att: death throes
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+At will: deeper darkness, detect magic, fog cloud
+:::
 
-**Senses:** See in darkness
+### Statistics
 
-**Subtype:** Dark folk
+::: statblock
+Ability scores: Str 14, Dex 18, Con 14, Int 9, Wis 11, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 20
+Feats: Double Slice, Two-Weapon Fighting, Weapon Finesse
+Skills: Climb +10, Perception +8, Sleight of Hand +5, Stealth +8
+Racial Modifiers: +4 Climb, +4 Perception, +4 Stealth
+Languages: Dark Folk, Undercommon
+Special qualities: poison use
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 armor, +4 Dex, +2 natural
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +9
-
-**Will:** +2
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 short swords +6/+6 (1d6+2 plus poison/19-20)
-
-**Sneak:** +3d6
-
-**Spec Att:** death throes
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**At will:**
-
-- deeper darkness, detect magic, fog cloud
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 18, Con 14, Int 9, Wis 11, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 20
-
-**Feats:** Double Slice, Two-Weapon Fighting, Weapon Finesse
-
-**Skills:** Climb +10, Perception +8, Sleight of Hand +5, Stealth +8
-
-**Racial Modifiers:** +4 Climb, +4 Perception, +4 Stealth
-
-**Languages:** Dark Folk, Undercommon
-
-**Special qualities:** poison use
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, gang (1 dark stalker and 2-5
-[dark creepers](ref/monster/dark-folk-dark-creeper)), or clan (20-80 dark creepers plus 1 dark
-stalker per 20 dark creepers)
-
-**Treasure:** NPC gear (leather armor, 2 short swords); 6 doses of
-[black smear](ref/eq-poison/black-smear), other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, gang (1 dark stalker and 2-5 [dark creepers](ref/monster/dark-folk-dark-creeper)), or clan (20-80 dark creepers plus 1 dark stalker per 20 dark creepers)
+Treasure: NPC gear (leather armor, 2 short swords); 6 doses of [black smear](ref/eq-poison/black-smear), other treasure
+:::
 
 ### Special Abilities
 

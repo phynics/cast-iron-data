@@ -32,107 +32,74 @@ abilities = ["28", "18", "23", "14", "15", "17"]
 _This muscular, frog-headed humanoid has tattered flesh hanging from its bat-like wings and is
 covered in a viscous slime._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: [stench](ref/umr/stench) (DC 26, 1d6 rounds)
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Type: outsider
+Perception: +2
+Senses: Darkvision 120 ft., Detect good, Detect magic, See invisibility
+Subtype: Chaotic, Demodand, Evil, Extraplanar
+Experience points: 76,800
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 26, 1d6 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 30
+Touch: 13
+Flat-footed: 27
+AC modifiers: +6 armor, +3 Dex, +11 natural
+Hit points: 241 (21d10+126)
+Fort: +18
+Ref: +13
+Will: +14; +4 vs. divine spells
+Dr: 10/good and magic
+Immune: acid, poison
+Resist: cold 10, fire 10
+Sr: 27
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., fly 40 ft. (average)
+Melee: bite +30 (1d10+9 plus 2d6 acid), 2 claws +30 (2d6+13/19-20 plus 2d6 acid and [grab](ref/umr/grab))
+Spec Att: acid, dread claws, faith-stealing strike (DC 23)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +19
+Constant: detect good, detect magic, see invisibility
+At will: detect thoughts (DC 15), fear (DC 17)
+Per day: 3/day: acid fog, greater dispel magic\
+1/day: summon (level 6, 1d4 tarry demodands 50%)
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 120 ft., Detect good, Detect magic, See invisibility
+::: statblock
+Ability scores: Str 28, Dex 18, Con 23, Int 14, Wis 15, Cha 17
+Base attack bonus: +21
+Combat maneuver bonus: +30 (+34 grapple)
+Combat maneuver defense: 44
+Feats: Bleeding Critical, Blind-Fight, Critical Focus, Flyby Attack, Greater Vital Strike, Improved Critical (claw), Improved Vital Strike, Intimidating Prowess, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Acrobatics +8, Bluff +27, Climb +16, Intimidate +36, Knowledge (arcana) +13, Sense Motive +26, Spellcraft +20, Stealth +25, Survival +20
+Languages: Abyssal, Celestial, Common
+Special qualities: heretical soul
+:::
 
-**Subtype:** Chaotic, Demodand, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 13
-
-**Flat-footed:** 27
-
-**AC modifiers:** +6 armor, +3 Dex, +11 natural
-
-**Hit points:** 241 (21d10+126)
-
-**Fort:** +18
-
-**Ref:** +13
-
-**Will:** +14; +4 vs. divine spells
-
-**Dr:** 10/good and magic
-
-**Immune:** acid, poison
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (average)
-
-**Melee:** bite +30 (1d10+9 plus 2d6 acid), 2 claws +30 (2d6+13/19-20 plus 2d6 acid and
-[grab](ref/umr/grab))
-
-**Spec Att:** acid, dread claws, faith-stealing strike (DC 23)
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +19
-
-**Constant:**
-
-- detect good, detect magic, see invisibility
-
-**At will:**
-
-- detect thoughts (DC 15), fear (DC 17)
-
-**Per day:**
-
-- 3/day: acid fog, greater dispel magic
-- 1/day: summon (level 6, 1d4 tarry demodands 50%)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 18, Con 23, Int 14, Wis 15, Cha 17
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +30 (+34 grapple)
-
-**Combat maneuver defense:** 44
-
-**Feats:** Bleeding Critical, Blind-Fight, Critical Focus, Flyby Attack, Greater Vital Strike,
-Improved Critical (claw), Improved Vital Strike, Intimidating Prowess, Lightning Reflexes, Power
-Attack, Vital Strike
-
-**Skills:** Acrobatics +8, Bluff +27, Climb +16, Intimidate +36, Knowledge (arcana) +13, Sense
-Motive +26, Spellcraft +20, Stealth +25, Survival +20
-
-**Languages:** Abyssal, Celestial, Common
-
-**Special qualities:** heretical soul
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or slaving party (2 slimy demodands and 2-5
-[tarry demodands](ref/monster/demodand-tarry-demodand))
-
-**Treasure:** Standard (mwk breastplate); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or slaving party (2 slimy demodands and 2-5 [tarry demodands](ref/monster/demodand-tarry-demodand))
+Treasure: Standard (mwk breastplate); other treasure
+:::
 
 ### Special Abilities
 

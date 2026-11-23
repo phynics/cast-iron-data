@@ -33,103 +33,73 @@ sneer full of needle-thin teeth gleam from an unmistakably fiendish visage. A pa
 sprout from the back of the hairless humanoid form, fluttering silently like an assassin's cloak,
 while in one hand it clutches the twisted, dagger-like horn of some infernal terror._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +10
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 3,200
+:::
 
-**Initiative:** +10
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 16
+AC modifiers: +6 Dex, +1 dodge, +6 natural
+Hit points: 76 (9d10+27)
+Fort: +9
+Ref: +12
+Will: +7
+Dr: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: +1 dagger +14/+9 (1d4+5/17-20), tail +8 (1d4+2) or 2 claws +13 (1d4+4), tail +8 (1d4+2)
+Ranged: +1 dagger +16 (1d4+5/17-20)
+Spec Att: contract killer, sneak attack +3d6, suicide, vengeance
+:::
 
-**Perception:** +4
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Constant: spider climb
+At will: greater teleport, self plus 50 pounds of objects only, locate creature, knock
+Per day: 3/day: blur, self only, darkness, dimension door, dispel magic, silence (DC 16), suggestion (DC 17)\
+1/day: mislead (DC 20), passwall, statue, self only, summon (level 3, 4 [imps](ref/monster/devil-imp), 35%)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 18, Dex 22, Con 17, Int 15, Wis 19, Cha 18
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 30
+Feats: Dodge, Improved Critical (dagger), Improved Initiative, Mobility, Wind Stance
+Skills: Acrobatics +15, Disable Device +18, Disguise +16, Escape Artist +18, Knowledge (local) +11, Sense Motive +16, Sleight of Hand +18, Stealth +18
+Languages: Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Gear: +1 dagger
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +1 dodge, +6 natural
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +9
-
-**Ref:** +12
-
-**Will:** +7
-
-**Dr:** 5/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** +1 dagger +14/+9 (1d4+5/17-20), tail +8 (1d4+2) or 2 claws +13 (1d4+4), tail +8 (1d4+2)
-
-**Ranged:** +1 dagger +16 (1d4+5/17-20)
-
-**Spec Att:** contract killer, sneak attack +3d6, suicide, vengeance
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Constant:**
-
-- spider climb
-
-**At will:**
-
-- greater teleport, self plus 50 pounds of objects only, locate creature, knock
-
-**Per day:**
-
-- 3/day: blur, self only, darkness, dimension door, dispel magic, silence (DC 16), suggestion (DC
-  17)
-- 1/day: mislead (DC 20), passwall, statue, self only, summon (level 3, 4
-  [imps](ref/monster/devil-imp), 35%)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 22, Con 17, Int 15, Wis 19, Cha 18
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 30
-
-**Feats:** Dodge, Improved Critical (dagger), Improved Initiative, Mobility, Wind Stance
-
-**Skills:** Acrobatics +15, Disable Device +18, Disguise +16, Escape Artist +18, Knowledge (local)
-+11, Sense Motive +16, Sleight of Hand +18, Stealth +18
-
-**Languages:** Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Gear:** +1 dagger
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary or team (2-8)
-
-**Treasure:** Standard (+1 dagger); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary or team (2-8)
+Treasure: Standard (+1 dagger); other treasure
+:::
 
 ### Special Abilities
 

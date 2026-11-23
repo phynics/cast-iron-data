@@ -34,105 +34,75 @@ abilities = ["25", "24", "23", "16", "21", "16"]
 _This human-shaped beast has a horse's skull for a head. It walks on cracked hooves and bears the
 rotting wings of a carrion bird._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: infectious aura (50 ft.)
+Initiative: +11
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., Deathwatch, Detect good
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 6,400
+:::
 
-**aura:** infectious aura (50 ft.)
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 23
+Touch: 16
+Flat-footed: 16
+AC modifiers: +7 Dex, +7 natural, -1 size
+Hit points: 115 (10d10+60)
+Fort: +9
+Ref: +14
+Will: +12
+Dr: 10/good or silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 20
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: bite +16 (1d8+7), 2 claws +16 (1d6+7)
+Ranged: +1 composite longbow +18/+13 (2d6+8/×3 plus contagion)
+Reach: 10
+Space: 10
+Spec Att: breath of flies
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Constant: deathwatch, detect good
+At will: contagion (DC 17), dispel magic, greater teleport, self plus 50 lbs. of objects only
+Per day: 1/day: harm (DC 19), summon (level 3, 1 leukodaemon only, 35%)
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft., Deathwatch, Detect good
+::: statblock
+Ability scores: Str 25, Dex 24, Con 23, Int 16, Wis 21, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +18
+Combat maneuver defense: 35
+Feats: Alertness, Hover, Improved Initiative, Point-Blank Shot, Weapon Focus (longbow)
+Skills: Fly +18, Intimidate +16, Knowledge (planes) +16, Perception +22, Use Magic Device +16
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 16
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 Dex, +7 natural, -1 size
-
-**Hit points:** 115 (10d10+60)
-
-**Fort:** +9
-
-**Ref:** +14
-
-**Will:** +12
-
-**Dr:** 10/good or silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Melee:** bite +16 (1d8+7), 2 claws +16 (1d6+7)
-
-**Ranged:** +1 composite longbow +18/+13 (2d6+8/×3 plus contagion)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** breath of flies
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Constant:**
-
-- deathwatch, detect good
-
-**At will:**
-
-- contagion (DC 17), dispel magic, greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: harm (DC 19), summon (level 3, 1 leukodaemon only, 35%)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 24, Con 23, Int 16, Wis 21, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 35
-
-**Feats:** Alertness, Hover, Improved Initiative, Point-Blank Shot, Weapon Focus (longbow)
-
-**Skills:** Fly +18, Intimidate +16, Knowledge (planes) +16, Perception +22, Use Magic Device +16
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or wake (2-10)
-
-**Treasure:** Standard (+1 cl); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or wake (2-10)
+Treasure: Standard (+1 cl); other treasure
+:::
 
 ### Special Abilities
 

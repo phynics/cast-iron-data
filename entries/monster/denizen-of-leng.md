@@ -33,98 +33,72 @@ abilities = ["14", "18", "19", "18", "17", "21"]
 _Shrouded in tattered leather robes, this strange humanoid looks more alien and horrific the more
 one studies its twitching visage._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 Dex, +1 dodge, +6 natural
+Hit points: 95 (10d10+40); planar [fast healing](ref/umr/fast-healing) 5
+Fort: +11
+Ref: +11
+Will: +6
+Defensive abilities: no breath, unusual anatomy
+Immune: poison
+Resist: cold 30, electricity 30
+Sr: 19
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: bite +14 (1d6+2 plus 1d6 Dexterity drain), 2 claws +14 (1d4+2)
+Sneak: +5d6
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +15
+Constant: tongues
+Per day: 3/day: detect thoughts (DC 17), hypnotic pattern (DC 17), levitate, minor image (DC 17)\
+1/day: locate object, plane shift (DC 20, self only)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar
+::: statblock
+Ability scores: Str 14, Dex 18, Con 19, Int 18, Wis 17, Cha 21
+Base attack bonus: +10
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Deceitful, Dodge, Mobility, Persuasive, Weapon Finesse
+Skills: Bluff +22, Diplomacy +7, Disable Device +14, Disguise +12 (+16 as humanoid), Profession (sailor) +8, Sense Motive +16, Sleight of Hand +17, Spellcraft +12, Stealth +17, Use Magic Device +18
+Racial Modifiers: +4 Disguise when disguised as a Medium humanoid
+Languages: Aklo; _[tongues](ref/spell/tongues)_
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural
-
-**Hit points:** 95 (10d10+40); planar [fast healing](ref/umr/fast-healing) 5
-
-**Fort:** +11
-
-**Ref:** +11
-
-**Will:** +6
-
-**Defensive abilities:** no breath, unusual anatomy
-
-**Immune:** poison
-
-**Resist:** cold 30, electricity 30
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +14 (1d6+2 plus 1d6 Dexterity drain), 2 claws +14 (1d4+2)
-
-**Sneak:** +5d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**Constant:**
-
-- tongues
-
-**Per day:**
-
-- 3/day: detect thoughts (DC 17), hypnotic pattern (DC 17), levitate, minor image (DC 17)
-- 1/day: locate object, plane shift (DC 20, self only)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 18, Con 19, Int 18, Wis 17, Cha 21
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Deceitful, Dodge, Mobility, Persuasive, Weapon Finesse
-
-**Skills:** Bluff +22, Diplomacy +7, Disable Device +14, Disguise +12 (+16 as humanoid), Profession
-(sailor) +8, Sense Motive +16, Sleight of Hand +17, Spellcraft +12, Stealth +17, Use Magic Device
-+18
-
-**Racial Modifiers:** +4 Disguise when disguised as a Medium humanoid
-
-**Languages:** Aklo; _[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, gang (2-5), or crew (6-15)
-
-**Treasure:** Double; 500 to 2,000 gp in rubies, other treasure
+::: statblock
+Environment: any land
+Organization: solitary, gang (2-5), or crew (6-15)
+Treasure: Double; 500 to 2,000 gp in rubies, other treasure
+:::
 
 ### Special Abilities
 

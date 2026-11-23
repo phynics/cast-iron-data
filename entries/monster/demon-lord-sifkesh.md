@@ -31,126 +31,80 @@ abilities = ["32", "35", "42", "33", "29", "36"]
 _This gaunt woman has blood-soaked hair, eyes and lips stitched shut with wire, and severed limbs
 that float nearby as if they were still attached._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 38), unholy aura (20 ft., DC 31)
+Alignment: Chaotic evil
+Initiative: +12
+Size: medium
+Type: outsider
+Perception: +51
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 4,915,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 38), unholy aura (20 ft., DC
-31)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 49
+Touch: 43
+Flat-footed: 36
+AC modifiers: +4 deflection, +12 Dex, +1 dodge, +6 natural, +16 profane
+Hit points: 666 (31d10+496)
+Fort: +30
+Ref: +33
+Will: +30
+Defensive abilities: critical healing, _[freedom of movement](ref/spell/freedom-of-movement)_, heretical
+Dr: 20/cold iron, epic, and good
+Immune: ability damage and drain, bleed, charm and compulsion effects, death effects, electricity, energy drain, petrification, poison, slashing weapons
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30, fire 30
+Sr: 39
+:::
 
-**Initiative:** +12
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 120 ft. (perfect)
+Melee: +5 unholy speed war razor +47/+42/+37/+32 (1d4+27/19-20), claw +42 (4d6+27/19-20 plus 1d4 Cha drain)
+Reach: 30
+Space: 5
+Spec Att: Charisma drain, despairing cry, precise cuts, suicide
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +41
+Constant: detect good, detect law, freedom of movement, true seeing, unholy aura
+At will: astral projection, blasphemy (DC 30), crushing despair (DC 27), desecrate, greater dispel magic, greater teleport, telekinesis (DC 28), shapechange, suggestion (DC 26), unhallow, unholy blight (DC 27)
+Per day: 3/day: demand (DC 31), quickened dominate person (DC 28), quickened suggestion (DC 26), summon demons, symbol of strife (DC 32)\
+1/day: sympathy (DC 31), time stop, weird (DC 32)
+:::
 
-**Perception:** +51
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
+::: statblock
+Ability scores: Str 32, Dex 35, Con 42, Int 33, Wis 29, Cha 36
+Base attack bonus: +31
+Combat maneuver bonus: +42
+Combat maneuver defense: 85 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Dodge, Improved Critical (war razor), Improved Critical (claw), Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dominate person, suggestion), Spring Attack, Staggering Critical, Whirlwind Attack
+Skills: Acrobatics +46, Bluff +47, Diplomacy +47, Sense Motive +43, Spellcraft +45, Stealth +46, Use Magic Device +44
+Racial Modifiers: +8 Perception
+Languages: Abyssal (can't speak), Celestial (can't speak), Common (can't speak); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: demon lord traits, detached limbs
+Faith: Sifkesh
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 4,915,200
-
-**Armor class:** 49
-
-**Touch:** 43
-
-**Flat-footed:** 36
-
-**AC modifiers:** +4 deflection, +12 Dex, +1 dodge, +6 natural, +16 profane
-
-**Hit points:** 666 (31d10+496)
-
-**Fort:** +30
-
-**Ref:** +33
-
-**Will:** +30
-
-**Defensive abilities:** critical healing, _[freedom of movement](ref/spell/freedom-of-movement)_,
-heretical
-
-**Dr:** 20/cold iron, epic, and good
-
-**Immune:** ability damage and drain, bleed, charm and compulsion effects, death effects,
-electricity, energy drain, petrification, poison, slashing weapons
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30, fire 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 30 ft., fly 120 ft. (perfect)
-
-**Melee:** +5 unholy speed war razor +47/+42/+37/+32 (1d4+27/19-20), claw +42 (4d6+27/19-20 plus 1d4
-Cha drain)
-
-**Reach:** 30
-
-**Space:** 5
-
-**Spec Att:** Charisma drain, despairing cry, precise cuts, suicide
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +41
-
-**Constant:**
-
-- detect good, detect law, freedom of movement, true seeing, unholy aura
-
-**At will:**
-
-- astral projection, blasphemy (DC 30), crushing despair (DC 27), desecrate, greater dispel magic,
-  greater teleport, telekinesis (DC 28), shapechange, suggestion (DC 26), unhallow, unholy blight
-  (DC 27)
-
-**Per day:**
-
-- 3/day: demand (DC 31), quickened dominate person (DC 28), quickened suggestion (DC 26), summon
-  demons, symbol of strife (DC 32)
-- 1/day: sympathy (DC 31), time stop, weird (DC 32)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 35, Con 42, Int 33, Wis 29, Cha 36
-
-**Base attack bonus:** +31
-
-**Combat maneuver bonus:** +42
-
-**Combat maneuver defense:** 85 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Craft Construct, Craft Magic Arms and Armor, Craft
-Wondrous Item, Critical Focus, Dodge, Improved Critical (war razor), Improved Critical (claw),
-Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dominate person,
-suggestion), Spring Attack, Staggering Critical, Whirlwind Attack
-
-**Skills:** Acrobatics +46, Bluff +47, Diplomacy +47, Sense Motive +43, Spellcraft +45, Stealth +46,
-Use Magic Device +44
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal (can't speak), Celestial (can't speak), Common (can't speak);
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** demon lord traits, detached limbs
-
-**Faith:** Sifkesh
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (+5 unholy speed -war razor); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple (+5 unholy speed -war razor); other treasure
+:::
 
 ### Special Abilities
 

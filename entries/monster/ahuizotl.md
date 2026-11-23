@@ -34,86 +34,67 @@ abilities = ["20", "17", "17", "9", "14", "16"]
 _This bear-sized beast has a body like a squat simian, a dog's face, and a long tail that ends in a
 clawed hand._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Size: large
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 16
+AC modifiers: +3 Dex, +7 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +9
+Will: +4
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., swim 50 ft.
+Melee: bite +12 (2d6+5), claw +12 (1d8+5/19-20 plus [grab](ref/umr/grab))
+Rake: 2 claws +12, 1d4+5
+Reach: 5
+Reach P: 10 ft. with tail
+Space: 10
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Aquatic
-
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +7 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft.
-
-**Melee:** bite +12 (2d6+5), claw +12 (1d8+5/19-20 plus [grab](ref/umr/grab))
-
-**Rake:** 2 claws +12, 1d4+5
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tail
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 17, Int 9, Wis 14, Cha 16
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Blinding Critical^B^, Combat Reflexes, Improved Critical^B\|claw^, Improved Initiative,
-Skill Focus (Stealth), Stand Still
-
-**Skills:** Bluff +9, Stealth +9, Swim +20
-
-**Racial Modifiers:** +6 Bluff
-
-**Languages:** Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious), tenacious grapple, voice mimicry
+::: statblock
+Ability scores: Str 20, Dex 17, Con 17, Int 9, Wis 14, Cha 16
+Base attack bonus: +8
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Blinding Critical^B^, Combat Reflexes, Improved Critical^B\|claw^, Improved Initiative, Skill Focus (Stealth), Stand Still
+Skills: Bluff +9, Stealth +9, Swim +20
+Racial Modifiers: +6 Bluff
+Languages: Common
+Special qualities: [amphibious](ref/umr/amphibious), tenacious grapple, voice mimicry
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm lakes, rivers, or swamps
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm lakes, rivers, or swamps
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

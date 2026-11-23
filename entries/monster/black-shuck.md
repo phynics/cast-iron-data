@@ -31,91 +31,69 @@ abilities = ["20", "24", "18", "13", "11", "15"]
 _This enormous hound has a single, glowering green eye, and its flanks are matted with hair soaked
 in filth and gore._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsight: 60
+Alignment: Chaotic neutral
+Initiative: +11
+Size: large
+Type: Magical beast
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 13
+AC modifiers: +7 Dex, +4 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +13
+Will: +5
+Dr: 10/cold iron or magic
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., swim 15 ft.
+Melee: bite +13 (1d8+5 plus disease and [trip](ref/rule/trip)), 2 claws +13 (1d6+5)
+Reach: 5
+Space: 10
+Spec Att: green-eyed gaze
+:::
 
-**Type:** Magical beast
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +11
+Per day: 3/day: blink, fog cloud, misdirection
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 20, Dex 24, Con 18, Int 13, Wis 11, Cha 15
+Base attack bonus: +9
+Combat maneuver bonus: +15 (+17 trip)
+Combat maneuver defense: 32 (38 vs. trip)
+Feats: Combat Expertise, Improved Initiative, Improved Trip, Iron Will, Stealthy
+Skills: Acrobatics +7 (+11 when jumping), Bluff +11, Escape Artist +9, Perception +12, Stealth +17, Swim +13
+Languages: Common
+Special qualities: [change shape](ref/umr/change-shape) (human; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +7 Dex, +4 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +5
-
-**Dr:** 10/cold iron or magic
-
-**Offense**
-
-**Speed:** 40 ft., swim 15 ft.
-
-**Melee:** bite +13 (1d8+5 plus disease and [trip](ref/rule/trip)), 2 claws +13 (1d6+5)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** green-eyed gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: blink, fog cloud, misdirection
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 24, Con 18, Int 13, Wis 11, Cha 15
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15 (+17 trip)
-
-**Combat maneuver defense:** 32 (38 vs. trip)
-
-**Feats:** Combat Expertise, Improved Initiative, Improved Trip, Iron Will, Stealthy
-
-**Skills:** Acrobatics +7 (+11 when jumping), Bluff +11, Escape Artist +9, Perception +12, Stealth
-+17, Swim +13
-
-**Languages:** Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (human;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** temperate coasts or marshes
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate coasts or marshes
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

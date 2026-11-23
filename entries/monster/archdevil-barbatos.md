@@ -31,130 +31,84 @@ abilities = ["30", "29", "38", "29", "30", "31"]
 _This humanoid wears a shabby hooded cloak. Within the darkness of its hood, eerie eyes glow and
 strange shapes twitch._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 35), unholy aura (DC 28)
+Initiative: +13
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +44
+Senses: Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
+Subtype: Evil, Extraplanar, Lawful, Shapechanger
+Experience points: 2,457,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 35), unholy aura (DC 28)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 44
+Touch: 36
+Flat-footed: 34
+AC modifiers: +4 deflection, +9 Dex, +1 dodge, +8 natural, +12 profane
+Hit points: 604 (31d10+434)
+Fort: +28
+Ref: +32
+Will: +31; +8 vs. mind-affecting effects
+Defensive abilities: infernal resurrection, _[mind blank](ref/spell/mind-blank)_
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, charm, compulsion, death effects, energy drain, fire, petrification, poison
+Improved evasion: present
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30
+Sr: 37
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Bleed: 2d6
+Melee: Eyjatas +41/+41/+41/+36/+36/+31/+31/+26 (1d6+19/19-20), beard +36 (1d8+5 plus bleed and disease)
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Spec Att: barbed beard, counterport, festering filth
+:::
 
-**Type:** outsider
-
-**Perception:** +44
-
-**Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
-
-**Subtype:** Evil, Extraplanar, Lawful, Shapechanger
-
-**Experience points:** 2,457,600
-
-**Armor class:** 44
-
-**Touch:** 36
-
-**Flat-footed:** 34
-
-**AC modifiers:** +4 deflection, +9 Dex, +1 dodge, +8 natural, +12 profane
-
-**Hit points:** 604 (31d10+434)
-
-**Fort:** +28
-
-**Ref:** +32
-
-**Will:** +31; +8 vs. mind-affecting effects
-
-**Defensive abilities:** infernal resurrection, _[mind blank](ref/spell/mind-blank)_
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, charm, compulsion, death effects, energy drain, fire,
-petrification, poison
-
-**Improved evasion:** present
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 37
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Bleed:** 2d6
-
-**Melee:** Eyjatas +41/+41/+41/+36/+36/+31/+31/+26 (1d6+19/19-20), beard +36 (1d8+5 plus bleed and
-disease)
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Spec Att:** barbed beard, counterport, festering filth
-
-**Spell-Like Abilities**
-
-**Caster level:** 26
-
-**Concentration:** +36
-
-**Constant:**
-
-- air walk, detect chaos, detect good, mind blank, speak with animals, true seeing, unholy aura (DC
-  28)
-
-**At will:**
-
-- astral projection, blasphemy^M^ (DC 27), desecrate^M^, dominate person^M^ (DC 25), greater dispel
-  magic, dominate animal (DC 23), greater scrying (DC 27), greater teleport, plane shift^M^ (DC 27),
-  unhallow, unholy blight^M^ (DC 24)
-
-**Per day:**
-
-- 3/day: banishment (DC 27), quickened contagion^M^ (DC 24), dimensional lock^M^, maze^M^, summon
-  devils
-- 1/day: gate, time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 26
+Concentration: +36
+Constant: air walk, detect chaos, detect good, mind blank, speak with animals, true seeing, unholy aura (DC 28)
+At will: astral projection, blasphemy^M^ (DC 27), desecrate^M^, dominate person^M^ (DC 25), greater dispel magic, dominate animal (DC 23), greater scrying (DC 27), greater teleport, plane shift^M^ (DC 27), unhallow, unholy blight^M^ (DC 24)
+Per day: 3/day: banishment (DC 27), quickened contagion^M^ (DC 24), dimensional lock^M^, maze^M^, summon devils\
+1/day: gate, time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Barbatos can use this ability's mythic version in his realm
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 30, Dex 29, Con 38, Int 29, Wis 30, Cha 31
+::: statblock
+Ability scores: Str 30, Dex 29, Con 38, Int 29, Wis 30, Cha 31
+Base attack bonus: +31
+Combat maneuver bonus: +41 (+45 trip)
+Combat maneuver defense: 77 (79 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Deflect Arrows, Dodge, Double Slice, Greater Trip, Greater Two-Weapon Fighting, Improved Critical (quarterstaff), Improved Initiative, Improved Lightning Reflexes, Improved Trip, Improved Two-Weapon Fighting, Lightning Reflexes, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (contagion), Two-Weapon Fighting
+Skills: Acrobatics +40, Bluff +44, Diplomacy +41, Handle Animal +44, Sense Motive +44, Spellcraft +43, Stealth +43, Use Magic Device +41
+Languages: all (language mastery); _[speak with animals](ref/spell/speak-with-animals),_ [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [change shape](ref/umr/change-shape) (animal, humanoid, and magical beast; [shapechange](ref/spell/shapechange)), hear name, sphere of souls
+Faith: Barbatos
+:::
 
-**Base attack bonus:** +31
+### Ecology
 
-**Combat maneuver bonus:** +41 (+45 trip)
-
-**Combat maneuver defense:** 77 (79 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Deflect Arrows, Dodge, Double Slice, Greater Trip,
-Greater Two-Weapon Fighting, Improved Critical (quarterstaff), Improved Initiative, Improved
-Lightning Reflexes, Improved Trip, Improved Two-Weapon Fighting, Lightning Reflexes, Mobility,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (contagion), Two-Weapon Fighting
-
-**Skills:** Acrobatics +40, Bluff +44, Diplomacy +41, Handle Animal +44, Sense Motive +44,
-Spellcraft +43, Stealth +43, Use Magic Device +41
-
-**Languages:** all (language mastery); _[speak with animals](ref/spell/speak-with-animals),_
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (animal, humanoid, and magical beast;
-[shapechange](ref/spell/shapechange)), hear name, sphere of souls
-
-**Faith:** Barbatos
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (Eyjatas); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary (unique)
+Treasure: Triple (Eyjatas); other treasure
+:::
 
 ### Special Abilities
 

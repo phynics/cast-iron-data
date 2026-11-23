@@ -29,123 +29,84 @@ special_qualities = "borne aloft, change shape"
 abilities = ["27", "10", "21", "20", "21", "20"]
 +++
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 23)
+Type: dragon
+Size: huge
+Initiative: +4
+Alignment: Lawful good
+Perception: +30
+Senses: Cloud sight, Dragon senses
+Subtype: Air
+Experience points: 25,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 23)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 29
+Touch: 8
+Flat-footed: 29
+AC modifiers: +21 natural, -2 size
+Hit points: 184 (16d12+80)
+Fort: +15
+Ref: +12
+Will: +17
+Dr: 5/magic
+Immune: electricity, paralysis, sleep
+Sr: 24
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 40 ft., fly 200 ft. (good)
+Br Weap: 50-ft. cone, 12d8 electricity damage, DC 23
+Melee: bite +22 (2d8+12/19-20), 2 claws +22 (2d6+8), gore +22 (2d6+12), tail slap +20 (2d6+12)
+Reach: 10
+Reach P: 15 ft. with bite and gore
+Space: 15
+Spec Att: crush (DC 23, 2d8+12)
+:::
 
-**Alignment:** Lawful good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +21
+At will: detect evil, feather fall, gust of wind (DC 17)
+:::
 
-**Perception:** +30
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +12
+3rd-level spells: 5/day: blink, lightning bolt (DC 18)
+2nd-level spells: 7/day: glitterdust (DC 17), invisibility, resist energy
+1st-level spells: 8/day: endure elements, expeditious retreat, magic missile, obscuring mist, shocking grasp
+Cantrips: At will: detect magic, disrupt undead, mage hand, mending, message, ray of frost, read magic
+:::
 
-**Senses:** Cloud sight, Dragon senses
+### Statistics
 
-**Subtype:** Air
+::: statblock
+Ability scores: Str 27, Dex 10, Con 21, Int 20, Wis 21, Cha 20
+Base attack bonus: +16
+Combat maneuver bonus: +26
+Combat maneuver defense: 36 (40 vs. trip)
+Feats: Flyby Attack, Hover, Improved Critical (bite), Improved Initiative, Iron Will, Lightning Reflexes, Multiattack, Skill Focus (Perception)
+Skills: Acrobatics +16 (+20 when jumping), Diplomacy +24, Perform (sing) +21, Sense Motive +24, Spellcraft +24
+Languages: Auran, Celestial, Common, Draconic, Infernal, Sylvan
+Special qualities: borne aloft, change shape
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 8
-
-**Flat-footed:** 29
-
-**AC modifiers:** +21 natural, -2 size
-
-**Hit points:** 184 (16d12+80)
-
-**Fort:** +15
-
-**Ref:** +12
-
-**Will:** +17
-
-**Dr:** 5/magic
-
-**Immune:** electricity, paralysis, sleep
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 40 ft., fly 200 ft. (good)
-
-**Br Weap:** 50-ft. cone, 12d8 electricity damage, DC 23
-
-**Melee:** bite +22 (2d8+12/19-20), 2 claws +22 (2d6+8), gore +22 (2d6+12), tail slap +20 (2d6+12)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite and gore
-
-**Space:** 15
-
-**Spec Att:** crush (DC 23, 2d8+12)
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +21
-
-**At will:**
-
-- detect evil, feather fall, gust of wind (DC 17)
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**3rd-level spells:**
-
-- 5/day: blink, lightning bolt (DC 18)
-
-**2nd-level spells:**
-
-- 7/day: glitterdust (DC 17), invisibility, resist energy
-
-**1st-level spells:**
-
-- 8/day: endure elements, expeditious retreat, magic missile, obscuring mist, shocking grasp
-
-**Cantrips:**
-
-- At will: detect magic, disrupt undead, mage hand, mending, message, ray of frost, read magic
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 10, Con 21, Int 20, Wis 21, Cha 20
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 36 (40 vs. trip)
-
-**Feats:** Flyby Attack, Hover, Improved Critical (bite), Improved Initiative, Iron Will, Lightning
-Reflexes, Multiattack, Skill Focus (Perception)
-
-**Skills:** Acrobatics +16 (+20 when jumping), Diplomacy +24, Perform (sing) +21, Sense Motive +24,
-Spellcraft +24
-
-**Languages:** Auran, Celestial, Common, Draconic, Infernal, Sylvan
-
-**Special qualities:** borne aloft, change shape
-
-**Ecology**
-
-**Environment:** temperate or warm mountains
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: temperate or warm mountains
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

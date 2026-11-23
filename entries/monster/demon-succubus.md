@@ -30,102 +30,72 @@ abilities = ["13", "17", "20", "18", "14", "27"]
 
 _Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of this alluring woman._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +3
+Size: medium
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., Detect good
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +3 Dex, +7 natural
+Hit points: 84 (8d10+40)
+Fort: +7
+Ref: +9
+Will: +10
+Dr: 10/cold iron or good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: 2 claws +11 (1d6+1)
+Spec Att: energy drain, profane gift
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Constant: detect good, tongues
+At will: charm monster (DC 22), detect thoughts (DC 20), ethereal jaunt, self plus 50 lbs. of objects only, suggestion (DC 21), greater teleport, self plus 50 lbs. of objects only, vampiric touch
+Per day: 1/day: dominate person (DC 23), summon (level 3, 1 babau 50%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 13, Dex 17, Con 20, Int 18, Wis 14, Cha 27
+Base attack bonus: +8
+Combat maneuver bonus: +11
+Combat maneuver defense: 22
+Feats: Agile Maneuvers, Combat Reflexes, Iron Will, Weapon Finesse
+Skills: Bluff +27, Diplomacy +19, Disguise +19, Sense Motive +13, Stealth +14
+Racial Modifiers: +8 Bluff, +8 Perception
+Languages: Abyssal, Celestial, Common, Draconic; _[tongues](ref/spell/tongues),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +7 natural
-
-**Hit points:** 84 (8d10+40)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +10
-
-**Dr:** 10/cold iron or good
-
-**Immune:** electricity, fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** 2 claws +11 (1d6+1)
-
-**Spec Att:** energy drain, profane gift
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Constant:**
-
-- detect good, tongues
-
-**At will:**
-
-- charm monster (DC 22), detect thoughts (DC 20), ethereal jaunt, self plus 50 lbs. of objects only,
-  suggestion (DC 21), greater teleport, self plus 50 lbs. of objects only, vampiric touch
-
-**Per day:**
-
-- 1/day: dominate person (DC 23), summon (level 3, 1 babau 50%)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 20, Int 18, Wis 14, Cha 27
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 22
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Iron Will, Weapon Finesse
-
-**Skills:** Bluff +27, Diplomacy +19, Disguise +19, Sense Motive +13, Stealth +14
-
-**Racial Modifiers:** +8 Bluff, +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Draconic; _[tongues](ref/spell/tongues),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or harem (3-12)
-
-**Treasure:** Double
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or harem (3-12)
+Treasure: Double
+:::
 
 ### Special Abilities
 

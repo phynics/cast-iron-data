@@ -33,83 +33,66 @@ abilities = ["5", "7", "12", "6", "13", "10"]
 _This small, awkward reptile with a fist-sized gem jutting from between its two bulging eyes seems
 both surprised and perplexed._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: -2
+Type: Magical beast
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Initiative:** -2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 12
+Touch: 10
+Flat-footed: 12
+AC modifiers: -2 Dex, +2 natural, +2 size
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +1
+Will: +3
+Vulner: _[suggestion](ref/spell/suggestion)_
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft.
+Melee: bite +1 (1d3-3)
+Spec Att: fatal faker, specious suggestion
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +3
+Per day: 3/day: daze (DC 10), jump, levitate, self only; up to 10 feet
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 5, Dex 7, Con 12, Int 6, Wis 13, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: -2
+Combat maneuver defense: 5 (9 vs. trip)
+Feats: Iron Will
+Skills: Stealth +10 (+14 in grass or brush), Survival +2
+Racial Modifiers: -4 Acrobatics when jumping, +4 Stealth in grass or brush
+Languages: empath 30 ft.
+:::
 
-**Armor class:** 12
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 12
-
-**AC modifiers:** -2 Dex, +2 natural, +2 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +1
-
-**Will:** +3
-
-**Vulner:** _[suggestion](ref/spell/suggestion)_
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +1 (1d3-3)
-
-**Spec Att:** fatal faker, specious suggestion
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +3
-
-**Per day:**
-
-- 3/day: daze (DC 10), jump, levitate, self only; up to 10 feet
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 7, Con 12, Int 6, Wis 13, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 5 (9 vs. trip)
-
-**Feats:** Iron Will
-
-**Skills:** Stealth +10 (+14 in grass or brush), Survival +2
-
-**Racial Modifiers:** -4 Acrobatics when jumping, +4 Stealth in grass or brush
-
-**Languages:** empath 30 ft.
-
-**Ecology**
-
-**Environment:** any forests or swamps
-
-**Organization:** solitary or group (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests or swamps
+Organization: solitary or group (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

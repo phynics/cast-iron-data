@@ -31,90 +31,66 @@ abilities = ["39", "20", "28", "2", "17", "11"]
 _This enormous, water-dwelling serpent has bright, bulging eyes and rounded jaws filled with long,
 jagged teeth._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Size: gargantuan
+Initiative: +9
+Type: Magical beast
+Alignment: Neutral
+Perception: +23
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 204,800
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 34
+Touch: 12
+Flat-footed: 28
+AC modifiers: +5 Dex, +1 dodge, +22 natural, -4 size
+Hit points: 333 (23d10+207)
+Fort: +22
+Ref: +20
+Will: +12
+Defensive abilities: elusive
+Immune: cold
+Resist: fire 30
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 50 ft.
+Capsize: present
+Constrict: 6d8+21
+Melee: bite +33 (6d10+14/19-20 plus [grab](ref/umr/grab)), tail slap +33 (6d8+14/19-20 plus grab)
+Reach: 20
+Sp Extra: surge 400 ft.
+Space: 20
+Spec Att: powerful tail
+Swallow: 10d6+21 bludgeoning damage, AC 21, 33 hp
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 39, Dex 20, Con 28, Int 2, Wis 17, Cha 11
+Base attack bonus: +23
+Combat maneuver bonus: +41 (+45 grapple)
+Combat maneuver defense: 57 (can't be tripped)
+Feats: Critical Focus, Dodge, Improved Critical (bite), Improved Critical (tail slap), Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception), Vital Strike
+Skills: Perception +23, Stealth +8, Swim +22
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 12
-
-**Flat-footed:** 28
-
-**AC modifiers:** +5 Dex, +1 dodge, +22 natural, -4 size
-
-**Hit points:** 333 (23d10+207)
-
-**Fort:** +22
-
-**Ref:** +20
-
-**Will:** +12
-
-**Defensive abilities:** elusive
-
-**Immune:** cold
-
-**Resist:** fire 30
-
-**Offense**
-
-**Speed:** 10 ft., swim 50 ft.
-
-**Capsize:** present
-
-**Constrict:** 6d8+21
-
-**Melee:** bite +33 (6d10+14/19-20 plus [grab](ref/umr/grab)), tail slap +33 (6d8+14/19-20 plus
-grab)
-
-**Reach:** 20
-
-**Sp Extra:** surge 400 ft.
-
-**Space:** 20
-
-**Spec Att:** powerful tail
-
-**Swallow:** 10d6+21 bludgeoning damage, AC 21, 33 hp
-
-**Statistics**
-
-**Ability scores:** Str 39, Dex 20, Con 28, Int 2, Wis 17, Cha 11
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +41 (+45 grapple)
-
-**Combat maneuver defense:** 57 (can't be tripped)
-
-**Feats:** Critical Focus, Dodge, Improved Critical (bite), Improved Critical (tail slap), Improved
-Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack,
-Skill Focus (Perception), Vital Strike
-
-**Skills:** Perception +23, Stealth +8, Swim +22
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

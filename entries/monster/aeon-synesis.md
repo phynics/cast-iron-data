@@ -30,101 +30,74 @@ abilities = ["12", "15", "13", "16", "14", "15"]
 _A pair of three-fingered arms sprouts from either end of this hourglass-shaped creature composed of
 cosmic starstuff._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: cognitive aura (30 ft., DC 15)
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Aeon, Extraplanar
+Experience points: 1,200
+:::
 
-**aura:** cognitive aura (30 ft., DC 15)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 15
+AC modifiers: +1 deflection, +2 Dex, +4 natural
+Hit points: 39 (6d10+6)
+Fort: +6
+Ref: +4
+Will: +7
+Immune: cold, critical hits, poison
+Resist: electricity 10, fire 10
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 15 ft., fly 30 ft. (good)
+Melee: 4 claws +7 (1d4+1)
+Reach: 5
+Reach P: unintuitive reach
+Space: 5
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+At will: daze (DC 13)
+Per day: 3/day: id insinuation I (DC 14), touch of idiocy\
+1/day: cognitive block (DC 15), fox's cunning, mental block (DC 14)
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 12, Dex 15, Con 13, Int 16, Wis 14, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Combat Casting, Combat Reflexes, Improved Initiative
+Skills: Fly +15, Knowledge (engineering, planes) +14, Perception +11, Sense Motive +11, Stealth +11, Use Magic Device +11
+Languages: _envisaging_
+Special qualities: extension of all, void form
+:::
 
-**Subtype:** Aeon, Extraplanar
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 deflection, +2 Dex, +4 natural
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +7
-
-**Immune:** cold, critical hits, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 15 ft., fly 30 ft. (good)
-
-**Melee:** 4 claws +7 (1d4+1)
-
-**Reach:** 5
-
-**Reach P:** unintuitive reach
-
-**Space:** 5
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**At will:**
-
-- daze (DC 13)
-
-**Per day:**
-
-- 3/day: id insinuation I (DC 14), touch of idiocy
-- 1/day: cognitive block (DC 15), fox's cunning, mental block (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 13, Int 16, Wis 14, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Casting, Combat Reflexes, Improved Initiative
-
-**Skills:** Fly +15, Knowledge (engineering, planes) +14, Perception +11, Sense Motive +11, Stealth
-+11, Use Magic Device +11
-
-**Languages:** _envisaging_
-
-**Special qualities:** extension of all, void form
-
-**Ecology**
-
-**Environment:** any (Outer Planes)
-
-**Organization:** solitary, pair, or convention (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (Outer Planes)
+Organization: solitary, pair, or convention (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

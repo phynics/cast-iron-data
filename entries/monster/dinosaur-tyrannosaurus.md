@@ -29,76 +29,60 @@ abilities = ["32", "13", "19", "2", "15", "10"]
 _This bipedal dinosaur's front arms seem small compared to the rest of its bulk, but its enormous
 head is all teeth._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: animal
+Size: gargantuan
+Initiative: +5
+Alignment: Neutral
+Perception: +37
+Senses: Low-light vision, Scent
+Experience points: 6,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 21
+Touch: 7
+Flat-footed: 20
+AC modifiers: +1 Dex, +14 natural, -4 size
+Hit points: 153 (18d8+72)
+Fort: +15
+Ref: +12
+Will: +10
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +20 (4d6+22/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Swallow: 2d8+11, AC 17, hp 15
+:::
 
-**Perception:** +37
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 32, Dex 13, Con 19, Int 2, Wis 15, Cha 10
+Base attack bonus: +13
+Combat maneuver bonus: +28 (+32 grapple)
+Combat maneuver defense: 39
+Feats: Bleeding Critical, Critical Focus, Diehard, Endurance, Improved Critical (bite), Improved Initiative, Iron Will, Run, Skill Focus (Perception)
+Skills: Perception +37
+Racial Modifiers: +8 Perception
+Special qualities: powerful bite
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 7
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +14 natural, -4 size
-
-**Hit points:** 153 (18d8+72)
-
-**Fort:** +15
-
-**Ref:** +12
-
-**Will:** +10
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +20 (4d6+22/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 2d8+11, AC 17, hp 15
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 13, Con 19, Int 2, Wis 15, Cha 10
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +28 (+32 grapple)
-
-**Combat maneuver defense:** 39
-
-**Feats:** Bleeding Critical, Critical Focus, Diehard, Endurance, Improved Critical (bite), Improved
-Initiative, Iron Will, Run, Skill Focus (Perception)
-
-**Skills:** Perception +37
-
-**Racial Modifiers:** +8 Perception
-
-**Special qualities:** powerful bite
-
-**Ecology**
-
-**Environment:** warm forest and plains
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm forest and plains
+Organization: solitary, pair, or pack (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

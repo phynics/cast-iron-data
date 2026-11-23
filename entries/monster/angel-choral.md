@@ -34,102 +34,73 @@ abilities = ["13", "16", "15", "16", "16", "17"]
 _This shimmering being looks like a miniature human with broad, iridescent wings and hair that
 slowly ripples through the air._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: protective aura
+Initiative: +7
+Alignment: Neutral good
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Detect evil
+Size: small
+Subtype: Angel, Extraplanar, Good
+Experience points: 2,400
+:::
 
-**aura:** protective aura
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 19
+Touch: 14
+Flat-footed: 16
+AC modifiers: +3 Dex, +5 natural, +1 size; +4 deflection vs. evil
+Hit points: 68 (8d10+24)
+Fort: +6
+Ref: +9
+Will: +9; +4 vs. poison, +4 resistance vs. evil
+Dr: 5/evil
+Immune: acid, cold, petrification
+Resist: electricity 10, fire 10
+Sr: 17
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: slam +10 (1d3+1)
+Ranged: piercing hymn +12 touch (4d6 sonic plus deafened)
+Spec Att: countersong, harmonize
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: detect evil
+At will: aid, ghost sound (DC 13), dispel evil (DC 18), dispel magic, invisibility, self only, plane shift, self only, remove curse, remove disease, remove fear
+Per day: 3/day: cure moderate wounds, sculpt sound (DC 16), sound burst (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 16, Con 15, Int 16, Wis 16, Cha 17
+Base attack bonus: +8
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Alertness, Great Fortitude, Improved Initiative, Toughness
+Skills: Acrobatics +14, Diplomacy +14, Perform (sing) +14, Sense Motive +16
+Languages: Celestial, Draconic, Infernal; _truespeech_
+:::
 
-**Subtype:** Angel, Extraplanar, Good
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +5 natural, +1 size; +4 deflection vs. evil
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +9; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 5/evil
-
-**Immune:** acid, cold, petrification
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** slam +10 (1d3+1)
-
-**Ranged:** piercing hymn +12 touch (4d6 sonic plus deafened)
-
-**Spec Att:** countersong, harmonize
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- aid, ghost sound (DC 13), dispel evil (DC 18), dispel magic, invisibility, self only, plane shift,
-  self only, remove curse, remove disease, remove fear
-
-**Per day:**
-
-- 3/day: cure moderate wounds, sculpt sound (DC 16), sound burst (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 15, Int 16, Wis 16, Cha 17
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Alertness, Great Fortitude, Improved Initiative, Toughness
-
-**Skills:** Acrobatics +14, Diplomacy +14, Perform (sing) +14, Sense Motive +16
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Ecology**
-
-**Environment:** any good-aligned planes
-
-**Organization:** solo, duet, or Ensemble (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any good-aligned planes
+Organization: solo, duet, or Ensemble (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

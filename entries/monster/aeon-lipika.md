@@ -32,104 +32,74 @@ abilities = ["22", "23", "24", "22", "25", "23"]
 _Shrouded in a dark cloak, this featureless humanoid has four forearms that each split off at the
 elbow, and an eye on each of its eight palms._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Initiative: +10
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +34
+Senses: Darkvision 60 ft.
+Subtype: Aeon, Extraplanar
+Experience points: 153,600
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 30
+Touch: 23
+Flat-footed: 24
+AC modifiers: +6 deflection, +6 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 300 (24d10+168)
+Fort: +23
+Ref: +16
+Will: +23
+Defensive abilities: karmic defense
+Immune: cold, critical hits, poison
+Resist: electricity 10, fire 10
+Sr: 29
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: 4 slams +29 (4d6+6 plus karmic link)
+Ranged: 4 force blasts +29 touch (10d6 force damage/19-20)
+Spec Att: force blast, karmic strike
+:::
 
-**Perception:** +34
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+Constant: analyze aura
+At will: plane shift (DC 23), telekinesis (DC 21)
+Per day: 3/day: geas/quest\
+1/day: reincarnate
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aeon, Extraplanar
+::: statblock
+Ability scores: Str 22, Dex 23, Con 24, Int 22, Wis 25, Cha 23
+Base attack bonus: +24
+Combat maneuver bonus: +30
+Combat maneuver defense: 53
+Feats: Combat Casting, Combat Reflexes, Dodge, Flyby Attack, Great Fortitude, Improved Critical (force blast), Improved Great Fortitude, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Mobility
+Skills: Bluff +33, Diplomacy +30, Sense Motive +34, Spellcraft +20
+Languages: _envisaging_
+Special qualities: extension of all, void form
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 23
-
-**Flat-footed:** 24
-
-**AC modifiers:** +6 deflection, +6 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 300 (24d10+168)
-
-**Fort:** +23
-
-**Ref:** +16
-
-**Will:** +23
-
-**Defensive abilities:** karmic defense
-
-**Immune:** cold, critical hits, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** 4 slams +29 (4d6+6 plus karmic link)
-
-**Ranged:** 4 force blasts +29 touch (10d6 force damage/19-20)
-
-**Spec Att:** force blast, karmic strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**Constant:**
-
-- analyze aura
-
-**At will:**
-
-- plane shift (DC 23), telekinesis (DC 21)
-
-**Per day:**
-
-- 3/day: geas/quest
-- 1/day: reincarnate
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 23, Con 24, Int 22, Wis 25, Cha 23
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 53
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Flyby Attack, Great Fortitude, Improved Critical
-(force blast), Improved Great Fortitude, Improved Initiative, Improved Iron Will, Iron Will,
-Lightning Reflexes, Mobility
-
-**Skills:** Bluff +33, Diplomacy +30, Sense Motive +34, Spellcraft +20
-
-**Languages:** _envisaging_
-
-**Special qualities:** extension of all, void form
-
-**Ecology**
-
-**Environment:** any (Outer Planes)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Outer Planes)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

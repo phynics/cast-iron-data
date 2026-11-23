@@ -31,95 +31,71 @@ abilities = ["18", "16", "19", "11", "17", "14"]
 _Four limbs - two black and two white - reach out from a swirling vortex of pulsing light and deep
 darkness._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Aeon, Extraplanar
+Experience points: 1,600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 deflection, +3 Dex, +1 Dodge, +2 natural
+Hit points: 57 (6d10+24)
+Fort: +6
+Ref: +8
+Will: +8
+Immune: cold, critical hits, poison
+Resist: electricity 10, fire 10
+Sr: 16
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 30 ft. (average)
+Melee: 4 slams +10 (1d4+4)
+Spec Att: banish darkness, consume light
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+At will: dancing lights
+Per day: 3/day: darkness\
+1/day: daylight, deeper darkness
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Aeon, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 16, Con 19, Int 11, Wis 17, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 25
+Feats: Dodge, Flyby Attack, Improved Initiative
+Skills: Fly +12, Knowledge (arcana, history, nature, planes) +9, Perception +12, Sense Motive +12, Stealth +12
+Languages: _envisaging_
+Special qualities: chiaroscuro, extension of all, void form
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 deflection, +3 Dex, +1 Dodge, +2 natural
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +8
-
-**Immune:** cold, critical hits, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** fly 30 ft. (average)
-
-**Melee:** 4 slams +10 (1d4+4)
-
-**Spec Att:** banish darkness, consume light
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**At will:**
-
-- dancing lights
-
-**Per day:**
-
-- 3/day: darkness
-- 1/day: daylight, deeper darkness
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con 19, Int 11, Wis 17, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 25
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative
-
-**Skills:** Fly +12, Knowledge (arcana, history, nature, planes) +9, Perception +12, Sense Motive
-+12, Stealth +12
-
-**Languages:** _envisaging_
-
-**Special qualities:** chiaroscuro, extension of all, void form
-
-**Ecology**
-
-**Environment:** any (Outer Planes)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Outer Planes)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -33,60 +33,45 @@ abilities = ["29", "10", "23", "8", "16", "8"]
 _Massive even by cyclops standards, this imposing warrior wears the skulls of his victims and wields
 a terrible club._
 
-**Challenge rating:** 9
-
 **Cyclops [barbarian](ref/class/barbarian) ([breaker](ref/arc-barbarian/breaker)) 4**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 9
+Type: humanoid
+Initiative: +4
+Size: large
+Alignment: Neutral evil
+Perception: +22
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 6,400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 7
+Flat-footed: 17
+AC modifiers: +3 armor, +7 natural, -2 rage, -1 size
+Hit points: 155 (10d8+4d12+84\~14)
+Fort: +19
+Ref: +6
+Will: +11
+Ferocity: present
+Uncanny dodge: present
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +22
-
-**Senses:** Low-light vision
-
-**Subtype:** Giant
-
-**Experience points:** 6,400
-
-**Armor class:** 17
-
-**Touch:** 7
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 armor, +7 natural, -2 rage, -1 size
-
-**Hit points:** 155 (10d8+4d12+84\~14)
-
-**Fort:** +19
-
-**Ref:** +6
-
-**Will:** +11
-
-**Ferocity:** present
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 greatclub +21/+16/+11 (2d8+14)
-
-**Ranged:** longbow +10/+5/+0 (2d6/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** destructive +2, rage (20 rounds/day), rage powers ([smasher](ref/ragepower/smasher),
-[strength surge](ref/ragepower/strength-surge) +4)
+::: statblock
+Speed: 30 ft.
+Melee: +1 greatclub +21/+16/+11 (2d8+14)
+Ranged: longbow +10/+5/+0 (2d6/×3)
+Reach: 10
+Space: 10
+Spec Att: destructive +2, rage (20 rounds/day), rage powers ([smasher](ref/ragepower/smasher), [strength surge](ref/ragepower/strength-surge) +4)
+:::
 
 ### Tactics
 
@@ -94,34 +79,27 @@ a terrible club._
 hp 132; Fort +17, Will +9; +1 greatclub +19/+14/+9 (2d8+11); Str 25, Con 19; CMB +19, CMD 29; Skills
 Climb +12, Swim +12.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 29, Dex 10, Con 23, Int 8, Wis 16, Cha 8
+::: statblock
+Ability scores: Str 29, Dex 10, Con 23, Int 8, Wis 16, Cha 8
+Base attack bonus: +11
+Combat maneuver bonus: +21 (+23 sunder)
+Combat maneuver defense: 29 (31 vs. sunder)
+Feats: Alertness, Extra Rage, Improved Initiative, Improved Sunder, Power Attack, Step Up, Weapon Focus (greatclub)
+Skills: Climb +14, Handle Animal +6, Ride +5
+Racial Modifiers: +8 Perception
+Languages: Common, Cyclops, Giant
+Special qualities: battle scavenger, flash of insight
+Combat gear: 2 potion of cure serious wounds, potion of fly
+Other gear: +1 leather armor, +1 greatclub, lb15, Iclk2
+:::
 
-**Base attack bonus:** +11
+### Ecology
 
-**Combat maneuver bonus:** +21 (+23 sunder)
-
-**Combat maneuver defense:** 29 (31 vs. sunder)
-
-**Feats:** Alertness, Extra Rage, Improved Initiative, Improved Sunder, Power Attack, Step Up,
-Weapon Focus (greatclub)
-
-**Skills:** Climb +14, Handle Animal +6, Ride +5
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Common, Cyclops, Giant
-
-**Special qualities:** battle scavenger, flash of insight
-
-**Combat gear:** 2 potion of cure serious wounds, potion of fly
-
-**Other gear:** +1 leather armor, +1 greatclub, lb15, Iclk2
-
-**Ecology**
-
-**Environment:** any temperate or tropical
+::: statblock
+Environment: any temperate or tropical
+:::
 
 ### Description
 

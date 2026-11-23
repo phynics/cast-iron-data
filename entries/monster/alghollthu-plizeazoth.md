@@ -31,107 +31,76 @@ abilities = ["30", "18", "23", "5", "18", "23"]
 _This massive ray-like aquatic creature has five bulbous red eyes. Long tentacles protrude from the
 sides of its wide mouth, and its slimy skin undulates with sickening shudders._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: aberration
+aura: mucus cloud (30 ft., DC 23)
+Size: huge
+Initiative: +8
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+thoughtsense: 60
+Experience points: 19,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** mucus cloud (30 ft., DC 23)
+::: statblock
+Armor class: 26
+Touch: 13
+Flat-footed: 21
+AC modifiers: +4 Dex, +1 dodge, +13 natural, -2 size
+Hit points: 157 (15d8+90)
+Fort: +13
+Ref: +11
+Will: +13
+Amorph: present
+Immune: mind-affecting effects, pain effects
+Resist: cold 10
+Sr: 23
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 10 ft., swim 60 ft.
+Melee: 2 tentacles +20 (1d8+10 plus psychic spike and slime), tail slap +14 (2d6+5 plus slime)
+Reach: 15
+Space: 15
+Spec Att: psychic spike, slime
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+At will: crushing despair (DC 20), detect thoughts (DC 18), inflict pain (DC 19), project image (DC 23)
+Per day: 3/day: scarring crushing despair (DC 20), emotive block (DC 19), mad hallucination (DC 18), mind thrust IV (DC 20), modify memory (DC 20)\
+1/day: eyebite (DC 22)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 30, Dex 18, Con 23, Int 5, Wis 18, Cha 23
+Base attack bonus: +11
+Combat maneuver bonus: +23
+Combat maneuver defense: 38 (can't be tripped)
+Feats: Ability Focus (psychic spike), Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Vital Strike, Weapon Focus (tentacle), Scarring [Spell-Like Ability](ref/umr/spell-like-abilities) (crushing despair)
+Skills: Acrobatics +7, Bluff +9, Intimidate +18, Perception +10, Swim +18
+Languages: Aboleth, Aklo, Aquan, Common, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**thoughtsense:** 60
-
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 13
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 Dex, +1 dodge, +13 natural, -2 size
-
-**Hit points:** 157 (15d8+90)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +13
-
-**Amorph:** present
-
-**Immune:** mind-affecting effects, pain effects
-
-**Resist:** cold 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 10 ft., swim 60 ft.
-
-**Melee:** 2 tentacles +20 (1d8+10 plus psychic spike and slime), tail slap +14 (2d6+5 plus slime)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** psychic spike, slime
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**At will:**
-
-- crushing despair (DC 20), detect thoughts (DC 18), inflict pain (DC 19), project image (DC 23)
-
-**Per day:**
-
-- 3/day: scarring crushing despair (DC 20), emotive block (DC 19), mad hallucination (DC 18), mind
-  thrust IV (DC 20), modify memory (DC 20)
-- 1/day: eyebite (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 18, Con 23, Int 5, Wis 18, Cha 23
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 38 (can't be tripped)
-
-**Feats:** Ability Focus (psychic spike), Dodge, Great Fortitude, Improved Initiative, Lightning
-Reflexes, Vital Strike, Weapon Focus (tentacle), Scarring
-[Spell-Like Ability](ref/umr/spell-like-abilities) (crushing despair)
-
-**Skills:** Acrobatics +7, Bluff +9, Intimidate +18, Perception +10, Swim +18
-
-**Languages:** Aboleth, Aklo, Aquan, Common, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any water
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,84 +32,64 @@ abilities = ["28", "14", "21", "2", "17", "5"]
 _Emerging from the open end of a long, conical shell, this huge creature's unblinking eyes peer from
 above a mass of tentacles._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: animal
+Size: huge
+Initiative: +6
+Keen Scent: present
+Alignment: Neutral
+Perception: +15
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 12,800
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 25
+Touch: 10
+Flat-footed: 23
+AC modifiers: +2 Dex, +15 natural, -2 size
+Hit points: 152 (16d8+80)
+Fort: +15
+Ref: +12
+Will: +10
+:::
 
-**Initiative:** +6
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: 5 ft., swim 20 ft.
+Constrict: 4d8+13
+Jet: 90
+Melee: tentacles +19 (4d8+9/19-20 plus [grab](ref/umr/grab)), bite +19 (2d8+9/19-20)
+Reach: 15
+Space: 15
+Spec Att: enwrap
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +15
+::: statblock
+Ability scores: Str 28, Dex 14, Con 21, Int 2, Wis 17, Cha 5
+Base attack bonus: +12
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 35 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Improved Critical (bite), Improved Critical (tentacles), Improved Initiative, Iron Will, Lunge, Skill Focus (Stealth), Vital Strike
+Skills: Perception +15, Stealth +14, Swim +17
+Racial Modifiers: +4 Perception
+Special qualities: pressure adaptation, shell, tentacles
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +2 Dex, +15 natural, -2 size
-
-**Hit points:** 152 (16d8+80)
-
-**Fort:** +15
-
-**Ref:** +12
-
-**Will:** +10
-
-**Offense**
-
-**Speed:** 5 ft., swim 20 ft.
-
-**Constrict:** 4d8+13
-
-**Jet:** 90
-
-**Melee:** tentacles +19 (4d8+9/19-20 plus [grab](ref/umr/grab)), bite +19 (2d8+9/19-20)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** enwrap
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 14, Con 21, Int 2, Wis 17, Cha 5
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 35 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Critical (bite), Improved Critical (tentacles),
-Improved Initiative, Iron Will, Lunge, Skill Focus (Stealth), Vital Strike
-
-**Skills:** Perception +15, Stealth +14, Swim +17
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** pressure adaptation, shell, tentacles
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: any oceans
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

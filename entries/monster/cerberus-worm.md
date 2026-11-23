@@ -31,86 +31,65 @@ abilities = ["28", "12", "27", "8", "9", "9"]
 _This slimy-skinned, three-headed sea beast has writhing tentacles and is surrounded by a black,
 poisonous cloud that flickers like fire._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Size: gargantuan
+Initiative: +5
+Type: Magical beast
+Alignment: Neutral
+Perception: +9
+Senses: All-around vision, Darkvision 120 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 38,400
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 27
+Touch: 7
+Flat-footed: 26
+AC modifiers: +1 Dex, +20 natural, -4 size
+Hit points: 229 (17d10+136)
+Fort: +18
+Ref: +13
+Will: +6
+Defensive abilities: elusive
+Immune: poison
+Resist: fire 30
+Sr: 25
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Melee: 3 bites +22 (2d8+9 plus [grab](ref/umr/grab)), tail slap +17 (2d8+4)
+Reach: 20
+Space: 20
+Spec Att: wreathe in poison
+Swallow: 2d8+13 acid damage, AC 20, 22 hp
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** All-around vision, Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 12, Con 27, Int 8, Wis 9, Cha 9
+Base attack bonus: +17
+Combat maneuver bonus: +30 (+32 bull rush)
+Combat maneuver defense: 41 (43 vs. bull rush)
+Feats: Improved Bull Rush, Improved Initiative, Improved Lightning Reflexes, Improved Natural Attack (tail slap), Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Stealth), Stealthy
+Skills: Acrobatics +4, Escape Artist +3, Perception +9, Stealth +2, Swim +25
+Languages: Aquan (can't speak)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 27
-
-**Touch:** 7
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +20 natural, -4 size
-
-**Hit points:** 229 (17d10+136)
-
-**Fort:** +18
-
-**Ref:** +13
-
-**Will:** +6
-
-**Defensive abilities:** elusive
-
-**Immune:** poison
-
-**Resist:** fire 30
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Melee:** 3 bites +22 (2d8+9 plus [grab](ref/umr/grab)), tail slap +17 (2d8+4)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** wreathe in poison
-
-**Swallow:** 2d8+13 acid damage, AC 20, 22 hp
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 12, Con 27, Int 8, Wis 9, Cha 9
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +30 (+32 bull rush)
-
-**Combat maneuver defense:** 41 (43 vs. bull rush)
-
-**Feats:** Improved Bull Rush, Improved Initiative, Improved Lightning Reflexes, Improved Natural
-Attack (tail slap), Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Stealth), Stealthy
-
-**Skills:** Acrobatics +4, Escape Artist +3, Perception +9, Stealth +2, Swim +25
-
-**Languages:** Aquan (can't speak)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,119 +30,83 @@ abilities = ["11", "9", "19", "10", "20", "12"]
 _This diminutive, small-eyed creature is covered in dense, charcoal-gray fur and wears a
 dirt-stained smock; its pink nose twitches ceaselessly._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: -1
+Alignment: Neutral good
+Type: outsider
+Perception: +12
+Senses: Darkvision 120 ft., Detect snares and pits, Low-light vision
+Size: small
+Subtype: Agathion, Extraplanar, Good
+Experience points: 800
+:::
 
-**Initiative:** -1
+### Defense
 
-**Alignment:** Neutral good
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 14
+AC modifiers: -1 Dex, +4 natural, +1 size
+Hit points: 38 (4d10+16)
+Fort: +8
+Ref: +3
+Will: +6; +4 vs. poison
+Dr: 5/evil or silver
+Immune: electricity, paralysis, petrification
+Resist: acid 10, cold 10, sonic 10
+Sr: 14
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity), revulsion
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 20 ft., burrow 40 ft.
+Melee: mwk quarterstaff +6 (1d4) or bite +5 (1d8 plus paralysis), 2 claws +5 (1d3)
+Paralysis: 1 round, DC 16
+:::
 
-**Senses:** Darkvision 120 ft., Detect snares and pits, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +5
+Constant: detect snares and pits
+Per day: 3/day: create pit (DC 13)\
+1/day: move earth, summon (level 4, 1 [silvanshee](ref/monster/agathion-silvanshee) 35%)
+:::
 
-**Size:** small
+::: statblock
+title = "Prepared Spells"
+Caster level: 4
+Concentration: +9
+2nd-level spells: control vermin (DC 17), soften earth and stone, summon swarm
+1st-level spells: call animal, cure light wounds, expeditious excavation, shillelagh, thunderstomp
+Cantrips: detect poison, know direction, purify food and drink (DC 15), stabilize
+:::
 
-**Subtype:** Agathion, Extraplanar, Good
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 11, Dex 9, Con 19, Int 10, Wis 20, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +3
+Combat maneuver defense: 12
+Feats: Bludgeoner, Vermin Heart
+Skills: Craft (traps) +11, Knowledge (engineering) +11, Perception +12
+Racial Modifiers: +4 Craft (traps), +4 Knowledge (engineering), +4 Stealth underground
+Languages: Celestial, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: dust child, [hold breath](ref/umr/hold-breath), [lay on hands](ref/ability/lay-on-hands) (2d6, 3/day), [wild empathy](ref/ability/wild-empathy) +1
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** -1 Dex, +4 natural, +1 size
-
-**Hit points:** 38 (4d10+16)
-
-**Fort:** +8
-
-**Ref:** +3
-
-**Will:** +6; +4 vs. poison
-
-**Dr:** 5/evil or silver
-
-**Immune:** electricity, paralysis, petrification
-
-**Resist:** acid 10, cold 10, sonic 10
-
-**Sr:** 14
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity), revulsion
-
-**Offense**
-
-**Speed:** 20 ft., burrow 40 ft.
-
-**Melee:** mwk quarterstaff +6 (1d4) or bite +5 (1d8 plus paralysis), 2 claws +5 (1d3)
-
-**Paralysis:** 1 round, DC 16
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +5
-
-**Constant:**
-
-- detect snares and pits
-
-**Per day:**
-
-- 3/day: create pit (DC 13)
-- 1/day: move earth, summon (level 4, 1 [silvanshee](ref/monster/agathion-silvanshee) 35%)
-
-**Prepared Spells**
-
-**Caster level:** 4
-
-**Concentration:** +9
-
-**2nd-level spells:**
-
-- control vermin (DC 17), soften earth and stone, summon swarm
-
-**1st-level spells:**
-
-- call animal, cure light wounds, expeditious excavation, shillelagh, thunderstomp
-
-**Cantrips:**
-
-- detect poison, know direction, purify food and drink (DC 15), stabilize
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 9, Con 19, Int 10, Wis 20, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 12
-
-**Feats:** Bludgeoner, Vermin Heart
-
-**Skills:** Craft (traps) +11, Knowledge (engineering) +11, Perception +12
-
-**Racial Modifiers:** +4 Craft (traps), +4 Knowledge (engineering), +4 Stealth underground
-
-**Languages:** Celestial, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** dust child, [hold breath](ref/umr/hold-breath),
-[lay on hands](ref/ability/lay-on-hands) (2d6, 3/day), [wild empathy](ref/ability/wild-empathy) +1
-
-**Ecology**
-
-**Environment:** any underground ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or labor (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or labor (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

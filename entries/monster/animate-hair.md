@@ -31,83 +31,64 @@ abilities = ["10", "13", "12", "6", "13", "15"]
 _What looks like a pile of shorn hair twitches almost imperceptibly, as if the locks were moving in
 an non-existent wind._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+blindsight: 60
+Initiative: +4
+Alignment: Neutral evil
+Type: ooze
+Perception: +1
+Size: tiny
+Experience points: 200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 11 (2d8+2)
+Fort: +1
+Ref: +1
+Will: +1
+Dr: 5/slashing
+Immune: [ooze traits](ref/umr/ooze-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: 2 slams +3 (1d2)
+Reach: 0
+Space: 2-1/2
+Spec Att: infestation, murderous whispers
+:::
 
-**Perception:** +1
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 10, Dex 13, Con 12, Int 6, Wis 13, Cha 15
+Base attack bonus: +1
+Combat maneuver bonus: -1 (+1 grapple)
+Combat maneuver defense: 10 (12 vs. grapple, can't be tripped)
+Feats: Improved Grapple, Improved Initiative
+Skills: Climb +8, Disguise +4 (+8 as wig)
+Racial Modifiers: +4 Disguise as wig
+Languages: Common (can't speak); _empathy_
+Special qualities: [compression](ref/umr/compression), [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** +1
-
-**Dr:** 5/slashing
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** 2 slams +3 (1d2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** infestation, murderous whispers
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 12, Int 6, Wis 13, Cha 15
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1 (+1 grapple)
-
-**Combat maneuver defense:** 10 (12 vs. grapple, can't be tripped)
-
-**Feats:** Improved Grapple, Improved Initiative
-
-**Skills:** Climb +8, Disguise +4 (+8 as wig)
-
-**Racial Modifiers:** +4 Disguise as wig
-
-**Languages:** Common (can't speak); _empathy_
-
-**Special qualities:** [compression](ref/umr/compression), [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary or clog (2-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any urban
+Organization: solitary or clog (2-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

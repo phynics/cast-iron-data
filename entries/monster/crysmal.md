@@ -31,93 +31,70 @@ abilities = ["15", "14", "13", "6", "13", "14"]
 _An animated cluster of translucent crystals shaped disturbingly like a gemstone scorpion scuttles
 into an aggressive stance._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +2
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Crystal sense, Darkvision 60 ft.
+Size: small
+Subtype: Earth, Elemental
+Experience points: 800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 15
+AC modifiers: +2 Dex, +4 natural, +1 size
+Hit points: 26 (4d10+4)
+Fort: +7
+Ref: +8
+Will: +2
+Dr: 5/bludgeoning
+Immune: cold, fire
+Resist: electricity 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Melee: sting +7 (2d6+3)
+Spec Att: shard spike +7 (3d6, range increment 60 ft.)
+:::
 
-**Senses:** Crystal sense, Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+At will: detect magic, ghost sound (DC 12), mage hand, silent image (DC 13)
+Per day: 3/day: dimension door, sanctuary (DC 13), touch of idiocy (DC 14)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Earth, Elemental
+::: statblock
+Ability scores: Str 15, Dex 14, Con 13, Int 6, Wis 13, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 17 (29 vs. trip)
+Feats: Great Fortitude, Lightning Reflexes, Skill Focus (Perception)
+Skills: Acrobatics +9, Climb +9, Perception +11, Stealth +13 (+15 in rocky areas)
+Racial Modifiers: +2 Stealth in rocky areas
+Languages: Terran
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +4 natural, +1 size
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +2
-
-**Dr:** 5/bludgeoning
-
-**Immune:** cold, fire
-
-**Resist:** electricity 10
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Melee:** sting +7 (2d6+3)
-
-**Spec Att:** shard spike +7 (3d6, range increment 60 ft.)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**At will:**
-
-- detect magic, ghost sound (DC 12), mage hand, silent image (DC 13)
-
-**Per day:**
-
-- 3/day: dimension door, sanctuary (DC 13), touch of idiocy (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 13, Int 6, Wis 13, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17 (29 vs. trip)
-
-**Feats:** Great Fortitude, Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Acrobatics +9, Climb +9, Perception +11, Stealth +13 (+15 in rocky areas)
-
-**Racial Modifiers:** +2 Stealth in rocky areas
-
-**Languages:** Terran
-
-**Ecology**
-
-**Environment:** any underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary or cluster (2-5)
-
-**Treasure:** Standard; gems and magic gemstones only
+::: statblock
+Environment: any underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary or cluster (2-5)
+Treasure: Standard; gems and magic gemstones only
+:::
 
 ### Special Abilities
 

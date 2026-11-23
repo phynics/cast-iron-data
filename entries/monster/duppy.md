@@ -34,81 +34,63 @@ abilities = ["-", "22", "-", "13", "15", "19"]
 _This floating, ghostly humanoid's face is a blend of human and beast. Canine shapes twine around
 the creature's legs._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 3,200
+:::
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 14
+AC modifiers: +4 deflection, +6 Dex
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +11
+Will: +8
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: resurrection vulnerability, sunlight powerlessness
+:::
 
-**Initiative:** +10
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: incorporeal touch +12 (2d8 negative energy plus 1d6 Strength drain)
+Spec Att: ravenous hounds, strength drain
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 22, Con -, Int 13, Wis 15, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 26
+Feats: Flyby Attack, Improved Initiative, Lightning Reflexes, Lunge, Step Up
+Skills: Fly +26, Intimidate +16, Perception +14, Sense Motive +14, Stealth +18
+Languages: Common
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 deflection, +6 Dex
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +8
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** resurrection vulnerability, sunlight powerlessness
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** incorporeal touch +12 (2d8 negative energy plus 1d6 Strength drain)
-
-**Spec Att:** ravenous hounds, strength drain
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 22, Con -, Int 13, Wis 15, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 26
-
-**Feats:** Flyby Attack, Improved Initiative, Lightning Reflexes, Lunge, Step Up
-
-**Skills:** Fly +26, Intimidate +16, Perception +14, Sense Motive +14, Stealth +18
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** warm coastlines
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm coastlines
+Organization: solitary, pair, or pack (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -35,109 +35,75 @@ abilities = ["28", "31", "28", "21", "24", "28"]
 _A grim metal mask floats above ceremonial armor that shifts and writhes, and long blades form
 fingers on gauntleted hands._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Initiative: +14
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +28
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 102,400
+:::
 
-**Initiative:** +14
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 46
+Touch: 20
+Flat-footed: 36
+AC modifiers: +14 armor, +10 Dex, +12 natural
+Hit points: 261 (18d10+162)
+Fort: +20
+Ref: +16
+Will: +20
+Dr: 10/good and silver
+Immune: fire, poison
+Regen: 5
+Resist: acid 10, cold 10
+Sr: 27
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: 2 claws +28 (1d8+9/19-20 plus 1d6 Wisdom drain)
+Reach: 10
+Space: 5
+Spec Att: boundless reach, ohrwurm
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +27
+At will: alter self, dream (DC 24), greater teleport, self plus 50 lbs. of objects only, major image (DC 22), mirage arcana (DC 24), ventriloquism (DC 19)
+Per day: 3/day: blasphemy (DC 26), dominate person (DC 24), hold monster (DC 24), insanity (DC 26), touch of idiocy, veil (DC 25)\
+1/day: mind fog (DC 24), screen (DC 27), summon (level 8, 1d6 [bone devils](ref/monster/devil-bone-devil-osyluth) or 2d4 [bearded devils](ref/monster/devil-bearded-devil-barbazu) 50% or 1 [ice devil](ref/monster/devil-ice-devil-gelugon) 20%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 28, Dex 31, Con 28, Int 21, Wis 24, Cha 28
+Base attack bonus: +18
+Combat maneuver bonus: +28
+Combat maneuver defense: 47
+Feats: Agile Maneuvers, Combat Expertise, Combat Reflexes, Improved Critical (claw), Improved Disarm, Improved Initiative, Iron Will, Persuasive, Weapon Focus (claw)
+Skills: Acrobatics +28, Bluff +30, Diplomacy +34, Disguise +27, Sense Motive +28, Stealth +36
+Languages: Abyssal, Celestial, Common, Draconic, Infernal; _indomitable oration,_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: armor bond, evangelization, indomitable oration, malleable form
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 46
-
-**Touch:** 20
-
-**Flat-footed:** 36
-
-**AC modifiers:** +14 armor, +10 Dex, +12 natural
-
-**Hit points:** 261 (18d10+162)
-
-**Fort:** +20
-
-**Ref:** +16
-
-**Will:** +20
-
-**Dr:** 10/good and silver
-
-**Immune:** fire, poison
-
-**Regen:** 5
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 claws +28 (1d8+9/19-20 plus 1d6 Wisdom drain)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** boundless reach, ohrwurm
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +27
-
-**At will:**
-
-- alter self, dream (DC 24), greater teleport, self plus 50 lbs. of objects only, major image (DC
-  22), mirage arcana (DC 24), ventriloquism (DC 19)
-
-**Per day:**
-
-- 3/day: blasphemy (DC 26), dominate person (DC 24), hold monster (DC 24), insanity (DC 26), touch
-  of idiocy, veil (DC 25)
-- 1/day: mind fog (DC 24), screen (DC 27), summon (level 8, 1d6
-  [bone devils](ref/monster/devil-bone-devil-osyluth) or 2d4
-  [bearded devils](ref/monster/devil-bearded-devil-barbazu) 50% or 1
-  [ice devil](ref/monster/devil-ice-devil-gelugon) 20%)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 31, Con 28, Int 21, Wis 24, Cha 28
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 47
-
-**Feats:** Agile Maneuvers, Combat Expertise, Combat Reflexes, Improved Critical (claw), Improved
-Disarm, Improved Initiative, Iron Will, Persuasive, Weapon Focus (claw)
-
-**Skills:** Acrobatics +28, Bluff +30, Diplomacy +34, Disguise +27, Sense Motive +28, Stealth +36
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal; _indomitable oration,_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** armor bond, evangelization, indomitable oration, malleable form
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary
-
-**Treasure:** Double (+5 shadow full plate); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary
+Treasure: Double (+5 shadow full plate); other treasure
+:::
 
 ### Special Abilities
 

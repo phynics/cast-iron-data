@@ -33,92 +33,68 @@ Elaborate horns crown its head, and multiple rock-encrusted tusks jut from its t
 bellowing roar, the creature shakes its massive head in challenge, then paws the ground and
 charges._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+blindsense: 60
+Size: colossal
+Initiative: -2
+Type: Magical beast
+Alignment: Neutral
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 153,600
+:::
 
-**blindsense:** 60
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 35
+Touch: 0
+Flat-footed: 35
+AC modifiers: -2 Dex, +35 natural, -8 size
+Hit points: 337 (25d10+200)
+Fort: +22
+Ref: +12
+Will: +12
+Dr: 15/adamantine
+Immune: acid, curse effects, disease, mind-affecting effects, paralysis, poison, sonic
+Regen: 15 (electricity)
+Resist: cold 20, fire 20
+Sr: 29
+:::
 
-**Initiative:** -2
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +33 (4d6+16 plus Snatch), gore +33 (4d6+16), 2 stomps +28 (2d8+8)
+Ranged: rock +16 (2d8+24)
+Reach: 20
+Space: 30
+Spec Att: demolishing attack, mighty roar, rock hurling (120 ft.), shock wave
+Swallow: 4d6+24 bludgeoning damage, AC 27, hp 33
+Trample: 2d8+24, DC 38
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +17
+::: statblock
+Ability scores: Str 42, Dex 6, Con 26, Int 6, Wis 14, Cha 14
+Base attack bonus: +25
+Combat maneuver bonus: +49
+Combat maneuver defense: 57 (61 vs. trip)
+Feats: Awesome Blow, Cleave, Great Cleave, Greater Bull Rush, Greater Overrun, Greater Sunder, Improved Bull Rush, Improved Overrun, Improved Sunder, Iron Will, Lunge, Power Attack, Snatch
+Skills: Perception +17, Swim +28
+Special qualities: camouflage
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 35
-
-**Touch:** 0
-
-**Flat-footed:** 35
-
-**AC modifiers:** -2 Dex, +35 natural, -8 size
-
-**Hit points:** 337 (25d10+200)
-
-**Fort:** +22
-
-**Ref:** +12
-
-**Will:** +12
-
-**Dr:** 15/adamantine
-
-**Immune:** acid, curse effects, disease, mind-affecting effects, paralysis, poison, sonic
-
-**Regen:** 15 (electricity)
-
-**Resist:** cold 20, fire 20
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +33 (4d6+16 plus Snatch), gore +33 (4d6+16), 2 stomps +28 (2d8+8)
-
-**Ranged:** rock +16 (2d8+24)
-
-**Reach:** 20
-
-**Space:** 30
-
-**Spec Att:** demolishing attack, mighty roar, rock hurling (120 ft.), shock wave
-
-**Swallow:** 4d6+24 bludgeoning damage, AC 27, hp 33
-
-**Trample:** 2d8+24, DC 38
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 6, Con 26, Int 6, Wis 14, Cha 14
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +49
-
-**Combat maneuver defense:** 57 (61 vs. trip)
-
-**Feats:** Awesome Blow, Cleave, Great Cleave, Greater Bull Rush, Greater Overrun, Greater Sunder,
-Improved Bull Rush, Improved Overrun, Improved Sunder, Iron Will, Lunge, Power Attack, Snatch
-
-**Skills:** Perception +17, Swim +28
-
-**Special qualities:** camouflage
-
-**Ecology**
-
-**Environment:** any forest, hill, jungle, or plains
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest, hill, jungle, or plains
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

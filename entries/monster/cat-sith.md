@@ -30,91 +30,68 @@ abilities = ["8", "16", "12", "11", "13", "15"]
 _This slinky black feline has a single white spot on its chest. Its mannerisms and movements are
 eerily human._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Initiative: +3
+Type: Magical beast
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision, See invisibility
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +6
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +4 (1d2-1 plus no luck), bite +4 (1d3-1)
+Reach: 0
+Space: 2-1/2
+Spec Att: false curse (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5
+Constant: see invisibility
+Per day: 3/day: ghost sound, hypnotism, magic aura
+Per week: rest eternal
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 8, Dex 16, Con 12, Int 11, Wis 13, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 13
+Feats: Ability Focus (false curse), Stealthy
+Skills: Bluff +4, Escape Artist +5, Perception +6, Stealth +18
+Languages: Common; _[speak with animals](ref/spell/speak-with-animals)_
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +4 (1d2-1 plus no luck), bite +4 (1d3-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** false curse (DC 15)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**Constant:**
-
-- see invisibility
-
-**Per day:**
-
-- 3/day: ghost sound, hypnotism, magic aura
-
-**Per week:**
-
-- rest eternal
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 16, Con 12, Int 11, Wis 13, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13
-
-**Feats:** Ability Focus (false curse), Stealthy
-
-**Skills:** Bluff +4, Escape Artist +5, Perception +6, Stealth +18
-
-**Languages:** Common; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary, pair, or band (3-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate hills
+Organization: solitary, pair, or band (3-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

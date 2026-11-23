@@ -32,110 +32,78 @@ _This golden-winged humanoid wears sturdy armor, including a crowned helm with a
 a gleaming mirror on their broad chest. Large metal spikes pierce the creature's arms, hands, and
 shoulders._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: protective aura
+blindsight: 120
+Initiative: +4
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Angel, Extraplanar, Good, Lawful
+Experience points: 102,400
+:::
 
-**aura:** protective aura
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 32
+Touch: 14
+Flat-footed: 27
+AC modifiers: +4 Dex, +1 dodge, +18 natural, -1 size
+Hit points: 270 (20d10+160)
+Fort: +20
+Ref: +12
+Will: +16; +4 vs. evil
+Defensive abilities: reflect rays
+Dr: 10/evil
+Immune: acid, cold, petrification, poison
+Resist: electricity 10, fire 10
+Sr: 28
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: +4 [axiomatic](ref/magic-enh/axiomatic) spiked gauntlet +28/+23/+18/+13 (1d6+12/19-20), +4 axiomatic spiked gauntlet +28/+23/+18 (1d6+8/19-20)
+Ranged: 4 +4 axiomatic darts +27 (1d6+12)
+Reach: 10
+Space: 10
+Spec Att: nailed fists, soul reflection
+:::
 
-**Alignment:** Lawful good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: discern lies, true seeing
+Per day: 5/day: break enchantment, dimension door, freedom of movement\
+3/day: atonement, mark of justice, plane shift, self and willing targets only\
+1/day: discern location
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +31
+::: statblock
+Ability scores: Str 26, Dex 19, Con 26, Int 15, Wis 18, Cha 21
+Base attack bonus: +20
+Combat maneuver bonus: +29
+Combat maneuver defense: 44
+Feats: Alertness, Combat Reflexes, Deflect Arrows, Dodge, Greater Two-Weapon Fighting, Improved Critical (spiked gauntlet), Improved Two-Weapon Fighting, Lightning Reflexes, Two-Weapon Fighting, Weapon Focus (spiked gauntlet)
+Skills: Diplomacy +28, Sense Motive +31, Spellcraft +25
+Languages: Celestial, Common; _truespeech_
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Ecology
 
-**Subtype:** Angel, Extraplanar, Good, Lawful
-
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 14
-
-**Flat-footed:** 27
-
-**AC modifiers:** +4 Dex, +1 dodge, +18 natural, -1 size
-
-**Hit points:** 270 (20d10+160)
-
-**Fort:** +20
-
-**Ref:** +12
-
-**Will:** +16; +4 vs. evil
-
-**Defensive abilities:** reflect rays
-
-**Dr:** 10/evil
-
-**Immune:** acid, cold, petrification, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** +4 [axiomatic](ref/magic-enh/axiomatic) spiked gauntlet +28/+23/+18/+13 (1d6+12/19-20),
-+4 axiomatic spiked gauntlet +28/+23/+18 (1d6+8/19-20)
-
-**Ranged:** 4 +4 axiomatic darts +27 (1d6+12)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** nailed fists, soul reflection
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- discern lies, true seeing
-
-**Per day:**
-
-- 5/day: break enchantment, dimension door, freedom of movement
-- 3/day: atonement, mark of justice, plane shift, self and willing targets only
-- 1/day: discern location
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con 26, Int 15, Wis 18, Cha 21
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 44
-
-**Feats:** Alertness, Combat Reflexes, Deflect Arrows, Dodge, Greater Two-Weapon Fighting, Improved
-Critical (spiked gauntlet), Improved Two-Weapon Fighting, Lightning Reflexes, Two-Weapon Fighting,
-Weapon Focus (spiked gauntlet)
-
-**Skills:** Diplomacy +28, Sense Motive +31, Spellcraft +25
-
-**Languages:** Celestial, Common; _truespeech_
-
-**Ecology**
-
-**Environment:** any good-aligned plane
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any good-aligned plane
+Organization: solitary, pair, or squad (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

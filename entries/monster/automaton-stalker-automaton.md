@@ -31,109 +31,77 @@ abilities = ["18", "16", "-", "13", "15", "12"]
 _This construct resembles a large cat. Its body coloring and the glowing core in the center of its
 head constantly shift in color._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: construct
+Initiative: +7
+Alignment: Lawful neutral
+Size: medium
+Perception: +11
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Automaton, Extraplanar
+Experience points: 1,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +3 Dex, +5 natural
+Hit points: 53 (6d10+20)
+Fort: +1
+Ref: +4
+Will: +3
+Dr: 5/magic
+Fh: 5
+Immune: [construct traits](ref/umr/construct-traits), electricity
+Resist: cold 10, sonic 10
+Sr: 16
+Weaknesses: vulnerable mind
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft., climb 20 ft.
+Melee: bite +10 (1d6+4 plus [grab](ref/umr/grab)), 2 claws +10 (1d4+4)
+Pounce: present
+Rake: 2 claws, 1d4+4
+Sp Extra: sprint
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+At will: dimension door
+Per day: 1/day: blur, invisibility
+Per week: plane shift, self plus 50 lbs. of objects only
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Subtype:** Automaton, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 16, Con -, Int 13, Wis 15, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +10 (+14 grapple)
+Combat maneuver defense: 23 (27 vs. trip)
+Feats: Combat Reflexes, Improved Initiative, Run
+Skills: Acrobatics +12, Climb +21, Perception +11
+Racial Modifiers: +5 Stealth (+10 when not moving)
+Languages: Common; [telepathy](ref/umr/telepathy) 50 ft.
+Special qualities: adaptive camouflage, automaton core, astral blink, intelligent construct
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +5 natural
-
-**Hit points:** 53 (6d10+20)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** +3
-
-**Dr:** 5/magic
-
-**Fh:** 5
-
-**Immune:** [construct traits](ref/umr/construct-traits), electricity
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 16
-
-**Weaknesses:** vulnerable mind
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft.
-
-**Melee:** bite +10 (1d6+4 plus [grab](ref/umr/grab)), 2 claws +10 (1d4+4)
-
-**Pounce:** present
-
-**Rake:** 2 claws, 1d4+4
-
-**Sp Extra:** sprint
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**At will:**
-
-- dimension door
-
-**Per day:**
-
-- 1/day: blur, invisibility
-
-**Per week:**
-
-- plane shift, self plus 50 lbs. of objects only
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con -, Int 13, Wis 15, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10 (+14 grapple)
-
-**Combat maneuver defense:** 23 (27 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Run
-
-**Skills:** Acrobatics +12, Climb +21, Perception +11
-
-**Racial Modifiers:** +5 Stealth (+10 when not moving)
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 50 ft.
-
-**Special qualities:** adaptive camouflage, automaton core, astral blink, intelligent construct
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary, pair, or pack (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

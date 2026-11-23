@@ -29,77 +29,61 @@ abilities = ["18", "17", "14", "2", "15", "9"]
 _This streamlined reptile has a long, serpentine neck, at the end of which glares a many-fanged
 head._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +7
+Keen Scent: present
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex, +1 Dodge, +1 natural, -1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +6
+Will: +3
+:::
 
-**Keen Scent:** present
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 5 ft., swim 60 ft.
+Bleed: 1
+Melee: bite +5 (2d6+6 plus 1 bleed)
+Reach: 10
+Space: 10
+Spec Att: ambush attack +1d6
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +6
+::: statblock
+Ability scores: Str 18, Dex 17, Con 14, Int 2, Wis 15, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +7
+Combat maneuver defense: 21
+Feats: Dodge, Improved Initiative
+Skills: Perception +6, Stealth +7, Swim +16
+Racial Modifiers: +4 Stealth
+:::
 
-**Senses:** Low-light vision, Scent
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex, +1 Dodge, +1 natural, -1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 5 ft., swim 60 ft.
-
-**Bleed:** 1
-
-**Melee:** bite +5 (2d6+6 plus 1 bleed)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** ambush attack +1d6
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 14, Int 2, Wis 15, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Improved Initiative
-
-**Skills:** Perception +6, Stealth +7, Swim +16
-
-**Racial Modifiers:** +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate or warm swamps or water
-
-**Organization:** solitary, pair, or school (3-7)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm swamps or water
+Organization: solitary, pair, or school (3-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

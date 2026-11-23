@@ -29,81 +29,58 @@ abilities = ["27", "10", "21", "5", "12", "10"]
 _This abomination has the head and foreparts of a great lion, an additional head and hindquarters of
 a ram, and a red dragon's head sprouting from its tail._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 18)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +4
+Type: Magical beast
+Perception: +20
+Senses: All-around vision, Darkvision 60 ft., Low-light vision, Scent
+Experience points: 25,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 18)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 26
+Touch: 8
+Flat-footed: 26
+AC modifiers: +18 natural, -2 size
+Hit points: 178 (17d10+85)
+Fort: +15
+Ref: +12
+Will: +8
+Dr: 10/cold iron and magic
+Immune: bleed, death effects, disease, fire, poison
+Sr: 24
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 30 ft.
+Br Weap: 60-ft. cone, 13d8 fire damage, Reflex DC 23 for half, usable every 1d4 rounds
+Burn: 2d8, DC 23
+Melee: bite +23 (2d8+8/19-20 plus [grab](ref/umr/grab)), bite +23 (2d6+8 plus burn), 2 claws +23 (1d8+8), gore +23 (2d6+8)
+Reach: 10
+Space: 15
+Swallow: 2d6 bludgeoning plus 8d8 fire damage, AC 19, 17 hp
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Perception:** +20
-
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
-
-**Experience points:** 25,600
-
-**Armor class:** 26
-
-**Touch:** 8
-
-**Flat-footed:** 26
-
-**AC modifiers:** +18 natural, -2 size
-
-**Hit points:** 178 (17d10+85)
-
-**Fort:** +15
-
-**Ref:** +12
-
-**Will:** +8
-
-**Dr:** 10/cold iron and magic
-
-**Immune:** bleed, death effects, disease, fire, poison
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 60-ft. cone, 13d8 fire damage, Reflex DC 23 for half, usable every 1d4 rounds
-
-**Burn:** 2d8, DC 23
-
-**Melee:** bite +23 (2d8+8/19-20 plus [grab](ref/umr/grab)), bite +23 (2d6+8 plus burn), 2 claws +23
-(1d8+8), gore +23 (2d6+8)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Swallow:** 2d6 bludgeoning plus 8d8 fire damage, AC 19, 17 hp
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 10, Con 21, Int 5, Wis 12, Cha 10
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +27 (+31 grapple)
-
-**Combat maneuver defense:** 37
-
-**Feats:** Cleave, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will,
-Lightning Reflexes, Power Attack, Skill Focus (Perception), Vital Strike
-
-**Skills:** Perception +20, Stealth +2 (+6 in scrubland or brush)
-
-**Racial Modifiers:** +4 Stealth in scrubland or brush
-
-**Languages:** Draconic
+::: statblock
+Ability scores: Str 27, Dex 10, Con 21, Int 5, Wis 12, Cha 10
+Base attack bonus: +17
+Combat maneuver bonus: +27 (+31 grapple)
+Combat maneuver defense: 37
+Feats: Cleave, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception), Vital Strike
+Skills: Perception +20, Stealth +2 (+6 in scrubland or brush)
+Racial Modifiers: +4 Stealth in scrubland or brush
+Languages: Draconic
+:::
 
 ### Description
 

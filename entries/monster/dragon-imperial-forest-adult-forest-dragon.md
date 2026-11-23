@@ -29,126 +29,85 @@ special_qualities = "change shape, sound imitation, woodland stride"
 abilities = ["29", "10", "22", "16", "17", "16"]
 +++
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 21)
+Alignment: Chaotic evil
+Type: dragon
+Size: huge
+Initiative: +4
+Perception: +23
+Senses: Dragon senses
+Subtype: Earth
+tremorsense: 60
+Experience points: 38,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 21)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 30
+Touch: 8
+Flat-footed: 30
+AC modifiers: +22 natural, -2 size
+Hit points: 229 (17d12+119)
+Fort: +16
+Ref: +10
+Will: +15
+Dr: 2/adamantine
+Immune: paralysis, poison, sleep
+Sr: 25
+:::
 
-**Type:** dragon
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 40 ft., burrow 20 ft., climb 30 ft., fly 200 ft. (poor)
+Br Weap: 50-ft. cone, 12d6 piercing damage, DC 24
+Melee: bite +25 (2d8+13), 2 claws +24 (2d6+9), gore +24 (2d6+13), tail slap +22 (2d6+13)
+Reach: 10
+Reach P: 15 ft. with bite and gore
+Space: 15
+Spec Att: crush (DC 24, 2d8+13)
+:::
 
-**Initiative:** +4
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +20
+At will: blight (DC 18), entangle (DC 14), pass without trace
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +10
+3rd-level spells: 5/day: wind wall, stinking cloud (DC 16)
+2nd-level spells: 7/day: fog cloud, hideous laughter (DC 15), touch of idiocy
+1st-level spells: 7/day: hypnotism (DC 14), obscuring mist, magic missile, ray of enfeeblement (DC 14), shield
+Cantrips: At will: daze (DC 13), detect magic, ghost sound, mage hand, read magic, resistance, touch of fatigue
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Subtype:** Earth
+::: statblock
+Ability scores: Str 29, Dex 10, Con 22, Int 16, Wis 17, Cha 16
+Base attack bonus: +17
+Combat maneuver bonus: +28
+Combat maneuver defense: 38 (42 vs. trip)
+Feats: Improved Initiative, Improved Natural Armor, Iron Will, Multiattack, Power Attack, Skill Focus (Stealth), Stealthy, Toughness, Weapon Focus (bite)
+Skills: Acrobatics +8 (+11 when jumping), Bluff +23, Climb +37, Intimidate +23, Knowledge (arcana, nature) +14, Perception +23
+Languages: Common, Draconic, Sylvan
+Special qualities: change shape, sound imitation, [woodland stride](ref/ability/woodland-stride)
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 30
-
-**Touch:** 8
-
-**Flat-footed:** 30
-
-**AC modifiers:** +22 natural, -2 size
-
-**Hit points:** 229 (17d12+119)
-
-**Fort:** +16
-
-**Ref:** +10
-
-**Will:** +15
-
-**Dr:** 2/adamantine
-
-**Immune:** paralysis, poison, sleep
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft., climb 30 ft., fly 200 ft. (poor)
-
-**Br Weap:** 50-ft. cone, 12d6 piercing damage, DC 24
-
-**Melee:** bite +25 (2d8+13), 2 claws +24 (2d6+9), gore +24 (2d6+13), tail slap +22 (2d6+13)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite and gore
-
-**Space:** 15
-
-**Spec Att:** crush (DC 24, 2d8+13)
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +20
-
-**At will:**
-
-- blight (DC 18), entangle (DC 14), pass without trace
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**3rd-level spells:**
-
-- 5/day: wind wall, stinking cloud (DC 16)
-
-**2nd-level spells:**
-
-- 7/day: fog cloud, hideous laughter (DC 15), touch of idiocy
-
-**1st-level spells:**
-
-- 7/day: hypnotism (DC 14), obscuring mist, magic missile, ray of enfeeblement (DC 14), shield
-
-**Cantrips:**
-
-- At will: daze (DC 13), detect magic, ghost sound, mage hand, read magic, resistance, touch of
-  fatigue
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 10, Con 22, Int 16, Wis 17, Cha 16
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 38 (42 vs. trip)
-
-**Feats:** Improved Initiative, Improved Natural Armor, Iron Will, Multiattack, Power Attack, Skill
-Focus (Stealth), Stealthy, Toughness, Weapon Focus (bite)
-
-**Skills:** Acrobatics +8 (+11 when jumping), Bluff +23, Climb +37, Intimidate +23, Knowledge
-(arcana, nature) +14, Perception +23
-
-**Languages:** Common, Draconic, Sylvan
-
-**Special qualities:** change shape, sound imitation, [woodland stride](ref/ability/woodland-stride)
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any forest
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

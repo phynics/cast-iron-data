@@ -32,118 +32,83 @@ abilities = ["27", "17", "-", "18", "16", "21"]
 _What was once a woman now towers as a monstrosity of ectoplasmic flesh, horns, and a tremendous
 scythe-like claw._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: desecrate (20-ft. radius)
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Perception: +17
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 4,800
+:::
 
-**aura:** desecrate (20-ft. radius)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 18
+AC modifiers: +3 Dex, +9 natural, -1 size
+Hit points: 115 (11d8+66)
+Fort: +9
+Ref: +7
+Will: +11
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: great claw +16 (2d6+9/×4 plus disease), claw +16 (1d8+9)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +16
+Constant: desecrate, centered on self
+:::
 
-**Senses:** Darkvision 60 ft.
-
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +9 natural, -1 size
-
-**Hit points:** 115 (11d8+66)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +11
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** great claw +16 (2d6+9/×4 plus disease), claw +16 (1d8+9)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +16
-
-**Constant:**
-
-- desecrate, centered on self
-
-**Prepared Spells**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**3rd-level spells:**
-
-- bestow curse (DC 16), contagion (DC 16), dispel magic^D^, inflict serious wounds (DC 16)
-
-**2nd-level spells:**
-
-- death knell^D^ (DC 15), hold person (DC 15), inflict moderate wounds (DC 15), resist energy,
-  spiritual weapon
-
-**1st-level spells:**
-
-- cause fear^D^ (DC 14), command (DC 14), divine favor, obscuring mist, shield of faith
-
-**Cantrips:**
-
-- bleed (DC 13), detect magic, guidance, resistance
-
-**Domains:** Death, Magic
+::: statblock
+title = "Prepared Spells"
+Caster level: 6
+Concentration: +9
+3rd-level spells: bestow curse (DC 16), contagion (DC 16), dispel magic^D^, inflict serious wounds (DC 16)
+2nd-level spells: death knell^D^ (DC 15), hold person (DC 15), inflict moderate wounds (DC 15), resist energy, spiritual weapon
+1st-level spells: cause fear^D^ (DC 14), command (DC 14), divine favor, obscuring mist, shield of faith
+Cantrips: bleed (DC 13), detect magic, guidance, resistance
+Domains: Death, Magic
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 27, Dex 17, Con -, Int 18, Wis 16, Cha 21
+::: statblock
+Ability scores: Str 27, Dex 17, Con -, Int 18, Wis 16, Cha 21
+Base attack bonus: +8
+Combat maneuver bonus: +17
+Combat maneuver defense: 30
+Feats: Ability Focus (disease), Combat Casting, Combat Reflexes, Improved Initiative, Power Attack, Vital Strike
+Skills: Acrobatics +14, Bluff +16, Fly +23, Intimidate +19, Knowledge (religion) +18, Perception +17, Sense Motive +17, Spellcraft +18, Stealth +0
+Languages: Abyssal, Common, Infernal, Necril
+:::
 
-**Base attack bonus:** +8
+### Ecology
 
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 30
-
-**Feats:** Ability Focus (disease), Combat Casting, Combat Reflexes, Improved Initiative, Power
-Attack, Vital Strike
-
-**Skills:** Acrobatics +14, Bluff +16, Fly +23, Intimidate +19, Knowledge (religion) +18, Perception
-+17, Sense Motive +17, Spellcraft +18, Stealth +0
-
-**Languages:** Abyssal, Common, Infernal, Necril
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or cult (1 daughter plus 2d8 human clerics)
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary or cult (1 daughter plus 2d8 human clerics)
+Treasure: Double
+:::
 
 ### Special Abilities
 

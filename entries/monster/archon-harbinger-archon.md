@@ -32,103 +32,73 @@ abilities = ["6", "15", "11", "10", "13", "12"]
 _What appears to be a miniaturized orrery zips through the air, with thin, sharp blades flashing
 periodically from within._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +6
+Alignment: Lawful good
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Detect evil, Low-light vision
+Subtype: Archon, Extraplanar, Good, Lawful
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 dodge, +1 natural, +2 size
+Hit points: 16 (3d10)
+Fort: +1
+Ref: +5
+Will: +4; +4 vs. poison
+Dr: 5/evil
+Immune: electricity, petrification
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: fly 50 ft. (perfect)
+Melee: 3 blades +4 (1d4-1)
+Reach: 0
+Space: 2-1/2
+Spec Att: wrath
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+Constant: detect evil
+At will: dancing lights, duration lasts until dismissed
+Per day: 3/day: cure light wounds, protection from evil
+Per week: commune, CL 12th; 6 questions
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 6, Dex 15, Con 11, Int 10, Wis 13, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 12
+Feats: Dodge, Improved Initiative
+Skills: Diplomacy +7, Sense Motive +7
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: disassemble, minor archon
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 dodge, +1 natural, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +4; +4 vs. poison
-
-**Dr:** 5/evil
-
-**Immune:** electricity, petrification
-
-**Offense**
-
-**Speed:** fly 50 ft. (perfect)
-
-**Melee:** 3 blades +4 (1d4-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** wrath
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- dancing lights, duration lasts until dismissed
-
-**Per day:**
-
-- 3/day: cure light wounds, protection from evil
-
-**Per week:**
-
-- commune, CL 12th; 6 questions
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 11, Int 10, Wis 13, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 12
-
-**Feats:** Dodge, Improved Initiative
-
-**Skills:** Diplomacy +7, Sense Motive +7
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** disassemble, minor archon
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or constellation (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or constellation (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

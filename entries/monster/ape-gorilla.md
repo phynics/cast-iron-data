@@ -28,69 +28,57 @@ abilities = ["15", "15", "14", "2", "12", "7"]
 _Large, deep-set eyes peer from beneath this great ape's thick brow as it lumbers forward on its
 legs and knuckles._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 19 (3d8+6)
+Fort: +7
+Ref: +5
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: 2 slams +3 (1d6+2)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 15, Con 14, Int 2, Wis 12, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 17
+Feats: Great Fortitude, Skill Focus (Perception)
+Skills: Acrobatics +6, Climb +14, Perception +8
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** 2 slams +3 (1d6+2)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 14, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17
-
-**Feats:** Great Fortitude, Skill Focus (Perception)
-
-**Skills:** Acrobatics +6, Climb +14, Perception +8
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or troop (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or troop (3-12)
+Treasure: None
+:::
 
 ### Description
 

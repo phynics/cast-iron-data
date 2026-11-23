@@ -33,79 +33,62 @@ abilities = ["26", "15", "20", "11", "12", "17"]
 _This sleek, gold-scaled draconic creature looks both regal and intelligent. A leather harness holds
 a saddle between its wings._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: dragon
+Initiative: +2
+Size: large
+Alignment: Lawful neutral
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 6,400
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 21
+AC modifiers: +2 Dex, +12 natural, -1 size
+Hit points: 115 (10d12+50)
+Fort: +12
+Ref: +9
+Will: +8
+Immune: fire, paralysis, sleep
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 40 ft., fly 120 ft. (good)
+Br Weap: 30-ft. cone, 9d6 fire damage, Reflex DC 20 half, usable every 1d4 rounds
+Melee: mwk glaive +18/+13 (2d8+12/×3), bite +13 (1d8+4) or bite +18 (1d8+8), 2 claws +17 (1d6+8)
+Reach: 10
+Reach P: 15 ft. with glaive
+Space: 10
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 26, Dex 15, Con 20, Int 11, Wis 12, Cha 17
+Base attack bonus: +10
+Combat maneuver bonus: +19
+Combat maneuver defense: 31
+Feats: Combat Reflexes, Flyby Attack, Power Attack, Vital Strike, Weapon Focus (bite)
+Skills: Bluff +16, Fly +17, Intimidate +16, Perception +14
+Languages: Common, Draconic
+Special qualities: rider bond
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +12 natural, -1 size
-
-**Hit points:** 115 (10d12+50)
-
-**Fort:** +12
-
-**Ref:** +9
-
-**Will:** +8
-
-**Immune:** fire, paralysis, sleep
-
-**Offense**
-
-**Speed:** 40 ft., fly 120 ft. (good)
-
-**Br Weap:** 30-ft. cone, 9d6 fire damage, Reflex DC 20 half, usable every 1d4 rounds
-
-**Melee:** mwk glaive +18/+13 (2d8+12/×3), bite +13 (1d8+4) or bite +18 (1d8+8), 2 claws +17 (1d6+8)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with glaive
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 15, Con 20, Int 11, Wis 12, Cha 17
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 31
-
-**Feats:** Combat Reflexes, Flyby Attack, Power Attack, Vital Strike, Weapon Focus (bite)
-
-**Skills:** Bluff +16, Fly +17, Intimidate +16, Perception +14
-
-**Languages:** Common, Draconic
-
-**Special qualities:** rider bond
-
-**Ecology**
-
-**Environment:** any mountains
-
-**Organization:** solitary, pair, patrol (3-6), or wing (7-14)
-
-**Treasure:** Standard (mwk glaive); other treasure
+::: statblock
+Environment: any mountains
+Organization: solitary, pair, patrol (3-6), or wing (7-14)
+Treasure: Standard (mwk glaive); other treasure
+:::
 
 ### Special Abilities
 

@@ -31,96 +31,71 @@ abilities = ["17", "10", "17", "10", "13", "8"]
 _This dwarf-like being of earth and metal has coppery hair and an open-faced helmet bearing two
 stylized boar tusks._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +0
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Good, Lawful, Shapechanger
+Experience points: 1,200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: +6 natural
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +1
+Will: +7; +2 vs. poison, spells, and [spell-like abilities](ref/umr/spell-like-abilities)
+Dr: 5/chaotic
+Resist: electricity 10, fire 10
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft.
+Br Weap: 5-ft. cone, 2d6 electricity, Reflex DC 15 for half, usable every 1d4 rounds
+Melee: mwk cestus +9 (1d4+3/19-20 plus 1d6 electricity)
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +4
+At will: guidance, light, mending, resistance
+Per day: 3/day: cure light wounds, magic weapon\
+1/day: bear's endurance, crafter's fortune, status
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Good, Lawful, Shapechanger
+::: statblock
+Ability scores: Str 17, Dex 10, Con 17, Int 10, Wis 13, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 18
+Feats: Cleave, Iron Will, Power Attack
+Skills: Craft (any one) +8, Disable Device +8, Knowledge (dungeoneering, engineering) +8, Perception +9
+Languages: Celestial, Dwarven, Goblin, Orc
+Special qualities: [change shape](ref/umr/change-shape) (boar; [beast shape I](ref/spell/beast-shape-1)), copper boar form, dwarf blood, shock cestus
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +1
-
-**Will:** +7; +2 vs. poison, spells, and [spell-like abilities](ref/umr/spell-like-abilities)
-
-**Dr:** 5/chaotic
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Br Weap:** 5-ft. cone, 2d6 electricity, Reflex DC 15 for half, usable every 1d4 rounds
-
-**Melee:** mwk cestus +9 (1d4+3/19-20 plus 1d6 electricity)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +4
-
-**At will:**
-
-- guidance, light, mending, resistance
-
-**Per day:**
-
-- 3/day: cure light wounds, magic weapon
-- 1/day: bear's endurance, crafter's fortune, status
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con 17, Int 10, Wis 13, Cha 8
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 18
-
-**Feats:** Cleave, Iron Will, Power Attack
-
-**Skills:** Craft (any one) +8, Disable Device +8, Knowledge (dungeoneering, engineering) +8,
-Perception +9
-
-**Languages:** Celestial, Dwarven, Goblin, Orc
-
-**Special qualities:** [change shape](ref/umr/change-shape) (boar;
-[beast shape I](ref/spell/beast-shape-1)), copper boar form, dwarf blood, shock cestus
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or team (3-5)
-
-**Treasure:** Standard (mwk -cestus); other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or team (3-5)
+Treasure: Standard (mwk -cestus); other treasure
+:::
 
 ### Special Abilities
 

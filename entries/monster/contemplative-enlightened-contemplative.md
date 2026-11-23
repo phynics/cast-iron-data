@@ -31,106 +31,77 @@ abilities = ["10", "12", "9", "26", "17", "21"]
 _Resembling an enlarged brain with an atrophied humanoid body attached, this floating creature
 pulses with energy._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsight: 30
+Initiative: +5
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +17
+Senses: Darkvision 60 ft.
+thoughtsense: 60
+Experience points: 1,600
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 15
+AC modifiers: +5 deflection, +1 Dex
+Hit points: 40 (9d10-9)
+Fort: +4
+Ref: +7
+Will: +9
+Defensive abilities: psychic buffer
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: 2 claws +9 (1d4) or touch +4 (phrenic disruption)
+Spec Att: phrenic disruption (DC 19)
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+Constant: mage hand, thought shield I, thoughtsense, tongues
+At will: detect thoughts (DC 17)
+:::
 
-**Perception:** +17
+::: statblock
+title = "Psychic Magic"
+Caster level: 9
+Concentration: +14
+Power points: 12
+Psychoactive powers: detect magic, 0 PE, hypercognition, 2 PE, instigate psychic duel, 2 PE, DC 17, mind thrust II, 2 PE, DC 17, mindlink, 1 PE, mindscape door, 3 PE, DC 18, psychic asylum, 5 PE, synaptic pulse, 3 PE, DC 18, thought shield III, 4 PE
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**thoughtsense:** 60
+::: statblock
+Ability scores: Str 10, Dex 12, Con 9, Int 26, Wis 17, Cha 21
+Base attack bonus: +9
+Combat maneuver bonus: +9
+Combat maneuver defense: 25
+Feats: Alertness, Combat Casting, Flyby Attack, Great Fortitude, Improved Initiative
+Skills: Bluff +14, Diplomacy +14, Sense Motive +14, Spellcraft +17, Stealth +13
+Languages: telepathy 300 ft., _[tongues](ref/spell/tongues)_
+Special qualities: thought form
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 deflection, +1 Dex
-
-**Hit points:** 40 (9d10-9)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +9
-
-**Defensive abilities:** psychic buffer
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** 2 claws +9 (1d4) or touch +4 (phrenic disruption)
-
-**Spec Att:** phrenic disruption (DC 19)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Constant:**
-
-- mage hand, thought shield I, thoughtsense, tongues
-
-**At will:**
-
-- detect thoughts (DC 17)
-
-**Psychic Magic**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Power points:** 12
-
-**Psychoactive powers:**
-
-- detect magic, 0 PE, hypercognition, 2 PE, instigate psychic duel, 2 PE, DC 17, mind thrust II, 2
-  PE, DC 17, mindlink, 1 PE, mindscape door, 3 PE, DC 18, psychic asylum, 5 PE, synaptic pulse, 3
-  PE, DC 18, thought shield III, 4 PE
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 12, Con 9, Int 26, Wis 17, Cha 21
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 25
-
-**Feats:** Alertness, Combat Casting, Flyby Attack, Great Fortitude, Improved Initiative
-
-**Skills:** Bluff +14, Diplomacy +14, Sense Motive +14, Spellcraft +17, Stealth +13
-
-**Languages:** telepathy 300 ft., _[tongues](ref/spell/tongues)_
-
-**Special qualities:** thought form
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, band (2-5), or entourage (1 plus 2-4
-[contemplatives](ref/monster/contemplative))
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary, band (2-5), or entourage (1 plus 2-4 [contemplatives](ref/monster/contemplative))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

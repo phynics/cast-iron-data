@@ -32,91 +32,69 @@ _The eyes of this large gull glow eerily blue. Gray feathers cover much of its r
 long, black-tipped wings are marked with enigmatic symbols. The bird's yellow bill is heavy and
 hooked, and its webbed feet bear sharp talons._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral
+Perception: +5
+Senses: Arcane sight, Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +6
+Will: +4
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 10 ft., swim 10 ft., fly 50 ft. (good)
+Melee: bite +3 (1d4-1), 2 talons +3 (1d3-1)
+Reach: 0
+Space: 2-1/2
+Spec Att: arcane attacks, natural thief
+:::
 
-**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +2
+Constant: arcane sight, read magic
+At will: arcane mark
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 6, Dex 17, Con 13, Int 6, Wis 13, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 12
+Feats: Flyby Attack, Iron Will
+Skills: Acrobatics +15, Fly +15
+Racial Modifiers: +8 Acrobatics
+Languages: Common (can't speak)
+Special qualities: cypher synergy, devour scroll
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 10 ft., swim 10 ft., fly 50 ft. (good)
-
-**Melee:** bite +3 (1d4-1), 2 talons +3 (1d3-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** arcane attacks, natural thief
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +2
-
-**Constant:**
-
-- arcane sight, read magic
-
-**At will:**
-
-- arcane mark
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con 13, Int 6, Wis 13, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 12
-
-**Feats:** Flyby Attack, Iron Will
-
-**Skills:** Acrobatics +15, Fly +15
-
-**Racial Modifiers:** +8 Acrobatics
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** cypher synergy, devour scroll
-
-**Ecology**
-
-**Environment:** temperate coasts
-
-**Organization:** solitary, pair, flock (3-12), or colony
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate coasts
+Organization: solitary, pair, flock (3-12), or colony
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

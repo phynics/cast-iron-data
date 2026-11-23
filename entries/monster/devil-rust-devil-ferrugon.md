@@ -33,113 +33,77 @@ abilities = ["23", "20", "24", "18", "19", "21"]
 _This creature has curling ram's horns, metallic flesh that bears coiling ribbons of rust, and wings
 covered with rusty metallic feathers, each resembling a weathered dagger._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft., Detect good, See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 19,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 27
+Touch: 15
+Flat-footed: 22
+AC modifiers: +5 Dex, +12 natural
+Hit points: 162 (13d10+91)
+Fort: +15
+Ref: +13
+Will: +10
+Dr: 10/good
+Immune: fire, poison
+Regen: 5 (good weapons, good spells, rust)
+Resist: acid 10, cold 10
+Sr: 23
+Weaknesses: metallic
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Bleed: 1d4
+Melee: 2 slams +19 (1d8+6), 2 wings +19 (2d6+6/17-20 plus bleed and disease)
+Ranged: 4 iron feathers +18 (1d6+6/19-20 plus disease)
+Spec Att: disease, iron feathers, slashing wings, vainglorious whispers
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+Constant: detect good
+At will: detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, heat metal (DC 17), make whole, shatter (DC 17), shrink item (DC 18)
+Per day: 3/day: fabricate, major creation, iron objects only, rusting grasp, suggestion (DC 18), wall of iron\
+1/day: flesh to iron (DC 21), summon (level 4, 1 [barbed devil](ref/monster/devil-barbed-devil-hamatula) 50%), sympathetic vibration
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 23, Dex 20, Con 24, Int 18, Wis 19, Cha 21
+Base attack bonus: +13
+Combat maneuver bonus: +19 (+23 sunder)
+Combat maneuver defense: 34 (36 vs. sunder)
+Feats: Combat Reflexes, Greater Sunder, Improved Critical (wing), Improved Sunder, Infernal Legist, Iron Will, Power Attack
+Skills: Bluff +21, Disable Device +21, Fly +25, Intimidate +21, Knowledge (engineering) +20, Knowledge (history) +17, Perception +20, Profession (architect) +20, Sense Motive +20
+Languages: Celestial, Draconic, Infernal, Terran; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: slashing wings
+:::
 
-**Experience points:** 19,200
+### Ecology {#stat-ecology}
 
-**Armor class:** 27
-
-**Touch:** 15
-
-**Flat-footed:** 22
-
-**AC modifiers:** +5 Dex, +12 natural
-
-**Hit points:** 162 (13d10+91)
-
-**Fort:** +15
-
-**Ref:** +13
-
-**Will:** +10
-
-**Dr:** 10/good
-
-**Immune:** fire, poison
-
-**Regen:** 5 (good weapons, good spells, rust)
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 23
-
-**Weaknesses:** metallic
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Bleed:** 1d4
-
-**Melee:** 2 slams +19 (1d8+6), 2 wings +19 (2d6+6/17-20 plus bleed and disease)
-
-**Ranged:** 4 iron feathers +18 (1d6+6/19-20 plus disease)
-
-**Spec Att:** disease, iron feathers, slashing wings, vainglorious whispers
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**Constant:**
-
-- detect good
-
-**At will:**
-
-- detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, heat metal (DC 17),
-  make whole, shatter (DC 17), shrink item (DC 18)
-
-**Per day:**
-
-- 3/day: fabricate, major creation, iron objects only, rusting grasp, suggestion (DC 18), wall of
-  iron
-- 1/day: flesh to iron (DC 21), summon (level 4, 1
-  [barbed devil](ref/monster/devil-barbed-devil-hamatula) 50%), sympathetic vibration
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 20, Con 24, Int 18, Wis 19, Cha 21
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +19 (+23 sunder)
-
-**Combat maneuver defense:** 34 (36 vs. sunder)
-
-**Feats:** Combat Reflexes, Greater Sunder, Improved Critical (wing), Improved Sunder, Infernal
-Legist, Iron Will, Power Attack
-
-**Skills:** Bluff +21, Disable Device +21, Fly +25, Intimidate +21, Knowledge (engineering) +20,
-Knowledge (history) +17, Perception +20, Profession (architect) +20, Sense Motive +20
-
-**Languages:** Celestial, Draconic, Infernal, Terran; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** slashing wings
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or company (3-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or company (3-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

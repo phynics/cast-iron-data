@@ -34,78 +34,61 @@ abilities = ["-", "32", "-", "5", "20", "19"]
 _This beautiful, ghostly elven woman glides through the air, her long hair flowing around a face
 knotted into a mask of rage._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Initiative: +15
+Size: medium
+Perception: +31
+Senses: Darkvision 60 ft., Hear heartbeat
+Subtype: Incorporeal
+Type: undead
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +15
+::: statblock
+Armor class: 26
+Touch: 26
+Flat-footed: 14
+AC modifiers: +4 deflection, +11 Dex, +1 dodge
+Hit points: 161 (19d8+76)
+Fort: +10
+Ref: +19
+Will: +18
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: sunlight powerlessness
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +31
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: incorporeal touch +26 (14d6 negative energy plus terror)
+Spec Att: wail
+:::
 
-**Senses:** Darkvision 60 ft., Hear heartbeat
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 32, Con -, Int 5, Wis 20, Cha 19
+Base attack bonus: +14
+Combat maneuver bonus: +25
+Combat maneuver defense: 40
+Feats: Alertness, Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Step Up, Weapon Focus (touch), Wind Stance
+Skills: Fly +19, Perception +31, Sense Motive +7
+Languages: Common, Elven
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 26
-
-**Touch:** 26
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 deflection, +11 Dex, +1 dodge
-
-**Hit points:** 161 (19d8+76)
-
-**Fort:** +10
-
-**Ref:** +19
-
-**Will:** +18
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** sunlight powerlessness
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** incorporeal touch +26 (14d6 negative energy plus terror)
-
-**Spec Att:** wail
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 32, Con -, Int 5, Wis 20, Cha 19
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 40
-
-**Feats:** Alertness, Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes,
-Mobility, Step Up, Weapon Focus (touch), Wind Stance
-
-**Skills:** Fly +19, Perception +31, Sense Motive +7
-
-**Languages:** Common, Elven
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

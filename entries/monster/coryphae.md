@@ -30,95 +30,70 @@ abilities = ["15", "21", "16", "10", "12", "21"]
 _A crown of softly glowing crystals caps the head of this hauntingly beautiful, midnight-black
 figure._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: fey
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 10
+AC modifiers: +5 Dex, +1 dodge
+Hit points: 65 (10d6+30)
+Fort: +6
+Ref: +12
+Will: +8
+Defensive abilities: cut in with care, elegant maneuvers
+Dr: 5/cold iron
+Evasion: present
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +7 (1d4+2)
+Spec Att: enchanting dance
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +15
+Constant: feather step
+At will: charm person (DC 16), dancing lights, ghost sound (DC 15), lesser confusion (DC 16)
+Per day: 3/day: quickened ghost sound (DC 15), suggestion (DC 17)\
+1/day: dominate person (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 15, Dex 21, Con 16, Int 10, Wis 12, Cha 21
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 23
+Feats: Agile Maneuvers, Dodge, Improved Initiative, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (ghost sound)
+Skills: Acrobatics +18, Escape Artist +18, Perception +14, Perform (dance) +18, Stealth +18
+Languages: Aklo, Undercommon
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 10
-
-**AC modifiers:** +5 Dex, +1 dodge
-
-**Hit points:** 65 (10d6+30)
-
-**Fort:** +6
-
-**Ref:** +12
-
-**Will:** +8
-
-**Defensive abilities:** cut in with care, elegant maneuvers
-
-**Dr:** 5/cold iron
-
-**Evasion:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +7 (1d4+2)
-
-**Spec Att:** enchanting dance
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**Constant:**
-
-- feather step
-
-**At will:**
-
-- charm person (DC 16), dancing lights, ghost sound (DC 15), lesser confusion (DC 16)
-
-**Per day:**
-
-- 3/day: quickened ghost sound (DC 15), suggestion (DC 17)
-- 1/day: dominate person (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 21, Con 16, Int 10, Wis 12, Cha 21
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23
-
-**Feats:** Agile Maneuvers, Dodge, Improved Initiative, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (ghost sound)
-
-**Skills:** Acrobatics +18, Escape Artist +18, Perception +14, Perform (dance) +18, Stealth +18
-
-**Languages:** Aklo, Undercommon
-
-**Ecology**
-
-**Environment:** any underground or urban
-
-**Organization:** solitary, troupe (2-6), or company (8-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground or urban
+Organization: solitary, troupe (2-6), or company (8-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -27,122 +27,83 @@ special_qualities = "change shape"
 abilities = ["24", "12", "21", "20", "18", "17"]
 +++
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 19), protective aura (20 ft.)
+Type: dragon
+Initiative: +1
+Size: large
+Alignment: Neutral good
+Perception: +25
+Senses: Appraising sight, Dragon senses
+Experience points: 9,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 19), protective aura (20
-ft.)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 28
+Touch: 10
+Flat-footed: 27
+AC modifiers: +1 Dex, +18 natural, -1 size
+Hit points: 138 (12d12+60)
+Fort: +13
+Ref: +9
+Will: +14
+Dr: 5/magic
+Immune: paralysis, sleep
+Sr: 21
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, DC 21, 12d6 cold or fire
+Melee: bite +18 (2d6+10), 2 claws +18 (1d8+7), 2 wings +16 (1d6+3), tail slap +16 (1d8+10)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+:::
 
-**Alignment:** Neutral good
+::: statblock
+title = "Psychic Magic"
+Caster level: 12
+Concentration: +17
+Power points: 9
+Psychoactive powers: augury, 2 PE, blood biography, 3 PE, forbid action (1 PE; DC 16), invisibility, 2 PE, mending, 0 PE
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +12
+3rd-level spells: 5/day: gaseous form, mental barrier II
+2nd-level spells: 7/day: hideous laughter (DC 15), protection from arrows, suggestion (DC 17)
+1st-level spells: 8/day: burst of adrenaline, burst of insight, interrogation (DC 16), mage armor, sleep (DC 16)
+Cantrips: At will: detect magic, detect psychic significance, grave words, mage hand, message, read magic, resistance
+:::
 
-**Senses:** Appraising sight, Dragon senses
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 24, Dex 12, Con 21, Int 20, Wis 18, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +20
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Deceitful, Flyby Attack, Iron Will, Multiattack, Power Attack, Skill Focus (Perception)
+Skills: Appraise +20, Bluff +22, Diplomacy +18, Disguise +19, Sense Motive +19
+Languages: Aklo, Celestial, Common, Draconic, Infernal
+Special qualities: change shape
+:::
 
-**Armor class:** 28
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 27
-
-**AC modifiers:** +1 Dex, +18 natural, -1 size
-
-**Hit points:** 138 (12d12+60)
-
-**Fort:** +13
-
-**Ref:** +9
-
-**Will:** +14
-
-**Dr:** 5/magic
-
-**Immune:** paralysis, sleep
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 40 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, DC 21, 12d6 cold or fire
-
-**Melee:** bite +18 (2d6+10), 2 claws +18 (1d8+7), 2 wings +16 (1d6+3), tail slap +16 (1d8+10)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Psychic Magic**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**Power points:** 9
-
-**Psychoactive powers:**
-
-- augury, 2 PE, blood biography, 3 PE, forbid action (1 PE; DC 16), invisibility, 2 PE, mending, 0
-  PE
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**3rd-level spells:**
-
-- 5/day: gaseous form, mental barrier II
-
-**2nd-level spells:**
-
-- 7/day: hideous laughter (DC 15), protection from arrows, suggestion (DC 17)
-
-**1st-level spells:**
-
-- 8/day: burst of adrenaline, burst of insight, interrogation (DC 16), mage armor, sleep (DC 16)
-
-**Cantrips:**
-
-- At will: detect magic, detect psychic significance, grave words, mage hand, message, read magic,
-  resistance
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 12, Con 21, Int 20, Wis 18, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Deceitful, Flyby Attack, Iron Will, Multiattack, Power Attack, Skill Focus (Perception)
-
-**Skills:** Appraise +20, Bluff +22, Diplomacy +18, Disguise +19, Sense Motive +19
-
-**Languages:** Aklo, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** change shape
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

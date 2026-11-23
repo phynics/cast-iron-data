@@ -30,95 +30,71 @@ abilities = ["8", "15", "14", "13", "12", "15"]
 _This pint-sized creature resembles a tiny blue elephant no larger than a house cat. Its feet, tail,
 and ears are clawed and spiked._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral good
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 Dex, +2 natural, +2 size
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +5
+Will: +2
+Fh: 2
+Immune: poison
+Resist: acid 5, electricity 5
+Sr: 13
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft.
+Melee: gore +7 (1d3-1 plus poison)
+Reach: 0
+Space: 2-1/2
+Spec Att: luckbringer
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Constant: detect magic
+At will: mage hand
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 8, Dex 15, Con 14, Int 13, Wis 12, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 12 (16 vs. trip)
+Feats: Improved Initiative, Weapon Finesse
+Skills: Diplomacy +4, Stealth +15
+Languages: Common (can't speak)
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +2 natural, +2 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +2
-
-**Fh:** 2
-
-**Immune:** poison
-
-**Resist:** acid 5, electricity 5
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** gore +7 (1d3-1 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** luckbringer
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- mage hand
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 14, Int 13, Wis 12, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 12 (16 vs. trip)
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Diplomacy +4, Stealth +15
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any urban (Vudra)
-
-**Organization:** solitary, pair, or litter (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any urban (Vudra)
+Organization: solitary, pair, or litter (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

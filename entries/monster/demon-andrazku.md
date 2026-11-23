@@ -31,100 +31,75 @@ abilities = ["21", "13", "18", "10", "11", "14"]
 _This burly, primitive-looking creature has an ape-like upper body, demonic horns, cloven hooves,
 and skin the color of a snow-buried corpse._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft., Scent
+Subtype: Chaotic, Cold, Demon, Evil, Extraplanar
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 17
+AC modifiers: +1 Dex, +7 natural
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +6
+Will: +2
+Dr: 5/cold iron or good
+Immune: cold, electricity, poison
+Resist: acid 10, fire 10
+Sr: 16
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Br Weap: 10-ft. cone, 3d6 cold, Reflex half DC 17, usable every 1d4 rounds
+Melee: 2 slams +10 (1d6+4), bite +10 (1d6+4 plus bleed and 1d6 cold)
+Pow Ch: slam, 2d6+6
+Spec Att: bleed 1d4, mutilating gouge
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Per day: 3/day: cause fear (DC 13), locate creature, teleport, self plus 50 lbs. of objects only\
+1/day: righteous might, summon (level 3, 1 andrazku 25%)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Chaotic, Cold, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 21, Dex 13, Con 18, Int 10, Wis 11, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 22
+Feats: Improved Initiative, Power Attack, Skill Focus (Perception)
+Skills: Bluff +11, Climb +12
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Giant; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: icewalking
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +7 natural
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +2
-
-**Dr:** 5/cold iron or good
-
-**Immune:** cold, electricity, poison
-
-**Resist:** acid 10, fire 10
-
-**Sr:** 16
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Br Weap:** 10-ft. cone, 3d6 cold, Reflex half DC 17, usable every 1d4 rounds
-
-**Melee:** 2 slams +10 (1d6+4), bite +10 (1d6+4 plus bleed and 1d6 cold)
-
-**Pow Ch:** slam, 2d6+6
-
-**Spec Att:** bleed 1d4, mutilating gouge
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Per day:**
-
-- 3/day: cause fear (DC 13), locate creature, teleport, self plus 50 lbs. of objects only
-- 1/day: righteous might, summon (level 3, 1 andrazku 25%)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 13, Con 18, Int 10, Wis 11, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 22
-
-**Feats:** Improved Initiative, Power Attack, Skill Focus (Perception)
-
-**Skills:** Bluff +11, Climb +12
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Giant; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** icewalking
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or gang (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

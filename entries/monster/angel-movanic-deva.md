@@ -29,101 +29,73 @@ abilities = ["19", "17", "18", "17", "17", "19"]
 _This angel is all sharp lines and angles, muscular but lean, with large wings and a mighty flaming
 greatsword._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: protective aura
+Initiative: +7
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., Detect evil, Low-light vision
+Subtype: Angel, Extraplanar, Good
+Experience points: 9,600
+:::
 
-**aura:** protective aura
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 24
+Touch: 13
+Flat-footed: 21
+AC modifiers: +3 Dex, +11 natural; +4 deflection vs. evil
+Hit points: 126 (12d10+60)
+Fort: +12
+Ref: +11
+Will: +9; +4 vs. poison, +4 resistance vs. evil
+Defensive abilities: nature's pacifism, protected life force
+Dr: 10/evil
+Immune: acid, cold, electricity, fire, death effects, energy drain, petrification
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: +1 flaming greatsword +17/+12/+7 (2d6+7/19-20 plus 1d6 fire)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +12
+Constant: detect evil
+At will: aid, discern lies (DC 18), dispel evil (DC 19), dispel magic, holy smite (DC 18), invisibility, self only, plane shift (DC 19), remove curse, remove disease, remove fear
+Per day: 7/day: cure serious wounds\
+1/day: antimagic field, awaken, holy aura (DC 22)
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 17, Con 18, Int 17, Wis 17, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +16
+Combat maneuver defense: 29
+Feats: Cleave, Improved Initiative, Iron Will, Power Attack, Toughness, Vital Strike
+Skills: Diplomacy +19, Fly +22, Intimidate +19, Knowledge (planes) +18, Perception +26
+Racial Modifiers: +4 Perception
+Languages: Celestial, Draconic, Infernal; _truespeech_
+:::
 
-**Subtype:** Angel, Extraplanar, Good
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 13
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 Dex, +11 natural; +4 deflection vs. evil
-
-**Hit points:** 126 (12d10+60)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +9; +4 vs. poison, +4 resistance vs. evil
-
-**Defensive abilities:** nature's pacifism, protected life force
-
-**Dr:** 10/evil
-
-**Immune:** acid, cold, electricity, fire, death effects, energy drain, petrification
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** +1 flaming greatsword +17/+12/+7 (2d6+7/19-20 plus 1d6 fire)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- aid, discern lies (DC 18), dispel evil (DC 19), dispel magic, holy smite (DC 18), invisibility,
-  self only, plane shift (DC 19), remove curse, remove disease, remove fear
-
-**Per day:**
-
-- 7/day: cure serious wounds
-- 1/day: antimagic field, awaken, holy aura (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 17, Con 18, Int 17, Wis 17, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 29
-
-**Feats:** Cleave, Improved Initiative, Iron Will, Power Attack, Toughness, Vital Strike
-
-**Skills:** Diplomacy +19, Fly +22, Intimidate +19, Knowledge (planes) +18, Perception +26
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Ecology**
-
-**Environment:** any good-aligned plane
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** Double (+1 flaming greatsword); other treasure
+::: statblock
+Environment: any good-aligned plane
+Organization: solitary, pair, or squad (3-6)
+Treasure: Double (+1 flaming greatsword); other treasure
+:::
 
 ### Special Abilities
 

@@ -34,170 +34,96 @@ abilities = ["28", "26", "31", "18", "27", "29"]
 _This beautiful, rosy-haired woman has a lower body composed of a column of autumnal leaves and
 gently swaying vines._
 
-**Challenge rating:** 20
-
-**aura:** holy aura (DC 27)
-
-**Alignment:** Chaotic good
-
-**Initiative:** +12
-
-**Size:** large
-
-**Type:** outsider
-
-**Perception:** +35
-
-**Senses:** Darkvision 60 ft., Detect animals or plants, Detect evil, Low-light vision, True seeing
-
-**Subtype:** Azata, Chaotic, Extraplanar, Good
-
-**tremorsense:** 60
-
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 21
-
-**Flat-footed:** 28
-
-**AC modifiers:** +4 deflection, +8 Dex, +15 natural, -1 size
-
-**Hit points:** 372 (24d10+240)
-
-**Fort:** +28
-
-**Ref:** +20
-
-**Will:** +26
-
-**Dr:** 15/cold iron and evil
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Constrict:** 1d8+9
-
-**Melee:** +3 [icy burst](ref/magic-enh/icy-burst) sickle +35/+30/+25/+20 (1d8+12/19-20 plus 1d6
-cold), 4 vines +32 (1d8+9/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with vines
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** autumnal embrace, winter sickle
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +29
-
-**Constant:**
-
-- air walk, detect animals or plants, detect evil, holy aura (DC 27), speak with plants, true seeing
-
-**At will:**
-
-- blight (DC 24), cure serious wounds, diminish plants, entangle (DC 20), plant growth
-
-**Per day:**
-
-- 3/day: animate plants, awaken, control plants (DC 27), grove of respite, repel metal or stone,
-  quickened wall of thorns
-- 1/day: regenerate, shambler
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**9th-level spells:**
-
-- implosion (DC 27), mass heal, storm of vengeance (DC 27), true resurrection
-
-**8th-level spells:**
-
-- dimensional lock, earthquake, mass cure critical wounds, reverse gravity, sunburst (DC 26)
-
-**7th-level spells:**
-
-- destruction (DC 25), fire storm (DC 25), greater restoration, mass cure serious wounds, sunbeam
-  (DC 25)
-
-**6th-level spells:**
-
-- antilife shell, banishment (DC 24), greater dispel magic, heal, word of recall
-
-**5th-level spells:**
-
-- breath of life, call lightning storm (DC 23), dispel evil (DC 23), greater command (DC 23), insect
-  plague
-
-**4th-level spells:**
-
-- antiplant shell, chaos hammer (DC 22), freedom of movement, holy smite (DC 22), ice storm,
-  neutralize poison
-
-**3rd-level spells:**
-
-- daylight, dispel magic, protection from energy, remove disease, searing light, water walk
-
-**2nd-level spells:**
-
-- align weapon, barkskin, calm emotions (DC 20), enthrall (DC 20), gentle repose, lesser restoration
-
-**1st-level spells:**
-
-- divine favor, endure elements, entropic shield, protection from evil, remove fear, sanctuary (DC
-  19)
-
-**Cantrips:**
-
-- create water, detect poison, light, purify food and drink
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 26, Con 31, Int 18, Wis 27, Cha 29
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +34 (+38 disarm)
-
-**Combat maneuver defense:** 56 (58 vs. disarm, can't be tripped)
-
-**Feats:** Combat Casting, Combat Expertise, Critical Focus, Eschew Materials, Greater Disarm,
-Improved Critical (sickle), Improved Critical (vine), Improved Disarm, Improved Initiative, Power
-Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (wall of thorns), Sickening
-Critical
-
-**Skills:** Bluff +36, Climb +33, Knowledge (nature, planes) +31, Perception +35, Sense Motive +35,
-Stealth +31, Use Magic Device +36
-
-**Languages:** Abyssal, Celestial, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** bounteous caster, rebirth
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or grove (3-6)
-
-**Treasure:** Double
+::: statblock
+Challenge rating: 20
+aura: holy aura (DC 27)
+Alignment: Chaotic good
+Initiative: +12
+Size: large
+Type: outsider
+Perception: +35
+Senses: Darkvision 60 ft., Detect animals or plants, Detect evil, Low-light vision, True seeing
+Subtype: Azata, Chaotic, Extraplanar, Good
+tremorsense: 60
+Experience points: 307,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 36
+Touch: 21
+Flat-footed: 28
+AC modifiers: +4 deflection, +8 Dex, +15 natural, -1 size
+Hit points: 372 (24d10+240)
+Fort: +28
+Ref: +20
+Will: +26
+Dr: 15/cold iron and evil
+Immune: electricity, petrification
+Resist: cold 10, fire 10
+Sr: 31
+:::
+
+### Offense
+
+::: statblock
+Speed: 50 ft.
+Constrict: 1d8+9
+Melee: +3 [icy burst](ref/magic-enh/icy-burst) sickle +35/+30/+25/+20 (1d8+12/19-20 plus 1d6 cold), 4 vines +32 (1d8+9/19-20 plus [grab](ref/umr/grab))
+Reach: 5
+Reach P: 10 ft. with vines
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: autumnal embrace, winter sickle
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +29
+Constant: air walk, detect animals or plants, detect evil, holy aura (DC 27), speak with plants, true seeing
+At will: blight (DC 24), cure serious wounds, diminish plants, entangle (DC 20), plant growth
+Per day: 3/day: animate plants, awaken, control plants (DC 27), grove of respite, repel metal or stone, quickened wall of thorns\
+1/day: regenerate, shambler
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+Concentration: +28
+9th-level spells: implosion (DC 27), mass heal, storm of vengeance (DC 27), true resurrection
+8th-level spells: dimensional lock, earthquake, mass cure critical wounds, reverse gravity, sunburst (DC 26)
+7th-level spells: destruction (DC 25), fire storm (DC 25), greater restoration, mass cure serious wounds, sunbeam (DC 25)
+6th-level spells: antilife shell, banishment (DC 24), greater dispel magic, heal, word of recall
+5th-level spells: breath of life, call lightning storm (DC 23), dispel evil (DC 23), greater command (DC 23), insect plague
+4th-level spells: antiplant shell, chaos hammer (DC 22), freedom of movement, holy smite (DC 22), ice storm, neutralize poison
+3rd-level spells: daylight, dispel magic, protection from energy, remove disease, searing light, water walk
+2nd-level spells: align weapon, barkskin, calm emotions (DC 20), enthrall (DC 20), gentle repose, lesser restoration
+1st-level spells: divine favor, endure elements, entropic shield, protection from evil, remove fear, sanctuary (DC 19)
+Cantrips: create water, detect poison, light, purify food and drink
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 28, Dex 26, Con 31, Int 18, Wis 27, Cha 29
+Base attack bonus: +24
+Combat maneuver bonus: +34 (+38 disarm)
+Combat maneuver defense: 56 (58 vs. disarm, can't be tripped)
+Feats: Combat Casting, Combat Expertise, Critical Focus, Eschew Materials, Greater Disarm, Improved Critical (sickle), Improved Critical (vine), Improved Disarm, Improved Initiative, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (wall of thorns), Sickening Critical
+Skills: Bluff +36, Climb +33, Knowledge (nature, planes) +31, Perception +35, Sense Motive +35, Stealth +31, Use Magic Device +36
+Languages: Abyssal, Celestial, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: bounteous caster, rebirth
+:::
+
+### Ecology
+
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or grove (3-6)
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -30,96 +30,72 @@ abilities = ["27", "16", "22", "13", "18", "19"]
 _This immense serpent is covered in dull red fur; the four vestigial legs sprouting from its sides
 don't quite touch the ground._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Size: huge
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +29
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 38,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 29
+Touch: 11
+Flat-footed: 26
+AC modifiers: +3 Dex, +18 natural, -2 size
+Hit points: 207 (18d10+108)
+Fort: +17
+Ref: +14
+Will: +12
+Defensive abilities: all-around vision
+Dr: 10/magic
+Resist: acid 20, electricity 20
+Weaknesses: blindness vulnerability
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., burrow 30 ft.
+Melee: bite +24 (4d8+8 plus [grab](ref/umr/grab) and lethargy curse), tail slap +19 (2d6+4)
+Reach: 15
+Space: 15
+Spec Att: darting strike, lethargy curse
+Swallow: 4d8+12 bludgeoning and lethargy curse, AC 19, 20 hp
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +22
+Per day: 1/day: call lightning storm (DC 19), horrid wilting (DC 22)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 27, Dex 16, Con 22, Int 13, Wis 18, Cha 19
+Base attack bonus: +18
+Combat maneuver bonus: +28 (+32 grapple)
+Combat maneuver defense: 41 (can't be tripped)
+Feats: Combat Reflexes, Following Step, Greater Vital Strike, Improved Vital Strike, Iron Will, Power Attack, Step Up, Step Up and Strike, Vital Strike
+Skills: Perception +29
+Racial Modifiers: +4 Perception
+Languages: Abyssal, Thassilonian (can't speak)
+:::
 
-**Armor class:** 29
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +3 Dex, +18 natural, -2 size
-
-**Hit points:** 207 (18d10+108)
-
-**Fort:** +17
-
-**Ref:** +14
-
-**Will:** +12
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 10/magic
-
-**Resist:** acid 20, electricity 20
-
-**Weaknesses:** blindness vulnerability
-
-**Offense**
-
-**Speed:** 40 ft., burrow 30 ft.
-
-**Melee:** bite +24 (4d8+8 plus [grab](ref/umr/grab) and lethargy curse), tail slap +19 (2d6+4)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** darting strike, lethargy curse
-
-**Swallow:** 4d8+12 bludgeoning and lethargy curse, AC 19, 20 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +22
-
-**Per day:**
-
-- 1/day: call lightning storm (DC 19), horrid wilting (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 16, Con 22, Int 13, Wis 18, Cha 19
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +28 (+32 grapple)
-
-**Combat maneuver defense:** 41 (can't be tripped)
-
-**Feats:** Combat Reflexes, Following Step, Greater Vital Strike, Improved Vital Strike, Iron Will,
-Power Attack, Step Up, Step Up and Strike, Vital Strike
-
-**Skills:** Perception +29
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Abyssal, Thassilonian (can't speak)
-
-**Ecology**
-
-**Environment:** cold or temperate mountains
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: cold or temperate mountains
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

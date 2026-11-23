@@ -32,103 +32,78 @@ abilities = ["6", "17", "12", "12", "9", "13"]
 _This tiny creature, covered in a thick coat of fluffy fur, glides through the air, riding invisible
 currents on its fan-like tail._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Initiative: +3
+Type: Magical beast
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Air
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +6
+Will: +0
+Defensive abilities: wind blessed, wind form
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: tail fan +8 (1d4-2/×3)
+Ranged: air blast +8 (2d6+3)
+Reach: 0
+Reach P: 5 ft. with tail fan
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+Constant: feather fall
+:::
 
-**Subtype:** Air
+::: statblock
+title = "Psychic Magic"
+Caster level: 3
+Concentration: +4
+Power points: 5
+Psychoactive powers: alter winds, 1 PE, DC 12, gust of wind, 2 PE, DC 13, whispering wind, 2 PE
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 6, Dex 17, Con 12, Int 12, Wis 9, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 12 (16 vs. trip)
+Feats: Point-Blank Shot, Precise Shot, Weapon Finesse
+Skills: Acrobatics +9, Fly +13, Perception +3, Stealth +16
+Languages: Auran, Common
+Special qualities: basic aerokinesis
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +0
-
-**Defensive abilities:** wind blessed, wind form
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** tail fan +8 (1d4-2/×3)
-
-**Ranged:** air blast +8 (2d6+3)
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with tail fan
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**Constant:**
-
-- feather fall
-
-**Psychic Magic**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**Power points:** 5
-
-**Psychoactive powers:**
-
-- alter winds, 1 PE, DC 12, gust of wind, 2 PE, DC 13, whispering wind, 2 PE
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con 12, Int 12, Wis 9, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 12 (16 vs. trip)
-
-**Feats:** Point-Blank Shot, Precise Shot, Weapon Finesse
-
-**Skills:** Acrobatics +9, Fly +13, Perception +3, Stealth +16
-
-**Languages:** Auran, Common
-
-**Special qualities:** basic aerokinesis
-
-**Ecology**
-
-**Environment:** warm hills or mountains
-
-**Organization:** solitary, pair, or flock (6-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm hills or mountains
+Organization: solitary, pair, or flock (6-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

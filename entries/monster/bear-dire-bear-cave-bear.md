@@ -29,71 +29,58 @@ abilities = ["25", "13", "21", "2", "12", "10"]
 _Spittle drips from this feral bear's roaring maw, and its matted fur is broken in places by wicked,
 bony growths._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 95 (10d8+50)
+Fort: +12
+Ref: +8
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +13 (1d6+7 plus [grab](ref/umr/grab)), bite +13 (1d8+7)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 13, Con 21, Int 2, Wis 12, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Endurance, Improved Initiative, Iron Will, Run, Skill Focus (Perception)
+Skills: Perception +12, Swim +19
+Racial Modifiers: +4 Swim
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +13 (1d6+7 plus [grab](ref/umr/grab)), bite +13 (1d8+7)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 13, Con 21, Int 2, Wis 12, Cha 10
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Endurance, Improved Initiative, Iron Will, Run, Skill Focus (Perception)
-
-**Skills:** Perception +12, Swim +19
-
-**Racial Modifiers:** +4 Swim
-
-**Ecology**
-
-**Environment:** cold forests
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: cold forests
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Description
 

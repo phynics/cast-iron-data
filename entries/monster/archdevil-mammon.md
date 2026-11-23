@@ -30,122 +30,82 @@ abilities = ["38", "35", "40", "31", "30", "33"]
 _This shining being is humanoid, but its four arms, multiple legs, and horned head reveal its
 diabolic nature._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 37), shield of law (DC 29)
+Initiative: +16
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +46
+Senses: Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
+Subtype: Devil, Evil, Extraplanar, Lawful
+tremorsense: 60
+Experience points: 4,915,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 37), shield of law (DC 29)
+### Defense
 
-**Initiative:** +16
+::: statblock
+Armor class: 46
+Touch: 39
+Flat-footed: 33
+AC modifiers: +4 deflection, +12 Dex, +1 dodge, +7 natural, +12 profane
+Hit points: 676 (33d10+495)
+Fort: +30
+Ref: +34
+Will: +34; +8 vs. mind-affecting effects
+Defensive abilities: gleaming glory, infernal resurrection, _[mind blank](ref/spell/mind-blank)_
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, bleed, charm, compulsion, death effects, disease, energy drain, fire, necromancy effects, paralysis, petrification, poison, sleep effects, stunning
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30
+Sr: 39
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft.
+Melee: 4 claws +47 (1d6+14/19-20), gore +47 (2d8+14), 6 talons +47 (2d6+14/19-20)
+Sp Extra: _[air walk](ref/spell/air-walk)_
+:::
 
-**Type:** outsider
-
-**Perception:** +46
-
-**Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
-
-**Subtype:** Devil, Evil, Extraplanar, Lawful
-
-**tremorsense:** 60
-
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 39
-
-**Flat-footed:** 33
-
-**AC modifiers:** +4 deflection, +12 Dex, +1 dodge, +7 natural, +12 profane
-
-**Hit points:** 676 (33d10+495)
-
-**Fort:** +30
-
-**Ref:** +34
-
-**Will:** +34; +8 vs. mind-affecting effects
-
-**Defensive abilities:** gleaming glory, infernal resurrection, _[mind blank](ref/spell/mind-blank)_
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, bleed, charm, compulsion, death effects, disease, energy
-drain, fire, necromancy effects, paralysis, petrification, poison, sleep effects, stunning
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 4 claws +47 (1d6+14/19-20), gore +47 (2d8+14), 6 talons +47 (2d6+14/19-20)
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +39
-
-**Constant:**
-
-- air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing
-
-**At will:**
-
-- astral projection, beguiling gift (DC 22), desecrate^M^, dictum^M^ (DC 28), enter image, greater
-  dispel magic, greater object possession (DC 30), greater teleport, order's wrath^M^ (DC 25),
-  possession (DC 26), unhallow
-
-**Per day:**
-
-- 3/day: awaken construct, greater scrying (DC 28), polymorph any object (DC 29), quickened
-  possession (DC 26), summon devils, sympathy (DC 29)
-- 1/day: microcosm (DC 30), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +39
+Constant: air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing
+At will: astral projection, beguiling gift (DC 22), desecrate^M^, dictum^M^ (DC 28), enter image, greater dispel magic, greater object possession (DC 30), greater teleport, order's wrath^M^ (DC 25), possession (DC 26), unhallow
+Per day: 3/day: awaken construct, greater scrying (DC 28), polymorph any object (DC 29), quickened possession (DC 26), summon devils, sympathy (DC 29)\
+1/day: microcosm (DC 30), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Mammon can use this ability's mythic version in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 38, Dex 35, Con 40, Int 31, Wis 30, Cha 33
+::: statblock
+Ability scores: Str 38, Dex 35, Con 40, Int 31, Wis 30, Cha 33
+Base attack bonus: +33
+Combat maneuver bonus: +47 (+51 steal)
+Combat maneuver defense: 86 (88 vs. steal)
+Feats: Ability Focus (greater object possession), Combat Expertise, Combat Reflexes, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Dodge, Greater Steal, Improved Critical (claw, talon), Improved Initiative, Improved Steal, Iron Will, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (possession), Staggering Critical
+Skills: Appraise +46, Bluff +47, Diplomacy +44, Sense Motive +46, Spellcraft +46, Stealth +48, Use Magic Device +47
+Languages: all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: Argent Prince, Mammon's mark, plunderer
+Faith: Mammon
+:::
 
-**Base attack bonus:** +33
+### Ecology
 
-**Combat maneuver bonus:** +47 (+51 steal)
-
-**Combat maneuver defense:** 86 (88 vs. steal)
-
-**Feats:** Ability Focus (greater object possession), Combat Expertise, Combat Reflexes, Craft
-Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Dodge, Greater Steal,
-Improved Critical (claw, talon), Improved Initiative, Improved Steal, Iron Will, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (possession), Staggering Critical
-
-**Skills:** Appraise +46, Bluff +47, Diplomacy +44, Sense Motive +46, Spellcraft +46, Stealth +48,
-Use Magic Device +47
-
-**Languages:** all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** Argent Prince, Mammon's mark, plunderer
-
-**Faith:** Mammon
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

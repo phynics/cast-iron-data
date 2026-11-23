@@ -30,81 +30,63 @@ abilities = ["27", "10", "19", "12", "13", "12"]
 
 _This long-tailed aquatic beast resembles a massive snapping turtle with draconic features._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: dragon
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**Type:** dragon
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 23
+Touch: 8
+Flat-footed: 23
+AC modifiers: +15 natural, -2 size
+Hit points: 126 (12d12+48)
+Fort: +12
+Ref: +8
+Will: +9
+Immune: fire, sleep, paralysis
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Capsize: present
+Melee: bite +18 (3d6+8), 2 claws +18 (2d6+8)
+Reach: 10
+Space: 15
+Spec Att: breath weapon
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 27, Dex 10, Con 19, Int 12, Wis 13, Cha 12
+Base attack bonus: +12
+Combat maneuver bonus: +22
+Combat maneuver defense: 32 (36 vs. trip)
+Feats: Awesome Blow, Blind-Fight, Cleave, Improved Bull Rush, Improved Initiative, Power Attack
+Skills: Diplomacy +16, Intimidate +16, Perception +16, Swim +31
+Racial Modifiers: +8 Stealth in water
+Languages: Aquan, Common, Draconic
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 8
-
-**Flat-footed:** 23
-
-**AC modifiers:** +15 natural, -2 size
-
-**Hit points:** 126 (12d12+48)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +9
-
-**Immune:** fire, sleep, paralysis
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Capsize:** present
-
-**Melee:** bite +18 (3d6+8), 2 claws +18 (2d6+8)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** breath weapon
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 10, Con 19, Int 12, Wis 13, Cha 12
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 32 (36 vs. trip)
-
-**Feats:** Awesome Blow, Blind-Fight, Cleave, Improved Bull Rush, Improved Initiative, Power Attack
-
-**Skills:** Diplomacy +16, Intimidate +16, Perception +16, Swim +31
-
-**Racial Modifiers:** +8 Stealth in water
-
-**Languages:** Aquan, Common, Draconic
-
-**Ecology**
-
-**Environment:** temperate aquatic
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: temperate aquatic
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

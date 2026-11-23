@@ -30,71 +30,58 @@ abilities = ["13", "15", "15", "2", "12", "6"]
 _The size of a short, stocky humanoid with webbed feet and claws, this frog-like creature has
 glowing white eyes._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +5
+Will: +2
+Immune: blindness
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft., climb 20 ft., swim 20 ft.
+Melee: bite +5 (1d4+1), 2 claws +5 (1d3+1)
+Spec Att: blinding gaze
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 15, Con 15, Int 2, Wis 12, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 16
+Feats: Dodge, Skill Focus (Perception)
+Skills: Acrobatics +6 (+10 jumping), Perception +9, Swim +9
+Racial Modifiers: +4 Acrobatics when jumping
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +2
-
-**Immune:** blindness
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +5 (1d4+1), 2 claws +5 (1d3+1)
-
-**Spec Att:** blinding gaze
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 15, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 16
-
-**Feats:** Dodge, Skill Focus (Perception)
-
-**Skills:** Acrobatics +6 (+10 jumping), Perception +9, Swim +9
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or family (3-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or family (3-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -35,89 +35,69 @@ abilities = ["-", "17", "10", "8", "17", "18"]
 _The only real feature of this flaring of electrical energy is a vaguely humanoid face that flickers
 and plays within its shifting mass._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +7
+Alignment: Neutral
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Air, Elemental, Extraplanar, Incorporeal
+Experience points: 1,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 15
+AC modifiers: +4 deflection, +3 Dex, +1 size
+Hit points: 27 (5d10)
+Fort: +1
+Ref: +9
+Will: +7
+Defensive abilities: plasma form
+Immune: cold, electricity, [elemental](ref/subtype/elemental) traits
+Incorporeal: present
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 20 ft., fly 30 ft. (good)
+Ranged: lightning lash +8 (2d8 electricity damage)
+Spec Att: lightning lash
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+Per day: 2/day: control weather, standard action; intensify or dispel storm only
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Air, Elemental, Extraplanar, Incorporeal
+::: statblock
+Ability scores: Str -, Dex 17, Con 10, Int 8, Wis 17, Cha 18
+Base attack bonus: +5
+Combat maneuver bonus: +7
+Combat maneuver defense: 21 (can't be tripped)
+Feats: Alertness, Improved Initiative, Lightning Reflexes
+Skills: Diplomacy +7, Sense Motive +11
+Languages: Auran
+Special qualities: illuminating flames
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 deflection, +3 Dex, +1 size
-
-**Hit points:** 27 (5d10)
-
-**Fort:** +1
-
-**Ref:** +9
-
-**Will:** +7
-
-**Defensive abilities:** plasma form
-
-**Immune:** cold, electricity, [elemental](ref/subtype/elemental) traits
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** 20 ft., fly 30 ft. (good)
-
-**Ranged:** lightning lash +8 (2d8 electricity damage)
-
-**Spec Att:** lightning lash
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**Per day:**
-
-- 2/day: control weather, standard action; intensify or dispel storm only
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 17, Con 10, Int 8, Wis 17, Cha 18
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Feats:** Alertness, Improved Initiative, Lightning Reflexes
-
-**Skills:** Diplomacy +7, Sense Motive +11
-
-**Languages:** Auran
-
-**Special qualities:** illuminating flames
-
-**Ecology**
-
-**Environment:** any oceans (during storms)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any oceans (during storms)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

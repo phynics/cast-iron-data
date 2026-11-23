@@ -31,77 +31,61 @@ abilities = ["17", "9", "16", "12", "15", "10"]
 _This lumbering creature's gray-green hide glistens with moisture, and saliva dribbles from its
 fish-like maw._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Initiative: -1
+Size: medium
+Type: Monstrous humanoid
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic, Deep one
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 12
+Touch: 9
+Flat-footed: 12
+AC modifiers: -1 Dex, +3 natural
+Hit points: 17 (2d10+6)
+Fort: +5
+Ref: +2
+Will: +5
+Defensive abilities: deep dweller, immortal
+Resist: cold 5
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 20 ft., swim 40 ft.
+Melee: 2 claws +5 (1d4+3)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 9, Con 16, Int 12, Wis 15, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 14
+Feats: Great Fortitude
+Skills: Intimidate +5, Knowledge (religion) +6, Perception +7, Swim +16
+Racial Modifiers: +4 Stealth underwater
+Languages: Aklo, Common
+Special qualities: [amphibious](ref/umr/amphibious), devoted, item use
+:::
 
-**Subtype:** Aquatic, Deep one
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 9
-
-**Flat-footed:** 12
-
-**AC modifiers:** -1 Dex, +3 natural
-
-**Hit points:** 17 (2d10+6)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +5
-
-**Defensive abilities:** deep dweller, immortal
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**Melee:** 2 claws +5 (1d4+3)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 9, Con 16, Int 12, Wis 15, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 14
-
-**Feats:** Great Fortitude
-
-**Skills:** Intimidate +5, Knowledge (religion) +6, Perception +7, Swim +16
-
-**Racial Modifiers:** +4 Stealth underwater
-
-**Languages:** Aklo, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious), devoted, item use
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, gang (2-5), cult (6-12), or shoal (13+)
-
-**Treasure:** Standard (Dprotection from good/5 charges); other treasure
+::: statblock
+Environment: any water
+Organization: solitary, gang (2-5), cult (6-12), or shoal (13+)
+Treasure: Standard (Dprotection from good/5 charges); other treasure
+:::
 
 ### Special Abilities
 

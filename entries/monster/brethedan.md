@@ -33,83 +33,64 @@ abilities = ["19", "11", "20", "12", "14", "11"]
 _This amorphous creature looks like an iridescent, blimp-shaped jellyfish, with a line of tentacles
 dangling down beneath it._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+blindsense: 120
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft.
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 66 (7d8+35)
+Fort: +7
+Ref: +2
+Will: +9
+Amorph: present
+Regen: 2 (acid)
+:::
 
-**Initiative:** +0
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 0 ft., fly 30 ft. (good)
+Constrict: 1d6+4
+Engulf: DC 17, 1d6 acid and [paralysis](ref/rule/paralysis)
+Melee: 2 slams +9 (1d6+4 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +12
+::: statblock
+Ability scores: Str 19, Dex 11, Con 20, Int 12, Wis 14, Cha 11
+Base attack bonus: +5
+Combat maneuver bonus: +10 (+14 grapple)
+Combat maneuver defense: 20 (can't be tripped)
+Feats: Combat Reflexes, Iron Will, Power Attack, Weapon Focus (slam)
+Skills: Escape Artist +10, Fly +12, Handle Animal +7, Stealth +6
+Languages: Brethedan; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: adaptation, combine
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 66 (7d8+35)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +9
-
-**Amorph:** present
-
-**Regen:** 2 (acid)
-
-**Offense**
-
-**Speed:** 0 ft., fly 30 ft. (good)
-
-**Constrict:** 1d6+4
-
-**Engulf:** DC 17, 1d6 acid and [paralysis](ref/rule/paralysis)
-
-**Melee:** 2 slams +9 (1d6+4 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 11, Con 20, Int 12, Wis 14, Cha 11
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10 (+14 grapple)
-
-**Combat maneuver defense:** 20 (can't be tripped)
-
-**Feats:** Combat Reflexes, Iron Will, Power Attack, Weapon Focus (slam)
-
-**Skills:** Escape Artist +10, Fly +12, Handle Animal +7, Stealth +6
-
-**Languages:** Brethedan; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** adaptation, combine
-
-**Ecology**
-
-**Environment:** any sky
-
-**Organization:** solitary, pair, or flotilla (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any sky
+Organization: solitary, pair, or flotilla (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

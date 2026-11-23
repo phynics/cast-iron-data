@@ -28,71 +28,58 @@ abilities = ["28", "1", "18", "-", "1", "1"]
 
 _The color and texture of this massive, metallic ooze shift whenever it touches something._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsight: 60
+Initiative: -5
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 3,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 4
+Touch: 4
+Flat-footed: 4
+AC modifiers: -5 Dex, -1 size
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: -2
+Will: -2
+Defensive abilities: adaptive resistances
+Immune: [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Melee: slam +15 (3d6+13 plus adaptive form)
+Reach: 5
+Space: 10
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 28, Dex 1, Con 18, Int -, Wis 1, Cha 1
+Base attack bonus: +7
+Combat maneuver bonus: +17
+Combat maneuver defense: 22
+Skills: Climb +17
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 4
-
-**Touch:** 4
-
-**Flat-footed:** 4
-
-**AC modifiers:** -5 Dex, -1 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** -2
-
-**Will:** -2
-
-**Defensive abilities:** adaptive resistances
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Melee:** slam +15 (3d6+13 plus adaptive form)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 1, Con 18, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 22
-
-**Skills:** Climb +17
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or divergence (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, pair, or divergence (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

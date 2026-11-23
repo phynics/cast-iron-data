@@ -31,105 +31,74 @@ abilities = ["14", "27", "23", "10", "8", "17"]
 _This hoofed creature's large yellow eyes are set in a noseless face above a grinning, fang-filled
 mouth._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +12
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 24
+Touch: 19
+Flat-footed: 15
+AC modifiers: +8 Dex, +1 dodge, +5 natural
+Hit points: 123 (13d6+78)
+Fort: +10
+Ref: +16
+Will: +9
+Dr: 10/cold iron
+Immune: sleep effects
+Sr: 21
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Initiative:** +12
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+B Drain: 1d2 Constitution
+Melee: bite +17 (1d6+5), 2 claws +17 (1d4+5)
+Sneak: +2d6
+Spec Att: crushing leap, nightmare rider
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Constant: greater magic fang
+At will: deep slumber (DC 16), prestidigitation
+Per day: 3/day: nightmare (DC 18), putrefy food and drink\
+1/day: greater invisibility, self only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 14, Dex 27, Con 23, Int 10, Wis 8, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Agile Maneuvers, Dodge, Improved Initiative, Iron Will, Mobility, Spring Attack, Weapon Finesse
+Skills: Acrobatics +24, Climb +18, Escape Artist +24, Intimidate +16, Perception +15, Stealth +24
+Languages: Aklo, Common; [telepathy](ref/umr/telepathy) 30 ft.
+Special qualities: [change shape](ref/umr/change-shape) (cat, dog, pig, snake, or butterfly; [shapechange](ref/spell/shapechange))
+:::
 
-**Armor class:** 24
+### Ecology
 
-**Touch:** 19
-
-**Flat-footed:** 15
-
-**AC modifiers:** +8 Dex, +1 dodge, +5 natural
-
-**Hit points:** 123 (13d6+78)
-
-**Fort:** +10
-
-**Ref:** +16
-
-**Will:** +9
-
-**Dr:** 10/cold iron
-
-**Immune:** sleep effects
-
-**Sr:** 21
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** bite +17 (1d6+5), 2 claws +17 (1d4+5)
-
-**Sneak:** +2d6
-
-**Spec Att:** crushing leap, nightmare rider
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Constant:**
-
-- greater magic fang
-
-**At will:**
-
-- deep slumber (DC 16), prestidigitation
-
-**Per day:**
-
-- 3/day: nightmare (DC 18), putrefy food and drink
-- 1/day: greater invisibility, self only
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 27, Con 23, Int 10, Wis 8, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Agile Maneuvers, Dodge, Improved Initiative, Iron Will, Mobility, Spring Attack, Weapon
-Finesse
-
-**Skills:** Acrobatics +24, Climb +18, Escape Artist +24, Intimidate +16, Perception +15, Stealth
-+24
-
-**Languages:** Aklo, Common; [telepathy](ref/umr/telepathy) 30 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (cat, dog, pig, snake, or butterfly;
-[shapechange](ref/spell/shapechange))
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or visitation (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or visitation (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

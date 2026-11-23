@@ -31,84 +31,64 @@ abilities = ["32", "26", "-", "-", "11", "1"]
 
 _Resembling a metallic horned devil, this apparatus whirs with the sound of internal mechanisms._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Type: construct
+Initiative: +12
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision, See in darkness
+Subtype: Clockwork
+Experience points: 102,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +12
+::: statblock
+Armor class: 32
+Touch: 20
+Flat-footed: 22
+AC modifiers: +8 Dex, +2 dodge, +12 natural
+Hit points: 146 (23d10+20)
+Fort: +7
+Ref: +17
+Will: +7
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), fire
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Bleed: 2d8
+Melee: bite +34 (2d8+11/18-20/×3), 2 claws +34 (2d6+11 plus bleed), 2 wings +29 (1d8+5)
+Reach: 5
+Reach P: 10 ft. with wings
+Space: 5
+Spec Att: explosive rend, overdrive
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, See in darkness
+::: statblock
+Ability scores: Str 32, Dex 26, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +23
+Combat maneuver bonus: +34
+Combat maneuver defense: 54
+Feats: Improved Initiative, Lightning Reflexes
+Special qualities: difficult to create, swift reactions, winding
+:::
 
-**Subtype:** Clockwork
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 20
-
-**Flat-footed:** 22
-
-**AC modifiers:** +8 Dex, +2 dodge, +12 natural
-
-**Hit points:** 146 (23d10+20)
-
-**Fort:** +7
-
-**Ref:** +17
-
-**Will:** +7
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), fire
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 2d8
-
-**Melee:** bite +34 (2d8+11/18-20/×3), 2 claws +34 (2d6+11 plus bleed), 2 wings +29 (1d8+5)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with wings
-
-**Space:** 5
-
-**Spec Att:** explosive rend, overdrive
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 26, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 54
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Special qualities:** difficult to create, swift reactions, winding
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or blasphemy (2 clockwork fiends plus 4-8
-[clockwork angels](ref/monster/clockwork-clockwork-angel))
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or blasphemy (2 clockwork fiends plus 4-8 [clockwork angels](ref/monster/clockwork-clockwork-angel))
+Treasure: None
+:::
 
 ### Special Abilities
 

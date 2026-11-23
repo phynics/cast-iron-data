@@ -31,111 +31,77 @@ abilities = ["27", "17", "20", "14", "14", "15"]
 _This lion-headed humanoid has golden fur, sharp teeth, and long cat-like claws on its hands and
 feet._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: protective aura (20 ft.)
+Initiative: +7
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Agathion, Extraplanar, Good
+Experience points: 19,200
+:::
 
-**aura:** protective aura (20 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 27
+Touch: 14
+Flat-footed: 23
+AC modifiers: +3 Dex, +1 dodge, +13 natural
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +12
+Will: +6; +4 vs. poison, +4 resistance vs. evil
+Dr: 10/evil and silver
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 60 ft.
+Melee: bite +23 (1d8+8 plus [grab](ref/umr/grab)), 2 claws +23 (1d6+8)
+Pounce: present
+Rake: 2 claws +23, 1d6+8
+Spec Att: roar
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +16
+Constant: speak with animals
+At will: detect thoughts, fireball (DC 15), hold monster (DC 7)
+Per day: 3/day: cure critical wounds, neutralize poison, remove disease, wall of force\
+1/day: heal
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 27, Dex 17, Con 20, Int 14, Wis 14, Cha 15
+Base attack bonus: +14
+Combat maneuver bonus: +22 (+26 grapple)
+Combat maneuver defense: 36
+Feats: Ability Focus (roar), Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Focus (bite, claw)
+Skills: Acrobatics +24 (+36 jump), Handle Animal +19, Sense Motive +19, Spellcraft +16, Stealth +24
+Racial Modifiers: +4 Acrobatics, +4 Stealth
+Languages: Celestial, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: [lay on hands](ref/ability/lay-on-hands) (7d6, 9/day, as a 14th-level paladin)
+:::
 
-**Subtype:** Agathion, Extraplanar, Good
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 14
-
-**Flat-footed:** 23
-
-**AC modifiers:** +3 Dex, +1 dodge, +13 natural
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +6; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 10/evil and silver
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** bite +23 (1d8+8 plus [grab](ref/umr/grab)), 2 claws +23 (1d6+8)
-
-**Pounce:** present
-
-**Rake:** 2 claws +23, 1d6+8
-
-**Spec Att:** roar
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +16
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- detect thoughts, fireball (DC 15), hold monster (DC 7)
-
-**Per day:**
-
-- 3/day: cure critical wounds, neutralize poison, remove disease, wall of force
-- 1/day: heal
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 17, Con 20, Int 14, Wis 14, Cha 15
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22 (+26 grapple)
-
-**Combat maneuver defense:** 36
-
-**Feats:** Ability Focus (roar), Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Focus
-(bite, claw)
-
-**Skills:** Acrobatics +24 (+36 jump), Handle Animal +19, Sense Motive +19, Spellcraft +16, Stealth
-+24
-
-**Racial Modifiers:** +4 Acrobatics, +4 Stealth
-
-**Languages:** Celestial, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** [lay on hands](ref/ability/lay-on-hands) (7d6, 9/day, as a 14th-level
-paladin)
-
-**Ecology**
-
-**Environment:** any land ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or pride (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or pride (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

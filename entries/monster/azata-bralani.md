@@ -32,95 +32,71 @@ abilities = ["20", "18", "19", "13", "14", "15"]
 _Silver-white hair the color of a lightning strike whips about this poised elf-like archer, his eyes
 swirling with vibrant colors._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic good
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Azata, Chaotic, Extraplanar, Good, Shapechanger
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +4 Dex, +6 natural
+Hit points: 66 (7d10+28)
+Fort: +9
+Ref: +9
+Will: +6
+Dr: 10/cold iron or evil
+Immune: electricity, petrification
+Resist: cold 10, fire 10
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 100 ft. (perfect)
+Melee: +1 scimitar +13/+8 (1d6+8/18-20) or slam +12 (1d6+7)
+Ranged: +1 composite longbow +12/+7 (1d8+6/×3)
+Spec Att: whirlwind blast
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+At will: blur, charm person (DC 13), gust of wind (DC 14), mirror image, wind wall
+Per day: 2/day: lightning bolt (DC 15), cure serious wounds
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger
+::: statblock
+Ability scores: Str 20, Dex 18, Con 19, Int 13, Wis 14, Cha 15
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 26
+Feats: Blind-Fight, Improved Initiative, Iron Will, Skill Focus (Perception)
+Skills: Bluff +12, Fly +22, Sense Motive +12, Stealth +14
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: wind form
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +6 natural
-
-**Hit points:** 66 (7d10+28)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +6
-
-**Dr:** 10/cold iron or evil
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 40 ft., fly 100 ft. (perfect)
-
-**Melee:** +1 scimitar +13/+8 (1d6+8/18-20) or slam +12 (1d6+7)
-
-**Ranged:** +1 composite longbow +12/+7 (1d8+6/×3)
-
-**Spec Att:** whirlwind blast
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**At will:**
-
-- blur, charm person (DC 13), gust of wind (DC 14), mirror image, wind wall
-
-**Per day:**
-
-- 2/day: lightning bolt (DC 15), cure serious wounds
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 18, Con 19, Int 13, Wis 14, Cha 15
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 26
-
-**Feats:** Blind-Fight, Improved Initiative, Iron Will, Skill Focus (Perception)
-
-**Skills:** Bluff +12, Fly +22, Sense Motive +12, Stealth +14
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** wind form
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** Double (+1 scimitar, +1 cl+5)
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or squad (3-6)
+Treasure: Double (+1 scimitar, +1 cl+5)
+:::
 
 ### Special Abilities
 

@@ -31,104 +31,73 @@ abilities = ["20", "15", "18", "16", "15", "21"]
 _This darkly handsome humanoid's bat-like wings, curving horns, and bestial legs betray his demonic
 origin._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 76 (8d10+32)
+Fort: +10
+Ref: +6
+Will: +8
+Dr: 10/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: mwk scimitar +14/+9 (1d6+7/18-20) or 2 slams +13 (1d4+5)
+Spec Att: pain redoubled
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +13
+Constant: tongues
+At will: charm person (DC 16), detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, suggestion (DC 18)
+Per day: 1/day: crushing despair (DC 19), summon (level 3, 2 schirs 40%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 20, Dex 15, Con 18, Int 16, Wis 15, Cha 21
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 25
+Feats: Flyby Attack, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Acrobatics +6, Bluff +16, Diplomacy +16, Sense Motive +13, Spellcraft +11, Stealth +11
+Racial Modifiers: +8 Intimidate, +8 Perception
+Languages: Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +8
-
-**Dr:** 10/cold iron or good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** mwk scimitar +14/+9 (1d6+7/18-20) or 2 slams +13 (1d4+5)
-
-**Spec Att:** pain redoubled
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +13
-
-**Constant:**
-
-- tongues
-
-**At will:**
-
-- charm person (DC 16), detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects
-  only, suggestion (DC 18)
-
-**Per day:**
-
-- 1/day: crushing despair (DC 19), summon (level 3, 2 schirs 40%)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 18, Int 16, Wis 15, Cha 21
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 25
-
-**Feats:** Flyby Attack, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +6, Bluff +16, Diplomacy +16, Sense Motive +13, Spellcraft +11, Stealth +11
-
-**Racial Modifiers:** +8 Intimidate, +8 Perception
-
-**Languages:** Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.,
-_[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or wing (2-8)
-
-**Treasure:** Standard (mwk scimitar); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or wing (2-8)
+Treasure: Standard (mwk scimitar); other treasure
+:::
 
 ### Special Abilities
 

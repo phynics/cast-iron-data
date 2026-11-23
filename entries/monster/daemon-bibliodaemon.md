@@ -30,99 +30,72 @@ abilities = ["16", "17", "16", "14", "15", "15"]
 _Flowing black robes hang all around this four-armed, weasel-faced humanoid. Feathers that resemble
 quills emerge from each knuckle of its clawed upper hands._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +3
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Detect thoughts
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 4,800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 18
+AC modifiers: +3 Dex, +1 dodge, +8 natural
+Hit points: 85 (10d10+30)
+Fort: +6
+Ref: +10
+Will: +9
+Dr: 10/good or silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 19
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +1 light mace +15/+10 (1d6+4/19-20), 2 claws +8 (1d6+1)
+Spec Att: final verdict
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+Constant: detect thoughts (DC 13)
+At will: erase, identify, secret page
+Per day: 3/day: acid arrow, dispel magic, greater teleport, slow (DC 14)\
+1/day: corrosive consumption, lesser geas (DC 16), misdirection, modify memory (DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., Detect thoughts
+### Statistics
 
-**Subtype:** Daemon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 16, Dex 17, Con 16, Int 14, Wis 15, Cha 15
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 27
+Feats: Dodge, Improved Critical (light mace), Mobility, Vital Strike, Weapon Focus (light mace)
+Skills: Bluff +15, Intimidate +12, Knowledge (nobility) +15, Linguistics +15, Perception +15, Profession (barrister) +15, Sense Motive +15, Spellcraft +15
+Languages: Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +1 dodge, +8 natural
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +9
-
-**Dr:** 10/good or silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 light mace +15/+10 (1d6+4/19-20), 2 claws +8 (1d6+1)
-
-**Spec Att:** final verdict
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect thoughts (DC 13)
-
-**At will:**
-
-- erase, identify, secret page
-
-**Per day:**
-
-- 3/day: acid arrow, dispel magic, greater teleport, slow (DC 14)
-- 1/day: corrosive consumption, lesser geas (DC 16), misdirection, modify memory (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 17, Con 16, Int 14, Wis 15, Cha 15
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 27
-
-**Feats:** Dodge, Improved Critical (light mace), Mobility, Vital Strike, Weapon Focus (light mace)
-
-**Skills:** Bluff +15, Intimidate +12, Knowledge (nobility) +15, Linguistics +15, Perception +15,
-Profession (barrister) +15, Sense Motive +15, Spellcraft +15
-
-**Languages:** Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, partners, or firm (3-8)
-
-**Treasure:** Standard (+1 light mace); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, partners, or firm (3-8)
+Treasure: Standard (+1 light mace); other treasure
+:::
 
 ### Special Abilities
 

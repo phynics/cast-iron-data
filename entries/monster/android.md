@@ -34,83 +34,64 @@ abilities = ["13", "17", "14", "14", "10", "6"]
 _This slender woman possesses a strange, calculated grace. Her pale flesh is adorned with complex
 blue tattoos._
 
-**Challenge rating:** 1
-
 **Android [rogue](ref/class/rogue) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1
+Type: humanoid
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Android
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 armor, +3 Dex
+Hit points: 11 (1d8+3)
+Fort: +2
+Ref: +5
+Will: +0; +4 vs. mind-affecting, paralysis, poison, and stun
+Defensive abilities: constructed
+Immune: disease, emotion, exhaustion, fatigue, fear, sleep
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: rapier +3 (1d6+1/18-20)
+Sneak: +1d6
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Android
+::: statblock
+Ability scores: Str 13, Dex 17, Con 14, Int 14, Wis 10, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Weapon Finesse
+Skills: Acrobatics +7, Climb +5, Disable Device +7, Escape Artist +7, Knowledge (engineering) +3, Perception +6, Sense Motive +0, Sleight of Hand +7, Stealth +7
+Racial Modifiers: +2 Perception, -4 Sense Motive
+Languages: Common, Dwarven, Elven
+Special qualities: emotionless, exceptional senses, nanite surge, [trapfinding](ref/ability/trapfinding) +1
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 armor, +3 Dex
-
-**Hit points:** 11 (1d8+3)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +0; +4 vs. mind-affecting, paralysis, poison, and stun
-
-**Defensive abilities:** constructed
-
-**Immune:** disease, emotion, exhaustion, fatigue, fear, sleep
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** rapier +3 (1d6+1/18-20)
-
-**Sneak:** +1d6
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 14, Int 14, Wis 10, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +7, Climb +5, Disable Device +7, Escape Artist +7, Knowledge (engineering)
-+3, Perception +6, Sense Motive +0, Sleight of Hand +7, Stealth +7
-
-**Racial Modifiers:** +2 Perception, -4 Sense Motive
-
-**Languages:** Common, Dwarven, Elven
-
-**Special qualities:** emotionless, exceptional senses, nanite surge,
-[trapfinding](ref/ability/trapfinding) +1
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or platoon (3-12)
-
-**Treasure:** NPC gear (leather armor, rapier); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or platoon (3-12)
+Treasure: NPC gear (leather armor, rapier); other treasure
+:::
 
 ### Special Abilities
 

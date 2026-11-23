@@ -31,102 +31,72 @@ abilities = ["11", "14", "13", "10", "15", "14"]
 _This otherworldly dancer moves with incredible grace. A second pair of ghostly arms complement the
 motions of her physical arms._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Angel, Extraplanar, Good
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 natural
+Hit points: 32 (5d10+5)
+Fort: +2
+Ref: +6
+Will: +8; +4 vs. poison
+Dr: 5/evil
+Immune: petrification
+Resist: acid 5, cold 5, electricity 5, fire 5
+Sr: 15
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 30 ft. (average)
+Melee: 4 slam +7 (1d4)
+Spec Att: bardic performance 16 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [inspire competence](ref/performance/inspire-competence) +2, [inspire courage](ref/performance/inspire-courage) +2), ghostly arms
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+At will: summon instrument
+Per day: 3/day: calm emotions, lesser confusion (DC 13), remove fear, saving finale\
+1/day: eagle's splendor, gallant inspiration, ghostbane dirge (DC 14), invisibility, self only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Angel, Extraplanar, Good
+::: statblock
+Ability scores: Str 11, Dex 14, Con 13, Int 10, Wis 15, Cha 14
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 17
+Feats: Improved Initiative, Iron Will, Weapon Finesse
+Skills: Acrobatics +7, Knowledge (history) +8, Perception +10, Perform (any one) +10, Sense Motive +10
+Languages: Celestial, Draconic, Infernal, _speak with animals, truespeech_
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid or a cloud of perfume; [alter self](ref/spell/alter-self) or [gaseous form](ref/spell/gaseous-form)), versatile performance, weapon proficiencies
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 natural
-
-**Hit points:** 32 (5d10+5)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +8; +4 vs. poison
-
-**Dr:** 5/evil
-
-**Immune:** petrification
-
-**Resist:** acid 5, cold 5, electricity 5, fire 5
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (average)
-
-**Melee:** 4 slam +7 (1d4)
-
-**Spec Att:** bardic performance 16 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate),
-[inspire competence](ref/performance/inspire-competence) +2,
-[inspire courage](ref/performance/inspire-courage) +2), ghostly arms
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**At will:**
-
-- summon instrument
-
-**Per day:**
-
-- 3/day: calm emotions, lesser confusion (DC 13), remove fear, saving finale
-- 1/day: eagle's splendor, gallant inspiration, ghostbane dirge (DC 14), invisibility, self only
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 14, Con 13, Int 10, Wis 15, Cha 14
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Iron Will, Weapon Finesse
-
-**Skills:** Acrobatics +7, Knowledge (history) +8, Perception +10, Perform (any one) +10, Sense
-Motive +10
-
-**Languages:** Celestial, Draconic, Infernal, _speak with animals, truespeech_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid or a cloud of perfume;
-[alter self](ref/spell/alter-self) or [gaseous form](ref/spell/gaseous-form)), versatile
-performance, weapon proficiencies
-
-**Ecology**
-
-**Environment:** any ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or band (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or band (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

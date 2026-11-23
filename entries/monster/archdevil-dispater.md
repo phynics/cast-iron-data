@@ -31,127 +31,84 @@ abilities = ["34", "29", "38", "33", "30", "33"]
 _This diabolic figure is draped in a kingly robe and crowned with iron horns. He bears a long, heavy
 mace of black metal._
 
-**Challenge rating:** 27
+::: statblock
+Challenge rating: 27
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 37), shield of law (DC 29)
+Initiative: +13
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +46
+Senses: Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
+Subtype: Devil, Evil, Extraplanar, Lawful, Shapechanger
+Experience points: 3,276,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 37), shield of law (DC 29)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 45
+Touch: 35
+Flat-footed: 35
+AC modifiers: +4 deflection, +9 Dex, +1 dodge, +10 natural, +12 profane, -1 size
+Hit points: 643 (33d10+462)
+Fort: +29
+Ref: +31
+Will: +34; +8 vs. mind-affecting effects
+Defensive abilities: infernal resurrection, _[mind blank](ref/spell/mind-blank)_
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, charm, compulsion, death effects, energy drain, fire, petrification, poison
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30
+Sr: 38
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 50 ft., fly 60 ft. (good)
+Melee: The Eclipsing Eye +49/+44/+39/+34 (2d6+22/19-20/×3), gore +39 (2d6+6)
+Reach: 10
+Sneak: +6d6
+Space: 10
+Spec Att: caustic wit, mortal gaze
+:::
 
-**Type:** outsider
-
-**Perception:** +46
-
-**Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
-
-**Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
-
-**Experience points:** 3,276,800
-
-**Armor class:** 45
-
-**Touch:** 35
-
-**Flat-footed:** 35
-
-**AC modifiers:** +4 deflection, +9 Dex, +1 dodge, +10 natural, +12 profane, -1 size
-
-**Hit points:** 643 (33d10+462)
-
-**Fort:** +29
-
-**Ref:** +31
-
-**Will:** +34; +8 vs. mind-affecting effects
-
-**Defensive abilities:** infernal resurrection, _[mind blank](ref/spell/mind-blank)_
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, charm, compulsion, death effects, energy drain, fire,
-petrification, poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 38
-
-**Offense**
-
-**Speed:** 50 ft., fly 60 ft. (good)
-
-**Melee:** The Eclipsing Eye +49/+44/+39/+34 (2d6+22/19-20/×3), gore +39 (2d6+6)
-
-**Reach:** 10
-
-**Sneak:** +6d6
-
-**Space:** 10
-
-**Spec Att:** caustic wit, mortal gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 27
-
-**Concentration:** +38
-
-**Constant:**
-
-- detect chaos, detect good, fly, mind blank, shield of law (DC 29), true seeing
-
-**At will:**
-
-- astral projection, charm monster (DC 27), desecrate^M^, dictum^M^ (DC 28), dominate person (DC
-  28), greater dispel magic, greater teleport, iron body, order's wrath^M^ (DC 25), unhallow, wall
-  of iron
-
-**Per day:**
-
-- 3/day: quickened blade barrier^M^ (DC 27), forcecage (DC 28), geas/quest, summon devils, symbol of
-  pain (DC 27)
-- 1/day: imprisonment (DC 30), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 27
+Concentration: +38
+Constant: detect chaos, detect good, fly, mind blank, shield of law (DC 29), true seeing
+At will: astral projection, charm monster (DC 27), desecrate^M^, dictum^M^ (DC 28), dominate person (DC 28), greater dispel magic, greater teleport, iron body, order's wrath^M^ (DC 25), unhallow, wall of iron
+Per day: 3/day: quickened blade barrier^M^ (DC 27), forcecage (DC 28), geas/quest, summon devils, symbol of pain (DC 27)\
+1/day: imprisonment (DC 30), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Dispater can use this ability's mythic version in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 34, Dex 29, Con 38, Int 33, Wis 30, Cha 33
+::: statblock
+Ability scores: Str 34, Dex 29, Con 38, Int 33, Wis 30, Cha 33
+Base attack bonus: +33
+Combat maneuver bonus: +46
+Combat maneuver defense: 82
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Dazzling Display, Dodge, Greater Feint, Improved Critical (heavy mace), Improved Feint, Improved Initiative, Improved Iron Will, Iron Will, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (blade barrier), Shatter Defenses, Staggering Critical, Weapon Focus (heavy mace)
+Skills: Acrobatics +42, Bluff +47, Diplomacy +47, Sense Motive +46, Spellcraft +44, Stealth +41, Use Magic Device +44
+Languages: all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self)), lord of iron, voice of command
+Faith: Dispater
+:::
 
-**Base attack bonus:** +33
+### Ecology
 
-**Combat maneuver bonus:** +46
-
-**Combat maneuver defense:** 82
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Dazzling Display, Dodge, Greater
-Feint, Improved Critical (heavy mace), Improved Feint, Improved Initiative, Improved Iron Will, Iron
-Will, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (blade
-barrier), Shatter Defenses, Staggering Critical, Weapon Focus (heavy mace)
-
-**Skills:** Acrobatics +42, Bluff +47, Diplomacy +47, Sense Motive +46, Spellcraft +44, Stealth +41,
-Use Magic Device +44
-
-**Languages:** all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self)), lord of iron, voice of command
-
-**Faith:** Dispater
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (The Eclipsing Eye); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary (unique)
+Treasure: Triple (The Eclipsing Eye); other treasure
+:::
 
 ### Special Abilities
 

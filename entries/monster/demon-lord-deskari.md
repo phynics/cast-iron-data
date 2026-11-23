@@ -31,125 +31,80 @@ abilities = ["44", "30", "42", "29", "31", "31"]
 _Larger than an elephant, this towering insectile nightmare wields a scythe made of bone. Its wings
 are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence._
 
-**Challenge rating:** 29
+::: statblock
+Challenge rating: 29
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 36), unholy aura (DC 28)
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +14
+Type: outsider
+Perception: +54
+Senses: Darkvision 60 ft., Detect good, Detect law, Swarmsight, True seeing
+Subtype: Chaotic, Demon, Earth, Evil, Extraplanar
+Experience points: 6,553,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 36), unholy aura (DC 28)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 47
+Touch: 32
+Flat-footed: 37
+AC modifiers: +4 deflection, +10 Dex, +15 natural, +12 profane, -4 size
+Hit points: 742 (33d10+561)
+Fort: +31
+Ref: +32
+Will: +32
+Defensive abilities: Abyssal resurrection, all-around vision, _[freedom of movement](ref/spell/freedom-of-movement)_, rasping armor
+Dr: 20/cold iron, epic, and good
+Immune: ability damage and drain, charm and compulsion effects, death effects, electricity, energy drain, petrification, poison
+Regen: 30 (epic and good or deific)
+Resist: acid 30, cold 30, fire 30
+Sr: 40
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +14
+::: statblock
+Speed: 60 ft., climb 60 ft., fly 90 ft. (good)
+Melee: Riftcarver +51/+46/+41/+36 (4d6+30/19-20/×4 plus poison), bite +41 (2d8+8 plus poison), sting +41 (2d6+8 plus poison)
+Reach: 20
+Space: 20
+Spec Att: breath weapon, enhanced venom, infestation, poison, swarm master
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 29
+Concentration: +39
+Constant: detect good, detect law, freedom of movement, true seeing, unholy aura (DC 28)
+At will: astral projection, blasphemy (DC 27), control winds, desecrate, greater dispel magic, greater teleport, hungry pit (DC 25), insect plague, shapechange, telekinesis (DC 25), unhallow, unholy blight (DC 24)
+Per day: 3/day: control weather, creeping doom, reverse gravity, summon demons, symbol of weakness (DC 27)\
+1/day: imprisonment (DC 29), earthquake, time stop
+:::
 
-**Perception:** +54
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect law, Swarmsight, True seeing
+::: statblock
+Ability scores: Str 44, Dex 30, Con 42, Int 29, Wis 31, Cha 31
+Base attack bonus: +33
+Combat maneuver bonus: +54 (+56 bull rush, +58 sunder)
+Combat maneuver defense: 92 (94 vs. bull rush, 94 vs. sunder, 100 vs. trip)
+Feats: Awesome Blow, Combat Expertise, Combat Reflexes, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Flyby Attack, Greater Sunder, Hover, Improved Bull Rush, Improved Critical (scythe), Improved Initiative, Improved Sunder, Power Attack, Staggering Critical, Toughness
+Skills: Acrobatics +46 (+58 when jumping), Bluff +46, Climb +74, Intimidate +43, Knowledge (arcana, dungeoneering, engineering, planes) +42, Perception +54, Sense Motive +46, Spellcraft +45, Stealth +34, Use Magic Device +46
+Racial Modifiers: +16 Climb, +8 Perception
+Languages: Abyssal, Celestial, Common, Draconic, Terran, Undercommon; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: wall crawler
+Faith: Deskari
+:::
 
-**Subtype:** Chaotic, Demon, Earth, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 6,553,600
-
-**Armor class:** 47
-
-**Touch:** 32
-
-**Flat-footed:** 37
-
-**AC modifiers:** +4 deflection, +10 Dex, +15 natural, +12 profane, -4 size
-
-**Hit points:** 742 (33d10+561)
-
-**Fort:** +31
-
-**Ref:** +32
-
-**Will:** +32
-
-**Defensive abilities:** Abyssal resurrection, all-around vision,
-_[freedom of movement](ref/spell/freedom-of-movement)_, rasping armor
-
-**Dr:** 20/cold iron, epic, and good
-
-**Immune:** ability damage and drain, charm and compulsion effects, death effects, electricity,
-energy drain, petrification, poison
-
-**Regen:** 30 (epic and good or deific)
-
-**Resist:** acid 30, cold 30, fire 30
-
-**Sr:** 40
-
-**Offense**
-
-**Speed:** 60 ft., climb 60 ft., fly 90 ft. (good)
-
-**Melee:** Riftcarver +51/+46/+41/+36 (4d6+30/19-20/×4 plus poison), bite +41 (2d8+8 plus poison),
-sting +41 (2d6+8 plus poison)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** breath weapon, enhanced venom, infestation, poison, swarm master
-
-**Spell-Like Abilities**
-
-**Caster level:** 29
-
-**Concentration:** +39
-
-**Constant:**
-
-- detect good, detect law, freedom of movement, true seeing, unholy aura (DC 28)
-
-**At will:**
-
-- astral projection, blasphemy (DC 27), control winds, desecrate, greater dispel magic, greater
-  teleport, hungry pit (DC 25), insect plague, shapechange, telekinesis (DC 25), unhallow, unholy
-  blight (DC 24)
-
-**Per day:**
-
-- 3/day: control weather, creeping doom, reverse gravity, summon demons, symbol of weakness (DC 27)
-- 1/day: imprisonment (DC 29), earthquake, time stop
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 30, Con 42, Int 29, Wis 31, Cha 31
-
-**Base attack bonus:** +33
-
-**Combat maneuver bonus:** +54 (+56 bull rush, +58 sunder)
-
-**Combat maneuver defense:** 92 (94 vs. bull rush, 94 vs. sunder, 100 vs. trip)
-
-**Feats:** Awesome Blow, Combat Expertise, Combat Reflexes, Craft Construct, Craft Magic Arms and
-Armor, Craft Wondrous Item, Critical Focus, Flyby Attack, Greater Sunder, Hover, Improved Bull Rush,
-Improved Critical (scythe), Improved Initiative, Improved Sunder, Power Attack, Staggering Critical,
-Toughness
-
-**Skills:** Acrobatics +46 (+58 when jumping), Bluff +46, Climb +74, Intimidate +43, Knowledge
-(arcana, dungeoneering, engineering, planes) +42, Perception +54, Sense Motive +46, Spellcraft +45,
-Stealth +34, Use Magic Device +46
-
-**Racial Modifiers:** +16 Climb, +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Terran, Undercommon;
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** wall crawler
-
-**Faith:** Deskari
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (Riftcarver); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple (Riftcarver); other treasure
+:::
 
 ### Special Abilities
 

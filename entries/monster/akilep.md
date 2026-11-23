@@ -28,102 +28,67 @@ abilities = ["34", "8", "22", "27", "21", "21"]
 
 _This beautiful female sphinx appears both wise and thoughtful._
 
-**Challenge rating:** 13
-
 **Female unique gynosphinx**
 
-**Size:** gargantuan
+::: statblock
+Challenge rating: 13
+Size: gargantuan
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral
+Perception: +30
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 25,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 28
+Touch: 5
+Flat-footed: 28
+AC modifiers: -1 Dex, +23 natural, -4 size
+Hit points: 207 (18d10+108)
+Fort: +17
+Ref: +10
+Will: +13
+Dr: 10/magic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +30
+::: statblock
+Speed: 40 ft., fly 60 ft. (poor)
+Melee: 2 claws +26 (4d6+12/19-20 plus [grab](ref/umr/grab))
+Pounce: present
+Rake: 4d6+12
+Reach: 20
+Space: 20
+Trample: 4d6+18, DC 31
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +23
+Constant: comprehend languages, detect magic, read magic, see invisibility
+At will: clairaudience/clairvoyance, statue
+Per day: 1/day: commune, contact other plane, dispel magic, legend lore, locate object, remove curse
+Per week: \^any three of the following:, symbol of fear (DC 21), symbol of pain (DC 20), symbol of persuasion (DC 21), symbol of sleep (DC 20), symbol of stunning (DC 22), $; all symbols last for 1 week maximum
+:::
 
-**Experience points:** 25,600
+### Statistics
 
-**Armor class:** 28
-
-**Touch:** 5
-
-**Flat-footed:** 28
-
-**AC modifiers:** -1 Dex, +23 natural, -4 size
-
-**Hit points:** 207 (18d10+108)
-
-**Fort:** +17
-
-**Ref:** +10
-
-**Will:** +13
-
-**Dr:** 10/magic
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (poor)
-
-**Melee:** 2 claws +26 (4d6+12/19-20 plus [grab](ref/umr/grab))
-
-**Pounce:** present
-
-**Rake:** 4d6+12
-
-**Reach:** 20
-
-**Space:** 20
-
-**Trample:** 4d6+18, DC 31
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +23
-
-**Constant:**
-
-- comprehend languages, detect magic, read magic, see invisibility
-
-**At will:**
-
-- clairaudience/clairvoyance, statue
-
-**Per day:**
-
-- 1/day: commune, contact other plane, dispel magic, legend lore, locate object, remove curse
-
-**Per week:**
-
-- \^any three of the following:, symbol of fear (DC 21), symbol of pain (DC 20), symbol of
-  persuasion (DC 21), symbol of sleep (DC 20), symbol of stunning (DC 22), $; all symbols last for 1
-  week maximum
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 8, Con 22, Int 27, Wis 21, Cha 21
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +34 (+38 grapple)
-
-**Combat maneuver defense:** 43 (47 vs. trip)
-
-**Feats:** Alertness, Cleave, Combat Casting, Flyby Attack, Hover, Improved Critical (claw),
-Improved Initiative, Iron Will, Power Attack
-
-**Skills:** Diplomacy +23, Sense Motive +16, Spellcraft +26, Use Magic Device +14
-
-**Languages:** Aklo, Ancient Osiriani, Celestial, Common, Cyclops, Draconic, Elven, Infernal,
-Osiriani, Kelish, Polyglot, Sphinx
-
-**Gear:** I-chime of opening/7 uses left, I-goggles of minute seeing, I-marvelous pigments, 2,000 gp
-in assorted gems.
+::: statblock
+Ability scores: Str 34, Dex 8, Con 22, Int 27, Wis 21, Cha 21
+Base attack bonus: +18
+Combat maneuver bonus: +34 (+38 grapple)
+Combat maneuver defense: 43 (47 vs. trip)
+Feats: Alertness, Cleave, Combat Casting, Flyby Attack, Hover, Improved Critical (claw), Improved Initiative, Iron Will, Power Attack
+Skills: Diplomacy +23, Sense Motive +16, Spellcraft +26, Use Magic Device +14
+Languages: Aklo, Ancient Osiriani, Celestial, Common, Cyclops, Draconic, Elven, Infernal, Osiriani, Kelish, Polyglot, Sphinx
+Gear: I-chime of opening/7 uses left, I-goggles of minute seeing, I-marvelous pigments, 2,000 gp in assorted gems.
+:::
 
 ### Description
 

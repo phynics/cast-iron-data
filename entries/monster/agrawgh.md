@@ -30,79 +30,62 @@ abilities = ["18", "11", "16", "6", "9", "7"]
 _This bronze-ringed serpent has silvery skin and razor-sharp teeth that barely conceal the acid
 bubbling at the back of its mouth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +0
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Earth, Extraplanar
+tremorsense: 100
+Experience points: 1,600
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 9
+Flat-footed: 18
+AC modifiers: +9 natural, -1 size
+Hit points: 59 (7d10+21)
+Fort: +8
+Ref: +5
+Will: +1
+Immune: acid
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 60 ft.
+Br Weap: 30-ft. line, 6d4 acid damage, Reflex DC 16 half, usable every 1d4 rounds
+Melee: bite +11 (2d6+6 plus 2d6 acid)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 11, Con 16, Int 6, Wis 9, Cha 7
+Base attack bonus: +7
+Combat maneuver bonus: +12 (+14 [bull rush](ref/rule/bull-rush))
+Combat maneuver defense: 22 (24 vs. bull rush, can't be tripped)
+Feats: Improved Bull Rush, Lunge, Power Attack, Weapon Focus (bite)
+Skills: Intimidate +8, Perception +9
+Languages: Common, Terran
+:::
 
-**Subtype:** Earth, Extraplanar
+### Ecology
 
-**tremorsense:** 100
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +9 natural, -1 size
-
-**Hit points:** 59 (7d10+21)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +1
-
-**Immune:** acid
-
-**Offense**
-
-**Speed:** 20 ft., burrow 60 ft.
-
-**Br Weap:** 30-ft. line, 6d4 acid damage, Reflex DC 16 half, usable every 1d4 rounds
-
-**Melee:** bite +11 (2d6+6 plus 2d6 acid)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 11, Con 16, Int 6, Wis 9, Cha 7
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12 (+14 [bull rush](ref/rule/bull-rush))
-
-**Combat maneuver defense:** 22 (24 vs. bull rush, can't be tripped)
-
-**Feats:** Improved Bull Rush, Lunge, Power Attack, Weapon Focus (bite)
-
-**Skills:** Intimidate +8, Perception +9
-
-**Languages:** Common, Terran
-
-**Ecology**
-
-**Environment:** any underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary, pair, or crew (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary, pair, or crew (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,87 +30,68 @@ abilities = ["6", "15", "10", "7", "12", "13"]
 _This flying head has incredibly large ears that constantly flap to keep the creature aloft. It
 babbles to itself as it flies, as if to remind itself of secrets only it knows._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: aberration
+aura: jabber (15 ft., DC 11)
+Alignment: Chaotic neutral
+Initiative: +2
+Perception: +6
+Senses: Darkvision 60 ft.
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** jabber (15 ft., DC 11)
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 9 (2d8)
+Fort: +0
+Ref: +4
+Will: +4
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Melee: bite +1 (1d3-2)
+Ranged: acid spit +5 (1d4 acid)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Perception:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+Constant: detect magic
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 6, Dex 15, Con 10, Int 7, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 9
+Feats: Lightning Reflexes
+Skills: Fly +15, Perception +6 (+10 to listen)
+Racial Modifiers: +4 Perception to listen
+Languages: Common
+:::
 
-**Experience points:** 200
+### Ecology {#stat-ecology}
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Melee:** bite +1 (1d3-2)
-
-**Ranged:** acid spit +5 (1d4 acid)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**Constant:**
-
-- detect magic
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 10, Int 7, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 9
-
-**Feats:** Lightning Reflexes
-
-**Skills:** Fly +15, Perception +6 (+10 to listen)
-
-**Racial Modifiers:** +4 Perception to listen
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** temperate or tropical forests or ruins
-
-**Organization:** solitary, pair, flight (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or tropical forests or ruins
+Organization: solitary, pair, flight (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

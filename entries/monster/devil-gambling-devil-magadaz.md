@@ -33,97 +33,71 @@ abilities = ["16", "13", "17", "14", "10", "19"]
 _This creature resembles a man crafted entirely of gold. Some of its features seem warped, as if the
 creature had been melted and then reformed._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: risk (30 ft., DC 16)
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 1,200
+:::
 
-**aura:** risk (30 ft., DC 16)
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 16
+AC modifiers: +1 Dex, +1 luck, +5 natural
+Hit points: 42 (5d10+15)
+Fort: +4
+Ref: +5
+Will: +6
+Immune: fire, poison
+Resist: acid 10, cold 10
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: slam +8 (2d6+4)
+Ranged: thrown coin +6 (1d4+3)
+Spec Att: double down, produce coins
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +12
+Constant: detect chaos
+At will: greater teleport, self plus 50 lbs. of objects only
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+Ability scores: Str 16, Dex 13, Con 17, Int 14, Wis 10, Cha 19
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 19
+Feats: Alertness, Deft Hands, Iron Will
+Skills: Appraise +10, Bluff +12, Diplomacy +9, Profession (gambler) +8, Sense Motive +10, Sleight of Hand +11
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any Small or Medium humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +1 luck, +5 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +6
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +8 (2d6+4)
-
-**Ranged:** thrown coin +6 (1d4+3)
-
-**Spec Att:** double down, produce coins
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect chaos
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 17, Int 14, Wis 10, Cha 19
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 19
-
-**Feats:** Alertness, Deft Hands, Iron Will
-
-**Skills:** Appraise +10, Bluff +12, Diplomacy +9, Profession (gambler) +8, Sense Motive +10,
-Sleight of Hand +11
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any Small or Medium humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or table (3-9)
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or table (3-9)
+Treasure: Double
+:::
 
 ### Special Abilities
 

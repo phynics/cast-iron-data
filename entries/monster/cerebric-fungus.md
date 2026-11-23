@@ -30,107 +30,76 @@ abilities = ["14", "11", "16", "15", "20", "15"]
 _A swollen, brain-like bulb encrusted with fungal shelves squats atop several ropy legs. A wide
 mouth bisects the bulb's crown._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: unsettling appearance (60 ft., DC 14)
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Experience points: 800
+:::
 
-**aura:** unsettling appearance (60 ft., DC 14)
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +5 natural
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +1
+Will: +6
+Defensive abilities: otherworldly mind
+Fh: 2
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: cold 5
+Vulner: sonic
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +5 (1d6+2), 2 tendrils +3 (1d4+1 plus pull)
+Pull: tendril, 5 ft.
+Reach: 5
+Reach P: 15 ft. with tendrils
+Space: 5
+Spec Att: star-shriek
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+Constant: detect thoughts (DC 14)
+At will: touch of madness (DC 14)
+Per day: 3/day: calm emotions (DC 14), touch of idiocy (DC 14)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 14, Dex 11, Con 16, Int 15, Wis 20, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 15 (21 vs. trip)
+Feats: Improved Initiative, Multiattack
+Skills: Bluff +6, Diplomacy +6, Stealth +7
+Languages: telepathy 100 ft.
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +1
-
-**Will:** +6
-
-**Defensive abilities:** otherworldly mind
-
-**Fh:** 2
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 5
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +5 (1d6+2), 2 tendrils +3 (1d4+1 plus pull)
-
-**Pull:** tendril, 5 ft.
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with tendrils
-
-**Space:** 5
-
-**Spec Att:** star-shriek
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**Constant:**
-
-- detect thoughts (DC 14)
-
-**At will:**
-
-- touch of madness (DC 14)
-
-**Per day:**
-
-- 3/day: calm emotions (DC 14), touch of idiocy (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 11, Con 16, Int 15, Wis 20, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15 (21 vs. trip)
-
-**Feats:** Improved Initiative, Multiattack
-
-**Skills:** Bluff +6, Diplomacy +6, Stealth +7
-
-**Languages:** telepathy 100 ft.
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or colony (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or colony (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

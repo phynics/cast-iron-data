@@ -31,69 +31,54 @@ abilities = ["18", "9", "-", "-", "11", "1"]
 
 _This amalgam of mechanical toys clacks and whirs._
 
-**Challenge rating:** 5
-
 **Clockwork variant [junk golem](ref/monster/golem-junk-golem)**
 
-**Type:** construct
+::: statblock
+Challenge rating: 5
+Type: construct
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 19
+AC modifiers: -1 Dex, +2 dodge, +10 natural
+Hit points: 53 (6d10+20); clockwork repair
+Fort: +2
+Ref: +3
+Will: +2
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+Vulner: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +10 (1d6+4 plus disease)
+Spec Att: disease
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Clockwork
-
-**Experience points:** 1,600
-
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +2 dodge, +10 natural
-
-**Hit points:** 53 (6d10+20); clockwork repair
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +2
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +10 (1d6+4 plus disease)
-
-**Spec Att:** disease
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** difficult to create, discorporate, swift reactions, winding
+::: statblock
+Ability scores: Str 18, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 21
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: difficult to create, discorporate, swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 

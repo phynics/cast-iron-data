@@ -30,102 +30,74 @@ abilities = ["20", "25", "20", "18", "21", "21"]
 
 _A tall, handsome woman sits astride a white horse. She grips an elegant longbow made of raw birch._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: blinding light (30 ft., DC 23)
+Type: fey
+Initiative: +7
+Alignment: Lawful neutral
+Size: medium
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 12,800
+:::
 
-**aura:** blinding light (30 ft., DC 23)
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 27
+Touch: 17
+Flat-footed: 20
+AC modifiers: +6 armor, +7 Dex, +4 natural
+Hit points: 136 (16d6+80)
+Fort: +10
+Ref: +17
+Will: +15
+Dr: 10/cold iron
+Immune: cold, poison
+Sr: 22
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 30 ft.
+Melee: +1 longsword +14/+9 (1d8+6/19-20)
+Ranged: +2 [seeking](ref/magic-enh/seeking) composite longbow +18/+13 (1d8+7/19-20/×3)
+Spec Att: Rider's weapon, weal or woe (DC 23)
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +16
+Constant: see invisibility
+At will: chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)
+Per day: 5/day: ice storm, daybreak arrow\
+3/day: charm monster (DC 19), cone of cold (DC 20)\
+1/day: mass suggestion (DC 21)
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 25, Con 20, Int 18, Wis 21, Cha 21
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 23
+Feats: Improved Critical (composite longbow), Manyshot, Mounted Archery, Mounted Combat, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (composite longbow)
+Skills: Bluff +18, Diplomacy +23, Ride +26, Sense Motive +24, Stealth +26
+Languages: Common, Hallit, Skald, Sylvan; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: conjure mount, Rider's robes
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 armor, +7 Dex, +4 natural
-
-**Hit points:** 136 (16d6+80)
-
-**Fort:** +10
-
-**Ref:** +17
-
-**Will:** +15
-
-**Dr:** 10/cold iron
-
-**Immune:** cold, poison
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 longsword +14/+9 (1d8+6/19-20)
-
-**Ranged:** +2 [seeking](ref/magic-enh/seeking) composite longbow +18/+13 (1d8+7/19-20/×3)
-
-**Spec Att:** Rider's weapon, weal or woe (DC 23)
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +16
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)
-
-**Per day:**
-
-- 5/day: ice storm, daybreak arrow
-- 3/day: charm monster (DC 19), cone of cold (DC 20)
-- 1/day: mass suggestion (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 25, Con 20, Int 18, Wis 21, Cha 21
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 23
-
-**Feats:** Improved Critical (composite longbow), Manyshot, Mounted Archery, Mounted Combat,
-Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (composite longbow)
-
-**Skills:** Bluff +18, Diplomacy +23, Ride +26, Sense Motive +24, Stealth +26
-
-**Languages:** Common, Hallit, Skald, Sylvan; [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** conjure mount, Rider's robes
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Other (+1 longsword)
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Other (+1 longsword)
+:::
 
 ### Special Abilities
 

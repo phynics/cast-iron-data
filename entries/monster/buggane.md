@@ -31,83 +31,64 @@ abilities = ["22", "9", "17", "6", "13", "6"]
 _This hairless, hunchbacked giant has cruel tusks and two enormous, blunt-clawed fists that look
 strong enough to shatter stone._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +3
+Size: large
+Type: Monstrous humanoid
+Perception: +9
+Senses: Scent
+tremorsense: 60
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: -1 Dex, +10 natural, -1 size
+Hit points: 51 (6d10+18)
+Fort: +7
+Ref: +4
+Will: +6
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Melee: 2 claws +11 (1d8+6), gore +11 (1d8+6)
+Reach: 10
+Rend: 2 claws, 1d8+9
+Space: 10
+Spec Att: smash and bash
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Scent
+::: statblock
+Ability scores: Str 22, Dex 9, Con 17, Int 6, Wis 13, Cha 6
+Base attack bonus: +6
+Combat maneuver bonus: +13
+Combat maneuver defense: 22
+Feats: Great Fortitude, Improved Initiative, Skill Focus (Stealth)
+Skills: Climb +10, Perception +9, Stealth +7 (+15 when underground)
+Racial Modifiers: +8 Stealth when underground
+Languages: Giant
+Special qualities: blind, earth distortion
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** -1 Dex, +10 natural, -1 size
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +6
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Melee:** 2 claws +11 (1d8+6), gore +11 (1d8+6)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d8+9
-
-**Space:** 10
-
-**Spec Att:** smash and bash
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 9, Con 17, Int 6, Wis 13, Cha 6
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 22
-
-**Feats:** Great Fortitude, Improved Initiative, Skill Focus (Stealth)
-
-**Skills:** Climb +10, Perception +9, Stealth +7 (+15 when underground)
-
-**Racial Modifiers:** +8 Stealth when underground
-
-**Languages:** Giant
-
-**Special qualities:** blind, earth distortion
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, hunting party (3-5), or clan (6-30)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, hunting party (3-5), or clan (6-30)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

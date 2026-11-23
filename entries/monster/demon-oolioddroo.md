@@ -33,105 +33,74 @@ abilities = ["14", "25", "24", "21", "24", "23"]
 _This skeletally thin woman has a moth-like face, flies upon dragonfly wings, and is wrapped in
 shadows._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Type: outsider
+Perception: +32
+Senses: Darkvision 60 ft., See thoughts
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 28
+Touch: 22
+Flat-footed: 20
+AC modifiers: +4 deflection, +7 Dex, +1 dodge, +6 natural
+Hit points: 175 (14d10+98)
+Fort: +11
+Ref: +16
+Will: +16
+Defensive abilities: shadow mantle
+Dr: 10/good
+Immune: electricity, mind-affecting effects, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 24
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 40 ft. (perfect)
+Melee: 2 claws +21 (1d4+2), tongue +21 (1d6+2 plus thought siphon)
+Sneak: +3d6
+Spec Att: oviposition
+:::
 
-**Perception:** +32
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +20
+At will: calm emotions (DC 18), charm person (DC 17), detect thoughts (DC 22), greater teleport, self plus 50 lbs. of objects only, invisibility, modify memory (DC 19), sending
+Per day: 3/day: hold person (DC 19), quickened invisibility, suggestion (DC 19)\
+1/day: dream, feeblemind (DC 21), nightmare (DC 21), summon (level 4, 1 oolioddroo 35% or 1d4 shadow demons 35%)
+:::
 
-**Senses:** Darkvision 60 ft., See thoughts
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 14, Dex 25, Con 24, Int 21, Wis 24, Cha 23
+Base attack bonus: +14
+Combat maneuver bonus: +16
+Combat maneuver defense: 38
+Feats: Dodge, Lightning Stance, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility), Spring Attack, Weapon Finesse, Wind Stance
+Skills: Acrobatics +21, Bluff +23, Diplomacy +23, Sense Motive +32, Spellcraft +22, Stealth +28, Use Magic Device +23
+Racial Modifiers: +8 Perception, +4 Stealth
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 300 ft.
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 22
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 deflection, +7 Dex, +1 dodge, +6 natural
-
-**Hit points:** 175 (14d10+98)
-
-**Fort:** +11
-
-**Ref:** +16
-
-**Will:** +16
-
-**Defensive abilities:** shadow mantle
-
-**Dr:** 10/good
-
-**Immune:** electricity, mind-affecting effects, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (perfect)
-
-**Melee:** 2 claws +21 (1d4+2), tongue +21 (1d6+2 plus thought siphon)
-
-**Sneak:** +3d6
-
-**Spec Att:** oviposition
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +20
-
-**At will:**
-
-- calm emotions (DC 18), charm person (DC 17), detect thoughts (DC 22), greater teleport, self plus
-  50 lbs. of objects only, invisibility, modify memory (DC 19), sending
-
-**Per day:**
-
-- 3/day: hold person (DC 19), quickened invisibility, suggestion (DC 19)
-- 1/day: dream, feeblemind (DC 21), nightmare (DC 21), summon (level 4, 1 oolioddroo 35% or 1d4
-  shadow demons 35%)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 25, Con 24, Int 21, Wis 24, Cha 23
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 38
-
-**Feats:** Dodge, Lightning Stance, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility), Spring Attack, Weapon Finesse,
-Wind Stance
-
-**Skills:** Acrobatics +21, Bluff +23, Diplomacy +23, Sense Motive +32, Spellcraft +22, Stealth +28,
-Use Magic Device +23
-
-**Racial Modifiers:** +8 Perception, +4 Stealth
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or cult (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or cult (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

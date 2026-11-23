@@ -30,106 +30,76 @@ abilities = ["12", "17", "14", "10", "11", "13"]
 
 _This disc of flying metal is about the size of a wagon wheel and burns with yellow-white flame._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +3
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Angel, Extraplanar, Fire, Good, Lawful
+Experience points: 1,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 natural; +2 deflection vs. evil
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +7
+Will: +1; +4 vs. poison, +4 resistance vs. evil
+Dr: 5/magic
+Immune: fire, petrification
+Resist: acid 5, cold 5, electricity 5
+Sr: 15
+Vulner: cold
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 40 ft. (perfect)
+Burn: 1d6 fire, DC 14
+Melee: 2 blades +8 (1d8+1 plus burn)
+Spec Att: radiance
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+Constant: protection from evil
+At will: know direction, mage hand
+Per day: 3/day: burning hands (DC 12), expeditious retreat\
+1/day: scorching ray
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Angel, Extraplanar, Fire, Good, Lawful
+::: statblock
+Ability scores: Str 12, Dex 17, Con 14, Int 10, Wis 11, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: +6
+Combat maneuver defense: 20
+Feats: Dodge, Mobility, Weapon Finesse
+Skills: Acrobatics +1, Fly +7, Intimidate +9, Knowledge (geography, planes) +8, Perception +12
+Racial Modifiers: +4 Perception
+Languages: Celestial, Infernal; _truespeech_
+Special qualities: shield form
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural; +2 deflection vs. evil
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +1; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 5/magic
-
-**Immune:** fire, petrification
-
-**Resist:** acid 5, cold 5, electricity 5
-
-**Sr:** 15
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Burn:** 1d6 fire, DC 14
-
-**Melee:** 2 blades +8 (1d8+1 plus burn)
-
-**Spec Att:** radiance
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**Constant:**
-
-- protection from evil
-
-**At will:**
-
-- know direction, mage hand
-
-**Per day:**
-
-- 3/day: burning hands (DC 12), expeditious retreat
-- 1/day: scorching ray
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 14, Int 10, Wis 11, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 20
-
-**Feats:** Dodge, Mobility, Weapon Finesse
-
-**Skills:** Acrobatics +1, Fly +7, Intimidate +9, Knowledge (geography, planes) +8, Perception +12
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Celestial, Infernal; _truespeech_
-
-**Special qualities:** shield form
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or squad (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or squad (3-8)
+Treasure: Standard
+:::
 
 ### Description
 

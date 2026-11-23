@@ -29,77 +29,61 @@ abilities = ["13", "11", "-", "2", "11", "14"]
 _With a jolt, this severed hand springs to life, its fingers propelling it forth at great speed like
 a deformed spider._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+blindsense: 30
+Size: diminutive
+Initiative: +0
+Alignment: Neutral evil
+Perception: +4
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 size
+Hit points: 9 (1d8+5)
+Fort: +2
+Ref: +0
+Will: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: claw +5 (1d1+1 plus [grab](ref/umr/grab))
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 13, Dex 11, Con -, Int 2, Wis 11, Cha 14
+Base attack bonus: +0
+Combat maneuver bonus: -4 (+0 grapple)
+Combat maneuver defense: 7
+Feats: Toughness
+Skills: Climb +9, Perception +4
+Racial Modifiers: +4 Survival
+Languages: Common (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 size
-
-**Hit points:** 9 (1d8+5)
-
-**Fort:** +2
-
-**Ref:** +0
-
-**Will:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** claw +5 (1d1+1 plus [grab](ref/umr/grab))
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 11, Con -, Int 2, Wis 11, Cha 14
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -4 (+0 grapple)
-
-**Combat maneuver defense:** 7
-
-**Feats:** Toughness
-
-**Skills:** Climb +9, Perception +4
-
-**Racial Modifiers:** +4 Survival
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or gang (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

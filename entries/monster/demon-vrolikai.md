@@ -30,111 +30,75 @@ abilities = ["30", "23", "35", "22", "23", "26"]
 _This black-skinned, bat-winged demon has four arms; a long, thin tail; and a leering, fanged face
 with dead, white eyes._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Alignment: Chaotic evil
+Initiative: +10
+Size: large
+Type: outsider
+Perception: +36
+Senses: Darkvision 120 ft., Low-light vision, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 204,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 35
+Touch: 16
+Flat-footed: 28
+AC modifiers: +6 Dex, +1 dodge, +19 natural, -1 size
+Hit points: 332 (19d10+228)
+Fort: +18
+Ref: +17
+Will: +17
+Dr: 15/cold iron and good
+Immune: death effects, electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 30
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (perfect)
+Melee: +1 black flame knife +29/+24/+19/+14 (1d6+11/19-20 plus energy drain), 3 +1 black flame knives +29 (1d6+6/19-20 plus energy drain), bite +23 (1d8+5), sting +23 (1d6+5 plus madness) or bite +28 (1d8+10), 4 claws +28 (1d6+10), sting +28 (1d6+10 plus madness)
+Reach: 10
+Space: 10
+Spec Att: black flame knives, death-stealing gaze, multiweapon mastery
+:::
 
-**Perception:** +36
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +27
+Constant: true seeing
+At will: deeper darkness, enervation, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 23)
+Per day: 3/day: quickened enervation, regenerate, silence (DC 20), vampiric touch\
+1/day: mass hold monster (DC 27), summon (level 6, 1 marilith 50% or 1d4 glabrezus 75%), symbol of death (DC 26)
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 30, Dex 23, Con 35, Int 22, Wis 23, Cha 26
+Base attack bonus: +19
+Combat maneuver bonus: +30
+Combat maneuver defense: 47
+Feats: Cleave, Combat Expertise, Dodge, Flyby Attack, Improved Initiative, Improved Vital Strike, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (enervation), Vital Strike
+Skills: Acrobatics +25 (+29 jump), Bluff +30, Fly +34, Intimidate +27, Knowledge (arcana) +25, Perception +36, Use Magic Device +27
+Racial Modifiers: +8 Perception, +8 Stealth in shadowy areas
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 204,800
+### Ecology
 
-**Armor class:** 35
-
-**Touch:** 16
-
-**Flat-footed:** 28
-
-**AC modifiers:** +6 Dex, +1 dodge, +19 natural, -1 size
-
-**Hit points:** 332 (19d10+228)
-
-**Fort:** +18
-
-**Ref:** +17
-
-**Will:** +17
-
-**Dr:** 15/cold iron and good
-
-**Immune:** death effects, electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (perfect)
-
-**Melee:** +1 black flame knife +29/+24/+19/+14 (1d6+11/19-20 plus energy drain), 3 +1 black flame
-knives +29 (1d6+6/19-20 plus energy drain), bite +23 (1d8+5), sting +23 (1d6+5 plus madness) or bite
-+28 (1d8+10), 4 claws +28 (1d6+10), sting +28 (1d6+10 plus madness)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** black flame knives, death-stealing gaze, multiweapon mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +27
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- deeper darkness, enervation, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC
-  23)
-
-**Per day:**
-
-- 3/day: quickened enervation, regenerate, silence (DC 20), vampiric touch
-- 1/day: mass hold monster (DC 27), summon (level 6, 1 marilith 50% or 1d4 glabrezus 75%), symbol of
-  death (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 23, Con 35, Int 22, Wis 23, Cha 26
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 47
-
-**Feats:** Cleave, Combat Expertise, Dodge, Flyby Attack, Improved Initiative, Improved Vital
-Strike, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(enervation), Vital Strike
-
-**Skills:** Acrobatics +25 (+29 jump), Bluff +30, Fly +34, Intimidate +27, Knowledge (arcana) +25,
-Perception +36, Use Magic Device +27
-
-**Racial Modifiers:** +8 Perception, +8 Stealth in shadowy areas
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

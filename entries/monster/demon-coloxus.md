@@ -30,105 +30,74 @@ abilities = ["19", "28", "20", "17", "18", "23"]
 _This figure would be the picture of elegance and refinement were it not for its grotesque fly head
 and shivering insectile wings._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Initiative: +13
+Size: medium
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft., Scent
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 26
+Touch: 19
+Flat-footed: 17
+AC modifiers: +9 Dex, +7 natural
+Hit points: 168 (16d10+80)
+Fort: +15
+Ref: +19
+Will: +9
+Dr: 10/good
+Immune: electricity, disease, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: bite +25 (1d6+4 plus siphon), 2 slams +25 (1d4+4)
+Sneak: +4d6
+Spec Att: droning wings, siphon
+:::
 
-**Perception:** +31
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +18
+Constant: tongues
+At will: contagion (DC 20), invisibility, suggestion (DC 19)
+Per day: 3/day: confusion (DC 20), haste, quickened invisibility, mind fog (DC 21)\
+1/day: giant vermin, shadow evocation (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 19, Dex 28, Con 20, Int 17, Wis 18, Cha 23
+Base attack bonus: +16
+Combat maneuver bonus: +25
+Combat maneuver defense: 39
+Feats: Agile Maneuvers, Combat Reflexes, Deceitful, Flyby Attack, Hover, Improved Initiative, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility), Weapon Finesse
+Skills: Acrobatics +28, Appraise +14, Bluff +29, Diplomacy +14, Disguise +19, Sleight of Hand +17, Stealth +28
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 19
-
-**Flat-footed:** 17
-
-**AC modifiers:** +9 Dex, +7 natural
-
-**Hit points:** 168 (16d10+80)
-
-**Fort:** +15
-
-**Ref:** +19
-
-**Will:** +9
-
-**Dr:** 10/good
-
-**Immune:** electricity, disease, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** bite +25 (1d6+4 plus siphon), 2 slams +25 (1d4+4)
-
-**Sneak:** +4d6
-
-**Spec Att:** droning wings, siphon
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**Constant:**
-
-- tongues
-
-**At will:**
-
-- contagion (DC 20), invisibility, suggestion (DC 19)
-
-**Per day:**
-
-- 3/day: confusion (DC 20), haste, quickened invisibility, mind fog (DC 21)
-- 1/day: giant vermin, shadow evocation (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 28, Con 20, Int 17, Wis 18, Cha 23
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 39
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Deceitful, Flyby Attack, Hover, Improved Initiative,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility), Weapon Finesse
-
-**Skills:** Acrobatics +28, Appraise +14, Bluff +29, Diplomacy +14, Disguise +19, Sleight of Hand
-+17, Stealth +28
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.,
-_[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** urban ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or swarm (3-8)
-
-**Treasure:** Double
+::: statblock
+Environment: urban ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or swarm (3-8)
+Treasure: Double
+:::
 
 ### Special Abilities
 

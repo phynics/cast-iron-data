@@ -31,101 +31,72 @@ abilities = ["16", "23", "21", "12", "8", "17"]
 
 _This small, goat-like man has curved horns, hoofed feet, and a rat-like tail._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: mindboggle (30 ft., DC 19)
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +6
+Perception: +14
+Senses: Low-light vision
+Size: small
+Subtype: Shapechanger
+Experience points: 4,800
+:::
 
-**aura:** mindboggle (30 ft., DC 19)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 21
+Touch: 18
+Flat-footed: 14
+AC modifiers: +6 Dex, +1 dodge, +3 natural, +1 size
+Hit points: 102 (12d6+60)
+Fort: +9
+Ref: +14
+Will: +9
+Dr: 10/cold iron
+Sr: 19
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +15 (1d4+5), gore +15 (1d6+5), 2 claws +15 (1d4+5)
+Ranged: thrown object +13 (1d3+3)
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: greater magic fang, self only
+At will: dancing lights, ghost sound (DC 13), lesser confusion (DC 14), scarecrow form
+Per day: 3/day: charm person (DC 14), confusion (DC 17), dimension door, hideous laughter (DC 15), invisibility\
+1/day: baleful polymorph (DC 18), fear (DC 17)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 16, Dex 23, Con 21, Int 12, Wis 8, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 25
+Feats: Combat Casting, Dodge, Iron Will, Mobility, Throw Anything, Weapon Finesse
+Skills: Acrobatics +21, Bluff +18, Climb +20, Escape Artist +15, Perception +14, Perform (comedy) +18, Sense Motive +14, Sleight of Hand +21
+Languages: Common, Gm, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (calf, goat, and goose; [beast shape II](ref/spell/beast-shape-2))
+:::
 
-**Subtype:** Shapechanger
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 Dex, +1 dodge, +3 natural, +1 size
-
-**Hit points:** 102 (12d6+60)
-
-**Fort:** +9
-
-**Ref:** +14
-
-**Will:** +9
-
-**Dr:** 10/cold iron
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +15 (1d4+5), gore +15 (1d6+5), 2 claws +15 (1d4+5)
-
-**Ranged:** thrown object +13 (1d3+3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- greater magic fang, self only
-
-**At will:**
-
-- dancing lights, ghost sound (DC 13), lesser confusion (DC 14), scarecrow form
-
-**Per day:**
-
-- 3/day: charm person (DC 14), confusion (DC 17), dimension door, hideous laughter (DC 15),
-  invisibility
-- 1/day: baleful polymorph (DC 18), fear (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 23, Con 21, Int 12, Wis 8, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 25
-
-**Feats:** Combat Casting, Dodge, Iron Will, Mobility, Throw Anything, Weapon Finesse
-
-**Skills:** Acrobatics +21, Bluff +18, Climb +20, Escape Artist +15, Perception +14, Perform
-(comedy) +18, Sense Motive +14, Sleight of Hand +21
-
-**Languages:** Common, Gm, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (calf, goat, and goose;
-[beast shape II](ref/spell/beast-shape-2))
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gang (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

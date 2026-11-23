@@ -32,80 +32,62 @@ abilities = ["22", "18", "-", "-", "16", "1"]
 _Two emerald crystal eyes stare out from this artificial hound's brass-, bronze-, and iron-forged
 body._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: construct
+Initiative: +8
+Alignment: Neutral
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Subtype: Clockwork
+Experience points: 1,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 18
+Touch: 17
+Flat-footed: 12
+AC modifiers: +4 Dex, +2 dodge, +1 natural, +1 size
+Hit points: 43 (6d10+10)
+Fort: +2
+Ref: +8
+Will: +5
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 50 ft.
+Melee: 2 bites +13 (1d6+6 plus [trip](ref/umr/trip))
+Spec Att: swift bite
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 22, Dex 18, Con -, Int -, Wis 16, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 27
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Survival +11 (+19 when tracking by scent)
+Racial Modifiers: +8 Survival (+16 when tracking by scent)
+Special qualities: chest container, difficult to create, efficient winding, expert tracker, swift reactions
+:::
 
-**Subtype:** Clockwork
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 17
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +2 dodge, +1 natural, +1 size
-
-**Hit points:** 43 (6d10+10)
-
-**Fort:** +2
-
-**Ref:** +8
-
-**Will:** +5
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 2 bites +13 (1d6+6 plus [trip](ref/umr/trip))
-
-**Spec Att:** swift bite
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 18, Con -, Int -, Wis 16, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 27
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Survival +11 (+19 when tracking by scent)
-
-**Racial Modifiers:** +8 Survival (+16 when tracking by scent)
-
-**Special qualities:** chest container, difficult to create, efficient winding, expert tracker,
-swift reactions
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

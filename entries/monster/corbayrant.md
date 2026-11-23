@@ -32,100 +32,71 @@ abilities = ["31", "20", "25", "14", "19", "16"]
 _This enormous scorpion-like creature has legs like jagged bark and a moss-colored body. It barbed
 tail drips foul-smelling venom and its wide mouth has multiple hinged jaws._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: virulence (30 ft.)
+blindsense: 120
+Alignment: Chaotic evil
+Size: huge
+Initiative: +9
+Type: Magical beast
+Perception: +30
+Experience points: 76,800
+:::
 
-**aura:** virulence (30 ft.)
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 30
+Touch: 14
+Flat-footed: 24
+AC modifiers: +5 Dex, +1 dodge, +16 natural, -2 size
+Hit points: 237 (19d10+133)
+Fort: +18
+Ref: +16
+Will: +12
+Defensive abilities: barbed defense
+Dr: 15/bludgeoning or slashing
+Immune: gaze attacks, mind-affecting effects, paralysis, poison, polymorph, sight-based effects, sleep effects, stunning, visual effects and illusions
+Regen: 5 (cold)
+Resist: fire 10
+Sr: 27
+Vulner: cold
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 40 ft., climb 30 ft.
+Melee: bite +27 (2d8+10 plus [grab](ref/umr/grab)), sting +27 (2d8+10 plus poison), 2 spines +27 (2d6+10 plus contagious paralysis)
+Ranged: 4 spines +22 (2d8+10 plus contagious paralysis)
+Reach: 15
+Space: 15
+Spec Att: contagious paralysis (1d4 minutes, DC 22), poison
+Swallow: 5d8 piercing plus contagious paralysis, AC 18, 23 hp
+:::
 
-**Initiative:** +9
+### Statistics
 
-**Type:** Magical beast
+::: statblock
+Ability scores: Str 31, Dex 20, Con 25, Int 14, Wis 19, Cha 16
+Base attack bonus: +19
+Combat maneuver bonus: +31 (+35 grapple)
+Combat maneuver defense: 47 (59 vs. trip)
+Feats: Alertness, Combat Reflexes, Dodge, Improved Initiative, Improved Vital Strike, Iron Will, Mobility, Point-Blank Shot, Skill Focus (Stealth), Vital Strike
+Skills: Acrobatics +14 (+18 when jumping), Climb +18, Intimidate +22, Perception +30
+Racial Modifiers: +8 Stealth in forests
+Languages: Common, Sylvan
+Special qualities: plantlike
+:::
 
-**Perception:** +30
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 14
-
-**Flat-footed:** 24
-
-**AC modifiers:** +5 Dex, +1 dodge, +16 natural, -2 size
-
-**Hit points:** 237 (19d10+133)
-
-**Fort:** +18
-
-**Ref:** +16
-
-**Will:** +12
-
-**Defensive abilities:** barbed defense
-
-**Dr:** 15/bludgeoning or slashing
-
-**Immune:** gaze attacks, mind-affecting effects, paralysis, poison, polymorph, sight-based effects,
-sleep effects, stunning, visual effects and illusions
-
-**Regen:** 5 (cold)
-
-**Resist:** fire 10
-
-**Sr:** 27
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft.
-
-**Melee:** bite +27 (2d8+10 plus [grab](ref/umr/grab)), sting +27 (2d8+10 plus poison), 2 spines +27
-(2d6+10 plus contagious paralysis)
-
-**Ranged:** 4 spines +22 (2d8+10 plus contagious paralysis)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** contagious paralysis (1d4 minutes, DC 22), poison
-
-**Swallow:** 5d8 piercing plus contagious paralysis, AC 18, 23 hp
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 20, Con 25, Int 14, Wis 19, Cha 16
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +31 (+35 grapple)
-
-**Combat maneuver defense:** 47 (59 vs. trip)
-
-**Feats:** Alertness, Combat Reflexes, Dodge, Improved Initiative, Improved Vital Strike, Iron Will,
-Mobility, Point-Blank Shot, Skill Focus (Stealth), Vital Strike
-
-**Skills:** Acrobatics +14 (+18 when jumping), Climb +18, Intimidate +22, Perception +30
-
-**Racial Modifiers:** +8 Stealth in forests
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** plantlike
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

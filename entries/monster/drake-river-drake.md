@@ -32,79 +32,62 @@ abilities = ["17", "16", "15", "8", "10", "9"]
 _With graceful wings and wide fins, this sleek dragon looks equally well equipped to glide through
 sea and sky._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: dragon
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Aquatic, Water
+Experience points: 800
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 Dex, +3 natural
+Hit points: 34 (4d12+8)
+Fort: +6
+Ref: +7
+Will: +4
+Immune: paralysis, sleep
+Resist: acid 20
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., swim 30 ft., fly 60 ft. (average)
+Melee: bite +7 (2d4+3), tail slap +2 (1d4+1)
+Pounce: present
+Spec Att: caustic mucus
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 17, Dex 16, Con 15, Int 8, Wis 10, Cha 9
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Improved Initiative, Power Attack
+Skills: Fly +10
+Languages: Draconic
+Special qualities: [amphibious](ref/umr/amphibious), speed surge
+:::
 
-**Subtype:** Aquatic, Water
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +3 natural
-
-**Hit points:** 34 (4d12+8)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +4
-
-**Immune:** paralysis, sleep
-
-**Resist:** acid 20
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft., fly 60 ft. (average)
-
-**Melee:** bite +7 (2d4+3), tail slap +2 (1d4+1)
-
-**Pounce:** present
-
-**Spec Att:** caustic mucus
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 15, Int 8, Wis 10, Cha 9
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Improved Initiative, Power Attack
-
-**Skills:** Fly +10
-
-**Languages:** Draconic
-
-**Special qualities:** [amphibious](ref/umr/amphibious), speed surge
-
-**Ecology**
-
-**Environment:** temperate rivers or lakes
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate rivers or lakes
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

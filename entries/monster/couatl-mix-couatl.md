@@ -31,130 +31,87 @@ abilities = ["18", "19", "18", "15", "17", "15"]
 _Dark scales marked with shining spots resembling stars cover this winged serpent. Faint red stripes
 span the length of its body._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic good
+Initiative: +8
+Size: large
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft., Detect chaos/evil/good/law, See in darkness
+Subtype: Native
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 17
+AC modifiers: +4 Dex, +8 natural, -1 size
+Hit points: 95 (10d10+40)
+Fort: +7
+Ref: +11
+Will: +12
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Br Weap: 15-ft. cone, 8d6 fire, Reflex DC 19 half, usable every 1d6 rounds
+Constrict: 1d8+6
+Melee: bite +14 (1d8+6 plus [grab](ref/umr/grab) and poison)
+Reach: 10
+Space: 10
+Spec Att: poison
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +10
+Constant: detect chaos, detect evil, detect good, detect law
+At will: detect thoughts (DC 15), invisibility, plane shift, self plus 50 lbs. of objects only
+Per day: 1/day: modify memory (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law, See in darkness
+::: statblock
+title = "Prepared Spells"
+Caster level: 7
+Concentration: +10
+4th-level spells: flame strike (DC 18), summon nature's ally IV
+3rd-level spells: cure moderate wounds, protection from energy, speak with plants
+2nd-level spells: bear's endurance, flaming sphere (DC 15), lesser restoration, resist energy
+1st-level spells: endure elements, faerie fire (DC 14), pass without trace, produce flame, speak with animals
+Cantrips: flare (DC 13), guidance, stabilize, virtue
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 Dex, +8 natural, -1 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +12
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Br Weap:** 15-ft. cone, 8d6 fire, Reflex DC 19 half, usable every 1d6 rounds
-
-**Constrict:** 1d8+6
-
-**Melee:** bite +14 (1d8+6 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +10
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law
-
-**At will:**
-
-- detect thoughts (DC 15), invisibility, plane shift, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: modify memory (DC 17)
-
-**Prepared Spells**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**4th-level spells:**
-
-- flame strike (DC 18), summon nature's ally IV
-
-**3rd-level spells:**
-
-- cure moderate wounds, protection from energy, speak with plants
-
-**2nd-level spells:**
-
-- bear's endurance, flaming sphere (DC 15), lesser restoration, resist energy
-
-**1st-level spells:**
-
-- endure elements, faerie fire (DC 14), pass without trace, produce flame, speak with animals
-
-**Cantrips:**
-
-- flare (DC 13), guidance, stabilize, virtue
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 18, Int 15, Wis 17, Cha 15
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 29 (can't be tripped)
-
-**Feats:** Alertness, Eschew Materials^B^, Hover, Improved Initiative, Iron Will, Weapon Focus
-(bite)
-
-**Skills:** Diplomacy +16, Sense Motive +20, Stealth +0 (+20 in the night sky)
-
-**Languages:** Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** gift of knowledge, star child
+::: statblock
+Ability scores: Str 18, Dex 19, Con 18, Int 15, Wis 17, Cha 15
+Base attack bonus: +10
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 29 (can't be tripped)
+Feats: Alertness, Eschew Materials^B^, Hover, Improved Initiative, Iron Will, Weapon Focus (bite)
+Skills: Diplomacy +16, Sense Motive +20, Stealth +0 (+20 in the night sky)
+Languages: Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: gift of knowledge, star child
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology {#stat-ecology}
 
-**Environment:** any
-
-**Organization:** solitary, pair, or flight (3-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or flight (3-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

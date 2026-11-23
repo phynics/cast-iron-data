@@ -32,82 +32,63 @@ _Striped with the brilliant colors of a maritime sunset, this beast winds its en
 the waves, a pair of wiry, talon-tipped arms and a snout full of horrendous teeth preceding a fan of
 razor-like fins._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Size: gargantuan
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral
+Perception: +21
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 51,200
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 28
+Touch: 10
+Flat-footed: 24
+AC modifiers: +4 Dex, +18 natural, -4 size
+Hit points: 212 (17d10+119)
+Fort: +17
+Ref: +14
+Will: +9
+Immune: poison
+Resist: fire 30
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 80 ft.
+Capsize: present
+Melee: bite +26 (4d6+13/19-20), 2 claw +26 (2d8+13/19-20), tail slap +21 (2d8+6)
+Reach: 20
+Reach P: 30 ft. with tail slap
+Space: 20
+Spec Att: miasmic breath, rip current
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 36, Dex 18, Con 25, Int 2, Wis 15, Cha 13
+Base attack bonus: +17
+Combat maneuver bonus: +34
+Combat maneuver defense: 48 (can't be tripped)
+Feats: Critical Focus, Endurance, Improved Critical (bite), Improved Critical (claw), Improved Iron Will, Iron Will, Power Attack, Sickening Critical, Vital Strike
+Skills: Perception +21, Swim +25
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 28
-
-**Touch:** 10
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 Dex, +18 natural, -4 size
-
-**Hit points:** 212 (17d10+119)
-
-**Fort:** +17
-
-**Ref:** +14
-
-**Will:** +9
-
-**Immune:** poison
-
-**Resist:** fire 30
-
-**Offense**
-
-**Speed:** 10 ft., swim 80 ft.
-
-**Capsize:** present
-
-**Melee:** bite +26 (4d6+13/19-20), 2 claw +26 (2d8+13/19-20), tail slap +21 (2d8+6)
-
-**Reach:** 20
-
-**Reach P:** 30 ft. with tail slap
-
-**Space:** 20
-
-**Spec Att:** miasmic breath, rip current
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 18, Con 25, Int 2, Wis 15, Cha 13
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 48 (can't be tripped)
-
-**Feats:** Critical Focus, Endurance, Improved Critical (bite), Improved Critical (claw), Improved
-Iron Will, Iron Will, Power Attack, Sickening Critical, Vital Strike
-
-**Skills:** Perception +21, Swim +25
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

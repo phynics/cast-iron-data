@@ -31,86 +31,65 @@ abilities = ["22", "1", "18", "-", "1", "1"]
 
 _The facets of this crystalline formation shift and vibrate, as though in anticipation._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: subsonic hum (60 ft., DC 22)
+blindsight: 120
+Initiative: -5
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Earth, Extraplanar
+Experience points: 12,800
+:::
 
-**aura:** subsonic hum (60 ft., DC 22)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 17
+Touch: 5
+Flat-footed: 17
+AC modifiers: -5 Dex, +12 natural
+Hit points: 136 (16d8+64)
+Fort: +9
+Ref: +0
+Will: +0
+Dr: 10/-
+Immune: cold, electricity, [ooze traits](ref/umr/ooze-traits)
+Resist: fire 20
+Vulner: sonic
+Weaknesses: brittle
+:::
 
-**Initiative:** -5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Entrap: DC 22, 1d10 rounds, [hardness](ref/umr/hardness) 10, hp 10
+Melee: slam +18 (7d8+9/18-20 plus entrap)
+Spec Att: crystallize, razor sharp
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str 22, Dex 1, Con 18, Int -, Wis 1, Cha 1
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 23 (can't be tripped)
+Skills: Climb +14, Stealth +0 (+5 in rocky environs)
+Racial Modifiers: +5 Stealth (+10 in rocky environs)
+Special qualities: [freeze](ref/umr/freeze), [split](ref/umr/split) (critical hit from a bludgeoning or sonic attack, 15 hp)
+:::
 
-**Perception:** -5
+### Ecology
 
-**Subtype:** Earth, Extraplanar
-
-**Experience points:** 12,800
-
-**Armor class:** 17
-
-**Touch:** 5
-
-**Flat-footed:** 17
-
-**AC modifiers:** -5 Dex, +12 natural
-
-**Hit points:** 136 (16d8+64)
-
-**Fort:** +9
-
-**Ref:** +0
-
-**Will:** +0
-
-**Dr:** 10/-
-
-**Immune:** cold, electricity, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** fire 20
-
-**Vulner:** sonic
-
-**Weaknesses:** brittle
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Entrap:** DC 22, 1d10 rounds, [hardness](ref/umr/hardness) 10, hp 10
-
-**Melee:** slam +18 (7d8+9/18-20 plus entrap)
-
-**Spec Att:** crystallize, razor sharp
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 1, Con 18, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 23 (can't be tripped)
-
-**Skills:** Climb +14, Stealth +0 (+5 in rocky environs)
-
-**Racial Modifiers:** +5 Stealth (+10 in rocky environs)
-
-**Special qualities:** [freeze](ref/umr/freeze), [split](ref/umr/split) (critical hit from a
-bludgeoning or sonic attack, 15 hp)
-
-**Ecology**
-
-**Environment:** any underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary, colony (2-4), or formation (5-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary, colony (2-4), or formation (5-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

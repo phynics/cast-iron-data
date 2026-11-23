@@ -32,83 +32,66 @@ abilities = ["13", "15", "12", "13", "14", "16"]
 _This four-armed creature looks like a cross between a human and a black and ochre termite. Its body
 and arms display glowing runes._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +9
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 natural
+Hit points: 26 (4d10+4)
+Fort: +2
+Ref: +6
+Will: +6
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +6 (1d6+1 plus [grab](ref/umr/grab))
+Spec Att: dazzling burst
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +6
+Per day: 1/day: plane shift, self only; to Plane of Shadow only
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 13, Dex 15, Con 12, Int 13, Wis 14, Cha 16
+Base attack bonus: +4
+Combat maneuver bonus: +5 (+9 grapple)
+Combat maneuver defense: 17
+Feats: Combat Reflexes, Weapon Focus (claw)
+Skills: Climb +8, Knowledge (arcana) +8, Perception +9, Use Magic Device +8
+Languages: D'ziriak; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: glow
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 natural
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +6 (1d6+1 plus [grab](ref/umr/grab))
-
-**Spec Att:** dazzling burst
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**Per day:**
-
-- 1/day: plane shift, self only; to Plane of Shadow only
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 12, Int 13, Wis 14, Cha 16
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5 (+9 grapple)
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Reflexes, Weapon Focus (claw)
-
-**Skills:** Climb +8, Knowledge (arcana) +8, Perception +9, Use Magic Device +8
-
-**Languages:** D'ziriak; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** glow
-
-**Ecology**
-
-**Environment:** any land ([Plane of Shadow](ref/rule/shadow-plane))
-
-**Organization:** solitary, pair, swarm (3-20), or hive (21-100)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([Plane of Shadow](ref/rule/shadow-plane))
+Organization: solitary, pair, swarm (3-20), or hive (21-100)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

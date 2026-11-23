@@ -31,83 +31,64 @@ abilities = ["1", "15", "14", "-", "10", "2"]
 _Like a pestilent black tide, a ravenous horde of thousands of tiny, clacking cockroaches washes
 over everything in its path._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Size: diminutive
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+tremorsense: 30
+Type: vermin
+Experience points: 600
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 26 (4d8+8)
+Fort: +6
+Ref: +3
+Will: +1
+Defensive abilities: swarm traits
+Immune: weapon damage
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity), swarm traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 30 ft. (poor)
+Distraction: 14
+Melee: swarm (1d6)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 15, Con 14, Int -, Wis 10, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +10, Perception +4, Stealth +14
+Racial Modifiers: +4 Perception
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +1
-
-**Defensive abilities:** swarm traits
-
-**Immune:** weapon damage
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity), swarm traits
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 30 ft. (poor)
-
-**Distraction:** 14
-
-**Melee:** swarm (1d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 14, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +10, Perception +4, Stealth +14
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any temperate, warm, or urban
-
-**Organization:** solitary, pair, or intrusion (3-20 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate, warm, or urban
+Organization: solitary, pair, or intrusion (3-20 swarms)
+Treasure: None
+:::
 
 ### Description
 

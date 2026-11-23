@@ -33,102 +33,75 @@ _A siege engineer's nightmare, this giant machine emits noxious fumes from its g
 
 **Mythic Iron Colossus**
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+Mythic rank: 8
+aura: deadly fumes (30 ft.), selective antimagic aura (30 ft.)
+Size: colossal
+Type: construct
+Initiative: -1
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Colossus, Mythic
+Experience points: 409,600
+:::
 
-**Mythic rank:** 8
+### Defense
 
-**aura:** deadly fumes (30 ft.), selective antimagic aura (30 ft.)
+::: statblock
+Armor class: 39
+Touch: 1
+Flat-footed: 39
+AC modifiers: -1 Dex, +38 natural, -8 size
+Hit points: 309 (23d10+183)
+Fort: +9
+Ref: +6
+Will: +7
+Dr: 10/epic
+Immune: [construct traits](ref/umr/construct-traits), fire absorption
+:::
 
-**Size:** colossal
+### Offense
 
-**Type:** construct
+::: statblock
+Speed: 50 ft.
+M Power: 8/day, surge +1d10
+Melee: flail +35/+30/+25/+20 (6d6+20/19-20) or stomp +35 (6d6+30 plus pinning stomp)
+Ranged: 2 heavy ballistae +14 (4d8/17-20/×3)
+Reach: 30
+Space: 30
+Spec Att: mythic quickening, pinning stomp
+:::
 
-**Initiative:** -1
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +19
+Per day: 3/day: wall of fire (DC 16)\
+1/day: delayed blast fireball (DC 19)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 51, Dex 9, Con -, Int 5, Wis 10, Cha 14
+Base attack bonus: +23
+Combat maneuver bonus: +51 (+59 sunder)
+Combat maneuver defense: 62 (68 vs. sunder)
+Feats: Mythic Cleave, Great Cleave, Great Fortitude, Greater Sunder, Greater Vital Strike, Improved Critical (flail), Mythic Improved Critical (heavy ballista), Mythic Improved Sunder, Improved Vital Strike, Power Attack, Toughness, Mythic Vital Strike
+Skills: Intimidate +14, Perception +11
+Languages: Common
+Special qualities: alternate form, mythic creation, mythic resilience, siege tower
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Colossus, Mythic
-
-**Experience points:** 409,600
-
-**Armor class:** 39
-
-**Touch:** 1
-
-**Flat-footed:** 39
-
-**AC modifiers:** -1 Dex, +38 natural, -8 size
-
-**Hit points:** 309 (23d10+183)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +7
-
-**Dr:** 10/epic
-
-**Immune:** [construct traits](ref/umr/construct-traits), fire absorption
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**M Power:** 8/day, surge +1d10
-
-**Melee:** flail +35/+30/+25/+20 (6d6+20/19-20) or stomp +35 (6d6+30 plus pinning stomp)
-
-**Ranged:** 2 heavy ballistae +14 (4d8/17-20/×3)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** mythic quickening, pinning stomp
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +19
-
-**Per day:**
-
-- 3/day: wall of fire (DC 16)
-- 1/day: delayed blast fireball (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 51, Dex 9, Con -, Int 5, Wis 10, Cha 14
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +51 (+59 sunder)
-
-**Combat maneuver defense:** 62 (68 vs. sunder)
-
-**Feats:** Mythic Cleave, Great Cleave, Great Fortitude, Greater Sunder, Greater Vital Strike,
-Improved Critical (flail), Mythic Improved Critical (heavy ballista), Mythic Improved Sunder,
-Improved Vital Strike, Power Attack, Toughness, Mythic Vital Strike
-
-**Skills:** Intimidate +14, Perception +11
-
-**Languages:** Common
-
-**Special qualities:** alternate form, mythic creation, mythic resilience, siege tower
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

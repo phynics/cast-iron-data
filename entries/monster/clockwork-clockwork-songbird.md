@@ -30,77 +30,61 @@ abilities = ["5", "16", "-", "-", "10", "3"]
 
 _This gilded mechanical bird produces melodious songs from its complex clockwork voice box._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: construct
+Initiative: +7
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 dodge, +2 size
+Hit points: 5 (1d10)
+Fort: +0
+Ref: +5
+Will: +0
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 10 ft., fly 40 ft. (average)
+Melee: bite +0 (1d3-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Clockwork
+::: statblock
+Ability scores: Str 5, Dex 16, Con -, Int -, Wis 10, Cha 3
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 9
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Fly +7
+Special qualities: difficult to create, mechanical musicality, swift reactions, winding
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 dodge, +2 size
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +0
-
-**Ref:** +5
-
-**Will:** +0
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (average)
-
-**Melee:** bite +0 (1d3-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 16, Con -, Int -, Wis 10, Cha 3
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 9
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Fly +7
-
-**Special qualities:** difficult to create, mechanical musicality, swift reactions, winding
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or harmony (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or harmony (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

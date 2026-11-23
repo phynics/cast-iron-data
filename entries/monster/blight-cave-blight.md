@@ -31,101 +31,73 @@ abilities = ["40", "34", "32", "22", "29", "24"]
 
 _Muscular tentacles ending in stalagmite-like stingers extend from this pale brown slime._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+blindsight: 120
+Alignment: Chaotic evil
+Initiative: +16
+Size: medium
+Type: ooze
+Perception: +30
+Subtype: Blight
+Experience points: 204,800
+:::
 
-**blindsight:** 120
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 34
+Touch: 22
+Flat-footed: 22
+AC modifiers: +12 Dex, +12 natural
+Hit points: 325 (21d8+231)
+Fort: +18
+Ref: +19
+Will: +18
+Defensive abilities: rejuvenation
+Fh: 15
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Initiative:** +16
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., burrow 30 ft., climb 30 ft.
+Melee: 4 stings +30 (2d8+15/19-20 plus petrification)
+Reach: 20
+Sp Extra: earth glide
+Space: 5
+Spec Att: irradiate domain
+:::
 
-**Type:** ooze
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +26
+Per day: 1/day: blight (DC 22), command plants (DC 21), dominate monster (aberrations, animals, and magical beasts only, DC 26), greater curse terrain, hallucinatory terrain (DC 21), hungry pit (DC 22)
+:::
 
-**Perception:** +30
+### Statistics
 
-**Subtype:** Blight
+::: statblock
+Ability scores: Str 40, Dex 34, Con 32, Int 22, Wis 29, Cha 24
+Base attack bonus: +15
+Combat maneuver bonus: +30 (+34 sunder)
+Combat maneuver defense: 52 (54 vs. sunder, can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Greater Sunder, Improved Critical (sting), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Skill Focus (Stealth), Staggering Critical
+Skills: Bluff +28, Climb +44, Intimidate +28, Knowledge (dungeoneering, geography) +27, Perception +30, Sense Motive +30, Stealth +39 (+47 in caverns)
+Racial Modifiers: +8 Stealth in caverns
+Languages: Aklo, Undercommon; domain [telepathy](ref/umr/telepathy)
+Special qualities: cursed domain, [favored terrain](ref/ability/favored-terrain) (underground)
+:::
 
-**Experience points:** 204,800
+### Ecology
 
-**Armor class:** 34
-
-**Touch:** 22
-
-**Flat-footed:** 22
-
-**AC modifiers:** +12 Dex, +12 natural
-
-**Hit points:** 325 (21d8+231)
-
-**Fort:** +18
-
-**Ref:** +19
-
-**Will:** +18
-
-**Defensive abilities:** rejuvenation
-
-**Fh:** 15
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft., climb 30 ft.
-
-**Melee:** 4 stings +30 (2d8+15/19-20 plus petrification)
-
-**Reach:** 20
-
-**Sp Extra:** earth glide
-
-**Space:** 5
-
-**Spec Att:** irradiate domain
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +26
-
-**Per day:**
-
-- 1/day: blight (DC 22), command plants (DC 21), dominate monster (aberrations, animals, and magical
-  beasts only, DC 26), greater curse terrain, hallucinatory terrain (DC 21), hungry pit (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 34, Con 32, Int 22, Wis 29, Cha 24
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +30 (+34 sunder)
-
-**Combat maneuver defense:** 52 (54 vs. sunder, can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Greater Sunder, Improved Critical
-(sting), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Skill Focus (Stealth),
-Staggering Critical
-
-**Skills:** Bluff +28, Climb +44, Intimidate +28, Knowledge (dungeoneering, geography) +27,
-Perception +30, Sense Motive +30, Stealth +39 (+47 in caverns)
-
-**Racial Modifiers:** +8 Stealth in caverns
-
-**Languages:** Aklo, Undercommon; domain [telepathy](ref/umr/telepathy)
-
-**Special qualities:** cursed domain, [favored terrain](ref/ability/favored-terrain) (underground)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

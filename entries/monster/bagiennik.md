@@ -32,89 +32,69 @@ abilities = ["8", "14", "13", "15", "10", "17"]
 _This small, lizard-like creature has a humanoid upper body and a long tail with frilled
 extensions._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +2
+Perception: +19
+Senses: Disease, Scent
+Size: small
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 15
+AC modifiers: +2 Dex, +4 natural, +1 size
+Hit points: 66 (12d6+24)
+Fort: +5
+Ref: +10
+Will: +8
+Dr: 5/cold iron
+Resist: acid 5, fire 5
+:::
 
-**Initiative:** +2
+### Offense
 
-**Perception:** +19
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Melee: 2 claws +9 (1d4-1)
+Ranged: nasal spray +10 touch (3d6 fire, 3d6 acid, and nasal burn)
+:::
 
-**Senses:** Disease, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +10
+Per day: 3/day: cure light wounds, remove disease\
+1/day: cure moderate wounds, remove blindness/deafness
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 8, Dex 14, Con 13, Int 15, Wis 10, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Alertness, Self-Sufficient, Skill Focus (Heal), Toughness, Weapon Finesse, Weapon Focus (nasal spray)
+Skills: Bluff +10, Diplomacy +12, Escape Artist +9, Heal +22, Use Magic Device +18
+Languages: Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +4 natural, +1 size
-
-**Hit points:** 66 (12d6+24)
-
-**Fort:** +5
-
-**Ref:** +10
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Resist:** acid 5, fire 5
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Melee:** 2 claws +9 (1d4-1)
-
-**Ranged:** nasal spray +10 touch (3d6 fire, 3d6 acid, and nasal burn)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**Per day:**
-
-- 3/day: cure light wounds, remove disease
-- 1/day: cure moderate wounds, remove blindness/deafness
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con 13, Int 15, Wis 10, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Alertness, Self-Sufficient, Skill Focus (Heal), Toughness, Weapon Finesse, Weapon Focus
-(nasal spray)
-
-**Skills:** Bluff +10, Diplomacy +12, Escape Artist +9, Heal +22, Use Magic Device +18
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** cold rivers
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: cold rivers
+Organization: solitary, pair, or gang (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

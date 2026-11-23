@@ -30,73 +30,59 @@ abilities = ["16", "10", "17", "1", "13", "6"]
 _This burrowing, bug-like monster scuttles about on six legs, drooling noxious green ichor from its
 clacking mandibles._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +0
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 60
+Experience points: 800
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 16
+AC modifiers: +7 natural, -1 size
+Hit points: 28 (3d10+12)
+Fort: +6
+Ref: +3
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Melee: bite +5 (2d6+4 plus 1d4 acid and [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: spit acid
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 10, Con 17, Int 1, Wis 13, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 17 (25 vs. trip)
+Feats: Skill Focus (Perception), Toughness
+Skills: Climb +8, Perception +8
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 natural, -1 size
-
-**Hit points:** 28 (3d10+12)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Melee:** bite +5 (2d6+4 plus 1d4 acid and [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** spit acid
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 10, Con 17, Int 1, Wis 13, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 17 (25 vs. trip)
-
-**Feats:** Skill Focus (Perception), Toughness
-
-**Skills:** Climb +8, Perception +8
-
-**Ecology**
-
-**Environment:** temperate or warm plains
-
-**Organization:** solitary, pair, or nest (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm plains
+Organization: solitary, pair, or nest (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

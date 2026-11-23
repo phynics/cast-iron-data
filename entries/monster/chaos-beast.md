@@ -30,73 +30,59 @@ abilities = ["17", "15", "16", "10", "12", "11"]
 _This thing is a horrid mass of barbed tentacles, glaring eyes, and gnashing teeth, twisting upon
 itself and reshaping into new forms._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic neutral
+Initiative: +6
+Size: medium
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Extraplanar
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +2 Dex, +1 dodge, +7 natural
+Hit points: 85 (9d10+36)
+Fort: +9
+Ref: +8
+Will: +4
+Amorph: present
+Defensive abilities: resistant to transformation
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft.
+Melee: 4 claws +13 (1d6+3 plus corporeal instability)
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 15, Con 16, Int 10, Wis 12, Cha 11
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 25 (can't be tripped)
+Feats: Dodge, Improved Initiative, Mobility, Toughness, Weapon Focus (claw)
+Skills: Acrobatics +14 (+10 jump), Climb +15
+:::
 
-**Subtype:** Chaotic, Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +1 dodge, +7 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +4
-
-**Amorph:** present
-
-**Defensive abilities:** resistant to transformation
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 4 claws +13 (1d6+3 plus corporeal instability)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 16, Int 10, Wis 12, Cha 11
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Mobility, Toughness, Weapon Focus (claw)
-
-**Skills:** Acrobatics +14 (+10 jump), Climb +15
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or invasion (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or invasion (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

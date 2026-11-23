@@ -30,75 +30,60 @@ abilities = ["23", "10", "20", "1", "13", "2"]
 _This crocodile is nearly half again as large as a normal crocodile, and seems to smile with its
 long, toothed mouth as it lunges forward._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: +10 natural, -2 size
+Hit points: 57 (6d8+30)
+Fort: +10
+Ref: +5
+Will: +3
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: bite +8 (2d6+6 plus [grab](ref/umr/grab)), tail slap +3 (1d8+3)
+Reach: 15
+Space: 15
+Spec Att: death roll, lunging bite
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 10, Con 20, Int 1, Wis 13, Cha 2
+Base attack bonus: +4
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 22
+Feats: Improved Initiative, Skill Focus (Perception, Stealth)
+Skills: Perception +9, Stealth +2 (+10 in water), Swim +14
+Racial Modifiers: +8 Stealth in water
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** +10 natural, -2 size
-
-**Hit points:** 57 (6d8+30)
-
-**Fort:** +10
-
-**Ref:** +5
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** bite +8 (2d6+6 plus [grab](ref/umr/grab)), tail slap +3 (1d8+3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** death roll, lunging bite
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 10, Con 20, Int 1, Wis 13, Cha 2
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 22
-
-**Feats:** Improved Initiative, Skill Focus (Perception, Stealth)
-
-**Skills:** Perception +9, Stealth +2 (+10 in water), Swim +14
-
-**Racial Modifiers:** +8 Stealth in water
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** tropical coasts and rivers
-
-**Organization:** solitary, pair, or float (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: tropical coasts and rivers
+Organization: solitary, pair, or float (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

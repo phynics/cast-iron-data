@@ -30,103 +30,74 @@ abilities = ["18", "13", "16", "11", "14", "15"]
 _This brown, shaggy-furred beast stands on slate grey hooves. Its head resembles that of a maniacal
 horned ape._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +1
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Detect good, Detect magic, See invisibility
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 2,400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +3
+Will: +8
+Dr: 10/good or silver
+Immune: acid, death effects, disease, mind-affecting effects, paralysis, poison, polymorph effects, sleep effects
+Resist: cold 10, electricity 10, fire 10
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Br Weap: 30-ft. cone; 6d6 fire damage; Reflex DC 17 for half; usable once every 1d4 rounds
+Melee: bite +11 (2d6+4), 2 claws +11 (1d6+4)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+Constant: detect good, detect magic, see invisibility
+At will: dimension door
+Per day: 3/day: dispel magic, fly\
+1/day: hold monster (DC 17), slow (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
+### Statistics
 
-**Subtype:** Daemon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 13, Con 16, Int 11, Wis 14, Cha 15
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 24
+Feats: Alertness, Blind-Fight, Power Attack, Step Up
+Skills: Bluff +13, Intimidate +11, Knowledge (planes) +9, Perception +15
+Languages: Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: drawn to service
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +3
-
-**Will:** +8
-
-**Dr:** 10/good or silver
-
-**Immune:** acid, death effects, disease, mind-affecting effects, paralysis, poison, polymorph
-effects, sleep effects
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 30-ft. cone; 6d6 fire damage; Reflex DC 17 for half; usable once every 1d4 rounds
-
-**Melee:** bite +11 (2d6+4), 2 claws +11 (1d6+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**Constant:**
-
-- detect good, detect magic, see invisibility
-
-**At will:**
-
-- dimension door
-
-**Per day:**
-
-- 3/day: dispel magic, fly
-- 1/day: hold monster (DC 17), slow (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 16, Int 11, Wis 14, Cha 15
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24
-
-**Feats:** Alertness, Blind-Fight, Power Attack, Step Up
-
-**Skills:** Bluff +13, Intimidate +11, Knowledge (planes) +9, Perception +15
-
-**Languages:** Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** drawn to service
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

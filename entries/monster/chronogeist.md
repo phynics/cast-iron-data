@@ -31,80 +31,62 @@ abilities = ["-", "33", "-", "10", "19", "25"]
 _This translucent, orange-tinged creature looks like it was once a living person, though its face is
 a twisted mask of confusion and terror and its vestments surround it like a ghostly shroud._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Initiative: +15
+Lifesense: present
+Size: medium
+Perception: +31
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +15
+::: statblock
+Armor class: 29
+Touch: 29
+Flat-footed: 17
+AC modifiers: +7 deflection, +11 Dex, +1 dodge
+Hit points: 207 (18d8+126)
+Fort: +13
+Ref: +17
+Will: +17
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Lifesense:** present
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: 2 incorporeal touches +24 touch (8d6 negative energy/19-20)
+Spec Att: disrupt time, temporal screech
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 33, Con -, Int 10, Wis 19, Cha 25
+Base attack bonus: +13
+Combat maneuver bonus: +24
+Combat maneuver defense: 42
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Critical (incorporeal touch), Improved Initiative, Improved Iron Will, Iron Will, Mobility, Skill Focus (Perception)
+Skills: Fly +40, Intimidate +28, Perception +31, Sense Motive +25
+Languages: Thassilonian
+:::
 
-**Subtype:** Incorporeal
+### Ecology {#stat-ecology}
 
-**Type:** undead
-
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 29
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 deflection, +11 Dex, +1 dodge
-
-**Hit points:** 207 (18d8+126)
-
-**Fort:** +13
-
-**Ref:** +17
-
-**Will:** +17
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** 2 incorporeal touches +24 touch (8d6 negative energy/19-20)
-
-**Spec Att:** disrupt time, temporal screech
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 33, Con -, Int 10, Wis 19, Cha 25
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 42
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Critical (incorporeal touch), Improved
-Initiative, Improved Iron Will, Iron Will, Mobility, Skill Focus (Perception)
-
-**Skills:** Fly +40, Intimidate +28, Perception +31, Sense Motive +25
-
-**Languages:** Thassilonian
-
-**Ecology**
-
-**Environment:** Crystilan (Xin-Edasseril)
-
-**Organization:** solitary, pair, or keening (3-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: Crystilan (Xin-Edasseril)
+Organization: solitary, pair, or keening (3-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

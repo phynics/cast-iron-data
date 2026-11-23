@@ -29,107 +29,74 @@ abilities = ["31", "11", "31", "16", "16", "20"]
 _Four arms grace the torso of this towering monstrosity. The monster's eyes shine with a mix of
 intelligence and cruelty._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Size: huge
+Initiative: +0
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 28
+Touch: 8
+Flat-footed: 28
+AC modifiers: +20 natural, -2 size
+Hit points: 186 (12d10+120)
+Fort: +18
+Ref: +4
+Will: +11
+Dr: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 24
+:::
 
-**Initiative:** +0
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: 2 pincers +20 (2d8+10/19-20), 2 claws +20 (1d6+10), bite +20 (1d8+10)
+Reach: 15
+Rend: 2 pincers, 2d8+15
+Space: 15
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Constant: true seeing
+At will: chaos hammer (DC 19), confusion (DC 19), dispel magic, mirror image, reverse gravity (DC 22), greater teleport, self plus 50 lbs. of objects only, veil, self only, unholy blight
+Per day: 1/day: power word stun, summon (level 4, 1 glabrezu 20% or 1d2 vrocks 50%)
+Per month: wish, granted to a mortal humanoid only
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 31, Dex 11, Con 31, Int 16, Wis 16, Cha 20
+Base attack bonus: +12
+Combat maneuver bonus: +24
+Combat maneuver defense: 34
+Feats: Cleave, Great Cleave, Improved Critical (pincer), Persuasive, Power Attack, Vital Strike
+Skills: Bluff +28, Diplomacy +22, Sense Motive +18, Stealth +7, Use Magic Device +17
+Racial Modifiers: +8 Bluff, +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 8
-
-**Flat-footed:** 28
-
-**AC modifiers:** +20 natural, -2 size
-
-**Hit points:** 186 (12d10+120)
-
-**Fort:** +18
-
-**Ref:** +4
-
-**Will:** +11
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 pincers +20 (2d8+10/19-20), 2 claws +20 (1d6+10), bite +20 (1d8+10)
-
-**Reach:** 15
-
-**Rend:** 2 pincers, 2d8+15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- chaos hammer (DC 19), confusion (DC 19), dispel magic, mirror image, reverse gravity (DC 22),
-  greater teleport, self plus 50 lbs. of objects only, veil, self only, unholy blight
-
-**Per day:**
-
-- 1/day: power word stun, summon (level 4, 1 glabrezu 20% or 1d2 vrocks 50%)
-
-**Per month:**
-
-- wish, granted to a mortal humanoid only
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 11, Con 31, Int 16, Wis 16, Cha 20
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 34
-
-**Feats:** Cleave, Great Cleave, Improved Critical (pincer), Persuasive, Power Attack, Vital Strike
-
-**Skills:** Bluff +28, Diplomacy +22, Sense Motive +18, Stealth +7, Use Magic Device +17
-
-**Racial Modifiers:** +8 Bluff, +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or troop (1 glabrezu, 1 [succubus](ref/monster/demon-succubus), and 2-5
-[vrocks](ref/monster/demon-vrock))
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or troop (1 glabrezu, 1 [succubus](ref/monster/demon-succubus), and 2-5 [vrocks](ref/monster/demon-vrock))
+Treasure: Standard
+:::
 
 ### Description
 

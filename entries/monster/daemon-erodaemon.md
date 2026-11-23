@@ -33,105 +33,73 @@ abilities = ["20", "21", "21", "19", "16", "22"]
 _This blue-skinned woman has ram's horns, a third eye in her forehead, and a long, scaled tail that
 ends in a hissing viper's head._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft., Detect good
+Subtype: Daemon, Evil, Extraplanar, Shapechanger
+Experience points: 12,800
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 25
+Touch: 16
+Flat-footed: 19
+AC modifiers: +5 Dex, +1 dodge, +9 natural
+Hit points: 147 (14d10+70)
+Fort: +9
+Ref: +14
+Will: +12
+Dr: 10/good or silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 22
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: bite +19 (1d8+5 plus 1d4 Cha drain), 2 claws +19 (1d6+5)
+Sneak: +2d6
+Spec Att: object of desire, wilting kiss
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +20
+Constant: detect good, tongues
+At will: death knell (DC 18), detect thoughts (DC 18), greater teleport, self plus 50 lbs. of objects only, unnatural lust (DC 18)
+Per day: 3/day: desecrate, crushing despair (DC 20), enervation, quickened suggestion (DC 19)\
+1/day: modify memory (DC 20), summon (level 4, 1d3 [ceustodaemons](ref/monster/daemon-ceustodaemon) 35%), utter contempt (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good
+### Statistics
 
-**Subtype:** Daemon, Evil, Extraplanar, Shapechanger
+::: statblock
+Ability scores: Str 20, Dex 21, Con 21, Int 19, Wis 16, Cha 22
+Base attack bonus: +14
+Combat maneuver bonus: +19
+Combat maneuver defense: 35
+Feats: Agile Maneuvers, Combat Reflexes, Deceitful, Dodge, Improved Initiative, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion), Skill Focus (Bluff)
+Skills: Bluff +33, Diplomacy +23, Disguise +24, Sense Motive +20, Sleight of Hand +22, Stealth +22
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 16
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 Dex, +1 dodge, +9 natural
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +9
-
-**Ref:** +14
-
-**Will:** +12
-
-**Dr:** 10/good or silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +19 (1d8+5 plus 1d4 Cha drain), 2 claws +19 (1d6+5)
-
-**Sneak:** +2d6
-
-**Spec Att:** object of desire, wilting kiss
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +20
-
-**Constant:**
-
-- detect good, tongues
-
-**At will:**
-
-- death knell (DC 18), detect thoughts (DC 18), greater teleport, self plus 50 lbs. of objects only,
-  unnatural lust (DC 18)
-
-**Per day:**
-
-- 3/day: desecrate, crushing despair (DC 20), enervation, quickened suggestion (DC 19)
-- 1/day: modify memory (DC 20), summon (level 4, 1d3
-  [ceustodaemons](ref/monster/daemon-ceustodaemon) 35%), utter contempt (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 21, Con 21, Int 19, Wis 16, Cha 22
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 35
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Deceitful, Dodge, Improved Initiative, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion), Skill Focus (Bluff)
-
-**Skills:** Bluff +33, Diplomacy +23, Disguise +24, Sense Motive +20, Sleight of Hand +22, Stealth
-+22
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.,
-_[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or harem (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or harem (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

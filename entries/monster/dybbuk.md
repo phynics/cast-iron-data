@@ -30,97 +30,72 @@ abilities = ["-", "32", "-", "15", "18", "25"]
 
 _This grinning spectre has mad eyes and blood-red hands that twitch and jerk like a puppeteer's._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +15
+Size: medium
+Alignment: Neutral evil
+Perception: +29
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 51,200
+:::
 
-**Initiative:** +15
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 28
+Touch: 28
+Flat-footed: 17
+AC modifiers: +7 deflection, +11 Dex
+Hit points: 207 (18d8+126)
+Fort: +13
+Ref: +17
+Will: +17
+Chan Res: +4
+Dr: 10/good
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Sr: 26
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +29
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: pain touch +25 touch (7d6)
+Spec Att: malevolence
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+At will: detect thoughts (DC 19), telekinesis (DC 22)
+Per day: 3/day: dominate monster (DC 26), feeblemind (DC 22), inflict serious wounds (DC 20)\
+1/day: greater heroism, modify memory (DC 21), tongues
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 32, Con -, Int 15, Wis 18, Cha 25
+Base attack bonus: +13
+Combat maneuver bonus: +24
+Combat maneuver defense: 41
+Feats: Alertness, Blind-Fight, Combat Reflexes, Flyby Attack, Improved Initiative, Iron Will, Lunge, Step Up, Weapon Focus (pain touch)
+Skills: Bluff +25, Diplomacy +25, Sense Motive +29, Stealth +32
+Languages: Abyssal, Celestial, Common
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 28
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 deflection, +11 Dex
-
-**Hit points:** 207 (18d8+126)
-
-**Fort:** +13
-
-**Ref:** +17
-
-**Will:** +17
-
-**Chan Res:** +4
-
-**Dr:** 10/good
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** pain touch +25 touch (7d6)
-
-**Spec Att:** malevolence
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**At will:**
-
-- detect thoughts (DC 19), telekinesis (DC 22)
-
-**Per day:**
-
-- 3/day: dominate monster (DC 26), feeblemind (DC 22), inflict serious wounds (DC 20)
-- 1/day: greater heroism, modify memory (DC 21), tongues
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 32, Con -, Int 15, Wis 18, Cha 25
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 41
-
-**Feats:** Alertness, Blind-Fight, Combat Reflexes, Flyby Attack, Improved Initiative, Iron Will,
-Lunge, Step Up, Weapon Focus (pain touch)
-
-**Skills:** Bluff +25, Diplomacy +25, Sense Motive +29, Stealth +32
-
-**Languages:** Abyssal, Celestial, Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

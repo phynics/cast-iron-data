@@ -31,91 +31,68 @@ abilities = ["21", "15", "16", "8", "12", "13"]
 _This reddish-colored mastiff stands eye to eye with most dwarves. Within its powerful frame rumbles
 the distant sound of thunder._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic good
+Initiative: +6
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Scent
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 51 (6d10+18)
+Fort: +5
+Ref: +7
+Will: +6
+Dr: 5/cold iron
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: bite +11 (1d10+7 plus 1d6 sonic and trip)
+Spec Att: righteous bite, thunderous bark
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +8
+Constant: freedom of movement
+At will: open/close
+Per day: 3/day: dimension door, knock
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 21, Dex 15, Con 16, Int 8, Wis 12, Cha 13
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 23 (27 vs. trip)
+Feats: Dimensional Agility, Dimensional Assault, Improved Initiative
+Skills: Acrobatics +10 (+14 when jumping), Intimidate +6, Knowledge (planes) +6, Perception +10
+Languages: Celestial
+Special qualities: unbound
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +6
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +11 (1d10+7 plus 1d6 sonic and trip)
-
-**Spec Att:** righteous bite, thunderous bark
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +8
-
-**Constant:**
-
-- freedom of movement
-
-**At will:**
-
-- open/close
-
-**Per day:**
-
-- 3/day: dimension door, knock
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 15, Con 16, Int 8, Wis 12, Cha 13
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 23 (27 vs. trip)
-
-**Feats:** Dimensional Agility, Dimensional Assault, Improved Initiative
-
-**Skills:** Acrobatics +10 (+14 when jumping), Intimidate +6, Knowledge (planes) +6, Perception +10
-
-**Languages:** Celestial
-
-**Special qualities:** unbound
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or pack (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or pack (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -28,69 +28,57 @@ abilities = ["8", "15", "14", "2", "11", "5"]
 _This small reptile has a snake-like neck and head, a bird-like body with strong legs for running,
 and a whip-like tail._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +6
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 natural, +2 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +4
+Will: +0
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Melee: bite +1 (1d3-1 plus poison)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 15, Con 14, Int 2, Wis 11, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 9
+Feats: Improved Initiative
+Skills: Perception +4, Swim +10
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 natural, +2 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Melee:** bite +1 (1d3-1 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 14, Int 2, Wis 11, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 9
-
-**Feats:** Improved Initiative
-
-**Skills:** Perception +4, Swim +10
-
-**Ecology**
-
-**Environment:** temperate or warm forests or plains
-
-**Organization:** solitary, pair, or pack (5-20)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests or plains
+Organization: solitary, pair, or pack (5-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

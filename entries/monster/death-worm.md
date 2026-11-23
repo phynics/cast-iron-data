@@ -30,83 +30,64 @@ abilities = ["18", "13", "16", "3", "11", "5"]
 _This large worm's body is muscular and scaly, its mouth a nightmare of row upon row of triangular
 teeth._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +1
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 60
+Experience points: 2,400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +7
+Will: +4
+Defensive abilities: corrosive blood, venomous skin
+Immune: acid, electricity, poison
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Br Weap: 30-ft. line, 8d6 acid damage, Reflex DC 17 for half, usable every 1d4 rounds
+Melee: bite +11 (2d8+6 plus poison)
+Ranged: electrical jolt +8 ranged touch (4d6 electricity)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 13, Con 16, Int 3, Wis 11, Cha 5
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 24
+Feats: Cleave, Improved Overrun, Iron Will, Power Attack
+Skills: Perception +11, Stealth -3 (+13 in deserts)
+Racial Modifiers: +16 Stealth in deserts or rocky areas
+Languages: Terran
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +4
-
-**Defensive abilities:** corrosive blood, venomous skin
-
-**Immune:** acid, electricity, poison
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Br Weap:** 30-ft. line, 8d6 acid damage, Reflex DC 17 for half, usable every 1d4 rounds
-
-**Melee:** bite +11 (2d8+6 plus poison)
-
-**Ranged:** electrical jolt +8 ranged touch (4d6 electricity)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 16, Int 3, Wis 11, Cha 5
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24
-
-**Feats:** Cleave, Improved Overrun, Iron Will, Power Attack
-
-**Skills:** Perception +11, Stealth -3 (+13 in deserts)
-
-**Racial Modifiers:** +16 Stealth in deserts or rocky areas
-
-**Languages:** Terran
-
-**Ecology**
-
-**Environment:** warm deserts, plains, or hills
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts, plains, or hills
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

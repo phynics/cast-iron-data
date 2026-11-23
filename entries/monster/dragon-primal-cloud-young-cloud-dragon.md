@@ -30,84 +30,66 @@ abilities = ["18", "11", "17", "12", "16", "15"]
 _The blue-white scales of this four-horned dragon exude wisps of fog. The dragon's snout is short
 but filled with sharp teeth._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic neutral
+Type: dragon
+Initiative: +0
+Size: large
+Perception: +16
+Senses: Dragon senses, Mist vision
+Subtype: Air, Extraplanar
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 20
+AC modifiers: +11 natural, -1 size
+Hit points: 95 (10d12+30)
+Fort: +10
+Ref: +7
+Will: +10
+Immune: electricity, paralysis, sleep
+:::
 
-**Initiative:** +0
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., swim 40 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, 6d8 electricity, DC 18
+Melee: bite +13 (2d6+6), 2 claws +14 (1d8+4), 2 wings +11 (1d6+2), tail slap +11 (1d8+6)
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+At will: fog cloud, obscuring mist
+:::
 
-**Senses:** Dragon senses, Mist vision
+### Statistics
 
-**Subtype:** Air, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 11, Con 17, Int 12, Wis 16, Cha 15
+Base attack bonus: +10
+Combat maneuver bonus: +15
+Combat maneuver defense: 25 (29 vs. trip)
+Feats: Dazzling Display, Multiattack, Power Attack, Skill Focus (Diplomacy), Weapon Focus (claws)
+Skills: Appraise +14, Diplomacy +21, Fly +7
+Languages: Auran, Draconic
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +11 natural, -1 size
-
-**Hit points:** 95 (10d12+30)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +10
-
-**Immune:** electricity, paralysis, sleep
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 6d8 electricity, DC 18
-
-**Melee:** bite +13 (2d6+6), 2 claws +14 (1d8+4), 2 wings +11 (1d6+2), tail slap +11 (1d8+6)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**At will:**
-
-- fog cloud, obscuring mist
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 11, Con 17, Int 12, Wis 16, Cha 15
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 25 (29 vs. trip)
-
-**Feats:** Dazzling Display, Multiattack, Power Attack, Skill Focus (Diplomacy), Weapon Focus
-(claws)
-
-**Skills:** Appraise +14, Diplomacy +21, Fly +7
-
-**Languages:** Auran, Draconic
-
-**Ecology**
-
-**Environment:** any sky ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any sky ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

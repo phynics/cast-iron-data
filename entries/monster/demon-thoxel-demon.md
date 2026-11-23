@@ -31,95 +31,71 @@ abilities = ["19", "15", "17", "8", "10", "14"]
 _Dead white scars and raw red flesh crisscross this creature's scorched and sallow skin as though it
 has been flogged and branded a thousand times._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: insolence (5 ft., DC 15)
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 1,600
+:::
 
-**aura:** insolence (5 ft., DC 15)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 18
+AC modifiers: +6 armor, +2 Dex, +2 natural
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +7
+Will: +2
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+Melee: mwk two-bladed sword +10/+10/+7 (1d8+6/19-20)
+Ranged: composite longbow +8/+3 (1d8+4/×3)
+Spec Att: betrayer's blade, disrupt coordination
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+At will: alter self, greater teleport, self plus 50 pounds of objects only, lesser confusion (DC 13)
+Per day: 3/day: murderous command (DC 13)
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 19, Dex 15, Con 17, Int 8, Wis 10, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Double Slice, Two-Weapon Fighting, Weapon Focus (two-bladed sword)
+Skills: Bluff +11, Craft (weapons, armor) +4
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology {#stat-ecology}
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 armor, +2 Dex, +2 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +2
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk two-bladed sword +10/+10/+7 (1d8+6/19-20)
-
-**Ranged:** composite longbow +8/+3 (1d8+4/×3)
-
-**Spec Att:** betrayer's blade, disrupt coordination
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**At will:**
-
-- alter self, greater teleport, self plus 50 pounds of objects only, lesser confusion (DC 13)
-
-**Per day:**
-
-- 3/day: murderous command (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 17, Int 8, Wis 10, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Double Slice, Two-Weapon Fighting, Weapon Focus (two-bladed sword)
-
-**Skills:** Bluff +11, Craft (weapons, armor) +4
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, squad (3-6), or platoon (7-12)
-
-**Treasure:** Standard (chainmail, cl, mwk -two-bladed sword); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, squad (3-6), or platoon (7-12)
+Treasure: Standard (chainmail, cl, mwk -two-bladed sword); other treasure
+:::
 
 ### Special Abilities
 

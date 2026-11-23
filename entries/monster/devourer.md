@@ -34,95 +34,70 @@ abilities = ["28", "16", "-", "19", "16", "21"]
 _This dry, hovering corpse's chest is a prison of jagged ribs, within which is trapped a small
 tormented ghostly form._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Type: undead
+Experience points: 12,800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 25
+Touch: 12
+Flat-footed: 22
+AC modifiers: +3 Dex, +13 natural, -1 size
+Hit points: 133 (14d8+70)
+Fort: +9
+Ref: +7
+Will: +12
+Defensive abilities: spell deflection
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 22
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +20
+::: statblock
+Speed: 30 ft., fly 20 ft. (perfect)
+E Drain: 1 level, DC 20
+Melee: 2 claws +18 (1d8+9 plus energy drain)
+Reach: 10
+Space: 10
+Spec Att: devour soul
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+At will: animate dead\#4, bestow curse\#4 (DC 19), confusion\#4 (DC 19), control undead\#7 (DC 22), death knell\#2 (DC 17), ghoul touch\#2 (DC 17), inflict serious wounds\#3 (DC 18), lesser planar ally\#4, ray of enfeeblement\#1, spectral hand\#2, suggestion\#3 (DC 18), true seeing\#6, vampiric touch\#3 (DC 18)
+:::
 
-**Subtype:** Extraplanar
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 28, Dex 16, Con -, Int 19, Wis 16, Cha 21
+Base attack bonus: +10
+Combat maneuver bonus: +20
+Combat maneuver defense: 33
+Feats: Blind-Fight, Cleave, Combat Casting, Combat Expertise, Improved Initiative, Improved Sunder, Power Attack
+Skills: Bluff +19, Diplomacy +14, Sense Motive +17, Spellcraft +21, Stealth +6
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 12
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 Dex, +13 natural, -1 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +12
-
-**Defensive abilities:** spell deflection
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (perfect)
-
-**E Drain:** 1 level, DC 20
-
-**Melee:** 2 claws +18 (1d8+9 plus energy drain)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** devour soul
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**At will:**
-
-- animate dead\#4, bestow curse\#4 (DC 19), confusion\#4 (DC 19), control undead\#7 (DC 22), death
-  knell\#2 (DC 17), ghoul touch\#2 (DC 17), inflict serious wounds\#3 (DC 18), lesser planar
-  ally\#4, ray of enfeeblement\#1, spectral hand\#2, suggestion\#3 (DC 18), true seeing\#6, vampiric
-  touch\#3 (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 16, Con -, Int 19, Wis 16, Cha 21
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 33
-
-**Feats:** Blind-Fight, Cleave, Combat Casting, Combat Expertise, Improved Initiative, Improved
-Sunder, Power Attack
-
-**Skills:** Bluff +19, Diplomacy +14, Sense Motive +17, Spellcraft +21, Stealth +6
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

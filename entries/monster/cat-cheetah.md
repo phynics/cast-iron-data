@@ -28,69 +28,57 @@ abilities = ["17", "19", "15", "2", "12", "6"]
 _This large, sleek feline has a golden coat spotted with black. Its long and powerful legs are
 obviously capable of great speed._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +8
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +7
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +6 (1d6+3 plus [trip](ref/umr/trip)), 2 claws +6 (1d3+3)
+Sp Extra: sprint
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 17, Dex 19, Con 15, Int 2, Wis 12, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Improved Initiative, Weapon Finesse
+Skills: Acrobatics +8, Perception +5, Stealth +8 (+12 in tall grass)
+Racial Modifiers: +4 Stealth in tall grass
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +6 (1d6+3 plus [trip](ref/umr/trip)), 2 claws +6 (1d3+3)
-
-**Sp Extra:** sprint
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 19, Con 15, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +8, Perception +5, Stealth +8 (+12 in tall grass)
-
-**Racial Modifiers:** +4 Stealth in tall grass
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

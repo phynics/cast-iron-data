@@ -30,97 +30,72 @@ abilities = ["21", "15", "25", "14", "16", "16"]
 _A cloud of spores and a trail of feathers surrounds this twisted cross between a man and a gigantic
 vulture._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +6
+Size: large
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 20
+AC modifiers: +2 Dex, +11 natural, -1 size
+Hit points: 112 (9d10+63)
+Fort: +13
+Ref: +10
+Will: +6
+Dr: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 20
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: 2 claws +13 (2d6+5), bite +13 (1d8+5), 2 talons +13 (1d6+5)
+Reach: 10
+Space: 10
+Spec Att: dance of ruin, spores, stunning screech
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+At will: greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 18)
+Per day: 1/day: heroism, mirror image, summon (level 3, 1 vrock 35%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 21, Dex 15, Con 25, Int 14, Wis 16, Cha 16
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 27
+Feats: Cleave, Combat Reflexes, Improved Initiative, Lightning Reflexes, Power Attack
+Skills: Fly +12, Intimidate +15, Knowledge (planes) +14, Perception +23
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +11 natural, -1 size
-
-**Hit points:** 112 (9d10+63)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +6
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** 2 claws +13 (2d6+5), bite +13 (1d8+5), 2 talons +13 (1d6+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** dance of ruin, spores, stunning screech
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 18)
-
-**Per day:**
-
-- 1/day: heroism, mirror image, summon (level 3, 1 vrock 35%)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 15, Con 25, Int 14, Wis 16, Cha 16
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 27
-
-**Feats:** Cleave, Combat Reflexes, Improved Initiative, Lightning Reflexes, Power Attack
-
-**Skills:** Fly +12, Intimidate +15, Knowledge (planes) +14, Perception +23
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or gang (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or gang (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

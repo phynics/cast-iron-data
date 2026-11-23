@@ -35,74 +35,60 @@ abilities = ["15", "9", "14", "8", "11", "10"]
 _Bulbous eyes glare atop this creature's decidedly toad-like head. A multitude of warts and bumps
 decorate its greenish skin._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: medium
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Boggard
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 14
+Touch: 9
+Flat-footed: 14
+AC modifiers: +2 armor, -1 Dex, +3 natural
+Hit points: 22 (3d8+9)
+Fort: +5
+Ref: +0
+Will: +1
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: morningstar +5 (1d8+3), tongue -1 touch (sticky tongue)
+Spec Att: terrifying croak
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 9, Con 14, Int 8, Wis 11, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 13
+Feats: Toughness, Weapon Focus (morningstar)
+Skills: Acrobatics +2 (+14 jumping), Stealth -1 (+7 in swamps), Swim +10
+Racial Modifiers: +16 Acrobatics when jumping, +4 Perception, +8 Stealth in swamps
+Languages: Boggard
+Special qualities: [hold breath](ref/umr/hold-breath), swamp stride
+:::
 
-**Subtype:** Boggard\
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 9
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 armor, -1 Dex, +3 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +5
-
-**Ref:** +0
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** morningstar +5 (1d8+3), tongue -1 touch (sticky tongue)
-
-**Spec Att:** terrifying croak
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 9, Con 14, Int 8, Wis 11, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13
-
-**Feats:** Toughness, Weapon Focus (morningstar)
-
-**Skills:** Acrobatics +2 (+14 jumping), Stealth -1 (+7 in swamps), Swim +10
-
-**Racial Modifiers:** +16 Acrobatics when jumping, +4 Perception, +8 Stealth in swamps
-
-**Languages:** Boggard
-
-**Special qualities:** [hold breath](ref/umr/hold-breath), swamp stride
-
-**Ecology**
-
-**Environment:** temperate marshes
-
-**Organization:** solitary, pair, or army (3-12)
-
-**Treasure:** NPC gear (leather armor, morningstar); other treasure
+::: statblock
+Environment: temperate marshes
+Organization: solitary, pair, or army (3-12)
+Treasure: NPC gear (leather armor, morningstar); other treasure
+:::
 
 ### Special Abilities
 

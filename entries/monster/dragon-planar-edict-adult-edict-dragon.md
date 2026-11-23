@@ -29,115 +29,78 @@ special_qualities = "planar infusion (180 ft.)"
 abilities = ["31", "8", "25", "20", "25", "20"]
 +++
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 25)
+Type: dragon
+Size: huge
+Initiative: +3
+Alignment: Lawful neutral
+Perception: +30
+Senses: Dragon senses
+Subtype: Extraplanar, Lawful
+Experience points: 76,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 25)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 32
+Touch: 7
+Flat-footed: 32
+AC modifiers: -1 Dex, +23 natural, +2 shield, -2 size
+Hit points: 270 (20d10+140)
+Fort: +19
+Ref: +13
+Will: +19
+Defensive abilities: parapet wings
+Dr: 5/chaotic
+Immune: disease, fear, paralysis, poison, sleep
+Sr: 29
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 60 ft., fly 200 ft. (poor)
+Br Weap: 100-foot line, 12d10 slashing damage, Reflex DC 27 half
+Melee: bite +28 (2d8+15/19-20), 2 claws +28 (2d6+10), tail slap +23 (scrivener), 2 wings +29 (1d8+10)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: crush, hindering shards, powerful wings, scrivener, tail sweep
+:::
 
-**Alignment:** Lawful neutral
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +12
+3rd-level spells: 5/day: bestow curse (DC 18), dispel magic
+2nd-level spells: 7/day: calm emotions (DC 17), cure moderate wounds, resist energy
+1st-level spells: 8/day: command (DC 16), comprehend languages, detect chaos, remove fear, shield of faith
+Cantrips: At will: detect magic, guidance, light, mending, purify food and drink, read magic, stabilize
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Dragon senses
+::: statblock
+Ability scores: Str 31, Dex 8, Con 25, Int 20, Wis 25, Cha 20
+Base attack bonus: +20
+Combat maneuver bonus: +32 (+34 reposition)
+Combat maneuver defense: 45 (47 vs. reposition, 49 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Hover, Improved Critical (bite), Improved Initiative, Improved Reposition, Lightning Reflexes, Repositioning Strike, Stand Still, Weapon Focus (wing)
+Skills: Diplomacy +28, Sense Motive +30, Spellcraft +28
+Languages: Common, Draconic, plus any 20 others; _truespeech_
+Special qualities: planar infusion (180 ft.)
+:::
 
-**Subtype:** Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 32
-
-**Touch:** 7
-
-**Flat-footed:** 32
-
-**AC modifiers:** -1 Dex, +23 natural, +2 shield, -2 size
-
-**Hit points:** 270 (20d10+140)
-
-**Fort:** +19
-
-**Ref:** +13
-
-**Will:** +19
-
-**Defensive abilities:** parapet wings
-
-**Dr:** 5/chaotic
-
-**Immune:** disease, fear, paralysis, poison, sleep
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 60 ft., fly 200 ft. (poor)
-
-**Br Weap:** 100-foot line, 12d10 slashing damage, Reflex DC 27 half
-
-**Melee:** bite +28 (2d8+15/19-20), 2 claws +28 (2d6+10), tail slap +23 (scrivener), 2 wings +29
-(1d8+10)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** crush, hindering shards, powerful wings, scrivener, tail sweep
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**3rd-level spells:**
-
-- 5/day: bestow curse (DC 18), dispel magic
-
-**2nd-level spells:**
-
-- 7/day: calm emotions (DC 17), cure moderate wounds, resist energy
-
-**1st-level spells:**
-
-- 8/day: command (DC 16), comprehend languages, detect chaos, remove fear, shield of faith
-
-**Cantrips:**
-
-- At will: detect magic, guidance, light, mending, purify food and drink, read magic, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 8, Con 25, Int 20, Wis 25, Cha 20
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +32 (+34 reposition)
-
-**Combat maneuver defense:** 45 (47 vs. reposition, 49 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Hover, Improved Critical (bite), Improved Initiative,
-Improved Reposition, Lightning Reflexes, Repositioning Strike, Stand Still, Weapon Focus (wing)
-
-**Skills:** Diplomacy +28, Sense Motive +30, Spellcraft +28
-
-**Languages:** Common, Draconic, plus any 20 others; _truespeech_
-
-**Special qualities:** planar infusion (180 ft.)
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

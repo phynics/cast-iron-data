@@ -29,77 +29,61 @@ abilities = ["16", "14", "13", "4", "13", "7"]
 
 _This hunched-over wretch has long, pliable arms like tentacles capped with five wide, spiny claws._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +6
+Perception: +1
+Senses: Darkvision 60 ft.
+Size: small
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 15
+AC modifiers: +2 Dex, +4 natural, +1 size
+Hit points: 16 (3d8+3)
+Fort: +2
+Ref: +3
+Will: +4
+:::
 
-**Initiative:** +6
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft., climb 10 ft.
+Constrict: 1d4+3
+Grab: Large
+Melee: 2 tentacles +6 (1d4+3 plus grab)
+Reach: 10
+Space: 5
+Strangle: present
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 16, Dex 14, Con 13, Int 4, Wis 13, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +4 (+8 grappling)
+Combat maneuver defense: 16
+Feats: Improved Initiative, Skill Focus (Stealth)
+Skills: Climb +16, Stealth +13
+Special qualities: quickness
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +4 natural, +1 size
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft., climb 10 ft.
-
-**Constrict:** 1d4+3
-
-**Grab:** Large
-
-**Melee:** 2 tentacles +6 (1d4+3 plus grab)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Strangle:** present
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 14, Con 13, Int 4, Wis 13, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4 (+8 grappling)
-
-**Combat maneuver defense:** 16
-
-**Feats:** Improved Initiative, Skill Focus (Stealth)
-
-**Skills:** Climb +16, Stealth +13
-
-**Special qualities:** quickness
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or clutch (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or clutch (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

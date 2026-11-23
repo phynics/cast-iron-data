@@ -32,101 +32,73 @@ abilities = ["36", "26", "29", "16", "23", "21"]
 _What appears to be a grotesque mass of sewage betrays its true nature with dozens of red eyes and
 two long, slimy, claw-tipped tentacles._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: [stench](ref/umr/stench) (30 ft., DC 23)
+blindsight: 120
+Alignment: Chaotic evil
+Initiative: +12
+Size: medium
+Type: ooze
+Perception: +23
+Subtype: Blight
+Experience points: 51,200
+:::
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 23)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 30
+Touch: 18
+Flat-footed: 22
+AC modifiers: +8 Dex, +12 natural
+Hit points: 229 (17d8+153)
+Fort: +16
+Ref: +15
+Will: +13
+Defensive abilities: acidic spray, rejuvenation
+Fh: 10
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +12
+::: statblock
+Speed: 30 ft., climb 30 ft., swim 30 ft.
+Melee: 2 claws +25 (2d8+13/19-20 plus 2d6 acid)
+Reach: 15
+Space: 5
+Spec Att: plagued domain
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+Per day: 1/day: blight (DC 20), cloudkill (DC 20), command plants (DC 19), dominate monster (animals, magical beasts, and mindless oozes only, DC 24), greater curse terrain, hallucinatory terrain (DC 19)
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +23
+::: statblock
+Ability scores: Str 36, Dex 26, Con 29, Int 16, Wis 23, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +25
+Combat maneuver defense: 43 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Great Fortitude, Improved Critical (claw), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Climb +38
+Racial Modifiers: +8 Stealth in sewers
+Languages: Aklo, Undercommon; domain [telepathy](ref/umr/telepathy)
+Special qualities: command ooze, cursed domain, [favored terrain](ref/ability/favored-terrain) (underground)
+:::
 
-**Subtype:** Blight
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 18
-
-**Flat-footed:** 22
-
-**AC modifiers:** +8 Dex, +12 natural
-
-**Hit points:** 229 (17d8+153)
-
-**Fort:** +16
-
-**Ref:** +15
-
-**Will:** +13
-
-**Defensive abilities:** acidic spray, rejuvenation
-
-**Fh:** 10
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., swim 30 ft.
-
-**Melee:** 2 claws +25 (2d8+13/19-20 plus 2d6 acid)
-
-**Reach:** 15
-
-**Space:** 5
-
-**Spec Att:** plagued domain
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Per day:**
-
-- 1/day: blight (DC 20), cloudkill (DC 20), command plants (DC 19), dominate monster (animals,
-  magical beasts, and mindless oozes only, DC 24), greater curse terrain, hallucinatory terrain (DC
-  19)
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 26, Con 29, Int 16, Wis 23, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 43 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Great Fortitude, Improved Critical (claw), Improved
-Initiative, Iron Will, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Climb +38
-
-**Racial Modifiers:** +8 Stealth in sewers
-
-**Languages:** Aklo, Undercommon; domain [telepathy](ref/umr/telepathy)
-
-**Special qualities:** command ooze, cursed domain, [favored terrain](ref/ability/favored-terrain)
-(underground)
-
-**Ecology**
-
-**Environment:** any underground (sewers)
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground (sewers)
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

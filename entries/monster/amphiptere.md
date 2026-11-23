@@ -31,83 +31,64 @@ abilities = ["18", "11", "14", "7", "12", "9"]
 _This snake-bodied dragon has a sinuous tail with a spiked tip. Flared wings attach to its
 forelimbs, and it lacks rear legs._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: dragon
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 16
+AC modifiers: +7 natural, -1 size
+Hit points: 42 (5d12+10)
+Fort: +6
+Ref: +4
+Will: +5
+Immune: paralysis, sleep
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., fly 60 ft. (average)
+Constrict: 1d10+4
+Melee: tail +9 (1d8+4), bite +8 (1d10+4 plus [grab](ref/umr/grab)), 2 wings +3 (1d4+2)
+Reach: 5
+Reach P: 10 ft. with tail
+Space: 10
+Spec Att: impale
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 18, Dex 11, Con 14, Int 7, Wis 12, Cha 9
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 20 (can't be tripped)
+Feats: Flyby Attack, Improved Initiative, Weapon Focus (tail)
+Skills: Fly +10, Perception +13, Sense Motive +9, Stealth +4
+Racial Modifiers: +4 Fly, +4 Perception
+Languages: Draconic
+Special qualities: limited flight
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 natural, -1 size
-
-**Hit points:** 42 (5d12+10)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +5
-
-**Immune:** paralysis, sleep
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (average)
-
-**Constrict:** 1d10+4
-
-**Melee:** tail +9 (1d8+4), bite +8 (1d10+4 plus [grab](ref/umr/grab)), 2 wings +3 (1d4+2)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tail
-
-**Space:** 10
-
-**Spec Att:** impale
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 11, Con 14, Int 7, Wis 12, Cha 9
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20 (can't be tripped)
-
-**Feats:** Flyby Attack, Improved Initiative, Weapon Focus (tail)
-
-**Skills:** Fly +10, Perception +13, Sense Motive +9, Stealth +4
-
-**Racial Modifiers:** +4 Fly, +4 Perception
-
-**Languages:** Draconic
-
-**Special qualities:** limited flight
-
-**Ecology**
-
-**Environment:** temperate or warm deserts, hills, or mountains
-
-**Organization:** solitary, pair, or flight (3-18)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm deserts, hills, or mountains
+Organization: solitary, pair, or flight (3-18)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

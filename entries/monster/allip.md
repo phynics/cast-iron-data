@@ -38,81 +38,63 @@ abilities = ["-", "12", "-", "11", "11", "16"]
 _This malignant cloud of shadows boils in the air, its skeletal maw eerily babbling as the
 creature's claws manifest from the darkness._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: babble (60 ft., DC 15)
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 800
+:::
 
-**aura:** babble (60 ft., DC 15)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 13
+AC modifiers: +3 deflection, +1 Dex
+Hit points: 30 (4d8+12)
+Fort: +4
+Ref: +4
+Will: +4
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 30 ft. (perfect)
+Melee: incorporeal touch +4 (1d4 Wisdom damage)
+Spec Att: babble, touch of insanity
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 12, Con -, Int 11, Wis 11, Cha 16
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Fly +16, Intimidate +10, Perception +7, Stealth +8
+Languages: Aklo, Common
+Special qualities: madness
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 800
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 deflection, +1 Dex
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +4
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Melee:** incorporeal touch +4 (1d4 Wisdom damage)
-
-**Spec Att:** babble, touch of insanity
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 12, Con -, Int 11, Wis 11, Cha 16
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Fly +16, Intimidate +10, Perception +7, Stealth +8
-
-**Languages:** Aklo, Common
-
-**Special qualities:** madness
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or haunt (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or haunt (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

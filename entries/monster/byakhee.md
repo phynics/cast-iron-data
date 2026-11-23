@@ -31,76 +31,60 @@ abilities = ["17", "16", "18", "10", "17", "15"]
 _This nauseating winged creature combines the features of a carrion bird, an ant, a bat, and a
 decomposing human in a most hideous manner._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft., See in darkness
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 42 (5d8+20)
+Fort: +5
+Ref: +4
+Will: +7
+Immune: cold, confusion and insanity effects, critical hits, hunger, sneak attacks, thirst
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 50 ft. (good)
+B Drain: 1d2 Constitution
+Melee: 2 claws +7 (1d4+3), bite +6 (1d6+3 plus [grab](ref/umr/grab))
+Spec Att: bloodlust
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+Ability scores: Str 17, Dex 16, Con 18, Int 10, Wis 17, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Flyby Attack, Improved Initiative, Weapon Focus (claw)
+Skills: Fly +15, Perception +11
+Languages: Aklo
+Special qualities: low metabolism, [no breath](ref/umr/no-breath), starflight, Yellow Sign affinity
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +7
-
-**Immune:** cold, confusion and insanity effects, critical hits, hunger, sneak attacks, thirst
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (good)
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** 2 claws +7 (1d4+3), bite +6 (1d6+3 plus [grab](ref/umr/grab))
-
-**Spec Att:** bloodlust
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 18, Int 10, Wis 17, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Flyby Attack, Improved Initiative, Weapon Focus (claw)
-
-**Skills:** Fly +15, Perception +11
-
-**Languages:** Aklo
-
-**Special qualities:** low metabolism, [no breath](ref/umr/no-breath), starflight, Yellow Sign
-affinity
-
-**Ecology**
-
-**Environment:** any air
-
-**Organization:** solitary, pair, or flock (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any air
+Organization: solitary, pair, or flock (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

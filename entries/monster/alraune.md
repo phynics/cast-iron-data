@@ -29,100 +29,73 @@ abilities = ["24", "13", "22", "10", "17", "21"]
 
 _An attractive green-skinned woman sits in the depths of this enormous, sweet-smelling flower._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: calming fragrance (60 ft., DC 24)
+Initiative: +5
+Size: large
+Alignment: Neutral evil
+Perception: +17
+Senses: Low-light vision
+Type: plant
+Experience points: 25,600
+:::
 
-**aura:** calming fragrance (60 ft., DC 24)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 27
+Touch: 10
+Flat-footed: 26
+AC modifiers: +1 Dex, +17 natural, -1 size
+Hit points: 199 (19d8+114)
+Fort: +17
+Ref: +9
+Will: +11
+Immune: [plant traits](ref/umr/plant-traits)
+Sr: 24
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft.
+Bleed: 2d6
+Constrict: 1d10+10
+Melee: 4 vines +20 (1d10+7 plus [grab](ref/umr/grab) and bleed)
+Reach: 10
+Space: 10
+Spec Att: feed
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+At will: charm monster (DC 19), detect thoughts (DC 17), suggestion (DC 18)
+Per day: 3/day: quickened glitterdust (DC 17), hold monster (DC 20)\
+1/day: commune with nature, mind fog, wall of thorns
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 24, Dex 13, Con 22, Int 10, Wis 17, Cha 21
+Base attack bonus: +14
+Combat maneuver bonus: +22 (+26 grapple)
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Alertness, Cleave, Deceitful, Great Cleave, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (glitterdust), Vital Strike
+Skills: Bluff +16, Disguise +9, Sense Motive +14
+Languages: Aklo, Common, Elven, Sylvan
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +17 natural, -1 size
-
-**Hit points:** 199 (19d8+114)
-
-**Fort:** +17
-
-**Ref:** +9
-
-**Will:** +11
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Bleed:** 2d6
-
-**Constrict:** 1d10+10
-
-**Melee:** 4 vines +20 (1d10+7 plus [grab](ref/umr/grab) and bleed)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** feed
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**At will:**
-
-- charm monster (DC 19), detect thoughts (DC 17), suggestion (DC 18)
-
-**Per day:**
-
-- 3/day: quickened glitterdust (DC 17), hold monster (DC 20)
-- 1/day: commune with nature, mind fog, wall of thorns
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 13, Con 22, Int 10, Wis 17, Cha 21
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22 (+26 grapple)
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Alertness, Cleave, Deceitful, Great Cleave, Improved Initiative, Iron Will, Lightning
-Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (glitterdust),
-Vital Strike
-
-**Skills:** Bluff +16, Disguise +9, Sense Motive +14
-
-**Languages:** Aklo, Common, Elven, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

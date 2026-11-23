@@ -33,77 +33,61 @@ abilities = ["21", "17", "14", "2", "15", "6"]
 _This small whale lacks a dorsal fin and has pale, mottled skin, but its most notable feature is the
 single tusk protruding from its nose, easily as long as a human._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+blindsight: 120
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 13
+AC modifiers: +3 Dex, +4 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +6
+Ref: +7
+Will: +3
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: swim 80 ft.
+Melee: bite +7 (1d8+7)
+Reach: 10
+Space: 10
+Spec Att: tusk
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +12
+::: statblock
+Ability scores: Str 21, Dex 17, Con 14, Int 2, Wis 15, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 22 (can't be tripped)
+Feats: Skill Focus (Swim), Toughness
+Skills: Perception +12, Swim +20
+Racial Modifiers: +4 Perception
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +4 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** swim 80 ft.
-
-**Melee:** bite +7 (1d8+7)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** tusk
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con 14, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Feats:** Skill Focus (Swim), Toughness
-
-**Skills:** Perception +12, Swim +20
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** cold oceans
-
-**Organization:** solitary, pair, or pod (3-18)
-
-**Treasure:** None
+::: statblock
+Environment: cold oceans
+Organization: solitary, pair, or pod (3-18)
+Treasure: None
+:::
 
 ### Special Abilities
 

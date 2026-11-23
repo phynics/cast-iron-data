@@ -31,81 +31,63 @@ abilities = ["21", "15", "-", "8", "13", "14"]
 _This bony horror has two skulls on either end of its long, fleshless body. Dozens of twitching,
 claw-tipped legs carry its centipede-like form._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Perception: +9
+Senses: All-around vision, Darkvision 60 ft.
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +5
+Ref: +3
+Will: +5
+Chan Res: +4
+Dr: 5/bludgeoning
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft.
+Melee: 2 bites +7 (1d8+5)
+Reach: 10
+Space: 10
+Spec Att: burst of bone
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 21, Dex 15, Con -, Int 8, Wis 13, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (+24 vs trip)
+Feats: Great Fortitude, Improved Initiative, Step Up
+Skills: Intimidate +10, Perception +9, Stealth +6
+Languages: Common (can't speak)
+Special qualities: [compression](ref/umr/compression), dual threat
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +5
-
-**Chan Res:** +4
-
-**Dr:** 5/bludgeoning
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 bites +7 (1d8+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** burst of bone
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 15, Con -, Int 8, Wis 13, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (+24 vs trip)
-
-**Feats:** Great Fortitude, Improved Initiative, Step Up
-
-**Skills:** Intimidate +10, Perception +9, Stealth +6
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** [compression](ref/umr/compression), dual threat
-
-**Ecology**
-
-**Environment:** any ruins
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any ruins
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

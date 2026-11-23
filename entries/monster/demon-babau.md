@@ -29,106 +29,75 @@ abilities = ["21", "13", "20", "14", "13", "16"]
 _This emaciated figure looks like a horned human skeleton smothered within a bone-tight hide of
 slimy leather._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 18
+AC modifiers: +1 Dex, +8 natural
+Hit points: 73 (7d10+35)
+Fort: +10
+Ref: +6
+Will: +5
+Defensive abilities: protective slime
+Dr: 10/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +12 (1d6+5), bite +12 (1d6+5) or longspear +12/+7 (1d8+7/×3), bite +7 (1d6+2)
+Reach: 5
+Reach P: 10 ft. with longspear
+Sneak: +2d6
+Space: 5
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Constant: see invisibility
+At will: darkness, dispel magic, greater teleport, self plus 50 lbs. of objects only
+Per day: 1/day: summon (level 3, 1 babau at 40%)
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 21, Dex 13, Con 20, Int 14, Wis 13, Cha 16
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 23
+Feats: Combat Reflexes, Improved Initiative, Iron Will, Skill Focus (Stealth)
+Skills: Acrobatics +11, Climb +12, Disable Device +11, Escape Artist +11, Perception +19, Sense Motive +11, Sleight of Hand +11, Stealth +22
+Racial Modifiers: +8 Perception, +8 Stealth
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +8 natural
-
-**Hit points:** 73 (7d10+35)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +5
-
-**Defensive abilities:** protective slime
-
-**Dr:** 10/cold iron or good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +12 (1d6+5), bite +12 (1d6+5) or longspear +12/+7 (1d8+7/×3), bite +7 (1d6+2)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with longspear
-
-**Sneak:** +2d6
-
-**Space:** 5
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- darkness, dispel magic, greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: summon (level 3, 1 babau at 40%)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 13, Con 20, Int 14, Wis 13, Cha 16
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23
-
-**Feats:** Combat Reflexes, Improved Initiative, Iron Will, Skill Focus (Stealth)
-
-**Skills:** Acrobatics +11, Climb +12, Disable Device +11, Escape Artist +11, Perception +19, Sense
-Motive +11, Sleight of Hand +11, Stealth +22
-
-**Racial Modifiers:** +8 Perception, +8 Stealth
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** Standard (longspear); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or gang (3-8)
+Treasure: Standard (longspear); other treasure
+:::
 
 ### Special Abilities
 

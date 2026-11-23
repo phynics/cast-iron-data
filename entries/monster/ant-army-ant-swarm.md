@@ -30,79 +30,62 @@ abilities = ["1", "15", "10", "-", "10", "2"]
 
 _A writhing carpet of ants seethes over the ground, consuming everything in its path._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Size: fine
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Scent
+Subtype: Swarm
+Type: vermin
+Experience points: 1,600
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 18
+AC modifiers: +8 size, +2 Dex
+Hit points: 49 (11d8)
+Fort: +7
+Ref: +5
+Will: +3
+Defensive abilities: swarm traits
+Immune: weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Distraction: present
+Melee: swarm (3d6)
+Reach: 0
+Space: 10
+Spec Att: cling, consume, (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 15, Con 10, Int -, Wis 10, Cha 2
+Base attack bonus: +8
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +10, Perception +4
+Racial Modifiers: +4 Perception
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 18
-
-**AC modifiers:** +8 size, +2 Dex
-
-**Hit points:** 49 (11d8)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +3
-
-**Defensive abilities:** swarm traits
-
-**Immune:** weapon damage
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Distraction:** present
-
-**Melee:** swarm (3d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** cling, consume, (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 10, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +10, Perception +4
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** any tropical
-
-**Organization:** solitary, pair, patrol (3-6 swarms), or legion (7-16 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any tropical
+Organization: solitary, pair, patrol (3-6 swarms), or legion (7-16 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,92 +31,70 @@ abilities = ["14", "21", "18", "15", "16", "25"]
 _This floating creature has long brown fur. Its face features a pair of long tusks and a curious
 elongated trunk for a snout._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +9
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Initiative:** +9
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 10
+AC modifiers: +5 Dex
+Hit points: 95 (10d10+40)
+Fort: +11
+Ref: +12
+Will: +8
+Dr: 10/cold iron
+Immune: mind-affecting effects, sleep
+Sr: 19
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: 2 claws +15 (1d4+2), gore +15 (1d6+2)
+Spec Att: mental drain
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +17
+At will: invisibility, lullaby, sleep (DC 18)
+Per day: 3/day: deep slumber (DC 20), dream\
+1/day: ethereal jaunt, modify memory (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 14, Dex 21, Con 18, Int 15, Wis 16, Cha 25
+Base attack bonus: +10
+Combat maneuver bonus: +12
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Alertness, Flyby Attack, Improved Initiative, Iron Will, Weapon Finesse
+Skills: Diplomacy +15, Sense Motive +13, Spellcraft +8, Stealth +16
+Languages: Aklo, Celestial, Common
+Special qualities: dream claws
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 10
-
-**AC modifiers:** +5 Dex
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +11
-
-**Ref:** +12
-
-**Will:** +8
-
-**Dr:** 10/cold iron
-
-**Immune:** mind-affecting effects, sleep
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 claws +15 (1d4+2), gore +15 (1d6+2)
-
-**Spec Att:** mental drain
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +17
-
-**At will:**
-
-- invisibility, lullaby, sleep (DC 18)
-
-**Per day:**
-
-- 3/day: deep slumber (DC 20), dream
-- 1/day: ethereal jaunt, modify memory (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 21, Con 18, Int 15, Wis 16, Cha 25
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Alertness, Flyby Attack, Improved Initiative, Iron Will, Weapon Finesse
-
-**Skills:** Diplomacy +15, Sense Motive +13, Spellcraft +8, Stealth +16
-
-**Languages:** Aklo, Celestial, Common
-
-**Special qualities:** dream claws
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

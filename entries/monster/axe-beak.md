@@ -33,71 +33,58 @@ abilities = ["18", "17", "16", "2", "11", "10"]
 _This stout flightless bird stands upon two long, taloned legs, but it is its axe-shaped beak that
 looks the most ferocious._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 11
+AC modifiers: +3 Dex, +2 natural, -1 size
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +6
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +5 (1d8+6)
+Reach: 10
+Space: 10
+Spec Att: sudden charge
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 17, Con 16, Int 2, Wis 11, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Run, Skill Focus (Perception)
+Skills: Perception +9
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +2 natural, -1 size
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +5 (1d8+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** sudden charge
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 16, Int 2, Wis 11, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Run, Skill Focus (Perception)
-
-**Skills:** Perception +9
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, or flock (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, or flock (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -30,75 +30,60 @@ abilities = ["14", "11", "15", "-", "10", "1"]
 _This dried-out clump of thorny brush has torn free of its roots and seems to move not with the
 wind, but of its own volition._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +0
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Type: plant
+Size: small
+Experience points: 600
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 natural, +1 size
+Hit points: 26 (4d8+8)
+Fort: +6
+Ref: +1
+Will: +1
+Defensive abilities: all-around vision, barbs, flammable
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 30 ft.
+Grab: Medium
+Melee: slam +6 (1d3+3 plus grab)
+Pow Ch: slam, 2d4+3 plus grab
+Spec Att: poison
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 14, Dex 11, Con 15, Int -, Wis 10, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +4 (+8 grapple)
+Combat maneuver defense: 14 (can't be tripped)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 natural, +1 size
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +6
-
-**Ref:** +1
-
-**Will:** +1
-
-**Defensive abilities:** all-around vision, barbs, flammable
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Grab:** Medium
-
-**Melee:** slam +6 (1d3+3 plus grab)
-
-**Pow Ch:** slam, 2d4+3 plus grab
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 11, Con 15, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4 (+8 grapple)
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Ecology**
-
-**Environment:** cold or temperate plains
-
-**Organization:** solitary, pair, or field (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: cold or temperate plains
+Organization: solitary, pair, or field (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

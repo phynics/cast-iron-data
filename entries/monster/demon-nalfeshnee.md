@@ -30,107 +30,74 @@ abilities = ["32", "13", "29", "23", "22", "20"]
 _A towering, corpulent beast, this fiend has the hideous head of a boar and arms ending in fatty,
 four-fingered hands._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: unholy aura (DC 23)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +5
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 38,400
+:::
 
-**aura:** unholy aura (DC 23)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 29
+Touch: 13
+Flat-footed: 28
+AC modifiers: +4 deflection, +1 Dex, +16 natural, -2 size
+Hit points: 203 (14d10+126)
+Fort: +22
+Ref: +9
+Will: +21
+Dr: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 25
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 30 ft., fly 40 ft. (poor)
+Melee: bite +23 (3d8+11/19-20), 2 claws +23 (2d6+11)
+Reach: 15
+Space: 15
+Spec Att: unholy nimbus
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Constant: true seeing, unholy aura (DC 23)
+At will: call lightning (DC 18), feeblemind (DC 20), greater dispel magic, slow (DC 18), greater teleport, self plus 50 lbs. of objects only
+Per day: 1/day: summon (level 5, 1 nalfeshnee 20%, 1d4 hezrous 40%, or 1d4 vrocks 50%)
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 32, Dex 13, Con 29, Int 23, Wis 22, Cha 20
+Base attack bonus: +14
+Combat maneuver bonus: +27
+Combat maneuver defense: 42
+Feats: Awesome Blow, Cleave, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Iron Will, Power Attack
+Skills: Bluff +22, Diplomacy +22, Sense Motive +23, Spellcraft +23, Stealth +10, Use Magic Device +22
+Racial Modifiers: +8 on Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 13
-
-**Flat-footed:** 28
-
-**AC modifiers:** +4 deflection, +1 Dex, +16 natural, -2 size
-
-**Hit points:** 203 (14d10+126)
-
-**Fort:** +22
-
-**Ref:** +9
-
-**Will:** +21
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (poor)
-
-**Melee:** bite +23 (3d8+11/19-20), 2 claws +23 (2d6+11)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** unholy nimbus
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Constant:**
-
-- true seeing, unholy aura (DC 23)
-
-**At will:**
-
-- call lightning (DC 18), feeblemind (DC 20), greater dispel magic, slow (DC 18), greater teleport,
-  self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: summon (level 5, 1 nalfeshnee 20%, 1d4 hezrous 40%, or 1d4 vrocks 50%)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 13, Con 29, Int 23, Wis 22, Cha 20
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 42
-
-**Feats:** Awesome Blow, Cleave, Improved Bull Rush, Improved Critical (bite), Improved Initiative,
-Iron Will, Power Attack
-
-**Skills:** Bluff +22, Diplomacy +22, Sense Motive +23, Spellcraft +23, Stealth +10, Use Magic
-Device +22
-
-**Racial Modifiers:** +8 on Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or warband (1 nalfeshnee, 1 [hezrou](ref/monster/demon-hezrou), and 2-5
-[vrocks](ref/monster/demon-vrock))
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or warband (1 nalfeshnee, 1 [hezrou](ref/monster/demon-hezrou), and 2-5 [vrocks](ref/monster/demon-vrock))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

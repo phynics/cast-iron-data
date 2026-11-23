@@ -31,92 +31,70 @@ abilities = ["6", "14", "15", "8", "17", "15"]
 _Tumorous bulges crisscross this six-limbed rodent, lending its hairless body a bloated, brain-like
 appearance._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision, Scent, Second sight 60 ft.
+Size: tiny
+tremorsense: 30
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 Dex, +2 natural, +2 size
+Hit points: 45 (6d10+12)
+Fort: +7
+Ref: +7
+Will: +7
+Defensive abilities: shrouded mind
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 10 ft., burrow 20 ft., fly 20 ft. (perfect)
+Melee: bite +10 (1d3-2 plus attach)
+Reach: 0
+Space: 2-1/2
+Spec Att: brain exchange, monarch bite
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, Second sight 60 ft.
+::: statblock
+title = "Psychic Magic"
+Caster level: 6
+Concentration: +8
+Power points: 16
+Psychoactive powers: aversion, 2 PE, DC 14, fly, 3 PE, major image, 3 PE, DC 15, mental barrier I, 2 PE, mind thrust II, 2 PE, DC 14, silent image, 1 PE, DC 13
+:::
 
-**Size:** tiny
+### Statistics
 
-**tremorsense:** 30
+::: statblock
+Ability scores: Str 6, Dex 14, Con 15, Int 8, Wis 17, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 14 (18 vs. trip)
+Feats: Iron Will, Lookout, Paired Opportunists, Weapon Finesse
+Skills: Climb +7, Perception +8, Stealth +15
+Languages: Common (can't speak)
+Special qualities: psychic gestalt
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +2 natural, +2 size
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +7
-
-**Defensive abilities:** shrouded mind
-
-**Offense**
-
-**Speed:** 10 ft., burrow 20 ft., fly 20 ft. (perfect)
-
-**Melee:** bite +10 (1d3-2 plus attach)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** brain exchange, monarch bite
-
-**Psychic Magic**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Power points:** 16
-
-**Psychoactive powers:**
-
-- aversion, 2 PE, DC 14, fly, 3 PE, major image, 3 PE, DC 15, mental barrier I, 2 PE, mind thrust
-  II, 2 PE, DC 14, silent image, 1 PE, DC 13
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 14, Con 15, Int 8, Wis 17, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 14 (18 vs. trip)
-
-**Feats:** Iron Will, Lookout, Paired Opportunists, Weapon Finesse
-
-**Skills:** Climb +7, Perception +8, Stealth +15
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** psychic gestalt
-
-**Ecology**
-
-**Environment:** temperate forests, hills, or plains
-
-**Organization:** solitary or nest (1 monarch and 4-10 [brain moles](ref/monster/brain-mole))
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests, hills, or plains
+Organization: solitary or nest (1 monarch and 4-10 [brain moles](ref/monster/brain-mole))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

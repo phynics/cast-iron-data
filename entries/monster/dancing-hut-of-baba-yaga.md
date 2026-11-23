@@ -33,104 +33,75 @@ _A rustic hut stands here, its timber walls hung with bundles of drying herbs an
 symbols. From beneath its splintering wooden porch extends a pair of legs, like those of a
 fifteen-foot-tall chicken with gigantic talons caked in mud but sharp as razors._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 30)
+blindsight: 120
+Type: construct
+Size: huge
+Initiative: +12
+Alignment: Neutral
+Perception: +8
+Experience points: 102,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 30)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 34
+Touch: 20
+Flat-footed: 22
+AC modifiers: +12 Dex, +14 natural, -2 size
+Hit points: 188 (27d10+40)
+Fort: +9
+Ref: +21
+Will: +17
+Defensive abilities: immortal structure
+Dr: 15/adamantine
+Evasion: present
+Fh: 20
+Immune: [construct traits](ref/umr/construct-traits), gaze attacks, visual effects and illusions, sight-based attacks
+Sr: 28
+:::
 
-**Type:** construct
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 60 ft.
+Constrict: 2d6+19
+F Swallow: present
+Melee: 2 claws +38 (2d6+13 plus [grab](ref/umr/grab)), slam +38 (2d8+13 plus grab)
+Reach: 15
+Space: 15
+Swallow: see below
+Trample: 2d8+19, DC 36
+:::
 
-**Initiative:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +22
+At will: dimensional anchor, freedom of movement, irresistible dance (DC 25)
+Per day: 3/day: blink, dimension door, incendiary cloud (DC 25)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +8
+::: statblock
+Ability scores: Str 37, Dex 34, Con -, Int -, Wis 27, Cha 25
+Base attack bonus: +27
+Combat maneuver bonus: +42 (+46 grapple)
+Combat maneuver defense: 64
+Languages: understands any (can't speak)
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 34
-
-**Touch:** 20
-
-**Flat-footed:** 22
-
-**AC modifiers:** +12 Dex, +14 natural, -2 size
-
-**Hit points:** 188 (27d10+40)
-
-**Fort:** +9
-
-**Ref:** +21
-
-**Will:** +17
-
-**Defensive abilities:** immortal structure
-
-**Dr:** 15/adamantine
-
-**Evasion:** present
-
-**Fh:** 20
-
-**Immune:** [construct traits](ref/umr/construct-traits), gaze attacks, visual effects and
-illusions, sight-based attacks
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Constrict:** 2d6+19
-
-**F Swallow:** present
-
-**Melee:** 2 claws +38 (2d6+13 plus [grab](ref/umr/grab)), slam +38 (2d8+13 plus grab)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Swallow:** see below
-
-**Trample:** 2d8+19, DC 36
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**At will:**
-
-- dimensional anchor, freedom of movement, irresistible dance (DC 25)
-
-**Per day:**
-
-- 3/day: blink, dimension door, incendiary cloud (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 34, Con -, Int -, Wis 27, Cha 25
-
-**Base attack bonus:** +27
-
-**Combat maneuver bonus:** +42 (+46 grapple)
-
-**Combat maneuver defense:** 64
-
-**Languages:** understands any (can't speak)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary (none)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary (none)
+Treasure: None
+:::
 
 ### Special Abilities
 

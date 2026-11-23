@@ -34,88 +34,66 @@ abilities = ["-", "26", "22", "19", "23", "23"]
 _An eerie radiance, a glow unlike anything else, fills the area, bringing with it a stifling sense
 of latent malignancy._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: lassitude (300 ft., DC 22)
+blindsense: 120
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +12
+Type: ooze
+Perception: +18
+Subtype: Incorporeal
+Experience points: 9,600
+:::
 
-**aura:** lassitude (300 ft., DC 22)
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 23
+Touch: 23
+Flat-footed: 14
+AC modifiers: +6 deflection, +8 Dex, +1 dodge, -2 size
+Hit points: 126 (12d8+72)
+Fort: +10
+Ref: +14
+Will: +10
+Amorph: present
+Immune: acid, cold, fire, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), poison, sonic
+Incorporeal: present
+Sr: 21
+Weaknesses: susceptible to force effects
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 30 ft., fly 50 ft. (perfect)
+Melee: disintegrating touch +15 touch (6d6; DC 22)
+Reach: 15
+Space: 15
+Spec Att: feed
+:::
 
-**Initiative:** +12
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str -, Dex 26, Con 22, Int 19, Wis 23, Cha 23
+Base attack bonus: +9
+Combat maneuver bonus: +19
+Combat maneuver defense: 36 (can't be tripped)
+Feats: Dodge, Improved Initiative, Lightning Reflexes, Mobility, Spring Attack, Weapon Finesse
+Skills: Fly +27, Knowledge (geography, nature) +16, Perception +18, Stealth +12
+Languages: Aklo (can't speak)
+:::
 
-**Perception:** +18
+### Ecology
 
-**Subtype:** Incorporeal
-
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 23
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 deflection, +8 Dex, +1 dodge, -2 size
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +10
-
-**Ref:** +14
-
-**Will:** +10
-
-**Amorph:** present
-
-**Immune:** acid, cold, fire, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), poison,
-sonic
-
-**Incorporeal:** present
-
-**Sr:** 21
-
-**Weaknesses:** susceptible to force effects
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (perfect)
-
-**Melee:** disintegrating touch +15 touch (6d6; DC 22)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** feed
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 26, Con 22, Int 19, Wis 23, Cha 23
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 36 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Lightning Reflexes, Mobility, Spring Attack, Weapon Finesse
-
-**Skills:** Fly +27, Knowledge (geography, nature) +16, Perception +18, Stealth +12
-
-**Languages:** Aklo (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

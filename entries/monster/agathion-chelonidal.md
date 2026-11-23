@@ -32,107 +32,74 @@ abilities = ["15", "14", "19", "12", "15", "16"]
 _This creature resembles a cross between a humanoid and a sea turtle, with flipper-like hands and a
 heavy shell covering its back._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +2
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Agathion, Aquatic, Extraplanar, Good
+Experience points: 3,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 22
+Touch: 22
+Flat-footed: 20
+AC modifiers: +2 Dex, +10 natural
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +7
+Will: +10; +4 vs. movement effects and poison
+Defensive abilities: protective shell, underwater movility
+Dr: 10/evil and silver
+Immune: cold, electricity, petrification
+Resist: sonic 10
+Sr: 18
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., swim 40 ft.
+Melee: +2 cold iron trident +13/+8 (1d8+5), bite +9 (1d6+3) or bite +14 (1d6+5)
+Ranged: +2 cold iron trident +13 (1d8+4)
+Spec Att: none shall pass
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +12
+Constant: see invisibility, speak with animals
+At will: create water, dimension door, hydraulic torrent
+Per day: 3/day: dimensional anchor, shield other
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Agathion, Aquatic, Extraplanar, Good
+::: statblock
+Ability scores: Str 15, Dex 14, Con 19, Int 12, Wis 15, Cha 16
+Base attack bonus: +9
+Combat maneuver bonus: +11
+Combat maneuver defense: 23
+Feats: Combat Reflexes, Iron Will, Lightning Reflexes, Vital Strike, Weapon Focus (bite)
+Skills: Diplomacy +15, Heal +14
+Languages: Abyssal, Celestial, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: [amphibious](ref/umr/amphibious), bulwark, celestial soldier, [lay on hands](ref/ability/lay-on-hands) (4d6, 7/day), mercies ([exhausted](ref/mercy/exhausted), [fatigued](ref/mercy/fatigued))
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 22
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +10 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +10; +4 vs. movement effects and poison
-
-**Defensive abilities:** protective shell, underwater movility
-
-**Dr:** 10/evil and silver
-
-**Immune:** cold, electricity, petrification
-
-**Resist:** sonic 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**Melee:** +2 cold iron trident +13/+8 (1d8+5), bite +9 (1d6+3) or bite +14 (1d6+5)
-
-**Ranged:** +2 cold iron trident +13 (1d8+4)
-
-**Spec Att:** none shall pass
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**Constant:**
-
-- see invisibility, speak with animals
-
-**At will:**
-
-- create water, dimension door, hydraulic torrent
-
-**Per day:**
-
-- 3/day: dimensional anchor, shield other
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 19, Int 12, Wis 15, Cha 16
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 23
-
-**Feats:** Combat Reflexes, Iron Will, Lightning Reflexes, Vital Strike, Weapon Focus (bite)
-
-**Skills:** Diplomacy +15, Heal +14
-
-**Languages:** Abyssal, Celestial, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** [amphibious](ref/umr/amphibious), bulwark, celestial soldier,
-[lay on hands](ref/ability/lay-on-hands) (4d6, 7/day), mercies ([exhausted](ref/mercy/exhausted),
-[fatigued](ref/mercy/fatigued))
-
-**Ecology**
-
-**Environment:** any land or water ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, phalanx (4-12 chelonidals), or legion (10-20 chelonidals plus 1-2
-[avoral](ref/monster/agathion-avoral) lieutenants and 1 [cervinal](ref/monster/agathion-cervinal)
-commander)
-
-**Treasure:** Standard (+2 MC trident); other gear
+::: statblock
+Environment: any land or water ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, phalanx (4-12 chelonidals), or legion (10-20 chelonidals plus 1-2 [avoral](ref/monster/agathion-avoral) lieutenants and 1 [cervinal](ref/monster/agathion-cervinal) commander)
+Treasure: Standard (+2 MC trident); other gear
+:::
 
 ### Special Abilities
 

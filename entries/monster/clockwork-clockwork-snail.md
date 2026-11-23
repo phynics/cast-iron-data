@@ -31,85 +31,67 @@ abilities = ["24", "17", "-", "-", "11", "1"]
 _The torso of this constructed gastropod is elongated and eerily humanoid. Smog pours from the
 shell-like posterior of the machine, while toxic green ooze courses through its translucent pipes._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 26
+Touch: 14
+Flat-footed: 21
+AC modifiers: +3 Dex, +2 dodge, +12 natural, -1 size
+Hit points: 101 (13d10+30)
+Fort: +4
+Ref: +9
+Will: +4
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits), eidite sickness
+Vulner: electricity
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: mwk dire flail +18/+13/+8 (1d8+7), mwk dire flail +18 (1d8+3)
+Reach: 5
+Sp Extra: improved charge, tracks
+Space: 10
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 9,600
-
-**Armor class:** 26
-
-**Touch:** 14
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 Dex, +2 dodge, +12 natural, -1 size
-
-**Hit points:** 101 (13d10+30)
-
-**Fort:** +4
-
-**Ref:** +9
-
-**Will:** +4
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), eidite sickness
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** mwk dire flail +18/+13/+8 (1d8+7), mwk dire flail +18 (1d8+3)
-
-**Reach:** 5
-
-**Sp Extra:** improved charge, tracks
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 36 (can't be tripped)
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^, Two-Weapon Fighting^B^
-
-**Skills:** Climb +23
-
-**Special qualities:** swift reactions, [undersized weapons](ref/umr/undersized-weapons), winding
+::: statblock
+Ability scores: Str 24, Dex 17, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +13
+Combat maneuver bonus: +21
+Combat maneuver defense: 36 (can't be tripped)
+Feats: Improved Initiative^B^, Lightning Reflexes^B^, Two-Weapon Fighting^B^
+Skills: Climb +23
+Special qualities: swift reactions, [undersized weapons](ref/umr/undersized-weapons), winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, squadron (2-4), or cavalry (5-10)
-
-**Treasure:** Incidental (mwk -dire flail); other treasure
+::: statblock
+Environment: any
+Organization: solitary, squadron (2-4), or cavalry (5-10)
+Treasure: Incidental (mwk -dire flail); other treasure
+:::
 
 ### Special Abilities
 

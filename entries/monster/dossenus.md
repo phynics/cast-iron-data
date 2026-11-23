@@ -30,79 +30,64 @@ abilities = ["12", "11", "14", "3", "10", "5"]
 _This small creature looks like a lumpy head with crab legs and a giant mouth filled with stone
 teeth._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: aberration
+Initiative: +0
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: small
+Experience points: 400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 12
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 natural, +1 size
+Hit points: 13 (2d8+4)
+Fort: +2
+Ref: +0
+Will: +3; +4 vs. poison
+Weaknesses: hydrophobia, [light blindness](ref/umr/light-blindness)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., burrow 30 ft., climb 30 ft.
+Melee: bite +4 (1d6+3/19-20)
+Sneak: +1d6
+Spec Att: devastating maw,, swarming
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
-
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 natural, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +0
-
-**Will:** +3; +4 vs. poison
-
-**Weaknesses:** hydrophobia, [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft., climb 30 ft.
-
-**Melee:** bite +4 (1d6+3/19-20)
-
-**Sneak:** +1d6
-
-**Spec Att:** devastating maw,, swarming
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 11, Con 14, Int 3, Wis 10, Cha 5
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 11 (15 vs. trip)
-
-**Feats:** Improved Critical^B^ (bite), Weapon Focus (bite), Weapon Specialization^B^ (bite)
-
-**Skills:** Climb +17, Perception +5
-
-**Racial Modifiers:** +8 Climb
-
-**Languages:** Aklo
+::: statblock
+Ability scores: Str 12, Dex 11, Con 14, Int 3, Wis 10, Cha 5
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 11 (15 vs. trip)
+Feats: Improved Critical^B^ (bite), Weapon Focus (bite), Weapon Specialization^B^ (bite)
+Skills: Climb +17, Perception +5
+Racial Modifiers: +8 Climb
+Languages: Aklo
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any underground (except water)
-
-**Organization:** solitary, clutch (2-9), or infestation (10-20)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground (except water)
+Organization: solitary, clutch (2-9), or infestation (10-20)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

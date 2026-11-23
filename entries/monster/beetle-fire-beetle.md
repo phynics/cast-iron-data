@@ -30,67 +30,56 @@ abilities = ["10", "11", "11", "-", "10", "7"]
 _This housecat-sized beetle is a dull brown color brightened by two glowing green-yellow spots on
 its carapace._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Initiative: +0
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Size: small
+Type: vermin
+Experience points: 135
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 12
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 natural, +1 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +0
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 30 ft., fly 30 ft. (poor)
+Melee: bite +1 (1d4)
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 10, Dex 11, Con 11, Int -, Wis 10, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 9 (17 vs. trip)
+Skills: Fly -2
+Special qualities: luminescence
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 natural, +1 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +0
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (poor)
-
-**Melee:** bite +1 (1d4)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 11, Con 11, Int -, Wis 10, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 9 (17 vs. trip)
-
-**Skills:** Fly -2
-
-**Special qualities:** luminescence
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, cluster (2-6) or colony (7-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, cluster (2-6) or colony (7-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,81 +32,63 @@ abilities = ["20", "12", "14", "-", "13", "6"]
 _A lone petal hangs over the opening of this bulbous, pitcher-shaped flower, which is flanked by a
 pair of serpentine vines._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Type: plant
+tremorsense: 30
+Experience points: 3,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 78 (12d8+24)
+Fort: +10
+Ref: +5
+Will: +5
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: acid 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft.
+Melee: bite +13 (1d8+5 plus [grab](ref/umr/grab)), 2 vines +13 (1d8+5 plus grab)
+Ranged: toxin splash +9 (poison)
+Reach: 10
+Reach P: 20 ft. with vine
+Space: 10
+Spec Att: poison
+Swallow: 1d6 acid plus poison, AC 15, 7 hp
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 20, Dex 12, Con 14, Int -, Wis 13, Cha 6
+Base attack bonus: +9
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 26 (30 vs. trip)
+Special qualities: excavate, gushing wound
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 78 (12d8+24)
-
-**Fort:** +10
-
-**Ref:** +5
-
-**Will:** +5
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** acid 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +13 (1d8+5 plus [grab](ref/umr/grab)), 2 vines +13 (1d8+5 plus grab)
-
-**Ranged:** toxin splash +9 (poison)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with vine
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Swallow:** 1d6 acid plus poison, AC 15, 7 hp
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 12, Con 14, Int -, Wis 13, Cha 6
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Special qualities:** excavate, gushing wound
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or copse (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary, pair, or copse (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

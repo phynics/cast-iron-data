@@ -28,73 +28,59 @@ abilities = ["18", "11", "15", "-", "11", "6"]
 
 _This large beetle's black, shiny exoskeleton clicks and grinds as it opens its dripping mandibles._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 26 (4d8+8)
+Fort: +6
+Ref: +1
+Will: +1
+Immune: acid, mind-affecting effects
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+Br Weap: 15-ft. cone, 2d4 acid damage, Reflex DC 14 half, usable once every 1d4 rounds
+Melee: bite +6 (2d8+6)
+Reach: 5
+Space: 10
+Trample: 1d6+6, DC 16
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 18, Dex 11, Con 15, Int -, Wis 11, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 18 (22 vs. trip)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +6
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** acid, mind-affecting effects
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 15-ft. cone, 2d4 acid damage, Reflex DC 14 half, usable once every 1d4 rounds
-
-**Melee:** bite +6 (2d8+6)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 1d6+6, DC 16
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 11, Con 15, Int -, Wis 11, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** single, pair, or cluster (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: single, pair, or cluster (3-6)
+Treasure: None
+:::
 
 ### Description
 

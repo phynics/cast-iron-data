@@ -31,129 +31,82 @@ abilities = ["20", "17", "25", "16", "20", "17"]
 _Lithe and beautiful, with skin the color of marble, this being hovers upon powerful, white wings
 and radiates a sense of serenity._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: aura of menace (DC 22), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+Initiative: +7
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Archon, Extraplanar, Good, Lawful
+Experience points: 38,400
+:::
 
-**aura:** aura of menace (DC 22), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 27
+Touch: 13
+Flat-footed: 24
+AC modifiers: +3 Dex, +14 natural; +2 deflection vs. evil
+Hit points: 175 (14d10+98)
+Fort: +16
+Ref: +9
+Will: +14; +4 vs. poison, +2 resistance vs. evil
+Dr: 10/evil
+Immune: electricity, petrification
+Sr: 25
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 90 ft. (good)
+Melee: +4 greatsword +23/+18/+13 (2d6+11/19-20)
+Spec Att: trumpet
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Constant: magic circle against evil
+At will: aid, continual flame, detect evil, greater teleport, self plus 50 lbs. of objects only, message
+:::
 
-**Perception:** +22
+::: statblock
+title = "Prepared Spells"
+Caster level: 14
+7th-level spells: mass cure serious wounds, 2
+6th-level spells: banishment (DC 21), heal, 2
+5th-level spells: dispel evil (DC 20), mass cure light wounds, plane shift (DC 20), raise dead
+4th-level spells: dismissal (DC 19), divine power, neutralize poison (DC 19), spell immunity
+3rd-level spells: cure serious wounds, daylight, invisibility purge, magic vestment, protection from energy
+2nd-level spells: bull's strength, consecrate, cure moderate wounds, 2, lesser restoration, 2, owl's wisdom
+1st-level spells: bless, cure light wounds, 3, divine favor, sanctuary (DC 16), shield of faith
+Cantrips: detect magic, purify food and drink, stabilize, virtue
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+::: statblock
+Ability scores: Str 20, Dex 17, Con 25, Int 16, Wis 20, Cha 17
+Base attack bonus: +14
+Combat maneuver bonus: +19
+Combat maneuver defense: 32
+Feats: Blind-Fight, Cleave, Combat Reflexes, Improved Initiative, Lightning Reflexes, Persuasive, Power Attack
+Skills: Diplomacy +24, Escape Artist +17, Fly +24, Handle Animal +20, Perform (wind) +20, Sense Motive +24, Stealth +20
+Languages: Celestial, Draconic, Infernal; _truespeech_
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 13
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 Dex, +14 natural; +2 deflection vs. evil
-
-**Hit points:** 175 (14d10+98)
-
-**Fort:** +16
-
-**Ref:** +9
-
-**Will:** +14; +4 vs. poison, +2 resistance vs. evil
-
-**Dr:** 10/evil
-
-**Immune:** electricity, petrification
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., fly 90 ft. (good)
-
-**Melee:** +4 greatsword +23/+18/+13 (2d6+11/19-20)
-
-**Spec Att:** trumpet
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Constant:**
-
-- magic circle against evil
-
-**At will:**
-
-- aid, continual flame, detect evil, greater teleport, self plus 50 lbs. of objects only, message
-
-**Prepared Spells**
-
-**Caster level:** 14
-
-**7th-level spells:**
-
-- mass cure serious wounds, 2
-
-**6th-level spells:**
-
-- banishment (DC 21), heal, 2
-
-**5th-level spells:**
-
-- dispel evil (DC 20), mass cure light wounds, plane shift (DC 20), raise dead
-
-**4th-level spells:**
-
-- dismissal (DC 19), divine power, neutralize poison (DC 19), spell immunity
-
-**3rd-level spells:**
-
-- cure serious wounds, daylight, invisibility purge, magic vestment, protection from energy
-
-**2nd-level spells:**
-
-- bull's strength, consecrate, cure moderate wounds, 2, lesser restoration, 2, owl's wisdom
-
-**1st-level spells:**
-
-- bless, cure light wounds, 3, divine favor, sanctuary (DC 16), shield of faith
-
-**Cantrips:**
-
-- detect magic, purify food and drink, stabilize, virtue
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 25, Int 16, Wis 20, Cha 17
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 32
-
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Improved Initiative, Lightning Reflexes,
-Persuasive, Power Attack
-
-**Skills:** Diplomacy +24, Escape Artist +17, Fly +24, Handle Animal +20, Perform (wind) +20, Sense
-Motive +24, Stealth +20
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or squad (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or squad (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

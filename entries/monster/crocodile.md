@@ -31,77 +31,61 @@ abilities = ["19", "12", "17", "1", "12", "2"]
 _This reptile lunges out of the placid water with shocking speed. Its jaw gapes open in a roar, its
 powerful tail lashing behind._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 13
+AC modifiers: +1 Dex, +4 natural, -1 size
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +4
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: bite +5 (1d8+4 plus [grab](ref/umr/grab)) and tail slap +0 (1d12+2)
+Reach: 5
+Sp Extra: sprint
+Space: 10
+Spec Att: death roll (1d8+6 plus [trip](ref/umr/trip))
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 12, Con 17, Int 1, Wis 12, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 18 (22 vs. trip)
+Feats: Skill Focus (Perception, Stealth)
+Skills: Perception +8, Stealth +5 (+13 in water), Swim +12
+Racial Modifiers: +8 on Stealth in water
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +4 natural, -1 size
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** bite +5 (1d8+4 plus [grab](ref/umr/grab)) and tail slap +0 (1d12+2)
-
-**Reach:** 5
-
-**Sp Extra:** sprint
-
-**Space:** 10
-
-**Spec Att:** death roll (1d8+6 plus [trip](ref/umr/trip))
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 17, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Feats:** Skill Focus (Perception, Stealth)
-
-**Skills:** Perception +8, Stealth +5 (+13 in water), Swim +12
-
-**Racial Modifiers:** +8 on Stealth in water
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm rivers and marshes
-
-**Organization:** solitary, pair, or colony (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm rivers and marshes
+Organization: solitary, pair, or colony (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

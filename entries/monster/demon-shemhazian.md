@@ -33,111 +33,77 @@ abilities = ["35", "19", "29", "10", "26", "16"]
 _This enormous, bestial demon combines the worst aspects of a bear, a mantis, a wolf, and a
 reptilian humanoid._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +4
+Type: outsider
+Perception: +36
+Senses: Darkvision 60 ft., Detect good, Scent, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 76,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 31
+Touch: 11
+Flat-footed: 26
+AC modifiers: +4 Dex, +1 dodge, +20 natural, -4 size
+Hit points: 246 (17d10+153)
+Fort: +19
+Ref: +11
+Will: +18
+Dr: 10/cold iron and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 27
+:::
 
-**Initiative:** +4
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 20 ft., fly 60 ft. (good)
+Melee: bite +25 (2d6+12 plus 2d4 Strength drain), 2 claws +25 (2d6+12), 2 pincers +23 (1d12+6), tail slap +23 (2d6+6)
+Reach: 20
+Reach P: 30 ft. with tail slap
+Rend: 2 claws, 2d6+18
+Space: 20
+Spec Att: paralyzing gaze
+:::
 
-**Perception:** +36
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +18
+Constant: detect good, fly, true seeing
+At will: greater teleport, self plus 50 lbs. of objects only, invisibility, telekinesis (DC 18)
+Per day: 3/day: clairaudience/clairvoyance, mass inflict serious wounds (DC 20), prying eyes\
+1/day: blasphemy (DC 20), summon (level 5, 1 shemhazian 30% or 1d4 vrocks 60%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Scent, True seeing
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 35, Dex 19, Con 29, Int 10, Wis 26, Cha 16
+Base attack bonus: +17
+Combat maneuver bonus: +33
+Combat maneuver defense: 48
+Feats: Awesome Blow, Combat Reflexes, Dodge, Improved Bull Rush, Improved Vital Strike, Lightning Reflexes, Multiattack, Power Attack, Vital Strike
+Skills: Bluff +23, Climb +20, Fly +2, Intimidate +23, Knowledge (religion) +20, Perception +36, Sense Motive +28
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +1 dodge, +20 natural, -4 size
-
-**Hit points:** 246 (17d10+153)
-
-**Fort:** +19
-
-**Ref:** +11
-
-**Will:** +18
-
-**Dr:** 10/cold iron and good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., fly 60 ft. (good)
-
-**Melee:** bite +25 (2d6+12 plus 2d4 Strength drain), 2 claws +25 (2d6+12), 2 pincers +23 (1d12+6),
-tail slap +23 (2d6+6)
-
-**Reach:** 20
-
-**Reach P:** 30 ft. with tail slap
-
-**Rend:** 2 claws, 2d6+18
-
-**Space:** 20
-
-**Spec Att:** paralyzing gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +18
-
-**Constant:**
-
-- detect good, fly, true seeing
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, invisibility, telekinesis (DC 18)
-
-**Per day:**
-
-- 3/day: clairaudience/clairvoyance, mass inflict serious wounds (DC 20), prying eyes
-- 1/day: blasphemy (DC 20), summon (level 5, 1 shemhazian 30% or 1d4 vrocks 60%)
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 19, Con 29, Int 10, Wis 26, Cha 16
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 48
-
-**Feats:** Awesome Blow, Combat Reflexes, Dodge, Improved Bull Rush, Improved Vital Strike,
-Lightning Reflexes, Multiattack, Power Attack, Vital Strike
-
-**Skills:** Bluff +23, Climb +20, Fly +2, Intimidate +23, Knowledge (religion) +20, Perception +36,
-Sense Motive +28
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

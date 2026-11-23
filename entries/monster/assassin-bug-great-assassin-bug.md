@@ -30,69 +30,57 @@ abilities = ["21", "19", "17", "-", "12", "2"]
 _A massive insect with long mandibles and sullenly glowing eyes, this creature has a heavy, bulbous
 thorax._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 52 (7d8+21)
+Fort: +8
+Ref: +6
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft., fly 40 ft. (clumsy)
+Melee: bite +10 (1d6+5 plus poison), 2 claws +10 (1d4+5)
+Spec Att: poison, poison stream
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 21, Dex 19, Con 17, Int -, Wis 12, Cha 2
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 24 (32 vs. trip)
+Skills: Fly -4, Perception +5, Stealth +8
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (clumsy)
-
-**Melee:** bite +10 (1d6+5 plus poison), 2 claws +10 (1d4+5)
-
-**Spec Att:** poison, poison stream
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 19, Con 17, Int -, Wis 12, Cha 2
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 24 (32 vs. trip)
-
-**Skills:** Fly -4, Perception +5, Stealth +8
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** any warm
-
-**Organization:** solitary or nest (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any warm
+Organization: solitary or nest (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

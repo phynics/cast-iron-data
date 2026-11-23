@@ -30,104 +30,77 @@ abilities = ["9", "19", "14", "10", "14", "15"]
 
 _This gaunt, hunched humanoid's unblinking eyes stare out from a pale face wrapped in dark cloth._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +4
+Perception: +9
+Senses: See in darkness
+Size: small
+Subtype: Dark folk
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 size
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +7
+Will: +3
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +8 (1d3-1/19-20 plus poison)
+Sneak: +1d6
+Spec Att: death throes, infectious emotion
+:::
 
-**Senses:** See in darkness
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5
+At will: darkness, detect magic
+:::
 
-**Size:** small
+::: statblock
+title = "Psychic Magic"
+Caster level: 3
+Concentration: +5
+Power points: 3
+Psychoactive powers: mind thrust I, 1 PE, DC 13, paranoia, 1 PE, DC 13, thought echo, 1 PE, DC 13
+:::
 
-**Subtype:** Dark folk
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 9, Dex 19, Con 14, Int 10, Wis 14, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +0
+Combat maneuver defense: 15
+Feats: Empath, Weapon Finesse
+Skills: Climb +7, Perception +9, Stealth +14
+Racial Modifiers: +4 Climb, +4 Perception, +4 Stealth
+Languages: Dark Folk, Undercommon
+Special qualities: [poison use](ref/ability/poison-use)
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +3
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dagger +8 (1d3-1/19-20 plus poison)
-
-**Sneak:** +1d6
-
-**Spec Att:** death throes, infectious emotion
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**At will:**
-
-- darkness, detect magic
-
-**Psychic Magic**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**Power points:** 3
-
-**Psychoactive powers:**
-
-- mind thrust I, 1 PE, DC 13, paranoia, 1 PE, DC 13, thought echo, 1 PE, DC 13
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 19, Con 14, Int 10, Wis 14, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 15
-
-**Feats:** Empath, Weapon Finesse
-
-**Skills:** Climb +7, Perception +9, Stealth +14
-
-**Racial Modifiers:** +4 Climb, +4 Perception, +4 Stealth
-
-**Languages:** Dark Folk, Undercommon
-
-**Special qualities:** [poison use](ref/ability/poison-use)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, gang (3-6), or clan (20-80
-[dark creepers](ref/monster/dark-folk-dark-creeper) plus 1
-[dark stalker](ref/monster/dark-folk-dark-stalker) and dark empath per 20 dark creepers)
-
-**Treasure:** Standard (mwk dagger); [black smear](ref/eq-poison/black-smear) \[2 doses\], other
-treasure
+::: statblock
+Environment: any underground
+Organization: solitary, pair, gang (3-6), or clan (20-80 [dark creepers](ref/monster/dark-folk-dark-creeper) plus 1 [dark stalker](ref/monster/dark-folk-dark-stalker) and dark empath per 20 dark creepers)
+Treasure: Standard (mwk dagger); [black smear](ref/eq-poison/black-smear) \[2 doses\], other treasure
+:::
 
 ### Special Abilities
 

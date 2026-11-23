@@ -29,67 +29,56 @@ abilities = ["17", "13", "12", "-", "10", "1"]
 
 _This ravenous beetle is the size of a pony, and sports a pair of deadly, serrated mandibles._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 22 (4d8+4)
+Fort: +5
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., burrow 10 ft., climb 20 ft.
+Melee: bite +6 (1d6+4)
+Spec Att: sawtooth
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 17, Dex 13, Con 12, Int -, Wis 10, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 17 (25 vs. trip)
+Skills: Climb +11
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft., climb 20 ft.
-
-**Melee:** bite +6 (1d6+4)
-
-**Spec Att:** sawtooth
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 13, Con 12, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17 (25 vs. trip)
-
-**Skills:** Climb +11
-
-**Ecology**
-
-**Environment:** warm deserts (Rahadoum)
-
-**Organization:** solitary, swarm (2-8), or plague (9-20)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts (Rahadoum)
+Organization: solitary, swarm (2-8), or plague (9-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

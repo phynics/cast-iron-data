@@ -31,77 +31,61 @@ abilities = ["25", "14", "-", "10", "16", "17"]
 _This granite-skinned humanoid stands as tall as a dwarf, though a flickering flame hovers where its
 head should be._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: palelight (20 ft., DC 16)
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,600
+:::
 
-**aura:** palelight (20 ft., DC 16)
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 17
+AC modifiers: +4 armor, +2 Dex, +3 natural
+Hit points: 52 (7d8+21)
+Fort: +5
+Ref: +4
+Will: +8
+Immune: blindness, [undead traits](ref/umr/undead-traits)
+Weaknesses: pattern susceptibility
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft.
+Melee: mwk heavy pick +13 (1d6+10/×4)
+Ranged: rock +7 (1d4+7)
+Spec Att: consume light
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 25, Dex 14, Con -, Int 10, Wis 16, Cha 17
+Base attack bonus: +5
+Combat maneuver bonus: +12 (+14 sunder)
+Combat maneuver defense: 24 (26 vs. sunder)
+Feats: Cleave, Improved Sunder, Power Attack, Throw Anything
+Skills: Climb +16, Knowledge (dungeoneering) +7, Perception +13, Profession (miner) +10
+Languages: Dwarven, Undercommon (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +2 Dex, +3 natural
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +8
-
-**Immune:** blindness, [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** pattern susceptibility
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk heavy pick +13 (1d6+10/×4)
-
-**Ranged:** rock +7 (1d4+7)
-
-**Spec Att:** consume light
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 14, Con -, Int 10, Wis 16, Cha 17
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +12 (+14 sunder)
-
-**Combat maneuver defense:** 24 (26 vs. sunder)
-
-**Feats:** Cleave, Improved Sunder, Power Attack, Throw Anything
-
-**Skills:** Climb +16, Knowledge (dungeoneering) +7, Perception +13, Profession (miner) +10
-
-**Languages:** Dwarven, Undercommon (can't speak)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or team (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or team (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

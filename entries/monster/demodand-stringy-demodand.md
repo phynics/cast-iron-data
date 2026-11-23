@@ -34,102 +34,73 @@ abilities = ["28", "27", "23", "12", "13", "18"]
 
 _This lanky, winged humanoid is covered in layers of long, ropy skin growths._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +24
+Senses: Darkvision 120 ft., Detect good, Detect magic
+Subtype: Chaotic, Demodand, Evil, Extraplanar
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 30
+Touch: 18
+Flat-footed: 22
+AC modifiers: +8 Dex, +12 natural
+Hit points: 230 (20d10+120)
+Fort: +18
+Ref: +14
+Will: +13; +4 vs. divine spells
+Dr: 10/good and magic
+Immune: acid, poison
+Resist: cold 10, fire 10
+Sr: 26
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 40 ft. (average)
+Melee: bite +29 (2d6+9 plus 2d6 nonlethal/19-20), 2 claws +29 (1d10+9 plus 2d6 nonlethal/19-20)
+Spec Att: entangling folds, faith-stealing strike (DC 24)
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +19
+Constant: detect good, detect magic
+At will: detect thoughts (DC 16)
+Per day: 3/day: fear (DC 18), greater dispel magic\
+1/day: hold monster (DC 19), summon (level 6, 1d4 tarry demodands or 1d2 stringy demodands 40%)
+:::
 
-**Senses:** Darkvision 120 ft., Detect good, Detect magic
+### Statistics
 
-**Subtype:** Chaotic, Demodand, Evil, Extraplanar
+::: statblock
+Ability scores: Str 28, Dex 27, Con 23, Int 12, Wis 13, Cha 18
+Base attack bonus: +20
+Combat maneuver bonus: +29
+Combat maneuver defense: 47
+Feats: Blind-Fight, Cleave, Combat Reflexes, Flyby Attack, Improved Critical (bite), Improved Critical (claw), Improved Vital Strike, Intimidating Prowess, Power Attack, Vital Strike
+Skills: Acrobatics +26, Bluff +27, Climb +22, Intimidate +36, Knowledge (planes) +14, Perception +24
+Languages: Abyssal, Celestial, Common
+Special qualities: heretical soul
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 18
-
-**Flat-footed:** 22
-
-**AC modifiers:** +8 Dex, +12 natural
-
-**Hit points:** 230 (20d10+120)
-
-**Fort:** +18
-
-**Ref:** +14
-
-**Will:** +13; +4 vs. divine spells
-
-**Dr:** 10/good and magic
-
-**Immune:** acid, poison
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (average)
-
-**Melee:** bite +29 (2d6+9 plus 2d6 nonlethal/19-20), 2 claws +29 (1d10+9 plus 2d6 nonlethal/19-20)
-
-**Spec Att:** entangling folds, faith-stealing strike (DC 24)
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +19
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- detect thoughts (DC 16)
-
-**Per day:**
-
-- 3/day: fear (DC 18), greater dispel magic
-- 1/day: hold monster (DC 19), summon (level 6, 1d4 tarry demodands or 1d2 stringy demodands 40%)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 27, Con 23, Int 12, Wis 13, Cha 18
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 47
-
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Flyby Attack, Improved Critical (bite), Improved
-Critical (claw), Improved Vital Strike, Intimidating Prowess, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +26, Bluff +27, Climb +22, Intimidate +36, Knowledge (planes) +14, Perception
-+24
-
-**Languages:** Abyssal, Celestial, Common
-
-**Special qualities:** heretical soul
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or tangle (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or tangle (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

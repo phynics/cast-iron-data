@@ -29,67 +29,56 @@ abilities = ["18", "20", "15", "2", "13", "7"]
 
 _This muscular, cougar-like cat has fearsome teeth and a thick tail ending in a spiked ball._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 11
+AC modifiers: +5 Dex, +1 natural
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +9
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +8 (1d6+4), 2 claws +8 (1d4+4), tail +3 (1d4+2)
+Spec Att: ball tail
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 18, Dex 20, Con 15, Int 2, Wis 13, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Improved Initiative, Skill Focus (Stealth), Weapon Finesse
+Skills: Acrobatics +9, Climb +12, Perception +5, Stealth +14
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +5 Dex, +1 natural
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +8 (1d6+4), 2 claws +8 (1d4+4), tail +3 (1d4+2)
-
-**Spec Att:** ball tail
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 20, Con 15, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Stealth), Weapon Finesse
-
-**Skills:** Acrobatics +9, Climb +12, Perception +5, Stealth +14
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

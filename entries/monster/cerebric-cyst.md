@@ -30,108 +30,79 @@ abilities = ["4", "19", "18", "15", "22", "19"]
 _This floating, purple brain has occult sigils glowing on its surface and tentacles made of
 ectoplasm._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: brain static (30 ft.), [mental static](ref/umr/mental-static-aura) (30 ft., DC 19)
+Initiative: +6
+Alignment: Neutral evil
+Type: ooze
+Perception: +16
+thoughtsense: 30
+Size: tiny
+Experience points: 3,200
+:::
 
-**aura:** brain static (30 ft.), [mental static](ref/umr/mental-static-aura) (30 ft., DC 19)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 19
+Touch: 19
+Flat-footed: 14
+AC modifiers: +4 Dex, +1 dodge, +2 insight, +2 size
+Hit points: 85 (10d8+40)
+Fort: +9
+Ref: +9
+Will: +11
+Defensive abilities: prescience
+Evasion: present
+Immune: [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: 2 tentacles +13 (2d6 electricity plus empowering strike and psychic sting)
+Reach: 0
+Space: 2-1/2
+Spec Att: empowering strike, psychic sting
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: enshroud thoughts
+At will: charm monster (DC 18), dominate person (DC 19), mind thrust II (DC 16), synesthesia (DC 17), telekinetic projectile
+:::
 
-**thoughtsense:** 30
+::: statblock
+title = "Psychic Magic"
+Caster level: 10
+Concentration: +14
+Power points: 9
+Psychoactive powers: mind thrust III, 3 PE, DC 17, synaptic pulse, 3 PE, DC 17
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 4, Dex 19, Con 18, Int 15, Wis 22, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +9
+Combat maneuver defense: 22 (can't be tripped)
+Feats: Defensive Combat Training, Dodge, Great Fortitude, Iron Will, Weapon Finesse
+Skills: Bluff +14, Diplomacy +6, Sense Motive +16, Stealth +15
+Languages: Aklo (can't speak), Common (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 19
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +1 dodge, +2 insight, +2 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +11
-
-**Defensive abilities:** prescience
-
-**Evasion:** present
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** 2 tentacles +13 (2d6 electricity plus empowering strike and psychic sting)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** empowering strike, psychic sting
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- enshroud thoughts
-
-**At will:**
-
-- charm monster (DC 18), dominate person (DC 19), mind thrust II (DC 16), synesthesia (DC 17),
-  telekinetic projectile
-
-**Psychic Magic**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Power points:** 9
-
-**Psychoactive powers:**
-
-- mind thrust III, 3 PE, DC 17, synaptic pulse, 3 PE, DC 17
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 19, Con 18, Int 15, Wis 22, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Feats:** Defensive Combat Training, Dodge, Great Fortitude, Iron Will, Weapon Finesse
-
-**Skills:** Bluff +14, Diplomacy +6, Sense Motive +16, Stealth +15
-
-**Languages:** Aklo (can't speak), Common (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ruins or underground
-
-**Organization:** solitary, pair, flight (3-6), or colony (7-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ruins or underground
+Organization: solitary, pair, flight (3-6), or colony (7-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

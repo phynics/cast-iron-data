@@ -30,77 +30,61 @@ abilities = ["17", "11", "18", "2", "11", "10"]
 _A tremendous starfish-like creature emerges from the sand, its five long arms surrounding a
 circular toothy maw._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 16
+AC modifiers: +7 natural, -1 size
+Hit points: 42 (5d8+20)
+Fort: +5
+Ref: +1
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., burrow 20 ft.
+Melee: bite +5 (1d8+3 plus [grab](ref/umr/grab)), 5 tentacles +3 (1d4+1 plus grab)
+Reach: 10
+Space: 10
+Spec Att: sinkhole
+Swallow: 2d8+4 bludgeoning, AC 13, 4 hp
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 11, Con 18, Int 2, Wis 11, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 17
+Feats: Improved Initiative, Multiattack, Skill Focus (Stealth)
+Skills: Perception +5, Stealth +5 (+13 in ambush)
+Racial Modifiers: +8 Stealth in ambush
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 natural, -1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +5
-
-**Ref:** +1
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 10 ft., burrow 20 ft.
-
-**Melee:** bite +5 (1d8+3 plus [grab](ref/umr/grab)), 5 tentacles +3 (1d4+1 plus grab)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** sinkhole
-
-**Swallow:** 2d8+4 bludgeoning, AC 13, 4 hp
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 11, Con 18, Int 2, Wis 11, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Multiattack, Skill Focus (Stealth)
-
-**Skills:** Perception +5, Stealth +5 (+13 in ambush)
-
-**Racial Modifiers:** +8 Stealth in ambush
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or colony (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or colony (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

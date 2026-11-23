@@ -30,74 +30,59 @@ abilities = ["20", "19", "22", "-", "15", "11"]
 
 _The half-formed shape a snarling dog rises out of this pile of grayish foam._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsight: 60
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: +2
+Subtype: Shapechanger
+Experience points: 1,600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 10
+AC modifiers: +4 Dex
+Hit points: 73 (7d8+42)
+Fort: +8
+Ref: +6
+Will: +4
+Fh: 2
+Immune: [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +10 (1d6+5)
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +2
+::: statblock
+Ability scores: Str 20, Dex 19, Con 22, Int -, Wis 15, Cha 11
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 24 (can't be tripped)
+Skills: Disguise +8 (+15 when possessing an Intelligence score)
+Racial Modifiers: +8 Disguise
+Special qualities: change shape (see text)
+:::
 
-**Subtype:** Shapechanger
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 10
-
-**AC modifiers:** +4 Dex
-
-**Hit points:** 73 (7d8+42)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +4
-
-**Fh:** 2
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +10 (1d6+5)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 19, Con 22, Int -, Wis 15, Cha 11
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 24 (can't be tripped)
-
-**Skills:** Disguise +8 (+15 when possessing an Intelligence score)
-
-**Racial Modifiers:** +8 Disguise
-
-**Special qualities:** change shape (see text)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or group (1 disguised as a creature plus an assortment of creatures of
-that type)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or group (1 disguised as a creature plus an assortment of creatures of that type)
+Treasure: None
+:::
 
 ### Special Abilities
 

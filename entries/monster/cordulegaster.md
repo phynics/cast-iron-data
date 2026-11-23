@@ -30,87 +30,66 @@ abilities = ["23", "11", "19", "6", "14", "6"]
 
 _Interlocking plates of chitin cover this massive, six-legged beast's face like a jagged mask._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +4
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Evil, Extraplanar
+Experience points: 2,400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +10 natural, -1 size
+Hit points: 76 (8d10+32)
+Fort: +10
+Ref: +4
+Will: +8
+Defensive abilities: all-around vision
+Immune: waters of the River Styx
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft., swim 30 ft.
+Jet: 60
+Melee: bite +13 (2d6+9 plus [grab](ref/umr/grab) and pull), tail slap +8 (1d8+3)
+Pull: bite, 10 ft.
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 10
+Spec Att: extending jaw, gnaw, powerful bite, stygian bite (Will DC 13)
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 23, Dex 11, Con 19, Int 6, Wis 14, Cha 6
+Base attack bonus: +8
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 25
+Feats: Alertness, Improved Initiative, Improved Natural Attack (bite), Lightning Reflexes
+Skills: Climb +15
+Racial Modifiers: +5 Stealth in swampy terrain or underwater
+Languages: Abyssal (can't speak), Infernal (can't speak)
+:::
 
-**Subtype:** Aquatic, Evil, Extraplanar
+### Ecology {#stat-ecology}
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +10 natural, -1 size
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +10
-
-**Ref:** +4
-
-**Will:** +8
-
-**Defensive abilities:** all-around vision
-
-**Immune:** waters of the River Styx
-
-**Offense**
-
-**Speed:** 10 ft., swim 30 ft.
-
-**Jet:** 60
-
-**Melee:** bite +13 (2d6+9 plus [grab](ref/umr/grab) and pull), tail slap +8 (1d8+3)
-
-**Pull:** bite, 10 ft.
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** extending jaw, gnaw, powerful bite, stygian bite (Will DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 11, Con 19, Int 6, Wis 14, Cha 6
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 25
-
-**Feats:** Alertness, Improved Initiative, Improved Natural Attack (bite), Lightning Reflexes
-
-**Skills:** Climb +15
-
-**Racial Modifiers:** +5 Stealth in swampy terrain or underwater
-
-**Languages:** Abyssal (can't speak), Infernal (can't speak)
-
-**Ecology**
-
-**Environment:** any freshwater (River Styx)
-
-**Organization:** solitary or cluster (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any freshwater (River Styx)
+Organization: solitary or cluster (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

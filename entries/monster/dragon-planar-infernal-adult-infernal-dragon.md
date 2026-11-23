@@ -31,115 +31,78 @@ abilities = ["31", "8", "23", "24", "21", "20"]
 
 _Cruel horns frame this dragon's head. Its body glows faintly with malicious heat._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 25)
+Type: dragon
+Size: huge
+Initiative: +3
+Alignment: Lawful evil
+Perception: +28
+Senses: Dragon senses
+Subtype: Evil, Extraplanar, Lawful
+Experience points: 76,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 25)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 31
+Touch: 7
+Flat-footed: 31
+AC modifiers: -1 Dex, +24 natural, -2 size
+Hit points: 250 (20d12+120)
+Fort: +18
+Ref: +11
+Will: +19; +6 vs. divination
+Defensive abilities: inscrutable
+Dr: 5/chaotic
+Immune: fire, hellfire, mind-affecting effects, paralysis, sleep
+Sr: 27
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 60 ft., fly 200 ft. (poor)
+Br Weap: 100-ft. line, 12d10 hellfire damage, Reflex DC 26 half
+Melee: bite +29 (2d8+15/19-20), 2 claws +29 (2d6+10/19-20), tail slap +23 (2d6+15), 2 wings +23 (1d8+5)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: commanding voice, crush, oppressive heat
+:::
 
-**Alignment:** Lawful evil
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +12
+3rd-level spells: 5/day: blindness/deafness (DC 18), vision of hell (DC 19)
+2nd-level spells: 7/day: cure moderate wounds, darkness, hold person (DC 17)
+1st-level spells: 8/day: bane (DC 16), command (DC 18), forbid action (DC 18), sanctuary (DC 16), shield of faith
+Cantrips: At will: bleed (DC 15), detect magic, guidance, mending, read magic, resistance, spark (DC 15)
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Dragon senses
+::: statblock
+Ability scores: Str 31, Dex 8, Con 23, Int 24, Wis 21, Cha 20
+Base attack bonus: +20
+Combat maneuver bonus: +32
+Combat maneuver defense: 41 (45 vs. trip)
+Feats: Bleeding Critical, Combat Expertise, Critical Focus, Improved Critical (bite, claw), Improved Initiative, Iron Will, Power Attack, Weapon Focus (bite, claw)
+Skills: Appraise +30, Bluff +28, Diplomacy +28, Sense Motive +28, Spellcraft +30
+Languages: Common, Draconic, Infernal, plus any 20 others
+Special qualities: planar infusion (180 ft.)
+:::
 
-**Subtype:** Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 7
-
-**Flat-footed:** 31
-
-**AC modifiers:** -1 Dex, +24 natural, -2 size
-
-**Hit points:** 250 (20d12+120)
-
-**Fort:** +18
-
-**Ref:** +11
-
-**Will:** +19; +6 vs. divination
-
-**Defensive abilities:** inscrutable
-
-**Dr:** 5/chaotic
-
-**Immune:** fire, hellfire, mind-affecting effects, paralysis, sleep
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 60 ft., fly 200 ft. (poor)
-
-**Br Weap:** 100-ft. line, 12d10 hellfire damage, Reflex DC 26 half
-
-**Melee:** bite +29 (2d8+15/19-20), 2 claws +29 (2d6+10/19-20), tail slap +23 (2d6+15), 2 wings +23
-(1d8+5)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** commanding voice, crush, oppressive heat
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**3rd-level spells:**
-
-- 5/day: blindness/deafness (DC 18), vision of hell (DC 19)
-
-**2nd-level spells:**
-
-- 7/day: cure moderate wounds, darkness, hold person (DC 17)
-
-**1st-level spells:**
-
-- 8/day: bane (DC 16), command (DC 18), forbid action (DC 18), sanctuary (DC 16), shield of faith
-
-**Cantrips:**
-
-- At will: bleed (DC 15), detect magic, guidance, mending, read magic, resistance, spark (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 8, Con 23, Int 24, Wis 21, Cha 20
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 41 (45 vs. trip)
-
-**Feats:** Bleeding Critical, Combat Expertise, Critical Focus, Improved Critical (bite, claw),
-Improved Initiative, Iron Will, Power Attack, Weapon Focus (bite, claw)
-
-**Skills:** Appraise +30, Bluff +28, Diplomacy +28, Sense Motive +28, Spellcraft +30
-
-**Languages:** Common, Draconic, Infernal, plus any 20 others
-
-**Special qualities:** planar infusion (180 ft.)
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

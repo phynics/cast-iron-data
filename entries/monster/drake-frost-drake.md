@@ -32,81 +32,63 @@ abilities = ["22", "13", "18", "8", "9", "13"]
 _This two-legged dragon has dull blue scales tinged with bright blue ice. A freezing mist issues
 from between its powerful jaws._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Type: dragon
+Initiative: +5
+Size: large
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent, Snow vision
+Subtype: Cold
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 84 (8d12+32)
+Fort: +10
+Ref: +7
+Will: +5
+Immune: cold, paralysis, sleep
+Vulner: fire
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., burrow 20 ft., fly 60 ft. (average), burrow (snow only)
+Melee: bite +13 (2d6+6 plus 1d6 cold), tail slap +8 (1d8+3)
+Reach: 10
+Space: 10
+Spec Att: freezing mist breath
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, Snow vision
+::: statblock
+Ability scores: Str 22, Dex 13, Con 18, Int 8, Wis 9, Cha 13
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 26
+Feats: Flyby Attack, Improved Initiative, Power Attack, Vital Strike
+Skills: Climb +17, Intimidate +12, Perception +10, Stealth +8
+Languages: Draconic
+Special qualities: speed surge, icewalking
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 84 (8d12+32)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +5
-
-**Immune:** cold, paralysis, sleep
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft., fly 60 ft. (average), burrow (snow only)
-
-**Melee:** bite +13 (2d6+6 plus 1d6 cold), tail slap +8 (1d8+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** freezing mist breath
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 13, Con 18, Int 8, Wis 9, Cha 13
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26
-
-**Feats:** Flyby Attack, Improved Initiative, Power Attack, Vital Strike
-
-**Skills:** Climb +17, Intimidate +12, Perception +10, Stealth +8
-
-**Languages:** Draconic
-
-**Special qualities:** speed surge, icewalking
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold mountains
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

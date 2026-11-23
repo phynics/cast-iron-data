@@ -31,105 +31,78 @@ abilities = ["21", "12", "17", "16", "17", "16"]
 _Although wingless, this dragon twists gracefully though the sky, its scales reflecting the shifting
 hues of the heavens._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: dragon
+Initiative: +1
+Size: large
+Alignment: Lawful good
+Perception: +22
+Senses: Cloud sight, Dragon senses
+Subtype: Air
+Experience points: 6,400
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 22
+Touch: 10
+Flat-footed: 21
+AC modifiers: +1 Dex, +12 natural, -1 size
+Hit points: 95 (10d12+30)
+Fort: +10
+Ref: +10
+Will: +10
+Immune: electricity, paralysis, sleep
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: 40 ft., fly 200 ft. (good)
+Br Weap: 40-ft. cone, 6d8 electricity damage, DC 18
+Melee: bite +14 (2d6+7), 2 claws +14 (1d8+5), gore +14 (1d8+7), tail slap +12 (1d8+7)
+Reach: 5
+Reach P: 10 ft. with bite and gore
+Space: 10
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+At will: detect evil
+:::
 
-**Senses:** Cloud sight, Dragon senses
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: obscuring mist, shocking grasp
+Cantrips: At will: disrupt undead, mending, message, read magic
+:::
 
-**Subtype:** Air
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 21, Dex 12, Con 17, Int 16, Wis 17, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Flyby Attack, Hover, Lightning Reflexes, Multiattack, Skill Focus (Perception)
+Skills: Diplomacy +16, Perform (sing) +13, Sense Motive +16, Spellcraft +16
+Languages: Auran, Common, Draconic
+Special qualities: borne aloft, change shape
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +1 Dex, +12 natural, -1 size
-
-**Hit points:** 95 (10d12+30)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +10
-
-**Immune:** electricity, paralysis, sleep
-
-**Offense**
-
-**Speed:** 40 ft., fly 200 ft. (good)
-
-**Br Weap:** 40-ft. cone, 6d8 electricity damage, DC 18
-
-**Melee:** bite +14 (2d6+7), 2 claws +14 (1d8+5), gore +14 (1d8+7), tail slap +12 (1d8+7)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite and gore
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**At will:**
-
-- detect evil
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: obscuring mist, shocking grasp
-
-**Cantrips:**
-
-- At will: disrupt undead, mending, message, read magic
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 12, Con 17, Int 16, Wis 17, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Flyby Attack, Hover, Lightning Reflexes, Multiattack, Skill Focus (Perception)
-
-**Skills:** Diplomacy +16, Perform (sing) +13, Sense Motive +16, Spellcraft +16
-
-**Languages:** Auran, Common, Draconic
-
-**Special qualities:** borne aloft, change shape
-
-**Ecology**
-
-**Environment:** temperate or warm mountains
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: temperate or warm mountains
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

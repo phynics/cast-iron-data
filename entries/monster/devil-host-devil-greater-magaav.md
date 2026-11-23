@@ -37,102 +37,73 @@ between its yellowed fangs._
 
 **Host Devil, Greater (Magaav)**
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +4
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Detect magic, See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 2,400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 23
+Touch: 15
+Flat-footed: 18
+AC modifiers: +4 Dex, +1 dodge, +8 natural
+Hit points: 59 (7d10+21)
+Fort: +8
+Ref: +9
+Will: +3
+Dr: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 50 ft. (average)
+Melee: mwk ranseur +12/+7 (2d4+6/×3) or 2 claws +11 (1d6+4 plus 2 bleed)
+Rend: 2 claws, 1d6+6 plus 2 bleed
+Spec Att: noxious breath
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +12
+Constant: detect magic
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 1/day: summon (CL 3rd, 1 magaav 40%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 18, Dex 19, Con 16, Int 10, Wis 12, Cha 11
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 26
+Feats: Combat Reflexes, Dodge, Hover, Mobility
+Skills: Acrobatics +14 (+10 when jumping), Escape Artist +14, Fly +14, Intimidate +10, Perception +11, Stealth +14
+Languages: Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: master grappler, shared senses
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +1 dodge, +8 natural
-
-**Hit points:** 59 (7d10+21)
-
-**Fort:** +8
-
-**Ref:** +9
-
-**Will:** +3
-
-**Dr:** 5/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (average)
-
-**Melee:** mwk ranseur +12/+7 (2d4+6/×3) or 2 claws +11 (1d6+4 plus 2 bleed)
-
-**Rend:** 2 claws, 1d6+6 plus 2 bleed
-
-**Spec Att:** noxious breath
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: summon (CL 3rd, 1 magaav 40%)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 16, Int 10, Wis 12, Cha 11
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Reflexes, Dodge, Hover, Mobility
-
-**Skills:** Acrobatics +14 (+10 when jumping), Escape Artist +14, Fly +14, Intimidate +10,
-Perception +11, Stealth +14
-
-**Languages:** Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** master grappler, shared senses
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or flock (2-6)
-
-**Treasure:** Standard (mwk ranseur); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or flock (2-6)
+Treasure: Standard (mwk ranseur); other treasure
+:::
 
 ### Special Abilities
 

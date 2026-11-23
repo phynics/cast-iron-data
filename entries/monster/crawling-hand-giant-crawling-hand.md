@@ -30,75 +30,60 @@ abilities = ["21", "15", "-", "2", "13", "14"]
 _A giant rotting hand rocks unsteadily, propped upon thick, stubby fingers. Its pale, necrotic flesh
 pulses and crawls with sickly boils._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsense: 30
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +2 Dex, +1 dodge, +6 natural
+Hit points: 52 (7d8+21)
+Fort: +4
+Ref: +6
+Will: +6
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: claw +11 (1d6+7 plus [grab](ref/umr/grab))
+Spec Att: mark quarry, pus burst
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 21, Dex 15, Con -, Int 2, Wis 13, Cha 14
+Base attack bonus: +5
+Combat maneuver bonus: +10 (+14 grapple)
+Combat maneuver defense: 23
+Feats: Dodge, Lightning Reflexes, Toughness, Weapon Focus (claw)
+Skills: Acrobatics +3, Perception +7, Stealth +12
+Racial Modifiers: +4 Stealth
+Languages: Common (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 natural
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +6
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** claw +11 (1d6+7 plus [grab](ref/umr/grab))
-
-**Spec Att:** mark quarry, pus burst
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 15, Con -, Int 2, Wis 13, Cha 14
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10 (+14 grapple)
-
-**Combat maneuver defense:** 23
-
-**Feats:** Dodge, Lightning Reflexes, Toughness, Weapon Focus (claw)
-
-**Skills:** Acrobatics +3, Perception +7, Stealth +12
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any land or underground
+Organization: solitary or gang (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

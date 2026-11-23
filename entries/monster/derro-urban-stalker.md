@@ -32,100 +32,72 @@ abilities = ["15", "17", "22", "13", "5", "14"]
 _This furtive gray-skinned woman wears a tattered cloak and a spiky circlet. The barbed hook of her
 weapon glistens with poison._
 
-**Challenge rating:** 7
-
 **Derro [slayer](ref/class/slayer) 4**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Perception: +7
+Size: small
+Subtype: Derro
+Experience points: 3,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 17
+AC modifiers: +4 armor, +3 Dex, +2 natural, +1 size
+Hit points: 81 (3d8+4d10+46\~7)
+Fort: +11
+Ref: +8
+Will: +6
+Sr: 18
+Weaknesses: vulnerability to sunlight
+:::
 
-**Perception:** +7
+### Offense
 
-**Size:** small
+::: statblock
+Speed: 20 ft.
+Melee: +1 aklys +8/+3 (1d6+3), mwk spiked gauntlet +8 (1d3+1)
+Ranged: dart +10 (1d3+2) or +1 aklys +11 (1d6+3)
+Sneak: +2d6
+Spec Att: studied target +1 (1st, move action)
+:::
 
-**Subtype:** Derro
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5
+At will: darkness, ghost sound (DC 12)
+Per day: 1/day: daze (DC 12), sound burst (DC 14)
+:::
 
-**Experience points:** 3,200
+### Statistics
 
-**Armor class:** 20
+::: statblock
+Ability scores: Str 15, Dex 17, Con 22, Int 13, Wis 5, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +7 (+11 trip)
+Combat maneuver defense: 20 (22 vs. trip)
+Feats: Combat Expertise, Greater Trip, Improved Trip, Two-Weapon Fighting
+Skills: Acrobatics +6 (+2 when jumping), Bluff +9, Climb +5, Disguise +6, Intimidate +8, Knowledge (local) +8, Perception +7
+Languages: Aklo, Common, Undercommon
+Special qualities: [favored terrain](ref/ability/favored-terrain) (urban +2), madness, [poison use](ref/ability/poison-use), slayer talents ([slowing strike](ref/slayertalent/slowing-strike), [terrain mastery](ref/talent/terrain-mastery)), track +2
+Combat gear: potion of bull's strength, potion of enlarge person, 2 potion of invisibility, 4 potion of Xmsv
+Other gear: chain shirt, +1 -aklys, 10 dart, mwk -spiked gauntlet, I-hat of disguise
+:::
 
-**Touch:** 14
+### Ecology
 
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +3 Dex, +2 natural, +1 size
-
-**Hit points:** 81 (3d8+4d10+46\~7)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +6
-
-**Sr:** 18
-
-**Weaknesses:** vulnerability to sunlight
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +1 aklys +8/+3 (1d6+3), mwk spiked gauntlet +8 (1d3+1)
-
-**Ranged:** dart +10 (1d3+2) or +1 aklys +11 (1d6+3)
-
-**Sneak:** +2d6
-
-**Spec Att:** studied target +1 (1st, move action)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**At will:**
-
-- darkness, ghost sound (DC 12)
-
-**Per day:**
-
-- 1/day: daze (DC 12), sound burst (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 17, Con 22, Int 13, Wis 5, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7 (+11 trip)
-
-**Combat maneuver defense:** 20 (22 vs. trip)
-
-**Feats:** Combat Expertise, Greater Trip, Improved Trip, Two-Weapon Fighting
-
-**Skills:** Acrobatics +6 (+2 when jumping), Bluff +9, Climb +5, Disguise +6, Intimidate +8,
-Knowledge (local) +8, Perception +7
-
-**Languages:** Aklo, Common, Undercommon
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (urban +2), madness,
-[poison use](ref/ability/poison-use), slayer talents
-([slowing strike](ref/slayertalent/slowing-strike), [terrain mastery](ref/talent/terrain-mastery)),
-track +2
-
-**Combat gear:** potion of bull's strength, potion of enlarge person, 2 potion of invisibility, 4
-potion of Xmsv
-
-**Other gear:** chain shirt, +1 -aklys, 10 dart, mwk -spiked gauntlet, I-hat of disguise
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

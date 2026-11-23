@@ -32,110 +32,78 @@ abilities = ["24", "19", "24", "13", "16", "17"]
 _This flying, bulbous, tumor-riddled mass has numerous arms, no legs, and a leering, three-eyed
 face._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Initiative: +8
+Size: large
+Type: outsider
+Perception: +25
+Senses: Darkvision 60 ft., Scent
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 25
+Touch: 13
+Flat-footed: 21
+AC modifiers: +4 Dex, +12 natural, -1 size
+Hit points: 137 (11d10+77)
+Fort: +14
+Ref: +9
+Will: +10
+Amorph: present
+Dr: 10/good
+Immune: acid, disease, electricity, poison
+Resist: cold 10, fire 10
+Sr: 22
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft., fly 40 ft. (good)
+Melee: +1 scorpion whip +18/+13/+8 (1d6+8/18-20 plus disease), bite +12 (1d8+3 plus disease)
+Ranged: tumor +14 (2d6 acid plus disease)
+Reach: 10
+Reach P: 20 ft. with whip
+Space: 10
+Spec Att: disease, whip specialist
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +16
+At will: contagion (DC 17), grease (DC 14), greater teleport, self plus 50 lbs. of objects only, unholy blight (DC 17)
+Per day: 3/day: stinking cloud (DC 16)\
+1/day: summon (level 4, 1 gibrileth 35%), waves of fatigue
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 24, Dex 19, Con 24, Int 13, Wis 16, Cha 17
+Base attack bonus: +11
+Combat maneuver bonus: +19 (+23 trip)
+Combat maneuver defense: 35 (37 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Greater Trip, Improved Initiative, Improved Trip, Lightning Reflexes
+Skills: Fly +20, Knowledge (dungeoneering) +15, Perception +25
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: tumors
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 13
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 Dex, +12 natural, -1 size
-
-**Hit points:** 137 (11d10+77)
-
-**Fort:** +14
-
-**Ref:** +9
-
-**Will:** +10
-
-**Amorph:** present
-
-**Dr:** 10/good
-
-**Immune:** acid, disease, electricity, poison
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (good)
-
-**Melee:** +1 scorpion whip +18/+13/+8 (1d6+8/18-20 plus disease), bite +12 (1d8+3 plus disease)
-
-**Ranged:** tumor +14 (2d6 acid plus disease)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with whip
-
-**Space:** 10
-
-**Spec Att:** disease, whip specialist
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +16
-
-**At will:**
-
-- contagion (DC 17), grease (DC 14), greater teleport, self plus 50 lbs. of objects only, unholy
-  blight (DC 17)
-
-**Per day:**
-
-- 3/day: stinking cloud (DC 16)
-- 1/day: summon (level 4, 1 gibrileth 35%), waves of fatigue
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 19, Con 24, Int 13, Wis 16, Cha 17
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19 (+23 trip)
-
-**Combat maneuver defense:** 35 (37 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Greater Trip, Improved Initiative, Improved Trip,
-Lightning Reflexes
-
-**Skills:** Fly +20, Knowledge (dungeoneering) +15, Perception +25
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** tumors
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or infection (3-8)
-
-**Treasure:** Standard (+1 -scorpion whip); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or infection (3-8)
+Treasure: Standard (+1 -scorpion whip); other treasure
+:::
 
 ### Special Abilities
 

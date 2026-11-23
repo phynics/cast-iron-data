@@ -30,79 +30,62 @@ abilities = ["-", "18", "-", "-", "15", "19"]
 
 _Hundreds of twisted, distorted faces roil in a miserable cloud, screaming of their unquiet deaths._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: fear (30 ft., DC 18, 1d6 rounds)
+Alignment: Chaotic evil
+Initiative: +4
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal, Swarm
+Size: tiny
+Type: undead
+Experience points: 3,200
+:::
 
-**aura:** fear (30 ft., DC 18, 1d6 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 16
+AC modifiers: +4 deflection, +4 Dex, +2 size
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +7
+Will: +8
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 0 ft., fly 30 ft. (perfect)
+B Drain: 1d2 Con
+Melee: swarm (4d6 plus blood drain)
+Reach: 0
+Space: 10
+Spec Att: ghost touch jaws, project death
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal, Swarm
+::: statblock
+Ability scores: Str -, Dex 18, Con -, Int -, Wis 15, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Fly +16
+:::
 
-**Size:** tiny
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 deflection, +4 Dex, +2 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +8
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** 0 ft., fly 30 ft. (perfect)
-
-**B Drain:** 1d2 Con
-
-**Melee:** swarm (4d6 plus blood drain)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** ghost touch jaws, project death
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con -, Int -, Wis 15, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Fly +16
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pack (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or pack (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

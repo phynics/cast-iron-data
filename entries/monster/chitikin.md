@@ -31,75 +31,60 @@ abilities = ["19", "13", "14", "-", "15", "10"]
 _Eighteen segmented legs support this long arthropod's jet-black carapace, the front two of which
 are scythe-like claws, and its slender antennae end in glowing green bulbs._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 16
+AC modifiers: +1 Dex, +7 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +2
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: 2 claws +6 (1d6+4), sting +6 (1d6+4 plus [paralysis](ref/rule/paralysis))
+Paralysis: 1 round, DC 14
+Reach: 10
+Space: 10
+Spec Att: shriek
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 19, Dex 13, Con 14, Int -, Wis 15, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 19 (can't be tripped)
+Skills: Climb +12, Perception +2
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +7 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +2
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** 2 claws +6 (1d6+4), sting +6 (1d6+4 plus [paralysis](ref/rule/paralysis))
-
-**Paralysis:** 1 round, DC 14
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** shriek
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 13, Con 14, Int -, Wis 15, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Skills:** Climb +12, Perception +2
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate or warm forests or underground
-
-**Organization:** none
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests or underground
+Organization: none
+Treasure: None
+:::
 
 ### Special Abilities
 

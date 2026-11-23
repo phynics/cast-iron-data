@@ -33,92 +33,70 @@ abilities = ["15", "20", "13", "14", "10", "19"]
 _This gangly, long-armed creature has a face like a calf's, but with large, forward-facing eyes and
 a mane of lank hair._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: fey
+Initiative: +5
+Perception: +12
+Senses: Low-light vision
+Size: small
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 11
+AC modifiers: +5 Dex, +1 size
+Hit points: 31 (7d6+7)
+Fort: +3
+Ref: +10
+Will: +5
+Dr: 5/cold iron
+:::
 
-**Initiative:** +5
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: 2 claws +9 (1d3+2)
+Reach: 10
+Sneak: +1d6
+Space: 5
+Spec Att: abduct
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Psychic Magic"
+Caster level: 8
+Concentration: +12
+Power points: 10
+Psychoactive powers: aversion, 2 PE, DC 16, hallucinatory terrain, 4 PE, DC 18, hold person, 2 PE, DC 16, invisibility, 2 PE, DC 16, telekinetic maneuver, 0 PE
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 15, Dex 20, Con 13, Int 14, Wis 10, Cha 19
+Base attack bonus: +3
+Combat maneuver bonus: +7 (+9 drag)
+Combat maneuver defense: 19 (21 vs. drag)
+Feats: Agile Maneuvers, Combat Expertise, Improved Drag, Weapon Finesse
+Skills: Acrobatics +13, Bluff +10, Climb +12
+Racial Modifiers: +2 Perception, +4 Stealth
+Languages: Common, Sylvan
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 11
-
-**AC modifiers:** +5 Dex, +1 size
-
-**Hit points:** 31 (7d6+7)
-
-**Fort:** +3
-
-**Ref:** +10
-
-**Will:** +5
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** 2 claws +9 (1d3+2)
-
-**Reach:** 10
-
-**Sneak:** +1d6
-
-**Space:** 5
-
-**Spec Att:** abduct
-
-**Psychic Magic**
-
-**Caster level:** 8
-
-**Concentration:** +12
-
-**Power points:** 10
-
-**Psychoactive powers:**
-
-- aversion, 2 PE, DC 16, hallucinatory terrain, 4 PE, DC 18, hold person, 2 PE, DC 16, invisibility,
-  2 PE, DC 16, telekinetic maneuver, 0 PE
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 20, Con 13, Int 14, Wis 10, Cha 19
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7 (+9 drag)
-
-**Combat maneuver defense:** 19 (21 vs. drag)
-
-**Feats:** Agile Maneuvers, Combat Expertise, Improved Drag, Weapon Finesse
-
-**Skills:** Acrobatics +13, Bluff +10, Climb +12
-
-**Racial Modifiers:** +2 Perception, +4 Stealth
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests or swamps
-
-**Organization:** solitary, gang (2-5), or band (6-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests or swamps
+Organization: solitary, gang (2-5), or band (6-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

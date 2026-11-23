@@ -30,77 +30,61 @@ abilities = ["15", "15", "15", "10", "12", "6"]
 _This short, spindly creature has warty, brown-red skin and large black eyes. Its long, muscular
 tongue drags on the ground beneath it._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: aberration
+Initiative: +2
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Scent
+Size: small
+Experience points: 400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 13 (2d8+4)
+Fort: +2
+Ref: +2
+Will: +4
+Immune: disease
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Distraction: 13
+Melee: tongue +4 (1d4+3 plus disease and distraction)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 15, Dex 15, Con 15, Int 10, Wis 12, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Power Attack
+Skills: Climb +10, Escape Artist +11, Knowledge (dungeoneering) +5, Perception +6, Stealth +11
+Racial Modifiers: +4 Escape Artist
+Languages: Common
+Special qualities: expert climber
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +4
-
-**Immune:** disease
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Distraction:** 13
-
-**Melee:** tongue +4 (1d4+3 plus disease and distraction)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 15, Int 10, Wis 12, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Power Attack
-
-**Skills:** Climb +10, Escape Artist +11, Knowledge (dungeoneering) +5, Perception +6, Stealth +11
-
-**Racial Modifiers:** +4 Escape Artist
-
-**Languages:** Common
-
-**Special qualities:** expert climber
-
-**Ecology**
-
-**Environment:** any urban or underground
-
-**Organization:** solitary, pair, or cult (3-6 plus 1 [otyugh](ref/monster/otyugh))
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban or underground
+Organization: solitary, pair, or cult (3-6 plus 1 [otyugh](ref/monster/otyugh))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,117 +32,80 @@ abilities = ["20", "21", "18", "31", "22", "23"]
 _This humanoid creature has two mouths in its eyeless head, one small and human, the other split
 into terrifying jaws._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+blindsense: 60
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+thoughtsense: 60
+Experience points: 6,400
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 22
+Touch: 21
+Flat-footed: 17
+AC modifiers: +6 deflection, +5 Dex, +1 natural
+Hit points: 115 (9d10+44)
+Fort: +7
+Ref: +8
+Will: +15; +4 vs. psychic spells
+Defensive abilities: psychic deflection, psychic resilience
+Immune: visual effects
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +17 (2d6+5), 2 claws +16 (1d6+5)
+Spec Att: consume thoughts (DC 21)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +15
+Constant: detect magic, detect thoughts (DC 18), read magic
+Per day: 3/day: charm monster (DC 19), daze monster (DC 17), hold monster (DC 20), hypnotic pattern (DC 18), vampiric touch
+Per week: plane shift, willing targets only
+:::
 
-**Perception:** +20
+::: statblock
+title = "Psychic Magic"
+Caster level: 9
+Concentration: +15
+Power points: 10
+Psychoactive powers: burst of insight, 1 PE, emotive block, 3 PE, DC 19, greater oneiric horror, 4 PE, DC 20, mind thrust III, 3 PE, DC 19, mindscape door, 3 PE, DC 19, mindwipe, 4 PE, DC 20, telekinetic maneuver, 3 PE
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 20, Dex 21, Con 18, Int 31, Wis 22, Cha 23
+Base attack bonus: +11
+Combat maneuver bonus: +16
+Combat maneuver defense: 37
+Feats: Combat Casting, Combat Expertise, Combat Reflexes, Improved Initiative, Iron Will, Weapon Focus (bite)
+Skills: Acrobatics +15, Appraise +20, Bluff +20, Intimidate +19, Knowledge (all) +20, Perception +20, Sense Motive +20, Stealth +16, Use Magic Device +14
+Languages: Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Giant, Infernal, Sylvan, Terran, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: caulborn traits, cooperative scrying, hive mind
+:::
 
-**thoughtsense:** 60
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 21
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 deflection, +5 Dex, +1 natural
-
-**Hit points:** 115 (9d10+44)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +15; +4 vs. psychic spells
-
-**Defensive abilities:** psychic deflection, psychic resilience
-
-**Immune:** visual effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +17 (2d6+5), 2 claws +16 (1d6+5)
-
-**Spec Att:** consume thoughts (DC 21)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +15
-
-**Constant:**
-
-- detect magic, detect thoughts (DC 18), read magic
-
-**Per day:**
-
-- 3/day: charm monster (DC 19), daze monster (DC 17), hold monster (DC 20), hypnotic pattern (DC
-  18), vampiric touch
-
-**Per week:**
-
-- plane shift, willing targets only
-
-**Psychic Magic**
-
-**Caster level:** 9
-
-**Concentration:** +15
-
-**Power points:** 10
-
-**Psychoactive powers:**
-
-- burst of insight, 1 PE, emotive block, 3 PE, DC 19, greater oneiric horror, 4 PE, DC 20, mind
-  thrust III, 3 PE, DC 19, mindscape door, 3 PE, DC 19, mindwipe, 4 PE, DC 20, telekinetic maneuver,
-  3 PE
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 21, Con 18, Int 31, Wis 22, Cha 23
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 37
-
-**Feats:** Combat Casting, Combat Expertise, Combat Reflexes, Improved Initiative, Iron Will, Weapon
-Focus (bite)
-
-**Skills:** Acrobatics +15, Appraise +20, Bluff +20, Intimidate +19, Knowledge (all) +20, Perception
-+20, Sense Motive +20, Stealth +16, Use Magic Device +14
-
-**Languages:** Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Giant, Infernal, Sylvan, Terran,
-Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** caulborn traits, cooperative scrying, hive mind
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cabal (3-6)
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary, pair, or cabal (3-6)
+Treasure: Double
+:::
 
 ### Special Abilities
 

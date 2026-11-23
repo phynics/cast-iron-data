@@ -33,73 +33,59 @@ abilities = ["16", "14", "19", "6", "15", "9"]
 _Every strip of this three-headed hound's hide has been peeled away, leaving wet sinew and bulging
 tendons exposed._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +15
+Senses: Soul scent
+Subtype: Evil, Extraplanar, Lawful
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 76 (8d10+32)
+Fort: +10
+Ref: +8
+Will: +4
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: 3 bites +11 (1d6+3 plus cerberus's jaws)
+Rend: 2 bites, 1d6+4 or 3 bites, 1d6+8
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Soul scent
+::: statblock
+Ability scores: Str 16, Dex 14, Con 19, Int 6, Wis 15, Cha 9
+Base attack bonus: +8
+Combat maneuver bonus: +11
+Combat maneuver defense: 23 (27 vs. trip)
+Feats: Alertness, Combat Reflexes, Improved Initiative, Stand Still
+Skills: Acrobatics +13 (+17 when jumping), Perception +15
+Racial Modifiers: +4 Survival when tracking undead
+Languages: Infernal (can't speak)
+:::
 
-**Subtype:** Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 3 bites +11 (1d6+3 plus cerberus's jaws)
-
-**Rend:** 2 bites, 1d6+4 or 3 bites, 1d6+8
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 14, Con 19, Int 6, Wis 15, Cha 9
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 23 (27 vs. trip)
-
-**Feats:** Alertness, Combat Reflexes, Improved Initiative, Stand Still
-
-**Skills:** Acrobatics +13 (+17 when jumping), Perception +15
-
-**Racial Modifiers:** +4 Survival when tracking undead
-
-**Languages:** Infernal (can't speak)
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or pack (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or pack (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

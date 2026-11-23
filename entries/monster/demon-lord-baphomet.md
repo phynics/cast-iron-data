@@ -31,129 +31,81 @@ abilities = ["36", "32", "38", "37", "29", "35"]
 _Fire burns on the central horn and in the rheumy eyes of this bestial winged demon, who stands more
 than twice a human's height._
 
-**Challenge rating:** 27
+::: statblock
+Challenge rating: 27
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 38), unholy aura (DC 30)
+Alignment: Chaotic evil
+Initiative: +23
+Size: large
+Type: outsider
+Perception: +53
+Senses: Darkvision 60 ft., Detect good, Detect law, See in darkness, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 3,276,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 38), unholy aura (DC 30)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 45
+Touch: 34
+Flat-footed: 45
+AC modifiers: +4 deflection, +11 Dex, +11 natural, +10 profane, -1 size
+Hit points: 643 (33d10+462)
+Fort: +36
+Ref: +26
+Will: +31
+Defensive abilities: Abyssal resurrection, _[freedom of movement](ref/spell/freedom-of-movement)_, supernatural cunning
+Dr: 20/cold iron, epic, and good
+Immune: ability damage, ability drain, charm and compulsion effects, death effects, electricity, energy drain, fire, maze, petrification, poison
+Resist: acid 30, cold 30
+Sr: 38
+:::
 
-**Initiative:** +23
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 50 ft., fly 50 ft. (good)
+Burn: 4d6 fire, DC 40
+Melee: Aizerghaul +52/+47/+42/+37 (2d8+28/19-20/×3), gore +40 (2d8+6 plus 2d6 fire plus burn), bite +40 (1d8+6)
+Pow Ch: gore, 4d8+19 plus 2d6 fire and burn
+Reach: 10
+Reach P: 20 ft. with glaive
+Space: 10
+Spec Att: glaive mastery, scroll use
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 27
+Constant: detect good, detect law, freedom of movement, speak with animals, true seeing, unholy aura (DC 30)
+At will: astral projection, baleful polymorph (DC 27), blasphemy (DC 29), desecrate, dominate person (DC 27), greater dispel magic, greater teleport, telekinesis (DC 27), shapechange, unhallow, unholy blight (DC 26)
+Per day: 3/day: quickened greater dispel magic, maze, summon demons, summon minotaurs, symbol of persuasion (DC 28)\
+1/day: imprisonment (DC 31), mass charm monster (DC 30), time stop
+:::
 
-**Perception:** +53
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect law, See in darkness, True seeing
+::: statblock
+Ability scores: Str 36, Dex 32, Con 38, Int 37, Wis 29, Cha 35
+Base attack bonus: +33
+Combat maneuver bonus: +47 (+51 bull rush)
+Combat maneuver defense: 82 (84 vs. bull rush)
+Feats: Combat Reflexes, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Greater Bull Rush, Greater Weapon Focus (glaive), Greater Weapon Specialization (glaive), Improved Bull Rush, Improved Critical (glaive), Improved Initiative, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater dispel magic), Scribe Scroll, Staggering Critical, Weapon Focus (glaive), Weapon Specialization (glaive)
+Skills: Acrobatics +44, Bluff +48, Diplomacy +48, Fly +49, Handle Animal +45, Sense Motive +45, Spellcraft +49, Stealth +43, Use Magic Device +45
+Racial Modifiers: +8 Perception
+Languages: all (language mastery); _[speak with animals](ref/spell/speak-with-animals),_ [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any animal, magical beast, or minotaur; [greater polymorph](ref/spell/polymorph-greater)), infernal brand, language mastery
+Faith: Baphomet
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 3,276,800
-
-**Armor class:** 45
-
-**Touch:** 34
-
-**Flat-footed:** 45
-
-**AC modifiers:** +4 deflection, +11 Dex, +11 natural, +10 profane, -1 size
-
-**Hit points:** 643 (33d10+462)
-
-**Fort:** +36
-
-**Ref:** +26
-
-**Will:** +31
-
-**Defensive abilities:** Abyssal resurrection,
-_[freedom of movement](ref/spell/freedom-of-movement)_, supernatural cunning
-
-**Dr:** 20/cold iron, epic, and good
-
-**Immune:** ability damage, ability drain, charm and compulsion effects, death effects, electricity,
-energy drain, fire, maze, petrification, poison
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 38
-
-**Offense**
-
-**Speed:** 50 ft., fly 50 ft. (good)
-
-**Burn:** 4d6 fire, DC 40
-
-**Melee:** Aizerghaul +52/+47/+42/+37 (2d8+28/19-20/×3), gore +40 (2d8+6 plus 2d6 fire plus burn),
-bite +40 (1d8+6)
-
-**Pow Ch:** gore, 4d8+19 plus 2d6 fire and burn
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with glaive
-
-**Space:** 10
-
-**Spec Att:** glaive mastery, scroll use
-
-**Spell-Like Abilities**
-
-**Caster level:** 27
-
-**Constant:**
-
-- detect good, detect law, freedom of movement, speak with animals, true seeing, unholy aura (DC 30)
-
-**At will:**
-
-- astral projection, baleful polymorph (DC 27), blasphemy (DC 29), desecrate, dominate person (DC
-  27), greater dispel magic, greater teleport, telekinesis (DC 27), shapechange, unhallow, unholy
-  blight (DC 26)
-
-**Per day:**
-
-- 3/day: quickened greater dispel magic, maze, summon demons, summon minotaurs, symbol of persuasion
-  (DC 28)
-- 1/day: imprisonment (DC 31), mass charm monster (DC 30), time stop
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 32, Con 38, Int 37, Wis 29, Cha 35
-
-**Base attack bonus:** +33
-
-**Combat maneuver bonus:** +47 (+51 bull rush)
-
-**Combat maneuver defense:** 82 (84 vs. bull rush)
-
-**Feats:** Combat Reflexes, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item,
-Critical Focus, Greater Bull Rush, Greater Weapon Focus (glaive), Greater Weapon Specialization
-(glaive), Improved Bull Rush, Improved Critical (glaive), Improved Initiative, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (greater dispel magic), Scribe Scroll, Staggering
-Critical, Weapon Focus (glaive), Weapon Specialization (glaive)
-
-**Skills:** Acrobatics +44, Bluff +48, Diplomacy +48, Fly +49, Handle Animal +45, Sense Motive +45,
-Spellcraft +49, Stealth +43, Use Magic Device +45
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** all (language mastery); _[speak with animals](ref/spell/speak-with-animals),_
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any animal, magical beast, or minotaur;
-[greater polymorph](ref/spell/polymorph-greater)), infernal brand, language mastery
-
-**Faith:** Baphomet
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple; Aizerghaul, 2d6 scrolls, other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple; Aizerghaul, 2d6 scrolls, other treasure
+:::
 
 ### Special Abilities
 

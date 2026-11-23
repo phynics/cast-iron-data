@@ -29,92 +29,69 @@ abilities = ["7", "18", "12", "14", "15", "17"]
 _Knee-high to a human, this large-headed creature has an almost manically friendly look on its
 expressive face._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: fey
+Initiative: +8
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 12
+AC modifiers: +4 Dex, +1 dodge, +2 size
+Hit points: 4 (1d6+1)
+Fort: +1
+Ref: +6
+Will: +4; +2 vs. illusions
+Dr: 5/cold iron
+Sr: 12
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 20 ft.
+Melee: short sword +6 (1d2-2/19-20)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +10
+At will: dancing lights, mending, prestidigitation
+Per day: 1/day: lesser confusion (DC 14), dimension door, self only, mirror image, ventriloquism (DC 14)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 7, Dex 18, Con 12, Int 14, Wis 15, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: +2
+Combat maneuver defense: 11
+Feats: Dodge, Improved Initiative, Weapon Finesse
+Skills: Acrobatics +8 (+4 jump), Bluff +7, Craft (any one) +6, Escape Artist +8, Handle Animal +4, Sense Motive +6, Stealth +16 (+20 in forest)
+Racial Modifiers: +2 Perception, +4 Stealth in forests
+Languages: Common, Elven, Gm, Sylvan
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +1 dodge, +2 size
-
-**Hit points:** 4 (1d6+1)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +4; +2 vs. illusions
-
-**Dr:** 5/cold iron
-
-**Sr:** 12
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** short sword +6 (1d2-2/19-20)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**At will:**
-
-- dancing lights, mending, prestidigitation
-
-**Per day:**
-
-- 1/day: lesser confusion (DC 14), dimension door, self only, mirror image, ventriloquism (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 18, Con 12, Int 14, Wis 15, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Dodge, Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +8 (+4 jump), Bluff +7, Craft (any one) +6, Escape Artist +8, Handle Animal
-+4, Sense Motive +6, Stealth +16 (+20 in forest)
-
-**Racial Modifiers:** +2 Perception, +4 Stealth in forests
-
-**Languages:** Common, Elven, Gm, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests or plains
-
-**Organization:** solitary, gang (2-5), or band (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests or plains
+Organization: solitary, gang (2-5), or band (7-12)
+Treasure: Standard
+:::
 
 ### Description
 

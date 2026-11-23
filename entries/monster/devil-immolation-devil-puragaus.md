@@ -30,109 +30,76 @@ abilities = ["34", "26", "35", "24", "23", "24"]
 
 _Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-winged devil._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Initiative: +8
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft., True seeing
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 204,800
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 36
+Touch: 17
+Flat-footed: 28
+AC modifiers: +8 Dex, +19 natural, -1 size
+Hit points: 315 (18d10+216)
+Fort: +23
+Ref: +19
+Will: +14
+Dr: 15/good and silver
+Immune: fire, poison
+Regen: 5 (good weapons or good spells)
+Resist: acid 10, cold 10
+Sr: 30
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 80 ft. (good)
+Burn: 2d6, DC 31
+Melee: bite +29 (2d6+12 plus burn), 2 claw +29 (1d8+12 plus burn), gore +29 (2d8+12 plus burn), 2 wings +27 (1d8+6)
+Reach: 10
+Space: 10
+Spec Att: hellfire
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +24
+Constant: fire shield, true seeing
+At will: fireball (DC 20), greater teleport, self plus 50 lbs. of objects only, persistent image (DC 22), wall of fire
+Per day: 3/day: dictum (DC 24), fire storm (DC 25), mass charm monster (DC 25)\
+1/day: summon (level 9, any 2d4 devils of CR 10 or lower, 90%)
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 34, Dex 26, Con 35, Int 24, Wis 23, Cha 24
+Base attack bonus: +18
+Combat maneuver bonus: +31
+Combat maneuver defense: 49
+Feats: Blind-Fight, Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Iron Will, Multiattack, Power Attack, Stand Still
+Skills: Bluff +28, Diplomacy +28, Sense Motive +27, Spellcraft +28, Stealth +25
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 204,800
+### Ecology
 
-**Armor class:** 36
-
-**Touch:** 17
-
-**Flat-footed:** 28
-
-**AC modifiers:** +8 Dex, +19 natural, -1 size
-
-**Hit points:** 315 (18d10+216)
-
-**Fort:** +23
-
-**Ref:** +19
-
-**Will:** +14
-
-**Dr:** 15/good and silver
-
-**Immune:** fire, poison
-
-**Regen:** 5 (good weapons or good spells)
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 30 ft., fly 80 ft. (good)
-
-**Burn:** 2d6, DC 31
-
-**Melee:** bite +29 (2d6+12 plus burn), 2 claw +29 (1d8+12 plus burn), gore +29 (2d8+12 plus burn),
-2 wings +27 (1d8+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** hellfire
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +24
-
-**Constant:**
-
-- fire shield, true seeing
-
-**At will:**
-
-- fireball (DC 20), greater teleport, self plus 50 lbs. of objects only, persistent image (DC 22),
-  wall of fire
-
-**Per day:**
-
-- 3/day: dictum (DC 24), fire storm (DC 25), mass charm monster (DC 25)
-- 1/day: summon (level 9, any 2d4 devils of CR 10 or lower, 90%)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 26, Con 35, Int 24, Wis 23, Cha 24
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 49
-
-**Feats:** Blind-Fight, Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Iron
-Will, Multiattack, Power Attack, Stand Still
-
-**Skills:** Bluff +28, Diplomacy +28, Sense Motive +27, Spellcraft +28, Stealth +25
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or council (3-6)
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or council (3-6)
+Treasure: Double
+:::
 
 ### Special Abilities
 

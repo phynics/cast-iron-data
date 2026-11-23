@@ -33,92 +33,70 @@ dangle tiny fairy skull trophies._
 
 **Mythic Chaneque**
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Mythic rank: 1
+aura: fear aura (30 ft., DC 13)
+Type: fey
+Initiative: +3
+Alignment: Neutral evil
+Perception: +8
+Senses: Low-light vision
+Size: small
+Subtype: Mythic
+Experience points: 400
+:::
 
-**Mythic rank:** 1
+### Defense
 
-**aura:** fear aura (30 ft., DC 13)
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 12
+AC modifiers: +3 Dex, +1 natural, +1 size
+Hit points: 19 (3d6+9)
+Fort: +1
+Ref: +6
+Will: +5
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 60 ft. (clumsy)
+M Power: 1/day, surge +1d6
+Melee: claw +5 (1d3+3)
+Ranged: thrown skull +5 (1d4+3 plus steal soul)
+Spec Att: steal soul
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +4
+Per day: 3/day: fear (DC 13)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 6, Dex 17, Con 10, Int 13, Wis 14, Cha 9
+Base attack bonus: +1
+Combat maneuver bonus: -2
+Combat maneuver defense: 11
+Feats: Toughness, Mythic Weapon Finesse
+Skills: Acrobatics +9, Bluff +5, Climb +12, Perception +8, Sense Motive +8, Stealth +13 (+17 while in trees)
+Racial Modifiers: +4 Stealth while in trees
+Languages: Abyssal, Common, Sylvan
+:::
 
-**Size:** small
+### Ecology
 
-**Subtype:** Mythic
-
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +1 natural, +1 size
-
-**Hit points:** 19 (3d6+9)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 60 ft. (clumsy)
-
-**M Power:** 1/day, surge +1d6
-
-**Melee:** claw +5 (1d3+3)
-
-**Ranged:** thrown skull +5 (1d4+3 plus steal soul)
-
-**Spec Att:** steal soul
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +4
-
-**Per day:**
-
-- 3/day: fear (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con 10, Int 13, Wis 14, Cha 9
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Toughness, Mythic Weapon Finesse
-
-**Skills:** Acrobatics +9, Bluff +5, Climb +12, Perception +8, Sense Motive +8, Stealth +13 (+17
-while in trees)
-
-**Racial Modifiers:** +4 Stealth while in trees
-
-**Languages:** Abyssal, Common, Sylvan
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary or gang (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests
+Organization: solitary or gang (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

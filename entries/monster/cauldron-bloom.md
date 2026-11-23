@@ -31,99 +31,73 @@ abilities = ["42", "15", "27", "15", "14", "14"]
 _Three thick vines sprout from this massive cylindrical plant's base. Ruddy light flickers beneath
 its sloping armored sides, and it exudes a palpable aura of magic._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsight: 120
+Size: colossal
+Initiative: +6
+Alignment: Neutral
+Perception: +33
+Type: plant
+Senses: Low-light vision, True seeing
+tremorParens: 1 mile
+tremorsense: 5280
+Experience points: 51,200
+:::
 
-**blindsight:** 120
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 28
+Touch: 4
+Flat-footed: 26
+AC modifiers: +2 Dex, +24 natural, -8 size
+Hit points: 231 (22d8+132)
+Fort: +21
+Ref: +11
+Will: +11
+Immune: [plant traits](ref/umr/plant-traits)
+Sr: 26
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., burrow 10 ft.
+Melee: 3 slams +24 (2d8+16)
+Reach: 30
+Space: 30
+Spec Att: sanguine centrifuge (2d8+16 plus 3d6 bleed, AC 22, hp 27; DC 23), warping field (DC 23)
+:::
 
-**Perception:** +33
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 22
+Concentration: +24
+Per day: 1/day: greater teleport, self plus stomach contents only; see text
+:::
 
-**Type:** plant
+### Statistics
 
-**Senses:** Low-light vision, True seeing
+::: statblock
+Ability scores: Str 42, Dex 15, Con 27, Int 15, Wis 14, Cha 14
+Base attack bonus: +16
+Combat maneuver bonus: +40 (+44 bull rush)
+Combat maneuver defense: 52 (54 vs. bull rush)
+Feats: Awesome Blow, Cleave, Combat Expertise, Great Cleave, Greater Bull Rush, Improved Bull Rush, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception)
+Skills: Handle Animal +13, Perception +33
+Racial Modifiers: +20 Stealth while underground
+Languages: Sylvan, Terran (can't speak)
+Special qualities: terraforming teleport
+:::
 
-**tremorParens:** 1 mile
+### Ecology
 
-**tremorsense:** 5280
-
-**Experience points:** 51,200
-
-**Armor class:** 28
-
-**Touch:** 4
-
-**Flat-footed:** 26
-
-**AC modifiers:** +2 Dex, +24 natural, -8 size
-
-**Hit points:** 231 (22d8+132)
-
-**Fort:** +21
-
-**Ref:** +11
-
-**Will:** +11
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 10 ft., burrow 10 ft.
-
-**Melee:** 3 slams +24 (2d8+16)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** sanguine centrifuge (2d8+16 plus 3d6 bleed, AC 22, hp 27; DC 23), warping field (DC
-23)
-
-**Spell-Like Abilities**
-
-**Caster level:** 22
-
-**Concentration:** +24
-
-**Per day:**
-
-- 1/day: greater teleport, self plus stomach contents only; see text
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 15, Con 27, Int 15, Wis 14, Cha 14
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +40 (+44 bull rush)
-
-**Combat maneuver defense:** 52 (54 vs. bull rush)
-
-**Feats:** Awesome Blow, Cleave, Combat Expertise, Great Cleave, Greater Bull Rush, Improved Bull
-Rush, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception)
-
-**Skills:** Handle Animal +13, Perception +33
-
-**Racial Modifiers:** +20 Stealth while underground
-
-**Languages:** Sylvan, Terran (can't speak)
-
-**Special qualities:** terraforming teleport
-
-**Ecology**
-
-**Environment:** any cold land
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any cold land
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -29,77 +29,61 @@ abilities = ["36", "7", "21", "2", "13", "6"]
 _Similar to other whales in many ways, this giant aquatic beast is notable for its enormous teeth,
 menacingly strong jaws, and blood-red skin._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: animal
+blindsense: 120
+Size: gargantuan
+Initiative: -2
+Alignment: Neutral
+Perception: +21
+Senses: Low-light vision
+Experience points: 4,800
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 22
+Touch: 4
+Flat-footed: 22
+AC modifiers: -2 Dex, +18 natural, -4 size
+Hit points: 105 (10d8+60)
+Fort: +12
+Ref: +7
+Will: +6
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** -2
+::: statblock
+Speed: swim 40 ft.
+Melee: bite +17 (2d8+26 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Swallow: 4d6 damage, AC 19, 10 hp
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +21
+::: statblock
+Ability scores: Str 36, Dex 7, Con 21, Int 2, Wis 13, Cha 6
+Base attack bonus: +7
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Iron Will, Lightning Reflexes, Power Attack, Toughness, Weapon Focus (bite)
+Skills: Perception +21, Swim +29
+Racial Modifiers: +12 Perception
+Special qualities: [hold breath](ref/umr/hold-breath), powerful bite
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 4
-
-**Flat-footed:** 22
-
-**AC modifiers:** -2 Dex, +18 natural, -4 size
-
-**Hit points:** 105 (10d8+60)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** swim 40 ft.
-
-**Melee:** bite +17 (2d8+26 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 4d6 damage, AC 19, 10 hp
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 7, Con 21, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Iron Will, Lightning Reflexes, Power Attack, Toughness, Weapon Focus (bite)
-
-**Skills:** Perception +21, Swim +29
-
-**Racial Modifiers:** +12 Perception
-
-**Special qualities:** [hold breath](ref/umr/hold-breath), powerful bite
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** single, pair, or pod (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: single, pair, or pod (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,99 +31,72 @@ abilities = ["27", "19", "-", "14", "16", "21"]
 _This blood-drenched humanoid skeleton stares with hate-filled eyes as its bones drip with streams
 of fresh gore._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +8
+Lifesense: present
+Size: medium
+Alignment: Neutral evil
+Perception: +20
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 9,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Lifesense:** present
+::: statblock
+Armor class: 24
+Touch: 19
+Flat-footed: 20
+AC modifiers: +4 Dex, +5 natural, +5 profane
+Hit points: 133 (14d8+70)
+Fort: +9
+Ref: +13
+Will: +12
+Chan Res: +2
+Dr: 10/bludgeoning
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Bleed: 1d6
+Melee: bite +18 (1d8+8 plus bleed), 2 claws +18 (1d8+8/19-20 plus bleed)
+Rend: 2 claws, 1d8+8+12
+Spec Att: mirror jump
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +15
+At will: dimension door, via reflective surfaces only
+Per day: 3/day: mass inflict moderate wounds (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 27, Dex 19, Con -, Int 14, Wis 16, Cha 21
+Base attack bonus: +10
+Combat maneuver bonus: +18
+Combat maneuver defense: 37
+Feats: Improved Critical (claw), Improved Initiative, Intimidating Prowess, Lunge, Power Attack, Skill Focus (Intimidate), Stealthy
+Skills: Acrobatics +18, Climb +25, Escape Artist +22, Intimidate +36, Perception +20, Stealth +25
+Languages: Common
+Special qualities: hide in plain sight, unholy grace
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 19
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +5 natural, +5 profane
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +9
-
-**Ref:** +13
-
-**Will:** +12
-
-**Chan Res:** +2
-
-**Dr:** 10/bludgeoning
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d6
-
-**Melee:** bite +18 (1d8+8 plus bleed), 2 claws +18 (1d8+8/19-20 plus bleed)
-
-**Rend:** 2 claws, 1d8+8+12
-
-**Spec Att:** mirror jump
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**At will:**
-
-- dimension door, via reflective surfaces only
-
-**Per day:**
-
-- 3/day: mass inflict moderate wounds (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 19, Con -, Int 14, Wis 16, Cha 21
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 37
-
-**Feats:** Improved Critical (claw), Improved Initiative, Intimidating Prowess, Lunge, Power Attack,
-Skill Focus (Intimidate), Stealthy
-
-**Skills:** Acrobatics +18, Climb +25, Escape Artist +22, Intimidate +36, Perception +20, Stealth
-+25
-
-**Languages:** Common
-
-**Special qualities:** hide in plain sight, unholy grace
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gang (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gang (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

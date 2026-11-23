@@ -28,115 +28,82 @@ special_qualities = "razor sharp"
 abilities = ["23", "12", "21", "16", "17", "22"]
 +++
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 22)
+Alignment: Chaotic good
+Type: dragon
+Initiative: +1
+Size: large
+Perception: +19
+Senses: Dragon senses
+Subtype: Earth, Extraplanar
+tremorsense: 60
+Experience points: 9,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 22)
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 27
+Touch: 10
+Flat-footed: 26
+AC modifiers: +1 Dex, +17 natural, -1 size
+Hit points: 149 (13d12+65)
+Fort: +15
+Ref: +11
+Will: +11
+Dr: 5/magic
+Immune: paralysis, sleep, sonic
+Sr: 21
+:::
 
-**Type:** dragon
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 60 ft., burrow 30 ft., climb 30 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, 12d4 sonic, DC 21
+Melee: bite +19 (2d6+9/19-20), 2 claws +18 (1d8+6), tail slap +16 (1d8+9), 2 wings +16 (1d6+3)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+At will: color spray (DC 17), glitterdust (DC 18), rainbow pattern (DC 20)
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +7
+1st-level spells: 5/day: shield, unseen servant
+Cantrips: At will: acid splash, detect magic, ghost sound, read magic
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Subtype:** Earth, Extraplanar
+::: statblock
+Ability scores: Str 23, Dex 12, Con 21, Int 16, Wis 17, Cha 22
+Base attack bonus: +13
+Combat maneuver bonus: +20
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Deceitful, Great Fortitude, Improved Critical (bite), Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (bite)
+Skills: Bluff +26, Climb +30, Intimidate +22, Knowledge (dungeoneering) +19, Perception +19, Sense Motive +19, Stealth +13
+Languages: Common, Draconic, Terran, Undercommon
+Special qualities: razor sharp
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 27
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +17 natural, -1 size
-
-**Hit points:** 149 (13d12+65)
-
-**Fort:** +15
-
-**Ref:** +11
-
-**Will:** +11
-
-**Dr:** 5/magic
-
-**Immune:** paralysis, sleep, sonic
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 60 ft., burrow 30 ft., climb 30 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 12d4 sonic, DC 21
-
-**Melee:** bite +19 (2d6+9/19-20), 2 claws +18 (1d8+6), tail slap +16 (1d8+9), 2 wings +16 (1d6+3)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**At will:**
-
-- color spray (DC 17), glitterdust (DC 18), rainbow pattern (DC 20)
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +7
-
-**1st-level spells:**
-
-- 5/day: shield, unseen servant
-
-**Cantrips:**
-
-- At will: acid splash, detect magic, ghost sound, read magic
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 12, Con 21, Int 16, Wis 17, Cha 22
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Deceitful, Great Fortitude, Improved Critical (bite), Lightning Reflexes, Multiattack,
-Power Attack, Weapon Focus (bite)
-
-**Skills:** Bluff +26, Climb +30, Intimidate +22, Knowledge (dungeoneering) +19, Perception +19,
-Sense Motive +19, Stealth +13
-
-**Languages:** Common, Draconic, Terran, Undercommon
-
-**Special qualities:** razor sharp
-
-**Ecology**
-
-**Environment:** any underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

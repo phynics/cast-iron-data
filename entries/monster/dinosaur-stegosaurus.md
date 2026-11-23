@@ -28,70 +28,57 @@ abilities = ["27", "14", "17", "2", "13", "10"]
 _This huge dinosaur has a small head, twin rows of sharp dorsal plates, and a muscular tail
 terminating in a set of bony spikes._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Perception: +16
+Senses: Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 22
+Touch: 10
+Flat-footed: 20
+AC modifiers: +2 Dex, +12 natural, -2 size
+Hit points: 90 (12d8+36)
+Fort: +13
+Ref: +10
+Will: +5
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: tail +16 (4d6+12 plus [trip](ref/umr/trip))
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 27, Dex 14, Con 17, Int 2, Wis 13, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +19
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Cleave, Great Fortitude, Improved Initiative, Improved Overrun, Power Attack, Weapon Focus (tail)
+Skills: Perception +16
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +12 natural, -2 size
-
-**Hit points:** 90 (12d8+36)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** tail +16 (4d6+12 plus [trip](ref/umr/trip))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 14, Con 17, Int 2, Wis 13, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Cleave, Great Fortitude, Improved Initiative, Improved Overrun, Power Attack, Weapon
-Focus (tail)
-
-**Skills:** Perception +16
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

@@ -31,90 +31,67 @@ abilities = ["9", "20", "12", "11", "12", "16"]
 
 _This tiny black dragon-like creature has charcoal-colored scales and shadowy wings._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: dragon
+Initiative: +5
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 18
+Touch: 17
+Flat-footed: 13
+AC modifiers: +5 Dex, +1 natural, +2 size
+Hit points: 22 (3d12+3)
+Fort: +4
+Ref: +8
+Will: +4
+Defensive abilities: shadow blend
+Immune: cold, paralysis, and sleep
+Vulner: fire
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Initiative:** +5
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., fly 90 ft. (perfect)
+Melee: bite +10 (1d3-1), tail slap +5 (1d3-1)
+Reach: 0
+Reach P: 5 ft. with tail
+Space: 2-1/2
+Spec Att: stygian breath
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Cold
+::: statblock
+Ability scores: Str 9, Dex 20, Con 12, Int 11, Wis 12, Cha 16
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 15
+Feats: Flyby Attack, Weapon Finesse
+Skills: Acrobatics +8 (+4 when jumping), Disable Device +8, Fly +23, Perception +7, Sleight of Hand +8, Stealth +19
+Racial Modifiers: -4 Acrobatics when jumping
+Languages: Common, Draconic
+Special qualities: speed surge
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 18
-
-**Touch:** 17
-
-**Flat-footed:** 13
-
-**AC modifiers:** +5 Dex, +1 natural, +2 size
-
-**Hit points:** 22 (3d12+3)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +4
-
-**Defensive abilities:** shadow blend
-
-**Immune:** cold, paralysis, and sleep
-
-**Vulner:** fire
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft., fly 90 ft. (perfect)
-
-**Melee:** bite +10 (1d3-1), tail slap +5 (1d3-1)
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with tail
-
-**Space:** 2-1/2
-
-**Spec Att:** stygian breath
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 20, Con 12, Int 11, Wis 12, Cha 16
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 15
-
-**Feats:** Flyby Attack, Weapon Finesse
-
-**Skills:** Acrobatics +8 (+4 when jumping), Disable Device +8, Fly +23, Perception +7, Sleight of
-Hand +8, Stealth +19
-
-**Racial Modifiers:** -4 Acrobatics when jumping
-
-**Languages:** Common, Draconic
-
-**Special qualities:** speed surge
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or rampage (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or rampage (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

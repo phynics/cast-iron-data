@@ -31,78 +31,60 @@ abilities = ["19", "14", "16", "15", "12", "17"]
 _This pale, pudgy humanoid is clad in a greasy traveling cloak and a wide-brimmed hat. A
 bloodstained burlap sack hangs over its shoulder._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: fey
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Perception: +11
+Senses: Find children, Low-light vision
+Experience points: 1,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 45 (7d6+21)
+Fort: +5
+Ref: +7
+Will: +6
+Dr: 5/cold iron
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +8 (1d4+4 plus [grab](ref/umr/grab)) or handaxe +7 (1d6+6/×3)
+Spec Att: bag prey
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Find children, Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 14, Con 16, Int 15, Wis 12, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +7 (+9 bull rush, +11 grapple)
+Combat maneuver defense: 19 (21 vs. bull rush)
+Feats: Improved Bull Rush, Power Attack, Step Up, Weapon Focus (claw)
+Skills: Acrobatics +5, Bluff +13, Craft (alchemy) +12, Disguise +13 (+17 to appear human), Spellcraft +9, Use Magic Device +13
+Racial Modifiers: +4 Disguise to appear human
+Languages: Common, Sylvan
+Special qualities: fat extractor
+:::
 
-**Experience points:** 1,200
+### Ecology {#stat-ecology}
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 45 (7d6+21)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +6
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +8 (1d4+4 plus [grab](ref/umr/grab)) or handaxe +7 (1d6+6/×3)
-
-**Spec Att:** bag prey
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con 16, Int 15, Wis 12, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7 (+9 bull rush, +11 grapple)
-
-**Combat maneuver defense:** 19 (21 vs. bull rush)
-
-**Feats:** Improved Bull Rush, Power Attack, Step Up, Weapon Focus (claw)
-
-**Skills:** Acrobatics +5, Bluff +13, Craft (alchemy) +12, Disguise +13 (+17 to appear human),
-Spellcraft +9, Use Magic Device +13
-
-**Racial Modifiers:** +4 Disguise to appear human
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** fat extractor
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or gang (3-5)
-
-**Treasure:** Standard (potion of infernal healing, potion of youthful appearance);
-[cauldron](ref/eq-misc/cauldron), [flint and steel](ref/eq-misc/flint-and-steel),
-[sack](ref/eq-misc/sack), [sewing needle](ref/eq-misc/sewing-needle), other treasure
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or gang (3-5)
+Treasure: Standard (potion of infernal healing, potion of youthful appearance); [cauldron](ref/eq-misc/cauldron), [flint and steel](ref/eq-misc/flint-and-steel), [sack](ref/eq-misc/sack), [sewing needle](ref/eq-misc/sewing-needle), other treasure
+:::
 
 ### Special Abilities
 

@@ -29,67 +29,56 @@ abilities = ["11", "14", "13", "-", "12", "9"]
 _Striking yellow and black markings and a coat of bristling hairs cover this immense bee. Its
 stinger is the size of a dagger blade._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +3
+Will: +2
+Immune: mind-affecting effects
+Weaknesses: vulnerable to smoke
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Melee: sting +2 (1d4 plus poison)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 11, Dex 14, Con 13, Int -, Wis 12, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 14 (22 vs. trip)
+Skills: Fly +6
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Weaknesses:** vulnerable to smoke
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Melee:** sting +2 (1d4 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 14, Con 13, Int -, Wis 12, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14 (22 vs. trip)
-
-**Skills:** Fly +6
-
-**Ecology**
-
-**Environment:** temperate or warm plains
-
-**Organization:** solitary, group (2-5), or nest (6-19)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm plains
+Organization: solitary, group (2-5), or nest (6-19)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

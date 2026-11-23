@@ -28,76 +28,60 @@ abilities = ["30", "17", "20", "2", "15", "11"]
 
 _This feathered bipedal saurian looks somewhat comical - save for its outlandish sword-sized claws._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: animal
+Size: gargantuan
+Initiative: +7
+Alignment: Neutral
+Perception: +25
+Senses: Low-light vision, Scent
+Experience points: 9,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 24
+Touch: 9
+Flat-footed: 21
+AC modifiers: +3 Dex, +15 natural, -4 size
+Hit points: 133 (14d8+70)
+Fort: +14
+Ref: +12
+Will: +8
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Bleed: 1d6
+Melee: 2 claws +17 (4d6+10/15-20 plus 1d6 bleed)
+Reach: 20
+Sp Extra: sprint
+Space: 20
+Spec Att: sweeping strike, vicious claws
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 30, Dex 17, Con 20, Int 2, Wis 15, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +24
+Combat maneuver defense: 37
+Feats: Improved Critical (claw), Improved Initiative, Iron Will, Run, Skill Focus (Perception), Vital Strike, Weapon Focus (claw)
+Skills: Perception +25
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 9
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 Dex, +15 natural, -4 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Bleed:** 1d6
-
-**Melee:** 2 claws +17 (4d6+10/15-20 plus 1d6 bleed)
-
-**Reach:** 20
-
-**Sp Extra:** sprint
-
-**Space:** 20
-
-**Spec Att:** sweeping strike, vicious claws
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 17, Con 20, Int 2, Wis 15, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 37
-
-**Feats:** Improved Critical (claw), Improved Initiative, Iron Will, Run, Skill Focus (Perception),
-Vital Strike, Weapon Focus (claw)
-
-**Skills:** Perception +25
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or flock (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or flock (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

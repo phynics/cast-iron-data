@@ -31,103 +31,73 @@ abilities = ["22", "21", "23", "16", "18", "19"]
 _This creature resembles a [tengu](ref/race/tengu), save for its eyes' golden glow. Its immaculate
 white robes contrast starkly with its black feathers, and its willow staff sheds a pale light._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: aura of menace (DC 18)
+Initiative: +9
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Detect evil
+Subtype: Archon, Extraplanar, Good, Lawful
+thoughtsense: 60
+Experience points: 6,400
+:::
 
-**aura:** aura of menace (DC 18)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 24
+Touch: 15
+Flat-footed: 19
+AC modifiers: +5 Dex, +9 natural; +2 deflection vs. evil
+Hit points: 112 (9d10+63)
+Fort: +12
+Ref: +8
+Will: +12; +4 vs. poison, +2 resistance vs. evil
+Dr: 10/evil
+Immune: electricity, petrification
+Sr: 20
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 90 ft. (good)
+Melee: +1 holy quarterstaff +17/+12 (1d6+12)
+Spec Att: psychic ambush
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+Constant: detect evil, nondetection
+At will: greater teleport, self plus 50 lbs. of objects only, invisibility, self only, veil (self only) (DC 20)
+Per day: 3/day: instigate psychic duel (DC 16), magic circle against evil, plane shift, seek thoughts (DC 17), sending, shout (DC 18)\
+1/day: greater create mindscape (DC 21), vision, creatures only
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil
+::: statblock
+Ability scores: Str 22, Dex 21, Con 23, Int 16, Wis 18, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 30
+Feats: Improved Initiative, Iron Will, Toughness, Weapon Focus (quarterstaff), Weapon Specialization (quarterstaff)
+Skills: Bluff +16, Diplomacy +16, Sense Motive +16, Spellcraft +15
+Languages: Celestial, Draconic, Infernal; _truespeech_
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+### Ecology
 
-**thoughtsense:** 60
-
-**Experience points:** 6,400
-
-**Armor class:** 24
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 Dex, +9 natural; +2 deflection vs. evil
-
-**Hit points:** 112 (9d10+63)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +12; +4 vs. poison, +2 resistance vs. evil
-
-**Dr:** 10/evil
-
-**Immune:** electricity, petrification
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft., fly 90 ft. (good)
-
-**Melee:** +1 holy quarterstaff +17/+12 (1d6+12)
-
-**Spec Att:** psychic ambush
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**Constant:**
-
-- detect evil, nondetection
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, invisibility, self only, veil (self only) (DC
-  20)
-
-**Per day:**
-
-- 3/day: instigate psychic duel (DC 16), magic circle against evil, plane shift, seek thoughts (DC
-  17), sending, shout (DC 18)
-- 1/day: greater create mindscape (DC 21), vision, creatures only
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 21, Con 23, Int 16, Wis 18, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 30
-
-**Feats:** Improved Initiative, Iron Will, Toughness, Weapon Focus (quarterstaff), Weapon
-Specialization (quarterstaff)
-
-**Skills:** Bluff +16, Diplomacy +16, Sense Motive +16, Spellcraft +15
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or intervention (3-6)
-
-**Treasure:** Standard (+1 holy quarterstaff); other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or intervention (3-6)
+Treasure: Standard (+1 holy quarterstaff); other treasure
+:::
 
 ### Special Abilities
 

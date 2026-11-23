@@ -30,61 +30,49 @@ abilities = ["8", "17", "11", "2", "13", "6"]
 _This sleek mammal has a short snout and black, white, and gray markings along its body, with a
 rounded black dorsal fin._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+blindsight: 60
+Initiative: +3
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Size: small
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 12
+AC modifiers: +3 Dex, +1 natural, +1 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +5
+Will: +1
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 60 ft.
+Melee: slam +4 (1d3-1)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision
-
-**Size:** small
-
-**Experience points:** 135
-
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +1 natural, +1 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** slam +4 (1d3-1)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 17, Con 11, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +5, Swim +7
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
+::: statblock
+Ability scores: Str 8, Dex 17, Con 11, Int 2, Wis 13, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 12
+Feats: Weapon Finesse
+Skills: Perception +5, Swim +7
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
 ### Special Abilities
 

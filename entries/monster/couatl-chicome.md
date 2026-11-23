@@ -30,161 +30,95 @@ abilities = ["30", "20", "25", "18", "29", "27"]
 _The feathers of this winged serpent are hues of verdant green, save for the crimson feathers on its
 head and crest. Its wings let forth thin clouds of golden pollen and showers of dew._
 
-**Challenge rating:** 16
-
-**aura:** resplendence (1/2 mile)
-
-**Size:** huge
-
-**Initiative:** +9
-
-**Alignment:** Lawful good
-
-**Type:** outsider
-
-**Perception:** +36
-
-**Senses:** Darkvision 120 ft., Detect chaos/evil/good/law
-
-**Subtype:** Native
-
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 14
-
-**Flat-footed:** 25
-
-**AC modifiers:** +5 Dex, +1 dodge, +17 natural, -2 size
-
-**Hit points:** 250 (20d10+140)
-
-**Fort:** +13
-
-**Ref:** +19
-
-**Will:** +21
-
-**Dr:** 10/cold iron or evil
-
-**Immune:** acid, disease, poison
-
-**Resist:** cold 15, electricity 15, fire 15
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 30 ft., fly 120 ft. (poor)
-
-**Constrict:** 2d8+10
-
-**Melee:** bite +28 (2d8+15 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +26
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law
-
-**At will:**
-
-- detect thoughts (DC 19), ethereal jaunt, invisibility, plane shift (DC 24)
-
-**Per week:**
-
-- reincarnate
-
-**Prepared Spells**
-
-**Caster level:** 18
-
-**Concentration:** +27
-
-**9th-level spells:**
-
-- antipathy (DC 28), regenerate, summon nature's ally IX
-
-**8th-level spells:**
-
-- control plants (DC 27), mass cure serious wounds, repel metal or stone, whirlwind (DC 27)
-
-**7th-level spells:**
-
-- animate plants, control weather, heal, transmute metal to wood
-
-**6th-level spells:**
-
-- greater dispel magic, liveoak, move earth, transport via plants, wall of stone
-
-**5th-level spells:**
-
-- animal growth (DC 24), awaken (DC 24), commune with nature, control winds (DC 24), hallow, wall of
-  thorns
-
-**4th-level spells:**
-
-- antiplant shell, command plants (DC 23), control water, dispel magic, freedom of movement, repel
-  vermin
-
-**3rd-level spells:**
-
-- daylight, dominate animal (DC 22), neutralize poison, quench (DC 22), remove disease, speak with
-  plants
-
-**2nd-level spells:**
-
-- animal messenger, gust of wind (DC 21), lesser restoration, soften earth and stone, warp wood (DC
-  21), wood shape (DC 21)
-
-**1st-level spells:**
-
-- calm animals (DC 20), charm animal (DC 20), detect animals or plants, entangle (DC 20), faerie
-  fire, obscuring mist, speak with animals
-
-**Cantrips:**
-
-- create water, detect magic, know direction, purify food and drink (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 20, Con 25, Int 18, Wis 29, Cha 27
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +32 (+36 grapple)
-
-**Combat maneuver defense:** 48 (can't be tripped)
-
-**Feats:** Alertness, Dodge, Empower Spell, Eschew Materials^B^, Hover, Improved Initiative,
-Lightning Reflexes, Natural Spell, Spell Penetration, Widen Spell, Wingover
-
-**Skills:** Bluff +31, Fly +20, Intimidate +31, Knowledge (geography) +27, Perception +36
-
-**Languages:** Celestial, Common, Draconic, Druidic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** natural form, [wild empathy](ref/ability/wild-empathy) +32
+::: statblock
+Challenge rating: 16
+aura: resplendence (1/2 mile)
+Size: huge
+Initiative: +9
+Alignment: Lawful good
+Type: outsider
+Perception: +36
+Senses: Darkvision 120 ft., Detect chaos/evil/good/law
+Subtype: Native
+Experience points: 76,800
+:::
+
+### Defense
+
+::: statblock
+Armor class: 31
+Touch: 14
+Flat-footed: 25
+AC modifiers: +5 Dex, +1 dodge, +17 natural, -2 size
+Hit points: 250 (20d10+140)
+Fort: +13
+Ref: +19
+Will: +21
+Dr: 10/cold iron or evil
+Immune: acid, disease, poison
+Resist: cold 15, electricity 15, fire 15
+Sr: 28
+:::
+
+### Offense
+
+::: statblock
+Speed: 30 ft., fly 120 ft. (poor)
+Constrict: 2d8+10
+Melee: bite +28 (2d8+15 plus [grab](ref/umr/grab) and poison)
+Reach: 15
+Space: 15
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +26
+Constant: detect chaos, detect evil, detect good, detect law
+At will: detect thoughts (DC 19), ethereal jaunt, invisibility, plane shift (DC 24)
+Per week: reincarnate
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 18
+Concentration: +27
+9th-level spells: antipathy (DC 28), regenerate, summon nature's ally IX
+8th-level spells: control plants (DC 27), mass cure serious wounds, repel metal or stone, whirlwind (DC 27)
+7th-level spells: animate plants, control weather, heal, transmute metal to wood
+6th-level spells: greater dispel magic, liveoak, move earth, transport via plants, wall of stone
+5th-level spells: animal growth (DC 24), awaken (DC 24), commune with nature, control winds (DC 24), hallow, wall of thorns
+4th-level spells: antiplant shell, command plants (DC 23), control water, dispel magic, freedom of movement, repel vermin
+3rd-level spells: daylight, dominate animal (DC 22), neutralize poison, quench (DC 22), remove disease, speak with plants
+2nd-level spells: animal messenger, gust of wind (DC 21), lesser restoration, soften earth and stone, warp wood (DC 21), wood shape (DC 21)
+1st-level spells: calm animals (DC 20), charm animal (DC 20), detect animals or plants, entangle (DC 20), faerie fire, obscuring mist, speak with animals
+Cantrips: create water, detect magic, know direction, purify food and drink (DC 19)
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 30, Dex 20, Con 25, Int 18, Wis 29, Cha 27
+Base attack bonus: +20
+Combat maneuver bonus: +32 (+36 grapple)
+Combat maneuver defense: 48 (can't be tripped)
+Feats: Alertness, Dodge, Empower Spell, Eschew Materials^B^, Hover, Improved Initiative, Lightning Reflexes, Natural Spell, Spell Penetration, Widen Spell, Wingover
+Skills: Bluff +31, Fly +20, Intimidate +31, Knowledge (geography) +27, Perception +36
+Languages: Celestial, Common, Draconic, Druidic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: natural form, [wild empathy](ref/ability/wild-empathy) +32
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology {#stat-ecology}
 
-**Environment:** warm badlands or ruins
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm badlands or ruins
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

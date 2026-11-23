@@ -32,93 +32,71 @@ abilities = ["31", "20", "-", "-", "11", "1"]
 _Nestled in a massive spiraled armored shell, this clockwork creature has several dozen grasping
 tentacles surrounding its octopus-like beak._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+blindsense: 60
+Type: construct
+Size: huge
+Initiative: +9
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 38,400
+:::
 
-**blindsense:** 60
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 31
+Touch: 13
+Flat-footed: 26
+AC modifiers: +5 Dex, +18 natural, -2 size
+Hit points: 161 (22d10+40)
+Fort: +7
+Ref: +14
+Will: +7
+Defensive abilities: deep dweller, reflective shell
+Dr: 10/adamantine and blugeoning
+Immune: cold, [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +9
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Constrict: 1d8+5
+Melee: bite +30 (2d6+10), 4 tentacles +25 (1d8+5 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: tenacious grappler
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +8
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 38,400
-
-**Armor class:** 31
-
-**Touch:** 13
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 Dex, +18 natural, -2 size
-
-**Hit points:** 161 (22d10+40)
-
-**Fort:** +7
-
-**Ref:** +14
-
-**Will:** +7
-
-**Defensive abilities:** deep dweller, reflective shell
-
-**Dr:** 10/adamantine and blugeoning
-
-**Immune:** cold, [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Constrict:** 1d8+5
-
-**Melee:** bite +30 (2d6+10), 4 tentacles +25 (1d8+5 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** tenacious grappler
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 20, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +34 (+38 grapple)
-
-**Combat maneuver defense:** 49 (can't be tripped)
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Skills:** Perception +8, Swim +18
-
-**Racial Modifiers:** +8 Perception
-
-**Special qualities:** enhanced senses, swift reactions, winding
+::: statblock
+Ability scores: Str 31, Dex 20, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +22
+Combat maneuver bonus: +34 (+38 grapple)
+Combat maneuver defense: 49 (can't be tripped)
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Skills: Perception +8, Swim +18
+Racial Modifiers: +8 Perception
+Special qualities: enhanced senses, swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any water
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

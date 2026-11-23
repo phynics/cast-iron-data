@@ -29,59 +29,48 @@ abilities = ["14", "17", "16", "11", "14", "11"]
 _This monstrous creature appears to be an enormous spider with a human-like head. Sickly blisters
 holding squirming young cover the creature's abdomen._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+Initiative: +3
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft.
+Size: small
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 dodge, +1 size
+Hit points: 22 (3d8+9)
+Fort: +4
+Ref: +4
+Will: +5
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +5 (1d6+3 plus poison)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 size
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +5 (1d6+3 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 16, Int 11, Wis 14, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 17
-
-**Feats:** Dodge, Mobility
-
-**Skills:** Climb +10, Knowledge (history) +3, Perception +8, Stealth +13
-
-**Languages:** Common, plus one other language
+::: statblock
+Ability scores: Str 14, Dex 17, Con 16, Int 11, Wis 14, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 17
+Feats: Dodge, Mobility
+Skills: Climb +10, Knowledge (history) +3, Perception +8, Stealth +13
+Languages: Common, plus one other language
+:::
 
 ### Special Abilities
 

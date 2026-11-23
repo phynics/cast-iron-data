@@ -33,71 +33,58 @@ abilities = ["19", "15", "16", "4", "13", "14"]
 _The antlers and hooves of this elk appear scorched and charred. The ground where it stands smolders
 and bursts into flame._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +6
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +8
+Will: +3
+Immune: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: gore +12 (1d8+4 plus 1d6 fire), 2 hooves +10 (1d4+2 plus 1d6 fire)
+Spec Att: fight with fire, flight of flames
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 15, Con 16, Int 4, Wis 13, Cha 14
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Improved Initiative, Multiattack, Run, Skill Focus (Perception)
+Skills: Perception +11, Stealth +9
+Languages: Sylvan (can't speak)
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +3
-
-**Immune:** fire
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +12 (1d8+4 plus 1d6 fire), 2 hooves +10 (1d4+2 plus 1d6 fire)
-
-**Spec Att:** fight with fire, flight of flames
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 16, Int 4, Wis 13, Cha 14
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Improved Initiative, Multiattack, Run, Skill Focus (Perception)
-
-**Skills:** Perception +11, Stealth +9
-
-**Languages:** Sylvan (can't speak)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or family (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or family (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

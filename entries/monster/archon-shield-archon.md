@@ -32,106 +32,75 @@ abilities = ["20", "13", "25", "14", "16", "15"]
 _This armored giant is sheathed in metal from head to toe. One arm ends in a spear-like blade, the
 other in a massive shield._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: aura of menace (DC 18), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+Initiative: +5
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Archon, Extraplanar, Good, Lawful
+Experience points: 9,600
+:::
 
-**aura:** aura of menace (DC 18), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 29
+Touch: 10
+Flat-footed: 28
+AC modifiers: +9 armor, +1 Dex, +4 natural, +6 shield, -1 size
+Hit points: 112 (9d10+63)
+Fort: +13
+Ref: +7
+Will: +8; +4 vs. poison
+Dr: 10/evil
+Immune: electricity, petrification
+Sr: 21
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: 40 ft., fly 90 ft. (good)
+Melee: +3 shortspear +16/+11 (1d8+10)
+Reach: 10
+Sp Extra: 30 ft., fly 60 ft. in armor
+Space: 10
+Spec Att: transpose ally
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +11
+Constant: magic circle against evil
+At will: aid, greater teleport, self plus 50 lbs. of objects only, message
+Per day: 1/day: disrupting weapon, divine power, shield other
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 13, Con 25, Int 14, Wis 16, Cha 15
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 26 (30 vs. bull rush and trip)
+Feats: Combat Reflexes, Improved Initiative, Iron Will, Shield Focus, Stand Still, Weapon Specialization (shortspear)
+Skills: Diplomacy +14, Fly +0, Intimidate +14, Knowledge (religion) +14, Perception +15
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: spear and shield, stability
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 29
-
-**Touch:** 10
-
-**Flat-footed:** 28
-
-**AC modifiers:** +9 armor, +1 Dex, +4 natural, +6 shield, -1 size
-
-**Hit points:** 112 (9d10+63)
-
-**Fort:** +13
-
-**Ref:** +7
-
-**Will:** +8; +4 vs. poison
-
-**Dr:** 10/evil
-
-**Immune:** electricity, petrification
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 40 ft., fly 90 ft. (good)
-
-**Melee:** +3 shortspear +16/+11 (1d8+10)
-
-**Reach:** 10
-
-**Sp Extra:** 30 ft., fly 60 ft. in armor
-
-**Space:** 10
-
-**Spec Att:** transpose ally
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**Constant:**
-
-- magic circle against evil
-
-**At will:**
-
-- aid, greater teleport, self plus 50 lbs. of objects only, message
-
-**Per day:**
-
-- 1/day: disrupting weapon, divine power, shield other
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 25, Int 14, Wis 16, Cha 15
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26 (30 vs. bull rush and trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Iron Will, Shield Focus, Stand Still, Weapon
-Specialization (shortspear)
-
-**Skills:** Diplomacy +14, Fly +0, Intimidate +14, Knowledge (religion) +14, Perception +15
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** spear and shield, stability
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or squad (3-5)
-
-**Treasure:** Standard (full plate); other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or squad (3-5)
+Treasure: Standard (full plate); other treasure
+:::
 
 ### Special Abilities
 

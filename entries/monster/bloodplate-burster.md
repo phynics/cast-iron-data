@@ -31,78 +31,61 @@ _Withered, fleshy leaves the color of dried blood lie like armored plates across
 imposing creature's bulbous form. Thick, serpentine strands run the length of its rigid, fibrous
 skin._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+blindsight: 60
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +24
+Senses: Scent
+Type: plant
+tremorsense: 120
+Experience points: 6,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 22
+AC modifiers: +1 Dex, +1 dodge, +14 natural, -2 size
+Hit points: 119 (14d8+56)
+Fort: +12
+Ref: +7
+Will: +7
+Immune: acid, [plant traits](ref/umr/plant-traits), sight-based effects
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Melee: 2 tentacles +18 (1d8+9 plus hydraulic surge and rupture)
+Reach: 15
+Space: 15
+Spec Att: awlspines
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Scent
+::: statblock
+Ability scores: Str 28, Dex 13, Con 17, Int 4, Wis 12, Cha 7
+Base attack bonus: +10
+Combat maneuver bonus: +21
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception), Toughness, Weapon Focus (tentacle)
+Skills: Perception +24
+:::
 
-**Type:** plant
+### Ecology
 
-**tremorsense:** 120
-
-**Experience points:** 6,400
-
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 22
-
-**AC modifiers:** +1 Dex, +1 dodge, +14 natural, -2 size
-
-**Hit points:** 119 (14d8+56)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +7
-
-**Immune:** acid, [plant traits](ref/umr/plant-traits), sight-based effects
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Melee:** 2 tentacles +18 (1d8+9 plus hydraulic surge and rupture)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** awlspines
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 13, Con 17, Int 4, Wis 12, Cha 7
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception),
-Toughness, Weapon Focus (tentacle)
-
-**Skills:** Perception +24
-
-**Ecology**
-
-**Environment:** temperate or warm deserts or plains
-
-**Organization:** solitary, pair, or frenzy (3-4)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm deserts or plains
+Organization: solitary, pair, or frenzy (3-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,84 +30,67 @@ special_qualities = "armor training 1, hold breath, swamp stride"
 abilities = ["20", "13", "16", "8", "13", "8"]
 +++
 
-**Challenge rating:** 7
-
 **Boggard [fighter](ref/class/fighter) 5**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +5
+Size: medium
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Boggard
+Experience points: 3,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 21
+AC modifiers: +6 armor, +1 Dex, +3 natural, +2 shield
+Hit points: 72 (3d8+5d10+32\~8)
+Fort: +10
+Ref: +5
+Will: +3 (+1 vs. fear)
+Defensive abilities: bravery +1
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +5
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Boggard\
-**Experience points:** 3,200
-
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +6 armor, +1 Dex, +3 natural, +2 shield
-
-**Hit points:** 72 (3d8+5d10+32\~8)
-
-**Fort:** +10
-
-**Ref:** +5
-
-**Will:** +3 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** +1 terbutje +15/+10 (1d8+9), tongue +7 touch (sticky tongue)
-
-**Ranged:** mwk javelin +9 (1d6+5)
-
-**Spec Att:** terrifying croak (DC 12), weapon training (heavy blades +1)
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: +1 terbutje +15/+10 (1d8+9), tongue +7 touch (sticky tongue)
+Ranged: mwk javelin +9 (1d6+5)
+Spec Att: terrifying croak (DC 12), weapon training (heavy blades +1)
+:::
 
 ### Tactics
 
 **During Combat** The boggard champion uses her terrifying croak before engaging in melee.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 13, Con 16, Int 8, Wis 13, Cha 8
+::: statblock
+Ability scores: Str 20, Dex 13, Con 16, Int 8, Wis 13, Cha 8
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 23
+Feats: Improved Initiative, Lightning Reflexes, Power Attack, Toughness, Vital Strike, Weapon Focus (terbutje), Weapon Specialization (terbutje)
+Skills: Acrobatics +2 (+18 when jumping), Climb +6
+Languages: Boggard
+Special qualities: armor training 1, [hold breath](ref/umr/hold-breath), swamp stride
+Combat gear: potion of bull's strength, potion of cure serious wounds
+Other gear: +1 black [dragonhide](ref/eq-material/dragonhide) [scale mail](ref/eq-armor/scale-mail), mwk heavy wooden shield, +1 -terbutje, 2 mwk javelins, 282 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23
-
-**Feats:** Improved Initiative, Lightning Reflexes, Power Attack, Toughness, Vital Strike, Weapon
-Focus (terbutje), Weapon Specialization (terbutje)
-
-**Skills:** Acrobatics +2 (+18 when jumping), Climb +6
-
-**Languages:** Boggard
-
-**Special qualities:** armor training 1, [hold breath](ref/umr/hold-breath), swamp stride
-
-**Combat gear:** potion of bull's strength, potion of cure serious wounds
-
-**Other gear:** +1 black [dragonhide](ref/eq-material/dragonhide)
-[scale mail](ref/eq-armor/scale-mail), mwk heavy wooden shield, +1 -terbutje, 2 mwk javelins, 282 gp
-
-**Ecology**
-
-**Environment:** temperate marshes
+::: statblock
+Environment: temperate marshes
+:::
 
 ### Description
 

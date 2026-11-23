@@ -31,83 +31,66 @@ abilities = ["24", "13", "-", "-", "10", "1"]
 
 _Gleaming gears whir and buzz in an orchestra of motion whenever this red-eyed steed moves._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: construct
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 2,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +1 Dex, +2 dodge, +8 natural, -1 size
+Hit points: 74 (8d10+30)
+Fort: +2
+Ref: +5
+Will: +2
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +14 (1d8+7), 2 hooves +9 (1d6+3)
+Reach: 5
+Space: 10
+Spec Att: powerful kick
+Trample: 1d6+7, DC 21
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +2 dodge, +8 natural, -1 size
-
-**Hit points:** 74 (8d10+30)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +2
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +14 (1d8+7), 2 hooves +9 (1d6+3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** powerful kick
-
-**Trample:** 1d6+7, DC 21
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 13, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 29 (33 vs. trip)
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** difficult to create, swift reactions, winding
+::: statblock
+Ability scores: Str 24, Dex 13, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +8
+Combat maneuver bonus: +16
+Combat maneuver defense: 29 (33 vs. trip)
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: difficult to create, swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

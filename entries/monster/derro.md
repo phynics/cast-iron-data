@@ -32,94 +32,69 @@ abilities = ["11", "15", "18", "10", "5", "16"]
 _This pale blue humanoid has bulging white eyes, wild hair, four-fingered hands, and a large hooked
 club._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +6
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Derro
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 15
+AC modifiers: +2 armor, +2 Dex, +2 natural, +1 size
+Hit points: 25 (3d8+12)
+Fort: +5
+Ref: +3
+Will: +6
+Sr: 14
+Weaknesses: vulnerability to sunlight
+:::
 
-**Initiative:** +6
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft.
+Melee: short sword +5 (1d4) or aklys +5 (1d6)
+Ranged: repeating light crossbow +5 (1d6/19-20 plus poison) or aklys +5 (1d6)
+Sneak: +1d6
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+At will: darkness, ghost sound (DC 13)
+Per day: 1/day: daze (DC 13), sound burst (DC 15)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Derro
+::: statblock
+Ability scores: Str 11, Dex 15, Con 18, Int 10, Wis 5, Cha 16
+Base attack bonus: +2
+Combat maneuver bonus: +1
+Combat maneuver defense: 13
+Feats: Improved Initiative, Weapon Finesse
+Skills: Perception +0, Stealth +9
+Languages: Aklo, Undercommon
+Special qualities: madness, poison use
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 armor, +2 Dex, +2 natural, +1 size
-
-**Hit points:** 25 (3d8+12)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +6
-
-**Sr:** 14
-
-**Weaknesses:** vulnerability to sunlight
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** short sword +5 (1d4) or aklys +5 (1d6)
-
-**Ranged:** repeating light crossbow +5 (1d6/19-20 plus poison) or aklys +5 (1d6)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**At will:**
-
-- darkness, ghost sound (DC 13)
-
-**Per day:**
-
-- 1/day: daze (DC 13), sound burst (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 18, Int 10, Wis 5, Cha 16
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Perception +0, Stealth +9
-
-**Languages:** Aklo, Undercommon
-
-**Special qualities:** madness, poison use
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, team (2-4), squad (5-8 plus 1 sorcerer of 3rd-5th level), or band (11-20
-plus 30% noncombatants plus 3 sorcerers of 3rd-8th level)
-
-**Treasure:** NPC gear (leather armor);
-[repeating light crossbow](ref/eq-weapon/repeating-light-crossbow) with 10 poisoned bolts,
-[short sword](ref/eq-weapon/short-sword) or [aklys](ref/eq-weapon/aklys), other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, team (2-4), squad (5-8 plus 1 sorcerer of 3rd-5th level), or band (11-20 plus 30% noncombatants plus 3 sorcerers of 3rd-8th level)
+Treasure: NPC gear (leather armor); [repeating light crossbow](ref/eq-weapon/repeating-light-crossbow) with 10 poisoned bolts, [short sword](ref/eq-weapon/short-sword) or [aklys](ref/eq-weapon/aklys), other treasure
+:::
 
 ### Special Abilities
 

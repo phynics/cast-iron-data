@@ -31,77 +31,61 @@ abilities = ["16", "1", "22", "-", "1", "1"]
 _This black, amorphous blob piles up on itself, a quivering mound of midnight sludge that glistens
 darkly before surging forward._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsight: 60
+Size: huge
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 3,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 3
+Touch: 3
+Flat-footed: 3
+AC modifiers: -2 size, -5 Dex
+Hit points: 105 (10d8+60)
+Fort: +9
+Ref: -2
+Will: -2
+Defensive abilities: split
+Immune: [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Initiative:** -5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Constrict: 2d6+4 plus 2d6 acid
+Melee: slam +8 (2d6+4 plus 2d6 acid plus [grab](ref/umr/grab))
+Reach: 10
+Space: 15
+Spec Att: corrosion
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 16, Dex 1, Con 22, Int -, Wis 1, Cha 1
+Base attack bonus: +7
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 17 (27 vs. bull rush, can't be tripped)
+Skills: Climb +11
+Special qualities: ooze traits, suction
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 3
-
-**Touch:** 3
-
-**Flat-footed:** 3
-
-**AC modifiers:** -2 size, -5 Dex
-
-**Hit points:** 105 (10d8+60)
-
-**Fort:** +9
-
-**Ref:** -2
-
-**Will:** -2
-
-**Defensive abilities:** split
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Constrict:** 2d6+4 plus 2d6 acid
-
-**Melee:** slam +8 (2d6+4 plus 2d6 acid plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** corrosion
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 1, Con 22, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 17 (27 vs. bull rush, can't be tripped)
-
-**Skills:** Climb +11
-
-**Special qualities:** ooze traits, suction
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

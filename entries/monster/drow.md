@@ -31,93 +31,71 @@ abilities = ["11", "15", "10", "10", "9", "10"]
 
 _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless._
 
-**Challenge rating:** 1/3
-
 **Drow [warrior](ref/npcclass/warrior) 1**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 1/3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +2
+Size: medium
+Perception: +2
+Senses: Darkvision 120 ft.
+Subtype: Elf
+Experience points: 135
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 armor, +2 Dex, +1 shield
+Hit points: 5 (1d10)
+Fort: +2
+Ref: +2
+Will: -1; +2 vs. enchantment
+Immune: sleep
+Sr: 7
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft.
+Melee: rapier +2 (1d6/18-20)
+Ranged: hand crossbow +3 (1d4/19-20 plus poison)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Per day: 1/day: dancing lights, darkness, faerie fire
+:::
 
-**Subtype:** Elf
+### Statistics
 
-**Experience points:** 135
+::: statblock
+Ability scores: Str 11, Dex 15, Con 10, Int 10, Wis 9, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 13
+Feats: Weapon Finesse
+Skills: Perception +2, Stealth +2
+Racial Modifiers: +2 Perception
+Languages: Elven, Undercommon
+Special qualities: poison use
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +2 Dex, +1 shield
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** -1; +2 vs. enchantment
-
-**Immune:** sleep
-
-**Sr:** 7
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** rapier +2 (1d6/18-20)
-
-**Ranged:** hand crossbow +3 (1d4/19-20 plus poison)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Per day:**
-
-- 1/day: dancing lights, darkness, faerie fire
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 10, Int 10, Wis 9, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +2, Stealth +2
-
-**Racial Modifiers:** +2 Perception
-
-**Languages:** Elven, Undercommon
-
-**Special qualities:** poison use
-
-**Ecology**
-
-**Environment:** underground
-
-**Organization:** pair, squad (3-4), patrol (5-8), or war party (10-40)
-
-**Treasure:** NPC gear (leather armor, light steel shield, rapier);
-[hand crossbow](ref/eq-weapon/hand-crossbow) with 20 bolts, 2 doses of
-[drow poison](ref/eq-poison/drow-poison), 3d6 gp, other treasure
+::: statblock
+Environment: underground
+Organization: pair, squad (3-4), patrol (5-8), or war party (10-40)
+Treasure: NPC gear (leather armor, light steel shield, rapier); [hand crossbow](ref/eq-weapon/hand-crossbow) with 20 bolts, 2 doses of [drow poison](ref/eq-poison/drow-poison), 3d6 gp, other treasure
+:::
 
 ### Special Abilities
 

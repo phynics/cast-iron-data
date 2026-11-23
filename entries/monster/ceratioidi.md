@@ -36,77 +36,61 @@ abilities = ["17", "10", "15", "15", "14", "12"]
 _This flabby, fish-like humanoid has the wide mouth, bulging eyes, and dangling, luminescent flesh
 lure of a deep-sea predator._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +0
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 800
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +5 natural
+Hit points: 30 (4d10+8)
+Fort: +3
+Ref: +4
+Will: +6
+Immune: mind-affecting effects
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 50 ft.
+Melee: 2 shortspears +8 (1d6+3) or 2 slams +7 (1d4+3)
+Ranged: 2 shortspears +5 (1d6+3)
+Spec Att: lure
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 10, Con 15, Int 15, Wis 14, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 17
+Feats: Ability Focus (lure), Weapon Focus (shortspear)
+Skills: Bluff +5, Intimidate +8, Perception +9, Sense Motive +6, Stealth +7, Swim +18
+Languages: Aquan, Common
+Special qualities: dual mind, primitive amphibian
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +6
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft.
-
-**Melee:** 2 shortspears +8 (1d6+3) or 2 slams +7 (1d4+3)
-
-**Ranged:** 2 shortspears +5 (1d6+3)
-
-**Spec Att:** lure
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con 15, Int 15, Wis 14, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 17
-
-**Feats:** Ability Focus (lure), Weapon Focus (shortspear)
-
-**Skills:** Bluff +5, Intimidate +8, Perception +9, Sense Motive +6, Stealth +7, Swim +18
-
-**Languages:** Aquan, Common
-
-**Special qualities:** dual mind, primitive amphibian
-
-**Ecology**
-
-**Environment:** any saltwater
-
-**Organization:** solitary, mated individual, or clan (3-20)
-
-**Treasure:** Standard
+::: statblock
+Environment: any saltwater
+Organization: solitary, mated individual, or clan (3-20)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

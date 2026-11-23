@@ -31,154 +31,92 @@ abilities = ["30", "27", "30", "23", "30", "25"]
 _Light spills out through cracks in this humanoid being's clothing and armor, and its four wings are
 composed of wispy blue light._
 
-**Challenge rating:** 20
-
-**aura:** protective aura
-
-**Initiative:** +12
-
-**Size:** large
-
-**Alignment:** Neutral good
-
-**Type:** outsider
-
-**Perception:** +38
-
-**Senses:** Darkvision 60 ft., Detect evil, Detect snares and pits, Low-light vision, True seeing
-
-**Subtype:** Angel, Extraplanar, Good
-
-**Experience points:** 307,200
-
-**Armor class:** 38
-
-**Touch:** 38
-
-**Flat-footed:** 30
-
-**AC modifiers:** +8 Dex, +7 insight, +14 sacred, -1 size; +4 deflection vs. evil
-
-**Hit points:** 387 (25d10+250)
-
-**Fort:** +24
-
-**Ref:** +18
-
-**Will:** +24; +4 vs. poison, +4 resistance vs. evil
-
-**Defensive abilities:** heed no call
-
-**Dr:** 15/piercing and evil
-
-**Immune:** acid, cold, petrification
-
-**Regen:** 15 (evil artifacts)
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 31
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 50 ft., fly 120 ft. (good)
-
-**Melee:** +1 [holy](ref/magic-enh/holy) [merciful](ref/magic-enh/merciful) halberd +36/+31/+26/+21
-(2d8+16/19-20/×3)
-
-**Ranged:** +1 holy merciful composite longbow +33/+28/+23/+18 (2d6+11/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- detect evil, detect snares and pits, discern lies (DC 21), true seeing
-
-**At will:**
-
-- aid, atonement, break enchantment, commune, continual flame, dimensional anchor, greater dispel
-  magic, lesser restoration, mark of justice, neutralize poison, remove curse, remove disease,
-  remove fear, resist energy, speak with dead
-
-**Per day:**
-
-- 3/day: blade barrier (DC 23), dispel evil (DC 22), heal (DC 23), mass charm monster (DC 25),
-  permanency, resurrection, sympathy (DC 25)
-- 1/day: greater restoration, power word stun, wish
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**Concentration:** +30
-
-**9th-level spells:**
-
-- gate, mass heal (DC 29), miracle, overwhelming presence (DC 29), quickened righteous might
-
-**8th-level spells:**
-
-- antimagic field, discern location, quickened divine power, fickle winds, greater command (DC 25),
-  plane shift (DC 25), serenity (DC 25)
-
-**4th-level spells:**
-
-- death ward, dismissal (DC 24), divine power, freedom of movement, greater magic weapon, 2
-
-**3rd-level spells:**
-
-- daylight, invisibility purge, locate object, prayer, stone shape, wind wall
-
-**2nd-level spells:**
-
-- consecrate, find traps, grace, 2, make whole, remove paralysis, silence (DC 22)
-
-**1st-level spells:**
-
-- bless, divine favor, endure elements, obscuring mist, 2, remove sickness, shield of faith
-
-**Cantrips:**
-
-- create water, detect magic, guidance, purify food and drink
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 27, Con 30, Int 23, Wis 30, Cha 25
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 75
-
-**Feats:** Combat Reflexes, Dazing Assault, Deadly Aim, Furious Focus, Improved Critical (halberd),
-Improved Initiative, Lightning Reflexes, Manyshot, Point-Blank Shot, Power Attack, Quicken Spell,
-Rapid Shot, Weapon Focus (halberd)
-
-**Skills:** Craft (any) +34, Sense Motive +38, Spellcraft +31, Stealth +32, Use Magic Device +32
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** [change shape](ref/umr/change-shape) ([alter self](ref/spell/alter-self)),
-empyrean insights, lucent arms, lucent body
-
-**Ecology**
-
-**Environment:** any good-aligned planes
-
-**Organization:** solitary
-
-**Treasure:** Double (mwk halberd, mwk cl+10); other treasure
+::: statblock
+Challenge rating: 20
+aura: protective aura
+Initiative: +12
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +38
+Senses: Darkvision 60 ft., Detect evil, Detect snares and pits, Low-light vision, True seeing
+Subtype: Angel, Extraplanar, Good
+Experience points: 307,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 38
+Touch: 38
+Flat-footed: 30
+AC modifiers: +8 Dex, +7 insight, +14 sacred, -1 size; +4 deflection vs. evil
+Hit points: 387 (25d10+250)
+Fort: +24
+Ref: +18
+Will: +24; +4 vs. poison, +4 resistance vs. evil
+Defensive abilities: heed no call
+Dr: 15/piercing and evil
+Immune: acid, cold, petrification
+Regen: 15 (evil artifacts)
+Resist: electricity 10, fire 10
+Sr: 31
+Uncanny dodge: present
+:::
+
+### Offense
+
+::: statblock
+Speed: 50 ft., fly 120 ft. (good)
+Melee: +1 [holy](ref/magic-enh/holy) [merciful](ref/magic-enh/merciful) halberd +36/+31/+26/+21 (2d8+16/19-20/×3)
+Ranged: +1 holy merciful composite longbow +33/+28/+23/+18 (2d6+11/×3)
+Reach: 10
+Space: 10
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: detect evil, detect snares and pits, discern lies (DC 21), true seeing
+At will: aid, atonement, break enchantment, commune, continual flame, dimensional anchor, greater dispel magic, lesser restoration, mark of justice, neutralize poison, remove curse, remove disease, remove fear, resist energy, speak with dead
+Per day: 3/day: blade barrier (DC 23), dispel evil (DC 22), heal (DC 23), mass charm monster (DC 25), permanency, resurrection, sympathy (DC 25)\
+1/day: greater restoration, power word stun, wish
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+Concentration: +30
+9th-level spells: gate, mass heal (DC 29), miracle, overwhelming presence (DC 29), quickened righteous might
+8th-level spells: antimagic field, discern location, quickened divine power, fickle winds, greater command (DC 25), plane shift (DC 25), serenity (DC 25)
+4th-level spells: death ward, dismissal (DC 24), divine power, freedom of movement, greater magic weapon, 2
+3rd-level spells: daylight, invisibility purge, locate object, prayer, stone shape, wind wall
+2nd-level spells: consecrate, find traps, grace, 2, make whole, remove paralysis, silence (DC 22)
+1st-level spells: bless, divine favor, endure elements, obscuring mist, 2, remove sickness, shield of faith
+Cantrips: create water, detect magic, guidance, purify food and drink
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 30, Dex 27, Con 30, Int 23, Wis 30, Cha 25
+Base attack bonus: +25
+Combat maneuver bonus: +36
+Combat maneuver defense: 75
+Feats: Combat Reflexes, Dazing Assault, Deadly Aim, Furious Focus, Improved Critical (halberd), Improved Initiative, Lightning Reflexes, Manyshot, Point-Blank Shot, Power Attack, Quicken Spell, Rapid Shot, Weapon Focus (halberd)
+Skills: Craft (any) +34, Sense Motive +38, Spellcraft +31, Stealth +32, Use Magic Device +32
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: [change shape](ref/umr/change-shape) ([alter self](ref/spell/alter-self)), empyrean insights, lucent arms, lucent body
+:::
+
+### Ecology
+
+::: statblock
+Environment: any good-aligned planes
+Organization: solitary
+Treasure: Double (mwk halberd, mwk cl+10); other treasure
+:::
 
 ### Special Abilities
 

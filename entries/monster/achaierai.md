@@ -31,77 +31,61 @@ abilities = ["19", "13", "14", "11", "14", "16"]
 _This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black
 vapor trail from its hooked beak._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +1
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Lawful
+Experience points: 1,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 18
+AC modifiers: +1 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 52 (7d10+14)
+Fort: +7
+Ref: +6
+Will: +4
+Sr: 20
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Melee: bite +10 (2d6+4), 2 claws +10 (1d6+4)
+Reach: 10
+Reach P: with claw
+Space: 10
+Spec Att: black cloud
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 19, Dex 13, Con 14, Int 11, Wis 14, Cha 16
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Combat Reflexes, Dodge, Mobility, Spring Attack
+Skills: Acrobatics +11 (+19 jump), Climb +14
+:::
 
-**Subtype:** Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 52 (7d10+14)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +4
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +10 (2d6+4), 2 claws +10 (1d6+4)
-
-**Reach:** 10
-
-**Reach P:** with claw
-
-**Space:** 10
-
-**Spec Att:** black cloud
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 13, Con 14, Int 11, Wis 14, Cha 16
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Mobility, Spring Attack
-
-**Skills:** Acrobatics +11 (+19 jump), Climb +14
-
-**Ecology**
-
-**Environment:** any land ([Hell](ref/rule/hell))
-
-**Organization:** solitary or flock (5-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([Hell](ref/rule/hell))
+Organization: solitary or flock (5-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

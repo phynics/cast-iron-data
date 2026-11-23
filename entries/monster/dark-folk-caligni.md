@@ -31,80 +31,63 @@ abilities = ["13", "17", "16", "10", "8", "10"]
 
 _Beneath ragged shreds, this lean figure's chalky skin darkens to charred hues at the extremities._
 
-**Challenge rating:** 1/2
-
 **Caligni [rogue](ref/class/rogue) 1**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 1/2
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +7
+Size: medium
+Perception: +3
+Senses: See in darkness
+Subtype: Dark folk
+Experience points: 200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 armor, +3 Dex
+Hit points: 12 (1d8+4)
+Fort: +3
+Ref: +5
+Will: -1
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Melee: short sword +1 (1d6+1/19-20)
+Ranged: dart +3 (1d4+1)
+Spec Att: death throes, [sneak attack](ref/ability/sneak-attack) +1d6
+:::
 
-**Senses:** See in darkness
+### Statistics
 
-**Subtype:** Dark folk
+::: statblock
+Ability scores: Str 13, Dex 17, Con 16, Int 10, Wis 8, Cha 10
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Improved Initiative
+Skills: Acrobatics +7, Bluff +4, Climb +5, Disguise +4, Stealth +7
+Languages: Common, Dark Folk
+Special qualities: [trapfinding](ref/ability/trapfinding) +1
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 armor, +3 Dex
-
-**Hit points:** 12 (1d8+4)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** -1
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** short sword +1 (1d6+1/19-20)
-
-**Ranged:** dart +3 (1d4+1)
-
-**Spec Att:** death throes, [sneak attack](ref/ability/sneak-attack) +1d6
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 16, Int 10, Wis 8, Cha 10
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Improved Initiative
-
-**Skills:** Acrobatics +7, Bluff +4, Climb +5, Disguise +4, Stealth +7
-
-**Languages:** Common, Dark Folk
-
-**Special qualities:** [trapfinding](ref/ability/trapfinding) +1
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, family (2-4), or dark folk community (2-4 plus 20-40 other dark folk)
-
-**Treasure:** NPC gear (short sword, 10 dart, leather armor);
-[thieves' tools](ref/eq-misc/thieves-tools), other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, family (2-4), or dark folk community (2-4 plus 20-40 other dark folk)
+Treasure: NPC gear (short sword, 10 dart, leather armor); [thieves' tools](ref/eq-misc/thieves-tools), other treasure
+:::
 
 ### Special Abilities
 

@@ -33,88 +33,67 @@ abilities = ["25", "12", "15", "8", "15", "10"]
 _This cyclops warrior clad in leathers and a flowing hood looms over the terrain. A heavy axe
 stained with gore serves as a warning for opponents who dare draw closer._
 
-**Challenge rating:** 7
-
 **Cyclops [ranger](ref/class/ranger) 2**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 7
+Type: humanoid
+Initiative: +1
+Size: large
+Alignment: Neutral evil
+Perception: +21
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 3,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 20
+AC modifiers: +4 armor, +1 Dex, +7 natural, -1 size
+Hit points: 80 (10d8+2d10+24\~12)
+Fort: +13
+Ref: +8
+Will: +6
+Ferocity: present
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +21
+::: statblock
+Speed: 30 ft.
+Fav En: humans +2
+Melee: mwk greataxe +17/+12 (3d6+10/×3)
+Ranged: +1 composite longbow +10/+5 (2d6+8/×3)
+Reach: 10
+Space: 10
+Spec Att: combat style (two-handed weapon)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 25, Dex 12, Con 15, Int 8, Wis 15, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +17 (+19 bull rush)
+Combat maneuver defense: 28 (30 vs. bull rush)
+Feats: Alertness, Cleave, Great Cleave, Improved Bull Rush, Power Attack, Skill Focus (Survival), Weapon Focus (greataxe)
+Skills: Intimidate +7, Perception +21
+Racial Modifiers: +8 Perception
+Languages: Common, Cyclops, Giant
+Special qualities: flash of insight, track +1, [wild empathy](ref/ability/wild-empathy) +2
+Combat gear: potion of cure serious wounds, smokestick, 2 tanglefoot bags
+Other gear: +1 studded leather armor, +1 cl32+7, mwk greataxe, Iclk1, 5 tts
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 armor, +1 Dex, +7 natural, -1 size
-
-**Hit points:** 80 (10d8+2d10+24\~12)
-
-**Fort:** +13
-
-**Ref:** +8
-
-**Will:** +6
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** humans +2
-
-**Melee:** mwk greataxe +17/+12 (3d6+10/×3)
-
-**Ranged:** +1 composite longbow +10/+5 (2d6+8/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** combat style (two-handed weapon)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con 15, Int 8, Wis 15, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17 (+19 bull rush)
-
-**Combat maneuver defense:** 28 (30 vs. bull rush)
-
-**Feats:** Alertness, Cleave, Great Cleave, Improved Bull Rush, Power Attack, Skill Focus
-(Survival), Weapon Focus (greataxe)
-
-**Skills:** Intimidate +7, Perception +21
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Common, Cyclops, Giant
-
-**Special qualities:** flash of insight, track +1, [wild empathy](ref/ability/wild-empathy) +2
-
-**Combat gear:** potion of cure serious wounds, smokestick, 2 tanglefoot bags
-
-**Other gear:** +1 studded leather armor, +1 cl32+7, mwk greataxe, Iclk1, 5 tts
-
-**Ecology**
-
-**Environment:** any temperate or tropical
+::: statblock
+Environment: any temperate or tropical
+:::
 
 ### Description
 

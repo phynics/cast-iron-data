@@ -32,102 +32,77 @@ abilities = ["16", "14", "12", "14", "18", "14"]
 _This handsome young man has hair of dappled black and white on his head and body alike, and he
 carries a variety of wands and talismans in addition to his weapons._
 
-**Challenge rating:** 4
-
 **Centaur [shaman](ref/class/shaman) 2**
 
-**Initiative:** +6
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral good
+Perception: +11
+Senses: Darkvision 60 ft.
+Experience points: 1,200
+:::
 
-**Size:** large
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex, +1 dodge, +1 natural, -1 size
+Hit points: 39 (2d8+4d10+8\~6)
+Fort: +2
+Ref: +6
+Will: +11
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 50 ft.
+Ch P En: 3/day, DC 13, 1d6
+Melee: mwk sickle +8 (1d6+3), 2 hooves +2 (1d6+3)
+Ranged: javelin +6 (1d6+3)
+Reach: 5
+Space: 10
+Spec Att: hex (ward)
+:::
 
-**Senses:** Darkvision 60 ft.
-
-**Experience points:** 1,200
-
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex, +1 dodge, +1 natural, -1 size
-
-**Hit points:** 39 (2d8+4d10+8\~6)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +11
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Ch P En:** 3/day, DC 13, 1d6
-
-**Melee:** mwk sickle +8 (1d6+3), 2 hooves +2 (1d6+3)
-
-**Ranged:** javelin +6 (1d6+3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** hex (ward)
-
-**Prepared Spells**
-
-**Caster level:** 2
-
-**Concentration:** +6
-
-**1st-level spells:**
-
-- detect undead^S^, entangle (DC 15), goodberry, sleep (DC 15)
-
-**Cantrips:**
-
-- detect poison, guidance, purify food and drink (DC 14), resistance
-
-**Spirit:** [Life](ref/shamanspirit/life)
+::: statblock
+title = "Prepared Spells"
+Caster level: 2
+Concentration: +6
+1st-level spells: detect undead^S^, entangle (DC 15), goodberry, sleep (DC 15)
+Cantrips: detect poison, guidance, purify food and drink (DC 14), resistance
+Spirit: [Life](ref/shamanspirit/life)
+:::
 
 ###### S {#footnote-s}
 
 Spirit magic spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 16, Dex 14, Con 12, Int 14, Wis 18, Cha 14
+::: statblock
+Ability scores: Str 16, Dex 14, Con 12, Int 14, Wis 18, Cha 14
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Combat Casting, Dodge, Improved Initiative
+Skills: Diplomacy +9, Heal +10, Knowledge (geography) +3, Knowledge (planes) +7, Perception +11
+Languages: Auran, Common, Elven, Sylvan, Terran
+Special qualities: spirit animal (owl), spirit magic, [undersized weapons](ref/umr/undersized-weapons)
+Combat gear: Dburning hands/CL 3rd, 11 charges, Dcharm animal/23 charges
+Other gear: +1 leather armor, 4 javelins, mwk sickle, hk
+:::
 
-**Base attack bonus:** +5
+### Ecology
 
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Combat Casting, Dodge, Improved Initiative
-
-**Skills:** Diplomacy +9, Heal +10, Knowledge (geography) +3, Knowledge (planes) +7, Perception +11
-
-**Languages:** Auran, Common, Elven, Sylvan, Terran
-
-**Special qualities:** spirit animal (owl), spirit magic,
-[undersized weapons](ref/umr/undersized-weapons)
-
-**Combat gear:** Dburning hands/CL 3rd, 11 charges, Dcharm animal/23 charges
-
-**Other gear:** +1 leather armor, 4 javelins, mwk sickle, hk
-
-**Ecology**
-
-**Environment:** temperate forests and plains
+::: statblock
+Environment: temperate forests and plains
+:::
 
 ### Description
 

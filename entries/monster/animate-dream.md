@@ -29,85 +29,67 @@ abilities = ["-", "18", "15", "10", "15", "21"]
 
 _This indistinct figure suddenly takes on a nightmarish shape, not quite human or animal or fiend._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +4
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Incorporeal
+Experience points: 4,800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 15
+AC modifiers: +5 deflection, +4 Dex, +1 dodge
+Hit points: 90 (12d10+24)
+Fort: +10
+Ref: +8
+Will: +12
+Incorporeal: present
+Sr: 19
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: incorporeal touch +16 (6d8 negative energy plus nightmare curse)
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+Per day: 3/day: deep slumber (DC 18), dimension door, nightmare (DC 20)\
+1/day: confusion (DC 19), fear (DC 19), phantasmal killer (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Incorporeal
+::: statblock
+Ability scores: Str -, Dex 18, Con 15, Int 10, Wis 15, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +16
+Combat maneuver defense: 32
+Feats: Blind-Fight, Combat Casting, Dodge, Flyby Attack, Iron Will, Mobility
+Skills: Bluff +20, Fly +12, Intimidate +20, Knowledge (planes) +15, Perception +17, Sense Motive +17, Stealth +19
+Languages: telepathy 100 ft.
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 deflection, +4 Dex, +1 dodge
-
-**Hit points:** 90 (12d10+24)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +12
-
-**Incorporeal:** present
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** incorporeal touch +16 (6d8 negative energy plus nightmare curse)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**Per day:**
-
-- 3/day: deep slumber (DC 18), dimension door, nightmare (DC 20)
-- 1/day: confusion (DC 19), fear (DC 19), phantasmal killer (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con 15, Int 10, Wis 15, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 32
-
-**Feats:** Blind-Fight, Combat Casting, Dodge, Flyby Attack, Iron Will, Mobility
-
-**Skills:** Bluff +20, Fly +12, Intimidate +20, Knowledge (planes) +15, Perception +17, Sense Motive
-+17, Stealth +19
-
-**Languages:** telepathy 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

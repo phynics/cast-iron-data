@@ -29,97 +29,72 @@ abilities = ["4", "17", "10", "13", "12", "13"]
 
 _The feet and tongue of this minuscule gold-scaled dragon are stained with ink._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 60
+Size: diminutive
+Type: dragon
+Initiative: +7
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 Size
+Hit points: 19 (3d12)
+Fort: +3
+Ref: +6
+Will: +4
+Immune: paralysis, sleep
+:::
 
-**Type:** dragon
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 10 ft., fly 80 ft. (average)
+Melee: gore +10 (1d2-3)
+Reach: 0
+Sneak: +2d6
+Space: 1
+Spec Att: ink spray
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: arcane mark, read magic
+Per day: 3/day: erase\
+1/day: secret page
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 4, Dex 17, Con 10, Int 13, Wis 12, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 9 (13 vs. trip)
+Feats: Improved Initiative, Weapon Finesse
+Skills: Bluff +7, Craft (calligraphy) +7, Fly +15, Knowledge (arcana) +7, Linguistics +7, Perception +7, Spellcraft +7
+Languages: Celestial, Common, Draconic, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (golden pen)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 Size
-
-**Hit points:** 19 (3d12)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +4
-
-**Immune:** paralysis, sleep
-
-**Offense**
-
-**Speed:** 10 ft., fly 80 ft. (average)
-
-**Melee:** gore +10 (1d2-3)
-
-**Reach:** 0
-
-**Sneak:** +2d6
-
-**Space:** 1
-
-**Spec Att:** ink spray
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- arcane mark, read magic
-
-**Per day:**
-
-- 3/day: erase
-- 1/day: secret page
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 17, Con 10, Int 13, Wis 12, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 9 (13 vs. trip)
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +7, Craft (calligraphy) +7, Fly +15, Knowledge (arcana) +7, Linguistics +7,
-Perception +7, Spellcraft +7
-
-**Languages:** Celestial, Common, Draconic, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (golden pen)
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

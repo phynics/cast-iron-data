@@ -32,82 +32,64 @@ abilities = ["19", "16", "19", "11", "16", "10"]
 _Swirling markings cover the armor and flanks of this imposing centaur. A bow and sword, both heavy
 enough to suit her powerful frame, hang from her body._
 
-**Challenge rating:** 6
-
 **Centaur [ranger](ref/class/ranger) 3**
 
-**Initiative:** +3
+::: statblock
+Challenge rating: 6
+Initiative: +3
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft.
+Experience points: 2,400
+:::
 
-**Size:** large
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 14
+AC modifiers: +3 armor, +3 Dex, +2 natural, -1 size
+Hit points: 69 (4d10+3d10+31\~7)
+Fort: +8
+Ref: +10
+Will: +8
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 50 ft.
+Fav En: animals +2
+Melee: greatsword +10/+5 (2d6+6/19-20), 2 hooves +5 (1d6+2)
+Ranged: mwk composite longbow +10/+5 (1d8+4/×3)
+Reach: 5
+Space: 10
+Spec Att: combat style (archery)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 19, Dex 16, Con 19, Int 11, Wis 16, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 25 (29 vs. trip)
+Feats: Cleave, Endurance, Lunge, Power Attack, Quick Draw, Rapid Shot
+Skills: Diplomacy +4, Heal +8, Intimidate +4, Knowledge (geography) +6, Perception +13
+Languages: Common, Elven, Sylvan
+Special qualities: [favored terrain](ref/ability/favored-terrain) (forest +2), track +1, [undersized weapons](ref/umr/undersized-weapons), [wild empathy](ref/ability/wild-empathy) +3
+Combat gear: 2 potion of cure moderate wounds, smokestick
+Other gear: +1 leather armor, greatsword, mwk cl40+4, Iamu1, bp, signal whistle
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 armor, +3 Dex, +2 natural, -1 size
-
-**Hit points:** 69 (4d10+3d10+31\~7)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Fav En:** animals +2
-
-**Melee:** greatsword +10/+5 (2d6+6/19-20), 2 hooves +5 (1d6+2)
-
-**Ranged:** mwk composite longbow +10/+5 (1d8+4/×3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** combat style (archery)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 16, Con 19, Int 11, Wis 16, Cha 10
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25 (29 vs. trip)
-
-**Feats:** Cleave, Endurance, Lunge, Power Attack, Quick Draw, Rapid Shot
-
-**Skills:** Diplomacy +4, Heal +8, Intimidate +4, Knowledge (geography) +6, Perception +13
-
-**Languages:** Common, Elven, Sylvan
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (forest +2), track +1,
-[undersized weapons](ref/umr/undersized-weapons), [wild empathy](ref/ability/wild-empathy) +3
-
-**Combat gear:** 2 potion of cure moderate wounds, smokestick
-
-**Other gear:** +1 leather armor, greatsword, mwk cl40+4, Iamu1, bp, signal whistle
-
-**Ecology**
-
-**Environment:** temperate forests and plains
+::: statblock
+Environment: temperate forests and plains
+:::
 
 ### Description
 

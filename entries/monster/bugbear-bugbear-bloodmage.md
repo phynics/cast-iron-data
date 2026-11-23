@@ -32,97 +32,62 @@ abilities = ["18", "15", "16", "8", "10", "17"]
 _This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with
 the thrill of the coming kill._
 
-**Challenge rating:** 11
-
 **Bugbear [sorcerer](ref/class/sorcerer) 10**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +6
+Size: medium
+Perception: +0
+Senses: Darkvision 60 ft., Scent
+Subtype: Goblinoid
+Experience points: 12,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +2 Dex, +1 dodge, +5 natural
+Hit points: 97 (3d8+10d6+49\~13)
+Fort: +8
+Ref: +11
+Will: +9
+Resist: fire 20
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+Melee: +1 quarterstaff +12/+7 (1d6+7)
+Ranged: mwk shortbow +10 (1d6/×3)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+Per day: 6/day: elemental ray, 1d6+5 fire\
+1/day: elemental blast (10d6 fire, DC 18)
+:::
 
-**Subtype:** Goblinoid
-
-**Experience points:** 12,800
-
-**Armor class:** 18
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +1 dodge, +5 natural
-
-**Hit points:** 97 (3d8+10d6+49\~13)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +9
-
-**Resist:** fire 20
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 quarterstaff +12/+7 (1d6+7)
-
-**Ranged:** mwk shortbow +10 (1d6/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Per day:**
-
-- 6/day: elemental ray, 1d6+5 fire
-- 1/day: elemental blast (10d6 fire, DC 18)
-
-**Spells Known**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**5th-level spells:**
-
-- 3/day: fire snake (DC 18)
-
-**4th-level spells:**
-
-- 5/day: black tentacles, elemental body I, fire shield
-
-**3rd-level spells:**
-
-- 6/day: fireball (DC 16), howling agony (DC 16), protection from energy, rage, stinking cloud (DC
-  16)
-
-**2nd-level spells:**
-
-- 7/day: alter self, invisibility, levitate, scorching ray, see invisibility, touch of idiocy
-
-**1st-level spells:**
-
-- 7/day: burning hands (DC 14), color spray (DC 14), enlarge person (DC 14), magic missile, ray of
-  enfeeblement (DC 14), shield
-
-**Cantrips:**
-
-- At will: acid splash, daze (DC 13), detect magic, detect poison, ghost sound (DC 13), mage hand,
-  read magic, resistance, touch of fatigue (DC 13)
-
-**Bloodline:** [elemental](ref/sorcbloodline/elemental) (fire)
+::: statblock
+title = "Spells Known"
+Caster level: 10
+Concentration: +13
+5th-level spells: 3/day: fire snake (DC 18)
+4th-level spells: 5/day: black tentacles, elemental body I, fire shield
+3rd-level spells: 6/day: fireball (DC 16), howling agony (DC 16), protection from energy, rage, stinking cloud (DC 16)
+2nd-level spells: 7/day: alter self, invisibility, levitate, scorching ray, see invisibility, touch of idiocy
+1st-level spells: 7/day: burning hands (DC 14), color spray (DC 14), enlarge person (DC 14), magic missile, ray of enfeeblement (DC 14), shield
+Cantrips: At will: acid splash, daze (DC 13), detect magic, detect poison, ghost sound (DC 13), mage hand, read magic, resistance, touch of fatigue (DC 13)
+Bloodline: [elemental](ref/sorcbloodline/elemental) (fire)
+:::
 
 ### Tactics
 
@@ -134,32 +99,26 @@ _[fire snake](ref/spell/fire-snake)_ and _[fireball](ref/spell/fireball)_ on her
 spells such as _[fire shield](ref/spell/fire-shield)_ and _[shield](ref/spell/shield)_ to protect
 herself when she becomes the target of attacks.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 18, Dex 15, Con 16, Int 8, Wis 10, Cha 17
+::: statblock
+Ability scores: Str 18, Dex 15, Con 16, Int 8, Wis 10, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 24
+Feats: Combat Casting, Dodge, Empower Spell, Enlarge Spell, Eschew Materials, Improved Initiative, Lightning Reflexes, Point-Blank Shot, Precise Shot
+Skills: Intimidate +6, Spellcraft +12, Stealth +9
+Languages: Common, Goblin
+Special qualities: bloodline arcana (change energy damage spells to fire), stalker
+Combat gear: potion of cure moderate wounds
+Other gear: +1 quarterstaff, mwk dagger, mwk sb20, Iamu2, Iclk1, Ihbac2, 117 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24
-
-**Feats:** Combat Casting, Dodge, Empower Spell, Enlarge Spell, Eschew Materials, Improved
-Initiative, Lightning Reflexes, Point-Blank Shot, Precise Shot
-
-**Skills:** Intimidate +6, Spellcraft +12, Stealth +9
-
-**Languages:** Common, Goblin
-
-**Special qualities:** bloodline arcana (change energy damage spells to fire), stalker
-
-**Combat gear:** potion of cure moderate wounds
-
-**Other gear:** +1 quarterstaff, mwk dagger, mwk sb20, Iamu2, Iclk1, Ihbac2, 117 gp
-
-**Ecology**
-
-**Environment:** temperate mountains
+::: statblock
+Environment: temperate mountains
+:::
 
 ### Description
 

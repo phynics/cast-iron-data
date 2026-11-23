@@ -33,115 +33,78 @@ abilities = ["32", "14", "33", "18", "21", "23"]
 _This reptilian demon has a quadrupedal dinosaur's lower body, a vaguely humanoid upper torso, and a
 draconic saurian head._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 25), unholy aura
+Alignment: Chaotic evil
+Size: huge
+Initiative: +2
+Type: outsider
+Perception: +34
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 153,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 25), unholy aura
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 35
+Touch: 14
+Flat-footed: 33
+AC modifiers: +8 armor, +4 deflection, +2 Dex, +13 natural, -2 size
+Hit points: 297 (18d10+198)
+Fort: +26
+Ref: +12
+Will: +22
+Dr: 15/cold iron and good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+Sr: 29
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 45 ft., fly 60 ft. (average)
+Melee: +1 unholy ranseur +28/+23/+18/+13 (3d6+17/×3) or bite +27 (3d6+11 plus smoking wound), 2 claws +27 (1d8+11), tail slap +22 (2d8+5 plus stun)
+Reach: 15
+Reach P: 30 ft. with ranseur
+Space: 15
+Spec Att: breath weapon
+Trample: 4d8+16, DC 30
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+Constant: true seeing, unholy aura (DC 24)
+At will: enervation, greater teleport, self plus worn armor plus 50 additional lbs. of objects only, telekinesis (DC 21)
+Per day: 3/day: blasphemy (DC 23), quickened enervation, power word stun (DC 24)\
+1/day: earthquake, summon (level 6, 1 marilith 40% or 1d3 nalfeshnees 60%)
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 32, Dex 14, Con 33, Int 18, Wis 21, Cha 23
+Base attack bonus: +18
+Combat maneuver bonus: +31 (+33 bull rush)
+Combat maneuver defense: 47 (49 vs. bull rush)
+Feats: Awesome Blow, Greater Vital Strike, Improved Bull Rush, Improved Iron Will, Improved Vital Strike, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (enervation), Vital Strike
+Skills: Bluff +27, Fly +16
+Racial Modifiers: +8 Perception, +8 Stealth
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 35
-
-**Touch:** 14
-
-**Flat-footed:** 33
-
-**AC modifiers:** +8 armor, +4 deflection, +2 Dex, +13 natural, -2 size
-
-**Hit points:** 297 (18d10+198)
-
-**Fort:** +26
-
-**Ref:** +12
-
-**Will:** +22
-
-**Dr:** 15/cold iron and good
-
-**Immune:** electricity, fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 45 ft., fly 60 ft. (average)
-
-**Melee:** +1 unholy ranseur +28/+23/+18/+13 (3d6+17/×3) or bite +27 (3d6+11 plus smoking wound), 2
-claws +27 (1d8+11), tail slap +22 (2d8+5 plus stun)
-
-**Reach:** 15
-
-**Reach P:** 30 ft. with ranseur
-
-**Space:** 15
-
-**Spec Att:** breath weapon
-
-**Trample:** 4d8+16, DC 30
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**Constant:**
-
-- true seeing, unholy aura (DC 24)
-
-**At will:**
-
-- enervation, greater teleport, self plus worn armor plus 50 additional lbs. of objects only,
-  telekinesis (DC 21)
-
-**Per day:**
-
-- 3/day: blasphemy (DC 23), quickened enervation, power word stun (DC 24)
-- 1/day: earthquake, summon (level 6, 1 marilith 40% or 1d3 nalfeshnees 60%)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 14, Con 33, Int 18, Wis 21, Cha 23
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +31 (+33 bull rush)
-
-**Combat maneuver defense:** 47 (49 vs. bull rush)
-
-**Feats:** Awesome Blow, Greater Vital Strike, Improved Bull Rush, Improved Iron Will, Improved
-Vital Strike, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(enervation), Vital Strike
-
-**Skills:** Bluff +27, Fly +16
-
-**Racial Modifiers:** +8 Perception, +8 Stealth
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or warband (1 vavakia plus 2-4 [hezrous](ref/monster/demon-hezrou)
-and 2-8 [vrocks](ref/monster/demon-vrock))
-
-**Treasure:** Standard (+2 breastplate, +1 unholy ranseur); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or warband (1 vavakia plus 2-4 [hezrous](ref/monster/demon-hezrou) and 2-8 [vrocks](ref/monster/demon-vrock))
+Treasure: Standard (+2 breastplate, +1 unholy ranseur); other treasure
+:::
 
 ### Special Abilities
 

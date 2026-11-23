@@ -31,75 +31,60 @@ abilities = ["12", "13", "12", "9", "12", "9"]
 _An inordinate number of sinewy limbs, each terminating in clawed feet, protrude from the sides of
 this slithering creature. Its face is disturbingly demonic._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Type: fey
+Initiative: +5
+Size: medium
+Perception: +7
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 natural
+Hit points: 13 (3d6+3)
+Fort: +2
+Ref: +4
+Will: +4
+Dr: 2/cold iron
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +2 (1d6+1 plus paralysis), 2 claws +2 (1d4+1)
+Paralysis: 1d4+1 rounds, DC 12
+Spec Att: surprise reach
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 13, Con 12, Int 9, Wis 12, Cha 9
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Improved Initiative, Step Up
+Skills: Climb +15, Escape Artist +7, Perception +7
+Languages: Common, Sylvan
+Special qualities: [compression](ref/umr/compression), revolting taste
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 natural
-
-**Hit points:** 13 (3d6+3)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +4
-
-**Dr:** 2/cold iron
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +2 (1d6+1 plus paralysis), 2 claws +2 (1d4+1)
-
-**Paralysis:** 1d4+1 rounds, DC 12
-
-**Spec Att:** surprise reach
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 13, Con 12, Int 9, Wis 12, Cha 9
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Improved Initiative, Step Up
-
-**Skills:** Climb +15, Escape Artist +7, Perception +7
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [compression](ref/umr/compression), revolting taste
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest
+Organization: solitary, pair, or nest (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

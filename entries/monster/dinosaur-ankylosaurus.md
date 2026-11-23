@@ -28,69 +28,57 @@ abilities = ["27", "10", "17", "2", "13", "8"]
 _Thick bony plates armor the dome-like back of this quadrupedal dinosaur, its powerfully muscled
 tail ending in a bony club._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +14
+Senses: Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 22
+Touch: 8
+Flat-footed: 22
+AC modifiers: +14 natural, -2 size
+Hit points: 75 (10d8+30)
+Fort: +12
+Ref: +7
+Will: +4
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: tail +14 (3d6+12 plus stun)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 27, Dex 10, Con 17, Int 2, Wis 13, Cha 8
+Base attack bonus: +7
+Combat maneuver bonus: +17
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Great Fortitude, Improved Bull Rush, Improved Overrun, Power Attack, Weapon Focus (tail)
+Skills: Perception +14
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 8
-
-**Flat-footed:** 22
-
-**AC modifiers:** +14 natural, -2 size
-
-**Hit points:** 75 (10d8+30)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** tail +14 (3d6+12 plus stun)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 10, Con 17, Int 2, Wis 13, Cha 8
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Great Fortitude, Improved Bull Rush, Improved Overrun, Power Attack, Weapon Focus (tail)
-
-**Skills:** Perception +14
-
-**Ecology**
-
-**Environment:** warm forests and plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests and plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

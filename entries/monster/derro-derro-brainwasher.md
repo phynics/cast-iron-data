@@ -33,116 +33,81 @@ abilities = ["11", "19", "16", "12", "7", "20"]
 _This pallid woman's clothing is adorned with leather straps, wicked barbs, and surgical tools. Her
 eyes twinkle with madness._
 
-**Challenge rating:** 5
-
 **Derro [bard](ref/class/bard) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Perception: +2
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Derro
+Experience points: 1,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 22
+Touch: 16
+Flat-footed: 17
+AC modifiers: +4 armor, +4 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 39 (3d8+2d8+17\~5)
+Fort: +4
+Ref: +8
+Will: +10
+Sr: 16
+Weaknesses: vulnerability to sunlight
+:::
 
-**Perception:** +2
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft.
+Melee: aklys +4 (1d6)
+Ranged: repeating light crossbow +8 (1d6/19-20) or aklys +8 (1d6)
+Sneak: +1d6
+Spec Att: bardic performance 17 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 16\], [inspire courage](ref/performance/inspire-courage) +1)
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +8
+At will: darkness, ghost sound (DC 15)
+Per day: 1/day: daze (DC 15), sound burst (DC 17)
+:::
 
-**Subtype:** Derro
+::: statblock
+title = "Spells Known"
+Caster level: 2
+Concentration: +7
+1st-level spells: 4/day: cause fear (DC 16), memory lapse (DC 16), sleep (DC 16)
+Cantrips: At will: detect magic, flare (DC 15), lullaby (DC 15), mage hand, message
+:::
 
-**Experience points:** 1,600
+### Statistics
 
-**Armor class:** 22
+::: statblock
+Ability scores: Str 11, Dex 19, Con 16, Int 12, Wis 7, Cha 20
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 17
+Feats: Combat Casting, Dodge, Extra Performance
+Skills: Acrobatics +8 (+4 when jumping), Bluff +12, Disguise +10, Perform (oratory) +13, Stealth +12, Use Magic Device +11
+Languages: Aklo, Common, Undercommon
+Special qualities: bardic knowledge +1, madness, [poison use](ref/ability/poison-use), versatile performance (oratory)
+Combat gear: Dcharm person/15 charges, Dhold person/8 charges, Dmodify memory/12 charges, 5 potion of Xmsv, 5 potion of Xstriped toadstool
+Other gear: mwk chain shirt, -aklys, repeating light crossbow, 20 mwk bolts
+:::
 
-**Touch:** 16
+### Ecology
 
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +4 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 39 (3d8+2d8+17\~5)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +10
-
-**Sr:** 16
-
-**Weaknesses:** vulnerability to sunlight
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** aklys +4 (1d6)
-
-**Ranged:** repeating light crossbow +8 (1d6/19-20) or aklys +8 (1d6)
-
-**Sneak:** +1d6
-
-**Spec Att:** bardic performance 17 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 16\],
-[inspire courage](ref/performance/inspire-courage) +1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +8
-
-**At will:**
-
-- darkness, ghost sound (DC 15)
-
-**Per day:**
-
-- 1/day: daze (DC 15), sound burst (DC 17)
-
-**Spells Known**
-
-**Caster level:** 2
-
-**Concentration:** +7
-
-**1st-level spells:**
-
-- 4/day: cause fear (DC 16), memory lapse (DC 16), sleep (DC 16)
-
-**Cantrips:**
-
-- At will: detect magic, flare (DC 15), lullaby (DC 15), mage hand, message
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 19, Con 16, Int 12, Wis 7, Cha 20
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Casting, Dodge, Extra Performance
-
-**Skills:** Acrobatics +8 (+4 when jumping), Bluff +12, Disguise +10, Perform (oratory) +13, Stealth
-+12, Use Magic Device +11
-
-**Languages:** Aklo, Common, Undercommon
-
-**Special qualities:** bardic knowledge +1, madness, [poison use](ref/ability/poison-use), versatile
-performance (oratory)
-
-**Combat gear:** Dcharm person/15 charges, Dhold person/8 charges, Dmodify memory/12 charges, 5
-potion of Xmsv, 5 potion of Xstriped toadstool
-
-**Other gear:** mwk chain shirt, -aklys, repeating light crossbow, 20 mwk bolts
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

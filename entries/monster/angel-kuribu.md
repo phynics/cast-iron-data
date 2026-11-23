@@ -30,98 +30,71 @@ abilities = ["10", "16", "12", "11", "13", "11"]
 _The skin of this halfling-sized, winged humanoid is as smooth as polished marble. It wields a bow
 and carries a quiver full of arrows on its back._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: lesser protective aura
+Initiative: +3
+Alignment: Neutral good
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft., Detect evil, Low-light vision
+Size: small
+Subtype: Angel, Extraplanar, Good
+Experience points: 800
+:::
 
-**aura:** lesser protective aura
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +3 Dex, +2 natural, +1 size
+Hit points: 26 (4d10+4)
+Fort: +2
+Ref: +7
+Will: +5; +4 vs. poison, +4 resistance vs. evil
+Dr: 5/cold iron or evil
+Immune: acid, cold, petrification
+Resist: electricity 10, fire 10
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 50 ft. (good)
+Ranged: mwk longbow +9 (1d6/×3)
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +3
+Constant: detect evil
+At will: light, resistance
+Per day: 3/day: bless
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 16, Con 12, Int 11, Wis 13, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +3
+Combat maneuver defense: 16
+Feats: Point-Blank Shot, Precise Shot
+Skills: Acrobatics +10 (+6 when jumping), Fly +16, Knowledge (planes) +7, Perception +8, Stealth +14
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: blessed aspect
+:::
 
-**Subtype:** Angel, Extraplanar, Good
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +2 natural, +1 size
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +5; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 5/cold iron or evil
-
-**Immune:** acid, cold, petrification
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (good)
-
-**Ranged:** mwk longbow +9 (1d6/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +3
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- light, resistance
-
-**Per day:**
-
-- 3/day: bless
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 16, Con 12, Int 11, Wis 13, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 16
-
-**Feats:** Point-Blank Shot, Precise Shot
-
-**Skills:** Acrobatics +10 (+6 when jumping), Fly +16, Knowledge (planes) +7, Perception +8, Stealth
-+14
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** blessed aspect
-
-**Ecology**
-
-**Environment:** any good-aligned plane
-
-**Organization:** solitary, pair, or flight (3-6)
-
-**Treasure:** Standard (mwk longbow); other treasure
+::: statblock
+Environment: any good-aligned plane
+Organization: solitary, pair, or flight (3-6)
+Treasure: Standard (mwk longbow); other treasure
+:::
 
 ### Special Abilities
 

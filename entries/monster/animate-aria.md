@@ -29,79 +29,62 @@ abilities = ["21", "18", "-", "-", "11", "1"]
 _An inspirational song emanates from what appears to be point in thin air twelve feet off the
 ground. Stirring crescendos and moving fanfares can be heard throughout its melody._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: courageous inspiration (90 ft.)
+blindsight: 90
+Type: construct
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**aura:** courageous inspiration (90 ft.)
+### Defense
 
-**blindsight:** 90
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 19
+AC modifiers: +4 Dex, +10 natural, -1 size
+Hit points: 107 (14d10+30)
+Fort: +4
+Ref: +8
+Will: +4
+Amorph: present
+Defensive abilities: natural invisibility
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: sonic
+Weaknesses: dissonance
+:::
 
-**Type:** construct
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +18 (2d10+5)
+Reach: 10
+Space: 10
+:::
 
-**Size:** large
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 21, Dex 18, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +14
+Combat maneuver bonus: +20
+Combat maneuver defense: 34
+:::
 
-**Perception:** +0
+### Ecology
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +10 natural, -1 size
-
-**Hit points:** 107 (14d10+30)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +4
-
-**Amorph:** present
-
-**Defensive abilities:** natural invisibility
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** sonic
-
-**Weaknesses:** dissonance
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +18 (2d10+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 18, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 34
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary or chorus (1 plus 2d4 mercenary warriors of 6th level)
-
-**Treasure:** None
+::: statblock
+Environment: any urban
+Organization: solitary or chorus (1 plus 2d4 mercenary warriors of 6th level)
+Treasure: None
+:::
 
 ### Special Abilities
 

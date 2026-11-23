@@ -29,71 +29,58 @@ abilities = ["15", "13", "14", "2", "12", "13"]
 
 _This animal resembles an alpaca with voluminous, shiny wool._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+aura: dazzling (10 ft.)
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**aura:** dazzling (10 ft.)
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +4
+Will: +1
+Defensive abilities: pristine wool
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: 2 hooves +3 (1d4+2)
+Spec Att: spit
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +5
+::: statblock
+Ability scores: Str 15, Dex 13, Con 14, Int 2, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Nimble Moves
+Skills: Acrobatics +5, Perception +5
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +1
-
-**Defensive abilities:** pristine wool
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 hooves +3 (1d4+2)
-
-**Spec Att:** spit
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 14, Int 2, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Nimble Moves
-
-**Skills:** Acrobatics +5, Perception +5
-
-**Ecology**
-
-**Environment:** temperate hills or mountains
-
-**Organization:** solitary, pair, or majesty (3-18)
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills or mountains
+Organization: solitary, pair, or majesty (3-18)
+Treasure: None
+:::
 
 ### Special Abilities
 

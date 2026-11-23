@@ -31,104 +31,75 @@ abilities = ["22", "19", "21", "24", "28", "21"]
 _A shimmering, colorless mass congeals to form a four-armed humanoid shape with an eye-like pattern
 in its torso._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+blindsense: 60
+Initiative: +8
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +30
+Senses: Darkvision 90 ft., Low-light vision
+Subtype: Aeon, Extraplanar
+Experience points: 76,800
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 31
+Touch: 18
+Flat-footed: 26
+AC modifiers: +4 deflection, +4 Dex, +1 dodge, +13 natural, -1 size
+Hit points: 207 (18d10+108)
+Fort: +18
+Ref: +12
+Will: +20
+Fh: 10
+Immune: cold, critical hits, poison
+Resist: electricity 10, fire 10
+Sr: 27
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: fly 40 ft. (good)
+Melee: 4 slams +23 (1d6+6 plus 1d6 cold and aging strike)
+Reach: 10
+Space: 10
+Spec Att: confusion gaze, temporal strike
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +23
+At will: augury, greater teleport, slow (DC 18)
+Per day: 3/day: dimensional anchor, haste, plane shift (DC 20)\
+1/day: dimensional lock, moment of prescience, temporal stasis (DC 23)
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Darkvision 90 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 19, Con 21, Int 24, Wis 28, Cha 21
+Base attack bonus: +18
+Combat maneuver bonus: +25
+Combat maneuver defense: 44 (can't be tripped)
+Feats: Combat Casting, Combat Reflexes, Dodge, Great Fortitude, Hover, Improved Initiative, Lightning Reflexes, Mobility, Toughness
+Skills: Bluff +26, Fly +6, Intimidate +26, Knowledge (arcana, nature, religion) +33, Perception +30, Sense Motive +30, Spellcraft +28, Stealth +21, Use Magic Device +23
+Languages: _envisaging_
+Special qualities: extension of all, void form
+:::
 
-**Subtype:** Aeon, Extraplanar
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 18
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 deflection, +4 Dex, +1 dodge, +13 natural, -1 size
-
-**Hit points:** 207 (18d10+108)
-
-**Fort:** +18
-
-**Ref:** +12
-
-**Will:** +20
-
-**Fh:** 10
-
-**Immune:** cold, critical hits, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** fly 40 ft. (good)
-
-**Melee:** 4 slams +23 (1d6+6 plus 1d6 cold and aging strike)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** confusion gaze, temporal strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +23
-
-**At will:**
-
-- augury, greater teleport, slow (DC 18)
-
-**Per day:**
-
-- 3/day: dimensional anchor, haste, plane shift (DC 20)
-- 1/day: dimensional lock, moment of prescience, temporal stasis (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 21, Int 24, Wis 28, Cha 21
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 44 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Great Fortitude, Hover, Improved Initiative,
-Lightning Reflexes, Mobility, Toughness
-
-**Skills:** Bluff +26, Fly +6, Intimidate +26, Knowledge (arcana, nature, religion) +33, Perception
-+30, Sense Motive +30, Spellcraft +28, Stealth +21, Use Magic Device +23
-
-**Languages:** _envisaging_
-
-**Special qualities:** extension of all, void form
-
-**Ecology**
-
-**Environment:** any (Outer Planes)
-
-**Organization:** solitary, pair, or tribunal (3 bythos)
-
-**Treasure:** None
+::: statblock
+Environment: any (Outer Planes)
+Organization: solitary, pair, or tribunal (3 bythos)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -33,87 +33,66 @@ abilities = ["22", "26", "-", "-", "11", "1"]
 _This sleek, one-eyed construct crouches, ready for battle. Its arms end in weapons - a rapier and a
 compact crossbow bolt launcher._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: construct
+Initiative: +12
+Size: medium
+Alignment: Neutral
+Perception: +0 (+20 in sentinel mode)
+Senses: Darkvision 120 ft., Low-light vision, Mistsight
+Subtype: Clockwork
+Experience points: 25,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +12
+::: statblock
+Armor class: 27
+Touch: 20
+Flat-footed: 17
+AC modifiers: +8 Dex, +2 dodge, +7 natural
+Hit points: 119 (18d10+20)
+Fort: +6
+Ref: +16
+Will: +6
+Defensive abilities: rapid repair
+Dr: 10/adamantine
+Evasion: present
+Fh: 10
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 30 ft.
+Melee: +1 rapier +25/+20/+15/+10 (1d6+7/15-20)
+Ranged: 4 projectiles +26 (1d4+6/19-20 or smoke)
+Spec Att: projectile launcher, [sneak attack](ref/ability/sneak-attack) +2d6
+:::
 
-**Perception:** +0 (+20 in sentinel mode)
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision, Mistsight
+::: statblock
+Ability scores: Str 22, Dex 26, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +18
+Combat maneuver bonus: +24
+Combat maneuver defense: 44
+Feats: Improved Critical (rapier), Improved Initiative, Lightning Reflexes
+Skills: Climb +14, Perception +0 (+20 in sentinel mode)
+Racial Modifiers: +20 Perception in sentinel mode
+Special qualities: difficult to create, integrated rapier, standby, swift reactions, winding
+:::
 
-**Subtype:** Clockwork
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 27
-
-**Touch:** 20
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 Dex, +2 dodge, +7 natural
-
-**Hit points:** 119 (18d10+20)
-
-**Fort:** +6
-
-**Ref:** +16
-
-**Will:** +6
-
-**Defensive abilities:** rapid repair
-
-**Dr:** 10/adamantine
-
-**Evasion:** present
-
-**Fh:** 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft.
-
-**Melee:** +1 rapier +25/+20/+15/+10 (1d6+7/15-20)
-
-**Ranged:** 4 projectiles +26 (1d4+6/19-20 or smoke)
-
-**Spec Att:** projectile launcher, [sneak attack](ref/ability/sneak-attack) +2d6
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 26, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 44
-
-**Feats:** Improved Critical (rapier), Improved Initiative, Lightning Reflexes
-
-**Skills:** Climb +14, Perception +0 (+20 in sentinel mode)
-
-**Racial Modifiers:** +20 Perception in sentinel mode
-
-**Special qualities:** difficult to create, integrated rapier, standby, swift reactions, winding
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or contract (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or contract (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

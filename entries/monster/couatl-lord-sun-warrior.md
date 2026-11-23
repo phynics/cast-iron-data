@@ -28,126 +28,77 @@ abilities = ["24", "17", "22", "19", "20", "23"]
 
 _This brilliantly colored couatl radiates a palpable air of peace and wisdom._
 
-**Challenge rating:** 15
-
 **Unique couatl**
 
-**Initiative:** +7
+::: statblock
+Challenge rating: 15
+Initiative: +7
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +32
+Senses: Darkvision 60 ft., Detect chaos/evil/good/law
+Subtype: Native
+Experience points: 51,200
+:::
 
-**Size:** large
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 28
+Touch: 13
+Flat-footed: 24
+AC modifiers: +3 Dex, +1 dodge, +15 natural, -1 size
+Hit points: 230 (20d10+120)
+Fort: +14
+Ref: +17
+Will: +19
+Immune: mind-affecting effects
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +32
+::: statblock
+Speed: 20 ft., fly 60 ft. (average)
+Constrict: 2d6+10
+Melee: bite +26 (2d6+10 plus [grab](ref/umr/grab) and poison)
+Reach: 10
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +15
+Constant: detect chaos, detect evil, detect good, detect law
+At will: alter self, detect thoughts (DC 18), ethereal jaunt, CL 18th, invisibility, plane shift (DC 23)
+Per year: wish, CL 20th
+:::
 
-**Subtype:** Native
+::: statblock
+title = "Spells Known"
+Caster level: 12
+Concentration: +18
+6th-level spells: 4/day: chain lightning (DC 22)
+5th-level spells: 6/day: breath of life, flame strike (DC 21)
+4th-level spells: 7/day: charm monster (DC 20), freedom of movement, lesser geas
+3rd-level spells: 7/day: gaseous form, hold person, magic circle against evil, summon monster III
+2nd-level spells: 8/day: cure moderate wounds, eagle's splendor, glitterdust (DC 18), scorching ray, silence (DC 18)
+1st-level spells: 8/day: endure elements, mage armor, obscuring mist, protection from chaos, true strike
+Cantrips: At will: dancing lights, daze, detect magic, disrupt undead, light, ray of frost, read magic, resistance, stabilize
+:::
 
-**Experience points:** 51,200
+### Statistics
 
-**Armor class:** 28
-
-**Touch:** 13
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 Dex, +1 dodge, +15 natural, -1 size
-
-**Hit points:** 230 (20d10+120)
-
-**Fort:** +14
-
-**Ref:** +17
-
-**Will:** +19
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (average)
-
-**Constrict:** 2d6+10
-
-**Melee:** bite +26 (2d6+10 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +15
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law
-
-**At will:**
-
-- alter self, detect thoughts (DC 18), ethereal jaunt, CL 18th, invisibility, plane shift (DC 23)
-
-**Per year:**
-
-- wish, CL 20th
-
-**Spells Known**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**6th-level spells:**
-
-- 4/day: chain lightning (DC 22)
-
-**5th-level spells:**
-
-- 6/day: breath of life, flame strike (DC 21)
-
-**4th-level spells:**
-
-- 7/day: charm monster (DC 20), freedom of movement, lesser geas
-
-**3rd-level spells:**
-
-- 7/day: gaseous form, hold person, magic circle against evil, summon monster III
-
-**2nd-level spells:**
-
-- 8/day: cure moderate wounds, eagle's splendor, glitterdust (DC 18), scorching ray, silence (DC 18)
-
-**1st-level spells:**
-
-- 8/day: endure elements, mage armor, obscuring mist, protection from chaos, true strike
-
-**Cantrips:**
-
-- At will: dancing lights, daze, detect magic, disrupt undead, light, ray of frost, read magic,
-  resistance, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 22, Int 19, Wis 20, Cha 23
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +28 (+32 grapple)
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Feats:** Alertness, Diehard, Dodge, Empower Spell, Eschew Materials, Flyby Attack, Great
-Fortitude, Improved Initiative, Improved Natural Attack (bite), Iron Will, Lightning Reflexes
-
-**Skills:** Acrobatics +26 (+22 when jumping), Bluff +19, Diplomacy +29, Fly +24, Knowledge (arcana)
-+14, Knowledge (planes) +17, Perception +32, Use Magic Device +26
-
-**Languages:** Celestial, Common, Draconic, Elven, Polyglot; [telepathy](ref/umr/telepathy) 100 ft.
+::: statblock
+Ability scores: Str 24, Dex 17, Con 22, Int 19, Wis 20, Cha 23
+Base attack bonus: +20
+Combat maneuver bonus: +28 (+32 grapple)
+Combat maneuver defense: 42 (can't be tripped)
+Feats: Alertness, Diehard, Dodge, Empower Spell, Eschew Materials, Flyby Attack, Great Fortitude, Improved Initiative, Improved Natural Attack (bite), Iron Will, Lightning Reflexes
+Skills: Acrobatics +26 (+22 when jumping), Bluff +19, Diplomacy +29, Fly +24, Knowledge (arcana) +14, Knowledge (planes) +17, Perception +32, Use Magic Device +26
+Languages: Celestial, Common, Draconic, Elven, Polyglot; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ### Special Abilities
 

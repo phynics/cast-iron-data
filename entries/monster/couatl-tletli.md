@@ -30,146 +30,88 @@ abilities = ["32", "19", "24", "17", "24", "23"]
 _This massive flying serpent's iridescent scales glimmer like opals, and white-hot flames dance
 along the feathers of its burning wings._
 
-**Challenge rating:** 14
-
-**Size:** huge
-
-**Initiative:** +8
-
-**Alignment:** Neutral good
-
-**Type:** outsider
-
-**Perception:** +30
-
-**Senses:** Darkvision 120 ft., Detect chaos/evil/good/law
-
-**Subtype:** Native
-
-**Experience points:** 38,400
-
-**Armor class:** 30
-
-**Touch:** 13
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +1 dodge, +17 natural, -2 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +12
-
-**Ref:** +16
-
-**Will:** +17
-
-**Immune:** fire
-
-**Resist:** acid 15, cold 15, electricity 15
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft., fly 120 ft. (poor)
-
-**Br Weap:** 50-ft. cone, 12d6 fire, Reflex DC 25 half, usable every 1d4 rounds
-
-**Burn:** 2d6 fire, DC 25
-
-**Constrict:** 2d8+11 plus burn
-
-**Melee:** bite +25 (2d8+11/19-20 plus [grab](ref/umr/grab) and poison), 2 wings +20 (1d8+5 plus
-burn and stoke flames)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law
-
-**At will:**
-
-- detect thoughts (DC 17), ethereal jaunt, invisibility, plane shift (DC 22)
-
-**Per day:**
-
-- 1/day: sunburst (DC 24)
-
-**Spells Known**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**6th-level spells:**
-
-- 4/day: holy word (DC 22)
-
-**5th-level spells:**
-
-- 6/day: dismissal (DC 21), flame strike
-
-**4th-level spells:**
-
-- 7/day: dispel evil (DC 20), holy smite, wall of fire
-
-**3rd-level spells:**
-
-- 7/day: daylight, dispel magic, fireball (DC 19), searing light (DC 19)
-
-**2nd-level spells:**
-
-- 8/day: castigate (DC 18), eagle's splendor, flaming sphere (DC 18), gust of wind (DC 18),
-  scorching ray
-
-**1st-level spells:**
-
-- 8/day: burning hands (DC 17), charm person (DC 17), comprehend languages, magic missile,
-  protection from evil
-
-**Cantrips:**
-
-- At will: dancing lights, daze (DC 16), detect magic, flare (DC 16), light, mage hand, message,
-  read magic, resistance
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 19, Con 24, Int 17, Wis 24, Cha 23
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +29 (+33 grapple)
-
-**Combat maneuver defense:** 44 (can't be tripped)
-
-**Feats:** Alertness, Dodge, Eschew Materials, Hover, Improved Critical (bite), Improved Initiative,
-Improved Vital Strike, Lightning Reflexes, Vital Strike
-
-**Skills:** Bluff +25, Fly +15, Intimidate +25, Knowledge (arcana) +22, Perception +30, Sense Motive
-+30, Spellcraft +19, Stealth +15
-
-**Languages:** Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** holy fire
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or revelation (3-6 plus 1-2 [angels](ref/family/angel) and 1
-[chicome couatl](ref/monster/couatl-chicome))
-
-**Treasure:** Standard
+::: statblock
+Challenge rating: 14
+Size: huge
+Initiative: +8
+Alignment: Neutral good
+Type: outsider
+Perception: +30
+Senses: Darkvision 120 ft., Detect chaos/evil/good/law
+Subtype: Native
+Experience points: 38,400
+:::
+
+### Defense
+
+::: statblock
+Armor class: 30
+Touch: 13
+Flat-footed: 25
+AC modifiers: +4 Dex, +1 dodge, +17 natural, -2 size
+Hit points: 200 (16d10+112)
+Fort: +12
+Ref: +16
+Will: +17
+Immune: fire
+Resist: acid 15, cold 15, electricity 15
+Sr: 25
+:::
+
+### Offense
+
+::: statblock
+Speed: 30 ft., fly 120 ft. (poor)
+Br Weap: 50-ft. cone, 12d6 fire, Reflex DC 25 half, usable every 1d4 rounds
+Burn: 2d6 fire, DC 25
+Constrict: 2d8+11 plus burn
+Melee: bite +25 (2d8+11/19-20 plus [grab](ref/umr/grab) and poison), 2 wings +20 (1d8+5 plus burn and stoke flames)
+Reach: 15
+Space: 15
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +18
+Constant: detect chaos, detect evil, detect good, detect law
+At will: detect thoughts (DC 17), ethereal jaunt, invisibility, plane shift (DC 22)
+Per day: 1/day: sunburst (DC 24)
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 12
+Concentration: +18
+6th-level spells: 4/day: holy word (DC 22)
+5th-level spells: 6/day: dismissal (DC 21), flame strike
+4th-level spells: 7/day: dispel evil (DC 20), holy smite, wall of fire
+3rd-level spells: 7/day: daylight, dispel magic, fireball (DC 19), searing light (DC 19)
+2nd-level spells: 8/day: castigate (DC 18), eagle's splendor, flaming sphere (DC 18), gust of wind (DC 18), scorching ray
+1st-level spells: 8/day: burning hands (DC 17), charm person (DC 17), comprehend languages, magic missile, protection from evil
+Cantrips: At will: dancing lights, daze (DC 16), detect magic, flare (DC 16), light, mage hand, message, read magic, resistance
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 32, Dex 19, Con 24, Int 17, Wis 24, Cha 23
+Base attack bonus: +16
+Combat maneuver bonus: +29 (+33 grapple)
+Combat maneuver defense: 44 (can't be tripped)
+Feats: Alertness, Dodge, Eschew Materials, Hover, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Vital Strike
+Skills: Bluff +25, Fly +15, Intimidate +25, Knowledge (arcana) +22, Perception +30, Sense Motive +30, Spellcraft +19, Stealth +15
+Languages: Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: holy fire
+:::
+
+### Ecology
+
+::: statblock
+Environment: any
+Organization: solitary, pair, or revelation (3-6 plus 1-2 [angels](ref/family/angel) and 1 [chicome couatl](ref/monster/couatl-chicome))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

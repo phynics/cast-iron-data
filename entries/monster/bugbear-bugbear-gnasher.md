@@ -33,53 +33,42 @@ abilities = ["22", "19", "18", "10", "9", "10"]
 _This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with
 the thrill of the coming kill._
 
-**Challenge rating:** 4
-
 **Bugbear [barbarian](ref/class/barbarian) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Size: medium
+Perception: +9
+Senses: Darkvision 60 ft., Scent
+Subtype: Goblinoid
+Experience points: 1,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 17
+AC modifiers: +6 armor, +4 Dex, +3 natural, -2 rage
+Hit points: 53 (3d8+2d12+22\~5)
+Fort: +9
+Ref: +8
+Will: +3
+Uncanny dodge: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +9
-
-**Senses:** Darkvision 60 ft., Scent
-
-**Subtype:** Goblinoid
-
-**Experience points:** 1,200
-
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 armor, +4 Dex, +3 natural, -2 rage
-
-**Hit points:** 53 (3d8+2d12+22\~5)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +3
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk falchion +11 (2d4+9/18-20), bite +5 (1d4+3)
-
-**Ranged:** javelin +8 (1d6+6)
-
-**Spec Att:** rage (8 rounds/day), rage powers ([animal fury](ref/ragepower/animal-fury))
+::: statblock
+Speed: 30 ft.
+Melee: mwk falchion +11 (2d4+9/18-20), bite +5 (1d4+3)
+Ranged: javelin +8 (1d6+6)
+Spec Att: rage (8 rounds/day), rage powers ([animal fury](ref/ragepower/animal-fury))
+:::
 
 ### Tactics
 
@@ -89,31 +78,26 @@ the thrill of the coming kill._
 hp 41; Fort +7, Will +1; Melee mwk falchion +10 (2d4+9/18-20); Str 18, Con 14; CMB +8; Skills
 Intimidate +15.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 22, Dex 19, Con 18, Int 10, Wis 9, Cha 10
+::: statblock
+Ability scores: Str 22, Dex 19, Con 18, Int 10, Wis 9, Cha 10
+Base attack bonus: +4
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Hurtful, Intimidating Prowess, Power Attack, Skill Focus (Perception)
+Skills: Intimidate +17, Perception +9
+Languages: Common, Goblin
+Special qualities: fast movement, stalker
+Combat gear: I-elixir of oppression
+Other gear: breastplate, 6 javelins, mwk falchion, Iclk1, 219 gp
+:::
 
-**Base attack bonus:** +4
+### Ecology
 
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Hurtful, Intimidating Prowess, Power Attack, Skill Focus (Perception)
-
-**Skills:** Intimidate +17, Perception +9
-
-**Languages:** Common, Goblin
-
-**Special qualities:** fast movement, stalker
-
-**Combat gear:** I-elixir of oppression
-
-**Other gear:** breastplate, 6 javelins, mwk falchion, Iclk1, 219 gp
-
-**Ecology**
-
-**Environment:** temperate mountains
+::: statblock
+Environment: temperate mountains
+:::
 
 ### Description
 

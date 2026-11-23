@@ -32,123 +32,66 @@ abilities = ["24", "22", "-", "39", "18", "31"]
 _This gray-skinned woman wears a royal gown that exposes the top of a jagged incision down the
 middle of her chest._
 
-**Challenge rating:** 26
-
-**Mythic rank:** 8
-
 **Female human lich [wizard](ref/class/wizard) 20/marshal 8**
 
-**aura:** fear (60 ft., DC 30)
+::: statblock
+Challenge rating: 26
+Mythic rank: 8
+aura: fear (60 ft., DC 30)
+Initiative: +18
+Size: medium
+Alignment: Neutral evil
+Perception: +40
+Senses: Darkvision 60 ft.
+Subtype: Human
+Type: undead
+Experience points: 2,457,600
+:::
 
-**Initiative:** +18
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 44
+Touch: 22
+Flat-footed: 38
+AC modifiers: +6 armor, +5 deflection, +6 Dex, +1 insight, +10 natural, +6 shield
+Hit points: 379 (20d6+307)
+Fort: +23
+Ref: +21
+Will: +25
+Chan Res: +4
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, hard to kill, mythic saving throws, rejuvenation
+Dr: 15/bludgeoning and magic
+Fortif: 50
+Immune: cold, electricity, [undead traits](ref/umr/undead-traits)
+Sr: 23
+Unstop: present
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +40
+::: statblock
+Speed: 30 ft., fly 40 ft. (average)
+M Power: 18/day, surge +1d10
+Melee: +5 [conductive](ref/magic-enh/conductive) [dancing](ref/magic-enh/dancing) [keen](ref/magic-enh/keen) rapier +23/+18 (1d6+12/15-20), touch +13 (1d8+10 plus paralyzing touch)
+Ranged: ray +16 (ranged touch)
+Spec Att: abundant casting, arcane metamastery (2 spell slots), archmage arcana (arcane surge), hand of the apprentice (17/day), inspire minions, marshal's order (advance), metamagic mastery (7/day), paralyzing touch (DC 30), surge of inspiration, words of valor
+:::
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Human
-
-**Type:** undead
-
-**Experience points:** 2,457,600
-
-**Armor class:** 44
-
-**Touch:** 22
-
-**Flat-footed:** 38
-
-**AC modifiers:** +6 armor, +5 deflection, +6 Dex, +1 insight, +10 natural, +6 shield
-
-**Hit points:** 379 (20d6+307)
-
-**Fort:** +23
-
-**Ref:** +21
-
-**Will:** +25
-
-**Chan Res:** +4
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, hard to kill,
-mythic saving throws, rejuvenation
-
-**Dr:** 15/bludgeoning and magic
-
-**Fortif:** 50
-
-**Immune:** cold, electricity, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 23
-
-**Unstop:** present
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (average)
-
-**M Power:** 18/day, surge +1d10
-
-**Melee:** +5 [conductive](ref/magic-enh/conductive) [dancing](ref/magic-enh/dancing)
-[keen](ref/magic-enh/keen) rapier +23/+18 (1d6+12/15-20), touch +13 (1d8+10 plus paralyzing touch)
-
-**Ranged:** ray +16 (ranged touch)
-
-**Spec Att:** abundant casting, arcane metamastery (2 spell slots), archmage arcana (arcane surge),
-hand of the apprentice (17/day), inspire minions, marshal's order (advance), metamagic mastery
-(7/day), paralyzing touch (DC 30), surge of inspiration, words of valor
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**Concentration:** +34
-
-**9th-level spells:**
-
-- gate, overwhelming presence (DC 36), power word kill^M^, 2, time stop^M^, wish
-
-**8th-level spells:**
-
-- quickened charm monster, mass fly, power word blind, spell turning, waves of ecstasy (DC 34)
-
-**6th-level spells:**
-
-- antimagic field^M^, circle of death (DC 31), disintegrate (DC 30), greater dispel magic, greater
-  heroism, mass eagle's splendor, mass suggestion (DC 33)
-
-**5th-level spells:**
-
-- dominate person (2, DC 32), feeblemind (DC 32), overland flight, already cast, quickened true
-  strike, 3
-
-**4th-level spells:**
-
-- detect scrying, already cast, dimension door, fear (DC 29), greater invisibility, phantasmal
-  killer (2, DC 29), terrible remorse (DC 31)
-
-**3rd-level spells:**
-
-- fireball^M^ (DC 27), fly, greater magic weapon, already cast, haste^M^, 2, heroism^M^, stinking
-  cloud (DC 27)
-
-**2nd-level spells:**
-
-- detect thoughts (DC 26), false life, already cast, mirror image, 2, resist energy, 2, see
-  invisibility, spectral hand
-
-**1st-level spells:**
-
-- disguise self, feather fall, mage armor^M^, ray of enfeeblement (DC 26), shield, true strike,
-  vanish, 2
-
-**Cantrips:**
-
-- detect magic, ghost sound (DC 25), mage hand, open/close
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+Concentration: +34
+9th-level spells: gate, overwhelming presence (DC 36), power word kill^M^, 2, time stop^M^, wish
+8th-level spells: quickened charm monster, mass fly, power word blind, spell turning, waves of ecstasy (DC 34)
+6th-level spells: antimagic field^M^, circle of death (DC 31), disintegrate (DC 30), greater dispel magic, greater heroism, mass eagle's splendor, mass suggestion (DC 33)
+5th-level spells: dominate person (2, DC 32), feeblemind (DC 32), overland flight, already cast, quickened true strike, 3
+4th-level spells: detect scrying, already cast, dimension door, fear (DC 29), greater invisibility, phantasmal killer (2, DC 29), terrible remorse (DC 31)
+3rd-level spells: fireball^M^ (DC 27), fly, greater magic weapon, already cast, haste^M^, 2, heroism^M^, stinking cloud (DC 27)
+2nd-level spells: detect thoughts (DC 26), false life, already cast, mirror image, 2, resist energy, 2, see invisibility, spectral hand
+1st-level spells: disguise self, feather fall, mage armor^M^, ray of enfeeblement (DC 26), shield, true strike, vanish, 2
+Cantrips: detect magic, ghost sound (DC 25), mage hand, open/close
+:::
 
 ###### M {#footnote-m}
 
@@ -161,43 +104,22 @@ mage armor (cast from her staff of the magi), and overland flight on herself, us
 metamastery path ability to gain the benefit of Extended Spell with each. The effects of these
 spells and the use of mythic power already expended are reflected in Arazni's statistics.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 24, Dex 22, Con -, Int 39, Wis 18, Cha 31
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 39
-
-**Feats:** Arcane Strike, Craft Wondrous Item, Dual Path, Empower Spell, Extend Spell, Greater Spell
-Focus (enchantment), Improved Initiative, Iron Will, Leadership, Lightning Reflexes, Mythic Spell
-Lore, Quicken Spell, Persistent Spell, Scribe Scroll, Spell Focus (enchantment), Spell Focus
-(necromancy), Spell Perfection (fireball), Toughness
-
-**Skills:** Appraise +18, Bluff +11, Craft (alchemy) +18, Diplomacy +31, Fly +19, Handle Animal +11,
-Sense Motive +17, Spellcraft +37, Stealth +35, Use Magic Device +31
-
-**Racial Modifiers:** +8 Perception, +8 Sense Motive, +8 Stealth
-
-**Languages:** Abyssal, Aklo, Ancient Osiriani, Aquan, Auran, Azlanti, Celestial, Common, Draconic,
-Dwarven, Elven, Giant, Gnoll, Gm, Goblin, Halfling, Ignan, Infernal, Kelish, Orc, Osiriani, Sylvan,
-Terran, Undercommon
-
-**Special qualities:** amazing initiative, arcane bond (rapier), divine source (Evil, Nobility
-\[Leadership subdomain\], Protection \[Defense subdomain\]), exceptional resources, permanent
-spells, recuperation
-
-**Combat gear:** Arazni's staff of the magi, Harlot's Kiss, rod of lesser maximize metamagic rod, 2
-[pearls of power](ref/magic-wondrous/pearl-of-power-3rd) (3rd level), scroll of greater scrying,
-scroll of teleport, scroll of tongues, Dinflict light wounds/50 charges
-
-**Other gear:** +5 AD MM buckler, Iamu5, Ibopm6sd, Iclk5, IOdusty rose prism, I-eyes of the eagle,
-Ihh, Ihbms6, IOpale green prism, ring of fom, ring of prot5, spellbook/includes all sorcerer/wizard
-spells, plus unique spells Arazni personally researched, diamond worth 25,000 gp
-
-**Faith:** arazni
+::: statblock
+Ability scores: Str 24, Dex 22, Con -, Int 39, Wis 18, Cha 31
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 39
+Feats: Arcane Strike, Craft Wondrous Item, Dual Path, Empower Spell, Extend Spell, Greater Spell Focus (enchantment), Improved Initiative, Iron Will, Leadership, Lightning Reflexes, Mythic Spell Lore, Quicken Spell, Persistent Spell, Scribe Scroll, Spell Focus (enchantment), Spell Focus (necromancy), Spell Perfection (fireball), Toughness
+Skills: Appraise +18, Bluff +11, Craft (alchemy) +18, Diplomacy +31, Fly +19, Handle Animal +11, Sense Motive +17, Spellcraft +37, Stealth +35, Use Magic Device +31
+Racial Modifiers: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages: Abyssal, Aklo, Ancient Osiriani, Aquan, Auran, Azlanti, Celestial, Common, Draconic, Dwarven, Elven, Giant, Gnoll, Gm, Goblin, Halfling, Ignan, Infernal, Kelish, Orc, Osiriani, Sylvan, Terran, Undercommon
+Special qualities: amazing initiative, arcane bond (rapier), divine source (Evil, Nobility \[Leadership subdomain\], Protection \[Defense subdomain\]), exceptional resources, permanent spells, recuperation
+Combat gear: Arazni's staff of the magi, Harlot's Kiss, rod of lesser maximize metamagic rod, 2 [pearls of power](ref/magic-wondrous/pearl-of-power-3rd) (3rd level), scroll of greater scrying, scroll of teleport, scroll of tongues, Dinflict light wounds/50 charges
+Other gear: +5 AD MM buckler, Iamu5, Ibopm6sd, Iclk5, IOdusty rose prism, I-eyes of the eagle, Ihh, Ihbms6, IOpale green prism, ring of fom, ring of prot5, spellbook/includes all sorcerer/wizard spells, plus unique spells Arazni personally researched, diamond worth 25,000 gp
+Faith: arazni
+:::
 
 ### Special Abilities
 

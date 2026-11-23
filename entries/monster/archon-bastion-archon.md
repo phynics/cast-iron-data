@@ -32,158 +32,94 @@ abilities = ["34", "23", "35", "22", "25", "20"]
 _This massive, four-armed figure is protected by thick layers of rocky armor. Its face is a
 shimmering, pulsating globe of holy light._
 
-**Challenge rating:** 20
-
-**aura:** aura of menace (DC 25), aura of mending (40 ft.)
-
-**Size:** huge
-
-**Initiative:** +6
-
-**Alignment:** Lawful good
-
-**Type:** outsider
-
-**Perception:** +30
-
-**Senses:** Darkvision 60 ft., Detect magic, Low-light vision, True seeing
-
-**Subtype:** Archon, Extraplanar, Good, Lawful
-
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 14
-
-**Flat-footed:** 30
-
-**AC modifiers:** +6 Dex, +22 natural, -2 size
-
-**Hit points:** 350 (20d10+240)
-
-**Fort:** +24
-
-**Ref:** +14
-
-**Will:** +19; +4 vs. poison
-
-**Defensive abilities:** all-around vision, entrench
-
-**Dr:** 15/bludgeoning and evil
-
-**Fh:** 5
-
-**Immune:** electricity, blindness, petrification
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 4 slams +30 (4d6+12/19-20)
-
-**Reach:** 15
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 15
-
-**Spec Att:** holy beam, rending beam, smite evil
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- air walk, detect evil, true seeing
-
-**At will:**
-
-- aid, daylight, greater teleport, self plus 50 lbs. of objects only, sending
-
-**Per day:**
-
-- 3/day: prismatic spray (DC 22), sunbeam (DC 22)
-- 1/day: meteor swarm (DC 24), polar ray (DC 23), sunburst (DC 23)
-
-**Prepared Spells**
-
-**Caster level:** 17
-
-**Concentration:** +24
-
-**9th-level spells:**
-
-- mass heal
-
-**8th-level spells:**
-
-- holy aura (DC 25), mass cure critical wounds
-
-**7th-level spells:**
-
-- greater restoration, holy word (DC 24), mass cure serious wounds, regenerate
-
-**6th-level spells:**
-
-- blade barrier (DC 23), greater dispel magic, heal, mass cure moderate wounds, 2
-
-**5th-level spells:**
-
-- break enchantment, breath of life, 2, flame strike (DC 22), wall of stone
-
-**4th-level spells:**
-
-- cure critical wounds, 3, death ward, divine power
-
-**3rd-level spells:**
-
-- cure serious wounds, 3, dispel magic, invisibility purge, searing light
-
-**2nd-level spells:**
-
-- cure moderate wounds, 4, shield other, status
-
-**1st-level spells:**
-
-- cure light wounds, 4, divine favor, sanctuary (DC 18)
-
-**Cantrips:**
-
-- guidance, mending, resistance, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 23, Con 35, Int 22, Wis 25, Cha 20
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 50
-
-**Feats:** Cleave, Combat Casting, Combat Expertise, Combat Reflexes, Critical Focus, Improved
-Critical (slam), Lightning Reflexes, Power Attack, Staggering Critical, Stand Still
-
-**Skills:** Diplomacy +25, Heal +27, Intimidate +28, Knowledge (arcana, engineering) +26, Knowledge
-(planes) +29, Perception +30
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** ultimate sacrifice
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Challenge rating: 20
+aura: aura of menace (DC 25), aura of mending (40 ft.)
+Size: huge
+Initiative: +6
+Alignment: Lawful good
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft., Detect magic, Low-light vision, True seeing
+Subtype: Archon, Extraplanar, Good, Lawful
+Experience points: 307,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 36
+Touch: 14
+Flat-footed: 30
+AC modifiers: +6 Dex, +22 natural, -2 size
+Hit points: 350 (20d10+240)
+Fort: +24
+Ref: +14
+Will: +19; +4 vs. poison
+Defensive abilities: all-around vision, entrench
+Dr: 15/bludgeoning and evil
+Fh: 5
+Immune: electricity, blindness, petrification
+Sr: 31
+:::
+
+### Offense
+
+::: statblock
+Speed: 40 ft.
+Melee: 4 slams +30 (4d6+12/19-20)
+Reach: 15
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 15
+Spec Att: holy beam, rending beam, smite evil
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: air walk, detect evil, true seeing
+At will: aid, daylight, greater teleport, self plus 50 lbs. of objects only, sending
+Per day: 3/day: prismatic spray (DC 22), sunbeam (DC 22)\
+1/day: meteor swarm (DC 24), polar ray (DC 23), sunburst (DC 23)
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 17
+Concentration: +24
+9th-level spells: mass heal
+8th-level spells: holy aura (DC 25), mass cure critical wounds
+7th-level spells: greater restoration, holy word (DC 24), mass cure serious wounds, regenerate
+6th-level spells: blade barrier (DC 23), greater dispel magic, heal, mass cure moderate wounds, 2
+5th-level spells: break enchantment, breath of life, 2, flame strike (DC 22), wall of stone
+4th-level spells: cure critical wounds, 3, death ward, divine power
+3rd-level spells: cure serious wounds, 3, dispel magic, invisibility purge, searing light
+2nd-level spells: cure moderate wounds, 4, shield other, status
+1st-level spells: cure light wounds, 4, divine favor, sanctuary (DC 18)
+Cantrips: guidance, mending, resistance, stabilize
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 34, Dex 23, Con 35, Int 22, Wis 25, Cha 20
+Base attack bonus: +20
+Combat maneuver bonus: +34
+Combat maneuver defense: 50
+Feats: Cleave, Combat Casting, Combat Expertise, Combat Reflexes, Critical Focus, Improved Critical (slam), Lightning Reflexes, Power Attack, Staggering Critical, Stand Still
+Skills: Diplomacy +25, Heal +27, Intimidate +28, Knowledge (arcana, engineering) +26, Knowledge (planes) +29, Perception +30
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: ultimate sacrifice
+:::
+
+### Ecology
+
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

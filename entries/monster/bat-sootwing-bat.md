@@ -29,79 +29,62 @@ abilities = ["5", "12", "-", "2", "13", "8"]
 
 _This bat-like creature has jagged points at the tips of its wings and a long, lashing tongue._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+blindsense: 20
+Alignment: Chaotic evil
+Initiative: +1
+Perception: +5
+Size: tiny
+Type: undead
+Experience points: 200
+:::
 
-**blindsense:** 20
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 13
+AC modifiers: +1 Dex, +1 natural, +2 size
+Hit points: 7 (2d8-2)
+Fort: -1
+Ref: +1
+Will: +4
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +1
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 5 ft., fly 40 ft. (good)
+Melee: bite +4 (1d3-3 plus disease and paralysis)
+Paralysis: 1d4+1 rounds, DC 10, elves are immune to this effect
+Reach: 0
+Space: 2-1/2
+Spec Att: disease (DC 10)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 5, Dex 12, Con -, Int 2, Wis 13, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 7
+Feats: Weapon Finesse
+Skills: Fly +9, Perception +5 (+9 when using [blindsense](ref/rule/blindsight-and-blindsense))
+Racial Modifiers: +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +1 natural, +2 size
-
-**Hit points:** 7 (2d8-2)
-
-**Fort:** -1
-
-**Ref:** +1
-
-**Will:** +4
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 5 ft., fly 40 ft. (good)
-
-**Melee:** bite +4 (1d3-3 plus disease and paralysis)
-
-**Paralysis:** 1d4+1 rounds, DC 10, elves are immune to this effect
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** disease (DC 10)
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 12, Con -, Int 2, Wis 13, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 7
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +9, Perception +5 (+9 when using [blindsense](ref/rule/blindsight-and-blindsense))
-
-**Racial Modifiers:** +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or colony (4-12)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or colony (4-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

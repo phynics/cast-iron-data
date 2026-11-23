@@ -33,149 +33,89 @@ abilities = ["32", "28", "27", "25", "21", "24"]
 
 _This monstrous eel-like creature has jaws within jaws, each bearing transparent, glass-like teeth._
 
-**Challenge rating:** 18
-
-**Type:** aberration
-
-**Size:** gargantuan
-
-**Initiative:** +13
-
-**Alignment:** Lawful evil
-
-**Perception:** +30
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Aquatic
-
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 15
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 armor, +9 Dex, +14 natural, -4 size
-
-**Hit points:** 300 (24d8+192)
-
-**Fort:** +18
-
-**Ref:** +19
-
-**Will:** +19
-
-**Fh:** 10
-
-**Immune:** electricity, mind-affecting effects
-
-**Resist:** cold 20
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 15 ft., swim 100 ft.
-
-**Melee:** triple-jawed bite +26 (3d6+11 plus slime/19-20), tail slap +23 (3d6+5 plus slime)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** mucus cloud, slime, thought barrage
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- mage armor, tongues
-
-**At will:**
-
-- detect magic, detect thoughts (DC 19), dominate person (DC 22)
-
-**Per day:**
-
-- 3/day: arcane eye, dominate monster (DC 26), geas/quest (DC 23), mind fog (DC 22), mirage arcana
-  (DC 22)
-- 1/day: astral projection, veil (DC 23)
-
-**Spells Known**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**7th-level spells:**
-
-- 5/day: ectoplasmic eruption (DC 24), psychic crush III (DC 24)
-
-**6th-level spells:**
-
-- 7/day: incorporeal chains, mind thrust VI (DC 23), primal regression (DC 23)
-
-**5th-level spells:**
-
-- 7/day: etheric shards (DC 22), explode head (DC 22), mind swap (DC 22), possession (DC 22)
-
-**4th-level spells:**
-
-- 7/day: condensed ether, mindwipe (DC 21), riding possession (DC 21), stoneskin
-
-**3rd-level spells:**
-
-- 8/day: babble (DC 20), catatonia, displacement, synesthesia (DC 20)
-
-**2nd-level spells:**
-
-- 8/day: aversion (DC 19), invisibility, paranoia (DC 19), resist energy, touch of idiocy
-
-**1st-level spells:**
-
-- 8/day: deja vu, psychic reading, shield, thought echo, true strike
-
-**Cantrips:**
-
-- At will: arcane mark, bleed (DC 17), detect magic, grave words, mage hand, open/close,
-  prestidigitation, read magic, telekinetic projectile
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 28, Con 27, Int 25, Wis 21, Cha 24
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 52
-
-**Feats:** Combat Casting, Combat Reflexes, Great Fortitude, Improved Critical (bite), Improved
-Initiative, Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (bite), Hidden Presence,
-Intrusive Presence, Manipulative Presence
-
-**Skills:** Bluff +25, Diplomacy +23, Disguise +25, Sense Motive +24, Spellcraft +35, Stealth +24,
-Swim +28, Use Magic Device +30
-
-**Languages:** Aboleth, Aklo, Aquan, Azlanti, Common, Undercommon; [telepathy](ref/umr/telepathy)
-300 ft., _[tongues](ref/spell/tongues)_
-
-**Special qualities:** servant of the mesh, telepathic mesh, vast knowledge
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or mesh (1 plus 2-48 [aboleths](ref/monster/alghollthu-aboleth),
-[veiled masters](ref/monster/alghollthu-veiled-master), and other dominated creatures)
-
-**Treasure:** Double
+::: statblock
+Challenge rating: 18
+Type: aberration
+Size: gargantuan
+Initiative: +13
+Alignment: Lawful evil
+Perception: +30
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 153,600
+:::
+
+### Defense
+
+::: statblock
+Armor class: 33
+Touch: 15
+Flat-footed: 24
+AC modifiers: +4 armor, +9 Dex, +14 natural, -4 size
+Hit points: 300 (24d8+192)
+Fort: +18
+Ref: +19
+Will: +19
+Fh: 10
+Immune: electricity, mind-affecting effects
+Resist: cold 20
+Sr: 29
+:::
+
+### Offense
+
+::: statblock
+Speed: 15 ft., swim 100 ft.
+Melee: triple-jawed bite +26 (3d6+11 plus slime/19-20), tail slap +23 (3d6+5 plus slime)
+Reach: 20
+Space: 20
+Spec Att: mucus cloud, slime, thought barrage
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: mage armor, tongues
+At will: detect magic, detect thoughts (DC 19), dominate person (DC 22)
+Per day: 3/day: arcane eye, dominate monster (DC 26), geas/quest (DC 23), mind fog (DC 22), mirage arcana (DC 22)\
+1/day: astral projection, veil (DC 23)
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 15
+Concentration: +22
+7th-level spells: 5/day: ectoplasmic eruption (DC 24), psychic crush III (DC 24)
+6th-level spells: 7/day: incorporeal chains, mind thrust VI (DC 23), primal regression (DC 23)
+5th-level spells: 7/day: etheric shards (DC 22), explode head (DC 22), mind swap (DC 22), possession (DC 22)
+4th-level spells: 7/day: condensed ether, mindwipe (DC 21), riding possession (DC 21), stoneskin
+3rd-level spells: 8/day: babble (DC 20), catatonia, displacement, synesthesia (DC 20)
+2nd-level spells: 8/day: aversion (DC 19), invisibility, paranoia (DC 19), resist energy, touch of idiocy
+1st-level spells: 8/day: deja vu, psychic reading, shield, thought echo, true strike
+Cantrips: At will: arcane mark, bleed (DC 17), detect magic, grave words, mage hand, open/close, prestidigitation, read magic, telekinetic projectile
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 32, Dex 28, Con 27, Int 25, Wis 21, Cha 24
+Base attack bonus: +18
+Combat maneuver bonus: +33
+Combat maneuver defense: 52
+Feats: Combat Casting, Combat Reflexes, Great Fortitude, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (bite), Hidden Presence, Intrusive Presence, Manipulative Presence
+Skills: Bluff +25, Diplomacy +23, Disguise +25, Sense Motive +24, Spellcraft +35, Stealth +24, Swim +28, Use Magic Device +30
+Languages: Aboleth, Aklo, Aquan, Azlanti, Common, Undercommon; [telepathy](ref/umr/telepathy) 300 ft., _[tongues](ref/spell/tongues)_
+Special qualities: servant of the mesh, telepathic mesh, vast knowledge
+:::
+
+### Ecology
+
+::: statblock
+Environment: any water
+Organization: solitary or mesh (1 plus 2-48 [aboleths](ref/monster/alghollthu-aboleth), [veiled masters](ref/monster/alghollthu-veiled-master), and other dominated creatures)
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -31,107 +31,74 @@ abilities = ["30", "19", "20", "16", "25", "21"]
 _This massive humanoid figure has no mouth, and carries a burning sword that matches its flaming
 wings._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: huge
+Initiative: +8
+Alignment: Lawful good
+Type: outsider
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Archon, Extraplanar, Good, Lawful
+Experience points: 19,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 29
+Touch: 12
+Flat-footed: 25
+AC modifiers: +4 Dex, +17 natural, -2 size; +2 deflection vs. evil
+Hit points: 147 (14d10+70)
+Fort: +16
+Ref: +10
+Will: +16; +4 vs. poison
+Dr: 10/evil
+Immune: acid, cold, fire, electricity, petrification
+Sr: 23
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 90 ft. (good)
+Melee: +3 flaming longsword +25/+20/+15 (3d6+15/19-20 plus 1d6 fire)
+Reach: 15
+Space: 15
+Spec Att: censor text
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+Constant: detect evil, true seeing
+At will: cure light wounds, detect thoughts (DC 17), discern lies (DC 19), hold monster (DC 20), holy smite (DC 19), invisibility, self only, locate creature, locate object, modify memory (DC 19), protection from evil (DC 16), repress memory (DC 21), stabilize, zone of truth (DC 17)
+Per day: 3/day: dispel evil (DC 20), fireball (DC 18), flame strike (DC 20), plane shift (DC 20)\
+1/day: discern location (DC 23), find the path (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+::: statblock
+Ability scores: Str 30, Dex 19, Con 20, Int 16, Wis 25, Cha 21
+Base attack bonus: +14
+Combat maneuver bonus: +26
+Combat maneuver defense: 40
+Feats: Alertness, Cleave, Combat Reflexes, Great Fortitude, Improved Initiative, Lightning Reflexes, Power Attack
+Skills: Intimidate +22, Knowledge (arcana, history, planes, religion) +20, Linguistics +10, Perception +28, Sense Motive +28, Spellcraft +10
+Languages: Abyssal, Aklo, Celestial, Common, Draconic, Dwarven, Elven, Gm, Infernal; [telepathy](ref/umr/telepathy) 100 ft., _truespeech_
+Special qualities: change size, [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 12
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +17 natural, -2 size; +2 deflection vs. evil
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +16
-
-**Ref:** +10
-
-**Will:** +16; +4 vs. poison
-
-**Dr:** 10/evil
-
-**Immune:** acid, cold, fire, electricity, petrification
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft., fly 90 ft. (good)
-
-**Melee:** +3 flaming longsword +25/+20/+15 (3d6+15/19-20 plus 1d6 fire)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** censor text
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Constant:**
-
-- detect evil, true seeing
-
-**At will:**
-
-- cure light wounds, detect thoughts (DC 17), discern lies (DC 19), hold monster (DC 20), holy smite
-  (DC 19), invisibility, self only, locate creature, locate object, modify memory (DC 19),
-  protection from evil (DC 16), repress memory (DC 21), stabilize, zone of truth (DC 17)
-
-**Per day:**
-
-- 3/day: dispel evil (DC 20), fireball (DC 18), flame strike (DC 20), plane shift (DC 20)
-- 1/day: discern location (DC 23), find the path (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 19, Con 20, Int 16, Wis 25, Cha 21
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 40
-
-**Feats:** Alertness, Cleave, Combat Reflexes, Great Fortitude, Improved Initiative, Lightning
-Reflexes, Power Attack
-
-**Skills:** Intimidate +22, Knowledge (arcana, history, planes, religion) +20, Linguistics +10,
-Perception +28, Sense Motive +28, Spellcraft +10
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Draconic, Dwarven, Elven, Gm, Infernal;
-[telepathy](ref/umr/telepathy) 100 ft., _truespeech_
-
-**Special qualities:** change size, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or inquisition (3-6)
-
-**Treasure:** Standard (+3 flaming longsword); other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or inquisition (3-6)
+Treasure: Standard (+3 flaming longsword); other treasure
+:::
 
 ### Special Abilities
 

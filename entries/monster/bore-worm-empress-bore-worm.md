@@ -31,77 +31,61 @@ abilities = ["32", "6", "20", "-", "11", "5"]
 _Reddish pus oozes from the stained, ochre hide of this immense worm. Thousands of forms wriggle
 beneath its translucent skin, causing the skin to ripple in a roiling, sickening motion._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Initiative: -2
+Alignment: Neutral
+Perception: +0
+tremorsense: 60
+Type: vermin
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 24
+Touch: 6
+Flat-footed: 24
+AC modifiers: -2 Dex, +18 natural, -2 size
+Hit points: 142 (15d8+75)
+Fort: +14
+Ref: +3
+Will: +5
+Defensive abilities: viviparous birth
+Dr: 15/piercing
+Immune: acid, mind-affecting effects
+Weaknesses: vulnerable to water
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., burrow 40 ft.
+Melee: bite +20 (3d6+16 plus 4d6 acid and painful bite)
+Reach: 15
+Space: 15
+Spec Att: painful bite (DC 22)
+:::
 
-**tremorsense:** 60
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 32, Dex 6, Con 20, Int -, Wis 11, Cha 5
+Base attack bonus: +11
+Combat maneuver bonus: +24
+Combat maneuver defense: 32 (can't be tripped)
+Special qualities: [compression](ref/umr/compression), corrosive wake
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 6
-
-**Flat-footed:** 24
-
-**AC modifiers:** -2 Dex, +18 natural, -2 size
-
-**Hit points:** 142 (15d8+75)
-
-**Fort:** +14
-
-**Ref:** +3
-
-**Will:** +5
-
-**Defensive abilities:** viviparous birth
-
-**Dr:** 15/piercing
-
-**Immune:** acid, mind-affecting effects
-
-**Weaknesses:** vulnerable to water
-
-**Offense**
-
-**Speed:** 30 ft., burrow 40 ft.
-
-**Melee:** bite +20 (3d6+16 plus 4d6 acid and painful bite)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** painful bite (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 6, Con 20, Int -, Wis 11, Cha 5
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Special qualities:** [compression](ref/umr/compression), corrosive wake
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

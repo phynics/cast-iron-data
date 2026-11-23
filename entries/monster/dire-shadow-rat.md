@@ -31,75 +31,62 @@ abilities = ["10", "17", "-", "2", "12", "13"]
 _This creature appears as a rat with rotting flesh, torn and matted fur, and reddish blazing eyes.
 Its semi-translucent skin shows discolored bones and muscles._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +3
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Scent
+Size: small
+Type: undead
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 11 (2d8+2)
+Fort: +1
+Ref: +3
+Will: +4
+Defensive abilities: incorporeal form, shadow blend
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +8
+### Offense
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +5 (1d4 plus 1d3 [Strength damage](ref/rule/ability-damage-drain) and disease)
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +4
-
-**Defensive abilities:** incorporeal form, shadow blend
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +5 (1d4 plus 1d3 [Strength damage](ref/rule/ability-damage-drain) and disease)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con -, Int 2, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 13 (17 vs. trip)
-
-**Feats:** Skill Focus (Perception), Weapon Finesse^B^
-
-**Skills:** Climb +11, Perception +8, Stealth +15
-
-**Racial Modifiers:** +4 Stealth; uses Dex to modify Climb
+::: statblock
+Ability scores: Str 10, Dex 17, Con -, Int 2, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 13 (17 vs. trip)
+Feats: Skill Focus (Perception), Weapon Finesse^B^
+Skills: Climb +11, Perception +8, Stealth +15
+Racial Modifiers: +4 Stealth; uses Dex to modify Climb
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** underground
-
-**Organization:** solitary or pack (6-11)
-
-**Treasure:** None
+::: statblock
+Environment: underground
+Organization: solitary or pack (6-11)
+Treasure: None
+:::
 
 ### Special Abilities
 

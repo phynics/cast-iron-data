@@ -28,122 +28,83 @@ special_qualities = "water breathing"
 abilities = ["30", "11", "19", "19", "16", "17"]
 +++
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 20)
+Type: dragon
+Initiative: +4
+Size: large
+Alignment: Lawful neutral
+Perception: +20
+Senses: Dragon senses
+Subtype: Extraplanar, Water
+Experience points: 12,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 20)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 27
+Touch: 9
+Flat-footed: 27
+AC modifiers: +18 natural, -1 size
+Hit points: 147 (14d12+56)
+Fort: +13
+Ref: +11
+Will: +12
+Dr: 5/magic
+Immune: acid, paralysis, sleep
+Sr: 22
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft., swim 60 ft., fly 200 ft. (poor)
+Br Weap: 80-ft. line, 12d6 acid, DC 21
+Melee: bite +23 (2d6+15), 2 claws +23 (1d8+10), tail slap +18 (1d8+15), 2 wings +18 (1d6+5)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+:::
 
-**Alignment:** Lawful neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +17
+At will: control water, obscuring mist, speak with animals, fish only, water breathing
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +10
+3rd-level spells: 5/day: aqueous orb (DC 16), sleet storm (DC 16)
+2nd-level spells: 7/day: alter self, invisibility, slipstream
+1st-level spells: 7/day: color spray (DC 14), feather fall, flare burst (DC 14), ray of enfeeblement (DC 14), touch of the sea
+Cantrips: At will: detect magic, detect poison, mage hand, open/close, prestidigitation, read magic, resistance
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Subtype:** Extraplanar, Water
+::: statblock
+Ability scores: Str 30, Dex 11, Con 19, Int 19, Wis 16, Cha 17
+Base attack bonus: +14
+Combat maneuver bonus: +25
+Combat maneuver defense: 35 (39 vs. trip)
+Feats: Hover, Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Skill Focus (swim), Vital Strike
+Skills: Bluff +20, Diplomacy +20, Fly +11, Heal +20
+Languages: Aquan, Common, Draconic, Elven, Halfling
+Special qualities: water breathing
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 9
-
-**Flat-footed:** 27
-
-**AC modifiers:** +18 natural, -1 size
-
-**Hit points:** 147 (14d12+56)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +12
-
-**Dr:** 5/magic
-
-**Immune:** acid, paralysis, sleep
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 60 ft., swim 60 ft., fly 200 ft. (poor)
-
-**Br Weap:** 80-ft. line, 12d6 acid, DC 21
-
-**Melee:** bite +23 (2d6+15), 2 claws +23 (1d8+10), tail slap +18 (1d8+15), 2 wings +18 (1d6+5)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +17
-
-**At will:**
-
-- control water, obscuring mist, speak with animals, fish only, water breathing
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**3rd-level spells:**
-
-- 5/day: aqueous orb (DC 16), sleet storm (DC 16)
-
-**2nd-level spells:**
-
-- 7/day: alter self, invisibility, slipstream
-
-**1st-level spells:**
-
-- 7/day: color spray (DC 14), feather fall, flare burst (DC 14), ray of enfeeblement (DC 14), touch
-  of the sea
-
-**Cantrips:**
-
-- At will: detect magic, detect poison, mage hand, open/close, prestidigitation, read magic,
-  resistance
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 11, Con 19, Int 19, Wis 16, Cha 17
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 35 (39 vs. trip)
-
-**Feats:** Hover, Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack,
-Skill Focus (swim), Vital Strike
-
-**Skills:** Bluff +20, Diplomacy +20, Fly +11, Heal +20
-
-**Languages:** Aquan, Common, Draconic, Elven, Halfling
-
-**Special qualities:** water breathing
-
-**Ecology**
-
-**Environment:** any aquatic ([Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any aquatic ([Plane of Water](ref/rule/plane-of-water))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

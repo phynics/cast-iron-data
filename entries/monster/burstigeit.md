@@ -30,91 +30,70 @@ _This four-legged creature has the tusked jaw, broad shoulders, and bristled bac
 large eyes with cross-shaped irises. A pair of short, bony protrusions mark its forehead, as though
 its horns had broken off in battle._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +6
+Will: +2; +2 vs. poison, spells, and [spell-like abilities](ref/umr/spell-like-abilities)
+Defensive abilities: hardy
+Ferocity: present
+Resist: cold 5, fire 5
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: gore +7 (1d8+6)
+Pow Ch: gore, 2d8+6
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +2
+Per day: 1/day: ant haul, self only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 18, Dex 15, Con 15, Int 2, Wis 13, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (25 vs. trip)
+Feats: Acrobatic Steps, Nimble Moves
+Skills: Climb +12, Perception +8
+Racial Modifiers: +4 Survival to find food
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +2; +2 vs. poison, spells, and [spell-like abilities](ref/umr/spell-like-abilities)
-
-**Defensive abilities:** hardy
-
-**Ferocity:** present
-
-**Resist:** cold 5, fire 5
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** gore +7 (1d8+6)
-
-**Pow Ch:** gore, 2d8+6
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +2
-
-**Per day:**
-
-- 1/day: ant haul, self only
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 15, Int 2, Wis 13, Cha 8
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Feats:** Acrobatic Steps, Nimble Moves
-
-**Skills:** Climb +12, Perception +8
-
-**Racial Modifiers:** +4 Survival to find food
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or herd (3-18)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or herd (3-18)
+Treasure: None
+:::
 
 ### Special Abilities
 

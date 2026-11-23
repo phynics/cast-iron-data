@@ -30,73 +30,59 @@ abilities = ["25", "18", "20", "19", "17", "16"]
 _This monstrous creature appears to be an enormous spider with a human-like head. Sickly blisters
 holding squirming young cover the creature's abdomen._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+Initiative: +8
+Size: large
+Alignment: Neutral evil
+Perception: +22
+Senses: Darkvision 60 ft.
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 17
+AC modifiers: +4 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 114 (12d8+60)
+Fort: +9
+Ref: +8
+Will: +11
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +15 (1d10+10 plus poison and siphon knowledge)
+Reach: 5
+Space: 10
+Spec Att: release brood
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 25, Dex 18, Con 20, Int 19, Wis 17, Cha 16
+Base attack bonus: +9
+Combat maneuver bonus: +17
+Combat maneuver defense: 32
+Feats: Alertness, Combat Expertise, Dodge, Improved Feint, Improved Initiative, Mobility
+Skills: Bluff +12, Climb +15, Diplomacy +12, Sense Motive +19, Stealth +15
+Languages: Aklo, Common, Undercommon; broodspeak
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +11
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +15 (1d10+10 plus poison and siphon knowledge)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** release brood
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 18, Con 20, Int 19, Wis 17, Cha 16
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 32
-
-**Feats:** Alertness, Combat Expertise, Dodge, Improved Feint, Improved Initiative, Mobility
-
-**Skills:** Bluff +12, Climb +15, Diplomacy +12, Sense Motive +19, Stealth +15
-
-**Languages:** Aklo, Common, Undercommon; broodspeak
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

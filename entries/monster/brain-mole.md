@@ -30,87 +30,68 @@ abilities = ["4", "14", "13", "2", "15", "11"]
 _This hairless, wrinkly rodent is blue-black in color. Its teeth protrude at all angles from its
 circular mouth._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision, Scent, Second sight 60 ft.
+Size: tiny
+tremorsense: 15
+Experience points: 400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +5
+Will: +2
+Defensive abilities: shrouded mind
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Melee: bite +6 (1d3-3 plus attach)
+Reach: 0
+Space: 2-1/2
+Spec Att: brain drain
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, Second sight 60 ft.
+::: statblock
+title = "Psychic Magic"
+Caster level: 2
+Concentration: +2
+Power points: 12
+Psychoactive powers: expeditious retreat, 1 PE, mind thrust I, 1 PE, DC 11, silent image, 1 PE, DC 11
+:::
 
-**Size:** tiny
+### Statistics
 
-**tremorsense:** 15
+::: statblock
+Ability scores: Str 4, Dex 14, Con 13, Int 2, Wis 15, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +2 (+10 grapple)
+Combat maneuver defense: 9 (17 vs. grapple, 13 vs. trip)
+Feats: Skill Focus (Stealth), Weapon Finesse
+Skills: Stealth +18
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Defensive abilities:** shrouded mind
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Melee:** bite +6 (1d3-3 plus attach)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** brain drain
-
-**Psychic Magic**
-
-**Caster level:** 2
-
-**Concentration:** +2
-
-**Power points:** 12
-
-**Psychoactive powers:**
-
-- expeditious retreat, 1 PE, mind thrust I, 1 PE, DC 11, silent image, 1 PE, DC 11
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 14, Con 13, Int 2, Wis 15, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2 (+10 grapple)
-
-**Combat maneuver defense:** 9 (17 vs. grapple, 13 vs. trip)
-
-**Feats:** Skill Focus (Stealth), Weapon Finesse
-
-**Skills:** Stealth +18
-
-**Ecology**
-
-**Environment:** temperate forests, hills, or plains
-
-**Organization:** solitary, pair, or nest (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests, hills, or plains
+Organization: solitary, pair, or nest (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

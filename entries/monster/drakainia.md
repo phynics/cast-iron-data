@@ -33,118 +33,80 @@ tumors and writing tentacles._
 
 **Mythic Drakainia**
 
-**Challenge rating:** 25
+::: statblock
+Challenge rating: 25
+Mythic rank: 10
+Type: aberration
+aura: gestation (30 ft.)
+Size: huge
+Initiative: +9
+Lifesense: present
+Alignment: Neutral evil
+Perception: +39
+Senses: Darkvision 120 ft., True seeing
+Subtype: Mythic
+Experience points: 1,638,400
+:::
 
-**Mythic rank:** 10
+### Defense
 
-**Type:** aberration
+::: statblock
+Armor class: 48
+Touch: 13
+Flat-footed: 43
+AC modifiers: +5 Dex, +35 natural, -2 size
+Hit points: 642 (25d8+530)
+Fort: +28
+Ref: +15
+Will: +21
+Dr: 10/epic
+Immune: bleed, disease, poison, polymorph effects
+Regen: 10 (negative energy)
+Sr: 36
+:::
 
-**aura:** gestation (30 ft.)
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 50 ft., climb 30 ft., swim 30 ft.
+M Power: 10/day, surge +1d12
+Melee: 2 claws +31 (4d8+14/16-20/×4), gore +28 (4d6+7), 4 tentacles +29 (2d6+7)
+Reach: 15
+Reach P: 20 ft. with claws
+Space: 15
+Spec Att: impregnate surrogate, razor claws, well of life
+:::
 
-**Initiative:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +35
+Constant: freedom of movement, true seeing
+At will: dimension door
+Per day: 3/day: antilife shell, break enchantment, contagion (DC 28), quickened cure serious wounds, dimension door\
+1/day: antimagic field, destruction (DC 32), regenerate
+:::
 
-**Lifesense:** present
+### Statistics
 
-**Alignment:** Neutral evil
+::: statblock
+Ability scores: Str 38, Dex 20, Con 46, Int 29, Wis 21, Cha 41
+Base attack bonus: +18
+Combat maneuver bonus: +34
+Combat maneuver defense: 49 (can't be tripped)
+Feats: Combat Casting, Mythic Combat Reflexes, Mythic Great Fortitude, Improved Initiative, Mythic Iron Will, Mythic Lightning Reflexes, Multiattack, Quick Channel, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (cure serious wounds), Selective Channeling, Skill Focus (Perception), Weapon Focus (claw), Weapon Focus (tentacle)
+Skills: Bluff +40, Climb +45, Diplomacy +40, Heal +30, Use Magic Device +40
+Languages: Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Ignan, Infernal, Terran
+Special qualities: birth spawn, invert birth, polymorphism, transfer suffering
+:::
 
-**Perception:** +39
+### Ecology
 
-**Senses:** Darkvision 120 ft., True seeing
-
-**Subtype:** Mythic
-
-**Experience points:** 1,638,400
-
-**Armor class:** 48
-
-**Touch:** 13
-
-**Flat-footed:** 43
-
-**AC modifiers:** +5 Dex, +35 natural, -2 size
-
-**Hit points:** 642 (25d8+530)
-
-**Fort:** +28
-
-**Ref:** +15
-
-**Will:** +21
-
-**Dr:** 10/epic
-
-**Immune:** bleed, disease, poison, polymorph effects
-
-**Regen:** 10 (negative energy)
-
-**Sr:** 36
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft., swim 30 ft.
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 2 claws +31 (4d8+14/16-20/×4), gore +28 (4d6+7), 4 tentacles +29 (2d6+7)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with claws
-
-**Space:** 15
-
-**Spec Att:** impregnate surrogate, razor claws, well of life
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +35
-
-**Constant:**
-
-- freedom of movement, true seeing
-
-**At will:**
-
-- dimension door
-
-**Per day:**
-
-- 3/day: antilife shell, break enchantment, contagion (DC 28), quickened cure serious wounds,
-  dimension door
-- 1/day: antimagic field, destruction (DC 32), regenerate
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 20, Con 46, Int 29, Wis 21, Cha 41
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 49 (can't be tripped)
-
-**Feats:** Combat Casting, Mythic Combat Reflexes, Mythic Great Fortitude, Improved Initiative,
-Mythic Iron Will, Mythic Lightning Reflexes, Multiattack, Quick Channel, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (cure serious wounds), Selective Channeling,
-Skill Focus (Perception), Weapon Focus (claw), Weapon Focus (tentacle)
-
-**Skills:** Bluff +40, Climb +45, Diplomacy +40, Heal +30, Use Magic Device +40
-
-**Languages:** Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Ignan, Infernal, Terran
-
-**Special qualities:** birth spawn, invert birth, polymorphism, transfer suffering
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

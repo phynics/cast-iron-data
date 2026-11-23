@@ -33,77 +33,61 @@ abilities = ["21", "17", "17", "6", "12", "12"]
 _This creature has the features of a lion but the wings and scales of a brass dragon, and a wild
 mane matching its scales._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +7
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +8 natural, -1 size
+Hit points: 76 (9d10+27)
+Fort: +9
+Ref: +9
+Will: +4
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 30 ft. (poor)
+Melee: bite +13 (1d8+5), 2 claws +13 (1d6+5)
+Pounce: present
+Reach: 10
+Space: 10
+Spec Att: roar
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 21, Dex 17, Con 17, Int 6, Wis 12, Cha 12
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Blind-Fight, Combat Reflexes, Flyby Attack, Improved Initiative, Power Attack
+Skills: Fly +5, Perception +12
+Racial Modifiers: +4 Perception
+Languages: Draconic
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +8 natural, -1 size
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft., fly 30 ft. (poor)
-
-**Melee:** bite +13 (1d8+5), 2 claws +13 (1d6+5)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** roar
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con 17, Int 6, Wis 12, Cha 12
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Blind-Fight, Combat Reflexes, Flyby Attack, Improved Initiative, Power Attack
-
-**Skills:** Fly +5, Perception +12
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** temperate deserts
-
-**Organization:** solitary, pair, or pride (5-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate deserts
+Organization: solitary, pair, or pride (5-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,77 +31,61 @@ abilities = ["5", "16", "-", "-", "13", "19"]
 _This mass of floating skulls lingers in the air with a haunting presence. A constant clattering
 emanates from the dreadful mass._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +3
+Alignment: Neutral evil
+Perception: +1
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Size: tiny
+Type: undead
+Experience points: 9,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 22
+Touch: 15
+Flat-footed: 19
+AC modifiers: +3 Dex, +7 natural, +2 size
+Hit points: 127 (15d8+60)
+Fort: +9
+Ref: +8
+Will: +10
+Defensive abilities: swarm traits
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: fly 40 ft. (perfect)
+Distraction: 21
+Melee: swarm (3d6 plus distraction)
+Reach: 0
+Space: 10
+Spec Att: bone shards, chattering teeth, frightening scream
+:::
 
-**Subtype:** Swarm
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 16, Con -, Int -, Wis 13, Cha 19
+Base attack bonus: +11
+Combat maneuver bonus: +6
+Combat maneuver defense: 19 (can't be tripped)
+Skills: Fly +15
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 22
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +7 natural, +2 size
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +10
-
-**Defensive abilities:** swarm traits
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Distraction:** 21
-
-**Melee:** swarm (3d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** bone shards, chattering teeth, frightening scream
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 16, Con -, Int -, Wis 13, Cha 19
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Skills:** Fly +15
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, horde (2-3), or clatter (4-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, horde (2-3), or clatter (4-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

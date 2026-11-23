@@ -30,81 +30,66 @@ special_qualities = "hold breath, swamp stride"
 abilities = ["19", "13", "16", "6", "13", "10"]
 +++
 
-**Challenge rating:** 3
-
 **Boggard [fighter](ref/class/fighter) 1**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Boggard
+Experience points: 800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 armor, +1 Dex, +3 natural
+Hit points: 34 (3d8+1d10+16\~4)
+Fort: +8
+Ref: +2
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +5
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Boggard\
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 armor, +1 Dex, +3 natural
-
-**Hit points:** 34 (3d8+1d10+16\~4)
-
-**Fort:** +8
-
-**Ref:** +2
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** mwk morningstar +9 (1d8+6), tongue +2 touch (sticky tongue)
-
-**Ranged:** mwk javelin +5 (1d6+4)
-
-**Spec Att:** terrifying croak (DC 13)
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: mwk morningstar +9 (1d8+6), tongue +2 touch (sticky tongue)
+Ranged: mwk javelin +5 (1d6+4)
+Spec Att: terrifying croak (DC 13)
+:::
 
 ### Tactics
 
 **During Combat** The boggard brute throws his javelins before rushing into combat.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 19, Dex 13, Con 16, Int 6, Wis 13, Cha 10
+::: statblock
+Ability scores: Str 19, Dex 13, Con 16, Int 6, Wis 13, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 18
+Feats: Intimidating Prowess, Toughness, Weapon Focus (morningstar)
+Skills: Acrobatics +4 (+20 when jumping), Intimidate +9, Perception +5, Stealth +0 (+8 in swamps), Swim +12
+Languages: Boggard
+Special qualities: [hold breath](ref/umr/hold-breath), swamp stride
+Combat gear: 2 potion of barkskin
+Other gear: leather armor, 2 mwk javelins, mwk morningstar, 132 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 18
-
-**Feats:** Intimidating Prowess, Toughness, Weapon Focus (morningstar)
-
-**Skills:** Acrobatics +4 (+20 when jumping), Intimidate +9, Perception +5, Stealth +0 (+8 in
-swamps), Swim +12
-
-**Languages:** Boggard
-
-**Special qualities:** [hold breath](ref/umr/hold-breath), swamp stride
-
-**Combat gear:** 2 potion of barkskin
-
-**Other gear:** leather armor, 2 mwk javelins, mwk morningstar, 132 gp
-
-**Ecology**
-
-**Environment:** temperate marshes
+::: statblock
+Environment: temperate marshes
+:::
 
 ### Description
 

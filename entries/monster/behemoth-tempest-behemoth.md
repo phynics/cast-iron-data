@@ -32,106 +32,76 @@ abilities = ["43", "21", "26", "3", "16", "14"]
 _Three pairs of wings beat rhythmically, churning up hurricane-force winds around this vast,
 bird-like monstrosity._
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+blindsense: 60
+Size: colossal
+Initiative: +9
+Type: Magical beast
+Alignment: Neutral
+Perception: +31
+Senses: Darkvision 60 ft.
+Subtype: Air, Behemoth
+Experience points: 614,400
+:::
 
-**blindsense:** 60
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 40
+Touch: 8
+Flat-footed: 34
+AC modifiers: +5 Dex, +1 dodge, +32 natural, -8 size
+Hit points: 445 (33d10+264)
+Fort: +26
+Ref: +23
+Will: +16
+Dr: 15/epic
+Immune: ability damage, aging, bleed, disease, electricity, energy drain, fire, mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, poison, polymorph
+Regen: 20
+Sr: 33
+Unstop: present
+Vulner: [miracles](ref/spell/miracle) and [wishes](ref/spell/wish)
+:::
 
-**Initiative:** +9
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft., fly 200 ft. (good)
+Bleed: 2d6
+Melee: bite +41 (4d6+16/19-20 plus bleed), 2 talons +41 (2d8+16 plus bleed), wings +36 (8d8+8)
+Ranged: 6 scales +31 (1d10+16/19-20 plus bleed)
+Reach: 30
+Space: 30
+Spec Att: gale, ruinous, thunderbolt
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +22
+Per day: 3/day: storm of vengeance (DC 21)
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 43, Dex 21, Con 26, Int 3, Wis 16, Cha 14
+Base attack bonus: +33
+Combat maneuver bonus: +57
+Combat maneuver defense: 73
+Feats: Combat Reflexes, Dodge, Flyby Attack, Greater Vital Strike, Hover, Improved Critical (feathers), Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Stance, Mobility, Power Attack, Snatch, Vital Strike, Weapon Focus (feathers), Wind Stance
+Skills: Fly +29, Perception +31
+Racial Modifiers: +20 Fly, +10 Perception
+:::
 
-**Subtype:** Air, Behemoth
+### Ecology
 
-**Experience points:** 614,400
-
-**Armor class:** 40
-
-**Touch:** 8
-
-**Flat-footed:** 34
-
-**AC modifiers:** +5 Dex, +1 dodge, +32 natural, -8 size
-
-**Hit points:** 445 (33d10+264)
-
-**Fort:** +26
-
-**Ref:** +23
-
-**Will:** +16
-
-**Dr:** 15/epic
-
-**Immune:** ability damage, aging, bleed, disease, electricity, energy drain, fire, mind-affecting
-effects, negative levels, paralysis, permanent wounds, petrification, poison, polymorph
-
-**Regen:** 20
-
-**Sr:** 33
-
-**Unstop:** present
-
-**Vulner:** [miracles](ref/spell/miracle) and [wishes](ref/spell/wish)
-
-**Offense**
-
-**Speed:** 40 ft., fly 200 ft. (good)
-
-**Bleed:** 2d6
-
-**Melee:** bite +41 (4d6+16/19-20 plus bleed), 2 talons +41 (2d8+16 plus bleed), wings +36 (8d8+8)
-
-**Ranged:** 6 scales +31 (1d10+16/19-20 plus bleed)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** gale, ruinous, thunderbolt
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +22
-
-**Per day:**
-
-- 3/day: storm of vengeance (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 21, Con 26, Int 3, Wis 16, Cha 14
-
-**Base attack bonus:** +33
-
-**Combat maneuver bonus:** +57
-
-**Combat maneuver defense:** 73
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Greater Vital Strike, Hover, Improved Critical
-(feathers), Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will,
-Lightning Stance, Mobility, Power Attack, Snatch, Vital Strike, Weapon Focus (feathers), Wind Stance
-
-**Skills:** Fly +29, Perception +31
-
-**Racial Modifiers:** +20 Fly, +10 Perception
-
-**Ecology**
-
-**Environment:** any air
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any air
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

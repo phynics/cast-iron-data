@@ -31,116 +31,79 @@ abilities = ["30", "28", "36", "13", "21", "25"]
 
 _Little more than a walking corpse, this frightful horse's hide stretches tight over its bones._
 
-**Challenge rating:** 25
+::: statblock
+Challenge rating: 25
+aura: unholy aura (DC 25)
+Initiative: +13
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +38
+Senses: Darkvision 60 ft., Scent, True seeing
+Subtype: Evil, Extraplanar
+Experience points: 1,638,400
+:::
 
-**aura:** unholy aura (DC 25)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 43
+Touch: 23
+Flat-footed: 33
+AC modifiers: +4 deflection, +9 Dex, +1 dodge, +20 natural, -1 size
+Hit points: 555 (30d10+390)
+Fort: +27
+Ref: +30
+Will: +28
+Defensive abilities: unyielding to oblivion
+Dr: 15/epic and good
+Fh: 20
+Immune: ability damage, ability drain, acid, death effects, disease, energy drain, negative levels, poison
+Resist: cold 30, electricity 30, fire 30
+Sr: 36
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 90 ft.
+Melee: bite +39 (6d10+10/19-20 plus energy drain), 2 hooves +39 (8d8+15/19-20 plus energy drain)
+Reach: 10
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: apocalyptic breath weapon, crushing hooves
+Trample: 4d10+15 plus energy drain, DC 32
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 25
+Concentration: +32
+Constant: air walk, unholy aura (DC 25)
+At will: greater teleport, self plus rider only
+Per day: 3/day: plane shift, self plus rider only
+:::
 
-**Perception:** +38
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent, True seeing
+::: statblock
+Ability scores: Str 30, Dex 28, Con 36, Int 13, Wis 21, Cha 25
+Base attack bonus: +30
+Combat maneuver bonus: +41 (+45 bull rush)
+Combat maneuver defense: 65 (67 vs. bull rush, 69 vs. trip)
+Feats: Combat Casting, Combat Reflexes, Critical Focus, Dodge, Greater Bull Rush, Improved Bull Rush, Improved Critical (bite, hoof), Improved Initiative, Improved Iron Will, Iron Will, Mobility, Power Attack, Spring Attack, Staggering Critical
+Skills: Acrobatics +42, Intimidate +40, Knowledge (planes) +34, Perception +38
+Languages: Abyssal, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: favor of the four
+:::
 
-**Subtype:** Evil, Extraplanar
+### Ecology
 
-**Experience points:** 1,638,400
-
-**Armor class:** 43
-
-**Touch:** 23
-
-**Flat-footed:** 33
-
-**AC modifiers:** +4 deflection, +9 Dex, +1 dodge, +20 natural, -1 size
-
-**Hit points:** 555 (30d10+390)
-
-**Fort:** +27
-
-**Ref:** +30
-
-**Will:** +28
-
-**Defensive abilities:** unyielding to oblivion
-
-**Dr:** 15/epic and good
-
-**Fh:** 20
-
-**Immune:** ability damage, ability drain, acid, death effects, disease, energy drain, negative
-levels, poison
-
-**Resist:** cold 30, electricity 30, fire 30
-
-**Sr:** 36
-
-**Offense**
-
-**Speed:** 90 ft.
-
-**Melee:** bite +39 (6d10+10/19-20 plus energy drain), 2 hooves +39 (8d8+15/19-20 plus energy drain)
-
-**Reach:** 10
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** apocalyptic breath weapon, crushing hooves
-
-**Trample:** 4d10+15 plus energy drain, DC 32
-
-**Spell-Like Abilities**
-
-**Caster level:** 25
-
-**Concentration:** +32
-
-**Constant:**
-
-- air walk, unholy aura (DC 25)
-
-**At will:**
-
-- greater teleport, self plus rider only
-
-**Per day:**
-
-- 3/day: plane shift, self plus rider only
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 28, Con 36, Int 13, Wis 21, Cha 25
-
-**Base attack bonus:** +30
-
-**Combat maneuver bonus:** +41 (+45 bull rush)
-
-**Combat maneuver defense:** 65 (67 vs. bull rush, 69 vs. trip)
-
-**Feats:** Combat Casting, Combat Reflexes, Critical Focus, Dodge, Greater Bull Rush, Improved Bull
-Rush, Improved Critical (bite, hoof), Improved Initiative, Improved Iron Will, Iron Will, Mobility,
-Power Attack, Spring Attack, Staggering Critical
-
-**Skills:** Acrobatics +42, Intimidate +40, Knowledge (planes) +34, Perception +38
-
-**Languages:** Abyssal, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** favor of the four
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary (unique), group (all four apocalypse horses), or with associated Horseman
-
-**Treasure:** None
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary (unique), group (all four apocalypse horses), or with associated Horseman
+Treasure: None
+:::
 
 ### Special Abilities
 

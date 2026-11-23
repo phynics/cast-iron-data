@@ -32,77 +32,61 @@ beats its chest like a gorilla. Despite its ape-like stance, its frame is far he
 features more primitive, its powerful muzzle and gnashing canines bespeaking terrible, bestial
 savagery._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +7
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 Dex, +6 natural, -1 size
+Hit points: 47 (5d10+20)
+Fort: +8
+Ref: +7
+Will: +3
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: 2 claws +11 (1d6+7), 1 bite +11 (1d8+7)
+Pounce: present
+Rake: 1d6
+Reach: 10
+Space: 10
+Spec Att: terrifying roar
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 24, Dex 17, Con 19, Int 2, Wis 15, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +13
+Combat maneuver defense: 26
+Feats: Improved Bull Rush, Improved Initiative, Power Attack
+Skills: Climb +15, Stealth +15
+Racial Modifiers: +8 Stealth
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +6 natural, -1 size
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** 2 claws +11 (1d6+7), 1 bite +11 (1d8+7)
-
-**Pounce:** present
-
-**Rake:** 1d6
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** terrifying roar
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 19, Int 2, Wis 15, Cha 8
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26
-
-**Feats:** Improved Bull Rush, Improved Initiative, Power Attack
-
-**Skills:** Climb +15, Stealth +15
-
-**Racial Modifiers:** +8 Stealth
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or troop (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or troop (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

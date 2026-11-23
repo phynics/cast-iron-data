@@ -30,113 +30,76 @@ abilities = ["35", "25", "36", "24", "24", "27"]
 _This winged fiend's horned head and fanged visage present the perfection of the demonic form, fire
 spurting from its flesh._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: flaming body, unholy aura (DC 26)
+Alignment: Chaotic evil
+Initiative: +11
+Size: large
+Type: outsider
+Perception: +38
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 307,200
+:::
 
-**aura:** flaming body, unholy aura (DC 26)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 36
+Touch: 20
+Flat-footed: 29
+AC modifiers: +4 deflection, +7 Dex, +16 natural, -1 size
+Hit points: 370 (20d10+260)
+Fort: +29
+Ref: +17
+Will: +25
+Dr: 15/cold iron and good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+Sr: 31
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., fly 90 ft. (good)
+Melee: +1 [vorpal](ref/magic-enh/vorpal) unholy longsword +31/+26/+21/+16 (2d6+13), +1 vorpal flaming whip +30/+25/+20 (1d4+7 plus 1d6 fire and entangle) or 2 slams +31 (1d10+12)
+Reach: 10
+Reach P: 20 ft. with whip
+Space: 10
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Constant: true seeing, unholy aura (DC 26)
+At will: dominate monster (DC 27), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, power word stun, telekinesis (DC 23)
+Per day: 3/day: quickened telekinesis (DC 23)\
+1/day: blasphemy (DC 25), fire storm (DC 26), implosion (DC 27), summon (level 9, any 1 CR 19 or lower demon 100%)
+:::
 
-**Perception:** +38
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+::: statblock
+Ability scores: Str 35, Dex 25, Con 36, Int 24, Wis 24, Cha 27
+Base attack bonus: +20
+Combat maneuver bonus: +33
+Combat maneuver defense: 54
+Feats: Cleave, Combat Reflexes, Greater Two-Weapon Fighting, Improved Initiative, Improved Two-Weapon Fighting, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (telekinesis), Two-Weapon Fighting, Weapon Focus (longsword)
+Skills: Acrobatics +27, Bluff +31, Diplomacy +31, Sense Motive +30, Stealth +26, Use Magic Device +31
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: death throes, vorpal strike, whip mastery
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 20
-
-**Flat-footed:** 29
-
-**AC modifiers:** +4 deflection, +7 Dex, +16 natural, -1 size
-
-**Hit points:** 370 (20d10+260)
-
-**Fort:** +29
-
-**Ref:** +17
-
-**Will:** +25
-
-**Dr:** 15/cold iron and good
-
-**Immune:** electricity, fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., fly 90 ft. (good)
-
-**Melee:** +1 [vorpal](ref/magic-enh/vorpal) unholy longsword +31/+26/+21/+16 (2d6+13), +1 vorpal
-flaming whip +30/+25/+20 (1d4+7 plus 1d6 fire and entangle) or 2 slams +31 (1d10+12)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with whip
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Constant:**
-
-- true seeing, unholy aura (DC 26)
-
-**At will:**
-
-- dominate monster (DC 27), greater dispel magic, greater teleport, self plus 50 lbs. of objects
-  only, power word stun, telekinesis (DC 23)
-
-**Per day:**
-
-- 3/day: quickened telekinesis (DC 23)
-- 1/day: blasphemy (DC 25), fire storm (DC 26), implosion (DC 27), summon (level 9, any 1 CR 19 or
-  lower demon 100%)
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 25, Con 36, Int 24, Wis 24, Cha 27
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 54
-
-**Feats:** Cleave, Combat Reflexes, Greater Two-Weapon Fighting, Improved Initiative, Improved
-Two-Weapon Fighting, Iron Will, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (telekinesis), Two-Weapon Fighting, Weapon Focus
-(longsword)
-
-**Skills:** Acrobatics +27, Bluff +31, Diplomacy +31, Sense Motive +30, Stealth +26, Use Magic
-Device +31
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** death throes, vorpal strike, whip mastery
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or warband (1 balor and 2-5 [glabrezus](ref/monster/demon-glabrezu))
-
-**Treasure:** Standard (+1 unholy longsword, +1 flaming -whip); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or warband (1 balor and 2-5 [glabrezus](ref/monster/demon-glabrezu))
+Treasure: Standard (+1 unholy longsword, +1 flaming -whip); other treasure
+:::
 
 ### Special Abilities
 

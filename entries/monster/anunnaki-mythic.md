@@ -33,118 +33,80 @@ back._
 
 **Mythic Anunnaki**
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Mythic rank: 7
+Initiative: +16
+Size: large
+Lifesense: present
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +31
+Senses: Darkvision 60 ft., True seeing
+Subtype: Mythic, Shapechanger
+Experience points: 153,600
+:::
 
-**Mythic rank:** 7
+### Defense
 
-**Initiative:** +16
+::: statblock
+Armor class: 35
+Touch: 22
+Flat-footed: 30
+AC modifiers: +8 deflection, +5 Dex, +13 natural, -1 size
+Hit points: 320 (20d10+210)
+Fort: +15
+Ref: +17
+Will: +20; +8 vs. mind-affecting effects
+Defensive abilities: morphic anatomy, psychic warding
+Dr: 20/epic
+Immune: poison
+Regen: 10 (epic weapons)
+Resist: acid 20, cold 20, electricity 20, sonic 20
+Unstop: present
+:::
 
-**Size:** large
+### Offense
 
-**Lifesense:** present
+::: statblock
+Speed: 50 ft., fly 60 ft. (good)
+M Magic: 3/day
+M Power: 9/day, surge +1d10
+Melee: primal chisel +30/+25/+20/+15 (3d6+10/15-20 plus devolution), bite +26 (1d8+5), 4 wings +26 (1d6+5)
+Spec Att: devolution (DC 28)
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: true seeing
+At will: etherealness, greater teleport, self plus 50 lbs. of objects only, mental block (DC 20), mindlink
+Per day: 5/day: greater dispel magic\
+3/day: quickened baleful polymorph (DC 23), primal regression (DC 24)\
+1/day: divide mind, overwhelming presence (DC 27)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +31
+::: statblock
+Ability scores: Str 29, Dex 20, Con 24, Int 27, Wis 27, Cha 26
+Base attack bonus: +20
+Combat maneuver bonus: +30 (+32 bull rush)
+Combat maneuver defense: 53 (55 vs. bull rush)
+Feats: Combat Casting, Extra Mythic Power, Great Fortitude, Improved Bull Rush, Improved Critical (primal chisel), Improved Great Fortitude, Improved Initiative, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (baleful polymorph), Weapon Focus (primal chisel)
+Skills: Bluff +18, Diplomacy +23, Sense Motive +19, Spellcraft +28
+Languages: Aklo, Common, Draconic, Giant; _truespeech_
+Special qualities: bestow knowledge, lantern of civilization, mimetic memory, morphic body, [mythic immortality](ref/umr/mythic-immortality), uplift
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Ecology
 
-**Subtype:** Mythic, Shapechanger
-
-**Experience points:** 153,600
-
-**Armor class:** 35
-
-**Touch:** 22
-
-**Flat-footed:** 30
-
-**AC modifiers:** +8 deflection, +5 Dex, +13 natural, -1 size
-
-**Hit points:** 320 (20d10+210)
-
-**Fort:** +15
-
-**Ref:** +17
-
-**Will:** +20; +8 vs. mind-affecting effects
-
-**Defensive abilities:** morphic anatomy, psychic warding
-
-**Dr:** 20/epic
-
-**Immune:** poison
-
-**Regen:** 10 (epic weapons)
-
-**Resist:** acid 20, cold 20, electricity 20, sonic 20
-
-**Unstop:** present
-
-**Offense**
-
-**Speed:** 50 ft., fly 60 ft. (good)
-
-**M Magic:** 3/day
-
-**M Power:** 9/day, surge +1d10
-
-**Melee:** primal chisel +30/+25/+20/+15 (3d6+10/15-20 plus devolution), bite +26 (1d8+5), 4 wings
-+26 (1d6+5)
-
-**Spec Att:** devolution (DC 28)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- etherealness, greater teleport, self plus 50 lbs. of objects only, mental block (DC 20), mindlink
-
-**Per day:**
-
-- 5/day: greater dispel magic
-- 3/day: quickened baleful polymorph (DC 23), primal regression (DC 24)
-- 1/day: divide mind, overwhelming presence (DC 27)
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 20, Con 24, Int 27, Wis 27, Cha 26
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +30 (+32 bull rush)
-
-**Combat maneuver defense:** 53 (55 vs. bull rush)
-
-**Feats:** Combat Casting, Extra Mythic Power, Great Fortitude, Improved Bull Rush, Improved
-Critical (primal chisel), Improved Great Fortitude, Improved Initiative, Multiattack, Power Attack,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (baleful polymorph), Weapon Focus (primal
-chisel)
-
-**Skills:** Bluff +18, Diplomacy +23, Sense Motive +19, Spellcraft +28
-
-**Languages:** Aklo, Common, Draconic, Giant; _truespeech_
-
-**Special qualities:** bestow knowledge, lantern of civilization, mimetic memory, morphic body,
-[mythic immortality](ref/umr/mythic-immortality), uplift
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cabal (6-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or cabal (6-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

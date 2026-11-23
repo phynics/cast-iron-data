@@ -35,116 +35,77 @@ abilities = ["17", "25", "20", "24", "23", "22"]
 _With rust-colored skin and a jutting crown of ridge-like horns, this muscular devil is draped in
 lengthy contracts._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +11
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 9,600
+:::
 
-**Initiative:** +11
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 25
+Touch: 18
+Flat-footed: 17
+AC modifiers: +7 Dex, +1 dodge, +7 natural
+Hit points: 136 (13d10+65)
+Fort: +9
+Ref: +15
+Will: +16
+Dr: 10/good
+Immune: fire, mind-affecting effects, poison
+Resist: acid 10, cold 10
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Bleed: 1d6
+Melee: binding contract (whip) +20/+15/+10 (1d4+7 plus bleed and [grab](ref/umr/grab)), gore +11 (2d6+1)
+Reach: 5
+Reach P: 10 ft. with binding contract
+Space: 5
+Spec Att: binding contract, impale (2d8+4)
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +19
+Constant: tongues
+At will: bestow curse (DC 20), detect thoughts (DC 18), dimension door, erase, identify, major image (DC 19), produce flame, sending
+Per day: 3/day: arcane eye, break enchantment, greater teleport, self plus 50 lbs. of objects only, hold person (DC 19), locate creature, mage's private sanctum, scorching ray, silence (DC 18), vision\
+1/day: contact other plane, delayed blast fireball (DC 23), dismissal (DC 21), plane shift (DC 23), summon (level 4, 1d6 [bearded devils](ref/monster/devil-bearded-devil-barbazu) or 1 [bone devil](ref/monster/devil-bone-devil-osyluth) 50%), symbol of pain (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 17, Dex 25, Con 20, Int 24, Wis 23, Cha 22
+Base attack bonus: +13
+Combat maneuver bonus: +16
+Combat maneuver defense: 34
+Feats: Alertness, Deceitful, Dodge, Improved Initiative, Iron Will, Mobility, Persuasive
+Skills: Bluff +26, Diplomacy +26, Disguise +8, Profession (scribe) +19, Sense Motive +26, Sleight of Hand +20, Spellcraft +20
+Languages: Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Dwarven, Elven, Giant, Gm, Goblin, Gnoll, Halfling, Ignan, Infernal, Orc, Sylvan, Terran, Undercommon; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+Special qualities: infernal contract, infernal investment
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 18
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 Dex, +1 dodge, +7 natural
-
-**Hit points:** 136 (13d10+65)
-
-**Fort:** +9
-
-**Ref:** +15
-
-**Will:** +16
-
-**Dr:** 10/good
-
-**Immune:** fire, mind-affecting effects, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d6
-
-**Melee:** binding contract (whip) +20/+15/+10 (1d4+7 plus bleed and [grab](ref/umr/grab)), gore +11
-(2d6+1)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with binding contract
-
-**Space:** 5
-
-**Spec Att:** binding contract, impale (2d8+4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +19
-
-**Constant:**
-
-- tongues
-
-**At will:**
-
-- bestow curse (DC 20), detect thoughts (DC 18), dimension door, erase, identify, major image (DC
-  19), produce flame, sending
-
-**Per day:**
-
-- 3/day: arcane eye, break enchantment, greater teleport, self plus 50 lbs. of objects only, hold
-  person (DC 19), locate creature, mage's private sanctum, scorching ray, silence (DC 18), vision
-- 1/day: contact other plane, delayed blast fireball (DC 23), dismissal (DC 21), plane shift (DC
-  23), summon (level 4, 1d6 [bearded devils](ref/monster/devil-bearded-devil-barbazu) or 1
-  [bone devil](ref/monster/devil-bone-devil-osyluth) 50%), symbol of pain (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 25, Con 20, Int 24, Wis 23, Cha 22
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 34
-
-**Feats:** Alertness, Deceitful, Dodge, Improved Initiative, Iron Will, Mobility, Persuasive
-
-**Skills:** Bluff +26, Diplomacy +26, Disguise +8, Profession (scribe) +19, Sense Motive +26,
-Sleight of Hand +20, Spellcraft +20
-
-**Languages:** Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Dwarven, Elven, Giant, Gm,
-Goblin, Gnoll, Halfling, Ignan, Infernal, Orc, Sylvan, Terran, Undercommon;
-[telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
-
-**Special qualities:** infernal contract, infernal investment
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or court (2-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or court (2-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

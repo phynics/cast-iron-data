@@ -33,117 +33,77 @@ abilities = ["18", "31", "30", "23", "26", "31"]
 _Strong winds whip around this majestic being, and lightning crackles from her eyes and flickers
 along her skin._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+blindsight: 120
+Initiative: +14
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 153,600
+:::
 
-**blindsight:** 120
+### Defense
 
-**Initiative:** +14
+::: statblock
+Armor class: 34
+Touch: 30
+Flat-footed: 24
+AC modifiers: +10 deflection, +10 Dex, +4 natural
+Hit points: 341 (22d10+220)
+Fort: +23
+Ref: +23
+Will: +17
+Defensive abilities: windblessed
+Dr: 15/-
+Immune: daze, electricity, [elemental](ref/subtype/elemental) traits
+Regen: 15 (earth; see earthbane)
+Resist: cold 30, fire 30
+Sr: 29
+Weaknesses: earthbane
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 480 ft. (perfect)
+Melee: +5 [shock](ref/magic-enh/shock) [thundering](ref/magic-enh/thundering) spear +31/+26/+21/+16 (1d8+11/19-20/×3 plus 1d6 electricity)
+Ranged: thunderstorm blast +32 (20d6+30/19-20 bludgeoning) or electric blast +32 touch (10d6+5/19-20 electricity) or air blast +32 (10d6+20/19-20 half bludgeoning and half electricity)
+Spec Att: aerokinesis, infusions (chain, cloud, cyclone, extreme range, gusting infusion, pushing infusion, thundering infusion), manifest thunderbolt, wind orchestra
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +30
+Constant: fickle winds, freedom of movement
+At will: control weather, control winds
+Per day: 1/day: storm of vengeance (DC 29), summon monster IX, 1d3 elder air elementals only
+:::
 
-**Perception:** +33
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 31, Con 30, Int 23, Wis 26, Cha 31
+Base attack bonus: +22
+Combat maneuver bonus: +26
+Combat maneuver defense: 57
+Feats: Combat Reflexes, Deadly Aim, Flyby Attack, Improved Critical (kinetic blast), Improved Critical (spear), Improved Initiative, Improved Iron Will, Improved Precise Shot, Iron Will, Point-Blank Shot, Precise Shot
+Skills: Acrobatics +35, Fly +43, Knowledge (geography, nature) +31, Perception +33, Use Magic Device +35
+Languages: Aquan, Auran, Common, Ignan, Sylvan, Terran
+Special qualities: manifest thunderbolt, utility wild talents ([air's reach](ref/kinetic/airs-reach), [greater windsight](ref/kinetic/greater-windsight), [ride the blast](ref/kinetic/ride-the-blast), [windsight](ref/kinetic/windsight)), wind form
+:::
 
-**Subtype:** Air, Elemental, Extraplanar
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 34
-
-**Touch:** 30
-
-**Flat-footed:** 24
-
-**AC modifiers:** +10 deflection, +10 Dex, +4 natural
-
-**Hit points:** 341 (22d10+220)
-
-**Fort:** +23
-
-**Ref:** +23
-
-**Will:** +17
-
-**Defensive abilities:** windblessed
-
-**Dr:** 15/-
-
-**Immune:** daze, electricity, [elemental](ref/subtype/elemental) traits
-
-**Regen:** 15 (earth; see earthbane)
-
-**Resist:** cold 30, fire 30
-
-**Sr:** 29
-
-**Weaknesses:** earthbane
-
-**Offense**
-
-**Speed:** 30 ft., fly 480 ft. (perfect)
-
-**Melee:** +5 [shock](ref/magic-enh/shock) [thundering](ref/magic-enh/thundering) spear
-+31/+26/+21/+16 (1d8+11/19-20/×3 plus 1d6 electricity)
-
-**Ranged:** thunderstorm blast +32 (20d6+30/19-20 bludgeoning) or electric blast +32 touch
-(10d6+5/19-20 electricity) or air blast +32 (10d6+20/19-20 half bludgeoning and half electricity)
-
-**Spec Att:** aerokinesis, infusions (chain, cloud, cyclone, extreme range, gusting infusion,
-pushing infusion, thundering infusion), manifest thunderbolt, wind orchestra
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +30
-
-**Constant:**
-
-- fickle winds, freedom of movement
-
-**At will:**
-
-- control weather, control winds
-
-**Per day:**
-
-- 1/day: storm of vengeance (DC 29), summon monster IX, 1d3 elder air elementals only
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 31, Con 30, Int 23, Wis 26, Cha 31
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 57
-
-**Feats:** Combat Reflexes, Deadly Aim, Flyby Attack, Improved Critical (kinetic blast), Improved
-Critical (spear), Improved Initiative, Improved Iron Will, Improved Precise Shot, Iron Will,
-Point-Blank Shot, Precise Shot
-
-**Skills:** Acrobatics +35, Fly +43, Knowledge (geography, nature) +31, Perception +33, Use Magic
-Device +35
-
-**Languages:** Aquan, Auran, Common, Ignan, Sylvan, Terran
-
-**Special qualities:** manifest thunderbolt, utility wild talents
-([air's reach](ref/kinetic/airs-reach), [greater windsight](ref/kinetic/greater-windsight),
-[ride the blast](ref/kinetic/ride-the-blast), [windsight](ref/kinetic/windsight)), wind form
-
-**Ecology**
-
-**Environment:** any sky ([Plane of Air](ref/rule/plane-of-air) or Material Plane)
-
-**Organization:** solitary or council (4)
-
-**Treasure:** Triple
+::: statblock
+Environment: any sky ([Plane of Air](ref/rule/plane-of-air) or Material Plane)
+Organization: solitary or council (4)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

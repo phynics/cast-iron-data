@@ -32,116 +32,79 @@ abilities = ["36", "12", "28", "19", "23", "19"]
 _The frame of this immense monstrosity is humanoid, but its ichthyic visage is that of a deep-sea
 predator._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: cloak of chaos (DC 22), staggering presence (180 ft., DC 21)
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +5
+Type: Monstrous humanoid
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic, Deep one
+Experience points: 38,400
+:::
 
-**aura:** cloak of chaos (DC 22), staggering presence (180 ft., DC 21)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 29
+Touch: 11
+Flat-footed: 24
+AC modifiers: +4 deflection, +1 Dex, +18 natural, -4 size
+Hit points: 202 (15d8+135)
+Fort: +18
+Ref: +16
+Will: +19
+Defensive abilities: mind reflection
+Dr: 10/magic and piercing
+Immune: cold, disease
+Regen: 10 (fire)
+Resist: acid 10, electricity 10
+Sr: 25
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: bite +24 (2d8+13/19-20), 2 claws +24 (2d6+13/19-20)
+Reach: 20
+Space: 20
+Spec Att: Devastating Strike, staggering presence
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +18
+Constant: cloak of chaos (DC 22), freedom of movement
+At will: dream, hold monster (DC 19)
+Per day: 3/day: black tentacles, demand (DC 22), insanity (DC 21), nightmare (DC 19)\
+1/day: dominate monster (DC 23), symbol of insanity (DC 22)
+Per week: binding (DC 22)
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 36, Dex 12, Con 28, Int 19, Wis 23, Cha 19
+Base attack bonus: +15
+Combat maneuver bonus: +32 (+34 bull rush)
+Combat maneuver defense: 47 (49 vs. bull rush)
+Feats: Awesome Blow, Improved Bull Rush, Improved Critical (bite), Improved Critical (claw), Improved Initiative, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Intimidate +22, Knowledge (arcana, religion) +19, Perception +24, Sense Motive +21, Stealth +7, Swim +39, Use Magic Device +19
+Languages: Aklo, Common
+Special qualities: [amphibious](ref/umr/amphibious), deep dweller, deific, immortal, item use
+:::
 
-**Subtype:** Aquatic, Deep one
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 11
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 deflection, +1 Dex, +18 natural, -4 size
-
-**Hit points:** 202 (15d8+135)
-
-**Fort:** +18
-
-**Ref:** +16
-
-**Will:** +19
-
-**Defensive abilities:** mind reflection
-
-**Dr:** 10/magic and piercing
-
-**Immune:** cold, disease
-
-**Regen:** 10 (fire)
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** bite +24 (2d8+13/19-20), 2 claws +24 (2d6+13/19-20)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** Devastating Strike, staggering presence
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +18
-
-**Constant:**
-
-- cloak of chaos (DC 22), freedom of movement
-
-**At will:**
-
-- dream, hold monster (DC 19)
-
-**Per day:**
-
-- 3/day: black tentacles, demand (DC 22), insanity (DC 21), nightmare (DC 19)
-- 1/day: dominate monster (DC 23), symbol of insanity (DC 22)
-
-**Per week:**
-
-- binding (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 12, Con 28, Int 19, Wis 23, Cha 19
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +32 (+34 bull rush)
-
-**Combat maneuver defense:** 47 (49 vs. bull rush)
-
-**Feats:** Awesome Blow, Improved Bull Rush, Improved Critical (bite), Improved Critical (claw),
-Improved Initiative, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Intimidate +22, Knowledge (arcana, religion) +19, Perception +24, Sense Motive +21,
-Stealth +7, Swim +39, Use Magic Device +19
-
-**Languages:** Aklo, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious), deep dweller, deific, immortal, item use
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or pair
-
-**Treasure:** Triple
+::: statblock
+Environment: any water
+Organization: solitary or pair
+Treasure: Triple
+:::
 
 ### Special Abilities
 

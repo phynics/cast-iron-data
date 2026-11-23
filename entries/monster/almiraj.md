@@ -30,73 +30,59 @@ abilities = ["6", "15", "12", "5", "11", "6"]
 
 _This oversized rabbit has a single long, pearlescent horn protruding from its crown._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +5
+Will: +0; -2 vs. witch hexes
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: +1 gore +6 (2d4-1)
+Spec Att: magic horn
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 6, Dex 15, Con 12, Int 5, Wis 11, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: -1
+Combat maneuver defense: 11 (15 vs. trip)
+Feats: Weapon Finesse
+Skills: Acrobatics +6 (+14 when jumping), Perception +4, Stealth +14
+Racial Modifiers: +8 Acrobatics when jumping, +4 Perception, +4 Stealth
+Languages: Sylvan (can't speak)
+Special qualities: hex-prone
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +0; -2 vs. witch hexes
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** +1 gore +6 (2d4-1)
-
-**Spec Att:** magic horn
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 12, Int 5, Wis 11, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11 (15 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +6 (+14 when jumping), Perception +4, Stealth +14
-
-**Racial Modifiers:** +8 Acrobatics when jumping, +4 Perception, +4 Stealth
-
-**Languages:** Sylvan (can't speak)
-
-**Special qualities:** hex-prone
-
-**Ecology**
-
-**Environment:** temperate hills, plains, or forests
-
-**Organization:** solitary
-
-**Treasure:** Incidental; magic horn
+::: statblock
+Environment: temperate hills, plains, or forests
+Organization: solitary
+Treasure: Incidental; magic horn
+:::
 
 ### Special Abilities
 

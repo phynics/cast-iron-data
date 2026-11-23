@@ -30,96 +30,71 @@ abilities = ["25", "18", "22", "16", "19", "17"]
 _An unkempt mass of hair covers this towering giant. Its human-like face bears a peaceful yet stern
 countenance._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Size: huge
+Initiative: +4
+Type: Monstrous humanoid
+Alignment: Neutral good
+Perception: +27
+Senses: Darkvision 60 ft., Harmony with the land
+Experience points: 51,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 30
+Touch: 12
+Flat-footed: 26
+AC modifiers: +4 Dex, +18 natural, -2 size
+Hit points: 230 (20d10+120)
+Fort: +14
+Ref: +16
+Will: +18
+Resist: cold 20, fire 20
+Rock Ct: present
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 40 ft.
+Melee: quarterstaff +25/+20/+15/+10 (2d6+10) or 2 slams +25 (2d6+7)
+Reach: 15
+Rock Th: 120 ft.
+Space: 15
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +23
+At will: mending
+Per day: 3/day: forest's sense (DC 17), make whole, soothing mud, stone shape, stoneskin\
+1/day: commune with nature, transmute rock to mud, tree stride
+:::
 
-**Senses:** Darkvision 60 ft., Harmony with the land
+### Statistics
 
-**Experience points:** 51,200
+::: statblock
+Ability scores: Str 25, Dex 18, Con 22, Int 16, Wis 19, Cha 17
+Base attack bonus: +20
+Combat maneuver bonus: +29 (+31 bull rush)
+Combat maneuver defense: 43 (45 vs. bull rush)
+Feats: Acrobatic Steps, Awesome Blow, Bristling Bull Rush, Cleave, Combat Reflexes, Great Fortitude, Improved Bull Rush, Iron Will, Nimble Moves, Power Attack
+Skills: Climb +20
+Languages: Common, Giant, Sylvan, Terran
+Special qualities: wilderness walker
+:::
 
-**Armor class:** 30
+### Ecology {#stat-ecology}
 
-**Touch:** 12
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +18 natural, -2 size
-
-**Hit points:** 230 (20d10+120)
-
-**Fort:** +14
-
-**Ref:** +16
-
-**Will:** +18
-
-**Resist:** cold 20, fire 20
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** quarterstaff +25/+20/+15/+10 (2d6+10) or 2 slams +25 (2d6+7)
-
-**Reach:** 15
-
-**Rock Th:** 120 ft.
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +23
-
-**At will:**
-
-- mending
-
-**Per day:**
-
-- 3/day: forest's sense (DC 17), make whole, soothing mud, stone shape, stoneskin
-- 1/day: commune with nature, transmute rock to mud, tree stride
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 18, Con 22, Int 16, Wis 19, Cha 17
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +29 (+31 bull rush)
-
-**Combat maneuver defense:** 43 (45 vs. bull rush)
-
-**Feats:** Acrobatic Steps, Awesome Blow, Bristling Bull Rush, Cleave, Combat Reflexes, Great
-Fortitude, Improved Bull Rush, Iron Will, Nimble Moves, Power Attack
-
-**Skills:** Climb +20
-
-**Languages:** Common, Giant, Sylvan, Terran
-
-**Special qualities:** wilderness walker
-
-**Ecology**
-
-**Environment:** temperate forests or mountains
-
-**Organization:** solitary, pair, or family (3-5 plus 1d3 [mastodons](ref/monster/elephant-mastodon)
-or [rocs](ref/monster/roc))
-
-**Treasure:** Standard (quarterstaff); other treasures
+::: statblock
+Environment: temperate forests or mountains
+Organization: solitary, pair, or family (3-5 plus 1d3 [mastodons](ref/monster/elephant-mastodon) or [rocs](ref/monster/roc))
+Treasure: Standard (quarterstaff); other treasures
+:::
 
 ### Special Abilities
 

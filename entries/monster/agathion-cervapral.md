@@ -30,106 +30,75 @@ abilities = ["14", "18", "17", "15", "15", "14"]
 _This sleek, long-legged, antelope-like figure has majestic pronged horns and ruffs of white fur on
 its chest and neck._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +4
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft., Enchantment sense, Scent
+Subtype: Agathion, Extraplanar, Good
+Experience points: 1,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 51 (6d10+18)
+Fort: +5
+Ref: +9
+Will: +7; +4 vs. poison
+Dr: 5/evil or silver
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+Sr: 16
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Melee: gore +11 (1d6+2), mwk rapier +11/+6 (1d6+2/18-20)
+Pow Ch: gore +11, 2d6+3
+Sp Extra: sprint
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Constant: freedom of movement, speak with animals
+At will: animal trance (DC 13), liberating command, message, remove paralysis
+Per day: 3/day: knock, protection from evil, summon nature's ally III, 1 aurochs or 1d3 stags only\
+1/day: break enchantment, seeming
+:::
 
-**Senses:** Darkvision 60 ft., Enchantment sense, Scent
+### Statistics
 
-**Subtype:** Agathion, Extraplanar, Good
+::: statblock
+Ability scores: Str 14, Dex 18, Con 17, Int 15, Wis 15, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 22
+Feats: Alertness, Weapon Finesse, Weapon Focus (gore)
+Skills: Acrobatics +10 (+18 when jumping), Bluff +11, Disguise +11, Escape Artist +13, Perception +13
+Racial Modifiers: +8 Acrobatics when jumping, +10 Sense Motive to detect enchantments
+Languages: Celestial, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: [lay on hands](ref/ability/lay-on-hands) (3d6, 5/day, as a 6th-level paladin), mental purge, mercies ([diseased](ref/mercy/diseased), [fatigued](ref/mercy/fatigued))
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +7; +4 vs. poison
-
-**Dr:** 5/evil or silver
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +11 (1d6+2), mwk rapier +11/+6 (1d6+2/18-20)
-
-**Pow Ch:** gore +11, 2d6+3
-
-**Sp Extra:** sprint
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Constant:**
-
-- freedom of movement, speak with animals
-
-**At will:**
-
-- animal trance (DC 13), liberating command, message, remove paralysis
-
-**Per day:**
-
-- 3/day: knock, protection from evil, summon nature's ally III, 1 aurochs or 1d3 stags only
-- 1/day: break enchantment, seeming
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 18, Con 17, Int 15, Wis 15, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 22
-
-**Feats:** Alertness, Weapon Finesse, Weapon Focus (gore)
-
-**Skills:** Acrobatics +10 (+18 when jumping), Bluff +11, Disguise +11, Escape Artist +13,
-Perception +13
-
-**Racial Modifiers:** +8 Acrobatics when jumping, +10 Sense Motive to detect enchantments
-
-**Languages:** Celestial, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** [lay on hands](ref/ability/lay-on-hands) (3d6, 5/day, as a 6th-level
-paladin), mental purge, mercies ([diseased](ref/mercy/diseased), [fatigued](ref/mercy/fatigued))
-
-**Ecology**
-
-**Environment:** any land ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or order (3-6)
-
-**Treasure:** Standard (mwk rapier)
+::: statblock
+Environment: any land ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or order (3-6)
+Treasure: Standard (mwk rapier)
+:::
 
 ### Special Abilities
 

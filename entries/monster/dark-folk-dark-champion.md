@@ -32,81 +32,63 @@ abilities = ["17", "12", "18", "8", "11", "9"]
 _This gaunt humanoid's body is entirely cased in black plate armor. Its open-faced helm reveals its
 pale skin and shallow, fleshy hollows where its eyes should be._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsight: 90
+Type: humanoid
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Perception: +8
+Subtype: Dark folk
+Experience points: 1,600
+:::
 
-**blindsight:** 90
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 19
+AC modifiers: +9 armor, +1 Dex
+Hit points: 59 (7d8+28)
+Fort: +9
+Ref: +3
+Will: +4
+Immune: gaze attacks, sight-based attacks, visual effects
+Vulner: sonic
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft.
+Melee: mwk greatsword +11/+6 (2d6+4/19-20)
+Ranged: heavy crossbow +8 (1d10/19-20)
+Spec Att: death throes
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +8
+::: statblock
+Ability scores: Str 17, Dex 12, Con 18, Int 8, Wis 11, Cha 9
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 21
+Feats: Cleave, Disruptive, Iron Will, Power Attack
+Skills: Perception +8, Stealth +2
+Racial Modifiers: +4 Perception, +4 Stealth
+Languages: Undercommon, Dark Folk
+Special qualities: champion armor, fighter training
+:::
 
-**Subtype:** Dark folk
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +9 armor, +1 Dex
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +9
-
-**Ref:** +3
-
-**Will:** +4
-
-**Immune:** gaze attacks, sight-based attacks, visual effects
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk greatsword +11/+6 (2d6+4/19-20)
-
-**Ranged:** heavy crossbow +8 (1d10/19-20)
-
-**Spec Att:** death throes
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 12, Con 18, Int 8, Wis 11, Cha 9
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21
-
-**Feats:** Cleave, Disruptive, Iron Will, Power Attack
-
-**Skills:** Perception +8, Stealth +2
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Languages:** Undercommon, Dark Folk
-
-**Special qualities:** champion armor, fighter training
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, patrol (2-6), or platoon (8-16)
-
-**Treasure:** NPC gear (full plate, mwk greatsword, heavy crossbow with 20 bolts); other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, patrol (2-6), or platoon (8-16)
+Treasure: NPC gear (full plate, mwk greatsword, heavy crossbow with 20 bolts); other treasure
+:::
 
 ### Special Abilities
 

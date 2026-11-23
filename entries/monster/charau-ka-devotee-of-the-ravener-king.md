@@ -31,123 +31,90 @@ abilities = ["13", "15", "16", "8", "16", "16"]
 _Clad in bloodstains, ivory fetishes, and animal hides, this ape-like priest's regalia speaks to the
 horrible powers it serves._
 
-**Challenge rating:** 7
-
 **Charau-ka [cleric](ref/class/cleric) of [Angazhan](ref/faith/angazhan) 5**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +2
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Subtype: Charau-ka
+Experience points: 3,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 20
+AC modifiers: +5 armor, +1 deflection, +2 Dex, +3 natural, +1 size
+Hit points: 65 (3d8+5d8+29\~8)
+Fort: +8
+Ref: +6
+Will: +8
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Speed: 20 ft., climb 30 ft.
+Ch N En: 6/day, DC 15, 3d6
+Melee: +1 spear +8 (1d6+2/×3), bite +2 (1d3+1)
+Ranged: rock +9 (1d4+1, 19-20)
+Spec Att: shrieking frenzy, thrown-weapon mastery
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+Per day: 6/day: touch of chaos\
+6/day: touch of evil, 2 rounds
+:::
 
-**Subtype:** Charau-ka\
-**Experience points:** 3,200
-
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 armor, +1 deflection, +2 Dex, +3 natural, +1 size
-
-**Hit points:** 65 (3d8+5d8+29\~8)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 20 ft., climb 30 ft.
-
-**Ch N En:** 6/day, DC 15, 3d6
-
-**Melee:** +1 spear +8 (1d6+2/×3), bite +2 (1d3+1)
-
-**Ranged:** rock +9 (1d4+1, 19-20)
-
-**Spec Att:** shrieking frenzy, thrown-weapon mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**Per day:**
-
-- 6/day: touch of chaos
-- 6/day: touch of evil, 2 rounds
-
-**Prepared Spells**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**3rd-level spells:**
-
-- bestow curse (DC 16), blindness/deafness (DC 16), magic circle against good^D^
-
-**2nd-level spells:**
-
-- aid, align weapon^D^, desecrate, silence (DC 15)
-
-**1st-level spells:**
-
-- bane (DC 14), cure light wounds, 2, magic stone, protection from good^D^
-
-**Cantrips:**
-
-- bleed (DC 13), detect magic, detect poison, purify food and drink
-
-**Domains:** Chaos, Evil
+::: statblock
+title = "Prepared Spells"
+Caster level: 5
+Concentration: +8
+3rd-level spells: bestow curse (DC 16), blindness/deafness (DC 16), magic circle against good^D^
+2nd-level spells: aid, align weapon^D^, desecrate, silence (DC 15)
+1st-level spells: bane (DC 14), cure light wounds, 2, magic stone, protection from good^D^
+Cantrips: bleed (DC 13), detect magic, detect poison, purify food and drink
+Domains: Chaos, Evil
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 13, Dex 15, Con 16, Int 8, Wis 16, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Combat Casting, Improved Natural Armor, Point-Blank Shot, Selective Channeling, Throw
-Anything^B^
-
-**Skills:** Climb +11, Knowledge (religion) +4, Perception +4, Spellcraft +6, Stealth +8
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Abyssal, Polyglot
-
-**Combat gear:** scroll of cure moderate wounds, 2 scroll of invisibility
-
-**Other gear:** +1 Ah, +1 spear, ring of prot1, ivory [holy symbol](ref/eq-misc/wooden-holy-symbol)
-worth 30 gp, mwk manacles
+::: statblock
+Ability scores: Str 13, Dex 15, Con 16, Int 8, Wis 16, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Combat Casting, Improved Natural Armor, Point-Blank Shot, Selective Channeling, Throw Anything^B^
+Skills: Climb +11, Knowledge (religion) +4, Perception +4, Spellcraft +6, Stealth +8
+Racial Modifiers: +4 Stealth
+Languages: Abyssal, Polyglot
+Combat gear: scroll of cure moderate wounds, 2 scroll of invisibility
+Other gear: +1 Ah, +1 spear, ring of prot1, ivory [holy symbol](ref/eq-misc/wooden-holy-symbol) worth 30 gp, mwk manacles
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm forests
+::: statblock
+Environment: warm forests
+:::
 
 ### Description
 

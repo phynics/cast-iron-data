@@ -32,81 +32,63 @@ abilities = ["25", "16", "18", "10", "14", "5"]
 _This lobster-like creature has a thick armored shell. A pair of tiny eyes gleams above a mouth full
 of writhing tentacles._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +3 Dex, +10 natural, -1 size
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: +6
+Will: +9
+Immune: poison
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Constrict: 2d6+7
+Melee: 2 claws +14 (2d6+7 plus [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: paralytic tentacles
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 25, Dex 16, Con 18, Int 10, Wis 14, Cha 5
+Base attack bonus: +7
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Alertness, Blind-Fight, Combat Reflexes, Improved Initiative, Weapon Focus (claw)
+Skills: Knowledge (nature) +8, Perception +19, Sense Motive +9, Stealth +9, Swim +28
+Languages: Common (sometimes Undercommon for subterranean variants)
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +10 natural, -1 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +9
-
-**Immune:** poison
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Constrict:** 2d6+7
-
-**Melee:** 2 claws +14 (2d6+7 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** paralytic tentacles
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con 18, Int 10, Wis 14, Cha 5
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Alertness, Blind-Fight, Combat Reflexes, Improved Initiative, Weapon Focus (claw)
-
-**Skills:** Knowledge (nature) +8, Perception +19, Sense Motive +9, Stealth +9, Swim +28
-
-**Languages:** Common (sometimes Undercommon for subterranean variants)
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate swamps
+Organization: solitary, pair, or pack (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

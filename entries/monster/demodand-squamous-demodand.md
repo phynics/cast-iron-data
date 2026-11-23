@@ -32,109 +32,76 @@ abilities = ["32", "25", "25", "6", "24", "17"]
 _This titanic mass of flesh is covered in razor-sharp scales and has bony wings, four taloned arms,
 and a toothy, toad-like head._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+blindsense: 30
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +11
+Type: outsider
+Perception: +43
+Senses: Darkvision 60 ft., Detect good, Detect magic, True seeing
+Subtype: Chaotic, Demodand, Evil, Extraplanar
+Experience points: 307,200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 36
+Touch: 13
+Flat-footed: 29
+AC modifiers: +7 Dex, +23 natural, -4 size
+Hit points: 362 (29d10+203)
+Fort: +23
+Ref: +23
+Will: +16
+Dr: 15/good and magic
+Immune: acid, poison
+Resist: cold 10, fire 10
+Sr: 31
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 40 ft., fly 60 ft. (average)
+Bleed: 2d6
+Melee: bite +36 (2d8+11/19-20 plus bleed), 4 claws +36 (2d6+11/19-20)
+Reach: 20
+Rend: 4 claws, 2d6+16
+Space: 20
+Spec Att: Abyssal roar, faith-stealing strike (DC 27), stunning descent
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +23
+Constant: detect good, detect magic, true seeing
+Per day: 1/day: summon (level 8, 1d8 tarry demodands or 1d4 slimy demodands or 1 shaggy demodand 75%)
+:::
 
-**Perception:** +43
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, True seeing
+::: statblock
+Ability scores: Str 32, Dex 25, Con 25, Int 6, Wis 24, Cha 17
+Base attack bonus: +29
+Combat maneuver bonus: +44 (+48 bull rush, overrun)
+Combat maneuver defense: 61 (63 vs bull rush, overrun)
+Feats: Alertness, Awesome Blow, Combat Reflexes, Critical Focus, Flyby Attack, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Critical (bite, claw), Improved Initiative, Improved Overrun, Intimidating Prowess, Power Attack, Stunning Critical
+Skills: Fly +33, Intimidate +46, Perception +43, Sense Motive +43
+Languages: Abyssal, Celestial, Common
+Special qualities: heretical soul
+:::
 
-**Subtype:** Chaotic, Demodand, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 13
-
-**Flat-footed:** 29
-
-**AC modifiers:** +7 Dex, +23 natural, -4 size
-
-**Hit points:** 362 (29d10+203)
-
-**Fort:** +23
-
-**Ref:** +23
-
-**Will:** +16
-
-**Dr:** 15/good and magic
-
-**Immune:** acid, poison
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (average)
-
-**Bleed:** 2d6
-
-**Melee:** bite +36 (2d8+11/19-20 plus bleed), 4 claws +36 (2d6+11/19-20)
-
-**Reach:** 20
-
-**Rend:** 4 claws, 2d6+16
-
-**Space:** 20
-
-**Spec Att:** Abyssal roar, faith-stealing strike (DC 27), stunning descent
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +23
-
-**Constant:**
-
-- detect good, detect magic, true seeing
-
-**Per day:**
-
-- 1/day: summon (level 8, 1d8 tarry demodands or 1d4 slimy demodands or 1 shaggy demodand 75%)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 25, Con 25, Int 6, Wis 24, Cha 17
-
-**Base attack bonus:** +29
-
-**Combat maneuver bonus:** +44 (+48 bull rush, overrun)
-
-**Combat maneuver defense:** 61 (63 vs bull rush, overrun)
-
-**Feats:** Alertness, Awesome Blow, Combat Reflexes, Critical Focus, Flyby Attack, Greater Bull
-Rush, Greater Overrun, Improved Bull Rush, Improved Critical (bite, claw), Improved Initiative,
-Improved Overrun, Intimidating Prowess, Power Attack, Stunning Critical
-
-**Skills:** Fly +33, Intimidate +46, Perception +43, Sense Motive +43
-
-**Languages:** Abyssal, Celestial, Common
-
-**Special qualities:** heretical soul
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or battalion (2-5 plus 1
-[shaggy demodand](ref/monster/demodand-shaggy-demodand) plus 3-12
-[tarry demodands)](ref/monster/demodand-tarry-demodand)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or battalion (2-5 plus 1 [shaggy demodand](ref/monster/demodand-shaggy-demodand) plus 3-12 [tarry demodands)](ref/monster/demodand-tarry-demodand)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

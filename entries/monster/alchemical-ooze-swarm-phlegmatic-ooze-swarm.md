@@ -27,78 +27,61 @@ special_attacks = "maddening slime~viscous (DC 14)"
 abilities = ["10", "1", "18", "-", "1", "1"]
 +++
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+blindsight: 60
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Swarm
+Size: tiny
+Experience points: 200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 7
+Touch: 7
+Flat-footed: 7
+AC modifiers: -5 Dex, +2 size
+Hit points: 8 (1d8+4)
+Fort: +4
+Ref: -5
+Will: -5
+Immune: [ooze traits](ref/umr/ooze-traits), swarm traits
+Resist: cold 5
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 10 ft.
+Distraction: 14
+Melee: swarm (1 plus viscous)
+Reach: 0
+Space: 10
+Spec Att: maddening slime, viscous (DC 14)
+:::
 
-**Perception:** -5
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 10, Dex 1, Con 18, Int -, Wis 1, Cha 1
+Base attack bonus: +0
+Combat maneuver bonus: -7
+Combat maneuver defense: 4 (can't be tripped)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 7
-
-**Touch:** 7
-
-**Flat-footed:** 7
-
-**AC modifiers:** -5 Dex, +2 size
-
-**Hit points:** 8 (1d8+4)
-
-**Fort:** +4
-
-**Ref:** -5
-
-**Will:** -5
-
-**Immune:** [ooze traits](ref/umr/ooze-traits), swarm traits
-
-**Resist:** cold 5
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Distraction:** 14
-
-**Melee:** swarm (1 plus viscous)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** maddening slime, viscous (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 1, Con 18, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -7
-
-**Combat maneuver defense:** 4 (can't be tripped)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, sputum (3-6), or jelly (3-5 phlegmatic ooze swarms and 1-3
-[sanguine ooze swarms](ref/monster/alchemical-ooze-swarm-sanguine-ooze-swarm))
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, sputum (3-6), or jelly (3-5 phlegmatic ooze swarms and 1-3 [sanguine ooze swarms](ref/monster/alchemical-ooze-swarm-sanguine-ooze-swarm))
+Treasure: None
+:::
 
 ### Special Abilities
 

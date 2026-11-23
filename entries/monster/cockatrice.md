@@ -29,65 +29,55 @@ abilities = ["6", "17", "11", "2", "13", "8"]
 _This hideous avian creature has the body of an emaciated rooster, the wings of a bat, and a long,
 scaly tail._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 dodge, +1 size
+Hit points: 27 (5d10)
+Fort: +4
+Ref: +7
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 20 ft., fly 60 ft. (poor)
+Melee: bite +9 (1d4-2 plus petrification)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 6, Dex 17, Con 11, Int 2, Wis 13, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +2
+Combat maneuver defense: 16
+Feats: Dodge, Skill Focus (Perception), Weapon Finesse
+Skills: Fly +6, Perception +10
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 size
-
-**Hit points:** 27 (5d10)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (poor)
-
-**Melee:** bite +9 (1d4-2 plus petrification)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con 11, Int 2, Wis 13, Cha 8
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 16
-
-**Feats:** Dodge, Skill Focus (Perception), Weapon Finesse
-
-**Skills:** Fly +6, Perception +10
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, flight (3-5), or flock (6-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, flight (3-5), or flock (6-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

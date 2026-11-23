@@ -32,85 +32,65 @@ abilities = ["-", "27", "20", "5", "14", "11"]
 _Reaching hands, a fierce and eerie visage, and a powerfully abrasive stench all stem from this
 hissing cloud of churning gases._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +12
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 3,200
+:::
 
-**Initiative:** +12
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 19
+Flat-footed: 10
+AC modifiers: +8 Dex, +1 dodge
+Hit points: 73 (7d10+35)
+Fort: +10
+Ref: +13
+Will: +4
+Amorph: present
+Dr: 5/-
+Immune: acid, [elemental](ref/subtype/elemental) traits
+Weaknesses: vulnerable to wind
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 40 ft. (perfect)
+Br Weap: 15-ft. cone, 5d6 acid damage plus poison, Reflex DC 18 half, usable every 1d4 rounds
+Burn: 1d6, DC 18
+Melee: 2 slams +15 (1d6 plus chemical burn)
+Spec Att: chemical
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 27, Con 20, Int 5, Wis 14, Cha 11
+Base attack bonus: +7
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Dodge, Improved Initiative, Mobility, Weapon Finesse
+Skills: Fly +26, Perception +12, Stealth +18
+Languages: Auran
+Special qualities: misty form
+:::
 
-**Subtype:** Air, Elemental, Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 19
-
-**Flat-footed:** 10
-
-**AC modifiers:** +8 Dex, +1 dodge
-
-**Hit points:** 73 (7d10+35)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +4
-
-**Amorph:** present
-
-**Dr:** 5/-
-
-**Immune:** acid, [elemental](ref/subtype/elemental) traits
-
-**Weaknesses:** vulnerable to wind
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Br Weap:** 15-ft. cone, 5d6 acid damage plus poison, Reflex DC 18 half, usable every 1d4 rounds
-
-**Burn:** 1d6, DC 18
-
-**Melee:** 2 slams +15 (1d6 plus chemical burn)
-
-**Spec Att:** chemical
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 27, Con 20, Int 5, Wis 14, Cha 11
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Dodge, Improved Initiative, Mobility, Weapon Finesse
-
-**Skills:** Fly +26, Perception +12, Stealth +18
-
-**Languages:** Auran
-
-**Special qualities:** misty form
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, smog (3-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary, pair, smog (3-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

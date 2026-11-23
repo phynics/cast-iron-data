@@ -30,119 +30,80 @@ abilities = ["20", "25", "25", "18", "25", "20"]
 
 _This muscular giant has two ferocious lion heads, each with a long, black, lashing tongue._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: elusive (75 ft.)
+Initiative: +11
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, See invisibility
+Subtype: Asura, Evil, Extraplanar, Lawful
+Experience points: 38,400
+:::
 
-**aura:** elusive (75 ft.)
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 21
+AC modifiers: +7 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 200 (16d10+112)
+Fort: +14
+Ref: +17
+Will: +17; +2 vs. enchant.
+Dr: 10/good
+Immune: curses, disease, poison
+Regen: 10 (good)
+Resist: acid 10, electricity 10
+Sr: 25
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 50 ft., fly 50 ft. (perfect)
+Melee: 2 bites +20 (1d8+5), 2 claws +20 (1d6+5), 2 tongues +20 (1d6+5 plus [trip](ref/umr/trip))
+Reach: 10
+Reach P: 20 ft. with tongues
+Rend: 2 tongues, 1d6+7
+Space: 10
+Spec Att: pervert miracle
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+Constant: detect chaos, detect evil, detect good, detect law, see invisibility
+At will: greater teleport, self plus 50 lbs. of objects only, invisibility, magic aura, veil, self only, ventriloquism (DC 16)
+Per day: 3/day: bless, cure serious wounds, good hope, neutralize poison, remove blindness/deafness, remove curse, remove disease\
+1/day: blasphemy (DC 22), dream, limited wish, summon (level 6, 1d3 [upasundas](ref/monster/asura-upasunda) 50%)
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, See invisibility
+::: statblock
+Ability scores: Str 20, Dex 25, Con 25, Int 18, Wis 25, Cha 20
+Base attack bonus: +16
+Combat maneuver bonus: +22 (+24 trip)
+Combat maneuver defense: 40 (42 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Deflect Arrows, Dodge, Great Fortitude, Improved Initiative, Improved Trip, Mobility, Spring Attack
+Skills: Bluff +24, Disguise +24, Sense Motive +26, Spellcraft +20, Stealth +22, Use Magic Device +24
+Racial Modifiers: +6 Escape Artist, +4 Perception
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: savor heresy
+:::
 
-**Subtype:** Asura, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 17
-
-**Flat-footed:** 21
-
-**AC modifiers:** +7 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +14
-
-**Ref:** +17
-
-**Will:** +17; +2 vs. enchant.
-
-**Dr:** 10/good
-
-**Immune:** curses, disease, poison
-
-**Regen:** 10 (good)
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 50 ft., fly 50 ft. (perfect)
-
-**Melee:** 2 bites +20 (1d8+5), 2 claws +20 (1d6+5), 2 tongues +20 (1d6+5 plus [trip](ref/umr/trip))
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with tongues
-
-**Rend:** 2 tongues, 1d6+7
-
-**Space:** 10
-
-**Spec Att:** pervert miracle
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law, see invisibility
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, invisibility, magic aura, veil, self only,
-  ventriloquism (DC 16)
-
-**Per day:**
-
-- 3/day: bless, cure serious wounds, good hope, neutralize poison, remove blindness/deafness, remove
-  curse, remove disease
-- 1/day: blasphemy (DC 22), dream, limited wish, summon (level 6, 1d3
-  [upasundas](ref/monster/asura-upasunda) 50%)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 25, Con 25, Int 18, Wis 25, Cha 20
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +22 (+24 trip)
-
-**Combat maneuver defense:** 40 (42 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Deflect Arrows, Dodge, Great Fortitude, Improved
-Initiative, Improved Trip, Mobility, Spring Attack
-
-**Skills:** Bluff +24, Disguise +24, Sense Motive +26, Spellcraft +20, Stealth +22, Use Magic Device
-+24
-
-**Racial Modifiers:** +6 Escape Artist, +4 Perception
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** savor heresy
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary or perversion (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary or perversion (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

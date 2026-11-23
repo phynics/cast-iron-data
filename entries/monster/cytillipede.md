@@ -33,77 +33,61 @@ abilities = ["23", "13", "18", "6", "10", "2"]
 _This segmented creature has a chitinous body covered in patches of glowing, purple fungus. Syrupy
 venom drips from its mandibles._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +5
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft.
+Experience points: 2,400
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 20
+AC modifiers: +1 Dex, +11 natural, -1 size
+Hit points: 76 (8d10+32)
+Fort: +10
+Ref: +7
+Will: +2
+Immune: mind-affecting effects
+Sr: 17
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +14 (2d6+9 plus poison)
+Reach: 5
+Space: 10
+Spec Att: cytillesh flash, poison
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 23, Dex 13, Con 18, Int 6, Wis 10, Cha 2
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Ability Focus (cytillesh flash), Improved Initiative, Power Attack, Weapon Focus (bite)
+Skills: Climb +21, Perception +11
+Racial Modifiers: +4 Perception
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +11 natural, -1 size
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +14 (2d6+9 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** cytillesh flash, poison
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 13, Con 18, Int 6, Wis 10, Cha 2
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Ability Focus (cytillesh flash), Improved Initiative, Power Attack, Weapon Focus (bite)
-
-**Skills:** Climb +21, Perception +11
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

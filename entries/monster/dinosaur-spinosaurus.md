@@ -29,76 +29,60 @@ abilities = ["34", "15", "18", "2", "13", "13"]
 _This titanic saurian has a crocodilian snout, powerful front claws, and a colorful sail-like ridge
 that runs down its back._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: animal
+Size: gargantuan
+Initiative: +6
+Alignment: Neutral
+Perception: +25
+Senses: Low-light vision, Scent
+Experience points: 12,800
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 22
+AC modifiers: +2 Dex, +16 natural, -4 size
+Hit points: 170 (20d8+80)
+Fort: +16
+Ref: +16
+Will: +9
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., swim 30 ft.
+Melee: bite +23 (2d8+12/19-20 plus [grab](ref/umr/grab)), 2 claws +23 (2d6+12)
+Pounce: present
+Reach: 20
+Space: 20
+Swallow: 2d8+12, AC 18, 17 hp
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 34, Dex 15, Con 18, Int 2, Wis 13, Cha 13
+Base attack bonus: +15
+Combat maneuver bonus: +31 (+35 grapple)
+Combat maneuver defense: 43
+Feats: Critical Focus, Diehard, Endurance, Improved Critical (bite), Improved Initiative, Iron Will, Lightning Reflexes, Run, Skill Focus (Perception), Staggering Critical
+Skills: Perception +25, Swim +28
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +16 natural, -4 size
-
-**Hit points:** 170 (20d8+80)
-
-**Fort:** +16
-
-**Ref:** +16
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 40 ft., swim 30 ft.
-
-**Melee:** bite +23 (2d8+12/19-20 plus [grab](ref/umr/grab)), 2 claws +23 (2d6+12)
-
-**Pounce:** present
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 2d8+12, AC 18, 17 hp
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 15, Con 18, Int 2, Wis 13, Cha 13
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +31 (+35 grapple)
-
-**Combat maneuver defense:** 43
-
-**Feats:** Critical Focus, Diehard, Endurance, Improved Critical (bite), Improved Initiative, Iron
-Will, Lightning Reflexes, Run, Skill Focus (Perception), Staggering Critical
-
-**Skills:** Perception +25, Swim +28
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm forests or swamps
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or swamps
+Organization: solitary, pair, or pack (3-6)
+Treasure: None
+:::
 
 ### Description
 

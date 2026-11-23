@@ -31,84 +31,64 @@ abilities = ["18", "17", "-", "7", "16", "17"]
 _This gaunt humanoid has pale, translucent skin and is arched backward, scuttling on its hands and
 feet. A mass of barbed, black tentacles extends from its exposed abdomen._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft., Scent
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 67 (9d8+27)
+Fort: +6
+Ref: +6
+Will: +9
+Immune: acid, cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 40 ft., climb 40 ft., swim 30 ft.
+Bleed: 1d4
+Constrict: 3d6+6 plus 1d4 Str damage
+Melee: barbed tentacles +11 (3d6+6 plus bleed and [grab](ref/umr/grab) and pull)
+Pull: barbed tentacles, 15 ft.
+Reach: 15
+Space: 5
+Spec Att: tear
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 18, Dex 17, Con -, Int 7, Wis 16, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +10 (+14 grapple)
+Combat maneuver defense: 23
+Feats: Combat Reflexes, Improved Initiative, Skill Focus (Perception), Step Up, Weapon Focus (barbed tentacles)
+Skills: Acrobatics +7 (+11 when jumping), Climb +16
+Languages: Aboleth; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: grip, hive hunt
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +9
-
-**Immune:** acid, cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft., swim 30 ft.
-
-**Bleed:** 1d4
-
-**Constrict:** 3d6+6 plus 1d4 Str damage
-
-**Melee:** barbed tentacles +11 (3d6+6 plus bleed and [grab](ref/umr/grab) and pull)
-
-**Pull:** barbed tentacles, 15 ft.
-
-**Reach:** 15
-
-**Space:** 5
-
-**Spec Att:** tear
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con -, Int 7, Wis 16, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10 (+14 grapple)
-
-**Combat maneuver defense:** 23
-
-**Feats:** Combat Reflexes, Improved Initiative, Skill Focus (Perception), Step Up, Weapon Focus
-(barbed tentacles)
-
-**Skills:** Acrobatics +7 (+11 when jumping), Climb +16
-
-**Languages:** Aboleth; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** grip, hive hunt
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or cluster (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,81 +30,63 @@ abilities = ["18", "13", "-", "11", "12", "17"]
 _This obscenely bloated and stretched human corpse jingles as it moves. Coins tumble from its mouth
 and from the exposed wounds that cover its hideously distended body._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +1
+Size: large
+Alignment: Neutral evil
+Perception: +11
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 59 (7d8+28)
+Fort: +5
+Ref: +3
+Will: +6
+Defensive abilities: smeltable
+Dr: 5/slashing
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: electricity 10
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +8 (1d8+4 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: suffocating wealth
+Strangle: present
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 18, Dex 13, Con -, Int 11, Wis 12, Cha 17
+Base attack bonus: +5
+Combat maneuver bonus: +10 (+16 grapple)
+Combat maneuver defense: 21 (23 vs. grapple)
+Feats: Improved Grapple, Improved Natural Attack (slam), Power Attack, Toughness
+Skills: Climb +14, Intimidate +13, Perception +11, Stealth +7
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +6
-
-**Defensive abilities:** smeltable
-
-**Dr:** 5/slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** electricity 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +8 (1d8+4 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** suffocating wealth
-
-**Strangle:** present
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con -, Int 11, Wis 12, Cha 17
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10 (+16 grapple)
-
-**Combat maneuver defense:** 21 (23 vs. grapple)
-
-**Feats:** Improved Grapple, Improved Natural Attack (slam), Power Attack, Toughness
-
-**Skills:** Climb +14, Intimidate +13, Perception +11, Stealth +7
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or entombment (3-12)
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary, pair, or entombment (3-12)
+Treasure: Double
+:::
 
 ### Special Abilities
 

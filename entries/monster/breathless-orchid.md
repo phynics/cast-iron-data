@@ -31,71 +31,58 @@ abilities = ["10", "17", "14", "-", "13", "7"]
 _This colorful plant has long, thin leaves and three prominent, bright pink pistils that reach
 elegantly toward the sky._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 30
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Type: plant
+Experience points: 600
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +4
+Will: +2
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Melee: slam +5 (1d4 plus attach)
+Spec Att: extract air
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 10, Dex 17, Con 14, Int -, Wis 13, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +2 (+10 grapple when attached)
+Combat maneuver defense: 15 (can't be tripped)
+Feats: Weapon Finesse
+Special qualities: camouflage
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +2
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** slam +5 (1d4 plus attach)
-
-**Spec Att:** extract air
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 14, Int -, Wis 13, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2 (+10 grapple when attached)
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Feats:** Weapon Finesse
-
-**Special qualities:** camouflage
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or patch (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or patch (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

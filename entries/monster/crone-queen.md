@@ -34,115 +34,77 @@ abilities = ["23", "20", "-", "19", "17", "18"]
 _A cold, hateful light burns in the eye sockets of this corpse-like creature, whose withered skin is
 stretched over its icy bones._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: fear aura (30 ft., DC 25)
+Initiative: +9
+Lifesense: present
+Size: medium
+Alignment: Neutral evil
+Perception: +32
+Senses: Darkvision 60 ft.
+Subtype: Cold
+Type: undead
+Experience points: 51,200
+:::
 
-**aura:** fear aura (30 ft., DC 25)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 30
+Touch: 16
+Flat-footed: 24
+AC modifiers: +4 armor, +5 Dex, +1 Dodge, +10 natural
+Hit points: 209 (22d8+110)
+Fort: +13
+Ref: +14
+Will: +18
+Chan Res: +4
+Dr: 10/cold iron and slashing
+Fh: 10
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 26
+Vulner: fire
+:::
 
-**Lifesense:** present
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+E Drain: 2 levels, DC 25
+Melee: ice staff +27/+22/+17/+12 (1d6+14 plus 1d6 cold and energy drain) or 2 claws +22 (1d6+6 plus 1d6 cold and energy drain)
+Spec Att: cold, hexes ([blight](ref/hex/blight), [evil eye](ref/hex/evil-eye), [hoarfrost](ref/hex/hoarfrost), [ice tomb](ref/hex/ice-tomb), [misfortune](ref/hex/misfortune)), ice staff, unearthly cold
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +23
+Constant: mage armor
+At will: frost fall (DC 16), !_ice missile_, as [magic missile](ref/spell/magic-missile) but deals cold damage, obscuring mist, screech (DC 17)
+Per day: 3/day: bestow curse (DC 17), crushing despair (DC 18), ice storm, unshakable chill (DC 16), wall of ice (DC 18)\
+1/day: cone of cold (DC 19), freezing sphere (DC 20), polar ray
+:::
 
-**Perception:** +32
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 23, Dex 20, Con -, Int 19, Wis 17, Cha 18
+Base attack bonus: +16
+Combat maneuver bonus: +22
+Combat maneuver defense: 38
+Feats: Alertness, Combat Casting, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Lunge, Mobility, Power Attack, Toughness
+Skills: Intimidate +29, Knowledge (arcana, history, nobility) +27, Perception +32, Sense Motive +32, Spellcraft +29, Stealth +30
+Languages: Aklo, Common, Draconic, Giant, Sylvan
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 16
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 armor, +5 Dex, +1 Dodge, +10 natural
-
-**Hit points:** 209 (22d8+110)
-
-**Fort:** +13
-
-**Ref:** +14
-
-**Will:** +18
-
-**Chan Res:** +4
-
-**Dr:** 10/cold iron and slashing
-
-**Fh:** 10
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 26
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**E Drain:** 2 levels, DC 25
-
-**Melee:** ice staff +27/+22/+17/+12 (1d6+14 plus 1d6 cold and energy drain) or 2 claws +22 (1d6+6
-plus 1d6 cold and energy drain)
-
-**Spec Att:** cold, hexes ([blight](ref/hex/blight), [evil eye](ref/hex/evil-eye),
-[hoarfrost](ref/hex/hoarfrost), [ice tomb](ref/hex/ice-tomb), [misfortune](ref/hex/misfortune)), ice
-staff, unearthly cold
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +23
-
-**Constant:**
-
-- mage armor
-
-**At will:**
-
-- frost fall (DC 16), !_ice missile_, as [magic missile](ref/spell/magic-missile) but deals cold
-  damage, obscuring mist, screech (DC 17)
-
-**Per day:**
-
-- 3/day: bestow curse (DC 17), crushing despair (DC 18), ice storm, unshakable chill (DC 16), wall
-  of ice (DC 18)
-- 1/day: cone of cold (DC 19), freezing sphere (DC 20), polar ray
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 20, Con -, Int 19, Wis 17, Cha 18
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 38
-
-**Feats:** Alertness, Combat Casting, Dodge, Great Fortitude, Improved Initiative, Iron Will,
-Lightning Reflexes, Lunge, Mobility, Power Attack, Toughness
-
-**Skills:** Intimidate +29, Knowledge (arcana, history, nobility) +27, Perception +32, Sense Motive
-+32, Spellcraft +29, Stealth +30
-
-**Languages:** Aklo, Common, Draconic, Giant, Sylvan
-
-**Ecology**
-
-**Environment:** cold ruins
-
-**Organization:** solitary, coven (3-6), or court (12-14)
-
-**Treasure:** Double
+::: statblock
+Environment: cold ruins
+Organization: solitary, coven (3-6), or court (12-14)
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -30,88 +30,68 @@ abilities = ["19", "14", "-", "13", "14", "15"]
 _Shreds of leathery flesh cling to this skeletal figure's body, while twin motes of fiery light glow
 deep in its eye sockets._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: fear (10 ft., frightened for 1d4 rounds, Will DC 16 negates)
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Type: undead
+Experience points: 1,600
+:::
 
-**aura:** fear (10 ft., frightened for 1d4 rounds, Will DC 16 negates)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +2 Dex, +1 dodge, +6 natural
+Hit points: 52 (8d8+16)
+Fort: +4
+Ref: +6
+Will: +8
+Chan Res: +2
+Dr: 10/bludgeoning or magic
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +10 (1d8+4)
+Spec Att: teleporting burst
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+Per day: 3/day: quickened dimension door
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 19, Dex 14, Con -, Int 13, Wis 14, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 23
+Feats: Alertness, Dodge, Improved Initiative, Lightning Reflexes
+Skills: Bluff +6, Intimidate +13, Knowledge (arcana) +6, Knowledge (dungeoneering) +5, Perception +15, Sense Motive +15, Stealth +9
+Languages: Common
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 natural
-
-**Hit points:** 52 (8d8+16)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +8
-
-**Chan Res:** +2
-
-**Dr:** 10/bludgeoning or magic
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +10 (1d8+4)
-
-**Spec Att:** teleporting burst
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**Per day:**
-
-- 3/day: quickened dimension door
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con -, Int 13, Wis 14, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23
-
-**Feats:** Alertness, Dodge, Improved Initiative, Lightning Reflexes
-
-**Skills:** Bluff +6, Intimidate +13, Knowledge (arcana) +6, Knowledge (dungeoneering) +5,
-Perception +15, Sense Motive +15, Stealth +9
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

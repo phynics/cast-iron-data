@@ -28,71 +28,60 @@ abilities = ["14", "12", "-", "-", "11", "15"]
 _This humanoid head floats silently and ominously, bits of flesh still hanging from its face and
 graying teeth clattering slightly as it bobs in the air._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: small
+Type: undead
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 14
+AC modifiers: +1 Dex, +3 natural, +1 size
+Hit points: 30 (4d8+12)
+Fort: +3
+Ref: +2
+Will: +4
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: bite +6 (1d4+2 plus petrifying bite)
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +3 natural, +1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** bite +6 (1d4+2 plus petrifying bite)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 12, Con -, Int -, Wis 11, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Feats:** Flyby Attack^B^
-
-**Languages:** Common
+::: statblock
+Ability scores: Str 14, Dex 12, Con -, Int -, Wis 11, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 15 (can't be tripped)
+Feats: Flyby Attack^B^
+Languages: Common
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, or trio
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or trio
+Treasure: None
+:::
 
 ### Special Abilities
 

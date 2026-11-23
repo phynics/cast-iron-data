@@ -28,67 +28,56 @@ abilities = ["13", "13", "15", "2", "12", "6"]
 
 _This small dog has a rough coat and a hungry look in its dark brown eyes._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 12
+AC modifiers: +1 Dex, +1 natural, +1 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +3
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 40 ft.
+Melee: bite +2 (1d4+1)
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 13, Con 15, Int 2, Wis 12, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 11 (15 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Acrobatics +1 (+9 jumping), Perception +8
+Racial Modifiers: +4 Acrobatics when jumping, +4 Survival when tracking by scent
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +1 natural, +1 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +2 (1d4+1)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 13, Con 15, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11 (15 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Acrobatics +1 (+9 jumping), Perception +8
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Survival when tracking by scent
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Description
 

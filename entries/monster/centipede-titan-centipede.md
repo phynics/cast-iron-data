@@ -30,75 +30,60 @@ abilities = ["43", "11", "29", "-", "10", "2"]
 _A writhing, seemingly endless segmented monstrosity crawls forth, its great mandibles clacking as
 it spies prey._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: colossal
+Initiative: +0
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 6,400
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 21
+Touch: 2
+Flat-footed: 21
+AC modifiers: +19 natural, -8 size
+Hit points: 135 (10d8+90)
+Fort: +16
+Ref: +3
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 60 ft., climb 60 ft.
+Melee: bite +15 (4d6+24 plus poison)
+Reach: 30
+Space: 30
+Trample: 6d6+24, DC 31
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 43, Dex 11, Con 29, Int -, Wis 10, Cha 2
+Base attack bonus: +7
+Combat maneuver bonus: +31
+Combat maneuver defense: 41 (can't be tripped)
+Skills: Climb +24, Perception +4, Stealth -8
+Racial Modifiers: +4 Perception, +8 Stealth
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 2
-
-**Flat-footed:** 21
-
-**AC modifiers:** +19 natural, -8 size
-
-**Hit points:** 135 (10d8+90)
-
-**Fort:** +16
-
-**Ref:** +3
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 60 ft., climb 60 ft.
-
-**Melee:** bite +15 (4d6+24 plus poison)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Trample:** 6d6+24, DC 31
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 11, Con 29, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 41 (can't be tripped)
-
-**Skills:** Climb +24, Perception +4, Stealth -8
-
-**Racial Modifiers:** +4 Perception, +8 Stealth
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate or warm forests or underground
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests or underground
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

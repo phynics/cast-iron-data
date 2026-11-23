@@ -30,96 +30,70 @@ abilities = ["13", "15", "18", "18", "16", "17"]
 _Wide of chest and waist, this finely dressed man has a graymuzzled raccoon's head and beady,
 darting eyes._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +2
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Agathion, Extraplanar, Good
+Experience points: 4,800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 natural
+Hit points: 95 (10d10+40)
+Fort: +11
+Ref: +9
+Will: +6; +4 vs. poison
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +1 short sword +12/+7 (1d6+2/19-20) or 2 claws +11 (1d4+1)
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Constant: speak with animals
+At will: calm emotions (DC 15), magic aura (DC 14), suggestion (DC 16)
+Per day: 3/day: charm monster (DC 17), dispel magic, dimension door, self plus 50 lbs. of objects only, heroism, invisibility, shadow conjuration (DC 17)\
+1/day: blood biography (DC 16), dominate person (DC 18), spiritual ally
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Agathion, Extraplanar, Good
+::: statblock
+Ability scores: Str 13, Dex 15, Con 18, Int 18, Wis 16, Cha 17
+Base attack bonus: +10
+Combat maneuver bonus: +11 (+15 dirty trick)
+Combat maneuver defense: 23 (25 vs. dirty trick)
+Feats: Combat Expertise, Deceitful, Greater Dirty Trick, Improved Dirty Trick, Spell Penetration
+Skills: Bluff +20, Diplomacy +16, Disguise +20, Perform (act) +16, Sense Motive +16, Sleight of Hand +15, Stealth +15
+Languages: Celestial, Common, Draconic, Halfling; _speak with animals, truespeech_
+Special qualities: fabricated forgery, imitator
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 natural
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +6; +4 vs. poison
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 short sword +12/+7 (1d6+2/19-20) or 2 claws +11 (1d4+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- calm emotions (DC 15), magic aura (DC 14), suggestion (DC 16)
-
-**Per day:**
-
-- 3/day: charm monster (DC 17), dispel magic, dimension door, self plus 50 lbs. of objects only,
-  heroism, invisibility, shadow conjuration (DC 17)
-- 1/day: blood biography (DC 16), dominate person (DC 18), spiritual ally
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 18, Int 18, Wis 16, Cha 17
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +11 (+15 dirty trick)
-
-**Combat maneuver defense:** 23 (25 vs. dirty trick)
-
-**Feats:** Combat Expertise, Deceitful, Greater Dirty Trick, Improved Dirty Trick, Spell Penetration
-
-**Skills:** Bluff +20, Diplomacy +16, Disguise +20, Perform (act) +16, Sense Motive +16, Sleight of
-Hand +15, Stealth +15
-
-**Languages:** Celestial, Common, Draconic, Halfling; _speak with animals, truespeech_
-
-**Special qualities:** fabricated forgery, imitator
-
-**Ecology**
-
-**Environment:** any urban ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary or party (3-4)
-
-**Treasure:** Standard (+1 short sword); other treasure
+::: statblock
+Environment: any urban ([Nirvana](ref/rule/nirvana))
+Organization: solitary or party (3-4)
+Treasure: Standard (+1 short sword); other treasure
+:::
 
 ### Special Abilities
 

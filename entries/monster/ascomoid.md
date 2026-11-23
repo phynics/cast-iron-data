@@ -33,81 +33,65 @@ abilities = ["18", "13", "17", "-", "11", "1"]
 _This misshapen sphere of pale yellow-green fungus rolls with an unnerving speed, spewing clouds of
 foul spores as it advances._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +0
+Type: plant
+tremorsense: 60
+Experience points: 1,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 16
+AC modifiers: +1 Dex, +7 natural, -1 size
+Hit points: 52 (7d8+21)
+Fort: +8
+Ref: +3
+Will: +2
+Dr: 10/piercing
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: electricity 10, fire 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 40 ft.
+Melee: slam +8 (2d8+6)
+Reach: 5
+Space: 10
+Spec Att: poison, spores
+Trample: 2d8+6, DC 17
+:::
 
-**Type:** plant
+### Statistics
 
-**tremorsense:** 60
-
-**Experience points:** 1,600
-
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +7 natural, -1 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +8
-
-**Ref:** +3
-
-**Will:** +2
-
-**Dr:** 10/piercing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** slam +8 (2d8+6)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** poison, spores
-
-**Trample:** 2d8+6, DC 17
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 17, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Feats:** Improved Overrun^B^
+::: statblock
+Ability scores: Str 18, Dex 13, Con 17, Int -, Wis 11, Cha 1
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 21 (can't be tripped)
+Feats: Improved Overrun^B^
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** underground
-
-**Organization:** solitary or cluster (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: underground
+Organization: solitary or cluster (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

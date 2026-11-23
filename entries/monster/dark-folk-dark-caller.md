@@ -30,103 +30,72 @@ abilities = ["14", "17", "14", "13", "13", "18"]
 
 _Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent magic._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: +8
+Senses: Detect magic, See in darkness
+Subtype: Dark folk
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +3 natural
+Hit points: 52 (8d8+16)
+Fort: +4
+Ref: +9
+Will: +3
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +10/+5 (1d4+2/19-20 plus black smear poison)
+Sneak: +2d6
+Spec Att: death throes
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +12
+Constant: detect magic
+At will: bleed (DC 14)
+Per day: 3/day: deeper darkness, shadow step\
+1/day: shadow conjuration (DC 18)
+:::
 
-**Senses:** Detect magic, See in darkness
+### Statistics
 
-**Subtype:** Dark folk
+::: statblock
+Ability scores: Str 14, Dex 17, Con 14, Int 13, Wis 13, Cha 18
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 22
+Feats: Augment Summoning, Dodge, Spell Focus (conjuration), Weapon Finesse
+Skills: Climb +6, Intimidate +5, Knowledge (arcana) +9, Perception +8, Stealth +10, Use Magic Device +5
+Racial Modifiers: +4 Climb, +4 Perception, +4 Stealth
+Languages: Dark Folk, Undercommon
+Special qualities: [poison use](ref/ability/poison-use), shadow ritual
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +3 natural
-
-**Hit points:** 52 (8d8+16)
-
-**Fort:** +4
-
-**Ref:** +9
-
-**Will:** +3
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dagger +10/+5 (1d4+2/19-20 plus black smear poison)
-
-**Sneak:** +2d6
-
-**Spec Att:** death throes
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- bleed (DC 14)
-
-**Per day:**
-
-- 3/day: deeper darkness, shadow step
-- 1/day: shadow conjuration (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 14, Int 13, Wis 13, Cha 18
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 22
-
-**Feats:** Augment Summoning, Dodge, Spell Focus (conjuration), Weapon Finesse
-
-**Skills:** Climb +6, Intimidate +5, Knowledge (arcana) +9, Perception +8, Stealth +10, Use Magic
-Device +5
-
-**Racial Modifiers:** +4 Climb, +4 Perception, +4 Stealth
-
-**Languages:** Dark Folk, Undercommon
-
-**Special qualities:** [poison use](ref/ability/poison-use), shadow ritual
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or gang (1 plus 2-5
-[dark stalkers](ref/monster/dark-folk-dark-stalker)), or clan (20-80
-[dark creepers](ref/monster/dark-folk-dark-creeper) plus 1 dark stalker and dark caller per 20 dark
-creepers)
-
-**Treasure:** Standard (mwk dagger); [black smear](ref/eq-poison/black-smear) \[2 doses\], other
-gear
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or gang (1 plus 2-5 [dark stalkers](ref/monster/dark-folk-dark-stalker)), or clan (20-80 [dark creepers](ref/monster/dark-folk-dark-creeper) plus 1 dark stalker and dark caller per 20 dark creepers)
+Treasure: Standard (mwk dagger); [black smear](ref/eq-poison/black-smear) \[2 doses\], other gear
+:::
 
 ### Special Abilities
 

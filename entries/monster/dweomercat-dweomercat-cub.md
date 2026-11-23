@@ -30,92 +30,69 @@ abilities = ["9", "15", "10", "9", "12", "14"]
 _Its coat shining vividly, this majestic tiger looks exotic and otherworldly. It gazes with piercing
 yellow eyes and stands calmly, as though fearless._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Initiative: +2
+Type: Magical beast
+Perception: +5
+Senses: Darkvision 60 ft., Scent
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 dodge, +1 natural, +2 size
+Hit points: 16 (3d10)
+Fort: +3
+Ref: +5
+Will: +2
+Dr: 5/magic
+Sr: 14
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft.
+Melee: 2 claws +7 (1d2-1), bite +7 (1d3-1)
+Pounce: present
+Rake: 2 claws +6, 1d2-1
+Spec Att: dweomer leap
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Constant: detect magic
+Per week: dimension door, self only
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 9, Dex 15, Con 10, Int 9, Wis 12, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 13 (17 vs. trip)
+Feats: Dodge, Weapon Finesse
+Skills: Climb +3, Knowledge (arcana) +0, Perception +5, Stealth +4
+Racial Modifiers: +4 Climb
+Languages: Common, Sylvan
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 dodge, +1 natural, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +2
-
-**Dr:** 5/magic
-
-**Sr:** 14
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 claws +7 (1d2-1), bite +7 (1d3-1)
-
-**Pounce:** present
-
-**Rake:** 2 claws +6, 1d2-1
-
-**Spec Att:** dweomer leap
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Constant:**
-
-- detect magic
-
-**Per week:**
-
-- dimension door, self only
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 15, Con 10, Int 9, Wis 12, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 13 (17 vs. trip)
-
-**Feats:** Dodge, Weapon Finesse
-
-**Skills:** Climb +3, Knowledge (arcana) +0, Perception +5, Stealth +4
-
-**Racial Modifiers:** +4 Climb
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary or ambush (1-3 [dweomercats](ref/monster/dweomercat) and 2-12 dweomercat
-cubs)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest
+Organization: solitary or ambush (1-3 [dweomercats](ref/monster/dweomercat) and 2-12 dweomercat cubs)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

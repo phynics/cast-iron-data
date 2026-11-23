@@ -32,107 +32,75 @@ abilities = ["12", "15", "11", "10", "15", "10"]
 
 _This stag-headed humanoid has large, sweeping antlers and wields a finely-crafted longbow._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: aura of menace (20 ft., DC 15, 10 rounds)
+Initiative: +2
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Detect evil, Low-light vision
+Subtype: Archon, Extraplanar, Good, Lawful, Shapechanger
+Experience points: 1,200
+:::
 
-**aura:** aura of menace (20 ft., DC 15, 10 rounds)
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 33 (6d10)
+Fort: +5
+Ref: +4
+Will: +7; +4 vs. poison
+Dr: 10/evil
+Immune: electricity, petrification
+Sr: 15
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: gore +7 (1d6+1 plus push)
+Push: present
+Ranged: mwk longbow +9/+4 (1d8/×3)
+Spec Att: (gore, 10 ft.)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +6
+Constant: detect evil
+At will: aid, animal messenger, dancing lights, greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: charm animal, true strike
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 15, Con 11, Int 10, Wis 15, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 19
+Feats: Point-Blank Shot, Precise Shot, Rapid Shot
+Skills: Acrobatics +11, Knowledge (nature) +9, Perception +11
+Racial Modifiers: +3 Survival when following tracks
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: [favored terrain](ref/ability/favored-terrain) (forest +2), [change shape](ref/umr/change-shape) (Large [stag](ref/monster/herd-animal-stag); [beast shape II](ref/spell/beast-shape-2))
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful, Shapechanger
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 33 (6d10)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +7; +4 vs. poison
-
-**Dr:** 10/evil
-
-**Immune:** electricity, petrification
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +7 (1d6+1 plus push)
-
-**Push:** present
-
-**Ranged:** mwk longbow +9/+4 (1d8/×3)
-
-**Spec Att:** (gore, 10 ft.)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +6
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- aid, animal messenger, dancing lights, greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: charm animal, true strike
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 11, Int 10, Wis 15, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19
-
-**Feats:** Point-Blank Shot, Precise Shot, Rapid Shot
-
-**Skills:** Acrobatics +11, Knowledge (nature) +9, Perception +11
-
-**Racial Modifiers:** +3 Survival when following tracks
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (forest +2),
-[change shape](ref/umr/change-shape) (Large [stag](ref/monster/herd-animal-stag);
-[beast shape II](ref/spell/beast-shape-2))
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or band (3-5)
-
-**Treasure:** Standard (mwk longbow); other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or band (3-5)
+Treasure: Standard (mwk longbow); other treasure
+:::
 
 ### Description
 

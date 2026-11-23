@@ -32,104 +32,73 @@ abilities = ["17", "16", "18", "14", "15", "17"]
 
 _Jagged, twisting antlers of dark blue ice crown the helm of this ice-armored humanoid figure._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: fey
+Initiative: +7
+Size: medium
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 19
+AC modifiers: +9 armor, +3 Dex
+Hit points: 97 (13d6+52)
+Fort: +8
+Ref: +11
+Will: +10
+Defensive abilities: implements of ice
+Fh: 5
+Immune: cold
+Sr: 19
+Vulner: fire and sonic
+Weaknesses: susceptible to _[shatter](ref/spell/shatter)_
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: +2 [icy burst](ref/magic-enh/icy-burst) glaive +12/+7 (1d10+6/×3 plus 1d6 cold), gore +4 (2d6+1 plus 1d6 cold)
+Sp Extra: icewalking
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Constant: pass without trace
+At will: chill metal (DC 15), deep slumber (DC 16), ghost sound (DC 13), obscuring mist, phantom steed, ray of frost
+Per day: 1/day: freedom of movement, ice storm
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Cold
+::: statblock
+Ability scores: Str 17, Dex 16, Con 18, Int 14, Wis 15, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Improved Initiative, Mounted Combat, Ride-By Attack, Skill Focus (Ride), Spirited Charge, Trample, Weapon Focus (glaive)
+Skills: Acrobatics +19, Handle Animal +16, Ride +22, Sense Motive +18, Stealth +19
+Languages: Common, Elven, Sylvan
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +9 armor, +3 Dex
-
-**Hit points:** 97 (13d6+52)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +10
-
-**Defensive abilities:** implements of ice
-
-**Fh:** 5
-
-**Immune:** cold
-
-**Sr:** 19
-
-**Vulner:** fire and sonic
-
-**Weaknesses:** susceptible to _[shatter](ref/spell/shatter)_
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 [icy burst](ref/magic-enh/icy-burst) glaive +12/+7 (1d10+6/×3 plus 1d6 cold), gore +4
-(2d6+1 plus 1d6 cold)
-
-**Sp Extra:** icewalking
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Constant:**
-
-- pass without trace
-
-**At will:**
-
-- chill metal (DC 15), deep slumber (DC 16), ghost sound (DC 13), obscuring mist, phantom steed, ray
-  of frost
-
-**Per day:**
-
-- 1/day: freedom of movement, ice storm
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 18, Int 14, Wis 15, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Improved Initiative, Mounted Combat, Ride-By Attack, Skill Focus (Ride), Spirited Charge,
-Trample, Weapon Focus (glaive)
-
-**Skills:** Acrobatics +19, Handle Animal +16, Ride +22, Sense Motive +18, Stealth +19
-
-**Languages:** Common, Elven, Sylvan
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary, pair, or cavalry (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any cold
+Organization: solitary, pair, or cavalry (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

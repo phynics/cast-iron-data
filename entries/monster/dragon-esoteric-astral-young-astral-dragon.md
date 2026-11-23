@@ -29,113 +29,82 @@ abilities = ["21", "14", "16", "17", "16", "12"]
 
 _This majestic dragon seems to shimmer as if surrounded by thousands of eddies of astral thought._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: [mental static](ref/umr/mental-static-aura) (30 ft., DC 16)
+Type: dragon
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +16
+Senses: Dragon senses
+Senses: See invisibility
+Subtype: Extraplanar
+Experience points: 6,400
+:::
 
-**aura:** [mental static](ref/umr/mental-static-aura) (30 ft., DC 16)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 19
+AC modifiers: +2 Dex, +10 natural, -1 size
+Hit points: 95 (10d12+30)
+Fort: +10
+Ref: +9
+Will: +10; +4 vs. psychic spells
+Defensive abilities: psychic resilience
+Immune: paralysis, sleep
+Sr: 20
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., fly 200 ft. (poor)
+Br Weap: 80-ft. line, DC 18, 6d6 force
+Melee: bite +15 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12 (1d8+7)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Psychic Magic"
+Caster level: 10
+Concentration: +13
+Power points: 5
+Psychoactive powers: deja vu, 1 PE, telekinetic projectile, 0 PE
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: burst of insight, sundering shards (DC 14)
+Cantrips: At will: daze (DC 13), detect magic, mage hand, open/close
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Senses:** See invisibility
+::: statblock
+Ability scores: Str 21, Dex 14, Con 16, Int 17, Wis 16, Cha 12
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Flyby Attack, Improved Initiative, Multiattack, Power Attack, Weapon Focus (bite)
+Skills: Appraise +16, Diplomacy +14, Sense Motive +16
+Languages: Celestial, Common, Draconic
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +10 natural, -1 size
-
-**Hit points:** 95 (10d12+30)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +10; +4 vs. psychic spells
-
-**Defensive abilities:** psychic resilience
-
-**Immune:** paralysis, sleep
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 40 ft., fly 200 ft. (poor)
-
-**Br Weap:** 80-ft. line, DC 18, 6d6 force
-
-**Melee:** bite +15 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12 (1d8+7)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Psychic Magic**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Power points:** 5
-
-**Psychoactive powers:**
-
-- deja vu, 1 PE, telekinetic projectile, 0 PE
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: burst of insight, sundering shards (DC 14)
-
-**Cantrips:**
-
-- At will: daze (DC 13), detect magic, mage hand, open/close
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 14, Con 16, Int 17, Wis 16, Cha 12
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Flyby Attack, Improved Initiative, Multiattack, Power Attack, Weapon Focus (bite)
-
-**Skills:** Appraise +16, Diplomacy +14, Sense Motive +16
-
-**Languages:** Celestial, Common, Draconic
-
-**Ecology**
-
-**Environment:** any ([Astral Plane](ref/rule/astral-plane))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Astral Plane](ref/rule/astral-plane))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

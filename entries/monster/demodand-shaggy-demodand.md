@@ -32,110 +32,74 @@ abilities = ["29", "24", "21", "19", "18", "20"]
 _This toad-faced humanoid is bloated and swollen, with folds of obsidian skin hanging down beneath
 two immense bat wings._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+blindsense: 30
+Alignment: Chaotic evil
+Initiative: +11
+Size: medium
+Type: outsider
+Perception: +36
+Senses: Darkvision 60 ft., Detect good, Detect magic, See invisibility
+Subtype: Chaotic, Demodand, Evil, Extraplanar
+Experience points: 153,600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 32
+Touch: 17
+Flat-footed: 25
+AC modifiers: +7 Dex, +15 natural
+Hit points: 262 (25d10+125)
+Fort: +19
+Ref: +17
+Will: +18; +4 vs. divine spells
+Dr: 15/good and magic
+Immune: acid, poison
+Resist: cold 10, fire 10
+Sr: 29
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 50 ft. (average)
+Melee: +2 unholy morningstar +36/+31/+26/+21 (1d8+11), bite +32 (2d6+4), claw +32 (1d6+4) or bite +34 (2d6+9), 2 claws +34 (1d6+9)
+Spec Att: faith-stealing strike (DC 27)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: detect good, detect magic, see invisibility
+At will: detect thoughts (DC 17), fear (DC 19), gaseous form, greater dispel magic, invisibility, self only, magic circle against good
+Per day: 3/day: empowered cloudkill (DC 20), stinking cloud (DC 18)\
+1/day: blasphemy (DC 22), chaos hammer (DC 19), mass charm monster (DC 23), summon (level 6, 1d6 tarry demodands or 1d4 slimy demodands 60%)
+:::
 
-**Perception:** +36
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
+::: statblock
+Ability scores: Str 29, Dex 24, Con 21, Int 19, Wis 18, Cha 20
+Base attack bonus: +25
+Combat maneuver bonus: +34
+Combat maneuver defense: 51
+Feats: Alertness, Cleave, Combat Casting, Combat Reflexes, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (cloudkill), Flyby Attack, Great Cleave, Improved Initiative, Intimidating Prowess, Lightning Reflexes, Multiattack, Power Attack, Quicken Spell-Like Ability (ray of enfeeblement)
+Skills: Acrobatics +35 (+39 when jumping), Bluff +28, Diplomacy +28, Sense Motive +36, Spellcraft +29, Use Magic Device +30
+Languages: Abyssal, Celestial, Common
+Special qualities: heretical soul
+:::
 
-**Subtype:** Chaotic, Demodand, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 32
-
-**Touch:** 17
-
-**Flat-footed:** 25
-
-**AC modifiers:** +7 Dex, +15 natural
-
-**Hit points:** 262 (25d10+125)
-
-**Fort:** +19
-
-**Ref:** +17
-
-**Will:** +18; +4 vs. divine spells
-
-**Dr:** 15/good and magic
-
-**Immune:** acid, poison
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 40 ft., fly 50 ft. (average)
-
-**Melee:** +2 unholy morningstar +36/+31/+26/+21 (1d8+11), bite +32 (2d6+4), claw +32 (1d6+4) or
-bite +34 (2d6+9), 2 claws +34 (1d6+9)
-
-**Spec Att:** faith-stealing strike (DC 27)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- detect good, detect magic, see invisibility
-
-**At will:**
-
-- detect thoughts (DC 17), fear (DC 19), gaseous form, greater dispel magic, invisibility, self
-  only, magic circle against good
-
-**Per day:**
-
-- 3/day: empowered cloudkill (DC 20), stinking cloud (DC 18)
-- 1/day: blasphemy (DC 22), chaos hammer (DC 19), mass charm monster (DC 23), summon (level 6, 1d6
-  tarry demodands or 1d4 slimy demodands 60%)
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 24, Con 21, Int 19, Wis 18, Cha 20
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 51
-
-**Feats:** Alertness, Cleave, Combat Casting, Combat Reflexes, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (cloudkill), Flyby Attack, Great Cleave, Improved
-Initiative, Intimidating Prowess, Lightning Reflexes, Multiattack, Power Attack, Quicken Spell-Like
-Ability (ray of enfeeblement)
-
-**Skills:** Acrobatics +35 (+39 when jumping), Bluff +28, Diplomacy +28, Sense Motive +36,
-Spellcraft +29, Use Magic Device +30
-
-**Languages:** Abyssal, Celestial, Common
-
-**Special qualities:** heretical soul
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or warband (1 shaggy demodand plus 2-5
-[tarry demodands](ref/monster/demodand-tarry-demodand))
-
-**Treasure:** Double (+2 unholy morningstar); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or warband (1 shaggy demodand plus 2-5 [tarry demodands](ref/monster/demodand-tarry-demodand))
+Treasure: Double (+2 unholy morningstar); other treasure
+:::
 
 ### Description
 

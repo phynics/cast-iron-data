@@ -31,121 +31,76 @@ abilities = ["33", "16", "30", "18", "16", "24"]
 _This towering four-armed demon carries an evil-looking scepter in one of its two human hands - the
 other arms end in pincers._
 
-**Challenge rating:** 17
-
 **Male glabrezu [rogue](ref/class/rogue) 8**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic evil
+Size: huge
+Initiative: +7
+Type: outsider
+Perception: +34
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 102,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 32
+Touch: 12
+Flat-footed: 28
+AC modifiers: +3 Dex, +1 dodge, +20 natural, -2 size
+Hit points: 310 (12d10+8d8+208\~20)
+Fort: +20
+Ref: +13
+Will: +13
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/good
+Evasion: present
+Immune: electricity, poison
+Improved uncanny dodge: present
+Resist: acid 10, cold 10, fire 10
+Sr: 24
+Trap S: +2
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +34
+::: statblock
+Speed: 40 ft.
+Melee: 2 pincers +25 (2d8+5/19-20), claw +25 (2d8+5), bite +25 (1d6+5), rod of withering +28 (1d4 Str and 1d4 Con)
+Reach: 15
+Rend: 2 pincers, 2d8+16
+Sneak: +4d6
+Space: 15
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +21
+Constant: true seeing
+At will: chaos hammer (DC 21), confusion (DC 21), dispel magic, mirror image, reverse gravity (DC 24), greater teleport, self plus 50 lbs. of objects only, veil, self only, unholy blight (DC 21)
+Per day: 1/day: power word stun, summon (level 4, 1 glabrezu 20% or 1d2 vrocks 50%)
+Per month: wish, granted to a mortal humanoid only
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Statistics
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 12
-
-**Flat-footed:** 28
-
-**AC modifiers:** +3 Dex, +1 dodge, +20 natural, -2 size
-
-**Hit points:** 310 (12d10+8d8+208\~20)
-
-**Fort:** +20
-
-**Ref:** +13
-
-**Will:** +13
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/good
-
-**Evasion:** present
-
-**Immune:** electricity, poison
-
-**Improved uncanny dodge:** present
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 24
-
-**Trap S:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 pincers +25 (2d8+5/19-20), claw +25 (2d8+5), bite +25 (1d6+5), rod of withering +28
-(1d4 Str and 1d4 Con)
-
-**Reach:** 15
-
-**Rend:** 2 pincers, 2d8+16
-
-**Sneak:** +4d6
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +21
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- chaos hammer (DC 21), confusion (DC 21), dispel magic, mirror image, reverse gravity (DC 24),
-  greater teleport, self plus 50 lbs. of objects only, veil, self only, unholy blight (DC 21)
-
-**Per day:**
-
-- 1/day: power word stun, summon (level 4, 1 glabrezu 20% or 1d2 vrocks 50%)
-
-**Per month:**
-
-- wish, granted to a mortal humanoid only
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 16, Con 30, Int 18, Wis 16, Cha 24
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 45
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Improved Critical (pincers),
-Improved Initiative, Mobility, Persuasive, Power Attack, Spring Attack, Staggering Critical
-
-**Skills:** Bluff +30, Climb +19, Diplomacy +34, Disguise +30, Sense Motive +26, Spellcraft +27,
-Stealth +28
-
-**Languages:** Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +4,
-[combat trick](ref/talent/combat-trick), [honeyed words](ref/talent/honeyed-words),
-[surprise attack](ref/talent/surprise-attack)), [trapfinding](ref/ability/trapfinding) +4
-
-**Combat gear:** rod of rod of withering
-
-**Other gear:** ring of ring of chameleon power, ring of fom
+::: statblock
+Ability scores: Str 33, Dex 16, Con 30, Int 18, Wis 16, Cha 24
+Base attack bonus: +18
+Combat maneuver bonus: +31
+Combat maneuver defense: 45
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Improved Critical (pincers), Improved Initiative, Mobility, Persuasive, Power Attack, Spring Attack, Staggering Critical
+Skills: Bluff +30, Climb +19, Diplomacy +34, Disguise +30, Sense Motive +26, Spellcraft +27, Stealth +28
+Languages: Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +4, [combat trick](ref/talent/combat-trick), [honeyed words](ref/talent/honeyed-words), [surprise attack](ref/talent/surprise-attack)), [trapfinding](ref/ability/trapfinding) +4
+Combat gear: rod of rod of withering
+Other gear: ring of ring of chameleon power, ring of fom
+:::
 
 ### Description
 

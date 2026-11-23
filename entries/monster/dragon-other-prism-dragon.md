@@ -30,121 +30,84 @@ abilities = ["31", "12", "25", "20", "21", "26"]
 
 _The facets of this crystalline dragon's body reflect fascinating and sparkling patterns._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+blindsight: 30
+Alignment: Chaotic neutral
+Type: dragon
+Size: huge
+Initiative: +5
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 102,400
+:::
 
-**blindsight:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 35
+Touch: 9
+Flat-footed: 34
+AC modifiers: +1 Dex, +26 natural, -2 size
+Hit points: 283 (21d12+147)
+Fort: +21
+Ref: +15
+Will: +17; +4 vs. psychic spells
+Defensive abilities: all-around vision, psychic resilience, ray reflection
+Dr: 15/magic
+Immune: acid, electricity, paralysis, sleep
+Sr: 28
+Vulner: sonic
+:::
 
-**Type:** dragon
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 60 ft., climb 30 ft., fly 200 ft. (poor)
+Br Weap: 100-ft. line, 20d6 fire, Reflex DC 27 half, usable every 1d4 rounds
+Melee: bite +30 (2d6+10/19-20), 2 claws +29 (1d8+10), tail slap +27 (2d6+5), 2 wings +27 (1d8+5)
+Reach: 15
+Space: 15
+:::
 
-**Initiative:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 21
+Concentration: +29
+At will: analyze aura, color spray (DC 19), glitterdust (DC 20), mirror image (DC 19)
+Per day: 3/day: invisibility (DC 20), major image (DC 21), rainbow pattern (DC 22)\
+1/day: phantasmal killer (DC 22), prismatic spray (DC 25)
+:::
 
-**Perception:** +28
+::: statblock
+title = "Psychic Magic"
+Caster level: 21
+Concentration: +29
+Power points: 20
+Psychoactive powers: aura alteration, 3 PE, DC 21, emotive block, 3 PE, DC 21, greater possession, 8 PE, DC 26, id insinuation V, 6 PE, DC 24, instigate psychic duel, 2 PE, DC 20, mass synesthesia, 6 PE, DC 24, psychic surgery, 5 PE, DC 25, suggestion, 3 PE, DC 21, synaptic scramble, 4 PE, DC 22
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 31, Dex 12, Con 25, Int 20, Wis 21, Cha 26
+Base attack bonus: +21
+Combat maneuver bonus: +33
+Combat maneuver defense: 44
+Feats: Deceitful, Great Fortitude, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Multiattack, Power Attack, Psychic Combatant, Vital Strike, Weapon Focus (bite)
+Skills: Bluff +35, Climb +31, Intimidate +31, Knowledge (dungeoneering, history, nobility) +28, Perception +28
+Languages: Aklo, Auran, Common, Draconic, Elven, Terran
+Special qualities: dazzling presence, razor sharp
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 35
-
-**Touch:** 9
-
-**Flat-footed:** 34
-
-**AC modifiers:** +1 Dex, +26 natural, -2 size
-
-**Hit points:** 283 (21d12+147)
-
-**Fort:** +21
-
-**Ref:** +15
-
-**Will:** +17; +4 vs. psychic spells
-
-**Defensive abilities:** all-around vision, psychic resilience, ray reflection
-
-**Dr:** 15/magic
-
-**Immune:** acid, electricity, paralysis, sleep
-
-**Sr:** 28
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 60 ft., climb 30 ft., fly 200 ft. (poor)
-
-**Br Weap:** 100-ft. line, 20d6 fire, Reflex DC 27 half, usable every 1d4 rounds
-
-**Melee:** bite +30 (2d6+10/19-20), 2 claws +29 (1d8+10), tail slap +27 (2d6+5), 2 wings +27 (1d8+5)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 21
-
-**Concentration:** +29
-
-**At will:**
-
-- analyze aura, color spray (DC 19), glitterdust (DC 20), mirror image (DC 19)
-
-**Per day:**
-
-- 3/day: invisibility (DC 20), major image (DC 21), rainbow pattern (DC 22)
-- 1/day: phantasmal killer (DC 22), prismatic spray (DC 25)
-
-**Psychic Magic**
-
-**Caster level:** 21
-
-**Concentration:** +29
-
-**Power points:** 20
-
-**Psychoactive powers:**
-
-- aura alteration, 3 PE, DC 21, emotive block, 3 PE, DC 21, greater possession, 8 PE, DC 26, id
-  insinuation V, 6 PE, DC 24, instigate psychic duel, 2 PE, DC 20, mass synesthesia, 6 PE, DC 24,
-  psychic surgery, 5 PE, DC 25, suggestion, 3 PE, DC 21, synaptic scramble, 4 PE, DC 22
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 12, Con 25, Int 20, Wis 21, Cha 26
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 44
-
-**Feats:** Deceitful, Great Fortitude, Improved Critical (bite), Improved Initiative, Improved Vital
-Strike, Lightning Reflexes, Multiattack, Power Attack, Psychic Combatant, Vital Strike, Weapon Focus
-(bite)
-
-**Skills:** Bluff +35, Climb +31, Intimidate +31, Knowledge (dungeoneering, history, nobility) +28,
-Perception +28
-
-**Languages:** Aklo, Auran, Common, Draconic, Elven, Terran
-
-**Special qualities:** dazzling presence, razor sharp
-
-**Ecology**
-
-**Environment:** any mountain or underground
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any mountain or underground
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

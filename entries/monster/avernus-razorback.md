@@ -31,86 +31,65 @@ abilities = ["23", "8", "22", "3", "12", "9"]
 _The coarse, ebon fur of this massive boar is mottled with patches of crimson. Its eyes are blood
 red and its jagged tusks seem more like obsidian than bone._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +3
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Evil, Extraplanar, Fire, Lawful
+Experience points: 6,400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 21
+AC modifiers: -1 Dex, +13 natural, -1 size
+Hit points: 137 (11d10+77)
+Fort: +13
+Ref: +6
+Will: +6
+Defensive abilities: infernal ferocity
+Immune: disease, fire
+Vulner: cold
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Bleed: 1d8
+Melee: gore +16 (2d10+6/19-20 plus bleed), bite +16 (1d8+6)
+Reach: 10
+Space: 10
+Spec Att: devour body and essence
+Trample: 2d10+9, DC 21
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 23, Dex 8, Con 22, Int 3, Wis 12, Cha 9
+Base attack bonus: +11
+Combat maneuver bonus: +18
+Combat maneuver defense: 27
+Feats: Improved Critical (gore), Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Toughness
+Skills: Perception +21
+Languages: Infernal (can't speak)
+:::
 
-**Subtype:** Evil, Extraplanar, Fire, Lawful
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 21
-
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** -1 Dex, +13 natural, -1 size
-
-**Hit points:** 137 (11d10+77)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +6
-
-**Defensive abilities:** infernal ferocity
-
-**Immune:** disease, fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Bleed:** 1d8
-
-**Melee:** gore +16 (2d10+6/19-20 plus bleed), bite +16 (1d8+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** devour body and essence
-
-**Trample:** 2d10+9, DC 21
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 8, Con 22, Int 3, Wis 12, Cha 9
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 27
-
-**Feats:** Improved Critical (gore), Improved Initiative, Iron Will, Power Attack, Skill Focus
-(Perception), Toughness
-
-**Skills:** Perception +21
-
-**Languages:** Infernal (can't speak)
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, herd (3-20), plague (21-100)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, herd (3-20), plague (21-100)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

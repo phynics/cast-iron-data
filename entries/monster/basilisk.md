@@ -29,69 +29,57 @@ abilities = ["16", "8", "15", "2", "13", "11"]
 _This squat, reptilian monster has eight legs, bony spurs jutting from its back, and eyes that glow
 with pale green fire._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: -1
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Initiative:** -1
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: -1 Dex, +8 natural
+Hit points: 52 (7d10+14)
+Fort: +9
+Ref: +4
+Will: +5
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Gaze: present
+Melee: bite +10 (1d8+4)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 8, Con 15, Int 2, Wis 13, Cha 11
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 19 (31 vs. trip)
+Feats: Blind-Fight, Great Fortitude, Iron Will, Skill Focus (Perception)
+Skills: Perception +10, Stealth +10
+Racial Modifiers: +4 Stealth
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** -1 Dex, +8 natural
-
-**Hit points:** 52 (7d10+14)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Gaze:** present
-
-**Melee:** bite +10 (1d8+4)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 8, Con 15, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 19 (31 vs. trip)
-
-**Feats:** Blind-Fight, Great Fortitude, Iron Will, Skill Focus (Perception)
-
-**Skills:** Perception +10, Stealth +10
-
-**Racial Modifiers:** +4 Stealth
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or colony (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

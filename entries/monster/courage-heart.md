@@ -34,108 +34,75 @@ _This woman with vaguely half-elven features wears a wooden breastplate and wiel
 morningstar in one hand. In her other hand she holds a thorny red rose; blood from that hand
 trickles down her arm._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: rebellious aura (60 ft.)
+Alignment: Chaotic good
+Initiative: +10
+Size: medium
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Chaotic, Extraplanar, Good
+Experience points: 51,200
+:::
 
-**aura:** rebellious aura (60 ft.)
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 30
+Touch: 13
+Flat-footed: 27
+AC modifiers: +10 armor, +3 Dex, +7 natural
+Hit points: 195 (17d10+102)
+Fort: +18
+Ref: +18
+Will: +14
+Dr: 10/lawful
+Fh: 10
+Immune: fear
+Resist: acid 20, cold 20, electricity 20, fire 20
+:::
 
-**Initiative:** +10
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 30 ft. (average)
+Fav En: evil outsiders +6, humans +2, lawful outsiders +8, undead +4
+Melee: +3 [anarchic](ref/magic-enh/anarchic) morningstar +29/+24/+19/+14 (1d8+11)
+Ranged: +1 anarchic dart +26/+21/+16/+11 (1d4+9)
+Spec Att: bloody rose
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +24
+At will: aid, chaos hammer, remove fear, holy smite
+Per day: 3/day: cure moderate wounds, [darkvision](ref/rule/darkvision), dimension door, dispel law, magic vestment, magic weapon, neutralize poison, peasant armaments, protection from arrows, shield other, status\
+1/day: martyr's last blessing, mass invisibility, telepathic bond
+:::
 
-**Perception:** +27
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 23, Con 22, Int 22, Wis 21, Cha 24
+Base attack bonus: +17
+Combat maneuver bonus: +23
+Combat maneuver defense: 39
+Feats: Blind-Fight, Dazzling Display, Deflect Arrows, Improved Initiative, Improved Iron Will, Iron Will, Lookout, Outflank, Point-Blank Shot, Rapid Shot, Swap Places, Vital Strike, Weapon Focus (morningstar)
+Skills: Bluff +19, Climb +23, Intimidate +29, Knowledge (local) +25, Perception +27, Perform (oratory) +19, Ride +13
+Languages: Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (owl or mouse), martyr's blood, tactician
+:::
 
-**Subtype:** Chaotic, Extraplanar, Good
+### Ecology {#stat-ecology}
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 13
-
-**Flat-footed:** 27
-
-**AC modifiers:** +10 armor, +3 Dex, +7 natural
-
-**Hit points:** 195 (17d10+102)
-
-**Fort:** +18
-
-**Ref:** +18
-
-**Will:** +14
-
-**Dr:** 10/lawful
-
-**Fh:** 10
-
-**Immune:** fear
-
-**Resist:** acid 20, cold 20, electricity 20, fire 20
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (average)
-
-**Fav En:** evil outsiders +6, humans +2, lawful outsiders +8, undead +4
-
-**Melee:** +3 [anarchic](ref/magic-enh/anarchic) morningstar +29/+24/+19/+14 (1d8+11)
-
-**Ranged:** +1 anarchic dart +26/+21/+16/+11 (1d4+9)
-
-**Spec Att:** bloody rose
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +24
-
-**At will:**
-
-- aid, chaos hammer, remove fear, holy smite
-
-**Per day:**
-
-- 3/day: cure moderate wounds, [darkvision](ref/rule/darkvision), dimension door, dispel law, magic
-  vestment, magic weapon, neutralize poison, peasant armaments, protection from arrows, shield
-  other, status
-- 1/day: martyr's last blessing, mass invisibility, telepathic bond
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 23, Con 22, Int 22, Wis 21, Cha 24
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 39
-
-**Feats:** Blind-Fight, Dazzling Display, Deflect Arrows, Improved Initiative, Improved Iron Will,
-Iron Will, Lookout, Outflank, Point-Blank Shot, Rapid Shot, Swap Places, Vital Strike, Weapon Focus
-(morningstar)
-
-**Skills:** Bluff +19, Climb +23, Intimidate +29, Knowledge (local) +25, Perception +27, Perform
-(oratory) +19, Ride +13
-
-**Languages:** Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (owl or mouse), martyr's blood,
-tactician
-
-**Ecology**
-
-**Environment:** any land ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary
-
-**Treasure:** Standard (+4 MD breastplate); other treasure
+::: statblock
+Environment: any land ([Elysium](ref/rule/elysium))
+Organization: solitary
+Treasure: Standard (+4 MD breastplate); other treasure
+:::
 
 ### Special Abilities
 

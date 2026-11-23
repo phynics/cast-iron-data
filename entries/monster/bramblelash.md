@@ -30,79 +30,62 @@ abilities = ["12", "15", "11", "-", "10", "8"]
 
 _A blue-green vine covered with stiff, verdant leaves and barbed thorns protrudes from this hedge._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Scent
+Type: plant
+tremorsense: 10
+Experience points: 400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex
+Hit points: 13 (3d8)
+Fort: +3
+Ref: +3
+Will: +1
+Immune: mind-affecting effects
+Resist: electricity 5, fire 5
+Vulner: acid
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 5 ft.
+Bleed: present
+Melee: 2 slams +3 (1d4+1 plus bleed)
+Reach: 10
+Space: 5
+Spec Att: 1, breakage
+:::
 
-**Senses:** Scent
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 12, Dex 15, Con 11, Int -, Wis 10, Cha 8
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Special qualities: camouflage
+:::
 
-**tremorsense:** 10
+### Ecology {#stat-ecology}
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex
-
-**Hit points:** 13 (3d8)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Resist:** electricity 5, fire 5
-
-**Vulner:** acid
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Bleed:** present
-
-**Melee:** 2 slams +3 (1d4+1 plus bleed)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** 1, breakage
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 11, Int -, Wis 10, Cha 8
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Special qualities:** camouflage
-
-**Ecology**
-
-**Environment:** cold or temperate forests
-
-**Organization:** solitary, pair, or patch (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: cold or temperate forests
+Organization: solitary, pair, or patch (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

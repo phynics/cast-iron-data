@@ -30,100 +30,72 @@ abilities = ["3", "11", "12", "6", "11", "10"]
 _This finely crafted golden helm is decorated with intricate filigree, and flutters gracefully
 through the air on feathered wings._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: lesser protective aura
+Initiative: +0
+Alignment: Neutral good
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft., Detect evil, Low-light vision
+Size: small
+Subtype: Angel, Extraplanar, Good
+Experience points: 600
+:::
 
-**aura:** lesser protective aura
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 14
+AC modifiers: +3 natural, +1 size
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +3
+Will: +2; +4 vs. poison
+Dr: 5/cold iron or evil
+Immune: acid, cold, petrification
+Resist: electricity 10, fire 10
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 60 ft. (perfect)
+Br Weap: 15-ft. line, 1d6 cold or 1d6 fire, Reflex DC 12 half, usable every 1d4 rounds
+Melee: slam -1 (1d3-4)
+:::
 
-**Perception:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +3
+Constant: detect evil, know direction
+Per day: 1/day: aid, daylight
+Per week: commune, six questions; CL 12th
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 3, Dex 11, Con 12, Int 6, Wis 11, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: -3
+Combat maneuver defense: 7 (can't be tripped)
+Feats: Iron Will
+Skills: Diplomacy +2, Sense Motive +4, Stealth +8
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: [change shape](ref/umr/change-shape) (2 of the following forms: Small human-like angel, dove, dog, or Tiny fish; [polymorph](ref/spell/polymorph)), perfect memory
+:::
 
-**Subtype:** Angel, Extraplanar, Good
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 natural, +1 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +2; +4 vs. poison
-
-**Dr:** 5/cold iron or evil
-
-**Immune:** acid, cold, petrification
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Br Weap:** 15-ft. line, 1d6 cold or 1d6 fire, Reflex DC 12 half, usable every 1d4 rounds
-
-**Melee:** slam -1 (1d3-4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +3
-
-**Constant:**
-
-- detect evil, know direction
-
-**Per day:**
-
-- 1/day: aid, daylight
-
-**Per week:**
-
-- commune, six questions; CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 11, Con 12, Int 6, Wis 11, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 7 (can't be tripped)
-
-**Feats:** Iron Will
-
-**Skills:** Diplomacy +2, Sense Motive +4, Stealth +8
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (2 of the following forms: Small
-human-like angel, dove, dog, or Tiny fish; [polymorph](ref/spell/polymorph)), perfect memory
-
-**Ecology**
-
-**Environment:** any good-aligned plane
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any good-aligned plane
+Organization: solitary, pair, or squad (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

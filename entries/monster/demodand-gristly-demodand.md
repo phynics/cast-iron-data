@@ -32,110 +32,75 @@ abilities = ["31", "22", "23", "17", "14", "18"]
 _This obese humanoid has a wide mouth, bat-like wings, and pale fluid seeping from rolls of black,
 greasy skin._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Type: outsider
+Perception: +25
+Senses: Darkvision 120 ft., Detect good, Detect magic, See invisibility
+Subtype: Chaotic, Demodand, Evil, Extraplanar
+Experience points: 102,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 32
+Touch: 16
+Flat-footed: 26
+AC modifiers: +1 armor, +6 Dex, +15 natural
+Hit points: 264 (23d10+138)
+Fort: +19
+Ref: +15
+Will: +15; +4 vs. divine spells
+Dr: 15/good and slashing
+Fh: 10
+Fortif: 50
+Immune: acid, poison
+Resist: cold 10, fire 10
+Sr: 28
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 50 ft. (average)
+Melee: +1 vicious maul +34/+29/+24/+19 (2d6+16/19-20/×3 plus 2d6) or 2 claws +33 (2d6+10)
+Spec Att: faith-stealing strike (DC 25), sacrilegious spittle
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +21
+Constant: detect good, detect magic, see invisibility
+At will: dimensional anchor, fear (DC 18), protection from good, seek thoughts (DC 17)
+Per day: 3/day: quickened excruciating deformation (DC 17)\
+1/day: mass pain strike (DC 19), summon (level 6, 1d4 tarry demodands or 1d2 stringy demodands 55%), waves of exhaustion
+:::
 
-**Senses:** Darkvision 120 ft., Detect good, Detect magic, See invisibility
+### Statistics
 
-**Subtype:** Chaotic, Demodand, Evil, Extraplanar
+::: statblock
+Ability scores: Str 31, Dex 22, Con 23, Int 17, Wis 14, Cha 18
+Base attack bonus: +23
+Combat maneuver bonus: +33
+Combat maneuver defense: 49
+Feats: Combat Reflexes, Critical Focus, Improved Critical (maul), Improved Initiative, Intimidating Prowess, Lightning Reflexes, Lunge, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (excruciating deformation), Quicken Spell-Like Ability (pain strike), Staggering Critical, Stunning Critical
+Skills: Acrobatics +21, Bluff +22, Climb +25, Intimidate +40, Knowledge (arcana, planes, religion) +14, Perception +25
+Languages: Abyssal, Celestial, Common
+Special qualities: heretical soul
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 16
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 armor, +6 Dex, +15 natural
-
-**Hit points:** 264 (23d10+138)
-
-**Fort:** +19
-
-**Ref:** +15
-
-**Will:** +15; +4 vs. divine spells
-
-**Dr:** 15/good and slashing
-
-**Fh:** 10
-
-**Fortif:** 50
-
-**Immune:** acid, poison
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 40 ft., fly 50 ft. (average)
-
-**Melee:** +1 vicious maul +34/+29/+24/+19 (2d6+16/19-20/×3 plus 2d6) or 2 claws +33 (2d6+10)
-
-**Spec Att:** faith-stealing strike (DC 25), sacrilegious spittle
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +21
-
-**Constant:**
-
-- detect good, detect magic, see invisibility
-
-**At will:**
-
-- dimensional anchor, fear (DC 18), protection from good, seek thoughts (DC 17)
-
-**Per day:**
-
-- 3/day: quickened excruciating deformation (DC 17)
-- 1/day: mass pain strike (DC 19), summon (level 6, 1d4 tarry demodands or 1d2 stringy demodands
-  55%), waves of exhaustion
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 22, Con 23, Int 17, Wis 14, Cha 18
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 49
-
-**Feats:** Combat Reflexes, Critical Focus, Improved Critical (maul), Improved Initiative,
-Intimidating Prowess, Lightning Reflexes, Lunge, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (excruciating deformation), Quicken Spell-Like
-Ability (pain strike), Staggering Critical, Stunning Critical
-
-**Skills:** Acrobatics +21, Bluff +22, Climb +25, Intimidate +40, Knowledge (arcana, planes,
-religion) +14, Perception +25
-
-**Languages:** Abyssal, Celestial, Common
-
-**Special qualities:** heretical soul
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or hunting party (1 gristly demodand plus 2-5
-[tarry demodands](ref/monster/demodand-tarry-demodand))
-
-**Treasure:** Standard (mwk armored kilt, vicious maul, other treasure); +1
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or hunting party (1 gristly demodand plus 2-5 [tarry demodands](ref/monster/demodand-tarry-demodand))
+Treasure: Standard (mwk armored kilt, vicious maul, other treasure); +1
+:::
 
 ### Special Abilities
 

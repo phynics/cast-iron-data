@@ -31,73 +31,59 @@ abilities = ["21", "11", "15", "-", "10", "6"]
 _This squat but nevertheless large beetle moves with a swift scuttling motion. Its mandibles appear
 to be remarkably sharp._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 39 (6d8+12)
+Fort: +7
+Ref: +2
+Will: +2
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 40 ft., fly 20 ft. (poor)
+Melee: bite +8 (2d6+7/19-20)
+Reach: 5
+Space: 10
+Spec Att: crippling bite
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 21, Dex 11, Con 15, Int -, Wis 10, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +10
+Combat maneuver defense: 20 (28 vs. trip)
+Skills: Fly -6
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., fly 20 ft. (poor)
-
-**Melee:** bite +8 (2d6+7/19-20)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** crippling bite
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 11, Con 15, Int -, Wis 10, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20 (28 vs. trip)
-
-**Skills:** Fly -6
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or cluster (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or cluster (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

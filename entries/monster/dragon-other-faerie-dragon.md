@@ -31,101 +31,76 @@ abilities = ["9", "17", "13", "16", "14", "16"]
 
 _A pair of brightly colored butterfly wings sprouts from the back of this miniature dragon._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic good
+Type: dragon
+Initiative: +3
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +2 natural, +2 size
+Hit points: 22 (3d12+3)
+Fort: +4
+Ref: +6
+Will: +5
+Immune: paralysis, sleep
+Sr: 13
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 10 ft., swim 30 ft., fly 60 ft. (perfect)
+Br Weap: 5-ft. cone, euphoria, Fort DC 12 negates, usable every 1d4 rounds
+Melee: bite +4 (1d3-1)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +6
+Per day: 3/day: greater invisibility, self only
+:::
 
-**Size:** tiny
+::: statblock
+title = "Spells Known"
+Caster level: 3
+Concentration: +6
+1st-level spells: 6/day: grease (DC 14), silent image (DC 14), sleep (DC 14)
+Cantrips: At will: dancing lights, flare (DC 13), ghost sound (DC 13), mage hand, open/close
+:::
 
-**Experience points:** 600
+### Statistics
 
-**Armor class:** 18
+::: statblock
+Ability scores: Str 9, Dex 17, Con 13, Int 16, Wis 14, Cha 16
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 14 (18 vs. trip)
+Feats: Acrobatic, Dodge
+Skills: Acrobatics +8 (+0 when jumping), Bluff +9, Diplomacy +9, Fly +23, Use Magic Device +9
+Languages: Common, Draconic, Elven, Sylvan; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Touch:** 16
+### Ecology
 
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +2 natural, +2 size
-
-**Hit points:** 22 (3d12+3)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +5
-
-**Immune:** paralysis, sleep
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 10 ft., swim 30 ft., fly 60 ft. (perfect)
-
-**Br Weap:** 5-ft. cone, euphoria, Fort DC 12 negates, usable every 1d4 rounds
-
-**Melee:** bite +4 (1d3-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**Per day:**
-
-- 3/day: greater invisibility, self only
-
-**Spells Known**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**1st-level spells:**
-
-- 6/day: grease (DC 14), silent image (DC 14), sleep (DC 14)
-
-**Cantrips:**
-
-- At will: dancing lights, flare (DC 13), ghost sound (DC 13), mage hand, open/close
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 17, Con 13, Int 16, Wis 14, Cha 16
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 14 (18 vs. trip)
-
-**Feats:** Acrobatic, Dodge
-
-**Skills:** Acrobatics +8 (+0 when jumping), Bluff +9, Diplomacy +9, Fly +23, Use Magic Device +9
-
-**Languages:** Common, Draconic, Elven, Sylvan; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary or clan (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary or clan (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

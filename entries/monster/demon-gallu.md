@@ -31,115 +31,77 @@ abilities = ["33", "18", "34", "18", "23", "25"]
 _This horned, winged, wolf-headed demon has bone-white flesh onto which have been riveted plates of
 spiky armor._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+aura: cloak of chaos (20 ft., DC 25), havoc (30 ft.)
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +36
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 204,800
+:::
 
-**aura:** cloak of chaos (20 ft., DC 25), havoc (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 34
+Touch: 18
+Flat-footed: 30
+AC modifiers: +8 armor, +4 deflection, +4 Dex, +8 natural
+Hit points: 332 (19d10+228)
+Fort: +27
+Ref: +16
+Will: +21
+Defensive abilities: armor plating
+Dr: 15/cold iron and good
+Fh: 10
+Immune: bleed, electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 30
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft., fly 50 ft. (good)
+Melee: +1 [wounding](ref/magic-enh/wounding) falchion +31/+26/+21/+16 (2d4+17/15-20), bite +25 (1d8+5), gore +25 (1d6+5)
+Spec Att: rain of blood, wounding blood
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +26
+Constant: cloak of chaos (DC 25), true seeing
+At will: confusion (DC 21), fear (DC 21), geas/quest, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 22)
+Per day: 3/day: dimensional lock, quickened hold monster (DC 22), song of discord (DC 22)\
+1/day: mass hold monster (DC 26), summon (level 7, 1 gallu 20%, 1 marilith 35%, or 1d4 nalfeshnees 60%), symbol of insanity (DC 25), word of chaos (DC 24)
+:::
 
-**Perception:** +36
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 33, Dex 18, Con 34, Int 18, Wis 23, Cha 25
+Base attack bonus: +19
+Combat maneuver bonus: +30 (+32 bull rush)
+Combat maneuver defense: 48 (50 vs. bull rush)
+Feats: Critical Focus, Improved Bull Rush, Improved Critical (falchion), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (hold monster), Staggering Critical, Vital Strike
+Skills: Bluff +29, Disguise +29, Fly +30, Sense Motive +28
+Racial Modifiers: +8 Intimidate, +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 18
-
-**Flat-footed:** 30
-
-**AC modifiers:** +8 armor, +4 deflection, +4 Dex, +8 natural
-
-**Hit points:** 332 (19d10+228)
-
-**Fort:** +27
-
-**Ref:** +16
-
-**Will:** +21
-
-**Defensive abilities:** armor plating
-
-**Dr:** 15/cold iron and good
-
-**Fh:** 10
-
-**Immune:** bleed, electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 50 ft., fly 50 ft. (good)
-
-**Melee:** +1 [wounding](ref/magic-enh/wounding) falchion +31/+26/+21/+16 (2d4+17/15-20), bite +25
-(1d8+5), gore +25 (1d6+5)
-
-**Spec Att:** rain of blood, wounding blood
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +26
-
-**Constant:**
-
-- cloak of chaos (DC 25), true seeing
-
-**At will:**
-
-- confusion (DC 21), fear (DC 21), geas/quest, greater teleport, self plus 50 lbs. of objects only,
-  telekinesis (DC 22)
-
-**Per day:**
-
-- 3/day: dimensional lock, quickened hold monster (DC 22), song of discord (DC 22)
-- 1/day: mass hold monster (DC 26), summon (level 7, 1 gallu 20%, 1 marilith 35%, or 1d4 nalfeshnees
-  60%), symbol of insanity (DC 25), word of chaos (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 18, Con 34, Int 18, Wis 23, Cha 25
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +30 (+32 bull rush)
-
-**Combat maneuver defense:** 48 (50 vs. bull rush)
-
-**Feats:** Critical Focus, Improved Bull Rush, Improved Critical (falchion), Improved Initiative,
-Improved Vital Strike, Lightning Reflexes, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (hold monster), Staggering Critical, Vital Strike
-
-**Skills:** Bluff +29, Disguise +29, Fly +30, Sense Motive +28
-
-**Racial Modifiers:** +8 Intimidate, +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or platoon (1 gallu, 1-3 [mariliths](ref/monster/demon-marilith), and
-3-12 [vrocks](ref/monster/demon-vrock))
-
-**Treasure:** Standard (+1 falchion); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or platoon (1 gallu, 1-3 [mariliths](ref/monster/demon-marilith), and 3-12 [vrocks](ref/monster/demon-vrock))
+Treasure: Standard (+1 falchion); other treasure
+:::
 
 ### Special Abilities
 

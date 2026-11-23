@@ -31,99 +31,73 @@ abilities = ["31", "15", "20", "4", "15", "6"]
 
 _A dorsal fin rises up from the back of this immense black-and-white-furred, wolf-like beast._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Size: huge
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold, Shapechanger
+Experience points: 25,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 30
+Touch: 11
+Flat-footed: 27
+AC modifiers: +2 Dex, +1 dodge, +19 natural, -2 size
+Hit points: 189 (18d10+90)
+Fort: +16
+Ref: +13
+Will: +10
+Dr: 15/magic
+Immune: cold
+Vulner: fire
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., swim 60 ft.
+Melee: bite +27 (4d8+15/15-20 plus 4d6 cold and [grab](ref/umr/grab))
+Reach: 10
+Space: 15
+Spec Att: savage bite, shore storming
+Swallow: 2d8+15 bludgeoning damage plus 4d6 cold, AC 19, 18 hp
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +16
+Per day: 1/day: control weather, windy or cold weather only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Cold, Shapechanger
+::: statblock
+Ability scores: Str 31, Dex 15, Con 20, Int 4, Wis 15, Cha 6
+Base attack bonus: +18
+Combat maneuver bonus: +30 (+34 grapple)
+Combat maneuver defense: 43 (47 vs. trip)
+Feats: Dodge, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Skill Focus (Stealth), Vital Strike, Weapon Focus (bite)
+Skills: Acrobatics +2 (+6 when jumping), Perception +14, Stealth +16 (+28 in snow), Swim +18
+Racial Modifiers: +4 Perception, +12 Stealth in snow
+Languages: Aquan (can't speak)
+Special qualities: [change shape](ref/umr/change-shape) (orca; [beast shape III](ref/spell/beast-shape-3)), [hold breath](ref/umr/hold-breath), snow walking
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 11
-
-**Flat-footed:** 27
-
-**AC modifiers:** +2 Dex, +1 dodge, +19 natural, -2 size
-
-**Hit points:** 189 (18d10+90)
-
-**Fort:** +16
-
-**Ref:** +13
-
-**Will:** +10
-
-**Dr:** 15/magic
-
-**Immune:** cold
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft., swim 60 ft.
-
-**Melee:** bite +27 (4d8+15/15-20 plus 4d6 cold and [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** savage bite, shore storming
-
-**Swallow:** 2d8+15 bludgeoning damage plus 4d6 cold, AC 19, 18 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +16
-
-**Per day:**
-
-- 1/day: control weather, windy or cold weather only
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 15, Con 20, Int 4, Wis 15, Cha 6
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +30 (+34 grapple)
-
-**Combat maneuver defense:** 43 (47 vs. trip)
-
-**Feats:** Dodge, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will,
-Power Attack, Skill Focus (Stealth), Vital Strike, Weapon Focus (bite)
-
-**Skills:** Acrobatics +2 (+6 when jumping), Perception +14, Stealth +16 (+28 in snow), Swim +18
-
-**Racial Modifiers:** +4 Perception, +12 Stealth in snow
-
-**Languages:** Aquan (can't speak)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (orca;
-[beast shape III](ref/spell/beast-shape-3)), [hold breath](ref/umr/hold-breath), snow walking
-
-**Ecology**
-
-**Environment:** cold lakes, plains, or oceans
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: cold lakes, plains, or oceans
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

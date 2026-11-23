@@ -28,73 +28,58 @@ abilities = ["40", "14", "21", "2", "17", "11"]
 _This enormous, long-necked quadruped moves with an uncanny grace, holding its lengthy, whip-like
 tail out level behind it._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: animal
+Size: colossal
+Initiative: +6
+Alignment: Neutral
+Perception: +32
+Senses: Low-light vision, Scent
+Experience points: 19,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 25
+Touch: 4
+Flat-footed: 23
+AC modifiers: +2 Dex, +21 natural, -8 size
+Hit points: 190 (20d8+100)
+Fort: +17
+Ref: +14
+Will: +11
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 tail lashes +22 (4d6+15/19-20)
+Reach: 60
+Space: 30
+Trample: 2d8+22, DC 35
+:::
 
-**Perception:** +32
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 40, Dex 14, Con 21, Int 2, Wis 17, Cha 11
+Base attack bonus: +15
+Combat maneuver bonus: +38 (+40 bull rush)
+Combat maneuver defense: 50 (52 vs. bull rush, 54 vs. trip)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Critical (tail lash), Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Staggering Critical
+Skills: Perception +32
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 4
-
-**Flat-footed:** 23
-
-**AC modifiers:** +2 Dex, +21 natural, -8 size
-
-**Hit points:** 190 (20d8+100)
-
-**Fort:** +17
-
-**Ref:** +14
-
-**Will:** +11
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 tail lashes +22 (4d6+15/19-20)
-
-**Reach:** 60
-
-**Space:** 30
-
-**Trample:** 2d8+22, DC 35
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 14, Con 21, Int 2, Wis 17, Cha 11
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +38 (+40 bull rush)
-
-**Combat maneuver defense:** 50 (52 vs. bull rush, 54 vs. trip)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Critical
-(tail lash), Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Staggering
-Critical
-
-**Skills:** Perception +32
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or herd (3-14)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or herd (3-14)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -26,63 +26,51 @@ melee = "bite +2 (1d6)"
 abilities = ["11", "10", "13", "10", "11", "10"]
 +++
 
-**Challenge rating:** 1
-
 **Human petitioner**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Initiative: +0
+Size: medium
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 10
+Touch: 10
+Flat-footed: 10
+Hit points: 16 (2d10+5)
+Fort: +4
+Ref: +3
+Will: +0
+Resist: cold 10, electricity 10, fire 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Melee: bite +2 (1d6)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar
-
-**Experience points:** 400
-
-**Armor class:** 10
-
-**Touch:** 10
-
-**Flat-footed:** 10
-
-**Hit points:** 16 (2d10+5)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +0
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +2 (1d6)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 10, Con 13, Int 10, Wis 11, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 12
-
-**Feats:** Toughness
-
-**Skills:** Intimidate +2, Knowledge (planes) +5, Perception +5
-
-**Languages:** Abyssal
+::: statblock
+Ability scores: Str 11, Dex 10, Con 13, Int 10, Wis 11, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 12
+Feats: Toughness
+Skills: Intimidate +2, Knowledge (planes) +5, Perception +5
+Languages: Abyssal
+:::
 
 ### Description
 

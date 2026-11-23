@@ -31,103 +31,73 @@ abilities = ["26", "16", "21", "17", "14", "17"]
 
 _This multi-eyed eel's brightly colored markings shift in complex, ever-changing patterns._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral
+Perception: +19
+Senses: Arcane sight, Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 22
+AC modifiers: +3 Dex, +14 natural, -2 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +12
+Will: +8
+Sr: 21 (in water only)
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 80 ft.
+Constrict: 2d6+12
+Melee: bite +21 (3d6+8/19-20 plus [grab](ref/umr/grab)), tail slap +15 (2d6+4 plus grab)
+Reach: 15
+Space: 15
+Spec Att: endless coils
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +17
+Constant: arcane sight, speak with animals
+At will: control water, hydraulic torrent, rainbow pattern (DC 17)
+Per day: 1/day: control weather
+:::
 
-**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 26, Dex 16, Con 21, Int 17, Wis 14, Cha 17
+Base attack bonus: +14
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 37 (can't be tripped)
+Feats: Critical Focus, Improved Critical (bite), Iron Will, Power Attack, Staggering Critical, Vital Strike, Weapon Focus (bite)
+Skills: Knowledge (arcana) +17, Perception +19, Spellcraft +17, Stealth +12 (+24 in water), Swim +16
+Racial Modifiers: +12 Stealth in water
+Languages: Aquan, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: eldritch gizzard, wave rider
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 Dex, +14 natural, -2 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +8
-
-**Sr:** 21 (in water only)
-
-**Offense**
-
-**Speed:** 20 ft., swim 80 ft.
-
-**Constrict:** 2d6+12
-
-**Melee:** bite +21 (3d6+8/19-20 plus [grab](ref/umr/grab)), tail slap +15 (2d6+4 plus grab)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** endless coils
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +17
-
-**Constant:**
-
-- arcane sight, speak with animals
-
-**At will:**
-
-- control water, hydraulic torrent, rainbow pattern (DC 17)
-
-**Per day:**
-
-- 1/day: control weather
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 16, Con 21, Int 17, Wis 14, Cha 17
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Feats:** Critical Focus, Improved Critical (bite), Iron Will, Power Attack, Staggering Critical,
-Vital Strike, Weapon Focus (bite)
-
-**Skills:** Knowledge (arcana) +17, Perception +19, Spellcraft +17, Stealth +12 (+24 in water), Swim
-+16
-
-**Racial Modifiers:** +12 Stealth in water
-
-**Languages:** Aquan, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** eldritch gizzard, wave rider
-
-**Ecology**
-
-**Environment:** warm lakes
-
-**Organization:** solitary
-
-**Treasure:** Standard; particularly staves and wands
+::: statblock
+Environment: warm lakes
+Organization: solitary
+Treasure: Standard; particularly staves and wands
+:::
 
 ### Special Abilities
 

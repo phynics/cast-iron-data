@@ -30,83 +30,66 @@ abilities = ["16", "14", "-", "10", "13", "17"]
 _This corpse of a soldier is twisted and ghoulish, its old-fashioned clothes are caked in mud, and
 its is expression lost and forlorn._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsense: 60
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Perception: +9
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,200
+:::
 
-**blindsense:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 37 (5d8+15)
+Fort: +4
+Ref: +3
+Will: +7
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +7 (1d8+3)
+Spec Att: curse of oblivion, forgotten friend
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+Per day: 3/day: alter self, selective invisibility, zone of silence
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 16, Dex 14, Con -, Int 10, Wis 13, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 18
+Feats: Improved Initiative, Iron Will, Weapon Focus (claw)
+Skills: Bluff +8, Perception +9, Sense Motive +9, Stealth +10
+Languages: Common
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +7
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +7 (1d8+3)
-
-**Spec Att:** curse of oblivion, forgotten friend
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**Per day:**
-
-- 3/day: alter self, selective invisibility, zone of silence
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 14, Con -, Int 10, Wis 13, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18
-
-**Feats:** Improved Initiative, Iron Will, Weapon Focus (claw)
-
-**Skills:** Bluff +8, Perception +9, Sense Motive +9, Stealth +10
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any forest or swamp
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest or swamp
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

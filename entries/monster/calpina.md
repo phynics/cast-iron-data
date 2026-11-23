@@ -33,74 +33,59 @@ abilities = ["10", "17", "14", "11", "12", "15"]
 _Membranous wings hold this insectile woman aloft. She has bright red eyes, and her sharp tongue
 resembles a proboscis._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +7
+Perception: +9
+Senses: Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +3 Dex, +2 natural, +1 size
+Hit points: 27 (5d6+10)
+Fort: +3
+Ref: +7
+Will: +5
+Dr: 5/cold iron
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., fly 40 ft. (good)
+Grab: Medium
+Melee: bite +6 (1d4 plus grab)
+Spec Att: ego drain (1d4 Cha), fragrant haze
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 17, Con 14, Int 11, Wis 12, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +4 (+6 grapple)
+Combat maneuver defense: 14 (16 vs. grapple)
+Feats: Agile Maneuvers, Improved Grapple, Improved Initiative, Weapon Finesse
+Skills: Bluff +10, Fly +17, Knowledge (nature) +8, Perception +9, Perform (dance) +10, Stealth +15
+Languages: Common, Sylvan
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +2 natural, +1 size
-
-**Hit points:** 27 (5d6+10)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (good)
-
-**Grab:** Medium
-
-**Melee:** bite +6 (1d4 plus grab)
-
-**Spec Att:** ego drain (1d4 Cha), fragrant haze
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 14, Int 11, Wis 12, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4 (+6 grapple)
-
-**Combat maneuver defense:** 14 (16 vs. grapple)
-
-**Feats:** Agile Maneuvers, Improved Grapple, Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +10, Fly +17, Knowledge (nature) +8, Perception +9, Perform (dance) +10, Stealth
-+15
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests or mountains
-
-**Organization:** solitary, pair, eclipse (3-6), or colony (7-12 plus 8-24 calpina larvae)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests or mountains
+Organization: solitary, pair, eclipse (3-6), or colony (7-12 plus 8-24 calpina larvae)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

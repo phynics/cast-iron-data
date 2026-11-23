@@ -35,79 +35,62 @@ abilities = ["17", "13", "-", "1", "12", "13"]
 _This creature's vestments are charred black and fused together, and its flesh is a raging inferno
 surrounded by greasy black smoke._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: howl of agony (10 ft., DC 13), [stench](ref/umr/stench) (DC 13, 10 rounds)
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Fire
+Type: undead
+Experience points: 800
+:::
 
-**aura:** howl of agony (10 ft., DC 13), [stench](ref/umr/stench) (DC 13, 10 rounds)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 natural
+Hit points: 32 (5d8+10)
+Fort: +2
+Ref: +4
+Will: +5
+Immune: fire, [undead traits](ref/umr/undead-traits)
+Vulner: cold
+Weaknesses: susceptible to water
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +6 (1d6+3 plus 1d6 fire and combustion)
+Ranged: fire blast +4 touch (3d6 fire)
+Spec Att: combustion, fire blast
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 13, Con -, Int 1, Wis 12, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Improved Initiative, Lightning Reflexes, Toughness
+Skills: Perception +9
+:::
 
-**Subtype:** Fire
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 natural
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +5
-
-**Immune:** fire, [undead traits](ref/umr/undead-traits)
-
-**Vulner:** cold
-
-**Weaknesses:** susceptible to water
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +6 (1d6+3 plus 1d6 fire and combustion)
-
-**Ranged:** fire blast +4 touch (3d6 fire)
-
-**Spec Att:** combustion, fire blast
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 13, Con -, Int 1, Wis 12, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Lightning Reflexes, Toughness
-
-**Skills:** Perception +9
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or effigy (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or effigy (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

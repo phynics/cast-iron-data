@@ -31,75 +31,60 @@ abilities = ["28", "14", "-", "-", "11", "1"]
 _This human-shaped construct has a helm-like head with a single crystalline eye. One arm ends in a
 large shield-like sheet of metal._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: construct
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 4,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 18
+AC modifiers: +2 Dex, +2 dodge, +6 natural, +2 shield
+Hit points: 85 (10d10+30)
+Fort: +3
+Ref: +7
+Will: +3
+Defensive abilities: barrier
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: shield bash +19/+14 (1d6+9), slam +14 (1d4+4) or 2 slams +19 (1d4+9)
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 14, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +10
+Combat maneuver bonus: +19
+Combat maneuver defense: 33
+Feats: Improved Initiative, Improved Shield Bash, Lightning Reflexes, Toughness
+Special qualities: difficult to create, shield expert, swift reactions, winding
+:::
 
-**Subtype:** Clockwork
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +2 dodge, +6 natural, +2 shield
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +3
-
-**Defensive abilities:** barrier
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** shield bash +19/+14 (1d6+9), slam +14 (1d4+4) or 2 slams +19 (1d4+9)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 14, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 33
-
-**Feats:** Improved Initiative, Improved Shield Bash, Lightning Reflexes, Toughness
-
-**Special qualities:** difficult to create, shield expert, swift reactions, winding
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or blockade (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or blockade (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

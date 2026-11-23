@@ -31,85 +31,67 @@ abilities = ["1", "11", "12", "6", "11", "10"]
 _Shedding a warm and calming radiance, this orb of light moves with a preternatural silence and
 otherworldly grace._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: aura of menace (DC 13)
+Initiative: +4
+Alignment: Lawful good
+Type: outsider
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Archon, Extraplanar, Good, Lawful
+Experience points: 600
+:::
 
-**aura:** aura of menace (DC 13)
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 15
+AC modifiers: +4 natural, +1 size; +2 deflect vs. evil
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +3
+Will: +0; +4 vs. poison, +2 resistance vs. evil
+Dr: 10/evil
+Immune: electricity, petrification
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 60 ft. (perfect)
+Ranged: 2 light rays +3 ranged touch (1d6)
+:::
 
-**Perception:** +4
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+At will: aid, continual flame, detect evil, greater teleport, self plus 50 lbs. of objects only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 1, Dex 11, Con 12, Int 6, Wis 11, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: -4
+Combat maneuver defense: 6
+Feats: Improved Initiative
+Skills: Diplomacy +5, Sense Motive +5
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: gestalt
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 natural, +1 size; +2 deflect vs. evil
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +0; +4 vs. poison, +2 resistance vs. evil
-
-**Dr:** 10/evil
-
-**Immune:** electricity, petrification
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Ranged:** 2 light rays +3 ranged touch (1d6)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**At will:**
-
-- aid, continual flame, detect evil, greater teleport, self plus 50 lbs. of objects only
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 11, Con 12, Int 6, Wis 11, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -4
-
-**Combat maneuver defense:** 6
-
-**Feats:** Improved Initiative
-
-**Skills:** Diplomacy +5, Sense Motive +5
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** gestalt
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or squad (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

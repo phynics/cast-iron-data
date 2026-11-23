@@ -28,74 +28,59 @@ abilities = ["26", "9", "19", "2", "12", "7"]
 _This beast's armored head has three sharp horns decorating its face and a large round crest angling
 back over its neck from its skull._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: animal
+Size: huge
+Initiative: -1
+Alignment: Neutral
+Perception: +24
+Senses: Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 21
+Touch: 7
+Flat-footed: 21
+AC modifiers: -1 Dex, +14 natural, -2 size
+Hit points: 119 (14d8+56)
+Fort: +15
+Ref: +8
+Will: +5
+:::
 
-**Initiative:** -1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: gore +17 (2d10+12)
+Pow Ch: gore, 4d10+16
+Reach: 15
+Space: 15
+Trample: 1d8+12, DC 25
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 26, Dex 9, Con 19, Int 2, Wis 12, Cha 7
+Base attack bonus: +10
+Combat maneuver bonus: +20
+Combat maneuver defense: 29 (33 vs. trip)
+Feats: Great Fortitude, Improved Bull Rush, Improved Critical, Power Attack, Run, Skill Focus (Perception), Weapon Focus (gore)
+Skills: Perception +24
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 7
-
-**Flat-footed:** 21
-
-**AC modifiers:** -1 Dex, +14 natural, -2 size
-
-**Hit points:** 119 (14d8+56)
-
-**Fort:** +15
-
-**Ref:** +8
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +17 (2d10+12)
-
-**Pow Ch:** gore, 4d10+16
-
-**Reach:** 15
-
-**Space:** 15
-
-**Trample:** 1d8+12, DC 25
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 9, Con 19, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 29 (33 vs. trip)
-
-**Feats:** Great Fortitude, Improved Bull Rush, Improved Critical, Power Attack, Run, Skill Focus
-(Perception), Weapon Focus (gore)
-
-**Skills:** Perception +24
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or herd (5-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or herd (5-8)
+Treasure: None
+:::
 
 ### Description
 

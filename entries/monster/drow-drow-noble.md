@@ -32,124 +32,87 @@ abilities = ["12", "17", "12", "10", "17", "12"]
 
 _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless._
 
-**Challenge rating:** 3
-
 **Female drow noble [cleric](ref/class/cleric) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: +5
+Senses: Darkvision 120 ft.
+Subtype: Elf
+Experience points: 800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +6 armor, +3 Dex, +2 shield
+Hit points: 20 (3d8+3)
+Fort: +4
+Ref: +4
+Will: +6; +2 vs. enchantment
+Immune: sleep
+Sr: 14
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft.
+Ch N En: 4/day, 2d6, DC 12
+Melee: mwk rapier +4 (1d6+1/18-20)
+Ranged: hand crossbow +5 (1d4/19-20 plus poison)
+Spec Att: bleeding touch (6/day), touch of chaos (6/day)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Constant: detect magic
+At will: dancing lights, deeper darkness, faerie fire, feather fall, levitate
+Per day: 1/day: divine favor, dispel magic, suggestion (DC 14)
+:::
 
-**Subtype:** Elf
-
-**Experience points:** 800
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 armor, +3 Dex, +2 shield
-
-**Hit points:** 20 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +6; +2 vs. enchantment
-
-**Immune:** sleep
-
-**Sr:** 14
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** 4/day, 2d6, DC 12
-
-**Melee:** mwk rapier +4 (1d6+1/18-20)
-
-**Ranged:** hand crossbow +5 (1d4/19-20 plus poison)
-
-**Spec Att:** bleeding touch (6/day), touch of chaos (6/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- dancing lights, deeper darkness, faerie fire, feather fall, levitate
-
-**Per day:**
-
-- 1/day: divine favor, dispel magic, suggestion (DC 14)
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**2nd-level spells:**
-
-- death knell^D^ (DC 15), hold person (DC 15), silence (DC 15)
-
-**1st-level spells:**
-
-- bless, cause fear (DC 14), cure light wounds, protection from law^D^
-
-**Cantrips:**
-
-- bleed (DC 13), detect poison, read magic, resistance
-
-**Domains:** Chaos, Death
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+2nd-level spells: death knell^D^ (DC 15), hold person (DC 15), silence (DC 15)
+1st-level spells: bless, cause fear (DC 14), cure light wounds, protection from law^D^
+Cantrips: bleed (DC 13), detect poison, read magic, resistance
+Domains: Chaos, Death
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 12, Dex 17, Con 12, Int 10, Wis 17, Cha 12
+::: statblock
+Ability scores: Str 12, Dex 17, Con 12, Int 10, Wis 17, Cha 12
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 16
+Feats: Channel Smite, Weapon Finesse
+Skills: Knowledge (religion) +6, Sense Motive +9, Spellcraft +6
+Racial Modifiers: +2 Perception
+Languages: Elven, Undercommon
+Special qualities: [poison use](ref/ability/poison-use)
+Gear: mwk breastplate, heavy steel shield, mwk rapier, 4 potion of Xdrow, potion of invisibility, scroll of dispel magic, Dcure light wounds/CL 1st, 20 charges, 400 gp
+:::
 
-**Base attack bonus:** +2
+### Ecology
 
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 16
-
-**Feats:** Channel Smite, Weapon Finesse
-
-**Skills:** Knowledge (religion) +6, Sense Motive +9, Spellcraft +6
-
-**Racial Modifiers:** +2 Perception
-
-**Languages:** Elven, Undercommon
-
-**Special qualities:** [poison use](ref/ability/poison-use)
-
-**Gear:** mwk breastplate, heavy steel shield, mwk rapier, 4 potion of Xdrow, potion of
-invisibility, scroll of dispel magic, Dcure light wounds/CL 1st, 20 charges, 400 gp
-
-**Ecology**
-
-**Environment:** underground
+::: statblock
+Environment: underground
+:::
 
 ### Description
 

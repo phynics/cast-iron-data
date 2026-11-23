@@ -30,74 +30,59 @@ abilities = ["17", "22", "-", "11", "10", "15"]
 
 _This howling corpse swoops through the air with hideously elongated legs and a bow made of bone._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Perception: +18
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 6,400
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 24
+Touch: 17
+Flat-footed: 17
+AC modifiers: +6 Dex, +1 dodge, +7 natural
+Hit points: 97 (15d8+30)
+Fort: +7
+Ref: +11
+Will: +9
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +18
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: 2 claws +14 (1d6+3)
+Ranged: +1 composite longbow +19/+14/+9 (1d8+4/19-20/×3 plus 1d6 negative energy and paralysis)
+Spec Att: devour soul, dread howl, infused arrows
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 17, Dex 22, Con -, Int 11, Wis 10, Cha 15
+Base attack bonus: +11
+Combat maneuver bonus: +14
+Combat maneuver defense: 31
+Feats: Dodge, Improved Critical (composite longbow), Improved Initiative, Mobility, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (composite longbow)
+Skills: Fly +28, Intimidate +20, Perception +18, Stealth +24
+Languages: Common
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 17
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 Dex, +1 dodge, +7 natural
-
-**Hit points:** 97 (15d8+30)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +9
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** 2 claws +14 (1d6+3)
-
-**Ranged:** +1 composite longbow +19/+14/+9 (1d8+4/19-20/×3 plus 1d6 negative energy and paralysis)
-
-**Spec Att:** devour soul, dread howl, infused arrows
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 22, Con -, Int 11, Wis 10, Cha 15
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 31
-
-**Feats:** Dodge, Improved Critical (composite longbow), Improved Initiative, Mobility, Point-Blank
-Shot, Precise Shot, Rapid Shot, Weapon Focus (composite longbow)
-
-**Skills:** Fly +28, Intimidate +20, Perception +18, Stealth +24
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, gang (2-5), or flight (6-12)
-
-**Treasure:** Standard (+1 cl+3); other treasure
+::: statblock
+Environment: any
+Organization: solitary, gang (2-5), or flight (6-12)
+Treasure: Standard (+1 cl+3); other treasure
+:::
 
 ### Special Abilities
 

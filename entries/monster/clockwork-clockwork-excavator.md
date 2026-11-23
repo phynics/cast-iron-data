@@ -34,86 +34,67 @@ shovel rocks into its open maw. Gleaming drills set around the construct's base 
 easily break apart stone, and a gleaming scope of dark-hued glass projects from the end of a jointed
 arm._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Size: huge
+Initiative: +3
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision, Metal sense 120 ft.
+Subtype: Clockwork
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 23
+Touch: 9
+Flat-footed: 21
+AC modifiers: -1 Dex, +2 dodge, +14 natural, -2 size
+Hit points: 111 (13d10+40)
+Fort: +4
+Ref: +5
+Will: +4
+Dr: 10/adamantine
+Immune: acid, [construct traits](ref/umr/construct-traits), fire
+Vulner: electricity
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., burrow 10 ft.
+Melee: 2 slams +21 (1d8+10 plus [grab](ref/umr/grab)), drill +21 (2d6+10)
+Reach: 15
+Space: 15
+Spec Att: explosive charge 3/day, pulverizing ray (30-ft. line, 6d8 sonic damage, Reflex DC 16 for half, usable every 1d4 rounds)
+Swallow: 2d6 bludgeoning damage, AC 17, 11 hp
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Metal sense 120 ft.
-
-**Subtype:** Clockwork
-
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 9
-
-**Flat-footed:** 21
-
-**AC modifiers:** -1 Dex, +2 dodge, +14 natural, -2 size
-
-**Hit points:** 111 (13d10+40)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +4
-
-**Dr:** 10/adamantine
-
-**Immune:** acid, [construct traits](ref/umr/construct-traits), fire
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 20 ft., burrow 10 ft.
-
-**Melee:** 2 slams +21 (1d8+10 plus [grab](ref/umr/grab)), drill +21 (2d6+10)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** explosive charge 3/day, pulverizing ray (30-ft. line, 6d8 sonic damage, Reflex DC 16
-for half, usable every 1d4 rounds)
-
-**Swallow:** 2d6 bludgeoning damage, AC 17, 11 hp
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 8, Con -, Int -, Wis 11, Cha 7
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 36
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** difficult to create, superior craftsmanship, swift reactions, winding
+::: statblock
+Ability scores: Str 30, Dex 8, Con -, Int -, Wis 11, Cha 7
+Base attack bonus: +13
+Combat maneuver bonus: +25
+Combat maneuver defense: 36
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: difficult to create, superior craftsmanship, swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology {#stat-ecology}
 
-**Environment:** any land
-
-**Organization:** solitary or crew (2-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary or crew (2-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

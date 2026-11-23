@@ -32,117 +32,81 @@ abilities = ["46", "21", "20", "5", "18", "27"]
 _This enormous scaled serpent has the head of a shark, powerful claws, and a maw wide enough to
 swallow a small ship._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: mariner's misfortune (30 ft.)
+Alignment: Chaotic neutral
+Size: colossal
+Type: dragon
+Initiative: +5
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic, Water
+tremorsense: 120
+Experience points: 25,600
+:::
 
-**aura:** mariner's misfortune (30 ft.)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 28
+Touch: 16
+Flat-footed: 22
+AC modifiers: +8 deflection, +5 Dex, +1 Dodge, +12 natural, -8 size
+Hit points: 184 (16d12+80)
+Fort: +17
+Ref: +15
+Will: +14; -4 vs. petrification
+Defensive abilities: ocean's aegis
+Dr: 5/-
+Immune: paralysis, sleep
+Regen: 10 (petrification)
+Sr: 24
+Weaknesses: vulnerable to petrification
+:::
 
-**Size:** colossal
+### Offense
 
-**Type:** dragon
+::: statblock
+Speed: 20 ft., swim 120 ft.
+Constrict: 6d6+27
+F Swallow: present
+Melee: bite +26 (6d6+27 plus [grab](ref/umr/grab))
+Rake: 2 claws +26, 4d6+18
+Reach: 30
+Space: 30
+Spec Att: dispelling bite, impossible leap
+Swallow: 8d6+24 damage, AC 17, 20 hp
+:::
 
-**Initiative:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +23
+At will: quickened control water, control winds
+Per day: 1/day: control weather
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 46, Dex 21, Con 20, Int 5, Wis 18, Cha 27
+Base attack bonus: +16
+Combat maneuver bonus: +42 (+46 grapple)
+Combat maneuver defense: 66 (can't be tripped)
+Feats: Combat Reflexes, Deflect Arrows, Dodge, Great Fortitude, Greater Vital Strike, Improved Vital Strike, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (control water), Vital Strike
+Skills: Acrobatics +15, Intimidate +16, Perception +23, Swim +30
+Languages: Aquan, Draconic
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic, Water
+### Ecology
 
-**tremorsense:** 120
-
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 16
-
-**Flat-footed:** 22
-
-**AC modifiers:** +8 deflection, +5 Dex, +1 Dodge, +12 natural, -8 size
-
-**Hit points:** 184 (16d12+80)
-
-**Fort:** +17
-
-**Ref:** +15
-
-**Will:** +14; -4 vs. petrification
-
-**Defensive abilities:** ocean's aegis
-
-**Dr:** 5/-
-
-**Immune:** paralysis, sleep
-
-**Regen:** 10 (petrification)
-
-**Sr:** 24
-
-**Weaknesses:** vulnerable to petrification
-
-**Offense**
-
-**Speed:** 20 ft., swim 120 ft.
-
-**Constrict:** 6d6+27
-
-**F Swallow:** present
-
-**Melee:** bite +26 (6d6+27 plus [grab](ref/umr/grab))
-
-**Rake:** 2 claws +26, 4d6+18
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** dispelling bite, impossible leap
-
-**Swallow:** 8d6+24 damage, AC 17, 20 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +23
-
-**At will:**
-
-- quickened control water, control winds
-
-**Per day:**
-
-- 1/day: control weather
-
-**Statistics**
-
-**Ability scores:** Str 46, Dex 21, Con 20, Int 5, Wis 18, Cha 27
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +42 (+46 grapple)
-
-**Combat maneuver defense:** 66 (can't be tripped)
-
-**Feats:** Combat Reflexes, Deflect Arrows, Dodge, Great Fortitude, Greater Vital Strike, Improved
-Vital Strike, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (control water),
-Vital Strike
-
-**Skills:** Acrobatics +15, Intimidate +16, Perception +23, Swim +30
-
-**Languages:** Aquan, Draconic
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

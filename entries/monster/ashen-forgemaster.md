@@ -32,120 +32,82 @@ abilities = ["30", "21", "-", "23", "8", "31"]
 _This hulking, serpentine creature resembles an oversized salamander devoid of color. Its flesh is
 pockmarked with coal-like scales and metallic piercings, and it carries a fearsome spear._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: fire aura (5 ft.)
+Alignment: Chaotic evil
+Initiative: +9
+Size: large
+Perception: +28
+Senses: Darkvision 60 ft., Smoke vision
+Subtype: Extraplanar, Fire
+Type: undead
+Experience points: 102,400
+:::
 
-**aura:** fire aura (5 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 32
+Touch: 14
+Flat-footed: 27
+AC modifiers: +5 Dex, +18 natural, -1 size
+Hit points: 290 (20d8+200)
+Fort: +16
+Ref: +11
+Will: +13
+Chan Res: +4
+Defensive abilities: ashen cloudrejuvenation
+Dr: 15/good
+Immune: fire, [undead traits](ref/umr/undead-traits)
+Regen: 15 (cold)
+Sr: 28
+Vulner: cold
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Constrict: 3d6+15 plus 2d6 fire
+Heat: present
+Melee: +2 impervious transformative spear +28/+23/+18 (2d6+17/×3 plus 2d6 fire), tail slap +20 (3d6+5 plus 2d6 fire and [grab](ref/umr/grab))
+Reach: 10
+Reach P: 20 ft. with tail
+Space: 10
+Spec Att: (2d6 fire), lava trail
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +30
+At will: fire shield, mending, produce flame
+Per day: 3/day: quickened detonate (DC 24), greater dispel magic, make whole\
+1/day: blade barrier (DC 26), flame strike (DC 25), wall of iron
+:::
 
-**Senses:** Darkvision 60 ft., Smoke vision
+### Statistics
 
-**Subtype:** Extraplanar, Fire
+::: statblock
+Ability scores: Str 30, Dex 21, Con -, Int 23, Wis 8, Cha 31
+Base attack bonus: +15
+Combat maneuver bonus: +26 (+30 grapple)
+Combat maneuver defense: 41
+Feats: Cleave, Combat Reflexes, Craft Magic Arms and Armor, Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (detonate), Skill Focus (Perception), Vital Strike, Weapon Focus (spear)
+Skills: Bluff +20, Craft (armorsmithing, blacksmithing) +34, Intimidate +23, Knowledge (engineering, planes) +26, Perception +28, Spellcraft +29
+Racial Modifiers: +8 Craft (armorsmithing, blacksmithing, and weaponsmithing)
+Languages: Common, Ignan
+Special qualities: prison forge
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 14
-
-**Flat-footed:** 27
-
-**AC modifiers:** +5 Dex, +18 natural, -1 size
-
-**Hit points:** 290 (20d8+200)
-
-**Fort:** +16
-
-**Ref:** +11
-
-**Will:** +13
-
-**Chan Res:** +4
-
-**Defensive abilities:** ashen cloudrejuvenation
-
-**Dr:** 15/good
-
-**Immune:** fire, [undead traits](ref/umr/undead-traits)
-
-**Regen:** 15 (cold)
-
-**Sr:** 28
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Constrict:** 3d6+15 plus 2d6 fire
-
-**Heat:** present
-
-**Melee:** +2 impervious transformative spear +28/+23/+18 (2d6+17/×3 plus 2d6 fire), tail slap +20
-(3d6+5 plus 2d6 fire and [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with tail
-
-**Space:** 10
-
-**Spec Att:** (2d6 fire), lava trail
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +30
-
-**At will:**
-
-- fire shield, mending, produce flame
-
-**Per day:**
-
-- 3/day: quickened detonate (DC 24), greater dispel magic, make whole
-- 1/day: blade barrier (DC 26), flame strike (DC 25), wall of iron
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 21, Con -, Int 23, Wis 8, Cha 31
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +26 (+30 grapple)
-
-**Combat maneuver defense:** 41
-
-**Feats:** Cleave, Combat Reflexes, Craft Magic Arms and Armor, Improved Initiative, Improved Vital
-Strike, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(detonate), Skill Focus (Perception), Vital Strike, Weapon Focus (spear)
-
-**Skills:** Bluff +20, Craft (armorsmithing, blacksmithing) +34, Intimidate +23, Knowledge
-(engineering, planes) +26, Perception +28, Spellcraft +29
-
-**Racial Modifiers:** +8 Craft (armorsmithing, blacksmithing, and weaponsmithing)
-
-**Languages:** Common, Ignan
-
-**Special qualities:** prison forge
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or cluster (3-5)
-
-**Treasure:** Double (+2 impervious transformative spear); other non-flammable treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or cluster (3-5)
+Treasure: Double (+2 impervious transformative spear); other non-flammable treasure
+:::
 
 ### Special Abilities
 

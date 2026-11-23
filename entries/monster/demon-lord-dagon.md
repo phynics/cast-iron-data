@@ -31,141 +31,88 @@ abilities = ["44", "25", "40", "29", "32", "31"]
 _This demon's body is a nightmare of writhing tentacles and slippery coils below the leering maw of
 a deep sea predator._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 36), unholy aura (DC 28)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +11
+Type: outsider
+Perception: +55
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar, Water
+Experience points: 4,915,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 36), unholy aura (DC 28)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 46
+Touch: 31
+Flat-footed: 39
+AC modifiers: +4 deflection, +7 Dex, +15 natural, +12 profane, -2 size
+Hit points: 676 (33d10+495)
+Fort: +37
+Ref: +24
+Will: +33
+Defensive abilities: Abyssal resurrection, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/cold iron, epic, and good
+Immune: ability damage, ability drain, charm effects, compulsion effects, cold, death effects, electricity, energy drain, petrification, and poison
+Regen: 30 (deific or mythic)
+Resist: acid 30, fire 30
+Sr: 39
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 40 ft., swim 120 ft.
+Constrict: 2d6+25
+F Swallow: present
+Melee: bite +48 (6d6+17/19-20 plus [grab](ref/umr/grab)), 4 tentacles +43 (2d6+8/19-20 plus grab)
+Reach: 15
+Reach P: 30 ft. with tentacle
+Space: 15
+Spec Att: breath weapon, command aquatic creature, poison
+Swallow: transformation, AC 17, 67 hp
+:::
 
-**Type:** outsider
-
-**Perception:** +55
-
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
-
-**Subtype:** Chaotic, Demon, Evil, Extraplanar, Water
-
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 31
-
-**Flat-footed:** 39
-
-**AC modifiers:** +4 deflection, +7 Dex, +15 natural, +12 profane, -2 size
-
-**Hit points:** 676 (33d10+495)
-
-**Fort:** +37
-
-**Ref:** +24
-
-**Will:** +33
-
-**Defensive abilities:** Abyssal resurrection,
-_[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/cold iron, epic, and good
-
-**Immune:** ability damage, ability drain, charm effects, compulsion effects, cold, death effects,
-electricity, energy drain, petrification, and poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, fire 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 40 ft., swim 120 ft.
-
-**Constrict:** 2d6+25
-
-**F Swallow:** present
-
-**Melee:** bite +48 (6d6+17/19-20 plus [grab](ref/umr/grab)), 4 tentacles +43 (2d6+8/19-20 plus
-grab)
-
-**Reach:** 15
-
-**Reach P:** 30 ft. with tentacle
-
-**Space:** 15
-
-**Spec Att:** breath weapon, command aquatic creature, poison
-
-**Swallow:** transformation, AC 17, 67 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +38
-
-**Constant:**
-
-- detect good, detect law, freedom of movement, speak with animals, aquatic animals only, true
-  seeing, unholy aura (DC 28)
-
-**At will:**
-
-- astral projection, blasphemy^M^ (DC 27), control water, control weather^M^, desecrate^M^, greater
-  dispel magic, greater teleport, shapechange, telekinesis^M^ (DC 25), unhallow, unholy blight^M^
-  (DC 24)
-
-**Per day:**
-
-- 3/day: quickened greater dispel magic, insanity (DC 27), summon demons, symbol of insanity (DC
-  28), vortex (DC 27)
-- 1/day: storm of vengeance^M^ (DC 29), time stop^M^, tsunami^M^ (DC 29)
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +38
+Constant: detect good, detect law, freedom of movement, speak with animals, aquatic animals only, true seeing, unholy aura (DC 28)
+At will: astral projection, blasphemy^M^ (DC 27), control water, control weather^M^, desecrate^M^, greater dispel magic, greater teleport, shapechange, telekinesis^M^ (DC 25), unhallow, unholy blight^M^ (DC 24)
+Per day: 3/day: quickened greater dispel magic, insanity (DC 27), summon demons, symbol of insanity (DC 28), vortex (DC 27)\
+1/day: storm of vengeance^M^ (DC 29), time stop^M^, tsunami^M^ (DC 29)
+:::
 
 ###### M {#footnote-m}
 
 Dagon can use the mythic version of this ability in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 44, Dex 25, Con 40, Int 29, Wis 32, Cha 31
+::: statblock
+Ability scores: Str 44, Dex 25, Con 40, Int 29, Wis 32, Cha 31
+Base attack bonus: +33
+Combat maneuver bonus: +52 (+56 bull rush, +54 disarm, +56 grapple, +54 trip)
+Combat maneuver defense: 87 (89 vs. bull rush, 89 vs. disarm, can't be tripped)
+Feats: Awesome Blow, Bleeding Critical, Combat Expertise, Combat Reflexes, Craft Wondrous Item, Critical Focus, Greater Bull Rush, Improved Bull Rush, Improved Critical (bite), Improved Critical (tentacle), Improved Initiative, Improved Trip, Improved Vital Strike, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater dispel magic), Vital Strike
+Skills: Acrobatics +40 (+44 when jumping), Bluff +46, Intimidate +46, Knowledge (arcana, planes) +45, Knowledge (history) +42, Perception +55, Sense Motive +47, Spellcraft +45, Stealth +35, Swim +61, Use Magic Device +43
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Aquan, Celestial, Common, Draconic; _[speak with animals](ref/spell/speak-with-animals)_ (aquatic animals only)\~[telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [compression](ref/umr/compression), demon lord traits
+Faith: Dagon
+:::
 
-**Base attack bonus:** +33
+### Ecology
 
-**Combat maneuver bonus:** +52 (+56 bull rush, +54 disarm, +56 grapple, +54 trip)
-
-**Combat maneuver defense:** 87 (89 vs. bull rush, 89 vs. disarm, can't be tripped)
-
-**Feats:** Awesome Blow, Bleeding Critical, Combat Expertise, Combat Reflexes, Craft Wondrous Item,
-Critical Focus, Greater Bull Rush, Improved Bull Rush, Improved Critical (bite), Improved Critical
-(tentacle), Improved Initiative, Improved Trip, Improved Vital Strike, Lightning Reflexes, Power
-Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater dispel magic), Vital
-Strike
-
-**Skills:** Acrobatics +40 (+44 when jumping), Bluff +46, Intimidate +46, Knowledge (arcana, planes)
-+45, Knowledge (history) +42, Perception +55, Sense Motive +47, Spellcraft +45, Stealth +35, Swim
-+61, Use Magic Device +43
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Aquan, Celestial, Common, Draconic;
-_[speak with animals](ref/spell/speak-with-animals)_ (aquatic animals
-only)\~[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [compression](ref/umr/compression), demon lord traits
-
-**Faith:** Dagon
-
-**Ecology**
-
-**Environment:** any oceans ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any oceans ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

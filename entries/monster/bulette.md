@@ -30,75 +30,60 @@ abilities = ["23", "15", "20", "2", "13", "6"]
 _This armor-plated creature's toothy maw gapes wide as a fin-like dorsal plate rises between its
 shoulders._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+tremorsense: 60
+Experience points: 3,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 22
+Touch: 10
+Flat-footed: 20
+AC modifiers: +2 Dex, +12 natural, -2 size
+Hit points: 84 (8d10+40)
+Fort: +11
+Ref: +8
+Will: +5
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., burrow 20 ft.
+Melee: bite +13 (2d8+9/19-20) and 2 claws +12 (2d6+6)
+Reach: 10
+Space: 15
+Spec Att: leap, savage bite
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 23, Dex 15, Con 20, Int 2, Wis 13, Cha 6
+Base attack bonus: +8
+Combat maneuver bonus: +16
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Improved Initiative, Iron Will, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Acrobatics +9 (+17 jumping), Perception +11
+Racial Modifiers: +4 on Acrobatics checks made to jump
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 22
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +12 natural, -2 size
-
-**Hit points:** 84 (8d10+40)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft.
-
-**Melee:** bite +13 (2d8+9/19-20) and 2 claws +12 (2d6+6)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** leap, savage bite
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 15, Con 20, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Improved Initiative, Iron Will, Skill Focus (Perception), Weapon Focus (bite)
-
-**Skills:** Acrobatics +9 (+17 jumping), Perception +11
-
-**Racial Modifiers:** +4 on Acrobatics checks made to jump
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

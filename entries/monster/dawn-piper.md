@@ -32,92 +32,69 @@ _Eldritch energy burns within the eyes of this humanoid figure. Strangely colore
 head like a torch, and gleaming white teeth shine from her grin. The creature cradles a pipe in her
 long, graceful fingers._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: terrible beauty (30 ft., DC 16)
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +8
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 1,600
+:::
 
-**aura:** terrible beauty (30 ft., DC 16)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +1 dodge, +3 natural
+Hit points: 45 (7d6+21)
+Fort: +5
+Ref: +9
+Will: +7
+Dr: 5/cold iron
+Sr: 16
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 30 ft.
+Melee: mwk rapier +8 (1d6+2/18-20)
+Spec Att: dissonance (every 1d4 rounds, 15-ft. cone, 6d6 sonic damage, Reflex DC 16 half), elemental font
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +10
+Per day: 3/day: calm emotions (DC 15), delusional pride (DC 14), reckless infatuation (DC 16), unadulterated loathing (DC 16), unnatural lust (DC 15)\
+1/day: charm monster (DC 17), overwhelming grief (DC 17), rage (DC 16)
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 18, Con 16, Int 14, Wis 15, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 20
+Feats: Dodge, Improved Initiative, Mobility, Weapon Finesse
+Skills: Acrobatics +12, Bluff +11, Craft (musical instruments) +6, Sense Motive +9, Spellcraft +8, Stealth +10, Use Magic Device +13
+Languages: Aklo, Common, Sylvan
+:::
 
-**Subtype:** Extraplanar
+### Ecology {#stat-ecology}
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +1 dodge, +3 natural
-
-**Hit points:** 45 (7d6+21)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +7
-
-**Dr:** 5/cold iron
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk rapier +8 (1d6+2/18-20)
-
-**Spec Att:** dissonance (every 1d4 rounds, 15-ft. cone, 6d6 sonic damage, Reflex DC 16 half),
-elemental font
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**Per day:**
-
-- 3/day: calm emotions (DC 15), delusional pride (DC 14), reckless infatuation (DC 16),
-  unadulterated loathing (DC 16), unnatural lust (DC 15)
-- 1/day: charm monster (DC 17), overwhelming grief (DC 17), rage (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 18, Con 16, Int 14, Wis 15, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 20
-
-**Feats:** Dodge, Improved Initiative, Mobility, Weapon Finesse
-
-**Skills:** Acrobatics +12, Bluff +11, Craft (musical instruments) +6, Sense Motive +9, Spellcraft
-+8, Stealth +10, Use Magic Device +13
-
-**Languages:** Aklo, Common, Sylvan
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary, duet, or choir (3, 5, or 7)
-
-**Treasure:** Standard (mwk rapier);
-[masterwork musical instrument](ref/eq-misc/musical-instrument-masterwork), other treasure
+::: statblock
+Environment: any forest
+Organization: solitary, duet, or choir (3, 5, or 7)
+Treasure: Standard (mwk rapier); [masterwork musical instrument](ref/eq-misc/musical-instrument-masterwork), other treasure
+:::
 
 ### Special Abilities
 

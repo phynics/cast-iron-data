@@ -32,82 +32,63 @@ abilities = ["14", "17", "12", "8", "11", "12"]
 _This lithe, cat-like humanoid has a long tail and pointed ears. Her feline eyes sparkle with
 curiosity and mischief._
 
-**Challenge rating:** 1/2
-
 **Catfolk [ranger](ref/class/ranger) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +3
+Size: medium
+Alignment: Neutral good
+Perception: +2
+Senses: Low-light vision
+Subtype: Catfolk
+Experience points: 200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 armor, +3 Dex
+Hit points: 12 (1d10+2)
+Fort: +3
+Ref: +5
+Will: +0
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft.
+Fav En: magical beasts +2
+Melee: longsword +3 (1d8+2/19-20)
+Ranged: longbow +5 (1d8/×3)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Catfolk
+::: statblock
+Ability scores: Str 14, Dex 17, Con 12, Int 8, Wis 11, Cha 12
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 16
+Feats: Weapon Focus (longbow)
+Skills: Climb +5, Handle Animal +5, Knowledge (nature) +3, Perception +2
+Racial Modifiers: +2 Perception, +2 Stealth, +2 Survival
+Languages: Catfolk, Common
+Special qualities: cat's luck, sprinter, track +1, [wild empathy](ref/ability/wild-empathy) +2
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 armor, +3 Dex
-
-**Hit points:** 12 (1d10+2)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** magical beasts +2
-
-**Melee:** longsword +3 (1d8+2/19-20)
-
-**Ranged:** longbow +5 (1d8/×3)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 12, Int 8, Wis 11, Cha 12
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 16
-
-**Feats:** Weapon Focus (longbow)
-
-**Skills:** Climb +5, Handle Animal +5, Knowledge (nature) +3, Perception +2
-
-**Racial Modifiers:** +2 Perception, +2 Stealth, +2 Survival
-
-**Languages:** Catfolk, Common
-
-**Special qualities:** cat's luck, sprinter, track +1, [wild empathy](ref/ability/wild-empathy) +2
-
-**Ecology**
-
-**Environment:** any temperate or warm forest or plains, or urban
-
-**Organization:** solitary, pair, pride (3-12 plus 1 leader of 3rd level and 1-4
-[cheetahs](ref/monster/cat-cheetah) or [leopards](ref/monster/cat-leopard)), or tribe (13-60 plus
-50% noncombatants and 1 subchief of 3rd level per 10 adults, and 1 chief of 6th level plus 6-12
-cheetahs or leopards)
-
-**Treasure:** NPC gear (studded leather armor, lb20, longsword); other treasure
+::: statblock
+Environment: any temperate or warm forest or plains, or urban
+Organization: solitary, pair, pride (3-12 plus 1 leader of 3rd level and 1-4 [cheetahs](ref/monster/cat-cheetah) or [leopards](ref/monster/cat-leopard)), or tribe (13-60 plus 50% noncombatants and 1 subchief of 3rd level per 10 adults, and 1 chief of 6th level plus 6-12 cheetahs or leopards)
+Treasure: NPC gear (studded leather armor, lb20, longsword); other treasure
+:::
 
 ### Special Abilities
 

@@ -32,79 +32,62 @@ abilities = ["29", "14", "22", "-", "12", "2"]
 _This spiny, long-legged crab towers over its surroundings. Its quick and powerful claws thrash
 wildly, eager for prey._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: vermin
+Experience points: 3,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 18
+AC modifiers: +2 Dex, +10 natural, -2 size
+Hit points: 84 (8d8+48)
+Fort: +12
+Ref: +4
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Constrict: 1d8+9
+Melee: 2 claws +13 (1d8+9 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: darting claw
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 29, Dex 14, Con 22, Int -, Wis 12, Cha 2
+Base attack bonus: +6
+Combat maneuver bonus: +17 (+21 grapple)
+Combat maneuver defense: 29 (41 vs. trip)
+Skills: Perception +5, Swim +17
+Racial Modifiers: +4 Perception
+Special qualities: water dependency
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +10 natural, -2 size
-
-**Hit points:** 84 (8d8+48)
-
-**Fort:** +12
-
-**Ref:** +4
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Constrict:** 1d8+9
-
-**Melee:** 2 claws +13 (1d8+9 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** darting claw
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 14, Con 22, Int -, Wis 12, Cha 2
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +17 (+21 grapple)
-
-**Combat maneuver defense:** 29 (41 vs. trip)
-
-**Skills:** Perception +5, Swim +17
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** water dependency
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or cast (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary or cast (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

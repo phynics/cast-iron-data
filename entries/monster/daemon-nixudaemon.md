@@ -30,111 +30,77 @@ abilities = ["17", "13", "19", "14", "14", "16"]
 _This four-armed fiend has blue-green skin covered in white scars. Its two upper arms end in long,
 barbed whips of calloused flesh._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +5
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 3,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 95 (10d10+40)
+Fort: +7
+Ref: +8
+Will: +9
+Dr: 10/good or silver
+Fh: 2
+Immune: acid, daze, death effects, disease, exhaustion, fatigue, nonlethal damage, paralysis, poison, sleep, stun
+Resist: cold 10, electricity 10, fire 10
+Sr: 18
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Constrict: 1d8+4
+Melee: 2 slams +12 (1d8+3), 2 +1 [deadly](ref/magic-enh/deadly) [merciful](ref/magic-enh/merciful) [vicious](ref/magic-enh/vicious) whip arms +13 (1d8+4 plus [grab](ref/umr/grab))
+Reach: 10
+Reach P: 20 ft. with whip arms
+Space: 10
+Spec Att: damning scourge, dead tired, enslave (DC 18)
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Constant: deathwatch
+At will: greater teleport, self plus 50 lbs. only
+Per day: 3/day: heroism, waves of fatigue (DC 18)\
+1/day: temporary resurrection
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Daemon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 17, Dex 13, Con 19, Int 14, Wis 14, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +14 (+16 disarm, +16 trip, +18 grapple)
+Combat maneuver defense: 25 (27 vs. disarm, 27 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Improved Disarm, Improved Initiative, Improved Trip
+Skills: Acrobatics +12, Bluff +16, Diplomacy +14, Sense Motive +15, Stealth +10
+Languages: Abyssal, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +9
-
-**Dr:** 10/good or silver
-
-**Fh:** 2
-
-**Immune:** acid, daze, death effects, disease, exhaustion, fatigue, nonlethal damage, paralysis,
-poison, sleep, stun
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Constrict:** 1d8+4
-
-**Melee:** 2 slams +12 (1d8+3), 2 +1 [deadly](ref/magic-enh/deadly)
-[merciful](ref/magic-enh/merciful) [vicious](ref/magic-enh/vicious) whip arms +13 (1d8+4 plus
-[grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with whip arms
-
-**Space:** 10
-
-**Spec Att:** damning scourge, dead tired, enslave (DC 18)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Constant:**
-
-- deathwatch
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. only
-
-**Per day:**
-
-- 3/day: heroism, waves of fatigue (DC 18)
-- 1/day: temporary resurrection
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 13, Con 19, Int 14, Wis 14, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14 (+16 disarm, +16 trip, +18 grapple)
-
-**Combat maneuver defense:** 25 (27 vs. disarm, 27 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Disarm, Improved Initiative, Improved Trip
-
-**Skills:** Acrobatics +12, Bluff +16, Diplomacy +14, Sense Motive +15, Stealth +10
-
-**Languages:** Abyssal, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or corps (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or corps (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

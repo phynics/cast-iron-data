@@ -31,109 +31,77 @@ abilities = ["26", "21", "24", "17", "24", "23"]
 _Translucent wings protrude from this statuesque figure's back. Patches of pale scales glisten on
 its skin._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: clarity's grace (30 ft.)
+Alignment: Chaotic good
+Initiative: +9
+Size: large
+Type: outsider
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Azata, Chaotic, Extraplanar, Good
+Experience points: 76,800
+:::
 
-**aura:** clarity's grace (30 ft.)
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 31
+Touch: 19
+Flat-footed: 26
+AC modifiers: +5 deflection, +5 Dex, +12 natural, -1 size
+Hit points: 243 (18d10+144)
+Fort: +13
+Ref: +16
+Will: +20
+Dr: 10/cold iron and evil
+Immune: electricity, mind-affecting effects, petrification
+Resist: cold 10, fire 10
+Sr: 27
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 60 ft. (perfect)
+Melee: +2 aberration-bane returning trident +27/+22/+17/+12 (2d6+10/19-20)
+Ranged: +2 aberration-bane returning trident +24 (1d8+9/19-20)
+Reach: 10
+Space: 10
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+Constant: true seeing
+At will: remove paralysis, water breathing, zone of truth (DC 18)
+Per day: 5/day: break enchantment, cure serious wounds, dimension door, dispel magic, freedom of movement, invisibility purge, remove disease\
+3/day: greater dispel magic, protection from spells, enchantment and illusion only\
+1/day: freedom
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+::: statblock
+Ability scores: Str 26, Dex 21, Con 24, Int 17, Wis 24, Cha 23
+Base attack bonus: +18
+Combat maneuver bonus: +27
+Combat maneuver defense: 47
+Feats: Combat Reflexes, Flyby Attack, Hover, Improved Critical (trident), Improved Initiative, Iron Will, Power Attack, Spell Penetration, Toughness
+Skills: Fly +32, Heal +28
+Languages: Aklo, Celestial, Common, Draconic, Infernal; _truespeech_
+Special qualities: burst of restoration, lucid rain
+:::
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 19
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 deflection, +5 Dex, +12 natural, -1 size
-
-**Hit points:** 243 (18d10+144)
-
-**Fort:** +13
-
-**Ref:** +16
-
-**Will:** +20
-
-**Dr:** 10/cold iron and evil
-
-**Immune:** electricity, mind-affecting effects, petrification
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 60 ft. (perfect)
-
-**Melee:** +2 aberration-bane returning trident +27/+22/+17/+12 (2d6+10/19-20)
-
-**Ranged:** +2 aberration-bane returning trident +24 (1d8+9/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- remove paralysis, water breathing, zone of truth (DC 18)
-
-**Per day:**
-
-- 5/day: break enchantment, cure serious wounds, dimension door, dispel magic, freedom of movement,
-  invisibility purge, remove disease
-- 3/day: greater dispel magic, protection from spells, enchantment and illusion only
-- 1/day: freedom
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 21, Con 24, Int 17, Wis 24, Cha 23
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 47
-
-**Feats:** Combat Reflexes, Flyby Attack, Hover, Improved Critical (trident), Improved Initiative,
-Iron Will, Power Attack, Spell Penetration, Toughness
-
-**Skills:** Fly +32, Heal +28
-
-**Languages:** Aklo, Celestial, Common, Draconic, Infernal; _truespeech_
-
-**Special qualities:** burst of restoration, lucid rain
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or liberty (3-6)
-
-**Treasure:** Standard (+2 BANE-aberration returning trident); other treasure
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or liberty (3-6)
+Treasure: Standard (+2 BANE-aberration returning trident); other treasure
+:::
 
 ### Special Abilities
 

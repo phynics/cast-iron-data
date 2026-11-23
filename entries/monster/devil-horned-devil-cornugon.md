@@ -30,102 +30,73 @@ abilities = ["31", "27", "28", "14", "22", "23"]
 _Bristling with terrible spines and a crown of deadly horns, this leering winged terror wields a
 whirling barbed chain._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: fear aura (5 ft., DC 23)
+Initiative: +8
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 76,800
+:::
 
-**aura:** fear aura (5 ft., DC 23)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 35
+Touch: 17
+Flat-footed: 27
+AC modifiers: +8 Dex, +18 natural, -1 size
+Hit points: 217 (15d10+135)
+Fort: +18
+Ref: +17
+Will: +13
+Dr: 10/good and silver
+Immune: fire, poison
+Regen: 5 (good weapons, good spells)
+Resist: acid 10, cold 10
+Sr: 27
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: +1 unholy spiked chain +26/+21/+16 (2d6+11 plus stun), bite +22 (2d8+5), tail +22 (2d6+5 plus infernal wound) or 2 claws +24 (2d6+10), bite +24 (2d8+10), tail +22 (2d6+5 plus infernal wound)
+Reach: 10
+Space: 10
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+At will: dispel chaos (DC 21), dispel good (DC 21), magic circle against good, greater teleport, self plus 50 lbs. of objects only, persistent image (DC 21)
+Per day: 3/day: fireball (DC 19), lightning bolt (DC 19)\
+1/day: summon (level 6, 3 [barbed devils](ref/monster/devil-barbed-devil-hamatula), 35%)
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+Ability scores: Str 31, Dex 27, Con 28, Int 14, Wis 22, Cha 23
+Base attack bonus: +15
+Combat maneuver bonus: +26
+Combat maneuver defense: 44
+Feats: Improved Bull Rush, Improved Sunder, Improved Vital Strike, Iron Will, Multiattack, Power Attack, Vital Strike, Weapon Focus (spiked chain)
+Skills: Bluff +24, Diplomacy +21, Sense Motive +21, Spellcraft +20, Stealth +22
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 35
-
-**Touch:** 17
-
-**Flat-footed:** 27
-
-**AC modifiers:** +8 Dex, +18 natural, -1 size
-
-**Hit points:** 217 (15d10+135)
-
-**Fort:** +18
-
-**Ref:** +17
-
-**Will:** +13
-
-**Dr:** 10/good and silver
-
-**Immune:** fire, poison
-
-**Regen:** 5 (good weapons, good spells)
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** +1 unholy spiked chain +26/+21/+16 (2d6+11 plus stun), bite +22 (2d8+5), tail +22 (2d6+5
-plus infernal wound) or 2 claws +24 (2d6+10), bite +24 (2d8+10), tail +22 (2d6+5 plus infernal
-wound)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**At will:**
-
-- dispel chaos (DC 21), dispel good (DC 21), magic circle against good, greater teleport, self plus
-  50 lbs. of objects only, persistent image (DC 21)
-
-**Per day:**
-
-- 3/day: fireball (DC 19), lightning bolt (DC 19)
-- 1/day: summon (level 6, 3 [barbed devils](ref/monster/devil-barbed-devil-hamatula), 35%)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 27, Con 28, Int 14, Wis 22, Cha 23
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 44
-
-**Feats:** Improved Bull Rush, Improved Sunder, Improved Vital Strike, Iron Will, Multiattack, Power
-Attack, Vital Strike, Weapon Focus (spiked chain)
-
-**Skills:** Bluff +24, Diplomacy +21, Sense Motive +21, Spellcraft +20, Stealth +22
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or wing (3-10)
-
-**Treasure:** Standard (+1 unholy spiked chain); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or wing (3-10)
+Treasure: Standard (+1 unholy spiked chain); other treasure
+:::
 
 ### Special Abilities
 

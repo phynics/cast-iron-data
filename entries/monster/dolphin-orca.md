@@ -29,75 +29,60 @@ abilities = ["27", "15", "16", "2", "15", "6"]
 _This sleek black whale has a distinctive white patch near each eye and a mouth filled with sharp
 teeth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+blindsight: 120
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Perception: +19
+Senses: Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 14
+AC modifiers: +2 Dex, +6 natural, -2 size
+Hit points: 67 (9d8+27)
+Fort: +9
+Ref: +8
+Will: +5
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: swim 80 ft.
+Melee: bite +13 (2d6+12)
+Reach: 10
+Space: 15
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +19
+::: statblock
+Ability scores: Str 27, Dex 15, Con 16, Int 2, Wis 15, Cha 6
+Base attack bonus: +6
+Combat maneuver bonus: +16
+Combat maneuver defense: 28
+Feats: Endurance, Improved Initiative, Skill Focus (Perception, Swim), Weapon Focus (bite)
+Skills: Perception +19, Swim +28
+Racial Modifiers: +8 Perception
+Special qualities: [hold breath](ref/umr/hold-breath) (as dolphin)
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +6 natural, -2 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** swim 80 ft.
-
-**Melee:** bite +13 (2d6+12)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 15, Con 16, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 28
-
-**Feats:** Endurance, Improved Initiative, Skill Focus (Perception, Swim), Weapon Focus (bite)
-
-**Skills:** Perception +19, Swim +28
-
-**Racial Modifiers:** +8 Perception
-
-**Special qualities:** [hold breath](ref/umr/hold-breath) (as dolphin)
-
-**Ecology**
-
-**Environment:** cold oceans
-
-**Organization:** solitary, pair, or pod (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: cold oceans
+Organization: solitary, pair, or pod (3-20)
+Treasure: None
+:::
 
 ### Description
 

@@ -29,96 +29,71 @@ abilities = ["10", "23", "18", "13", "15", "17"]
 
 _This shabby-cloaked figure is surrounded by hundreds of bees._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +18
+Senses: Darkvision 60 ft., Scent
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 16
+AC modifiers: +6 Dex, +1 dodge, +6 natural
+Hit points: 110 (13d8+52)
+Fort: +8
+Ref: +10
+Will: +10
+Amorph: present
+Dr: 15/-
+Fh: 10
+Immune: disease, poison, paralysis, sleep, stunning
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: slam +9 touch (3d6 plus poison)
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +16
+Constant: !_speak with vermin_, operates as [speak with plants](ref/spell/speak-with-plants) but for vermin
+At will: alter self, male human only, augury, divination
+Per day: 3/day: glibness, lesser geas (DC 17), summon (level 4, 1 wasp swarm or 1d4+1 giant bees 100%)\
+1/day: commune with nature, contact other plane, reincarnate
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 10, Dex 23, Con 18, Int 13, Wis 15, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +9
+Combat maneuver defense: 26
+Feats: Ability Focus (poison), Acrobatic, Dodge, Mobility, Spring Attack, Step Up, Wind Stance
+Skills: Acrobatics +23, Fly +27, Intimidate +19, Perception +18
+Languages: Common, Druidic
+Special qualities: apian emissaries, swarmlike, taboo name
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +1 dodge, +6 natural
-
-**Hit points:** 110 (13d8+52)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +10
-
-**Amorph:** present
-
-**Dr:** 15/-
-
-**Fh:** 10
-
-**Immune:** disease, poison, paralysis, sleep, stunning
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** slam +9 touch (3d6 plus poison)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +16
-
-**Constant:**
-
-- !_speak with vermin_, operates as [speak with plants](ref/spell/speak-with-plants) but for vermin
-
-**At will:**
-
-- alter self, male human only, augury, divination
-
-**Per day:**
-
-- 3/day: glibness, lesser geas (DC 17), summon (level 4, 1 wasp swarm or 1d4+1 giant bees 100%)
-- 1/day: commune with nature, contact other plane, reincarnate
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 23, Con 18, Int 13, Wis 15, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 26
-
-**Feats:** Ability Focus (poison), Acrobatic, Dodge, Mobility, Spring Attack, Step Up, Wind Stance
-
-**Skills:** Acrobatics +23, Fly +27, Intimidate +19, Perception +18
-
-**Languages:** Common, Druidic
-
-**Special qualities:** apian emissaries, swarmlike, taboo name
-
-**Ecology**
-
-**Environment:** temperate forest (Andoran)
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: temperate forest (Andoran)
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

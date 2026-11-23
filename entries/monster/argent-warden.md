@@ -31,82 +31,63 @@ abilities = ["17", "10", "-", "13", "16", "17"]
 _This silver-armored knight moves with precision and poise. Gaps in its armor reveal nothing but
 glowing golden light within._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: Hellspurning aura (30 ft.)
+Type: construct
+Initiative: +4
+Alignment: Lawful good
+Size: medium
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 4,800
+:::
 
-**aura:** Hellspurning aura (30 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 21
+AC modifiers: +8 natural, +3 shield
+Hit points: 97 (14d10+20)
+Fort: +9
+Ref: +9
+Will: +10
+Defensive abilities: divine grace
+Dr: 5/adamantine and bludgeoning
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 19
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: 30 ft.
+Melee: +1 longsword +18/+13/+8 (1d8+4/17-20)
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +17
+::: statblock
+Ability scores: Str 17, Dex 10, Con -, Int 13, Wis 16, Cha 17
+Base attack bonus: +14
+Combat maneuver bonus: +17 (+21 disarm)
+Combat maneuver defense: 27 (29 vs. disarm)
+Feats: Combat Expertise, Great Fortitude, Greater Disarm, Improved Critical (longsword), Improved Disarm, Improved Initiative, Lightning Reflexes
+Skills: Intimidate +10, Knowledge (planes) +8, Perception +17, Sense Motive +17
+Languages: Celestial; _truespeech_
+Special qualities: argent armor
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Extraplanar
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +8 natural, +3 shield
-
-**Hit points:** 97 (14d10+20)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +10
-
-**Defensive abilities:** divine grace
-
-**Dr:** 5/adamantine and bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 longsword +18/+13/+8 (1d8+4/17-20)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con -, Int 13, Wis 16, Cha 17
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +17 (+21 disarm)
-
-**Combat maneuver defense:** 27 (29 vs. disarm)
-
-**Feats:** Combat Expertise, Great Fortitude, Greater Disarm, Improved Critical (longsword),
-Improved Disarm, Improved Initiative, Lightning Reflexes
-
-**Skills:** Intimidate +10, Knowledge (planes) +8, Perception +17, Sense Motive +17
-
-**Languages:** Celestial; _truespeech_
-
-**Special qualities:** argent armor
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or troop (3-8)
-
-**Treasure:** Double (+1 heavy steel shield, +1 longsword); argent armor, other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or troop (3-8)
+Treasure: Double (+1 heavy steel shield, +1 longsword); argent armor, other treasure
+:::
 
 ### Special Abilities
 

@@ -31,106 +31,74 @@ abilities = ["13", "10", "11", "14", "13", "14"]
 _This robed figure appears human except for snake-like eyes, a pair of devilish horns, and the
 occasional dart of a forked tongue._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +4
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Detect good, See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful, Shapechanger
+Experience points: 1,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 17
+AC modifiers: +7 natural
+Hit points: 33 (6d10)
+Fort: +5
+Ref: +2
+Will: +8
+Defensive abilities: all-around vision
+Dr: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., climb 20 ft., swim 20 ft.
+Melee: 2 bites +7 (1d6+1 plus poison) (amphisbaena form only) or heavy mace +7/+2 (1d8+1) (natural form only)
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Constant: detect good
+At will: guidance, hypnotism (DC 13), light, message, prestidigitation, read magic
+Per day: 3/day: beguiling gift (DC 13), burning hands (DC 13), darkness, daylight, greater teleport, self plus 50 lbs. of objects only\
+1/day: charm person (DC 13), eagle's splendor, suggestion (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
+::: statblock
+Ability scores: Str 13, Dex 10, Con 11, Int 14, Wis 13, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 17
+Feats: Combat Casting, Improved Initiative, Iron Will
+Skills: Bluff +15, Climb +9
+Racial Modifiers: +4 Bluff, +4 Diplomacy
+Languages: Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any Medium humanoid or Medium [amphisbaena](ref/monster/amphisbaena); [alter self](ref/spell/alter-self) or [beast shape III](ref/spell/beast-shape-3))
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 natural
-
-**Hit points:** 33 (6d10)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +8
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 5/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** 2 bites +7 (1d6+1 plus poison) (amphisbaena form only) or heavy mace +7/+2 (1d8+1)
-(natural form only)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect good
-
-**At will:**
-
-- guidance, hypnotism (DC 13), light, message, prestidigitation, read magic
-
-**Per day:**
-
-- 3/day: beguiling gift (DC 13), burning hands (DC 13), darkness, daylight, greater teleport, self
-  plus 50 lbs. of objects only
-- 1/day: charm person (DC 13), eagle's splendor, suggestion (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 10, Con 11, Int 14, Wis 13, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Casting, Improved Initiative, Iron Will
-
-**Skills:** Bluff +15, Climb +9
-
-**Racial Modifiers:** +4 Bluff, +4 Diplomacy
-
-**Languages:** Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any Medium humanoid or Medium
-[amphisbaena](ref/monster/amphisbaena); [alter self](ref/spell/alter-self) or
-[beast shape III](ref/spell/beast-shape-3))
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or cabal (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or cabal (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

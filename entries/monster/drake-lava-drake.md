@@ -31,85 +31,64 @@ abilities = ["25", "16", "18", "9", "12", "11"]
 
 _This muscular two-legged dragon is covered with scales of thick volcanic stone._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: dragon
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Fire
+Experience points: 6,400
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +3 Dex, +10 natural, -1 size
+Hit points: 115 (11d12+44)
+Fort: +11
+Ref: +10
+Will: +8
+Immune: fire, paralysis, sleep
+Vulner: cold
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., burrow 30 ft., fly 60 ft. (average), burrow (lava only)
+Melee: bite +17 (1d8+7), 2 claws +17 (1d6+7), tail slap +15 (1d8+3)
+Reach: 10
+Space: 10
+Spec Att: magma shake, pyroclastic vomit
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 25, Dex 16, Con 18, Int 9, Wis 12, Cha 11
+Base attack bonus: +11
+Combat maneuver bonus: +19 (+21 bull rush)
+Combat maneuver defense: 32 (34 vs. bull rush)
+Feats: Awesome Blow, Flyby Attack, Improved Bull Rush, Improved Initiative, Multiattack, Power Attack
+Skills: Climb +21, Intimidate +14, Perception +15, Stealth +13 (+21 submerged in molten rock or metal)
+Racial Modifiers: +8 Stealth submerged in molten rock or metal
+Languages: Draconic
+Special qualities: [hold breath](ref/umr/hold-breath), speed surge
+:::
 
-**Subtype:** Fire
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +10 natural, -1 size
-
-**Hit points:** 115 (11d12+44)
-
-**Fort:** +11
-
-**Ref:** +10
-
-**Will:** +8
-
-**Immune:** fire, paralysis, sleep
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft., burrow 30 ft., fly 60 ft. (average), burrow (lava only)
-
-**Melee:** bite +17 (1d8+7), 2 claws +17 (1d6+7), tail slap +15 (1d8+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** magma shake, pyroclastic vomit
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con 18, Int 9, Wis 12, Cha 11
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19 (+21 bull rush)
-
-**Combat maneuver defense:** 32 (34 vs. bull rush)
-
-**Feats:** Awesome Blow, Flyby Attack, Improved Bull Rush, Improved Initiative, Multiattack, Power
-Attack
-
-**Skills:** Climb +21, Intimidate +14, Perception +15, Stealth +13 (+21 submerged in molten rock or
-metal)
-
-**Racial Modifiers:** +8 Stealth submerged in molten rock or metal
-
-**Languages:** Draconic
-
-**Special qualities:** [hold breath](ref/umr/hold-breath), speed surge
-
-**Ecology**
-
-**Environment:** warm forests, hills, or mountains
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests, hills, or mountains
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

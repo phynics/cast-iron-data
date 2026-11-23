@@ -30,77 +30,61 @@ abilities = ["22", "11", "17", "-", "11", "2"]
 
 _This enormous caterpillar is covered with hundreds of sharp, poisonous bristles._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +10 natural, -1 size
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +1
+Will: +1
+Defensive abilities: bristles
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +8 (2d6+6), bristles +3 (1d8+3 plus poison)
+Reach: 10
+Space: 10
+Spec Att: poison
+Web: +2 ranged, DC 15, 5 hp
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 22, Dex 11, Con 17, Int -, Wis 11, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +10
+Combat maneuver defense: 20 (can't be tripped)
+Skills: Climb +14
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +10 natural, -1 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +1
-
-**Will:** +1
-
-**Defensive abilities:** bristles
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +8 (2d6+6), bristles +3 (1d8+3 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Web:** +2 ranged, DC 15, 5 hp
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 11, Con 17, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20 (can't be tripped)
-
-**Skills:** Climb +14
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary, pair, or clutch (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary, pair, or clutch (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

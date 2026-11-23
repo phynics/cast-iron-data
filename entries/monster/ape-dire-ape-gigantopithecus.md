@@ -29,71 +29,58 @@ abilities = ["19", "15", "16", "2", "12", "7"]
 _Sharp teeth fill this large, feral ape's mouth, and its long, muscular arms stretch to the ground,
 ending in wickedly curved claws._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +6
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +6 (1d6+4), 2 claws +6 (1d4+4)
+Reach: 10
+Rend: 2 claws, 1d4+6
+Space: 10
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 15, Con 16, Int 2, Wis 12, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Iron Will, Skill Focus (Perception)
+Skills: Acrobatics +6, Climb +16, Perception +8, Stealth +2
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +6 (1d6+4), 2 claws +6 (1d4+4)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d4+6
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 16, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Iron Will, Skill Focus (Perception)
-
-**Skills:** Acrobatics +6, Climb +16, Perception +8, Stealth +2
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or troop (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or troop (3-6)
+Treasure: Incidental
+:::
 
 ### Description
 

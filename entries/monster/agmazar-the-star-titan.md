@@ -32,109 +32,72 @@ abilities = ["47", "21", "-", "6", "31", "40"]
 _Stony segments cover this towering colossus like armor plates. Though it looks lifeless, its four
 arms move with supple grace._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+aura: [frightful presence](ref/umr/frightful-presence) (300 ft., DC 39), suffocation (60 ft.)
+Size: colossal
+Initiative: +5
+Alignment: Neutral evil
+Perception: +49
+Senses: Creaturesense, See in darkness
+Subtype: Cold, Kaiju
+Type: undead
+Experience points: 2,457,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (300 ft., DC 39), suffocation (60 ft.)
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 40
+Touch: 22
+Flat-footed: 35
+AC modifiers: +15 deflection, +5 Dex, +18 natural, -8 size
+Hit points: 615 (30d8+480)
+Fort: +25
+Ref: +15
+Will: +27
+Chan Res: +4
+Defensive abilities: force field, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/epic
+Fh: 30
+Immune: ability damage, ability drain, cold, death effects, disease, energy drain, fear, [undead traits](ref/umr/undead-traits)
+Resist: acid 30, electricity 30, fire 30, negative energy 30, sonic 30
+Vulner: fire
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 100 ft., climb 50 ft.
+Ch N En: 10d6, DC 35, 18/day
+E Drain: 1 level, DC 40
+Melee: 4 slams +33 (4d12+27/19-20/×3 plus energy drain)
+Reach: 60
+Space: 60
+Spec Att: gravitic control, hurl foe, serpent arms
+Trample: 4d6+27, DC 43
+:::
 
-**Perception:** +49
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +35
+Constant: freedom of movement
+Per day: 3/day: quickened circle of death (DC 31), waves of exhaustion
+:::
 
-**Senses:** Creaturesense, See in darkness
+### Statistics
 
-**Subtype:** Cold, Kaiju
-
-**Type:** undead
-
-**Experience points:** 2,457,600
-
-**Armor class:** 40
-
-**Touch:** 22
-
-**Flat-footed:** 35
-
-**AC modifiers:** +15 deflection, +5 Dex, +18 natural, -8 size
-
-**Hit points:** 615 (30d8+480)
-
-**Fort:** +25
-
-**Ref:** +15
-
-**Will:** +27
-
-**Chan Res:** +4
-
-**Defensive abilities:** force field, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/epic
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, cold, death effects, disease, energy drain, fear,
-[undead traits](ref/umr/undead-traits)
-
-**Resist:** acid 30, electricity 30, fire 30, negative energy 30, sonic 30
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 100 ft., climb 50 ft.
-
-**Ch N En:** 10d6, DC 35, 18/day
-
-**E Drain:** 1 level, DC 40
-
-**Melee:** 4 slams +33 (4d12+27/19-20/×3 plus energy drain)
-
-**Reach:** 60
-
-**Space:** 60
-
-**Spec Att:** gravitic control, hurl foe, serpent arms
-
-**Trample:** 4d6+27, DC 43
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +35
-
-**Constant:**
-
-- freedom of movement
-
-**Per day:**
-
-- 3/day: quickened circle of death (DC 31), waves of exhaustion
-
-**Statistics**
-
-**Ability scores:** Str 47, Dex 21, Con -, Int 6, Wis 31, Cha 40
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +48
-
-**Combat maneuver defense:** 86
-
-**Feats:** Bleeding Critical, Blind-Fight, Critical Focus, Defensive Combat Training, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (horrid wilting), Improved Critical (slam), Power
-Attack, Quick Channel, Quicken Spell-Like Ability (circle of death), Sickening Critical, Skill Focus
-(Perception), Snatch, Thanatopic Spell, Toughness, Weapon Focus (slam)
-
-**Skills:** Climb +30
-
-**Languages:** Draconic (can't speak)
-
-**Special qualities:** kaiju traits, massive, powerful blows, recovery
+::: statblock
+Ability scores: Str 47, Dex 21, Con -, Int 6, Wis 31, Cha 40
+Base attack bonus: +22
+Combat maneuver bonus: +48
+Combat maneuver defense: 86
+Feats: Bleeding Critical, Blind-Fight, Critical Focus, Defensive Combat Training, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (horrid wilting), Improved Critical (slam), Power Attack, Quick Channel, Quicken Spell-Like Ability (circle of death), Sickening Critical, Skill Focus (Perception), Snatch, Thanatopic Spell, Toughness, Weapon Focus (slam)
+Skills: Climb +30
+Languages: Draconic (can't speak)
+Special qualities: kaiju traits, massive, powerful blows, recovery
+:::
 
 ### Special Abilities
 

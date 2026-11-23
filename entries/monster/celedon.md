@@ -30,73 +30,59 @@ abilities = ["12", "11", "-", "9", "14", "13"]
 
 _This metallic sculpture of an idealized humanoid figure sparkles with divine luster._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: construct
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 12
+Touch: 10
+Flat-footed: 12
+AC modifiers: +2 natural
+Hit points: 25 (1d10+20)
+Fort: +0
+Ref: +0
+Will: +4
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: short sword +2 (1d6+1/19-20)
+Spec Att: bardic performance (6/day)
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 11, Con -, Int 9, Wis 14, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 12
+Feats: Iron Will, Skill Focus (Knowledge \[religion\])
+Skills: Knowledge (religion) +3
+Languages: Common
+Special qualities: granted power, song of the gods
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 10
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 natural
-
-**Hit points:** 25 (1d10+20)
-
-**Fort:** +0
-
-**Ref:** +0
-
-**Will:** +4
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** short sword +2 (1d6+1/19-20)
-
-**Spec Att:** bardic performance (6/day)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 11, Con -, Int 9, Wis 14, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 12
-
-**Feats:** Iron Will, Skill Focus (Knowledge \[religion\])
-
-**Skills:** Knowledge (religion) +3
-
-**Languages:** Common
-
-**Special qualities:** granted power, song of the gods
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, commune (5-10), or abbey (11-25)
-
-**Treasure:** Standard (short sword); other treasure
+::: statblock
+Environment: any
+Organization: solitary, commune (5-10), or abbey (11-25)
+Treasure: Standard (short sword); other treasure
+:::
 
 ### Special Abilities
 

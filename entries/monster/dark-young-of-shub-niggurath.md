@@ -30,108 +30,76 @@ abilities = ["30", "17", "24", "16", "19", "21"]
 _The lumbering bulk of a tree-like monster lurches out of the mist, its branches tentacles, its
 roots ending in hooves, and its trunk decorated with numerous drooling maws._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: aberration
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 24)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +7
+Perception: +21
+Senses: Darkvision 60 ft.
+tremorsense: 30
+Experience points: 19,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 24)
+::: statblock
+Armor class: 27
+Touch: 11
+Flat-footed: 24
+AC modifiers: +3 Dex, +16 natural, -2 size
+Hit points: 161 (14d8+98)
+Fort: +11
+Ref: +9
+Will: +13
+Dr: 15/slashing
+Immune: acid, electricity, fire, poison
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 30 ft.
+Constrict: 1d8+10
+Melee: 4 tentacles +19 (1d8+10/19-20 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: sucking maws
+Trample: 1d8+15, DC 27
+:::
 
-**Initiative:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+Constant: freedom of movement
+At will: air walk, tree shape
+Per day: 3/day: entangle (DC 16), command plants (DC 19)\
+1/day: insanity (DC 22), tree stride
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 30, Dex 17, Con 24, Int 16, Wis 19, Cha 21
+Base attack bonus: +10
+Combat maneuver bonus: +22 (+26 grapple)
+Combat maneuver defense: 35 (can't be tripped)
+Feats: Combat Reflexes, Improved Critical (tentacles), Improved Initiative, Lightning Reflexes, Power Attack, Vital Strike, Weapon Focus (tentacles)
+Skills: Knowledge (arcana, nature) +17, Perception +21, Sense Motive +18, Spellcraft +20, Stealth +12 (+20 in forests)
+Racial Modifiers: +8 Stealth in forests
+Languages: Aklo
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 11
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 Dex, +16 natural, -2 size
-
-**Hit points:** 161 (14d8+98)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +13
-
-**Dr:** 15/slashing
-
-**Immune:** acid, electricity, fire, poison
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d8+10
-
-**Melee:** 4 tentacles +19 (1d8+10/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** sucking maws
-
-**Trample:** 1d8+15, DC 27
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**Constant:**
-
-- freedom of movement
-
-**At will:**
-
-- air walk, tree shape
-
-**Per day:**
-
-- 3/day: entangle (DC 16), command plants (DC 19)
-- 1/day: insanity (DC 22), tree stride
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 17, Con 24, Int 16, Wis 19, Cha 21
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +22 (+26 grapple)
-
-**Combat maneuver defense:** 35 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Critical (tentacles), Improved Initiative, Lightning Reflexes,
-Power Attack, Vital Strike, Weapon Focus (tentacles)
-
-**Skills:** Knowledge (arcana, nature) +17, Perception +21, Sense Motive +18, Spellcraft +20,
-Stealth +12 (+20 in forests)
-
-**Racial Modifiers:** +8 Stealth in forests
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** temperate forest or swamp
-
-**Organization:** solitary, pair, or grove (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forest or swamp
+Organization: solitary, pair, or grove (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,77 +30,61 @@ abilities = ["12", "1", "16", "-", "1", "1"]
 _Dozens of tiny globs of slime move on their own, acting as one being, alternately clinging to each
 other and separating in a riot of oozing momentum._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+blindsight: 60
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Swarm
+Size: tiny
+Experience points: 135
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 7
+Touch: 7
+Flat-footed: 7
+AC modifiers: -5 Dex, +2 size
+Hit points: 7 (1d8+3)
+Fort: +3
+Ref: -5
+Will: -5
+Immune: [ooze traits](ref/umr/ooze-traits), swarm traits
+Resist: fire 5
+Vulner: cold
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 10 ft., climb 10 ft., swim 10 ft.
+Distraction: 13
+Melee: swarm (1 plus viscous)
+Reach: 0
+Space: 10
+Spec Att: euphoric slime, viscous (DC 13)
+:::
 
-**Perception:** -5
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 12, Dex 1, Con 16, Int -, Wis 1, Cha 1
+Base attack bonus: +0
+Combat maneuver bonus: -7
+Combat maneuver defense: 4 (16 vs. grapple, see text; can't be tripped)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 135
-
-**Armor class:** 7
-
-**Touch:** 7
-
-**Flat-footed:** 7
-
-**AC modifiers:** -5 Dex, +2 size
-
-**Hit points:** 7 (1d8+3)
-
-**Fort:** +3
-
-**Ref:** -5
-
-**Will:** -5
-
-**Immune:** [ooze traits](ref/umr/ooze-traits), swarm traits
-
-**Resist:** fire 5
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., swim 10 ft.
-
-**Distraction:** 13
-
-**Melee:** swarm (1 plus viscous)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** euphoric slime, viscous (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 1, Con 16, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -7
-
-**Combat maneuver defense:** 4 (16 vs. grapple, see text; can't be tripped)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or coagulum (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or coagulum (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

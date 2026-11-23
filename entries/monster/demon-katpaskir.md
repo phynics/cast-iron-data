@@ -32,110 +32,76 @@ _Four clawed arms sprout from this fiend's chest like the limbs of a buried inse
 crawl free. Overlapping iridescent plates of chitin cascade down the monster's back, shrouding four
 membranous dragonfly wings._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: distance distortion (30 ft., DC 26)
+Alignment: Chaotic evil
+Initiative: +9
+Size: medium
+Type: outsider
+Perception: +37
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 153,600
+:::
 
-**aura:** distance distortion (30 ft., DC 26)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 31
+Touch: 15
+Flat-footed: 26
+AC modifiers: +5 Dex, +16 natural
+Hit points: 304 (21d10+189)
+Fort: +16
+Ref: +17
+Will: +17
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/cold iron and lawful
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 29
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., burrow 20 ft., fly 60 ft. (average)
+Melee: 2 claws +31 (2d6+10/19-20), 4 talons +31 (1d8+10)
+Spec Att: breaching, mirror of the tainted rift
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+Constant: freedom of movement, see invisibility
+At will: blink, dimension door, dimensional anchor, greater teleport, self plus 50 lbs. of objects only, plane shift (DC 23)
+Per day: 3/day: banishment (DC 23), empowered disintegrate (DC 22), maze\
+1/day: gate, summon (level 7, 1d4 fiendish army ant swarms 50%), summon monster IX
+:::
 
-**Perception:** +37
+### Statistics
 
-**Senses:** Darkvision 60 ft., See invisibility
+::: statblock
+Ability scores: Str 31, Dex 20, Con 28, Int 17, Wis 21, Cha 22
+Base attack bonus: +21
+Combat maneuver bonus: +31 (+35 sunder)
+Combat maneuver defense: 46 (48 vs. sunder)
+Feats: Dimensional Agility, Dimensional Assault, Dimensional Dervish, Dimensional Maneuvers, Dimensional Savant, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (disintegrate), Greater Sunder, Improved Critical (claw), Improved Initiative, Improved Sunder, Power Attack
+Skills: Bluff +30, Disable Device +29, Fly +29, Knowledge (arcana) +27, Perception +37, Sense Motive +29, Spellcraft +27, Use Magic Device +30
+Racial Modifiers: +4 Knowledge (planes), +8 Perception
+Languages: Abyssal, Aklo, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: teleportation disruption, warp sense
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology {#stat-ecology}
 
-**Experience points:** 153,600
-
-**Armor class:** 31
-
-**Touch:** 15
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 Dex, +16 natural
-
-**Hit points:** 304 (21d10+189)
-
-**Fort:** +16
-
-**Ref:** +17
-
-**Will:** +17
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/cold iron and lawful
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft., fly 60 ft. (average)
-
-**Melee:** 2 claws +31 (2d6+10/19-20), 4 talons +31 (1d8+10)
-
-**Spec Att:** breaching, mirror of the tainted rift
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**Constant:**
-
-- freedom of movement, see invisibility
-
-**At will:**
-
-- blink, dimension door, dimensional anchor, greater teleport, self plus 50 lbs. of objects only,
-  plane shift (DC 23)
-
-**Per day:**
-
-- 3/day: banishment (DC 23), empowered disintegrate (DC 22), maze
-- 1/day: gate, summon (level 7, 1d4 fiendish army ant swarms 50%), summon monster IX
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 20, Con 28, Int 17, Wis 21, Cha 22
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +31 (+35 sunder)
-
-**Combat maneuver defense:** 46 (48 vs. sunder)
-
-**Feats:** Dimensional Agility, Dimensional Assault, Dimensional Dervish, Dimensional Maneuvers,
-Dimensional Savant, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (disintegrate),
-Greater Sunder, Improved Critical (claw), Improved Initiative, Improved Sunder, Power Attack
-
-**Skills:** Bluff +30, Disable Device +29, Fly +29, Knowledge (arcana) +27, Perception +37, Sense
-Motive +29, Spellcraft +27, Use Magic Device +30
-
-**Racial Modifiers:** +4 Knowledge (planes), +8 Perception
-
-**Languages:** Abyssal, Aklo, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** teleportation disruption, warp sense
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

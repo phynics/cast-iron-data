@@ -31,115 +31,79 @@ abilities = ["29", "19", "24", "14", "18", "17"]
 _This mermaid-like creature has the torso and head of a long-haired woman and the lower half of a
 sleek killer whale._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: protective aura (20 ft.)
+blindsense: 60
+Initiative: +8
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Agathion, Aquatic, Extraplanar, Good
+Experience points: 51,200
+:::
 
-**aura:** protective aura (20 ft.)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 30
+Touch: 15
+Flat-footed: 25
+AC modifiers: +4 Dex, +1 dodge, +15 natural; +4 deflection vs. evil
+Hit points: 212 (17d10+119)
+Fort: +17
+Ref: +16
+Will: +9; +4 vs. poison, +4 resistance vs. evil
+Dr: 10/evil and silver
+Immune: cold, electricity, petrification
+Regen: 5 (evil weapons and spells)
+Resist: sonic 10
+Sr: 26
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft., swim 80 ft.
+Melee: +1 shocking burst shortspear +28/+23/+18/+13 (1d6+14 plus 1d6 electricity), tail slap +22 (1d6+4 plus push and stun)
+Push: tail slap, 10 ft.
+Spec Att: shockwave
+:::
 
-**Alignment:** Neutral good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +18
+Constant: speak with animals
+At will: detect thoughts (DC 15), light, lightning bolt (DC 16), hold monster (DC 18), message, greater teleport, self plus 50 lbs. of objects only
+Per day: 7/day: break enchantment, cure serious wounds, neutralize poison, remove disease\
+3/day: cone of cold (DC 18), cure critical wounds, greater restoration, heal\
+1/day: awaken, , [water elementals](ref/monster/water-elemental) only
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +28
+::: statblock
+Ability scores: Str 29, Dex 19, Con 24, Int 14, Wis 18, Cha 17
+Base attack bonus: +17
+Combat maneuver bonus: +26
+Combat maneuver defense: 41 (can't be tripped)
+Feats: Combat Casting, Dodge, Improved Initiative, Lightning Reflexes, Mobility, Spell Penetration, Weapon Focus (shortspear, tail slap), Wind Stance
+Skills: Diplomacy +12, Heal +21
+Racial Modifiers: +4 Perception
+Languages: xCe, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: [amphibious](ref/umr/amphibious), [lay on hands](ref/ability/lay-on-hands) (8d6, 11/day, as a 17th-level paladin)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Agathion, Aquatic, Extraplanar, Good
-
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 15
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +1 dodge, +15 natural; +4 deflection vs. evil
-
-**Hit points:** 212 (17d10+119)
-
-**Fort:** +17
-
-**Ref:** +16
-
-**Will:** +9; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 10/evil and silver
-
-**Immune:** cold, electricity, petrification
-
-**Regen:** 5 (evil weapons and spells)
-
-**Resist:** sonic 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 10 ft., swim 80 ft.
-
-**Melee:** +1 shocking burst shortspear +28/+23/+18/+13 (1d6+14 plus 1d6 electricity), tail slap +22
-(1d6+4 plus push and stun)
-
-**Push:** tail slap, 10 ft.
-
-**Spec Att:** shockwave
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +18
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- detect thoughts (DC 15), light, lightning bolt (DC 16), hold monster (DC 18), message, greater
-  teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 7/day: break enchantment, cure serious wounds, neutralize poison, remove disease
-- 3/day: cone of cold (DC 18), cure critical wounds, greater restoration, heal
-- 1/day: awaken, , [water elementals](ref/monster/water-elemental) only
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 19, Con 24, Int 14, Wis 18, Cha 17
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 41 (can't be tripped)
-
-**Feats:** Combat Casting, Dodge, Improved Initiative, Lightning Reflexes, Mobility, Spell
-Penetration, Weapon Focus (shortspear, tail slap), Wind Stance
-
-**Skills:** Diplomacy +12, Heal +21
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** xCe, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [lay on hands](ref/ability/lay-on-hands)
-(8d6, 11/day, as a 17th-level paladin)
-
-**Ecology**
-
-**Environment:** any water ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or pod (3-6)
-
-**Treasure:** Double (+1 SF shortspear); other treasure
+::: statblock
+Environment: any water ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or pod (3-6)
+Treasure: Double (+1 SF shortspear); other treasure
+:::
 
 ### Special Abilities
 

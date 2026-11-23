@@ -31,96 +31,70 @@ abilities = ["16", "29", "20", "16", "17", "23"]
 _This willowy, lavender-skinned stranger looks like he is dressed for an extravagant ball, and
 carries himself with a dancer's grace._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: fey
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Perception: +25
+Senses: Low-light vision, See in darkness
+Experience points: 19,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 26
+Touch: 20
+Flat-footed: 16
+AC modifiers: +9 Dex, +1 dodge, +4 natural, +2 shield
+Hit points: 161 (19d6+95)
+Fort: +11
+Ref: +20
+Will: +14
+Dr: 10/cold iron
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: +1 keen rapier +20/+15 (1d6+4/15-20)
+Spec Att: spellthrust
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +25
+Constant: misdirection, see invisibility
+At will: disfiguring touch (DC 18), disguise self, faerie fire, touch of idiocy, whispering wind
+Per day: 3/day: excruciating deformation (DC 19), major image (DC 19), sands of time\
+1/day: ethereal jaunt, phantom steed, shadow walk
+:::
 
-**Senses:** Low-light vision, See in darkness
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 16, Dex 29, Con 20, Int 16, Wis 17, Cha 23
+Base attack bonus: +9
+Combat maneuver bonus: +12 (+16 trip)
+Combat maneuver defense: 32 (34 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Dodge, Greater Trip, Improved Trip, Mobility, Spring Attack, Weapon Finesse, Weapon Focus (rapier), Whirlwind Attack
+Skills: Acrobatics +30, Bluff +27, Diplomacy +15, Disguise +20, Perform (dance) +15, Sense Motive +15, Sleight of Hand +15, Stealth +30, Use Magic Device +28
+Languages: Aklo, Common, Sylvan, Terran, Undercommon
+Special qualities: fey bargain
+:::
 
-**Armor class:** 26
+### Ecology
 
-**Touch:** 20
-
-**Flat-footed:** 16
-
-**AC modifiers:** +9 Dex, +1 dodge, +4 natural, +2 shield
-
-**Hit points:** 161 (19d6+95)
-
-**Fort:** +11
-
-**Ref:** +20
-
-**Will:** +14
-
-**Dr:** 10/cold iron
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 keen rapier +20/+15 (1d6+4/15-20)
-
-**Spec Att:** spellthrust
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +25
-
-**Constant:**
-
-- misdirection, see invisibility
-
-**At will:**
-
-- disfiguring touch (DC 18), disguise self, faerie fire, touch of idiocy, whispering wind
-
-**Per day:**
-
-- 3/day: excruciating deformation (DC 19), major image (DC 19), sands of time
-- 1/day: ethereal jaunt, phantom steed, shadow walk
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 29, Con 20, Int 16, Wis 17, Cha 23
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12 (+16 trip)
-
-**Combat maneuver defense:** 32 (34 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Greater Trip, Improved Trip, Mobility, Spring
-Attack, Weapon Finesse, Weapon Focus (rapier), Whirlwind Attack
-
-**Skills:** Acrobatics +30, Bluff +27, Diplomacy +15, Disguise +20, Perform (dance) +15, Sense
-Motive +15, Sleight of Hand +15, Stealth +30, Use Magic Device +28
-
-**Languages:** Aklo, Common, Sylvan, Terran, Undercommon
-
-**Special qualities:** fey bargain
-
-**Ecology**
-
-**Environment:** any underground (Darklands)
-
-**Organization:** solitary, pair, or delegation (3-6)
-
-**Treasure:** Standard (+1 keen rapier, +1 buckler); other treasure
+::: statblock
+Environment: any underground (Darklands)
+Organization: solitary, pair, or delegation (3-6)
+Treasure: Standard (+1 keen rapier, +1 buckler); other treasure
+:::
 
 ### Special Abilities
 

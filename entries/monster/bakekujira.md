@@ -34,85 +34,64 @@ abilities = ["42", "10", "-", "2", "11", "23"]
 _This hulking mass of blubber and bone looks like it was once a whale. Ghostly flames glow in each
 of its eye sockets._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: undead parasites (30 ft., DC 28)
+Size: colossal
+Initiative: +4
+Alignment: Neutral evil
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: undead
+Experience points: 102,400
+:::
 
-**aura:** undead parasites (30 ft., DC 28)
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 32
+Touch: 2
+Flat-footed: 32
+AC modifiers: +30 natural, -8 size
+Hit points: 262 (25d8+150)
+Fort: +14
+Ref: +10
+Will: +14
+Chan Res: +4
+Dr: 15/bludgeoning
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 15 ft., swim 60 ft.
+Capsize: present
+Melee: bite +27 (6d6+16/19-20), tail slap +21 (4d6+8)
+Reach: 30
+Space: 30
+Spec Att: leviathan's call, resonant song, smashing breach
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 42, Dex 10, Con -, Int 2, Wis 11, Cha 23
+Base attack bonus: +18
+Combat maneuver bonus: +42 (+46 bull rush)
+Combat maneuver defense: 52 (54 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Greater Bull Rush, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes, Power Attack, Staggering Critical, Stunning Critical, Weapon Focus (bite)
+Skills: Intimidate +16, Perception +20, Swim +28
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 2
-
-**Flat-footed:** 32
-
-**AC modifiers:** +30 natural, -8 size
-
-**Hit points:** 262 (25d8+150)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +14
-
-**Chan Res:** +4
-
-**Dr:** 15/bludgeoning
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 15 ft., swim 60 ft.
-
-**Capsize:** present
-
-**Melee:** bite +27 (6d6+16/19-20), tail slap +21 (4d6+8)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** leviathan's call, resonant song, smashing breach
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 10, Con -, Int 2, Wis 11, Cha 23
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +42 (+46 bull rush)
-
-**Combat maneuver defense:** 52 (54 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Greater Bull Rush, Improved Bull Rush,
-Improved Critical (bite), Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes,
-Power Attack, Staggering Critical, Stunning Critical, Weapon Focus (bite)
-
-**Skills:** Intimidate +16, Perception +20, Swim +28
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

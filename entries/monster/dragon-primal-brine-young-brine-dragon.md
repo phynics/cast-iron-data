@@ -31,99 +31,75 @@ abilities = ["24", "13", "15", "15", "12", "13"]
 _A blue-green neck frill sweeps back from the head of this dragon, leading to a body of shiny scales
 and fin-like crests._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: dragon
+Initiative: +5
+Alignment: Lawful neutral
+Size: medium
+Perception: +12
+Senses: Dragon senses
+Subtype: Extraplanar, Water
+Experience points: 3,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 19
+AC modifiers: +1 Dex, +9 natural
+Hit points: 68 (8d12+16)
+Fort: +8
+Ref: +7
+Will: +7
+Immune: acid, paralysis, sleep
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 60 ft., swim 60 ft., fly 150 ft. (average)
+Br Weap: 60-ft. line, 6d6 acid, DC 16
+Melee: bite +15 (1d8+10), 2 claws +15 (1d6+7), 2 wings +10 (1d4+3)
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +9
+At will: obscuring mist, speak with animals, fish only
+:::
 
-**Senses:** Dragon senses
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +2
+1st-level spells: 4/day: color spray (DC 12), touch of the sea
+Cantrips: At will: detect magic, mage hand, open/close, prestidigitation
+:::
 
-**Subtype:** Extraplanar, Water
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 24, Dex 13, Con 15, Int 15, Wis 12, Cha 13
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Hover, Improved Initiative, Power Attack, Skill Focus (swim)
+Skills: Diplomacy +12, Fly +12, Heal +12
+Languages: Aquan, Common, Draconic
+Special qualities: water breathing
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +9 natural
-
-**Hit points:** 68 (8d12+16)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +7
-
-**Immune:** acid, paralysis, sleep
-
-**Offense**
-
-**Speed:** 60 ft., swim 60 ft., fly 150 ft. (average)
-
-**Br Weap:** 60-ft. line, 6d6 acid, DC 16
-
-**Melee:** bite +15 (1d8+10), 2 claws +15 (1d6+7), 2 wings +10 (1d4+3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +9
-
-**At will:**
-
-- obscuring mist, speak with animals, fish only
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**1st-level spells:**
-
-- 4/day: color spray (DC 12), touch of the sea
-
-**Cantrips:**
-
-- At will: detect magic, mage hand, open/close, prestidigitation
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 13, Con 15, Int 15, Wis 12, Cha 13
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Hover, Improved Initiative, Power Attack, Skill Focus (swim)
-
-**Skills:** Diplomacy +12, Fly +12, Heal +12
-
-**Languages:** Aquan, Common, Draconic
-
-**Special qualities:** water breathing
-
-**Ecology**
-
-**Environment:** any aquatic ([Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any aquatic ([Plane of Water](ref/rule/plane-of-water))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

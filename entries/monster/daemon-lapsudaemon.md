@@ -31,107 +31,76 @@ abilities = ["18", "31", "21", "13", "18", "16"]
 _This grotesque and malevolent creature appears to be a crushed ball of broken humanoid body parts
 spraying blood._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 22)
+blindsense: 200
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft.
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 38,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 22)
+### Defense
 
-**blindsense:** 200
+::: statblock
+Armor class: 29
+Touch: 24
+Flat-footed: 18
+AC modifiers: +3 deflection, +10 Dex, +1 dodge, +5 natural
+Hit points: 199 (19d10+95)
+Fort: +11
+Ref: +21
+Will: +15
+Amorph: present
+Defensive abilities: vertigo's grace
+Dr: 10/good
+Immune: acid, bludgeoning, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 25
+:::
 
-**Initiative:** +10
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 200 ft. (perfect)
+Melee: slam +23 (2d6+6 plus momentum/19-20 and [grab](ref/umr/grab))
+Spec Att: momentum, must come down (DC 22)
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +16
+At will: greater teleport, self plus 50 pounds only
+Per day: 3/day: quickened gust of wind (DC 15), reverse gravity\
+1/day: fickle winds, summon (level 7, 1d3 [suspiridaemons](ref/monster/daemon-suspiridaemon) 80%)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +26
+::: statblock
+Ability scores: Str 18, Dex 31, Con 21, Int 13, Wis 18, Cha 16
+Base attack bonus: +19
+Combat maneuver bonus: +29 (+31 bull rush or trip, +33 grapple)
+Combat maneuver defense: 43 (45 vs. bull rush, can't be tripped)
+Feats: Acrobatic, Agile Maneuvers, Combat Expertise, Dodge, Improved Bull Rush, Improved Critical (slam), Improved Trip, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (gust of wind)
+Skills: Acrobatics +32, Bluff +21, Escape Artist +28, Fly +35, Knowledge (geography, local) +14, Perception +26, Sense Motive +26, Stealth +23 (see below)
+Languages: Abyssal, Common, Draconic; [telepathy](ref/umr/telepathy) 200 ft.
+Special qualities: constant motion
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Daemon, Evil, Extraplanar
-
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 24
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 deflection, +10 Dex, +1 dodge, +5 natural
-
-**Hit points:** 199 (19d10+95)
-
-**Fort:** +11
-
-**Ref:** +21
-
-**Will:** +15
-
-**Amorph:** present
-
-**Defensive abilities:** vertigo's grace
-
-**Dr:** 10/good
-
-**Immune:** acid, bludgeoning, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** fly 200 ft. (perfect)
-
-**Melee:** slam +23 (2d6+6 plus momentum/19-20 and [grab](ref/umr/grab))
-
-**Spec Att:** momentum, must come down (DC 22)
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +16
-
-**At will:**
-
-- greater teleport, self plus 50 pounds only
-
-**Per day:**
-
-- 3/day: quickened gust of wind (DC 15), reverse gravity
-- 1/day: fickle winds, summon (level 7, 1d3 [suspiridaemons](ref/monster/daemon-suspiridaemon) 80%)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 31, Con 21, Int 13, Wis 18, Cha 16
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +29 (+31 bull rush or trip, +33 grapple)
-
-**Combat maneuver defense:** 43 (45 vs. bull rush, can't be tripped)
-
-**Feats:** Acrobatic, Agile Maneuvers, Combat Expertise, Dodge, Improved Bull Rush, Improved
-Critical (slam), Improved Trip, Mobility, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (gust of wind)
-
-**Skills:** Acrobatics +32, Bluff +21, Escape Artist +28, Fly +35, Knowledge (geography, local) +14,
-Perception +26, Sense Motive +26, Stealth +23 (see below)
-
-**Languages:** Abyssal, Common, Draconic; [telepathy](ref/umr/telepathy) 200 ft.
-
-**Special qualities:** constant motion
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or storm (2-11)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or storm (2-11)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

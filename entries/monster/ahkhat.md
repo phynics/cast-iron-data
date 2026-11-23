@@ -35,95 +35,71 @@ abilities = ["17", "13", "18", "8", "12", "13"]
 _The materials of the building stretch and pull as if elastic, taking on the form of an earthen
 humanoid with thick stony arms._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +5
+Alignment: Neutral
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Earth, Elemental, Native
+tremorsense: 30
+Experience points: 1,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 16
+AC modifiers: +1 Dex, +5 natural, +1 size
+Hit points: 38 (4d10+16)
+Fort: +8
+Ref: +5
+Will: +2
+Immune: elemental traits
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +8 (1d6+3)
+Ranged: urn +6 (1d4+3)
+Sp Extra: structural mobility
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: +3
+At will: open/close, prestidigitation
+Per day: 1/day: make whole, ahkhat's bonded structure and permanent fixtures only
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Earth, Elemental, Native
+::: statblock
+Ability scores: Str 17, Dex 13, Con 18, Int 8, Wis 12, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Improved Initiative, Throw Anything
+Skills: Craft (carpentry) +6, Knowledge (engineering) +10, Perception +8, Stealth +12
+Racial Modifiers: +4 Knowledge (engineering)
+Languages: Terran
+Special qualities: integrated body
+:::
 
-**tremorsense:** 30
+### Ecology {#stat-ecology}
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +5 natural, +1 size
-
-**Hit points:** 38 (4d10+16)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +2
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +8 (1d6+3)
-
-**Ranged:** urn +6 (1d4+3)
-
-**Sp Extra:** structural mobility
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** +3
-
-**At will:**
-
-- open/close, prestidigitation
-
-**Per day:**
-
-- 1/day: make whole, ahkhat's bonded structure and permanent fixtures only
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 13, Con 18, Int 8, Wis 12, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Throw Anything
-
-**Skills:** Craft (carpentry) +6, Knowledge (engineering) +10, Perception +8, Stealth +12
-
-**Racial Modifiers:** +4 Knowledge (engineering)
-
-**Languages:** Terran
-
-**Special qualities:** integrated body
-
-**Ecology**
-
-**Environment:** warm urban
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm urban
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

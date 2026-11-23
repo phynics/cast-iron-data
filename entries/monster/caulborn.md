@@ -35,100 +35,71 @@ abilities = ["16", "19", "16", "25", "20", "19"]
 _This creature has a split-jawed mouth, a hood-like growth on its head, and two hideously elongated
 fingers on each hand._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsense: 60
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Thoughtsense
+Subtype: Extraplanar
+Experience points: 3,200
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 19
+Touch: 18
+Flat-footed: 15
+AC modifiers: +4 deflection, +4 Dex, +1 natural
+Hit points: 76 (9d10+27)
+Fort: +6
+Ref: +8
+Will: +13
+Defensive abilities: premonition, psychic deflection
+Immune: visual effects
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +13 (2d6+3), 2 claws +12 (1d6+3)
+Spec Att: consume thoughts
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+Constant: detect magic, detect thoughts (DC 16), read magic
+Per day: 3/day: charm monster (DC 18), daze monster (DC 16), hold monster (DC 19), hypnotic pattern (DC 16), vampiric touch (DC 17)
+Per week: plane shift, willing targets only
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Thoughtsense
+::: statblock
+Ability scores: Str 16, Dex 19, Con 16, Int 25, Wis 20, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 30
+Feats: Combat Casting, Combat Expertise, Combat Reflexes, Iron Will, Weapon Focus (bite)
+Skills: Acrobatics +12, Appraise +12, Bluff +14, Intimidate +14, Knowledge (all) +14, Perception +15, Sense Motive +12, Stealth +11, Use Magic Device +9
+Languages: Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Giant, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: cooperative scrying, hive mind
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 18
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 deflection, +4 Dex, +1 natural
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +13
-
-**Defensive abilities:** premonition, psychic deflection
-
-**Immune:** visual effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +13 (2d6+3), 2 claws +12 (1d6+3)
-
-**Spec Att:** consume thoughts
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**Constant:**
-
-- detect magic, detect thoughts (DC 16), read magic
-
-**Per day:**
-
-- 3/day: charm monster (DC 18), daze monster (DC 16), hold monster (DC 19), hypnotic pattern (DC
-  16), vampiric touch (DC 17)
-
-**Per week:**
-
-- plane shift, willing targets only
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 19, Con 16, Int 25, Wis 20, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 30
-
-**Feats:** Combat Casting, Combat Expertise, Combat Reflexes, Iron Will, Weapon Focus (bite)
-
-**Skills:** Acrobatics +12, Appraise +12, Bluff +14, Intimidate +14, Knowledge (all) +14, Perception
-+15, Sense Motive +12, Stealth +11, Use Magic Device +9
-
-**Languages:** Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Giant, Infernal;
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** cooperative scrying, hive mind
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or colony (3-12)
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary, pair, or colony (3-12)
+Treasure: Double
+:::
 
 ### Special Abilities
 

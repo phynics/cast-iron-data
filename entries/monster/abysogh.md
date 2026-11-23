@@ -32,89 +32,66 @@ abilities = ["45", "18", "22", "6", "15", "7"]
 _The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled
 taut as if in perpetual convulsion._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsight: 120
+Alignment: Chaotic evil
+Size: gargantuan
+Type: humanoid
+Initiative: +8
+Perception: +12
+Subtype: Giant
+Experience points: 51,200
+:::
 
-**blindsight:** 120
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 29
+Touch: 10
+Flat-footed: 25
+AC modifiers: +4 Dex, +19 natural, -4 size
+Hit points: 218 (19d8+133)
+Fort: +17
+Ref: +10
+Will: +10
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Immune: gaze attacks, mind-affecting effects, sonic, visual effects
+Regen: 15 (electricity)
+Resist: cold 10, electricity 10
+Weaknesses: [blind](ref/misc/blinded)
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Type:** humanoid
+::: statblock
+Speed: 50 ft., climb 50 ft.
+Melee: 2 slams +27 (4d6+17/19-20)
+Reach: 20
+Space: 20
+Spec Att: cataclysmic roar (10d6 sonic plus deafen and stagger, DC 25), living ammunition (60 ft.), whirlwind strike
+:::
 
-**Initiative:** +8
+### Statistics
 
-**Perception:** +12
+::: statblock
+Ability scores: Str 45, Dex 18, Con 22, Int 6, Wis 15, Cha 7
+Base attack bonus: +14
+Combat maneuver bonus: +35 (+37 bull rush)
+Combat maneuver defense: 52 (54 vs. bull rush)
+Feats: Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (slam), Improved Initiative, Intimidating Prowess, Iron Will, Power Attack, Throw Anything, Toughness
+Skills: Climb +26, Intimidate +24, Perception +12
+Languages: Giant
+Special qualities: trembling earth
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 29
-
-**Touch:** 10
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +19 natural, -4 size
-
-**Hit points:** 218 (19d8+133)
-
-**Fort:** +17
-
-**Ref:** +10
-
-**Will:** +10
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Immune:** gaze attacks, mind-affecting effects, sonic, visual effects
-
-**Regen:** 15 (electricity)
-
-**Resist:** cold 10, electricity 10
-
-**Weaknesses:** [blind](ref/misc/blinded)
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft.
-
-**Melee:** 2 slams +27 (4d6+17/19-20)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** cataclysmic roar (10d6 sonic plus deafen and stagger, DC 25), living ammunition (60
-ft.), whirlwind strike
-
-**Statistics**
-
-**Ability scores:** Str 45, Dex 18, Con 22, Int 6, Wis 15, Cha 7
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +35 (+37 bull rush)
-
-**Combat maneuver defense:** 52 (54 vs. bull rush)
-
-**Feats:** Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (slam), Improved
-Initiative, Intimidating Prowess, Iron Will, Power Attack, Throw Anything, Toughness
-
-**Skills:** Climb +26, Intimidate +24, Perception +12
-
-**Languages:** Giant
-
-**Special qualities:** trembling earth
-
-**Ecology**
-
-**Environment:** any mountains
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any mountains
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 
