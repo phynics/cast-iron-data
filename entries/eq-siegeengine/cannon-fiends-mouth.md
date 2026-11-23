@@ -22,7 +22,17 @@ with great force. A fiend's mouth cannon has a misfire range of 1 (30 ft.). Fien
 have a [hardness](ref/umr/hardness) of 10 and 140 hit points. Fiend's mouth cannon balls cost 45 gp
 and weigh 30 pounds each.
 
-**Cost** 9,000 gp **Weight** -\
-**Damage** 8d6; **Critical** ×4; **Range** 150 ft.; **Type** B and P\
-**Crew** 3; **Aim** 1; **Load** 3; **Speed** 0 ft.\
-**Category** Direct-Fire (Huge); **Proficiency** Siege Engine
+::: statblock
+Cost: 9,000 gp
+Weight: -
+Damage: 8d6
+Critical: ×4
+Range: 150 ft.
+Type: B and P
+Crew: 3
+Aim: 1
+Load: 3
+Speed: 0 ft.
+Category: Direct-Fire (Huge)
+Proficiency: Siege Engine
+:::

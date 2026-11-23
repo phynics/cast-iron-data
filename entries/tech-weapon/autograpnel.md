@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "10 lbs."
 +++
 
-**Cost** 4,000 gp\
-**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 10 lbs.\
-**Damage** 1d6+6 (small), 1d8+6 (medium); **Damage Type** P; **Critical** ×3\
-**Range** 30 ft.; **Capacity** 20; **Usage** 1 charge; **Special** [Grapple](ref/misc/grapple),
-[slow-firing](ref/misc/slow-firing)
+::: statblock
+Cost: 4,000 gp
+Type: two-handed ranged
+Proficiency: exotic (firearms)
+Weight: 10 lbs.
+Damage: 1d6+6 (small), 1d8+6 (medium)
+Damage Type: P
+Critical: ×3
+Range: 30 ft.
+Capacity: 20
+Usage: 1 charge
+Special: [Grapple](ref/misc/grapple), [slow-firing](ref/misc/slow-firing)
+:::
 
 ### Construction
 

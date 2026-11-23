@@ -17,10 +17,13 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Suitable For** PCs of 1st-3rd level\
-**Aura** moderate enchantment\
-**Slot** ring; **CL** 11th\
-**Weight** —
+::: statblock
+Suitable For: PCs of 1st-3rd level
+Aura: moderate enchantment
+Slot: ring
+CL: 11th
+Weight: —
+:::
 
 This golden ring appears pristine on the outside, but the inside shows centuries of wear, leaving
 the inner band perpetually polished to a lighter hue than that of the ring's outer surfaces. A

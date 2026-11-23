@@ -20,8 +20,13 @@ aura = "moderate conjuration and enchantment [good, healing]"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration and enchantment \[good, healing\]; **CL** 10th\
-**Slot** none; **Price** 10,000 gp; **Weight** 250 lbs.
+::: statblock
+Aura: moderate conjuration and enchantment \[good, healing\]
+CL: 10th
+Slot: none
+Price: 10,000 gp
+Weight: 250 lbs.
+:::
 
 Unearthed from the ashes of Oppara's former temple of Sarenrae, the restored and rededicated altar
 of the Dawnflower sits inside the House of Dawn's Redemption at the exact location it resided nearly
@@ -39,7 +44,7 @@ regain 1 additional hit point per level each day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [eagle's splendor](ref/spell/eagles-splendor),
-[magic circle against evil](ref/spell/magic-circle-against-evil), creator must worship
-[Sarenrae](ref/faith/sarenrae); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [eagle's splendor](ref/spell/eagles-splendor), [magic circle against evil](ref/spell/magic-circle-against-evil), creator must worship [Sarenrae](ref/faith/sarenrae)
+Cost: 5,000 gp
+:::

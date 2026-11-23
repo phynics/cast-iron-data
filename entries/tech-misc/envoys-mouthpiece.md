@@ -18,9 +18,13 @@ weight = "1 lb."
 slot = "headband"
 +++
 
-**Price** 2,000 gp\
-**Slot** headband; **Weight** 1 lb.\
-**Capacity** 10; **Usage** 1/hour
+::: statblock
+Price: 2,000 gp
+Slot: headband
+Weight: 1 lb.
+Capacity: 10
+Usage: 1/hour
+:::
 
 ### Construction
 

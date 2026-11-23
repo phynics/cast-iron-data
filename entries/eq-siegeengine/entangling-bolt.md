@@ -25,5 +25,9 @@ The net has 5 hit points and can be burst with a successful DC 25 Strength check
 action). Entangling ammunition is useful only against creatures within one size category of the
 firing ballista.
 
-**Cost** 50 gp **Weight** 25 lbs.\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 50 gp
+Weight: 25 lbs.
+Category: Ammunition
+Proficiency: Siege Engine
+:::

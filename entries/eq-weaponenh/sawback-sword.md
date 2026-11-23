@@ -20,8 +20,11 @@ price = "+5 gp"
 weight = "-"
 +++
 
-**Price** +5 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: +5 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This is a modification to any light or heavy blade rather than a unique weapon type. The saw blade
 on the back of the sword lets you use it to perform crude carpentry.

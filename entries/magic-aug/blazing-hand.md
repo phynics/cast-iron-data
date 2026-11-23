@@ -19,8 +19,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 16,000 gp; **Weight** —
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 16,000 gp
+Weight: —
+:::
 
 The recipient's arm and hand burn with an unquenchable flame. The recipient deals 1d6 points of fire
 damage with unarmed attacks made with the blazing hand (and, if the recipient has one, with any claw
@@ -32,6 +37,7 @@ The recipient must have an arm (or arm-like appendage) to receive this elemental
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fireball](ref/spell/fireball)
-or [flame strike](ref/spell/flame-strike), creator must have 10 ranks in Knowledge (planes);
-**Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fireball](ref/spell/fireball) or [flame strike](ref/spell/flame-strike), creator must have 10 ranks in Knowledge (planes)
+Cost: 8,000 gp
+:::

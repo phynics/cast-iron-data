@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 12,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 12,000 gp
+Weight: 500 lbs.
+:::
 
 This tree grows oblong, yellow fruit that feel overripe to the touch. Each fruit is about the size
 of cantaloupe and can be thrown with a range increment of 20 feet. A target hit with a touch attack
@@ -33,6 +38,7 @@ spring. The tree has no more than seven fruit available at a time.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[acid arrow](ref/spell/acid-arrow), cultivator must have 1 rank in Knowledge (nature); **Cost**
-6,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [acid arrow](ref/spell/acid-arrow), cultivator must have 1 rank in Knowledge (nature)
+Cost: 6,000 gp
+:::

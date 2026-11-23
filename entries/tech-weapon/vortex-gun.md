@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "15 lbs."
 +++
 
-**Cost** 182,000 gp\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 15 lbs.\
-**Damage** 8d6 (small), 10d6 (medium); **Damage Type** Force; **Critical** 19-20/×2\
-**Range** 100-ft. cone; **Capacity** 30; **Usage** 10 charges; **Special**
-[Slow-firing](ref/misc/slow-firing), [scatter](ref/misc/scatter), [touch](ref/misc/touch)
+::: statblock
+Cost: 182,000 gp
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 15 lbs.
+Damage: 8d6 (small), 10d6 (medium)
+Damage Type: Force
+Critical: 19-20/×2
+Range: 100-ft. cone
+Capacity: 30
+Usage: 10 charges
+Special: [Slow-firing](ref/misc/slow-firing), [scatter](ref/misc/scatter), [touch](ref/misc/touch)
+:::
 
 A vortex gun looks like a sleek shotgun with three barrels arranged in a triangular formation. When
 this weapon is fired, the three barrels release a beam of gravitons that spiral around each other to

@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "2 lbs."
 +++
 
-**Cost** 5,000 gp\
-**Type** one-handed melee; **Proficiency** martial; **Weight** 2 lbs.\
-**Damage** Special (small), Special (medium); **Damage Type** B and electricity (special);
-**Critical** ×2\
-**Range** -; **Capacity** 10; **Usage** 1 charge/round; **Special** [Touch](ref/misc/touch)
+::: statblock
+Cost: 5,000 gp
+Type: one-handed melee
+Proficiency: martial
+Weight: 2 lbs.
+Damage: Special (small), Special (medium)
+Damage Type: B and electricity (special)
+Critical: ×2
+Range: -
+Capacity: 10
+Usage: 1 charge/round
+Special: [Touch](ref/misc/touch)
+:::
 
 ### Construction
 

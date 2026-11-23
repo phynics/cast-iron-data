@@ -19,8 +19,13 @@ aura = "strong transmutations"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutations; **CL** 13th\
-**Slot** none; **Price** 85,000 gp; **Weight** —
+::: statblock
+Aura: strong transmutations
+CL: 13th
+Slot: none
+Price: 85,000 gp
+Weight: —
+:::
 
 The recipient's bones are frozen with elemental rime. She gains [fast healing](ref/umr/fast-healing)
 1 in cold weather (below 40° Fahrenheit) or when submerged at least knee deep in water, and she
@@ -34,6 +39,7 @@ The recipient must have a skeletal structure to receive this elemental augmentat
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ice body](ref/spell/ice-body), [simulacrum](ref/spell/simulacrum), creator must have 13 ranks in
-Knowledge (planes); **Cost** 42,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ice body](ref/spell/ice-body), [simulacrum](ref/spell/simulacrum), creator must have 13 ranks in Knowledge (planes)
+Cost: 42,500 gp
+:::

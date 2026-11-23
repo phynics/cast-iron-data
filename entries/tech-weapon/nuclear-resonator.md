@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "11 lbs."
 +++
 
-**Cost** 90,000 gp\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 11 lbs.\
-**Damage** Special (small), Special (medium); **Damage Type** Sonic; **Critical** 18-20/×2\
-**Range** 80 ft. (see text); **Capacity** 20; **Usage** 5 charges; **Special**
-[Slow-firing](ref/misc/slow-firing), [touch](ref/misc/touch)
+::: statblock
+Cost: 90,000 gp
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 11 lbs.
+Damage: Special (small), Special (medium)
+Damage Type: Sonic
+Critical: 18-20/×2
+Range: 80 ft. (see text)
+Capacity: 20
+Usage: 5 charges
+Special: [Slow-firing](ref/misc/slow-firing), [touch](ref/misc/touch)
+:::
 
 A nuclear resonator is a bulky weapon that creates a droning shriek when fired - and even when it's
 not being fired, it buzzes, whirs, and flashes. The wielder takes a -4 penalty on any Stealth checks

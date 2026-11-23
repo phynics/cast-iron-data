@@ -16,8 +16,13 @@ category = "Fleshcraft"
 price = "22,500 gp"
 +++
 
-**Price** 22,500 gp; **Elixir Price** 500 gp\
-**Saving Throw DC** 16; **Slot** see below; **Temporary Duration** 1 hour
+::: statblock
+Price: 22,500 gp
+Elixir Price: 500 gp
+Saving Throw DC: 16
+Slot: see below
+Temporary Duration: 1 hour
+:::
 
 **Benefit:** The subject gains a grasping tendril. If grafted as a replacement for a lost arm, this
 tendril functions as an arm, and if it isn't holding anything, a Medium creature can use the tendril

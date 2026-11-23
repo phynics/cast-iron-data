@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation [chaotic, good]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation \[chaotic, good\]; **CL** 10th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1,000 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation \[chaotic, good\]
+CL: 10th
+Slot: none
+Price: 10,000 gp
+Weight: 1,000 lbs.
+:::
 
 This altar is carved of stone, and holds maps and mementos from distant places visited by Desna's
 worshipers. It is generally found in small roadside shrines or other travelers' resting places that
@@ -30,8 +35,7 @@ restrict movement and grants the worshiper a +10-foot enhancement bonus to his l
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[freedom of movement](ref/spell/freedom-of-movement), [longstrider](ref/spell/longstrider),
-[magic circle against evil](ref/spell/magic-circle-against-evil),
-[magic circle against law](ref/spell/magic-circle-against-law), creator must worship
-[Desna](ref/faith/desna); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [freedom of movement](ref/spell/freedom-of-movement), [longstrider](ref/spell/longstrider), [magic circle against evil](ref/spell/magic-circle-against-evil), [magic circle against law](ref/spell/magic-circle-against-law), creator must worship [Desna](ref/faith/desna)
+Cost: 5,000 gp
+:::

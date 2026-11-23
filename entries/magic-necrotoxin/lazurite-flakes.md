@@ -18,8 +18,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot**; **Price** 5,400 gp; **Weight** —
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot:
+Price: 5,400 gp
+Weight: —
+:::
 
 These dark gray flakes induce ravenous hunger.
 
@@ -31,5 +36,7 @@ abilities it possessed in life; **Cure** 2 consecutive saves
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create undead](ref/spell/create-undead); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create undead](ref/spell/create-undead)
+Cost: 2,700 gp
+:::

@@ -22,5 +22,9 @@ ballista net hits, it deals no damage, but causes the target to become
 [entangled](ref/rule/entangled). An entangled creature takes a -2 penalty on attack rolls and a -4
 penalty to Dexterity, can move at only half speed, and cannot charge or run.
 
-**Cost** 75 gp **Weight** 15 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 75 gp
+Weight: 15 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::

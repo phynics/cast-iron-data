@@ -17,10 +17,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Suitable For** (not given)\
-**Aura** strong abjuration\
-**Slot** neck; **CL** 13th\
-**Weight** —
+::: statblock
+Suitable For: (not given)
+Aura: strong abjuration
+Slot: neck
+CL: 13th
+Weight: —
+:::
 
 This illustrious pendant, forged from [Elysian bronze](ref/eq-material/elysian-bronze), bears the
 likeness of a single closed and winged eye. The pendant is encrusted with hundreds of valuable

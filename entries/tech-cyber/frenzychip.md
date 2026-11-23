@@ -17,9 +17,13 @@ price = "36,400 gp"
 slot = "brain"
 +++
 
-**Price** 36,400 gp\
-**Slot** brain; **Weight** —\
-**Install** DC 32; **Implantation** 1
+::: statblock
+Price: 36,400 gp
+Slot: brain
+Weight: —
+Install: DC 32
+Implantation: 1
+:::
 
 ### Construction
 

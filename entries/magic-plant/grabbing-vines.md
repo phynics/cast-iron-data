@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 2,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 2,000 gp
+Weight: 50 lbs.
+:::
 
 These thick green vines grow leaves sparingly. When fully mature, they fill an area 20 feet square
 to a height of 5 feet. Any creature moving through the area must attempt a DC 15 Strength check in
@@ -35,5 +40,7 @@ cultivated; the grabbing vines return for 13 weeks during the same season each y
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[entangle](ref/spell/entangle), cultivator must have 1 rank in Knowledge (nature); **Cost** 1,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [entangle](ref/spell/entangle), cultivator must have 1 rank in Knowledge (nature)
+Cost: 1,000 gp
+:::

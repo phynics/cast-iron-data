@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 24,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 24,000 gp
+Weight: -
+:::
 
 This ritualistic scar is infused with shadowstuff that shifts and writhes within the bearer's skin.
 Whenever the bearer is exposed to illumination brighter than [dim light](ref/rule/vision-and-light),
@@ -30,5 +35,7 @@ _[protective penumbra](ref/spell/protective-penumbra)._
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[protective penumbra](ref/spell/protective-penumbra); **Cost** 12,000 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [protective penumbra](ref/spell/protective-penumbra)
+Cost: 12,000 gp
+:::

@@ -19,8 +19,12 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Slot** shield; **CL** 10th; **Weight** 10 lbs.\
-**Aura** moderate abjuration
+::: statblock
+Slot: shield
+CL: 10th
+Weight: 10 lbs.
+Aura: moderate abjuration
+:::
 
 This shield is made from a thick glass that is as sturdy as steel. The shield functions as a +1
 [heavy steel shield](ref/eq-armor/heavy-steel-shield). The former First Captain of the

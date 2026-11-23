@@ -20,10 +20,13 @@ slot = "none"
 
 ## Access card
 
-**Price** 10 gp (black), 360 gp (blue), 3 gp (brown), 90 gp (gray), 160 gp (green), 490 gp (orange),
-1,000 gp (prismatic), 250 gp (red), 40 gp (white)\
-**Slot** none; **Weight** — (all)\
-**Capacity** -; **Usage** -
+::: statblock
+Price: 10 gp (black), 360 gp (blue), 3 gp (brown), 90 gp (gray), 160 gp (green), 490 gp (orange), 1,000 gp (prismatic), 250 gp (red), 40 gp (white)
+Slot: none
+Weight: — (all)
+Capacity: -
+Usage: -
+:::
 
 ### Construction
 

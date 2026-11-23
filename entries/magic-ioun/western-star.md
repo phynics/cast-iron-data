@@ -19,8 +19,13 @@ aura = "strong illusion"
 caster_level = "12th"
 +++
 
-**Aura** strong illusion; **CL** 12th\
-**Slot** none; **Price** 4,000 gp; **Weight** —
+::: statblock
+Aura: strong illusion
+CL: 12th
+Slot: none
+Price: 4,000 gp
+Weight: —
+:::
 
 #### Description
 

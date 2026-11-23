@@ -16,8 +16,12 @@ category = "Weapon Modifications"
 weight = "-"
 +++
 
-**Cost** +2,000 gp **Weight** -\
-**Category** Modification; **Proficiency** Modification
+::: statblock
+Cost: +2,000 gp
+Weight: -
+Category: Modification
+Proficiency: Modification
+:::
 
 A tactically adapted weapon is designed for specialized tactics rather than just swinging and
 stabbing. Only melee weapons can be tactically adapted. When this quality is added to a weapon,

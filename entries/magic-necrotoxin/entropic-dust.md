@@ -18,8 +18,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot**; **Price** 1,500 gp; **Weight** —
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot:
+Price: 1,500 gp
+Weight: —
+:::
 
 This white grit hinders a victim's divine power.
 
@@ -31,5 +36,7 @@ victim must succeed at a [concentration](ref/rule/concentration) check vs. the p
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[desecrate](ref/spell/desecrate); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [desecrate](ref/spell/desecrate)
+Cost: 750 gp
+:::

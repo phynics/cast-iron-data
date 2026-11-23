@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "12th"
 +++
 
-**Aura** moderate necromancy; **CL** 12th\
-**Slot** none; **Price** 36,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 12th
+Slot: none
+Price: 36,000 gp
+Weight: 1/2 lb.
+:::
 
 ### Description
 
@@ -49,6 +54,7 @@ effect. Unlike the spell, the target need not comprehend the user's language.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), [suggestion](ref/spell/suggestion), and a piece of the body
-of the humanoid to be affected; **Cost** 18,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), [suggestion](ref/spell/suggestion), and a piece of the body of the humanoid to be affected
+Cost: 18,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1,000 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 1,000 lbs.
+:::
 
 This altar is made of rough-hewn stone, weathered whale bone, or ancient wood, usually standing over
 or next to a body of natural water and featuring carvings of Gozreh in one or both aspects. Unlike
@@ -32,8 +37,7 @@ Profession (sailor), and Swim checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control water](ref/spell/control-water), [control winds](ref/spell/control-winds),
-[guidance](ref/spell/guidance),
-[magic circle against chaos/evil/good/law](ref/spell/magic-circle-against-chaos-evil-good-law) (as
-appropriate), creator must worship [Gozreh](ref/faith/gozreh); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control water](ref/spell/control-water), [control winds](ref/spell/control-winds), [guidance](ref/spell/guidance), [magic circle against chaos/evil/good/law](ref/spell/magic-circle-against-chaos-evil-good-law) (as appropriate), creator must worship [Gozreh](ref/faith/gozreh)
+Cost: 4,000 gp
+:::

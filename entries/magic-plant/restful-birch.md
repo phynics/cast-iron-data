@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 4,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 4,000 gp
+Weight: 500 lbs.
+:::
 
 This tree's papery bark flakes off in strips. When a creature consumes a piece of the bark, it
 reduces the amount of sleep it needs that night by 2 hours (to a minimum of 6 hours). If the
@@ -40,5 +45,7 @@ round.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[sleep](ref/spell/sleep), cultivator must have 1 rank in Knowledge (nature); **Cost** 2,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [sleep](ref/spell/sleep), cultivator must have 1 rank in Knowledge (nature)
+Cost: 2,000 gp
+:::

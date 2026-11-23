@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "24 lbs."
 +++
 
-**Cost** 144,000 gp\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 24 lbs.\
-**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** —\
-**Range** 40-ft. cone; **Capacity** —; **Usage** —; **Special** [Scatter](ref/misc/scatter),
-[slow-firing](ref/misc/slow-firing), [touch](ref/misc/touch)
+::: statblock
+Cost: 144,000 gp
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 24 lbs.
+Damage: Special (small), Special (medium)
+Damage Type: Special
+Critical: —
+Range: 40-ft. cone
+Capacity: —
+Usage: —
+Special: [Scatter](ref/misc/scatter), [slow-firing](ref/misc/slow-firing), [touch](ref/misc/touch)
+:::
 
 An atom gun is a cruel weapon that harnesses the devastating energies of a miniaturized nuclear
 reactor to create a focused cone of [radiation](ref/rule/radiation) that blasts and sickens those

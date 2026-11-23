@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 10,500 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 10,500 gp
+Weight: 50 lbs.
+:::
 
 The eyes of those who chew these pale white flowers widen and turn a milky white. The flowers send
 the user into a furious rage similar to that of a [barbarian](ref/class/barbarian), granting a +2
@@ -33,5 +38,7 @@ A ghostblossom vine flowers once daily through a single 13-week growing period e
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [rage](ref/spell/rage),
-cultivator must have 3 ranks in Knowledge (nature); **Cost** 5,250 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [rage](ref/spell/rage), cultivator must have 3 ranks in Knowledge (nature)
+Cost: 5,250 gp
+:::

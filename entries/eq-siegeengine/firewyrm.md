@@ -25,7 +25,17 @@ dealing its damage to all creatures within a 30-foot blast (DC 20 Reflex save ha
 have a [hardness](ref/umr/hardness) of 10 and 140 hit points. One use of firewyrm ammunition costs
 400 gp and weighs 40 pounds.
 
-**Cost** 6,000 gp **Weight** -\
-**Damage** 6d6; **Critical** -; **Range** -; **Type** fire\
-**Crew** 5; **Aim** 2; **Load** 6; **Speed** 0 ft.\
-**Category** Direct-Fire (Gargantuan); **Proficiency** Siege Engine
+::: statblock
+Cost: 6,000 gp
+Weight: -
+Damage: 6d6
+Critical: -
+Range: -
+Type: fire
+Crew: 5
+Aim: 2
+Load: 6
+Speed: 0 ft.
+Category: Direct-Fire (Gargantuan)
+Proficiency: Siege Engine
+:::

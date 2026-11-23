@@ -20,8 +20,13 @@ price = "70,000 gp"
 slot = "eyes"
 +++
 
-**Price** 70,000 gp; **Elixir Price** 1,250 gp\
-**Saving Throw DC** 20; **Slot** eyes; **Temporary Duration** 10 minutes
+::: statblock
+Price: 70,000 gp
+Elixir Price: 1,250 gp
+Saving Throw DC: 20
+Slot: eyes
+Temporary Duration: 10 minutes
+:::
 
 **Benefit:** The subject's eyes are replaced by antennae that sprout from its eye sockets. The
 creature gains [blindsight](ref/umr/blindsight) to a range of 30 feet.

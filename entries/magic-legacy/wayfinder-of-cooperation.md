@@ -19,8 +19,12 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Slot** none; **CL** 17th; **Weight** 1 lb.\
-**Aura** strong transmutation
+::: statblock
+Slot: none
+CL: 17th
+Weight: 1 lb.
+Aura: strong transmutation
+:::
 
 Aspiring [Pathfinder Society](ref/rule/aff-scholars) field agents are often entertained by dramatic
 stories featuring Ling Yayao, a near-mythic Pathfinder renowned for her ability to perform daring

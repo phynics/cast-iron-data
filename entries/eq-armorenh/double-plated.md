@@ -16,7 +16,10 @@ category = "Armor Modifications"
 weight = "+20 lbs."
 +++
 
-**Cost** +1,000 gp **Weight** +20 lbs.
+::: statblock
+Cost: +1,000 gp
+Weight: +20 lbs.
+:::
 
 Plating adds protection to a suit of armor's wearer at the cost of mobility. Double-plated armor's
 armor bonus is increased by 1, and its maximum Dexterity bonus is reduced by 2.

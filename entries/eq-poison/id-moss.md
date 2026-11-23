@@ -19,7 +19,10 @@ category = "Poisons"
 price = "125 gp"
 +++
 
-**Price** 125 gp; **Weight** —
+::: statblock
+Price: 125 gp
+Weight: —
+:::
 
 **Type:** Poison (Ingested)
 

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** headband; **Price** 800 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: headband
+Price: 800 gp
+Weight: -
+:::
 
 This delicate example of papercraft is often given to a paramour, with the promise that the love of
 the presenter will protect the recipient. A paper flower is worn behind the ear. For 24 hours, the
@@ -31,5 +36,7 @@ _[sanctuary](ref/spell/sanctuary)_).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[sanctuary](ref/spell/sanctuary), [status](ref/spell/status); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sanctuary](ref/spell/sanctuary), [status](ref/spell/status)
+Cost: 400 gp
+:::

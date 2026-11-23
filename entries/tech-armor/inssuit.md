@@ -16,12 +16,19 @@ category = "Technological Armor"
 weight = "10 lbs."
 +++
 
-**Cost** 19,250 gp\
-**Type** Light; **Weight** 10 lbs.; **Armor Bonus** +3\
-**Max Dex Bonus** +6; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 15%\
-**Speed (30 ft.)** 30 ft.; **Speed (20 ft.)** 20 ft.\
-**Capacity** -; **Usage** -
+::: statblock
+Cost: 19,250 gp
+Type: Light
+Weight: 10 lbs.
+Armor Bonus: +3
+Max Dex Bonus: +6
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 15%
+Speed (30 ft.): 30 ft.
+Speed (20 ft.): 20 ft.
+Capacity: -
+Usage: -
+:::
 
 ### Construction
 

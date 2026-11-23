@@ -18,10 +18,13 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Suitable For** PCs of 4th-6th level\
-**Aura** strong abjuration\
-**Slot** none; **CL** 17th\
-**Weight** 4 lbs.
+::: statblock
+Suitable For: PCs of 4th-6th level
+Aura: strong abjuration
+Slot: none
+CL: 17th
+Weight: 4 lbs.
+:::
 
 When the brave knight-commander Koriana of Zimar fell within the ranks of the Fifth Army of
 Exploration, her remains were returned home - along with her sundered steel shield. Her brother

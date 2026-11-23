@@ -20,8 +20,13 @@ price = "12,000 gp"
 slot = "head"
 +++
 
-**Price** 12,000 gp; **Elixir Price** 800 gp\
-**Saving Throw DC** 16; **Slot** head; **Temporary Duration** 10 minutes
+::: statblock
+Price: 12,000 gp
+Elixir Price: 800 gp
+Saving Throw DC: 16
+Slot: head
+Temporary Duration: 10 minutes
+:::
 
 **Benefit:** The subject's teeth are replaced by strange, crooked fangs. A Medium creature gains a
 bite [natural attack](ref/umr/natural-attacks) that deals 1d4 points of damage (1d3 points if

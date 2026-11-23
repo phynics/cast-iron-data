@@ -17,9 +17,12 @@ price = "+100 gp"
 weight = "-"
 +++
 
-**Price** +100 gp; **Weight** -\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: +100 gp
+Weight: -
+Category: Channel Foci
+Deity: Any
+:::
 
 A sanctified shield may be any type of shield (including bucklers, tower shields, and even magical
 shields). When activated, a sacred shield adds a +1 sacred (if positive energy) or profane (if

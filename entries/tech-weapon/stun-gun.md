@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "3 lbs."
 +++
 
-**Cost** 3,000 gp\
-**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 3 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Damage Type** —; **Critical** ×2\
-**Range** 20 ft.; **Capacity** 10; **Usage** 1 charge; **Special** [Nonlethal](ref/misc/nonlethal),
-[semi-automatic](ref/misc/semi-automatic), [touch](ref/misc/touch)
+::: statblock
+Cost: 3,000 gp
+Type: one-handed ranged
+Proficiency: exotic (firearms)
+Weight: 3 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Damage Type: —
+Critical: ×2
+Range: 20 ft.
+Capacity: 10
+Usage: 1 charge
+Special: [Nonlethal](ref/misc/nonlethal), [semi-automatic](ref/misc/semi-automatic), [touch](ref/misc/touch)
+:::
 
 ### Construction
 

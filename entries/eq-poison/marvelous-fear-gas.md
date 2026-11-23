@@ -17,7 +17,10 @@ price = "150 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 150 gp; **Weight** 1/2 lb.
+::: statblock
+Price: 150 gp
+Weight: 1/2 lb.
+:::
 
 **Type:** Poison (Inhaled)
 

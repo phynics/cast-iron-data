@@ -16,12 +16,19 @@ category = "Technological Armor"
 weight = "1 lbs."
 +++
 
-**Cost** 6,400 gp\
-**Type** Shield; **Weight** 1 lbs.; **Armor Bonus** +2\
-**Max Dex Bonus** —; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 10%\
-**Speed (30 ft.)** -; **Speed (20 ft.)** -\
-**Capacity** 20; **Usage** 1 charge/minute
+::: statblock
+Cost: 6,400 gp
+Type: Shield
+Weight: 1 lbs.
+Armor Bonus: +2
+Max Dex Bonus: —
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 10%
+Speed (30 ft.): -
+Speed (20 ft.): -
+Capacity: 20
+Usage: 1 charge/minute
+:::
 
 ### Construction
 

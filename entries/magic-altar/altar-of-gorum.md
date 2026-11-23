@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation [chaotic]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation \[chaotic\]; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 750 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation \[chaotic\]
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 750 lbs.
+:::
 
 This altar is an iron platform and frame designed to support a heavy suit of spiked armor and
 weapons, typically mounted in the shape of a massively imposing, 8-foot-tall warrior. Praying at the
@@ -30,8 +35,7 @@ weapon the worshiper wields is treated as if it were [masterwork](ref/rule/maste
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic circle against law](ref/spell/magic-circle-against-law),
-[masterwork transformation](ref/spell/masterwork-transformation),
-[remove fear](ref/spell/remove-fear), creator must worship [Gorum](ref/faith/gorum); **Cost** 4,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic circle against law](ref/spell/magic-circle-against-law), [masterwork transformation](ref/spell/masterwork-transformation), [remove fear](ref/spell/remove-fear), creator must worship [Gorum](ref/faith/gorum)
+Cost: 4,000 gp
+:::

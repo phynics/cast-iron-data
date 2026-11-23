@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "2 lbs."
 +++
 
-**Cost** 5,000 gp\
-**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Damage Type** fire; **Critical** ×2\
-**Range** 30 ft.; **Capacity** 1 nanite canister; **Usage** 1 charge; **Special**
-[Touch](ref/misc/touch)
+::: statblock
+Cost: 5,000 gp
+Type: one-handed ranged
+Proficiency: exotic (firearms)
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Damage Type: fire
+Critical: ×2
+Range: 30 ft.
+Capacity: 1 nanite canister
+Usage: 1 charge
+Special: [Touch](ref/misc/touch)
+:::
 
 ### Construction
 

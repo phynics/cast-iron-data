@@ -17,8 +17,11 @@ price = "+300 gp"
 weight = "-"
 +++
 
-**Price** +300 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: +300 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 [Undines](ref/race/undine) incorporate a unique design when crafting shafted weapons such as
 quarterstaves, spears, and tridents. Instead of a solid shaft, the weapon is built around a pipe of

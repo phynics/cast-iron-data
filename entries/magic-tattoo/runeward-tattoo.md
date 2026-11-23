@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 Each of these tattoos is keyed to a single school of magic. The bearer can use
 _[detect magic](ref/spell/detect-magic)_ at will, but only to sense auras of that school. The bearer
@@ -31,5 +36,7 @@ or spell-like ability has been cast within 60 feet.
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[detect magic](ref/spell/detect-magic), [guidance](ref/spell/guidance); **Cost** 500 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [detect magic](ref/spell/detect-magic), [guidance](ref/spell/guidance)
+Cost: 500 gp
+:::

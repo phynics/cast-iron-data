@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 500 lbs.
+:::
 
 This large deciduous tree has reddish-brown bark and bright yellow leaves. It grows misshapen red
 apples that are warm to the touch. Once harvested, an apple can be thrown like a bomb, bursting in a
@@ -34,5 +39,7 @@ A tree has no more than three viable fruit at a time.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[fireball](ref/spell/fireball), cultivator must have 1 rank in Knowledge (nature); **Cost** 2,500 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [fireball](ref/spell/fireball), cultivator must have 1 rank in Knowledge (nature)
+Cost: 2,500 gp
+:::

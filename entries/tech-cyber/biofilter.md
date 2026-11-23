@@ -18,9 +18,13 @@ weight = "2 lbs."
 slot = "body"
 +++
 
-**Price** 16,000 gp\
-**Slot** body; **Weight** 2 lbs.\
-**Install** DC 25; **Implantation** 3
+::: statblock
+Price: 16,000 gp
+Slot: body
+Weight: 2 lbs.
+Install: DC 25
+Implantation: 3
+:::
 
 ### Construction
 

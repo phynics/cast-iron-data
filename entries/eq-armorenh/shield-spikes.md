@@ -19,7 +19,10 @@ category = "Armor Modifications"
 weight = "+5 lbs."
 +++
 
-**Cost** +10 gp **Weight** +5 lbs.
+::: statblock
+Cost: +10 gp
+Weight: +5 lbs.
+:::
 
 **Light shield**\
 **Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** P; **Special** -\

@@ -28,8 +28,13 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Aura** strong varied; **CL** 12th\
-**Slot** none; **Price** 5,000 gp; **Weight** —
+::: statblock
+Aura: strong varied
+CL: 12th
+Slot: none
+Price: 5,000 gp
+Weight: —
+:::
 
 #### Description
 

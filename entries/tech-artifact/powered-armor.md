@@ -17,8 +17,12 @@ weight = "50 lbs."
 slot = "armor"
 +++
 
-**Slot** armor; **Weight** 50 lbs.\
-**Capacity** 100; **Usage** see text
+::: statblock
+Slot: armor
+Weight: 50 lbs.
+Capacity: 100
+Usage: see text
+:::
 
 **Type:** Heavy\
 **AC:** +10\

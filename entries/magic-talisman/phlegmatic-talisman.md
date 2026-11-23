@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** neck; **Price** 96,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: neck
+Price: 96,000 gp
+Weight: -
+:::
 
 This turbid blue, teardrop-shaped devil talisman binds a particular [devil](ref/family/devil) to a
 specific location, trapping the fiend in a manner similar to
@@ -56,7 +61,7 @@ Visperthul to the Inferno Gate (see area Q16).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[planar binding](ref/spell/planar-binding), [protection from evil](ref/spell/protection-from-evil)
-or [protection from law](ref/spell/protection-from-law), must know the true name of the devil to be
-conjured and bound; **Cost** 48,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [planar binding](ref/spell/planar-binding), [protection from evil](ref/spell/protection-from-evil) or [protection from law](ref/spell/protection-from-law), must know the true name of the devil to be conjured and bound
+Cost: 48,000 gp
+:::

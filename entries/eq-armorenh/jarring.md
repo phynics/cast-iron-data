@@ -19,7 +19,10 @@ category = "Armor Modifications"
 weight = "+20 lbs."
 +++
 
-**Cost** +1,000 gp **Weight** +20 lbs.
+::: statblock
+Cost: +1,000 gp
+Weight: +20 lbs.
+:::
 
 Opponents who swing too hard at targets wearing this armor often regret it - striking jarring armor
 sends a shock up the arm. Whenever an opponent makes a melee attack against you using the

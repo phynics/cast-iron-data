@@ -17,8 +17,13 @@ price = "6,000 gp"
 slot = "headband"
 +++
 
-**Price** 6,000 gp; **Elixir Price** 500 gp\
-**Saving Throw DC** 17; **Slot** headband; **Temporary Duration** 24 hours
+::: statblock
+Price: 6,000 gp
+Elixir Price: 500 gp
+Saving Throw DC: 17
+Slot: headband
+Temporary Duration: 24 hours
+:::
 
 **Benefit:** A cerebral husk forms on the back of the subject's head, burrowing synaptic fibers into
 the base of the skull. Once per day, when the subject fails a saving throw against a mind-affecting

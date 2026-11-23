@@ -17,8 +17,13 @@ price = "6,000 gp"
 slot = "eyes"
 +++
 
-**Price** 6,000 gp; **Elixir Price** 300 gp\
-**Saving Throw DC** 15; **Slot** eyes; **Temporary Duration** 24 hours
+::: statblock
+Price: 6,000 gp
+Elixir Price: 300 gp
+Saving Throw DC: 15
+Slot: eyes
+Temporary Duration: 24 hours
+:::
 
 **Benefit:** Bulging eyes cover the subject's own, augmenting the existing organs. Fibrous nerve
 tissue grafts to the eyes, fusing them in place and linking the subject's vision to these new,

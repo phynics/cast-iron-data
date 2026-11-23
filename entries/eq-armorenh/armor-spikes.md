@@ -19,10 +19,18 @@ category = "Armor Modifications"
 weight = "+10 lbs."
 +++
 
-**Cost** +50 gp **Weight** +10 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** P; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Close
+::: statblock
+Cost: +50 gp
+Weight: +10 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close)
+:::
 
 You can have spikes added to your armor, which allow you to deal extra piercing damage on a
 successful grapple attack. The spikes count as a martial weapon. If you are not proficient with

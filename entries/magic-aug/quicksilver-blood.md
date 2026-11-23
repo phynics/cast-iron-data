@@ -19,8 +19,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 62,000 gp; **Weight** —
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 62,000 gp
+Weight: —
+:::
 
 The recipient's blood is infused with liquid metal that is magically bound to the recipient's
 system. When the recipient bleeds, the metal clings to itself and turns a bright silver color. The
@@ -35,6 +40,7 @@ This elemental augmentation cannot be applied to a creature without blood.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[adhesive blood](ref/spell/adhesive-blood), [lesser restoration](ref/spell/restoration-lesser),
-creator must have 9 ranks in Knowledge (planes); **Cost** 31,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [adhesive blood](ref/spell/adhesive-blood), [lesser restoration](ref/spell/restoration-lesser), creator must have 9 ranks in Knowledge (planes)
+Cost: 31,000 gp
+:::

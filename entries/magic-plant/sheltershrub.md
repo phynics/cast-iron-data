@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** none; **Price** 12,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: none
+Price: 12,000 gp
+Weight: 50 lbs.
+:::
 
 This leafy red or blue shrub grows to a height of 6 feet. It grows small, blue, overly sweet
 berries. The berries provide an effect identical to _[endure elements](ref/spell/endure-elements)_
@@ -33,6 +38,7 @@ in the summer and winter. A shrub has no more than 50 berries at a time.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[endure elements](ref/spell/endure-elements), cultivator must have 1 rank in Knowledge (nature);
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [endure elements](ref/spell/endure-elements), cultivator must have 1 rank in Knowledge (nature)
+Cost: 6,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration and enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and enchantment; **CL** 10th\
-**Slot** none; **Price** 16,000 gp; **Weight** 350 lbs.
+::: statblock
+Aura: moderate abjuration and enchantment
+CL: 10th
+Slot: none
+Price: 16,000 gp
+Weight: 350 lbs.
+:::
 
 This heavy throne is made of elaborate wrought iron and decorated with shields bearing the ruler's
 heraldry. A ruler seated upon a throne of ardent defense gains the throne's continuous
@@ -32,5 +37,7 @@ subject of the spell moves more than 50 feet from either the caster or the thron
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism),
-[shield other](ref/spell/shield-other); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism), [shield other](ref/spell/shield-other)
+Cost: 8,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration and enchantment [evil, lawful]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and enchantment \[evil, lawful\]; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 150 lbs.
+::: statblock
+Aura: moderate abjuration and enchantment \[evil, lawful\]
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 150 lbs.
+:::
 
 This altar is a veiled box of thick steel designed to house ritual implements of torture and
 self-mutilation in perfect darkness. Praying at the altar grants the worshiper a +2 competence bonus
@@ -31,7 +36,7 @@ Multiple sources of damage or pain reset this duration rather than stack.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic circle against chaos](ref/spell/magic-circle-against-chaos),
-[magic circle against good](ref/spell/magic-circle-against-good), [rage](ref/spell/rage), creator
-must worship [Zon-Kuthon](ref/faith/zon-kuthon); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic circle against chaos](ref/spell/magic-circle-against-chaos), [magic circle against good](ref/spell/magic-circle-against-good), [rage](ref/spell/rage), creator must worship [Zon-Kuthon](ref/faith/zon-kuthon)
+Cost: 4,000 gp
+:::

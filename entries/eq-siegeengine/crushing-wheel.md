@@ -26,7 +26,17 @@ throw take only half damage and avoid falling prone. A crushing wheel has a
 
 A crushing wheel is a Large siege engine.
 
-**Cost** 500 gp **Weight** -\
-**Damage** 4d6; **Critical** -; **Range** -; **Type** B\
-**Crew** 4; **Aim** 0; **Load** 0; **Speed** 0 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+Cost: 500 gp
+Weight: -
+Damage: 4d6
+Critical: -
+Range: -
+Type: B
+Crew: 4
+Aim: 0
+Load: 0
+Speed: 0 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::

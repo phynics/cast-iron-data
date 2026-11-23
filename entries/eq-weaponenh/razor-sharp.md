@@ -16,8 +16,12 @@ category = "Weapon Modifications"
 weight = "-"
 +++
 
-**Cost** +1,000 gp **Weight** -\
-**Category** Modification; **Proficiency** Modification
+::: statblock
+Cost: +1,000 gp
+Weight: -
+Category: Modification
+Proficiency: Modification
+:::
 
 The weapon's edge is honed to incredible sharpness. The weapon's edge dulls after a number of daily
 uses, but the bonus can be reset by spending 15 minutes [whetting](ref/eq-misc/whetstone) the blade

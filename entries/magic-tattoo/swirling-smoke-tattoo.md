@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 12,500 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 12,500 gp
+Weight: -
+:::
 
 This simple tattoo emits a constant haze of odorless, shadowy smoke around the limbs of its bearer
 that she can animate with a thought, hiding herself behind a screen of smoke. If the tattoo is
@@ -32,5 +37,7 @@ to reroll the Reflex save and gain a +4 bonus. The bearer can use this ability t
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[blur](ref/spell/blur); **Cost** 6,250 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [blur](ref/spell/blur)
+Cost: 6,250 gp
+:::

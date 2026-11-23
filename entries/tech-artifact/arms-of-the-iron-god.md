@@ -17,9 +17,14 @@ weight = "28 lbs."
 slot = "arms (cybernetic)"
 +++
 
-**Slot** arms (cybernetic); **Weight** 28 lbs.\
-**Capacity** -; **Usage** -\
-**Install** DC 38; **Implantation** 4
+::: statblock
+Slot: arms (cybernetic)
+Weight: 28 lbs.
+Capacity: -
+Usage: -
+Install: DC 38
+Implantation: 4
+:::
 
 _The Arms of the Iron God_ replace the arms, shoulders, and much of the recipient's spine. They
 double the creature's lifting and carrying capacity, grant a +5 circumstance bonus on Climb checks,

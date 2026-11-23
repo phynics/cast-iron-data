@@ -20,12 +20,13 @@ slot = "body"
 
 ## Dermal Plating (Mark I)
 
-**Price** 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III), 64,000 gp (Mark IV), 100,000
-gp (Mark V)\
-**Slot** body; **Weight** 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III), 5 lbs. (Mark IV), 5
-lbs. (Mark V)\
-**Install** DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)\
-**Implantation** 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)
+::: statblock
+Price: 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III), 64,000 gp (Mark IV), 100,000 gp (Mark V)
+Slot: body
+Weight: 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III), 5 lbs. (Mark IV), 5 lbs. (Mark V)
+Install: DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)
+Implantation: 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)
+:::
 
 ### Construction
 

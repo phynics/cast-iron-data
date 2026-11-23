@@ -19,8 +19,12 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Slot** none; **CL** 6th; **Weight** 1 lb.\
-**Aura** moderate transmutation
+::: statblock
+Slot: none
+CL: 6th
+Weight: 1 lb.
+Aura: moderate transmutation
+:::
 
 The hilt of this +1 [adamantine](ref/eq-material/adamantine) [scimitar](ref/eq-weapon/scimitar) has
 a gritty texture, as if sprinkled with invisible grains of sand. A favorite weapon among the

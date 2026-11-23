@@ -16,8 +16,12 @@ category = "Weapon Modifications"
 weight = "-"
 +++
 
-**Cost** +2,000 gp **Weight** -\
-**Category** Modification; **Proficiency** Modification
+::: statblock
+Cost: +2,000 gp
+Weight: -
+Category: Modification
+Proficiency: Modification
+:::
 
 The weapon's blade inflicts wounds that bleed profusely. Only piercing or slashing melee weapons can
 have a serrated edge. This modification can be added to a

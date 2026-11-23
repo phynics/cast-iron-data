@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 150 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 150 lbs.
+:::
 
 This altar is a wooden frame or display case for showing art or musical instruments. Praying at the
 altar grants a +2 circumstance bonus on Craft, Diplomacy, and Perform checks, and a +1 morale bonus
@@ -29,7 +34,7 @@ on Will saving throws.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [magic circle against evil](ref/spell/magic-circle-against-evil),
-[resistance](ref/spell/resistance), creator must worship [Shelyn](ref/faith/shelyn); **Cost** 4,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [magic circle against evil](ref/spell/magic-circle-against-evil), [resistance](ref/spell/resistance), creator must worship [Shelyn](ref/faith/shelyn)
+Cost: 4,000 gp
+:::

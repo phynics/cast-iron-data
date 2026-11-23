@@ -17,9 +17,13 @@ price = "500 gp"
 slot = "none"
 +++
 
-**Price** 500 gp\
-**Slot** none; **Weight** —\
-**Capacity** -; **Usage** -
+::: statblock
+Price: 500 gp
+Slot: none
+Weight: —
+Capacity: -
+Usage: -
+:::
 
 ### Construction
 

@@ -22,8 +22,13 @@ aura = "strong divination and evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong divination and evocation; **CL** 12th\
-**Slot** none; **Price** 5,000 gp; **Weight** —
+::: statblock
+Aura: strong divination and evocation
+CL: 12th
+Slot: none
+Price: 5,000 gp
+Weight: —
+:::
 
 #### Description
 

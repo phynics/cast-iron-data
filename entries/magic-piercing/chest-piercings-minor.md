@@ -20,8 +20,12 @@ aura = "faint transmutation CL 3rd"
 
 ## Chest Piercings
 
-**Aura** faint transmutation CL 3rd\
-**Slot** body; **Price** 2,200 gp (Minor), 3,750 gp (Major), 5,750 gp (Greater); **Weight** —
+::: statblock
+Aura: faint transmutation CL 3rd
+Slot: body
+Price: 2,200 gp (Minor), 3,750 gp (Major), 5,750 gp (Greater)
+Weight: —
+:::
 
 These excruciating body ornaments come in the form of sharp barbs and serrated rings inserted in the
 nipples, abdomen, or along the ribs. The pain they cause sharpens the mind and blocks out
@@ -38,7 +42,7 @@ conditions.
 
 ### Construction
 
-**Requirements** [Craft Shadow Piercing](ref/feat/craft-shadow-piercing),
-[bear's endurance](ref/spell/bears-endurance) (minor and greater),
-[fox's cunning](ref/spell/foxs-cunning) (major); **Cost** 1,100 gp (Minor), 1,875 gp (Major), 2,875
-gp (Greater)
+::: statblock
+Requirements: [Craft Shadow Piercing](ref/feat/craft-shadow-piercing), [bear's endurance](ref/spell/bears-endurance) (minor and greater), [fox's cunning](ref/spell/foxs-cunning) (major)
+Cost: 1,100 gp (Minor), 1,875 gp (Major), 2,875 gp (Greater)
+:::

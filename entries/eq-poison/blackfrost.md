@@ -16,7 +16,10 @@ category = "Poisons"
 price = "N/A"
 +++
 
-**Price** N/A; **Weight** —
+::: statblock
+Price: N/A
+Weight: —
+:::
 
 **Type:** Poison (Contact)
 

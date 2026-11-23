@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 10,800 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 10,800 gp
+Weight: -
+:::
 
 This shadowy tattoo is drawn in a spiraling pattern down one of the bearer's arms. If the tattoo is
 visible, the wearer gains a +2 circumstance bonus on [Diplomacy](ref/skill/diplomacy) checks.
@@ -33,5 +38,7 @@ target with the hypnotism occult skill unlock is reduced by 1. This is a mind-af
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[suggestion](ref/spell/suggestion); **Cost** 5,400 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [suggestion](ref/spell/suggestion)
+Cost: 5,400 gp
+:::

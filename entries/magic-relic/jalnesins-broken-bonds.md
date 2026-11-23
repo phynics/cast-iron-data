@@ -18,10 +18,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Suitable For** (not given)\
-**Aura** faint transmutation\
-**Slot** none; **CL** 5th\
-**Weight** 10 lbs.
+::: statblock
+Suitable For: (not given)
+Aura: faint transmutation
+Slot: none
+CL: 5th
+Weight: 10 lbs.
+:::
 
 This crude length of chain ends with a manacle that has been converted into a combination buckle and
 handle. The chain bristles with jagged points that are almost invisible to the naked eye.

@@ -19,8 +19,13 @@ aura = "moderate necromancy"
 caster_level = "12th"
 +++
 
-**Aura** moderate necromancy; **CL** 12th\
-**Slot** none; **Price** 20,000 gp; **Weight** —
+::: statblock
+Aura: moderate necromancy
+CL: 12th
+Slot: none
+Price: 20,000 gp
+Weight: —
+:::
 
 #### Description
 

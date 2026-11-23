@@ -16,8 +16,13 @@ category = "Fleshcraft"
 price = "gp"
 +++
 
-**Price** gp; **Elixir Price** 300 gp\
-**Saving Throw DC** 12; **Slot**; **Temporary Duration** 1 hour
+::: statblock
+Price: gp
+Elixir Price: 300 gp
+Saving Throw DC: 12
+Slot:
+Temporary Duration: 1 hour
+:::
 
 **Benefit:** Membranes of skin grow between the subject's fingers and toes and stretch between its
 appendages and body, granting the creature a 20-foot swim speed.

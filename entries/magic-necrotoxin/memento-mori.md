@@ -18,8 +18,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot**; **Price** 3,700 gp; **Weight** —
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot:
+Price: 3,700 gp
+Weight: —
+:::
 
 Memento mori is a powerful hallucinogen that clouds a victim's senses with messages of death.
 
@@ -34,5 +39,7 @@ spells; **Cure** 2 consecutive saves
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[unhallow](ref/spell/unhallow), creator must have 10 ranks in Craft (alchemy); **Cost** 1,850 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [unhallow](ref/spell/unhallow), creator must have 10 ranks in Craft (alchemy)
+Cost: 1,850 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** none; **Price** 900 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: none
+Price: 900 gp
+Weight: -
+:::
 
 This arabesque tattoo accentuates the bearer's movements. If the tattoo is visible, the bearer gains
 a +2 circumstance bonus on [Perform (dance)](ref/skill/perform-any) checks.
@@ -33,5 +38,7 @@ bearer can change the target of this effect as a free action on her turn.
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[hypnotism](ref/spell/hypnotism); **Cost** 450 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [hypnotism](ref/spell/hypnotism)
+Cost: 450 gp
+:::

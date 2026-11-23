@@ -18,8 +18,12 @@ slot = "none"
 
 ## Memory Facet
 
-**Slot** none; **Weight** —\
-**Capacity** -; **Usage** -
+::: statblock
+Slot: none
+Weight: —
+Capacity: -
+Usage: -
+:::
 
 A memory facet is a length of crystal about the size of a human thumb that's adorned at one end by a
 metal cap fitted with prongs and plugs. The crystal's interior contains sparkling veins of

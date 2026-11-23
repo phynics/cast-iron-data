@@ -19,11 +19,18 @@ slot = "none"
 
 ## Beam Cannon (Gravity Cannon)
 
-**Slot** none; **Weight** 18 lbs.\
-**Capacity** 50; **Usage** 1 charge\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry)\
-**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** ×2\
-**Range** 300 ft.
+::: statblock
+Slot: none
+Weight: 18 lbs.
+Capacity: 50
+Usage: 1 charge
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Damage: Special (small), Special (medium)
+Damage Type: Special
+Critical: ×2
+Range: 300 ft.
+:::
 
 A beam cannon is an immense version of one of the six more common beam rifle types. Beam cannons are
 generally referred to by type as summarized below. In addition to the standard automatic firing mode

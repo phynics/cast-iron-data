@@ -20,8 +20,13 @@ aura = "strong transmutation [chaotic, evil]"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation \[chaotic, evil\]; **CL** 15th\
-**Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation \[chaotic, evil\]
+CL: 15th
+Slot: none
+Price: 20,000 gp
+Weight: 5 lbs.
+:::
 
 ### Description
 
@@ -39,6 +44,7 @@ would roll a d20, it must roll twice and take the less favorable result.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2), [protection from law](ref/spell/protection-from-law);
-**Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2), [protection from law](ref/spell/protection-from-law)
+Cost: 10,000 gp
+:::

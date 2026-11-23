@@ -17,8 +17,12 @@ weight = "1 lb."
 slot = "head"
 +++
 
-**Slot** head; **Weight** 1 lb.\
-**Capacity** -; **Usage** -
+::: statblock
+Slot: head
+Weight: 1 lb.
+Capacity: -
+Usage: -
+:::
 
 When placed on the back of the skull, this curved metal bar adheres to the skin and releases a
 network of microscopic probes that interface directly with the wearer's brain. As a swift action,

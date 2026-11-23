@@ -20,8 +20,13 @@ aura = "faint evocation [evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation \[evil\]; **CL** 5th\
-**Slot** none; **Price** 800 gp; **Weight** 1 lbs.
+::: statblock
+Aura: faint evocation \[evil\]
+CL: 5th
+Slot: none
+Price: 800 gp
+Weight: 1 lbs.
+:::
 
 ### Description
 
@@ -38,5 +43,7 @@ entire day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[desecrate](ref/spell/desecrate); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [desecrate](ref/spell/desecrate)
+Cost: 400 gp
+:::

@@ -17,8 +17,12 @@ weight = "50 lbs."
 slot = "none"
 +++
 
-**Slot** none; **Weight** 50 lbs.\
-**Capacity** 10; **Usage** special
+::: statblock
+Slot: none
+Weight: 50 lbs.
+Capacity: 10
+Usage: special
+:::
 
 A power relay is a valuable device that allows the long-distance transmission of energy from a
 nearby generator to a device that can make use of it. Every power generator has a built-in power

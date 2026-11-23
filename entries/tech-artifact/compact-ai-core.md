@@ -17,8 +17,12 @@ weight = "8 lbs."
 slot = "none"
 +++
 
-**Slot** none; **Weight** 8 lbs.\
-**Capacity** 240; **Usage** 1/hour
+::: statblock
+Slot: none
+Weight: 8 lbs.
+Capacity: 240
+Usage: 1/hour
+:::
 
 A compact AI core is a flat sheet of semi-translucent pale blue material 10 inches wide and 20
 inches long, contained in a frame of adamantine and horacalcum. One of the narrow ends of the device

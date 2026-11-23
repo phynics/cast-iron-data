@@ -18,8 +18,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot**; **Price** 6,200 gp; **Weight** —
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot:
+Price: 6,200 gp
+Weight: —
+:::
 
 A gravespawn gland is a piece of [zombie](ref/template/zombie) brain implanted in the host's skull.
 When the command word (which is often kept secret by its creator) is spoken within 60 feet of the
@@ -36,7 +41,7 @@ check; if this check is failed by more than 5, the gravespawn gland detonates in
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead),
-[inflict critical wounds](ref/spell/inflict-critical-wounds), creator must have 11 ranks in Heal;
-**Cost** 3100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead), [inflict critical wounds](ref/spell/inflict-critical-wounds), creator must have 11 ranks in Heal
+Cost: 3100 gp
+:::

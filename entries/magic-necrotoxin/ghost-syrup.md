@@ -18,8 +18,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot**; **Price** 6,000 gp; **Weight** —
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot:
+Price: 6,000 gp
+Weight: —
+:::
 
 This necrotoxin causes a creature to lose corporeal substance.
 
@@ -35,6 +40,7 @@ saves
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ethereal jaunt](ref/spell/ethereal-jaunt), creator must have 13 ranks in Craft (alchemy); **Cost**
-3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ethereal jaunt](ref/spell/ethereal-jaunt), creator must have 13 ranks in Craft (alchemy)
+Cost: 3,000 gp
+:::

@@ -22,8 +22,13 @@ aura = "overwhelming conjuration"
 caster_level = "21st"
 +++
 
-**Aura** overwhelming conjuration; **CL** 21st\
-**Slot** neck; **Price** artifact; **Weight** —
+::: statblock
+Aura: overwhelming conjuration
+CL: 21st
+Slot: neck
+Price: artifact
+Weight: —
+:::
 
 ### Description
 

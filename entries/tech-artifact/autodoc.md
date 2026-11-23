@@ -17,8 +17,12 @@ weight = "1,200 lbs."
 slot = "none"
 +++
 
-**Slot** none; **Weight** 1,200 lbs.\
-**Capacity** 120; **Usage** see text
+::: statblock
+Slot: none
+Weight: 1,200 lbs.
+Capacity: 120
+Usage: see text
+:::
 
 An autodoc is a large, cumbersome device that consists of a comfortable, plastic-framed reclining
 chair inside a transparent pod, within which is affixed a dizzying array of multi-jointed arms and

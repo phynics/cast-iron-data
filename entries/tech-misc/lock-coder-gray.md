@@ -20,10 +20,13 @@ slot = "none"
 
 ## Lock coder
 
-**Price** 2,000 gp (black), 72,000 gp (blue), 600 gp (brown), 18,000 gp (gray), 32,000 gp (green),
-98,000 gp (orange), 200,000 gp (prismatic), 50,000 gp (red), 8,000 gp (white)\
-**Slot** none; **Weight** 5 lbs. (all)\
-**Capacity** 10; **Usage** 10 charges
+::: statblock
+Price: 2,000 gp (black), 72,000 gp (blue), 600 gp (brown), 18,000 gp (gray), 32,000 gp (green), 98,000 gp (orange), 200,000 gp (prismatic), 50,000 gp (red), 8,000 gp (white)
+Slot: none
+Weight: 5 lbs. (all)
+Capacity: 10
+Usage: 10 charges
+:::
 
 ### Construction
 

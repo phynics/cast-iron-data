@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 1,600 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 1,600 gp
+Weight: -
+:::
 
 This intricate tattoo covers the bearer's face in thousands of hair-fine lines of ink and carefully
 incised scars. The bearer can activate the tattoo to cause the marked design to shift and the scars
@@ -39,5 +44,7 @@ be erased and the scars healed.
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[disguise self](ref/spell/disguise-self); **Cost** 800 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [disguise self](ref/spell/disguise-self)
+Cost: 800 gp
+:::

@@ -18,8 +18,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 13th\
-**Slot**; **Price** 12,000 gp; **Weight** —
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 13th
+Slot:
+Price: 12,000 gp
+Weight: —
+:::
 
 An arm of undead flesh allows its host to lift up to 1-1/2 times his
 [maximum load](ref/rule/carrying-capacity) over his head. A humanoid with two necrograft arms can
@@ -33,6 +38,7 @@ Craft, Disable Device, and Sleight of Hand checks per limb replaced, as well as 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead), [regenerate](ref/spell/regenerate), creator must have 8
-ranks in Heal; **Cost** 6000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead), [regenerate](ref/spell/regenerate), creator must have 8 ranks in Heal
+Cost: 6000 gp
+:::

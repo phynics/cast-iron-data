@@ -16,8 +16,13 @@ category = "Fleshcraft"
 price = "gp"
 +++
 
-**Price** gp; **Elixir Price** 500 gp\
-**Saving Throw DC** 14; **Slot**; **Temporary Duration** 1 hour
+::: statblock
+Price: gp
+Elixir Price: 500 gp
+Saving Throw DC: 14
+Slot:
+Temporary Duration: 1 hour
+:::
 
 **Benefit:** The subject's skin secretes a transparent, sticky substance, granting the creature a
 15-foot climb speed.

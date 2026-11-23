@@ -17,8 +17,12 @@ weight = "1,200 lbs."
 slot = "none"
 +++
 
-**Slot** none; **Weight** 1,200 lbs.\
-**Capacity** -; **Usage** 200 charges/day
+::: statblock
+Slot: none
+Weight: 1,200 lbs.
+Capacity: -
+Usage: 200 charges/day
+:::
 
 This enclosed pod of metal and plastic contains a thinly padded bed on which to lay, and dozens of
 small vents along its interior. A rebirthing chamber cannot operate on its own power, and must be

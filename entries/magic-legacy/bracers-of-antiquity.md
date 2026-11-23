@@ -19,8 +19,12 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Slot** wrists; **CL** 13th; **Weight** 1 lb.\
-**Aura** strong divination
+::: statblock
+Slot: wrists
+CL: 13th
+Weight: 1 lb.
+Aura: strong divination
+:::
 
 Despite the fact that they are millennia old, these polished metal armbands, inlaid with intricate
 patterns in gold and platinum, are in remarkable condition. Part of a cache of Azlanti artifacts

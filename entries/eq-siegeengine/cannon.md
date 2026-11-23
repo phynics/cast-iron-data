@@ -22,7 +22,17 @@ projectiles with great force. A cannon has a misfire range of 1 (20 feet). Canno
 [hardness](ref/umr/hardness) of 10 and 70 hit points. Cannon balls cost 30 gp each and weigh 25
 pounds.
 
-**Cost** 6,000 gp **Weight** -\
-**Damage** 6d6; **Critical** ×4; **Range** 100 ft.; **Type** B and P\
-**Crew** 2; **Aim** 1; **Load** 3; **Speed** 10 ft.\
-**Category** Direct-Fire (Large); **Proficiency** Siege Engine
+::: statblock
+Cost: 6,000 gp
+Weight: -
+Damage: 6d6
+Critical: ×4
+Range: 100 ft.
+Type: B and P
+Crew: 2
+Aim: 1
+Load: 3
+Speed: 10 ft.
+Category: Direct-Fire (Large)
+Proficiency: Siege Engine
+:::

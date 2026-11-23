@@ -19,8 +19,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** neck; **Price** 1,800 gp; **Weight** —
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: neck
+Price: 1,800 gp
+Weight: —
+:::
 
 ### Description
 
@@ -30,5 +35,7 @@ _[see invisibility](ref/spell/see-invisibility)_ with a range of 10 feet for 5 m
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[see invisibility](ref/spell/see-invisibility); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [see invisibility](ref/spell/see-invisibility)
+Cost: 900 gp
+:::

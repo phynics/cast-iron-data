@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Price** 9,500 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Price: 9,500 gp
+Weight: -
+:::
 
 A watchtower tattoo must be applied to the back of a hand. Once applied, it provides a +4 resistance
 bonus against the spells and [spell-like abilities](ref/umr/spell-like-abilities) of
@@ -33,5 +38,7 @@ disguised. This revulsion may trigger strange reactions in daemonic magic or art
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[protection from evil](ref/spell/protection-from-evil); **Cost** 4,750 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [protection from evil](ref/spell/protection-from-evil)
+Cost: 4,750 gp
+:::

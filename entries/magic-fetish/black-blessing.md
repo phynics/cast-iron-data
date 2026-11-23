@@ -19,8 +19,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** neck; **Price** 500 gp; **Weight** —
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: neck
+Price: 500 gp
+Weight: —
+:::
 
 ### Description
 
@@ -30,5 +35,7 @@ wearer also takes a -2 penalty on all Will saves against spells cast by the item
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resistance](ref/spell/resistance), [bane](ref/spell/bane); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resistance](ref/spell/resistance), [bane](ref/spell/bane)
+Cost: 250 gp
+:::

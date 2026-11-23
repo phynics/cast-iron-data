@@ -16,10 +16,19 @@ category = "Technological Weapons"
 weight = "2 lbs."
 +++
 
-**Cost** 2,400 gp\
-**Type** light melee; **Proficiency** simple; **Weight** 2 lbs.\
-**Damage** 1d6 (small), 1d6 (medium); **Damage Type** B; **Critical** ×2\
-**Range** -; **Capacity** 10; **Usage** see text; **Special** -
+::: statblock
+Cost: 2,400 gp
+Type: light melee
+Proficiency: simple
+Weight: 2 lbs.
+Damage: 1d6 (small), 1d6 (medium)
+Damage Type: B
+Critical: ×2
+Range: -
+Capacity: 10
+Usage: see text
+Special: -
+:::
 
 ### Construction
 

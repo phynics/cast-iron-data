@@ -16,7 +16,10 @@ category = "Armor Modifications"
 weight = "+5 lbs."
 +++
 
-**Cost** +500 gp **Weight** +5 lbs.
+::: statblock
+Cost: +500 gp
+Weight: +5 lbs.
+:::
 
 Metal armor can be polished to reflect light in your enemies' eyes. In areas of bright light, all
 enemies within 30 feet that can see you must succeed at a Will saving throw (DC = 10 + your base

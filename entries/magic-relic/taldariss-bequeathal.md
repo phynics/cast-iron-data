@@ -18,10 +18,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Suitable For** (not given)\
-**Aura** moderate evocation\
-**Slot** armor; **CL** 9th\
-**Weight** 25 lbs.
+::: statblock
+Suitable For: (not given)
+Aura: moderate evocation
+Slot: armor
+CL: 9th
+Weight: 25 lbs.
+:::
 
 This ramshackle suit of full plate looks cobbled together from old pieces scavenged from several
 suits of armor, each proudly displaying an insignia of the Taldan royal family. The armor shines

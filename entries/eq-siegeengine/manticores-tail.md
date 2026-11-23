@@ -23,7 +23,17 @@ critical threats separately. This weapon has a mishap only if the first attack r
 manticore's tail has a [hardness](ref/umr/hardness) of 5 and 100 hit points. Ammunition for one use
 of the manticore's tail costs 120 gp and weighs 120 pounds.
 
-**Cost** 1,000 gp **Weight** -\
-**Damage** 3d8; **Critical** 19-20/×2; **Range** see text; **Type** P\
-**Crew** 3; **Aim** 0; **Load** 4; **Speed** 0 ft.\
-**Category** Direct-Fire (Huge); **Proficiency** Siege Engine
+::: statblock
+Cost: 1,000 gp
+Weight: -
+Damage: 3d8
+Critical: 19-20/×2
+Range: see text
+Type: P
+Crew: 3
+Aim: 0
+Load: 4
+Speed: 0 ft.
+Category: Direct-Fire (Huge)
+Proficiency: Siege Engine
+:::

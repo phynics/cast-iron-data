@@ -19,8 +19,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** 48,000 gp; **Weight** —
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: 48,000 gp
+Weight: —
+:::
 
 #### Description
 

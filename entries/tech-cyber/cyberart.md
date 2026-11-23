@@ -18,9 +18,13 @@ weight = "1 lb."
 slot = "none"
 +++
 
-**Price** 100 gp\
-**Slot** none; **Weight** 1 lb.\
-**Install** DC 20; **Implantation** 0
+::: statblock
+Price: 100 gp
+Slot: none
+Weight: 1 lb.
+Install: DC 20
+Implantation: 0
+:::
 
 ### Construction
 

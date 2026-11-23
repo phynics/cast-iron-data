@@ -19,8 +19,11 @@ aura = "faint transmutation CL 5th"
 
 ## Eye Piercings
 
-**Aura** faint transmutation CL 5th\
-**Slot** eye; Price 6,000 gp (Minor), 18,000 gp (Major), 32,000 gp (Greater); **Weight** —
+::: statblock
+Aura: faint transmutation CL 5th
+Slot: eye; Price 6,000 gp (Minor), 18,000 gp (Major), 32,000 gp (Greater)
+Weight: —
+:::
 
 These piercings may penetrate the eyebrow, eyelid, or the eye itself. Due to their magical nature,
 they do not impair the owner's vision. All effects from an eye piercing are continuous.
@@ -34,6 +37,7 @@ low-light vision, the ability's range is doubled.
 
 ### Construction
 
-**Requirements** [Craft Shadow Piercing](ref/feat/craft-shadow-piercing),
-[keen senses](ref/spell/keen-senses) (minor), [darkvision](ref/spell/darkvision) (major and
-greater); **Cost** 3,000 gp (Minor), 9,000 gp (Major), 16,000 gp (Greater)
+::: statblock
+Requirements: [Craft Shadow Piercing](ref/feat/craft-shadow-piercing), [keen senses](ref/spell/keen-senses) (minor), [darkvision](ref/spell/darkvision) (major and greater)
+Cost: 3,000 gp (Minor), 9,000 gp (Major), 16,000 gp (Greater)
+:::

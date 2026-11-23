@@ -18,8 +18,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot**; **Price** 450 gp; **Weight** —
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot:
+Price: 450 gp
+Weight: —
+:::
 
 This smelly toxin causes a victim's flesh to become gangrenous.
 
@@ -32,5 +37,7 @@ The poisoned creature is not immune to its own stench; **Cure** 1 save
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ghoul touch](ref/spell/ghoul-touch); **Cost** 225 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ghoul touch](ref/spell/ghoul-touch)
+Cost: 225 gp
+:::

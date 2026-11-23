@@ -16,7 +16,10 @@ category = "Armor Modifications"
 weight = "+5 lbs."
 +++
 
-**Cost** +500 gp **Weight** +5 lbs.
+::: statblock
+Cost: +500 gp
+Weight: +5 lbs.
+:::
 
 Soldiers in the field and adventurers in the dungeon both find slumbering armor to be a boon, as its
 layers of downy internal padding allow the wearer to rest comfortably while armored. Slumbering

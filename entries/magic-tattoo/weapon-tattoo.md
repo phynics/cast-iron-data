@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 10,000 gp
+Weight: -
+:::
 
 This tattoo can store one weapon, sized for the bearer of the tattoo. When no weapon is stored, the
 tattoo takes the form of an empty sword sheath. When a weapon is stored within the tattoo, it takes
@@ -35,5 +40,7 @@ it, the weapon falls to the ground in a random space adjacent to the bearer of t
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[disguise weapon](ref/spell/disguise-weapon); **Cost** 5,000 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [disguise weapon](ref/spell/disguise-weapon)
+Cost: 5,000 gp
+:::

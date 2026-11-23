@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "15 lbs."
 +++
 
-**Cost** 30,000 gp\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 15 lbs.\
-**Damage** 2d10 (small), 4d6 (medium); **Damage Type** electricity and fire; **Critical** 19-20/×2\
-**Range** 60 ft.; **Capacity** 20; **Usage** 2 charges; **Special** [Automatic](ref/misc/automatic)
-or [slow-firing](ref/misc/slow-firing), [scatter](ref/misc/scatter), [touch](ref/misc/touch)
+::: statblock
+Cost: 30,000 gp
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 15 lbs.
+Damage: 2d10 (small), 4d6 (medium)
+Damage Type: electricity and fire
+Critical: 19-20/×2
+Range: 60 ft.
+Capacity: 20
+Usage: 2 charges
+Special: [Automatic](ref/misc/automatic) or [slow-firing](ref/misc/slow-firing), [scatter](ref/misc/scatter), [touch](ref/misc/touch)
+:::
 
 A plasmathrower is a devastating weapon that fires blasts of superheated, electrically charged gas.
 This weapon has two firing modes: slow-firing and automatic. When used on the slow-firing setting,

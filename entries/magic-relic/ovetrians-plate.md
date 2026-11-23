@@ -18,10 +18,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Suitable For** PCs of 10th-12th level\
-**Aura** strong enchantment\
-**Slot** armor; **CL** 15th\
-**Weight** 50 lbs.
+::: statblock
+Suitable For: PCs of 10th-12th level
+Aura: strong enchantment
+Slot: armor
+CL: 15th
+Weight: 50 lbs.
+:::
 
 This storied suit of +3 [rallying](ref/magic-enh/rallying) [full plate](ref/eq-armor/full-plate) was
 worn by General Ovetrian over the course of many conquests. It was recorded that General Ovetrian

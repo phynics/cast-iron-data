@@ -17,8 +17,13 @@ price = "30,000 gp"
 slot = "body"
 +++
 
-**Price** 30,000 gp; **Elixir Price** 1,000 gp\
-**Saving Throw DC** 18; **Slot** body; **Temporary Duration** 1 hour
+::: statblock
+Price: 30,000 gp
+Elixir Price: 1,000 gp
+Saving Throw DC: 18
+Slot: body
+Temporary Duration: 1 hour
+:::
 
 **Benefit:** A glaze of strange, malleable skin wraps around the subject, granting it the ability to
 use Stealth in any natural terrain, whether or not it has [cover](ref/rule/cover) or

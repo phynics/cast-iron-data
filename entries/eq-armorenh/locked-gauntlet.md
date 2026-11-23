@@ -19,7 +19,10 @@ category = "Armor Modifications"
 weight = "+5 lbs."
 +++
 
-**Cost** +8 gp **Weight** +5 lbs.
+::: statblock
+Cost: +8 gp
+Weight: +5 lbs.
+:::
 
 This armored gauntlet has small chains and braces that allow the wearer to attach a weapon to the
 gauntlet so that it cannot be dropped easily. It provides a +10 bonus to your CMD to keep from being

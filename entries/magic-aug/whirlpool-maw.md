@@ -19,8 +19,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 19,000 gp; **Weight** —
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 19,000 gp
+Weight: —
+:::
 
 The user's mouth and throat are linked to an extradimensional whirlpool of water. As a full-round
 action, the user can swallow an adjacent unattended object up to 10 cubic feet in size. The
@@ -37,6 +42,7 @@ This elemental augmentation cannot be applied to a creature without a mouth.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[aqueous orb](ref/spell/aqueous-orb), [shrink item](ref/spell/shrink-item), creator must have 7
-ranks in Knowledge (planes); **Cost** 9,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aqueous orb](ref/spell/aqueous-orb), [shrink item](ref/spell/shrink-item), creator must have 7 ranks in Knowledge (planes)
+Cost: 9,500 gp
+:::

@@ -24,5 +24,9 @@ while tiny air holes allow them to breath. This ammunition deals only half damag
 trebuchet. The wasps attack for 1 minute before dispersing. On a siege engine mishap, the wasps
 escape before the ammunition is launched.
 
-**Cost** 2,000 gp **Weight** 100 lbs.\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 2,000 gp
+Weight: 100 lbs.
+Category: Ammunition
+Proficiency: Siege Engine
+:::

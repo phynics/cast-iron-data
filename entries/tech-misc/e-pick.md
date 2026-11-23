@@ -18,10 +18,13 @@ weight = "1 lb. (all)"
 slot = "none"
 +++
 
-**Price** 100 gp (black), 3,600 gp (blue), 30 gp (brown), 900 gp (gray), 1,600 gp (green), 4,900 gp
-(orange), 10,000 gp (prismatic), 2,500 gp (red), 400 gp (white)\
-**Slot** none; **Weight** 1 lb. (all)\
-**Capacity** 10; **Usage** 1 charge
+::: statblock
+Price: 100 gp (black), 3,600 gp (blue), 30 gp (brown), 900 gp (gray), 1,600 gp (green), 4,900 gp (orange), 10,000 gp (prismatic), 2,500 gp (red), 400 gp (white)
+Slot: none
+Weight: 1 lb. (all)
+Capacity: 10
+Usage: 1 charge
+:::
 
 ### Construction
 

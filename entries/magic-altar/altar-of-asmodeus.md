@@ -20,8 +20,13 @@ aura = "moderate abjuration and enchantment [evil, lawful]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and enchantment \[evil, lawful\]; **CL** 10th\
-**Slot** none; **Price** 16,000 gp; **Weight** 750 lbs.
+::: statblock
+Aura: moderate abjuration and enchantment \[evil, lawful\]
+CL: 10th
+Slot: none
+Price: 16,000 gp
+Weight: 750 lbs.
+:::
 
 This altar is an elaborate nine-tiered iron frame built over a shallow nine-tiered pit and features
 many trappings of prisons and slavery. Praying at the altar grants the ability to cast
@@ -30,8 +35,7 @@ _[hold person](ref/spell/hold-person)_ (DC 13) as a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hold person](ref/spell/hold-person),
-[magic circle against chaos](ref/spell/magic-circle-against-chaos),
-[magic circle against good](ref/spell/magic-circle-against-good), creator must worship
-[Asmodeus](ref/faith/asmodeus); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hold person](ref/spell/hold-person), [magic circle against chaos](ref/spell/magic-circle-against-chaos), [magic circle against good](ref/spell/magic-circle-against-good), creator must worship [Asmodeus](ref/faith/asmodeus)
+Cost: 8,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration, conjuration, and divination [good, lawful]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration, conjuration, and divination \[good, lawful\]; **CL** 10th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1,000 lbs.
+::: statblock
+Aura: moderate abjuration, conjuration, and divination \[good, lawful\]
+CL: 10th
+Slot: none
+Price: 10,000 gp
+Weight: 1,000 lbs.
+:::
 
 This altar is a large stone hearth that is normally kept blazing and features a prominent image of
 Erastil wielding his sacred bow, using the holy weapon either in defense of a home or to hunt game
@@ -34,11 +39,7 @@ grasp, but resumes if the weapon is returned to the worshiper.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[abundant ammunition](ref/spell/abundant-ammunition),
-[cure light wounds](ref/spell/cure-light-wounds),
-[detect animals or plants](ref/spell/detect-animals-or-plants),
-[magic circle against chaos](ref/spell/magic-circle-against-chaos),
-[magic circle against evil](ref/spell/magic-circle-against-evil),
-[summon monster I](ref/spell/summon-monster-1), creator must worship [Erastil](ref/faith/erastil);
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [abundant ammunition](ref/spell/abundant-ammunition), [cure light wounds](ref/spell/cure-light-wounds), [detect animals or plants](ref/spell/detect-animals-or-plants), [magic circle against chaos](ref/spell/magic-circle-against-chaos), [magic circle against evil](ref/spell/magic-circle-against-evil), [summon monster I](ref/spell/summon-monster-1), creator must worship [Erastil](ref/faith/erastil)
+Cost: 5,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration and evocation [chaotic]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and evocation \[chaotic\]; **CL** 10th\
-**Slot** none; **Price** 16,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: moderate abjuration and evocation \[chaotic\]
+CL: 10th
+Slot: none
+Price: 16,000 gp
+Weight: 500 lbs.
+:::
 
 This altar is a silver or brass platform built around a mirror and decorated with elegant filigree.
 Praying at the altar grants a +3 luck bonus on attack rolls, weapon damage rolls, saving throws, and
@@ -30,7 +35,7 @@ worshiper in the past 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor),
-[magic circle against law](ref/spell/magic-circle-against-law), creator must worship
-[Calistria](ref/faith/calistria); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), [magic circle against law](ref/spell/magic-circle-against-law), creator must worship [Calistria](ref/faith/calistria)
+Cost: 8,000 gp
+:::

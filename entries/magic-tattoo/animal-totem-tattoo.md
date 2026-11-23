@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 12,000 gp
+Weight: -
+:::
 
 An animal totem tattoo is dedicated to a specific animal totem. The bearer gains the totem
 transformation ability of a 5th-level [druid](ref/class/druid) with the corresponding animal shaman
@@ -36,5 +41,7 @@ ability.
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[beast shape I](ref/spell/beast-shape-1); **Cost** 6,000 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [beast shape I](ref/spell/beast-shape-1)
+Cost: 6,000 gp
+:::

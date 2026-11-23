@@ -22,8 +22,13 @@ aura = "faint universal"
 caster_level = "12th"
 +++
 
-**Aura** faint universal; **CL** 12th\
-**Slot** none; **Price** 25 gp; **Weight** —
+::: statblock
+Aura: faint universal
+CL: 12th
+Slot: none
+Price: 25 gp
+Weight: —
+:::
 
 #### Description
 

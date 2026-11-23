@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 45,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 45,000 gp
+Weight: 500 lbs.
+:::
 
 These large oak trees are always grown in a pair. With a command word, a creature can enter one
 portal oak and exit from the other. A character can determine the command word with a successful DC
@@ -31,6 +36,7 @@ Portal oaks produce no fruit or other products tied to their effect and are cons
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[tree stride](ref/spell/tree-stride), cultivator must have 3 ranks in Knowledge (nature); **Cost**
-22,500 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [tree stride](ref/spell/tree-stride), cultivator must have 3 ranks in Knowledge (nature)
+Cost: 22,500 gp
+:::

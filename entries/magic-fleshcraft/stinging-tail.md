@@ -20,8 +20,13 @@ price = "12,000 gp"
 slot = "belt"
 +++
 
-**Price** 12,000 gp; **Elixir Price** 800 gp\
-**Saving Throw DC** 16; **Slot** belt; **Temporary Duration** 10 minutes
+::: statblock
+Price: 12,000 gp
+Elixir Price: 800 gp
+Saving Throw DC: 16
+Slot: belt
+Temporary Duration: 10 minutes
+:::
 
 **Benefit:** The subject gains a large scorpion-like tail that sprouts from its lower back. A Medium
 creature can use its fleshwarped stinger as a natural weapon that deals 1d6 points of piercing

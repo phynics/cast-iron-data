@@ -18,10 +18,13 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Suitable For** PCs of 1st-3rd level\
-**Aura** strong divination\
-**Slot** none; **CL** 12th\
-**Weight** 2 lbs.
+::: statblock
+Suitable For: PCs of 1st-3rd level
+Aura: strong divination
+Slot: none
+CL: 12th
+Weight: 2 lbs.
+:::
 
 Brass inlay and Taldan military symbols adorn fine wooden stock of this
 [masterwork](ref/rule/masterwork-weapons) [darkwood](ref/eq-material/darkwood)

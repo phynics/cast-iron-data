@@ -20,8 +20,13 @@ aura = "strong conjuration [evil]"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration \[evil\]; **CL** 15th\
-**Slot** none; **Price** 20,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong conjuration \[evil\]
+CL: 15th
+Slot: none
+Price: 20,000 gp
+Weight: 3 lbs.
+:::
 
 ### Description
 
@@ -36,5 +41,7 @@ wielding weapons or performing any other feat a human hand can perform.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[limited wish](ref/spell/limited-wish), [regenerate](ref/spell/regenerate); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [limited wish](ref/spell/limited-wish), [regenerate](ref/spell/regenerate)
+Cost: 10,000 gp
+:::

@@ -16,7 +16,9 @@ category = "Pharmaceuticals"
 price = "2,250 gp"
 +++
 
-**Price** 2,250 gp
+::: statblock
+Price: 2,250 gp
+:::
 
 ### Construction
 

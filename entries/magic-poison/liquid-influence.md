@@ -18,8 +18,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot**; **Price** 900 gp; **Weight** —
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot:
+Price: 900 gp
+Weight: —
+:::
 
 This heady liquid brewed from the toxin [indigo dreams](ref/eq-poison/indigo-dreams) imparts a
 compulsion to its victim, decided when the poison is first created.
