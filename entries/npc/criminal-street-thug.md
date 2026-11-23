@@ -15,43 +15,54 @@ kind = "creature"
 cr = "1"
 +++
 
-**Challenge rating:** 1
-
-**XP** 400\
 Human [fighter](ref/class/fighter) 1/[rogue](ref/class/rogue) 1\
-NE Medium humanoid\
-**Init** +2; **Senses** Perception +5
+NE Medium humanoid
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +2
+Senses: Perception +5
+:::
 
 ### Defense
 
-**AC** 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)\
-**hp** 16 (2 HD; 1d10+1d8+6)\
-**Fort** +3, **Ref** +4, **Will** +0
+::: statblock
+AC: 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)
+hp: 16 (2 HD; 1d10+1d8+6)
+Fort: +3
+Ref: +4
+Will: +0
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** quarterstaff +4 (1d6+3) or quarterstaff +2/+2 (1d6+3/1d6+1) or dagger +4 (1d4+3/19-20) or
-sap +4 (1d6+3 nonlethal)\
-**Ranged** dagger +3 (1d4+3/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +1d6
+::: statblock
+Speed: 30 ft.
+Melee: quarterstaff +4 (1d6+3) or quarterstaff +2/+2 (1d6+3/1d6+1) or dagger +4 (1d4+3/19-20) or sap +4 (1d6+3 nonlethal)
+Ranged: dagger +3 (1d4+3/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +1d6
+:::
 
 ### Statistics
 
-**Str** 16, **Dex** 15, **Con** 13, **Int** 8, **Wis** 10, **Cha** 12\
-**Base Atk** +1; **CMB** +4; **CMD** 16\
-**Feats** [Skill Focus](ref/feat/skill-focus) (Intimidate), [Toughness](ref/feat/toughness),
-[Two-Weapon Fighting](ref/feat/two-weapon-fighting)\
-**Skills** Climb +8, Intimidate +9, Knowledge (local) +4, Perception +5 (+6 to find traps), Stealth
-+7\
-**Languages** Common\
-**SQ** [trapfinding](ref/ability/trapfinding) +1\
-**Gear** masterwork [studded leather](ref/eq-armor/studded-leather), [daggers](ref/eq-weapon/dagger)
-(2), [quarterstaff](ref/eq-weapon/quarterstaff), [sap](ref/eq-weapon/sap),
-[manacles](ref/eq-misc/manacles-common) (2)\
-**Boon** A street thug could attempt to kidnap or threaten a particular NPC, deliver a message, or
-create a disturbance with a street brawl whose distraction causes a -2 penalty on opposed Perception
-checks for 1 minute.
+::: statblock
+Str: 16
+Dex: 15
+Con: 13
+Int: 8
+Wis: 10
+Cha: 12
+Base Atk: +1
+CMB: +4
+CMD: 16
+Feats: [Skill Focus](ref/feat/skill-focus) (Intimidate), [Toughness](ref/feat/toughness), [Two-Weapon Fighting](ref/feat/two-weapon-fighting)
+Skills: Climb +8, Intimidate +9, Knowledge (local) +4, Perception +5 (+6 to find traps), Stealth +7
+Languages: Common
+SQ: [trapfinding](ref/ability/trapfinding) +1
+Gear: masterwork [studded leather](ref/eq-armor/studded-leather), [daggers](ref/eq-weapon/dagger) (2), [quarterstaff](ref/eq-weapon/quarterstaff), [sap](ref/eq-weapon/sap), [manacles](ref/eq-misc/manacles-common) (2)
+Boon: A street thug could attempt to kidnap or threaten a particular NPC, deliver a message, or create a disturbance with a street brawl whose distraction causes a -2 penalty on opposed Perception checks for 1 minute.
+:::
 
 ### Description
 

@@ -15,23 +15,32 @@ kind = "creature"
 cr = "7"
 +++
 
-**Challenge rating:** 7
-
-**XP** 3,200\
 Half-elf [expert](ref/npcclass/expert) 9\
-N Medium humanoid (elf, human)\
-**Init** -1; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +12
+N Medium humanoid (elf, human)
+
+::: statblock
+Challenge rating: 7
+XP: 3,200
+Init: -1
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +12
+:::
 
 ### Defense
 
-**AC** 9, touch 9, flat-footed 9 (-1 Dex)\
-**hp** 40 (9d8)\
-**Fort** +3, **Ref** +2, **Will** +9; +2 vs. enchantments
+::: statblock
+AC: 9, touch 9, flat-footed 9 (-1 Dex)
+hp: 40 (9d8)
+Fort: +3
+Ref: +2
+Will: +9; +2 vs. enchantments
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk rapier +6/+1 (1d6-1/18-20)
+::: statblock
+Speed: 30 ft.
+Melee: mwk rapier +6/+1 (1d6-1/18-20)
+:::
 
 ### Tactics
 
@@ -40,22 +49,23 @@ opponents that it is in their best interest to stop fighting and let her escape.
 
 ### Statistics
 
-**Str** 9, **Dex** 8, **Con** 10, **Int** 12, **Wis** 12, **Cha** 16\
-**Base Atk** +6; **CMB** +5; **CMD** 14\
-**Feats** [Alertness](ref/feat/alertness), [Iron Will](ref/feat/iron-will),
-[Martial Weapon Proficiency](ref/feat/martial-weapon-proficiency) (rapier),
-[Persuasive](ref/feat/persuasive), [Skill Focus](ref/feat/skill-focus) (Bluff, Diplomacy)\
-**Skills** Bluff +21, Diplomacy +23, Intimidate +20, Knowledge (history) +8, Knowledge (local,
-nobility) +9, Linguistics +6, Perception +12, Profession (barrister) +13, Sense Motive +15,
-Spellcraft +8\
-**Languages** Celestial, Common, Draconic, Dwarven, Elven, Gnome, Halfling, Infernal\
-**SQ** elf blood\
-**Combat Gear** potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of
-[heroism](ref/spell/heroism); **Other Gear** masterwork [rapier](ref/eq-weapon/rapier),
-[circlet of persuasion](ref/magic-wondrous/circlet-of-persuasion),
-[elixir of truth](ref/magic-wondrous/elixir-of-truth), [antitoxin](ref/eq-misc/antitoxin),
-[courtier's outfit](ref/eq-misc/courtiers-outfit), [light horses](ref/eq-misc/horse-light) (2),
-[carriage](ref/eq-misc/carriage), 1,100 gp
+::: statblock
+Str: 9
+Dex: 8
+Con: 10
+Int: 12
+Wis: 12
+Cha: 16
+Base Atk: +6
+CMB: +5
+CMD: 14
+Feats: [Alertness](ref/feat/alertness), [Iron Will](ref/feat/iron-will), [Martial Weapon Proficiency](ref/feat/martial-weapon-proficiency) (rapier), [Persuasive](ref/feat/persuasive), [Skill Focus](ref/feat/skill-focus) (Bluff, Diplomacy)
+Skills: Bluff +21, Diplomacy +23, Intimidate +20, Knowledge (history) +8, Knowledge (local, nobility) +9, Linguistics +6, Perception +12, Profession (barrister) +13, Sense Motive +15, Spellcraft +8
+Languages: Celestial, Common, Draconic, Dwarven, Elven, Gnome, Halfling, Infernal
+SQ: elf blood
+Combat Gear: potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [heroism](ref/spell/heroism)
+Other Gear: masterwork [rapier](ref/eq-weapon/rapier), [circlet of persuasion](ref/magic-wondrous/circlet-of-persuasion), [elixir of truth](ref/magic-wondrous/elixir-of-truth), [antitoxin](ref/eq-misc/antitoxin), [courtier's outfit](ref/eq-misc/courtiers-outfit), [light horses](ref/eq-misc/horse-light) (2), [carriage](ref/eq-misc/carriage), 1,100 gp
+:::
 
 ### Description
 

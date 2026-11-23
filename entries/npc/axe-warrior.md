@@ -15,27 +15,35 @@ kind = "creature"
 cr = "2"
 +++
 
-**Challenge rating:** 2
-
-**XP** 600\
 Half-orc [barbarian](ref/class/barbarian) 3\
-CE Medium humanoid (human, orc)\
-**Init** +1; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +6
+CE Medium humanoid (human, orc)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +1
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +6
+:::
 
 ### Defense
 
-**AC** 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, -2 rage)\
-**hp** 40 (3d12+15)\
-**Fort** +7, **Ref** +2, **Will** +3\
-**Defensive Abilities** orc ferocity, [trap sense](ref/ability/trap-sense) +1,
-[uncanny dodge](ref/ability/uncanny-dodge)
+::: statblock
+AC: 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, -2 rage)
+hp: 40 (3d12+15)
+Fort: +7
+Ref: +2
+Will: +3
+Defensive Abilities: orc ferocity, [trap sense](ref/ability/trap-sense) +1, [uncanny dodge](ref/ability/uncanny-dodge)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk greataxe +9 (1d12+7/×3)\
-**Ranged** mwk sling +5 (1d4+5)\
-**Special Attacks** rage (10 rounds/day), rage powers (intimidating glare)
+::: statblock
+Speed: 30 ft.
+Melee: mwk greataxe +9 (1d12+7/×3)
+Ranged: mwk sling +5 (1d4+5)
+Special Attacks: rage (10 rounds/day), rage powers (intimidating glare)
+:::
 
 ### Tactics
 
@@ -47,18 +55,23 @@ her glare upon the uninjured.\
 
 ### Statistics
 
-**Str** 21, **Dex** 13, **Con** 18, **Int** 8, **Wis** 10, **Cha** 12\
-**Base Atk** +3; **CMB** +8; **CMD** 17\
-**Feats** [Intimidating Prowess](ref/feat/intimidating-prowess),
-[Power Attack](ref/feat/power-attack)\
-**Skills** Climb +7, Intimidate +14, Perception +6, Survival +4, Swim +5\
-**Languages** Common, Orc\
-**SQ** fast movement, orc blood, weapon familiarity\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds), potion of
-[lesser restoration](ref/spell/restoration-lesser), potion of
-[protection from good](ref/spell/protection-from-good); **Other Gear** mwk
-[chainmail](ref/eq-armor/chainmail), mwk [greataxe](ref/eq-weapon/greataxe), mwk
-[sling](ref/eq-weapon/sling) with 10 bullets, [climber's kit](ref/eq-misc/climbers-kit), 250 gp
+::: statblock
+Str: 21
+Dex: 13
+Con: 18
+Int: 8
+Wis: 10
+Cha: 12
+Base Atk: +3
+CMB: +8
+CMD: 17
+Feats: [Intimidating Prowess](ref/feat/intimidating-prowess), [Power Attack](ref/feat/power-attack)
+Skills: Climb +7, Intimidate +14, Perception +6, Survival +4, Swim +5
+Languages: Common, Orc
+SQ: fast movement, orc blood, weapon familiarity
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds), potion of [lesser restoration](ref/spell/restoration-lesser), potion of [protection from good](ref/spell/protection-from-good)
+Other Gear: mwk [chainmail](ref/eq-armor/chainmail), mwk [greataxe](ref/eq-weapon/greataxe), mwk [sling](ref/eq-weapon/sling) with 10 bullets, [climber's kit](ref/eq-misc/climbers-kit), 250 gp
+:::
 
 ### Description
 

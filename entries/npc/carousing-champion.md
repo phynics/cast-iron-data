@@ -15,42 +15,52 @@ kind = "creature"
 cr = "5"
 +++
 
-**Challenge rating:** 5
-
-**XP** 1,600\
 Halfling [cleric](ref/class/cleric) of [Cayden Cailean](ref/faith/cayden-cailean) 6\
-CN Small humanoid (halfling)\
-**Init** +1; **Senses** Perception +5
+CN Small humanoid (halfling)
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +1
+Senses: Perception +5
+:::
 
 ### Defense
 
-**AC** 19, touch 12, flat-footed 18 (+7 armor, +1 Dex, +1 size)\
-**hp** 54 (6d8+24)\
-**Fort** +8, **Ref** +4, **Will** +9; +2 vs. fear
+::: statblock
+AC: 19, touch 12, flat-footed 18 (+7 armor, +1 Dex, +1 size)
+hp: 54 (6d8+24)
+Fort: +8
+Ref: +4
+Will: +9; +2 vs. fear
+:::
 
 ### Offense
 
-**Speed** 15 ft.\
-**Melee** +1 heavy mace +6 (1d6+1)\
-**Ranged** light crossbow +7 (1d6/19-20)\
-**Special Attacks** channel positive energy 7/day (DC 15, 3d6)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 6th; concentration +9)\
-_6/day_-dazing touch, touch of chaos\
-**Cleric Spells Prepared** (CL 6th; concentration +9)\
-_3rd_-[locate object](ref/spell/locate-object), [searing light](ref/spell/searing-light),
-[suggestion](ref/spell/suggestion)^[1](ref/npc/carousing-champion#footnote-d)^,
-[summon monster III](ref/spell/summon-monster-3)\
-_2nd_-[aid](ref/spell/aid),
-[calm emotions](ref/spell/calm-emotions)^[1](ref/npc/carousing-champion#footnote-d)^ (DC 15),
-[eagle's splendor](ref/spell/eagles-splendor), [sound burst](ref/spell/sound-burst) (DC 15),
-[zone of truth](ref/spell/zone-of-truth) (DC 15)\
-_1st_-[bless water](ref/spell/bless-water),
-[charm person](ref/spell/charm-person)^[1](ref/npc/carousing-champion#footnote-d)^ (DC 14),
-[comprehend languages](ref/spell/comprehend-languages), [detect undead](ref/spell/detect-undead),
-[hide from undead](ref/spell/hide-from-undead)\
-_0 (at will)_-[detect magic](ref/spell/detect-magic), [detect poison](ref/spell/detect-poison),
-[guidance](ref/spell/guidance), [virtue](ref/spell/virtue)\
-**Domains** Chaos, [Charm](ref/domain/charm)
+::: statblock
+Speed: 15 ft.
+Melee: +1 heavy mace +6 (1d6+1)
+Ranged: light crossbow +7 (1d6/19-20)
+Special Attacks: channel positive energy 7/day (DC 15, 3d6)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+CL: 6th
+concentration: +9
+6/day: dazing touch, touch of chaos
+:::
+
+::: statblock
+title = "Cleric Spells Prepared"
+CL: 6th
+concentration: +9
+3rd: [locate object](ref/spell/locate-object), [searing light](ref/spell/searing-light), [suggestion](ref/spell/suggestion)^[1](ref/npc/carousing-champion#footnote-d)^, [summon monster III](ref/spell/summon-monster-3)
+2nd: [aid](ref/spell/aid), [calm emotions](ref/spell/calm-emotions)^[1](ref/npc/carousing-champion#footnote-d)^ (DC 15), [eagle's splendor](ref/spell/eagles-splendor), [sound burst](ref/spell/sound-burst) (DC 15), [zone of truth](ref/spell/zone-of-truth) (DC 15)
+1st: [bless water](ref/spell/bless-water), [charm person](ref/spell/charm-person)^[1](ref/npc/carousing-champion#footnote-d)^ (DC 14), [comprehend languages](ref/spell/comprehend-languages), [detect undead](ref/spell/detect-undead), [hide from undead](ref/spell/hide-from-undead)
+0 (at will): [detect magic](ref/spell/detect-magic), [detect poison](ref/spell/detect-poison), [guidance](ref/spell/guidance), [virtue](ref/spell/virtue)
+Domains: Chaos, [Charm](ref/domain/charm)
+:::
 
 ### Tactics
 
@@ -61,18 +71,23 @@ and uses his potion and scroll if the battle goes poorly.
 
 ### Statistics
 
-**Str** 11, **Dex** 12, **Con** 14, **Int** 8, **Wis** 16, **Cha** 14\
-**Base Atk** +4; **CMB** +3; **CMD** 14\
-**Feats** [Extra Channel](ref/feat/extra-channel), [Toughness](ref/feat/toughness),
-[Turn Undead](ref/feat/turn-undead)\
-**Skills** Acrobatics +0, Climb -1, Diplomacy +8, Heal +9, Perception +5\
-**Languages** Common, Halfling\
-**SQ** aura\
-**Combat Gear** potion of [haste](ref/spell/haste), scroll of
-[bull's strength](ref/spell/bulls-strength); **Other Gear** +1
-[breastplate](ref/eq-armor/breastplate), +1 [heavy mace](ref/eq-weapon/heavy-mace),
-[light crossbow](ref/eq-weapon/light-crossbow) with masterwork bolts (20),
-[silver holy symbol](ref/eq-misc/holy-symbol-silver), 393 gp
+::: statblock
+Str: 11
+Dex: 12
+Con: 14
+Int: 8
+Wis: 16
+Cha: 14
+Base Atk: +4
+CMB: +3
+CMD: 14
+Feats: [Extra Channel](ref/feat/extra-channel), [Toughness](ref/feat/toughness), [Turn Undead](ref/feat/turn-undead)
+Skills: Acrobatics +0, Climb -1, Diplomacy +8, Heal +9, Perception +5
+Languages: Common, Halfling
+SQ: aura
+Combat Gear: potion of [haste](ref/spell/haste), scroll of [bull's strength](ref/spell/bulls-strength)
+Other Gear: +1 [breastplate](ref/eq-armor/breastplate), +1 [heavy mace](ref/eq-weapon/heavy-mace), [light crossbow](ref/eq-weapon/light-crossbow) with masterwork bolts (20), [silver holy symbol](ref/eq-misc/holy-symbol-silver), 393 gp
+:::
 
 ### Description
 

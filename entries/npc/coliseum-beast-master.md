@@ -15,49 +15,61 @@ kind = "creature"
 cr = "6"
 +++
 
-**Challenge rating:** 6
-
-**XP** 2,400\
 Human [ranger](ref/class/ranger) 7\
-N Medium humanoid\
-**Init** +1; **Senses** Perception +11
+N Medium humanoid
+
+::: statblock
+Challenge rating: 6
+XP: 2,400
+Init: +1
+Senses: Perception +11
+:::
 
 ### Defense
 
-**AC** 17, touch 11, flat-footed 16 (+5 armor, +1 Dex, +1 shield)\
-**hp** 59 (7d10+21)\
-**Fort** +7, **Ref** +6, **Will** +3
+::: statblock
+AC: 17, touch 11, flat-footed 16 (+5 armor, +1 Dex, +1 shield)
+hp: 59 (7d10+21)
+Fort: +7
+Ref: +6
+Will: +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 warhammer +12/+7 (1d8+5/×3) or +1 warhammer +10/+5 (1d8+5/×3) and +1 handaxe +10/+5
-(1d6+5/×3)\
-**Ranged** composite longbow +8/+3 (1d8/×3)\
-**Special Attacks** favored enemy (humanoid \[human\] +4, animal +2)\
-**Ranger Spells Prepared** (CL 4th; concentration +5)\
-_1st_-[longstrider](ref/spell/longstrider), [speak with animals](ref/spell/speak-with-animals)
+::: statblock
+Speed: 30 ft.
+Melee: +1 warhammer +12/+7 (1d8+5/×3) or +1 warhammer +10/+5 (1d8+5/×3) and +1 handaxe +10/+5 (1d6+5/×3)
+Ranged: composite longbow +8/+3 (1d8/×3)
+Special Attacks: favored enemy (humanoid \[human\] +4, animal +2)
+:::
+
+::: statblock
+title = "Ranger Spells Prepared"
+CL: 4th
+concentration: +5
+1st: [longstrider](ref/spell/longstrider), [speak with animals](ref/spell/speak-with-animals)
+:::
 
 ### Statistics
 
-**Str** 18, **Dex** 13, **Con** 14, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +7; **CMB** +11; **CMD** 22\
-**Feats** [Diehard](ref/feat/diehard), [Double Slice](ref/feat/double-slice),
-[Endurance](ref/feat/endurance),
-[Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting), [Lunge](ref/feat/lunge),
-[Step Up](ref/feat/step-up), [Two-Weapon Defense](ref/feat/two-weapon-defense),
-[Two-Weapon Fighting](ref/feat/two-weapon-fighting)\
-**Skills** Climb +11, Handle Animal +9, Heal +5, Knowledge (dungeoneering) +5, Knowledge (nature)
-+5, Perception +11, Ride +10, Stealth +10, Survival +11 (+14 to follow tracks), Swim +10\
-**Languages** Common\
-**SQ** [favored terrain](ref/ability/favored-terrain) (urban +2), hunter's bond (animal companion),
-track +3, [wild empathy](ref/ability/wild-empathy) +6,
-[woodland stride](ref/ability/woodland-stride)\
-**Gear** +1 [chain shirt](ref/eq-armor/chain-shirt), +1 [handaxe](ref/eq-weapon/handaxe), +1
-[warhammer](ref/eq-weapon/warhammer), [composite longbow](ref/eq-weapon/composite-longbow) with 20
-arrows, 26 gp\
-**Boon** Beast masters can assist the PCs for the duration of a single hunt of a humanoid or animal
-target.
+::: statblock
+Str: 18
+Dex: 13
+Con: 14
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +7
+CMB: +11
+CMD: 22
+Feats: [Diehard](ref/feat/diehard), [Double Slice](ref/feat/double-slice), [Endurance](ref/feat/endurance), [Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting), [Lunge](ref/feat/lunge), [Step Up](ref/feat/step-up), [Two-Weapon Defense](ref/feat/two-weapon-defense), [Two-Weapon Fighting](ref/feat/two-weapon-fighting)
+Skills: Climb +11, Handle Animal +9, Heal +5, Knowledge (dungeoneering) +5, Knowledge (nature) +5, Perception +11, Ride +10, Stealth +10, Survival +11 (+14 to follow tracks), Swim +10
+Languages: Common
+SQ: [favored terrain](ref/ability/favored-terrain) (urban +2), hunter's bond (animal companion), track +3, [wild empathy](ref/ability/wild-empathy) +6, [woodland stride](ref/ability/woodland-stride)
+Gear: +1 [chain shirt](ref/eq-armor/chain-shirt), +1 [handaxe](ref/eq-weapon/handaxe), +1 [warhammer](ref/eq-weapon/warhammer), [composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows, 26 gp
+Boon: Beast masters can assist the PCs for the duration of a single hunt of a humanoid or animal target.
+:::
 
 ### Description
 

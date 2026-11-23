@@ -15,25 +15,35 @@ kind = "creature"
 cr = "13"
 +++
 
-**Challenge rating:** 13
-
-**XP** 25,600\
 Halfling [fighter](ref/class/fighter) 14\
-CN Small humanoid (halfling)\
-**Init** +6; **Senses** Perception +3
+CN Small humanoid (halfling)
+
+::: statblock
+Challenge rating: 13
+XP: 25,600
+Init: +6
+Senses: Perception +3
+:::
 
 ### Defense
 
-**AC** 22, touch 14, flat-footed 19 (+7 armor, +2 Dex, +1 dodge, +1 natural, +1 size)\
-**hp** 123 (14d10+42)\
-**Fort** +16, **Ref** +13, **Will** +10; +6 vs. fear\
-**Defensive Abilities** bravery +4; **DR** 2/-
+::: statblock
+AC: 22, touch 14, flat-footed 19 (+7 armor, +2 Dex, +1 dodge, +1 natural, +1 size)
+hp: 123 (14d10+42)
+Fort: +16
+Ref: +13
+Will: +10; +6 vs. fear
+Defensive Abilities: bravery +4
+DR: 2/-
+:::
 
 ### Offense
 
-**Speed** 20 ft., fly 60 ft. (good)\
-**Melee** +1 bastard sword +26/+21/+16 (1d8+10/19-20)\
-**Special Attacks** weapon training (heavy blades +3, light blades +2, thrown +1)
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Melee: +1 bastard sword +26/+21/+16 (1d8+10/19-20)
+Special Attacks: weapon training (heavy blades +3, light blades +2, thrown +1)
+:::
 
 ### Tactics
 
@@ -51,35 +61,23 @@ disarm); **CMD** 28 (+30 vs. disarm); **Skills** Acrobatics +18 (+14 when jumpin
 
 ### Statistics
 
-**Str** 19, **Dex** 14, **Con** 14, **Int** 14, **Wis** 8, **Cha** 16\
-**Base Atk** +14; **CMB** +19 (+23 disarm); **CMD** 32 (+34 vs. disarm)\
-**Feats** [Combat Expertise](ref/feat/combat-expertise), [Dodge](ref/feat/dodge),
-[Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (bastard sword),
-[Greater Disarm](ref/feat/greater-disarm), [Improved Disarm](ref/feat/improved-disarm),
-[Improved Initiative](ref/feat/improved-initiative), [Iron Will](ref/feat/iron-will),
-[Lightning Reflexes](ref/feat/lightning-reflexes), [Mobility](ref/feat/mobility),
-[Penetrating Strike](ref/feat/penetrating-strike), [Skill Focus](ref/feat/skill-focus) (Use Magic
-Device), [Strike Back](ref/feat/strike-back), [Toughness](ref/feat/toughness),
-[Weapon Focus](ref/feat/weapon-focus) (bastard sword),
-[Weapon Specialization](ref/feat/weapon-specialization) (bastard sword)\
-**Skills** Acrobatics +20 (+16 when jumping), Bluff +19, Climb +8, Fly +12, Knowledge (arcana) +16,
-Perception +3, Spellcraft +18, Use Magic Device +25\
-**Languages** Common, Elven, Goblin, Halfling\
-**SQ** armor training 3\
-**Combat Gear** potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), scrolls of
-[bear's endurance](ref/spell/bears-endurance) (2), scrolls of
-[bull's strength](ref/spell/bulls-strength) (2), scroll of
-[cure serious wounds](ref/spell/cure-serious-wounds) (arcane, CL 7th), scroll of
-[dimension door](ref/spell/dimension-door), scroll of [fly](ref/spell/fly) (CL 8th), scroll of
-[heroism](ref/spell/heroism), scroll of [silence](ref/spell/silence) (CL 6th), wand of
-[lightning bolt](ref/spell/lightning-bolt) (CL 10th, 5 charges), wand of
-[scorching ray](ref/spell/scorching-ray) (CL 11th, 18 charges), wand of [shield](ref/spell/shield)
-(CL 3rd, 12 charges), wand of [shield of faith](ref/spell/shield-of-faith) (CL 6th, 11 charges);
-**Other Gear** +1 [adamantine](ref/eq-material/adamantine) [breastplate](ref/eq-armor/breastplate),
-+1 [bastard sword](ref/eq-weapon/bastard-sword),
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2),
-[handy haversack](ref/magic-wondrous/handy-haversack), 370 gp
+::: statblock
+Str: 19
+Dex: 14
+Con: 14
+Int: 14
+Wis: 8
+Cha: 16
+Base Atk: +14
+CMB: +19 (+23 disarm)
+CMD: 32 (+34 vs. disarm)
+Feats: [Combat Expertise](ref/feat/combat-expertise), [Dodge](ref/feat/dodge), [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (bastard sword), [Greater Disarm](ref/feat/greater-disarm), [Improved Disarm](ref/feat/improved-disarm), [Improved Initiative](ref/feat/improved-initiative), [Iron Will](ref/feat/iron-will), [Lightning Reflexes](ref/feat/lightning-reflexes), [Mobility](ref/feat/mobility), [Penetrating Strike](ref/feat/penetrating-strike), [Skill Focus](ref/feat/skill-focus) (Use Magic Device), [Strike Back](ref/feat/strike-back), [Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (bastard sword), [Weapon Specialization](ref/feat/weapon-specialization) (bastard sword)
+Skills: Acrobatics +20 (+16 when jumping), Bluff +19, Climb +8, Fly +12, Knowledge (arcana) +16, Perception +3, Spellcraft +18, Use Magic Device +25
+Languages: Common, Elven, Goblin, Halfling
+SQ: armor training 3
+Combat Gear: potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), scrolls of [bear's endurance](ref/spell/bears-endurance) (2), scrolls of [bull's strength](ref/spell/bulls-strength) (2), scroll of [cure serious wounds](ref/spell/cure-serious-wounds) (arcane, CL 7th), scroll of [dimension door](ref/spell/dimension-door), scroll of [fly](ref/spell/fly) (CL 8th), scroll of [heroism](ref/spell/heroism), scroll of [silence](ref/spell/silence) (CL 6th), wand of [lightning bolt](ref/spell/lightning-bolt) (CL 10th, 5 charges), wand of [scorching ray](ref/spell/scorching-ray) (CL 11th, 18 charges), wand of [shield](ref/spell/shield) (CL 3rd, 12 charges), wand of [shield of faith](ref/spell/shield-of-faith) (CL 6th, 11 charges)
+Other Gear: +1 [adamantine](ref/eq-material/adamantine) [breastplate](ref/eq-armor/breastplate), +1 [bastard sword](ref/eq-weapon/bastard-sword), [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2), [handy haversack](ref/magic-wondrous/handy-haversack), 370 gp
+:::
 
 ### Description
 

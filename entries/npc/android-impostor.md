@@ -17,55 +17,62 @@ cr = "5"
 
 _Intricate tribal tattoos cover the skin of this greataxe-wielding Kellid warrior._
 
-**Challenge rating:** 5
-
-**XP** 1,600\
 Android [fighter](ref/class/fighter) 6\
-N Medium humanoid (android)\
-**Init** +4; **Senses** [darkvision](ref/rule/darkvision) 60 ft.,
-[low-light vision](ref/rule/low-light-vision); Perception +6
+N Medium humanoid (android)
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +4
+Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision); Perception +6
+:::
 
 ### Defense
 
-**AC** 16, touch 10, flat-footed 16 (+6 armor)\
-**hp** 55 (6d10+18)\
-**Fort** +8, **Ref** +3, **Will** +4 (+2 vs. fear)\
-**Defensive Abilities** bravery +2, constructed; **Immune** disease, emotion-based effects,
-exhaustion, fatigue, fear, sleep
+::: statblock
+AC: 16, touch 10, flat-footed 16 (+6 armor)
+hp: 55 (6d10+18)
+Fort: +8
+Ref: +3
+Will: +4 (+2 vs. fear)
+Defensive Abilities: bravery +2, constructed
+Immune: disease, emotion-based effects, exhaustion, fatigue, fear, sleep
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 greataxe +12/+7 (1d12+8/×3)\
-**Ranged** mwk composite longbow +7/+2 (1d8+3/×3) or throwing axe +7 (1d6+4)\
-**Special Attacks** nanite surge, weapon training (axe +1)
+::: statblock
+Speed: 30 ft.
+Melee: +1 greataxe +12/+7 (1d12+8/×3)
+Ranged: mwk composite longbow +7/+2 (1d8+3/×3) or throwing axe +7 (1d6+4)
+Special Attacks: nanite surge, weapon training (axe +1)
+:::
 
 ### Statistics
 
-**Str** 16, **Dex** 10, **Con** 14, **Int** 12, **Wis** 13, **Cha** 10\
-**Base Atk** +6; **CMB** +9; **CMD** 19\
-**Feats** [Deceitful](ref/feat/deceitful), [Improved Initiative](ref/feat/improved-initiative),
-[Lunge](ref/feat/lunge), [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness),
-[Weapon Focus](ref/feat/weapon-focus) (greataxe),
-[Weapon Specialization](ref/feat/weapon-specialization) (greataxe)\
-**Skills** Bluff +8, Climb +4, Disguise +8, Intimidate +9, Perception +6, Sense Motive -3, Survival
-+5, Swim +4; Racial Modifiers +2 Perception, -4 Sense Motive\
-**Languages** Common, Hallit\
-**SQ** armor training 1, emotionless
+::: statblock
+Str: 16
+Dex: 10
+Con: 14
+Int: 12
+Wis: 13
+Cha: 10
+Base Atk: +6
+CMB: +9
+CMD: 19
+Feats: [Deceitful](ref/feat/deceitful), [Improved Initiative](ref/feat/improved-initiative), [Lunge](ref/feat/lunge), [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (greataxe), [Weapon Specialization](ref/feat/weapon-specialization) (greataxe)
+Skills: Bluff +8, Climb +4, Disguise +8, Intimidate +9, Perception +6, Sense Motive -3, Survival +5, Swim +4; Racial Modifiers +2 Perception, -4 Sense Motive
+Languages: Common, Hallit
+SQ: armor training 1, emotionless
+:::
 
 ### Ecology
 
-**Environment** cold plains (Numeria)\
-**Organization** solitary\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (potion of
-[bull's strength](ref/spell/bulls-strength), potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2),
-[alchemist's fire](ref/eq-weapon/alchemists-fire) (2), mwk [chainmail](ref/eq-armor/chainmail), +1
-[greataxe](ref/eq-weapon/greataxe), mwk [composite longbow](ref/eq-weapon/composite-longbow) with 20
-arrows, [throwing axe](ref/eq-weapon/throwing-axe),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[disguise kit](ref/eq-misc/disguise-kit), [wooden holy symbol](ref/eq-misc/wooden-holy-symbol) of
-Gorum, 130 gp)
+::: statblock
+Environment: cold plains (Numeria)
+Organization: solitary
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (potion of [bull's strength](ref/spell/bulls-strength), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), [alchemist's fire](ref/eq-weapon/alchemists-fire) (2), mwk [chainmail](ref/eq-armor/chainmail), +1 [greataxe](ref/eq-weapon/greataxe), mwk [composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows, [throwing axe](ref/eq-weapon/throwing-axe), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [disguise kit](ref/eq-misc/disguise-kit), [wooden holy symbol](ref/eq-misc/wooden-holy-symbol) of Gorum, 130 gp)
+:::
 
 ### Special Abilities
 

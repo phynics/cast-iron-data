@@ -15,28 +15,35 @@ kind = "creature"
 cr = "12"
 +++
 
-**Challenge rating:** 12
-
-**XP** 19,200\
 Half-orc [fighter](ref/class/fighter) 13\
-LE Medium humanoid (human, orc)\
-**Init** +2; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +1
+LE Medium humanoid (human, orc)
+
+::: statblock
+Challenge rating: 12
+XP: 19,200
+Init: +2
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +1
+:::
 
 ### Defense
 
-**AC** 27, touch 12, flat-footed 25 (+10 armor, +2 Dex, +5 shield)\
-**hp** 141 (13d10+65)\
-**Fort** +15, **Ref** +9, **Will** +8; +3 vs. fear\
-**Defensive Abilities** bravery +3, orc ferocity
+::: statblock
+AC: 27, touch 12, flat-footed 25 (+10 armor, +2 Dex, +5 shield)
+hp: 141 (13d10+65)
+Fort: +15
+Ref: +9
+Will: +8; +3 vs. fear
+Defensive Abilities: bravery +3, orc ferocity
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 vicious flail +20/+15/+10 (1d8+10/19-20 plus 2d6), lion's shield +23 (1d4+6 plus bull
-rush attempt) or +1 vicious flail +24/+19/+14 (1d8+10/19-20 plus 2d6)\
-**Ranged** mwk throwing axe +19 (1d6+5)\
-**Special Attacks** lion's shield bite (free action, 3/day, +13/+8/+3, 2d6 damage), weapon training
-(heavy flails +3, close +2, thrown +1)
+::: statblock
+Speed: 30 ft.
+Melee: +1 vicious flail +20/+15/+10 (1d8+10/19-20 plus 2d6), lion's shield +23 (1d4+6 plus bull rush attempt) or +1 vicious flail +24/+19/+14 (1d8+10/19-20 plus 2d6)
+Ranged: mwk throwing axe +19 (1d6+5)
+Special Attacks: lion's shield bite (free action, 3/day, +13/+8/+3, 2d6 damage), weapon training (heavy flails +3, close +2, thrown +1)
+:::
 
 ### Tactics
 
@@ -53,26 +60,23 @@ flail +22/+17/+2 (1d8+10/19-20 plus 2d6); **Ranged** mwk throwing axe +17 (1d6+5
 
 ### Statistics
 
-**Str** 18, **Dex** 15, **Con** 18, **Int** 10, **Wis** 8, **Cha** 12\
-**Base Atk** +13; **CMB** +19; **CMD** 29\
-**Feats** [Critical Focus](ref/feat/critical-focus), [Disruptive](ref/feat/disruptive),
-[Improved Critical](ref/feat/improved-critical) (flail),
-[Improved Shield Bash](ref/feat/improved-shield-bash), [Iron Will](ref/feat/iron-will),
-[Shield Focus](ref/feat/shield-focus), [Shield Master](ref/feat/shield-master),
-[Shield Slam](ref/feat/shield-slam), [Spellbreaker](ref/feat/spellbreaker),
-[Staggering Critical](ref/feat/staggering-critical), [Step Up](ref/feat/step-up),
-[Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Focus](ref/feat/weapon-focus) (flail),
-[Weapon Specialization](ref/feat/weapon-specialization) (flail)\
-**Skills** Intimidate +21, Sense Motive +14\
-**Languages** Common, Orc\
-**SQ** armor training 3, orc blood, weapon familiarity\
-**Combat Gear** potion of [bear's endurance](ref/spell/bears-endurance), potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [heroism](ref/spell/heroism);
-**Other Gear** +1 [full plate](ref/eq-armor/full-plate),
-[lion's shield](ref/magic-armor/lions-shield), +1 [vicious](ref/magic-enh/vicious)
-[flail](ref/eq-weapon/light-flail), masterwork [throwing axe](ref/eq-weapon/throwing-axe), throwing
-axes (2), [belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 198 gp
+::: statblock
+Str: 18
+Dex: 15
+Con: 18
+Int: 10
+Wis: 8
+Cha: 12
+Base Atk: +13
+CMB: +19
+CMD: 29
+Feats: [Critical Focus](ref/feat/critical-focus), [Disruptive](ref/feat/disruptive), [Improved Critical](ref/feat/improved-critical) (flail), [Improved Shield Bash](ref/feat/improved-shield-bash), [Iron Will](ref/feat/iron-will), [Shield Focus](ref/feat/shield-focus), [Shield Master](ref/feat/shield-master), [Shield Slam](ref/feat/shield-slam), [Spellbreaker](ref/feat/spellbreaker), [Staggering Critical](ref/feat/staggering-critical), [Step Up](ref/feat/step-up), [Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Focus](ref/feat/weapon-focus) (flail), [Weapon Specialization](ref/feat/weapon-specialization) (flail)
+Skills: Intimidate +21, Sense Motive +14
+Languages: Common, Orc
+SQ: armor training 3, orc blood, weapon familiarity
+Combat Gear: potion of [bear's endurance](ref/spell/bears-endurance), potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [heroism](ref/spell/heroism)
+Other Gear: +1 [full plate](ref/eq-armor/full-plate), [lion's shield](ref/magic-armor/lions-shield), +1 [vicious](ref/magic-enh/vicious) [flail](ref/eq-weapon/light-flail), masterwork [throwing axe](ref/eq-weapon/throwing-axe), throwing axes (2), [belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 198 gp
+:::
 
 ### Description
 

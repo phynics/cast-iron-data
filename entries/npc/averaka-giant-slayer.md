@@ -15,55 +15,63 @@ kind = "creature"
 cr = "7"
 +++
 
-**Challenge rating:** 7
-
-**XP** 3,200\
 Half-orc [ranger](ref/class/ranger) 8\
-CN Medium humanoid (human, orc)\
-**Init** +2; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +12
+CN Medium humanoid (human, orc)
+
+::: statblock
+Challenge rating: 7
+XP: 3,200
+Init: +2
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +12
+:::
 
 ### Defense
 
-**AC** 20, touch 13, flat-footed 18 (+7 armor, +1 deflection, +2 Dex)\
-**hp** 80 (8d10+32)\
-**Fort** +9, **Ref** +9, **Will** +4\
-**Defensive Abilities** orc ferocity
+::: statblock
+AC: 20, touch 13, flat-footed 18 (+7 armor, +1 deflection, +2 Dex)
+hp: 80 (8d10+32)
+Fort: +9
+Ref: +9
+Will: +4
+Defensive Abilities: orc ferocity
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk falchion +13/+8 (2d4+6/18-20) or longspear +12/+7 (1d8+6/×3)\
-**Ranged** mwk composite longbow +11/+6 (1d8+4/×3)\
-**Special Attacks** favored enemy (giants +4, humans +2)\
-**Ranger Spells Prepared** (CL 5th; concentration +6)\
-_2nd_-[barkskin](ref/spell/barkskin)\
-_1st_-[entangle](ref/spell/entangle) (DC 12), [longstrider](ref/spell/longstrider)
+::: statblock
+Speed: 20 ft.
+Melee: mwk falchion +13/+8 (2d4+6/18-20) or longspear +12/+7 (1d8+6/×3)
+Ranged: mwk composite longbow +11/+6 (1d8+4/×3)
+Special Attacks: favored enemy (giants +4, humans +2)
+:::
+
+::: statblock
+title = "Ranger Spells Prepared"
+CL: 5th
+concentration: +6
+2nd: [barkskin](ref/spell/barkskin)
+1st: [entangle](ref/spell/entangle) (DC 12), [longstrider](ref/spell/longstrider)
+:::
 
 ### Statistics
 
-**Str** 18, **Dex** 14, **Con** 14, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +8; **CMB** +12; **CMD** 25\
-**Feats** [Deadly Aim](ref/feat/deadly-aim), [Endurance](ref/feat/endurance),
-[Improved Precise Shot](ref/feat/improved-precise-shot),
-[Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot),
-[Rapid Shot](ref/feat/rapid-shot), [Toughness](ref/feat/toughness)\
-**Skills** Climb +10, Heal +5, Intimidate +6, Knowledge (geography) +8, Knowledge (nature) +11,
-Perception +12, Ride +3, Stealth +10, Survival +12, Swim +5\
-**Languages** Common, Orc\
-**SQ** [favored terrain](ref/ability/favored-terrain) (cold +4, mountain +2), hunter's bond
-(companions), orc blood, swift tracker, track +4, weapon familiarity,
-[wild empathy](ref/ability/wild-empathy) +7, [woodland stride](ref/ability/woodland-stride)\
-**Combat Gear** +1 [flaming](ref/magic-enh/flaming) [arrows](ref/eq-weapon/arrow) (4), +1
-giant-[bane](ref/magic-enh/bane) arrows (5), scroll of
-[cure moderate wounds](ref/spell/cure-moderate-wounds), scroll of
-[resist energy](ref/spell/resist-energy), [acid](ref/eq-weapon/acid) (2),
-[alchemist's fire](ref/eq-weapon/alchemists-fire) (2); **Other Gear** +1
-[breastplate](ref/eq-armor/breastplate), [longspear](ref/eq-weapon/longspear), mwk
-[composite longbow](ref/eq-weapon/composite-longbow) with 30 arrows, mwk
-[falchion](ref/eq-weapon/falchion),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), [mistletoe](ref/eq-misc/mistletoe),
-[spell component pouch](ref/eq-misc/spell-component-pouch), 58 gp
+::: statblock
+Str: 18
+Dex: 14
+Con: 14
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +8
+CMB: +12
+CMD: 25
+Feats: [Deadly Aim](ref/feat/deadly-aim), [Endurance](ref/feat/endurance), [Improved Precise Shot](ref/feat/improved-precise-shot), [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot), [Toughness](ref/feat/toughness)
+Skills: Climb +10, Heal +5, Intimidate +6, Knowledge (geography) +8, Knowledge (nature) +11, Perception +12, Ride +3, Stealth +10, Survival +12, Swim +5
+Languages: Common, Orc
+SQ: [favored terrain](ref/ability/favored-terrain) (cold +4, mountain +2), hunter's bond (companions), orc blood, swift tracker, track +4, weapon familiarity, [wild empathy](ref/ability/wild-empathy) +7, [woodland stride](ref/ability/woodland-stride)
+Combat Gear: +1 [flaming](ref/magic-enh/flaming) [arrows](ref/eq-weapon/arrow) (4), +1 giant-[bane](ref/magic-enh/bane) arrows (5), scroll of [cure moderate wounds](ref/spell/cure-moderate-wounds), scroll of [resist energy](ref/spell/resist-energy), [acid](ref/eq-weapon/acid) (2), [alchemist's fire](ref/eq-weapon/alchemists-fire) (2)
+Other Gear: +1 [breastplate](ref/eq-armor/breastplate), [longspear](ref/eq-weapon/longspear), mwk [composite longbow](ref/eq-weapon/composite-longbow) with 30 arrows, mwk [falchion](ref/eq-weapon/falchion), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [mistletoe](ref/eq-misc/mistletoe), [spell component pouch](ref/eq-misc/spell-component-pouch), 58 gp
+:::
 
 ### Description
 

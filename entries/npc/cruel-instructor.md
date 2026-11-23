@@ -15,42 +15,44 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Human [bard](ref/class/bard) 9\
-LE Medium humanoid (human)\
-**Init** +1; **Senses** Perception +9
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +1
+Senses: Perception +9
+:::
 
 ### Defense
 
-**AC** 12, touch 12, flat-footed 11 (+1 deflection, +1 Dex)\
-**hp** 44 (9d8)\
-**Fort** +3, **Ref** +7, **Will** +8; +4 vs. bardic performance, language-dependent, and sonic\
-**Defensive Abilities** misdirection
+::: statblock
+AC: 12, touch 12, flat-footed 11 (+1 deflection, +1 Dex)
+hp: 44 (9d8)
+Fort: +3
+Ref: +7
+Will: +8; +4 vs. bardic performance, language-dependent, and sonic
+Defensive Abilities: misdirection
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk club +6/+1 (1d6-1)\
-**Special Attacks** bardic performance 24 rounds/day (move action;
-[countersong](ref/performance/countersong), [dirge of doom](ref/performance/dirge-of-doom),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate),
-[inspire competence](ref/performance/inspire-competence) +3,
-[inspire courage](ref/performance/inspire-courage) +2,
-[inspire greatness](ref/performance/inspire-greatness), [suggestion](ref/performance/suggestion))\
-**Bard Spells Known** (CL 9th; concentration +13)\
-_3rd (4/day)_-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[dispel magic](ref/spell/dispel-magic), [illusory script](ref/spell/illusory-script) (DC 19),
-[secret page](ref/spell/secret-page)\
-_2nd (5/day)_-[eagle's splendor](ref/spell/eagles-splendor), [enthrall](ref/spell/enthrall) (DC 18),
-[misdirection](ref/spell/misdirection), [tongues](ref/spell/tongues)\
-_1st (6/day)_-[cure light wounds](ref/spell/cure-light-wounds) (DC 17),
-[disguise self](ref/spell/disguise-self), [erase](ref/spell/erase), [hypnotism](ref/spell/hypnotism)
-(DC 17), [undetectable alignment](ref/spell/undetectable-alignment)\
-_0 (at will)_-[daze](ref/spell/daze) (DC 16), [detect magic](ref/spell/detect-magic),
-[light](ref/spell/light), [mage hand](ref/spell/mage-hand), [message](ref/spell/message),
-[read magic](ref/spell/read-magic)
+::: statblock
+Speed: 30 ft.
+Melee: mwk club +6/+1 (1d6-1)
+Special Attacks: bardic performance 24 rounds/day (move action; [countersong](ref/performance/countersong), [dirge of doom](ref/performance/dirge-of-doom), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [inspire competence](ref/performance/inspire-competence) +3, [inspire courage](ref/performance/inspire-courage) +2, [inspire greatness](ref/performance/inspire-greatness), [suggestion](ref/performance/suggestion))
+:::
+
+::: statblock
+title = "Bard Spells Known"
+CL: 9th
+concentration: +13
+3rd (4/day): [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [dispel magic](ref/spell/dispel-magic), [illusory script](ref/spell/illusory-script) (DC 19), [secret page](ref/spell/secret-page)
+2nd (5/day): [eagle's splendor](ref/spell/eagles-splendor), [enthrall](ref/spell/enthrall) (DC 18), [misdirection](ref/spell/misdirection), [tongues](ref/spell/tongues)
+1st (6/day): [cure light wounds](ref/spell/cure-light-wounds) (DC 17), [disguise self](ref/spell/disguise-self), [erase](ref/spell/erase), [hypnotism](ref/spell/hypnotism) (DC 17), [undetectable alignment](ref/spell/undetectable-alignment)
+0 (at will): [daze](ref/spell/daze) (DC 16), [detect magic](ref/spell/detect-magic), [light](ref/spell/light), [mage hand](ref/spell/mage-hand), [message](ref/spell/message), [read magic](ref/spell/read-magic)
+:::
 
 ### Tactics
 
@@ -63,24 +65,23 @@ spell DCs by 2; **Cha** 14; **Skills** Bluff +12, Intimidate +8, Perform (keyboa
 
 ### Statistics
 
-**Str** 8, **Dex** 12, **Con** 10, **Int** 14, **Wis** 14, **Cha** 18\
-**Base Atk** +6; **CMB** +5; **CMD** 17\
-**Feats** [Arcane Strike](ref/feat/arcane-strike), [Catch Off-Guard](ref/feat/catch-off-guard),
-[Scribe Scroll](ref/feat/scribe-scroll), [Silent Spell](ref/feat/silent-spell),
-[Skill Focus](ref/feat/skill-focus) (Perform \[oratory\]), [Still Spell](ref/feat/still-spell)\
-**Skills** Appraise +10, Bluff +14, Intimidate +10, Knowledge (arcana) +15, Knowledge
-(dungeoneering, engineering, geography, local, nature, nobility, religion) +10, Knowledge (history)
-+18, Knowledge (planes) +13, Linguistics +8, Perception +9, Perform (keyboard) +14, Perform
-(oratory) +21, Profession (educator) +6, Sense Motive +9, Spellcraft +14, Stealth +13, Use Magic
-Device +18\
-**Languages** Abyssal, Celestial, Common, Elven, Draconic, Dwarven\
-**SQ** bardic knowledge +4, lore master 1/day, versatile performance (keyboard, oratory)\
-**Combat Gear** potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potions of
-[mage armor](ref/spell/mage-armor) (2), scrolls of [bestow curse](ref/spell/bestow-curse) (2),
-scrolls of [command](ref/spell/command) (4), scroll of [fly](ref/spell/fly), scroll of
-[gust of wind](ref/spell/gust-of-wind), scrolls of [lightning bolt](ref/spell/lightning-bolt) (2),
-wand of [scorching ray](ref/spell/scorching-ray) (50 charges); **Other Gear** masterwork
-[club](ref/eq-weapon/club), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 75 gp
+::: statblock
+Str: 8
+Dex: 12
+Con: 10
+Int: 14
+Wis: 14
+Cha: 18
+Base Atk: +6
+CMB: +5
+CMD: 17
+Feats: [Arcane Strike](ref/feat/arcane-strike), [Catch Off-Guard](ref/feat/catch-off-guard), [Scribe Scroll](ref/feat/scribe-scroll), [Silent Spell](ref/feat/silent-spell), [Skill Focus](ref/feat/skill-focus) (Perform \[oratory\]), [Still Spell](ref/feat/still-spell)
+Skills: Appraise +10, Bluff +14, Intimidate +10, Knowledge (arcana) +15, Knowledge (dungeoneering, engineering, geography, local, nature, nobility, religion) +10, Knowledge (history) +18, Knowledge (planes) +13, Linguistics +8, Perception +9, Perform (keyboard) +14, Perform (oratory) +21, Profession (educator) +6, Sense Motive +9, Spellcraft +14, Stealth +13, Use Magic Device +18
+Languages: Abyssal, Celestial, Common, Elven, Draconic, Dwarven
+SQ: bardic knowledge +4, lore master 1/day, versatile performance (keyboard, oratory)
+Combat Gear: potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potions of [mage armor](ref/spell/mage-armor) (2), scrolls of [bestow curse](ref/spell/bestow-curse) (2), scrolls of [command](ref/spell/command) (4), scroll of [fly](ref/spell/fly), scroll of [gust of wind](ref/spell/gust-of-wind), scrolls of [lightning bolt](ref/spell/lightning-bolt) (2), wand of [scorching ray](ref/spell/scorching-ray) (50 charges)
+Other Gear: masterwork [club](ref/eq-weapon/club), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 75 gp
+:::
 
 ### Description
 

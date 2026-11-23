@@ -17,55 +17,68 @@ cr = "4"
 
 _This woman wears colorful clothing of fine cut and cloth, and carries a satchel of documents._
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Human [bard](ref/class/bard) ([court bard](ref/arc-bard/court-bard)) 5\
-N Medium humanoid (human)\
-**Init** +2; **Senses** Perception +8
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +2
+Senses: Perception +8
+:::
 
 ### Defense
 
-**AC** 13, touch 12, flat-footed 11 (+1 armor, +2 Dex)\
-**hp** 36 (5d8+10)\
-**Fort** +2, **Ref** +6, **Will** +4; +4 vs. bardic performance, language-dependent, and sonic
+::: statblock
+AC: 13, touch 12, flat-footed 11 (+1 armor, +2 Dex)
+hp: 36 (5d8+10)
+Fort: +2
+Ref: +6
+Will: +4; +4 vs. bardic performance, language-dependent, and sonic
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk sap +6 (1d6-1 nonlethal)\
-**Special Attacks** bardic performance 16 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) (DC 16), mockery
--2, satire -2)\
-**Bard Spells Known** (CL 5th; concentration +9)\
-_2nd (3/day)_-[enter image](ref/spell/enter-image), [honeyed tongue](ref/spell/honeyed-tongue),
-[suggestion](ref/spell/suggestion) (DC 16)\
-_1st (5/day)_-[charm person](ref/spell/charm-person) (DC 15),
-[disguise self](ref/spell/disguise-self), [memory lapse](ref/spell/memory-lapse) (DC 15),
-[vanish](ref/spell/vanish)\
-_0 (at will)_-[dancing lights](ref/spell/dancing-lights), [daze](ref/spell/daze) (DC 14),
-[ghost sound](ref/spell/ghost-sound) (DC 14), [mage hand](ref/spell/mage-hand),
-[message](ref/spell/message), [prestidigitation](ref/spell/prestidigitation)
+::: statblock
+Speed: 30 ft.
+Melee: mwk sap +6 (1d6-1 nonlethal)
+Special Attacks: bardic performance 16 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) (DC 16), mockery -2, satire -2)
+:::
+
+::: statblock
+title = "Bard Spells Known"
+CL: 5th
+concentration: +9
+2nd (3/day): [enter image](ref/spell/enter-image), [honeyed tongue](ref/spell/honeyed-tongue), [suggestion](ref/spell/suggestion) (DC 16)
+1st (5/day): [charm person](ref/spell/charm-person) (DC 15), [disguise self](ref/spell/disguise-self), [memory lapse](ref/spell/memory-lapse) (DC 15), [vanish](ref/spell/vanish)
+0 (at will): [dancing lights](ref/spell/dancing-lights), [daze](ref/spell/daze) (DC 14), [ghost sound](ref/spell/ghost-sound) (DC 14), [mage hand](ref/spell/mage-hand), [message](ref/spell/message), [prestidigitation](ref/spell/prestidigitation)
+:::
 
 ### Statistics
 
-**Str** 8, **Dex** 14, **Con** 12, **Int** 13, **Wis** 10, **Cha** 18\
-**Base Atk** +3; **CMB** +2; **CMD** 14\
-**Feats** [Enforcer](ref/feat/enforcer), [Lingering Performance](ref/feat/lingering-performance),
-[Skill Focus](ref/feat/skill-focus) (Intimidate), [Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Bluff +14, Diplomacy +16, Disguise +8, Intimidate +15, Knowledge (history) +8, Knowledge
-(local) +8, Knowledge (nobility) +8, Perception +8, Perform (act) +9, Perform (oratory) +12, Sleight
-of Hand +7, Stealth +7, Use Magic Device +11\
-**Languages** Common, Halfling\
-**SQ** heraldic expertise +2, versatile performance (oratory), wide audience
+::: statblock
+Str: 8
+Dex: 14
+Con: 12
+Int: 13
+Wis: 10
+Cha: 18
+Base Atk: +3
+CMB: +2
+CMD: 14
+Feats: [Enforcer](ref/feat/enforcer), [Lingering Performance](ref/feat/lingering-performance), [Skill Focus](ref/feat/skill-focus) (Intimidate), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Bluff +14, Diplomacy +16, Disguise +8, Intimidate +15, Knowledge (history) +8, Knowledge (local) +8, Knowledge (nobility) +8, Perception +8, Perform (act) +9, Perform (oratory) +12, Sleight of Hand +7, Stealth +7, Use Magic Device +11
+Languages: Common, Halfling
+SQ: heraldic expertise +2, versatile performance (oratory), wide audience
+:::
 
 ### Ecology
 
-**Environment** any urban\
-**Organization** solitary, contingent (1 corrupt politician plus 1d4 warrior guards of 3rd level and
-1d4 expert sycophants of 3rd level)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget)
-([padded armor](ref/eq-armor/padded), mwk [sap](ref/eq-weapon/sap), other treasure)
+::: statblock
+Environment: any urban
+Organization: solitary, contingent (1 corrupt politician plus 1d4 warrior guards of 3rd level and 1d4 expert sycophants of 3rd level)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) ([padded armor](ref/eq-armor/padded), mwk [sap](ref/eq-weapon/sap), other treasure)
+:::
 
 ### Description
 

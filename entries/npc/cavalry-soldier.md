@@ -15,25 +15,35 @@ kind = "creature"
 cr = "7"
 +++
 
-**Challenge rating:** 7
-
-**XP** 3,200\
 Half-elf [warrior](ref/npcclass/warrior) 9\
-LN Medium humanoid (elf, human)\
-**Init** +0; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +8
+LN Medium humanoid (elf, human)
+
+::: statblock
+Challenge rating: 7
+XP: 3,200
+Init: +0
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +8
+:::
 
 ### Defense
 
-**AC** 21, touch 10, flat-footed 21 (+9 armor, +2 shield)\
-**hp** 67 (9d10+18)\
-**Fort** +7, **Ref** +3, **Will** +4; +2 vs. enchantments
+::: statblock
+AC: 21, touch 10, flat-footed 21 (+9 armor, +2 shield)
+hp: 67 (9d10+18)
+Fort: +7
+Ref: +3
+Will: +4; +2 vs. enchantments
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 lance +13/+8 (1d8+5/×3) or mwk heavy pick +13/+8 (1d6+3/×4)\
-**Ranged** mwk composite shortbow +10/+5 (1d6+3/×3)\
-**Space** 5 ft., **Reach** 5 ft. (10 ft. with lance)
+::: statblock
+Speed: 20 ft.
+Melee: +1 lance +13/+8 (1d8+5/×3) or mwk heavy pick +13/+8 (1d6+3/×4)
+Ranged: mwk composite shortbow +10/+5 (1d6+3/×3)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with lance)
+:::
 
 ### Tactics
 
@@ -44,24 +54,23 @@ defensive lines.
 
 ### Statistics
 
-**Str** 16, **Dex** 10, **Con** 12, **Int** 11, **Wis** 8, **Cha** 10\
-**Base Atk** +9; **CMB** +12; **CMD** 22\
-**Feats** [Iron Will](ref/feat/iron-will), [Mounted Archery](ref/feat/mounted-archery),
-[Mounted Combat](ref/feat/mounted-combat), [Ride-By Attack](ref/feat/ride-by-attack),
-[Skill Focus](ref/feat/skill-focus) (Perception), [Spirited Charge](ref/feat/spirited-charge)\
-**Skills** Handle Animal +8, Perception +8, Ride +6\
-**Languages** Common, Elven\
-**SQ** elf blood\
-**Combat Gear** potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of
-[heroism](ref/spell/heroism), [cold iron](ref/eq-material/cold-iron) [arrows](ref/eq-weapon/arrow)
-(10), [silver](ref/eq-material/alchemical-silver) arrows (10); **Other Gear** masterwork
-[full plate](ref/eq-armor/full-plate), masterwork
-[heavy steel shield](ref/eq-armor/heavy-steel-shield), +1 [lance](ref/eq-weapon/lance), masterwork
-[composite shortbow](ref/eq-weapon/composite-shortbow) (+3 Str) with 40 arrows, masterwork
-[heavy pick](ref/eq-weapon/heavy-pick), [bit and bridle](ref/eq-misc/bit-and-bridle),
-[heavy horse (combat trained)](ref/eq-misc/horse-heavy-combat-trained), masterwork
-[chainmail](ref/eq-armor/chainmail) [barding](ref/eq-armor/barding),
-[military saddle](ref/eq-misc/military-saddle), [saddlebags](ref/eq-misc/saddlebags), 259 gp
+::: statblock
+Str: 16
+Dex: 10
+Con: 12
+Int: 11
+Wis: 8
+Cha: 10
+Base Atk: +9
+CMB: +12
+CMD: 22
+Feats: [Iron Will](ref/feat/iron-will), [Mounted Archery](ref/feat/mounted-archery), [Mounted Combat](ref/feat/mounted-combat), [Ride-By Attack](ref/feat/ride-by-attack), [Skill Focus](ref/feat/skill-focus) (Perception), [Spirited Charge](ref/feat/spirited-charge)
+Skills: Handle Animal +8, Perception +8, Ride +6
+Languages: Common, Elven
+SQ: elf blood
+Combat Gear: potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of [heroism](ref/spell/heroism), [cold iron](ref/eq-material/cold-iron) [arrows](ref/eq-weapon/arrow) (10), [silver](ref/eq-material/alchemical-silver) arrows (10)
+Other Gear: masterwork [full plate](ref/eq-armor/full-plate), masterwork [heavy steel shield](ref/eq-armor/heavy-steel-shield), +1 [lance](ref/eq-weapon/lance), masterwork [composite shortbow](ref/eq-weapon/composite-shortbow) (+3 Str) with 40 arrows, masterwork [heavy pick](ref/eq-weapon/heavy-pick), [bit and bridle](ref/eq-misc/bit-and-bridle), [heavy horse (combat trained)](ref/eq-misc/horse-heavy-combat-trained), masterwork [chainmail](ref/eq-armor/chainmail) [barding](ref/eq-armor/barding), [military saddle](ref/eq-misc/military-saddle), [saddlebags](ref/eq-misc/saddlebags), 259 gp
+:::
 
 ### Description
 

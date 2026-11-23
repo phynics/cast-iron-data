@@ -15,45 +15,57 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Human [fighter](ref/class/fighter) 4\
-LN Medium humanoid\
-**Init** +1; **Senses** Perception +3
+LN Medium humanoid
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +1
+Senses: Perception +3
+:::
 
 ### Defense
 
-**AC** 20, touch 11, flat-footed 19 (+9 armor, +1 Dex)\
-**hp** 34 (4d10+12)\
-**Fort** +6, **Ref** +2, **Will** +1; +1 vs. fear\
-**Defensive Abilities** bravery +1
+::: statblock
+AC: 20, touch 11, flat-footed 19 (+9 armor, +1 Dex)
+hp: 34 (4d10+12)
+Fort: +6
+Ref: +2
+Will: +1; +1 vs. fear
+Defensive Abilities: bravery +1
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk guisarme +9 (2d4+5/×3) or sap +7 (1d6+3 nonlethal)\
-**Ranged** net +5 ranged touch (entangle) or javelin +5 (1d6+2)\
-**Space** 5 ft., **Reach** 5 ft. (10 ft. with guisarme)
+::: statblock
+Speed: 20 ft.
+Melee: mwk guisarme +9 (2d4+5/×3) or sap +7 (1d6+3 nonlethal)
+Ranged: net +5 ranged touch (entangle) or javelin +5 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with guisarme)
+:::
 
 ### Statistics
 
-**Str** 16, **Dex** 13, **Con** 14, **Int** 10, **Wis** 10, **Cha** 12\
-**Base Atk** +4; **CMB** +7; **CMD** 18\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes),
-[Dazzling Display](ref/feat/dazzling-display),
-[Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (net),
-[Skill Focus](ref/feat/skill-focus) (Intimidate), [Weapon Focus](ref/feat/weapon-focus) (guisarme),
-[Weapon Specialization](ref/feat/weapon-specialization) (guisarme)\
-**Skills** Intimidate +11, Perception +3, Ride +2, Sense Motive +2\
-**Languages** Common\
-**SQ** armor training 1\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds); **Other Gear**
-[full plate](ref/eq-armor/full-plate), masterwork [guisarme](ref/eq-weapon/guisarme),
-[javelin](ref/eq-weapon/javelin), [nets](ref/eq-weapon/net) (2), [sap](ref/eq-weapon/sap)\
-**Boon** A guard officer can alert the PCs to local customs, traditions, tricks, and suspicious
-activity, granting a +2 bonus for 24 hours on opposed Perception and Sense Motive checks within the
-city. She can also arrange a meeting with a watch captain for the PCs.
+::: statblock
+Str: 16
+Dex: 13
+Con: 14
+Int: 10
+Wis: 10
+Cha: 12
+Base Atk: +4
+CMB: +7
+CMD: 18
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Dazzling Display](ref/feat/dazzling-display), [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (net), [Skill Focus](ref/feat/skill-focus) (Intimidate), [Weapon Focus](ref/feat/weapon-focus) (guisarme), [Weapon Specialization](ref/feat/weapon-specialization) (guisarme)
+Skills: Intimidate +11, Perception +3, Ride +2, Sense Motive +2
+Languages: Common
+SQ: armor training 1
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds)
+Other Gear: [full plate](ref/eq-armor/full-plate), masterwork [guisarme](ref/eq-weapon/guisarme), [javelin](ref/eq-weapon/javelin), [nets](ref/eq-weapon/net) (2), [sap](ref/eq-weapon/sap)
+Boon: A guard officer can alert the PCs to local customs, traditions, tricks, and suspicious activity, granting a +2 bonus for 24 hours on opposed Perception and Sense Motive checks within the city. She can also arrange a meeting with a watch captain for the PCs.
+:::
 
 ### Description
 

@@ -15,31 +15,45 @@ kind = "creature"
 cr = "11"
 +++
 
-**Challenge rating:** 11
-
-**XP** 12,800\
 Human [ranger](ref/class/ranger) 12\
-LN Medium humanoid (human)\
-**Init** +8; **Senses** Perception +16
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 11
+XP: 12,800
+Init: +8
+Senses: Perception +16
+:::
 
 ### Defense
 
-**AC** 25, touch 16, flat-footed 20 (+5 armor, +1 deflection, +4 Dex, +1 dodge, +4 natural)\
-**hp** 94 (12d10+24)\
-**Fort** +11, **Ref** +13, **Will** +6\
-**Defensive Abilities** [evasion](ref/ability/evasion); **Immune** poison; **Resist** fire 20
+::: statblock
+AC: 25, touch 16, flat-footed 20 (+5 armor, +1 deflection, +4 Dex, +1 dodge, +4 natural)
+hp: 94 (12d10+24)
+Fort: +11
+Ref: +13
+Will: +6
+Defensive Abilities: [evasion](ref/ability/evasion)
+Immune: poison
+Resist: fire 20
+:::
 
 ### Offense
 
-**Speed** 40 ft.\
-**Melee** +1 kukri +16/+11/+6 (1d4+5/18-20), +1 kukri +16/+11 (1d4+5/18-20)\
-**Ranged** mwk composite longbow +17/+12/+7 (1d8+4/×3)\
-**Special Attacks** favored enemy (animals +2, humans +6, orcs +2)\
-**Ranger Spells Prepared** (CL 9th; concentration +10)\
-_2nd_-[barkskin](ref/spell/barkskin), [cat's grace](ref/spell/cats-grace),
-[wind wall](ref/spell/wind-wall)\
-_1st_-[delay poison](ref/spell/delay-poison), [longstrider](ref/spell/longstrider),
-[resist energy](ref/spell/resist-energy)
+::: statblock
+Speed: 40 ft.
+Melee: +1 kukri +16/+11/+6 (1d4+5/18-20), +1 kukri +16/+11 (1d4+5/18-20)
+Ranged: mwk composite longbow +17/+12/+7 (1d8+4/×3)
+Special Attacks: favored enemy (animals +2, humans +6, orcs +2)
+:::
+
+::: statblock
+title = "Ranger Spells Prepared"
+CL: 9th
+concentration: +10
+2nd: [barkskin](ref/spell/barkskin), [cat's grace](ref/spell/cats-grace), [wind wall](ref/spell/wind-wall)
+1st: [delay poison](ref/spell/delay-poison), [longstrider](ref/spell/longstrider), [resist energy](ref/spell/resist-energy)
+:::
 
 ### Tactics
 
@@ -54,30 +68,23 @@ ranger's statistics are **Init** +6; **Senses** normal; **AC** 20, touch 14, fla
 
 ### Statistics
 
-**Str** 19, **Dex** 18, **Con** 14, **Int** 10, **Wis** 12, **Cha** 10\
-**Base Atk** +12; **CMB** +16 (+18 grapple); **CMD** 32 (34 vs. grapple)\
-**Feats** [Deadly Aim](ref/feat/deadly-aim), [Dodge](ref/feat/dodge),
-[Double Slice](ref/feat/double-slice), [Endurance](ref/feat/endurance),
-[Improved Grapple](ref/feat/improved-grapple), [Improved Initiative](ref/feat/improved-initiative),
-[Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike),
-[Point-Blank Shot](ref/feat/point-blank-shot), [Two-Weapon Fighting](ref/feat/two-weapon-fighting),
-[Weapon Focus](ref/feat/weapon-focus) (kukri)\
-**Skills** Acrobatics +14 (+18 when jumping), Bluff +10, Climb +12, Disguise +7, Knowledge
-(geography, nature) +8, Knowledge (local) +5, Linguistics +2, Perception +16, Sense Motive +11,
-Stealth +19, Survival +16, Swim +10\
-**Languages** Common, Elven, Orc\
-**SQ** camouflage, [favored terrain](ref/ability/favored-terrain) (plains +2, urban +4), hunter's
-bond (companions), quarry, swift tracker, track +6, [wild empathy](ref/ability/wild-empathy) +12,
-[woodland stride](ref/ability/woodland-stride)\
-**Combat Gear** potions of [cure serious wounds](ref/spell/cure-serious-wounds) (2),
-[smokesticks](ref/eq-misc/smokestick) (2), [tanglefoot bags](ref/eq-weapon/tanglefoot-bag) (2);
-**Other Gear** +2 [studded leather](ref/eq-armor/studded-leather), +1 [kukris](ref/eq-weapon/kukri)
-(2), masterwork [composite longbow](ref/eq-weapon/composite-longbow) (+4 Str) with 20 arrows,
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), 793 gp
+::: statblock
+Str: 19
+Dex: 18
+Con: 14
+Int: 10
+Wis: 12
+Cha: 10
+Base Atk: +12
+CMB: +16 (+18 grapple)
+CMD: 32 (34 vs. grapple)
+Feats: [Deadly Aim](ref/feat/deadly-aim), [Dodge](ref/feat/dodge), [Double Slice](ref/feat/double-slice), [Endurance](ref/feat/endurance), [Improved Grapple](ref/feat/improved-grapple), [Improved Initiative](ref/feat/improved-initiative), [Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Point-Blank Shot](ref/feat/point-blank-shot), [Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Focus](ref/feat/weapon-focus) (kukri)
+Skills: Acrobatics +14 (+18 when jumping), Bluff +10, Climb +12, Disguise +7, Knowledge (geography, nature) +8, Knowledge (local) +5, Linguistics +2, Perception +16, Sense Motive +11, Stealth +19, Survival +16, Swim +10
+Languages: Common, Elven, Orc
+SQ: camouflage, [favored terrain](ref/ability/favored-terrain) (plains +2, urban +4), hunter's bond (companions), quarry, swift tracker, track +6, [wild empathy](ref/ability/wild-empathy) +12, [woodland stride](ref/ability/woodland-stride)
+Combat Gear: potions of [cure serious wounds](ref/spell/cure-serious-wounds) (2), [smokesticks](ref/eq-misc/smokestick) (2), [tanglefoot bags](ref/eq-weapon/tanglefoot-bag) (2)
+Other Gear: +2 [studded leather](ref/eq-armor/studded-leather), +1 [kukris](ref/eq-weapon/kukri) (2), masterwork [composite longbow](ref/eq-weapon/composite-longbow) (+4 Str) with 20 arrows, [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 793 gp
+:::
 
 ### Description
 

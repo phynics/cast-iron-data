@@ -15,31 +15,37 @@ kind = "creature"
 cr = "10"
 +++
 
-**Challenge rating:** 10
-
-**XP** 9,600\
 Orc [barbarian](ref/class/barbarian) 11\
-CE Medium humanoid (orc)\
-**Init** +2; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +13
+CE Medium humanoid (orc)
+
+::: statblock
+Challenge rating: 10
+XP: 9,600
+Init: +2
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +13
+:::
 
 ### Defense
 
-**AC** 17, touch 10, flat-footed 15 (+6 armor, +2 Dex, +1 natural, -2 rage)\
-**hp** 132 (11d12+55)\
-**Fort** +12, **Ref** +5, **Will** +7; +4 vs. magic\
-**Defensive Abilities** [ferocity](ref/umr/ferocity),
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense)
-+3; **DR** 3/-\
-**Weaknesses** [light sensitivity](ref/umr/light-sensitivity)
+::: statblock
+AC: 17, touch 10, flat-footed 15 (+6 armor, +2 Dex, +1 natural, -2 rage)
+hp: 132 (11d12+55)
+Fort: +12
+Ref: +5
+Will: +7; +4 vs. magic
+Defensive Abilities: [ferocity](ref/umr/ferocity), [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +3
+DR: 3/-
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +2 greataxe +22/+17/+12 (1d12+14/×3) or mwk handaxe +20/+15/+10 (1d6+8/×3)\
-**Ranged** javelin +13/+8/+3 (1d6+8)\
-**Special Attacks** greater rage (26 rounds/day), rage powers (guarded stance \[+2 dodge vs.
-melee\], increased [damage reduction](ref/rule/damage-reduction) +1, intimidating glare,
-superstition +4, terrifying howl \[DC 23\])
+::: statblock
+Speed: 30 ft.
+Melee: +2 greataxe +22/+17/+12 (1d12+14/×3) or mwk handaxe +20/+15/+10 (1d6+8/×3)
+Ranged: javelin +13/+8/+3 (1d6+8)
+Special Attacks: greater rage (26 rounds/day), rage powers (guarded stance \[+2 dodge vs. melee\], increased [damage reduction](ref/rule/damage-reduction) +1, intimidating glare, superstition +4, terrifying howl \[DC 23\])
+:::
 
 ### Tactics
 
@@ -50,19 +56,23 @@ Intimidate +17.
 
 ### Statistics
 
-**Str** 26, **Dex** 14, **Con** 20, **Int** 10, **Wis** 8, **Cha** 6\
-**Base Atk** +11; **CMB** +19 (+21 bull rush); **CMD** 29 (31 vs. bull rush)\
-**Feats** [Dazzling Display](ref/feat/dazzling-display),
-[Improved Bull Rush](ref/feat/improved-bull-rush),
-[Intimidating Prowess](ref/feat/intimidating-prowess), [Iron Will](ref/feat/iron-will),
-[Power Attack](ref/feat/power-attack), [Weapon Focus](ref/feat/weapon-focus) (greataxe)\
-**Skills** Climb +20, Handle Animal +12, Intimidate +20, Perception +13, Ride +14\
-**Languages** Common, Orc\
-**SQ** fast movement, weapon familiarity\
-**Combat Gear** potions of [cure serious wounds](ref/spell/cure-serious-wounds) (2); **Other Gear**
-+2 [hide armor](ref/eq-armor/hide), +2 [greataxe](ref/eq-weapon/greataxe),
-[javelin](ref/eq-weapon/javelin), mwk [handaxe](ref/eq-weapon/handaxe),
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), 56 gp
+::: statblock
+Str: 26
+Dex: 14
+Con: 20
+Int: 10
+Wis: 8
+Cha: 6
+Base Atk: +11
+CMB: +19 (+21 bull rush)
+CMD: 29 (31 vs. bull rush)
+Feats: [Dazzling Display](ref/feat/dazzling-display), [Improved Bull Rush](ref/feat/improved-bull-rush), [Intimidating Prowess](ref/feat/intimidating-prowess), [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack), [Weapon Focus](ref/feat/weapon-focus) (greataxe)
+Skills: Climb +20, Handle Animal +12, Intimidate +20, Perception +13, Ride +14
+Languages: Common, Orc
+SQ: fast movement, weapon familiarity
+Combat Gear: potions of [cure serious wounds](ref/spell/cure-serious-wounds) (2)
+Other Gear: +2 [hide armor](ref/eq-armor/hide), +2 [greataxe](ref/eq-weapon/greataxe), [javelin](ref/eq-weapon/javelin), mwk [handaxe](ref/eq-weapon/handaxe), [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), 56 gp
+:::
 
 ### Description
 

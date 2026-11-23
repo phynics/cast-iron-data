@@ -18,43 +18,58 @@ cr = "1/2"
 _Clad in blue-tinted scale mail and carrying a halberd, this guard patrols the city with a keen
 eye._
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Male human [warrior](ref/npcclass/warrior) 2\
-N Medium humanoid (human)\
-**Init** +4; **Senses** Perception +3
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +4
+Senses: Perception +3
+:::
 
 ### Defense
 
-**AC** 15, touch 10, flat-footed 15 (+5 armor)\
-**hp** 13 (2d10+2)\
-**Fort** +3, **Ref** +0, **Will** +1
+::: statblock
+AC: 15, touch 10, flat-footed 15 (+5 armor)
+hp: 13 (2d10+2)
+Fort: +3
+Ref: +0
+Will: +1
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** halberd +4 (1d10+1/×3) or sap +3 (1d6+1 nonlethal)\
-**Ranged** light crossbow +2 (1d8/19-20)
+::: statblock
+Speed: 20 ft.
+Melee: halberd +4 (1d10+1/×3) or sap +3 (1d6+1 nonlethal)
+Ranged: light crossbow +2 (1d8/19-20)
+:::
 
 ### Statistics
 
-**Str** 13, **Dex** 11, **Con** 10, **Int** 8, **Wis** 12, **Cha** 11\
-**Base Atk** +2; **CMB** +3; **CMD** 13\
-**Feats** [Improved Initiative](ref/feat/improved-initiative), [Weapon Focus](ref/feat/weapon-focus)
-(halberd)\
-**Skills** Intimidate +5, Perception +3\
-**Languages** Common
+::: statblock
+Str: 13
+Dex: 11
+Con: 10
+Int: 8
+Wis: 12
+Cha: 11
+Base Atk: +2
+CMB: +3
+CMD: 13
+Feats: [Improved Initiative](ref/feat/improved-initiative), [Weapon Focus](ref/feat/weapon-focus) (halberd)
+Skills: Intimidate +5, Perception +3
+Languages: Common
+:::
 
 ### Ecology
 
-**Environment** any (Magnimar)\
-**Organization** solitary, pair, patrol (3-5), or squad (6-10)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork
-[scale mail](ref/eq-armor/scale-mail), [halberd](ref/eq-weapon/halberd),
-[light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, [sap](ref/eq-weapon/sap),
-[bullseye lantern](ref/eq-misc/bullseye-lantern), [manacles](ref/eq-misc/manacles-common),
-[signal whistle](ref/eq-misc/whistle-signal), other treasure)
+::: statblock
+Environment: any (Magnimar)
+Organization: solitary, pair, patrol (3-5), or squad (6-10)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork [scale mail](ref/eq-armor/scale-mail), [halberd](ref/eq-weapon/halberd), [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, [sap](ref/eq-weapon/sap), [bullseye lantern](ref/eq-misc/bullseye-lantern), [manacles](ref/eq-misc/manacles-common), [signal whistle](ref/eq-misc/whistle-signal), other treasure)
+:::
 
 ### Description
 

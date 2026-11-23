@@ -15,41 +15,53 @@ kind = "creature"
 cr = "1/3"
 +++
 
-**Challenge rating:** 1/3
-
-**XP** 135\
 Human [aristocrat](ref/npcclass/aristocrat) 1\
-N Medium humanoid\
-**Init** +1; **Senses** Perception -1
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1/3
+XP: 135
+Init: +1
+Senses: Perception -1
+:::
 
 ### Defense
 
-**AC** 13, touch 11, flat-footed 12 (+1 armor, +1 Dex, +1 shield)\
-**hp** 5 (1d8+1)\
-**Fort** +1, **Ref** +1, **Will** +1
+::: statblock
+AC: 13, touch 11, flat-footed 12 (+1 armor, +1 Dex, +1 shield)
+hp: 5 (1d8+1)
+Fort: +1
+Ref: +1
+Will: +1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** lance +1 (1d8+1/×3) or light pick +1 (1d4+1/×4)\
-**Ranged** shortbow +1 (1d6/×3)
+::: statblock
+Speed: 30 ft.
+Melee: lance +1 (1d8+1/×3) or light pick +1 (1d4+1/×4)
+Ranged: shortbow +1 (1d6/×3)
+:::
 
 ### Statistics
 
-**Str** 13, **Dex** 13, **Con** 12, **Int** 9, **Wis** 8, **Cha** 10\
-**Base Atk** +0; **CMB** +1; **CMD** 12\
-**Feats** [Animal Affinity](ref/feat/animal-affinity), [Mounted Combat](ref/feat/mounted-combat)\
-**Skills** Craft (armor) +3, Craft (weapons) +3, Handle Animal +6, Knowledge (nobility) +3, Ride +6\
-**Languages** Common\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds); **Other Gear**
-[padded armor](ref/eq-armor/padded), [light wooden shield](ref/eq-armor/light-wooden-shield),
-[lance](ref/eq-weapon/lance), [light pick](ref/eq-weapon/light-pick),
-[shortbow](ref/eq-weapon/shortbow) with 20 arrows,
-[light horse (combat trained)](ref/eq-misc/light-horse-combat-trained) with
-[riding saddle](ref/eq-misc/saddle-riding)\
-**Boon** A squire can make a personal introduction to a knight or help the PCs buy a combat trained
-mount or riding gear at a 5% discount. A squire might also agree to serve a fighter, paladin, or
-ranger PC, either for a limited time, or until granted knighthood.
+::: statblock
+Str: 13
+Dex: 13
+Con: 12
+Int: 9
+Wis: 8
+Cha: 10
+Base Atk: +0
+CMB: +1
+CMD: 12
+Feats: [Animal Affinity](ref/feat/animal-affinity), [Mounted Combat](ref/feat/mounted-combat)
+Skills: Craft (armor) +3, Craft (weapons) +3, Handle Animal +6, Knowledge (nobility) +3, Ride +6
+Languages: Common
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds)
+Other Gear: [padded armor](ref/eq-armor/padded), [light wooden shield](ref/eq-armor/light-wooden-shield), [lance](ref/eq-weapon/lance), [light pick](ref/eq-weapon/light-pick), [shortbow](ref/eq-weapon/shortbow) with 20 arrows, [light horse (combat trained)](ref/eq-misc/light-horse-combat-trained) with [riding saddle](ref/eq-misc/saddle-riding)
+Boon: A squire can make a personal introduction to a knight or help the PCs buy a combat trained mount or riding gear at a 5% discount. A squire might also agree to serve a fighter, paladin, or ranger PC, either for a limited time, or until granted knighthood.
+:::
 
 ### Description
 

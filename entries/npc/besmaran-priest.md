@@ -18,56 +18,70 @@ cr = "4"
 _Clad in black silk and a chain shirt, this bold woman has a strong stance and wields a masterfully
 crafted rapier; the tricorne hat atop her head depicts a skull and crossbones._
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Female [cleric](ref/class/cleric) of [Besmara](ref/faith/besmara) 5\
-CN Medium humanoid (human)\
-**Init** +5; **Senses** Perception +3
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +5
+Senses: Perception +3
+:::
 
 ### Defense
 
-**AC** 17, touch 12, flat-footed 15 (+5 armor, +1 Dex, +1 dodge)\
-**hp** 33 (5d8+7)\
-**Fort** +5, **Ref** +2, **Will** +7
+::: statblock
+AC: 17, touch 12, flat-footed 15 (+5 armor, +1 Dex, +1 dodge)
+hp: 33 (5d8+7)
+Fort: +5
+Ref: +2
+Will: +7
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk rapier +4 (1d6/18-20) or sap +3 (1d6 nonlethal)\
-**Special Attacks** channel positive energy 5/day (DC 14, 3d6)\
-**Cleric Spells Prepared** (CL 5th; concentration +8)\
-_3rd_-[remove disease](ref/spell/remove-disease),
-[water breathing](ref/spell/water-breathing)^[1](ref/npc/besmaran-priest#footnote-d)^\
-_2nd_-[aid](ref/spell/aid), cure moderate wounds,
-[fog cloud](ref/spell/fog-cloud)^[1](ref/npc/besmaran-priest#footnote-d)^\
-_1st_-[bless](ref/spell/bless), cure light wounds, [deathwatch](ref/spell/deathwatch),
-[obscuring mist](ref/spell/obscuring-mist)^[1](ref/npc/besmaran-priest#footnote-d)^,
-[remove fear](ref/spell/remove-fear)\
-_0 (at will)_-[create water](ref/spell/create-water),
-[purify food and drink](ref/spell/purify-food-and-drink), [read magic](ref/spell/read-magic),
-[stabilize](ref/spell/stabilize)\
-**Domains** [Water](ref/domain/water), [Weather](ref/domain/weather)
+::: statblock
+Speed: 30 ft.
+Melee: mwk rapier +4 (1d6/18-20) or sap +3 (1d6 nonlethal)
+Special Attacks: channel positive energy 5/day (DC 14, 3d6)
+:::
+
+::: statblock
+title = "Cleric Spells Prepared"
+CL: 5th
+concentration: +8
+3rd: [remove disease](ref/spell/remove-disease), [water breathing](ref/spell/water-breathing)^[1](ref/npc/besmaran-priest#footnote-d)^
+2nd: [aid](ref/spell/aid), cure moderate wounds, [fog cloud](ref/spell/fog-cloud)^[1](ref/npc/besmaran-priest#footnote-d)^
+1st: [bless](ref/spell/bless), cure light wounds, [deathwatch](ref/spell/deathwatch), [obscuring mist](ref/spell/obscuring-mist)^[1](ref/npc/besmaran-priest#footnote-d)^, [remove fear](ref/spell/remove-fear)
+0 (at will): [create water](ref/spell/create-water), [purify food and drink](ref/spell/purify-food-and-drink), [read magic](ref/spell/read-magic), [stabilize](ref/spell/stabilize)
+Domains: [Water](ref/domain/water), [Weather](ref/domain/weather)
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 13, **Con** 12, **Int** 10, **Wis** 16, **Cha** 14\
-**Base Atk** +3; **CMB** +3; **CMD** 15\
-**Feats** [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge),
-[Improved Initiative](ref/feat/improved-initiative), [Mobility](ref/feat/mobility)\
-**Skills** Diplomacy +10, Knowledge (religion) +8, Sense Motive +9, Spellcraft +6, Swim +1\
-**Languages** Common\
-**SQ** aura
+::: statblock
+Str: 10
+Dex: 13
+Con: 12
+Int: 10
+Wis: 16
+Cha: 14
+Base Atk: +3
+CMB: +3
+CMD: 15
+Feats: [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge), [Improved Initiative](ref/feat/improved-initiative), [Mobility](ref/feat/mobility)
+Skills: Diplomacy +10, Knowledge (religion) +8, Sense Motive +9, Spellcraft +6, Swim +1
+Languages: Common
+SQ: aura
+:::
 
 ### Ecology
 
-**Environment** any oceans or coastlines\
-**Organization** solitary, pair, or clergy (3-6)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (+1
-[chain shirt](ref/eq-armor/chain-shirt), masterwork [rapier](ref/eq-weapon/rapier),
-[sap](ref/eq-weapon/sap), potions of [cure light wounds](ref/spell/cure-light-wounds) (5), wand of
-[cure moderate wounds](ref/spell/cure-moderate-wounds) \[9 charges\], wand of
-[bull's strength](ref/spell/bulls-strength) \[8 charges\], holy water \[2 flasks\], other treasure)
+::: statblock
+Environment: any oceans or coastlines
+Organization: solitary, pair, or clergy (3-6)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (+1 [chain shirt](ref/eq-armor/chain-shirt), masterwork [rapier](ref/eq-weapon/rapier), [sap](ref/eq-weapon/sap), potions of [cure light wounds](ref/spell/cure-light-wounds) (5), wand of [cure moderate wounds](ref/spell/cure-moderate-wounds) \[9 charges\], wand of [bull's strength](ref/spell/bulls-strength) \[8 charges\], holy water \[2 flasks\], other treasure)
+:::
 
 ### Description
 
