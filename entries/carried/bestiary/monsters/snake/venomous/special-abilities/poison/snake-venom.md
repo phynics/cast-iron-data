@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "bestiary"
+page = "255"
 
 [fields]
 kind = "none"
