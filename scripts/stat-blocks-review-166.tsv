@@ -395,7 +395,21 @@ entries/magic-necrotoxin/lazurite-flakes.md	item	variant-paragraphs	Type
 entries/magic-necrotoxin/memento-mori.md	item	variant-paragraphs	Type
 entries/magic-necrotoxin/quick-rot.md	item	variant-paragraphs	Type
 entries/magic-necrotoxin/xensh-spores.md	item	variant-paragraphs	Type
+entries/magic-piercing/body-piercings-greater.md	item	print-fix	aura `faint transmutation`, caster level `3rd`; the import ran them together (Champions of Corruption p. 28)
+entries/magic-piercing/body-piercings-major.md	item	print-fix	aura `faint transmutation`, caster level `3rd`; the import ran them together (Champions of Corruption p. 28)
 entries/magic-piercing/body-piercings-minor.md	item	print-fix	aura `faint transmutation` and caster level `3rd`; the import ran them together (Champions of Corruption p. 28)
+entries/magic-piercing/chest-piercings-greater.md	item	print-fix	aura `faint transmutation`, caster level `3rd`; the import ran them together; page row `29`: the entry prints on p. 29, not p. 28 (Champions of Corruption p. 29)
+entries/magic-piercing/chest-piercings-major.md	item	print-fix	aura `faint transmutation`, caster level `3rd`; the import ran them together; page row `29`: the entry prints on p. 29, not p. 28 (Champions of Corruption p. 29)
+entries/magic-piercing/chest-piercings-minor.md	item	print-fix	aura `faint transmutation`, caster level `3rd`; the import ran them together; page row `29`: the entry prints on p. 29, not p. 28 (Champions of Corruption p. 29)
+entries/magic-piercing/eye-piercings-greater.md	item	print-fix	aura `faint transmutation`, caster level `5th`; the import ran them together; page row `29`: the entry prints on p. 29, not p. 28; the `Price` the import left in the `Slot` row, and the `price` field it lacked (Champions of Corruption p. 29)
+entries/magic-piercing/eye-piercings-major.md	item	print-fix	aura `faint transmutation`, caster level `5th`; the import ran them together; page row `29`: the entry prints on p. 29, not p. 28; the `Price` the import left in the `Slot` row, and the `price` field it lacked (Champions of Corruption p. 29)
+entries/magic-piercing/eye-piercings-minor.md	item	print-fix	aura `faint transmutation`, caster level `5th`; the import ran them together; page row `29`: the entry prints on p. 29, not p. 28; the `Price` the import left in the `Slot` row, and the `price` field it lacked (Champions of Corruption p. 29)
+entries/magic-piercing/head-piercings-greater.md	item	print-fix	aura `faint transmutation`, caster level `5th`; the import ran them together; page row `29`: the entry prints on p. 29, not p. 28 (Champions of Corruption p. 29)
+entries/magic-piercing/head-piercings-major.md	item	print-fix	aura `faint transmutation`, caster level `5th`; the import ran them together; page row `29`: the entry prints on p. 29, not p. 28 (Champions of Corruption p. 29)
+entries/magic-piercing/head-piercings-minor.md	item	print-fix	aura `faint transmutation`, caster level `5th`; the import ran them together; page row `29`: the entry prints on p. 29, not p. 28 (Champions of Corruption p. 29)
+entries/magic-piercing/suspension-piercings-greater.md	item	print-fix	aura `faint transmutation (minor and major), moderate transmutation (greater)`, caster level `7th`; the import ran them together (Champions of Corruption p. 29)
+entries/magic-piercing/suspension-piercings-major.md	item	print-fix	aura `faint transmutation (minor and major), moderate transmutation (greater)`, caster level `7th`; the import ran them together (Champions of Corruption p. 29)
+entries/magic-piercing/suspension-piercings-minor.md	item	print-fix	aura `faint transmutation (minor and major), moderate transmutation (greater)`, caster level `7th`; the import ran them together (Champions of Corruption p. 29)
 entries/magic-poison/abyssal-arsenic.md	item	variant-paragraphs	Type; Requirements
 entries/magic-poison/burning-heart.md	item	variant-paragraphs	Type; Requirements
 entries/magic-poison/dust-of-eox.md	item	variant-paragraphs	Type; Requirements

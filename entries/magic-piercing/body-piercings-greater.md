@@ -15,13 +15,15 @@ kind = "item"
 category = "Piercings"
 price = "1,800 gp (Minor), 2,400 gp (Major), 3,200 gp (Greater)"
 slot = "body"
-aura = "faint transmutation CL 3rd"
+aura = "faint transmutation"
+caster_level = "3rd"
 +++
 
 ## Body Piercings
 
 ::: statblock
-Aura: faint transmutation CL 3rd
+Aura: faint transmutation
+CL: 3rd
 Slot: body
 Price: 1,800 gp (Minor), 2,400 gp (Major), 3,200 gp (Greater)
 Weight: —

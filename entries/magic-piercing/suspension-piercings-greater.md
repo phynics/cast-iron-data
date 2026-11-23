@@ -15,13 +15,15 @@ kind = "item"
 category = "Piercings"
 price = "6,000 gp (Minor), 7,200 gp (Major), 11,200 gp (Greater)"
 slot = "belt or shoulders"
-aura = "faint transmutation (minor and major), moderate transmutation (greater) CL 7th"
+aura = "faint transmutation (minor and major), moderate transmutation (greater)"
+caster_level = "7th"
 +++
 
 ## Suspension Piercings
 
 ::: statblock
-Aura: faint transmutation (minor and major), moderate transmutation (greater) CL 7th
+Aura: faint transmutation (minor and major), moderate transmutation (greater)
+CL: 7th
 Slot: belt or shoulders
 Price: 6,000 gp (Minor), 7,200 gp (Major), 11,200 gp (Greater)
 Weight: —

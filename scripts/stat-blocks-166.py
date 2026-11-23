@@ -452,6 +452,54 @@ PRINT_FIXES = (
 )
 
 
+# The shadow piercings (Champions of Corruption pp. 28-29): the import ran the caster level into
+# `aura` (`faint transmutation CL 3rd`). Print gives `AURA ...` and `CL n` apart, so `aura` loses
+# the CL, `caster_level` holds it and a `CL:` row follows `Aura:`, as for `body-piercings-minor`.
+# (slug, aura as printed, caster level, page the row holds now, printed page).
+PIERCINGS = (
+    ("body", "faint transmutation", "3rd", "28", "28"),
+    ("chest", "faint transmutation", "3rd", "28", "29"),
+    ("eye", "faint transmutation", "5th", "28", "29"),
+    ("head", "faint transmutation", "5th", "28", "29"),
+    (
+        "suspension",
+        "faint transmutation (minor and major), moderate transmutation (greater)",
+        "7th",
+        "29",
+        "29",
+    ),
+)
+EYE_PRICE = "6,000 gp (Minor), 18,000 gp (Major), 32,000 gp (Greater)"
+
+
+def piercing_fixes() -> tuple:
+    fixes = []
+    for part, aura, level, old_page, page in PIERCINGS:
+        for grade in ("minor", "major", "greater"):
+            slug = f"{part}-piercings-{grade}"
+            if slug == "body-piercings-minor":
+                continue  # fixed by the first slice
+            pairs = [
+                (f'aura = "{aura} CL {level}"\n', f'aura = "{aura}"\ncaster_level = "{level}"\n'),
+                (f"\nAura: {aura} CL {level}\n", f"\nAura: {aura}\nCL: {level}\n"),
+            ]
+            note = f"aura `{aura}`, caster level `{level}`; the import ran them together"
+            if old_page != page:
+                pairs.append((f'page = "{old_page}"\n\n[fields]', f'page = "{page}"\n\n[fields]'))
+                note += f"; page row `{page}`: the entry prints on p. {page}, not p. {old_page}"
+            if part == "eye":
+                pairs.append(
+                    (f"\nSlot: eye; Price {EYE_PRICE}\n", f"\nSlot: eye\nPrice: {EYE_PRICE}\n")
+                )
+                pairs.append(('category = "Piercings"\nslot = "eyes"\n', f'category = "Piercings"\nprice = "{EYE_PRICE}"\nslot = "eyes"\n'))
+                note += "; the `Price` the import left in the `Slot` row, and the `price` field it lacked"
+            fixes.append((f"entries/magic-piercing/{slug}.md", f"Champions of Corruption p. {page}", note, tuple(pairs)))
+    return tuple(fixes)
+
+
+PRINT_FIXES = PRINT_FIXES + piercing_fixes()
+
+
 class Queue(Exception):
     """The file stays unchanged; `reason` goes to the review TSV."""
 
