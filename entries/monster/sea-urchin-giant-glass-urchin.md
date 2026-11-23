@@ -28,81 +28,63 @@ special_qualities = "amphibious"
 abilities = ["31", "3", "22", "-", "15", "2"]
 +++
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: huge
+Initiative: -4
+Alignment: Neutral
+Perception: +6
+Senses: All-around vision, Low-light vision, Scent
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 6,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -4
+::: statblock
+Armor class: 22
+Touch: 4
+Flat-footed: 22
+AC modifiers: -4 Dex, +18 natural, -2 size
+Hit points: 126 (12d8+72)
+Fort: +14
+Ref: +0
+Will: +6
+Defensive abilities: stability, transparency
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 5 ft.
+Melee: 3 spines +17 (1d8+10 plus poison)
+Reach: 15
+Space: 15
+Spec Att: poison spray, spines
+:::
 
-**Senses:** All-around vision, Low-light vision, Scent
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 31, Dex 3, Con 22, Int -, Wis 15, Cha 2
+Base attack bonus: +9
+Combat maneuver bonus: +21
+Combat maneuver defense: 27 (35 vs. bull rush or trip)
+Skills: Perception +6
+Racial Modifiers: +4 Perception
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 4
-
-**Flat-footed:** 22
-
-**AC modifiers:** -4 Dex, +18 natural, -2 size
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +14
-
-**Ref:** +0
-
-**Will:** +6
-
-**Defensive abilities:** stability, transparency
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Melee:** 3 spines +17 (1d8+10 plus poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** poison spray, spines
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 3, Con 22, Int -, Wis 15, Cha 2
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 27 (35 vs. bull rush or trip)
-
-**Skills:** Perception +6
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate or warm ocean or coastline
-
-**Organization:** solitary, pair, or cluster (3-4)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm ocean or coastline
+Organization: solitary, pair, or cluster (3-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

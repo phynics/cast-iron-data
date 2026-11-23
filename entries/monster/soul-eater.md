@@ -32,79 +32,61 @@ abilities = ["13", "22", "14", "12", "11", "11"]
 _Two elongated and deathly pallid arms protrude from this creature's smoky body as it slithers
 silently through the air._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +14
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Evil, Extraplanar
+Experience points: 3,200
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 17
+Flat-footed: 14
+AC modifiers: +6 Dex, +1 dodge, +4 natural
+Hit points: 82 (11d10+22)
+Fort: +5
+Ref: +13
+Will: +7
+Dr: 10/magic
+Immune: critical hits, paralysis, poison, sleep, stunning
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 100 ft. (perfect)
+Melee: 2 claws +18 (1d6+1/19-20 plus 1d6 Wisdom damage)
+Spec Att: find target, soul drain
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 13, Dex 22, Con 14, Int 12, Wis 11, Cha 11
+Base attack bonus: +11
+Combat maneuver bonus: +12
+Combat maneuver defense: 29 (can't be tripped)
+Feats: Dodge, Flyby Attack, Improved Critical (claw), Improved Initiative, Weapon Finesse, Weapon Focus (claw)
+Skills: Acrobatics +20 (+8 jump), Escape Artist +20, Fly +28, Intimidate +14, Knowledge (planes) +15, Perception +14, Stealth +20 (+28 darkness or smoke)
+Languages: Abyssal, Infernal
+Special qualities: caster link
+:::
 
-**Subtype:** Evil, Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 Dex, +1 dodge, +4 natural
-
-**Hit points:** 82 (11d10+22)
-
-**Fort:** +5
-
-**Ref:** +13
-
-**Will:** +7
-
-**Dr:** 10/magic
-
-**Immune:** critical hits, paralysis, poison, sleep, stunning
-
-**Offense**
-
-**Speed:** 30 ft., fly 100 ft. (perfect)
-
-**Melee:** 2 claws +18 (1d6+1/19-20 plus 1d6 Wisdom damage)
-
-**Spec Att:** find target, soul drain
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 22, Con 14, Int 12, Wis 11, Cha 11
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 29 (can't be tripped)
-
-**Feats:** Dodge, Flyby Attack, Improved Critical (claw), Improved Initiative, Weapon Finesse,
-Weapon Focus (claw)
-
-**Skills:** Acrobatics +20 (+8 jump), Escape Artist +20, Fly +28, Intimidate +14, Knowledge (planes)
-+15, Perception +14, Stealth +20 (+28 darkness or smoke)
-
-**Languages:** Abyssal, Infernal
-
-**Special qualities:** caster link
-
-**Ecology**
-
-**Environment:** any Outer Plane ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any Outer Plane ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

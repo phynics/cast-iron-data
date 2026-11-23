@@ -29,96 +29,71 @@ abilities = ["7", "15", "10", "12", "15", "8"]
 _This strange flying creature is the size of a house cat and has tender pink skin and the stubbed
 features of a pig. Its porcine face is eyeless and its nose never stops sniffing at the air._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: honesty (10 ft., DC 13)
+blindsight: 50
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 600
+:::
 
-**aura:** honesty (10 ft., DC 13)
+### Defense
 
-**blindsight:** 50
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 16 (3d10)
+Fort: +3
+Ref: +5
+Will: +3
+Immune: gaze attacks, visual effects and illusions, attacks that rely on sight
+:::
 
-**Initiative:** +2
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 20 ft., fly 50 ft. (average)
+Melee: bite +3 (1d3-2)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5; save DCs are Wisdom-based
+Constant: detect alignment
+At will: comprehend languages
+Per day: 3/day: confess (DC 14), zone of truth (DC 14)\
+1/day: follow aura, seek thoughts (DC 15)
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 7, Dex 15, Con 10, Int 12, Wis 15, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 11
+Feats: Alertness, Skill Focus (Sense Motive)
+Skills: Fly +10, Perception +9
+Languages: Common; [telepathy](ref/umr/telepathy) 30 ft.
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +3
-
-**Immune:** gaze attacks, visual effects and illusions, attacks that rely on sight
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (average)
-
-**Melee:** bite +3 (1d3-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5; save DCs are Wisdom-based
-
-**Constant:**
-
-- detect alignment
-
-**At will:**
-
-- comprehend languages
-
-**Per day:**
-
-- 3/day: confess (DC 14), zone of truth (DC 14)
-- 1/day: follow aura, seek thoughts (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 15, Con 10, Int 12, Wis 15, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 11
-
-**Feats:** Alertness, Skill Focus (Sense Motive)
-
-**Skills:** Fly +10, Perception +9
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 30 ft.
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any urban
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

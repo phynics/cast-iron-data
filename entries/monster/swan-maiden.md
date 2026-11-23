@@ -32,98 +32,71 @@ abilities = ["13", "20", "15", "10", "12", "15"]
 _This tall, regal woman is clad in a long cloak of pristine white swan feathers and silvery armor
 with a winged helm._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic good
+Type: fey
+Initiative: +5
+Size: medium
+Perception: +14
+Senses: Low-light vision
+Subtype: Shapechanger
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 15
+AC modifiers: +4 armor, +4 Dex, +1 dodge, +1 natural
+Hit points: 55 (10d6+20)
+Fort: +5
+Ref: +12
+Will: +8
+Dr: 5/cold iron
+Resist: cold 10, electricity 10
+Sr: 17
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 40 ft. (good)
+Melee: mwk rapier +11 (1d6+1/18-20)
+Ranged: longbow +10 (1d8/×3)
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+At will: dancing lights
+Per day: 1/day: confusion (DC 16), deep slumber (DC 15), entangle (DC 13), glitterdust (DC 14), major image (DC 15)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 13, Dex 20, Con 15, Int 10, Wis 12, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Agile Maneuvers, Dodge, Flyby Attack, Skill Focus (Perception), Weapon Finesse
+Skills: Acrobatics +11, Bluff +10, Fly +20, Knowledge (nature) +8, Perception +14, Sense Motive +9, Stealth +20
+Racial Modifiers: +4 Stealth
+Languages: Common, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (trumpeter swan; [beast shape I](ref/spell/beast-shape-1)), feather cloak, trackless step, transformation ritual
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 armor, +4 Dex, +1 dodge, +1 natural
-
-**Hit points:** 55 (10d6+20)
-
-**Fort:** +5
-
-**Ref:** +12
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (good)
-
-**Melee:** mwk rapier +11 (1d6+1/18-20)
-
-**Ranged:** longbow +10 (1d8/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**At will:**
-
-- dancing lights
-
-**Per day:**
-
-- 1/day: confusion (DC 16), deep slumber (DC 15), entangle (DC 13), glitterdust (DC 14), major image
-  (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 20, Con 15, Int 10, Wis 12, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Agile Maneuvers, Dodge, Flyby Attack, Skill Focus (Perception), Weapon Finesse
-
-**Skills:** Acrobatics +11, Bluff +10, Fly +20, Knowledge (nature) +8, Perception +14, Sense Motive
-+9, Stealth +20
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (trumpeter swan;
-[beast shape I](ref/spell/beast-shape-1)), feather cloak, trackless step, transformation ritual
-
-**Ecology**
-
-**Environment:** temperate lakes or swamps
-
-**Organization:** solitary, pair, or flock (3-10)
-
-**Treasure:** Standard (chain shirt, mwk longsword, lb20); other treasure
+::: statblock
+Environment: temperate lakes or swamps
+Organization: solitary, pair, or flock (3-10)
+Treasure: Standard (chain shirt, mwk longsword, lb20); other treasure
+:::
 
 ### Special Abilities
 

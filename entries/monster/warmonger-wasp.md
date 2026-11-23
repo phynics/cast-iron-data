@@ -34,82 +34,63 @@ abilities = ["18", "23", "-", "3", "13", "1"]
 _This wasp-like creature seems to be partially made of metal. Its wings create an iridescent glow as
 it buzzes through the air._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Type: construct
+Initiative: +10
+Size: large
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 15
+AC modifiers: +6 Dex, +6 natural, -1 size
+Hit points: 85 (10d10+30)
+Fort: +5
+Ref: +9
+Will: +4
+Fh: 5
+Immune: electricity, [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +10
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., fly 30 ft. (good)
+Melee: bite +15 (1d8+4), 2 claws +15 (1d6+4), sting +15 (1d6+4/19-20 plus poison)
+Reach: 10
+Space: 10
+Spec Att: static discharge, poison
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 23, Con -, Int 3, Wis 13, Cha 1
+Base attack bonus: +10
+Combat maneuver bonus: +15
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Ability Focus (poison), Great Fortitude, Improved Critical (sting), Improved Initiative, Weapon Finesse
+Skills: Fly +14, Perception +13, Stealth +13
+Racial Modifiers: +8 Perception, +8 Stealth
+Languages: Abyssal (can't speak)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 Dex, +6 natural, -1 size
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +4
-
-**Fh:** 5
-
-**Immune:** electricity, [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (good)
-
-**Melee:** bite +15 (1d8+4), 2 claws +15 (1d6+4), sting +15 (1d6+4/19-20 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** static discharge, poison
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 23, Con -, Int 3, Wis 13, Cha 1
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Ability Focus (poison), Great Fortitude, Improved Critical (sting), Improved Initiative,
-Weapon Finesse
-
-**Skills:** Fly +14, Perception +13, Stealth +13
-
-**Racial Modifiers:** +8 Perception, +8 Stealth
-
-**Languages:** Abyssal (can't speak)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or flight (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or flight (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

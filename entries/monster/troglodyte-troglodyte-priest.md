@@ -32,86 +32,60 @@ abilities = ["20", "9", "12", "10", "15", "13"]
 _This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long
 tail and crests on its head and back._
 
-**Challenge rating:** 3
-
 **Troglodyte [cleric](ref/class/cleric) 3**
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 14, 10 rounds)
+::: statblock
+Challenge rating: 3
+aura: [stench](ref/umr/stench) (30 ft., DC 14, 10 rounds)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: medium
+Perception: +2
+Senses: Darkvision 90 ft.
+Subtype: Reptilian
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +4 armor, -1 Dex, +6 natural
+Hit points: 30 (5d8+8)
+Fort: +7
+Ref: +0
+Will: +5
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+Ch N En: 4/day, DC 14, 2d6
+Melee: +1 obsidian spiked gauntlet +10 (1d4+6), bite +3 (1d4+5), claw +3 (1d4+5) or bite +8 (1d4+5), 2 claws +8 (1d4+5)
+Ranged: javelin +2 (1d6+5)
+Spec Att: fury of the Abyss (+1, 5/day)
+:::
 
-**Perception:** +2
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5
+Per day: 5/day: strength surge, +1
+:::
 
-**Senses:** Darkvision 90 ft.
-
-**Subtype:** Reptilian
-
-**Experience points:** 800
-
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 armor, -1 Dex, +6 natural
-
-**Hit points:** 30 (5d8+8)
-
-**Fort:** +7
-
-**Ref:** +0
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** 4/day, DC 14, 2d6
-
-**Melee:** +1 obsidian spiked gauntlet +10 (1d4+6), bite +3 (1d4+5), claw +3 (1d4+5) or bite +8
-(1d4+5), 2 claws +8 (1d4+5)
-
-**Ranged:** javelin +2 (1d6+5)
-
-**Spec Att:** fury of the Abyss (+1, 5/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**Per day:**
-
-- 5/day: strength surge, +1
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**2nd-level spells:**
-
-- amplify stench, bull's strength^D^, hold person (DC 14)
-
-**1st-level spells:**
-
-- bless, command (DC 13), doom^D^ (DC 13), magic weapon
-
-**Cantrips:**
-
-- bleed (DC 12), detect magic, guidance, spark
-
-**Domains:** Demon, Strength
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+Concentration: +5
+2nd-level spells: amplify stench, bull's strength^D^, hold person (DC 14)
+1st-level spells: bless, command (DC 13), doom^D^ (DC 13), magic weapon
+Cantrips: bleed (DC 12), detect magic, guidance, spark
+Domains: Demon, Strength
+:::
 
 ###### D {#footnote-d}
 
@@ -127,31 +101,25 @@ statistics are Aura stench (30 ft., DC 12, 10 rounds); Melee mwk obsidian spiked
 (1d4+3), bite +1 (1d4+3), claw +1 (1d4+3), or bite +6 (1d4+3), 2 claws +6 (1d4+3); Ranged javelin +2
 (1d6+3); Str 16; CMB +6; CMD 15.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 9, Con 12, Int 10, Wis 15, Cha 13
+::: statblock
+Ability scores: Str 20, Dex 9, Con 12, Int 10, Wis 15, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 17
+Feats: Combat Casting, Improved Channel, Weapon Focus (spiked gauntlet)
+Skills: Heal +7, Knowledge (planes) +4, Sense Motive +7, Spellcraft +5, Stealth +1 (+5 in rocky areas)
+Languages: Draconic
+Combat gear: 2 potion of cure moderate wounds, scroll of spiritual weapon, Dcure light wounds/20 charges, thunderstone
+Other gear: mwk Ah, 6 javelins, mwk MO -spiked gauntlet, wooden holy symbol, 96 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Casting, Improved Channel, Weapon Focus (spiked gauntlet)
-
-**Skills:** Heal +7, Knowledge (planes) +4, Sense Motive +7, Spellcraft +5, Stealth +1 (+5 in rocky
-areas)
-
-**Languages:** Draconic
-
-**Combat gear:** 2 potion of cure moderate wounds, scroll of spiritual weapon, Dcure light wounds/20
-charges, thunderstone
-
-**Other gear:** mwk Ah, 6 javelins, mwk MO -spiked gauntlet, wooden holy symbol, 96 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

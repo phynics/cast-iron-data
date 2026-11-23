@@ -33,86 +33,65 @@ abilities = ["22", "16", "-", "5", "13", "12"]
 _This chittering, scorpion-shaped monstrosity appears to be made of a hideous mix of chitinous limbs
 and human skulls._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: dread visage (30 ft., DC 18)
+Alignment: Chaotic neutral
+Type: construct
+Initiative: +3
+Size: large
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**aura:** dread visage (30 ft., DC 18)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 24
+Touch: 12
+Flat-footed: 21
+AC modifiers: +3 Dex, +12 natural, -1 size
+Hit points: 112 (15d10+30)
+Fort: +5
+Ref: +10
+Will: +6
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: cold 10
+Sr: 20
+:::
 
-**Type:** construct
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Constrict: 2d6+9
+Melee: 2 claws +20 (2d6+6/19-20 plus [grab](ref/umr/grab)), sting +20 (1d10+6 plus poison)
+Reach: 10
+Space: 10
+Spec Att: behead
+:::
 
-**Size:** large
+### Statistics
 
-**Perception:** +1
+::: statblock
+Ability scores: Str 22, Dex 16, Con -, Int 5, Wis 13, Cha 12
+Base attack bonus: +15
+Combat maneuver bonus: +22 (+26 grapple)
+Combat maneuver defense: 35 (47 vs. trip)
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Improved Critical (claw), Lightning Reflexes, Power Attack, Skill Focus (Stealth), Vital Strike
+Skills: Climb +19, Stealth +15
+Languages: Thassilonian (can't speak)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 24
-
-**Touch:** 12
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 Dex, +12 natural, -1 size
-
-**Hit points:** 112 (15d10+30)
-
-**Fort:** +5
-
-**Ref:** +10
-
-**Will:** +6
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** cold 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Constrict:** 2d6+9
-
-**Melee:** 2 claws +20 (2d6+6/19-20 plus [grab](ref/umr/grab)), sting +20 (1d10+6 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** behead
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 16, Con -, Int 5, Wis 13, Cha 12
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +22 (+26 grapple)
-
-**Combat maneuver defense:** 35 (47 vs. trip)
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Improved Critical (claw), Lightning
-Reflexes, Power Attack, Skill Focus (Stealth), Vital Strike
-
-**Skills:** Climb +19, Stealth +15
-
-**Languages:** Thassilonian (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or nest (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,94 +31,71 @@ abilities = ["30", "16", "24", "7", "16", "13"]
 _This massive, translucent frog-like creature has an incredibly wide, tooth-filled maw and six
 eyes._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Initiative: +7
+Type: Magical beast
+Alignment: Neutral
+Perception: +19
+Senses: All-around vision, Darkvision 60 ft., Low-light vision
+Subtype: Air, Extraplanar
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 22
+AC modifiers: +3 Dex, +14 natural, -2 size
+Hit points: 137 (11d10+77)
+Fort: +14
+Ref: +12
+Will: +6
+Immune: cold
+Resist: electricity 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 30 ft. (perfect)
+F Swallow: present
+Melee: bite +20 (2d6+10/19-20 plus [grab](ref/umr/grab)), tail slap +14 (2d6+5)
+Reach: 15
+Space: 15
+Spec Att: vacuum attack, viscous air
+Swallow: 4d6 cold damage, AC 17, 13 hp
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +11
+At will: invisibility, self only, see invisibility
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Air, Extraplanar
+::: statblock
+Ability scores: Str 30, Dex 16, Con 24, Int 7, Wis 16, Cha 13
+Base attack bonus: +11
+Combat maneuver bonus: +23
+Combat maneuver defense: 36 (can't be tripped)
+Feats: Combat Reflexes, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus (bite)
+Skills: Acrobatics +6, Fly +7, Perception +19, Stealth +12
+Racial Modifiers: +8 Perception, +8 Stealth
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 Dex, +14 natural, -2 size
-
-**Hit points:** 137 (11d10+77)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +6
-
-**Immune:** cold
-
-**Resist:** electricity 10
-
-**Offense**
-
-**Speed:** 20 ft., fly 30 ft. (perfect)
-
-**F Swallow:** present
-
-**Melee:** bite +20 (2d6+10/19-20 plus [grab](ref/umr/grab)), tail slap +14 (2d6+5)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** vacuum attack, viscous air
-
-**Swallow:** 4d6 cold damage, AC 17, 13 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +11
-
-**At will:**
-
-- invisibility, self only, see invisibility
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 16, Con 24, Int 7, Wis 16, Cha 13
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 36 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power
-Attack, Weapon Focus (bite)
-
-**Skills:** Acrobatics +6, Fly +7, Perception +19, Stealth +12
-
-**Racial Modifiers:** +8 Perception, +8 Stealth
-
-**Ecology**
-
-**Environment:** any ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

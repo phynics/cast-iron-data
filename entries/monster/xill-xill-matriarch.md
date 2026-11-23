@@ -33,81 +33,61 @@ abilities = ["21", "18", "18", "15", "18", "19"]
 _This flame-red, four-armed creature has large mandibles and numerous horn-like projections spike
 from its head._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar
+Experience points: 6,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 23
+Touch: 14
+Flat-footed: 19
+AC modifiers: +4 Dex, +7 natural, +2 shield
+Hit points: 123 (13d10+52)
+Fort: +12
+Ref: +10
+Will: +12
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: mwk short sword +19/+14/+9 (1d6+5/19-20), mwk short sword +19/+14 (1d6+5/19-20), claw +18 (1d4+5 plus [grab](ref/umr/grab)), bite +13 (1d3+2 plus paralysis) or 4 claws +18 (1d4+5 plus grab), bite +18 (1d3+5 plus paralysis)
+Paralysis: 1d4 hours, DC 20
+Ranged: mwk composite longbow +18/+13/+8 (1d8+5/×3), mwk composite longbow +18/+13 (1d8+5/×3)
+Spec Att: implant
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 21, Dex 18, Con 18, Int 15, Wis 18, Cha 19
+Base attack bonus: +13
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 32
+Feats: Combat Reflexes, Improved Initiative, Improved Two-Weapon Fighting, Lightning Reflexes, Power Attack, Psychic Sensitivity, Two-Weapon Rend
+Skills: Acrobatics +19 (+23 when jumping), Bluff +20, Intimidate +20, Knowledge (arcana) +18, Perception +20, Sense Motive +20, Stealth +19
+Languages: Common, Infernal
+Special qualities: matriarch weapon mastery, swift planewalk
+:::
 
-**Subtype:** Evil, Extraplanar
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 14
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +7 natural, +2 shield
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +12
-
-**Ref:** +10
-
-**Will:** +12
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** mwk short sword +19/+14/+9 (1d6+5/19-20), mwk short sword +19/+14 (1d6+5/19-20), claw +18
-(1d4+5 plus [grab](ref/umr/grab)), bite +13 (1d3+2 plus paralysis) or 4 claws +18 (1d4+5 plus grab),
-bite +18 (1d3+5 plus paralysis)
-
-**Paralysis:** 1d4 hours, DC 20
-
-**Ranged:** mwk composite longbow +18/+13/+8 (1d8+5/×3), mwk composite longbow +18/+13 (1d8+5/×3)
-
-**Spec Att:** implant
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 18, Con 18, Int 15, Wis 18, Cha 19
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 32
-
-**Feats:** Combat Reflexes, Improved Initiative, Improved Two-Weapon Fighting, Lightning Reflexes,
-Power Attack, Psychic Sensitivity, Two-Weapon Rend
-
-**Skills:** Acrobatics +19 (+23 when jumping), Bluff +20, Intimidate +20, Knowledge (arcana) +18,
-Perception +20, Sense Motive +20, Stealth +19
-
-**Languages:** Common, Infernal
-
-**Special qualities:** matriarch weapon mastery, swift planewalk
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary or gang (1 plus 2-6 [xills](ref/monster/xill))
-
-**Treasure:** Standard (mwk heavy steel shield, 2 mwk short swords, 2 mwk cls40); other treasure
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary or gang (1 plus 2-6 [xills](ref/monster/xill))
+Treasure: Standard (mwk heavy steel shield, 2 mwk short swords, 2 mwk cls40); other treasure
+:::
 
 ### Special Abilities
 

@@ -31,100 +31,73 @@ abilities = ["12", "21", "17", "18", "14", "21"]
 _This hairless, black-skinned elf-like creature has an expressionless face and wields an eerie ebon
 sword._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: fey
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Perception: +18
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 4,800
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 15
+AC modifiers: +5 Dex, +5 natural
+Hit points: 84 (13d6+39)
+Fort: +6
+Ref: +13
+Will: +12
+Dr: 10/cold iron
+Resist: cold 10, electricity 10
+Sr: 19
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: +1 longsword +9/+6 (1d8+4/19-20)
+Sneak: +3d6
+Spec Att: bane, quickened spell strike
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+At will: chill touch (DC 16), corrosive touch
+Per day: 3/day: frigid touch, shadow step, vanish\
+1/day: force punch (DC 18), greater invisibility, ray of exhaustion (DC 18)
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 12, Dex 21, Con 17, Int 18, Wis 14, Cha 21
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 22
+Feats: Agile Maneuvers, Combat Casting, Iron Will, Skill Focus (Stealth), Stealthy, Vital Strike, Weapon Focus (longsword)
+Skills: Acrobatics +21 (+25 when jumping), Bluff +21, Escape Artist +25, Intimidate +18, Knowledge (nature) +20, Perception +18, Sense Motive +18, Sleight of Hand +21, Stealth +31
+Racial Modifiers: +4 Acrobatics when jumping
+Languages: Aklo, Common, Elven, Sylvan
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +5 natural
-
-**Hit points:** 84 (13d6+39)
-
-**Fort:** +6
-
-**Ref:** +13
-
-**Will:** +12
-
-**Dr:** 10/cold iron
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 19
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 longsword +9/+6 (1d8+4/19-20)
-
-**Sneak:** +3d6
-
-**Spec Att:** bane, quickened spell strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**At will:**
-
-- chill touch (DC 16), corrosive touch
-
-**Per day:**
-
-- 3/day: frigid touch, shadow step, vanish
-- 1/day: force punch (DC 18), greater invisibility, ray of exhaustion (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 21, Con 17, Int 18, Wis 14, Cha 21
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 22
-
-**Feats:** Agile Maneuvers, Combat Casting, Iron Will, Skill Focus (Stealth), Stealthy, Vital
-Strike, Weapon Focus (longsword)
-
-**Skills:** Acrobatics +21 (+25 when jumping), Bluff +21, Escape Artist +25, Intimidate +18,
-Knowledge (nature) +20, Perception +18, Sense Motive +18, Sleight of Hand +21, Stealth +31
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Languages:** Aklo, Common, Elven, Sylvan
-
-**Ecology**
-
-**Environment:** any ([Shadow Plane](ref/rule/shadow-plane))
-
-**Organization:** solitary, pair, cabal (3-12), or clan (10-30)
-
-**Treasure:** NPC gear (+1 longsword); other treasure
+::: statblock
+Environment: any ([Shadow Plane](ref/rule/shadow-plane))
+Organization: solitary, pair, cabal (3-12), or clan (10-30)
+Treasure: NPC gear (+1 longsword); other treasure
+:::
 
 ### Special Abilities
 

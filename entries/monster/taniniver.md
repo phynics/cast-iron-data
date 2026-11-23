@@ -29,106 +29,75 @@ abilities = ["33", "11", "25", "18", "17", "20"]
 _This legless, winged, white-eyed dragon is covered in patches of diseased flesh, squirming with
 maggots and oozing pus._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 25)
+Type: dragon
+Size: huge
+Initiative: +4
+Alignment: Neutral evil
+Perception: +26
+Senses: Darkvision 120 ft., Deathwatch
+Experience points: 153,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 25)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 33
+Touch: 8
+Flat-footed: 33
+AC modifiers: +25 natural, -2 size
+Hit points: 270 (20d12+140)
+Fort: +21
+Ref: +12
+Will: +15
+Defensive abilities: negative energy affinity
+Dr: 15/good and magic
+Immune: paralysis, sleep, visual effects
+Resist: acid 30, cold 30, electricity 30, fire 30
+Sr: 29
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 30 ft., fly 200 ft. (clumsy)
+Br Weap: 60-ft. cone, 1d6 Str drain plus mummy rot, Fortitude DC 27 negates, usable every 1d4 rounds
+Melee: bite +30 (4d6+11 plus disease), 2 claws +30 (2d8+11 plus disease), tail slap +24 (2d8+5 plus disease)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: deathwatch
+Per day: 3/day: animate dead, inflict serious wounds (DC 18)\
+1/day: eyebite (DC 21), horrid wilting (DC 23), symbol of pain (DC 20)
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 120 ft., Deathwatch
+::: statblock
+Ability scores: Str 33, Dex 11, Con 25, Int 18, Wis 17, Cha 20
+Base attack bonus: +20
+Combat maneuver bonus: +33
+Combat maneuver defense: 43 (can't be tripped)
+Feats: Cleave, Combat Reflexes, Critical Focus, Great Fortitude, Improved Initiative, Power Attack, Sickening Critical, Vital Strike, Weapon Focus (bite), Weapon Focus (claw)
+Skills: Bluff +28, Fly -12, Intimidate +28, Knowledge (arcana) +27, Perception +26, Sense Motive +26, Spellcraft +27, Stealth +15, Use Magic Device +28
+Languages: Common, Draconic, Undercommon
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 8
-
-**Flat-footed:** 33
-
-**AC modifiers:** +25 natural, -2 size
-
-**Hit points:** 270 (20d12+140)
-
-**Fort:** +21
-
-**Ref:** +12
-
-**Will:** +15
-
-**Defensive abilities:** negative energy affinity
-
-**Dr:** 15/good and magic
-
-**Immune:** paralysis, sleep, visual effects
-
-**Resist:** acid 30, cold 30, electricity 30, fire 30
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 30 ft., fly 200 ft. (clumsy)
-
-**Br Weap:** 60-ft. cone, 1d6 Str drain plus mummy rot, Fortitude DC 27 negates, usable every 1d4
-rounds
-
-**Melee:** bite +30 (4d6+11 plus disease), 2 claws +30 (2d8+11 plus disease), tail slap +24 (2d8+5
-plus disease)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- deathwatch
-
-**Per day:**
-
-- 3/day: animate dead, inflict serious wounds (DC 18)
-- 1/day: eyebite (DC 21), horrid wilting (DC 23), symbol of pain (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 11, Con 25, Int 18, Wis 17, Cha 20
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 43 (can't be tripped)
-
-**Feats:** Cleave, Combat Reflexes, Critical Focus, Great Fortitude, Improved Initiative, Power
-Attack, Sickening Critical, Vital Strike, Weapon Focus (bite), Weapon Focus (claw)
-
-**Skills:** Bluff +28, Fly -12, Intimidate +28, Knowledge (arcana) +27, Perception +26, Sense Motive
-+26, Spellcraft +27, Stealth +15, Use Magic Device +28
-
-**Languages:** Common, Draconic, Undercommon
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land or underground
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

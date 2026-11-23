@@ -30,69 +30,57 @@ abilities = ["12", "14", "11", "2", "11", "5"]
 _This small goat has sharp horns that wrap around its head to point forward, making it resemble a
 tiny bull._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 9 (2d8)
+Fort: +3
+Ref: +5
+Will: +0
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft.
+Melee: gore +3 (1d4+1)
+Spec Att: egg cracker
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 14, Con 11, Int 2, Wis 11, Cha 5
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 13 (17 vs. trip)
+Feats: Skill Focus (Escape Artist)
+Skills: Escape Artist +6 (+8 to escape a grapple), Perception +4
+Racial Modifiers: +2 Escape Artist to escape a grapple
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +3 (1d4+1)
-
-**Spec Att:** egg cracker
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 14, Con 11, Int 2, Wis 11, Cha 5
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13 (17 vs. trip)
-
-**Feats:** Skill Focus (Escape Artist)
-
-**Skills:** Escape Artist +6 (+8 to escape a grapple), Perception +4
-
-**Racial Modifiers:** +2 Escape Artist to escape a grapple
-
-**Ecology**
-
-**Environment:** temperate hills or plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills or plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

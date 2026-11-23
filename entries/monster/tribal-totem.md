@@ -33,73 +33,59 @@ features shift and reform with every step, cycling through a variety of faces bo
 familiar. Bits of feather, leaves, and decorative stone embellish its surface, and the strong smell
 of lacquer and resin assaults the senses as it draws near with a menacing, ponderous gait._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: construct
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 17
+AC modifiers: +2 Dex, +7 natural
+Hit points: 69 (9d10+20)
+Fort: +3
+Ref: +5
+Will: +4
+Dr: 5/slashing
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: fire
+Weaknesses: ceremonial activation
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +12 (1d10+3)
+Spec Att: spirit link
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 14, Con -, Int -, Wis 13, Cha 14
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 24
+Special qualities: effigy, mouthpiece
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +7 natural
-
-**Hit points:** 69 (9d10+20)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +4
-
-**Dr:** 5/slashing
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** fire
-
-**Weaknesses:** ceremonial activation
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +12 (1d10+3)
-
-**Spec Att:** spirit link
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con -, Int -, Wis 13, Cha 14
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24
-
-**Special qualities:** effigy, mouthpiece
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

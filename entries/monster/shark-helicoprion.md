@@ -31,77 +31,61 @@ _This creature resembles an ordinary shark from tail to mouth, but the unusual s
 jaw marks it as something else. A whorl of teeth spirals inward, tiny at the centre, but long and
 brutal farther out._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+blindsense: 30
+Initiative: +8
+Keen Scent: present
+Size: large
+Alignment: Neutral
+Perception: +12
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 15
+AC modifiers: +4 Dex, +6 natural, -1 size
+Hit points: 68 (8d8+32)
+Fort: +12
+Ref: +12
+Will: +3
+:::
 
-**Initiative:** +8
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: swim 60 ft.
+Bleed: 1d4
+Melee: bite +12 (1d8+10 plus 1d4 bleed)
+Reach: 5
+Space: 10
+Spec Att: whorled jaw
+:::
 
-**Size:** large
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 25, Dex 18, Con 19, Int 3, Wis 12, Cha 4
+Base attack bonus: +6
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 28
+Feats: Endurance, Great Fortitude, Improved Initiative, Lightning Reflexes
+Skills: Perception +12, Swim +15
+:::
 
-**Perception:** +12
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +6 natural, -1 size
-
-**Hit points:** 68 (8d8+32)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Bleed:** 1d4
-
-**Melee:** bite +12 (1d8+10 plus 1d4 bleed)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** whorled jaw
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 18, Con 19, Int 3, Wis 12, Cha 4
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 28
-
-**Feats:** Endurance, Great Fortitude, Improved Initiative, Lightning Reflexes
-
-**Skills:** Perception +12, Swim +15
-
-**Ecology**
-
-**Environment:** temperate oceans
-
-**Organization:** solitary, pair, school (3-6), or pack (7-13)
-
-**Treasure:** None
+::: statblock
+Environment: temperate oceans
+Organization: solitary, pair, school (3-6), or pack (7-13)
+Treasure: None
+:::
 
 ### Special Abilities
 

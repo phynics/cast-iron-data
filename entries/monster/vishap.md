@@ -31,159 +31,94 @@ abilities = ["37", "15", "26", "18", "14", "25"]
 
 _This slender dragon is covered in vivid cerulean scales with four powerful wings to match._
 
-**Challenge rating:** 19
-
-**aura:** [frightful presence](ref/umr/frightful-presence) (300 ft., DC 29)
-
-**Size:** colossal
-
-**Type:** dragon
-
-**Initiative:** +6
-
-**Alignment:** Neutral
-
-**Perception:** +30
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Extraplanar
-
-**Experience points:** 204,800
-
-**Armor class:** 35
-
-**Touch:** 4
-
-**Flat-footed:** 33
-
-**AC modifiers:** +2 Dex, +31 natural, -8 size
-
-**Hit points:** 362 (25d12+200)
-
-**Fort:** +22
-
-**Ref:** +16
-
-**Will:** +16
-
-**Defensive abilities:** poisoned blood
-
-**Dr:** 15/magic
-
-**Immune:** poison, paralysis, sleep
-
-**Resist:** cold 15, cold 15, electricity 15, fire 15
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 50 ft., swim 100 ft., fly 200 ft. (average)
-
-**Br Weap:** 60-ft. cone, 25d6 acid, Reflex DC 30 half, usable every 1d4 rounds
-
-**Constrict:** 2d8+13
-
-**Melee:** bite +30 (2d8+13/19-20 plus [grab](ref/umr/grab) and poison), tail slap +28 (4d6+19), 2
-wings +28 (2d8+6), 2 claws +30 (2d8+13 plus grab)
-
-**Reach:** 30
-
-**Reach P:** 40 ft. with bite
-
-**Sp Extra:** ley swim
-
-**Space:** 30
-
-**Spec Att:** poison
-
-**Swallow:** 10d6 bludgeoning damage, AC 25, 36 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 25
-
-**Concentration:** +32
-
-**Constant:**
-
-- tongues
-
-**At will:**
-
-- etherealness
-
-**Per day:**
-
-- 5/day: greater create mindscape, greater possession (DC 25)
-
-**Spells Known**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**7th-level spells:**
-
-- 1/day: ethereal envelopment (DC 24), psychic crush III (DC 24)
-
-**6th-level spells:**
-
-- 2/day: ego whip IV (DC 23), psychic surgery
-
-**5th-level spells:**
-
-- 3/day: etheric shards (DC 22), explode head (DC 22), id insinuation IV (DC 22), wall of ectoplasm
-
-**4th-level spells:**
-
-- 5/day: condensed ether, mind probe (DC 21), mindwipe (DC 21), synaptic scramble (DC 21), thought
-  shield III, thoughtsense
-
-**3rd-level spells:**
-
-- 6/day: analyze aura, ectoplasmic snare, node of blasting (DC 20), purge spirit, mindscape door,
-  synaptic pulse (DC 20)
-
-**2nd-level spells:**
-
-- 7/day: anticipate thoughts, aversion (DC 19), demand offering (DC 19), detect mindscape,
-  hypercognition, instigate psychic duel (DC 19), mental block (DC 19)
-
-**1st-level spells:**
-
-- 7/day: burst of adrenaline, charge object, decrepit disguise (DC 18), deja vu, mindlink, psychic
-  reading, telempathic projection
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 15, Con 26, Int 18, Wis 14, Cha 25
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +46 (+50 grapple)
-
-**Combat maneuver defense:** 58 (62 vs. trip)
-
-**Feats:** Critical Focus, Exhausting Critical, Flyby Attack, Greater Vital Strike, Hover, Improved
-Critical (bite), Improved Initiative, Improved Vital Strike, Multiattack, Power Attack, Tiring
-Critical, Vital Strike, Wingover
-
-**Skills:** Climb +21, Fly +22, Use Magic Device +30
-
-**Languages:** Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Sylvan;
-[telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
-
-**Special qualities:** vishapakar affinity
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** Triple
+::: statblock
+Challenge rating: 19
+aura: [frightful presence](ref/umr/frightful-presence) (300 ft., DC 29)
+Size: colossal
+Type: dragon
+Initiative: +6
+Alignment: Neutral
+Perception: +30
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 204,800
+:::
+
+### Defense
+
+::: statblock
+Armor class: 35
+Touch: 4
+Flat-footed: 33
+AC modifiers: +2 Dex, +31 natural, -8 size
+Hit points: 362 (25d12+200)
+Fort: +22
+Ref: +16
+Will: +16
+Defensive abilities: poisoned blood
+Dr: 15/magic
+Immune: poison, paralysis, sleep
+Resist: cold 15, cold 15, electricity 15, fire 15
+Sr: 30
+:::
+
+### Offense
+
+::: statblock
+Speed: 50 ft., swim 100 ft., fly 200 ft. (average)
+Br Weap: 60-ft. cone, 25d6 acid, Reflex DC 30 half, usable every 1d4 rounds
+Constrict: 2d8+13
+Melee: bite +30 (2d8+13/19-20 plus [grab](ref/umr/grab) and poison), tail slap +28 (4d6+19), 2 wings +28 (2d8+6), 2 claws +30 (2d8+13 plus grab)
+Reach: 30
+Reach P: 40 ft. with bite
+Sp Extra: ley swim
+Space: 30
+Spec Att: poison
+Swallow: 10d6 bludgeoning damage, AC 25, 36 hp
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 25
+Concentration: +32
+Constant: tongues
+At will: etherealness
+Per day: 5/day: greater create mindscape, greater possession (DC 25)
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 15
+Concentration: +22
+7th-level spells: 1/day: ethereal envelopment (DC 24), psychic crush III (DC 24)
+6th-level spells: 2/day: ego whip IV (DC 23), psychic surgery
+5th-level spells: 3/day: etheric shards (DC 22), explode head (DC 22), id insinuation IV (DC 22), wall of ectoplasm
+4th-level spells: 5/day: condensed ether, mind probe (DC 21), mindwipe (DC 21), synaptic scramble (DC 21), thought shield III, thoughtsense
+3rd-level spells: 6/day: analyze aura, ectoplasmic snare, node of blasting (DC 20), purge spirit, mindscape door, synaptic pulse (DC 20)
+2nd-level spells: 7/day: anticipate thoughts, aversion (DC 19), demand offering (DC 19), detect mindscape, hypercognition, instigate psychic duel (DC 19), mental block (DC 19)
+1st-level spells: 7/day: burst of adrenaline, charge object, decrepit disguise (DC 18), deja vu, mindlink, psychic reading, telempathic projection
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 37, Dex 15, Con 26, Int 18, Wis 14, Cha 25
+Base attack bonus: +25
+Combat maneuver bonus: +46 (+50 grapple)
+Combat maneuver defense: 58 (62 vs. trip)
+Feats: Critical Focus, Exhausting Critical, Flyby Attack, Greater Vital Strike, Hover, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Multiattack, Power Attack, Tiring Critical, Vital Strike, Wingover
+Skills: Climb +21, Fly +22, Use Magic Device +30
+Languages: Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Sylvan; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+Special qualities: vishapakar affinity
+:::
+
+### Ecology
+
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -33,107 +33,74 @@ abilities = ["34", "16", "27", "16", "19", "23"]
 
 _This massive creature has the body of a resplendent bird but the head of a regal canine._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: peace (50 ft.)
+Size: gargantuan
+Initiative: +7
+Type: Magical beast
+Alignment: Neutral good
+Perception: +27
+Senses: Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+Experience points: 153,600
+:::
 
-**aura:** peace (50 ft.)
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 34
+Touch: 10
+Flat-footed: 30
+AC modifiers: +3 Dex, +1 dodge, +24 natural, -4 size
+Hit points: 324 (24d10+192)
+Fort: +22
+Ref: +17
+Will: +14
+Immune: ability damage, ability drain, disease, fire, negative energy, petrification, poison, sleep
+Resist: acid 10, cold 10, electricity 10
+Sr: 29
+:::
 
-**Initiative:** +7
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft., fly 120 ft. (good)
+Melee: bite +32 (2d8+12 plus 2d6 fire), 2 claws +32 (2d8+12 plus 2d6 fire), tail slap +30 (1d4+6 plus banishing swipe)
+Ranged: glaring ray +23 touch (20d6 fire)
+Reach: 20
+Space: 20
+Spec Att: banishing swipe, glaring ray, radiant feathers
+:::
 
-**Alignment:** Neutral good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +22
+Constant: detect evil, detect magic, tongues
+At will: daylight, zone of truth (DC 18)
+Per day: 3/day: flame strike (DC 21), mass cure critical wounds
+:::
 
-**Perception:** +27
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 16, Con 27, Int 16, Wis 19, Cha 23
+Base attack bonus: +24
+Combat maneuver bonus: +40
+Combat maneuver defense: 54
+Feats: Combat Expertise, Combat Reflexes, Dodge, Flyby Attack, Hover, Improved Disarm, Improved Initiative, Iron Will, Mobility, Multiattack, Snatch, Wingover
+Skills: Diplomacy +26, Fly +7, Knowledge (arcana) +33, Knowledge (dungeoneering) +21, Perception +27
+Racial Modifiers: +10 Knowledge (all)
+Languages: Celestial, Common, Draconic; _[tongues](ref/spell/tongues)_
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 34
-
-**Touch:** 10
-
-**Flat-footed:** 30
-
-**AC modifiers:** +3 Dex, +1 dodge, +24 natural, -4 size
-
-**Hit points:** 324 (24d10+192)
-
-**Fort:** +22
-
-**Ref:** +17
-
-**Will:** +14
-
-**Immune:** ability damage, ability drain, disease, fire, negative energy, petrification, poison,
-sleep
-
-**Resist:** acid 10, cold 10, electricity 10
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 40 ft., fly 120 ft. (good)
-
-**Melee:** bite +32 (2d8+12 plus 2d6 fire), 2 claws +32 (2d8+12 plus 2d6 fire), tail slap +30 (1d4+6
-plus banishing swipe)
-
-**Ranged:** glaring ray +23 touch (20d6 fire)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** banishing swipe, glaring ray, radiant feathers
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +22
-
-**Constant:**
-
-- detect evil, detect magic, tongues
-
-**At will:**
-
-- daylight, zone of truth (DC 18)
-
-**Per day:**
-
-- 3/day: flame strike (DC 21), mass cure critical wounds
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 16, Con 27, Int 16, Wis 19, Cha 23
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +40
-
-**Combat maneuver defense:** 54
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Flyby Attack, Hover, Improved Disarm, Improved
-Initiative, Iron Will, Mobility, Multiattack, Snatch, Wingover
-
-**Skills:** Diplomacy +26, Fly +7, Knowledge (arcana) +33, Knowledge (dungeoneering) +21, Perception
-+27
-
-**Racial Modifiers:** +10 Knowledge (all)
-
-**Languages:** Celestial, Common, Draconic; _[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** warm deserts or mountains
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts or mountains
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

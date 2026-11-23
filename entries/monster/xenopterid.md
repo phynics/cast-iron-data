@@ -31,83 +31,66 @@ abilities = ["20", "17", "19", "-", "12", "7"]
 _What appears to be this creature's cloak unfurls into bug wings, and its apparently human face is
 merely patterns on its head._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +3
+Lifesense: present
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 3,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Lifesense:** present
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +3 Dex, +8 natural
+Hit points: 93 (11d8+44)
+Fort: +11
+Ref: +6
+Will: +4
+Ferocity: present
+Immune: mind-affecting effects
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 20 ft., fly 20 ft. (clumsy)
+B Drain: 1d2 Constitution
+Melee: 2 claws +13 (1d6+5 plus [grab](ref/umr/grab)), bite +13 (1d6+5 plus poison)
+Spec Att: poison
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Type:** vermin
-
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +8 natural
-
-**Hit points:** 93 (11d8+44)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +4
-
-**Ferocity:** present
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., fly 20 ft. (clumsy)
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** 2 claws +13 (1d6+5 plus [grab](ref/umr/grab)), bite +13 (1d6+5 plus poison)
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 19, Int -, Wis 12, Cha 7
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13 (+17 grapple)
-
-**Combat maneuver defense:** 26 (34 vs. trip)
-
-**Feats:** Improved Critical^B^ (claw)
-
-**Skills:** Climb +13, Stealth +11
-
-**Racial Modifiers:** +8 Disguise (+16 when disguised as a humanoid), +8 Stealth
-
-**Special qualities:** entangling slime
+::: statblock
+Ability scores: Str 20, Dex 17, Con 19, Int -, Wis 12, Cha 7
+Base attack bonus: +8
+Combat maneuver bonus: +13 (+17 grapple)
+Combat maneuver defense: 26 (34 vs. trip)
+Feats: Improved Critical^B^ (claw)
+Skills: Climb +13, Stealth +11
+Racial Modifiers: +8 Disguise (+16 when disguised as a humanoid), +8 Stealth
+Special qualities: entangling slime
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land or underground
-
-**Organization:** solitary, pair, or hive (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: any land or underground
+Organization: solitary, pair, or hive (3-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

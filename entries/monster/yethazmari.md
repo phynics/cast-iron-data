@@ -32,105 +32,75 @@ abilities = ["26", "20", "22", "17", "23", "22"]
 _This starving, jackal-like monstrosity has a fanged snake where its tail should be, tattered wings,
 and smoking eye sockets._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Initiative: +9
+Size: large
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft., Scent
+Subtype: Chaotic, Evil, Extraplanar, Herald
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 32
+Touch: 14
+Flat-footed: 27
+AC modifiers: +5 Dex, +18 natural, -1 size
+Hit points: 207 (18d10+108)
+Fort: +17
+Ref: +11
+Will: +17
+Defensive abilities: soul scream
+Dr: 15/good
+Immune: fire
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., fly 100 ft. (average)
+Br Weap: 30-ft. cone, 12d10 fire and see below, Reflex DC 25 half, usable every 1d4 rounds
+Melee: bite +25 (6d6+8/19-20), bite +25 (3d6+8/1 9-20 plus poison)
+Ranged: poison gout +22 touch (6d10 acid plus poison)
+Reach: 10
+Space: 10
+Spec Att: bay, poison
+:::
 
-**Perception:** +33
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+At will: blindness/deafness (DC 18), locate creature, rage (DC 19), veil (DC 22)
+Per day: 3/day: baleful polymorph (DC 21), feeblemind (DC 21), greater dispel magic, plane shift, self and willing targets only, summon (level 4, 1d3 yeth hounds 100%)\
+1/day: control weather, unhallow
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar, Herald
+::: statblock
+Ability scores: Str 26, Dex 20, Con 22, Int 17, Wis 23, Cha 22
+Base attack bonus: +18
+Combat maneuver bonus: +27 (+29 bull rush or drag)
+Combat maneuver defense: 42 (44 vs. bull rush or drag, 46 vs. trip)
+Feats: Cleave, Flyby Attack, Hover, Improved Bull Rush, Improved Critical (bite), Improved Drag, Improved Initiative, Power Attack, Skill Focus (perception)
+Skills: Acrobatics +26, Bluff +27, Climb +17, Intimidate +27, Knowledge (planes) +24, Perception +33
+Languages: Abyssal, Common, Infernal
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 14
-
-**Flat-footed:** 27
-
-**AC modifiers:** +5 Dex, +18 natural, -1 size
-
-**Hit points:** 207 (18d10+108)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +17
-
-**Defensive abilities:** soul scream
-
-**Dr:** 15/good
-
-**Immune:** fire
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft., fly 100 ft. (average)
-
-**Br Weap:** 30-ft. cone, 12d10 fire and see below, Reflex DC 25 half, usable every 1d4 rounds
-
-**Melee:** bite +25 (6d6+8/19-20), bite +25 (3d6+8/1 9-20 plus poison)
-
-**Ranged:** poison gout +22 touch (6d10 acid plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bay, poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**At will:**
-
-- blindness/deafness (DC 18), locate creature, rage (DC 19), veil (DC 22)
-
-**Per day:**
-
-- 3/day: baleful polymorph (DC 21), feeblemind (DC 21), greater dispel magic, plane shift, self and
-  willing targets only, summon (level 4, 1d3 yeth hounds 100%)
-- 1/day: control weather, unhallow
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 20, Con 22, Int 17, Wis 23, Cha 22
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +27 (+29 bull rush or drag)
-
-**Combat maneuver defense:** 42 (44 vs. bull rush or drag, 46 vs. trip)
-
-**Feats:** Cleave, Flyby Attack, Hover, Improved Bull Rush, Improved Critical (bite), Improved Drag,
-Improved Initiative, Power Attack, Skill Focus (perception)
-
-**Skills:** Acrobatics +26, Bluff +27, Climb +17, Intimidate +27, Knowledge (planes) +24, Perception
-+33
-
-**Languages:** Abyssal, Common, Infernal
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

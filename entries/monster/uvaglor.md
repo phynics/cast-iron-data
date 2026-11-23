@@ -33,149 +33,84 @@ _This vulture-headed demon has crimson wings and a baleful third eye in his fore
 lengths of chain and metal plates, and carries a cruel-looking sword in one hand and a glowing
 sphere of violet crystal in the other._
 
-**Challenge rating:** 20
-
 **Male advanced vrock [oracle](ref/class/oracle) 15**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 20
+Alignment: Chaotic evil
+Initiative: +13
+Size: large
+Type: outsider
+Perception: +41
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 307,200
+:::
 
-**Initiative:** +13
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 34
+Touch: 11
+Flat-footed: 32
+AC modifiers: +10 armor, +2 Dex, +13 natural, -1 size
+Hit points: 371 (9d10+15d8+255\~24)
+Fort: +21
+Ref: +20
+Will: +18
+Dr: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 20
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +41
+::: statblock
+Speed: 20 ft., fly 50 ft. (average)
+Melee: +4 unholy longsword +34/+29/+24/+19 (2d6+15/17-20), bite +30 (1d8+5), claw +30 (2d6+5), 2 talons +30 (1d6+5)
+Reach: 10
+Space: 10
+Spec Att: command avian, dance of ruin, spores, stunning screech
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +19
+At will: greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 22)
+Per day: 3/day: dominate monster, creatures with wings only\
+1/day: heroism, mirror image, summon (level 3, 1 vrock 35%)
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+title = "Spells Known"
+Caster level: 15
+Concentration: +22
+7th-level spells: 5/day: destruction (DC 24), insanity (DC 24), mass cure serious wounds, refuge, reverse gravity
+6th-level spells: 7/day: blade barrier (DC 23), geas/quest, heal, mass cure moderate wounds, planar binding (DC 23)
+5th-level spells: 7/day: breath of life, greater command (DC 22), insect plague, lesser planar binding (DC 22), mass cure light wounds, telekinesis, unhallow
+4th-level spells: 7/day: confusion (DC 21), cure critical wounds, dimensional anchor, freedom of movement, poison (DC 21), sending
+3rd-level spells: 8/day: blindness/deafness (DC 20), cure serious wounds, dispel magic, searing light, vermin shape I, water breathing
+2nd-level spells: 8/day: bull's strength, cure moderate wounds, death knell (DC 19), hold person (DC 19), levitate, minor image (DC 19), resist energy, sound burst (DC 19), status
+1st-level spells: 8/day: command (DC 18), cure light wounds, divine favor, endure elements, entropic shield, sanctuary (DC 18), shield of faith
+Cantrips: At will: bleed (DC 17), create water, detect magic, ghost sound, guidance, light, mage hand, mending, read magic, resistance, stabilize
+Mystery: [outer rifts](ref/mystery/outer-rifts)
+:::
 
-**Experience points:** 307,200
+### Statistics
 
-**Armor class:** 34
-
-**Touch:** 11
-
-**Flat-footed:** 32
-
-**AC modifiers:** +10 armor, +2 Dex, +13 natural, -1 size
-
-**Hit points:** 371 (9d10+15d8+255\~24)
-
-**Fort:** +21
-
-**Ref:** +20
-
-**Will:** +18
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (average)
-
-**Melee:** +4 unholy longsword +34/+29/+24/+19 (2d6+15/17-20), bite +30 (1d8+5), claw +30 (2d6+5), 2
-talons +30 (1d6+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** command avian, dance of ruin, spores, stunning screech
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +19
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 22)
-
-**Per day:**
-
-- 3/day: dominate monster, creatures with wings only
-- 1/day: heroism, mirror image, summon (level 3, 1 vrock 35%)
-
-**Spells Known**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**7th-level spells:**
-
-- 5/day: destruction (DC 24), insanity (DC 24), mass cure serious wounds, refuge, reverse gravity
-
-**6th-level spells:**
-
-- 7/day: blade barrier (DC 23), geas/quest, heal, mass cure moderate wounds, planar binding (DC 23)
-
-**5th-level spells:**
-
-- 7/day: breath of life, greater command (DC 22), insect plague, lesser planar binding (DC 22), mass
-  cure light wounds, telekinesis, unhallow
-
-**4th-level spells:**
-
-- 7/day: confusion (DC 21), cure critical wounds, dimensional anchor, freedom of movement, poison
-  (DC 21), sending
-
-**3rd-level spells:**
-
-- 8/day: blindness/deafness (DC 20), cure serious wounds, dispel magic, searing light, vermin shape
-  I, water breathing
-
-**2nd-level spells:**
-
-- 8/day: bull's strength, cure moderate wounds, death knell (DC 19), hold person (DC 19), levitate,
-  minor image (DC 19), resist energy, sound burst (DC 19), status
-
-**1st-level spells:**
-
-- 8/day: command (DC 18), cure light wounds, divine favor, endure elements, entropic shield,
-  sanctuary (DC 18), shield of faith
-
-**Cantrips:**
-
-- At will: bleed (DC 17), create water, detect magic, ghost sound, guidance, light, mage hand,
-  mending, read magic, resistance, stabilize
-
-**Mystery:** [outer rifts](ref/mystery/outer-rifts)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 21, Con 31, Int 18, Wis 22, Cha 24
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 47
-
-**Feats:** Blinding Critical, Combat Reflexes, Craft Magic Arms and Armor, Critical Focus, Extend
-Spell, Greater Vital Strike, Improved Critical (longsword), Improved Initiative, Improved Vital
-Strike, Power Attack, Quicken Spell, Vital Strike
-
-**Skills:** Acrobatics +28 (+24 when jumping), Bluff +34, Fly +26, Knowledge (arcana) +31,
-Perception +41, Sense Motive +33, Spellcraft +25, Stealth +24
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Varisian; [telepathy](ref/umr/telepathy) 100
-ft.
-
-**Special qualities:** oracle's curse ([haunted](ref/oraclecurse/haunted)), revelations (balefire
-\[2/day\], dread resilience, planar haze \[3/day\], rift weapon \[4/day\], unearthly terrain
-\[10/day\]), third eye
-
-**Gear:** +4 chainmail, +4 unholy longsword, I-crystal ball (telepathy), I-strand of prayer beads
+::: statblock
+Ability scores: Str 32, Dex 21, Con 31, Int 18, Wis 22, Cha 24
+Base attack bonus: +20
+Combat maneuver bonus: +32
+Combat maneuver defense: 47
+Feats: Blinding Critical, Combat Reflexes, Craft Magic Arms and Armor, Critical Focus, Extend Spell, Greater Vital Strike, Improved Critical (longsword), Improved Initiative, Improved Vital Strike, Power Attack, Quicken Spell, Vital Strike
+Skills: Acrobatics +28 (+24 when jumping), Bluff +34, Fly +26, Knowledge (arcana) +31, Perception +41, Sense Motive +33, Spellcraft +25, Stealth +24
+Languages: Abyssal, Celestial, Common, Draconic, Varisian; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: oracle's curse ([haunted](ref/oraclecurse/haunted)), revelations (balefire \[2/day\], dread resilience, planar haze \[3/day\], rift weapon \[4/day\], unearthly terrain \[10/day\]), third eye
+Gear: +4 chainmail, +4 unholy longsword, I-crystal ball (telepathy), I-strand of prayer beads
+:::
 
 ### Special Abilities
 

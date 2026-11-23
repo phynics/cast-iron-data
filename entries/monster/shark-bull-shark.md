@@ -29,71 +29,58 @@ abilities = ["15", "14", "13", "1", "12", "2"]
 
 _This sleek, gray predator weaves back and forth through the water with savage grace._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+blindsense: 30
+Initiative: +6
+Keen Scent: present
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +5
+Will: +1
+:::
 
-**Initiative:** +6
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +3 (2d8+3)
+:::
 
-**Size:** medium
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 15, Dex 14, Con 13, Int 1, Wis 12, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15 (can't be tripped)
+Feats: Improved Initiative
+Skills: Perception +6, Swim +10
+:::
 
-**Perception:** +6
+### Ecology
 
-**Senses:** Low-light vision
-
-**Subtype:** Aquatic
-
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +3 (2d8+3)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 13, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Feats:** Improved Initiative
-
-**Skills:** Perception +6, Swim +10
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or school (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or school (3-6)
+Treasure: None
+:::
 
 ### Description
 

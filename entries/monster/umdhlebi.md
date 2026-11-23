@@ -32,82 +32,63 @@ _What appeared at first glance to be the decaying husk of an enormous tree erupt
 thick tendrils reach outward hungrily from all sides. Amid the jumble of motion, a subconscious
 whisper promises sleep and sweet rest to any that lie down at the thing's base._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +12
+Type: plant
+tremorsense: 60
+Experience points: 19,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 27
+Touch: 9
+Flat-footed: 26
+AC modifiers: +1 Dex, +18 natural, -2 size
+Hit points: 178 (17d8+102)
+Fort: +15
+Ref: +8
+Will: +8
+Dr: 10/magic slashing or bludgeoning
+Immune: [plant traits](ref/umr/plant-traits)
+Weaknesses: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 10 ft.
+Constrict: 3d8+10
+Melee: 2 slam +21 (3d8+10/19-20 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: compelling whisper
+:::
 
-**Type:** plant
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 30, Dex 13, Con 20, Int 9, Wis 12, Cha 15
+Base attack bonus: +12
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 35
+Feats: Alertness, Improved Disarm, Improved Initiative, Improved Trip, Iron Will, Lightning Reflexes, Lunge, Power Attack, Toughness
+Skills: Fly +0, Perception +12
+Special qualities: treacherous ground, writhing tendrils
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 9
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +18 natural, -2 size
-
-**Hit points:** 178 (17d8+102)
-
-**Fort:** +15
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 10/magic slashing or bludgeoning
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Weaknesses:** fire
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Constrict:** 3d8+10
-
-**Melee:** 2 slam +21 (3d8+10/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** compelling whisper
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 13, Con 20, Int 9, Wis 12, Cha 15
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 35
-
-**Feats:** Alertness, Improved Disarm, Improved Initiative, Improved Trip, Iron Will, Lightning
-Reflexes, Lunge, Power Attack, Toughness
-
-**Skills:** Fly +0, Perception +12
-
-**Special qualities:** treacherous ground, writhing tendrils
-
-**Ecology**
-
-**Environment:** tropical forests and jungles
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: tropical forests and jungles
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

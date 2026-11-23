@@ -33,69 +33,57 @@ abilities = ["18", "19", "14", "5", "15", "10"]
 _The strangely shaped glowing red eyes, unnaturally upright ears, and split tail betray the
 unnatural origins of this black canine._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +4
+Alignment: Lawful evil
+Type: Magical beast
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision, Sandstorm sight
+Experience points: 1,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 13
+AC modifiers: +4 Dex, +3 natural
+Hit points: 45 (6d10+12)
+Fort: +7
+Ref: +9
+Will: +4
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: bite +10 (2d6+6 plus disease and trip)
+Spec Att: disease, sandstorm
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Sandstorm sight
+::: statblock
+Ability scores: Str 18, Dex 19, Con 14, Int 5, Wis 15, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Combat Reflexes, Following Step, Step Up
+Skills: Acrobatics +8, Perception +7, Stealth +10
+Languages: Infernal (can't speak)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +3 natural
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +10 (2d6+6 plus disease and trip)
-
-**Spec Att:** disease, sandstorm
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 14, Int 5, Wis 15, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Combat Reflexes, Following Step, Step Up
-
-**Skills:** Acrobatics +8, Perception +7, Stealth +10
-
-**Languages:** Infernal (can't speak)
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or pack (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -33,61 +33,46 @@ abilities = ["29", "12", "27", "6", "12", "10"]
 _This heavily scarred, towering giant wears the hide of a black dragon, and wields a massive club
 studded with dragon's teeth._
 
-**Challenge rating:** 13
-
 **Male hill giant [barbarian](ref/class/barbarian)
 ([scarred rager](ref/arc-barbarian/scarred-rager)) 6**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: large
+Perception: +10
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 25,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 27
+Touch: 8
+Flat-footed: 26
+AC modifiers: +9 armor, +1 Dex, +10 natural, -2 rage, -1 size
+Hit points: 218 (10d8+6d12+134\~16)
+Fort: +21
+Ref: +7
+Will: +11
+Defensive abilities: improved tolerance, scarification, tolerance
+Rock Ct: present
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +10
-
-**Senses:** Low-light vision
-
-**Subtype:** Giant
-
-**Experience points:** 25,600
-
-**Armor class:** 27
-
-**Touch:** 8
-
-**Flat-footed:** 26
-
-**AC modifiers:** +9 armor, +1 Dex, +10 natural, -2 rage, -1 size
-
-**Hit points:** 218 (10d8+6d12+134\~16)
-
-**Fort:** +21
-
-**Ref:** +7
-
-**Will:** +11
-
-**Defensive abilities:** improved tolerance, scarification, tolerance
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 greatclub +24/+19/+14 (2d8+15/19-20) or 2 slams +21 (1d6+9)
-
-**Ranged:** rock +13 (1d8+13)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** rage (20 rounds/day), rage powers ([body bludgeon](ref/ragepower/body-bludgeon),
-[knockback](ref/ragepower/knockback), [superstition](ref/ragepower/superstition) +3)
+::: statblock
+Speed: 30 ft.
+Melee: +2 greatclub +24/+19/+14 (2d8+15/19-20) or 2 slams +21 (1d6+9)
+Ranged: rock +13 (1d8+13)
+Reach: 10
+Space: 10
+Spec Att: rage (20 rounds/day), rage powers ([body bludgeon](ref/ragepower/body-bludgeon), [knockback](ref/ragepower/knockback), [superstition](ref/ragepower/superstition) +3)
+:::
 
 ### Tactics
 
@@ -95,29 +80,20 @@ studded with dragon's teeth._
 186; Fort +19, Will+9; Melee +2 greatclub +22/+17/+12 (2d8+12/19-20) or 2 slams +19 (1d6+7); Ranged
 rock +14 (1d8+10); Str 25, Con 23; CMB 21, CMD 32; Climb +15.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 29, Dex 12, Con 27, Int 6, Wis 12, Cha 10
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 32
-
-**Feats:** Awesome Blow, Cleave, Improved Bull Rush, Improved Critical (greatclub), Iron Will, Power
-Attack, Vital Strike, Weapon Focus (greatclub)
-
-**Skills:** Climb +17, Intimidate +11 (+14 against non-tribal humanoids), Perception +10
-
-**Languages:** Giant
-
-**Special qualities:** terrifying visage
-
-**Combat gear:** 2 potion of cure serious wounds
-
-**Other gear:** +3 M-dragonhide breastplate, +2 greatclub, Iamu1, Ibogs2, Iclk1, I-salve of
-slipperiness
+::: statblock
+Ability scores: Str 29, Dex 12, Con 27, Int 6, Wis 12, Cha 10
+Base attack bonus: +13
+Combat maneuver bonus: +23
+Combat maneuver defense: 32
+Feats: Awesome Blow, Cleave, Improved Bull Rush, Improved Critical (greatclub), Iron Will, Power Attack, Vital Strike, Weapon Focus (greatclub)
+Skills: Climb +17, Intimidate +11 (+14 against non-tribal humanoids), Perception +10
+Languages: Giant
+Special qualities: terrifying visage
+Combat gear: 2 potion of cure serious wounds
+Other gear: +3 M-dragonhide breastplate, +2 greatclub, Iamu1, Ibogs2, Iclk1, I-salve of slipperiness
+:::
 
 ### Description
 

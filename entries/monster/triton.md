@@ -31,82 +31,65 @@ abilities = ["12", "10", "12", "13", "13", "11"]
 _This scaly, finned humanoid has an athletic build and blue-green coloration. Its legs end in wide
 flippers rather than feet._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +0
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Native, Water
+Experience points: 600
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 14
+AC modifiers: +4 natural
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +1
+Will: +4
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 5 ft., swim 40 ft.
+Melee: mwk trident +5 (1d8+1)
+Ranged: heavy crossbow +3 (1d10/19-20)
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +7
+Per day: 1/day: summon nature's ally II, Small water elemental or 1d3 dolphins only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Native, Water
+::: statblock
+Ability scores: Str 12, Dex 10, Con 12, Int 13, Wis 13, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 14
+Feats: Mounted Combat, Ride-By Attack
+Skills: Craft (any one) +7, Diplomacy +6, Ride +6
+Languages: Aquan, Common
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 natural
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +1
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 5 ft., swim 40 ft.
-
-**Melee:** mwk trident +5 (1d8+1)
-
-**Ranged:** heavy crossbow +3 (1d10/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +7
-
-**Per day:**
-
-- 1/day: summon nature's ally II, Small water elemental or 1d3 dolphins only
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 10, Con 12, Int 13, Wis 13, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 14
-
-**Feats:** Mounted Combat, Ride-By Attack
-
-**Skills:** Craft (any one) +7, Diplomacy +6, Ride +6
-
-**Languages:** Aquan, Common
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, company (2-5), squad (6-11), or band (12-21 plus 2-16
-[dolphins](ref/monster/dolphin))
-
-**Treasure:** Standard (mwk trident, heavy crossbow with 10 bolts); other treasure
+::: statblock
+Environment: any oceans
+Organization: solitary, company (2-5), squad (6-11), or band (12-21 plus 2-16 [dolphins](ref/monster/dolphin))
+Treasure: Standard (mwk trident, heavy crossbow with 10 bolts); other treasure
+:::
 
 ### Description
 

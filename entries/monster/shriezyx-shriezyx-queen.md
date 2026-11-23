@@ -30,105 +30,75 @@ abilities = ["17", "17", "18", "9", "12", "14"]
 _This bulbous, green-skinned spider is as large as a horse, its toothy maw smiling beneath three
 glowing eyes._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Perception: +19
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +8 natural, -1 size
+Hit points: 104 (11d8+55)
+Fort: +9
+Ref: +6
+Will: +10
+Ferocity: present
+Immune: mind-affecting effects
+Regen: 5 (fire)
+Vulner: fire
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +11 (1d8+3 plus poison), 4 claws +10 (1d6+3)
+Reach: 5
+Space: 10
+Spec Att: incendiary webs, poison
+Web: +10 ranged, DC 19, 11 hp
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +13
+Constant: tongues
+At will: remove fear, rage
+Per day: 3/day: command (DC 13)\
+1/day: resist energy
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 17, Dex 17, Con 18, Int 9, Wis 12, Cha 14
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 25 (37 vs. trip)
+Feats: Alertness, Great Fortitude, Improved Initiative, Iron Will, Toughness, Weapon Focus (bite)
+Skills: Climb +18, Diplomacy +8, Sense Motive +9
+Languages: Aklo; [tongues](ref/spell/tongues)
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +8 natural, -1 size
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +10
-
-**Ferocity:** present
-
-**Immune:** mind-affecting effects
-
-**Regen:** 5 (fire)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +11 (1d8+3 plus poison), 4 claws +10 (1d6+3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** incendiary webs, poison
-
-**Web:** +10 ranged, DC 19, 11 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +13
-
-**Constant:**
-
-- tongues
-
-**At will:**
-
-- remove fear, rage
-
-**Per day:**
-
-- 3/day: command (DC 13)
-- 1/day: resist energy
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 17, Con 18, Int 9, Wis 12, Cha 14
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25 (37 vs. trip)
-
-**Feats:** Alertness, Great Fortitude, Improved Initiative, Iron Will, Toughness, Weapon Focus
-(bite)
-
-**Skills:** Climb +18, Diplomacy +8, Sense Motive +9
-
-**Languages:** Aklo; [tongues](ref/spell/tongues)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or hive (1 plus 3-12 [shriezyx](ref/monster/shriezyx))
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary or hive (1 plus 3-12 [shriezyx](ref/monster/shriezyx))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

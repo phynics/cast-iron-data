@@ -32,104 +32,75 @@ abilities = ["19", "16", "15", "16", "15", "18"]
 _The smell of brine mingles with the sickly stench of uncured leather that surrounds this ferocious
 buccaneer._
 
-**Challenge rating:** 4
-
 **Urdefhan [swashbuckler](ref/class/swashbuckler) 1**
 
-**Initiative:** +3
+::: statblock
+Challenge rating: 4
+Initiative: +3
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +6
+Senses: Darkvision 120 ft.
+Subtype: Native
+Experience points: 1,200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +3 armor, +3 Dex, +2 natural
+Hit points: 31 (3d10+1d10+9\~4)
+Fort: +5
+Ref: +8
+Will: +3
+Dr: 5/good or silver
+Immune: death effects, disease, fear, level drain
+Resist: acid 10
+Sr: 15
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+B Drain: 1 Con
+Melee: mwk rhoka sword +10 (1d8+4/18-20), bite +3 (1d4+2)
+Ranged: mwk dagger +9 (1d4+4/19-20)
+Spec Att: deeds ([derring-do](ref/swashdeed/derring-do), [dodging panache](ref/swashdeed/dodging-panache), [opportune parry and riposte](ref/swashdeed/opportune-parry-and-riposte)), panache (4), Strength damage
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +7
+At will: feather fall
+Per day: 3/day: align weapon, death knell (DC 15), ray of enfeeblement (DC 15)
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 19, Dex 16, Con 15, Int 16, Wis 15, Cha 18
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Slashing Grace, Weapon Focus (rhoka sword)
+Skills: Acrobatics +10, Bluff +11, Diplomacy +10, Profession (sailor) +9, Ride +7
+Languages: Aklo, Dwarven, Infernal, Orvian, Undercommon
+Special qualities: daemonic pact, swashbuckler finesse
+Combat gear: 3 potion of cure light wounds, potion of cure moderate wounds, potion of jump
+Other gear: M-eel hide studded leather armor, mwk dagger, mwk -rhoka sword
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 armor, +3 Dex, +2 natural
-
-**Hit points:** 31 (3d10+1d10+9\~4)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +3
-
-**Dr:** 5/good or silver
-
-**Immune:** death effects, disease, fear, level drain
-
-**Resist:** acid 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**B Drain:** 1 Con
-
-**Melee:** mwk rhoka sword +10 (1d8+4/18-20), bite +3 (1d4+2)
-
-**Ranged:** mwk dagger +9 (1d4+4/19-20)
-
-**Spec Att:** deeds ([derring-do](ref/swashdeed/derring-do),
-[dodging panache](ref/swashdeed/dodging-panache),
-[opportune parry and riposte](ref/swashdeed/opportune-parry-and-riposte)), panache (4), Strength
-damage
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +7
-
-**At will:**
-
-- feather fall
-
-**Per day:**
-
-- 3/day: align weapon, death knell (DC 15), ray of enfeeblement (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 16, Con 15, Int 16, Wis 15, Cha 18
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Slashing Grace, Weapon Focus (rhoka sword)
-
-**Skills:** Acrobatics +10, Bluff +11, Diplomacy +10, Profession (sailor) +9, Ride +7
-
-**Languages:** Aklo, Dwarven, Infernal, Orvian, Undercommon
-
-**Special qualities:** daemonic pact, swashbuckler finesse
-
-**Combat gear:** 3 potion of cure light wounds, potion of cure moderate wounds, potion of jump
-
-**Other gear:** M-eel hide studded leather armor, mwk dagger, mwk -rhoka sword
-
-**Ecology**
-
-**Environment:** any land ([Abaddon](ref/rule/abaddon))
+::: statblock
+Environment: any land ([Abaddon](ref/rule/abaddon))
+:::
 
 ### Description
 

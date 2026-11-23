@@ -32,94 +32,68 @@ abilities = ["31", "8", "29", "10", "17", "6"]
 _This immense green-skinned brute wields a tree branch for a club and has nine heads, each filled
 with jutting teeth and tusks._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Size: huge
+Type: humanoid
+Initiative: +3
+Perception: +26
+Senses: All-around vision, Low-light vision, Scent
+Subtype: Giant
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 30
+Touch: 7
+Flat-footed: 30
+AC modifiers: -1 Dex, +23 natural, -2 size
+Hit points: 216 (16d8+144)
+Fort: +16
+Ref: +6
+Will: +13 (+17 vs. mind-affecting effects)
+Defensive abilities: multiple minds
+Immune: confusion and insanity effects
+Regen: 10 (acid or fire)
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 30 ft.
+F Swallow: present
+Melee: club +20/+15/+10 (2d6+10/19-20), bite +15 (2d6+5 plus [grab](ref/umr/grab)), claw +15 (1d8+5 plus grab)
+Ranged: rock +10 (2d8+15)
+Reach: 15
+Rock Th: 120 ft.
+Space: 15
+Spec Att: all-seeing attacks, cacophonous roar
+Swallow: 4d6+15 bludgeoning, AC 21, 21 hp
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** All-around vision, Low-light vision, Scent
+::: statblock
+Ability scores: Str 31, Dex 8, Con 29, Int 10, Wis 17, Cha 6
+Base attack bonus: +12
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 33
+Feats: Awesome Blow, Great Fortitude, Improved Bull Rush, Improved Critical (club), Improved Initiative, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Climb +29, Perception +26
+Racial Modifiers: +4 Perception
+Languages: Giant
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 7
-
-**Flat-footed:** 30
-
-**AC modifiers:** -1 Dex, +23 natural, -2 size
-
-**Hit points:** 216 (16d8+144)
-
-**Fort:** +16
-
-**Ref:** +6
-
-**Will:** +13 (+17 vs. mind-affecting effects)
-
-**Defensive abilities:** multiple minds
-
-**Immune:** confusion and insanity effects
-
-**Regen:** 10 (acid or fire)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**F Swallow:** present
-
-**Melee:** club +20/+15/+10 (2d6+10/19-20), bite +15 (2d6+5 plus [grab](ref/umr/grab)), claw +15
-(1d8+5 plus grab)
-
-**Ranged:** rock +10 (2d8+15)
-
-**Reach:** 15
-
-**Rock Th:** 120 ft.
-
-**Space:** 15
-
-**Spec Att:** all-seeing attacks, cacophonous roar
-
-**Swallow:** 4d6+15 bludgeoning, AC 21, 21 hp
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 8, Con 29, Int 10, Wis 17, Cha 6
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 33
-
-**Feats:** Awesome Blow, Great Fortitude, Improved Bull Rush, Improved Critical (club), Improved
-Initiative, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Climb +29, Perception +26
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** cold hills or mountains
-
-**Organization:** solitary or war party (1 jotund troll plus 2-5
-[hill giants](ref/monster/giant-hill-giant) or 3-12 [ogres](ref/monster/ogre))
-
-**Treasure:** Standard (club); other treasure
+::: statblock
+Environment: cold hills or mountains
+Organization: solitary or war party (1 jotund troll plus 2-5 [hill giants](ref/monster/giant-hill-giant) or 3-12 [ogres](ref/monster/ogre))
+Treasure: Standard (club); other treasure
+:::
 
 ### Special Abilities
 

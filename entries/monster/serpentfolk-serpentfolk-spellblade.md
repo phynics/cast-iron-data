@@ -29,91 +29,60 @@ special_qualities = "arcane pool (9 points, +3), knowledge pool, magus arcana (h
 abilities = ["16", "23", "21", "20", "13", "16"]
 +++
 
-**Challenge rating:** 13
-
 **Advanced serpentfolk [magus](ref/class/magus) 9**
 
-**Initiative:** +10
+::: statblock
+Challenge rating: 13
+Initiative: +10
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +18
+Senses: Darkvision 60 ft., Scent
+Experience points: 25,600
+:::
 
-**Size:** medium
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 26
+Touch: 15
+Flat-footed: 22
+AC modifiers: +7 armor, +1 deflection, +3 Dex, +1 dodge, +4 natural
+Hit points: 160 (5d10+9d8+93\~14)
+Fort: +15
+Ref: +14
+Will: +12
+Immune: mind-affecting effects, paralysis, poison
+Sr: 24
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +18
+::: statblock
+Speed: 20 ft.
+Melee: +2 corrosive scimitar +17/+12/+7 (1d6+5/15-20 plus 1d6 acid), bite +9 (1d6+1 plus poison)
+Ranged: mwk composite longbow +19/+14/+9 (1d8+4/×3)
+Spec Att: improved spell combat, spell combat (-2 attack, +2 concentration), spellstrike
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +7
+At will: disguise self (DC 14, humanoid form only), ventriloquism (DC 14)
+Per day: 1/day: blur, dominate person (DC 18), major image (DC 16), mass suggestion (DC 19), mirror image, suggestion (DC 16), teleport
+:::
 
-**Experience points:** 25,600
-
-**Armor class:** 26
-
-**Touch:** 15
-
-**Flat-footed:** 22
-
-**AC modifiers:** +7 armor, +1 deflection, +3 Dex, +1 dodge, +4 natural
-
-**Hit points:** 160 (5d10+9d8+93\~14)
-
-**Fort:** +15
-
-**Ref:** +14
-
-**Will:** +12
-
-**Immune:** mind-affecting effects, paralysis, poison
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +2 corrosive scimitar +17/+12/+7 (1d6+5/15-20 plus 1d6 acid), bite +9 (1d6+1 plus poison)
-
-**Ranged:** mwk composite longbow +19/+14/+9 (1d8+4/×3)
-
-**Spec Att:** improved spell combat, spell combat (-2 attack, +2 concentration), spellstrike
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +7
-
-**At will:**
-
-- disguise self (DC 14, humanoid form only), ventriloquism (DC 14)
-
-**Per day:**
-
-- 1/day: blur, dominate person (DC 18), major image (DC 16), mass suggestion (DC 19), mirror image,
-  suggestion (DC 16), teleport
-
-**Prepared Spells**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**3rd-level spells:**
-
-- dispel magic, displacement, vampiric touch, 2
-
-**2nd-level spells:**
-
-- acid arrow, defensive shock, frigid touch, invisibility, web (DC 17)
-
-**1st-level spells:**
-
-- burning hands (DC 16), chill touch (DC 16), corrosive touch, magic missile, ray of enfeeblement
-  (DC 16), shocking grasp
-
-**Cantrips:**
-
-- arcane mark, detect magic, mage hand, prestidigitation (DC 15), read magic
+::: statblock
+title = "Prepared Spells"
+Caster level: 9
+Concentration: +14
+3rd-level spells: dispel magic, displacement, vampiric touch, 2
+2nd-level spells: acid arrow, defensive shock, frigid touch, invisibility, web (DC 17)
+1st-level spells: burning hands (DC 16), chill touch (DC 16), corrosive touch, magic missile, ray of enfeeblement (DC 16), shocking grasp
+Cantrips: arcane mark, detect magic, mage hand, prestidigitation (DC 15), read magic
+:::
 
 ### Tactics
 
@@ -125,37 +94,27 @@ grace of the blade. It uses its hasted assault ability whenever possible, and us
 spellstrike whenever it has appropriate spells available. It prefers to weaken opponents with
 poisoned bites and spells like chill touch, ray of enfeeblement, and vampiric touch.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 16, Dex 23, Con 21, Int 20, Wis 13, Cha 16
+::: statblock
+Ability scores: Str 16, Dex 23, Con 21, Int 20, Wis 13, Cha 16
+Base attack bonus: +11
+Combat maneuver bonus: +14
+Combat maneuver defense: 32
+Feats: Combat Expertise, Craft Magic Arms and Armor, Dodge, Great Fortitude, Improved Critical (scimitar), Improved Initiative, Toughness, Weapon Focus (scimitar)
+Skills: Acrobatics +10 (+6 when jumping), Climb +10, Use Magic Device +15
+Racial Modifiers: +8 Escape Artist, +4 Use Magic Device
+Languages: Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: arcane pool (9 points, +3), knowledge pool, magus arcana (hasted assault, pool strike +4d6, spell shield), medium armor proficiency, spell recall
+Combat gear: 2 potion of cure serious wounds, scroll of force hook charge, scroll of gaseous form, scroll of greater invisibility, scroll of protection from energy, 4 acid
+Other gear: +2 GL scale mail, +2 corrosive scimitar, mwk cl, 20 +1 arrows, Iamu1, Ibogs2, Iclk1, ring of prot1, spellbook, 449 gp
+:::
 
-**Base attack bonus:** +11
+### Ecology
 
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 32
-
-**Feats:** Combat Expertise, Craft Magic Arms and Armor, Dodge, Great Fortitude, Improved Critical
-(scimitar), Improved Initiative, Toughness, Weapon Focus (scimitar)
-
-**Skills:** Acrobatics +10 (+6 when jumping), Climb +10, Use Magic Device +15
-
-**Racial Modifiers:** +8 Escape Artist, +4 Use Magic Device
-
-**Languages:** Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** arcane pool (9 points, +3), knowledge pool, magus arcana (hasted assault,
-pool strike +4d6, spell shield), medium armor proficiency, spell recall
-
-**Combat gear:** 2 potion of cure serious wounds, scroll of force hook charge, scroll of gaseous
-form, scroll of greater invisibility, scroll of protection from energy, 4 acid
-
-**Other gear:** +2 GL scale mail, +2 corrosive scimitar, mwk cl, 20 +1 arrows, Iamu1, Ibogs2, Iclk1,
-ring of prot1, spellbook, 449 gp
-
-**Ecology**
-
-**Environment:** any land (usually jungles or underground)
+::: statblock
+Environment: any land (usually jungles or underground)
+:::
 
 ### Special Abilities
 

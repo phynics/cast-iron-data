@@ -35,98 +35,73 @@ abilities = ["26", "19", "-", "7", "18", "23"]
 _This twisted, barely-humanoid monstrosity has rancid-looking flesh, an unnaturally long neck, and a
 mouth full of fangs._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: pestilent aura (5 ft., DC 22)
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Type: undead
+Experience points: 9,600
+:::
 
-**aura:** pestilent aura (5 ft., DC 22)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 23
+Touch: 15
+Flat-footed: 18
+AC modifiers: +4 Dex, +1 dodge, +8 natural
+Hit points: 126 (12d8+72)
+Fort: +10
+Ref: +10
+Will: +12
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., climb 20 ft.
+E Drain: 1 level, DC 22
+Melee: bite +17 (1d6+8 plus energy drain), 2 claws +18 (1d8+8)
+Rend: 2 claws, 1d6+12
+Spec Att: create spawn
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +16
+Per day: 3/day: charm animal (DC 17), fear (DC 20), vampiric touch
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 26, Dex 19, Con -, Int 7, Wis 18, Cha 23
+Base attack bonus: +9
+Combat maneuver bonus: +17
+Combat maneuver defense: 32
+Feats: Dodge, Improved Initiative, Lightning Reflexes, Mobility, Stealthy, Weapon Focus (claw)
+Skills: Climb +25, Disguise +15 (+25 when disguised as former living self), Stealth +15
+Racial Modifiers: +10 Disguise when disguised as former living self
+Languages: Common
+Special qualities: [change shape](ref/umr/change-shape) (as its previously living humanoid form; [alter self](ref/spell/alter-self)), feral possession
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +1 dodge, +8 natural
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +12
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**E Drain:** 1 level, DC 22
-
-**Melee:** bite +17 (1d6+8 plus energy drain), 2 claws +18 (1d8+8)
-
-**Rend:** 2 claws, 1d6+12
-
-**Spec Att:** create spawn
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +16
-
-**Per day:**
-
-- 3/day: charm animal (DC 17), fear (DC 20), vampiric touch
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con -, Int 7, Wis 18, Cha 23
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 32
-
-**Feats:** Dodge, Improved Initiative, Lightning Reflexes, Mobility, Stealthy, Weapon Focus (claw)
-
-**Skills:** Climb +25, Disguise +15 (+25 when disguised as former living self), Stealth +15
-
-**Racial Modifiers:** +10 Disguise when disguised as former living self
-
-**Languages:** Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (as its previously living humanoid form;
-[alter self](ref/spell/alter-self)), feral possession
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

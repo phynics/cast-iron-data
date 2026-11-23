@@ -31,71 +31,58 @@ abilities = ["10", "13", "13", "5", "12", "8"]
 _This creature is a blackened, bat-winged fiend's head. Tentacles dangle from chin and scalp, and
 its fanged mouth hangs agape._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Alignment: Neutral evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Evil, Extraplanar
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 14
+AC modifiers: +1 Dex, +3 natural, +1 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +4
+Will: +2
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: fly 30 ft. (good)
+Melee: bite +5 (1d4 plus poison)
+Spec Att: kiss, poison, shriek
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 13, Con 13, Int 5, Wis 12, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 13
+Feats: Skill Focus (Stealth), Weapon Finesse
+Skills: Fly +13, Intimidate +5, Perception +7, Stealth +8
+Languages: Infernal
+:::
 
-**Subtype:** Evil, Extraplanar
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +3 natural, +1 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** fly 30 ft. (good)
-
-**Melee:** bite +5 (1d4 plus poison)
-
-**Spec Att:** kiss, poison, shriek
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 13, Int 5, Wis 12, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13
-
-**Feats:** Skill Focus (Stealth), Weapon Finesse
-
-**Skills:** Fly +13, Intimidate +5, Perception +7, Stealth +8
-
-**Languages:** Infernal
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** pair, cluster (3-6), or mob (7-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: pair, cluster (3-6), or mob (7-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

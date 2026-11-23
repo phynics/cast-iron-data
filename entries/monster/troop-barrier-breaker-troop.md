@@ -32,83 +32,64 @@ abilities = ["22", "13", "-", "10", "12", "17"]
 
 _This wretched collection of undead have tight leathery skin, sunken eyes, and emaciated frames._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Troop
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 19
+AC modifiers: +4 armor, +1 Dex, +1 dodge, +5 natural
+Hit points: 90 (12d8+36)
+Fort: +7
+Ref: +7
+Will: +9
+Defensive abilities: troop traits
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 30 ft.
+Melee: troop (2d6+6)
+Ranged: volley (2d8, DC 16)
+Reach: 5
+Space: 20
+Spec Att: overwhelm, vandalism
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Troop
+::: statblock
+Ability scores: Str 22, Dex 13, Con -, Int 10, Wis 12, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 27 (can't be tripped)
+Feats: Dodge, Improved Initiative, Lightning Reflexes, Mobility, Nimble Moves
+Skills: Climb +21, Intimidate +18, Perception +16
+Languages: Common
+Special qualities: trench mist symbiosis
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 armor, +1 Dex, +1 dodge, +5 natural
-
-**Hit points:** 90 (12d8+36)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +9
-
-**Defensive abilities:** troop traits
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** troop (2d6+6)
-
-**Ranged:** volley (2d8, DC 16)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** overwhelm, vandalism
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 13, Con -, Int 10, Wis 12, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Lightning Reflexes, Mobility, Nimble Moves
-
-**Skills:** Climb +21, Intimidate +18, Perception +16
-
-**Languages:** Common
-
-**Special qualities:** trench mist symbiosis
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, horde (2-4), or uprising (5-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, horde (2-4), or uprising (5-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

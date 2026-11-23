@@ -29,92 +29,70 @@ special_qualities = "armor training 1"
 abilities = ["26", "16", "27", "4", "11", "6"]
 +++
 
-**Challenge rating:** 10
-
 **Troll [fighter](ref/class/fighter) 5**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: large
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant
+Experience points: 9,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 20
+AC modifiers: +5 armor, +1 deflection, +3 Dex, +1 dodge, +5 natural, -1 size
+Hit points: 147 (6d8+5d10+93\~11)
+Fort: +17
+Ref: +6
+Will: +3 (+1 vs. fear)
+Defensive abilities: bravery +1
+Regen: 5 (acid or fire)
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +6
-
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
-
-**Subtype:** Giant
-
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 armor, +1 deflection, +3 Dex, +1 dodge, +5 natural, -1 size
-
-**Hit points:** 147 (6d8+5d10+93\~11)
-
-**Fort:** +17
-
-**Ref:** +6
-
-**Will:** +3 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +19 (1d8+10), 2 claws +19 (1d6+10)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+12
-
-**Space:** 10
-
-**Spec Att:** weapon training (natural +1)
+::: statblock
+Speed: 30 ft.
+Melee: bite +19 (1d8+10), 2 claws +19 (1d6+10)
+Reach: 10
+Rend: 2 claws, 1d6+12
+Space: 10
+Spec Att: weapon training (natural +1)
+:::
 
 ### Tactics
 
 **Before Combat** The render drinks his potions.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 26, Dex 16, Con 27, Int 4, Wis 11, Cha 6
+::: statblock
+Ability scores: Str 26, Dex 16, Con 27, Int 4, Wis 11, Cha 6
+Base attack bonus: +9
+Combat maneuver bonus: +18
+Combat maneuver defense: 33
+Feats: Cleave, Combat Reflexes, Cooperative Rend, Dodge, Great Cleave, Great Rend, Power Attack, Weapon Focus (bite), Weapon Focus (claw)
+Skills: Acrobatics +0 (+5 when jumping), Intimidate +6, Perception +6
+Languages: Giant
+Special qualities: armor training 1
+Combat gear: potion of barkskin, 2 potion of bull's strength, potion of protection from energy (fire)
+Other gear: +1 Ah, Ifist1, I-elixir of fire breath, ring of ring of jumping, ring of prot1, barbed troll claws, 315 gp
+:::
 
-**Base attack bonus:** +9
+### Ecology
 
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 33
-
-**Feats:** Cleave, Combat Reflexes, Cooperative Rend, Dodge, Great Cleave, Great Rend, Power Attack,
-Weapon Focus (bite), Weapon Focus (claw)
-
-**Skills:** Acrobatics +0 (+5 when jumping), Intimidate +6, Perception +6
-
-**Languages:** Giant
-
-**Special qualities:** armor training 1
-
-**Combat gear:** potion of barkskin, 2 potion of bull's strength, potion of protection from energy
-(fire)
-
-**Other gear:** +1 Ah, Ifist1, I-elixir of fire breath, ring of ring of jumping, ring of prot1,
-barbed troll claws, 315 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

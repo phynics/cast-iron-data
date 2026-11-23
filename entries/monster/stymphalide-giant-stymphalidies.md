@@ -32,81 +32,63 @@ _Every feather like a plate of shimmering armor and its beak the length and shar
 lance, this towering, ibis-like bird looks to be sculpted from silver and brass. Standing upon long
 legs ending in powerful metallic talons, its beady eyes dart about voraciously._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +6
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +12
+Senses: Low-light vision
+Experience points: 4,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 20
+AC modifiers: +2 Dex, +11 natural, -1 size
+Hit points: 94 (9d10+45)
+Fort: +11
+Ref: +10
+Will: +5
+Dr: 10/magic and adamantine
+Immune: fire
+Weaknesses: sonic
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 120 ft. (poor)
+Bleed: 1d6
+Melee: bite +14 (1d8+6 plus bleed/19-20), 2 talons +9 (1d6+3), 2 wings +9 (1d6+3 plus bleed)
+Ranged: 2 wing razors +10 (1d6+6 plus bleed)
+Reach: 5
+Space: 10
+Spec Att: glare, wing razors
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 15, Con 20, Int 2, Wis 15, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 28
+Feats: Alertness, Critical Focus, Improved Initiative, Lightning Reflexes, Flyby Attack
+Skills: Fly +0, Perception +12
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +11 natural, -1 size
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +11
-
-**Ref:** +10
-
-**Will:** +5
-
-**Dr:** 10/magic and adamantine
-
-**Immune:** fire
-
-**Weaknesses:** sonic
-
-**Offense**
-
-**Speed:** 20 ft., fly 120 ft. (poor)
-
-**Bleed:** 1d6
-
-**Melee:** bite +14 (1d8+6 plus bleed/19-20), 2 talons +9 (1d6+3), 2 wings +9 (1d6+3 plus bleed)
-
-**Ranged:** 2 wing razors +10 (1d6+6 plus bleed)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** glare, wing razors
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 20, Int 2, Wis 15, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 28
-
-**Feats:** Alertness, Critical Focus, Improved Initiative, Lightning Reflexes, Flyby Attack
-
-**Skills:** Fly +0, Perception +12
-
-**Ecology**
-
-**Environment:** warm mountains
-
-**Organization:** solitary, pair, or flight (3-9)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm mountains
+Organization: solitary, pair, or flight (3-9)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

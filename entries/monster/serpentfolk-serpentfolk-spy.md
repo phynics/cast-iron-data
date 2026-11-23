@@ -28,68 +28,50 @@ special_qualities = "trapfinding +1"
 abilities = ["12", "23", "19", "18", "13", "20"]
 +++
 
-**Challenge rating:** 5
-
 **Advanced serpentfolk [rogue](ref/class/rogue) 1**
 
-**Initiative:** +10
+::: statblock
+Challenge rating: 5
+Initiative: +10
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Scent
+Experience points: 1,600
+:::
 
-**Size:** medium
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 19
+Touch: 16
+Flat-footed: 13
+AC modifiers: +6 Dex, +3 natural
+Hit points: 56 (5d10+1d8+25\~6)
+Fort: +7
+Ref: +12
+Will: +5
+Immune: mind-affecting effects, paralysis, poison
+Sr: 16
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 30 ft.
+Melee: +1 short sword +12 (1d6+2/19-20), bite +6 (1d6 plus poison) or mwk dagger +12 (1d4+1/19-20), bite +6 (1d6 plus poison)
+Ranged: mwk hand crossbow +12 (1d4/19-20 plus black adder venom)
+Sneak: +1d6
+:::
 
-**Senses:** Darkvision 60 ft., Scent
-
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +6 Dex, +3 natural
-
-**Hit points:** 56 (5d10+1d8+25\~6)
-
-**Fort:** +7
-
-**Ref:** +12
-
-**Will:** +5
-
-**Immune:** mind-affecting effects, paralysis, poison
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 short sword +12 (1d6+2/19-20), bite +6 (1d6 plus poison) or mwk dagger +12
-(1d4+1/19-20), bite +6 (1d6 plus poison)
-
-**Ranged:** mwk hand crossbow +12 (1d4/19-20 plus black adder venom)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +9
-
-**At will:**
-
-- disguise self (DC 16, humanoid form only), ventriloquism (DC 16)
-
-**Per day:**
-
-- 1/day: blur, mirror image, suggestion (DC 18)
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +9
+At will: disguise self (DC 16, humanoid form only), ventriloquism (DC 16)
+Per day: 1/day: blur, mirror image, suggestion (DC 18)
+:::
 
 ### Tactics
 
@@ -97,34 +79,27 @@ abilities = ["12", "23", "19", "18", "13", "20"]
 before striking from ambush with poisoned weapons and venomous bites. It conceals its true numbers
 and position with blur, disguise self, or mirror image.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 12, Dex 23, Con 19, Int 18, Wis 13, Cha 20
+::: statblock
+Ability scores: Str 12, Dex 23, Con 19, Int 18, Wis 13, Cha 20
+Base attack bonus: +5
+Combat maneuver bonus: +6
+Combat maneuver defense: 22
+Feats: Great Fortitude, Improved Initiative, Weapon Finesse
+Skills: Acrobatics +15, Bluff +13, Diplomacy +13, Disable Device +11, Disguise +15, Sense Motive +10, Sleight of Hand +10, Spellcraft +9, Stealth +10, Use Magic Device +20
+Racial Modifiers: +8 Escape Artist, +4 Use Magic Device
+Languages: Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [trapfinding](ref/ability/trapfinding) +1
+Combat gear: 3 potion of Xblack adder venom
+Other gear: +1 short sword, mwk dagger, mwk hand10, thieves' tools, 77 gp
+:::
 
-**Base attack bonus:** +5
+### Ecology
 
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 22
-
-**Feats:** Great Fortitude, Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +15, Bluff +13, Diplomacy +13, Disable Device +11, Disguise +15, Sense Motive
-+10, Sleight of Hand +10, Spellcraft +9, Stealth +10, Use Magic Device +20
-
-**Racial Modifiers:** +8 Escape Artist, +4 Use Magic Device
-
-**Languages:** Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [trapfinding](ref/ability/trapfinding) +1
-
-**Combat gear:** 3 potion of Xblack adder venom
-
-**Other gear:** +1 short sword, mwk dagger, mwk hand10, thieves' tools, 77 gp
-
-**Ecology**
-
-**Environment:** any land (usually jungles or underground)
+::: statblock
+Environment: any land (usually jungles or underground)
+:::
 
 ### Special Abilities
 

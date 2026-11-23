@@ -28,80 +28,62 @@ special_attacks = "javelin barrage~powerful charge~rage"
 abilities = ["26", "13", "18", "7", "10", "9"]
 +++
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Initiative: +5
+Size: large
+Type: Monstrous humanoid
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Troop
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 23
+AC modifiers: +6 armor, +1 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 152 (16d10+64)
+Fort: +11
+Ref: +11
+Will: +12
+Defensive abilities: natural cunning, troop traits
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: troop (4d6+8)
+Reach: 5
+Space: 20
+Spec Att: javelin barrage, powerful charge, rage
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 26, Dex 13, Con 18, Int 7, Wis 10, Cha 9
+Base attack bonus: +16
+Combat maneuver bonus: +25
+Combat maneuver defense: 37
+Feats: Dodge, Extra Rage, Great Fortitude, Improved Initiative, Improved Iron Will, Intimidating Prowess, Iron Will, Skill Focus (Intimidate)
+Skills: Intimidate +32, Perception +13
+Racial Modifiers: +4 Perception, +4 Survival
+Languages: Giant
+:::
 
-**Subtype:** Troop
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 23
-
-**AC modifiers:** +6 armor, +1 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 152 (16d10+64)
-
-**Fort:** +11
-
-**Ref:** +11
-
-**Will:** +12
-
-**Defensive abilities:** natural cunning, troop traits
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** troop (4d6+8)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** javelin barrage, powerful charge, rage
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 13, Con 18, Int 7, Wis 10, Cha 9
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 37
-
-**Feats:** Dodge, Extra Rage, Great Fortitude, Improved Initiative, Improved Iron Will, Intimidating
-Prowess, Iron Will, Skill Focus (Intimidate)
-
-**Skills:** Intimidate +32, Perception +13
-
-**Racial Modifiers:** +4 Perception, +4 Survival
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** any mountains or underground
-
-**Organization:** solitary, pair, or force (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any mountains or underground
+Organization: solitary, pair, or force (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

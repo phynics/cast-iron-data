@@ -29,79 +29,62 @@ abilities = ["1", "17", "10", "-", "10", "2"]
 
 _An awful, scuttling mass of legs and mandibles scrambles forward out of the darkness._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Size: diminutive
+Initiative: +3
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+tremorsense: 30
+Type: vermin
+Experience points: 400
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 size
+Hit points: 9 (2d8)
+Fort: +3
+Ref: +3
+Will: +0
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Distraction: 11
+Melee: swarm (1d6 plus poison and distraction)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 17, Con 10, Int -, Wis 10, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +11, Perception +4
+Racial Modifiers: +4 Perception
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 400
-
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +0
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Distraction:** 11
-
-**Melee:** swarm (1d6 plus poison and distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 17, Con 10, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +11, Perception +4
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, tangle (3-6 swarms) or colony (11-20 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, tangle (3-6 swarms) or colony (11-20 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,86 +31,65 @@ abilities = ["19", "8", "16", "9", "16", "15"]
 _An unnatural tittering issues forth from the fanged maw of this floating mass of talon-tipped
 tentacles, all as red as freshly spilled blood._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +3
+Size: large
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision, Scent blood
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 19
+Touch: 8
+Flat-footed: 19
+AC modifiers: -1 Dex, +11 natural, -1 size
+Hit points: 67 (9d8+27)
+Fort: +6
+Ref: +4
+Will: +11
+Amorph: present
+Defensive abilities: blood healing, partial invisibility
+Dr: 5/slashing
+Weaknesses: bleed effects
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., fly 40 ft. (perfect)
+B Drain: 1d2 Constitution
+Melee: 3 talons +9 (1d4+4 plus bleed), bite +9 (1d6+4 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: loathsome embrace
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent blood
+::: statblock
+Ability scores: Str 19, Dex 8, Con 16, Int 9, Wis 16, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 20
+Feats: Flyby Attack, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception)
+Skills: Fly +17, Perception +18, Stealth +7
+Languages: Aklo
+Special qualities: [compression](ref/umr/compression), flight, [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 8
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +11 natural, -1 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +11
-
-**Amorph:** present
-
-**Defensive abilities:** blood healing, partial invisibility
-
-**Dr:** 5/slashing
-
-**Weaknesses:** bleed effects
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (perfect)
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** 3 talons +9 (1d4+4 plus bleed), bite +9 (1d6+4 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** loathsome embrace
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 8, Con 16, Int 9, Wis 16, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 20
-
-**Feats:** Flyby Attack, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus
-(Perception)
-
-**Skills:** Fly +17, Perception +18, Stealth +7
-
-**Languages:** Aklo
-
-**Special qualities:** [compression](ref/umr/compression), flight, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any air
-
-**Organization:** solitary, pair, or clot (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any air
+Organization: solitary, pair, or clot (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

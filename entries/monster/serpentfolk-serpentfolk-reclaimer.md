@@ -31,94 +31,69 @@ abilities = ["10", "23", "17", "18", "15", "20"]
 _Ophidian imagery decorates the fine robes of this sinuous, fanged humanoid, and a narrow, forked
 tongue flicks from its serpentine head._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +10
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft., Scent
+Experience points: 2,400
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 14
+AC modifiers: +6 Dex, +4 natural
+Hit points: 68 (8d10+24)
+Fort: +5
+Ref: +12
+Will: +10
+Immune: mind-affecting effects, poison, paralysis
+Sr: 17
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +15/+10 (1d4/19-20), bite +9 (1d6 plus poison)
+Spec Att: poison
+:::
 
-**Perception:** +13
+::: statblock
+title = "Psychic Magic"
+Caster level: 9
+Concentration: +14
+Power points: 12
+Psychoactive powers: anticipate thoughts, 2 PE, DC 17, call spirit, 5 PE, DC 20, command, 1 PE, DC 16, disguise self, 1 PE, DC 16, hypnotism, 1 PE, DC 16, instigate psychic duel, 2 PE, DC 17, suggestion, 2 PE, DC 17, synesthesia, 3 PE, DC 18
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 10, Dex 23, Con 17, Int 18, Wis 15, Cha 20
+Base attack bonus: +8
+Combat maneuver bonus: +8
+Combat maneuver defense: 24
+Feats: Improved Initiative, Iron Will, Lunge, Weapon Finesse
+Skills: Acrobatics +10, Bluff +11, Disguise +13, Sense Motive +10, Spellcraft +12, Stealth +13, Use Magic Device +17
+Racial Modifiers: +8 Escape Artist, +4 Use Magic Device
+Languages: Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: spiritspeaker
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 Dex, +4 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +5
-
-**Ref:** +12
-
-**Will:** +10
-
-**Immune:** mind-affecting effects, poison, paralysis
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dagger +15/+10 (1d4/19-20), bite +9 (1d6 plus poison)
-
-**Spec Att:** poison
-
-**Psychic Magic**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Power points:** 12
-
-**Psychoactive powers:**
-
-- anticipate thoughts, 2 PE, DC 17, call spirit, 5 PE, DC 20, command, 1 PE, DC 16, disguise self, 1
-  PE, DC 16, hypnotism, 1 PE, DC 16, instigate psychic duel, 2 PE, DC 17, suggestion, 2 PE, DC 17,
-  synesthesia, 3 PE, DC 18
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 23, Con 17, Int 18, Wis 15, Cha 20
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 24
-
-**Feats:** Improved Initiative, Iron Will, Lunge, Weapon Finesse
-
-**Skills:** Acrobatics +10, Bluff +11, Disguise +13, Sense Motive +10, Spellcraft +12, Stealth +13,
-Use Magic Device +17
-
-**Racial Modifiers:** +8 Escape Artist, +4 Use Magic Device
-
-**Languages:** Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** spiritspeaker
-
-**Ecology**
-
-**Environment:** any land (usually jungles or underground)
-
-**Organization:** solitary, pair, vision cult (1-3 plus 3-5 [allips](ref/monster/allip)), or
-conclave (3-6 plus 4-10 [degenerate](ref/template/degenerate)
-[serpentfolk](ref/monster/serpentfolk))
-
-**Treasure:** NPC gear (mwk dagger); other treasure
+::: statblock
+Environment: any land (usually jungles or underground)
+Organization: solitary, pair, vision cult (1-3 plus 3-5 [allips](ref/monster/allip)), or conclave (3-6 plus 4-10 [degenerate](ref/template/degenerate) [serpentfolk](ref/monster/serpentfolk))
+Treasure: NPC gear (mwk dagger); other treasure
+:::
 
 ### Special Abilities
 

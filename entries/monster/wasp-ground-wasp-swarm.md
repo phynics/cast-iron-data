@@ -30,79 +30,62 @@ abilities = ["1", "12", "10", "-", "11", "3"]
 _Thousands of yellow and black wasps form a thick cloud that swirls with savage bites and venomous
 stings._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Size: fine
+Initiative: +1
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+tremorsense: 15
+Type: vermin
+Experience points: 600
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 19
+Touch: 19
+Flat-footed: 18
+AC modifiers: +1 Dex, +8 size
+Hit points: 13 (3d8)
+Fort: +3
+Ref: +2
+Will: +1
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 5 ft., burrow 10 ft., fly 30 ft. (good)
+Distraction: 11
+Melee: swarm (1d6 plus distraction and poison)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 12, Con 10, Int -, Wis 11, Cha 3
+Base attack bonus: +2
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Fly +13, Perception +8
+Racial Modifiers: +8 Perception
+:::
 
-**tremorsense:** 15
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 600
-
-**Armor class:** 19
-
-**Touch:** 19
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +8 size
-
-**Hit points:** 13 (3d8)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +1
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 5 ft., burrow 10 ft., fly 30 ft. (good)
-
-**Distraction:** 11
-
-**Melee:** swarm (1d6 plus distraction and poison)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 12, Con 10, Int -, Wis 11, Cha 3
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Fly +13, Perception +8
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** warm deserts or plains
-
-**Organization:** solitary, pair, or infestation (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts or plains
+Organization: solitary, pair, or infestation (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

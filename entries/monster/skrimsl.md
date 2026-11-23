@@ -31,96 +31,72 @@ abilities = ["31", "18", "21", "4", "23", "18"]
 _Four gleaming, yellow eyes leer above the tooth-rimmed maw of this massive, blue-scaled and
 eel-like creature._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Size: huge
+Initiative: +8
+Type: Magical beast
+Alignment: Neutral
+Perception: +26
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 25,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 28
+Touch: 12
+Flat-footed: 24
+AC modifiers: +4 Dex, +16 natural, -2 size
+Hit points: 178 (17d10+85)
+Fort: +15
+Ref: +14
+Will: +13
+Defensive abilities: absorb lightning, elusive
+Immune: cold, electricity
+Resist: fire 20
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 50 ft.
+Melee: bite +25 (4d6+10/19-20 plus 2d6 electricity and [grab](ref/umr/grab)), tail slap +20 (2d10+5 plus 2d6 electricity)
+Reach: 15
+Space: 15
+Spec Att: electricity field
+Swallow: 3d6+10 bludgeoning plus 2d6 electricity damage, AC 18, 17 hp
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Per day: 3/day: lightning bolt (DC 17)\
+1/day: chain lightning (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 31, Dex 18, Con 21, Int 4, Wis 23, Cha 18
+Base attack bonus: +17
+Combat maneuver bonus: +29 (+33 sunder)
+Combat maneuver defense: 43 (45 vs. sunder)
+Feats: Combat Casting, Critical Focus, Greater Sunder, Improved Critical (bite), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Staggering Critical
+Skills: Perception +26, Swim +18
+Languages: Aquan (can't speak)
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 12
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 Dex, +16 natural, -2 size
-
-**Hit points:** 178 (17d10+85)
-
-**Fort:** +15
-
-**Ref:** +14
-
-**Will:** +13
-
-**Defensive abilities:** absorb lightning, elusive
-
-**Immune:** cold, electricity
-
-**Resist:** fire 20
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft.
-
-**Melee:** bite +25 (4d6+10/19-20 plus 2d6 electricity and [grab](ref/umr/grab)), tail slap +20
-(2d10+5 plus 2d6 electricity)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** electricity field
-
-**Swallow:** 3d6+10 bludgeoning plus 2d6 electricity damage, AC 18, 17 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Per day:**
-
-- 3/day: lightning bolt (DC 17)
-- 1/day: chain lightning (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 18, Con 21, Int 4, Wis 23, Cha 18
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +29 (+33 sunder)
-
-**Combat maneuver defense:** 43 (45 vs. sunder)
-
-**Feats:** Combat Casting, Critical Focus, Greater Sunder, Improved Critical (bite), Improved
-Initiative, Improved Sunder, Iron Will, Power Attack, Staggering Critical
-
-**Skills:** Perception +26, Swim +18
-
-**Languages:** Aquan (can't speak)
-
-**Ecology**
-
-**Environment:** cold oceans
-
-**Organization:** solitary, pair, or pod (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: cold oceans
+Organization: solitary, pair, or pod (3-9)
+Treasure: None
+:::
 
 ### Special Abilities
 

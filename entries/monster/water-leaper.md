@@ -32,77 +32,61 @@ abilities = ["12", "16", "15", "7", "14", "13"]
 _This vicious monster has webbed wings, a mouth full of sharp teeth, and a long tail ending a black
 stinger._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Initiative: +7
+Type: Magical beast
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Aquatic
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +6
+Will: +3
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft., swim 30 ft., fly 20 ft. (clumsy)
+Bleed: 1
+Melee: bite +5 (1d4+1), sting +5 (1d4+1 plus 1 bleed and jagged sting)
+Spec Att: jagged sting, water leap
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 16, Con 15, Int 7, Wis 14, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Flyby Attack, Improved Initiative
+Skills: Acrobatics +11 (+15 when jumping), Fly -3
+Racial Modifiers: +4 Acrobatics (+8 when jumping)
+Languages: Aquan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft., fly 20 ft. (clumsy)
-
-**Bleed:** 1
-
-**Melee:** bite +5 (1d4+1), sting +5 (1d4+1 plus 1 bleed and jagged sting)
-
-**Spec Att:** jagged sting, water leap
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 16, Con 15, Int 7, Wis 14, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Flyby Attack, Improved Initiative
-
-**Skills:** Acrobatics +11 (+15 when jumping), Fly -3
-
-**Racial Modifiers:** +4 Acrobatics (+8 when jumping)
-
-**Languages:** Aquan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any lakes or swamps
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any lakes or swamps
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

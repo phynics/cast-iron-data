@@ -31,88 +31,67 @@ abilities = ["14", "15", "15", "12", "14", "19"]
 _This handsome, grinning man has the furry legs of a goat and a set of curling ram horns extending
 from his temples._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +2
+Size: medium
+Perception: +18
+Senses: Low-light vision
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +2 Dex, +1 dodge, +5 natural
+Hit points: 44 (8d6+16)
+Fort: +4
+Ref: +8
+Will: +8
+Dr: 5/cold iron
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: dagger +6 (1d4+2/19-20), horns +1 (1d6+1)
+Ranged: short bow +6 (1d6/×3)
+Spec Att: pipes
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+At will: charm person (DC 15), dancing lights, ghost sound (DC 14), sleep (DC 15), suggestion (DC 17)
+Per day: 1/day: fear (DC 18), summon nature's ally III
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 14, Dex 15, Con 15, Int 12, Wis 14, Cha 19
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 18
+Feats: Dodge, Mobility, Skill Focus (Perception), Weapon Finesse
+Skills: Bluff +15, Diplomacy +15, Intimidate +9, Knowledge (nature) +10, Perception +18
+Racial Modifiers: +4 Perception, +4 Perform, +4 Stealth
+Languages: Common, Sylvan
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +1 dodge, +5 natural
-
-**Hit points:** 44 (8d6+16)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** dagger +6 (1d4+2/19-20), horns +1 (1d6+1)
-
-**Ranged:** short bow +6 (1d6/×3)
-
-**Spec Att:** pipes
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**At will:**
-
-- charm person (DC 15), dancing lights, ghost sound (DC 14), sleep (DC 15), suggestion (DC 17)
-
-**Per day:**
-
-- 1/day: fear (DC 18), summon nature's ally III
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 15, Int 12, Wis 14, Cha 19
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18
-
-**Feats:** Dodge, Mobility, Skill Focus (Perception), Weapon Finesse
-
-**Skills:** Bluff +15, Diplomacy +15, Intimidate +9, Knowledge (nature) +10, Perception +18
-
-**Racial Modifiers:** +4 Perception, +4 Perform, +4 Stealth
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, band (3-6), or orgy (7-11)
-
-**Treasure:** Standard (dagger, sb20);
-[masterwork panpipes](ref/eq-misc/musical-instrument-masterwork), other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, band (3-6), or orgy (7-11)
+Treasure: Standard (dagger, sb20); [masterwork panpipes](ref/eq-misc/musical-instrument-masterwork), other treasure
+:::
 
 ### Special Abilities
 

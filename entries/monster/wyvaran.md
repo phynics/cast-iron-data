@@ -30,101 +30,77 @@ abilities = ["10", "14", "13", "6", "17", "14"]
 _This dragon-like humanoid brandishes its spear, spreads its wings, and shows its fangs in an angry
 snarl._
 
-**Challenge rating:** 1/2
-
 **Female wyvaran [inquisitor](ref/class/inquisitor) 1**
 
-**Type:** dragon
+::: statblock
+Challenge rating: 1/2
+Type: dragon
+Initiative: +2
+Alignment: Lawful neutral
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +5 armor, +2 Dex
+Hit points: 10 (1d8+2)
+Fort: +3
+Ref: +2
+Will: +5
+Immune: paralysis, sleep
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft., fly 30 ft. (clumsy)
+Melee: shortspear +1 (1d6) or slapping tail +0 (1d8; attacks of opportunity only)
+Sp Extra: (20 ft., fly 20 ft. \[clumsy&93& in armor)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +3
+Per day: 6/day: lightning arc, 1d6 electricity
+:::
 
-**Experience points:** 200
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +3
+1st-level spells: 2/day: cause fear (DC 15), shield of faith
+Cantrips: At will: acid splash, daze (DC 14), disrupt undead, guidance
+Domain: [Air](ref/domain/air)
+:::
 
-**Armor class:** 17
+### Statistics
 
-**Touch:** 12
+::: statblock
+Ability scores: Str 10, Dex 14, Con 13, Int 6, Wis 17, Cha 14
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 12
+Feats: Weapon Focus (shortspear)
+Skills: Fly -6, Intimidate +6, Knowledge (religion) +2, Perception +7
+Languages: Common, Draconic
+Special qualities: judgment 1/day, monster lore +3, stern gaze
+:::
 
-**Flat-footed:** 15
+### Ecology
 
-**AC modifiers:** +5 armor, +2 Dex
-
-**Hit points:** 10 (1d8+2)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +5
-
-**Immune:** paralysis, sleep
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (clumsy)
-
-**Melee:** shortspear +1 (1d6) or slapping tail +0 (1d8; attacks of opportunity only)
-
-**Sp Extra:** (20 ft., fly 20 ft. \[clumsy&93& in armor)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**Per day:**
-
-- 6/day: lightning arc, 1d6 electricity
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**1st-level spells:**
-
-- 2/day: cause fear (DC 15), shield of faith
-
-**Cantrips:**
-
-- At will: acid splash, daze (DC 14), disrupt undead, guidance
-
-**Domain:** [Air](ref/domain/air)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 14, Con 13, Int 6, Wis 17, Cha 14
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12
-
-**Feats:** Weapon Focus (shortspear)
-
-**Skills:** Fly -6, Intimidate +6, Knowledge (religion) +2, Perception +7
-
-**Languages:** Common, Draconic
-
-**Special qualities:** judgment 1/day, monster lore +3, stern gaze
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, wing (2-8), or flight (4-12)
-
-**Treasure:** NPC gear (spear, scale mail); [holy symbol](ref/eq-misc/holy-symbol), other treasure
+::: statblock
+Environment: temperate mountains
+Organization: solitary, wing (2-8), or flight (4-12)
+Treasure: NPC gear (spear, scale mail); [holy symbol](ref/eq-misc/holy-symbol), other treasure
+:::
 
 ### Description
 

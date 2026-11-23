@@ -119,7 +119,7 @@ FRONT_MATTER_END = "\n+++\n"
 
 # The slices already written to the corpus: (pass, --only value or None for the whole pass).
 # `--check` with no scope arguments checks exactly these.
-APPLIED: list[tuple[str, str | None]] = [("creature", "a-r")]
+APPLIED: list[tuple[str, str | None]] = [("creature", None)]
 
 PASS_FOLDERS = {"creature": ("monster",), "fixes": ()}
 KNOWN_PASSES = ("creature", "npc", "item", "fixes")

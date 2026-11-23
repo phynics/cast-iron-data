@@ -34,91 +34,67 @@ abilities = ["34", "17", "28", "12", "17", "11"]
 _Four long antennae stretch from the face of this giant, multi-eyed flatworm. From its spiny,
 chitinous body emerge four tentacles._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: aberration
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Perception: +26
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Experience points: 19,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 27
+Touch: 13
+Flat-footed: 23
+AC modifiers: +3 Dex, +1 dodge, +14 natural, -1 size
+Hit points: 189 (14d8+126)
+Fort: +15
+Ref: +11
+Will: +14
+Defensive abilities: resistant evolution
+Dr: 10/slashing
+Immune: acid, cold
+Vulner: sonic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., burrow 20 ft.
+Constrict: 1d8+6
+Melee: bite +21 (2d6+12 plus 4d6 acid), 4 tentacles +19 (1d8+6 plus [grab](ref/umr/grab))
+Reach: 10
+Reach P: 15 ft. with tentacles
+Space: 10
+Spec Att: acid spray
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 34, Dex 17, Con 28, Int 12, Wis 17, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 37 (can't be tripped)
+Feats: Cleave, Dodge, Improved Initiative, Lightning Reflexes, Multiattack, Power Attack, Skill Focus (Perception)
+Skills: Acrobatics +20 (+24 when jumping), Climb +29, Intimidate +17, Perception +26, Stealth +16
+Languages: Aklo; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +3 Dex, +1 dodge, +14 natural, -1 size
-
-**Hit points:** 189 (14d8+126)
-
-**Fort:** +15
-
-**Ref:** +11
-
-**Will:** +14
-
-**Defensive abilities:** resistant evolution
-
-**Dr:** 10/slashing
-
-**Immune:** acid, cold
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft.
-
-**Constrict:** 1d8+6
-
-**Melee:** bite +21 (2d6+12 plus 4d6 acid), 4 tentacles +19 (1d8+6 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with tentacles
-
-**Space:** 10
-
-**Spec Att:** acid spray
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 17, Con 28, Int 12, Wis 17, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Feats:** Cleave, Dodge, Improved Initiative, Lightning Reflexes, Multiattack, Power Attack, Skill
-Focus (Perception)
-
-**Skills:** Acrobatics +20 (+24 when jumping), Climb +29, Intimidate +17, Perception +26, Stealth
-+16
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any (terrestrial vacuum)
-
-**Organization:** solitary, pairs, or clutch (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (terrestrial vacuum)
+Organization: solitary, pairs, or clutch (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

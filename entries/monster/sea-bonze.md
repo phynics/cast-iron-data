@@ -31,86 +31,65 @@ abilities = ["30", "11", "-", "13", "18", "23"]
 _Massive and blacker than the darkest depths of the sea, this colossal watery form glares with two
 immense, hate-filled eyes._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsight: 120
+Size: gargantuan
+Initiative: +4
+Alignment: Neutral evil
+Perception: +33
+Subtype: Aquatic
+Type: undead
+Experience points: 51,200
+:::
 
-**blindsight:** 120
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 30
+Touch: 6
+Flat-footed: 30
+AC modifiers: +24 natural, -4 size
+Hit points: 231 (22d8+132)
+Fort: +13
+Ref: +9
+Will: +19
+Dr: 10/magic and slashing
+Immune: cold, electricity, [undead traits](ref/umr/undead-traits)
+Resist: acid 10, fire 10
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., swim 80 ft.
+Capsize: present
+Melee: 2 slams +22 (4d10+10)
+Reach: 20
+Space: 20
+Spec Att: dooming gaze (60 ft., DC 27)
+:::
 
-**Perception:** +33
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 30, Dex 11, Con -, Int 13, Wis 18, Cha 23
+Base attack bonus: +16
+Combat maneuver bonus: +30
+Combat maneuver defense: 40 (can't be tripped)
+Feats: Alertness, Combat Reflexes, Critical Focus, Improved Initiative, Improved Iron Will, Intimidating Prowess, Iron Will, Lightning Reflexes, Power Attack, Stand Still, Vital Strike
+Skills: Intimidate +41, Perception +33, Sense Motive +33, Stealth +13, Swim +47
+Racial Modifiers: +4 Swim
+Languages: Aquan, Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 6
-
-**Flat-footed:** 30
-
-**AC modifiers:** +24 natural, -4 size
-
-**Hit points:** 231 (22d8+132)
-
-**Fort:** +13
-
-**Ref:** +9
-
-**Will:** +19
-
-**Dr:** 10/magic and slashing
-
-**Immune:** cold, electricity, [undead traits](ref/umr/undead-traits)
-
-**Resist:** acid 10, fire 10
-
-**Offense**
-
-**Speed:** 40 ft., swim 80 ft.
-
-**Capsize:** present
-
-**Melee:** 2 slams +22 (4d10+10)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** dooming gaze (60 ft., DC 27)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 11, Con -, Int 13, Wis 18, Cha 23
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 40 (can't be tripped)
-
-**Feats:** Alertness, Combat Reflexes, Critical Focus, Improved Initiative, Improved Iron Will,
-Intimidating Prowess, Iron Will, Lightning Reflexes, Power Attack, Stand Still, Vital Strike
-
-**Skills:** Intimidate +41, Perception +33, Sense Motive +33, Stealth +13, Swim +47
-
-**Racial Modifiers:** +4 Swim
-
-**Languages:** Aquan, Common
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

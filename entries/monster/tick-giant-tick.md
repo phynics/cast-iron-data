@@ -28,69 +28,57 @@ abilities = ["11", "10", "15", "-", "11", "2"]
 
 _This dog-sized tick has a grotesquely bulbous body and a thin head equipped with hooked mandibles._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +0
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Scent
+Size: small
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 16
+AC modifiers: +5 natural, +1 size
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +0
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Speed: 20 ft., climb 20 ft.
+B Drain: 1 Constitution
+Melee: bite +2 (1d4 plus [grab](ref/umr/grab), attach, and disease)
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 11, Dex 10, Con 15, Int -, Wis 11, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +0 (+8 grapple)
+Combat maneuver defense: 10 (22 vs. trip)
+Skills: Climb +8, Stealth +8
+Racial Modifiers: +4 Stealth
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 natural, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +0
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**B Drain:** 1 Constitution
-
-**Melee:** bite +2 (1d4 plus [grab](ref/umr/grab), attach, and disease)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 10, Con 15, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0 (+8 grapple)
-
-**Combat maneuver defense:** 10 (22 vs. trip)
-
-**Skills:** Climb +8, Stealth +8
-
-**Racial Modifiers:** +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, cluster (3-6), or nest (7-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, cluster (3-6), or nest (7-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

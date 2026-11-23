@@ -29,77 +29,61 @@ abilities = ["19", "15", "16", "-", "10", "2"]
 _This long-legged spider has a huge, glossy black abdomen, marked on the underside with the shape of
 a crimson hourglass._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +3
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +6 (1d8+6 plus poison)
+Reach: 5
+Space: 10
+Web: +4 ranged, DC 19, 5 hp
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 19, Dex 15, Con 16, Int -, Wis 10, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 20 (32 vs. trip)
+Skills: Climb +20, Perception +4
+Racial Modifiers: +8 Climb, +4 Perception, +4 Stealth (+8 webs)
+Special qualities: strong webs
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +6 (1d8+6 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Web:** +4 ranged, DC 19, 5 hp
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 16, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20 (32 vs. trip)
-
-**Skills:** Climb +20, Perception +4
-
-**Racial Modifiers:** +8 Climb, +4 Perception, +4 Stealth (+8 webs)
-
-**Special qualities:** strong webs
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or colony (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary, pair, or colony (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

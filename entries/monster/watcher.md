@@ -30,112 +30,77 @@ abilities = ["30", "27", "32", "29", "34", "21"]
 _This enormous black insectile creature moves with an almost nauseating grace as it watches with its
 single red eye._
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+blindsight: 120
+Size: gargantuan
+Initiative: +12
+Alignment: Lawful neutral
+Type: outsider
+Perception: +51
+Senses: See in darkness, True seeing
+Experience points: 614,400
+:::
 
-**blindsight:** 120
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 41
+Touch: 26
+Flat-footed: 32
+AC modifiers: +8 Dex, +1 dodge, +11 Wis, +15 natural, -4 size
+Hit points: 429 (26d10+286)
+Fort: +19
+Ref: +23
+Will: +27
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/chaotic
+Evasion: present
+Immune: blindness, daze, divination effects, force effects, mind-affecting effects
+Regen: 15 (chaotic spells and effects)
+Sr: 33
+:::
 
-**Initiative:** +12
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 60 ft.
+Melee: 6 talons +32 (2d8+10/19-20 plus stasis)
+Reach: 30
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 20
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: air walk, freedom of movement, true seeing
+At will: control weather, plane shift (DC 22), telekinesis (DC 20)
+Per day: 3/day: call lightning storm (DC 21), earthquake (DC 22), quickened teleport, sirocco (DC 21), vortex (DC 22), whirlwind (DC 23)\
+1/day: meteor swarm (DC 24), storm of vengeance (DC 24), time stop, tsunami (DC 24)
+:::
 
-**Perception:** +51
+### Statistics
 
-**Senses:** See in darkness, True seeing
+::: statblock
+Ability scores: Str 30, Dex 27, Con 32, Int 29, Wis 34, Cha 21
+Base attack bonus: +26
+Combat maneuver bonus: +40
+Combat maneuver defense: 70 (can't be tripped)
+Feats: Alertness, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Improved Critical (talons), Improved Initiative, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (teleport), Skill Focus (Perception), Spring Attack, Staggering Critical, Whirlwind Attack
+Skills: Acrobatics +37, Craft (any one) +38, Knowledge (arcana, dungeoneering, geography) +35, Knowledge (planes) +38, Perception +51, Use Magic Device +34
+Languages: telepathy 200 ft., _truespeech_
+Special qualities: beacon of Jandelay, inconspicuous, perfect observation, phase shift
+:::
 
-**Experience points:** 614,400
+### Ecology
 
-**Armor class:** 41
-
-**Touch:** 26
-
-**Flat-footed:** 32
-
-**AC modifiers:** +8 Dex, +1 dodge, +11 Wis, +15 natural, -4 size
-
-**Hit points:** 429 (26d10+286)
-
-**Fort:** +19
-
-**Ref:** +23
-
-**Will:** +27
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/chaotic
-
-**Evasion:** present
-
-**Immune:** blindness, daze, divination effects, force effects, mind-affecting effects
-
-**Regen:** 15 (chaotic spells and effects)
-
-**Sr:** 33
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** 6 talons +32 (2d8+10/19-20 plus stasis)
-
-**Reach:** 30
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- air walk, freedom of movement, true seeing
-
-**At will:**
-
-- control weather, plane shift (DC 22), telekinesis (DC 20)
-
-**Per day:**
-
-- 3/day: call lightning storm (DC 21), earthquake (DC 22), quickened teleport, sirocco (DC 21),
-  vortex (DC 22), whirlwind (DC 23)
-- 1/day: meteor swarm (DC 24), storm of vengeance (DC 24), time stop, tsunami (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 27, Con 32, Int 29, Wis 34, Cha 21
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +40
-
-**Combat maneuver defense:** 70 (can't be tripped)
-
-**Feats:** Alertness, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Improved Critical
-(talons), Improved Initiative, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(teleport), Skill Focus (Perception), Spring Attack, Staggering Critical, Whirlwind Attack
-
-**Skills:** Acrobatics +37, Craft (any one) +38, Knowledge (arcana, dungeoneering, geography) +35,
-Knowledge (planes) +38, Perception +51, Use Magic Device +34
-
-**Languages:** telepathy 200 ft., _truespeech_
-
-**Special qualities:** beacon of Jandelay, inconspicuous, perfect observation, phase shift
-
-**Ecology**
-
-**Environment:** any (Jandelay)
-
-**Organization:** solitary or council (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Jandelay)
+Organization: solitary or council (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

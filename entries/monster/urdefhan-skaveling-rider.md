@@ -32,104 +32,75 @@ abilities = ["24", "16", "17", "12", "15", "16"]
 _Additional straps and hooks concealed beneath this muscular horror's cloak secure it to the saddle
 of the rotting, flapping undead monstrosity he rides._
 
-**Challenge rating:** 10
-
 **Urdefhan [cavalier](ref/class/cavalier) 7**
 
-**Initiative:** +3
+::: statblock
+Challenge rating: 10
+Initiative: +3
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +15
+Senses: Darkvision 120 ft.
+Subtype: Native
+Experience points: 9,600
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 19
+AC modifiers: +5 armor, +3 Dex, +3 natural, +1 shield
+Hit points: 92 (3d10+7d10+37\~10)
+Fort: +12
+Ref: +9
+Will: +6
+Dr: 5/good or silver
+Immune: death effects, disease, fear, level drain
+Resist: acid 10
+Sr: 21
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 30 ft.
+B Drain: 1 Con
+Melee: +1 rhoka sword +18/+13 (1d8+8/18-20), bite +12 (1d4+4) or mwk glaive +18/+13 (1d10+10/×3)
+Ranged: +1 composite shortbow +14/+9 (1d6+8/×3)
+Spec Att: banner +2, braggart, cavalier's charge, challenge 3/day (+7 damage), Strength damage, tactician 2/day (Outflank)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +6
+At will: feather fall
+Per day: 3/day: align weapon, death knell (DC 14), ray of enfeeblement (DC 14)
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 24, Dex 16, Con 17, Int 12, Wis 15, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 30
+Feats: Dazzling Display, Deadly Aim, Mounted Archery, Mounted Combat, Outflank, Power Attack, Ride-By Attack, Skaveling Companion
+Skills: Climb +11, Sense Motive +6, Stealth +11, Survival +11
+Languages: Aklo, Orvian, Undercommon
+Special qualities: daemonic pact, expert trainer +3, mount (skaveling), order of the cockatrice
+Combat gear: potion of cat's grace
+Other gear: +2 studded leather armor, buckler, +1 csb40+7, +1 -rhoka sword, mwk glaive, Iamu1, Iclk1
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 armor, +3 Dex, +3 natural, +1 shield
-
-**Hit points:** 92 (3d10+7d10+37\~10)
-
-**Fort:** +12
-
-**Ref:** +9
-
-**Will:** +6
-
-**Dr:** 5/good or silver
-
-**Immune:** death effects, disease, fear, level drain
-
-**Resist:** acid 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**B Drain:** 1 Con
-
-**Melee:** +1 rhoka sword +18/+13 (1d8+8/18-20), bite +12 (1d4+4) or mwk glaive +18/+13 (1d10+10/×3)
-
-**Ranged:** +1 composite shortbow +14/+9 (1d6+8/×3)
-
-**Spec Att:** banner +2, braggart, cavalier's charge, challenge 3/day (+7 damage), Strength damage,
-tactician 2/day (Outflank)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**At will:**
-
-- feather fall
-
-**Per day:**
-
-- 3/day: align weapon, death knell (DC 14), ray of enfeeblement (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 16, Con 17, Int 12, Wis 15, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 30
-
-**Feats:** Dazzling Display, Deadly Aim, Mounted Archery, Mounted Combat, Outflank, Power Attack,
-Ride-By Attack, Skaveling Companion
-
-**Skills:** Climb +11, Sense Motive +6, Stealth +11, Survival +11
-
-**Languages:** Aklo, Orvian, Undercommon
-
-**Special qualities:** daemonic pact, expert trainer +3, mount (skaveling), order of the cockatrice
-
-**Combat gear:** potion of cat's grace
-
-**Other gear:** +2 studded leather armor, buckler, +1 csb40+7, +1 -rhoka sword, mwk glaive, Iamu1,
-Iclk1
-
-**Ecology**
-
-**Environment:** any land ([Abaddon](ref/rule/abaddon))
+::: statblock
+Environment: any land ([Abaddon](ref/rule/abaddon))
+:::
 
 ### Description
 

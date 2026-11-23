@@ -35,75 +35,60 @@ abilities = ["15", "14", "17", "3", "10", "10"]
 _This disgusting beast looks like a slime-covered toad, but with two walrus-like tusks jutting from
 its upper jaw._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +6
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Experience points: 600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 17 (2d10+6)
+Fort: +6
+Ref: +5
+Will: +0
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +4 (2d6+3)
+Ranged: slime squirt +4 ranged touch
+Spec Att: belly grease, slime
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 14, Con 17, Int 3, Wis 10, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16 (20 vs. bull rush, grapple, overrun, and trip)
+Feats: Improved Bull Rush, Improved Initiative, Improved Overrun
+Skills: Acrobatics +16, Climb +14, Escape Artist +6
+Racial Modifiers: +10 Acrobatics, +4 Escape Artist
+Languages: Boggard (can't speak)
+Special qualities: hunker
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 17 (2d10+6)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +4 (2d6+3)
-
-**Ranged:** slime squirt +4 ranged touch
-
-**Spec Att:** belly grease, slime
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 17, Int 3, Wis 10, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16 (20 vs. bull rush, grapple, overrun, and trip)
-
-**Feats:** Improved Bull Rush, Improved Initiative, Improved Overrun
-
-**Skills:** Acrobatics +16, Climb +14, Escape Artist +6
-
-**Racial Modifiers:** +10 Acrobatics, +4 Escape Artist
-
-**Languages:** Boggard (can't speak)
-
-**Special qualities:** hunker
-
-**Ecology**
-
-**Environment:** temperate swamps or underground
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate swamps or underground
+Organization: solitary, pair, or pack (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,93 +31,70 @@ abilities = ["10", "15", "-", "6", "10", "13"]
 _This floating creature looks like an orc's animate, hollow skin. Its upper half is intact, but its
 lower half is in tatters._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft., Detect undead
+Size: small
+Type: undead
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 22 (4d8+4)
+Fort: +2
+Ref: +3
+Will: +4
+Amorph: present
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +7
+### Offense
 
-**Senses:** Darkvision 60 ft., Detect undead
+::: statblock
+Speed: fly 40 ft. (average)
+Constrict: 1d4
+Grab: Medium
+Melee: bite +6 (1d4), 2 claws +6 (1d4 plus grab)
+Spec Att: control body, enshroud
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+Constant: detect undead
+Per day: 1/day: command undead (DC 13)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 10, Dex 15, Con -, Int 6, Wis 10, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +4 (+8 grapple)
+Combat maneuver defense: 14 (can't be tripped)
+Feats: Agile Maneuvers, Weapon Finesse
+Skills: Fly +4, Perception +7, Stealth +13
+Languages: Common (can't speak)
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +4
-
-**Amorph:** present
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (average)
-
-**Constrict:** 1d4
-
-**Grab:** Medium
-
-**Melee:** bite +6 (1d4), 2 claws +6 (1d4 plus grab)
-
-**Spec Att:** control body, enshroud
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**Constant:**
-
-- detect undead
-
-**Per day:**
-
-- 1/day: command undead (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con -, Int 6, Wis 10, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4 (+8 grapple)
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Feats:** Agile Maneuvers, Weapon Finesse
-
-**Skills:** Fly +4, Perception +7, Stealth +13
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or pack (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary or pack (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -31,95 +31,71 @@ abilities = ["22", "13", "17", "24", "19", "18"]
 _This bizarre creature has a conical body topped with four tentacles tipped with pincers, tubes, and
 a tentacled, spherical head._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+blindsense: 60
+Initiative: +1
+Size: large
+Alignment: Lawful neutral
+Perception: +25
+Senses: All-around vision, Darkvision 60 ft.
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 23
+Touch: 10
+Flat-footed: 22
+AC modifiers: +1 Dex, +13 natural, -1 size
+Hit points: 105 (14d8+42)
+Fort: +9
+Ref: +5
+Will: +15
+Dr: 10/magic
+Fh: 5
+Resist: acid 10, cold 10, fire 10
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., climb 10 ft.
+Melee: 2 pincers +15 (2d8+9/×3)
+Reach: 10
+Space: 10
+Spec Att: amnesia, deadly pincers, mind swap
+:::
 
-**Alignment:** Lawful neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +19
+At will: astral projection, self only, detect thoughts (DC 16), hold monster (DC 19), modify memory (DC 18)
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 22, Dex 13, Con 17, Int 24, Wis 19, Cha 18
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 28
+Feats: Alertness, Combat Expertise, Great Fortitude, Improved Great Fortitude, Improved Iron Will, Iron Will, Vital Strike
+Skills: Climb +14, Knowledge (arcana, engineering, geography, history) +21, Linguistics +21, Perception +25, Sense Motive +22, Use Magic Device +18
+Languages: Aklo, Common, Yithian, 20 other languages; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: scholar
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 10
-
-**Flat-footed:** 22
-
-**AC modifiers:** +1 Dex, +13 natural, -1 size
-
-**Hit points:** 105 (14d8+42)
-
-**Fort:** +9
-
-**Ref:** +5
-
-**Will:** +15
-
-**Dr:** 10/magic
-
-**Fh:** 5
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Offense**
-
-**Speed:** 20 ft., climb 10 ft.
-
-**Melee:** 2 pincers +15 (2d8+9/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** amnesia, deadly pincers, mind swap
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +19
-
-**At will:**
-
-- astral projection, self only, detect thoughts (DC 16), hold monster (DC 19), modify memory (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 13, Con 17, Int 24, Wis 19, Cha 18
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 28
-
-**Feats:** Alertness, Combat Expertise, Great Fortitude, Improved Great Fortitude, Improved Iron
-Will, Iron Will, Vital Strike
-
-**Skills:** Climb +14, Knowledge (arcana, engineering, geography, history) +21, Linguistics +21,
-Perception +25, Sense Motive +22, Use Magic Device +18
-
-**Languages:** Aklo, Common, Yithian, 20 other languages; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** scholar
-
-**Ecology**
-
-**Environment:** Any
-
-**Organization:** solitary, pair, band (3-9), or enclave (10-100)
-
-**Treasure:** Standard
+::: statblock
+Environment: Any
+Organization: solitary, pair, band (3-9), or enclave (10-100)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

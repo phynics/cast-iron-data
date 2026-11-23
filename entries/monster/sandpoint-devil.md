@@ -34,97 +34,72 @@ abilities = ["22", "17", "19", "8", "17", "16"]
 _This mangy horse-like beast walks perversely upright. Wings, a dragon's tail, and a fanged mouth
 complete its vile appearance._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +3
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Native
+Experience points: 4,800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 18
+AC modifiers: +3 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +7
+Will: +11
+Dr: 5/cold iron
+Immune: fire, fear effects
+Sr: 19
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (poor)
+Melee: bite +17 (2d6+6/19-20), 2 hooves +17 (1d8+6)
+Reach: 5
+Space: 10
+Spec Att: hellfire breath, kick
+Trample: 2d6+9, DC 22
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+At will: fog cloud, gust of wind, pyrotechnics (DC 15)
+Per day: 3/day: dimension door, phantasmal killer (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Native
+::: statblock
+Ability scores: Str 22, Dex 17, Con 19, Int 8, Wis 17, Cha 16
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 33 (37 vs. trip)
+Feats: Dodge, Hover, Improved Vital Strike, Mobility, Spring Attack, Vital Strike
+Skills: Fly +12, Intimidate +12, Knowledge (geography) +5, Perception +18
+Languages: Abyssal, Varisian
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +11
-
-**Dr:** 5/cold iron
-
-**Immune:** fire, fear effects
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (poor)
-
-**Melee:** bite +17 (2d6+6/19-20), 2 hooves +17 (1d8+6)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** hellfire breath, kick
-
-**Trample:** 2d6+9, DC 22
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**At will:**
-
-- fog cloud, gust of wind, pyrotechnics (DC 15)
-
-**Per day:**
-
-- 3/day: dimension door, phantasmal killer (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 17, Con 19, Int 8, Wis 17, Cha 16
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 33 (37 vs. trip)
-
-**Feats:** Dodge, Hover, Improved Vital Strike, Mobility, Spring Attack, Vital Strike
-
-**Skills:** Fly +12, Intimidate +12, Knowledge (geography) +5, Perception +18
-
-**Languages:** Abyssal, Varisian
-
-**Ecology**
-
-**Environment:** any (Varisia)
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any (Varisia)
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

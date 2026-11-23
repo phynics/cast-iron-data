@@ -33,85 +33,65 @@ _Within a swirling mass of frigid air manifests the form of a bestial specter. C
 daggers lash menacingly before its half-bestial, half-humanoid form, and its narrow eyes glow with a
 smoldering malevolence._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Incorporeal
+Type: undead
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 19
+Touch: 19
+Flat-footed: 13
+AC modifiers: +3 deflection, +6 Dex
+Hit points: 85 (10d8+4)
+Fort: +6
+Ref: +11
+Will: +9
+Chan Res: +2
+Defensive abilities: rejuvenation
+Dr: 10/silver
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: vulnerability to silver
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: fly 50 ft. (perfect)
+Melee: 2 incorporeal touches +15 (1d8 plus 2d6 cold)
+Spec Att: bestial possession, curse of lycanthropy (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 23, Con -, Int 8, Wis 14, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative, Lightning Reflexes, Toughness
+Skills: Fly +14, Intimidate +16, Perception +15, Stealth +19
+Languages: Common
+Special qualities: lycanthropic empathy
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 19
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 deflection, +6 Dex
-
-**Hit points:** 85 (10d8+4)
-
-**Fort:** +6
-
-**Ref:** +11
-
-**Will:** +9
-
-**Chan Res:** +2
-
-**Defensive abilities:** rejuvenation
-
-**Dr:** 10/silver
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** vulnerability to silver
-
-**Offense**
-
-**Speed:** fly 50 ft. (perfect)
-
-**Melee:** 2 incorporeal touches +15 (1d8 plus 2d6 cold)
-
-**Spec Att:** bestial possession, curse of lycanthropy (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 23, Con -, Int 8, Wis 14, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative, Lightning Reflexes, Toughness
-
-**Skills:** Fly +14, Intimidate +16, Perception +15, Stealth +19
-
-**Languages:** Common
-
-**Special qualities:** lycanthropic empathy
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

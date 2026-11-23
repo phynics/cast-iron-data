@@ -31,120 +31,79 @@ abilities = ["33", "29", "29", "22", "28", "26"]
 _Three monstrous, misshapen skulls top a twisted trunk balanced on three leg-like splinters of flesh
 and bone._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Size: huge
+Initiative: +9
+Alignment: Neutral evil
+Type: outsider
+Perception: +37
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Evil, Extraplanar, Sahkil
+Experience points: 307,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 37
+Touch: 17
+Flat-footed: 28
+AC modifiers: +9 Dex, +20 natural, -2 size
+Hit points: 362 (25d10+225)
+Fort: +23
+Ref: +17
+Will: +23; +8 vs. mind-affecting effects
+Defensive abilities: all-around vision, _[mind blank](ref/spell/mind-blank)_
+Dr: 15/good
+Fh: 20
+Immune: death effects, disease, fear effects, poison
+Resist: cold 20, electricity 20, sonic 20
+Sr: 31
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., climb 50 ft.
+Bleed: 1d3 Charisma
+Melee: 3 bites +35 (2d8+11 plus [grab](ref/umr/grab)), 4 claws +35 (1d8+11/19-20 plus 1d3 Charisma bleed)
+Reach: 15
+Space: 15
+Spec Att: eternal fear, look of fear (120 ft., DC 32), snatch between, spirit touch, unsettled mind
+Trample: 2d8+16, DC 33
+:::
 
-**Perception:** +37
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: detect thoughts (DC 20), mind blank, true seeing
+At will: air walk, enervation, greater teleport, self plus 50 lbs. of objects only, magic circle against good, tongues
+Per day: 3/day: blasphemy (DC 25), crushing despair (DC 24), dispel magic, fear (DC 24), malicious spite (DC 24), suggestion (DC 21)\
+1/day: antipathy (DC 28), eyebite (DC 26), summon (level 9, any one CR 19 or lower sahkil 100%), symbol of fear (DC 26), weird (DC 29)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Sahkil
+::: statblock
+Ability scores: Str 33, Dex 29, Con 29, Int 22, Wis 28, Cha 26
+Base attack bonus: +25
+Combat maneuver bonus: +38 (+42 trip)
+Combat maneuver defense: 57 (61 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Dazing Assault, Dazzling Display, Greater Trip, Improved Critical (claw), Improved Trip, Power Attack, Staggering Critical, Stunning Critical, Weapon Focus (bite), Weapon Focus (claw)
+Skills: Acrobatics +26, Bluff +36, Climb +37, Diplomacy +36, Sense Motive +37, Spellcraft +31, Stealth +29, Use Magic Device +33
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: easy to call, emotional focus, skip between
+:::
 
-**Experience points:** 307,200
+### Ecology
 
-**Armor class:** 37
-
-**Touch:** 17
-
-**Flat-footed:** 28
-
-**AC modifiers:** +9 Dex, +20 natural, -2 size
-
-**Hit points:** 362 (25d10+225)
-
-**Fort:** +23
-
-**Ref:** +17
-
-**Will:** +23; +8 vs. mind-affecting effects
-
-**Defensive abilities:** all-around vision, _[mind blank](ref/spell/mind-blank)_
-
-**Dr:** 15/good
-
-**Fh:** 20
-
-**Immune:** death effects, disease, fear effects, poison
-
-**Resist:** cold 20, electricity 20, sonic 20
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft.
-
-**Bleed:** 1d3 Charisma
-
-**Melee:** 3 bites +35 (2d8+11 plus [grab](ref/umr/grab)), 4 claws +35 (1d8+11/19-20 plus 1d3
-Charisma bleed)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** eternal fear, look of fear (120 ft., DC 32), snatch between, spirit touch, unsettled
-mind
-
-**Trample:** 2d8+16, DC 33
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- detect thoughts (DC 20), mind blank, true seeing
-
-**At will:**
-
-- air walk, enervation, greater teleport, self plus 50 lbs. of objects only, magic circle against
-  good, tongues
-
-**Per day:**
-
-- 3/day: blasphemy (DC 25), crushing despair (DC 24), dispel magic, fear (DC 24), malicious spite
-  (DC 24), suggestion (DC 21)
-- 1/day: antipathy (DC 28), eyebite (DC 26), summon (level 9, any one CR 19 or lower sahkil 100%),
-  symbol of fear (DC 26), weird (DC 29)
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 29, Con 29, Int 22, Wis 28, Cha 26
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +38 (+42 trip)
-
-**Combat maneuver defense:** 57 (61 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Dazing Assault, Dazzling Display,
-Greater Trip, Improved Critical (claw), Improved Trip, Power Attack, Staggering Critical, Stunning
-Critical, Weapon Focus (bite), Weapon Focus (claw)
-
-**Skills:** Acrobatics +26, Bluff +36, Climb +37, Diplomacy +36, Sense Motive +37, Spellcraft +31,
-Stealth +29, Use Magic Device +33
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** easy to call, emotional focus, skip between
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

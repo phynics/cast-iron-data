@@ -29,71 +29,58 @@ abilities = ["10", "11", "14", "-", "10", "2"]
 _This outsized scorpion has a translucent shell, allowing one to see through to the creature's
 internal organs._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +0
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+tremorsense: 60
+Type: vermin
+Experience points: 200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 12
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 natural, +1 size
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +0
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +2 (1d3), sting +2 (1d3 plus poison)
+Pounce: present
+:::
 
-**Size:** small
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 10, Dex 11, Con 14, Int -, Wis 10, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 10 (22 vs. trip)
+Skills: Perception +4, Stealth +8
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 12
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 natural, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +0
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +2 (1d3), sting +2 (1d3 plus poison)
-
-**Pounce:** present
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 11, Con 14, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 10 (22 vs. trip)
-
-**Skills:** Perception +4, Stealth +8
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm deserts or underground
-
-**Organization:** solitary, pair, nest (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts or underground
+Organization: solitary, pair, nest (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,77 +31,61 @@ abilities = ["1", "14", "16", "-", "11", "1"]
 _The rasping legs of this hideous, shining carpet of fist-sized ticks rattle ominously as the swarm
 skitters forward._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: fine
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Scent
+Subtype: Swarm
+Type: vermin
+Experience points: 6,400
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 23
+Touch: 20
+Flat-footed: 21
+AC modifiers: +2 Dex, +3 natural, +8 size
+Hit points: 120 (16d8+48)
+Fort: +13
+Ref: +7
+Will: +5
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., climb 30 ft.
+B Drain: 1d4 Con
+Distraction: 21
+Melee: swarm (4d6 plus disease, distraction, and blood drain)
+Spec Att: cling
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 14, Con 16, Int -, Wis 11, Cha 1
+Base attack bonus: +12
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +10
+Racial Modifiers: uses Dex on Climb checks
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 20
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +3 natural, +8 size
-
-**Hit points:** 120 (16d8+48)
-
-**Fort:** +13
-
-**Ref:** +7
-
-**Will:** +5
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**B Drain:** 1d4 Con
-
-**Distraction:** 21
-
-**Melee:** swarm (4d6 plus disease, distraction, and blood drain)
-
-**Spec Att:** cling
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 14, Con 16, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +10
-
-**Racial Modifiers:** uses Dex on Climb checks
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -29,73 +29,59 @@ abilities = ["11", "14", "12", "8", "11", "11"]
 _Short, thin, and green, this small humanoid wields a spear. Tendrils of fungus dangle from its
 arms, midsection, and legs._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +2
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 14
+AC modifiers: +2 Dex, +3 natural, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +2
+Will: +0
+Dr: 5/slashing or bludgeoning
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +7
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +1 (1d4) or longspear +1 (1d6)
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 11, Dex 14, Con 12, Int 8, Wis 11, Cha 11
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 11
+Feats: Skill Focus (Perception)
+Skills: Perception +7, Stealth +10 (+18 in vegetation)
+Racial Modifiers: +4 Stealth (+12 in vegetation)
+Languages: Undercommon (can't speak), Vegepygmy (can't speak)
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +3 natural, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +0
-
-**Dr:** 5/slashing or bludgeoning
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +1 (1d4) or longspear +1 (1d6)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 14, Con 12, Int 8, Wis 11, Cha 11
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +7, Stealth +10 (+18 in vegetation)
-
-**Racial Modifiers:** +4 Stealth (+12 in vegetation)
-
-**Languages:** Undercommon (can't speak), Vegepygmy (can't speak)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, gang (2-6), or tribe (7-30 plus 1 chieftain)
-
-**Treasure:** Standard (longspear); other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, gang (2-6), or tribe (7-30 plus 1 chieftain)
+Treasure: Standard (longspear); other treasure
+:::
 
 ### Description
 

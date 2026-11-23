@@ -30,97 +30,71 @@ abilities = ["20", "17", "19", "14", "11", "20"]
 
 _This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Water
+Experience points: 3,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +9
+Will: +6
+Dr: 10/magic
+Immune: cold
+Sr: 18
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: mwk dagger +13/+8 (1d4+5/19-20 plus 1d6 cold), mwk dagger +13/+8 (1d4+5/19-20 plus 1d6 cold) or 2 slams +14 (1d4+5 plus 1d6 cold)
+Spec Att: beckoning dance, elemental veil
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+At will: hydraulic push, resist energy, cold only
+Per day: 3/day: cure serious wounds, suggestion (DC 18)\
+1/day: cone of cold (DC 20), dispel magic
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Water
+::: statblock
+Ability scores: Str 20, Dex 17, Con 19, Int 14, Wis 11, Cha 20
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 27
+Feats: Ability Focus (beckoning dance), Combat Reflexes, Double Slice, Improved Two-Weapon Fighting, Two-Weapon Fighting
+Skills: Acrobatics +15, Bluff +17, Diplomacy +17, Perform (dance) +21, Sense Motive +12, Stealth +15, Swim +17
+Racial Modifiers: +4 Perform (dance)
+Languages: Aquan, Common
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +6
-
-**Dr:** 10/magic
-
-**Immune:** cold
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** mwk dagger +13/+8 (1d4+5/19-20 plus 1d6 cold), mwk dagger +13/+8 (1d4+5/19-20 plus 1d6
-cold) or 2 slams +14 (1d4+5 plus 1d6 cold)
-
-**Spec Att:** beckoning dance, elemental veil
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**At will:**
-
-- hydraulic push, resist energy, cold only
-
-**Per day:**
-
-- 3/day: cure serious wounds, suggestion (DC 18)
-- 1/day: cone of cold (DC 20), dispel magic
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 19, Int 14, Wis 11, Cha 20
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 27
-
-**Feats:** Ability Focus (beckoning dance), Combat Reflexes, Double Slice, Improved Two-Weapon
-Fighting, Two-Weapon Fighting
-
-**Skills:** Acrobatics +15, Bluff +17, Diplomacy +17, Perform (dance) +21, Sense Motive +12, Stealth
-+15, Swim +17
-
-**Racial Modifiers:** +4 Perform (dance)
-
-**Languages:** Aquan, Common
-
-**Ecology**
-
-**Environment:** any water ([Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary, pair, or troupe (3-6)
-
-**Treasure:** Standard (2 mwk daggers)
+::: statblock
+Environment: any water ([Plane of Water](ref/rule/plane-of-water))
+Organization: solitary, pair, or troupe (3-6)
+Treasure: Standard (2 mwk daggers)
+:::
 
 ### Special Abilities
 

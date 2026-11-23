@@ -35,101 +35,74 @@ abilities = ["34", "17", "-", "9", "22", "25"]
 _An enormous, animate mass of armed and armored corpses undulates forth, like a siege tower of
 steel-girded flesh._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 26)
+Size: gargantuan
+Initiative: +3
+Alignment: Neutral evil
+Perception: +27
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 76,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 26)
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 29
+Touch: 9
+Flat-footed: 26
+AC modifiers: +3 Dex, +20 natural, -4 size
+Hit points: 207 (18d8+126)
+Fort: +13
+Ref: +9
+Will: +17
+Chan Res: +4
+Dr: 10/bludgeoning and magic
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft.
+E Drain: 1 level, DC 26
+Melee: 4 slams +21 (2d6+12 plus energy drain)
+Ranged: 1 scrap ball +12 (2d6+12)
+Reach: 5
+Space: 20
+Spec Att: absorb dying creature
+Trample: 2d6+18, DC 31
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+Per day: 3/day: extended animate objects, 7 Medium weapons only, telekinesis, violent thrust; heavy armor only
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 34, Dex 17, Con -, Int 9, Wis 22, Cha 25
+Base attack bonus: +13
+Combat maneuver bonus: +29
+Combat maneuver defense: 42 (can't be tripped)
+Feats: Awesome Blow, Blind-Fight, Greater Overrun, Improved Bull Rush, Improved Overrun, Lightning Reflexes, Power Attack, Step Up, Strike Back
+Skills: Climb +33
+Languages: Common (can't speak)
+Special qualities: profane magic
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 9
-
-**Flat-footed:** 26
-
-**AC modifiers:** +3 Dex, +20 natural, -4 size
-
-**Hit points:** 207 (18d8+126)
-
-**Fort:** +13
-
-**Ref:** +9
-
-**Will:** +17
-
-**Chan Res:** +4
-
-**Dr:** 10/bludgeoning and magic
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**E Drain:** 1 level, DC 26
-
-**Melee:** 4 slams +21 (2d6+12 plus energy drain)
-
-**Ranged:** 1 scrap ball +12 (2d6+12)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** absorb dying creature
-
-**Trample:** 2d6+18, DC 31
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**Per day:**
-
-- 3/day: extended animate objects, 7 Medium weapons only, telekinesis, violent thrust; heavy armor
-  only
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 17, Con -, Int 9, Wis 22, Cha 25
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Feats:** Awesome Blow, Blind-Fight, Greater Overrun, Improved Bull Rush, Improved Overrun,
-Lightning Reflexes, Power Attack, Step Up, Strike Back
-
-**Skills:** Climb +33
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** profane magic
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double; nonmagical armor and weapons
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double; nonmagical armor and weapons
+:::
 
 ### Special Abilities
 

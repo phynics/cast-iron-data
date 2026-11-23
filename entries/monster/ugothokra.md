@@ -32,81 +32,63 @@ abilities = ["13", "20", "18", "10", "17", "13"]
 _This partially mechanical, partially organic spider moves with a skittering lurch. A single
 crystalline eye glares from its hideous face._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +9
+Perception: +16
+Senses: Darkvision 60 ft.
+Size: small
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 17
+Flat-footed: 14
+AC modifiers: +5 Dex, +1 dodge, +3 natural, +1 size
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: +8
+Will: +10
+Defensive abilities: infected blood
+Immune: cold, disease, poison
+Resist: acid 5, electricity 5
+:::
 
-**Initiative:** +9
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 50 ft., climb 50 ft.
+Melee: bite +9 (1d4+1 plus poison)
+Ranged: 6 flechette spray +13 (1d4+1 plus viral infection)
+Spec Att: combined arms
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 20, Con 18, Int 10, Wis 17, Cha 13
+Base attack bonus: +7
+Combat maneuver bonus: +7
+Combat maneuver defense: 23 (35 vs. trip)
+Feats: Dodge, Improved Initiative, Mobility, Point-Blank Shot, Shot on the Run
+Skills: Acrobatics +18 (+26 when jumping), Climb +30, Perception +16, Stealth +22
+Racial Modifiers: +8 Climb
+Languages: Aklo (can't speak)
+Special qualities: expert climber, [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +1 dodge, +3 natural, +1 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +10
-
-**Defensive abilities:** infected blood
-
-**Immune:** cold, disease, poison
-
-**Resist:** acid 5, electricity 5
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft.
-
-**Melee:** bite +9 (1d4+1 plus poison)
-
-**Ranged:** 6 flechette spray +13 (1d4+1 plus viral infection)
-
-**Spec Att:** combined arms
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 20, Con 18, Int 10, Wis 17, Cha 13
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 23 (35 vs. trip)
-
-**Feats:** Dodge, Improved Initiative, Mobility, Point-Blank Shot, Shot on the Run
-
-**Skills:** Acrobatics +18 (+26 when jumping), Climb +30, Perception +16, Stealth +22
-
-**Racial Modifiers:** +8 Climb
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** expert climber, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

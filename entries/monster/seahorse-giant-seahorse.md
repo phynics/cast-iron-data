@@ -30,73 +30,59 @@ abilities = ["20", "14", "17", "1", "12", "7"]
 _This sea creature resembles a cross between fish and horse; it has small fins on its flanks and a
 gracefully curled tail._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +4 armor, +2 Dex, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +6
+Will: +2
+Defensive abilities: anchor
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 30 ft.
+Melee: slam +7 (1d6+7)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 14, Con 17, Int 1, Wis 12, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 21
+Feats: Endurance, Skill Focus (Perception)
+Skills: Perception +11, Swim +13
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 armor, +2 Dex, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +2
-
-**Defensive abilities:** anchor
-
-**Offense**
-
-**Speed:** swim 30 ft.
-
-**Melee:** slam +7 (1d6+7)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 14, Con 17, Int 1, Wis 12, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21
-
-**Feats:** Endurance, Skill Focus (Perception)
-
-**Skills:** Perception +11, Swim +13
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or school (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or school (3-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

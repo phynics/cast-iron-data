@@ -30,73 +30,61 @@ abilities = ["11", "15", "16", "2", "15", "6"]
 _Resembling a small, half-starved wolf, this canine stares with deep intensity and undeniable
 hunger._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 7 (1d8+3)
+Fort: +5
+Ref: +4
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft.
+Melee: bite +1 (1d4), 2 claws +1 (1d3)
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
-
-**Experience points:** 200
-
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 7 (1d8+3)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +1 (1d4), 2 claws +1 (1d3)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 16, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11 (15 vs. trip)
-
-**Feats:** Skill Focus (Stealth), Overwhelm^B^
-
-**Skills:** Stealth +5, Survival +3 (+7 to find food or water)
-
-**Racial Modifiers:** +4 Survival to find food or water
-
-**Special qualities:** problem solver
+::: statblock
+Ability scores: Str 11, Dex 15, Con 16, Int 2, Wis 15, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 11 (15 vs. trip)
+Feats: Skill Focus (Stealth), Overwhelm^B^
+Skills: Stealth +5, Survival +3 (+7 to find food or water)
+Racial Modifiers: +4 Survival to find food or water
+Special qualities: problem solver
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate and warm plains
-
-**Organization:** solitary, pair, or pack (5-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate and warm plains
+Organization: solitary, pair, or pack (5-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,92 +30,69 @@ abilities = ["18", "22", "17", "14", "17", "19"]
 _This walking nightmare resembles a white-haired old woman who looks as though she has been skinned
 alive, her bloody muscles and sinews pulsing grotesquely._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +10
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +18
+Senses: Darkvision 60 ft., Detect good, Detect magic
+Experience points: 4,800
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 16
+AC modifiers: +6 Dex, +1 dodge, +6 natural
+Hit points: 102 (12d10+36)
+Fort: +7
+Ref: +14
+Will: +11
+Dr: 5/cold iron and magic
+Immune: fire, charm, disease, fear, sleep
+Sr: 19
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+B Drain: 1d2 Constitution
+Melee: bite +16 (2d6+4), 2 claws +17 (1d6+4 plus [grab](ref/umr/grab))
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +12
+Constant: detect good, detect magic
+At will: chill touch (DC 15), deep slumber (DC 16), scorching ray (DC 16), spider climb
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 18, Dex 22, Con 17, Int 14, Wis 17, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 33
+Feats: Agile Maneuvers, Combat Reflexes, Dodge, Improved Initiative, Mobility, Weapon Focus (claw)
+Skills: Acrobatics +18, Bluff +16, Disguise +16, Stealth +21
+Languages: Abyssal, Common, Infernal
+Special qualities: fiery form, mask evil
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +1 dodge, +6 natural
-
-**Hit points:** 102 (12d10+36)
-
-**Fort:** +7
-
-**Ref:** +14
-
-**Will:** +11
-
-**Dr:** 5/cold iron and magic
-
-**Immune:** fire, charm, disease, fear, sleep
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** bite +16 (2d6+4), 2 claws +17 (1d6+4 plus [grab](ref/umr/grab))
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- chill touch (DC 15), deep slumber (DC 16), scorching ray (DC 16), spider climb
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 22, Con 17, Int 14, Wis 17, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 33
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Dodge, Improved Initiative, Mobility, Weapon Focus
-(claw)
-
-**Skills:** Acrobatics +18, Bluff +16, Disguise +16, Stealth +21
-
-**Languages:** Abyssal, Common, Infernal
-
-**Special qualities:** fiery form, mask evil
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

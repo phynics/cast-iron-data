@@ -35,85 +35,64 @@ abilities = ["33", "13", "24", "2", "14", "13"]
 _This eyeless serpentine beast has a menacing mouth and sharp fins running down its long,
 deep-purple body._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: aberration
+blindsense: 120
+Size: huge
+Initiative: +1
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft.
+Experience points: 51,200
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 28
+Touch: 10
+Flat-footed: 26
+AC modifiers: +1 Dex, +1 dodge, +18 natural, -2 size
+Hit points: 253 (22d8+154)
+Fort: +16
+Ref: +10
+Will: +15
+Defensive abilities: all-around vision, slippery
+Immune: electricity, fire, poison
+Resist: acid 20, cold 20
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 10 ft., swim 50 ft.
+Melee: bite +25 (3d6+11), razor fins +25 (2d6+11/17-20), tail slap +20 (2d8+16 plus bull rush)
+Ranged: jolt +15 touch (12d6 plus stun)
+Reach: 15
+Space: 15
+Spec Att: volatile breath
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +16
+::: statblock
+Ability scores: Str 33, Dex 13, Con 24, Int 2, Wis 14, Cha 13
+Base attack bonus: +16
+Combat maneuver bonus: +29
+Combat maneuver defense: 41 (can't be grappled)
+Feats: Blind-Fight, Critical Focus, Dodge, Great Fortitude, Improved Critical (razor fins), Improved Vital Strike, Lightning Reflexes, Mobility, Spring Attack, Staggering Critical, Vital Strike
+Skills: Perception +16, Swim +33
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 28
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +1 dodge, +18 natural, -2 size
-
-**Hit points:** 253 (22d8+154)
-
-**Fort:** +16
-
-**Ref:** +10
-
-**Will:** +15
-
-**Defensive abilities:** all-around vision, slippery
-
-**Immune:** electricity, fire, poison
-
-**Resist:** acid 20, cold 20
-
-**Offense**
-
-**Speed:** 10 ft., swim 50 ft.
-
-**Melee:** bite +25 (3d6+11), razor fins +25 (2d6+11/17-20), tail slap +20 (2d8+16 plus bull rush)
-
-**Ranged:** jolt +15 touch (12d6 plus stun)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** volatile breath
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 13, Con 24, Int 2, Wis 14, Cha 13
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 41 (can't be grappled)
-
-**Feats:** Blind-Fight, Critical Focus, Dodge, Great Fortitude, Improved Critical (razor fins),
-Improved Vital Strike, Lightning Reflexes, Mobility, Spring Attack, Staggering Critical, Vital
-Strike
-
-**Skills:** Perception +16, Swim +33
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any swamps (tar seeps)
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any swamps (tar seeps)
+Organization: solitary, pair, or pack (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

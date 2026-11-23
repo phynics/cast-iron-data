@@ -29,71 +29,58 @@ abilities = ["1", "16", "8", "2", "15", "9"]
 
 _This fluffy squirrel has a round body with long tufts atop its ears._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Size: diminutive
+Initiative: +3
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +5
+Will: +2; +2 vs. Intelligence and Wisdom damage
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., burrow 5 ft.
+Melee: bite -1 (1d2-5)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 1, Dex 16, Con 8, Int 2, Wis 15, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 4 (8 vs. trip)
+Feats: Alertness
+Skills: Perception +8, Sense Motive +4
+Special qualities: excellent memory
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +2; +2 vs. Intelligence and Wisdom damage
-
-**Offense**
-
-**Speed:** 20 ft., burrow 5 ft.
-
-**Melee:** bite -1 (1d2-5)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 16, Con 8, Int 2, Wis 15, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 4 (8 vs. trip)
-
-**Feats:** Alertness
-
-**Skills:** Perception +8, Sense Motive +4
-
-**Special qualities:** excellent memory
-
-**Ecology**
-
-**Environment:** temperate forests or hills
-
-**Organization:** solitary, pair, or emporium (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests or hills
+Organization: solitary, pair, or emporium (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

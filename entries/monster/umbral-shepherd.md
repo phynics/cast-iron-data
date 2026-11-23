@@ -30,73 +30,59 @@ abilities = ["-", "14", "12", "15", "13", "15"]
 _This mass of shadow possesses a horrific demon face. Several writhing tentacles sprout from its
 grub-like body._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Experience points: 1,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 deflection, +2 Dex
+Hit points: 39 (6d10+6)
+Fort: +3
+Ref: +9
+Will: +8
+Incorporeal: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity), planebound
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 0 ft., fly 30 ft. (perfect)
+Melee: touch +8 (shadow touch or possession)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 14, Con 12, Int 15, Wis 13, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 20 (can't be tripped)
+Feats: Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Bluff +10, Disguise +11, Sense Motive +10, Stealth +11
+Languages: Common, Infernal, Shadowtongue
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 deflection, +2 Dex
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +3
-
-**Ref:** +9
-
-**Will:** +8
-
-**Incorporeal:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity), planebound
-
-**Offense**
-
-**Speed:** 0 ft., fly 30 ft. (perfect)
-
-**Melee:** touch +8 (shadow touch or possession)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 14, Con 12, Int 15, Wis 13, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20 (can't be tripped)
-
-**Feats:** Improved Initiative, Iron Will, Lightning Reflexes
-
-**Skills:** Bluff +10, Disguise +11, Sense Motive +10, Stealth +11
-
-**Languages:** Common, Infernal, Shadowtongue
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, or choir (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, or choir (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,88 +30,68 @@ abilities = ["26", "17", "21", "12", "16", "13"]
 _This enormous bird has feathers the color of a stormy sky, a resemblance enhanced by the lightning
 that dances over its body._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: storm aura (100 ft.)
+Size: gargantuan
+Initiative: +7
+Type: Magical beast
+Alignment: Neutral
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision, Stormsight
+Experience points: 12,800
+:::
 
-**aura:** storm aura (100 ft.)
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 25
+Touch: 10
+Flat-footed: 21
+AC modifiers: +3 Dex, +1 dodge, +15 natural, -4 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +12
+Will: +9
+Immune: electricity, sonic
+:::
 
-**Initiative:** +7
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., fly 120 ft. (good)
+Melee: 2 claws +18 (2d6+8/19-20 plus [grab](ref/umr/grab)), bite +18 (2d8+8/19-20)
+Ranged: thunderbolt +13 ranged touch (6d6 electricity and 6d6 sonic)
+Reach: 20
+Space: 20
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +12
+At will: control weather
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Stormsight
+::: statblock
+Ability scores: Str 26, Dex 17, Con 21, Int 12, Wis 16, Cha 13
+Base attack bonus: +14
+Combat maneuver bonus: +26 (+30 grapple)
+Combat maneuver defense: 40
+Feats: Critical Focus, Dodge, Improved Critical (bite), Improved Critical (claw), Improved Initiative, Iron Will, Power Attack
+Skills: Acrobatics +13, Fly +11, Perception +20, Perform (sing) +8, Sense Motive +10
+Languages: Auran
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 Dex, +1 dodge, +15 natural, -4 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +9
-
-**Immune:** electricity, sonic
-
-**Offense**
-
-**Speed:** 30 ft., fly 120 ft. (good)
-
-**Melee:** 2 claws +18 (2d6+8/19-20 plus [grab](ref/umr/grab)), bite +18 (2d8+8/19-20)
-
-**Ranged:** thunderbolt +13 ranged touch (6d6 electricity and 6d6 sonic)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +12
-
-**At will:**
-
-- control weather
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 17, Con 21, Int 12, Wis 16, Cha 13
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +26 (+30 grapple)
-
-**Combat maneuver defense:** 40
-
-**Feats:** Critical Focus, Dodge, Improved Critical (bite), Improved Critical (claw), Improved
-Initiative, Iron Will, Power Attack
-
-**Skills:** Acrobatics +13, Fly +11, Perception +20, Perform (sing) +8, Sense Motive +10
-
-**Languages:** Auran
-
-**Ecology**
-
-**Environment:** any hills or mountains
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any hills or mountains
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

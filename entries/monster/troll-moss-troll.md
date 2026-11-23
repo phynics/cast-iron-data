@@ -31,86 +31,65 @@ abilities = ["16", "19", "16", "9", "12", "7"]
 _This large and lanky moss-colored humanoid has an elongated, toothy snout and appears to be covered
 in bits of foliage._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4 (+8 when climbing trees)
+Size: large
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant, Shapechanger
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 11
+AC modifiers: +4 Dex, +2 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +5
+Will: +4
+Regen: 5 (fire)
+Vulner: fire
+Weaknesses: fear of fire
+:::
 
-**Initiative:** +4 (+8 when climbing trees)
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., climb 10 ft.
+Melee: bite +5 (1d4+3), 2 claws +5 (1d4+3)
+Reach: 10
+Reach P: 15 ft. with claws
+Space: 10
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 16, Dex 19, Con 16, Int 9, Wis 12, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 21
+Feats: Intimidating Prowess, Iron Will
+Skills: Acrobatics +7, Climb +11, Intimidate +5, Perception +5, Stealth +5 (+9 in vegetation)
+Racial Modifiers: +2 Acrobatics, +4 Stealth (+8 in vegetation)
+Languages: Giant
+Special qualities: [change shape](ref/umr/change-shape) (mossy tree; [tree shape](ref/spell/tree-shape)), tree climber
+:::
 
-**Subtype:** Giant, Shapechanger
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +2 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +4
-
-**Regen:** 5 (fire)
-
-**Vulner:** fire
-
-**Weaknesses:** fear of fire
-
-**Offense**
-
-**Speed:** 30 ft., climb 10 ft.
-
-**Melee:** bite +5 (1d4+3), 2 claws +5 (1d4+3)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with claws
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 19, Con 16, Int 9, Wis 12, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21
-
-**Feats:** Intimidating Prowess, Iron Will
-
-**Skills:** Acrobatics +7, Climb +11, Intimidate +5, Perception +5, Stealth +5 (+9 in vegetation)
-
-**Racial Modifiers:** +2 Acrobatics, +4 Stealth (+8 in vegetation)
-
-**Languages:** Giant
-
-**Special qualities:** [change shape](ref/umr/change-shape) (mossy tree;
-[tree shape](ref/spell/tree-shape)), tree climber
-
-**Ecology**
-
-**Environment:** cold or temperate forests
-
-**Organization:** solitary, gang (2-3), or troop (4-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold or temperate forests
+Organization: solitary, gang (2-3), or troop (4-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

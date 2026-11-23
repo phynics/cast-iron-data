@@ -31,75 +31,60 @@ abilities = ["15", "18", "16", "8", "11", "7"]
 _This tall, gangly giant has a thick hide of mottled blue; protruding yellowed canines; narrow slits
 for eyes; and large, powerful hands that end in wicked claws._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +8
+Size: medium
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 10
+AC modifiers: +4 Dex
+Hit points: 22 (3d8+9); rain regeneration 5 (acid or fire)
+Fort: +6
+Ref: +5
+Will: +1
+Defensive abilities: absorbent hide
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 10 ft.
+Melee: 2 claws +6 (1d6+2)
+Pounce: present
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 18, Con 16, Int 8, Wis 11, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 18
+Feats: Improved Initiative, Weapon Finesse
+Skills: Perception +4, Stealth +5, Swim +11
+Languages: Giant
+Special qualities: [hold breath](ref/umr/hold-breath), oversized limbs
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 10
-
-**AC modifiers:** +4 Dex
-
-**Hit points:** 22 (3d8+9); rain regeneration 5 (acid or fire)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +1
-
-**Defensive abilities:** absorbent hide
-
-**Offense**
-
-**Speed:** 30 ft., swim 10 ft.
-
-**Melee:** 2 claws +6 (1d6+2)
-
-**Pounce:** present
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 18, Con 16, Int 8, Wis 11, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 18
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Perception +4, Stealth +5, Swim +11
-
-**Languages:** Giant
-
-**Special qualities:** [hold breath](ref/umr/hold-breath), oversized limbs
-
-**Ecology**
-
-**Environment:** temperate swamps or rivers
-
-**Organization:** solitary or pair (usually twins)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate swamps or rivers
+Organization: solitary or pair (usually twins)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

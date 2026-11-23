@@ -30,81 +30,63 @@ abilities = ["17", "10", "17", "10", "11", "10"]
 _This squat beast is as wide as it is tall. Strangely symmetrical, it has three arms, three legs,
 three eyes, and one huge mouth._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +14
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Earth, Extraplanar
+tremorsense: 60
+Experience points: 2,400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 21
+AC modifiers: +11 natural
+Hit points: 66 (7d10+28)
+Fort: +8
+Ref: +2
+Will: +5
+Dr: 5/bludgeoning
+Immune: cold, fire, [flanking](ref/rule/flanking)
+Resist: electricity 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Melee: bite +10 (4d6+3), 3 claws +10 (1d4+3)
+Sp Extra: earth glide
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 10, Con 17, Int 10, Wis 11, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 20 (22 vs. trip)
+Feats: Cleave, Improved Bull Rush, Power Attack, Toughness
+Skills: Appraise +10, Intimidate +10, Knowledge (dungeoneering) +10, Perception +14
+Racial Modifiers: +4 Perception
+Languages: Common, Terran
+:::
 
-**Subtype:** Earth, Extraplanar
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 2,400
-
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +11 natural
-
-**Hit points:** 66 (7d10+28)
-
-**Fort:** +8
-
-**Ref:** +2
-
-**Will:** +5
-
-**Dr:** 5/bludgeoning
-
-**Immune:** cold, fire, [flanking](ref/rule/flanking)
-
-**Resist:** electricity 10
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Melee:** bite +10 (4d6+3), 3 claws +10 (1d4+3)
-
-**Sp Extra:** earth glide
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con 17, Int 10, Wis 11, Cha 10
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20 (22 vs. trip)
-
-**Feats:** Cleave, Improved Bull Rush, Power Attack, Toughness
-
-**Skills:** Appraise +10, Intimidate +10, Knowledge (dungeoneering) +10, Perception +14
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Common, Terran
-
-**Ecology**
-
-**Environment:** any ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** Standard; precious metals, gems, and magic gems or jewelry only
+::: statblock
+Environment: any ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary, pair, or cluster (3-6)
+Treasure: Standard; precious metals, gems, and magic gems or jewelry only
+:::
 
 ### Special Abilities
 

@@ -29,77 +29,61 @@ abilities = ["35", "13", "24", "-", "10", "2"]
 _A massive tarantula covered in bristly hairs strides forward with deliberate steps, its eight eyes
 scanning for prey._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: gargantuan
+Initiative: +1
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 4,800
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 21
+Touch: 7
+Flat-footed: 20
+AC modifiers: +1 Dex, +14 natural, -4 size
+Hit points: 115 (10d8+70)
+Fort: +14
+Ref: +4
+Will: +3
+Defensive abilities: barbed hairs
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +15 (3d6+18 plus poison)
+Ranged: barbed hairs +4 touch (nausea)
+Reach: 20
+Space: 20
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 35, Dex 13, Con 24, Int -, Wis 10, Cha 2
+Base attack bonus: +7
+Combat maneuver bonus: +23
+Combat maneuver defense: 34 (46 vs. trip)
+Skills: Climb +28, Perception +4, Stealth -7 (-3 in webs)
+Racial Modifiers: +8 Climb, +4 Perception, +4 Stealth (+8 in webs)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 7
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +14 natural, -4 size
-
-**Hit points:** 115 (10d8+70)
-
-**Fort:** +14
-
-**Ref:** +4
-
-**Will:** +3
-
-**Defensive abilities:** barbed hairs
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +15 (3d6+18 plus poison)
-
-**Ranged:** barbed hairs +4 touch (nausea)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 13, Con 24, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 34 (46 vs. trip)
-
-**Skills:** Climb +28, Perception +4, Stealth -7 (-3 in webs)
-
-**Racial Modifiers:** +8 Climb, +4 Perception, +4 Stealth (+8 in webs)
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary, pair, or colony (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any forests
+Organization: solitary, pair, or colony (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

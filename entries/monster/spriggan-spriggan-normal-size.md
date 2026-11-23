@@ -32,88 +32,68 @@ abilities = ["9", "19", "12", "10", "10", "9"]
 _Flecks of saliva drip from the corners of this filthy and ill-smelling humanoid, and his large
 pointed ears twitch at every sound._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Perception: +7
+Senses: Low-light vision
+Size: small
+Subtype: Gnome
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +2 armor, +4 Dex, +1 size
+Hit points: 22 (4d8+4)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft.
+Melee: mwk morningstar +5 (1d6-1)
+Ranged: light crossbow +8 (1d6/19-20)
+Sneak: +2d6
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +4
+At will: flare (DC 10), scare (DC 12), shatter (DC 12)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Gnome
+::: statblock
+Ability scores: Str 9, Dex 19, Con 12, Int 10, Wis 10, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +1
+Combat maneuver defense: 15
+Feats: Combat Reflexes, Weapon Focus (morningstar)
+Skills: Climb +1, Disable Device +11, Perception +7, Sleight of Hand +11, Stealth +15
+Racial Modifiers: +2 Climb, +2 Disable Device, +2 Perception, +2 Sleight of Hand, +2 Stealth
+Languages: Aklo, Gm
+Special qualities: size alteration, spriggan magic, spriggan skills
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +4 Dex, +1 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk morningstar +5 (1d6-1)
-
-**Ranged:** light crossbow +8 (1d6/19-20)
-
-**Sneak:** +2d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +4
-
-**At will:**
-
-- flare (DC 10), scare (DC 12), shatter (DC 12)
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 19, Con 12, Int 10, Wis 10, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 15
-
-**Feats:** Combat Reflexes, Weapon Focus (morningstar)
-
-**Skills:** Climb +1, Disable Device +11, Perception +7, Sleight of Hand +11, Stealth +15
-
-**Racial Modifiers:** +2 Climb, +2 Disable Device, +2 Perception, +2 Sleight of Hand, +2 Stealth
-
-**Languages:** Aklo, Gm
-
-**Special qualities:** size alteration, spriggan magic, spriggan skills
-
-**Ecology**
-
-**Environment:** any hills or forests
-
-**Organization:** solitary, pair, or mob (3-12)
-
-**Treasure:** NPC gear (leather armor, mwk morningstar, light crossbow with 10 bolts); other
-treasure
+::: statblock
+Environment: any hills or forests
+Organization: solitary, pair, or mob (3-12)
+Treasure: NPC gear (leather armor, mwk morningstar, light crossbow with 10 bolts); other treasure
+:::
 
 ### Special Abilities
 

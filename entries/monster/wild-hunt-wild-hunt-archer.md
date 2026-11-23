@@ -33,109 +33,75 @@ abilities = ["20", "28", "21", "16", "23", "21"]
 _This lithe, androgynous humanoid has pointed ears, glowing green eyes, and six fingers on each
 slender hand._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic neutral
+Type: fey
+greensight: 60
+Initiative: +13
+Size: medium
+Perception: +31
+Senses: Low-light vision, Scent, See in darkness
+Subtype: Wild hunt
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 28
+Touch: 24
+Flat-footed: 19
+AC modifiers: +5 deflection, +9 Dex, +4 natural
+Hit points: 187 (22d6+110)
+Fort: +12
+Ref: +22
+Will: +19
+Defensive abilities: instinctive cooperation, wild grace
+Dr: 10/cold iron
+Immune: cold
+Resist: electricity 10, fire 10
+:::
 
-**greensight:** 60
+### Offense
 
-**Initiative:** +13
+::: statblock
+Speed: 30 ft.
+Melee: gore +16 (1d6+7)
+Ranged: +5 [icy burst](ref/magic-enh/icy-burst) [seeking](ref/magic-enh/seeking) composite longbow +26/+21/+16 (1d8+10/19-20/×3 plus 1d6 cold)
+Spec Att: infuse arrow, wild gaze (DC 26)
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+Constant: know direction, speak with animals, speak with plants
+At will: vampiric touch
+Per day: 3/day: black tentacles, haste, slay living (DC 20), sleet storm, stone tell\
+1/day: cloudkill (DC 20), disintegrate (DC 21), freezing sphere (DC 21)
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Low-light vision, Scent, See in darkness
+::: statblock
+Ability scores: Str 20, Dex 28, Con 21, Int 16, Wis 23, Cha 21
+Base attack bonus: +11
+Combat maneuver bonus: +16
+Combat maneuver defense: 40
+Feats: Deadly Aim, Far Shot, Improved Critical (composite longbow), Improved Initiative, Improved Precise Shot, Mounted Archery, Mounted Combat, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (composite longbow)
+Skills: Acrobatics +34, Handle Animal +27, Intimidate +27, Knowledge (nature) +28, Perception +31
+Languages: Aklo, Common, Sylvan; _speak with animals, speak with plants_
+Special qualities: living bow, planar acclimation, wild hunt link
+:::
 
-**Subtype:** Wild hunt
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 24
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 deflection, +9 Dex, +4 natural
-
-**Hit points:** 187 (22d6+110)
-
-**Fort:** +12
-
-**Ref:** +22
-
-**Will:** +19
-
-**Defensive abilities:** instinctive cooperation, wild grace
-
-**Dr:** 10/cold iron
-
-**Immune:** cold
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +16 (1d6+7)
-
-**Ranged:** +5 [icy burst](ref/magic-enh/icy-burst) [seeking](ref/magic-enh/seeking) composite
-longbow +26/+21/+16 (1d8+10/19-20/×3 plus 1d6 cold)
-
-**Spec Att:** infuse arrow, wild gaze (DC 26)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**Constant:**
-
-- know direction, speak with animals, speak with plants
-
-**At will:**
-
-- vampiric touch
-
-**Per day:**
-
-- 3/day: black tentacles, haste, slay living (DC 20), sleet storm, stone tell
-- 1/day: cloudkill (DC 20), disintegrate (DC 21), freezing sphere (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 28, Con 21, Int 16, Wis 23, Cha 21
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 40
-
-**Feats:** Deadly Aim, Far Shot, Improved Critical (composite longbow), Improved Initiative,
-Improved Precise Shot, Mounted Archery, Mounted Combat, Point-Blank Shot, Precise Shot, Rapid Shot,
-Weapon Focus (composite longbow)
-
-**Skills:** Acrobatics +34, Handle Animal +27, Intimidate +27, Knowledge (nature) +28, Perception
-+31
-
-**Languages:** Aklo, Common, Sylvan; _speak with animals, speak with plants_
-
-**Special qualities:** living bow, planar acclimation, wild hunt link
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, squad (2-6), ride (1-4 wild hunt archers mounted on
-[wild hunt horses](ref/monster/wild-hunt-wild-hunt-horse)), or wild hunt
-
-**Treasure:** Standard (mwk cl); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, squad (2-6), ride (1-4 wild hunt archers mounted on [wild hunt horses](ref/monster/wild-hunt-wild-hunt-horse)), or wild hunt
+Treasure: Standard (mwk cl); other treasure
+:::
 
 ### Special Abilities
 

@@ -30,86 +30,65 @@ abilities = ["25", "14", "20", "2", "11", "15"]
 _This shifting mass of green seaweed transforms from the shape of a humanoid back to a patch of
 algae, continually changing._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: mirage (300 ft., DC 18)
+blindsense: 60
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +11
+Type: plant
+Subtype: Aquatic
+tremorsense: 120
+Experience points: 6,400
+:::
 
-**aura:** mirage (300 ft., DC 18)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 24
+Touch: 12
+Flat-footed: 21
+AC modifiers: +2 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 123 (13d8+65)
+Fort: +15
+Ref: +8
+Will: +4
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: cold 10
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 40 ft.
+Constrict: 2d8+10
+Grab: Huge
+Melee: 2 slams +16 (2d8+7 plus grab)
+Reach: 10
+Space: 10
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 25, Dex 14, Con 20, Int 2, Wis 11, Cha 15
+Base attack bonus: +9
+Combat maneuver bonus: +17 (+25 grapple)
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Stealthy, Weapon Focus (slam)
+Skills: Climb +19
+:::
 
-**Type:** plant
+### Ecology
 
-**Subtype:** Aquatic
-
-**tremorsense:** 120
-
-**Experience points:** 6,400
-
-**Armor class:** 24
-
-**Touch:** 12
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 123 (13d8+65)
-
-**Fort:** +15
-
-**Ref:** +8
-
-**Will:** +4
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 40 ft.
-
-**Constrict:** 2d8+10
-
-**Grab:** Huge
-
-**Melee:** 2 slams +16 (2d8+7 plus grab)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 14, Con 20, Int 2, Wis 11, Cha 15
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17 (+25 grapple)
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus
-(Perception), Stealthy, Weapon Focus (slam)
-
-**Skills:** Climb +19
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or bed (3-8)
-
-**Treasure:** Incidental; 1d6 sargassum fiend bulbs, other treasure
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or bed (3-8)
+Treasure: Incidental; 1d6 sargassum fiend bulbs, other treasure
+:::
 
 ### Special Abilities
 

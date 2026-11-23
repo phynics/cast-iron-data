@@ -31,90 +31,66 @@ abilities = ["28", "21", "22", "12", "15", "11"]
 _This eel-like creature sports sharp frills that run along the back of humanoid torso and down its
 long, powerful tail._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+blindsight: 60
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Perception: +22
+Senses: Darkvision 60 ft., Scent
+Subtype: Aquatic
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 26
+Touch: 16
+Flat-footed: 20
+AC modifiers: +5 Dex, +1 dodge, +10 natural
+Hit points: 136 (13d8+78)
+Fort: +10
+Ref: +9
+Will: +10
+Dr: 10/slashing
+Immune: cold, electricity, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Constrict: 2d6+4
+Melee: bite +18 (1d6+9/19-20 plus [grab](ref/umr/grab)), 2 claws +18 (1d6+9), tail slap +14 (1d6+4 plus stunning shock)
+Reach: 5
+Reach P: 10 ft. with tail slap
+Space: 5
+Spec Att: stunning shock, swim-by attack
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +22
+::: statblock
+Ability scores: Str 28, Dex 21, Con 22, Int 12, Wis 15, Cha 11
+Base attack bonus: +9
+Combat maneuver bonus: +18 (+24 grapple)
+Combat maneuver defense: 34 (36 vs. grapple)
+Feats: Alertness, Dodge, Improved Critical (bite), Improved Grapple, Power Attack, Stealthy, Weapon Focus (tail slap)
+Skills: Disable Device +16, Escape Artist +7, Intimidate +9, Knowledge (geography) +10, Perception +22, Swim +25
+Languages: Aquan
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 9,600
-
-**Armor class:** 26
-
-**Touch:** 16
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 Dex, +1 dodge, +10 natural
-
-**Hit points:** 136 (13d8+78)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +10
-
-**Dr:** 10/slashing
-
-**Immune:** cold, electricity, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Constrict:** 2d6+4
-
-**Melee:** bite +18 (1d6+9/19-20 plus [grab](ref/umr/grab)), 2 claws +18 (1d6+9), tail slap +14
-(1d6+4 plus stunning shock)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tail slap
-
-**Space:** 5
-
-**Spec Att:** stunning shock, swim-by attack
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 21, Con 22, Int 12, Wis 15, Cha 11
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +18 (+24 grapple)
-
-**Combat maneuver defense:** 34 (36 vs. grapple)
-
-**Feats:** Alertness, Dodge, Improved Critical (bite), Improved Grapple, Power Attack, Stealthy,
-Weapon Focus (tail slap)
-
-**Skills:** Disable Device +16, Escape Artist +7, Intimidate +9, Knowledge (geography) +10,
-Perception +22, Swim +25
-
-**Languages:** Aquan
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, pair, or bed (3-12)
-
-**Treasure:** Double
+::: statblock
+Environment: any ocean
+Organization: solitary, pair, or bed (3-12)
+Treasure: Double
+:::
 
 ### Special Abilities
 

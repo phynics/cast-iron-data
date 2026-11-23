@@ -32,90 +32,70 @@ abilities = ["8", "17", "10", "15", "14", "10"]
 _This pale, waifish woman, her hair waving in a non-existent breeze, looks as if she might fade away
 into mist entirely at any minute._
 
-**Challenge rating:** 1/2
-
 **Sylph [rogue](ref/class/rogue) 1**
 
-**Initiative:** +3
+::: statblock
+Challenge rating: 1/2
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 armor, +3 Dex, +1 dodge
+Hit points: 9 (1d8+1)
+Fort: +0
+Ref: +5
+Will: +2
+Resist: electricity 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: dagger -1 (1d4-1/19-20)
+Ranged: dagger +3 (1d4-1/19-20)
+Sneak: +1d6
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +1
+Per day: 1/day: feather fall
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 8, Dex 17, Con 10, Int 15, Wis 14, Cha 10
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 13
+Feats: Dodge
+Skills: Acrobatics +7, Appraise +6, Bluff +4, Climb +3, Diplomacy +4, Sleight of Hand +7, Stealth +7, Use Magic Device +4
+Languages: Auran, Common, Elven, Halfling
+Special qualities: air affinity, [trapfinding](ref/ability/trapfinding) +1
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 armor, +3 Dex, +1 dodge
-
-**Hit points:** 9 (1d8+1)
-
-**Fort:** +0
-
-**Ref:** +5
-
-**Will:** +2
-
-**Resist:** electricity 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger -1 (1d4-1/19-20)
-
-**Ranged:** dagger +3 (1d4-1/19-20)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +1
-
-**Per day:**
-
-- 1/day: feather fall
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 17, Con 10, Int 15, Wis 14, Cha 10
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Dodge
-
-**Skills:** Acrobatics +7, Appraise +6, Bluff +4, Climb +3, Diplomacy +4, Sleight of Hand +7,
-Stealth +7, Use Magic Device +4
-
-**Languages:** Auran, Common, Elven, Halfling
-
-**Special qualities:** air affinity, [trapfinding](ref/ability/trapfinding) +1
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** NPC gear (leather armor, 2 daggers); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gang (3-6)
+Treasure: NPC gear (leather armor, 2 daggers); other treasure
+:::
 
 ### Special Abilities
 

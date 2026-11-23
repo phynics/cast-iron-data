@@ -30,81 +30,63 @@ abilities = ["33", "13", "20", "-", "12", "2"]
 _This massive scorpion erupts from the sand, its giant pincers snapping and its tail stinger swaying
 threateningly._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: gargantuan
+Initiative: +1
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 12,800
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 24
+Touch: 7
+Flat-footed: 23
+AC modifiers: +1 Dex, +17 natural, -4 size
+Hit points: 142 (15d8+75)
+Fort: +14
+Ref: +6
+Will: +6
+Ferocity: present
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 50 ft., burrow 10 ft.
+Constrict: 2d6+11
+Melee: 2 claws +18 (2d6+11 plus [grab](ref/umr/grab)), sting +18 (2d6+11 plus poison)
+Pounce: present
+Reach: 20
+Space: 20
+Spec Att: ambush pit, poison
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 33, Dex 13, Con 20, Int -, Wis 12, Cha 2
+Base attack bonus: +11
+Combat maneuver bonus: +26 (+30 grapple)
+Combat maneuver defense: 37 (49 vs. trip)
+Skills: Climb +15, Perception +5, Stealth -3 (+1 in deserts)
+Racial Modifiers: +4 Climb, +4 Perception, +8 Stealth (+12 in deserts)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 24
-
-**Touch:** 7
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +17 natural, -4 size
-
-**Hit points:** 142 (15d8+75)
-
-**Fort:** +14
-
-**Ref:** +6
-
-**Will:** +6
-
-**Ferocity:** present
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 50 ft., burrow 10 ft.
-
-**Constrict:** 2d6+11
-
-**Melee:** 2 claws +18 (2d6+11 plus [grab](ref/umr/grab)), sting +18 (2d6+11 plus poison)
-
-**Pounce:** present
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** ambush pit, poison
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 13, Con 20, Int -, Wis 12, Cha 2
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +26 (+30 grapple)
-
-**Combat maneuver defense:** 37 (49 vs. trip)
-
-**Skills:** Climb +15, Perception +5, Stealth -3 (+1 in deserts)
-
-**Racial Modifiers:** +4 Climb, +4 Perception, +8 Stealth (+12 in deserts)
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

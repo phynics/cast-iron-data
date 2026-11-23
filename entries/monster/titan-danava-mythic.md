@@ -33,119 +33,81 @@ mace._
 
 **Mythic Danava**
 
-**Challenge rating:** 24
+::: statblock
+Challenge rating: 24
+Mythic rank: 9
+Size: colossal
+Initiative: +21/+1, [dual initiative](ref/umr/dual-initiative)
+Alignment: Lawful neutral
+Type: outsider
+Perception: +38
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Lawful, Mythic
+Experience points: 1,228,800
+:::
 
-**Mythic rank:** 9
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 48
+Touch: 24
+Flat-footed: 35
+AC modifiers: +9 deflection, +12 Dex, +1 dodge, +24 natural, -8 size
+Hit points: 545 (26d10+402)
+Fort: +27
+Ref: +21
+Will: +24; +8 vs. mind-affecting, second save
+Defensive abilities: iron resilience
+Dr: 20/epic
+Fortif: 50
+Immune: aging, daze, death effects, disease, divinations, stagger, stun
+Sr: 39
+Unstop: present
+:::
 
-**Initiative:** +21/+1, [dual initiative](ref/umr/dual-initiative)
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 90 ft.
+M Power: 9/day, surge +1d10
+Melee: +3 axiomatic tetsubo +40/+40/+35/+30/+25 (6d8+30/19-20 ×5) or 3 slams +37 (2d8+27)
+Reach: 30
+Rock Th: 120 ft.
+Space: 30
+Spec Att: devastator
+Trample: 4d8+27, DC 39
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +32
+Constant: air walk, haste, mind blank, true seeing, water walk
+At will: bestow curse (DC 26), break enchantment, divination, greater dispel magic, sending
+Per day: 3/day: quickened chain lightning (DC 28), mass suggestion (DC 28)\
+1/day: greater planar ally, mass heal (DC 31), soul bind (DC 31), tsunami (DC 31)
+:::
 
-**Perception:** +38
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 47, Dex 34, Con 35, Int 27, Wis 28, Cha 34
+Base attack bonus: +26
+Combat maneuver bonus: +52 (+56 sunder)
+Combat maneuver defense: 74 (76 vs. sunder)
+Feats: Combat Reflexes, Critical Focus, Dazing Assault, Greater Sunder, Greater Vital Strike, Mythic Improved Critical (tetsubo), Mythic Improved Initiative, Improved Sunder, Improved Vital Strike, Mythic Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (chain lightning), Quicken Spell-Like Ability (heal), Mythic Vital Strike
+Skills: Climb +44, Use Magic Device +41
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: powerful blows (slam)
+:::
 
-**Subtype:** Extraplanar, Lawful, Mythic
+### Ecology
 
-**Experience points:** 1,228,800
-
-**Armor class:** 48
-
-**Touch:** 24
-
-**Flat-footed:** 35
-
-**AC modifiers:** +9 deflection, +12 Dex, +1 dodge, +24 natural, -8 size
-
-**Hit points:** 545 (26d10+402)
-
-**Fort:** +27
-
-**Ref:** +21
-
-**Will:** +24; +8 vs. mind-affecting, second save
-
-**Defensive abilities:** iron resilience
-
-**Dr:** 20/epic
-
-**Fortif:** 50
-
-**Immune:** aging, daze, death effects, disease, divinations, stagger, stun
-
-**Sr:** 39
-
-**Unstop:** present
-
-**Offense**
-
-**Speed:** 90 ft.
-
-**M Power:** 9/day, surge +1d10
-
-**Melee:** +3 axiomatic tetsubo +40/+40/+35/+30/+25 (6d8+30/19-20 ×5) or 3 slams +37 (2d8+27)
-
-**Reach:** 30
-
-**Rock Th:** 120 ft.
-
-**Space:** 30
-
-**Spec Att:** devastator
-
-**Trample:** 4d8+27, DC 39
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +32
-
-**Constant:**
-
-- air walk, haste, mind blank, true seeing, water walk
-
-**At will:**
-
-- bestow curse (DC 26), break enchantment, divination, greater dispel magic, sending
-
-**Per day:**
-
-- 3/day: quickened chain lightning (DC 28), mass suggestion (DC 28)
-- 1/day: greater planar ally, mass heal (DC 31), soul bind (DC 31), tsunami (DC 31)
-
-**Statistics**
-
-**Ability scores:** Str 47, Dex 34, Con 35, Int 27, Wis 28, Cha 34
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +52 (+56 sunder)
-
-**Combat maneuver defense:** 74 (76 vs. sunder)
-
-**Feats:** Combat Reflexes, Critical Focus, Dazing Assault, Greater Sunder, Greater Vital Strike,
-Mythic Improved Critical (tetsubo), Mythic Improved Initiative, Improved Sunder, Improved Vital
-Strike, Mythic Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (chain
-lightning), Quicken Spell-Like Ability (heal), Mythic Vital Strike
-
-**Skills:** Climb +44, Use Magic Device +41
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** powerful blows (slam)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard (+3 axiomatic handaxe); danava mantle, other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard (+3 axiomatic handaxe); danava mantle, other treasure
+:::
 
 ### Special Abilities
 

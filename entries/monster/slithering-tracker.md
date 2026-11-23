@@ -30,77 +30,61 @@ abilities = ["16", "18", "23", "11", "10", "1"]
 _A long, moist streak along the dark stone suddenly undulates like a serpent and then rises up to
 attack._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsense: 60
+Initiative: +4
+Alignment: Neutral
+Type: ooze
+Perception: +7
+Size: small
+Experience points: 1,200
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 size
+Hit points: 42 (4d8+24)
+Fort: +7
+Ref: +5
+Will: +1
+Immune: mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 10 ft., climb 10 ft.
+B Drain: 1d2 Constitution
+Grab: Colossal
+Melee: 2 slams +7 (1d6+3 plus grab and paralysis)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 16, Dex 18, Con 23, Int 11, Wis 10, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +5 (+9 grapple)
+Combat maneuver defense: 19 (can't be tripped)
+Feats: Skill Focus (Perception), Skill Focus (Stealth)
+Skills: Climb +11, Perception +7, Stealth +20
+Racial Modifiers: +8 Stealth
+Languages: Undercommon (can't speak)
+Special qualities: transparent
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 size
-
-**Hit points:** 42 (4d8+24)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +1
-
-**Immune:** mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**B Drain:** 1d2 Constitution
-
-**Grab:** Colossal
-
-**Melee:** 2 slams +7 (1d6+3 plus grab and paralysis)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 18, Con 23, Int 11, Wis 10, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5 (+9 grapple)
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Feats:** Skill Focus (Perception), Skill Focus (Stealth)
-
-**Skills:** Climb +11, Perception +7, Stealth +20
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Undercommon (can't speak)
-
-**Special qualities:** transparent
-
-**Ecology**
-
-**Environment:** any ruins or underground
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ruins or underground
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

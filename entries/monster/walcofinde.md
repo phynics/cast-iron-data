@@ -30,77 +30,61 @@ abilities = ["14", "12", "-", "9", "13", "15"]
 _The torso of a humanoid figure with jagged claws extends outward from a wall, its features
 patterned with the texture of the structure around it._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 600
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 13
+AC modifiers: +1 Dex, +3 natural
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +2
+Will: +4
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +4 (1d4+2)
+Reach: 5
+Reach P: 10 ft. with claws while using structural possession
+Space: 5
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 14, Dex 12, Con -, Int 9, Wis 13, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Combat Reflexes, Improved Initiative
+Skills: Climb +6, Intimidate +7, Knowledge (engineering) +1, Perception +6, Stealth +6
+Languages: Common
+Special qualities: isolated restoration, structural possession
+:::
 
-**Experience points:** 600
+### Ecology {#stat-ecology}
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +3 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +4 (1d4+2)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with claws while using structural possession
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 12, Con -, Int 9, Wis 13, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Combat Reflexes, Improved Initiative
-
-**Skills:** Climb +6, Intimidate +7, Knowledge (engineering) +1, Perception +6, Stealth +6
-
-**Languages:** Common
-
-**Special qualities:** isolated restoration, structural possession
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or immurement (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary or immurement (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

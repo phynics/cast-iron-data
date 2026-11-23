@@ -30,93 +30,71 @@ abilities = ["26", "15", "20", "11", "12", "11"]
 _This hulking humanoid's dense fur is scored with rune-shaped brands. Skin cracked and blackened by
 frostbite stretches taught over a misshapen skull crowned with a pair of ivory horns._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic neutral
+Initiative: +2
+Size: large
+Type: Monstrous humanoid
+Perception: +21
+Senses: Darkvision 60 ft., Scent
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 24
+Touch: 11
+Flat-footed: 22
+AC modifiers: +4 deflection, +2 Dex, +9 natural, -1 size
+Hit points: 136 (13d10+65)
+Fort: +11
+Ref: +10
+Will: +9
+Defensive abilities: frostbite brands
+Immune: cold
+Resist: fire 20
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft.
+Melee: greataxe +21/+16/+11 (2d6+12/19-20 plus 1d6 cold), headbutt +15 (1d6+4 plus stun)
+Reach: 10
+Space: 10
+Spec Att: snowstorm (2d6 cold plus 2d6 slashing damage, DC 24), stun (1 round, DC 24)
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +13
+Per day: 3/day: wall of ice (DC 14)\
+1/day: summon nature's ally VI, polar bear \[dire bear\] only
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 26, Dex 15, Con 20, Int 11, Wis 12, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +22
+Combat maneuver defense: 38
+Feats: Alertness, Diehard, Endurance, Great Fortitude, Improved Critical (greataxe), Self-Sufficient, Weapon Focus (greataxe)
+Skills: Heal +3, Knowledge (nature) +13, Perception +21
+Racial Modifiers: +4 Stealth in ice and snow
+Languages: Giant
+:::
 
-**Armor class:** 24
+### Ecology {#stat-ecology}
 
-**Touch:** 11
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 deflection, +2 Dex, +9 natural, -1 size
-
-**Hit points:** 136 (13d10+65)
-
-**Fort:** +11
-
-**Ref:** +10
-
-**Will:** +9
-
-**Defensive abilities:** frostbite brands
-
-**Immune:** cold
-
-**Resist:** fire 20
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** greataxe +21/+16/+11 (2d6+12/19-20 plus 1d6 cold), headbutt +15 (1d6+4 plus stun)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** snowstorm (2d6 cold plus 2d6 slashing damage, DC 24), stun (1 round, DC 24)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +13
-
-**Per day:**
-
-- 3/day: wall of ice (DC 14)
-- 1/day: summon nature's ally VI, polar bear \[dire bear\] only
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 15, Con 20, Int 11, Wis 12, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 38
-
-**Feats:** Alertness, Diehard, Endurance, Great Fortitude, Improved Critical (greataxe),
-Self-Sufficient, Weapon Focus (greataxe)
-
-**Skills:** Heal +3, Knowledge (nature) +13, Perception +21
-
-**Racial Modifiers:** +4 Stealth in ice and snow
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** cold plains, hills, or desert
-
-**Organization:** solitary or family (2-5)
-
-**Treasure:** Other (greataxe)
+::: statblock
+Environment: cold plains, hills, or desert
+Organization: solitary or family (2-5)
+Treasure: Other (greataxe)
+:::
 
 ### Special Abilities
 

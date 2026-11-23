@@ -31,83 +31,64 @@ abilities = ["19", "12", "15", "9", "12", "10"]
 _This creature stands like a man, yet is half again the height of most men and covered with a coat
 of thick white fur._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +1
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Scent
+Subtype: Cold
+Experience points: 1,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 16
+AC modifiers: +1 Dex, +7 natural, -1 size
+Hit points: 45 (6d10+12)
+Fort: +6
+Ref: +6
+Will: +6
+Immune: cold
+Vulner: fire
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 30 ft.
+Melee: 2 claws +9 (1d6+4 plus 1d6 cold)
+Reach: 10
+Rend: 2 claws, 1d6+6 plus 1d6 cold
+Space: 10
+Spec Att: frightful gaze
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 19, Dex 12, Con 15, Int 9, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 22
+Feats: Cleave, Great Fortitude, Power Attack
+Skills: Climb +21, Intimidate +9, Perception +10, Stealth +1 (+9 in snow)
+Racial Modifiers: +4 Stealth (+12 in snow)
+Languages: Aklo
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +7 natural, -1 size
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +6
-
-**Immune:** cold
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft.
-
-**Melee:** 2 claws +9 (1d6+4 plus 1d6 cold)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+6 plus 1d6 cold
-
-**Space:** 10
-
-**Spec Att:** frightful gaze
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 15, Int 9, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 22
-
-**Feats:** Cleave, Great Fortitude, Power Attack
-
-**Skills:** Climb +21, Intimidate +9, Perception +10, Stealth +1 (+9 in snow)
-
-**Racial Modifiers:** +4 Stealth (+12 in snow)
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, pair, or tribe (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold mountains
+Organization: solitary, pair, or tribe (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,118 +32,81 @@ abilities = ["-", "34", "-", "20", "21", "22"]
 _This ghostly, skeletal creature appears to once have been a dragon, but it is now something far
 less noble._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: [unnatural aura](ref/umr/unnatural-aura)
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +16
+Lifesense: present
+Perception: +38
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 102,400
+:::
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 31
+Touch: 31
+Flat-footed: 18
+AC modifiers: +6 deflection, +12 Dex, +1 dodge, +6 profane, -4 size
+Hit points: 252 (24d8+144)
+Fort: +14
+Ref: +20
+Will: +19
+Chan Res: +4
+Defensive abilities: positive energy transference
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: sunlight powerlessness
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +16
+::: statblock
+Speed: fly 80 ft. (perfect)
+Br Weap: 60-ft. cone, 20d6 negative energy and 1 negative level, Reflex DC 22 half damage, usable every 1d4 rounds
+E Drain: 2 levels, DC 28
+Melee: incorporeal bite +27 (4d6 plus energy drain), 2 incorporeal claws +27 (2d8 plus divine dispelling), 2 incorporeal wings +24 (2d6), incorporeal tail slap +24 (2d8)
+Reach: 15
+Reach P: 20 ft. with incorporeal bite
+Space: 20
+Spec Att: create spawn, ectoplasmic shift
+:::
 
-**Lifesense:** present
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 24
+Concentration: +30
+At will: animate dead, command undead (DC 18), desecrate, detect undead, protection from good
+Per day: 5/day: create undead, control undead (DC 23), unhallow, unholy blight (DC 20)\
+3/day: create greater undead, quickened finger of death (DC 23), waves of exhaustion\
+1/day: energy drain (DC 25), soul bind (DC 25)
+:::
 
-**Perception:** +38
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 34, Con -, Int 20, Wis 21, Cha 22
+Base attack bonus: +18
+Combat maneuver bonus: +34
+Combat maneuver defense: 57 (61 vs. trip)
+Feats: Acrobatic, Dodge, Flyby Attack, Hover, Improved Initiative, Multiattack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (finger of death), Skill Focus (Intimidate), Skill Focus (Perception), Stealthy, Weapon Focus (incorporeal bite), Weapon Focus (incorporeal claw)
+Skills: Acrobatics +40, Escape Artist +14, Fly +45, Intimidate +39, Knowledge (arcana) +20, Knowledge (planes) +17, Perception +38
+Languages: Abyssal, Common, Draconic, Elven, Infernal
+Special qualities: phase lurch
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 102,400
-
-**Armor class:** 31
-
-**Touch:** 31
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 deflection, +12 Dex, +1 dodge, +6 profane, -4 size
-
-**Hit points:** 252 (24d8+144)
-
-**Fort:** +14
-
-**Ref:** +20
-
-**Will:** +19
-
-**Chan Res:** +4
-
-**Defensive abilities:** positive energy transference
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** sunlight powerlessness
-
-**Offense**
-
-**Speed:** fly 80 ft. (perfect)
-
-**Br Weap:** 60-ft. cone, 20d6 negative energy and 1 negative level, Reflex DC 22 half damage,
-usable every 1d4 rounds
-
-**E Drain:** 2 levels, DC 28
-
-**Melee:** incorporeal bite +27 (4d6 plus energy drain), 2 incorporeal claws +27 (2d8 plus divine
-dispelling), 2 incorporeal wings +24 (2d6), incorporeal tail slap +24 (2d8)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with incorporeal bite
-
-**Space:** 20
-
-**Spec Att:** create spawn, ectoplasmic shift
-
-**Spell-Like Abilities**
-
-**Caster level:** 24
-
-**Concentration:** +30
-
-**At will:**
-
-- animate dead, command undead (DC 18), desecrate, detect undead, protection from good
-
-**Per day:**
-
-- 5/day: create undead, control undead (DC 23), unhallow, unholy blight (DC 20)
-- 3/day: create greater undead, quickened finger of death (DC 23), waves of exhaustion
-- 1/day: energy drain (DC 25), soul bind (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 34, Con -, Int 20, Wis 21, Cha 22
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 57 (61 vs. trip)
-
-**Feats:** Acrobatic, Dodge, Flyby Attack, Hover, Improved Initiative, Multiattack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (finger of death), Skill Focus (Intimidate),
-Skill Focus (Perception), Stealthy, Weapon Focus (incorporeal bite), Weapon Focus (incorporeal claw)
-
-**Skills:** Acrobatics +40, Escape Artist +14, Fly +45, Intimidate +39, Knowledge (arcana) +20,
-Knowledge (planes) +17, Perception +38
-
-**Languages:** Abyssal, Common, Draconic, Elven, Infernal
-
-**Special qualities:** phase lurch
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or cadre (1 plus 2-4 [dread wraiths](ref/monster/wraith))
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary or cadre (1 plus 2-4 [dread wraiths](ref/monster/wraith))
+Treasure: Double
+:::
 
 ### Special Abilities
 

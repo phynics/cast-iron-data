@@ -30,85 +30,65 @@ abilities = ["23", "10", "21", "2", "11", "8"]
 _This creature is a mix of different animals fused together, with a bear's torso and head, clawed
 ape legs, and a furred tentacle arm._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +0
+Type: Magical beast
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: +10 natural, -2 size
+Hit points: 84 (8d10+40)
+Fort: +11
+Ref: +6
+Will: +4; +4 vs. mind-affecting effects
+Dr: 5/-
+Fh: 5
+Fortif: 50
+Immune: nauseated, sickened
+Sr: 18
+Weaknesses: polymorph susceptibility
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Constrict: 1d6+6
+Melee: bite +12 (2d6+6), claw +12 (1d8+6), tentacle +12 (1d8+6 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 15
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 10, Con 21, Int 2, Wis 11, Cha 8
+Base attack bonus: +8
+Combat maneuver bonus: +16
+Combat maneuver defense: 26
+Feats: Blind-Fight, Cleave, Iron Will, Power Attack
+Skills: Climb +11
+Special qualities: maker's gift (grab and constrict)
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** +10 natural, -2 size
-
-**Hit points:** 84 (8d10+40)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +4; +4 vs. mind-affecting effects
-
-**Dr:** 5/-
-
-**Fh:** 5
-
-**Fortif:** 50
-
-**Immune:** nauseated, sickened
-
-**Sr:** 18
-
-**Weaknesses:** polymorph susceptibility
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Constrict:** 1d6+6
-
-**Melee:** bite +12 (2d6+6), claw +12 (1d8+6), tentacle +12 (1d8+6 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 10, Con 21, Int 2, Wis 11, Cha 8
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 26
-
-**Feats:** Blind-Fight, Cleave, Iron Will, Power Attack
-
-**Skills:** Climb +11
-
-**Special qualities:** maker's gift (grab and constrict)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -34,116 +34,81 @@ abilities = ["24", "18", "22", "17", "21", "17"]
 _This six-eyed horror is vaguely shaped like a dead tree, but one with claws and tentacles and
 spidery legs._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+blindsense: 120
+Alignment: Chaotic evil
+Initiative: +4
+Size: large
+Perception: +19
+Senses: Darkvision 60 ft.
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 19
+AC modifiers: +4 Dex, +10 natural, -1 size
+Hit points: 115 (11d8+66)
+Fort: +9
+Ref: +9
+Will: +12
+Dr: 10/slashing or piercing
+Immune: cold, fear, mind-affecting effects
+Sr: 20
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +14 (1d6+7), 4 tentacles +13 (1d6+3 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: feeding tentacles, psychic blast
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Constant: air walk
+At will: darkness, telekinesis (DC 18), tree shape
+Per year: interplanetary teleport, self plus 50 lbs. of objects only
+:::
 
-**Perception:** +19
+::: statblock
+title = "Psychic Magic"
+Caster level: 10
+Concentration: +13
+Power points: 20
+Psychoactive powers: control summoned creature, 4 PE, DC 17, demand, 8 PE, DC 21, fear, 4 PE, DC 17, quickened true strike, 1 PE
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 24, Dex 18, Con 22, Int 17, Wis 21, Cha 17
+Base attack bonus: +8
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Combat Casting, Combat Expertise, Lightning Reflexes, Multiattack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (true strike), Weapon Focus (tentacles)
+Skills: Knowledge (arcana, geography) +14, Perception +19, Sense Motive +16, Spellcraft +17, Use Magic Device +14
+Languages: Aklo; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +10 natural, -1 size
-
-**Hit points:** 115 (11d8+66)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +12
-
-**Dr:** 10/slashing or piercing
-
-**Immune:** cold, fear, mind-affecting effects
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +14 (1d6+7), 4 tentacles +13 (1d6+3 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** feeding tentacles, psychic blast
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Constant:**
-
-- air walk
-
-**At will:**
-
-- darkness, telekinesis (DC 18), tree shape
-
-**Per year:**
-
-- interplanetary teleport, self plus 50 lbs. of objects only
-
-**Psychic Magic**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Power points:** 20
-
-**Psychoactive powers:**
-
-- control summoned creature, 4 PE, DC 17, demand, 8 PE, DC 21, fear, 4 PE, DC 17, quickened true
-  strike, 1 PE
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 18, Con 22, Int 17, Wis 21, Cha 17
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Expertise, Lightning Reflexes, Multiattack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (true strike), Weapon Focus (tentacles)
-
-**Skills:** Knowledge (arcana, geography) +14, Perception +19, Sense Motive +16, Spellcraft +17, Use
-Magic Device +14
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** cold forests or vacuum
-
-**Organization:** solitary, pair, or cluster (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold forests or vacuum
+Organization: solitary, pair, or cluster (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -29,69 +29,57 @@ abilities = ["12", "15", "15", "-", "11", "2"]
 _This tan-colored creature looks like a ten-legged spider. Oversized jaws grind together slowly
 beneath beady eyes._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +2
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Melee: bite +3 (1d6+1), 2 claws +3 (1d3+1)
+Rend: 2 claws, 1d3+1
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 12, Dex 15, Con 15, Int -, Wis 11, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 13 (25 vs. trip)
+Skills: Climb +9, Perception +4, Stealth +10
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Melee:** bite +3 (1d6+1), 2 claws +3 (1d3+1)
-
-**Rend:** 2 claws, 1d3+1
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 15, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13 (25 vs. trip)
-
-**Skills:** Climb +9, Perception +4, Stealth +10
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Description
 

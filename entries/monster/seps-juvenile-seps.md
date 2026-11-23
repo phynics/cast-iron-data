@@ -30,63 +30,50 @@ abilities = ["8", "13", "14", "1", "13", "6"]
 
 _This venomous snake is heavily armored and has unusually large fangs._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +5
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 600
+:::
 
-**Initiative:** +5
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +4
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: bite +4 (1d6-1 plus poison)
+Spec Att: acid blood (2d6, DC 13; see seps), poison
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +4 (1d6-1 plus poison)
-
-**Spec Att:** acid blood (2d6, DC 13; see seps), poison
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 14, Int 1, Wis 13, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Perception +9, Stealth +10
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Special qualities:** liquefaction (see [seps](ref/monster/seps))
+::: statblock
+Ability scores: Str 8, Dex 13, Con 14, Int 1, Wis 13, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Improved Initiative, Weapon Finesse
+Skills: Perception +9, Stealth +10
+Racial Modifiers: +4 Perception, +4 Stealth
+Special qualities: liquefaction (see [seps](ref/monster/seps))
+:::
 
 ### Special Abilities
 

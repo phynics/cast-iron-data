@@ -33,153 +33,89 @@ abilities = ["40", "18", "25", "16", "30", "17"]
 _This purple-haired giant has dark bronze skin and piercing eyes; she wields an electrified trident
 and a coral-encrusted shield._
 
-**Challenge rating:** 20
-
 **Female storm giant [cleric](ref/class/cleric) of [Aegirran](ref/faith/aegirran) 13**
 
-**Alignment:** Chaotic good
+::: statblock
+Challenge rating: 20
+Alignment: Chaotic good
+Size: huge
+Type: humanoid
+Initiative: +4
+Perception: +33
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 307,200
+:::
 
-**Size:** huge
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 37
+Touch: 12
+Flat-footed: 33
+AC modifiers: +8 armor, +4 Dex, +12 natural, +5 shield, -2 size
+Hit points: 380 (19d8+13d8+237\~32)
+Fort: +26
+Ref: +14
+Will: +24
+Immune: electricity
+Rock Ct: present
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +33
+::: statblock
+Speed: 60 ft., swim 40 ft., swim (45 ft., swim 40 ft. in armor)
+Ch P En: 6/day, DC 19, 7d6
+Melee: +3 shocking burst trident +40/+35/+30/+25 (3d6+18/19-20) or 2 slams +36 (2d6+15)
+Ranged: +1 seeking composite longbow +26/+21/+16/+11 (3d6+16/×3)
+Reach: 15
+Space: 15
+Spec Att: gale aura, surge
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +18
+Constant: freedom of movement
+Per day: 2/day: control weather, levitate\
+1/day: call lightning (DC 16), chain lightning (DC 19)
+:::
 
-**Subtype:** Giant
-
-**Experience points:** 307,200
-
-**Armor class:** 37
-
-**Touch:** 12
-
-**Flat-footed:** 33
-
-**AC modifiers:** +8 armor, +4 Dex, +12 natural, +5 shield, -2 size
-
-**Hit points:** 380 (19d8+13d8+237\~32)
-
-**Fort:** +26
-
-**Ref:** +14
-
-**Will:** +24
-
-**Immune:** electricity
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 60 ft., swim 40 ft., swim (45 ft., swim 40 ft. in armor)
-
-**Ch P En:** 6/day, DC 19, 7d6
-
-**Melee:** +3 shocking burst trident +40/+35/+30/+25 (3d6+18/19-20) or 2 slams +36 (2d6+15)
-
-**Ranged:** +1 seeking composite longbow +26/+21/+16/+11 (3d6+16/×3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** gale aura, surge
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +18
-
-**Constant:**
-
-- freedom of movement
-
-**Per day:**
-
-- 2/day: control weather, levitate
-- 1/day: call lightning (DC 16), chain lightning (DC 19)
-
-**Prepared Spells**
-
-**Caster level:** 13
-
-**Concentration:** +23
-
-**7th-level spells:**
-
-- elemental body IV^D^, water only, holy word (DC 27), waves of ecstasy (DC 27)
-
-**6th-level spells:**
-
-- antilife shell, banishment (DC 26), cold ice strike (DC 26), heal, sirocco^D^ (DC 26)
-
-**5th-level spells:**
-
-- call lightning storm^D^ (DC 25), cleanse, greater forbid action (DC 25), holy ice (DC 25),
-  righteous might, true seeing
-
-**4th-level spells:**
-
-- air walk, aura of doom (DC 24), blessing of fervor (DC 24), control water^D^, death ward,
-  dismissal (DC 24), divination
-
-**3rd-level spells:**
-
-- bestow curse (DC 23), blindness/deafness (DC 23), create food and water, daylight, dispel magic,
-  magic vestment, water walk^D^
-
-**2nd-level spells:**
-
-- augury, compassionate ally (DC 22), grace, hold person (DC 22), silence (DC 22), slipstream^D^ (DC
-  22), sound burst (DC 22), zone of truth (DC 22)
-
-**1st-level spells:**
-
-- command (DC 21), divine favor, murderous command (DC 21), obscuring mist^D^, protection from evil,
-  remove fear, sanctuary (DC 21), shield of faith
-
-**Cantrips:**
-
-- detect magic, guidance, light, purify food and drink
-
-**Domains:** [Oceans](ref/domain/water), [Storms](ref/domain/weather)
+::: statblock
+title = "Prepared Spells"
+Caster level: 13
+Concentration: +23
+7th-level spells: elemental body IV^D^, water only, holy word (DC 27), waves of ecstasy (DC 27)
+6th-level spells: antilife shell, banishment (DC 26), cold ice strike (DC 26), heal, sirocco^D^ (DC 26)
+5th-level spells: call lightning storm^D^ (DC 25), cleanse, greater forbid action (DC 25), holy ice (DC 25), righteous might, true seeing
+4th-level spells: air walk, aura of doom (DC 24), blessing of fervor (DC 24), control water^D^, death ward, dismissal (DC 24), divination
+3rd-level spells: bestow curse (DC 23), blindness/deafness (DC 23), create food and water, daylight, dispel magic, magic vestment, water walk^D^
+2nd-level spells: augury, compassionate ally (DC 22), grace, hold person (DC 22), silence (DC 22), slipstream^D^ (DC 22), sound burst (DC 22), zone of truth (DC 22)
+1st-level spells: command (DC 21), divine favor, murderous command (DC 21), obscuring mist^D^, protection from evil, remove fear, sanctuary (DC 21), shield of faith
+Cantrips: detect magic, guidance, light, purify food and drink
+Domains: [Oceans](ref/domain/water), [Storms](ref/domain/weather)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 40, Dex 18, Con 25, Int 16, Wis 30, Cha 17
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +40
-
-**Combat maneuver defense:** 54
-
-**Feats:** Bashing Finish, Channel Smite, Combat Casting, Critical Focus, Deafening Critical,
-Improved Critical (trident), Improved Shield Bash, Missile Shield, Point-Blank Shot, Power Attack,
-Rapid Shot, Shield Master, Shield Slam, Staggering Critical, Two-Weapon Fighting, Weapon Focus
-(trident)
-
-**Skills:** Acrobatics +22 (+26 when jumping), Climb +36
-
-**Languages:** Auran, Common, Draconic, Giant
-
-**Special qualities:** militant, water breathing
-
-**Combat gear:** potion of cure serious wounds, potion of haste, scroll of commune, scroll of
-invisibility purge
-
-**Other gear:** +2 MM MF chainmail, +3 AS bashing heavy wooden shield, +1 SK cl40, +3 shocking burst
-trident, Ibogs2, I-boots of striding and springing, Ihbw4, I-minor cloak of displacement,
-[wooden holy symbol](ref/eq-misc/wooden-holy-symbol) of Aegirran
+::: statblock
+Ability scores: Str 40, Dex 18, Con 25, Int 16, Wis 30, Cha 17
+Base attack bonus: +23
+Combat maneuver bonus: +40
+Combat maneuver defense: 54
+Feats: Bashing Finish, Channel Smite, Combat Casting, Critical Focus, Deafening Critical, Improved Critical (trident), Improved Shield Bash, Missile Shield, Point-Blank Shot, Power Attack, Rapid Shot, Shield Master, Shield Slam, Staggering Critical, Two-Weapon Fighting, Weapon Focus (trident)
+Skills: Acrobatics +22 (+26 when jumping), Climb +36
+Languages: Auran, Common, Draconic, Giant
+Special qualities: militant, water breathing
+Combat gear: potion of cure serious wounds, potion of haste, scroll of commune, scroll of invisibility purge
+Other gear: +2 MM MF chainmail, +3 AS bashing heavy wooden shield, +1 SK cl40, +3 shocking burst trident, Ibogs2, I-boots of striding and springing, Ihbw4, I-minor cloak of displacement, [wooden holy symbol](ref/eq-misc/wooden-holy-symbol) of Aegirran
+:::
 
 ### Description
 

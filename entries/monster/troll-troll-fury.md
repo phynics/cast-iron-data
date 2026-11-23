@@ -29,81 +29,55 @@ special_qualities = "inspire fervor +2, nature bond (Fire domain), nature sense,
 abilities = ["23", "14", "27", "8", "16", "4"]
 +++
 
-**Challenge rating:** 8
-
 **Troll [druid](ref/class/druid) ([troll fury](ref/arc-druid/troll-fury)) 6**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +6
+Size: large
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant
+Experience points: 4,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 19
+AC modifiers: +5 armor, +2 Dex, +5 natural, -1 size
+Hit points: 156 (12d8+102)
+Fort: +19
+Ref: +7
+Will: +13
+Regen: 5 (acid or fire)
+Resist: fire 10
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +24
+::: statblock
+Speed: 20 ft.
+Melee: bite +13 (1d8+6), 2 claws +13 (1d6+6)
+Reach: 10
+Rend: 2 claws, 1d6+7
+Space: 10
+Spec Att: chosen prey (humans +2), fire bolt (1d6+3 fire, 6/day), wild shape 2/day
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
-
-**Subtype:** Giant
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 armor, +2 Dex, +5 natural, -1 size
-
-**Hit points:** 156 (12d8+102)
-
-**Fort:** +19
-
-**Ref:** +7
-
-**Will:** +13
-
-**Regen:** 5 (acid or fire)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +13 (1d8+6), 2 claws +13 (1d6+6)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+7
-
-**Space:** 10
-
-**Spec Att:** chosen prey (humans +2), fire bolt (1d6+3 fire, 6/day), wild shape 2/day
-
-**Prepared Spells**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**3rd-level spells:**
-
-- call lightning (DC 18), fireball (DC 18), poison (2, DC 16)
-
-**2nd-level spells:**
-
-- barkskin, bull's strength, flaming sphere (DC 17), hold animal (DC 15), produce flame
-
-**1st-level spells:**
-
-- burning hands (DC 16), entangle (DC 14), magic fang, obscuring mist, pass without trace
-
-**Cantrips:**
-
-- detect magic, guidance, read magic, resistance
+::: statblock
+title = "Prepared Spells"
+Caster level: 6
+Concentration: +9
+3rd-level spells: call lightning (DC 18), fireball (DC 18), poison (2, DC 16)
+2nd-level spells: barkskin, bull's strength, flaming sphere (DC 17), hold animal (DC 15), produce flame
+1st-level spells: burning hands (DC 16), entangle (DC 14), magic fang, obscuring mist, pass without trace
+Cantrips: detect magic, guidance, read magic, resistance
+:::
 
 ### Tactics
 
@@ -111,33 +85,26 @@ abilities = ["23", "14", "27", "8", "16", "4"]
 with fireball. She avoids melee combat until her offensive spells are exhausted. She then casts
 bull's strength on herself and starts attacking.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 23, Dex 14, Con 27, Int 8, Wis 16, Cha 4
+::: statblock
+Ability scores: Str 23, Dex 14, Con 27, Int 8, Wis 16, Cha 4
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 27
+Feats: Combat Casting, Greater Spell Focus (evocation), Improved Initiative, Iron Will, Skill Focus (Perception), Spell Focus (evocation)
+Skills: Intimidate +5, Knowledge (nature) +6, Perception +24
+Languages: Druidic, Giant
+Special qualities: inspire fervor +2, nature bond (Fire domain), nature sense, trackless step, [woodland stride](ref/ability/woodland-stride)
+Combat gear: I-pearl of power/1st, scroll of fog cloud, scroll of protection from energy (fire)
+Other gear: +1 Ah, Iclk1, Ihbw2, 110 gp
+:::
 
-**Base attack bonus:** +8
+### Ecology
 
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Casting, Greater Spell Focus (evocation), Improved Initiative, Iron Will, Skill
-Focus (Perception), Spell Focus (evocation)
-
-**Skills:** Intimidate +5, Knowledge (nature) +6, Perception +24
-
-**Languages:** Druidic, Giant
-
-**Special qualities:** inspire fervor +2, nature bond (Fire domain), nature sense, trackless step,
-[woodland stride](ref/ability/woodland-stride)
-
-**Combat gear:** I-pearl of power/1st, scroll of fog cloud, scroll of protection from energy (fire)
-
-**Other gear:** +1 Ah, Iclk1, Ihbw2, 110 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

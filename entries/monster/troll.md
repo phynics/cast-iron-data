@@ -30,77 +30,61 @@ abilities = ["21", "14", "23", "6", "9", "6"]
 _This tall creature has rough, green hide. Its hands end in claws, and its bestial face has a
 hideous, tusked underbite._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +2
+Size: large
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 14
+AC modifiers: +2 Dex, +5 natural, -1 size
+Hit points: 63 (6d8+36)
+Fort: +11
+Ref: +4
+Will: +3
+Regen: 5 (acid or fire)
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Melee: bite +8 (1d8+5), 2 claws +8 (1d6+5)
+Reach: 10
+Rend: 2 claws, 1d6+7
+Space: 10
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 21, Dex 14, Con 23, Int 6, Wis 9, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Intimidating Prowess, Iron Will, Skill Focus (Perception)
+Skills: Intimidate +9, Perception +8
+Languages: Giant
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +5 natural, -1 size
-
-**Hit points:** 63 (6d8+36)
-
-**Fort:** +11
-
-**Ref:** +4
-
-**Will:** +3
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +8 (1d8+5), 2 claws +8 (1d6+5)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+7
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 14, Con 23, Int 6, Wis 9, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Intimidating Prowess, Iron Will, Skill Focus (Perception)
-
-**Skills:** Intimidate +9, Perception +8
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold mountains
+Organization: solitary or gang (2-4)
+Treasure: Standard
+:::
 
 ### Description
 

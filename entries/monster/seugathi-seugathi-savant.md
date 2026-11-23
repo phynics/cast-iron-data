@@ -30,104 +30,75 @@ abilities = ["23", "22", "21", "15", "18", "19"]
 
 _Hundreds of legs support this hulking, bruise-colored worm._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+aura: madness (30 ft.)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +10
+Perception: +20
+Senses: Darkvision 120 ft.
+tremorsense: 30
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** madness (30 ft.)
+::: statblock
+Armor class: 23
+Touch: 15
+Flat-footed: 16
+AC modifiers: +6 Dex, +1 dodge, +8 natural, -2 size
+Hit points: 142 (15d8+75)
+Fort: +12
+Ref: +11
+Will: +13; +4 vs. psychic spells
+Defensive abilities: psychic resilience
+Dr: 10/slashing and magic
+Fh: 5
+Immune: mind-affecting effects, poison
+Sr: 21
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 30 ft.
+Melee: +1 short sword +16/+11/+6 (2d6+7/19-20), bite +10 (2d6+3 plus poison)
+Reach: 15
+Space: 15
+Spec Att: confusion command
+:::
 
-**Initiative:** +10
+::: statblock
+title = "Psychic Magic"
+Caster level: 15
+Concentration: +19
+Power points: 12
+Psychoactive powers: anticipate thoughts, 2 PE, DC 16, detect thoughts, 2 PE, DC 16, levitate, 2 PE, mental barrier IV, 5 PE, mind fog, 5 PE, DC 19, psychic crush I, 5 PE, DC 19, suggestion, 2 PE, DC 17
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+Ability scores: Str 23, Dex 22, Con 21, Int 15, Wis 18, Cha 19
+Base attack bonus: +11
+Combat maneuver bonus: +19
+Combat maneuver defense: 36 (can't be tripped)
+Feats: Combat Casting, Combat Expertise, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Intimidating Prowess, Power Attack
+Skills: Bluff +13, Intimidate +25, Knowledge (religion) +16, Perception +20, Sense Motive +19, Stealth +16, Use Magic Device +19
+Languages: Aklo, Terran, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: item use
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +1 dodge, +8 natural, -2 size
-
-**Hit points:** 142 (15d8+75)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +13; +4 vs. psychic spells
-
-**Defensive abilities:** psychic resilience
-
-**Dr:** 10/slashing and magic
-
-**Fh:** 5
-
-**Immune:** mind-affecting effects, poison
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 short sword +16/+11/+6 (2d6+7/19-20), bite +10 (2d6+3 plus poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** confusion command
-
-**Psychic Magic**
-
-**Caster level:** 15
-
-**Concentration:** +19
-
-**Power points:** 12
-
-**Psychoactive powers:**
-
-- anticipate thoughts, 2 PE, DC 16, detect thoughts, 2 PE, DC 16, levitate, 2 PE, mental barrier IV,
-  5 PE, mind fog, 5 PE, DC 19, psychic crush I, 5 PE, DC 19, suggestion, 2 PE, DC 17
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 22, Con 21, Int 15, Wis 18, Cha 19
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 36 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Expertise, Combat Reflexes, Dodge, Great Fortitude, Improved
-Initiative, Intimidating Prowess, Power Attack
-
-**Skills:** Bluff +13, Intimidate +25, Knowledge (religion) +16, Perception +20, Sense Motive +19,
-Stealth +16, Use Magic Device +19
-
-**Languages:** Aklo, Terran, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** item use
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Double (+1 short sword, Dsearing light/CL 10th, 1d20+10 charges); other treasure
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Double (+1 short sword, Dsearing light/CL 10th, 1d20+10 charges); other treasure
+:::
 
 ### Special Abilities
 

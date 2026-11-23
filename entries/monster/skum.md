@@ -32,79 +32,61 @@ abilities = ["15", "13", "17", "10", "10", "6"]
 _This hunchbacked, green-skinned humanoid has a wide, frog-like head but a mouth more akin to that
 of a toothy fish._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 natural
+Hit points: 20 (2d10+9)
+Fort: +3
+Ref: +4
+Will: +3
+Resist: cold 10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 20 ft., swim 40 ft.
+Melee: trident +4 (1d8+2), claw +2 (1d4+1), bite +2 (1d6+1)
+Ranged: trident +3 (1d8+2)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 13, Con 17, Int 10, Wis 10, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Multiattack, Toughness
+Skills: Intimidate +3, Perception +5 (+9 underwater), Stealth +6 (+10 underwater), Swim +15
+Racial Modifiers: +4 Perception and Stealth underwater
+Languages: Aboleth, Undercommon
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 natural
-
-**Hit points:** 20 (2d10+9)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +3
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**Melee:** trident +4 (1d8+2), claw +2 (1d4+1), bite +2 (1d6+1)
-
-**Ranged:** trident +3 (1d8+2)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 17, Int 10, Wis 10, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Multiattack, Toughness
-
-**Skills:** Intimidate +3, Perception +5 (+9 underwater), Stealth +6 (+10 underwater), Swim +15
-
-**Racial Modifiers:** +4 Perception and Stealth underwater
-
-**Languages:** Aboleth, Undercommon
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate or cold aquatic or underground
-
-**Organization:** solitary, brood (2-5), pack (6-12), or cabal (13-95 plus 50% noncombatants, 1
-subchief of 3rd level per 20 adults, 1 sorcerer of 4th-6th level per 40 adults, 1 chieftain of
-7th-9th level, and 2-6 oozes)
-
-**Treasure:** NPC gear (trident); other treasure
+::: statblock
+Environment: temperate or cold aquatic or underground
+Organization: solitary, brood (2-5), pack (6-12), or cabal (13-95 plus 50% noncombatants, 1 subchief of 3rd level per 20 adults, 1 sorcerer of 4th-6th level per 40 adults, 1 chieftain of 7th-9th level, and 2-6 oozes)
+Treasure: NPC gear (trident); other treasure
+:::
 
 ### Description
 

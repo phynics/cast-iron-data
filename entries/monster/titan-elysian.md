@@ -30,107 +30,75 @@ abilities = ["45", "16", "39", "21", "28", "24"]
 _This titanic humanoid wears gilt-edged armor of ancient make and carries an immense hammer made of
 gleaming metal._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+Alignment: Chaotic good
+Size: colossal
+Initiative: +7
+Type: outsider
+Perception: +33
+Senses: Darkvision 120 ft., True seeing
+Subtype: Chaotic, Extraplanar, Good
+Experience points: 409,600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 37
+Touch: 5
+Flat-footed: 34
+AC modifiers: +9 armor, +3 Dex, +23 natural, -8 size
+Hit points: 409 (21d10+294)
+Fort: +21
+Ref: +15
+Will: +21; +8 resistance vs. mind-affecting
+Dr: 15/evil
+Immune: aging, death effects, disease
+Regen: 15 (evil)
+Sr: 32
+:::
 
-**Initiative:** +7
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 60 ft., (40 ft. in armor)
+Melee: maul of the titans +33/+28/+23/+18 (6d8+28/17-20) or 2 slams +30 (2d8+17)
+Reach: 30
+Space: 30
+Trample: 2d8+25, DC 37
+:::
 
-**Perception:** +33
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: air walk, mind blank, true seeing
+At will: bestow curse (DC 21), break enchantment, divination, greater dispel magic, sending
+Per day: 3/day: greater scrying (DC 24), heal, mass suggestion (DC 23)\
+1/day: freedom, greater planar ally, meteor swarm (DC 26)
+:::
 
-**Senses:** Darkvision 120 ft., True seeing
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar, Good
+::: statblock
+Ability scores: Str 45, Dex 16, Con 39, Int 21, Wis 28, Cha 24
+Base attack bonus: +21
+Combat maneuver bonus: +46
+Combat maneuver defense: 59
+Feats: Awesome Blow, Critical Focus, Greater Sunder, Greater Vital Strike, Improved Bull Rush, Improved Initiative, Improved Sunder, Improved Vital Strike, Power Attack, Staggering Critical, Vital Strike
+Skills: Bluff +31, Craft (any) +29, Sense Motive +33, Spellcraft +29, Use Magic Device +31
+Languages: Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 409,600
+### Ecology
 
-**Armor class:** 37
-
-**Touch:** 5
-
-**Flat-footed:** 34
-
-**AC modifiers:** +9 armor, +3 Dex, +23 natural, -8 size
-
-**Hit points:** 409 (21d10+294)
-
-**Fort:** +21
-
-**Ref:** +15
-
-**Will:** +21; +8 resistance vs. mind-affecting
-
-**Dr:** 15/evil
-
-**Immune:** aging, death effects, disease
-
-**Regen:** 15 (evil)
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 60 ft., (40 ft. in armor)
-
-**Melee:** maul of the titans +33/+28/+23/+18 (6d8+28/17-20) or 2 slams +30 (2d8+17)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Trample:** 2d8+25, DC 37
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- air walk, mind blank, true seeing
-
-**At will:**
-
-- bestow curse (DC 21), break enchantment, divination, greater dispel magic, sending
-
-**Per day:**
-
-- 3/day: greater scrying (DC 24), heal, mass suggestion (DC 23)
-- 1/day: freedom, greater planar ally, meteor swarm (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 45, Dex 16, Con 39, Int 21, Wis 28, Cha 24
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +46
-
-**Combat maneuver defense:** 59
-
-**Feats:** Awesome Blow, Critical Focus, Greater Sunder, Greater Vital Strike, Improved Bull Rush,
-Improved Initiative, Improved Sunder, Improved Vital Strike, Power Attack, Staggering Critical,
-Vital Strike
-
-**Skills:** Bluff +31, Craft (any) +29, Sense Motive +33, Spellcraft +29, Use Magic Device +31
-
-**Languages:** Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any land ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or crusade (3-6)
-
-**Treasure:** Standard (+3 breastplate, Imaul); other treasure
+::: statblock
+Environment: any land ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or crusade (3-6)
+Treasure: Standard (+3 breastplate, Imaul); other treasure
+:::
 
 ### Description
 

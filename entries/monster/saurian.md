@@ -31,103 +31,73 @@ abilities = ["28", "18", "23", "16", "25", "21"]
 
 _This creature has the head, legs, and tail of a tyrannosaurus, but humanoid chest and arms._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Size: huge
+Initiative: +8
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +31
+Senses: Darkvision 60 ft., Scent
+Experience points: 76,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 32
+Touch: 13
+Flat-footed: 27
+AC modifiers: +5 armor, +4 Dex, +1 dodge, +11 natural, +3 shield, -2 size
+Hit points: 241 (21d10+126)
+Fort: +15
+Ref: +16
+Will: +19
+Defensive abilities: _[death ward](ref/spell/death-ward)_
+Resist: fire 20
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., (40 ft. without armor)
+Melee: +1 returning shortspear +25/+20/+15/+10 (2d6+10/19-20), heavy spiked shield +24 (2d6+4), bite +23 (2d6+4/19-20) or bite +28 (2d6+9), 2 claws +28 (1d8+9)
+Ranged: +1 returning shortspear +24 (2d6+10/19-20)
+Reach: 15
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 15
+Spec Att: roar
+:::
 
-**Perception:** +31
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +21
+Constant: air walk, death ward, speak with animals
+Per day: 3/day: animal growth, volcanic storm\
+1/day: commune with nature, heal, meteor swarm (DC 24), summon nature's ally VIII, dinosaurs only
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Experience points:** 76,800
+::: statblock
+Ability scores: Str 28, Dex 18, Con 23, Int 16, Wis 25, Cha 21
+Base attack bonus: +21
+Combat maneuver bonus: +32
+Combat maneuver defense: 47
+Feats: Blind-Fight, Diehard, Dodge, Endurance, Great Fortitude, Improved Critical (bite), Improved Critical (shortspear), Improved Initiative, Improved Shield Bash, Intimidating Prowess, Two-Weapon Fighting
+Skills: Craft (weapons) +27, Intimidate +38, Knowledge (geography, nature) +24, Perception +31
+Languages: Common, Ignan, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: dinosaur empathy +26
+:::
 
-**Armor class:** 32
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 27
-
-**AC modifiers:** +5 armor, +4 Dex, +1 dodge, +11 natural, +3 shield, -2 size
-
-**Hit points:** 241 (21d10+126)
-
-**Fort:** +15
-
-**Ref:** +16
-
-**Will:** +19
-
-**Defensive abilities:** _[death ward](ref/spell/death-ward)_
-
-**Resist:** fire 20
-
-**Offense**
-
-**Speed:** 30 ft., (40 ft. without armor)
-
-**Melee:** +1 returning shortspear +25/+20/+15/+10 (2d6+10/19-20), heavy spiked shield +24 (2d6+4),
-bite +23 (2d6+4/19-20) or bite +28 (2d6+9), 2 claws +28 (1d8+9)
-
-**Ranged:** +1 returning shortspear +24 (2d6+10/19-20)
-
-**Reach:** 15
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 15
-
-**Spec Att:** roar
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +21
-
-**Constant:**
-
-- air walk, death ward, speak with animals
-
-**Per day:**
-
-- 3/day: animal growth, volcanic storm
-- 1/day: commune with nature, heal, meteor swarm (DC 24), summon nature's ally VIII, dinosaurs only
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 18, Con 23, Int 16, Wis 25, Cha 21
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 47
-
-**Feats:** Blind-Fight, Diehard, Dodge, Endurance, Great Fortitude, Improved Critical (bite),
-Improved Critical (shortspear), Improved Initiative, Improved Shield Bash, Intimidating Prowess,
-Two-Weapon Fighting
-
-**Skills:** Craft (weapons) +27, Intimidate +38, Knowledge (geography, nature) +24, Perception +31
-
-**Languages:** Common, Ignan, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** dinosaur empathy +26
-
-**Ecology**
-
-**Environment:** warm mountains
-
-**Organization:** solitary, pair, or clan (3-12 plus 2-8
-[tyrannosauruses](ref/monster/dinosaur-tyrannosaurus))
-
-**Treasure:** NPC gear (+1 Ah, +1 scroll of S heavy wooden shield, +1 returning shortspear); other
-treasure
+::: statblock
+Environment: warm mountains
+Organization: solitary, pair, or clan (3-12 plus 2-8 [tyrannosauruses](ref/monster/dinosaur-tyrannosaurus))
+Treasure: NPC gear (+1 Ah, +1 scroll of S heavy wooden shield, +1 returning shortspear); other treasure
+:::
 
 ### Special Abilities
 

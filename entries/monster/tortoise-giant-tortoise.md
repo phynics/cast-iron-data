@@ -30,69 +30,57 @@ abilities = ["14", "7", "16", "2", "13", "9"]
 _This tortoise is half the height of a human, and has a domed shell, leathery skin, and a long
 neck._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: -2
+Size: medium
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 16
+Touch: 8
+Flat-footed: 16
+AC modifiers: -2 Dex, +8 natural
+Hit points: 22 (3d8+9)
+Fort: +8
+Ref: +1
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Melee: bite +4 (1d6+3)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 7, Con 16, Int 2, Wis 13, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 12 (16 vs. trip)
+Feats: Endurance, Great Fortitude
+Skills: Perception +7 (+3 for sound-based checks)
+Racial Modifiers: -4 Perception for sound-based checks
+Special qualities: buoyant, shell, slow and steady
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 8
-
-**Flat-footed:** 16
-
-**AC modifiers:** -2 Dex, +8 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +8
-
-**Ref:** +1
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +4 (1d6+3)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 7, Con 16, Int 2, Wis 13, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 12 (16 vs. trip)
-
-**Feats:** Endurance, Great Fortitude
-
-**Skills:** Perception +7 (+3 for sound-based checks)
-
-**Racial Modifiers:** -4 Perception for sound-based checks
-
-**Special qualities:** buoyant, shell, slow and steady
-
-**Ecology**
-
-**Environment:** warm deserts or islands
-
-**Organization:** solitary, pair, or herd (6-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts or islands
+Organization: solitary, pair, or herd (6-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

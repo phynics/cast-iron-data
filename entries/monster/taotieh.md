@@ -29,79 +29,62 @@ abilities = ["30", "15", "-", "-", "14", "1"]
 _This white marble statue resembles a large feline, but its body and face are covered in decorative
 etchings and runes._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: construct
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 12,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 28
+Touch: 11
+Flat-footed: 26
+AC modifiers: +2 Dex, +17 natural, -1 size
+Hit points: 107 (14d10+30)
+Fort: +4
+Ref: +6
+Will: +6
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: acid 10, cold 10, electricity 10, fire 10
+Vulner: sonic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +23 (1d8+10 plus [grab](ref/umr/grab)), 2 claws +23 (1d6+10 plus grab)
+Pounce: present
+Rake: 2 claws +23, 1d6+10
+Reach: 5
+Space: 10
+Swallow: suffocation, AC 18, [hardness](ref/umr/hardness) 8, 25 hp
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 30, Dex 15, Con -, Int -, Wis 14, Cha 1
+Base attack bonus: +14
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 37 (41 vs. trip)
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +2 Dex, +17 natural, -1 size
-
-**Hit points:** 107 (14d10+30)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +6
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** acid 10, cold 10, electricity 10, fire 10
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +23 (1d8+10 plus [grab](ref/umr/grab)), 2 claws +23 (1d6+10 plus grab)
-
-**Pounce:** present
-
-**Rake:** 2 claws +23, 1d6+10
-
-**Reach:** 5
-
-**Space:** 10
-
-**Swallow:** suffocation, AC 18, [hardness](ref/umr/hardness) 8, 25 hp
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 15, Con -, Int -, Wis 14, Cha 1
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 37 (41 vs. trip)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

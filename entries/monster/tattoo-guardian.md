@@ -29,73 +29,61 @@ abilities = ["14", "17", "-", "-", "12", "13"]
 
 _This beautiful, impossibly intricate tattoo appears to swirl and move along its wearer's skin._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 42 (4d10+20)
+Fort: +1
+Ref: +6
+Will: +2
+Defensive abilities: worn form, fluid form, hypervigilant
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 10 ft. (average)
+Melee: 2 ink blades +6 (1d6+2)
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 42 (4d10+20)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +2
-
-**Defensive abilities:** worn form, fluid form, hypervigilant
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft., fly 10 ft. (average)
-
-**Melee:** 2 ink blades +6 (1d6+2)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con -, Int -, Wis 12, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative^B^
-
-**Special qualities:** bodyguard
+::: statblock
+Ability scores: Str 14, Dex 17, Con -, Int -, Wis 12, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Improved Initiative^B^
+Special qualities: bodyguard
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

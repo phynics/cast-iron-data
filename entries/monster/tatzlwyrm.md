@@ -36,78 +36,61 @@ abilities = ["14", "15", "12", "5", "14", "11"]
 _This serpentine creature has the head of a ferocious dragon and two relatively small forearms that
 end in tiny claws._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: dragon
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 600
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 22 (3d12+3)
+Fort: +4
+Ref: +5
+Will: +5
+Immune: paralysis, sleep
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +5 (1d8+3 plus [grab](ref/umr/grab))
+Pounce: present
+Rake: 2 claws +5, 1d4+2
+Spec Att: poison gasp
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 15, Con 12, Int 5, Wis 14, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +5 (+9 grapple)
+Combat maneuver defense: 17 (can't be tripped)
+Feats: Nimble Moves, Stealthy
+Skills: Climb +14, Escape Artist +5, Intimidate +4, Perception +8, Stealth +10 (+16 in dense vegetation)
+Racial Modifiers: +6 Stealth in dense vegetation
+Languages: Draconic
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 22 (3d12+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +5
-
-**Immune:** paralysis, sleep
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +5 (1d8+3 plus [grab](ref/umr/grab))
-
-**Pounce:** present
-
-**Rake:** 2 claws +5, 1d4+2
-
-**Spec Att:** poison gasp
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 12, Int 5, Wis 14, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5 (+9 grapple)
-
-**Combat maneuver defense:** 17 (can't be tripped)
-
-**Feats:** Nimble Moves, Stealthy
-
-**Skills:** Climb +14, Escape Artist +5, Intimidate +4, Perception +8, Stealth +10 (+16 in dense
-vegetation)
-
-**Racial Modifiers:** +6 Stealth in dense vegetation
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary or nest (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests
+Organization: solitary or nest (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

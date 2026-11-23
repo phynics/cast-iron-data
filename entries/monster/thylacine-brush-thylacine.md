@@ -32,69 +32,57 @@ whiskers, and dark stripes down its back. Its long tail flips about, smacking th
 the woods. It yips and bays in a complex pattern, offering warning to anything that may cross its
 path._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 25 (3d8+12)
+Fort: +7
+Ref: +5
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +5 (1d6+4/19-20)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 14, Con 19, Int 2, Wis 13, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Skill Focus (Perception), Step Up
+Skills: Acrobatics +6 (+10 jumping), Perception +8, Stealth +6
+Racial Modifiers: +4 Acrobatics when jumping
+Special qualities: powerful jaws
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 25 (3d8+12)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +5 (1d6+4/19-20)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 14, Con 19, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Skill Focus (Perception), Step Up
-
-**Skills:** Acrobatics +6 (+10 jumping), Perception +8, Stealth +6
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Special qualities:** powerful jaws
-
-**Ecology**
-
-**Environment:** temperate forest
-
-**Organization:** solitary or pack (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forest
+Organization: solitary or pack (2-5)
+Treasure: None
+:::
 
 ### Description
 

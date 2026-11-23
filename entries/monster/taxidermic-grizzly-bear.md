@@ -29,75 +29,60 @@ abilities = ["19", "11", "-", "-", "10", "3"]
 _Tufts of haphazard fur line the body of this gruesome bear, while great lines of stitching
 crisscross its body._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 12
+Touch: 9
+Flat-footed: 12
+AC modifiers: +3 natural, -1 size
+Hit points: 63 (6d10+30)
+Fort: +2
+Ref: +2
+Will: +2
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: slashing
+Weaknesses: defect (crude stitching)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +7 (1d6+4), bite +7 (1d6+4) or slam +7 (1d6+6)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 11, Con -, Int -, Wis 10, Cha 3
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 19 (23 vs. trip)
+Skills: Swim +8
+Racial Modifiers: +4 Swim
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 9
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 natural, -1 size
-
-**Hit points:** 63 (6d10+30)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** slashing
-
-**Weaknesses:** defect (crude stitching)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +7 (1d6+4), bite +7 (1d6+4) or slam +7 (1d6+6)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 11, Con -, Int -, Wis 10, Cha 3
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Skills:** Swim +8
-
-**Racial Modifiers:** +4 Swim
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** any
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: any
+Treasure: None
+:::
 
 ### Description
 

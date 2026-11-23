@@ -32,109 +32,76 @@ abilities = ["34", "19", "18", "9", "12", "17"]
 _This powerful steed stands upon wispy puffs of air, its grassy mane and tail swishing majestically
 in the wind._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic neutral
+Type: fey
+greensight: 60
+Initiative: +4
+Size: large
+Perception: +23
+Senses: Low-light vision, Scent, See in darkness
+Subtype: Wild hunt
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 25
+Touch: 17
+Flat-footed: 20
+AC modifiers: +3 deflection, +4 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 142 (19d6+76)
+Fort: +12
+Ref: +15
+Will: +12
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, instinctive cooperation, wild grace
+Dr: 10/cold iron
+Immune: cold
+Resist: electricity 10, fire 10
+:::
 
-**greensight:** 60
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 100 ft.
+Melee: bite +21 (2d6+12), 2 hooves +19 (1d10+6 plus bleed)
+Reach: 10
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: bewildering hoofbeats, bleed 1d6, deafening cry, wild gaze (DC 22)
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +16
+Constant: air walk, freedom of movement, know direction, speak with animals, speak with plants
+At will: transport via plants, self and rider only
+Per day: 3/day: stone tell
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Low-light vision, Scent, See in darkness
+::: statblock
+Ability scores: Str 34, Dex 19, Con 18, Int 9, Wis 12, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +22 (+26 overrun)
+Combat maneuver defense: 40 (42 vs. overrun, 44 vs. trip)
+Feats: Dodge, Endurance, Great Fortitude, Greater Overrun, Improved Overrun, Multiattack, Power Attack, Run, Weapon Focus (bite, hoof)
+Skills: Acrobatics +26, Perception +23
+Languages: Common, Sylvan; _speak with animals, speak with plants_
+Special qualities: planar acclimation, rider synergy, wild hunt link
+:::
 
-**Subtype:** Wild hunt
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 deflection, +4 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 142 (19d6+76)
-
-**Fort:** +12
-
-**Ref:** +15
-
-**Will:** +12
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, instinctive
-cooperation, wild grace
-
-**Dr:** 10/cold iron
-
-**Immune:** cold
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 100 ft.
-
-**Melee:** bite +21 (2d6+12), 2 hooves +19 (1d10+6 plus bleed)
-
-**Reach:** 10
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** bewildering hoofbeats, bleed 1d6, deafening cry, wild gaze (DC 22)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +16
-
-**Constant:**
-
-- air walk, freedom of movement, know direction, speak with animals, speak with plants
-
-**At will:**
-
-- transport via plants, self and rider only
-
-**Per day:**
-
-- 3/day: stone tell
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 19, Con 18, Int 9, Wis 12, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +22 (+26 overrun)
-
-**Combat maneuver defense:** 40 (42 vs. overrun, 44 vs. trip)
-
-**Feats:** Dodge, Endurance, Great Fortitude, Greater Overrun, Improved Overrun, Multiattack, Power
-Attack, Run, Weapon Focus (bite, hoof)
-
-**Skills:** Acrobatics +26, Perception +23
-
-**Languages:** Common, Sylvan; _speak with animals, speak with plants_
-
-**Special qualities:** planar acclimation, rider synergy, wild hunt link
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, herd (2-10), or wild hunt
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, herd (2-10), or wild hunt
+Treasure: None
+:::
 
 ### Special Abilities
 

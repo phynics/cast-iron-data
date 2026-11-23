@@ -31,70 +31,53 @@ abilities = ["20", "15", "19", "10", "18", "13"]
 _A column of soldiers clad in the black and red of House Thrune move together, their weapons at the
 ready in a coordinated front._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: humanoid
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Perception: +22
+Subtype: Human, Troop
+Experience points: 6,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 20
+AC modifiers: +9 armor, +2 Dex, +1 profane
+Hit points: 114 (12d8+60)
+Fort: +10
+Ref: +6
+Will: +14
+Defensive abilities: judgment of protection, troop traits
+Fh: 5
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+Melee: troop (3d6+5)
+Reach: 5
+Space: 20
+:::
 
-**Perception:** +22
+### Statistics
 
-**Subtype:** Human, Troop
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +9 armor, +2 Dex, +1 profane
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +14
-
-**Defensive abilities:** judgment of protection, troop traits
-
-**Fh:** 5
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** troop (3d6+5)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 19, Int 10, Wis 18, Cha 13
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Reflexes, Great Fortitude, Improved Iron Will, Iron Will, Skill Focus
-(Perception), Toughness
-
-**Skills:** Knowledge (religion) +12, Perception +22
-
-**Languages:** Common, Infernal
-
-**Special qualities:** cunning initiative, [fast healing](ref/umr/fast-healing), protect ally
+::: statblock
+Ability scores: Str 20, Dex 15, Con 19, Int 10, Wis 18, Cha 13
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 27
+Feats: Combat Reflexes, Great Fortitude, Improved Iron Will, Iron Will, Skill Focus (Perception), Toughness
+Skills: Knowledge (religion) +12, Perception +22
+Languages: Common, Infernal
+Special qualities: cunning initiative, [fast healing](ref/umr/fast-healing), protect ally
+:::
 
 ### Special Abilities
 

@@ -30,73 +30,59 @@ abilities = ["17", "12", "13", "1", "12", "2"]
 _This blue shark's fins slice through the water, its black eyes rolling and its gaping jaws showing
 countless teeth._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+blindsense: 30
+Initiative: +5
+Keen Scent: present
+Size: large
+Alignment: Neutral
+Perception: +8
+Subtype: Aquatic
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 13
+AC modifiers: +1 Dex, +4 natural, -1 size
+Hit points: 22 (4d8+4)
+Fort: +7
+Ref: +5
+Will: +2
+:::
 
-**Initiative:** +5
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +5 (1d8+4)
+Reach: 5
+Space: 10
+:::
 
-**Size:** large
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 17, Dex 12, Con 13, Int 1, Wis 12, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 18
+Feats: Great Fortitude, Improved Initiative
+Skills: Perception +8, Swim +11
+:::
 
-**Perception:** +8
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +4 natural, -1 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +5 (1d8+4)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 12, Con 13, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 18
-
-**Feats:** Great Fortitude, Improved Initiative
-
-**Skills:** Perception +8, Swim +11
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, pair, school (3-6), or pack (7-13)
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary, pair, school (3-6), or pack (7-13)
+Treasure: None
+:::
 
 ### Special Abilities
 

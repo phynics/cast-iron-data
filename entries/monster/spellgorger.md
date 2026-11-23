@@ -32,87 +32,65 @@ abilities = ["20", "27", "24", "19", "16", "26"]
 _This ten-foot-diameter floating globe of shuddering violet sludge has a tangle of dripping tendrils
 and is encircled by strange arcane energies._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: discordant field (30 ft., DC 25, 10 rounds)
+Initiative: +8
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: +17
+Senses: Scent magic
+Experience points: 19,200
+:::
 
-**aura:** discordant field (30 ft., DC 25, 10 rounds)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 26
+Touch: 26
+Flat-footed: 17
+AC modifiers: +8 deflection, +8 Dex, +1 dodge, -1 size
+Hit points: 161 (14d8+98)
+Fort: +13
+Ref: +12
+Will: +9
+Defensive abilities: deflective shield, spell healing
+Immune: fire, force, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., fly 30 ft. (perfect)
+Engulf: DC 24
+Melee: 2 slams +17 (2d6+5 plus 2d6 fire and 2d6 force)
+Ranged: firebolt +17 touch (2d6 fire plus 2d6 force)
+Reach: 10
+Space: 10
+Spec Att: firebolts, parasitic spellcasting
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +17
+::: statblock
+Ability scores: Str 20, Dex 27, Con 24, Int 19, Wis 16, Cha 26
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 35
+Feats: Ability Focus (engulf), Combat Casting, Dodge, Great Fortitude, Iron Will, Mobility, Weapon Finesse
+Skills: Acrobatics +22, Fly +31, Knowledge (arcana) +18, Perception +17, Spellcraft +18, Use Magic Device +22
+Languages: Abyssal, Celestial, Common, Draconic, Infernal
+Special qualities: prehensile tendrils
+:::
 
-**Senses:** Scent magic
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 26
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 deflection, +8 Dex, +1 dodge, -1 size
-
-**Hit points:** 161 (14d8+98)
-
-**Fort:** +13
-
-**Ref:** +12
-
-**Will:** +9
-
-**Defensive abilities:** deflective shield, spell healing
-
-**Immune:** fire, force, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 10 ft., fly 30 ft. (perfect)
-
-**Engulf:** DC 24
-
-**Melee:** 2 slams +17 (2d6+5 plus 2d6 fire and 2d6 force)
-
-**Ranged:** firebolt +17 touch (2d6 fire plus 2d6 force)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** firebolts, parasitic spellcasting
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 27, Con 24, Int 19, Wis 16, Cha 26
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 35
-
-**Feats:** Ability Focus (engulf), Combat Casting, Dodge, Great Fortitude, Iron Will, Mobility,
-Weapon Finesse
-
-**Skills:** Acrobatics +22, Fly +31, Knowledge (arcana) +18, Perception +17, Spellcraft +18, Use
-Magic Device +22
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** prehensile tendrils
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or gluttony (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or gluttony (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

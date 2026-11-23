@@ -31,82 +31,67 @@ abilities = ["25", "13", "18", "8", "10", "6"]
 _This hulking juggernaut has two massively muscled arms and a group of four smaller ones that jut
 from under its rib cage._
 
-**Challenge rating:** 2
-
 **Trox [barbarian](ref/class/barbarian) 1**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Initiative: +1
+Size: large
+Type: Monstrous humanoid
+Perception: +0
+Senses: Darkvision 60 ft.
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 10
+Touch: 8
+Flat-footed: 9
+AC modifiers: +2 armor, +1 Dex, -2 rage, -1 size
+Hit points: 17 (1d12+5)
+Fort: +6
+Ref: +1
+Will: +2
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +0
-
-**Senses:** Darkvision 60 ft.
-
-**Experience points:** 600
-
-**Armor class:** 10
-
-**Touch:** 8
-
-**Flat-footed:** 9
-
-**AC modifiers:** +2 armor, +1 Dex, -2 rage, -1 size
-
-**Hit points:** 17 (1d12+5)
-
-**Fort:** +6
-
-**Ref:** +1
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft.
-
-**Melee:** warhammer +7 (2d6+7/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** frenzy, rage (6 rounds/day)
+::: statblock
+Speed: 40 ft., burrow 20 ft.
+Melee: warhammer +7 (2d6+7/×3)
+Reach: 10
+Space: 10
+Spec Att: frenzy, rage (6 rounds/day)
+:::
 
 ### Tactics
 
 **Base Statistics** When not raging, the trox's statistics are AC 12, touch 10, flat-footed 11; hp
 15; Fort +4, Will +0; warhammer +5 (2d6+5/×3); Str 21, Con 14; CMB +7, CMD 18; Skills Climb +9.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 25, Dex 13, Con 18, Int 8, Wis 10, Cha 6
+::: statblock
+Ability scores: Str 25, Dex 13, Con 18, Int 8, Wis 10, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +9 (+11 grapple)
+Combat maneuver defense: 18 (20 vs. grapple)
+Feats: Improved Grapple, Power Attack
+Skills: Climb +11, Intimidate +2, Survival +4
+Languages: Terran
+Special qualities: fast movement, grabbing appendages
+:::
 
-**Base attack bonus:** +1
+### Ecology
 
-**Combat maneuver bonus:** +9 (+11 grapple)
-
-**Combat maneuver defense:** 18 (20 vs. grapple)
-
-**Feats:** Improved Grapple, Power Attack
-
-**Skills:** Climb +11, Intimidate +2, Survival +4
-
-**Languages:** Terran
-
-**Special qualities:** fast movement, grabbing appendages
-
-**Ecology**
-
-**Environment:** tropical deserts
-
-**Organization:** solitary, band (2-8), or clan (9-20)
-
-**Treasure:** NPC gear (leather armor, warhammer); other treasure
+::: statblock
+Environment: tropical deserts
+Organization: solitary, band (2-8), or clan (9-20)
+Treasure: NPC gear (leather armor, warhammer); other treasure
+:::
 
 ### Special Abilities
 

@@ -32,107 +32,75 @@ abilities = ["22", "23", "20", "15", "16", "21"]
 _Thorny vines with tiny red flowers grow from this emaciated woman and flow like a train behind
 her._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Evil, Extraplanar, Sahkil
+Experience points: 6,400
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 22
+Touch: 16
+Flat-footed: 16
+AC modifiers: +6 Dex, +6 natural
+Hit points: 115 (11d10+55)
+Fort: +10
+Ref: +13
+Will: +10
+Dr: 10/good
+Immune: death effects, disease, fear effects, poison
+Resist: cold 10, electricity 10, sonic 10
+Sr: 20
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Bleed: 1d4
+Melee: 2 claws +17 (1d6+6/19-20), 4 vines +15 (1d4+3 plus 1d4 bleed and poison)
+Ranged: 4 thorns +17 (1d4 plus bleed and poison)
+Spec Att: entangling train, look of fear (30 ft., DC 22), spirit touch, sudden strike, thorns
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+Constant: true seeing
+At will: charm person (DC 16), detect magic, detect good, greater teleport, self plus 50 lbs. of objects only, protection from good
+Per day: 3/day: blink, calm emotions (DC 19), fly\
+1/day: dominate person (DC 20), summon (level 6, 1 wihsaak 40%)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Sahkil
+::: statblock
+Ability scores: Str 22, Dex 23, Con 20, Int 15, Wis 16, Cha 21
+Base attack bonus: +11
+Combat maneuver bonus: +17
+Combat maneuver defense: 33
+Feats: Blind-Fight, Combat Reflexes, Great Fortitude, Improved Critical (claws), Improved Initiative, Multiattack
+Skills: Acrobatics +15, Bluff +15, Climb +16, Diplomacy +15, Sense Motive +15, Spellcraft +10, Stealth +20
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: easy to call, emotional focus, skip between
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 16
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +6 natural
-
-**Hit points:** 115 (11d10+55)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +10
-
-**Dr:** 10/good
-
-**Immune:** death effects, disease, fear effects, poison
-
-**Resist:** cold 10, electricity 10, sonic 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d4
-
-**Melee:** 2 claws +17 (1d6+6/19-20), 4 vines +15 (1d4+3 plus 1d4 bleed and poison)
-
-**Ranged:** 4 thorns +17 (1d4 plus bleed and poison)
-
-**Spec Att:** entangling train, look of fear (30 ft., DC 22), spirit touch, sudden strike, thorns
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- charm person (DC 16), detect magic, detect good, greater teleport, self plus 50 lbs. of objects
-  only, protection from good
-
-**Per day:**
-
-- 3/day: blink, calm emotions (DC 19), fly
-- 1/day: dominate person (DC 20), summon (level 6, 1 wihsaak 40%)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 23, Con 20, Int 15, Wis 16, Cha 21
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 33
-
-**Feats:** Blind-Fight, Combat Reflexes, Great Fortitude, Improved Critical (claws), Improved
-Initiative, Multiattack
-
-**Skills:** Acrobatics +15, Bluff +15, Climb +16, Diplomacy +15, Sense Motive +15, Spellcraft +10,
-Stealth +20
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** easy to call, emotional focus, skip between
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, pair, or plot (3-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, pair, or plot (3-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

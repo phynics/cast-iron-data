@@ -31,110 +31,78 @@ abilities = ["42", "27", "30", "9", "22", "25"]
 _This wriggling and leafless tree moves on spidery legs. Flickering motes of blood-red lightning
 dance in the cracks of its bark._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+blindsight: 30
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +8
+Perception: +32
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+tremorsense: 30
+Experience points: 204,800
+:::
 
-**blindsight:** 30
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 34
+Touch: 10
+Flat-footed: 26
+AC modifiers: +8 Dex, +24 natural, -8 size
+Hit points: 333 (23d8+230)
+Fort: +23
+Ref: +17
+Will: +13
+Defensive abilities: death throes, electrical jolt
+Dr: 15/cold iron and slashing
+Fh: 10
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+Resist: cold 30, fire 30
+Sr: 30
+Vulner: sonic
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Melee: 2 slams +25 (4d10+16/19-20 plus 4d6 electricity)
+Ranged: 4 thorns +17 (2d8+16 plus poison)
+Reach: 30
+Space: 30
+:::
 
-**Perception:** +32
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+At will: control weather, lightning bolt (DC 20), tree shape, Colossal tree, transport via plants
+Per day: 3/day: chain lightning (DC 23), quickened lightning bolt (DC 20)\
+1/day: storm of vengeance (DC 26), whirlwind (DC 25)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 42, Dex 27, Con 30, Int 9, Wis 22, Cha 25
+Base attack bonus: +17
+Combat maneuver bonus: +41
+Combat maneuver defense: 59 (67 vs. trip)
+Feats: Awesome Blow, Improved Bull Rush, Improved Critical (slam), Improved Lightning Reflexes, Improved Precise Shot, Improved Sunder, Lightning Reflexes, Point-Blank Shot, Power Attack, Precise Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (lightning bolt), Vital Strike
+Skills: Climb +24, Perception +32
+Languages: Aklo, Sylvan
+Special qualities: planar acclimation
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +8 Dex, +24 natural, -8 size
-
-**Hit points:** 333 (23d8+230)
-
-**Fort:** +23
-
-**Ref:** +17
-
-**Will:** +13
-
-**Defensive abilities:** death throes, electrical jolt
-
-**Dr:** 15/cold iron and slashing
-
-**Fh:** 10
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 30, fire 30
-
-**Sr:** 30
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Melee:** 2 slams +25 (4d10+16/19-20 plus 4d6 electricity)
-
-**Ranged:** 4 thorns +17 (2d8+16 plus poison)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**At will:**
-
-- control weather, lightning bolt (DC 20), tree shape, Colossal tree, transport via plants
-
-**Per day:**
-
-- 3/day: chain lightning (DC 23), quickened lightning bolt (DC 20)
-- 1/day: storm of vengeance (DC 26), whirlwind (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 27, Con 30, Int 9, Wis 22, Cha 25
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +41
-
-**Combat maneuver defense:** 59 (67 vs. trip)
-
-**Feats:** Awesome Blow, Improved Bull Rush, Improved Critical (slam), Improved Lightning Reflexes,
-Improved Precise Shot, Improved Sunder, Lightning Reflexes, Point-Blank Shot, Power Attack, Precise
-Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (lightning bolt), Vital Strike
-
-**Skills:** Climb +24, Perception +32
-
-**Languages:** Aklo, Sylvan
-
-**Special qualities:** planar acclimation
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any forests
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

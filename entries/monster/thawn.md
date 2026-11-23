@@ -31,77 +31,61 @@ _A hulking humanoid cloaked in ragged cloth limps forward, its malformed, tumoro
 claws the length of scythe blades. From beneath its rags droop lengths of loose flesh and a
 strangled wheezing issues from its deformed lips._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: large
+Perception: +1
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 14
+Touch: 8
+Flat-footed: 14
+AC modifiers: -1 Dex, +6 natural, -1 size
+Hit points: 19 (3d8+6)
+Fort: +7
+Ref: +0
+Will: +2
+Weaknesses: repulsive
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +4 (1d6+3/19-20)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 8, Con 14, Int 7, Wis 12, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 15
+Feats: Great Fortitude, Throw Anything
+Skills: Craft (traps) +4, Stealth -2 (+2 amid mud or rocks)
+Racial Modifiers: +6 Craft (traps), +4 Stealth amid mud or rocks
+Languages: Giant
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 8
-
-**Flat-footed:** 14
-
-**AC modifiers:** -1 Dex, +6 natural, -1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +7
-
-**Ref:** +0
-
-**Will:** +2
-
-**Weaknesses:** repulsive
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +4 (1d6+3/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 8, Con 14, Int 7, Wis 12, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 15
-
-**Feats:** Great Fortitude, Throw Anything
-
-**Skills:** Craft (traps) +4, Stealth -2 (+2 amid mud or rocks)
-
-**Racial Modifiers:** +6 Craft (traps), +4 Stealth amid mud or rocks
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** temperate hills and plains
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate hills and plains
+Organization: solitary, pair, or gang (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

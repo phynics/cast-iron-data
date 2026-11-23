@@ -32,101 +32,73 @@ abilities = ["25", "14", "16", "12", "17", "19"]
 _This creature has a long, sinuous, eel-like body but the scaly head of a crocodile with large,
 piercing blue eyes._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic good
+Initiative: +2
+Size: large
+Type: Magical beast
+Perception: +16
+Senses: Darkvision 60 ft., Detect poison, Low-light vision
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +8
+Will: +7
+Dr: 5/magic
+Fh: 5
+Sr: 17
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Melee: bite +14 (3d6+10)
+Reach: 10
+Space: 10
+Spec Att: fearful memory, seize magic
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+Constant: detect poison
+At will: hydraulic push, purify food and drink, delay poison, water breathing
+Per day: 3/day: aqueous orb (DC 17), control water, hydraulic torrent, neutralize poison, remove disease
+:::
 
-**Senses:** Darkvision 60 ft., Detect poison, Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 25, Dex 14, Con 16, Int 12, Wis 17, Cha 19
+Base attack bonus: +8
+Combat maneuver bonus: +16
+Combat maneuver defense: 28
+Feats: Alertness, Improved Iron Will, Iron Will, Power Attack
+Skills: Knowledge (nature) +5, Perception +16, Sense Motive +13, Swim +22
+Languages: Aquan, Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +7
-
-**Dr:** 5/magic
-
-**Fh:** 5
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Melee:** bite +14 (3d6+10)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** fearful memory, seize magic
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**Constant:**
-
-- detect poison
-
-**At will:**
-
-- hydraulic push, purify food and drink, delay poison, water breathing
-
-**Per day:**
-
-- 3/day: aqueous orb (DC 17), control water, hydraulic torrent, neutralize poison, remove disease
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 14, Con 16, Int 12, Wis 17, Cha 19
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 28
-
-**Feats:** Alertness, Improved Iron Will, Iron Will, Power Attack
-
-**Skills:** Knowledge (nature) +5, Perception +16, Sense Motive +13, Swim +22
-
-**Languages:** Aquan, Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** warm rivers
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm rivers
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

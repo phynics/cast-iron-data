@@ -31,87 +31,67 @@ abilities = ["8", "21", "17", "18", "15", "16"]
 
 _This serpentine humanoid has bright scaly skin, a long sinuous tail, and a fanged serpent's head._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +9
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Scent
+Experience points: 1,200
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 13
+AC modifiers: +5 Dex, +3 natural
+Hit points: 42 (5d10+15)
+Fort: +6
+Ref: +9
+Will: +6
+Immune: mind-affecting effects, paralysis, poison
+Sr: 15
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +11 (1d4-1/19-20), bite +5 (1d6-1 plus poison)
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +7
+At will: disguise self (humanoid form only, DC 14), ventriloquism
+Per day: 1/day: blur, mirror image, suggestion (DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 8, Dex 21, Con 17, Int 18, Wis 15, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +4
+Combat maneuver defense: 19
+Feats: Great Fortitude, Improved Initiative, Weapon Finesse
+Skills: Acrobatics +10, Disguise +8, Sense Motive +7, Spellcraft +9, Use Magic Device +12
+Racial Modifiers: +4 Use Magic Device, +8 Escape Artist
+Languages: Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +5 Dex, +3 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +6
-
-**Immune:** mind-affecting effects, paralysis, poison
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dagger +11 (1d4-1/19-20), bite +5 (1d6-1 plus poison)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +7
-
-**At will:**
-
-- disguise self (humanoid form only, DC 14), ventriloquism
-
-**Per day:**
-
-- 1/day: blur, mirror image, suggestion (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 21, Con 17, Int 18, Wis 15, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 19
-
-**Feats:** Great Fortitude, Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +10, Disguise +8, Sense Motive +7, Spellcraft +9, Use Magic Device +12
-
-**Racial Modifiers:** +4 Use Magic Device, +8 Escape Artist
-
-**Languages:** Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any land (usually jungles or underground)
-
-**Organization:** solitary, pair, or cult (3-12)
-
-**Treasure:** NPC gear (mwk dagger); other treasure
+::: statblock
+Environment: any land (usually jungles or underground)
+Organization: solitary, pair, or cult (3-12)
+Treasure: NPC gear (mwk dagger); other treasure
+:::
 
 ### Special Abilities
 

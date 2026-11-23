@@ -35,99 +35,71 @@ abilities = ["40", "24", "31", "5", "22", "13"]
 _This immense mound of black slime thunders forward, eyes and mouths and even stranger things
 forming in its heaving bulk._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +11
+Type: ooze
+Perception: +33
+Senses: All-around vision, Darkvision 120 ft., Low-light vision, Scent
+Subtype: Aquatic
+tremorsense: 60
+Experience points: 204,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 33
+Touch: 15
+Flat-footed: 26
+AC modifiers: +7 Dex, +18 natural, -2 size
+Hit points: 333 (23d8+230)
+Fort: +19
+Ref: +14
+Will: +15
+Dr: 10/-
+Fh: 10
+Immune: blindness, charm effects, cold, deafness, [ooze traits](ref/umr/ooze-traits), sonic
+Resist: acid 20, electricity 20, fire 20
+Sr: 30
+:::
 
-**Initiative:** +11
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 50 ft., climb 30 ft., swim 50 ft.
+Constrict: 3d6+15
+Engulf: 4d6+22 bludgeoning damage plus 8d6 acid damage, AC 19, hp 33
+Melee: 4 slams +30 (3d6+15/19-20 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 15
+Spec Att: maddening cacophony
+Trample: 4d8+15, DC 36
+:::
 
-**Perception:** +33
+### Statistics
 
-**Senses:** All-around vision, Darkvision 120 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 40, Dex 24, Con 31, Int 5, Wis 22, Cha 13
+Base attack bonus: +17
+Combat maneuver bonus: +34 (+39 grapple)
+Combat maneuver defense: 51 (cannot be tripped)
+Feats: Blind-Fight, Cleave, Combat Reflexes, Critical Focus, Great Cleave, Great Fortitude, Improved Critical (slam), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Staggering Critical
+Skills: Climb +23
+Racial Modifiers: +4 Perception
+Languages: Aklo
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 204,800
-
-**Armor class:** 33
-
-**Touch:** 15
-
-**Flat-footed:** 26
-
-**AC modifiers:** +7 Dex, +18 natural, -2 size
-
-**Hit points:** 333 (23d8+230)
-
-**Fort:** +19
-
-**Ref:** +14
-
-**Will:** +15
-
-**Dr:** 10/-
-
-**Fh:** 10
-
-**Immune:** blindness, charm effects, cold, deafness, [ooze traits](ref/umr/ooze-traits), sonic
-
-**Resist:** acid 20, electricity 20, fire 20
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft., swim 50 ft.
-
-**Constrict:** 3d6+15
-
-**Engulf:** 4d6+22 bludgeoning damage plus 8d6 acid damage, AC 19, hp 33
-
-**Melee:** 4 slams +30 (3d6+15/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 15
-
-**Spec Att:** maddening cacophony
-
-**Trample:** 4d8+15, DC 36
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 24, Con 31, Int 5, Wis 22, Cha 13
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +34 (+39 grapple)
-
-**Combat maneuver defense:** 51 (cannot be tripped)
-
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Critical Focus, Great Cleave, Great Fortitude,
-Improved Critical (slam), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Staggering
-Critical
-
-**Skills:** Climb +23
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Aklo
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** cold aquatic or underground
-
-**Organization:** solitary or tide (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold aquatic or underground
+Organization: solitary or tide (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

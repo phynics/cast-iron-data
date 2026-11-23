@@ -30,95 +30,71 @@ abilities = ["18", "17", "16", "11", "21", "24"]
 _This magnificent beast looks like a white horse, but with a goat's beard and a single long ivory
 horn on its brow._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: magic circle against evil
+Alignment: Chaotic good
+Initiative: +3
+Size: large
+Type: Magical beast
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 800
+:::
 
-**aura:** magic circle against evil
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 12
+AC modifiers: +3 Dex, +3 natural, -1 size; +2 deflection vs. evil
+Hit points: 34 (4d10+12)
+Fort: +7
+Ref: +7
+Will: +6; +2 resistance vs. evil
+Immune: charm, compulsion, poison
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft.
+Melee: gore +8 (1d8+4), 2 hooves +5 (1d3+2)
+Pow Ch: gore, 2d8+8
+Reach: 5
+Space: 10
+:::
 
-**Type:** Magical beast
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+At will: detect evil, as free action, light
+Per day: 3/day: cure light wounds\
+1/day: cure moderate wounds, greater teleport, within its forest territory, neutralize poison (DC 21)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 18, Dex 17, Con 16, Int 11, Wis 21, Cha 24
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Multiattack, Weapon Focus (horn)
+Skills: Acrobatics +8, Perception +10
+Racial Modifiers: +3 Survival in forests, +4 Stealth
+Languages: Common, Sylvan
+Special qualities: magical strike, [wild empathy](ref/ability/wild-empathy) +17
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +3 natural, -1 size; +2 deflection vs. evil
-
-**Hit points:** 34 (4d10+12)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +6; +2 resistance vs. evil
-
-**Immune:** charm, compulsion, poison
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** gore +8 (1d8+4), 2 hooves +5 (1d3+2)
-
-**Pow Ch:** gore, 2d8+8
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**At will:**
-
-- detect evil, as free action, light
-
-**Per day:**
-
-- 3/day: cure light wounds
-- 1/day: cure moderate wounds, greater teleport, within its forest territory, neutralize poison (DC
-  21)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 16, Int 11, Wis 21, Cha 24
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Multiattack, Weapon Focus (horn)
-
-**Skills:** Acrobatics +8, Perception +10
-
-**Racial Modifiers:** +3 Survival in forests, +4 Stealth
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** magical strike, [wild empathy](ref/ability/wild-empathy) +17
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, mated pair, or blessing (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, mated pair, or blessing (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

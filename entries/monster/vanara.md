@@ -32,77 +32,62 @@ abilities = ["13", "16", "10", "12", "17", "6"]
 _This lean, simian humanoid is covered in a layer of soft, lightly colored fur and has a long,
 prehensile tail._
 
-**Challenge rating:** 1/2
-
 **Vanara [monk](ref/class/monk) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +3
+Alignment: Lawful good
+Size: medium
+Perception: +7
+Senses: Low-light vision
+Subtype: Vanara
+Experience points: 200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +3 Wis
+Hit points: 9 (1d8+1)
+Fort: +2
+Ref: +5
+Will: +5
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: quarterstaff +1 (1d6+1) or flurry of blows +0/+0 (1d6+1)
+Spec Att: flurry of blows, stunning fist (1/day, DC 13)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Vanara
+::: statblock
+Ability scores: Str 13, Dex 16, Con 10, Int 12, Wis 17, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 18
+Feats: Combat Reflexes, Dodge, Improved Unarmed Strike, Stunning Fist
+Skills: Acrobatics +9, Climb +13, Perception +7, Sense Motive +7, Stealth +9
+Racial Modifiers: +2 Acrobatics, +2 Stealth
+Languages: Common, Sylvan, Vanaran
+Special qualities: prehensile tail
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +3 Wis
-
-**Hit points:** 9 (1d8+1)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** quarterstaff +1 (1d6+1) or flurry of blows +0/+0 (1d6+1)
-
-**Spec Att:** flurry of blows, stunning fist (1/day, DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 10, Int 12, Wis 17, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 18
-
-**Feats:** Combat Reflexes, Dodge, Improved Unarmed Strike, Stunning Fist
-
-**Skills:** Acrobatics +9, Climb +13, Perception +7, Sense Motive +7, Stealth +9
-
-**Racial Modifiers:** +2 Acrobatics, +2 Stealth
-
-**Languages:** Common, Sylvan, Vanaran
-
-**Special qualities:** prehensile tail
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary, pair, party, (3-6), or community (7-100)
-
-**Treasure:** NPC gear (quarterstaff)
+::: statblock
+Environment: any forests
+Organization: solitary, pair, party, (3-6), or community (7-100)
+Treasure: NPC gear (quarterstaff)
+:::
 
 ### Special Abilities
 

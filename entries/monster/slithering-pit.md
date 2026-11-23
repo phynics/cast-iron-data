@@ -34,83 +34,64 @@ abilities = ["16", "16", "19", "2", "5", "1"]
 _Weathered cobblestones give way to a deep, rough pit, the edges of which wriggle and contract of
 their own accord._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 60
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: +2
+Senses: Breach sense
+Experience points: 600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex
+Hit points: 25 (3d8+12)
+Fort: +5
+Ref: +4
+Will: -2
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+Weaknesses: breach vulnerability
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Melee: tentacle +5 (1d4+4 plus pull)
+Pull: tentacle, 5 ft.
+Reach: 10
+Space: 5
+Spec Att: pit
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +2
+::: statblock
+Ability scores: Str 16, Dex 16, Con 19, Int 2, Wis 5, Cha 1
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Skill Focus (Stealth, Perception)
+Skills: Perception +2, Stealth +15
+Racial Modifiers: +8 Stealth
+Special qualities: transparent
+:::
 
-**Senses:** Breach sense
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex
-
-**Hit points:** 25 (3d8+12)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** -2
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Weaknesses:** breach vulnerability
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** tentacle +5 (1d4+4 plus pull)
-
-**Pull:** tentacle, 5 ft.
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** pit
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 16, Con 19, Int 2, Wis 5, Cha 1
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Skill Focus (Stealth, Perception)
-
-**Skills:** Perception +2, Stealth +15
-
-**Racial Modifiers:** +8 Stealth
-
-**Special qualities:** transparent
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

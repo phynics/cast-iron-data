@@ -30,78 +30,61 @@ abilities = ["44", "24", "27", "-", "11", "3"]
 _Two of this spider-like creature's spindly legs are whip-like feelers, and it has two hooked
 appendages lined with spines._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Size: colossal
+Initiative: +7
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 76,800
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 31
+Touch: 9
+Flat-footed: 24
+AC modifiers: +7 Dex, +22 natural, -8 size
+Hit points: 250 (20d8+160)
+Fort: +20
+Ref: +13
+Will: +6
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 60 ft., climb 30 ft.
+Constrict: 2d8+17
+Melee: bite +24 (4d6+17 plus poison), 2 claws +24 (2d8+17 plus [grab](ref/umr/grab)), 2 whip legs +19 touch (1d4, see below)
+Reach: 30
+Reach P: 50 ft. with claws and whip legs
+Space: 30
+Spec Att: poison, poison cloud
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 44, Dex 24, Con 27, Int -, Wis 11, Cha 3
+Base attack bonus: +15
+Combat maneuver bonus: +40
+Combat maneuver defense: 57 (65 vs. trip)
+Skills: Climb +25, Perception +16
+Racial Modifiers: +16 Perception
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 9
-
-**Flat-footed:** 24
-
-**AC modifiers:** +7 Dex, +22 natural, -8 size
-
-**Hit points:** 250 (20d8+160)
-
-**Fort:** +20
-
-**Ref:** +13
-
-**Will:** +6
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 60 ft., climb 30 ft.
-
-**Constrict:** 2d8+17
-
-**Melee:** bite +24 (4d6+17 plus poison), 2 claws +24 (2d8+17 plus [grab](ref/umr/grab)), 2 whip
-legs +19 touch (1d4, see below)
-
-**Reach:** 30
-
-**Reach P:** 50 ft. with claws and whip legs
-
-**Space:** 30
-
-**Spec Att:** poison, poison cloud
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 24, Con 27, Int -, Wis 11, Cha 3
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +40
-
-**Combat maneuver defense:** 57 (65 vs. trip)
-
-**Skills:** Climb +25, Perception +16
-
-**Racial Modifiers:** +16 Perception
-
-**Ecology**
-
-**Environment:** temperate or warm hills
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm hills
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

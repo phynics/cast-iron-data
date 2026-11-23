@@ -32,82 +32,63 @@ abilities = ["30", "19", "18", "-", "13", "3"]
 _This enormous polyp is crowned with bright red-and-blue striped tentacles. A long, thin stinger
 darts from the center._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+blindsight: 60
+Size: gargantuan
+Initiative: +4
+Alignment: Neutral
+Perception: +1
+Subtype: Aquatic
+Type: vermin
+Experience points: 6,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 23
+Touch: 10
+Flat-footed: 19
+AC modifiers: +4 Dex, +13 natural, -4 size
+Hit points: 119 (14d8+56)
+Fort: +13
+Ref: +8
+Will: +5
+Amorph: present
+Immune: gaze attacks, mind-affecting effects, poison, sonic, vision-based attacks
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Constrict: 2d6+10
+Melee: bite +16 (2d8+10 plus [grab](ref/umr/grab)), sting +16 (2d4+10 plus poison), tentacles +11 (2d6+5 plus grab and poison)
+Reach: 20
+Reach P: 40 ft. with sting
+Space: 20
+Spec Att: shriek
+Swallow: 4d6+15 bludgeoning damage, AC 16, 11 hp
+:::
 
-**Perception:** +1
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 30, Dex 19, Con 18, Int -, Wis 13, Cha 3
+Base attack bonus: +10
+Combat maneuver bonus: +24
+Combat maneuver defense: 38 (can't be tripped)
+Special qualities: anchored, sightless (see [coffin anemone](ref/monster/coffin-anemone))
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +13 natural, -4 size
-
-**Hit points:** 119 (14d8+56)
-
-**Fort:** +13
-
-**Ref:** +8
-
-**Will:** +5
-
-**Amorph:** present
-
-**Immune:** gaze attacks, mind-affecting effects, poison, sonic, vision-based attacks
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Constrict:** 2d6+10
-
-**Melee:** bite +16 (2d8+10 plus [grab](ref/umr/grab)), sting +16 (2d4+10 plus poison), tentacles
-+11 (2d6+5 plus grab and poison)
-
-**Reach:** 20
-
-**Reach P:** 40 ft. with sting
-
-**Space:** 20
-
-**Spec Att:** shriek
-
-**Swallow:** 4d6+15 bludgeoning damage, AC 16, 11 hp
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 19, Con 18, Int -, Wis 13, Cha 3
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 38 (can't be tripped)
-
-**Special qualities:** anchored, sightless (see [coffin anemone](ref/monster/coffin-anemone))
-
-**Ecology**
-
-**Environment:** warm coastlines or oceans
-
-**Organization:** solitary, pair, or choir (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm coastlines or oceans
+Organization: solitary, pair, or choir (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

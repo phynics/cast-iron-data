@@ -31,102 +31,75 @@ abilities = ["21", "14", "-", "12", "14", "17"]
 
 _This mob of undead is draped in soggy seaweed._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: [stench](ref/umr/stench) (DC 18, 10 rounds)
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Troop
+Type: undead
+Experience points: 6,400
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 18, 10 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 20
+AC modifiers: +4 armor, +2 Dex, +1 dodge, +6 natural
+Hit points: 93 (11d8+44)
+Fort: +6
+Ref: +7
+Will: +9
+Defensive abilities: troop traits
+Dr: 5/bludgeoning or slashing
+Evasion: present
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: fire 10
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: troop (3d6+5 plus nausea)
+Ranged: vomiting deluge (2d8, DC 17)
+Reach: 5
+Sneak: +2d6
+Space: 20
+Spec Att: opportunist mauler, sodden field
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Per day: 3/day: obscuring mist
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Troop
+::: statblock
+Ability scores: Str 21, Dex 14, Con -, Int 12, Wis 14, Cha 17
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes, Toughness
+Skills: Climb +19
+Languages: Common (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 armor, +2 Dex, +1 dodge, +6 natural
-
-**Hit points:** 93 (11d8+44)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +9
-
-**Defensive abilities:** troop traits
-
-**Dr:** 5/bludgeoning or slashing
-
-**Evasion:** present
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** troop (3d6+5 plus nausea)
-
-**Ranged:** vomiting deluge (2d8, DC 17)
-
-**Reach:** 5
-
-**Sneak:** +2d6
-
-**Space:** 20
-
-**Spec Att:** opportunist mauler, sodden field
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: obscuring mist
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 14, Con -, Int 12, Wis 14, Cha 17
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Improved Lightning Reflexes, Lightning
-Reflexes, Toughness
-
-**Skills:** Climb +19
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any coastal
-
-**Organization:** solitary, horde (2-4), or uprising (5-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: any coastal
+Organization: solitary, horde (2-4), or uprising (5-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

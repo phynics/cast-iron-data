@@ -30,92 +30,69 @@ abilities = ["16", "22", "18", "21", "13", "17"]
 _A white porcelain mask and elegant white clothing provide form and contrast to this shadowy woman's
 body._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 10
+AC modifiers: +6 Dex
+Hit points: 38 (4d10+16)
+Fort: +8
+Ref: +7
+Will: +7
+Amorph: present
+Defensive abilities: _[blur](ref/spell/blur)_
+Immune: cold
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: mwk falchion +8 (2d4+4/18-20 plus 1d6 cold) or touch +7 (1d6 cold)
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +7
+Constant: blur
+At will: lesser shadow evocation (DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 16, Dex 22, Con 18, Int 21, Wis 13, Cha 17
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 23
+Feats: Combat Expertise, Iron Will
+Skills: Acrobatics +13, Bluff +10, Diplomacy +10, Disguise +10, Sense Motive +8, Stealth +13 (+23 in regions of low light or darkness), Use Magic Device +10
+Racial Modifiers: +10 Stealth in regions of low light or darkness
+Languages: Aklo, Common, Shae
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 10
-
-**AC modifiers:** +6 Dex
-
-**Hit points:** 38 (4d10+16)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +7
-
-**Amorph:** present
-
-**Defensive abilities:** _[blur](ref/spell/blur)_
-
-**Immune:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk falchion +8 (2d4+4/18-20 plus 1d6 cold) or touch +7 (1d6 cold)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +7
-
-**Constant:**
-
-- blur
-
-**At will:**
-
-- lesser shadow evocation (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 22, Con 18, Int 21, Wis 13, Cha 17
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 23
-
-**Feats:** Combat Expertise, Iron Will
-
-**Skills:** Acrobatics +13, Bluff +10, Diplomacy +10, Disguise +10, Sense Motive +8, Stealth +13
-(+23 in regions of low light or darkness), Use Magic Device +10
-
-**Racial Modifiers:** +10 Stealth in regions of low light or darkness
-
-**Languages:** Aklo, Common, Shae
-
-**Ecology**
-
-**Environment:** any ([Shadow Plane](ref/rule/shadow-plane))
-
-**Organization:** solitary, pair, or ascendance (3-12)
-
-**Treasure:** Standard (mwk falchion); other treasure
+::: statblock
+Environment: any ([Shadow Plane](ref/rule/shadow-plane))
+Organization: solitary, pair, or ascendance (3-12)
+Treasure: Standard (mwk falchion); other treasure
+:::
 
 ### Special Abilities
 

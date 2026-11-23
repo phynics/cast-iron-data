@@ -29,71 +29,58 @@ abilities = ["11", "10", "13", "-", "10", "2"]
 _This man-sized, bulky scorpion has thick, unyielding armor that makes it almost seem to be made of
 stone._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 12
+Touch: 10
+Flat-footed: 12
+AC modifiers: +2 natural
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +1
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 60 ft., climb 40 ft.
+Melee: 2 claws +2 (1d4), sting +2 (1d4 plus poison)
+Rend: 2 claws, 2d4
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 11, Dex 10, Con 13, Int -, Wis 10, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 12 (24 vs. trip)
+Skills: Climb +8, Perception +4, Stealth +0 (+12 in caves)
+Racial Modifiers: +4 Perception, +12 Stealth in caves
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 10
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 natural
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 60 ft., climb 40 ft.
-
-**Melee:** 2 claws +2 (1d4), sting +2 (1d4 plus poison)
-
-**Rend:** 2 claws, 2d4
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 10, Con 13, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 12 (24 vs. trip)
-
-**Skills:** Climb +8, Perception +4, Stealth +0 (+12 in caves)
-
-**Racial Modifiers:** +4 Perception, +12 Stealth in caves
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or swarm (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or swarm (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

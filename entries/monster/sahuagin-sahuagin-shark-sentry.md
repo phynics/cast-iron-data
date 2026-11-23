@@ -33,67 +33,51 @@ abilities = ["20", "14", "17", "12", "13", "12"]
 _This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its
 piscine head features a toothy maw._
 
-**Challenge rating:** 6
-
 **Sahuagin [ranger](ref/class/ranger) 4**
 
-**blindsense:** 30
+::: statblock
+Challenge rating: 6
+blindsense: 30
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 23
+Touch: 12
+Flat-footed: 21
+AC modifiers: +4 armor, +2 Dex, +7 natural
+Hit points: 61 (6d10+28)
+Fort: +8
+Ref: +10
+Will: +6
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Fav En: elves +2
+Melee: 2 +1 claws +12 (1d6+6), +1 bite +12 (1d4+6)
+Ranged: mwk underwater heavy crossbow +9 (1d10/19-20)
+Spec Att: [blood frenzy](ref/monster/sahuagin), combat style (natural weapon)
+:::
 
-**Perception:** +10
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Aquatic
-
-**Experience points:** 2,400
-
-**Armor class:** 23
-
-**Touch:** 12
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 armor, +2 Dex, +7 natural
-
-**Hit points:** 61 (6d10+28)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +6
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Fav En:** elves +2
-
-**Melee:** 2 +1 claws +12 (1d6+6), +1 bite +12 (1d4+6)
-
-**Ranged:** mwk underwater heavy crossbow +9 (1d10/19-20)
-
-**Spec Att:** [blood frenzy](ref/monster/sahuagin), combat style (natural weapon)
-
-**Prepared Spells**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**1st-level spells:**
-
-- hunter's howl (DC 12)
+::: statblock
+title = "Prepared Spells"
+Caster level: 1
+Concentration: +2
+1st-level spells: hunter's howl (DC 12)
+:::
 
 ### Tactics
 
@@ -103,34 +87,26 @@ barkskin for itself and an ally.
 **Base Statistics** Without greater magic fang and barkskin, the shark sentry's statistics are AC
 21, touch 12, flat-footed 19; Melee 2 claws +11 (1d6+5), bite +11 (1d4+5).
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 14, Con 17, Int 12, Wis 13, Cha 12
+::: statblock
+Ability scores: Str 20, Dex 14, Con 17, Int 12, Wis 13, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 23
+Feats: Aquatic Advantage, Combat Reflexes, Endurance, Improved Natural Attack (claw), Toughness
+Skills: Climb +9
+Languages: Aquan, Common; speak with sharks
+Special qualities: [favored terrain](ref/ability/favored-terrain) (water +2), hunter's bond (companions), track +2, [wild empathy](ref/ability/wild-empathy) +5
+Combat gear: potion of cure moderate wounds, potion of greater magic fang, 2 scroll of barkskin, 4 +1 BANE-elf bolts
+Other gear: +1 studded leather armor, mwk uhc20, Iclk1, bronze-and-agate pendant worth 50 gp, 9 gp
+:::
 
-**Base attack bonus:** +6
+### Ecology
 
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 23
-
-**Feats:** Aquatic Advantage, Combat Reflexes, Endurance, Improved Natural Attack (claw), Toughness
-
-**Skills:** Climb +9
-
-**Languages:** Aquan, Common; speak with sharks
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (water +2), hunter's bond
-(companions), track +2, [wild empathy](ref/ability/wild-empathy) +5
-
-**Combat gear:** potion of cure moderate wounds, potion of greater magic fang, 2 scroll of barkskin,
-4 +1 BANE-elf bolts
-
-**Other gear:** +1 studded leather armor, mwk uhc20, Iclk1, bronze-and-agate pendant worth 50 gp, 9
-gp
-
-**Ecology**
-
-**Environment:** temperate or warm ocean
+::: statblock
+Environment: temperate or warm ocean
+:::
 
 ### Description
 

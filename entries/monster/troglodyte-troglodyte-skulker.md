@@ -32,85 +32,64 @@ abilities = ["16", "13", "16", "8", "13", "9"]
 _This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long
 tail and crests on its head and back._
 
-**Challenge rating:** 2
-
 **Troglodyte [rogue](ref/class/rogue) 2**
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 14, 10 rounds)
+::: statblock
+Challenge rating: 2
+aura: [stench](ref/umr/stench) (30 ft., DC 14, 10 rounds)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +5
+Size: medium
+Perception: +8
+Senses: Darkvision 90 ft.
+Subtype: Reptilian
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 30 (4d8+12)
+Fort: +6
+Ref: +4
+Will: +1
+Evasion: present
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: mwk club +6 (1d6+3), bite +0 (1d4+1), claw +0 (1d4+1) or bite +5 (1d4+3), 2 claws +5 (1d4+3)
+Ranged: javelin +3 (1d6+3)
+Sneak: +1d6
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 90 ft.
+::: statblock
+Ability scores: Str 16, Dex 13, Con 16, Int 8, Wis 13, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 16
+Feats: Improved Initiative, Point-Blank Shot
+Skills: Acrobatics +8, Climb +7, Disable Device +2, Escape Artist +8, Knowledge (dungeoneering) +3, Perception +8, Stealth +12 (+16 in rocky areas)
+Languages: Draconic
+Special qualities: rogue talents ([fast stealth](ref/talent/fast-stealth)), [trapfinding](ref/ability/trapfinding) +1
+Combat gear: potion of cure moderate wounds, 2 sss
+Other gear: 4 javelins, mwk club, [sack](ref/eq-misc/sack) of uncut gems (worth 120 gp in total), 16 gp
+:::
 
-**Subtype:** Reptilian
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +1
-
-**Evasion:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk club +6 (1d6+3), bite +0 (1d4+1), claw +0 (1d4+1) or bite +5 (1d4+3), 2 claws +5
-(1d4+3)
-
-**Ranged:** javelin +3 (1d6+3)
-
-**Sneak:** +1d6
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 16, Int 8, Wis 13, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16
-
-**Feats:** Improved Initiative, Point-Blank Shot
-
-**Skills:** Acrobatics +8, Climb +7, Disable Device +2, Escape Artist +8, Knowledge (dungeoneering)
-+3, Perception +8, Stealth +12 (+16 in rocky areas)
-
-**Languages:** Draconic
-
-**Special qualities:** rogue talents ([fast stealth](ref/talent/fast-stealth)),
-[trapfinding](ref/ability/trapfinding) +1
-
-**Combat gear:** potion of cure moderate wounds, 2 sss
-
-**Other gear:** 4 javelins, mwk club, [sack](ref/eq-misc/sack) of uncut gems (worth 120 gp in
-total), 16 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

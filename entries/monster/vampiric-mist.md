@@ -30,79 +30,62 @@ abilities = ["-", "19", "16", "7", "13", "10"]
 
 _A cloud of crimson vapor reeking of fresh blood hangs in the air, reaching out with lashing claws._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft., Sense blood
+Subtype: Air, Water
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 10
+AC modifiers: +4 Dex
+Hit points: 30 (4d8+12)
+Fort: +4
+Ref: +5
+Will: +5
+Amorph: present
+Dr: 5/magic
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: fly 50 ft. (perfect)
+Bleed: 1d6
+Melee: touch +7 (bleed and blood siphon)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Sense blood
+::: statblock
+Ability scores: Str -, Dex 19, Con 16, Int 7, Wis 13, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Improved Initiative, Weapon Finesse
+Skills: Fly +12, Perception +8, Stealth +11
+Languages: Aklo
+Special qualities: blood overdose, misty form
+:::
 
-**Subtype:** Air, Water
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 10
-
-**AC modifiers:** +4 Dex
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +5
-
-**Amorph:** present
-
-**Dr:** 5/magic
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** fly 50 ft. (perfect)
-
-**Bleed:** 1d6
-
-**Melee:** touch +7 (bleed and blood siphon)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 19, Con 16, Int 7, Wis 13, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Fly +12, Perception +8, Stealth +11
-
-**Languages:** Aklo
-
-**Special qualities:** blood overdose, misty form
-
-**Ecology**
-
-**Environment:** temperate or warm swamps or underground
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm swamps or underground
+Organization: solitary, pair, or gang (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

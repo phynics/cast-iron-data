@@ -30,80 +30,62 @@ abilities = ["24", "11", "18", "1", "12", "9"]
 _This massive warthog is outfitted with all manner of steel armor and unnatural augmentations,
 including a pair of razor-sharp metal tusks._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 19
+Touch: 8
+Flat-footed: 19
+AC modifiers: +5 armor, +6 natural, -2 size
+Hit points: 94 (9d10+45)
+Fort: +10
+Ref: +6
+Will: +6
+Dr: 2/-
+Ferocity: present
+Resist: fire 15
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: gore +14 (2d6+7 plus 1d6 fire), 2 hooves +9 (1d8+3)
+Reach: 10
+Space: 15
+Spec Att: steam cloud
+Trample: 1d8+10, DC 21
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 24, Dex 11, Con 18, Int 1, Wis 12, Cha 9
+Base attack bonus: +9
+Combat maneuver bonus: +18
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Cleave, Improved Initiative, Iron Will, Power Attack, Toughness
+Skills: Climb +10, Perception +10
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 8
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 armor, +6 natural, -2 size
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +6
-
-**Dr:** 2/-
-
-**Ferocity:** present
-
-**Resist:** fire 15
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** gore +14 (2d6+7 plus 1d6 fire), 2 hooves +9 (1d8+3)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** steam cloud
-
-**Trample:** 1d8+10, DC 21
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 11, Con 18, Int 1, Wis 12, Cha 9
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Cleave, Improved Initiative, Iron Will, Power Attack, Toughness
-
-**Skills:** Climb +10, Perception +10
-
-**Ecology**
-
-**Environment:** warm mountains
-
-**Organization:** solitary, cavalry (2-4 plus 2-4 [fire giants](ref/monster/giant-fire-fire-giant)),
-or stampede (5-8 plus 3-8 fire giants)
-
-**Treasure:** Standard (H MA scale mail barding); other treasure
+::: statblock
+Environment: warm mountains
+Organization: solitary, cavalry (2-4 plus 2-4 [fire giants](ref/monster/giant-fire-fire-giant)), or stampede (5-8 plus 3-8 fire giants)
+Treasure: Standard (H MA scale mail barding); other treasure
+:::
 
 ### Special Abilities
 

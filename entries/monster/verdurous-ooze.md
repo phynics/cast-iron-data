@@ -31,78 +31,61 @@ _A pool of greenish muck, blossoming with weird vegetable-like growths and sap-s
 twitches into unnatural motion as a pseudopod springs outward, dragging the entire grotesque mass
 forward with an ameboid life._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: enliven (15 ft., DC 20), sleep aura (30 ft., DC 20)
+blindsight: 60
+Initiative: -5
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: -5
+tremorsense: 60
+Experience points: 2,400
+:::
 
-**aura:** enliven (15 ft., DC 20), sleep aura (30 ft., DC 20)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 5
+Touch: 5
+Flat-footed: 5
+AC modifiers: -5 Dex
+Hit points: 85 (9d8+54)
+Fort: +9
+Ref: -2
+Will: -2
+Defensive abilities: split
+Immune: acid, fire, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), slashing and piercing damage
+:::
 
-**Initiative:** -5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+Constrict: 1d6+4 plus 1d6 acid
+Melee: slam +9 (1d6+4 plus 1d6 acid and [grab](ref/umr/grab))
+Spec Att: acid, enliven
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str 16, Dex 1, Con 22, Int -, Wis 1, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 14 (can't be tripped)
+Skills: Stealth -4 (+16 in forests and plains areas)
+Racial Modifiers: +0 Stealth (+20 in forest and plains environs)
+:::
 
-**Perception:** -5
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 2,400
-
-**Armor class:** 5
-
-**Touch:** 5
-
-**Flat-footed:** 5
-
-**AC modifiers:** -5 Dex
-
-**Hit points:** 85 (9d8+54)
-
-**Fort:** +9
-
-**Ref:** -2
-
-**Will:** -2
-
-**Defensive abilities:** split
-
-**Immune:** acid, fire, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), slashing and
-piercing damage
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Constrict:** 1d6+4 plus 1d6 acid
-
-**Melee:** slam +9 (1d6+4 plus 1d6 acid and [grab](ref/umr/grab))
-
-**Spec Att:** acid, enliven
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 1, Con 22, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Skills:** Stealth -4 (+16 in forests and plains areas)
-
-**Racial Modifiers:** +0 Stealth (+20 in forest and plains environs)
-
-**Ecology**
-
-**Environment:** temperate forest or plains
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate forest or plains
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

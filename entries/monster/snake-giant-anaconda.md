@@ -28,72 +28,58 @@ abilities = ["36", "14", "23", "1", "13", "2"]
 _An enormous coil of muscle and scales, this giant snake flicks its arm-length tongue in the air as
 it scans the area for prey._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: animal
+Size: gargantuan
+Initiative: +6
+Alignment: Neutral
+Perception: +22
+Senses: Low-light vision, Scent
+Experience points: 9,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 25
+Touch: 9
+Flat-footed: 22
+AC modifiers: +2 Dex, +1 dodge, +16 natural, -4 size
+Hit points: 126 (12d8+72)
+Fort: +14
+Ref: +10
+Will: +5
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Constrict: 4d6+19
+Melee: bite +19 (4d6+19/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 36, Dex 14, Con 23, Int 1, Wis 13, Cha 2
+Base attack bonus: +9
+Combat maneuver bonus: +26 (+30 grapple)
+Combat maneuver defense: 39 (can't be tripped)
+Feats: Dodge, Improved Critical (bite), Improved Initiative, Power Attack, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Climb +21
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 9
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +1 dodge, +16 natural, -4 size
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Constrict:** 4d6+19
-
-**Melee:** bite +19 (4d6+19/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 14, Con 23, Int 1, Wis 13, Cha 2
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +26 (+30 grapple)
-
-**Combat maneuver defense:** 39 (can't be tripped)
-
-**Feats:** Dodge, Improved Critical (bite), Improved Initiative, Power Attack, Skill Focus
-(Perception), Weapon Focus (bite)
-
-**Skills:** Climb +21
-
-**Ecology**
-
-**Environment:** warm swamps
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm swamps
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

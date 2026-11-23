@@ -32,81 +32,65 @@ abilities = ["16", "18", "15", "9", "13", "10"]
 
 _This bat-like humanoid has a lean, muscular body covered with fur and two large, leathery wings._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsense: 60
+Initiative: +8
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +14
+Senses: Darkvision 60 ft., Scent
+Experience points: 1,600
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 52 (7d10+14)
+Fort: +4
+Ref: +9
+Will: +6
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., fly 40 ft. (good)
+B Drain: 1 Constitution
+Bleed: 1d4
+Melee: bite +10 (1d6+3 plus bleed), 2 claws +10 (1d6+3 plus [grab](ref/umr/grab))
+Pow Ch: claw, 2d6+6
+Spec Att: dust cloud, fell shriek
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +14
-
-**Senses:** Darkvision 60 ft., Scent
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 52 (7d10+14)
-
-**Fort:** +4
-
-**Ref:** +9
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (good)
-
-**B Drain:** 1 Constitution
-
-**Bleed:** 1d4
-
-**Melee:** bite +10 (1d6+3 plus bleed), 2 claws +10 (1d6+3 plus [grab](ref/umr/grab))
-
-**Pow Ch:** claw, 2d6+6
-
-**Spec Att:** dust cloud, fell shriek
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 18, Con 15, Int 9, Wis 13, Cha 10
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 24
-
-**Feats:** Flyby Attack, Hover^B^, Improved Initiative, Power Attack, Skill Focus (Perception)
-
-**Skills:** Acrobatics +11, Fly +8, Perception +14, Stealth +14
-
-**Languages:** Abyssal
+::: statblock
+Ability scores: Str 16, Dex 18, Con 15, Int 9, Wis 13, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 24
+Feats: Flyby Attack, Hover^B^, Improved Initiative, Power Attack, Skill Focus (Perception)
+Skills: Acrobatics +11, Fly +8, Perception +14, Stealth +14
+Languages: Abyssal
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm forests or underground
-
-**Organization:** solitary, hunting party (2-6), or clan (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests or underground
+Organization: solitary, hunting party (2-6), or clan (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

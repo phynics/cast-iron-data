@@ -34,85 +34,65 @@ abilities = ["15", "3", "14", "-", "11", "2"]
 _This strange-looking creature has a spherical body covered with hundreds or thousands of
 two-foot-long bright purple spines that darken to ominous black tips._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: -4
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: All-around vision, Low-light vision, Scent
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** -4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 12
+Touch: 6
+Flat-footed: 12
+AC modifiers: -4 Dex, +6 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: -4
+Will: +0
+Defensive abilities: stability
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 15 ft.
+Melee: tongue +3 (1d3+3 plus pull)
+Pull: tongue, 5 feet
+Reach: 5
+Reach P: 20 ft. with tongue
+Space: 5
+Spec Att: spines (+3, 1d4+2 plus poison)
+:::
 
-**Senses:** All-around vision, Low-light vision, Scent
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 15, Dex 3, Con 14, Int -, Wis 11, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 9 (17 vs. bull rush or trip)
+Skills: Perception +4
+Racial Modifiers: +4 Perception
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 6
-
-**Flat-footed:** 12
-
-**AC modifiers:** -4 Dex, +6 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** -4
-
-**Will:** +0
-
-**Defensive abilities:** stability
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 15 ft.
-
-**Melee:** tongue +3 (1d3+3 plus pull)
-
-**Pull:** tongue, 5 feet
-
-**Reach:** 5
-
-**Reach P:** 20 ft. with tongue
-
-**Space:** 5
-
-**Spec Att:** spines (+3, 1d4+2 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 3, Con 14, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 9 (17 vs. bull rush or trip)
-
-**Skills:** Perception +4
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate or warm ocean or coastline
-
-**Organization:** solitary, pair, or cluster (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm ocean or coastline
+Organization: solitary, pair, or cluster (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

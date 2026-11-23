@@ -30,71 +30,58 @@ abilities = ["21", "11", "16", "2", "13", "6"]
 _Two long tusks jut from the mouth of this bulky, bewhiskered creature. It walks clumsily on
 flippers instead of feet._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +4
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: bite +8 (1d8+7)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 11, Con 16, Int 2, Wis 13, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 19 (can't be tripped)
+Feats: Endurance, Weapon Focus (bite)
+Skills: Perception +7, Swim +17
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** bite +8 (1d8+7)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 11, Con 16, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Feats:** Endurance, Weapon Focus (bite)
-
-**Skills:** Perception +7, Swim +17
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** cold oceans
-
-**Organization:** solitary, pair, or herd (3-24)
-
-**Treasure:** None
+::: statblock
+Environment: cold oceans
+Organization: solitary, pair, or herd (3-24)
+Treasure: None
+:::
 
 ### Description
 

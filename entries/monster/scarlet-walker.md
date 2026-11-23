@@ -32,112 +32,78 @@ abilities = ["24", "29", "21", "14", "20", "21"]
 _This crimson horror walks upon six long, thin legs. Its face is neither that of a skull nor spider,
 but some horrid mix of the two._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: huge
+Initiative: +9
+Alignment: Lawful evil
+Type: outsider
+Perception: +24
+Senses: Bloodsense, Darkvision 60 ft., Detect thoughts
+Subtype: Evil, Extraplanar, Lawful
+Experience points: 19,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 28
+Touch: 18
+Flat-footed: 18
+AC modifiers: +9 Dex, +1 dodge, +10 natural, -2 size
+Hit points: 168 (16d10+80)
+Fort: +10
+Ref: +19
+Will: +15
+Evasion: present
+Fh: 10
+Immune: acid, cold, poison
+Sr: 23
+Vulner: electricity
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Bleed: 1d6
+Melee: 2 claws +23 (2d6+7/19-20 plus bleed), tentacles +18 (4d6+3 plus bleed and paralysis)
+Paralysis: 1d4 rounds, DC 23
+Reach: 30
+Space: 15
+Spec Att: blood-draining gaze
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+Constant: air walk, detect thoughts
+At will: sending
+Per day: 3/day: confusion (DC 19), demand (DC 23), quickened lesser confusion (DC 16)\
+1/day: feeblemind (DC 20), insanity (DC 22), true seeing
+:::
 
-**Senses:** Bloodsense, Darkvision 60 ft., Detect thoughts
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 24, Dex 29, Con 21, Int 14, Wis 20, Cha 21
+Base attack bonus: +16
+Combat maneuver bonus: +25
+Combat maneuver defense: 45 (53 vs. trip)
+Feats: Combat Reflexes, Dodge, Improved Critical (claws), Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (lesser confusion), Spring Attack, Weapon Finesse
+Skills: Acrobatics +28 (+32 when jumping), Climb +15, Intimidate +24, Knowledge (arcana, nature) +21, Perception +24, Sense Motive +24, Stealth +20
+Languages: Aklo, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [compression](ref/umr/compression), [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 18
-
-**Flat-footed:** 18
-
-**AC modifiers:** +9 Dex, +1 dodge, +10 natural, -2 size
-
-**Hit points:** 168 (16d10+80)
-
-**Fort:** +10
-
-**Ref:** +19
-
-**Will:** +15
-
-**Evasion:** present
-
-**Fh:** 10
-
-**Immune:** acid, cold, poison
-
-**Sr:** 23
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Bleed:** 1d6
-
-**Melee:** 2 claws +23 (2d6+7/19-20 plus bleed), tentacles +18 (4d6+3 plus bleed and paralysis)
-
-**Paralysis:** 1d4 rounds, DC 23
-
-**Reach:** 30
-
-**Space:** 15
-
-**Spec Att:** blood-draining gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**Constant:**
-
-- air walk, detect thoughts
-
-**At will:**
-
-- sending
-
-**Per day:**
-
-- 3/day: confusion (DC 19), demand (DC 23), quickened lesser confusion (DC 16)
-- 1/day: feeblemind (DC 20), insanity (DC 22), true seeing
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 29, Con 21, Int 14, Wis 20, Cha 21
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 45 (53 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (claws), Mobility, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (lesser confusion), Spring Attack, Weapon Finesse
-
-**Skills:** Acrobatics +28 (+32 when jumping), Climb +15, Intimidate +24, Knowledge (arcana, nature)
-+21, Perception +24, Sense Motive +24, Stealth +20
-
-**Languages:** Aklo, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [compression](ref/umr/compression), [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or crowd (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or crowd (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

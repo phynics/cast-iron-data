@@ -30,72 +30,58 @@ abilities = ["31", "9", "22", "2", "15", "6"]
 _Thick folds of skin protect this massive sea mammal like fleshy armor. Tusks as tall as humans jut
 from its whiskered face._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: animal
+Size: gargantuan
+Initiative: -1
+Alignment: Neutral
+Perception: +16
+Senses: Low-light vision
+Experience points: 4,800
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 20
+Touch: 5
+Flat-footed: 20
+AC modifiers: -1 Dex, +15 natural, -4 size
+Hit points: 126 (12d8+72)
+Fort: +14
+Ref: +7
+Will: +8
+:::
 
-**Initiative:** -1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Melee: bite +16 (4d6+15/19-20) or slam +15 (2d6+15 plus [trip](ref/umr/trip))
+Reach: 15
+Space: 20
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 9, Con 22, Int 2, Wis 15, Cha 6
+Base attack bonus: +9
+Combat maneuver bonus: +23
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Diehard, Endurance, Improved Critical (bite), Iron Will, Vital Strike, Weapon Focus (bite)
+Skills: Perception +16, Swim +22
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 5
-
-**Flat-footed:** 20
-
-**AC modifiers:** -1 Dex, +15 natural, -4 size
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +14
-
-**Ref:** +7
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Melee:** bite +16 (4d6+15/19-20) or slam +15 (2d6+15 plus [trip](ref/umr/trip))
-
-**Reach:** 15
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 9, Con 22, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Diehard, Endurance, Improved Critical (bite), Iron Will, Vital Strike, Weapon Focus
-(bite)
-
-**Skills:** Perception +16, Swim +22
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** cold oceans
-
-**Organization:** solitary, pair, or herd (1-3 and 5-20 walruses)
-
-**Treasure:** None
+::: statblock
+Environment: cold oceans
+Organization: solitary, pair, or herd (1-3 and 5-20 walruses)
+Treasure: None
+:::
 
 ### Description
 

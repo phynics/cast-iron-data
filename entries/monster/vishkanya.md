@@ -33,79 +33,63 @@ abilities = ["13", "17", "14", "8", "10", "12"]
 _This lithe woman wears loose-fitting robes and wields a cruel-looking blade. Her eyes are pure
 white orbs._
 
-**Challenge rating:** 1/2
-
 **Vishkanya [ninja](ref/class/ninja) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Subtype: Vishkanya
+Experience points: 200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex
+Hit points: 11 (1d8+3)
+Fort: +2
+Ref: +5
+Will: +0; +1 vs. poison
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: kukri +1 (1d4+1/18-20 plus poison)
+Ranged: shuriken +3 (1d2+1 plus poison)
+Spec Att: poison (DC 12), [sneak attack](ref/ability/sneak-attack) +1d6
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Vishkanya
+::: statblock
+Ability scores: Str 13, Dex 17, Con 14, Int 8, Wis 10, Cha 12
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Deceitful
+Skills: Acrobatics +7, Bluff +7, Disguise +7, Sense Motive +4, Stealth +9
+Racial Modifiers: +2 Escape Artist, +2 Perception, +2 Stealth
+Languages: Common, Vishkanya
+Special qualities: poison use, toxic
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex
-
-**Hit points:** 11 (1d8+3)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +0; +1 vs. poison
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** kukri +1 (1d4+1/18-20 plus poison)
-
-**Ranged:** shuriken +3 (1d2+1 plus poison)
-
-**Spec Att:** poison (DC 12), [sneak attack](ref/ability/sneak-attack) +1d6
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 14, Int 8, Wis 10, Cha 12
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Deceitful
-
-**Skills:** Acrobatics +7, Bluff +7, Disguise +7, Sense Motive +4, Stealth +9
-
-**Racial Modifiers:** +2 Escape Artist, +2 Perception, +2 Stealth
-
-**Languages:** Common, Vishkanya
-
-**Special qualities:** poison use, toxic
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or squad (3-8)
-
-**Treasure:** NPC gear (kukri)
+::: statblock
+Environment: any
+Organization: solitary, pair, or squad (3-8)
+Treasure: NPC gear (kukri)
+:::
 
 ### Special Abilities
 

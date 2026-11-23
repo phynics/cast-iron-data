@@ -36,92 +36,67 @@ abilities = ["29", "17", "20", "10", "14", "11"]
 _This hulking creature has the lower half of an eight-legged stallion and the upper half of a horned
 frost giant._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Size: huge
+Initiative: +3
+Type: Monstrous humanoid
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Cold
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 26
+Touch: 11
+Flat-footed: 23
+AC modifiers: +4 armor, +3 Dex, +10 natural, +1 shield, -2 size
+Hit points: 147 (14d10+70)
+Fort: +11
+Ref: +12
+Will: +11
+Immune: cold
+Vulner: fire
+:::
 
-**Initiative:** +3
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 50 ft.
+Melee: mwk lance +22/+17/+12 (3d6+13/×3), gore +21 (2d6+9), 2 hooves +16 (1d8+4)
+Ranged: mwk composite longbow +16/+11/+6 (3d6+9/×3)
+Reach: 10
+Reach P: 20 ft. with lance
+Space: 15
+Spec Att: natural jouster, thunderous trample
+Trample: 1d8+13, DC 26
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 29, Dex 17, Con 20, Int 10, Wis 14, Cha 11
+Base attack bonus: +14
+Combat maneuver bonus: +25 (+27 bull rush, +29 overrun)
+Combat maneuver defense: 38 (40 vs. bull rush, 40 vs. overrun, 50 vs. trip)
+Feats: Charge Through, Great Fortitude, Greater Overrun, Improved Bull Rush, Improved Overrun, Intimidating Prowess, Power Attack
+Skills: Acrobatics +12 (+20 when jumping), Climb +12
+Racial Modifiers: +8 Acrobatics when jumping
+Languages: Common, Giant
+Special qualities: skyrunner, [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 26
-
-**Touch:** 11
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 armor, +3 Dex, +10 natural, +1 shield, -2 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +11
-
-**Ref:** +12
-
-**Will:** +11
-
-**Immune:** cold
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** mwk lance +22/+17/+12 (3d6+13/×3), gore +21 (2d6+9), 2 hooves +16 (1d8+4)
-
-**Ranged:** mwk composite longbow +16/+11/+6 (3d6+9/×3)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with lance
-
-**Space:** 15
-
-**Spec Att:** natural jouster, thunderous trample
-
-**Trample:** 1d8+13, DC 26
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 17, Con 20, Int 10, Wis 14, Cha 11
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +25 (+27 bull rush, +29 overrun)
-
-**Combat maneuver defense:** 38 (40 vs. bull rush, 40 vs. overrun, 50 vs. trip)
-
-**Feats:** Charge Through, Great Fortitude, Greater Overrun, Improved Bull Rush, Improved Overrun,
-Intimidating Prowess, Power Attack
-
-**Skills:** Acrobatics +12 (+20 when jumping), Climb +12
-
-**Racial Modifiers:** +8 Acrobatics when jumping
-
-**Languages:** Common, Giant
-
-**Special qualities:** skyrunner, [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** cold hills, mountains, or plains
-
-**Organization:** solitary, pair, war band (3-6), or clan (1-4 svathurim plus 2-12
-[frost giants](ref/monster/giant-frost-frost-giant))
-
-**Treasure:** Standard (mwk chain shirt, mwk light steel shield, mwk cl40, mwk lance); other
-treasure
+::: statblock
+Environment: cold hills, mountains, or plains
+Organization: solitary, pair, war band (3-6), or clan (1-4 svathurim plus 2-12 [frost giants](ref/monster/giant-frost-frost-giant))
+Treasure: Standard (mwk chain shirt, mwk light steel shield, mwk cl40, mwk lance); other treasure
+:::
 
 ### Special Abilities
 

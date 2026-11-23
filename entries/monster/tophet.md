@@ -33,75 +33,60 @@ abilities = ["26", "8", "-", "-", "12", "1"]
 _A distended metal maw filled with blunt, sculpted teeth stretches across the upper portion of this
 rotund iron effigy._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 24
+AC modifiers: -1 Dex, +16 natural, -1 size
+Hit points: 107 (14d10+30)
+Fort: +4
+Ref: +3
+Will: +5
+Dr: 5/adamantine
+Immune: fire, [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: bite +21 (2d6+8 plus [grab](ref/umr/grab)), 2 slams +21 (1d6+8)
+Reach: 5
+Space: 10
+Swallow: no damage \[see below\], AC 18, 40 hp
+Trample: 2d6+12, DC 25
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 8, Con -, Int -, Wis 12, Cha 1
+Base attack bonus: +14
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 32 (36 vs. trip)
+Special qualities: conductive
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 24
-
-**AC modifiers:** -1 Dex, +16 natural, -1 size
-
-**Hit points:** 107 (14d10+30)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +5
-
-**Dr:** 5/adamantine
-
-**Immune:** fire, [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +21 (2d6+8 plus [grab](ref/umr/grab)), 2 slams +21 (1d6+8)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Swallow:** no damage \[see below\], AC 18, 40 hp
-
-**Trample:** 2d6+12, DC 25
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 8, Con -, Int -, Wis 12, Cha 1
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 32 (36 vs. trip)
-
-**Special qualities:** conductive
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or prison (2-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or prison (2-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

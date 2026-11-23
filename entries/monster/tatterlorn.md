@@ -30,77 +30,61 @@ abilities = ["22", "19", "-", "11", "16", "23"]
 _This deathly figure is draped with filthy rags. Its thin, gray arms end in ruinous claws, and its
 movements are weirdly difficult to follow with the eye._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +4
+Size: medium
+Alignment: Neutral evil
+Perception: +14
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 Dex, +1 dodge, +6 natural
+Hit points: 84 (8d8+48)
+Fort: +8
+Ref: +6
+Will: +9
+Chan Res: +2
+Defensive abilities: forsaken
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +12 (1d6+6)
+Spec Att: create spawn, isolate, [sneak attack](ref/ability/sneak-attack) +2d6
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 22, Dex 19, Con -, Int 11, Wis 16, Cha 23
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Combat Reflexes, Dodge, Mobility, Spring Attack
+Skills: Climb +17, Escape Artist +12, Perception +14, Stealth +15 (+23 vs. living observers)
+Racial Modifiers: +8 Stealth vs. living observers
+Languages: Common
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural
-
-**Hit points:** 84 (8d8+48)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +9
-
-**Chan Res:** +2
-
-**Defensive abilities:** forsaken
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +12 (1d6+6)
-
-**Spec Att:** create spawn, isolate, [sneak attack](ref/ability/sneak-attack) +2d6
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con -, Int 11, Wis 16, Cha 23
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Reflexes, Dodge, Mobility, Spring Attack
-
-**Skills:** Climb +17, Escape Artist +12, Perception +14, Stealth +15 (+23 vs. living observers)
-
-**Racial Modifiers:** +8 Stealth vs. living observers
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or gang (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or gang (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

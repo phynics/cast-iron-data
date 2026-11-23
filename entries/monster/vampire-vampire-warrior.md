@@ -30,68 +30,49 @@ special_qualities = "armor training 2, poison use, toxic (4/day)"
 abilities = ["20", "20", "-", "10", "15", "18"]
 +++
 
-**Challenge rating:** 8
-
 **Vishkanya jiang-shi vampire [fighter](ref/class/fighter) 7**
 
-**blindsight:** 60 ft. (breathing creatures only)
+::: statblock
+Challenge rating: 8
+blindsight: 60 ft. (breathing creatures only)
+Initiative: +9
+Alignment: Lawful evil
+Size: medium
+Perception: +21
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Augmented humanoid, Vishkanya
+Type: undead
+Experience points: 4,800
+:::
 
-**Initiative:** +9
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 20
+AC modifiers: +8 armor, +4 Dex, +1 dodge, +2 natural
+Hit points: 78 (7d10+35)
+Fort: +9
+Ref: +7
+Will: +4 (+2 vs. fear); +2 vs. poison
+Chan Res: +4
+Defensive abilities: bravery +2prayer scroll
+Dr: 10/magic and slashing
+Fh: 5
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 20
+Weaknesses: jiang-shi weaknesses
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +21
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Augmented humanoid, Vishkanya
-
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 25
-
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +8 armor, +4 Dex, +1 dodge, +2 natural
-
-**Hit points:** 78 (7d10+35)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +4 (+2 vs. fear); +2 vs. poison
-
-**Chan Res:** +4
-
-**Defensive abilities:** bravery +2prayer scroll
-
-**Dr:** 10/magic and slashing
-
-**Fh:** 5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 20
-
-**Weaknesses:** jiang-shi weaknesses
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk katana +15/+10 (1d8+8/15-20 plus poison) or bite +12 (1d6+5), 2 claws +12
-(1d8+5/19-20 plus [grab](ref/umr/grab))
-
-**Ranged:** shuriken +12/+7 (1d2+5)
-
-**Spec Att:** drain chi (DC 17), poison, weapon training (heavy blades +1)
+::: statblock
+Speed: 20 ft.
+Melee: mwk katana +15/+10 (1d8+8/15-20 plus poison) or bite +12 (1d6+5), 2 claws +12 (1d8+5/19-20 plus [grab](ref/umr/grab))
+Ranged: shuriken +12/+7 (1d2+5)
+Spec Att: drain chi (DC 17), poison, weapon training (heavy blades +1)
+:::
 
 ### Tactics
 
@@ -102,42 +83,31 @@ her racial poison to it.
 enhancement bonus for 3 rounds. Once that expires, or if her katana attacks are ineffective, she
 resorts to natural attacks, grappling, and her drain chi ability.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 20, Con -, Int 10, Wis 15, Cha 18
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 28
-
-**Feats:** Alertness^B^, Cleave, Combat Reflexes, Dodge^B^, Exotic Weapon Proficiency (katana),
-Improved Initiative, Mobility^B^, Power Attack, Quick Draw, Skill Focus^B\|Acrobatics^, Spring
-Attack^B^, Weapon Focus (katana), Weapon Specialization (katana)
-
-**Skills:** Acrobatics +12, Craft (calligraphy) +4, Escape Artist +3, Knowledge (local) +2,
-Perception +21, Sense Motive +4, Stealth +12
-
-**Racial Modifiers:** +8 Acrobatics, +8 Perception, +10 Stealth
-
-**Languages:** Common, Vishkanya
-
-**Special qualities:** armor training 2, [poison use](ref/ability/poison-use), toxic (4/day)
-
-**Combat gear:** oil of keen edge, potion of bull's strength, potion of fly, potion of haste, potion
-of inflict moderate wounds, potion of invisibility
-
-**Other gear:** Ao-yoroi, mwk katana, 20 shuriken, I-brooch of shielding/50 points, I-scabbard of
-vigor, 46 gp
+::: statblock
+Ability scores: Str 20, Dex 20, Con -, Int 10, Wis 15, Cha 18
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 28
+Feats: Alertness^B^, Cleave, Combat Reflexes, Dodge^B^, Exotic Weapon Proficiency (katana), Improved Initiative, Mobility^B^, Power Attack, Quick Draw, Skill Focus^B\|Acrobatics^, Spring Attack^B^, Weapon Focus (katana), Weapon Specialization (katana)
+Skills: Acrobatics +12, Craft (calligraphy) +4, Escape Artist +3, Knowledge (local) +2, Perception +21, Sense Motive +4, Stealth +12
+Racial Modifiers: +8 Acrobatics, +8 Perception, +10 Stealth
+Languages: Common, Vishkanya
+Special qualities: armor training 2, [poison use](ref/ability/poison-use), toxic (4/day)
+Combat gear: oil of keen edge, potion of bull's strength, potion of fly, potion of haste, potion of inflict moderate wounds, potion of invisibility
+Other gear: Ao-yoroi, mwk katana, 20 shuriken, I-brooch of shielding/50 points, I-scabbard of vigor, 46 gp
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
+::: statblock
+Environment: any
+:::
 
 ### Special Abilities
 

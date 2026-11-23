@@ -32,154 +32,91 @@ abilities = ["38", "27", "34", "22", "28", "28"]
 _This four-armed nightmare stands with an elegance that seems out of place, given its demonic
 visage. Huge black wings fan behind its back, and flickering black blades burn in its hands._
 
-**Challenge rating:** 23
-
 **Male vrolikai [inquisitor](ref/class/inquisitor) of [Cyth-V'sug](ref/faith/cyth-vsug) 9**
 
-**Alignment:** Chaotic evil
-
-**Initiative:** +21
-
-**Size:** large
-
-**Type:** outsider
-
-**Perception:** +44
-
-**Senses:** Darkvision 120 ft., Low-light vision, True seeing
-
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
-
-**Experience points:** 819,200
-
-**Armor class:** 42
-
-**Touch:** 13
-
-**Flat-footed:** 38
-
-**AC modifiers:** +10 armor, +3 Dex, +1 dodge, +19 natural, -1 size
-
-**Hit points:** 489 (19d10+9d8+345\~28)
-
-**Fort:** +24
-
-**Ref:** +22
-
-**Will:** +26
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/cold iron and good
-
-**Immune:** death effects, electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** +1 black flame knife +39/+34/+29/+24 (1d6+15/17-20 plus energy drain), 3 +1 black flame
-knives +39 (1d6+8 plus energy drain), bite +36 (1d8+7), sting +36 (1d6+7 plus madness)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bane (9 rounds/day), black flame knives, death-stealing gaze (DC 28), madness (DC 28),
-multiweapon mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +28
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- deeper darkness, enervation, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC
-  24)
-
-**Per day:**
-
-- 3/day: quickened enervation, regenerate, silence (DC 21), vampiric touch
-- 1/day: mass hold monster (DC 28), summon (level 6, 1 marilith 50% or 1d4 glabrezus 75%), symbol of
-  death (DC 27)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +18
-
-**At will:**
-
-- detect alignment
-
-**Other:**
-
-- 9 rounds/day: discern lies
-
-**Spells Known**
-
-**Caster level:** 9
-
-**Concentration:** +18
-
-**3rd-level spells:**
-
-- 5/day: cure serious wounds, dimensional anchor, seek thoughts (DC 22), speak with dead (DC 22)
-
-**2nd-level spells:**
-
-- 6/day: barkskin, death knell (DC 21), detect thoughts (DC 21), spiritual weapon
-
-**1st-level spells:**
-
-- 8/day: command (DC 20), cure light wounds, divine favor, protection from good, shield of faith
-
-**Cantrips:**
-
-- At will: acid splash, brand (DC 19), bleed (DC 19), detect magic, disrupt undead, read magic
-
-**Domain:** [Decay](ref/domain/plant)
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 27, Con 34, Int 22, Wis 28, Cha 28
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +40
-
-**Combat maneuver defense:** 59
-
-**Feats:** Combat Expertise, Critical Focus, Dodge, Flyby Attack, Greater Vital Strike, Improved
-Critical (black flame knife), Improved Initiative, Improved Vital Strike, Mobility, Multiattack,
-Outflank, Power Attack, Precise Strike, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(enervation), Staggering Critical, Swap Places, Vital Strike
-
-**Skills:** Acrobatics +36, Fly +42, Intimidate +44, Knowledge (dungeoneering, planes) +37,
-Linguistics +10, Perception +44, Sense Motive +44, Spellcraft +37, Stealth +37 (+45 in shadowy
-areas), Use Magic Device +37
-
-**Racial Modifiers:** +8 Perception, +8 Stealth in shadowy areas
-
-**Languages:** Abyssal, Aklo, Celestial, Draconic, Druidic, Sylvan; [telepathy](ref/umr/telepathy)
-100 ft.
-
-**Special qualities:** cunning initiative, judgment (2, 3/day), monster lore +9, solo tactics, stern
-gaze, track +4
-
-**Gear:** +4 GA shadow undead-controlling breastplate, Ibogs6, ring of ring of elemental
-command/earth, ring of fom
+::: statblock
+Challenge rating: 23
+Alignment: Chaotic evil
+Initiative: +21
+Size: large
+Type: outsider
+Perception: +44
+Senses: Darkvision 120 ft., Low-light vision, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 819,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 42
+Touch: 13
+Flat-footed: 38
+AC modifiers: +10 armor, +3 Dex, +1 dodge, +19 natural, -1 size
+Hit points: 489 (19d10+9d8+345\~28)
+Fort: +24
+Ref: +22
+Will: +26
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/cold iron and good
+Immune: death effects, electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 30
+:::
+
+### Offense
+
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: +1 black flame knife +39/+34/+29/+24 (1d6+15/17-20 plus energy drain), 3 +1 black flame knives +39 (1d6+8 plus energy drain), bite +36 (1d8+7), sting +36 (1d6+7 plus madness)
+Reach: 10
+Space: 10
+Spec Att: bane (9 rounds/day), black flame knives, death-stealing gaze (DC 28), madness (DC 28), multiweapon mastery
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +28
+Constant: true seeing
+At will: deeper darkness, enervation, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 24)
+Per day: 3/day: quickened enervation, regenerate, silence (DC 21), vampiric touch\
+1/day: mass hold monster (DC 28), summon (level 6, 1 marilith 50% or 1d4 glabrezus 75%), symbol of death (DC 27)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +18
+At will: detect alignment
+Other: 9 rounds/day: discern lies
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 9
+Concentration: +18
+3rd-level spells: 5/day: cure serious wounds, dimensional anchor, seek thoughts (DC 22), speak with dead (DC 22)
+2nd-level spells: 6/day: barkskin, death knell (DC 21), detect thoughts (DC 21), spiritual weapon
+1st-level spells: 8/day: command (DC 20), cure light wounds, divine favor, protection from good, shield of faith
+Cantrips: At will: acid splash, brand (DC 19), bleed (DC 19), detect magic, disrupt undead, read magic
+Domain: [Decay](ref/domain/plant)
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 38, Dex 27, Con 34, Int 22, Wis 28, Cha 28
+Base attack bonus: +25
+Combat maneuver bonus: +40
+Combat maneuver defense: 59
+Feats: Combat Expertise, Critical Focus, Dodge, Flyby Attack, Greater Vital Strike, Improved Critical (black flame knife), Improved Initiative, Improved Vital Strike, Mobility, Multiattack, Outflank, Power Attack, Precise Strike, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (enervation), Staggering Critical, Swap Places, Vital Strike
+Skills: Acrobatics +36, Fly +42, Intimidate +44, Knowledge (dungeoneering, planes) +37, Linguistics +10, Perception +44, Sense Motive +44, Spellcraft +37, Stealth +37 (+45 in shadowy areas), Use Magic Device +37
+Racial Modifiers: +8 Perception, +8 Stealth in shadowy areas
+Languages: Abyssal, Aklo, Celestial, Draconic, Druidic, Sylvan; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: cunning initiative, judgment (2, 3/day), monster lore +9, solo tactics, stern gaze, track +4
+Gear: +4 GA shadow undead-controlling breastplate, Ibogs6, ring of ring of elemental command/earth, ring of fom
+:::
 
 ### Description
 

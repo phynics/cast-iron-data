@@ -29,67 +29,56 @@ abilities = ["12", "8", "16", "-", "11", "9"]
 _This mushroom grows from a bed of tentacular roots. Deep violet tendrils slither out of the dozens
 of fissures in its pointed cap._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Type: plant
+Experience points: 800
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 15
+AC modifiers: -1 Dex, +6 natural
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +0
+Will: +1
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 10 ft.
+Melee: 4 tentacles +4 (1d4+1 plus rot)
+Reach: 10
+Space: 5
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 12, Dex 8, Con 16, Int -, Wis 11, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 13
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** -1 Dex, +6 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +0
-
-**Will:** +1
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 4 tentacles +4 (1d4+1 plus rot)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 8, Con 16, Int -, Wis 11, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or grove (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or grove (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

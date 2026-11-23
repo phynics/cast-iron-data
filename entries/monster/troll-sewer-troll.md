@@ -31,87 +31,66 @@ abilities = ["13", "14", "15", "6", "9", "6"]
 _This creature looks like a lanky, underfed troll. Its oversized claws drag along the ground, and
 its large eyes glow with inner light._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +6
+Size: medium
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +3
+Will: +0
+Regen: 2 (acid or fire)
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: bite +3 (1d6+1), 2 claws +3 (1d4+1)
+Reach: 5
+Reach P: 10 ft. with claws
+Rend: 2 claws, 1d6+1
+Sneak: +1d6
+Space: 5
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 13, Dex 14, Con 15, Int 6, Wis 9, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Improved Initiative, Stealthy
+Skills: Climb +9, Escape Artist +4, Perception +4, Stealth +5 (+9 underground)
+Racial Modifiers: +8 Climb, +4 Stealth underground
+Languages: Giant
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +0
-
-**Regen:** 2 (acid or fire)
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +3 (1d6+1), 2 claws +3 (1d4+1)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with claws
-
-**Rend:** 2 claws, 1d6+1
-
-**Sneak:** +1d6
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 14, Con 15, Int 6, Wis 9, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative, Stealthy
-
-**Skills:** Climb +9, Escape Artist +4, Perception +4, Stealth +5 (+9 underground)
-
-**Racial Modifiers:** +8 Climb, +4 Stealth underground
-
-**Languages:** Giant
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary or gang (2-5)
+Treasure: Standard
+:::
 
 ### Description
 

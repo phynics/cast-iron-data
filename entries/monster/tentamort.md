@@ -29,73 +29,59 @@ abilities = ["15", "13", "14", "1", "14", "6"]
 _This dark blue creature has a conical body covered in angry red eyes and numerous tentacles, two of
 which are longer than the rest._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+blindsense: 30
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Perception: +11
+Senses: All-around vision, Darkvision 60 ft.
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +5
+Will: +7
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Constrict: 1d6+1
+Melee: sting +6 (1d6+2 plus poison), tentacle +2 (1d6+1 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 5
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 15, Dex 13, Con 14, Int 1, Wis 14, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +6 (+10 grapple)
+Combat maneuver defense: 17 (can't be tripped)
+Feats: Improved Initiative, Lightning Reflexes, Weapon Focus (tentacle)
+Skills: Climb +10, Perception +11
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft.
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Constrict:** 1d6+1
-
-**Melee:** sting +6 (1d6+2 plus poison), tentacle +2 (1d6+1 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 14, Int 1, Wis 14, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6 (+10 grapple)
-
-**Combat maneuver defense:** 17 (can't be tripped)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Weapon Focus (tentacle)
-
-**Skills:** Climb +10, Perception +11
-
-**Ecology**
-
-**Environment:** any marshes or underground
-
-**Organization:** solitary, pair, or brood (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any marshes or underground
+Organization: solitary, pair, or brood (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -30,115 +30,79 @@ abilities = ["42", "30", "26", "13", "25", "17"]
 
 _This towering mass of vegetation balances itself upon several long and misshapen tree trunks._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Alignment: Chaotic neutral
+Size: colossal
+greensight: 60
+Initiative: +14
+Perception: +36
+Senses: Low-light vision
+Type: plant
+tremorsense: 90
+Experience points: 204,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 34
+Touch: 12
+Flat-footed: 24
+AC modifiers: +10 Dex, +22 natural, -8 size
+Hit points: 325 (26d8+208)
+Fort: +23
+Ref: +18
+Will: +17
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/slashing
+Fh: 20
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**greensight:** 60
+### Offense
 
-**Initiative:** +14
+::: statblock
+Speed: 40 ft.
+Constrict: 2d8+16
+Melee: 4 vines +28 (2d8+16/19-20 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 30
+Spec Att: encage
+Trample: 4d6+24, DC 39
+:::
 
-**Perception:** +36
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +20
+Constant: freedom of movement
+At will: entangle (DC 14), hallucinatory terrain (DC 17)
+Per day: 3/day: quickened entangle (DC 14)\
+1/day: wall of thorns
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 42, Dex 30, Con 26, Int 13, Wis 25, Cha 17
+Base attack bonus: +19
+Combat maneuver bonus: +43 (+45 bull rush, +47 grapple)
+Combat maneuver defense: 63 (65 vs. bull rush, 71 vs. trip)
+Feats: Awesome Blow, Combat Expertise, Critical Focus, Improved Bull Rush, Improved Critical (vine), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (entangle), Staggering Critical, Vital Strike, Weapon Focus (vine)
+Skills: Knowledge (nature) +27, Perception +36, Stealth +23 (+39 in forests)
+Racial Modifiers: +16 Stealth in forests
+Languages: Sylvan (can't speak)
+Special qualities: [freeze](ref/umr/freeze) (as grove of trees)
+:::
 
-**tremorsense:** 90
+### Ecology
 
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 12
-
-**Flat-footed:** 24
-
-**AC modifiers:** +10 Dex, +22 natural, -8 size
-
-**Hit points:** 325 (26d8+208)
-
-**Fort:** +23
-
-**Ref:** +18
-
-**Will:** +17
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/slashing
-
-**Fh:** 20
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Constrict:** 2d8+16
-
-**Melee:** 4 vines +28 (2d8+16/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** encage
-
-**Trample:** 4d6+24, DC 39
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +20
-
-**Constant:**
-
-- freedom of movement
-
-**At will:**
-
-- entangle (DC 14), hallucinatory terrain (DC 17)
-
-**Per day:**
-
-- 3/day: quickened entangle (DC 14)
-- 1/day: wall of thorns
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 30, Con 26, Int 13, Wis 25, Cha 17
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +43 (+45 bull rush, +47 grapple)
-
-**Combat maneuver defense:** 63 (65 vs. bull rush, 71 vs. trip)
-
-**Feats:** Awesome Blow, Combat Expertise, Critical Focus, Improved Bull Rush, Improved Critical
-(vine), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (entangle), Staggering Critical, Vital Strike,
-Weapon Focus (vine)
-
-**Skills:** Knowledge (nature) +27, Perception +36, Stealth +23 (+39 in forests)
-
-**Racial Modifiers:** +16 Stealth in forests
-
-**Languages:** Sylvan (can't speak)
-
-**Special qualities:** [freeze](ref/umr/freeze) (as grove of trees)
-
-**Ecology**
-
-**Environment:** temperate or tropical forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or tropical forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

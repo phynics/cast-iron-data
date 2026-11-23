@@ -31,85 +31,67 @@ abilities = ["10", "17", "12", "-", "13", "5"]
 _This strange, vibrant plant slowly but dangerously whips about its trio of tendrils with spiked
 heads._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: [stench](ref/umr/stench) (DC 12, 1 minute)
+blindsight: 30
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Type: plant
+Experience points: 600
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 12, 1 minute)
+### Defense
 
-**blindsight:** 30
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 natural
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +4
+Will: +2
+Defensive abilities: dig in, poisonous
+Immune: [plant traits](ref/umr/plant-traits)
+Weaknesses: languid whips
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft.
+Melee: 3 tentacles +5 (1d4 plus poison)
+Reach: 15
+Space: 5
+Spec Att: poison
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +1
-
-**Senses:** Low-light vision
-
-**Type:** plant
-
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 natural
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +2
-
-**Defensive abilities:** dig in, poisonous
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Weaknesses:** languid whips
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 3 tentacles +5 (1d4 plus poison)
-
-**Reach:** 15
-
-**Space:** 5
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 12, Int -, Wis 13, Cha 5
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15 (27 vs. trip)
-
-**Feats:** Improved Initiative^B^, Weapon Finesse^B^
-
-**Special qualities:** camouflage
+::: statblock
+Ability scores: Str 10, Dex 17, Con 12, Int -, Wis 13, Cha 5
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 15 (27 vs. trip)
+Feats: Improved Initiative^B^, Weapon Finesse^B^
+Special qualities: camouflage
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate or warm forests
-
-**Organization:** solitary, pair, or patch (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary, pair, or patch (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

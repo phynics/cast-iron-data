@@ -35,102 +35,73 @@ abilities = ["13", "23", "18", "14", "12", "19"]
 _Dressed in tattered finery and an animal for a cloak, this small, gaunt humanoid has unnaturally
 long fingers and nails._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: fey
+Initiative: +10
+Alignment: Neutral evil
+Perception: +15
+Senses: Hear heartbeat, Low-light vision
+Size: small
+Experience points: 3,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 21
+Touch: 18
+Flat-footed: 14
+AC modifiers: +6 Dex, +1 dodge, +3 natural, +1 size
+Hit points: 82 (11d6+44)
+Fort: +7
+Ref: +13
+Will: +8
+Dr: 5/cold iron
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 30 ft.
+Bleed: 1d4
+Blood Rage: present
+Melee: bite +12 (1d4+1 plus 1d4 bleed), 2 claws +12 (1d3+1 plus 1d4 bleed)
+Ranged: dagger +12 (1d3+1/19-20)
+Sneak: +2d6
+Spec Att: curse of misery, horrific critical
+:::
 
-**Senses:** Hear heartbeat, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+Constant: hide from animals, self only, hide from undead, self only, tongues
+At will: detect thoughts (DC 16)
+Per day: 3/day: animal trance (DC 16), invisibility, self only, snare (DC 17)\
+1/day: control weather, dominate animal (DC 17), speak with dead (DC 17)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 13, Dex 23, Con 18, Int 14, Wis 12, Cha 19
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 22
+Feats: Dodge, Improved Initiative, Mobility, Power Attack, Spring Attack, Weapon Finesse
+Skills: Acrobatics +20, Bluff +18, Craft (traps) +10, Diplomacy +10, Disguise +18, Sleight of Hand +11, Stealth +24
+Languages: Aklo, Common, Sylvan; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (Medium or Small land animal or humanoid; [polymorph](ref/spell/polymorph)), sideways glance, sunlight transparency
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 Dex, +1 dodge, +3 natural, +1 size
-
-**Hit points:** 82 (11d6+44)
-
-**Fort:** +7
-
-**Ref:** +13
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d4
-
-**Blood Rage:** present
-
-**Melee:** bite +12 (1d4+1 plus 1d4 bleed), 2 claws +12 (1d3+1 plus 1d4 bleed)
-
-**Ranged:** dagger +12 (1d3+1/19-20)
-
-**Sneak:** +2d6
-
-**Spec Att:** curse of misery, horrific critical
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**Constant:**
-
-- hide from animals, self only, hide from undead, self only, tongues
-
-**At will:**
-
-- detect thoughts (DC 16)
-
-**Per day:**
-
-- 3/day: animal trance (DC 16), invisibility, self only, snare (DC 17)
-- 1/day: control weather, dominate animal (DC 17), speak with dead (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 23, Con 18, Int 14, Wis 12, Cha 19
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 22
-
-**Feats:** Dodge, Improved Initiative, Mobility, Power Attack, Spring Attack, Weapon Finesse
-
-**Skills:** Acrobatics +20, Bluff +18, Craft (traps) +10, Diplomacy +10, Disguise +18, Sleight of
-Hand +11, Stealth +24
-
-**Languages:** Aklo, Common, Sylvan; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium or Small land animal or
-humanoid; [polymorph](ref/spell/polymorph)), sideways glance, sunlight transparency
-
-**Ecology**
-
-**Environment:** any cold or temperate land
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard (dagger)
+::: statblock
+Environment: any cold or temperate land
+Organization: solitary or pair
+Treasure: Standard (dagger)
+:::
 
 ### Special Abilities
 

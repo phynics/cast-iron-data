@@ -30,80 +30,62 @@ abilities = ["30", "11", "22", "-", "17", "13"]
 
 _A droning hum surrounds this gargantuan half-bee, half-woman with insectile wings._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Size: gargantuan
+Initiative: +0
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +3
+Senses: Darkvision 60 ft.
+Experience points: 38,400
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 30
+Touch: 6
+Flat-footed: 30
+AC modifiers: +24 natural, -4 size
+Hit points: 218 (19d10+114)
+Fort: +12
+Ref: +11
+Will: +14
+Immune: mind-affecting effects, poison, sonic
+Resist: acid 20
+Sr: 25
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 50 ft. (good)
+Melee: bite +25 (2d8+10), 2 slams +25 (2d6+10), sting +25 (2d6+10 plus poison)
+Ranged: sticky wax +15 touch (encase)
+Reach: 20
+Space: 20
+Spec Att: encase, merope consumption, poison
+:::
 
-**Perception:** +3
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 30, Dex 11, Con 22, Int -, Wis 17, Cha 13
+Base attack bonus: +19
+Combat maneuver bonus: +33
+Combat maneuver defense: 43
+Skills: Fly +2
+Racial Modifiers: +4 Fly
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 6
-
-**Flat-footed:** 30
-
-**AC modifiers:** +24 natural, -4 size
-
-**Hit points:** 218 (19d10+114)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +14
-
-**Immune:** mind-affecting effects, poison, sonic
-
-**Resist:** acid 20
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (good)
-
-**Melee:** bite +25 (2d8+10), 2 slams +25 (2d6+10), sting +25 (2d6+10 plus poison)
-
-**Ranged:** sticky wax +15 touch (encase)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** encase, merope consumption, poison
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 11, Con 22, Int -, Wis 17, Cha 13
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 43
-
-**Skills:** Fly +2
-
-**Racial Modifiers:** +4 Fly
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or troop (1 plus 6-15
-[thriae soldiers](ref/monster/thriae-thriae-soldier))
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or troop (1 plus 6-15 [thriae soldiers](ref/monster/thriae-thriae-soldier))
+Treasure: None
+:::
 
 ### Special Abilities
 

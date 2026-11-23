@@ -32,106 +32,74 @@ abilities = ["24", "16", "19", "11", "16", "19"]
 _Merging the features of a horse and human, this monstrosity has an equine snout, sharp fangs, and
 long forelimbs with clawed fingers._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +3
+Size: large
+Type: Monstrous humanoid
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 18
+AC modifiers: +3 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +10
+Ref: +11
+Will: +11
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft.
+Melee: bite +18 (2d4+7/19-20), 2 hooves +13 (1d8+10)
+Pounce: present
+Ranged: 4 spines +14 (1d6+8)
+Reach: 10
+Space: 10
+Spec Att: spines
+Trample: 1d8+10, DC 23
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: spider climb
+At will: ventriloquism (DC 15), invisibility
+Per day: 3/day: major image (DC 17)\
+1/day: fly, self only, mirage arcana (DC 19)
+Per week: maze
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 24, Dex 16, Con 19, Int 11, Wis 16, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +20
+Combat maneuver defense: 34
+Feats: Combat Reflexes, Deceitful, Dodge, Great Fortitude, Improved Critical (bite), Power Attack
+Skills: Bluff +20, Disguise +6, Perception +18
+Languages: Common, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), powerful blows (hooves), sound mimicry (sounds and voices)
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +10
-
-**Ref:** +11
-
-**Will:** +11
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +18 (2d4+7/19-20), 2 hooves +13 (1d8+10)
-
-**Pounce:** present
-
-**Ranged:** 4 spines +14 (1d6+8)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** spines
-
-**Trample:** 1d8+10, DC 23
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- spider climb
-
-**At will:**
-
-- ventriloquism (DC 15), invisibility
-
-**Per day:**
-
-- 3/day: major image (DC 17)
-- 1/day: fly, self only, mirage arcana (DC 19)
-
-**Per week:**
-
-- maze
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 16, Con 19, Int 11, Wis 16, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 34
-
-**Feats:** Combat Reflexes, Deceitful, Dodge, Great Fortitude, Improved Critical (bite), Power
-Attack
-
-**Skills:** Bluff +20, Disguise +6, Perception +18
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), powerful blows (hooves), sound mimicry (sounds and voices)
-
-**Ecology**
-
-**Environment:** warm jungles or forests
-
-**Organization:** solitary, pair, or gang (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm jungles or forests
+Organization: solitary, pair, or gang (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

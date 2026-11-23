@@ -29,73 +29,50 @@ special_qualities = "change shape (dire bat or wolf; beast shape II), fast movem
 abilities = ["30", "18", "-", "10", "14", "22"]
 +++
 
-**Challenge rating:** 10
-
 **Half-orc vampire [barbarian](ref/class/barbarian) 9**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +24
+Senses: Darkvision 60 ft.
+Subtype: Augmented humanoid, Human, Orc
+Type: undead
+Experience points: 9,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 14
+Flat-footed: 16
+AC modifiers: +1 deflection, +4 Dex, +1 dodge, +7 natural, -2 rage
+Hit points: 136 (9d12+72)
+Fort: +13
+Ref: +10
+Will: +8
+Chan Res: +4
+Defensive abilities: orc ferocity
+Dr: 10/magic and silver and **DR** 1/-
+Fh: 5
+Immune: [undead traits](ref/umr/undead-traits)
+Improved uncanny dodge: present
+Resist: cold 10, electricity 10
+Trap S: +3
+Weaknesses: vampire weaknesses
+:::
 
-**Perception:** +24
+### Offense
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Augmented humanoid, Human, Orc
-
-**Type:** undead
-
-**Experience points:** 9,600
-
-**Armor class:** 21
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 deflection, +4 Dex, +1 dodge, +7 natural, -2 rage
-
-**Hit points:** 136 (9d12+72)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +8
-
-**Chan Res:** +4
-
-**Defensive abilities:** orc ferocity
-
-**Dr:** 10/magic and silver and **DR** 1/-
-
-**Fh:** 5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Improved uncanny dodge:** present
-
-**Resist:** cold 10, electricity 10
-
-**Trap S:** +3
-
-**Weaknesses:** vampire weaknesses
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**E Drain:** 2 levels, DC 20
-
-**Melee:** +1 greataxe +20/+15 (1d12+16/×3), bite +14 (1d4+5 plus energy drain), slam +15 (1d4+5
-plus energy drain)
-
-**Spec Att:** blood drain, children of the night, create spawn, dominate (DC 20), rage (24
-rounds/day), rage powers ([animal fury](ref/ragepower/animal-fury),
-[bleeding blow](ref/ragepower/bleeding-blow), [no escape](ref/ragepower/no-escape),
-[powerful blow](ref/ragepower/powerful-blow) +3)
+::: statblock
+Speed: 40 ft.
+E Drain: 2 levels, DC 20
+Melee: +1 greataxe +20/+15 (1d12+16/×3), bite +14 (1d4+5 plus energy drain), slam +15 (1d4+5 plus energy drain)
+Spec Att: blood drain, children of the night, create spawn, dominate (DC 20), rage (24 rounds/day), rage powers ([animal fury](ref/ragepower/animal-fury), [bleeding blow](ref/ragepower/bleeding-blow), [no escape](ref/ragepower/no-escape), [powerful blow](ref/ragepower/powerful-blow) +3)
+:::
 
 ### Tactics
 
@@ -110,41 +87,31 @@ an opponent and draining blood if he has an opportunity to do so.
 drain), bite +12 (1d4+4 plus energy drain); Str 26, Cha 18; CMB +17 (+21 bull rush); CMD 33 (33 vs.
 bull rush).
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 30, Dex 18, Con -, Int 10, Wis 14, Cha 22
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19 (+23 bull rush)
-
-**Combat maneuver defense:** 33 (35 vs. bull rush)
-
-**Feats:** Alertness^B^, Cleave, Dodge^B^, Greater Bull Rush, Improved Bull Rush, Improved
-Initiative^B^, Lightning Reflexes^B^, Power Attack, Toughness^B^, Weapon Focus (slam)
-
-**Skills:** Acrobatics +16 (+20 when jumping), Intimidate +20, Knowledge (nature) +12, Perception
-+24, Sense Motive +12
-
-**Racial Modifiers:** +8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth
-
-**Languages:** Common, Orc
-
-**Special qualities:** [change shape](ref/umr/change-shape) (dire bat or wolf;
-[beast shape II](ref/spell/beast-shape-2)), fast movement, gaseous form, orc blood, shadowless,
-spider climb
-
-**Combat gear:** potion of blur, potion of haste, potion of resist energy (fire)
-
-**Other gear:** +1 greataxe, Iamu1, Ibogs2, Iclk1, ring of prot1, 80 gp
+::: statblock
+Ability scores: Str 30, Dex 18, Con -, Int 10, Wis 14, Cha 22
+Base attack bonus: +9
+Combat maneuver bonus: +19 (+23 bull rush)
+Combat maneuver defense: 33 (35 vs. bull rush)
+Feats: Alertness^B^, Cleave, Dodge^B^, Greater Bull Rush, Improved Bull Rush, Improved Initiative^B^, Lightning Reflexes^B^, Power Attack, Toughness^B^, Weapon Focus (slam)
+Skills: Acrobatics +16 (+20 when jumping), Intimidate +20, Knowledge (nature) +12, Perception +24, Sense Motive +12
+Racial Modifiers: +8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth
+Languages: Common, Orc
+Special qualities: [change shape](ref/umr/change-shape) (dire bat or wolf; [beast shape II](ref/spell/beast-shape-2)), fast movement, gaseous form, orc blood, shadowless, spider climb
+Combat gear: potion of blur, potion of haste, potion of resist energy (fire)
+Other gear: +1 greataxe, Iamu1, Ibogs2, Iclk1, ring of prot1, 80 gp
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
+::: statblock
+Environment: any
+:::
 
 ### Special Abilities
 

@@ -32,67 +32,49 @@ abilities = ["10", "11", "14", "10", "15", "15"]
 _This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long
 tail and crests on its head and back._
 
-**Challenge rating:** 3
-
 **Troglodyte [druid](ref/class/druid) 3**
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 13, 10 rounds)
+::: statblock
+Challenge rating: 3
+aura: [stench](ref/umr/stench) (30 ft., DC 13, 10 rounds)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Size: medium
+Perception: +10
+Senses: Darkvision 90 ft.
+Subtype: Reptilian
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: +6 natural
+Hit points: 35 (5d8+13)
+Fort: +8
+Ref: +3
+Will: +5
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: mwk club +4 (1d6), bite -2 (1d4), claw -2 (1d4) or bite +3 (1d4), 2 claws +3 (1d4)
+Ranged: javelin +3 (1d6)
+:::
 
-**Perception:** +10
-
-**Senses:** Darkvision 90 ft.
-
-**Subtype:** Reptilian
-
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 natural
-
-**Hit points:** 35 (5d8+13)
-
-**Fort:** +8
-
-**Ref:** +3
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** mwk club +4 (1d6), bite -2 (1d4), claw -2 (1d4) or bite +3 (1d4), 2 claws +3 (1d4)
-
-**Ranged:** javelin +3 (1d6)
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**2nd-level spells:**
-
-- hold animal (DC 14), spider climb, summon swarm
-
-**1st-level spells:**
-
-- calm animals (DC 13), charm animal (DC 13), cure light wounds, entangle (DC 13)
-
-**Cantrips:**
-
-- create water, detect magic, guidance, know direction
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+2nd-level spells: hold animal (DC 14), spider climb, summon swarm
+1st-level spells: calm animals (DC 13), charm animal (DC 13), cure light wounds, entangle (DC 13)
+Cantrips: create water, detect magic, guidance, know direction
+:::
 
 ### Tactics
 
@@ -102,34 +84,26 @@ the ceiling, high wall, or ledge.
 **Base Statistics** Without spider climb, the beast-speaker's statistics are Speed 30 ft.; Skills
 Climb +0.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 10, Dex 11, Con 14, Int 10, Wis 15, Cha 15
+::: statblock
+Ability scores: Str 10, Dex 11, Con 14, Int 10, Wis 15, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 13
+Feats: Combat Casting, Improved Initiative, Lightning Reflexes
+Skills: Climb +8, Knowledge (nature) +2, Perception +10
+Languages: Draconic, Druidic
+Special qualities: nature bond (Animal domain), nature sense, speak with animals (6 rounds/day), trackless step, [wild empathy](ref/ability/wild-empathy) +5, [woodland stride](ref/ability/woodland-stride)
+Combat gear: potion of cure moderate wounds, scroll of dominate animal, scroll of summon nature's ally II
+Other gear: 6 javelins, mwk club, headdress (worth 500 gp), 19 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 13
-
-**Feats:** Combat Casting, Improved Initiative, Lightning Reflexes
-
-**Skills:** Climb +8, Knowledge (nature) +2, Perception +10
-
-**Languages:** Draconic, Druidic
-
-**Special qualities:** nature bond (Animal domain), nature sense, speak with animals (6 rounds/day),
-trackless step, [wild empathy](ref/ability/wild-empathy) +5,
-[woodland stride](ref/ability/woodland-stride)
-
-**Combat gear:** potion of cure moderate wounds, scroll of dominate animal, scroll of summon
-nature's ally II
-
-**Other gear:** 6 javelins, mwk club, headdress (worth 500 gp), 19 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

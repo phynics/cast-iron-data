@@ -33,64 +33,46 @@ abilities = ["26", "16", "21", "12", "13", "10"]
 _This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its
 piscine head features a toothy maw._
 
-**Challenge rating:** 10
-
 **Four-armed sahuagin [barbarian](ref/class/barbarian) 7**
 
-**blindsense:** 30
+::: statblock
+Challenge rating: 10
+blindsense: 30
+Initiative: +3
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 9,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 20
+AC modifiers: +3 armor, +3 Dex, +7 natural, -2 rage, +2 shield
+Hit points: 123 (2d10+7d12+61\~9)
+Fort: +14
+Ref: +10
+Will: +10
+Dr: 1/-
+Improved uncanny dodge: present
+Trap S: +2
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
-
-**Perception:** +13
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Aquatic
-
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 armor, +3 Dex, +7 natural, -2 rage, +2 shield
-
-**Hit points:** 123 (2d10+7d12+61\~9)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +10
-
-**Dr:** 1/-
-
-**Improved uncanny dodge:** present
-
-**Trap S:** +2
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 40 ft., swim 60 ft.
-
-**Melee:** +1 trident +18/+13 (1d8+13), claw +15 (1d4+4), mwk spiked heavy steel shield +18 (1d6+8),
-bite +15 (1d4+4)
-
-**Ranged:** mwk underwater heavy crossbow +13 (1d10/19-20)
-
-**Spec Att:** [blood frenzy](ref/monster/sahuagin), multiweapon mastery, rage (19 rounds/day), rage
-powers ([inspire ferocity](ref/ragepower/inspire-ferocity), [no escape](ref/ragepower/no-escape),
-[reckless abandon](ref/ragepower/reckless-abandon) +2)
+::: statblock
+Speed: 40 ft., swim 60 ft.
+Melee: +1 trident +18/+13 (1d8+13), claw +15 (1d4+4), mwk spiked heavy steel shield +18 (1d6+8), bite +15 (1d4+4)
+Ranged: mwk underwater heavy crossbow +13 (1d10/19-20)
+Spec Att: [blood frenzy](ref/monster/sahuagin), multiweapon mastery, rage (19 rounds/day), rage powers ([inspire ferocity](ref/ragepower/inspire-ferocity), [no escape](ref/ragepower/no-escape), [reckless abandon](ref/ragepower/reckless-abandon) +2)
+:::
 
 ### Tactics
 
@@ -100,33 +82,26 @@ powers ([inspire ferocity](ref/ragepower/inspire-ferocity), [no escape](ref/rage
 +15 (1d4+6); Ranged mwk heavy crossbow +13 (1d10/19-20); Str 22, Con 17; CMB +15, CMD 28; Skills
 Intimidate +18, Swim +25.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 26, Dex 16, Con 21, Int 12, Wis 13, Cha 10
+::: statblock
+Ability scores: Str 26, Dex 16, Con 21, Int 12, Wis 13, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +17
+Combat maneuver defense: 28
+Feats: Great Fortitude, Improved Initiative, Improved Shield Bash, Intimidating Prowess, Multiattack, Power Attack, Toughness
+Skills: Acrobatics +14 (+18 when jumping), Intimidate +20, Perception +13, Ride +8
+Languages: Aquan, Common; speak with sharks
+Special qualities: fast movement
+Combat gear: potion of barkskin
+Other gear: mwk studded leather armor, mwk AS heavy steel shield, +1 trident, mwk uhc20, Ibogs2, Iclk2, 1,038 gp
+:::
 
-**Base attack bonus:** +9
+### Ecology
 
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 28
-
-**Feats:** Great Fortitude, Improved Initiative, Improved Shield Bash, Intimidating Prowess,
-Multiattack, Power Attack, Toughness
-
-**Skills:** Acrobatics +14 (+18 when jumping), Intimidate +20, Perception +13, Ride +8
-
-**Languages:** Aquan, Common; speak with sharks
-
-**Special qualities:** fast movement
-
-**Combat gear:** potion of barkskin
-
-**Other gear:** mwk studded leather armor, mwk AS heavy steel shield, +1 trident, mwk uhc20, Ibogs2,
-Iclk2, 1,038 gp
-
-**Ecology**
-
-**Environment:** temperate or warm ocean
+::: statblock
+Environment: temperate or warm ocean
+:::
 
 ### Description
 

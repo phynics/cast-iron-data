@@ -32,75 +32,60 @@ abilities = ["17", "15", "14", "2", "13", "12"]
 
 _A ridge of jagged ice runs down the back of this glistening, desert-dwelling lizard._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: trapping cold (10 ft., DC 14)
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**aura:** trapping cold (10 ft., DC 14)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +6
+Will: +2
+Defensive abilities: heat absorption
+Immune: fire
+Resist: cold 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: tail slap +8 (1d8+4 plus 1d6 cold)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 15, Con 14, Int 2, Wis 13, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 18 (22 vs. trip)
+Feats: Improved Initiative, Step Up
+Skills: Climb +7, Perception +6, Stealth +10
+Special qualities: frigid flesh
+:::
 
-**Size:** small
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +2
-
-**Defensive abilities:** heat absorption
-
-**Immune:** fire
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** tail slap +8 (1d8+4 plus 1d6 cold)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 14, Int 2, Wis 13, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Feats:** Improved Initiative, Step Up
-
-**Skills:** Climb +7, Perception +6, Stealth +10
-
-**Special qualities:** frigid flesh
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or cluster (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

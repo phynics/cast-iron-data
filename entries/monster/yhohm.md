@@ -31,110 +31,78 @@ abilities = ["10", "15", "14", "10", "15", "14"]
 _This beautiful dove is as bright as the sun and the size of an eagle, surrounded by an aura of
 blazing white flames._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: shroud of flame (10 ft., DC 14, 10 rounds)
+Initiative: +6
+Alignment: Neutral good
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Detect poison, Low-light vision
+Subtype: Extraplanar, Fire, Good
+Size: tiny
+Experience points: 1,200
+:::
 
-**aura:** shroud of flame (10 ft., DC 14, 10 rounds)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 15
+AC modifiers: +2 Dex, +1 dodge, +3 natural, +2 size
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +3
+Will: +6; +4 vs. poison
+Defensive abilities: self-resurrection
+Dr: 5/evil
+Immune: fire, petrification
+Regen: 1 (cold or evil)
+Resist: electricity 10
+Sr: 15
+Vulner: cold
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft., fly 60 ft. (average)
+Melee: 2 talons +9 (1d2 plus 1d6 fire), bite +9 (1d3 plus 1d6 fire)
+Reach: 0
+Space: 2-1/2
+Spec Att: holy fire
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+Constant: detect poison
+At will: light, purify food and drink, stabilize, virtue
+Per day: 3/day: cure light wounds, daylight, flaming sphere (DC 14)\
+1/day: dimension door, self only, lesser restoration, see invisibility
+:::
 
-**Senses:** Darkvision 60 ft., Detect poison, Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar, Fire, Good
+::: statblock
+Ability scores: Str 10, Dex 15, Con 14, Int 10, Wis 15, Cha 14
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Dodge, Improved Initiative, Weapon Finesse
+Skills: Fly +14, Knowledge (religion) +8, Perception +10, Perform (sing) +10, Stealth +18
+Languages: Celestial
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +1 dodge, +3 natural, +2 size
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +6; +4 vs. poison
-
-**Defensive abilities:** self-resurrection
-
-**Dr:** 5/evil
-
-**Immune:** fire, petrification
-
-**Regen:** 1 (cold or evil)
-
-**Resist:** electricity 10
-
-**Sr:** 15
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (average)
-
-**Melee:** 2 talons +9 (1d2 plus 1d6 fire), bite +9 (1d3 plus 1d6 fire)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** holy fire
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**Constant:**
-
-- detect poison
-
-**At will:**
-
-- light, purify food and drink, stabilize, virtue
-
-**Per day:**
-
-- 3/day: cure light wounds, daylight, flaming sphere (DC 14)
-- 1/day: dimension door, self only, lesser restoration, see invisibility
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 14, Int 10, Wis 15, Cha 14
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Dodge, Improved Initiative, Weapon Finesse
-
-**Skills:** Fly +14, Knowledge (religion) +8, Perception +10, Perform (sing) +10, Stealth +18
-
-**Languages:** Celestial
-
-**Ecology**
-
-**Environment:** any ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or flight (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or flight (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

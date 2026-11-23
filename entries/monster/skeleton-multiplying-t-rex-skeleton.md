@@ -27,65 +27,51 @@ special_qualities = "multiplication, powerful bite"
 abilities = ["32", "15", "-", "-", "10", "10"]
 +++
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: gargantuan
+Initiative: +6
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 6,400
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 8
+Flat-footed: 12
+AC modifiers: +2 Dex, +6 natural, -4 size
+Hit points: 81 (18d8)
+Fort: +6
+Ref: +8
+Will: +11
+Dr: 5/bludgeoning
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 40 ft.
+Melee: bite +20 (4d6+22)
+Reach: 20
+Space: 20
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 6,400
-
-**Armor class:** 14
-
-**Touch:** 8
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +6 natural, -4 size
-
-**Hit points:** 81 (18d8)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +11
-
-**Dr:** 5/bludgeoning
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +20 (4d6+22)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 15, Con -, Int -, Wis 10, Cha 10
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 40
-
-**Feats:** Improved Initiative^B^
-
-**Special qualities:** multiplication, powerful bite
+::: statblock
+Ability scores: Str 32, Dex 15, Con -, Int -, Wis 10, Cha 10
+Base attack bonus: +13
+Combat maneuver bonus: +28
+Combat maneuver defense: 40
+Feats: Improved Initiative^B^
+Special qualities: multiplication, powerful bite
+:::
 
 ###### B {#footnote-b}
 

@@ -33,77 +33,61 @@ abilities = ["25", "14", "19", "1", "16", "4"]
 _This immense silvery beast is a majestic specimen, its gigantic jaws lined with rows of serrated
 teeth._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+blindsense: 30
+Size: huge
+Initiative: +6
+Keen Scent: present
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 17
+AC modifiers: +2 Dex, +9 natural, -2 size
+Hit points: 42 (5d8+20)
+Fort: +10
+Ref: +6
+Will: +4
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: swim 60 ft.
+Bleed: 1d6
+Melee: bite +9 (2d8+10 plus bleed)
+Reach: 10
+Space: 15
+:::
 
-**Keen Scent:** present
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 25, Dex 14, Con 19, Int 1, Wis 16, Cha 4
+Base attack bonus: +3
+Combat maneuver bonus: +12
+Combat maneuver defense: 24 (can't be tripped)
+Feats: Great Fortitude, Improved Initiative, Weapon Focus (bite)
+Skills: Perception +11, Swim +15
+:::
 
-**Perception:** +11
+### Ecology
 
-**Senses:** Low-light vision
-
-**Subtype:** Aquatic
-
-**Experience points:** 1,200
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +9 natural, -2 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Bleed:** 1d6
-
-**Melee:** bite +9 (2d8+10 plus bleed)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 14, Con 19, Int 1, Wis 16, Cha 4
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24 (can't be tripped)
-
-**Feats:** Great Fortitude, Improved Initiative, Weapon Focus (bite)
-
-**Skills:** Perception +11, Swim +15
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, school (3-6), or pack (7-13)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, school (3-6), or pack (7-13)
+Treasure: None
+:::
 
 ### Description
 

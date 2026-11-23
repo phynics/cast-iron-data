@@ -28,61 +28,49 @@ abilities = ["15", "16", "-", "-", "10", "10"]
 
 _Bones rattle against cracked bones as this ancient, fleshless corpse clatters forth._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 4 (1d8)
+Fort: +0
+Ref: +3
+Will: +2
+Dr: 5/bludgeoning
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+Melee: short sword +1 (1d6+2/19-20), 3 short swords +1 (1d6+1/19-20) or 4 claws +3 (1d4+2)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 200
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +0
-
-**Ref:** +3
-
-**Will:** +2
-
-**Dr:** 5/bludgeoning
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** short sword +1 (1d6+2/19-20), 3 short swords +1 (1d6+1/19-20) or 4 claws +3 (1d4+2)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 16, Con -, Int -, Wis 10, Cha 10
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative^B^, Multiweapon Fighting^B^, Weapon Finesse^B^
-
-**Gear:** 4 short swords
+::: statblock
+Ability scores: Str 15, Dex 16, Con -, Int -, Wis 10, Cha 10
+Base attack bonus: +0
+Combat maneuver bonus: +2
+Combat maneuver defense: 15
+Feats: Improved Initiative^B^, Multiweapon Fighting^B^, Weapon Finesse^B^
+Gear: 4 short swords
+:::
 
 ###### B {#footnote-b}
 

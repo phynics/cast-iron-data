@@ -27,97 +27,73 @@ special_qualities = "apportation"
 abilities = ["12", "17", "12", "17", "16", "13"]
 +++
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Initiative: +3
+Type: Magical beast
+Perception: +9
+Senses: Darkvision 60 ft., Detect magic, Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 dodge, +1 size
+Hit points: 32 (5d10+5)
+Fort: +5
+Ref: +7
+Will: +4
+Resist: cold 5
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Melee: 2 talons +7 (1d6+1)
+Spec Att: hexes ([cackle](ref/hex/cackle), [evil eye](ref/hex/evil-eye) \[-2, 6 rounds\], [misfortune](ref/hex/misfortune) \[1 round\])
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8; save DCs are Intelligence-based
+Constant: detect magic, speak with animals, birds only
+Per day: 3/day: perceive cues, vanish, ventriloquism (DC 14)\
+1/day: ill omen, mirror image
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 size
-
-**Hit points:** 32 (5d10+5)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +4
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Melee:** 2 talons +7 (1d6+1)
-
-**Spec Att:** hexes ([cackle](ref/hex/cackle), [evil eye](ref/hex/evil-eye) \[-2, 6 rounds\],
-[misfortune](ref/hex/misfortune) \[1 round\])
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8; save DCs are Intelligence-based
-
-**Constant:**
-
-- detect magic, speak with animals, birds only
-
-**Per day:**
-
-- 3/day: perceive cues, vanish, ventriloquism (DC 14)
-- 1/day: ill omen, mirror image
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 12, Int 17, Wis 16, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5 (+7 steal)
-
-**Combat maneuver defense:** 19 (21 vs. steal)
-
-**Feats:** Combat Expertise, Dodge, Flyby Attack^B^, Improved Steal
-
-**Skills:** Bluff +5, Fly +15, Knowledge (arcana) +6, Perception +9, Sense Motive +6, Sleight of
-Hand +12, Spellcraft +6, Stealth +15
-
-**Racial Modifiers:** +8 Sleight of Hand
-
-**Languages:** Abyssal, Aklo, Auran, Common; _[speak with animals](ref/spell/speak-with-animals)_
-(birds only)
-
-**Special qualities:** apportation
+::: statblock
+Ability scores: Str 12, Dex 17, Con 12, Int 17, Wis 16, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: +5 (+7 steal)
+Combat maneuver defense: 19 (21 vs. steal)
+Feats: Combat Expertise, Dodge, Flyby Attack^B^, Improved Steal
+Skills: Bluff +5, Fly +15, Knowledge (arcana) +6, Perception +9, Sense Motive +6, Sleight of Hand +12, Spellcraft +6, Stealth +15
+Racial Modifiers: +8 Sleight of Hand
+Languages: Abyssal, Aklo, Auran, Common; _[speak with animals](ref/spell/speak-with-animals)_ (birds only)
+Special qualities: apportation
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology {#stat-ecology}
 
-**Environment:** cold and temperate forests and plains
-
-**Organization:** solitary, pair, covey (3-12), or murder (13-30)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold and temperate forests and plains
+Organization: solitary, pair, covey (3-12), or murder (13-30)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

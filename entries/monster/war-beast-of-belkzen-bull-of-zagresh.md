@@ -28,71 +28,58 @@ abilities = ["31", "12", "19", "2", "11", "4"]
 _This immense bovine has horns reminiscent of a stag, with dagger-like points spreading more than
 fifteen feet across._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Size: huge
+Initiative: +1
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 18
+AC modifiers: +1 Dex, +11 natural, -2 size
+Hit points: 85 (9d8+45)
+Fort: +10
+Ref: +7
+Will: +3
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +14 (2d6+15)
+Reach: 15
+Space: 15
+Trample: 3d8+15, DC 24
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 12, Con 19, Int 2, Wis 11, Cha 4
+Base attack bonus: +6
+Combat maneuver bonus: +18
+Combat maneuver defense: 29
+Feats: Diehard, Endurance, Improved Natural Attack (gore), Power Attack, Toughness
+Skills: Perception +8, Swim +17
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +11 natural, -2 size
-
-**Hit points:** 85 (9d8+45)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +14 (2d6+15)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Trample:** 3d8+15, DC 24
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 12, Con 19, Int 2, Wis 11, Cha 4
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 29
-
-**Feats:** Diehard, Endurance, Improved Natural Attack (gore), Power Attack, Toughness
-
-**Skills:** Perception +8, Swim +17
-
-**Ecology**
-
-**Environment:** any hills or plains
-
-**Organization:** solitary, pair, or herd (10-30)
-
-**Treasure:** None
+::: statblock
+Environment: any hills or plains
+Organization: solitary, pair, or herd (10-30)
+Treasure: None
+:::
 
 ### Description
 

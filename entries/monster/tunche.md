@@ -31,106 +31,74 @@ abilities = ["33", "21", "24", "12", "20", "25"]
 _Standing on three legs, this creature is a mix of dangerous jungle animals and plants fused into
 one deadly predator._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic neutral
+Type: fey
+Size: huge
+Initiative: +9
+Perception: +33
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 102,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 31
+Touch: 13
+Flat-footed: 26
+AC modifiers: +5 Dex, +18 natural, -2 size
+Hit points: 262 (25d6+175)
+Fort: +15
+Ref: +19
+Will: +19
+Dr: 15/cold iron and slashing
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +9
+::: statblock
+Speed: 50 ft., climb 20 ft., swim 20 ft.
+Melee: bite +22 (2d8+11/19-20 plus poison), 4 claws +22 (3d6+11)
+Reach: 15
+Rend: 2 claws, 3d6+16
+Sp Extra: feather step
+Space: 15
+Spec Att: poison
+:::
 
-**Perception:** +33
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: speak with plants, tongues
+At will: burst of nettles (DC 20), entangle (DC 18), tree shape, tree stride, ventriloquism, warp wood (DC 19)
+Per day: 7/day: diminish plants, plant growth, wall of thorns\
+3/day: control plants (DC 25), move earth, true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 102,400
+::: statblock
+Ability scores: Str 33, Dex 21, Con 24, Int 12, Wis 20, Cha 25
+Base attack bonus: +12
+Combat maneuver bonus: +25 (+27 bull rush)
+Combat maneuver defense: 40 (42 vs. bull rush, 42 vs. trip)
+Feats: Awesome Blow, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Power Attack, Vital Strike, Weapon Focus (bite), Weapon Focus (claw)
+Skills: Acrobatics +21 (+29 when jumping), Bluff +22, Climb +19
+Racial Modifiers: +8 Acrobatics when jumping, +8 Stealth in forests
+Languages: Aklo, Sylvan; _speak with plants, tongues_
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), sound mimicry (sounds and voices)
+:::
 
-**Armor class:** 31
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 Dex, +18 natural, -2 size
-
-**Hit points:** 262 (25d6+175)
-
-**Fort:** +15
-
-**Ref:** +19
-
-**Will:** +19
-
-**Dr:** 15/cold iron and slashing
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +22 (2d8+11/19-20 plus poison), 4 claws +22 (3d6+11)
-
-**Reach:** 15
-
-**Rend:** 2 claws, 3d6+16
-
-**Sp Extra:** feather step
-
-**Space:** 15
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- speak with plants, tongues
-
-**At will:**
-
-- burst of nettles (DC 20), entangle (DC 18), tree shape, tree stride, ventriloquism, warp wood (DC
-  19)
-
-**Per day:**
-
-- 7/day: diminish plants, plant growth, wall of thorns
-- 3/day: control plants (DC 25), move earth, true seeing
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 21, Con 24, Int 12, Wis 20, Cha 25
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +25 (+27 bull rush)
-
-**Combat maneuver defense:** 40 (42 vs. bull rush, 42 vs. trip)
-
-**Feats:** Awesome Blow, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush,
-Improved Critical (bite), Improved Initiative, Improved Vital Strike, Power Attack, Vital Strike,
-Weapon Focus (bite), Weapon Focus (claw)
-
-**Skills:** Acrobatics +21 (+29 when jumping), Bluff +22, Climb +19
-
-**Racial Modifiers:** +8 Acrobatics when jumping, +8 Stealth in forests
-
-**Languages:** Aklo, Sylvan; _speak with plants, tongues_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), sound mimicry (sounds and voices)
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

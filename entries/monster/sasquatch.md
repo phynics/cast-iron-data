@@ -32,77 +32,61 @@ abilities = ["22", "15", "16", "9", "10", "11"]
 _Tall, burly, and hairy, this humanoid creature wields a large tree branch for a club and has a
 swinging, ape-like gait._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: humanoid
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Sasquatch
+Experience points: 600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 22 (3d8+9)
+Fort: +4
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: club +8 (1d6+9) or slam +8 (1d4+9)
+Ranged: rock +5 (1d4+9)
+Rock Th: 120 ft.
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 22, Dex 15, Con 16, Int 9, Wis 10, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Self-Sufficient, Skill Focus (Stealth)
+Skills: Heal +2, Perception +5
+Racial Modifiers: +4 Perception, +4 Stealth (+8 in forested areas), +4 Survival
+Languages: Sasquatch
+Special qualities: pungency, [woodland stride](ref/ability/woodland-stride)
+:::
 
-**Subtype:** Sasquatch
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** club +8 (1d6+9) or slam +8 (1d4+9)
-
-**Ranged:** rock +5 (1d4+9)
-
-**Rock Th:** 120 ft.
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 16, Int 9, Wis 10, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Self-Sufficient, Skill Focus (Stealth)
-
-**Skills:** Heal +2, Perception +5
-
-**Racial Modifiers:** +4 Perception, +4 Stealth (+8 in forested areas), +4 Survival
-
-**Languages:** Sasquatch
-
-**Special qualities:** pungency, [woodland stride](ref/ability/woodland-stride)
-
-**Ecology**
-
-**Environment:** temperate or cold forests
-
-**Organization:** solitary, pair, or family (3-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or cold forests
+Organization: solitary, pair, or family (3-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

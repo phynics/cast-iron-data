@@ -30,100 +30,73 @@ abilities = ["28", "17", "-", "6", "15", "17"]
 _This hulking headless corpse clutches a massive axe in each fist. A grotesquely skinned face
 stretches across the creature's chest._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: fear (30-ft. radius, DC 22)
+Initiative: +3
+Size: large
+Lifesense: present
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 19,200
+:::
 
-**aura:** fear (30-ft. radius, DC 22)
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 27
+Touch: 12
+Flat-footed: 24
+AC modifiers: +3 Dex, +15 natural, -1 size
+Hit points: 127 (17d8+51)
+Fort: +8
+Ref: +10
+Will: +12
+Chan Res: +4
+Dr: 5/magic
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 23
+:::
 
-**Size:** large
+### Offense
 
-**Lifesense:** present
+::: statblock
+Speed: 30 ft.
+Melee: +1 battleaxe +18/+13/+8 (2d6+10/×3), +1 battleaxe +18/+13 (2d6+10/×3)
+Reach: 10
+Space: 10
+Spec Att: festering heads
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+At will: darkness
+Per day: 1/day: cloudkill (DC 18)
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 28, Dex 17, Con -, Int 6, Wis 15, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +22
+Combat maneuver defense: 35
+Feats: Cleave, Double Slice, Great Cleave, Improved Two-Weapon Fighting, Lightning Reflexes, Power Attack, Two-Weapon Fighting, Two-Weapon Rend, Weapon Focus (battleaxe)
+Skills: Climb +20, Intimidate +18, Perception +13, Stealth +8
+Languages: Giant (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 12
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 Dex, +15 natural, -1 size
-
-**Hit points:** 127 (17d8+51)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +12
-
-**Chan Res:** +4
-
-**Dr:** 5/magic
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 battleaxe +18/+13/+8 (2d6+10/×3), +1 battleaxe +18/+13 (2d6+10/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** festering heads
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**At will:**
-
-- darkness
-
-**Per day:**
-
-- 1/day: cloudkill (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 17, Con -, Int 6, Wis 15, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 35
-
-**Feats:** Cleave, Double Slice, Great Cleave, Improved Two-Weapon Fighting, Lightning Reflexes,
-Power Attack, Two-Weapon Fighting, Two-Weapon Rend, Weapon Focus (battleaxe)
-
-**Skills:** Climb +20, Intimidate +18, Perception +13, Stealth +8
-
-**Languages:** Giant (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard (2 L +1 battleaxes)
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard (2 L +1 battleaxes)
+:::
 
 ### Special Abilities
 

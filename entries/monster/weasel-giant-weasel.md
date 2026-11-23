@@ -33,73 +33,59 @@ abilities = ["14", "19", "10", "2", "13", "11"]
 _The predatory nature of this wolf-sized creature is revealed by its long teeth, sleekly muscular
 body, and belligerent hiss._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 natural
+Hit points: 9 (2d8)
+Fort: +3
+Ref: +7
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+B Drain: 1d2 Con
+Grab: present
+Melee: bite +5 (1d6+3 plus grab)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 14, Dex 19, Con 10, Int 2, Wis 13, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +3 (+7 grapple)
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Weapon Finesse
+Skills: Climb +6
+Racial Modifiers: +4 Climb, +2 Perception, +6 Stealth, +2 Swim
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 natural
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**B Drain:** 1d2 Con
-
-**Grab:** present
-
-**Melee:** bite +5 (1d6+3 plus grab)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con 10, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3 (+7 grapple)
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +6
-
-**Racial Modifiers:** +4 Climb, +2 Perception, +6 Stealth, +2 Swim
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or den (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary, pair, or den (3-6)
+Treasure: Incidental
+:::
 
 ### Description
 

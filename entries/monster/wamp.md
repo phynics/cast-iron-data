@@ -31,77 +31,61 @@ abilities = ["18", "15", "20", "14", "11", "13"]
 _This crimson-footed, nine-legged monstrosity has an egg-shaped body covered in dirty white fur. Its
 eyeless face, pig-like snout, and toothy maw make for a disturbing visage._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+blindsight: 60
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Perception: +11
+Senses: Scent
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +2 Dex, +1 dodge, +6 natural
+Hit points: 76 (8d8+40)
+Fort: +9
+Ref: +4
+Will: +6; +4 vs. attacks from undead
+Immune: disease, gaze attacks, paralysis, sight-based effects, visual effects and illusions
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 30 ft.
+Melee: bite +10 (1d8+4 plus disease), 3 claws +10 (1d4+4)
+Spec Att: disease, swift infection
+Trample: 4d6+6, DC 18
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 18, Dex 15, Con 20, Int 14, Wis 11, Cha 13
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 23
+Feats: Dodge, Great Fortitude, Mobility, Skill Focus (Stealth)
+Skills: Climb +15, Disguise +9, Knowledge (religion) +13, Perception +11
+Languages: Aklo, Common, Necril
+Special qualities: blind, feign undeath
+:::
 
-**Senses:** Scent
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 natural
-
-**Hit points:** 76 (8d8+40)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** +6; +4 vs. attacks from undead
-
-**Immune:** disease, gaze attacks, paralysis, sight-based effects, visual effects and illusions
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +10 (1d8+4 plus disease), 3 claws +10 (1d4+4)
-
-**Spec Att:** disease, swift infection
-
-**Trample:** 4d6+6, DC 18
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 20, Int 14, Wis 11, Cha 13
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23
-
-**Feats:** Dodge, Great Fortitude, Mobility, Skill Focus (Stealth)
-
-**Skills:** Climb +15, Disguise +9, Knowledge (religion) +13, Perception +11
-
-**Languages:** Aklo, Common, Necril
-
-**Special qualities:** blind, feign undeath
-
-**Ecology**
-
-**Environment:** any (ruins or graveyards)
-
-**Organization:** solitary, pair, or tangle (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (ruins or graveyards)
+Organization: solitary, pair, or tangle (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

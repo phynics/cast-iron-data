@@ -31,97 +31,71 @@ abilities = ["3", "17", "10", "6", "11", "10"]
 _This lithe, diminutive creature looks like a humanoid with wispy, moth-like wings and long, thin
 ears._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Alignment: Chaotic neutral
+Size: diminutive
+Type: fey
+Initiative: +3
+Perception: +6
+Senses: Detect evil, Detect good, Low-light vision
+Experience points: 135
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 size
+Hit points: 3 (1d6)
+Fort: +0
+Ref: +5
+Will: +2
+Dr: 2/cold iron
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 15 ft., fly 60 ft. (perfect)
+Melee: short sword +0 (1d2-4/19-20)
+Ranged: short bow +7 (1d2-4/×3)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +5
+Constant: detect evil, detect good
+At will: dancing lights, daze (DC 10)
+Per day: 1/day: color spray (DC 11)
+:::
 
-**Senses:** Detect evil, Detect good, Low-light vision
+### Statistics
 
-**Experience points:** 135
+::: statblock
+Ability scores: Str 3, Dex 17, Con 10, Int 6, Wis 11, Cha 10
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5
+Feats: Alertness
+Skills: Escape Artist +15, Fly +21, Perception +6, Sense Motive +6, Stealth +19
+Racial Modifiers: +8 Escape Artist
+Languages: Common, Sylvan
+Special qualities: luminous
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 size
-
-**Hit points:** 3 (1d6)
-
-**Fort:** +0
-
-**Ref:** +5
-
-**Will:** +2
-
-**Dr:** 2/cold iron
-
-**Offense**
-
-**Speed:** 15 ft., fly 60 ft. (perfect)
-
-**Melee:** short sword +0 (1d2-4/19-20)
-
-**Ranged:** short bow +7 (1d2-4/×3)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +5
-
-**Constant:**
-
-- detect evil, detect good
-
-**At will:**
-
-- dancing lights, daze (DC 10)
-
-**Per day:**
-
-- 1/day: color spray (DC 11)
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 17, Con 10, Int 6, Wis 11, Cha 10
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5
-
-**Feats:** Alertness
-
-**Skills:** Escape Artist +15, Fly +21, Perception +6, Sense Motive +6, Stealth +19
-
-**Racial Modifiers:** +8 Escape Artist
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** luminous
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, troop (3-6), band (7-14), or tribe (15-40)
-
-**Treasure:** Standard (short sword, sb20); other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, troop (3-6), band (7-14), or tribe (15-40)
+Treasure: Standard (short sword, sb20); other treasure
+:::
 
 ### Special Abilities
 

@@ -31,86 +31,61 @@ abilities = ["44", "16", "29", "2", "11", "13"]
 _This colossal serpent's skin is like that of decayed, bruised corpses. Cancers rupture from its
 flesh, and a terrible sickening flow of black blood oozes from each break and sores._
 
-**Challenge rating:** 19
-
 **Unique black-blooded sea serpent**
 
-**Type:** aberration
+::: statblock
+Challenge rating: 19
+Type: aberration
+aura: blood rain (30 ft., 9 cold damage)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +7
+Perception: +8
+Senses: Darkvision 120 ft.
+Subtype: Aquatic
+Experience points: 204,800
+:::
 
-**aura:** blood rain (30 ft., 9 cold damage)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 29
+Touch: 5
+Flat-footed: 26
+AC modifiers: +3 Dex, +24 natural, -8 size
+Hit points: 387 (25d10+250)
+Fort: +23
+Ref: +19
+Will: +10
+Defensive abilities: elusive
+Immune: ability drain, cold, energy drain, poison
+Resist: fire 30
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Br Weap: 30-ft. cone, 6d6 cold damage, Reflex DC 31 for half, usable every 1d4 rounds
+Capsize: present
+Constrict: 3d6+18
+Melee: bite +38 (6d6+17/19-20 plus 1d6 cold and [grab](ref/umr/grab)), tail slap +33 (4d6+8 plus 1d6 cold and grab)
+Reach: 20
+Space: 30
+Swallow: 4d8+18 bludgeoning damage, AC 21, 38 hp
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 120 ft.
-
-**Subtype:** Aquatic
-
-**Experience points:** 204,800
-
-**Armor class:** 29
-
-**Touch:** 5
-
-**Flat-footed:** 26
-
-**AC modifiers:** +3 Dex, +24 natural, -8 size
-
-**Hit points:** 387 (25d10+250)
-
-**Fort:** +23
-
-**Ref:** +19
-
-**Will:** +10
-
-**Defensive abilities:** elusive
-
-**Immune:** ability drain, cold, energy drain, poison
-
-**Resist:** fire 30
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Br Weap:** 30-ft. cone, 6d6 cold damage, Reflex DC 31 for half, usable every 1d4 rounds
-
-**Capsize:** present
-
-**Constrict:** 3d6+18
-
-**Melee:** bite +38 (6d6+17/19-20 plus 1d6 cold and [grab](ref/umr/grab)), tail slap +33 (4d6+8 plus
-1d6 cold and grab)
-
-**Reach:** 20
-
-**Space:** 30
-
-**Swallow:** 4d8+18 bludgeoning damage, AC 21, 38 hp
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 16, Con 29, Int 2, Wis 11, Cha 13
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +46 (+48 bull rush, +50 grapple)
-
-**Combat maneuver defense:** 59 (61 vs. bull rush, can't be tripped)
-
-**Feats:** Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved Initiative,
-Improved Iron Will, Improved Natural Attack (bite), Iron Will, Lightning Reflexes, Power Attack,
-Sickening Critical, Skill Focus (Stealth), Stealthy, Toughness
-
-**Skills:** Escape Artist +5, Perception +9, Stealth +19, Swim +25
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 44, Dex 16, Con 29, Int 2, Wis 11, Cha 13
+Base attack bonus: +25
+Combat maneuver bonus: +46 (+48 bull rush, +50 grapple)
+Combat maneuver defense: 59 (61 vs. bull rush, can't be tripped)
+Feats: Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Iron Will, Improved Natural Attack (bite), Iron Will, Lightning Reflexes, Power Attack, Sickening Critical, Skill Focus (Stealth), Stealthy, Toughness
+Skills: Escape Artist +5, Perception +9, Stealth +19, Swim +25
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ### Special Abilities
 

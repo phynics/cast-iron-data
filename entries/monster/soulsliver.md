@@ -31,95 +31,71 @@ abilities = ["14", "17", "12", "11", "12", "13"]
 
 _This smooth-featured, humanoid creature appears to have skin made entirely of mirrored glass._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar, Shapechanger
+Experience points: 600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 dodge, +1 natural
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +6
+Will: +2
+Fh: 1
+Resist: acid 5, fire 5
+Vulner: sonic
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: 2 slams +5 (1d4+2)
+Spec Att: death throes
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+Per day: 3/day: mage hand, open/close, silent image\
+1/day: mirror image
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar, Shapechanger
+::: statblock
+Ability scores: Str 14, Dex 17, Con 12, Int 11, Wis 12, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Dodge, Improved Initiative
+Skills: Acrobatics +9 (+13 when jumping), Bluff +7, Disguise +7 (+11 when using change shape), Sense Motive +7, Stealth +9
+Racial Modifiers: +4 Acrobatics when jumping, +4 Disguise when using change shape
+Languages: Aklo, Common
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self)), [compression](ref/umr/compression), mirror travel, perfect copy, sound mimicry (voices)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 natural
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +2
-
-**Fh:** 1
-
-**Resist:** acid 5, fire 5
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 slams +5 (1d4+2)
-
-**Spec Att:** death throes
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**Per day:**
-
-- 3/day: mage hand, open/close, silent image
-- 1/day: mirror image
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 12, Int 11, Wis 12, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dodge, Improved Initiative
-
-**Skills:** Acrobatics +9 (+13 when jumping), Bluff +7, Disguise +7 (+11 when using change shape),
-Sense Motive +7, Stealth +9
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Disguise when using change shape
-
-**Languages:** Aklo, Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self)), [compression](ref/umr/compression), mirror travel, perfect
-copy, sound mimicry (voices)
-
-**Ecology**
-
-**Environment:** any land (extraplanar)
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land (extraplanar)
+Organization: solitary or gang (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -30,77 +30,63 @@ abilities = ["6", "15", "14", "11", "13", "10"]
 
 _The sound of flapping wings and an angry hiss accompany the appearance of this flying snake._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Experience points: 800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 dodge, +1 natural, +1 size
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +5
+Will: +2
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 20 ft., fly 40 ft. (average)
+Melee: bite +6 (1d4-2 plus poison)
+Ranged: spit venom +6 ranged touch (poison)
+Spec Att: poison, spit venom
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** small
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 dodge, +1 natural, +1 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (average)
-
-**Melee:** bite +6 (1d4-2 plus poison)
-
-**Ranged:** spit venom +6 ranged touch (poison)
-
-**Spec Att:** poison, spit venom
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 14, Int 11, Wis 13, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 13
-
-**Feats:** Dodge, Flyby Attack^B^, Improved Initiative, Weapon Finesse^B^
-
-**Skills:** Bluff +7, Fly +4, Perception +10, Stealth +10 (+14 in rocky areas)
-
-**Racial Modifiers:** +4 Bluff, +4 Perception
-
-**Languages:** Aklo (can't speak), Common (can't speak); [telepathy](ref/umr/telepathy) 60 ft.
+::: statblock
+Ability scores: Str 6, Dex 15, Con 14, Int 11, Wis 13, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +0
+Combat maneuver defense: 13
+Feats: Dodge, Flyby Attack^B^, Improved Initiative, Weapon Finesse^B^
+Skills: Bluff +7, Fly +4, Perception +10, Stealth +10 (+14 in rocky areas)
+Racial Modifiers: +4 Bluff, +4 Perception
+Languages: Aklo (can't speak), Common (can't speak); [telepathy](ref/umr/telepathy) 60 ft.
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land (jungles, swamps, or underground)
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any land (jungles, swamps, or underground)
+Organization: solitary, pair, or nest (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,69 +32,57 @@ abilities = ["18", "13", "15", "2", "11", "6"]
 _Foul-smelling fluids ooze from weeping sores across the scaly skin of this squat, powerful, and
 vaguely canine beast._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +5
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 natural
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +5
+Will: +1
+Regen: 3 (acid or fire)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +8 (1d10+6 plus disease and trip)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 18, Dex 13, Con 15, Int 2, Wis 11, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Improved Initiative, Skill Focus (Perception)
+Skills: Perception +8
+Racial Modifiers: +4 Survival while scent tracking
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +1
-
-**Regen:** 3 (acid or fire)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +8 (1d10+6 plus disease and trip)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 15, Int 2, Wis 11, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Perception +8
-
-**Racial Modifiers:** +4 Survival while scent tracking
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: cold mountains
+Organization: solitary, pair, or pack (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

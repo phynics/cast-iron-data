@@ -31,73 +31,59 @@ abilities = ["23", "22", "18", "3", "10", "3"]
 _This creature glides on undulating folds of leathery skin. Its spinning, circular mouth is lined
 with rows of razor-sharp teeth._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+Initiative: +10
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Keen sight
+tremorsense: 30
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 14
+AC modifiers: +6 Dex, +4 natural
+Hit points: 102 (12d8+48)
+Fort: +8
+Ref: +10
+Will: +8
+Immune: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., burrow 10 ft., fly 90 ft. (perfect)
+Melee: bite +16 (2d6+9 plus burrowing bite)
+Spec Att: flying charge
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Keen sight
+::: statblock
+Ability scores: Str 23, Dex 22, Con 18, Int 3, Wis 10, Cha 3
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 31 (can't be tripped)
+Feats: Flyby Attack, Hover, Improved Initiative, Power Attack, Weapon Focus (bite), Wingover
+Skills: Fly +18, Perception +8, Stealth +15
+Special qualities: dust cloud
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 Dex, +4 natural
-
-**Hit points:** 102 (12d8+48)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +8
-
-**Immune:** fire
-
-**Offense**
-
-**Speed:** 10 ft., burrow 10 ft., fly 90 ft. (perfect)
-
-**Melee:** bite +16 (2d6+9 plus burrowing bite)
-
-**Spec Att:** flying charge
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 22, Con 18, Int 3, Wis 10, Cha 3
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 31 (can't be tripped)
-
-**Feats:** Flyby Attack, Hover, Improved Initiative, Power Attack, Weapon Focus (bite), Wingover
-
-**Skills:** Fly +18, Perception +8, Stealth +15
-
-**Special qualities:** dust cloud
-
-**Ecology**
-
-**Environment:** warm deserts (Rahadoum)
-
-**Organization:** solitary or flight (2-9)
-
-**Treasure:** None; eye gems worth 300 gp each
+::: statblock
+Environment: warm deserts (Rahadoum)
+Organization: solitary or flight (2-9)
+Treasure: None; eye gems worth 300 gp each
+:::
 
 ### Special Abilities
 

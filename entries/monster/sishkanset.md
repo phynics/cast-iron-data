@@ -32,95 +32,70 @@ abilities = ["-", "18", "18", "9", "15", "18"]
 _This translucent, unnaturally tall humanoid figure sprouts dozens of long tendrils from its upper
 body._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +4
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Incorporeal
+Experience points: 4,800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 19
+Flat-footed: 14
+AC modifiers: +4 deflection, +4 Dex, +1 dodge
+Hit points: 105 (10d10+50)
+Fort: +7
+Ref: +11
+Will: +11
+Incorporeal: present
+Sr: 19
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: chilling touch +14 (6d8 cold)
+Spec Att: disorienting gale, whispering persecution
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: detect thoughts (DC 16)
+At will: alter winds (DC 15), invisibility, lesser confusion (DC 15)
+Per day: 1/day: cloak of winds (DC 17), confusion (DC 17), river of wind (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Incorporeal
+::: statblock
+Ability scores: Str -, Dex 18, Con 18, Int 9, Wis 15, Cha 18
+Base attack bonus: +10
+Combat maneuver bonus: +14
+Combat maneuver defense: 29 (can't be tripped)
+Feats: Dodge, Flyby Attack, Iron Will, Stealthy, Toughness
+Skills: Escape Artist +6, Fly +25, Intimidate +12, Perception +15
+Languages: Common
+Special qualities: eavesdropper's veil, insidious winds
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 19
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 deflection, +4 Dex, +1 dodge
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +11
-
-**Incorporeal:** present
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** chilling touch +14 (6d8 cold)
-
-**Spec Att:** disorienting gale, whispering persecution
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect thoughts (DC 16)
-
-**At will:**
-
-- alter winds (DC 15), invisibility, lesser confusion (DC 15)
-
-**Per day:**
-
-- 1/day: cloak of winds (DC 17), confusion (DC 17), river of wind (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con 18, Int 9, Wis 15, Cha 18
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 29 (can't be tripped)
-
-**Feats:** Dodge, Flyby Attack, Iron Will, Stealthy, Toughness
-
-**Skills:** Escape Artist +6, Fly +25, Intimidate +12, Perception +15
-
-**Languages:** Common
-
-**Special qualities:** eavesdropper's veil, insidious winds
-
-**Ecology**
-
-**Environment:** any land ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

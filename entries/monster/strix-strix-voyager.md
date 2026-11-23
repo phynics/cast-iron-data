@@ -33,102 +33,71 @@ abilities = ["10", "14", "8", "14", "13", "14"]
 _The attire of this winged man, whose wooden mask is carved into an eerie smile, is devoid of the
 stark-white bones commonly worn by his people._
 
-**Challenge rating:** 5
-
 **Strix [bard](ref/class/bard) 6**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +9 (+11 in dim light or darkness)
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Strix
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 17
+AC modifiers: +5 armor, +2 Dex, +1 natural, +1 shield
+Hit points: 27 (6d8)
+Fort: +1
+Ref: +7
+Will: +6; +4 vs. bardic performance, language-dependent, and sonic, +2 bonus vs. illusion spells or effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9 (+11 in dim light or darkness)
+::: statblock
+Speed: 0 ft., fly 60 ft. (average)
+Melee: mwk spear +5 (1d6/×3)
+Ranged: mwk sling +7 (1d4)
+Spec Att: bardic performance 16 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 15\], [inspire competence](ref/performance/inspire-competence) +2, [inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion) \[DC 15\]), hatred
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spells Known"
+Caster level: 6
+Concentration: +8
+2nd-level spells: 4/day: eagle's splendor, minor image (DC 14), mirror image, summon monster II
+1st-level spells: 5/day: charm person (DC 13), cure light wounds, disguise self, summon monster I
+Cantrips: At will: dancing lights, detect magic, flare (DC 12), mending, prestidigitation, resistance
+:::
 
-**Subtype:** Strix\
-**Experience points:** 1,600
+### Statistics
 
-**Armor class:** 19
+::: statblock
+Ability scores: Str 10, Dex 14, Con 8, Int 14, Wis 13, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Augment Summoning, Skill Focus (Perform \[oratory\]), Spell Focus (conjuration)
+Skills: Acrobatics +11, Climb +5, Knowledge (local, planes) +9, Linguistics +8, Perception +9 (+11 in dim light or darkness)
+Languages: Auran, Common, Elven, Hallit, Skald, Strix
+Special qualities: bardic knowledge +3, lore master 1/day, nocturnal, suspicious, versatile performances (dance, oratory)
+Combat gear: oil of magic weapon, scroll of grease, 2 scroll of invisibility, scroll of scare, scroll of ventriloquism, 2 tanglefoot bags
+Other gear: +1 chain shirt, buckler, mwk sng10, mwk shortspear, Iamu1, bp, wooden mask (10 gp)
+:::
 
-**Touch:** 12
+### Ecology
 
-**Flat-footed:** 17
-
-**AC modifiers:** +5 armor, +2 Dex, +1 natural, +1 shield
-
-**Hit points:** 27 (6d8)
-
-**Fort:** +1
-
-**Ref:** +7
-
-**Will:** +6; +4 vs. bardic performance, language-dependent, and sonic, +2 bonus vs. illusion spells
-or effects
-
-**Offense**
-
-**Speed:** 0 ft., fly 60 ft. (average)
-
-**Melee:** mwk spear +5 (1d6/×3)
-
-**Ranged:** mwk sling +7 (1d4)
-
-**Spec Att:** bardic performance 16 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 15\],
-[inspire competence](ref/performance/inspire-competence) +2,
-[inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion) \[DC
-15\]), hatred
-
-**Spells Known**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**2nd-level spells:**
-
-- 4/day: eagle's splendor, minor image (DC 14), mirror image, summon monster II
-
-**1st-level spells:**
-
-- 5/day: charm person (DC 13), cure light wounds, disguise self, summon monster I
-
-**Cantrips:**
-
-- At will: dancing lights, detect magic, flare (DC 12), mending, prestidigitation, resistance
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 14, Con 8, Int 14, Wis 13, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Augment Summoning, Skill Focus (Perform \[oratory\]), Spell Focus (conjuration)
-
-**Skills:** Acrobatics +11, Climb +5, Knowledge (local, planes) +9, Linguistics +8, Perception +9
-(+11 in dim light or darkness)
-
-**Languages:** Auran, Common, Elven, Hallit, Skald, Strix
-
-**Special qualities:** bardic knowledge +3, lore master 1/day, nocturnal, suspicious, versatile
-performances (dance, oratory)
-
-**Combat gear:** oil of magic weapon, scroll of grease, 2 scroll of invisibility, scroll of scare,
-scroll of ventriloquism, 2 tanglefoot bags
-
-**Other gear:** +1 chain shirt, buckler, mwk sng10, mwk shortspear, Iamu1, bp, wooden mask (10 gp)
-
-**Ecology**
-
-**Environment:** temperate mountains
+::: statblock
+Environment: temperate mountains
+:::
 
 ### Description
 

@@ -31,83 +31,66 @@ abilities = ["6", "15", "10", "5", "12", "5"]
 _This skittish amalgam of beast parts has luminous eyes, a rat's tail, simian appendages, and
 tendrils extending from a mole-like nose._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Initiative: +2
+Type: Magical beast
+Perception: +5
+Senses: Darkvision 60 ft., Detect magic, Low-light vision, Scent, Spell sight
+Size: tiny
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 11 (2d10)
+Fort: +3
+Ref: +5
+Will: +1
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +6 (1d3-2 plus bleed 1), 2 claws +6 (1d2-2)
+Spec Att: bleed 1
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, Low-light vision, Scent, Spell sight
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: -2
+Constant: detect magic, speak with animals
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 6, Dex 15, Con 10, Int 5, Wis 12, Cha 5
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 10 (14 vs. trip)
+Feats: Weapon Finesse
+Skills: Acrobatics +12, Climb +16, Perception +5
+Racial Modifiers: +6 Acrobatics, +6 Climb
+Languages: Aklo; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: otherworldly touch
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +6 (1d3-2 plus bleed 1), 2 claws +6 (1d2-2)
-
-**Spec Att:** bleed 1
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** -2
-
-**Constant:**
-
-- detect magic, speak with animals
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 10, Int 5, Wis 12, Cha 5
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 10 (14 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +12, Climb +16, Perception +5
-
-**Racial Modifiers:** +6 Acrobatics, +6 Climb
-
-**Languages:** Aklo; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** otherworldly touch
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary, pair, gang (3-14), tribe (15+ plus 50% noncombatants)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any forest
+Organization: solitary, pair, gang (3-14), tribe (15+ plus 50% noncombatants)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

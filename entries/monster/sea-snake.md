@@ -30,73 +30,61 @@ abilities = ["8", "15", "12", "1", "13", "2"]
 _This scaly blue-green snake skims the surface of the water in a sinuous ballet of muscle and
 agility._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision
+Size: small
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +5
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 40 ft.
+Melee: bite +4 (1d4-1 plus poison)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 40 ft.
-
-**Melee:** bite +4 (1d4-1 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 12, Int 1, Wis 13, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 11 (can't be tripped)
-
-**Feats:** Agile Maneuvers, Weapon Finesse^B^
-
-**Skills:** Climb +7
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
+::: statblock
+Ability scores: Str 8, Dex 15, Con 12, Int 1, Wis 13, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 11 (can't be tripped)
+Feats: Agile Maneuvers, Weapon Finesse^B^
+Skills: Climb +7
+Racial Modifiers: +4 Perception, +4 Stealth
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or nest (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

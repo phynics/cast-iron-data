@@ -30,77 +30,61 @@ abilities = ["31", "12", "23", "3", "10", "4"]
 _This majestic beast glides through the water with murderous intent. Its thick-toothed maw is wide
 enough for a human to stand in, and its body stretches back more than 20 feet._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+blindsense: 30
+Size: gargantuan
+Initiative: +1
+Keen Scent: present
+Alignment: Neutral
+Perception: +19
+Subtype: Aquatic
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 16
+Touch: 7
+Flat-footed: 15
+AC modifiers: +1 Dex, +9 natural, -4 size
+Hit points: 105 (10d8+60)
+Fort: +15
+Ref: +8
+Will: +3
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: swim 90 ft.
+Grab: present
+Melee: bite +13 (2d8+15/18-20 plus grab)
+Reach: 5
+Space: 20
+Spec Att: powerful jaws
+:::
 
-**Keen Scent:** present
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 31, Dex 12, Con 23, Int 3, Wis 10, Cha 4
+Base attack bonus: +7
+Combat maneuver bonus: +21 (+25 grapple, +23 sunder)
+Combat maneuver defense: 32 (+34 grapple)
+Feats: Endurance, Great Fortitude, Improved Sunder, Lunge, Skill Focus (Perception)
+Skills: Perception +19, Swim +18
+:::
 
-**Perception:** +19
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 3,200
-
-**Armor class:** 16
-
-**Touch:** 7
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +9 natural, -4 size
-
-**Hit points:** 105 (10d8+60)
-
-**Fort:** +15
-
-**Ref:** +8
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** swim 90 ft.
-
-**Grab:** present
-
-**Melee:** bite +13 (2d8+15/18-20 plus grab)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** powerful jaws
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 12, Con 23, Int 3, Wis 10, Cha 4
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +21 (+25 grapple, +23 sunder)
-
-**Combat maneuver defense:** 32 (+34 grapple)
-
-**Feats:** Endurance, Great Fortitude, Improved Sunder, Lunge, Skill Focus (Perception)
-
-**Skills:** Perception +19, Swim +18
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,82 +31,63 @@ abilities = ["8", "16", "15", "11", "14", "13"]
 _This tiny, vaguely humanoid creature seems to be made completely of bundles of sticks wound with
 thorny vines._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: fey
+Initiative: +3
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 14
+AC modifiers: +3 Dex, +2 natural, +2 size
+Hit points: 27 (5d6+10)
+Fort: +3
+Ref: +7
+Will: +6
+Vulner: fire
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 30 ft.
+Melee: spear +3 (1d4-1/×3) or 2 claws +7 (1d4-1)
+Reach: 0
+Reach P: 5 ft. with spear
+Sneak: +2d6
+Space: 2-1/2
+Spec Att: splinterspray
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 16, Con 15, Int 11, Wis 14, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 12
+Feats: Agile Maneuvers, Skill Focus (Stealth), Weapon Finesse
+Skills: Acrobatics +11, Climb +7, Disable Device +8, Knowledge (nature) +8, Perception +10, Stealth +22
+Languages: Common, Sylvan
+Special qualities: bramble jump, [woodland stride](ref/ability/woodland-stride)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +2 natural, +2 size
-
-**Hit points:** 27 (5d6+10)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +6
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spear +3 (1d4-1/×3) or 2 claws +7 (1d4-1)
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with spear
-
-**Sneak:** +2d6
-
-**Space:** 2-1/2
-
-**Spec Att:** splinterspray
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 16, Con 15, Int 11, Wis 14, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 12
-
-**Feats:** Agile Maneuvers, Skill Focus (Stealth), Weapon Finesse
-
-**Skills:** Acrobatics +11, Climb +7, Disable Device +8, Knowledge (nature) +8, Perception +10,
-Stealth +22
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** bramble jump, [woodland stride](ref/ability/woodland-stride)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or gang (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

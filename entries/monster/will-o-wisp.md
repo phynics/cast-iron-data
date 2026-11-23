@@ -31,75 +31,60 @@ abilities = ["1", "29", "10", "15", "16", "14"]
 _This faintly glowing ball of light bobs gently in the air, the nebulous image of what might be a
 skull visible somewhere in its depths._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +13
+Perception: +17
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Air
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 26
+Touch: 26
+Flat-footed: 16
+AC modifiers: +5 deflection, +9 Dex, +1 dodge, +1 size
+Hit points: 40 (9d8)
+Fort: +3
+Ref: +12
+Will: +9
+Defensive abilities: natural invisibility
+Immune: magic
+:::
 
-**Initiative:** +13
+### Offense
 
-**Perception:** +17
+::: statblock
+Speed: fly 50 ft. (perfect)
+Melee: [shock](ref/magic-enh/shock) +16 touch (2d8 electricity)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 1, Dex 29, Con 10, Int 15, Wis 16, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +0
+Combat maneuver defense: 24
+Feats: Alertness, Blind-Fight, Dodge, Improved Initiative, Weapon Finesse
+Skills: Acrobatics +21, Bluff +11, Escape Artist +21, Fly +31, Perception +17, Stealth +25
+Languages: Aklo, Common
+Special qualities: feed on fear
+:::
 
-**Subtype:** Air
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 26
-
-**Touch:** 26
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 deflection, +9 Dex, +1 dodge, +1 size
-
-**Hit points:** 40 (9d8)
-
-**Fort:** +3
-
-**Ref:** +12
-
-**Will:** +9
-
-**Defensive abilities:** natural invisibility
-
-**Immune:** magic
-
-**Offense**
-
-**Speed:** fly 50 ft. (perfect)
-
-**Melee:** [shock](ref/magic-enh/shock) +16 touch (2d8 electricity)
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 29, Con 10, Int 15, Wis 16, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 24
-
-**Feats:** Alertness, Blind-Fight, Dodge, Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +21, Bluff +11, Escape Artist +21, Fly +31, Perception +17, Stealth +25
-
-**Languages:** Aklo, Common
-
-**Special qualities:** feed on fear
-
-**Ecology**
-
-**Environment:** any swamp
-
-**Organization:** solitary, pair, or string (3-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any swamp
+Organization: solitary, pair, or string (3-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

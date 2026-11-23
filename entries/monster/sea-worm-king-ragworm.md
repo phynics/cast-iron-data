@@ -31,90 +31,69 @@ abilities = ["37", "28", "27", "-", "17", "2"]
 _This enormous segmented worm shimmers with iridescent colors, and large bristles run along its
 sides._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Size: gargantuan
+Initiative: +9
+Alignment: Neutral
+Perception: +3
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+tremorsense: 60
+Type: vermin
+Experience points: 25,600
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 28
+Touch: 15
+Flat-footed: 19
+AC modifiers: +9 Dex, +13 natural, -4 size
+Hit points: 187 (15d8+120)
+Fort: +17
+Ref: +14
+Will: +8
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft., burrow 20 ft., swim 40 ft.
+F Swallow: present
+Melee: bite +20 (2d8+13/19-20 plus [grab](ref/umr/grab)), slam +20 (2d6+13 plus poison), tail slap +15 (2d8+6 plus poison)
+Reach: 20
+Reach P: 25 ft. with bite
+Space: 20
+Spec Att: eversible pharynx, poison, vortex attack
+Swallow: 4d6 bludgeoning damage, AC 16, 18 hp
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
-
-**tremorsense:** 60
-
-**Type:** vermin
-
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +9 Dex, +13 natural, -4 size
-
-**Hit points:** 187 (15d8+120)
-
-**Fort:** +17
-
-**Ref:** +14
-
-**Will:** +8
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft., swim 40 ft.
-
-**F Swallow:** present
-
-**Melee:** bite +20 (2d8+13/19-20 plus [grab](ref/umr/grab)), slam +20 (2d6+13 plus poison), tail
-slap +15 (2d8+6 plus poison)
-
-**Reach:** 20
-
-**Reach P:** 25 ft. with bite
-
-**Space:** 20
-
-**Spec Att:** eversible pharynx, poison, vortex attack
-
-**Swallow:** 4d6 bludgeoning damage, AC 16, 18 hp
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 28, Con 27, Int -, Wis 17, Cha 2
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 47 (can't be tripped)
-
-**Feats:** Improved Critical^B^ (bite)
-
-**Skills:** Swim +21
-
-**Special qualities:** [compression](ref/umr/compression)
+::: statblock
+Ability scores: Str 37, Dex 28, Con 27, Int -, Wis 17, Cha 2
+Base attack bonus: +11
+Combat maneuver bonus: +28
+Combat maneuver defense: 47 (can't be tripped)
+Feats: Improved Critical^B^ (bite)
+Skills: Swim +21
+Special qualities: [compression](ref/umr/compression)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

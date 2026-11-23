@@ -33,77 +33,61 @@ abilities = ["9", "16", "17", "1", "12", "2"]
 _Venomous snakes slither and crawl over each other in a furious mass, their poison-dripping fangs
 glinting in the light._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +7
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision, Scent
+Subtype: Swarm
+Size: tiny
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 14
+AC modifiers: +3 Dex, +2 natural, +2 size
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +9
+Will: +2
+Defensive abilities: swarm traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 10 ft.
+Distraction: 15
+Melee: swarm (1d6 plus distraction and poison)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 9, Dex 16, Con 17, Int 1, Wis 12, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
+Skills: Acrobatics +7 (+3 when jumping), Climb +15
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +2 natural, +2 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +2
-
-**Defensive abilities:** swarm traits
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 10 ft.
-
-**Distraction:** 15
-
-**Melee:** swarm (1d6 plus distraction and poison)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 16, Con 17, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Acrobatics +7 (+3 when jumping), Climb +15
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, nest (2-4 swarms), or knot (5-7 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, nest (2-4 swarms), or knot (5-7 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

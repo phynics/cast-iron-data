@@ -30,78 +30,61 @@ abilities = ["38", "6", "23", "2", "11", "5"]
 _This immense whale moves slowly through the water with a grace that seems incongruous, given its
 immense size._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: animal
+blindsight: 120
+Size: gargantuan
+Initiative: +2
+Alignment: Neutral
+Perception: +23
+Senses: Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** animal
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 22
+Touch: 4
+Flat-footed: 22
+AC modifiers: -2 Dex, +18 natural, -4 size
+Hit points: 157 (15d8+90)
+Fort: +17
+Ref: +7
+Will: +7
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: swim 40 ft.
+Capsize: present
+Melee: tail slap +21 (4d6+21) or bite +21 (4d6+21)
+Reach: 20
+Space: 20
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +23
+::: statblock
+Ability scores: Str 38, Dex 6, Con 23, Int 2, Wis 11, Cha 5
+Base attack bonus: +11
+Combat maneuver bonus: +29
+Combat maneuver defense: 37 (can't be tripped)
+Feats: Diehard, Endurance, Great Fortitude, Improved Bull Rush, Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception)
+Skills: Perception +23, Swim +30
+Racial Modifiers: +4 Perception
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 22
-
-**Touch:** 4
-
-**Flat-footed:** 22
-
-**AC modifiers:** -2 Dex, +18 natural, -4 size
-
-**Hit points:** 157 (15d8+90)
-
-**Fort:** +17
-
-**Ref:** +7
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** swim 40 ft.
-
-**Capsize:** present
-
-**Melee:** tail slap +21 (4d6+21) or bite +21 (4d6+21)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 6, Con 23, Int 2, Wis 11, Cha 5
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Feats:** Diehard, Endurance, Great Fortitude, Improved Bull Rush, Improved Initiative, Iron Will,
-Power Attack, Skill Focus (Perception)
-
-**Skills:** Perception +23, Swim +30
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or pod (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or pod (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

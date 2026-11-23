@@ -29,84 +29,66 @@ abilities = ["23", "10", "17", "12", "12", "11"]
 _This creature has the wings of a bird, the body of a lion, and the head of a ram with sad, wise
 eyes._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +0
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 20
+AC modifiers: +11 natural, -1 size
+Hit points: 85 (10d10+30)
+Fort: +10
+Ref: +7
+Will: +4
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (poor)
+Melee: 2 claws +15 (1d6+6), gore +16 (2d4+6/19-20)
+Reach: 5
+Space: 10
+Spec Att: swooping charge (gore, 4d4+12)
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +10
+Constant: speak with animals
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 23, Dex 10, Con 17, Int 12, Wis 12, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Improved Bull Rush, Improved Critical (gore), Power Attack, Skill Focus (Intimidate), Weapon Focus (gore)
+Skills: Bluff +10, Fly +1, Intimidate +16, Perception +10
+Languages: Common, Sphinx; _[speak with animals](ref/spell/speak-with-animals)_
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +11 natural, -1 size
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (poor)
-
-**Melee:** 2 claws +15 (1d6+6), gore +16 (2d4+6/19-20)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** swooping charge (gore, 4d4+12)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +10
-
-**Constant:**
-
-- speak with animals
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 10, Con 17, Int 12, Wis 12, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Improved Bull Rush, Improved Critical (gore), Power Attack, Skill Focus (Intimidate),
-Weapon Focus (gore)
-
-**Skills:** Bluff +10, Fly +1, Intimidate +16, Perception +10
-
-**Languages:** Common, Sphinx; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Ecology**
-
-**Environment:** warm deserts or hills
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts or hills
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -34,99 +34,72 @@ abilities = ["19", "13", "18", "11", "14", "18"]
 _One half of this creature is a nude woman, and the other is the front end of a slithering, winged
 dragon._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Initiative: +5
+Size: large
+Type: Monstrous humanoid
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 27
+Touch: 10
+Flat-footed: 26
+AC modifiers: +1 Dex, +17 natural, -1 size
+Hit points: 152 (16d10+64)
+Fort: +9
+Ref: +11
+Will: +14; +4 vs. mind-affecting effects
+Defensive abilities: unwavering mind
+Immune: cold
+Resist: fire 10, sonic 10
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., swim 50 ft., fly 40 ft. (poor)
+Br Weap: 30-ft. cone, 8d6 fire, Reflex DC 22 half, usable every 1d4 rounds
+Melee: bite +20 (3d6+4 plus [grab](ref/umr/grab)), 2 claws +20 (2d6+4/19-20), 2 wings +14 (1d8+2)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +17
+At will: charm person (DC 15), comprehend languages, ghost sound (DC 14), speak with animals, snakes only
+Per day: 1/day: charm animal (DC 15, snakes only), shout (DC 18), song of discord (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 19, Dex 13, Con 18, Int 11, Wis 14, Cha 18
+Base attack bonus: +16
+Combat maneuver bonus: +21 (+25 grapple)
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Critical Focus, Deafening Critical, Great Fortitude, Improved Critical (claw), Improved Initiative, Iron Will, Weapon Focus (bite), Weapon Focus (claw)
+Skills: Bluff +20, Fly +6
+Languages: Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious), snake empathy
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +17 natural, -1 size
-
-**Hit points:** 152 (16d10+64)
-
-**Fort:** +9
-
-**Ref:** +11
-
-**Will:** +14; +4 vs. mind-affecting effects
-
-**Defensive abilities:** unwavering mind
-
-**Immune:** cold
-
-**Resist:** fire 10, sonic 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft., fly 40 ft. (poor)
-
-**Br Weap:** 30-ft. cone, 8d6 fire, Reflex DC 22 half, usable every 1d4 rounds
-
-**Melee:** bite +20 (3d6+4 plus [grab](ref/umr/grab)), 2 claws +20 (2d6+4/19-20), 2 wings +14
-(1d8+2)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +17
-
-**At will:**
-
-- charm person (DC 15), comprehend languages, ghost sound (DC 14), speak with animals, snakes only
-
-**Per day:**
-
-- 1/day: charm animal (DC 15, snakes only), shout (DC 18), song of discord (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 13, Con 18, Int 11, Wis 14, Cha 18
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +21 (+25 grapple)
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Critical Focus, Deafening Critical, Great Fortitude, Improved Critical (claw), Improved
-Initiative, Iron Will, Weapon Focus (bite), Weapon Focus (claw)
-
-**Skills:** Bluff +20, Fly +6
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious), snake empathy
-
-**Ecology**
-
-**Environment:** temperate forests, lakes, or rivers
-
-**Organization:** solitary or harem (1 plus 4-10 snakes)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests, lakes, or rivers
+Organization: solitary or harem (1 plus 4-10 snakes)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

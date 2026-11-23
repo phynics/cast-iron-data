@@ -32,121 +32,91 @@ abilities = ["11", "14", "8", "10", "17", "14"]
 _This blue-haired, blue-skinned man moves with a liquid grace. His ears are fin-like, and his hands
 and feet are webbed._
 
-**Challenge rating:** 1/2
-
 **Undine [cleric](ref/class/cleric) 1**
 
-**Initiative:** +2
+::: statblock
+Challenge rating: 1/2
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +3
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +5 armor, +2 Dex
+Hit points: 8 (1d8)
+Fort: +1
+Ref: +3
+Will: +5
+Resist: cold 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Ch P En: 7/day, DC 12, 1d6
+Melee: trident +0 (1d8)
+Ranged: sling +2 (1d4)
+Sp Extra: 20 ft. in armor, swim 30 ft.
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +3
+Per day: 1/day: hydraulic push
+:::
 
-**Subtype:** Native
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+Per day: 6/day: dazing touch, icicle, 1d6+1 cold damage
+:::
 
-**Experience points:** 200
-
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 armor, +2 Dex
-
-**Hit points:** 8 (1d8)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +5
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch P En:** 7/day, DC 12, 1d6
-
-**Melee:** trident +0 (1d8)
-
-**Ranged:** sling +2 (1d4)
-
-**Sp Extra:** 20 ft. in armor, swim 30 ft.
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**Per day:**
-
-- 1/day: hydraulic push
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**Per day:**
-
-- 6/day: dazing touch, icicle, 1d6+1 cold damage
-
-**Prepared Spells**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- bless, charm person^D^, divine favor
-
-**Cantrips:**
-
-- create water, guidance, stabilize
-
-**Domains:** [Charm](ref/domain/charm), [Water](ref/domain/water)
+::: statblock
+title = "Prepared Spells"
+Caster level: 1
+Concentration: +4
+1st-level spells: bless, charm person^D^, divine favor
+Cantrips: create water, guidance, stabilize
+Domains: [Charm](ref/domain/charm), [Water](ref/domain/water)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 11, Dex 14, Con 8, Int 10, Wis 17, Cha 14
+::: statblock
+Ability scores: Str 11, Dex 14, Con 8, Int 10, Wis 17, Cha 14
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 12
+Feats: Extra Channel
+Skills: Diplomacy +6, Knowledge (religion) +4, Swim +4
+Languages: Aquan, Common
+Special qualities: water affinity
+:::
 
-**Base attack bonus:** +0
+### Ecology
 
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12
-
-**Feats:** Extra Channel
-
-**Skills:** Diplomacy +6, Knowledge (religion) +4, Swim +4
-
-**Languages:** Aquan, Common
-
-**Special qualities:** water affinity
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gang (3-5)
-
-**Treasure:** NPC gear (scale mail, trident); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gang (3-5)
+Treasure: NPC gear (scale mail, trident); other treasure
+:::
 
 ### Special Abilities
 

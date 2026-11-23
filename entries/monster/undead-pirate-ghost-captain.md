@@ -28,94 +28,68 @@ special_qualities = "armor training 1, rogue talents (bleeding attack +2), trapf
 abilities = ["-", "16", "-", "13", "12", "20"]
 +++
 
-**Challenge rating:** 7
-
 **Human [ghost](ref/template/ghost) [fighter](ref/class/fighter) 3/[rogue](ref/class/rogue) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Augmented humanoid, Incorporeal
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 19
+Flat-footed: 15
+AC modifiers: +5 deflection, +3 Dex, +1 dodge
+Hit points: 70 (3d10+3d8+36\~6)
+Fort: +9
+Ref: +9
+Will: +5; +1 vs. fear
+Chan Res: +4
+Defensive abilities: bravery +1, rejuvenation
+Evasion: present
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Trap S: +1
+:::
 
-**Perception:** +9
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: fly 30 ft. (perfect)
+Melee: corrupting touch +8 (7d6, Fort DC 18 halves)
+Spec Att: corrupting gaze (2d10 plus 1d4 Charisma, DC 18), [sneak attack](ref/ability/sneak-attack) +2d6
+:::
 
-**Subtype:** Augmented humanoid, Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 16, Con -, Int 13, Wis 12, Cha 20
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 24
+Feats: Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Weapon Finesse
+Skills: Bluff +14, Diplomacy +14, Fly +11
+Racial Modifiers: +8 Perception, +8 Stealth
+Languages: Common, Polyglot
+Special qualities: armor training 1, rogue talents ([bleeding attack](ref/talent/bleeding-attack) +2), [trapfinding](ref/ability/trapfinding) +1
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 19
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 deflection, +3 Dex, +1 dodge
-
-**Hit points:** 70 (3d10+3d8+36\~6)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +5; +1 vs. fear
-
-**Chan Res:** +4
-
-**Defensive abilities:** bravery +1, rejuvenation
-
-**Evasion:** present
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Trap S:** +1
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Melee:** corrupting touch +8 (7d6, Fort DC 18 halves)
-
-**Spec Att:** corrupting gaze (2d10 plus 1d4 Charisma, DC 18),
-[sneak attack](ref/ability/sneak-attack) +2d6
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 16, Con -, Int 13, Wis 12, Cha 20
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 24
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Weapon
-Finesse
-
-**Skills:** Bluff +14, Diplomacy +14, Fly +11
-
-**Racial Modifiers:** +8 Perception, +8 Stealth
-
-**Languages:** Common, Polyglot
-
-**Special qualities:** armor training 1, rogue talents
-([bleeding attack](ref/talent/bleeding-attack) +2), [trapfinding](ref/ability/trapfinding) +1
-
-**Ecology**
-
-**Environment:** any oceans or coastlines
-
-**Organization:** solitary or crew (1 ghost captain plus 2-4
-[draugr captains](ref/monster/undead-pirate-draugr-captain) and 6-15
-[draugr pirates](ref/monster/undead-pirate-draugr-pirate))
-
-**Treasure:** NPC gear
+::: statblock
+Environment: any oceans or coastlines
+Organization: solitary or crew (1 ghost captain plus 2-4 [draugr captains](ref/monster/undead-pirate-draugr-captain) and 6-15 [draugr pirates](ref/monster/undead-pirate-draugr-pirate))
+Treasure: NPC gear
+:::
 
 ### Description
 

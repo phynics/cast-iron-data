@@ -30,79 +30,62 @@ abilities = ["18", "16", "15", "8", "11", "9"]
 _The creature is unbelievably slender and has teeth filed to points. Its long, gangly arms end in
 hands with wickedly sharp nails._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +7
+Size: medium
+Perception: +10
+Senses: Low-light vision
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +3 natural
+Hit points: 38 (7d6+14)
+Fort: +4
+Ref: +8
+Will: +7
+Immune: poison
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Melee: bite +7 (1d6+4), 2 claws +8 (1d4+4 plus 1d4 bleed)
+Reach: 5
+Reach P: 10 ft. with claws
+Space: 5
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 16, Con 15, Int 8, Wis 11, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 21
+Feats: Dodge, Improved Initiative, Iron Will, Weapon Focus (claw)
+Skills: Climb +14, Escape Artist +17, Perception +10
+Racial Modifiers: +4 Escape Artist, +12 Stealth in cane fields
+Languages: Aklo
+Special qualities: [compression](ref/umr/compression), vanish
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +3 natural
-
-**Hit points:** 38 (7d6+14)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +7
-
-**Immune:** poison
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Melee:** bite +7 (1d6+4), 2 claws +8 (1d4+4 plus 1d4 bleed)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with claws
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con 15, Int 8, Wis 11, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Improved Initiative, Iron Will, Weapon Focus (claw)
-
-**Skills:** Climb +14, Escape Artist +17, Perception +10
-
-**Racial Modifiers:** +4 Escape Artist, +12 Stealth in cane fields
-
-**Languages:** Aklo
-
-**Special qualities:** [compression](ref/umr/compression), vanish
-
-**Ecology**
-
-**Environment:** warm plains (Nuat)
-
-**Organization:** solitary, pair, or band (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains (Nuat)
+Organization: solitary, pair, or band (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

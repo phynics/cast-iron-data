@@ -34,73 +34,59 @@ abilities = ["19", "15", "17", "4", "12", "13"]
 _This muscular canine has a maw full of sharp teeth and an inky black coat that almost seems to
 drink in the light around it._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Scent
+Subtype: Evil, Extraplanar
+Experience points: 1,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +7
+Will: +5
+Defensive abilities: shadow blend
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Melee: bite +10 (1d8+4 plus [trip](ref/umr/trip)), tail slap +5 (1d6+2)
+Spec Att: bay
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 19, Dex 15, Con 17, Int 4, Wis 12, Cha 13
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Improved Initiative, Iron Will, Power Attack
+Skills: Perception +10
+Languages: Common (can't speak)
+:::
 
-**Subtype:** Evil, Extraplanar
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +5
-
-**Defensive abilities:** shadow blend
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +10 (1d8+4 plus [trip](ref/umr/trip)), tail slap +5 (1d6+2)
-
-**Spec Att:** bay
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 17, Int 4, Wis 12, Cha 13
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Improved Initiative, Iron Will, Power Attack
-
-**Skills:** Perception +10
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

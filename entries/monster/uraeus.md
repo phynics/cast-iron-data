@@ -33,75 +33,60 @@ abilities = ["19", "16", "14", "15", "14", "15"]
 _This two-headed cobra flies with a large pair of sleek, blackfeathered wings that sprout from its
 serpentine body._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +7
+Alignment: Lawful good
+Type: Magical beast
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 52 (7d10+14)
+Fort: +7
+Ref: +8
+Will: +4
+Immune: disease
+Resist: fire 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft., fly 50 ft. (average)
+Melee: 2 bites +11 (1d8+4 plus poison)
+Spec Att: breath weapon, poison
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 16, Con 14, Int 15, Wis 14, Cha 15
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 24
+Feats: Acrobatic, Combat Expertise, Flyby Attack, Improved Initiative
+Skills: Acrobatics +15, Climb +18, Fly +11
+Racial Modifiers: +4 Acrobatics, +8 Perception
+Languages: Aquan, Celestial, Common
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 52 (7d10+14)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +4
-
-**Immune:** disease
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft., fly 50 ft. (average)
-
-**Melee:** 2 bites +11 (1d8+4 plus poison)
-
-**Spec Att:** breath weapon, poison
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 16, Con 14, Int 15, Wis 14, Cha 15
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24
-
-**Feats:** Acrobatic, Combat Expertise, Flyby Attack, Improved Initiative
-
-**Skills:** Acrobatics +15, Climb +18, Fly +11
-
-**Racial Modifiers:** +4 Acrobatics, +8 Perception
-
-**Languages:** Aquan, Celestial, Common
-
-**Ecology**
-
-**Environment:** warm rivers
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm rivers
+Organization: solitary, pair, or nest (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

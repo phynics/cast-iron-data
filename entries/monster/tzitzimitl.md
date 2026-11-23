@@ -31,114 +31,78 @@ abilities = ["39", "21", "-", "20", "23", "30"]
 _Crusted with rock, this immense skeletal figure flies swiftly through the air, strange gasses
 clinging to its nightmarish form._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Size: gargantuan
+Initiative: +9
+Alignment: Neutral evil
+Perception: +31
+Senses: Arcane sight, Darkvision 60 ft., True seeing
+Type: undead
+Experience points: 204,800
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 35
+Touch: 11
+Flat-footed: 30
+AC modifiers: +5 Dex, +24 natural, -4 size
+Hit points: 319 (22d8+220)
+Fort: +17
+Ref: +14
+Will: +19
+Chan Res: +4
+Defensive abilities: light to dark
+Dr: 15/bludgeoning and good
+Fh: 15
+Immune: cold, electricity, [undead traits](ref/umr/undead-traits)
+Resist: fire 15
+Sr: 30
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +31
+::: statblock
+Speed: 50 ft., fly 60 ft. (good)
+E Drain: 2 levels, DC 31
+Melee: bite +26 (2d8+14 plus 3d6 electricity and energy drain), 2 claws +27 (2d6+14/19-20 plus 3d6 electricity)
+Ranged: eye beam +17 touch (10d6 electricity and 10d6 force)
+Reach: 20
+Space: 20
+Spec Att: eclipse
+:::
 
-**Senses:** Arcane sight, Darkvision 60 ft., True seeing
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +29
+Constant: arcane sight, fly, true seeing
+At will: bestow curse (DC 24), deeper darkness
+Per day: 3/day: animate dead, contagion (DC 24), greater teleport, haste\
+1/day: create undead, temporal stasis (DC 28), wail of the banshee (DC 29)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 204,800
+::: statblock
+Ability scores: Str 39, Dex 21, Con -, Int 20, Wis 23, Cha 30
+Base attack bonus: +16
+Combat maneuver bonus: +29
+Combat maneuver defense: 44
+Feats: Awesome Blow, Combat Reflexes, Improved Bull Rush, Improved Critical (claw), Improved Initiative, Lightning Reflexes, Point-Blank Shot, Power Attack, Precise Shot, Vital Strike, Weapon Focus (claw)
+Skills: Fly +35, Knowledge (arcana) +28, Knowledge (planes) +25, Perception +31, Use Magic Device +30
+Languages: Abyssal, Aklo, Celestial, Common
+:::
 
-**Armor class:** 35
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 30
-
-**AC modifiers:** +5 Dex, +24 natural, -4 size
-
-**Hit points:** 319 (22d8+220)
-
-**Fort:** +17
-
-**Ref:** +14
-
-**Will:** +19
-
-**Chan Res:** +4
-
-**Defensive abilities:** light to dark
-
-**Dr:** 15/bludgeoning and good
-
-**Fh:** 15
-
-**Immune:** cold, electricity, [undead traits](ref/umr/undead-traits)
-
-**Resist:** fire 15
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 50 ft., fly 60 ft. (good)
-
-**E Drain:** 2 levels, DC 31
-
-**Melee:** bite +26 (2d8+14 plus 3d6 electricity and energy drain), 2 claws +27 (2d6+14/19-20 plus
-3d6 electricity)
-
-**Ranged:** eye beam +17 touch (10d6 electricity and 10d6 force)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** eclipse
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +29
-
-**Constant:**
-
-- arcane sight, fly, true seeing
-
-**At will:**
-
-- bestow curse (DC 24), deeper darkness
-
-**Per day:**
-
-- 3/day: animate dead, contagion (DC 24), greater teleport, haste
-- 1/day: create undead, temporal stasis (DC 28), wail of the banshee (DC 29)
-
-**Statistics**
-
-**Ability scores:** Str 39, Dex 21, Con -, Int 20, Wis 23, Cha 30
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 44
-
-**Feats:** Awesome Blow, Combat Reflexes, Improved Bull Rush, Improved Critical (claw), Improved
-Initiative, Lightning Reflexes, Point-Blank Shot, Power Attack, Precise Shot, Vital Strike, Weapon
-Focus (claw)
-
-**Skills:** Fly +35, Knowledge (arcana) +28, Knowledge (planes) +25, Perception +31, Use Magic
-Device +30
-
-**Languages:** Abyssal, Aklo, Celestial, Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

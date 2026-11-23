@@ -32,113 +32,77 @@ abilities = ["-", "31", "36", "24", "23", "29"]
 _This luminous shape stands twice the height of a human. A pale light shines where its face should
 be._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: whispers (120 ft., DC 30)
+blindsight: 360
+Type: fey
+Initiative: +20
+Size: large
+Alignment: Neutral evil
+Perception: +37
+Senses: Low-light vision, See in darkness
+Subtype: Extraplanar, Incorporeal
+Experience points: 307,200
+:::
 
-**aura:** whispers (120 ft., DC 30)
+### Defense
 
-**blindsight:** 360
+::: statblock
+Armor class: 35
+Touch: 35
+Flat-footed: 24
+AC modifiers: +9 deflection, +10 Dex, +1 dodge, +6 insight, -1 size
+Hit points: 363 (22d6+286)
+Fort: +20
+Ref: +23
+Will: +21
+Defensive abilities: anticipation, rejuvenate
+Dr: 15/cold iron
+Immune: cold, disease, mind-affecting effects, poison, sonic
+Incorporeal: present
+Sr: 31
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +20
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 6 mist tendrils +20 touch (3d10/19-20 plus cursed wound)
+Reach: 20
+Space: 10
+Spec Att: compel sacrifice, inescapable curse
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +29
+At will: animate plants, arboreal hammer, control water, control weather, dominate animal (DC 22), dream, etherealness, greater dispel magic, nightmare (DC 24), telekinesis (DC 24), transport via plants, triggered suggestion (DC 23), wind walk
+Per day: 3/day: commune with nature, quickened confusion (DC 23), quickened greater dispel magic, green caress (DC 25)\
+1/day: earthquake, reverse gravity, whirlwind (DC 27), wish, to duplicate druid spells of 7th or lower level only
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +37
+::: statblock
+Ability scores: Str -, Dex 31, Con 36, Int 24, Wis 23, Cha 29
+Base attack bonus: +11
+Combat maneuver bonus: +22
+Combat maneuver defense: 48 (can't be tripped)
+Feats: Combat Casting, Combat Reflexes, Dodge, Flyby Attack, Improved Critical (touch), Improved Initiative, Iron Will, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (confusion, greater dispel magic), Skill Focus (Perception)
+Skills: Bluff +34, Disable Device +32, Fly +41, Knowledge (arcana, planes, religion) +29, Perception +37
+Languages: Aklo, Sylvan; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: primeval landscape, unsuspected
+:::
 
-**Senses:** Low-light vision, See in darkness
+### Ecology
 
-**Subtype:** Extraplanar, Incorporeal
-
-**Experience points:** 307,200
-
-**Armor class:** 35
-
-**Touch:** 35
-
-**Flat-footed:** 24
-
-**AC modifiers:** +9 deflection, +10 Dex, +1 dodge, +6 insight, -1 size
-
-**Hit points:** 363 (22d6+286)
-
-**Fort:** +20
-
-**Ref:** +23
-
-**Will:** +21
-
-**Defensive abilities:** anticipation, rejuvenate
-
-**Dr:** 15/cold iron
-
-**Immune:** cold, disease, mind-affecting effects, poison, sonic
-
-**Incorporeal:** present
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 6 mist tendrils +20 touch (3d10/19-20 plus cursed wound)
-
-**Reach:** 20
-
-**Space:** 10
-
-**Spec Att:** compel sacrifice, inescapable curse
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +29
-
-**At will:**
-
-- animate plants, arboreal hammer, control water, control weather, dominate animal (DC 22), dream,
-  etherealness, greater dispel magic, nightmare (DC 24), telekinesis (DC 24), transport via plants,
-  triggered suggestion (DC 23), wind walk
-
-**Per day:**
-
-- 3/day: commune with nature, quickened confusion (DC 23), quickened greater dispel magic, green
-  caress (DC 25)
-- 1/day: earthquake, reverse gravity, whirlwind (DC 27), wish, to duplicate druid spells of 7th or
-  lower level only
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 31, Con 36, Int 24, Wis 23, Cha 29
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 48 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Flyby Attack, Improved Critical (touch), Improved
-Initiative, Iron Will, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(confusion, greater dispel magic), Skill Focus (Perception)
-
-**Skills:** Bluff +34, Disable Device +32, Fly +41, Knowledge (arcana, planes, religion) +29,
-Perception +37
-
-**Languages:** Aklo, Sylvan; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** primeval landscape, unsuspected
-
-**Ecology**
-
-**Environment:** any wilderness
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any wilderness
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

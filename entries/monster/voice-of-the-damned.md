@@ -32,112 +32,70 @@ abilities = ["38", "35", "38", "35", "34", "27"]
 _Blasphemous pages cloak this creature's gaunt, winged form. Within its depthless hood burns a
 vortex of otherworldly flame._
 
-**Challenge rating:** 25
+::: statblock
+Challenge rating: 25
+aura: [frightful presence](ref/umr/frightful-presence) (100 ft., DC 32), unholy aura (DC 26)
+Initiative: +16
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +44
+Senses: Darkvision 60 ft., Detect good, See in darkness, True seeing
+Subtype: Evil, Native
+Experience points: 1,638,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (100 ft., DC 32), unholy aura (DC 26)
+### Defense
 
-**Initiative:** +16
+::: statblock
+Armor class: 43
+Touch: 35
+Flat-footed: 31
+AC modifiers: +12 Dex, +8 natural, +14 profane, -1 size
+Hit points: 565 (29d10+406)
+Fort: +23
+Ref: +28
+Will: +28
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, charm effects, cold, compulsion effects, death effects, disease, energy drain, mind-affecting effects, petrification, poison, sonic
+Regen: 25 (deific or mythic)
+Resist: acid 25, electricity 25, fire 25
+Sr: 36
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 60 ft., fly 180 ft. (perfect)
+Melee: 2 claws +42 (1d6+14), 4 slams +42 (1d6+14/19-20), 2 wings +40 (1d8+7) or swarm (8d6 plus distraction)
+Reach: 10
+Space: 10
+Spec Att: blasphemous embrace, consume, malevolence, wracking gaze
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 25
+Concentration: +33
+Constant: detect good, freedom of movement, tongues, true seeing, unholy aura (DC 26)
+At will: blasphemy (DC 25), dimension door, greater dispel magic, greater shadow evocation, greater teleport, legend lore, mirage arcana, persistent image, shapechange, symbol of fear (DC 24), telekinesis (DC 23), unholy blight (DC 22)
+Per day: 3/day: quickened heal, mislead, symbol of insanity (DC 26), symbol of weakness (DC 25)\
+1/day: quickened symbol of death (DC 26), summon (level 9, 1 balor, 1 olethrodaemon, or 1 pit fiend 100%), weird (DC 27)
+:::
 
-**Perception:** +44
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, See in darkness, True seeing
-
-**Subtype:** Evil, Native
-
-**Experience points:** 1,638,400
-
-**Armor class:** 43
-
-**Touch:** 35
-
-**Flat-footed:** 31
-
-**AC modifiers:** +12 Dex, +8 natural, +14 profane, -1 size
-
-**Hit points:** 565 (29d10+406)
-
-**Fort:** +23
-
-**Ref:** +28
-
-**Will:** +28
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, charm effects, cold, compulsion effects, death effects,
-disease, energy drain, mind-affecting effects, petrification, poison, sonic
-
-**Regen:** 25 (deific or mythic)
-
-**Resist:** acid 25, electricity 25, fire 25
-
-**Sr:** 36
-
-**Offense**
-
-**Speed:** 60 ft., fly 180 ft. (perfect)
-
-**Melee:** 2 claws +42 (1d6+14), 4 slams +42 (1d6+14/19-20), 2 wings +40 (1d8+7) or swarm (8d6 plus
-distraction)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** blasphemous embrace, consume, malevolence, wracking gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 25
-
-**Concentration:** +33
-
-**Constant:**
-
-- detect good, freedom of movement, tongues, true seeing, unholy aura (DC 26)
-
-**At will:**
-
-- blasphemy (DC 25), dimension door, greater dispel magic, greater shadow evocation, greater
-  teleport, legend lore, mirage arcana, persistent image, shapechange, symbol of fear (DC 24),
-  telekinesis (DC 23), unholy blight (DC 22)
-
-**Per day:**
-
-- 3/day: quickened heal, mislead, symbol of insanity (DC 26), symbol of weakness (DC 25)
-- 1/day: quickened symbol of death (DC 26), summon (level 9, 1 balor, 1 olethrodaemon, or 1 pit
-  fiend 100%), weird (DC 27)
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 35, Con 38, Int 35, Wis 34, Cha 27
-
-**Base attack bonus:** +29
-
-**Combat maneuver bonus:** +44 (+52 grapple, +48 trip)
-
-**Combat maneuver defense:** 84 (86 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Flyby Attack, Greater Trip, Greater
-Vital Strike, Improved Critical (slam), Improved Initiative, Improved Trip, Improved Vital Strike,
-Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (heal),
-Staggering Critical, Vital Strike
-
-**Skills:** Acrobatics +41 (+53 when jumping), Bluff +40, Diplomacy +40, Disguise +37, Sense Motive
-+44, Spellcraft +44, Stealth +40, Use Magic Device +37
-
-**Languages:** Abyssal, Aklo, Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 300 ft.,
-_[tongues](ref/spell/tongues)_
-
-**Special qualities:** discorporate, master of symbols, tenacious
+::: statblock
+Ability scores: Str 38, Dex 35, Con 38, Int 35, Wis 34, Cha 27
+Base attack bonus: +29
+Combat maneuver bonus: +44 (+52 grapple, +48 trip)
+Combat maneuver defense: 84 (86 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Flyby Attack, Greater Trip, Greater Vital Strike, Improved Critical (slam), Improved Initiative, Improved Trip, Improved Vital Strike, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (heal), Staggering Critical, Vital Strike
+Skills: Acrobatics +41 (+53 when jumping), Bluff +40, Diplomacy +40, Disguise +37, Sense Motive +44, Spellcraft +44, Stealth +40, Use Magic Device +37
+Languages: Abyssal, Aklo, Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 300 ft., _[tongues](ref/spell/tongues)_
+Special qualities: discorporate, master of symbols, tenacious
+:::
 
 ### Special Abilities
 

@@ -33,92 +33,69 @@ abilities = ["19", "16", "15", "12", "13", "16"]
 _This elegant half-woman, half-bee wields a glaive and is clad in flowing, gauzy garments. A veil
 covers most of her face._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Alignment: Lawful neutral
+Size: medium
+Type: Monstrous humanoid
+Perception: +10
+Senses: Darkvision 60 ft., Detect secret doors
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 60 (8d10+16)
+Fort: +6
+Ref: +9
+Will: +7; +4 vs. mind-affecting effects
+Immune: poison, sonic
+Resist: acid 10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: mwk glaive +13/+8 (1d10+6/×3), sting +10 (1d8+2 plus poison)
+Spec Att: inspiring dance, poison
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: detect secret doors
+At will: lullaby (DC 13)
+Per day: 3/day: calm emotions (DC 15), charm person (DC 14), hypnotism (DC 14)\
+1/day: deep slumber (DC 16), suggestion (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Detect secret doors
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 19, Dex 16, Con 15, Int 12, Wis 13, Cha 16
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 25
+Feats: Combat Reflexes, Great Fortitude, Improved Initiative, Multiattack
+Skills: Acrobatics +11, Diplomacy +11, Perform (dance) +11, Sleight of Hand +6, Stealth +12
+Languages: Common, Thriae
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 60 (8d10+16)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +7; +4 vs. mind-affecting effects
-
-**Immune:** poison, sonic
-
-**Resist:** acid 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** mwk glaive +13/+8 (1d10+6/×3), sting +10 (1d8+2 plus poison)
-
-**Spec Att:** inspiring dance, poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- detect secret doors
-
-**At will:**
-
-- lullaby (DC 13)
-
-**Per day:**
-
-- 3/day: calm emotions (DC 15), charm person (DC 14), hypnotism (DC 14)
-- 1/day: deep slumber (DC 16), suggestion (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 16, Con 15, Int 12, Wis 13, Cha 16
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25
-
-**Feats:** Combat Reflexes, Great Fortitude, Improved Initiative, Multiattack
-
-**Skills:** Acrobatics +11, Diplomacy +11, Perform (dance) +11, Sleight of Hand +6, Stealth +12
-
-**Languages:** Common, Thriae
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, duet, trio, or troupe (4-8)
-
-**Treasure:** Standard (mwk glaive); 3 doses of merope, other treasure
+::: statblock
+Environment: any
+Organization: solitary, duet, trio, or troupe (4-8)
+Treasure: Standard (mwk glaive); 3 doses of merope, other treasure
+:::
 
 ### Special Abilities
 

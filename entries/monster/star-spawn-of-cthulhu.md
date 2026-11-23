@@ -34,111 +34,77 @@ abilities = ["42", "13", "30", "23", "29", "24"]
 _A mountainous form, this hideous creature is humanoid in general shape, but its hateful face is a
 writhing mass of tentacles._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Type: aberration
+aura: [frightful presence](ref/umr/frightful-presence) (150 ft., DC 29)
+blindsight: 30
+Alignment: Chaotic evil
+Size: huge
+Initiative: +5
+Perception: +37
+Senses: Darkvision 60 ft.
+Experience points: 307,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (150 ft., DC 29)
+::: statblock
+Armor class: 36
+Touch: 9
+Flat-footed: 35
+AC modifiers: +1 Dex, +27 natural, -2 size
+Hit points: 362 (25d8+250)
+Fort: +18
+Ref: +9
+Will: +25; +8 vs. divination and mind-affecting
+Defensive abilities: immortality, overwhelming mind
+Immune: cold, disease, poison
+Regen: 15 (fire)
+Sr: 31
+:::
 
-**blindsight:** 30
+### Offense
 
-**Alignment:** Chaotic evil
+::: statblock
+Speed: 40 ft., swim 40 ft., fly 60 ft. (average)
+Constrict: 1d8+8
+Melee: 2 claws +32 (2d6+16/19-20), 6 tentacles +27 (1d8+8/19-20 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 15
+Spec Att: overwhelming mind
+:::
 
-**Size:** huge
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: mind blank
+At will: dream, insanity (DC 24), nightmare (DC 22), sending
+Per day: 3/day: demand (DC 25)\
+1/day: gate
+:::
 
-**Initiative:** +5
+### Statistics
 
-**Perception:** +37
+::: statblock
+Ability scores: Str 42, Dex 13, Con 30, Int 23, Wis 29, Cha 24
+Base attack bonus: +18
+Combat maneuver bonus: +36 (+38 bull rush, +40 grapple)
+Combat maneuver defense: 47
+Feats: Awesome Blow, Critical Focus, Greater Vital Strike, Improved Bull Rush, Improved Critical (claw), Improved Critical (tentacle), Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike
+Skills: Fly +25, Use Magic Device +32
+Languages: Aklo; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [compression](ref/umr/compression), limited starflight, [no breath](ref/umr/no-breath)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 9
-
-**Flat-footed:** 35
-
-**AC modifiers:** +1 Dex, +27 natural, -2 size
-
-**Hit points:** 362 (25d8+250)
-
-**Fort:** +18
-
-**Ref:** +9
-
-**Will:** +25; +8 vs. divination and mind-affecting
-
-**Defensive abilities:** immortality, overwhelming mind
-
-**Immune:** cold, disease, poison
-
-**Regen:** 15 (fire)
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft., fly 60 ft. (average)
-
-**Constrict:** 1d8+8
-
-**Melee:** 2 claws +32 (2d6+16/19-20), 6 tentacles +27 (1d8+8/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 15
-
-**Spec Att:** overwhelming mind
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- mind blank
-
-**At will:**
-
-- dream, insanity (DC 24), nightmare (DC 22), sending
-
-**Per day:**
-
-- 3/day: demand (DC 25)
-- 1/day: gate
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 13, Con 30, Int 23, Wis 29, Cha 24
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +36 (+38 bull rush, +40 grapple)
-
-**Combat maneuver defense:** 47
-
-**Feats:** Awesome Blow, Critical Focus, Greater Vital Strike, Improved Bull Rush, Improved Critical
-(claw), Improved Critical (tentacle), Improved Initiative, Improved Iron Will, Improved Vital
-Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike
-
-**Skills:** Fly +25, Use Magic Device +32
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [compression](ref/umr/compression), limited starflight,
-[no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cult (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or cult (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

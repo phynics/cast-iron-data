@@ -32,96 +32,71 @@ abilities = ["10", "17", "18", "15", "11", "24"]
 _Surrounded by a nimbus of near-blinding light, this strange creature looks something like an
 emaciated child with clawed hands._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: blinding light (60 feet)
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Type: outsider
+Perception: +25
+Senses: Darkvision 120 ft.
+Subtype: Evil, Extraplanar
+Experience points: 19,200
+:::
 
-**aura:** blinding light (60 feet)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 28
+Touch: 21
+Flat-footed: 24
+AC modifiers: +7 deflection, +3 Dex, +1 dodge, +7 natural
+Hit points: 152 (16d10+64)
+Fort: +14
+Ref: +10
+Will: +10
+Immune: blindness, fire, poison
+Resist: cold 10, sonic 10
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 50 ft. (perfect)
+Melee: 2 touches +19 (4d10 fire plus burning touch)
+Ranged: searing ray +19 touch (10d6 fire)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +19
+At will: greater teleport, self plus 50 lbs. of objects only, light, major image (DC 20)
+Per day: 3/day: greater dispel magic, mirage arcana (DC 20), rainbow pattern (DC 22), spell turning, sunbeam, wall of force\
+1/day: scintillating pattern (DC 25), screen (DC 25), symbol of insanity (DC 25)
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+Ability scores: Str 10, Dex 17, Con 18, Int 15, Wis 11, Cha 24
+Base attack bonus: +16
+Combat maneuver bonus: +16
+Combat maneuver defense: 37
+Feats: Ability Focus (blinding light), Dodge, Improved Initiative, Lightning Reflexes, Mobility, Skill Focus (Perception), Spring Attack, Weapon Finesse
+Skills: Bluff +26, Diplomacy +23, Spellcraft +21, Use Magic Device +26
+Languages: telepathy 120 ft.
+Special qualities: radiant armor
+:::
 
-**Subtype:** Evil, Extraplanar
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 28
-
-**Touch:** 21
-
-**Flat-footed:** 24
-
-**AC modifiers:** +7 deflection, +3 Dex, +1 dodge, +7 natural
-
-**Hit points:** 152 (16d10+64)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +10
-
-**Immune:** blindness, fire, poison
-
-**Resist:** cold 10, sonic 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (perfect)
-
-**Melee:** 2 touches +19 (4d10 fire plus burning touch)
-
-**Ranged:** searing ray +19 touch (10d6 fire)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +19
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, light, major image (DC 20)
-
-**Per day:**
-
-- 3/day: greater dispel magic, mirage arcana (DC 20), rainbow pattern (DC 22), spell turning,
-  sunbeam, wall of force
-- 1/day: scintillating pattern (DC 25), screen (DC 25), symbol of insanity (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 18, Int 15, Wis 11, Cha 24
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 37
-
-**Feats:** Ability Focus (blinding light), Dodge, Improved Initiative, Lightning Reflexes, Mobility,
-Skill Focus (Perception), Spring Attack, Weapon Finesse
-
-**Skills:** Bluff +26, Diplomacy +23, Spellcraft +21, Use Magic Device +26
-
-**Languages:** telepathy 120 ft.
-
-**Special qualities:** radiant armor
-
-**Ecology**
-
-**Environment:** any land (extraplanar)
-
-**Organization:** solitary, visitation (2-9), or incursion (11-20)
-
-**Treasure:** None
+::: statblock
+Environment: any land (extraplanar)
+Organization: solitary, visitation (2-9), or incursion (11-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

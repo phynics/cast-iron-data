@@ -28,99 +28,71 @@ special_qualities = "oracle's curse (clouded vision), revelations (bleeding woun
 abilities = ["6", "16", "12", "13", "10", "18"]
 +++
 
-**Challenge rating:** 4
-
 **Halfling [oracle](ref/class/oracle) 5**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +7
+Perception: +7
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Halfling
+Experience points: 1,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 19
+Touch: 14
+Flat-footed: 16
+AC modifiers: +5 armor, +3 Dex, +1 size
+Hit points: 31 (5d8+5)
+Fort: +3
+Ref: +5
+Will: +5; +2 vs. fear
+:::
 
-**Perception:** +7
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft.
+Melee: mwk dagger +3 (1d3-2/19-20)
+Ranged: dagger +7 (1d3-2/19-20)
+:::
 
-**Size:** small
+::: statblock
+title = "Spells Known"
+Caster level: 5
+Concentration: +9
+2nd-level spells: 5/day: desecrate, false life, hold person (DC 16), inflict moderate wounds (DC 16)
+1st-level spells: 7/day: cause fear (DC 15), compel hostility (DC 15), cure light wounds, inflict light wounds (DC 15), obscuring mist, shield of faith
+Cantrips: At will: bleed (DC 14), detect magic, mending, resistance, stabilize, virtue
+Mystery: [bones](ref/mystery/bones)
+:::
 
-**Subtype:** Halfling
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 6, Dex 16, Con 12, Int 13, Wis 10, Cha 18
+Base attack bonus: +3
+Combat maneuver bonus: +0
+Combat maneuver defense: 13
+Feats: Combat Casting, Improved Initiative, Lucky Halfling
+Skills: Acrobatics +4, Bluff +12, Climb -1, Diplomacy +12
+Languages: Abyssal, Common, Halfling
+Special qualities: oracle's curse ([clouded vision](ref/oraclecurse/clouded-vision)), revelations (bleeding wounds, death's touch)
+Combat gear: potion of invisibility, 2 scroll of dread bolt, scroll of helping hand, scroll of hide from undead, scroll of lesser animate dead, scroll of protective penumbra, scroll of silence, scroll of status, 4 -unholy water
+Other gear: +1 chain shirt, dagger, mwk dagger, scp, 2 srs, silver dust (worth 50 gp), 92 gp
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 armor, +3 Dex, +1 size
-
-**Hit points:** 31 (5d8+5)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +5; +2 vs. fear
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk dagger +3 (1d3-2/19-20)
-
-**Ranged:** dagger +7 (1d3-2/19-20)
-
-**Spells Known**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**2nd-level spells:**
-
-- 5/day: desecrate, false life, hold person (DC 16), inflict moderate wounds (DC 16)
-
-**1st-level spells:**
-
-- 7/day: cause fear (DC 15), compel hostility (DC 15), cure light wounds, inflict light wounds (DC
-  15), obscuring mist, shield of faith
-
-**Cantrips:**
-
-- At will: bleed (DC 14), detect magic, mending, resistance, stabilize, virtue
-
-**Mystery:** [bones](ref/mystery/bones)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 16, Con 12, Int 13, Wis 10, Cha 18
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 13
-
-**Feats:** Combat Casting, Improved Initiative, Lucky Halfling
-
-**Skills:** Acrobatics +4, Bluff +12, Climb -1, Diplomacy +12
-
-**Languages:** Abyssal, Common, Halfling
-
-**Special qualities:** oracle's curse ([clouded vision](ref/oraclecurse/clouded-vision)),
-revelations (bleeding wounds, death's touch)
-
-**Combat gear:** potion of invisibility, 2 scroll of dread bolt, scroll of helping hand, scroll of
-hide from undead, scroll of lesser animate dead, scroll of protective penumbra, scroll of silence,
-scroll of status, 4 -unholy water
-
-**Other gear:** +1 chain shirt, dagger, mwk dagger, scp, 2 srs, silver dust (worth 50 gp), 92 gp
-
-**Ecology**
-
-**Environment:** any
+::: statblock
+Environment: any
+:::
 
 ### Description
 

@@ -33,67 +33,56 @@ abilities = ["12", "15", "16", "2", "13", "7"]
 _This cat-like creature has a striped pelt and whiskers that jut from a long muzzle filled with
 sharp teeth._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 7 (1d8+3)
+Fort: +5
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft.
+Melee: bite +2 (1d4+1/19-20)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 15, Con 16, Int 2, Wis 13, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 12 (16 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Perception +8
+Special qualities: powerful jaws
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 7 (1d8+3)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +2 (1d4+1/19-20)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 16, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12 (16 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +8
-
-**Special qualities:** powerful jaws
-
-**Ecology**
-
-**Environment:** warm hills
-
-**Organization:** solitary or pack (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: warm hills
+Organization: solitary or pack (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

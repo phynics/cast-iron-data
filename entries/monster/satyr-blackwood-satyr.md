@@ -30,89 +30,64 @@ abilities = ["15", "20", "17", "14", "16", "21"]
 
 _No flavor text._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: incorrigible charm (30 ft., DC 19)
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +5
+Size: medium
+Perception: +22
+Senses: Low-light vision
+Experience points: 3,200
+:::
 
-**aura:** incorrigible charm (30 ft., DC 19)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 14
+AC modifiers: +5 Dex, +1 dodge, +4 natural
+Hit points: 83 (9d6+52)
+Fort: +6
+Ref: +11
+Will: +9
+Dr: 10/cold iron
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 40 ft.
+Melee: dagger +6 (1d4+2/19-20), horns +1 (1d6+1)
+Ranged: +1 longbow +11 (1d8+1/×3)
+Spec Att: pipes (DC 19)
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +13
+At will: dancing lights (DC 15), deep slumber (DC 18), ghost sound (DC 15), suggestion (DC 18)
+Per day: 3/day: major image (DC 18), reckless infatuation (DC 18)\
+1/day: charm monster (DC 19), summon nature's ally IV
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Low-light vision
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +1 dodge, +4 natural
-
-**Hit points:** 83 (9d6+52)
-
-**Fort:** +6
-
-**Ref:** +11
-
-**Will:** +9
-
-**Dr:** 10/cold iron
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** dagger +6 (1d4+2/19-20), horns +1 (1d6+1)
-
-**Ranged:** +1 longbow +11 (1d8+1/×3)
-
-**Spec Att:** pipes (DC 19)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +13
-
-**At will:**
-
-- dancing lights (DC 15), deep slumber (DC 18), ghost sound (DC 15), suggestion (DC 18)
-
-**Per day:**
-
-- 3/day: major image (DC 18), reckless infatuation (DC 18)
-- 1/day: charm monster (DC 19), summon nature's ally IV
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 20, Con 17, Int 14, Wis 16, Cha 21
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 22
-
-**Feats:** Dodge, Mobility, Skill Focus (Perception), Spell Penetration, Weapon Focus (longbow)
-
-**Skills:** Bluff +14, Diplomacy +17, Handle Animal +9, Perform (wind) +21, Sense Motive +10,
-Spellcraft +8, Stealth +17
-
-**Racial Modifiers:** +4 Perception, +4 Perform, +4 Stealth
-
-**Languages:** Common, Sylvan
-
-**Combat gear:** 3 MWsleep, 5 +1 SK arrows
-
-**Other gear:** +1 lb20, dagger, I-efficient quiver
+::: statblock
+Ability scores: Str 15, Dex 20, Con 17, Int 14, Wis 16, Cha 21
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 22
+Feats: Dodge, Mobility, Skill Focus (Perception), Spell Penetration, Weapon Focus (longbow)
+Skills: Bluff +14, Diplomacy +17, Handle Animal +9, Perform (wind) +21, Sense Motive +10, Spellcraft +8, Stealth +17
+Racial Modifiers: +4 Perception, +4 Perform, +4 Stealth
+Languages: Common, Sylvan
+Combat gear: 3 MWsleep, 5 +1 SK arrows
+Other gear: +1 lb20, dagger, I-efficient quiver
+:::
 
 ### Special Abilities
 

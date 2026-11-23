@@ -32,80 +32,62 @@ abilities = ["6", "15", "-", "2", "12", "15"]
 _A squirming and squeaky mass of rats with rotting flesh, torn and matted fur, and reddish blazing
 eyes moves toward you. Their semi-translucent skin shows discolored bones and muscle._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Scent
+Subtype: Swarm
+Size: tiny
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +6
+Will: +6
+Defensive abilities: half damage from piercing and slashing, incorporeal form, shadow blend, swarm traits
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +10
+### Offense
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Speed: 40 ft., climb 15 ft.
+Distraction: 15
+Melee: swarm (2d6 plus 1d4 [Strength damage](ref/rule/ability-damage-drain) and disease)
+Reach: 0
+Space: 10
+:::
 
-**Subtype:** Swarm
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 6, Dex 15, Con -, Int 2, Wis 12, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
+Skills: Climb +10, Perception +10, Stealth +20
+Racial Modifiers: +4 Stealth; uses Dex to modify Climb
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +6
-
-**Defensive abilities:** half damage from piercing and slashing, incorporeal form, shadow blend,
-swarm traits
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft., climb 15 ft.
-
-**Distraction:** 15
-
-**Melee:** swarm (2d6 plus 1d4 [Strength damage](ref/rule/ability-damage-drain) and disease)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con -, Int 2, Wis 12, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Climb +10, Perception +10, Stealth +20
-
-**Racial Modifiers:** +4 Stealth; uses Dex to modify Climb
-
-**Ecology**
-
-**Environment:** underground
-
-**Organization:** solitary, pack (2-4 swarms), or nest (5-8 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: underground
+Organization: solitary, pack (2-4 swarms), or nest (5-8 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

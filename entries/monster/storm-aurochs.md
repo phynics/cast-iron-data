@@ -30,93 +30,71 @@ abilities = ["31", "15", "20", "3", "22", "8"]
 _Lighting crackles in the eyes of this enormous bull, whose body seems composed of dark storm
 clouds._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +2
+Type: Magical beast
+Perception: +21
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 20
+AC modifiers: +2 Dex, +1 dodge, +12 natural, -2 size
+Hit points: 126 (12d10+60)
+Fort: +13
+Ref: +10
+Will: +12
+Dr: 5/magic
+Immune: electricity, sonic
+Sr: 20
+:::
 
-**Initiative:** +2
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 50 ft.
+Melee: gore +20 (2d8+15)
+Pow Ch: gore, 4d8+30 plus 3d6 electricity
+Reach: 15
+Space: 15
+Spec Att: stampede, storming charge
+Trample: 3d8+15 plus 3d6 sonic, DC 26
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +11
+Constant: air walk
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 31, Dex 15, Con 20, Int 3, Wis 22, Cha 8
+Base attack bonus: +12
+Combat maneuver bonus: +24 (+26 bull rush)
+Combat maneuver defense: 37 (39 vs. bull rush, 41 vs. trip)
+Feats: Dodge, Endurance, Improved Bull Rush, Iron Will, Power Attack, Wind Stance
+Skills: Perception +21
+Languages: Auran (can't speak)
+:::
 
-**Armor class:** 23
+### Ecology {#stat-ecology}
 
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +1 dodge, +12 natural, -2 size
-
-**Hit points:** 126 (12d10+60)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +12
-
-**Dr:** 5/magic
-
-**Immune:** electricity, sonic
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +20 (2d8+15)
-
-**Pow Ch:** gore, 4d8+30 plus 3d6 electricity
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** stampede, storming charge
-
-**Trample:** 3d8+15 plus 3d6 sonic, DC 26
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +11
-
-**Constant:**
-
-- air walk
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 15, Con 20, Int 3, Wis 22, Cha 8
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24 (+26 bull rush)
-
-**Combat maneuver defense:** 37 (39 vs. bull rush, 41 vs. trip)
-
-**Feats:** Dodge, Endurance, Improved Bull Rush, Iron Will, Power Attack, Wind Stance
-
-**Skills:** Perception +21
-
-**Languages:** Auran (can't speak)
-
-**Ecology**
-
-**Environment:** any sky
-
-**Organization:** solitary, pair, or herd (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: any sky
+Organization: solitary, pair, or herd (3-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

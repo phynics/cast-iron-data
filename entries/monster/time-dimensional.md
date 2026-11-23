@@ -31,108 +31,76 @@ abilities = ["23", "21", "20", "16", "18", "17"]
 _This lanky humanoid is formed from myriad crystal facets, each displaying an image of the past, the
 present, or a possible future._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: temporal dilation (30 ft.)
+Initiative: +9; omniobservant
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +26
+Senses: Darkvision 120 ft.
+Subtype: Extraplanar
+Experience points: 38,400
+:::
 
-**aura:** temporal dilation (30 ft.)
+### Defense
 
-**Initiative:** +9; omniobservant
+::: statblock
+Armor class: 30
+Touch: 20
+Flat-footed: 24
+AC modifiers: +5 Dex, +1 dodge, +5 insight, +10 natural, -1 size
+Hit points: 199 (19d10+95)
+Fort: +13
+Ref: +18
+Will: +17
+Defensive abilities: all-around vision, time mastery, timestream knowledge
+Dr: 10/-
+Immune: aging, bleed, critical hits, paralysis, poison, sleep, stunning
+Resist: acid 10, cold 10, electricity 10, fire 10, sonic 10
+Sr: 25
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 60 ft. (perfect)
+Melee: 2 slams +24 (6d6+6 plus dilating strike)
+Reach: 10
+Space: 10
+Spec Att: dilating strike
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +22
+At will: dimension door, greater teleport, self plus 50 lbs. of objects only, haste, memory lapse (DC 14), modify memory (DC 17), plane shift, self only
+Per day: 3/day: disintegrate (DC 19), sands of time (DC 16)\
+1/day: temporal stasis (DC 21), time stop
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+Ability scores: Str 23, Dex 21, Con 20, Int 16, Wis 18, Cha 17
+Base attack bonus: +19
+Combat maneuver bonus: +26
+Combat maneuver defense: 47
+Feats: Combat Reflexes, Dodge, Great Fortitude, Improved Great Fortitude, Improved Initiative, Improved Iron Will, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility
+Skills: Acrobatics +27, Diplomacy +25, Sense Motive +26, Spellcraft +25, Stealth +23, Use Magic Device +25
+Racial Modifiers: +10 Knowledge
+Languages: Abyssal, Aklo, Common; [telepathy](ref/umr/telepathy) 100 ft., [tongues](ref/spell/tongues)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 30
-
-**Touch:** 20
-
-**Flat-footed:** 24
-
-**AC modifiers:** +5 Dex, +1 dodge, +5 insight, +10 natural, -1 size
-
-**Hit points:** 199 (19d10+95)
-
-**Fort:** +13
-
-**Ref:** +18
-
-**Will:** +17
-
-**Defensive abilities:** all-around vision, time mastery, timestream knowledge
-
-**Dr:** 10/-
-
-**Immune:** aging, bleed, critical hits, paralysis, poison, sleep, stunning
-
-**Resist:** acid 10, cold 10, electricity 10, fire 10, sonic 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 slams +24 (6d6+6 plus dilating strike)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** dilating strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +22
-
-**At will:**
-
-- dimension door, greater teleport, self plus 50 lbs. of objects only, haste, memory lapse (DC 14),
-  modify memory (DC 17), plane shift, self only
-
-**Per day:**
-
-- 3/day: disintegrate (DC 19), sands of time (DC 16)
-- 1/day: temporal stasis (DC 21), time stop
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 21, Con 20, Int 16, Wis 18, Cha 17
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 47
-
-**Feats:** Combat Reflexes, Dodge, Great Fortitude, Improved Great Fortitude, Improved Initiative,
-Improved Iron Will, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility
-
-**Skills:** Acrobatics +27, Diplomacy +25, Sense Motive +26, Spellcraft +25, Stealth +23, Use Magic
-Device +25
-
-**Racial Modifiers:** +10 Knowledge
-
-**Languages:** Abyssal, Aklo, Common; [telepathy](ref/umr/telepathy) 100 ft.,
-[tongues](ref/spell/tongues)
-
-**Ecology**
-
-**Environment:** any ([Dimension of Time](ref/rule/dimension-of-time))
-
-**Organization:** solitary, pair, or chronology (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Dimension of Time](ref/rule/dimension-of-time))
+Organization: solitary, pair, or chronology (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

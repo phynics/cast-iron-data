@@ -27,79 +27,62 @@ special_attacks = "piercing howl"
 abilities = ["21", "17", "-", "2", "12", "15"]
 +++
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 14
+AC modifiers: +3 Dex, +5 natural, -1 size
+Hit points: 60 (8d8+24)
+Fort: +4
+Ref: +7
+Will: +7
+Immune: [undead traits](ref/umr/undead-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: bite +11 (2d6+5 plus ubashki rot), 2 claws +10 (1d8+5)
+Rake: 2 claws +10, 1d8+5
+Reach: 10
+Space: 10
+Spec Att: piercing howl
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 21, Dex 17, Con -, Int 2, Wis 12, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 25 (29 vs. trip)
+Feats: Improved Initiative, Lightning Reflexes, Toughness, Weapon Focus (bite)
+Skills: Acrobatics +9, Climb +10, Perception +6, Stealth +8
+Racial Modifiers: +4 Acrobatics, +4 Stealth
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +5 natural, -1 size
-
-**Hit points:** 60 (8d8+24)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +7
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +11 (2d6+5 plus ubashki rot), 2 claws +10 (1d8+5)
-
-**Rake:** 2 claws +10, 1d8+5
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** piercing howl
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con -, Int 2, Wis 12, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25 (29 vs. trip)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Toughness, Weapon Focus (bite)
-
-**Skills:** Acrobatics +9, Climb +10, Perception +6, Stealth +8
-
-**Racial Modifiers:** +4 Acrobatics, +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate or warm deserts
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm deserts
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

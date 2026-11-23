@@ -34,87 +34,65 @@ abilities = ["25", "11", "-", "2", "15", "2"]
 _What at first appeared to be a sadistic spiked cage writhes into unholy life, extending bladed,
 articulated arms._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: construct
+Size: huge
+Initiative: +4
+Perception: +18
+Subtype: Extraplanar
+tremorsense: 60
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 22
+Touch: 8
+Flat-footed: 22
+AC modifiers: +14 natural, -2 size
+Hit points: 100 (11d10+40)
+Fort: +5
+Ref: +5
+Will: +5
+Dr: 5/adamantine and good
+Immune: gaze attacks, visual effects and illusions, sight-based attacks, [construct traits](ref/umr/construct-traits)
+Sr: 19
+Weaknesses: exposed mechanisms, living trap
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 10 ft.
+Entrap: DC 15, 1d10 rounds, [hardness](ref/umr/hardness) 10, hp 10
+Melee: 3 claws +17 (1d8+7 plus entrap)
+Reach: 15
+Space: 15
+Spec Att: encage
+:::
 
-**Perception:** +18
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 25, Dex 11, Con -, Int 2, Wis 15, Cha 2
+Base attack bonus: +11
+Combat maneuver bonus: +20
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (claw)
+Skills: Perception +18, Stealth +9 (+21 in shallow water)
+Racial Modifiers: +8 Perception, +8 Stealth (+20 in shallow water)
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 8
-
-**Flat-footed:** 22
-
-**AC modifiers:** +14 natural, -2 size
-
-**Hit points:** 100 (11d10+40)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +5
-
-**Dr:** 5/adamantine and good
-
-**Immune:** gaze attacks, visual effects and illusions, sight-based attacks,
-[construct traits](ref/umr/construct-traits)
-
-**Sr:** 19
-
-**Weaknesses:** exposed mechanisms, living trap
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Entrap:** DC 15, 1d10 rounds, [hardness](ref/umr/hardness) 10, hp 10
-
-**Melee:** 3 claws +17 (1d8+7 plus entrap)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** encage
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 11, Con -, Int 2, Wis 15, Cha 2
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Skill
-Focus (Stealth), Weapon Focus (claw)
-
-**Skills:** Perception +18, Stealth +9 (+21 in shallow water)
-
-**Racial Modifiers:** +8 Perception, +8 Stealth (+20 in shallow water)
-
-**Ecology**
-
-**Environment:** any swamps ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, tangle (3-5), or menace (6-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any swamps ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, tangle (3-5), or menace (6-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

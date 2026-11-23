@@ -29,71 +29,58 @@ abilities = ["16", "13", "17", "-", "11", "2"]
 _This spider-like creature's front legs end in immense, grasping claws. Its mouth sports a pair of
 huge vertical mandibles._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 45 (6d8+18)
+Fort: +8
+Ref: +3
+Will: +2
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Melee: bite +7 (1d8+3), 2 claws +7 (1d4+3)
+Pounce: present
+Rend: 2 claws, 1d6+4
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 16, Dex 13, Con 17, Int -, Wis 11, Cha 2
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 18 (26 vs. trip)
+Skills: Climb +11, Perception +4, Stealth +5
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 45 (6d8+18)
-
-**Fort:** +8
-
-**Ref:** +3
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Melee:** bite +7 (1d8+3), 2 claws +7 (1d4+3)
-
-**Pounce:** present
-
-**Rend:** 2 claws, 1d6+4
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 17, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 18 (26 vs. trip)
-
-**Skills:** Climb +11, Perception +4, Stealth +5
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Description
 

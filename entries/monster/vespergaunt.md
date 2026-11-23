@@ -33,110 +33,76 @@ abilities = ["27", "20", "24", "15", "15", "16"]
 _This amorphous mass of eyes, tentacles, and protoplasm exudes thick, roiling clouds of green
 vapor._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: madness (60 ft., DC 21)
+blindsight: 60
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Type: ooze
+Perception: +19
+Senses: True seeing
+Experience points: 19,200
+:::
 
-**aura:** madness (60 ft., DC 21)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 24
+Touch: 16
+Flat-footed: 18
+AC modifiers: +5 Dex, +1 dodge, +8 natural
+Hit points: 195 (17d8+119)
+Fort: +14
+Ref: +12
+Will: +9
+Amorph: present
+Defensive abilities: all-around vision
+Dr: 10/aligned
+Immune: cold, [ooze traits](ref/umr/ooze-traits)
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft., fly 60 ft. (perfect)
+Melee: 2 slams +21 (2d8+8 plus siphon spirit)
+Reach: 10
+Space: 5
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +20
+Constant: tongues, true seeing
+At will: deeper darkness
+Per day: 3/day: contact other plane
+Per month: wish
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +19
+::: statblock
+Ability scores: Str 27, Dex 20, Con 24, Int 15, Wis 15, Cha 16
+Base attack bonus: +12
+Combat maneuver bonus: +20
+Combat maneuver defense: 36
+Feats: Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Persuasive, Power Attack, Weapon Focus (slam)
+Skills: Diplomacy +10, Sense Motive +12, Stealth +15
+Languages: telepathy 100 ft., _[tongues](ref/spell/tongues)_
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Senses:** True seeing
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 24
-
-**Touch:** 16
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 Dex, +1 dodge, +8 natural
-
-**Hit points:** 195 (17d8+119)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +9
-
-**Amorph:** present
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 10/aligned
-
-**Immune:** cold, [ooze traits](ref/umr/ooze-traits)
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 slams +21 (2d8+8 plus siphon spirit)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +20
-
-**Constant:**
-
-- tongues, true seeing
-
-**At will:**
-
-- deeper darkness
-
-**Per day:**
-
-- 3/day: contact other plane
-
-**Per month:**
-
-- wish
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 20, Con 24, Int 15, Wis 15, Cha 16
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 36
-
-**Feats:** Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning
-Reflexes, Persuasive, Power Attack, Weapon Focus (slam)
-
-**Skills:** Diplomacy +10, Sense Motive +12, Stealth +15
-
-**Languages:** telepathy 100 ft., _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any (outer space)
-
-**Organization:** solitary or convocation (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any (outer space)
+Organization: solitary or convocation (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,100 +31,72 @@ _This hunched giant has spindly limbs covered in moss and a riot of vines and mu
 It has two bright red mushrooms growing where its eyes should be, and it sports a long beard of
 woven grass._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +14
+Senses: Low-light vision
+Type: plant
+Experience points: 6,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 21
+AC modifiers: +2 Dex, +12 natural, -1 size
+Hit points: 105 (14d8+42)
+Fort: +12
+Ref: +8
+Will: +8
+Immune: [plant traits](ref/umr/plant-traits)
+Regen: 10 (acid or fire)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 30 ft.
+Melee: greatclub +15/+10 (2d8+7) or 2 slams +14 (1d6+5)
+Reach: 10
+Space: 10
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +15
+Constant: speak with plants
+At will: entangle (DC 12), plant growth
+Per day: 3/day: quickened entangle (DC 12)\
+1/day: cloudkill (DC 16)
+:::
 
-**Type:** plant
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 21, Dex 15, Con 16, Int 11, Wis 14, Cha 12
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 28
+Feats: Alertness, Blind-Fight, Improved Initiative, Iron Will, Lightning Reflexes, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (entangle), Weapon Focus (greatclub)
+Skills: Perception +14, Perform (sing) +8, Sense Motive +11, Stealth +8 (+16 in forests and swamps)
+Racial Modifiers: +8 Stealth in forests and swamps
+Languages: Common, Sylvan; _[speak with plants](ref/spell/speak-with-plants)_
+Special qualities: improved [woodland stride](ref/ability/woodland-stride)
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +12 natural, -1 size
-
-**Hit points:** 105 (14d8+42)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +8
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Regen:** 10 (acid or fire)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** greatclub +15/+10 (2d8+7) or 2 slams +14 (1d6+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +15
-
-**Constant:**
-
-- speak with plants
-
-**At will:**
-
-- entangle (DC 12), plant growth
-
-**Per day:**
-
-- 3/day: quickened entangle (DC 12)
-- 1/day: cloudkill (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 15, Con 16, Int 11, Wis 14, Cha 12
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 28
-
-**Feats:** Alertness, Blind-Fight, Improved Initiative, Iron Will, Lightning Reflexes, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (entangle), Weapon Focus (greatclub)
-
-**Skills:** Perception +14, Perform (sing) +8, Sense Motive +11, Stealth +8 (+16 in forests and
-swamps)
-
-**Racial Modifiers:** +8 Stealth in forests and swamps
-
-**Languages:** Common, Sylvan; _[speak with plants](ref/spell/speak-with-plants)_
-
-**Special qualities:** improved [woodland stride](ref/ability/woodland-stride)
-
-**Ecology**
-
-**Environment:** any swamp or underground
-
-**Organization:** solitary, pair, or choir (3-8)
-
-**Treasure:** Standard (greatclub); other treasure
+::: statblock
+Environment: any swamp or underground
+Organization: solitary, pair, or choir (3-8)
+Treasure: Standard (greatclub); other treasure
+:::
 
 ### Special Abilities
 

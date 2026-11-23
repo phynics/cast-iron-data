@@ -31,109 +31,76 @@ abilities = ["24", "19", "22", "13", "20", "17"]
 
 _Green smoke billows from the bared teeth and flared nostrils of this muscular, sharp-eared hound._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+blindsense: 60
+blindsight: 30
+Alignment: Chaotic neutral
+Type: fey
+greensight: 60
+Initiative: +4
+Size: medium
+Perception: +22
+Senses: Greater arcane sight, Low-light vision, Scent, See in darkness, See invisibility
+Subtype: Wild hunt
+Experience points: 9,600
+:::
 
-**blindsense:** 60
+### Defense
 
-**blindsight:** 30
+::: statblock
+Armor class: 24
+Touch: 17
+Flat-footed: 20
+AC modifiers: +3 deflection, +4 Dex, +7 natural
+Hit points: 133 (14d6+84)
+Fort: +12
+Ref: +13
+Will: +14
+Defensive abilities: instinctive cooperation, wild grace
+Dr: 10/cold iron
+Immune: cold
+Resist: electricity 10, fire 10
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Type:** fey
+::: statblock
+Speed: 60 ft.
+Melee: bite +17 (2d6+9 plus [trip](ref/umr/trip)), 2 claws +17 (1d8+9)
+Spec Att: summon pack, wild gaze (DC 20)
+:::
 
-**greensight:** 60
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Constant: greater arcane sight, greater magic fang, know direction, mage hand, see invisibility, speak with animals, speak with plants
+At will: locate creature, locate object, residual tracking
+Per day: 3/day: discern location, dispel magic, stone tell
+:::
 
-**Initiative:** +4
+### Statistics
 
-**Size:** medium
+::: statblock
+Ability scores: Str 24, Dex 19, Con 22, Int 13, Wis 20, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +14 (+18 trip)
+Combat maneuver defense: 31 (37 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Great Fortitude, Greater Trip, Improved Trip, Weapon Focus (bite, claw)
+Skills: Acrobatics +21, Intimidate +17, Perception +22, Swim +24
+Racial Modifiers: +7 Survival when following tracks
+Languages: Common, Sylvan; _speak with animals, speak with plants_
+Special qualities: planar acclimation, track, wild hunt link
+:::
 
-**Perception:** +22
+### Ecology
 
-**Senses:** Greater arcane sight, Low-light vision, Scent, See in darkness, See invisibility
-
-**Subtype:** Wild hunt
-
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 deflection, +4 Dex, +7 natural
-
-**Hit points:** 133 (14d6+84)
-
-**Fort:** +12
-
-**Ref:** +13
-
-**Will:** +14
-
-**Defensive abilities:** instinctive cooperation, wild grace
-
-**Dr:** 10/cold iron
-
-**Immune:** cold
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** bite +17 (2d6+9 plus [trip](ref/umr/trip)), 2 claws +17 (1d8+9)
-
-**Spec Att:** summon pack, wild gaze (DC 20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Constant:**
-
-- greater arcane sight, greater magic fang, know direction, mage hand, see invisibility, speak with
-  animals, speak with plants
-
-**At will:**
-
-- locate creature, locate object, residual tracking
-
-**Per day:**
-
-- 3/day: discern location, dispel magic, stone tell
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 19, Con 22, Int 13, Wis 20, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +14 (+18 trip)
-
-**Combat maneuver defense:** 31 (37 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Great Fortitude, Greater Trip, Improved Trip, Weapon
-Focus (bite, claw)
-
-**Skills:** Acrobatics +21, Intimidate +17, Perception +22, Swim +24
-
-**Racial Modifiers:** +7 Survival when following tracks
-
-**Languages:** Common, Sylvan; _speak with animals, speak with plants_
-
-**Special qualities:** planar acclimation, track, wild hunt link
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pack (2-10), or wild hunt
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pack (2-10), or wild hunt
+Treasure: Standard
+:::
 
 ### Special Abilities
 

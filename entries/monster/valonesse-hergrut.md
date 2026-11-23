@@ -33,72 +33,50 @@ abilities = ["39", "15", "26", "10", "14", "13"]
 _Thick of limb and torso, this towering female frost giant possesses powerful blue muscles and
 wields a massive, ice-encrusted battleaxe._
 
-**Challenge rating:** 18
-
 **Female frost giant [barbarian](ref/class/barbarian) 9**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 18
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +6
+Size: large
+Perception: +29
+Senses: Low-light vision
+Subtype: Cold, Giant
+Experience points: 153,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 33
+Touch: 11
+Flat-footed: 31
+AC modifiers: +11 armor, +2 deflection, +2 Dex, +11 natural, -2 rage, -1 size
+Hit points: 305 (14d8+9d12+184\~23)
+Fort: +23
+Ref: +9
+Will: +11
+Dr: 3/-
+Immune: cold
+Improved uncanny dodge: present
+Rock Ct: present
+Trap S: +3
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +29
-
-**Senses:** Low-light vision
-
-**Subtype:** Cold, Giant
-
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 11
-
-**Flat-footed:** 31
-
-**AC modifiers:** +11 armor, +2 deflection, +2 Dex, +11 natural, -2 rage, -1 size
-
-**Hit points:** 305 (14d8+9d12+184\~23)
-
-**Fort:** +23
-
-**Ref:** +9
-
-**Will:** +11
-
-**Dr:** 3/-
-
-**Immune:** cold
-
-**Improved uncanny dodge:** present
-
-**Rock Ct:** present
-
-**Trap S:** +3
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +2 icy burst greataxe +35/+30/+25/+20 (3d6+23/×3) or 2 slams +32 (1d8+14)
-
-**Ranged:** rock +20 (1d8+21)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** rage (26 rounds/day), rage powers
-([increased damage reduction](ref/ragepower/increased-damage-reduction) +1,
-[rolling dodge](ref/ragepower/rolling-dodge) +2, [ground breaker](ref/ragepower/ground-breaker),
-[smasher](ref/ragepower/smasher))
+::: statblock
+Speed: 40 ft.
+Melee: +2 icy burst greataxe +35/+30/+25/+20 (3d6+23/×3) or 2 slams +32 (1d8+14)
+Ranged: rock +20 (1d8+21)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: rage (26 rounds/day), rage powers ([increased damage reduction](ref/ragepower/increased-damage-reduction) +1, [rolling dodge](ref/ragepower/rolling-dodge) +2, [ground breaker](ref/ragepower/ground-breaker), [smasher](ref/ragepower/smasher))
+:::
 
 ### Tactics
 
@@ -106,32 +84,21 @@ wields a massive, ice-encrusted battleaxe._
 259; Fort +21, Will +9; Melee +2 icy burst greataxe +33/+28/+23/+18 (3d6+20/×3) or 2 slams +30
 (1d8+12); Ranged rock +20 (1d8+18); Str 35, Con 22; CMB 32, CMD 46; Skills Climb +26.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 39, Dex 15, Con 26, Int 10, Wis 14, Cha 13
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +34 (+36 sunder)
-
-**Combat maneuver defense:** 46
-
-**Feats:** Cleave, Combat Reflexes, Great Cleave, Improved Initiative, Improved Overrun, Improved
-Sunder, Power Attack, Skill Focus (Perception), Vital Strike, Weapon Focus (greataxe), Furious
-Finish, Raging Brutality
-
-**Skills:** Climb +28, Intimidate +27, Perception +29
-
-**Racial Modifiers:** +4 Stealth in snow
-
-**Languages:** Common, Giant
-
-**Special qualities:** fast movement
-
-**Combat gear:** 2 potion of cure serious wounds
-
-**Other gear:** +5 breastplate, +2 I greataxe, Iamu2, Ibopm2sd, I-cape of the mountebank, ring of
-prot2
+::: statblock
+Ability scores: Str 39, Dex 15, Con 26, Int 10, Wis 14, Cha 13
+Base attack bonus: +19
+Combat maneuver bonus: +34 (+36 sunder)
+Combat maneuver defense: 46
+Feats: Cleave, Combat Reflexes, Great Cleave, Improved Initiative, Improved Overrun, Improved Sunder, Power Attack, Skill Focus (Perception), Vital Strike, Weapon Focus (greataxe), Furious Finish, Raging Brutality
+Skills: Climb +28, Intimidate +27, Perception +29
+Racial Modifiers: +4 Stealth in snow
+Languages: Common, Giant
+Special qualities: fast movement
+Combat gear: 2 potion of cure serious wounds
+Other gear: +5 breastplate, +2 I greataxe, Iamu2, Ibopm2sd, I-cape of the mountebank, ring of prot2
+:::
 
 ### Description
 

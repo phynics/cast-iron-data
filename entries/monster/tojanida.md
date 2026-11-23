@@ -34,79 +34,62 @@ abilities = ["16", "13", "17", "10", "12", "9"]
 _This creature resembles a cross between a turtle and a crab, with flippers instead of legs, a
 snapping beak, and two pincers._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +14
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Extraplanar, Water
+Experience points: 1,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 19
+AC modifiers: +1 Dex, +1 dodge, +9 natural
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +6
+Will: +3
+Resist: electricity 10, fire 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft., swim 90 ft.
+Melee: bite +9 (1d6+3), 2 claws +9 (1d6+3)
+Reach: 5
+Space: 5
+Spec Att: ink cloud
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 16, Dex 13, Con 17, Int 10, Wis 12, Cha 9
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (29 vs. trip)
+Feats: Blind-Fight, Dodge, Power Attack
+Skills: Bluff +5, Escape Artist +10, Knowledge (planes) +9, Perception +14, Swim +11
+Racial Modifiers: +4 Perception
+Languages: Aquan
+:::
 
-**Subtype:** Extraplanar, Water
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +1 dodge, +9 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +3
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 10 ft., swim 90 ft.
-
-**Melee:** bite +9 (1d6+3), 2 claws +9 (1d6+3)
-
-**Reach:** 5
-
-**Space:** 5
-
-**Spec Att:** ink cloud
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 17, Int 10, Wis 12, Cha 9
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (29 vs. trip)
-
-**Feats:** Blind-Fight, Dodge, Power Attack
-
-**Skills:** Bluff +5, Escape Artist +10, Knowledge (planes) +9, Perception +14, Swim +11
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Aquan
-
-**Ecology**
-
-**Environment:** any water ([Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary, pair, clutch (3-6), or cult (1 tojanida plus 2-12 humanoid followers)
-
-**Treasure:** Standard
+::: statblock
+Environment: any water ([Plane of Water](ref/rule/plane-of-water))
+Organization: solitary, pair, clutch (3-6), or cult (1 tojanida plus 2-12 humanoid followers)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

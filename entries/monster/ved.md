@@ -34,77 +34,61 @@ abilities = ["25", "8", "20", "7", "12", "9"]
 _This hairy humanoid's misshapen head appears too large for its body and it wields a lumpy,
 primitive club._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: -1
+Size: large
+Alignment: Neutral evil
+Perception: +6
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 1,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 16
+Touch: 8
+Flat-footed: 16
+AC modifiers: -1 Dex, +8 natural, -1 size
+Hit points: 57 (6d8+30)
+Fort: +7
+Ref: +1
+Will: +6
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: club +10 (1d8+7)
+Reach: 10
+Space: 10
+Spec Att: gale breath
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 25, Dex 8, Con 20, Int 7, Wis 12, Cha 9
+Base attack bonus: +4
+Combat maneuver bonus: +12 (+14 bull rush)
+Combat maneuver defense: 22 (24 vs. bull rush)
+Feats: Awesome Blow, Improved Bull Rush, Power Attack
+Skills: Climb +7 (+11 when climbing rocks), Intimidate +4, Perception +6
+Racial Modifiers: +4 Climb when climbing rocks, +4 Survival in snow
+Languages: Giant
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 16
-
-**Touch:** 8
-
-**Flat-footed:** 16
-
-**AC modifiers:** -1 Dex, +8 natural, -1 size
-
-**Hit points:** 57 (6d8+30)
-
-**Fort:** +7
-
-**Ref:** +1
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** club +10 (1d8+7)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** gale breath
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 8, Con 20, Int 7, Wis 12, Cha 9
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +12 (+14 bull rush)
-
-**Combat maneuver defense:** 22 (24 vs. bull rush)
-
-**Feats:** Awesome Blow, Improved Bull Rush, Power Attack
-
-**Skills:** Climb +7 (+11 when climbing rocks), Intimidate +4, Perception +6
-
-**Racial Modifiers:** +4 Climb when climbing rocks, +4 Survival in snow
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** cold hills or mountains
-
-**Organization:** solitary, pair, gang (3-5), or clan (6-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold hills or mountains
+Organization: solitary, pair, gang (3-5), or clan (6-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -29,83 +29,64 @@ abilities = ["23", "13", "20", "5", "12", "6"]
 
 _This improbably large toad has pale blue flesh and a body covered with jagged, icy growths._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: bitter cold (20 ft.)
+Initiative: +1
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision, Scent
+Subtype: Cold
+Experience points: 2,400
+:::
 
-**aura:** bitter cold (20 ft.)
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 73 (7d10+35)
+Fort: +10
+Ref: +8
+Will: +3
+Immune: cold
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., swim 15 ft.
+Melee: bite +13 (2d6+9 plus 1d6 cold and [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Swallow: 1d4 bludgeoning and 1d6 cold, AC 14, 7 hp
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 23, Dex 13, Con 20, Int 5, Wis 12, Cha 6
+Base attack bonus: +7
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 25 (29 vs. trip)
+Feats: Lightning Reflexes, Power Attack, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Acrobatics +9 (+13 jumping), Perception +11, Stealth +6 (+14 in snow), Swim +14
+Racial Modifiers: +4 Acrobatics (+8 jumping), +4 Stealth (+12 in snow)
+Languages: Aklo
+:::
 
-**Senses:** Low-light vision, Scent
+### Ecology
 
-**Subtype:** Cold
-
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 73 (7d10+35)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +3
-
-**Immune:** cold
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft., swim 15 ft.
-
-**Melee:** bite +13 (2d6+9 plus 1d6 cold and [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Swallow:** 1d4 bludgeoning and 1d6 cold, AC 14, 7 hp
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 13, Con 20, Int 5, Wis 12, Cha 6
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 25 (29 vs. trip)
-
-**Feats:** Lightning Reflexes, Power Attack, Skill Focus (Perception), Weapon Focus (bite)
-
-**Skills:** Acrobatics +9 (+13 jumping), Perception +11, Stealth +6 (+14 in snow), Swim +14
-
-**Racial Modifiers:** +4 Acrobatics (+8 jumping), +4 Stealth (+12 in snow)
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** cold hills or glaciers
-
-**Organization:** solitary, pair, or knot (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold hills or glaciers
+Organization: solitary, pair, or knot (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

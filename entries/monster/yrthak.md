@@ -31,82 +31,63 @@ abilities = ["24", "14", "18", "7", "15", "11"]
 _This flying reptile has large, leathery wings and a vibrantly colored crest on its horned,
 narrow-snouted head._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+blindsight: 120
+Size: huge
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +18
+Experience points: 6,400
+:::
 
-**blindsight:** 120
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 20
+AC modifiers: +2 Dex, +1 dodge, +12 natural, -2 size
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +12
+Will: +8
+Immune: gaze attacks, visual effects and illusions, sight-based attacks, sonic
+Weaknesses: blind
+:::
 
-**Initiative:** +6
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 20 ft., fly 60 ft. (average)
+Melee: bite +17 (2d6+7), 2 claws +17 (1d8+7)
+Ranged: sonic lance +12 ranged touch (8d6 sonic)
+Reach: 10
+Space: 15
+Spec Att: explosion
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +18
+::: statblock
+Ability scores: Str 24, Dex 14, Con 18, Int 7, Wis 15, Cha 11
+Base attack bonus: +12
+Combat maneuver bonus: +21
+Combat maneuver defense: 34 (38 vs. trip)
+Feats: Dodge, Flyby Attack, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception)
+Skills: Fly +7, Perception +18
+Racial Modifiers: +4 Perception
+Languages: Draconic
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +1 dodge, +12 natural, -2 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +8
-
-**Immune:** gaze attacks, visual effects and illusions, sight-based attacks, sonic
-
-**Weaknesses:** blind
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (average)
-
-**Melee:** bite +17 (2d6+7), 2 claws +17 (1d8+7)
-
-**Ranged:** sonic lance +12 ranged touch (8d6 sonic)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** explosion
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 14, Con 18, Int 7, Wis 15, Cha 11
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 34 (38 vs. trip)
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus
-(Perception)
-
-**Skills:** Fly +7, Perception +18
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** temperate deserts, hills, or mountains
-
-**Organization:** solitary, pair, or clutch (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate deserts, hills, or mountains
+Organization: solitary, pair, or clutch (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

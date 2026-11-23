@@ -31,105 +31,71 @@ abilities = ["25", "12", "26", "17", "18", "21"]
 _This breathtaking, giant-sized woman's raven hair falls to her ankles. Her skin is as pale as the
 glowing moon, and her ebon eyes deeply pensive._
 
-**Challenge rating:** 10
-
 **Variant norn**
 
-**Type:** fey
+::: statblock
+Challenge rating: 10
+Type: fey
+Initiative: +10
+Size: large
+Alignment: Lawful neutral
+Perception: +19
+Senses: Low-light vision, True seeing
+Experience points: 9,600
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 24
+Touch: 15
+Flat-footed: 23
+AC modifiers: +6 armor, +1 Dex, +5 insight, +3 natural, -1 size
+Hit points: 138 (12d6+96)
+Fort: +14
+Ref: +11
+Will: +14
+Defensive abilities: _[death ward](ref/spell/death-ward)_, fated
+Dr: 10/cold iron
+Immune: cold
+Regen: 5 (cold iron)
+Resist: acid 15, electricity 15, fire 15
+Sr: 21
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Perception:** +19
+::: statblock
+Speed: 40 ft., (30 ft. with armor)
+E Drain: 1 level, DC 21
+Melee: shears +17/+12 (1d8+12/15-20 plus energy drain), touch +7 (energy drain)
+Reach: 10
+Space: 10
+Spec Att: shift fate
+:::
 
-**Senses:** Low-light vision, True seeing
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +15
+Constant: death ward, tongues, true seeing
+At will: bestow curse (DC 18), divination, greater dispel magic, wind walk, self only
+Per day: 1/day: maze, moment of prescience, phantasmal killer (DC 19)
+:::
 
-**Experience points:** 9,600
+### Statistics
 
-**Armor class:** 24
-
-**Touch:** 15
-
-**Flat-footed:** 23
-
-**AC modifiers:** +6 armor, +1 Dex, +5 insight, +3 natural, -1 size
-
-**Hit points:** 138 (12d6+96)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +14
-
-**Defensive abilities:** _[death ward](ref/spell/death-ward)_, fated
-
-**Dr:** 10/cold iron
-
-**Immune:** cold
-
-**Regen:** 5 (cold iron)
-
-**Resist:** acid 15, electricity 15, fire 15
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. with armor)
-
-**E Drain:** 1 level, DC 21
-
-**Melee:** shears +17/+12 (1d8+12/15-20 plus energy drain), touch +7 (energy drain)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** shift fate
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**Constant:**
-
-- death ward, tongues, true seeing
-
-**At will:**
-
-- bestow curse (DC 18), divination, greater dispel magic, wind walk, self only
-
-**Per day:**
-
-- 1/day: maze, moment of prescience, phantasmal killer (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con 26, Int 17, Wis 18, Cha 21
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 30
-
-**Feats:** Combat Expertise, Combat Reflexes, Diehard^B^, Great Fortitude, Improved Initiative, Iron
-Will, Lightning Reflexes
-
-**Skills:** Bluff +12, Craft (cloth) +10, Sense Motive +19, Use Magic Device +16
-
-**Languages:** Common, Giant, Sylvan; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (humanoid;
-[alter self](ref/spell/alter-self) or [giant form II](ref/spell/giant-form-2)), sister seeking
-
-**Gear:** +2 Ah, shears
+::: statblock
+Ability scores: Str 25, Dex 12, Con 26, Int 17, Wis 18, Cha 21
+Base attack bonus: +6
+Combat maneuver bonus: +14
+Combat maneuver defense: 30
+Feats: Combat Expertise, Combat Reflexes, Diehard^B^, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Bluff +12, Craft (cloth) +10, Sense Motive +19, Use Magic Device +16
+Languages: Common, Giant, Sylvan; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (humanoid; [alter self](ref/spell/alter-self) or [giant form II](ref/spell/giant-form-2)), sister seeking
+Gear: +2 Ah, shears
+:::
 
 ###### B {#footnote-b}
 

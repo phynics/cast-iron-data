@@ -31,83 +31,66 @@ abilities = ["20", "13", "14", "5", "10", "5"]
 _This leathery creature has a lanky, ogre-like shape, but walks on all fours. Its claws, teeth,
 tail, and gait give it a degenerate, bestial appearance._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: large
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 14
+AC modifiers: +1 Dex, +5 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +2
+Will: +3
+Regen: 5 (acid or fire)
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: bite +7 (1d6+5 plus [trip](ref/umr/trip)), 2 claws +7 (1d4+5)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Giant
-
-**Experience points:** 1,200
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +5 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +2
-
-**Will:** +3
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +7 (1d6+5 plus [trip](ref/umr/trip)), 2 claws +7 (1d4+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 14, Int 5, Wis 10, Cha 5
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Combat Reflexes, Iron Will, Night Stalker, Skill Focus (Stealth)^B^
-
-**Skills:** Climb +9, Perception +6, Stealth +1 (+5 in dim light or darkness)
-
-**Racial Modifiers:** +4 Stealth in dim light or darkness
-
-**Languages:** Giant
-
-**Special qualities:** ogre blood
+::: statblock
+Ability scores: Str 20, Dex 13, Con 14, Int 5, Wis 10, Cha 5
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Combat Reflexes, Iron Will, Night Stalker, Skill Focus (Stealth)^B^
+Skills: Climb +9, Perception +6, Stealth +1 (+5 in dim light or darkness)
+Racial Modifiers: +4 Stealth in dim light or darkness
+Languages: Giant
+Special qualities: ogre blood
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** cold hills and mountains
-
-**Organization:** solitary, pair, or gang (3-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: cold hills and mountains
+Organization: solitary, pair, or gang (3-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

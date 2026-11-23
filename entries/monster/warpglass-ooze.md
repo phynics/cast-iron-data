@@ -31,75 +31,60 @@ abilities = ["14", "5", "19", "2", "12", "15"]
 _This watery puddle reflects a distorted image of its surroundings, as though it were a window to
 another reality._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 60
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: +4
+Experience points: 600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 7
+Touch: 7
+Flat-footed: 7
+AC modifiers: -3 Dex
+Hit points: 25 (3d8+12)
+Fort: +5
+Ref: -2
+Will: +2
+Defensive abilities: acidic
+Dr: 5/bludgeoning or slashing
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +4 (1d4+2 plus 1d4 acid)
+Spec Att: compelling reflection
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +4
+::: statblock
+Ability scores: Str 14, Dex 5, Con 19, Int 2, Wis 12, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 11 (can't be tripped)
+Feats: Improved Initiative, Vital Strike
+Skills: Perception +4
+Special qualities: buoyant, [compression](ref/umr/compression), [freeze](ref/umr/freeze)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 7
-
-**Touch:** 7
-
-**Flat-footed:** 7
-
-**AC modifiers:** -3 Dex
-
-**Hit points:** 25 (3d8+12)
-
-**Fort:** +5
-
-**Ref:** -2
-
-**Will:** +2
-
-**Defensive abilities:** acidic
-
-**Dr:** 5/bludgeoning or slashing
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +4 (1d4+2 plus 1d4 acid)
-
-**Spec Att:** compelling reflection
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 5, Con 19, Int 2, Wis 12, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 11 (can't be tripped)
-
-**Feats:** Improved Initiative, Vital Strike
-
-**Skills:** Perception +4
-
-**Special qualities:** buoyant, [compression](ref/umr/compression), [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pool (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or pool (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

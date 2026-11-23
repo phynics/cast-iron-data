@@ -28,95 +28,69 @@ abilities = ["22", "13", "16", "18", "19", "19"]
 _This creature has the body of a lion, the wings of a falcon, and the head and torso of a beautiful
 human woman._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +5
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +21
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 20
+AC modifiers: +1 Dex, +11 natural, -1 size
+Hit points: 102 (12d10+36)
+Fort: +11
+Ref: +9
+Will: +10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 60 ft. (poor)
+Melee: 2 claws +17 (2d6+6/19-20)
+Pounce: present
+Rake: 2 claws +17, 2d6+6
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Constant: comprehend languages, detect magic, read magic, see invisibility
+Per day: 3/day: clairaudience/clairvoyance\
+1/day: dispel magic, locate object, remove curse, legend lore
+Per week: \^any one of the following:, symbol of fear (DC 20), symbol of pain (DC 19), symbol of persuasion (DC 20), symbol of sleep (DC 19), symbol of stunning (DC 21), $; all symbols last for 1 week maximum
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 22, Dex 13, Con 16, Int 18, Wis 19, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 30 (34 vs. trip)
+Feats: Alertness, Combat Casting, Hover, Improved Critical (claw), Improved Initiative, Iron Will
+Skills: Bluff +14, Diplomacy +14, Sense Motive +19, Spellcraft +12
+Languages: Common, Draconic, Sphinx
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +11 natural, -1 size
-
-**Hit points:** 102 (12d10+36)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +10
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (poor)
-
-**Melee:** 2 claws +17 (2d6+6/19-20)
-
-**Pounce:** present
-
-**Rake:** 2 claws +17, 2d6+6
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Constant:**
-
-- comprehend languages, detect magic, read magic, see invisibility
-
-**Per day:**
-
-- 3/day: clairaudience/clairvoyance
-- 1/day: dispel magic, locate object, remove curse, legend lore
-
-**Per week:**
-
-- \^any one of the following:, symbol of fear (DC 20), symbol of pain (DC 19), symbol of persuasion
-  (DC 20), symbol of sleep (DC 19), symbol of stunning (DC 21), $; all symbols last for 1 week
-  maximum
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 13, Con 16, Int 18, Wis 19, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 30 (34 vs. trip)
-
-**Feats:** Alertness, Combat Casting, Hover, Improved Critical (claw), Improved Initiative, Iron
-Will
-
-**Skills:** Bluff +14, Diplomacy +14, Sense Motive +19, Spellcraft +12
-
-**Languages:** Common, Draconic, Sphinx
-
-**Ecology**
-
-**Environment:** warm deserts and hills
-
-**Organization:** solitary, pair, or cult (3-6)
-
-**Treasure:** Double
+::: statblock
+Environment: warm deserts and hills
+Organization: solitary, pair, or cult (3-6)
+Treasure: Double
+:::
 
 ### Description
 

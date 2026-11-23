@@ -30,83 +30,66 @@ abilities = ["27", "15", "20", "-", "14", "2"]
 _Thick sheets of moss and other forest debris cling to the dark green carapace of this huge
 scorpion._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: huge
+Initiative: +2
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 4,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 19
+AC modifiers: +2 Dex, +11 natural, -2 size
+Hit points: 95 (10d8+50)
+Fort: +12
+Ref: +5
+Will: +5
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 50 ft.
+Constrict: 1d8+8
+Melee: 2 claws +13 (1d8+8 plus [grab](ref/umr/grab)), sting +13 (1d8+8 plus poison)
+Reach: 15
+Space: 15
+Spec Att: sudden strike
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
-
-**Type:** vermin
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +11 natural, -2 size
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +12
-
-**Ref:** +5
-
-**Will:** +5
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Constrict:** 1d8+8
-
-**Melee:** 2 claws +13 (1d8+8 plus [grab](ref/umr/grab)), sting +13 (1d8+8 plus poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** sudden strike
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 15, Con 20, Int -, Wis 14, Cha 2
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +17 (+21 grapple)
-
-**Combat maneuver defense:** 29 (41 vs. trip)
-
-**Feats:** Skill Focus (Stealth)^B^
-
-**Skills:** Perception +6, Stealth +5 (+13 in forests)
-
-**Racial Modifiers:** +4 Perception, +8 Stealth (+16 in forests)
+::: statblock
+Ability scores: Str 27, Dex 15, Con 20, Int -, Wis 14, Cha 2
+Base attack bonus: +7
+Combat maneuver bonus: +17 (+21 grapple)
+Combat maneuver defense: 29 (41 vs. trip)
+Feats: Skill Focus (Stealth)^B^
+Skills: Perception +6, Stealth +5 (+13 in forests)
+Racial Modifiers: +4 Perception, +8 Stealth (+16 in forests)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate forests
-
-**Organization:** solitary or nest (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests
+Organization: solitary or nest (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -30,67 +30,56 @@ abilities = ["8", "13", "19", "-", "12", "11"]
 _This patch of vines is ornamented with beautiful crimson and violet flowers, the petals of which
 seem to bear tiny faces._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +1
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Type: plant
+Size: small
+tremorsense: 30
+Experience points: 200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +1 Dex, +1 size
+Hit points: 8 (1d8+4)
+Fort: +6
+Ref: +1
+Will: +1
+Immune: acid, [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 5 ft.
+Melee: 2 stings +0 (1d3-1 plus 1d2 acid)
+Spec Att: devour, soporific pollen
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 8, Dex 13, Con 19, Int -, Wis 12, Cha 11
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 9 (can't be tripped)
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +1 Dex, +1 size
-
-**Hit points:** 8 (1d8+4)
-
-**Fort:** +6
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** acid, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Melee:** 2 stings +0 (1d3-1 plus 1d2 acid)
-
-**Spec Att:** devour, soporific pollen
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 19, Int -, Wis 12, Cha 11
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 9 (can't be tripped)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, copse (3-5), or garden (6-12)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, pair, copse (3-5), or garden (6-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

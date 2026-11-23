@@ -32,101 +32,74 @@ _This mass of shells is assembled into a shape that resembles a cross between a 
 Its "head" is a tangle of long limbs composed of razor-sharp edges, and its body seeps with foamy,
 toxic-looking slime._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: construct
+Initiative: +8 (+12 when ending discorporation)
+Alignment: Lawful evil
+Size: medium
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +8 (+12 when ending discorporation)
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 58 (7d10+20)
+Fort: +2
+Ref: +8
+Will: +4
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, sharpened edges
+Dr: 5/bludgeoning
+Fh: 5
+Immune: fire, [construct traits](ref/umr/construct-traits)
+Resist: electricity 10
+Weaknesses: fragile frame
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 5 ft., swim 30 ft.
+Melee: 4 talons +10 (1d6+2/18-20 plus 1 bleed and poison)
+Pounce: present
+Spec Att: poison cloud
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +3
+Constant: freedom of movement
+At will: locate creature, see below
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 14, Dex 19, Con -, Int 3, Wis 15, Cha 6
+Base attack bonus: +7
+Combat maneuver bonus: +9
+Combat maneuver defense: 23
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Weapon Focus (talons)
+Skills: Disguise +0 (+16 as shells while discorporated), Swim +12
+Racial Modifiers: +16 Disguise as shells while discorporated
+Languages: Aklo, Aboleth
+Special qualities: discorporate, sense the masters
+:::
 
-**Armor class:** 18
+### Ecology {#stat-ecology}
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 58 (7d10+20)
-
-**Fort:** +2
-
-**Ref:** +8
-
-**Will:** +4
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, sharpened edges
-
-**Dr:** 5/bludgeoning
-
-**Fh:** 5
-
-**Immune:** fire, [construct traits](ref/umr/construct-traits)
-
-**Resist:** electricity 10
-
-**Weaknesses:** fragile frame
-
-**Offense**
-
-**Speed:** 5 ft., swim 30 ft.
-
-**Melee:** 4 talons +10 (1d6+2/18-20 plus 1 bleed and poison)
-
-**Pounce:** present
-
-**Spec Att:** poison cloud
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +3
-
-**Constant:**
-
-- freedom of movement
-
-**At will:**
-
-- locate creature, see below
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con -, Int 3, Wis 15, Cha 6
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 23
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Weapon Focus (talons)
-
-**Skills:** Disguise +0 (+16 as shells while discorporated), Swim +12
-
-**Racial Modifiers:** +16 Disguise as shells while discorporated
-
-**Languages:** Aklo, Aboleth
-
-**Special qualities:** discorporate, sense the masters
-
-**Ecology**
-
-**Environment:** any (usually aquatic)
-
-**Organization:** solitary, pair, or gang (3-7)
-
-**Treasure:** None
+::: statblock
+Environment: any (usually aquatic)
+Organization: solitary, pair, or gang (3-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

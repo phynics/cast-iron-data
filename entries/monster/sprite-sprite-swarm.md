@@ -32,99 +32,73 @@ abilities = ["3", "17", "12", "6", "11", "10"]
 _Thousands of tiny, colorful winged humanoids crawl from every corner of the forest to form this
 buzzing, writhing swarm._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic neutral
+Size: diminutive
+Type: fey
+Initiative: +7
+Perception: +14
+Senses: Detect evil, Detect good, Low-light vision
+Subtype: Swarm
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 size
+Hit points: 45 (10d6+10)
+Fort: +4
+Ref: +10
+Will: +7
+Defensive abilities: swarm traits
+Dr: 2/cold iron
+Immune: weapon damage
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 15 ft., fly 60 ft. (perfect)
+Distraction: 16
+Melee: swarm (2d6 plus distraction)
+Reach: 0
+Space: 10
+Spec Att: angry glow, concentrated rush
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +5
+Constant: detect evil, detect good
+Per day: 1/day: mass daze (DC 14)
+:::
 
-**Senses:** Detect evil, Detect good, Low-light vision
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 3, Dex 17, Con 12, Int 6, Wis 11, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Alertness, Dodge, Flyby Attack, Improved Initiative, Skill Focus (Perception)
+Skills: Fly +30, Intimidate +10, Perception +14, Sense Motive +9, Stealth +28
+Languages: Common, Sylvan
+Special qualities: mob mentality
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 size
-
-**Hit points:** 45 (10d6+10)
-
-**Fort:** +4
-
-**Ref:** +10
-
-**Will:** +7
-
-**Defensive abilities:** swarm traits
-
-**Dr:** 2/cold iron
-
-**Immune:** weapon damage
-
-**Offense**
-
-**Speed:** 15 ft., fly 60 ft. (perfect)
-
-**Distraction:** 16
-
-**Melee:** swarm (2d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** angry glow, concentrated rush
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +5
-
-**Constant:**
-
-- detect evil, detect good
-
-**Per day:**
-
-- 1/day: mass daze (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 17, Con 12, Int 6, Wis 11, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Alertness, Dodge, Flyby Attack, Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Fly +30, Intimidate +10, Perception +14, Sense Motive +9, Stealth +28
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** mob mentality
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

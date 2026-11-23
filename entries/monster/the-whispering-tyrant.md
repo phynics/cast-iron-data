@@ -31,142 +31,77 @@ abilities = ["14", "19", "-", "36", "14", "28"]
 _Clad in ancient leather and bronze and a great horned helm, this withered gray figure is surrounded
 by a palpable aura of death._
 
-**Challenge rating:** 26
-
-**Mythic rank:** 10
-
 **Human mythic lich necromancer 20**
 
-**aura:** absolute terror (60-ft. radius, DC 39)
+::: statblock
+Challenge rating: 26
+Mythic rank: 10
+aura: absolute terror (60-ft. radius, DC 39)
+Initiative: +18
+Size: medium
+Alignment: Neutral evil
+Perception: +33
+Senses: Darkvision 60 ft., See in darkness, Spell perception
+Subtype: Augmented humanoid, Human, Mythic
+Type: undead
+Experience points: 2,457,600
+:::
 
-**Initiative:** +18
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 46
+Touch: 19
+Flat-footed: 42
+AC modifiers: +8 armor, +5 deflection, +4 Dex, +19 natural
+Hit points: 392 (20d6+320)
+Fort: +21
+Ref: +16
+Will: +22
+Chan Res: +12
+Defensive abilities: rejuvenation
+Dr: 15/bludgeoning and magic
+Immune: acid, [channel energy](ref/ability/channel-energy) from non-mythic sources, cold, electricity, [undead traits](ref/umr/undead-traits)
+Resist: half damage from positive energy
+Sr: 42
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +33
+::: statblock
+Speed: 30 ft.
+M Power: 12/day, surge +1d12
+Melee: +2 keen wounding dagger +15/+10 (1d4+5/19-20), touch +8 (1d8+10 plus 5d6 negative energy plus paralysis)
+Spec Att: animate touch, channel negative energy (DC 29, 16/day), immediate counterspell, mythic spells (2/day), paralyzing touch (DC 39), wild arcana
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness, Spell perception
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+Concentration: +39
+9th-level spells: energy drain (DC 36), foresight, mage's disjunction, meteor swarm (DC 32), time stop, wail of the banshee (DC 36), wish
+8th-level spells: empowered disintegrate, spell turning
+6th-level spells: acid fog, disintegrate (DC 29), greater dispel magic, 2, repulsion (DC 29), true seeing, empowered vampiric touch, dismissal (DC 28), dominate person (DC 28), quickened magic missile, 2
+1st-level spells: expeditious retreat, grease, magic missile, 3, ray of enfeeblement (2, DC 28), true strike, 2
+Cantrips: detect magic, mage hand, message, read magic
+Opposition Schools: enchantment, illusion
+:::
 
-**Subtype:** Augmented humanoid, Human, Mythic
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 2,457,600
-
-**Armor class:** 46
-
-**Touch:** 19
-
-**Flat-footed:** 42
-
-**AC modifiers:** +8 armor, +5 deflection, +4 Dex, +19 natural
-
-**Hit points:** 392 (20d6+320)
-
-**Fort:** +21
-
-**Ref:** +16
-
-**Will:** +22
-
-**Chan Res:** +12
-
-**Defensive abilities:** rejuvenation
-
-**Dr:** 15/bludgeoning and magic
-
-**Immune:** acid, [channel energy](ref/ability/channel-energy) from non-mythic sources, cold,
-electricity, [undead traits](ref/umr/undead-traits)
-
-**Resist:** half damage from positive energy
-
-**Sr:** 42
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**M Power:** 12/day, surge +1d12
-
-**Melee:** +2 keen wounding dagger +15/+10 (1d4+5/19-20), touch +8 (1d8+10 plus 5d6 negative energy
-plus paralysis)
-
-**Spec Att:** animate touch, channel negative energy (DC 29, 16/day), immediate counterspell, mythic
-spells (2/day), paralyzing touch (DC 39), wild arcana
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**Concentration:** +39
-
-**9th-level spells:**
-
-- energy drain (DC 36), foresight, mage's disjunction, meteor swarm (DC 32), time stop, wail of the
-  banshee (DC 36), wish
-
-**8th-level spells:**
-
-- empowered disintegrate, spell turning
-
-**6th-level spells:**
-
-- acid fog, disintegrate (DC 29), greater dispel magic, 2, repulsion (DC 29), true seeing, empowered
-  vampiric touch, dismissal (DC 28), dominate person (DC 28), quickened magic missile, 2
-
-**1st-level spells:**
-
-- expeditious retreat, grease, magic missile, 3, ray of enfeeblement (2, DC 28), true strike, 2
-
-**Cantrips:**
-
-- detect magic, mage hand, message, read magic
-
-**Opposition Schools:** enchantment, illusion
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con -, Int 36, Wis 14, Cha 28
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 19
-
-**Feats:** Command Undead, Craft Construct, Craft Wondrous Item, Empower Spell, Eschew Materials,
-Extend Spell, Extra Mythic Power, Greater Spell Focus (necromancy), Improved Initiative, Improved
-Iron Will, Iron Will, Mythic Spell Lore, Quicken Spell, Scribe Scroll, Silent Spell, Spell Focus
-(necromancy), Spell Penetration, Still Spell, Toughness
-
-**Skills:** Acrobatics +25, Bluff +30, Diplomacy +30, Sense Motive +34, Spellcraft +37, Stealth +36,
-Use Magic Device +30
-
-**Racial Modifiers:** +8 Perception, +8 Sense Motive, +8 Stealth
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Draconic, Dwarven, Elven, Giant, Infernal, Orc,
-Undercommon
-
-**Special qualities:** arcane bond (amulet), life sight (40 feet, 20 rounds/day), mythic phylactery,
-perfect necromancer
-
-**Combat gear:** rod of greater silent metamagic rod, maximize metamagic rod, quicken metamagic rod,
-Dinflict critical wounds, scrolls ([contingency](ref/spell/contingency),
-[discern location](ref/spell/discern-location), [gate](ref/spell/gate),
-[greater teleport](ref/spell/teleport-greater), 2 [harm](ref/spell/harm),
-[mage's disjunction](ref/spell/mages-disjunction),
-[mass charm monster](ref/spell/charm-monster-mass), [project image](ref/spell/project-image),
-[soul bind](ref/spell/soul-bind), [time stop](ref/spell/time-stop), and [wish](ref/spell/wish))
-
-**Other gear:** +2 keen W dagger, Iamu4, Ibopm4sd, I-boots of teleportation, Iboa8, Iclk5, I-gloves
-of the shortened path, Ihbmp6ic, Horns of Naraga, IOlavender and green ellipsoid, IOpale green
-prism, ring of prot5, I-robe of the archmagi/black, tyrant's ring (minor artifact; acts as a
-[ring of freedom of movement](ref/magic-ring/ring-of-freedom-of-movement) and a
-[ring of spell storing (major)](ref/magic-ring/ring-of-spell-storing-major) containing
-[antilife shell](ref/spell/antilife-shell) and [spell immunity](ref/spell/spell-immunity)),
-I-unfettered shirt
+::: statblock
+Ability scores: Str 14, Dex 19, Con -, Int 36, Wis 14, Cha 28
+Base attack bonus: +10
+Combat maneuver bonus: +12
+Combat maneuver defense: 19
+Feats: Command Undead, Craft Construct, Craft Wondrous Item, Empower Spell, Eschew Materials, Extend Spell, Extra Mythic Power, Greater Spell Focus (necromancy), Improved Initiative, Improved Iron Will, Iron Will, Mythic Spell Lore, Quicken Spell, Scribe Scroll, Silent Spell, Spell Focus (necromancy), Spell Penetration, Still Spell, Toughness
+Skills: Acrobatics +25, Bluff +30, Diplomacy +30, Sense Motive +34, Spellcraft +37, Stealth +36, Use Magic Device +30
+Racial Modifiers: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages: Abyssal, Aklo, Celestial, Common, Draconic, Dwarven, Elven, Giant, Infernal, Orc, Undercommon
+Special qualities: arcane bond (amulet), life sight (40 feet, 20 rounds/day), mythic phylactery, perfect necromancer
+Combat gear: rod of greater silent metamagic rod, maximize metamagic rod, quicken metamagic rod, Dinflict critical wounds, scrolls ([contingency](ref/spell/contingency), [discern location](ref/spell/discern-location), [gate](ref/spell/gate), [greater teleport](ref/spell/teleport-greater), 2 [harm](ref/spell/harm), [mage's disjunction](ref/spell/mages-disjunction), [mass charm monster](ref/spell/charm-monster-mass), [project image](ref/spell/project-image), [soul bind](ref/spell/soul-bind), [time stop](ref/spell/time-stop), and [wish](ref/spell/wish))
+Other gear: +2 keen W dagger, Iamu4, Ibopm4sd, I-boots of teleportation, Iboa8, Iclk5, I-gloves of the shortened path, Ihbmp6ic, Horns of Naraga, IOlavender and green ellipsoid, IOpale green prism, ring of prot5, I-robe of the archmagi/black, tyrant's ring (minor artifact; acts as a [ring of freedom of movement](ref/magic-ring/ring-of-freedom-of-movement) and a [ring of spell storing (major)](ref/magic-ring/ring-of-spell-storing-major) containing [antilife shell](ref/spell/antilife-shell) and [spell immunity](ref/spell/spell-immunity)), I-unfettered shirt
+:::
 
 ### Special Abilities
 

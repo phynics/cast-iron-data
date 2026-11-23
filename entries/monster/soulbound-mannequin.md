@@ -29,93 +29,70 @@ abilities = ["18", "16", "-", "11", "10", "9"]
 
 _This strange construct is shaped like a masked humanoid made of wood and porcelain._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: N (but see below)
+Type: construct
+Initiative: +7
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Alignment:** N (but see below)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 85 (10d10+30)
+Fort: +3
+Ref: +6
+Will: +3
+Dr: 5/magic
+Immune: [construct traits](ref/umr/construct-traits)
+Weaknesses: susceptible to mind-affecting effects
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Constrict: 1d8+4
+Melee: 2 claws +15 (1d8+4 plus [grab](ref/umr/grab))
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +9
+At will: detect poison, light, mage hand, open/close, prestidigitation
+Per day: 3/day: alarm, feather fall, hold portal\
+1/day: disguise self, see below, levitate, =one additional ability based on alignment (see below)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 18, Dex 16, Con -, Int 11, Wis 10, Cha 9
+Base attack bonus: +10
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 27
+Feats: Improved Initiative, Martial Weapon Proficiency (any one), Throw Anything, Toughness, Weapon Focus (claw)
+Skills: Intimidate +9, Perception +10
+Languages: Common
+Special qualities: alignment variation, soul focus
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +3
-
-**Dr:** 5/magic
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Weaknesses:** susceptible to mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d8+4
-
-**Melee:** 2 claws +15 (1d8+4 plus [grab](ref/umr/grab))
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +9
-
-**At will:**
-
-- detect poison, light, mage hand, open/close, prestidigitation
-
-**Per day:**
-
-- 3/day: alarm, feather fall, hold portal
-- 1/day: disguise self, see below, levitate, =one additional ability based on alignment (see below)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con -, Int 11, Wis 10, Cha 9
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 27
-
-**Feats:** Improved Initiative, Martial Weapon Proficiency (any one), Throw Anything, Toughness,
-Weapon Focus (claw)
-
-**Skills:** Intimidate +9, Perception +10
-
-**Languages:** Common
-
-**Special qualities:** alignment variation, soul focus
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or family (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or family (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

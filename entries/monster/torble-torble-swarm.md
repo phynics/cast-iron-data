@@ -28,73 +28,55 @@ special_qualities = "hive mind, primitive sight, telepathic sensitivity"
 abilities = ["3", "15", "10", "3", "14", "2"]
 +++
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 30
+Initiative: +2
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 30 ft.
+Subtype: Swarm
+Size: tiny
+Type: vermin
+Experience points: 600
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 dodge, +2 size
+Hit points: 13 (3d8)
+Fort: +3
+Ref: +3
+Will: +3
+Immune: acid, swarm traits, weapon damage
+Weaknesses: ooze-vermin hybrid
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 15 ft., climb 15 ft.
+Distraction: 11
+Melee: swarm (1d6 plus 1 acid)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 30 ft.
+### Statistics
 
-**Subtype:** Swarm
-
-**Size:** tiny
-
-**Type:** vermin
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 dodge, +2 size
-
-**Hit points:** 13 (3d8)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +3
-
-**Immune:** acid, swarm traits, weapon damage
-
-**Weaknesses:** ooze-vermin hybrid
-
-**Offense**
-
-**Speed:** 15 ft., climb 15 ft.
-
-**Distraction:** 11
-
-**Melee:** swarm (1d6 plus 1 acid)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 10, Int 3, Wis 14, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Dodge, Skill Focus (Perception)
-
-**Skills:** Perception +8
-
-**Special qualities:** hive mind, primitive sight, telepathic sensitivity
+::: statblock
+Ability scores: Str 3, Dex 15, Con 10, Int 3, Wis 14, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Dodge, Skill Focus (Perception)
+Skills: Perception +8
+Special qualities: hive mind, primitive sight, telepathic sensitivity
+:::
 
 ### Special Abilities
 

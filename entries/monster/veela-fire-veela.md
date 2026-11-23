@@ -30,99 +30,72 @@ abilities = ["20", "17", "19", "14", "11", "20"]
 
 _This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Fire
+Experience points: 3,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +9
+Will: +6
+Dr: 10/magic
+Immune: fire
+Sr: 18
+Vulner: cold
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 60 ft.
+Melee: mwk dagger +13/+8 (1d4+5/19-20 plus 2d6 fire), mwk dagger +13/+8 (1d4+5/19-20 plus 2d6 fire) or 2 slams +14 (1d4+5 plus 2d6 fire)
+Spec Att: beckoning dance, elemental veil
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+At will: resist energy, fire only, scorching ray
+Per day: 3/day: cure serious wounds, suggestion (DC 18)\
+1/day: dispel magic, fire snake (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Fire
+::: statblock
+Ability scores: Str 20, Dex 17, Con 19, Int 14, Wis 11, Cha 20
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Ability Focus (beckoning dance), Combat Reflexes, Double Slice, Improved Two-Weapon Fighting, Two-Weapon Fighting
+Skills: Acrobatics +15, Bluff +17, Diplomacy +17, Perform (dance) +21, Sense Motive +12, Stealth +15
+Racial Modifiers: +4 Perform (dance)
+Languages: Common, Ignan
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +6
-
-**Dr:** 10/magic
-
-**Immune:** fire
-
-**Sr:** 18
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** mwk dagger +13/+8 (1d4+5/19-20 plus 2d6 fire), mwk dagger +13/+8 (1d4+5/19-20 plus 2d6
-fire) or 2 slams +14 (1d4+5 plus 2d6 fire)
-
-**Spec Att:** beckoning dance, elemental veil
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**At will:**
-
-- resist energy, fire only, scorching ray
-
-**Per day:**
-
-- 3/day: cure serious wounds, suggestion (DC 18)
-- 1/day: dispel magic, fire snake (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 19, Int 14, Wis 11, Cha 20
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Ability Focus (beckoning dance), Combat Reflexes, Double Slice, Improved Two-Weapon
-Fighting, Two-Weapon Fighting
-
-**Skills:** Acrobatics +15, Bluff +17, Diplomacy +17, Perform (dance) +21, Sense Motive +12, Stealth
-+15
-
-**Racial Modifiers:** +4 Perform (dance)
-
-**Languages:** Common, Ignan
-
-**Ecology**
-
-**Environment:** any warm land ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary, pair, or troupe (3-6)
-
-**Treasure:** Standard (2 mwk daggers)
+::: statblock
+Environment: any warm land ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary, pair, or troupe (3-6)
+Treasure: Standard (2 mwk daggers)
+:::
 
 ### Special Abilities
 

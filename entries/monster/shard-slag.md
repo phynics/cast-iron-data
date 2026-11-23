@@ -32,85 +32,65 @@ abilities = ["22", "6", "23", "-", "1", "1"]
 _This smoldering mass of metal-encrusted goo sports half a dozen pseudopods, each tipped with a
 burning-hot sword blade._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: molten form (5 ft., 1d6 fire damage)
+blindsight: 60
+Size: huge
+Initiative: -2
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Fire
+tremorsense: 60
+Experience points: 4,800
+:::
 
-**aura:** molten form (5 ft., 1d6 fire damage)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 20
+Touch: 6
+Flat-footed: 20
+AC modifiers: -2 Dex, +14 natural, -2 size
+Hit points: 126 (12d8+72)
+Fort: +10
+Ref: +2
+Will: -1
+Dr: 5/magic
+Immune: acid, electricity, fire, [ooze traits](ref/umr/ooze-traits)
+Vulner: cold
+Weaknesses: vulnerable to water
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** -2
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Burn: DC 16
+Melee: 1d4+2 slag blades +13 (1d8+6/19-20 plus 2d6 fire)
+Reach: 15
+Space: 15
+Spec Att: excruciating molten form, slag blades
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str 22, Dex 6, Con 23, Int -, Wis 1, Cha 1
+Base attack bonus: +9
+Combat maneuver bonus: +17
+Combat maneuver defense: 25 (can't be tripped)
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Perception:** -5
+### Ecology
 
-**Subtype:** Fire
-
-**tremorsense:** 60
-
-**Experience points:** 4,800
-
-**Armor class:** 20
-
-**Touch:** 6
-
-**Flat-footed:** 20
-
-**AC modifiers:** -2 Dex, +14 natural, -2 size
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +10
-
-**Ref:** +2
-
-**Will:** -1
-
-**Dr:** 5/magic
-
-**Immune:** acid, electricity, fire, [ooze traits](ref/umr/ooze-traits)
-
-**Vulner:** cold
-
-**Weaknesses:** vulnerable to water
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Burn:** DC 16
-
-**Melee:** 1d4+2 slag blades +13 (1d8+6/19-20 plus 2d6 fire)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** excruciating molten form, slag blades
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 6, Con 23, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any volcanoes or underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any volcanoes or underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

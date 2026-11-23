@@ -29,72 +29,58 @@ abilities = ["7", "15", "10", "-", "10", "2"]
 
 _These small, immature water insects are easily supported by the water's surface tension._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+tremorsense: 60 ft. (see [giant water strider](ref/monster/water-strider-giant-water-strider))
+Type: vermin
+Experience points: 100
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +2
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., fly 20 ft. (poor)
+Melee: 2 claw -1 (1d3-2), bite -1 (1d2-2)
+:::
 
-**Size:** small
+### Statistics
 
-**tremorsense:** 60 ft. (see [giant water strider](ref/monster/water-strider-giant-water-strider))
+::: statblock
+Ability scores: Str 7, Dex 15, Con 10, Int -, Wis 10, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 9 (17 vs. trip)
+Skills: Fly +0
+Racial Modifiers: +4 Perception, +4 Swim
+Special qualities: water skating (see [giant water strider](ref/monster/water-strider-giant-water-strider))
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 100
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (poor)
-
-**Melee:** 2 claw -1 (1d3-2), bite -1 (1d2-2)
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 15, Con 10, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 9 (17 vs. trip)
-
-**Skills:** Fly +0
-
-**Racial Modifiers:** +4 Perception, +4 Swim
-
-**Special qualities:** water skating (see
-[giant water strider](ref/monster/water-strider-giant-water-strider))
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or colony (2-9)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any water
+Organization: solitary or colony (2-9)
+Treasure: Incidental
+:::
 
 ### Description
 

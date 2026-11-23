@@ -31,106 +31,74 @@ abilities = ["36", "25", "-", "13", "23", "26"]
 _An immense humanoid skeleton stands draped in tattered robes, its horse-like skull lit from within
 by an eerie red glow._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Size: huge
+Initiative: +7
+Alignment: Neutral evil
+Perception: +33
+Senses: Darkvision 60 ft.
+Subtype: Air
+Type: undead
+Experience points: 153,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 33
+Touch: 15
+Flat-footed: 26
+AC modifiers: +7 Dex, +18 natural, -2 size
+Hit points: 300 (24d8+192)
+Fort: +16
+Ref: +17
+Will: +20
+Chan Res: +4
+Dr: 15/bludgeoning
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +33
+::: statblock
+Speed: 40 ft., fly 80 ft. (good)
+E Drain: 2 levels, DC 30
+Melee: bite +29 (2d6+13/19-20 plus 2d6 negative energy and energy drain), 2 claws +29 (1d10+13/19-20 plus 2d6 negative energy and energy drain)
+Reach: 15
+Space: 15
+Spec Att: bone swarm, spawn skeleton, splintered ground
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: deathwatch, true seeing
+At will: call spirit (only creatures slain by the saxra, DC 21), desecrate, enervation, gust of wind (DC 20)
+Per day: 3/day: finger of death (DC 25), horrid wilting (DC 26), telekinesis (DC 23), unholy blight (DC 22)\
+1/day: legend lore
+:::
 
-**Subtype:** Air
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 36, Dex 25, Con -, Int 13, Wis 23, Cha 26
+Base attack bonus: +18
+Combat maneuver bonus: +33
+Combat maneuver defense: 56
+Feats: Combat Reflexes, Critical Focus, Defensive Combat Training, Exhausting Critical, Greater Vital Strike, Improved Critical (bite), Improved Critical (claw), Improved Vital Strike, Lightning Reflexes, Power Attack, Tiring Critical, Vital Strike
+Skills: Bluff +20, Diplomacy +10, Sense Motive +21, Stealth +26
+Languages: Auran, Common
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 15
-
-**Flat-footed:** 26
-
-**AC modifiers:** +7 Dex, +18 natural, -2 size
-
-**Hit points:** 300 (24d8+192)
-
-**Fort:** +16
-
-**Ref:** +17
-
-**Will:** +20
-
-**Chan Res:** +4
-
-**Dr:** 15/bludgeoning
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft., fly 80 ft. (good)
-
-**E Drain:** 2 levels, DC 30
-
-**Melee:** bite +29 (2d6+13/19-20 plus 2d6 negative energy and energy drain), 2 claws +29
-(1d10+13/19-20 plus 2d6 negative energy and energy drain)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** bone swarm, spawn skeleton, splintered ground
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- deathwatch, true seeing
-
-**At will:**
-
-- call spirit (only creatures slain by the saxra, DC 21), desecrate, enervation, gust of wind (DC
-  20)
-
-**Per day:**
-
-- 3/day: finger of death (DC 25), horrid wilting (DC 26), telekinesis (DC 23), unholy blight (DC 22)
-- 1/day: legend lore
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 25, Con -, Int 13, Wis 23, Cha 26
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 56
-
-**Feats:** Combat Reflexes, Critical Focus, Defensive Combat Training, Exhausting Critical, Greater
-Vital Strike, Improved Critical (bite), Improved Critical (claw), Improved Vital Strike, Lightning
-Reflexes, Power Attack, Tiring Critical, Vital Strike
-
-**Skills:** Bluff +20, Diplomacy +10, Sense Motive +21, Stealth +26
-
-**Languages:** Auran, Common
-
-**Ecology**
-
-**Environment:** any mountains
-
-**Organization:** solitary (plus spawn)
-
-**Treasure:** None
+::: statblock
+Environment: any mountains
+Organization: solitary (plus spawn)
+Treasure: None
+:::
 
 ### Special Abilities
 

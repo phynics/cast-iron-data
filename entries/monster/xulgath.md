@@ -32,90 +32,69 @@ abilities = ["18", "17", "16", "13", "15", "12"]
 _A rigid crest runs from the head of this bipedal lizard to the tip of its long tail, and oil
 glistens on its scales._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: [stench](ref/umr/stench) (DC 16, 10 rounds)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: +11
+Senses: Darkvision 90 ft.
+Subtype: Reptilian
+Experience points: 1,200
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 16, 10 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 45 (6d8+18)
+Fort: +8
+Ref: +5
+Will: +6
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 30 ft.
+Melee: spear +8 (1d8+6/×3), bite +3 (1d6+2) or 2 claws +8 (1d4+4), bite +8 (1d6+4)
+Ranged: spear +7 (1d8+4/×3)
+Spec Att: psychogenic secretions
+:::
 
-**Size:** medium
+::: statblock
+title = "Psychic Magic"
+Caster level: 6
+Concentration: +7
+Power points: 5
+Psychoactive powers: mindlink, 1 PE, DC 12, silent image, 1 PE, DC 12, suggestion, 2 PE, DC 13
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 90 ft.
+::: statblock
+Ability scores: Str 18, Dex 17, Con 16, Int 13, Wis 15, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Animal Affinity, Iron Will, Skill Focus (Perception)
+Skills: Handle Animal +12, Ride +5, Stealth +13 (+17 in rocky areas)
+Racial Modifiers: +4 Stealth (+8 in rocky areas)
+Languages: Draconic, Undercommon; [telepathy](ref/umr/telepathy) 30 ft. (see _Psychogenic Secretions_ below)
+:::
 
-**Subtype:** Reptilian
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 45 (6d8+18)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spear +8 (1d8+6/×3), bite +3 (1d6+2) or 2 claws +8 (1d4+4), bite +8 (1d6+4)
-
-**Ranged:** spear +7 (1d8+4/×3)
-
-**Spec Att:** psychogenic secretions
-
-**Psychic Magic**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**Power points:** 5
-
-**Psychoactive powers:**
-
-- mindlink, 1 PE, DC 12, silent image, 1 PE, DC 12, suggestion, 2 PE, DC 13
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 16, Int 13, Wis 15, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Animal Affinity, Iron Will, Skill Focus (Perception)
-
-**Skills:** Handle Animal +12, Ride +5, Stealth +13 (+17 in rocky areas)
-
-**Racial Modifiers:** +4 Stealth (+8 in rocky areas)
-
-**Languages:** Draconic, Undercommon; [telepathy](ref/umr/telepathy) 30 ft. (see _Psychogenic
-Secretions_ below)
-
-**Ecology**
-
-**Environment:** any underground (Deep Tolguth)
-
-**Organization:** solitary, pair, or clutch (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground (Deep Tolguth)
+Organization: solitary, pair, or clutch (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

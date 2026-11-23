@@ -33,84 +33,65 @@ abilities = ["24", "17", "16", "7", "10", "3"]
 _This troggle wears filthy studded leather armor and a dog collar, and carries a powerful bow on its
 back._
 
-**Challenge rating:** 6
-
 **Troggle [ranger](ref/class/ranger) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: large
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 2,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 18
+AC modifiers: +4 armor, +3 Dex, +5 natural, -1 size
+Hit points: 54 (5d8+2d10+21\~7)
+Fort: +10
+Ref: +7
+Will: +3
+Regen: 5 (acid or fire)
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 45 ft.
+Fav En: humans +2
+Melee: bite +11 (1d6+7 plus [trip](ref/umr/trip)), 2 claws +12 (1d4+7)
+Ranged: composite shortbow +7 (1d8+7/×3)
+Reach: 10
+Space: 10
+Spec Att: combat style (natural weapon)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 24, Dex 17, Con 16, Int 7, Wis 10, Cha 3
+Base attack bonus: +5
+Combat maneuver bonus: +13
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Combat Reflexes, Fleet, Iron Will, Night Stalker, Skill Focus (Stealth), Weapon Focus (claws)
+Skills: Climb +12, Perception +8
+Languages: Giant
+Special qualities: ogre blood, track +1, [wild empathy](ref/ability/wild-empathy) -2
+Gear: +1 studded leather armor, csb20, Ifist1, 49 gp
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 armor, +3 Dex, +5 natural, -1 size
-
-**Hit points:** 54 (5d8+2d10+21\~7)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +3
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 45 ft.
-
-**Fav En:** humans +2
-
-**Melee:** bite +11 (1d6+7 plus [trip](ref/umr/trip)), 2 claws +12 (1d4+7)
-
-**Ranged:** composite shortbow +7 (1d8+7/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** combat style (natural weapon)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 16, Int 7, Wis 10, Cha 3
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Combat Reflexes, Fleet, Iron Will, Night Stalker, Skill Focus (Stealth), Weapon Focus
-(claws)
-
-**Skills:** Climb +12, Perception +8
-
-**Languages:** Giant
-
-**Special qualities:** ogre blood, track +1, [wild empathy](ref/ability/wild-empathy) -2
-
-**Gear:** +1 studded leather armor, csb20, Ifist1, 49 gp
-
-**Ecology**
-
-**Environment:** cold hills and mountains
+::: statblock
+Environment: cold hills and mountains
+:::
 
 ### Description
 

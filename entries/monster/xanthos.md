@@ -30,90 +30,69 @@ abilities = ["26", "15", "21", "12", "16", "13"]
 _This elephant-sized equine creature has bright red skin, fangs, six eyes, and armored plates on its
 head, neck, and back._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Size: huge
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +23
+Senses: Darkvision 120 ft., Low-light vision
+Experience points: 38,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 31
+Touch: 11
+Flat-footed: 28
+AC modifiers: +2 Dex, +1 dodge, +20 natural, -2 size
+Hit points: 195 (17d10+102)
+Fort: +15
+Ref: +12
+Will: +10
+Immune: cold
+Resist: electricity 30, fire 30
+Sr: 25
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 60 ft.
+Melee: bite +23 (2d6+8), 2 hooves +21 (1d8+4), tail slap +21 (2d6+4)
+Reach: 10
+Space: 15
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +16
+Per day: 5/day: know direction, locate creature, purify food and drink, teleport
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 26, Dex 15, Con 21, Int 12, Wis 16, Cha 13
+Base attack bonus: +17
+Combat maneuver bonus: +27
+Combat maneuver defense: 40 (44 vs. trip)
+Feats: Blind-Fight, Combat Casting, Dodge, Endurance, Improved Initiative, Iron Will, Mobility, Multiattack, Toughness, Wind Stance
+Skills: Climb +19
+Languages: Aklo; [telepathy](ref/umr/telepathy) 5 ft.
+Special qualities: exploit stellar conjunction, [hold breath](ref/umr/hold-breath)
+:::
 
-**Armor class:** 31
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 28
-
-**AC modifiers:** +2 Dex, +1 dodge, +20 natural, -2 size
-
-**Hit points:** 195 (17d10+102)
-
-**Fort:** +15
-
-**Ref:** +12
-
-**Will:** +10
-
-**Immune:** cold
-
-**Resist:** electricity 30, fire 30
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** bite +23 (2d6+8), 2 hooves +21 (1d8+4), tail slap +21 (2d6+4)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +16
-
-**Per day:**
-
-- 5/day: know direction, locate creature, purify food and drink, teleport
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 15, Con 21, Int 12, Wis 16, Cha 13
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 40 (44 vs. trip)
-
-**Feats:** Blind-Fight, Combat Casting, Dodge, Endurance, Improved Initiative, Iron Will, Mobility,
-Multiattack, Toughness, Wind Stance
-
-**Skills:** Climb +19
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 5 ft.
-
-**Special qualities:** exploit stellar conjunction, [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or gang (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

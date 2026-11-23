@@ -29,77 +29,61 @@ abilities = ["5", "16", "12", "1", "10", "5"]
 
 _This small cylindrical creature has two eyestalks extending straight off to each side._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +3
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision, Scent
+Subtype: Aquatic
+Size: tiny
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +6
+Will: +0
+Defensive abilities: all-around vision
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 0 ft., swim 30 ft.
+Attach: present
+B Drain: 1d2 Constitution
+Melee: bite +6 (1d3-3 plus attach)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 5, Dex 16, Con 12, Int 1, Wis 10, Cha 5
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 9 (can't be tripped)
+Feats: Weapon Finesse
+Skills: Perception +4, Stealth +15, Swim +5
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +0
-
-**Defensive abilities:** all-around vision
-
-**Offense**
-
-**Speed:** 0 ft., swim 30 ft.
-
-**Attach:** present
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** bite +6 (1d3-3 plus attach)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 16, Con 12, Int 1, Wis 10, Cha 5
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 9 (can't be tripped)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +4, Stealth +15, Swim +5
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, group (3-5), or school (6-20)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, group (3-5), or school (6-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

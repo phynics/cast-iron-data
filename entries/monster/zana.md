@@ -31,92 +31,69 @@ abilities = ["21", "17", "18", "14", "17", "20"]
 _This stunningly beautiful and athletic woman has skin of various shades of gray. She wears a
 pearlescent breastplate and wields a shimmering longspear._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: protective aura (10 ft.)
+Type: fey
+Initiative: +7
+Size: medium
+Alignment: Neutral good
+Perception: +26
+Senses: Low-light vision
+Experience points: 38,400
+:::
 
-**aura:** protective aura (10 ft.)
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 26
+Touch: 18
+Flat-footed: 23
+AC modifiers: +8 armor, +5 deflection, +3 Dex
+Hit points: 170 (20d6+100)
+Fort: +15
+Ref: +20
+Will: +20
+Defensive abilities: unearthly grace
+Immune: charm, fear
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: +2 [keen](ref/magic-enh/keen) [thundering](ref/magic-enh/thundering) longspear +19/+14/+9 (1d8+13/19-20/×3) or +2 keen thundering longsword +19/+14/+9 (1d8+11/17-20)
+Spec Att: petrifying glance (5/day, DC 26)
+:::
 
-**Alignment:** Neutral good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +15
+Per day: 5/day: cure light wounds, sanctuary (DC 16)\
+3/day: calm emotions, cure moderate wounds
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 17, Con 18, Int 14, Wis 17, Cha 20
+Base attack bonus: +10
+Combat maneuver bonus: +15
+Combat maneuver defense: 33
+Feats: Greater Weapon Focus (longspear), Greater Weapon Focus (longsword), Greater Weapon Specialization (longspear), Greater Weapon Specialization (longsword), Improved Initiative, Toughness, Weapon Focus (longspear), Weapon Focus (longsword), Weapon Specialization (longspear), Weapon Specialization (longsword)
+Skills: Climb +18, Heal +23
+Languages: Common, Sylvan, Terran
+Special qualities: fighter training, instant armament, sitebound
+:::
 
-**Experience points:** 38,400
+### Ecology {#stat-ecology}
 
-**Armor class:** 26
-
-**Touch:** 18
-
-**Flat-footed:** 23
-
-**AC modifiers:** +8 armor, +5 deflection, +3 Dex
-
-**Hit points:** 170 (20d6+100)
-
-**Fort:** +15
-
-**Ref:** +20
-
-**Will:** +20
-
-**Defensive abilities:** unearthly grace
-
-**Immune:** charm, fear
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 [keen](ref/magic-enh/keen) [thundering](ref/magic-enh/thundering) longspear +19/+14/+9
-(1d8+13/19-20/×3) or +2 keen thundering longsword +19/+14/+9 (1d8+11/17-20)
-
-**Spec Att:** petrifying glance (5/day, DC 26)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**Per day:**
-
-- 5/day: cure light wounds, sanctuary (DC 16)
-- 3/day: calm emotions, cure moderate wounds
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con 18, Int 14, Wis 17, Cha 20
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 33
-
-**Feats:** Greater Weapon Focus (longspear), Greater Weapon Focus (longsword), Greater Weapon
-Specialization (longspear), Greater Weapon Specialization (longsword), Improved Initiative,
-Toughness, Weapon Focus (longspear), Weapon Focus (longsword), Weapon Specialization (longspear),
-Weapon Specialization (longsword)
-
-**Skills:** Climb +18, Heal +23
-
-**Languages:** Common, Sylvan, Terran
-
-**Special qualities:** fighter training, instant armament, sitebound
-
-**Ecology**
-
-**Environment:** any mountains
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any mountains
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

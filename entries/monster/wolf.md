@@ -29,67 +29,56 @@ abilities = ["13", "15", "15", "2", "12", "6"]
 _This powerful canine watches its prey with piercing yellow eyes, darting its tongue across sharp
 white teeth._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +2 (1d6+1 plus [trip](ref/umr/trip))
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 13, Dex 15, Con 15, Int 2, Wis 12, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14 (18 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Perception +8
+Racial Modifiers: +4 Survival when tracking by scent
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +2 (1d6+1 plus [trip](ref/umr/trip))
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 15, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14 (18 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +8
-
-**Racial Modifiers:** +4 Survival when tracking by scent
-
-**Ecology**
-
-**Environment:** cold or temperate forests
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: cold or temperate forests
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Description
 

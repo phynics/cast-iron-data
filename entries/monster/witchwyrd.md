@@ -33,100 +33,75 @@ abilities = ["16", "15", "17", "18", "13", "20"]
 _This gray-skinned humanoid wears fine red robes. The being has four arms, each ending in a
 three-fingered hand._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +6
+Alignment: Lawful neutral
+Size: medium
+Type: Monstrous humanoid
+Perception: +8
+Senses: Darkvision 60 ft., Detect magic
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 17
+AC modifiers: +4 armor, +2 Dex, +3 natural
+Hit points: 68 (8d10+24)
+Fort: +7
+Ref: +8
+Will: +9
+Defensive abilities: absorb force
+Dr: 5/magic
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: ranseur +11/+6 (2d4+4/×3), 2 slams +6 (1d4+1 plus [grab](ref/umr/grab)) or 4 slams +11 (1d4+3 plus grab)
+Reach: 5
+Reach P: 10 ft. with ranseur
+Space: 5
+Spec Att: force bolt
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +13
+Constant: detect magic, floating disk, mage armor, resist energy, one at a time, unseen servant
+Per day: 3/day: dispel magic, displacement, suggestion (DC 18)\
+1/day: dimension door, resilient sphere (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic
+### Statistics
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +2 Dex, +3 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +9
-
-**Defensive abilities:** absorb force
-
-**Dr:** 5/magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** ranseur +11/+6 (2d4+4/×3), 2 slams +6 (1d4+1 plus [grab](ref/umr/grab)) or 4 slams +11
-(1d4+3 plus grab)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with ranseur
-
-**Space:** 5
-
-**Spec Att:** force bolt
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +13
-
-**Constant:**
-
-- detect magic, floating disk, mage armor, resist energy, one at a time, unseen servant
-
-**Per day:**
-
-- 3/day: dispel magic, displacement, suggestion (DC 18)
-- 1/day: dimension door, resilient sphere (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 17, Int 18, Wis 13, Cha 20
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11 (+15 grapple)
-
-**Combat maneuver defense:** 23
-
-**Feats:** Deflect Arrows^B^, Great Fortitude, Improved Initiative, Iron Will, Persuasive
-
-**Skills:** Appraise +12, Bluff +13, Diplomacy +11, Sense Motive +5, Use Magic Device +9
-
-**Languages:** Common, Draconic, one or more planar languages; _[tongues](ref/spell/tongues)_
+::: statblock
+Ability scores: Str 16, Dex 15, Con 17, Int 18, Wis 13, Cha 20
+Base attack bonus: +8
+Combat maneuver bonus: +11 (+15 grapple)
+Combat maneuver defense: 23
+Feats: Deflect Arrows^B^, Great Fortitude, Improved Initiative, Iron Will, Persuasive
+Skills: Appraise +12, Bluff +13, Diplomacy +11, Sense Motive +5, Use Magic Device +9
+Languages: Common, Draconic, one or more planar languages; _[tongues](ref/spell/tongues)_
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary, entourage (1 witchwyrd and 2-5 humanoid guards), or enclave (2-5
-witchwyrds and 11-20 humanoid guards)
-
-**Treasure:** Double
+::: statblock
+Environment: any land
+Organization: solitary, entourage (1 witchwyrd and 2-5 humanoid guards), or enclave (2-5 witchwyrds and 11-20 humanoid guards)
+Treasure: Double
+:::
 
 ### Special Abilities
 

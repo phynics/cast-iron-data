@@ -32,80 +32,62 @@ abilities = ["32", "23", "-", "-", "25", "11"]
 _This massive wood-and-metal giant wields a scythe, a wicked spiked wrecking ball, an immense pick,
 and a huge crossbow._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Type: construct
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 120 ft., Low-light vision
+Experience points: 204,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 34
+Touch: 14
+Flat-footed: 28
+AC modifiers: +6 Dex, +20 natural, -2 size
+Hit points: 344 (28d10+190)
+Fort: +9
+Ref: +15
+Will: +16
+Dr: 15/adamantine and bludgeoning
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: reaper +37 (3d6+11/×4), siege pick +37 (2d6+11/×4), wrecking ball +37 (3d6+11 plus stun), 2 slams +37 (1d8+11)
+Ranged: 4 automatic crossbow bolts +32 (3d8/19-20), rock +33 (3d6+11)
+Reach: 15
+Reach P: 30 ft. with wrecking ball
+Rock Th: 140 ft.
+Space: 15
+Spec Att: warmonger weaponry
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 23, Con -, Int -, Wis 25, Cha 11
+Base attack bonus: +28
+Combat maneuver bonus: +41
+Combat maneuver defense: 57
+Special qualities: fortified construction
+:::
 
-**Experience points:** 204,800
+### Ecology
 
-**Armor class:** 34
-
-**Touch:** 14
-
-**Flat-footed:** 28
-
-**AC modifiers:** +6 Dex, +20 natural, -2 size
-
-**Hit points:** 344 (28d10+190)
-
-**Fort:** +9
-
-**Ref:** +15
-
-**Will:** +16
-
-**Dr:** 15/adamantine and bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** reaper +37 (3d6+11/×4), siege pick +37 (2d6+11/×4), wrecking ball +37 (3d6+11 plus stun),
-2 slams +37 (1d8+11)
-
-**Ranged:** 4 automatic crossbow bolts +32 (3d8/19-20), rock +33 (3d6+11)
-
-**Reach:** 15
-
-**Reach P:** 30 ft. with wrecking ball
-
-**Rock Th:** 140 ft.
-
-**Space:** 15
-
-**Spec Att:** warmonger weaponry
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 23, Con -, Int -, Wis 25, Cha 11
-
-**Base attack bonus:** +28
-
-**Combat maneuver bonus:** +41
-
-**Combat maneuver defense:** 57
-
-**Special qualities:** fortified construction
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

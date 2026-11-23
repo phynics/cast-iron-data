@@ -30,79 +30,62 @@ abilities = ["16", "12", "17", "4", "13", "7"]
 _This bat-like creature's body is mostly a large, toothy maw, held aloft by leathery wings. Its
 whip-thin tail ends in a slender stinger._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+blindsense: 30
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Perception: +10
+Senses: See in darkness
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 natural
+Hit points: 30 (4d8+12)
+Fort: +4
+Ref: +2
+Will: +7
+Defensive abilities: all-around vision
+Immune: disease
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., fly 30 ft. (good)
+Grab: Huge
+Melee: bite +6 (1d6+3 plus grab), sting +6 (1d4+3 plus red plague)
+Spec Att: gnaw into flesh (2d6+6 and 2 Str damage), infest flesh
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +10
+::: statblock
+Ability scores: Str 16, Dex 12, Con 17, Int 4, Wis 13, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Improved Initiative, Iron Will
+Skills: Fly +9, Perception +10, Stealth +9
+Racial Modifiers: +4 Perception, +4 Stealth
+Languages: Aklo (can't speak)
+:::
 
-**Senses:** See in darkness
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +7
-
-**Defensive abilities:** all-around vision
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 20 ft., fly 30 ft. (good)
-
-**Grab:** Huge
-
-**Melee:** bite +6 (1d6+3 plus grab), sting +6 (1d4+3 plus red plague)
-
-**Spec Att:** gnaw into flesh (2d6+6 and 2 Str damage), infest flesh
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 12, Con 17, Int 4, Wis 13, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Iron Will
-
-**Skills:** Fly +9, Perception +10, Stealth +9
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Languages:** Aklo (can't speak)
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, pair, or coven (3-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: cold mountains
+Organization: solitary, pair, or coven (3-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

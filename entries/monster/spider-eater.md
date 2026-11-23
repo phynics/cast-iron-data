@@ -30,87 +30,68 @@ abilities = ["21", "14", "21", "3", "12", "10"]
 _This strange beast resembles a wasp the size of a horse, but with the head of a spider and two long
 appendages ending in pincers._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +1 dodge, +6 natural, -1 size
+Hit points: 52 (5d10+25)
+Fort: +9
+Ref: +6
+Will: +2
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: bite +9 (1d8+5), 2 pincers +4 (1d6+2), sting +9 (1d6+5 plus poison)
+Reach: 5
+Space: 10
+Spec Att: implant
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +10
+Constant: freedom of movement
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 21, Dex 14, Con 21, Int 3, Wis 12, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +11
+Combat maneuver defense: 24
+Feats: Dodge, Hover, Skill Focus (Perception)
+Skills: Fly +8, Perception +15
+Racial Modifiers: +4 Perception
+Languages: Aklo (can't speak)
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 natural, -1 size
-
-**Hit points:** 52 (5d10+25)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +2
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** bite +9 (1d8+5), 2 pincers +4 (1d6+2), sting +9 (1d6+5 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** implant
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +10
-
-**Constant:**
-
-- freedom of movement
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 14, Con 21, Int 3, Wis 12, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24
-
-**Feats:** Dodge, Hover, Skill Focus (Perception)
-
-**Skills:** Fly +8, Perception +15
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Aklo (can't speak)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or brood (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or brood (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

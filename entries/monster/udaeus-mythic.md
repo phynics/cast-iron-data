@@ -33,94 +33,71 @@ _This armored humanoid has skin resembling white bone, carved with images of wea
 
 **Mythic Udaeus**
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Mythic rank: 1
+Type: humanoid
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Subtype: Mythic, Udaeus
+Experience points: 1,200
+:::
 
-**Mythic rank:** 1
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 21
+AC modifiers: +7 armor, +1 Dex, +1 natural, +3 shield
+Hit points: 38 (4d8+20)
+Fort: +7
+Ref: +2
+Will: +2
+Fh: 1
+Resist: fire 30 (see energy resistance below)
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+M Power: 1/day, surge +1d6
+Melee: +1 shortspear +9 (1d6+6)
+Ranged: mwk javelin +5 (1d6+3)
+Spec Att: infuse arms and armor
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +3
+Per day: 1/day: barkskin, true strike
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 13, Con 16, Int 10, Wis 12, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Endurance, Mythic Weapon Focus (shortspear), Weapon Specialization (shortspear)
+Skills: Intimidate +3, Perception +5
+Languages: Celestial, Common
+Special qualities: armor and weapon training, fighter training
+:::
 
-**Subtype:** Mythic, Udaeus
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +7 armor, +1 Dex, +1 natural, +3 shield
-
-**Hit points:** 38 (4d8+20)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +2
-
-**Fh:** 1
-
-**Resist:** fire 30 (see energy resistance below)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**M Power:** 1/day, surge +1d6
-
-**Melee:** +1 shortspear +9 (1d6+6)
-
-**Ranged:** mwk javelin +5 (1d6+3)
-
-**Spec Att:** infuse arms and armor
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +3
-
-**Per day:**
-
-- 1/day: barkskin, true strike
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 13, Con 16, Int 10, Wis 12, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Endurance, Mythic Weapon Focus (shortspear), Weapon Specialization (shortspear)
-
-**Skills:** Intimidate +3, Perception +5
-
-**Languages:** Celestial, Common
-
-**Special qualities:** armor and weapon training, fighter training
-
-**Ecology**
-
-**Environment:** any land or urban
-
-**Organization:** solitary, pair, or squadron (3-12)
-
-**Treasure:** NPC gear (mwk shortspear, mwk breastplate, mwk heavy steel shield, 4 javelins); other
-treasure
+::: statblock
+Environment: any land or urban
+Organization: solitary, pair, or squadron (3-12)
+Treasure: NPC gear (mwk shortspear, mwk breastplate, mwk heavy steel shield, 4 javelins); other treasure
+:::
 
 ### Special Abilities
 

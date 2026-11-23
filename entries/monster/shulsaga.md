@@ -33,85 +33,67 @@ abilities = ["12", "19", "10", "13", "16", "13"]
 _Jagged scales cover this lean humanoid's sculpted skin, glinting as it soars upon a disk of radiant
 energy._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +8
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 800
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 12
+AC modifiers: +4 Dex, +2 natural
+Hit points: 22 (4d10)
+Fort: +1
+Ref: +8
+Will: +7
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: mwk trident +6 (1d8+1)
+Ranged: mwk longbow +9 (1d8/×3)
+Spec Att: astral recoil
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +1
+Per day: 3/day: floating disk, see below, shield, spiritual weapon
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 12, Dex 19, Con 10, Int 13, Wis 16, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Improved Initiative, Point Blank Shot
+Skills: Acrobatics +11, Fly +19, Stealth +11, Survival +10
+Languages: Auran
+Special qualities: disk rider, sense rift
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +2 natural
-
-**Hit points:** 22 (4d10)
-
-**Fort:** +1
-
-**Ref:** +8
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** mwk trident +6 (1d8+1)
-
-**Ranged:** mwk longbow +9 (1d8/×3)
-
-**Spec Att:** astral recoil
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +1
-
-**Per day:**
-
-- 3/day: floating disk, see below, shield, spiritual weapon
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 19, Con 10, Int 13, Wis 16, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative, Point Blank Shot
-
-**Skills:** Acrobatics +11, Fly +19, Stealth +11, Survival +10
-
-**Languages:** Auran
-
-**Special qualities:** disk rider, sense rift
-
-**Ecology**
-
-**Environment:** any ([Astral Plane](ref/rule/astral-plane))
-
-**Organization:** solitary, pair, hunting party (3-6), warband (7-22)
-
-**Treasure:** Standard (mwk longbow, mwk trident); other treasure
+::: statblock
+Environment: any ([Astral Plane](ref/rule/astral-plane))
+Organization: solitary, pair, hunting party (3-6), warband (7-22)
+Treasure: Standard (mwk longbow, mwk trident); other treasure
+:::
 
 ### Special Abilities
 

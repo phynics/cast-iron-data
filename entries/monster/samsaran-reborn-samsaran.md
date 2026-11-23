@@ -30,94 +30,70 @@ abilities = ["10", "8", "12", "17", "15", "12"]
 
 _The pale-blue skin of this dark-haired humanoid seems to subtly change hue from moment to moment._
 
-**Challenge rating:** 1/2
-
 **Reborn samsaran [occultist](ref/class/occultist) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Subtype: Samsaran
+Experience points: 200
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 12
+Touch: 9
+Flat-footed: 12
+AC modifiers: +3 armor, -1 Dex
+Hit points: 10 (1d8+2)
+Fort: +3
+Ref: +1
+Will: +4
+Weaknesses: aura transparency
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: nine-ring broadsword +0 (1d8/×3) Occultist
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 2/day: disguise self, shocking grasp
+Cantrips: At will: ghost sound (DC 13), telekinetic projectile
+Implements: _Evocation_ (rod, 2 points)-_Resonant_ intense focus (+1); _Focus_ energy ray (1d6), radiance (1 min.)\~_Illusion_ (ring, 2 points)-_Resonant_ distortion (10%); _Focus_ minor figment (1 round)
+:::
 
-**Subtype:** Samsaran
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 10, Dex 8, Con 12, Int 17, Wis 15, Cha 12
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 9
+Feats: Lightning Reflexes, Psychic Virtuoso
+Skills: Appraise +7, Knowledge (arcana, history, religion) +7, Perception +6, Sense Motive +6, Spellcraft +7, Use Magic Device +5
+Languages: Abyssal, Celestial, Common, Draconic, Samsaran
+Special qualities: implements, psychic learning
+:::
 
-**Armor class:** 12
+### Ecology
 
-**Touch:** 9
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 armor, -1 Dex
-
-**Hit points:** 10 (1d8+2)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +4
-
-**Weaknesses:** aura transparency
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** nine-ring broadsword +0 (1d8/×3) Occultist
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 2/day: disguise self, shocking grasp
-
-**Cantrips:**
-
-- At will: ghost sound (DC 13), telekinetic projectile
-
-**Implements:** _Evocation_ (rod, 2 points)-_Resonant_ intense focus (+1); _Focus_ energy ray (1d6),
-radiance (1 min.)\~_Illusion_ (ring, 2 points)-_Resonant_ distortion (10%); _Focus_ minor figment (1
-round)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 8, Con 12, Int 17, Wis 15, Cha 12
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 9
-
-**Feats:** Lightning Reflexes, Psychic Virtuoso
-
-**Skills:** Appraise +7, Knowledge (arcana, history, religion) +7, Perception +6, Sense Motive +6,
-Spellcraft +7, Use Magic Device +5
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Samsaran
-
-**Special qualities:** implements, psychic learning
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or clan (3-12)
-
-**Treasure:** NPC gear (studded leather armor, -nine-ring broadsword); ring, rod, other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or clan (3-12)
+Treasure: NPC gear (studded leather armor, -nine-ring broadsword); ring, rod, other treasure
+:::
 
 ### Special Abilities
 

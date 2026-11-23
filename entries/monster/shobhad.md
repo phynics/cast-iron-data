@@ -33,85 +33,65 @@ abilities = ["20", "13", "18", "10", "11", "13"]
 _This gray-skinned goliath is lean and muscled. Its four powerful arms carry weapons, and it wears a
 leather chest harness._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +5
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft.
+Experience points: 1,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +4 armor, +1 Dex, +4 natural, -1 size
+Hit points: 47 (5d10+20)
+Fort: +5
+Ref: +5
+Will: +4
+Ferocity: present
+Resist: cold 5
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., (30 ft. in armor)
+Melee: longsword +5 (2d6+5/19-20), longsword +5 (2d6+2/19-20), 2 slams +4 (1d6+2)
+Ranged: shobhad longrifle +6 (2d6/×4) or 2 javelins +5 (1d8+5)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +1 Dex, +4 natural, -1 size
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +4
-
-**Ferocity:** present
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. in armor)
-
-**Melee:** longsword +5 (2d6+5/19-20), longsword +5 (2d6+2/19-20), 2 slams +4 (1d6+2)
-
-**Ranged:** shobhad longrifle +6 (2d6/×4) or 2 javelins +5 (1d8+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 18, Int 10, Wis 11, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Reflexes, Improved Initiative, Multiweapon Fighting, Weapon Focus^B^ (shobhad
-longrifle)
-
-**Skills:** Intimidate +9, Perception +8
-
-**Languages:** Giant
+::: statblock
+Ability scores: Str 20, Dex 13, Con 18, Int 10, Wis 11, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: +11
+Combat maneuver defense: 22
+Feats: Combat Reflexes, Improved Initiative, Multiweapon Fighting, Weapon Focus^B^ (shobhad longrifle)
+Skills: Intimidate +9, Perception +8
+Languages: Giant
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** cold deserts or mountains
-
-**Organization:** solitary, pair, raiding party (3-19), or clan (20 or more plus 1 sergeant of
-3rd-4th level per 10 adults and 1 leader of 5th-7th level), plus mounts (use statistics for
-[ankylosaurus](ref/monster/dinosaur-ankylosaurus)).
-
-**Treasure:** NPC gear (Ah, 2 longswords, 2 javelins); shobhad longrifle with 20
-[bullets](ref/eq-weapon/firearm-bullet), other treasure
+::: statblock
+Environment: cold deserts or mountains
+Organization: solitary, pair, raiding party (3-19), or clan (20 or more plus 1 sergeant of 3rd-4th level per 10 adults and 1 leader of 5th-7th level), plus mounts (use statistics for [ankylosaurus](ref/monster/dinosaur-ankylosaurus)).
+Treasure: NPC gear (Ah, 2 longswords, 2 javelins); shobhad longrifle with 20 [bullets](ref/eq-weapon/firearm-bullet), other treasure
+:::
 
 ### Description
 

@@ -30,71 +30,58 @@ abilities = ["16", "8", "21", "-", "1", "1"]
 _What at first seemed to be a carpet of fungi and mushrooms suddenly stirs to life, surging forward
 with a reek of decay._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: -1
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 600
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 8
+Touch: 8
+Flat-footed: 8
+AC modifiers: -1 Dex, -1 size
+Hit points: 28 (3d8+15)
+Fort: +6
+Ref: +0
+Will: -4
+Immune: [ooze traits](ref/umr/ooze-traits)
+Resist: fire 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 20 ft.
+Engulf: DC 14, 1d6+4 bludgeoning plus disease
+Melee: slam +4 (1d6+4 plus disease)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** -5
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 16, Dex 8, Con 21, Int -, Wis 1, Cha 1
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 15 (can't be tripped)
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**Armor class:** 8
+### Ecology
 
-**Touch:** 8
-
-**Flat-footed:** 8
-
-**AC modifiers:** -1 Dex, -1 size
-
-**Hit points:** 28 (3d8+15)
-
-**Fort:** +6
-
-**Ref:** +0
-
-**Will:** -4
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Engulf:** DC 14, 1d6+4 bludgeoning plus disease
-
-**Melee:** slam +4 (1d6+4 plus disease)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 8, Con 21, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** single or infestation (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: single or infestation (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

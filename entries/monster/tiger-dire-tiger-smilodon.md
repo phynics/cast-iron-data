@@ -29,76 +29,60 @@ abilities = ["27", "15", "17", "2", "12", "10"]
 _This large tiger grumbles a warning as it crouches. Two saber-like fangs jut downward from its
 powerful jaws._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 105 (14d8+42)
+Fort: +12
+Ref: +11
+Will: +5
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +18 (2d4+8 plus [grab](ref/umr/grab)), bite +18 (2d6+8/19-20 plus grab)
+Pounce: present
+Rake: 2 claws +18, 2d4+8
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 27, Dex 15, Con 17, Int 2, Wis 12, Cha 10
+Base attack bonus: +10
+Combat maneuver bonus: +19 (+23 grapple)
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Improved Critical (bite), Improved Initiative, Run, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (bite, claw)
+Skills: Acrobatics +6, Perception +12, Stealth +15 (+23 in tall grass), Swim +13
+Racial Modifiers: +4 Acrobatics, +4 Stealth (+8 in tall grass)
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 105 (14d8+42)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +18 (2d4+8 plus [grab](ref/umr/grab)), bite +18 (2d6+8/19-20 plus grab)
-
-**Pounce:** present
-
-**Rake:** 2 claws +18, 2d4+8
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 15, Con 17, Int 2, Wis 12, Cha 10
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19 (+23 grapple)
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Improved Critical (bite), Improved Initiative, Run, Skill Focus (Perception), Skill Focus
-(Stealth), Weapon Focus (bite, claw)
-
-**Skills:** Acrobatics +6, Perception +12, Stealth +15 (+23 in tall grass), Swim +13
-
-**Racial Modifiers:** +4 Acrobatics, +4 Stealth (+8 in tall grass)
-
-**Ecology**
-
-**Environment:** any forests, plains, and swamps
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any forests, plains, and swamps
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

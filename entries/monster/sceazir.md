@@ -33,87 +33,65 @@ _This winged, six-legged creature seems to be constructed of dark crystal. Its m
 disproportionately large for its wolfish head, gaping open to display rows of jagged teeth, and its
 spiky, manyjointed legs bend in unsettling ways._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +8
+Size: large
+Lifesense: present
+Alignment: Neutral evil
+Type: outsider
+Perception: +9
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 6,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 17
+AC modifiers: +4 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +8
+Ref: +12
+Will: +10
+Defensive abilities: negative energy affinity
+Dr: 10/adamantine or good
+Immune: cold, death effects, disease, energy drain, poison
+Resist: acid 10, electricity 10, sonic 10
+:::
 
-**Lifesense:** present
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 60 ft., fly 120 ft. (good)
+Melee: bite +16 (1d8+5), 4 claws +17 (1d6+5/19-20)
+Pounce: present
+Spec Att: entropic ruin, voidfury
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +9
+::: statblock
+Ability scores: Str 21, Dex 18, Con 19, Int 2, Wis 14, Cha 9
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 33 (41 vs. trip)
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Critical (claw), Improved Initiative, Weapon Focus (claw)
+Skills: Acrobatics +8, Fly +18, Perception +9
+Racial Modifiers: +4 Fly, +8 Stealth
+Special qualities: bond of the void
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Ecology
 
-**Subtype:** Extraplanar
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +8
-
-**Ref:** +12
-
-**Will:** +10
-
-**Defensive abilities:** negative energy affinity
-
-**Dr:** 10/adamantine or good
-
-**Immune:** cold, death effects, disease, energy drain, poison
-
-**Resist:** acid 10, electricity 10, sonic 10
-
-**Offense**
-
-**Speed:** 60 ft., fly 120 ft. (good)
-
-**Melee:** bite +16 (1d8+5), 4 claws +17 (1d6+5/19-20)
-
-**Pounce:** present
-
-**Spec Att:** entropic ruin, voidfury
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 18, Con 19, Int 2, Wis 14, Cha 9
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 33 (41 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Critical (claw), Improved Initiative,
-Weapon Focus (claw)
-
-**Skills:** Acrobatics +8, Fly +18, Perception +9
-
-**Racial Modifiers:** +4 Fly, +8 Stealth
-
-**Special qualities:** bond of the void
-
-**Ecology**
-
-**Environment:** any ([Negative Energy Plane](ref/rule/negative-energy-plane))
-
-**Organization:** solitary, voidpair (1 plus 1 [sceaduinar](ref/monster/sceaduinar)) or howling
-(4-8)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Negative Energy Plane](ref/rule/negative-energy-plane))
+Organization: solitary, voidpair (1 plus 1 [sceaduinar](ref/monster/sceaduinar)) or howling (4-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

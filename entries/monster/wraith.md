@@ -33,81 +33,63 @@ abilities = ["-", "16", "-", "14", "14", "21"]
 _This ghostly creature is little more than a dark shape with two flickering pinpoints of light where
 its eyes should be._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+Initiative: +7
+Alignment: Lawful evil
+Lifesense: present
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 1,600
+:::
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 14
+AC modifiers: +5 deflection, +3 Dex
+Hit points: 47 (5d8+25)
+Fort: +6
+Ref: +4
+Will: +6
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: sunlight powerlessness
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Lifesense:** present
+::: statblock
+Speed: fly 60 ft. (good)
+Melee: incorporeal touch +6 (1d6 negative energy plus 1d6 Con drain)
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +10
+::: statblock
+Ability scores: Str -, Dex 16, Con -, Int 14, Wis 14, Cha 21
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 21
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative
+Skills: Diplomacy +10, Sense Motive +10, Stealth +11
+Languages: Common, Infernal
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Incorporeal
-
-**Type:** undead
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 deflection, +3 Dex
-
-**Hit points:** 47 (5d8+25)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +6
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** sunlight powerlessness
-
-**Offense**
-
-**Speed:** fly 60 ft. (good)
-
-**Melee:** incorporeal touch +6 (1d6 negative energy plus 1d6 Con drain)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 16, Con -, Int 14, Wis 14, Cha 21
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 21
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative
-
-**Skills:** Diplomacy +10, Sense Motive +10, Stealth +11
-
-**Languages:** Common, Infernal
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, gang (3-6), or pack (7-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, gang (3-6), or pack (7-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

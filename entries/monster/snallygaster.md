@@ -33,74 +33,59 @@ abilities = ["17", "15", "16", "5", "14", "9"]
 _This lean, scaly beast has broad wings, horns, a single eye, and writhing tentacles within its
 sharp, toothy beak._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft., Scent
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 30 (4d8+12)
+Fort: +4
+Ref: +3
+Will: +6
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Bleed: 1d6
+Melee: bite +6 (1d8+3/×3 plus bleed), 2 claws +6 (1d4+3), sucking tentacles +1 (1d4+1 plus [grab](ref/umr/grab))
+Spec Att: aerial charge, sucking tentacles
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 17, Dex 15, Con 16, Int 5, Wis 14, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +6 (+10 grapple)
+Combat maneuver defense: 18 (22 vs. trip)
+Feats: Flyby Attack, Skill Focus (Stealth)
+Skills: Fly +10, Perception +7, Stealth +9 (+13 in forests)
+Racial Modifiers: +4 Stealth in forests
+Languages: Aklo (can't speak)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Bleed:** 1d6
-
-**Melee:** bite +6 (1d8+3/×3 plus bleed), 2 claws +6 (1d4+3), sucking tentacles +1 (1d4+1 plus
-[grab](ref/umr/grab))
-
-**Spec Att:** aerial charge, sucking tentacles
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 16, Int 5, Wis 14, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6 (+10 grapple)
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Feats:** Flyby Attack, Skill Focus (Stealth)
-
-**Skills:** Fly +10, Perception +7, Stealth +9 (+13 in forests)
-
-**Racial Modifiers:** +4 Stealth in forests
-
-**Languages:** Aklo (can't speak)
-
-**Ecology**
-
-**Environment:** temperate forests or mountains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests or mountains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

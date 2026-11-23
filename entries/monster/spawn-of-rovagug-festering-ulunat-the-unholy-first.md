@@ -27,96 +27,69 @@ special_qualities = "hibernation, massive, no breath"
 abilities = ["38", "21", "35", "3", "30", "20"]
 +++
 
-**Challenge rating:** 24
+::: statblock
+Challenge rating: 24
+aura: [frightful presence](ref/umr/frightful-presence) (300 ft., DC 30)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +5
+Type: Magical beast
+Perception: +42
+Senses: Darkvision 600 ft., Low-light vision
+tremorsense: 600
+Experience points: 1,228,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (300 ft., DC 30)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 42
+Touch: 7
+Flat-footed: 37
+AC modifiers: +5 Dex, +35 natural, -8 size
+Hit points: 525 (30d10+360)
+Fort: +29
+Ref: +24
+Will: +22
+Defensive abilities: regeneration
+Dr: 15/epic
+Immune: ability damage, bleed, disease, energy drain, fire, mind-affecting effects, paralysis, permanent wounds, petrification, poison, polymorph, sonic
+Regen: 30
+Sr: 35
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 60 ft., climb 60 ft., swim 40 ft., fly 90 ft. (poor)
+Melee: bite +36 (4d8+14/19-20 plus 6d6 acid), 4 claws +36 (4d6+14/19-20)
+Reach: 60
+Rend: 2 claws, 4d8+21
+Space: 60
+Spec Att: crush, devour magic, disease, thunderous steps, terrible claws
+Trample: 4d8+21, DC 39
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Perception:** +42
+::: statblock
+Ability scores: Str 38, Dex 21, Con 35, Int 3, Wis 30, Cha 20
+Base attack bonus: +30
+Combat maneuver bonus: +52 (+54 bull rush, +56 sunder)
+Combat maneuver defense: 67 (69 vs. bull rush, 69 vs. sunder, 83 vs. trip)
+Feats: Awesome Blow, Blind-Fight, Critical Focus, Greater Sunder, Improved Bull Rush, Improved Critical (bite), Improved Critical (claws), Improved Sunder, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Staggering Critical, Stunning Critical, Vital Strike
+Skills: Climb +26, Fly +8
+Languages: Aklo (can't speak)
+Special qualities: hibernation, massive, [no breath](ref/umr/no-breath)
+:::
 
-**Senses:** Darkvision 600 ft., Low-light vision
+### Ecology
 
-**tremorsense:** 600
-
-**Experience points:** 1,228,800
-
-**Armor class:** 42
-
-**Touch:** 7
-
-**Flat-footed:** 37
-
-**AC modifiers:** +5 Dex, +35 natural, -8 size
-
-**Hit points:** 525 (30d10+360)
-
-**Fort:** +29
-
-**Ref:** +24
-
-**Will:** +22
-
-**Defensive abilities:** regeneration
-
-**Dr:** 15/epic
-
-**Immune:** ability damage, bleed, disease, energy drain, fire, mind-affecting effects, paralysis,
-permanent wounds, petrification, poison, polymorph, sonic
-
-**Regen:** 30
-
-**Sr:** 35
-
-**Offense**
-
-**Speed:** 60 ft., climb 60 ft., swim 40 ft., fly 90 ft. (poor)
-
-**Melee:** bite +36 (4d8+14/19-20 plus 6d6 acid), 4 claws +36 (4d6+14/19-20)
-
-**Reach:** 60
-
-**Rend:** 2 claws, 4d8+21
-
-**Space:** 60
-
-**Spec Att:** crush, devour magic, disease, thunderous steps, terrible claws
-
-**Trample:** 4d8+21, DC 39
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 21, Con 35, Int 3, Wis 30, Cha 20
-
-**Base attack bonus:** +30
-
-**Combat maneuver bonus:** +52 (+54 bull rush, +56 sunder)
-
-**Combat maneuver defense:** 67 (69 vs. bull rush, 69 vs. sunder, 83 vs. trip)
-
-**Feats:** Awesome Blow, Blind-Fight, Critical Focus, Greater Sunder, Improved Bull Rush, Improved
-Critical (bite), Improved Critical (claws), Improved Sunder, Improved Vital Strike, Iron Will,
-Lightning Reflexes, Power Attack, Staggering Critical, Stunning Critical, Vital Strike
-
-**Skills:** Climb +26, Fly +8
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** hibernation, massive, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any (Sothis)
-
-**Organization:** unique
-
-**Treasure:** None
+::: statblock
+Environment: any (Sothis)
+Organization: unique
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -35,108 +35,76 @@ abilities = ["29", "29", "31", "26", "20", "24"]
 _This hideous shape has the head of a feral elk with jagged teeth and sharp antlers. Its humanoid
 legs end in blackened, burnt stumps._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+blindsight: 60
+Alignment: Chaotic evil
+Initiative: +13
+Size: large
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold, Native
+Experience points: 102,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 32
+Touch: 18
+Flat-footed: 23
+AC modifiers: +9 Dex, +14 natural, -1 size
+Hit points: 279 (18d10+180)
+Fort: +21
+Ref: +22
+Will: +11
+Dr: 15/cold iron and magic
+Immune: cold, fear
+Regen: 15 (fire)
+Sr: 28
+Vulner: fire
+:::
 
-**Initiative:** +13
+### Offense
 
-**Size:** large
+::: statblock
+Speed: fly 120 ft. (perfect)
+Melee: bite +26 (2d8+9/19-20 plus 4d6 cold and [grab](ref/umr/grab)), 2 claws +26 (2d6+9/19-20 plus 4d6 cold)
+Reach: 10
+Rend: 2 claws, 1d8+13 plus 4d6 cold plus 1d4 Cha damage
+Space: 10
+Spec Att: dream haunting, howl, wendigo psychosis
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+At will: wind walk (DC 23; see below)
+Per day: 1/day: control weather, as druid, nightmare (DC 22)
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 29, Dex 29, Con 31, Int 26, Wis 20, Cha 24
+Base attack bonus: +18
+Combat maneuver bonus: +28 (+32 grapple)
+Combat maneuver defense: 47
+Feats: Ability Focus (howl), Critical Focus, Flyby Attack, Improved Critical (bite, claws), Improved Initiative, Lightning Reflexes, Persuasive, Tiring Critical
+Skills: Acrobatics +30, Bluff +28, Diplomacy +9, Fly +36, Intimidate +32, Knowledge (arcana, geography, nature, religion) +26, Perception +26
+Languages: Aklo, Common, Giant; [telepathy](ref/umr/telepathy) 1 mile
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Cold, Native
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 18
-
-**Flat-footed:** 23
-
-**AC modifiers:** +9 Dex, +14 natural, -1 size
-
-**Hit points:** 279 (18d10+180)
-
-**Fort:** +21
-
-**Ref:** +22
-
-**Will:** +11
-
-**Dr:** 15/cold iron and magic
-
-**Immune:** cold, fear
-
-**Regen:** 15 (fire)
-
-**Sr:** 28
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** fly 120 ft. (perfect)
-
-**Melee:** bite +26 (2d8+9/19-20 plus 4d6 cold and [grab](ref/umr/grab)), 2 claws +26 (2d6+9/19-20
-plus 4d6 cold)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d8+13 plus 4d6 cold plus 1d4 Cha damage
-
-**Space:** 10
-
-**Spec Att:** dream haunting, howl, wendigo psychosis
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**At will:**
-
-- wind walk (DC 23; see below)
-
-**Per day:**
-
-- 1/day: control weather, as druid, nightmare (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 29, Con 31, Int 26, Wis 20, Cha 24
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +28 (+32 grapple)
-
-**Combat maneuver defense:** 47
-
-**Feats:** Ability Focus (howl), Critical Focus, Flyby Attack, Improved Critical (bite, claws),
-Improved Initiative, Lightning Reflexes, Persuasive, Tiring Critical
-
-**Skills:** Acrobatics +30, Bluff +28, Diplomacy +9, Fly +36, Intimidate +32, Knowledge (arcana,
-geography, nature, religion) +26, Perception +26
-
-**Languages:** Aklo, Common, Giant; [telepathy](ref/umr/telepathy) 1 mile
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any cold
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

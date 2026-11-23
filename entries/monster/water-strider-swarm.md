@@ -31,87 +31,66 @@ abilities = ["1", "18", "10", "-", "10", "2"]
 _Countless thousands of long-legged water bugs glide soundlessly over the surface of the water,
 skimming over it in a wave of twitching bodies._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Size: diminutive
+Initiative: +4
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+tremorsense: 30
+Type: vermin
+Experience points: 400
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 size
+Hit points: 9 (2d8)
+Fort: +3
+Ref: +4
+Will: +0
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+Weaknesses: swarm traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 10 ft., swim 20 ft.
+B Drain: 1d2 Constitution
+Distraction: 11
+Melee: swarm (1d6 plus blood drain and distraction)
+Reach: 0
+Sp Extra: water walk 30 ft.
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 18, Con 10, Int -, Wis 10, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Acrobatics +6 (+12 jump), Perception +6, Swim +3
+Racial Modifiers: +6 Acrobatics to jump, +4 Perception
+Special qualities: water walking
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 400
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +0
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Weaknesses:** swarm traits
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft.
-
-**B Drain:** 1d2 Constitution
-
-**Distraction:** 11
-
-**Melee:** swarm (1d6 plus blood drain and distraction)
-
-**Reach:** 0
-
-**Sp Extra:** water walk 30 ft.
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 18, Con 10, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Acrobatics +6 (+12 jump), Perception +6, Swim +3
-
-**Racial Modifiers:** +6 Acrobatics to jump, +4 Perception
-
-**Special qualities:** water walking
-
-**Ecology**
-
-**Environment:** temperate lakes, rivers, or swamps
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate lakes, rivers, or swamps
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

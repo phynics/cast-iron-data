@@ -34,86 +34,67 @@ abilities = ["17", "10", "17", "6", "14", "7"]
 _A small forest animal sits motionless atop a worn stump - and then the stump's face peels open into
 a maw of sharp teeth._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Perception: +14
+Senses: All-around vision, Darkvision 60 ft.
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 21
+AC modifiers: +11 natural
+Hit points: 97 (13d8+39)
+Fort: +9
+Ref: +6
+Will: +10
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft., burrow 5 ft., climb 5 ft.
+Constrict: tentacle 1d4+3
+Melee: bite +12 (1d6+3), 8 tentacles +11 (1d4+1 plus [grab](ref/umr/grab) and pull)
+Pull: tentacle, 5 ft.
+Reach: 5
+Reach P: 15 ft. with tentacle
+Space: 5
+Spec Att: implant
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +11 natural
-
-**Hit points:** 97 (13d8+39)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +10
-
-**Offense**
-
-**Speed:** 5 ft., burrow 5 ft., climb 5 ft.
-
-**Constrict:** tentacle 1d4+3
-
-**Melee:** bite +12 (1d6+3), 8 tentacles +11 (1d4+1 plus [grab](ref/umr/grab) and pull)
-
-**Pull:** tentacle, 5 ft.
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with tentacle
-
-**Space:** 5
-
-**Spec Att:** implant
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con 17, Int 6, Wis 14, Cha 7
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12 (+18 grapple)
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Feats:** Great Fortitude, Greater Grapple^B^, Improved Initiative, Improved Lightning Reflexes,
-Lightning Reflexes, Multiattack, Skill Focus (Perception), Weapon Focus (tentacle)
-
-**Skills:** Climb +15, Disguise -1 (+11 as tree stump), Sense Motive +8, Stealth +9
-
-**Racial Modifiers:** +12 Disguise as tree stump
-
-**Special qualities:** corpse lure
+::: statblock
+Ability scores: Str 17, Dex 10, Con 17, Int 6, Wis 14, Cha 7
+Base attack bonus: +9
+Combat maneuver bonus: +12 (+18 grapple)
+Combat maneuver defense: 22 (can't be tripped)
+Feats: Great Fortitude, Greater Grapple^B^, Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes, Multiattack, Skill Focus (Perception), Weapon Focus (tentacle)
+Skills: Climb +15, Disguise -1 (+11 as tree stump), Sense Motive +8, Stealth +9
+Racial Modifiers: +12 Disguise as tree stump
+Special qualities: corpse lure
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any forest
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any forest
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

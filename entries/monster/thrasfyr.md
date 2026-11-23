@@ -32,108 +32,77 @@ abilities = ["30", "13", "31", "5", "24", "20"]
 _Neither quite bear nor bull nor serpent, this immense, six-legged creature is bound in chains and
 covered with scintillating red scales._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic evil
+Size: huge
+Initiative: +5
+Type: Magical beast
+Perception: +28
+Senses: Darkvision 120 ft., Low-light vision, See invisibility
+Subtype: Fire
+Experience points: 102,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 32
+Touch: 9
+Flat-footed: 31
+AC modifiers: +1 Dex, +23 natural, -2 size
+Hit points: 279 (18d10+180)
+Fort: +21
+Ref: +14
+Will: +15
+Dr: 15/cold iron and slashing
+Immune: fire, sonic
+Regen: 15 (acid or cold)
+Resist: electricity 30
+Sr: 28
+Vulner: cold
+:::
 
-**Initiative:** +5
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 50 ft., climb 50 ft.
+Br Weap: 80-foot cone, 20d8 fire damage, Reflex DC 29 half, usable once every 1d4 rounds
+Melee: 2 bites +26 (2d6+10), 4 claws +26 (1d8+10), gore +26 (2d6+10)
+Pow Ch: gore, 4d8+24
+Reach: 15
+Space: 15
+Spec Att: entangling chains
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +23
+Constant: air walk, see invisibility
+Per day: 1/day: greater teleport, self plus 50 lbs. of objects only, and only to a master's side
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, See invisibility
+### Statistics
 
-**Subtype:** Fire
+::: statblock
+Ability scores: Str 30, Dex 13, Con 31, Int 5, Wis 24, Cha 20
+Base attack bonus: +18
+Combat maneuver bonus: +30
+Combat maneuver defense: 41 (49 vs. trip)
+Feats: Critical Focus, Greater Vital Strike, Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike
+Skills: Climb +18, Perception +28
+Languages: Aklo, Sylvan
+Special qualities: master's bond, planar acclimation
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 9
-
-**Flat-footed:** 31
-
-**AC modifiers:** +1 Dex, +23 natural, -2 size
-
-**Hit points:** 279 (18d10+180)
-
-**Fort:** +21
-
-**Ref:** +14
-
-**Will:** +15
-
-**Dr:** 15/cold iron and slashing
-
-**Immune:** fire, sonic
-
-**Regen:** 15 (acid or cold)
-
-**Resist:** electricity 30
-
-**Sr:** 28
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft.
-
-**Br Weap:** 80-foot cone, 20d8 fire damage, Reflex DC 29 half, usable once every 1d4 rounds
-
-**Melee:** 2 bites +26 (2d6+10), 4 claws +26 (1d8+10), gore +26 (2d6+10)
-
-**Pow Ch:** gore, 4d8+24
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** entangling chains
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +23
-
-**Constant:**
-
-- air walk, see invisibility
-
-**Per day:**
-
-- 1/day: greater teleport, self plus 50 lbs. of objects only, and only to a master's side
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 13, Con 31, Int 5, Wis 24, Cha 20
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 41 (49 vs. trip)
-
-**Feats:** Critical Focus, Greater Vital Strike, Improved Initiative, Improved Vital Strike, Iron
-Will, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike
-
-**Skills:** Climb +18, Perception +28
-
-**Languages:** Aklo, Sylvan
-
-**Special qualities:** master's bond, planar acclimation
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

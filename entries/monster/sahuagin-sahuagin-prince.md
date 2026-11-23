@@ -30,57 +30,44 @@ special_qualities = "exotic mount (shark), greater tactician (3/day, 8 rounds, s
 abilities = ["20", "16", "20", "13", "12", "10"]
 +++
 
-**Challenge rating:** 13
-
 **Four-armed sahuagin [cavalier](ref/class/cavalier) ([beast rider](ref/arc-cavalier/beast-rider))
 10**
 
-**blindsense:** 30
+::: statblock
+Challenge rating: 13
+blindsense: 30
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 25,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 28
+Touch: 14
+Flat-footed: 25
+AC modifiers: +7 armor, +1 deflection, +3 Dex, +7 natural
+Hit points: 148 (12d10+82)
+Fort: +16
+Ref: +13
+Will: +11
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
-
-**Perception:** +16
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Aquatic
-
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 14
-
-**Flat-footed:** 25
-
-**AC modifiers:** +7 armor, +1 deflection, +3 Dex, +7 natural
-
-**Hit points:** 148 (12d10+82)
-
-**Fort:** +16
-
-**Ref:** +13
-
-**Will:** +11
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Melee:** lance of jousting +20/+15/+10 (1d8+8/19-20/×3), bite +17 (1d6+2), 2 claws +19 (1d4+5)
-
-**Ranged:** mwk underwater heavy crossbow +18 (1d10/19-20)
-
-**Spec Att:** banner +3/+2, [blood frenzy](ref/monster/sahuagin), cavalier's charge, challenge (+10,
-+3, 4/day)
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Melee: lance of jousting +20/+15/+10 (1d8+8/19-20/×3), bite +17 (1d6+2), 2 claws +19 (1d4+5)
+Ranged: mwk underwater heavy crossbow +18 (1d10/19-20)
+Spec Att: banner +3/+2, [blood frenzy](ref/monster/sahuagin), cavalier's charge, challenge (+10, +3, 4/day)
+:::
 
 ### Tactics
 
@@ -90,34 +77,26 @@ bite +15 (1d6+2), 2 claws +17 (1d4+5) or 4 claws +17 (1d4+5), bite +17 (1d6+5); 
 underwater heavy crossbow +16 (1d10/19-20); Skills Handle Animal +13, Knowledge (nobility) +14,
 Perception +16, Ride +13 (+16 with personal mount), Sense Motive +8, Swim +17.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 16, Con 20, Int 13, Wis 12, Cha 10
+::: statblock
+Ability scores: Str 20, Dex 16, Con 20, Int 13, Wis 12, Cha 10
+Base attack bonus: +12
+Combat maneuver bonus: +17
+Combat maneuver defense: 31
+Feats: Dreadful Carnage, Furious Focus, Intimidating Prowess, Lookout, Mounted Combat, Multiattack, Outflank, Power Attack, Ride-By Attack, Spirited Charge, Toughness
+Skills: Handle Animal +15, Ride +15 (+18 with personal mount)
+Languages: Aquan, Common; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: exotic mount (shark), greater tactician (3/day, 8 rounds, swift action), multiweapon mastery, order of the lion (for the king, lion's call)
+Combat gear: 2 potion of cure moderate wounds, 2 potion of barkskin, potion of heroism
+Other gear: +1 breastplate, MWlance of jousting, mwk uhc20, Ibomc2, Iclk2, ring of prot1, +1 Aleather Abb, I-stone of alliance/swallowed by mount, exotic military saddle, 2,678 gp
+:::
 
-**Base attack bonus:** +12
+### Ecology
 
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 31
-
-**Feats:** Dreadful Carnage, Furious Focus, Intimidating Prowess, Lookout, Mounted Combat,
-Multiattack, Outflank, Power Attack, Ride-By Attack, Spirited Charge, Toughness
-
-**Skills:** Handle Animal +15, Ride +15 (+18 with personal mount)
-
-**Languages:** Aquan, Common; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** exotic mount (shark), greater tactician (3/day, 8 rounds, swift action),
-multiweapon mastery, order of the lion (for the king, lion's call)
-
-**Combat gear:** 2 potion of cure moderate wounds, 2 potion of barkskin, potion of heroism
-
-**Other gear:** +1 breastplate, MWlance of jousting, mwk uhc20, Ibomc2, Iclk2, ring of prot1, +1
-Aleather Abb, I-stone of alliance/swallowed by mount, exotic military saddle, 2,678 gp
-
-**Ecology**
-
-**Environment:** temperate or warm ocean
+::: statblock
+Environment: temperate or warm ocean
+:::
 
 ### Description
 

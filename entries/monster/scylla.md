@@ -31,119 +31,81 @@ abilities = ["27", "32", "27", "20", "23", "22"]
 _This horrifying creature has the upper body of a beautiful woman, but a lower body of snapping wolf
 heads and writhing tentacles._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Type: aberration
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 26)
+blindsight: 30
+Alignment: Chaotic evil
+Size: huge
+Initiative: +11
+Perception: +29
+Senses: All-around vision, Darkvision 60 ft., Low-light vision, See invisibility
+Subtype: Aquatic
+Experience points: 76,800
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 26)
+::: statblock
+Armor class: 30
+Touch: 20
+Flat-footed: 18
+AC modifiers: +11 Dex, +1 dodge, +10 natural, -2 size
+Hit points: 250 (20d8+160)
+Fort: +14
+Ref: +17
+Will: +18
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/cold iron and lawful
+Fh: 10
+Immune: cold, charm effects, confusion and insanity effects
+Improved evasion: present
+Resist: acid 20, fire 20
+Sr: 27
+:::
 
-**blindsight:** 30
+### Offense
 
-**Alignment:** Chaotic evil
+::: statblock
+Speed: 30 ft., swim 50 ft.
+Bleed: 1d6
+Constrict: 1d6+8
+Melee: 4 bites +25 (1d8+8/19-20 plus bleed), 4 tentacles +23 (1d6+4 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+:::
 
-**Size:** huge
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +22
+Constant: freedom of movement, nondetection, see invisibility
+At will: acid arrow, control water, fog cloud, greater dispel magic, major image (DC 19)
+Per day: 3/day: black tentacles, charm monster (DC 20), insanity (DC 23), mirage arcana (DC 21), solid fog\
+1/day: control weather, power word stun, project image (DC 23), summon (level 8, 1 charybdis)
+:::
 
-**Initiative:** +11
+### Statistics
 
-**Perception:** +29
+::: statblock
+Ability scores: Str 27, Dex 32, Con 27, Int 20, Wis 23, Cha 22
+Base attack bonus: +15
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 47 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Improved Critical (bite), Mobility, Multiattack, Power Attack, Vital Strike, Weapon Finesse, Weapon Focus (bite), Weapon Focus (tentacles)
+Skills: Acrobatics +34, Bluff +26, Knowledge (nature) +25, Intimidate +29, Perception +29, Sense Motive +26, Stealth +26, Swim +39, Use Magic Device +26
+Languages: Abyssal, Aquan, Common
+Special qualities: [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (1 humanoid form; [alter self](ref/spell/alter-self)), [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See invisibility
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 20
-
-**Flat-footed:** 18
-
-**AC modifiers:** +11 Dex, +1 dodge, +10 natural, -2 size
-
-**Hit points:** 250 (20d8+160)
-
-**Fort:** +14
-
-**Ref:** +17
-
-**Will:** +18
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/cold iron and lawful
-
-**Fh:** 10
-
-**Immune:** cold, charm effects, confusion and insanity effects
-
-**Improved evasion:** present
-
-**Resist:** acid 20, fire 20
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft.
-
-**Bleed:** 1d6
-
-**Constrict:** 1d6+8
-
-**Melee:** 4 bites +25 (1d8+8/19-20 plus bleed), 4 tentacles +23 (1d6+4 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +22
-
-**Constant:**
-
-- freedom of movement, nondetection, see invisibility
-
-**At will:**
-
-- acid arrow, control water, fog cloud, greater dispel magic, major image (DC 19)
-
-**Per day:**
-
-- 3/day: black tentacles, charm monster (DC 20), insanity (DC 23), mirage arcana (DC 21), solid fog
-- 1/day: control weather, power word stun, project image (DC 23), summon (level 8, 1 charybdis)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 32, Con 27, Int 20, Wis 23, Cha 22
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 47 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (bite), Mobility, Multiattack, Power Attack,
-Vital Strike, Weapon Finesse, Weapon Focus (bite), Weapon Focus (tentacles)
-
-**Skills:** Acrobatics +34, Bluff +26, Knowledge (nature) +25, Intimidate +29, Perception +29, Sense
-Motive +26, Stealth +26, Swim +39, Use Magic Device +26
-
-**Languages:** Abyssal, Aquan, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (1
-humanoid form; [alter self](ref/spell/alter-self)), [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any water
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

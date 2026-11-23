@@ -30,87 +30,68 @@ abilities = ["1", "13", "10", "-", "13", "9"]
 
 _A wave of swift-moving spines rushes forward - a roiling tide of dangerously fast sea urchins._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Alignment: Neutral evil
+Perception: +1
+Senses: Darkvision 60 ft., Scent
+Subtype: Aquatic, Swarm
+Size: tiny
+Type: vermin
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 14
+AC modifiers: +1 Dex, +2 natural, +2 size
+Hit points: 18 (4d8)
+Fort: +4
+Ref: +2
+Will: +2
+Immune: mind-affecting effects
+Resist: cold 5
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Speed: 10 ft., swim 20 ft.
+Distraction: 14
+Melee: swarm +6 (2d6 plus poison)
+Reach: 0
+Space: 10
+Spec Att: jet, underfoot
+:::
 
-**Subtype:** Aquatic, Swarm
+### Statistics
 
-**Size:** tiny
-
-**Type:** vermin
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +2 natural, +2 size
-
-**Hit points:** 18 (4d8)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft.
-
-**Distraction:** 14
-
-**Melee:** swarm +6 (2d6 plus poison)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** jet, underfoot
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 13, Con 10, Int -, Wis 13, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 7 (can't be tripped)
-
-**Feats:** Weapon Finesse^B^
-
-**Skills:** Acrobatics +9, Swim +3
-
-**Racial Modifiers:** +8 Acrobatics
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 1, Dex 13, Con 10, Int -, Wis 13, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 7 (can't be tripped)
+Feats: Weapon Finesse^B^
+Skills: Acrobatics +9, Swim +3
+Racial Modifiers: +8 Acrobatics
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any coastlines or water
-
-**Organization:** solitary, pool (2-5), or red tide (11-20)
-
-**Treasure:** None
+::: statblock
+Environment: any coastlines or water
+Organization: solitary, pool (2-5), or red tide (11-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

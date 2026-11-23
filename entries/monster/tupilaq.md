@@ -31,81 +31,65 @@ abilities = ["21", "18", "-", "-", "11", "5"]
 _This small humanoid figure grinds and clatters as it moves, its body carved from bones decorated
 with fine scrimshaw._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: construct
+Initiative: +4
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 3,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 Dex, +5 natural, +1 size
+Hit points: 59 (9d10+10)
+Fort: +3
+Ref: +7
+Will: +3
+Dr: 10/bludgeoning
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: bite +15 (1d8+10/19-20 plus [grab](ref/umr/grab)), 2 claws +15 (1d4+5)
+Spec Att: seek target, shearing jaws
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +4
+Per day: 3/day: invisibility
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 21, Dex 18, Con -, Int -, Wis 11, Cha 5
+Base attack bonus: +9
+Combat maneuver bonus: +13 (+17 grapple)
+Combat maneuver defense: 27
+Skills: Swim +13
+Special qualities: scrimshaw magic
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +5 natural, +1 size
-
-**Hit points:** 59 (9d10+10)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +3
-
-**Dr:** 10/bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** bite +15 (1d8+10/19-20 plus [grab](ref/umr/grab)), 2 claws +15 (1d4+5)
-
-**Spec Att:** seek target, shearing jaws
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +4
-
-**Per day:**
-
-- 3/day: invisibility
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 18, Con -, Int -, Wis 11, Cha 5
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13 (+17 grapple)
-
-**Combat maneuver defense:** 27
-
-**Skills:** Swim +13
-
-**Special qualities:** scrimshaw magic
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

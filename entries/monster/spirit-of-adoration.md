@@ -33,104 +33,75 @@ _This armored woman appears to be carved from living marble, her angelic wings r
 shape of a heavenly warrior. In one hand she grips a fearsome glaive, every movement of which paints
 the air around her with swirls and flourishes of magical energy._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: charming (30 feet, DC 25)
+Initiative: +4
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar, Good
+Experience points: 51,200
+:::
 
-**aura:** charming (30 feet, DC 25)
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 32
+Touch: 20
+Flat-footed: 27
+AC modifiers: +6 armor, +6 deflection, +4 Dex, +1 dodge, +6 natural, -1 size
+Hit points: 189 (18d10+90)
+Fort: +17
+Ref: +21
+Will: +25
+Dr: 10/evil
+Fh: 5
+Immune: fire, sonic
+Resist: acid 30, electricity 30
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: +2 dancing glaive +24/+19/+14/+9 (2d8+8/×3)
+Ranged: stunning bolt +21 (1d8 plus stun)
+Reach: 10
+Space: 10
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+At will: calm emotions, good hope
+:::
 
-**Perception:** +33
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 19, Con 20, Int 19, Wis 22, Cha 23
+Base attack bonus: +18
+Combat maneuver bonus: +23
+Combat maneuver defense: 44
+Feats: Blind-Fight, Dodge, Improved Iron Will, Improved Sunder, Iron Will, Mobility, Skill Focus (Perception), Step Up, Weapon Focus (glaive), Wind Stance
+Skills: Acrobatics +13 (+17 jump), Bluff +18, Diplomacy +18, Disguise +15, Perform (dance) +27, Sense Motive +27, Spellcraft +22, Stealth +21, Use Magic Device +15
+Languages: Auran, Common, Celestial, Ignan, Shadowtongue
+Special qualities: bardic magic, [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), inspiration, unearthly grace
+Gear: +2 D glaive
+:::
 
-**Subtype:** Extraplanar, Good
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 32
-
-**Touch:** 20
-
-**Flat-footed:** 27
-
-**AC modifiers:** +6 armor, +6 deflection, +4 Dex, +1 dodge, +6 natural, -1 size
-
-**Hit points:** 189 (18d10+90)
-
-**Fort:** +17
-
-**Ref:** +21
-
-**Will:** +25
-
-**Dr:** 10/evil
-
-**Fh:** 5
-
-**Immune:** fire, sonic
-
-**Resist:** acid 30, electricity 30
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** +2 dancing glaive +24/+19/+14/+9 (2d8+8/×3)
-
-**Ranged:** stunning bolt +21 (1d8 plus stun)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**At will:**
-
-- calm emotions, good hope
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 20, Int 19, Wis 22, Cha 23
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 44
-
-**Feats:** Blind-Fight, Dodge, Improved Iron Will, Improved Sunder, Iron Will, Mobility, Skill Focus
-(Perception), Step Up, Weapon Focus (glaive), Wind Stance
-
-**Skills:** Acrobatics +13 (+17 jump), Bluff +18, Diplomacy +18, Disguise +15, Perform (dance) +27,
-Sense Motive +27, Spellcraft +22, Stealth +21, Use Magic Device +15
-
-**Languages:** Auran, Common, Celestial, Ignan, Shadowtongue
-
-**Special qualities:** bardic magic, [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), inspiration, unearthly grace
-
-**Gear:** +2 D glaive
-
-**Ecology**
-
-**Environment:** any (extraplanar)
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any (extraplanar)
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

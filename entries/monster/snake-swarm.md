@@ -32,77 +32,61 @@ abilities = ["9", "15", "12", "1", "12", "2"]
 
 _Hissing menacingly, this mass of snakes resembles a pile of slithering tentacles._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +6
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Subtype: Swarm
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 natural, +2 size
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +7
+Will: +2
+Defensive abilities: swarm traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Distraction: 12
+Melee: swarm (1d6 plus distraction)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 9, Dex 15, Con 12, Int 1, Wis 12, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Climb +14
+Racial Modifiers: +4 Perception, +4 Stealth, uses Dex to modify Climb and Swim
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 natural, +2 size
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +2
-
-**Defensive abilities:** swarm traits
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Distraction:** 12
-
-**Melee:** swarm (1d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 15, Con 12, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Climb +14
-
-**Racial Modifiers:** +4 Perception, +4 Stealth, uses Dex to modify Climb and Swim
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or nest (2-4 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or nest (2-4 swarms)
+Treasure: None
+:::
 
 ### Description
 

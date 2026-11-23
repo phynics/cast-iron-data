@@ -30,79 +30,62 @@ abilities = ["26", "17", "19", "8", "17", "10"]
 _Larger than an elephant, this scaly, bird-like creature has a vaguely horse-like head and vast,
 slime-encrusted wings._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Size: huge
+Initiative: +3
+Type: Magical beast
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 18
+AC modifiers: +3 Dex, +10 natural, -2 size
+Hit points: 104 (11d10+44)
+Fort: +11
+Ref: +10
+Will: +6
+Defensive abilities: slippery
+Immune: cold, disease
+:::
 
-**Initiative:** +3
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 20 ft., fly 80 ft. (average)
+Melee: bite +17 (2d6+8), 2 talons +17 (1d8+8 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +3
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 17, Con 19, Int 8, Wis 17, Cha 10
+Base attack bonus: +11
+Combat maneuver bonus: +21 (+25 grapple)
+Combat maneuver defense: 34 (42 vs. grapple)
+Feats: Awesome Blow, Flyby Attack, Hover, Improved Bull Rush, Power Attack, Wingover
+Skills: Escape Artist +11, Fly +13
+Racial Modifiers: +8 Escape Artist
+Languages: Aklo
+Special qualities: [no breath](ref/umr/no-breath), share defenses, starflight
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +10 natural, -2 size
-
-**Hit points:** 104 (11d10+44)
-
-**Fort:** +11
-
-**Ref:** +10
-
-**Will:** +6
-
-**Defensive abilities:** slippery
-
-**Immune:** cold, disease
-
-**Offense**
-
-**Speed:** 20 ft., fly 80 ft. (average)
-
-**Melee:** bite +17 (2d6+8), 2 talons +17 (1d8+8 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 17, Con 19, Int 8, Wis 17, Cha 10
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +21 (+25 grapple)
-
-**Combat maneuver defense:** 34 (42 vs. grapple)
-
-**Feats:** Awesome Blow, Flyby Attack, Hover, Improved Bull Rush, Power Attack, Wingover
-
-**Skills:** Escape Artist +11, Fly +13
-
-**Racial Modifiers:** +8 Escape Artist
-
-**Languages:** Aklo
-
-**Special qualities:** [no breath](ref/umr/no-breath), share defenses, starflight
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, pair, or flock (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: cold mountains
+Organization: solitary, pair, or flock (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

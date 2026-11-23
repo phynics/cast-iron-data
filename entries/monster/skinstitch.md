@@ -30,75 +30,60 @@ abilities = ["19", "10", "-", "-", "11", "1"]
 _This hulking thing is a patchwork of rotten cloth and grotesque skin, with stray bits of straw
 poking out the seams._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: construct
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 16
+AC modifiers: +7 natural, -1 size
+Hit points: 52 (4d10+30)
+Fort: +1
+Ref: +1
+Will: +1
+Dr: 5/slashing
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: cold 10, electricity 10
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: longsword +7 (2d6+4/19-20), slam +2 (2d6+4)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 10, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 19
+Special qualities: nest, repair
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 natural, -1 size
-
-**Hit points:** 52 (4d10+30)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** +1
-
-**Dr:** 5/slashing
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** cold 10, electricity 10
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** longsword +7 (2d6+4/19-20), slam +2 (2d6+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 10, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 19
-
-**Special qualities:** nest, repair
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, hive (1 plus 1 swarm), or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, hive (1 plus 1 swarm), or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

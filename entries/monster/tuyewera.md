@@ -33,79 +33,62 @@ slip through hideous tears here and there. Its jaw distends and a long tongue wh
 a tentacle. Its legs have been severed at the knee, forcing it to scrabble forward on all fours like
 some deranged beast._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 Dex, +3 natural
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +5
+Will: +6
+Defensive abilities: daylight invisibility
+Dr: 5/magic
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: vulnerable to sunlight
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 20 ft.
+Constrict: 1d4+4
+Melee: slam +7 (1d6+4), tongue +8 (1d4+4 plus [grab](ref/umr/grab))
+Spec Att: lure, steal tongue, suffocation
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 17, Dex 16, Con -, Int 8, Wis 13, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Combat Reflexes, Improved Initiative, Weapon Focus (tongue)
+Skills: Bluff +8, Perception +10, Stealth +12
+Languages: Common (but see _steal tongue_ below)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +3 natural
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +6
-
-**Defensive abilities:** daylight invisibility
-
-**Dr:** 5/magic
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** vulnerable to sunlight
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Constrict:** 1d4+4
-
-**Melee:** slam +7 (1d6+4), tongue +8 (1d4+4 plus [grab](ref/umr/grab))
-
-**Spec Att:** lure, steal tongue, suffocation
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con -, Int 8, Wis 13, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Reflexes, Improved Initiative, Weapon Focus (tongue)
-
-**Skills:** Bluff +8, Perception +10, Stealth +12
-
-**Languages:** Common (but see _steal tongue_ below)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

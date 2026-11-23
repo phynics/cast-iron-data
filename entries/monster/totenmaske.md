@@ -35,80 +35,61 @@ abilities = ["18", "23", "-", "16", "15", "19"]
 _This spindly, skeletal humanoid has moldy green flesh, long talons for hands, and a head that seems
 to be mostly mouth._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Perception: +15
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 14
+AC modifiers: +6 Dex, +4 natural
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: +9
+Will: +9
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 20
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 50 ft.
+Melee: bite +13 (1d8+4 plus 1d4 Cha drain), 2 claws +13 (1d6+4)
+Spec Att: fleshdrink, shape flesh
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 18, Dex 23, Con -, Int 16, Wis 15, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 27
+Feats: Ability Focus (Charisma drain), Combat Expertise, Combat Reflexes, Improved Initiative, Weapon Finesse
+Skills: Acrobatics +16 (+24 jump), Bluff +14, Diplomacy +14, Disguise +17, Sense Motive +15, Stealth +19
+Languages: Abyssal, Celestial, Common, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (the previous humanoid it successfully used its fleshdrink ability on; [alter self](ref/spell/alter-self))
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 Dex, +4 natural
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +9
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 20
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +13 (1d8+4 plus 1d4 Cha drain), 2 claws +13 (1d6+4)
-
-**Spec Att:** fleshdrink, shape flesh
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 23, Con -, Int 16, Wis 15, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 27
-
-**Feats:** Ability Focus (Charisma drain), Combat Expertise, Combat Reflexes, Improved Initiative,
-Weapon Finesse
-
-**Skills:** Acrobatics +16 (+24 jump), Bluff +14, Diplomacy +14, Disguise +17, Sense Motive +15,
-Stealth +19
-
-**Languages:** Abyssal, Celestial, Common, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (the previous humanoid it successfully
-used its fleshdrink ability on; [alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any land or underground
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

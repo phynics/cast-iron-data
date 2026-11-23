@@ -33,110 +33,77 @@ abilities = ["35", "11", "30", "16", "22", "26"]
 _At first glance, this creature resembles a dragon, but its body is entirely made of plants and
 soil, and it exhales clouds of dirt._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Size: gargantuan
+Initiative: +4
+Alignment: Neutral
+Perception: +26
+Senses: Darkvision 120 ft., Low-light vision
+Type: plant
+Subtype: Extraplanar
+tremorsense: 60
+Experience points: 76,800
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 33
+Touch: 6
+Flat-footed: 33
+AC modifiers: +27 natural, -4 size
+Hit points: 246 (17d8+170)
+Fort: +20
+Ref: +7
+Will: +13
+Immune: sonic, [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +26
+::: statblock
+Speed: 40 ft., fly 100 ft. (poor)
+Br Weap: 60-ft. cone, 18d6 bludgeoning plus entangle, Reflex DC 28 partial, usable every 1d4 rounds
+Melee: bite +20 (2d8+12), 2 claws +20 (2d6+12), tail slap +15 (2d8+6), 2 wings +15 (2d6+6)
+Reach: 15
+Reach P: 20 ft. with tail
+Sp Extra: forest step
+Space: 20
+Swallow: 6d6 bludgeoning damage, AC 23, 24 hp
+Trample: 2d8+18, DC 30
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +24
+Constant: pass without trace
+At will: command plants (DC 22), plant growth, quench (DC 21)
+Per day: 3/day: entangle (DC 19), liveoak, transmute mud to rock, transmute rock to mud, wall of thorns\
+1/day: shambler
+:::
 
-**Type:** plant
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 35, Dex 11, Con 30, Int 16, Wis 22, Cha 26
+Base attack bonus: +12
+Combat maneuver bonus: +28 (+30 sunder)
+Combat maneuver defense: 40 (42 vs. sunder, 44 vs. trip)
+Feats: Awesome Blow, Cleave, Improved Bull Rush, Improved Initiative, Improved Sunder, Iron Will, Lightning Reflexes, Power Attack, Snatch
+Skills: Fly +10, Knowledge (nature) +20, Perception +26
+Languages: Common, Sylvan, Terran
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 33
-
-**Touch:** 6
-
-**Flat-footed:** 33
-
-**AC modifiers:** +27 natural, -4 size
-
-**Hit points:** 246 (17d8+170)
-
-**Fort:** +20
-
-**Ref:** +7
-
-**Will:** +13
-
-**Immune:** sonic, [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft., fly 100 ft. (poor)
-
-**Br Weap:** 60-ft. cone, 18d6 bludgeoning plus entangle, Reflex DC 28 partial, usable every 1d4
-rounds
-
-**Melee:** bite +20 (2d8+12), 2 claws +20 (2d6+12), tail slap +15 (2d8+6), 2 wings +15 (2d6+6)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with tail
-
-**Sp Extra:** forest step
-
-**Space:** 20
-
-**Swallow:** 6d6 bludgeoning damage, AC 23, 24 hp
-
-**Trample:** 2d8+18, DC 30
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +24
-
-**Constant:**
-
-- pass without trace
-
-**At will:**
-
-- command plants (DC 22), plant growth, quench (DC 21)
-
-**Per day:**
-
-- 3/day: entangle (DC 19), liveoak, transmute mud to rock, transmute rock to mud, wall of thorns
-- 1/day: shambler
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 11, Con 30, Int 16, Wis 22, Cha 26
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +28 (+30 sunder)
-
-**Combat maneuver defense:** 40 (42 vs. sunder, 44 vs. trip)
-
-**Feats:** Awesome Blow, Cleave, Improved Bull Rush, Improved Initiative, Improved Sunder, Iron
-Will, Lightning Reflexes, Power Attack, Snatch
-
-**Skills:** Fly +10, Knowledge (nature) +20, Perception +26
-
-**Languages:** Common, Sylvan, Terran
-
-**Ecology**
-
-**Environment:** any forests (primal land of fey)
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests (primal land of fey)
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

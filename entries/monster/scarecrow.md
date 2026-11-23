@@ -31,69 +31,57 @@ abilities = ["16", "10", "-", "-", "11", "14"]
 _It suddenly becomes clear that this is no ordinary pumpkin-headed scarecrow when its eyes glow and
 it comes to jerky life._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: construct
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: +6 natural
+Hit points: 47 (5d10+20)
+Fort: +1
+Ref: +1
+Will: +1
+Immune: cold, [construct traits](ref/umr/construct-traits)
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +8 (1d8+3 plus fear)
+Spec Att: fascinating gaze
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 10, Con -, Int -, Wis 11, Cha 14
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 18
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 natural
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** cold, [construct traits](ref/umr/construct-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +8 (1d8+3 plus fear)
-
-**Spec Att:** fascinating gaze
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 10, Con -, Int -, Wis 11, Cha 14
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 18
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gang (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

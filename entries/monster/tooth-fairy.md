@@ -31,98 +31,72 @@ abilities = ["5", "14", "9", "8", "15", "14"]
 _This gaunt fairy has tattered ears, black eyes, and a huge mouth filled with mismatched teeth. It
 carries an oversized pair of pliers._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Alignment: Chaotic evil
+Size: diminutive
+Type: fey
+Initiative: +2
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 100
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 5 (2d6-2)
+Fort: -1
+Ref: +5
+Will: +5
+Dr: 2/cold iron
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 15 ft., fly 60 ft. (perfect)
+Melee: +1 pliers +8 (1d4-2/19-20/×2), bite +7 (1d4-3 plus paralysis)
+Paralysis: 1d3 rounds, DC 11
+Reach: 0
+Reach P: 5 ft. with pliers
+Space: 1
+Spec Att: death throes, pliers, tricky thief
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+At will: mage hand, open/close
+Per day: 1/day: invisibility, self only, sleep (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 5, Dex 14, Con 9, Int 8, Wis 15, Cha 14
+Base attack bonus: +1
+Combat maneuver bonus: -1 (+3 dirty trick, +7 steal)
+Combat maneuver defense: 6 (8 vs. steal)
+Feats: Weapon Finesse, Improved Steal, Greater Steal
+Skills: Acrobatics +7 (+3 when jumping), Escape Artist +7, Fly +16, Perception +7, Sense Motive +7, Stealth +19
+Racial Modifiers: -4 Acrobatics when jumping
+Languages: Sylvan
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 5 (2d6-2)
-
-**Fort:** -1
-
-**Ref:** +5
-
-**Will:** +5
-
-**Dr:** 2/cold iron
-
-**Offense**
-
-**Speed:** 15 ft., fly 60 ft. (perfect)
-
-**Melee:** +1 pliers +8 (1d4-2/19-20/×2), bite +7 (1d4-3 plus paralysis)
-
-**Paralysis:** 1d3 rounds, DC 11
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with pliers
-
-**Space:** 1
-
-**Spec Att:** death throes, pliers, tricky thief
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**At will:**
-
-- mage hand, open/close
-
-**Per day:**
-
-- 1/day: invisibility, self only, sleep (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 14, Con 9, Int 8, Wis 15, Cha 14
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1 (+3 dirty trick, +7 steal)
-
-**Combat maneuver defense:** 6 (8 vs. steal)
-
-**Feats:** Weapon Finesse, Improved Steal, Greater Steal
-
-**Skills:** Acrobatics +7 (+3 when jumping), Escape Artist +7, Fly +16, Perception +7, Sense Motive
-+7, Stealth +19
-
-**Racial Modifiers:** -4 Acrobatics when jumping
-
-**Languages:** Sylvan
-
-**Ecology**
-
-**Environment:** any urban or plains
-
-**Organization:** solitary, pair, or gang (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban or plains
+Organization: solitary, pair, or gang (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

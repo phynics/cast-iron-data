@@ -33,77 +33,61 @@ abilities = ["1", "10", "13", "-", "11", "2"]
 _This mass of iridescent blue-black insects emits a foul stench and carries with it a cloud of
 filthy dust._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Size: fine
+Initiative: +0
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Type: vermin
+Experience points: 800
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 18
+AC modifiers: +8 size
+Hit points: 22 (4d8+4)
+Fort: +5
+Ref: +1
+Will: +1; +4 vs. disease and paralysis
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., climb 10 ft., fly 20 ft. (clumsy)
+Distraction: 13
+Melee: swarm (1d6 plus disease and distraction)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 10, Con 13, Int -, Wis 11, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +8, Perception +4
+Racial Modifiers: +4 Perception
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 18
-
-**AC modifiers:** +8 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +5
-
-**Ref:** +1
-
-**Will:** +1; +4 vs. disease and paralysis
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 30 ft., climb 10 ft., fly 20 ft. (clumsy)
-
-**Distraction:** 13
-
-**Melee:** swarm (1d6 plus disease and distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 10, Con 13, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +8, Perception +4
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or infestation (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or infestation (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

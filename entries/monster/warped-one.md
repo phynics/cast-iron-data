@@ -31,102 +31,73 @@ abilities = ["22", "19", "20", "12", "5", "15"]
 _This insane, twisted, humanoid-shaped tangle of limbs and gnashing teeth thrashes and howls, all
 too eager to wreak havoc._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: warp field (30 ft.)
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 4,800
+:::
 
-**aura:** warp field (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 21
+Touch: 14
+Flat-footed: 17
+AC modifiers: +4 Dex, +7 natural
+Hit points: 105 (10d10+50)
+Fort: +12
+Ref: +9
+Will: +9
+Amorph: present
+Defensive abilities: insane
+Immune: mind-affecting effects, petrification, polymorph effects
+Resist: electricity 10
+Sr: 19
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 4 claws +16 (1d4+6/19-20)
+Spec Att: fleshwarping
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+Constant: blur
+At will: dimension door, self plus 50 lbs. of objects only
+Per day: 1/day: unstable summoning
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 22, Dex 19, Con 20, Int 12, Wis 5, Cha 15
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 30 (34 vs. trip)
+Feats: Combat Reflexes, Improved Critical (claws), Improved Initiative, Lightning Reflexes, Skill Focus (Stealth)
+Skills: Acrobatics +17, Climb +19, Use Magic Device +15
+Languages: Abyssal
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 14
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 Dex, +7 natural
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +12
-
-**Ref:** +9
-
-**Will:** +9
-
-**Amorph:** present
-
-**Defensive abilities:** insane
-
-**Immune:** mind-affecting effects, petrification, polymorph effects
-
-**Resist:** electricity 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 4 claws +16 (1d4+6/19-20)
-
-**Spec Att:** fleshwarping
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**Constant:**
-
-- blur
-
-**At will:**
-
-- dimension door, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: unstable summoning
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 20, Int 12, Wis 5, Cha 15
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 30 (34 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Critical (claws), Improved Initiative, Lightning Reflexes,
-Skill Focus (Stealth)
-
-**Skills:** Acrobatics +17, Climb +19, Use Magic Device +15
-
-**Languages:** Abyssal
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or mob (3-14)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or mob (3-14)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

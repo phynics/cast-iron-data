@@ -32,87 +32,66 @@ _The plume of this red and yellow bird is so vibrant as to glow. Each movement s
 light and color down its feathers that flickers like flames. The air around the small creature
 shimmers with heat._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: radiance (10 ft., DC 15)
+Initiative: +3
+Alignment: Lawful neutral
+Type: Magical beast
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Fire
+Size: tiny
+Experience points: 1,200
+:::
 
-**aura:** radiance (10 ft., DC 15)
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 14
+AC modifiers: +3 Dex, +2 natural, +2 size
+Hit points: 39 (6d10+6)
+Fort: +6
+Ref: +8
+Will: +6
+Immune: fire
+Vulner: cold
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Br Weap: 30-ft. line, 3d6 fire, Reflex DC 14 half, usable every 1d4 rounds
+Burn: 1d6 fire, DC 14
+Melee: 2 talons +11 (1d3 plus 1d6 fire and burn)
+Reach: 0
+Space: 2-1/2
+Spec Att: blinding flash
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 10, Dex 17, Con 12, Int 5, Wis 14, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 17
+Feats: Flyby Attack, Iron Will, Weapon Finesse
+Skills: Fly +15, Perception +15
+Racial Modifiers: +8 Perception
+Languages: Celestial (can't speak)
+:::
 
-**Subtype:** Fire
+### Ecology
 
-**Size:** tiny
-
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +2 natural, +2 size
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +6
-
-**Immune:** fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Br Weap:** 30-ft. line, 3d6 fire, Reflex DC 14 half, usable every 1d4 rounds
-
-**Burn:** 1d6 fire, DC 14
-
-**Melee:** 2 talons +11 (1d3 plus 1d6 fire and burn)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** blinding flash
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 12, Int 5, Wis 14, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 17
-
-**Feats:** Flyby Attack, Iron Will, Weapon Finesse
-
-**Skills:** Fly +15, Perception +15
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Celestial (can't speak)
-
-**Ecology**
-
-**Environment:** warm deserts or mountains
-
-**Organization:** solitary, pair, or beam (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts or mountains
+Organization: solitary, pair, or beam (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

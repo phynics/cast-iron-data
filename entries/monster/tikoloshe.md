@@ -32,97 +32,73 @@ _The water churns and splashes as a small, stocky humanoid surges forth, gnashin
 needle-like teeth, its eye sockets merely deep gouges. As if it were one with the water itself, it
 darts quickly forward, shouting curses and swinging its fists._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsense: 60
+blindsight: 30
+Alignment: Chaotic evil
+Initiative: +2
+Perception: +12
+Size: small
+Subtype: Aquatic
+Type: undead
+Experience points: 800
+:::
 
-**blindsense:** 60
+### Defense
 
-**blindsight:** 30
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 26 (4d8+8)
+Fort: +2
+Ref: +3
+Will: +6
+Chan Res: +2
+Defensive abilities: water diffusion
+Dr: 5/slashing
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: fire 10
+Weaknesses: blind
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: bite +6 (1d4+2), 2 slams +6 (1d3+2)
+Sp Extra: waverider
+Spec Att: trickster's torment
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +5
+Per day: 3/day: invisibility
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 14, Dex 15, Con -, Int 8, Wis 15, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Skill Focus (Perception), Toughness
+Skills: Climb +9
+Languages: Common, Polyglot
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +6
-
-**Chan Res:** +2
-
-**Defensive abilities:** water diffusion
-
-**Dr:** 5/slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** fire 10
-
-**Weaknesses:** blind
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** bite +6 (1d4+2), 2 slams +6 (1d3+2)
-
-**Sp Extra:** waverider
-
-**Spec Att:** trickster's torment
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +5
-
-**Per day:**
-
-- 3/day: invisibility
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con -, Int 8, Wis 15, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Skill Focus (Perception), Toughness
-
-**Skills:** Climb +9
-
-**Languages:** Common, Polyglot
-
-**Ecology**
-
-**Environment:** warm forests, oceans, or rivers
-
-**Organization:** solitary, gang (2-8), or clan (9-20)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests, oceans, or rivers
+Organization: solitary, gang (2-8), or clan (9-20)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

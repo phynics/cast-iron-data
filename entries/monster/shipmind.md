@@ -32,117 +32,80 @@ abilities = ["34", "28", "24", "21", "23", "21"]
 _This yellowy viscous liquid bubbles in a large tank suspended by strangely organic cables. Wisps of
 white gas occasionally escape the roiling fluid._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+blindsight: 60
+Alignment: Chaotic evil
+Size: huge
+Initiative: +13
+Type: ooze
+Perception: +20
+Senses: Detect good, Detect law, Detect magic
+Experience points: 25,600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 27
+Touch: 17
+Flat-footed: 18
+AC modifiers: +9 Dex, +10 armor, -2 size
+Hit points: 161 (14d8+98)
+Fort: +11
+Ref: +13
+Will: +12
+Amorph: present
+Defensive abilities: thought disruption
+Dr: 10/-
+Immune: bludgeoning, charm effects, electricity, fire, [ooze traits](ref/umr/ooze-traits)
+Sr: 24
+Vulner: cold
+Weaknesses: limited mobility
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +13
+::: statblock
+Speed: 10 ft.
+Melee: 3 slams +20 (1d8+12 plus 1d4 Int damage and [grab](ref/umr/grab))
+Ranged: plasma bolt +17 touch (10d6 plasma/19-20)
+Reach: 15
+Sp Extra: limited mobility
+Space: 15
+Spec Att: immerse
+:::
 
-**Type:** ooze
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+Constant: detect good, detect law, detect magic
+At will: enthrall (DC 17), sending, telekinesis (DC 20)
+Per day: 3/day: quickened touch of idiocy\
+1/day: confusion (DC 19), crushing despair (DC 19)
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Detect good, Detect law, Detect magic
+::: statblock
+Ability scores: Str 34, Dex 28, Con 24, Int 21, Wis 23, Cha 21
+Base attack bonus: +10
+Combat maneuver bonus: +24
+Combat maneuver defense: 43 (can't be tripped)
+Feats: Combat Casting, Combat Reflexes, Improved Critical (plasma bolt), Improved Initiative, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (touch of idiocy)
+Skills: Knowledge (engineering, geography, planes) +19, Perception +20, Sense Motive +20
+Languages: Abyssal, Aklo, Common, Draconic, Infernal, Undercommon, Protean; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: container, ship interface
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +9 Dex, +10 armor, -2 size
-
-**Hit points:** 161 (14d8+98)
-
-**Fort:** +11
-
-**Ref:** +13
-
-**Will:** +12
-
-**Amorph:** present
-
-**Defensive abilities:** thought disruption
-
-**Dr:** 10/-
-
-**Immune:** bludgeoning, charm effects, electricity, fire, [ooze traits](ref/umr/ooze-traits)
-
-**Sr:** 24
-
-**Vulner:** cold
-
-**Weaknesses:** limited mobility
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 3 slams +20 (1d8+12 plus 1d4 Int damage and [grab](ref/umr/grab))
-
-**Ranged:** plasma bolt +17 touch (10d6 plasma/19-20)
-
-**Reach:** 15
-
-**Sp Extra:** limited mobility
-
-**Space:** 15
-
-**Spec Att:** immerse
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**Constant:**
-
-- detect good, detect law, detect magic
-
-**At will:**
-
-- enthrall (DC 17), sending, telekinesis (DC 20)
-
-**Per day:**
-
-- 3/day: quickened touch of idiocy
-- 1/day: confusion (DC 19), crushing despair (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 28, Con 24, Int 21, Wis 23, Cha 21
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 43 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Reflexes, Improved Critical (plasma bolt), Improved Initiative,
-Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (touch of
-idiocy)
-
-**Skills:** Knowledge (engineering, geography, planes) +19, Perception +20, Sense Motive +20
-
-**Languages:** Abyssal, Aklo, Common, Draconic, Infernal, Undercommon, Protean;
-[telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** container, ship interface
-
-**Ecology**
-
-**Environment:** any (Dominion of the Black ships)
-
-**Organization:** solitary
-
-**Treasure:** Standard; mostly gemstones
+::: statblock
+Environment: any (Dominion of the Black ships)
+Organization: solitary
+Treasure: Standard; mostly gemstones
+:::
 
 ### Special Abilities
 

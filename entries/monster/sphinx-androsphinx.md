@@ -28,100 +28,71 @@ abilities = ["27", "10", "18", "16", "17", "17"]
 
 _This regal, bird-winged lion has a human's head, clad in the golden raiment of a powerful pharaoh._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic good
+Initiative: +0
+Size: large
+Type: Magical beast
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 23
+Touch: 9
+Flat-footed: 23
+AC modifiers: +14 natural, -1 size
+Hit points: 123 (13d10+52)
+Fort: +12
+Ref: +8
+Will: +7
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft., fly 60 ft. (poor)
+Melee: 2 claws +20 (2d6+8/19-20 plus [grab](ref/umr/grab))
+Pounce: present
+Rake: 2 claws +20, 2d6+8
+Reach: 5
+Space: 10
+Spec Att: roar
+:::
 
-**Perception:** +23
+::: statblock
+title = "Prepared Spells"
+Caster level: 6
+Concentration: +9
+3rd-level spells: bestow curse (DC 16), searing light, speak with dead
+2nd-level spells: bull's strength, calm emotions (DC 15), cure moderate wounds, resist energy
+1st-level spells: comprehend languages, divine favor, remove fear, shield of faith
+Cantrips: detect magic, guidance, purify food and drink, stabilize
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 27, Dex 10, Con 18, Int 16, Wis 17, Cha 17
+Base attack bonus: +13
+Combat maneuver bonus: +22
+Combat maneuver defense: 32 (36 vs. trip)
+Feats: Alertness, Cleave, Flyby Attack, Great Cleave, Hover, Improved Critical (claw), Power Attack
+Skills: Fly +5, Intimidate +13, Knowledge (any one) +16, Perception +23
+Languages: Common, Draconic, Sphinx
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 9
-
-**Flat-footed:** 23
-
-**AC modifiers:** +14 natural, -1 size
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (poor)
-
-**Melee:** 2 claws +20 (2d6+8/19-20 plus [grab](ref/umr/grab))
-
-**Pounce:** present
-
-**Rake:** 2 claws +20, 2d6+8
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** roar
-
-**Prepared Spells**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**3rd-level spells:**
-
-- bestow curse (DC 16), searing light, speak with dead
-
-**2nd-level spells:**
-
-- bull's strength, calm emotions (DC 15), cure moderate wounds, resist energy
-
-**1st-level spells:**
-
-- comprehend languages, divine favor, remove fear, shield of faith
-
-**Cantrips:**
-
-- detect magic, guidance, purify food and drink, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 10, Con 18, Int 16, Wis 17, Cha 17
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 32 (36 vs. trip)
-
-**Feats:** Alertness, Cleave, Flyby Attack, Great Cleave, Hover, Improved Critical (claw), Power
-Attack
-
-**Skills:** Fly +5, Intimidate +13, Knowledge (any one) +16, Perception +23
-
-**Languages:** Common, Draconic, Sphinx
-
-**Ecology**
-
-**Environment:** warm deserts or hills
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts or hills
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

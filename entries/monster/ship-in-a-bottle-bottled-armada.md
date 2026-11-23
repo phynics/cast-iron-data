@@ -30,77 +30,61 @@ abilities = ["16", "17", "-", "5", "14", "15"]
 _A fleet of miniature ships, each secure in a glass bottle, flies through the air. The ships move as
 one, coordinating their attacks._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: construct
+Initiative: +7
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Swarm
+Size: tiny
+Experience points: 2,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 15
+AC modifiers: +3 armor, +3 Dex, +2 size
+Hit points: 64 (8d10+20)
+Fort: +2
+Ref: +7
+Will: +4
+Dr: 5/-
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: fly 40 ft. (perfect)
+Distraction: 16
+Melee: swarm (2d6+4 plus distraction)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 16, Dex 17, Con -, Int 5, Wis 14, Cha 15
+Base attack bonus: +10
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Alertness, Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
+Skills: Fly +20, Perception +13, Sense Motive +4
+Languages: understands Aquan and Common
+Special qualities: shatter swarm
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 18
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 armor, +3 Dex, +2 size
-
-**Hit points:** 64 (8d10+20)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +4
-
-**Dr:** 5/-
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Distraction:** 16
-
-**Melee:** swarm (2d6+4 plus distraction)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 17, Con -, Int 5, Wis 14, Cha 15
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Alertness, Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Fly +20, Perception +13, Sense Motive +4
-
-**Languages:** understands Aquan and Common
-
-**Special qualities:** shatter swarm
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, fleet (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, fleet (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

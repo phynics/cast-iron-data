@@ -31,79 +31,62 @@ abilities = ["21", "3", "20", "-", "13", "2"]
 _Thick spines like the flanges of a royal crown bristle all across the surface of this strangely
 large golden sea urchin._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: -4
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: All-around vision, Low-light vision, Scent
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 1,600
+:::
 
-**Initiative:** -4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 6
+Flat-footed: 20
+AC modifiers: -4 Dex, +14 natural
+Hit points: 57 (6d8+30)
+Fort: +10
+Ref: -2
+Will: +3
+Defensive abilities: stability
+Immune: mind-affecting effects
+Regen: 3 (fire, acid)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 10 ft.
+Melee: 3 spines +9 (1d8+5 plus poison)
+Spec Att: spines
+:::
 
-**Senses:** All-around vision, Low-light vision, Scent
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 21, Dex 3, Con 20, Int -, Wis 13, Cha 2
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 15 (23 vs. bull rush or trip)
+Skills: Perception +5
+Racial Modifiers: +4 Perception
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 6
-
-**Flat-footed:** 20
-
-**AC modifiers:** -4 Dex, +14 natural
-
-**Hit points:** 57 (6d8+30)
-
-**Fort:** +10
-
-**Ref:** -2
-
-**Will:** +3
-
-**Defensive abilities:** stability
-
-**Immune:** mind-affecting effects
-
-**Regen:** 3 (fire, acid)
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 3 spines +9 (1d8+5 plus poison)
-
-**Spec Att:** spines
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 3, Con 20, Int -, Wis 13, Cha 2
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 15 (23 vs. bull rush or trip)
-
-**Skills:** Perception +5
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate or warm oceans or coastlines
-
-**Organization:** solitary, pair, cluster (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm oceans or coastlines
+Organization: solitary, pair, cluster (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,119 +32,79 @@ abilities = ["33", "21", "32", "17", "22", "23"]
 _This fiendish figure appears to be shaped from pure flame with a feline face. Three wicked tongues
 dart from the creature's mouth._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+aura: unholy aura
+Initiative: +5
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft., Scent, True seeing
+Subtype: Daemon, Evil, Extraplanar, Fire
+Experience points: 409,600
+:::
 
-**aura:** unholy aura
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 39
+Touch: 13
+Flat-footed: 35
+AC modifiers: +11 armor, +3 Dex, +1 dodge, +15 natural, -1 size
+Hit points: 396 (24d10+264)
+Fort: +19
+Ref: +19
+Will: +20
+Defensive abilities: _[blur](ref/spell/blur)_ (20% miss chance)
+Immune: ability damage, acid, charm and compulsion effects, death effects, disease, fire, poison
+Resist: cold 30, electricity 30
+Sr: 32
+Vulner: cold
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: bite +34 (1d8+11 plus 2d6 fire), 2 claws +35 (1d10+11/19-20 plus 2d6 fire)
+Pounce: present
+Rake: 2 claws +35, 1d10+11 plus 2d6 fire
+Reach: 10
+Space: 10
+Spec Att: bitter flames, corpse cremation, incandescent body, incendiary grasp
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 24
+Concentration: +30
+Constant: blur, true seeing, unholy aura (DC 24)
+At will: blistering invective (DC 18), dispel good (DC 21), fire shield, mass charm monster (creatures of the fire subtype only) (DC 24)
+Per day: 3/day: empowered fire storm (DC 24), incendiary cloud (DC 24), quickened contagious flame, sirocco (DC 22)\
+1/day: summon (level 9, 2 fiendish elder fire elementals or any daemon of 20 Hit Dice or fewer 100%)
+:::
 
-**Perception:** +33
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent, True seeing
+::: statblock
+Ability scores: Str 33, Dex 21, Con 32, Int 17, Wis 22, Cha 23
+Base attack bonus: +24
+Combat maneuver bonus: +36
+Combat maneuver defense: 52
+Feats: Blind-Fight, Charge Through, Combat Reflexes, Dodge, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (fire storm), Greater Overrun, Improved Critical (claw), Improved Overrun, Mobility, Power Attack, Quicken Spell-Like Ability (contagious flame), Weapon Focus (claw)
+Skills: Acrobatics +29, Bluff +20, Diplomacy +20, Fly +26, Intimidate +33, Knowledge (planes) +30, Perception +33
+Languages: Abyssal, Common, Ignan, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: daemonic harbinger traits
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar, Fire
+### Ecology
 
-**Experience points:** 409,600
-
-**Armor class:** 39
-
-**Touch:** 13
-
-**Flat-footed:** 35
-
-**AC modifiers:** +11 armor, +3 Dex, +1 dodge, +15 natural, -1 size
-
-**Hit points:** 396 (24d10+264)
-
-**Fort:** +19
-
-**Ref:** +19
-
-**Will:** +20
-
-**Defensive abilities:** _[blur](ref/spell/blur)_ (20% miss chance)
-
-**Immune:** ability damage, acid, charm and compulsion effects, death effects, disease, fire, poison
-
-**Resist:** cold 30, electricity 30
-
-**Sr:** 32
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** bite +34 (1d8+11 plus 2d6 fire), 2 claws +35 (1d10+11/19-20 plus 2d6 fire)
-
-**Pounce:** present
-
-**Rake:** 2 claws +35, 1d10+11 plus 2d6 fire
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bitter flames, corpse cremation, incandescent body, incendiary grasp
-
-**Spell-Like Abilities**
-
-**Caster level:** 24
-
-**Concentration:** +30
-
-**Constant:**
-
-- blur, true seeing, unholy aura (DC 24)
-
-**At will:**
-
-- blistering invective (DC 18), dispel good (DC 21), fire shield, mass charm monster (creatures of
-  the fire subtype only) (DC 24)
-
-**Per day:**
-
-- 3/day: empowered fire storm (DC 24), incendiary cloud (DC 24), quickened contagious flame, sirocco
-  (DC 22)
-- 1/day: summon (level 9, 2 fiendish elder fire elementals or any daemon of 20 Hit Dice or fewer
-  100%)
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 21, Con 32, Int 17, Wis 22, Cha 23
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 52
-
-**Feats:** Blind-Fight, Charge Through, Combat Reflexes, Dodge, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (fire storm), Greater Overrun, Improved Critical
-(claw), Improved Overrun, Mobility, Power Attack, Quicken Spell-Like Ability (contagious flame),
-Weapon Focus (claw)
-
-**Skills:** Acrobatics +29, Bluff +20, Diplomacy +20, Fly +26, Intimidate +33, Knowledge (planes)
-+30, Perception +33
-
-**Languages:** Abyssal, Common, Ignan, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** daemonic harbinger traits
-
-**Ecology**
-
-**Environment:** any (Osirion)
-
-**Organization:** solitary
-
-**Treasure:** Triple (+5 breastplate); other treasure
+::: statblock
+Environment: any (Osirion)
+Organization: solitary
+Treasure: Triple (+5 breastplate); other treasure
+:::
 
 ### Special Abilities
 

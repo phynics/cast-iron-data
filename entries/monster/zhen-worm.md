@@ -29,81 +29,65 @@ abilities = ["12", "9", "13", "-", "10", "1"]
 
 _Barely thicker than hempen rope, this orange-banded worm stretches many feet in length._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +0
+tremorsense: 60
+Type: vermin
+Experience points: 200
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 9
+Touch: 9
+Flat-footed: 9
+AC modifiers: -1 Dex
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: -1
+Will: +0
+Defensive abilities: protective mucus
+Immune: gaze attacks, mind-affecting effects, sight-based attacks, and visual effects
+Weaknesses: blindness
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., burrow 10 ft., swim 20 ft.
+Constrict: 1d4+1
+Melee: slam +1 (1d4+1 plus [grab](ref/umr/grab))
+Spec Att: dissolve flesh
+:::
 
-**tremorsense:** 60
+### Statistics
 
-**Type:** vermin
-
-**Experience points:** 200
-
-**Armor class:** 9
-
-**Touch:** 9
-
-**Flat-footed:** 9
-
-**AC modifiers:** -1 Dex
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** -1
-
-**Will:** +0
-
-**Defensive abilities:** protective mucus
-
-**Immune:** gaze attacks, mind-affecting effects, sight-based attacks, and visual effects
-
-**Weaknesses:** blindness
-
-**Offense**
-
-**Speed:** 20 ft., burrow 10 ft., swim 20 ft.
-
-**Constrict:** 1d4+1
-
-**Melee:** slam +1 (1d4+1 plus [grab](ref/umr/grab))
-
-**Spec Att:** dissolve flesh
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 9, Con 13, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 10
-
-**Feats:** Blind-Fight^B^
-
-**Skills:** Stealth -1 (+9 in swamps), Swim +9
-
-**Racial Modifiers:** +10 Stealth in swamps
+::: statblock
+Ability scores: Str 12, Dex 9, Con 13, Int -, Wis 10, Cha 1
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 10
+Feats: Blind-Fight^B^
+Skills: Stealth -1 (+9 in swamps), Swim +9
+Racial Modifiers: +10 Stealth in swamps
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm swamps
-
-**Organization:** solitary, pair, or colony (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: warm swamps
+Organization: solitary, pair, or colony (3-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

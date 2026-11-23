@@ -31,74 +31,59 @@ abilities = ["20", "17", "16", "12", "13", "15"]
 _This creature has the upper body of a woman and the lower body of a bee. She wields a longbow with
 uncanny skill._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +3
+Alignment: Lawful neutral
+Size: medium
+Type: Monstrous humanoid
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +4 armor, +3 Dex
+Hit points: 42 (5d10+15)
+Fort: +4
+Ref: +7
+Will: +5
+Immune: poison, sonic
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: sting +10 (1d8+7 plus poison)
+Ranged: composite longbow +8 (1d8+5/×3 plus poison) or Rapid Shot +6/+6 (1d8+5/×3 plus poison)
+Spec Att: merope consumption
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 17, Con 16, Int 12, Wis 13, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 23
+Feats: Point-Blank Shot, Precise Shot, Rapid Shot
+Skills: Fly +13, Intimidate +10, Perception +9
+Languages: Common, Sylvan
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +3 Dex
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +5
-
-**Immune:** poison, sonic
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** sting +10 (1d8+7 plus poison)
-
-**Ranged:** composite longbow +8 (1d8+5/×3 plus poison) or Rapid Shot +6/+6 (1d8+5/×3 plus poison)
-
-**Spec Att:** merope consumption
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 16, Int 12, Wis 13, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23
-
-**Feats:** Point-Blank Shot, Precise Shot, Rapid Shot
-
-**Skills:** Fly +13, Intimidate +10, Perception +9
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** pair, troop (3-8), or company (9-20 soldiers, 2-4 rangers of 3-5th level, 1-2
-rogues of 4-6th level, and 1 fighter commander of 5-8th level)
-
-**Treasure:** Standard (chain shirt, cl20+5); 1 dose of merope, other treasure
+::: statblock
+Environment: any
+Organization: pair, troop (3-8), or company (9-20 soldiers, 2-4 rangers of 3-5th level, 1-2 rogues of 4-6th level, and 1 fighter commander of 5-8th level)
+Treasure: Standard (chain shirt, cl20+5); 1 dose of merope, other treasure
+:::
 
 ### Special Abilities
 

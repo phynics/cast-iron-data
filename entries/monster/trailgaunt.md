@@ -31,83 +31,64 @@ abilities = ["15", "6", "-", "7", "14", "19"]
 _This filthy, pallid figure lurches forward as if it were not entirely in control of its twitching
 limbs._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft.
+source: Bestiary 6/264;Pathfinder Comics \#11/28
+Type: undead
+Experience points: 800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 8
+Flat-footed: 15
+AC modifiers: -2 Dex, +7 natural
+Hit points: 25 (3d8+12)
+Fort: +5
+Ref: -1
+Will: +5
+Chan Res: +2
+Dr: 5/slashing
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: loathing
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 10 ft., burrow 10 ft., climb 10 ft.
+Melee: bite +4 (1d4+2 plus pain), 2 claws +4 (1d4+2 plus pain)
+Spec Att: create spawn, mutter, vengeful strike
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**source:** Bestiary 6/264;Pathfinder Comics \#11/28
+::: statblock
+Ability scores: Str 15, Dex 6, Con -, Int 7, Wis 14, Cha 19
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 12
+Feats: Improved Initiative, Step Up
+Skills: Climb +10, Perception +7
+Racial Modifiers: +4 Stealth, +8 Survival following tracks
+Languages: Common
+Special qualities: sudden lunge, sure stride
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 8
-
-**Flat-footed:** 15
-
-**AC modifiers:** -2 Dex, +7 natural
-
-**Hit points:** 25 (3d8+12)
-
-**Fort:** +5
-
-**Ref:** -1
-
-**Will:** +5
-
-**Chan Res:** +2
-
-**Dr:** 5/slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** loathing
-
-**Offense**
-
-**Speed:** 10 ft., burrow 10 ft., climb 10 ft.
-
-**Melee:** bite +4 (1d4+2 plus pain), 2 claws +4 (1d4+2 plus pain)
-
-**Spec Att:** create spawn, mutter, vengeful strike
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 6, Con -, Int 7, Wis 14, Cha 19
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 12
-
-**Feats:** Improved Initiative, Step Up
-
-**Skills:** Climb +10, Perception +7
-
-**Racial Modifiers:** +4 Stealth, +8 Survival following tracks
-
-**Languages:** Common
-
-**Special qualities:** sudden lunge, sure stride
-
-**Ecology**
-
-**Environment:** any land (wilderness)
-
-**Organization:** solitary, pair, or pack (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land (wilderness)
+Organization: solitary, pair, or pack (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

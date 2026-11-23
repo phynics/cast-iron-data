@@ -30,81 +30,62 @@ abilities = ["10", "17", "14", "10", "13", "13"]
 
 _This sphere of elemental matter emits a strange hum that resonates with elemental power._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: resonance (30 ft.)
+Initiative: +7
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Aether, Elemental
+Size: tiny
+Experience points: 600
+:::
 
-**aura:** resonance (30 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +6
+Will: +2
+Immune: elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 60 ft. (good)
+Melee: 2 tendrils +10 (1d3+2)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 10, Dex 17, Con 14, Int 10, Wis 13, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 14 (can't be tripped)
+Feats: Improved Initiative, Weapon Finesse
+Skills: Bluff +7, Disable Device +9, Fly +15, Knowledge (planes) +4, Perception +7, Sense Motive +6, Sleight of Hand +9, Stealth +17
+Languages: Aquan, Auran, Ignan, Terran
+Special qualities: lesser telekinesis, living battery, servitor
+:::
 
-**Subtype:** Aether, Elemental
+### Ecology
 
-**Size:** tiny
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +2
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** fly 60 ft. (good)
-
-**Melee:** 2 tendrils +10 (1d3+2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 14, Int 10, Wis 13, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +7, Disable Device +9, Fly +15, Knowledge (planes) +4, Perception +7, Sense Motive
-+6, Sleight of Hand +9, Stealth +17
-
-**Languages:** Aquan, Auran, Ignan, Terran
-
-**Special qualities:** lesser telekinesis, living battery, servitor
-
-**Ecology**
-
-**Environment:** any (Elemental Planes or [Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, cloud (3-8), symphony (10-40 plus 1 wysp conductor), or retinue (1-6
-plus a powerful elemental creature)
-
-**Treasure:** None
+::: statblock
+Environment: any (Elemental Planes or [Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, cloud (3-8), symphony (10-40 plus 1 wysp conductor), or retinue (1-6 plus a powerful elemental creature)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,80 +30,62 @@ _This shambling humanoid's taut gray skin shows signs of arcane symbols now fade
 decay. Long, darkwood spikes riddle its body; every inch of flesh is staked and violated. A palpable
 aura of entropy and despair hangs over the sorry, perforated creature._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: sacrilegious aura
+Alignment: Chaotic evil
+Initiative: +4
+lifesense: 60
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 19,200
+:::
 
-**aura:** sacrilegious aura
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 26
+Touch: 14
+Flat-footed: 26
+AC modifiers: +12 natural, +4 profane
+Hit points: 157 (15d8+90)
+Fort: +9
+Ref: +7
+Will: +9
+Chan Res: +4
+Fh: 3
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +4
+### Offense
 
-**lifesense:** 60
+::: statblock
+Speed: 30 ft.
+Ch N En: 5/day, DC 22, 8d6
+Melee: 2 melee touch +13 (1d8 negative energy)
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +10
+::: statblock
+Ability scores: Str 12, Dex 11, Con -, Int 7, Wis 6, Cha 15
+Base attack bonus: +11
+Combat maneuver bonus: +12
+Combat maneuver defense: 26
+Feats: Channel Smite, Great Fortitude, Improved Channel, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Stealth), Toughness
+Skills: Climb +5, Perception +10, Stealth +11
+Languages: Common
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 14
-
-**Flat-footed:** 26
-
-**AC modifiers:** +12 natural, +4 profane
-
-**Hit points:** 157 (15d8+90)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +9
-
-**Chan Res:** +4
-
-**Fh:** 3
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** 5/day, DC 22, 8d6
-
-**Melee:** 2 melee touch +13 (1d8 negative energy)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 11, Con -, Int 7, Wis 6, Cha 15
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 26
-
-**Feats:** Channel Smite, Great Fortitude, Improved Channel, Improved Initiative, Iron Will,
-Lightning Reflexes, Skill Focus (Stealth), Toughness
-
-**Skills:** Climb +5, Perception +10, Stealth +11
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or plague (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or plague (3-9)
+Treasure: None
+:::
 
 ### Special Abilities
 

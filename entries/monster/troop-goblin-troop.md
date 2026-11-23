@@ -31,77 +31,61 @@ abilities = ["10", "17", "14", "10", "10", "6"]
 _The pint-sized humanoids who make up this chattering, shrieking mob hold jagged swords and bare
 jagged teeth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: +7
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Goblinoid, Troop
+Experience points: 1,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +2 armor, +3 Dex, +1 dodge, +1 size
+Hit points: 52 (8d8+16)
+Fort: +6
+Ref: +9
+Will: +4
+Defensive abilities: troop traits
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft.
+Melee: troop (2d6)
+Reach: 5
+Space: 20
+Spec Att: overwhelm
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 17, Con 14, Int 10, Wis 10, Cha 6
+Base attack bonus: +6
+Combat maneuver bonus: +5
+Combat maneuver defense: 19 (can't be tripped)
+Feats: Dodge, Great Fortitude, Improved Initiative, Iron Will
+Skills: Perception +8, Stealth +15
+Languages: Goblin
+:::
 
-**Subtype:** Goblinoid, Troop
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +3 Dex, +1 dodge, +1 size
-
-**Hit points:** 52 (8d8+16)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +4
-
-**Defensive abilities:** troop traits
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** troop (2d6)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** overwhelm
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 14, Int 10, Wis 10, Cha 6
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Feats:** Dodge, Great Fortitude, Improved Initiative, Iron Will
-
-**Skills:** Perception +8, Stealth +15
-
-**Languages:** Goblin
-
-**Ecology**
-
-**Environment:** temperate forests or plains (usually coastal regions)
-
-**Organization:** solitary or band (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests or plains (usually coastal regions)
+Organization: solitary or band (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

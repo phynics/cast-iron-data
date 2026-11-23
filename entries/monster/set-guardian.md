@@ -31,73 +31,59 @@ abilities = ["28", "13", "-", "-", "17", "21"]
 _This towering figure's head is completely encased in a shiny black metal helmet that resembles the
 head of a long-snouted canine. Ruby gems sparkle in its eye sockets._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: construct
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 25,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 29
+Touch: 9
+Flat-footed: 27
+AC modifiers: +1 Dex, +19 natural, -1 size
+Hit points: 151 (22d10+30)
+Fort: +7
+Ref: +8
+Will: +10
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), fire
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 slams +30 (2d12+9/18-20)
+Reach: 10
+Space: 10
+Spec Att: elemental conduit (ruby), mighty blows, trumpet of doom
+:::
 
-**Perception:** +3
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 13, Con -, Int -, Wis 17, Cha 21
+Base attack bonus: +22
+Combat maneuver bonus: +32
+Combat maneuver defense: 43
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 9
-
-**Flat-footed:** 27
-
-**AC modifiers:** +1 Dex, +19 natural, -1 size
-
-**Hit points:** 151 (22d10+30)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +10
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 slams +30 (2d12+9/18-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** elemental conduit (ruby), mighty blows, trumpet of doom
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 13, Con -, Int -, Wis 17, Cha 21
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 43
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any (Osirion)
-
-**Organization:** solitary or sentinel (2-8)
-
-**Treasure:** Incidental; 2 eye gems worth 2,000 gp each
+::: statblock
+Environment: any (Osirion)
+Organization: solitary or sentinel (2-8)
+Treasure: Incidental; 2 eye gems worth 2,000 gp each
+:::
 
 ### Special Abilities
 

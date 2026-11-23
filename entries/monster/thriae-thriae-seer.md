@@ -30,97 +30,70 @@ abilities = ["14", "20", "19", "19", "22", "27"]
 _Lithe and beautiful, this half-bee, half-woman creature wears elaborate makeup and wields an ornate
 staff._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +5
+Alignment: Lawful neutral
+Size: medium
+Type: Monstrous humanoid
+Perception: +27
+Senses: Darkvision 60 ft., Detect secret doors, Low-light vision
+Experience points: 12,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 20
+AC modifiers: +5 Dex, +10 natural
+Hit points: 133 (14d10+56)
+Fort: +8
+Ref: +16
+Will: +15
+Immune: poison, sonic
+Resist: acid 10
+Sr: 22
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: +2 quarterstaff +16/+11/+6 (1d6+4), +2 quarterstaff +16/+11 (1d6+3), sting +11 (1d8+1 plus mind sting)
+Spec Att: merope consumption
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +22
+Constant: detect secret doors
+At will: calm emotions (DC 20), detect thoughts (DC 20), sound burst (DC 20)
+Per day: 3/day: divination, invisibility purge, locate object, misdirection (DC 20), symbol of sleep (DC 23)\
+1/day: summon bees (level 5, 1d3 giant queen bees or 1d4 wasp swarms), true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Detect secret doors, Low-light vision
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 14, Dex 20, Con 19, Int 19, Wis 22, Cha 27
+Base attack bonus: +14
+Combat maneuver bonus: +19
+Combat maneuver defense: 31
+Feats: Agile Maneuvers, Alertness, Combat Casting, Combat Reflexes, Improved Two-Weapon Fighting, Lightning Reflexes, Two-Weapon Fighting
+Skills: Bluff +22, Diplomacy +22, Sense Motive +24, Spellcraft +18, Use Magic Device +22
+Languages: Common, Sylvan, Thriae
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 Dex, +10 natural
-
-**Hit points:** 133 (14d10+56)
-
-**Fort:** +8
-
-**Ref:** +16
-
-**Will:** +15
-
-**Immune:** poison, sonic
-
-**Resist:** acid 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** +2 quarterstaff +16/+11/+6 (1d6+4), +2 quarterstaff +16/+11 (1d6+3), sting +11 (1d8+1
-plus mind sting)
-
-**Spec Att:** merope consumption
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +22
-
-**Constant:**
-
-- detect secret doors
-
-**At will:**
-
-- calm emotions (DC 20), detect thoughts (DC 20), sound burst (DC 20)
-
-**Per day:**
-
-- 3/day: divination, invisibility purge, locate object, misdirection (DC 20), symbol of sleep (DC
-  23)
-- 1/day: summon bees (level 5, 1d3 giant queen bees or 1d4 wasp swarms), true seeing
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 20, Con 19, Int 19, Wis 22, Cha 27
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 31
-
-**Feats:** Agile Maneuvers, Alertness, Combat Casting, Combat Reflexes, Improved Two-Weapon
-Fighting, Lightning Reflexes, Two-Weapon Fighting
-
-**Skills:** Bluff +22, Diplomacy +22, Sense Motive +24, Spellcraft +18, Use Magic Device +22
-
-**Languages:** Common, Sylvan, Thriae
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or triad
-
-**Treasure:** Double (+2 quarterstaff); 3 doses of merope, other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or triad
+Treasure: Double (+2 quarterstaff); 3 doses of merope, other treasure
+:::
 
 ### Special Abilities
 

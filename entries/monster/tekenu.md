@@ -30,77 +30,61 @@ abilities = ["11", "19", "-", "2", "10", "15"]
 _A collection of cast-off organs rolls and squeezes against itself, forming a writhing mass of
 viscera that hovers in the air._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +8
+Lifesense: present
+Alignment: Neutral evil
+Perception: +6
+Size: small
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Lifesense:** present
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 dodge, +1 size
+Hit points: 65 (10d8+20)
+Fort: +5
+Ref: +7
+Will: +7
+Defensive abilities: odd anatomy
+Dr: 5/-
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: vulnerable to channeled energy
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 10 ft., fly 30 ft. (poor)
+Distraction: 18
+Melee: 2 slams +12 (2d6)
+Spec Att: canopic consumption
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 11, Dex 19, Con -, Int 2, Wis 10, Cha 15
+Base attack bonus: +7
+Combat maneuver bonus: +6
+Combat maneuver defense: 21 (can't be tripped)
+Feats: Dodge, Flyby Attack, Hover, Improved Initiative, Weapon Finesse
+Skills: Fly +8, Perception +6, Stealth +15
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 dodge, +1 size
-
-**Hit points:** 65 (10d8+20)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +7
-
-**Defensive abilities:** odd anatomy
-
-**Dr:** 5/-
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** vulnerable to channeled energy
-
-**Offense**
-
-**Speed:** 10 ft., fly 30 ft. (poor)
-
-**Distraction:** 18
-
-**Melee:** 2 slams +12 (2d6)
-
-**Spec Att:** canopic consumption
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 19, Con -, Int 2, Wis 10, Cha 15
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Feats:** Dodge, Flyby Attack, Hover, Improved Initiative, Weapon Finesse
-
-**Skills:** Fly +8, Perception +6, Stealth +15
-
-**Ecology**
-
-**Environment:** warm ruins
-
-**Organization:** solitary, pair, or stewardship (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: warm ruins
+Organization: solitary, pair, or stewardship (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

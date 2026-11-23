@@ -30,86 +30,67 @@ abilities = ["14", "17", "14", "14", "13", "13"]
 
 _A predatory gleam glints in the eyes of this stern-looking aquatic elf._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsense: 30
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 15 (2d10+4)
+Fort: +4
+Ref: +6
+Will: +4
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: 1 spear +4 (1d8+3/×3)
+Ranged: 1 light crossbow +5 (1d8/19-20)
+Spec Att: blood frenzy
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Per day: 3/day: command, only works on creatures with the aquatic subtype; DC 13
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 14, Dex 17, Con 14, Int 14, Wis 13, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Deceitful, Great Fortitude, Skill Focus (Bluff)
+Skills: Bluff +6, Disguise +3, Handle Animal +3, Ride +8
+Languages: Aquan, Common; speak with sharks
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** 1 spear +4 (1d8+3/×3)
-
-**Ranged:** 1 light crossbow +5 (1d8/19-20)
-
-**Spec Att:** blood frenzy
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Per day:**
-
-- 3/day: command, only works on creatures with the aquatic subtype; DC 13
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 14, Int 14, Wis 13, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Deceitful, Great Fortitude, Skill Focus (Bluff)
-
-**Skills:** Bluff +6, Disguise +3, Handle Animal +3, Ride +8
-
-**Languages:** Aquan, Common; speak with sharks
-
-**Ecology**
-
-**Environment:** temperate or warm oceans
-
-**Organization:** solitary, pair, or ambush (1 plus 2-12 sahuagin and 1-4
-[sharks](ref/monster/shark))
-
-**Treasure:** NPC gear (light crossbow, spear); other treasure
+::: statblock
+Environment: temperate or warm oceans
+Organization: solitary, pair, or ambush (1 plus 2-12 sahuagin and 1-4 [sharks](ref/monster/shark))
+Treasure: NPC gear (light crossbow, spear); other treasure
+:::
 
 ### Special Abilities
 

@@ -34,78 +34,62 @@ abilities = ["12", "15", "10", "8", "11", "7"]
 
 _Monstrous black-feathered wings cloak this leanly muscled, onyx-skinned humanoid._
 
-**Challenge rating:** 1/3
-
 **Strix [warrior](ref/npcclass/warrior) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/3
+Type: humanoid
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +0 (+2 at night)
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Strix
+Experience points: 135
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex
+Hit points: 5 (1d10)
+Fort: +2
+Ref: +2
+Will: +0; +2 vs. illusions
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0 (+2 at night)
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: spear +2 (1d8+1/×3)
+Spec Att: hatred
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Strix\
-**Experience points:** 135
+::: statblock
+Ability scores: Str 12, Dex 15, Con 10, Int 8, Wis 11, Cha 7
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Improved Initiative
+Skills: Fly +6
+Racial Modifiers: +2 Perception and +2 Stealth in dim light or darkness
+Languages: Common, Strix
+Special qualities: nocturnal
+:::
 
-**Armor class:** 12
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +0; +2 vs. illusions
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Melee:** spear +2 (1d8+1/×3)
-
-**Spec Att:** hatred
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 10, Int 8, Wis 11, Cha 7
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Improved Initiative
-
-**Skills:** Fly +6
-
-**Racial Modifiers:** +2 Perception and +2 Stealth in dim light or darkness
-
-**Languages:** Common, Strix
-
-**Special qualities:** nocturnal
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, hunting party (3-6), war party (5-12), or tribe (22 plus 100%
-noncombatants plus 1 champion of 2nd level per 10 adults, 1 or 2 seers of 3rd or 4th level, and 1
-leader of 5th-7th level)
-
-**Treasure:** NPC gear
+::: statblock
+Environment: temperate mountains
+Organization: solitary, hunting party (3-6), war party (5-12), or tribe (22 plus 100% noncombatants plus 1 champion of 2nd level per 10 adults, 1 or 2 seers of 3rd or 4th level, and 1 leader of 5th-7th level)
+Treasure: NPC gear
+:::
 
 ### Special Abilities
 
