@@ -462,7 +462,7 @@ entries/magic-wondrous/lute-of-discord.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/maniac-hand.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/phylactery-of-jadis-vel.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/rechargeable-cube-of-force.md	item	print-fix	row `13-14`: the item starts at the foot of p. 13 and its Construction is the first line of p. 14 (Classic Treasures Revisited pp. 13-14)
-entries/magic-wondrous/remote-activation-cube.md	item	sources-page-conflict	classic-treasures-revisited: 14 / 13
+entries/magic-wondrous/remote-activation-cube.md	item	print-fix	row `14` kept (its own text, the foot of the Rechargeable block to the Remote Activation block of p. 14); row `13` added for the variant paragraphs of the body (Classic Treasures Revisited p. 14)
 entries/magic-wondrous/slashing-cloak.md	item	print-fix	Construction: the cost printed once; the import left `; Cost 10,000 gp` twice (Ultimate Equipment p. 268)
 entries/magic-wondrous/the-bloodwind.md	item	variant-paragraphs	Alignment
 entries/monster/aether-elemental.md	creature	section-after-heading	6 Challenge rating lines

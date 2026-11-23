@@ -479,6 +479,15 @@ PRINT_FIXES = (
             "page = \"13-14\"\n\n[fields]",
         ),),
     ),
+    (
+        "entries/magic-wondrous/remote-activation-cube.md",
+        "Classic Treasures Revisited p. 14",
+        "row `14` kept (its own text, the foot of the Rechargeable block to the Remote Activation block of p. 14); row `13` added for the variant paragraphs of the body",
+        ((
+            "page = \"14\"\n\n[fields]",
+            "page = \"14\"\n[[sources]]\npublication = \"classic-treasures-revisited\"\npage = \"13\"\n\n[fields]",
+        ),),
+    ),
 )
 
 
