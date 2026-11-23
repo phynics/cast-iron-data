@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 2,250 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 2,250 gp
+Weight: -
+:::
 
 This chilled elixir usually takes the form of a pale blue liquid in a small glass vial coated in
 ice. Imbibing the elixir grants the drinker cold resistance 10 and the ability to merge with solid
@@ -40,6 +45,7 @@ does not function in any environment already affected by fog, mist, or cloud-lik
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[faerie fire](ref/spell/faerie-fire), [meld into stone](ref/spell/meld-into-stone),
-[resist energy](ref/spell/resist-energy); **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [faerie fire](ref/spell/faerie-fire), [meld into stone](ref/spell/meld-into-stone), [resist energy](ref/spell/resist-energy)
+Cost: 1,125 gp
+:::

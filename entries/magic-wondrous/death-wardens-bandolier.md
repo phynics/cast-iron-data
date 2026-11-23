@@ -20,8 +20,13 @@ aura = "moderate necromancy [good]"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy \[good\]; **CL** 11th\
-**Slot** chest; **Price** 15,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate necromancy \[good\]
+CL: 11th
+Slot: chest
+Price: 15,000 gp
+Weight: 3 lbs.
+:::
 
 This black leather bandolier is adorned with three brass bells of various sizes and shapes. Each
 bell can be rung to produce its own effect, or all can be rung at once to create a
@@ -54,6 +59,7 @@ can be extended to 1 minute by expending one use of mythic power.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [death ward](ref/spell/death-ward),
-[ghostbane dirge](ref/spell/ghostbane-dirge), [holy smite](ref/spell/holy-smite); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [death ward](ref/spell/death-ward), [ghostbane dirge](ref/spell/ghostbane-dirge), [holy smite](ref/spell/holy-smite)
+Cost: 7,500 gp
+:::

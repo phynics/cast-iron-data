@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 1,250 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 1,250 gp
+Weight: 1 lb.
+:::
 
 Often crafted by denizens of the First World, this pinecone shaped knot of briars can be
 [thrown as a splash weapon](ref/rule/throw-splash-weapon) with a range increment of 10 feet. The
@@ -44,5 +49,7 @@ Once a briar bomb is thrown, it is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[entangle](ref/spell/entangle), [plant growth](ref/spell/plant-growth); **Cost** 625 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [entangle](ref/spell/entangle), [plant growth](ref/spell/plant-growth)
+Cost: 625 gp
+:::

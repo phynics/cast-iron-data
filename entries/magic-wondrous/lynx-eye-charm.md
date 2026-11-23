@@ -20,8 +20,13 @@ aura = "faint divination and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination and transmutation; **CL** 3rd\
-**Slot** neck or shoulders; **Price** 350 gp; **Weight** -
+::: statblock
+Aura: faint divination and transmutation
+CL: 3rd
+Slot: neck or shoulders
+Price: 350 gp
+Weight: -
+:::
 
 This charm is typically spherical in shape and a mottled amber in color. A natural inclusion in this
 amber charm gives it the appearance of an eye. When activated as a swift action, the lynx eye charm
@@ -37,5 +42,7 @@ charm at a time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision), [see invisibility](ref/spell/see-invisibility); **Cost** 175 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision), [see invisibility](ref/spell/see-invisibility)
+Cost: 175 gp
+:::

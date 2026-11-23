@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** neck; **Price** 6,500 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: neck
+Price: 6,500 gp
+Weight: -
+:::
 
 This intricately decorated bronze necklace fits tightly across the neck and houses a ruby in its
 center. Whenever the wearer of the necklace is in an area of [dim light](ref/rule/vision-and-light)
@@ -34,5 +39,7 @@ effect on the wearer's alignment.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[infernal healing](ref/spell/infernal-healing); **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [infernal healing](ref/spell/infernal-healing)
+Cost: 3,250 gp
+:::

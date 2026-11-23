@@ -22,9 +22,13 @@ caster_level = "5th"
 
 ## Bridle of Tricks
 
-**Aura** faint divination; **CL** 5th\
-**Slot** head; **Price** 900 gp (3 tricks), 1,600 gp (4 tricks), 2,500 gp (5 tricks); **Weight** 2
-lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: head
+Price: 900 gp (3 tricks), 1,600 gp (4 tricks), 2,500 gp (5 tricks)
+Weight: 2 lbs.
+:::
 
 Appearing to be a finely crafted bridle of polished steel and blue-dyed leather, a bridle of tricks
 can be placed on any animal or magical beast with an appropriate shape to wear a bridle (creatures
@@ -36,6 +40,7 @@ found in a bridle of tricks are attack, defend, fetch, guard, and heel.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with animals](ref/spell/speak-with-animals), creator must have 5 ranks in the Handle Animal
-skill; **Cost** 450 gp (3 tricks), 800 gp (4 tricks), 1,250 gp (5 tricks)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with animals](ref/spell/speak-with-animals), creator must have 5 ranks in the Handle Animal skill
+Cost: 450 gp (3 tricks), 800 gp (4 tricks), 1,250 gp (5 tricks)
+:::

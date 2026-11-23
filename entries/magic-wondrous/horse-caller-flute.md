@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "4th"
 +++
 
-**Aura** moderate conjuration; **CL** 4th\
-**Slot** none; **Price** 4,200 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 4th
+Slot: none
+Price: 4,200 gp
+Weight: -
+:::
 
 The body of this wooden flute is elaborately decorated with carved motifs of horses running across
 grassy plains. Once per day, the user of a horse-caller flute can play a lilting melody with the
@@ -34,5 +39,7 @@ and the item's daily use is not wasted.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ghost sound](ref/spell/ghost-sound), [mount](ref/spell/mount); **Cost** 2,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ghost sound](ref/spell/ghost-sound), [mount](ref/spell/mount)
+Cost: 2,100 gp
+:::

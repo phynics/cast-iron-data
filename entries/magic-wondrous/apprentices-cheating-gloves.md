@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** hands; **Price** 2,200 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: hands
+Price: 2,200 gp
+Weight: -
+:::
 
 These nondescript white gloves are a boon to minor spellcasters and fakes who are limited or lacking
 in magical ability or versatility. The wearer of these gloves can employ
@@ -29,5 +34,7 @@ _[mage hand](ref/spell/mage-hand)_ and _[prestidigitation](ref/spell/prestidigit
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage hand](ref/spell/mage-hand), [prestidigitation](ref/spell/prestidigitation); **Cost** 1,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage hand](ref/spell/mage-hand), [prestidigitation](ref/spell/prestidigitation)
+Cost: 1,100 gp
+:::

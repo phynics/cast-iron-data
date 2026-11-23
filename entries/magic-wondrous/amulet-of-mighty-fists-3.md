@@ -25,9 +25,13 @@ caster_level = "5th"
 
 ## Amulet of Mighty Fists
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** neck; **Price** 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp
-(+5); **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: neck
+Price: 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp (+5)
+Weight: -
+:::
 
 This amulet grants an enhancement bonus of +1 to +5 on attack and damage rolls with unarmed attacks
 and natural weapons.
@@ -41,7 +45,7 @@ ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater magic fang](ref/spell/magic-fang-greater), creator's caster level must be at least three
-times the amulet's bonus, plus any requirements of the melee weapon special abilities; **Cost**
-2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater magic fang](ref/spell/magic-fang-greater), creator's caster level must be at least three times the amulet's bonus, plus any requirements of the melee weapon special abilities
+Cost: 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
+:::

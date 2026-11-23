@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: -
+:::
 
 This fine dust causes bare skin that it comes in contact with to burn and tingle. When sprinkled on
 a corpse or an inanimate skeleton, it causes the dead flesh and bones to disintegrate into a fine
@@ -32,5 +37,7 @@ living or undead creatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disintegrate](ref/spell/disintegrate); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disintegrate](ref/spell/disintegrate)
+Cost: 375 gp
+:::

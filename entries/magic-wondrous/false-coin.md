@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** none; **Price** 375 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: none
+Price: 375 gp
+Weight: -
+:::
 
 The possessor activates this well-worn gold coin by rubbing it between her thumb and forefinger
 while willing it to function. The false coin can be activated only by creatures with the
@@ -40,5 +45,7 @@ its powers and becomes a mundane coin.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect thoughts](ref/spell/detect-thoughts), [magic aura](ref/spell/magic-aura); **Cost** 188 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect thoughts](ref/spell/detect-thoughts), [magic aura](ref/spell/magic-aura)
+Cost: 188 gp
+:::

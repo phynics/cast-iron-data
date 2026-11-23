@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This incense gives off a musty smell when burned, reminiscent of old tomes in libraries. When a
 character lights incense of eidos and then spends 10 minutes meditating nearby, she is able to
@@ -32,5 +37,7 @@ sessions.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fox's cunning](ref/spell/foxs-cunning); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fox's cunning](ref/spell/foxs-cunning)
+Cost: 1,000 gp
+:::

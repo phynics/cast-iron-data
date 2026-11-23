@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 600 gp
+Weight: 1 lb.
+:::
 
 This empty clay jar, suitable for holding a few ounces of liquid, smells of freshly tilled earth and
 changes hue in sunlight. A jar of mottled clay can be thrown as a ranged touch attack with a range
@@ -47,5 +52,7 @@ of effects are subject to the GM's discretion.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[soften earth and stone](ref/spell/soften-earth-and-stone); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [soften earth and stone](ref/spell/soften-earth-and-stone)
+Cost: 300 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 1,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 1,500 gp
+Weight: 2 lbs.
+:::
 
 This wooden [atlatl](ref/eq-weapon/atlatl) resembles a handheld, lever-controlled catapult. One end
 sports a shaft covered in carvings of alchemical formulae, and the other is a roughly carved bowl.
@@ -33,5 +38,7 @@ alchemist's atlatl.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[longshot](ref/spell/longshot); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [longshot](ref/spell/longshot)
+Cost: 750 gp
+:::

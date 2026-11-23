@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** belt; **Price** 2,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: belt
+Price: 2,000 gp
+Weight: 3 lbs.
+:::
 
 Rather than being made of one continuous line of material, this belt consists of many bits of tanned
 leather joined together by thick metal studs. On command, the belt's wearer can transform the belt
@@ -32,5 +37,7 @@ cost of the belt as the cost of the masterwork item.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic weapon](ref/spell/magic-weapon); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic weapon](ref/spell/magic-weapon)
+Cost: 1,000 gp
+:::

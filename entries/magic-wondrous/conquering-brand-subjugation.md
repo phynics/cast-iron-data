@@ -22,9 +22,13 @@ caster_level = "varies"
 
 ## Conquering Brand
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Price** 420 gp (Conformity), 2,820 gp (Hobbling), 10,020 gp (Lesser Geas), 14,420
-gp (Subjugation), 14,420 gp (Tracking), 18,020 gp (Justice), 26,420 gp (Geas); **Weight** 5 lbs.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Price: 420 gp (Conformity), 2,820 gp (Hobbling), 10,020 gp (Lesser Geas), 14,420 gp (Subjugation), 14,420 gp (Tracking), 18,020 gp (Justice), 26,420 gp (Geas)
+Weight: 5 lbs.
+:::
 
 Each of these 3-foot-long branding irons ends in a distinctive, cruel-looking symbol. Once per day
 on command, a wielder of a conquering brand can cause the tip to grow red hot for 1 hour, and during
@@ -70,6 +74,7 @@ Wondrous Item, _[brand](ref/spell/brand),_ [brand of tracking](ref/spell/brand-o
 
 ### Construction
 
-**Requirements** Craft Wondrous Item, [brand](ref/spell/brand), additional spells (see text);
-**Cost** 220 gp (Conformity), 13,220 gp (Geas), 1,420 gp (Hobbling), 9,020 gp (Justice), 5,020 gp
-(Lesser Geas), 7,220 gp (Subjugation), 7,220 gp (Tracking)
+::: statblock
+Requirements: Craft Wondrous Item, [brand](ref/spell/brand), additional spells (see text)
+Cost: 220 gp (Conformity), 13,220 gp (Geas), 1,420 gp (Hobbling), 9,020 gp (Justice), 5,020 gp (Lesser Geas), 7,220 gp (Subjugation), 7,220 gp (Tracking)
+:::

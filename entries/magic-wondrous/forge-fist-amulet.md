@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "6th"
 +++
 
-**Aura** faint evocation; **CL** 6th\
-**Slot** neck; **Price** 13,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 6th
+Slot: neck
+Price: 13,000 gp
+Weight: 1 lb.
+:::
 
 This fist-shaped stone amulet glows with a fiery light. On command, this amulet causes the wearer's
 fists to transform into red-hot flaming [adamantine](ref/eq-material/adamantine). The wearer is
@@ -35,6 +40,7 @@ can be ended as a swift action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item);
-[greater magic fang](ref/spell/magic-fang-greater); and [flame blade](ref/spell/flame-blade),
-[flame strike](ref/spell/flame-strike), or [fireball](ref/spell/fireball); **Cost** 6,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item); [greater magic fang](ref/spell/magic-fang-greater); and [flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike), or [fireball](ref/spell/fireball)
+Cost: 6,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong abjuration; **CL** 18th\
-**Slot** none; **Price** 50,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 18th
+Slot: none
+Price: 50,000 gp
+Weight: 2 lbs.
+:::
 
 This immense tome contains dozens of banishing rituals, each written in an ever-changing mix of
 languages. It can be read only by way of [comprehend languages](ref/spell/comprehend-languages) or a
@@ -43,8 +48,7 @@ book is read that day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [banishment](ref/spell/banishment), any one of
-[cloak of chaos](ref/spell/cloak-of-chaos), [holy aura](ref/spell/holy-aura),
-[shield of law](ref/spell/shield-of-law), or [unholy aura](ref/spell/unholy-aura); **Cost** 25,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [banishment](ref/spell/banishment), any one of [cloak of chaos](ref/spell/cloak-of-chaos), [holy aura](ref/spell/holy-aura), [shield of law](ref/spell/shield-of-law), or [unholy aura](ref/spell/unholy-aura)
+Cost: 25,000 gp
+:::

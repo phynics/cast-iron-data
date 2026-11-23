@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 Once per day for 10 minutes, these fine silken slippers allow their wearer to ignore the adverse
 movement effects of [difficult terrain](ref/rule/terrain-and-obstacles) as if subject to the
@@ -30,5 +35,7 @@ in difficult terrain.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[feather step](ref/spell/feather-step); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [feather step](ref/spell/feather-step)
+Cost: 1,000 gp
+:::

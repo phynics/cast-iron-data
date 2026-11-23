@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This horn holds 20 doses of black powder for firearms. When a firearm is loaded with black powder
 directly from this horn, the horn creates a small pocket of air that envelops the gun and allows
@@ -39,5 +44,7 @@ while underwater or in an airless environment, that explosion occurs normally.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air bubble](ref/spell/air-bubble); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air bubble](ref/spell/air-bubble)
+Cost: 1,000 gp
+:::

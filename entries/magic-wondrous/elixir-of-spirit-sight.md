@@ -20,8 +20,13 @@ aura = "faint divination and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and transmutation; **CL** 5th\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint divination and transmutation
+CL: 5th
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This elixir seems to be made of thick vapor rather than liquid, and constantly emits soft whispers
 when uncorked. For 1 minute, the drinker gains the ability to
@@ -30,6 +35,7 @@ treated as if they had the [ghost touch](ref/magic-enh/ghost-touch-weapon) speci
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift), [see invisibility](ref/spell/see-invisibility); **Cost** 500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift), [see invisibility](ref/spell/see-invisibility)
+Cost: 500 gp
+:::

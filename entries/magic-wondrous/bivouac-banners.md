@@ -20,8 +20,13 @@ aura = "faint abjuration and conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and conjuration; **CL** 5th\
-**Slot** none; **Price** 3,200 gp; **Weight** 5 lbs. per banner
+::: statblock
+Aura: faint abjuration and conjuration
+CL: 5th
+Slot: none
+Price: 3,200 gp
+Weight: 5 lbs. per banner
+:::
 
 All three of these banners must be planted in the ground, with no two banners more than 40 feet
 apart, before they activate. An illusory mastiff manifests once all three banners are planted and
@@ -42,6 +47,7 @@ attack.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[minor image](ref/spell/minor-image), [summon nature's ally I](ref/spell/summon-natures-ally-1);
-**Cost** 1,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [minor image](ref/spell/minor-image), [summon nature's ally I](ref/spell/summon-natures-ally-1)
+Cost: 1,600 gp
+:::

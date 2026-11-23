@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** body; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: body
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This black corset fits neatly beneath armor. As a free action, the wearer can compress herself to
 fit through tight spaces as though affected by a _[squeeze](ref/spell/squeeze)_ spell for up to 10
@@ -33,5 +38,7 @@ rounds per day. While using the corset's magic, she gains a +5 bonus on
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease),
-[squeeze](ref/spell/squeeze); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease), [squeeze](ref/spell/squeeze)
+Cost: 1,500 gp
+:::

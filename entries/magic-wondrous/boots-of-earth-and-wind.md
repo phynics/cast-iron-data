@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** feet; **Price** 20,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: feet
+Price: 20,000 gp
+Weight: 3 lbs.
+:::
 
 These strange, heavy, leather-and-steel boots feature a pair of ever-fluttering wings on each side.
 These boots function like [winged boots](ref/magic-wondrous/winged-boots), but also grant a +5 bonus
@@ -32,6 +37,7 @@ gain the bonus to CMD for as long as she uses the boots to fly.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [entangle](ref/spell/entangle), [fly](ref/spell/fly);
-**Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [entangle](ref/spell/entangle), [fly](ref/spell/fly)
+Cost: 10,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** head; **Price** 1,700 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: head
+Price: 1,700 gp
+Weight: 1 lb.
+:::
 
 This large pirate hat bears a skull-and-crossbones on the front. The wearer gains a +2 competence
 bonus on [Acrobatics](ref/skill/acrobatics) and [Climb](ref/skill/climb) checks.
@@ -35,5 +40,7 @@ prevent the wearer from falling safely into water or interacting with water in a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[levitate](ref/spell/levitate), creator must have 5 ranks in Acrobatics and Climb; **Cost** 850 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [levitate](ref/spell/levitate), creator must have 5 ranks in Acrobatics and Climb
+Cost: 850 gp
+:::

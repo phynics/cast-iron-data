@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** feet; **Price** 16,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: feet
+Price: 16,000 gp
+Weight: -
+:::
 
 These glittering anklets or spurs are favorites of Varisians, both for their showy addition to
 performances and their more practical uses. Normally made of metal and leather and adorned with
@@ -35,6 +40,7 @@ _[dimension door](ref/spell/dimension-door)_ on herself once per day to travel u
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimension door](ref/spell/dimension-door), creator must have 10 ranks in Perform (dance); **Cost**
-8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimension door](ref/spell/dimension-door), creator must have 10 ranks in Perform (dance)
+Cost: 8,000 gp
+:::

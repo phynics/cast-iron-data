@@ -22,9 +22,13 @@ caster_level = "10th"
 
 ## Lastwall Banner
 
-**Aura** moderate varies; **CL** 10th\
-**Slot** none; **Price** 7,500 gp (Hordeline), 15,000 gp (Harchist), 125,000 gp (Sunwall);
-**Weight** 3 lbs.
+::: statblock
+Aura: moderate varies
+CL: 10th
+Slot: none
+Price: 7,500 gp (Hordeline), 15,000 gp (Harchist), 125,000 gp (Sunwall)
+Weight: 3 lbs.
+:::
 
 A Lastwall banner can be displayed on a lance, polearm, frame, or staff. It has no effect when not
 mounted properly or when lying on the ground. The banners depict the heraldic symbols of several key
@@ -53,6 +57,7 @@ reclaimed and replanted by allies of the owner.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blessing of fervor](ref/spell/blessing-of-fervor) (Sunwall) or [remove fear](ref/spell/remove-fear)
-(Harchist and Hordeline); **Cost** 3,750 gp (Hordeline), 7,500 gp (Harchist), 62,500 gp (Sunwall)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blessing of fervor](ref/spell/blessing-of-fervor) (Sunwall) or [remove fear](ref/spell/remove-fear) (Harchist and Hordeline)
+Cost: 3,750 gp (Hordeline), 7,500 gp (Harchist), 62,500 gp (Sunwall)
+:::

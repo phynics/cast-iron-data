@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 800 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 800 gp
+Weight: -
+:::
 
 Inside this crystalline bottle swirls a smoky orange liquid that hisses when uncorked. As a standard
 action, a creature that drinks this elixir can breathe out a 15-foot cone of fiery teeth. This blast
@@ -31,5 +36,7 @@ for half damage. The magic of the elixir ends after 1 hour or one use, whichever
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed),
-[burning hands](ref/spell/burning-hands); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed), [burning hands](ref/spell/burning-hands)
+Cost: 400 gp
+:::

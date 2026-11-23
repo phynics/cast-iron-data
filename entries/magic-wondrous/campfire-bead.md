@@ -23,8 +23,13 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Aura** faint evocation; **CL** 1st\
-**Slot** none; **Price** 720 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 1st
+Slot: none
+Price: 720 gp
+Weight: -
+:::
 
 This tiny glass bead transforms itself into a small (2-foot-tall) pile of burning logs whenever its
 command word is spoken. The fire burns for 8 hours or until extinguished, at which point it turns
@@ -33,5 +38,7 @@ order the bead to become a campfire again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[produce flame](ref/spell/produce-flame); **Cost** 360 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [produce flame](ref/spell/produce-flame)
+Cost: 360 gp
+:::

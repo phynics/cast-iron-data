@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 22,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 22,000 gp
+Weight: -
+:::
 
 An arcane battery is a fist-sized lead container - typically a sphere, pyramid, or cylinder - that
 stores magically treated saltwater. When affixed to the head of a magical staff with the attached
@@ -37,5 +42,7 @@ attuned again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 11,000 gp
+:::

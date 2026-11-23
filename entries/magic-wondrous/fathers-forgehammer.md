@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 4,800 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 4,800 gp
+Weight: 2 lbs.
+:::
 
 This iron blacksmith's hammer bears designs of Torag's holy symbol; it is not designed for combat,
 but the bearer can use it as a Medium light hammer. Once per day, the bearer can strike the hammer
@@ -40,6 +45,7 @@ the cost to create the item. A particular forgehammer can aid in only one item's
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic weapon](ref/spell/magic-weapon), [shield other](ref/spell/shield-other), creator must have 5
-ranks in [Craft (armor) or Craft (weapons)](ref/skill/craft-any); **Cost** 2,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic weapon](ref/spell/magic-weapon), [shield other](ref/spell/shield-other), creator must have 5 ranks in [Craft (armor) or Craft (weapons)](ref/skill/craft-any)
+Cost: 2,400 gp
+:::

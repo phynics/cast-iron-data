@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 3rd\
-**Slot** body; **Price** 13,380 gp; **Weight** 7 lbs.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 3rd
+Slot: body
+Price: 13,380 gp
+Weight: 7 lbs.
+:::
 
 This warm outfit consists of a woolen coat and pants, boots, gloves, and a heavy fur cloak with a
 leather hood. The habit of the winter explorer provides a constant
@@ -42,6 +47,7 @@ All pieces of the habit of the winter explorer must be worn for the item to func
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision), [endure elements](ref/spell/endure-elements),
-[resist energy](ref/spell/resist-energy), [vanish](ref/spell/vanish); **Cost** 6,690 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision), [endure elements](ref/spell/endure-elements), [resist energy](ref/spell/resist-energy), [vanish](ref/spell/vanish)
+Cost: 6,690 gp
+:::

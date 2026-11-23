@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Aura** moderate necromancy; **CL** 5th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 5th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This yellowish gray powder is composed of grave dirt and ground snakeskin. The user spreads the dust
 in two 5-foot squares, typically across doorways frequented by the intended victims - this takes 1d4
@@ -39,5 +44,7 @@ area, that area remains warded by the effect for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cup of dust](ref/spell/cup-of-dust); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cup of dust](ref/spell/cup-of-dust)
+Cost: 750 gp
+:::

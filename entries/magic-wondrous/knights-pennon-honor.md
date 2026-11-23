@@ -25,8 +25,13 @@ caster_level = "6th"
 
 ## Knight's Pennon
 
-**Aura** moderate abjuration or transmutation; **CL** 6th\
-**Slot** none; **Price** 2,200 gp (Honor), 4,500 gp (Battle), 4,500 gp (Parley); **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration or transmutation
+CL: 6th
+Slot: none
+Price: 2,200 gp (Honor), 4,500 gp (Battle), 4,500 gp (Parley)
+Weight: 1 lb.
+:::
 
 This narrow cloth flag is made to attach to the end a knight's lance, though it can be flown from a
 spear, polearm, or even a staff. It has no effect if not mounted appropriately. A knight's pennon
@@ -45,7 +50,7 @@ long as the bearer does not initiate any hostile action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism)
-(battle), [protection from evil](ref/spell/protection-from-evil) (honor),
-[eagle's splendor](ref/spell/eagles-splendor) (parley); **Cost** 1,100 gp (Honor), 2,250 gp
-(Battle), 2,250 gp (Parley)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism) (battle), [protection from evil](ref/spell/protection-from-evil) (honor), [eagle's splendor](ref/spell/eagles-splendor) (parley)
+Cost: 1,100 gp (Honor), 2,250 gp (Battle), 2,250 gp (Parley)
+:::

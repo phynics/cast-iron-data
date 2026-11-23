@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 The dark cosmetic in this small decorative tube is made from finely ground minerals. Favored by
 Osirian men and women alike, nonmagical kohl is applied around the eyes and is used to reduce the
@@ -38,5 +43,7 @@ both eyes to function. An unopened tube of kohl of uncanny discernment contains 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[keen senses](ref/spell/keen-senses), [resistance](ref/spell/resistance); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [keen senses](ref/spell/keen-senses), [resistance](ref/spell/resistance)
+Cost: 750 gp
+:::

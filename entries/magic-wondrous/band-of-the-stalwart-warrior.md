@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration; **CL** 16th\
-**Slot** headband; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 16th
+Slot: headband
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 This plain iron band protects its wearer from fear effects. Whenever the wearer suffers a fear
 effect, she is merely [shaken](ref/misc/shaken) (even if the effect would normally make the target
@@ -31,5 +36,7 @@ determining that class feature's effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove fear](ref/spell/remove-fear); **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove fear](ref/spell/remove-fear)
+Cost: 7,000 gp
+:::

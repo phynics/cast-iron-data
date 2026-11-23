@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** none; **Price** 30,240 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: none
+Price: 30,240 gp
+Weight: 1 lb.
+:::
 
 Anyone peering into this bag of deep gray cloth sees nothing but empty blackness. Within the bag
 exists an extradimensional space linked to the Plane of Shadow. Three times per day, as a move
@@ -33,6 +38,7 @@ or not they are thrown, the shards of shadow and shadow clouds last 10 minutes b
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkness](ref/spell/darkness), [shadow conjuration](ref/spell/shadow-conjuration); **Cost** 15,120
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkness](ref/spell/darkness), [shadow conjuration](ref/spell/shadow-conjuration)
+Cost: 15,120 gp
+:::

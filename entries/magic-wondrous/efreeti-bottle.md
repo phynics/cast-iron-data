@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "14th"
 +++
 
-**Aura** strong conjuration; **CL** 14th\
-**Slot** none; **Price** 145,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 14th
+Slot: none
+Price: 145,000 gp
+Weight: 1 lb.
+:::
 
 This item is typically fashioned of brass or bronze, with a lead stopper bearing special seals.
 Periodically, a thin stream of bitter-smelling smoke issues from the bottle's top. The bottle can be
@@ -39,5 +44,7 @@ day's effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[planar binding](ref/spell/planar-binding); **Cost** 72,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [planar binding](ref/spell/planar-binding)
+Cost: 72,500 gp
+:::

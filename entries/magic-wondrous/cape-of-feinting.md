@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** shoulders; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: shoulders
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 This hooded cape is crafted from fine fabric with colorful embroidery and elegant weasel-fur trim.
 Three times per day, the wearer can spend a standard action to purposely miss an opponent,
@@ -33,5 +38,7 @@ fails a DC 13 Will save.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daze](ref/spell/daze),
-creator must be able to perform the superior feint deed; **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daze](ref/spell/daze), creator must be able to perform the superior feint deed
+Cost: 7,000 gp
+:::

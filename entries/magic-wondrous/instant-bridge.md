@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 7,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 7,000 gp
+Weight: 5 lbs.
+:::
 
 This thin steel plate is approximately 1 foot square. When the command word is spoken, it rapidly
 stretches outward and unfolds, becoming a panel 1 inch thick, 3 feet wide, and up to 30 feet long
@@ -35,5 +40,7 @@ is extended, it immediately loses all magic.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item), [wall of iron](ref/spell/wall-of-iron); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item), [wall of iron](ref/spell/wall-of-iron)
+Cost: 3,500 gp
+:::

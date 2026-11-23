@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** hands; **Price** 4,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: hands
+Price: 4,000 gp
+Weight: 2 lbs.
+:::
 
 These gloves are made of goatskin reinforced with heavy iron strips. They provide a sure,
 strengthened grip on large or awkwardly shaped items. When the wearer wields an
@@ -31,6 +36,7 @@ strengthened grip on large or awkwardly shaped items. When the wearer wields an
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [enlarge person](ref/spell/enlarge-person); **Cost**
-2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [enlarge person](ref/spell/enlarge-person)
+Cost: 2,000 gp
+:::

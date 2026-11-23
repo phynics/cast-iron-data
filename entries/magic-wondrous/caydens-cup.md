@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 16,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 16,500 gp
+Weight: 1 lb.
+:::
 
 On command, this battered pewter tankard fills with ale perfectly matched to the bearer's taste and
 desire. Ale poured out the tankard quickly loses its flavor and virtue, becoming common swill within
@@ -38,6 +43,7 @@ tankard's effects to 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [create food and water](ref/spell/create-food-and-water),
-[heroism](ref/spell/heroism), [neutralize poison](ref/spell/neutralize-poison); **Cost** 8,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [create food and water](ref/spell/create-food-and-water), [heroism](ref/spell/heroism), [neutralize poison](ref/spell/neutralize-poison)
+Cost: 8,250 gp
+:::

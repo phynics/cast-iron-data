@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 1,350 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 1,350 gp
+Weight: 50 lbs.
+:::
 
 This elegantly carved figurehead typically depicts a fantastic magical creature, divine figure, or
 local hero, and it is either attached to the prow of a sailing vessel or carved into the hull of the
@@ -33,5 +38,7 @@ an attack roll to hit (such as [magic missile](ref/spell/magic-missile)).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[entropic shield](ref/spell/entropic-shield); **Cost** 675 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [entropic shield](ref/spell/entropic-shield)
+Cost: 675 gp
+:::

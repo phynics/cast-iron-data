@@ -20,8 +20,13 @@ aura = "faint conjuration and necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and necromancy; **CL** 3rd\
-**Slot** hands; **Price** 5,400 gp; **Weight** -
+::: statblock
+Aura: faint conjuration and necromancy
+CL: 3rd
+Slot: hands
+Price: 5,400 gp
+Weight: -
+:::
 
 These black gloves are decorated with images of white bones, as if revealing the bones within the
 wearer's hands. The left glove can be used once per day to create a
@@ -34,7 +39,7 @@ _[cure moderate wounds](ref/spell/cure-moderate-wounds)_ instead of inflict mode
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure moderate wounds](ref/spell/cure-moderate-wounds),
-[inflict moderate wounds](ref/spell/inflict-moderate-wounds),
-[spectral hand](ref/spell/spectral-hand); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure moderate wounds](ref/spell/cure-moderate-wounds), [inflict moderate wounds](ref/spell/inflict-moderate-wounds), [spectral hand](ref/spell/spectral-hand)
+Cost: 2,700 gp
+:::

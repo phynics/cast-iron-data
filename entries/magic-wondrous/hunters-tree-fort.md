@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This item appears to be a wooden puzzle box approximately 3 inches on a side. When the box is placed
 on the ground beneath the boughs of a tree with a trunk at least 2 feet in diameter and the command
@@ -52,5 +57,7 @@ activated again for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[warp wood](ref/spell/warp-wood), [rope trick](ref/spell/rope-trick); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [warp wood](ref/spell/warp-wood), [rope trick](ref/spell/rope-trick)
+Cost: 5,000 gp
+:::

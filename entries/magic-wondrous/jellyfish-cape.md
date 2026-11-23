@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 19,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 19,200 gp
+Weight: 1 lb.
+:::
 
 This billowing white cape renders the wearer almost invisible the moment she is submerged in salt
 water, granting her [concealment](ref/rule/concealment) (20% miss chance) so long as she remains
@@ -33,6 +38,7 @@ poison effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2), [water breathing](ref/spell/water-breathing); **Cost**
-9,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2), [water breathing](ref/spell/water-breathing)
+Cost: 9,600 gp
+:::

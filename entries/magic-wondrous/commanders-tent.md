@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 This small flag sports a banner that is 2 inches wide by 3 inches tall and has a thin wooden dowel
 that serves as the flag post. When a creature plants the flag in the ground and speaks the command
@@ -41,5 +46,7 @@ places. A fourth command word causes the tent to break down, returning to its mi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[rope trick](ref/spell/rope-trick), [sand table](ref/spell/sand-table); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rope trick](ref/spell/rope-trick), [sand table](ref/spell/sand-table)
+Cost: 4,500 gp
+:::

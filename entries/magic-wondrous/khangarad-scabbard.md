@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** belt; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: belt
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 This belt-and-scabbard set is decorated with golden depictions of [garudas](ref/monster/garuda). The
 scabbard automatically reshapes itself to fit the weapon that the wielder is currently using. If the
@@ -36,5 +41,7 @@ result are tripped. The wielder is not knocked down if the trip attempt fails by
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gust of wind](ref/spell/gust-of-wind); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gust of wind](ref/spell/gust-of-wind)
+Cost: 3,000 gp
+:::

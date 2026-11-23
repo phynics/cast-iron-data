@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 3,300 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 3,300 gp
+Weight: 1 lb.
+:::
 
 This bronze skinning knife bears the symbol of Old Deadeye on its blade. Designed as a hunting tool,
 it cannot be used as an effective weapon. As long as the bearer carries the knife, he can find
@@ -40,6 +45,7 @@ properties but is still usable as [masterwork](ref/rule/masterwork-weapons) ammu
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create food and water](ref/spell/create-food-and-water), [delay poison](ref/spell/delay-poison),
-[mage hand](ref/spell/mage-hand), [true strike](ref/spell/true-strike); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create food and water](ref/spell/create-food-and-water), [delay poison](ref/spell/delay-poison), [mage hand](ref/spell/mage-hand), [true strike](ref/spell/true-strike)
+Cost: 1,650 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 8,000 gp
+Weight: 5 lbs.
+:::
 
 This finely crafted masterwork harp fits comfortably in one hand, but it requires two hands to play.
 The harp has 10 charges, which refresh each day at daybreak. By making a DC 10
@@ -32,5 +37,7 @@ The harp has 10 charges, which refresh each day at daybreak. By making a DC 10
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [break](ref/spell/break),
-[shatter](ref/spell/shatter); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [break](ref/spell/break), [shatter](ref/spell/shatter)
+Cost: 4,000 gp
+:::

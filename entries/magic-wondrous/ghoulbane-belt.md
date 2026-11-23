@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** belt; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: belt
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 Due to the toxic nature of many environments found within the Darklands, this belt is designed to
 protect its wearer from exotic diseases, paralyzing attacks, and poisonous molds. The wearer gains a
@@ -35,6 +40,7 @@ only the belt's wearer.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease),
-[remove paralysis](ref/spell/remove-paralysis); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease), [remove paralysis](ref/spell/remove-paralysis)
+Cost: 10,000 gp
+:::

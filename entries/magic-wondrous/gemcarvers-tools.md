@@ -20,8 +20,13 @@ aura = "moderate conjuratino and transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuratino and transmutation; **CL** 11th\
-**Slot** none; **Price** 9,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuratino and transmutation
+CL: 11th
+Slot: none
+Price: 9,000 gp
+Weight: 5 lbs.
+:::
 
 These thin, elegant [adamantine](ref/eq-material/adamantine) tools are inscribed with numerous runes
 in the four elemental languages (Aquan, Auran, Ignan, and Terran). These tools grant a user the
@@ -39,7 +44,7 @@ creation.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), [summon monster V](ref/spell/summon-monster-5) or
-[summon nature's ally V](ref/spell/summon-natures-ally-5), 5 ranks in Craft (jewelry); **Cost**
-4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), [summon monster V](ref/spell/summon-monster-5) or [summon nature's ally V](ref/spell/summon-natures-ally-5), 5 ranks in Craft (jewelry)
+Cost: 4,500 gp
+:::

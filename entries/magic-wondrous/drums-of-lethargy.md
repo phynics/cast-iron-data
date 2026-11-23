@@ -20,8 +20,12 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Weight: 5 lbs.
+:::
 
 This set of kettle drums appears to be _drums of haste._ When a creature plays the drums, it affects
 all creatures (including the creature playing the drums) as though subject to a
@@ -30,4 +34,7 @@ _[slow](ref/spell/slow)_ spell. A DC 14 Will save negates the effect. No
 
 ### Construction
 
-**Requirements** [drums of haste](ref/magic-wondrous/drums-of-haste); **Cost** -
+::: statblock
+Requirements: [drums of haste](ref/magic-wondrous/drums-of-haste)
+Cost: -
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment and evocation; **CL** 5th\
-**Slot** headband; **Price** 7,700 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment and evocation
+CL: 5th
+Slot: headband
+Price: 7,700 gp
+Weight: 1 lb.
+:::
 
 This multicolored headband with beaded tassels tips luck in the wearer's favor. The wearer gains a
 +1 luck bonus on saving throws.
@@ -35,5 +40,7 @@ are unaffected by the headband.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ill omen](ref/spell/ill-omen)
-or [prayer](ref/spell/prayer); **Cost** 3,850 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ill omen](ref/spell/ill-omen) or [prayer](ref/spell/prayer)
+Cost: 3,850 gp
+:::

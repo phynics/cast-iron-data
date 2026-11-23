@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** neck; **Price** 5,400 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: neck
+Price: 5,400 gp
+Weight: -
+:::
 
 This circular amulet is formed from three elegantly curved golden rods and has a deep yellow topaz
 in its center. When worn, the amulet provides a +2 resistance bonus on Fortitude saves against
@@ -32,6 +37,7 @@ any poisons still affecting the wearer, but it destroys the amulet.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[restoration](ref/spell/restoration), [neutralize poison](ref/spell/neutralize-poison); **Cost**
-2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [restoration](ref/spell/restoration), [neutralize poison](ref/spell/neutralize-poison)
+Cost: 2,700 gp
+:::

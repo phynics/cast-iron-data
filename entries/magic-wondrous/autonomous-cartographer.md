@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 2,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 2,000 gp
+Weight: 1/2 lb.
+:::
 
 Upon command, this item draws your surroundings, out to the limits of your normal vision, rendering
 them as if depicted by a competent but unexceptional artist. It does not record any details you
@@ -31,5 +36,7 @@ use it again. You may insert or remove a scroll as a full-round action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase),
-[prestidigitation](ref/spell/prestidigitation); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase), [prestidigitation](ref/spell/prestidigitation)
+Cost: 1,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** shoulders; **Price** 54,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: shoulders
+Price: 54,200 gp
+Weight: 1 lb.
+:::
 
 The cloak of moral refraction has long been a tool of the [riftwardens](ref/pclass/riftwarden) -
 mystics who charge themselves with maintaining cosmic balance and closing extraplanar portals
@@ -48,7 +53,7 @@ the following effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[banishment](ref/spell/banishment), [dispel chaos](ref/spell/dispel-chaos),
-[evil](ref/spell/dispel-evil), [good](ref/spell/dispel-good), and [law](ref/spell/dispel-law),
-[dispel magic](ref/spell/dispel-magic), creator must be neutral; **Cost** 27,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [banishment](ref/spell/banishment), [dispel chaos](ref/spell/dispel-chaos), [evil](ref/spell/dispel-evil), [good](ref/spell/dispel-good), and [law](ref/spell/dispel-law), [dispel magic](ref/spell/dispel-magic), creator must be neutral
+Cost: 27,100 gp
+:::

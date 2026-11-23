@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 8,000 gp
+Weight: -
+:::
 
 This standard gold coin typically has two blank faces, but its owner can cause the holy symbol of
 [Desna](ref/faith/desna) - a butterfly with the sun, the moon, and stars on its wings - to appear on
@@ -34,5 +39,7 @@ luck bonus on Reflex saving throws.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor)
+Cost: 4,000 gp
+:::

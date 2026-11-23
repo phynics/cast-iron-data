@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 2,500 gp
+Weight: -
+:::
 
 This ripe red apple looks fresh and delicious. Should anyone bite into it (even a small taste), he
 must make an immediate DC 19 Will saving throw or fall into an
@@ -35,6 +40,7 @@ by a kiss from someone of royal blood.
 
 ### Construction
 
-**Requirements** [Brew Potion](ref/feat/brew-potion),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a [witch](ref/class/witch) with
-the eternal slumber grand hex; **Cost** 1,250 gp
+::: statblock
+Requirements: [Brew Potion](ref/feat/brew-potion), [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a [witch](ref/class/witch) with the eternal slumber grand hex
+Cost: 1,250 gp
+:::

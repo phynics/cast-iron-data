@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 90,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 90,000 gp
+Weight: 5 lbs.
+:::
 
 This device appears to be a normal container for holding burning coals. The brazier must be filled
 with coals or wood and a fire lit within it to function. On command as a full-round action, the
@@ -35,6 +40,7 @@ killed, or the duration of its summoning expires.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster V](ref/spell/summon-monster-5), [summon monster VI](ref/spell/summon-monster-6);
-**Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster V](ref/spell/summon-monster-5), [summon monster VI](ref/spell/summon-monster-6)
+Cost: 45,000 gp
+:::

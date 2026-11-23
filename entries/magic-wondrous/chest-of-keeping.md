@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** 9,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: 9,000 gp
+Weight: 10 lbs.
+:::
 
 A chest of keeping is a large container capable of holding up to 1,000 pounds of contents, with a
 volume limit of 150 cubic feet. While the chest's lid is closed, the contents are preserved so that
@@ -36,5 +41,7 @@ and a chest of keeping cannot be opened when it is folded.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose), [secret chest](ref/spell/secret-chest); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [secret chest](ref/spell/secret-chest)
+Cost: 4,500 gp
+:::

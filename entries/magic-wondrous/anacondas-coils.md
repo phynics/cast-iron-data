@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 18,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 18,500 gp
+Weight: 1 lb.
+:::
 
 This snakeskin belt's buckle is shaped like a serpent's head. The wearer gains a +2 enhancement
 bonus to Strength and a +2 competence bonus on [grapple](ref/rule/grapple) combat maneuver checks.
@@ -31,6 +36,7 @@ for the first 24 hours the belt is worn. In addition, the belt grants the wearer
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1), [bull's strength](ref/spell/bulls-strength); **Cost**
-9,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1), [bull's strength](ref/spell/bulls-strength)
+Cost: 9,250 gp
+:::

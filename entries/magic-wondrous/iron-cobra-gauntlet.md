@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** hands; **Price** 8,000 gp; **Weight** 1 Lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: hands
+Price: 8,000 gp
+Weight: 1 Lb.
+:::
 
 This elbow-length scaled metal gauntlet flares at the wrist like a cobra's hood. Up to three times
 per day, the wearer way transform the gauntlet into an iron cobra, which crawls from the wearer's
@@ -40,6 +45,7 @@ reservoir in snake form or gauntlet form.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [discern location](ref/spell/discern-location),
-[geas/quest](ref/spell/geas-quest); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [discern location](ref/spell/discern-location), [geas/quest](ref/spell/geas-quest)
+Cost: 4,000 gp
+:::

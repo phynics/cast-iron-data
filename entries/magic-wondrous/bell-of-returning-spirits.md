@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This ancient bronze hand bell has an ivory handle, and simple pictograms of animals are etched onto
 its exterior. Once per day on command, the user can ring the bell to summon his
@@ -39,6 +44,7 @@ been used to raise a familiar, it transforms into inert clay and loses all of it
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[raise dead](ref/spell/raise-dead), [summon nature's ally](ref/spell/summon-natures-ally); **Cost**
-1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [raise dead](ref/spell/raise-dead), [summon nature's ally](ref/spell/summon-natures-ally)
+Cost: 1,500 gp
+:::

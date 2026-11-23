@@ -22,8 +22,13 @@ caster_level = "10th"
 
 ## Banner of Tactical Command
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 20,000 gp (Lesser), 100,000 gp (Normal); **Weight** 3 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 20,000 gp (Lesser), 100,000 gp (Normal)
+Weight: 3 lbs.
+:::
 
 This brightly colored banner measures 2 feet by 4 feet in size, and is mounted on an 8-foot-long
 pole of spiraled gold and ivory. When the commander of an army engaged in
@@ -41,5 +46,7 @@ affect armies of size Large or smaller.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[tactical insight](ref/spell/tactical-insight); **Cost** 10,000 gp (Lesser), 50,000 gp (Normal)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tactical insight](ref/spell/tactical-insight)
+Cost: 10,000 gp (Lesser), 50,000 gp (Normal)
+:::

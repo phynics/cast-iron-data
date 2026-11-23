@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: 1/2 lb.
+:::
 
 When a humanoid consumes these bitter herbs, they awaken the animal within him, no matter how
 civilized the consumer believes himself to be. They grant the partaker
@@ -37,6 +42,7 @@ sickened for 1 round and negates the nausea.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [beast shape II](ref/spell/beast-shape-2); **Cost** 700
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [beast shape II](ref/spell/beast-shape-2)
+Cost: 700 gp
+:::

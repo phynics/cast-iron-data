@@ -20,8 +20,13 @@ aura = "faint abjuration and conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and conjuration; **CL** 5th\
-**Slot** shoulders; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and conjuration
+CL: 5th
+Slot: shoulders
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 This forest-green wool cloak is thick and warm. Its hem and the edge of its hood are embroidered
 with small figures of forest creatures (rabbits, squirrels, and the like) in white thread.
@@ -47,6 +52,7 @@ times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resistance](ref/spell/resistance), [summon nature's ally I](ref/spell/summon-natures-ally-1);
-**Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resistance](ref/spell/resistance), [summon nature's ally I](ref/spell/summon-natures-ally-1)
+Cost: 2,250 gp
+:::

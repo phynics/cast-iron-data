@@ -20,8 +20,12 @@ aura = "moderate divination and necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination and necromancy; **CL** 11th\
-**Slot** none; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination and necromancy
+CL: 11th
+Slot: none
+Weight: 1 lb.
+:::
 
 When glimpsed out of the corner of the eye, the beatific expression of this child's rag doll twists
 into a malignant grin. The doll feeds off of violent emotion and anger. Each time anger flares or
@@ -40,5 +44,7 @@ daily abilities.
 
 ### Construction
 
-**Requirements** [anatomy doll](ref/magic-wondrous/anatomy-doll),
-[hexing doll](ref/magic-wondrous/hexing-doll), [ganji doll](ref/magic-fetish/ganji-doll); **Cost** -
+::: statblock
+Requirements: [anatomy doll](ref/magic-wondrous/anatomy-doll), [hexing doll](ref/magic-wondrous/hexing-doll), [ganji doll](ref/magic-fetish/ganji-doll)
+Cost: -
+:::

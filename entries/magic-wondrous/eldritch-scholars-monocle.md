@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 5,000 gp
+Weight: -
+:::
 
 This lens, mounted in a round electrum frame, fits snugly over the wearer's eye. Upon donning the
 monocle, the user sees a swirl of arcane sigils through the lens, but the sensation quickly fades.
@@ -40,5 +45,7 @@ and the _[read magic](ref/spell/read-magic)_ effect no longer functions.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[read magic](ref/spell/read-magic); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [read magic](ref/spell/read-magic)
+Cost: 2,500 gp
+:::

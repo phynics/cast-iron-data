@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 2,450 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 2,450 gp
+Weight: -
+:::
 
 When imbibed, an elixir of the peaks gives the user the ability to scale and survive in mountainous
 terrain with great skill. The imbiber is treated as if acclimated to all
@@ -37,6 +42,7 @@ after 8 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), [spider climb](ref/spell/spider-climb); **Cost** 1,225
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), [spider climb](ref/spell/spider-climb)
+Cost: 1,225 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 2,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 2,000 gp
+Weight: 5 lbs.
+:::
 
 A backpack of this sort appears to be well made, well used, and quite ordinary. It has two side
 pouches, each of which appears large enough to hold about a quart of material. In fact, each is like
@@ -41,5 +46,7 @@ usually does.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 1,000 gp
+:::

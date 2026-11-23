@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Aura** moderate enchantment; **CL** 11th\
-**Slot** none; **Price** 13,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 11th
+Slot: none
+Price: 13,000 gp
+Weight: 3 lbs.
+:::
 
 This coiled battle horn is crafted from fine brass. When blown, its clarion call can be heard
 clearly up to a range of 2 miles, cutting through any weather condition short of a windstorm. Once
@@ -31,5 +36,7 @@ gains an additional number of hit points equal to its ACR for that battle.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid); **Cost**
-6,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid)
+Cost: 6,500 gp
+:::

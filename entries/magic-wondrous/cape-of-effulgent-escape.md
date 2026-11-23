@@ -20,8 +20,13 @@ aura = "faint evocation and illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation and illusion; **CL** 3rd\
-**Slot** shoulders; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation and illusion
+CL: 3rd
+Slot: shoulders
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 This shining white cloak is trimmed with golden sunbursts and continuously radiates light (as per
 the [light](ref/spell/light) spell, but only in a 10-foot radius). Twice per day, the wearer can
@@ -32,5 +37,7 @@ light is extinguished as long as the wearer is invisible.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight), [invisibility](ref/spell/invisibility); **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight), [invisibility](ref/spell/invisibility)
+Cost: 7,000 gp
+:::

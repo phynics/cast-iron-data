@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: neck
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 Although it appears to be a simple thong of leather, this collar was initially conceived by druids
 who believed that there were animals who possessed spirits worthy of elevation to true sentience. If
@@ -38,5 +43,7 @@ the wearer is [feebleminded](ref/spell/feeblemind) until the collar is removed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [awaken](ref/spell/awaken),
-[fox's cunning](ref/spell/foxs-cunning); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [awaken](ref/spell/awaken), [fox's cunning](ref/spell/foxs-cunning)
+Cost: 6,000 gp
+:::

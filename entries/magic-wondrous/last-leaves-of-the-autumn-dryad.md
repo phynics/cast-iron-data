@@ -20,8 +20,13 @@ aura = "moderate divination and transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination and transmutation; **CL** 8th\
-**Slot** none; **Price** 52,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination and transmutation
+CL: 8th
+Slot: none
+Price: 52,000 gp
+Weight: -
+:::
 
 This vibrant cluster of leaves constantly changes hue through the different colors of the autumn
 season, from brown and red to orange and yellow. Once per day, the bearer may touch the leaves to
@@ -50,6 +55,7 @@ coating of frost on them.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane eye](ref/spell/arcane-eye), [tree shape](ref/spell/tree-shape),
-[whispering wind](ref/spell/whispering-wind); **Cost** 26,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane eye](ref/spell/arcane-eye), [tree shape](ref/spell/tree-shape), [whispering wind](ref/spell/whispering-wind)
+Cost: 26,000 gp
+:::

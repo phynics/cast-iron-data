@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 1,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 1,000 gp
+Weight: 2 lbs.
+:::
 
 A lantern of hidden light can be an invaluable tool for one who wishes to see in darkened areas
 without being revealed to those accustomed to the darkness. This magical lantern can be activated
@@ -32,5 +37,7 @@ always appears unlit, and does not appear to be shedding any light at all.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light);
-**Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light)
+Cost: 500 gp
+:::

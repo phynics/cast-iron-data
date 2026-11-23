@@ -20,8 +20,13 @@ aura = "moderate transmutation [air]"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation \[air\]; **CL** 9th\
-**Slot** neck; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation \[air\]
+CL: 9th
+Slot: neck
+Price: 10,000 gp
+Weight: -
+:::
 
 This circular stone amulet is engraved with a fine, spiraling line that winds inward toward the
 center, creating the impression of a powerful vortex. The amulet surrounds the wearer with a
@@ -31,5 +36,7 @@ wearer treats all such effects as though she is under the infuence of
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control winds](ref/spell/control-winds); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control winds](ref/spell/control-winds)
+Cost: 5,000 gp
+:::

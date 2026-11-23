@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** hands; **Price** 7,500 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: hands
+Price: 7,500 gp
+Weight: -
+:::
 
 These plain gray leather gloves grant a +5 competence bonus on [Spellcraft](ref/skill/spellcraft)
 checks and [concentration](ref/rule/concentration) checks made to cast a spell defensively. Both
@@ -29,5 +34,7 @@ gloves must be worn for the magic to be effective.
 
 ### Construction
 
-**Requirements** [Combat Casting](ref/feat/combat-casting),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be an elf; **Cost** 3,500 gp
+::: statblock
+Requirements: [Combat Casting](ref/feat/combat-casting), [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be an elf
+Cost: 3,500 gp
+:::

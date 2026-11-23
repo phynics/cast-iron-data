@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** neck; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: neck
+Price: 6,000 gp
+Weight: -
+:::
 
 These amulets are fashioned of finely worked silver and depict an overflowing tankard. Once per day,
 when the wearer of an amulet of courage is affected by a magical or supernatural fear effect, the
@@ -31,5 +36,7 @@ fear by 1.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove fear](ref/spell/remove-fear); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove fear](ref/spell/remove-fear)
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 16th\
-**Slot** headband; **Price** 64,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 16th
+Slot: headband
+Price: 64,000 gp
+Weight: 1 lb.
+:::
 
 Five faceted sapphires decorate this ornate headband. The headband protects the wearer from effects
 that would damage his mental capacity. After wearing the headband for 24 hours, the wearer gains
@@ -42,7 +47,7 @@ to ability drain are lost permanently.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning),
-[lesser restoration](ref/spell/restoration-lesser), [owl's wisdom](ref/spell/owls-wisdom); **Cost**
-32,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning), [lesser restoration](ref/spell/restoration-lesser), [owl's wisdom](ref/spell/owls-wisdom)
+Cost: 32,000 gp
+:::

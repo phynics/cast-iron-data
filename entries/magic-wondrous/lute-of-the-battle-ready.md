@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 2,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 2,000 gp
+Weight: 3 lbs.
+:::
 
 These magic items are usually crafted as lutes, though they can be fashioned as other instruments.
 On command three times per day, the lute can transform into a +1 [spear](ref/eq-weapon/spear), +1
@@ -32,5 +37,7 @@ or until its wielder uses another command word to transform it back to its norma
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shillelagh](ref/spell/shillelagh); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shillelagh](ref/spell/shillelagh)
+Cost: 1,000 gp
+:::

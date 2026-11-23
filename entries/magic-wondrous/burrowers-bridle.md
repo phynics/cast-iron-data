@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** neck; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: neck
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 This metal-studded bridle can be attached to any creature with a burrowing speed that is made
 friendly or helpless. The bridle grants anyone who mounts the bridled creature a +4 competence bonus
@@ -34,5 +39,7 @@ grant the ability to breathe underground.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm monster](ref/spell/charm-monster), [passwall](ref/spell/passwall); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm monster](ref/spell/charm-monster), [passwall](ref/spell/passwall)
+Cost: 3,000 gp
+:::

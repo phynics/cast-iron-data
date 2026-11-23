@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** shoulders; **Price** 4,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: shoulders
+Price: 4,500 gp
+Weight: 1 lb.
+:::
 
 These decorative golden braids allow the wearer to cast _[bless](ref/spell/bless)_ and
 _[sanctuary](ref/spell/sanctuary)_ each once per day. They also grant a +2 competence bonus on
@@ -36,5 +41,7 @@ Twilight Talons).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless),
-[guidance](ref/spell/guidance), [sanctuary](ref/spell/sanctuary); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless), [guidance](ref/spell/guidance), [sanctuary](ref/spell/sanctuary)
+Cost: 2,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 18th\
-**Slot** none; **Price** 90,000 gp; **Weight** 200 lbs.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 18th
+Slot: none
+Price: 90,000 gp
+Weight: 200 lbs.
+:::
 
 This fantastic vehicle was fashioned specifically for General Tawaret, who rode it into battle
 throughout her military career. The chariot of the conqueror is a light chariot pulled by a team of
@@ -45,6 +50,7 @@ reduced to 0 hit points, it's destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage armor](ref/spell/mage-armor), [phantom driver](ref/spell/phantom-driver),
-[phantom steed](ref/spell/phantom-steed); **Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage armor](ref/spell/mage-armor), [phantom driver](ref/spell/phantom-driver), [phantom steed](ref/spell/phantom-steed)
+Cost: 45,000 gp
+:::

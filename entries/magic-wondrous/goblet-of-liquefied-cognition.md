@@ -20,8 +20,13 @@ aura = "moderate divination and transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination and transmutation; **CL** 7th\
-**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination and transmutation
+CL: 7th
+Slot: none
+Price: 18,000 gp
+Weight: 5 lbs.
+:::
 
 This ornate, oversized silver goblet is wrought with runes and letters in a profusion of languages.
 When written words are placed in the goblet - whether written on a piece of parchment, carved into
@@ -46,6 +51,7 @@ goblet can be used three times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages), [create water](ref/spell/create-water),
-[mnemonic enhancer](ref/spell/mnemonic-enhancer); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages), [create water](ref/spell/create-water), [mnemonic enhancer](ref/spell/mnemonic-enhancer)
+Cost: 9,000 gp
+:::

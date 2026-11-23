@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** neck (but see text); **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: neck (but see text)
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 Created ages before the construction of Windsong Abbey by the cult of [Groetus](ref/faith/groetus),
 doomsday keys are used by the cult to seal certain doors in their temples, as well as the legendary
@@ -39,6 +44,7 @@ this protection does not help against curses the wearer may already be suffering
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), [doom](ref/spell/doom),
-[remove curse](ref/spell/remove-curse); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), [doom](ref/spell/doom), [remove curse](ref/spell/remove-curse)
+Cost: 4,500 gp
+:::

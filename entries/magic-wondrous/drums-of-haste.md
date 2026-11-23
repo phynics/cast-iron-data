@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 45,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 45,000 gp
+Weight: 5 lbs.
+:::
 
 This set of kettle drums is carried on a shoulder strap and played one-handed using a single
 two-sided mallet. By making a DC 20 [Perform (percussion)](ref/skill/perform-any) check, the bearer
@@ -30,5 +35,7 @@ affect up to 25 creatures per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste);
-**Cost** 22,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste)
+Cost: 22,500 gp
+:::

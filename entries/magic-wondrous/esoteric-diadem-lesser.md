@@ -22,9 +22,13 @@ caster_level = "10th"
 
 ## Esoteric Diadem
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** headband; **Price** 18,000 gp (Lesser), 50,000 gp (Normal), 98,000 gp (Greater);
-**Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: headband
+Price: 18,000 gp (Lesser), 50,000 gp (Normal), 98,000 gp (Greater)
+Weight: -
+:::
 
 The diamond-shaped gems in these metal headbands are typically one of two colors, each corresponding
 to a different esoteric element: onyx (void) and pink (wood). The diadem's gem grants the wearer
@@ -41,6 +45,7 @@ Other esoteric diadem variants exist for other little-known kineticist elements.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 10th-level
-kineticist with access to the appropriate element; **Cost** 9,000 gp (Lesser), 25,000 gp (Normal),
-49,000 gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 10th-level kineticist with access to the appropriate element
+Cost: 9,000 gp (Lesser), 25,000 gp (Normal), 49,000 gp (Greater)
+:::

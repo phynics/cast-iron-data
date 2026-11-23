@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 18,000 gp; **Weight** 600 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 18,000 gp
+Weight: 600 lbs.
+:::
 
 A wooden roof and walls line this horse-drawn caravan wagon. By uttering a command word, the wagon's
 owner can change the color and patterns that cover the wagon's sides, creating text or images, or
@@ -38,6 +43,7 @@ purpose.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[major creation](ref/spell/major-creation), [silent image](ref/spell/silent-image),
-[tiny hut](ref/spell/tiny-hut); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [major creation](ref/spell/major-creation), [silent image](ref/spell/silent-image), [tiny hut](ref/spell/tiny-hut)
+Cost: 9,000 gp
+:::

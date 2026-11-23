@@ -23,8 +23,13 @@ aura = "faint (lesser) or moderate (greater) transmutation"
 caster_level = "4th (lesser), 8th (greater)"
 +++
 
-**Aura** faint (lesser) or moderate (greater) transmutation; **CL** 4th (lesser), 8th (greater)\
-**Slot** wrists; **Price** 5,000 gp (lesser), 25,000 gp (greater); **Weight** 1 lb.
+::: statblock
+Aura: faint (lesser) or moderate (greater) transmutation
+CL: 4th (lesser), 8th (greater)
+Slot: wrists
+Price: 5,000 gp (lesser), 25,000 gp (greater)
+Weight: 1 lb.
+:::
 
 These bracers look like normal protective wear. They empower the wearer to use any bow (not
 including crossbows) as if she were proficient in its use. If she already has proficiency with any
@@ -37,6 +42,7 @@ damage rolls.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), crafter must be proficient with a longbow or
-shortbow; **Cost** 2,500 gp (lesser), 12,500 gp (greater)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Wondrous Item](ref/feat/craft-wondrous-item), crafter must be proficient with a longbow or shortbow
+Cost: 2,500 gp (lesser), 12,500 gp (greater)
+:::

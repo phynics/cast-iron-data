@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 These fine silk wrappings - covered in mystic symbols and diagrams of the wearer's pressure points -
 wind around the wearer's hands and wrists. When the wearer spends ki to make an additional attack,
@@ -34,5 +39,7 @@ be used a second time instead of allowing him to use Stunning Fist.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), ki pool class ability;
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), ki pool class ability
+Cost: 5,000 gp
+:::

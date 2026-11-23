@@ -20,8 +20,13 @@ aura = "no aura (or faint divination)"
 caster_level = "3rd"
 +++
 
-**Aura** no aura (or faint divination); **CL** 3rd\
-**Slot** none; **Price** 600 gp; **Weight** 2 lbs.
+::: statblock
+Aura: no aura (or faint divination)
+CL: 3rd
+Slot: none
+Price: 600 gp
+Weight: 2 lbs.
+:::
 
 This battered, leather-bound book looks like an aged and heavily worn notebook. Anyone reading the
 journal for an hour or more has strange dreams the following night, the details of which he cannot
@@ -40,5 +45,7 @@ that makes it appear to be nonmagical.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [magic aura](ref/spell/magic-aura); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [magic aura](ref/spell/magic-aura)
+Cost: 300 gp
+:::

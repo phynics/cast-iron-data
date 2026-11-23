@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** eyes; **Price** 110,000 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: eyes
+Price: 110,000 gp
+Weight: -
+:::
 
 These tigereye gems fit over and then meld into the eyes, transforming the wearer's eyes into
 something slitted and draconic. These eyes grant the wearer [darkvision](ref/rule/darkvision) 120
@@ -30,5 +35,7 @@ ft. and [blindsense](ref/umr/blindsense) 60 ft. The wearer sees four times as we
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[form of the dragon III](ref/spell/form-of-the-dragon-3); **Cost** 55,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [form of the dragon III](ref/spell/form-of-the-dragon-3)
+Cost: 55,000 gp
+:::

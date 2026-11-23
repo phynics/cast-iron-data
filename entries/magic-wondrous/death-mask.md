@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate necromancy; **CL** 6th\
-**Slot** head; **Price** 16,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 6th
+Slot: head
+Price: 16,000 gp
+Weight: 4 lbs.
+:::
 
 This elaborate wooden mask is carved in the image of Pharasma. The owner of a death mask can place
 the mask upon a corpse to ask the corpse up to three questions as if by
@@ -37,5 +42,7 @@ the deceased person as she looked in life.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), [speak with dead](ref/spell/speak-with-dead); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), [speak with dead](ref/spell/speak-with-dead)
+Cost: 8,000 gp
+:::

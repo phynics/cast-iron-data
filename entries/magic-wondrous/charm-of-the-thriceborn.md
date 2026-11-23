@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 2,400 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 2,400 gp
+Weight: -
+:::
 
 A creature carrying this knot-shaped charm for 3 full days becomes its owner until she loses
 possession of it. A creature can only be the owner of a single charm of the thriceborn. At the start
@@ -31,5 +36,7 @@ charmed dice, randomly selected (roll 1d3 to choose).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[threefold sight](ref/spell/threefold-sight); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [threefold sight](ref/spell/threefold-sight)
+Cost: 1,200 gp
+:::

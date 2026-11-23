@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 2,500 gp
+Weight: -
+:::
 
 This amulet is a small crystal at the end of a simple leather thong. It glows brightly from within,
 shedding light equivalent to that of a torch. Once per day, the amulet's bearer can clutch the
@@ -34,5 +39,7 @@ spell, out to a distance of a mile.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
-[locate object](ref/spell/locate-object); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light), [locate object](ref/spell/locate-object)
+Cost: 1,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy; **CL** 10th\
-**Slot** neck; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 10th
+Slot: neck
+Price: 2,000 gp
+Weight: -
+:::
 
 This plain black collar is decorated with snowflake obsidian and functions only when worn by a
 spellcaster's [familiar](ref/sidekick/familiar) or spirit animal. If the bonded master of a familiar
@@ -36,5 +41,7 @@ check to compel behavior or obedience from such a familiar.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell)
+Cost: 1,000 gp
+:::

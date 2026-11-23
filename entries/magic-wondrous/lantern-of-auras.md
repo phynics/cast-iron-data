@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** none; **Price** 2,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: none
+Price: 2,000 gp
+Weight: 2 lbs.
+:::
 
 A lantern of auras is a [bullseye lantern](ref/eq-misc/bullseye-lantern) made of
 [cold iron](ref/eq-material/cold-iron) with a series of lenses and colored glass filters that can be
@@ -40,5 +45,7 @@ Roughly 45% of these lanterns have the command word etched on the bottom of the 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic), [light](ref/spell/light); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic), [light](ref/spell/light)
+Cost: 1,000 gp
+:::

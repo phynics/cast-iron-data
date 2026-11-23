@@ -20,8 +20,13 @@ aura = "strong divination and transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong divination and transmutation; **CL** 12th\
-**Slot** head; **Price** 29,900 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong divination and transmutation
+CL: 12th
+Slot: head
+Price: 29,900 gp
+Weight: 2 lbs.
+:::
 
 This crown gives a +4 competence bonus on Charisma checks and Charisma-based skill checks when
 dealing with creatures of the fey type. When dealing with creatures associated with fey but not fey
@@ -33,6 +38,7 @@ spells, and DR 5/cold iron.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages),
-[eagle's splendor](ref/spell/eagles-splendor); **Cost** 14,950 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages), [eagle's splendor](ref/spell/eagles-splendor)
+Cost: 14,950 gp
+:::

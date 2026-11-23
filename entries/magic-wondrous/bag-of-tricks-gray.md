@@ -22,9 +22,13 @@ caster_level = "3rd"
 
 ## Bag of Tricks
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 3,400 gp (Gray), 4,500 gp (Aquamarine), 8,500 gp (Rust), 16,000 gp (Tan);
-**Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 3,400 gp (Gray), 4,500 gp (Aquamarine), 8,500 gp (Rust), 16,000 gp (Tan)
+Weight: 1 lb.
+:::
 
 This small sack appears empty. Anyone reaching into the bag feels a small, fuzzy ball. If the ball
 is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character
@@ -81,8 +85,7 @@ a rider.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon nature's ally II](ref/spell/summon-natures-ally-2) (aquamarine, gray),
-[summon nature's ally III](ref/spell/summon-natures-ally-3) (rust), or
-[summon nature's ally V](ref/spell/summon-natures-ally-5) (tan); **Cost** 1,700 gp (Gray), 2,250 gp
-(Aquamarine), 4,250 gp (Rust), 8,000 gp (Tan)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon nature's ally II](ref/spell/summon-natures-ally-2) (aquamarine, gray), [summon nature's ally III](ref/spell/summon-natures-ally-3) (rust), or [summon nature's ally V](ref/spell/summon-natures-ally-5) (tan)
+Cost: 1,700 gp (Gray), 2,250 gp (Aquamarine), 4,250 gp (Rust), 8,000 gp (Tan)
+:::

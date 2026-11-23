@@ -20,8 +20,13 @@ aura = "strong evocation and transmutation"
 caster_level = "19th"
 +++
 
-**Aura** strong evocation and transmutation; **CL** 19th\
-**Slot** none; **Price** 20,000 gp; **Weight** 400 lbs.
+::: statblock
+Aura: strong evocation and transmutation
+CL: 19th
+Slot: none
+Price: 20,000 gp
+Weight: 400 lbs.
+:::
 
 An inactive apparatus of the octopus appears to be a large, sealed iron barrel big enough to hold
 two Medium creatures. Closer examination (and a successful DC 20 [Perception](ref/skill/perception)
@@ -61,6 +66,7 @@ CMD 20.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [continual flame](ref/spell/continual-flame), creator
-must have 8 ranks in [Knowledge (engineering)](ref/skill/knowledge-engineering); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [continual flame](ref/spell/continual-flame), creator must have 8 ranks in [Knowledge (engineering)](ref/skill/knowledge-engineering)
+Cost: 10,000 gp
+:::

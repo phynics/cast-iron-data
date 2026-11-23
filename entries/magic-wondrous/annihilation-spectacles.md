@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** eyes; **Price** 25,000 gp; **Weight** 1/4 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: eyes
+Price: 25,000 gp
+Weight: 1/4 lb.
+:::
 
 Creatures viewed through these darkly tinted glasses sometimes seem to flicker briefly in and out of
 existence. A transmuter can use these spectacles to spontaneously convert any prepared wizard
@@ -35,5 +40,7 @@ transmutation wizard spells of 6th level or higher, even if he doesn't know that
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disintegrate](ref/spell/disintegrate), creator must be a transmuter; **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disintegrate](ref/spell/disintegrate), creator must be a transmuter
+Cost: 12,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** strong transmutation; **CL** 3rd\
-**Slot** eyes; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 3rd
+Slot: eyes
+Price: 10,000 gp
+Weight: -
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -33,5 +38,7 @@ Intimidate checks to [generate capital](ref/rule/income-phase) and to coerce oth
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), creator must be a half-orc; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), creator must be a half-orc
+Cost: 5,000 gp
+:::

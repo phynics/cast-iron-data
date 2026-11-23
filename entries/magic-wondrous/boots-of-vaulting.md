@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 The wearer of these suede boots ignores an additional 10 feet of falling distance when she
 successfully uses [Acrobatics](ref/skill/acrobatics) to soften a fall. Once per round as a free
@@ -39,5 +44,7 @@ until at least 1 minute passes between jumps.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [jump](ref/spell/jump); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [jump](ref/spell/jump)
+Cost: 1,750 gp
+:::

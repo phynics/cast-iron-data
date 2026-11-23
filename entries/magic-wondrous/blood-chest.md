@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 42,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 42,000 gp
+Weight: 50 lbs.
+:::
 
 A blood chest is a medium-sized chest of red iron with a volume of 4 cubic feet. The metal sculpture
 of a monstrous fanged face surrounds the inset [superior quality lock](ref/eq-misc/lock-superior),
@@ -39,6 +44,7 @@ not damaged by the bite, the chest doesn't open. If the lock is picked with a su
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane lock](ref/spell/arcane-lock), [vampiric hunger](ref/spell/vampiric-hunger),
-[wall of force](ref/spell/wall-of-force); **Cost** 21,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane lock](ref/spell/arcane-lock), [vampiric hunger](ref/spell/vampiric-hunger), [wall of force](ref/spell/wall-of-force)
+Cost: 21,000 gp
+:::

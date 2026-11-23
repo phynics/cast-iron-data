@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** head; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: head
+Price: 20,000 gp
+Weight: -
+:::
 
 An ivory cameo depicting two elderly, bearded wizards with identical faces hangs on this amulet's
 delicate silver chain. Three times per day, when casting a spell with a verbal component, the wearer
@@ -46,5 +51,7 @@ descriptors.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic), [tongues](ref/spell/tongues); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic), [tongues](ref/spell/tongues)
+Cost: 10,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint enchantment"
 caster_level = "4th"
 +++
 
-**Aura** faint enchantment; **CL** 4th\
-**Slot** none; **Price** 150 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 4th
+Slot: none
+Price: 150 gp
+Weight: -
+:::
 
 This sweet-tasting liquid causes the character drinking it to become enraptured with the first
 creature she sees after consuming the draft (as _[charm person](ref/spell/charm-person)_ - the
@@ -33,5 +38,7 @@ off in 1d3 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person); **Cost** 75 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person)
+Cost: 75 gp
+:::

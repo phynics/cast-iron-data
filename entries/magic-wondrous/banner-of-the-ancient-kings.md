@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Price: 18,000 gp
+Weight: 5 lbs.
+:::
 
 This tattered white canvas banner looks like an old piece of sailcloth, or perhaps a winding
 shroud - a 4-foot-by-6-foot rectangle with loops that can fit over a spear haft or pole running up
@@ -48,5 +53,7 @@ his actual bard level for the purposes of determining the bonuses granted by his
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism),
-[resistance](ref/spell/resistance); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism), [resistance](ref/spell/resistance)
+Cost: 9,000 gp
+:::

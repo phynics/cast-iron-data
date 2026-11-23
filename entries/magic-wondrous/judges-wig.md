@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** head; **Price** 59,200 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: head
+Price: 59,200 gp
+Weight: -
+:::
 
 This flowing wig of white ringlets grants its wearer an unmistakable impression of dignity and
 gravitas. This grants a +4 competence bonus on [Diplomacy](ref/skill/diplomacy) and
@@ -30,5 +35,7 @@ gravitas. This grants a +4 competence bonus on [Diplomacy](ref/skill/diplomacy) 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[discern lies](ref/spell/discern-lies); **Cost** 29,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [discern lies](ref/spell/discern-lies)
+Cost: 29,600 gp
+:::

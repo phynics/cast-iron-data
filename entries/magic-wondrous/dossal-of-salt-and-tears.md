@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation [lawful]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation \[lawful\]; **CL** 10th\
-**Slot** none; **Price** 50,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation \[lawful\]
+CL: 10th
+Slot: none
+Price: 50,000 gp
+Weight: 10 lbs.
+:::
 
 When rolled out from the bolt, the dimensions of this banner are 3 yards by 1-1/2 yards. It has the
 properties of a magic altar of [Aroden](ref/faith/aroden). Praying at the altar grants a +2
@@ -46,7 +51,7 @@ ability to regain 5 hit points each round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune),
-[hallow](ref/spell/hallow), [order's wrath](ref/spell/orders-wrath),
-[summon monster I](ref/spell/summon-monster-1), creator must worship [Aroden](ref/faith/aroden);
-**Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune), [hallow](ref/spell/hallow), [order's wrath](ref/spell/orders-wrath), [summon monster I](ref/spell/summon-monster-1), creator must worship [Aroden](ref/faith/aroden)
+Cost: 25,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 96,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 96,000 gp
+Weight: 3 lbs.
+:::
 
 This helm is made of large, alchemically hardened snake scales, and is crafted in the shape of a
 stylized serpent mouth. Its wearer stares out through the serpent's eyes, and sees all things cast
@@ -41,6 +46,7 @@ to instead cast the augmented version of _mythic beast shape III._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [beast shape III](ref/spell/beast-shape-3),
-[summon nature's ally III](ref/spell/summon-natures-ally-3); **Cost** 48,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [beast shape III](ref/spell/beast-shape-3), [summon nature's ally III](ref/spell/summon-natures-ally-3)
+Cost: 48,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong necromancy [evil]"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy \[evil\]; **CL** 13th\
-**Slot** none; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong necromancy \[evil\]
+CL: 13th
+Slot: none
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 Molded from a pale, milky-green wax into the shape of a column of screaming souls and stamped on the
 bottom with the unholy symbol of one of the Four Horsemen, a candle of Abaddon is a boon to evil
@@ -45,6 +50,7 @@ the like (this doesn't interfere with its magical properties).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[desecrate](ref/spell/desecrate), [magic circle against evil](ref/spell/magic-circle-against-evil),
-creator must be evil; **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [desecrate](ref/spell/desecrate), [magic circle against evil](ref/spell/magic-circle-against-evil), creator must be evil
+Cost: 4,500 gp
+:::

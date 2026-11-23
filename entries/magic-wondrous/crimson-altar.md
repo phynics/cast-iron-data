@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate necromancy; **CL** 8th\
-**Slot** none; **Price** 17,500 gp; **Weight** 28 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 8th
+Slot: none
+Price: 17,500 gp
+Weight: 28 lbs.
+:::
 
 This red marble altar is carved in the shape of two legless humans conjoined at the waist, their
 heads facing opposite directions. The figure's four arms are bent at the elbow, supporting the altar
@@ -43,5 +48,7 @@ cup being removed from the altar. The altar can produce 3 full cups of healing n
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed),
-[death knell](ref/spell/death-knell); **Cost** 8,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed), [death knell](ref/spell/death-knell)
+Cost: 8,750 gp
+:::

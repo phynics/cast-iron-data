@@ -20,8 +20,13 @@ aura = "faint enchantment and divination"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment and divination; **CL** 5th\
-**Slot** head; **Price** 14,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint enchantment and divination
+CL: 5th
+Slot: head
+Price: 14,000 gp
+Weight: 1/2 lb.
+:::
 
 This delicate black veil is made of black lace and crepe and affixed to a midnight blue bonnet. When
 it's donned, amorphous shadows swirl beneath the veil across the wearer's face.
@@ -40,6 +45,7 @@ contain only 1 charge at a time. Unused charges dissipate after 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[crushing despair](ref/spell/crushing-despair), [overwhelming grief](ref/spell/overwhelming-grief),
-[see invisibility](ref/spell/see-invisibility); **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [crushing despair](ref/spell/crushing-despair), [overwhelming grief](ref/spell/overwhelming-grief), [see invisibility](ref/spell/see-invisibility)
+Cost: 7,000 gp
+:::

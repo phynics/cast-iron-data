@@ -20,8 +20,13 @@ aura = "strong evocation and necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation and necromancy; **CL** 15th\
-**Slot** belt; **Price** 75,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong evocation and necromancy
+CL: 15th
+Slot: belt
+Price: 75,000 gp
+Weight: 1 lb.
+:::
 
 This grisly bag is worn by a member of a coven and binds its sisters together even across vast
 distances. The coven charm can be charged by placing a sizable chunk of flesh - at least the size of
@@ -43,5 +48,7 @@ charges before it can be refilled.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a
-[changeling](ref/race/changeling) or [hag](ref/family/hag); **Cost** 37,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a [changeling](ref/race/changeling) or [hag](ref/family/hag)
+Cost: 37,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** wrists; **Price** 7,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: wrists
+Price: 7,200 gp
+Weight: 1 lb.
+:::
 
 These bracers are constructed from woven strands of bamboo. Three times per day, as a swift action,
 the wearer can stretch her arms beyond their limits, increasing her reach by 5 feet until the start
@@ -30,5 +35,7 @@ weapons using the arms take no penalty.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self); **Cost** 3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self)
+Cost: 3,600 gp
+:::

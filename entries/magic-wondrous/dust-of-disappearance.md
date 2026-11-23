@@ -23,8 +23,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** none; **Price** 3,500 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: none
+Price: 3,500 gp
+Weight: -
+:::
 
 This dust looks like [dust of appearance](ref/magic-wondrous/dust-of-appearance) and is typically
 stored in the same manner. A creature or object touched by it becomes invisible (as
@@ -38,5 +43,7 @@ the dust lasts for 2d6 rounds. The invisible creature doesn't know when the dura
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater invisibility](ref/spell/invisibility-greater); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater invisibility](ref/spell/invisibility-greater)
+Cost: 1,750 gp
+:::

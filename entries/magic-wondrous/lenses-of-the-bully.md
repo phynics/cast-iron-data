@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** eyes; **Price** 12,500 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: eyes
+Price: 12,500 gp
+Weight: -
+:::
 
 Commonly used by thugs, these dark-tinted lenses make the wearer appear threatening. The wearer
 gains a +2 competence bonus on [Intimidate](ref/skill/intimidate) checks. Intelligent creatures find
@@ -31,5 +36,7 @@ difficult to ascertain.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[undetectable alignment](ref/spell/undetectable-alignment); **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [undetectable alignment](ref/spell/undetectable-alignment)
+Cost: 6,250 gp
+:::

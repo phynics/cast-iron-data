@@ -20,8 +20,13 @@ aura = "moderate evocatino"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocatino; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocatino
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: 8 lbs.
+:::
 
 This stone tablet bears inscriptions detailing a notable being who fell short of achieving godhood
 in the Test of the Starstone. As a move action, the tablet's holder can break it to release a
@@ -31,5 +36,7 @@ In addition, the user can attempt a new saving throw against one ongoing effect,
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune),
-[divine favor](ref/spell/divine-favor); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune), [divine favor](ref/spell/divine-favor)
+Cost: 700 gp
+:::

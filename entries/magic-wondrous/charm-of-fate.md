@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** neck; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: neck
+Price: 5,000 gp
+Weight: -
+:::
 
 This talisman made of bone, claws, and beads protects its wearer from bad luck, evil spirits, and
 foul magic. The first time each day that the wearer fails a saving throw, the charm of fate causes
@@ -30,5 +35,7 @@ missed by 6 or more, the charm's daily use is expended to no effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove curse](ref/spell/remove-curse); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove curse](ref/spell/remove-curse)
+Cost: 2,500 gp
+:::

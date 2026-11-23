@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** feet; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: feet
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 As a swift action up to three times per day, the wearer can create fungi in every square through
 which she walks during her turn. The fungi in these squares count as
@@ -30,5 +35,7 @@ those that remain provide no impediment.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[entangle](ref/spell/entangle); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [entangle](ref/spell/entangle)
+Cost: 1,000 gp
+:::

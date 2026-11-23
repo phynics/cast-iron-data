@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** head; **Price** 7,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: head
+Price: 7,000 gp
+Weight: -
+:::
 
 This black deerstalker cap features a subtle, sinister, eye-like design stitched on the front flap.
 The hat grants a +2 competence bonus on all [Knowledge](ref/skill/knowledge-all) checks to identify
@@ -40,5 +45,7 @@ must decide whether to replace the old result before rolling.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[know the enemy](ref/spell/know-the-enemy); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [know the enemy](ref/spell/know-the-enemy)
+Cost: 3,500 gp
+:::

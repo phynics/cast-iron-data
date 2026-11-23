@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** feet; **Price** 49,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: feet
+Price: 49,000 gp
+Weight: 3 lbs.
+:::
 
 When scrutinized closely, parts of these light gray boots appear to fade in and out of existence.
 Any character wearing this footwear may teleport three times per day, exactly as if she had cast the
@@ -32,5 +37,7 @@ _[teleport](ref/spell/teleport)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[teleport](ref/spell/teleport); **Cost** 24,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [teleport](ref/spell/teleport)
+Cost: 24,500 gp
+:::

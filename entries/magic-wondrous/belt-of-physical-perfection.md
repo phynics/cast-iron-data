@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** belt; **Price** 16,000 gp (+2), 64,000 gp (+4), 144,000 gp (+6); **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: belt
+Price: 16,000 gp (+2), 64,000 gp (+4), 144,000 gp (+6)
+Weight: 1 lb.
+:::
 
 This belt has a large platinum buckle and grants the wearer an enhancement bonus to all physical
 ability scores (Strength, Dexterity, and Constitution) of +2, +4, or +6. Treat this as a
@@ -32,6 +37,7 @@ ability scores (Strength, Dexterity, and Constitution) of +2, +4, or +6. Treat t
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength),
-[cat's grace](ref/spell/cats-grace); **Cost** 8,000 gp (+2), 32,000 gp (+4), 77,000 gp (+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace)
+Cost: 8,000 gp (+2), 32,000 gp (+4), 77,000 gp (+6)
+:::

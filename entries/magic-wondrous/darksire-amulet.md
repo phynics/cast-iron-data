@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** neck; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: neck
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 This small iron locket contains some token - a scale, a shaving of a horn or claw, or lock of
 burning hair - from a fiend. When worn by a [tiefling](ref/race/tiefling), if he has cold,
@@ -30,6 +35,7 @@ provides a +4 insight bonus on Diplomacy skill checks made to influence evil out
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resist energy](ref/spell/resist-energy), creator must be a tiefling, half-fiend, or true fiend;
-**Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resist energy](ref/spell/resist-energy), creator must be a tiefling, half-fiend, or true fiend
+Cost: 4,500 gp
+:::

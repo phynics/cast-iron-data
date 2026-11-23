@@ -21,8 +21,13 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Aura** strong divination; **CL** 13th\
-**Slot** head; **Price** 62,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong divination
+CL: 13th
+Slot: head
+Price: 62,000 gp
+Weight: 3 lbs.
+:::
 
 This golden gem-studded helmet acts like a [crown of conquest](ref/magic-wondrous/crown-of-conquest)
 and grants its wielder three performance or teamwork feats. The wearer can use each of these feats
@@ -41,10 +46,10 @@ and giving its wearer and its allies martial advice. It has the following other 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), the item's performance and
-teamwork feat, [bless](ref/spell/bless), [eagle's splendor](ref/spell/eagles-splendor),
-[prayer](ref/spell/prayer), [scare](ref/spell/scare), [true strike](ref/spell/true-strike);
-**Price** 31,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), the item's performance and teamwork feat, [bless](ref/spell/bless), [eagle's splendor](ref/spell/eagles-splendor), [prayer](ref/spell/prayer), [scare](ref/spell/scare), [true strike](ref/spell/true-strike)
+Price: 31,000 gp
+:::
 
 ### Statistics
 

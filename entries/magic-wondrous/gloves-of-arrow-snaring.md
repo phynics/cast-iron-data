@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** hands; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: hands
+Price: 4,000 gp
+Weight: -
+:::
 
 Once worn, these snug gloves seem to meld with the hands, becoming almost invisible to casual
 observation. Twice per day, the wearer can act as if he had the
@@ -34,5 +39,7 @@ take advantage of the magic.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield](ref/spell/shield);
-**Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield](ref/spell/shield)
+Cost: 2,000 gp
+:::

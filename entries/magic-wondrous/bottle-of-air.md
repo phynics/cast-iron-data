@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 7,250 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 7,250 gp
+Weight: 2 lbs.
+:::
 
 This item appears to be a normal glass bottle with a cork. When taken to any airless environment, it
 retains air within it at all times, continually renewing its contents. This means that a character
@@ -34,5 +39,7 @@ act for as long as she can [hold her breath](ref/misc/hold-your-breath).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[water breathing](ref/spell/water-breathing); **Cost** 3,625 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [water breathing](ref/spell/water-breathing)
+Cost: 3,625 gp
+:::

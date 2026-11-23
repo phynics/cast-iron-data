@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 This bag of powder has a sharp metallic odor. Ironmorph dust can be applied to a willing adjacent
 creature as a standard action, or thrown as a ranged touch attack with a range increment of 10 feet.
@@ -45,5 +50,7 @@ at the end of the dust's duration, instead of after their normal time limit.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[silk to steel](ref/spell/silk-to-steel); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [silk to steel](ref/spell/silk-to-steel)
+Cost: 250 gp
+:::

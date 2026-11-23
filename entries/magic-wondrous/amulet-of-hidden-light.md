@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** neck; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: neck
+Price: 9,000 gp
+Weight: -
+:::
 
 This large amulet crafted of rough-cut glass can, on command, shed light as a
 [sunrod](ref/eq-misc/sunrod). Unlike a normal light source, creatures outside this area cannot see
@@ -29,5 +34,7 @@ the amulet's light.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
-[invisibility](ref/spell/invisibility); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light), [invisibility](ref/spell/invisibility)
+Cost: 4,500 gp
+:::

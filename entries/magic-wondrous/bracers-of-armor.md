@@ -23,9 +23,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** wrists; **Price** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp
-(+5), 36,000 gp (+6), 49,000 gp (+7), 64,000 gp (+8); **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: wrists
+Price: 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5), 36,000 gp (+6), 49,000 gp (+7), 64,000 gp (+8)
+Weight: 1 lb.
+:::
 
 These items appear to be wrist or arm guards, sometimes etched with symbols of protection or
 depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but
@@ -45,8 +49,7 @@ armor bonus, the other source of armor ceases functioning.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage armor](ref/spell/mage-armor), creator's caster level must be at least two times that of the
-bonus placed on the bracers, plus any requirements of the armor special abilities; **Cost** 500 gp
-(+1), 2,000 gp (+2), 4,500 gp (+3), 8,000 gp (+4), 12,500 gp (+5), 18,000 gp (+6), 24,500 gp (+7),
-32,000 gp (+8)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage armor](ref/spell/mage-armor), creator's caster level must be at least two times that of the bonus placed on the bracers, plus any requirements of the armor special abilities
+Cost: 500 gp (+1), 2,000 gp (+2), 4,500 gp (+3), 8,000 gp (+4), 12,500 gp (+5), 18,000 gp (+6), 24,500 gp (+7), 32,000 gp (+8)
+:::

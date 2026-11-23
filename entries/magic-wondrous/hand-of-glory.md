@@ -23,8 +23,13 @@ aura = "faint varied"
 caster_level = "5th"
 +++
 
-**Aura** faint varied; **CL** 5th\
-**Slot** neck; **Price** 8,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint varied
+CL: 5th
+Slot: neck
+Price: 8,000 gp
+Weight: 2 lbs.
+:::
 
 This mummified human hand hangs around a character's neck by a leather cord (taking up space as a
 magic necklace would). If a magic ring is placed on one of the fingers of the hand, the wearer
@@ -35,6 +40,7 @@ per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead), [daylight](ref/spell/daylight),
-[see invisibility](ref/spell/see-invisibility); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead), [daylight](ref/spell/daylight), [see invisibility](ref/spell/see-invisibility)
+Cost: 4,000 gp
+:::

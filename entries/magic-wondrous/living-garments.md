@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** body; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: body
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 These sheer and silky robes, many of which are made of spider silk, are of the finest quality. On
 command, a living garment can make a number of subtle adjustments to itself, including coloring,
@@ -32,6 +37,7 @@ always remains clean, and automatically repairs damage to itself at a rate of 1 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [mending](ref/spell/mending),
-[prestidigitation](ref/spell/prestidigitation), creator must be a drow; **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [mending](ref/spell/mending), [prestidigitation](ref/spell/prestidigitation), creator must be a drow
+Cost: 2,500 gp
+:::

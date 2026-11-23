@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 750 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 750 gp
+Weight: -
+:::
 
 This small stick of colored wax is encased in a wooden cylinder to allow for easier application to
 the lips. As a standard action, a dose of charmer's kiss can be applied to the user's lips; this
@@ -34,5 +39,7 @@ the wearer receives a +2 bonus on this saving throw. One stick of charmer's kiss
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm monster](ref/spell/charm-monster); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm monster](ref/spell/charm-monster)
+Cost: 375 gp
+:::

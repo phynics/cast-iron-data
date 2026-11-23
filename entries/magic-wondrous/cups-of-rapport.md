@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1 lb. (pair)
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 8,000 gp
+Weight: 1 lb. (pair)
+:::
 
 These wooden drinking cups are similar to those found in many common taverns, and always come in
 pairs - one is a master cup, and the other is a mark cup. When a user of the master cup shares
@@ -38,5 +43,7 @@ cannot be affected by the same mark cup for 1 day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person)
+Cost: 4,000 gp
+:::

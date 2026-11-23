@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This small copper lantern always glows with a faint green light equivalent to a
 [candle](ref/eq-misc/candle) flame. If its reservoir is filled with oil as a full-round action, it
@@ -35,5 +40,7 @@ as [green hags](ref/monster/hag-green-hag)), but doing so increases the DC of th
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[blood biography](ref/spell/blood-biography); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [blood biography](ref/spell/blood-biography)
+Cost: 1,500 gp
+:::

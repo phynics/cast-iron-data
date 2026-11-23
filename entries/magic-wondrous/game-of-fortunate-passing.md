@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 1,040 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 1,040 gp
+Weight: 2 lbs.
+:::
 
 This wooden box contains a popular Osirian board game called senet, a game which has been played
 since the earliest days of Osirion's First Age. Ten pawns (two sets of five) carved from petrified
@@ -43,6 +48,7 @@ loses all magic, becoming a normal playing piece. A game of fortunate passing ha
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [bless](ref/spell/bless),
-[divine favor](ref/spell/divine-favor); **Cost** 520 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [bless](ref/spell/bless), [divine favor](ref/spell/divine-favor)
+Cost: 520 gp
+:::

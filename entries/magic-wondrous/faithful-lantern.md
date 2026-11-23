@@ -20,8 +20,13 @@ aura = "moderate abjuration and conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration and conjuration; **CL** 9th\
-**Slot** none; **Price** 2,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration and conjuration
+CL: 9th
+Slot: none
+Price: 2,500 gp
+Weight: 2 lbs.
+:::
 
 This fine, silver bullseye lantern is embossed with the image of a stoic sentinel. It functions as a
 [bullseye lantern](ref/eq-misc/bullseye-lantern) that doesn't require oil to function. On command,
@@ -37,6 +42,7 @@ notifies its user, it shines its light on the intruder until commanded to stop.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[light](ref/spell/light), [mage's faithful hound](ref/spell/mages-faithful-hound),
-[unseen servant](ref/spell/unseen-servant); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [light](ref/spell/light), [mage's faithful hound](ref/spell/mages-faithful-hound), [unseen servant](ref/spell/unseen-servant)
+Cost: 1,250 gp
+:::

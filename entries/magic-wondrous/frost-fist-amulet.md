@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: neck
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 Shaped like a fist, this iron amulet is surrounded by a frigid fog. On command, this amulet causes
 the wearer's hands to become encased in a layer of freezing iron. The wearer is protected from the
@@ -34,6 +39,7 @@ can be ended as a swift action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item);
-[greater magic fang](ref/spell/magic-fang-greater); and [cone of cold](ref/spell/cone-of-cold) or
-[ice storm](ref/spell/ice-storm); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item); [greater magic fang](ref/spell/magic-fang-greater); and [cone of cold](ref/spell/cone-of-cold) or [ice storm](ref/spell/ice-storm)
+Cost: 5,000 gp
+:::

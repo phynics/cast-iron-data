@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 A chime of opening is a hollow [mithral](ref/eq-material/mithral) tube about 1 foot long. When
 struck, it sends forth magical vibrations that cause locks, lids, doors, valves, and portals to
@@ -43,5 +48,7 @@ total of 10 times before it cracks and becomes useless.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock);
-**Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock)
+Cost: 1,500 gp
+:::

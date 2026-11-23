@@ -20,8 +20,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 20th\
-**Slot** neck; **Price** 100,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 20th
+Slot: neck
+Price: 100,000 gp
+Weight: 1 lb.
+:::
 
 This black iron neckpiece is forged in the likeness of [Rovagug's](ref/faith/rovagug) holy symbol.
 An evil wearer gains a +2 profane bonus on all saving throws. A creature with the touch of
@@ -42,6 +47,7 @@ any living creature within sight. The hole seals immediately after the blood ris
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imprisonment](ref/spell/imprisonment), [summon monster IX](ref/spell/summon-monster-9); **Cost**
-50,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imprisonment](ref/spell/imprisonment), [summon monster IX](ref/spell/summon-monster-9)
+Cost: 50,000 gp
+:::

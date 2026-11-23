@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** feet; **Price** 67,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: feet
+Price: 67,500 gp
+Weight: 1 lb.
+:::
 
 These thick hide boots allow the wearer to detect unseen enemies, and they provide a final line of
 defense against overwhelming foes. The wearer gains [tremorsense](ref/umr/tremorsense) with a range
@@ -32,6 +37,7 @@ opportunity, the wearer can cast _[earthquake](ref/spell/earthquake)_ as a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[earthquake](ref/spell/earthquake), [see invisibility](ref/spell/see-invisibility); **Cost** 33,750
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [earthquake](ref/spell/earthquake), [see invisibility](ref/spell/see-invisibility)
+Cost: 33,750 gp
+:::

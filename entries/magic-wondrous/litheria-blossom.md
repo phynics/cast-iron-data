@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: -
+:::
 
 The litheria blossom is a rare but naturally occurring flower with large, pink petals. The pollen of
 the litheria blossom bridges the gap between life and death, functioning like an elixir, though
@@ -34,5 +39,7 @@ round, both the pollen and the flower become nonmagical.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death ward](ref/spell/death-ward), [deathwatch](ref/spell/deathwatch); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death ward](ref/spell/death-ward), [deathwatch](ref/spell/deathwatch)
+Cost: 700 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** wrists; **Price** 13,900 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: wrists
+Price: 13,900 gp
+Weight: 1 lb.
+:::
 
 This simple pair of leather shooting bracers are designed to protect the wearer's wrist from being
 snapped by bowstrings. They appear similar to a set of
@@ -35,7 +40,7 @@ before the end of her next turn.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[protection from arrows](ref/spell/protection-from-arrows), [true strike](ref/spell/true-strike);
-**Cost** 6,950 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [protection from arrows](ref/spell/protection-from-arrows), [true strike](ref/spell/true-strike)
+Cost: 6,950 gp
+:::

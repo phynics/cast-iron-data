@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 7,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: shoulders
+Price: 7,500 gp
+Weight: 1 lb.
+:::
 
 Usually made from the skins of giant serpents, these cloaks are designed to help rangers, hunters,
 and trackers blend in with and travel quickly through the areas they are most familiar with. If the
@@ -34,5 +39,7 @@ but it must be used in 1-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1)
+Cost: 3,750 gp
+:::

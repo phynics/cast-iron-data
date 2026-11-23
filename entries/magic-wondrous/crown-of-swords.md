@@ -23,8 +23,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** head; **Price** 6,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: head
+Price: 6,000 gp
+Weight: 3 lbs.
+:::
 
 This radiant crown of steel is bedecked with miniature [mithral](ref/eq-material/mithral) swords. A
 crown of swords can be used up to 10 times per day. When struck in combat, the wearer may spend one
@@ -38,5 +43,7 @@ same target) if the wearer is attacked in subsequent rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spiritual weapon](ref/spell/spiritual-weapon); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spiritual weapon](ref/spell/spiritual-weapon)
+Cost: 3,000 gp
+:::

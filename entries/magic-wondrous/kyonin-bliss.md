@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** none; **Price** 4,800 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: none
+Price: 4,800 gp
+Weight: 1/2 lb.
+:::
 
 This minty-smelling salve is commonly used by [Calistrian](ref/faith/calistria) elves to render
 unsuspecting victims more susceptible to magical manipulation, typically to glean information from
@@ -35,5 +40,7 @@ divinations, enchantments, and illusions. This is a mind-affecting poison effect
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[touch of idiocy](ref/spell/touch-of-idiocy); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [touch of idiocy](ref/spell/touch-of-idiocy)
+Cost: 250 gp
+:::

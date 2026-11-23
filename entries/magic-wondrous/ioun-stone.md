@@ -23,8 +23,13 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Aura** strong varied; **CL** 12th\
-**Slot** none; **Price** varies; **Weight** -
+::: statblock
+Aura: strong varied
+CL: 12th
+Slot: none
+Price: varies
+Weight: -
+:::
 
 These crystalline stones always float in the air and must be within 3 feet of their owner to be of
 any use. When a character first acquires a stone, she must hold it and then release it, whereupon it
@@ -36,8 +41,10 @@ depending on its color and shape (see the table below).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level;
-**Cost** half the market price
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
+Cost: half the market price
+:::
 
 ### Resonant Powers
 

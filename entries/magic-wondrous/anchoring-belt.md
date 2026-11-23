@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** belt; **Price** 60,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: belt
+Price: 60,000 gp
+Weight: 10 lbs.
+:::
 
 This belt looks like nothing more than iron chains connecting large pieces of slate. It grants its
 wearer a +5 inherent bonus to [combat maneuver](ref/rule/combat-maneuvers) defense against bull
@@ -37,6 +42,7 @@ equal to the wearer's mythic tier.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [bull's strength](ref/spell/bulls-strength),
-[dimensional anchor](ref/spell/dimensional-anchor); **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [bull's strength](ref/spell/bulls-strength), [dimensional anchor](ref/spell/dimensional-anchor)
+Cost: 30,000 gp
+:::

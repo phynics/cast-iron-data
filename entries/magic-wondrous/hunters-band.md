@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** headband; **Price** 11,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: headband
+Price: 11,000 gp
+Weight: 1 lb.
+:::
 
 This simple headband of braided hide grants a +5 competence bonus on [Survival](ref/skill/survival)
 checks and inures the wearer to the strain of long travel, as the
@@ -33,6 +38,7 @@ attack roll bonus his allies gain from that ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[instant enemy](ref/spell/instant-enemy), [tireless pursuit](ref/spell/tireless-pursuit), creator
-must have 5 ranks in Survival; **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [instant enemy](ref/spell/instant-enemy), [tireless pursuit](ref/spell/tireless-pursuit), creator must have 5 ranks in Survival
+Cost: 5,500 gp
+:::

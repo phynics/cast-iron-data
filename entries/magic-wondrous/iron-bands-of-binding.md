@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** none; **Price** 26,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: none
+Price: 26,000 gp
+Weight: 1 lb.
+:::
 
 This potent item is a 3-inch-diameter rusty iron sphere wrapped in iron bands.
 
@@ -38,5 +43,7 @@ Iron bands of binding are usable once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[grasping hand](ref/spell/grasping-hand); **Cost** 13,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grasping hand](ref/spell/grasping-hand)
+Cost: 13,000 gp
+:::

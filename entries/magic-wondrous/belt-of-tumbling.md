@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** belt; **Price** 800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: belt
+Price: 800 gp
+Weight: 1 lb.
+:::
 
 This thin and flexible cotton cord is meant to be wrapped several times around wearer's waist. The
 belt's wearer gains a +4 competence bonus on [Acrobatics](ref/skill/acrobatics) checks made to move
@@ -29,5 +34,7 @@ through a threatened square or through an enemy's space.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Cost: 400 gp
+:::

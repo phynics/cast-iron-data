@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 1,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 1,000 gp
+Weight: 1/2 lb.
+:::
 
 The thick liquid in this ceramic jar smells sickly sweet. To activate its powers, the user it must
 be unstopper the jar as a standard action while thinking deeply about a specific person or object
@@ -33,6 +38,7 @@ It cannot penetrate other liquids or porous or absorbent surfaces (such as sand 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[find the path](ref/spell/find-the-path), [locate creature](ref/spell/locate-creature),
-[locate object](ref/spell/locate-object); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [find the path](ref/spell/find-the-path), [locate creature](ref/spell/locate-creature), [locate object](ref/spell/locate-object)
+Cost: 500 gp
+:::

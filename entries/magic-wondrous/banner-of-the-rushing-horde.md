@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 60,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 60,000 gp
+Weight: 5 lbs.
+:::
 
 The banner of the rushing horde is a tattered cloth flag, typically 3 feet wide and 6 feet long,
 depicting the device or insignia of an orc tribe or unit. It can be carried on a staff, affixed to a
@@ -33,5 +38,7 @@ replanted by allies of its owner.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength); **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength)
+Cost: 30,000 gp
+:::

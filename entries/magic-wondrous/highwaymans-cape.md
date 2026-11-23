@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 32,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: shoulders
+Price: 32,500 gp
+Weight: 1 lb.
+:::
 
 This reversible multicolored cape marks the wearer's flamboyant audacity when turned with its bright
 colors outward, granting a +5 competence bonus on [Bluff](ref/skill/bluff) checks. Reversible as a
@@ -33,5 +38,7 @@ _[liberating command](ref/spell/liberating-command)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[liberating command](ref/spell/liberating-command); **Cost** 16,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [liberating command](ref/spell/liberating-command)
+Cost: 16,250 gp
+:::

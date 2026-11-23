@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 10,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 10,000 gp
+Weight: 3 lbs.
+:::
 
 At first glance, this book appears to be a nondescript volume filled with blank pages of ordinary
 paper (though it might instead contain recorded conversations; see below). By speaking the proper
@@ -55,7 +60,7 @@ words to other magical items when the words are uttered aloud.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[comprehend languages](ref/spell/comprehend-languages),
-[illusory script](ref/spell/illusory-script); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [comprehend languages](ref/spell/comprehend-languages), [illusory script](ref/spell/illusory-script)
+Cost: 5,000 gp
+:::

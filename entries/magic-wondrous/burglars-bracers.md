@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** wrists; **Price** 1,050 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: wrists
+Price: 1,050 gp
+Weight: 1 lb.
+:::
 
 On command, these plain leather bracers can transform into a set of
 [masterwork thieves' tools](ref/eq-misc/thieves-tools-masterwork). They can transform back to their
@@ -31,5 +36,7 @@ even when in immediate danger or distracted.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item); **Cost** 550 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item)
+Cost: 550 gp
+:::

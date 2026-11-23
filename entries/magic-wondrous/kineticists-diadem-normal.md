@@ -22,9 +22,13 @@ caster_level = "10th"
 
 ## Kineticist's Diadem
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** headband; **Price** 18,000 gp (Lesser), 50,000 gp (Normal), 98,000 gp (Greater);
-**Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: headband
+Price: 18,000 gp (Lesser), 50,000 gp (Normal), 98,000 gp (Greater)
+Weight: -
+:::
 
 This metal headband holds a glistening, diamond-shaped gem. A kineticist's diadem includes one of
 five colors of gem, each corresponding to a different element: blue (water), clear (aether), green
@@ -42,6 +46,7 @@ damage from elemental overflow, like [kinetic blade](ref/kinetic/kinetic-blade) 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 10th-level
-kineticist with access to the appropriate element; **Cost** 9,000 gp (Lesser), 25,000 gp (Normal),
-49,000 gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 10th-level kineticist with access to the appropriate element
+Cost: 9,000 gp (Lesser), 25,000 gp (Normal), 49,000 gp (Greater)
+:::

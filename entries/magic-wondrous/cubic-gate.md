@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 164,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 164,000 gp
+Weight: 2 lbs.
+:::
 
 This potent magical item is a small cube fashioned from carnelian. Each of the six sides of the cube
 is keyed to a different plane of existence or dimension, one of which is the Material Plane. The
@@ -41,5 +46,7 @@ avoid this fate by succeeding on DC 23 Will saves.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift); **Cost** 82,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift)
+Cost: 82,000 gp
+:::

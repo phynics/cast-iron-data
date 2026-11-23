@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 900 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 900 gp
+Weight: 1/2 lb.
+:::
 
 Wax and resin seal this smoked glass bottle. When the bottle is opened or shattered, a shrill scream
 erupts in a 20-foot-radius [burst](ref/misc/burst). Any bardic performances with audible components
@@ -33,5 +38,7 @@ opened, its burst is centered on the opener's space.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout);
-**Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout)
+Cost: 450 gp
+:::

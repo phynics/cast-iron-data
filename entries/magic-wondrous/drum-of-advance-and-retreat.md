@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 10,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 10,000 gp
+Weight: 5 lbs.
+:::
 
 When played, this sturdy snare drum increases the run speed of allied creatures within 120 feet as
 if they had the [Run](ref/feat/run) feat. Activating the drum is a standard action that requires a
@@ -32,5 +37,7 @@ be used in 10-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[expeditious retreat](ref/spell/expeditious-retreat); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [expeditious retreat](ref/spell/expeditious-retreat)
+Cost: 5,000 gp
+:::

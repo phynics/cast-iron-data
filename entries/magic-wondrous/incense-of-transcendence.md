@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 The heady vapors of this coiled incense facilitate a deep meditative trance. When an
 [oracle](ref/class/oracle) lights a coil of incense of transcendence and then spends 8 hours praying
@@ -37,5 +42,7 @@ original revelations return.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prayer](ref/spell/prayer),
-creator must be oracle level 7th; **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prayer](ref/spell/prayer), creator must be oracle level 7th
+Cost: 500 gp
+:::

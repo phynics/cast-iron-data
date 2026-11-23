@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 450 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 450 gp
+Weight: -
+:::
 
 This square flask contains an effervescent green liquid that causes the imbiber to become extremely
 nimble, albeit a bit jittery, for the next 30 minutes. During this time, the imbiber's base speed
@@ -30,6 +35,7 @@ and initiative checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [heightened awareness](ref/spell/heightened-awareness);
-**Cost** 225 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [heightened awareness](ref/spell/heightened-awareness)
+Cost: 225 gp
+:::

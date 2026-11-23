@@ -22,9 +22,13 @@ caster_level = "varies"
 
 ## Leshy Mulch Manual
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Price** 800 gp (Leaf Leshy), 1,125 gp (Gourd Leshy), 1,875 gp (Fungus Leshy), 3,600
-gp (Seaweed Leshy); **Weight** 5 lbs.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Price: 800 gp (Leaf Leshy), 1,125 gp (Gourd Leshy), 1,875 gp (Fungus Leshy), 3,600 gp (Seaweed Leshy)
+Weight: 5 lbs.
+:::
 
 A leshy mulch manual is a fragile, bark-bound book containing a dozen pages of coarse, grainy paper.
 The book includes information and incantations that help in crafting a [leshy](ref/family/leshy).
@@ -37,7 +41,7 @@ lured into the body, with no percentile roll required.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plant growth](ref/spell/plant-growth), [summon nature's ally III](ref/spell/summon-natures-ally-3);
-**Cost** 1,250 gp (fungus lechy), 750 gp (gourd leshy), 500 gp (leaf leshy), 2,250 gp (seaweed
-leshy)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plant growth](ref/spell/plant-growth), [summon nature's ally III](ref/spell/summon-natures-ally-3)
+Cost: 1,250 gp (fungus lechy), 750 gp (gourd leshy), 500 gp (leaf leshy), 2,250 gp (seaweed leshy)
+:::

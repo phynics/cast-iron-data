@@ -23,8 +23,12 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Weight** 15 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Weight: 15 lbs.
+:::
 
 This bag appears to be an ordinary sack. Detection for magical properties makes it seem as if it
 were a _bag of holding._ The sack, however, is something entirely different and more insidious - one
@@ -49,4 +53,7 @@ creature. If the check fails, the creature cannot be brought back to life by mor
 
 ### Construction
 
-**Requirements** [bag of holding (any type)](ref/magic-wondrous/bag-of-holding); **Cost** -
+::: statblock
+Requirements: [bag of holding (any type)](ref/magic-wondrous/bag-of-holding)
+Cost: -
+:::

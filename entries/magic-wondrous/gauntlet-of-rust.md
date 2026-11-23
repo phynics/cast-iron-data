@@ -23,9 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** hands; **Price** 11,500 gp (normal), 34,500 gp (greater); **Weight** 2 lbs. (normal), 1 lb.
-(greater)
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: hands
+Price: 11,500 gp (normal), 34,500 gp (greater)
+Weight: 2 lbs. (normal), 1 lb. (greater)
+:::
 
 This single metal gauntlet looks rusted and pitted but is actually quite powerful. Once per day, it
 can affect an object as with the _[rusting grasp](ref/spell/rusting-grasp)_ spell. It also
@@ -39,5 +43,7 @@ _[rusting grasp](ref/spell/rusting-grasp)_ 3 times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[rusting grasp](ref/spell/rusting-grasp); **Cost** 5,750 gp (normal), 17,250 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rusting grasp](ref/spell/rusting-grasp)
+Cost: 5,750 gp (normal), 17,250 gp (greater)
+:::

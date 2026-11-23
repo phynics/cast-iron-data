@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** wrists; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: wrists
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 These bracers are made of heavy iron and have a pattern of howling wolves engraved upon them. Once
 per day on command, the wearer can clash the bracers together rhythmically. This causes the wolves
@@ -32,6 +37,7 @@ the DC increases by 1, up to a maximum increase of 5.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[crushing despair](ref/spell/crushing-despair), creator must have the raging song class feature;
-**Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [crushing despair](ref/spell/crushing-despair), creator must have the raging song class feature
+Cost: 3,500 gp
+:::

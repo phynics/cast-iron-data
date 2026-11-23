@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 5,800 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 5,800 gp
+Weight: 2 lbs.
+:::
 
 This macabre lantern is composed of a humanoid skull dangling from a short length of chain. A small
 fragment of soulstuff is trapped inside, burning slowly in a heatless flame. Its flickering light
@@ -33,5 +38,7 @@ lantern, the lantern absorbs a fragment of that creature's soul, restoring its g
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burning hands](ref/spell/burning-hands), creator cannot be good; **Cost** 2,900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burning hands](ref/spell/burning-hands), creator cannot be good
+Cost: 2,900 gp
+:::

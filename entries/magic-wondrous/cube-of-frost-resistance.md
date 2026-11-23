@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 27,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 27,000 gp
+Weight: 2 lbs.
+:::
 
 This cube is activated or deactivated by pressing one side. When activated, it creates a cube-shaped
 area 10 feet on a side centered on the possessor (or on the cube itself, if the item is later placed
@@ -35,5 +40,7 @@ field absorbs more than 100 points of cold damage in a 10-round period, the cube
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[protection from energy](ref/spell/protection-from-energy); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [protection from energy](ref/spell/protection-from-energy)
+Cost: 13,500 gp
+:::

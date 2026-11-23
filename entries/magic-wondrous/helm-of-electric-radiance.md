@@ -23,8 +23,13 @@ aura = "strong varied"
 caster_level = "13th"
 +++
 
-**Aura** strong varied; **CL** 13th\
-**Slot** head; **Price** 125,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong varied
+CL: 13th
+Slot: head
+Price: 125,000 gp
+Weight: 3 lbs.
+:::
 
 The helm of electric radiance is similar to a helm of brilliance, except its spells focus on
 electricity rather than fire. Other aspects of the helm, such as detecting and damaging undead,
@@ -36,9 +41,7 @@ weapons instead of flaming weapons.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[chain lightning](ref/spell/chain-lightning), [daylight](ref/spell/daylight),
-[detect undead](ref/spell/detect-undead), [flaming sphere](ref/spell/flaming-sphere),
-[lightning bolt](ref/spell/lightning-bolt),
-[protection from energy](ref/spell/protection-from-energy),
-[shocking grasp](ref/spell/shocking-grasp); **Cost** 62,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [chain lightning](ref/spell/chain-lightning), [daylight](ref/spell/daylight), [detect undead](ref/spell/detect-undead), [flaming sphere](ref/spell/flaming-sphere), [lightning bolt](ref/spell/lightning-bolt), [protection from energy](ref/spell/protection-from-energy), [shocking grasp](ref/spell/shocking-grasp)
+Cost: 62,500 gp
+:::

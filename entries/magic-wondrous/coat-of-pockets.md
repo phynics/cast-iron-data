@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** chest; **Price** 2,500 gp; **Weight** 7 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: chest
+Price: 2,500 gp
+Weight: 7 lbs.
+:::
 
 This black-and-gray wool coat sports over a dozen pockets on its front alone and even more line the
 insides. Interdimensional magic causes anything placed in one pocket to immediately appear in
@@ -35,5 +40,7 @@ standard action to retrieve it (rather than a move action).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 1,250 gp
+:::

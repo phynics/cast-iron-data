@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** neck; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: neck
+Price: 8,000 gp
+Weight: -
+:::
 
 Any time the wearer of an azata's whimsy would become [confused](ref/misc/confused), her random
 actions are modified as follows:
@@ -40,5 +45,7 @@ rounds need not be consecutive.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[confusion](ref/spell/confusion), creator must be a chaotic good bard; **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [confusion](ref/spell/confusion), creator must be a chaotic good bard
+Cost: 4,000 gp
+:::

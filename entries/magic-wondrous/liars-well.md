@@ -21,8 +21,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 84,250 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 84,250 gp
+Weight: -
+:::
 
 When opened, this cursed [well of many worlds](ref/magic-wondrous/well-of-many-worlds) has a 50%
 chance of displaying a false image of its destination. For example, the well may appear to open onto
@@ -32,5 +37,7 @@ illusion. The false image is defeated by a [true seeing](ref/spell/true-seeing) 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate),
-[mirage arcana](ref/spell/mirage-arcana); **Cost** 42,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate), [mirage arcana](ref/spell/mirage-arcana)
+Cost: 42,125 gp
+:::

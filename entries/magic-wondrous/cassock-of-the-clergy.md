@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "1st"
 +++
 
-**Aura** moderate abjuration; **CL** 1st\
-**Slot** body; **Price** 4,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 1st
+Slot: body
+Price: 4,600 gp
+Weight: 1 lb.
+:::
 
 The cut and color of this solemn vestment varies from religion to religion, but its properties are
 the same. The wearer may command the cassock of the clergy to display the holy symbol of her deity
@@ -34,5 +39,7 @@ to gain an orison of her choice as a spell known for the next 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless),
-[sanctuary](ref/spell/sanctuary), creator must be a divine spellcaster; **Cost** 2,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless), [sanctuary](ref/spell/sanctuary), creator must be a divine spellcaster
+Cost: 2,300 gp
+:::

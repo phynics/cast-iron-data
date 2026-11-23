@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** head; **Price** 30,000 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: head
+Price: 30,000 gp
+Weight: -
+:::
 
 Laurel leaves crafted from fine gold decorate this circlet that imparts powers of persuasion and
 leadership. The wearer's voice carries great authority and can inspire others to victory. As a swift
@@ -32,5 +37,7 @@ creature cannot gain this bonus more than once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism);
-**Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism)
+Cost: 15,000 gp
+:::

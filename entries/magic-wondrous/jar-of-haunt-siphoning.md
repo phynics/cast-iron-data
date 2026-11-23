@@ -20,8 +20,13 @@ aura = "miderate necromancy"
 caster_level = "6th"
 +++
 
-**Aura** miderate necromancy; **CL** 6th\
-**Slot** none; **Price** 6,250 gp; **Weight** 1 lb.
+::: statblock
+Aura: miderate necromancy
+CL: 6th
+Slot: none
+Price: 6,250 gp
+Weight: 1 lb.
+:::
 
 This jar of transparent glass is bound with gold ribbons. As a standard action that requires both
 hands, the user can untie the ribbon and remove the jar's lid. When the user does so, the ribbon
@@ -40,6 +45,7 @@ rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose),
-[mass inflict light wounds](ref/spell/inflict-light-wounds-mass); **Cost** 3,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [mass inflict light wounds](ref/spell/inflict-light-wounds-mass)
+Cost: 3,125 gp
+:::

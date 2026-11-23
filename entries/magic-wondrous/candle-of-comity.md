@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This tall, blue candle is shot through with swirls of an amber color and puts off a pleasant
 fragrance similar to honeysuckle when lit. Any creature within 10 feet of the candle gains a +5
@@ -35,5 +40,7 @@ destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), [charm person](ref/spell/charm-person); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [charm person](ref/spell/charm-person)
+Cost: 1,000 gp
+:::

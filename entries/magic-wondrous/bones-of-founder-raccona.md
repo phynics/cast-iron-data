@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "4th"
 +++
 
-**Aura** faint enchantment; **CL** 4th\
-**Slot** none; **Price** 2,250 gp; **Weight** 0 to 1 lb. (entire set weighs 8 lbs.)
+::: statblock
+Aura: faint enchantment
+CL: 4th
+Slot: none
+Price: 2,250 gp
+Weight: 0 to 1 lb. (entire set weighs 8 lbs.)
+:::
 
 The bones of Founder Raccona are small, blackened bone fragments, most no more than an inch long,
 and that radiate a faint, soothing warmth. Each bone grants the bearer 1
@@ -43,5 +48,7 @@ the afterlife, losing all power.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid); **Cost**
-1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid)
+Cost: 1,125 gp
+:::

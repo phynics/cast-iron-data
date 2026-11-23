@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** shoulders; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: shoulders
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This dark, velvety cloak billows with a dramatic flourish in its wearer's wake. The cloak grants its
 wearer [low-light vision](ref/rule/low-light-vision). Once per day, on command, the wearer can
@@ -31,5 +36,7 @@ low-light vision.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkness](ref/spell/darkness), [darkvision](ref/spell/darkvision); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkness](ref/spell/darkness), [darkvision](ref/spell/darkvision)
+Cost: 5,000 gp
+:::

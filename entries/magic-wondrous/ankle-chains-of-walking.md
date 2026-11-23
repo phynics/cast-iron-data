@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 6,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 6,000 gp
+Weight: 5 lbs.
+:::
 
 These steel cuffs are connected with a 2-foot-long chain. The cuffs are decorated with lead inlays
 of broken feet. When locked around a [helpless](ref/misc/helpless) or willing creature's ankles as a
@@ -35,5 +40,7 @@ their effects are suppressed or dispelled.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [slow](ref/spell/slow);
-**Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [slow](ref/spell/slow)
+Cost: 3,000 gp
+:::

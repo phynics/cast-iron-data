@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** body; **Price** 8,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: body
+Price: 8,000 gp
+Weight: 2 lbs.
+:::
 
 These tattered and ragged garments extend the duration of a [shifter's](ref/class/shifter) bestial
 transformations, allowing her to shift into her aspects' minor forms for 5 additional minutes per
@@ -32,5 +37,7 @@ into that form, that aspect's major form functions as if she were 2 levels highe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2)
+Cost: 4,000 gp
+:::

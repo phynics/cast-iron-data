@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 1,600 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 1,600 gp
+Weight: -
+:::
 
 This brown dust is similar to [dust of dryness](ref/magic-wondrous/dust-of-dryness), but affects
 [acid](ref/eq-weapon/acid) rather than water and absorbs less liquid. If it is thrown into acid, a
@@ -37,5 +42,7 @@ saving throw succeeds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control water](ref/spell/control-water), [disintegrate](ref/spell/disintegrate); **Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control water](ref/spell/control-water), [disintegrate](ref/spell/disintegrate)
+Cost: 800 gp
+:::

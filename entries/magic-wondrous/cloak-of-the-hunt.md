@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "12th"
 +++
 
-**Aura** strong illusion; **CL** 12th\
-**Slot** shoulders; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong illusion
+CL: 12th
+Slot: shoulders
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 This rough-spun green cloak is trimmed in wolf fur and fastened with a silver clasp. With the cloak
 drawn over his shoulders and the hood pulled up, the wearer becomes one with his surroundings,
@@ -40,6 +45,7 @@ or lower (such as [see invisibility](ref/spell/see-invisibility) or
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [greater invisibility](ref/spell/invisibility-greater);
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [greater invisibility](ref/spell/invisibility-greater)
+Cost: 6,000 gp
+:::

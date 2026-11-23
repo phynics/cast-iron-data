@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** headband; **Price** 27,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: headband
+Price: 27,500 gp
+Weight: 1 lb.
+:::
 
 This headband is made of interlocked finger bones woven together by leathery tendons and gristle.
 The wearer may use _[command undead](ref/spell/command-undead)_ up to three times per day, but only
@@ -30,6 +35,7 @@ one Medium zombie as if using _[animate dead](ref/spell/animate-dead)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead), [command undead](ref/spell/command-undead); **Cost** 13,750
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead), [command undead](ref/spell/command-undead)
+Cost: 13,750 gp
+:::

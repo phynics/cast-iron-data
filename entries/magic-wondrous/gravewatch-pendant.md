@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: neck
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 Favored by the grave-wardens of sites known to be infested with the spirits of the dead, this
 pendant is an iron ring strung on a necklace made from polished and discolored bones, nails, and
@@ -34,5 +39,7 @@ this pendant.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[protection from evil](ref/spell/protection-from-evil); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [protection from evil](ref/spell/protection-from-evil)
+Cost: 4,000 gp
+:::

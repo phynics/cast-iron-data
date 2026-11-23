@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "4th"
 +++
 
-**Aura** faint abjuration; **CL** 4th\
-**Slot** hands; **Price** 6,000 gp; **Weight** 20 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 4th
+Slot: hands
+Price: 6,000 gp
+Weight: 20 lbs.
+:::
 
 Only Large or larger creatures can wear these sturdy leather gauntlets. If the wearer has the
 [rock catching](ref/umr/rock-catching) ability, the Reflex DC to catch rocks is reduced by 5 while
@@ -32,5 +37,7 @@ ability on the wearer instead of their normal effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield](ref/spell/shield);
-**Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield](ref/spell/shield)
+Cost: 3,000 gp
+:::

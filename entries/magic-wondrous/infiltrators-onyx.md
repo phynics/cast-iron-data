@@ -20,8 +20,13 @@ aura = "faint divination and none (see text)"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and none (see text); **CL** 5th\
-**Slot** none; **Price** 800 gp; **Weight** -
+::: statblock
+Aura: faint divination and none (see text)
+CL: 5th
+Slot: none
+Price: 800 gp
+Weight: -
+:::
 
 These gems always come in pairs - one white onyx and one black onyx. The white onyx has an aura of
 faint divination, while the black onyx is nonmagical. The black onyx gem on its own is worth 50 gp
@@ -42,5 +47,7 @@ gp or more. The value of the black onyx gem is added to the item's construction 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[locate object](ref/spell/locate-object), [magic aura](ref/spell/magic-aura); **Cost** 425 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [locate object](ref/spell/locate-object), [magic aura](ref/spell/magic-aura)
+Cost: 425 gp
+:::

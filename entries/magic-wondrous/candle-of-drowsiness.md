@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 2,500 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 2,500 gp
+Weight: 1/2 lb.
+:::
 
 This simple white candle gives off a pleasing aroma of moonflowers. Any creature within 10 feet of
 the candle's flame begins to feel drowsy, gradually growing sleepier. Every 10 minutes, each such
@@ -36,5 +41,7 @@ burn for a total of 3 hours; this duration doesn't need to be consecutive, but m
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[deep slumber](ref/spell/deep-slumber); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [deep slumber](ref/spell/deep-slumber)
+Cost: 1,250 gp
+:::

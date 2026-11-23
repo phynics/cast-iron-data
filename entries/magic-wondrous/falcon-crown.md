@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** head; **Price** 42,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: head
+Price: 42,000 gp
+Weight: 2 lbs.
+:::
 
 This metal headdress is shaped like a falcon's head and enameled in brilliant colors. Originally
 crafted for a wizard dedicated to [Horus](ref/faith/horus) as a reward from his pharaoh for his
@@ -40,5 +45,7 @@ still gain the AC bonus.
 
 ### Construction
 
-**Requirements** Arcane Blast, [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[foresight](ref/spell/foresight), [haste](ref/spell/haste); **Cost** 21,000 gp
+::: statblock
+Requirements: Arcane Blast, [Craft Wondrous Item](ref/feat/craft-wondrous-item), [foresight](ref/spell/foresight), [haste](ref/spell/haste)
+Cost: 21,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 This translucent dust warps harmful magical auras, making it difficult to discern cursed items from
 beneficial ones. Sprinkling the dust over a cursed magic item shields it from divination magic for 5
@@ -35,5 +40,7 @@ disable the trap by 5 for 5 days.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic aura](ref/spell/magic-aura); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic aura](ref/spell/magic-aura)
+Cost: 125 gp
+:::

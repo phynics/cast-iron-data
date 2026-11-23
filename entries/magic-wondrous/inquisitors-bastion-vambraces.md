@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** wrists; **Price** 4,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: wrists
+Price: 4,000 gp
+Weight: 3 lbs.
+:::
 
 Constructed of blackened steel, these vambraces augment the protection granted to the
 [inquisitor](ref/class/inquisitor) by the protection judgment. While under that judgment's effects,
@@ -30,6 +35,7 @@ bonus is equal to the sacred bonus the judgement grants to AC.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield of faith](ref/spell/shield-of-faith), creator must be an inquisitor with access to the
-protection judgment; **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield of faith](ref/spell/shield-of-faith), creator must be an inquisitor with access to the protection judgment
+Cost: 2,000 gp
+:::

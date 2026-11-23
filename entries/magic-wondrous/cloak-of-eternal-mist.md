@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** shoulders; **Price** 3,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: shoulders
+Price: 3,600 gp
+Weight: 1 lb.
+:::
 
 Cool, damp mist constantly emanates from beneath this billowing, floor-length cloak. The cloak's
 wearer gains a +4 bonus on [Stealth](ref/skill/stealth) checks in fog or mist. Furthermore, the
@@ -33,6 +38,7 @@ concealment lasts until the wearer moves from her position.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create water](ref/spell/create-water), [obscuring mist](ref/spell/obscuring-mist); **Cost** 1,800
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create water](ref/spell/create-water), [obscuring mist](ref/spell/obscuring-mist)
+Cost: 1,800 gp
+:::

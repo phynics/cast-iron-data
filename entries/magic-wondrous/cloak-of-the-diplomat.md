@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** shoulders; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: shoulders
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 The forest-green cloak grants a +5 competence bonus on [Diplomacy](ref/skill/diplomacy) and
 [Sense Motive](ref/skill/sense-motive) checks. In addition, once per day, before making a Diplomacy
@@ -36,6 +41,7 @@ creature's attitude by 5 or more, the creature's attitude is reduced by two step
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person), creator must have 5 ranks in Diplomacy and Sense Motive;
-**Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person), creator must have 5 ranks in Diplomacy and Sense Motive
+Cost: 10,000 gp
+:::

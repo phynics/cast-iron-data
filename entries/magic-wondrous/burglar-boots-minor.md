@@ -22,8 +22,13 @@ caster_level = "1st (minor), 10th (major)"
 
 ## Burglar Boots
 
-**Aura** faint (minor) or moderate (major) divination; **CL** 1st (minor), 10th (major)\
-**Slot** feet; **Price** 4,000 gp (minor), 46,000 gp (major); **Weight** 1/2 lb.
+::: statblock
+Aura: faint (minor) or moderate (major) divination
+CL: 1st (minor), 10th (major)
+Slot: feet
+Price: 4,000 gp (minor), 46,000 gp (major)
+Weight: 1/2 lb.
+:::
 
 **Minor:** These form-fitting, calfskin boots are dyed black and lightly decorated with raven
 feathers. They grant their wearer a +5 competence bonus on [Perception](ref/skill/perception) checks
@@ -37,6 +42,7 @@ the wearer the ability to use _[find traps](ref/spell/find-traps)_ as the spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[find traps](ref/spell/find-traps) (major only), creator must have 4 (minor) or 12 (major) ranks in
-Perception; **Cost** 2,000 gp (minor), 23,000 gp (major)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [find traps](ref/spell/find-traps) (major only), creator must have 4 (minor) or 12 (major) ranks in Perception
+Cost: 2,000 gp (minor), 23,000 gp (major)
+:::

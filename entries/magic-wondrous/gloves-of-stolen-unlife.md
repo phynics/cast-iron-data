@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** hands; **Price** 3,040 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: hands
+Price: 3,040 gp
+Weight: 1 lb.
+:::
 
 These pale gray gauntlets feature cabochons of banded black onyx that slowly shift to white when the
 gloves are activated. Three times per day, the wearer can activate the gloves as a swift action
@@ -32,5 +37,7 @@ of the spell cast. This effect ends immediately if either glove is removed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[false life](ref/spell/false-life); **Cost** 1,520 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [false life](ref/spell/false-life)
+Cost: 1,520 gp
+:::

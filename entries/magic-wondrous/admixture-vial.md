@@ -20,8 +20,13 @@ aura = "moderate universal"
 caster_level = "8th"
 +++
 
-**Aura** moderate universal; **CL** 8th\
-**Slot** none; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: moderate universal
+CL: 8th
+Slot: none
+Price: 5,000 gp
+Weight: -
+:::
 
 Once per day, an alchemist can use this simple-looking glass vial to combine two extracts into one
 usable extract as if he had the [combine extracts](ref/discovery/combine-extracts) discovery. An
@@ -30,5 +35,7 @@ cannot be combined again using this item or the combine extracts discovery.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be an alchemist
-with the combine extracts discovery; **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be an alchemist with the combine extracts discovery
+Cost: 2,500 gp
+:::

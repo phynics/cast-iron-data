@@ -26,8 +26,13 @@ aura = "strong varied"
 caster_level = "13th"
 +++
 
-**Aura** strong varied; **CL** 13th\
-**Slot** head; **Price** 125,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong varied
+CL: 13th
+Slot: head
+Price: 125,000 gp
+Weight: 3 lbs.
+:::
 
 This normal-looking helm takes its true form and manifests its powers when the user dons it and
 speaks the command word. Made of brilliant silver and polished steel, a newly created helm is set
@@ -66,12 +71,10 @@ wearer. The opals and the helm itself are destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect undead](ref/spell/detect-undead), [fireball](ref/spell/fireball),
-[flame blade](ref/spell/flame-blade), [daylight](ref/spell/daylight),
-[prismatic spray](ref/spell/prismatic-spray),
-[protection from energy](ref/spell/protection-from-energy), [wall of fire](ref/spell/wall-of-fire);
-**Cost** 62,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect undead](ref/spell/detect-undead), [fireball](ref/spell/fireball), [flame blade](ref/spell/flame-blade), [daylight](ref/spell/daylight), [prismatic spray](ref/spell/prismatic-spray), [protection from energy](ref/spell/protection-from-energy), [wall of fire](ref/spell/wall-of-fire)
+Cost: 62,500 gp
+:::
 
 ## Helm of Brilliance (Lesser)
 

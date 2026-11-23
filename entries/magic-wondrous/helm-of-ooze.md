@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** head; **Price** 21,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: head
+Price: 21,500 gp
+Weight: 3 lbs.
+:::
 
 This bulky, rusted helm incorporates a pair of goggles that sit on the wearer's brow. The wearer of
 a helm of ooze control gains a limited ability to telepathically command oozes. Once per day as a
@@ -50,5 +55,7 @@ If 24 hours pass without the helm being worn, then all affected oozes are releas
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater command](ref/spell/command-greater); **Cost** 10,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater command](ref/spell/command-greater)
+Cost: 10,750 gp
+:::

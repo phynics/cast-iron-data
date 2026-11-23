@@ -23,13 +23,20 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** eyes; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: eyes
+Price: 4,000 gp
+Weight: -
+:::
 
 These magical goggles are decorated with owl motifs, including clusters of feathers over the eyes.
 The wearer gains [low-light vision](ref/rule/low-light-vision).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1)
+Cost: 2,000 gp
+:::

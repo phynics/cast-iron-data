@@ -20,9 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** body; **Price** 3,000 gp (+1), 12,000 gp (+2), 27,000 gp (+3), 48,000 gp (+4), 75,000 gp
-(+5), 108,000 gp (+6), 147,000 gp (+7); **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: body
+Price: 3,000 gp (+1), 12,000 gp (+2), 27,000 gp (+3), 48,000 gp (+4), 75,000 gp (+5), 108,000 gp (+6), 147,000 gp (+7)
+Weight: 1 lb.
+:::
 
 This long cloth is wrapped around the chest multiple times like a bandage. Once per round, the
 wearer may add an enhancement bonus of +1 to +5 on one attack and damage roll for an unarmed strike
@@ -45,8 +49,7 @@ have a +1 enhancement bonus to grant a melee weapon special ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater magic fang](ref/spell/magic-fang-greater), creator's caster level must be at least three
-times the bodywrap's bonus, plus any requirements of the melee weapon special abilities; **Cost**
-1,500 gp (+1), 6,000 gp (+2), 13,500 gp (+3), 24,000 gp (+4), 37,500 gp (+5), 54,000 gp (+6), 73,500
-gp (+7)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater magic fang](ref/spell/magic-fang-greater), creator's caster level must be at least three times the bodywrap's bonus, plus any requirements of the melee weapon special abilities
+Cost: 1,500 gp (+1), 6,000 gp (+2), 13,500 gp (+3), 24,000 gp (+4), 37,500 gp (+5), 54,000 gp (+6), 73,500 gp (+7)
+:::

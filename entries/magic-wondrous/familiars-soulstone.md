@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 10,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 10,500 gp
+Weight: 1 lb.
+:::
 
 A familiar's soulstone looks like an unpolished, rough red gem the size of a fist. The bearer can
 use the familiar's soulstone to perform an hour-long ritual that binds the soul of his familiar,
@@ -41,5 +46,7 @@ can be bound only to a single creature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[raise dead](ref/spell/raise-dead); **Cost** 5,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [raise dead](ref/spell/raise-dead)
+Cost: 5,250 gp
+:::

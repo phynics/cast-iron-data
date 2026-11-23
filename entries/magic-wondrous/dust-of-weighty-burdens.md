@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 3,600 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 3,600 gp
+Weight: 3 lbs.
+:::
 
 Also known as lodestone essence, this coarse gray powder comes in a fragile ceramic flask covered in
 Terran runes. A newly-crafted flask contains enough powder for 10 applications if poured out
@@ -40,5 +45,7 @@ Scrubbing or electricity damage neutralizes the thrown powder as noted above.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [slow](ref/spell/slow),
-[stone shape](ref/spell/stone-shape); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [slow](ref/spell/slow), [stone shape](ref/spell/stone-shape)
+Cost: 1,800 gp
+:::

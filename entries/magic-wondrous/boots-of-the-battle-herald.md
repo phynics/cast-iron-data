@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Aura** moderate enchantment; **CL** 11th\
-**Slot** feet; **Price** 30,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 11th
+Slot: feet
+Price: 30,000 gp
+Weight: 2 lbs.
+:::
 
 These boots are made of fine white leather tooled with scenes of epic battles. Once per day as a
 move action, the wearer can affect himself with _[greater heroism](ref/spell/heroism-greater)_ for
@@ -29,6 +34,7 @@ move action, the wearer can affect himself with _[greater heroism](ref/spell/her
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater heroism](ref/spell/heroism-greater), [remove fear](ref/spell/remove-fear); **Cost** 15,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater heroism](ref/spell/heroism-greater), [remove fear](ref/spell/remove-fear)
+Cost: 15,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 This piece of parchment can magically transform metal coins into spots of metallic ink on its
 surface. A clandestine voucher is commonly used to transfer bribes or payment when exchanging
@@ -43,5 +48,7 @@ into ink and stored in the quill.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[treasure stitching](ref/spell/treasure-stitching); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [treasure stitching](ref/spell/treasure-stitching)
+Cost: 125 gp
+:::

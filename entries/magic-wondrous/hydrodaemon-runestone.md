@@ -23,8 +23,13 @@ aura = "moderate conjuration [evil]"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration \[evil\]; **CL** 11th\
-**Slot** none; **Price** 3,300 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration \[evil\]
+CL: 11th
+Slot: none
+Price: 3,300 gp
+Weight: -
+:::
 
 This water-polished stone is carved in the shape of a frog-like head and decorated with evil runes.
 It feels lighter than it should, as if hollow and partially filled with liquid. When a hydrodaemon
@@ -36,5 +41,7 @@ and attacks its summoner.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster VI](ref/spell/summon-monster-6); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster VI](ref/spell/summon-monster-6)
+Cost: 1,650 gp
+:::

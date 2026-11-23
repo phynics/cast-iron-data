@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 2,800 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 2,800 gp
+Weight: -
+:::
 
 When burned, this stick of incense releases a sharp smell and fills the surrounding air with bright
 orange and golden motes. A creature that lights this incense (a standard action that does not
@@ -32,5 +37,7 @@ use and benefit from as described.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[elemental body I](ref/spell/elemental-body-1); **Cost** 1,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [elemental body I](ref/spell/elemental-body-1)
+Cost: 1,400 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 8,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 8,500 gp
+Weight: 3 lbs.
+:::
 
 This hide helm is set with plates of ivory carved with primitive runes, with a pair of tusks curving
 down on either side of the wearer's face for cheek guards. The tusks of the helm provide a gore
@@ -44,8 +49,7 @@ elephant-like creatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1), [charm animal](ref/spell/charm-animal),
-[detect animals or plants](ref/spell/detect-animals-or-plants),
-[endure elements](ref/spell/endure-elements), [speak with animals](ref/spell/speak-with-animals),
-creator must have 5 ranks in Handle Animal and Ride; **Cost** 4,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1), [charm animal](ref/spell/charm-animal), [detect animals or plants](ref/spell/detect-animals-or-plants), [endure elements](ref/spell/endure-elements), [speak with animals](ref/spell/speak-with-animals), creator must have 5 ranks in Handle Animal and Ride
+Cost: 4,250 gp
+:::

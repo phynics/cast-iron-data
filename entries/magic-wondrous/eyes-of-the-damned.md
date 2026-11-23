@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** eyes; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: eyes
+Price: 15,000 gp
+Weight: -
+:::
 
 These two clear crystal lenses fit directly over the wearer's eyes. When the wearer activates the
 lenses by speaking a prayer to [Asmodeus](ref/faith/asmodeus) as a standard action, her eyes appear
@@ -39,5 +44,7 @@ per day. Both lenses must be worn by the same wearer for the magic item to take 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[vision of Hell](ref/spell/vision-of-hell); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [vision of Hell](ref/spell/vision-of-hell)
+Cost: 7,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 12,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 12,500 gp
+Weight: 1 lb.
+:::
 
 This drinking gourd has a slender neck capped with a tethered cork, as well as a leather strap so it
 can be hung from a belt or pack. Once per day, the gossiper's gourd can be filled with water from a
@@ -45,6 +50,7 @@ wait until the beginning of the next day to benefit from the gourd again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[share language](ref/spell/share-language), [sow thought](ref/spell/sow-thought), creator must have
-at least 5 ranks in Knowledge (local); **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [share language](ref/spell/share-language), [sow thought](ref/spell/sow-thought), creator must have at least 5 ranks in Knowledge (local)
+Cost: 6,250 gp
+:::

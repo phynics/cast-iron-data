@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** wrists; **Price** 8,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: wrists
+Price: 8,000 gp
+Weight: 2 lbs.
+:::
 
 Made from a mix of sturdy steel and boiled leather, these vambraces grant a +1 deflection bonus to
 AC while the wearer is wielding a [double](ref/misc/double) weapon or two weapons (not including
@@ -31,6 +36,7 @@ rolls made with that weapon by 2.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [shield](ref/spell/shield), creator must have the Two-Weapon
-fighting feat; **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [shield](ref/spell/shield), creator must have the Two-Weapon fighting feat
+Cost: 4,000 gp
+:::

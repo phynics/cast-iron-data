@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** none; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: none
+Price: 4,000 gp
+Weight: -
+:::
 
 Each end of this unassuming, 8-inch leather cord is adorned by a polished silver bead. A wand around
 which a holdout wand wrap has been wound and tied (a standard action) can be commanded to change its
@@ -33,5 +38,7 @@ activated, the holdout wand wrap's effects are suppressed for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [magic aura](ref/spell/magic-aura); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [magic aura](ref/spell/magic-aura)
+Cost: 2,000 gp
+:::

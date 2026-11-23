@@ -20,8 +20,13 @@ aura = "moderate abjuration and necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration and necromancy; **CL** 8th\
-**Slot** head; **Price** 11,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and necromancy
+CL: 8th
+Slot: head
+Price: 11,000 gp
+Weight: -
+:::
 
 When wrapped around the neck and jaw, this swath of black cloth lets its wearer see normally in a
 [sandstorm](ref/rule/severe-events) (her vision isn't reduced, nor does she take the -4 penalty on
@@ -35,5 +40,7 @@ mind-affecting fear effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fear](ref/spell/fear);
-**Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fear](ref/spell/fear)
+Cost: 5,500 gp
+:::

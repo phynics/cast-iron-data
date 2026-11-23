@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** none; **Price** 6,500 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: none
+Price: 6,500 gp
+Weight: 50 lbs.
+:::
 
 This tarnished canister appears to be a normal gas cylinder for releasing poisonous gases, but it is
 actually a strange combination of arcane magic and modern technology designed to trap free-roaming
@@ -48,5 +53,7 @@ are released, the cylinder becomes nonmagical.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [binding](ref/spell/binding);
-**Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [binding](ref/spell/binding)
+Cost: 3,500 gp
+:::

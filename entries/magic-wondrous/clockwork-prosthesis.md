@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 13th\
-**Slot** none; **Price** 6,400 gp; **Weight** 25 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 13th
+Slot: none
+Price: 6,400 gp
+Weight: 25 lbs.
+:::
 
 Accidents are common in the City of Smog, and in a place where healing magic is distrusted at best
 and haphazard at worst, amputation is often the only remedy for a mangled hand or smashed leg. For
@@ -55,6 +60,7 @@ opponents, and even channeling magical energy are also rumored to exist.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [regenerate](ref/spell/regenerate), creator must have 8
-ranks in Craft (clockwork); **Cost** 3,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [regenerate](ref/spell/regenerate), creator must have 8 ranks in Craft (clockwork)
+Cost: 3,200 gp
+:::

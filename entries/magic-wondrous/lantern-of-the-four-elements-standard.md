@@ -22,8 +22,13 @@ caster_level = "5th"
 
 ## Lantern of the Four Elements
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 1,500 gp (standard), 6,500 gp (greater); **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 1,500 gp (standard), 6,500 gp (greater)
+Weight: 2 lbs.
+:::
 
 This bronze lantern has a square base and four glass panels, each of which represents one of the
 fundamental elements in the color, shape, and quality of the light that passes through it. The
@@ -47,9 +52,7 @@ once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), [light](ref/spell/light) (standard lantern of the four
-elements); Craft Wondrous Item, _endure elements, light,_ [air bubble](ref/spell/air-bubble),
-[levitate](ref/spell/levitate), [resist energy](ref/spell/resist-energy),
-[spider climb](ref/spell/spider-climb) (greater lantern of the four elements); **Cost** 750 gp
-(standard), 3,250 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), [light](ref/spell/light) (standard lantern of the four elements); Craft Wondrous Item, _endure elements, light,_ [air bubble](ref/spell/air-bubble), [levitate](ref/spell/levitate), [resist energy](ref/spell/resist-energy), [spider climb](ref/spell/spider-climb) (greater lantern of the four elements)
+Cost: 750 gp (standard), 3,250 gp (greater)
+:::

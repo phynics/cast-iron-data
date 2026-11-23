@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** none; **Price** 35,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: none
+Price: 35,000 gp
+Weight: 2 lbs.
+:::
 
 When struck, this heavy iron tube produces a discordant tone and draws the surrounding light in on
 itself. Within a 60-foot-radius [burst](ref/misc/burst) centered on the point where the chime was
@@ -36,6 +41,7 @@ effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [calm emotions](ref/spell/calm-emotions),
-[darkness](ref/spell/darkness); **Cost** 17,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [calm emotions](ref/spell/calm-emotions), [darkness](ref/spell/darkness)
+Cost: 17,500 gp
+:::

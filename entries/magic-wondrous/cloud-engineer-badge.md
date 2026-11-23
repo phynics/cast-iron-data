@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** neck; **Price** 24,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: neck
+Price: 24,000 gp
+Weight: 5 lbs.
+:::
 
 This giant-sized silver brooch, like that used to fasten a cloak or cape, is fashioned in the shape
 of a cloud inscribed inside a circle. The wearer of a cloud engineer badge can cast
@@ -33,5 +38,7 @@ the chest slot.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[life bubble](ref/spell/life-bubble), [reduce person](ref/spell/reduce-person); **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [life bubble](ref/spell/life-bubble), [reduce person](ref/spell/reduce-person)
+Cost: 12,000 gp
+:::

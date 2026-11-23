@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** belt; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: belt
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 As long as this belt's wearer doesn't move more than 5 feet during her turn, she ignores the
 penalties for being [fatigued](ref/misc/fatigued), [shaken](ref/misc/shaken), or
@@ -31,6 +36,7 @@ considered to be under the effect of those conditions until they end or are remo
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser restoration](ref/spell/restoration-lesser), [remove fear](ref/spell/remove-fear); **Cost**
-6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser restoration](ref/spell/restoration-lesser), [remove fear](ref/spell/remove-fear)
+Cost: 6,000 gp
+:::

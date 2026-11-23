@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** headband; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: headband
+Price: 1,000 gp
+Weight: -
+:::
 
 This simple teardrop jewel is worn on the center of the forehead and gives its wearer the ability to
 quickly focus her mind. The wearer can center herself (see
@@ -29,5 +34,7 @@ quickly focus her mind. The wearer can center herself (see
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burst of insight](ref/spell/burst-of-insight); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burst of insight](ref/spell/burst-of-insight)
+Cost: 500 gp
+:::

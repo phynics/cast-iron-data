@@ -22,9 +22,13 @@ caster_level = "7th"
 
 ## Cloak of Quick Reflexes
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** shoulders; **Price** 1,500 gp (+1, +2R), 6,000 gp (+2, +3R), 13,500 gp (+3, +4R), 24,000 gp
-(+4, +5R), 37,500 gp (+5/+6 Reflex); **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: shoulders
+Price: 1,500 gp (+1, +2R), 6,000 gp (+2, +3R), 13,500 gp (+3, +4R), 24,000 gp (+4, +5R), 37,500 gp (+5/+6 Reflex)
+Weight: 1 lb.
+:::
 
 The wearer of this light, short cloak gains a bonus on all saving throws, as with a
 [cloak of resistance](ref/magic-wondrous/cloak-of-resistance), but the resistance bonus on Reflex
@@ -34,7 +38,7 @@ throw on the reroll, she can't use this ability again for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [resistance](ref/spell/resistance), the creator must have
-the mythic saves ability; **Cost** 750 gp (+1, +2R), 3,000 gp (+2, +3R), 6,750 gp (+3, +4R), 12,000
-gp (+4, +5R), 18,750 gp (+5/+6 Reflex)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [resistance](ref/spell/resistance), the creator must have the mythic saves ability
+Cost: 750 gp (+1, +2R), 3,000 gp (+2, +3R), 6,750 gp (+3, +4R), 12,000 gp (+4, +5R), 18,750 gp (+5/+6 Reflex)
+:::

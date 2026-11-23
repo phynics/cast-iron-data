@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** body; **Price** 6,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: body
+Price: 6,800 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -37,6 +42,7 @@ If the wearer is a [kitsune](ref/race/kitsune), he can spend two of the robe's d
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [eagle's splendor](ref/spell/eagles-splendor),
-[fox's cunning](ref/spell/foxs-cunning), creator must be a kitsune; **Cost** 3,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning), creator must be a kitsune
+Cost: 3,400 gp
+:::

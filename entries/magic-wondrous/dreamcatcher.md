@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** none; **Price** 2,800 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: none
+Price: 2,800 gp
+Weight: 2 lbs.
+:::
 
 This protective ward is fashioned from a thin, supple piece of wood bound in a circle, and then
 woven with sinew to create a web-like pattern. Dreamcatchers are often decorated with beads and
@@ -35,5 +40,7 @@ reduced by 1 point (to a minimum of 0 points).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resistance](ref/spell/resistance); **Cost** 1,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resistance](ref/spell/resistance)
+Cost: 1,400 gp
+:::

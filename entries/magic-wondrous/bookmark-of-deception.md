@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This bookmark alters the book that holds it so that it appears to be another book entirely, even
 upon a thorough reading. The apparent book is determined when the bookmark is crafted, and is
@@ -30,5 +35,7 @@ also protects itself and the book with _[nondetection](ref/spell/nondetection)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[nondetection](ref/spell/nondetection), [secret page](ref/spell/secret-page); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [nondetection](ref/spell/nondetection), [secret page](ref/spell/secret-page)
+Cost: 750 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 9,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 9,000 gp
+Weight: 2 lbs.
+:::
 
 If the stopper is removed from this ordinary-looking flask and a command word spoken, an amount of
 fresh or salt water pours out. Separate command words determine the type of water as well as the
@@ -44,5 +49,7 @@ geyser rather than 1d4. The command word must be spoken to stop it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control water](ref/spell/control-water); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control water](ref/spell/control-water)
+Cost: 4,500 gp
+:::

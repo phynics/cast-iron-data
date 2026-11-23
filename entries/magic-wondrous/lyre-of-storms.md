@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 65,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 65,000 gp
+Weight: 5 lbs.
+:::
 
 This finely made instrument is crafted of lovingly polished wood inlaid with mystic runes. When the
 lyre is played, sparks dance along its strings.
@@ -49,6 +54,7 @@ start a new one to choose a new effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [call lightning](ref/spell/call-lightning),
-[control weather](ref/spell/control-weather), [water walk](ref/spell/water-walk); **Cost** 32,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [call lightning](ref/spell/call-lightning), [control weather](ref/spell/control-weather), [water walk](ref/spell/water-walk)
+Cost: 32,500 gp
+:::

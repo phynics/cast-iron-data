@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 12,000 gp
+Weight: -
+:::
 
 This dark gem attunes itself to the soul of its bearer. When carried close to the body of a creature
 continuously for 1 week, the gem harmlessly absorbs a portion of that creature's life essence. If
@@ -40,5 +45,7 @@ black soul shard attuned to it at a time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death ward](ref/spell/death-ward), [restoration](ref/spell/restoration); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death ward](ref/spell/death-ward), [restoration](ref/spell/restoration)
+Cost: 6,000 gp
+:::

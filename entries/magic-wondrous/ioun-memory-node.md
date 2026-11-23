@@ -20,9 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 6,000 gp (Type I), 14,000 gp (Type II), 24,000 gp (Type III), 36,000 gp
-(Type IV); **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 6,000 gp (Type I), 14,000 gp (Type II), 24,000 gp (Type III), 36,000 gp (Type IV)
+Weight: -
+:::
 
 When this [ioun stone](ref/magic-wondrous/ioun-stone) is embedded in a clockwork construct, it
 grants the recipient human-like sentience, as per the [awaken construct](ref/spell/awaken-construct)
@@ -47,6 +51,7 @@ of ioun memory node is unaffected.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[awaken construct](ref/spell/awaken-construct); **Cost** 3,000 gp (Type I), 7,000 gp (Type II),
-12,000 gp (Type III), 18,000 gp (Type IV)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [awaken construct](ref/spell/awaken-construct)
+Cost: 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)
+:::

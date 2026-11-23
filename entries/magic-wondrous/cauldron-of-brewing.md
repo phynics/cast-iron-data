@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 3,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 3,000 gp
+Weight: 5 lbs.
+:::
 
 A cauldron of brewing looks like a fine cooking pot with four stout legs. The cauldron is capable of
 heating any liquid placed in it to a precise temperature (anywhere from just above room temperature
@@ -34,5 +39,7 @@ slightly warm to the touch on the outside. A cauldron of brewing provides a +5 c
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be trained in
-Craft (Alchemy); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be trained in Craft (Alchemy)
+Cost: 1,500 gp
+:::

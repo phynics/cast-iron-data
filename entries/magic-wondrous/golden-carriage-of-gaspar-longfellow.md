@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** 114,000 gp; **Weight** 1,200 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: 114,000 gp
+Weight: 1,200 lbs.
+:::
 
 Crafted from the finest materials, the Golden Carriage of Gaspar Longfellow is a vehicle fit for
 royalty. Larger than an average carriage, the Golden Carriage can accommodate six occupants in the
@@ -41,6 +46,7 @@ nearly any terrain. These horses function as _[phantom steed](ref/spell/phantom-
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[phantom steed](ref/spell/phantom-steed), [secure shelter](ref/spell/secure-shelter); **Cost**
-57,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [phantom steed](ref/spell/phantom-steed), [secure shelter](ref/spell/secure-shelter)
+Cost: 57,000 gp
+:::

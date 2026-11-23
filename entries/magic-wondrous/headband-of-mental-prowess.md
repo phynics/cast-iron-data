@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** headband; **Price** 10,000 gp (+2), 40,000 gp (+4), 90,000 gp (+6); **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: headband
+Price: 10,000 gp (+2), 40,000 gp (+4), 90,000 gp (+6)
+Weight: 1 lb.
+:::
 
 This simple copper headband has a small yellow gem set so that when it rests upon the forehead of
 the wearer, the yellow gem sits perched on the wearer's brow as if it were a third eye in the middle
@@ -42,7 +47,7 @@ a bonus to Intelligence, it also grants skill ranks as a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning),
-[owl's wisdom](ref/spell/owls-wisdom) (any two); **Cost** 5,000 gp (+2), 20,000 gp (+4), 45,000 gp
-(+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning), [owl's wisdom](ref/spell/owls-wisdom) (any two)
+Cost: 5,000 gp (+2), 20,000 gp (+4), 45,000 gp (+6)
+:::

@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration; **CL** 18th\
-**Slot** neck; **Price** 50,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 18th
+Slot: neck
+Price: 50,000 gp
+Weight: -
+:::
 
 The Iron Road is a [melancholic talisman](ref/magic-talisman/melancholic-talisman), a potent magic
 item that contains a bound hellmouth devil (a portal to [Hell](ref/rule/hell) crafted from a devil).
@@ -55,6 +60,7 @@ malebranche, Ulkruoth is known to halve his price or waive it entirely.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate),
-[greater planar binding](ref/spell/planar-binding-greater), ability to conjure and bind a greater
-devil; **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate), [greater planar binding](ref/spell/planar-binding-greater), ability to conjure and bind a greater devil
+Cost: 25,000 gp
+:::

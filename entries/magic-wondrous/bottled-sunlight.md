@@ -23,8 +23,13 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Aura** faint evocation; **CL** 1st\
-**Slot** none; **Price** 200 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 1st
+Slot: none
+Price: 200 gp
+Weight: -
+:::
 
 This opaque orb contains the distilled essence of sunlight. On command up to once per day, it
 releases a small vial of sunlight that produces a bright light in its square for 1 hour, during
@@ -39,5 +44,7 @@ sunlight, it loses its magical properties.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight); **Cost** 100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight)
+Cost: 100 gp
+:::

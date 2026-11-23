@@ -20,8 +20,13 @@ aura = "faint universal"
 caster_level = "1st"
 +++
 
-**Aura** faint universal; **CL** 1st\
-**Slot** none; **Price** 5,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint universal
+CL: 1st
+Slot: none
+Price: 5,000 gp
+Weight: 1/2 lb.
+:::
 
 This carved stone seal can be dipped into red ink and used to stamp a letter, proclamation, or other
 written document. Once a document has been sealed in this way, the writing upon it cannot be altered
@@ -37,5 +42,7 @@ which can be magically verified with either [detect magic](ref/spell/detect-magi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane mark](ref/spell/arcane-mark); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane mark](ref/spell/arcane-mark)
+Cost: 2,500 gp
+:::

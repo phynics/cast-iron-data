@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 This malevolent-looking doll is made out of cheap rags and embroidery thread and is stuffed with
 straw or sawdust. A creature holding or carrying the doll takes a -4 penalty on saving throws
@@ -32,5 +37,7 @@ saving throws.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse)
+Cost: 1,250 gp
+:::

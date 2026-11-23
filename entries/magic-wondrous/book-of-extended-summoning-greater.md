@@ -22,8 +22,13 @@ caster_level = "17th"
 
 ## Book of Extended Summoning
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 750 gp (Lesser), 2,750 gp (Normal), 6,126 gp (Greater); **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 750 gp (Lesser), 2,750 gp (Normal), 6,126 gp (Greater)
+Weight: 1 lb.
+:::
 
 This leather-bound book is inscribed with runes relating to outsiders and conjuration magic. It
 enhances spells that summon monsters. The user may apply the [Extend Spell](ref/feat/extend-spell)
@@ -37,6 +42,7 @@ alignment. Once the book is used, it crumbles into cold ash and is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Extend Spell,
-[summon monster I](ref/spell/summon-monster-1); **Cost** 375 gp (Lesser), 1,375 gp (Normal), 3,063
-gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Extend Spell, [summon monster I](ref/spell/summon-monster-1)
+Cost: 375 gp (Lesser), 1,375 gp (Normal), 3,063 gp (Greater)
+:::

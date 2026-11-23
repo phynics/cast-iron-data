@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint conjuration; **CL** 1st\
-**Slot** chest; **Price** 200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 1st
+Slot: chest
+Price: 200 gp
+Weight: 1 lb.
+:::
 
 These linen bandages have the same color and softness as the feathers of a dove, but their
 antiseptic smell suggests a less natural origin. Any creature wrapped in these bandages recovers
@@ -37,7 +42,7 @@ damage, whichever comes first.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds),
-[lesser restoration](ref/spell/restoration-lesser), [stabilize](ref/spell/stabilize); **Cost** 100
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [lesser restoration](ref/spell/restoration-lesser), [stabilize](ref/spell/stabilize)
+Cost: 100 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 3,600 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 3,600 gp
+Weight: -
+:::
 
 This golden elixir grants good luck to the imbiber. After drinking the elixir, the character gains 3
 [hero points](ref/rule/hero-points) that must be used within 1 hour. These hero points do not count
@@ -31,5 +36,7 @@ period.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[heroic fortune](ref/spell/heroic-fortune); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroic fortune](ref/spell/heroic-fortune)
+Cost: 1,800 gp
+:::

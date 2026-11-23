@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** neck; **Price** 11,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: neck
+Price: 11,000 gp
+Weight: -
+:::
 
 Originally created by the Varisians, this elaborate silver and glass necklace renders the wearer
 immune to any magical effect that detects lies and grants the wearer a +2 bonus on Will saves to
@@ -32,5 +37,7 @@ deceive (but not create a diversion or feint).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[glibness](ref/spell/glibness); **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [glibness](ref/spell/glibness)
+Cost: 5,500 gp
+:::

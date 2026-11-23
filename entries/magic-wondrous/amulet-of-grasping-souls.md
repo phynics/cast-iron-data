@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** neck; **Price** 21,000 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: neck
+Price: 21,000 gp
+Weight: -
+:::
 
 This amulet can be worn by both corporeal and incorporeal creatures. If worn by a corporeal
 creature, it confers the [ghost touch](ref/magic-enh/ghost-touch-weapon) special ability on her
@@ -36,6 +41,7 @@ to determine how much it can carry.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Ectoplasmic Spell](ref/feat/ectoplasmic-spell), [plane shift](ref/spell/plane-shift); **Cost**
-10,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Ectoplasmic Spell](ref/feat/ectoplasmic-spell), [plane shift](ref/spell/plane-shift)
+Cost: 10,500 gp
+:::

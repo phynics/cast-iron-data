@@ -23,8 +23,12 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** head; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: head
+Weight: -
+:::
 
 This hat performs in all ways like a _hat of disguise_ until its owner attempts to use it to
 disguise himself in the presence of a hostile creature. Once he does, the hat causes him to assume
@@ -44,4 +48,7 @@ Curse-breaking magic is necessary to remove the hat.
 
 ### Construction
 
-**Requirements** [hat of disguise](ref/magic-wondrous/hat-of-disguise); **Cost** -
+::: statblock
+Requirements: [hat of disguise](ref/magic-wondrous/hat-of-disguise)
+Cost: -
+:::

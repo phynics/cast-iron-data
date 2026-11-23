@@ -20,8 +20,13 @@ aura = "moderate illusion (phantasm)"
 caster_level = "9th"
 +++
 
-**Aura** moderate illusion (phantasm); **CL** 9th\
-**Slot** none; **Price** 2,250 gp; **Weight** -
+::: statblock
+Aura: moderate illusion (phantasm)
+CL: 9th
+Slot: none
+Price: 2,250 gp
+Weight: -
+:::
 
 By imbibing this potent concoction, a creature gains the ability to see as well as walk through the
 mysterious mountaintop portals that lead to the nightmare dimension of [Leng](ref/rule/leng). This
@@ -35,5 +40,7 @@ tea takes 1d4 points of [Dexterity damage](ref/rule/ability-damage-drain) and is
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dream](ref/spell/dream);
-**Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dream](ref/spell/dream)
+Cost: 1,125 gp
+:::

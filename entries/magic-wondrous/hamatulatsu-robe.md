@@ -20,8 +20,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 10th\
-**Slot** body; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 10th
+Slot: body
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 Made of exquisite crimson silk, this variant [monk's robe](ref/magic-wondrous/monks-robe) is
 embroidered with golden pentagrams and other fiendish symbols. If the wearer is evil and has levels
@@ -39,7 +44,7 @@ ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Hamatulatsu](ref/feat/hamatulatsu), [righteous might](ref/spell/righteous-might) or
-[transformation](ref/spell/transformation), [unholy blight](ref/spell/unholy-blight); **Cost** 7,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Hamatulatsu](ref/feat/hamatulatsu), [righteous might](ref/spell/righteous-might) or [transformation](ref/spell/transformation), [unholy blight](ref/spell/unholy-blight)
+Cost: 7,000 gp
+:::

@@ -23,8 +23,12 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** neck; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: neck
+Weight: 1/2 lb.
+:::
 
 This device appears to prevent location, scrying and detection, or influence by
 [detect thoughts](ref/spell/detect-thoughts) or telepathy, as per an _amulet of proof against

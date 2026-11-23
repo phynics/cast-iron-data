@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 34,400 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 34,400 gp
+Weight: -
+:::
 
 Members of Absalom's prominent houses sometimes employ this variant
 [harrow deck](ref/eq-misc/harrow-deck) to communicate covertly with their fellow schemers. The deck
@@ -47,5 +52,7 @@ to convey a message.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect scrying](ref/spell/detect-scrying), [sending](ref/spell/sending); **Cost** 16,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect scrying](ref/spell/detect-scrying), [sending](ref/spell/sending)
+Cost: 16,200 gp
+:::

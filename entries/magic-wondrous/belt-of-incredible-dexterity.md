@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6); **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6)
+Weight: 1 lb.
+:::
 
 This belt has a large silver buckle, usually depicting the image of a tiger. The belt grants the
 wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a
@@ -32,5 +37,7 @@ wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Cost: 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)
+:::

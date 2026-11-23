@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** eyes; **Price** 8,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: eyes
+Price: 8,500 gp
+Weight: -
+:::
 
 These simple goggles, made of two emeralds attached to a twin frame, grant the wearer
 [low-light vision](ref/rule/low-light-vision) and a +5 compentence bonus on
@@ -30,5 +35,7 @@ has low-light vision, it grants the wearer double the normal range for low-light
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2), [guidance](ref/spell/guidance); **Cost** 4,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2), [guidance](ref/spell/guidance)
+Cost: 4,250 gp
+:::

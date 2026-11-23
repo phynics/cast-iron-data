@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 3,500 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 3,500 gp
+Weight: -
+:::
 
 This golden badge has a snake etched onto it that shimmers slightly in the sunlight. Twice per day
 as a standard action, the wearer can tap the badge. When she does, the badge transforms into one
@@ -39,5 +44,7 @@ touching it) can recognize that the badge is fake with a successful DC 14 Will s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self)
+Cost: 1,750 gp
+:::

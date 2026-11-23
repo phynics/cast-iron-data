@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 7,500 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 7,500 gp
+Weight: 15 lbs.
+:::
 
 Handles of polished bone and grim skulls decorate this ornately carved ship's wheel. When grasped,
 the wheel's handles feel comfortably smooth. Those who stand watch at the wheel claim to hear the
@@ -35,6 +40,7 @@ with a full ahead or heave to action as a full-round action up to three times pe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [haste](ref/spell/haste), creator must have 10 ranks
-in Profession (sailor); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [haste](ref/spell/haste), creator must have 10 ranks in Profession (sailor)
+Cost: 3,750 gp
+:::

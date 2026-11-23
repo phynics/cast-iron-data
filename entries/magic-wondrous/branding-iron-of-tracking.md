@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 9,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 9,000 gp
+Weight: 5 lbs.
+:::
 
 This 2-foot-long metal rod has a unique sigil on the end. When the sigil is heated in a fire, it can
 be used to brand a creature or object. Anytime after the branding, a creature can hold the branding
@@ -32,6 +37,7 @@ only tracks the brand itself, so cutting or scraping off the brand can fool the 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [brand](ref/spell/brand),
-[locate creature](ref/spell/locate-creature), [locate object](ref/spell/locate-object); **Cost**
-4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [brand](ref/spell/brand), [locate creature](ref/spell/locate-creature), [locate object](ref/spell/locate-object)
+Cost: 4,500 gp
+:::

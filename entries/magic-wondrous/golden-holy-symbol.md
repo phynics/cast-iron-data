@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: neck
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This holy symbol is always warm to the touch, and whenever it strikes metal it rings out with the
 sound of a choir of angels. When used as a divine focus for a divine spell, the symbol emits a
@@ -35,6 +40,7 @@ damage equal to 1d6 + the wearer's tier. This effect lasts as long as the light 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [cure critical wounds](ref/spell/cure-critical-wounds);
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [cure critical wounds](ref/spell/cure-critical-wounds)
+Cost: 5,000 gp
+:::

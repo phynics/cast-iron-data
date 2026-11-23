@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 37,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 37,000 gp
+Weight: 2 lbs.
+:::
 
 This sheet of charred bark is 2 feet long, 10 inches wide, and 1 inch thick. The Atavistic Splinter
 imbues its owner with a primal authority over beasts, providing a +4 insight bonus on
@@ -46,5 +51,7 @@ year.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dominate animal](ref/spell/dominate-animal), [polymorph](ref/spell/polymorph); **Cost** 18,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dominate animal](ref/spell/dominate-animal), [polymorph](ref/spell/polymorph)
+Cost: 18,500 gp
+:::

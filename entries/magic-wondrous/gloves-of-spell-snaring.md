@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** hands; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: hands
+Price: 9,000 gp
+Weight: -
+:::
 
 These thin gloves are covered in reflective glyphs and sigils, and the palms are slightly tacky.
 Like [gloves of arrow snaring](ref/magic-wondrous/gloves-of-arrow-snaring), twice per day the wearer
@@ -35,7 +40,7 @@ per day to block a spell targeting her or an adjacent ally, as the
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [shield](ref/spell/shield),
-[spell turning](ref/spell/spell-turning), creator must have the parry spell path ability; **Cost**
-4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [shield](ref/spell/shield), [spell turning](ref/spell/spell-turning), creator must have the parry spell path ability
+Cost: 4,500 gp
+:::

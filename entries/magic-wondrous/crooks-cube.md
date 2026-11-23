@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 26,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 26,000 gp
+Weight: 4 lbs.
+:::
 
 This crystalline cube has a thin plate of soft white stone on one of its faces that's inscribed with
 several lines of cryptic runes. When the cube's bearer speaks a command word, the runes change shape
@@ -37,6 +42,7 @@ wielder has at least 5 ranks: [Knowledge (dungeoneering)](ref/skill/knowledge-du
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item);
-[find the path](ref/spell/find-the-path); at least 5 ranks in Knowledge (dungeoneering), Knowledge
-(engineering), Knowledge (geography), Knowledge (history), or Knowledge (local); **Cost** 13,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item); [find the path](ref/spell/find-the-path); at least 5 ranks in Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (history), or Knowledge (local)
+Cost: 13,000 gp
+:::

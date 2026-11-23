@@ -20,8 +20,13 @@ aura = "faint abjuration and divination"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and divination; **CL** 5th\
-**Slot** none; **Price** 1,800 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint abjuration and divination
+CL: 5th
+Slot: none
+Price: 1,800 gp
+Weight: 1/2 lb.
+:::
 
 This small, ornate mirror is mounted inside an enclosing case, such as a locket, small jewelry box,
 or even just a leather flap. To use an attentive mirror, the owner must spend 1 hour gazing into the
@@ -37,6 +42,7 @@ and receive a minion's report directly.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Irriseni mirror sight](ref/spell/irriseni-mirror-sight), [status](ref/spell/status); **Cost** 900
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Irriseni mirror sight](ref/spell/irriseni-mirror-sight), [status](ref/spell/status)
+Cost: 900 gp
+:::

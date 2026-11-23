@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "14th"
 +++
 
-**Aura** strong enchantment; **CL** 14th\
-**Slot** none; **Price** 7,500 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong enchantment
+CL: 14th
+Slot: none
+Price: 7,500 gp
+Weight: 1/2 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -37,6 +42,7 @@ or a [wish](ref/spell/wish). Other means that would normally remove a _geas,_ su
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase),
-[geas/quest](ref/spell/geas-quest), [tongues](ref/spell/tongues), creator must be a Chelaxian;
-**Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase), [geas/quest](ref/spell/geas-quest), [tongues](ref/spell/tongues), creator must be a Chelaxian
+Cost: 3,750 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: neck
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 These glass amulets hold bubbling red liquid and often feature a religion's or deity's holy symbol,
 most commonly that of [Asmodeus](ref/faith/asmodeus) or [Zon-Kuthon](ref/faith/zon-kuthon). While
@@ -41,5 +46,7 @@ held item as a free action. The drug has the following statistics.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [enthrall](ref/spell/enthrall); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [enthrall](ref/spell/enthrall)
+Cost: 6,000 gp
+:::

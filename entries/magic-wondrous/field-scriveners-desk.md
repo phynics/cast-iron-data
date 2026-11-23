@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 5,400 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 5,400 gp
+Weight: 2 lbs.
+:::
 
 [Pathfinders](ref/rule/aff-scholars) are often called upon to take notes during their adventures,
 but sometimes finding a place where one can write in comfort while on a mission can be rather
@@ -39,5 +44,7 @@ solely for this effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item), [tiny hut](ref/spell/tiny-hut); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item), [tiny hut](ref/spell/tiny-hut)
+Cost: 2,700 gp
+:::

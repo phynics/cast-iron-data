@@ -20,13 +20,20 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Aura** faint necromancy; **CL** 1st\
-**Slot** eyes; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 1st
+Slot: eyes
+Price: 2,000 gp
+Weight: -
+:::
 
 These blood red crystal lenses fit snugly over the wearer's eyes. The wearer gains the constant
 effects of the _[deathwatch](ref/spell/deathwatch)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[deathwatch](ref/spell/deathwatch); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [deathwatch](ref/spell/deathwatch)
+Cost: 1,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 3,750 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 3,750 gp
+Weight: 1 lb.
+:::
 
 Once per day, a creature can pour a potion with a duration longer than instantaneous into the
 chalice, then drink it as a standard action that provokes attacks of opportunity. The bearer and up
@@ -31,6 +36,7 @@ to the nearest round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alchemical allocation](ref/spell/alchemical-allocation),
-[amplify elixir](ref/spell/amplify-elixir); **Cost** 1,875 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alchemical allocation](ref/spell/alchemical-allocation), [amplify elixir](ref/spell/amplify-elixir)
+Cost: 1,875 gp
+:::

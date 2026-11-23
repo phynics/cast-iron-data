@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** shoulders; **Price** 5,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: shoulders
+Price: 5,200 gp
+Weight: 1 lb.
+:::
 
 This white-hooded cloak is trimmed with seagull feathers. The cloak billows in the slightest breeze,
 and when the hood is drawn over the wearer's head, the cloak repels rainwater and seaspray, keeping
@@ -41,7 +46,7 @@ minutes, and the duration need not be used all at once, but it must be used in 1
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create water](ref/spell/create-water), [feather fall](ref/spell/feather-fall),
-[invisibility](ref/spell/invisibility), creator must worship [Ylimancha](ref/faith/ylimancha);
-**Cost** 2,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create water](ref/spell/create-water), [feather fall](ref/spell/feather-fall), [invisibility](ref/spell/invisibility), creator must worship [Ylimancha](ref/faith/ylimancha)
+Cost: 2,600 gp
+:::

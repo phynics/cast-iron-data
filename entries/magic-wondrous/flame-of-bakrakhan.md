@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** head; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: head
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This ancient Thassilonian diadem is crafted in the shape of an enraged face with an enormous ruby in
 the center. The gem allows its wearer to channel her rage into pure flame. While under the effects
@@ -34,5 +39,7 @@ points of fire damage to all creatures and objects along that line (Reflex DC 14
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[scorching ray](ref/spell/scorching-ray); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scorching ray](ref/spell/scorching-ray)
+Cost: 5,000 gp
+:::

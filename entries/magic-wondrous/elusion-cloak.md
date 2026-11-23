@@ -20,8 +20,13 @@ aura = "faint illusion and transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint illusion and transmutation; **CL** 1st\
-**Slot** shoulders; **Price** 3,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion and transmutation
+CL: 1st
+Slot: shoulders
+Price: 3,600 gp
+Weight: 1 lb.
+:::
 
 Song-o [halflings](ref/race/halfling) often use these cloaks to evade larger creatures in the
 jungles of the Mwangi Expanse. The wearer of an elusion cloak gains a +5 competence bonus on
@@ -32,5 +37,7 @@ rounds or for as long as she is affected by the fear effect, whichever is shorte
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[expeditious retreat](ref/spell/expeditious-retreat); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [expeditious retreat](ref/spell/expeditious-retreat)
+Cost: 1,800 gp
+:::

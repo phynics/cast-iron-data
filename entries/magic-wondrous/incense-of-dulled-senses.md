@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This gray incense smells of cold granite. When burned, the smoke from the incense spreads to fill a
 space equal to ten 10-foot cubes. This smoke remains stationary unless moved by wind. If inhaled by
@@ -33,5 +38,7 @@ dissipates and loses all magical properties.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness/deafness](ref/spell/blindness-deafness); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness/deafness](ref/spell/blindness-deafness)
+Cost: 750 gp
+:::

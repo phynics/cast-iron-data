@@ -21,8 +21,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** head; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: head
+Price: -
+Weight: 3 lbs.
+:::
 
 The helm of Ikimizi grants its wearer a +4 circumstance bonus on attack rolls made to confirm
 critical hits. However, whenever the wearer threatens a critical hit (regardless of whether or not

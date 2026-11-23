@@ -23,8 +23,12 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** belt; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: belt
+Weight: 1 lb.
+:::
 
 When this magical belt is put on, the wearer must immediately make a DC 20 Fortitude saving throw or
 be transformed into a person of the opposite gender. The character's abilities, mind, and spirit
@@ -36,4 +40,7 @@ girdle once, though other girdles of this type can cause further transformations
 
 ### Construction
 
-**Requirements** any belt; **Cost** -
+::: statblock
+Requirements: any belt
+Cost: -
+:::

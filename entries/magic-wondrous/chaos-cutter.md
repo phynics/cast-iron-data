@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 9th\
-**Slot** none; **Price** 160,000 gp; **Weight** 1200 lbs.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 9th
+Slot: none
+Price: 160,000 gp
+Weight: 1200 lbs.
+:::
 
 This narrow, sleek sloop is made of an iridescent metal that glows a pale white and is as hard as
 [adamantine](ref/eq-material/adamantine). It boasts a single mast with two translucent planar sails
@@ -47,7 +52,7 @@ A chaos cutter has 175 hit points and is 15 feet long.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[overland flight](ref/spell/overland-flight), [planar adaptation](ref/spell/planar-adaptation),
-[polymorph](ref/spell/polymorph), [protection from chaos](ref/spell/protection-from-chaos); **Cost**
-80,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [overland flight](ref/spell/overland-flight), [planar adaptation](ref/spell/planar-adaptation), [polymorph](ref/spell/polymorph), [protection from chaos](ref/spell/protection-from-chaos)
+Cost: 80,000 gp
+:::

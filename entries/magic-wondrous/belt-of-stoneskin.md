@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** belt; **Price** 60,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: belt
+Price: 60,000 gp
+Weight: 10 lbs.
+:::
 
 Every 24 hours, this belt's wearer gains DR 10/adamantine until the belt absorbs 100 points of
 damage, at which point the belt becomes useless for the remainder of the 24-hour period. When first
@@ -33,6 +38,7 @@ its magic to take effect again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stoneskin](ref/spell/stoneskin), creator must be an [oread](ref/race/oread) or a creature with the
-earth subtype; **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stoneskin](ref/spell/stoneskin), creator must be an [oread](ref/race/oread) or a creature with the earth subtype
+Cost: 30,000 gp
+:::

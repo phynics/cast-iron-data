@@ -20,9 +20,13 @@ aura = "faint conjuration and necromancy (normal), moderate conjuration and necr
 caster_level = "3rd (normal), 7th (greater)"
 +++
 
-**Aura** faint conjuration and necromancy (normal), moderate conjuration and necromancy (greater);
-**CL** 3rd (normal), 7th (greater)\
-**Slot** belt; **Price** 2,000 gp (normal), 9,200 gp (greater); **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration and necromancy (normal), moderate conjuration and necromancy (greater)
+CL: 3rd (normal), 7th (greater)
+Slot: belt
+Price: 2,000 gp (normal), 9,200 gp (greater)
+Weight: 2 lbs.
+:::
 
 This wide black leather belt is inlaid with spiraling copper runes. If the wearer is a living
 creature, she heals each time she is within the area of a [burst](ref/misc/burst) of
@@ -37,9 +41,7 @@ energy.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds) and
-[inflict light wounds](ref/spell/inflict-light-wounds) (normal belt),
-[cure serious wounds](ref/spell/cure-serious-wounds) and
-[inflict serious wounds](ref/spell/inflict-serious-wounds) (greater belt); **Cost** 1,000 gp
-(normal), 4,600 gp (greater belt)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds) and [inflict light wounds](ref/spell/inflict-light-wounds) (normal belt), [cure serious wounds](ref/spell/cure-serious-wounds) and [inflict serious wounds](ref/spell/inflict-serious-wounds) (greater belt)
+Cost: 1,000 gp (normal), 4,600 gp (greater belt)
+:::

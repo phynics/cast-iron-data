@@ -22,9 +22,13 @@ caster_level = "16th"
 
 ## Boro Bead
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp
-(5th), 36,000 gp (6th); **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: none
+Price: 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th)
+Weight: -
+:::
 
 This multicolored, sturdy glass bead is an aid to members of the [alchemist](ref/class/alchemist)
 class. Once per day on command, a boro bead enables the bearer to recharge any one extract that he
@@ -36,6 +40,7 @@ infusion, but not a potion, elixir, bomb, mutagen, or nonmagical alchemical mate
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be able to
-prepare extracts of the extract level to be recalled; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500
-gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be able to prepare extracts of the extract level to be recalled
+Cost: 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th)
+:::

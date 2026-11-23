@@ -20,8 +20,13 @@ aura = "faint evocation and necromancy"
 caster_level = "7"
 +++
 
-**Aura** faint evocation and necromancy; **CL** 7\
-**Slot** none; **Price** 2,250 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation and necromancy
+CL: 7
+Slot: none
+Price: 2,250 gp
+Weight: 4 lbs.
+:::
 
 A kapre's 2-foot-long cigar never goes out. It burns with a glow that sheds light like a candle, but
 does not burn other organic material. Smoking the cigar is dangerous for any but a
@@ -39,5 +44,7 @@ in the smoky cloud must succeed at a DC 16 Fortitude save or be nauseated for 1 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a kapre or
-creation must be completed under the supervision of a kapre; **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a kapre or creation must be completed under the supervision of a kapre
+Cost: 1,125 gp
+:::

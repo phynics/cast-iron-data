@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This ruby red wine carries an aroma of fresh-spilled blood with a persistent finish tasting of iron
 and scarberries. Anyone who drinks the concoction gains 1d10+3
@@ -46,6 +51,7 @@ addictive to living creatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Craft (alchemy) DC 25,
-[false life](ref/spell/false-life), [protection from evil](ref/spell/protection-from-evil); **Cost**
-500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Craft (alchemy) DC 25, [false life](ref/spell/false-life), [protection from evil](ref/spell/protection-from-evil)
+Cost: 500 gp
+:::

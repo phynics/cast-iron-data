@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 850 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 850 gp
+Weight: -
+:::
 
 This special dust has many uses. If it is thrown into water, a volume of as much as 100 gallons is
 instantly transformed into nothingness, and the dust becomes a marble-sized pellet, floating or
@@ -37,5 +42,7 @@ even if its saving throw succeeds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control water](ref/spell/control-water); **Cost** 425 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control water](ref/spell/control-water)
+Cost: 425 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration and conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and conjuration; **CL** 7th\
-**Slot** head; **Price** 11,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and conjuration
+CL: 7th
+Slot: head
+Price: 11,000 gp
+Weight: -
+:::
 
 Small round mirrors adorn the edges of this yellow, Qadiran silk veil, which covers the wearer's
 mouth and nose. The veil protects the wearer against extreme temperatures, as per
@@ -34,6 +39,7 @@ ignored. A creature that steps inside the oasis, however, recognizes its substan
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), [grove of respite](ref/spell/grove-of-respite);
-**Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), [grove of respite](ref/spell/grove-of-respite)
+Cost: 5,500 gp
+:::

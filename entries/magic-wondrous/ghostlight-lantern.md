@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "5th"
 +++
 
-**Aura** moderate evocation; **CL** 5th\
-**Slot** none; **Price** 7,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 5th
+Slot: none
+Price: 7,000 gp
+Weight: 3 lbs.
+:::
 
 This brass [bullseye lantern](ref/eq-misc/bullseye-lantern) is embossed with dancing orbs flitting
 amid a leaf-and-holly motif. A ghostlight lantern functions as a normal bullseye lantern, but if the
@@ -42,6 +47,7 @@ is placed inside.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[faerie fire](ref/spell/faerie-fire), [find the path](ref/spell/find-the-path),
-[flare](ref/spell/flare), [shocking grasp](ref/spell/shocking-grasp); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [faerie fire](ref/spell/faerie-fire), [find the path](ref/spell/find-the-path), [flare](ref/spell/flare), [shocking grasp](ref/spell/shocking-grasp)
+Cost: 3,500 gp
+:::

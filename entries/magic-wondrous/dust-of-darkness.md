@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 This shimmering black dust causes one creature to be coated in a layer of darkness for 1 minute. In
 normal light, the creature gains [concealment](ref/rule/concealment) (20% miss chance). In dim
@@ -35,5 +40,7 @@ effects of the dust of darkness.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkness](ref/spell/darkness); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkness](ref/spell/darkness)
+Cost: 300 gp
+:::

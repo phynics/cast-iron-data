@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** belt; **Price** 23,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: belt
+Price: 23,000 gp
+Weight: 1 lb.
+:::
 
 This belt grants its wearer a +4 enhancement bonus to Strength, and the ability to ignore
 [difficult terrain](ref/rule/terrain-and-obstacles) while [charging](ref/rule/charge) or making an
@@ -35,6 +40,7 @@ save to end the paralysis effect. Treat the enhancement bonus to Strength as a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [feather step](ref/spell/feather-step),
-[poison](ref/spell/poison); **Cost** 11,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [feather step](ref/spell/feather-step), [poison](ref/spell/poison)
+Cost: 11,500 gp
+:::

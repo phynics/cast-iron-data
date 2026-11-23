@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 40,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 40,000 gp
+Weight: 2 lbs.
+:::
 
 These matching doorknobs or handles with latches are made of solid brass and are inscribed with
 unusual spiraling patterns that appear to be merely decorative.
@@ -46,5 +51,7 @@ additional round and then fades.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimension door](ref/spell/dimension-door); **Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimension door](ref/spell/dimension-door)
+Cost: 20,000 gp
+:::

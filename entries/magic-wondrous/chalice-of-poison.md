@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 10,080 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 10,080 gp
+Weight: 1 lb.
+:::
 
 This chalice can be made to a variety of specifications, but is usually elegantly designed. Once per
 day when the user speaks a command word, the next time any potable liquid is poured into the
@@ -31,5 +36,7 @@ for 24 hours, after which it becomes inert.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison);
-**Cost** 5,040 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison)
+Cost: 5,040 gp
+:::

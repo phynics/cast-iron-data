@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 500 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 500 gp
+Weight: -
+:::
 
 This elixir, derived from ambergris and cytillesh fungus, is used by spies, secret agents, and
 hidden cultists to erase their own memories if they might become a liability to themselves or their
@@ -33,5 +38,7 @@ compulsion enchantment.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[modify memory](ref/spell/modify-memory); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [modify memory](ref/spell/modify-memory)
+Cost: 250 gp
+:::

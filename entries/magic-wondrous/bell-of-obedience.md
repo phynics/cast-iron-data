@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** none; **Price** 157,500 gp; **Weight** 2,000 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: none
+Price: 157,500 gp
+Weight: 2,000 lbs.
+:::
 
 The Bell of Obedience is a 4-foot-tall bell cast from high-tin bronze that's capable of transmitting
 a powerful compulsion to those who hear it. To function, the bell must be suspended from a yoke and
@@ -51,7 +56,7 @@ The bell can transmit a compulsion once every 8 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Widen Spell](ref/feat/widen-spell), [calm emotions](ref/spell/calm-emotions),
-[crushing despair](ref/spell/crushing-despair), [good hope](ref/spell/good-hope),
-[rage](ref/spell/rage); **Cost** 78,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Widen Spell](ref/feat/widen-spell), [calm emotions](ref/spell/calm-emotions), [crushing despair](ref/spell/crushing-despair), [good hope](ref/spell/good-hope), [rage](ref/spell/rage)
+Cost: 78,750 gp
+:::

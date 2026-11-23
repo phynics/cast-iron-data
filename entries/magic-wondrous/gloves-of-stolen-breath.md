@@ -20,8 +20,13 @@ aura = "moderate conjuration and necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and necromancy; **CL** 9th\
-**Slot** hands; **Price** 54,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration and necromancy
+CL: 9th
+Slot: hands
+Price: 54,000 gp
+Weight: -
+:::
 
 These black leather gloves feel like warm, living skin to the touch. When the wearer delivers a
 [coup de grace](ref/misc/helpless) that kills an opponent, she can target a single creature within
@@ -37,5 +42,7 @@ slain creature's Hit Dice or the gloves' ability is not triggered.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[breath of life](ref/spell/breath-of-life), [death knell](ref/spell/death-knell); **Cost** 27,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [breath of life](ref/spell/breath-of-life), [death knell](ref/spell/death-knell)
+Cost: 27,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 13,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 13,000 gp
+Weight: 5 lbs.
+:::
 
 This grand-looking wooden harp is carved with images of various venomous creatures. Once per day the
 bearer may play the harp to target a single opponent with a _poison_ spell (DC 16). Alternatively,
@@ -33,5 +38,7 @@ of sonic or language-dependent effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison),
-[resistance](ref/spell/resistance); **Cost** 6,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison), [resistance](ref/spell/resistance)
+Cost: 6,500 gp
+:::

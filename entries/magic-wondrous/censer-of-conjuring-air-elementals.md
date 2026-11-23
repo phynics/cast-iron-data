@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "13th"
 +++
 
-**Aura** moderate conjuration; **CL** 13th\
-**Slot** none; **Price** 90,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 13th
+Slot: none
+Price: 90,000 gp
+Weight: 1 lb.
+:::
 
 This 6-inch-wide, perforated metallic vessel resembles a thurible found in a place of worship. The
 censer must be filled with incense to function. On command as a full-round action, the bearer may
@@ -36,6 +41,7 @@ elemental until the previous one is dismissed, killed, or the duration of its su
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster V](ref/spell/summon-monster-5), [summon monster VII](ref/spell/summon-monster-7);
-**Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster V](ref/spell/summon-monster-5), [summon monster VII](ref/spell/summon-monster-7)
+Cost: 45,000 gp
+:::

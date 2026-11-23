@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Aura** moderate illusion; **CL** 11th\
-**Slot** none; **Price** 53,000 gp; **Weight** 40 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 11th
+Slot: none
+Price: 53,000 gp
+Weight: 40 lbs.
+:::
 
 This looking glass resembles a framed full-length mirror, 5 feet tall and 2 feet wide. A creature
 that knows the proper commands can operate the mirror in one of two modes.
@@ -52,5 +57,7 @@ protection from at least one stored image.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [veil](ref/spell/veil);
-**Cost** 26,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [veil](ref/spell/veil)
+Cost: 26,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: none
+Price: 8,000 gp
+Weight: 5 lbs.
+:::
 
 Typically crafted of bronze, brass, or copper with an upper section of silver or
 [mithral](ref/eq-material/mithral), a censer of dreams protects sleeping minds from the fell
@@ -42,5 +47,7 @@ heal as if they'd taken complete [bed rest](ref/rule/healing) for an entire day 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dream](ref/spell/dream);
-**Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dream](ref/spell/dream)
+Cost: 4,000 gp
+:::

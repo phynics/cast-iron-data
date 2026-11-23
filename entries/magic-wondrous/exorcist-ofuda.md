@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 650 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 650 gp
+Weight: -
+:::
 
 This paper slip covered with holy writings can be used to protect against lingering evil. A creature
 holding an exorcist ofuda gains a +3 bonus on [Perception](ref/skill/perception) checks to notice a
@@ -32,5 +37,7 @@ it in a gout of flame.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[protection from evil](ref/spell/protection-from-evil); **Cost** 325 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [protection from evil](ref/spell/protection-from-evil)
+Cost: 325 gp
+:::

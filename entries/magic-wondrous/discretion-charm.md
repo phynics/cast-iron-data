@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** none; **Price** 3,500 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: none
+Price: 3,500 gp
+Weight: -
+:::
 
 These magical baubles were originally created to aid Chelish nobles in slipping away to engage in
 trysts with fellow partygoers, but the [Silver Ravens](ref/rule/aff-rebels) have seized upon them as
@@ -48,5 +53,7 @@ becomes a worthless, nonmagical piece of costume jewelry.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[programmed image](ref/spell/programmed-image), [vanish](ref/spell/vanish); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [programmed image](ref/spell/programmed-image), [vanish](ref/spell/vanish)
+Cost: 1,750 gp
+:::

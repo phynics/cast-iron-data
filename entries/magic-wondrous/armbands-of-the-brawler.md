@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** wrists; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: wrists
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 These scarred and worn armbands have clearly seen rough use, and are constructed out of coarse
 leather and fastened with thick leather straps. They grant their wearer a +1 competence bonus on
@@ -29,5 +34,7 @@ leather and fastened with thick leather straps. They grant their wearer a +1 com
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength)
+Cost: 250 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** neck; **Price** 28,000 gp; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: neck
+Price: 28,000 gp
+Weight: -
+:::
 
 This simple bronze amulet depicts a mountaintop being shattered by a sword blow. Twice per day, the
 amulet's wearer can make a single melee attack against the ground as a standard action. The wearer
@@ -35,5 +40,7 @@ abilities.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[earthquake](ref/spell/earthquake); **Cost** 14,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [earthquake](ref/spell/earthquake)
+Cost: 14,000 gp
+:::

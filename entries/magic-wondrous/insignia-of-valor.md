@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 8,000 gp
+Weight: -
+:::
 
 This metal badge of a rampant griffon, lion, horse, or similar heraldic creature must be attached to
 a shield or armor to function. Attaching or removing it requires a DC 15
@@ -33,5 +38,7 @@ ability as a swift action that round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure critical wounds](ref/spell/cure-critical-wounds); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure critical wounds](ref/spell/cure-critical-wounds)
+Cost: 4,000 gp
+:::

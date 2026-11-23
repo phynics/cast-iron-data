@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** hands; **Price** 8,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: hands
+Price: 8,000 gp
+Weight: 1/2 lb.
+:::
 
 These leather gauntlets grant the wearer a +2 morale bonus on unarmed strikes, natural attacks, and
 combat maneuver checks versus creatures with the [change shape](ref/umr/change-shape) special
@@ -35,5 +40,7 @@ it is normally capable of and does not cost the creature an action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph any object](ref/spell/polymorph-any-object); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph any object](ref/spell/polymorph-any-object)
+Cost: 4,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "13th"
 +++
 
-**Aura** moderate conjuration; **CL** 13th\
-**Slot** feet; **Price** 12,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 13th
+Slot: feet
+Price: 12,500 gp
+Weight: 2 lbs.
+:::
 
 Ants occasionally crawl in and out of the numerous tiny holes dotting these sturdy, thick-soled
 boots. The boots' wearer receives a +4 competence bonus on Fortitude saving throws against swarms'
@@ -32,4 +37,7 @@ vomited forth. The swarm lasts for 13 rounds before dissipating.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), vomit swarm; **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), vomit swarm
+Cost: 6,250 gp
+:::

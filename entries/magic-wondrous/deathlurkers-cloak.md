@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** shoulders; **Price** 2,700 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: shoulders
+Price: 2,700 gp
+Weight: 1 lb.
+:::
 
 This drab gray cloak billows about as if blown by an invisible wind. Once per day, the wearer can
 use _[doom](ref/spell/doom),_ which causes a deathlike shadow to fleetingly cross the wearer's face.
@@ -38,6 +43,7 @@ The dying creature must have at least as many Hit Dice as the wearer for this ef
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell), [doom](ref/spell/doom), [false life](ref/spell/false-life);
-**Cost** 1,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell), [doom](ref/spell/doom), [false life](ref/spell/false-life)
+Cost: 1,350 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Aura** strong divination; **CL** 13th\
-**Slot** none; **Price** 27,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong divination
+CL: 13th
+Slot: none
+Price: 27,000 gp
+Weight: 3 lbs.
+:::
 
 This peculiar idol, carved from some unknown green stone, depicts a seven-legged octopoid figure
 with a horribly grinning face. Also known as the Seasage Effigy, the Face of Dagon is a sacred relic
@@ -34,5 +39,7 @@ used in this way, however, the bearer must make a DC 20 Will save or suffer
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune),
-[water breathing](ref/spell/water-breathing); **Cost** 14,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune), [water breathing](ref/spell/water-breathing)
+Cost: 14,000 gp
+:::

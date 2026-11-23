@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** body; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: body
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 These magical sets of clothing can take many forms. In Segada, notable examples range from the
 ornate costumes of the Festival of Flowers to the flamboyant, bird-like costumes of the Waning Light
@@ -34,5 +39,7 @@ on Perform (dance) checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person)
+Cost: 1,000 gp
+:::

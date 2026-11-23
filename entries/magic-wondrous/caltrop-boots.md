@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 10,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 10,000 gp
+Weight: 2 lbs.
+:::
 
 These knee-high black leather boots have prominent and irregularly shaped heels which seem to bulge
 from the rest of the shoe. As a swift action, the boots' wearer can cause the boots to let loose a
@@ -34,5 +39,7 @@ for 10 rounds per day. These rounds need not be consecutive.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spike growth](ref/spell/spike-growth); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spike growth](ref/spell/spike-growth)
+Cost: 5,000 gp
+:::

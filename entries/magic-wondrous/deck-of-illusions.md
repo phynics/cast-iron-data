@@ -23,8 +23,13 @@ aura = "moderate illusion"
 caster_level = "6th"
 +++
 
-**Aura** moderate illusion; **CL** 6th\
-**Slot** none; **Price** 8,100 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate illusion
+CL: 6th
+Slot: none
+Price: 8,100 gp
+Weight: 1/2 lb.
+:::
 
 This set of parchment cards is usually found in an ivory, leather, or wooden box. A full deck
 consists of 34 cards. When a card is drawn at random and thrown to the ground, a
@@ -78,5 +83,7 @@ cards missing (01-10). If cards are missing, reduce the price by a corresponding
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[major image](ref/spell/major-image); **Cost** 4,050 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [major image](ref/spell/major-image)
+Cost: 4,050 gp
+:::

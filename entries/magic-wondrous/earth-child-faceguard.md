@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** head; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: head
+Price: 10,000 gp
+Weight: -
+:::
 
 Decorated with the emblems of the Earth Child cadre, an earth child faceguard is designed to refine
 the wearer's focus when fighting giants. The wearer gains the benefits of Earth Child Style,
@@ -31,6 +36,7 @@ possesses the Earth Child Style feat, she can enter the earth child stance as a 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Earth Child Style](ref/feat/earth-child-style), [know the enemy](ref/spell/know-the-enemy);
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Earth Child Style](ref/feat/earth-child-style), [know the enemy](ref/spell/know-the-enemy)
+Cost: 5,000 gp
+:::

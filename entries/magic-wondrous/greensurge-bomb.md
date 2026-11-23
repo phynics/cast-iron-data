@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: 1 lb.
+:::
 
 A greensurge bomb is a small, magically and alchemically treated plant bulb with a root growth that
 forms a handle. The bomb can be [thrown like a splash weapon](ref/rule/throw-splash-weapon) with a
@@ -37,5 +42,7 @@ for 5 minutes before it turns brown and crumbles to dust.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plant growth](ref/spell/plant-growth); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plant growth](ref/spell/plant-growth)
+Cost: 375 gp
+:::

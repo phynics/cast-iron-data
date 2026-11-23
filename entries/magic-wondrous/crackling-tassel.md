@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 2,500 gp
+Weight: -
+:::
 
 A common accoutrement often crafted by worshipers of [Hei Feng](ref/faith/hei-feng), these magical
 tassels are usually affixed to the pommels of bladed weapons, though they can be fastened to other
@@ -36,5 +41,7 @@ is discharged, the crackling tassel can't be used again for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[defensive shock](ref/spell/defensive-shock), [hypnotism](ref/spell/hypnotism); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [defensive shock](ref/spell/defensive-shock), [hypnotism](ref/spell/hypnotism)
+Cost: 1,250 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate evocation [evil]"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation \[evil\]; **CL** 9th\
-**Slot** none; **Price** 60,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation \[evil\]
+CL: 9th
+Slot: none
+Price: 60,000 gp
+Weight: 5 lbs.
+:::
 
 This skull, carved from ebony, is wholly evil. Wherever the skull goes, the area around it is
 treated as though an _[unhallow](ref/spell/unhallow)_ spell had been cast with the skull as the
@@ -34,5 +39,7 @@ changed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[unhallow](ref/spell/unhallow), creator must be evil; **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [unhallow](ref/spell/unhallow), creator must be evil
+Cost: 30,000 gp
+:::

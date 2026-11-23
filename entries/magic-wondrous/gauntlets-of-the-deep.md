@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** hands; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: hands
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 These gloves are covered in fish scales and always feel cold and wet to the touch. While wearing
 these gauntlets, after a 24-hour attunement period, the wearer can throw a weapon that deals
@@ -34,5 +39,7 @@ target doesn't benefit from [cover](ref/rule/cover) or total cover for being in 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[freedom of movement](ref/spell/freedom-of-movement); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [freedom of movement](ref/spell/freedom-of-movement)
+Cost: 2,500 gp
+:::

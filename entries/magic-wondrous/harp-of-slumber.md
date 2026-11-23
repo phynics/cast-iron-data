@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 37,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 37,500 gp
+Weight: 5 lbs.
+:::
 
 Despite having the strength and texture of unhewn stone, this pale white harp is sculpted from solid
 glass. A harp of slumber has several effects when played. At will, the user can produce a lullaby
@@ -37,6 +42,7 @@ performer also succeeds at a DC 13 Perform (string) check.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [deep slumber](ref/spell/deep-slumber),
-[lullaby](ref/spell/lullaby), [sleep](ref/spell/sleep); **Cost** 18,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [deep slumber](ref/spell/deep-slumber), [lullaby](ref/spell/lullaby), [sleep](ref/spell/sleep)
+Cost: 18,250 gp
+:::

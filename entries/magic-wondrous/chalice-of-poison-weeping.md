@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This silver chalice has stylized representations of rearing unicorns serving as handles. The bearer
 of the chalice can expel toxins from a poisoned creature's body, causing the target to weep the
@@ -35,6 +40,7 @@ used like any other poison. The chalice can be used once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), [neutralize poison](ref/spell/neutralize-poison); **Cost** 4,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), [neutralize poison](ref/spell/neutralize-poison)
+Cost: 4,000 gp
+:::

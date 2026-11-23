@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** neck; **Price** 20,258 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: neck
+Price: 20,258 gp
+Weight: 2 lbs.
+:::
 
 This nearly perfect pearl replica of a hand is attached to a gold chain and can be worn as an
 amulet. Once per day, the wearer can animate the hand as an immediate action. The hand attempts to
@@ -34,5 +39,7 @@ and Strength to determine the attack bonus and damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[interposing hand](ref/spell/interposing-hand); **Cost** 10,129 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [interposing hand](ref/spell/interposing-hand)
+Cost: 10,129 gp
+:::

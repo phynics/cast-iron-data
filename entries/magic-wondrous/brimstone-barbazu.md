@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 3,300 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 3,300 gp
+Weight: 2 lbs.
+:::
 
 Shaped in the form of a leering bearded devil clutching a glaive, this dusty yellowish figurine
 stands just under a foot tall. When broken or shattered, a brimstone barbazu steadily heats up over
@@ -33,6 +38,7 @@ slain or after 20 rounds. Once used, a brimstone barbazu is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Extend Spell](ref/feat/extend-spell), [summon monster V](ref/spell/summon-monster-5); **Cost**
-1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extend Spell](ref/feat/extend-spell), [summon monster V](ref/spell/summon-monster-5)
+Cost: 1,650 gp
+:::

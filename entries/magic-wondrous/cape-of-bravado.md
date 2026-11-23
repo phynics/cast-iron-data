@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "2nd"
 +++
 
-**Aura** faint enchantment; **CL** 2nd\
-**Slot** none; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 2nd
+Slot: none
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 This bright red garment bestows no benefit when worn on the shoulders, but when held in one hand
 while draped over the arm, the cape obscures its user's movements in combat. Used this way, the cape
@@ -34,6 +39,7 @@ an opponent within 30 feet to attack him on its next turn (Will negates DC 11).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[compel hostility](ref/spell/compel-hostility), creator must have 5 ranks in the Bluff skill;
-**Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [compel hostility](ref/spell/compel-hostility), creator must have 5 ranks in the Bluff skill
+Cost: 3,500 gp
+:::

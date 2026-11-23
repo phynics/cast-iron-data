@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: 1/2 lb.
+:::
 
 When sprinkled on the ground, this mixture of salt and powdered iron forms a barrier that is
 invisible and impenetrable for spirits. Ghost powder is typically found in bags or tubes, and a
@@ -42,6 +47,7 @@ minute for every 5 feet), the effects last 8 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[anti-incorporeal shell](ref/spell/anti-incorporeal-shell),
-[magic circle against evil](ref/spell/magic-circle-against-evil); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [anti-incorporeal shell](ref/spell/anti-incorporeal-shell), [magic circle against evil](ref/spell/magic-circle-against-evil)
+Cost: 700 gp
+:::

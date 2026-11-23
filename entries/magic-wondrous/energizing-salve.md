@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 3,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 3,000 gp
+Weight: 1/2 lb.
+:::
 
 This greasy, foul-smelling paste is used to temporarily improve a construct's effectiveness in
 combat. When smeared onto the body of a construct as a standard action, this substance grants the
@@ -33,5 +38,7 @@ standard action that provokes attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste);
-**Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste)
+Cost: 1,500 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 1,800 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 1,800 gp
+Weight: -
+:::
 
 This powder appears to be a very fine, very light metallic dust. A single handful of this substance
 flung into the air coats objects within a 10-foot radius, making them visible even if they are
@@ -39,5 +44,7 @@ Dust of appearance is typically stored in small silk packets or hollow bone tube
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[glitterdust](ref/spell/glitterdust); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [glitterdust](ref/spell/glitterdust)
+Cost: 900 gp
+:::

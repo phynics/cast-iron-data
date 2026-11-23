@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** hands; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: hands
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 These wrist wraps are actually dark, thorny vines that constantly move and twist around the wearer's
 hands of their own accord. The wearer gains a +2 circumstance bonus on combat maneuver checks to
@@ -37,5 +42,7 @@ target.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Improved Grapple](ref/feat/improved-grapple), [entangle](ref/spell/entangle); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Improved Grapple](ref/feat/improved-grapple), [entangle](ref/spell/entangle)
+Cost: 2,500 gp
+:::

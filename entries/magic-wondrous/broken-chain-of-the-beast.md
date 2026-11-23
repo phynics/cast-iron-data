@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** belt; **Price** 4,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: belt
+Price: 4,500 gp
+Weight: 5 lbs.
+:::
 
 This 8-foot length of corroded, broken chain is threaded with a leather strap to hold it together;
 it is worn like a belt and must be tied in place, as it lacks a buckle. Once per day, the wearer can
@@ -39,5 +44,7 @@ hasn't already used it that day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage),
-[summon monster I](ref/spell/summon-monster-1); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage), [summon monster I](ref/spell/summon-monster-1)
+Cost: 2,250 gp
+:::

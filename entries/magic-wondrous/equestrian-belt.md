@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** belt; **Price** 3,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: belt
+Price: 3,200 gp
+Weight: 1 lb.
+:::
 
 This belt is worked with images of horses stampeding across a barren, windswept plain. The belt's
 wearer automatically succeeds at any check to guide with the knees, stay in the saddle, fight with a
@@ -32,5 +37,7 @@ armor.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Cost** 1,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Cost: 1,600 gp
+:::

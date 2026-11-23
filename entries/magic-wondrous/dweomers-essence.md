@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 500 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 500 gp
+Weight: -
+:::
 
 Derived from the patient distillation of rare magical reagents, a pinch of this fine white powder
 can be added to the casting of any spell as an additional material component to give the spellcaster
@@ -29,5 +34,7 @@ a +5 bonus on caster level checks made to overcome [spell resistance](ref/rule/s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Spell Penetration](ref/feat/spell-penetration); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Spell Penetration](ref/feat/spell-penetration)
+Cost: 250 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** head; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: head
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 Shortly after the Eye of Abendego began, the [Storm Kindlers](ref/rule/aff-storms) created enchanted
 masks to aid in the navigation of the often storm-lashed swamps. Today, many of these distinctive
@@ -41,6 +46,7 @@ consecutive, but must be expended in 10-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control winds](ref/spell/control-winds), [water breathing](ref/spell/water-breathing); **Cost**
-4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control winds](ref/spell/control-winds), [water breathing](ref/spell/water-breathing)
+Cost: 4,000 gp
+:::

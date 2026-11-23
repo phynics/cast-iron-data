@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "4th"
 +++
 
-**Aura** faint divination; **CL** 4th\
-**Slot** head; **Price** 5,200 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint divination
+CL: 4th
+Slot: head
+Price: 5,200 gp
+Weight: 3 lbs.
+:::
 
 Appearing as a normal helmet, a helm of comprehend languages and read magic grants its wearer the
 ability to understand the spoken words of any creature and to read text in any language and any
@@ -34,6 +39,7 @@ understanding a magical text does not necessarily imply ability to use its spell
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages), [read magic](ref/spell/read-magic); **Cost**
-2,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages), [read magic](ref/spell/read-magic)
+Cost: 2,600 gp
+:::

@@ -23,8 +23,12 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Weight: 3 lbs.
+:::
 
 This item is indistinguishable from a normal broom. It is identical to a _broom of flying_ by all
 tests short of attempted use.
@@ -40,4 +44,7 @@ round when it hits. The handle deals 1d6 points of damage when it hits. The broo
 
 ### Construction
 
-**Requirements** [broom of flying](ref/magic-wondrous/broom-of-flying); **Cost** -
+::: statblock
+Requirements: [broom of flying](ref/magic-wondrous/broom-of-flying)
+Cost: -
+:::

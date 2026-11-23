@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 720 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 720 gp
+Weight: -
+:::
 
 The Kitharodian pen is an ink pen that produces its own ink and never needs to be refilled. The user
 or last person to touch the pen can speak a command word to cause it to begin taking dictation,
@@ -36,6 +41,7 @@ the pen to cease writing. The pen transcribes for up to 1 hour per day in 10-min
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [unseen servant](ref/spell/unseen-servant); **Cost** 360
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [unseen servant](ref/spell/unseen-servant)
+Cost: 360 gp
+:::

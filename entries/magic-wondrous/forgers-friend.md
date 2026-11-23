@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 11,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 11,200 gp
+Weight: 5 lbs.
+:::
 
 This leather satchel contains a [forger's kit](ref/eq-misc/forgers-kit) - quills, ink, parchment,
 and sealing wax - as well as personal oddments ranging from braids of hair to heirloom brooches.
@@ -36,5 +41,7 @@ forger's friend can acclimate the forging gear within to only one creature at a 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying);
-**Cost** 5,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying)
+Cost: 5,600 gp
+:::

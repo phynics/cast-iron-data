@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 When first created, a book of written whispers is a relatively slim volume of blank pages.
 Typically, the cover of a book of written whispers is made to appear nondescript or plain, but the
@@ -49,6 +54,7 @@ used, a page cannot be reused to send a new message.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic aura](ref/spell/magic-aura), [secret page](ref/spell/secret-page),
-[sending](ref/spell/sending); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic aura](ref/spell/magic-aura), [secret page](ref/spell/secret-page), [sending](ref/spell/sending)
+Cost: 3,000 gp
+:::

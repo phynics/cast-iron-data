@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** neck; **Price** 6,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: neck
+Price: 6,000 gp
+Weight: 1/2 lb.
+:::
 
 This necklace is set with a bloodstone sculpted to look like a scintillating green eye. It gives the
 wearer a +4 competence bonus on Charisma checks and Charisma-based checks made to interact with
@@ -36,5 +41,7 @@ can read, speak, and understand the Gnome language. If the wearer is not a gnome
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a gnome;
-**Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a gnome
+Cost: 3,000 gp
+:::

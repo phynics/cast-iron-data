@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: -
+:::
 
 This slender tube contains an acrid black sludge that feels warm to the touch. When she consumes
 this elixir, the imbiber is transformed into a gray [cat](ref/monster/familiar-cat) for 1 hour (as
@@ -33,5 +38,7 @@ ends, the imbiber transforms back into her original form.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2), [darkvision](ref/spell/darkvision); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2), [darkvision](ref/spell/darkvision)
+Cost: 700 gp
+:::

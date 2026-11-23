@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** shoulders; **Price** 22,000 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: shoulders
+Price: 22,000 gp
+Weight: 6 lbs.
+:::
 
 This heavy cloak is made from the hide of a [bulette](ref/monster/bulette), its thick gray leather
 heavily abraded and seemingly always dusty, and features a plated dorsal fin that protrudes from
@@ -45,5 +50,7 @@ wearer ends this movement standing and the target of the charge is considered
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape III](ref/spell/beast-shape-3), [burrow](ref/spell/burrow); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape III](ref/spell/beast-shape-3), [burrow](ref/spell/burrow)
+Cost: 11,000 gp
+:::

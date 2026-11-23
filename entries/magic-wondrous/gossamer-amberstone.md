@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** neck; **Price** 2,700 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: neck
+Price: 2,700 gp
+Weight: -
+:::
 
 This coin-sized piece of cracked amber is glued to a leather strap and contains a large, perfectly
 preserved bloodsucking insect. Once per day, the wearer can use
@@ -37,6 +42,7 @@ _[summon swarm](ref/spell/summon-swarm)_ once per day. The swarm can be an
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [summon swarm](ref/spell/summon-swarm); **Cost**
-1,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [summon swarm](ref/spell/summon-swarm)
+Cost: 1,350 gp
+:::

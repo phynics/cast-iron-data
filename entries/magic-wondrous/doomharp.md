@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Aura** faint necromancy; **CL** 4th\
-**Slot** none; **Price** 10,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 4th
+Slot: none
+Price: 10,000 gp
+Weight: 5 lbs.
+:::
 
 Made from bone and sun-dried sinew, this
 [masterwork harp](ref/eq-misc/musical-instrument-masterwork) produces a vague sense of unease in
@@ -35,5 +40,7 @@ part of his performance increases the effective radius to 60 feet.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cause fear](ref/spell/cause-fear); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cause fear](ref/spell/cause-fear)
+Cost: 5,000 gp
+:::

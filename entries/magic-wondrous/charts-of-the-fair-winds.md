@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 3,200 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 3,200 gp
+Weight: -
+:::
 
 These aged charts of thick, yellowed parchment display rough representations of the Shackles' major
 islands and the sea lanes between them. The detailed markings on these charts grant a +2
@@ -44,6 +49,7 @@ All of the charts' benefits only apply within the geographic region of the Shack
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[commune with nature](ref/spell/commune-with-nature), creator must have 10 ranks in Survival;
-**Cost** 1,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune with nature](ref/spell/commune-with-nature), creator must have 10 ranks in Survival
+Cost: 1,600 gp
+:::

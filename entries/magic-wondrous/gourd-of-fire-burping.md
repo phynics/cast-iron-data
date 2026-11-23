@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "4th"
 +++
 
-**Aura** faint evocation; **CL** 4th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 4th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 A lesser version of the [elixir of fire breath](ref/magic-wondrous/elixir-of-fire-breath), a gourd
 of fire burping can be imbibed as a normal elixir or, in the case of a user with a large enough
@@ -33,6 +38,7 @@ before it dissipates.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burning hands](ref/spell/burning-hands) or [produce flame](ref/spell/produce-flame); **Cost** 125
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burning hands](ref/spell/burning-hands) or [produce flame](ref/spell/produce-flame)
+Cost: 125 gp
+:::

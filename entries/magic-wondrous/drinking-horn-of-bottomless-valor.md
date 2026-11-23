@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 24,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 24,000 gp
+Weight: 2 lbs.
+:::
 
 This horn is bound with fittings of gold and decorated with ornate carvings depicting scenes of
 glorious battle. A fully charged horn has 3 charges - charges used are automatically renewed each
@@ -46,5 +51,7 @@ drinker must spend 2 full-round actions drinking from the horn.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid),
-[enlarge person](ref/spell/enlarge-person), [heroism](ref/spell/heroism); **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid), [enlarge person](ref/spell/enlarge-person), [heroism](ref/spell/heroism)
+Cost: 12,000 gp
+:::

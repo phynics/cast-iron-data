@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 13th\
-**Slot** none; **Price** 6,400 gp; **Weight** 25 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 13th
+Slot: none
+Price: 6,400 gp
+Weight: 25 lbs.
+:::
 
 The claw can be attached in place of the missing arm of any Medium humanoid to function as a
 replacement arm. This requires an hour-long installation surgery that must be performed by a
@@ -34,6 +39,7 @@ that arm).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [regenerate](ref/spell/regenerate), creator must have 8
-ranks in Craft (clockwork); **Cost** 3,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [regenerate](ref/spell/regenerate), creator must have 8 ranks in Craft (clockwork)
+Cost: 3,200 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 5,000 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 5,000 gp
+Weight: 30 lbs.
+:::
 
 Created by the [Prophets of Kalistrade](ref/rule/f-profits), this chest is approximately 2 feet wide
 and 1 foot long. On creation, the maker chooses 10 nonmagical items worth under 100 gp that could
@@ -34,5 +39,7 @@ chests to keep backups of important tools, and to hide weapons in case of emerge
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor creation](ref/spell/minor-creation); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor creation](ref/spell/minor-creation)
+Cost: 2,500 gp
+:::

@@ -23,8 +23,12 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Weight** 15 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Weight: 15 lbs.
+:::
 
 Most [bags of devouring](ref/magic-wondrous/bag-of-devouring) appear to be normal sacks, but Chomper
 is unlike most bags of devouring. Sporting rows of vicious teeth, a bad attitude, and a thirst to
@@ -47,7 +51,10 @@ additional powers.
 
 ### Construction
 
-**Requirements** [bag of holding type III](ref/magic-wondrous/bag-of-holding); **Cost** -
+::: statblock
+Requirements: [bag of holding type III](ref/magic-wondrous/bag-of-holding)
+Cost: -
+:::
 
 ### Statistics
 

@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** 38,000 gp; **Weight** 80 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: 38,000 gp
+Weight: 80 lbs.
+:::
 
 This sturdy, 10-foot-by-10-foot [mithral](ref/eq-material/mithral) platform bears five shifting,
 white runes of Auran incantations related to clouds and swift travel. It functions identically to a
@@ -39,6 +44,7 @@ to twice this amount with a reduced speed of 30 feet. A flying platform can hove
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter winds](ref/spell/alter-winds), [overland flight](ref/spell/overland-flight); **Cost** 19,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter winds](ref/spell/alter-winds), [overland flight](ref/spell/overland-flight)
+Cost: 19,000 gp
+:::

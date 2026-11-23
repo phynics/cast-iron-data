@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Aura** moderate enchantment; **CL** 11th\
-**Slot** none; **Price** 5,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 11th
+Slot: none
+Price: 5,000 gp
+Weight: 5 lbs.
+:::
 
 This elongated bull's horn curves sharply at the end, almost making it seem more like an enormous
 smoking pipe than a tool for the hunt. Once each day, a person with the hunter's bond (companions)
@@ -34,5 +39,7 @@ allies within 30 feet who can see and hear him. The effect lasts for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater heroism](ref/spell/heroism-greater); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater heroism](ref/spell/heroism-greater)
+Cost: 2,500 gp
+:::

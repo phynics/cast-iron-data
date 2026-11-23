@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** head; **Price** 22,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: head
+Price: 22,000 gp
+Weight: -
+:::
 
 This elaborate circlet of gold-and-platinum filigree bears tiny gems in settings that look
 disturbingly like human eyes. When worn, the circlet lets the wearer sense the presence of other
@@ -42,6 +47,7 @@ creatures detected with those senses from creatures detected with the circlet of
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[detect thoughts](ref/spell/detect-thoughts); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [detect thoughts](ref/spell/detect-thoughts)
+Cost: 11,000 gp
+:::

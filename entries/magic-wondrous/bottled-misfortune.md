@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy; **CL** 10th\
-**Slot** none; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 10th
+Slot: none
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 This leather bottle is filled to the brim with frothy green liquid. As a full-round action, a witch
 can target the bottle with any hex (but not a greater or grand hex) she knows that targets a single
@@ -36,6 +41,7 @@ similarly ineffective against that target. Once imbued with the power of a hex, 
 
 ### Construction
 
-**Requirements** [Brew Potion](ref/feat/brew-potion),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a [witch](ref/class/witch) with
-the [poison steep](ref/hex/poison-steep) hex; **Cost** 250 gp
+::: statblock
+Requirements: [Brew Potion](ref/feat/brew-potion), [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a [witch](ref/class/witch) with the [poison steep](ref/hex/poison-steep) hex
+Cost: 250 gp
+:::

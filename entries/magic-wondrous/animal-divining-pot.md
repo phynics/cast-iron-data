@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 1,400 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 1,400 gp
+Weight: 5 lbs.
+:::
 
 These small clay vessels are fired in shapes representing various small animals - fish, lizards,
 mice, and sparrows are the most common. If a pot's user places a living animal matching the pot's
@@ -30,5 +35,7 @@ _[speak with animals](ref/spell/speak-with-animals)._ This ability functions thr
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with animals](ref/spell/speak-with-animals); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with animals](ref/spell/speak-with-animals)
+Cost: 700 gp
+:::

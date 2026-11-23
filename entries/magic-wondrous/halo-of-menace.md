@@ -23,8 +23,13 @@ aura = "strong enchantment"
 caster_level = "9th"
 +++
 
-**Aura** strong enchantment; **CL** 9th\
-**Slot** head; **Price** 84,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment
+CL: 9th
+Slot: head
+Price: 84,000 gp
+Weight: 1 lb.
+:::
 
 When placed over the head, this halo of shimmering polished steel floats above it, though it still
 takes up the head slot. The halo constantly radiates a 20-foot-radius aura from its wearer. Any
@@ -37,6 +42,7 @@ The aura is a mind-affecting effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[order's wrath](ref/spell/orders-wrath), creator must be an [aasimar](ref/race/aasimar) or an
-[archon](ref/family/archon); **Cost** 42,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [order's wrath](ref/spell/orders-wrath), creator must be an [aasimar](ref/race/aasimar) or an [archon](ref/family/archon)
+Cost: 42,000 gp
+:::

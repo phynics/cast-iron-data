@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** varies; **Weight** 15 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: varies
+Weight: 15 lbs.
+:::
 
 Lorestones are dense encyclopedias of natural lore carved in stone. The surface of a lorestone is
 engraved with constellations and celestial markers, such as the orbits of planets. This astronomical
@@ -84,6 +89,7 @@ Kingdoms by a pack of [ratfolk](ref/race/ratfolk), who value it as an icon of th
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[commune with nature](ref/spell/commune-with-nature), creator must speak Druidic, creator must have
-15 ranks in Knowledge (nature); **Cost** varies
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune with nature](ref/spell/commune-with-nature), creator must speak Druidic, creator must have 15 ranks in Knowledge (nature)
+Cost: varies
+:::

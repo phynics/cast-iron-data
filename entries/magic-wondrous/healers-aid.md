@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "7th"
 +++
 
-**Aura** faint evocation; **CL** 7th\
-**Slot** none; **Price** 900 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 7th
+Slot: none
+Price: 900 gp
+Weight: -
+:::
 
 This squat glass jar contains a golden liquid that constantly swirls. This elixir causes the next
 potion or elixir that restores hit points that the imbiber consumes to be treated as if it were
@@ -31,5 +36,7 @@ potion or elixir, whichever comes first.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Empower Spell](ref/feat/empower-spell), [amplify elixir](ref/spell/amplify-elixir); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Empower Spell](ref/feat/empower-spell), [amplify elixir](ref/spell/amplify-elixir)
+Cost: 450 gp
+:::

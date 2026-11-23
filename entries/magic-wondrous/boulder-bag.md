@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 3,000 gp; **Weight** 200 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 3,000 gp
+Weight: 200 lbs.
+:::
 
 This immense bag is always full of hefty, good-sized rocks and can be carried over the shoulder or
 on the belt of a Large or larger creature, though doing so does not take up an item slot. On command
@@ -35,5 +40,7 @@ normally produces.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 1,500 gp
+:::

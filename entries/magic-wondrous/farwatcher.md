@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 120,850 gp; **Weight** 260 lbs.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 120,850 gp
+Weight: 260 lbs.
+:::
 
 This exquisite [telescope](ref/eq-misc/telescope-x10) is crafted of brass, ivory, wood, and
 carefully polished crystal lenses and silver mirrors, and is over 10 feet long. Anyone using a
@@ -39,5 +44,7 @@ each.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Profession (astronomy) 11
-ranks, [true seeing](ref/spell/true-seeing); **Cost** 60,550 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Profession (astronomy) 11 ranks, [true seeing](ref/spell/true-seeing)
+Cost: 60,550 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 60,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 60,000 gp
+Weight: 1 lb.
+:::
 
 As a move action, the wielder may dip these two sharp, 4-inch-long pins into their paired vial to
 coat them in the viscous blueblack liquid within. This coating lasts 1 minute before dissipating. On
@@ -44,5 +49,7 @@ magic is depleted.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[baleful polymorph](ref/spell/baleful-polymorph); **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [baleful polymorph](ref/spell/baleful-polymorph)
+Cost: 30,000 gp
+:::

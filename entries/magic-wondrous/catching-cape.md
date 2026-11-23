@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** shoulders; **Price** 200 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: shoulders
+Price: 200 gp
+Weight: 3 lbs.
+:::
 
 This silvery cape furls and ripples like a flag with every step its owner takes. As a swift action,
 the wearer can order the cape to transform into a faint sphere of force that surrounds him on all
@@ -35,5 +40,7 @@ leaving only a mundane silvery garment.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield](ref/spell/shield);
-**Cost** 100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield](ref/spell/shield)
+Cost: 100 gp
+:::

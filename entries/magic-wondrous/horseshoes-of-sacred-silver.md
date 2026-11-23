@@ -20,8 +20,13 @@ aura = "moderate evocation [good]"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation \[good\]; **CL** 7th\
-**Slot** feet; **Price** 20,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation \[good\]
+CL: 7th
+Slot: feet
+Price: 20,000 gp
+Weight: 4 lbs.
+:::
 
 These [mithral](ref/eq-material/mithral) horseshoes are imbued with heavenly power. They grant the
 [holy](ref/magic-enh/holy) weapon special ability to the wearer's hoof attacks, and if the wearer
@@ -36,6 +41,7 @@ the trample damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [holy smite](ref/spell/holy-smite), creator
-must be good; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [holy smite](ref/spell/holy-smite), creator must be good
+Cost: 10,000 gp
+:::

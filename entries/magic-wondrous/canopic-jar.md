@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 24,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 24,000 gp
+Weight: 2 lbs.
+:::
 
 This clay burial jar is designed to hold viscera from a corpse. A creature can spend 10 minutes and
 make a DC 15 [Heal](ref/skill/heal) check to harvest the intact intestine, liver, lungs, or stomach
@@ -49,6 +54,7 @@ _[gentle repose](ref/spell/gentle-repose)._ The organs are suitable remains for
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [gentle repose](ref/spell/gentle-repose),
-[polymorph](ref/spell/polymorph); **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [gentle repose](ref/spell/gentle-repose), [polymorph](ref/spell/polymorph)
+Cost: 12,000 gp
+:::

@@ -64,13 +64,13 @@ caster_level = "varies"
 
 ## Figurines of Wondrous Power
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Price** 3,800 gp (Silver Raven), 6,000 gp (Coral Hippocampus), 7,000 gp (Emerald
-Frog), 7,500 gp (Lapis Camel), 7,600 gp (Pearl Dolphin), 9,000 gp (Ruby Butterfly), 9,100 gp (Black
-Jade Raven, Serpentine Eagle, Serpentine Owl), 10,000 gp (Bronze Griffon, Ebony Fly, Hematite
-Courgar, Slate Spider), 13,000 gp (Tin Imp), 14,000 gp (Glass Walrus), 15,000 gp (Obsidian Raven),
-15,500 gp (Onyx Dog), 16,500 gp (Golden Lions), 17,000 gp (Marble Elephant), 21,000 gp (Ivory
-Goats), 28,500 gp (Obsidian Steed), 60,000 gp (Basalt Dragon); **Weight** 1 lb.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Price: 3,800 gp (Silver Raven), 6,000 gp (Coral Hippocampus), 7,000 gp (Emerald Frog), 7,500 gp (Lapis Camel), 7,600 gp (Pearl Dolphin), 9,000 gp (Ruby Butterfly), 9,100 gp (Black Jade Raven, Serpentine Eagle, Serpentine Owl), 10,000 gp (Bronze Griffon, Ebony Fly, Hematite Courgar, Slate Spider), 13,000 gp (Tin Imp), 14,000 gp (Glass Walrus), 15,000 gp (Obsidian Raven), 15,500 gp (Onyx Dog), 16,500 gp (Golden Lions), 17,000 gp (Marble Elephant), 21,000 gp (Ivory Goats), 28,500 gp (Obsidian Steed), 60,000 gp (Basalt Dragon)
+Weight: 1 lb.
+:::
 
 Each of the several kinds of figurines of wondrous power appears to be a miniature statuette of a
 creature an inch or so high (with one exception). When the figurine is tossed down and the correct
@@ -316,9 +316,7 @@ owner's Perception and [Survival](ref/skill/survival) skill (and any tracking bo
 
 ### Construction
 
-**Requirements** Craft Wondrous Item, additional spells, see text; **Cost** 1,900 gp (Silver Raven),
-3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp (Lapis Camel), 3,800 gp (Pearl
-Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven, Serpentine Eagle, Serpentine Owl),
-5,000 gp (Bronze Griffon, Ebony Fly, Hematite Courgar, Slate Spider), 6,500 gp (Tin Imp), 7,000 gp
-(Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp
-(Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)
+::: statblock
+Requirements: Craft Wondrous Item, additional spells, see text
+Cost: 1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven, Serpentine Eagle, Serpentine Owl), 5,000 gp (Bronze Griffon, Ebony Fly, Hematite Courgar, Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)
+:::

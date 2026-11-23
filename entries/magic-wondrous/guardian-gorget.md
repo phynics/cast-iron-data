@@ -20,8 +20,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 13th\
-**Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 13th
+Slot: neck
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 This flanged collar of [mithral](ref/eq-material/mithral) and steel protects the wearer's neck and
 shoulders. It provides a +2 armor bonus to AC (this does not stack with other armor bonuses) and
@@ -36,7 +41,7 @@ unconscious).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[glyph of warding](ref/spell/glyph-of-warding), [limited wish](ref/spell/limited-wish) or
-[miracle](ref/spell/miracle), [mage armor](ref/spell/mage-armor) or
-[magic vestment](ref/spell/magic-vestment); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [glyph of warding](ref/spell/glyph-of-warding), [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle), [mage armor](ref/spell/mage-armor) or [magic vestment](ref/spell/magic-vestment)
+Cost: 6,000 gp
+:::

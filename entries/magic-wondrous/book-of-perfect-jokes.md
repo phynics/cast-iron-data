@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** none; **Price** 27,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: none
+Price: 27,000 gp
+Weight: 1 lb.
+:::
 
 This small, weathered journal contains 10,000 jokes that change to be perfectly suited for
 particular audiences. The book grants its owner a +5 bonus on any [Diplomacy](ref/skill/diplomacy)
@@ -37,6 +42,7 @@ second time yields no effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [hideous laughter](ref/spell/hideous-laughter),
-[rage](ref/spell/rage); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [hideous laughter](ref/spell/hideous-laughter), [rage](ref/spell/rage)
+Cost: 13,500 gp
+:::

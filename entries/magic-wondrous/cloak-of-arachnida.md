@@ -23,8 +23,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 6th\
-**Slot** shoulders; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 6th
+Slot: shoulders
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 This red and violet silk garment, delicately embroidered with a barely perceptible web-like pattern,
 gives the wearer the ability to climb as if a _[spider climb](ref/spell/spider-climb)_ spell had
@@ -35,5 +40,7 @@ spiders.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spider climb](ref/spell/spider-climb), [web](ref/spell/web); **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spider climb](ref/spell/spider-climb), [web](ref/spell/web)
+Cost: 7,000 gp
+:::

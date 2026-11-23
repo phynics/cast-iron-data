@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** neck; **Price** 46,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: neck
+Price: 46,000 gp
+Weight: 2 lbs.
+:::
 
 This grotesque collar is useful to any [witch](ref/class/witch) who is eager to form a coven, but
 would rather avoid associating with one or more evil [hags](ref/family/hag). The collar is a crude
@@ -47,7 +52,7 @@ the [coven](ref/hex/coven) hex who wears the collar gains access to the followin
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Craft (leather)](ref/skill/craft-any) 4 ranks, [alter self](ref/spell/alter-self),
-[hold person](ref/spell/hold-person), [transformation](ref/spell/transformation), coven hex;
-**Cost** 23,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Craft (leather)](ref/skill/craft-any) 4 ranks, [alter self](ref/spell/alter-self), [hold person](ref/spell/hold-person), [transformation](ref/spell/transformation), coven hex
+Cost: 23,000 gp
+:::

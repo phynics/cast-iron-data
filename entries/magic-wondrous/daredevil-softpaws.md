@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** feet; **Price** 1,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: feet
+Price: 1,400 gp
+Weight: 1 lb.
+:::
 
 This pair of magical [softpaw boots](ref/eq-misc/softpaw-boots) allows the
 [catfolk](ref/race/catfolk) wearing them to gain extra maneuverability while moving through
@@ -34,5 +39,7 @@ gains a +2 bonus on attack rolls against that enemy until the end of her turn.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Cost: 700 gp
+:::

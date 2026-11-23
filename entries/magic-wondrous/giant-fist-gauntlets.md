@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** hands; **Price** 20,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: hands
+Price: 20,000 gp
+Weight: 5 lbs.
+:::
 
 As a swift action, the wearer of these rough leather gauntlets can expand her hands to twice normal
 size and harden to the consistency of hardwood. This transformation lasts for up to 20 rounds per
@@ -31,5 +36,7 @@ opponent as a free action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[enlarge person](ref/spell/enlarge-person); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [enlarge person](ref/spell/enlarge-person)
+Cost: 10,000 gp
+:::

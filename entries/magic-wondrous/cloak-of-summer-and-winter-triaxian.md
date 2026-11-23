@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** shoulders; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: shoulders
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -37,6 +42,7 @@ resistance 10. If he is transitional, he gains resistance 5 to both cold and fir
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fire shield](ref/spell/fire-shield), [resist energy](ref/spell/resist-energy), creator must be a
-Triaxian; **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fire shield](ref/spell/fire-shield), [resist energy](ref/spell/resist-energy), creator must be a Triaxian
+Cost: 15,000 gp
+:::

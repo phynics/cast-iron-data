@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 20 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 20 gp
+Weight: -
+:::
 
 A hex nail is a thick, 6-inch-long nail forged from [cold iron](ref/eq-material/cold-iron). Usually
 carried like charms or concealed within the heels of shoes, these roughly worked nails are the only
@@ -38,5 +43,7 @@ act of treason.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resistance](ref/spell/resistance); **Cost** 10 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resistance](ref/spell/resistance)
+Cost: 10 gp
+:::

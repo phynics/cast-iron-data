@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** wrists; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: wrists
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 These white leather bracers have delicate elven runes etched upon them, one reading "swift defeat"
 and the other "vengeance." Once per day, as an immediate action when the wearer takes hit point
@@ -39,5 +44,7 @@ of his oath, these bracers cannot be used again until 7 days have passed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout),
-creator must be an [elf](ref/race/elf); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout), creator must be an [elf](ref/race/elf)
+Cost: 12,500 gp
+:::

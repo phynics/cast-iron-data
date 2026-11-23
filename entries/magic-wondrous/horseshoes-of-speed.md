@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 3,000 gp; **Weight** 12 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 3,000 gp
+Weight: 12 lbs.
+:::
 
 When affixed to an animal's hooves, these iron horseshoes increase the animal's base land speed by
 30 feet; this counts as an enhancement bonus. As with other effects that increase speed,
@@ -33,5 +38,7 @@ the same animal for the magic to be effective.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste);
-**Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste)
+Cost: 1,500 gp
+:::

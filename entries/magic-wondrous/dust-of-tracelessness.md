@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 This normal-seeming dust is actually a magic powder that can conceal the passage of its possessor
 and his companions. Tossing a handful of this dust into the air causes a chamber of up to 100 square
@@ -39,5 +44,7 @@ have a DC 20 higher than normal.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pass without trace](ref/spell/pass-without-trace); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pass without trace](ref/spell/pass-without-trace)
+Cost: 125 gp
+:::

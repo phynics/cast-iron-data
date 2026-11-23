@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** none; **Price** 2,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: none
+Price: 2,600 gp
+Weight: 1 lb.
+:::
 
 This thick black lens can be attached to the viewing end of a telescope. When the telescope is
 pointed toward the sky at night, whoever gazes through the lens of starsight gains the benefits of
@@ -33,6 +38,7 @@ be attached to a telescope at a time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[starsight](ref/spell/starsight), creator has at least 2 ranks in Knowledge (geography); **Cost**
-1,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [starsight](ref/spell/starsight), creator has at least 2 ranks in Knowledge (geography)
+Cost: 1,300 gp
+:::

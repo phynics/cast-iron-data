@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 9th\
-**Slot** feet; **Price** 24,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 9th
+Slot: feet
+Price: 24,000 gp
+Weight: 1 lb.
+:::
 
 These sandals are woven from grass, lengths of pliant vine, living leaves, and supple bark. In
 forest terrain, the wearer leaves no tracks or scent and gains a +2 competence bonus on
@@ -32,6 +37,7 @@ range, as _[tree stride](ref/spell/tree-stride)_ but allowing only a single tele
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pass without trace](ref/spell/pass-without-trace), [tree stride](ref/spell/tree-stride), creator
-must be a druid; **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pass without trace](ref/spell/pass-without-trace), [tree stride](ref/spell/tree-stride), creator must be a druid
+Cost: 12,000 gp
+:::

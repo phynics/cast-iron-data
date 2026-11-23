@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 3rd\
-**Slot** none; **Price** 750 gp; **Weight** -
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 3rd
+Slot: none
+Price: 750 gp
+Weight: -
+:::
 
 These small grenades are made from hollowed eggshells filled with assorted powders and reagents and
 inscribed with magical glyphs. When broken, a fugitive's grenade creates a 10-foot-radius cloud that
@@ -35,5 +40,7 @@ other means. A fugitive's grenade may be thrown as a ranged touch attack with a 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fog cloud](ref/spell/fog-cloud), [rope trick](ref/spell/rope-trick); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fog cloud](ref/spell/fog-cloud), [rope trick](ref/spell/rope-trick)
+Cost: 375 gp
+:::

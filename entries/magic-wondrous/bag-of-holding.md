@@ -23,9 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 2,500 gp (Type I), 5,000 gp (Type II), 7,400 gp (Type III), 10,000 gp (Type
-IV); **Weight** 15+ lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 2,500 gp (Type I), 5,000 gp (Type II), 7,400 gp (Type III), 10,000 gp (Type IV)
+Weight: 15+ lbs.
+:::
 
 This appears to be a common cloth sack about 2 feet by 4 feet in size. The bag of holding opens into
 a non-dimensional space: its inside is larger than its outside dimensions. Regardless of what is put
@@ -57,6 +61,7 @@ destroying the portable hole and bag of holding in the process.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 1,250 gp (Type I), 2,500 gp (Type II), 3,700 gp
-(Type III), 5,000 gp (Type IV)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 1,250 gp (Type I), 2,500 gp (Type II), 3,700 gp (Type III), 5,000 gp (Type IV)
+:::

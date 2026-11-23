@@ -20,8 +20,12 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** shoulders; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: shoulders
+Weight: 1 lb.
+:::
 
 This bright red and gold cape appears to be a _cape of the mountebank._ Once worn, however, it
 affects its wearer as if subject to a [dimensional anchor](ref/spell/dimensional-anchor) spell. The
@@ -30,4 +34,7 @@ spell or similar effect.
 
 ### Construction
 
-**Requirements** [cape of the mountebank](ref/magic-wondrous/cape-of-the-mountebank); **Cost** -
+::: statblock
+Requirements: [cape of the mountebank](ref/magic-wondrous/cape-of-the-mountebank)
+Cost: -
+:::

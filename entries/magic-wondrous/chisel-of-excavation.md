@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 34,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 34,000 gp
+Weight: 3 lbs.
+:::
 
 This chisel, made from the tooth of a purple worm, functions as a masterwork tool for
 [Craft](ref/skill/craft-any) and [Profession](ref/skill/profession-any) checks related to working
@@ -33,5 +38,7 @@ adjustment of 0).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stone shape](ref/spell/stone-shape); **Cost** 17,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stone shape](ref/spell/stone-shape)
+Cost: 17,000 gp
+:::

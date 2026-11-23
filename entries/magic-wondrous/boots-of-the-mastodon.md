@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** feet; **Price** 10,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: feet
+Price: 10,500 gp
+Weight: 2 lbs.
+:::
 
 These massive boots are made from [mastodon](ref/monster/elephant-mastodon) hide. The boots are so
 large and cumbersome that their wearer takes a -2 penalty on [Stealth](ref/skill/stealth) checks,
@@ -33,5 +38,7 @@ damage (Reflex DC 29 halves).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape III](ref/spell/beast-shape-3); **Cost** 5,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape III](ref/spell/beast-shape-3)
+Cost: 5,250 gp
+:::

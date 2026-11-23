@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 21,600 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 21,600 gp
+Weight: 1/2 lb.
+:::
 
 This ornate bronze compass aids the faithful in locating allies, or
 [inquisitors](ref/class/inquisitor) in identifying cultists. When a holy symbol is touched to a
@@ -40,5 +45,7 @@ faith. A congregant's compass can be used three times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[locate object](ref/spell/locate-object); **Cost** 10,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [locate object](ref/spell/locate-object)
+Cost: 10,800 gp
+:::

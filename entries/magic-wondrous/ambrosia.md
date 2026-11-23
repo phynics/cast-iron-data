@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration; **CL** 18th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 18th
+Slot: none
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This divine food comes in many forms, from a light and airy honeyed cake to a deep, rich chocolate.
 A mythic creature that eats this food is restored and replenished. Eating this food takes 1 minute,
@@ -33,6 +38,7 @@ to either gain this effect instead of regaining mythic power.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [greater heroism](ref/spell/heroism-greater),
-[heal](ref/spell/heal); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [greater heroism](ref/spell/heroism-greater), [heal](ref/spell/heal)
+Cost: 5,000 gp
+:::

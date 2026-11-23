@@ -20,8 +20,13 @@ aura = "strong conjuration and abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration and abjuration; **CL** 12th\
-**Slot** none; **Price** 180,000 gp; **Weight** 2,500 lbs.
+::: statblock
+Aura: strong conjuration and abjuration
+CL: 12th
+Slot: none
+Price: 180,000 gp
+Weight: 2,500 lbs.
+:::
 
 A flying skiff is a long, flat-bottomed vehicle akin to a naval ship, and is covered in metallic
 veins. Without a psychic pilot, a flying skiff acts in all regards as a
@@ -53,8 +58,7 @@ gains the following additional abilities.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[intellect fortress III](ref/spell/intellect-fortress-3),
-[mental barrier III](ref/spell/mental-barrier-3), [overland flight](ref/spell/overland-flight),
-[plane shift](ref/spell/plane-shift), [thought shield III](ref/spell/thought-shield-3),
-[tower of iron will II](ref/spell/tower-of-iron-will-2); **Cost** 90,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [intellect fortress III](ref/spell/intellect-fortress-3), [mental barrier III](ref/spell/mental-barrier-3), [overland flight](ref/spell/overland-flight), [plane shift](ref/spell/plane-shift), [thought shield III](ref/spell/thought-shield-3), [tower of iron will II](ref/spell/tower-of-iron-will-2)
+Cost: 90,000 gp
+:::

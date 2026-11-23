@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 30,840 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 30,840 gp
+Weight: 1 lb.
+:::
 
 This folding fan made from cypress wood and lacquered paper is said to have belonged to Kikuya, a
 legendary Minkai oiran, or courtesan. When held in the hand, Kikuya's sensu grants a +2 competence
@@ -34,7 +39,7 @@ spell, once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), [cat's grace](ref/spell/cats-grace),
-[forceful hand](ref/spell/forceful-hand), [whispering wind](ref/spell/whispering-wind); **Cost**
-15,420 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [cat's grace](ref/spell/cats-grace), [forceful hand](ref/spell/forceful-hand), [whispering wind](ref/spell/whispering-wind)
+Cost: 15,420 gp
+:::

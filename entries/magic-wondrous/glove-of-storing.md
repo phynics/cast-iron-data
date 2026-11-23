@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** hands; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: hands
+Price: 10,000 gp
+Weight: -
+:::
 
 This device is a single leather glove. On command, one item held in the hand wearing the glove
 disappears. The item can weigh no more than 20 pounds and must be able to be held in one hand. While
@@ -38,5 +43,7 @@ slot.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item)
+Cost: 5,000 gp
+:::

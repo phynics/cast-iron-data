@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 1,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 1,200 gp
+Weight: 1 lb.
+:::
 
 An ember glow lights the beady eyes of this blackened, burned out goblin's skull. It is very brittle
 and shatters if dropped on solid ground. When a goblin skull bomb breaks, the very last creature to
@@ -41,5 +46,7 @@ skull. It can be safely moved using spells (such as [mage hand](ref/spell/mage-h
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[flaming sphere](ref/spell/flaming-sphere); **Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flaming sphere](ref/spell/flaming-sphere)
+Cost: 600 gp
+:::

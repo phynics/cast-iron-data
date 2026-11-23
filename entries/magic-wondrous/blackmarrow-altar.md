@@ -20,8 +20,13 @@ aura = "strong necromancy [evil]"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy \[evil\]; **CL** 17th\
-**Slot** none; **Price** 32,500 gp; **Weight** 24 lbs.
+::: statblock
+Aura: strong necromancy \[evil\]
+CL: 17th
+Slot: none
+Price: 32,500 gp
+Weight: 24 lbs.
+:::
 
 This altar is built from skulls and bones as black as onyx. When placed upright on a solid surface,
 the altar begins radiating negative energy, as per _[desecrate](ref/spell/desecrate)._ If the altar
@@ -40,5 +45,7 @@ unable to do so, the creature is immediately destroyed after 4 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[desecrate](ref/spell/desecrate); **Cost** 16,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [desecrate](ref/spell/desecrate)
+Cost: 16,250 gp
+:::

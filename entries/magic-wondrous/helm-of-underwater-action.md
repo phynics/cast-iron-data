@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 24,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 24,000 gp
+Weight: 3 lbs.
+:::
 
 The wearer of this helmet can see underwater. Drawing the small lenses in compartments on either
 side into position before the wearer's eyes activates the visual properties of the helm, allowing
@@ -36,5 +41,7 @@ breathe freely.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[water breathing](ref/spell/water-breathing); **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [water breathing](ref/spell/water-breathing)
+Cost: 12,000 gp
+:::

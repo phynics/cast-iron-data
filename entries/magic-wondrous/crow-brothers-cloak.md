@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This flowing, black silken cloak glitters with an iridescent sheen like the feathers of a crow's
 wing. When the wearer moves, the fabric seems to dance on the air, as though it longed to take
@@ -45,6 +50,7 @@ points, it returns to its cloak form immediately and cannot be transformed again
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with animals](ref/spell/speak-with-animals), [summon swarm](ref/spell/summon-swarm); **Cost**
-4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with animals](ref/spell/speak-with-animals), [summon swarm](ref/spell/summon-swarm)
+Cost: 4,000 gp
+:::

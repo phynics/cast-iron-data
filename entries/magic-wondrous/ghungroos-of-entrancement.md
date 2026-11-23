@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** feet; **Price** 3,750 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: feet
+Price: 3,750 gp
+Weight: -
+:::
 
 Each of these musical anklets bears rows of tiny bells that accentuate the rhythmic elements of a
 trained dancer's performances and enhance an accompanying musical performance, fascinating her
@@ -36,6 +41,7 @@ The wearer takes a -2 penalty on [Stealth](ref/skill/stealth) checks while weari
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hypnotism](ref/spell/hypnotism), creator must have bardic performance and 5 ranks in Perform
-(dance); **Cost** 1,875 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hypnotism](ref/spell/hypnotism), creator must have bardic performance and 5 ranks in Perform (dance)
+Cost: 1,875 gp
+:::

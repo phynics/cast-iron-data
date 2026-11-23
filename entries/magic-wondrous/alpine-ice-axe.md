@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 8,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 8,000 gp
+Weight: 3 lbs.
+:::
 
 This sturdy tool has a wooden haft topped with a curved pick head backed with a sharp adze blade at
 one end and capped with an iron spike on the other. When used as a climbing aid, an alpine ice axe
@@ -43,5 +48,7 @@ ice axe bypasses that creature's [damage reduction](ref/rule/damage-reduction).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shatter](ref/spell/shatter),
-[snow shape](ref/spell/snow-shape), creator must have 5 ranks in the Climb skill; **Cost** 4,176 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shatter](ref/spell/shatter), [snow shape](ref/spell/snow-shape), creator must have 5 ranks in the Climb skill
+Cost: 4,176 gp
+:::

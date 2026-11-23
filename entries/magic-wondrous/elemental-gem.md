@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 2,250 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 2,250 gp
+Weight: -
+:::
 
 An elemental gem comes in one of four different varieties. Each contains a conjuration spell attuned
 to a specific elemental plane (Air, Earth, Fire, or Water).
@@ -39,6 +44,7 @@ elemental gems are blue-green.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster V](ref/spell/summon-monster-5) or
-[summon nature's ally V](ref/spell/summon-natures-ally-5); **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster V](ref/spell/summon-monster-5) or [summon nature's ally V](ref/spell/summon-natures-ally-5)
+Cost: 1,125 gp
+:::

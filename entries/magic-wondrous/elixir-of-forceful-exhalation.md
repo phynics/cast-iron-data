@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 900 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 900 gp
+Weight: 1 lb.
+:::
 
 This fizzy, sky-blue liquid leaves its drinker feeling buoyant, yet bloated. The drinker gains a +4
 competence bonus on [Acrobatics](ref/skill/acrobatics) checks made to make high or long jumps and on
@@ -32,5 +37,7 @@ gusts dissipate after 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gust of wind](ref/spell/gust-of-wind); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gust of wind](ref/spell/gust-of-wind)
+Cost: 450 gp
+:::

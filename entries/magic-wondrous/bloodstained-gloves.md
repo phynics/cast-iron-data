@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Aura** moderate divination; **CL** 6th\
-**Slot** hands; **Price** 8,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 6th
+Slot: hands
+Price: 8,000 gp
+Weight: 5 lbs.
+:::
 
 The original color of these supple, calfskin gloves is obfuscated by layers of brown bloodstains
 that persist through any amount of cleaning. If the gloves are soaked in the blood of a recently
@@ -34,5 +39,7 @@ gloves' ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[instant enemy](ref/spell/instant-enemy); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [instant enemy](ref/spell/instant-enemy)
+Cost: 4,000 gp
+:::

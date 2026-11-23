@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** belt; **Price** 21,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: belt
+Price: 21,000 gp
+Weight: 1 lb.
+:::
 
 This large brass belt has three panels depicting scenes of battle. Once per day on command, the
 wearer can summon the spirit of a hero of one of the depicted battles. This spirit acts as a
@@ -32,6 +37,7 @@ on all saving throws.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), [spiritual ally](ref/spell/spiritual-ally); **Cost** 10,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), [spiritual ally](ref/spell/spiritual-ally)
+Cost: 10,500 gp
+:::

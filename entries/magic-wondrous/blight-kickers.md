@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** feet; **Price** 13,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: feet
+Price: 13,500 gp
+Weight: 1 lb.
+:::
 
 These leather combat boots have brown or black laces and several rows of pouches near their tops.
 These magical boots can hide up to 5 doses of poison in the attached pouches. These boots grant a
@@ -33,6 +38,7 @@ to begin immediately.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[accelerate poison](ref/spell/accelerate-poison), [cat's grace](ref/spell/cats-grace); **Cost**
-6,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [accelerate poison](ref/spell/accelerate-poison), [cat's grace](ref/spell/cats-grace)
+Cost: 6,750 gp
+:::

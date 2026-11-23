@@ -20,8 +20,13 @@ aura = "faint divination and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and evocation; **CL** 5th\
-**Slot** hands; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint divination and evocation
+CL: 5th
+Slot: hands
+Price: 4,000 gp
+Weight: -
+:::
 
 These gloves are made of pale gray silk; each is adorned with an embroidered silver eye on the back.
 Once per day the wearer may activate them, as a standard action, by bowing her head and pressing her
@@ -40,6 +45,7 @@ dead for the next 10 rounds. While active, ghostvision gloves grant the followin
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect undead](ref/spell/detect-undead), [searing light](ref/spell/searing-light), channel positive
-energy class ability; **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect undead](ref/spell/detect-undead), [searing light](ref/spell/searing-light), channel positive energy class ability
+Cost: 2,000 gp
+:::

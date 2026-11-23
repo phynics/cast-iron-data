@@ -20,8 +20,13 @@ aura = "minor illusion"
 caster_level = "3rd"
 +++
 
-**Aura** minor illusion; **CL** 3rd\
-**Slot** cloak; **Price** 11,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: minor illusion
+CL: 3rd
+Slot: cloak
+Price: 11,000 gp
+Weight: 1 lb.
+:::
 
 Designed to meet the dual needs of the Chelish elite - glamour and subtlety - the cloak of flash and
 shadow is a magic reversible cloak. When worn one way, the cloak shimmers with heavy gold and silver
@@ -35,5 +40,7 @@ Reversing the cloak's position is a standard action and requires at least one fr
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur),
-[eagle's splendor](ref/spell/eagles-splendor); **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur), [eagle's splendor](ref/spell/eagles-splendor)
+Cost: 5,500 gp
+:::

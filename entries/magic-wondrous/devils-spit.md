@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 60 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 60 gp
+Weight: -
+:::
 
 Devil's spit is a more potent form of [unholy water](ref/eq-weapon/holy-water), and acts in most
 ways like a vial of that substance. However, a direct hit by a flask of devil's spit deals 4d4
@@ -38,5 +43,7 @@ provokes attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[curse water](ref/spell/curse-water); **Cost** 30 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [curse water](ref/spell/curse-water)
+Cost: 30 gp
+:::

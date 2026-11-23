@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 3,000 gp
+Weight: -
+:::
 
 This small black sphere appears to be a lusterless pearl. A bead of force can be thrown up to 60
 feet with no range penalties. Upon sharp impact, the bead explodes, sending forth a
@@ -45,5 +50,7 @@ this a one-use item.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resilient sphere](ref/spell/resilient-sphere); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resilient sphere](ref/spell/resilient-sphere)
+Cost: 1,500 gp
+:::

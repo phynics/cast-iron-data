@@ -20,8 +20,13 @@ aura = "moderate enchantment and evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment and evocation; **CL** 7th\
-**Slot** none; **Price** 700 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment and evocation
+CL: 7th
+Slot: none
+Price: 700 gp
+Weight: 1 lb.
+:::
 
 Silvery, pearlescent light seeps out of this skull-sized glass orb. When shattered (a standard
 action), the globe floods a 30-foot-radius burst in moonlight. Creatures that are affected by the
@@ -33,5 +38,7 @@ interacting with other light or darkness effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
-[moonstruck](ref/spell/moonstruck); **Cost** 350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light), [moonstruck](ref/spell/moonstruck)
+Cost: 350 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** feet; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: feet
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 While unattended, these rough leather boots appear to be in a slightly different place each time a
 creature observes them. They seem to flicker around the wearer's feet for the first 24 hours she
@@ -37,5 +42,7 @@ wearer as normal.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur);
-**Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur)
+Cost: 1,000 gp
+:::

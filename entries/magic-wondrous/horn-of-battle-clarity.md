@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 The call of this hollowed-out animal horn rallies nearby creatures to battle. When the horn is
 blown, all creatures within 60 feet who have not yet acted in combat are no longer considered
@@ -33,5 +38,7 @@ A barbarian who sounds a horn of battle clarity may spend 2 rounds of rage to ac
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage);
-**Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage)
+Cost: 3,000 gp
+:::

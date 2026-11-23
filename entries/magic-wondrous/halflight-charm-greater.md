@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** neck; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: neck
+Price: 20,000 gp
+Weight: -
+:::
 
 While regular halflight charms are temporarily issued to anyone traversing the Halflight Path under
 Duskwarden guidance, greater halflight charms are given to those who have saved a Duskwarden's life
@@ -38,5 +43,7 @@ caster's will in any way.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision), [teleport](ref/spell/teleport); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision), [teleport](ref/spell/teleport)
+Cost: 10,000 gp
+:::

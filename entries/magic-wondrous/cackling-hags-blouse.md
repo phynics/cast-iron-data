@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** chest; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: chest
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 This loose-fitting blouse is adorned with grotesque fetishes and trophies, granting the wearer a +2
 competence bonus on [Intimidate](ref/skill/intimidate) checks. If the wearer is a
@@ -30,6 +35,7 @@ cackle hex, twice per day she can use her cackle ability as a swift action inste
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hideous laughter](ref/spell/hideous-laughter) or the cackle hex, creator must have 5 ranks in
-Intimidate; **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hideous laughter](ref/spell/hideous-laughter) or the cackle hex, creator must have 5 ranks in Intimidate
+Cost: 3,000 gp
+:::

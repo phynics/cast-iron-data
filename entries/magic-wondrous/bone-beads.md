@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** wrists; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: wrists
+Price: 6,000 gp
+Weight: -
+:::
 
 This bracelet of tiny carved skulls allows its wearer to command up to 8 HD worth of mindless undead
 creatures as the _[command undead](ref/spell/command-undead)_ spell. It is a standard action to
@@ -31,5 +36,7 @@ any previously controlled undead in excess of this amount become uncontrolled.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[command undead](ref/spell/command-undead); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [command undead](ref/spell/command-undead)
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 28,800 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 28,800 gp
+Weight: 3 lbs.
+:::
 
 The pages of this thick and travel-worn leather book visibly rewrite themselves as a reader flips
 through them, creating a number of delicious recipes that seem to anticipate the current craving or
@@ -35,6 +40,7 @@ _[heroes' feast](ref/spell/heroes-feast)_ spell (caster level 11th).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[heroes' feast](ref/spell/heroes-feast), the creator must have at least 4 ranks in Profession
-(cook); **Cost** 14,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroes' feast](ref/spell/heroes-feast), the creator must have at least 4 ranks in Profession (cook)
+Cost: 14,400 gp
+:::

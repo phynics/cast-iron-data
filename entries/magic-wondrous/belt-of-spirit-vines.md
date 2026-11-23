@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** belt; **Price** 15,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: belt
+Price: 15,000 gp
+Weight: 2 lbs.
+:::
 
 This belt is constructed from woven vines. Its wearer can touch a willing creature and cause a
 ghostly vine to grow from the belt, connecting the wearer to the target creature. While connected to
@@ -36,5 +41,7 @@ broken if the wearer [dismisses](ref/misc/dismissible) it or connects the vine t
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plant growth](ref/spell/plant-growth); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plant growth](ref/spell/plant-growth)
+Cost: 7,500 gp
+:::

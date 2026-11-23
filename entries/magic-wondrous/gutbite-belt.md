@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 4,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 4,500 gp
+Weight: 1 lb.
+:::
 
 This heavy leather belt is reinforced with metal and detailed to resemble a gut wound that has
 sprouted teeth. In addition to functioning as a
@@ -35,6 +40,7 @@ from it as if he had eaten with his own mouth (the mouth refuses any food other 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [bear's endurance](ref/spell/bears-endurance);
-**Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [bear's endurance](ref/spell/bears-endurance)
+Cost: 2,250 gp
+:::

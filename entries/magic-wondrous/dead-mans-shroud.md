@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** shoulders; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: shoulders
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 This dirt-stained cloak was woven in shadow from the burial shroud of a condemned murderer. It
 prevents nonintelligent undead from detecting you, as per the
@@ -33,6 +38,7 @@ invisible for 5 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hide from undead](ref/spell/hide-from-undead), [invisibility](ref/spell/invisibility); **Cost**
-3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hide from undead](ref/spell/hide-from-undead), [invisibility](ref/spell/invisibility)
+Cost: 3,000 gp
+:::

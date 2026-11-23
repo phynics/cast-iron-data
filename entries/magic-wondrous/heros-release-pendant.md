@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** neck; **Price** 2,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: neck
+Price: 2,800 gp
+Weight: 1 lb.
+:::
 
 This small jeweled pendant looks like a tiny dagger set with handsome blue gems, but it is too small
 to be used as a weapon in combat. While wearing the pendant, the wearer does not provoke attacks of
@@ -30,5 +35,7 @@ its wearer a +2 resistance bonus on Will saves.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell), [resistance](ref/spell/resistance); **Cost** 1,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell), [resistance](ref/spell/resistance)
+Cost: 1,400 gp
+:::

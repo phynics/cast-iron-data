@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** chest; **Price** 22,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: chest
+Price: 22,600 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -40,5 +45,7 @@ otherwise it has no limitation on usage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove curse](ref/spell/remove-curse), creator must be a tengu; **Cost** 11,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove curse](ref/spell/remove-curse), creator must be a tengu
+Cost: 11,300 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** shoulders; **Price** 17,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: shoulders
+Price: 17,500 gp
+Weight: 1 lb.
+:::
 
 This knee-length cape is decorated with images of butterflies, moths, and stars. Once per day, the
 wearer can speak a command word to cause the cape to transform into a cloud of butterflies or moths.
@@ -31,5 +36,7 @@ _[glitterdust](ref/spell/glitterdust)_ once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cape of wasps](ref/spell/cape-of-wasps), [glitterdust](ref/spell/glitterdust); **Cost** 8,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cape of wasps](ref/spell/cape-of-wasps), [glitterdust](ref/spell/glitterdust)
+Cost: 8,750 gp
+:::

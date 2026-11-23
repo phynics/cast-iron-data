@@ -23,8 +23,13 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Aura** strong divination; **CL** 12th\
-**Slot** belt; **Price** 14,900 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong divination
+CL: 12th
+Slot: belt
+Price: 14,900 gp
+Weight: 1 lb.
+:::
 
 This belt gives the wearer a +4 competence bonus on Charisma checks and Charisma-based skill checks
 as they relate to dealing with dwarves, a +2 competence bonus on similar checks when dealing with
@@ -35,5 +40,7 @@ Constitution, and a +2 resistance bonus on saves against poison, spells, and spe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tongues](ref/spell/tongues),
-creator must be a dwarf; **Cost** 7,450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tongues](ref/spell/tongues), creator must be a dwarf
+Cost: 7,450 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 2,500 gp
+Weight: -
+:::
 
 The lenses of this item are made of special crystal, its band woven with tiny patterns of metallic
 thread almost invisible to the naked eye. When placed over the eyes of the wearer, the lenses enable
@@ -34,5 +39,7 @@ to be effective.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true seeing](ref/spell/true-seeing); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true seeing](ref/spell/true-seeing)
+Cost: 1,250 gp
+:::

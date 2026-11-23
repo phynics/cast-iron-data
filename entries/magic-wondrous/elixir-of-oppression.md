@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 This elixir is normally made from the juice of tomb herald brambles, though other formulae have also
 been discovered. It allows creatures with the [scent](ref/umr/scent) ability to smell fear, and
@@ -38,5 +43,7 @@ of the second dose.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare);
-**Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare)
+Cost: 300 gp
+:::

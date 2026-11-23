@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** shoulders; **Price** 30,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: shoulders
+Price: 30,000 gp
+Weight: 10 lbs.
+:::
 
 This leather harness has four clockwork arms attached to it. When it's worn, the arms are positioned
 behind the wearer's shoulders, with one pair slightly higher than the wearer's and the other set
@@ -37,5 +42,7 @@ attacks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects)
+Cost: 15,000 gp
+:::

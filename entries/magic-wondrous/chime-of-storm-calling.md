@@ -20,8 +20,13 @@ aura = "faint conjuration and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and evocation; **CL** 5th\
-**Slot** none; **Price** 6,750 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration and evocation
+CL: 5th
+Slot: none
+Price: 6,750 gp
+Weight: 1 lb.
+:::
 
 This copper chime can be struck as a standard action, producing a cloud of mist around the user
 equivalent to an _[obscuring mist](ref/spell/obscuring-mist)_ spell. If struck again before the mist
@@ -38,6 +43,7 @@ climate.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[call lightning](ref/spell/call-lightning), [gust of wind](ref/spell/gust-of-wind),
-[obscuring mist](ref/spell/obscuring-mist); **Cost** 3,375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [call lightning](ref/spell/call-lightning), [gust of wind](ref/spell/gust-of-wind), [obscuring mist](ref/spell/obscuring-mist)
+Cost: 3,375 gp
+:::

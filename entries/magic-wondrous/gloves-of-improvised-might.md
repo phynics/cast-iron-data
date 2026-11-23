@@ -20,9 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp
-(+5); **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp (+5)
+Weight: 1 lb.
+:::
 
 These rough leather gloves grant an enhancement bonus of +1 to +5 on attack and damage rolls with
 [improvised weapons](ref/misc/improvised-weapons). Alternatively, the gloves can grant melee weapon
@@ -41,7 +45,7 @@ normal, unless he has the [Catch Off-Guard](ref/feat/catch-off-guard) feat or a 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater magic weapon](ref/spell/magic-weapon-greater), creator's caster level must be at least
-three times the gloves' bonus, plus any requirements of the melee weapon special abilities; **Cost**
-2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater magic weapon](ref/spell/magic-weapon-greater), creator's caster level must be at least three times the gloves' bonus, plus any requirements of the melee weapon special abilities
+Cost: 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
+:::

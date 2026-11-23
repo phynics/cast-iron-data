@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 4,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 4,000 gp
+Weight: 2 lbs.
+:::
 
 This slim leather leash is just over 100 feet long, incredibly light, and uncannily strong, making
 it an excellent tool for training birds of prey and other flying predators. It grants a +4
@@ -34,5 +39,7 @@ to the master's forearm; attack rolls and skill checks made with that arm take a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Reach Spell](ref/feat/reach-spell), [feather fall](ref/spell/feather-fall); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Reach Spell](ref/feat/reach-spell), [feather fall](ref/spell/feather-fall)
+Cost: 2,000 gp
+:::

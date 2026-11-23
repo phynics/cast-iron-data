@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 5,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 5,500 gp
+Weight: 1 lb.
+:::
 
 When a cleric with an icon of aspects prepares spells, she may replace the granted powers of one of
 her domains with those of a different domain she doesn't have but that is associated with her deity.
@@ -34,6 +39,7 @@ only one person at a time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability), creator must be a divine
-spellcaster; **Cost** 2,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability), creator must be a divine spellcaster
+Cost: 2,750 gp
+:::

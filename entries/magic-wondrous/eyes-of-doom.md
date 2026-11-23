@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** eyes; **Price** 25,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: eyes
+Price: 25,000 gp
+Weight: -
+:::
 
 These crystal lenses fit over the user's eyes, enabling him to cast _[doom](ref/spell/doom)_ upon
 those around him (one target per round) as a [gaze](ref/umr/gaze) attack, except that the wearer
@@ -36,5 +41,7 @@ take effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [doom](ref/spell/doom),
-[deathwatch](ref/spell/deathwatch), [fear](ref/spell/fear); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [doom](ref/spell/doom), [deathwatch](ref/spell/deathwatch), [fear](ref/spell/fear)
+Cost: 12,500 gp
+:::

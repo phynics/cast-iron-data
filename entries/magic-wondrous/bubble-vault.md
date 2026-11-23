@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This tiny pearl swells to form a 1-foot-diameter soap-like bubble when placed in water. Up to 5
 cubic feet of goods can be placed inside the bubble vault. On command, the bubble sinks to the
@@ -34,5 +39,7 @@ but does not otherwise magically protect or preserve its contents. If forced ope
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item), [unseen servant](ref/spell/unseen-servant); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item), [unseen servant](ref/spell/unseen-servant)
+Cost: 750 gp
+:::

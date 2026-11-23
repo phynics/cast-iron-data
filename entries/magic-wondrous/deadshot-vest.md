@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** chest; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: chest
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 This rough vest of black snakeskin is decorated with a fringe of rawhide tassels, each knotted
 around a bit of bone or a small animal skull. A gunslinger with the [deadeye](ref/deed/deadeye) deed
@@ -36,5 +41,7 @@ _[death knell](ref/spell/death-knell)_ (for example, if the range increment pena
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell), [true strike](ref/spell/true-strike); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell), [true strike](ref/spell/true-strike)
+Cost: 3,000 gp
+:::

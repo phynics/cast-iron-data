@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 19,000 gp; **Weight** 100 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 19,000 gp
+Weight: 100 lbs.
+:::
 
 These chests most often appear as hinged, reinforced wooden barrels with saddles. Upon close
 inspection, a keyhole is visible on the side of the barrel, where a
@@ -35,6 +40,7 @@ weight of material stored within.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [overland flight](ref/spell/overland-flight),
-[permanency](ref/spell/permanency); **Cost** 8,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [overland flight](ref/spell/overland-flight), [permanency](ref/spell/permanency)
+Cost: 8,500 gp
+:::

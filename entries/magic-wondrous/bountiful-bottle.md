@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This oddly shaped, transparent bottle has one chamber nested inside the other and two separate
 spouts, one leading into the smaller inner bottle, and the other into the outer bottle. To use the
@@ -35,6 +40,7 @@ full-round action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [universal formula](ref/spell/universal-formula);
-**Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [universal formula](ref/spell/universal-formula)
+Cost: 2,000 gp
+:::

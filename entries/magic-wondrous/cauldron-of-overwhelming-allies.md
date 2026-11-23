@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 4,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 4,500 gp
+Weight: 5 lbs.
+:::
 
 The artistic scrawls on the dark surface of this small bronze cauldron depict an array of exotic
 animals, legendary beasts, leering fiends, and hosts of elementals. Once per day, if used as the
@@ -33,6 +38,7 @@ casts [summon monster III](ref/spell/summon-monster-3) to summon 1d3 wolves, he 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Spell Focus](ref/feat/spell-focus) (conjuration), [summon monster IV](ref/spell/summon-monster-4)
-or [summon nature's ally IV](ref/spell/summon-natures-ally-4); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Spell Focus](ref/feat/spell-focus) (conjuration), [summon monster IV](ref/spell/summon-monster-4) or [summon nature's ally IV](ref/spell/summon-natures-ally-4)
+Cost: 2,250 gp
+:::

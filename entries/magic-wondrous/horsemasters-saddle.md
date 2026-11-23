@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 12,000 gp
+Weight: 5 lbs.
+:::
 
 This ornate [military saddle](ref/eq-misc/military-saddle), tooled with an elaborate equine motif,
 grants the mount a +5 competence bonus on [Acrobatics](ref/skill/acrobatics) checks and the mount's
@@ -30,5 +35,7 @@ benefits of any teamwork feats possessed by the rider.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mount](ref/spell/mount),
-creator must have 5 ranks in Ride; **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mount](ref/spell/mount), creator must have 5 ranks in Ride
+Cost: 6,000 gp
+:::

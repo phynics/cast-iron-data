@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** head; **Price** 21,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: head
+Price: 21,000 gp
+Weight: 1 lb.
+:::
 
 This jagged steel crown is rough and scratched but shows no sign of being dented or misshapen. Once
 per day, the wearer can issue a challenge to a creature able to see and hear him. The creature gains
@@ -37,5 +42,7 @@ the creature challenged without expending a daily use of his own challenge abili
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater planar ally](ref/spell/planar-ally-greater); **Cost** 10,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater planar ally](ref/spell/planar-ally-greater)
+Cost: 10,500 gp
+:::

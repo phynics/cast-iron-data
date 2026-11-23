@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** shoulder; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: shoulder
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 This white silk cloak shimmers with divine energy. Once per day as an immediate action, the wearer
 of a cloak of heavenly fire can cause it to flash with flames as another creature touches the wearer
@@ -35,6 +40,7 @@ creature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure moderate wounds](ref/spell/cure-moderate-wounds), [fire shield](ref/spell/fire-shield);
-**Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure moderate wounds](ref/spell/cure-moderate-wounds), [fire shield](ref/spell/fire-shield)
+Cost: 3,000 gp
+:::

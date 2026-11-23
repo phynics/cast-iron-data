@@ -20,8 +20,13 @@ aura = "moderate divination and transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination and transmutation; **CL** 8th\
-**Slot** headband; **Price** 5,100 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination and transmutation
+CL: 8th
+Slot: headband
+Price: 5,100 gp
+Weight: 1 lb.
+:::
 
 This black leather headband has two small amber gemstones set so they rest on the wearer's forehead.
 The headband grants the wearer a +2 enhancement bonus to Intelligence. Treat this as a
@@ -39,5 +44,7 @@ after that, the wearer receives a final piece of information, treating her natur
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[know the enemy](ref/spell/know-the-enemy); **Cost** 2,550 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [know the enemy](ref/spell/know-the-enemy)
+Cost: 2,550 gp
+:::

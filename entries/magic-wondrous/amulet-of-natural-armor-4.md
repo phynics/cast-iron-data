@@ -25,9 +25,13 @@ caster_level = "5th"
 
 ## Amulet of Natural Armor
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** neck; **Price** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp
-(+5); **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: neck
+Price: 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
+Weight: -
+:::
 
 This amulet, usually containing some type of magically preserved monster hide or other natural
 armor - such as bone, horn, carapace, or beast scales - toughens the wearer's body and flesh, giving
@@ -35,6 +39,7 @@ him an enhancement bonus to his natural armor from +1 to +5, depending on the ki
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), creator's caster level must be at least three times the amulet's
-bonus; **Cost** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), creator's caster level must be at least three times the amulet's bonus
+Cost: 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)
+:::

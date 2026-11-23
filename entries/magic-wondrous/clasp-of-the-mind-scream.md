@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** head; **Price** 12,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: head
+Price: 12,800 gp
+Weight: 1 lb.
+:::
 
 This strange device grants the ability to mentally communicate with others, yet proves difficult to
 control. It generates a constant field of mental static that grants the wearer a +1 bonus on Will
@@ -38,5 +43,7 @@ he is affected by its effects and the clasp is inert for the next 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect thoughts](ref/spell/detect-thoughts), [shout](ref/spell/shout); **Cost** 6,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect thoughts](ref/spell/detect-thoughts), [shout](ref/spell/shout)
+Cost: 6,400 gp
+:::

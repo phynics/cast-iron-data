@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 5,000 gp
+Weight: 1/2 lb.
+:::
 
 When a drinker willingly imbibes this elixir underwater, the elixir of two worlds transforms either
 a humanoid-shaped land-dwelling creature or a merfolk-shaped sea-dwelling creature instantaneously.
@@ -35,6 +40,7 @@ or similar magic, or another elixir of two worlds, can reverse the elixir's effe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fins to feet](ref/spell/fins-to-feet), [polymorph any object](ref/spell/polymorph-any-object);
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fins to feet](ref/spell/fins-to-feet), [polymorph any object](ref/spell/polymorph-any-object)
+Cost: 2,500 gp
+:::

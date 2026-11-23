@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 This draught of liquid grants the drinker the ability to tumble about, avoiding attacks and moving
 carefully across nearly any surface, granting a +10 competence bonus on
@@ -32,5 +37,7 @@ carefully across nearly any surface, granting a +10 competence bonus on
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Cost: 125 gp
+:::

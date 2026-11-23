@@ -23,8 +23,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** none; **Price** 2,500 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: none
+Price: 2,500 gp
+Weight: 1/2 lb.
+:::
 
 This white tallow candle, when burned, calls into place a _[zone of truth](ref/spell/zone-of-truth)_
 spell (Will DC 13 negates) in a 5-foot radius centered on the candle. The zone lasts for 1 hour,
@@ -33,5 +38,7 @@ candle ruined.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[zone of truth](ref/spell/zone-of-truth); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [zone of truth](ref/spell/zone-of-truth)
+Cost: 1,250 gp
+:::

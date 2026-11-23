@@ -23,8 +23,13 @@ aura = "faint universal"
 caster_level = "1st"
 +++
 
-**Aura** faint universal; **CL** 1st\
-**Slot** hands; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint universal
+CL: 1st
+Slot: hands
+Price: 2,000 gp
+Weight: -
+:::
 
 The wearer of this slender white leather glove may, as a standard action, press it against any
 surface or object and cause a luminous handprint to appear. This print glows any color the wearer
@@ -34,5 +39,7 @@ wearer's hand in terms of size, position of fingers, and so on.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane mark](ref/spell/arcane-mark); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane mark](ref/spell/arcane-mark)
+Cost: 1,000 gp
+:::

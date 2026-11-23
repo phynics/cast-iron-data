@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 8th\
-**Slot** headband; **Price** 5,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 8th
+Slot: headband
+Price: 5,600 gp
+Weight: 1 lb.
+:::
 
 This simple white cotton headband is decorated with a stylized imperial dragon coiled above the
 wearer's forehead. The headband grants the wearer a +2 enhancement bonus to her Wisdom score. Treat
@@ -36,5 +41,7 @@ wearer can use this ability up to three times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[owl's wisdom](ref/spell/owls-wisdom), [remove fear](ref/spell/remove-fear); **Cost** 2,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [owl's wisdom](ref/spell/owls-wisdom), [remove fear](ref/spell/remove-fear)
+Cost: 2,800 gp
+:::

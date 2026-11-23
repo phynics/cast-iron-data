@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 Tools of this type always appear to be of the highest quality and wrought of the finest materials,
 most often [mithral](ref/eq-material/mithral), [darkwood](ref/eq-material/darkwood), and
@@ -41,5 +46,7 @@ of crafting and gaining the +4 circumstance bonus granted by the tools.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Master Craftsman](ref/feat/master-craftsman); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Master Craftsman](ref/feat/master-craftsman)
+Cost: 6,000 gp
+:::

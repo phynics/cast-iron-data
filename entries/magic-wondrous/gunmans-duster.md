@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** body; **Price** 36,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: body
+Price: 36,000 gp
+Weight: 5 lbs.
+:::
 
 This long, loose-fitting coat grants a +4 armor bonus to AC and a +2 luck bonus to the wearer's
 touch AC against firearm attacks. If the wearer is a [gunslinger](ref/class/gunslinger) or has the
@@ -32,5 +37,7 @@ point. This extra point does not increase her maximum grit total. When the weare
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Amateur Gunslinger or creator
-must be a gunslinger, [bullet shield](ref/spell/bullet-shield); **Cost** 18,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Amateur Gunslinger or creator must be a gunslinger, [bullet shield](ref/spell/bullet-shield)
+Cost: 18,000 gp
+:::

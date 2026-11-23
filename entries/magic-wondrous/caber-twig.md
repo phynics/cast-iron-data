@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 300 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 300 gp
+Weight: 4 lbs.
+:::
 
 Exquisitely carved from the very finest dark mahogany and polished to a smooth sheen, this
 4-inch-long stick feels surprisingly heavy for its size when hefted in the palm. Three notches
@@ -50,5 +55,7 @@ Once created, a caber twig log is permanent.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plant growth](ref/spell/plant-growth); **Cost** 150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plant growth](ref/spell/plant-growth)
+Cost: 150 gp
+:::

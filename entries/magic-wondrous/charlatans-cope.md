@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** body; **Price** 4,800 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: body
+Price: 4,800 gp
+Weight: 2 lbs.
+:::
 
 This plush hooded robe is finely trimmed with gold accents. When the wearer casts a spell, the robe
 scintillates with color and produces ostentatious magical effects, such as bright lights and loud
@@ -32,6 +37,7 @@ be [blinded](ref/misc/blinded) for 1d4+1 rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ghost sound](ref/spell/ghost-sound), [pyrotechnics](ref/spell/pyrotechnics),
-[silent image](ref/spell/silent-image); **Cost** 2,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ghost sound](ref/spell/ghost-sound), [pyrotechnics](ref/spell/pyrotechnics), [silent image](ref/spell/silent-image)
+Cost: 2,400 gp
+:::

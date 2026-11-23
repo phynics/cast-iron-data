@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 5th\
-**Slot** none; **Price** 6,750 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 5th
+Slot: none
+Price: 6,750 gp
+Weight: 5 lbs.
+:::
 
 This heavy bronze bowl, etched with outlines of waves, feels cool to the touch. Once per day as a
 standard action, the bowl can be commanded to grow in size and fill with 25 gallons of cool, fresh
@@ -32,5 +37,7 @@ are expelled into an adjacent square.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create water](ref/spell/create-water), [shrink item](ref/spell/shrink-item); **Cost** 3,375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create water](ref/spell/create-water), [shrink item](ref/spell/shrink-item)
+Cost: 3,375 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** neck; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: neck
+Price: 4,000 gp
+Weight: -
+:::
 
 This simple necklace contains an hourglass-shaped pendant with one black half and one white half.
 Once per day, the wearer can speak a command word to gain
@@ -31,5 +36,7 @@ as spells and spell-like abilities of the shadow subschool. This effect lasts fo
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dancing lights](ref/spell/dancing-lights), [darkness](ref/spell/darkness); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dancing lights](ref/spell/dancing-lights), [darkness](ref/spell/darkness)
+Cost: 2,000 gp
+:::

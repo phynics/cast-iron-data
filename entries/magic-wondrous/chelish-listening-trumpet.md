@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 10,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 10,800 gp
+Weight: 1 lb.
+:::
 
 This silver [ear trumpet](ref/eq-misc/ear-trumpet) resembles the popular mundane item used for
 listening to Chelish opera and has elaborate spirals carved along its 1-foot length. While held to
@@ -32,5 +37,7 @@ listening through closed doors, walls, or the like.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Cost: 5,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Aura** strong divination; **CL** 13th\
-**Slot** none; **Price** 1,150 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong divination
+CL: 13th
+Slot: none
+Price: 1,150 gp
+Weight: 1/2 lb.
+:::
 
 This multifaceted prism acts as an aid in concentration. It can be used as a focus for the
 [read aura](ref/skill/perception) occult skill unlock to reduce the time needed to read an aura from
@@ -44,5 +49,7 @@ subtracts an additional 1d10 from the percentage roll.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contact other plane](ref/spell/contact-other-plane); **Cost** 575 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contact other plane](ref/spell/contact-other-plane)
+Cost: 575 gp
+:::

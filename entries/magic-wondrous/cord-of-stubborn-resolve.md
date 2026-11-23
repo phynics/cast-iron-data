@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 15,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 15,000 gp
+Weight: 1 lb.
+:::
 
 When fastened about the waist, this stout length of rope grants a +2 enhancement bonus to
 Constitution along with prodigious stamina. Treat the enhancement bonus to Constitution as a
@@ -33,6 +38,7 @@ likewise causes 1d6 points of nonlethal damage, and leaves the wearer fatigued i
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [lesser restoration](ref/spell/restoration-lesser);
-**Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [lesser restoration](ref/spell/restoration-lesser)
+Cost: 7,500 gp
+:::

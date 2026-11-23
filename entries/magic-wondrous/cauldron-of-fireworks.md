@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** none; **Price** 7,500 gp; **Weight** 25 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: none
+Price: 7,500 gp
+Weight: 25 lbs.
+:::
 
 This heavy cauldron emits colorful smoke whenever a potion is poured into it. Pouring a potion into
 a cauldron of fireworks is a standard action, and a creature can use the fireworks cauldron to store
@@ -38,6 +43,7 @@ potions stored by another user.
 
 ### Construction
 
-**Requirements** [Brew Potion](ref/feat/brew-potion),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [Reach Spell](ref/feat/reach-spell), cauldron
-hex; **Cost** 3,750 gp
+::: statblock
+Requirements: [Brew Potion](ref/feat/brew-potion), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Reach Spell](ref/feat/reach-spell), cauldron hex
+Cost: 3,750 gp
+:::

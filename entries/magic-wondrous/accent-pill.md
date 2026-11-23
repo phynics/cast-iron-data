@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 300 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 300 gp
+Weight: -
+:::
 
 This small, white pill has the consistency of a toughened almond. When consumed on its own, an
 accent pill has no effect on the creature ingesting it. To function, the pill must first be coated
@@ -35,6 +40,7 @@ voice without seeing the speaker. This effect lasts for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[vocal alteration](ref/spell/vocal-alteration), creator must possess 5 ranks in Craft (alchemy);
-**Cost** 150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [vocal alteration](ref/spell/vocal-alteration), creator must possess 5 ranks in Craft (alchemy)
+Cost: 150 gp
+:::

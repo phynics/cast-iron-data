@@ -23,8 +23,12 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** hands; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: hands
+Weight: 2 lbs.
+:::
 
 These gauntlets perform according to their appearance until the wearer finds herself under attack or
 in a life and death situation. At that time, the curse is activated. The wearer becomes
@@ -35,7 +39,7 @@ gloves can be removed only by means of a [remove curse](ref/spell/remove-curse) 
 
 ### Construction
 
-**Requirements** [gauntlet of rust](ref/magic-wondrous/gauntlet-of-rust),
-[gloves of arrow snaring](ref/magic-wondrous/gloves-of-arrow-snaring),
-[glove of storing](ref/magic-wondrous/glove-of-storing),
-[gloves of swimming and climbing](ref/magic-wondrous/gloves-of-swimming-and-climbing); **Cost** -
+::: statblock
+Requirements: [gauntlet of rust](ref/magic-wondrous/gauntlet-of-rust), [gloves of arrow snaring](ref/magic-wondrous/gloves-of-arrow-snaring), [glove of storing](ref/magic-wondrous/glove-of-storing), [gloves of swimming and climbing](ref/magic-wondrous/gloves-of-swimming-and-climbing)
+Cost: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration and necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration and necromancy; **CL** 6th\
-**Slot** body; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration and necromancy
+CL: 6th
+Slot: body
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 This beautiful robe is fashioned from fine blue silk embroidered with silver thread, and trimmed
 with owl feathers and tiny shards of crystal. The robe grants its wearer a +2 resistance bonus on
@@ -31,5 +36,7 @@ points of cold damage. The wearer can activate or deactivate this ability as a f
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[chill touch](ref/spell/chill-touch), [resistance](ref/spell/resistance); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [chill touch](ref/spell/chill-touch), [resistance](ref/spell/resistance)
+Cost: 3,500 gp
+:::

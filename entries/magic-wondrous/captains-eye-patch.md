@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** eyes; **Price** 46,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: eyes
+Price: 46,000 gp
+Weight: -
+:::
 
 This black velvet eye patch is attached to an onyx chain that is worn around the head. The eye patch
 grants its wearer [darkvision](ref/rule/darkvision) with a range of 60 feet. Additionally, as a
@@ -32,5 +37,7 @@ this effect is a free action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision), [true seeing](ref/spell/true-seeing); **Cost** 23,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision), [true seeing](ref/spell/true-seeing)
+Cost: 23,000 gp
+:::

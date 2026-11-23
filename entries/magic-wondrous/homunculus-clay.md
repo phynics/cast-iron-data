@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 4,100 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 4,100 gp
+Weight: 1 lb.
+:::
 
 If a mutagen is poured onto this fist-sized lump of dry clay (a standard action that provokes
 attacks of opportunity), it transforms into a [homunculus](ref/monster/homunculus). It treats the
@@ -34,8 +39,7 @@ ruined.
 
 ### Construction
 
-**Requirements** [Craft Construct](ref/feat/craft-construct),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects),
-[arcane eye](ref/spell/arcane-eye), [mending](ref/spell/mending),
-[mirror image](ref/spell/mirror-image), creator must have 2 ranks in
-[Craft (alchemy)](ref/skill/craft-any) and 2 ranks in Craft (sculptures); **Cost** 2,050 gp
+::: statblock
+Requirements: [Craft Construct](ref/feat/craft-construct), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [arcane eye](ref/spell/arcane-eye), [mending](ref/spell/mending), [mirror image](ref/spell/mirror-image), creator must have 2 ranks in [Craft (alchemy)](ref/skill/craft-any) and 2 ranks in Craft (sculptures)
+Cost: 2,050 gp
+:::

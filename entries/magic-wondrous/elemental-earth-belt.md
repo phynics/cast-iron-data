@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** belt; **Price** 24,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: belt
+Price: 24,000 gp
+Weight: 3 lbs.
+:::
 
 This belt is constructed of flat pieces of slate connected with strong leather straps. This belt
 grants its wearer a +4 enhancement bonus to Constitution, and the wearer is immune to effects that
@@ -35,6 +40,7 @@ Treat the enhancement bonus to Constitution as a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [elemental body III](ref/spell/elemental-body-3);
-**Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [elemental body III](ref/spell/elemental-body-3)
+Cost: 12,000 gp
+:::

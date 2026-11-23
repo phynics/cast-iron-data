@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** headband; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: headband
+Price: 4,000 gp
+Weight: -
+:::
 
 Adorned with stylized bronze feathers, these headbands are prized by treacherous nobles who fear an
 assassin's dagger in the back. While worn, an imperious headband grants its wearer a +4 deflection
@@ -34,5 +39,7 @@ result.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person), [sanctuary](ref/spell/sanctuary); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person), [sanctuary](ref/spell/sanctuary)
+Cost: 2,000 gp
+:::

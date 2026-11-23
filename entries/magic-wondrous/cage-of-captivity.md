@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** none; **Price** 160,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: none
+Price: 160,000 gp
+Weight: 1 lb.
+:::
 
 This miniature cage of golden wire can be used to capture a weakened outsider once per day. The
 target outsider must be called or otherwise physically present; a cage of captivity has no effect on
@@ -56,6 +61,7 @@ Variant cages of captivity may take the form of lamps, bowls, bottles, and simil
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antipathy](ref/spell/antipathy), [binding](ref/spell/binding), [geas/quest](ref/spell/geas-quest);
-**Cost** 80,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antipathy](ref/spell/antipathy), [binding](ref/spell/binding), [geas/quest](ref/spell/geas-quest)
+Cost: 80,000 gp
+:::

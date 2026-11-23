@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** body; **Price** 12,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: body
+Price: 12,000 gp
+Weight: 1/2 lb.
+:::
 
 This harness of leather with silver fixtures allows the wearer to hang in midair without the use of
 wings. Pulling on the harness as a swift action activates or dismisses a
@@ -30,5 +35,7 @@ cannot move the wearer upward or downward.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[levitate](ref/spell/levitate); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [levitate](ref/spell/levitate)
+Cost: 6,000 gp
+:::

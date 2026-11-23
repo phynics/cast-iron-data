@@ -22,9 +22,13 @@ caster_level = "5th (normal), 7th (greater)"
 
 ## Best Friend Pendant
 
-**Aura** faint conjuration and transmutation (normal), moderate conjuration and transmutation
-(greater); **CL** 5th (normal), 7th (greater)\
-**Slot** neck; **Price** 5,000 gp (normal), 9,000 gp (greater); **Weight** -
+::: statblock
+Aura: faint conjuration and transmutation (normal), moderate conjuration and transmutation (greater)
+CL: 5th (normal), 7th (greater)
+Slot: neck
+Price: 5,000 gp (normal), 9,000 gp (greater)
+Weight: -
+:::
 
 This silver necklace holds a miniature gilded cage, meant to rest against the wearer's chest. Once
 per day as a full-round action, the wearer can absorb a single willing Tiny or Small animal into the
@@ -52,7 +56,7 @@ but might require other forms of coercion at the GM's discretion.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[reduce animal](ref/spell/reduce-animal), [apport animal](ref/spell/apport-animal) (normal pendant
-only), [dimension door](ref/spell/dimension-door) (greater pendant only); **Cost** 2,500 gp
-(normal), 4,500 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [reduce animal](ref/spell/reduce-animal), [apport animal](ref/spell/apport-animal) (normal pendant only), [dimension door](ref/spell/dimension-door) (greater pendant only)
+Cost: 2,500 gp (normal), 4,500 gp (greater)
+:::

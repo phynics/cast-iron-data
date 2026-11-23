@@ -20,8 +20,12 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** none; **Weight** 10 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: none
+Weight: 10 lbs.
+:::
 
 A wooden stopper depicting an animal or human head seals this limestone jar. Any creature that opens
 the jar takes 3d6 points of [Constitution damage](ref/rule/ability-damage-drain) as several of its
@@ -33,6 +37,7 @@ sets of four.
 
 ### Construction
 
-**Requirements** [preserving flask](ref/magic-wondrous/preserving-flask),
-[restorative ointment](ref/magic-wondrous/restorative-ointment), or any item held in a jar or
-similar container; **Cost** -
+::: statblock
+Requirements: [preserving flask](ref/magic-wondrous/preserving-flask), [restorative ointment](ref/magic-wondrous/restorative-ointment), or any item held in a jar or similar container
+Cost: -
+:::

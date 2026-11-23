@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** hands; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: hands
+Price: 1,000 gp
+Weight: -
+:::
 
 These long, white, elbow-length gloves are typical of those Kalistocrats wear to avoid making direct
 contact with the unenlightened. The wearer gains a +2 insight bonus on saving throws against disease
@@ -30,5 +35,7 @@ creature (such as the effects of a [babau's](ref/monster/demon-babau) protective
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[anticipate peril](ref/spell/anticipate-peril), [resistance](ref/spell/resistance); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [anticipate peril](ref/spell/anticipate-peril), [resistance](ref/spell/resistance)
+Cost: 500 gp
+:::

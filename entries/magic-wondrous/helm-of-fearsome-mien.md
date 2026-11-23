@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Aura** faint necromancy; **CL** 1st\
-**Slot** head; **Price** 5,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 1st
+Slot: head
+Price: 5,000 gp
+Weight: 4 lbs.
+:::
 
 This metal helm is made to look like the wearer has large fangs and other features resembling those
 of a fearsome predator. If the wearer is a [barbarian](ref/class/barbarian), she can use the
@@ -33,5 +38,7 @@ no effect if the wearer is not a barbarian (or another class with the rage class
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cause fear](ref/spell/cause-fear); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cause fear](ref/spell/cause-fear)
+Cost: 2,500 gp
+:::

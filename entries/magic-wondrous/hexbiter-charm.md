@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** neck or shoulders; **Price** 180 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: neck or shoulders
+Price: 180 gp
+Weight: -
+:::
 
 This walrus-shaped charm is typically carved from ivory or bone. When targeted by a witch's hex or
 an effect with the curse descriptor, the wearer can activate this charm as an immediate action to
@@ -37,5 +42,7 @@ charm at a time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resistance](ref/spell/resistance); **Cost** 90 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resistance](ref/spell/resistance)
+Cost: 90 gp
+:::

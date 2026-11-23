@@ -28,14 +28,13 @@ caster_level = "varies"
 
 ## Golem Manuals
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Price** 3,000 gp (Junk), 4,000 gp (Wax), 5,000 gp (Ice), 6,000 gp (Wood), 8,000 gp
-(Flesh), 10,000 gp (Alchemical), 10,000 gp (Glass), 12,000 gp (Bone), 12,000 gp (Clay), 15,000 gp
-(Sand), 17,500 gp (Coral), 20,000 gp (Lead), 22,000 gp (Stone), 30,000 gp (Carrion), 35,000 gp
-(Clockwork), 35,000 gp (Iron), 37,500 gp (Fossil), 40,000 gp (Crystal), 40,000 gp (Obsidian), 44,000
-gp (Stone Guardian), 55,000 gp (Brass), 60,000 gp (Cannon), 65,000 gp (Dragonhide), 65,000 gp
-(Gold), 70,000 gp (Blood), 75,000 gp (Viridium), 80,000 gp (Mithral), 90,000 gp (Inubrix), 125,000
-gp (Adamantine), 150,000 gp (Quintessence); **Weight** 5 lbs.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Price: 3,000 gp (Junk), 4,000 gp (Wax), 5,000 gp (Ice), 6,000 gp (Wood), 8,000 gp (Flesh), 10,000 gp (Alchemical), 10,000 gp (Glass), 12,000 gp (Bone), 12,000 gp (Clay), 15,000 gp (Sand), 17,500 gp (Coral), 20,000 gp (Lead), 22,000 gp (Stone), 30,000 gp (Carrion), 35,000 gp (Clockwork), 35,000 gp (Iron), 37,500 gp (Fossil), 40,000 gp (Crystal), 40,000 gp (Obsidian), 44,000 gp (Stone Guardian), 55,000 gp (Brass), 60,000 gp (Cannon), 65,000 gp (Dragonhide), 65,000 gp (Gold), 70,000 gp (Blood), 75,000 gp (Viridium), 80,000 gp (Mithral), 90,000 gp (Inubrix), 125,000 gp (Adamantine), 150,000 gp (Quintessence)
+Weight: 5 lbs.
+:::
 
 The wondrous items known as golem manuals contain all the information and magical power required to
 create a particular kind of [golem](ref/family/golem). This effectively grants the
@@ -295,11 +294,7 @@ strong abjuration, enchantment, and transmutation; **CL** 12th; **Required Spell
 
 ### Construction
 
-**Requirements** [Craft Construct](ref/feat/craft-construct), caster must be of a specific level,
-additional spells, see text; **Cost** 1,500 gp (Junk), 2,000 gp (Wax), 2,500 gp (Ice), 3,000 gp
-(Wood), 4,000 gp (Flesh), 5,000 gp (Alchemical), 5,000 gp (Glass), 6,000 gp (Bone), 6,000 gp (Clay),
-7,500 gp (Sand), 8,750 gp (Coral), 10,000 gp (Lead), 11,000 gp (Stone), 15,000 gp (Carrion), 17,500
-gp (Clockwork), 17,500 gp (Iron), 18,750 gp (Fossil), 20,000 gp (Crystal), 20,000 gp (Obsidian),
-22,000 gp (Stone Guardian), 27,500 gp (Brass), 30,000 gp (Cannon), 32,500 gp (Dragonhide), 32,500 gp
-(Gold), 35,000 gp (Blood), 37,500 gp (Viridium), 40,000 gp (Mithral), 45,000 gp (Inubrix), 62,500 gp
-(Adamantine), 75,000 gp (Quintessence)
+::: statblock
+Requirements: [Craft Construct](ref/feat/craft-construct), caster must be of a specific level, additional spells, see text
+Cost: 1,500 gp (Junk), 2,000 gp (Wax), 2,500 gp (Ice), 3,000 gp (Wood), 4,000 gp (Flesh), 5,000 gp (Alchemical), 5,000 gp (Glass), 6,000 gp (Bone), 6,000 gp (Clay), 7,500 gp (Sand), 8,750 gp (Coral), 10,000 gp (Lead), 11,000 gp (Stone), 15,000 gp (Carrion), 17,500 gp (Clockwork), 17,500 gp (Iron), 18,750 gp (Fossil), 20,000 gp (Crystal), 20,000 gp (Obsidian), 22,000 gp (Stone Guardian), 27,500 gp (Brass), 30,000 gp (Cannon), 32,500 gp (Dragonhide), 32,500 gp (Gold), 35,000 gp (Blood), 37,500 gp (Viridium), 40,000 gp (Mithral), 45,000 gp (Inubrix), 62,500 gp (Adamantine), 75,000 gp (Quintessence)
+:::

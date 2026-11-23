@@ -22,9 +22,13 @@ caster_level = "5th (normal), 9th (greater)"
 
 ## Assassin's Sight
 
-**Aura** faint (normal) or moderate (greater) divination; **CL** 5th (normal), 9th (greater)\
-**Slot** none; **Price** 5,250 gp (normal) 12,250 gp (greater); **Weight** 4 lbs. (normal), 2 lbs.
-(greater)
+::: statblock
+Aura: faint (normal) or moderate (greater) divination
+CL: 5th (normal), 9th (greater)
+Slot: none
+Price: 5,250 gp (normal) 12,250 gp (greater)
+Weight: 4 lbs. (normal), 2 lbs. (greater)
+:::
 
 This black telescopic sight is made of lusterless metal and features a thick glass lens. It can be
 mounted on the stock of a [light](ref/eq-weapon/light-crossbow) or
@@ -46,6 +50,7 @@ competence bonus on attack rolls to confirm critical hits within the set range
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[locate weakness](ref/spell/locate-weakness), [true strike](ref/spell/true-strike); **Cost** 2,625
-gp (normal), 6,125 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [locate weakness](ref/spell/locate-weakness), [true strike](ref/spell/true-strike)
+Cost: 2,625 gp (normal), 6,125 gp (greater)
+:::

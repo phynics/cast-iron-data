@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 2,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 2,000 gp
+Weight: 5 lbs.
+:::
 
 A Chelish Crux is a cunning puzzle box that, when closed, contains an interior space far larger than
 its exterior would suggest. A Chelish Crux appears to be a 6-inch-diameter wooden-and-metal
@@ -68,5 +73,7 @@ is placed in another extradimensional object like a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fire trap](ref/spell/fire-trap), [secret chest](ref/spell/secret-chest); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fire trap](ref/spell/fire-trap), [secret chest](ref/spell/secret-chest)
+Cost: 1,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate universal"
 caster_level = "9th"
 +++
 
-**Aura** moderate universal; **CL** 9th\
-**Slot** neck; **Price** 20,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate universal
+CL: 9th
+Slot: neck
+Price: 20,000 gp
+Weight: 2 lbs.
+:::
 
 A [universalist](ref/arcaneschool/universalist) wizard who selects the amulet as his bonded object
 may choose one school of spells each day when he prepares spells. He then can use the necklace to
@@ -37,5 +42,7 @@ knows.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[permanency](ref/spell/permanency), creator must be a universalist; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [permanency](ref/spell/permanency), creator must be a universalist
+Cost: 10,000 gp
+:::

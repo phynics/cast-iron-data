@@ -23,9 +23,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** feet; **Price** 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp
-(+5); **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: feet
+Price: 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp (+5)
+Weight: 4 lbs.
+:::
 
 Horseshoes of crushing blows grant an enhancement bonus on attack and damage rolls made with hoof
 attacks; this bonus varies based on the item's price. Alternatively, as described for the
@@ -44,7 +48,7 @@ increases the price by the usual 2,000 gp.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), creator's caster level must be at least three
-times the horseshoes' bonus, plus any requirements of the melee weapon special abilities; **Cost**
-2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator's caster level must be at least three times the horseshoes' bonus, plus any requirements of the melee weapon special abilities
+Cost: 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** chest; **Price** 1,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: chest
+Price: 1,500 gp
+Weight: 2 lbs.
+:::
 
 Small loops sewn into this bandolier look like they can hold twenty
 [alchemical cartridges](ref/eq-weapon/alchemical-cartridge) (ammunition for a firearm), but due to a
@@ -35,5 +40,7 @@ inside it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 750 gp
+:::

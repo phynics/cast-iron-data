@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "4th"
 +++
 
-**Aura** moderate transmutation; **CL** 4th\
-**Slot** belt; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 4th
+Slot: belt
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This surprisingly soft belt has an absurdly large buckle, made even more absurd by the fact that
 it's crafted in the shape of a smiling weasel's face. It grants its wearer a +2 enhancement bonus to
@@ -33,5 +38,7 @@ AC against melee attacks while prone. Additionally, the wearer gains the
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1)
+Cost: 5,000 gp
+:::

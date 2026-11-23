@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This jagged bone knife seems too thin and frail for combat but easily cuts flesh. If used to perform
 a [coup de grace](ref/misc/helpless) on a helpless living creature and the creature dies from the
@@ -35,5 +40,7 @@ immediately destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead)
+Cost: 2,500 gp
+:::

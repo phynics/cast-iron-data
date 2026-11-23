@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 15,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 15,000 gp
+Weight: 2 lbs.
+:::
 
 This digest-sized book contains a seemingly random collection of words, phrases, and strange
 mnemonic aids. Three times each day, a [bard](ref/class/bard) can consult it while using the lore
@@ -33,5 +38,7 @@ master class feature in order to gain a +5 competence bonus when taking 10 or ta
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Cost: 7,500 gp
+:::

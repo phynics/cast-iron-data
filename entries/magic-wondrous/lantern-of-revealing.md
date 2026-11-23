@@ -23,8 +23,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 30,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 30,000 gp
+Weight: 2 lbs.
+:::
 
 This lantern operates as a normal [hooded lantern](ref/eq-misc/hooded-lantern). While it is lit, it
 also reveals all invisible creatures and objects within 25 feet of it, just like the spell
@@ -32,5 +37,7 @@ _[invisibility purge](ref/spell/invisibility-purge)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility purge](ref/spell/invisibility-purge); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility purge](ref/spell/invisibility-purge)
+Cost: 15,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** shoulders; **Price** 12,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: shoulders
+Price: 12,500 gp
+Weight: 1 lb.
+:::
 
 This elegant cloak has simple prayers to [kami](ref/family/kami) stitched into its lining. The
 wearer gains a +1 luck bonus on attack rolls, and once per day, the wearer can spend 10 minutes
@@ -30,5 +35,7 @@ _[commune](ref/spell/commune)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune),
-[divine favor](ref/spell/divine-favor); **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune), [divine favor](ref/spell/divine-favor)
+Cost: 6,250 gp
+:::

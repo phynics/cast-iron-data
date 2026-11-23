@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: neck
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 A cloth cord marked with esoteric religious symbols typically holds this roughly cut, glittering
 prism in place. A person with the [lay on hands](ref/ability/lay-on-hands) class feature can direct
@@ -38,6 +43,7 @@ into the crystal, including any mercies they had at the time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), creator must be a [paladin](ref/class/paladin);
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), creator must be a [paladin](ref/class/paladin)
+Cost: 6,000 gp
+:::

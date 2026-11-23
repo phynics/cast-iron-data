@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** none; **Price** 1,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: none
+Price: 1,500 gp
+Weight: 1 lb.
+:::
 
 Crafted from collected ectoplasm and wax, candles of spirit protection ward off creatures from the
 spirit world. To function, a candle of spirit protection must be placed in the desired area. When
@@ -38,5 +43,7 @@ candle of spirit protection burns for 1 hour. Either way, the candle is expended
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antilife shell](ref/spell/antilife-shell); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antilife shell](ref/spell/antilife-shell)
+Cost: 750 gp
+:::

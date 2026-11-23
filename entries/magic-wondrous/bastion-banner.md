@@ -20,8 +20,13 @@ aura = "moderate varies"
 caster_level = "10th"
 +++
 
-**Aura** moderate varies; **CL** 10th\
-**Slot** none; **Price** 182,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate varies
+CL: 10th
+Slot: none
+Price: 182,000 gp
+Weight: 3 lbs.
+:::
 
 This banner, emblazoned with a good or lawful deity's holy symbol, is meant to be carried and
 displayed and has no effect when not mounted properly or when lying on the ground. A bastion banner
@@ -88,6 +93,7 @@ associated with each deity are:
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow) or
-[unhallow](ref/spell/unhallow), [move earth](ref/spell/move-earth), additional spell depending on
-deity, creator must worship the related deity; **Cost** 91,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow) or [unhallow](ref/spell/unhallow), [move earth](ref/spell/move-earth), additional spell depending on deity, creator must worship the related deity
+Cost: 91,000 gp
+:::

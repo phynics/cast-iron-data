@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 6,300 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 6,300 gp
+Weight: 10 lbs.
+:::
 
 This [bear trap](ref/eq-misc/bear-trap) looks no different from any other ordinary bear trap, but it
 has several additional magical abilities. On command, an insidious bear trap snaps shut, opens to
@@ -42,5 +47,7 @@ _[alarm](ref/spell/alarm)_ spell, when it is triggered.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[invisibility](ref/spell/invisibility), [snare](ref/spell/snare); **Cost** 3,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [invisibility](ref/spell/invisibility), [snare](ref/spell/snare)
+Cost: 3,150 gp
+:::

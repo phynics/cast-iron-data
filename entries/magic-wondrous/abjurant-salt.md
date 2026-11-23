@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 600 gp
+Weight: 1 lb.
+:::
 
 Carried in a tube of beaten silver, this rough-ground salt is a powerful defense against evil
 conjurers. As a full-round action that provokes attacks of opportunity, the salt can be poured in a
@@ -33,6 +38,7 @@ the line remains unbroken. Once laid, the salt cannot be recollected.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic circle against evil](ref/spell/magic-circle-against-evil),
-[permanency](ref/spell/permanency); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic circle against evil](ref/spell/magic-circle-against-evil), [permanency](ref/spell/permanency)
+Cost: 300 gp
+:::

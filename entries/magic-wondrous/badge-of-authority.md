@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 1,500 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 1,500 gp
+Weight: 1/2 lb.
+:::
 
 As a standard action, the wielder of this solid metal badge can transform its appearance into that
 of any badge or symbol of authority she legitimately holds. Once per day, the wielder can present
@@ -33,5 +38,7 @@ minutes, and it doesn't report her to local authorities.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cause fear](ref/spell/cause-fear), [silent image](ref/spell/silent-image); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cause fear](ref/spell/cause-fear), [silent image](ref/spell/silent-image)
+Cost: 750 gp
+:::

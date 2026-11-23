@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 2,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 2,400 gp
+Weight: 1 lb.
+:::
 
 Boots of friendly terrain turn inhospitable territory into a perfect hunting grounds for any ranger
 who wears them, so much so that his footprints vanish behind him with each step he takes. Each pair
@@ -36,5 +41,7 @@ environment as one of his favored terrains, that terrain's bonus increases by 2.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pass without trace](ref/spell/pass-without-trace), creator must be a ranger; **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pass without trace](ref/spell/pass-without-trace), creator must be a ranger
+Cost: 1,200 gp
+:::

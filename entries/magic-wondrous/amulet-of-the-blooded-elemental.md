@@ -22,10 +22,13 @@ caster_level = "varies"
 
 ## Amulet of the Blooded
 
-**Aura** varies; **CL** varies\
-**Slot** neck; **Price** 10,000 gp (Destined), 10,000 gp (Fey), 12,000 gp (Abyssal), 12,000 gp
-(Accursed), 12,000 gp (Celestial), 12,000 gp (Draconic), 12,000 gp (Elemental), 12,000 gp
-(Infernal), 12,000 gp (Undead), 15,000 gp (Aberrant); **Weight** 1 lb.
+::: statblock
+Aura: varies
+CL: varies
+Slot: neck
+Price: 10,000 gp (Destined), 10,000 gp (Fey), 12,000 gp (Abyssal), 12,000 gp (Accursed), 12,000 gp (Celestial), 12,000 gp (Draconic), 12,000 gp (Elemental), 12,000 gp (Infernal), 12,000 gp (Undead), 15,000 gp (Aberrant)
+Weight: 1 lb.
+:::
 
 Each different type of amulet of the blooded grants its wearer powers from one
 [sorcerer bloodline](ref/ability/sorcerer-bloodlines), but makes him vulnerable to attacks and
@@ -133,7 +136,7 @@ resist energy._
 
 ### Construction
 
-**Requirements** Craft Wondrous Item, additional spells (see text), creator must be a sorcerer of
-the appropriate bloodline; **Cost** 7,500 gp (Aberrant), 6,000 gp (Abyssal), 6,000 gp (Accursed),
-6,000 gp (Celestial), 5,000 gp (Destined), 6,000 gp (Draconic), 6,000 gp (Elemental), 5,000 gp
-(Fey), 6,000 gp (Infernal), 6,000 gp (Undead)
+::: statblock
+Requirements: Craft Wondrous Item, additional spells (see text), creator must be a sorcerer of the appropriate bloodline
+Cost: 7,500 gp (Aberrant), 6,000 gp (Abyssal), 6,000 gp (Accursed), 6,000 gp (Celestial), 5,000 gp (Destined), 6,000 gp (Draconic), 6,000 gp (Elemental), 5,000 gp (Fey), 6,000 gp (Infernal), 6,000 gp (Undead)
+:::

@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 500 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 500 gp
+Weight: 10 lbs.
+:::
 
 This 4-foot-by-6-foot framed painting is a detailed portrait of a particular intelligent creature,
 animated to show movement or action within the painted scene. The image reacts when questioned, with
@@ -34,5 +39,7 @@ creature depicted in the painting, the illusory image has the voice and manneris
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic mouth](ref/spell/magic-mouth), [major image](ref/spell/major-image); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic mouth](ref/spell/magic-mouth), [major image](ref/spell/major-image)
+Cost: 250 gp
+:::

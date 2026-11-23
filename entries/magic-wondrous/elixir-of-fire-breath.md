@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 1,100 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 1,100 gp
+Weight: -
+:::
 
 This strange bubbling elixir bestows upon the drinker the ability to spit gouts of flame. He can
 breathe fire up to three times, each time dealing 4d6 points of fire damage to a single target up to
@@ -33,5 +38,7 @@ dissipate 1 hour after the liquid is consumed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[scorching ray](ref/spell/scorching-ray); **Cost** 550 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scorching ray](ref/spell/scorching-ray)
+Cost: 550 gp
+:::

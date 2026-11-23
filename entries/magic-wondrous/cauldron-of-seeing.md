@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 42,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 42,000 gp
+Weight: 5 lbs.
+:::
 
 When filled with liquid, this small cauldron allows the user to see over virtually any distance as
 if using the _[scrying](ref/spell/scrying)_ spell. It may have additional powers like those of a
@@ -32,5 +37,7 @@ if using the _[scrying](ref/spell/scrying)_ spell. It may have additional powers
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying);
-**Cost** 21,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying)
+Cost: 21,000 gp
+:::

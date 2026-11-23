@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 30,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 30,000 gp
+Weight: 10 lbs.
+:::
 
 These drums are kettle drums (hemispheres about 1-1/2 feet in diameter on stands). They come in
 pairs and are unremarkable in appearance. If both of the pair are sounded, all creatures within 120
@@ -33,5 +38,7 @@ as by a _fear_ spell (Will DC 16 partial). Drums of panic can be used once per d
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fear](ref/spell/fear);
-**Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fear](ref/spell/fear)
+Cost: 15,000 gp
+:::

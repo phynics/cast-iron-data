@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** eyes; **Price** 30,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: eyes
+Price: 30,000 gp
+Weight: -
+:::
 
 These glasses look like golden teeth holding a pair of greentinted lenses. The wearer may use
 _[eyebite](ref/spell/eyebite)_ 11 times per day on command, affecting one target for each use of the
@@ -31,5 +36,7 @@ glasses, the _[eyebite](ref/spell/eyebite)_ effects immediately end.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eyebite](ref/spell/eyebite);
-**Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eyebite](ref/spell/eyebite)
+Cost: 15,000 gp
+:::

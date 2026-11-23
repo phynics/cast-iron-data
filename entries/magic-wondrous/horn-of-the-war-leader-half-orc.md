@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 12,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 12,000 gp
+Weight: 4 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -36,5 +41,7 @@ range. The designated allies automatically sense the blower's intention and lear
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[whispering wind](ref/spell/whispering-wind), creator must be a half-orc; **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [whispering wind](ref/spell/whispering-wind), creator must be a half-orc
+Cost: 6,000 gp
+:::

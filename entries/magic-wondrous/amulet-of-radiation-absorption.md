@@ -20,8 +20,13 @@ aura = "moderate abjuration and conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and conjuration; **CL** 10th\
-**Slot** neck; **Price** 45,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration and conjuration
+CL: 10th
+Slot: neck
+Price: 45,000 gp
+Weight: 1 lb.
+:::
 
 This amulet features a large, ragged stone that was harvested from highly radioactive regions of the
 Darklands and that glows with a faint green light. The wearer is rendered immune to the effects of
@@ -46,6 +51,7 @@ below.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[radiation ward](ref/spell/radiation-ward), [remove radioactivity](ref/spell/remove-radioactivity);
-**Cost** 22,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [radiation ward](ref/spell/radiation-ward), [remove radioactivity](ref/spell/remove-radioactivity)
+Cost: 22,500 gp
+:::

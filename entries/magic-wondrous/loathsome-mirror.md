@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 9,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 9,000 gp
+Weight: 10 lbs.
+:::
 
 This buckler-sized mirror magnifies flaws and faults, presenting the least appealing image of any
 creature reflected in it. The mirror must be held in one hand to function. As a standard action
@@ -35,5 +40,7 @@ mirror's effect's duration.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[unadulterated loathing](ref/spell/unadulterated-loathing); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [unadulterated loathing](ref/spell/unadulterated-loathing)
+Cost: 4,500 gp
+:::

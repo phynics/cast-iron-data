@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** feet; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: feet
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 These rather nondescript boots can, once per day, be attuned to a location their wearer is standing
 upon. Once the boots are attuned to a location, once per day as a full-round action, the wearer,
@@ -33,5 +38,7 @@ attuned to a new location.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [getaway](ref/spell/getaway);
-**Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [getaway](ref/spell/getaway)
+Cost: 15,000 gp
+:::

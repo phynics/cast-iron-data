@@ -20,8 +20,13 @@ aura = "strong illusion and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong illusion and transmutation; **CL** 13th\
-**Slot** none; **Price** 3,600 gp; **Weight** -
+::: statblock
+Aura: strong illusion and transmutation
+CL: 13th
+Slot: none
+Price: 3,600 gp
+Weight: -
+:::
 
 This bone needle must be inserted into living flesh (a standard action) to function, dealing the
 creature 1d4 points of damage and causing it to appear ghostly and translucent for up to 30 minutes,
@@ -42,6 +47,7 @@ ghost needle crumbles to dust after use.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ethereal jaunt](ref/spell/ethereal-jaunt), [ghostly disguise](ref/spell/ghostly-disguise); **Cost**
-1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ethereal jaunt](ref/spell/ethereal-jaunt), [ghostly disguise](ref/spell/ghostly-disguise)
+Cost: 1,800 gp
+:::

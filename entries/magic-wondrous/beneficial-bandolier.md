@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** belt; **Price** 1,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: belt
+Price: 1,000 gp
+Weight: 2 lbs.
+:::
 
 This bandolier is made of finely tanned leather. It has slots for up to 200 rounds of ammunition.
 Pellets and black powder are kept in tiny individual pouches, and bullets in small loops. The
@@ -35,5 +40,7 @@ to teleport into a firearm of the appropriate type that he is wielding.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 500 gp
+:::

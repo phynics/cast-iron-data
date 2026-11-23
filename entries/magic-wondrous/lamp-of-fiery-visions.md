@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 22,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 22,200 gp
+Weight: 1 lb.
+:::
 
 This brass oil lamp has an etching of crossed [khopeshes](ref/eq-weapon/khopesh) on each side and is
 thought to have once held a powerful [malik](ref/monster/genie-efreeti). When the owner of this lamp
@@ -41,5 +46,7 @@ consecutive, but it must spent in 1-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane eye](ref/spell/arcane-eye), [message](ref/spell/message); **Cost** 11,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane eye](ref/spell/arcane-eye), [message](ref/spell/message)
+Cost: 11,100 gp
+:::

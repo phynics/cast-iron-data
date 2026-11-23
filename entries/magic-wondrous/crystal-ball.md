@@ -23,9 +23,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 42,000 gp (Normal), 50,000 gp (See Invisibility), 51,000 gp (Detect
-Thoughts), 70,000 gp (Telepathy), 80,000 gp (True Seeing); **Weight** 7 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 42,000 gp (Normal), 50,000 gp (See Invisibility), 51,000 gp (Detect Thoughts), 70,000 gp (Telepathy), 80,000 gp (True Seeing)
+Weight: 7 lbs.
+:::
 
 This is the most common form of scrying device, a crystal sphere about 6 inches in diameter. So
 well-known are these items that many so-called oracles or fortune-tellers use similar appearing (but
@@ -45,9 +49,10 @@ have additional powers that can be used through the crystal ball on the target v
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying)
-(plus any additional spells put into the crystal ball); **Cost** 21,000 gp (normal), 25,000 gp (see
-invisibility), 25,500 gp (detect thoughts), 35,000 gp (telepathy), 40,000 gp (true seeing)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying) (plus any additional spells put into the crystal ball)
+Cost: 21,000 gp (normal), 25,000 gp (see invisibility), 25,500 gp (detect thoughts), 35,000 gp (telepathy), 40,000 gp (true seeing)
+:::
 
 ###### ^1^ {#footnote-t}
 

@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** head; **Price** 24,600 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: head
+Price: 24,600 gp
+Weight: 3 lbs.
+:::
 
 This crown of steel and gold projects an aura of menacing power. The wearer gains a +4 competence
 bonus on [Intimidate](ref/skill/intimidate) checks, and whenever he confirms a critical hit, the
@@ -37,5 +42,7 @@ saving throws against fear effects while within line of sight of the wearer.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless),
-[eagle's splendor](ref/spell/eagles-splendor), [prayer](ref/spell/prayer); **Cost** 12,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless), [eagle's splendor](ref/spell/eagles-splendor), [prayer](ref/spell/prayer)
+Cost: 12,300 gp
+:::

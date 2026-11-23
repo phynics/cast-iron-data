@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 22,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 22,000 gp
+Weight: 2 lbs.
+:::
 
 This small harp is carved from whale ivory, and its frame is filigreed with delicate gold patterns
 depicting winds and clouds. Up to three times per day as a standard action, you can use a harp of
@@ -42,6 +47,7 @@ effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air walk](ref/spell/air-walk), [call lightning](ref/spell/call-lightning),
-[gust of wind](ref/spell/gust-of-wind); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air walk](ref/spell/air-walk), [call lightning](ref/spell/call-lightning), [gust of wind](ref/spell/gust-of-wind)
+Cost: 11,000 gp
+:::

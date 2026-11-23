@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 The iridescent, hazy contents of this glass container eddy briefly into different shapes. A bottled
 cloud can be [thrown as a splash weapon](ref/rule/throw-splash-weapon). When it strikes, it
@@ -47,5 +52,7 @@ otherwise the effect created lasts for 3 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[solid fog](ref/spell/solid-fog); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [solid fog](ref/spell/solid-fog)
+Cost: 300 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** head; **Price** 3,500 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: head
+Price: 3,500 gp
+Weight: -
+:::
 
 This floppy leather hat allows a [boggard](ref/monster/boggard) or other frog-like creature to drain
 the strength of those it strikes with its tongue attack. If the wearer ends its turn with its tongue
@@ -33,6 +38,7 @@ and the duration resets.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ray of enfeeblement](ref/spell/ray-of-enfeeblement), [vampiric touch](ref/spell/vampiric-touch);
-**Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ray of enfeeblement](ref/spell/ray-of-enfeeblement), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 1,750 gp
+:::

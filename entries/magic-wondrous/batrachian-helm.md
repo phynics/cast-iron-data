@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** head; **Price** 26,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: head
+Price: 26,000 gp
+Weight: 3 lbs.
+:::
 
 This oily bronze helm is fashioned in the shape of a frog's head. Three times per day as a swift
 action, the helm fires an unerring tongue of force at a visible target within 20 feet.
@@ -38,5 +43,7 @@ movement would move it into a solid object or creature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[telekinesis](ref/spell/telekinesis); **Cost** 13,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [telekinesis](ref/spell/telekinesis)
+Cost: 13,000 gp
+:::

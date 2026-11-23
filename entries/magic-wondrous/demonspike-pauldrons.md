@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** shoulders; **Price** 14,350 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: shoulders
+Price: 14,350 gp
+Weight: 8 lbs.
+:::
 
 These black iron pauldrons are studded with jagged spikes of various lengths. Demonspike pauldrons
 act as +2 [armor spikes](ref/eq-armorenh/armor-spikes) and also deal 1d2 [bleed](ref/rule/bleed)
@@ -32,6 +37,7 @@ damage - either from the armor spikes (if any) or the demonspike pauldrons.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed);
-**Cost** 7,175 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed)
+Cost: 7,175 gp
+:::

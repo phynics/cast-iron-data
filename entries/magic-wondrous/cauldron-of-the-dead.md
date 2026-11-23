@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 30,000 gp; **Weight** 35 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 30,000 gp
+Weight: 35 lbs.
+:::
 
 This cauldron of dark iron is large enough to accommodate a single Medium creature. When filled with
 a mixture of water and rare herbs, the cauldron transforms any dead body placed in it into a
@@ -36,5 +41,7 @@ is used; animating more beyond this limit causes earlier specimens to become unc
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead)
+Cost: 15,000 gp
+:::

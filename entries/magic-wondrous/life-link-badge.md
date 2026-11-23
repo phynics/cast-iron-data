@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 When this plain leather badge is sewn onto a [summoner's](ref/class/summoner) armor or clothing, a
 faded image of his summoner rune appears on its surface. The summoner can add charges to the badge
@@ -35,5 +40,7 @@ are lost when the summoner readies spells after resting.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[rejuvenate eidolon](ref/spell/rejuvenate-eidolon); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rejuvenate eidolon](ref/spell/rejuvenate-eidolon)
+Cost: 3,000 gp
+:::

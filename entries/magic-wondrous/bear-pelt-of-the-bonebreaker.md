@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 3,300 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 3,300 gp
+Weight: 10 lbs.
+:::
 
 This large bearskin cloak is almost too big for a human to wear comfortably. The wearer gains a +2
 competence bonus on [Intimidate](ref/skill/intimidate) checks. Once per day, the wearer can use
@@ -37,6 +42,7 @@ the form of polar bears or even dire bears.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2), [bless](ref/spell/bless), creator must have 5 ranks in
-Intimidate; **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2), [bless](ref/spell/bless), creator must have 5 ranks in Intimidate
+Cost: 1,650 gp
+:::

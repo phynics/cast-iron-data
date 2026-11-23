@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: neck
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 Set in a burnished copper pendant, the colors of this black opal shift with the wearer's mood. While
 the wearer is [dazed](ref/misc/dazed), [nauseated](ref/misc/nauseated),
@@ -36,6 +41,7 @@ immune to sleep caused by mind-affecting effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[freedom of movement](ref/spell/freedom-of-movement),
-[thought shield I](ref/spell/thought-shield-1); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [freedom of movement](ref/spell/freedom-of-movement), [thought shield I](ref/spell/thought-shield-1)
+Cost: 6,000 gp
+:::

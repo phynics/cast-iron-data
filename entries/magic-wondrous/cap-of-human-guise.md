@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** head; **Price** 800 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: head
+Price: 800 gp
+Weight: -
+:::
 
 This threadbare hat allows its wearer to alter her appearance at will as with a
 _[disguise self](ref/spell/disguise-self)_ spell, except she can only appear as a plainly dressed
@@ -37,5 +42,7 @@ humanoid creature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self)
+Cost: 400 gp
+:::

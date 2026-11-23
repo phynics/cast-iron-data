@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "2nd"
 +++
 
-**Aura** faint transmutation; **CL** 2nd\
-**Slot** neck; **Price** 900 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 2nd
+Slot: neck
+Price: 900 gp
+Weight: 2 lbs.
+:::
 
 This mummified elf hand hangs by a golden chain around a character's neck (taking up space as a
 magic necklace would). It allows the wearer to utilize the spell _[mage hand](ref/spell/mage-hand)_
@@ -32,5 +37,7 @@ at will.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage hand](ref/spell/mage-hand); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage hand](ref/spell/mage-hand)
+Cost: 450 gp
+:::

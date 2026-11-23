@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** chest; **Price** 5,200 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: chest
+Price: 5,200 gp
+Weight: 3 lbs.
+:::
 
 This leather apron is made from several layers of thick hide from common beasts of burden and is
 reinforced with steel rivets. The apron grants its wearer a +2 enhancement bonus to Dexterity. Treat
@@ -32,5 +37,7 @@ throws, that bonus increases by 1.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), creator must have 2 ranks in Craft (alchemy); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), creator must have 2 ranks in Craft (alchemy)
+Cost: 2,250 gp
+:::

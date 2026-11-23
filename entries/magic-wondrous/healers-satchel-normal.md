@@ -22,8 +22,13 @@ caster_level = "3rd"
 
 ## Healer's Satchel
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 1,500 gp (Normal), 3,000 gp (Specialized); **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 1,500 gp (Normal), 3,000 gp (Specialized)
+Weight: 1 lb.
+:::
 
 This well-worn physician's bag can be slung over one shoulder or carried easily in one hand. It
 contains a collection of continually renewing bandages, medicines, and herbs. This acts as a
@@ -64,7 +69,7 @@ adds a +4 competence bonus to the creature's next saving throw against the disea
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds),
-[lesser restoration](ref/spell/restoration-lesser), creator must have 5 ranks in Heal; **Cost** 750
-gp (Normal), 1,500 gp (Specialized)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [lesser restoration](ref/spell/restoration-lesser), creator must have 5 ranks in Heal
+Cost: 750 gp (Normal), 1,500 gp (Specialized)
+:::

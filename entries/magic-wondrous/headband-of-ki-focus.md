@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** headband; **Price** 5,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: headband
+Price: 5,400 gp
+Weight: 1 lb.
+:::
 
 This tied headband helps the wearer focus his ki more effectively. Whenever the wearer spends ki
 points to make an additional attack, that attack roll gains a +1 insight bonus (+2 if the wearer is
@@ -31,5 +36,7 @@ wearer from using ki points.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have a ki pool;
-**Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have a ki pool
+Cost: 2,700 gp
+:::

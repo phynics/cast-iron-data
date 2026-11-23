@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** belt; **Price** 2,600 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: belt
+Price: 2,600 gp
+Weight: -
+:::
 
 Long believed to have been [gnome](ref/race/gnome) in origin, this stately cummerbund features a
 number of dancing dolphins embroidered on its deep blue material. The cummerbund grants its wearer a
@@ -30,5 +35,7 @@ if distracted or endangered.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[touch of the sea](ref/spell/touch-of-the-sea); **Cost** 1,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [touch of the sea](ref/spell/touch-of-the-sea)
+Cost: 1,300 gp
+:::

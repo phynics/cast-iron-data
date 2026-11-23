@@ -20,8 +20,13 @@ aura = "faint abjuration and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and evocation; **CL** 5th\
-**Slot** neck; **Price** 3,600 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration and evocation
+CL: 5th
+Slot: neck
+Price: 3,600 gp
+Weight: 2 lbs.
+:::
 
 The inside of this long, thick shawl is cool muslin, while the outside is decorated with a
 flame-like rune. Hearth mantles are favored by the faithful of [Erastil](ref/faith/erastil),
@@ -42,5 +47,7 @@ extinguished if the hearth mantle is picked up, but can also be extinguished thr
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[nap stack](ref/spell/nap-stack), [produce flame](ref/spell/produce-flame); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [nap stack](ref/spell/nap-stack), [produce flame](ref/spell/produce-flame)
+Cost: 1,800 gp
+:::

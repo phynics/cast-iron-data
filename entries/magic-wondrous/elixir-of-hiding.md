@@ -23,13 +23,20 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 A character drinking this liquid gains an intuitive ability to sneak and hide (+10 competence bonus
 on [Stealth](ref/skill/stealth) checks for 1 hour).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility)
+Cost: 125 gp
+:::

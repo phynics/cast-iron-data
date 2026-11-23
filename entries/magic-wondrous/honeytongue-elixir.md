@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 750 gp
+Weight: 1/2 lb.
+:::
 
 Drinking this elixir grants the imbiber a +10 bonus on [Bluff](ref/skill/bluff) checks made to
 convince another that her words are the truth. This bonus lasts for 10 minutes, and doesn't apply to
@@ -35,5 +40,7 @@ lies or force her to tell the truth.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[glibness](ref/spell/glibness); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [glibness](ref/spell/glibness)
+Cost: 375 gp
+:::

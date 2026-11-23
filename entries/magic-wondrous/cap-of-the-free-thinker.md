@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** head; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: head
+Price: 12,000 gp
+Weight: -
+:::
 
 This soft cap helps the wearer free herself from outside influences. Once per day, when the wearer
 fails a saving throw against a mind-affecting effect, she can reroll the save and take the second
@@ -29,5 +34,7 @@ result.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mind blank](ref/spell/mind-blank); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mind blank](ref/spell/mind-blank)
+Cost: 6,000 gp
+:::

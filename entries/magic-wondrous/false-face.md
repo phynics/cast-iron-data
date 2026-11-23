@@ -20,8 +20,13 @@ aura = "none (see text)"
 caster_level = "3rd"
 +++
 
-**Aura** none (see text); **CL** 3rd\
-**Slot** head; **Price** 1,600 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: none (see text)
+CL: 3rd
+Slot: head
+Price: 1,600 gp
+Weight: 1/2 lb.
+:::
 
 This simple, hand-painted party mask emanates no magical aura. Its true usefulness is revealed only
 when it's worn. When a person dons the mask, she instantly assumes the appearance of single specific
@@ -30,5 +35,7 @@ is created. This effect otherwise works as _[disguise self](ref/spell/disguise-s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [magic aura](ref/spell/magic-aura); **Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [magic aura](ref/spell/magic-aura)
+Cost: 800 gp
+:::

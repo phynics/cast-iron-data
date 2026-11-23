@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** neck; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: neck
+Price: 10,000 gp
+Weight: -
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -39,5 +44,7 @@ allies, and former allies who changed allegiance no more than 1 week ago.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contact other plane](ref/spell/contact-other-plane), creator must be a half-elf; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contact other plane](ref/spell/contact-other-plane), creator must be a half-elf
+Cost: 5,000 gp
+:::

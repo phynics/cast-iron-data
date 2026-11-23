@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 60,000 gp; **Weight** 7 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 60,000 gp
+Weight: 7 lbs.
+:::
 
 Crystal balls of the dark void look like dark-colored crystal balls. Upon inspection, most appear to
 be filled with roiling clouds of midnight blue smoke, but some seem to contain motes of light that
@@ -44,5 +49,7 @@ the user, who must immediately attempt a DC 20 Will save to avoid taking 1d4 poi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying),
-[sending](ref/spell/sending); **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying), [sending](ref/spell/sending)
+Cost: 30,000 gp
+:::

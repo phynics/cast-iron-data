@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** 1,200 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: 1,200 gp
+Weight: -
+:::
 
 The Kalistocracy maintains harsh strictures against physical contact with other creatures, but in
 the thick of battle or by the winds of fate, sometimes contact cannot be avoided. To alleviate the
@@ -35,6 +40,7 @@ gains a +2 circumstance bonus on saving throws against diseases and poisons for 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease);
-**Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease)
+Cost: 600 gp
+:::

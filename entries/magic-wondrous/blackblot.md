@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 4,200 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 4,200 gp
+Weight: 1/2 lb.
+:::
 
 A pitch-black powder made from pulverized marrowstone mixed with the dust of the Negative Energy
 Plane, blackblot interferes with life energy and mythic abilities. A handful of blackblot can be
@@ -44,6 +49,7 @@ dose.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [bestow curse](ref/spell/bestow-curse),
-[mythic severance](ref/spell/mythic-severance); **Cost** 2,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [bestow curse](ref/spell/bestow-curse), [mythic severance](ref/spell/mythic-severance)
+Cost: 2,100 gp
+:::

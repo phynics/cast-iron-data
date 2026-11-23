@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** wrists; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: wrists
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 While worn, this pair of plain steel armbands limits the ability of the wearer to strike out against
 his comrades with weapon attacks, in the event he is unable to control his own actions (such as if
@@ -39,5 +44,7 @@ nonlethal damage only.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[battlemind link](ref/spell/battlemind-link); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [battlemind link](ref/spell/battlemind-link)
+Cost: 2,500 gp
+:::

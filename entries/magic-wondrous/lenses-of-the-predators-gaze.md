@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** eyes; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: eyes
+Price: 8,000 gp
+Weight: -
+:::
 
 These amber lenses are shaped to look like the eyes of a cat. As a standard action, the wearer can
 use these lenses to target a single creature that he can see. When he does, as long as the target is
@@ -39,5 +44,7 @@ consecutive.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have the studied
-target class feature; **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have the studied target class feature
+Cost: 4,000 gp
+:::

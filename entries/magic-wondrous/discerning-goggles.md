@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 13,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 13,500 gp
+Weight: -
+:::
 
 This eyewear consists of two thick, gold-rimmed glass lenses encased in a leather band. When worn
 over the eyes, a pair of discerning goggles allows you to determine creatures' alignments with a
@@ -33,5 +38,7 @@ darkness unless you possess [darkvision](ref/rule/darkvision).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect good](ref/spell/detect-good), [detect evil](ref/spell/detect-evil); **Cost** 6,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect good](ref/spell/detect-good), [detect evil](ref/spell/detect-evil)
+Cost: 6,750 gp
+:::

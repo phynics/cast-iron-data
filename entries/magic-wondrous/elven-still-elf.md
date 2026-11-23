@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 7,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 7,500 gp
+Weight: 2 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -40,6 +45,7 @@ properties.
 
 ### Construction
 
-**Requirements** [Brew Potion](ref/feat/brew-potion),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[universal formula](ref/spell/universal-formula), creator must be an elf; **Cost** 3,750 gp
+::: statblock
+Requirements: [Brew Potion](ref/feat/brew-potion), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [universal formula](ref/spell/universal-formula), creator must be an elf
+Cost: 3,750 gp
+:::

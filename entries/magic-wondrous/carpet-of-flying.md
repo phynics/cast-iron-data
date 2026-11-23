@@ -23,9 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 20,000 gp (5-ft.-by-5-ft.), 35,000 gp (5-ft.-by-10-ft.), 60,000 gp
-(10-ft.-by-10-ft.); **Weight** varies
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 20,000 gp (5-ft.-by-5-ft.), 35,000 gp (5-ft.-by-10-ft.), 60,000 gp (10-ft.-by-10-ft.)
+Weight: varies
+:::
 
 This rug is able to fly through the air as if affected by an
 _[overland flight](ref/spell/overland-flight)_ spell of unlimited duration. The size, carrying
@@ -46,6 +50,7 @@ other Fly checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[overland flight](ref/spell/overland-flight); **Cost** 10,000 gp (5-ft.-by-5-ft.), 17,500 gp
-(5-ft.-by-10-ft.), 30,000 gp (10-ft.-by-10-ft.)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [overland flight](ref/spell/overland-flight)
+Cost: 10,000 gp (5-ft.-by-5-ft.), 17,500 gp (5-ft.-by-10-ft.), 30,000 gp (10-ft.-by-10-ft.)
+:::

@@ -22,9 +22,13 @@ caster_level = "5th (10 HD), 7th (14 HD), 9th (18 HD), 12th (24 HD)"
 
 ## Death's Head Talisman
 
-**Aura** varies; **CL** 5th (10 HD), 7th (14 HD), 9th (18 HD), 12th (24 HD)\
-**Slot** amulet; **Price** 1,000 gp (10 HD), 1,400 gp (14 HD), 1,800 gp (18 HD), 2,400 gp (24 HD);
-**Weight** -
+::: statblock
+Aura: varies
+CL: 5th (10 HD), 7th (14 HD), 9th (18 HD), 12th (24 HD)
+Slot: amulet
+Price: 1,000 gp (10 HD), 1,400 gp (14 HD), 1,800 gp (18 HD), 2,400 gp (24 HD)
+Weight: -
+:::
 
 This amulet allows the wearer to command a number of undead skeletons and zombies, which are keyed
 to the amulet when it is created. The animation of the undead is part of the creation process -
@@ -38,6 +42,7 @@ amulet are destroyed, the talisman loses all power.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead); **Cost** 625 gp (10 HD), 875 gp (14 HD), 1,125 gp (18 HD),
-1,500 gp (24 HD)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead)
+Cost: 625 gp (10 HD), 875 gp (14 HD), 1,125 gp (18 HD), 1,500 gp (24 HD)
+:::

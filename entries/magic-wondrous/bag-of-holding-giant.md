@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 12,500 gp (Type V), 15,000 gp (Type VI); **Weight** 100-150 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 12,500 gp (Type V), 15,000 gp (Type VI)
+Weight: 100-150 lbs.
+:::
 
 This appears to be a rugged leather sack about 4 feet by 6 feet in size. It functions exactly the
 same as other types of [bags of holding](ref/magic-wondrous/bag-of-holding), but weighs more and has
@@ -40,5 +45,7 @@ creatures, but giants of Huge size or larger sometimes use even greater bags of 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 6,250 gp (Type V), 7,500 gp (Type VI)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 6,250 gp (Type V), 7,500 gp (Type VI)
+:::

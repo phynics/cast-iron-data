@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "6th"
 +++
 
-**Aura** faint conjuration; **CL** 6th\
-**Slot** none; **Price** 6,600 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 6th
+Slot: none
+Price: 6,600 gp
+Weight: 2 lbs.
+:::
 
 This iridescent spiraling shell can be blown once per day as a standard action to activate any one
 of these functions:
@@ -41,6 +46,7 @@ The sounding of this magical horn can be heard by all tritons within a 1-mile ra
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm animals](ref/spell/calm-animals), [communal mount](ref/spell/mount-communal),
-[slipstream](ref/spell/slipstream), creator must be a triton; **Cost** 3,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm animals](ref/spell/calm-animals), [communal mount](ref/spell/mount-communal), [slipstream](ref/spell/slipstream), creator must be a triton
+Cost: 3,300 gp
+:::

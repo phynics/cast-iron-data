@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 Horror dust is the compressed stuff of nightmares. It is contained in a glass vial that can be
 [thrown as a splash weapon](ref/rule/throw-splash-weapon) with a range increment of 10 feet. It
@@ -33,5 +38,7 @@ actually enjoy the visions created by horror dust, and are immune to its fear ef
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cause fear](ref/spell/cause-fear); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cause fear](ref/spell/cause-fear)
+Cost: 300 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 1,100 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 1,100 gp
+Weight: 5 lbs.
+:::
 
 When poured on ground in a circle, this pure white salt sanctifies the enclosed area as the spell
 _[consecrate](ref/spell/consecrate)._ Applying the salt takes 1 round per dose. A single dose is
@@ -37,5 +42,7 @@ other effects that penalize ranged attacks make it impossible to employ the salt
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[consecrate](ref/spell/consecrate); **Cost** 550 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [consecrate](ref/spell/consecrate)
+Cost: 550 gp
+:::

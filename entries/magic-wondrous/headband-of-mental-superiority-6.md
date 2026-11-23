@@ -25,8 +25,13 @@ caster_level = "16th"
 
 ## Headband of Mental Superiority
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** headband; **Price** 16,000 gp (+2), 64,000 gp (+4), 144,000 gp (+6); **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: headband
+Price: 16,000 gp (+2), 64,000 gp (+4), 144,000 gp (+6)
+Weight: 1 lb.
+:::
 
 This ornate headband is decorated with numerous clusters of small gemstones. The headband grants the
 wearer an enhancement bonus to all mental ability scores (Intelligence, Wisdom, and Charisma) of +2,
@@ -36,6 +41,7 @@ wearer an enhancement bonus to all mental ability scores (Intelligence, Wisdom, 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning),
-[owl's wisdom](ref/spell/owls-wisdom); **Cost** 8,000 gp (+2), 32,000 gp (+4), 77,000 gp (+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning), [owl's wisdom](ref/spell/owls-wisdom)
+Cost: 8,000 gp (+2), 32,000 gp (+4), 77,000 gp (+6)
+:::

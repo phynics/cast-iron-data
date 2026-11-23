@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** headband; **Price** 5,700 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: headband
+Price: 5,700 gp
+Weight: 1 lb.
+:::
 
 This headband is woven of magically preserved holly, its deep green leaves and bright red berries
 perpetually lustrous. The wearer may create _goodberries_ once per day as the spell, and any effect
@@ -30,5 +35,7 @@ domain, take effect at +1 caster level and gain a +1 bonus to the save DC.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[goodberry](ref/spell/goodberry), [plant growth](ref/spell/plant-growth); **Cost** 2,580 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [goodberry](ref/spell/goodberry), [plant growth](ref/spell/plant-growth)
+Cost: 2,580 gp
+:::

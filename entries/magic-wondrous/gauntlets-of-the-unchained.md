@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** hands; **Price** 13,200 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: hands
+Price: 13,200 gp
+Weight: 6 lbs.
+:::
 
 Said to have first been forged centuries ago by a human master blacksmith who escaped from drow
 slavers in Sekamina, these shimmering silver gauntlets remind the wearer that she is always shackled
@@ -39,6 +44,7 @@ broken, the chain between the gauntlets is shattered forever, and the gauntlets 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[chaos hammer](ref/spell/chaos-hammer), [order's wrath](ref/spell/orders-wrath), creator must be
-neutral; **Cost** 6,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [chaos hammer](ref/spell/chaos-hammer), [order's wrath](ref/spell/orders-wrath), creator must be neutral
+Cost: 6,600 gp
+:::

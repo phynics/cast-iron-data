@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** body; **Price** 22,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: body
+Price: 22,000 gp
+Weight: 1 lb.
+:::
 
 This slimming garment is fastened with laces, buckles, and buttons and reinforced with ribs of
 leather or bone. A corset of dire witchcraft grants a +4 armor bonus to AC. If the wearer is a
@@ -31,5 +36,7 @@ the corset is removed or if she uses it to enhance a different hex.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage armor](ref/spell/mage-armor), creator must be a witch; **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage armor](ref/spell/mage-armor), creator must be a witch
+Cost: 11,000 gp
+:::

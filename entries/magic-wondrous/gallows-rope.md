@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** neck; **Price** 18,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: neck
+Price: 18,000 gp
+Weight: 4 lbs.
+:::
 
 This grisly, knotted rope is tied into a noose, and at first glance appears to be nothing more than
 a gruesome memento of a hanging. While the noose is worn tightly around the neck, any time the
@@ -33,6 +38,7 @@ If that healing would bring him above the threshold for death, the wearer doesn'
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), mythic [regenerate](ref/spell/regenerate); **Cost** 9,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), mythic [regenerate](ref/spell/regenerate)
+Cost: 9,000 gp
+:::

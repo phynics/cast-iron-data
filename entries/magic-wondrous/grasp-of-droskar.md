@@ -21,8 +21,13 @@ aura = "moderate transmutation and divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation and divination; **CL** 10th\
-**Slot** hands; **Price** 12,302 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation and divination
+CL: 10th
+Slot: hands
+Price: 12,302 gp
+Weight: -
+:::
 
 This left-handed black iron gauntlet appears little more than a dull soot-stained plated glove at
 first glance, but in truth it is a powerful boon granted by [Droskar](ref/faith/droskar) to his most
@@ -41,6 +46,7 @@ per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [magic fang](ref/spell/magic-fang),
-[stone shape](ref/spell/stone-shape); **Cost** 7,802 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [magic fang](ref/spell/magic-fang), [stone shape](ref/spell/stone-shape)
+Cost: 7,802 gp
+:::

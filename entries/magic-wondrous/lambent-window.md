@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 20,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 20,000 gp
+Weight: 2 lbs.
+:::
 
 This small pane of glass in a frame made of black metal looks like a small hand mirror at first
 glance, but when a creature spends at least 1 minute staring into its reflection, the image shifts
@@ -41,5 +46,7 @@ mirror, rather than 5-500 miles from the bearer's intended destination.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift), [scrying](ref/spell/scrying); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift), [scrying](ref/spell/scrying)
+Cost: 10,000 gp
+:::

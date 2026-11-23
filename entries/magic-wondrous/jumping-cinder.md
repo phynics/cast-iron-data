@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 300 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 300 gp
+Weight: 1 lb.
+:::
 
 This piece of sooty coal has a tiny bit of flint embedded in it. The bearer of a jumping cinder can,
 as a standard action, order it to burst into flames and bounce around in random directions. Each
@@ -34,5 +39,7 @@ cinder but is not killed by the fire has to do the undesirable task.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[flaming sphere](ref/spell/flaming-sphere); **Cost** 150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flaming sphere](ref/spell/flaming-sphere)
+Cost: 150 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong universal"
 caster_level = "12th"
 +++
 
-**Aura** strong universal; **CL** 12th\
-**Slot** none; **Price** 75 gp; **Weight** -
+::: statblock
+Aura: strong universal
+CL: 12th
+Slot: none
+Price: 75 gp
+Weight: -
+:::
 
 This item is merely a burned out, [dull gray](ref/magic-ioun/dull-gray-stone)
 [ioun stone](ref/magic-wondrous/ioun-stone) with a _[continual flame](ref/spell/continual-flame)_
@@ -34,5 +39,7 @@ prism, sphere, and so on).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[continual flame](ref/spell/continual-flame), creator must be 12th level; **Cost** 62 gp, 5 SP
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [continual flame](ref/spell/continual-flame), creator must be 12th level
+Cost: 62 gp, 5 SP
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** wrists; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: wrists
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 These finely crafted leather bracers have plates of silvered steel covering the back, and silver
 buckles at the wrist and forearm. The bracers enable the wearer to use any traditional elven weapon
@@ -34,6 +39,7 @@ Both bracers must be worn for the magic to be effective.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be an
-[elf](ref/race/elf); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be an [elf](ref/race/elf)
+Cost: 15,000 gp
+:::

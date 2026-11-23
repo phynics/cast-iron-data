@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 1,750 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 1,750 gp
+Weight: -
+:::
 
 This pear-shaped flask contains a metallic-green liquid suffused with small pulsing globules. This
 elixir fuses with the magical essence flowing through the imbiber's veins, enhancing the potency of
@@ -31,5 +36,7 @@ the target and the imbiber.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Furious Spell](ref/feat/furious-spell); **Cost** 875 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Furious Spell](ref/feat/furious-spell)
+Cost: 875 gp
+:::

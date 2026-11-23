@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This gnarled wooden walking stick aids a creature's travel, granting a +5 foot enhancement bonus to
 speed and a +2 enhancement bonus to CMD against trip attempts and on saving throws to avoid being
@@ -30,5 +35,7 @@ combat as a [quarterstaff](ref/eq-weapon/quarterstaff).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[longstrider](ref/spell/longstrider); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [longstrider](ref/spell/longstrider)
+Cost: 1,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 2,200 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 2,200 gp
+Weight: -
+:::
 
 This Shory glass needle is surrounded by a floating, spiraling glass tube and can easily hook onto
 armor, clothing, or jewelry. As an immediate action, as long as the wearer of the blight siphoner
@@ -34,5 +39,7 @@ destroyed.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [remove disease](ref/spell/remove-disease);
-**Cost** 1,100 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [remove disease](ref/spell/remove-disease)
+Cost: 1,100 gp
+:::

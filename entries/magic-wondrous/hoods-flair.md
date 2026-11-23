@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 2,500 gp
+Weight: -
+:::
 
 These garish tokens usually take the form of a colorful adornment for a weapon; attaching a token
 takes a full-round action and provokes attacks of opportunity. Once per day, when a token is tied to
@@ -46,5 +51,7 @@ each offering a different benefit.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-creator must be able to use grit or panache; **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), creator must be able to use grit or panache
+Cost: 1,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment and transmutation; **CL** 5th\
-**Slot** head; **Price** 6,300 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment and transmutation
+CL: 5th
+Slot: head
+Price: 6,300 gp
+Weight: 1 lb.
+:::
 
 This pot of multicolored makeup was created by warpriests of [Shelyn](ref/faith/shelyn) who wanted
 to be beautiful as well as deadly in battle. It can be used as conventional makeup, stage makeup, or
@@ -40,5 +45,7 @@ The pot contains enough makeup for three uses.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[good hope](ref/spell/good-hope), [haste](ref/spell/haste); **Cost** 3,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [good hope](ref/spell/good-hope), [haste](ref/spell/haste)
+Cost: 3,150 gp
+:::

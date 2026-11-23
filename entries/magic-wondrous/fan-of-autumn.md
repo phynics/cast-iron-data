@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 This delicate fan is made of dried leaves and thin twigs. Three times per day as a standard action,
 the wielder can wave the fan to summon forth a 30-foot cone of swirling red and gold leaves that
@@ -32,5 +37,7 @@ in her hand, the leaves don't obscure her vision.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gust of wind](ref/spell/gust-of-wind); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gust of wind](ref/spell/gust-of-wind)
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "1st"
 +++
 
-**Aura** faint illusion; **CL** 1st\
-**Slot** none; **Price** 120 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint illusion
+CL: 1st
+Slot: none
+Price: 120 gp
+Weight: 1/2 lb.
+:::
 
 Though actually made of cheap tin and colored glass, this adornment appears to be a beautiful and
 expensive piece of jewelry worth 1,000 gp. A glittering trinket can come in the form of a necklace
@@ -35,5 +40,7 @@ trinket - especially to a merchant - rarely fetches the inflated price.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self); **Cost** 60 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self)
+Cost: 60 gp
+:::

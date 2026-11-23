@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 1,100 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 1,100 gp
+Weight: -
+:::
 
 This elixir is barely an ounce of blue-gold bubbling liquid. For 1 minute after drinking this
 elixir, a blue-gold aura surrounds the imbiber, shining light as per a [candle](ref/eq-misc/candle).
@@ -35,5 +40,7 @@ feats throughout the duration of the elixir's effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane concordance](ref/spell/arcane-concordance); **Cost** 650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane concordance](ref/spell/arcane-concordance)
+Cost: 650 gp
+:::

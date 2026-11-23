@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 1,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 1,000 gp
+Weight: 2 lbs.
+:::
 
 The metal filings within this pouch are a mixture of [adamantine](ref/eq-material/adamantine),
 [cold iron](ref/eq-material/cold-iron), [mithral](ref/eq-material/mithral), and steel. The filings
@@ -34,5 +39,7 @@ enough material to transform one weapon, regardless of size.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate)
+Cost: 500 gp
+:::

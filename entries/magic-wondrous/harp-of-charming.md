@@ -23,8 +23,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 7,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 7,500 gp
+Weight: 5 lbs.
+:::
 
 This beautiful and intricately carved harp can be held comfortably in one hand, but both hands are
 required to utilize its magic. When played, a harp of charming enables the performer to work one
@@ -35,5 +40,7 @@ hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[suggestion](ref/spell/suggestion); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [suggestion](ref/spell/suggestion)
+Cost: 3,750 gp
+:::

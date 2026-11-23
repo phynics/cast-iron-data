@@ -22,9 +22,13 @@ caster_level = "7th"
 
 ## Guiding Vellum
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp
-(5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th); **Weight** 1/2 lb.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th)
+Weight: 1/2 lb.
+:::
 
 Fashioned from soft yet still quite durable lambskin, this piece of parchment gives a faithful
 divine spellcaster of a specific religion a hint about what spell may be useful for that day. Each
@@ -45,6 +49,7 @@ provides misleading spell suggestions.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divination](ref/spell/divination); **Cost** 250 gp (1st), 1,000 gp (2nd), 2,250 gp (3rd), 4,000 gp
-(4th), 6,250 gp (5th), 9,000 gp (6th), 12,250 gp (7th), 16,000 (8th), 20,250 gp (9th)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divination](ref/spell/divination)
+Cost: 250 gp (1st), 1,000 gp (2nd), 2,250 gp (3rd), 4,000 gp (4th), 6,250 gp (5th), 9,000 gp (6th), 12,250 gp (7th), 16,000 (8th), 20,250 gp (9th)
+:::

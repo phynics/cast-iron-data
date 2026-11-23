@@ -25,8 +25,13 @@ caster_level = "6th"
 
 ## Horn of Goodness or Evil
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** none; **Price** 6,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: none
+Price: 6,500 gp
+Weight: 1 lb.
+:::
 
 This trumpet adapts itself to its owner, so it produces either a good or an evil effect depending on
 the owner's alignment. If the owner is neither good nor evil, the horn has no power whatsoever. If
@@ -37,6 +42,7 @@ either case, this ward lasts for 1 hour. The horn can be blown once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic circle against evil](ref/spell/magic-circle-against-evil),
-[magic circle against good](ref/spell/magic-circle-against-good); **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic circle against evil](ref/spell/magic-circle-against-evil), [magic circle against good](ref/spell/magic-circle-against-good)
+Cost: 3,250 gp
+:::

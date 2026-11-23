@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 3,750 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 3,750 gp
+Weight: -
+:::
 
 This curio is a four-leaf clover that was harvested from the wild and preserved. Typically encased
 in glass or crystal, four-leaf clovers are sometimes pressed, bronzed, or protected through other
@@ -32,5 +37,7 @@ can perform even when it's not her turn.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor); **Cost** 1,875 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor)
+Cost: 1,875 gp
+:::

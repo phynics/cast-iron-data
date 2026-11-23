@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 7,200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 7,200 gp
+Weight: 2 lbs.
+:::
 
 These stylish black leather boots are stitched with images of winding roads and trails through
 peaceful orchards. They can be worn up to mid-thigh, or have their cuffs turned down to make
@@ -30,5 +35,7 @@ movement speed if it's less than 15 feet). This movement does not provoke attack
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[jester's jaunt](ref/spell/jesters-jaunt); **Cost** 3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [jester's jaunt](ref/spell/jesters-jaunt)
+Cost: 3,600 gp
+:::

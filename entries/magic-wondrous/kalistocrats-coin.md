@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 1st\
-**Slot** none; **Price** 1,100 gp; **Weight** -
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 1st
+Slot: none
+Price: 1,100 gp
+Weight: -
+:::
 
 This silver coin bears the symbol of the [Prophecies of Kalistrade](ref/rule/f-profits) on one side,
 and its other side is inscribed with one of the many rules that lead to enlightenment. When the coin
@@ -34,5 +39,7 @@ time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[feather fall](ref/spell/feather-fall); **Cost** 550 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [feather fall](ref/spell/feather-fall)
+Cost: 550 gp
+:::

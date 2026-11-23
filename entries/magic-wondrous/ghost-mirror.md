@@ -20,8 +20,13 @@ aura = "faint divination and evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination and evocation; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint divination and evocation
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: 1/2 lb.
+:::
 
 This small hand mirror is warped and tarnished around the edges. A creature wielding the mirror can
 activate it by speaking a command word as a standard action. Once activated, the mirror grants the
@@ -34,5 +39,7 @@ be used in 1-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect undead](ref/spell/detect-undead); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect undead](ref/spell/detect-undead)
+Cost: 1,500 gp
+:::

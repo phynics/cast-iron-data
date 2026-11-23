@@ -23,8 +23,13 @@ aura = "faint transmutation and conjuration [lawful]"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation and conjuration \[lawful\]; **CL** 5th\
-**Slot** none or neck; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation and conjuration \[lawful\]
+CL: 5th
+Slot: none or neck
+Price: 3,000 gp
+Weight: -
+:::
 
 This elaborate key on a fine gold chain always glints, even in the dimmest light. The bearer can use
 it to lock (but not unlock) any nonmagical lock as if it were the proper key. Once per day, the
@@ -40,7 +45,7 @@ checks to assess an object's value.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fox's cunning](ref/spell/foxs-cunning), [shield of faith](ref/spell/shield-of-faith),
-[summon monster II](ref/spell/summon-monster-2), creator must have 5 ranks in Appraise; **Cost**
-1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fox's cunning](ref/spell/foxs-cunning), [shield of faith](ref/spell/shield-of-faith), [summon monster II](ref/spell/summon-monster-2), creator must have 5 ranks in Appraise
+Cost: 1,500 gp
+:::

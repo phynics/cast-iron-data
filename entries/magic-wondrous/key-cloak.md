@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** shoulders; **Price** 20,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: shoulders
+Price: 20,000 gp
+Weight: 2 lbs.
+:::
 
 This short cloak is made of gold thread spun into a pattern of interlocking key shapes. The cloak
 grants the wearer a +1 shield bonus to AC. As a move action, the wearer can activate the cloak,
@@ -43,6 +48,7 @@ that time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), [knock](ref/spell/knock), [stoneskin](ref/spell/stoneskin);
-**Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), [knock](ref/spell/knock), [stoneskin](ref/spell/stoneskin)
+Cost: 10,000 gp
+:::

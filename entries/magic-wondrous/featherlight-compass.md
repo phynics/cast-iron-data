@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This compass's components are so fine that it is practically weightless. When held in the hand in an
 area of [subjective directional gravity](ref/rule/gravity-traits-pa), the bearer automatically
@@ -30,5 +35,7 @@ feet during the first round after he changes his subjective gravitational direct
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[know direction](ref/spell/know-direction); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [know direction](ref/spell/know-direction)
+Cost: 750 gp
+:::

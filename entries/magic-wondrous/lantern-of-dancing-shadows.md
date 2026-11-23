@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 41,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 41,000 gp
+Weight: 2 lbs.
+:::
 
 This small lantern is made of thin, nearly transparent paper and black iron. The lantern burns for 6
 hours on 1 pint of oil. The lantern's light causes the
@@ -41,6 +46,7 @@ _[mass ghostbane dirge](ref/spell/ghostbane-dirge-mass)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkness](ref/spell/darkness), [mass ghostbane dirge](ref/spell/ghostbane-dirge-mass),
-[shadow conjuration](ref/spell/shadow-conjuration); **Cost** 20,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkness](ref/spell/darkness), [mass ghostbane dirge](ref/spell/ghostbane-dirge-mass), [shadow conjuration](ref/spell/shadow-conjuration)
+Cost: 20,500 gp
+:::

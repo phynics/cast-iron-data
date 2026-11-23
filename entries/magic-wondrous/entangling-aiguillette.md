@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: shoulders
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This length of prickly green vine is woven into a living aiguillette worn around the shoulder. Once
 per day as an immediate action when the wearer is struck by a melee attack, she can compel the vine
@@ -36,5 +41,7 @@ as a free action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[entangle](ref/spell/entangle); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [entangle](ref/spell/entangle)
+Cost: 3,000 gp
+:::

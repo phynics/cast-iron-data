@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** neck; **Price** 27,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: neck
+Price: 27,000 gp
+Weight: 2 lbs.
+:::
 
 This mummified dwarf hand hangs on a steel chain around a character's neck, bringing the wearer more
 in tune with the earth beneath her feet. If the wearer spends a standard action concentrating on the
@@ -31,5 +36,7 @@ earth or stone.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairvoyance/clairaudience](ref/spell/clairaudience-clairvoyance); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairvoyance/clairaudience](ref/spell/clairaudience-clairvoyance)
+Cost: 13,500 gp
+:::

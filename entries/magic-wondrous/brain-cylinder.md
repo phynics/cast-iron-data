@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 5,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 5,000 gp
+Weight: 10 lbs.
+:::
 
 A brain cylinder allows the surgically extracted brain of a Large or smaller creature to continue to
 function even after it has been removed from the body. Technically, the creature from whom the brain
@@ -50,6 +55,7 @@ sensitive nature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose), [magic jar](ref/spell/magic-jar), 7 ranks in Heal;
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [magic jar](ref/spell/magic-jar), 7 ranks in Heal
+Cost: 2,500 gp
+:::

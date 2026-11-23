@@ -20,13 +20,20 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 4,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 4,500 gp
+Weight: -
+:::
 
 This ornate, ostentatious diadem grants its wearer a +3 competence bonus to her
 [Leadership](ref/feat/leadership) score.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor)
+Cost: 2,250 gp
+:::

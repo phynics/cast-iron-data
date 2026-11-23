@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 10th\
-**Slot** none; **Price** 65,000 gp; **Weight** 200 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 10th
+Slot: none
+Price: 65,000 gp
+Weight: 200 lbs.
+:::
 
 This massive teak platform is designed to be strapped to the back of a Huge or larger quadruped like
 a saddle. The howdah of leisurely travel automatically resizes to fit a creature of Huge to Colossal
@@ -39,6 +44,7 @@ bearing the howdah does not gain these benefits.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), [restful sleep](ref/spell/restful-sleep),
-[shrink item](ref/spell/shrink-item); **Cost** 32,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), [restful sleep](ref/spell/restful-sleep), [shrink item](ref/spell/shrink-item)
+Cost: 32,500 gp
+:::

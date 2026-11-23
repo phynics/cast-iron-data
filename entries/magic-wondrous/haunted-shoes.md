@@ -20,8 +20,13 @@ aura = "faint conjuration and illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and illusion; **CL** 3rd\
-**Slot** feet; **Price** 6,480 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration and illusion
+CL: 3rd
+Slot: feet
+Price: 6,480 gp
+Weight: 1 lb.
+:::
 
 Two times per day, the wearer of these shoes can call forth 1d4 spirit servants to aid her. The
 spirit servants are invisible, mindless, shapeless beings that act as servants summoned by the
@@ -36,5 +41,7 @@ effect cannot be activated while any of the spirits are currently being used as 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur),
-[unseen servant](ref/spell/unseen-servant); **Cost** 3,240 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur), [unseen servant](ref/spell/unseen-servant)
+Cost: 3,240 gp
+:::

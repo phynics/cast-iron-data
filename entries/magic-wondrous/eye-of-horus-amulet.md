@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** neck; **Price** 23,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: neck
+Price: 23,000 gp
+Weight: -
+:::
 
 This triangular amulet of gold and lapis lazuli depicts a stylized eye - the symbol of the Ancient
 Osirian deity [Horus](ref/faith/horus), god of rulership, the sky, and the sun. Priests of Horus
@@ -42,7 +47,7 @@ forever useless thereafter.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel evil](ref/spell/dispel-evil),
-[remove blindness/deafness](ref/spell/remove-blindness-deafness),
-[resistance](ref/spell/resistance); **Cost** 11,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel evil](ref/spell/dispel-evil), [remove blindness/deafness](ref/spell/remove-blindness-deafness), [resistance](ref/spell/resistance)
+Cost: 11,500 gp
+:::

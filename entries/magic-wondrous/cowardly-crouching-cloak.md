@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** shoulders; **Price** 1,800 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: shoulders
+Price: 1,800 gp
+Weight: 4 lbs.
+:::
 
 This nondescript gray cloak has a hood that can fit over the wearer's entire face. The wearer can,
 as a move action, cover his face and drop to a huddling crouch. Any creature seeking to directly
@@ -35,5 +40,7 @@ not [helpless](ref/misc/helpless). The wearer can end his crouch simply by stand
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[sanctuary](ref/spell/sanctuary); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sanctuary](ref/spell/sanctuary)
+Cost: 900 gp
+:::

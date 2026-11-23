@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 900 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 900 gp
+Weight: -
+:::
 
 This vial has a narrow, pinched spout and is sealed with gray wax. Casting a targeted spell (up to
 3rd level) into the vial activates it and causes it to glow a soft red. A creature can then break
@@ -34,5 +39,7 @@ The infused spell fades after it is triggered or 24 hours have passed, whichever
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contingency](ref/spell/contingency); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contingency](ref/spell/contingency)
+Cost: 450 gp
+:::

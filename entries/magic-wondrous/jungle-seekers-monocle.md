@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 12,400 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 12,400 gp
+Weight: -
+:::
 
 The lens of this classical monocle is made of carefully shaped Shory glass. By looking through the
 lens, a wearer of a jungle seeker's monocle can find hidden creatures even in the thickest of
@@ -32,4 +37,7 @@ The monocle also grants a +2 competence bonus on Perception checks to notice cre
 
 ### Construction
 
-**Requirements** Create Wondrous Item, [acute senses](ref/spell/acute-senses); **Cost** 6,200 gp
+::: statblock
+Requirements: Create Wondrous Item, [acute senses](ref/spell/acute-senses)
+Cost: 6,200 gp
+:::

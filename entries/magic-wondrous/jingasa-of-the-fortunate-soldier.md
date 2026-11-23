@@ -23,8 +23,13 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Aura** strong divination; **CL** 15th\
-**Slot** head; **Price** 5,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong divination
+CL: 15th
+Slot: head
+Price: 5,000 gp
+Weight: 3 lbs.
+:::
 
 This conical iron jingasa, or war hat, grants the wearer a +1 deflection bonus to AC. When struck by
 a critical hit or [sneak attack](ref/ability/sneak-attack), the wearer can spend an immediate action
@@ -35,6 +40,7 @@ continues to grant its deflection bonus even after the other ability is expended
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), [moment of prescience](ref/spell/moment-of-prescience);
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), [moment of prescience](ref/spell/moment-of-prescience)
+Cost: 2,500 gp
+:::

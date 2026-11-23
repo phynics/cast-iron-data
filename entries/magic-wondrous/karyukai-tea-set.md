@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 38,160 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 38,160 gp
+Weight: 4 lbs.
+:::
 
 This tea set includes an array of utensils, painted with pictures of willows and flowers, used in
 traditional tea ceremonies: a small teapot, three bowls of various sizes and shapes, six cups,
@@ -46,6 +51,7 @@ on those who drink it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater heroism](ref/spell/heroism-greater), [heroes' feast](ref/spell/heroes-feast),
-[heroism](ref/spell/heroism); **Cost** 19,080 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater heroism](ref/spell/heroism-greater), [heroes' feast](ref/spell/heroes-feast), [heroism](ref/spell/heroism)
+Cost: 19,080 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 750 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 750 gp
+Weight: -
+:::
 
 This badge depicts the [Aspis Consortium's](ref/rule/aff-profiteers) insignia: a coiled serpent. By
 speaking a command word, the wearer can transform the badge into one of five tools, selected from
@@ -46,5 +51,7 @@ including weapons and shields with magical properties.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate)
+Cost: 375 gp
+:::

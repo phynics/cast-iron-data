@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 3,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 3,000 gp
+Weight: 2 lbs.
+:::
 
 This small, brass [hooded lantern](ref/eq-misc/hooded-lantern) gives off light as a
 _[daylight](ref/spell/daylight)_ spell. If the bearer expends one use of mythic power, the lantern
@@ -31,5 +36,7 @@ within its light.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [mythic daylight](ref/spell/daylight); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [mythic daylight](ref/spell/daylight)
+Cost: 1,500 gp
+:::

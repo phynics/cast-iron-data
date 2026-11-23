@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 3,300 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 3,300 gp
+Weight: -
+:::
 
 When activated, this black pebble acts as a limited gravitational singularity. Once the command word
 is spoken, the pebble delays for 1 round, then pulls all stone or earth within a 5-foot-diameter
@@ -33,5 +38,7 @@ attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[move earth](ref/spell/move-earth); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [move earth](ref/spell/move-earth)
+Cost: 1,650 gp
+:::

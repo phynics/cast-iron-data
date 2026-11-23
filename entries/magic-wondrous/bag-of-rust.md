@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: 1/2 lb.
+:::
 
 This dull-red cloth pouch is magically sealed and contains fine grains of a powdery substance. As a
 ranged touch attack, the user can throw the pouch at a creature or object within 30 feet. On a hit,
@@ -39,5 +44,7 @@ described above, but it deals no splash damage to adjacent creatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[rusting grasp](ref/spell/rusting-grasp); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rusting grasp](ref/spell/rusting-grasp)
+Cost: 700 gp
+:::

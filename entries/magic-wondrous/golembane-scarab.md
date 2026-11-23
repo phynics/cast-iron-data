@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** neck; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: neck
+Price: 2,500 gp
+Weight: -
+:::
 
 This beetle-shaped pin enables its wearer to detect any [golem](ref/family/golem) within 60 feet,
 although he must concentrate (a standard action) in order for the detection to take place. A scarab
@@ -33,5 +38,7 @@ golems had no [damage reduction](ref/rule/damage-reduction).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic), creator must be at least 10th level; **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic), creator must be at least 10th level
+Cost: 1,250 gp
+:::

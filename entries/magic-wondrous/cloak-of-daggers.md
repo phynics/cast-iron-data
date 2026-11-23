@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** shoulders; **Price** 18,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: shoulders
+Price: 18,000 gp
+Weight: 2 lbs.
+:::
 
 This heavy black cloak is trimmed with silver brocade and jingles ever so slightly when disturbed.
 The wearer of a cloak of daggers can draw [daggers](ref/eq-weapon/dagger) as a free action as though
@@ -35,6 +40,7 @@ damage. The daggers disappear immediately.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Quick Draw,
-[wreath of blades](ref/spell/wreath-of-blades), creator must possess the sneak attack class ability;
-**Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Quick Draw, [wreath of blades](ref/spell/wreath-of-blades), creator must possess the sneak attack class ability
+Cost: 9,000 gp
+:::

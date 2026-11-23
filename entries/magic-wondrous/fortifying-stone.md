@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 On command, this semiprecious stone adheres to an object weighing not more than 100 pounds. As long
 as it is attached, the stone increases the object's [hardness](ref/umr/hardness) by 5, its break DC
@@ -34,5 +39,7 @@ also destroys any attached fortifying stones.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stoneskin](ref/spell/stoneskin); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stoneskin](ref/spell/stoneskin)
+Cost: 500 gp
+:::

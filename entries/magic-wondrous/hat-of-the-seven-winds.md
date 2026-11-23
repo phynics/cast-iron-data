@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** head; **Price** 4,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: head
+Price: 4,500 gp
+Weight: 1 lb.
+:::
 
 This black tricorne hat is embroidered with the pattern of a ship. The wearer does not take any
 penalties from rain, takes penalties from [high wind speeds](ref/rule/winds) as though she were one
@@ -30,5 +35,7 @@ effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control winds](ref/spell/control-winds); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control winds](ref/spell/control-winds)
+Cost: 2,250 gp
+:::

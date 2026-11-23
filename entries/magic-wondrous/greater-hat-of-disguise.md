@@ -28,8 +28,13 @@ caster_level = "1st (normal), 3rd (greater)"
 
 ## Hat of Disguise
 
-**Aura** faint illusion; **CL** 1st (normal), 3rd (greater)\
-**Slot** head; **Price** 1,800 gp (normal), 12,000 gp (greater); **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 1st (normal), 3rd (greater)
+Slot: head
+Price: 1,800 gp (normal), 12,000 gp (greater)
+Weight: -
+:::
 
 This apparently normal hat allows its wearer to alter her appearance as with a
 _[disguise self](ref/spell/disguise-self)_ spell. As part of the disguise, the hat can be changed to
@@ -42,6 +47,7 @@ hat, a helmet, a headscarf, and so forth.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self) (normal) or [alter self](ref/spell/alter-self) (greater);
-**Cost** 900 gp (normal), 6,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self) (normal) or [alter self](ref/spell/alter-self) (greater)
+Cost: 900 gp (normal), 6,000 gp (greater)
+:::

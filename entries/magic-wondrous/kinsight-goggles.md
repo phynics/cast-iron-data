@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "2nd"
 +++
 
-**Aura** faint divination; **CL** 2nd\
-**Slot** eyes; **Price** 7,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 2nd
+Slot: eyes
+Price: 7,500 gp
+Weight: 1 lb.
+:::
 
 Kinsight goggles are in fact two separate crystal monocles, linked together with a simple silver
 clasp that allows them to both be worn at once like pince-nez spectacles. The left and right halves
@@ -33,5 +38,7 @@ magnification.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[share senses](ref/spell/share-senses); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [share senses](ref/spell/share-senses)
+Cost: 3,750 gp
+:::

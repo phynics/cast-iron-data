@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** 170,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: 170,000 gp
+Weight: 1 lb.
+:::
 
 These special containers are typically inlaid with runes of silver and stoppered by a brass plug
 bearing a seal engraved with sigils, glyphs, and special symbols. When the user speaks the command
@@ -71,5 +76,7 @@ of the following:
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[trap the soul](ref/spell/trap-the-soul); **Cost** 85,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [trap the soul](ref/spell/trap-the-soul)
+Cost: 85,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** headband; **Price** 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6); **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: headband
+Price: 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6)
+Weight: 1 lb.
+:::
 
 This intricate gold headband is decorated with several small blue and deep purple gemstones. The
 headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a
@@ -37,5 +42,7 @@ grant skill ranks in randomly determined [Knowledge](ref/skill/knowledge-all) sk
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fox's cunning](ref/spell/foxs-cunning); **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fox's cunning](ref/spell/foxs-cunning)
+Cost: 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)
+:::

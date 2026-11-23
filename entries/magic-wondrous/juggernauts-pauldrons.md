@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** shoulders; **Price** 40,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: shoulders
+Price: 40,000 gp
+Weight: 1 lb.
+:::
 
 These massive pauldrons take the shape of a pair of clenched fists made of beaten bronze. They
 bestow a +4 bonus on CMD, and grant the wearer the [ferocity](ref/umr/ferocity) ability. On command,
@@ -33,6 +38,7 @@ minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[deadly juggernaut](ref/spell/deadly-juggernaut), [enlarge person](ref/spell/enlarge-person),
-[rage](ref/spell/rage); **Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [deadly juggernaut](ref/spell/deadly-juggernaut), [enlarge person](ref/spell/enlarge-person), [rage](ref/spell/rage)
+Cost: 20,000 gp
+:::

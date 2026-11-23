@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 1,350 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 1,350 gp
+Weight: -
+:::
 
 This lens, mounted in a round silver frame, fits snugly in the eye orbit of any Medium or Small
 user. Three times per day on command, the monocle allows the user to read magical inscriptions
@@ -34,5 +39,7 @@ is longer).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[read magic](ref/spell/read-magic); **Cost** 675 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [read magic](ref/spell/read-magic)
+Cost: 675 gp
+:::

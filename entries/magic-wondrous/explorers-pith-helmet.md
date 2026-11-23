@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** head; **Price** 3,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: head
+Price: 3,200 gp
+Weight: 1 lb.
+:::
 
 This colonial-style helmet protects the wearer from jungle nuisances. The wearer is affected by a
 constant _[endure elements](ref/spell/endure-elements)_ effect (as the spell, hot weather only) and
@@ -32,7 +37,7 @@ _[floating disk](ref/spell/floating-disk)_ or an _[unseen servant](ref/spell/uns
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), [floating disk](ref/spell/floating-disk),
-[hide from animals](ref/spell/hide-from-animals), [unseen servant](ref/spell/unseen-servant);
-**Cost** 1,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), [floating disk](ref/spell/floating-disk), [hide from animals](ref/spell/hide-from-animals), [unseen servant](ref/spell/unseen-servant)
+Cost: 1,600 gp
+:::

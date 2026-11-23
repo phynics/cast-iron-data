@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** wrists; **Price** 30,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: wrists
+Price: 30,000 gp
+Weight: 2 lbs.
+:::
 
 These iron bracers are covered in hooks and small claws. They strap firmly to the wearer's forearms
 and can be used to make attacks as [spiked gauntlets](ref/eq-weapon/spiked-gauntlet).
@@ -44,5 +49,7 @@ standard action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[telekinesis](ref/spell/telekinesis); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [telekinesis](ref/spell/telekinesis)
+Cost: 15,000 gp
+:::
