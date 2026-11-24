@@ -26,7 +26,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Wisdom damage 1d4 and target is fatigued
+**Effect:** 1d4 Wis damage and target is fatigued
 
 **Cure:** 2 consecutive saves or arsenic (see text)
 

@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "kobolds-of-golarion"
+page = "21"
 
 [fields]
 kind = "class_option"

@@ -26,7 +26,8 @@ kind = "none"
 **Effect:** 1d6 nonlethal damage and fatigue. The fatigue and nonlethal damage cannot be cured while
 the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack
 with other sources of fatigue. A victim that accumulates sufficient damage to fall unconscious while
-infected with bluespit begins to suffocate. Despite being unconscious, the victim is considered to
-be holding its breath rather than immediately progressing to negative hit points and death.
+infected with bluespit begins to suffocate (Pathfinder RPG Core Rulebook 445). Despite being
+unconscious, the victim is considered to be holding its breath rather than immediately progressing
+to negative hit points and death.
 
 **Cure:** 2 consecutive saves

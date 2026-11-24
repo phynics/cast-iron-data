@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "elemental-masters-handbook"
+page = "27"
 
 [fields]
 kind = "class_option"

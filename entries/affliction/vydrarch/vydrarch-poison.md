@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "magnimar-city-of-monuments"
+page = "62"
 
 [fields]
 kind = "none"

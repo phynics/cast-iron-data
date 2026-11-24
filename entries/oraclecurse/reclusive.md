@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "legacy-of-the-first-world"
+page = "22"
 
 [fields]
 kind = "class_option"

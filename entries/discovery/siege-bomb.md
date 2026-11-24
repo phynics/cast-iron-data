@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-combat"
+page = "24"
 
 [fields]
 kind = "class_option"

@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "monster-hunters-handbook"
+page = "17"
 
 [fields]
 kind = "class_option"

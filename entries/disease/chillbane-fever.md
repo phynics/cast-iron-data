@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1d4 and target is sickened and fatigued
+**Effect:** 1d4 Con damage and target is sickened and fatigued
 
 **Cure:** 2 consecutive saves
 

@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "game-mastery-guide"
+page = "251"
 
 [fields]
 kind = "none"

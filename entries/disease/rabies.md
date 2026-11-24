@@ -23,6 +23,6 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1 and 1d3 Wis damage (minimum reduction to 1 Wis)
+**Effect:** 1 Con damage plus 1d3 Wis damage (minimum reduction to 1 Wis)
 
 **Cure:** 2 consecutive saves

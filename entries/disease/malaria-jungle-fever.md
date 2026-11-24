@@ -23,6 +23,6 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Strength damage 1d3, Constitution damage 1d3, and target is fatigued
+**Effect:** 1d3 Str damage and 1d3 Con damage and target is fatigued
 
 **Cure:** 2 consecutive saves

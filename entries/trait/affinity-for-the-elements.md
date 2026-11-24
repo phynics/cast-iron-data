@@ -12,6 +12,7 @@ publication = "inner-sea-gods"
 page = "218"
 [[sources]]
 publication = "faiths-of-corruption"
+page = "19"
 
 [fields]
 kind = "trait"

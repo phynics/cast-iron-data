@@ -23,6 +23,6 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Dexterity damage 1d4
+**Effect:** 1d4 Dex damage
 
 **Cure:** 2 consecutive saves

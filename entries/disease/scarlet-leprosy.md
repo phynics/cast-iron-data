@@ -23,6 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1d6-1 (min 0), Constitution drain 1, and Charisma damage 1d6
+**Effect:** 1d6 Con damage and 1d6 Cha damage; whenever the character takes Con damage, 1 point is
+permanent drain
 
 **Cure:** 2 consecutive saves

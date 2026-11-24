@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "people-of-the-wastes"
+page = "17"
 
 [fields]
 kind = "class_option"

@@ -18,7 +18,7 @@ kind = "none"
 
 ::: statblock
 Type: poison
-Contracted: contact
+Contracted: injury
 Save: Fortitude DC 14
 Onset: —
 Frequency: 1/round for 4 rounds

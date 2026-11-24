@@ -23,8 +23,8 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Dexterity damage 1d6 and target is exhausted, its speed is reduced by half, and it is
-unable to speak
+**Effect:** 1d6 points of Dex damage and target is exhausted, its speed is reduced by half, and it
+is unable to speak
 
 **Cure:** 2 consecutive saves
 

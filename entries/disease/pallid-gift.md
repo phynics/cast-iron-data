@@ -22,7 +22,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1d6, Wisdom damage 1d6, and the infected creature is fatigued; the
+**Effect:** 1d6 Constitution damage and 1d6 Wisdom damage, the infected creature is fatigued, the
 ability damage can't be healed, and the fatigue can't be removed while the creature is infected
 
 **Cure:** 2 consecutive saves
