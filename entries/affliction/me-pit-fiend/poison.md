@@ -18,7 +18,7 @@ kind = "none"
 
 **Type:** Poison (Injury)
 
-**Frequency:** 1/minute for 10 minutes
+**Frequency:** 1/round for 10 rounds
 
 **Effect:** Constitution damage 1d6
 
