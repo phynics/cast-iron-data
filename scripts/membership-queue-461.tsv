@@ -216,7 +216,7 @@ advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent	
 advanced-players-guide	ref/class/hunter	class	Hunter	2	8	uncited	printed		none	24	12,13,18,22,26							cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/investigator	class	Investigator	2	7	uncited	printed		none	4	73,133,134,334							cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/kineticist	class	Kineticist	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/magus	class	Magus	2	10	uncited	body		none	1	54										class-hub	S6		yes	yes	yes		
+advanced-players-guide	ref/class/magus	class	Magus	2	10	uncited	body		none	1	54							cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/medium	class	Medium	2	7	uncited	printed		none	40	32,33,38,41,42										class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/mesmerist	class	Mesmerist	2	9	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/ninja	class	Ninja	2	4	uncited	body		none	2	134,135										class-hub	S7		yes	yes	yes		
@@ -309,7 +309,7 @@ advanced-race-guide	ref/class/antipaladin	class	Antipaladin	3	5	uncited	printed	
 advanced-race-guide	ref/class/cavalier	class	Cavalier	3	8	uncited	printed		none	24	9,13,23,33,42							remove	13	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/gunslinger	class	Gunslinger	5	7	uncited	printed		none	23	9,13,23,33,34							remove	13	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/inquisitor	class	Inquisitor	3	8	uncited	printed		none	39	9,13,14,23,33							remove	13	class-options-only	class-hub	done			yes			
-advanced-race-guide	ref/class/magus	class	Magus	6	10	uncited	printed		none	36	9,13,19,23,24										class-hub	S6		yes	yes			
+advanced-race-guide	ref/class/magus	class	Magus	6	10	uncited	printed		none	36	9,13,19,23,24							remove	13	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/oracle	class	Oracle	2	13	uncited	printed		none	37	9,12,13,23,24										class-hub	S7		yes	yes			
 advanced-race-guide	ref/class/samurai	class	Samurai	4	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 advanced-race-guide	ref/class/summoner	class	Summoner	3	7	uncited	printed		none	39	9,13,23,34,43										class-hub	S7		yes	yes			
@@ -695,7 +695,7 @@ blood-of-shadows	ref/rule/class-wizard/wizard	rule	Wizard	4	11	family-leak	print
 blood-of-shadows	ref/class/alchemist	class	Alchemist	6	12	uncited	printed		none	10	3,7,11,15,16							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/bloodrager	class	Bloodrager	5	9	uncited	printed		none	5	3,15,16,30,31							remove	15	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/inquisitor	class	Inquisitor	6	8	uncited	printed		none	4	7,15,16,29							remove	7	class-options-only	class-hub	done			yes			
-blood-of-shadows	ref/class/magus	class	Magus	7	10	uncited	printed		none	5	7,16,28,29,30										class-hub	S6		yes	yes			
+blood-of-shadows	ref/class/magus	class	Magus	7	10	uncited	printed		none	5	7,16,28,29,30							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/medium	class	Medium	7	7	uncited	printed		none	7	11,15,16,22,28										class-hub	S6		yes	yes			
 blood-of-shadows	ref/class/psychic	class	Psychic	3	8	uncited	printed		none	9	3,11,15,16,17										class-hub	S7		yes	yes			
 blood-of-shadows	ref/class/shaman	class	Shaman	3	8	uncited	printed		none	7	11,15,16,28,29										class-hub	S7		yes	yes			
@@ -753,7 +753,7 @@ blood-of-the-beast	ref/class/hunter	class	Hunter	4	8	uncited	printed		none	9	3,4
 blood-of-the-beast	ref/class/inquisitor	class	Inquisitor	5	8	uncited	printed		none	6	3,4,5,11,14							remove	4	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/investigator	class	Investigator	5	7	uncited	printed		none	5	3,4,6,20,21							remove	4	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/kineticist	class	Kineticist	4	9	uncited	printed		none	2	24,28							remove	24	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/class/magus	class	Magus	9	10	uncited	printed		none	2	7,19										class-hub	S6		yes	yes			
+blood-of-the-beast	ref/class/magus	class	Magus	9	10	uncited	printed		none	2	7,19							remove	7	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/medium	class	Medium	4	7	uncited	printed		none	7	3,4,8,9,14										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/mesmerist	class	Mesmerist	7	9	uncited	printed		none	10	3,12,14,16,17										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/ninja	class	Ninja	4	4	uncited	body		none	1	9										class-hub	S7		yes	yes			
@@ -822,7 +822,7 @@ blood-of-the-sea	ref/class/summoner	class	Summoner	4	7	uncited	printed		none	3	5
 blood-of-the-sea	ref/class/witch	class	Witch	5	11	uncited	printed		none	7	3,5,13,21,22										class-hub	S7		yes	yes			
 blood-of-the-sea	ref/class/arcanist	class	Arcanist	4	8	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/fighter	class	Fighter	4	10	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
-blood-of-the-sea	ref/class/magus	class	Magus	5	10	weak	weak		none	1	5										class-hub	S6		yes	yes			
+blood-of-the-sea	ref/class/magus	class	Magus	5	10	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/mesmerist	class	Mesmerist	8	9	weak	weak		none	1	13										class-hub	S6		yes	yes			
 blood-of-the-sea	ref/class/skald	class	Skald	4	7	weak	weak		none	1	13										class-hub	S7		yes	yes			
 blood-of-the-sea	ref/rule/class-fighter/fighter	rule	Fighter	4	10	weak	weak		none	1	5			yes							class-hub	S8		yes	yes			
@@ -860,7 +860,7 @@ chronicle-of-legends	ref/class/gunslinger	class	Gunslinger	4	7	uncited	printed		
 chronicle-of-legends	ref/class/hunter	class	Hunter	3	8	uncited	printed		none	3	20,26,28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/inquisitor	class	Inquisitor	2	8	uncited	printed		none	3	14,28,29							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/kineticist	class	Kineticist	5	9	uncited	printed		none	3	10,11,29							cite	28-29	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/class/magus	class	Magus	3	10	uncited	printed		none	3	8,9,29										class-hub	S6		yes	yes	yes		
+chronicle-of-legends	ref/class/magus	class	Magus	3	10	uncited	printed		none	3	8,9,29							cite	28-29	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/medium	class	Medium	3	7	uncited	printed		none	5	6,10,18,19,29										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/mesmerist	class	Mesmerist	3	9	uncited	printed		none	2	14,29										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/ninja	class	Ninja	3	4	uncited	printed		none	4	3,5,6,29										class-hub	S7		yes	yes	yes		
@@ -1260,7 +1260,7 @@ heroes-of-golarion	ref/rule/hierophant-1	rule	1st-Tier Hierophant Path Abilities
 heroes-of-golarion	ref/rule/marshal-2-1	rule	1st-Tier Marshal Path Abilities	3	3	review	absent	30	row	0								keep	30	section-printed	link-only-hub	done			yes		no	
 heroes-of-golarion	ref/rule/trickster-1	rule	1st-Tier Trickster Path Abilities	3	3	review	absent	30	row	0								keep	30	section-printed	link-only-hub	done			yes		no	
 heroes-of-golarion	ref/rule/upa-1	rule	1st-Tier Universal Path Abilities	6	6	review	absent	31	row	0								keep	31	section-printed	link-only-hub	done			yes		no	
-heroes-of-golarion	ref/class/magus	class	Magus	10	10	weak	weak		none	1	6										class-hub	S6		yes	yes			
+heroes-of-golarion	ref/class/magus	class	Magus	10	10	weak	weak		none	1	6							remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/class/paladin	class	Paladin	8	12	weak	weak		none	1	6										class-hub	S7		yes	yes			
 heroes-of-golarion	ref/rule/class-paladin/paladin	rule	Paladin	8	12	weak	weak		none	1	6			yes							class-hub	S8		yes	yes			
 heroes-of-the-high-court	ref/race/dwarf	race	Dwarf	13	17	family-leak	printed		none	2	14,24	child	ref/racial-trait/dwarf/hardy(body),ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)								race-hub	S9		yes	yes			
@@ -1576,7 +1576,7 @@ horror-adventures	ref/rule/rule-sanity-and-madness/types-of-insanity	rule	Types 
 horror-adventures	ref/class/alchemist	class	Alchemist	9	12	uncited	printed		none	19	3,5,32,40,44							remove	44	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/cavalier	class	Cavalier	7	8	uncited	printed		none	2	41,234							remove	41	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/inquisitor	class	Inquisitor	7	8	uncited	printed		none	19	3,41,52,53,58							remove	52	class-options-only	class-hub	done			yes			
-horror-adventures	ref/class/magus	class	Magus	8	10	uncited	printed		none	10	39,101,114,115,118										class-hub	S6		yes	yes			
+horror-adventures	ref/class/magus	class	Magus	8	10	uncited	printed		none	10	39,101,114,115,118							remove	39	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/mesmerist	class	Mesmerist	4	9	uncited	printed		none	19	3,39,60,61,102										class-hub	S6		yes	yes			
 horror-adventures	ref/class/occultist	class	Occultist	5	5	uncited	printed		none	24	3,41,45,55,62										class-hub	S7		yes	yes			
 horror-adventures	ref/class/oracle	class	Oracle	8	13	uncited	printed		none	2	40,177										class-hub	S7		yes	yes			
@@ -2164,7 +2164,7 @@ plane-hoppers-handbook	ref/race/oread	race	Oread	4	5	uncited	printed		none	2	20,
 plane-hoppers-handbook	ref/race/shabti	race	Shabti	3	3	uncited	printed		none	4	3,20,22,23										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/race/sylph	race	Sylph	4	4	uncited	printed		none	3	20,21,32										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/race/undine	race	Undine	4	5	uncited	printed		none	3	20,21,32										race-hub	S9		yes	yes			
-plane-hoppers-handbook	ref/class/magus	class	Magus	4	10	weak	weak		none	1	15										class-hub	S6		yes	yes			
+plane-hoppers-handbook	ref/class/magus	class	Magus	4	10	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/vigilante	class	Vigilante	4	5	weak	weak		none	1	17										class-hub	S7		yes	yes			
 plane-hoppers-handbook	ref/class/warpriest	class	Warpriest	6	6	weak	weak		none	1	15										class-hub	S7		yes	yes			
 potions-and-poisons	ref/spell/detect-charm	spell	Detect Charm	5	5	family-leak	absent	17	row	0		variant	ref/spell/detect-magic(title)					remove	17	wrong-credit-invalidated	single-entry	done			yes			
