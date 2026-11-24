@@ -2,7 +2,7 @@
 id = "ref/racial-trait/elf/low-light-vision"
 kind = "racial_trait"
 title = "Low-Light Vision"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "pathfinder-124-city-in-the-deep"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/elf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf|racial-trait:low-light-vision", path = "json/races.json" },

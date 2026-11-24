@@ -2,7 +2,7 @@
 id = "ref/racial-trait/elf/keen-senses"
 kind = "racial_trait"
 title = "Keen Senses"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "pathfinder-124-city-in-the-deep"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/elf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf|racial-trait:keen-senses", path = "json/races.json" },

@@ -2022,15 +2022,15 @@ pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondr
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	Figurine of Wondrous Power (Silver Raven)	6	15	review	no-pdf	33	row	0											figurine	S4b			no			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	6	15	review	no-pdf	33	row	0											figurine	S4b			no			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	6	15	review	no-pdf	33	row	0											figurine	S4b			no			
-pathfinder-124-city-in-the-deep	ref/racial-trait/elf/attributes	racial_trait	Attributes	5	10	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
-pathfinder-124-city-in-the-deep	ref/racial-trait/elf/elven-immunities	racial_trait	Elven Immunities	9	10	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
-pathfinder-124-city-in-the-deep	ref/racial-trait/elf/elven-magic	racial_trait	Elven Magic	9	10	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
-pathfinder-124-city-in-the-deep	ref/racial-trait/elf/keen-senses	racial_trait	Keen Senses	9	14	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
-pathfinder-124-city-in-the-deep	ref/racial-trait/elf/languages	racial_trait	Languages	9	17	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
-pathfinder-124-city-in-the-deep	ref/racial-trait/elf/low-light-vision	racial_trait	Low-Light Vision	9	16	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
-pathfinder-124-city-in-the-deep	ref/racial-trait/elf/medium	racial_trait	Medium	9	17	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
-pathfinder-124-city-in-the-deep	ref/racial-trait/elf/normal-speed	racial_trait	Normal Speed	7	12	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
-pathfinder-124-city-in-the-deep	ref/racial-trait/elf/weapon-familiarity	racial_trait	Weapon Familiarity	9	13	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
+pathfinder-124-city-in-the-deep	ref/racial-trait/elf/attributes	racial_trait	Attributes	5	10	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
+pathfinder-124-city-in-the-deep	ref/racial-trait/elf/elven-immunities	racial_trait	Elven Immunities	9	10	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
+pathfinder-124-city-in-the-deep	ref/racial-trait/elf/elven-magic	racial_trait	Elven Magic	9	10	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
+pathfinder-124-city-in-the-deep	ref/racial-trait/elf/keen-senses	racial_trait	Keen Senses	9	14	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
+pathfinder-124-city-in-the-deep	ref/racial-trait/elf/languages	racial_trait	Languages	9	17	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
+pathfinder-124-city-in-the-deep	ref/racial-trait/elf/low-light-vision	racial_trait	Low-Light Vision	9	16	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
+pathfinder-124-city-in-the-deep	ref/racial-trait/elf/medium	racial_trait	Medium	9	17	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
+pathfinder-124-city-in-the-deep	ref/racial-trait/elf/normal-speed	racial_trait	Normal Speed	7	12	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
+pathfinder-124-city-in-the-deep	ref/racial-trait/elf/weapon-familiarity	racial_trait	Weapon Familiarity	9	13	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
 pathfinder-124-city-in-the-deep	ref/race/elf	race	Elf	9	17	uncited	no-pdf		none	0											race-hub	S9		yes	no			
 pathfinder-128-songbird-scion-saboteur	ref/rule/optional-magic-changes	rule	Optional Magic Changes	2	4	hub-keep	no-pdf		none	0											link-only-hub	S10	hub-design-a	yes	no			
 pathfinder-25-the-bastards-of-erebus	ref/carried/bestiary-3/monsters/parasite/giant-rot-grub	creature	Parasite, Giant Rot Grub	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			

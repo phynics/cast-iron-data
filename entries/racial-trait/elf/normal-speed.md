@@ -2,7 +2,7 @@
 id = "ref/racial-trait/elf/normal-speed"
 kind = "racial_trait"
 title = "Normal Speed"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "pathfinder-124-city-in-the-deep"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/elf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf|racial-trait:normal-speed", path = "json/races.json" },
