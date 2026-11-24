@@ -4510,3 +4510,26 @@ ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/ensnaring-dirt-tr
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/falling-log-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/rotting-badger-under-a-falling-rock-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/snake-spear-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/trait/alien-origins	dungeoneers-handbook	inside cover	print		proposal 33, print inside back cover: the trait is on the unnumbered inside back cover (the page after printed page 32, the licence page); the rules index gives the regional traits as Inside Back Cover
+ref/trait/destined-for-greatness	dungeoneers-handbook	inside cover	print		proposal 33, print inside back cover: the trait is on the unnumbered inside back cover (the page after printed page 32, the licence page); the rules index gives the regional traits as Inside Back Cover
+ref/trait/dungeon-dweller	dungeoneers-handbook	inside cover	print		proposal 33, print inside back cover: the trait is on the unnumbered inside back cover (the page after printed page 32, the licence page); the rules index gives the regional traits as Inside Back Cover
+ref/trait/lost-role-model	dungeoneers-handbook	inside cover	print		proposal 33, print inside back cover: the trait is on the unnumbered inside back cover (the page after printed page 32, the licence page); the rules index gives the regional traits as Inside Back Cover
+ref/discovery/sandstone-solution	people-of-the-sands	23	print		read on the rendered page: heading New Alchemist Discovery, footer 23
+ref/talent/last-ditch-effort	people-of-the-sands	19	print		read on the rendered page: sidebar New Rogue Talents, footer 19
+ref/talent/philologist	people-of-the-sands	19	print		read on the rendered page: sidebar New Rogue Talents, footer 19
+ref/trait/pearl-diver-pots	people-of-the-sands	14	print		read on the rendered page: Pearl Diver (half-elf), footer 14
+ref/ragepower/impelling-disarm	champions-of-balance	23	print		read on the rendered page: Rage Powers, footer 23
+ref/ragepower/savage-dirty-trick	champions-of-balance	23	print		read on the rendered page: Rage Powers (printed Savage Dirty Trick), footer 23
+ref/trait/planar-negotiator-boa	blood-of-angels	30	print		read on the rendered page: Aasimar Race Traits, footer 30
+ref/trait/wary-boa	blood-of-angels	31	print		read on the rendered page: footer 31
+ref/trait/wary-potr	people-of-the-river	8	print		read on the rendered page: Daggermark regional traits, footer 8
+ref/trait/stargazer-ig	people-of-the-river	31	print		read on the rendered page: Campaign Traits (Iron Gods), footer 31
+ref/trait/trade-talk	bastards-of-golarion	4	print		read on the rendered page: Human-Raised Trait, footer 4
+ref/trait/undead-slayer-bog	bastards-of-golarion	28	print		read on the rendered page: Dhampirs, Undead Slayer (dhampir), footer 28
+ref/hex/mud-witch	monster-codex	105	print		read on the rendered page: Goblin Witch Hex, footer 105
+ref/oraclecurse/cold-blooded	monster-codex	140	print		read on the rendered page: Lizardfolk Oracle Curse, footer 140
+ref/trait/natural-flyer	blood-of-the-ancients	29	print		read on the rendered page: printed Natural Flier (Combat), footer 29
+ref/trait/outsider-enemy	blood-of-the-ancients	29	print		read on the rendered page: printed Outsider Enmity (Social), footer 29
+ref/trait/orc-impaler	knights-of-the-inner-sea	10	print		read on the rendered page: Orc Impaler (Lastwall), footer 10
+ref/hex/discord	magical-marketplace	28	print		read on the rendered page: New Hexes, footer 28
+ref/affliction/khala/chillbane-fever	irrisen-land-of-eternal-winter	48	print		read on the rendered page: Afflictions, stat block, footer 48

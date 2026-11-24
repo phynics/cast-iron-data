@@ -9,7 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "dungeoneers-handbook"
-page = "33"
+page = "inside cover"
 
 [fields]
 kind = "trait"
