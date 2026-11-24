@@ -1618,7 +1618,7 @@ inner-sea-intrigue	ref/spell/nondetection-communal	spell	Communal Nondetection	2
 inner-sea-magic	ref/rule/optional-subsystems	rule	Optional Subsystems	7	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 inner-sea-npc-codex	ref/hkorder/order-of-the-scourge	class_option	Order of the Scourge	2	2	uncited	unaligned		none	0								remove	none	whole-book-absent	single-entry	done		yes	yes			
 inner-sea-npc-codex	ref/trait/scourge-of-the-seas	trait	Scourge of the Seas	2	2	uncited	unaligned		none	0								remove	none	whole-book-absent	single-entry	done		yes	yes			
-inner-sea-primer	ref/trait/desert-child	trait	Desert Child	4	4	uncited	body		none	1	21										single-entry	S5		yes	yes			
+inner-sea-primer	ref/trait/desert-child	trait	Desert Child	4	4	uncited	body		none	1	21							cite	21	printed-under-former-title	single-entry	done		yes	yes			
 inner-sea-races	ref/spell/cyclic-reincarnation	spell	Cyclic Reincarnation	2	4	family-leak	absent	193	row	0		variant	ref/spell/reincarnate(title)					remove	193	reference-kept-on-related	single-entry	done			yes			
 inner-sea-races	ref/spell/reincarnate-spy	spell	Reincarnate Spy	2	4	family-leak	absent	193	row	0		variant	ref/spell/reincarnate(title)					remove	193	reference-kept-on-related	single-entry	done			yes			
 inner-sea-races	ref/spell/summon-natures-ally-3	spell	Summon Nature's Ally III	2	2	review	absent	223	row	0								resolved	none	out-of-source-ids	single-entry	S0			yes			

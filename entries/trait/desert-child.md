@@ -16,6 +16,9 @@ page = "332"
 [[sources]]
 publication = "legacy-of-fire-players-guide"
 page = "7"
+[[sources]]
+publication = "inner-sea-primer"
+page = "21"
 
 [fields]
 kind = "trait"
