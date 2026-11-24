@@ -2,7 +2,7 @@
 source = "ultimate-combat"
 title = "Ultimate Combat"
 basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of Ultimate Combat. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["Class Archetypes is a dataset split kept as a sub-group inside the printed Classes chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+review = ["Class Archetypes is a dataset split kept as a sub-group inside the printed Classes chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage.", "Optional Combat Changes (ref/rule/optional-combat-changes) has no printed heading of its own: it is the dataset overview of the optional combat variants that the Variant Rules introduction (p. 190) presents, so it sits first in Variant Rules after that introduction."]
 
 [[books.chapters]]
 title = "Classes"
@@ -3441,6 +3441,10 @@ entry = "ref/carried/ultimate-combat/rules/variant-rules"
 [[books.chapters.children]]
 title = "Variant Rules"
 entry = "ref/carried/ultimate-combat/rules/variant-rules/variant-rules"
+
+[[books.chapters.children]]
+title = "Optional Combat Changes"
+entry = "ref/rule/optional-combat-changes"
 
 [[books.chapters.children]]
 title = "Armor as Damage Reduction"

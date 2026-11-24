@@ -11,6 +11,9 @@ provenance = [
 [[sources]]
 publication = "bestiary-5"
 page = "300"
+[[sources]]
+publication = "bestiary"
+page = "305"
 
 [fields]
 kind = "none"

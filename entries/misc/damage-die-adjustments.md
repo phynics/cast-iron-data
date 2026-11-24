@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "bestiary-5"
 page = "296"
+[[sources]]
+publication = "core-rulebook"
+page = "144-145"
 
 [fields]
 kind = "none"
@@ -45,8 +48,6 @@ _(Individual creatures vary from values below as appropriate.)_
 |Other|-|1|1d2|1d3|1d4|1d6|1d8|2d6|2d8|B, S, and/or P|Secondary|
 
 > _— From [Natural Attacks](ref/umr/natural-attacks)_
-
-**Sources:** PRPG Core Rulebook pg 144
 
 ### Table 6-5: Tiny and Large Weapon Damage
 

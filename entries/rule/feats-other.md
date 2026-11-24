@@ -22,6 +22,9 @@ page = "22"
 publication = "plane-hoppers-handbook"
 page = "16"
 [[sources]]
+publication = "ultimate-combat"
+page = "78"
+[[sources]]
 publication = "potions-and-poisons"
 page = "16"
 
@@ -86,7 +89,6 @@ allowed to take more than one.
 
 ### Performance Feats
 
-**Sources:** Ultimate Combat pg 78\
 Performance feats (15 feats) are used when you make a
 [performance combat](ref/rule/performance-combat) check, typically granting a special action that
 occurs when you make that check. Unless you have the [Masterful Display](ref/feat/masterful-display)

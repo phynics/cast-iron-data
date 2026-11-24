@@ -2,11 +2,15 @@
 source = "core-rulebook"
 title = "Core Rulebook"
 basis = "The 15 chapter titles, their order, and their first pages are checked against the printed contents page of the Core Rulebook. Its appendices are Special Abilities, Conditions, Inspiring Reading, and Game Aids; the first two are top-level groups and the last two have no corpus entries. The dataset's Glossary aggregate opens Special Abilities. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+review = ["Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage.", "Basics (ref/rule/basics) has no printed heading of its own: it is the dataset overview of the topics that begin at p. 8, so it sits first in Getting Started."]
 
 [[books.chapters]]
 title = "Getting Started"
 entry = "ref/carried/core-rulebook/rules/getting-started"
+
+[[books.chapters.children]]
+title = "Basics"
+entry = "ref/rule/basics"
 
 [[books.chapters.children]]
 title = "Playing the Game"

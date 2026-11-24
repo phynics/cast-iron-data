@@ -10,6 +10,10 @@ book text, PDF names or paths. Cite books by title and page only.
 | `membership-queue-461.py` | Keeps the queue complete from the corpus, the old queue and a fresh screen (`--screen-all`). `--check` needs no screen and proves the queue against the corpus |
 | `membership-apply.py` | Applies the verdicts `remove` and `cite`. `--check` lists what is still pending |
 | `expansion-credits-apply.py` | `page`, `add` and `expanded_in` actions (#459) |
+| `hub-topic-lists-461.py` | S10: puts the dropped `subtopics` list of the 14 navigation hubs back as `::: entry-link` blocks (`--list`, `--apply`, `--check`; needs a checkout of the pinned dataset) |
+| `hub-verdicts-461.py` | S10: derives the `hub-link` and `hub-no-evidence` verdicts of the hub rows, writes them and the reviewed rows of `membership-verdicts-461-s10.tsv` into the queue (`--write`, `--check`), and refreshes `in_warning`, `body_line` and `group` after the apply scripts (`--refresh-warning`) |
+| `faith-technique-links-461.py` | S10: replaces the quoted divine fighting technique of a faith with a link to its section of the feat entry (`--check`) |
+| `membership-verdicts-461-s10.tsv` | The reviewed S10 verdicts that the scripts do not derive: cites, listed-link removals, the reads, the faith removals |
 | `membership-citation-audit-461.tsv` | Releases a `[[sources]]` row whose membership goes (class `wrong-credit`, `family-ref`, `mention`) |
 
 ## What is in the queue
@@ -98,7 +102,12 @@ options, feats, spells or class options for the class and no section of the clas
 ruling 1 of 2026-11-23; S6 of #461). `generic-archetype-intro` records the Advanced Player's Guide
 on a class hub of a class it does not print (owner ruling of 2026-11-24): its p. 72 Archetypes
 introduction is generic and names only the core classes, so the book stays only on the six core
-classes. A removal still
+classes. `hub-link <target>`, `hub-no-evidence <record>` and `listed-link <target>` record the design (a) verdicts
+of S10 (a hub keeps only its home book): a listed entry carries the book, no listed entry does, or a
+sentence or table row of the page links an entry of that book. `copied-generic-section` records a book whose only trace on the entry was a source line over text that the entry copied (generic text, or a sentence that names other entries); the line and the text left the body together with the book (owner ruling of 2026-11-24, as the Moon Hag in S5). `technique-linked` records a faith whose
+quoted technique is a link now. `expansion-no-entry` is a `expands` row whose text no entry holds.
+`membership-apply.py` lets a `hub-keep` row go only with `hub-link`, `listed-link` or `hub-no-evidence`
+evidence. A removal still
 needs the print check, a page and the audit row that its class asks for. The queue is a list of
 hypotheses, not proof.
 A book can print an entry on its inside cover, which has no number. The page is then `inside cover`,

@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "31"
+[[sources]]
+publication = "advanced-players-guide"
+page = "8"
 
 [fields]
 kind = "none"
@@ -20,8 +23,6 @@ he receives either + 1 hit point or + 1 skill rank. The choice of favored class 
 once the character is created, and the choice of gaining a hit point or a skill rank each time a
 character gains a level (including his first level) cannot be changed once made for a particular
 level. [Prestige classes](ref/rule/prestige-classes) can never be a favored class.
-
-**Sources:** Advanced Player's Guide pg 8
 
 The final section for each racial description describes alternative benefits for members of that
 race taking certain classes as a favored class. The normal benefit of having a favored class is

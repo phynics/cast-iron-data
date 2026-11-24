@@ -2,7 +2,7 @@
 id = "ref/faith/lamashtu"
 kind = "rule"
 title = "Lamashtu"
-source_ids = ["inner-sea-gods", "planar-adventures", "book-of-the-damned", "divine-anthology", "pathfinder-5-sins-of-the-saviors", "book-of-the-damned-volume-2-lords-of-chaos"]
+source_ids = ["inner-sea-gods", "planar-adventures", "book-of-the-damned", "pathfinder-5-sins-of-the-saviors", "book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamashtu", path = "json/faiths5.json" },
 ]
@@ -225,34 +225,7 @@ kind = "none"
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Lamashtu's Carving
->
-> **Sources:** Divine Anthology
->
-> One of the grisliest divine fighting manuals is Fecundity of Corpses, a harrowing tome that
-> depicts the fighting styles favored by the followers of Lamashtu, the Mother of Monsters. In
-> addition to detailing many of the more gruesome rites favored by the Demon Queen, Fecundity of
-> Corpses includes hundreds of techniques recorded in blood by cultists of Lamashtu from across the
-> Inner Sea region. Though no standardized edition of this manual exists because of the cult's
-> discordant hierarchy, each tome manages to perfectly capture similar techniques for sowing fear
-> and blood in Lamashtu's name.
->
-> **Initial Benefit:** As a standard action, you can make a single attack with a falchion or a kukri
-> in order to deal [bleed](ref/rule/bleed) damage to the target. When you make this attack, you do
-> not apply your ability modifier (normally Strength, but potentially other modifiers) to the hit
-> point damage dealt by your attack - instead, add an amount of bleed damage equal to this modifier.
-> The bleeding can be stopped by a successful DC 15 Heal check or any amount of magical healing.
-> Bleed damage from this benefit doesn't stack with itself.
->
-> **Advanced Prerequisite:** Strength 13, [Dazing Assault](ref/feat/dazing-assault),
-> [Divine Fighting Technique](ref/feat/divine-fighting-technique),
-> [Power Attack](ref/feat/power-attack)
->
-> **Advanced Benefit:** Whenever you hit a bleeding creature with a melee attack using a falchion or
-> a kukri, that creature must succeed at a Fortitude save (DC = 10 + your base attack bonus) or
-> become [staggered](ref/misc/staggered) for 1 round. Multiple attacks do not cause this condition
-> to stack, and a creature that successfully saves against this staggering effect is immune to this
-> effect for 1 round.
+[Lamashtu's Carving](ref/feat/divine-fighting-technique#sec-lamashtu-s-carving)
 
 ## Follower Options
 

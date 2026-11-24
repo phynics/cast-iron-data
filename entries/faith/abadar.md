@@ -2,7 +2,7 @@
 id = "ref/faith/abadar"
 kind = "rule"
 title = "Abadar"
-source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", "inner-sea-temples", "pathfinder-8-seven-days-to-the-grave"]
+source_ids = ["inner-sea-gods", "planar-adventures", "inner-sea-temples", "pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abadar", path = "json/faiths.json" },
 ]
@@ -171,28 +171,7 @@ Osirion, Sargava, Taldor, Varisia\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Abadar's Crossbow
->
-> **Sources:** Weapon Master's Handbook
->
-> Abadar teaches complex crossbow techniques.
->
-> **Initial Benefit:** You can attempt a ranged [steal](ref/rule/steal) combat maneuver check with a
-> crossbow, using your Dexterity modifier in place of your Strength modifier to calculate your
-> Combat Maneuver Bonus. If you succeed, the stolen item is knocked away by the bolt; if the bolt
-> can pierce any part of the item and the item weighs 2 pounds or less, the bolt continues past the
-> creature and carries the item up to one range increment away, pinning it to whatever surface it
-> lands on.
->
-> **Advanced Prerequisite:** [Rapid Reload](ref/feat/rapid-reload), Base Attack Bonus +10.
->
-> **Advanced Benefit:** When fighting a foe adjacent to a firm surface, you can attempt a ranged
-> [dirty trick](ref/rule/dirty-trick) combat maneuver check with a crossbow, using your Dexterity
-> modifier in place of your Strength modifier to calculate your Combat Maneuver Bonus. If you
-> succeed, your bolt pins the target's clothing (or feathers, hide, or the like) to the surface,
-> preventing the target from leaving that space until it breaks free by destroying the bolt or
-> removing it with a successful Strength check (DC = the result of your combat maneuver check to pin
-> it).
+[Abadar's Crossbow](ref/feat/divine-fighting-technique#sec-abadar-s-crossbow)
 
 ## Follower Options
 

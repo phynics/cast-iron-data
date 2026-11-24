@@ -2,7 +2,7 @@
 id = "ref/faith/cayden-cailean"
 kind = "rule"
 title = "Cayden Cailean"
-source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", "pathfinder-14-children-of-the-void"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-14-children-of-the-void"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cayden_cailean", path = "json/faiths2.json" },
 ]
@@ -141,34 +141,7 @@ Merrymead (sharing of stories and drinks around a fire or during pub crawls, Feb
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Cayden Cailean's Blade and Tankard
->
-> **Sources:** Weapon Master's Handbook
->
-> Cayden Cailean is famous for wading into battle with a tankard in his off hand.
->
-> **Optional Replacement:** A chaotic good fighter or swashbuckler who worships Cayden Cailean can
-> replace proficiency with shields or bucklers with the following initial benefit.
->
-> **Initial Benefit:** You can wield a tankard (or mug) as a weapon, treating it in all ways as a
-> light mace appropriate for your size. If you engage in two-weapon fighting with a rapier or light
-> weapon in one hand and a tankard in the other, you can drink a potion or other liquid from the
-> tankard or attempt to toss liquid from the tankard as a dirty trick combat maneuver (such as to
-> blind a foe) in place of attacking with it. You do not provoke attacks of opportunity for
-> attempting a dirty trick maneuver with a tankard.
->
-> **Advanced Prerequisite:** [Two-Weapon Fighting](ref/feat/two-weapon-fighting),
-> [Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting), Base Attack Bonus +10.
->
-> **Optional Advanced Replacement:** A chaotic good fighter or swashbuckler of at least 10th level
-> who worships Cayden Cailean can replace a bonus feat or deed with the following advanced benefit,
-> even if he doesn't meet the prerequisites.
->
-> **Advanced Benefit:** You can refill your tankard with a beverage, potion, or other liquid from a
-> bottle or vial as a swift action. You gain a +2 bonus on combat maneuver checks to perform dirty
-> tricks with tankards. The effects of such a dirty trick lasts for 1d4 rounds + 1 round for every 5
-> points by which the result of your combat maneuver check exceeds the target's CMD; a standard
-> action is required for the target to remove this penalty.
+[Cayden Cailean's Blade and Tankard](ref/feat/divine-fighting-technique#sec-cayden-cailean-s-blade-and-tankard)
 
 ## Follower Options
 

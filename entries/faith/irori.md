@@ -2,7 +2,7 @@
 id = "ref/faith/irori"
 kind = "rule"
 title = "Irori"
-source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfinder-53-tide-of-honor"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irori", path = "json/faiths4.json" },
 ]
@@ -139,41 +139,7 @@ Thought\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Irori's Perfected Fist
->
-> **Sources:** Divine Anthology
->
-> Practically synonymous with Irori and his faith, The Woven Fist is among the best known of all
-> diving fighting manuals. Many learned monks were taught their first martial techniques using
-> drills and regiments from this manual, which some claim was written by Irori's own hand before his
-> ascension to divinity. Although most commonly found in temples to Irori and secluded monasteries,
-> copies of The Woven Fist often make their way into less scrupulous hands because of their
-> effectiveness.
->
-> **Optional Replacement:** A lawful neutral brawler or monk can replace a bonus feat with the
-> following initial benefit.
->
-> **Initial Benefit:** You can take a -2 penalty on all attack rolls made with your unarmed strikes
-> in order to deal the average amount of damage with each successful attack instead of rolling your
-> weapon damage. For instance, if your unarmed strike would normally deal 1d4 points of weapon
-> damage, you instead deal 2 points of weapon damage. Apply bonuses and modifiers to this result as
-> if you had rolled your damage normally. You must choose to use this benefit before making an
-> attack roll, and its effects last until your next turn. You do not average additional damage dice
-> (such as those granted by a sneak attack) when using this ability.
->
-> **Advanced Prerequisite:** [Critical Focus](ref/feat/critical-focus),
-> [Divine Fighting Technique](ref/feat/divine-fighting-technique),
-> [Weapon Focus](ref/feat/weapon-focus) (unarmed strike), either Base Attack Bonus +10 or 10 levels
-> in the [monk](ref/class/monk) class.
->
-> **Optional Advanced Replacement:** A lawful neutral brawler or monk of at least 10th level who
-> worships Irori and has the Divine Fighting Technique feat can replace a bonus feat with the
-> following advanced benefit without meeting its prerequisites.
->
-> **Advanced Benefit:** You no longer take a -2 penalty on attack rolls with your unarmed strikes
-> when you choose to deal the average amount of damage. If you critically hit a creature when using
-> this ability, you automatically inflict maximum weapon damage for that critical hit (although you
-> must still roll sneak attack dice or any other dice-based additional damage).
+[Irori's Perfected Fist](ref/feat/divine-fighting-technique#sec-irori-s-perfected-fist)
 
 ## Follower Options
 

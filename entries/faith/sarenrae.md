@@ -2,7 +2,7 @@
 id = "ref/faith/sarenrae"
 kind = "rule"
 title = "Sarenrae"
-source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfinder-20-house-of-the-beast"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-20-house-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sarenrae", path = "json/faiths7.json" },
 ]
@@ -165,36 +165,7 @@ kindness, dancing, gift giving, and kites; summer solstice)\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Sarenrae's Mercy
->
-> **Sources:** Divine Anthology
->
-> Although the Dawnflower is the goddess of healing and redemption, she is not a goddess of peace,
-> and her followers are taught that combat may be the only way to ensure the safety of those who
-> look to the faith for protection. In such situations, the faithful of Sarenrae are expected to end
-> combat swiftly and efficiently, to avoid drawing out the pain and agony of battle. When one can
-> end a battle without resorting to killing, the opportunity for redemption of the defeated foe
-> still remains. The pages of Dawnflower's Mercies teach methods by which those who serve Sarenrae
-> as soldiers can vanquish enemies in combat without killing them, and encourage those who follow
-> the teachings held within to offer those they take prisoner the chance to be welcomed into
-> Sarenrae's arms.
->
-> **Initial Benefit:** You take no penalty on attack rolls for using a scimitar to deal nonlethal
-> damage. If your attack with the scimitar would normally deal additional damage (such as via
-> [sneak attack](ref/ability/sneak-attack), the [flaming](ref/magic-enh/flaming) weapon special
-> ability, or the like), this additional damage can be nonlethal damage. You can also alter spells
-> with the fire, good, or light descriptor and inflict spells so that the damage they deal is
-> nonlethal damage instead. You can choose to apply this effect as the spell is cast.
->
-> **Advanced Prerequisite:** [Great Fortitude](ref/feat/great-fortitude),
-> [Weapon Focus](ref/feat/weapon-focus) (scimitar), 10 ranks in [Heal](ref/skill/heal).
->
-> **Advanced Benefit:** Once per round as you strike a foe with a weapon and deal nonlethal damage
-> with that attack, you regain 1d6 hit points as the warmth of Sarenrae's approval and the
-> conviction that you are doing the right thing to minimize suffering infuses your body and soul. If
-> the attack that dealt nonlethal damage was from a scimitar, you instead regain 2d6 hit points. You
-> can gain the benefit of this healing only once per round, regardless of how many successful
-> attacks you make with the weapon.
+[Sarenrae's Mercy](ref/feat/divine-fighting-technique#sec-sarenrae-s-mercy)
 
 ## Follower Options
 
