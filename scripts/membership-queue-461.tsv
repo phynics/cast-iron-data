@@ -1873,7 +1873,7 @@ monster-summoners-handbook	ref/spell/summon-monster-5	spell	Summon Monster V	2	2
 monster-summoners-handbook	ref/spell/summon-monster-7	spell	Summon Monster VII	2	2	cite-off	off-page	18	row	1	20							resolved	18	expanded-in-row	single-entry	S0			yes			
 monster-summoners-handbook	ref/spell/summon-monster-9	spell	Summon Monster IX	2	2	cite-off	off-page	18	row	2	7,21							resolved	18	expanded-in-row	single-entry	S0			yes			
 mythic-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	7	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-mythic-adventures	ref/spell/magic-weapon-greater	spell	Greater Magic Weapon	2	2	family-leak	printed		none	2	143,144	addon	ref/spell/magic-weapon-greater/mythic(body)								single-entry	S5		yes	yes			
+mythic-adventures	ref/spell/magic-weapon-greater	spell	Greater Magic Weapon	2	2	family-leak	printed		none	2	143,144	addon	ref/spell/magic-weapon-greater/mythic(body)					remove	100	expansion-credited-on-related	single-entry	done		yes	yes			
 mythic-adventures	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	15	15	review	loose	151	row	0											figurine	S4b			yes		no	
 mythic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	15	15	review	printed	151	row	0								keep	151	title-on-cited-page	figurine	S0			yes		yes	page
 mythic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven	item	Figurine of Wondrous Power (Black Jade Raven)	15	15	review	printed	151	row	0											figurine	S4b			yes		yes	none
