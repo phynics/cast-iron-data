@@ -17,7 +17,7 @@ page = "78"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "skilled-thrower" },
+  { anchor = "skilled-thrower", level = 1 },
 ]
 trades = [
   { replaces = "Fast movement", feature = "fast-movement", by = ["skilled-thrower"] },
@@ -36,5 +36,5 @@ weapon or object by 10 feet. This ability replaces fast movement.
 
 The following rage powers complement the hurler archetype: [hurling](ref/ragepower/hurling),
 [greater hurling](ref/ragepower/greater-hurling), [hurling charge](ref/ragepower/hurling-charge),
-[lesser hurling](ref/ragepower/lesser-hurling), [strength surge](ref/ragepower/strength-surge)\*,
-and [surprise accuracy](ref/ragepower/surprise-accuracy)\*.
+[lesser hurling](ref/ragepower/lesser-hurling), [strength surge](ref/ragepower/strength-surge), and
+[surprise accuracy](ref/ragepower/surprise-accuracy).

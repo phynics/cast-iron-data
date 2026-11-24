@@ -16,8 +16,11 @@ page = "133"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "follow-up", level = 1 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["follow-up"] },
 ]
 +++
 
@@ -30,17 +33,19 @@ rulers or bureaucracies, but often an investigator is a free agent who pursues w
 come across her path. Of course, not all investigators serve the law. Crime lords and guildmasters
 often have squads of investigators serving their own nefarious purposes.
 
-**Follow Up (Ex)**
+## Follow Up (Ex) {#follow-up}
 
-**Ability:** An investigator can roll twice on any Diplomacy check made to gather information, and
-receives the information for both results. This takes the same amount of time as one check. If the
-lesser of the two checks reveals false information, the rogue is aware of it. False information is
-not revealed in this way if the people she questioned do not know it to be false.
+An investigator can roll twice on any Diplomacy check made to gather information, and receives the
+information for both results. This takes the same amount of time as one check. If the lesser of the
+two checks reveals false information, the rogue is aware of it. False information is not revealed in
+this way if the people she questioned do not know it to be false. This ability replaces trapfinding.
 
-**Replaces:** Trapfinding
+## Rogue Talents {#rogue-talents}
 
-**These rogue talents complement this archetype:** Coax information, fast picks, follow clues, hard
-to fool, minor magic
+The following rogue talents complement the investigator archetype: coax information, fast picks,
+follow clues, hard to fool, and minor magic.
 
-**These advanced rogue talents complement this archetype:** Hunter's surprise, slippery mind,
-thoughtful reexamining
+## Advanced Talents {#advanced-talents}
+
+The following advanced rogue talents complement the investigator archetype: hunter's surprise,
+slippery mind, and thoughtful reexamining.

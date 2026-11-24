@@ -2,21 +2,6 @@
 # except the `edit` text of a feature (status `edit` in the review TSV).
 
 [[entry]]
-id = "ref/arc-barbarian/drunken-brute"
-
-[[entry.feature]]
-anchor = "raging-drunk"
-head = "Raging Drunk (Ex)"
-listed = true
-print = "While raging, the drunken brute can drink a potion, or a tankard of ale or similar quantity of alcohol, as a move action that does not provoke attacks of opportunity. A potion has its normal effect, while an alcoholic drink allows the barbarian to maintain her rage that round without expending a round of rage for the day (instead of the alcohol's normal effects). For each alcoholic drink consumed while raging, the barbarian is [nauseated](ref/misc/nauseated) for 1 round when her rage expires, in addition to the normal fatigue that follows a rage. Tireless rage does not negate this nauseated condition but the internal fortitude rage power does. This ability replaces fast movement."
-
-[[entry.feature]]
-anchor = "rage-powers"
-head = "Rage Powers"
-listed = false
-print = "The following rage powers complement the drunken brute archetype: [boasting taunt](ref/ragepower/boasting-taunt), [good for what ails you](ref/ragepower/good-for-what-ails-you), [internal fortitude](ref/ragepower/internal-fortitude)\\*, [liquid courage](ref/ragepower/liquid-courage), [moment of clarity](ref/ragepower/moment-of-clarity)\\*, [roaring drunk](ref/ragepower/roaring-drunk), and [staggering drunk](ref/ragepower/staggering-drunk)."
-
-[[entry]]
 id = "ref/arc-barbarian/elemental-kin"
 
 [[entry.feature]]
@@ -33,31 +18,8 @@ listed = false
 print = "The following rage powers complement the elemental kin archetype: [elemental rage](ref/ragepower/elemental-rage), [energy absorption](ref/ragepower/energy-absorption), [energy eruption](ref/ragepower/energy-eruption), [energy resistance](ref/ragepower/energy-resistance), [greater elemental rage](ref/ragepower/greater-elemental-rage), [greater energy resistance](ref/ragepower/greater-energy-resistance), and [lesser elemental rage](ref/ragepower/lesser-elemental-rage)."
 
 [[entry]]
-id = "ref/arc-barbarian/superstitious"
-
-[[entry.feature]]
-anchor = "sixth-sense"
-head = "Sixth Sense (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, the superstitious barbarian gains a +1 bonus on initiative and a +1 insight bonus to AC during surprise rounds. This bonus increases by +1 for every three levels after 3rd. This ability replaces trap sense."
-
-[[entry.feature]]
-anchor = "keen-senses"
-head = "Keen Senses (Ex)"
-listed = true
-level = 7
-print = "At 7th level, the superstitious barbarian gains [low-light vision](ref/umr/low-light-vision) (triple normal vision range in dim light if she already has [low-light vision](ref/rule/low-light-vision)). At 10th level, she gains [darkvision](ref/umr/[darkvision](ref/rule/darkvision)) 60 feet (or adds 60 feet to the range of any darkvision already possessed). At 13th level, she gains [scent](ref/umr/scent). At 16th level, she gains [blindsense](ref/umr/blindsense) 30 feet. At 19th level, she gains [blindsight](ref/umr/blindsight) 30 feet. This ability replaces [damage reduction](ref/rule/damage-reduction)."
-
-[[entry.feature]]
-anchor = "rage-powers"
-head = "Rage Powers"
-listed = false
-print = "The following rage powers complement the superstitious archetype: [clear mind](ref/ragepower/clear-mind)\\*, [disruptive](ref/ragepower/disruptive), [roused anger](ref/ragepower/roused-anger)\\*, [spellbreaker](ref/ragepower/spellbreaker), [superstition](ref/ragepower/superstition)\\*, and [witch hunter](ref/ragepower/witch-hunter)."
-
-[[entry]]
 id = "ref/arc-bard/arcane-duelist"
-hold = "head not printed: Bonded Object"
+hold = "head not printed: Bonded Object; the replaces trade `Countersong` is not printed in a feature or in the opening text; the replaces trade `Versatile performance` is not printed in a feature or in the opening text; the replaces trade `well-versed` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "arcane-strike"
@@ -104,74 +66,17 @@ level = 5
 print = "At 5th level, an arcane duelist gains the arcane bond ability as a [wizard](ref/class/wizard), using a weapon as his bonded item, allowing him to cast any one additional spell that he knows once per day. He may not choose a familiar or other type of bonded item. He may use the hand holding his bonded weapon for somatic components. This ability replaces lore master."
 
 [[entry.feature]]
-anchor = "bonded-object"
-head = "Bonded Object"
-listed = true
-print = ""
-
-[[entry.feature]]
 anchor = "arcane-armor"
 head = "Arcane Armor (Ex)"
 listed = true
 level = 10
 print = "At 10th level, an arcane duelist gains Medium Armor Proficiency and can cast bard spells in medium armor with no chance of arcane spell failure. At 16th level, he gains Heavy Armor Proficiency and can cast bard spells in heavy armor with no arcane spell failure. This ability replaces jack of all trades."
 
-[[entry]]
-id = "ref/arc-bard/archivist"
-
 [[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "An archivist gains the following types of bardic performance."
-
-[[entry.feature]]
-anchor = "naturalist"
-head = "Naturalist (Ex)"
-listed = true
-print = "An archivist who has identified a creature with a Knowledge check appropriate to its type can use performance to share strategies for defeating it with allies in combat. The archivist and any allies within 30 feet gain a +1 insight bonus to AC and on attack rolls and saving throws against exceptional, supernatural, and [spell-like abilities](ref/umr/spell-like-abilities) used by creatures of that specific kind of monster (e.g., [frost giants](ref/monster/giant-frost-frost-giant), not all giants or all humanoids). This bonus increases by +1 at 5th level and every six levels thereafter. This language-dependent ability requires visual and audible components. This ability replaces inspire courage."
-
-[[entry.feature]]
-anchor = "lamentable-belaborment"
-head = "Lamentable Belaborment (Ex)"
-listed = true
-level = 6
-print = "At 6th level, an archivist can bewilder a creature already [fascinated](ref/misc/fascinated) by his performance. Using this ability does not disrupt the fascinate effect, but it does require a standard action to activate (in addition to the free action to continue the fascinate effect). The target must make a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier). Success renders the target immune to this power for 24 hours, but failure leaves the target either [dazed](ref/misc/dazed) or [confused](ref/misc/confused) (archivist's choice) for as long as the performance continues. If the target takes damage, this effect ends immediately. This mind-affecting ability relies on audible components. This ability replaces suggestion."
-
-[[entry.feature]]
-anchor = "pedantic-lecture"
-head = "Pedantic Lecture (Su)"
-listed = true
-level = 18
-print = "At 18th level, an archivist can affect as many creatures with lamentable belaborment as he currently has fascinated. In addition, he may choose to cause targets to fall asleep rather than be dazed or confused. This ability replaces mass suggestion."
-
-[[entry.feature]]
-anchor = "lore-master"
-head = "Lore Master (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, an archivist may take 20 on Knowledge checks once per day, plus once per six levels beyond 2nd. This ability replaces versatile performance."
-
-[[entry.feature]]
-anchor = "magic-lore"
-head = "Magic Lore (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, an archivist gains a bonus on Spellcraft checks to identify magic items or decipher scrolls equal to half his bard level and may take 10 on such checks. An archivist can use Disable Device to disarm magical traps as per a rogue's [trapfinding](ref/ability/trapfinding) ability and gains a +4 bonus on saves against magical traps, language-dependent effects, and symbols, glyphs, and magical writings of any kind. This ability replaces well-versed."
-
-[[entry.feature]]
-anchor = "jack-of-all-trades"
-head = "Jack of All Trades (Ex)"
-listed = true
-level = 5
-print = "At 5th level, an archivist can use any skill, even if the skill normally requires him to be trained. At 11th level, he considers all skills to be class skills, and at 17th level he can take 10 on any skill check, even if it is not normally allowed. This ability replaces lore master."
-
-[[entry.feature]]
-anchor = "probable-path"
-head = "Probable Path (Ex)"
-listed = true
-level = 10
-print = "At 10th level, an archivist can calculate the action likely to bring success with the least risk. Once per day, he can take 10 on any d20 roll. He may use this ability one additional time per day for every three levels after 10th. This ability replaces jack of all trades."
+anchor = "bonded-object"
+head = "Bonded Object"
+listed = false
+print = ""
 
 [[entry]]
 id = "ref/arc-bard/court-bard"
@@ -271,7 +176,7 @@ print = "In addition, a detective's class spell list includes the following: 1st
 
 [[entry]]
 id = "ref/arc-bard/magician"
-hold = "head not printed: Arcane Bond: Bonded Object"
+hold = "head not printed: Arcane Bond: Bonded Object; the replaces trade `Dirge of doom` is not printed in a feature or in the opening text; the replaces trade `Frightening tune` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "bardic-performance"
@@ -333,17 +238,17 @@ level = 5
 print = "At 5th level, a magician gains the arcane bond ability as a [wizard](ref/class/wizard). He may not choose a familiar or a weapon as a bonded item. This ability replaces lore master."
 
 [[entry.feature]]
-anchor = "arcane-bond-bonded-object"
-head = "Arcane Bond: Bonded Object"
-listed = true
-print = ""
-
-[[entry.feature]]
 anchor = "wand-mastery"
 head = "Wand Mastery (Ex)"
 listed = true
 level = 10
 print = "At 10th level, when a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand's save DC. At 16th level, when using such a wand, he uses his caster level in place of the wand's caster level. This ability replaces jack of all trades."
+
+[[entry.feature]]
+anchor = "arcane-bond-bonded-object"
+head = "Arcane Bond: Bonded Object"
+listed = false
+print = ""
 
 [[entry]]
 id = "ref/arc-bard/sandman"
@@ -379,7 +284,7 @@ print = "At 9th level, a sandman can use bardic performance to cast spells witho
 anchor = "greater-stealspell"
 head = "Greater Stealspell (Su)"
 listed = true
-print = "A sandman's stealspell power improves at 15th level. When a target fails a save against his stealspell performance, the sandman discovers its [spell resistance](ref/rule/spell-resistance) (if any) and all spells it has prepared or knows. He can then choose which spell to steal. The sandman may forgo stealing a spell and instead reduce the target's SR by an amount equal to half his bard level and gain that amount of spell resistance for as long as he continues performing. If he steals additional spell resistance, it stacks with previously stolen SR. If he steals a spell or ceases performing, the spell resistance immediately reverts back to its owner. This performance replaces inspire heroics."
+print = "A sandman's stealspell power improves at 15th level. When a target fails a save against his stealspell performance, the sandman discovers its [spell resistance](ref/rule/spell-resistance) (if any) and all spells it has prepared or knows. He can then choose which spell to steal. The sandman may forgo stealing a spell and instead reduce the target's SR by an amount equal to half his bard level and gain that amount of [spell resistance](ref/rule/spell-resistance) for as long as he continues performing. If he steals additional spell resistance, it stacks with previously stolen SR. If he steals a spell or ceases performing, the spell resistance immediately reverts back to its owner. This performance replaces inspire heroics."
 
 [[entry.feature]]
 anchor = "mass-slumber-song"
@@ -500,7 +405,7 @@ anchor = "call-the-storm"
 head = "Call the Storm (Su)"
 listed = true
 level = 18
-print = "At 18th level, a sea singer can use performance to duplicate _[control water](ref/spell/control-water), [control weather](ref/spell/control-weather), [control winds](ref/spell/control-winds),_ or _[storm of vengeance](ref/spell/storm-of-vengeance)_, using his bard level as the caster level. Using this ability requires 1 round of continuous performance per level of the spell (as if he were a [druid](ref/class/druid)). These effects continue for as long as the bard continues performing (the effects of _control weather_ happen immediately), but not longer than the spell's normal duration. This performance replaces mass suggestion."
+print = "At 18th level, a sea singer can use performance to duplicate _[control water](ref/spell/control-water), [control weather](ref/spell/control-weather), [control winds](ref/spell/control-winds),_ or _[storm of vengeance](ref/spell/storm-of-vengeance)_, using his bard level as the caster level. Using this ability requires 1 round of continuous performance per level of the spell (as if he were a [druid](ref/class/druid)). These effects continue for as long as the bard continues performing (the effects of _[control weather](ref/spell/control-weather)_ happen immediately), but not longer than the spell's normal duration. This performance replaces mass suggestion."
 
 [[entry.feature]]
 anchor = "world-traveler"
@@ -676,7 +581,7 @@ print = "At 13th level, an arctic druid can assume the form of a swirling column
 
 [[entry]]
 id = "ref/arc-druid/bear-shaman"
-hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
+hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the replaces trade `Venom immunity` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -714,8 +619,7 @@ print = "At 6th level, a bear shaman's wild shape ability functions at her druid
 [[entry.feature]]
 anchor = "bonus-feat"
 head = "Bonus Feat"
-listed = true
-level = 9
+listed = false
 print = "At 9th level and every 4 levels thereafter, a bear shaman gains one of the following bonus feats: [Diehard](ref/feat/diehard), Endurance, [Great Fortitude](ref/feat/great-fortitude), [Improved Great Fortitude](ref/feat/improved-great-fortitude), [Toughness](ref/feat/toughness). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 
 [[entry]]
@@ -851,7 +755,7 @@ print = "At 13th level, a desert druid can assume the form of a swirling mass of
 
 [[entry]]
 id = "ref/arc-druid/eagle-shaman"
-hold = "head not in the entry: Bonus Feat; the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
+hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -931,7 +835,7 @@ print = "At 13th level, a jungle druid can cast _[tree shape](ref/spell/tree-sha
 
 [[entry]]
 id = "ref/arc-druid/lion-shaman"
-hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
+hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the replaces trade `Venom immunity` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -969,8 +873,7 @@ print = "At 6th level, a lion shaman's wild shape ability functions at her druid
 [[entry.feature]]
 anchor = "bonus-feat"
 head = "Bonus Feat"
-listed = true
-level = 9
+listed = false
 print = "At 9th level and every 4 levels thereafter, a lion shaman gains one of the following bonus feats: [Dodge](ref/feat/dodge), [Lunge](ref/feat/lunge), [Improved Iron Will](ref/feat/improved-iron-will), [Iron Will](ref/feat/iron-will), or [Skill Focus](ref/feat/skill-focus) (Acrobatics). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 
 [[entry]]
@@ -1065,7 +968,7 @@ print = "At 13th level, a plains druid gains [evasion](ref/ability/evasion) when
 
 [[entry]]
 id = "ref/arc-druid/serpent-shaman"
-hold = "head not printed: Serpent Shaman Venom"
+hold = "head not printed: Serpent Shaman Venom; the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the replaces trade `Venom immunity` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -1087,12 +990,6 @@ level = 2
 print = "At 2nd level, a serpent shaman may adopt an aspect of the snake while retaining her normal form. This ability functions as the bear shaman ability, but the druid may select from the following bonuses: movement (climb speed 20 feet, swim speed 20 feet), scales (+2 natural armor bonus to AC), senses ([low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent)), or [natural weapons](ref/umr/natural-attacks) (bite \\[1d4\\], poison \\[ _frequency_ 1 round (6), _effect_ 1 Con damage, _Cure_ 1 save, Con-based DC\\] for a Medium druid, +2 CMB to grapple). While using totem transformation, the serpent shaman may speak normally and can cast _speak with animals_ (reptiles only) at will."
 
 [[entry.feature]]
-anchor = "serpent-shaman-venom"
-head = "Serpent Shaman Venom"
-listed = true
-print = ""
-
-[[entry.feature]]
 anchor = "totemic-summons"
 head = "Totemic Summons (Su)"
 listed = true
@@ -1109,9 +1006,14 @@ print = "At 6th level, a serpent shaman's wild shape ability functions at her dr
 [[entry.feature]]
 anchor = "bonus-feat"
 head = "Bonus Feat"
-listed = true
-level = 9
+listed = false
 print = "At 9th level and every 4 levels thereafter, a serpent shaman gains one of the following bonus feats: [Combat Expertise](ref/feat/combat-expertise), [Improved Feint](ref/feat/improved-feint), [Skill Focus](ref/feat/skill-focus) (Bluff ), [Stealthy](ref/feat/stealthy), or [Strike Back](ref/feat/strike-back). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
+
+[[entry.feature]]
+anchor = "serpent-shaman-venom"
+head = "Serpent Shaman Venom"
+listed = false
+print = ""
 
 [[entry]]
 id = "ref/arc-druid/swamp-druid"
@@ -1202,7 +1104,7 @@ print = "At 9th level, an urban druid gains immunity to charm and compulsion eff
 
 [[entry]]
 id = "ref/arc-druid/wolf-shaman"
-hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
+hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the replaces trade `Venom immunity` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -1240,8 +1142,7 @@ print = "At 6th level, a wolf shaman's wild shape ability functions at her druid
 [[entry.feature]]
 anchor = "bonus-feat"
 head = "Bonus Feat"
-listed = true
-level = 9
+listed = false
 print = "At 9th level and every 4 levels thereafter, a wolf shaman gains one of the following bonus feats: [Greater Trip](ref/feat/greater-trip), [Improved Trip](ref/feat/improved-trip), [Mobility](ref/feat/mobility), [Skill Focus](ref/feat/skill-focus) (Stealth), or [Spring Attack](ref/feat/spring-attack). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 
 [[entry]]
@@ -1538,12 +1439,6 @@ id = "ref/arc-fighter/weapon-master"
 hold = "head not printed: Chosen Weapon"
 
 [[entry.feature]]
-anchor = "chosen-weapon"
-head = "Chosen Weapon"
-listed = true
-print = ""
-
-[[entry.feature]]
 anchor = "weapon-guard"
 head = "Weapon Guard (Ex)"
 listed = true
@@ -1592,6 +1487,12 @@ listed = true
 level = 19
 print = "At 19th level, a weapon master can take a standard action to make one attack with his chosen weapon as a touch attack that ignores [damage reduction](ref/rule/damage-reduction) (or [hardness](ref/umr/hardness), if attacking an object). This ability replaces armor mastery."
 
+[[entry.feature]]
+anchor = "chosen-weapon"
+head = "Chosen Weapon"
+listed = false
+print = ""
+
 [[entry]]
 id = "ref/arc-monk/drunken-master"
 
@@ -1632,7 +1533,6 @@ print = "At 19th level, a drunken master can take a drink and expel a gout of al
 
 [[entry]]
 id = "ref/arc-monk/hungry-ghost-monk"
-hold = "the replaces trade `Diamond soul` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "punishing-kick"
@@ -1667,7 +1567,7 @@ anchor = "sipping-demon"
 head = "Sipping Demon (Su)"
 listed = true
 level = 13
-print = "At 13th level, a hungry ghost monk gains 1 [temporary hit point](ref/rule/temporary-hit-points) each time he hits an enemy with a melee attack. The monk gains a number of temporary hit points equal to his Wisdom modifier when he scores a critical hit. The maximum number of temporary hit points the monk can have is equal to his monk level. The temporary hit points disappear 1 hour later. The monk can only use this ability when he has at least 1 _ki_ point in his _ki_ pool. This ability is a proscribed manipulation of _ki_ considered by many good monks to be a corruption. The ability replaces diamond soul."
+print = "At 13th level, a hungry ghost monk gains 1 [temporary hit point](ref/rule/temporary-hit-points) each time he hits an enemy with a melee attack. The monk gains a number of temporary hit points equal to his Wisdom modifier when he scores a critical hit. The maximum number of temporary hit points the monk can have is equal to his monk level. The temporary hit points disappear 1 hour later. The monk can only use this ability when he has at least 1 _ki_ point in his _ki_ pool. This ability is a proscribed manipulation of _ki_ considered by many good monks to be a corruption. This ability replaces diamond soul."
 
 [[entry]]
 id = "ref/arc-monk/monk-of-the-empty-hand"
@@ -1689,8 +1589,8 @@ print = "Starting at 1st level, a monk of the empty hand can make a flurry of bl
 [[entry.feature]]
 anchor = "bonus-feat"
 head = "Bonus Feat"
-listed = true
-print = "A monk of the empty hand adds the following feats to his list of bonus feats at 6th level: [Improved Dirty Trick](ref/feat/improved-dirty-trick)\\*, [Improved Steal](ref/feat/improved-steal)\\*, and [Improvised Weapon Mastery](ref/feat/improvised-weapon-mastery)."
+listed = false
+print = "A monk of the empty hand adds the following feats to his list of bonus feats at 6th level: [Improved Dirty Trick](ref/feat/improved-dirty-trick), [Improved Steal](ref/feat/improved-steal), and [Improvised Weapon Mastery](ref/feat/improvised-weapon-mastery)."
 
 [[entry.feature]]
 anchor = "versatile-improvisation"
@@ -1860,7 +1760,7 @@ A zen archer cannot use [Rapid Shot](ref/feat/rapid-shot) or [Manyshot](ref/feat
 anchor = "bonus-feats"
 head = "Bonus Feats"
 listed = false
-print = "A zen archer's bonus feats must be taken from the following list: [Combat Reflexes](ref/feat/combat-reflexes), [Deflect Arrows](ref/feat/deflect-arrows), [Dodge](ref/feat/dodge), [Far Shot](ref/feat/far-shot), [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), and Rapid Shot. At 6th level, the following feats are added to the list: [Focused Shot](ref/feat/focused-shot)\\*, [Improved Precise Shot](ref/feat/improved-precise-shot), Manyshot, [Mobility](ref/feat/mobility), and [Parting Shot](ref/feat/parting-shot)\\*. At 10th level, the following feats are added to the list: [Improved Critical](ref/feat/improved-critical), [Pinpoint Targeting](ref/feat/pinpoint-targeting), [Shot on the Run](ref/feat/shot-on-the-run), and [Snatch Arrows](ref/feat/snatch-arrows). A monk need not have any of the prerequisites normally required for these feats to select them. These feats replace the monk's normal bonus feats."
+print = "A zen archer's bonus feats must be taken from the following list: [Combat Reflexes](ref/feat/combat-reflexes), [Deflect Arrows](ref/feat/deflect-arrows), [Dodge](ref/feat/dodge), [Far Shot](ref/feat/far-shot), [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), and Rapid Shot. At 6th level, the following feats are added to the list: [Focused Shot](ref/feat/focused-shot), [Improved Precise Shot](ref/feat/improved-precise-shot), Manyshot, [Mobility](ref/feat/mobility), and [Parting Shot](ref/feat/parting-shot). At 10th level, the following feats are added to the list: [Improved Critical](ref/feat/improved-critical), [Pinpoint Targeting](ref/feat/pinpoint-targeting), [Shot on the Run](ref/feat/shot-on-the-run), and [Snatch Arrows](ref/feat/snatch-arrows). A monk need not have any of the prerequisites normally required for these feats to select them. These feats replace the monk's normal bonus feats."
 
 [[entry.feature]]
 anchor = "perfect-strike"
@@ -1888,7 +1788,7 @@ anchor = "point-blank-master"
 head = "Point Blank Master (Ex)"
 listed = true
 level = 3
-print = "At 3rd level, a zen archer gains Point Blank Master\\* as a bonus feat, even if he does not meet the prerequisites. This ability replaces still mind."
+print = "At 3rd level, a zen archer gains Point Blank Master as a bonus feat, even if he does not meet the prerequisites. This ability replaces still mind."
 
 [[entry.feature]]
 anchor = "ki-pool"
@@ -2053,7 +1953,12 @@ print = "At 14th level, a warrior of the holy light can unleash a 30-foot [burst
 
 [[entry]]
 id = "ref/arc-ranger/beast-master"
-hold = "head not in the entry: Class Skills"
+
+[[entry.feature]]
+anchor = "class-skills"
+head = "Class Skills"
+listed = true
+print = "A beast master's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Escape Artist (Dex), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (nature) (Int), Perception (Wis), Ride (Dex), Stealth (Dex), Survival (Wis), and Swim (Wis). These replace the standard ranger class skills."
 
 [[entry.feature]]
 anchor = "animal-companion"
@@ -2077,12 +1982,6 @@ head = "Strong Bond (Ex)"
 listed = true
 level = 12
 print = "At 12th level, the ranger strengthens his bond with his animal companions. The ranger's effective druid level for his animal companions is now equal to his ranger level; he may immediately allocate these additional levels to his companions as he sees fit. This ability replaces camouflage."
-
-[[entry.feature]]
-anchor = "class-skills"
-head = "Class Skills"
-listed = false
-print = "A beast master's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Escape Artist (Dex), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (nature) (Int), Perception (Wis), Ride (Dex), Stealth (Dex), Survival (Wis), and Swim (Wis). These replace the standard ranger class skills."
 
 [[entry]]
 id = "ref/arc-ranger/guide"
@@ -2276,7 +2175,6 @@ print = "climb 15 ft., [darkvision](ref/rule/darkvision) 60 ft., Great Fortitude
 
 [[entry]]
 id = "ref/arc-ranger/shapeshifter"
-hold = "anchor `form-of-the-bear` occurs 2 times; anchor `form-of-the-cat` occurs 2 times; anchor `form-of-the-dragon` occurs 2 times; anchor `form-of-the-eagle` occurs 2 times; anchor `form-of-the-jackal` occurs 2 times; anchor `form-of-the-otter` occurs 2 times; the replaces trade `Favored terrain` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "combat-style-feat"
@@ -2299,37 +2197,40 @@ The shapeshifter must choose one of the following forms. Once this choice is mad
 anchor = "form-of-the-bear"
 head = "Form of the Bear"
 listed = true
-print = "The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +8 enhancement bonus to Strength and he does not suffer any reduction of speed. Alternatively, the ranger can polymorph into the form of a bear as if the caster of _beast shape IV_."
+print = "The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +4 enhancement bonus to Strength, but his base speed becomes 20 feet."
 
 [[entry.feature]]
 anchor = "form-of-the-cat"
 head = "Form of the Cat"
 listed = true
-print = "The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 20 feet and he gains a +10 bonus on Acrobatics and Climb checks. Alternatively, the ranger can polymorph into the form of a cat of any size as if the caster of _beast shape IV_."
+print = "The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 10 feet, and he gains a +4 bonus on Acrobatics and Climb checks."
 
 [[entry.feature]]
 anchor = "form-of-the-dragon"
 head = "Form of the Dragon"
 listed = true
-print = "The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +4 natural armor bonus to AC and a fly speed of 30 feet with average maneuverability. Alternately, the ranger can polymorph into the form of a dragon as if the caster of _form of the dragon I_."
+print = "The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +2 natural armor bonus to AC."
 
 [[entry.feature]]
 anchor = "form-of-the-eagle"
 head = "Form of the Eagle"
 listed = true
-print = "The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on Perception checks and a fly speed of 40 feet with good maneuverability. Alternatively, the ranger can polymorph into the form of an eagle or similar raptor as if the caster of _beast shape IV_."
+print = "The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on Perception checks."
 
 [[entry.feature]]
 anchor = "form-of-the-jackal"
 head = "Form of the Jackal"
 listed = true
-print = "The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger does not provoke attacks of opportunity due to movement. Alternatively, the ranger can polymorph into the form of a jackal or other canine creature as if the caster of _beast shape IV_."
+print = "The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger can spend a move action to move up to 1/2 his speed without provoking attacks of opportunity."
 
 [[entry.feature]]
 anchor = "form-of-the-otter"
 head = "Form of the Otter"
 listed = true
-print = "The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 60 feet and a +5 bonus on Swim checks. Alternatively, the ranger can polymorph into the form of an otter or similar river mammal as if the caster of _beast shape IV_."
+print = '''
+The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 30 feet and a +8 bonus on Swim checks.
+
+At 8th level and again every five levels thereafter, the ranger may select an additional form for his shifter's blessing and may use this ability one additional time per day. This is not a polymorph ability; a ranger with shifter's blessing in one of his shifted forms can be affected by a polymorph ability and retain his bonus and traits gained by the class feature. This ability replaces favored terrain.'''
 
 [[entry.feature]]
 anchor = "dual-form-shifter"
@@ -2346,37 +2247,37 @@ level = 20
 print = "At 20th level, the ranger's shifter's blessing forms improve, and he can take on true forms of beasts. The ranger can use dual form shifter with this ability, although he cannot use more than one polymorph effect at any one time. This ability replaces master hunter. The ranger's forms from shifter's blessing improve to the following:"
 
 [[entry.feature]]
-anchor = "form-of-the-bear"
+anchor = "master-shifter-form-of-the-bear"
 head = "Form of the Bear"
 listed = true
 print = "The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +8 enhancement bonus to Strength and he does not suffer any reduction of speed. Alternatively, the ranger can polymorph into the form of a bear as if the caster of _[beast shape IV](ref/spell/beast-shape-4)_."
 
 [[entry.feature]]
-anchor = "form-of-the-cat"
+anchor = "master-shifter-form-of-the-cat"
 head = "Form of the Cat"
 listed = true
 print = "The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 20 feet and he gains a +10 bonus on Acrobatics and Climb checks. Alternatively, the ranger can polymorph into the form of a cat of any size as if the caster of _[beast shape IV](ref/spell/beast-shape-4)_."
 
 [[entry.feature]]
-anchor = "form-of-the-dragon"
+anchor = "master-shifter-form-of-the-dragon"
 head = "Form of the Dragon"
 listed = true
 print = "The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +4 natural armor bonus to AC and a fly speed of 30 feet with average maneuverability. Alternately, the ranger can polymorph into the form of a dragon as if the caster of _[form of the dragon I](ref/spell/form-of-the-dragon-1)_."
 
 [[entry.feature]]
-anchor = "form-of-the-eagle"
+anchor = "master-shifter-form-of-the-eagle"
 head = "Form of the Eagle"
 listed = true
 print = "The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on Perception checks and a fly speed of 40 feet with good maneuverability. Alternatively, the ranger can polymorph into the form of an eagle or similar raptor as if the caster of _[beast shape IV](ref/spell/beast-shape-4)_."
 
 [[entry.feature]]
-anchor = "form-of-the-jackal"
+anchor = "master-shifter-form-of-the-jackal"
 head = "Form of the Jackal"
 listed = true
 print = "The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger does not provoke attacks of opportunity due to movement. Alternatively, the ranger can polymorph into the form of a jackal or other canine creature as if the caster of _[beast shape IV](ref/spell/beast-shape-4)_."
 
 [[entry.feature]]
-anchor = "form-of-the-otter"
+anchor = "master-shifter-form-of-the-otter"
 head = "Form of the Otter"
 listed = true
 print = "The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 60 feet and a +5 bonus on Swim checks. Alternatively, the ranger can polymorph into the form of an otter or similar river mammal as if the caster of _[beast shape IV](ref/spell/beast-shape-4)_."
@@ -2553,7 +2454,13 @@ print = "The ranger can use this trick as an immediate action when an enemy adja
 
 [[entry]]
 id = "ref/arc-ranger/urban-ranger"
-hold = "head not in the entry: Urban Ranger"
+
+[[entry.feature]]
+anchor = "urban-ranger"
+head = "Urban Ranger"
+listed = true
+level = 1
+print = "At 1st level, an urban ranger adds Disable Device and Knowledge (local) to his list of class skills and removes Handle Animal and Knowledge (nature) from his list of class skills."
 
 [[entry.feature]]
 anchor = "favored-community"
@@ -2594,12 +2501,6 @@ listed = true
 level = 17
 print = "At 17th level, the urban ranger can cast _[greater invisibility](ref/spell/invisibility-greater)_ on himself as a wizard of his ranger level as a swift action. He can use this spell-like ability a number of times per day equal to his Wisdom modifier (minimum 1). This ability replaces hide in plain sight."
 
-[[entry.feature]]
-anchor = "urban-ranger"
-head = "Urban Ranger"
-listed = false
-print = "At 1st level, an urban ranger adds Disable Device and Knowledge (local) to his list of class skills and removes Handle Animal and Knowledge (nature) from his list of class skills."
-
 [[entry]]
 id = "ref/arc-rogue/acrobat"
 
@@ -2621,88 +2522,10 @@ print = "At 3rd level, an acrobat can reroll any Acrobatics, Climb, or Fly skill
 anchor = "rogue-talents"
 head = "Rogue Talents"
 listed = false
-print = "The following rogue talents complement the acrobat archetype: expert leaper, ledge walker\\*, nimble climber, peerless maneuver, rogue crawl\\*, and stand up\\*."
+print = "The following rogue talents complement the acrobat archetype: expert leaper, ledge walker, nimble climber, peerless maneuver, rogue crawl, and stand up."
 
 [[entry.feature]]
 anchor = "advanced-talents"
 head = "Advanced Talents"
 listed = false
-print = "The following advanced rogue talents complement the acrobat archetype: defensive roll\\*, fast getaway, fast tumble, and improved evasion\\*."
-
-[[entry]]
-id = "ref/arc-rogue/investigator"
-
-[[entry.feature]]
-anchor = "follow-up"
-head = "Follow Up (Ex)"
-listed = true
-print = "An investigator can roll twice on any Diplomacy check made to gather information, and receives the information for both results. This takes the same amount of time as one check. If the lesser of the two checks reveals false information, the rogue is aware of it. False information is not revealed in this way if the people she questioned do not know it to be false. This ability replaces trapfinding."
-
-[[entry.feature]]
-anchor = "rogue-talents"
-head = "Rogue Talents"
-listed = false
-print = "The following rogue talents complement the investigator archetype: coax information, fast picks, follow clues, hard to fool, and minor magic\\*."
-
-[[entry.feature]]
-anchor = "advanced-talents"
-head = "Advanced Talents"
-listed = false
-print = "The following advanced rogue talents complement the investigator archetype: hunter's surprise, slippery mind\\*, and thought reexamining."
-
-[[entry]]
-id = "ref/arc-rogue/rake"
-
-[[entry.feature]]
-anchor = "bravado-s-blade"
-head = "Bravado's Blade (Ex)"
-listed = true
-print = "When a rake hits an opponent and deals sneak attack damage, she can forgo 1d6 points of that damage and make a free [Intimidate](ref/skill/intimidate) check to demoralize the foe. For every additional 1d6 points of sneak attack damage she forgoes, she receives a +5 circumstance bonus on this check. This ability replaces trapfinding."
-
-[[entry.feature]]
-anchor = "rake-s-smile"
-head = "Rake's Smile (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, a rake gains a +1 morale bonus on Bluff and Diplomacy checks. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense."
-
-[[entry.feature]]
-anchor = "rogue-talents"
-head = "Rogue Talents"
-listed = false
-print = "The following rogue talents complement the rake archetype: befuddling strike, charmer, honeyed words, and surprise attack\\*."
-
-[[entry.feature]]
-anchor = "advanced-talents"
-head = "Advanced Talents"
-listed = false
-print = "The following advanced rogue talents complement the rake archetype: another day, redirect attack, and skill mastery\\*."
-
-[[entry]]
-id = "ref/arc-rogue/swashbuckler"
-
-[[entry.feature]]
-anchor = "martial-training"
-head = "Martial Training (Ex)"
-listed = true
-level = 1
-print = "At 1st level, the swashbuckler may select one martial weapon to add to her list of weapon proficiencies. In addition, she may take the [combat trick](ref/talent/combat-trick) rogue talent up to two times. This ability replaces trapfinding."
-
-[[entry.feature]]
-anchor = "daring"
-head = "Daring (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, a swashbuckler gains a +1 morale bonus on Acrobatics checks and saving throws against fear. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense."
-
-[[entry.feature]]
-anchor = "rogue-talents"
-head = "Rogue Talents"
-listed = false
-print = "The following rogue talents complement the swashbuckler archetype: offensive defense, positioning attack, powerful sneak, and weapon training\\*."
-
-[[entry.feature]]
-anchor = "advanced-talents"
-head = "Advanced Talents"
-listed = false
-print = "The following advanced rogue talents complement the swashbuckler archetype: crippling strike\\*, entanglement of blades, and redirect attack."
+print = "The following advanced rogue talents complement the acrobat archetype: defensive roll, fast getaway, fast tumble, and improved evasion."

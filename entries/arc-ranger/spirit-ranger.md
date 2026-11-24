@@ -45,5 +45,5 @@ additional spell in this way. This replaces hunter's bond.
 At 12th level, the spirit ranger can use his _[augury](ref/spell/augury)_
 [spell-like ability](ref/umr/spell-like-abilities) even when he is not in one of his favored
 terrains. If he is within one of his favored terrains, the ranger can cast
-_[divination](ref/spell/divination)_ instead. Like _augury_, the caster level of the _divination_ is
-equal to the ranger's level. This ability replaces camouflage.
+_[divination](ref/spell/divination)_ instead. Like _[augury](ref/spell/augury)_, the caster level of
+the _divination_ is equal to the ranger's level. This ability replaces camouflage.

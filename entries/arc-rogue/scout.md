@@ -47,9 +47,9 @@ to this ability. This ability replaces improved uncanny dodge.
 ## Rogue Talents {#rogue-talents}
 
 The following rogue talents complement the scout archetype: assault leader, camouflage, cunning
-trigger, survivalist, and trap spotter\*.
+trigger, survivalist, and trap spotter.
 
 ## Advanced Talents {#advanced-talents}
 
 The following advanced rogue talents complement the scout archetype: hunter's surprise, skill
-mastery\*, and stealthy sniper.
+mastery, and stealthy sniper.

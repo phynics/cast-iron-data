@@ -48,9 +48,9 @@ rogue level. This ability replaces trap sense.
 ## Rogue Talents {#rogue-talents}
 
 The following rogue talents complement the poisoner archetype: distracting attack, lasting poison,
-surprise attack\*, swift poison, and weapon training\*.
+surprise attack, swift poison, and weapon training.
 
 ## Advanced Talents {#advanced-talents}
 
 The following advanced rogue talents complement the poisoner archetype: deadly cocktail, hunter's
-surprise, and opportunist\*.
+surprise, and opportunist.

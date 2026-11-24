@@ -59,6 +59,6 @@ level for his mount is now equal to his ranger level. This ability replaces camo
 
 At 17th level, the horse lord can grant his animal companion
 [temporary hit points](ref/rule/temporary-hit-points) equal to his ranger level once per day. While
-these temporary hit points last, when his mount is within 30 feet of the him, he can choose to share
-the damage taken by his mount as if using _[shield other](ref/spell/shield-other)_. This ability
+these temporary hit points last, when his mount is within 30 feet of him, he can choose to share the
+damage taken by his mount as if using _[shield other](ref/spell/shield-other)_. This ability
 replaces hide in plain sight.

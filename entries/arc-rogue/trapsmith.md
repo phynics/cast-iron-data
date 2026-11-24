@@ -48,9 +48,9 @@ restricting enemies if she desires. This ability replaces improved uncanny dodge
 ## Rogue Talents {#rogue-talents}
 
 The following rogue talents complement the trapsmith archetype: befuddling strike, cunning trigger,
-quick disable\*, and quick trapsmith.
+quick disable, and quick trapsmith.
 
 ## Advanced Talents {#advanced-talents}
 
 The following advanced rogue talents complement the trapsmith archetype: another day, frugal
-trapsmith, and skill mastery\*.
+trapsmith, and skill mastery.

@@ -50,7 +50,7 @@ replaces trap sense.
 
 The following rage powers complement the invulnerable rager archetype:
 [come and get me](ref/ragepower/come-and-get-me), [guarded life](ref/ragepower/guarded-life),
-[increased damage reduction](ref/ragepower/increased-damage-reduction)\*,
+[increased damage reduction](ref/ragepower/increased-damage-reduction),
 [inspire ferocity](ref/ragepower/inspire-ferocity),
 [reckless abandon](ref/ragepower/reckless-abandon), and
-[renewed vigor](ref/ragepower/renewed-vigor)\*.
+[renewed vigor](ref/ragepower/renewed-vigor).

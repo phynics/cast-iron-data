@@ -54,10 +54,10 @@ for every four levels beyond 5th. This ability replaces weapon training 1.
 At 9th level, when a savage warrior attacks with a natural weapon at the end of a
 [charge](ref/rule/charge), he gains a bonus on his natural weapon attack rolls equal to
 [half](ref/misc/fractions-and-rounding) his fighter level, while suffering a penalty to his AC equal
-to half his fighter level. These replace the normal attack roll bonus and AC penalty for charging.
-This bonus also applies to his CMB for a [bull rush](ref/rule/bull-rush) or
-[overrun](ref/rule/overrun) combat maneuvers made when charging. This ability replaces weapon
-training 2.
+to [half](ref/misc/fractions-and-rounding) his fighter level. These replace the normal attack roll
+bonus and AC penalty for charging. This bonus also applies to his CMB for a
+[bull rush](ref/rule/bull-rush) or [overrun](ref/rule/overrun) combat maneuvers made when charging.
+This ability replaces weapon training 2.
 
 ## Careful Claw (Ex) {#careful-claw}
 

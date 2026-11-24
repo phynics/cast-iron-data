@@ -17,7 +17,7 @@ page = "132"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "measure-the-mark" },
+  { anchor = "measure-the-mark", level = 1 },
   { anchor = "stab-and-grab", level = 3 },
 ]
 trades = [
@@ -54,9 +54,9 @@ replaces trap sense.
 ## Rogue Talents {#rogue-talents}
 
 The following rogue talents complement the cutpurse archetype: combat swipe, fast fingers, fast
-getaway, hard to fool, minor magic\*, slow reactions\*, and surprise attack\*.
+getaway, hard to fool, minor magic, slow reactions, and surprise attack.
 
 ## Advanced Talents {#advanced-talents}
 
-The following advanced rogue talents complement the cutpurse archetype: crippling strike\*, fast
-tumble, and skill mastery\*.
+The following advanced rogue talents complement the cutpurse archetype: crippling strike, fast
+tumble, and skill mastery.

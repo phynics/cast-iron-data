@@ -47,9 +47,9 @@ sense.
 ## Rogue Talents {#rogue-talents}
 
 The following rogue talents complement the sniper archetype: camouflage, snap shot, sniper's eye,
-and weapon training\*.
+and weapon training.
 
 ## Advanced Talents {#advanced-talents}
 
-The following advanced rogue talents complement the sniper archetype: defensive roll\*, master of
+The following advanced rogue talents complement the sniper archetype: defensive roll, master of
 disguise, and stealthy sniper.

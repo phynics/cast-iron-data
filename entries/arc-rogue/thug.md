@@ -17,7 +17,7 @@ page = "135"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "frightening" },
+  { anchor = "frightening", level = 1 },
   { anchor = "brutal-beating", level = 3 },
 ]
 trades = [
@@ -48,9 +48,9 @@ ability replaces trap sense.
 ## Rogue Talents {#rogue-talents}
 
 The following rogue talents complement the thug archetype: offensive defense, powerful sneak, strong
-impression, and weapon training\*.
+impression, and weapon training.
 
 ## Advanced Talents {#advanced-talents}
 
-The following advanced rogue talents complement the thug archetype: crippling strike\*, deadly
-sneak, and knock-out blow.
+The following advanced rogue talents complement the thug archetype: crippling strike, deadly sneak,
+and knock-out blow.

@@ -44,8 +44,8 @@ replaces [damage reduction](ref/rule/damage-reduction).
 ## Rage Powers {#rage-powers}
 
 The following rage powers complement the savage barbarian archetype:
-[flesh wound](ref/ragepower/flesh-wound), [guarded stance](ref/ragepower/guarded-stance)\*,
-[increased damage reduction](ref/ragepower/increased-damage-reduction)\*,
-[intimidating glare](ref/ragepower/intimidating-glare)\*,
-[rolling dodge](ref/ragepower/rolling-dodge)\*, [superstition](ref/ragepower/superstition)\*, and
-[terrifying howl](ref/ragepower/terrifying-howl)\*.
+[flesh wound](ref/ragepower/flesh-wound), [guarded stance](ref/ragepower/guarded-stance),
+[increased damage reduction](ref/ragepower/increased-damage-reduction),
+[intimidating glare](ref/ragepower/intimidating-glare),
+[rolling dodge](ref/ragepower/rolling-dodge), [superstition](ref/ragepower/superstition), and
+[terrifying howl](ref/ragepower/terrifying-howl).

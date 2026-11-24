@@ -17,7 +17,7 @@ page = "78"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "destructive" },
+  { anchor = "destructive", level = 1 },
   { anchor = "battle-scavenger", level = 3 },
 ]
 trades = [
@@ -48,4 +48,4 @@ every three levels beyond 3rd. This ability replaces trap sense.
 
 The following rage powers complement the breaker archetype:
 [ground breaker](ref/ragepower/ground-breaker), [smasher](ref/ragepower/smasher), and
-[strength surge](ref/ragepower/strength-surge)\*.
+[strength surge](ref/ragepower/strength-surge).

@@ -47,10 +47,10 @@ effect. This ability replaces improved uncanny dodge.
 
 ## Rogue Talents {#rogue-talents}
 
-The following rogue talents complement the burglar archetype: fast picks, fast stealth\*, nimble
-climber, quick disable\*, and trap spotter\*.
+The following rogue talents complement the burglar archetype: fast picks, fast stealth, nimble
+climber, quick disable, and trap spotter.
 
 ## Advanced Talents {#advanced-talents}
 
 The following advanced rogue talents complement the burglar archetype: knock-out blow, skill
-mastery\*, and thoughtful reexamining.
+mastery, and thoughtful reexamining.

@@ -17,7 +17,7 @@ page = "135"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "skilled-liar" },
+  { anchor = "skilled-liar", level = 1 },
   { anchor = "poison-use", level = 3 },
 ]
 trades = [
@@ -45,9 +45,9 @@ applying poison to a blade. This ability replaces trap sense.
 ## Rogue Talents {#rogue-talents}
 
 The following rogue talents complement the spy archetype: canny observer, guileful polyglot, honeyed
-words, major magic\*, minor magic\*, and quick disguise.
+words, major magic, minor magic, and quick disguise.
 
 ## Advanced Talents {#advanced-talents}
 
-The following advanced rogue talents complement the spy archetype: crippling strike\*, master of
+The following advanced rogue talents complement the spy archetype: crippling strike, master of
 disguise, and stealthy sniper.

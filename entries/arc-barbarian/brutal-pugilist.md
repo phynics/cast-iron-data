@@ -63,8 +63,8 @@ dodge.
 ## Rage Powers {#rage-powers}
 
 The following rage powers complement the brutal pugilist archetype:
-[animal fury](ref/ragepower/animal-fury)\*, [brawler](ref/ragepower/brawler),
-[greater brawler](ref/ragepower/greater-brawler), [knockback](ref/ragepower/knockback)\*,
+[animal fury](ref/ragepower/animal-fury), [brawler](ref/ragepower/brawler),
+[greater brawler](ref/ragepower/greater-brawler), [knockback](ref/ragepower/knockback),
 [knockdown](ref/ragepower/knockdown), [overbearing advance](ref/ragepower/overbearing-advance),
 [overbearing onslaught](ref/ragepower/overbearing-onslaught), and
-[strength surge](ref/ragepower/strength-surge)\*.
+[strength surge](ref/ragepower/strength-surge).
