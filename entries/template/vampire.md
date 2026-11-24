@@ -12,6 +12,9 @@ page = "270"
 [[sources]]
 publication = "classic-horrors-revisited"
 page = "50"
+[[sources]]
+publication = "monster-codex"
+page = "236-237"
 
 [fields]
 kind = "none"
@@ -205,7 +208,6 @@ next sunrise. (CR +0)
 
 ### Other Vampire Templates
 
-**Sources:** Monster Codex pg 236\
 Game statistics for vampires are created by using vampire templates. Each template creates a
 different kind of vampire. Other types of vampire exist, some of them arising from rare or even
 unique circumstances, but the following are the most notable types.

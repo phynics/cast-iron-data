@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "occult-adventures"
 [[sources]]
+publication = "psychic-anthology"
+page = "26-29"
+[[sources]]
 publication = "occult-origins"
 page = "15"
 
@@ -21,7 +24,6 @@ occultist can select an implement school more than once, as noted in the impleme
 
 ### Panoplies
 
-**Sources:** Psychic Anthology\
 While many occultists focus on the inherent psychic properties of certain types of objects, some
 specialists take their studies a step further, exploring the ways specific types of implements
 interact with one another. While not all implements psychically resonate with all other kinds of

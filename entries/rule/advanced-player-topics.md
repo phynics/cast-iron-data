@@ -2,7 +2,7 @@
 id = "ref/rule/advanced-player-topics"
 kind = "rule"
 title = "Advanced Player Topics"
-source_ids = ["cohorts-and-companions", "ultimate-campaign", "inner-sea-intrigue"]
+source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_player_topics", path = "json/rules_adv_pc01.json" },
 ]

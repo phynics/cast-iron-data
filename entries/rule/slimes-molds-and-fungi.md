@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "415"
 [[sources]]
+publication = "bestiary"
+page = "273"
+[[sources]]
 publication = "darklands-revisited"
 page = "61"
 

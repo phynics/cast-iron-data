@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "horror-adventures"
 page = "248"
+[[sources]]
+publication = "bestiary-4"
+page = "56"
 
 [fields]
 kind = "none"
@@ -50,7 +53,6 @@ summon (see table; 100%); **Ability Scores** +2 Str, +2 Cha.
 
 ### Contract Bound
 
-**Sources:** Bestiary 4 pg 56\
 **Contract Bound (Ex):** The creature has signed a contract of service in return for this template.
 The devil must reveal its nature as a creature of [Hell](ref/rule/hell) when it offers a contract,
 and it can't hide the details of the contract in any way. The creature must enter the agreement

@@ -16,6 +16,9 @@ page = "19"
 publication = "familiar-folio"
 page = "18"
 [[sources]]
+publication = "ultimate-combat"
+page = "78"
+[[sources]]
 publication = "magic-tactics-toolbox"
 page = "28"
 [[sources]]
@@ -61,7 +64,6 @@ meet all of the prerequisites to take the feat as normal.
 
 ### Style Feats
 
-**Sources:** Ultimate Combat pg 78\
 For centuries, great warriors have looked to nature and the multiverse to find inspiration in
 battle. Countless monastic and contemplative orders have crafted intricate unarmed fighting styles
 (90 feats) based on the deadliness and grace of natural and supernatural creatures. Although many
@@ -79,7 +81,6 @@ feats that have Mantis Style as a prerequisite.
 
 ### Grit Feats
 
-**Sources:** Ultimate Combat pg 78\
 Grit feats (21 feats) interact with the gunslinger's grit class ability or the grit granted by the
 [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat, usually by adding to her set of deeds.
 Sometimes these feats increase the number of grit points a character has or how that character

@@ -2,13 +2,16 @@
 id = "ref/ability/arcane-schools"
 kind = "rule"
 title = "Arcane Schools"
-source_ids = ["core-rulebook", "advanced-players-guide", "adventurers-guide", "inner-sea-magic", "elemental-masters-handbook", "ultimate-magic", "dragon-empires-primer"]
+source_ids = ["core-rulebook", "advanced-players-guide", "adventurers-guide", "inner-sea-magic", "elemental-masters-handbook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_schools", path = "json/class_abilities.json" },
 ]
 [[sources]]
 publication = "core-rulebook"
 page = "79"
+[[sources]]
+publication = "advanced-players-guide"
+page = "142-143"
 [[sources]]
 publication = "adventurers-guide"
 page = "63"
@@ -18,6 +21,9 @@ page = "21"
 [[sources]]
 publication = "inner-sea-magic"
 page = "17"
+[[sources]]
+publication = "ultimate-magic"
+page = "88"
 
 [fields]
 kind = "none"
@@ -27,7 +33,6 @@ The following descriptions detail each arcane school and its corresponding power
 
 ### Focused Arcane Schools
 
-**Sources:** Advanced Player's Guide pg 143\
 Wizards that specialize in one of the schools of magic can instead chose to focus their studies
 still further. Wizards who choose a focused arcane school retain the bonus spells from their school
 and must select two prohibited schools as normal, but the focused school changes one or more of the
@@ -63,7 +68,7 @@ schools of [Thassilonian Magic](ref/arcaneschool/thassilonian-magic) are present
 
 ### Elemental Arcane Schools
 
-**Sources:** Advanced Player's Guide pg 142, Elemental Master's Handbook pg 21\
+**Sources:** Elemental Master's Handbook pg 21\
 Instead of specializing in one of the standard eight schools of magic, a wizard can choose to
 specialize in one of the four elemental schools of magic. Like a normal arcane school, an elemental
 school grants a number of school powers and one bonus spell slot of each level the wizard can cast,
@@ -81,7 +86,6 @@ changed.
 
 #### Five Elements Variant
 
-**Sources:** Ultimate Magic pg 88\
 In some lands, scholars of magic insist that material things consist of five elements, not four:
 fire, earth, metal, water, and wood. Rather than directly opposing each other, these five elements
 counter and generate each other in a wheel-like formation: wood overcomes earth, earth overcomes

@@ -2,7 +2,7 @@
 id = "ref/rule/seafaring-and-piracy-rules"
 kind = "rule"
 title = "Seafaring and Piracy Rules"
-source_ids = ["skull-and-shackles-players-guide", "pathfinder-59-the-price-of-infamy", "pathfinder-55-the-wormwood-mutiny"]
+source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seafaring_and_piracy_rules", path = "json/rules_campaign_types10.json" },
 ]

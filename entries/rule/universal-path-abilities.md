@@ -2,7 +2,7 @@
 id = "ref/rule/universal-path-abilities"
 kind = "rule"
 title = "Universal Path Abilities"
-source_ids = ["mythic-adventures", "mythic-origins", "mythic-realms", "alchemy-manual", "heroes-of-golarion", "cohorts-and-companions"]
+source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "universal_path_abilities", path = "json/rules_campaign_types07.json" },
 ]

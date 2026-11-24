@@ -2,7 +2,7 @@
 id = "ref/rule/monster-sahuagin/sahuagin"
 kind = "rule"
 title = "Sahuagin"
-source_ids = ["bestiary", "monster-codex"]
+source_ids = ["bestiary"]
 section = ["Sahuagin"]
 parent = "ref/monster/sahuagin"
 provenance = [

@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "advanced-class-guide"
 [[sources]]
+publication = "healers-handbook"
+page = "12-13"
+[[sources]]
 publication = "ultimate-wilderness"
 page = "97"
 
@@ -27,7 +30,6 @@ warpriest.
 
 ### Focused Blessings
 
-**Sources:** Healer's Handbook\
 Focused blessings are more specific blessings bestowed upon a warpriest by his deity that allow
 players greater flexibility for customization. Focused blessings are to blessings what subdomains
 are to domains; each focused blessing corresponds to a specific subdomain, and a warpriest can

@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "weapon-masters-handbook"
 page = "18-19"
+[[sources]]
+publication = "blood-of-the-beast"
+page = "29"
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "none"

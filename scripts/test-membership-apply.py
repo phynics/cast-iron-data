@@ -59,7 +59,8 @@ ROW = '[[sources]]\npublication = "book-b"\npage = "12"\n'
 
 class ApplyTest(unittest.TestCase):
     def run_apply(self, text: str, audit_page: str | None = "12", audit_class: str = "wrong-credit",
-                  books: dict[str, str] | None = None):
+                  books: dict[str, str] | None = None, tag: str = "family-leak",
+                  evidence: str = "wrong-credit-invalidated"):
         """`books` maps a path under the corpus to a book file; the default is the format 1 `books.toml`."""
         tmp = Path(tempfile.mkdtemp())
         (tmp / "entries/spell").mkdir(parents=True)
@@ -71,8 +72,8 @@ class ApplyTest(unittest.TestCase):
         path.write_text(text, encoding="utf-8")
         queue = tmp / "queue.tsv"
         row = dict.fromkeys(QUEUE_HEAD, "")
-        row.update(book="book-b", entry="ref/spell/test-spell", kind="spell", title="Test Spell", tag="family-leak",
-                   verdict="remove", print_page="3", evidence="wrong-credit-invalidated")
+        row.update(book="book-b", entry="ref/spell/test-spell", kind="spell", title="Test Spell", tag=tag,
+                   verdict="remove", print_page="3", evidence=evidence)
         with open(queue, "w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=QUEUE_HEAD, delimiter="\t", lineterminator="\n")
             w.writeheader()
@@ -98,6 +99,18 @@ class ApplyTest(unittest.TestCase):
         out = path.read_text()
         self.assertIn('source_ids = ["book-a", "book-c"]', out)
         self.assertNotIn("[[sources]]", out)
+
+    def test_hub_keep_row_is_refused_unless_it_carries_the_hub_design_evidence(self):
+        """Design (a) of the link-only hubs (owner ruling of 2026-11-24): `hub-keep` yields only to
+        `hub-link`, `listed-link` and `hub-no-evidence`; any other evidence on a hub row is refused."""
+        text = entry("", "Text.\n")
+        r, path = self.run_apply(text, audit_page=None, tag="hub-keep", evidence="wrong-credit-invalidated")
+        self.assertNotEqual(r.returncode, 0)
+        self.assertEqual(path.read_text(), text)
+        for evidence in ("hub-link ref/spell/other", "listed-link ref/spell/other", "hub-no-evidence weather"):
+            r, path = self.run_apply(text, audit_page=None, tag="hub-keep", evidence=evidence)
+            self.assertEqual(r.returncode, 0, (evidence, r.stderr))
+            self.assertIn('source_ids = ["book-a", "book-c"]', path.read_text())
 
     def test_format_3_curated_book_loses_its_placement(self):
         book = ('[[books]]\nsource = "book-b"\n\n[[books.chapters]]\ntitle = "Spells"\n\n'

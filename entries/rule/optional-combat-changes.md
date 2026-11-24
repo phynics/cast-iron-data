@@ -2,7 +2,7 @@
 id = "ref/rule/optional-combat-changes"
 kind = "rule"
 title = "Optional Combat Changes"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "optional_combat_changes", path = "json/rules_opt_combat01.json" },
 ]

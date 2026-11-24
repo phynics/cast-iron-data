@@ -2,7 +2,7 @@
 id = "ref/rule/traits-and-other-details"
 kind = "rule"
 title = "Filling Out the Details"
-source_ids = ["core-rulebook", "advanced-players-guide", "ultimate-campaign"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traits_and_other_details", path = "json/rules_basics01.json" },
 ]

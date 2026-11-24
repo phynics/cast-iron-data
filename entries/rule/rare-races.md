@@ -58,8 +58,14 @@ page = "8"
 publication = "planar-adventures"
 page = "224"
 [[sources]]
+publication = "bestiary"
+page = "115"
+[[sources]]
 publication = "ultimate-wilderness"
 page = "9"
+[[sources]]
+publication = "bestiary-4"
+page = "122, 174, 264, 280-281"
 
 [fields]
 kind = "none"
@@ -167,7 +173,7 @@ Where the planes brush against the Material Plane or where chaotic inhabitants (
 [valkyries](ref/monster/valkyrie), or others) affect or influence mortal life, ganzis are born in
 their wake like ripples in a pond.
 
-**Sources:** Ultimate Wilderness pg 9, Inner Sea Races pg 243, Bestiary 4 pg 122\
+**Sources:** Ultimate Wilderness pg 9, Inner Sea Races pg 243\
 **Gathlains:** According to some fey ballads, [gathlains](ref/race/gathlain) were one of the first
 peoples awakened in the First World, the primal realm of the fey. Gathlains grow from the seeds of
 an enormous magical tree - seeds that often drift for hundreds of miles before developing into
@@ -206,7 +212,7 @@ existence meant that most had to fight for survival on a daily basis. As a resul
 devoted more of their time to honing the basic skills of to avoid predators and gather food than to
 higher-minded pursuits. This prevented them from becoming as versatile as modern humans.
 
-**Sources:** Inner Sea Races pg 245, Bestiary 4 pg 174, People of the Stars pg 8\
+**Sources:** Inner Sea Races pg 245, People of the Stars pg 8\
 **Kasathas:** This four-armed nomadic humanoid race hails from a desert world that orbits a red sun
 far beyond Golarion's own solar system. The [kasathas](ref/race/kasatha) of Golarion have a cultural
 tradition of exploration, and when they come of age, they leave their clan, usually for one year,
@@ -336,7 +342,7 @@ are kind and good-natured creatures who maintain distant but cordial relations w
 have a reputation for fairness and honesty that endears them to coastal communities and undersea
 settlements of aquatic elves, locathahs, and merfolk.
 
-**Sources:** Inner Sea Races pg 253, Bestiary 4 pg 264\
+**Sources:** Inner Sea Races pg 253\
 **Trox:** [Trox](ref/race/trox) were once members of a much smaller and more docile race of
 subterranean burrowers, but were long ago enslaved by the [duergar](ref/monster/duergar) and bred
 into useful brutes. Eventually, several clans of trox were able to escape their slavers and reach
@@ -352,7 +358,7 @@ other [leshys](ref/family/leshy), vine leshys have an easier time relating to no
 and a deeper sense of curiosity about the wonders of the natural world beyond those plants closely
 related to them, as well as a fascination with the societies of humans and other creatures.
 
-**Sources:** Inner Sea Races pg 253, Bestiary 4 pg 280\
+**Sources:** Inner Sea Races pg 253\
 **Wyrwoods:** This relatively young race was created by a cabal of wizards who needed nimble and
 skilled construct servants to do their dirty work. This cabal was interested in creating magical
 machines, so they built their tools to be small, agile, and clever. Over time, the cabal pushed the
@@ -362,7 +368,7 @@ the wyrwoods to fight each other as proxies for the wizards themselves, the cons
 killed their creators and stole the notes on how to create more of their kind, allowing them to
 perpetuate their race.
 
-**Sources:** Inner Sea Races pg 253, Bestiary 4 pg 281\
+**Sources:** Inner Sea Races pg 253\
 **Wyvarans:** These dragon-like humanoids are the result of magical draconic experiments at
 crossbreeding wyverns and kobolds. [Wyvarans](ref/race/wyvaran) are fiercely territorial creatures
 loyal to their kin and tribe, and allow no interlopers into their lands without good reason or

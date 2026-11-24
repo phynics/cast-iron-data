@@ -67,7 +67,8 @@ It refuses a row that
     and the entry holds a `[[sources]]` row for it whose page is exactly the reviewed `print_page`.
     A gated row with any other value is refused, and so is a queue that also removes that proposed
     book from the same entry (the rows are checked against the files as they are now, then applied
-    one after another). Or has tag `hub-keep`,
+    one after another). Or has tag `hub-keep`, unless its evidence is `hub-link`, `listed-link` or
+    `hub-no-evidence` (design (a) of the link-only hubs, owner ruling of 2026-11-24),
   * would leave `source_ids` empty (the last book of an entry is never removed),
   * names a book that is not in the entry's `source_ids`, or an entry that does not exist.
 It never edits an `id` and never moves a file. The edit is textual and keeps the canonical form;
@@ -91,6 +92,12 @@ import tomllib
 from collections import defaultdict
 from pathlib import Path
 
+
+# Owner ruling of 2026-11-24 on #461, design (a): a link-only hub keeps only its home book, so the tag
+# `hub-keep` (#94: a hub membership is never a removal) yields to a verdict that names the listed
+# entry which carries the book (`hub-link <target>`, `listed-link <target>`) or finds no entry that
+# does (`hub-no-evidence <record>`). `scripts/hub-verdicts-461.py` derives them.
+HUB_DESIGN_EVIDENCE = ("hub-link", "hub-no-evidence", "listed-link")
 
 PAGE_TEXT = re.compile(r"\d+(?:\s*[-\u2013]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-\u2013]\s*\d+)?)*|inside cover")
 
@@ -122,7 +129,8 @@ def read_queue(path: Path, only_kind: str | None) -> list[dict]:
             continue
         cleared = (r["gate"] == "primary" and r["proposed_primary"] and r["proposed_primary"] != r["book"]
                    and r["proposed_status"] in ("printed", "body"))
-        if (r["gate"] and not cleared) or r["tag"] == "hub-keep":
+        hub_design = r["evidence"].split(" ")[0] in HUB_DESIGN_EVIDENCE
+        if (r["gate"] and not cleared) or (r["tag"] == "hub-keep" and not hub_design):
             raise SystemExit(f"refused: {r['entry']} in {r['book']} is gated or a hub (gate={r['gate']!r}, tag={r['tag']})")
         if not r["print_page"] or not r["evidence"]:
             raise SystemExit(f"refused: {r['entry']} in {r['book']} has no print_page/evidence recorded")

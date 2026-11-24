@@ -2,7 +2,7 @@
 id = "ref/rule/gamemastery"
 kind = "rule"
 title = "Gamemastery"
-source_ids = ["core-rulebook", "game-mastery-guide", "bestiary", "advanced-race-guide", "weapon-masters-handbook", "advanced-class-guide", "divine-anthology", "advanced-players-guide"]
+source_ids = ["core-rulebook", "game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gamemastery", path = "json/rules_gm01.json" },
 ]

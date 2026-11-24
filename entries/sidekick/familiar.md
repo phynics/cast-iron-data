@@ -8,6 +8,9 @@ provenance = [
 ]
 [[sources]]
 publication = "core-rulebook"
+[[sources]]
+publication = "advanced-players-guide"
+page = "72"
 
 [fields]
 kind = "none"
@@ -122,7 +125,6 @@ casting the _[scrying](ref/spell/scrying)_ spell) once per day.
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.

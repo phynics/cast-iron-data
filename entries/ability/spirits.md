@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "occult-adventures"
 page = "33"
+[[sources]]
+publication = "occult-realms"
+page = "10"
 
 [fields]
 kind = "none"
@@ -28,7 +31,6 @@ from one of the following six legends:
 
 ### Legendary Spirits
 
-**Sources:** Occult Realms\
 The spirits a medium can channel draw their power both from the tales told about them and from their
 own souls, which echo with the remarkable deeds they performed in life. All spirits have stories -
 and some arise from people whose deeds shook the world and whose testaments have endured throughout

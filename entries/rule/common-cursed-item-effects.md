@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "536"
+[[sources]]
+publication = "ultimate-equipment"
+page = "340, 343"
 
 [fields]
 kind = "none"
@@ -166,8 +169,6 @@ the curse is not known to the buyer, as if they were the item they appear to be.
 Cursed suits of armor and weapons can come in many forms, and the examples listed here are merely
 the most common. For example, a cursed -2 sword, might appear as a +3 shortsword or a +1 dagger,
 with a similar negative instead of the listed -2.
-
-**Sources:** Ultimate Equipment pg 343
 
 |d%|Specific Cursed Item|
 | --- | --- |
