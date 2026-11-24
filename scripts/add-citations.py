@@ -60,6 +60,13 @@ when the reference gives page 1), unless the line already has evidence. The prin
 produces the print-pages lines writes the other evidence (ties, title-only matches, rendered
 pages, offset anchors) into the same column.
 
+A print-pages line whose `basis` is `unverified-no-pdf` marks a row of a book that is not available
+for a print check (owner ruling of 2026-11-24 on #215, as in #461 ruling 4): the row keeps its proposed
+page, or no page when the line's `page` is empty, and the review queue holds it with the reason
+`unverified-no-pdf` instead of an open reason (`coarse`, `no-page`, `unconfirmed`, ...). Such a row
+counts as closed for the page queue. The line never gives a page (`PRINT` ignores it) and never adds a
+row: the row must exist already, and a `page` on the line must equal the row's page, or the script stops.
+
 The print-pages file may carry a fifth column `note`; a row with a note also gets a
 `heading-form` review line (the page is read in print, but the heading does not look as expected).
 
@@ -84,6 +91,9 @@ REVIEW_DEFAULT = "scripts/citation-review-170.tsv"
 PRINT_DEFAULT = "scripts/citation-print-pages-170.tsv"
 # Review lines that stay while their entry exists (paragraph findings and print notes).
 NOTE_REASONS = {"conflict", "unknown-title", "blog", "not-member", "marker", "heading-form"}
+# Review reasons of the page queue (#215): a row without a page or on a proposal alone that print has not settled.
+OPEN_REASONS = {"coarse", "no-page", "unconfirmed", "ambiguous", "page-format", "sibling-differs", "no-proposal"}
+UNVERIFIED = "unverified-no-pdf"
 REVIEW_COLUMNS = ["entry_id", "kind", "publication", "reason", "candidate_page", "note"]
 SLICES = [
     "paragraphs", "trap", "skill", "mythic", "racial-trait", "trait", "affliction",
@@ -463,6 +473,7 @@ PRINT_MOVES: dict[tuple[str, str], tuple[str, str]] = {}  # print page differs f
 PRINT_WITHHELD: dict[tuple[str, str], str] = {}  # print looked and did not confirm the proposal
 QUEUED_DIFFERS: set[tuple[str, str]] = set()  # books the review queue already holds as book-differs
 PROPOSAL_ONLY: list[tuple[str, str, str]] = []
+UNVERIFIED_ROWS: dict[tuple[str, str], dict] = {}  # print-pages lines with basis `unverified-no-pdf`
 
 
 def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
@@ -681,6 +692,43 @@ def self_test() -> int:
         expect(rows_of(root, "t4") == [("a", "9")], "a noted print page still gives a row")
         expect(("ref/trait/t4", "a", "heading-form") in review_of(root), "the note queues a heading-form line")
 
+        # A book with no PDF: `unverified-no-pdf` replaces the open reason and keeps the proposal.
+        entry("u1", ["a", "b"])
+        candu = candidates([
+            ("ref/trait/u1", "a", "5", "check", ""),
+            ("ref/trait/u1", "b", "9", "confident", ""),
+        ])
+        uargs = ["--slice", "trait", "--candidates", str(candu)]
+        run(root, *uargs, "--write")
+        expect(rows_of(root, "u1") == [("a", None), ("b", "9")], "u1 starts with a coarse row and a proposal-only page")
+        expect(("ref/trait/u1", "a", "coarse") in review_of(root), "the coarse row is open")
+        (root / PRINT_DEFAULT).write_text(
+            "entry_id\tpublication\tpage\tbasis\tnote\tevidence\n"
+            "ref/trait/u1\ta\t\tunverified-no-pdf\t\t\nref/trait/u1\tb\t9\tunverified-no-pdf\t\t\n",
+            encoding="utf-8",
+        )
+        expect(run(root, *uargs, "--check") == 1, "an unverified-no-pdf line is stale until written")
+        run(root, *uargs, "--write")
+        got_u = {(e, b): (r, c) for e, b, r, c in (
+            (r["entry_id"], r["publication"], r["reason"], r["candidate_page"])
+            for r in read_review(root / REVIEW_DEFAULT) if r["entry_id"] == "ref/trait/u1")}
+        expect(got_u == {("ref/trait/u1", "a"): (UNVERIFIED, "5"), ("ref/trait/u1", "b"): (UNVERIFIED, "9")},
+               "both rows are unverified-no-pdf and keep their proposals")
+        expect(rows_of(root, "u1") == [("a", None), ("b", "9")], "the rows do not change")
+        expect(run(root, *uargs, "--check") == 0, "a second run changes nothing")
+        (root / PRINT_DEFAULT).write_text(
+            "entry_id\tpublication\tpage\tbasis\tnote\tevidence\nref/trait/u1\tb\t10\tunverified-no-pdf\t\t\n",
+            encoding="utf-8",
+        )
+        expect(run(root, *uargs, "--check") == 1, "a page that differs from the row stops the script")
+        (root / PRINT_DEFAULT).write_text(
+            "entry_id\tpublication\tpage\tbasis\tnote\tevidence\nref/trait/u1\tb\t9\tunverified-no-pdf\t\t\n",
+            encoding="utf-8",
+        )
+        run(root, *uargs, "--write")
+        got_u = {r["publication"]: r["reason"] for r in read_review(root / REVIEW_DEFAULT) if r["entry_id"] == "ref/trait/u1"}
+        expect(got_u == {"a": UNVERIFIED, "b": UNVERIFIED}, "dropping a line from the print-pages file loses no queue line")
+
         # A range typo must fail loudly instead of selecting nothing.
         for bad in ("a", "b:a", ":b", "a:b:c"):
             try:
@@ -779,6 +827,7 @@ def reset_state() -> None:
     PRINT_MOVES.clear()
     QUEUED_DIFFERS.clear()
     PROPOSAL_ONLY.clear()
+    UNVERIFIED_ROWS.clear()
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -817,6 +866,9 @@ def main(argv: list[str] | None = None) -> int:
     print_path = opts.print_pages or root / PRINT_DEFAULT
     if print_path.exists():
         for key, row in load_candidates(print_path).items():
+            if row.get("basis") == UNVERIFIED:
+                UNVERIFIED_ROWS[key] = row
+                continue
             if not row["page"]:
                 # An empty page: print was searched and does not confirm the proposal.
                 PRINT_WITHHELD[key] = row.get("note") or "print does not confirm the proposed page"
@@ -894,12 +946,17 @@ def main(argv: list[str] | None = None) -> int:
             current[(e.id, r["publication"])] = r
     kept: list[dict] = []
     stale = 0
+    remembered: dict[tuple[str, str], str] = {}  # the proposal of a line that `unverified-no-pdf` replaces
     for r in read_review(review_path):
         key = (r["entry_id"], r["publication"])
         if r["entry_id"] in touched:
             continue
         row = current.get(key)
-        if r["reason"] in NOTE_REASONS:
+        if key in UNVERIFIED_ROWS and (r["reason"] == UNVERIFIED or r["reason"] in OPEN_REASONS):
+            # The print-pages file settles this row as `unverified-no-pdf`; the line is rebuilt below.
+            remembered[key] = r["candidate_page"]
+            stale += 1
+        elif r["reason"] in NOTE_REASONS:
             # Re-evaluated whenever the slice runs on the entry.
             if r["entry_id"] in by_id:
                 kept.append(r)
@@ -917,6 +974,28 @@ def main(argv: list[str] | None = None) -> int:
             kept.append(r)
         else:
             stale += 1
+    problems: list[str] = []
+    for key, line in sorted(UNVERIFIED_ROWS.items()):
+        owner, row = by_id.get(key[0]), current.get(key)
+        if owner is None or row is None:
+            problems.append(f"{UNVERIFIED} line for a row that does not exist: {key[0]} {key[1]}")
+            continue
+        if line["page"] and row.get("page") != line["page"]:
+            problems.append(f"{UNVERIFIED} line page {line['page']} differs from the row's page: {key[0]} {key[1]}")
+            continue
+        if key[0] in touched:
+            continue
+        if row.get("page"):
+            default = "the book is not among the owner's PDFs; the row's page is a proposal that no print check read"
+        else:
+            default = "the book is not among the owner's PDFs; the row has no page"
+        new_reviews.append(review(
+            owner, key[1], UNVERIFIED, row.get("page") or remembered.get(key, ""), line.get("note") or default,
+        ))
+    if problems:
+        for p in problems:
+            print(f"ERROR: {p}", file=sys.stderr)
+        return 1
     merged = []
     for r in kept + new_reviews:
         if r not in merged:
