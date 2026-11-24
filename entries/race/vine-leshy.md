@@ -11,6 +11,9 @@ provenance = [
 [[sources]]
 publication = "ultimate-wilderness"
 page = "20"
+[[expanded_in]]
+publication = "wilderness-origins"
+page = "8"
 
 [fields]
 kind = "none"

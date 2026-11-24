@@ -17,6 +17,9 @@ page = "243"
 [[sources]]
 publication = "bestiary-4"
 page = "122"
+[[expanded_in]]
+publication = "wilderness-origins"
+page = "8"
 
 [fields]
 kind = "none"
