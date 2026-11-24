@@ -678,6 +678,7 @@ class PrintFeature:
     head: str
     paras: list[list[tuple[str, bool, bool]]]        # runs of each printed paragraph (the head cut off)
     page: int
+    bold: bool = True                                # a bold head; an italic one is a sub-power or an option
 
 
 def head_candidate(p: Para) -> tuple[str, list, bool] | None:
@@ -725,7 +726,7 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
             if rest and rest[0][0].lstrip().startswith(":"):
                 t = rest[0][0].lstrip()[1:]
                 rest[0] = (t, rest[0][1], rest[0][2])
-            feats.append(PrintFeature(head, [rest] if rest else [[]], p.page))
+            feats.append(PrintFeature(head, [rest] if rest else [[]], p.page, cand[2]))
         elif feats:
             feats[-1].paras.append(p.runs)
         else:
@@ -1172,6 +1173,8 @@ def write_proposals(path: Path, entries: dict[str, dict]) -> None:
         for f in e.get("feature", []):
             out.append("\n[[entry.feature]]\n")
             out.append(f"anchor = {toml_str(f['anchor'])}\nhead = {toml_str(f['head'])}\nlisted = {str(f['listed']).lower()}\n")
+            if f.get("parent"):
+                out.append(f"parent = {toml_str(f['parent'])}\n")
             if f.get("level") is not None:
                 out.append(f"level = {f['level']}\n")
             out.append(f"print = {toml_str(f['print'])}\n")
@@ -1340,7 +1343,8 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
             rows.append({"anchor": anchor_of(head), "span": "", "page": pf.page, "pseudo": False, "draft": "",
                          "level_import": None, "head": head, "print": text, "status": "print",
                          "notes": ["head printed, not in the import: added from print"] + pnotes,
-                         "listed": not is_scaffold(head), "name": pf.head})
+                         "listed": not is_scaffold(head) and not is_option_head(head, pf.bold), "option": is_option_head(head, pf.bold),
+                         "name": pf.head})
             continue
         f = feats[idx]
         draft = build_draft(f)
@@ -1354,7 +1358,8 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                "status": cmp.status, "notes": list(cmp.notes) + pnotes, "name": pf.head}
         if lost:
             row["notes"].append("link not placed: " + ", ".join(lost))
-        row["listed"] = not is_scaffold(head) and not f.pseudo
+        row["option"] = is_option_head(head, pf.bold) and not f.pseudo
+        row["listed"] = not is_scaffold(head) and not f.pseudo and not row["option"]
         if (e.id, row["anchor"]) in PRINT_WINS and row["status"] == "hold":
             row["status"], row["notes"] = "print", [PRINT_WINS[(e.id, row["anchor"])]] + pnotes
         rows.append(row)
@@ -1486,10 +1491,29 @@ def effective_trades(e: Entry) -> list[dict]:
     return [t for t, _ in effective_trades_origin(e)]
 
 
+def is_option_head(head: str, bold: bool) -> bool:
+    """Owner ruling 15 of 2026-11-24: an item of an option list (the creature types of the infiltrator, the forms of
+    the shapeshifter, and in later books bloodlines, domains, mysteries, totems) is not a class feature. In print
+    it is an italic head with no ability tag; a sub-power such as "Rallying Cry (Su)" has a tag and stays a feature."""
+    return not bold and not ABILITY_TAG.search(head)
+
+
+def with_children(rows: list[dict]) -> list[dict]:
+    """The listed rows, each with the text of its option subheadings added: a trade sentence of an option belongs to
+    the feature that holds it."""
+    out = []
+    for r in rows:
+        if r["listed"]:
+            kids = [k["print"] for k in rows if k.get("parent") == r["anchor"] and k["print"]]
+            out.append(dict(r, print="\n\n".join([r["print"]] + kids)) if kids else r)
+    return out
+
+
 def opening_texts(rows: list[dict], opening: list[str]) -> list[str]:
     """The text whose trade sentences carry no `by`: the opening, and every section under a heading that is not
-    a feature (owner ruling 13 of 2026-11-24, app #690: the innermost heading decides)."""
-    return list(opening) + [r["print"] for r in rows if not r["listed"] and r["print"]]
+    a feature (owner ruling 13 of 2026-11-24, app #690: the innermost heading decides). An option subheading
+    belongs to its feature."""
+    return list(opening) + [r["print"] for r in rows if not r["listed"] and not r.get("parent") and r["print"]]
 
 
 def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
@@ -1572,9 +1596,17 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     left = [r["head"] for r in rows if "head not printed" in r["notes"] and r["status"] == "hold"]
     if left:
         problems.append("head not printed: " + ", ".join(left))
+    # ruling 15: an option item is a plain subheading of the nearest feature before it (none: a plain heading)
+    holder = None
+    for r in rows:
+        if r["listed"]:
+            holder = r
+        elif r.get("option") and holder is not None:
+            r["parent"] = holder["anchor"]
+            r["notes"].append(f"option item, not a feature (ruling 15): a subheading of `{holder['anchor']}`")
     listed = [r for r in rows if r["listed"]]
     trades = effective_trades(e)
-    by, more = assign_by(trades, listed, opening_texts(rows, res["opening"])) if all(r["print"] for r in listed) else ({}, [])
+    by, more = assign_by(trades, with_children(rows), opening_texts(rows, res["opening"])) if all(r["print"] for r in listed) else ({}, [])
     problems += more
     for i, (t, origin) in enumerate(effective_trades_origin(e)):
         if origin is None:
@@ -1693,6 +1725,8 @@ def rows_of(e: Entry, fin: dict, old: dict, old_props: dict | None) -> tuple[lis
             "status": status, "note": "; ".join(r["notes"]), "page": r["page"], "span_sha256": r["span"], "_n": n,
         })
         f = {"anchor": r["anchor"], "head": r["head"], "listed": r["listed"], "print": r["print"]}
+        if r.get("parent"):
+            f["parent"] = r["parent"]
         if r.get("import_trades"):
             f["import_trades"] = r["import_trades"]
         if r["level"] is not None and r["listed"]:
@@ -1791,8 +1825,8 @@ def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades
 def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     status = {r["anchor"]: r["status"] for r in rows if r["anchor"]}
     feats = prop["feature"]
-    listed = [dict(f, print=feature_text(f, status.get(f["anchor"], "print"))) for f in feats if f["listed"]]
-    by, problems = assign_by(effective_trades(e), listed, opening_texts([dict(f, print=feature_text(f, status.get(f["anchor"], "print"))) for f in feats], prop.get("opening", [])))
+    full = [dict(f, print=feature_text(f, status.get(f["anchor"], "print"))) for f in feats]
+    by, problems = assign_by(effective_trades(e), with_children(full), opening_texts(full, prop.get("opening", [])))
     if problems:
         raise ValueError("; ".join(problems))
     probe = {namekey(f["head"]) for f in feats}
@@ -1801,7 +1835,7 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     if prop.get("opening_from_print"):
         parts = list(prop["opening"])
     for f in feats:
-        parts.append(f"## {f['head']} {{#{f['anchor']}}}")
+        parts.append(f"{'###' if f.get('parent') else '##'} {f['head']} {{#{f['anchor']}}}")
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
     front = edit_front(e.front, feats, by, len(trades_of(e)), TRADE_ADDITIONS.get(e.id), dropped_trade_indices(e))
@@ -2061,6 +2095,26 @@ def self_test() -> int:
     # an opening note that print does not have
     eq(unprinted_notes([["Intro text."], ["> _**Note:** This is a rogue archetype, and has no relation to the class."]], ["Intro text."]), [1], "an unprinted note")
     eq(unprinted_notes([["> kept words here and more"]], ["kept words here and more"]), [], "a printed note stays")
+    # ruling 15: an option item is a subheading, not a feature; a tagged sub-power stays a feature
+    eq(is_option_head("Humanoid (dwarf)", False), True, "an italic untagged head is an option")
+    eq(is_option_head("Form of the Bear", False), True, "a form is an option")
+    eq(is_option_head("Rallying Cry (Su)", False), False, "a tagged sub-power is a feature")
+    eq(is_option_head("Adaptation (Ex)", True), False, "a bold head is a feature")
+    ent = Entry(Path("x.md"), "ref/x", "X", "archetype", 'id = "ref/x"\n\n[fields]\nkind = "archetype"\ntrades = [\n  { replaces = "Trapfinding", feature = "trapfinding" },\n]', "Intro.\n",
+              {"fields": {"trades": [{"replaces": "Trapfinding", "feature": "trapfinding"}]}}, None, "", [])
+    props = {"feature": [
+        {"anchor": "adaptation", "head": "Adaptation (Ex)", "listed": True, "print": "At 3rd level, a ranger learns a type. This ability replaces trapfinding."},
+        {"anchor": "aberration", "head": "Aberration", "listed": False, "parent": "adaptation", "print": "amphibious, darkvision 60 ft."},
+        {"anchor": "fey", "head": "Fey", "listed": False, "parent": "adaptation", "print": "Iron Will."},
+    ], "opening": []}
+    out = convert_text(ent, props, [{"anchor": f["anchor"], "status": "print"} for f in props["feature"]])
+    eq(out.count("features = [") == 1 and 'anchor = "adaptation", level = 3' in out and "anchor = \"aberration\"" not in out, True, "options are not listed")
+    eq("### Aberration {#aberration}" in out and "## Adaptation (Ex) {#adaptation}" in out, True, "options are ### subheadings")
+    eq('by = ["adaptation"]' in out, True, "the trade names the feature")
+    props["feature"][1]["print"] = "amphibious. This ability replaces trapfinding."
+    props["feature"][0]["print"] = "At 3rd level, a ranger learns a type."
+    out = convert_text(ent, props, [{"anchor": f["anchor"], "status": "print"} for f in props["feature"]])
+    eq('by = ["adaptation"]' in out, True, "a trade sentence of an option belongs to its feature")
     # front matter edit
     front = 'id = "x"\n\n[fields]\nkind = "archetype"\ntrades = [\n  { replaces = "Bravery", feature = "bravery" },\n  { replaces = "Armor training", feature = "armor-training" },\n]'
     got = edit_front(front, [{"anchor": "a", "level": 2, "listed": True}, {"anchor": "b", "listed": True}], {0: ["a"], 1: []}, 2)
