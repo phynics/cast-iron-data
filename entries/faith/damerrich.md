@@ -2,13 +2,10 @@
 id = "ref/faith/damerrich"
 kind = "rule"
 title = "Damerrich"
-source_ids = ["inner-sea-gods", "chronicle-of-the-righteous"]
+source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damerrich", path = "json/faiths3.json" },
 ]
-[[sources]]
-publication = "inner-sea-gods"
-page = "322"
 [[sources]]
 publication = "chronicle-of-the-righteous"
 page = "11"

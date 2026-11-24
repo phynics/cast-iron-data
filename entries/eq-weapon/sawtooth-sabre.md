@@ -20,7 +20,7 @@ publication = "inner-sea-world-guide"
 page = "290"
 [[sources]]
 publication = "adventurers-armory"
-page = "33"
+page = "18"
 [[sources]]
 publication = "ultimate-equipment"
 page = "20"

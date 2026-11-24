@@ -7,8 +7,11 @@ provenance = [
   { dataset = "pathfinder-data-1-e", record = "damage_die_adjustments", path = "json/misc.json" },
 ]
 [[sources]]
+publication = "bestiary"
+page = "315"
+[[sources]]
 publication = "bestiary-5"
-page = "296"
+page = "297"
 
 [fields]
 kind = "none"

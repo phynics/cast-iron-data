@@ -180,3 +180,85 @@ heroes-of-golarion	ref/eq-weapon/alchemical-cartridge-repellent	remove	none	wron
 heroes-of-golarion	ref/eq-weapon/alchemical-cartridge-salt-shot	remove	none	wrong-credit-invalidated	read printed p. 18: the book prints the Alkenstar cartridges (gray dust, gray dust shot, smoke) and no cartridge of this kind; whole-book search for the title: no hit	wrong-credit				
 heroes-of-golarion	ref/eq-weapon/alchemical-cartridge-toxin	remove	none	wrong-credit-invalidated	read printed p. 18: the book prints the Alkenstar cartridges (gray dust, gray dust shot, smoke) and no cartridge of this kind; whole-book search for the title: no hit	wrong-credit				
 ultimate-wilderness	ref/spell/tectonic-communion	remove	none	wrong-credit-invalidated	read printed p. 235: the page prints other spells; the spell is printed in Faiths and Philosophies p. 29; whole-book search for the title: no hit	wrong-credit				
+adventurers-guide	ref/rule/optional-subsystems	keep	none	home-book-kept	home book of the hub (owner ruling 3 of 2026-11-24: the current first book stays; home books are post-v1, phynics/cast-iron-data#277)					
+aquatic-adventures	ref/rule/gm-specific-campaigns	keep	none	home-book-kept	home book of the hub (owner ruling 3 of 2026-11-24: the current first book stays; home books are post-v1, phynics/cast-iron-data#277)					
+cohorts-and-companions	ref/rule/advanced-player-topics	keep	none	home-book-kept	home book of the hub (owner ruling 3 of 2026-11-24: the current first book stays; home books are post-v1, phynics/cast-iron-data#277)					
+inner-sea-taverns	ref/rule/specific-rulesets	keep	none	home-book-kept	home book of the hub (owner ruling 3 of 2026-11-24: the current first book stays; home books are post-v1, phynics/cast-iron-data#277)					
+pathfinder-unchained	ref/rule/advanced-gm-topics	keep	none	home-book-kept	home book of the hub (owner ruling 3 of 2026-11-24: the current first book stays; home books are post-v1, phynics/cast-iron-data#277)					
+pathfinder-unchained	ref/rule/optional-alignment-changes	keep	none	home-book-kept	home book of the hub (owner ruling 3 of 2026-11-24: the current first book stays; home books are post-v1, phynics/cast-iron-data#277)					
+pathfinder-unchained	ref/rule/optional-magic-changes	keep	none	home-book-kept	home book of the hub (owner ruling 3 of 2026-11-24: the current first book stays; home books are post-v1, phynics/cast-iron-data#277)					
+ultimate-combat	ref/rule/optional-combat-changes	keep	none	home-book-kept	home book of the hub (owner ruling 3 of 2026-11-24: the current first book stays; home books are post-v1, phynics/cast-iron-data#277)					
+bestiary	ref/misc/damage-die-adjustments	cite	315	section-printed	read printed p. 315 of Bestiary: the Improved Natural Attack text that the hub quotes					
+bestiary-5	ref/misc/damage-die-adjustments	keep	297	page-corrected	read printed p. 297 of Bestiary 5: the natural attacks table that the hub quotes (Table 3-2 in print)					
+bestiary-5	ref/rule/rare-races	keep	37	page-confirmed	read printed p. 37 of Bestiary 5: the astomoi entry					
+darklands-revisited	ref/rule/rare-races	keep	37	page-confirmed	read printed p. 37 of Darklands Revisited: Munavri Characters					
+darklands-revisited	ref/rule/slimes-molds-and-fungi	keep	61	page-confirmed	read printed p. 61 of Darklands Revisited: the russet mold variants					
+isles-of-the-shackles	ref/rule/rare-races	keep	51	page-confirmed	read printed p. 51 of Isles of the Shackles: Kuru Characters					
+occult-bestiary	ref/rule/rare-races	keep	23	page-confirmed	read printed p. 23 of Occult Bestiary: the duergar tyrant entry					
+planar-adventures	ref/rule/rare-races	keep	224	page-confirmed	read printed p. 224 of Planar Adventures: the aphorite entry					
+champions-of-corruption	ref/rule/feats-multiperson	keep	20	page-corrected	read printed p. 20 of Champions of Corruption: Betrayal Feats					
+champions-of-corruption	ref/rule/feats-roleplaying	keep	16	page-corrected	read printed p. 16 of Champions of Corruption: Damnation Feats					
+blood-of-the-coven	ref/rule/feats-multiperson	keep	13	page-confirmed	read printed p. 13 of Blood of the Coven: Coven Feats					
+plane-hoppers-handbook	ref/rule/feats-roleplaying	keep	22	page-confirmed	read printed p. 22 of Plane-Hopper's Handbook: Gathlain Court Titles					
+occult-adventures	ref/rule/feats-class	keep	128	page-confirmed	read printed p. 128 of Occult Adventures: Stare Feats					
+psychic-anthology	ref/rule/feats-class	keep	16	page-confirmed	read printed p. 16 of Psychic Anthology: Trick Feats					
+magic-tactics-toolbox	ref/rule/feats-class	keep	28	page-confirmed	read printed p. 28 of Magic Tactics Toolbox: the blood feats section					
+mythic-adventures	ref/rule/marshal-2-6	keep	42-43	page-corrected	read printed p. 42-43 of Mythic Adventures: the 2nd- to 6th-tier marshal path abilities (the 6th-tier section starts on p. 42)					
+legacy-of-dragons	ref/faith/general-susumu	keep	31	section-printed	read printed p. 31 of Legacy of Dragons: the tail strike spell and its rule for clerics, inquisitors, oracles and warpriests of dragon deities; p. 8 lists this deity among the dragon deities					
+legacy-of-dragons	ref/faith/nalinivati	keep	31	section-printed	read printed p. 31 of Legacy of Dragons: the tail strike spell and its rule for clerics, inquisitors, oracles and warpriests of dragon deities; p. 8 lists this deity among the dragon deities					
+legacy-of-dragons	ref/faith/ragadahn	keep	31	section-printed	read printed p. 31 of Legacy of Dragons: the tail strike spell and its rule for clerics, inquisitors, oracles and warpriests of dragon deities; p. 8 lists this deity among the dragon deities					
+legacy-of-dragons	ref/faith/shizuru	keep	31	section-printed	read printed p. 31 of Legacy of Dragons: the tail strike spell and its rule for clerics, inquisitors, oracles and warpriests of dragon deities; p. 8 lists this deity among the dragon deities					
+legacy-of-dragons	ref/faith/ardad-lili	remove	none	wrong-credit-invalidated	read printed pp. 8 and 31: the book prints the tail strike rule for dragon deities and never names this deity; whole-book search for the name: no hit. The copied Unique Spell Rules section goes with the book (owner ruling 3 of 2026-11-24 on #461, S10)	wrong-credit				
+legacy-of-dragons	ref/faith/draghignazzo	remove	none	wrong-credit-invalidated	read printed pp. 8 and 31: the book prints the tail strike rule for dragon deities and never names this deity; whole-book search for the name: no hit. The copied Unique Spell Rules section goes with the book (owner ruling 3 of 2026-11-24 on #461, S10)	wrong-credit				
+adventurers-guide	ref/magic-wondrous/zoic-fetish	keep	134	page-corrected	read printed p. 134 of Adventurer's Guide: the item's description					
+adventurers-guide	ref/spell/identifiers-eye	remove	none	wrong-credit-invalidated	whole-book search for the title: no hit in this book; only Potions and Poisons prints the spell	wrong-credit				
+andoran-spirit-of-liberty	ref/spell/identifiers-eye	remove	none	wrong-credit-invalidated	whole-book search for the title: no hit in this book; only Potions and Poisons prints the spell	wrong-credit				
+ultimate-intrigue	ref/spell/identifiers-eye	remove	none	wrong-credit-invalidated	whole-book search for the title: no hit in this book; only Potions and Poisons prints the spell	wrong-credit				
+faction-guide	ref/eq-armorenh/deflecting	keep	55	page-confirmed	read printed p. 55 of Faction Guide: the entry					
+faction-guide	ref/eq-armorenh/vitalguard	keep	55	page-confirmed	read printed p. 55 of Faction Guide: the entry (printed 'Vital Guard' for the vitalguard)					
+faction-guide	ref/eq-weapon/darkflare	keep	55	page-confirmed	read printed p. 55 of Faction Guide: the entry					
+animal-archive	ref/spell/scamper	keep	25	page-confirmed	read printed p. 25 of Animal Archive: the spell					
+animal-archive	ref/spell/sky-steed	keep	25	page-confirmed	read printed p. 25 of Animal Archive: the spell					
+bestiary	ref/monster/moldering-emperor	remove	none	wrong-credit-invalidated	read printed p. 214 and the monster index: the book prints no Moldering Emperor; whole-book search for the title: no hit	wrong-credit				
+bestiary	ref/monster/yak	remove	none	whole-book-absent-new-primary-unverified-no-pdf	read printed p. 174 (Herd Animal, Aurochs and Bison): the page names yaks at most as another herd animal and prints no yak; the next book, Pathfinder #51, is not among the owner PDFs and the corpus has no page for it	mention	unverified-no-pdf	174	the sidebar says the herd animal stat block can stand for other large herd animals	pathfinder-51-the-hungry-storm
+bestiary	ref/affliction/zombie/deathspore-toxin	remove	33	whole-book-absent-new-primary-printed	read printed pp. 292-293 and the zombie template: the book prints no deathspore zombie; Horror Realms p. 33 prints it	wrong-credit	printed			horror-realms
+bestiary	ref/monster/mummy	keep	210	page-corrected	read printed p. 210 of Bestiary: the mummy entry (p. 110 prints other creatures)					
+ultimate-campaign	ref/trait/elven-reflexes	keep	62	page-confirmed	read printed p. 62 of Ultimate Campaign: the race trait under Half-Elf					
+dragonslayers-handbook	ref/eq-material/dragonhide	keep	19	page-confirmed	read printed p. 19 of Dragonslayer's Handbook: the dragonhide entry					
+demon-hunters-handbook	ref/trait/exposed-to-awfulness	keep	31	page-confirmed	read printed p. 31 of Demon Hunter's Handbook: the trait					
+bonus-bestiary	ref/monster/ant-lion-giant-adult-ant-lion	keep	5	page-confirmed	read printed p. 5 of Bonus Bestiary: the giant ant lion					
+carrion-hill	ref/monster/spawn-of-yog-sothoth	keep	28	page-corrected	read printed p. 28 of Carrion Hill: the stat block (p. 27 repeats a short block; p. 30 prints other text)					
+crown-of-the-kobold-king	ref/monster/slurk	keep	31	page-corrected	read printed p. 31 of Crown of the Kobold King: the slurk entry (p. 33 prints the open game license)					
+crown-of-the-kobold-king	ref/eq-weapon/chain-spear	remove	none	wrong-credit-invalidated	whole-book search for the title: no hit (the page names a chain only in a trap)	wrong-credit				
+revenge-of-the-kobold-king	ref/eq-weapon/chain-spear	remove	none	wrong-credit-invalidated	whole-book search for the title: no hit (the page names a chain only in a trap)	wrong-credit				
+gods-and-magic	ref/magic-wondrous/bronze-skinning-knife	remove	none	wrong-credit-invalidated	read printed p. 55: the page prints the Bronze Dagger of Erastil, another item; whole-book search for the title: no hit	wrong-credit				
+inner-sea-combat	ref/magic-weapon/rostland-edge	remove	none	wrong-credit-invalidated	read printed p. 56 and a whole-book search: the book prints no such weapon	wrong-credit				
+gnomes-of-golarion	ref/eq-weapon/stormshaft-javelin	remove	none	wrong-credit-invalidated	read printed p. 22: the book prints the Shrillshaft javelin, another weapon; whole-book search for the title: no hit	wrong-credit				
+faiths-and-philosophies	ref/feat/polytheistic-blessing	keep	21	printed-under-former-title	read printed p. 21 of Faiths and Philosophies: the feat is printed there as Pantheistic Blessing, with the same text					
+inner-sea-gods	ref/faith/chaldira-zuzaristan	keep	324	page-confirmed	read printed p. 324 of Inner Sea Gods: the halfling deities table lists Chaldira Zuzaristan (The Calamitous Turn); the longer entry is on p. 185					
+inner-sea-gods	ref/faith/damerrich	remove	11	whole-book-absent-new-primary-printed	read printed p. 322 (deity table) and a whole-book search: the book prints no Damerrich; Chronicle of the Righteous p. 11 prints the deity	wrong-credit	printed			chronicle-of-the-righteous
+occult-mysteries	ref/magic-wondrous/trumpet-of-spirit-speaking	keep	56	page-corrected	read printed p. 56 of Occult Mysteries: the item's entry					
+pathfinder-society-primer	ref/magic-wondrous/polish-of-inconspicuous-armor	keep	25	page-confirmed	read printed p. 25 of Pathfinder Society Primer: the contents list gives p. 25					
+rival-guide	ref/magic-wondrous/aegis-of-recovery-greater	keep	5	page-confirmed	read printed p. 5 of Rival Guide: the Aegis of Recovery entry, with its greater version					
+ultimate-wilderness	ref/ability/animal-tricks	remove	none	wrong-credit-invalidated	read printed pp. 214-216: the pages print Companion Tricks, which is its own entry; whole-book search for Animal Tricks: no hit	wrong-credit				
+adventurers-armory-2	ref/arc-magus/kensai	remove	none	wrong-credit-invalidated	read printed p. 11: the page names the kensai archetype in the text of a magus feat and prints no such archetype	mention		11	a magus feat names the kensai archetype in its text	
+occult-adventures	ref/spell/implanted-projection	remove	13	whole-book-absent-new-primary-printed	read printed p. 188 (the spell lists name Telempathic Projection): the book prints no Implanted Projection; Occult Origins p. 13 prints it	wrong-credit	printed			occult-origins
+occult-adventures	ref/spell/threefold-form	remove	25	whole-book-absent-new-primary-printed	read printed p. 158 and a whole-book search: the book prints no Threefold Form; Legacy of the First World p. 25 prints it	wrong-credit	printed			legacy-of-the-first-world
+undead-unleashed	ref/magic-weapon/rixbrand	remove	51	whole-book-absent-new-primary-printed	read printed pp. 6 and 8-10: the adventure text names the sword Rixbrand and prints no stat block; Lands of the Linnorm Kings p. 51 prints it	mention	printed	6, 8-10	adventure text names the sword as a prize	lands-of-the-linnorm-kings
+adventurers-armory	ref/eq-weapon/sawtooth-sabre	keep	18	page-corrected	read printed p. 18 of Adventurer's Armory: the weapon's description (the weapon table is on the inside back cover)					
+faiths-and-philosophies	ref/trait/traditionalist	keep	inside cover	page-confirmed	read printed p. inside cover of Faiths and Philosophies: the contents list places the trait on the back cover, which has no number; the corpus writes such a page as 'inside cover'					
+advanced-players-guide	ref/class/paladin	page	72	page-corrected	read printed p. 72 of Advanced Player's Guide: the Archetypes introduction that the hub's body cites					
+advanced-players-guide	ref/rule/class-paladin/paladin	page	72	page-corrected	read printed p. 72 of Advanced Player's Guide: the Archetypes introduction that the hub's body cites					
+chronicle-of-legends	ref/class/cavalier	page	28	page-corrected	read printed p. 28 of Chronicle of Legends: the Alternate Capstones section prints the cavalier's capstone (p. 4 prints a banner ability of an archetype)					
+ultimate-combat	ref/spell/tongues-communal	page	247	page-corrected	read printed p. 247 of Ultimate Combat: the spell block starts there					
+adventurers-armory	ref/eq-misc/courtesans-outfit	page	14	page-corrected	the queue records p. 14 (section-printed, an earlier batch); the row still cited p. 19					
+adventurers-armory	ref/eq-misc/peasants-outfit	page	14	page-corrected	the queue records p. 14 (section-printed, an earlier batch); the row still cited p. 19					
+adventurers-armory	ref/eq-misc/scholars-outfit	page	14	page-corrected	the queue records p. 14 (section-printed, an earlier batch); the row still cited p. 19					
+adventurers-armory	ref/eq-misc/squires-outfit	page	14	page-corrected	the queue records p. 14 (section-printed, an earlier batch); the row still cited p. 19					
+adventurers-armory	ref/eq-misc/tear-away-courtesans-outfit	page	14	page-corrected	the queue records p. 14 (section-printed, an earlier batch); the row still cited p. 19					
+adventurers-armory	ref/eq-misc/tear-away-peasants-outfit	page	14	page-corrected	the queue records p. 14 (section-printed, an earlier batch); the row still cited p. 19					
+adventurers-armory	ref/eq-misc/tear-away-pickpockets-outfit	page	14	page-corrected	the queue records p. 14 (section-printed, an earlier batch); the row still cited p. 19					
+adventurers-armory	ref/eq-misc/tear-away-scholars-outfit	page	14	page-corrected	the queue records p. 14 (section-printed, an earlier batch); the row still cited p. 19					
+adventurers-armory	ref/eq-misc/tear-away-squires-outfit	page	14	page-corrected	the queue records p. 14 (section-printed, an earlier batch); the row still cited p. 19					
+adventurers-armory	ref/eq-weapon/ogre-hook	page	33	page-corrected	the queue records p. 33 (title-printed, an earlier batch); the row had page 0					
+pathfinder-51-the-hungry-storm	ref/monster/yak	keep	none	unverified-no-pdf	the book is not among the owner PDFs and the corpus has no page for it; it is now the entry's first book (owner ruling 4)					

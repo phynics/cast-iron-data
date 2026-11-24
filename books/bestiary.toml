@@ -1410,10 +1410,6 @@ title = "Oxen (Herd Animal)"
 entry = "ref/monster/herd-animal-oxen"
 
 [[books.chapters.children.children]]
-title = "Yak (Herd Animal)"
-entry = "ref/monster/yak"
-
-[[books.chapters.children.children]]
 title = "Aurochs"
 entry = "ref/companion/aurochs"
 
@@ -1828,10 +1824,6 @@ entry = "ref/carried/bestiary/monsters/naga/spirit/special-abilities/poison/spir
 [[books.chapters.children]]
 title = "Neothelid"
 entry = "ref/monster/neothelid"
-
-[[books.chapters.children.children]]
-title = "The Moldering Emperor"
-entry = "ref/monster/moldering-emperor"
 
 [[books.chapters.children]]
 title = "Night Hag"
@@ -2464,10 +2456,6 @@ entry = "ref/monster/yeti"
 [[books.chapters.children]]
 title = "Zombie"
 entry = "ref/template/zombie"
-
-[[books.chapters.children.children]]
-title = "Deathspore Toxin"
-entry = "ref/affliction/zombie/deathspore-toxin"
 
 [[books.chapters.children.children]]
 title = "Human Zombie"

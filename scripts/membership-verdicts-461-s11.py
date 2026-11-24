@@ -96,13 +96,17 @@ def main() -> int:
         if q["verdict"] and q["verdict"] != v["verdict"]:
             raise SystemExit(f"refused: {v['entry']} in {v['book']} has the verdict {q['verdict']} already")
         if not q["verdict"] or q["print_page"] != v["print_page"] or q["evidence"] != v["evidence"] \
-                or (v.get("proposed_primary") and q["proposed_primary"] != v["proposed_primary"]):
+                or (v.get("proposed_primary") and (q["proposed_primary"] != v["proposed_primary"] or q["gate"] != "primary")):
             pending += 1
             q.update(verdict=v["verdict"], print_page=v["print_page"], evidence=v["evidence"], slice="done")
             if v.get("proposed_status"):
                 q["proposed_status"] = v["proposed_status"]
             if v.get("proposed_primary"):
                 q["proposed_primary"] = v["proposed_primary"]
+                q["gate"] = "primary"
+        if q["in_warning"] == "yes" and d["source_ids"][0] == v["book"]:
+            q["member"] = "1"
+            q["in_warning"] = ""  # a book that became the first book (a removal of S11) leaves the warning
         if v["verdict"] == "remove" and row is not None and (v["entry"], v["book"]) not in aix:
             pending += 1
             cls = v.get("class") or "wrong-credit"

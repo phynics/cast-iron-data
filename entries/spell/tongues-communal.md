@@ -12,7 +12,7 @@ relations = [
 ]
 [[sources]]
 publication = "ultimate-combat"
-page = "248"
+page = "247"
 
 [fields]
 kind = "spell"

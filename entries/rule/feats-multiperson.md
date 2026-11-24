@@ -14,7 +14,7 @@ publication = "blood-of-the-coven"
 page = "13"
 [[sources]]
 publication = "champions-of-corruption"
-page = "22"
+page = "20"
 
 [fields]
 kind = "none"
