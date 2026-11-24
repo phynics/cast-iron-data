@@ -213,7 +213,7 @@ advanced-players-guide	ref/class/arcanist	class	Arcanist	2	8	uncited	absent		non
 advanced-players-guide	ref/class/bloodrager	class	Bloodrager	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/brawler	class	Brawler	2	5	uncited	printed		none	4	74,78,104,105							cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/hunter	class	Hunter	2	8	uncited	printed		none	24	12,13,18,22,26										class-hub	S6		yes	yes	yes		
+advanced-players-guide	ref/class/hunter	class	Hunter	2	8	uncited	printed		none	24	12,13,18,22,26							cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/investigator	class	Investigator	2	7	uncited	printed		none	4	73,133,134,334										class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/kineticist	class	Kineticist	2	9	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/magus	class	Magus	2	10	uncited	body		none	1	54										class-hub	S6		yes	yes	yes		
@@ -709,7 +709,7 @@ blood-of-shadows	ref/race/fetchling	race	Fetchling	4	5	uncited	printed		none	9	2
 blood-of-shadows	ref/race/wayang	race	Wayang	6	6	uncited	printed		none	8	2,3,5,10,11										race-hub	S9		yes	yes			
 blood-of-shadows	ref/class/arcanist	class	Arcanist	6	8	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/gunslinger	class	Gunslinger	6	7	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
-blood-of-shadows	ref/class/hunter	class	Hunter	5	8	weak	weak		none	1	7										class-hub	S6		yes	yes			
+blood-of-shadows	ref/class/hunter	class	Hunter	5	8	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/kineticist	class	Kineticist	3	9	weak	weak		none	1	11										class-hub	S6		yes	yes			
 blood-of-shadows	ref/race/tiefling	race	Tiefling	6	7	weak	weak		none	1	5										race-hub	S9		yes	yes			
 blood-of-shadows	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	5	8	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -749,7 +749,7 @@ blood-of-the-beast	ref/class/bloodrager	class	Bloodrager	4	9	uncited	printed		no
 blood-of-the-beast	ref/class/brawler	class	Brawler	4	5	uncited	printed		none	3	12,24,28							remove	12	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/cavalier	class	Cavalier	8	8	uncited	printed		none	5	3,12,16,18,28							remove	12	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/gunslinger	class	Gunslinger	8	8	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
-blood-of-the-beast	ref/class/hunter	class	Hunter	4	8	uncited	printed		none	9	3,4,5,9,10										class-hub	S6		yes	yes			
+blood-of-the-beast	ref/class/hunter	class	Hunter	4	8	uncited	printed		none	9	3,4,5,9,10							remove	4	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/inquisitor	class	Inquisitor	5	8	uncited	printed		none	6	3,4,5,11,14										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/investigator	class	Investigator	5	7	uncited	printed		none	5	3,4,6,20,21										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/kineticist	class	Kineticist	4	9	uncited	printed		none	2	24,28										class-hub	S6		yes	yes			
@@ -857,7 +857,7 @@ chronicle-of-legends	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	5	11	family-
 chronicle-of-legends	ref/rule/class-wizard/wizard	rule	Wizard	7	11	family-leak	printed		none	8	6,14,20,24,28	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes	yes		
 chronicle-of-legends	ref/class/alchemist	class	Alchemist	2	12	uncited	printed		none	4	3,7,17,31							cite	28, 31	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/gunslinger	class	Gunslinger	4	7	uncited	printed		none	4	3,4,5,28							cite	28	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/class/hunter	class	Hunter	3	8	uncited	printed		none	3	20,26,28										class-hub	S6		yes	yes	yes		
+chronicle-of-legends	ref/class/hunter	class	Hunter	3	8	uncited	printed		none	3	20,26,28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/inquisitor	class	Inquisitor	2	8	uncited	printed		none	3	14,28,29										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/kineticist	class	Kineticist	5	9	uncited	printed		none	3	10,11,29										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/magus	class	Magus	3	10	uncited	printed		none	3	8,9,29										class-hub	S6		yes	yes	yes		
@@ -1993,7 +1993,7 @@ pathfinder-101-the-kintargo-contract	ref/rule/class-druid/druid	rule	Druid	12	12
 pathfinder-101-the-kintargo-contract	ref/class/bloodrager	class	Bloodrager	8	9	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
 pathfinder-101-the-kintargo-contract	ref/class/brawler	class	Brawler	5	5	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
 pathfinder-101-the-kintargo-contract	ref/class/druid	class	Druid	12	12	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
-pathfinder-101-the-kintargo-contract	ref/class/hunter	class	Hunter	8	8	uncited	no-pdf		none	0											class-hub	S6		yes	no			
+pathfinder-101-the-kintargo-contract	ref/class/hunter	class	Hunter	8	8	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
 pathfinder-101-the-kintargo-contract	ref/class/oracle	class	Oracle	11	13	uncited	no-pdf		none	0											class-hub	S7		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/shaman	class	Shaman	6	8	uncited	no-pdf		none	0											class-hub	S7		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/slayer	class	Slayer	7	8	uncited	no-pdf		none	0											class-hub	S7		yes	no			
@@ -2147,7 +2147,7 @@ plane-hoppers-handbook	ref/class/alchemist	class	Alchemist	3	12	uncited	printed	
 plane-hoppers-handbook	ref/class/antipaladin	class	Antipaladin	4	5	uncited	printed		none	2	13,17							remove	17	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/arcanist	class	Arcanist	5	8	uncited	printed		none	5	3,7,8,17,19							remove	7	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/bloodrager	class	Bloodrager	7	9	uncited	printed		none	2	13,23							remove	23	class-options-only	class-hub	done			yes			
-plane-hoppers-handbook	ref/class/hunter	class	Hunter	6	8	uncited	printed		none	3	15,16,19										class-hub	S6		yes	yes			
+plane-hoppers-handbook	ref/class/hunter	class	Hunter	6	8	uncited	printed		none	3	15,16,19							remove	19	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/inquisitor	class	Inquisitor	4	8	uncited	printed		none	4	10,12,13,15										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/investigator	class	Investigator	4	7	uncited	printed		none	4	15,17,19,23										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/kineticist	class	Kineticist	8	9	uncited	printed		none	3	3,8,17										class-hub	S6		yes	yes			
@@ -2522,7 +2522,7 @@ ultimate-wilderness	ref/ability/familiars	rule	Familiars	4	5	uncited	printed		no
 ultimate-wilderness	ref/class/alchemist	class	Alchemist	10	12	uncited	printed		none	24	3,8,14,21,22							remove	34	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/bloodrager	class	Bloodrager	6	9	uncited	printed		none	15	10,14,16,17,140							remove	10	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/cavalier	class	Cavalier	5	8	uncited	printed		none	10	3,5,10,44,45							remove	44	class-options-only	class-hub	done			yes			
-ultimate-wilderness	ref/class/hunter	class	Hunter	7	8	uncited	printed		none	40	3,5,10,16,19										class-hub	S6		yes	yes			
+ultimate-wilderness	ref/class/hunter	class	Hunter	7	8	uncited	printed		none	40	3,5,10,16,19							remove	52	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/kineticist	class	Kineticist	9	9	uncited	printed		none	15	3,5,21,23,24										class-hub	S6		yes	yes			
 ultimate-wilderness	ref/class/mesmerist	class	Mesmerist	6	9	uncited	printed		none	8	17,18,224,227,229										class-hub	S6		yes	yes			
 ultimate-wilderness	ref/class/oracle	class	Oracle	13	13	uncited	printed		none	9	3,21,68,69,140										class-hub	S7		yes	yes			
