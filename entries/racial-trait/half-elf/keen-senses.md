@@ -2,7 +2,7 @@
 id = "ref/racial-trait/half-elf/keen-senses"
 kind = "racial_trait"
 title = "Keen Senses"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes-from-the-fringe", "bastards-of-golarion", "legacy-of-the-first-world", "advanced-players-guide", "blood-of-shadows", "horror-adventures", "legacy-of-dragons", "heroes-of-the-wild", "heroes-of-the-high-court", "heroes-of-the-streets", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/half-elf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_elf|racial-trait:keen-senses", path = "json/races3.json" },

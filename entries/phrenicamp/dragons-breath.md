@@ -1,7 +1,7 @@
 +++
 id = "ref/phrenicamp/dragons-breath"
 kind = "class_option"
-title = "Dragon's Breath"
+title = "Dragon's Breath Focus"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragons_breath", path = "json/class_ability_phrenic_amplifications.json" },

@@ -1,7 +1,7 @@
 +++
 id = "ref/hex/mothers-eye"
 kind = "class_option"
-title = "Mother's Eye"
+title = "Mother's Eyes"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mothers_eye", path = "json/class_ability_hexes.json" },

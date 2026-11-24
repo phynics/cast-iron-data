@@ -1,0 +1,22 @@
+id	old_title	new_title	book	page	status
+ref/vigtalent/environmental-weapon	Environmental Weapon	Environment Weapon	ultimate-intrigue	14	rewrite
+ref/vigtalent/expose-weaknesses	Expose Weaknesses	Expose Weakness	ultimate-intrigue	14	rewrite
+ref/vigtalent/sucker-punch	Sucker Punch	Sucker-Punch	ultimate-intrigue	16	rewrite
+ref/ragepower/flight-response	Flight Response	Fight Response	horror-adventures	46	rewrite
+ref/oraclecurse/acursed	Acursed	Accursed	horror-realms	14	rewrite
+ref/talent/expert-cypher	Expert Cypher	Expert Cipher	divine-anthology	7	rewrite
+ref/trait/mischievous-smile	Mischievous Smile	Mischievous Smite	divine-anthology	17	rewrite
+ref/phrenicamp/complex-countermeasures	Complex Countermeasures	Complex Countermeasure	occult-adventures	60	rewrite
+ref/phrenicamp/dragons-breath	Dragon's Breath	Dragon's Breath Focus	occult-origins	16	rewrite
+ref/hex/mothers-eye	Mother's Eye	Mother's Eyes	legacy-of-the-first-world	17	rewrite
+ref/invtalent/iconclastic-strike	Iconclastic Strike	Iconoclastic Strike	inner-sea-intrigue	31	rewrite
+ref/soctalent/seemless-shapechanger	Seemless Shapechanger	Seamless Shapechanger	blood-of-the-beast	15	rewrite
+ref/trick/life-revier	Life Revier	Life Review	blood-of-the-beast	19	rewrite
+ref/kipower/improvised-weapon-proficiency	Improvised Weapon Proficiency	Improvised Weapon Affinity	blood-of-the-beast	31	rewrite
+ref/stylestrike/dirty-strikes	Dirty Strikes	Dirty Strike	blood-of-the-beast	31	rewrite
+ref/trait/demon-hunter	Demon Hunter	Asmodean Demon Hunter	advanced-players-guide	332	rewrite
+ref/trait/affinity-for-the-elements	Affinity for the Elements	Affinity for the Elements	inner-sea-gods	218	first-book
+ref/trait/elven-polytheist	Elven Polytheist	Elven Polytheist	inner-sea-gods	219	first-book
+ref/trait/underlying-principles	Underlying Principles	Underlying Principles	inner-sea-gods	223	first-book
+ref/invtalent/masterful-numerical-strike	Masterful Numerical Strike	Numerical Strike, Masterful	disciples-doctrine	17	owner-question
+ref/affliction/energized/miasma	Miasma	Caustic Mist	construct-handbook	38	owner-question

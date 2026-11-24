@@ -1,7 +1,7 @@
 +++
 id = "ref/phrenicamp/complex-countermeasures"
 kind = "class_option"
-title = "Complex Countermeasures"
+title = "Complex Countermeasure"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "complex_countermeasures", path = "json/class_ability_phrenic_amplifications.json" },

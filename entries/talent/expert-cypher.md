@@ -1,7 +1,7 @@
 +++
 id = "ref/talent/expert-cypher"
 kind = "class_option"
-title = "Expert Cypher"
+title = "Expert Cipher"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_cypher", path = "json/class_ability_rogue_talents.json" },
