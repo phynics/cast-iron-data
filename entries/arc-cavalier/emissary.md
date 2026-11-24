@@ -16,12 +16,20 @@ page = "36"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "armor-proficiency" },
+  { anchor = "in-or-out-of-the-saddle", level = 1 },
+  { anchor = "battlefield-agility", level = 5 },
+  { anchor = "mounted-acrobatics", level = 9 },
+  { anchor = "mounted-dervish", level = 14 },
+  { anchor = "erratic-charge", level = 20 },
+]
 trades = [
-  { replaces = "Tactician", feature = "tactician" },
-  { replaces = "Banner", feature = "banner" },
-  { replaces = "Greater tactician", feature = "greater-tactician" },
-  { replaces = "Greater banner", feature = "greater-banner" },
-  { replaces = "Supreme charge", feature = "supreme-charge" },
+  { replaces = "Tactician", feature = "tactician", by = ["in-or-out-of-the-saddle"] },
+  { replaces = "Banner", feature = "banner", by = ["battlefield-agility"] },
+  { replaces = "Greater tactician", feature = "greater-tactician", by = ["mounted-acrobatics"] },
+  { replaces = "Greater banner", feature = "greater-banner", by = ["mounted-dervish"] },
+  { replaces = "Supreme charge", feature = "supreme-charge", by = ["erratic-charge"] },
 ]
 +++
 
@@ -30,65 +38,46 @@ and mounted juggernauts. Some cavaliers, however, focus more on speed and mobili
 the raw power of the mounted charge. On foot or in the saddle, the emissary is usually first to meet
 the enemy, with a pointed lance, a drawn sword, or terms for surrender.
 
-**Armor Proficiency**
+## Armor Proficiency {#armor-proficiency}
 
-**Info:** An emissary does not gain proficiency with heavy armor.
+An emissary does not gain proficiency with heavy armor.
 
-**Bonus Feats**
+## Bonus Feats {#bonus-feats}
 
-**Passive:** An emissary can select [Endurance](ref/feat/endurance), [Fleet](ref/feat/fleet), or
+An emissary can select [Endurance](ref/feat/endurance), [Fleet](ref/feat/fleet), or
 [Run](ref/feat/run) in addition to the list of combat feats whenever he gains a bonus feat.
 
-**In or Out of the Saddle (Ex)**
+## In or Out of the Saddle (Ex) {#in-or-out-of-the-saddle}
 
-**Ability:** An emissary gains [Mounted Combat](ref/feat/mounted-combat) as a bonus feat. In
-addition, he can move at normal speed when wearing medium armor.
+At 1st level, an emissary gains [Mounted Combat](ref/feat/mounted-combat) as a bonus feat. In
+addition, he can move at normal speed when wearing medium armor. This ability replaces tactician.
 
-**Gained:** At 1st Level
+## Battlefield Agility (Ex) {#battlefield-agility}
 
-**Replaces:** Tactician
-
-**Battlefield Agility (Ex)**
-
-**Ability:** An emissary learns to be more aware of the threats that surround him in combat, and
+At 5th level, an emissary learns to be more aware of the threats that surround him in combat, and
 shares this awareness with his loyal steed. Both the emissary and his mount gain
-[Mobility](ref/feat/mobility) as a bonus feat.
+[Mobility](ref/feat/mobility) as a bonus feat. This ability replaces banner.
 
-**Gained:** At 5th Level
+## Mounted Acrobatics (Ex) {#mounted-acrobatics}
 
-**Replaces:** Banner
-
-**Mounted Acrobatics (Ex)**
-
-**Ability:** An emissary is even more adept at hopping on and off his steed, and even dropping
+At 9th level, an emissary is even more adept at hopping on and off his steed, and even dropping
 alongside its flanks mid-gallop. He gains [Trick Riding](ref/feat/trick-riding) as a bonus feat,
 even if he does not meet the prerequisites. The emissary can employ this feat even when wearing
-medium armor.
+medium armor. This ability replaces greater tactician.
 
-**Gained:** At 9th Level
+## Mounted Dervish (Ex) {#mounted-dervish}
 
-**Replaces:** Greater tactician
-
-**Mounted Dervish (Ex)**
-
-**Ability:** An emissary becomes a fearsome, mobile foe on the battlefield. He gains
+At 14th level, an emissary becomes a fearsome, mobile foe on the battlefield. He gains
 [Mounted Skirmisher](ref/feat/mounted-skirmisher) as a bonus feat, even if he does not meet the
 prerequisites. In addition, whenever the emissary is mounted and takes the [charge](ref/rule/charge)
-action, he adds 10 feet to his mount's speed.
+action, he adds 10 feet to his mount's speed. This ability replaces greater banner.
 
-**Gained:** At 14th Level
+## Erratic Charge (Ex) {#erratic-charge}
 
-**Replaces:** Greater banner
-
-**Erratic Charge (Ex)**
-
-**Ability:** An emissary learns to ride through the thick of combat, striking and then moving away
+At 20th level, an emissary learns to ride through the thick of combat, striking and then moving away
 with blinding speed. Whenever the emissary is mounted and takes the [charge](ref/rule/charge)
 action, he can first move 10 feet and make a melee attack. This first attack is not a charge, but a
 regular melee attack, and the movement counts toward the total allowed movement for the round. After
 making this attack, the emissary must still move in a straight line to reach the target of his
-charge, and he takes a -5 penalty on the attack roll for the attack at the end of his charge.
-
-**Gained:** At 20th Level
-
-**Replaces:** Supreme charge
+charge, and he takes a -5 penalty on the attack roll for the attack at the end of his charge. This
+ability replaces supreme charge.

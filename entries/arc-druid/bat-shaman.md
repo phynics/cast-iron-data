@@ -16,12 +16,20 @@ page = "42"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "nature-bond" },
+  { anchor = "wild-empathy" },
+  { anchor = "totem-transformation", level = 2 },
+  { anchor = "totemic-summons", level = 5 },
+  { anchor = "wild-shape", level = 6 },
+  { anchor = "bonus-feat", level = 9 },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Wild shape", feature = "wild-shape" },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
-  { alters = "Nature bond", feature = "nature-bond" },
-  { alters = "Wild empathy", feature = "wild-empathy" },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["totem-transformation"] },
+  { replaces = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["bonus-feat"] },
+  { alters = "Nature bond", feature = "nature-bond", by = ["nature-bond"] },
+  { alters = "Wild empathy", feature = "wild-empathy", by = ["wild-empathy"] },
 ]
 +++
 
@@ -29,85 +37,45 @@ The bat shaman's totem is the agile bat, flitting and turning with incredible sp
 most convoluted mazes. Her enemies do not know when she will appear, and when she does, she strikes
 fast and hard before disappearing into the night.
 
-**Nature Bond**
+## Nature Bond {#nature-bond}
 
-**Alters:** Nature bond
+A [bat](ref/companion/dire-bat) shaman who chooses an animal companion must select a bat. If
+choosing a domain, the bat shaman must choose from [Air](ref/domain/air),
+[Animal](ref/domain/animal), Darkness (Night subdomain), and Trickery (Deception subdomain).
 
-**Choice:** A bat shaman who chooses an animal companion must select a
-[bat](ref/companion/dire-bat). If choosing a domain, the bat shaman must choose from
-[Air](ref/domain/air), [Animal](ref/domain/animal), Darkness (Night subdomain), and Trickery
-(Deception subdomain).
+## Wild Empathy (Ex) {#wild-empathy}
 
-**Wild Empathy (Ex)**
+A bat shaman can use wild empathy with bats as a full-round action with a +4 bonus.
 
-**Ability:** A bat shaman can use _wild empathy_ with bats as a **full-round action** with a +4
-bonus.
+## Totem Transformation (Su) {#totem-transformation}
 
-**Alters:** Wild empathy
+At 2nd level, a bat shaman may adopt an aspect of the bat while retaining her normal form. This
+ability functions as the ape shaman ability, but the druid may select from the following sets of
+bonuses and abilities: movement (fly speed 30 ft. \[average\]; the druid must be at least 5th level
+to select this bonus), [natural weapons](ref/umr/natural-attacks) (bite \[1d4 for a Medium
+shaman\]), or senses ([blindsense](ref/umr/blindsense) 20 ft.).
 
-**Totem Transformation (Su)**
+While using totem transformation, the bat shaman may speak normally and can cast
+_[speak with animals](ref/spell/speak-with-animals)_ (bats only) at will. This ability replaces
+woodland stride.
 
-**Action:** Standard Action
+## Totemic Summons (Su) {#totemic-summons}
 
-**At 12th Level:** This becomes a **swift action**.
+At 5th level, a bat shaman may cast _[summon nature's ally](ref/spell/summon-natures-ally)_ as a
+standard action when summoning bats, and these summoned creatures gain
+[temporary hit points](ref/rule/temporary-hit-points) equal to her druid level. This ability
+otherwise functions as the ape shaman ability.
 
-**At 5th Level:** The druid may select a new option: **Movement** (fly speed 30 ft. \[average\])
+## Wild Shape (Su) {#wild-shape}
 
-**At 7th Level:** This becomes a **move action**.
+At 6th level, a bat shaman's wild shape ability functions at her druid level -2. If she takes on the
+form of a bat, she instead uses her druid level + 2.
 
-**Gained:** At 2nd Level
+## Bonus Feat {#bonus-feat}
 
-**Replaces:** Woodland stride
-
-**Special:** This is a polymorph effect and cannot be used while the druid is using another
-polymorph effect, such as _wild shape._
-
-**Usage:** 1 minute/day per druid level; these minutes need not be consecutive, but must be spent in
-1-minute increments
-
-A bat shaman may adopt an aspect of the bat while retaining her normal form. The druid may select
-from the following sets of bonuses and abilities:
-
-- **[Natural weapons](ref/umr/natural-attacks)** (bite \[1d4 for a Medium shaman\])
-- **Senses** ([blindsense](ref/umr/blindsense) 20 ft.)
-
-While using _totem transformation,_ the bat shaman may speak normally and can cast
-[speak with animals](ref/spell/speak-with-animals) (bats only) at will.
-
-**Totemic Summons (Su)**
-
-**Gained:** At 5th Level
-
-**Standard:** A bat shaman may cast [summon nature's ally](ref/spell/summon-natures-ally) to summon
-bats, and these summoned creatures gain [temporary hit points](ref/rule/temporary-hit-points) equal
-to her druid level. She can apply the [young](ref/template/young) template to any bat to reduce the
-level of the summoning spell required by one. She can also increase the level of summoning required
-by one in order to apply either the [advanced](ref/template/advanced) or the
-[giant](ref/template/giant) template, or increase it by two to apply both the advanced and giant
-templates.
-
-**Wild Shape (Su)**
-
-**Ability:** A bat shaman gains _wild shape,_ but the ability functions at her druid level - 2. If
-she takes on the form of a bat, she instead uses her druid level + 2.
-
-**Gained:** At 6th Level
-
-**Replaces:** Wild shape
-
-**Bonus Feat**
-
-**Ability:** A bat shaman gains one of the following bonus feats: [Acrobatic](ref/feat/acrobatic),
-[Agile Maneuvers](ref/feat/agile-maneuvers), [Improved Initiative](ref/feat/improved-initiative),
+At 9th level and every four levels thereafter, a bat shaman gains one of the following bonus feats:
+[Acrobatic](ref/feat/acrobatic), [Agile Maneuvers](ref/feat/agile-maneuvers),
+[Improved Initiative](ref/feat/improved-initiative),
 [Lightning Reflexes](ref/feat/lightning-reflexes), or [Skill Focus](ref/feat/skill-focus)
-(Perception).
-
-**At 13th Level:** The druid gains another bonus feat from the list above.
-
-**At 17th Level:** The druid gains a third bonus feat from the list above.
-
-**Gained:** At 9th Level
-
-**Replaces:** Venom immunity
-
-**Special:** She must meet the prerequisites for these bonus feats.
+(Perception). She must meet the prerequisites for these bonus feats. This ability replaces venom
+immunity.

@@ -1,0 +1,236 @@
+# Hand-written texts of the review of batch 1 (owner ruling 18 of 2026-11-24): see feature-prose-540.py `read_edits`.
+
+[[edit]]
+entry = "ref/arc-magus/bladebound"
+anchor = "black-blade"
+note = "hand-written from print (ruling 18, Ultimate Magic pp. 47-48): the second paragraph runs from the foot of the first column to the top of the table's page, which the extraction cut at the table"
+text = '''
+At 3rd level, the bladebound magus gains a powerful sentient weapon called a _black blade_, whose weapon type is chosen by the magus (see sidebar). A magus with this class feature cannot take the [familiar](ref/arcana/familiar) magus arcana, and cannot have a familiar of any kind, even from another class.
+
+Instead of the normal arcane pool amount, the bladebound magus's arcane pool has a number of points equal to 1/3 his level (minimum 1) plus his Intelligence bonus. This ability changes the Arcane Pool class feature and replaces the magus arcana gained at 3rd level.
+'''
+
+[[edit]]
+entry = "ref/arc-magus/bladebound"
+anchor = "black-blade-ability-descriptions"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 47-48): the paragraph is split by Table 1–3, which is written as a Markdown table after it'
+text = '''
+A _black blade_ has special abilities (or imparts abilities to its wielder) depending on the wielder's magus level. The abilities are cumulative. A _black blade_ normally refuses to use any of its abilities when wielded by anyone other than its magus, and acts as a masterwork weapon of its type.
+
+Table 1–3: Black Blade Progression
+
+| Magus class level | Enhancement bonus | Int | Wis/Cha | Ego | Special |
+|---|---|---|---|---|---|
+| 3rd–4th | +1 | 11 | 7 | 5 | Alertness, black blade strike, telepathy, unbreakable |
+| 5th–6th | +2 | 12 | 8 | 8 | Energy attunement |
+| 7th–8th | +2 | 13 | 9 | 10 | — |
+| 9th–10th | +3 | 14 | 10 | 12 | Teleport blade |
+| 11th–12th | +3 | 15 | 11 | 14 | — |
+| 13th–14th | +4 | 16 | 12 | 16 | Transfer arcana |
+| 15th–16th | +4 | 17 | 13 | 18 | — |
+| 17th–18th | +5 | 18 | 14 | 22 | Spell defense |
+| 19th–20th | +5 | 19 | 15 | 24 | Life drinker |
+'''
+
+[[edit]]
+entry = "ref/arc-magus/bladebound"
+anchor = "black-blades"
+note = "hand-written from print (ruling 18, Ultimate Magic p. 48): the last sentences of the sidebar's column belong to Black Blade Ability Descriptions, and the italics of the first words of its third paragraph and of the Core Rulebook title are fixed"
+text = '''
+A _black blade_ is a particular form of intelligent weapon gained by a magus with the bladebound archetype. There are several ways a magus might gain this weapon. Sometimes it just appears among the magus's possessions, and its origin is a mystery. Other times the magus finds a _black blade_ during an adventure or event of some kind. Sometimes a _black blade_ is passed down generation to generation in an ongoing search for a magus who can unlock its true potential.
+
+A _black blade_ is always a one-handed slashing weapon, a rapier, or a sword cane (see the _Advanced Player's Guide_). The magus chooses the blade's type upon gaining the blade, and once chosen, it can't be changed. As a bladebound magus increases in level, his _black blade_ gains power.
+
+A _black blade_ is independently conscious but features some personality traits reflecting its wielder. A _black blade_ always has the same alignment as its wielder and even changes its alignment if its wielder does. The blade typically works toward its wielder's goals, but not always without argument or backlash. Each _black blade_ has a mission, and while sometimes two or more _black blades_ will work in concert, each mission is singular in purpose (the _black blade_'s mission is usually up to the GM and the needs of the campaign or the adventure, or a GM can roll randomly for the weapon's purpose using Table 15–25 on page 534 of the _Core Rulebook_). Some _black blades_ are very open about their missions, but most are secretive. Certain sages have speculated that an invisible hand or arcane purpose moves these weapons.
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "feats"
+note = "hand-written from print (ruling 18, Ultimate Magic p. 51): the sidebar's paragraphs are set around a picture, so the extraction cut them line by line"
+text = '''
+These _ki_ powers duplicate the effects of specific feats. A monk does not need to qualify for a feat to select it as a _ki_ power. For example, a qinggong monk can select Spring Attack as a _ki_ power even if she doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these _ki_ powers is a free action on the monk's turn; until the start of her next turn, the monk is treated as if she had that feat. Some of these _ki_ powers that duplicate feats may also be activated as an immediate action; these powers are noted in the _ki_ powers list.
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "monk-abilities"
+note = "hand-written from print (ruling 18, Ultimate Magic p. 51): the sidebar's paragraphs are set around a picture, so the extraction cut them line by line"
+text = '''
+Some _ki_ powers are standard monk abilities described in the _Core Rulebook_. Even if a qinggong monk selects a different _ki_ power in place of a standard monk ability, she can select that monk ability later as one of her _ki_ powers.
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "spells"
+note = "hand-written from print (ruling 18, Ultimate Magic p. 51): the sidebar's paragraphs are set around a picture, so the extraction cut them line by line"
+text = '''
+These _ki_ powers duplicate the effects of a spell, and are [spell-like abilities](ref/umr/spell-like-abilities). A qinggong monk's class level is the caster level for these spell-like abilities, and she uses Wisdom to determine her [concentration](ref/rule/concentration) check bonus.
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "requirements"
+note = "hand-written from print (ruling 18, Ultimate Magic p. 51): the sidebar's paragraphs are set around a picture, so the extraction cut them line by line"
+text = '''
+All _ki_ powers have a minimum monk level requirement to select them. A monk who does not meet this requirement cannot select that _ki_ power.
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "4th-level-ki-powers"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 51-52): the list of this level as a Markdown table, the name and the parenthesis of each line as printed'
+text = '''
+| Ki power | Details |
+|---|---|
+| Acrobatic Steps | 1 _ki_ point |
+| _augury_ | 1 _ki_ point |
+| _barkskin_ | self only, 1 _ki_ point |
+| Deny Death\*, † | 0 _ki_ points |
+| _feather step_\*\* | self only, 1 _ki_ point |
+| _hydraulic push_\*\* | 1 _ki_ point |
+| _ki arrow\*_ | 1 _ki_ point |
+| _Ki_ Stand\*, † | 0 _ki_ points |
+| _message_ | 1 _ki_ point |
+| Power Attack | 1 _ki_ point |
+| Quick Draw | 1 _ki_ point |
+| _scorching ray_ | 2 _ki_ points |
+| slow fall | monk ability, 0 _ki_ points |
+| Throw Anything | 1 _ki_ point |
+| _true strike_ | self only, 1 _ki_ point |
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "6th-level-ki-powers"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 51-52): the list of this level as a Markdown table, the name and the parenthesis of each line as printed'
+text = '''
+| Ki power | Details |
+|---|---|
+| _cloak of winds_\*\* | self only, 2 _ki_ points |
+| _gaseous form_ | self only, 1 _ki_ point |
+| Heroic Recovery\*\*, † | 1 _ki_ point |
+| high jump | monk ability, 1 _ki_ point |
+| _hydraulic torrent_ \*\* | 2 _ki_ points |
+| _remove disease_ | 2 _ki_ points |
+| Sidestep \*\*, † | 1 _ki_ point |
+| Snatch Arrows† | 1 _ki_ point |
+| Spring Attack | 1 _ki_ point |
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "8th-level-ki-powers"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 51-52): the list of this level as a Markdown table, the name and the parenthesis of each line as printed'
+text = '''
+| Ki power | Details |
+|---|---|
+| _dragon's breath_\*\* | 2 _ki_ points |
+| Gliding Steps\*, † | 1 _ki_ point |
+| _neutralize poison_ | 3 _ki_ points |
+| _poison_ | 2 _ki_ points |
+| _restoration_ | self only, 2 _ki_ points |
+| _share memory_\* | 0 _ki_ points |
+| _silk to steel_\* | 1 _ki_ point |
+| Spider Step\*\* | 1 _ki_ point |
+| Whirlwind Attack | 2 _ki_ points |
+| wholeness of body | monk ability, level 7, 2 _ki_ points |
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "10th-level-ki-powers"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 51-52): the list of this level as a Markdown table, the name and the parenthesis of each line as printed'
+text = '''
+| Ki power | Details |
+|---|---|
+| _discordant blast_\*\* | 2 _ki_ points |
+| Greater Bull Rush | 2 _ki_ points |
+| Greater Disarm | 2 _ki_ points |
+| Greater Feint | 2 _ki_ points |
+| Greater Sunder | 2 _ki_ points |
+| Improved Blind-Fight\*\*, † | 1 _ki_ point |
+| _ki leech_\* | 0 _ki_ points |
+| Lunge | 1 _ki_ point |
+| _shadow step_\* | 1 _ki_ point |
+| _spit venom_\* | 2 _ki_ points |
+| Step Up and Strike\*\*, † | 2 _ki_ points |
+| Wind Stance | 2 _ki_ points |
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "12th-level-ki-powers"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 51-52): the list of this level as a Markdown table, the name and the parenthesis of each line as printed'
+text = '''
+| Ki power | Details |
+|---|---|
+| abundant step | monk ability, 2 _ki_ points |
+| _battlemind link\*_ | 4 _ki_ points |
+| diamond body | monk ability |
+| Elemental Fists\*\* | 2 _ki_ points |
+| Improvised Weapon Mastery | 2 _ki_ points |
+| _Ki_ Throw\*\* | 2 _ki_ points |
+| Punishing Kick\*\* | 2 _ki_ points |
+| _shadow walk_ | 3 _ki_ points |
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "14th-level-ki-powers"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 51-52): the list of this level as a Markdown table, the name and the parenthesis of each line as printed'
+text = '''
+| Ki power | Details |
+|---|---|
+| _blood crow strike_\* | 2 _ki_ points |
+| Cloud Step\*\* | 3 _ki_ points |
+| _cold ice strike\*_ | 3 _ki_ points |
+| diamond soul | monk ability |
+| Disarming Strike\*\* | 2 _ki_ points |
+| Improved _Ki_ Throw\*\* | 2 _ki_ points |
+| _ki shout_\* | 3 _ki_ points |
+| _sonic thrust_\* | 2 _ki_ points |
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "16th-level-ki-powers"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 51-52): the list of this level as a Markdown table, the name and the parenthesis of each line as printed'
+text = '''
+| Ki power | Details |
+|---|---|
+| Bleeding Critical | 3 _ki_ points |
+| Greater Blind-Fight\*\*, † | 2 _ki_ points |
+| Improved Vital Strike | 2 _ki_ points |
+| Lightning Stance | 3 _ki_ points |
+| Penetrating Strike | 2 _ki_ points |
+| quivering palm | monk ability, 2 _ki_ points |
+| _strangling hair\*_ | 3 _ki_ points |
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "18th-level-ki-powers"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 51-52): the list of this level as a Markdown table, the name and the parenthesis of each line as printed'
+text = '''
+| Ki power | Details |
+|---|---|
+| timeless body | monk ability, 0 _ki_ points |
+| tongue of the sun and moon | monk ability, 0 _ki_ points |
+'''
+
+[[edit]]
+entry = "ref/arc-monk/qinggong-monk"
+anchor = "20th-level-ki-powers"
+note = 'hand-written from print (ruling 18, Ultimate Magic pp. 51-52): the list of this level as a Markdown table, the name and the parenthesis of each line as printed'
+text = '''
+| Ki power | Details |
+|---|---|
+| Blinding Critical | 3 _ki_ points |
+| Crippling Critical\*\* | 3 _ki_ points |
+| Deafening Critical | 3 _ki_ points |
+| empty body | monk ability, 3 _ki_ points |
+| Greater Penetrating Strike | 3 _ki_ points |
+| perfect self | monk ability, level 20 |
+| Tiring Critical | 3 _ki_ points |
+'''

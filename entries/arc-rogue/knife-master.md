@@ -16,10 +16,15 @@ page = "72"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hidden-blade", level = 1 },
+  { anchor = "sneak-stab" },
+  { anchor = "blade-sense", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { alters = "Sneak attack", feature = "sneak-attack" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["hidden-blade"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["blade-sense"] },
+  { alters = "Sneak attack", feature = "sneak-attack", by = ["sneak-stab"] },
 ]
 +++
 
@@ -27,42 +32,34 @@ The knife master is a trained killer who specializes in close-up combat and the 
 knife fighting. In her hands, daggers and other similar light blades become truly deadly
 instruments..
 
-**Hidden Blade**
+## Hidden Blade {#hidden-blade}
 
-**Passive:** A knife master adds 1/2 her level on Sleight of Hand checks made to conceal a light
-blade.
+A knife master adds 1/2 her level on Sleight of Hand checks made to conceal a light blade. This
+ability replaces trapfinding.
 
-**Replaces:** Trapfinding
+## Sneak Stab (Ex) {#sneak-stab}
 
-**Sneak Stab (Ex)**
-
-**Ability:** When she makes a sneak attack with a [dagger](ref/eq-weapon/dagger),
+A knife master focuses her ability to deal sneak attack damage with daggers and similar weapons to
+such a degree that she can deal more sneak attack damage with those weapons at the expense of sneak
+attacks with other weapons. When she makes a sneak attack with a [dagger](ref/eq-weapon/dagger),
 [kerambit](ref/eq-weapon/kerambit), [kukri](ref/eq-weapon/kukri),
 [punching daggers](ref/eq-weapon/punching-dagger), [starknife](ref/eq-weapon/starknife), or
 [swordbreaker dagger](ref/eq-weapon/swordbreaker-dagger), she uses d8s to roll sneak attack damage
-instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s.
+instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s. This ability
+is identical in all other ways to sneak attack, and supplements that ability.
 
-**Alters:** Sneak attack
+## Blade Sense (Ex) {#blade-sense}
 
-**Info:** A knife master focuses her ability to deal sneak attack damage with daggers and similar
-weapons to such a degree that she can deal more sneak attack damage with those weapons at the
-expense of sneak attacks with other weapons.
+At 3rd level, a knife master is so skilled in combat involving light blades that she gains a +1
+dodge bonus to AC against attacks made against her with light blades. This bonus increases by +1 for
+every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense.
 
-**Special:** This ability is identical in all other ways to sneak attack, and supplements that
-ability.
+## Rogue Talents {#rogue-talents}
 
-**Blade Sense (Ex)**
+The following rogue talents complement the knife master archetype: befuddling strike, combat trick,
+offensive defense, surprise attack, underhanded, and weapon training.
 
-**Gained:** At 3rd Level
+## Advanced Talents {#advanced-talents}
 
-**Passive:** A knife master is so skilled in combat involving light blades that she gains a dodge
-bonus to AC against attacks made against her with light blades. This bonus is equal to one-third of
-her rogue level.
-
-**Replaces:** Trap sense
-
-**These rogue talents complement this archetype:** Befuddling strike, combat trick, offensive
-defense, surprise attack, underhanded, weapon training
-
-**These advanced rogue talents complement this archetype:** Another day, confounding blades, deadly
-sneak, entanglement of blades, unwitting ally
+The following advanced rogue talents complement the knife master archetype: another day, confounding
+blades, deadly sneak, entanglement of blades, and unwitting ally.
