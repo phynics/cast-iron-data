@@ -16,9 +16,14 @@ page = "89"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "scroll-blade" },
+  { anchor = "scroll-shield" },
+  { anchor = "improved-scroll-casting", level = 10 },
+]
 trades = [
-  { replaces = "Arcane bond", feature = "arcane-bond" },
-  { replaces = "10th-level bonus feat", feature = "bonus-feats", levels = [10] },
+  { replaces = "Arcane bond", feature = "arcane-bond", by = ["scroll-blade"] },
+  { replaces = "10th-level bonus feat", feature = "bonus-feats", levels = [10], by = ["improved-scroll-casting"] },
 ]
 +++
 
@@ -26,27 +31,7 @@ To some wizards, a scroll is not just a written form of a spell, it is a physica
 used in combat like a sword or a shield. These strange wizards enter battle armed with scrolls,
 often one in each in each hand, practicing combat techniques resembling some monk martial arts.
 
-**Scroll Blade (Su)**
-
-**Action:** Ability
-
-**At 3rd Level:** When using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster
-can choose to reduce its enhancement bonus by 1 (minimum +1 enhancement bonus) to treat it as a
-[reach](ref/misc/reach) weapon. For example, he could use a scroll of
-[charm monster](ref/spell/charm-monster) (a 4th-level wizard spell) as either a +2 short sword or a
-+1 short sword with reach.
-
-**At 5th Level:** when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster
-can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give any of
-the following weapon properties: [defending](ref/magic-enh/defending), [frost](ref/magic-enh/frost),
-[icy burst](ref/magic-enh/icy-burst), [keen](ref/magic-enh/keen),
-[ki focus](ref/magic-enh/ki-focus), [shock](ref/magic-enh/shock),
-[shocking burst](ref/magic-enh/shocking-burst), [speed](ref/magic-enh/speed). Adding any of these
-properties consumes an amount of enhancement bonus equal to the property's cost. The scrollmaster
-must know the prerequisite spell or spells to craft the weapon property in question (for example, he
-must know [haste](ref/spell/haste) to be able to give his scroll blade the speed property).
-
-**Replaces:** Arcane bond
+## Scroll Blade (Su) {#scroll-blade}
 
 A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a melee weapon. In the
 hands of the wizard, the scroll acts as a [short sword](ref/eq-weapon/short-sword) with an
@@ -56,30 +41,34 @@ short sword. The scrollmaster is proficient in this weapon, and feats and abilit
 short swords (such as [Weapon Focus](ref/feat/weapon-focus)) apply to this weapon. A scrollmaster
 cannot wield two scrollblades at the same time.
 
-Activating this ability is a **free action**. A scroll blade only retains its abilities in the hands
-of the scrollmaster. The scroll blade has [hardness](ref/umr/hardness) 0 and hit points equal to the
+Activating this ability is a free action. A scroll blade only retains its abilities in the hands of
+the scrollmaster. The scroll blade has [hardness](ref/umr/hardness) 0 and hit points equal to the
 highest-level wizard spell on the scroll. Each successful hit by the scroll blade reduces its hit
 points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its
-hit points reach 0, the scroll is destroyed.
+hit points [reach](ref/misc/reach) 0, the scroll is destroyed.
 
 If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of
-the spell (a scroll of [empowered](ref/feat/empower-spell) [fireball](ref/spell/fireball) counts as
-a 3rd-level spell).
+the spell (a _scroll of [empowered](ref/feat/empower-spell) [fireball](ref/spell/fireball)_ counts
+as a 3rd-level spell).
 
-**Scroll Shield (Su)**
+At 3rd level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can
+choose to reduce its enhancement bonus by 1 (minimum +1 enhancement bonus) to treat it as a reach
+weapon. For example, he could use a _scroll of [charm monster](ref/spell/charm-monster)_ (a
+4th-level wizard spell) as either a _+2 short sword_ or a _+1 short sword_ with reach.
 
-**Action:** Ability
+At 5th level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can
+choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give any of the
+following weapon properties: _[defending](ref/magic-enh/defending)_, _[frost](ref/magic-enh/frost)_,
+_[icy burst](ref/magic-enh/icy-burst)_, _[keen](ref/magic-enh/keen)_,
+_[ki focus](ref/magic-enh/ki-focus)_, _[shock](ref/magic-enh/shock)_,
+_[shocking burst](ref/magic-enh/shocking-burst)_, _[speed](ref/magic-enh/speed)_. Adding any of
+these properties consumes an amount of enhancement bonus equal to the property's cost (see Table
+15–9: Melee Weapon Special Abilities in the _Core Rulebook_). The scrollmaster must know the
+prerequisite spell or spells to craft the weapon property in question (for example, he must know
+_[haste](ref/spell/haste)_ to be able to give his scroll blade the _speed_ property). This ability
+replaces the wizard's arcane bond.
 
-**At 5th Level:** When using a 3rd-level or higher wizard scroll as a scroll shield, the
-scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to
-give it any of the following shield properties: [ghost touch](ref/magic-enh/ghost-touch-armor),
-[light fortification](ref/magic-enh/fortification-light),
-[moderate fortification](ref/magic-enh/fortification-moderate). Adding any of these properties
-consumes an amount of bonus equal to the property's cost (see
-[Table 15-5: Shield Special Abilities](ref/rule/magic-armor)). The scrollmaster must know the
-prerequisite spell or spells to craft the shield property in question (for example, he must know
-[limited wish](ref/spell/limited-wish) to be able to give his scroll shield the fortification
-property).
+## Scroll Shield (Su) {#scroll-shield}
 
 A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a
 [light wooden shield](ref/eq-armor/light-wooden-shield). In the hands of the wizard, the scroll
@@ -90,24 +79,29 @@ arcane spell failure chance, or maximum Dexterity bonus. The scrollmaster is con
 in this shield. A scrollmaster can use a scrollblade in one hand and a scroll shield in the other
 hand.
 
-Activating this ability is a **free action**. A scroll shield only retains its abilities in the
-hands of the scrollmaster. The scroll shield has [hardness](ref/umr/hardness) 0 and hit points equal
-to the highest-level wizard spell on the scroll. Each successful attack roll against the wizard
-reduces the scroll shield's hit points by 1; this damage cannot be repaired, but does not affect
-casting from the scroll. When its hit points reach 0, the scroll is destroyed.
+Activating this ability is a free action. A scroll shield only retains its abilities in the hands of
+the scrollmaster. The scroll shield has [hardness](ref/umr/hardness) 0 and hit points equal to the
+highest-level wizard spell on the scroll. Each successful attack roll against the wizard reduces the
+scroll shield's hit points by 1; this damage cannot be repaired, but does not affect casting from
+the scroll. When its hit points reach 0, the scroll is destroyed.
+
+At 5th level, when using a 3rd-level or higher wizard scroll as a scroll shield, the scrollmaster
+can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give it any
+of the following shield properties: _[ghost touch](ref/magic-enh/ghost-touch-armor)_,
+_[light fortification](ref/magic-enh/fortification-light)_,
+_[moderate fortification](ref/magic-enh/fortification-moderate)_. Adding any of these properties
+consumes an amount of bonus equal to the property's cost (see Table 15–5: Shield Special Abilities
+in the _Core Rulebook_). The scrollmaster must know the prerequisite spell or spells to craft the
+shield property in question (for example, he must know _[limited wish](ref/spell/limited-wish)_ to
+be able to give his scroll shield the _fortification_ property).
 
 If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of
-the spell (a scroll of _empowered fireball_ counts as a 3rd-level spell).
+the spell (a _scroll of empowered fireball_ counts as a 3rd-level spell).
 
-**Improved Scroll Casting (Su)**
+## Improved Scroll Casting (Su) {#improved-scroll-casting}
 
-**Ability:** The scrollmaster can cast a wizard spell from a scroll and use his own Intelligence
+At 10th level, the scrollmaster can cast a wizard spell from a scroll and use his own Intelligence
 score and relevant feats to set the DC for the spell, and can use his own caster level if it is
-higher than that of the scroll (similar to a caster using a [staff](ref/rule/staves)).
-
-**Gained:** At 10th Level
-
-**Replaces:** 10th-level bonus feat
-
-**Special:** The scrollmaster must have already deciphered the writing on the scroll to use this
-ability.
+higher than that of the scroll (similar to a caster using a [staff](ref/rule/staves)). The
+scrollmaster must have already deciphered the writing on the scroll to use this ability. This
+ability replaces the 10th-level wizard bonus feat.

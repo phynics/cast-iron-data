@@ -16,52 +16,59 @@ page = "59"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "bonus-feat", level = 1 },
-  { anchor = "fuse-style", level = 1 },
-  { anchor = "perfect-style", level = 20 },
-]
 trades = [
-  { replaces = "Standard bonus feats", feature = "bonus-feat", by = ["bonus-feat"] },
-  { replaces = "Flurry of blows", feature = "flurry-of-blows", by = ["fuse-style"] },
-  { replaces = "Perfect self", feature = "perfect-self", by = ["perfect-style"] },
+  { replaces = "Standard bonus feats", feature = "bonus-feat" },
+  { replaces = "Flurry of blows", feature = "flurry-of-blows" },
+  { replaces = "Perfect self", feature = "perfect-self" },
 ]
 +++
 
 The master of many styles is a collector. For every move, he seeks a counter. For every style, he
 has a riposte. Ultimately, he seeks perfection through the fusion of styles.
 
-## Bonus Feat {#bonus-feat}
+**Bonus Feat**
 
-At 1st level, 2nd level, and every four levels thereafter, a master of many styles may select a
-bonus style feat or the [Elemental Fist](ref/feat/elemental-fist) feat. He does not need to meet the
-prerequisites of that feat, except the Elemental Fist feat. Starting at 6th level, a master of many
-styles can choose to instead gain a wildcard style slot. Whenever he enters one or more styles, he
-can spend his wildcard style slots to gain feats in those styles' feat paths (such as
+**At 1st Level:** A master of many styles may select a bonus style feat or the
+[Elemental Fist](ref/feat/elemental-fist) feat. He does not need to meet the prerequisites of that
+feat, except the Elemental Fist feat.
+
+**At 2nd Level:** He may select another such feat.
+
+**At 6th Level:** A master of many styles can choose to instead another such feat, or gain a
+_wildcard style slot._ Whenever he enters one or more styles, he can spend his _wildcard style
+slots_ to gain feats in those styles' feat paths (such as
 [Earth Child Topple](ref/feat/earth-child-topple)) as long as he meets the prerequisites. Each time
-he changes styles, he can also change these wildcard style slots. This ability replaces a monk's
-standard bonus feats.
+he changes styles, he can also change these _wildcard style slots._
 
-## Fuse Style (Ex) {#fuse-style}
+**Repeat:** He gains another feat or _slot,_ as above., 10, 4
 
-At 1st level, a master of many styles can fuse two of the styles he knows into a more perfect style.
-The master of many styles can have two style feat stances active at once. Starting a stance provided
-by a style feat is still a swift action, but when the master of many styles switches to another
-style feat, he can choose one style whose stance is already active to persist. He may only have two
-style feat stances active at a time.
+**Replaces:** Standard bonus feats
 
-At 8th level, the master of many styles can fuse three styles at once. He can have the stances of
+**Fuse Style (Ex)**
+
+**Flavor:** A master of many styles can fuse two of the styles he knows into a more perfect style.
+
+**At 1st Level:** The master of many styles can have two style feat stances active at once. Starting
+a stance provided by a style feat is still a **swift action**, but when the master of many styles
+switches to another style feat, he can choose one style whose stance is already active to persist.
+He may only have two style feat stances active at a time.
+
+**At 15th Level:** The master of many styles can fuse four styles at once, having the stances of
+four style feats active at the same time. Furthermore, he can enter up to four stances as a **free
+action** by spending 1 point from his _ki pool._
+
+**At 8th Level:** The master of many styles can fuse three styles at once, having the stances of
 three style feats active at the same time. He gains a bonus on attack rolls equal to the number of
 styles whose stances he currently has active. Furthermore, he can enter up to three stances as a
-swift action.
+**swift action**.
 
-At 15th level, the master of many styles can fuse four styles at once. He can have the stances of
-four style feats active at the same time. Furthermore, he can enter up to four stances as a free
-action by spending 1 point from his ki pool.
+**Replaces:** Flurry of blows
 
-This ability replaces flurry of blows.
+**Perfect Style (Ex)**
 
-## Perfect Style (Ex) {#perfect-style}
+**Ability:** A master of many styles can have the stances of five style feats active at once, and
+can change those stances as a **free action**.
 
-At 20th level, a master of many styles can have the stances of five style feats active at once, and
-can change those stances as a free action. This ability replaces perfect self.
+**Gained:** At 20th Level
+
+**Replaces:** Perfect self
