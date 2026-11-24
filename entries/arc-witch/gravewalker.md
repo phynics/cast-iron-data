@@ -16,12 +16,20 @@ page = "84"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spells" },
+  { anchor = "spell-poppet" },
+  { anchor = "deliver-touch-spells", level = 3 },
+  { anchor = "aura-of-desecration", level = 1 },
+  { anchor = "bonethrall", level = 1 },
+  { anchor = "possess-undead", level = 8 },
+]
 trades = [
-  { replaces = "Familiar", feature = "witch-s-familiar" },
-  { replaces = "1st-level hex", feature = "hex", levels = [1] },
-  { replaces = "4th-level hex", feature = "hex", levels = [4] },
-  { replaces = "8th-level hex", feature = "hex", levels = [8] },
-  { alters = "Patron spells", feature = "patron-spells" },
+  { replaces = "Familiar", feature = "witch-s-familiar", by = ["spell-poppet"] },
+  { replaces = "1st-level hex", feature = "hex", levels = [1], by = ["aura-of-desecration"] },
+  { replaces = "4th-level hex", feature = "hex", levels = [4], by = ["bonethrall"] },
+  { replaces = "8th-level hex", feature = "hex", levels = [8], by = ["possess-undead"] },
+  { alters = "Patron spells", feature = "patron-spells", by = ["spells"] },
 ]
 +++
 
@@ -30,97 +38,63 @@ of the dead, particularly mindless undead such as zombies. Unlike the creations 
 necromancers, a gravewalker's creations remain forever tied to her will, and she can produce vile
 apparitions of tremendous power.
 
-**Spells**
+## Spells {#spells}
 
-**Alters:** Patron spells
+A gravewalker replaces some of her patron spells with the following: 4th—_command undead_,
+6th—_animate dead_, 12th—_create undead_, 14th—_control undead_, 16th— _create greater undead_.
+These replace the patron spells
 
-**Info:** A gravewalker replaces some of her patron spells at the following witch levels.
+## Spell Poppet {#spell-poppet}
 
-**Spells:** Create undead
+Each gravewalker carries around a gristly, inanimate poppet stitched from human skin and stuffed
+with shards of bone, fingernails, and grave dirt. A gravewalker's spells come from the will of evil
+spirits residing in the poppet, and its ability to hold spells functions in a manner identical to
+the way a witch's spells are granted by her familiar. The gravewalker must commune with her poppet
+each day to prepare her spells and cannot prepare spells that are not stored in the poppet. This
+ability replaces familiar. The following familiar ability works differently for a gravewalker:
 
-**Spells:** Control undead
+## Deliver Touch Spells (Su) {#deliver-touch-spells}
 
-**Spells:** Create greater undead
+At 3rd level or higher, a gravewalker can use her poppet to deliver touch spells. After casting a
+touch spell, as a full-round action, the witch can designate a target and stab a pin into her
+poppet, delivering the spell as a ranged touch attack. The target must be within range of her aura
+of desecration ability (see below).
 
-**Spells:** Command undead
+## Aura of Desecration (Su) {#aura-of-desecration}
 
-**Spells:** Animate dead
+At 1st level, a gravewalker can create a 20-foot-radius aura of evil power. This aura increases the
+DC of channeled negative energy by +1 and the turn resistance of undead by +1. At 3rd level and
+every 2 levels thereafter, the radius of the aura increases by 5 feet, to a maximum of 70 feet at
+20th level. This ability replaces the witch's 1st-level hex.
 
-**Spell Poppet**
+## Bonethrall (Su) {#bonethrall}
 
-**Ability:** Each gravewalker carries around a gristly, inanimate poppet stitched from human skin
-and stuffed with shards of bone, fingernails, and grave dirt. A gravewalker's spells come from the
-will of evil spirits residing in the poppet, and its ability to hold spells functions in a manner
-identical to the way a witch's spells are granted by her familiar. The gravewalker must commune with
-her poppet each day to prepare her spells and cannot prepare spells that are not stored in the
-poppet.
+At 1st level, a gravewalker can take control of an undead creature within her aura of desecration by
+forcing her will upon it (Will negates, using her hex DC). If it fails the save, the creature falls
+under her control as if she had used _[command undead](ref/spell/command-undead)_ (once control is
+established, the undead remain controlled even if outside the witch's aura). Intelligent undead
+receive a new saving throw each day to resist her command. The witch can control up to 1 HD of
+undead creatures per caster level. If an undead creature is under the control of another creature,
+the witch must make an opposed Charisma check whenever her orders conflict with that creature's.
+This replaces the witch's hex gained at 4th level.
 
-**Replaces:** Familiar
+## Possess Undead (Sp) {#possess-undead}
 
-**Special:** The following familiar ability works differently for a gravewalker.
+A gravewalker may take direct control of one of her undead minions within her aura of desecration,
+as if using _[magic jar](ref/spell/magic-jar)_; the witch's poppet acts as the soul receptacle for
+this ability. The minion gets no saving throw against this ability. This replaces the witch's hex
+gained at 8th level.
 
-**Deliver Touch Spells (Su)**
+## Hexes {#hexes}
 
-**Ability:** A gravewalker can use her poppet to deliver touch spells. After casting a touch spell,
-as a **full-round action**, the witch can designate a target and stab a pin into her poppet,
-delivering the spell as a ranged touch attack. The target must be within range of her _aura of
-desecration_ ability (see below).
+The following witch hexes complement the gravewalker archetype: beast of ill-omen, evil eye,
+misfortune.
 
-**Gained:** At 3rd Level
+## Major Hexes {#major-hexes}
 
-**Aura of Desecration (Su)**
+The following major hexes complement the gravewalker archetype: ice tomb, infected wounds, waxen
+image.
 
-**At 20th Level:** The radius of the aura increases to 70 feet.
+## Grand Hexes {#grand-hexes}
 
-**At 1st Level:** A gravewalker can create a 20-foot-radius aura of evil power. This aura increases
-the DC of channeled negative energy by +1 and the turn resistance of undead by +1.
-
-**Replaces:** 1st-level hex
-
-At 3rd level: The radius of the aura increases to 25 feet.
-
-At 5th level: The radius of the aura increases to 30 feet.
-
-At 7th level: The radius of the aura increases to 35 feet.
-
-At 9th level: The radius of the aura increases to 40 feet.
-
-At 11th level: The radius of the aura increases to 45 feet.
-
-At 13th level: The radius of the aura increases to 50 feet.
-
-At 15th level: The radius of the aura increases to 55 feet.
-
-At 17th level: The radius of the aura increases to 60 feet.
-
-At 19th level: The radius of the aura increases to 65 feet.
-
-**Bonethrall (Su)**
-
-**Ability:** A gravewalker can take control of an undead creature within her _aura of desecration_
-by forcing her will upon it (Will negates, using her hex DC). If it fails the save, the creature
-falls under her control as if she had used _[command undead](ref/spell/command-undead)_ (once
-control is established, the undead remain controlled even if outside the witch's _aura_).
-Intelligent undead receive a new saving throw each day to resist her command.
-
-**Gained:** At 1st Level
-
-**Replaces:** 4th-level hex
-
-**Special:** The witch can control up to 1 HD of undead creatures per caster level. If an undead
-creature is under the control of another creature, the witch must make an opposed Charisma check
-whenever her orders conflict with that creature's.
-
-**Possess Undead (Sp)**
-
-**At 8th Level:** A gravewalker may take direct control of one of her undead minions within her
-_aura of desecration,_ as if using [magic jar](ref/spell/magic-jar); the witch's poppet acts as the
-soul receptacle for this ability. The minion gets no saving throw against this ability.
-
-**Replaces:** 8th-level hex
-
-**The following witch hexes complement this archetype:** Beast of ill-omen, evil eye, misfortune
-
-**The following major hexes complement this archetype:** Ice tomb, infected wounds, waxen image
-
-**The following grand hexes complement this archetype:** Death curse, summon spirit
+The following grand hexes complement the gravewalker archetype: death curse, summon spirit.
