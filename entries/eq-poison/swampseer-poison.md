@@ -2,10 +2,13 @@
 id = "ref/eq-poison/swampseer-poison"
 kind = "item"
 title = "Swampseer poison"
-source_ids = ["pathfinder-34-blood-for-blood"]
+source_ids = ["ultimate-equipment", "pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swampseer_poison", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "111"
 [[sources]]
 publication = "pathfinder-34-blood-for-blood"
 page = "63"

@@ -1410,6 +1410,10 @@ title = "Oxen (Herd Animal)"
 entry = "ref/monster/herd-animal-oxen"
 
 [[books.chapters.children.children]]
+title = "Yak (Herd Animal)"
+entry = "ref/monster/yak"
+
+[[books.chapters.children.children]]
 title = "Aurochs"
 entry = "ref/companion/aurochs"
 

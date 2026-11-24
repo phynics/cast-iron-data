@@ -5,7 +5,7 @@
         [--verdicts scripts/membership-verdicts-461-s11.tsv] [--check]
 
 The verdict file has one row per (book, entry): `verdict` is `keep` (the book prints the entry;
-the row's page is `print_page`), `page` (an entry outside the queue: only the page changes), `cite` (the same, and the entry has no page yet), or `remove`
+the row's page is `print_page`), `page` (an entry outside the queue: only the page changes), `cite` (the same, and the entry has no page yet; a row with `replaces` set to the verdict a decided row has now takes the new verdict: owner ruling of 2026-11-24 on the Adventurer's Armory outfits), or `remove`
 (the book does not print the entry). The script, for each row
 
   * writes `verdict`, `print_page`, `evidence` and slice `done` into the queue
@@ -93,7 +93,7 @@ def main() -> int:
             raise SystemExit(f"refused: {v['entry']} in {v['book']}: unknown verdict {v['verdict']!r}")
         d = header(a.corpus, v["entry"])
         row = next((s for s in d.get("sources", []) if s["publication"] == v["book"]), None)
-        if q["verdict"] and q["verdict"] != v["verdict"]:
+        if q["verdict"] and q["verdict"] != v["verdict"] and q["verdict"] != v.get("replaces"):
             raise SystemExit(f"refused: {v['entry']} in {v['book']} has the verdict {q['verdict']} already")
         if not q["verdict"] or q["print_page"] != v["print_page"] or q["evidence"] != v["evidence"] \
                 or (v.get("group") and q["group"] != v["group"]) or (v.get("proposed_primary") and (q["proposed_primary"] != v["proposed_primary"] or q["gate"] != "primary")):

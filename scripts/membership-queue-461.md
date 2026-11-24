@@ -119,11 +119,9 @@ and `expansion-credits-461-s11.tsv` (the `page` actions that `expansion-credits-
 row without a page gets its page). Verdict `page` is for an entry outside the queue. New evidence codes:
 `page-corrected` (the book prints the entry on another page than the row said; `print_page` is the
 printed page: the page of the item's description, or of the table when the book has no description),
-`page-confirmed` (the cited page prints the entry), `home-book-kept` (the first book of a hub stays,
-owner ruling 3 of 2026-11-24, home books are post-v1 in phynics/cast-iron-data#277), and
-`whole-book-absent-new-primary-unverified-no-pdf` (a first-book removal whose new first book is not
-among the owner's PDFs: `proposed_status` `unverified-no-pdf`, `print_page` the corpus's page for it,
-or `none`). `faith-unique-spell-rules-461-s11.py` removes the copied spell rule from two faith pages.
+`page-confirmed` (the cited page prints the entry), `home-book-kept` (the first book of a hub stays, owner ruling 3 of 2026-11-24, home books are post-v1 in phynics/cast-iron-data#277). Three first-book
+removals whose new first book is not among the owner's PDFs (Conditional Curse, Swampseer Poison, Yak) stay undecided with the evidence note `waits for S12`
+(owner ruling of 2026-11-24). `faith-unique-spell-rules-461-s11.py` removes the copied spell rule from two faith pages.
 
 ## Slices
 

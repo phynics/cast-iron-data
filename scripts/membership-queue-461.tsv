@@ -346,27 +346,27 @@ adventurers-armory	ref/eq-armor/stoneplate	item	Stoneplate	3	4	review	absent	19	
 adventurers-armory	ref/eq-misc/artisans-outfit	item	Artisan's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/burglars-outfit	item	Burglar's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/cold-weather-outfit	item	Cold-weather outfit	4	4	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
-adventurers-armory	ref/eq-misc/courtesans-outfit	item	Courtesan's outfit	3	3	review	absent	19	row	0								keep	14	section-printed	single-entry	done			yes		no	
+adventurers-armory	ref/eq-misc/courtesans-outfit	item	Courtesan's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/courtiers-outfit	item	Courtier's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/executioners-outfit	item	Executioner's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/explorers-outfit	item	Explorer's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/miners-lantern	item	Miner's lantern	2	2	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
-adventurers-armory	ref/eq-misc/peasants-outfit	item	Peasant's outfit	3	3	review	absent	19	row	0								keep	14	section-printed	single-entry	done			yes		no	
+adventurers-armory	ref/eq-misc/peasants-outfit	item	Peasant's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/royal-outfit	item	Royal outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
-adventurers-armory	ref/eq-misc/scholars-outfit	item	Scholar's outfit	3	3	review	absent	19	row	0								keep	14	section-printed	single-entry	done			yes		no	
-adventurers-armory	ref/eq-misc/squires-outfit	item	Squire's outfit	3	3	review	absent	19	row	0								keep	14	section-printed	single-entry	done			yes		no	
+adventurers-armory	ref/eq-misc/scholars-outfit	item	Scholar's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
+adventurers-armory	ref/eq-misc/squires-outfit	item	Squire's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/tear-away-artisans-outfit	item	Tear-away artisan's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/tear-away-burglars-outfit	item	Tear-away burglar's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/tear-away-cold-weather-outfit	item	Tear-away cold-weather outfit	4	4	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
-adventurers-armory	ref/eq-misc/tear-away-courtesans-outfit	item	Tear-away courtesan's outfit	3	3	review	absent	19	row	0								keep	14	section-printed	single-entry	done			yes		no	
+adventurers-armory	ref/eq-misc/tear-away-courtesans-outfit	item	Tear-away courtesan's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/tear-away-courtiers-outfit	item	Tear-away courtier's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/tear-away-executioners-outfit	item	Tear-away executioner's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/tear-away-explorers-outfit	item	Tear-away explorer's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
-adventurers-armory	ref/eq-misc/tear-away-peasants-outfit	item	Tear-away peasant's outfit	3	3	review	absent	19	row	0								keep	14	section-printed	single-entry	done			yes		no	
-adventurers-armory	ref/eq-misc/tear-away-pickpockets-outfit	item	Tear-away pickpocket's outfit	2	2	review	absent	19	row	0								keep	14	section-printed	single-entry	done			yes		no	
+adventurers-armory	ref/eq-misc/tear-away-peasants-outfit	item	Tear-away peasant's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
+adventurers-armory	ref/eq-misc/tear-away-pickpockets-outfit	item	Tear-away pickpocket's outfit	2	2	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/tear-away-royal-outfit	item	Tear-away royal outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
-adventurers-armory	ref/eq-misc/tear-away-scholars-outfit	item	Tear-away scholar's outfit	3	3	review	absent	19	row	0								keep	14	section-printed	single-entry	done			yes		no	
-adventurers-armory	ref/eq-misc/tear-away-squires-outfit	item	Tear-away squire's outfit	3	3	review	absent	19	row	0								keep	14	section-printed	single-entry	done			yes		no	
+adventurers-armory	ref/eq-misc/tear-away-scholars-outfit	item	Tear-away scholar's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
+adventurers-armory	ref/eq-misc/tear-away-squires-outfit	item	Tear-away squire's outfit	3	3	review	absent	19	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 adventurers-armory	ref/eq-weapon/falcata	item	Falcata	3	4	review	absent	33	row	0								keep	33	title-printed	single-entry	done			yes		no	
 adventurers-armory	ref/eq-weapon/khopesh	item	Khopesh	3	4	review	absent	33	row	0								keep	33	title-printed	single-entry	done			yes		no	
 adventurers-armory	ref/eq-weapon/ogre-hook	item	Ogre hook	5	5	review	absent	0	row	0								keep	33	title-printed	single-entry	done			yes		no	
@@ -586,7 +586,7 @@ bestiary	ref/affliction/zombie/zombie-curse-su	affliction	Zombie Curse (Su)	1	3	
 bestiary	ref/rule/umr-trample/trample	rule	Trample	2	2	family-leak	printed		none	12	14,33,83,86,128	parent	ref/umr/trample(body)	yes				cite	305	section-printed	link-only-hub	done			yes			
 bestiary	ref/umr/trample	rule	Trample and Stampede	2	2	family-leak	body		none	4	68,184,285,305	child	ref/rule/umr-trample/trample(title)					cite	174, 305	section-printed	link-only-hub	done			yes			
 bestiary	ref/monster/moldering-emperor	creature	The Moldering Emperor	2	2	review	body	214	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
-bestiary	ref/monster/yak	creature	Yak (Herd Animal)	1	3	review	absent	174	row	0					primary	pathfinder-51-the-hungry-storm	unverified-no-pdf	remove	none	whole-book-absent-new-primary-unverified-no-pdf	single-entry	done			yes		no	page
+bestiary	ref/monster/yak	creature	Yak (Herd Animal)	1	3	review	absent	174	row	0					primary	pathfinder-51-the-hungry-storm	unscreened			waits for S12	single-entry	S11			yes		no	page
 bestiary	ref/monster/mummy	creature	Mummy	1	2	cite-off	off-page	110	row	8	4,210,300,317,318							keep	210	page-corrected	single-entry	done			yes		no	
 bestiary-2	ref/affliction/xacarba/fiendish-bile	affliction	Fiendish Bile	1	2	family-leak	printed	288	row	0		parent	ref/monster/xacarba(title)	yes				keep	288	title-on-cited-page	single-entry	S0			yes		yes	
 bestiary-2	ref/affliction/xacarba/vile-disjunction	affliction	Vile Disjunction	1	2	family-leak	printed	288	row	0		parent	ref/monster/xacarba(title)	yes				keep	288	title-on-cited-page	single-entry	S0			yes		yes	
@@ -902,7 +902,7 @@ core-rulebook	ref/spell/astral-projection-lesser	spell	Lesser Astral Projection	
 core-rulebook	ref/spell/brightest-light	spell	Brightest Light	1	3	family-leak	absent		none	0		variant	ref/spell/daylight(title)		primary	adventurers-guide	printed	remove	115	whole-book-absent-new-primary-printed	single-entry	done			yes			
 core-rulebook	ref/spell/burning-entanglement	spell	Burning Entanglement	1	4	family-leak	absent		none	0		variant	ref/spell/entangle(title)		primary	villain-codex	printed	remove	140	whole-book-absent-new-primary-printed	single-entry	done			yes			
 core-rulebook	ref/spell/charm-fey	spell	Charm Fey	1	3	family-leak	absent		none	0		variant	ref/spell/charm-person(title)		primary	the-first-world-realm-of-the-fey	printed	remove	12	whole-book-absent-new-primary-printed	single-entry	done			yes			
-core-rulebook	ref/spell/conditional-curse	spell	Conditional Curse	1	4	family-leak	absent		none	0		variant	ref/spell/bestow-curse(title)		primary	pathfinder-82-secrets-of-the-sphinx	unverified-no-pdf	remove	75	whole-book-absent-new-primary-unverified-no-pdf	single-entry	done			yes			
+core-rulebook	ref/spell/conditional-curse	spell	Conditional Curse	1	4	family-leak	absent		none	0		variant	ref/spell/bestow-curse(title)		primary	pathfinder-82-secrets-of-the-sphinx	unscreened			waits for S12	single-entry	S11			yes			
 core-rulebook	ref/spell/contagion-greater	spell	Greater Contagion	1	2	family-leak	absent		none	0		variant	ref/spell/contagion(title)		primary	ultimate-magic	body	remove	211	whole-book-absent-new-primary-printed	single-entry	done			yes			
 core-rulebook	ref/spell/contagious-suggestion	spell	Contagious Suggestion	1	3	family-leak	absent		none	0		variant	ref/spell/suggestion(title)		primary	blood-of-the-beast	printed	remove	14	whole-book-absent-new-primary-printed	single-entry	done			yes			
 core-rulebook	ref/spell/controlled-fireball	spell	Controlled Fireball	1	2	family-leak	absent		none	0		variant	ref/spell/fireball(title)		primary	ultimate-intrigue	printed	remove	208	whole-book-absent-new-primary-printed	single-entry	done			yes			
@@ -2062,7 +2062,7 @@ pathfinder-34-blood-for-blood	ref/magic-wondrous/figurine-of-wondrous-power-slat
 pathfinder-34-blood-for-blood	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	4	15	review	no-pdf	67	row	0								keep	67	unverified-no-pdf	figurine	done			no			
 pathfinder-51-the-hungry-storm	ref/rule/caravan-events-cr-1-2-to-3	rule	Caravan Events CR 1/2 to 3	2	4	hub-keep	no-pdf		none	0											no-pdf	S12		yes	no	yes		
 pathfinder-51-the-hungry-storm	ref/monster/herd-animal-oxen	creature	Oxen (Herd Animal)	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
-pathfinder-51-the-hungry-storm	ref/monster/yak	creature	Yak (Herd Animal)	1	3	uncited	no-pdf		none	0								keep	none	unverified-no-pdf	no-pdf	done			no			
+pathfinder-51-the-hungry-storm	ref/monster/yak	creature	Yak (Herd Animal)	2	3	uncited	no-pdf		none	0										waits for S12	no-pdf	S12		yes	no			
 pathfinder-51-the-hungry-storm	ref/rule/caravan-events-cr-4-to-6	rule	Caravan Events CR 4 to 6	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no	yes		
 pathfinder-53-tide-of-honor	ref/rule/caravan-events-cr-1-2-to-3	rule	Caravan Events CR 1/2 to 3	3	4	hub-keep	no-pdf		none	0											no-pdf	S12		yes	no	yes		
 pathfinder-53-tide-of-honor	ref/rule/caravan-events-cr-10-to-15	rule	Caravan Events CR 10 to 15	2	3	hub-keep	no-pdf		none	0											no-pdf	S12		yes	no	yes		
@@ -2309,7 +2309,7 @@ ultimate-equipment	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	8	8	hub-k
 ultimate-equipment	ref/monster/yak	creature	Yak (Herd Animal)	3	3	uncited	printed		none	2	81,86							remove	86	own-entry-prints-it	single-entry	done			yes			none
 ultimate-equipment	ref/rule/common-cursed-item-effects	rule	Common Cursed Item Effects	2	2	uncited	loose	343	body	0								cite	340-341, 343	section-printed	link-only-hub	done			yes		no	
 ultimate-equipment	ref/trait/savage-breaker	trait	Savage Breaker	2	2	uncited	absent		none	0								remove	none	whole-book-absent	single-entry	done			yes			
-ultimate-equipment	ref/eq-poison/swampseer-poison	item	Swampseer poison	1	2	review	absent	111	row	0					primary	pathfinder-34-blood-for-blood	unverified-no-pdf	remove	63	whole-book-absent-new-primary-unverified-no-pdf	single-entry	done			yes		no	
+ultimate-equipment	ref/eq-poison/swampseer-poison	item	Swampseer poison	1	2	review	absent	111	row	0					primary	pathfinder-34-blood-for-blood	unscreened			waits for S12	single-entry	S11			yes		no	
 ultimate-equipment	ref/eq-weapon/blade-of-lifes-defense	item	Blade of Life's Defense	2	2	review	absent	20	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 ultimate-equipment	ref/magic-wondrous/gory-beacon	item	Gory Beacon	2	2	review	absent	301	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
 ultimate-equipment	ref/magic-wondrous/medallion-of-sar-gorog	item	Medallion of Sar-Gorog	2	3	review	absent	260	row	0								remove	none	wrong-credit-invalidated	single-entry	done			yes		no	
