@@ -28,7 +28,7 @@ levels = [
 ]
 casting_time = "10 minutes"
 components = "V, S"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "close (25 ft. + 5 ft./2 levels); see text"
 effects = [
   { label = "Target", value = "one elemental or outsider with 6 HD or less" },
 ]
@@ -44,7 +44,7 @@ Level: 4: Medium, Summoner\
 5: Arcanist, Elementalist Wizard, Occultist, Psychic, Sorcerer, Unchained Summoner, Wizard
 Casting time: 10 minutes
 Components: V, S
-Range: close (25 ft. + 5 ft./2 levels)
+Range: close (25 ft. + 5 ft./2 levels); see text
 Target: one elemental or outsider with 6 HD or less
 Duration: instantaneous
 Saving throw: Will negates

@@ -2777,7 +2777,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/rules/new-rules/hero-points/hero-point-spells/heroic-fortune/mass"
-target = "ref/carried/advanced-players-guide/rules/new-rules/hero-points/hero-point-spells/heroic-fortune/mass"
+target = "ref/spell/heroic-fortune-mass"
 basis = "carried"
 
 [[entries]]
@@ -3712,7 +3712,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/brand/greater"
-target = "ref/carried/advanced-players-guide/spells/brand/greater"
+target = "ref/spell/brand-greater"
 basis = "carried"
 
 [[entries]]
@@ -3747,7 +3747,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/cacophonous-call/mass"
-target = "ref/carried/advanced-players-guide/spells/cacophonous-call/mass"
+target = "ref/spell/cacophonous-call-mass"
 basis = "carried"
 
 [[entries]]
@@ -3777,7 +3777,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/castigate/mass"
-target = "ref/carried/advanced-players-guide/spells/castigate/mass"
+target = "ref/spell/castigate-mass"
 basis = "carried"
 
 [[entries]]
@@ -3992,7 +3992,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/evolution-surge/greater"
-target = "ref/carried/advanced-players-guide/spells/evolution-surge/greater"
+target = "ref/spell/evolution-surge-greater"
 basis = "carried"
 
 [[entries]]
@@ -4022,7 +4022,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/feather-step/mass"
-target = "ref/carried/advanced-players-guide/spells/feather-step/mass"
+target = "ref/spell/feather-step-mass"
 basis = "carried"
 
 [[entries]]
@@ -4032,7 +4032,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/fester/mass"
-target = "ref/carried/advanced-players-guide/spells/fester/mass"
+target = "ref/spell/fester-mass"
 basis = "carried"
 
 [[entries]]
@@ -4092,7 +4092,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/fly/mass"
-target = "ref/carried/advanced-players-guide/spells/fly/mass"
+target = "ref/spell/fly-mass"
 basis = "carried"
 
 [[entries]]
@@ -4142,7 +4142,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/ghostbane-dirge/mass"
-target = "ref/carried/advanced-players-guide/spells/ghostbane-dirge/mass"
+target = "ref/spell/ghostbane-dirge-mass"
 basis = "carried"
 
 [[entries]]
@@ -4252,7 +4252,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/invigorate/mass"
-target = "ref/carried/advanced-players-guide/spells/invigorate/mass"
+target = "ref/spell/invigorate-mass"
 basis = "carried"
 
 [[entries]]
@@ -4357,7 +4357,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/pain-strike/mass"
-target = "ref/carried/advanced-players-guide/spells/pain-strike/mass"
+target = "ref/spell/pain-strike-mass"
 basis = "carried"
 
 [[entries]]
@@ -4397,7 +4397,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/planar-adaptation/mass"
-target = "ref/carried/advanced-players-guide/spells/planar-adaptation/mass"
+target = "ref/spell/planar-adaptation-mass"
 basis = "carried"
 
 [[entries]]
@@ -4447,7 +4447,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/rejuvenate-eidolon/greater"
-target = "ref/carried/advanced-players-guide/spells/rejuvenate-eidolon/greater"
+target = "ref/spell/rejuvenate-eidolon-greater"
 basis = "carried"
 
 [[entries]]
@@ -4667,7 +4667,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/spells/suffocation/mass"
-target = "ref/carried/advanced-players-guide/spells/suffocation/mass"
+target = "ref/spell/suffocation-mass"
 basis = "carried"
 
 [[entries]]
@@ -22092,7 +22092,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/arcane-sight/greater"
-target = "ref/carried/core-rulebook/spells/arcane-sight/greater"
+target = "ref/spell/arcane-sight-greater"
 basis = "carried"
 
 [[entries]]
@@ -22142,7 +22142,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/bears-endurance/mass"
-target = "ref/carried/core-rulebook/spells/bears-endurance/mass"
+target = "ref/spell/bears-endurance-mass"
 basis = "carried"
 
 [[entries]]
@@ -22247,7 +22247,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/bulls-strength/mass"
-target = "ref/carried/core-rulebook/spells/bulls-strength/mass"
+target = "ref/spell/bulls-strength-mass"
 basis = "carried"
 
 [[entries]]
@@ -22282,7 +22282,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/cats-grace/mass"
-target = "ref/carried/core-rulebook/spells/cats-grace/mass"
+target = "ref/spell/cats-grace-mass"
 basis = "carried"
 
 [[entries]]
@@ -22317,7 +22317,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/charm-monster/mass"
-target = "ref/carried/core-rulebook/spells/charm-monster/mass"
+target = "ref/spell/charm-monster-mass"
 basis = "carried"
 
 [[entries]]
@@ -22387,7 +22387,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/command/greater"
-target = "ref/carried/core-rulebook/spells/command/greater"
+target = "ref/spell/command-greater"
 basis = "carried"
 
 [[entries]]
@@ -22417,7 +22417,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/confusion/lesser"
-target = "ref/carried/core-rulebook/spells/confusion/lesser"
+target = "ref/spell/confusion-lesser"
 basis = "carried"
 
 [[entries]]
@@ -22767,7 +22767,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/dispel-magic/greater"
-target = "ref/carried/core-rulebook/spells/dispel-magic/greater"
+target = "ref/spell/dispel-magic-greater"
 basis = "carried"
 
 [[entries]]
@@ -22887,7 +22887,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/enlarge-person/mass"
-target = "ref/carried/core-rulebook/spells/enlarge-person/mass"
+target = "ref/spell/enlarge-person-mass"
 basis = "carried"
 
 [[entries]]
@@ -23097,7 +23097,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/foxs-cunning/mass"
-target = "ref/carried/core-rulebook/spells/foxs-cunning/mass"
+target = "ref/spell/foxs-cunning-mass"
 basis = "carried"
 
 [[entries]]
@@ -23182,7 +23182,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/globe-of-invulnerability/lesser"
-target = "ref/carried/core-rulebook/spells/globe-of-invulnerability/lesser"
+target = "ref/spell/globe-of-invulnerability-lesser"
 basis = "carried"
 
 [[entries]]
@@ -23192,7 +23192,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/glyph-of-warding/greater"
-target = "ref/carried/core-rulebook/spells/glyph-of-warding/greater"
+target = "ref/spell/glyph-of-warding-greater"
 basis = "carried"
 
 [[entries]]
@@ -23267,7 +23267,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/heal/mass"
-target = "ref/carried/core-rulebook/spells/heal/mass"
+target = "ref/spell/heal-mass"
 basis = "carried"
 
 [[entries]]
@@ -23292,7 +23292,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/heroism/greater"
-target = "ref/carried/core-rulebook/spells/heroism/greater"
+target = "ref/spell/heroism-greater"
 basis = "carried"
 
 [[entries]]
@@ -23322,7 +23322,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/hold-monster/mass"
-target = "ref/carried/core-rulebook/spells/hold-monster/mass"
+target = "ref/spell/hold-monster-mass"
 basis = "carried"
 
 [[entries]]
@@ -23332,7 +23332,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/hold-person/mass"
-target = "ref/carried/core-rulebook/spells/hold-person/mass"
+target = "ref/spell/hold-person-mass"
 basis = "carried"
 
 [[entries]]
@@ -23422,7 +23422,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/inflict-critical-wounds/mass"
-target = "ref/carried/core-rulebook/spells/inflict-critical-wounds/mass"
+target = "ref/spell/inflict-critical-wounds-mass"
 basis = "carried"
 
 [[entries]]
@@ -23432,7 +23432,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/inflict-light-wounds/mass"
-target = "ref/carried/core-rulebook/spells/inflict-light-wounds/mass"
+target = "ref/spell/inflict-light-wounds-mass"
 basis = "carried"
 
 [[entries]]
@@ -23442,7 +23442,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/inflict-moderate-wounds/mass"
-target = "ref/carried/core-rulebook/spells/inflict-moderate-wounds/mass"
+target = "ref/spell/inflict-moderate-wounds-mass"
 basis = "carried"
 
 [[entries]]
@@ -23452,7 +23452,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/inflict-serious-wounds/mass"
-target = "ref/carried/core-rulebook/spells/inflict-serious-wounds/mass"
+target = "ref/spell/inflict-serious-wounds-mass"
 basis = "carried"
 
 [[entries]]
@@ -23492,12 +23492,12 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/invisibility/greater"
-target = "ref/carried/core-rulebook/spells/invisibility/greater"
+target = "ref/spell/invisibility-greater"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/spells/invisibility/mass"
-target = "ref/carried/core-rulebook/spells/invisibility/mass"
+target = "ref/spell/invisibility-mass"
 basis = "carried"
 
 [[entries]]
@@ -23657,7 +23657,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/magic-fang/greater"
-target = "ref/carried/core-rulebook/spells/magic-fang/greater"
+target = "ref/spell/magic-fang-greater"
 basis = "carried"
 
 [[entries]]
@@ -23692,7 +23692,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/magic-weapon/greater"
-target = "ref/carried/core-rulebook/spells/magic-weapon/greater"
+target = "ref/spell/magic-weapon-greater"
 basis = "carried"
 
 [[entries]]
@@ -23857,7 +23857,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/owls-wisdom/mass"
-target = "ref/carried/core-rulebook/spells/owls-wisdom/mass"
+target = "ref/spell/owls-wisdom-mass"
 basis = "carried"
 
 [[entries]]
@@ -23912,12 +23912,12 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/planar-ally/greater"
-target = "ref/carried/core-rulebook/spells/planar-ally/greater"
+target = "ref/spell/planar-ally-greater"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/spells/planar-ally/lesser"
-target = "ref/carried/core-rulebook/spells/planar-ally/lesser"
+target = "ref/spell/planar-ally-lesser"
 basis = "carried"
 
 [[entries]]
@@ -23927,12 +23927,12 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/planar-binding/greater"
-target = "ref/carried/core-rulebook/spells/planar-binding/greater"
+target = "ref/spell/planar-binding-greater"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/spells/planar-binding/lesser"
-target = "ref/carried/core-rulebook/spells/planar-binding/lesser"
+target = "ref/spell/planar-binding-lesser"
 basis = "carried"
 
 [[entries]]
@@ -24147,7 +24147,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/reduce-person/mass"
-target = "ref/carried/core-rulebook/spells/reduce-person/mass"
+target = "ref/spell/reduce-person-mass"
 basis = "carried"
 
 [[entries]]
@@ -24232,12 +24232,12 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/restoration/greater"
-target = "ref/carried/core-rulebook/spells/restoration/greater"
+target = "ref/spell/restoration-greater"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/spells/restoration/lesser"
-target = "ref/carried/core-rulebook/spells/restoration/lesser"
+target = "ref/spell/restoration-lesser"
 basis = "carried"
 
 [[entries]]
@@ -24297,7 +24297,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/scrying/greater"
-target = "ref/carried/core-rulebook/spells/scrying/greater"
+target = "ref/spell/scrying-greater"
 basis = "carried"
 
 [[entries]]
@@ -24362,7 +24362,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/shadow-conjuration/greater"
-target = "ref/carried/core-rulebook/spells/shadow-conjuration/greater"
+target = "ref/spell/shadow-conjuration-greater"
 basis = "carried"
 
 [[entries]]
@@ -24372,7 +24372,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/shadow-evocation/greater"
-target = "ref/carried/core-rulebook/spells/shadow-evocation/greater"
+target = "ref/spell/shadow-evocation-greater"
 basis = "carried"
 
 [[entries]]
@@ -24432,7 +24432,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/shout/greater"
-target = "ref/carried/core-rulebook/spells/shout/greater"
+target = "ref/spell/shout-greater"
 basis = "carried"
 
 [[entries]]
@@ -24532,7 +24532,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/spell-immunity/greater"
-target = "ref/carried/core-rulebook/spells/spell-immunity/greater"
+target = "ref/spell/spell-immunity-greater"
 basis = "carried"
 
 [[entries]]
@@ -24622,7 +24622,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/suggestion/mass"
-target = "ref/carried/core-rulebook/spells/suggestion/mass"
+target = "ref/spell/suggestion-mass"
 basis = "carried"
 
 [[entries]]
@@ -24812,7 +24812,7 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/spells/teleport/greater"
-target = "ref/carried/core-rulebook/spells/teleport/greater"
+target = "ref/spell/teleport-greater"
 basis = "carried"
 
 [[entries]]
@@ -26997,7 +26997,7 @@ basis = "direct"
 
 [[entries]]
 old = "monster-codex/rules/lizardfolk/new-rules/lizardfolk-spells/scale-spikes/greater"
-target = "ref/carried/monster-codex/rules/lizardfolk/new-rules/lizardfolk-spells/scale-spikes/greater"
+target = "ref/spell/scale-spikes-greater"
 basis = "carried"
 
 [[entries]]
@@ -31381,6 +31381,11 @@ target = "ref/trap/bear-trap"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/advanced-players-guide/rules/new-rules/hero-points/hero-point-spells/heroic-fortune/mass"
+target = "ref/spell/heroic-fortune-mass"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/advanced-players-guide/rules/new-rules/traits/campaign-traits/favored-son-daughter"
 target = "ref/trait/favored-son-or-daughter"
 basis = "shared"
@@ -31391,8 +31396,73 @@ target = "ref/trait/calistrian-courtesan"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/advanced-players-guide/spells/brand/greater"
+target = "ref/spell/brand-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/cacophonous-call/mass"
+target = "ref/spell/cacophonous-call-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/castigate/mass"
+target = "ref/spell/castigate-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/evolution-surge/greater"
+target = "ref/spell/evolution-surge-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/feather-step/mass"
+target = "ref/spell/feather-step-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/fester/mass"
+target = "ref/spell/fester-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/fly/mass"
+target = "ref/spell/fly-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/ghostbane-dirge/mass"
+target = "ref/spell/ghostbane-dirge-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/invigorate/mass"
+target = "ref/spell/invigorate-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/pain-strike/mass"
+target = "ref/spell/pain-strike-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/planar-adaptation/mass"
+target = "ref/spell/planar-adaptation-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/rejuvenate-eidolon/greater"
+target = "ref/spell/rejuvenate-eidolon-greater"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/advanced-players-guide/spells/shared-wrath"
 target = "ref/spell/shared-wrath"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/spells/suffocation/mass"
+target = "ref/spell/suffocation-mass"
 basis = "shared"
 
 [[entries]]
@@ -31916,6 +31986,201 @@ target = "ref/skill/use-magic-device"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/core-rulebook/spells/arcane-sight/greater"
+target = "ref/spell/arcane-sight-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/bears-endurance/mass"
+target = "ref/spell/bears-endurance-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/bulls-strength/mass"
+target = "ref/spell/bulls-strength-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/cats-grace/mass"
+target = "ref/spell/cats-grace-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/charm-monster/mass"
+target = "ref/spell/charm-monster-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/command/greater"
+target = "ref/spell/command-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/confusion/lesser"
+target = "ref/spell/confusion-lesser"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/dispel-magic/greater"
+target = "ref/spell/dispel-magic-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/enlarge-person/mass"
+target = "ref/spell/enlarge-person-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/foxs-cunning/mass"
+target = "ref/spell/foxs-cunning-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/globe-of-invulnerability/lesser"
+target = "ref/spell/globe-of-invulnerability-lesser"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/glyph-of-warding/greater"
+target = "ref/spell/glyph-of-warding-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/heal/mass"
+target = "ref/spell/heal-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/heroism/greater"
+target = "ref/spell/heroism-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/hold-monster/mass"
+target = "ref/spell/hold-monster-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/hold-person/mass"
+target = "ref/spell/hold-person-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/inflict-critical-wounds/mass"
+target = "ref/spell/inflict-critical-wounds-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/inflict-light-wounds/mass"
+target = "ref/spell/inflict-light-wounds-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/inflict-moderate-wounds/mass"
+target = "ref/spell/inflict-moderate-wounds-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/inflict-serious-wounds/mass"
+target = "ref/spell/inflict-serious-wounds-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/invisibility/greater"
+target = "ref/spell/invisibility-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/invisibility/mass"
+target = "ref/spell/invisibility-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/magic-fang/greater"
+target = "ref/spell/magic-fang-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/magic-weapon/greater"
+target = "ref/spell/magic-weapon-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/owls-wisdom/mass"
+target = "ref/spell/owls-wisdom-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/planar-ally/greater"
+target = "ref/spell/planar-ally-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/planar-ally/lesser"
+target = "ref/spell/planar-ally-lesser"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/planar-binding/greater"
+target = "ref/spell/planar-binding-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/planar-binding/lesser"
+target = "ref/spell/planar-binding-lesser"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/reduce-person/mass"
+target = "ref/spell/reduce-person-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/restoration/greater"
+target = "ref/spell/restoration-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/restoration/lesser"
+target = "ref/spell/restoration-lesser"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/scrying/greater"
+target = "ref/spell/scrying-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/shadow-conjuration/greater"
+target = "ref/spell/shadow-conjuration-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/shadow-evocation/greater"
+target = "ref/spell/shadow-evocation-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/shout/greater"
+target = "ref/spell/shout-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/spell-immunity/greater"
+target = "ref/spell/spell-immunity-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/suggestion/mass"
+target = "ref/spell/suggestion-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/spells/teleport/greater"
+target = "ref/spell/teleport-greater"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether"
 target = "ref/drug/aether"
 basis = "shared"
@@ -31991,8 +32256,28 @@ target = "ref/madness/schizophrenia"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/monster-codex/rules/lizardfolk/new-rules/lizardfolk-spells/scale-spikes/greater"
+target = "ref/spell/scale-spikes-greater"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/technic-scavenger"
 target = "ref/arc-rogue/numerian-scavenger"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/technology-guide/rules/technology-in-the-world/spells/discharge/greater"
+target = "ref/spell/discharge-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/technology-guide/rules/technology-in-the-world/spells/make-whole/greater"
+target = "ref/spell/make-whole-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/technology-guide/rules/technology-in-the-world/spells/remove-radioactivity/greater"
+target = "ref/spell/remove-radioactivity-greater"
 basis = "shared"
 
 [[entries]]
@@ -33902,7 +34187,7 @@ basis = "direct"
 
 [[entries]]
 old = "technology-guide/rules/technology-in-the-world/spells/discharge/greater"
-target = "ref/carried/technology-guide/rules/technology-in-the-world/spells/discharge/greater"
+target = "ref/spell/discharge-greater"
 basis = "carried"
 
 [[entries]]
@@ -33922,7 +34207,7 @@ basis = "direct"
 
 [[entries]]
 old = "technology-guide/rules/technology-in-the-world/spells/make-whole/greater"
-target = "ref/carried/technology-guide/rules/technology-in-the-world/spells/make-whole/greater"
+target = "ref/spell/make-whole-greater"
 basis = "carried"
 
 [[entries]]
@@ -33952,7 +34237,7 @@ basis = "direct"
 
 [[entries]]
 old = "technology-guide/rules/technology-in-the-world/spells/remove-radioactivity/greater"
-target = "ref/carried/technology-guide/rules/technology-in-the-world/spells/remove-radioactivity/greater"
+target = "ref/spell/remove-radioactivity-greater"
 basis = "carried"
 
 [[entries]]

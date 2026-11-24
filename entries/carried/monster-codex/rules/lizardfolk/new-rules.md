@@ -204,6 +204,6 @@ title = "Scale Spikes"
 :::
 
 ::: entry-link
-target = "ref/carried/monster-codex/rules/lizardfolk/new-rules/lizardfolk-spells/scale-spikes/greater"
+target = "ref/spell/scale-spikes-greater"
 title = "Scale Spikes, Greater"
 :::

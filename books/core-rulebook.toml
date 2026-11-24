@@ -2845,7 +2845,7 @@ entry = "ref/spell/arcane-sight"
 
 [[books.chapters.children]]
 title = "Arcane Sight, Greater"
-entry = "ref/carried/core-rulebook/spells/arcane-sight/greater"
+entry = "ref/spell/arcane-sight-greater"
 
 [[books.chapters.children]]
 title = "Astral Projection"
@@ -2885,7 +2885,7 @@ entry = "ref/spell/bears-endurance"
 
 [[books.chapters.children]]
 title = "Bear's Endurance, Mass"
-entry = "ref/carried/core-rulebook/spells/bears-endurance/mass"
+entry = "ref/spell/bears-endurance-mass"
 
 [[books.chapters.children]]
 title = "Beast Shape I"
@@ -2969,7 +2969,7 @@ entry = "ref/spell/bulls-strength"
 
 [[books.chapters.children]]
 title = "Bull's Strength, Mass"
-entry = "ref/carried/core-rulebook/spells/bulls-strength/mass"
+entry = "ref/spell/bulls-strength-mass"
 
 [[books.chapters.children]]
 title = "Burning Hands"
@@ -2997,7 +2997,7 @@ entry = "ref/spell/cats-grace"
 
 [[books.chapters.children]]
 title = "Cat's Grace, Mass"
-entry = "ref/carried/core-rulebook/spells/cats-grace/mass"
+entry = "ref/spell/cats-grace-mass"
 
 [[books.chapters.children]]
 title = "Cause Fear"
@@ -3025,7 +3025,7 @@ entry = "ref/spell/charm-monster"
 
 [[books.chapters.children]]
 title = "Charm Monster, Mass"
-entry = "ref/carried/core-rulebook/spells/charm-monster/mass"
+entry = "ref/spell/charm-monster-mass"
 
 [[books.chapters.children]]
 title = "Charm Person"
@@ -3073,7 +3073,7 @@ entry = "ref/spell/command"
 
 [[books.chapters.children]]
 title = "Command, Greater"
-entry = "ref/carried/core-rulebook/spells/command/greater"
+entry = "ref/spell/command-greater"
 
 [[books.chapters.children]]
 title = "Command Plants"
@@ -3105,7 +3105,7 @@ entry = "ref/spell/confusion"
 
 [[books.chapters.children]]
 title = "Confusion, Lesser"
-entry = "ref/carried/core-rulebook/spells/confusion/lesser"
+entry = "ref/spell/confusion-lesser"
 
 [[books.chapters.children]]
 title = "Consecrate"
@@ -3385,7 +3385,7 @@ entry = "ref/spell/dispel-magic"
 
 [[books.chapters.children]]
 title = "Dispel Magic, Greater"
-entry = "ref/carried/core-rulebook/spells/dispel-magic/greater"
+entry = "ref/spell/dispel-magic-greater"
 
 [[books.chapters.children]]
 title = "Displacement"
@@ -3481,7 +3481,7 @@ entry = "ref/spell/enlarge-person"
 
 [[books.chapters.children]]
 title = "Enlarge Person, Mass"
-entry = "ref/carried/core-rulebook/spells/enlarge-person/mass"
+entry = "ref/spell/enlarge-person-mass"
 
 [[books.chapters.children]]
 title = "Entangle"
@@ -3649,7 +3649,7 @@ entry = "ref/spell/foxs-cunning"
 
 [[books.chapters.children]]
 title = "Fox's Cunning, Mass"
-entry = "ref/carried/core-rulebook/spells/foxs-cunning/mass"
+entry = "ref/spell/foxs-cunning-mass"
 
 [[books.chapters.children]]
 title = "Freedom"
@@ -3717,7 +3717,7 @@ entry = "ref/spell/globe-of-invulnerability"
 
 [[books.chapters.children]]
 title = "Globe Of Invulnerability, Lesser"
-entry = "ref/carried/core-rulebook/spells/globe-of-invulnerability/lesser"
+entry = "ref/spell/globe-of-invulnerability-lesser"
 
 [[books.chapters.children]]
 title = "Glyph Of Warding"
@@ -3725,7 +3725,7 @@ entry = "ref/spell/glyph-of-warding"
 
 [[books.chapters.children]]
 title = "Glyph Of Warding, Greater"
-entry = "ref/carried/core-rulebook/spells/glyph-of-warding/greater"
+entry = "ref/spell/glyph-of-warding-greater"
 
 [[books.chapters.children]]
 title = "Good Hope"
@@ -3781,7 +3781,7 @@ entry = "ref/spell/heal"
 
 [[books.chapters.children]]
 title = "Heal, Mass"
-entry = "ref/carried/core-rulebook/spells/heal/mass"
+entry = "ref/spell/heal-mass"
 
 [[books.chapters.children]]
 title = "Heal Mount"
@@ -3805,7 +3805,7 @@ entry = "ref/spell/heroism"
 
 [[books.chapters.children]]
 title = "Heroism, Greater"
-entry = "ref/carried/core-rulebook/spells/heroism/greater"
+entry = "ref/spell/heroism-greater"
 
 [[books.chapters.children]]
 title = "Hide From Animals"
@@ -3829,7 +3829,7 @@ entry = "ref/spell/hold-monster"
 
 [[books.chapters.children]]
 title = "Hold Monster, Mass"
-entry = "ref/carried/core-rulebook/spells/hold-monster/mass"
+entry = "ref/spell/hold-monster-mass"
 
 [[books.chapters.children]]
 title = "Hold Person"
@@ -3837,7 +3837,7 @@ entry = "ref/spell/hold-person"
 
 [[books.chapters.children]]
 title = "Hold Person, Mass"
-entry = "ref/carried/core-rulebook/spells/hold-person/mass"
+entry = "ref/spell/hold-person-mass"
 
 [[books.chapters.children]]
 title = "Hold Portal"
@@ -3909,7 +3909,7 @@ entry = "ref/spell/inflict-critical-wounds"
 
 [[books.chapters.children]]
 title = "Inflict Critical Wounds, Mass"
-entry = "ref/carried/core-rulebook/spells/inflict-critical-wounds/mass"
+entry = "ref/spell/inflict-critical-wounds-mass"
 
 [[books.chapters.children]]
 title = "Inflict Light Wounds"
@@ -3917,7 +3917,7 @@ entry = "ref/spell/inflict-light-wounds"
 
 [[books.chapters.children]]
 title = "Inflict Light Wounds, Mass"
-entry = "ref/carried/core-rulebook/spells/inflict-light-wounds/mass"
+entry = "ref/spell/inflict-light-wounds-mass"
 
 [[books.chapters.children]]
 title = "Inflict Moderate Wounds"
@@ -3925,7 +3925,7 @@ entry = "ref/spell/inflict-moderate-wounds"
 
 [[books.chapters.children]]
 title = "Inflict Moderate Wounds, Mass"
-entry = "ref/carried/core-rulebook/spells/inflict-moderate-wounds/mass"
+entry = "ref/spell/inflict-moderate-wounds-mass"
 
 [[books.chapters.children]]
 title = "Inflict Serious Wounds"
@@ -3933,7 +3933,7 @@ entry = "ref/spell/inflict-serious-wounds"
 
 [[books.chapters.children]]
 title = "Inflict Serious Wounds, Mass"
-entry = "ref/carried/core-rulebook/spells/inflict-serious-wounds/mass"
+entry = "ref/spell/inflict-serious-wounds-mass"
 
 [[books.chapters.children]]
 title = "Insanity"
@@ -3957,11 +3957,11 @@ entry = "ref/spell/invisibility"
 
 [[books.chapters.children]]
 title = "Invisibility, Greater"
-entry = "ref/carried/core-rulebook/spells/invisibility/greater"
+entry = "ref/spell/invisibility-greater"
 
 [[books.chapters.children]]
 title = "Invisibility, Mass"
-entry = "ref/carried/core-rulebook/spells/invisibility/mass"
+entry = "ref/spell/invisibility-mass"
 
 [[books.chapters.children]]
 title = "Invisibility Purge"
@@ -4097,7 +4097,7 @@ entry = "ref/spell/magic-fang"
 
 [[books.chapters.children]]
 title = "Magic Fang, Greater"
-entry = "ref/carried/core-rulebook/spells/magic-fang/greater"
+entry = "ref/spell/magic-fang-greater"
 
 [[books.chapters.children]]
 title = "Magic Jar"
@@ -4125,7 +4125,7 @@ entry = "ref/spell/magic-weapon"
 
 [[books.chapters.children]]
 title = "Magic Weapon, Greater"
-entry = "ref/carried/core-rulebook/spells/magic-weapon/greater"
+entry = "ref/spell/magic-weapon-greater"
 
 [[books.chapters.children]]
 title = "Major Creation"
@@ -4257,7 +4257,7 @@ entry = "ref/spell/owls-wisdom"
 
 [[books.chapters.children]]
 title = "Owl's Wisdom, Mass"
-entry = "ref/carried/core-rulebook/spells/owls-wisdom/mass"
+entry = "ref/spell/owls-wisdom-mass"
 
 [[books.chapters.children]]
 title = "Pass Without Trace"
@@ -4301,11 +4301,11 @@ entry = "ref/spell/planar-ally"
 
 [[books.chapters.children]]
 title = "Planar Ally, Greater"
-entry = "ref/carried/core-rulebook/spells/planar-ally/greater"
+entry = "ref/spell/planar-ally-greater"
 
 [[books.chapters.children]]
 title = "Planar Ally, Lesser"
-entry = "ref/carried/core-rulebook/spells/planar-ally/lesser"
+entry = "ref/spell/planar-ally-lesser"
 
 [[books.chapters.children]]
 title = "Planar Binding"
@@ -4313,11 +4313,11 @@ entry = "ref/spell/planar-binding"
 
 [[books.chapters.children]]
 title = "Planar Binding, Greater"
-entry = "ref/carried/core-rulebook/spells/planar-binding/greater"
+entry = "ref/spell/planar-binding-greater"
 
 [[books.chapters.children]]
 title = "Planar Binding, Lesser"
-entry = "ref/carried/core-rulebook/spells/planar-binding/lesser"
+entry = "ref/spell/planar-binding-lesser"
 
 [[books.chapters.children]]
 title = "Plane Shift"
@@ -4489,7 +4489,7 @@ entry = "ref/spell/reduce-person"
 
 [[books.chapters.children]]
 title = "Reduce Person, Mass"
-entry = "ref/carried/core-rulebook/spells/reduce-person/mass"
+entry = "ref/spell/reduce-person-mass"
 
 [[books.chapters.children]]
 title = "Refuge"
@@ -4557,11 +4557,11 @@ entry = "ref/spell/restoration"
 
 [[books.chapters.children]]
 title = "Restoration, Greater"
-entry = "ref/carried/core-rulebook/spells/restoration/greater"
+entry = "ref/spell/restoration-greater"
 
 [[books.chapters.children]]
 title = "Restoration, Lesser"
-entry = "ref/carried/core-rulebook/spells/restoration/lesser"
+entry = "ref/spell/restoration-lesser"
 
 [[books.chapters.children]]
 title = "Resurrection"
@@ -4609,7 +4609,7 @@ entry = "ref/spell/scrying"
 
 [[books.chapters.children]]
 title = "Scrying, Greater"
-entry = "ref/carried/core-rulebook/spells/scrying/greater"
+entry = "ref/spell/scrying-greater"
 
 [[books.chapters.children]]
 title = "Sculpt Sound"
@@ -4661,7 +4661,7 @@ entry = "ref/spell/shadow-conjuration"
 
 [[books.chapters.children]]
 title = "Shadow Conjuration, Greater"
-entry = "ref/carried/core-rulebook/spells/shadow-conjuration/greater"
+entry = "ref/spell/shadow-conjuration-greater"
 
 [[books.chapters.children]]
 title = "Shadow Evocation"
@@ -4669,7 +4669,7 @@ entry = "ref/spell/shadow-evocation"
 
 [[books.chapters.children]]
 title = "Shadow Evocation, Greater"
-entry = "ref/carried/core-rulebook/spells/shadow-evocation/greater"
+entry = "ref/spell/shadow-evocation-greater"
 
 [[books.chapters.children]]
 title = "Shadow Walk"
@@ -4717,7 +4717,7 @@ entry = "ref/spell/shout"
 
 [[books.chapters.children]]
 title = "Shout, Greater"
-entry = "ref/carried/core-rulebook/spells/shout/greater"
+entry = "ref/spell/shout-greater"
 
 [[books.chapters.children]]
 title = "Shrink Item"
@@ -4797,7 +4797,7 @@ entry = "ref/spell/spell-immunity"
 
 [[books.chapters.children]]
 title = "Spell Immunity, Greater"
-entry = "ref/carried/core-rulebook/spells/spell-immunity/greater"
+entry = "ref/spell/spell-immunity-greater"
 
 [[books.chapters.children]]
 title = "Spell Resistance"
@@ -4869,7 +4869,7 @@ entry = "ref/spell/suggestion"
 
 [[books.chapters.children]]
 title = "Suggestion, Mass"
-entry = "ref/carried/core-rulebook/spells/suggestion/mass"
+entry = "ref/spell/suggestion-mass"
 
 [[books.chapters.children]]
 title = "Summon Instrument"
@@ -5017,7 +5017,7 @@ entry = "ref/spell/teleport"
 
 [[books.chapters.children]]
 title = "Teleport, Greater"
-entry = "ref/carried/core-rulebook/spells/teleport/greater"
+entry = "ref/spell/teleport-greater"
 
 [[books.chapters.children]]
 title = "Teleport Object"

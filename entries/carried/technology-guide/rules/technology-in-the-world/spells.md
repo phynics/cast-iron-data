@@ -34,7 +34,7 @@ title = "Discharge"
 :::
 
 ::: entry-link
-target = "ref/carried/technology-guide/rules/technology-in-the-world/spells/discharge/greater"
+target = "ref/spell/discharge-greater"
 title = "Discharge, Greater"
 :::
 
@@ -54,7 +54,7 @@ title = "Magic Circle Against Technology"
 :::
 
 ::: entry-link
-target = "ref/carried/technology-guide/rules/technology-in-the-world/spells/make-whole/greater"
+target = "ref/spell/make-whole-greater"
 title = "Make Whole, Greater"
 :::
 
@@ -84,7 +84,7 @@ title = "Remove Radioactivity"
 :::
 
 ::: entry-link
-target = "ref/carried/technology-guide/rules/technology-in-the-world/spells/remove-radioactivity/greater"
+target = "ref/spell/remove-radioactivity-greater"
 title = "Remove Radioactivity, Greater"
 :::
 

@@ -50,5 +50,5 @@ Spell resistance: yes (harmless)
 
 ### Mass Fly
 
-This spell functions as [fly](ref/spell/fly), save that it can target numerous creatures and lasts
-longer.
+This spell functions as [fly](ref/spell/fly) (Core Rulebook 284), save that it can target numerous
+creatures and lasts longer.
