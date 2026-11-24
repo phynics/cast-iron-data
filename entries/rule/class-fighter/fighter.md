@@ -2,7 +2,7 @@
 id = "ref/rule/class-fighter/fighter"
 kind = "rule"
 title = "Fighter"
-source_ids = ["core-rulebook", "chronicle-of-legends", "plane-hoppers-handbook", "blood-of-the-sea", "monster-codex", "advanced-race-guide", "advanced-players-guide", "blood-of-shadows", "horror-adventures", "blood-of-the-beast"]
+source_ids = ["core-rulebook", "chronicle-of-legends", "advanced-players-guide"]
 section = ["Fighter"]
 parent = "ref/class/fighter"
 provenance = [
@@ -11,6 +11,12 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "55"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28"
+[[sources]]
+publication = "advanced-players-guide"
+page = "72"
 
 [fields]
 kind = "none"
@@ -181,7 +187,6 @@ type.
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
@@ -201,7 +206,6 @@ bonuses granted by his armor training and weapon training increase by 2 each.
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.
