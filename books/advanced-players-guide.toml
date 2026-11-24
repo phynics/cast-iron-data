@@ -3031,10 +3031,6 @@ title = "Bellows"
 entry = "ref/eq-misc/bellows"
 
 [[books.chapters.children.children.children]]
-title = "Block and tackle"
-entry = "ref/eq-misc/block-and-tackle"
-
-[[books.chapters.children.children.children]]
 title = "Cauldron"
 entry = "ref/carried/advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/cauldron"
 
@@ -3122,10 +3118,6 @@ entry = "ref/eq-misc/hot-weather-outfit"
 title = "Snowshoes"
 entry = "ref/eq-misc/snowshoes"
 
-[[books.chapters.children.children.children]]
-title = "Tear-away hot weather outfit"
-entry = "ref/eq-misc/tear-away-hot-weather-outfit"
-
 [[books.chapters.children.children]]
 title = "Animal-Related Gear"
 anchor = "animal-related-gear"
@@ -3185,10 +3177,6 @@ entry = "ref/eq-misc/cage-tiny-aquatic"
 [[books.chapters.children.children.children]]
 title = "Dog Sled"
 entry = "ref/eq-misc/dog-sled"
-
-[[books.chapters.children.children.children.children]]
-title = "Dog sled (travel, per mile)"
-entry = "ref/eq-misc/dog-sled-travel-per-mile"
 
 [[books.chapters.children.children]]
 title = "Entertainment Items"

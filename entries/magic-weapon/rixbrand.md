@@ -2,13 +2,10 @@
 id = "ref/magic-weapon/rixbrand"
 kind = "item"
 title = "Rixbrand"
-source_ids = ["undead-unleashed", "lands-of-the-linnorm-kings"]
+source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rixbrand", path = "json/magic_weapon2.json" },
 ]
-[[sources]]
-publication = "undead-unleashed"
-page = "6"
 [[sources]]
 publication = "lands-of-the-linnorm-kings"
 page = "51"

@@ -2,16 +2,13 @@
 id = "ref/misc/magic-items-by-category"
 kind = "rule"
 title = "Magic Items by Category"
-source_ids = ["core-rulebook", "ultimate-equipment"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_items_by_category", path = "json/misc.json" },
 ]
 [[sources]]
 publication = "core-rulebook"
 page = "460"
-[[sources]]
-publication = "ultimate-equipment"
-page = "360"
 
 [fields]
 kind = "none"

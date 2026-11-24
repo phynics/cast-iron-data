@@ -12,7 +12,7 @@ publication = "bestiary-2"
 page = "251"
 [[sources]]
 publication = "crown-of-the-kobold-king"
-page = "33"
+page = "31"
 
 [fields]
 kind = "creature"

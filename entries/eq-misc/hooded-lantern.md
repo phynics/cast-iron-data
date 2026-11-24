@@ -2,7 +2,7 @@
 id = "ref/eq-misc/hooded-lantern"
 kind = "item"
 title = "Hooded lantern"
-source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory"]
+source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hooded_lantern", path = "json/equipment_misc2.json" },
 ]
@@ -12,9 +12,6 @@ page = "57"
 [[sources]]
 publication = "core-rulebook"
 page = "158"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 
 [fields]
 kind = "item"

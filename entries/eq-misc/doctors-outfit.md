@@ -2,7 +2,7 @@
 id = "ref/eq-misc/doctors-outfit"
 kind = "item"
 title = "Doctor's outfit"
-source_ids = ["adventurers-armory", "pathfinder-8-seven-days-to-the-grave", "ultimate-equipment"]
+source_ids = ["adventurers-armory", "pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doctors_outfit", path = "json/equipment_misc4.json" },
 ]
@@ -12,9 +12,6 @@ page = "19"
 [[sources]]
 publication = "pathfinder-8-seven-days-to-the-grave"
 page = "61"
-[[sources]]
-publication = "ultimate-equipment"
-page = "89"
 
 [fields]
 kind = "item"

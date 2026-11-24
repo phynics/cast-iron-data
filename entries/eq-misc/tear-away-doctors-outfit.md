@@ -2,19 +2,16 @@
 id = "ref/eq-misc/tear-away-doctors-outfit"
 kind = "item"
 title = "Tear-away doctor's outfit"
-source_ids = ["adventurers-armory", "pathfinder-8-seven-days-to-the-grave", "ultimate-equipment"]
+source_ids = ["adventurers-armory", "pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tear_away_doctors_outfit", path = "json/equipment_misc4.json" },
 ]
 [[sources]]
 publication = "adventurers-armory"
-page = "19"
+page = "12, 14"
 [[sources]]
 publication = "pathfinder-8-seven-days-to-the-grave"
 page = "61"
-[[sources]]
-publication = "ultimate-equipment"
-page = "89"
 
 [fields]
 kind = "item"

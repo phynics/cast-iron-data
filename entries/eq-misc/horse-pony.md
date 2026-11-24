@@ -2,7 +2,7 @@
 id = "ref/eq-misc/horse-pony"
 kind = "item"
 title = "Horse (pony)"
-source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory", "knights-of-the-inner-sea"]
+source_ids = ["ultimate-equipment", "core-rulebook", "knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_pony", path = "json/equipment_misc2.json" },
 ]
@@ -12,9 +12,6 @@ page = "81"
 [[sources]]
 publication = "core-rulebook"
 page = "159"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 [[sources]]
 publication = "knights-of-the-inner-sea"
 page = "33"

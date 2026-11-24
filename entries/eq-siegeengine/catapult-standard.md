@@ -2,16 +2,13 @@
 id = "ref/eq-siegeengine/catapult-standard"
 kind = "item"
 title = "Catapult, standard"
-source_ids = ["ultimate-combat", "core-rulebook"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catapult_standard", path = "json/equipment_siege_engines.json" },
 ]
 [[sources]]
 publication = "ultimate-combat"
 page = "162"
-[[sources]]
-publication = "core-rulebook"
-page = "435"
 
 [fields]
 kind = "item"

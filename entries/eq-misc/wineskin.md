@@ -2,16 +2,13 @@
 id = "ref/eq-misc/wineskin"
 kind = "item"
 title = "Wineskin"
-source_ids = ["ultimate-equipment", "core-rulebook"]
+source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wineskin", path = "json/equipment_misc4.json" },
 ]
 [[sources]]
 publication = "ultimate-equipment"
 page = "75"
-[[sources]]
-publication = "core-rulebook"
-page = "158"
 
 [fields]
 kind = "item"

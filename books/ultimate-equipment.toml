@@ -833,10 +833,6 @@ title = "Whip"
 entry = "ref/eq-weapon/whip"
 
 [[books.chapters.children.children.children]]
-title = "Blade of Life's Defense"
-entry = "ref/eq-weapon/blade-of-lifes-defense"
-
-[[books.chapters.children.children.children]]
 title = "Bolas"
 entry = "ref/eq-weapon/bolas"
 
@@ -3365,60 +3361,20 @@ title = "Wig"
 entry = "ref/eq-misc/wig"
 
 [[books.chapters.children.children]]
-title = "Burglar's outfit"
-entry = "ref/eq-misc/burglars-outfit"
-
-[[books.chapters.children.children]]
-title = "Courtesan's outfit"
-entry = "ref/eq-misc/courtesans-outfit"
-
-[[books.chapters.children.children]]
-title = "Dilettante's outfit"
-entry = "ref/eq-misc/dilettantes-outfit"
-
-[[books.chapters.children.children]]
-title = "Doctor's outfit"
-entry = "ref/eq-misc/doctors-outfit"
-
-[[books.chapters.children.children]]
-title = "Executioner's outfit"
-entry = "ref/eq-misc/executioners-outfit"
-
-[[books.chapters.children.children]]
-title = "Squire's outfit"
-entry = "ref/eq-misc/squires-outfit"
-
-[[books.chapters.children.children]]
 title = "Tear-away artisan's outfit"
 entry = "ref/eq-misc/tear-away-artisans-outfit"
-
-[[books.chapters.children.children]]
-title = "Tear-away burglar's outfit"
-entry = "ref/eq-misc/tear-away-burglars-outfit"
 
 [[books.chapters.children.children]]
 title = "Tear-away cold-weather outfit"
 entry = "ref/eq-misc/tear-away-cold-weather-outfit"
 
 [[books.chapters.children.children]]
-title = "Tear-away courtesan's outfit"
-entry = "ref/eq-misc/tear-away-courtesans-outfit"
-
-[[books.chapters.children.children]]
 title = "Tear-away courtier's outfit"
 entry = "ref/eq-misc/tear-away-courtiers-outfit"
 
 [[books.chapters.children.children]]
-title = "Tear-away doctor's outfit"
-entry = "ref/eq-misc/tear-away-doctors-outfit"
-
-[[books.chapters.children.children]]
 title = "Tear-away entertainer's outfit"
 entry = "ref/eq-misc/tear-away-entertainers-outfit"
-
-[[books.chapters.children.children]]
-title = "Tear-away executioner's outfit"
-entry = "ref/eq-misc/tear-away-executioners-outfit"
 
 [[books.chapters.children.children]]
 title = "Tear-away explorer's outfit"
@@ -3451,10 +3407,6 @@ entry = "ref/eq-misc/tear-away-royal-outfit"
 [[books.chapters.children.children]]
 title = "Tear-away scholar's outfit"
 entry = "ref/eq-misc/tear-away-scholars-outfit"
-
-[[books.chapters.children.children]]
-title = "Tear-away squire's outfit"
-entry = "ref/eq-misc/tear-away-squires-outfit"
 
 [[books.chapters.children.children]]
 title = "Tear-away traveler's outfit"
@@ -8980,10 +8932,6 @@ title = "Periapt of Protection from Curses"
 entry = "ref/magic-wondrous/periapt-of-protection-from-curses"
 
 [[books.chapters.children.children.children]]
-title = "Medallion of Sar-Gorog"
-entry = "ref/magic-wondrous/medallion-of-sar-gorog"
-
-[[books.chapters.children.children.children]]
 title = "Periapt of Wound Closure"
 entry = "ref/magic-wondrous/periapt-of-wound-closure"
 
@@ -10300,10 +10248,6 @@ title = "Harp of Contagion"
 entry = "ref/magic-wondrous/harp-of-contagion"
 
 [[books.chapters.children.children.children]]
-title = "Gory Beacon"
-entry = "ref/magic-wondrous/gory-beacon"
-
-[[books.chapters.children.children.children]]
 title = "Harp of Shattering"
 entry = "ref/magic-wondrous/harp-of-shattering"
 
@@ -10330,10 +10274,6 @@ entry = "ref/magic-wondrous/horn-of-blasting-greater"
 [[books.chapters.children.children.children]]
 title = "Horn of Fog"
 entry = "ref/magic-wondrous/horn-of-fog"
-
-[[books.chapters.children.children.children]]
-title = "Nettle's Poppet"
-entry = "ref/magic-wondrous/nettles-poppet"
 
 [[books.chapters.children.children.children]]
 title = "Horn of Goodness/Evil"
@@ -11698,10 +11638,6 @@ entry = "ref/carried/ultimate-equipment/rules/appendix"
 [[books.chapters.children]]
 title = "Treasure Generator"
 entry = "ref/rule/treasure-generator"
-
-[[books.chapters.children.children]]
-title = "Magic Items by Category"
-entry = "ref/misc/magic-items-by-category"
 
 [[books.chapters.children.children]]
 title = "Step 1: Determine Treasure Budget"

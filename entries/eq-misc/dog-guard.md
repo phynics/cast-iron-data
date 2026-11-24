@@ -2,7 +2,7 @@
 id = "ref/eq-misc/dog-guard"
 kind = "item"
 title = "Dog (guard)"
-source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory", "knights-of-the-inner-sea", "wilderness-origins"]
+source_ids = ["ultimate-equipment", "core-rulebook", "knights-of-the-inner-sea", "wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_guard", path = "json/equipment_misc4.json" },
 ]
@@ -12,9 +12,6 @@ page = "81"
 [[sources]]
 publication = "core-rulebook"
 page = "159"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 [[sources]]
 publication = "knights-of-the-inner-sea"
 page = "33"

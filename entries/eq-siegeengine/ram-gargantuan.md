@@ -2,16 +2,13 @@
 id = "ref/eq-siegeengine/ram-gargantuan"
 kind = "item"
 title = "Ram, gargantuan"
-source_ids = ["ultimate-combat", "core-rulebook"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ram_gargantuan", path = "json/equipment_siege_engines.json" },
 ]
 [[sources]]
 publication = "ultimate-combat"
 page = "166"
-[[sources]]
-publication = "core-rulebook"
-page = "435"
 
 [fields]
 kind = "item"

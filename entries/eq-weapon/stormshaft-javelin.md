@@ -2,16 +2,13 @@
 id = "ref/eq-weapon/stormshaft-javelin"
 kind = "item"
 title = "Stormshaft javelin"
-source_ids = ["adventurers-armory-2", "gnomes-of-golarion"]
+source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormshaft_javelin", path = "json/equipment_weapons2.json" },
 ]
 [[sources]]
 publication = "adventurers-armory-2"
 page = "9"
-[[sources]]
-publication = "gnomes-of-golarion"
-page = "22"
 
 [fields]
 kind = "item"

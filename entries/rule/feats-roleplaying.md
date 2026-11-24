@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "champions-of-corruption"
-page = "18"
+page = "16"
 [[sources]]
 publication = "faction-guide"
 page = "55"
