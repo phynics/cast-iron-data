@@ -16,10 +16,15 @@ page = "67"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "improved-tracking", level = 1 },
+  { anchor = "firearm-style", level = 2 },
+  { anchor = "hunter-s-aim", level = 4 },
+]
 trades = [
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "All combat style feats", feature = "combat-style-feat" },
-  { replaces = "Hunter's bond", feature = "hunter-s-bond" },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["improved-tracking"] },
+  { replaces = "All combat style feats", feature = "combat-style-feat", by = ["firearm-style"] },
+  { replaces = "Hunter's bond", feature = "hunter-s-bond", by = ["hunter-s-aim"] },
 ]
 +++
 
@@ -33,42 +38,28 @@ of the jungle - the right to kill and feed on those weaker than you, and the nee
 dominance through cunning and bloodshed - are both their rights and their duty as the current top of
 the food chain.
 
-**Improved Tracking (Ex)**
+## Improved Tracking (Ex) {#improved-tracking}
 
-**Ability:** A trophy hunter gains a +2 bonus on Survival skill checks when following or identifying
-tracks. When he tracks, he can also attempt a Knowledge (nature) check at DC 15. On a success, the
-trophy hunter can discern the type and condition of any animals or magical beasts he tracks. By
-studying their tracks, the trophy hunter is able to identify a rough approximation of their health,
-maneuverability, and their general behavior as compared to the norm.
+At 1st level, a trophy hunter gains a +2 bonus on Survival skill checks when following or
+identifying tracks. When he tracks, he can also attempt a Knowledge (nature) check at DC 15. On a
+success, the trophy hunter can discern the type and condition of any animals or magical beasts he
+tracks. By studying their tracks, the trophy hunter is able to identify a rough approximation of
+their health, maneuverability, and their general behavior as compared to the norm. This ability
+replaces wild empathy.
 
-**Gained:** At 1st Level
+## Firearm Style {#firearm-style}
 
-**Replaces:** Wild empathy
-
-**Firearm Style**
-
-**Ability:** A trophy hunter gains the [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat and
+At 2nd level, a trophy hunter gains the [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat and
 [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms), and can use any
-1st-level gunslinger deed.
+1st-level gunslinger deed. At every four levels thereafter, the trophy hunter can take a grit feat
+or select a gunslinger deed of his level or lower, ranger's choice. This ability replaces all combat
+style feats.
 
-**Gained:** At 2nd Level
+## Hunter's Aim (Ex) {#hunter-s-aim}
 
-**Repeat:** The trophy hunter can take a grit feat or select a gunslinger deed of his level or
-lower, ranger's choice., 6, 4
-
-**Replaces:** All combat style feats
-
-**Hunter's Aim (Ex)**
-
-**Ability:** When the trophy hunter makes a firearm attack against a _favored enemy,_ he can target
-touch AC in the first two range increments of his firearm.
-
-**Flavor:** A trophy hunter gains a specific understanding of the weaknesses and vulnerabilities of
-his _favored enemies,_ and his careful study of these enemies reveals the best way to hurt them.
-
-**Gained:** At 4th Level
-
-**Replaces:** Hunter's bond
-
-**Special:** This ability stacks with other effects that increase the range increments to target
-touch AC, adding one range increment to the effect.
+At 4th level, a trophy hunter gains a specific understanding of the weaknesses and vulnerabilities
+of his favored enemies, and his careful study of these enemies reveals the best way to hurt them.
+When the trophy hunter makes a firearm attack against a favored enemy, he can target touch AC in the
+first two range increments of his firearm. This ability stacks with other effects that increase the
+range increments to target touch AC, adding one range increment to the effect. This ability replaces
+hunter's bond.
