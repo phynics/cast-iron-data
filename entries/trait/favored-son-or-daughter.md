@@ -15,9 +15,9 @@ kind = "trait"
 category = "Campaign"
 +++
 
-**Flavor:** You were born and raised in the town of Sandpoint or its surrounding farms. You know many
-of the region's secrets, and the locals already know who you are. You are well liked in town, and
-you'll have lots of friends in the region, but the town's tougher side sees you as a snitch or a
+**Flavor:** You were born and raised in the town of Sandpoint or its surrounding farms. You know
+many of the region's secrets, and the locals already know who you are. You are well liked in town,
+and you'll have lots of friends in the region, but the town's tougher side sees you as a snitch or a
 pansy.
 
 **Benefit:** You gain a +1 trait bonus on [Knowledge (local)](ref/skill/knowledge-local) checks, and
@@ -34,6 +34,6 @@ over the amount of gp you normally would get from selling off treasure.
 **Belor Hemlock (town sheriff):** Belor, Sandpoint's no nonsense arm of the law, is like the uncle
 you never had. The benefits of being close friends with the town sheriff are extensive, and you can
 call in favors from him once per game session. A favor can either get you out of a legal jam, hook
-you up with a town guard for help, or give you a one-time +10 bonus on a
-[Bluff](ref/skill/bluff), [Diplomacy](ref/skill/diplomacy), or [Intimidate](ref/skill/intimidate)
-check made against any local person.
+you up with a town guard for help, or give you a one-time +10 bonus on a [Bluff](ref/skill/bluff),
+[Diplomacy](ref/skill/diplomacy), or [Intimidate](ref/skill/intimidate) check made against any local
+person.
