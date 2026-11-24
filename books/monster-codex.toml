@@ -2034,10 +2034,6 @@ title = "Ratfolk"
 entry = "ref/carried/monster-codex/rules/ratfolk"
 
 [[books.chapters.children]]
-title = "Ratfolk"
-entry = "ref/race/ratfolk"
-
-[[books.chapters.children]]
 title = "New Rules"
 entry = "ref/carried/monster-codex/rules/ratfolk/new-rules"
 
