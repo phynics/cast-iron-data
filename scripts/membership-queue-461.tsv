@@ -313,7 +313,7 @@ advanced-race-guide	ref/class/magus	class	Magus	6	10	uncited	printed		none	36	9,
 advanced-race-guide	ref/class/oracle	class	Oracle	2	13	uncited	printed		none	37	9,12,13,23,24							remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/class/samurai	class	Samurai	4	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 advanced-race-guide	ref/class/summoner	class	Summoner	3	7	uncited	printed		none	39	9,13,23,34,43							remove	13	class-options-only	class-hub	done		yes	yes			
-advanced-race-guide	ref/class/witch	class	Witch	2	11	uncited	printed		none	40	9,13,23,29,34										class-hub	S7		yes	yes			
+advanced-race-guide	ref/class/witch	class	Witch	2	11	uncited	printed		none	40	9,13,23,29,34							remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/monster/rat-dire-rat	creature	Dire Rat	2	2	uncited	printed		none	3	150,153,155										single-entry	S5		yes	yes			
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	8	15	review	loose	166	row	0								remove	166	wrong-credit-invalidated	figurine	done			yes		no	
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	8	15	review	printed	166	row	0								remove	166	wrong-credit-invalidated	figurine	done			yes		yes	none
@@ -703,7 +703,7 @@ blood-of-shadows	ref/class/slayer	class	Slayer	5	8	uncited	printed		none	2	7,11	
 blood-of-shadows	ref/class/spiritualist	class	Spiritualist	7	7	uncited	printed		none	6	11,16,28,29,30							remove	11	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/summoner	class	Summoner	5	7	uncited	printed		none	4	3,11,15,30							remove	15	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/warpriest	class	Warpriest	3	6	uncited	printed		none	3	3,15,17							remove	15	class-options-only	class-hub	done		yes	yes			
-blood-of-shadows	ref/class/witch	class	Witch	3	11	uncited	printed		none	8	4,11,15,16,28										class-hub	S7		yes	yes			
+blood-of-shadows	ref/class/witch	class	Witch	3	11	uncited	printed		none	8	4,11,15,16,28							remove	11	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5										race-hub	S9		yes	yes			
 blood-of-shadows	ref/race/fetchling	race	Fetchling	4	5	uncited	printed		none	9	2,3,4,5,6										race-hub	S9		yes	yes			
 blood-of-shadows	ref/race/wayang	race	Wayang	6	6	uncited	printed		none	8	2,3,5,10,11										race-hub	S9		yes	yes			
@@ -773,7 +773,7 @@ blood-of-the-beast	ref/class/unchained-monk	class	Unchained Monk	4	4	uncited	pri
 blood-of-the-beast	ref/class/unchained-rogue	class	Unchained Rogue	4	4	uncited	absent		none	0								remove	none	mention-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/unchained-summoner	class	Unchained Summoner	4	4	uncited	printed		none	2	3,31							remove	31	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/vigilante	class	Vigilante	5	5	uncited	printed		none	6	3,7,12,13,15							remove	7	class-options-only	class-hub	done		yes	yes			
-blood-of-the-beast	ref/class/witch	class	Witch	4	11	uncited	printed		none	10	3,7,8,14,19										class-hub	S7		yes	yes			
+blood-of-the-beast	ref/class/witch	class	Witch	4	11	uncited	printed		none	10	3,7,8,14,19							remove	8	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/race/catfolk	race	Catfolk	4	5	uncited	printed		none	9	0,1,2,4,5										race-hub	S9		yes	yes			
 blood-of-the-beast	ref/race/grippli	race	Grippli	4	5	uncited	printed		none	8	0,1,2,8,10										race-hub	S9		yes	yes			
 blood-of-the-beast	ref/race/kitsune	race	Kitsune	6	7	uncited	printed		none	8	1,2,12,13,14										race-hub	S9		yes	yes			
@@ -819,7 +819,7 @@ blood-of-the-sea	ref/class/oracle	class	Oracle	4	13	uncited	printed		none	3	3,12
 blood-of-the-sea	ref/class/samurai	class	Samurai	5	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 blood-of-the-sea	ref/class/slayer	class	Slayer	6	8	uncited	printed		none	5	3,11,14,15,34							remove	11	class-options-only	class-hub	done		yes	yes			
 blood-of-the-sea	ref/class/summoner	class	Summoner	4	7	uncited	printed		none	3	5,23,24							remove	5	class-options-only	class-hub	done		yes	yes			
-blood-of-the-sea	ref/class/witch	class	Witch	5	11	uncited	printed		none	7	3,5,13,21,22										class-hub	S7		yes	yes			
+blood-of-the-sea	ref/class/witch	class	Witch	5	11	uncited	printed		none	7	3,5,13,21,22							remove	5	class-options-only	class-hub	done		yes	yes			
 blood-of-the-sea	ref/class/arcanist	class	Arcanist	4	8	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/fighter	class	Fighter	4	10	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/magus	class	Magus	5	10	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
@@ -879,7 +879,7 @@ chronicle-of-legends	ref/class/unchained-rogue	class	Unchained Rogue	3	3	uncited
 chronicle-of-legends	ref/class/unchained-summoner	class	Unchained Summoner	3	4	uncited	absent		none	0								cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/vigilante	class	Vigilante	3	5	uncited	printed		none	4	3,5,7,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/warpriest	class	Warpriest	5	6	uncited	printed		none	3	14,16,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
-chronicle-of-legends	ref/class/witch	class	Witch	6	11	uncited	printed		none	4	3,14,30,31										class-hub	S7		yes	yes	yes		
+chronicle-of-legends	ref/class/witch	class	Witch	6	11	uncited	printed		none	4	3,14,30,31							cite	28, 31	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/antipaladin	class	Antipaladin	2	5	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/arcanist	class	Arcanist	3	8	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/bloodrager	class	Bloodrager	3	9	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
@@ -1140,7 +1140,7 @@ goblins-of-golarion	ref/class/cavalier	class	Cavalier	6	8	uncited	printed		none	
 goblins-of-golarion	ref/class/gunslinger	class	Gunslinger	7	7	uncited	printed		none	2	14,31							remove	14	class-options-only	class-hub	done			yes			
 goblins-of-golarion	ref/class/oracle	class	Oracle	6	13	uncited	printed		none	2	15,31							remove	15	class-options-only	class-hub	done		yes	yes			
 goblins-of-golarion	ref/class/samurai	class	Samurai	7	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
-goblins-of-golarion	ref/class/witch	class	Witch	7	11	uncited	printed		none	4	15,28,31,32										class-hub	S7		yes	yes			
+goblins-of-golarion	ref/class/witch	class	Witch	7	11	uncited	printed		none	4	15,28,31,32							remove	15	class-options-only	class-hub	done		yes	yes			
 goblins-of-golarion	ref/race/goblin	race	Goblin	5	5	uncited	printed		none	36	-1,0,1,2,3										race-hub	S9		yes	yes			
 goblins-of-golarion	ref/trait/goblin-bravery	trait	Goblin Bravery	2	2	uncited	body		none	1	16										single-entry	S5		yes	yes			
 gods-and-magic	ref/magic-wondrous/bronze-skinning-knife	item	Bronze Skinning Knife	2	2	review	absent	55	row	0											single-entry	S11			yes		no	
@@ -1583,7 +1583,7 @@ horror-adventures	ref/class/oracle	class	Oracle	8	13	uncited	printed		none	2	40,
 horror-adventures	ref/class/psychic	class	Psychic	8	8	uncited	printed		none	40	13,18,40,41,55							remove	41	class-options-only	class-hub	done		yes	yes			
 horror-adventures	ref/class/samurai	class	Samurai	8	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 horror-adventures	ref/class/spiritualist	class	Spiritualist	5	7	uncited	printed		none	24	3,38,44,50,68							remove	38	class-options-only	class-hub	done		yes	yes			
-horror-adventures	ref/class/witch	class	Witch	8	11	uncited	printed		none	40	3,16,17,22,27										class-hub	S7		yes	yes			
+horror-adventures	ref/class/witch	class	Witch	8	11	uncited	printed		none	40	3,16,17,22,27							remove	39	class-options-only	class-hub	done		yes	yes			
 horror-adventures	ref/rule/sanity-and-madness	rule	Sanity and Madness	2	2	uncited	printed		none	3	137,182,257										link-only-hub	S10	hub-design-a	yes	yes			
 horror-adventures	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	4	9	weak	weak		none	1	124	parent	ref/race/dwarf(title)	yes				remove	38	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/dwarf/greed	racial_trait	Greed	8	11	weak	weak		none	1	38	parent	ref/race/dwarf(title)	yes				remove	38	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1997,7 +1997,7 @@ pathfinder-101-the-kintargo-contract	ref/class/hunter	class	Hunter	8	8	uncited	n
 pathfinder-101-the-kintargo-contract	ref/class/oracle	class	Oracle	11	13	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/shaman	class	Shaman	6	8	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/slayer	class	Slayer	7	8	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done		yes	no			
-pathfinder-101-the-kintargo-contract	ref/class/witch	class	Witch	9	11	uncited	no-pdf		none	0											class-hub	S7		yes	no			
+pathfinder-101-the-kintargo-contract	ref/class/witch	class	Witch	9	11	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done		yes	no			
 pathfinder-101-the-kintargo-contract	ref/race/strix	race	Strix	5	5	uncited	no-pdf		none	0											race-hub	S9		yes	no			
 pathfinder-115-trail-of-the-hunted	ref/rule/optional-subsystems	rule	Optional Subsystems	8	10	hub-keep	no-pdf		none	0											link-only-hub	S10	hub-design-a	yes	no			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	6	15	review	no-pdf	33	row	0								keep	33	unverified-no-pdf	figurine	done			no			
@@ -2156,7 +2156,7 @@ plane-hoppers-handbook	ref/class/oracle	class	Oracle	12	13	uncited	printed		none
 plane-hoppers-handbook	ref/class/shaman	class	Shaman	7	8	uncited	printed		none	2	12,23							remove	23	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/class/skald	class	Skald	6	7	uncited	printed		none	2	17,23							remove	17	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/class/spiritualist	class	Spiritualist	4	7	uncited	printed		none	2	17,23							remove	17	class-options-only	class-hub	done		yes	yes			
-plane-hoppers-handbook	ref/class/witch	class	Witch	10	11	uncited	printed		none	4	12,13,15,17										class-hub	S7		yes	yes			
+plane-hoppers-handbook	ref/class/witch	class	Witch	10	11	uncited	printed		none	4	12,13,15,17							remove	15	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/race/aphorite	race	Aphorite	2	2	uncited	printed		none	5	1,3,14,15,34										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/race/duskwalker	race	Duskwalker	2	2	uncited	printed		none	5	1,3,16,17,34										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/race/ifrit	race	Ifrit	4	4	uncited	printed		none	3	20,22,32										race-hub	S9		yes	yes			
@@ -2529,7 +2529,7 @@ ultimate-wilderness	ref/class/oracle	class	Oracle	13	13	uncited	printed		none	9	
 ultimate-wilderness	ref/class/shaman	class	Shaman	8	8	uncited	printed		none	27	10,14,17,19,22							remove	10	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/class/skald	class	Skald	7	7	uncited	printed		none	8	3,5,10,36,84							remove	10	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/class/summoner	class	Summoner	6	7	uncited	printed		none	13	10,14,25,48,94							remove	10	class-options-only	class-hub	done		yes	yes			
-ultimate-wilderness	ref/class/witch	class	Witch	11	11	uncited	printed		none	36	3,5,10,14,17										class-hub	S7		yes	yes			
+ultimate-wilderness	ref/class/witch	class	Witch	11	11	uncited	printed		none	36	3,5,10,14,17							remove	10	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/ability/animal-tricks	rule	Animal Tricks	3	3	review	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 ultimate-wilderness	ref/spell/tectonic-communion	spell	Tectonic Communion	2	3	review	absent	235	row	0											single-entry	S11			yes		no	
 ultimate-wilderness	ref/class/samurai	class	Samurai	4	4	weak	weak		none	1	186							remove	186	class-options-only	class-hub	done		yes	yes			
