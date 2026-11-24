@@ -16,10 +16,15 @@ page = "73"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sea-legs", level = 1 },
+  { anchor = "swinging-reposition", level = 2 },
+  { anchor = "unflinching" },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "2nd-level rogue talent", feature = "rogue-talents", levels = [2] },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["sea-legs"] },
+  { replaces = "2nd-level rogue talent", feature = "rogue-talents", levels = [2], by = ["swinging-reposition"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["unflinching"] },
 ]
 +++
 
@@ -27,44 +32,35 @@ A pirate breaks from the confines of country and king to commit her crimes upon 
 holds allegiance only to her ship and its captain (if even that much is true), and lives a lawless
 life upon the waves, plundering ships and shorelines as suits her whim.
 
-**Sea Legs (Ex)**
+## Sea Legs (Ex) {#sea-legs}
 
-**Ability:** She gains the [Sea Legs](ref/feat/sea-legs) feat as a bonus feat, even if she does not
-meet the prerequisites.
+At 1st level, a pirate becomes adept at moving on ships, boats, and similar vessels. She gains the
+[Sea Legs](ref/feat/sea-legs) feat as a bonus feat, even if she does not meet the prerequisites.
+This ability replaces trapfinding.
 
-**Flavor:** A pirate becomes adept at moving on ships, boats, and similar vessels.
+## Swinging Reposition (Ex) {#swinging-reposition}
 
-**Gained:** At 1st Level
-
-**Replaces:** Trapfinding
-
-**Swinging Reposition (Ex)**
-
-**Ability:** A pirate incorporates a ship's masts, rigging, ropes, sails, and other such structures
+At 2nd level, a pirate incorporates a ship's masts, rigging, ropes, sails, and other such structures
 into her combat style. Provided she is wearing light armor or no armor, when fighting in an
 environment where such structures exist, the rogue incorporates them into her movement, and does not
 have to move in a straight line when making either a [charge](ref/rule/charge) attack or a
-[bull rush](ref/rule/bull-rush) combat maneuver.
+[bull rush](ref/rule/bull-rush) combat maneuver. Once she completes her attack or maneuver, she can
+reposition herself. Immediately after making the charge or bull rush, she can move 5 feet as a free
+action, even if the charge ends her turn. This movement does not provoke attacks of opportunity.
+This ability replaces the 2nd-level rogue talent.
 
-**Gained:** At 2nd Level
+## Unflinching (Ex) {#unflinching}
 
-**Replaces:** 2nd-level rogue talent
+Pirates are a salty and steadfast lot. At 3rd level, a pirate gains a +1 bonus on saving throws
+against fear and mind-affecting effects. This bonus increases by +1 for every three levels, to a
+maximum of +6 at 18th level. This ability replaces trap sense.
 
-**Special:** Once she completes her attack or maneuver, she can reposition herself. Immediately
-after making the charge or bull rush, she can move 5 feet as a **free action**, even if the charge
-ends her turn. This movement does not provoke attacks of opportunity.
+## Rogue Talents {#rogue-talents}
 
-**Unflinching (Ex)**
+The following rogue talents complement the pirate archetype: black market connections, combat trick,
+finesse rogue, firearm training, hold breath, rope master, and strong stroke.
 
-**Flavor:** Pirates are a salty and steadfast lot.
+## Advanced Talents {#advanced-talents}
 
-**At 3rd Level:** A pirate gains a bonus on saving throws against fear and mind-affecting effects.
-This bonus is equal to one-third of her rogue level.
-
-**Replaces:** Trap sense
-
-**These rogue talents complement this archetype:** Black market connections, combat trick, finesse
-rogue, firearm training, hold breath, rope master, strong stroke
-
-**These advanced rogue talents complement this archetype:** Getaway master, hard minded, unwitting
-ally
+The following advanced rogue talents complement the pirate archetype: getaway master, hard to fool,
+and unwitting ally.

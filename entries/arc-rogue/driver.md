@@ -16,9 +16,13 @@ page = "72"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hard-drive", level = 1 },
+  { anchor = "driver-s-fortitude", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["hard-drive"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["driver-s-fortitude"] },
 ]
 +++
 
@@ -27,27 +31,23 @@ talents. She may be a wagon-driver practiced at smuggling contraband, an accompl
 arctic trails, or a seemingly refined coach driver placing her roguish talents in the service of a
 wealthy patron.
 
-**Hard Drive (Ex)**
+## Hard Drive (Ex) {#hard-drive}
 
-**Passive:** When driving a vehicle that uses a group of animals or magical beasts as muscle
-propulsion, the DCs of all driving checks are reduced by 2, the maximum speed of the vehicle
-increases by 10 feet, and the acceleration increases by 5 feet.
+When driving a vehicle that uses a group of animals or magical beasts as muscle propulsion, the DCs
+of all driving checks are reduced by 2, the maximum speed of the vehicle increases by 10 feet, and
+the acceleration increases by 5 feet. This ability takes the place of trapfinding.
 
-**Replaces:** Trapfinding
+## Driver's Fortitude (Ex) {#driver-s-fortitude}
 
-**Driver's Fortitude (Ex)**
-
-**Ability:** If the driver drops below 0 hit points but is not dead, she can attempt a DC 15
+At 3rd level, the driver learns to keep driving and maintain control of her vehicle, even when
+mortally wounded. If the driver drops below 0 hit points but is not dead, she can attempt a DC 15
 Fortitude save each round to remain conscious and in control of her vehicle, though she may take no
-other actions.
+other actions. This ability replaces trap sense.
 
-**Flavor:** The driver learns to keep driving and maintain control of her vehicle, even when
-mortally wounded.
+## Rogue Talents {#rogue-talents}
 
-**Gained:** At 3rd Level
+The following rogue talents complement the driver archetype: firearm training and getaway artist.
 
-**Replaces:** Trap sense
+## Advanced Talents {#advanced-talents}
 
-**These rogue talents complement this archetype:** Firearm training, getaway artist
-
-**These advanced rogue talents complement this archetype:** Feat, getaway master
+The following advanced rogue talents complement the driver archetype: feat and getaway master.
