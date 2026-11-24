@@ -2421,22 +2421,22 @@ ultimate-magic	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	2	4	hub
 ultimate-magic	ref/rule/complex-modifications	rule	Complex Construct Modifications	2	2	hub-keep	body	114	body	0											hub-cited	S10		yes	yes	yes	no	
 ultimate-magic	ref/rule/optional-magic-changes	rule	Optional Magic Changes	4	4	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-magic	ref/sidekick/eidolon	rule	Eidolon	2	3	hub-keep	printed	74	body	0											hub-cited	S10		yes	yes	yes	yes	
-ultimate-magic	ref/spell/animate-dead	spell	Animate Dead	2	2	family-leak	printed		none	10	15,20,26,27,147	variant	ref/spell/animate-dead-lesser(body)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/astral-projection	spell	Astral Projection	2	2	family-leak	printed		none	9	20,53,54,58,134	variant	ref/spell/astral-projection-lesser(body)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/bestow-curse	spell	Bestow Curse	3	3	family-leak	printed		none	13	42,49,58,66,94	variant	ref/spell/bestow-curse-greater(body),ref/spell/conditional-curse(body),ref/spell/curse-major(body)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/bestow-curse-greater	spell	Greater Bestow Curse	3	3	family-leak	body		none	1	217	variant	ref/spell/bestow-curse(title)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/conditional-curse	spell	Conditional Curse	4	4	family-leak	body		none	1	215	variant	ref/spell/bestow-curse(title)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/contagion	spell	Contagion	2	2	family-leak	printed		none	10	16,29,125,198,199	variant	ref/spell/contagion-greater(body)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/darkvision	spell	Darkvision	3	3	family-leak	printed		none	31	29,33,36,37,38	variant	ref/spell/darkvision-greater(body)								single-entry	S5		yes	yes			
+ultimate-magic	ref/spell/animate-dead	spell	Animate Dead	2	2	family-leak	printed		none	10	15,20,26,27,147	variant	ref/spell/animate-dead-lesser(body)					remove	205	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/astral-projection	spell	Astral Projection	2	2	family-leak	printed		none	9	20,53,54,58,134	variant	ref/spell/astral-projection-lesser(body)					remove	207	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/bestow-curse	spell	Bestow Curse	3	3	family-leak	printed		none	13	42,49,58,66,94	variant	ref/spell/bestow-curse-greater(body),ref/spell/conditional-curse(body),ref/spell/curse-major(body)					remove	215	sibling-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/bestow-curse-greater	spell	Greater Bestow Curse	3	3	family-leak	body		none	1	217	variant	ref/spell/bestow-curse(title)					remove	215	sibling-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/conditional-curse	spell	Conditional Curse	4	4	family-leak	body		none	1	215	variant	ref/spell/bestow-curse(title)					remove	215	sibling-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/contagion	spell	Contagion	2	2	family-leak	printed		none	10	16,29,125,198,199	variant	ref/spell/contagion-greater(body)					remove	211	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/darkvision	spell	Darkvision	3	3	family-leak	printed		none	31	29,33,36,37,38	variant	ref/spell/darkvision-greater(body)					remove	216	variant-printed-base-absent	single-entry	done		yes	yes			
 ultimate-magic	ref/spell/darkvision-communal	spell	Communal Darkvision	3	3	family-leak	absent		none	0		variant	ref/spell/darkvision(title)					remove	194-247	section-read-no-entry	single-entry	done			yes			
-ultimate-magic	ref/spell/daze	spell	Daze	2	2	family-leak	printed		none	19	13,38,67,75,76	variant	ref/spell/daze-mass(body)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/disguise-self	spell	Disguise Self	2	2	family-leak	printed		none	10	122,123,124,126,127	variant	ref/spell/disguise-other(title)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/false-life	spell	False Life	2	2	family-leak	printed		none	8	124,125,126,127,196	variant	ref/spell/false-life-greater(body)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/magic-jar	spell	Magic Jar	4	4	family-leak	printed		none	9	45,84,125,126,196	variant	ref/spell/possess-object(title)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/raise-dead	spell	Raise Dead	2	2	family-leak	printed		none	8	133,139,158,199,200	variant	ref/spell/raise-animal-companion(title)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/ray-of-exhaustion	spell	Ray of Exhaustion	2	3	family-leak	printed		none	5	13,66,122,125,234	variant	ref/spell/ray-of-sickening(title)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/simulacrum	spell	Simulacrum	2	2	family-leak	printed		none	9	15,16,18,20,125	variant	ref/spell/simulacrum-lesser(body)								single-entry	S5		yes	yes			
-ultimate-magic	ref/spell/summon-swarm	spell	Summon Swarm	2	2	family-leak	printed		none	3	125,126,233	variant	ref/spell/rain-of-frogs(title)								single-entry	S5		yes	yes			
+ultimate-magic	ref/spell/daze	spell	Daze	2	2	family-leak	printed		none	19	13,38,67,75,76	variant	ref/spell/daze-mass(body)					remove	216	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/disguise-self	spell	Disguise Self	2	2	family-leak	printed		none	10	122,123,124,126,127	variant	ref/spell/disguise-other(title)					remove	217	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/false-life	spell	False Life	2	2	family-leak	printed		none	8	124,125,126,127,196	variant	ref/spell/false-life-greater(body)					remove	219	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/magic-jar	spell	Magic Jar	4	4	family-leak	printed		none	9	45,84,125,126,196	variant	ref/spell/possess-object(title)					remove	232	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/raise-dead	spell	Raise Dead	2	2	family-leak	printed		none	8	133,139,158,199,200	variant	ref/spell/raise-animal-companion(title)					remove	233	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/ray-of-exhaustion	spell	Ray of Exhaustion	2	3	family-leak	printed		none	5	13,66,122,125,234	variant	ref/spell/ray-of-sickening(title)					remove	234	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/simulacrum	spell	Simulacrum	2	2	family-leak	printed		none	9	15,16,18,20,125	variant	ref/spell/simulacrum-lesser(body)					remove	238	variant-printed-base-absent	single-entry	done		yes	yes			
+ultimate-magic	ref/spell/summon-swarm	spell	Summon Swarm	2	2	family-leak	printed		none	3	125,126,233	variant	ref/spell/rain-of-frogs(title)					remove	233	variant-printed-base-absent	single-entry	done		yes	yes			
 ultimate-magic	ref/ability/familiars	rule	Familiars	3	5	uncited	printed		none	20	3,5,12,34,35										hub-cited	S10		yes	yes	yes		
 ultimate-magic	ref/ability/sorcerer-bloodlines	rule	Sorcerer Bloodlines	2	2	uncited	printed		none	4	66,162,255,257										hub-cited	S10		yes	yes	yes		
 ultimate-wilderness	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	4	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
