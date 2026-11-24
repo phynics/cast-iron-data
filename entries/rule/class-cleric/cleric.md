@@ -2,7 +2,7 @@
 id = "ref/rule/class-cleric/cleric"
 kind = "rule"
 title = "Cleric"
-source_ids = ["core-rulebook", "chronicle-of-legends", "advanced-race-guide", "plane-hoppers-handbook", "advanced-players-guide", "blood-of-shadows", "horror-adventures", "blood-of-the-beast", "heroes-of-golarion"]
+source_ids = ["core-rulebook", "chronicle-of-legends", "advanced-players-guide"]
 section = ["Cleric"]
 parent = "ref/class/cleric"
 provenance = [
@@ -11,6 +11,12 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "38"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28"
+[[sources]]
+publication = "advanced-players-guide"
+page = "72"
 
 [fields]
 kind = "none"
@@ -227,7 +233,6 @@ for options.)
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
@@ -249,7 +254,6 @@ an additional domain from the list offered by her deity.
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.
