@@ -16,54 +16,59 @@ page = "85"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "patron" },
-  { anchor = "spells" },
-  { anchor = "know-direction" },
-  { anchor = "sea-creature-empathy", level = 1 },
-]
 trades = [
-  { replaces = "1st-level hex", feature = "hex", levels = [1], by = ["sea-creature-empathy"] },
+  { replaces = "1st-level hex", feature = "hex", levels = [1] },
 ]
 +++
 
 A sea witch's affinities are tied to the vast oceans and the rolling waves. Her magic concerns the
 moon, tides, water, and winds, and she is most at peace when she is upon or near the sea.
 
-## Patron {#patron}
+**Patron**
 
-A sea witch cannot choose a patron whose interests or theme opposes that of water (for example,
-earth or fire).
+**Info:** A sea witch cannot choose a patron whose interests or theme opposes that of water (for
+example, earth or fire).
 
-## Spells {#spells}
+**Spells**
 
-A sea witch replaces some of her patron spells with the following: 2nd—_touch of sea_, 4th—_gust of
-wind_, 6th—_water breathing_, 8th—_control water_, 10th— _cloudkill_, 12th—_control wind_,
-14th—_control weather_, 16th—_vortex_, 18th—_tsunami_.
+**Info:** A sea witch replaces some of her patron spells at the listed witch levels.
 
-## Know Direction (Sp) {#know-direction}
+**Spells:** Cloudkill
 
-So long as she near a sizable body of water (at least a lake with a diameter of 1 mile or more), a
-sea witch may cast _[know direction](ref/spell/know-direction)_ at will as a
+**Spells:** Control winds
+
+**Spells:** Control weather
+
+**Spells:** Vortex
+
+**Spells:** Tsunami
+
+**Spells:** Touch of the sea
+
+**Spells:** Gust of wind
+
+**Spells:** Water breathing
+
+**Spells:** Control water
+
+**Know Direction (Sp)**
+
+**Ability:** So long as she near a sizable body of water (at least a lake with a diameter of 1 mile
+or more), a sea witch may cast [know direction](ref/spell/know-direction) at will as a
 [spell-like ability](ref/umr/spell-like-abilities).
 
-## Sea Creature Empathy (Ex) {#sea-creature-empathy}
+**Sea Creature Empathy (Ex)**
 
-A sea witch can influence the attitude of water-dwelling animals and animals that live along coasts
-and shores, including birds, as if using [wild empathy](ref/ability/wild-empathy). The sea witch
-uses her witch level as her [druid](ref/class/druid) level for this ability. If the sea witch has
-wild empathy from another class, her witch levels stack with the other class's levels to determine
-her wild empathy bonus for these kinds of creatures. This ability replaces the witch's 1st-level
-hex.
+**Ability:** A sea witch can influence the attitude of water-dwelling animals and animals that live
+along coasts and shores, including birds, as if using [wild empathy](ref/ability/wild-empathy). The
+sea witch uses her witch level as her [druid](ref/class/druid) level for this ability. If the sea
+witch has _wild empathy_ from another class, her witch levels stack with the other class's levels to
+determine her wild empathy bonus for these kinds of creatures.
 
-## Hexes {#hexes}
+**Replaces:** 1st-level hex
 
-The following witch hexes complement the sea witch archetype: charm, flight, water lung.
+**The following witch hexes complement this archetype:** Charm, flight, water lung
 
-## Major Hexes {#major-hexes}
+**The following major hexes complement this archetype:** Hag's eye, hidden home, weather control
 
-The following major hexes complement the sea witch archetype: hag eye, hidden home, weather control.
-
-## Grand Hexes {#grand-hexes}
-
-The following grand hex complements the sea witch archetype: natural disaster.
+**The following grand hex complements this archetype:** Natural disaster

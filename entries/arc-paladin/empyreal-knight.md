@@ -16,75 +16,112 @@ page = "62"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "voices-of-the-spheres", level = 2 },
-  { anchor = "celestial-heart" },
-  { anchor = "celestial-ally", level = 4 },
-  { anchor = "divine-bond", level = 5 },
-  { anchor = "empyreal-champion", level = 20 },
-]
 trades = [
-  { replaces = "Divine grace", feature = "divine-grace", by = ["voices-of-the-spheres"] },
-  { replaces = "Mercy", feature = "mercy", by = ["celestial-heart"] },
-  { replaces = "Lay on hands", feature = "lay-on-hands", by = ["celestial-ally"] },
-  { replaces = "channel positive energy", feature = "channel-positive-energy", by = ["celestial-ally"] },
-  { replaces = "Holy champion", feature = "holy-champion", by = ["empyreal-champion"] },
-  { alters = "Divine bond", feature = "divine-bond", by = ["divine-bond"] },
+  { replaces = "Divine grace", feature = "divine-grace" },
+  { replaces = "Mercy", feature = "mercy" },
+  { replaces = "Lay on hands", feature = "lay-on-hands" },
+  { replaces = "channel positive energy", feature = "channel-positive-energy" },
+  { replaces = "Holy champion", feature = "holy-champion" },
+  { alters = "Divine bond", feature = "divine-bond" },
 ]
 +++
 
 The empyreal knight dedicates her life to serving the celestial beings that guide mortals in their
 struggle toward the light.
 
-## Voices of the Spheres {#voices-of-the-spheres}
+**Voices of the Spheres**
 
-At 2nd level, an empyreal knight learns to speak and read Celestial, if she could not already. This
-ability replaces divine grace.
+**Ability:** An empyreal knight learns to speak and read Celestial, if she could not already.
 
-## Celestial Heart (Su) {#celestial-heart}
+**Gained:** At 2nd Level
 
-As an empyreal knight advances, her ties with the celestial realms grant her a portion of the
-abilities and defenses of true [angels](ref/family/angel). At 3rd level, she gains resistance 5
-against acid, cold, and electricity. At 6th level, she gains a +4 racial bonus on saves against
-poison. At 9th level, her defenses improve to resistance 10 against acid, cold, and electricity. At
-12th level, she gains immunity to petrification.
+**Replaces:** Divine grace
 
-At 15th level, she gains truespeech, the ability to speak with any creature that has a language as
-though using a _[tongues](ref/spell/tongues)_ spell. This ability functions with a caster level
-equal to her character level, and is always active.
+**Celestial Heart (Su)**
 
-At 18th level, as a swift action, the empyreal knight can manifest a protective aura against evil.
-Against abilities or effects created by evil creatures, this ability provides a +4 deflection bonus
-to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of her. It otherwise
-functions as a _[magic circle against evil](ref/spell/magic-circle-against-evil)_. She can use this
+**Flavor:** As an empyreal knight advances, her ties with the celestial realms grant her a portion
+of the abilities and defenses of true [angels](ref/family/angel).
+
+**At 12th Level:** She gains immunity to petrification.
+
+**At 15th Level:** She gains _truespeech,_ the ability to speak with any creature that has a
+language as though using a [tongues](ref/spell/tongues) spell. This ability functions with a caster
+level equal to her character level, and is always active.
+
+**At 18th Level:** As a **swift action**, the empyreal knight can manifest a protective aura against
+evil. Against abilities or effects created by evil creatures, this ability provides a +4 deflection
+bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of her. It otherwise
+functions as a [magic circle against evil](ref/spell/magic-circle-against-evil). She can use this
 ability for a maximum of 1 round per day per paladin level. These rounds do not need to be
-consecutive. These abilities replace mercy.
+consecutive.
 
-## Celestial Ally (Sp) {#celestial-ally}
+**At 3rd Level:** She gains resistance 5 against acid, cold, and electricity.
 
-At 4th level, an empyreal knight can summon a [celestial](ref/template/celestial) ally as a
-full-round action. This functions as _[summon monster I](ref/spell/summon-monster-1)_, except it can
-only be used to summon celestial creatures, [archons](ref/family/archon), and angels. At 6th level,
-this improves to _summon monster II_, increasing by one spell level for every two levels thereafter,
-to a maximum of _summon monster IX_ at 20th level. This ability can be used a number of times per
-day equal to the empyreal knight's Charisma modifier (minimum 1), but only one ally can be summoned
-at a time. This ability replaces lay on hands and channel positive energy.
+**At 6th Level:** She gains a +4 racial bonus on saves against poison.
 
-## Divine Bond (Su) {#divine-bond}
+**At 9th Level:** Her defenses improve to resistance 10 against acid, cold, and electricity.
 
-At 5th level, an empyreal knight forms a bond with a mount, as the standard paladin ability. Her
-mount gains the celestial template at 8th level. At 12th level, her mount sprouts wings if it cannot
-already fly, and gains a fly speed of twice its land speed and good maneuverability. If the mount
-could already fly, its fly speed and maneuverability improve to at least this level. This ability
-otherwise functions as the paladin ability of the same name.
+**Replaces:** Mercy
 
-## Empyreal Champion {#empyreal-champion}
+**Celestial Ally (Sp)**
 
-At 20th level, an empyreal knight transcends her mortal self. Her DR increases to 10/evil. Her type
-is treated as [outsider](ref/type/outsider) for the purposes of spells and magical effects. She
-gains [darkvision](ref/rule/darkvision) 60 feet and [low-light vision](ref/rule/low-light-vision).
-As a standard action and a supernatural ability, she can sprout wings that allow her to fly at twice
-her land speed with average maneuverability. Any armor or clothing reshapes to allow her to fly when
-she uses this ability. She can retract the wings as a free action. Unlike other outsiders, an
-empyreal knight can still be brought back from the dead as if she were a member of her previous
-creature type. This ability replaces holy champion.
+**Fullround:** An empyreal knight can summon a celestial ally. This functions as
+[summon monster I](ref/spell/summon-monster-1), except it can only be used to summon
+[celestial](ref/template/celestial) creatures, [archons](ref/family/archon), and angels.
+
+**Gained:** At 4th Level
+
+**Replaces:** Lay on hands, channel positive energy
+
+**Usage:** A number of times per day equal to the empyreal knight's Charisma modifier (minimum 1),
+but only one ally can be summoned at a time.
+
+**Usage:** A number of times per day equal to the empyreal knight's Charisma modifier (minimum 1),
+but only one ally can be summoned at a time.
+
+At 6th level: This improves to summon monster +2.
+
+At 8th level: This improves to summon monster +3.
+
+At 10th level: This improves to summon monster +4.
+
+At 12th level: This improves to summon monster +5.
+
+At 14th level: This improves to summon monster +6.
+
+At 16th level: This improves to summon monster +7.
+
+At 18th level: This improves to summon monster +8.
+
+At 20th level: This improves to summon monster +9.
+
+**Divine Bond (Su)**
+
+**Alters:** Divine bond
+
+**At 12th Level:** Her mount sprouts wings if it cannot already fly, and gains a fly speed of twice
+its land speed and good maneuverability. If the mount could already fly, its fly speed and
+maneuverability improve to at least this level.
+
+**At 5th Level:** An empyreal knight forms a bond with a mount, as the standard paladin ability.
+
+**At 8th Level:** Her mount gains the _celestial_ template.
+
+**Special:** This ability otherwise functions as the paladin ability of the same name.
+
+**Empyreal Champion**
+
+**Gained:** At 20th Level
+
+**Passive:** An empyreal knight transcends her mortal self. Her DR increases to 10/evil. Her type is
+treated as [outsider](ref/type/outsider) for the purposes of spells and magical effects. She gains
+[darkvision](ref/rule/darkvision) 60 feet and [low-light vision](ref/rule/low-light-vision).
+
+**Replaces:** Holy champion
+
+**Special:** Unlike other outsiders, an empyreal knight can still be brought back from the dead as
+if she were a member of her previous creature type.
+
+**Standard:** As a supernatural ability, she can sprout wings that allow her to fly at twice her
+land speed with average maneuverability. Any armor or clothing reshapes to allow her to fly when she
+uses this ability. She can retract the wings as a **free action**.

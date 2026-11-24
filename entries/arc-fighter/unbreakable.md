@@ -16,27 +16,16 @@ page = "49"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "tough-as-nails", level = 1 },
-  { anchor = "unflinching", level = 2 },
-  { anchor = "heroic-recovery", level = 5 },
-  { anchor = "heroic-defiance", level = 9 },
-  { anchor = "quick-recovery", level = 11 },
-  { anchor = "stalwart", level = 13 },
-  { anchor = "unlimited-endurance", level = 15 },
-  { anchor = "miraculous-recovery", level = 17 },
-  { anchor = "unbreakable-mind", level = 20 },
-]
 trades = [
-  { replaces = "The fighter's 1st-level bonus feat", feature = "bonus-feats", levels = [1], by = ["tough-as-nails"] },
-  { replaces = "Bravery", feature = "bravery", by = ["unflinching"] },
-  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5], by = ["heroic-recovery"] },
-  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9], by = ["heroic-defiance"] },
-  { replaces = "Armor training 3", feature = "armor-training", levels = [11], by = ["quick-recovery"] },
-  { replaces = "Weapon training 3", feature = "weapon-training", levels = [13], by = ["stalwart"] },
-  { replaces = "Armor training 4", feature = "armor-training", levels = [15], by = ["unlimited-endurance"] },
-  { replaces = "Weapon training 4", feature = "weapon-training", levels = [17], by = ["miraculous-recovery"] },
-  { replaces = "Weapon mastery", feature = "weapon-mastery", by = ["unbreakable-mind"] },
+  { replaces = "The fighter's 1st-level bonus feat", feature = "bonus-feats", levels = [1] },
+  { replaces = "Bravery", feature = "bravery" },
+  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5] },
+  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9] },
+  { replaces = "Armor training 3", feature = "armor-training", levels = [11] },
+  { replaces = "Weapon training 3", feature = "weapon-training", levels = [13] },
+  { replaces = "Armor training 4", feature = "armor-training", levels = [15] },
+  { replaces = "Weapon training 4", feature = "weapon-training", levels = [17] },
+  { replaces = "Weapon mastery", feature = "weapon-mastery" },
 ]
 +++
 
@@ -45,61 +34,96 @@ mind upon a course of action. The unbreakable endures any trial to do what must 
 his mind is set toward a goal, nothing can stop him from achieving it, though many may try. He is a
 juggernaut and a zealot, supremely confident in his own abilities.
 
-## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
+**Weapon and Armor Proficiency**
 
-An unbreakable is not proficient with tower shields.
+**Info:** An unbreakable is not proficient with tower shields.
 
-## Tough as Nails {#tough-as-nails}
+**Tough as Nails**
 
-An unbreakable gains [Endurance](ref/feat/endurance) and [Diehard](ref/feat/diehard) as bonus feats.
-This ability replaces the fighter's 1st-level bonus feat.
+**Ability:** An unbreakable gains [Endurance](ref/feat/endurance) and [Diehard](ref/feat/diehard) as
+bonus feats.
 
-## Unflinching (Ex) {#unflinching}
+**Replaces:** The fighter's 1st-level bonus feat
 
-At 2nd level, an unbreakable gains a +1 bonus on Will saves against mind-affecting effects. This
-bonus increases by +1 for every four levels after 2nd level (to a maximum of +5 at 18th level). This
-ability replaces bravery.
+**Unflinching (Ex)**
 
-## Heroic Recovery (Ex) {#heroic-recovery}
+**Gained:** At 2nd Level
 
-At 5th level, an unbreakable gains the [Heroic Recovery](ref/feat/heroic-recovery) feat as a bonus
+**Passive:** An unbreakable gains a +1 bonus on Will saves against mind-affecting effects.
+
+**Replaces:** Bravery
+
+At 6th level: This bonus increases to +2.
+
+At 10th level: This bonus increases to +3.
+
+At 14th level: This bonus increases to +4.
+
+At 18th level: This bonus increases to +5.
+
+**Heroic Recovery (Ex)**
+
+**Ability:** An unbreakable gains the [Heroic Recovery](ref/feat/heroic-recovery) feat as a bonus
 feat, if he does not have it already. If he already has this feat, the unbreakable can choose any
-combat feat instead. In addition, he may use this feat one additional time per day for every four
-levels after 5th (to a maximum of 4 times per day at 17th level). This ability replaces weapon
-training 1.
+combat feat instead.
 
-## Heroic Defiance (Ex) {#heroic-defiance}
+**Gained:** At 5th Level
 
-At 9th level, an unbreakable gains the [Heroic Defiance](ref/feat/heroic-defiance) feat as a bonus
+**Replaces:** Weapon training 1
+
+**Heroic Defiance (Ex)**
+
+**Ability:** An unbreakable gains the [Heroic Defiance](ref/feat/heroic-defiance) feat as a bonus
 feat, if he does not have it already. If he already has this feat, the unbreakable can choose any
-combat feat instead. In addition, he may use this feat one additional time per day for every four
-levels after 9th (to a maximum of 3 times per day at 19th level). This ability replaces weapon
-training 2.
+combat feat instead.
 
-## Quick Recovery (Ex) {#quick-recovery}
+**Gained:** At 9th Level
 
-At 11th level, an unbreakable needs only 15 minutes of rest or to be subject to a healing spell or
-effect to recover from the [fatigued](ref/misc/fatigued) condition. This ability replaces armor
-training 3.
+**Replaces:** Weapon training 2
 
-## Stalwart (Ex) {#stalwart}
+**Quick Recovery (Ex)**
 
-At 13th level, when an unbreakable succeeds on a Fortitude or Will save against a spell or
+**Gained:** At 11th Level
+
+**Passive:** An unbreakable needs only 15 minutes of rest or to be subject to a healing spell or
+effect to recover from the [fatigued](ref/misc/fatigued) condition.
+
+**Replaces:** Armor training 3
+
+**Stalwart (Ex)**
+
+**Gained:** At 13th Level
+
+**Passive:** When an unbreakable succeeds on a Fortitude or Will save against a spell or
 [spell-like ability](ref/umr/spell-like-abilities) that has a partial effect even on a successful
-save, he is completely unaffected by it. This ability replaces weapon training 3.
+save, he is completely unaffected by it.
 
-## Unlimited Endurance (Ex) {#unlimited-endurance}
+**Replaces:** Weapon training 3
 
-At 15th level, when an unbreakable is [exhausted](ref/misc/exhausted), he only suffers the effects
-of the fatigued condition instead, but does require 1 hour of rest to reduce this condition to the
-actual fatigued condition. This ability replaces armor training 4.
+**Unlimited Endurance (Ex)**
 
-## Miraculous Recovery (Ex) {#miraculous-recovery}
+**Gained:** At 15th Level
 
-At 17th level, when an unbreakable makes a saving throw to recover from an ongoing effect, he may
-roll twice and choose the better roll. This ability replaces weapon training 4.
+**Passive:** When an unbreakable is [exhausted](ref/misc/exhausted), he only suffers the effects of
+the fatigued condition instead, but does require 1 hour of rest to reduce this condition to the
+actual fatigued condition.
 
-## Unbreakable Mind (Ex) {#unbreakable-mind}
+**Replaces:** Armor training 4
 
-At 20th level, an unbreakable becomes nearly impossible to sway with honeyed words or magic. He
-gains immunity to mind-affecting effects. This ability replaces weapon mastery.
+**Miraculous Recovery (Ex)**
+
+**Gained:** At 17th Level
+
+**Passive:** When an unbreakable makes a saving throw to recover from an ongoing effect, he may roll
+twice and choose the better roll.
+
+**Replaces:** Weapon training 4
+
+**Unbreakable Mind (Ex)**
+
+**Gained:** At 20th Level
+
+**Passive:** An unbreakable becomes nearly impossible to sway with honeyed words or magic. He gains
+immunity to mind-affecting effects.
+
+**Replaces:** Weapon mastery

@@ -16,101 +16,127 @@ page = "59"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "pain-points", level = 3 },
-  { anchor = "martial-arts-master", level = 4 },
-  { anchor = "exploit-weakness", level = 4 },
-  { anchor = "extreme-endurance", level = 5 },
-  { anchor = "physical-resistance", level = 7 },
-  { anchor = "bonus-feat", level = 12 },
-  { anchor = "defensive-roll", level = 13 },
-  { anchor = "quivering-palm" },
-  { anchor = "greater-defensive-roll", level = 19 },
-]
 trades = [
-  { replaces = "Still mind", feature = "still-mind", by = ["pain-points"] },
-  { replaces = "Slow fall", feature = "slow-fall", by = ["martial-arts-master"] },
-  { replaces = "Ki pool", feature = "ki-pool", by = ["exploit-weakness"] },
-  { replaces = "Purity of body", feature = "purity-of-body", by = ["extreme-endurance"] },
-  { replaces = "diamond body", feature = "diamond-body", by = ["extreme-endurance"] },
-  { replaces = "perfect self", feature = "perfect-self", by = ["extreme-endurance"] },
-  { replaces = "Wholeness of body", feature = "wholeness-of-body", by = ["physical-resistance"] },
-  { replaces = "timeless body", feature = "timeless-body", by = ["physical-resistance"] },
-  { replaces = "tongue of sun and moon", feature = "tongue-of-the-sun-and-moon", by = ["physical-resistance"] },
-  { replaces = "Abundant step", feature = "abundant-step", by = ["bonus-feat"] },
-  { replaces = "Diamond soul", feature = "diamond-soul", by = ["defensive-roll"] },
-  { replaces = "Empty body", feature = "empty-body", by = ["greater-defensive-roll"] },
-  { alters = "Quivering palm", feature = "quivering-palm", by = ["quivering-palm"] },
+  { replaces = "Still mind", feature = "still-mind" },
+  { replaces = "Slow fall", feature = "slow-fall" },
+  { replaces = "Ki pool", feature = "ki-pool" },
+  { replaces = "Purity of body", feature = "purity-of-body" },
+  { replaces = "diamond body", feature = "diamond-body" },
+  { replaces = "perfect self", feature = "perfect-self" },
+  { replaces = "Wholeness of body", feature = "wholeness-of-body" },
+  { replaces = "timeless body", feature = "timeless-body" },
+  { replaces = "tongue of sun and moon", feature = "tongue-of-the-sun-and-moon" },
+  { replaces = "Abundant step", feature = "abundant-step" },
+  { replaces = "Diamond soul", feature = "diamond-soul" },
+  { replaces = "Empty body", feature = "empty-body" },
+  { alters = "Quivering palm", feature = "quivering-palm" },
 ]
 +++
 
 The martial artist pursues a mastery of pure martial arts without the monastic traditions. He is a
 master of form, but lacks the ability to harness his ki.
 
-## Alignment {#alignment}
+**Alignment**
 
-A martial artist may be of any alignment.
+**Info:** A martial artist may be of any alignment.
 
-## Pain Points (Ex) {#pain-points}
+**Pain Points (Ex)**
 
-At 3rd level, a martial artist's advanced knowledge of anatomy grants a +1 bonus on critical hit
-confirmation rolls and increases the DC of his stunning fist and quivering palm by 1. This ability
-replaces still mind.
+**Gained:** At 3rd Level
 
-## Martial Arts Master (Ex) {#martial-arts-master}
+**Passive:** A martial artist's advanced knowledge of humanoid anatomy grants a +1 bonus on critical
+hit confirmation rolls and increases the DC of his _stunning fist_ and _quivering palm_ by 1.
 
-At 4th level, a martial artist may use his monk level to qualify for feats with a fighter level
+**Replaces:** Still mind
+
+**Martial Arts Master (Ex)**
+
+**Ability:** A martial artist may use his monk level to qualify for feats with a fighter level
 prerequisite when those feats are applied to unarmed strikes or weapons with the monk special
-quality. This ability replaces slow fall.
+quality.
 
-## Exploit Weakness (Ex) {#exploit-weakness}
+**Gained:** At 4th Level
 
-At 4th level, as a swift action, a martial artist can observe a creature or object to find its weak
-point by making a Wisdom check and adding his monk level against a DC of 10 + the object's
+**Replaces:** Slow fall
+
+**Exploit Weakness (Ex)**
+
+**Ability:** A martial artist may instead use this ability as a **swift action** to analyze the
+movements and expressions of one creature within 30 feet, granting a bonus on Sense Motive checks
+and Reflex saves and a dodge bonus to AC against that opponent equal to 1/2 his monk level until the
+start of his next turn.
+
+**Gained:** At 4th Level
+
+**Replaces:** Ki pool
+
+**Swift:** A martial artist can observe a creature or object to find its weak point by making a
+Wisdom check and adding his monk level against a DC of 10 + the object's
 [hardness](ref/umr/hardness) or the target's CR. If the check succeeds, the martial artist gains a
 +2 bonus on attack rolls until the end of his turn, and any attacks he makes until the end of his
 turn ignore the creature or object's DR or hardness.
 
-A martial artist may instead use this ability as a swift action to analyze the movements and
-expressions of one creature within 30 feet, granting a bonus on Sense Motive checks and Reflex saves
-and a dodge bonus to AC against that opponent equal to 1/2 his monk level until the start of his
-next turn.
+**Extreme Endurance (Ex)**
 
-This ability replaces ki pool.
+**At 10th Level:** He also gains immunity to [exhaustion](ref/misc/exhausted).
 
-## Extreme Endurance (Ex) {#extreme-endurance}
+**At 15th Level:** He gains immunity to stunning.
 
-At 5th level, a martial artist gains immunity to [fatigue](ref/misc/fatigued). At 10th level, he
-also gains immunity to [exhaustion](ref/misc/exhausted). At 15th level, he gains immunity to
-stunning. At 20th level, he gains immunity to death effects and
-[energy drain](ref/rule/energy-drain-and-negative-levels). This ability replaces purity of body,
-diamond body, and perfect self.
+**At 20th Level:** He gains immunity to death effects and
+[energy drain](ref/rule/energy-drain-and-negative-levels).
 
-## Physical Resistance (Ex) {#physical-resistance}
+**At 5th Level:** A martial artist gains immunity to [fatigue](ref/misc/fatigued).
 
-At 7th level, if a martial artist suffers any effect that causes
+**Replaces:** Purity of body, diamond body, perfect self
+
+**Physical Resistance (Ex)**
+
+**Gained:** At 7th Level
+
+**Passive:** If a martial artist suffers any effect that causes
 [ability damage](ref/rule/ability-damage-drain), ability drain, or temporary ability score
-penalties, the effect is reduced by 1 point. This reduction increases by 1 for every three levels
-beyond 7th (to a maximum reduction of 5 at 19th level). This ability replaces wholeness of body,
-timeless body, and tongue of the sun and moon.
+penalties, the effect is reduced by 1 point.
 
-## Bonus Feat {#bonus-feat}
+**Replaces:** Wholeness of body, timeless body, tongue of sun and moon
 
-At 12th level, a martial artist gains an additional bonus feat, selected from those available in the
-monk class feature. This ability replaces abundant step.
+At 10th level: This reduction increases to 2 points.
 
-## Defensive Roll (Ex) {#defensive-roll}
+At 13th level: This reduction increases to 3 points.
 
-At 13th level, a martial artist may use the defensive roll advanced rogue talent once per day, plus
-once per three levels beyond 13th (to a maximum of 3 times a day at 19th level). This ability
-replaces diamond soul.
+At 16th level: This reduction increases to 4 points.
 
-## Quivering Palm {#quivering-palm}
+At 19th level: This reduction increases to 5 points.
 
-A martial artist may use this ability one additional time per day per level above 15th, but may not
-have more than one in effect at a time.
+**Bonus Feats**
 
-## Greater Defensive Roll (Ex) {#greater-defensive-roll}
+**Ability:** A martial artist gains an additional bonus feat, selected from those available in the
+monk class feature.
 
-At 19th level, a martial artist suffers no damage on a successful defensive roll, and only half
-damage if the Reflex saving throw fails. This ability replaces empty body.
+**Gained:** At 12th Level
+
+**Replaces:** Abundant step
+
+**Defensive Roll (Ex)**
+
+**Ability:** A martial artist may use the defensive roll advanced rogue talent once per day.
+
+**Gained:** At 13th Level
+
+**Replaces:** Diamond soul
+
+**Quivering Palm**
+
+**Alters:** Quivering palm
+
+**At 16th Level:** A martial artist may use this ability one additional time per day.
+
+**Special:** A martial artis may not have more than one _quivering palm_ in effect at a time.
+
+**Greater Defensive Roll (Ex)**
+
+**Gained:** At 19th Level
+
+**Passive:** A martial artist suffers no damage on a successful defensive roll, and only half damage
+if the Reflex saving throw fails.
+
+**Replaces:** Empty body

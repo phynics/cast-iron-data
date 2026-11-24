@@ -790,32 +790,64 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
 
 # ---- trade sentences ---------------------------------------------------------------------------------
 
+TRADE_SUBJECT_WORDS = (r"ability|abilities|class|feature|features|power|powers|archetype|performance|performances|trick|tricks|"
+                       r"talent|talents|hex|hexes|discovery|discoveries|revelation|revelations|mercy|mercies|deed|deeds|exploit|"
+                       r"exploits|arcana|arcanum|feat|feats|also|otherwise|acts|works|functions|as|like|and|bonus|spells|skills")
 TRADE_SENTENCE = re.compile(
-    r"(?:^|(?<=[.!?]\s))((?:This|These|It)\b(?:\s+(?:ability|abilities|class|feature|features|power|powers|archetype|performance|performances|trick|tricks|talent|talents|hex|hexes|discovery|discoveries|revelation|revelations|mercy|mercies|deed|deeds|exploit|exploits|arcana|arcanum|feat|feats|also|otherwise|acts|works|functions|as|like|and))*\s+(replaces?|alters?)\b[^.]*\.)",
+    r"(?:^|(?<=[.!?]\s))((?:This|These|It)\b(?:\s+(?:" + TRADE_SUBJECT_WORDS + r"))*\s+(replaces?|alters?|changes?)\b[^.]*\.)",
     re.I,
 )
+ABILITY_NOUN = (r"\b(?:ability|abilities|feature|features|power|powers|archetype|performances?|tricks?|talents?|hex(?:es)?|"
+                r"discover(?:y|ies)|revelations?|merc(?:y|ies)|deeds?|exploits?|arcana|arcanum)\b")
 
 
-def trade_sentences(text: str) -> list[tuple[str, str, bool]]:
+def _op_of(verb: str) -> str:
+    return "replaces" if verb.lower().startswith("replace") else "alters"      # ruling 25: "changes" is an alters verb
+
+
+def _clean_phrase(phrase: str) -> str:
+    phrase = phrase.strip().rstrip(".").strip()
+    phrase = re.sub(r",\s+but\b.*$", "", phrase)                              # R8: the phrase ends at ", but "
+    m = re.search(r"\s*\(([^()]*)\)\s*$", phrase)                            # R9: a final parenthesis of 4+ words is an aside
+    if m and len(m.group(1).split()) >= 4:
+        phrase = phrase[:m.start()]
+    return phrase.strip().rstrip(".").strip()
+
+
+def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
     """[(op, phrase, bare)] of the trade sentences of a text: "This ability replaces bravery." gives
     ("replaces", "bravery", False). A bare sentence ("These replace the normal attack roll bonus.") has no
-    ability, feature, power or archetype in its subject: the app counts it only when it names a stored trade."""
+    ability, feature, power or archetype in its subject: the app counts it only when it names a stored trade.
+    The reader rules of owner ruling 21 (R8, R9, R11, R12) and 25: a phrase ends at ", but "; a final parenthesis of
+    four or more words is an aside; "X replaces Y and alters Z" is two sentences; the heading of the feature
+    (without its ability tag) is a subject too; "changes" is an `alters` verb."""
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[\\_*]", "", text)
     text = re.sub(r"\s+", " ", text)        # a paragraph break inside a sentence (a column or page break) does not end it
     out = []
-    for m in TRADE_SENTENCE.finditer(text):
-        op = "replaces" if m.group(2).lower().startswith("replace") else "alters"
-        sentence = m.group(1)
-        subject = re.match(r"^(?:This|These|It)\b(.*?)\b(?:replaces?|alters?)\b", sentence, re.I).group(1)
-        bare = not re.search(r"\b(?:ability|abilities|feature|features|power|powers|archetype|performances?|tricks?|talents?|hex(?:es)?|discover(?:y|ies)|revelations?|merc(?:y|ies)|deeds?|exploits?|arcana|arcanum)\b", subject, re.I)
-        phrase = re.sub(r"^(?:This|These|It)\b.*?\b(?:replaces?|alters?)\b", "", sentence, flags=re.I).strip().rstrip(".")
-        out.append((op, phrase, bare))
+    found = [(m.group(1), m.start(1)) for m in TRADE_SENTENCE.finditer(text)]
+    plain = ABILITY_TAG.sub("", head).strip() if head else ""
+    if plain:                                 # R12
+        for m in re.finditer(r"(?:^|(?<=[.!?]\s))(" + re.escape(plain) + r"\s+(?:replaces?|alters?|changes?)\b[^.]*\.)", text, re.I):
+            if all(m.start(1) != at for _, at in found):
+                found.append((m.group(1), m.start(1)))
+    for sentence, _ in sorted(found, key=lambda x: x[1]):
+        verb = re.search(r"\b(replaces?|alters?|changes?)\b", sentence, re.I)
+        subject = sentence[:verb.start()]
+        bare = not re.search(ABILITY_NOUN, subject, re.I) and not (plain and subject.strip().lower() == plain.lower())
+        rest = sentence[verb.end():]
+        parts = re.split(r"\s*,?\s+and\s+(?=(?:replaces?|alters?|changes?)\b)", rest, flags=re.I)       # R11: two verbs, two sentences
+        ops = [verb.group(1)] + [re.match(r"(replaces?|alters?|changes?)", x, re.I).group(1) for x in parts[1:]]
+        for op_word, part in zip(ops, parts):
+            part = re.sub(r"^(?:replaces?|alters?|changes?)\b", "", part.strip(), flags=re.I)
+            out.append((_op_of(op_word), _clean_phrase(part), bare))
     return out
 
 
 ORDINAL_WORDS = {"first": "1st", "second": "2nd", "third": "3rd", "fourth": "4th", "fifth": "5th", "sixth": "6th",
-                 "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th"}
+                 "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th", "eleventh": "11th", "twelfth": "12th",
+                 "thirteenth": "13th", "fourteenth": "14th", "fifteenth": "15th", "sixteenth": "16th",
+                 "seventeenth": "17th", "eighteenth": "18th", "nineteenth": "19th", "twentieth": "20th"}      # R3
 CLASS_WORDS = {"alchemist", "barbarian", "bard", "cavalier", "cleric", "druid", "fighter", "gunslinger", "inquisitor",
                "magus", "monk", "oracle", "paladin", "ranger", "rogue", "sorcerer", "summoner", "witch", "wizard", "both"}
 
@@ -823,14 +855,21 @@ CLASS_WORDS = {"alchemist", "barbarian", "bard", "cavalier", "cleric", "druid", 
 def phrase_tokens(text: str) -> list[str]:
     """Words of a trade name or of a printed phrase, as the app reads them: no articles, no class names, ordinals as
     digits, "gained at 4th level" as "4th-level", "1 to 4" as one range."""
-    text = fold(text).replace("'s", "")
-    text = re.sub(r"(\d+)\s*(?:to|-|through)\s*(\d+)\b", r"\1-\2", text)
+    text = fold(text)
+    text = text.replace(" as well as ", " and ")                                           # R7
+    text = re.sub(r"\b(?:normal|normally)\s+", "", text)                                     # R2
+    # R10: a possessor phrase before a name ("the sacred shield's holy champion ability") is not part of the name
+    text = re.sub(r"(?:\b(?:the|a|an)\s+)?(?:[a-z-]+\s+){0,2}[a-z-]+'s\s+", "", text)
+    text = text.replace("'s", "")
+    text = re.sub(r"\b(\d+)(?:st|nd|rd|th)?\s*(?:to|-|through)\s*(\d+)(?:st|nd|rd|th)?\b(?!-level)", lambda m: " ".join(
+        str(n) for n in range(int(m.group(1)), int(m.group(2)) + 1)) if 0 < int(m.group(1)) < int(m.group(2)) <= 20 else m.group(0), text)   # R6
     text = re.sub(r"\b(\w+) gained at (\d+(?:st|nd|rd|th)) levels?\b", r"\2-level \1", text)
     words = re.findall(r"[a-z0-9]+(?:-[a-z0-9]+)*", text)
     out = []
     for w in words:
         w = ORDINAL_WORDS.get(w, w)
-        if w in ("the", "a", "an", "standard", "ability", "feature", "class") or w in CLASS_WORDS:
+        if w in ("the", "a", "an", "standard", "ability", "abilities", "feature", "features", "class",    # R1
+                 "normal", "normally") or w in CLASS_WORDS:                                                  # R2: `bonus` stays
             continue
         out.extend(stem(x) for x in (w.split("-") if re.fullmatch(r"\d+-\d+", w) is None else [w]))
     return out
@@ -862,7 +901,7 @@ def covers(phrase: str, trade_name: str) -> bool:
 
 # ---- comparing the draft with print ------------------------------------------------------------------
 
-LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?)\b[^.]*\.", re.I)
+LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?|changes?)\b[^.]*\.", re.I)
 PROGRESSION = re.compile(r"(?:every|per)\s+\w+\s+(?:\w+\s+)?levels?\s+(?:beyond|after|above|thereafter)|every\s+\w+\s+levels?\s+thereafter", re.I)
 
 
@@ -1355,6 +1394,8 @@ MISPRINTS = [
     ("ref/arc-ranger/horse-lord", "of the him", "of him", "the sentence needs no article before the pronoun"),
     ("ref/arc-monk/hungry-ghost-monk", "The ability replaces diamond soul", "This ability replaces diamond soul",
      "every other trade sentence of the book starts \"This ability\""),
+    ("ref/arc-druid/world-walker", "resist nature's lore", "resist nature's lure",
+     "the druid ability is resist nature's lure; the entry's own trade row names it"),
     ("ref/arc-druid/reincarnated-druid", "a reincarnated druids adds", "a reincarnated druid adds", "a stray plural ending"),
     ("ref/arc-fighter/unbreakable", "Die Hard", "Diehard", "the feat is Diehard (Core Rulebook p. 119); print splits the name"),
     ("ref/arc-barbarian/wild-rager", "bloody blow", "[bleeding blow](ref/ragepower/bleeding-blow)",
@@ -1521,8 +1562,11 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         text, lost, pnotes = print_md(pf, old_links(f), vocab, e.id, keep)
         # a printed "(see ...)" cross-reference is kept in the text but is not a rule word: the corpus links instead
         cmp = compare_feature(draft, re.sub(r"\s*\([Ss]ee\b[^()]*\)", "", text), set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
+        # the whole row, then its parts: a name that is a list ("The 1st-, 9th-, and 15th-level channel energy
+        # abilities") is one stored trade, a row of several names is several
         named = [x.strip() for it in f.items if it.label in ("Replaces", "Alters")
-                 for x in re.split(r",| and ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)) if x.strip()]
+                 for x in [re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)]
+                 + re.split(r",| and ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)) if x.strip()]
         row = {"anchor": anchor_of(head), "span": f.span_sha(), "page": pf.page, "pseudo": f.pseudo,
                "import_trades": named, "links": [],
                "draft": draft.text, "level_import": draft.level, "head": head, "print": text,
@@ -1598,7 +1642,7 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
     (owner ruling A of 2026-11-24: the feature prints the changed ability). Returns the map and the problems."""
     problems: list[str] = []
     by: dict[int, list[str]] = {}
-    sentences = {f["anchor"]: trade_sentences(f["print"]) for f in listed}
+    sentences = {f["anchor"]: trade_sentences(f["print"], f.get("head", "")) for f in listed}
     opening_sentences = [s for o in opening for s in trade_sentences(o)]
     for i, t in enumerate(trades):
         op, name = trade_name(t)
@@ -1614,14 +1658,17 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
                  for sop, ph, _ in opening_sentences):
             by[i] = []
         else:
-            own = [f["anchor"] for f in listed
-                   if not sentences[f["anchor"]] and namekey(f["head"]) == namekey(name)]
+            # ruling A per operation (owner ruling 24): the feature prints no sentence of the trade's own op
+            quiet = lambda f: not any(sop == op for sop, _, _ in sentences[f["anchor"]])
+            own = [f["anchor"] for f in listed if quiet(f) and namekey(f["head"]) == namekey(name)]
             if not own:
                 # the feature under which the import held the `**Replaces:**` / `**Alters:**` row of this trade
                 own = [f["anchor"] for f in listed
-                       if not sentences[f["anchor"]] and namekey(name) in {namekey(x) for x in f.get("import_trades", [])}]
+                       if quiet(f) and namekey(name) in {namekey(x) for x in f.get("import_trades", [])}]
             if own:
                 by[i] = own
+            elif op == "alters" and t.get("feature") == "weapon-and-armor-proficiencies":
+                by[i] = []              # owner ruling 23: a proficiency change that no sentence states, stored as `alters`
             else:
                 problems.append(f"the {op} trade `{name}` is not printed in a sentence, and no listed feature of that name prints it")
     for f in listed:
@@ -1637,6 +1684,27 @@ TRADE_RENAMES = {
     ("ref/arc-druid/urban-druid", "Spontaneous casting"): "Ability to spontaneously cast summon nature's ally spells",
     ("ref/arc-ranger/skirmisher", "Spellcasting ability"): "Spells",
     ("ref/arc-monk/monk-of-the-empty-hand", "Weapon proficiencies"): "Normal monk weapon proficiencies",
+    ("ref/arc-alchemist/psychonaut", "15th-level bomb damage increase"): "Increase to bomb damage at this level",
+    ("ref/arc-alchemist/psychonaut", "17th-level bomb damage increase"): "Increase to bomb damage at this level",
+    ("ref/arc-oracle/dual-cursed-oracle", "The bonus spells gained at 2nd, 4th, and 6th levels from the oracle's mystery"): "Mystery bonus spells at these levels",
+    ("ref/arc-oracle/enlightened-philosopher", "All bonus spells gained from the oracle's mystery after 2nd level"): "Mystery bonus spells at these levels",
+    ("ref/arc-oracle/planar-oracle", "All bonus spells from the oracle's mystery"): "Mystery bonus spells at these levels",
+    ("ref/arc-oracle/possessed-oracle", "The bonus spells gained at 1st, 4th, 6th, 8th, 10th, 12th, and 16th levels from the oracle's mystery"): "Mystery bonus spells at these levels",
+    ("ref/arc-oracle/seer", "Bonus spells granted by the oracle's mystery after 2nd level"): "Mystery bonus spells at these levels",
+    ("ref/arc-oracle/stargazer", "The bonus spells gained at 2nd, 4th, 6th, 8th, and 18th levels from the oracle's mystery"): "Mystery bonus spells at these levels",
+    ("ref/arc-oracle/enlightened-philosopher", "Final revelation"): "Final revelation of the oracle's mystery",
+    ("ref/arc-oracle/planar-oracle", "Final revelation"): "Final revelation of the oracle's mystery",
+    ("ref/arc-oracle/enlightened-philosopher", "Bonus skills from the oracle's mystery"): "Additional class skills from her mystery",
+    ("ref/arc-oracle/stargazer", "Bonus skills from the oracle's mystery"): "Additional class skills from her mystery",
+    ("ref/arc-inquisitor/sin-eater", "Teamwork feat gained at 6th level"): "Bonus teamwork feat gained at 6th level",
+    ("ref/arc-inquisitor/spellbreaker", "Teamwork feats"): "Bonus teamwork feats",
+    ("ref/arc-ranger/trapper", "Spellcasting ability"): "Spells",
+    ("ref/arc-gunslinger/gun-tank", "All bonus combat/grit feats"): "Bonus feats the gunslinger gains at 4th level and every four levels thereafter",
+    ("ref/arc-gunslinger/musket-master", "Firearm training 1, 2, 3, and 4"): "Gun training 1, 2, 3, and 4",
+    ("ref/arc-magus/myrmidarch", "10th-level fighter training"): "Fighter training the magus gains at 10th level",
+    ("ref/arc-monk/sensei", "Bonus feats gained at 6th, 10th, and 14th level"): "Bonus feats at 6th, 10th, and 14th level",
+    ("ref/arc-ranger/falconer", "6th-level combat style feat"): "Combat style feat the ranger gains at 6th level",
+    ("ref/arc-cavalier/gendarme", "cavalier bonus feats"): "Selection of bonus feats",
     ("ref/arc-paladin/divine-hunter", "Aura of righteousness"): "Aura of faith",
     ("ref/arc-monk/qinggong-monk", "The monk class abilities the qinggong monk gives up for a ki power"):
         "The monk class ability the qinggong monk gives up for this ki power",
@@ -1652,6 +1720,11 @@ TRADE_RENAMES = {
 TRADE_OP_FIXES = {
     ("ref/arc-alchemist/reanimator", "Bombs"): "replaces",
     ("ref/arc-inquisitor/infiltrator", "Stern gaze"): "replaces",
+    ("ref/arc-bard/geisha", "Armor and weapon proficiencies"): "replaces",
+    ("ref/arc-bard/dervish-dancer", "Bardic performance"): "replaces",
+    ("ref/arc-cavalier/gendarme", "cavalier bonus feats"): "alters",
+    ("ref/arc-fighter/gladiator", "Proficiency with heavy armor"): "alters",         # owner ruling 23: proficiency changes are `alters`
+    ("ref/arc-fighter/gladiator", "tower shields"): "alters",
 }
 
 
@@ -1683,6 +1756,7 @@ TRADE_UNLINKS = {
 TRADE_MERGED = {
     "ref/arc-alchemist/reanimator": [("replaces", "13th-level bomb damage increase"),
                                      ("replaces", "15th-level bomb damage increase")],
+    "ref/arc-alchemist/psychonaut": [("replaces", "17th-level bomb damage increase")],
 }
 
 
@@ -1924,10 +1998,11 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             rows[0]["notes"].append(f'trade unlinked: "{trade_name(old)[1]}" loses its `feature` and `levels`: a trade of the whole Bomb feature (print: "functions as and replaces the standard alchemist bomb class feature", p. 20) overlaps a trade of one level of it, so the printed level trade is one unlinked trade')
         if old != t:
             anchors = by.get(i) or [rows[0]["anchor"]]
+            note = ""
             if trade_name(old)[0] != trade_name(t)[0]:
                 note = f'trade op fixed: stored as {trade_name(old)[0]} "{trade_name(old)[1]}", print says {trade_name(t)[0]}'
-            else:
-                note = f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
+            if trade_name(old)[1] != trade_name(t)[1]:
+                note += ("; " if note else "") + f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
             next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
     for origin in sorted(dropped_trade_indices(e)):
         old = trades_of(e)[origin]
@@ -2185,13 +2260,13 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     for old in TRADE_UNLINKS.get(e.id, []):
         front = re.sub(r'^(\s*\{ \w+ = "' + re.escape(old) + r'")(?:, feature = "[^"]*")?(?:, levels = \[[^\]]*\])?',
                        r"\1", front, count=1, flags=re.M)
-    for (eid, old), new in TRADE_RENAMES.items():
-        if eid == e.id:
-            front = front.replace(f'"{old}"', f'"{new}"', 1)
     for (eid, name), op in TRADE_OP_FIXES.items():
         if eid == e.id:
             other = "alters" if op == "replaces" else "replaces"
             front = front.replace(f'{other} = "{name}"', f'{op} = "{name}"', 1)
+    for (eid, old), new in TRADE_RENAMES.items():
+        if eid == e.id:
+            front = front.replace(f'"{old}"', f'"{new}"', 1)
     return "+++\n" + front + "\n+++\n\n" + "\n\n".join(parts) + "\n"
 
 
@@ -2413,7 +2488,7 @@ def self_test() -> int:
     # a longer stored trade wins: "replaces mass suggestion" does not name `Suggestion`
     trades = [{"replaces": "Suggestion"}, {"replaces": "Mass suggestion"}, {"replaces": "Evasion"}, {"replaces": "Improved evasion"}]
     feats = [{"anchor": "a", "head": "A", "print": "This performance replaces mass suggestion."},
-             {"anchor": "b", "head": "B", "print": "This ability replaces improved evasion and alters nothing."}]
+             {"anchor": "b", "head": "B", "print": "This ability replaces improved evasion."}]
     by, problems = assign_by(trades, feats, [])
     eq(by.get(1), ["a"], "the longer trade is named")
     eq(by.get(3), ["b"], "improved evasion is named")
@@ -2425,6 +2500,38 @@ def self_test() -> int:
     trades = [{"replaces": "Armor training 3"}, {"replaces": "Armor training 4"}]
     by, _ = assign_by(trades, [{"anchor": "a", "head": "A", "print": "This ability replaces armor training 3 and 4."}], [])
     eq(by, {0: ["a"], 1: ["a"]}, "a step list still names both trades")
+    # the reader rules of owner ruling 21 (R1 to R12), 24 and 25, as the script reads a trade sentence
+    eq(covers("the mutagen class ability (a mindchemist cannot create mutagens unless he selects mutagen as a discovery)", "Mutagen"), True, "R1 class ability, R9 aside")
+    eq(covers("a monk's normal bonus feats", "Bonus feats"), True, "R2 normal")
+    eq(covers("a monk's normal bonus feats", "Feats"), True, "R2 a longer name still holds the short one")
+    eq(phrase_tokens("the bonus feats"), phrase_tokens("bonus feats"), "R2 bonus stays")
+    eq("bonu" in phrase_tokens("normal bonus feats"), True, "R2 bonus is never dropped")
+    eq(covers("the magus arcana normally gained at 9th level", "Magus arcana gained at 9th level"), True, "R2 normally before gained at")
+    eq(trade_sentences("These bonus spells replace the oracle's mystery bonus spells at these levels.")[0][2], True, "a bonus spells sentence is bare")
+    eq(covers("the oracle's normal mystery bonus spells at these levels", "Mystery bonus spells at these levels"), True, "the oracles' bonus spells, renamed (ruling 22)")
+    eq(covers("the ranger's second favored enemy", "2nd favored enemy"), True, "R3 spelled ordinal")
+    eq(covers("the ranger's twentieth level feat", "20th level feat"), True, "R3 twentieth")
+    eq(covers("the 10th-level wizard bonus feat", "10th-level bonus feat"), True, "R5 class name after Nth-level")
+    eq(covers("gun training 1 to 4", "Gun training 1-4"), True, "R6 range")
+    eq(covers("gun training 1, 2, 3, and 4", "Gun training 1-4"), True, "R6 range against a list")
+    eq(covers("poison resistance +2, +4, and +6, as well as poison immunity", "poison immunity"), True, "R7 as well as")
+    eq(trade_sentences("This ability replaces cantrips, but the arcanist gains detect magic and read magic.")[0][1], "cantrips", "R8 phrase ends at but")
+    eq(trade_sentences("This ability replaces the mutagen class ability (a mindchemist cannot create mutagens unless he selects mutagen).")[0][1], "the mutagen class ability", "R9 aside")
+    eq(trade_sentences("This ability replaces bravery (see page 4).")[0][1], "bravery (see page 4)", "R9 a short parenthesis stays")
+    eq(covers("the sacred shield's holy champion ability", "Holy champion"), True, "R10 possessor phrase")
+    eq(covers("the sacred shield's holy champion ability", "Sacred shield"), False, "R10 the possessor is not a name")
+    eq(trade_sentences("This ability replaces tactician and alters the standard cavalier's selection of bonus feats.", "Bonus Feats (Ex)"),
+       [("replaces", "tactician", False), ("alters", "the standard cavalier's selection of bonus feats", False)], "R11 two verbs, two sentences")
+    eq(trade_sentences("Sermonic performance replaces inspire courage.", "Sermonic Performance (Su)"), [("replaces", "inspire courage", False)], "R12 the heading is a subject")
+    eq(trade_sentences("Sermonic performance replaces inspire courage.", ""), [], "R12 without the heading it is prose")
+    eq(trade_sentences("This ability changes the Arcane Pool class feature and replaces the magus arcana gained at 3rd level."),
+       [("alters", "the Arcane Pool class feature", False), ("replaces", "the magus arcana gained at 3rd level", False)], "ruling 25 changes")
+    # ruling 24: ruling A per operation; ruling 23: a proficiency change stored as alters needs no sentence
+    trades = [{"alters": "Teamwork feats"}]
+    by, problems = assign_by(trades, [{"anchor": "p", "head": "Teamwork Feats", "print": "This ability replaces solo tactics.", "import_trades": []}], [])
+    eq((by, problems), ({0: ["p"]}, ["Teamwork Feats: the sentence \"This ability replaces solo tactics\" names no trade"]), "ruling A reads per operation")
+    by, problems = assign_by([{"alters": "Heavy armor", "feature": "weapon-and-armor-proficiencies"}], [{"anchor": "a", "head": "A", "print": "x"}], [])
+    eq((by, problems), ({0: []}, []), "a proficiency alters needs no sentence")
     # a step trade that a longer step-list trade covers is named only by its own sentence (Unarmed Fighter, p. 48)
     trades = [{"replaces": "Weapon training 1, 2, 3, and 4"}, {"replaces": "Weapon training 3"}]
     feats = [{"anchor": "a", "head": "A", "print": "This ability replaces weapon training 1, 2, 3, and 4."},

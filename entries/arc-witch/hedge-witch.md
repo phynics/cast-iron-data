@@ -16,14 +16,9 @@ page = "84"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "patron" },
-  { anchor = "spontaneous-healing", level = 4 },
-  { anchor = "empathic-healing", level = 8 },
-]
 trades = [
-  { replaces = "4th-level hex", feature = "hex", levels = [4], by = ["spontaneous-healing"] },
-  { replaces = "8th-level hex", feature = "hex", levels = [8], by = ["empathic-healing"] },
+  { replaces = "4th-level hex", feature = "hex", levels = [4] },
+  { replaces = "8th-level hex", feature = "hex", levels = [8] },
 ]
 +++
 
@@ -31,37 +26,41 @@ Among witches, there are those who devote themselves to the care of others and r
 practices to the healing arts. They often take the place of clerics in rural communities and may
 wander the countryside servicing the needs of several small communities.
 
-## Patron {#patron}
+**Patron**
 
-A hedge witch's patron is normally one with a [healing](ref/patron/healing) theme (see page 83).
+**Info:** A hedge witch's patron is normally one with a [healing](ref/patron/healing) theme.
 
-## Spontaneous Healing (Su) {#spontaneous-healing}
+**Spontaneous Healing (Su)**
 
-A hedge witch can channel stored spell energy into healing spells that she did not prepare ahead of
-time. The witch can "lose" any prepared spell that is not a cantrip in order to cast any _cure_
-spell of the same spell level or lower, even if she doesn't know that cure spell. This replaces the
-witch's hex gained at 4th level.
+**Ability:** The witch can "lose" any prepared spell that is not an orison in order to cast any cure
+spell of the same spell level or lower, even if she doesn't know that cure spell.
 
-## Empathic Healing (Su) {#empathic-healing}
+**Flavor:** A hedge witch can channel stored spell energy into healing spells that she did not
+prepare ahead of time.
 
-A hedge witch can minister to a diseased or poisoned target, redirecting the affliction into
-herself. For a poisoned target, the witch must tend to him as a standard action; he makes his next
-saving throw against the poison as normal, but the witch suffers the effects of the failed save
-instead of the poisoned creature. For a diseased target, the witch must tend to the sick person for
-an hour; he makes his next saving throw against the disease as normal, but the witch suffers the
-effects of the failed save instead of the diseased creature. The witch does not actually become
-poisoned or diseased (and is not contagious and does not need to be cured), but suffers the effects
-of the affliction as if she had been. The witch normally uses this ability to extend the life of
-someone near death, giving him time to recover. This ability has no effect if the witch is immune to
-disease or poison. This replaces the witch's hex gained at 8th level.
+**Replaces:** 4th-level hex
 
-## Hexes {#hexes}
+**Empathic Healing (Su)**
 
-The following witch hexes complement the hedge witch archetype: cauldron, feral speech, healing,
-tongues.
+**Ability:** A hedge witch can minister to a diseased or poisoned target, redirecting the affliction
+into herself. For a poisoned target, the witch must tend to him as a **standard action**; he makes
+his next saving throw against the poison as normal, but the witch suffers the effects of the failed
+save instead of the poisoned creature.
 
-## Major Hexes {#major-hexes}
+For a diseased target, the witch must tend to the sick person for an hour; he makes his next saving
+throw against the disease as normal, but the witch suffers the effects of the failed save instead of
+the diseased creature.
 
-The following major hexes complement the hedge witch archetype: major healing, weather control,
-witch's brew. Grand Hexes: The following grand hex complements the hedge witch archetype: life
-giver.
+**Replaces:** 8th-level hex
+
+**Special:** The witch does not actually become poisoned or diseased (and is not contagious and does
+not need to be cured), but suffers the effects of the affliction as if she had been. The witch
+normally uses this ability to extend the life of someone near death, giving him time to recover.
+This ability has no effect if the witch is immune to disease or poison.
+
+**The following witch hexes complement this archetype:** Cauldron, feral speech, healing, tongues
+
+**The following major hexes complement this archetype:** Major healing, weather control, witch's
+brew
+
+**The following grand hex complements this archetype:** Life giver
