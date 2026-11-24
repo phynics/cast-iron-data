@@ -1,0 +1,67 @@
+entry	anchor	decision	note
+ref/arc-barbarian/elemental-kin	elemental-fury	print	hand review (ruling 14, misprint): Values are equal: 1 at 3rd, 2 at 6th, 3 at 9th, 4 at 12th, 5 at 15th, 6 at 18th (one-third also gives 6 at 20th). The doubled word needs a fix: write "…per energy attack at 18th level."
+ref/arc-bard/arcane-duelist	bonus-feats	print	hand review (ruling 14, print): Same five feats at the same levels. It is a scaffold heading; its trade is ruling 13.
+ref/arc-bard/arcane-duelist	arcane-bond	print	hand review (ruling 14, print): The restriction is printed; the import dropped it.
+ref/arc-bard/arcane-duelist	arcane-armor	print	hand review (ruling 14, print): Same rule, different words.
+ref/arc-bard/arcane-duelist	bonded-object	drop	hand review (ruling 14, structural): The text is copied from the wizard class, not from this book. Drop the section (ruling 10).
+ref/arc-bard/detective	true-confession	print	hand review (ruling 14, print): Same values.
+ref/arc-bard/detective	arcane-investigation	print	hand review (ruling 14, print): The corpus's list is the expansion of print's rule. Same spell list.
+ref/arc-bard/magician	wand-mastery	print	hand review (ruling 14, print): The corpus lost "DC".
+ref/arc-bard/magician	arcane-bond-bonded-object	drop	hand review (ruling 14, structural): Same as for the Arcane Duelist. Drop it (ruling 10).
+ref/arc-bard/sandman	spell-catching	print	hand review (ruling 14, print): Paraphrase.
+ref/arc-bard/sandman	sneakspell	print	hand review (ruling 14, print): Same values.
+ref/arc-bard/sandman	sneak-attack	print	hand review (ruling 14, print): Same values: 1d6 at 5th, 2d6 at 10th, 3d6 at 15th, 4d6 at 20th.
+ref/arc-bard/savage-skald	song-of-the-fallen	print	hand review (ruling 14, print): Same values.
+ref/arc-bard/street-performer	quick-change	print	hand review (ruling 14, print): Same values.
+ref/arc-druid/bear-shaman	totem-transformation	print	hand review (ruling 14, print): Same values.
+ref/arc-druid/bear-shaman	totemic-summons	print	hand review (ruling 14, print): Paraphrase.
+ref/arc-druid/cave-druid	cavesense	print	hand review (ruling 14, misprint): Every other feature of the entry on p. 99 says "a cave druid"; "underground druid" names nothing. Write "A cave druid adds Knowledge (dungeoneering) rather than Knowledge (geography) as a class skill…"
+ref/arc-druid/cave-druid	wild-shape	print	hand review (ruling 14, print): Same values.
+ref/arc-druid/desert-druid	wild-shape	print	hand review (ruling 14, print): Print's sentence follows the 10th-level forms. The corpus only says so explicitly.
+ref/arc-druid/eagle-shaman	totem-transformation	print	hand review (ruling 14, print): The corpus repeats the bear rule that print gives by reference. Same values.
+ref/arc-druid/eagle-shaman	totemic-summons	print	hand review (ruling 14, print): Same.
+ref/arc-druid/lion-shaman	totem-transformation	print	hand review (ruling 14, print): Same.
+ref/arc-druid/lion-shaman	totemic-summons	print	hand review (ruling 14, print): Same.
+ref/arc-druid/serpent-shaman	totem-transformation	print	hand review (ruling 14, print): Same values (1/round for 6 rounds, 1 Con, 1 save).
+ref/arc-druid/serpent-shaman	totemic-summons	print	hand review (ruling 14, print): Same.
+ref/arc-druid/serpent-shaman	serpent-shaman-venom	drop	hand review (ruling 14, structural): The block is the import's unpacking of print's bracket, and its DC formula spells out "Con-based DC". Drop the head and keep print's bracket.
+ref/arc-druid/urban-druid	a-thousand-faces	print	hand review (ruling 14, print): Same meaning.
+ref/arc-druid/wolf-shaman	totem-transformation	print	hand review (ruling 14, print): Same.
+ref/arc-druid/wolf-shaman	totemic-summons	print	hand review (ruling 14, print): Same.
+ref/arc-fighter/archer	trick-shot	print	hand review (ruling 14, print): Same values.
+ref/arc-fighter/archer	evasive-archer	print	hand review (ruling 14, print): Same value.
+ref/arc-fighter/crossbowman	weapon-mastery	print	hand review (ruling 14, print): Same rule.
+ref/arc-fighter/mobile-fighter	fleet-footed	print	hand review (ruling 14, print): Same values (3 at 15th, 4 at 20th).
+ref/arc-fighter/phalanx-soldier	stand-firm	print	hand review (ruling 14, print): Same bonuses. Print lists drag, and the corpus dropped it.
+ref/arc-fighter/polearm-master	sweeping-fend	print	owner decision of 2026-11-24 (corpus-errata): print (The rule differs: the corpus gives trips the trip weapon feature, and the –4 applies only to bull rush. This is not a paraphrase. The corpus kept print's last sentence, which only makes sense under print's rule. So someone revised print's first sentence on purpose, which is the shape of an errata edit. The owner decides.)
+ref/arc-fighter/polearm-master	polearm-parry	print	hand review (ruling 14, print): Paraphrase.
+ref/arc-fighter/weapon-master	unstoppable-strike	print	hand review (ruling 14, print): Paraphrase.
+ref/arc-fighter/weapon-master	chosen-weapon	to-opening	hand review (ruling 14, structural): Move the sentence into the opening text, unheaded, and do not list it.
+ref/arc-monk/drunken-master	drunken-ki	print	hand review (ruling 14, print): Same values.
+ref/arc-monk/drunken-master	drunken-strength	print	hand review (ruling 14, print): The corpus lacks print's three sentences. Nothing in the book suggests a later removal.
+ref/arc-monk/hungry-ghost-monk	punishing-kick	print	hand review (ruling 14, print): Same values.
+ref/arc-monk/monk-of-the-four-winds	elemental-fist	print	hand review (ruling 14, print): The corpus gives the increase over the feat's 1d6, so the totals are the same: 2d6, 3d6, 4d6, 5d6.
+ref/arc-monk/monk-of-the-lotus	touch-of-serenity	print	hand review (ruling 14, print): Same values (+1, +2, +3 at 6th, 12th, 18th).
+ref/arc-monk/zen-archer	point-blank-master	print	hand review (ruling 14, print): The feat chapter of the same book prints the head "Point Blank Master (Combat)". Put the link on the printed name and drop the asterisk.
+ref/arc-paladin/divine-defender	shared-defense	print	hand review (ruling 14, print): Same values.
+ref/arc-paladin/divine-defender	divine-bond	print	hand review (ruling 14, print): The values differ: the corpus gives 2/3/4/5/6 uses at 8th/11th/14th/17th/20th, print gives 2/3/4 at 9th/13th/17th. Print is self-consistent ("four times per day at 17th") and matches the Sacred Servant (p. 117). The corpus confused it with the enhancement progression (+1 per three levels, the same in both).
+ref/arc-paladin/hospitaler	channel-positive-energy	print	hand review (ruling 14, print): The corpus text is garbled.
+ref/arc-paladin/sacred-servant	smite-evil	print	hand review (ruling 14, print): Same values (2 at 7th, 3 at 13th, 4 at 19th).
+ref/arc-paladin/sacred-servant	divine-bond	print	hand review (ruling 14, print): The corpus has no rate for either value and caps the uses at 1. Print gives both rates.
+ref/arc-paladin/warrior-of-the-holy-light	power-of-faith	print	hand review (ruling 14, print): The corpus row is garbled. Print's rule is clear.
+ref/arc-paladin/warrior-of-the-holy-light	shining-light	print	hand review (ruling 14, print): Same values.
+ref/arc-ranger/beast-master	improved-empathic-link	print	hand review (ruling 14, print): A stray citation mark in the corpus.
+ref/arc-ranger/guide	ranger-s-focus	print	hand review (ruling 14, print): Same values (uses 2 at 4th, 3 at 7th … 7 at 19th).
+ref/arc-ranger/guide	ranger-s-luck	print	hand review (ruling 14, print): Same values.
+ref/arc-ranger/guide	inspired-moment	print	hand review (ruling 14, print): Same value.
+ref/arc-ranger/infiltrator	adaptation	print	owner decision of 2026-11-24 (corpus-errata): print; the corpus sentence that print does not have is dropped (ruling 10) (The values agree, but the corpus has a rule that print lacks. The infiltrator replaces favored terrain (p. 126) and keeps camouflage and hide in plain sight, which work only in favored terrain. Without the corpus sentence, those two features do nothing. That gap is the kind a later fix closes, and an import does not invent rules. The owner decides.)
+ref/arc-ranger/infiltrator	humanoid-reptilian	print	hand review (ruling 14, print): Stray mark.
+ref/arc-ranger/shapeshifter	shifter-s-blessing	print	hand review (ruling 14, misprint): No shapeshifter subtype exists. The same book uses "you gain the shapechanger subtype" (Scaled Soul, p. 139), and the corpus has a shapechanger subtype entry. The archetype's own name caused the slip. Write "…the ranger gains the shapechanger subtype."
+ref/arc-ranger/shapeshifter	form-of-the-otter	tail-to:shifter-s-blessing	hand review (ruling 14, structural): The closing paragraph belongs to Shifter's Blessing. It follows its form list, under the last form's head. Put it in Shifter's Blessing, which keeps the trade sentence. Take print's progression (extra form and use at 8th, 13th, 18th), which the corpus lacks.
+ref/arc-ranger/skirmisher	hunter-s-tricks	print	hand review (ruling 14, print): The corpus skips 7th: print gives 8 tricks at 19th, the corpus 7. The gap is the import's slip. Print also says "Skirmishers do not gain any spells…"
+ref/arc-ranger/skirmisher	defensive-bow-stance	print	hand review (ruling 14, print): Paraphrase.
+ref/arc-ranger/skirmisher	second-chance-strike	print	hand review (ruling 14, print): Paraphrase.
+ref/arc-ranger/skirmisher	sic-em	print	hand review (ruling 14, print): Paraphrase. The head is "Sic 'Em".
+ref/arc-ranger/urban-ranger	favored-community	print	hand review (ruling 14, print): Same rule. The corpus row is garbled.
+ref/arc-rogue/acrobat	rogue-talents	print	hand review (ruling 14, misprint): The same book prints Fast Getaway among the rogue talents (p. 130), before the advanced rogue talents start (p. 131). Write "…expert leaper, fast getaway, ledge walker, nimble climber, peerless maneuver, rogue crawl, and stand up."
+ref/arc-rogue/acrobat	advanced-talents	print	hand review (ruling 14, misprint): Same evidence. Write "…defensive roll, fast tumble, and improved evasion."
