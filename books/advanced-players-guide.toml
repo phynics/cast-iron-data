@@ -5816,10 +5816,6 @@ entry = "ref/trait/black-sheep"
 
 [[books.chapters.children.children.children]]
 title = "Favored Son/Daughter"
-entry = "ref/carried/advanced-players-guide/rules/new-rules/traits/campaign-traits/favored-son-daughter"
-
-[[books.chapters.children.children.children]]
-title = "Favored Son or Daughter"
 entry = "ref/trait/favored-son-or-daughter"
 
 [[books.chapters.children.children.children]]
@@ -5961,10 +5957,6 @@ entry = "ref/trait/child-of-nature"
 [[books.chapters.children.children.children]]
 title = "Demon Hunter"
 entry = "ref/trait/demon-hunter"
-
-[[books.chapters.children.children.children]]
-title = "Calistrian Courtesan"
-entry = "ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan"
 
 [[books.chapters.children.children.children]]
 title = "Divine Warrior"
