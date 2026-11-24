@@ -2,7 +2,7 @@
 id = "ref/magic-wondrous/figurine-of-wondrous-power-glass-walrus"
 kind = "item"
 title = "Figurine of Wondrous Power (Glass Walrus)"
-source_ids = ["ultimate-equipment", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "ultimate-combat", "animal-archive", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
+source_ids = ["ultimate-equipment", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "animal-archive", "pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_glass_walrus", path = "json/magic_wondrous_slotless03.json" },
 ]
@@ -19,20 +19,11 @@ page = "26"
 publication = "pathfinder-122-into-the-shattered-continent"
 page = "33"
 [[sources]]
-publication = "seers-of-the-drowned-city"
-page = "54"
-[[sources]]
-publication = "ultimate-combat"
-page = "143"
-[[sources]]
 publication = "animal-archive"
 page = "27"
 [[sources]]
 publication = "pathfinder-70-the-frozen-stars"
 page = "63"
-[[sources]]
-publication = "mythic-adventures"
-page = "151"
 
 [fields]
 kind = "item"

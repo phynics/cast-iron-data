@@ -2,7 +2,7 @@
 id = "ref/magic-wondrous/figurine-of-wondrous-power-pearl-dolphin"
 kind = "item"
 title = "Figurine of Wondrous Power (Pearl Dolphin)"
-source_ids = ["ultimate-equipment", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "ultimate-combat", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
+source_ids = ["ultimate-equipment", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_pearl_dolphin", path = "json/magic_wondrous_slotless03.json" },
 ]
@@ -19,17 +19,8 @@ page = "26"
 publication = "pathfinder-122-into-the-shattered-continent"
 page = "33"
 [[sources]]
-publication = "seers-of-the-drowned-city"
-page = "54"
-[[sources]]
-publication = "ultimate-combat"
-page = "143"
-[[sources]]
 publication = "pathfinder-70-the-frozen-stars"
 page = "63"
-[[sources]]
-publication = "mythic-adventures"
-page = "151"
 
 [fields]
 kind = "item"
