@@ -115,9 +115,7 @@ ref/hex/cackle	class_option	magical-marketplace	book-differs		the reference list
 ref/hex/cackle	class_option	monster-summoners-handbook	book-differs		the reference lists the entry only in other books
 ref/hex/cackle	class_option	people-of-the-wastes	book-differs		the reference lists the entry only in other books
 ref/hex/soothsayer	class_option	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
-ref/invtalent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
 ref/ninjatrick/breath-of-the-ancestors	class_option	legacy-of-dragons	unconfirmed	22	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/slayertalent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
 ref/sorcbloodline/aberrant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/abyssal	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/aquatic	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
@@ -140,7 +138,6 @@ ref/sorcbloodline/starsoul	class_option	ultimate-magic	marker		paragraph agrees;
 ref/sorcbloodline/stormborn	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/undead	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/verdant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
-ref/talent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
 ref/carried/mythic-adventures/feats/ascendant-spell/mythic	feat	mythic-adventures	heading-form	55	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
 ref/carried/mythic-adventures/feats/marked-for-glory/mythic	feat	mythic-adventures	heading-form	69	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
 ref/carried/mythic-adventures/feats/mythic-companion/mythic	feat	mythic-adventures	heading-form	70	base feat title on the cited page; the X, Mythic heading was not matched by the text scan

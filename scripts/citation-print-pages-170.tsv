@@ -539,6 +539,7 @@ ref/racial-trait/human/skilled	core-rulebook	27	print
 ref/trait/abendego-pilot	blood-of-the-elements	13	print	
 ref/trait/absalom-bouncer	advanced-class-origins	11	print	
 ref/trait/absolute-loyalty	knights-of-the-inner-sea	inside cover	print		the trait is printed on the inside front cover; the book's rules index gives its page as Inside Front Cover
+ref/trait/adherent-of-ancient-osirion	blood-of-the-beast	2	print		the regional or religion trait is printed under its name (with its type) on this page
 ref/trait/aeromantic-affinity	blood-of-the-ancients	29	print	
 ref/trait/agent-of-the-sultana	blood-of-the-elements	21	print	
 ref/trait/airship-captain	blood-of-the-elements	19	print	
@@ -581,6 +582,7 @@ ref/trait/brave-words	blood-of-the-ancients	25	print
 ref/trait/broken-not-beaten	agents-of-evil	11	print	
 ref/trait/buried-anxiety	blood-of-fiends	21	print	
 ref/trait/callous	antiheros-handbook	7	print	
+ref/trait/caravan-nomad	blood-of-the-beast	2	print		the regional or religion trait is printed under its name (with its type) on this page
 ref/trait/carnal-attraction	agents-of-evil	10	print	
 ref/trait/carpenden-lobber	andoran-spirit-of-liberty	19	print	
 ref/trait/carpenden-roof-runner	andoran-spirit-of-liberty	19	print	
@@ -634,6 +636,7 @@ ref/trait/fiery-dominance	blood-of-the-elements	23	print
 ref/trait/fight-with-the-flock	blood-of-the-moon	9	print	
 ref/trait/flair-for-destruction	blood-of-fiends	20	print	
 ref/trait/for-the-money	agents-of-evil	10	print	
+ref/trait/fortune-found	blood-of-the-beast	3	print		the regional or magic trait is printed under its name (with its type) on this page
 ref/trait/foul-brand	champions-of-corruption	29	print	
 ref/trait/founders-heritage	arcane-anthology	10	print	
 ref/trait/friendless	blood-of-fiends	30	print	
@@ -658,7 +661,9 @@ ref/trait/inured-to-disease	blood-of-the-moon	19	print
 ref/trait/iron-liver	adventurers-armory	30	print	
 ref/trait/irreverent	antiheros-handbook	7	print	
 ref/trait/jacket-training	armor-masters-handbook	2	print	
+ref/trait/jinx-eater	blood-of-the-beast	3	print		the regional or magic trait is printed under its name (with its type) on this page
 ref/trait/jistkan-scholar	blood-of-the-ancients	19	print	
+ref/trait/jungle-native	blood-of-the-beast	2	print		the regional or religion trait is printed under its name (with its type) on this page
 ref/trait/kobolds-neighbor	andoran-spirit-of-liberty	9	print	
 ref/trait/lasting-ferociousness	agents-of-evil	25	print	
 ref/trait/lastwall-defender	advanced-class-origins	25	print	
@@ -678,6 +683,7 @@ ref/trait/mechanical-aptitude	blood-of-the-ancients	19	print
 ref/trait/merabian-mentorship	blood-of-the-elements	11	print	
 ref/trait/mischievous-smile	divine-anthology	17	print		the religion trait is printed on this page as Mischievous Smite (Chaldira Zuzaristan); the entry title reads Mischievous Smile
 ref/trait/motherless	blood-of-fiends	30	print	
+ref/trait/naga-emissary	blood-of-the-beast	3	print		the regional or magic trait is printed under its name (with its type) on this page
 ref/trait/naturalist	blood-of-the-ancients	11	print	
 ref/trait/nauseating-spit	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
 ref/trait/nexian-corpse-hunter	advanced-class-origins	7	print	
@@ -703,6 +709,7 @@ ref/trait/prideful-temper	blood-of-fiends	31	print
 ref/trait/prismati-player	andoran-spirit-of-liberty	7	print	
 ref/trait/prolong-magic	blood-of-fiends	30	print	
 ref/trait/promising	armor-masters-handbook	2	print	
+ref/trait/prophet-of-burrows	blood-of-the-beast	3	print		the regional or magic trait is printed under its name (with its type) on this page
 ref/trait/punish-insurrection	champions-of-corruption	7	print	
 ref/trait/quick-learner	adventurers-armory	31	print	
 ref/trait/rat-squeeze	blood-of-the-moon	19	print	
@@ -2759,6 +2766,7 @@ ref/invtalent/effortless-aid	advanced-class-guide	32	print
 ref/invtalent/eidetic-recollection	advanced-class-guide	32	print	
 ref/invtalent/empathy	advanced-class-guide	32	print	
 ref/invtalent/expanded-inspiration	advanced-class-guide	32	print	
+ref/invtalent/graceful-athlete	blood-of-the-beast	6	print		the book prints the feat Graceful Athlete on this page; its Special line lets investigators, rogues and slayers take the feat in place of a talent, so the talent is the feat (the proposal 6 was a coarse page)
 ref/invtalent/greater-combat-inspiration	advanced-class-guide	32	print	
 ref/invtalent/hidden-agendas	advanced-class-guide	32	print	
 ref/invtalent/inspirational-expertise	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
@@ -2894,6 +2902,7 @@ ref/slayertalent/assassinate	advanced-class-guide	54	print
 ref/slayertalent/blood-reader	advanced-class-origins	21	print	
 ref/slayertalent/deadly-range	advanced-class-guide	53	print	
 ref/slayertalent/foil-scrutiny	advanced-class-guide	53	print	
+ref/slayertalent/graceful-athlete	blood-of-the-beast	6	print		the book prints the feat Graceful Athlete on this page; its Special line lets investigators, rogues and slayers take the feat in place of a talent, so the talent is the feat (the proposal 6 was a coarse page)
 ref/slayertalent/ranger-combat-style	advanced-class-guide	53	print	
 ref/slayertalent/rogue-and-ninja-advanced-talents	advanced-class-guide	55	print	
 ref/slayertalent/rogue-talent	advanced-class-guide	53	print	
@@ -2950,6 +2959,7 @@ ref/talent/fast-tumble	advanced-players-guide	131	print		proposal 1 (placeholder
 ref/talent/follow-clues	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
 ref/talent/founders-blessing	adventurers-guide	53	print	
 ref/talent/frugal-trapsmith	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
+ref/talent/graceful-athlete	blood-of-the-beast	6	print		the book prints the feat Graceful Athlete on this page; its Special line lets investigators, rogues and slayers take the feat in place of a talent, so the talent is the feat (the proposal 6 was a coarse page)
 ref/talent/graceful-faller	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
 ref/talent/grazing-shot	agents-of-evil	24	print	
 ref/talent/guileful-polyglot	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
@@ -2982,8 +2992,11 @@ ref/talent/survivalist	advanced-players-guide	131	print		the rogue talent is pri
 ref/talent/swift-poison	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
 ref/talent/thoughtful-reexamining	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
 ref/talent/vicious-claws	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
+ref/vigtalent/brutal-maneuver	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/vigtalent/combat-expertise	antiheros-handbook	16	print	
+ref/vigtalent/deceitful-trick	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/vigtalent/poisoner	antiheros-handbook	16	print	
+ref/vigtalent/racial-paragon	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/vigtalent/signature-arrows	antiheros-handbook	16	print	
 ref/vigtalent/sweeping-strike	antiheros-handbook	16	print	
 ref/vigtalent/vigilantes-reflexes	antiheros-handbook	17	print	
@@ -3023,6 +3036,7 @@ ref/discovery/spell-knowledge	cohorts-and-companions	13	print
 ref/discovery/substantiating-bomb	distant-realms	53	print		title text only (no heading form): the name is on page 53 and on none of the two pages each side
 ref/discovery/syringe-stirge	cohorts-and-companions	13	print	
 ref/discovery/tainted-infusion	champions-of-corruption	26	print	
+ref/eidolon/ancestor	blood-of-the-beast	31	print		the Ancestor unchained summoner eidolon subtype is printed under its name on this page
 ref/eidolon/deepwater	blood-of-the-sea	23	print		the Deepwater Eidolon (eidolon subtype) heading is on this page; the description starts here
 ref/eidolon/genie	elemental-masters-handbook	27	print		the Genie Eidolon (eidolon subtype) heading is on this page; the description starts here
 ref/eidolon/shadow	blood-of-shadows	12	print		proposal 11, print 12: heading on exactly one page within two pages of the proposal
@@ -3211,7 +3225,9 @@ ref/soctalent/ancestral-enlightenment	disciples-doctrine	23	print
 ref/soctalent/beast-friend	heroes-of-golarion	19	print	
 ref/soctalent/beast-speech	heroes-of-golarion	19	print	
 ref/soctalent/morphic-mask	chronicle-of-legends	7	print	
+ref/soctalent/obscurity	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/soctalent/owls-sight	heroes-of-golarion	19	print	
+ref/soctalent/seemless-shapechanger	blood-of-the-beast	15	print		the vigilante talent is printed on this page as Seamless Shapechanger (Ex); the entry title reads Seemless Shapechanger
 ref/soctalent/skill-familiarity	disciples-doctrine	23	print	
 ref/soctalent/songbird	heroes-of-golarion	19	print	
 ref/stare/distracted	heroes-of-golarion	9	print	
@@ -3287,6 +3303,9 @@ ref/talent/umbral-gear	blood-of-shadows	8	print
 ref/talent/unbalancing-trick	elemental-masters-handbook	9	print	
 ref/talent/underhanded-trick	blood-of-shadows	8	print	
 ref/talent/weapon-training	core-rulebook	69	print	
+ref/trick/break-stupor	blood-of-the-beast	18	print		the mesmerist trick is printed under its name on this page
+ref/trick/enchanting-words	blood-of-the-beast	18	print		the mesmerist trick is printed under its name on this page
+ref/trick/life-revier	blood-of-the-beast	19	print		the mesmerist trick is printed on this page as Life Review; the entry title reads Life Revier
 ref/trick/psychic-impression	heroes-of-golarion	9	print	
 ref/trick/telepathic-link	heroes-of-golarion	9	print	
 ref/trick/voice-of-reason	heroes-of-golarion	9	print	
@@ -3382,8 +3401,12 @@ ref/invtalent/the-whole-time	magic-tactics-toolbox	7	print
 ref/invtalent/twilight-talon-improvisation	inner-sea-intrigue	31	print		title text only (no heading form): the name is on page 31 and on none of the two pages each side
 ref/kipower/action-before-thought	martial-arts-handbook	20	print		
 ref/kipower/bare-hand-block	martial-arts-handbook	20	print		
+ref/kipower/branch-runner	blood-of-the-beast	30	print		the ki power is printed under its name (Ex, Su) on this page
 ref/kipower/breaking-down-koan	martial-arts-handbook	20	print		
 ref/kipower/building-up-koan	martial-arts-handbook	20	print		
+ref/kipower/freedom-of-movement	blood-of-the-beast	31	print		the ki power is printed under its name (Su) on this page
+ref/kipower/improvised-weapon-proficiency	blood-of-the-beast	31	print		the ki power is printed on this page as Improvised Weapon Affinity (Ex, Su); the entry title reads Improvised Weapon Proficiency
+ref/kipower/ki-meditation	blood-of-the-beast	31	print		the ki power is printed under its name (Su) on this page
 ref/kipower/ki-sunder	martial-arts-handbook	20	print		
 ref/kipower/master-thought-koan	martial-arts-handbook	20	print		
 ref/ninjatrick/breath-of-the-ancestors	legacy-of-dragons		unconfirmed	title not found on the proposed page or anywhere in the book; the book prints no text about the ninja class (a full-text search of the book finds none), so the membership itself may be wrong	
@@ -3513,6 +3536,8 @@ ref/stare/sluggishness	occult-adventures	43	print
 ref/stare/susceptibility	occult-adventures	43	print		
 ref/stare/timidity	occult-adventures	43	print		
 ref/stylestrike/break	martial-arts-handbook	7	print		
+ref/stylestrike/dirty-strikes	blood-of-the-beast	31	print		the style strike is printed on this page as Dirty Strike, singular; the entry title reads Dirty Strikes
+ref/stylestrike/overbearing-assault	blood-of-the-beast	31	print		the style strike is printed under its name on this page
 ref/stylestrike/rabbit-punch	martial-arts-handbook	6	print		
 ref/stylestrike/throat-crush	martial-arts-handbook	7	print		
 ref/talent/acrobatic-stunt	inner-sea-combat	16	print		
@@ -3810,6 +3835,7 @@ ref/soctalent/entrepreneur	spymasters-handbook	26	print
 ref/soctalent/guise-of-life	spymasters-handbook	26	print		
 ref/soctalent/guise-of-unlife	spymasters-handbook	26	print		
 ref/soctalent/intrigue-feats	spymasters-handbook	27	print		
+ref/soctalent/transformation-sequence	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/soctalent/well-known-expert	spymasters-handbook	27	print		
 ref/stylestrike/defensive-spin	pathfinder-unchained	18	print		
 ref/stylestrike/elbow-smash	pathfinder-unchained	18	print		
