@@ -3409,7 +3409,7 @@ ref/kipower/improvised-weapon-proficiency	blood-of-the-beast	31	print		the ki po
 ref/kipower/ki-meditation	blood-of-the-beast	31	print		the ki power is printed under its name (Su) on this page
 ref/kipower/ki-sunder	martial-arts-handbook	20	print		
 ref/kipower/master-thought-koan	martial-arts-handbook	20	print		
-ref/ninjatrick/breath-of-the-ancestors	legacy-of-dragons		unconfirmed	title not found on the proposed page or anywhere in the book; the book prints no text about the ninja class (a full-text search of the book finds none), so the membership itself may be wrong	
+ref/ninjatrick/breath-of-the-ancestors	legacy-of-dragons		unconfirmed	title not found on the proposed page or anywhere in the book; the book prints no text about the ninja class (a full-text search of the book finds none), so the membership is wrong	Spymaster's Handbook prints the trick as Breath of the Ancestor (Su) on page 22, with the entry's text; found by a full-text search of the available books; decided in scripts/membership-queue-461.tsv
 ref/ninjatrick/deep-cover	martial-arts-handbook	21	print		
 ref/ninjatrick/greater-ki-venom	martial-arts-handbook	21	print		
 ref/ninjatrick/herbal-compound	martial-arts-handbook	20	print		
@@ -4510,3 +4510,377 @@ ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/ensnaring-dirt-tr
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/falling-log-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/rotting-badger-under-a-falling-rock-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/snake-spear-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/trait/alien-origins	dungeoneers-handbook	inside cover	print		proposal 33, print inside back cover: the trait is on the unnumbered inside back cover (the page after printed page 32, the licence page); the rules index gives the regional traits as Inside Back Cover
+ref/trait/destined-for-greatness	dungeoneers-handbook	inside cover	print		proposal 33, print inside back cover: the trait is on the unnumbered inside back cover (the page after printed page 32, the licence page); the rules index gives the regional traits as Inside Back Cover
+ref/trait/dungeon-dweller	dungeoneers-handbook	inside cover	print		proposal 33, print inside back cover: the trait is on the unnumbered inside back cover (the page after printed page 32, the licence page); the rules index gives the regional traits as Inside Back Cover
+ref/trait/lost-role-model	dungeoneers-handbook	inside cover	print		proposal 33, print inside back cover: the trait is on the unnumbered inside back cover (the page after printed page 32, the licence page); the rules index gives the regional traits as Inside Back Cover
+ref/discovery/sandstone-solution	people-of-the-sands	23	print		read on the rendered page: heading New Alchemist Discovery, footer 23
+ref/talent/last-ditch-effort	people-of-the-sands	19	print		read on the rendered page: sidebar New Rogue Talents, footer 19
+ref/talent/philologist	people-of-the-sands	19	print		read on the rendered page: sidebar New Rogue Talents, footer 19
+ref/trait/pearl-diver-pots	people-of-the-sands	14	print		read on the rendered page: Pearl Diver (half-elf), footer 14
+ref/ragepower/impelling-disarm	champions-of-balance	23	print		read on the rendered page: Rage Powers, footer 23
+ref/ragepower/savage-dirty-trick	champions-of-balance	23	print		read on the rendered page: Rage Powers (printed Savage Dirty Trick), footer 23
+ref/trait/planar-negotiator-boa	blood-of-angels	30	print		read on the rendered page: Aasimar Race Traits, footer 30
+ref/trait/wary-boa	blood-of-angels	31	print		read on the rendered page: footer 31
+ref/trait/wary-potr	people-of-the-river	8	print		read on the rendered page: Daggermark regional traits, footer 8
+ref/trait/stargazer-ig	people-of-the-river	31	print		read on the rendered page: Campaign Traits (Iron Gods), footer 31
+ref/trait/trade-talk	bastards-of-golarion	4	print		read on the rendered page: Human-Raised Trait, footer 4
+ref/trait/undead-slayer-bog	bastards-of-golarion	28	print		read on the rendered page: Dhampirs, Undead Slayer (dhampir), footer 28
+ref/hex/mud-witch	monster-codex	105	print		read on the rendered page: Goblin Witch Hex, footer 105
+ref/oraclecurse/cold-blooded	monster-codex	140	print		read on the rendered page: Lizardfolk Oracle Curse, footer 140
+ref/trait/natural-flyer	blood-of-the-ancients	29	print		read on the rendered page: printed Natural Flier (Combat), footer 29
+ref/trait/outsider-enemy	blood-of-the-ancients	29	print		read on the rendered page: printed Outsider Enmity (Social), footer 29
+ref/trait/orc-impaler	knights-of-the-inner-sea	10	print		read on the rendered page: Orc Impaler (Lastwall), footer 10
+ref/hex/discord	magical-marketplace	28	print		read on the rendered page: New Hexes, footer 28
+ref/affliction/khala/chillbane-fever	irrisen-land-of-eternal-winter	48	print		read on the rendered page: Afflictions, stat block, footer 48
+ref/affliction/adaro/nettlefin-toxin	pathfinder-38-racing-to-ruin		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/akata/void-death	pathfinder-14-children-of-the-void		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/ammut/wasting-curse-su	pathfinder-84-pyramid-of-the-sky-pharaoh		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/benaioh/wormrot	pathfinder-93-forge-of-the-giant-god		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/black-shuck/shucks-kiss	pathfinder-129-the-twilight-child		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/bogwid/bogwid-fever	pathfinder-62-curse-of-the-ladys-light		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/bolla/bolla-lethargy	pathfinder-136-temple-of-the-peacock-spirit		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/bramblelash/tropical-bramblelash-poison	pathfinder-115-trail-of-the-hunted		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/cerberi/cerberuss-jaws-su	pathfinder-28-the-infernal-syndrome		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/daughter-of-urgathoa/bubonic-plague	pathfinder-8-seven-days-to-the-grave		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/devil-rust-devil-ferrugon/scarlet-tetanus	pathfinder-101-the-kintargo-contract		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/div-pairaka/bubonic-plague	pathfinder-20-house-of-the-beast		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/div-pairaka/shakes	pathfinder-20-house-of-the-beast		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/drekavac/bubonic-plague	pathfinder-31-stolen-land		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/goldpebble/pebblefang	pathfinder-128-songbird-scion-saboteur		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/great-old-one-ithaqua/wendigo-psychosis-enhanced	pathfinder-109-in-search-of-sanity		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/great-old-one-xhamen-dor/seeded-infestation	pathfinder-113-what-grows-within		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/heartrot-tree/heartrot-disease	pathfinder-119-prisoners-of-the-blight		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/indarugant/curse-of-frozen-flesh-su	pathfinder-94-ice-tomb-of-the-giant-queen		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/inkanyamba/vacillating-venom	pathfinder-41-the-thousand-fangs-below		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/irradiated-dead/radiation	pathfinder-87-the-choking-tower		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/jinmenju/head-fruit-poison	pathfinder-54-the-empty-throne		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/merlucent/vitrify	pathfinder-104-wrath-of-thrune		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/ningyo-undead-ningyo/ningyo-flesh	pathfinder-37-souls-for-smugglers-shiv		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/ningyo/ningyo-flesh	pathfinder-37-souls-for-smugglers-shiv		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/nuckelavee/mortasheen	pathfinder-34-blood-for-blood		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/polevik/pulsing-puffs	pathfinder-63-the-asylum-stone		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/rokurokubi/rokurokubis-curse-su	pathfinder-54-the-empty-throne		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/runeslave/arcane-decay	rise-of-the-runelords-anniversary-edition		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/runeslave/runeslave-poison	rise-of-the-runelords-anniversary-edition		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/sangoi/curse-of-misery	pathfinder-69-maiden-mother-crone		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/scythe-glass-swarm/poison-su	pathfinder-101-the-kintargo-contract		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/sea-urchin-giant-glass-urchin/sea-urchin-venom	pathfinder-37-souls-for-smugglers-shiv		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/sea-urchin-giant-hunter-urchin/sea-urchin-venom	pathfinder-37-souls-for-smugglers-shiv		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/sea-urchin-giant-ravenous-urchin-swarm/sea-urchin-venom	pathfinder-56-raiders-of-the-fever-sea		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/sea-urchin-giant-spear-urchin/sea-urchin-venom	pathfinder-37-souls-for-smugglers-shiv		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/seeded/seedborne-consumption-su	pathfinder-113-what-grows-within		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/sha/touch-of-madness	pathfinder-80-empty-graves		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/spark-nettle/levitation-poison	pathfinder-36-sound-of-a-thousand-screams		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/sphinx-cynosphinx/carrion-fever	pathfinder-82-secrets-of-the-sphinx		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/stygira/stone-curse	pathfinder-33-the-varnhold-vanishing		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/tatzlwyrm/tatzlwyrm-poison	pathfinder-31-stolen-land		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/tetrolimulus/trtodotoxin	pathfinder-58-island-of-empty-eyes		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/trollhound/bloodfire-fever	pathfinder-32-rivers-run-red		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/ugothokra/aklo-submission	pathfinder-88-valley-of-the-brain-collectors		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/ugothokra/flesh-ripen-fever	pathfinder-88-valley-of-the-brain-collectors		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/ugothokra/implant-rejection-syndrome	pathfinder-88-valley-of-the-brain-collectors		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/vorvorak/poisonous-bile	pathfinder-129-the-twilight-child		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/vrykolakas/bubonic-plague	pathfinder-29-mother-of-flies		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/wamp/zombie-rot	pathfinder-111-dreams-of-the-yellow-king		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/wendigo/wendigo-psychosis-su	pathfinder-6-spires-of-xin-shalast		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/xacarba/fiendish-bile	pathfinder-18-descent-into-midnight		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/xacarba/mysterious-blood	pathfinder-18-descent-into-midnight		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/affliction/xacarba/vile-disjunction	pathfinder-18-descent-into-midnight		unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/arcanedisc/bonded-mask	pathfinder-80-empty-graves	26	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/discovery/air-lung	pathfinder-123-the-flooded-cathedral	42	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/discovery/gills	pathfinder-123-the-flooded-cathedral	42	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/discovery/webbed-extremities	pathfinder-123-the-flooded-cathedral	42	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/discovery/wet-coat	pathfinder-123-the-flooded-cathedral	42	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/eidolon/kyton	curse-of-the-crimson-throne	431	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/hkdiscipline/invoke-glyph	pathfinder-107-scourge-of-the-godclaw	47	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/hkdiscipline/seek-the-taken	pathfinder-98-turn-of-the-torrent	67	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/oraclecurse/shattered-psyche	pathfinder-88-valley-of-the-brain-collectors	57	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/patron/fate	pathfinder-72-the-witch-queens-revenge	75	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/ragepower/greater-psychopomp-totem	pathfinder-139-the-dead-road	67	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/ragepower/inured-to-the-dead	pathfinder-139-the-dead-road	67	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/ragepower/lesser-psychopomp-totem	pathfinder-139-the-dead-road	67	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/ragepower/psychopomp-totem	pathfinder-139-the-dead-road	67	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/ragepower/spiritual-awareness	pathfinder-139-the-dead-road	67	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/ragepower/unrestrained-rage	pathfinder-139-the-dead-road	67	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/talent/bardic-pretender	pathfinder-130-city-in-the-lions-eye	76	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/talent/sneak-training	pathfinder-130-city-in-the-lions-eye	76	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/accidental-clone	return-of-the-runelords-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/adaptive-magic	reign-of-winter-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/adopted	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/against-the-technic-league	iron-gods-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/alabaster-outcast	shattered-star-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/amoral-mercenary	hells-vengeance-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/anatomist	second-darkness-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ancient-explorer	skull-and-shackles-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/animal-friend	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/animal-whisperer	ironfang-invasion-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/apprentice-devilbinder	hells-vengeance-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/armor-expert	second-darkness-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/artifact-hunter-gs	giantslayer-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/asmodean-acolyte	hells-vengeance-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/athletic	ruins-of-azlant-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/athletic-champion	war-for-the-crown-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/audrahnis-ally	return-of-the-runelords-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/azlanti-scholar-roapg	ruins-of-azlant-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/barroom-talespinner	skull-and-shackles-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/bastard-km	kingmaker-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/beast-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/berserker-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/besmaras-blessing	skull-and-shackles-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/best-friend	jade-regent-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/betrayed-cotct	curse-of-the-crimson-throne	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/birthmark	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/blade-of-mercy	legacy-of-fire-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/blade-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/blight-burned	ironfang-invasion-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/blood-of-giants	reign-of-winter-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/blood-of-pharaohs	mummys-mask-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/boarded-in-cheliax	serpents-skull-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/boarded-in-mediogalti	serpents-skull-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/boarded-in-mwangi-expanse	serpents-skull-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/boarded-in-the-shackles	serpents-skull-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/boarded-in-varisia	serpents-skull-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/brigand	kingmaker-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/buccaneers-blood	skull-and-shackles-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/bullied	second-darkness-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/bully	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/canter	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/caravan-guard	jade-regent-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/caretaker	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/chance-encounter	wrath-of-the-righteous-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/chance-savior	carrion-crown-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/charming	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/chelish-noble	hells-vengeance-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/chernasardo-hopeful	ironfang-invasion-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/child-of-infamy	council-of-thieves-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/child-of-kintargo	hells-rebels-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/child-of-oppara	war-for-the-crown-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/child-of-the-crusades-wotr	wrath-of-the-righteous-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/child-of-the-streets	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/child-of-the-temple	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/child-of-zolurket	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/childhood-crush	jade-regent-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/classically-schooled	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/cleansing-the-twisted	legacy-of-fire-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/close-allies	return-of-the-runelords-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/colonial	serpents-skull-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/conspiracy-hunter	council-of-thieves-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/courageous	second-darkness-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/dangerously-curious	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/defender-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/deft-dodger	second-darkness-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/desert-child	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/devotee-of-the-green	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/devotee-of-the-old-gods	mummys-mask-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/diabolist-raised	council-of-thieves-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/dirty-fighter-apg	second-darkness-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/disgraced-noble	war-for-the-crown-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/diva-in-training	hells-rebels-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/dockside-brawler	skull-and-shackles-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/dragonfoe	giantslayer-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/driven-by-guilt	strange-aeons-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/drug-addict	curse-of-the-crimson-throne	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/drug-addict	curse-of-the-crimson-throne-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/duskwalker-agent	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/dwarf-trained	giantslayer-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/eager-performer	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/eagle-knight-recruit	ruins-of-azlant-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/earning-your-freedom	legacy-of-fire-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ease-of-faith	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/employee	ruins-of-azlant-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/enduring-stoicism	strange-aeons-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/erratic-malefactor	hells-vengeance-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ex-asmodean	hells-rebels-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ex-iomedaean	hells-vengeance-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ex-sczarni	shattered-star-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/exalted-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/exchange-agent	shattered-star-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/expert-explorer	ruins-of-azlant-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/exposed-to-awfulness	wrath-of-the-righteous-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/eye-for-plunder	skull-and-shackles-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/eyes-and-ears-of-the-city	legacy-of-fire-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/failed-winter-witch-apprentice	reign-of-winter-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/family-ties-rotrl	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/fast-talker	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/fed-up-citizen	hells-rebels-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/fencer	second-darkness-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/finding-haleen	legacy-of-fire-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/focused-mind	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/foe-of-the-strange	strange-aeons-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/following-in-the-footsteps	ruins-of-azlant-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/fools-for-friends	second-darkness-players-guide	14	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/foreign-opportunist	mummys-mask-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/forlorn	legacy-of-fire-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/formerly-mind-swapped	strange-aeons-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/foster-child	jade-regent-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/foxclaw-scout	ironfang-invasion-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/framed	curse-of-the-crimson-throne	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/framed	curse-of-the-crimson-throne-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/freed-slave-katapesh	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/freedom-fighter-halfling	legacy-of-fire-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/friend-of-the-family	jade-regent-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/friends-and-enemies	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/frontier-healer	ironfang-invasion-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/genie-blood	legacy-of-fire-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/get-the-cargo-through	serpents-skull-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/giant-blooded	giantslayer-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/giant-slayer	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/giantslayer-scion	giantslayer-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/gifted-adept	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/gifted-satirist	hells-rebels-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/gnoll-killer	legacy-of-fire-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/goblin-watcher	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/good-slip	hells-vengeance-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/greater-adept-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/hagfish-hopeful	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/havoc-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/healthy	ruins-of-azlant-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/hedge-magician	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/hellknight-aspirant	hells-vengeance-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/hero-worship	jade-regent-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/historian	legacy-of-fire-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/historian-of-the-rebellion	hells-rebels-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/history-of-heresy	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/honored-fist-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ilizmagorti-native	skull-and-shackles-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/indomitable-faith	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/infernal-bastard	council-of-thieves-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/inquisitive-archaeologist	mummys-mask-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/inspired-by-greatness	carrion-crown-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/into-enemy-territory	second-darkness-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/intrigued-by-thassilon	return-of-the-runelords-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ironfang-survivor	ironfang-invasion-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/issian	kingmaker-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/jenivere-crew	serpents-skull-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/killer	second-darkness-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/kraggodan-castaway	ironfang-invasion-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/latent-psion	legacy-of-fire-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/legacy-of-sand	legacy-of-fire-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/local-ties	iron-gods-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/local-tough	hells-vengeance-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/looking-for-work	second-darkness-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/love-lost	curse-of-the-crimson-throne	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/love-lost	curse-of-the-crimson-throne-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/maestro-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/magic-is-life	legacy-of-fire-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/magical-knack	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/magical-lineage	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/magical-talent	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/making-good-on-promises	carrion-crown-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/mathematical-prodigy	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/merchant-family	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/merchants-child	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/methodical-mind	strange-aeons-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/missing-child	curse-of-the-crimson-throne	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/missing-child	curse-of-the-crimson-throne-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/missionary	legacy-of-fire-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/monster-hunter	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/monument-scholar	shattered-star-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/mummy-cursed	mummys-mask-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/mwangi-scholar	serpents-skull-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/natural-born-leader-hr	hells-rebels-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/natural-born-leader-social	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/nightstall-urchin	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/noble-born	kingmaker-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/nontraditional-native	shattered-star-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/northern-ancestry	reign-of-winter-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/numerian-archaeologist	iron-gods-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/on-the-payroll	carrion-crown-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/optimistic-gambler	second-darkness-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/orphaned-by-giants	giantslayer-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/pathfinder-recruit	ruins-of-azlant-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/pattern-seeker	hells-rebels-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/peg-leg	skull-and-shackles-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/pesh-addict	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/pesh-dealer	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/pioneer	kingmaker-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/poverty-stricken	second-darkness-players-guide	14	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/pugnacious	strange-aeons-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/reactionary	second-darkness-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/reclaiming-your-roots	legacy-of-fire-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/rescued	jade-regent-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/researching-the-blot	second-darkness-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/resilient	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/resourceful	ruins-of-azlant-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/restless-wayfarer	reign-of-winter-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/resurrected	mummys-mask-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/rich-parents	second-darkness-players-guide	14	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/riftwarden-orphan	wrath-of-the-righteous-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/rising-star	war-for-the-crown-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ritualistic	strange-aeons-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/robot-slayer	iron-gods-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/roll-with-it	giantslayer-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/rostlander	kingmaker-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ruin-raider	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/sacred-conduit	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/sacred-touch	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/scholar-of-the-ancients	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/scholar-of-the-great-beyond	second-darkness-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/scion-of-legend	return-of-the-runelords-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/scion-of-the-nine-circles	hells-vengeance-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/scouting-for-fiends	second-darkness-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/seasoned-hunter	ruins-of-azlant-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/seeking-adventure	legacy-of-fire-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/senatorial-hopeful	war-for-the-crown-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/sensitive-mind	strange-aeons-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/serpent-runner	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/set-mind	ruins-of-azlant-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/shadow-child	council-of-thieves-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/ships-surgeon	skull-and-shackles-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/skeptic	second-darkness-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/skillful	ruins-of-azlant-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/skymetal-smith	iron-gods-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/sphinx-riddler	mummys-mask-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/spirit-touched	return-of-the-runelords-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/spirits-in-the-stone	legacy-of-fire-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/stalwart-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/star-struck	hells-rebels-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/stargazer-ig	iron-gods-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/stolen-fury	wrath-of-the-righteous-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/stowaway	serpents-skull-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/strength-of-the-sun	legacy-of-fire-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/student-of-faith	rise-of-the-runelords-anniversary-edition-players-guide	4	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/student-of-giantkind	giantslayer-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/student-survivalist	jade-regent-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/subject-of-study	carrion-crown-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/suspicious	second-darkness-players-guide	14	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/sword-scion	kingmaker-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/taldan-patriot	war-for-the-crown-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/teachers-pet	carrion-crown-players-guide	12	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-artisan	tyrants-grasp-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-city-protects	legacy-of-fire-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-lawbringer	tyrants-grasp-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-optimist	tyrants-grasp-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-outsider	tyrants-grasp-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-pathfinders-exile	council-of-thieves-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-pessimist	tyrants-grasp-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-reclaimer	tyrants-grasp-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-snoop	tyrants-grasp-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/the-word	tyrants-grasp-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/thrune-informant	hells-vengeance-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/thrune-loyal-agent	pathfinder-104-wrath-of-thrune	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/time-lost	return-of-the-runelords-players-guide	11	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/touched-by-divinity	wrath-of-the-righteous-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/touched-by-the-sea	skull-and-shackles-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/tracker-of-the-society	shattered-star-players-guide	5	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/trap-finder	mummys-mask-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/true-devotion	strange-aeons-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/trunau-native	giantslayer-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/twitchy	strange-aeons-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/unbreakable-survivor	ironfang-invasion-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/undead-crusader	mummys-mask-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/unhappy-childhood	curse-of-the-crimson-throne	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/unhappy-childhood	curse-of-the-crimson-throne-players-guide	15	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/urban-sleuth	hells-rebels-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/uwaga-highlander	legacy-of-fire-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/vexing-defender	giantslayer-players-guide	7	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/vigilante-witch-hunter	reign-of-winter-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/warded-against-witchery	reign-of-winter-players-guide	6	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/wati-native	mummys-mask-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/westcrown-firebrand	council-of-thieves-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/wisdom-in-the-flesh	legacy-of-fire-players-guide	9	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/world-traveler	legacy-of-fire-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/world-weary	ironfang-invasion-players-guide	8	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/young-reformer	war-for-the-crown-players-guide	10	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
+ref/trait/younger-sibling	jade-regent-players-guide	13	unverified-no-pdf		book not among the owner's PDFs; owner ruling of 2026-11-24 on #215
