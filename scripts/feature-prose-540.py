@@ -96,8 +96,8 @@ WRITABLE = ("print", "draft", "edit")
 # Headings that scaffold a feature and are never features themselves (owner ruling of 2026-11-24 on
 # phynics/cast-iron#540): never listed in `features`, never a `by` target.
 SCAFFOLD = {
-    "size", "speed", "attack", "ac", "abilityscores", "companiontype", "prerequisites", "effect", "use",
-    "cost", "action", "bonusspells", "bonusfeats", "weaponandarmorproficiency", "weaponandarmorproficiencies",
+    "size", "speed", "attack", "ac", "ability scores", "companion type", "prerequisites", "effect", "use",
+    "cost", "action", "bonus spells", "bonus feats", "weapon and armor proficiency",
 }
 
 # ---- text helpers -----------------------------------------------------------------------------------
@@ -433,10 +433,10 @@ def apply_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]
     and the link texts that found no place."""
     lost = []
     for label, target in links:
-        words = [re.escape(w) for w in label.replace("\\", "").split()]
+        words = [re.escape(w) for w in re.split(r"[\s-]+", label.replace("\\", "")) if w]
         if not words:
             continue
-        pat = re.compile(r"(?<![\w\[])" + r"\s+".join(words) + r"(?![\w\]])", re.I)
+        pat = re.compile(r"(?<![\w\[])" + r"[\s-]+".join(words) + r"(?![\w\]])", re.I)
         spans = [(m.start(), m.end()) for m in LINK_SPAN.finditer(text)]
         done = False
         for m in pat.finditer(text):
@@ -1078,6 +1078,35 @@ def trade_name(t: dict) -> tuple[str, str]:
     return ("replaces", t["replaces"]) if "replaces" in t else ("alters", t["alters"])
 
 
+DECISION_HEADER = ["entry", "anchor", "decision", "note"]
+DECISIONS = ("print", "drop", "to-opening")
+
+
+def decisions_path(corpus: Path, book: str) -> Path:
+    return corpus / "scripts" / f"feature-prose-540-{book}.decisions.tsv"
+
+
+def read_decisions(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, str]]:
+    """Hand decisions of a review (phynics/cast-iron-data#306, ruling 14): `print` takes print's wording for a
+    held row, `drop` leaves out a feature that print does not have, `to-opening` also moves its sentence into
+    the opening text, `tail-to:ANCHOR` moves the paragraphs after the first one into that feature."""
+    path = decisions_path(corpus, book)
+    out: dict[tuple[str, str], tuple[str, str]] = {}
+    if not path.exists():
+        return out
+    lines = path.read_text(encoding="utf-8").split("\n")
+    if lines[0].split("\t") != DECISION_HEADER:
+        raise SystemExit(f"{path}: header is not {DECISION_HEADER}")
+    for n, ln in enumerate(lines[1:], 2):
+        if not ln:
+            continue
+        cells = ln.split("\t")
+        if len(cells) != 4 or not (cells[2] in DECISIONS or cells[2].startswith("tail-to:")):
+            raise SystemExit(f"{path}:{n}: not a decision row")
+        out[(cells[0], cells[1])] = (cells[2], cells[3])
+    return out
+
+
 def tsv_path(corpus: Path, book: str) -> Path:
     return corpus / "scripts" / f"feature-prose-540-{book}.tsv"
 
@@ -1136,12 +1165,17 @@ def write_proposals(path: Path, entries: dict[str, dict]) -> None:
         out.append(f"\n[[entry]]\nid = {toml_str(eid)}\n")
         if e.get("hold"):
             out.append(f"hold = {toml_str(e['hold'])}\n")
+        if e.get("opening_from_print"):
+            out.append("opening_from_print = true\n")
+        out.append("opening = [" + ", ".join(toml_str(o) for o in e.get("opening", [])) + "]\n")
         for f in e.get("feature", []):
             out.append("\n[[entry.feature]]\n")
             out.append(f"anchor = {toml_str(f['anchor'])}\nhead = {toml_str(f['head'])}\nlisted = {str(f['listed']).lower()}\n")
             if f.get("level") is not None:
                 out.append(f"level = {f['level']}\n")
             out.append(f"print = {toml_str(f['print'])}\n")
+            if f.get("import_trades"):
+                out.append("import_trades = [" + ", ".join(toml_str(x) for x in f["import_trades"]) + "]\n")
             if f.get("draft") is not None:
                 out.append(f"draft = {toml_str(f['draft'])}\n")
             if f.get("edit") is not None:
@@ -1201,6 +1235,15 @@ def publication_title(corpus: Path, book: str) -> str:
 # Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
 # entry, the printed words, the words written, and why. The review table's note records each fix.
 MISPRINTS = [
+    ("ref/arc-barbarian/elemental-kin", "at at 18th level", "at 18th level", "a doubled word"),
+    ("ref/arc-druid/cave-druid", "A underground druid", "A cave druid",
+     "every other feature of the entry says \"a cave druid\"; \"underground druid\" names nothing"),
+    ("ref/arc-ranger/shapeshifter", "the shapeshifter subtype", "the shapechanger subtype",
+     "there is no shapeshifter subtype; the same book writes \"the shapechanger subtype\" (p. 139)"),
+    ("ref/arc-rogue/acrobat", "expert leaper, ledge walker,", "expert leaper, fast getaway, ledge walker,",
+     "the same book prints Fast Getaway among the rogue talents (p. 130), not the advanced talents"),
+    ("ref/arc-rogue/acrobat", "defensive roll, fast getaway, fast tumble,", "defensive roll, fast tumble,",
+     "Fast Getaway is a rogue talent (p. 130), not an advanced rogue talent"),
     ("ref/arc-ranger/horse-lord", "of the him", "of him", "the sentence needs no article before the pronoun"),
     ("ref/arc-monk/hungry-ghost-monk", "The ability replaces diamond soul", "This ability replaces diamond soul",
      "every other trade sentence of the book starts \"This ability\""),
@@ -1210,8 +1253,8 @@ MISPRINTS = [
 
 
 def is_scaffold(head: str) -> bool:
-    k = namekey(head)
-    return k in SCAFFOLD or k + "s" in SCAFFOLD or k.rstrip("s") in SCAFFOLD
+    """The app's list (`NOT_FEATURE_HEADINGS`): the whole heading, without case, surrounding space and a trailing colon."""
+    return head.strip().rstrip(":").strip().lower() in SCAFFOLD
 
 
 def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], entry_id: str = "") -> tuple[str, list[str], list[str]]:
@@ -1228,17 +1271,17 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     if fixed != text:
         notes.append("misprint fixed: print has \"A " + text.split(" level", 1)[0][2:] + " level\", the lead is \"At " + text.split(" level", 1)[0][2:] + " level\"")
         text = fixed
+    # print's asterisks mark a talent or a feat that has a prerequisite; the key is not printed here (ruling 10)
+    stripped = re.sub(r"(?<=[\w)\]])\\\*", "", text)
+    if stripped != text:
+        notes.append("print asterisks without their key dropped")
+        text = stripped
     for eid, wrong, right, why in MISPRINTS:
         if eid == entry_id and wrong in text:
             text = text.replace(wrong, right)
             notes.append(f"misprint fixed: print has \"{wrong}\", written \"{right}\" ({why})")
     # a page reference of the book ("Pathfinder RPG Core Rulebook page 469"): the corpus links instead
     text = re.sub(r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)", "", text)
-    # print's asterisks mark a talent or a feat that has a prerequisite; the key is not printed here (ruling 10)
-    stripped = re.sub(r"(?<=[\w)\]])\\\*", "", text)
-    if stripped != text:
-        notes.append("print asterisks without their key dropped")
-        text = stripped
     lost: list[str] = []
     if links:
         text, lost = apply_links(text, links)
@@ -1288,7 +1331,10 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         draft = build_draft(f)
         text, lost, pnotes = print_md(pf, old_links(f), vocab, e.id)
         cmp = compare_feature(draft, text, set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
+        named = [x.strip() for it in f.items if it.label in ("Replaces", "Alters")
+                 for x in re.split(r",| and ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)) if x.strip()]
         row = {"anchor": anchor_of(pf.head), "span": f.span_sha(), "page": pf.page, "pseudo": f.pseudo,
+               "import_trades": named,
                "draft": draft.text, "level_import": draft.level, "head": head_text(pf.head), "print": text,
                "status": cmp.status, "notes": list(cmp.notes) + pnotes, "name": pf.head}
         if lost:
@@ -1303,7 +1349,11 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                          "draft": build_draft(f).text, "level_import": None, "head": head_text(f.name), "print": "",
                          "status": "hold", "notes": ["head not printed"], "listed": False, "name": f.name})
     opening = [render_marks(finish_text(clean_runs(r), vocab)) for r in opening_print]
-    return {"rows": rows, "problems": problems, "opening": [o for o in opening if o]}
+    links = [(m.group(2), m.group(3)) for b in opening_imp for m in LINK.finditer(logical(b))]
+    for i, f in enumerate(feats):
+        if i not in used:
+            links += old_links(f)
+    return {"rows": rows, "problems": problems, "opening": [o for o in opening if o], "opening_links": links}
 
 
 def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tuple[dict[int, list[str]], list[str]]:
@@ -1326,6 +1376,10 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
         else:
             own = [f["anchor"] for f in listed
                    if not sentences[f["anchor"]] and namekey(f["head"]) == namekey(name)]
+            if not own:
+                # the feature under which the import held the `**Replaces:**` / `**Alters:**` row of this trade
+                own = [f["anchor"] for f in listed
+                       if not sentences[f["anchor"]] and namekey(name) in {namekey(x) for x in f.get("import_trades", [])}]
             if own:
                 by[i] = own
             else:
@@ -1346,35 +1400,26 @@ TRADE_RENAMES = {
 }
 
 
+# A trade that print states in a trade sentence and that the entry does not store (data fix inside the
+# pilot's book; the TSV note records it). The other four shaman archetypes store `Venom immunity`.
+TRADE_ADDITIONS = {
+    "ref/arc-druid/eagle-shaman": [{"replaces": "Venom immunity", "feature": "venom-immunity"}],
+}
+
+
 def effective_trades(e: Entry) -> list[dict]:
     out = []
     for t in trades_of(e):
         op, name = trade_name(t)
         new = TRADE_RENAMES.get((e.id, name))
         out.append(dict(t, **{op: new}) if new else t)
-    return out
+    return out + [dict(t) for t in TRADE_ADDITIONS.get(e.id, [])]
 
 
 def opening_texts(rows: list[dict], opening: list[str]) -> list[str]:
-    """The text that the app reads as the opening: the printed opening and the unlisted sections before the
-    first listed feature."""
-    texts = list(opening)
-    for r in rows:
-        if r["listed"]:
-            break
-        texts.append(r["print"])
-    return texts
-
-
-def late_unlisted_sentences(rows: list[dict]) -> list[str]:
-    """Trade sentences in an unlisted section after the first listed feature: the check refuses them."""
-    seen, out = False, []
-    for r in rows:
-        if r["listed"]:
-            seen = True
-        elif seen and r["print"] and any(not bare for _, _, bare in trade_sentences(r["print"])):
-            out.append(r["head"])
-    return out
+    """The text whose trade sentences carry no `by`: the opening, and every section under a heading that is not
+    a feature (owner ruling 13 of 2026-11-24, app #690: the innermost heading decides)."""
+    return list(opening) + [r["print"] for r in rows if not r["listed"] and r["print"]]
 
 
 def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
@@ -1413,13 +1458,56 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     for a, n in Counter(r["anchor"] for r in rows).items():
         if n > 1:
             problems.append(f"anchor `{a}` occurs {n} times")
+    # hand decisions of the review (ruling 14)
+    decisions = res.get("decisions", {})
+    dropped: list[dict] = []
+    opening = list(res["opening"])
+    opening_from_print = False
+    by_anchor = {r["anchor"]: r for r in rows}
+    for r in list(rows):
+        dec = decisions.get((e.id, r["anchor"]))
+        if not dec:
+            continue
+        kind, note = dec
+        if kind.startswith("tail-to:"):
+            paras = r["print"].split("\n\n")
+            tail = "\n\n".join(paras[1:])
+            r["print"] = paras[0]
+            target = by_anchor[kind.split(":", 1)[1]]
+            target["print"] += "\n\n" + tail
+            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor"))]
+            r["status"] = "print"
+        elif kind in ("drop", "to-opening"):
+            rows.remove(r)
+            r["notes"], r["status"] = [note], "print"
+            dropped.append(r)
+            if kind == "to-opening":
+                opening_from_print = True
+                opening = [apply_links(o, res.get("opening_links", []))[0] for o in res["opening"]]
+        elif kind == "print" and r["status"] == "hold":
+            r["status"] = "print"
+            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling"))]
+    # a decided row of the first kind that moved text into another row is re-decided there
+    for r in rows:
+        dec = decisions.get((e.id, r["anchor"]))
+        if dec and dec[0] == "print" and r["status"] == "hold":
+            r["status"] = "print"
+    res["opening"] = opening
+    res["problems"] = [p for p in problems if not p.startswith("head not printed")]
+    problems = res["problems"]
+    left = [r["head"] for r in rows if "head not printed" in r["notes"] and r["status"] == "hold"]
+    if left:
+        problems.append("head not printed: " + ", ".join(left))
     listed = [r for r in rows if r["listed"]]
     trades = effective_trades(e)
     by, more = assign_by(trades, listed, opening_texts(rows, res["opening"])) if all(r["print"] for r in listed) else ({}, [])
     problems += more
-    for head in late_unlisted_sentences(rows):
-        problems.append(f"{head}: a trade sentence under a heading that is not a feature, after the first feature")
     for i, t in enumerate(trades):
+        if i >= len(trades_of(e)):
+            anchors = by.get(i) or [rows[0]["anchor"]]
+            note = f'trade added: {trade_name(t)[0]} "{trade_name(t)[1]}" (feature `{t["feature"]}`), which print states and the entry did not store'
+            next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
+            continue
         old = trades_of(e)[i]
         if old != t:
             anchors = by.get(i) or [rows[0]["anchor"]]
@@ -1446,7 +1534,8 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold":
             r["status"] = "hold"
             r["notes"].append(f"level: corpus {ordinal(r['level_import'])}, print {ordinal(r['level'])}")
-    return {"rows": rows, "problems": problems, "by": by, "opening": res["opening"]}
+    return {"rows": rows, "problems": problems, "by": by, "opening": res["opening"], "dropped": dropped,
+            "opening_from_print": opening_from_print}
 
 
 def run_compare(args) -> int:
@@ -1460,6 +1549,7 @@ def run_compare(args) -> int:
     entries = load_entries(corpus, book, args.only)
     old_rows = read_tsv(tsv_path(corpus, book))
     old_props = read_proposals(proposals_path(corpus, book))
+    decisions = read_decisions(corpus, book)
     done = {e.id for e in entries if e.converted}
     redo = {e.id for e in entries if not e.converted}
     rows: list[dict] = [r for r in old_rows if r["entry"] in done or r["entry"] not in redo]
@@ -1477,7 +1567,9 @@ def run_compare(args) -> int:
         if section is None:
             rows.append(entry_hold_row(e, f"title not found near page {page}"))
             continue
-        fin = finalize(e, compare_entry(e, section, bk))
+        res = compare_entry(e, section, bk)
+        res["decisions"] = decisions
+        fin = finalize(e, res)
         old = {(r["entry"], r["anchor"]): r for r in old_rows if r["entry"] == e.id}
         entry_rows, entry_props = rows_of(e, fin, old, old_props.get(e.id))
         rows += entry_rows
@@ -1516,12 +1608,21 @@ def rows_of(e: Entry, fin: dict, old: dict, old_props: dict | None) -> tuple[lis
             "status": status, "note": "; ".join(r["notes"]), "page": r["page"], "span_sha256": r["span"], "_n": n,
         })
         f = {"anchor": r["anchor"], "head": r["head"], "listed": r["listed"], "print": r["print"]}
+        if r.get("import_trades"):
+            f["import_trades"] = r["import_trades"]
         if r["level"] is not None and r["listed"]:
             f["level"] = r["level"]
         if edit is not None:
             f["edit"] = edit
         feats.append(f)
-    return rows, {"id": e.id, "hold": hold, "opening": fin["opening"], "feature": feats}
+    for r in fin.get("dropped", []):
+        rows.append({"entry": e.id, "feature": r["head"], "anchor": r["anchor"], "listed": "no", "level": "", "source": "",
+                     "status": "print", "note": "; ".join(r["notes"]), "page": r["page"], "span_sha256": r["span"],
+                     "_n": 1000 + len(rows)})
+    prop = {"id": e.id, "hold": hold, "opening": fin["opening"], "feature": feats}
+    if fin.get("opening_from_print"):
+        prop["opening_from_print"] = True
+    return rows, prop
 
 
 def summarize(rows: list[dict], props: dict) -> None:
@@ -1552,7 +1653,7 @@ def convertible(e: Entry, rows: list[dict], prop: dict | None) -> str | None:
     return None
 
 
-def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades: int) -> str:
+def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades: int, added: list[dict] | None = None) -> str:
     lines = front.split("\n")
     out, in_fields, in_trades, k = [], False, False, 0
     listed = [f for f in feats if f["listed"]]
@@ -1577,6 +1678,12 @@ def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades
         if in_trades:
             if ln.strip() == "]":
                 in_trades = False
+                for t in added or []:
+                    op, name = trade_name(t)
+                    extra = "".join(f', {key} = "{t[key]}"' for key in ("feature",) if key in t)
+                    anchors = ", ".join(f'"{a}"' for a in by.get(k, []))
+                    out.append(f'  {{ {op} = "{name}"{extra}' + (f", by = [{anchors}]" if anchors else "") + " },")
+                    k += 1
             elif ln.strip().startswith("{"):
                 m = re.match(r"^(\s*\{.*?) \},?\s*$", ln)
                 if not m:
@@ -1586,8 +1693,8 @@ def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades
                     ln = f"{m.group(1)}, by = [{anchors}] }},"
                 k += 1
         out.append(ln)
-    if k != n_trades:
-        raise ValueError(f"{k} trade lines, want {n_trades}")
+    if k != n_trades + len(added or []):
+        raise ValueError(f"{k} trade lines, want {n_trades + len(added or [])}")
     return "\n".join(out)
 
 
@@ -1601,11 +1708,13 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     probe = {namekey(f["head"]) for f in feats}
     opening, _ = parse_import(e.body, probe)
     parts = ["\n".join(b) for b in opening]
+    if prop.get("opening_from_print"):
+        parts = list(prop["opening"])
     for f in feats:
         parts.append(f"## {f['head']} {{#{f['anchor']}}}")
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
-    front = edit_front(e.front, feats, by, len(trades_of(e)))
+    front = edit_front(e.front, feats, by, len(trades_of(e)), TRADE_ADDITIONS.get(e.id))
     for (eid, old), new in TRADE_RENAMES.items():
         if eid == e.id:
             front = front.replace(f'"{old}"', f'"{new}"', 1)
@@ -1825,15 +1934,15 @@ def self_test() -> int:
     text, _, notes = print_md(pf, [], set(), "ref/arc-rogue/spy")
     eq(text.startswith("At 3rd level, a spy"), True, "misprint fixed")
     eq(any("misprint fixed" in n for n in notes) and any("asterisks" in n for n in notes), True, "fixes are in the notes")
-    eq(is_scaffold("Bonus Feat"), True, "scaffold singular")
     # front matter edit
     front = 'id = "x"\n\n[fields]\nkind = "archetype"\ntrades = [\n  { replaces = "Bravery", feature = "bravery" },\n  { replaces = "Armor training", feature = "armor-training" },\n]'
     got = edit_front(front, [{"anchor": "a", "level": 2, "listed": True}, {"anchor": "b", "listed": True}], {0: ["a"], 1: []}, 2)
     eq("features = [\n  { anchor = \"a\", level = 2 },\n  { anchor = \"b\" },\n]" in got, True, "features written")
     eq('{ replaces = "Bravery", feature = "bravery", by = ["a"] },' in got, True, "by written")
     eq('{ replaces = "Armor training", feature = "armor-training" },' in got, True, "no by for the opening text")
-    for scaffold in ("Bonus Feats", "Weapon and Armor Proficiency", "Companion Type"):
-        eq(namekey(scaffold) in SCAFFOLD, True, f"scaffold {scaffold}")
+    for scaffold in ("Bonus Feats", "Weapon and Armor Proficiency", "Companion Type", "AC:"):
+        eq(is_scaffold(scaffold), True, f"scaffold {scaffold}")
+    eq(is_scaffold("Bonus Feat"), False, "the app's list has no singular")
     print(f"self-test: {ok} checks passed")
     return 0
 
@@ -1864,7 +1973,8 @@ def main() -> int:
     if args.check:
         corpus = Path(args.corpus).resolve()
         books = [args.book] if args.book else sorted(
-            p.name[len("feature-prose-540-"):-len(".tsv")] for p in (corpus / "scripts").glob("feature-prose-540-*.tsv"))
+            p.name[len("feature-prose-540-"):-len(".tsv")] for p in (corpus / "scripts").glob("feature-prose-540-*.tsv")
+            if not p.name.endswith(".decisions.tsv"))
         status = 0
         for b in books:
             args.book = b
