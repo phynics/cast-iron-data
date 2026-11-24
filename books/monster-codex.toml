@@ -428,10 +428,6 @@ title = "Duergar"
 entry = "ref/carried/monster-codex/rules/duergar"
 
 [[books.chapters.children]]
-title = "Duergar"
-entry = "ref/race/duergar"
-
-[[books.chapters.children]]
 title = "New Rules"
 entry = "ref/carried/monster-codex/rules/duergar/new-rules"
 
@@ -2032,10 +2028,6 @@ entry = "ref/carried/monster-codex/rules/orcs/orc-encounters/demolition-crew/gor
 [[books.chapters]]
 title = "Ratfolk"
 entry = "ref/carried/monster-codex/rules/ratfolk"
-
-[[books.chapters.children]]
-title = "Ratfolk"
-entry = "ref/race/ratfolk"
 
 [[books.chapters.children]]
 title = "New Rules"

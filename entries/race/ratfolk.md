@@ -3,7 +3,7 @@ id = "ref/race/ratfolk"
 kind = "race"
 title = "Ratfolk"
 aon = "RacesDisplay.aspx?ItemName=Ratfolk"
-source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-3", "monster-codex", "blood-of-the-beast", "wilderness-origins"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-3"]
 race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratfolk", path = "json/races3.json" },
@@ -17,6 +17,9 @@ page = "150"
 [[sources]]
 publication = "bestiary-3"
 page = "231"
+[[expanded_in]]
+publication = "wilderness-origins"
+page = "8"
 
 [fields]
 kind = "none"

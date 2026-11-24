@@ -1,13 +1,13 @@
 book	entry	kind	title	member	n_books	tag	status	cited	cite	hits	found	via	family	parent_has_book	gate	proposed_primary	proposed_status	verdict	print_page	evidence	group	slice	ruling	in_warning	pdf	body_line	exact	paren
 advanced-class-guide	ref/rule/basics	rule	Basics	4	5	hub-keep	printed		none	2	241,242										link-only-hub	S10	hub-design-a	yes	yes			
 advanced-class-guide	ref/rule/gamemastery	rule	Gamemastery	6	8	hub-keep	weak		none	1	193										link-only-hub	S10	hub-design-a	yes	yes			
-advanced-class-guide	ref/race/dwarf	race	Dwarf	14	17	family-leak	printed		none	3	69,161,251	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hardy(body)								race-hub	S9		yes	yes			
-advanced-class-guide	ref/race/elf	race	Elf	14	17	family-leak	printed		none	4	69,70,172,251	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/elven-magic(body),ref/racial-trait/elf/languages(title)								race-hub	S9		yes	yes			
-advanced-class-guide	ref/race/gnome	race	Gnome	13	16	family-leak	printed		none	3	70,217,251	child	ref/racial-trait/gnome/attributes(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/illusion-resistance(body)								race-hub	S9		yes	yes			
-advanced-class-guide	ref/race/half-elf	race	Half-Elf	15	18	family-leak	printed		none	2	70,251	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/attributes(title),ref/racial-trait/half-elf/languages(title)								race-hub	S9		yes	yes			
-advanced-class-guide	ref/race/half-orc	race	Half-Orc	15	18	family-leak	printed		none	2	71,251	child	ref/racial-trait/half-orc/attributes(title),ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title)								race-hub	S9		yes	yes			
-advanced-class-guide	ref/race/halfling	race	Halfling	14	17	family-leak	printed		none	4	70,73,172,251	child	ref/racial-trait/halfling/attributes(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
-advanced-class-guide	ref/race/human	race	Human	12	15	family-leak	printed		none	4	71,172,228,251	child	ref/racial-trait/human/attributes(title),ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title)								race-hub	S9		yes	yes			
+advanced-class-guide	ref/race/dwarf	race	Dwarf	14	17	family-leak	printed		none	3	69,161,251	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hardy(body)					expands	69	expansion-credited-no-via	race-hub	done			yes			
+advanced-class-guide	ref/race/elf	race	Elf	14	17	family-leak	printed		none	4	69,70,172,251	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/elven-magic(body),ref/racial-trait/elf/languages(title)					expands	69	expansion-credited-no-via	race-hub	done			yes			
+advanced-class-guide	ref/race/gnome	race	Gnome	13	16	family-leak	printed		none	3	70,217,251	child	ref/racial-trait/gnome/attributes(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/illusion-resistance(body)					expands	70	expansion-credited-no-via	race-hub	done			yes			
+advanced-class-guide	ref/race/half-elf	race	Half-Elf	15	18	family-leak	printed		none	2	70,251	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/attributes(title),ref/racial-trait/half-elf/languages(title)					expands	70	expansion-credited-no-via	race-hub	done			yes			
+advanced-class-guide	ref/race/half-orc	race	Half-Orc	15	18	family-leak	printed		none	2	71,251	child	ref/racial-trait/half-orc/attributes(title),ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title)					expands	71	expansion-credited-no-via	race-hub	done			yes			
+advanced-class-guide	ref/race/halfling	race	Halfling	14	17	family-leak	printed		none	4	70,73,172,251	child	ref/racial-trait/halfling/attributes(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)					expands	70	expansion-credited-no-via	race-hub	done			yes			
+advanced-class-guide	ref/race/human	race	Human	12	15	family-leak	printed		none	4	71,172,228,251	child	ref/racial-trait/human/attributes(title),ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title)					expands	71	expansion-credited-no-via	race-hub	done			yes			
 advanced-class-guide	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	6	9	family-leak	printed		none	3	22,26,108	parent	ref/race/dwarf(title)	yes				remove	69	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	13	16	family-leak	printed		none	9	27,40,41,86,98	parent	ref/race/dwarf(title)	yes				remove	69	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	14	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	69	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -117,13 +117,13 @@ advanced-players-guide	ref/class/ranger	class	Ranger	8	12	family-leak	printed		n
 advanced-players-guide	ref/class/rogue	class	Rogue	5	14	family-leak	printed		none	40	1,3,5,9,10	child	ref/rule/class-rogue/rogue(title)					cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/sorcerer	class	Sorcerer	2	11	family-leak	printed		none	40	3,10,12,13,14	child	ref/rule/class-sorcerer/sorcerer(title)					cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/wizard	class	Wizard	2	11	family-leak	printed		none	40	2,3,5,10,12	child	ref/rule/class-wizard/wizard(title)					cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/race/dwarf	race	Dwarf	7	17	family-leak	printed		none	26	3,5,8,9,10	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/defensive-training(title),ref/racial-trait/dwarf/greed(title)								race-hub	S9		yes	yes			
-advanced-players-guide	ref/race/elf	race	Elf	6	17	family-leak	printed		none	25	3,5,8,10,11	child	ref/racial-trait/elf/elven-immunities(title),ref/racial-trait/elf/elven-magic(title),ref/racial-trait/elf/keen-senses(title)								race-hub	S9		yes	yes			
-advanced-players-guide	ref/race/gnome	race	Gnome	6	16	family-leak	printed		none	16	3,5,8,14,15	child	ref/racial-trait/gnome/defensive-training(title),ref/racial-trait/gnome/gnome-magic(title),ref/racial-trait/gnome/hatred(title)								race-hub	S9		yes	yes			
-advanced-players-guide	ref/race/half-elf	race	Half-Elf	7	18	family-leak	printed		none	17	3,5,8,16,17	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(title),ref/racial-trait/half-elf/keen-senses(title)								race-hub	S9		yes	yes			
-advanced-players-guide	ref/race/half-orc	race	Half-Orc	11	18	family-leak	printed		none	18	3,5,8,9,18	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)								race-hub	S9		yes	yes			
-advanced-players-guide	ref/race/halfling	race	Halfling	7	17	family-leak	printed		none	8	3,20,152,154,155	child	ref/racial-trait/halfling/fearless(title),ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title)								race-hub	S9		yes	yes			
-advanced-players-guide	ref/race/human	race	Human	5	15	family-leak	printed		none	24	3,5,8,9,10	child	ref/racial-trait/human/attributes(body),ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title)								race-hub	S9		yes	yes			
+advanced-players-guide	ref/race/dwarf	race	Dwarf	7	17	family-leak	printed		none	26	3,5,8,9,10	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/defensive-training(title),ref/racial-trait/dwarf/greed(title)					remove	10	race-options-only	race-hub	done			yes			
+advanced-players-guide	ref/race/elf	race	Elf	6	17	family-leak	printed		none	25	3,5,8,10,11	child	ref/racial-trait/elf/elven-immunities(title),ref/racial-trait/elf/elven-magic(title),ref/racial-trait/elf/keen-senses(title)					remove	12	race-options-only	race-hub	done			yes			
+advanced-players-guide	ref/race/gnome	race	Gnome	6	16	family-leak	printed		none	16	3,5,8,14,15	child	ref/racial-trait/gnome/defensive-training(title),ref/racial-trait/gnome/gnome-magic(title),ref/racial-trait/gnome/hatred(title)					remove	14	race-options-only	race-hub	done			yes			
+advanced-players-guide	ref/race/half-elf	race	Half-Elf	7	18	family-leak	printed		none	17	3,5,8,16,17	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(title),ref/racial-trait/half-elf/keen-senses(title)					remove	16	race-options-only	race-hub	done			yes			
+advanced-players-guide	ref/race/half-orc	race	Half-Orc	11	18	family-leak	printed		none	18	3,5,8,9,18	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)					remove	18	race-options-only	race-hub	done			yes			
+advanced-players-guide	ref/race/halfling	race	Halfling	7	17	family-leak	printed		none	8	3,20,152,154,155	child	ref/racial-trait/halfling/fearless(title),ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title)					remove	20	race-options-only	race-hub	done			yes			
+advanced-players-guide	ref/race/human	race	Human	5	15	family-leak	printed		none	24	3,5,8,9,10	child	ref/racial-trait/human/attributes(body),ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title)					remove	22	race-options-only	race-hub	done			yes			
 advanced-players-guide	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	7	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	8, 10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-players-guide	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	7	16	family-leak	printed		none	22	32,43,58,59,79	parent	ref/race/dwarf(title)	yes				remove	8, 10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-players-guide	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	6	8	family-leak	printed		none	4	8,11,15,126	parent	ref/race/dwarf(title)	yes				remove	8, 10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -456,16 +456,16 @@ adventurers-guide	ref/spell/detect-magic-greater	spell	Greater Detect Magic	2	5	
 adventurers-guide	ref/spell/magic-aura-greater	spell	Greater Magic Aura	3	3	family-leak	absent	37	row	0		variant	ref/spell/magic-aura(title)					remove	37	wrong-credit-invalidated	single-entry	done			yes			
 adventurers-guide	ref/spell/identifiers-eye	spell	Identifier's Eye	2	5	review	absent	77	row	0											single-entry	S11			yes		no	
 adventurers-guide	ref/magic-wondrous/zoic-fetish	item	Zoic Fetish	1	2	cite-off	off-page	114	row	2	134,189										single-entry	S11			yes		no	
-agents-of-evil	ref/race/half-orc	race	Half-Orc	12	18	family-leak	printed		none	2	3,25	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/medium(title)								race-hub	S9		yes	yes			
+agents-of-evil	ref/race/half-orc	race	Half-Orc	12	18	family-leak	printed		none	2	3,25	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/medium(title)					remove	25	race-options-only	race-hub	done			yes			
 agents-of-evil	ref/racial-trait/half-orc/darkvision	racial_trait	Darkvision	12	17	family-leak	printed		none	2	25,28	parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
 agents-of-evil	ref/racial-trait/half-orc/medium	racial_trait	Medium	12	18	family-leak	printed		none	3	17,26,30	parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
 agents-of-evil	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal Speed	12	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
 agents-of-evil	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	12	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
 agents-of-evil	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	12	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
-agents-of-evil	ref/race/changeling	race	Changeling	6	7	uncited	printed		none	2	3,24										race-hub	S9		yes	yes			
-agents-of-evil	ref/race/drow	race	Drow	5	6	uncited	printed		none	6	0,3,6,11,22										race-hub	S9		yes	yes			
-agents-of-evil	ref/race/fetchling	race	Fetchling	5	5	uncited	printed		none	5	3,24,25,28,31										race-hub	S9		yes	yes			
-agents-of-evil	ref/race/tiefling	race	Tiefling	5	7	uncited	printed		none	2	3,25										race-hub	S9		yes	yes			
+agents-of-evil	ref/race/changeling	race	Changeling	6	7	uncited	printed		none	2	3,24							remove	24	race-options-only	race-hub	done			yes			
+agents-of-evil	ref/race/drow	race	Drow	5	6	uncited	printed		none	6	0,3,6,11,22							remove	24	race-options-only	race-hub	done			yes			
+agents-of-evil	ref/race/fetchling	race	Fetchling	5	5	uncited	printed		none	5	3,24,25,28,31							remove	24	race-options-only	race-hub	done			yes			
+agents-of-evil	ref/race/tiefling	race	Tiefling	5	7	uncited	printed		none	2	3,25							remove	25	race-options-only	race-hub	done			yes			
 agents-of-evil	ref/spell/detect-chaos-evil-good-law	spell	Detect Chaos/Evil/Good/Law	2	2	review	absent	16	row	0								resolved	none	out-of-source-ids	single-entry	S0			yes			
 agents-of-evil	ref/racial-trait/half-orc/attributes	racial_trait	Attributes	7	11	weak	weak		none	1	30	parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
 agents-of-evil	ref/racial-trait/half-orc/intimidating	racial_trait	Intimidating	11	16	weak	weak		none	1	25	parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -574,8 +574,8 @@ bastards-of-golarion	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal 
 bastards-of-golarion	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	4	6	inherited	unaligned		none	0				yes				remove	10-13	race-section-read-no-trait	standard-racial-trait	done			yes			
 bastards-of-golarion	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	5	13	inherited	unaligned		none	0				yes				remove	10-13	race-section-read-no-trait	standard-racial-trait	done			yes			
 bastards-of-golarion	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	5	13	inherited	unaligned		none	0				yes				remove	10-13	race-section-read-no-trait	standard-racial-trait	done			yes			
-bastards-of-golarion	ref/race/half-elf	race	Half-Elf	5	18	uncited	unaligned		none	0											race-hub	S9		yes	yes			
-bastards-of-golarion	ref/race/half-orc	race	Half-Orc	5	18	uncited	unaligned		none	0											race-hub	S9		yes	yes			
+bastards-of-golarion	ref/race/half-elf	race	Half-Elf	5	18	uncited	unaligned		none	0								remove	5	race-options-only	race-hub	done			yes			
+bastards-of-golarion	ref/race/half-orc	race	Half-Orc	5	18	uncited	unaligned		none	0								remove	11	race-options-only	race-hub	done			yes			
 bestiary	ref/misc/damage-die-adjustments	rule	Damage Die Adjustments	1	3	hub-keep	absent		none	0											hub-cited	S11			yes	yes		
 bestiary	ref/rule/gamemastery	rule	Gamemastery	3	8	hub-keep	weak		none	1	2										link-only-hub	S10	hub-design-a	yes	yes			
 bestiary	ref/rule/rare-races	rule	Rare Races	7	20	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
@@ -615,13 +615,13 @@ blood-of-shadows	ref/class/paladin	class	Paladin	5	12	family-leak	printed		none	
 blood-of-shadows	ref/class/ranger	class	Ranger	7	12	family-leak	printed		none	3	11,15,16	child	ref/rule/class-ranger/ranger(title)					remove	11	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/rogue	class	Rogue	12	14	family-leak	printed		none	7	3,7,8,9,11	child	ref/rule/class-rogue/rogue(title)					remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/wizard	class	Wizard	4	11	family-leak	printed		none	9	11,12,15,16,28	child	ref/rule/class-wizard/wizard(title)					remove	11	class-options-only	class-hub	done			yes			
-blood-of-shadows	ref/race/dwarf	race	Dwarf	6	17	family-leak	printed		none	4	2,4,5,20	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/greed(title),ref/racial-trait/dwarf/languages(title)								race-hub	S9		yes	yes			
-blood-of-shadows	ref/race/elf	race	Elf	8	17	family-leak	printed		none	7	2,3,4,5,14	child	ref/racial-trait/elf/elven-immunities(title),ref/racial-trait/elf/elven-magic(title),ref/racial-trait/elf/keen-senses(title)								race-hub	S9		yes	yes			
-blood-of-shadows	ref/race/gnome	race	Gnome	5	16	family-leak	printed		none	3	4,5,11	child	ref/racial-trait/gnome/illusion-resistance(body),ref/racial-trait/gnome/keen-senses(title),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
-blood-of-shadows	ref/race/half-elf	race	Half-Elf	8	18	family-leak	printed		none	6	3,4,5,14,15	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(title),ref/racial-trait/half-elf/keen-senses(title)								race-hub	S9		yes	yes			
-blood-of-shadows	ref/race/half-orc	race	Half-Orc	10	18	family-leak	printed		none	3	4,5,20	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)								race-hub	S9		yes	yes			
-blood-of-shadows	ref/race/halfling	race	Halfling	12	17	family-leak	printed		none	2	4,5	child	ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
-blood-of-shadows	ref/race/human	race	Human	8	15	family-leak	printed		none	6	4,5,6,14,15	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)								race-hub	S9		yes	yes			
+blood-of-shadows	ref/race/dwarf	race	Dwarf	6	17	family-leak	printed		none	4	2,4,5,20	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/greed(title),ref/racial-trait/dwarf/languages(title)					remove	4	race-options-only	race-hub	done			yes			
+blood-of-shadows	ref/race/elf	race	Elf	8	17	family-leak	printed		none	7	2,3,4,5,14	child	ref/racial-trait/elf/elven-immunities(title),ref/racial-trait/elf/elven-magic(title),ref/racial-trait/elf/keen-senses(title)					remove	4	race-options-only	race-hub	done			yes			
+blood-of-shadows	ref/race/gnome	race	Gnome	5	16	family-leak	printed		none	3	4,5,11	child	ref/racial-trait/gnome/illusion-resistance(body),ref/racial-trait/gnome/keen-senses(title),ref/racial-trait/gnome/languages(title)					remove	4	race-options-only	race-hub	done			yes			
+blood-of-shadows	ref/race/half-elf	race	Half-Elf	8	18	family-leak	printed		none	6	3,4,5,14,15	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(title),ref/racial-trait/half-elf/keen-senses(title)					remove	14	race-options-only	race-hub	done			yes			
+blood-of-shadows	ref/race/half-orc	race	Half-Orc	10	18	family-leak	printed		none	3	4,5,20	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)					remove	4	race-options-only	race-hub	done			yes			
+blood-of-shadows	ref/race/halfling	race	Halfling	12	17	family-leak	printed		none	2	4,5	child	ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)					remove	4	race-options-only	race-hub	done			yes			
+blood-of-shadows	ref/race/human	race	Human	8	15	family-leak	printed		none	6	4,5,6,14,15	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)					remove	4	race-options-only	race-hub	done			yes			
 blood-of-shadows	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	6	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	6	16	family-leak	printed		none	12	7,4,5,9,11	parent	ref/race/dwarf(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/dwarf/greed	racial_trait	Greed	6	11	family-leak	printed		none	2	4,5	parent	ref/race/dwarf(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -704,14 +704,14 @@ blood-of-shadows	ref/class/spiritualist	class	Spiritualist	7	7	uncited	printed		
 blood-of-shadows	ref/class/summoner	class	Summoner	5	7	uncited	printed		none	4	3,11,15,30							remove	15	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/warpriest	class	Warpriest	3	6	uncited	printed		none	3	3,15,17							remove	15	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/witch	class	Witch	3	11	uncited	printed		none	8	4,11,15,16,28							remove	11	class-options-only	class-hub	done			yes			
-blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5										race-hub	S9		yes	yes			
-blood-of-shadows	ref/race/fetchling	race	Fetchling	4	5	uncited	printed		none	9	2,3,4,5,6										race-hub	S9		yes	yes			
-blood-of-shadows	ref/race/wayang	race	Wayang	6	6	uncited	printed		none	8	2,3,5,10,11										race-hub	S9		yes	yes			
+blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5							remove	14	race-options-only	race-hub	done			yes			
+blood-of-shadows	ref/race/fetchling	race	Fetchling	4	5	uncited	printed		none	9	2,3,4,5,6							remove	6	race-options-only	race-hub	done			yes			
+blood-of-shadows	ref/race/wayang	race	Wayang	6	6	uncited	printed		none	8	2,3,5,10,11							remove	10	race-options-only	race-hub	done			yes			
 blood-of-shadows	ref/class/arcanist	class	Arcanist	6	8	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/gunslinger	class	Gunslinger	6	7	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/hunter	class	Hunter	5	8	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/kineticist	class	Kineticist	3	9	weak	weak		none	1	11							remove	11	class-options-only	class-hub	done			yes			
-blood-of-shadows	ref/race/tiefling	race	Tiefling	6	7	weak	weak		none	1	5										race-hub	S9		yes	yes			
+blood-of-shadows	ref/race/tiefling	race	Tiefling	6	7	weak	weak		none	1	5							remove	5	race-options-only	race-hub	done			yes			
 blood-of-shadows	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	5	8	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/dwarf/hardy	racial_trait	Hardy	5	14	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/dwarf/hatred	racial_trait	Hatred	6	13	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -774,13 +774,13 @@ blood-of-the-beast	ref/class/unchained-rogue	class	Unchained Rogue	4	4	uncited	a
 blood-of-the-beast	ref/class/unchained-summoner	class	Unchained Summoner	4	4	uncited	printed		none	2	3,31							remove	31	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/vigilante	class	Vigilante	5	5	uncited	printed		none	6	3,7,12,13,15							remove	7	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/witch	class	Witch	4	11	uncited	printed		none	10	3,7,8,14,19							remove	8	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/race/catfolk	race	Catfolk	4	5	uncited	printed		none	9	0,1,2,4,5										race-hub	S9		yes	yes			
-blood-of-the-beast	ref/race/grippli	race	Grippli	4	5	uncited	printed		none	8	0,1,2,8,10										race-hub	S9		yes	yes			
-blood-of-the-beast	ref/race/kitsune	race	Kitsune	6	7	uncited	printed		none	8	1,2,12,13,14										race-hub	S9		yes	yes			
-blood-of-the-beast	ref/race/nagaji	race	Nagaji	6	6	uncited	printed		none	6	1,3,16,17,18										race-hub	S9		yes	yes			
-blood-of-the-beast	ref/race/ratfolk	race	Ratfolk	5	6	uncited	printed		none	8	1,3,20,21,22										race-hub	S9		yes	yes			
-blood-of-the-beast	ref/race/tengu	race	Tengu	6	6	uncited	printed		none	8	0,1,3,24,25										race-hub	S9		yes	yes			
-blood-of-the-beast	ref/race/vanara	race	Vanara	4	5	uncited	printed		none	7	0,1,3,28,29										race-hub	S9		yes	yes			
+blood-of-the-beast	ref/race/catfolk	race	Catfolk	4	5	uncited	printed		none	9	0,1,2,4,5							remove	4	race-options-only	race-hub	done			yes			
+blood-of-the-beast	ref/race/grippli	race	Grippli	4	5	uncited	printed		none	8	0,1,2,8,10							remove	8	race-options-only	race-hub	done			yes			
+blood-of-the-beast	ref/race/kitsune	race	Kitsune	6	7	uncited	printed		none	8	1,2,12,13,14							remove	12	race-options-only	race-hub	done			yes			
+blood-of-the-beast	ref/race/nagaji	race	Nagaji	6	6	uncited	printed		none	6	1,3,16,17,18							remove	16	race-options-only	race-hub	done			yes			
+blood-of-the-beast	ref/race/ratfolk	race	Ratfolk	5	6	uncited	printed		none	8	1,3,20,21,22							remove	20	race-options-only	race-hub	done			yes			
+blood-of-the-beast	ref/race/tengu	race	Tengu	6	6	uncited	printed		none	8	0,1,3,24,25							remove	24	race-options-only	race-hub	done			yes			
+blood-of-the-beast	ref/race/vanara	race	Vanara	4	5	uncited	printed		none	7	0,1,3,28,29							remove	28	race-options-only	race-hub	done			yes			
 blood-of-the-beast	ref/class/barbarian	class	Barbarian	5	10	weak	weak		none	1	8							remove	8	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/warpriest	class	Warpriest	4	6	weak	weak		none	1	16							remove	16	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/rule/class-barbarian/barbarian	rule	Barbarian	5	10	weak	weak		none	1	8			yes				remove	8	class-options-only	class-hub	done			yes			
@@ -797,9 +797,9 @@ blood-of-the-coven	ref/monster/hag-mute-hag	creature	Mute Hag	2	2	uncited	printe
 blood-of-the-coven	ref/monster/hag-sea-hag	creature	Sea Hag	2	2	uncited	printed		none	7	0,8,12,13,22							cite	12-13	section-printed	single-entry	done			yes	yes		
 blood-of-the-coven	ref/monster/hag-storm-hag	creature	Storm Hag	3	3	uncited	printed		none	4	0,9,12,13							cite	12-13	section-printed	single-entry	done			yes	yes		
 blood-of-the-coven	ref/monster/hag-winter-hag	creature	Winter Hag	2	2	uncited	printed		none	4	0,9,12,13							cite	12-13	section-printed	single-entry	done			yes	yes		
-blood-of-the-elements	ref/race/oread	race	Oread	5	5	uncited	printed		none	13	0,1,2,3,5										race-hub	S9		yes	yes			
+blood-of-the-elements	ref/race/oread	race	Oread	5	5	uncited	printed		none	13	0,1,2,3,5							remove	8	race-options-only	race-hub	done			yes			
 blood-of-the-night	ref/rule/optional-subsystems	rule	Optional Subsystems	10	10	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-blood-of-the-night	ref/race/dhampir	race	Dhampir	4	5	uncited	unaligned		none	0											race-hub	S9		yes	yes			
+blood-of-the-night	ref/race/dhampir	race	Dhampir	4	5	uncited	unaligned		none	0								remove	20	race-options-only	race-hub	done			yes			
 blood-of-the-sea	ref/class/bard	class	Bard	10	13	family-leak	printed		none	4	9,12,13,21	child	ref/rule/class-bard/bard(title)					remove	9	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/druid	class	Druid	3	12	family-leak	printed		none	6	3,5,11,21,24	child	ref/rule/class-druid/druid(title)					remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/monk	class	Monk	7	9	family-leak	printed		none	4	9,10,11,13	child	ref/rule/class-monk/monk(title)					remove	9	class-options-only	class-hub	done			yes			
@@ -832,7 +832,7 @@ carrion-hill	ref/monster/spawn-of-yog-sothoth	creature	Spawn of Yog-Sothoth	2	2	
 champions-of-corruption	ref/rule/feats-multiperson	rule	Multiperson Feats	2	3	hub-keep	off-page	22	row	1	20										hub-cited	S11			yes	yes	no	
 champions-of-corruption	ref/rule/feats-roleplaying	rule	Roleplaying Feats	4	6	hub-keep	absent	18	row	0											hub-cited	S11			yes	yes	no	
 cheliax-empire-of-devils	ref/trait/demon-hunter	trait	Demon Hunter	2	3	review	printed	19	row	0								keep	19	title-on-cited-page	single-entry	S0			yes		yes	
-cheliax-the-infernal-empire	ref/race/changeling	race	Changeling	7	7	weak	weak		none	1	57										race-hub	S9		yes	yes			
+cheliax-the-infernal-empire	ref/race/changeling	race	Changeling	7	7	weak	weak		none	1	57							remove	57	race-options-only	race-hub	done			yes			
 chronicle-of-legends	ref/rule/optional-magic-changes	rule	Optional Magic Changes	3	4	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 chronicle-of-legends	ref/rule/types-of-traits	rule	Types of Traits	6	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
 chronicle-of-legends	ref/class/barbarian	class	Barbarian	6	10	family-leak	body		none	1	10	child	ref/rule/class-barbarian/barbarian(body)					cite	28	section-printed	class-hub	done			yes	yes		
@@ -1038,7 +1038,7 @@ curse-of-the-crimson-throne-players-guide	ref/trait/dockside-avenger	trait	Docks
 curse-of-the-crimson-throne-players-guide	ref/trait/varisian-immunity	trait	Varisian Immunity	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 darklands-revisited	ref/rule/rare-races	rule	Rare Races	16	20	hub-keep	absent	37	row	0											hub-cited	S11			yes	yes	no	
 darklands-revisited	ref/rule/slimes-molds-and-fungi	rule	Slimes, Molds, and Fungi	3	3	hub-keep	absent	61	row	0											hub-cited	S11			yes	yes	no	
-darklands-revisited	ref/race/half-elf	race	Half-Elf	9	18	family-leak	printed		none	2	7,36	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/medium(title)								race-hub	S9		yes	yes			
+darklands-revisited	ref/race/half-elf	race	Half-Elf	9	18	family-leak	printed		none	2	7,36	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/medium(title)					remove	7	race-options-only	race-hub	done			yes			
 darklands-revisited	ref/racial-trait/half-elf/adaptability	racial_trait	Adaptability	9	17	family-leak	printed		none	2	7,64	parent	ref/race/half-elf(title)	yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 darklands-revisited	ref/racial-trait/half-elf/elf-blood	racial_trait	Elf Blood	9	18	family-leak	absent		none	0		parent	ref/race/half-elf(title)	yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 darklands-revisited	ref/racial-trait/half-elf/elven-immunities	racial_trait	Elven Immunities	9	18	family-leak	absent		none	0		parent	ref/race/half-elf(title)	yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1047,7 +1047,7 @@ darklands-revisited	ref/racial-trait/half-elf/languages	racial_trait	Languages	9
 darklands-revisited	ref/racial-trait/half-elf/medium	racial_trait	Medium	9	18	family-leak	printed		none	8	9,15,33,37,39	parent	ref/race/half-elf(title)	yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 darklands-revisited	ref/racial-trait/half-elf/multitalented	racial_trait	Multitalented	9	18	family-leak	absent		none	0		parent	ref/race/half-elf(title)	yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 darklands-revisited	ref/class/psychic	class	Psychic	6	8	uncited	printed		none	21	0,3,11,12,13							remove	13	class-options-only	class-hub	done			yes			
-darklands-revisited	ref/race/duergar	race	Duergar	5	5	uncited	printed		none	40	0,1,2,3,5										race-hub	S9		yes	yes			
+darklands-revisited	ref/race/duergar	race	Duergar	5	5	uncited	printed		none	40	0,1,2,3,5							remove	10	race-options-only	race-hub	done			yes			
 darklands-revisited	ref/class/kineticist	class	Kineticist	6	9	weak	weak		none	1	13							remove	13	class-options-only	class-hub	done			yes			
 darklands-revisited	ref/racial-trait/half-elf/attributes	racial_trait	Attributes	5	11	weak	weak		none	1	26	parent	ref/race/half-elf(title)	yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 darklands-revisited	ref/racial-trait/half-elf/low-light-vision	racial_trait	Low-Light Vision	9	17	weak	weak		none	1	63	parent	ref/race/half-elf(title)	yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1141,10 +1141,10 @@ goblins-of-golarion	ref/class/gunslinger	class	Gunslinger	7	7	uncited	printed		n
 goblins-of-golarion	ref/class/oracle	class	Oracle	6	13	uncited	printed		none	2	15,31							remove	15	class-options-only	class-hub	done			yes			
 goblins-of-golarion	ref/class/samurai	class	Samurai	7	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 goblins-of-golarion	ref/class/witch	class	Witch	7	11	uncited	printed		none	4	15,28,31,32							remove	15	class-options-only	class-hub	done			yes			
-goblins-of-golarion	ref/race/goblin	race	Goblin	5	5	uncited	printed		none	36	-1,0,1,2,3										race-hub	S9		yes	yes			
+goblins-of-golarion	ref/race/goblin	race	Goblin	5	5	uncited	printed		none	36	-1,0,1,2,3							cite	inside cover	section-printed	race-hub	done			yes			
 goblins-of-golarion	ref/trait/goblin-bravery	trait	Goblin Bravery	2	2	uncited	body		none	1	16							cite	16	printed-under-former-title	single-entry	done			yes			
 gods-and-magic	ref/magic-wondrous/bronze-skinning-knife	item	Bronze Skinning Knife	2	2	review	absent	55	row	0											single-entry	S11			yes		no	
-halflings-of-golarion	ref/race/halfling	race	Halfling	11	17	family-leak	printed		none	35	-1,0,1,2,3	child	ref/racial-trait/halfling/attributes(body),ref/racial-trait/halfling/fearless(body),ref/racial-trait/halfling/halfling-luck(title)								race-hub	S9		yes	yes			
+halflings-of-golarion	ref/race/halfling	race	Halfling	11	17	family-leak	printed		none	35	-1,0,1,2,3	child	ref/racial-trait/halfling/attributes(body),ref/racial-trait/halfling/fearless(body),ref/racial-trait/halfling/halfling-luck(title)					cite	inside cover	section-printed	race-hub	done			yes			
 halflings-of-golarion	ref/racial-trait/halfling/attributes	racial_trait	Attributes	6	10	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
 halflings-of-golarion	ref/racial-trait/halfling/fearless	racial_trait	Fearless	11	14	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
 halflings-of-golarion	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	5	5	family-leak	printed		none	10	0,3,6,7,9	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
@@ -1155,12 +1155,12 @@ halflings-of-golarion	ref/racial-trait/halfling/small	racial_trait	Small	11	17	f
 halflings-of-golarion	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	7	10	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
 halflings-of-golarion	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	11	13	family-leak	printed		none	2	0,22	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
 healers-handbook	ref/ability/blessings	rule	Warpriest Blessings	2	3	hub-keep	body		none	2	12,13										hub-cited	S10		yes	yes	yes		
-heroes-from-the-fringe	ref/race/dwarf	race	Dwarf	4	17	family-leak	printed		none	9	0,1,3,4,5	child	ref/racial-trait/dwarf/defensive-training(title),ref/racial-trait/dwarf/greed(title),ref/racial-trait/dwarf/hatred(title)								race-hub	S9		yes	yes			
-heroes-from-the-fringe	ref/race/elf	race	Elf	4	17	family-leak	printed		none	15	0,1,2,3,10	child	ref/racial-trait/elf/elven-immunities(title),ref/racial-trait/elf/elven-magic(title),ref/racial-trait/elf/keen-senses(title)								race-hub	S9		yes	yes			
-heroes-from-the-fringe	ref/race/gnome	race	Gnome	4	16	family-leak	printed		none	9	0,1,3,16,17	child	ref/racial-trait/gnome/defensive-training(title),ref/racial-trait/gnome/gnome-magic(body),ref/racial-trait/gnome/hatred(title)								race-hub	S9		yes	yes			
-heroes-from-the-fringe	ref/race/half-elf	race	Half-Elf	4	18	family-leak	printed		none	8	0,1,3,20,21	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(title),ref/racial-trait/half-elf/keen-senses(title)								race-hub	S9		yes	yes			
-heroes-from-the-fringe	ref/race/half-orc	race	Half-Orc	4	18	family-leak	printed		none	8	0,1,3,24,25	child	ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)								race-hub	S9		yes	yes			
-heroes-from-the-fringe	ref/race/halfling	race	Halfling	4	17	family-leak	printed		none	6	0,1,3,28,29	child	ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
+heroes-from-the-fringe	ref/race/dwarf	race	Dwarf	4	17	family-leak	printed		none	9	0,1,3,4,5	child	ref/racial-trait/dwarf/defensive-training(title),ref/racial-trait/dwarf/greed(title),ref/racial-trait/dwarf/hatred(title)					remove	4	race-options-only	race-hub	done			yes			
+heroes-from-the-fringe	ref/race/elf	race	Elf	4	17	family-leak	printed		none	15	0,1,2,3,10	child	ref/racial-trait/elf/elven-immunities(title),ref/racial-trait/elf/elven-magic(title),ref/racial-trait/elf/keen-senses(title)					remove	10	race-options-only	race-hub	done			yes			
+heroes-from-the-fringe	ref/race/gnome	race	Gnome	4	16	family-leak	printed		none	9	0,1,3,16,17	child	ref/racial-trait/gnome/defensive-training(title),ref/racial-trait/gnome/gnome-magic(body),ref/racial-trait/gnome/hatred(title)					remove	16	race-options-only	race-hub	done			yes			
+heroes-from-the-fringe	ref/race/half-elf	race	Half-Elf	4	18	family-leak	printed		none	8	0,1,3,20,21	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(title),ref/racial-trait/half-elf/keen-senses(title)					remove	20	race-options-only	race-hub	done			yes			
+heroes-from-the-fringe	ref/race/half-orc	race	Half-Orc	4	18	family-leak	printed		none	8	0,1,3,24,25	child	ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)					remove	24	race-options-only	race-hub	done			yes			
+heroes-from-the-fringe	ref/race/halfling	race	Halfling	4	17	family-leak	printed		none	6	0,1,3,28,29	child	ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)					remove	28	race-options-only	race-hub	done			yes			
 heroes-from-the-fringe	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	4	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	4-6, 8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	4	8	family-leak	printed		none	3	4,5,6	parent	ref/race/dwarf(title)	yes				remove	4-6, 8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/dwarf/greed	racial_trait	Greed	4	11	family-leak	printed		none	2	4,5	parent	ref/race/dwarf(title)	yes				remove	4-6, 8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1214,8 +1214,8 @@ heroes-from-the-fringe	ref/racial-trait/halfling/languages	racial_trait	Language
 heroes-from-the-fringe	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	4	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	28	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/halfling/small	racial_trait	Small	4	17	family-leak	printed		none	7	4,5,8,10,15	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	4	13	family-leak	printed		none	6	4,10,11,16,17	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-from-the-fringe	ref/race/merfolk	race	Merfolk	5	5	uncited	printed		none	3	3,30,31										race-hub	S9		yes	yes			
-heroes-from-the-fringe	ref/race/sahuagin	race	Sahuagin	2	2	uncited	printed		none	3	3,30,31										race-hub	S9		yes	yes			
+heroes-from-the-fringe	ref/race/merfolk	race	Merfolk	5	5	uncited	printed		none	3	3,30,31							remove	30	race-options-only	race-hub	done			yes			
+heroes-from-the-fringe	ref/race/sahuagin	race	Sahuagin	2	2	uncited	printed		none	3	3,30,31							remove	30	race-options-only	race-hub	done			yes			
 heroes-from-the-fringe	ref/arc-bloodrager/id-rager	archetype	Id Rager	3	3	weak	weak		none	1	19							expands	19	expansion-credited-via-whimsey	single-entry	done			yes			
 heroes-from-the-fringe	ref/arc-spiritualist/fractured-mind	archetype	Fractured Mind	4	4	weak	weak		none	1	19							expands	19	expansion-credited-via-whimsey	single-entry	done			yes			
 heroes-from-the-fringe	ref/feat/emotional-conduit	feat	Emotional Conduit	4	4	weak	weak		none	1	19							expands	19	expansion-credited-via-whimsey	single-entry	done			yes			
@@ -1239,7 +1239,7 @@ heroes-of-golarion	ref/class/arcanist	class	Arcanist	8	8	uncited	printed		none	3
 heroes-of-golarion	ref/class/oracle	class	Oracle	7	13	uncited	printed		none	3	3,6,14							remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/class/psychic	class	Psychic	7	8	uncited	printed		none	10	3,6,8,9,12							remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/class/slayer	class	Slayer	8	8	uncited	printed		none	3	3,4,6							remove	4	class-options-only	class-hub	done			yes			
-heroes-of-golarion	ref/race/wyrwood	race	Wyrwood	3	3	uncited	printed		none	5	1,2,3,6,7										race-hub	S9		yes	yes			
+heroes-of-golarion	ref/race/wyrwood	race	Wyrwood	3	3	uncited	printed		none	5	1,2,3,6,7							remove	6	race-options-only	race-hub	done			yes			
 heroes-of-golarion	ref/rule/universal-path-abilities	rule	Universal Path Abilities	5	6	uncited	printed		none	2	28,31										link-only-hub	S10	hub-design-a	yes	yes			
 heroes-of-golarion	ref/eq-weapon/alchemical-cartridge	item	Alchemical cartridge	3	4	review	printed	18	row	0								keep	18	title-on-cited-page	single-entry	S0			yes		yes	
 heroes-of-golarion	ref/eq-weapon/alchemical-cartridge-dragons-breath	item	Alchemical cartridge (dragon's breath)	3	4	review	printed	18	row	0											single-entry	S11			yes		yes	none
@@ -1263,11 +1263,11 @@ heroes-of-golarion	ref/rule/upa-1	rule	1st-Tier Universal Path Abilities	6	6	rev
 heroes-of-golarion	ref/class/magus	class	Magus	10	10	weak	weak		none	1	6							remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/class/paladin	class	Paladin	8	12	weak	weak		none	1	6							remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/rule/class-paladin/paladin	rule	Paladin	8	12	weak	weak		none	1	6			yes				remove	6	class-options-only	class-hub	done			yes			
-heroes-of-the-high-court	ref/race/dwarf	race	Dwarf	13	17	family-leak	printed		none	2	14,24	child	ref/racial-trait/dwarf/hardy(body),ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)								race-hub	S9		yes	yes			
-heroes-of-the-high-court	ref/race/elf	race	Elf	12	17	family-leak	printed		none	2	14,15	child	ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
-heroes-of-the-high-court	ref/race/gnome	race	Gnome	10	16	family-leak	printed		none	3	5,14,15	child	ref/racial-trait/gnome/gnome-magic(body),ref/racial-trait/gnome/keen-senses(title),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
-heroes-of-the-high-court	ref/race/halfling	race	Halfling	13	17	family-leak	printed		none	3	5,13,15	child	ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
-heroes-of-the-high-court	ref/race/human	race	Human	7	15	family-leak	printed		none	3	14,15,21	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)								race-hub	S9		yes	yes			
+heroes-of-the-high-court	ref/race/dwarf	race	Dwarf	13	17	family-leak	printed		none	2	14,24	child	ref/racial-trait/dwarf/hardy(body),ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)					remove	14	race-options-only	race-hub	done			yes			
+heroes-of-the-high-court	ref/race/elf	race	Elf	12	17	family-leak	printed		none	2	14,15	child	ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)					remove	14	race-options-only	race-hub	done			yes			
+heroes-of-the-high-court	ref/race/gnome	race	Gnome	10	16	family-leak	printed		none	3	5,14,15	child	ref/racial-trait/gnome/gnome-magic(body),ref/racial-trait/gnome/keen-senses(title),ref/racial-trait/gnome/languages(title)					remove	14	race-options-only	race-hub	done			yes			
+heroes-of-the-high-court	ref/race/halfling	race	Halfling	13	17	family-leak	printed		none	3	5,13,15	child	ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)					remove	15	race-options-only	race-hub	done			yes			
+heroes-of-the-high-court	ref/race/human	race	Human	7	15	family-leak	printed		none	3	14,15,21	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)					remove	15	race-options-only	race-hub	done			yes			
 heroes-of-the-high-court	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	13	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	14	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	13	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	14	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/dwarf/greed	racial_trait	Greed	13	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	14	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1334,15 +1334,15 @@ heroes-of-the-high-court	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc
 heroes-of-the-high-court	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	8	18	inherited	absent		none	0				yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/hex/cackle	class_option	Cackle	4	5	uncited	absent		none	0								remove	9	mention-only	single-entry	done			yes			
 heroes-of-the-high-court	ref/hex/soothsayer	class_option	Soothsayer	2	2	weak	weak		none	1	17							remove	none	whole-book-absent	single-entry	done			yes			
-heroes-of-the-high-court	ref/race/half-elf	race	Half-Elf	13	18	weak	weak		none	1	15	child	ref/racial-trait/half-elf/keen-senses(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)								race-hub	S9		yes	yes			
-heroes-of-the-high-court	ref/race/half-orc	race	Half-Orc	8	18	weak	weak		none	1	15	child	ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)								race-hub	S9		yes	yes			
+heroes-of-the-high-court	ref/race/half-elf	race	Half-Elf	13	18	weak	weak		none	1	15	child	ref/racial-trait/half-elf/keen-senses(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)					remove	15	race-options-only	race-hub	done			yes			
+heroes-of-the-high-court	ref/race/half-orc	race	Half-Orc	8	18	weak	weak		none	1	15	child	ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)					remove	15	race-options-only	race-hub	done			yes			
 heroes-of-the-high-court	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	12	16	weak	weak		none	1	15	parent	ref/race/dwarf(title)	yes				remove	14	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/half-orc/darkvision	racial_trait	Darkvision	8	17	weak	weak		none	1	15			yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	8	10	weak	weak		none	1	15	parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-streets	ref/race/dwarf	race	Dwarf	11	17	family-leak	printed		none	3	7,8,15	child	ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)								race-hub	S9		yes	yes			
-heroes-of-the-streets	ref/race/elf	race	Elf	13	17	family-leak	printed		none	2	7,8	child	ref/racial-trait/elf/languages(title),ref/racial-trait/elf/medium(title)								race-hub	S9		yes	yes			
-heroes-of-the-streets	ref/race/half-orc	race	Half-Orc	14	18	family-leak	printed		none	3	8,9,22	child	ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)								race-hub	S9		yes	yes			
-heroes-of-the-streets	ref/race/human	race	Human	11	15	family-leak	printed		none	5	7,8,9,28,31	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)								race-hub	S9		yes	yes			
+heroes-of-the-streets	ref/race/dwarf	race	Dwarf	11	17	family-leak	printed		none	3	7,8,15	child	ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)					remove	8	race-options-only	race-hub	done			yes			
+heroes-of-the-streets	ref/race/elf	race	Elf	13	17	family-leak	printed		none	2	7,8	child	ref/racial-trait/elf/languages(title),ref/racial-trait/elf/medium(title)					remove	8	race-options-only	race-hub	done			yes			
+heroes-of-the-streets	ref/race/half-orc	race	Half-Orc	14	18	family-leak	printed		none	3	8,9,22	child	ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)					remove	8	race-options-only	race-hub	done			yes			
+heroes-of-the-streets	ref/race/human	race	Human	11	15	family-leak	printed		none	5	7,8,9,28,31	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)					remove	9	race-options-only	race-hub	done			yes			
 heroes-of-the-streets	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	11	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	8	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	11	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	8	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	11	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	8	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1389,9 +1389,9 @@ heroes-of-the-streets	ref/racial-trait/halfling/languages	racial_trait	Languages
 heroes-of-the-streets	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	10	17	inherited	absent		none	0				yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/halfling/small	racial_trait	Small	10	17	inherited	printed		none	9	2,9,13,17,20			yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	10	17	inherited	absent		none	0				yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-streets	ref/race/gnome	race	Gnome	12	16	weak	weak		none	1	8	child	ref/racial-trait/gnome/languages(title),ref/racial-trait/gnome/small(title)								race-hub	S9		yes	yes			
-heroes-of-the-streets	ref/race/half-elf	race	Half-Elf	14	18	weak	weak		none	1	8	child	ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/medium(title)								race-hub	S9		yes	yes			
-heroes-of-the-streets	ref/race/halfling	race	Halfling	10	17	weak	weak		none	1	9	child	ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
+heroes-of-the-streets	ref/race/gnome	race	Gnome	12	16	weak	weak		none	1	8	child	ref/racial-trait/gnome/languages(title),ref/racial-trait/gnome/small(title)					remove	8	race-options-only	race-hub	done			yes			
+heroes-of-the-streets	ref/race/half-elf	race	Half-Elf	14	18	weak	weak		none	1	8	child	ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/medium(title)					remove	8	race-options-only	race-hub	done			yes			
+heroes-of-the-streets	ref/race/halfling	race	Halfling	10	17	weak	weak		none	1	9	child	ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)					remove	9	race-options-only	race-hub	done			yes			
 heroes-of-the-streets	ref/racial-trait/dwarf/hatred	racial_trait	Hatred	10	13	weak	weak		none	1	8	parent	ref/race/dwarf(title)	yes				remove	8	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/dwarf/stability	racial_trait	Stability	7	11	weak	weak		none	1	6	parent	ref/race/dwarf(title)	yes				remove	8	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/dwarf/stonecunning	racial_trait	Stonecunning	10	11	weak	weak		none	1	15	parent	ref/race/dwarf(title)	yes				remove	8	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1413,12 +1413,12 @@ heroes-of-the-streets	ref/racial-trait/halfling/fearless	racial_trait	Fearless	1
 heroes-of-the-streets	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	10	14	weak	weak		none	1	8			yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	10	13	weak	weak		none	1	9			yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/human/normal-speed	racial_trait	Normal Speed	7	10	weak	weak		none	1	21	parent	ref/race/human(title)	yes				remove	8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-wild	ref/race/dwarf	race	Dwarf	5	17	family-leak	printed		none	2	5,6	child	ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)								race-hub	S9		yes	yes			
-heroes-of-the-wild	ref/race/elf	race	Elf	11	17	family-leak	printed		none	2	5,6	child	ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
-heroes-of-the-wild	ref/race/gnome	race	Gnome	11	16	family-leak	printed		none	2	5,7	child	ref/racial-trait/gnome/keen-senses(title),ref/racial-trait/gnome/languages(title),ref/racial-trait/gnome/low-light-vision(title)								race-hub	S9		yes	yes			
-heroes-of-the-wild	ref/race/half-elf	race	Half-Elf	12	18	family-leak	printed		none	2	5,6	child	ref/racial-trait/half-elf/keen-senses(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)								race-hub	S9		yes	yes			
-heroes-of-the-wild	ref/race/half-orc	race	Half-Orc	6	18	family-leak	printed		none	4	5,6,7,18	child	ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title),ref/racial-trait/half-orc/normal-speed(title)								race-hub	S9		yes	yes			
-heroes-of-the-wild	ref/race/human	race	Human	9	15	family-leak	printed		none	3	5,6,7	child	ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title),ref/racial-trait/human/normal-speed(title)								race-hub	S9		yes	yes			
+heroes-of-the-wild	ref/race/dwarf	race	Dwarf	5	17	family-leak	printed		none	2	5,6	child	ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)					remove	6	race-options-only	race-hub	done			yes			
+heroes-of-the-wild	ref/race/elf	race	Elf	11	17	family-leak	printed		none	2	5,6	child	ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)					remove	6	race-options-only	race-hub	done			yes			
+heroes-of-the-wild	ref/race/gnome	race	Gnome	11	16	family-leak	printed		none	2	5,7	child	ref/racial-trait/gnome/keen-senses(title),ref/racial-trait/gnome/languages(title),ref/racial-trait/gnome/low-light-vision(title)					remove	7	race-options-only	race-hub	done			yes			
+heroes-of-the-wild	ref/race/half-elf	race	Half-Elf	12	18	family-leak	printed		none	2	5,6	child	ref/racial-trait/half-elf/keen-senses(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)					remove	6	race-options-only	race-hub	done			yes			
+heroes-of-the-wild	ref/race/half-orc	race	Half-Orc	6	18	family-leak	printed		none	4	5,6,7,18	child	ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title),ref/racial-trait/half-orc/normal-speed(title)					remove	6	race-options-only	race-hub	done			yes			
+heroes-of-the-wild	ref/race/human	race	Human	9	15	family-leak	printed		none	3	5,6,7	child	ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title),ref/racial-trait/human/normal-speed(title)					remove	7	race-options-only	race-hub	done			yes			
 heroes-of-the-wild	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	5	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	5-6	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	5	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	5-6	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/dwarf/hardy	racial_trait	Hardy	5	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	5-6	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1472,7 +1472,7 @@ heroes-of-the-wild	ref/racial-trait/halfling/languages	racial_trait	Languages	6	
 heroes-of-the-wild	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	6	17	inherited	absent		none	0				yes				remove	5, 7	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/halfling/small	racial_trait	Small	6	17	inherited	printed		none	7	2,8,9,15,17			yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	6	17	inherited	absent		none	0				yes				remove	5, 7	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-wild	ref/race/halfling	race	Halfling	6	17	weak	weak		none	1	7	child	ref/racial-trait/halfling/fearless(body),ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title)								race-hub	S9		yes	yes			
+heroes-of-the-wild	ref/race/halfling	race	Halfling	6	17	weak	weak		none	1	7	child	ref/racial-trait/halfling/fearless(body),ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title)					remove	7	race-options-only	race-hub	done			yes			
 heroes-of-the-wild	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	5	16	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	5-6	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/dwarf/greed	racial_trait	Greed	5	11	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	5-6	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/dwarf/hatred	racial_trait	Hatred	5	13	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	5-6	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1499,13 +1499,13 @@ horror-adventures	ref/class/ranger	class	Ranger	11	12	family-leak	printed		none	
 horror-adventures	ref/class/rogue	class	Rogue	8	14	family-leak	printed		none	5	39,44,66,82,240	child	ref/rule/class-rogue/rogue(title)					remove	39	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/sorcerer	class	Sorcerer	7	11	family-leak	printed		none	31	22,27,35,39,59	child	ref/rule/class-sorcerer/sorcerer(title)					remove	39	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/wizard	class	Wizard	9	11	family-leak	printed		none	40	3,22,27,35,38	child	ref/rule/class-wizard/wizard(title)					remove	38	class-options-only	class-hub	done			yes			
-horror-adventures	ref/race/dwarf	race	Dwarf	8	17	family-leak	printed		none	3	38,164,254	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/defensive-training(title),ref/racial-trait/dwarf/hardy(title)								race-hub	S9		yes	yes			
-horror-adventures	ref/race/elf	race	Elf	5	17	family-leak	printed		none	10	21,38,39,40,164	child	ref/racial-trait/elf/elven-immunities(title),ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title)								race-hub	S9		yes	yes			
-horror-adventures	ref/race/gnome	race	Gnome	7	16	family-leak	printed		none	5	38,39,74,189,254	child	ref/racial-trait/gnome/defensive-training(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/illusion-resistance(body)								race-hub	S9		yes	yes			
-horror-adventures	ref/race/half-elf	race	Half-Elf	10	18	family-leak	printed		none	4	39,40,164,254	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(title),ref/racial-trait/half-elf/keen-senses(title)								race-hub	S9		yes	yes			
-horror-adventures	ref/race/half-orc	race	Half-Orc	7	18	family-leak	printed		none	4	38,40,164,254	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)								race-hub	S9		yes	yes			
-horror-adventures	ref/race/halfling	race	Halfling	5	17	family-leak	printed		none	4	38,40,41,254	child	ref/racial-trait/halfling/fearless(title),ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title)								race-hub	S9		yes	yes			
-horror-adventures	ref/race/human	race	Human	6	15	family-leak	printed		none	31	38,39,41,47,51	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)								race-hub	S9		yes	yes			
+horror-adventures	ref/race/dwarf	race	Dwarf	8	17	family-leak	printed		none	3	38,164,254	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/defensive-training(title),ref/racial-trait/dwarf/hardy(title)					remove	38	race-options-only	race-hub	done			yes			
+horror-adventures	ref/race/elf	race	Elf	5	17	family-leak	printed		none	10	21,38,39,40,164	child	ref/racial-trait/elf/elven-immunities(title),ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title)					remove	38	race-options-only	race-hub	done			yes			
+horror-adventures	ref/race/gnome	race	Gnome	7	16	family-leak	printed		none	5	38,39,74,189,254	child	ref/racial-trait/gnome/defensive-training(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/illusion-resistance(body)					remove	39	race-options-only	race-hub	done			yes			
+horror-adventures	ref/race/half-elf	race	Half-Elf	10	18	family-leak	printed		none	4	39,40,164,254	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(title),ref/racial-trait/half-elf/keen-senses(title)					remove	39	race-options-only	race-hub	done			yes			
+horror-adventures	ref/race/half-orc	race	Half-Orc	7	18	family-leak	printed		none	4	38,40,164,254	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)					remove	40	race-options-only	race-hub	done			yes			
+horror-adventures	ref/race/halfling	race	Halfling	5	17	family-leak	printed		none	4	38,40,41,254	child	ref/racial-trait/halfling/fearless(title),ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title)					remove	40	race-options-only	race-hub	done			yes			
+horror-adventures	ref/race/human	race	Human	6	15	family-leak	printed		none	31	38,39,41,47,51	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)					remove	41	race-options-only	race-hub	done			yes			
 horror-adventures	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	8	16	family-leak	printed		none	21	19,34,40,72,118	parent	ref/race/dwarf(title)	yes				remove	38	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	7	8	family-leak	printed		none	2	38,39	parent	ref/race/dwarf(title)	yes				remove	38	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/dwarf/hardy	racial_trait	Hardy	7	14	family-leak	printed		none	2	38,253	parent	ref/race/dwarf(title)	yes				remove	38	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1644,10 +1644,10 @@ kobolds-of-golarion	ref/rule/class-paladin/paladin	rule	Paladin	10	12	weak	weak	
 lands-of-conflict	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	6	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 legacy-of-dragons	ref/class/paladin	class	Paladin	11	12	family-leak	printed		none	5	3,18,25,28,31	child	ref/rule/class-paladin/paladin(title)					remove	18	class-options-only	class-hub	done			yes			
 legacy-of-dragons	ref/class/sorcerer	class	Sorcerer	8	11	family-leak	printed		none	15	0,2,3,4,5	child	ref/rule/class-sorcerer/sorcerer(title)					remove	4	class-options-only	class-hub	done			yes			
-legacy-of-dragons	ref/race/dwarf	race	Dwarf	12	17	family-leak	printed		none	2	6,10	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/greed(title),ref/racial-trait/dwarf/languages(title)								race-hub	S9		yes	yes			
-legacy-of-dragons	ref/race/elf	race	Elf	10	17	family-leak	printed		none	2	10,11	child	ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
-legacy-of-dragons	ref/race/halfling	race	Halfling	9	17	family-leak	printed		none	2	10,11	child	ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
-legacy-of-dragons	ref/race/human	race	Human	4	15	family-leak	printed		none	4	11,17,20,22	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)								race-hub	S9		yes	yes			
+legacy-of-dragons	ref/race/dwarf	race	Dwarf	12	17	family-leak	printed		none	2	6,10	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/greed(title),ref/racial-trait/dwarf/languages(title)					remove	10	race-options-only	race-hub	done			yes			
+legacy-of-dragons	ref/race/elf	race	Elf	10	17	family-leak	printed		none	2	10,11	child	ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)					remove	10	race-options-only	race-hub	done			yes			
+legacy-of-dragons	ref/race/halfling	race	Halfling	9	17	family-leak	printed		none	2	10,11	child	ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)					remove	10	race-options-only	race-hub	done			yes			
+legacy-of-dragons	ref/race/human	race	Human	4	15	family-leak	printed		none	4	11,17,20,22	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)					remove	11	race-options-only	race-hub	done			yes			
 legacy-of-dragons	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	11	16	family-leak	printed		none	10	0,9,11,22,23	parent	ref/race/dwarf(title)	yes				remove	10	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	12	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	10	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/dwarf/greed	racial_trait	Greed	9	11	family-leak	printed		none	2	8,18	parent	ref/race/dwarf(title)	yes				remove	10	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1700,13 +1700,13 @@ legacy-of-dragons	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	9	1
 legacy-of-dragons	ref/class/bloodrager	class	Bloodrager	9	9	uncited	printed		none	10	0,3,4,5,16							remove	4	class-options-only	class-hub	done			yes			
 legacy-of-dragons	ref/class/mesmerist	class	Mesmerist	9	9	uncited	printed		none	6	3,13,18,28,29							remove	13	class-options-only	class-hub	done			yes			
 legacy-of-dragons	ref/class/oracle	class	Oracle	9	13	uncited	printed		none	7	3,8,9,18,28							remove	8	class-options-only	class-hub	done			yes			
-legacy-of-dragons	ref/race/wyvaran	race	Wyvaran	3	3	uncited	printed		none	4	1,3,18,19										race-hub	S9		yes	yes			
+legacy-of-dragons	ref/race/wyvaran	race	Wyvaran	3	3	uncited	printed		none	4	1,3,18,19							remove	18	race-options-only	race-hub	done			yes			
 legacy-of-dragons	ref/faith/ardad-lili	rule	Ardad Lili	3	3	review	absent	31	row	0											faith-excerpt	S11	faith-link		yes	yes	no	
 legacy-of-dragons	ref/faith/draghignazzo	rule	Draghignazzo	3	3	review	absent	31	row	0											faith-excerpt	S11	faith-link		yes	yes	no	
 legacy-of-dragons	ref/class/rogue	class	Rogue	14	14	weak	weak		none	1	18							remove	18	class-options-only	class-hub	done			yes			
-legacy-of-dragons	ref/race/gnome	race	Gnome	8	16	weak	weak		none	1	10	child	ref/racial-trait/gnome/gnome-magic(body),ref/racial-trait/gnome/keen-senses(title),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
-legacy-of-dragons	ref/race/half-elf	race	Half-Elf	11	18	weak	weak		none	1	11	child	ref/racial-trait/half-elf/keen-senses(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)								race-hub	S9		yes	yes			
-legacy-of-dragons	ref/race/half-orc	race	Half-Orc	9	18	weak	weak		none	1	11	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)								race-hub	S9		yes	yes			
+legacy-of-dragons	ref/race/gnome	race	Gnome	8	16	weak	weak		none	1	10	child	ref/racial-trait/gnome/gnome-magic(body),ref/racial-trait/gnome/keen-senses(title),ref/racial-trait/gnome/languages(title)					remove	10	race-options-only	race-hub	done			yes			
+legacy-of-dragons	ref/race/half-elf	race	Half-Elf	11	18	weak	weak		none	1	11	child	ref/racial-trait/half-elf/keen-senses(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)					remove	11	race-options-only	race-hub	done			yes			
+legacy-of-dragons	ref/race/half-orc	race	Half-Orc	9	18	weak	weak		none	1	11	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)					remove	11	race-options-only	race-hub	done			yes			
 legacy-of-dragons	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	5	9	weak	weak		none	1	0	parent	ref/race/dwarf(title)	yes				remove	10	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/dwarf/hardy	racial_trait	Hardy	10	14	weak	weak		none	1	17	parent	ref/race/dwarf(title)	yes				remove	10	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/dwarf/stability	racial_trait	Stability	8	11	weak	weak		none	1	10	parent	ref/race/dwarf(title)	yes				remove	10	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1761,10 +1761,10 @@ legacy-of-fire-players-guide	ref/magic-wondrous/figurine-of-wondrous-power-tin-i
 legacy-of-the-first-world	ref/class/bard	class	Bard	9	13	family-leak	printed		none	8	3,8,11,13,20	child	ref/rule/class-bard/bard(title)					remove	8	class-options-only	class-hub	done			yes			
 legacy-of-the-first-world	ref/class/rogue	class	Rogue	7	14	family-leak	printed		none	4	3,9,15,27	child	ref/rule/class-rogue/rogue(title)					remove	9	class-options-only	class-hub	done			yes			
 legacy-of-the-first-world	ref/class/sorcerer	class	Sorcerer	9	11	family-leak	printed		none	8	4,9,10,13,21	child	ref/rule/class-sorcerer/sorcerer(title)					remove	9	class-options-only	class-hub	done			yes			
-legacy-of-the-first-world	ref/race/elf	race	Elf	7	17	family-leak	printed		none	3	4,5,12	child	ref/racial-trait/elf/elven-immunities(body),ref/racial-trait/elf/elven-magic(title),ref/racial-trait/elf/languages(title)								race-hub	S9		yes	yes			
-legacy-of-the-first-world	ref/race/gnome	race	Gnome	9	16	family-leak	printed		none	12	-1,1,2,3,4	child	ref/racial-trait/gnome/gnome-magic(title),ref/racial-trait/gnome/illusion-resistance(body),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
-legacy-of-the-first-world	ref/race/half-elf	race	Half-Elf	6	18	family-leak	printed		none	3	4,5,12	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(body),ref/racial-trait/half-elf/languages(title)								race-hub	S9		yes	yes			
-legacy-of-the-first-world	ref/race/human	race	Human	10	15	family-leak	printed		none	4	2,4,5,12	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)								race-hub	S9		yes	yes			
+legacy-of-the-first-world	ref/race/elf	race	Elf	7	17	family-leak	printed		none	3	4,5,12	child	ref/racial-trait/elf/elven-immunities(body),ref/racial-trait/elf/elven-magic(title),ref/racial-trait/elf/languages(title)					remove	4	race-options-only	race-hub	done			yes			
+legacy-of-the-first-world	ref/race/gnome	race	Gnome	9	16	family-leak	printed		none	12	-1,1,2,3,4	child	ref/racial-trait/gnome/gnome-magic(title),ref/racial-trait/gnome/illusion-resistance(body),ref/racial-trait/gnome/languages(title)					remove	4	race-options-only	race-hub	done			yes			
+legacy-of-the-first-world	ref/race/half-elf	race	Half-Elf	6	18	family-leak	printed		none	3	4,5,12	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/elven-immunities(body),ref/racial-trait/half-elf/languages(title)					remove	4	race-options-only	race-hub	done			yes			
+legacy-of-the-first-world	ref/race/human	race	Human	10	15	family-leak	printed		none	4	2,4,5,12	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)					remove	5	race-options-only	race-hub	done			yes			
 legacy-of-the-first-world	ref/racial-trait/elf/attributes	racial_trait	Attributes	7	17	family-leak	absent		none	0		parent	ref/race/elf(title)	yes				remove	4, 12	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/elf/elven-immunities	racial_trait	Elven Immunities	7	10	family-leak	body		none	1	13	parent	ref/race/elf(title)	yes				remove	4, 12	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/elf/elven-magic	racial_trait	Elven Magic	7	10	family-leak	printed		none	2	4,12	parent	ref/race/elf(title)	yes				remove	4, 12	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1826,12 +1826,12 @@ legacy-of-the-first-world	ref/racial-trait/halfling/sure-footed	racial_trait	Sur
 legacy-of-the-first-world	ref/class/alchemist	class	Alchemist	7	12	uncited	printed		none	4	3,6,7,8							remove	6	class-options-only	class-hub	done			yes			
 legacy-of-the-first-world	ref/class/mesmerist	class	Mesmerist	5	9	uncited	printed		none	2	9,13							remove	9	class-options-only	class-hub	done			yes			
 legacy-of-the-first-world	ref/class/oracle	class	Oracle	10	13	uncited	printed		none	5	3,9,10,11,22							remove	9	class-options-only	class-hub	done			yes			
-legacy-of-the-first-world	ref/race/gathlain	race	Gathlain	4	5	uncited	printed		none	5	-1,1,8,9,34										race-hub	S9		yes	yes			
+legacy-of-the-first-world	ref/race/gathlain	race	Gathlain	4	5	uncited	printed		none	5	-1,1,8,9,34							remove	8	race-options-only	race-hub	done			yes			
 legacy-of-the-first-world	ref/class/investigator	class	Investigator	6	7	weak	weak		none	1	9							remove	9	class-options-only	class-hub	done			yes			
 legacy-of-the-first-world	ref/class/kineticist	class	Kineticist	7	9	weak	weak		none	1	9							remove	9	class-options-only	class-hub	done			yes			
-legacy-of-the-first-world	ref/race/dwarf	race	Dwarf	9	17	weak	weak		none	1	4	child	ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)								race-hub	S9		yes	yes			
-legacy-of-the-first-world	ref/race/half-orc	race	Half-Orc	13	18	weak	weak		none	1	5	child	ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)								race-hub	S9		yes	yes			
-legacy-of-the-first-world	ref/race/halfling	race	Halfling	8	17	weak	weak		none	1	5	child	ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
+legacy-of-the-first-world	ref/race/dwarf	race	Dwarf	9	17	weak	weak		none	1	4	child	ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)					remove	4	race-options-only	race-hub	done			yes			
+legacy-of-the-first-world	ref/race/half-orc	race	Half-Orc	13	18	weak	weak		none	1	5	child	ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)					remove	5	race-options-only	race-hub	done			yes			
+legacy-of-the-first-world	ref/race/halfling	race	Halfling	8	17	weak	weak		none	1	5	child	ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)					remove	5	race-options-only	race-hub	done			yes			
 legacy-of-the-first-world	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	9	16	weak	weak		none	1	15			yes				remove	4	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/dwarf/hardy	racial_trait	Hardy	8	14	weak	weak		none	1	4			yes				remove	4	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/dwarf/weapon-familiarity	racial_trait	Weapon Familiarity	9	13	weak	weak		none	1	5			yes				remove	4	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1859,9 +1859,9 @@ monster-codex	ref/class/barbarian	class	Barbarian	9	10	uncited	unaligned		none	0
 monster-codex	ref/class/bard	class	Bard	4	13	uncited	unaligned		none	0								remove	128	class-options-only	class-hub	done			yes			
 monster-codex	ref/class/fighter	class	Fighter	5	10	uncited	unaligned		none	0								remove	10	class-options-only	class-hub	done			yes			
 monster-codex	ref/class/ranger	class	Ranger	5	12	uncited	unaligned		none	0								remove	8	class-options-only	class-hub	done			yes			
-monster-codex	ref/race/duergar	race	Duergar	4	5	uncited	unaligned		none	0											race-hub	S9		yes	yes			
-monster-codex	ref/race/goblin	race	Goblin	4	5	uncited	unaligned		none	0											race-hub	S9		yes	yes			
-monster-codex	ref/race/ratfolk	race	Ratfolk	4	6	uncited	unaligned		none	0											race-hub	S9		yes	yes			
+monster-codex	ref/race/duergar	race	Duergar	4	5	uncited	unaligned		none	0								remove	42	race-options-only	race-hub	done			yes			
+monster-codex	ref/race/goblin	race	Goblin	4	5	uncited	unaligned		none	0								remove	102	race-options-only	race-hub	done			yes			
+monster-codex	ref/race/ratfolk	race	Ratfolk	4	6	uncited	unaligned		none	0								remove	174	race-options-only	race-hub	done			yes			
 monster-summoners-handbook	ref/spell/summon-monster-6	spell	Summon Monster VI	2	2	review	absent	18	row	0								resolved	18	expanded-in-row	single-entry	S0			yes			
 monster-summoners-handbook	ref/spell/summon-monster-8	spell	Summon Monster VIII	2	2	review	absent	18	row	0								resolved	18	expanded-in-row	single-entry	S0			yes			
 monster-summoners-handbook	ref/hex/cackle	class_option	Cackle	3	4	weak	weak		none	1	9							remove	9	mention-only	single-entry	done			yes			
@@ -1902,9 +1902,9 @@ mythic-origins	ref/rule/universal-path-abilities	rule	Universal Path Abilities	2
 mythic-realms	ref/rule/universal-path-abilities	rule	Universal Path Abilities	3	6	uncited	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 occult-adventures	ref/rule/feats-class	rule	Class-Based Feats	5	7	hub-keep	absent	128	row	0											hub-cited	S11			yes	yes	no	
 occult-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	8	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-occult-adventures	ref/race/dwarf	race	Dwarf	15	17	family-leak	printed		none	2	84,172	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hatred(title)								race-hub	S9		yes	yes			
-occult-adventures	ref/race/elf	race	Elf	15	17	family-leak	printed		none	2	84,85	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
-occult-adventures	ref/race/human	race	Human	13	15	family-leak	printed		none	8	56,85,109,113,224	child	ref/racial-trait/human/attributes(title),ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title)								race-hub	S9		yes	yes			
+occult-adventures	ref/race/dwarf	race	Dwarf	15	17	family-leak	printed		none	2	84,172	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hatred(title)					expands	84	expansion-credited-no-via	race-hub	done			yes			
+occult-adventures	ref/race/elf	race	Elf	15	17	family-leak	printed		none	2	84,85	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)					expands	84	expansion-credited-no-via	race-hub	done			yes			
+occult-adventures	ref/race/human	race	Human	13	15	family-leak	printed		none	8	56,85,109,113,224	child	ref/racial-trait/human/attributes(title),ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title)					expands	85	expansion-credited-no-via	race-hub	done			yes			
 occult-adventures	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	7	9	family-leak	printed		none	7	68,147,148,150,153	parent	ref/race/dwarf(title)	yes				remove	84	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	14	16	family-leak	printed		none	12	37,52,58,59,70	parent	ref/race/dwarf(title)	yes				remove	84	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	15	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	84	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1972,10 +1972,10 @@ occult-adventures	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	1
 occult-adventures	ref/racial-trait/halfling/small	racial_trait	Small	15	17	inherited	printed		none	40	23,30,40,47,57			yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	15	17	inherited	absent		none	0				yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	15	17	inherited	absent		none	0				yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
-occult-adventures	ref/race/gnome	race	Gnome	14	16	weak	weak		none	1	84	child	ref/racial-trait/gnome/attributes(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
-occult-adventures	ref/race/half-elf	race	Half-Elf	16	18	weak	weak		none	1	85	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/attributes(title),ref/racial-trait/half-elf/languages(title)								race-hub	S9		yes	yes			
-occult-adventures	ref/race/half-orc	race	Half-Orc	16	18	weak	weak		none	1	85	child	ref/racial-trait/half-orc/attributes(title),ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title)								race-hub	S9		yes	yes			
-occult-adventures	ref/race/halfling	race	Halfling	15	17	weak	weak		none	1	85	child	ref/racial-trait/halfling/attributes(title),ref/racial-trait/halfling/fearless(title),ref/racial-trait/halfling/languages(title)								race-hub	S9		yes	yes			
+occult-adventures	ref/race/gnome	race	Gnome	14	16	weak	weak		none	1	84	child	ref/racial-trait/gnome/attributes(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/languages(title)					expands	84	expansion-credited-no-via	race-hub	done			yes			
+occult-adventures	ref/race/half-elf	race	Half-Elf	16	18	weak	weak		none	1	85	child	ref/racial-trait/half-elf/adaptability(title),ref/racial-trait/half-elf/attributes(title),ref/racial-trait/half-elf/languages(title)					expands	85	expansion-credited-no-via	race-hub	done			yes			
+occult-adventures	ref/race/half-orc	race	Half-Orc	16	18	weak	weak		none	1	85	child	ref/racial-trait/half-orc/attributes(title),ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title)					expands	85	expansion-credited-no-via	race-hub	done			yes			
+occult-adventures	ref/race/halfling	race	Halfling	15	17	weak	weak		none	1	85	child	ref/racial-trait/halfling/attributes(title),ref/racial-trait/halfling/fearless(title),ref/racial-trait/halfling/languages(title)					expands	85	expansion-credited-no-via	race-hub	done			yes			
 occult-adventures	ref/racial-trait/dwarf/greed	racial_trait	Greed	10	11	weak	weak		none	1	199	parent	ref/race/dwarf(title)	yes				remove	84	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	6	6	weak	weak		none	1	85			yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-bestiary	ref/rule/rare-races	rule	Rare Races	8	20	hub-keep	absent	23	row	0											hub-cited	S11			yes	yes	no	
@@ -1998,7 +1998,7 @@ pathfinder-101-the-kintargo-contract	ref/class/oracle	class	Oracle	11	13	uncited
 pathfinder-101-the-kintargo-contract	ref/class/shaman	class	Shaman	6	8	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
 pathfinder-101-the-kintargo-contract	ref/class/slayer	class	Slayer	7	8	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
 pathfinder-101-the-kintargo-contract	ref/class/witch	class	Witch	9	11	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
-pathfinder-101-the-kintargo-contract	ref/race/strix	race	Strix	5	5	uncited	no-pdf		none	0											race-hub	S9		yes	no			
+pathfinder-101-the-kintargo-contract	ref/race/strix	race	Strix	5	5	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	race-hub	done			no			
 pathfinder-115-trail-of-the-hunted	ref/rule/optional-subsystems	rule	Optional Subsystems	8	10	hub-keep	no-pdf		none	0											link-only-hub	S10	hub-design-a	yes	no			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	6	15	review	no-pdf	33	row	0								keep	33	unverified-no-pdf	figurine	done			no			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	6	15	review	no-pdf	33	row	0								keep	33	unverified-no-pdf	figurine	done			no			
@@ -2032,7 +2032,7 @@ pathfinder-124-city-in-the-deep	ref/racial-trait/elf/low-light-vision	racial_tra
 pathfinder-124-city-in-the-deep	ref/racial-trait/elf/medium	racial_trait	Medium	9	17	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
 pathfinder-124-city-in-the-deep	ref/racial-trait/elf/normal-speed	racial_trait	Normal Speed	7	12	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
 pathfinder-124-city-in-the-deep	ref/racial-trait/elf/weapon-familiarity	racial_trait	Weapon Familiarity	9	13	inherited	no-pdf		none	0				yes				remove	79	no-pdf-structural-rule	standard-racial-trait	done			no			
-pathfinder-124-city-in-the-deep	ref/race/elf	race	Elf	9	17	uncited	no-pdf		none	0											race-hub	S9		yes	no			
+pathfinder-124-city-in-the-deep	ref/race/elf	race	Elf	9	17	uncited	no-pdf		none	0								remove	79	no-pdf-structural-rule	race-hub	done			no			
 pathfinder-128-songbird-scion-saboteur	ref/rule/optional-magic-changes	rule	Optional Magic Changes	2	4	hub-keep	no-pdf		none	0											link-only-hub	S10	hub-design-a	yes	no			
 pathfinder-25-the-bastards-of-erebus	ref/carried/bestiary-3/monsters/parasite/giant-rot-grub	creature	Parasite, Giant Rot Grub	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 pathfinder-25-the-bastards-of-erebus	ref/carried/bestiary-3/monsters/swarm/parasite/rot-grub	creature	Swarm, Parasite, Rot Grub	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
@@ -2157,13 +2157,13 @@ plane-hoppers-handbook	ref/class/shaman	class	Shaman	7	8	uncited	printed		none	2
 plane-hoppers-handbook	ref/class/skald	class	Skald	6	7	uncited	printed		none	2	17,23							remove	17	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/spiritualist	class	Spiritualist	4	7	uncited	printed		none	2	17,23							remove	17	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/witch	class	Witch	10	11	uncited	printed		none	4	12,13,15,17							remove	15	class-options-only	class-hub	done			yes			
-plane-hoppers-handbook	ref/race/aphorite	race	Aphorite	2	2	uncited	printed		none	5	1,3,14,15,34										race-hub	S9		yes	yes			
-plane-hoppers-handbook	ref/race/duskwalker	race	Duskwalker	2	2	uncited	printed		none	5	1,3,16,17,34										race-hub	S9		yes	yes			
-plane-hoppers-handbook	ref/race/ifrit	race	Ifrit	4	4	uncited	printed		none	3	20,22,32										race-hub	S9		yes	yes			
-plane-hoppers-handbook	ref/race/oread	race	Oread	4	5	uncited	printed		none	2	20,32										race-hub	S9		yes	yes			
-plane-hoppers-handbook	ref/race/shabti	race	Shabti	3	3	uncited	printed		none	4	3,20,22,23										race-hub	S9		yes	yes			
-plane-hoppers-handbook	ref/race/sylph	race	Sylph	4	4	uncited	printed		none	3	20,21,32										race-hub	S9		yes	yes			
-plane-hoppers-handbook	ref/race/undine	race	Undine	4	5	uncited	printed		none	3	20,21,32										race-hub	S9		yes	yes			
+plane-hoppers-handbook	ref/race/aphorite	race	Aphorite	2	2	uncited	printed		none	5	1,3,14,15,34							remove	14	race-options-only	race-hub	done			yes			
+plane-hoppers-handbook	ref/race/duskwalker	race	Duskwalker	2	2	uncited	printed		none	5	1,3,16,17,34							remove	16	race-options-only	race-hub	done			yes			
+plane-hoppers-handbook	ref/race/ifrit	race	Ifrit	4	4	uncited	printed		none	3	20,22,32							remove	20	race-options-only	race-hub	done			yes			
+plane-hoppers-handbook	ref/race/oread	race	Oread	4	5	uncited	printed		none	2	20,32							remove	20	race-options-only	race-hub	done			yes			
+plane-hoppers-handbook	ref/race/shabti	race	Shabti	3	3	uncited	printed		none	4	3,20,22,23							remove	22	race-options-only	race-hub	done			yes			
+plane-hoppers-handbook	ref/race/sylph	race	Sylph	4	4	uncited	printed		none	3	20,21,32							remove	20	race-options-only	race-hub	done			yes			
+plane-hoppers-handbook	ref/race/undine	race	Undine	4	5	uncited	printed		none	3	20,21,32							remove	20	race-options-only	race-hub	done			yes			
 plane-hoppers-handbook	ref/class/magus	class	Magus	4	10	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/vigilante	class	Vigilante	4	5	weak	weak		none	1	17							remove	17	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/warpriest	class	Warpriest	6	6	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done			yes			
@@ -2181,7 +2181,7 @@ qadira-gateway-to-the-east	ref/trait/strong-arm-supple-wrist	trait	Strong Arm, S
 revenge-of-the-kobold-king	ref/eq-weapon/chain-spear	item	Chain spear	3	5	review	absent	13	row	0											single-entry	S11			yes		no	
 rise-of-the-runelords-anniversary-edition-players-guide	ref/trait/sandpoint-faithful	trait	Sandpoint Faithful	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 rise-of-the-runelords-anniversary-edition-players-guide	ref/trait/thrill-seeker-rotr	trait	Thrill Seeker (RotR)	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
-rival-guide	ref/race/dwarf	race	Dwarf	10	17	family-leak	printed		none	8	10,12,20,25,34	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hardy(body),ref/racial-trait/dwarf/hatred(title)								race-hub	S9		yes	yes			
+rival-guide	ref/race/dwarf	race	Dwarf	10	17	family-leak	printed		none	8	10,12,20,25,34	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hardy(body),ref/racial-trait/dwarf/hatred(title)					remove	35	race-options-only	race-hub	done			yes			
 rival-guide	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	10	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	35	race-section-read-no-trait	standard-racial-trait	done			yes			
 rival-guide	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	10	16	family-leak	printed		none	14	6,12,18,19,20	parent	ref/race/dwarf(title)	yes				remove	35-36	race-section-read-no-trait	standard-racial-trait	done			yes			
 rival-guide	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	10	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	35	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -2334,12 +2334,12 @@ ultimate-intrigue	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	6	8	hub-ke
 ultimate-intrigue	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	4	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-intrigue	ref/rule/optional-subsystems	rule	Optional Subsystems	5	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-intrigue	ref/rule/specific-rulesets	rule	Specific Rulesets	9	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-ultimate-intrigue	ref/race/dwarf	race	Dwarf	17	17	family-leak	printed		none	6	17,93,97,117,142	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hatred(title)								race-hub	S9		yes	yes			
-ultimate-intrigue	ref/race/elf	race	Elf	17	17	family-leak	printed		none	7	17,107,115,151,158	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
-ultimate-intrigue	ref/race/gnome	race	Gnome	16	16	family-leak	printed		none	3	17,27,236	child	ref/racial-trait/gnome/attributes(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
-ultimate-intrigue	ref/race/half-elf	race	Half-Elf	18	18	family-leak	printed		none	2	17,183	child	ref/racial-trait/half-elf/attributes(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)								race-hub	S9		yes	yes			
-ultimate-intrigue	ref/race/half-orc	race	Half-Orc	18	18	family-leak	printed		none	4	17,107,114,182	child	ref/racial-trait/half-orc/attributes(title),ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title)								race-hub	S9		yes	yes			
-ultimate-intrigue	ref/race/human	race	Human	15	15	family-leak	printed		none	21	17,26,71,102,108	child	ref/racial-trait/human/attributes(title),ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title)								race-hub	S9		yes	yes			
+ultimate-intrigue	ref/race/dwarf	race	Dwarf	17	17	family-leak	printed		none	6	17,93,97,117,142	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hatred(title)					expands	17	expansion-credited-via-vigilante	race-hub	done			yes			
+ultimate-intrigue	ref/race/elf	race	Elf	17	17	family-leak	printed		none	7	17,107,115,151,158	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)					expands	17	expansion-credited-via-vigilante	race-hub	done			yes			
+ultimate-intrigue	ref/race/gnome	race	Gnome	16	16	family-leak	printed		none	3	17,27,236	child	ref/racial-trait/gnome/attributes(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/languages(title)					expands	17	expansion-credited-via-vigilante	race-hub	done			yes			
+ultimate-intrigue	ref/race/half-elf	race	Half-Elf	18	18	family-leak	printed		none	2	17,183	child	ref/racial-trait/half-elf/attributes(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)					expands	17	expansion-credited-via-vigilante	race-hub	done			yes			
+ultimate-intrigue	ref/race/half-orc	race	Half-Orc	18	18	family-leak	printed		none	4	17,107,114,182	child	ref/racial-trait/half-orc/attributes(title),ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title)					expands	17	expansion-credited-via-vigilante	race-hub	done			yes			
+ultimate-intrigue	ref/race/human	race	Human	15	15	family-leak	printed		none	21	17,26,71,102,108	child	ref/racial-trait/human/attributes(title),ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title)					expands	17	expansion-credited-via-vigilante	race-hub	done			yes			
 ultimate-intrigue	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	9	9	family-leak	printed		none	3	135,168,192	parent	ref/race/dwarf(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	16	16	family-leak	printed		none	8	15,27,34,50,94	parent	ref/race/dwarf(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/dwarf/hatred	racial_trait	Hatred	13	13	family-leak	printed		none	5	27,28,49,99,163	parent	ref/race/dwarf(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -2398,7 +2398,7 @@ ultimate-intrigue	ref/racial-trait/halfling/small	racial_trait	Small	17	17	inher
 ultimate-intrigue	ref/ability/combat-styles	rule	Combat Styles	3	7	uncited	printed		none	4	3,5,40,252										link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-intrigue	ref/feat/leadership	feat	Leadership	2	2	uncited	printed		none	14	3,5,24,35,45							remove	130	expansion-credited-on-related	single-entry	done			yes			
 ultimate-intrigue	ref/spell/identifiers-eye	spell	Identifier's Eye	4	5	review	absent	212	row	0											single-entry	S11			yes		no	
-ultimate-intrigue	ref/race/halfling	race	Halfling	17	17	weak	weak		none	1	114	child	ref/racial-trait/halfling/attributes(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
+ultimate-intrigue	ref/race/halfling	race	Halfling	17	17	weak	weak		none	1	114	child	ref/racial-trait/halfling/attributes(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)					expands	17	expansion-credited-via-vigilante	race-hub	done			yes			
 ultimate-intrigue	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	8	8	weak	weak		none	1	27	parent	ref/race/dwarf(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/dwarf/greed	racial_trait	Greed	11	11	weak	weak		none	1	125	parent	ref/race/dwarf(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/dwarf/hardy	racial_trait	Hardy	14	14	weak	weak		none	1	93	parent	ref/race/dwarf(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -2449,11 +2449,11 @@ ultimate-wilderness	ref/class/druid	class	Druid	7	12	family-leak	printed		none	4
 ultimate-wilderness	ref/class/ranger	class	Ranger	9	12	family-leak	printed		none	40	3,5,10,14,17	child	ref/rule/class-ranger/ranger(title)					remove	10	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/rogue	class	Rogue	6	14	family-leak	printed		none	16	3,9,10,12,17	child	ref/rule/class-rogue/rogue(title)					remove	10	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/sorcerer	class	Sorcerer	11	11	family-leak	printed		none	20	14,16,17,19,25	child	ref/rule/class-sorcerer/sorcerer(title)					remove	17	class-options-only	class-hub	done			yes			
-ultimate-wilderness	ref/race/dwarf	race	Dwarf	16	17	family-leak	printed		none	7	15,31,146,177,190	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hardy(title),ref/racial-trait/dwarf/languages(title)								race-hub	S9		yes	yes			
-ultimate-wilderness	ref/race/elf	race	Elf	16	17	family-leak	printed		none	3	15,22,31	child	ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title),ref/racial-trait/elf/medium(title)								race-hub	S9		yes	yes			
-ultimate-wilderness	ref/race/gnome	race	Gnome	15	16	family-leak	printed		none	9	9,15,21,31,102	child	ref/racial-trait/gnome/gnome-magic(title),ref/racial-trait/gnome/illusion-resistance(body),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
-ultimate-wilderness	ref/race/halfling	race	Halfling	16	17	family-leak	printed		none	2	10,31	child	ref/racial-trait/halfling/fearless(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
-ultimate-wilderness	ref/race/human	race	Human	14	15	family-leak	printed		none	12	10,15,19,20,21	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)								race-hub	S9		yes	yes			
+ultimate-wilderness	ref/race/dwarf	race	Dwarf	16	17	family-leak	printed		none	7	15,31,146,177,190	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hardy(title),ref/racial-trait/dwarf/languages(title)					expands	31	expansion-credited-via-shifter	race-hub	done			yes			
+ultimate-wilderness	ref/race/elf	race	Elf	16	17	family-leak	printed		none	3	15,22,31	child	ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title),ref/racial-trait/elf/medium(title)					expands	31	expansion-credited-via-shifter	race-hub	done			yes			
+ultimate-wilderness	ref/race/gnome	race	Gnome	15	16	family-leak	printed		none	9	9,15,21,31,102	child	ref/racial-trait/gnome/gnome-magic(title),ref/racial-trait/gnome/illusion-resistance(body),ref/racial-trait/gnome/languages(title)					expands	31	expansion-credited-via-shifter	race-hub	done			yes			
+ultimate-wilderness	ref/race/halfling	race	Halfling	16	17	family-leak	printed		none	2	10,31	child	ref/racial-trait/halfling/fearless(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)					expands	31	expansion-credited-via-shifter	race-hub	done			yes			
+ultimate-wilderness	ref/race/human	race	Human	14	15	family-leak	printed		none	12	10,15,19,20,21	child	ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title),ref/racial-trait/human/medium(title)					expands	31	expansion-credited-via-shifter	race-hub	done			yes			
 ultimate-wilderness	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	15	16	family-leak	printed		none	30	21,25,29,30,38	parent	ref/race/dwarf(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	16	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/dwarf/greed	racial_trait	Greed	16	17	family-leak	absent		none	0		parent	ref/race/dwarf(title)	yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -2533,8 +2533,8 @@ ultimate-wilderness	ref/class/witch	class	Witch	11	11	uncited	printed		none	36	3
 ultimate-wilderness	ref/ability/animal-tricks	rule	Animal Tricks	3	3	review	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 ultimate-wilderness	ref/spell/tectonic-communion	spell	Tectonic Communion	2	3	review	absent	235	row	0											single-entry	S11			yes		no	
 ultimate-wilderness	ref/class/samurai	class	Samurai	4	4	weak	weak		none	1	186							remove	186	class-options-only	class-hub	done			yes			
-ultimate-wilderness	ref/race/half-elf	race	Half-Elf	17	18	weak	weak		none	1	31	child	ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title),ref/racial-trait/half-elf/medium(title)								race-hub	S9		yes	yes			
-ultimate-wilderness	ref/race/half-orc	race	Half-Orc	17	18	weak	weak		none	1	31	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)								race-hub	S9		yes	yes			
+ultimate-wilderness	ref/race/half-elf	race	Half-Elf	17	18	weak	weak		none	1	31	child	ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title),ref/racial-trait/half-elf/medium(title)					expands	31	expansion-credited-via-shifter	race-hub	done			yes			
+ultimate-wilderness	ref/race/half-orc	race	Half-Orc	17	18	weak	weak		none	1	31	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)					expands	31	expansion-credited-via-shifter	race-hub	done			yes			
 ultimate-wilderness	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	8	9	weak	weak		none	1	257	parent	ref/race/dwarf(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/dwarf/stability	racial_trait	Stability	10	11	weak	weak		none	1	132	parent	ref/race/dwarf(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/elf/attributes	racial_trait	Attributes	9	10	weak	weak		none	1	257	parent	ref/race/elf(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -2568,17 +2568,17 @@ weapon-masters-handbook	ref/faith/zon-kuthon	rule	Zon-Kuthon	3	4	weak	weak		none
 wilderness-origins	ref/rule/types-of-traits	rule	Types of Traits	3	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
 wilderness-origins	ref/spell/phantom-steed-communal	spell	Communal Phantom Steed	2	3	family-leak	absent	28	row	0		variant	ref/spell/phantom-steed(title)					remove	28	wrong-credit-invalidated	single-entry	done			yes			
 wilderness-origins	ref/class/shifter	class	Shifter	4	4	uncited	printed		none	10	1,3,4,5,6							remove	5	class-options-only	class-hub	done			yes			
-wilderness-origins	ref/race/gathlain	race	Gathlain	5	5	uncited	printed		none	8	0,1,3,8,10										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/ghoran	race	Ghoran	5	5	uncited	printed		none	9	0,1,3,12,13										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/grippli	race	Grippli	5	5	uncited	printed		none	2	8,32										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/vine-leshy	race	Vine Leshy	2	2	uncited	printed		none	7	1,3,8,14,15										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/catfolk	race	Catfolk	5	5	weak	weak		none	1	8										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/dhampir	race	Dhampir	5	5	weak	weak		none	1	8										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/drow	race	Drow	6	6	weak	weak		none	1	8										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/kitsune	race	Kitsune	7	7	weak	weak		none	1	8										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/kobold	race	Kobold	5	5	weak	weak		none	1	8										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/orc	race	Orc	4	4	weak	weak		none	1	8										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/ratfolk	race	Ratfolk	6	6	weak	weak		none	1	8										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/tiefling	race	Tiefling	7	7	weak	weak		none	1	8										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/undine	race	Undine	5	5	weak	weak		none	1	8										race-hub	S9		yes	yes			
-wilderness-origins	ref/race/vanara	race	Vanara	5	5	weak	weak		none	1	8										race-hub	S9		yes	yes			
+wilderness-origins	ref/race/gathlain	race	Gathlain	5	5	uncited	printed		none	8	0,1,3,8,10							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/ghoran	race	Ghoran	5	5	uncited	printed		none	9	0,1,3,12,13							remove	12	race-options-only	race-hub	done			yes			
+wilderness-origins	ref/race/grippli	race	Grippli	5	5	uncited	printed		none	2	8,32							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/vine-leshy	race	Vine Leshy	2	2	uncited	printed		none	7	1,3,8,14,15							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/catfolk	race	Catfolk	5	5	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/dhampir	race	Dhampir	5	5	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/drow	race	Drow	6	6	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/kitsune	race	Kitsune	7	7	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/kobold	race	Kobold	5	5	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/orc	race	Orc	4	4	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/ratfolk	race	Ratfolk	6	6	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/tiefling	race	Tiefling	7	7	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/undine	race	Undine	5	5	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			
+wilderness-origins	ref/race/vanara	race	Vanara	5	5	weak	weak		none	1	8							expands	8	expansion-credited-no-via	race-hub	done			yes			

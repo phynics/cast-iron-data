@@ -3,7 +3,7 @@ id = "ref/race/aphorite"
 kind = "race"
 title = "Aphorite"
 aon = "RacesDisplay.aspx?ItemName=Aphorite"
-source_ids = ["planar-adventures", "plane-hoppers-handbook"]
+source_ids = ["planar-adventures"]
 race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aphorite", path = "json/races.json" },
