@@ -6,7 +6,6 @@ source_ids = ["advanced-players-guide", "cheliax-empire-of-devils", "ultimate-ca
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_hunter", path = "json/traits03.json" },
 ]
-
 [[sources]]
 publication = "advanced-players-guide"
 page = "332"
