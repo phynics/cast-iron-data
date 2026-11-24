@@ -225,7 +225,7 @@ advanced-players-guide	ref/class/psychic	class	Psychic	2	8	uncited	absent		none	
 advanced-players-guide	ref/class/samurai	class	Samurai	3	4	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/shaman	class	Shaman	2	8	uncited	printed		none	8	73,78,98,102,103							remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/shifter	class	Shifter	2	4	uncited	printed		none	2	126,127							remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
-advanced-players-guide	ref/class/skald	class	Skald	2	7	uncited	printed		none	3	72,84,335										class-hub	S7		yes	yes	yes		
+advanced-players-guide	ref/class/skald	class	Skald	2	7	uncited	printed		none	3	72,84,335							remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/slayer	class	Slayer	2	8	uncited	printed		none	4	40,41,333,335										class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/spiritualist	class	Spiritualist	2	7	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/swashbuckler	class	Swashbuckler	2	4	uncited	printed		none	4	22,73,135,335										class-hub	S7		yes	yes	yes		
@@ -763,7 +763,7 @@ blood-of-the-beast	ref/class/psychic	class	Psychic	4	8	uncited	printed		none	8	3
 blood-of-the-beast	ref/class/samurai	class	Samurai	9	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 blood-of-the-beast	ref/class/shaman	class	Shaman	4	8	uncited	printed		none	10	3,4,5,6,7							remove	4	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/shifter	class	Shifter	3	5	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
-blood-of-the-beast	ref/class/skald	class	Skald	3	7	uncited	printed		none	5	3,8,10,12,26										class-hub	S7		yes	yes			
+blood-of-the-beast	ref/class/skald	class	Skald	3	7	uncited	printed		none	5	3,8,10,12,26							remove	8	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/slayer	class	Slayer	4	8	uncited	printed		none	5	4,6,8,16,24										class-hub	S7		yes	yes			
 blood-of-the-beast	ref/class/spiritualist	class	Spiritualist	6	7	uncited	printed		none	4	7,20,24,27										class-hub	S7		yes	yes			
 blood-of-the-beast	ref/class/summoner	class	Summoner	7	7	uncited	printed		none	4	3,11,28,31										class-hub	S7		yes	yes			
@@ -824,7 +824,7 @@ blood-of-the-sea	ref/class/arcanist	class	Arcanist	4	8	weak	weak		none	1	5						
 blood-of-the-sea	ref/class/fighter	class	Fighter	4	10	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/magus	class	Magus	5	10	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/mesmerist	class	Mesmerist	8	9	weak	weak		none	1	13							remove	13	class-options-only	class-hub	done			yes			
-blood-of-the-sea	ref/class/skald	class	Skald	4	7	weak	weak		none	1	13										class-hub	S7		yes	yes			
+blood-of-the-sea	ref/class/skald	class	Skald	4	7	weak	weak		none	1	13							remove	13	class-options-only	class-hub	done		yes	yes			
 blood-of-the-sea	ref/rule/class-fighter/fighter	rule	Fighter	4	10	weak	weak		none	1	5			yes							class-hub	S8		yes	yes			
 bonus-bestiary	ref/monster/ant-lion-giant-adult-ant-lion	creature	Giant Adult Ant Lion	2	2	review	absent	5	row	0											single-entry	S11			yes		no	
 book-of-the-damned	ref/rule/specific-rulesets	rule	Specific Rulesets	7	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
@@ -868,7 +868,7 @@ chronicle-of-legends	ref/class/occultist	class	Occultist	4	5	uncited	printed		no
 chronicle-of-legends	ref/class/psychic	class	Psychic	5	8	uncited	printed		none	4	10,11,14,29							cite	28-29	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/shaman	class	Shaman	5	8	uncited	printed		none	3	14,22,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/shifter	class	Shifter	3	4	uncited	printed		none	2	7,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
-chronicle-of-legends	ref/class/skald	class	Skald	5	7	uncited	body		none	1	10										class-hub	S7		yes	yes	yes		
+chronicle-of-legends	ref/class/skald	class	Skald	5	7	uncited	body		none	1	10							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/slayer	class	Slayer	3	8	uncited	printed		none	5	3,5,6,7,30										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/spiritualist	class	Spiritualist	3	7	uncited	printed		none	2	14,30										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/summoner	class	Summoner	2	7	uncited	printed		none	2	14,30										class-hub	S7		yes	yes	yes		
@@ -2154,7 +2154,7 @@ plane-hoppers-handbook	ref/class/kineticist	class	Kineticist	8	9	uncited	printed
 plane-hoppers-handbook	ref/class/medium	class	Medium	6	7	uncited	printed		none	3	12,13,23							remove	23	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/oracle	class	Oracle	12	13	uncited	printed		none	3	10,19,23										class-hub	S7		yes	yes			
 plane-hoppers-handbook	ref/class/shaman	class	Shaman	7	8	uncited	printed		none	2	12,23							remove	23	class-options-only	class-hub	done		yes	yes			
-plane-hoppers-handbook	ref/class/skald	class	Skald	6	7	uncited	printed		none	2	17,23										class-hub	S7		yes	yes			
+plane-hoppers-handbook	ref/class/skald	class	Skald	6	7	uncited	printed		none	2	17,23							remove	17	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/class/spiritualist	class	Spiritualist	4	7	uncited	printed		none	2	17,23										class-hub	S7		yes	yes			
 plane-hoppers-handbook	ref/class/witch	class	Witch	10	11	uncited	printed		none	4	12,13,15,17										class-hub	S7		yes	yes			
 plane-hoppers-handbook	ref/race/aphorite	race	Aphorite	2	2	uncited	printed		none	5	1,3,14,15,34										race-hub	S9		yes	yes			
@@ -2527,7 +2527,7 @@ ultimate-wilderness	ref/class/kineticist	class	Kineticist	9	9	uncited	printed		n
 ultimate-wilderness	ref/class/mesmerist	class	Mesmerist	6	9	uncited	printed		none	8	17,18,224,227,229							remove	17	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/oracle	class	Oracle	13	13	uncited	printed		none	9	3,21,68,69,140										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/class/shaman	class	Shaman	8	8	uncited	printed		none	27	10,14,17,19,22							remove	10	class-options-only	class-hub	done		yes	yes			
-ultimate-wilderness	ref/class/skald	class	Skald	7	7	uncited	printed		none	8	3,5,10,36,84										class-hub	S7		yes	yes			
+ultimate-wilderness	ref/class/skald	class	Skald	7	7	uncited	printed		none	8	3,5,10,36,84							remove	10	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/class/summoner	class	Summoner	6	7	uncited	printed		none	13	10,14,25,48,94										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/class/witch	class	Witch	11	11	uncited	printed		none	36	3,5,10,14,17										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/ability/animal-tricks	rule	Animal Tricks	3	3	review	absent		none	0											link-only-hub	S11	hub-design-a		yes			
