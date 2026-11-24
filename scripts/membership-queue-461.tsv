@@ -1,5 +1,5 @@
 book	entry	kind	title	member	n_books	tag	status	cited	cite	hits	found	via	family	parent_has_book	gate	proposed_primary	proposed_status	verdict	print_page	evidence	group	slice	ruling	in_warning	pdf	body_line	exact	paren
-advanced-class-guide	ref/rule/basics	rule	Basics	4	5	hub-keep	printed		none	2	241,242							remove	none	hub-link ref/rule/classes	link-only-hub	done			yes			
+advanced-class-guide	ref/rule/basics	rule	Basics	4	5	hub-keep	printed		none	2	241,242										link-only-hub	S10	hub-design-a	yes	yes			
 advanced-class-guide	ref/rule/gamemastery	rule	Gamemastery	6	8	hub-keep	weak		none	1	193							remove	none	hub-no-evidence weather	link-only-hub	done			yes			
 advanced-class-guide	ref/race/dwarf	race	Dwarf	14	17	family-leak	printed		none	3	69,161,251	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hardy(body)					expands	69	expansion-credited-no-via	race-hub	done			yes			
 advanced-class-guide	ref/race/elf	race	Elf	14	17	family-leak	printed		none	4	69,70,172,251	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/elven-magic(body),ref/racial-trait/elf/languages(title)					expands	69	expansion-credited-no-via	race-hub	done			yes			
@@ -2116,7 +2116,7 @@ pathfinder-society-primer	ref/magic-wondrous/ioun-stone	item	Ioun Stones	2	3	unc
 pathfinder-society-primer	ref/magic-wondrous/polish-of-inconspicuous-armor	item	Polish of Inconspicuous Armor	2	2	review	absent	25	row	0											single-entry	S11			yes		no	
 pathfinder-unchained	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	1	8	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 pathfinder-unchained	ref/rule/optional-alignment-changes	rule	Optional Alignment Changes	1	2	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
-pathfinder-unchained	ref/rule/optional-combat-changes	rule	Optional Combat Changes	2	2	hub-keep	absent		none	0								remove	110	hub-link ref/rule/removing-iterative-attacks	link-only-hub	done			yes			
+pathfinder-unchained	ref/rule/optional-combat-changes	rule	Optional Combat Changes	2	2	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 pathfinder-unchained	ref/rule/optional-magic-changes	rule	Optional Magic Changes	1	4	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 pathfinder-unchained	ref/rule/optional-subsystems	rule	Optional Subsystems	9	10	hub-keep	absent		none	0								remove	146	hub-link ref/rule/spell-alterations	link-only-hub	done			yes			
 people-of-the-wastes	ref/hex/cackle	class_option	Cackle	4	4	weak	weak		none	1	21							remove	21	mention-only	single-entry	done			yes			

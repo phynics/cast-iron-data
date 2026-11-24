@@ -29,7 +29,12 @@ empties `ruling` (the queue script does the same for a decided row). It never ch
 has a verdict already, and a second run changes nothing. `--check` writes nothing and exits 1 when
 a derived or decided row is missing or differs. The Gamemastery row of the GameMastery Guide is
 left out on purpose: its curated node stays until phynics/cast-iron-data#277 (owner ruling of
-2026-11-24), so the membership stays. Output has ids and book ids only.
+2026-11-24), so the membership stays. So are two memberships that keep a hub reachable:
+`cargo xtask content` fails ("entries are unreachable without the catch-all chapter") when Basics
+loses Advanced Class Guide or Optional Combat Changes loses Pathfinder Unchained, because their home
+books (Core Rulebook, Ultimate Combat) place them only in the catch-all chapter and no entry links
+to them. They stay in the warning until the owner decides how a navigation hub gets into a book tree
+(a curated node in the home book, or a link). Output has ids and book ids only.
 """
 from __future__ import annotations
 
@@ -47,7 +52,12 @@ HUBS = {
     "traits-and-other-details", "universal-path-abilities",
 }
 S10_GROUPS = ("hub-cited", "link-only-hub", "faith-excerpt")
-SKIP = {("ref/rule/gamemastery", "game-mastery-guide")}
+# Left out on purpose, with no verdict (see the module docstring): the memberships stay.
+SKIP = {
+    ("ref/rule/gamemastery", "game-mastery-guide"),  # the curated node of the GameMastery Guide stays (data #277)
+    ("ref/rule/basics", "advanced-class-guide"),  # the compile fails without it: the hub would be unreachable
+    ("ref/rule/optional-combat-changes", "pathfinder-unchained"),  # the same
+}
 
 
 def load(name: str, file: str):

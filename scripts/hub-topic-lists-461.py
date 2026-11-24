@@ -24,10 +24,10 @@ Which entries (`--list` prints them, and `--apply` acts only on these):
 How a subtopic record resolves to one corpus entry: the first rule that gives exactly one entry
 wins. (1) The entry from the same upstream file with the record name, (2) the entry from a
 `json/rules_*.json` file, (3) the only entry with that record name. A rule that gives two or more
-entries does not pick one: the subtopic goes to the review file (`--review`) and the hub gets no
-block for it. A subtopic without any entry goes there too. The same record name collides with an
-unrelated entry (`weather` is a domain and a blessing too); rule 1 and 2 settle it for the
-rules record.
+entries does not pick one: the subtopic goes to the review file (`--review`, problem `ambiguous`)
+and the hub gets no block for it. A subtopic without any entry goes there too (`no-entry`). A record
+name that several entries share (`weather` is a domain and a blessing too) is settled by rule 1 or 2
+to the rules entry, and the review file lists it as `collision-resolved` with the entry it chose.
 
 The blocks go after the hub's text, in upstream order, with the target's title. A target that the
 body links already (an inline link or a block) is skipped, and so is a repeated subtopic. Running
@@ -132,25 +132,57 @@ def resolve(rec: str, upstream_path: str, by_rec) -> tuple[str | None, list[str]
     return None, []
 
 
+def review_rows(ents, by_rec, hubs):
+    """The subtopics that need a look: `ambiguous` (two or more entries, no rule picks one),
+    `no-entry`, and `collision-resolved` (several entries share the record name and rule 1 or 2
+    chose the rules entry). `hubs` is a list of (hub id, upstream path, subtopic records)."""
+    review = []
+    for eid, path, subs in hubs:
+        for rec in subs:
+            tid, ids = resolve(rec, path, by_rec)
+            rivals = sorted({e for e, _p in by_rec.get(rec, [])})
+            if tid is None:
+                review.append((eid, rec, "ambiguous" if ids else "no-entry", " ".join(ids), ""))
+            elif len(rivals) > 1:
+                review.append((eid, rec, "collision-resolved", " ".join(rivals), tid))
+    return list(dict.fromkeys(review))  # a subtopic that the dataset lists twice is reviewed once
+
+
+def restored_hubs(ents, ds: Dataset):
+    """The hubs that have their blocks: at most 40 words besides them, a record with `subtopics`."""
+    out = []
+    for eid, (fm, body, _p) in sorted(ents.items()):
+        if not BLOCK.search(body) or len(BLOCK.sub("", body).split()) > MAX_WORDS:
+            continue
+        for pv in fm["provenance"]:
+            if pv.get("dataset") == DATASET_ID and (ds.root / pv["path"]).exists():
+                rec = ds.file(pv["path"]).get(pv["record"])
+                if isinstance(rec, dict) and rec.get("subtopics"):
+                    out.append((eid, pv["path"], rec["subtopics"]))
+                    break
+    return out
+
+
 def plan(root: Path, ds: Dataset):
     ents = load_corpus(root)
     by_rec = index_records(ents)
-    hubs, review = [], []
-    for eid, path, record, subs in candidates(ents, ds):
+    hubs = []
+    cands = candidates(ents, ds)
+    for eid, path, record, subs in cands:
         fm, body, file = ents[eid]
         linked = set(LINK.findall(body))
         blocks, seen = [], {eid}
         for rec in subs:
             tid, ids = resolve(rec, path, by_rec)
             if tid is None:
-                review.append((eid, rec, "ambiguous" if ids else "no-entry", " ".join(ids)))
                 continue
             if tid in seen or tid in linked:
                 continue
             seen.add(tid)
             blocks.append((tid, ents[tid][0]["title"], rec))
         hubs.append((eid, file, body, blocks))
-    return hubs, review
+    review = review_rows(ents, by_rec, [(eid, path, subs) for eid, path, _r, subs in cands])
+    return hubs, review, ents, by_rec, cands
 
 
 def render(body: str, blocks) -> str:
@@ -163,7 +195,7 @@ def render(body: str, blocks) -> str:
 
 def write_review(path: Path, review) -> None:
     with open(path, "w", encoding="utf-8", newline="") as f:
-        f.write("hub\tsubtopic\tproblem\tcompeting_entries\n")
+        f.write("hub\tsubtopic\tproblem\tentries_with_this_record\tchosen\n")
         for r in review:
             f.write("\t".join(r) + "\n")
 
@@ -179,9 +211,14 @@ def main() -> int:
     ap.add_argument("--review", type=Path, help="write the subtopics that did not resolve here (TSV)")
     a = ap.parse_args()
 
-    hubs, review = plan(a.corpus, Dataset(a.dataset))
+    ds = Dataset(a.dataset)
+    hubs, review, ents, by_rec, cands = plan(a.corpus, ds)
     if a.review:
-        write_review(a.review, review)
+        # the hubs of this run, and the hubs that already have their blocks: the file is the same
+        # before and after `--apply`
+        rows = review_rows(ents, by_rec, [(e, p, s) for e, p, _r, s in cands] + restored_hubs(ents, ds))
+        write_review(a.review, rows)
+        review = rows
 
     if a.list or not (a.apply or a.check):
         for eid, _f, _b, blocks in hubs:

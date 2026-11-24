@@ -79,7 +79,9 @@ class HubTopicLists(unittest.TestCase):
         # subtopic is written once; the two twins compete and the missing record has no entry
         self.assertEqual(targets, ["ref/rule/weather", "ref/rule/solo"])
         review = self.review.read_text(encoding="utf-8").splitlines()
-        self.assertEqual([l.split("\t")[1:3] for l in review[1:]], [["twin", "ambiguous"], ["missing", "no-entry"]])
+        self.assertEqual([l.split("\t")[1:3] for l in review[1:]],
+                         [["weather", "collision-resolved"], ["twin", "ambiguous"], ["missing", "no-entry"]])
+        self.assertEqual(review[1].split("\t")[4], "ref/rule/weather")
         # entries that are not hubs of the list are untouched
         self.assertNotIn("entry-link", (self.root / "entries" / "rule" / "cited.md").read_text(encoding="utf-8"))
         self.assertNotIn("entry-link", (self.root / "entries" / "rule" / "long.md").read_text(encoding="utf-8"))
