@@ -3,7 +3,7 @@ id = "ref/class/gunslinger"
 kind = "class"
 title = "Gunslinger"
 aon = "ClassDisplay.aspx?ItemName=Gunslinger"
-source_ids = ["ultimate-combat", "advanced-class-guide", "advanced-players-guide", "chronicle-of-legends", "advanced-race-guide", "blood-of-shadows", "goblins-of-golarion"]
+source_ids = ["ultimate-combat", "advanced-class-guide", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunslinger", path = "json/classes7.json" },
 ]
@@ -13,6 +13,9 @@ page = "9"
 [[sources]]
 publication = "advanced-class-guide"
 page = "56"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28"
 
 [fields]
 kind = "class"
@@ -221,7 +224,6 @@ of grit points, and vice versa.
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
@@ -242,7 +244,6 @@ applies her _gun training_ to all firearms, and her damage bonus from _gun train
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.

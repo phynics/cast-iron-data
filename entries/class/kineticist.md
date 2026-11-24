@@ -3,13 +3,16 @@ id = "ref/class/kineticist"
 kind = "class"
 title = "Kineticist"
 aon = "ClassDisplay.aspx?ItemName=Kineticist"
-source_ids = ["occult-adventures", "advanced-players-guide", "blood-of-shadows", "blood-of-the-beast", "chronicle-of-legends", "darklands-revisited", "legacy-of-the-first-world", "plane-hoppers-handbook", "ultimate-wilderness"]
+source_ids = ["occult-adventures", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kineticist", path = "json/classes2.json" },
 ]
 [[sources]]
 publication = "occult-adventures"
 page = "10"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28-29"
 
 [fields]
 kind = "class"
@@ -418,7 +421,6 @@ elemental requirements or restrictions (but not any other requirements or restri
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
@@ -438,7 +440,6 @@ physical blasts) or by 2d6 (for energy blasts), and the blast ignores the first 
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.
