@@ -2,7 +2,7 @@
 id = "ref/racial-trait/dwarf/greed"
 kind = "racial_trait"
 title = "Greed"
-source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes-from-the-fringe", "heroes-of-the-wild", "blood-of-shadows", "advanced-players-guide", "horror-adventures", "legacy-of-dragons", "occult-adventures", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide"]
 parent = "ref/race/dwarf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf|racial-trait:greed", path = "json/races.json" },

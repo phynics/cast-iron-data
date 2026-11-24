@@ -2,7 +2,7 @@
 id = "ref/racial-trait/dwarf/attributes"
 kind = "racial_trait"
 title = "Attributes"
-source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "horror-adventures", "legacy-of-dragons", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide"]
 parent = "ref/race/dwarf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf|racial-trait:attributes", path = "json/races.json" },

@@ -2,7 +2,7 @@
 id = "ref/racial-trait/dwarf/stonecunning"
 kind = "racial_trait"
 title = "Stonecunning"
-source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes-from-the-fringe", "heroes-of-the-wild", "blood-of-shadows", "advanced-players-guide", "horror-adventures", "rival-guide", "heroes-of-the-streets", "heroes-of-the-high-court"]
+source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide"]
 parent = "ref/race/dwarf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf|racial-trait:stonecunning", path = "json/races.json" },

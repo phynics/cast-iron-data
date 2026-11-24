@@ -2,7 +2,7 @@
 id = "ref/racial-trait/elf/normal-speed"
 kind = "racial_trait"
 title = "Normal Speed"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes-from-the-fringe", "horror-adventures", "advanced-players-guide", "pathfinder-124-city-in-the-deep", "heroes-of-the-wild", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-wilderness"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/elf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf|racial-trait:normal-speed", path = "json/races.json" },

@@ -2,7 +2,7 @@
 id = "ref/racial-trait/elf/elven-immunities"
 kind = "racial_trait"
 title = "Elven Immunities"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes-from-the-fringe", "horror-adventures", "advanced-players-guide", "legacy-of-the-first-world", "blood-of-shadows", "pathfinder-124-city-in-the-deep", "legacy-of-dragons"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/elf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf|racial-trait:elven-immunities", path = "json/races.json" },

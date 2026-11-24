@@ -2,7 +2,7 @@
 id = "ref/racial-trait/elf/weapon-familiarity"
 kind = "racial_trait"
 title = "Weapon Familiarity"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes-from-the-fringe", "horror-adventures", "advanced-players-guide", "legacy-of-the-first-world", "blood-of-shadows", "pathfinder-124-city-in-the-deep", "legacy-of-dragons", "heroes-of-the-wild", "heroes-of-the-streets", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/elf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf|racial-trait:weapon-familiarity", path = "json/races.json" },
