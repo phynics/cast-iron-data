@@ -2,16 +2,13 @@
 id = "ref/magic-wondrous/figurine-of-wondrous-power-slate-spider"
 kind = "item"
 title = "Figurine of Wondrous Power (Slate Spider)"
-source_ids = ["ultimate-equipment", "core-rulebook", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "elemental-masters-handbook", "ultimate-combat", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
+source_ids = ["ultimate-equipment", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "elemental-masters-handbook", "ultimate-combat", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_slate_spider", path = "json/magic_wondrous_slotless03.json" },
 ]
 [[sources]]
 publication = "ultimate-equipment"
 page = "297-298"
-[[sources]]
-publication = "core-rulebook"
-page = "513-514"
 [[sources]]
 publication = "pathfinder-34-blood-for-blood"
 page = "67"
