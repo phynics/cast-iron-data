@@ -16,11 +16,18 @@ page = "55"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "merciful-smite", level = 1 },
+  { anchor = "monstrous-rapport", level = 1 },
+  { anchor = "pact-of-peace", level = 8 },
+  { anchor = "aura-of-mercy", level = 11 },
+  { anchor = "associates" },
+]
 trades = [
-  { replaces = "Smite evil", feature = "smite-evil" },
-  { replaces = "Detect evil", feature = "detect-evil" },
-  { replaces = "Aura of resolve", feature = "aura-of-resolve" },
-  { replaces = "Aura of justice", feature = "aura-of-justice" },
+  { replaces = "Smite evil", feature = "smite-evil", by = ["merciful-smite"] },
+  { replaces = "Detect evil", feature = "detect-evil", by = ["monstrous-rapport"] },
+  { replaces = "Aura of resolve", feature = "aura-of-resolve", by = ["pact-of-peace"] },
+  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["aura-of-mercy"] },
 ]
 +++
 
@@ -32,57 +39,43 @@ paladins are called redeemers. A redeemer has the following class features.
 
 **Prerequisites:** Half-orc
 
-**Merciful Smite (Su)**
+## Merciful Smite (Su) {#merciful-smite}
 
-**Ability:** When a redeemer chooses to smite a creature, she can have all of her attacks against
+At 1st level, when a redeemer chooses to smite a creature, she can have all of her attacks against
 the target deal nonlethal damage. She does not take the normal -4 attack roll penalty for using a
 lethal weapon to deal nonlethal damage. She cannot use this ability to deal nonlethal damage to
 outsiders with the evil subtype, evil-aligned dragons, or undead creatures (these creatures take
-lethal damage from her smite). This otherwise works like the standard paladin's _smite evil._
+lethal damage from her smite). This otherwise works like and replaces the standard paladin's smite
+evil.
 
-**Gained:** At 1st Level
+## Monstrous Rapport (Ex) {#monstrous-rapport}
 
-**Replaces:** Smite evil
-
-**Monstrous Rapport (Ex)**
-
-**Gained:** At 1st Level
-
-**Passive:** Redeemers gain a +2 bonus on Diplomacy checks to influence creatures who are commonly
+At 1st level, redeemers gain a +2 bonus on Diplomacy checks to influence creatures who are commonly
 considered monstrous. This includes but is not limited to "monstrous" races such as goblins and
 orcs, [monstrous humanoids](ref/type/monstrous-humanoid), and other intelligent non-humanoid
-monsters.
+monsters. This ability replaces _detect evil_.
 
-**Replaces:** Detect evil
+## Pact of Peace (Sp) {#pact-of-peace}
 
-**Pact of Peace (Sp)**
-
-**Ability:** A redeemer can force a defeated creature to accept a binding pact of peace as a
-condition of its surrender, as if using [lesser geas](ref/spell/geas-lesser). Her caster level for
+At 8th level, a redeemer can force a defeated creature to accept a binding pact of peace as a
+condition of its surrender, as if using _[lesser geas](ref/spell/geas-lesser)_. Her caster level for
 this ability is equal to her paladin level. Rather than assigning a mission or task, the redeemer
 gives the creature a simple set of prohibitions to protect others. Example geas include "Leave this
 city and do not return" or "Do not attack caravans." The prohibition must be against an area no
 larger than 300 square miles or one specific group of people (such as a tribe or citizens of a
-particular city). This ability lasts 1 month per paladin level.
+particular city). This ability lasts 1 month per paladin level. This replaces aura of resolve.
 
-**Gained:** At 8th Level
+## Aura of Mercy (Su) {#aura-of-mercy}
 
-**Replaces:** Aura of resolve
+At 11th level, a redeemer can expend two uses of her merciful smite ability to grant the merciful
+smite ability to all allies within 10 feet, using her bonuses. Allies must use this merciful smite
+ability by the start of the paladin's next turn and the bonuses last for 1 minute. Using this
+ability is a free action. Evil creatures gain no benefit from this ability. This replaces aura of
+justice.
 
-**Aura of Mercy (Su)**
+## Associates {#associates}
 
-**Free:** A redeemer can expend two uses of her _merciful smite_ ability to grant the _merciful
-smite_ ability to all allies within 10 feet, using her bonuses. Allies must use this _merciful
-smite_ ability by the start of the paladin's next turn and the bonuses last for 1 minute. Evil
-creatures gain no benefit from this ability.
-
-**Gained:** At 11th Level
-
-**Replaces:** Aura of justice
-
-**Associates**
-
-**Info:** A redeemer may ally with an evil creature as long as she feels the creature is capable of
+A redeemer may ally with an evil creature as long as she feels the creature is capable of
 redemption. A redeemer may accept [henchmen, followers, or cohorts](ref/feat/leadership) who are not
 lawful good provided they demonstrate they are willing to follow her and seek betterment under her
 tutelage.

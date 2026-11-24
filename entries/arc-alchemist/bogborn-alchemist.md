@@ -16,8 +16,13 @@ page = "191"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "class-skills" },
+  { anchor = "amphibious-mutagen", level = 1 },
+  { anchor = "discovery-options" },
+]
 trades = [
-  { replaces = "Throw anything", feature = "throw-anything" },
+  { replaces = "Throw anything", feature = "throw-anything", by = ["amphibious-mutagen"] },
 ]
 +++
 
@@ -29,26 +34,28 @@ alchemists have the following class features.
 
 **Gained class skills:** swim
 
-**Amphibious Mutagen (Ex)**
+## Class Skills {#class-skills}
 
-**Gained:** At 1st Level
+A bogborn alchemist adds Swim to his list of class skills.
 
-**Passive:** When a bogborn alchemist uses a mutagen, he may choose to have his mutagen form
+## Amphibious Mutagen (Ex) {#amphibious-mutagen}
+
+At 1st level, when a bogborn alchemist uses a mutagen, he may choose to have his mutagen form
 enhanced for aquatic movement. This gives him the [amphibious](ref/umr/amphibious) special quality,
 his feet elongate, and the webbing between his fingers and toes expands, granting a swim speed of 15
-feet.
+feet. This replaces throw anything.
 
-**Replaces:** Throw anything
+## Discovery Options {#discovery-options}
 
-**Discovery Options**
+A bogborn alchemist can select the toxic skin [grippli](ref/race/grippli) racial trait in place of
+an alchemical discovery.
 
-**Gained:** At 1st Level
+## Discoveries {#discoveries}
 
-**Passive:** A bogborn alchemist can select the toxic skin [grippli](ref/race/grippli) racial trait
-in place of an alchemical discovery.
-
-**Discoveries:** The following discoveries complement the bogborn alchemist archetype:
-[chameleon](ref/discovery/chameleon); [concentrate poison](ref/discovery/concentrate-poison),
-[sticky poison](ref/discovery/sticky-poison); [nauseating flesh](ref/discovery/nauseating-flesh),
-[poison conversion](ref/discovery/poison-conversion); [bottled ooze](ref/discovery/bottled-ooze),
-[tanglefoot bomb](ref/discovery/tanglefoot-bomb), [tentacle](ref/discovery/tentacle).
+The following discoveries complement the bogborn alchemist archetype:
+[chameleon](ref/discovery/chameleon) (_Advanced Race Guide_);
+[concentrate poison](ref/discovery/concentrate-poison), [sticky poison](ref/discovery/sticky-poison)
+(_Advanced Player's Guide_); [nauseating flesh](ref/discovery/nauseating-flesh),
+[poison conversion](ref/discovery/poison-conversion) (_Ultimate Combat_);
+[bottled ooze](ref/discovery/bottled-ooze), [tanglefoot bomb](ref/discovery/tanglefoot-bomb),
+[tentacle](ref/discovery/tentacle) (_Ultimate Magic_).

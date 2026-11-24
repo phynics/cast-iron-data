@@ -16,11 +16,17 @@ page = "140"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sidestep", level = 2 },
+  { anchor = "maneuver-training", level = 5 },
+  { anchor = "speedy-tricks", level = 9 },
+  { anchor = "double-tricks", level = 13 },
+]
 trades = [
-  { replaces = "Bravery", feature = "bravery" },
-  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5] },
-  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9] },
-  { replaces = "Weapon training 3 and 4", feature = "weapon-training", levels = [13, 17] },
+  { replaces = "Bravery", feature = "bravery", by = ["sidestep"] },
+  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5], by = ["maneuver-training"] },
+  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9], by = ["speedy-tricks"] },
+  { replaces = "Weapon training 3 and 4", feature = "weapon-training", levels = [13, 17], by = ["double-tricks"] },
 ]
 +++
 
@@ -30,53 +36,29 @@ with weapons or learning how to wear armor. A dirty fighter has the following cl
 
 **Prerequisites:** Orc
 
-**Sidestep (Ex)**
+## Sidestep (Ex) {#sidestep}
 
-**Flavor:** A dirty fighter learns how to evade his enemies when they react to his combat maneuvers.
+At 2nd level, a dirty fighter learns how to evade his enemies when they react to his combat
+maneuvers. He gains a +1 dodge bonus to his AC against attacks of opportunity provoked by him while
+attempting a combat maneuver. This bonus increases by +1 for every four levels beyond 2nd level.
+This ability replaces bravery.
 
-**Gained:** At 2nd Level
+## Maneuver Training (Ex) {#maneuver-training}
 
-**Passive:** He gains a +1 dodge bonus to his AC against attacks of opportunity provoked by him
-while attempting a combat maneuver.
+At 5th level, a dirty fighter becomes a master of dirty tricks. He gains a +2 bonus on
+[dirty trick](ref/rule/dirty-trick) combat maneuver checks (_Advanced Player's Guide_ 320) and +2 to
+his CMD when he is the target of a dirty trick combat maneuver. This ability replaces weapon
+training 1.
 
-**Replaces:** Bravery
+## Speedy Tricks (Ex) {#speedy-tricks}
 
-At 6th level: This bonus increases to +2.
+At 9th level, a dirty fighter has perfected how to quickly perform dirty tricks. He can make a dirty
+trick combat maneuver as an attack instead of a standard action. This ability replaces weapon
+training 2.
 
-At 10th level: This bonus increases to +3.
+## Double Tricks (Ex) {#double-tricks}
 
-At 14th level: This bonus increases to +4.
-
-At 18th level: This bonus increases to +5.
-
-**Maneuver Training (Ex)**
-
-**Flavor:** A dirty fighter becomes a master of dirty tricks.
-
-**Gained:** At 5th Level
-
-**Passive:** He gains a +2 bonus on [dirty trick](ref/rule/dirty-trick) combat maneuver checks and
-+2 to his CMD when he is the target of a dirty trick combat maneuver.
-
-**Replaces:** Weapon training 1
-
-**Speedy Tricks (Ex)**
-
-**Ability:** He can make a dirty trick combat maneuver as an attack instead of a standard action.
-
-**Flavor:** A dirty fighter has perfected how to quickly perform dirty tricks.
-
-**Gained:** At 9th Level
-
-**Replaces:** Weapon training 2
-
-**Double Tricks (Ex)**
-
-**Ability:** When a dirty fighter performs a combat maneuver, he may apply two different conditions
-to his target instead of one. Each penalty condition requires a separate action to remove.
-
-**At 17th Level:** He may apply three different conditions.
-
-**Gained:** At 13th Level
-
-**Replaces:** Weapon training 3 and 4
+At 13th level, when a dirty fighter performs a combat maneuver, he may apply two different
+conditions to his target instead of one. Each penalty condition requires a separate action to
+remove. At 17th level, he may apply three different conditions. This ability replaces weapon
+training 3 and 4.

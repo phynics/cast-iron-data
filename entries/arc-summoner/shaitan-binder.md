@@ -16,12 +16,19 @@ page = "146"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "base-form", level = 1 },
+  { anchor = "shaitan-magic", level = 4 },
+  { anchor = "earth-glide", level = 10 },
+  { anchor = "stone-curse", level = 18 },
+  { anchor = "noble-eidolon", level = 20 },
+]
 trades = [
-  { replaces = "Shield ally", feature = "shield-ally" },
-  { replaces = "greater shield ally", feature = "greater-shield-ally" },
-  { replaces = "Aspect", feature = "aspect" },
-  { replaces = "Greater aspect", feature = "greater-aspect" },
-  { replaces = "Twin eidolon", feature = "twin-eidolon" },
+  { replaces = "Shield ally", feature = "shield-ally", by = ["shaitan-magic"] },
+  { replaces = "greater shield ally", feature = "greater-shield-ally", by = ["shaitan-magic"] },
+  { replaces = "Aspect", feature = "aspect", by = ["earth-glide"] },
+  { replaces = "Greater aspect", feature = "greater-aspect", by = ["stone-curse"] },
+  { replaces = "Twin eidolon", feature = "twin-eidolon", by = ["noble-eidolon"] },
 ]
 +++
 
@@ -30,76 +37,52 @@ shaitan binder has the following class features.
 
 **Prerequisites:** Oread
 
-**Base Form**
+## Base Form {#base-form}
 
-**Gained:** At 1st Level
-
-**Passive:** If a shaitan binder's eidolon has the biped base form, it gains a +2 bonus to one
+At 1st level, if a shaitan binder's eidolon has the biped base form, it gains a +2 bonus to one
 ability score. The shaitan binder must make this choice at 1st level. If at any time the shaitan
-binder's eidolon has another base form, it loses this bonus until it returns to biped form.
+binder's eidolon has another base form, it loses this bonus until it returns to biped form. A
+shaitan binder's eidolon does not gain the share spells ability.
 
-**Special:** A shaitan binder's eidolon does not gain the _share spells_ ability.
+## Shaitan Magic (Su) {#shaitan-magic}
 
-**Shaitan Magic (Su)**
+At 4th level, a shaitan binder's eidolon gains the [basic magic](ref/evolution/basic-magic)
+evolution (_Ultimate Magic_) as a free evolution. At 6th level, it gains the
+[minor magic](ref/evolution/minor-magic) evolution (_Ultimate Magic_).
 
-**At 12th Level:** It gains the [ultimate magic](ref/evolution/ultimate-magic) evolution as a free
-evolution, and adds the following to the list of available spells for that evolution:
-[meld into stone](ref/spell/meld-into-stone) and [stone shape](ref/spell/stone-shape).
+At 8th level, it gains the [major magic](ref/evolution/major-magic) evolution (_Ultimate Magic_) as
+a free evolution, and adds the following to the list of available spells for that evolution:
+_[glitterdust](ref/spell/glitterdust)_ and
+_[soften earth and stone](ref/spell/soften-earth-and-stone)_.
 
-**At 4th Level:** A shaitan binder's eidolon gains the [basic magic](ref/evolution/basic-magic)
-evolution as a free evolution.
+At 12th level, it gains the [ultimate magic](ref/evolution/ultimate-magic) evolution (_Ultimate
+Magic_) as a free evolution, and adds the following to the list of available spells for that
+evolution: _[meld into stone](ref/spell/meld-into-stone)_ and
+_[stone shape](ref/spell/stone-shape)_.
 
-**At 6th Level:** It gains the [minor magic](ref/evolution/minor-magic) evolution.
+Although the shaitan binder gains the standard versions of these evolutions for free, he must pay
+the normal cost to upgrade them to the improved versions. This ability replaces shield ally and
+greater shield ally.
 
-**At 8th Level:** It gains the [major magic](ref/evolution/major-magic) evolution as a free
-evolution, and adds the following to the list of available spells for that evolution:
-[glitterdust](ref/spell/glitterdust) and [soften earth and stone](ref/spell/soften-earth-and-stone).
+## Earth Glide (Su) {#earth-glide}
 
-**Replaces:** Shield ally, greater shield ally
-
-**Special:** Although the shaitan binder gains the standard versions of these evolutions for free,
-he must pay the normal cost to upgrade them to the improved versions.
-
-**Earth Glide (Su)**
-
-**Ability:** If a shaitan binder's eidolon has the [burrow](ref/evolution/burrow) evolution, it
+At 10th level, if a shaitan binder's eidolon has the [burrow](ref/evolution/burrow) evolution, it
 gains the [earth glide](ref/umr/earth-glide) universal monster ability and can use this ability to
-travel at its full base speed.
+travel at its full base speed. This ability replaces aspect.
 
-**Gained:** At 10th Level
+## Stone Curse (Su) {#stone-curse}
 
-**Replaces:** Aspect
+At 18th level, a [shaitan](ref/monster/genie-shaitan) binder may select stone curse as a 4-point
+evolution. This allows the eidolon to trap creatures in stone like the shaitan stone curse ability
+(_Bestiary_ 143). The DC to resist or break free of the stone curse is 10 + 1/2 the eidolon's Hit
+Dice + the eidolon's Strength score. This ability replaces greater aspect.
 
-**Stone Curse (Su)**
+## Noble Eidolon (Sp) {#noble-eidolon}
 
-**Ability:** A shaitan binder may select _stone curse_ as a 4-point evolution. This allows the
-eidolon to trap creatures in stone like the [shaitan](ref/monster/genie-shaitan) _stone curse_
-ability. The DC to resist or break free of the _stone curse_ is 10 + 1/2 the eidolon's Hit Dice +
-the eidolon's Strength score.
-
-**Gained:** At 18th Level
-
-**Replaces:** Greater aspect
-
-**Stone Curse (Su)**
-
-**Ability:** If a shaitan wins a [bull rush](ref/rule/bull-rush) check by 5 or more and pushes its
-target into a stone barrier, the target must make a Reflex save or be forced into the barrier as if
-the target had cast _[meld into stone](ref/spell/meld-into-stone)_ until the victim makes a
-successful Fortitude save as a **full-round action** to exit the stone.
-
-**Flavor:** Text from the shaitan ability.
-
-**Noble Eidolon (Sp)**
-
-**Ability:** A shaitan binder's eidolon gains the ability to grant its summoner's wishes. Once per
-day, the eidolon can cast [limited wish](ref/spell/limited-wish) as a
+At 20th level, a shaitan binder's eidolon gains the ability to grant its summoner's wishes. Once per
+day, the eidolon can cast _[limited wish](ref/spell/limited-wish)_ as a
 [spell-like ability](ref/umr/spell-like-abilities). The eidolon's caster level is equal to its
 level. The wish must be spoken aloud by the shaitan binder, beginning with the words "I wish," and
 cannot duplicate a wish the eidolon has granted within the past 24 hours. If the eidolon uses this
 ability to duplicate a spell with a costly material component, the shaitan binder must provide that
-component.
-
-**Gained:** At 20th Level
-
-**Replaces:** Twin eidolon
+component. This ability replaces twin eidolon.

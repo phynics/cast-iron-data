@@ -16,10 +16,15 @@ page = "206"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "branch-runner", level = 3 },
+  { anchor = "wood-affinity", level = 5 },
+  { anchor = "freedom-of-movement", level = 12 },
+]
 trades = [
-  { replaces = "Still mind", feature = "still-mind" },
-  { replaces = "Purity of body", feature = "purity-of-body" },
-  { replaces = "Abundant step", feature = "abundant-step" },
+  { replaces = "Still mind", feature = "still-mind", by = ["branch-runner"] },
+  { replaces = "Purity of body", feature = "purity-of-body", by = ["wood-affinity"] },
+  { replaces = "Abundant step", feature = "abundant-step", by = ["freedom-of-movement"] },
 ]
 +++
 
@@ -29,32 +34,21 @@ and overgrowth to deliver devastating attacks. A treetop monk has the following 
 
 **Prerequisites:** Vanara
 
-**Branch Runner (Ex)**
+## Branch Runner (Ex) {#branch-runner}
 
-**Gained:** At 3rd Level
+At 3rd level, a treetop monk adds half the base speed bonus from his fast movement ability to his
+racial climb speed. This ability replaces still mind.
 
-**Passive:** A treetop monk adds half the base speed bonus from his fast movement ability to his
-racial climb speed.
+## Wood Affinity (Su) {#wood-affinity}
 
-**Replaces:** Still mind
+At 5th level, a treetop monk may expend 1 point from his ki pool as a free action to treat a wooden
+object as if it were not broken for 1 minute (this includes a weapon with a wooden haft such as an
+axe or spear). At 8th level, as a free action, a treetop monk can expend 1 point from his ki pool to
+use the [Lunge](ref/feat/lunge) feat with any wooden or wood-hafted melee weapon. This ability
+replaces purity of body.
 
-**Wood Affinity (Su)**
+## Freedom of Movement (Su) {#freedom-of-movement}
 
-**Free:** A treetop monk may expend 1 point from his _ki pool_ to treat a wooden object as if it
-were not broken for 1 minute (this includes a weapon with a wooden haft such as an axe or spear).
-
-**At 8th Level:** As a **free action**, a treetop monk can expend 1 point from his _ki pool_ to use
-the [Lunge](ref/feat/lunge) feat with any wooden or wood-hafted melee weapon.
-
-**Gained:** At 5th Level
-
-**Replaces:** Purity of body
-
-**Freedom of Movement (Su)**
-
-**Gained:** At 12th Level
-
-**Replaces:** Abundant step
-
-**Swift:** A treetop may expend 1 point from his _ki pool_ to gain the effects of
-[freedom of movement](ref/spell/freedom-of-movement) for 1 round.
+At 12th level, a treetop may expend 1 point from his ki pool as a swift action to gain the effects
+of _[freedom of movement](ref/spell/freedom-of-movement)_ for 1 round. This ability replaces
+abundant step.

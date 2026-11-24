@@ -16,12 +16,20 @@ page = "176"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "domains" },
+  { anchor = "amphibious", level = 2 },
+  { anchor = "augment-summoning", level = 3 },
+  { anchor = "resist-water-s-call", level = 4 },
+  { anchor = "wild-shape", level = 6 },
+  { anchor = "commune-with-water-spirits", level = 9 },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "Wild shape", feature = "wild-shape" },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["amphibious"] },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["augment-summoning"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["resist-water-s-call"] },
+  { replaces = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["commune-with-water-spirits"] },
 ]
 +++
 
@@ -32,56 +40,40 @@ features.
 
 **Prerequisites:** Undine
 
-**Domains**
+## Domains {#domains}
 
-**Choice:** An undine adept who chooses a domain must choose the Community or
-[Water](ref/domain/water) domain, or any subdomain of those domains.
+An undine adept who chooses a domain must choose the Community or [Water](ref/domain/water) domain,
+or any subdomain of those domains.
 
-**Amphibious (Su)**
+## Amphibious (Su) {#amphibious}
 
-**Ability:** The undine adept gains the [aquatic](ref/subtype/aquatic) subtype and the
+At 2nd level, the undine adept gains the [aquatic](ref/subtype/aquatic) subtype and the
 [amphibious](ref/umr/amphibious) universal monster ability, allowing her to breathe water or air.
+This ability replaces woodland stride.
 
-**Gained:** At 2nd Level
+## Augment Summoning (Su) {#augment-summoning}
 
-**Replaces:** Woodland stride
+At 3rd level, any creature with the water subtype the undine adept summons with either
+_[summon monster](ref/spell/summon-monster)_ or
+_[summon nature's ally](ref/spell/summon-natures-ally)_ gains the benefits of the
+[Augment Summoning](ref/feat/augment-summoning) feat. This replaces trackless step.
 
-**Augment Summoning (Su)**
+## Resist Water's Call (Su) {#resist-water-s-call}
 
-**Gained:** At 3rd Level
-
-**Passive:** Any creature with the water subtype the undine adept summons with either
-[summon monster](ref/spell/summon-monster) or [summon nature's ally](ref/spell/summon-natures-ally)
-gains the benefits of the [Augment Summoning](ref/feat/augment-summoning) feat.
-
-**Replaces:** Trackless step
-
-**Resist Water's Call (Su)**
-
-**Gained:** At 4th Level
-
-**Passive:** An undine adept gains a +4 bonus on saving throws against the spell-like and
+At 4th level, an undine adept gains a +4 bonus on saving throws against the spell-like and
 supernatural abilities of outsiders with the aquatic or water subtype, fey with the aquatic or water
-subtype, and spells and effects with the water descriptor.
+subtype, and spells and effects with the water descriptor. This ability replaces resist nature's
+lure.
 
-**Replaces:** Resist nature's lure
+## Wild Shape (Su) {#wild-shape}
 
-**Wild Shape (Su)**
-
-**Ability:** An undine adept gains the ability to use _wild shape._ When an undine takes the form of
+At 6th level, an undine adept gains the ability to use wild shape. When an undine takes the form of
 a creature with the aquatic or water subtype, this ability functions at her class level + 1. For all
 other forms, her effective druid level for the ability is equal to her actual undine adept level.
-This ability otherwise functions as _wild shape._
+This ability otherwise functions as and replaces wild shape.
 
-**Gained:** At 6th Level
+## Commune with Water Spirits {#commune-with-water-spirits}
 
-**Replaces:** Wild shape
-
-**Commune with Water Spirits**
-
-**Ability:** An undine adept adds [commune](ref/spell/commune) to her druid spell list. She may use
-this spell whether she worships a deity or elemental forces.
-
-**Gained:** At 9th Level
-
-**Replaces:** Venom immunity
+At 9th level, an undine adept adds _[commune](ref/spell/commune)_ to her druid spell list. She may
+use this spell whether she worships a deity or elemental forces. This ability replaces venom
+immunity.

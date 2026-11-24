@@ -16,13 +16,22 @@ page = "146"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hard-as-stone", level = 2 },
+  { anchor = "strength-of-stone", level = 3 },
+  { anchor = "bonus-feat", level = 6 },
+  { anchor = "bones-of-stone", level = 7 },
+  { anchor = "body-of-stone", level = 9 },
+  { anchor = "soul-of-stone", level = 12 },
+  { anchor = "stone-self", level = 20 },
+]
 trades = [
-  { replaces = "Evasion", feature = "evasion" },
-  { replaces = "Fast movement", feature = "fast-movement" },
-  { replaces = "High jump", feature = "high-jump" },
-  { replaces = "Improved evasion", feature = "improved-evasion" },
-  { replaces = "Abundant step", feature = "abundant-step" },
-  { alters = "Bonus feats", feature = "bonus-feat" },
+  { replaces = "Evasion", feature = "evasion", by = ["hard-as-stone"] },
+  { replaces = "Fast movement", feature = "fast-movement", by = ["strength-of-stone"] },
+  { replaces = "High jump", feature = "high-jump", by = ["bones-of-stone"] },
+  { replaces = "Improved evasion", feature = "improved-evasion", by = ["body-of-stone"] },
+  { replaces = "Abundant step", feature = "abundant-step", by = ["soul-of-stone"] },
+  { alters = "Bonus feats", feature = "bonus-feat", by = ["bonus-feat"] },
 ]
 +++
 
@@ -31,79 +40,49 @@ sheer resilience. A student of stone has the following class features.
 
 **Prerequisites:** Oread
 
-**Hard as Stone (Ex)**
+## Hard as Stone (Ex) {#hard-as-stone}
 
-**Gained:** At 2nd Level
+At 2nd level, whenever an opponent rolls to confirm a critical hit against a student of stone, treat
+the student of stone's AC as +4 higher than normal. This ability replaces evasion.
 
-**Passive:** Whenever an opponent rolls to confirm a critical hit against a student of stone, treat
-the student of stone's AC as +4 higher than normal.
+## Strength of Stone (Ex) {#strength-of-stone}
 
-**Replaces:** Evasion
+At 3rd level, a student of stone learns to draw strength from the earth. So long as both he and his
+opponent are touching the ground, the student of stone gains a +1 bonus on attack rolls, damage
+rolls, [bull rush](ref/rule/bull-rush) and [trip](ref/rule/trip) combat maneuver rolls, and to his
+CMD when resisting a bull rush or trip attempt. This ability replaces fast movement.
 
-**Strength of Stone (Ex)**
+## Bonus Feat {#bonus-feat}
 
-**Flavor:** A student of stone learns to draw strength from the earth.
+At 6th level, a student of stone adds [Elemental Fist](ref/feat/elemental-fist) (_Advanced Player's
+Guide_) to his list of available bonus feats. If the student of stone selects Elemental Fist as a
+bonus feat, he may only deal acid damage when using the feat. At 10th level, the student of stone
+adds [Shaitan Style](ref/feat/shaitan-style) (_Ultimate Combat_) to his list of bonus feats, at 14th
+level, he adds [Shaitan Skin](ref/feat/shaitan-skin) (_Ultimate Combat_), and at 18th level, he adds
+[Shaitan Earthblast](ref/feat/shaitan-earthblast) (_Ultimate Combat_). This otherwise functions as
+and alters the bonus feat ability.
 
-**Gained:** At 3rd Level
+## Bones of Stone (Su) {#bones-of-stone}
 
-**Passive:** So long as both he and his opponent are touching the ground, the student of stone gains
-a +1 bonus on attack rolls, damage rolls, [bull rush](ref/rule/bull-rush) and [trip](ref/rule/trip)
-combat maneuver rolls, and to his CMD when resisting a bull rush or trip attempt.
+At 7th level, as a swift action, a student of stone can spend 1 ki point to gain DR 2/magic until
+the beginning of his next turn. At 10th level, he can spend 1 ki point to gain DR 2/chaotic until
+his next turn. At 15th level, he can spend 1 ki point to gain DR 5/chaotic until his next turn. This
+ability replaces high jump.
 
-**Replaces:** Fast movement
+## Body of Stone (Ex) {#body-of-stone}
 
-**Bonus Feat**
+At 9th level, a student of stone gains the benefits of the
+_[light fortification](ref/magic-enh/fortification-light)_ armor property (_Core Rulebook_ 463).
+This ability replaces improved evasion.
 
-**Alters:** Bonus feats
+## Soul of Stone (Su) {#soul-of-stone}
 
-**At 10th Level:** The student of stone adds [Shaitan Style](ref/feat/shaitan-style) to his list of
-bonus feats.
+At 12th level, as a swift action, a student of stone can spend 1 ki point to gain
+[tremorsense](ref/umr/tremorsense) 15 feet until his next turn. At 16th level, the range of this
+[tremorsense](ref/umr/tremorsense) increases to 30 feet. This ability replaces abundant step.
 
-**At 14th Level:** He adds [Shaitan Skin](ref/feat/shaitan-skin).
+## Stone Self {#stone-self}
 
-**At 18th Level:** He adds [Shaitan Earthblast](ref/feat/shaitan-earthblast).
-
-**At 6th Level:** A student of stone adds [Elemental Fist](ref/feat/elemental-fist) to his list of
-available bonus feats. If the student of stone selects Elemental Fist as a bonus feat, he may only
-deal acid damage when using the feat.
-
-**Bones of Stone (Su)**
-
-**At 10th Level:** He can spend 1 ki point to gain DR 2/chaotic until his next turn.
-
-**At 15th Level:** He can spend 1 ki point to gain DR 5/chaotic until his next turn.
-
-**Gained:** At 7th Level
-
-**Replaces:** High jump
-
-**Swift:** A student of stone can spend 1 ki point to gain DR 2/magic until the beginning of his
-next turn.
-
-**Body of Stone (Ex)**
-
-**Gained:** At 9th Level
-
-**Passive:** A student of stone gains the benefits of the
-[light fortification](ref/magic-enh/fortification-light) armor property.
-
-**Replaces:** Improved evasion
-
-**Soul of Stone (Su)**
-
-**At 16th Level:** The range of this [tremorsense](ref/umr/tremorsense) increases to 30 feet.
-
-**Gained:** At 12th Level
-
-**Replaces:** Abundant step
-
-**Swift:** A student of stone can spend 1 ki point to gain [tremorsense](ref/umr/tremorsense) 15
-feet until his next turn.
-
-**Stone Self**
-
-**Info:** A student of stone becomes an [earth](ref/subtype/earth) [outsider](ref/type/outsider). He
-gains the earth subtype, as well as DR 5/chaotic, burrow speed 20 feet, and
-[tremorsense](ref/umr/tremorsense) 20 feet.
-
-**Gained:** At 20th Level
+At 20th level, a student of stone becomes an [earth](ref/subtype/earth)
+[outsider](ref/type/outsider). He gains the earth subtype, as well as DR 5/chaotic, burrow speed 20
+feet, and [tremorsense](ref/umr/tremorsense) 20 feet.

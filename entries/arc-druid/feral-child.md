@@ -16,13 +16,24 @@ page = "74"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "class-skills" },
+  { anchor = "illiteracy", level = 1 },
+  { anchor = "improved-unarmed-strike", level = 1 },
+  { anchor = "beast-family", level = 1 },
+  { anchor = "nature-bond", level = 1 },
+  { anchor = "favored-terrain", level = 3 },
+  { anchor = "native-cunning", level = 3 },
+  { anchor = "native-fortitude", level = 4 },
+  { anchor = "native-call", level = 9 },
+]
 trades = [
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "a thousand faces", feature = "a-thousand-faces" },
-  { replaces = "Wild shape", feature = "wild-shape" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
-  { replaces = "timeless body", feature = "timeless-body" },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["favored-terrain"] },
+  { replaces = "a thousand faces", feature = "a-thousand-faces", by = ["favored-terrain"] },
+  { replaces = "Wild shape", feature = "wild-shape", by = ["native-cunning"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["native-fortitude"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["native-call"] },
+  { replaces = "timeless body", feature = "timeless-body", by = ["native-call"] },
 ]
 +++
 
@@ -33,101 +44,70 @@ class features.
 
 **Prerequisites:** Human
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** A feral child loses proficiency with the scimitar, scythe, and sickle and with shields.
+A feral child loses proficiency with the scimitar, scythe, and sickle and with shields.
 
-**Gained class skills:** acro
+## Class Skills {#class-skills}
 
-**Lost class skills:** fly, prof
+A feral child adds Acrobatics to her list of class skills and removes Fly and Profession from her
+list of class skills.
 
-**Illiteracy**
+## Illiteracy {#illiteracy}
 
-**Info:** A feral child is unable to read and write, though she may learn by taking 1 rank of
+At 1st level, a feral child is unable to read and write, though she may learn by taking 1 rank of
 Linguistics. She does not gain Druidic as a free language and cannot select Sylvan as a bonus
 language.
 
-**Gained:** At 1st Level
+## Improved Unarmed Strike {#improved-unarmed-strike}
 
-**Improved Unarmed Strike**
-
-**Ability:** A feral child gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a
+At 1st level, a feral child gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a
 bonus feat.
 
-**Gained:** At 1st Level
+## Beast Family (Ex) {#beast-family}
 
-**Beast Family (Ex)**
-
-**Choice:** A feral child may choose one specific type of animal as the type that raised her. She
-gains a +2 circumstance bonus on Handle Animal and _wild empathy_ checks with animals of that type,
+At 1st level, a feral child may choose one specific type of animal as the type that raised her. She
+gains a +2 circumstance bonus on Handle Animal and wild empathy checks with animals of that type,
 and she can communicate with them as if using a continual
-[speak with animals](ref/spell/speak-with-animals)
+_[speak with animals](ref/spell/speak-with-animals)_
 [spell-like ability](ref/umr/spell-like-abilities), but this ability is nonmagical.
 
-**Gained:** At 1st Level
+## Nature Bond (Ex) {#nature-bond}
 
-**Nature Bond (Ex)**
+At 1st level, a feral child must select an animal companion as her nature bond.
 
-**Choice:** A feral child must select an animal companion as her nature bond.
+## Favored Terrain (Ex) {#favored-terrain}
 
-**Gained:** At 1st Level
-
-**Favored Terrain (Ex)**
-
-**Ability:** A feral child gains the [favored terrain](ref/ability/favored-terrain) ability as a
+At 3rd level, a feral child gains the [favored terrain](ref/ability/favored-terrain) ability as a
 [ranger](ref/class/ranger) of her class level. A feral child may not choose urban as a favored
-terrain.
+terrain. This ability replaces trackless step and a thousand faces.
 
-**Gained:** At 3rd Level
+## Native Cunning (Ex) {#native-cunning}
 
-**Replaces:** Trackless step, a thousand faces
-
-**Native Cunning (Ex)**
-
-**Ability:** A feral child gains [trap sense](ref/ability/trap-sense) as a
+At 3rd level, a feral child gains [trap sense](ref/ability/trap-sense) as a
 [barbarian](ref/class/barbarian) of equal level, and in her favored terrain, she immediately
-receives a Perception check to notice traps within 10 feet, as the trap spotter rogue talent.
+receives a Perception check to notice traps within 10 feet, as the trap spotter rogue talent. In
+addition, at 3rd level and every three levels thereafter, she may choose one combat maneuver, and
+gains a bonus equal to her trap sense bonus to her CMD against that maneuver. This ability replaces
+wild shape.
 
-**Choice:** She may choose one combat maneuver, and gains a bonus equal to her trap sense bonus to
-her CMD against that maneuver.
+## Native Fortitude (Ex) {#native-fortitude}
 
-**At 12th Level:** She may select a fourth combat maneuver for a bonus.
+At 4th level, a feral child gains a +1 bonus on saving throws against disease,
+[exhaustion](ref/misc/exhausted), [fatigue](ref/misc/fatigued), fear, and poison. When she is in her
+favored terrain, she instead applies her favored terrain bonus on such saving throws. She also
+recovers from [ability damage](ref/rule/ability-damage-drain), exhaustion, and fatigue at twice the
+normal rate. This ability replaces resist nature's lure.
 
-**At 15th Level:** She may select a fifth such maneuver.
+## Native Call (Su) {#native-call}
 
-**At 18th Level:** She may select a sixth such maneuver.
-
-**At 6th Level:** She may choose another combat maneuver to gain the same bonus in.
-
-**At 9th Level:** She may gain a third such bonus.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Wild shape
-
-**Native Fortitude (Ex)**
-
-**Gained:** At 4th Level
-
-**Passive:** A feral child gains a +1 bonus on saving throws against disease, exhaustion, fatigue,
-fear, and poison. When she is in her favored terrain, she instead applies her favored terrain bonus
-on such saving throws. She also recovers from [ability damage](ref/rule/ability-damage-drain),
-[exhaustion](ref/misc/exhausted), and [fatigue](ref/misc/fatigued) at twice the normal rate.
-
-**Replaces:** Resist nature's lure
-
-**Native Call (Su)**
-
-**At 17th Level:** When the feral child uses _[summon nature's ally](ref/spell/summon-natures-ally)_
-spells to summon such animals, those animals gain a +2 bonus to both their Strength and Constitution
-ability scores. This stacks with the effects of the [Augment Summoning](ref/feat/augment-summoning)
-feat.
-
-**Gained:** At 9th Level
-
-**Passive:** When in her favored terrain, for any
-[summon nature's ally](ref/spell/summon-natures-ally) spells a feral child uses to summon animals
+At 9th level, when in her favored terrain, for any
+_[summon nature's ally](ref/spell/summon-natures-ally)_ spells a feral child uses to summon animals
 that are native to that terrain, she treats the duration of the spell as if she were 2 levels
 higher.
 
-**Replaces:** Venom immunity, timeless body
+At 17th level, when the feral child uses _[summon nature's ally](ref/spell/summon-natures-ally)_
+spells to summon such animals, those animals gain a +2 bonus to both their Strength and Constitution
+ability scores. This stacks with the effects of the Augmented Summoning feat.
+
+This ability replaces venom immunity and timeless body.

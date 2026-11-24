@@ -16,14 +16,23 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spells" },
+  { anchor = "inflexible-will", level = 1 },
+  { anchor = "detect-chaos" },
+  { anchor = "fearsome-jurist", level = 5 },
+  { anchor = "aura-of-repetition", level = 8 },
+  { anchor = "double-jeopardy", level = 12 },
+  { anchor = "aura-of-reversion", level = 16 },
+]
 trades = [
-  { replaces = "Monster lore", feature = "monster-lore" },
-  { replaces = "Detect alignment", feature = "detect-alignment" },
-  { replaces = "Bane", feature = "bane" },
-  { replaces = "Second judgment", feature = "second-judgment" },
-  { replaces = "Greater bane", feature = "greater-bane" },
-  { replaces = "Third judgment", feature = "third-judgment" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Monster lore", feature = "monster-lore", by = ["inflexible-will"] },
+  { replaces = "Detect alignment", feature = "detect-alignment", by = ["detect-chaos"] },
+  { replaces = "Bane", feature = "bane", by = ["fearsome-jurist"] },
+  { replaces = "Second judgment", feature = "second-judgment", by = ["aura-of-repetition"] },
+  { replaces = "Greater bane", feature = "greater-bane", by = ["double-jeopardy"] },
+  { replaces = "Third judgment", feature = "third-judgment", by = ["aura-of-reversion"] },
+  { alters = "Spellcasting", feature = "spells", by = ["spells"] },
 ]
 +++
 
@@ -33,67 +42,48 @@ innovation.
 
 **Prerequisites:** Dwarf
 
-**Spells**
+## Spells {#spells}
 
-**Alters:** Spellcasting
+Exarchs cannot cast spells with the chaotic descriptor.
 
-**Info:** Exarchs cannot cast spells with the chaotic descriptor.
+## Inflexible Will (Ex) {#inflexible-will}
 
-**Inflexible Will (Ex)**
+At 1st level, an exarch gains a +2 bonus on saving throws against _[confusion](ref/spell/confusion)_
+and _[insanity](ref/spell/insanity)_ effects and effects with the chaotic descriptor. This ability
+replaces monster lore.
 
-**Gained:** At 1st Level
+## Detect Chaos (Sp) {#detect-chaos}
 
-**Passive:** An exarch gains a +2 bonus on saving throws against [confusion](ref/spell/confusion)
-and [insanity](ref/spell/insanity) effects and effects with the chaotic descriptor.
+At will, an exarch can use _[detect chaos](ref/spell/detect-chaos)_. This ability replaces detect
+alignment.
 
-**Replaces:** Monster lore
+## Fearsome Jurist (Su) {#fearsome-jurist}
 
-**Detect Chaos (Sp)**
+At 5th level, an exarch can imbue one of her weapons with the _[jurist](ref/magic-enh/jurist)_ or
+_[menacing](ref/magic-enh/menacing)_ weapon special ability as a swift action, and may switch
+between these properties as a swift action. When using either special ability, her weapon's critical
+threat range doubles against chaotic creatures. This does not stack with
+_[keen edge](ref/spell/keen-edge),_ [Improved Critical](ref/feat/improved-critical), or similar
+effects. This ability otherwise functions as and replaces [bane](ref/spell/bane).
 
-**Ability:** At will, an exarch can use [detect chaos](ref/spell/detect-chaos).
+## Aura of Repetition (Su) {#aura-of-repetition}
 
-**Replaces:** Detect alignment
+At 8th level, once per day while using her judgment, an exarch can project an aura of repetition, as
+the Toil subdomain power (_Advanced Player's Guide_ 97). If the exarch takes Artifice (Toil) as her
+domain, the save DC of her aura increases by 2 but its duration does not increase. This ability
+replaces her second judgment.
 
-**Fearsome Jurist (Su)**
+## Double Jeopardy (Su) {#double-jeopardy}
 
-**Gained:** At 5th Level
-
-**Replaces:** Bane
-
-**Swift:** An exarch can imbue one of her weapons with the [jurist](ref/magic-enh/jurist) or
-[menacing](ref/magic-enh/menacing) weapon special ability, and may switch between these properties
-as another swift action. When using either special ability, her weapon's critical threat range
-doubles against chaotic creatures. This does not stack with [keen edge](ref/spell/keen-edge),
-[Improved Critical](ref/feat/improved-critical), or similar effects. This ability otherwise
-functions as _[bane](ref/spell/bane)._
-
-**Aura of Repetition (Su)**
-
-**Gained:** At 8th Level
-
-**Replaces:** Second judgment
-
-**Special:** If the exarch takes Artifice (Toil) as her domain, the save DC of her aura increases by
-2 but its duration does not increase.
-
-**Standard:** Once per day while using her judgment, an exarch can project an _aura of repetition,_
-as the Toil subdomain power.
-
-**Double Jeopardy (Su)**
-
-**Gained:** At 12th Level
-
-**Passive:** Whenever an exarch uses her _fearsome jurist_ ability, she may choose to affect two
+At 12th level, whenever an exarch uses her fearsome jurist ability, she may choose to affect two
 weapons, with one gaining the _jurist_ weapon special ability and the other the _menacing_ special
 ability as above. Both special abilities may be combined in a single weapon, whose critical threat
-range doubles. This does not stack with _[keen edge](ref/spell/keen-edge),_ Improved Critical, or
-similar effects.
+range doubles. This does not stack with _[keen edge](ref/spell/keen-edge)_, Improved Critical, or
+similar effects. This ability replaces greater bane.
 
-**Replaces:** Greater bane
+## Aura of Reversion (Su) {#aura-of-reversion}
 
-**Aura of Reversion (Su)**
-
-**Ability:** While using her judgment, an exarch can project a 30-foot-radius
+At 16th level, while using her judgment, an exarch can project a 30-foot-radius
 [emanation](ref/misc/emanation) for a number of rounds per day equal to her inquisitor level. Any
 creature other than the exarch that is using a transmutation effect within this aura at the
 beginning of its turn becomes [sickened](ref/misc/sickened), or sickened and
@@ -101,8 +91,5 @@ beginning of its turn becomes [sickened](ref/misc/sickened), or sickened and
 [change shape](ref/umr/change-shape) ability (Fortitude negates; DC 10 + 1/2 the exarch's level +
 her Wisdom modifier). Continuous effects from permanent magical items do not cause this effect.
 Within the aura, [dispel](ref/spell/dispel-magic) checks against transmutation effects gain a +4
-bonus. This ability cannot be used simultaneously with _aura of repetition._
-
-**Gained:** At 16th Level
-
-**Replaces:** Third judgment
+bonus. This ability cannot be used simultaneously with aura of repetition. This ability replaces her
+third judgment.

@@ -16,9 +16,13 @@ page = "92"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "phantom-presence", level = 4 },
+  { anchor = "trap-saboteur", level = 8 },
+]
 trades = [
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["phantom-presence"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["trap-saboteur"] },
 ]
 +++
 
@@ -30,35 +34,30 @@ burglar has the following class features.
 
 **Prerequisites:** Catfolk
 
-**Phantom Presence (Ex)**
+## Phantom Presence (Ex) {#phantom-presence}
 
-**Ability:** While in dungeon and urban environments, she leaves no trail and cannot be tracked,
+At 4th level, a cat burglar masters stealthy movement and leaves no trace of her passing in dungeons
+and cities. While in dungeon and urban environments, she leaves no trail and cannot be tracked,
 though she can choose to leave behind a trail if she so desires. Furthermore, she can always choose
-to take 10 when making a Stealth check.
+to take 10 when making a Stealth check. This ability replaces uncanny dodge.
 
-**Flavor:** A cat burglar masters stealthy movement and leaves no trace of her passing in dungeons
-and cities.
+## Trap Saboteur (Su) {#trap-saboteur}
 
-**Gained:** At 4th Level
+At 8th level, a cat burglar becomes a master of avoiding and manipulating traps and locks. She can
+attempt to open a lock as a standard action and takes 1/2 the normal amount of time to disable traps
+(minimum 1 round) . When she has bypassed a trap without disarming it, she can also choose to
+suppress its trigger for up to 1 minute. If she does, she can also choose to end this suppression
+prematurely as a free action. This ability replaces improved uncanny dodge.
 
-**Replaces:** Uncanny dodge
+## Rogue Talents {#rogue-talents}
 
-**Trap Saboteur (Su)**
+The following rogue talents complement the cat burglar archetype:
+[fast stealth](ref/talent/fast-stealth), [quick disable](ref/talent/quick-disable) (_Core
+Rulebook_); nimble climber, single-minded appraiser (_Advanced Race Guide_);
+[fast picks](ref/talent/fast-picks) (_Advanced Player's Guide_);
+[terrain mastery](ref/talent/terrain-mastery) (_Ultimate Combat_).
 
-**Ability:** She can attempt to open a lock as a **standard action** and takes 1/2 the normal amount
-of time to disable traps (minimum 1 round). When she has bypassed a trap without disarming it, she
-can also choose to suppress its trigger for up to 1 minute. If she does, she can also choose to end
-this suppression prematurely as a **free action**.
+## Advanced Talents {#advanced-talents}
 
-**Flavor:** A cat burglar becomes a master of avoiding and manipulating traps and locks.
-
-**Gained:** At 8th Level
-
-**Replaces:** Improved uncanny dodge
-
-**These rogue talents complement this archetype:** [Fast picks](ref/talent/fast-picks),
-[fast stealth](ref/talent/fast-stealth), [quick disable](ref/talent/quick-disable),
-[terrain mastery](ref/talent/terrain-mastery)
-
-**These advanced rogue talents complement this archetype:** Another day, fast tumble, hide in plain
-sight
+The following advanced rogue talents complement the cat burglar archetype: another day, fast tumble
+(_Advanced Player's Guide_); hide in plain sight (_Ultimate Combat_).
