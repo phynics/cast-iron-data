@@ -1142,7 +1142,7 @@ goblins-of-golarion	ref/class/oracle	class	Oracle	6	13	uncited	printed		none	2	1
 goblins-of-golarion	ref/class/samurai	class	Samurai	7	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 goblins-of-golarion	ref/class/witch	class	Witch	7	11	uncited	printed		none	4	15,28,31,32										class-hub	S7		yes	yes			
 goblins-of-golarion	ref/race/goblin	race	Goblin	5	5	uncited	printed		none	36	-1,0,1,2,3										race-hub	S9		yes	yes			
-goblins-of-golarion	ref/trait/goblin-bravery	trait	Goblin Bravery	2	2	uncited	body		none	1	16										single-entry	S5		yes	yes			
+goblins-of-golarion	ref/trait/goblin-bravery	trait	Goblin Bravery	2	2	uncited	body		none	1	16							cite	16	printed-under-former-title	single-entry	done		yes	yes			
 gods-and-magic	ref/magic-wondrous/bronze-skinning-knife	item	Bronze Skinning Knife	2	2	review	absent	55	row	0											single-entry	S11			yes		no	
 halflings-of-golarion	ref/race/halfling	race	Halfling	11	17	family-leak	printed		none	35	-1,0,1,2,3	child	ref/racial-trait/halfling/attributes(body),ref/racial-trait/halfling/fearless(body),ref/racial-trait/halfling/halfling-luck(title)								race-hub	S9		yes	yes			
 halflings-of-golarion	ref/racial-trait/halfling/attributes	racial_trait	Attributes	6	10	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
