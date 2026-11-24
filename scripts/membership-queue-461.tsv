@@ -1141,7 +1141,7 @@ goblins-of-golarion	ref/class/gunslinger	class	Gunslinger	7	7	uncited	printed		n
 goblins-of-golarion	ref/class/oracle	class	Oracle	6	13	uncited	printed		none	2	15,31							remove	15	class-options-only	class-hub	done			yes			
 goblins-of-golarion	ref/class/samurai	class	Samurai	7	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 goblins-of-golarion	ref/class/witch	class	Witch	7	11	uncited	printed		none	4	15,28,31,32							remove	15	class-options-only	class-hub	done			yes			
-goblins-of-golarion	ref/race/goblin	race	Goblin	5	5	uncited	printed		none	36	-1,0,1,2,3										race-hub	S9		yes	yes			
+goblins-of-golarion	ref/race/goblin	race	Goblin	5	5	uncited	printed		none	36	-1,0,1,2,3							cite	inside cover	section-printed	race-hub	done		yes	yes			
 goblins-of-golarion	ref/trait/goblin-bravery	trait	Goblin Bravery	2	2	uncited	body		none	1	16							cite	16	printed-under-former-title	single-entry	done			yes			
 gods-and-magic	ref/magic-wondrous/bronze-skinning-knife	item	Bronze Skinning Knife	2	2	review	absent	55	row	0											single-entry	S11			yes		no	
 halflings-of-golarion	ref/race/halfling	race	Halfling	11	17	family-leak	printed		none	35	-1,0,1,2,3	child	ref/racial-trait/halfling/attributes(body),ref/racial-trait/halfling/fearless(body),ref/racial-trait/halfling/halfling-luck(title)					cite	inside cover	section-printed	race-hub	done		yes	yes			
@@ -1860,7 +1860,7 @@ monster-codex	ref/class/bard	class	Bard	4	13	uncited	unaligned		none	0								re
 monster-codex	ref/class/fighter	class	Fighter	5	10	uncited	unaligned		none	0								remove	10	class-options-only	class-hub	done			yes			
 monster-codex	ref/class/ranger	class	Ranger	5	12	uncited	unaligned		none	0								remove	8	class-options-only	class-hub	done			yes			
 monster-codex	ref/race/duergar	race	Duergar	4	5	uncited	unaligned		none	0								remove	42	race-options-only	race-hub	done		yes	yes			
-monster-codex	ref/race/goblin	race	Goblin	4	5	uncited	unaligned		none	0											race-hub	S9		yes	yes			
+monster-codex	ref/race/goblin	race	Goblin	4	5	uncited	unaligned		none	0								remove	102	race-options-only	race-hub	done		yes	yes			
 monster-codex	ref/race/ratfolk	race	Ratfolk	4	6	uncited	unaligned		none	0								remove	174	race-options-only	race-hub	done		yes	yes			
 monster-summoners-handbook	ref/spell/summon-monster-6	spell	Summon Monster VI	2	2	review	absent	18	row	0								resolved	18	expanded-in-row	single-entry	S0			yes			
 monster-summoners-handbook	ref/spell/summon-monster-8	spell	Summon Monster VIII	2	2	review	absent	18	row	0								resolved	18	expanded-in-row	single-entry	S0			yes			
