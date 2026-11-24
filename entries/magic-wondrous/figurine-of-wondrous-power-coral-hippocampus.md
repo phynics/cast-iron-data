@@ -2,7 +2,7 @@
 id = "ref/magic-wondrous/figurine-of-wondrous-power-coral-hippocampus"
 kind = "item"
 title = "Figurine of Wondrous Power (Coral Hippocampus)"
-source_ids = ["ultimate-equipment", "aquatic-adventures", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "ultimate-combat", "pathfinder-70-the-frozen-stars"]
+source_ids = ["ultimate-equipment", "aquatic-adventures", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "ultimate-combat", "pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_coral_hippocampus", path = "json/magic_wondrous_slotless03.json" },
 ]
@@ -21,9 +21,6 @@ page = "26"
 [[sources]]
 publication = "pathfinder-122-into-the-shattered-continent"
 page = "33"
-[[sources]]
-publication = "seers-of-the-drowned-city"
-page = "54"
 [[sources]]
 publication = "ultimate-combat"
 page = "143"
