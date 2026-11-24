@@ -41,12 +41,6 @@ Instead of the normal arcane pool amount, the bladebound magus's arcane pool has
 equal to 1/3 his magus level (minimum 1) plus his Intelligence bonus. This ability changes the
 Arcane Pool class feature and replaces the magus arcana gained at 3rd level.
 
-### Magus Arcana {#magus-arcana}
-
-The following magus arcana complement the bladebound magus archetype:
-[arcane accuracy](ref/arcana/arcane-accuracy), [broad study](ref/arcana/broad-study),
-[dispelling strike](ref/arcana/dispelling-strike), and [reflection](ref/arcana/reflection).
-
 ### Black Blade Basics {#black-blade-basics}
 
 A black blade is bonded to a particular magus, much like a familiar, but in more of a partnership
@@ -177,3 +171,9 @@ usually up to the GM and the needs of the campaign or the adventure, or a GM can
 the weapon's purpose using Table 15–25 on page 534 of the _Core Rulebook_). Some _black blades_ are
 very open about their missions, but most are secretive. Certain sages have speculated that an
 invisible hand or arcane purpose moves these weapons.
+
+## Magus Arcana {#magus-arcana}
+
+The following magus arcana complement the bladebound magus archetype:
+[arcane accuracy](ref/arcana/arcane-accuracy), [broad study](ref/arcana/broad-study),
+[dispelling strike](ref/arcana/dispelling-strike), and [reflection](ref/arcana/reflection).
