@@ -3,7 +3,7 @@ id = "ref/race/elf"
 kind = "race"
 title = "Elf"
 aon = "RacesDisplay.aspx?ItemName=Elf"
-source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide", "heroes-from-the-fringe", "horror-adventures", "advanced-players-guide", "legacy-of-the-first-world", "blood-of-shadows", "pathfinder-124-city-in-the-deep", "legacy-of-dragons", "heroes-of-the-wild", "heroes-of-the-high-court", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide", "advanced-class-guide", "occult-adventures"]
 race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elf", path = "json/races.json" },
@@ -17,6 +17,14 @@ page = "236"
 [[sources]]
 publication = "advanced-race-guide"
 page = "20"
+[[expanded_in]]
+publication = "ultimate-intrigue"
+page = "17"
+via = "ref/class/vigilante"
+[[expanded_in]]
+publication = "ultimate-wilderness"
+page = "31"
+via = "ref/class/shifter"
 
 [fields]
 kind = "none"
