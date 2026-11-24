@@ -34,7 +34,7 @@ fighting technique without having to meet the technique's prerequisites (includi
 Fighting Technique feat). In addition, a warpriest can give up a major blessing to gain the advanced
 benefit without meeting its prerequisites.
 
-### Abadar's Crossbow
+### Abadar's Crossbow {#sec-abadar-s-crossbow}
 
 [Abadar](ref/faith/abadar) teaches complex crossbow techniques.\
 **Initial Benefit:** You can attempt a ranged [steal](ref/rule/steal) combat maneuver check with a
@@ -50,7 +50,7 @@ your bolt pins the target's clothing (or feathers, hide, or the like) to the sur
 target from leaving that space until it breaks free by destroying the bolt or removing it with a
 successful Strength check (DC = the result of your combat maneuver check to pin it).
 
-### Asmodeus's Mandate
+### Asmodeus's Mandate {#sec-asmodeus-s-mandate}
 
 Although soldiers and mercenaries alike in Cheliax claim that the martial techniques detailed within
 Wrath and Punishment, the most well-known fighting manual of the Church of
@@ -71,7 +71,7 @@ Dexterity bonus to AC is also hindered by the attack. You can attempt a dirty tr
 check as a swift action that doesn't provoke an attack of opportunity immediately after damage from
 the attack is resolved.
 
-### Calistria's Poisoned Lash
+### Calistria's Poisoned Lash {#sec-calistria-s-poisoned-lash}
 
 [Calistria](ref/faith/calistria) inspires creative ways to poison foes.\
 **Optional Replacement:** A chaotic neutral [rogue](ref/class/rogue) or [slayer](ref/class/slayer)
@@ -87,7 +87,7 @@ advanced talent with the following advanced benefit even if she doesn't meet the
 of the same poison to a whip at a time. Foes are exposed to only 1 dose of poison from any one
 attack.
 
-### Cayden Cailean's Blade and Tankard
+### Cayden Cailean's Blade and Tankard {#sec-cayden-cailean-s-blade-and-tankard}
 
 [Cayden Cailean](ref/faith/cayden-cailean) is famous for wading into battle with a tankard in his
 off hand.\
@@ -112,7 +112,7 @@ tricks with tankards. The effects of such a dirty trick lasts for 1d4 rounds + 1
 points by which the result of your combat maneuver check exceeds the target's CMD; a standard action
 is required for the target to remove this penalty.
 
-### Desna's Shooting Star
+### Desna's Shooting Star {#sec-desna-s-shooting-star}
 
 Among the divine fighting manuals of the Inner Sea, few are as ancient as Clamor of the Spheres, a
 collection of fighting techniques favored by [Desna's](ref/faith/desna) faithful. True to its name,
@@ -142,7 +142,7 @@ strike, as do other damage bonuses, such as a bard's
 [inspire competence](ref/performance/inspire-competence) bonus.
 [Damage reduction](ref/rule/damage-reduction) and resistances apply separately to each strike.
 
-### Erastil's Distracting Shot
+### Erastil's Distracting Shot {#sec-erastil-s-distracting-shot}
 
 Sometimes used as a companion piece to the Parables of Erastil, the lesser-known Horns of the Elk is
 a manual completely dedicated to archery. Lacking the folktales that the Parables are celebrated
@@ -166,7 +166,7 @@ following advanced benefit without meeting its prerequisites.\
 a +4 Armor Class bonus to the selected adjacent ally and a +2 Armor Class bonus to all other allies
 within 30 feet of the selected adjacent ally against attacks by the targeted creature.
 
-### Gorum's Swordmanship
+### Gorum's Swordsmanship {#sec-gorum-s-swordmanship}
 
 [Gorum](ref/faith/gorum) teaches devastating greatsword techniques.\
 **Optional Replacement:** A chaotic neutral [barbarian](ref/class/barbarian) or
@@ -188,7 +188,25 @@ doesn't meet the prerequisites.\
 continuous damage from an injury for the purpose of determining whether a target must attempt a
 [concentration](ref/rule/concentration) check to cast spells.
 
-### Irori's Perfected Fist
+### Iomedae's Inspiring Sword {#sec-iomedae-s-inspiring-sword}
+
+[Iomedae](ref/faith/iomedae) demonstrates how to turn a [longsword](ref/eq-weapon/longsword) into a
+shining beacon of hope.\
+**Optional Replacement:** A [paladin](ref/class/paladin) who worships Iomedae can replace a mercy
+with this initial benefit, even if she doesn't meets its prerequisites.\
+**Initial Benefit:** While wielding a longsword, you can perform an impressive display of prowess as
+a full-round action. All allies within 30 feet who can see your display gain a +2 sacred bonus on
+attack rolls, saving throws, and skill checks for 1 round + 1 round per 5 points of base attack
+bonus you have.\
+**Advanced Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),
+[Weapon Focus](ref/feat/weapon-focus) (longsword), base attack bonus +10.\
+**Optional Replacement:** A paladin of at least 9th level who worships Iomedae can replace a mercy
+with the following advanced benefit, even if she doesn't meet the benefit's prerequisites.\
+**Advanced Benefit:** As a standard action or at the end of a charge, you can make an attack against
+a foe with a longsword. If you succeed, you grant all allies who can see your attack a +2 sacred
+bonus on attack rolls, saving throws, and skill checks for 1 minute.
+
+### Irori's Perfected Fist {#sec-irori-s-perfected-fist}
 
 Practically synonymous with [Irori](ref/faith/irori) and his faith, The Woven Fist is among the best
 known of all diving fighting manuals. Many learned monks were taught their first martial techniques
@@ -215,7 +233,7 @@ you choose to deal the average amount of damage. If you critically hit a creatur
 ability, you automatically inflict maximum weapon damage for that critical hit (although you must
 still roll sneak attack dice or any other dice-based additional damage).
 
-### Lamashtu's Carving
+### Lamashtu's Carving {#sec-lamashtu-s-carving}
 
 One of the grisliest divine fighting manuals is Fecundity of Corpses, a harrowing tome that depicts
 the fighting styles favored by the followers of [Lamashtu](ref/faith/lamashtu), the Mother of
@@ -239,7 +257,32 @@ kukri, that creature must succeed at a Fortitude save (DC = 10 + your base attac
 and a creature that successfully saves against this staggering effect is immune to this effect for 1
 round.
 
-### Rovagug's Thunder
+### Norgorber's Silent Shiv {#sec-norgorber-s-silent-shiv}
+
+Entombed within a volume known as The Reaper's Hand, the divine fighting techniques of
+[Norgorber](ref/faith/norgorber) are among the most elusive in the Inner Sea region, but are
+theorized to cover the techniques that acolytes of Father Skinsaw use to move and strike unseen.
+Copies of this manual are rare, and those who spill its secrets to anyone unworthy often meet a
+swift and bloody end at the hands of the faith's inquisitors.\
+**Optional Prerequisite:** A neutral evil [rogue](ref/class/rogue) of at least 2nd level who
+worships Norgorber can replace a rogue talent with the following initial benefit.\
+**Initial Benefit:** Whenever you attack an opponent that is completely unaware of your presence
+(such as when you are using the Stealth skill or invisible), your attack deals damage as if you were
+[one size category larger](ref/misc/damage-die-adjustments). This benefit applies only to the first
+attack that you make against the target, and only with attacks made with light or one-handed weapons
+intended for creatures of your size (including thrown attacks).\
+**Advanced Prerequisites:** [Divine Fighting Technique](ref/feat/divine-fighting-technique), Stealth
+10 ranks.\
+**Optional Advanced Prerequisite:** A neutral evil rogue of at least 10th level who worships
+Norgorber can replace an advanced rogue talent with the following advanced benefit without meeting
+its prerequisites.\
+**Advanced Benefit:** At the start of each round, choose one opponent that you can see and attempt a
+Stealth check as a swift action. If the result of your check exceeds the target's CMD, treat the
+target as if it were completely unaware of your presence for the purpose of the initial benefit of
+this divine fighting technique. If you beat the target's CMD by 5 or more, you also treat it as
+being completely unaware of your presence for the purposes of all class features and feats you have.
+
+### Rovagug's Thunder {#sec-rovagug-s-thunder}
 
 Most copies of Ravage and Ruin, the divine fighting manual of the Rough Beast
 [Rovagug](ref/faith/rovagug), are scrawled in blood upon flensed skins by orc priests - and indeed
@@ -264,7 +307,7 @@ an amount of the target's [hardness](ref/umr/hardness) or
 attack roll. This benefit stacks with [Penetrating Strike](ref/feat/penetrating-strike) and
 [Greater Penetrating Strike](ref/feat/greater-penetrating-strike).
 
-### Sarenrae's Mercy
+### Sarenrae's Mercy {#sec-sarenrae-s-mercy}
 
 Although the Dawnflower is the goddess of healing and redemption, she is not a goddess of peace, and
 her followers are taught that combat may be the only way to ensure the safety of those who look to
@@ -290,7 +333,7 @@ that dealt nonlethal damage was from a scimitar, you instead regain 2d6 hit poin
 benefit of this healing only once per round, regardless of how many successful attacks you make with
 the weapon.
 
-### Torag's Patient Strikes
+### Torag's Patient Strikes {#sec-torag-s-patient-strikes}
 
 Copies of Lessons of the Father, the divine fighting manual of [Torag](ref/faith/torag), are
 somewhat rare outside of the Five Kings Mountains, as tradition mandates that all copies of Lessons
@@ -314,7 +357,7 @@ feats. If you confirm a critical hit with an opportunistic strike, you can attem
 [disarm](ref/rule/disarm) or [trip](ref/rule/trip) combat maneuver check against the target as a
 free action - this combat maneuver does not provoke an attack of opportunity.
 
-### Urgathoa's Hunger
+### Urgathoa's Hunger {#sec-urgathoa-s-hunger}
 
 The grisly content of Pallid Cravings can be found in many places where the Pallid Princess
 maintains a significant presence, especially within the undead nation of Geb. The pages of this
@@ -335,7 +378,7 @@ saving throws against all diseases with which it is currently afflicted. Any fai
 target to immediately take the effects of that disease, while a successful save does not count
 toward the number of consecutive saves that the target must succeed at in order to cure the disease.
 
-### Zon-Kuthon's Flensing
+### Zon-Kuthon's Flensing {#sec-zon-kuthon-s-flensing}
 
 [Zon-Kuthon](ref/faith/zon-kuthon) invites all mortals to join in inflicting and suffering pain.\
 **Initial Benefit:** Once per round, when you hit a foe with a

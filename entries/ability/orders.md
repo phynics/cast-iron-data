@@ -8,6 +8,9 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
+[[sources]]
+publication = "ultimate-combat"
+page = "21"
 
 [fields]
 kind = "none"
@@ -25,7 +28,6 @@ must then follow the edicts of his new order for one entire level without gainin
 that order. Once accomplished, he gains all of the bonuses from his new order. Note that the names
 of these orders might vary depending upon the campaign setting or GM's preference.
 
-**Sources:** Ultimate Combat\
 Certain orders marked with an asterisk (\*) are much more likely to be chosen by
 [Samurai](ref/class/samurai) than by Cavaliers.
 

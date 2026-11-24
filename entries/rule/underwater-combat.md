@@ -2,7 +2,7 @@
 id = "ref/rule/underwater-combat"
 kind = "rule"
 title = "Underwater Combat"
-source_ids = ["core-rulebook", "aquatic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underwater_combat", path = "json/rules_gm08.json" },
 ]

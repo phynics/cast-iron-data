@@ -2,7 +2,7 @@
 id = "ref/faith/norgorber"
 kind = "rule"
 title = "Norgorber"
-source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfinder-59-the-price-of-infamy"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "norgorber", path = "json/faiths6.json" },
 ]
@@ -151,38 +151,7 @@ worshiped on the winter solstice)\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Norgorber's Silent Shiv
->
-> **Sources:** Divine Anthology
->
-> Entombed within a volume known as The Reaper's Hand, the divine fighting techniques of Norgorber
-> are among the most elusive in the Inner Sea region, but are theorized to cover the techniques that
-> acolytes of Father Skinsaw use to move and strike unseen. Copies of this manual are rare, and
-> those who spill its secrets to anyone unworthy often meet a swift and bloody end at the hands of
-> the faith's inquisitors.
->
-> **Optional Replacement:** A neutral evil rogue of at least 2nd level who worships Norgorber can
-> replace a rogue talent with the following initial benefit.
->
-> **Initial Benefit:** Whenever you attack an opponent that is completely unaware of your presence
-> (such as when you are using the Stealth skill or invisible), your attack deals damage as if you
-> were [one size category larger](ref/misc/damage-die-adjustments). This benefit applies only to the
-> first attack that you make against the target, and only with attacks made with light or one-handed
-> weapons intended for creatures of your size (including thrown attacks).
->
-> **Advanced Prerequisite:** [Divine Fighting Technique](ref/feat/divine-fighting-technique), 10
-> ranks in Stealt/stealth).
->
-> **Optional Advanced Replacement:** A neutral evil rogue of at least 10th level who worships
-> Norgorber can replace an advanced rogue talent with the following advanced benefit without meeting
-> its prerequisites.
->
-> **Advanced Benefit:** At the start of each round, choose one opponent that you can see and attempt
-> a Stealth check as a swift action. If the result of your check exceeds the target's CMD, treat the
-> target as if it were completely unaware of your presence for the purpose of the initial benefit of
-> this divine fighting technique. If you beat the target's CMD by 5 or more, you also treat it as
-> being completely unaware of your presence for the purposes of all class features and feats you
-> have.
+[Norgorber's Silent Shiv](ref/feat/divine-fighting-technique#sec-norgorber-s-silent-shiv)
 
 ## Follower Options
 

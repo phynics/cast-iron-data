@@ -9,6 +9,21 @@ provenance = [
 [[sources]]
 publication = "advanced-players-guide"
 page = "326"
+[[sources]]
+publication = "adventurers-armory"
+page = "30"
+[[sources]]
+publication = "wilderness-origins"
+page = "23"
+[[sources]]
+publication = "occult-mysteries"
+page = "36-37"
+[[sources]]
+publication = "cohorts-and-companions"
+page = "18"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "2-3"
 
 [fields]
 kind = "none"
@@ -58,27 +73,23 @@ three traits and one drawback.
 
 Other types of traits exist, introduced in various supplemental sources.
 
-**Sources:** Adventurer's Armory\
 **Equipment Traits:** Many adventurers come to rely on certain gear to the extent that the equipment
 and the adventurer each become something more when the other is present. The symbiosis between
 adventurers and their gear is varied and complex. Equipment traits are keyed to specific types of
 equipment. They represent an unusual knack for a particular kind of equipment (such as splash
 weapons) or for a specific item (such as a family heirloom sword).
 
-**Sources:** Wilderness Origins\
 **Mount Traits:** Each of these mount traits detail a specific breed of riding animal and grant an
 additional boon to the mount or its rider. The trait granted to a mount counts against a character's
 total maximum number of traits. If a character replaces his mount, he effectively loses the old
 trait and gains the new mount's trait.
 
-**Sources:** Occult Mysteries\
 **Cosmic Traits:** In Avistan and Garund, [the Cosmic Caravan](ref/rule/the-cosmic-caravan) is the
 astrological tool of choice for most diviners. Though some cultures grant the Caravan religious
 connotations, it is an inherently secular system, available for use by characters of all cultures,
 alignments, and faiths. Players who know their characters' birth dates could incorporate the
 appropriate cosmic traits.
 
-**Sources:** Cohorts and Companions\
 **Family Traits:** This trait type allows you to inject a mechanical edge into the dynamics of your
 family. Unlike other trait types, **you are not limited to a single family trait per character.**
 Many of these traits work only on a member of your family, or require another character with the
@@ -88,7 +99,6 @@ traits could in fact be another group with strong interpersonal ties and common 
 martial arts school, army unit, mutual protection society, or criminal gang. In this case, however,
 they become Social traits, which limits the character to one trait.
 
-**Sources:** Chronicle of Legends\
 **Exemplar Traits:** A character can have only one exemplar trait, and selecting an exemplar trait
 takes the place of two regular traits. Each exemplar trait is tied to a trait category, such as
 combat traits or regional traits; a character with an exemplar trait is no longer restricted to a

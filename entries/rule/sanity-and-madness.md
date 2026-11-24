@@ -2,7 +2,7 @@
 id = "ref/rule/sanity-and-madness"
 kind = "rule"
 title = "Sanity and Madness"
-source_ids = ["game-mastery-guide", "horror-adventures"]
+source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanity_and_madness", path = "json/rules_gm07.json" },
 ]

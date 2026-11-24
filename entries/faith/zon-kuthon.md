@@ -2,7 +2,7 @@
 id = "ref/faith/zon-kuthon"
 kind = "rule"
 title = "Zon-Kuthon"
-source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", "pathfinder-11-skeletons-of-scarwall"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-11-skeletons-of-scarwall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zon_kuthon", path = "json/faiths9.json" },
 ]
@@ -139,23 +139,7 @@ several days, first new moon of the year)\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Zon-Kuthon's Flensing
->
-> **Sources:** Weapon Master's Handbook
->
-> Zon-Kuthon invites all mortals to join in inflicting and suffering pain.
->
-> **Initial Benefit:** Once per round, when you hit a foe with a spiked chain, you can twist the
-> chain so it painfully flenses both of you. You and your target are both
-> [sickened](ref/misc/sickened) for 1 round, and the target must succeed at a Fortitude save (DC =
-> 10 + 1/2 your character level + your Wisdom bonus) or be sickened for an additional 1d4+1 rounds.
->
-> **Advanced Prerequisite:** Base Attack Bonus +10.
->
-> **Advanced Benefit:** Whenever you sicken a foe with pain using a spiked chain (whether by
-> flensing, as a [dirty trick](ref/rule/dirty-trick) combat maneuver, or otherwise), the victim must
-> succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Wisdom bonus) or be
-> [nauseated](ref/misc/nauseated) for the first round of the duration.
+[Zon-Kuthon's Flensing](ref/feat/divine-fighting-technique#sec-zon-kuthon-s-flensing)
 
 ## Follower Options
 

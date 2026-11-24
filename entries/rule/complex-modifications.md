@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "construct-handbook"
 page = "8"
+[[sources]]
+publication = "ultimate-magic"
+page = "114-116"
 
 [fields]
 kind = "none"
@@ -29,8 +32,6 @@ reactivate a construct's alarm feature as a standard action. The maximum distanc
 alarm can be increased by paying an additional 250 gp for each additional mile of maximum distance.
 
 ### Bioconstruct Modification
-
-**Sources:** Ultimate Magic pg 114
 
 |Type|Cost|Requirements|CR Increase|
 | --- | --- | --- | --- |
@@ -65,8 +66,6 @@ upgrade, only one is damaged. The GM randomly determines the damaged organ.
 
 ### Construct Armor
 
-**Sources:** Ultimate Magic pg 114
-
 |Type|Cost|Requirements|CR Increase|
 | --- | --- | --- | --- |
 |Complex|35,000 gp|[Craft Construct](ref/feat/craft-construct), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), the construct modified must be the same size as the creator|+1|
@@ -87,8 +86,6 @@ The construct's wearer retains his base attacks and saves. Construct armor count
 modifiers to AC, and chance of arcane spell failure.
 
 ### Construct Limb
-
-**Sources:** Ultimate Magic pg 114
 
 |Type|Cost|Requirements|CR Increase|
 | --- | --- | --- | --- |
@@ -156,8 +153,6 @@ retrieve an object as a move action. This extradimensional space otherwise funct
 
 ### Crafter's Eyes
 
-**Sources:** Ultimate Magic pg 114
-
 |Type|Cost|Requirements|CR Increase|
 | --- | --- | --- | --- |
 |Complex|8,000 gp|[Craft Construct](ref/feat/craft-construct), [scrying](ref/spell/scrying)|None|
@@ -188,8 +183,6 @@ constructs and constructs unable to communicate can receive orders but not respo
 mental connection.
 
 ### Rune Carved
-
-**Sources:** Ultimate Magic pg 115
 
 |Type|Cost|Requirements|CR Increase|
 | --- | --- | --- | --- |
@@ -320,8 +313,6 @@ fast healing value by 2, up to a maximum equal to double the construct's origina
 value.
 
 ### Shatter Stash
-
-**Sources:** Ultimate Magic pg 115
 
 |Type|Cost|Requirements|CR Increase|
 | --- | --- | --- | --- |

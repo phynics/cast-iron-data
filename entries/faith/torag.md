@@ -2,7 +2,7 @@
 id = "ref/faith/torag"
 kind = "rule"
 title = "Torag"
-source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfinder-62-curse-of-the-ladys-light"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torag", path = "json/faiths8.json" },
 ]
@@ -152,34 +152,7 @@ kind = "none"
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Torag's Patient Strikes
->
-> **Sources:** Divine Anthology
->
-> Copies of Lessons of the Father, the divine fighting manual of Torag, are somewhat rare outside of
-> the Five Kings Mountains, as tradition mandates that all copies of Lessons of the Father must be
-> scribed by hand in Dwarven on iron sheets and bound between slabs of stone hand-carved by a cleric
-> of Torag. As a result, these tomes are somewhat cumbersome to transport (even the smallest copy of
-> the book weighs 50 pounds, and most exceed 100 pounds in weight). Those who have mastered the
-> Lessons of the Father are highly respected within the faith.
->
-> **Initial Benefit:** Whenever you wield a warhammer, add your Wisdom bonus to the total number of
-> attacks of opportunity that you can make per round. These additional attacks of opportunity don't
-> stack with those granted by [Combat Reflexes](ref/feat/combat-reflexes), but this benefit counts
-> as Combat Reflexes for the purpose of satisfying feat prerequisites and prestige class
-> requirements. In addition, you can make attacks of opportunity while you're flat-footed.
->
-> **Advanced Prerequisite:** [Vital Strike](ref/feat/vital-strike),
-> [Divine Fighting Technique](ref/feat/divine-fighting-technique),
-> [Weapon Focus](ref/feat/weapon-focus) (warhammer), Base Attack Bonus +10.
->
-> **Advanced Benefit:** Once per round, before you make an attack of opportunity with a warhammer,
-> you can declare an opportunistic strike. If the attack hits, you can apply the effects of your
-> Vital Strike feat. You can apply the [Improved Vital Strike](ref/feat/improved-vital-strike) or
-> [Greater Vital Strike](ref/feat/greater-vital-strike) feat instead if you have either of those
-> feats. If you confirm a critical hit with an opportunistic strike, you can attempt a disarm or
-> trip combat maneuver check against the target as a free action - this combat maneuver does not
-> provoke an attack of opportunity.
+[Torag's Patient Strikes](ref/feat/divine-fighting-technique#sec-torag-s-patient-strikes)
 
 ## Follower Options
 

@@ -2,7 +2,7 @@
 id = "ref/faith/urgathoa"
 kind = "rule"
 title = "Urgathoa"
-source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfinder-47-ashes-at-dawn"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urgathoa", path = "json/faiths8.json" },
 ]
@@ -146,33 +146,7 @@ regional holidays\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Urgathoa's Hunger
->
-> **Sources:** Divine Anthology
->
-> The grisly content of Pallid Cravings can be found in many places where the Pallid Princess
-> maintains a significant presence, especially within the undead nation of Geb. The pages of this
-> manuscript are said to be tattooed onto a humanoid and flensed off while the victim is still
-> alive; the swaths of skin are then carefully preserved for presentation in the book. Pallid
-> Cravings details hundreds of ways for a member of Urgathoa's faithful to satisfy her depraved
-> urges for an opponent's flesh and blood while in battle.
->
-> **Initial Benefit:** A number of times per day equal to your Wisdom bonus, you can feast upon the
-> life essence of a creature that you hit with a scythe. Activating this ability is a swift action.
-> When you do so, you gain a number of [temporary hit points](ref/rule/temporary-hit-points) equal
-> to the damage you dealt with the scythe attack. These temporary hit points last for 1 minute and
-> don't stack.
->
-> **Advanced Prerequisite:** [Divine Fighting Technique](ref/feat/divine-fighting-technique), 10
-> ranks in [Heal](ref/skill/heal), Base Attack Bonus +7.
->
-> **Advanced Benefit:** A number of times per day equal to your Wisdom bonus, you can exacerbate any
-> lingering contagions within a target's body upon making a successful melee attack with a scythe.
-> Activating this ability is a swift action, and causes the target to immediately attempt additional
-> saving throws against all diseases with which it is currently afflicted. Any failed saves cause
-> the target to immediately take the effects of that disease, while a successful save does not count
-> toward the number of consecutive saves that the target must succeed at in order to cure the
-> disease.
+[Urgathoa's Hunger](ref/feat/divine-fighting-technique#sec-urgathoa-s-hunger)
 
 ## Follower Options
 

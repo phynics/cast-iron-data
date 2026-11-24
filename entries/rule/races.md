@@ -12,6 +12,9 @@ page = "20"
 [[sources]]
 publication = "advanced-race-guide"
 page = "8"
+[[sources]]
+publication = "advanced-players-guide"
+page = "8"
 
 [fields]
 kind = "none"
@@ -60,7 +63,6 @@ all of their abilities are roughly equal and balanced.
 
 ### Favored Class Bonuses
 
-**Sources:** Advanced Player's Guide pg 8\
 The final section for each racial description describes alternative benefits for members of that
 race taking certain classes as a favored class. The normal benefit of having a favored class is
 simple and effective: your character gains one extra hit point or one extra skill rank each time she

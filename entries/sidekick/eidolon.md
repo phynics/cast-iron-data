@@ -10,6 +10,9 @@ provenance = [
 publication = "advanced-players-guide"
 page = "58"
 [[sources]]
+publication = "ultimate-magic"
+page = "74-75"
+[[sources]]
 publication = "cohorts-and-companions"
 page = "9"
 
@@ -209,7 +212,6 @@ later level.
 
 ### Eidolon Models
 
-**Sources:** Ultimate Magic pg 74\
 An eidolon can look like almost anything its summoner desires. Eidolon models are pre-built examples
 of base forms and evolutions that provide an easy guide to building an eidolon with a specific
 appearance or theme.

@@ -1,0 +1,8 @@
+hub	subtopic	problem	entries_with_this_record	chosen
+ref/rule/advanced-gm-topics	infiltration	collision-resolved	ref/rule/infiltration ref/stare/infiltration	ref/rule/infiltration
+ref/rule/basics	alignment	collision-resolved	ref/misc/alignment ref/rule/alignment	ref/rule/alignment
+ref/rule/basics	magic	collision-resolved	ref/blessing/magic ref/rule/magic	ref/rule/magic
+ref/rule/gamemastery	weather	collision-resolved	ref/blessing/weather ref/domain/weather ref/rule/weather	ref/rule/weather
+ref/rule/optional-subsystems	influence	collision-resolved	ref/rule/influence ref/trait/influence	ref/rule/influence
+ref/rule/optional-subsystems	primal_magic	collision-resolved	ref/exploit/primal-magic ref/rule/primal-magic	ref/rule/primal-magic
+ref/rule/specific-rulesets	leadership	collision-resolved	ref/feat/leadership ref/rule/leadership	ref/rule/leadership

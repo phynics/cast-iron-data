@@ -8,6 +8,9 @@ provenance = [
 ]
 [[sources]]
 publication = "core-rulebook"
+[[sources]]
+publication = "ultimate-magic"
+page = "70"
 
 [fields]
 kind = "none"
@@ -17,7 +20,6 @@ The following bloodlines represent only some of the possible sources of power th
 draw upon. Unless otherwise noted, most sorcerers are assumed to have the
 [arcane](ref/sorcbloodline/arcane) bloodline.
 
-**Sources:** Ultimate Magic\
 A **wildblooded** sorcerer has a mutated version of a more common bloodline, with one arcana and at
 least one bloodline power that are different from those of an unmutated bloodline. When creating a
 wildblooded sorcerer, select an existing bloodline, then select one of the mutated bloodlines
