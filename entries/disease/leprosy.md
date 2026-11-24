@@ -23,6 +23,6 @@ kind = "none"
 
 **Frequency:** 1/week
 
-**Effect:** Charisma damage 1d2
+**Effect:** 1d2 Cha damage
 
 **Cure:** 2 consecutive saves

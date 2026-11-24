@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/2 days
 
-**Effect:** Dexterity damage 1d2 and Charisma damage 1d2
+**Effect:** 1d2 Dex damage and 1d2 Cha damage
 
 **Cure:** 2 consecutive saves
 

@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Dexterity damage 1d3 and speed reduced by 5 feet; creatures reduced to 0 feet are
+**Effect:** speed reduced by 5 feet and 1d3 Dex damage, creatures reduced to speed 0 feet are
 permanently paralyzed
 
 **Cure:** 2 consecutive saves, or completely skinning or burning the affected area (inflicting 1d8

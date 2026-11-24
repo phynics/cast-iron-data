@@ -27,7 +27,7 @@ kind = "none"
 other diseases, constructs are not immune to eidite sickness. After 3 days of being affected by the
 disease, a construct gains the advanced simple template and loses any programming or instructions
 given to it, effectively going berserk, and attacks all living creatures in sight until it is
-destroyed or the disease is removed.
+destroyed or the disease is removed
 
 **Cure:** 2 consecutive saves
 

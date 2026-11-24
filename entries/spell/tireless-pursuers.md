@@ -18,7 +18,6 @@ page = "249"
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Hunter", level = 3 },
   { class = "Inquisitor", level = 4 },
   { class = "Ranger", level = 3 },
 ]
@@ -36,7 +35,7 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 3: Hunter, Ranger\
+Level: 3: Ranger\
 4: Inquisitor
 Casting time: 1 standard action
 Components: V, S, M (a hard biscuit broken into pieces)

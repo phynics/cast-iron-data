@@ -57075,6 +57075,14 @@ path = "ref/carried/advanced-players-guide/spells/tireless-pursuers"
 reason = "duplicate of ref/spell/tireless-pursuers"
 
 [[rejected]]
+path = "ref/carried/advanced-players-guide/rules/new-rules/traits/campaign-traits/favored-son-daughter"
+reason = "duplicate of ref/trait/favored-son-or-daughter"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan"
+reason = "duplicate of ref/trait/calistrian-courtesan"
+
+[[rejected]]
 path = "ref/eq-reagent/dragons-gut"
 reason = "duplicate of ref/eq-misc/dragons-gut"
 

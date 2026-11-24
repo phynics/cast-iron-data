@@ -23,6 +23,6 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Strength damage 1d4
+**Effect:** 1d4 Str damage
 
 **Cure:** 3 consecutive saves

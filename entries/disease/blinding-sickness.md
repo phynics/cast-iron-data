@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** 1d4 Str damage; if more than 2 Str damage, target must make an additional Fort save or
+**Effect:** 1d4 Str damage, if more than 2 Str damage, target must make an additional Fort save or
 be permanently blinded
 
 **Cure:** 2 consecutive saves
