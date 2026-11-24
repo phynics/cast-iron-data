@@ -160,7 +160,7 @@ ref/arc-fighter/brawler	Menacing Stance (Ex)	menacing-stance	yes	7	print	print		
 ref/arc-fighter/brawler	No Escape (Ex)	no-escape	yes	9	print	print		44	e5b0f0315e77edfcc6d14cfb56f8a286be273d2eb1ca3abc00226932b2b58eb1
 ref/arc-fighter/brawler	Stand Still	stand-still	yes	13	print	print	link not placed: half	44	b1bdcd10bb6034c550471db4e803ead9db5e1a21ea604596b21ee59b946a1f61
 ref/arc-fighter/brawler	Weapon Mastery (Ex)	weapon-mastery	yes		draft	draft		44	0a4a8e651789f9bc51200809dee94b7859db39841dae3a41d72147292e9fe041
-ref/arc-fighter/brawler	Expanded Weapon Groups	expanded-weapon-groups	yes		print	print	head printed, not in the import: added from print	45	
+ref/arc-fighter/brawler	Expanded Weapon Groups	expanded-weapon-groups	yes			hold	structural, owner question: print sets the weapon groups as bold heads (Axes, Bows, ...) under Expanded Weapon Groups; they are options, not class features	45	
 ref/arc-fighter/brawler	Axes	axes	yes		print	print	head printed, not in the import: added from print; print asterisks without their key dropped	45	
 ref/arc-fighter/brawler	Blades, Heavy	blades-heavy	yes		print	print	head printed, not in the import: added from print; print asterisks without their key dropped	45	
 ref/arc-fighter/brawler	Blades, Light	blades-light	yes		print	print	head printed, not in the import: added from print; print asterisks without their key dropped	45	
@@ -484,34 +484,7 @@ ref/arc-wizard/siege-mage	Siege Engineer	siege-engineer	yes	1		hold	checker: [fi
 ref/arc-wizard/siege-mage	Siege Engine Bond (Su)	siege-engine-bond	yes	1	print	print	hand review (ruling 14, print): print's wording is taken: the values that the corpus restates as rows, fractions or a longer text equal print's, checked sentence by sentence; where print has a rule or value that the corpus lacks, print wins.	74	0e25bb7463f663bd8d6b25914a43067c1238b195057e99b671a319db6e1786b0
 ref/arc-wizard/siege-mage	Empower Siege Engine (Su)	empower-siege-engine	yes		print	print	ruling 10: corpus text that print does not have is dropped: “The siege mage gains the [detect magic](ref/spell/detect-magic) …”	74	0eb450a99e089e48a4eab335826537ed27478d478a540be87bfbc47fdca67a77
 ref/arc-wizard/siege-mage	Siege School	siege-school	yes		print	print		74	f4099fae38aff55c0edac23544b1cce4bc16f322a26566b66b681e23ee090971
-ref/arc-wizard/spellslinger	Arcane Gun (Su)	arcane-gun	yes			hold	checker: [fields] trades = "replaces: Cantrips" disagrees with the trade sentences of the feature `mage-bullets` = "replaces: cantrips, but the spellslinger gains the detect magic and read magic cantrips and places them in his spellbook" (line 101)	74	9ad591e39ed975701375eaa58d78b5b4efb68e80a1650a8993f54866e4d40a9a
+ref/arc-wizard/spellslinger	Arcane Gun (Su)	arcane-gun	yes			hold	checker: [fields] trades = "replaces: Cantrips" disagrees with the trade sentences of the feature `mage-bullets` = "replaces: cantrips, but the spellslinger gains the detect magic and read magic cantrips and places them in his spellbook" (line 74)	74	9ad591e39ed975701375eaa58d78b5b4efb68e80a1650a8993f54866e4d40a9a
 ref/arc-wizard/spellslinger	Gunsmith	gunsmith	yes		print	print	printed cross-reference left out	75	689dac17add063c9016a7878bedf74bed977e2fa80466fb82d117e6ab6e91e08
 ref/arc-wizard/spellslinger	Mage Bullets (Su)	mage-bullets	yes		print	print	ruling 10: corpus text that print does not have is dropped: “The spellslinger gains the [detect magic](ref/spell/detect-magic) and …”	75	5584496ace97a30f690405c4579b6b3f8f3172fab4b73101bf16a90a5438bb34
 ref/arc-wizard/spellslinger	School of the Gun	school-of-the-gun	yes		print	print		75	55d94cb816e0f1ab43f7d273150688a561bf3791cab7356897d5a6b8d8e53ee2
-ref/arc-wizard/spellslinger	2 F eats	2-f-eats	yes		print	print	head printed, not in the import: added from print	76	
-ref/arc-wizard/spellslinger	T he ettin's enormous mace slammed into the packed- dirt floor of the arena, its curving spikes digging deep furrows as it rebounded. Already airborne, Alain avoided the clumsy swing easily, yet could still imagine those same furrows torn through his flesh. Against his will, the mercenary's gaze flicked up toward the stands, past the blank-eyed, poxy faces of the cheering peasants, up to the shaded gallery where the duchess sat. She met his eyes and smiled. Conniving wench. When she'd asked him to be her champion, he'd thought she meant in some petty squabble of honor—or maybe just for the night. Stupid. Behind him, two heads screamed.	t-he-ettin-s-enormous-mace-slammed-into-the-packed-dirt-floor-of-the-arena-its-curving-spikes-digging-deep-furrows-as-it-rebounded-already-airborne-alain-avoided-the-clumsy-swing-easily-yet-could-still-imagine-those-same-furrows-torn-through-his-flesh-against-his-will-the-mercenary-s-gaze-flicked-up-toward-the-stands-past-the-blank-eyed-poxy-faces-of-the-cheering-peasants-up-to-the-shaded-gallery-where-the-duchess-sat-she-met-his-eyes-and-smiled-conniving-wench-when-she-d-asked-him-to-be-her-champion-he-d-thought-she-meant-in-some-petty-squabble-of-honor-or-maybe-just-for-the-night-stupid-behind-him-two-heads-screamed	yes		print	print	head printed, not in the import: added from print	77	
-ref/arc-wizard/spellslinger	Feats	feats	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	TYPES OF FEATS	types-of-feats	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	Combat Feats	combat-feats	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	Critical Feats	critical-feats	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	Grit Feats	grit-feats	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	Metamagic Feats	metamagic-feats	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	Performance Feats	performance-feats	yes		print	print	head printed, not in the import: added from print; printed cross-reference left out	78	
-ref/arc-wizard/spellslinger	Style Feats	style-feats	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	Boar Style	boar-style	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	Crane Style	crane-style	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	Djinni Style	djinni-style	yes		print	print	head printed, not in the import: added from print	78	
-ref/arc-wizard/spellslinger	Dragon Style	dragon-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Earth Child Style	earth-child-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Efreeti Style	efreeti-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Janni Style	janni-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Kirin Style	kirin-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Mantis Style	mantis-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Marid Style	marid-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Monkey Style	monkey-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Panther Style	panther-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Shaitan Style	shaitan-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Snake Style	snake-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Snapping Turtle Style	snapping-turtle-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Tiger Style	tiger-style	yes		print	print	head printed, not in the import: added from print	79	
-ref/arc-wizard/spellslinger	Teamwork Feats	teamwork-feats	yes		print	print	head printed, not in the import: added from print	79	

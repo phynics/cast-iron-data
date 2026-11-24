@@ -338,6 +338,158 @@ and timeless body.'''
 import_trades = ["Venom immunity", "timeless body"]
 
 [[entry]]
+id = "ref/arc-fighter/brawler"
+opening = ["All melee is up close and personal, but some warriors bring it as close as they can get. Brawlers can be found anywhere, among all races and societies. A brawler could be hired muscle in a tavern, a local crime syndicate enforcer, or a hotheaded recruit among the ranks of a baron's guard. Often brawlers' in-your-face attitudes are as powerful as their tactics."]
+
+[[entry.feature]]
+anchor = "close-control"
+head = "Close Control (Ex)"
+listed = true
+level = 2
+print = "At 2nd level, a brawler becomes skilled at forcefully moving his opponent around the battlefield. The brawler gains a +1 bonus on [bull rush](ref/rule/bull-rush), [drag](ref/rule/drag), and [reposition](ref/rule/reposition) combat maneuver checks. The brawler also gains a +1 bonus to CMD when attacked with the bull rush, drag, and reposition maneuvers. These bonuses increase by +1 for every four levels after 2nd (to a maximum of +5 at 18th level). This ability replaces armor training 1."
+import_trades = ["Armor training 1"]
+
+[[entry.feature]]
+anchor = "close-combatant"
+head = "Close Combatant (Ex)"
+listed = true
+level = 3
+print = "At 3rd level, a brawler gains a +1 bonus on attack rolls and a +3 bonus on damage rolls with weapons in the close [weapon group](ref/ability/weapon-groups). Both of these bonuses increase by +1 for every four levels beyond 3rd (to a maximum of +5 on attack rolls and +7 on damage rolls at 19th level). This ability replaces weapon training 1 and 2."
+import_trades = ["Weapon training 1", "2"]
+
+[[entry.feature]]
+anchor = "menacing-stance"
+head = "Menacing Stance (Ex)"
+listed = true
+level = 7
+print = "At 7th level, a brawler constantly harries and distracts his enemies. While adjacent to the brawler, enemies take a -1 penalty on attack rolls and a -4 penalty on [concentration](ref/rule/concentration) checks. These penalties increase by 1 for every four levels after 7th level (to a maximum of -4 on attack rolls and -7 on concentration checks at 19th level). Creatures do not take these penalties if the brawler is dazed, helpless, staggered, stunned, or unconscious. This ability replaces armor training 2, 3, and 4 and armor mastery."
+import_trades = ["Armor training 2", "3", "4", "armor mastery"]
+
+[[entry.feature]]
+anchor = "no-escape"
+head = "No Escape (Ex)"
+listed = true
+level = 9
+print = "At 9th level, taking [a 5-foot step](ref/rule/take-5-foot-step) out of the area of a brawler's menacing stance or moving out of the area of a brawler's menacing stance with a [withdraw](ref/rule/withdraw) action provokes an attack of opportunity from the brawler. This ability replaces weapon training 3 and 4."
+import_trades = ["Weapon training 3", "4"]
+
+[[entry.feature]]
+anchor = "stand-still"
+head = "Stand Still"
+listed = true
+level = 13
+print = "At 13th level, a brawler gains [Stand Still](ref/feat/stand-still) as a bonus feat, even if he does not have the [Combat Reflexes](ref/feat/combat-reflexes) feat. If the brawler already has the Stand Still feat, he can take any other combat feat instead. Furthermore, he gains a bonus equal to 1/2 his fighter level on combat maneuver checks when using the Stand Still feat."
+
+[[entry.feature]]
+anchor = "weapon-mastery"
+head = "Weapon Mastery (Ex)"
+listed = true
+print = "A brawler must select a close weapon for this ability."
+import_trades = ["Weapon mastery"]
+
+[[entry.feature]]
+anchor = "expanded-weapon-groups"
+head = "Expanded Weapon Groups"
+listed = true
+print = "This book and the _Advanced Player's Guide_ present a number of weapons not on the weapon group lists in the _Core Rulebook_. Below is an update of that list, with all the weapons from those two books as well as new weapons introduced in this book. It also presents two new groups: firearms and siege weapons. Weapons with one asterisk (\\*) can be found in the _Advanced Player's Guide_. Weapons with two asterisks (\\*\\*) can be found in this book.\n\nWeapon groups are defined as follows (GMs may add other weapons to these groups, or add entirely new groups):"
+
+[[entry.feature]]
+anchor = "axes"
+head = "Axes"
+listed = true
+print = "bardiche, battleaxe, dwarven waraxe, greataxe, handaxe, heavy pick, hooked axe\\*, knuckle axe\\*, light pick, mattock\\*, orc double axe, pata\\*, and throwing axe"
+
+[[entry.feature]]
+anchor = "blades-heavy"
+head = "Blades, Heavy"
+listed = true
+print = "bastard sword, chakram, double chicken saber\\*, double walking stick katana\\*, elven curve blade, falcata, falchion, greatsword, great terbutje\\*, katana\\*, khopesh, longsword, nine-ring broadsword\\*, nodachi\\*, scimitar, scythe, seven-branched sword\\*, shotel\\*, temple sword, terbutje\\*, and two-bladed sword"
+
+[[entry.feature]]
+anchor = "blades-light"
+head = "Blades, Light"
+listed = true
+print = "bayonet, butterfly sword\\*, dagger, gladius\\*, kama, kerambit\\*, kukri, pata\\*, quadrens\\*, rapier, short sword, sica\\*, sickle, starknife, swordbreaker dagger, sword cane, and wakizashi\\*"
+
+[[entry.feature]]
+anchor = "bows"
+head = "Bows"
+listed = true
+print = "composite longbow, composite shortbow, longbow, and shortbow"
+
+[[entry.feature]]
+anchor = "close"
+head = "Close"
+listed = true
+print = "bayonet, brass knuckles, cestus\\*, dan bong\\*, emei piercer\\*, fighting fan\\*, gauntlet, heavy shield, iron brush\\*, light shield, madu\\*, mere club\\*, punching dagger, sap, scizore\\*, spiked armor, spiked gauntlet, spiked shield, tekko-kagi\\*, tonfa\\*, unarmed strike, wooden stake, and wushu dart\\*"
+
+[[entry.feature]]
+anchor = "crossbows"
+head = "Crossbows"
+listed = true
+print = "double crossbow, hand crossbow, heavy crossbow, heavy repeating crossbow, light crossbow, light repeating crossbow, and tube arrow shooter\\*"
+
+[[entry.feature]]
+anchor = "double"
+head = "Double"
+listed = true
+print = "dire flail, dwarven urgrosh, gnome hooked hammer, orc double axe, quarterstaff, and two-bladed sword"
+
+[[entry.feature]]
+anchor = "firearms"
+head = "Firearms"
+listed = true
+print = "all one-handed\\*, two-handed\\*, and siege firearms\\*"
+
+[[entry.feature]]
+anchor = "flails"
+head = "Flails"
+listed = true
+print = "chain spear, dire flail, double chained kama\\*, flail, flying blade\\*, heavy flail, kusarigama\\*, kyoketsu shoge\\*, meteor hammer\\*, morningstar, nine-section whip\\*, nunchaku, sansetsukon\\*, scorpion whip\\*, spiked chain, urumi\\*, and whip"
+
+[[entry.feature]]
+anchor = "hammers"
+head = "Hammers"
+listed = true
+print = "aklys\\*, battle aspergillum, club, greatclub, heavy mace, light hammer, light mace, mere club\\*, taiaha\\*, tetsubo\\*, wahaika\\*, and warhammer"
+
+[[entry.feature]]
+anchor = "monk"
+head = "Monk"
+listed = true
+print = "bo staff\\*, brass knuckles\\*, butterfly sword\\*, cestus, dan bong\\*, double chained kama\\*, double chicken saber\\*, emei piercer\\*, fighting fan\\*, jutte\\*, kama, kusarigama\\*, kyoketsu shoge\\*, lungshuan tamo\\*, monk's spade\\*, nine-ring broadsword\\*, nine-section whip\\*, nunchaku, quarterstaff, rope dart\\*, sai, sansetsukon\\*, seven-branched sword\\*, shang gou\\*, shuriken, siangham, tiger fork\\*, tonfa\\*, tri-point double-edged sword\\*, unarmed strike, urumi\\*, wushu dart\\*"
+
+[[entry.feature]]
+anchor = "natural"
+head = "Natural"
+listed = true
+print = "unarmed strike and all natural weapons, such as bite, claw, gore, tail, and wing"
+
+[[entry.feature]]
+anchor = "polearms"
+head = "Polearms"
+listed = true
+print = "bardiche, bec de corbin, bill, glaive, glaive-guisarme, guisarme, halberd, hooked lance\\*, lucerne hammer, mancatcher, monk's spade\\*, naginata\\*, nodachi\\*, ranseur, rohomphaia\\*,tepoztopili\\*, and tiger fork\\*"
+
+[[entry.feature]]
+anchor = "spears"
+head = "Spears"
+listed = true
+print = "amentum\\*, boar spear, javelin, harpoon\\*, lance, longspear, pilum, shortspear, sibat\\*, spear, tiger fork\\*, and trident"
+
+[[entry.feature]]
+anchor = "thrown"
+head = "Thrown"
+listed = true
+print = "aklys\\*, amentum\\*, atlatl\\*, blowgun, bolas, boomerang, chakram, club, dagger, dart, halfling sling staff, harpoon\\*, javelin, lasso, kestros\\*, light hammer, net, poisoned sand tube\\*, rope dart\\*, shortspear, shuriken, sibat\\*, sling, spear, starknife, throwing axe, throwing shield\\*, trident, and wushu dart\\*"
+
+[[entry.feature]]
+anchor = "siege-engines"
+head = "Siege Engines"
+listed = true
+print = "all siege engines\\*"
+
+[[entry]]
 id = "ref/arc-fighter/gladiator"
 hold = "the replaces trade `Proficiency with heavy armor` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `tower shields` is not printed in a sentence, and no listed feature of that name prints it"
 opening = ["Most fighters battle out of necessity, with each battle a contest of life and death. Some, however, fight for glory and for the adulation of the crowd. The gladiator is both a cunning warrior and a consummate performer, knowing life and death are balanced not only on a sword's edge, but also on the cheers or jeers of the crowd."]
@@ -1354,7 +1506,7 @@ import_trades = ["Arcane school"]
 
 [[entry]]
 id = "ref/arc-wizard/spellslinger"
-hold = "checker: [fields] trades = \"replaces: Cantrips\" disagrees with the trade sentences of the feature `mage-bullets` = \"replaces: cantrips, but the spellslinger gains the detect magic and read magic cantrips and places them in his spellbook\" (line 101)"
+hold = "checker: [fields] trades = \"replaces: Cantrips\" disagrees with the trade sentences of the feature `mage-bullets` = \"replaces: cantrips, but the spellslinger gains the detect magic and read magic cantrips and places them in his spellbook\" (line 74)"
 opening = ["While few contest the seductive allure of commanding arcane and occult powers, there are those wizards who become obsessed with the natural mysteries of black powder. Combining this emerging technology with their considerable arcane skills, they transform firearms into a powerful focus."]
 
 [[entry.feature]]
@@ -1389,218 +1541,3 @@ head = "School of the Gun"
 listed = true
 print = "The rigor and care required by arcane guns is so great that a spellslinger forsakes four schools of magic. These opposition schools are chosen at 1st level and cannot be changed later. A spellslinger who prepares a spell from his opposition school must use two spell slots of that level to prepare the spell. In addition, the spellslinger takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools as a prerequisite. This ability replaces arcane school."
 import_trades = ["Arcane school"]
-
-[[entry.feature]]
-anchor = "2-f-eats"
-head = "2 F eats"
-listed = true
-print = ""
-
-[[entry.feature]]
-anchor = "t-he-ettin-s-enormous-mace-slammed-into-the-packed-dirt-floor-of-the-arena-its-curving-spikes-digging-deep-furrows-as-it-rebounded-already-airborne-alain-avoided-the-clumsy-swing-easily-yet-could-still-imagine-those-same-furrows-torn-through-his-flesh-against-his-will-the-mercenary-s-gaze-flicked-up-toward-the-stands-past-the-blank-eyed-poxy-faces-of-the-cheering-peasants-up-to-the-shaded-gallery-where-the-duchess-sat-she-met-his-eyes-and-smiled-conniving-wench-when-she-d-asked-him-to-be-her-champion-he-d-thought-she-meant-in-some-petty-squabble-of-honor-or-maybe-just-for-the-night-stupid-behind-him-two-heads-screamed"
-head = "T he ettin's enormous mace slammed into the packed- dirt floor of the arena, its curving spikes digging deep furrows as it rebounded. Already airborne, Alain avoided the clumsy swing easily, yet could still imagine those same furrows torn through his flesh. Against his will, the mercenary's gaze flicked up toward the stands, past the blank-eyed, poxy faces of the cheering peasants, up to the shaded gallery where the duchess sat. She met his eyes and smiled. Conniving wench. When she'd asked him to be her champion, he'd thought she meant in some petty squabble of honor—or maybe just for the night. Stupid. Behind him, two heads screamed."
-listed = true
-print = ""
-
-[[entry.feature]]
-anchor = "feats"
-head = "Feats"
-listed = true
-print = "Feats represent special tricks or abilities a character has acquired through training, luck, or as a quirk of his birth. They grant characters abilities that others lack, giving them an edge in the right situation. While some feats specifically interact with a PC's race or class, most are available to anyone who meets the prerequisites. The feats in this book expand upon those in the _Pathfinder RPG Core Rulebook_, the _Pathfinder RPG Advanced Player's Guide_, _Pathfinder RPG Ultimate Magic_, and other sources, introducing new combat feats, critical feats, metamagic feats, and teamwork feats. This book also introduces two new types of feats— grit feats and style feats. Grit feats expand a gunslinger's ability to use grit and deeds, while style feats each grant a style of martial arts that can be used by monks and other characters who learn the style."
-
-[[entry.feature]]
-anchor = "types-of-feats"
-head = "TYPES OF FEATS"
-listed = true
-print = "While most of the feats presented here are general and have no special rules governing them, some feats belong to a type or types of feats that feature special shared rules. The type or types a feat belongs to appear in parentheses after the feat name. This chapter features the following types of feats."
-
-[[entry.feature]]
-anchor = "combat-feats"
-head = "Combat Feats"
-listed = true
-print = "Fighters and gunslingers can select combat feats as bonus feats. Member of other classes can take these feats as long as they meet the prerequisites."
-
-[[entry.feature]]
-anchor = "critical-feats"
-head = "Critical Feats"
-listed = true
-print = "Critical feats modify the effects of a critical hit by inflicting an additional condition on the victim. Characters without the Critical Mastery feat can only apply the effects of one critical feat to an individual critical hit. Characters with multiple critical feats can decide which feat to apply after confirming a critical hit."
-
-[[entry.feature]]
-anchor = "grit-feats"
-head = "Grit Feats"
-listed = true
-print = "Grit feats interact with the gunslinger's grit class ability or the grit granted by the Amateur Gunslinger feat, usually by adding to her set of deeds. Sometimes these feats increase the number of grit points a character has or how that character regains grit points. Gunslingers can take grit feats as bonus feats."
-
-[[entry.feature]]
-anchor = "metamagic-feats"
-head = "Metamagic Feats"
-listed = true
-print = "Metamagic feats allow spellcasters to modify their spells, granting the spells new powers and effects. Such spells generally take up a higher-level spell slot than the normal spell. For complete rules on how to apply metamagic feats to spells, see pages 112–113 of the _Core Rulebook_."
-
-[[entry.feature]]
-anchor = "performance-feats"
-head = "Performance Feats"
-listed = true
-print = "Performance feats are used when you make a performance combat check, typically granting a special action that occurs when you make that check. Unless you have the Masterful Display feat, you can only apply the effect of one performance feat to each performance combat check you make."
-
-[[entry.feature]]
-anchor = "style-feats"
-head = "Style Feats"
-listed = true
-print = '''
-For centuries, great warriors have looked to nature and the multiverse to find inspiration in battle. Countless monastic and contemplative orders have crafted intricate unarmed fighting styles based on the deadliness and grace of natural and supernatural creatures. Although many such fighting techniques were created by secretive orders, they have since spread to practitioners the world over.
-
-As a swift action, you can enter the stance employed by the fighting style a style feat embodies. Although you cannot use a style feat before combat begins, the style you are in persists until you spend a swift action to switch to a different combat style. You can use a feat that has a style feat as a prerequisite only while in the stance of the associated style. For example, if you have feats associated with Mantis Style and Tiger Style, you can use a swift action to adopt Tiger Style at the start of one turn, and then can use other feats that have Tiger Style as a prerequisite. By using another swift action at the start of your next turn, you could adopt Mantis Style and use other feats that have Mantis Style as a prerequisite.
-
-The styles presented in this book follow, along with specific feat paths—feats that complement each style.'''
-
-[[entry.feature]]
-anchor = "boar-style"
-head = "Boar Style"
-listed = true
-print = '''
-A tribe of orcs who disdained the use of weapons originally developed this savage unarmed fighting style. They preferred to slaughter their enemies with their bare hands and teeth. Over the centuries, a variety of races have adopted the Boar Style, most notably goblinoids, ogres, and trolls. The objective of the Boar Style is to attack with as much viciousness and cruelty as possible in order to break enemy morale. Fanatical followers of the style use herbal and alchemical reagents to harden their nails and teeth, sometimes performing self-mutilating procedures that result in clawlike nails and sharpened teeth.
-
-_Feat Path_: Boar Style, Boar Ferocity, Boar Shred.'''
-
-[[entry.feature]]
-anchor = "crane-style"
-head = "Crane Style"
-listed = true
-print = '''
-Crane style focuses on defense and agile counterattacks. Practitioners are known for graceful, one-legged stances and folding arm techniques that mimic a crane's enormous wings.
-
-_Feat Path_: Crane Style, Crane Wing, Crane Riposte.'''
-
-[[entry.feature]]
-anchor = "djinni-style"
-head = "Djinni Style"
-listed = true
-print = '''
-Adherents to this style call on the spirits of storms to outmaneuver and outwit their opponents. Masters of the style can absorb and deflect electrical attacks while summoning peals of thunder to pummel their enemies.
-
-_Feat Path_: Djinni Style, Djinni Spirit, Djinni Spin.'''
-
-[[entry.feature]]
-anchor = "dragon-style"
-head = "Dragon Style"
-listed = true
-print = '''
-Dragon style captures the overwhelming power, grace, and ferocity of dragons. Practitioners use acrobatic footwork and strong attacks to overwhelm foes. The deepest secrets of the style require imbibing alchemical tonics and deep meditations similar to the long sleeps of dragons.
-
-_Feats Path_: Dragon Style, Dragon Ferocity, Dragon Roar.'''
-
-[[entry.feature]]
-anchor = "earth-child-style"
-head = "Earth Child Style"
-listed = true
-print = '''
-A warrior cadre of dwarves and gnomes dedicated to fighting and slaying giants developed this style. Students of the style learn how to enhance their defensive training to become even more elusive when facing giants. They also spend long hours studying the anatomy of the various giant races to increase the effectiveness of their unarmed strikes. Eventually, masters of this fighting style learn how to bring down even the mightiest creatures by targeting feet, ankles, and knees.
-
-_Feat Path_: Earth Child Style, Earth Child Topple, Earth Child Binder.'''
-
-[[entry.feature]]
-anchor = "efreeti-style"
-head = "Efreeti Style"
-listed = true
-print = '''
-The efreeti style focuses on aggression and speed, taking inspiration from beings of living fire. Masters of the style can deflect and control fire, immolate their enemies, and summon forth gouts of elemental flame.
-
-_Feats Path_: Efreeti Style, Efreeti Stance, Efreeti Touch.'''
-
-[[entry.feature]]
-anchor = "janni-style"
-head = "Janni Style"
-listed = true
-print = '''
-This style, originating humbly from the folk traditions of disparate peoples, represents several similar unarmed fighting arts practiced around the world. Regardless of variations in technique, all practitioners have a f luid fighting stance that emphasizes rapid, powerful kicks. The style's constant motion and graceful footwork lead many to mistakenly view practitioners as highly skilled dancers, a misconception that has allowed the technique to be taught in secret, the hidden weapon of the downtrodden and the oppressed. Openly martial versions of this style lose some of the dancelike qualities but retain the style's extraordinary kicking techniques and agility.
-
-_Feat Path_: Janni Style, Janni Tempest, Janni Rush.'''
-
-[[entry.feature]]
-anchor = "kirin-style"
-head = "Kirin Style"
-listed = true
-print = '''
-The school of the kirin employs critical observations as weapons against opponents. Practitioners catalogue a foe's weaknesses and seek the perfect moment to strike, ensuring that no movement or effort is ever wasted. Popular among those rare orders that blend monastic training with arcane study, kirin style is sometimes practiced by wizards who seek to hone their bodies along with their minds.
-
-_Feat Path_: Kirin Style, Kirin Strike, Kirin Path.'''
-
-[[entry.feature]]
-anchor = "mantis-style"
-head = "Mantis Style"
-listed = true
-print = '''
-Based on the hunting techniques of the praying mantis, practitioners of this style fight with their hands turned down to emulate the insect's sharp grasping forelimbs. Mantis style uses precise, accurate strikes to pinpoint an opponent's vital areas, such as eyes, throat, and pressure points.
-
-_Feat Path_: Mantis Style, Mantis Wisdom, Mantis Torment.'''
-
-[[entry.feature]]
-anchor = "marid-style"
-head = "Marid Style"
-listed = true
-print = '''
-Marid style emulates the f luid strength of flowing rivers and the cold of the ocean depths. Masters of the style can withstand severe cold, manipulate water to lash at enemies from afar, and freeze their foes in place.
-
-_Feat Path_: Marid Style, Marid Spirit, Marid Coldsnap.'''
-
-[[entry.feature]]
-anchor = "monkey-style"
-head = "Monkey Style"
-listed = true
-print = '''
-Renowned for its speed and agility, monkey style blends jumping strikes, rolling blows, and ground fighting into a continuous onslaught aimed at disorienting and damaging an opponent through superior mobility.
-
-_Feat Path_: Monkey Style, Monkey Moves, Monkey Shine.'''
-
-[[entry.feature]]
-anchor = "panther-style"
-head = "Panther Style"
-listed = true
-print = '''
-Students of the panther throw caution to the wind as they weave recklessly among their foes. Those who master the style turn their unrivaled mobility into a weapon, striking their enemies with a series of swift retaliatory strikes.
-
-_Feat Path_: Panther Style, Panther Claws, Panther Parry.'''
-
-[[entry.feature]]
-anchor = "shaitan-style"
-head = "Shaitan Style"
-listed = true
-print = '''
-Practitioners of this style imbue their fists with the mineral acids of the deep earth. Their forceful blows conjure forth caustic elements to dissolve and disable their enemies.
-
-_Feat Path_: Shaitan Style, Shaitan Skin, Shaitan Earthblast.'''
-
-[[entry.feature]]
-anchor = "snake-style"
-head = "Snake Style"
-listed = true
-print = '''
-Snake style emphasizes quick, shifting movements. Its practitioners normally hold their hands flat with the fingers together to mimic the head of a snake. Able to strike when least expected, snake stylists are known for opportunism and blinding speed.
-
-_Feat Path_: Snake Style, Snake Sidewinder, Snake Fang.'''
-
-[[entry.feature]]
-anchor = "snapping-turtle-style"
-head = "Snapping Turtle Style"
-listed = true
-print = '''
-The snapping turtle style emphasizes active defense with one hand. Students of the style utilize a variety of locks, grabs, and circular blocks to protect themselves, as well as employing a debilitating clutch.
-
-_Feat Path_: Snapping Turtle Style, Snapping Turtle Clutch, Snapping Turtle Shell.'''
-
-[[entry.feature]]
-anchor = "tiger-style"
-head = "Tiger Style"
-listed = true
-print = '''
-This style seeks to emulate the power and fury of the great tiger. Practitioners use their hands like claws, perfecting overpowering double hand strikes and driving attack chains.
-
-_Feat Path_: Tiger Style, Tiger Claws, Tiger Pounce.'''
-
-[[entry.feature]]
-anchor = "teamwork-feats"
-head = "Teamwork Feats"
-listed = true
-print = "Teamwork feats first appeared in the _Advanced Player's Guide_. They grant significant bonuses but only function under specific circumstances. In most cases, these feats require an ally with the same feat to have a specific position on the battlefield. Teamwork feats provide no bonus if the listed conditions are not met. Note that allies who are paralyzed, stunned, unconscious, or otherwise unable to act do not count for the purposes of these feats. Inquisitors and cavaliers have special class abilities that allow them to use teamwork feats even when their allies do not have the feats."
