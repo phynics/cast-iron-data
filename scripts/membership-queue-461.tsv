@@ -2306,9 +2306,9 @@ ultimate-combat	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	
 ultimate-combat	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	11	15	review	printed	143	row	0								keep	143	title-on-cited-page	figurine	S0			yes		yes	page
 ultimate-combat	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	11	15	review	printed	143	row	0											figurine	S4b			yes		yes	none
 ultimate-equipment	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	8	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-ultimate-equipment	ref/monster/yak	creature	Yak (Herd Animal)	3	3	uncited	printed		none	2	81,86										single-entry	S5		yes	yes			none
+ultimate-equipment	ref/monster/yak	creature	Yak (Herd Animal)	3	3	uncited	printed		none	2	81,86							remove	86	own-entry-prints-it	single-entry	done		yes	yes			none
 ultimate-equipment	ref/rule/common-cursed-item-effects	rule	Common Cursed Item Effects	2	2	uncited	loose	343	body	0											hub-cited	S10		yes	yes	yes	no	
-ultimate-equipment	ref/trait/savage-breaker	trait	Savage Breaker	2	2	uncited	absent		none	0											single-entry	S5		yes	yes			
+ultimate-equipment	ref/trait/savage-breaker	trait	Savage Breaker	2	2	uncited	absent		none	0								remove	none	whole-book-absent	single-entry	done		yes	yes			
 ultimate-equipment	ref/eq-poison/swampseer-poison	item	Swampseer poison	1	2	review	absent	111	row	0					primary	pathfinder-34-blood-for-blood	unscreened				single-entry	S11			yes		no	
 ultimate-equipment	ref/eq-weapon/blade-of-lifes-defense	item	Blade of Life's Defense	2	2	review	absent	20	row	0											single-entry	S11			yes		no	
 ultimate-equipment	ref/magic-wondrous/gory-beacon	item	Gory Beacon	2	2	review	absent	301	row	0											single-entry	S11			yes		no	

@@ -3,7 +3,7 @@ id = "ref/trait/savage-breaker"
 kind = "trait"
 title = "Savage Breaker"
 aon = "TraitDisplay.aspx?ItemName=Savage%20Breaker"
-source_ids = ["varisia-birthplace-of-legends", "ultimate-equipment"]
+source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_breaker", path = "json/traits04.json" },
 ]
