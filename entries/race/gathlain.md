@@ -3,7 +3,7 @@ id = "ref/race/gathlain"
 kind = "race"
 title = "Gathlain"
 aon = "RacesDisplay.aspx?ItemName=Gathlain"
-source_ids = ["ultimate-wilderness", "inner-sea-races", "bestiary-4", "legacy-of-the-first-world", "wilderness-origins"]
+source_ids = ["ultimate-wilderness", "inner-sea-races", "bestiary-4"]
 race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gathlain", path = "json/races3.json" },
@@ -17,6 +17,9 @@ page = "243"
 [[sources]]
 publication = "bestiary-4"
 page = "122"
+[[expanded_in]]
+publication = "wilderness-origins"
+page = "8"
 
 [fields]
 kind = "none"

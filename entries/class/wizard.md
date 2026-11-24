@@ -3,13 +3,19 @@ id = "ref/class/wizard"
 kind = "class"
 title = "Wizard"
 aon = "ClassDisplay.aspx?ItemName=Wizard"
-source_ids = ["core-rulebook", "advanced-players-guide", "advanced-race-guide", "blood-of-shadows", "blood-of-the-beast", "blood-of-the-sea", "chronicle-of-legends", "heroes-of-golarion", "horror-adventures", "kobolds-of-golarion", "plane-hoppers-handbook"]
+source_ids = ["core-rulebook", "advanced-players-guide", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizard", path = "json/classes6.json" },
 ]
 [[sources]]
 publication = "core-rulebook"
 page = "77"
+[[sources]]
+publication = "advanced-players-guide"
+page = "72"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28, 30"
 
 [fields]
 kind = "class"
@@ -241,7 +247,6 @@ discoveries in place of a regular feat or wizard bonus feat.
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
@@ -263,7 +268,6 @@ additional 3rd- and 4th-level spell slots, two additional 5th-level spell slots,
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.

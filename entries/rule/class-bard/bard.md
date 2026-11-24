@@ -2,7 +2,7 @@
 id = "ref/rule/class-bard/bard"
 kind = "rule"
 title = "Bard"
-source_ids = ["core-rulebook", "chronicle-of-legends", "advanced-race-guide", "monster-codex", "blood-of-shadows", "plane-hoppers-handbook", "advanced-players-guide", "ultimate-wilderness", "legacy-of-the-first-world", "blood-of-the-sea", "goblins-of-golarion", "blood-of-the-beast", "horror-adventures"]
+source_ids = ["core-rulebook", "chronicle-of-legends", "advanced-players-guide"]
 section = ["Bard"]
 parent = "ref/class/bard"
 provenance = [
@@ -11,6 +11,12 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "34"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28"
+[[sources]]
+publication = "advanced-players-guide"
+page = "72"
 
 [fields]
 kind = "none"
@@ -262,7 +268,6 @@ threatened or distracted. You can also choose not to take 10 and can instead rol
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
@@ -288,7 +293,6 @@ mind-affecting, compulsion effect that relies on audible and visual components.
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.

@@ -3,7 +3,7 @@ id = "ref/race/kobold"
 kind = "race"
 title = "Kobold"
 aon = "RacesDisplay.aspx?ItemName=Kobold"
-source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary", "kobolds-of-golarion", "wilderness-origins"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary", "kobolds-of-golarion"]
 race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold", path = "json/races2.json" },
@@ -20,6 +20,9 @@ page = "183"
 [[sources]]
 publication = "kobolds-of-golarion"
 page = "0"
+[[expanded_in]]
+publication = "wilderness-origins"
+page = "8"
 
 [fields]
 kind = "none"

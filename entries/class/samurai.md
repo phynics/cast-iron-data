@@ -3,7 +3,7 @@ id = "ref/class/samurai"
 kind = "class"
 title = "Samurai"
 aon = "ClassDisplay.aspx?ItemName=Samurai"
-source_ids = ["ultimate-combat", "chronicle-of-legends", "advanced-players-guide", "ultimate-wilderness"]
+source_ids = ["ultimate-combat", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "samurai", path = "json/classes6.json" },
 ]
@@ -429,7 +429,6 @@ of a standard action.
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.

@@ -3,7 +3,7 @@ id = "ref/race/human"
 kind = "race"
 title = "Human"
 aon = "RacesDisplay.aspx?ItemName=Human"
-source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide", "legacy-of-dragons", "advanced-players-guide", "horror-adventures", "heroes-of-the-high-court", "blood-of-shadows", "heroes-of-the-wild", "legacy-of-the-first-world", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide"]
 race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human", path = "json/races2.json" },
@@ -17,6 +17,20 @@ page = "238"
 [[sources]]
 publication = "advanced-race-guide"
 page = "70"
+[[expanded_in]]
+publication = "ultimate-intrigue"
+page = "17"
+via = "ref/class/vigilante"
+[[expanded_in]]
+publication = "ultimate-wilderness"
+page = "31"
+via = "ref/class/shifter"
+[[expanded_in]]
+publication = "advanced-class-guide"
+page = "71"
+[[expanded_in]]
+publication = "occult-adventures"
+page = "85"
 
 [fields]
 kind = "none"

@@ -3,13 +3,16 @@ id = "ref/class/spiritualist"
 kind = "class"
 title = "Spiritualist"
 aon = "ClassDisplay.aspx?ItemName=Spiritualist"
-source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legends", "plane-hoppers-handbook", "horror-adventures", "blood-of-the-beast", "blood-of-shadows"]
+source_ids = ["occult-adventures", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritualist", path = "json/classes4.json" },
 ]
 [[sources]]
 publication = "occult-adventures"
 page = "72"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28, 30"
 
 [fields]
 kind = "class"
@@ -442,7 +445,6 @@ effects and spells and effects that involve possession, such as [magic jar](ref/
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
@@ -463,7 +465,6 @@ throws, but the phantom otherwise grants all the skills and powers of the focus.
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.

@@ -3,7 +3,7 @@ id = "ref/race/half-orc"
 kind = "race"
 title = "Half-Orc"
 aon = "RacesDisplay.aspx?ItemName=Half-Orc"
-source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide", "heroes-from-the-fringe", "bastards-of-golarion", "heroes-of-the-wild", "horror-adventures", "heroes-of-the-high-court", "legacy-of-dragons", "blood-of-shadows", "advanced-players-guide", "agents-of-evil", "legacy-of-the-first-world", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide"]
 race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_orc", path = "json/races2.json" },
@@ -17,6 +17,20 @@ page = "237"
 [[sources]]
 publication = "advanced-race-guide"
 page = "50"
+[[expanded_in]]
+publication = "ultimate-intrigue"
+page = "17"
+via = "ref/class/vigilante"
+[[expanded_in]]
+publication = "ultimate-wilderness"
+page = "31"
+via = "ref/class/shifter"
+[[expanded_in]]
+publication = "advanced-class-guide"
+page = "71"
+[[expanded_in]]
+publication = "occult-adventures"
+page = "85"
 
 [fields]
 kind = "none"

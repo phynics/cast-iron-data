@@ -3,13 +3,16 @@ id = "ref/class/vigilante"
 kind = "class"
 title = "Vigilante"
 aon = "ClassDisplay.aspx?ItemName=Vigilante"
-source_ids = ["ultimate-intrigue", "advanced-players-guide", "chronicle-of-legends", "plane-hoppers-handbook", "blood-of-the-beast"]
+source_ids = ["ultimate-intrigue", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilante", path = "json/classes4.json" },
 ]
 [[sources]]
 publication = "ultimate-intrigue"
 page = "9"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28, 30"
 
 [fields]
 kind = "class"
@@ -284,7 +287,6 @@ this attack, you can instead add two Hidden Strike Talents to your _vengeance st
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
@@ -305,7 +307,6 @@ archetype-only vigilante talent, such as the [cabalist's living shadow](ref/arc-
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.

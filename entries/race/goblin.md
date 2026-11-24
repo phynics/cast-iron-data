@@ -3,7 +3,7 @@ id = "ref/race/goblin"
 kind = "race"
 title = "Goblin"
 aon = "RacesDisplay.aspx?ItemName=Goblin"
-source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "monster-codex", "goblins-of-golarion"]
+source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "goblins-of-golarion"]
 race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin", path = "json/races3.json" },
@@ -17,6 +17,9 @@ page = "156"
 [[sources]]
 publication = "advanced-race-guide"
 page = "114"
+[[sources]]
+publication = "goblins-of-golarion"
+page = "inside cover"
 
 [fields]
 kind = "none"
