@@ -40,8 +40,6 @@ trades = [
 The gray disciple contemplates the inner voice of duergar magic and the silent eternity of stone,
 mastering these dual mysteries and combining them to deadly effect.
 
-**Prerequisites:** Duergar
-
 ## Fade from Sight (Sp) {#fade-from-sight}
 
 At 4th level, as a swift action, the gray disciple can become invisible (as the

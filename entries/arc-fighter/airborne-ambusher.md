@@ -35,8 +35,6 @@ Driven by suspicion and hatred, [strix](ref/race/strix) doggedly guard their ter
 deadly use of their flight. Using swift strikes from above, strix plummet onto their foes with
 lethal force.
 
-**Prerequisites:** Strix
-
 ## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
 An airborne ambusher is not proficient with heavy armor or tower shields.

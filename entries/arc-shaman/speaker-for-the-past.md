@@ -31,8 +31,6 @@ A speaker for the past is a shaman who specifically serves as the voice for spir
 people's history. A speaker for the past is often an advocate of the ancestors of a specific group,
 the voice of experience, and a powerful resource that allows the past to aid the present.
 
-**Gained class skills:** ling, kh, kl, per, umd
-
 ## Mysteries of the Past {#mysteries-of-the-past}
 
 A speaker for the past gains Linguistics, Knowledge (history), Knowledge (local), Perception, and

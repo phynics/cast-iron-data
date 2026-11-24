@@ -34,10 +34,6 @@ her, because any one of her feints might be an actual attack. By giving up some 
 versatility, she increases her damage potential and exposes opponents to deadly and unexpected
 strikes.
 
-**Gained class skills:** bluff, stl
-
-**Lost class skills:** intm
-
 ## Class Skills {#class-skills}
 
 The snakebite striker gains Bluff and Stealth as class skills, but does not gain Intimidate as a

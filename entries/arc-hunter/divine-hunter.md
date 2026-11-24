@@ -31,13 +31,6 @@ While most hunters heed the call of nature and fight to protect its bounty, some
 serve a higher power. These divine hunters use faith to aid them in their struggles, and their faith
 infuses their animal companions, making these companions champions of their deities.
 
-**Prerequisites:** A divine hunter's alignment must be within one step of her deity's, along either
-the law/chaos axis or the good/evil axis. A divine hunter can otherwise be of any alignment.
-
-**Gained class skills:** kr
-
-**Lost class skills:** kd
-
 ## Alignment {#alignment}
 
 A divine hunter's alignment must be within one step of her deity's, along either the law/chaos axis

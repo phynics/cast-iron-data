@@ -16,8 +16,13 @@ page = "75"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "inspiring-cognatogen", level = 1 },
+  { anchor = "bonus-investigator-talents" },
+  { anchor = "languages" },
+]
 trades = [
-  { replaces = "Mutagen", feature = "mutagen" },
+  { replaces = "Mutagen", feature = "mutagen", by = ["inspiring-cognatogen"] },
 ]
 +++
 
@@ -25,34 +30,30 @@ Akin to a mindchemist, inspired chemists use a type of cognatogen that instead o
 mental ability scores grants them inspiration like an investigator. This inspiration also grants an
 inspired chemist amazing powers to avoid danger, but takes a toll on both physical power and health.
 
-**Inspiring Cognatogen**
+## Inspiring Cognatogen {#inspiring-cognatogen}
 
-**Ability:** An inspired chemist learns how to create an inspiring cognatogen, as the
-[inspiring cognatogen](ref/discovery/inspiring-cognatogen) discovery.
+At 1st level, an inspired chemist learns how to create an
+[inspiring cognatogen](ref/discovery/inspiring-cognatogen), as the inspiring cognatogen discovery.
+This ability replaces the [mutagen](ref/discovery/mutagen) class ability. (This means that an
+inspired chemist cannot create mutagens unless he selects the mutagen discovery).
 
-**Gained:** At 1st Level
+## Bonus Feats {#bonus-feats}
 
-**Replaces:** Mutagen
+An inspired chemist can select [Skill Focus](ref/feat/skill-focus) (Disable Device, Disguise, Heal,
+any Knowledge skill, Sense Motive, Spellcraft, or Use Magic Device) in place of a discovery.
 
-**Special:** An inspired chemist can learn to create mutagens if he selects the
-[mutagen](ref/discovery/mutagen) discovery.
+## Bonus Investigator Talents {#bonus-investigator-talents}
 
-**Bonus Feats**
+An inspired chemist can select any two investigator talents in place of a discovery, but can only
+use these talents while under the effect of an inspiring cognatogen.
 
-**Passive:** An inspired chemist can select [Skill Focus](ref/feat/skill-focus) (Disable Device,
-Disguise, Heal, any Knowledge skill, Sense Motive, Spellcraft, or Use Magic Device) in place of a
-discovery.
+## Languages {#languages}
 
-**Bonus Investigator Talents**
+An inspired chemist can learn three languages in place of a discovery.
 
-**Passive:** An inspired chemist can select any two investigator talents in place of a discovery,
-but can only use these talents while under the effect of an inspiring cognatogen.
+## Discoveries {#discoveries}
 
-**Languages**
-
-**Passive:** An inspired chemist can learn three languages in place of a discovery.
-
-**Discoveries:** The following discoveries complement the inspired chemist archetype:
+The following discoveries complement the inspired chemist archetype:
 [grand inspiring cognatogen](ref/discovery/grand-inspiring-cognatogen),
 [greater inspiring cognatogen](ref/discovery/greater-inspiring-cognatogen), and
 [inspired bomb](ref/discovery/inspired-bomb).

@@ -32,12 +32,6 @@ trades = [
 Hunters and guides through the Shadow Plane, dusk stalkers are rangers that thrive in shadow. Adept
 at hunting in dusk, darkness, and twilight, these rangers excel at manipulating shadows.
 
-**Prerequisites:** Fetchling
-
-**Gained class skills:** kp
-
-**Lost class skills:** kna
-
 ## Class Skills {#class-skills}
 
 The dusk stalker adds Knowledge (planes) to his list of class skills and removes Knowledge (nature)
@@ -66,5 +60,5 @@ a mind-affecting fear effect. This ability replaces hunter's bond.
 
 ## Dark Sight (Su) {#dark-sight}
 
-At 12th level, a dusk stalker gains the [see in darkness](ref/umr/see-in-darkness) ability
-(_Bestiary 2_ 301). This ability replaces camouflage.
+At 12th level, a dusk stalker gains the [see in darkness](ref/umr/see-in-darkness) ability. This
+ability replaces camouflage.

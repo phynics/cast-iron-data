@@ -38,8 +38,6 @@ people's ancient connections to the natural world remain undisturbed. They serve
 the roots of the undine people and as their protectors. An undine adept has the following class
 features.
 
-**Prerequisites:** Undine
-
 ## Domains {#domains}
 
 An undine adept who chooses a domain must choose the Community or [Water](ref/domain/water) domain,

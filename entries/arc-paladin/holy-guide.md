@@ -16,9 +16,14 @@ page = "107"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "class-skills" },
+  { anchor = "favored-terrain", level = 3 },
+  { anchor = "teamwork-feat", level = 6 },
+]
 trades = [
-  { replaces = "3rd-level mercy", feature = "mercy", levels = [3] },
-  { replaces = "6th-level mercy", feature = "mercy", levels = [6] },
+  { replaces = "Mercy gained at 3rd level", feature = "mercy", levels = [3], by = ["favored-terrain"] },
+  { replaces = "Mercy gained at 6th level", feature = "mercy", levels = [6], by = ["teamwork-feat"] },
 ]
 +++
 
@@ -26,33 +31,23 @@ A holy guide believes that it's his sacred calling to clear the roads of bandits
 well as to escort travelers to safety. He must enforce the rule of law in the wilderness and help
 those that cannot defend themselves against the many dangers of the area.
 
-**Gained class skills:** kg, sur
+## Class Skills {#class-skills}
 
-**Favored Terrain (Ex)**
+A holy guide gains Knowledge (geography) and Survival as class skills.
 
-**Ability:** Every time a holy guide would be able to select another _mercy,_ he can instead select
-another favored terrain and increase his bonuses for one existing favored terrain, just like a
-ranger.
+## Favored Terrain (Ex) {#favored-terrain}
 
-**Choice:** A holy guide chooses a [favored terrain](ref/ability/favored-terrain) from the ranger
-favored terrains table. This otherwise functions like the [ranger](ref/class/ranger) ability of the
-same name.
+At 3rd level, a holy guide chooses a [favored terrain](ref/ability/favored-terrain) from the
+[ranger](ref/class/ranger) favored terrains table. This otherwise functions like the ranger ability
+of the same name. This ability replaces the mercy gained at 3rd level. Every time a holy guide would
+be able to select another mercy, he can instead select another favored terrain and increase his
+bonuses for one existing favored terrain, just like a ranger.
 
-**Gained:** At 3rd Level
+## Teamwork Feat (Ex) {#teamwork-feat}
 
-**Replaces:** 3rd-level mercy
-
-**Teamwork Feat (Ex)**
-
-**Ability:** A holy guide gains a teamwork feat as a bonus feat. He must meet the prerequisites for
-this feat.
-
-**Gained:** At 6th Level
-
-**Replaces:** 6th-level mercy
-
-**Standard:** He can expend one use of _smite evil_ to grant this feat to all allies within 30 feet
-who can see and hear him. Allies retain the use of this bonus feat for a number of rounds equal to
-3 + [half](ref/misc/fractions-and-rounding) of his paladin level. Allies do not need to meet the
+At 6th level, a holy guide gains a teamwork feat as a bonus feat. He must meet the prerequisites for
+this feat. As a standard action, He can expend one use of smite evil to grant this feat to all
+allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3
+rounds plus 1 round for every 2 levels the holy guide possesses. Allies do not need to meet the
 prerequisites of this bonus feat. Evil creatures do not gain the benefit of this teamwork feat, even
-if the paladin considers them allies.
+if the paladin considers them allies. This ability replaces the mercy gained at 6th level.

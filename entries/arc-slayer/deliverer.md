@@ -35,8 +35,6 @@ god to punish those who have committed an affront to that deity. Evil deities ar
 assassins than deliverers, but some good deities use deliverers to deal with problems of a subtler
 nature than a cleric, inquisitor, paladin, or warpriest can typically handle.
 
-**Prerequisites:** Follower of a deity
-
 ## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
 A deliverer gains proficiency with his deity's favored weapon, in addition to the slayer's normal

@@ -27,10 +27,7 @@ trades = [
 +++
 
 Blessed by his deity, a divine tracker hunts down those he deems deserving of his retribution. His
-weapon is likely to find purchase in his _favored enemy._
-
-**Prerequisites:** A divine tracker's alignment must be within one step of his deity's, along either
-the law/chaos axis or the good/evil axis
+imbued weapon is likely to find purchase in his favored enemy.
 
 ## Alignment {#alignment}
 

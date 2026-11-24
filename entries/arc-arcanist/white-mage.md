@@ -44,6 +44,5 @@ At 11th level, a white mage can select the following greater exploit.
 
 A white mage can spend 1 point from her arcane reservoir and expend a spell slot of at least 2nd
 level to grant her allies the [fast healing](ref/umr/fast-healing) ability. Allies within 30 feet
-gain [fast healing](ref/umr/fast-healing) (_Bestiary_ 300) equal to 1/2 the level of the spell slot
-sacrificed. This effect lasts for a number of rounds equal to the arcanist's Charisma modifier
-(minimum 1).
+gain [fast healing](ref/umr/fast-healing) equal to 1/2 the level of the spell slot sacrificed. This
+effect lasts for a number of rounds equal to the arcanist's Charisma modifier (minimum 1).

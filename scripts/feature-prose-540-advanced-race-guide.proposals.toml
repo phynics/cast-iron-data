@@ -3,7 +3,8 @@
 
 [[entry]]
 id = "ref/arc-alchemist/deep-bomber"
-hold = "the alters trade `Swift alchemy` is not printed in a sentence, and no listed feature of that name prints it"
+hold = "the replaces trade `Instant alchemy` is not printed in a sentence, and no listed feature of that name prints it; the alters trade `Swift alchemy` is not printed in a sentence, and no listed feature of that name prints it; Targeting Bomb*: the sentence \"This ability replaces swift alchemy\" names no trade"
+opening_from_print = true
 opening = ["Consumed with keeping hidden from the horrors below the surface, svirfneblin use their proclivity for alchemy and talent for obfuscation to strike from the darkness and retreat unseen. A deep bomber has the following class features."]
 
 [[entry.feature]]
@@ -12,7 +13,7 @@ head = "Silent Bomb"
 listed = true
 level = 2
 print = "At 2nd level, when the deep bomber creates a bomb, he can choose to have it explode without making any noise, although those damaged by it may cry out. This ability replaces poison use."
-import_trades = ["Poison use"]
+import_trades = ["Poison use", "Poison use"]
 
 [[entry.feature]]
 anchor = "targeting-bomb"
@@ -20,7 +21,7 @@ head = "Targeting Bomb*"
 listed = true
 level = 3
 print = "At 3rd level, when the deep bomber creates a bomb, he can choose to have its detonation include a _[faerie fire](ref/spell/faerie-fire)_ effect that applies to all creatures within the splash radius (including the target, if any). This ability replaces swift alchemy (the deep bomber gains swift alchemy at 18th level and never gains instant alchemy)."
-import_trades = ["Instant alchemy"]
+import_trades = ["Instant alchemy", "Instant alchemy"]
 
 [[entry.feature]]
 anchor = "stonekin"
@@ -28,7 +29,7 @@ head = "Stonekin"
 listed = true
 level = 6
 print = "At 6th level, the deep bomber automatically learns _[tree shape](ref/spell/tree-shape)_ as a 2nd-level extract, except instead of a tree, he takes the form of a stalagmite that is the same size as his current size. At 7th level, he automatically learns _[meld into stone](ref/spell/meld-into-stone)_ as a 3rd-level extract. This ability replaces swift poisoning."
-import_trades = ["Swift poisoning"]
+import_trades = ["Swift poisoning", "Swift poisoning"]
 
 [[entry.feature]]
 anchor = "discoveries"
@@ -37,44 +38,9 @@ listed = false
 print = "The following discoveries complement the deep bomber archetype: [delayed bomb](ref/discovery/delayed-bomb), [dispelling bomb](ref/discovery/dispelling-bomb), [fast bombs](ref/discovery/fast-bombs), [infusion](ref/discovery/infusion), [madness bomb](ref/discovery/madness-bomb), [poison bomb](ref/discovery/poison-bomb)."
 
 [[entry]]
-id = "ref/arc-alchemist/plague-bringer"
-hold = "checker: [fields] trades = \"replaces: Poison resistance; replaces: poison immunity\" disagrees with the trade sentences of the feature `disease-resistance` = \"replaces: all increments of poison resistance and poison immunity\" (line 70)"
-opening = ["The plague bringer sees disease as the ultimate weapon, and has worked tirelessly to master new diseases and disease-delivery systems. A plague bringer feels no more remorse at unleashing his armaments on his enemies than an archer does when firing an arrow in the heat of battle. Disease is a tool, and the plague bringer is its master. A plague bringer has the following class features."]
-
-[[entry.feature]]
-anchor = "plague-vial"
-head = "Plague Vial (Su)"
-listed = true
-level = 1
-print = '''
-At 1st level, a plague bringer can create a plague vial, an alchemically grown and concentrated disease sample. It takes 1 hour to prepare a plague vial, and once prepared, the vial remains potent until used. A plague bringer can only maintain 1 plague vial at a time—if he prepares a second vial, any existing plague vial becomes inert. A plague vial that is not in a plague bringer's possession becomes inert until a plague bringer picks it up again.
-
-It's a standard action to drink a plague vial. Upon being imbibed, the plague vial infects the plague bringer's blood, sweat, tears, and other bodily fluids for 10 minutes per class level. Any creature that harms him with melee attacks (except with reach weapons) must make a Fortitude save (DC 10 + 1/2 the plague bringer's level + the plague bringer's Intelligence modifier) or become [sickened](ref/misc/sickened) for 1 round per plague bringer level. The plague bringer is immune to the effect of his own plague vial, but not that of another's plague vial. The effects of multiple plague vials do not stack.
-
-As a standard action, the plague bringer can infect a weapon with this sickness (typically by licking it or wiping his blood or pus on it). The disease on the weapon works like a poisoned weapon, except the source is a disease instead of a poison (so a dwarf's resistance to poison does not apply).
-
-Anyone other than a plague bringer (including another alchemist) who drinks a plague vial must make a saving throw against the vial's DC or become [nauseated](ref/misc/nauseated) for 1 hour. Unless he learns how to brew a [mutagen](ref/discovery/mutagen) by taking the mutagen discovery (see _Ultimate Magic_), he can never benefit from a mutagen and reacts to it as if he were a non-alchemist. At any particular time, a plague bringer can only be under the effect of either a plague vial or a mutagen (not both); drinking another immediately ends the effects of any ongoing plague vial or mutagen.
-
-All limitations to mutagens apply to plague vials as if they were the same substance. The [infuse mutagen](ref/discovery/infuse-mutagen) discovery and persistent mutagen class ability apply to plague vials. The [sticky poison](ref/discovery/sticky-poison) discovery applies to a weapon infected with a plague vial. The plague vial is a disease effect. This ability replaces mutagen.'''
-import_trades = ["Mutagen"]
-
-[[entry.feature]]
-anchor = "disease-resistance"
-head = "Disease Resistance (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a plague bringer gains a +2 bonus on all saving throws against disease. This bonus increases to +4 at 5th level, and to +6 at 8th level. At 10th level, a plague bringer becomes completely immune to disease (including magical diseases). This ability replaces all increments of poison resistance and poison immunity."
-import_trades = ["Poison resistance", "poison immunity"]
-
-[[entry.feature]]
-anchor = "discoveries"
-head = "Discoveries"
-listed = false
-print = "The following discoveries complement the plague bringer archetype: [explosive bomb](ref/discovery/explosive-bomb), [precise bombs](ref/discovery/precise-bombs), [smoke bomb](ref/discovery/smoke-bomb) (_Advanced Player's Guide_); [breath weapon bomb](ref/discovery/breath-weapon-bomb), fast bomb, nauseating bomb (_Ultimate Combat_); [plague bomb](ref/discovery/plague-bomb) (_Ultimate Magic_)."
-
-[[entry]]
 id = "ref/arc-barbarian/feral-gnasher"
 hold = "the replaces trade `2nd-level rage power` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
 opening = ["Feral gnashers grow up in the wild, either raised by animals or scraping by on their own, and soon learn to fend for themselves. These barbarians often utilize pieced-together armor and fight with their sharp teeth and whatever improvised weapons are within reach. A feral gnasher has the following class features."]
 
 [[entry.feature]]
@@ -89,7 +55,7 @@ head = "Savage Bite (Ex)"
 listed = true
 level = 1
 print = "At 1st level, a feral gnasher gains a savage bite attack. This is a primary [natural attack](ref/umr/natural-attacks) that deals 1d4 points of damage. If the goblin already has the hard head, big teeth racial trait, the damage increases to 1d6. At 10th level, the damage from a feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has the hard head, big teeth racial trait) and deals ×3 damage on a critical hit. This ability replaces fast movement."
-import_trades = ["Fast movement"]
+import_trades = ["Fast movement", "Fast movement"]
 
 [[entry.feature]]
 anchor = "impromptu-armament"
@@ -97,7 +63,7 @@ head = "Impromptu Armament (Ex)"
 listed = true
 level = 2
 print = "At 2nd level, a feral gnasher gains [Throw Anything](ref/feat/throw-anything) as a bonus feat and can pick up an unattended object that can be wielded in one hand as a free action. Additionally, the feral gnasher can take [Catch Off-Guard](ref/feat/catch-off-guard) in place of a rage power. This replaces the rage power gained at second level."
-import_trades = ["2nd-level rage power"]
+import_trades = ["2nd-level rage power", "2nd-level rage power"]
 
 [[entry.feature]]
 anchor = "lockjaw"
@@ -105,7 +71,7 @@ head = "Lockjaw (Ex)"
 listed = true
 level = 3
 print = "At 3rd level, a feral gnasher gains the [grab](ref/umr/grab) ability with her bite attack. A feral gnasher can use this ability on a creature up to one size category larger than she is. This replaces trap sense +1."
-import_trades = ["Trap sense +1"]
+import_trades = ["Trap sense +1", "Trap sense +1"]
 
 [[entry.feature]]
 anchor = "improvised-weapon-mastery"
@@ -113,7 +79,7 @@ head = "Improvised Weapon Mastery (Ex)"
 listed = true
 level = 5
 print = "At 5th level, a feral gnasher gains [Improvised Weapon Mastery](ref/feat/improvised-weapon-mastery) as a bonus feat. This replaces improved uncanny dodge."
-import_trades = ["Improved uncanny dodge"]
+import_trades = ["Improved uncanny dodge", "Improved uncanny dodge"]
 
 [[entry.feature]]
 anchor = "improved-lockjaw"
@@ -121,7 +87,7 @@ head = "Improved Lockjaw (Ex)"
 listed = true
 level = 6
 print = "At 6th level, as long as a feral gnasher is controlling the grapple with her [lockjaw](ref/spell/lockjaw) attack, she does not gain the grappled condition, but is unable to move or use her mouth for anything other than grappling. This ability replaces trap sense +2."
-import_trades = ["Trap sense +2"]
+import_trades = ["Trap sense +2", "Trap sense +2"]
 
 [[entry.feature]]
 anchor = "greater-lockjaw"
@@ -129,7 +95,7 @@ head = "Greater Lockjaw (Ex)"
 listed = true
 level = 9
 print = "At 9th level and again at 15th level, the size of a creature a feral gnasher is able to use her lockjaw's grab ability on increases by one size increment. This ability replaces trap sense +3 and trap sense +5."
-import_trades = ["Trap sense +3", "trap sense +5"]
+import_trades = ["Trap sense +3, trap sense +5", "Trap sense +3", "trap sense +5"]
 
 [[entry.feature]]
 anchor = "wicked-improvisation"
@@ -137,7 +103,7 @@ head = "Wicked Improvisation (Ex)"
 listed = true
 level = 12
 print = "At 12th level, a feral gnasher becomes more capable with improvised weapons and natural attacks. The feral gnasher gains a +1 competence bonus on damage rolls when using natural attacks or improvised weapons while raging. At 14th level and every two levels thereafter, the damage bonus increases by +1. This increase is not precision damage and is thus multiplied on a critical hit. This ability replaces trap sense +4."
-import_trades = ["Trap sense +4"]
+import_trades = ["Trap sense +4", "Trap sense +4"]
 
 [[entry.feature]]
 anchor = "rage-powers"
@@ -168,7 +134,7 @@ At 2nd level, a hateful rager selects a [favored enemy](ref/ability/favored-enem
 While raging, the hateful rager makes every effort to fight a favored enemy rather than other opponents. If aware of the presence of a favored enemy, the hateful rager must make a DC 20 Will save each round to attack another creature; failure means the barbarian must attack the favored enemy or move closer to that enemy. She may freely attack creatures preventing her from reaching that favored enemy (regardless of whether they are actively trying to prevent her attacks or merely in the way). She can avoid harmful obstacles normally in her attempts to reach the target and is not forced to take the shortest route.
 
 This ability replaces the barbarian's rage power gained at 2nd level. At 8th, 14th, and 20th levels, in place of a rage power she gains another favored enemy and increases her bonus against one favored enemy type.'''
-import_trades = ["2nd", "8th", "14th", "20th level rage powers"]
+import_trades = ["2nd, 8th, 14th, and 20th level rage powers", "2nd", "8th", "14th", "20th level rage powers"]
 
 [[entry.feature]]
 anchor = "feed-the-rage"
@@ -176,7 +142,7 @@ head = "Feed the Rage (Ex)"
 listed = true
 level = 5
 print = "At 5th level, a hateful rager gains 1 additional round of rage for each favored enemy she knocks unconscious or kills in combat. These current rounds of rage can only be used to add to the duration of her rage, and disappear when the rage ends. This ability replaces improved uncanny dodge."
-import_trades = ["Improved uncanny dodge"]
+import_trades = ["Improved uncanny dodge", "Improved uncanny dodge"]
 
 [[entry.feature]]
 anchor = "amplified-by-hate"
@@ -184,7 +150,7 @@ head = "Amplified by Hate (Ex)"
 listed = true
 level = 9
 print = "At 9th level, a hateful rager adds [half](ref/misc/fractions-and-rounding) her favored enemy bonus to the DC of any rage power she uses against a favored enemy. This ability replaces trap sense +3."
-import_trades = ["Trap sense +3"]
+import_trades = ["Trap sense +3", "Trap sense +3"]
 
 [[entry.feature]]
 anchor = "rage-powers"
@@ -193,145 +159,9 @@ listed = false
 print = "The following rage powers complement the hateful rager archetype: [intimidating glare](ref/ragepower/intimidating-glare), [roused anger](ref/ragepower/roused-anger), [terrifying howl](ref/ragepower/terrifying-howl) (_Core Rulebook_); [come and get me](ref/ragepower/come-and-get-me), [inspire ferocity](ref/ragepower/inspire-ferocity), [overbearing advance](ref/ragepower/overbearing-advance), [reckless abandon](ref/ragepower/reckless-abandon) (_Advanced Player's Guide_)."
 
 [[entry]]
-id = "ref/arc-bard/shadow-puppeteer"
-hold = "checker: [fields] trades = \"replaces: Inspire courage; replaces: inspire competence\" disagrees with the trade sentences of the feature `bardic-performance` = \"replaces: all levels of inspire courage and inspire competence\" (line 35)"
-opening = ["A shadow puppeteer invokes amazing and terrifying shadow puppet shows, producing supernatural effects by creating and manipulating shadow. A shadow puppeteer has the following class feature."]
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "A shadow puppeteer gains the following types of bardic performance. The character must be able to perform shadow puppetry in order to activate any of these abilities. Shadow puppetry uses Perform (act), and requires a light source. These abilities replace all levels of inspire courage and inspire competence."
-import_trades = ["Inspire courage", "inspire competence"]
-
-[[entry.feature]]
-anchor = "shadow-servant"
-head = "Shadow Servant (Sp)"
-listed = true
-level = 1
-print = "At 1st level, the puppeteer can create a _shadow servant_ to perform simple tasks. The shadow servant is identical to an _[unseen servant](ref/spell/unseen-servant)_ (caster level equal to the shadow puppeteer's bard level), except it appears as a formless shadow. Shadow servant relies on visual components."
-
-[[entry.feature]]
-anchor = "shadow-puppets"
-head = "Shadow Puppets (Sp)"
-listed = true
-level = 1
-print = "At 1st level, a shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the _[summon monster I](ref/spell/summon-monster-1)_ list. These shadowy creatures otherwise work like _[shadow conjuration](ref/spell/shadow-conjuration)_, and targets interacting with them get a Will saving throw (DC 10 + 1/2 your bard level + your Charisma bonus) to treat them as only 20% real. At 4th level and every three levels thereafter, this ability acts like the next higher version of _summon monster_ (_summon monster II_ at 4th level and so on)."
-
-[[entry]]
-id = "ref/arc-bard/watersinger"
-hold = "checker: [fields] trades = \"replaces: The use of lore master gained at 5th level\" disagrees with the trade sentences of the feature `lifewater` = \"replaces: the use of lore master gained at 5th level (though a watersinger still gains the use of lore master once per day at 11th level and twice per day at 17th"
-opening = ["The watersinger's song reaches from the depths of his soul into the elemental waters from which life first sprang. His voice commands water, bending and shaping it to his desire."]
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "A watersinger has some unique bardic performances, which replace some of the standard bardic performances as listed in each entry. These bardic performances follow all the general rules and restrictions of a bard's bardic performances."
-
-[[entry.feature]]
-anchor = "watersong"
-head = "Watersong (Su)"
-listed = true
-level = 1
-print = "At 1st level, a watersinger can use bardic performance to manipulate and control the shape of water within 30 feet. A successful Perform check allows the bard to animate and control a 5-foot-cube of water. The watersinger can command the water to take various forms, bend, rise, fall, or sustain a shape, and can make it support weight as if it were solid ice. For example, the watersinger could create a pillar of water (to provide cover), ladder, channel, bridge, stairs, slide, and so on. The manipulated water is as slippery as normal ice. This ability cannot create forms more fragile or complex than what could be carved in normal ice. While under the bard's control, the water has [hardness](ref/umr/hardness) 0 and 3 hit points per inch of thickness. At level 3, the manipulated water gains [hardness](ref/umr/hardness) 1, and this increases by +1 for every 3 bard levels beyond that. At 5th, 10th, 15th, and 20th level, the volume affected increases by an additional 5-foot cube (these cubes must be adjacent to each other). The manipulated water retains its shape for 1 round after the bard stops spending bardic performance rounds to maintain it. This ability replaces fascinate, suggestion, and mass suggestion."
-import_trades = ["Fascinate", "suggestion", "mass suggestion"]
-
-[[entry.feature]]
-anchor = "waterstrike"
-head = "Waterstrike (Su)"
-listed = true
-level = 3
-print = "At 3rd level, the watersinger can spend 1 round of bardic performance to command any water he is currently manipulating with his watersong performance to lash out and strike an opponent with a slam attack. The watersinger uses his base attack bonus and Charisma bonus to make this attack, and deals 1d6 points of bludgeoning damage plus his Charisma bonus. The attack can originate from any square of water the bard is manipulating, and the water can get a flanking bonus or help a combatant get one, but cannot make attacks of opportunity. The water can make multiple attacks per round if your base attack bonus allows you to do so. At 10th level, the water's slam damage increases to 1d8 points and the water gains a reach of 10 feet. At 15th level, the water's slam damage increases to 2d6 points. At 20th level, the water's slam damage increases to 2d8 points. This performance replaces inspire competence."
-import_trades = ["Inspire competence"]
-
-[[entry.feature]]
-anchor = "lifewater"
-head = "Lifewater (Su)"
-listed = true
-level = 5
-print = "At 5th level, the watersinger can spend 1 round of bardic performance as a standard action to manipulate the water, blood, and other fluids within a creature's body, causing the target to become [sickened](ref/misc/sickened) for 1d4 rounds. Alternatively, he may use this ability to attempt a [reposition](ref/rule/reposition) combat maneuver (_Advanced Player's Guide_), using his base attack bonus and his Charisma modifier as his CMB. This ability has a range of 30 feet, only works on creatures whose bodies contain fluid, and does not affect creatures that are immune to critical hits. This performance replaces the use of lore master gained at 5th level (though a watersinger still gains the use of lore master once per day at 11th level and twice per day at 17th)."
-import_trades = ["The use of _lore master_ gained at 5th level"]
-
-[[entry.feature]]
-anchor = "watersinger-spells"
-head = "Watersinger Spells"
-listed = true
-print = "A watersinger adds certain water-themed spells to his spell list. He adds these abilities to his spell list as soon as his bard level allows him to cast spells of that spell level. 0—_create water_; 1st—_hydraulic push_ (_Advanced Player's Guide_), _slipstream_ (_Advanced Player's Guide_); 2nd— _aqueous orb_ (_Advanced Player's Guide_), _hydraulic torrent_ (_Advanced Player's Guide_), _water walk_; 3rd—_fluid form_ (_Advanced Player's Guide_), _ride the waves_ (_Ultimate Magic_); 4th—_control water_, _communal water walk_ (_Ultimate Combat_); 5th—_vortex_ (_Advanced Player's Guide_); 6th—_seamantle_ (_Advanced Player's Guide_)."
-
-[[entry]]
-id = "ref/arc-gunslinger/gulch-gunner"
-hold = "the alters trade `Grit` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["Ratfolk warfare often occurs in cramped, claustrophobic spaces such as the ratfolk's own underground warrens and heavily trapped gulch fortresses, or the subterranean tunnels of goblins and similar foes. Since these battlegrounds often have tight corners and few areas with long lines of sight, those ratfolk who seek to master the use of firearms almost inevitably become experts in close-quarters combat. These gulch gunners often specialize in proficiency with a single pistol (easily handled in tight spaces) and wander from warren to warren selling their tunnel-shooting skills to the highest bidder. A gulch gunner has the following class features."]
-
-[[entry.feature]]
-anchor = "class-skills"
-head = "Class Skills"
-listed = true
-print = "A gulch gunner adds Disable Device, Escape Artist, and Knowledge (dungeoneering) to her list of class skills and removes Knowledge (local), Ride, and Swim from her list of class skills."
-
-[[entry.feature]]
-anchor = "grit"
-head = "Grit (Ex)"
-listed = true
-level = 1
-print = "At 1st level, a gulch gunner gains grit as a standard gunslinger. However, the close-combat focus of the gulch gunner results in a slightly different set of circumstances for regaining grit."
-import_trades = ["Grit"]
-
-[[entry.feature]]
-anchor = "daring-adjacent-shot"
-head = "Daring Adjacent Shot"
-listed = false
-parent = "grit"
-print = "The first time each round the gulch gunner makes a ranged firearm attack against an adjacent foe and provokes an attack of opportunity, she regains 1 grit point. Making an adjacent firearm attack against a [helpless](ref/misc/helpless) or unaware creature or on a creature that has fewer Hit Dice than half the gulch gunner's character level does not restore grit, nor do ranged attacks using some ability that prevents the gulch gunner from provoking an attack of opportunity. This ability replaces the ability to regain grit from a critical hit with a firearm."
-import_trades = ["The ability to regain grit from a critical hit with a firearm"]
-
-[[entry.feature]]
-anchor = "deeds"
-head = "Deeds"
-listed = true
-print = "A gulch gunner has some unique deeds, which replace some of the standard gunslinger deeds as listed in each entry. These deeds follow all the general rules and restrictions of gunslinger deeds."
-
-[[entry.feature]]
-anchor = "flash-and-shock"
-head = "Flash and Shock (Ex)"
-listed = true
-level = 1
-print = "At 1st level, the gulch gunner can take advantage of the flash and sound of a firearm to throw off an attacker's aim at close range. When she makes an attack against a foe within her firearm's first range increment, she may spend 1 grit point to gain a +4 circumstance bonus to AC against that opponent until the beginning of her next turn. She can only perform this deed while wearing medium, light, or no armor, and while carrying no more than a light load. This deed replaces the deadeye deed."
-import_trades = ["Deadeye deed"]
-
-[[entry.feature]]
-anchor = "powder-burns"
-head = "Powder Burns (Ex)"
-listed = true
-level = 3
-print = '''
-At 3rd level, the gulch gunner learns to maximize the damage dealt by a firearm at extremely close range.
-
-When the gulch gunner successfully hits an adjacent foe with a ranged firearm attack, she may spend 1 grit point to deal an additional 1d6 points of fire damage from the muzzle flash of her weapon.
-
-The target must also make a Reflex save (DC 10 + 1/2 the gulch gunner's level + the gulch gunner's Wisdom modifier) or [catch on fire](ref/rule/catching-on-fire). This deed replaces the pistol whip deed.'''
-import_trades = ["Pistol whip deed"]
-
-[[entry.feature]]
-anchor = "staggering-shot"
-head = "Staggering Shot (Ex)"
-listed = true
-level = 15
-print = "At 15th level, when the gulch gunner hits an adjacent target with a ranged firearm attack, the target must also make a Fortitude save (DC 10 + 1/2 the gulch gunner's level + the gulch gunner's Wisdom modifier) or be [staggered](ref/misc/staggered) for 1d4 rounds. This deed replaces the menacing shot deed."
-import_trades = ["Menacing shot deed"]
-
-[[entry.feature]]
-anchor = "belly-shot"
-head = "Belly Shot (Ex)"
-listed = true
-level = 9
-print = "At 9th level, a gulch gunner can press her firearm directly against a vulnerable location of an adjacent target, dealing additional damage. When the gulch gunner successfully hits an adjacent target with a ranged firearm attack, she deals +1d6 points of damage. This damage increases to +2d6 at 13th level and to +3d6 at 17th level. Creatures immune to precision damage, critical hits, or sneak attacks do not take this additional damage. This ability replaces the gun training ability gained at 9th, 13th, and 17th level."
-import_trades = ["Gun training ability gained at 9th", "13th", "17th level"]
-
-[[entry]]
 id = "ref/arc-magus/spell-dancer"
 hold = "the replaces trade `5th-level bonus feat` is not printed in a sentence, and no listed feature of that name prints it; Arcane Movement (Su): the sentence \"This ability replaces the bonus feat a magus receives at 5th level\" names no trade"
+opening_from_print = true
 opening = ["The strong emphasis on wizards within elven culture influences how even non-wizard elves see themselves. Many elven magi do not consider themselves masters of a blend of martial and magical talents, but rather a sub-category of wizards who study the effect of physical movement and techniques upon spellcasting ability. They believe their ability to cast spells while fighting is an outgrowth of the concept of the \"spell dance,\"", "which itself is just another kind of wizardry.", "A spell dancer has the following class features."]
 
 [[entry.feature]]
@@ -351,7 +181,7 @@ At 1st level, a spell dancer gains the ability to expend 1 point from his arcane
 At 5th level, once per spell dance as a swift action, the spell dancer may use one of the following on himself as a swift action: _[blur](ref/spell/blur), [fly](ref/spell/fly),_ or _[haste](ref/spell/haste)_. These abilities last for 1 round. At 9th level, the spell dancer may instead take a swift action to use _[dimension door](ref/spell/dimension-door)_ as a [spell-like ability](ref/umr/spell-like-abilities) once during a spelldance. At 13th level, the spell dancer may instead choose to take a swift action to gain _[freedom of movement](ref/spell/freedom-of-movement)_ for 1d4 rounds.
 
 This ability replaces the magus's ability to expend points from his arcane pool as a swift action to grant any weapon he is holding magic bonuses for 1 minute.'''
-import_trades = ["The magus's ability to expend points from his _arcane pool_ as a swift action to grant any weapon he is holding magic bonuses for 1 minute"]
+import_trades = ["The magus's ability to expend points from his _arcane pool_ as a swift action to grant any weapon he is holding magic bonuses for 1 minute", "The magus's ability to expend points from his _arcane pool_ as a swift action to grant any weapon he is holding magic bonuses for 1 minute"]
 
 [[entry.feature]]
 anchor = "arcane-movement"
@@ -359,7 +189,7 @@ head = "Arcane Movement (Su)"
 listed = true
 level = 5
 print = "At 5th level, whenever a spell dancer casts a magus spell, he gains a competence bonus on Acrobatics, Climb, Escape Artist, and Stealth checks equal to the spell's level until the beginning of his next turn. This ability replaces the bonus feat a magus receives at 5th level."
-import_trades = ["5th-level bonus feat"]
+import_trades = ["5th-level bonus feat", "5th-level bonus feat"]
 
 [[entry.feature]]
 anchor = "dance-of-avoidance"
@@ -367,7 +197,7 @@ head = "Dance of Avoidance (Su)"
 listed = true
 level = 7
 print = "At 7th level, while wearing light armor or no armor, a spell dancer gains a +2 insight bonus to Armor Class. This ability replaces the medium armor class feature."
-import_trades = ["Medium armor"]
+import_trades = ["Medium armor", "Medium armor"]
 
 [[entry.feature]]
 anchor = "greater-dance-of-avoidance"
@@ -375,7 +205,7 @@ head = "Greater Dance of Avoidance (Su)"
 listed = true
 level = 13
 print = "At 13th level, while wearing light armor or no armor, a spell dancer's insight bonus to Armor Class increases to +4. This ability replaces the heavy armor class feature."
-import_trades = ["Heavy armor"]
+import_trades = ["Heavy armor", "Heavy armor"]
 
 [[entry.feature]]
 anchor = "magus-arcana"
@@ -386,6 +216,7 @@ print = "The following magus arcana complement the spell dancer archetype: [arca
 [[entry]]
 id = "ref/arc-monk/ironskin-monk"
 hold = "the replaces trade `and Spring Attack on the monk's bonus feat list` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
 opening = ["Through discipline and training, an ironskin monk hardens his body to withstand punishing blows.", "Though slow on his feet, his calloused hands and feet can shatter stone and stagger foes."]
 
 [[entry.feature]]
@@ -394,7 +225,7 @@ head = "Iron Skin (Ex)"
 listed = true
 level = 1
 print = "At 1st level, an ironskin monk gains a +1 bonus to his natural armor. This bonus stacks with any existing natural armor the ironskin monk already has. At 4th level, and every 4 levels thereafter, this bonus increases by +1. This ability replaces the monk's AC bonus ability and the ability to add his Wisdom bonus to his AC."
-import_trades = ["AC bonus", "the ability to add his Wisdom bonus to his AC"]
+import_trades = ["AC bonus, the ability to add his Wisdom bonus to his AC", "AC bonus", "the ability to add his Wisdom bonus to his AC"]
 
 [[entry.feature]]
 anchor = "bonus-feat"
@@ -402,7 +233,7 @@ head = "Bonus Feat"
 listed = true
 level = 1
 print = "At 1st level, an ironskin monk adds [Power Attack](ref/feat/power-attack) to his list of bonus feats. At 6th level, he adds [Improved Sunder](ref/feat/improved-sunder) to the list. At 10th level, he adds [Greater Sunder](ref/feat/greater-sunder) to the list. These bonus feat choices replace Dodge, Mobility, and Spring Attack on his bonus feat list."
-import_trades = ["Dodge", "Mobility", "Spring Attack on the monk's bonus feat list"]
+import_trades = ["Dodge, Mobility, and Spring Attack on the monk's bonus feat list", "Dodge", "Mobility", "Spring Attack on the monk's bonus feat list"]
 
 [[entry.feature]]
 anchor = "resilience"
@@ -410,7 +241,7 @@ head = "Resilience (Ex)"
 listed = true
 level = 2
 print = "At 2nd level, an ironskin monk can shake off the physical effects of certain attacks. If he makes a Fortitude saving throw against an attack that has a reduced effect on a successful save, he instead avoids the effect entirely. This ability can be used only if the monk is wearing light armor or no armor. A helpless monk does not gain the benefits of resilience. This ability replaces evasion."
-import_trades = ["Evasion"]
+import_trades = ["Evasion", "Evasion"]
 
 [[entry.feature]]
 anchor = "ki-pool"
@@ -418,7 +249,7 @@ head = "Ki Pool (Su)"
 listed = true
 level = 4
 print = "At 4th level, an ironskin monk can spend 1 point from his ki pool to gain a damage bonus equal to 1/2 his level against objects and constructs for 1 round. This replaces the ability to increase speed with ki."
-import_trades = ["The ability to increase speed with ki"]
+import_trades = ["The ability to increase speed with ki", "The ability to increase speed with ki"]
 
 [[entry.feature]]
 anchor = "staggering-blow"
@@ -426,7 +257,7 @@ head = "Staggering Blow (Ex)"
 listed = true
 level = 5
 print = "At 5th level, an ironskin monk attacking with an unarmed strike can spend 1 point from his ki pool as a free action after a successful critical hit to [stagger](ref/misc/staggered) the creature struck for 1 round (Fort DC 10 + 1/2 the ironskin monk's level + the ironskin monk's Wisdom modifier negates). This ability replaces high jump."
-import_trades = ["High jump"]
+import_trades = ["High jump", "High jump"]
 
 [[entry.feature]]
 anchor = "tough-as-nails"
@@ -434,7 +265,7 @@ head = "Tough as Nails (Ex)"
 listed = true
 level = 6
 print = "At 6th level, an ironskin monk gains [DR](ref/rule/damage-reduction) 1/—. Subtract 1 point from the damage the ironskin monk takes each time he is dealt damage from a weapon or a natural attack. This damage reduction increases by 1 point at 9th level and every 3 levels thereafter. Damage reduction can reduce damage to 0 but not below 0. This ability replaces fast movement and slow fall."
-import_trades = ["Fast movement", "slow fall"]
+import_trades = ["Fast movement, slow fall", "Fast movement", "slow fall"]
 
 [[entry.feature]]
 anchor = "evasion"
@@ -442,7 +273,7 @@ head = "Evasion (Ex)"
 listed = true
 level = 9
 print = "At 9th level, an ironskin monk gains [evasion](ref/ability/evasion). This ability replaces improved evasion."
-import_trades = ["Improved evasion"]
+import_trades = ["Improved evasion", "Improved evasion"]
 
 [[entry.feature]]
 anchor = "surefooted"
@@ -450,7 +281,7 @@ head = "Surefooted (Ex)"
 listed = true
 level = 17
 print = "At 17th level, an ironskin monk's speed is not reduced by [difficult terrain](ref/rule/terrain-and-obstacles). This ability replaces tongue of the sun and moon."
-import_trades = ["Tongue of the sun", "moon"]
+import_trades = ["Tongue of the sun and moon", "Tongue of the sun", "moon"]
 
 [[entry.feature]]
 anchor = "unbreakable"
@@ -458,12 +289,13 @@ head = "Unbreakable (Ex)"
 listed = true
 level = 20
 print = "At 20th level, an ironskin monk sets aside many of the frailties of mortal flesh. He becomes immune to death effects and stunning. He is not subject to [ability damage or ability drain](ref/rule/ability-damage-drain), and has a 75% chance of ignoring the extra damage dealt by critical hits and sneak attacks. This ability replaces perfect self."
-import_trades = ["Perfect self"]
+import_trades = ["Perfect self", "Perfect self"]
 
 [[entry]]
 id = "ref/arc-oracle/ancient-lorekeeper"
 hold = "the replaces trade `Bonus skills from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `Bonus spells gained from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it; Elven Arcana (Ex): the sentence \"This ability replaces the bonus spells she would normally gain at these levels from her chosen mystery\" names no trade"
-opening = ["The ancient lorekeeper is a repository for all the beliefs and vast knowledge of an elven people. She shows a strong interest in and understanding of histories and creation legends at a young age, and as she matures her calling to serve as the memory of her long-lived people becomes clear to all who know her. An ancient lorekeeper has the following class features."]
+opening_from_print = true
+opening = ["The ancient lorekeeper is a repository for all the beliefs and vast knowledge of an [elven](ref/race/elf) people. She shows a strong interest in and understanding of histories and creation legends at a young age, and as she matures her calling to serve as the memory of her long-lived people becomes clear to all who know her. An ancient lorekeeper has the following class features."]
 
 [[entry.feature]]
 anchor = "class-skills"
@@ -477,7 +309,7 @@ head = "Elven Arcana (Ex)"
 listed = true
 level = 2
 print = "At 2nd level, an ancient lorekeeper's mastery of elven legends and philosophy has allowed her to master one spell used by elven wizards. She selects one spell from the sorcerer/wizard spell list that is at least one level lower than the highest-level oracle spell she can cast. The ancient lorekeeper gains this as a bonus spell known. The spell is treated as one level higher than its true level for all purposes. The ancient lorekeeper may choose an additional spell at 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th levels. This ability replaces the bonus spells she would normally gain at these levels from her chosen mystery."
-import_trades = ["Bonus spells gained from the oracle's mystery"]
+import_trades = ["Bonus spells gained from the oracle's mystery", "Bonus spells gained from the oracle's mystery"]
 
 [[entry.feature]]
 anchor = "mysteries"
@@ -488,6 +320,7 @@ print = "The following oracle mysteries complement the ancient lorekeeper archet
 [[entry]]
 id = "ref/arc-oracle/community-guardian"
 hold = "the replaces trade `Bonus skills from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `The bonus spells gained at 2nd, 4th, 6th, 10th, and 12th levels from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
 opening = ["The community guardian is chosen to protect and succor the weak and innocent within her community. Her calling also allows her to draw upon and focus the collective will in order to achieve those goals. A community guardian has the following class features."]
 
 [[entry.feature]]
@@ -500,7 +333,7 @@ print = "Any good."
 anchor = "recommended-mysteries"
 head = "Recommended Mysteries"
 listed = true
-print = "ancestor (_Ultimate Magic_ 53), life, lore, nature."
+print = "ancestor, life, lore, nature."
 
 [[entry.feature]]
 anchor = "class-skills"
@@ -513,7 +346,7 @@ anchor = "bonus-spells"
 head = "Bonus Spells"
 listed = false
 print = "_bless water_ (2nd), _consecrate_ (4th), _remove disease_ (6th), _hallow_ (10th), _heroes' feast_ (12th). These bonus spells replace the oracle's mystery bonus spells from these levels."
-import_trades = ["The bonus spells gained at 2nd", "4th", "6th", "10th", "12th levels from the oracle's mystery"]
+import_trades = ["The bonus spells gained at 2nd, 4th, 6th, 10th, and 12th levels from the oracle's mystery", "The bonus spells gained at 2nd", "4th", "6th", "10th", "12th levels from the oracle's mystery"]
 
 [[entry.feature]]
 anchor = "revelations"
@@ -535,7 +368,8 @@ print = "Once per day you can produce a [burst](ref/misc/burst) of swirling whit
 
 [[entry]]
 id = "ref/arc-oracle/purifier"
-hold = "the replaces trade `All bonus spells from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `Revelations from her mystery gained at 3rd, 7th, and 11th levels` is not printed in a sentence, and no listed feature of that name prints it"
+hold = "the replaces trade `All bonus spells from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
 opening = ["The purifier seeks out signs of possession or mind control that manifest from unwilling (and often unwitting) servants for fiendish corruptors and their mortal minions. A purifier seeks liberation of mind, body, and spirit from the bondage of sin and the taint of the unholy. A purifier gains the following class features."]
 
 [[entry.feature]]
@@ -549,7 +383,7 @@ anchor = "bonus-spells"
 head = "Bonus Spells"
 listed = false
 print = "_veil of heaven_ (2nd), _confess_ (_Advanced Player's Guide_ 212; 4th), _cast out_ (_Advanced Player's Guide_ 210; 6th), _denounce_ (_Advanced Player's Guide_ 215; 8th), _dispel evil_ (10th), _banishment_ (12th), _holy word_ (14th), _mind blank_ (16th), _freedom_ (18th)."
-import_trades = ["All bonus spells from the oracle's mystery"]
+import_trades = ["All bonus spells from the oracle's mystery", "All bonus spells from the oracle's mystery"]
 
 [[entry.feature]]
 anchor = "diminished-spellcasting"
@@ -562,7 +396,7 @@ anchor = "revelations"
 head = "Revelations"
 listed = true
 print = "A purifier must take the following revelations at the listed levels."
-import_trades = ["Revelations from her mystery gained at 3rd", "7th", "11th levels"]
+import_trades = ["Revelations from her mystery gained at 3rd, 7th, and 11th levels", "Revelations from her mystery gained at 3rd", "7th", "11th levels"]
 
 [[entry.feature]]
 anchor = "see-sin"
@@ -612,6 +446,7 @@ print = "At 13th level, a purifier may use her sacred scourge to compel good out
 [[entry]]
 id = "ref/arc-oracle/reincarnated-oracle"
 hold = "the replaces trade `The bonus spells gained at 2nd, 4th, 10th, 16th, and 18th levels from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
 opening = ["A reincarnated oracle draws her knowledge and power from the experiences of her previous lives. Her memories guide her through a spiritual ascension leading the way to her ultimate incarnation. A reincarnated oracle has the following class features."]
 
 [[entry.feature]]
@@ -631,7 +466,7 @@ anchor = "bonus-spells"
 head = "Bonus Spells"
 listed = false
 print = "_see alignment_ (_Ultimate Combat_, 2nd), _detect thoughts_ (4th), _contact other plane_ (10th), _moment of prescience_ (16th), _overwhelming presence_ (_Ultimate Magic_, 18th). These spells replace the oracle's mystery bonus spells at these levels."
-import_trades = ["The bonus spells gained at 2nd", "4th", "10th", "16th", "18th levels from the oracle's mystery"]
+import_trades = ["The bonus spells gained at 2nd, 4th, 10th, 16th, and 18th levels from the oracle's mystery", "The bonus spells gained at 2nd", "4th", "10th", "16th", "18th levels from the oracle's mystery"]
 
 [[entry.feature]]
 anchor = "revelations"
@@ -654,6 +489,7 @@ print = "Once per day, you call upon the unfulfilled desires and goals of your p
 [[entry]]
 id = "ref/arc-oracle/shigenjo"
 hold = "the replaces trade `The bonus spells gained at 2nd, 4th, 8th, 12th, 14th, and 16th levels from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
 opening = ["The shigenjo walks the path of enlightenment and transcendence by seeking oneness with the celestial spirits. In doing so, she unlocks the martial potential of her own spiritual power. A shigenjo has the following class features."]
 
 [[entry.feature]]
@@ -679,7 +515,7 @@ anchor = "bonus-spells"
 head = "Bonus Spells"
 listed = false
 print = "_true strike_ (2nd), _alter self_ (4th), _divine power_ (8th), _magic jar_ (12th), _ki shout_ (14th, _Ultimate Magic_), _moment of prescience_ (16th). These bonus spells replace the shigenjo's mystery bonus spells at these levels."
-import_trades = ["The bonus spells gained at 2nd", "4th", "8th", "12th", "14th", "16th levels from the oracle's mystery"]
+import_trades = ["The bonus spells gained at 2nd, 4th, 8th, 12th, 14th, and 16th levels from the oracle's mystery", "The bonus spells gained at 2nd", "4th", "8th", "12th", "14th", "16th levels from the oracle's mystery"]
 
 [[entry.feature]]
 anchor = "ki-pool"
@@ -690,7 +526,7 @@ print = '''
 At 7th level, a shigenjo gains a pool of ki points, supernatural energy she can use to accomplish amazing feats. The number of points in the shigenjo's ki pool is equal to 1/3 her oracle level + her Charisma modifier. The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive. If the shigenjo possesses levels in another class that grants points to a ki pool, ki points gained from the shigenjo class stack with those gained from the other class to determine the total number of ki points in the combined pool, but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice is permanent. The shigenjo can use ki points from this pool to power the abilities of every class she possesses that grants a ki pool.
 
 As long as she has at least 1 point in her ki pool, a shigenjo can make a ki strike as a monk whose level is equal to her oracle level - 3. As a swift action, she may spend 1 point from her ki pool to gain one of the following three benefits.'''
-import_trades = ["7th-level revelation"]
+import_trades = ["7th-level revelation", "7th-level revelation"]
 
 [[entry.feature]]
 anchor = "ki-magic"
@@ -728,19 +564,21 @@ anchor = "final-revelation"
 head = "Final Revelation"
 listed = true
 print = "Upon reaching 20th level, you achieve true enlightenment and become one with the celestial spirits. You gain the ability to speak with any creature that uses a language. For a number of days equal to your Wisdom score, you can ignore the negative effects of extreme weather, starvation, thirst, and exhaustion. If you die, your powerful connection to the celestial realm allows you to be reborn 3 days later (as _[reincarnate](ref/spell/reincarnate)_). This replaces the final revelation of the shigenjo's mystery."
-import_trades = ["Final revelation"]
+import_trades = ["Final revelation", "Final revelation"]
 
 [[entry]]
 id = "ref/arc-paladin/stonelord"
 hold = "the replaces trade `3rd-, 9th-, and 15th-level mercies` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
 opening = ["A stonelord is a devoted sentinel of dwarven enclaves, drawing the power of the earth and ancient stone to protect her people."]
 
 [[entry.feature]]
 anchor = "stonestrike"
 head = "Stonestrike (Su)"
 listed = true
+level = 1
 print = "Once per day per paladin level, a stonelord can draw upon the power of the living rock. As a swift action, she treats her melee attacks until the beginning of her next turn (whether armed or unarmed) as magical and [adamantine](ref/eq-material/adamantine), including ignoring [hardness](ref/umr/hardness) up to twice her paladin level, with a +1 bonus on attack and damage rolls, as well as on combat maneuver checks. This bonus also applies to her CMD if she or her target is touching the ground or a stone structure. This bonus increases by +1 at 5th level and every 5 levels thereafter. This ability replaces smite evil."
-import_trades = ["Smite evil"]
+import_trades = ["Smite evil", "Smite evil"]
 
 [[entry.feature]]
 anchor = "heartstone"
@@ -748,7 +586,7 @@ head = "Heartstone (Ex)"
 listed = true
 level = 2
 print = "At 2nd level, a stonelord's flesh becomes progressively rockier. She gains a +1 natural armor bonus to AC and DR/adamantine equal to 1/2 her paladin level. The natural armor bonus increases by +1 at 6th level, and every four levels thereafter, to a maximum of +5 at 18th level. These benefits are halved when not touching the ground or a stone structure. This ability replaces divine grace."
-import_trades = ["Divine grace"]
+import_trades = ["Divine grace", "Divine grace"]
 
 [[entry.feature]]
 anchor = "stoneblood"
@@ -756,15 +594,15 @@ head = "Stoneblood (Ex)"
 listed = true
 level = 3
 print = "At 3rd level, a stonelord's vitals begin to calcify and her blood transforms into liquid stone. She adds her paladin level on checks to stabilize at negative hit points and gains a 25% chance to ignore a critical hit or precision damage. This does not stack with _[fortification](ref/magic-enh/fortification)_ armor or similar effects. At 9th level, this chance increases to 50% and she becomes immune to petrification. At 15th level, this chance increases to 75% and she becomes immune to [bleed](ref/rule/bleed) and [blood drain](ref/umr/blood-drain) effects. This ability replaces divine health and her mercies gained at 3rd, 9th, and 15th level."
-import_trades = ["Divine health", "3rd-", "9th-", "15th-level mercies"]
+import_trades = ["Divine health, 3rd-, 9th-, and 15th-level mercies", "Divine health", "3rd-", "9th-", "15th-level mercies"]
 
 [[entry.feature]]
 anchor = "defensive-stance"
 head = "Defensive Stance (Ex)"
 listed = true
 level = 4
-print = "At 4th level, a stonelord gains the defensive stance ability, as a [stalwart defender](ref/pclass/stalwart-defender) (_Advanced Player's Guide_ 277), and may select one defensive power at 8th level and every four levels thereafter. Levels of stalwart defender stack with her paladin levels when determining the total number of rounds that she can maintain her defensive stance per day. A stonelord does not gain any spells or spellcasting abilities, does not have a caster level, and cannot use spell trigger or spell completion magic items."
-import_trades = ["Spells"]
+print = "At 4th level, a stonelord gains the defensive stance ability, as a [stalwart defender](ref/pclass/stalwart-defender), and may select one defensive power at 8th level and every four levels thereafter. Levels of stalwart defender stack with her paladin levels when determining the total number of rounds that she can maintain her defensive stance per day. A stonelord does not gain any spells or spellcasting abilities, does not have a caster level, and cannot use spell trigger or spell completion magic items."
+import_trades = ["Spells", "Spells"]
 
 [[entry.feature]]
 anchor = "earth-channel"
@@ -772,7 +610,7 @@ head = "Earth Channel (Su)"
 listed = true
 level = 4
 print = "At 4th level, a stonelord gains [Elemental Channel](ref/feat/elemental-channel) (earth) as a bonus feat, which she may activate by spending two uses of her lay on hands ability, using her paladin level as her effective cleric level. This ability replaces channel positive energy."
-import_trades = ["Channel positive energy"]
+import_trades = ["Channel positive energy", "Channel positive energy"]
 
 [[entry.feature]]
 anchor = "stone-servant"
@@ -780,7 +618,7 @@ head = "Stone Servant (Su)"
 listed = true
 level = 5
 print = "At 5th level, a stonelord may call a [Small earth elemental](ref/monster/earth-elemental) to her side, as a paladin calls her mount. This earth elemental is Lawful Good in alignment and possesses the [celestial](ref/template/celestial) template, and it increases in size as the stonelord gains levels, becoming Medium at 8th level, Large at 11th level, Huge at 14th level, Greater at 17th level, and Elder at 20th level. This ability replaces divine bond."
-import_trades = ["Divine bond"]
+import_trades = ["Divine bond", "Divine bond"]
 
 [[entry.feature]]
 anchor = "stonebane"
@@ -788,7 +626,7 @@ head = "Stonebane (Su)"
 listed = true
 level = 11
 print = "At 11th level, when using stonestrike, a stonelord's attack gains the _[bane](ref/magic-enh/bane)_ weapon special ability against creatures with the earth subtype and constructs or objects made of earth or stone. This ability replaces aura of justice."
-import_trades = ["Aura of justice"]
+import_trades = ["Aura of justice", "Aura of justice"]
 
 [[entry.feature]]
 anchor = "phase-strike"
@@ -796,7 +634,7 @@ head = "Phase Strike (Su)"
 listed = true
 level = 12
 print = "At 12th level, a stonelord's stonestrike may pass through stone and metal as if they weren't there. By spending 2 uses of her stonestrike ability, she may ignore any cover less than total cover provided by stone or metal, and she ignores any AC bonus from stone or metal armor or shields as if wielding a _[brilliant energy](ref/magic-enh/brilliant-energy)_ weapon. A phase strike cannot damage constructs, objects, or creatures with the earth subtype, but unlike a _brilliant energy_ weapon, it can harm undead. This ability replaces her 12th-level mercy."
-import_trades = ["12th-level mercy"]
+import_trades = ["12th-level mercy", "12th-level mercy"]
 
 [[entry.feature]]
 anchor = "mobile-defense"
@@ -804,7 +642,7 @@ head = "Mobile Defense (Ex)"
 listed = true
 level = 18
 print = "At 18th level, a stonelord can make one 5-foot step per round while maintaining her defensive stance. This ability replaces her 18th-level mercy."
-import_trades = ["18th-level mercy"]
+import_trades = ["18th-level mercy", "18th-level mercy"]
 
 [[entry.feature]]
 anchor = "stone-body"
@@ -812,19 +650,21 @@ head = "Stone Body (Ex)"
 listed = true
 level = 20
 print = "At 20th level, a stonelord's body transforms into living stone. She no longer needs to eat, drink, breathe, or sleep, and she becomes immune to paralysis, poison, and stunning. She is also no longer subject to critical hits or precision-based damage. This ability replaces holy champion."
-import_trades = ["Holy champion"]
+import_trades = ["Holy champion", "Holy champion"]
 
 [[entry]]
 id = "ref/arc-ranger/wave-warden"
 hold = "the replaces trade `All combat style bonus feats` is not printed in a sentence, and no listed feature of that name prints it; Aquatic Prowess Feat (Ex): the sentence \"This ability replaces the standard ranger's combat style bonus feats, including the limitations on armor worn\" names no trade"
+opening_from_print = true
 opening = ["The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities. Though he fares best beneath the water, dry land is no haven to his quarry."]
 
 [[entry.feature]]
 anchor = "deep-sentinel"
 head = "Deep Sentinel (Ex)"
 listed = true
+level = 1
 print = "A wave warden adds half his level (minimum +1) on Perception checks made to notice creatures underwater. This ability replaces track."
-import_trades = ["Track"]
+import_trades = ["Track", "Track"]
 
 [[entry.feature]]
 anchor = "aquatic-prowess-feat"
@@ -832,7 +672,7 @@ head = "Aquatic Prowess Feat (Ex)"
 listed = true
 level = 2
 print = "At 2nd level and every four levels thereafter, a wave warden selects a bonus feat that improves his prowess in aquatic environments. He can choose these feats even if he does not meet the prerequisites. Initially, he may choose from the following feats: [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility), [Net Adept](ref/feat/net-adept) (_Ultimate Combat_), [Net and Trident](ref/feat/net-and-trident) (_Ultimate Combat_), [Net Maneuvering](ref/feat/net-maneuvering) (_Ultimate Combat_), [Precise Shot](ref/feat/precise-shot), [Rapid Reload](ref/feat/rapid-reload), [Sea Hunter](ref/feat/sea-hunter), and [Two-Weapon Fighting](ref/feat/two-weapon-fighting). At 6th level, he adds [Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting), [Net Trickery](ref/feat/net-trickery) (_Ultimate Combat_), and [Spring Attack](ref/feat/spring-attack) to the list. At 10th level, he adds [Greater Two-Weapon Fighting](ref/feat/greater-two-weapon-fighting) and [Improved Precise Shot](ref/feat/improved-precise-shot) to the list. This ability otherwise functions like and replaces the standard ranger's combat style bonus feats, including the limitations on armor worn."
-import_trades = ["All combat style bonus feats"]
+import_trades = ["All combat style bonus feats", "All combat style bonus feats"]
 
 [[entry.feature]]
 anchor = "favored-terrain"
@@ -840,7 +680,7 @@ head = "Favored Terrain (Ex)"
 listed = true
 level = 3
 print = "At 3rd level, a wave warden gains water as a favored terrain. At 8th level and every five levels thereafter, his bonus in aquatic terrain increases by +2. He does not gain additional favored terrains. This otherwise functions like the standard ranger's favored terrain ability and replaces that ability."
-import_trades = ["Favored terrain"]
+import_trades = ["Favored terrain", "Favored terrain"]
 
 [[entry.feature]]
 anchor = "seaborn"
@@ -848,7 +688,7 @@ head = "Seaborn (Ex)"
 listed = true
 level = 7
 print = "At 7th level, a wave warden may move through any sort of aquatic growth (such as coral or seaweed) or across a wet surface at his normal speed and without taking damage or suffering any other impairment. Obstacles that are enchanted or magically manipulated to impede motion still affect him. This ability replaces woodland stride."
-import_trades = ["Woodland stride"]
+import_trades = ["Woodland stride", "Woodland stride"]
 
 [[entry.feature]]
 anchor = "watery-summons"
@@ -856,71 +696,12 @@ head = "Watery Summons (Sp)"
 listed = true
 level = 8
 print = "At 8th level, a wave warden can summon allies once per day as a full-round action. This functions as _[summon nature's ally III](ref/spell/summon-natures-ally-3)_, except it can only be used to summon creatures with the aquatic or water subtypes. At 11th level, this ability improves to _summon nature's ally IV_, with this progression continuing every three levels thereafter. The warden's caster level is equal to his ranger level. This ability replaces swift tracker."
-import_trades = ["Swift tracker"]
-
-[[entry]]
-id = "ref/arc-ranger/wild-shadow"
-hold = "checker: [fields] trades = \"replaces: Woodland stride\" disagrees with the trade sentences of the feature `unfettered-step` = \"replaces: the ranger's woodland stride class feature gained at 7th level\" (line 69)"
-opening = ["The isolation that some half-elves feel leads them to live a life of isolation amid the wild places of the world. Such rangers stalk the wild like shadows, creating close bonds with the wild itself instead of seeking the solace and aid of companions. While ill at ease within cities and other urban areas, they are adept at using the terrain to tactical advantage; they dart through brambles and rough terrain with uncommon grace and use the land itself to lock down enemies. A wild shadow has the following class features."]
-
-[[entry.feature]]
-anchor = "wild-at-heart"
-head = "Wild at Heart (Ex)"
-listed = true
-level = 1
-print = "At 1st level, a wild shadow adds only 1/2 his class level when making wild empathy checks while in urban areas, and adds only 1/4 his class level to follow or identify tracks in such areas. In non-urban settings, he is considered two levels higher when determining the bonuses for such checks. This ability alters the track and wild empathy class features."
-import_trades = ["Track", "wild empathy"]
-
-[[entry.feature]]
-anchor = "favored-terrain"
-head = "Favored Terrain (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, when a wild shadow chooses a favored terrain, he cannot choose urban as the terrain type. Furthermore, at 8th level and every five levels thereafter, when he chooses a new favorite terrain type, he cannot choose the urban terrain type. This ability alters the favored terrain class feature."
-import_trades = ["Favored terrain"]
-
-[[entry.feature]]
-anchor = "woodland-stride"
-head = "Woodland Stride (Ex)"
-listed = true
-print = "This ability functions as the 7th-level ranger class feature [of the same name](ref/ability/woodland-stride), but the wild shadow gains it at 4th level instead. This ability replaces the hunter's bond class feature."
-import_trades = ["Hunter's bond"]
-
-[[entry.feature]]
-anchor = "unfettered-step"
-head = "Unfettered Step (Ex)"
-listed = true
-level = 7
-print = "At 7th level, a wild shadow's woodland stride class feature functions in any [difficult terrain](ref/rule/terrain-and-obstacles) within any of his favored terrains, even in areas that are enchanted or magically manipulated to impede motion. This ability replaces the ranger's woodland stride class feature gained at 7th level."
-import_trades = ["Woodland stride"]
-
-[[entry.feature]]
-anchor = "harrying-attack"
-head = "Harrying Attack (Ex)"
-listed = true
-level = 11
-print = "At 11th level, a wild shadow can use his knowledge of terrain to make shrewd attacks in combat. Such attacks can make foes fumble or cause them to become [entangled](ref/rule/entangled) within areas of the wild shadow's favored terrain. As a standard action, the wild shadow denotes one target within line of sight and within one of his favored terrains as his harried prey. Once the foe is so designated, every time the wild shadow hits this harried prey with a melee or ranged weapon attack (either manufactured or natural), that creature is entangled for 1 round. A wild shadow can have no more than one harried prey at a time and that creature must correspond to one of his favored enemy types. He can dismiss this effect at any time as a free action, be he cannot select a new harried prey for 24 hours. If the wild shadow sees proof that his harried prey is dead, he can select a new harried prey after waiting 1 hour. This ability replaces the quarry class feature."
-import_trades = ["Quarry"]
-
-[[entry.feature]]
-anchor = "wild-stalker"
-head = "Wild Stalker (Ex)"
-listed = true
-level = 14
-print = "At 14th level, a wild shadow learns to better use natural surroundings to obscure his position in combat. Whenever a wild shadow is within one of his favored terrains and a feature of that terrain grants him [cover](ref/rule/cover), the bonuses to AC and Reflex saves for that cover improve by 1. Additionally, while he is within one of his favored terrains, if he gains [concealment](ref/rule/concealment) or total concealment, the miss chance of either type of concealment improves by 10%. Furthermore, at 16th level and 19th level, the bonuses granted by cover increase by 1 and the miss chance increases by another 10% (maximum +3 and +30% respectively at 20th level). This ability replaces the camouflage class feature."
-import_trades = ["Camouflage"]
-
-[[entry.feature]]
-anchor = "master-of-terrain"
-head = "Master of Terrain (Ex)"
-listed = true
-level = 19
-print = "At 19th level, a wild shadow can use his harrying attack against creatures other than his favored enemy or he can spend a standard action to designate up to two of his favored enemies as his harried prey instead. This ability replaces the improved quarry class feature."
-import_trades = ["Improved quarry"]
+import_trades = ["Swift tracker", "Swift tracker"]
 
 [[entry]]
 id = "ref/arc-rogue/deadly-courtesan"
 hold = "the replaces trade `Rogue talent gained at 2nd level` is not printed in a sentence, and no listed feature of that name prints it; Bardic Performance (Su): the sentence \"This ability replaces the rogue trick gained at 2nd level\" names no trade"
+opening_from_print = true
 opening = ["Skilled at manipulation and diversion, the deadly courtesan builds up those around her and periodically takes them down. She can be a spy, entertainer, assassin, bodyguard, or just an intimate to someone who needs it most. A deadly courtesan has the following class features."]
 
 [[entry.feature]]
@@ -936,7 +717,7 @@ head = "Bardic Performance (Su)"
 listed = true
 level = 2
 print = "At 2nd level, a deadly courtesan gains the bardic performance ability and the [fascinate](ref/performance/fascinate) bardic performance. Her fascinate DC is 10 + 1/2 her rogue level + her Charisma modifier. She can use this bardic performance for a number of rounds per day equal to 1 + her Charisma modifier. At each level after 2nd, she can use bardic performance for 1 additional round per day. If the courtesan also has bard levels, she may use these rounds for either class's fascinate bardic performance, and her bard and rogue levels stack for determining her fascinate DC. This ability replaces the rogue trick gained at 2nd level."
-import_trades = ["Rogue talent gained at 2nd level"]
+import_trades = ["Rogue talent gained at 2nd level", "Rogue talent gained at 2nd level"]
 
 [[entry.feature]]
 anchor = "inspire-competence"
@@ -944,7 +725,7 @@ head = "Inspire Competence (Su)"
 listed = true
 level = 3
 print = "At 3rd level, a deadly courtesan can use her bardic performance to [inspire competence](ref/performance/inspire-competence). The bonus begins at +2 and increases by +1 for every six levels the courtesan has attained beyond 3rd (+3 at 9th and +4 at 15th). This ability replaces all levels of trap sense."
-import_trades = ["Trap sense"]
+import_trades = ["Trap sense", "Trap sense"]
 
 [[entry.feature]]
 anchor = "performance-strike"
@@ -952,7 +733,7 @@ head = "Performance Strike (Sp)"
 listed = true
 level = 8
 print = "At 8th level, as a swift action, a deadly courtesan may expend rounds of bardic performance to gain a morale bonus on one attack roll. The amount of the bonus is equal to the number of bardic performance rounds expended (maximum bonus equal to 1/2 her deadly courtesan level). This ability replaces improved uncanny dodge."
-import_trades = ["Improved uncanny dodge"]
+import_trades = ["Improved uncanny dodge", "Improved uncanny dodge"]
 
 [[entry.feature]]
 anchor = "rogue-talents"
@@ -967,81 +748,9 @@ listed = false
 print = "The following advanced rogue talents complement the deadly courtesan archetype: slippery mind (_Core Rulebook_); master of disguise (_Advanced Player's Guide_); rumormonger, unwitting ally (_Ultimate Combat_)."
 
 [[entry]]
-id = "ref/arc-rogue/swordmaster"
-hold = "checker: [fields] trades = \"replaces: Trap sense\" disagrees with the trade sentences of the feature `tiger-trance` = \"replaces: all increments of trap sense\" (line 92)"
-opening = ["A swordmaster meditates to strengthen her spiritual connection to her blade. She strives to perfect her skills by mastering six deadly trances. A swordmaster has the following class features."]
-
-[[entry.feature]]
-anchor = "class-skills"
-head = "Class Skills"
-listed = true
-print = "The swordmaster adds Knowledge (nature) and Survival to her list of class skills and removes Disguise and Knowledge (dungeoneering) from her list of class skills."
-
-[[entry.feature]]
-anchor = "trance"
-head = "Trance (Ex)"
-listed = true
-level = 3
-print = '''
-At 3rd level, a swordmaster learns to focus her martial prowess using an intense meditative trance. Under the influence of a trance, the swordmaster can perform fantastic martial feats. Entering a trance is a full-round action that provokes attacks of opportunity. The swordmaster can maintain the trance for a number of rounds per day equal to 4 + her Wisdom modifier. At each level beyond 3rd, she can remain in the trance for 1 additional round. She can end her trance as a free action. Following a trance, the swordmaster is [fatigued](ref/misc/fatigued) for a number of rounds equal to 2 × the number of rounds she spent in the trance. A swordmaster cannot enter a new trance while fatigued but can otherwise enter a trance multiple times during a single encounter or combat. If a swordmaster falls unconscious, her trance immediately ends.
-
-At 3rd level, the swordmaster chooses one trance from the list below. She chooses another trance at 6th, 9th, 12th, 15th, and 18th level. She can only use one type of trance at a time.'''
-import_trades = ["Trap sense"]
-
-[[entry.feature]]
-anchor = "crane-trance"
-head = "Crane Trance (Ex)"
-listed = true
-print = "The swordmaster's blade rises and falls with the graceful sweeping arcs of the mountain crane. When in this trance, a swordmaster gains the benefits of the [Crane Style](ref/feat/crane-style) feat (_Ultimate Combat_ 93)."
-
-[[entry.feature]]
-anchor = "dragon-trance"
-head = "Dragon Trance (Ex)"
-listed = true
-print = "Like the dragon, the swordmaster has honed the steadiness of her mind and body. When in this trance, a swordmaster gains the benefits of the [Dragon Style](ref/feat/dragon-style) feat (_Ultimate Combat_ 98)."
-
-[[entry.feature]]
-anchor = "leopard-trance"
-head = "Leopard Trance (Ex)"
-listed = true
-print = "Using the swiftness of the leopard, a swordmaster's evasive footwork confuses her opponents. When in this trance, a swordmaster gains the benefits of the [Mobility](ref/feat/mobility) feat."
-
-[[entry.feature]]
-anchor = "monkey-trance"
-head = "Monkey Trance (Ex)"
-listed = true
-print = "As the monkey springs, the swordmaster leaps from the reach of her enemies. While in this trance, a swordmaster can make an Acrobatics check opposed by an opponent's CMD. If she succeeds, she may move 5 feet as a swift action within the opponent's threatened area; this movement does not provoke attacks of opportunity and does not count as a 5-foot step."
-
-[[entry.feature]]
-anchor = "serpent-trance"
-head = "Serpent Trance (Ex)"
-listed = true
-print = "Like the serpent, the swordmaster's quick movements allow her to catch her opponent unawares. While in this trance, a swordmaster receives a +4 bonus on Bluff checks made to feint during combat."
-
-[[entry.feature]]
-anchor = "tiger-trance"
-head = "Tiger Trance (Ex)"
-listed = true
-print = '''
-The swordmaster pounces upon her opponents, striking with the ferocity and brute force of a wild tiger. While in this trance, a swordmaster can make a combat maneuver check against an opponent within [charge](ref/rule/charge) range. If she succeeds, she may charge that opponent and make a full attack against that opponent.
-
-This ability replaces all increments of trap sense.'''
-
-[[entry.feature]]
-anchor = "rogue-talents"
-head = "Rogue Talents"
-listed = false
-print = "The following rogue talents complement the swordmaster archetype: combat trick, stand up, surprise attack, weapon training (_Core Rulebook_); befuddling strike, positioning strike (_Advanced Player's Guide_)."
-
-[[entry.feature]]
-anchor = "advanced-talents"
-head = "Advanced Talents"
-listed = false
-print = "The following advanced rogue talents complement the swordmaster archetype: crippling strike, defensive roll (_Core Rulebook_); hunter's surprise, redirect attack (_Advanced Player's Guide_); confounding blade (_Ultimate Combat_)."
-
-[[entry]]
 id = "ref/arc-sorcerer/wishcrafter"
-hold = "the replaces trade `7th-level bloodline feat` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `13th-level bloodline feat` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `19th-level bloodline feat` is not printed in a sentence, and no listed feature of that name prints it; Heart's Desire (Su): the sentence \"This ability replaces the bloodline bonus feat gained at 7th level\" names no trade; Twisted Wish (Su): the sentence \"This ability replaces the bloodline bonus feat gained at 13th level\" names no trade; Perfect Wishcraft (Su): the sentence \"This ability replaces the bloodline bonus feat gained at 19th level\" names no trade"
+hold = "the replaces trade `All bloodline spells` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `7th-level bloodline feat` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `13th-level bloodline feat` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `19th-level bloodline feat` is not printed in a sentence, and no listed feature of that name prints it; Heart's Desire (Su): the sentence \"This ability replaces the bloodline bonus feat gained at 7th level\" names no trade; Twisted Wish (Su): the sentence \"This ability replaces the bloodline bonus feat gained at 13th level\" names no trade; Perfect Wishcraft (Su): the sentence \"This ability replaces the bloodline bonus feat gained at 19th level\" names no trade"
+opening_from_print = true
 opening = ["Wishcrafters are born with a talent for manipulating reality inherited from their efreeti ancestors. However, like the genies they are descended from, wishcrafters can only draw upon this power to fulfill the desires of others. A wishcrafter has the following class features."]
 
 [[entry.feature]]
@@ -1050,7 +759,7 @@ head = "Wishbound Arcana (Su)"
 listed = true
 level = 1
 print = "At 1st level, the wishcrafter can use the wishes of non-genie creatures other than herself in place of the normal verbal components of her spells. A creature can make a wish as a free action at any time, even during the wishcrafter's turn. The wishcrafter must be able to hear and understand a wish in order to use it as a spell component. A spell that doesn't normally have a verbal component gains one when cast using this ability. A wish doesn't need to mention the name of a specific spell, but must describe an outcome that can be accomplished by casting a spell the wishcrafter knows (for example, wishing to be bigger could supply the verbal component for _[enlarge person](ref/spell/enlarge-person)_). A wishcrafter gains a +1 bonus to her caster level when using a creature's wish as a verbal component in this manner, but cannot include herself as a target of such spells. She can be affected by such a spell if it affects an area rather than a target or targets. A wishcrafter is under no compulsion to grant a creature's wish. Once the wishcrafter grants a creature's wish using this ability, she cannot use this ability to grant that creature any further wishes for 24 hours. This ability replaces bloodline arcana."
-import_trades = ["Bloodline arcana"]
+import_trades = ["Bloodline arcana", "Bloodline arcana"]
 
 [[entry.feature]]
 anchor = "expanded-wishcraft"
@@ -1058,7 +767,7 @@ head = "Expanded Wishcraft"
 listed = true
 level = 3
 print = "At 3rd level and every 2 levels thereafter, the wishcrafter grows more adept at altering reality to fit the whims of others. She may add an additional spell selected from the sorcerer/wizard spell list to her list of spells known. This spell must be one level lower than the highest-level spell she can cast. A wishcrafter can only use these spells in conjunction with her wishbound arcana ability. For example, if she used this ability to learn _[cat's grace](ref/spell/cats-grace)_, she can only cast it when another creature wishes for it, and can't cast it on herself because it is a targeted spell. She cannot use these spells to craft or recharge magic items. These bonus spells replace the bloodline spells gained by the sorcerer's bloodline."
-import_trades = ["All bloodline spells"]
+import_trades = ["All bloodline spells", "All bloodline spells"]
 
 [[entry.feature]]
 anchor = "heart-s-desire"
@@ -1066,7 +775,7 @@ head = "Heart's Desire (Su)"
 listed = true
 level = 7
 print = "At 7th level, as a swift action, a wishcrafter can force a single creature within 30 feet to confess its deepest desire. The target receives a Will save to negate this effect (DC 10 + 1/2 the wishcrafter's level + the wishcrafter's Charisma modifier). On a failed save, the creature must immediately wish aloud in a clear voice for something it truly desires, allowing the wishcrafter to activate her wishbound arcana ability if she knows a spell that can fulfill that wish. This is a mind-affecting effect. Regardless of whether the save is successful, a creature cannot be the target of the same wishcrafter's heart's desire ability again for 24 hours. The wishcrafter can use this ability a number of times per day equal to her Charisma bonus. This ability replaces the bloodline bonus feat gained at 7th level."
-import_trades = ["7th-level bloodline feat"]
+import_trades = ["7th-level bloodline feat", "7th-level bloodline feat"]
 
 [[entry.feature]]
 anchor = "twisted-wish"
@@ -1074,7 +783,7 @@ head = "Twisted Wish (Su)"
 listed = true
 level = 13
 print = "At 13th level, a wishcrafter becomes adept at corrupting wishes to negatively affect the creature that wished them. When a wishcrafter affects a creature with a spell using its wish as a spell component, she may twist the wish, applying a -4 penalty to the creature's saving throws against the spell. The effects of wishes twisted this way are difficult to remove; the DC of caster level checks to dispel them increases by 5. This ability replaces the bloodline bonus feat gained at 13th level."
-import_trades = ["13th-level bloodline feat"]
+import_trades = ["13th-level bloodline feat", "13th-level bloodline feat"]
 
 [[entry.feature]]
 anchor = "perfect-wishcraft"
@@ -1082,11 +791,12 @@ head = "Perfect Wishcraft (Su)"
 listed = true
 level = 19
 print = "At 19th level, the wishcrafter perfects her ability to manipulate reality. Once per day, she may cast any spell on the sorcerer/wizard spell list as if it were on her list of spells known. Using this ability otherwise has all of the benefits and limitations of the wishbound arcana ability. This ability replaces the bloodline bonus feat gained at 19th level."
-import_trades = ["19th-level bloodline feat"]
+import_trades = ["19th-level bloodline feat", "19th-level bloodline feat"]
 
 [[entry]]
 id = "ref/arc-summoner/blood-god-disciple"
-hold = "checker: [fields] trades = \"replaces: Summon monster I; replaces: III; replaces: V; replaces: VII; replaces: and IX\" disagrees with the trade sentences of the feature `blood-feast` = \"replaces: the summon monster I, III, V, VII, and IX spell-like abilities\" (line 44)"
+hold = "checker: [fields] trades = \"replaces: Summon monster I; replaces: III; replaces: V; replaces: VII; replaces: and IX\" disagrees with the trade sentences of the feature `blood-feast` = \"replaces: the summon monster I, III, V, VII, and IX spell-like abilities\" (line 42)"
+opening_from_print = true
 opening = ["A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature. A blood god disciple generally fights by the avatar's side and offers it blood sacrifices in exchange for martial prowess. A blood god disciple has the following class features."]
 
 [[entry.feature]]
@@ -1100,7 +810,7 @@ At 1st level, a blood god disciple can feed a recently fallen foe to his eidolon
 At 5th level, when the blood god disciple uses blood feast, he may manifest one 2-point evolution instead of a 1-point evolution. At 9th level, he may manifest up to two evolutions worth a total of 3 evolution points or fewer. At 13th level, he may manifest up to two evolutions worth a total of 4 evolution points or fewer. At 17th level, he may manifest up to three evolutions worth a total of 5 evolution points or fewer.
 
 This ability replaces the _summon monster I_, _III_, _V_, _VII_, and _IX_ spell-like abilities.'''
-import_trades = ["Summon monster I", "III", "V", "VII", "IX"]
+import_trades = ["Summon monster I, III, V, VII, and IX", "Summon monster I", "III", "V", "VII", "IX"]
 
 [[entry.feature]]
 anchor = "bloody-gift"
@@ -1108,7 +818,7 @@ head = "Bloody Gift (Su)"
 listed = true
 level = 3
 print = "At 3rd level, when a blood god disciple uses blood feast to manifest an evolution, he may touch one ally and grant it that evolution as well. Each affected ally counts as one use per day of the blood feast ability. At 7th, 11th, 15th, and 19th level, the blood god disciple can affect an additional creature with this ability (each one counting as a use per day of blood feast). If the blood god disciple can manifest multiple evolutions per use of blood feast, his selected allies manifest these multiple evolutions as well. This ability replaces the _summon monster II_ spell-like ability."
-import_trades = ["Summon monster II"]
+import_trades = ["Summon monster II", "Summon monster II"]
 
 [[entry.feature]]
 anchor = "avatar-gambit"
@@ -1116,7 +826,7 @@ head = "Avatar Gambit (Ex)"
 listed = true
 level = 7
 print = "At 7th level, when a blood god disciple dismisses his eidolon, he rages like a [barbarian](ref/class/barbarian) for a number of rounds equal to half his summoner level (he may end this rage early just like a barbarian, but if he does so, any remaining rounds of rage from this ability are lost). This replaces the _summon monster IV_ spell-like ability."
-import_trades = ["Summon monster IV"]
+import_trades = ["Summon monster IV", "Summon monster IV"]
 
 [[entry.feature]]
 anchor = "rage-power"
@@ -1124,12 +834,13 @@ head = "Rage Power (Ex)"
 listed = true
 level = 11
 print = "At 11th level and 15th level, a blood god disciple selects a barbarian rage power, which he may use when raging (whether from the avatar gambit ability or actual barbarian rage). This replaces the _summon monster VI_ and _VIII_ spell-like abilities."
-import_trades = ["Summon monster VI", "VIII spell-like abilities"]
+import_trades = ["Summon monster VI and VIII spell-like abilities", "Summon monster VI", "VIII spell-like abilities"]
 
 [[entry]]
 id = "ref/arc-summoner/shadow-caller"
-hold = "the replaces trade `Magical symbol that identifies the summoner and his eidolon` is not printed in a sentence, and no listed feature of that name prints it; Shadow Summoning (Sp): the sentence \"This ability replaces the summoner's normal summon monster spell-like abilities\" names no trade"
-opening = ["While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the Shadow Plane. A shadow caller has the following class features."]
+hold = "Shadow Summoning (Sp): the sentence \"This ability replaces the summoner's normal summon monster spell-like abilities\" names no trade"
+opening_from_print = true
+opening = ["While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the [Shadow Plane](ref/rule/shadow-plane). A [shadow](ref/template/shadow) caller has the following class features."]
 
 [[entry.feature]]
 anchor = "class-skills"
@@ -1146,21 +857,21 @@ When a shadow caller uses his _summon monster_ ability or casts the _summon mons
 
 _Summon Monster I_: No changes.
 
-_Summon Monster II_: A shadow caller cannot summon Small elementals or lemures, but instead can summon zoogs (_Bestiary 3_ 288).
+_Summon Monster II_: A shadow caller cannot summon Small elementals or lemures, but instead can summon zoogs.
 
-_Summon Monster III_: A shadow caller cannot summon dretches or lantern archons, but can summon augur kytons (_Bestiary 3_ 171).
+_Summon Monster III_: A shadow caller cannot summon dretches or lantern archons, but can summon augur kytons.
 
-_Summon Monster IV_: A shadow caller cannot summon Medium elementals, hell hounds, hound archons, or mephits, but can summon allips (_Bestiary 3_ 12), gloomwings (_Bestiary 2_ 133), and shadows (_Bestiary_ 245).
+_Summon Monster IV_: A shadow caller cannot summon Medium elementals, hell hounds, hound archons, or mephits, but can summon allips, gloomwings, and shadows.
 
-_Summon Monster V_: A shadow caller cannot summon babau, bearded devils, bralani azatas, Large elementals, salamanders, or xills, but can summon shadow mastiffs (_Bestiary 3_ 241) and shae (_Bestiary 3_ 242).
+_Summon Monster V_: A shadow caller cannot summon babau, bearded devils, bralani azatas, Large elementals, salamanders, or xills, but can summon shadow mastiffs and shae.
 
-_Summon Monster VI_: A shadow caller cannot summon Huge elementals, erinyes, lillend azatas, or succubi, but can summon cloakers (_Bestiary_ 47).
+_Summon Monster VI_: A shadow caller cannot summon Huge elementals, erinyes, lillend azatas, or succubi, but can summon cloakers.
 
-_Summon Monster VII_: A shadow caller cannot summon bebiliths, bone devils, greater elementals, or vrocks, but can summon greater shadows (_Bestiary_ 245).
+_Summon Monster VII_: A shadow caller cannot summon bebiliths, bone devils, greater elementals, or vrocks, but can summon greater shadows.
 
-_Summon Monster VIII_: A shadow caller can only summon derghodaemons (_Bestiary 3_ 66) and young umbral dragons (_Bestiary 2_ 102).
+_Summon Monster VIII_: A shadow caller can only summon derghodaemons and young umbral dragons.
 
-_Summon Monster IX_: A shadow caller can only summon interlocutor kytons (_Bestiary 3_ 174) and nightwings (_Bestiary 3_ 203).
+_Summon Monster IX_: A shadow caller can only summon interlocutor kytons and nightwings.
 
 This ability otherwise functions as and replaces the summoner's normal _summon monster_ spell-like abilities.'''
 
@@ -1172,7 +883,7 @@ print = '''
 A shadow caller's eidolon is at once a thing of shadow called from the deep of the Shadow Plane and his own shadow; the two are inseparable. When his eidolon manifests, his shadow lengthens and finally detaches from him as a creature unto itself. For as long as the shadow caller's eidolon is manifested, he and the eidolon do not have distinct shadows, regardless of the presence or absence of light. This lack of a shadow replaces the magical symbol that identifies the summoner and his eidolon.
 
 This ability alters the summoner's eidolon ability. The following evolutions are available to all summoners. 2-Point Evolutions Shadow Blend (Su): In any condition of illumination other than bright light, the eidolon disappears into the shadows, giving it concealment (20% miss chance). If it has the shadow form evolution, it instead gains total concealment (50% miss chance). The eidolon can suspend or resume this ability as a free action.'''
-import_trades = ["Eidolon", "Magical symbol that identifies the summoner", "his eidolon"]
+import_trades = ["Eidolon", "Eidolon", "Magical symbol that identifies the summoner and his eidolon", "Magical symbol that identifies the summoner", "his eidolon"]
 
 [[entry.feature]]
 anchor = "shadow-form"
@@ -1182,7 +893,8 @@ print = "The eidolon's body becomes shadowy and more indistinct. This shadow for
 
 [[entry]]
 id = "ref/arc-summoner/wild-caller-arg"
-hold = "Eidolon: the sentence \"This ability alters the normal summoner's eidolon class feature, but is otherwise identical to that class feature\" names no trade"
+hold = "Eidolon: the sentence \"This ability alters the normal summoner's eidolon class feature\" names no trade"
+opening_from_print = true
 opening = ["Often a half-elf 's ties to nature and elven heritage are so strong that they can dramatically affect the nature of his summonings. The wild caller calls eidolons that take more natural and savage forms and summons from nature rather than the Great Beyond. A wild caller has the following class features."]
 
 [[entry.feature]]
@@ -1190,7 +902,7 @@ anchor = "spells"
 head = "Spells"
 listed = true
 print = "A wild caller does not have access to _[summon monster](ref/spell/summon-monster)_ spells. Instead, he swaps out those spells on his spell list with _[summon nature's ally](ref/spell/summon-natures-ally)_ spells of the same level. This ability alters the normal spell list of the summoner."
-import_trades = ["Spell list of the summoner"]
+import_trades = ["Spell list of the summoner", "Spell list of the summoner"]
 
 [[entry.feature]]
 anchor = "eidolon"
@@ -1210,155 +922,13 @@ anchor = "summon-nature-s-ally-i"
 head = "Summon Nature's Ally I (Sp)"
 listed = true
 level = 1
-print = "Starting at 1st level, a wild caller can cast _summon nature's ally_ a number of times per day equal to 3 + his Charisma modifier. At 3rd level and every 2 levels thereafter, the power of this ability increases by one spell level, allowing him to summon more powerful creatures (to a maximum of _summon nature's ally IX_ at 17th level). Furthermore, at 19th level, the wild caller cannot use _[gate](ref/spell/gate)_ as a [spell-like ability](ref/umr/spell-like-abilities), but can use either _[summon elder worm](ref/spell/summon-elder-worm)_ or _[summon froghemoth](ref/spell/summon-froghemoth)_ (_Ultimate Magic_ 240) instead. This ability otherwise functions like the standard summoner's _[summon monster I](ref/spell/summon-monster-1)_ ability and replaces that ability."
-import_trades = ["Summon monster I"]
-
-[[entry]]
-id = "ref/arc-witch/dreamweaver"
-hold = "checker: [fields] trades = \"replaces: 2nd-level hex\" disagrees with the trade sentences of the feature `dream-spinner` = \"replaces: the witch's hex gained at 2nd level\" (line 59)"
-opening = ["A changeling dreamweaver draws upon her hag heritage to ply the dream realms in order to touch mortal minds and souls, for good or ill. A dreamweaver witch has the following class features."]
-
-[[entry.feature]]
-anchor = "class-skills"
-head = "Class Skills"
-listed = true
-print = "The dreamweaver adds Sense Motive to her list of class skills and removes Healing from her list of class skills."
-
-[[entry.feature]]
-anchor = "patron"
-head = "Patron"
-listed = true
-print = "A dreamweaver's patron is normally [portents](ref/patron/portents) or [stars](ref/patron/stars)."
-
-[[entry.feature]]
-anchor = "spells"
-head = "Spells"
-listed = true
-print = "A dreamweaver replaces some of her patron's spells with the following: 2nd—_sow thoughts_ (see below), 4th—_dust of twilight_ (_Pathfinder RPG Advanced Player's Guide_), 6th—_deep slumber_, 8th—_modify memory_, 10th—_dream_, 12th— _cloak of dreams_ (_Advanced Player's Guide_), 14th—_ethereal jaunt_, 16th—_moment of prescience_, 18th—_astral projection_."
-
-[[entry.feature]]
-anchor = "dream-spinner"
-head = "Dream Spinner (Su)"
-listed = true
-level = 2
-print = "At 2nd level, when a dreamweaver casts a mind-affecting spell on a target that is sleeping because of her [slumber](ref/hex/slumber) hex or a spell she cast, she adds +1 to the mind-affecting spell's DC. If the target succeeds at the saving throw against the spell, it does not wake up, nor does it have any recollection of having resisted a spell. If appropriate, the dreamweaver may incorporate elements of a mind-affecting spell (i.e., _[sow thought](ref/spell/sow-thought)_, _[suggestion](ref/spell/suggestion)_, and so on) into the target's subconscious so it believes the spell's effects originated in its dreams (the details of how these elements fit into the dream is up to the GM). This ability replaces the witch's hex gained at 2nd level."
-import_trades = ["2nd-level hex"]
-
-[[entry.feature]]
-anchor = "dream-thief"
-head = "Dream Thief (Su)"
-listed = true
-level = 6
-print = "At 6th level, a dreamweaver can alter the sleeping mind of any creature that is sleeping because of her slumber hex or a spell she cast. She can reshape one of the target's memories as if using _[modify memory](ref/spell/modify-memory)_. Alternatively, she may insert herself into the dreaming memories of the target, prompting the target's mind to show her some specific information; the dreamer's subconscious may resist, or try to deceive her with out-of-context memories, similar to the way a corpse can resist when questioned with _[speak with dead](ref/spell/speak-with-dead)_. A Will save negates either effect (DC equal to that of the witch's hex). Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. This ability replaces the witch's hex gained at 6th level."
-import_trades = ["6th-level hex"]
-
-[[entry.feature]]
-anchor = "dream-possession"
-head = "Dream Possession (Su)"
-listed = true
-level = 10
-print = "At 10th level, a dreamweaver can take control of any creature that is sleeping because of her slumber hex or a spell she cast. This effect functions as _[magic jar](ref/spell/magic-jar)_, using the witch's familiar acting as the soul receptacle. A Will save negates either effect (DC equal to that of the witch's hex). Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. This ability replaces the witch's hex gained at 10th level."
-import_trades = ["10th-level hex"]
-
-[[entry.feature]]
-anchor = "hexes"
-head = "Hexes"
-listed = false
-print = "The following hexes complement the dreamweaver archetype: charm, slumber (_Advanced Player's Guide_); beast of ill-omen (_Ultimate Magic_)."
-
-[[entry.feature]]
-anchor = "major-hexes"
-head = "Major Hexes"
-listed = false
-print = "The following major hexes complement the dreamweaver archetype: nightmare, vision (_Advanced Player's Guide_)."
-
-[[entry.feature]]
-anchor = "grand-hexes"
-head = "Grand Hexes"
-listed = false
-print = "The following grand hexes complement the dreamweaver archetype: eternal slumber (_Advanced Player's Guide_); dire prophecy (_Ultimate Magic_)."
-
-[[entry]]
-id = "ref/arc-wizard/cruoromancer"
-hold = "checker: [fields] trades = \"replaces: 5th-level bonus feat\" disagrees with the trade sentences of the feature `blood-command` = \"replaces: the 5th-level wizard bonus feat\" (line 64)"
-opening = ["To those who know how to manipulate it, the blood of a dhampir can be a powerful component to magic. A cruoromancer infuses his necromantic magic with the power of his unique mixture of living blood and undead ichor. As his power increases in this strange arcane art, a cruoromancer finds potent ways to infuse his unique blood with necromancy spells. A cruoromancer has the following class features."]
-
-[[entry.feature]]
-anchor = "blood-infusion"
-head = "Blood Infusion (Su)"
-listed = true
-print = "When a cruoromancer casts a spell of the necromancy school, he can opt to infuse that spell with his undead-tainted blood as a swift action. As he increases in level, the power and effects of such infusions become more potent. Each time a cruoromancer uses blood infusion, he drains a portion of his own blood either by cutting himself with a blade or by opening a scab from a previous wound. When he does this, he takes an amount of damage equal to 1d4 + the level of the spell being infused. A cruoromancer can only affect a spell with a single type of blood infusion. At 1st level, he can infuse his necromancy spells in either of the following ways."
-
-[[entry.feature]]
-anchor = "focused-infusion"
-head = "Focused Infusion"
-listed = false
-parent = "blood-infusion"
-print = "When the cruoromancer uses this infusion, he adds +1 to the DC of the infused necromancy spell."
-
-[[entry.feature]]
-anchor = "sickening-infusion"
-head = "Sickening Infusion"
-listed = false
-parent = "blood-infusion"
-print = '''
-When the cruoromancer uses this infusion, any creature damaged by the infused necromancy spell becomes [sickened](ref/misc/sickened) for 1 round.
-
-This ability replaces arcane bond.'''
-import_trades = ["Arcane bond"]
-
-[[entry.feature]]
-anchor = "blood-command"
-head = "Blood Command (Su)"
-listed = true
-level = 5
-print = "At 5th level, a cruoromancer can control up to 5 Hit Dice worth of undead creatures per caster level instead of the normal 4 Hit Dice of undead when casting the _[animate dead](ref/spell/animate-dead)_ spell. He also gains the following blood infusion ability."
-
-[[entry.feature]]
-anchor = "commanding-infusion"
-head = "Commanding Infusion"
-listed = false
-parent = "blood-command"
-print = '''
-When using this infusion with _[animate dead](ref/spell/animate-dead)_, the cruoromancer can create a number of Hit Dice of undead equal to three times his caster level instead of twice his caster level.
-
-This ability replaces the 5th-level wizard bonus feat.'''
-import_trades = ["5th-level bonus feat"]
-
-[[entry.feature]]
-anchor = "blood-desecration"
-head = "Blood Desecration (Su)"
-listed = true
-level = 10
-print = "At 10th level, a cruoromancer gains the following blood infusion."
-
-[[entry.feature]]
-anchor = "desecrating-infusion"
-head = "Desecrating Infusion"
-listed = false
-parent = "blood-desecration"
-print = "When the cruoromancer uses this infusion, he can choose to center a _[desecrate](ref/spell/desecrate)_ effect on himself or a single target of the spell modified by this infusion (he chooses upon casting). This effect is like the _[desecrate](ref/spell/desecrate)_ spell, but lasts for 1 minute per caster level of the cruoromancer, and does not interact with altars, shrines, or permanent fixtures that boost the _[desecrate](ref/spell/desecrate)_ effect. This ability replaces the 10th-level wizard bonus feat."
-import_trades = ["10th-level bonus feat"]
-
-[[entry.feature]]
-anchor = "blood-ability"
-head = "Blood Ability (Su)"
-listed = true
-level = 15
-print = "At 15th level, a cruoromancer can choose to scry through a single undead creature he created with a spell modified by a commanding infusion. The undead creature is treated as if imbued with an _[arcane eye](ref/spell/arcane-eye)_ spell (caster level equal to the cruoromancer's wizard level). This ability replaces the 15th-level wizard bonus feat."
-import_trades = ["15th-level bonus feat"]
-
-[[entry.feature]]
-anchor = "perfect-infusion"
-head = "Perfect Infusion (Su)"
-listed = true
-level = 20
-print = "At 20th level, a cruoromancer can use his blood infusions without taking damage. This ability replaces the 20th-level wizard bonus spell."
-import_trades = ["The 20th-level wizard bonus spell"]
+print = "Starting at 1st level, a wild caller can cast _summon nature's ally_ a number of times per day equal to 3 + his Charisma modifier. At 3rd level and every 2 levels thereafter, the power of this ability increases by one spell level, allowing him to summon more powerful creatures (to a maximum of _summon nature's ally IX_ at 17th level). Furthermore, at 19th level, the wild caller cannot use _[gate](ref/spell/gate)_ as a [spell-like ability](ref/umr/spell-like-abilities), but can use either _[summon elder worm](ref/spell/summon-elder-worm)_ or _[summon froghemoth](ref/spell/summon-froghemoth)_ instead. This ability otherwise functions like the standard summoner's _[summon monster I](ref/spell/summon-monster-1)_ ability and replaces that ability."
+import_trades = ["Summon monster I", "Summon monster I"]
 
 [[entry]]
 id = "ref/arc-wizard/wind-listener"
 hold = "the replaces trade `5th-level bonus feat` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `10th-level bonus feat` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `15th-level bonus feat` is not printed in a sentence, and no listed feature of that name prints it; Abjuration Sense (Ex): the sentence \"This ability replaces the bonus feat gained at 5th level\" names no trade; Wispy Form (Ex): the sentence \"This ability replaces the bonus feat gained at 10th level\" names no trade; Listening to the Wind (Sp): the sentence \"This ability replaces the bonus feat gained at 15th level\" names no trade"
+opening_from_print = true
 opening = ["The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic. A wind listener has the following class features."]
 
 [[entry.feature]]
@@ -1379,7 +949,7 @@ head = "Spontaneous Divination (Su)"
 listed = true
 level = 1
 print = "At 1st level, a wind listener can reshape stored spell energy into divination spells he did not prepare ahead of time. The wind listener can \"lose\" any prepared spell that is not a cantrip in order to cast a divination spell of the same spell level or lower. The new spell must be one the wind listener knows and is capable of casting. Spells cast with this ability increase their casting time to a full-round action (if the spell's normal casting time is longer than a full-round action, it remains unchanged). This ability replaces arcane bond."
-import_trades = ["Arcane bond"]
+import_trades = ["Arcane bond", "Arcane bond"]
 
 [[entry.feature]]
 anchor = "abjuration-sense"
@@ -1387,15 +957,15 @@ head = "Abjuration Sense (Ex)"
 listed = true
 level = 5
 print = "At 5th level, a wind listener develops a sixth sense for spotting spells designed to guard against his investigations. He gains a bonus on Perception checks equal to 1/2 his level to notice spells of the abjuration school and on [Spellcraft](ref/skill/spellcraft) checks to identify abjuration effects, spells, and magic items. This ability replaces the bonus feat gained at 5th level."
-import_trades = ["5th-level bonus feat"]
+import_trades = ["5th-level bonus feat", "5th-level bonus feat"]
 
 [[entry.feature]]
 anchor = "wispy-form"
 head = "Wispy Form (Ex)"
 listed = true
 level = 10
-print = "At 10th level, the wind listener gains the ability to become airy and translucent as a standard action, gaining DR 10/magic and the effects of _[greater invisibility](ref/spell/invisibility-greater)_ for a number of rounds per day equal to his level. These rounds need not be consecutive. Like the [natural invisibility](ref/umr/natural-invisibility) universal monster ability (_Bestiary 2_ 299), this ability is not subject to _[invisibility purge](ref/spell/invisibility-purge)_. This ability replaces the bonus feat gained at 10th level."
-import_trades = ["10th-level bonus feat"]
+print = "At 10th level, the wind listener gains the ability to become airy and translucent as a standard action, gaining DR 10/magic and the effects of _[greater invisibility](ref/spell/invisibility-greater)_ for a number of rounds per day equal to his level. These rounds need not be consecutive. Like the [natural invisibility](ref/umr/natural-invisibility) universal monster ability, this ability is not subject to _[invisibility purge](ref/spell/invisibility-purge)_. This ability replaces the bonus feat gained at 10th level."
+import_trades = ["10th-level bonus feat", "10th-level bonus feat"]
 
 [[entry.feature]]
 anchor = "listening-to-the-wind"
@@ -1403,4 +973,4 @@ head = "Listening to the Wind (Sp)"
 listed = true
 level = 15
 print = "At 15th level, the wind listener can call upon spirits of the air to uncover lost lore about a legendary person, place, or thing. Invoking the spirits takes 10 minutes, during which time the wind listener must be free of distractions and able to concentrate. Once called, the spirits seek out information on the subject of the wind listener's inquiries. This functions as the spell _[legend lore](ref/spell/legend-lore)_ (caster level equal to the wind listener's level), except that the wind listener is free to engage in other activities while spirits investigate on his behalf. The time required for the air spirits to return with this information is equal to what the casting time of the spell _[legend lore](ref/spell/legend-lore)_ would have been if the wind listener had cast it. The wind listener can use this ability once per week, and only if he does not currently have air spirits searching for information. If the air spirits are currently searching for information, the wind listener can end their task early as a standard action, dismissing the magical effect and not returning any information. This ability replaces the bonus feat gained at 15th level."
-import_trades = ["15th-level bonus feat"]
+import_trades = ["15th-level bonus feat", "15th-level bonus feat"]

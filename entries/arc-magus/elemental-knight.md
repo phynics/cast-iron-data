@@ -32,8 +32,6 @@ Elemental knights are born with elemental energies surging through their blood a
 secret of reconciling and focusing this primal power into the arcane. An elemental knight has the
 following class features.
 
-**Prerequisites:** Suli
-
 ## Elemental Arcana (Su) {#elemental-arcana}
 
 At 3rd level, elemental knights may select the following magus arcana available only to them.

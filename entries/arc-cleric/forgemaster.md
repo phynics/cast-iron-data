@@ -20,7 +20,7 @@ features = [
   { anchor = "artificer" },
   { anchor = "steel-spells" },
   { anchor = "divine-smith" },
-  { anchor = "runeforger" },
+  { anchor = "runeforger", level = 1 },
   { anchor = "craft-magic-arms-and-armor" },
   { anchor = "master-smith", level = 5 },
 ]
@@ -31,8 +31,6 @@ trades = [
 
 Forgemasters are priestly dwarves who are ritual casters and expert enchanters, able to produce
 their rune-graven armaments with astonishing speed.
-
-**Prerequisites:** Dwarf; Worships a deity that grants the Artifice domain
 
 ## Artificer {#artificer}
 

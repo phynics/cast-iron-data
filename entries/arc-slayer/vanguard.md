@@ -61,10 +61,9 @@ gained at 4th level.
 
 ## Ever Ready (Ex) {#ever-ready}
 
-At 7th level, a vanguard is never considered an [unaware combatant](ref/rule/surprise) (_Core
-Rulebook_ 178) and is always able to act in the surprise round. The vanguard is still
-[flat-footed](ref/rule/flat-footed) in the surprise round until he acts. This ability replaces
-stalker.
+At 7th level, a vanguard is never considered an [unaware combatant](ref/rule/surprise) and is always
+able to act in the surprise round. The vanguard is still [flat-footed](ref/rule/flat-footed) in the
+surprise round until he acts. This ability replaces stalker.
 
 ## Slayer Talents {#slayer-talents}
 

@@ -34,8 +34,6 @@ The dirty fighter laughs at concepts like honor and fair play. He cares only for
 how he achieves it, and spends as much time mastering sneaky combat maneuvers as he does drilling
 with weapons or learning how to wear armor. A dirty fighter has the following class features.
 
-**Prerequisites:** Orc
-
 ## Sidestep (Ex) {#sidestep}
 
 At 2nd level, a dirty fighter learns how to evade his enemies when they react to his combat
@@ -46,9 +44,8 @@ This ability replaces bravery.
 ## Maneuver Training (Ex) {#maneuver-training}
 
 At 5th level, a dirty fighter becomes a master of dirty tricks. He gains a +2 bonus on
-[dirty trick](ref/rule/dirty-trick) combat maneuver checks (_Advanced Player's Guide_ 320) and +2 to
-his CMD when he is the target of a dirty trick combat maneuver. This ability replaces weapon
-training 1.
+[dirty trick](ref/rule/dirty-trick) combat maneuver checks and +2 to his CMD when he is the target
+of a dirty trick combat maneuver. This ability replaces weapon training 1.
 
 ## Speedy Tricks (Ex) {#speedy-tricks}
 

@@ -40,8 +40,6 @@ Some druids develop ties not to a particular landscape, but instead to the endle
 the skies. Such are the sky druids, who are more at home soaring through air than standing on the
 ground. A sky druid has the following class features.
 
-**Prerequisites:** Sylph
-
 ## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
 A sky druid loses medium armor proficiency.

@@ -39,8 +39,6 @@ trades = [
 The fell rider rides a bestial steed, a mount mastered by him alone. He tramples his enemies down,
 leaving twisted bodies in his wake, and fear rides with him.
 
-**Prerequisites:** Hobgoblin
-
 ## Brute Steed (Ex) {#brute-steed}
 
 A fell rider's mount is unusually large and fierce. It gains a +2 bonus to Strength, but takes a -2

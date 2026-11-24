@@ -41,10 +41,6 @@ Some monks wander the world in humility to learn and to share wisdom and philoso
 teachers with those they meet, often aiding those who are in need. A wanderer has the following
 class features.
 
-**Prerequisites:** Human
-
-**Gained class skills:** diplo, kg, kl, ling, sur
-
 ## Class Skills {#class-skills}
 
 The wanderer adds Diplomacy, Knowledge (geography), Knowledge (local), Linguistics, and Survival to
@@ -67,10 +63,9 @@ replaces still mind.
 ## Light Step (Su) {#light-step}
 
 At 5th level, a wanderer leaves no trail and cannot be tracked, though he can leave a trail if
-desired. By spending 1 point from his ki pool, he can use _[ant haul](ref/spell/ant-haul)_
-(_Advanced Player's Guide_ 202), _[feather step](ref/spell/feather-step)_ (_Advanced Player's Guide_
-221), _[pass without trace](ref/spell/pass-without-trace)_, or
-_[tireless pursuit](ref/spell/tireless-pursuit)_ (_Advanced Player's Guide_ 249) as a
+desired. By spending 1 point from his ki pool, he can use _[ant haul](ref/spell/ant-haul)_,
+_[feather step](ref/spell/feather-step)_, _[pass without trace](ref/spell/pass-without-trace)_, or
+_[tireless pursuit](ref/spell/tireless-pursuit)_ as a
 [spell-like ability](ref/umr/spell-like-abilities) (with a caster level equal to his monk level).
 This ability replaces slow fall.
 

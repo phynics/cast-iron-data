@@ -32,8 +32,6 @@ committed in the first place. Few locks can withstand skilled cat burglars, and 
 are capable of bypassing traps without activating them and enabling associates to do the same. A cat
 burglar has the following class features.
 
-**Prerequisites:** Catfolk
-
 ## Phantom Presence (Ex) {#phantom-presence}
 
 At 4th level, a cat burglar masters stealthy movement and leaves no trace of her passing in dungeons

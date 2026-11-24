@@ -37,7 +37,7 @@ live for war and fight for glory. Their hearts quicken at battle cries, and they
 their deity's symbol held high. These leaders of armies do so to promote the agenda of their faith,
 and lead armies of devoted followers willing to give their lives for the cause. (Several of the
 divine commander's abilities reference and interact with the
-[mass combat rules](ref/rule/mass-combat).)
+[mass combat rules](ref/rule/mass-combat) in _Pathfinder RPG Ultimate Campaign_.)
 
 ## Mount (Ex) {#mount}
 
@@ -97,10 +97,10 @@ This ability replaces the bonus feat gained at 12th level.
 
 At 15th level, a divine commander can raise her holy symbol high and give a blessing to the army she
 is leading. The divine commander's army gains a +1 bonus to the army's
-[OM and DV](ref/rule/mass-combat-quick-reference-guide) (_Ultimate Campaign_ 235). This is a sacred
-bonus if the warpriest is good-aligned or able to spontaneously cast cure spells, and it is a
-profane bonus if the warpriest is evil-aligned or able to spontaneously cast inflict spells. Using
-this ability requires the divine commander to expend two uses of her fervor ability. This bonus
-lasts for 1 battle, and it must be performed during the tactics phase of the battle. If this is
-performed when a mass combat is not imminent, the fervor is spent without granting any bonus. This
-ability replaces the bonus feat gained at 15th level.
+[OM and DV](ref/rule/mass-combat-quick-reference-guide). This is a sacred bonus if the warpriest is
+good-aligned or able to spontaneously cast cure spells, and it is a profane bonus if the warpriest
+is evil-aligned or able to spontaneously cast inflict spells. Using this ability requires the divine
+commander to expend two uses of her fervor ability. This bonus lasts for 1 battle, and it must be
+performed during the tactics phase of the battle. If this is performed when a mass combat is not
+imminent, the fervor is spent without granting any bonus. This ability replaces the bonus feat
+gained at 15th level.

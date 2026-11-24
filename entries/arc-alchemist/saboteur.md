@@ -31,12 +31,6 @@ The saboteur is an alchemist who specializes in destroying the plans, materials,
 enemies. A saboteur has focused his alchemical research toward new ways to conceal his presence, sow
 confusion, and blow up large structures.
 
-**Prerequisites:** Gnome
-
-**Gained class skills:** ke
-
-**Lost class skills:** kna
-
 ## Class Skills {#class-skills}
 
 A saboteur adds Knowledge (engineering) to his list of class skills and removes Knowledge (nature)

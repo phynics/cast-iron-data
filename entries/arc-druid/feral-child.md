@@ -42,8 +42,6 @@ adoptive home and family that they become feral. Suspicious of civilized society
 often choose allegiance to the wild over their human forebears. A feral child has the following
 class features.
 
-**Prerequisites:** Human
-
 ## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
 A feral child loses proficiency with the scimitar, scythe, and sickle and with shields.

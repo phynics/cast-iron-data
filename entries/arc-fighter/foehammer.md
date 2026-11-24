@@ -42,8 +42,6 @@ trades = [
 While the axe is the most famous dwarven weapon, the hammer is at the heart of dwarves' heritage as
 forgemasters and warriors alike.
 
-**Prerequisites:** Dwarf
-
 ## Sledgehammer (Ex) {#sledgehammer}
 
 At 3rd level, a foehammer wielding a hammer gains a +2 circumstance bonus on combat maneuver checks

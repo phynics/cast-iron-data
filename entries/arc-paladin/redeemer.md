@@ -37,8 +37,6 @@ circumstances and misfortune. Some half-orc paladins take up these misunderstood
 cause, standing up for the monstrous creatures and, when possible, leading them to the light. These
 paladins are called redeemers. A redeemer has the following class features.
 
-**Prerequisites:** Half-orc
-
 ## Merciful Smite (Su) {#merciful-smite}
 
 At 1st level, when a redeemer chooses to smite a creature, she can have all of her attacks against

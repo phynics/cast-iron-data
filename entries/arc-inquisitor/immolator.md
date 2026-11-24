@@ -34,9 +34,6 @@ The immolator puts her pyromaniacal urges to work in the service of a deity. She
 retribution down upon the enemies of her faith, consigning their souls to the sacrificial flames. An
 immolator has the following class features.
 
-**Prerequisites:** Ifrit; Must worship a deity whose portfolio includes the [Fire](ref/domain/fire)
-domain
-
 ## Servant of the Flame {#servant-of-the-flame}
 
 An immolator must worship a deity whose portfolio includes the Fire domain. An immolator who selects

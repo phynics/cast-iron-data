@@ -34,16 +34,15 @@ few prefer to create and imbibe dangerous concoctions that mutate them into fear
 
 At 3rd level, a mutation warrior discovers how to create a mutagen that he can imbibe in order to
 heighten his physical prowess at the cost of his personality. This ability functions as the
-[alchemist's](ref/class/alchemist) mutagen ability (_Advanced Player's Guide_ 28), using his fighter
-level as his alchemist level. This ability replaces armor training 1.
+[alchemist's](ref/class/alchemist) mutagen ability, using his fighter level as his alchemist level.
+This ability replaces armor training 1.
 
 ## Mutagen Discovery (Su) {#mutagen-discovery}
 
 At 7th level and every 4 levels thereafter, the mutation warrior can choose one of the following
-alchemist discoveries (_Advanced Player's Guide_ 28) to augment his abilities:
-[feral mutagen](ref/discovery/feral-mutagen), [grand mutagen](ref/discovery/grand-mutagen),
-[greater mutagen](ref/discovery/greater-mutagen), [infuse mutagen](ref/discovery/infuse-mutagen),
-[nauseating flesh](ref/discovery/nauseating-flesh),
+alchemist discoveries to augment his abilities: [feral mutagen](ref/discovery/feral-mutagen),
+[grand mutagen](ref/discovery/grand-mutagen), [greater mutagen](ref/discovery/greater-mutagen),
+[infuse mutagen](ref/discovery/infuse-mutagen), [nauseating flesh](ref/discovery/nauseating-flesh),
 [preserve organs](ref/discovery/preserve-organs),
 [rag doll mutagen](ref/discovery/rag-doll-mutagen),
 [spontaneous healing](ref/discovery/spontaneous-healing), [tentacle](ref/discovery/tentacle),

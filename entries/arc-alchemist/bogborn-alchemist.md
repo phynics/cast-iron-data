@@ -30,10 +30,6 @@ Some grippli alchemists are particularly attuned to the swamps and the dangerous
 inhabit them; these serve as their laboratories and research subjects, respectively. These bogborn
 alchemists have the following class features.
 
-**Prerequisites:** Grippli
-
-**Gained class skills:** swim
-
 ## Class Skills {#class-skills}
 
 A bogborn alchemist adds Swim to his list of class skills.

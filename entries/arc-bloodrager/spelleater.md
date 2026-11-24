@@ -34,10 +34,10 @@ magical energy to heal more damage and continue taking the fight to the enemy.
 ## Blood of Life (Su) {#blood-of-life}
 
 A spelleater's blood empowers him to slowly recover from his wounds. At 2nd level, while bloodraging
-a spelleater gains [fast healing 1](ref/umr/fast-healing) (_Bestiary_ 300). At 7th level and every 3
-levels thereafter, this increases by 1 (to a maximum of [fast healing](ref/umr/fast-healing) 6 at
-19th level). If the spelleater gains an increase to [damage reduction](ref/rule/damage-reduction)
-from a bloodline, feat, or other ability, he is considered to have an effective
+a spelleater gains [fast healing 1](ref/umr/fast-healing). At 7th level and every 3 levels
+thereafter, this increases by 1 (to a maximum of [fast healing](ref/umr/fast-healing) 6 at 19th
+level). If the spelleater gains an increase to [damage reduction](ref/rule/damage-reduction) from a
+bloodline, feat, or other ability, he is considered to have an effective
 [damage reduction](ref/rule/damage-reduction) of 0, and the increase is added to this effective
 damage reduction. This ability replaces uncanny dodge and damage reduction.
 

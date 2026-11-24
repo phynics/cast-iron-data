@@ -38,8 +38,6 @@ trades = [
 By following the path of the stone, students of stone give up much of monks' mobility in favor of
 sheer resilience. A student of stone has the following class features.
 
-**Prerequisites:** Oread
-
 ## Hard as Stone (Ex) {#hard-as-stone}
 
 At 2nd level, whenever an opponent rolls to confirm a critical hit against a student of stone, treat
@@ -72,8 +70,8 @@ ability replaces high jump.
 ## Body of Stone (Ex) {#body-of-stone}
 
 At 9th level, a student of stone gains the benefits of the
-_[light fortification](ref/magic-enh/fortification-light)_ armor property (_Core Rulebook_ 463).
-This ability replaces improved evasion.
+_[light fortification](ref/magic-enh/fortification-light)_ armor property. This ability replaces
+improved evasion.
 
 ## Soul of Stone (Su) {#soul-of-stone}
 

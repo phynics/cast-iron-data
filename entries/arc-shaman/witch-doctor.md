@@ -31,8 +31,6 @@ trades = [
 The witch doctor is a healer who specializes in afflictions of the soul. Often misunderstood, she
 protects her tribe with healing powers, powerful defensive magic, and her own divine "witchcraft."
 
-**Prerequisites:** Nonevil alignment
-
 ## Alignment {#alignment}
 
 A witch doctor cannot be of evil alignment.

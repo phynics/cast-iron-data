@@ -30,7 +30,7 @@ trades = [
 
 Frequently called "brown-furs," these transmutation-focused arcanists are known for transforming
 themselves into animals. What few realize is that these specialized arcanists excel at turning
-themselves - and others - into all kinds of creatures.
+themselves—and others—into all kinds of creatures.
 
 ## Powerful Change (Su) {#powerful-change}
 

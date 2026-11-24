@@ -40,12 +40,6 @@ imbued with his [spell-like abilities](ref/umr/spell-like-abilities) to harass h
 cavern sniper focuses on surprise, his innate magical abilities, and poison to take down unwary
 foes. The cavern sniper has the following class features.
 
-**Prerequisites:** Drow
-
-**Gained class skills:** stl
-
-**Lost class skills:** intm
-
 ## Class Skills {#class-skills}
 
 The cavern sniper adds Stealth to his list of class skills and removes Intimidate from his list of

@@ -35,12 +35,6 @@ An eldritch raider is a rogue who seeks to unravel the mysteries of the destruct
 homeland. They explore old ruins that date back to the days of the old human empire and track down
 relics and lore from its glory days. An eldritch raider has the following class features.
 
-**Prerequisites:** Gillman
-
-**Gained class skills:** ka, kh, spc
-
-**Lost class skills:** dis, perf, soh
-
 ## Class Skills {#class-skills}
 
 An eldritch raider adds Knowledge (arcana), Knowledge (history), and Spellcraft to her list of class

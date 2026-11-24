@@ -30,10 +30,6 @@ trades = [
 The steel-breaker studies destruction and practices it as an art form. She knows every defense has a
 breaking point, and can shatter those defenses with carefully planned strikes.
 
-**Gained class skills:** ke
-
-**Lost class skills:** kd
-
 ## Class Skills {#class-skills}
 
 The steel-breaker gains Knowledge (engineering) as a class skill, and does not gain Knowledge

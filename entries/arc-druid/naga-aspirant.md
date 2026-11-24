@@ -50,8 +50,6 @@ to the transcendence of her nagaji form through absolute devotion to nagas and n
 acting as a herald to the naga deities, the aspirant is rewarded with the ability to unlock her
 ultimate spirit form and become a true naga. A naga aspirant has the following class features.
 
-**Prerequisites:** Nagaji
-
 ## Aspirant's Bond (Ex) {#aspirant-s-bond}
 
 A naga aspirant gains a spiritual connection to the serpentine deities worshiped by the nagas. At

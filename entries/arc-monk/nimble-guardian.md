@@ -36,8 +36,6 @@ Some catfolk monks dedicate their graceful prowess to the defense of others, esp
 dedicated to a similar ethos or who prove themselves as stalwart allies of the monk's cause. A
 nimble guardian has the following class features.
 
-**Prerequisites:** Catfolk
-
 ## Defensive Aid (Ex) {#defensive-aid}
 
 At 2nd level, a number of times per day equal to his Wisdom bonus, a nimble guardian can interpose

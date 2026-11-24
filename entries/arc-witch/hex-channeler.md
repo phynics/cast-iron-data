@@ -16,42 +16,49 @@ page = "132"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "channel-energy", level = 2 },
+]
 trades = [
-  { replaces = "2nd-level hex", feature = "hex", levels = [2] },
+  { replaces = "Hex gained at 2nd level", feature = "hex", levels = [2], by = ["channel-energy"] },
 ]
 +++
 
-A hex channeler is a witch who devotes herself to either life - healing the wounded and destroying
-the undead - or death, slaying the living and aiding undead.
+A hex channeler is a witch who devotes herself to either life—healing the wounded and destroying the
+undead—or death, slaying the living and aiding undead.
 
-**Channel Energy (Su)**
+## Channel Energy (Su) {#channel-energy}
 
-**Ability:** A hex channeler can call upon her patron to release a wave of energy from herself or
+At 2nd level, a hex channeler can call upon her patron to release a wave of energy from herself or
 her familiar. A good witch channels positive energy (like a good cleric), and an evil witch channels
 negative energy (like an evil cleric). A witch who is neither good nor evil must choose whether she
 channels positive or negative energy; once this choice is made, it cannot be reversed.
 
-_Channeling energy_ causes a [burst](ref/misc/burst) that affects all creatures of one type (either
-undead or living) in a 30-foot radius centered on the witch. This otherwise functions as a cleric
-using [channel energy](ref/ability/channel-energy), except the witch does not require a holy symbol
-to use this ability. The hex channeler uses her witch level as her cleric level for all other
-effects dependent upon _channel energy_ (except increasing the amount of damage healed or dealt).
-The hex channeler can choose whether or not to include herself or her familiar in this effect.
+Channeling energy causes a [burst](ref/misc/burst) that affects all creatures of one type (either
+undead or living) in a 30-foot radius centered on the witch. The witch can
+[channel energy](ref/ability/channel-energy) a number of times per day equal to 3 + her Charisma
+modifier (minimum 1). This otherwise functions as a cleric using channel energy, except the witch
+does not require a holy symbol to use this ability. The hex channeler uses her witch level as her
+cleric level for all other effects dependent upon channel energy (except increasing the amount of
+damage healed or dealt). The hex channeler can choose whether or not to include herself or her
+familiar in this effect.
 
-**Gained:** At 2nd Level
-
-**Replaces:** 2nd-level hex
-
-**Special:** This burst heals or deals 1d6 points of damage. Every time the hex channeler is able to
-learn a new hex (including _major_ or _grand hexes,_ but not hexes gained through the
+This burst heals or deals 1d6 points of damage. Every time the hex channeler is able to learn a new
+hex (including major or grand hexes, but not hexes gained through the
 [Extra Hex](ref/feat/extra-hex) feat), she can instead increase her channel energy amount by 1d6.
+This ability replaces the hex gained at 2nd level.
 
-**Usage:** Charisma3 modifier times/day (minimum 1)
+## Hexes {#hexes}
 
-**The following witch hexes complement this archetype:** Blight, healing, poison steep, ward
+The following witch hexes complement the hex channeler archetype: blight, healing, poison steep, and
+ward.
 
-**The following major hexes complement this archetype:** Agony, cook people, infected wounds, major
-healing, retribution
+## Major Hexes {#major-hexes}
 
-**The following grand hexes complement this archetype:** Death curse, dire prophecy, life giver,
-summon spirit
+The following major hexes complement the hex channeler archetype: agony, cook people, infected
+wounds, major healing, and retribution.
+
+## Grand Hexes {#grand-hexes}
+
+The following grand hexes complement the hex channeler archetype: death curse, dire prophecy, life
+giver, and summon spirit.

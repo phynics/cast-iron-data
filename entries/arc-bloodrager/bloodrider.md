@@ -17,7 +17,7 @@ page = "82"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "fast-rider" },
+  { anchor = "fast-rider", level = 1 },
   { anchor = "feral-mount", level = 5 },
   { anchor = "blood-bond", level = 9 },
 ]

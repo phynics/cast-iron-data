@@ -30,8 +30,6 @@ The experimental gunsmith is obsessed with creating the ultimate firearm, and is
 risks to work the kinks out of her design. An experimental gunsmith has the following class
 features.
 
-**Prerequisites:** Gnome
-
 ## Experimental Firearm (Ex) {#experimental-firearm}
 
 At 1st level, an experimental gunsmith begins play with an experimental firearm. This acts as the

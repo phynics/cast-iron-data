@@ -37,8 +37,6 @@ Fire bombers are exceptionally good at using bombs to burn creatures and blow th
 quite as good at creating other types of bombs or extracts. A fire bomber has the following class
 features.
 
-**Prerequisites:** Goblin
-
 ## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
 A fire bomber treats [torches](ref/eq-misc/torch) as a simple weapon.

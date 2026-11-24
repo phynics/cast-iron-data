@@ -35,8 +35,6 @@ The wild child works with his sworn animal friend to conquer the challenges that
 This kinship could come from being lost in the wilderness and raised by animals or growing up with
 an exotic pet.
 
-**Gained class skills:** heal
-
 ## Class Skills {#class-skills}
 
 A wild child gains Heal as a class skill.
@@ -52,11 +50,10 @@ gained at 2nd, 8th, 14th, and 20th levels.
 ## Hunter's Tricks {#hunter-s-tricks}
 
 At 5th level, a wild child can expend a use of martial flexibility to use a trick from the
-[ranger skirmisher archetype](ref/arc-ranger/skirmisher) (_Advanced Player's Guide_ 128). Each time
-he activates this ability, the wild child can use a different hunter trick. He cannot choose any
-tricks that rely on ranged attacks. Activating this ability is not an action, but using the trick
-might require the wild child to use an action of a different type. This ability replaces close
-weapon mastery.
+[ranger skirmisher archetype](ref/arc-ranger/skirmisher). Each time he activates this ability, the
+wild child can use a different hunter trick. He cannot choose any tricks that rely on ranged
+attacks. Activating this ability is not an action, but using the trick might require the wild child
+to use an action of a different type. This ability replaces close weapon mastery.
 
 ## Maneuver Training (Ex) {#maneuver-training}
 

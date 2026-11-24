@@ -32,14 +32,12 @@ can manipulate the forces of alchemy to create bombs that reshape terrain and de
 vegetation or to create mutagens that bestow the resilience of oak or the tenacity of bamboo. A
 bramble brewer has the following class features.
 
-**Prerequisites:** Half-Elf
-
 ## Briar Bombs (Su) {#briar-bombs}
 
-At 2nd level, a bramble brewer gains the [tanglefoot bomb](ref/discovery/tanglefoot-bomb) discovery
-(_Ultimate Magic_ 17), but the entanglement's duration persists for a number of rounds equal to the
-bramble brewer's Intelligence modifier (minimum 1 round). Additionally, when a bramble brewer throws
-a tanglefoot bomb, it transforms all squares in its splash radius into
+At 2nd level, a bramble brewer gains the [tanglefoot bomb](ref/discovery/tanglefoot-bomb) discovery,
+but the entanglement's duration persists for a number of rounds equal to the bramble brewer's
+Intelligence modifier (minimum 1 round). Additionally, when a bramble brewer throws a tanglefoot
+bomb, it transforms all squares in its splash radius into
 [difficult terrain](ref/rule/terrain-and-obstacles) that persists for as long as the bomb's
 entangling effect. Although these bombs deal no damage, for every 1d6 points of damage the bramble
 brewer's regular bombs deal, the briar bomb's splash radius increases by 5 feet. This ability
@@ -50,11 +48,10 @@ replaces the 2nd-level discovery class feature.
 At 1st level, a bramble brewer's mutagen still contains transformative power, but grants a treelike
 sturdiness rather than the feral power of standard mutagens. When imbibed, dendrite mutagen grants a
 +4 natural armor bonus, a +2 alchemical bonus to one physical ability score, and a -2 penalty to the
-corresponding mental ability score (as per the normal mutagen class feature; _Advanced Player's
-Guide_ 28). In addition, the alchemist gains [fast healing](ref/umr/fast-healing) 1 as long as he is
-in an area of bright light (such as sunlight or inside the area of a
-_[daylight](ref/spell/daylight)_ spell). This otherwise works like the standard mutagen class
-feature and replaces that ability.
+corresponding mental ability score (as per the normal mutagen class feature). In addition, the
+alchemist gains [fast healing](ref/umr/fast-healing) 1 as long as he is in an area of bright light
+(such as sunlight or inside the area of a _[daylight](ref/spell/daylight)_ spell). This otherwise
+works like the standard mutagen class feature and replaces that ability.
 
 A bramble brewer who selects the [greater mutagen](ref/discovery/greater-mutagen) discovery can
 create a dendrite mutagen that still grants a +4 natural armor bonus, and also grants a +4

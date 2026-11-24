@@ -40,10 +40,6 @@ trades = [
 Unlike many warpriests, sacred fists leave behind armor and shield and instead rely on their fists
 and whatever protection their deity bestows on them.
 
-**Gained class skills:** acro, ea, kh, per, stl
-
-**Lost class skills:** ha, ke, sur
-
 ## Class Skills {#class-skills}
 
 The sacred fist's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Diplomacy (Cha),

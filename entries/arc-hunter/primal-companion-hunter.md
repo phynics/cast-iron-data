@@ -17,7 +17,7 @@ page = "97"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "primal-transformation" },
+  { anchor = "primal-transformation", level = 1 },
   { anchor = "primal-surge", level = 8 },
   { anchor = "primal-master", level = 20 },
 ]
@@ -30,7 +30,7 @@ trades = [
 
 Most hunters are skilled at awakening the primal beasts inside themselves. However, some can instead
 activate the primal essence within their animal companion. These primal companion hunters bestow
-upon their companions the ability to suddenly manifest new and terrifying powers - throwbacks to
+upon their companions the ability to suddenly manifest new and terrifying powers—throwbacks to
 long-extinct beasts, bizarre mutations from extreme environments, or new abilities crafted from
 generations of selective breeding.
 

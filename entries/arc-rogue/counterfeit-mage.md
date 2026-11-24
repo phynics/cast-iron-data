@@ -27,7 +27,7 @@ trades = [
 ]
 +++
 
-Charlatans and stage magicians use sleight of hand to fake magic. A counterfeit mage goes a step
+Charlatans and stage magicians use slight of hand to fake magic. A counterfeit mage goes a step
 further, parroting the motions and activation phrases used by arcane casters to activate wands or
 other magical accoutrements. While counterfeit mages rarely fool a real wizard, their command of the
 arcane is enough to convince most lay people.

@@ -56,7 +56,7 @@ sorcerer level, including using a bonded item from an arcane bond. This lasts fo
 equal to her Charisma modifier (minimum 1).
 
 At 3rd level, when activating her selected bloodline, a mongrel mage can instead spend 2 points from
-her mongrel reservoir to allow her to use the bloodline's 1st-and 3rd-level powers as well as its
+her mongrel reservoir to allow her to use the bloodline's 1st- and 3rd-level powers as well as its
 bloodline arcana at her full sorcerer level for a number of rounds equal to her Charisma modifier
 (minimum 1).
 

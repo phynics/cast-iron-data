@@ -34,10 +34,6 @@ those unfortunate enough to catch their eye. More opportunists than careful plan
 care who they rob or kill, and take advantage of whatever circumstances put them near a suitable
 target.
 
-**Gained class skills:** diplo, kno, ling
-
-**Lost class skills:** kd, kg, sur
-
 ## Class Skills {#class-skills}
 
 A cutthroat gains Diplomacy, Knowledge (nobility), and Linguistics as class skills, but does not

@@ -28,8 +28,6 @@ A spellbinder is an elven wizard who forges an arcane bond between himself and o
 spells. These spells become so well understood by the spellbinder that he can prepare them in spell
 slots that already have other spells prepared in them.
 
-**Prerequisites:** Elf
-
 ## Spell Bond (Su) {#spell-bond}
 
 At 1st level, a spellbinder selects any one spell in his spellbook as a bonded spell. As a

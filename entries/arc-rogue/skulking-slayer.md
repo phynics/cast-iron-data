@@ -39,8 +39,6 @@ elves, and rely on brute strength and thuggery when they go about making mischie
 have turned the use of raw strength and surprise into an art form. A skulking slayer has the
 following class features.
 
-**Prerequisites:** Half-Orc
-
 ## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
 The skulking slayer gains proficiency with [greatclubs](ref/eq-weapon/greatclub) and

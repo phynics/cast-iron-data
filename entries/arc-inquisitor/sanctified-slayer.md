@@ -32,8 +32,8 @@ trades = [
 +++
 
 While all inquisitors root out enemies of the faith, in many orders and churches there's a select
-group of these religious hunters devoted to one goal, and one goal alone - to terminate the enemies
-of the faith wherever they can be found. Sometimes these sanctified slayers are given special
+group of these religious hunters devoted to one goal, and one goal alone—to terminate the enemies of
+the faith wherever they can be found. Sometimes these sanctified slayers are given special
 dispensation to commit ruthless murders for the faith's greater good. Other times, they're simply
 willing to take the initiative to revel in the zeal of such grisly work.
 

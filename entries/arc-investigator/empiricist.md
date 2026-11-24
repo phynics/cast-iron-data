@@ -30,7 +30,7 @@ trades = [
 +++
 
 Champions of deductive reasoning and logical insight, empiricists put their faith in facts, data,
-confirmed observations, and consistently repeatable experiments - these things are their currency of
+confirmed observations, and consistently repeatable experiments— these things are their currency of
 truth.
 
 ## Ceaseless Observation (Ex) {#ceaseless-observation}

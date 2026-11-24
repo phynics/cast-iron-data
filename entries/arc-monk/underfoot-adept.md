@@ -32,8 +32,6 @@ An underfoot adept turns his diminutive stature and unorthodox footwork into a p
 Effortlessly moving across the battlefield, he ducks under the legs of larger creatures and then
 topples them with surprising attacks. An underfoot adept has the following class features.
 
-**Prerequisites:** Halfling
-
 ## Underfoot Grace (Ex) {#underfoot-grace}
 
 At 1st level, an underfoot adept uses his size and grace to avoid the attacks of those he passes.

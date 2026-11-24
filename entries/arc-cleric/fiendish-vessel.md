@@ -32,12 +32,10 @@ trades = [
 
 Many clerics pray to or make evil bargains with fiendish powers, devoting body and soul to the
 insane plans and wicked aims of their despicable patrons. But these mortal clerics are often just
-shallow beings searching for quick power or the caress of true and final oblivion - few truly grasp
+shallow beings searching for quick power or the caress of true and final oblivion—few truly grasp
 the full scope of the entities they worship. Fiendish vessels, through their fiendish heritage,
 share an innate connection with their patron, and that connection grants them understanding and
 power. A fiendish vessel has the following class features.
-
-**Prerequisites:** Tiefling; Alignment must match patron's
 
 ## Alignment {#alignment}
 

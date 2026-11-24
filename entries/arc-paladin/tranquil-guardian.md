@@ -36,16 +36,13 @@ trades = [
 A tranquil guardian is a missionary of peace and tranquility, a soothing voice of succor in a
 violent and dangerous world. A tranquil guardian gains the following class features.
 
-**Prerequisites:** Aasimar
-
 ## Touch of Serenity (Su) {#touch-of-serenity}
 
-At 1st level, a tranquil guardian gains [Touch of Serenity](ref/feat/touch-of-serenity) (_Advanced
-Player's Guide_ 172) as a bonus feat, even if she does not meet the prerequisites. At 6th level, and
-every six levels thereafter, the duration of a tranquil guardian's Touch of Serenity increases by 1
-round. Each round on its turn, the target may attempt a new Will save to end the effect. The
-duration does not stack; only the longest remaining duration applies. This ability replaces smite
-evil.
+At 1st level, a tranquil guardian gains [Touch of Serenity](ref/feat/touch-of-serenity) as a bonus
+feat, even if she does not meet the prerequisites. At 6th level, and every six levels thereafter,
+the duration of a tranquil guardian's Touch of Serenity increases by 1 round. Each round on its
+turn, the target may attempt a new Will save to end the effect. The duration does not stack; only
+the longest remaining duration applies. This ability replaces smite evil.
 
 ## Serene Strike (Su) {#serene-strike}
 
@@ -56,8 +53,8 @@ or unarmed strike. Using serene strike is a free action. This ability replaces a
 ## Divine Bond (Su) {#divine-bond}
 
 A tranquil guardian who chooses a weapon as her divine bond may only increase her weapon's
-enhancement bonus or add the following properties to her weapon: _conductive_ (_Advanced Player's
-Guide_ 286)_, defending, disruptive, grayflame_ (_Advanced Player's Guide_ 288)_,_ or _merciful_.
+enhancement bonus or add the following properties to her weapon: _conductive__, defending,
+disruptive, grayflame__,_ or _merciful_.
 
 ## Aura of Calm (Su) {#aura-of-calm}
 

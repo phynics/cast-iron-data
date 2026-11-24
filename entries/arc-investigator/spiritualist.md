@@ -17,7 +17,7 @@ page = "102"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "commune-with-spirits" },
+  { anchor = "commune-with-spirits", level = 1 },
   { anchor = "spirit-sense", level = 2 },
   { anchor = "strong-life", level = 2 },
   { anchor = "sixth-sense", level = 3 },

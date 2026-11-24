@@ -55,8 +55,8 @@ countersong.
 At 3rd level, a fire dancer can allow allies to see through flames without any distortion. Any ally
 within 30 feet of the bard who can hear the performance can see through fire, fog, and smoke without
 penalty as long as the light is sufficient to allow him to see normally, as with the base effect of
-the [gaze of flames](ref/mystery/flame) oracle revelation (_Advanced Player's Guide_ 47). Song of
-the fiery gaze relies on audible components. This ability replaces inspire competence.
+the [gaze of flames](ref/mystery/flame) oracle revelation. Song of the fiery gaze relies on audible
+components. This ability replaces inspire competence.
 
 ## Fire Break (Su) {#fire-break}
 

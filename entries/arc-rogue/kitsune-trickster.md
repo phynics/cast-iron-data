@@ -30,8 +30,6 @@ The kitsune trickster combines her sharpened wit with minor arcane powers of cha
 She uses her talents to spin convincing lies, riddles, and stories. A trickster has the following
 class features.
 
-**Prerequisites:** Kitsune
-
 ## Kitsune's Guile (Ex) {#kitsune-s-guile}
 
 At 1st level, a trickster relies on her intellect as much as her personality. She adds her

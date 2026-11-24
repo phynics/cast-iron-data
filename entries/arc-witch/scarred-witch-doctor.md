@@ -33,8 +33,6 @@ her own flesh, inflicting horrific scars, in order to attract the attention of h
 than call forth a familiar, she creates a repulsive fetish mask that she uses as a repository for
 her power. A scarred witch doctor has the following class features.
 
-**Prerequisites:** Orc
-
 ## Fierce Intelligence {#fierce-intelligence}
 
 A scarred witch doctor treats her Intelligence as 2 points higher when determining the highest level

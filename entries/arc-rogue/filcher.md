@@ -34,8 +34,6 @@ A filcher steals valuables without their owners even realizing it. Whether cutti
 midst of combat or replacing prized items with fakes under the noses of their owners, the filcher is
 the master of the quick and quiet steal. A filcher has the following class features.
 
-**Prerequisites:** Halfling
-
 ## Quicker than the Eye (Ex) {#quicker-than-the-eye}
 
 At 2nd level, a filcher develops an amazingly swift and delicate touch. When she uses Sleight of
@@ -62,11 +60,11 @@ her target that she cannot see. This ability replaces trap sense +1, +2, +3, +4,
 ## Filch (Ex) {#filch}
 
 At 4th level, a filcher learns how pluck items off her opponents even in combat. She gains
-[Improved Steal](ref/feat/improved-steal) (_Advanced Player's Guide_ 163) as a bonus feat and can
-use her Sleight of Hand bonus instead of her CMB when performing a [steal](ref/rule/steal) combat
-maneuver (_Advanced Player's Guide_ 322). If the filcher gains bonuses on combat maneuver checks
-from any feats, spells, magic items, or similar effects, they are added to the Sleight of Hand bonus
-when using the steal maneuver. This ability replaces uncanny dodge.
+[Improved Steal](ref/feat/improved-steal) as a bonus feat and can use her Sleight of Hand bonus
+instead of her CMB when performing a [steal](ref/rule/steal) combat maneuver. If the filcher gains
+bonuses on combat maneuver checks from any feats, spells, magic items, or similar effects, they are
+added to the Sleight of Hand bonus when using the steal maneuver. This ability replaces uncanny
+dodge.
 
 ## Superior Filching (Ex) {#superior-filching}
 

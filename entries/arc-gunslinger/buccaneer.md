@@ -48,17 +48,15 @@ Freebooters who cling to the convoluted codes that rule independent ships, the b
 gunslinger of the high seas. Their exploits are fueled by the thrill of danger and often by the
 temporary courage provided by grog. A buccaneer has the following class features.
 
-**Prerequisites:** Human
-
 ## Deeds {#deeds}
 
 A buccaneer swaps four of the normal gunslinger deeds for the following deeds.
 
 ## Seadog's Gait (Ex) {#seadog-s-gait}
 
-At 1st level, the buccaneer gains [Sea Legs](ref/feat/sea-legs) (_Ultimate Combat_ 117) as a bonus
-feat. If she spends 1 grit point, she can ignore [difficult terrain](ref/rule/terrain-and-obstacles)
-until the end of her turn. This replaces the quick clear deed.
+At 1st level, the buccaneer gains [Sea Legs](ref/feat/sea-legs) as a bonus feat. If she spends 1
+grit point, she can ignore [difficult terrain](ref/rule/terrain-and-obstacles) until the end of her
+turn. This replaces the quick clear deed.
 
 ## Pirate's Jargon (Ex) {#pirate-s-jargon}
 
@@ -105,11 +103,10 @@ nimble ability.
 ## Bonus Feat {#bonus-feat}
 
 In addition to combat and grit feats, a buccaneer can select from the following feats as her bonus
-feats: [Expert Driver](ref/feat/expert-driver) (water vehicles only; _Ultimate Combat_ 100),
-[Master Siege Engineer](ref/feat/master-siege-engineer) (_Ultimate Combat_ 109),
-[Siege Engineer](ref/feat/siege-engineer) (_Ultimate Combat_ 118),
-[Siege Gunner](ref/feat/siege-gunner) (_Ultimate Combat_ 118),
-[Skilled Driver](ref/feat/skilled-driver) (water vehicles only; _Ultimate Combat_ 119).
+feats: [Expert Driver](ref/feat/expert-driver) (water vehicles only),
+[Master Siege Engineer](ref/feat/master-siege-engineer), [Siege Engineer](ref/feat/siege-engineer),
+[Siege Gunner](ref/feat/siege-gunner), [Skilled Driver](ref/feat/skilled-driver) (water vehicles
+only).
 
 ## Exotic Pet (Ex) {#exotic-pet}
 
@@ -122,9 +119,8 @@ also gains the benefit of [evasion](ref/ability/evasion). This ability replaces 
 
 ## Sword and Pistol {#sword-and-pistol}
 
-At 9th level, a buccaneer gains [Sword and Pistol](ref/feat/sword-and-pistol) (_Ultimate Combat_
-117) as a bonus feat even if she does not meet the prerequisites. This ability replaces gun
-training 2.
+At 9th level, a buccaneer gains [Sword and Pistol](ref/feat/sword-and-pistol) as a bonus feat even
+if she does not meet the prerequisites. This ability replaces gun training 2.
 
 ## Gun Training (Ex) {#gun-training}
 

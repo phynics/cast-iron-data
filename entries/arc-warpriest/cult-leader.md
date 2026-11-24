@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "class-skills" },
   { anchor = "skill-ranks-per-level" },
-  { anchor = "well-hidden" },
+  { anchor = "well-hidden", level = 1 },
   { anchor = "sneak-attack", level = 3 },
   { anchor = "enthrall", level = 4 },
   { anchor = "hide-in-plain-sight", level = 12 },
@@ -37,10 +37,6 @@ Referred to as fanatics, lunatics, or obsessives, cultists see themselves as gen
 their deity. And the hierarchs of those devotees, the cult leaders, are the most fanatical of them
 all. Cult leaders are known for turning reasonable hearts toward corrupted teachings and striking at
 those that get in the way of their agenda.
-
-**Gained class skills:** acro, bluff, dis, ea, kl, per, soh, stl
-
-**Lost class skills:** ha, ke, ride, sur, swim
 
 ## Class Skills {#class-skills}
 

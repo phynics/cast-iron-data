@@ -32,8 +32,6 @@ While many vanaras follow traditional monastic training and traditions, others l
 combat and the mysterious forces of ki with the natural world, allowing them to move through trees
 and overgrowth to deliver devastating attacks. A treetop monk has the following class features.
 
-**Prerequisites:** Vanara
-
 ## Branch Runner (Ex) {#branch-runner}
 
 At 3rd level, a treetop monk adds half the base speed bonus from his fast movement ability to his

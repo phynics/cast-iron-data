@@ -32,10 +32,6 @@ trades = [
 Not all spirits deserve reverence and respect. Some are twisted and despicable. It's a spirit
 warden's duty to end these spirits' existence.
 
-**Gained class skills:** intm
-
-**Lost class skills:** diplo, ha
-
 ## Unnatural Mien (Ex) {#unnatural-mien}
 
 At 1st level, the spirit warden's dealings with the spirit world give her an unsettling demeanor.

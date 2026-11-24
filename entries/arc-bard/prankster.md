@@ -35,8 +35,6 @@ The prankster sees humor as the highest form or art, and pranks as the highest f
 addition to setting friends up for light-hearted pranks, the prankster can use his quick wit and
 cruel sense of humor to enrage foes before incapacitating them with a clever turn of phrase.
 
-**Prerequisites:** Gnome
-
 ## Bardic Performance {#bardic-performance}
 
 A prankster's bardic performance functions like a bard's, but some of its performances are exchanged
@@ -85,8 +83,7 @@ he has mocked. This ability replaces the mass suggestion ability.
 
 A prankster can [steal](ref/rule/steal) an object from a creature and replace it with another object
 of the same size or smaller that the prankster has in his hand. This functions as the steal combat
-maneuver (_Advanced Player's Guide_ 322), but the prankster does not provoke an attack of
-opportunity, and may use his Sleight of Hand check in place of his combat maneuver check. If the
-prankster's check exceeds the target's CMD by 10 or more, the target is unaware the swap has been
-made until it tries to use the swapped object or the end of its next turn (whichever happens first).
-This ability replaces lore master.
+maneuver, but the prankster does not provoke an attack of opportunity, and may use his Sleight of
+Hand check in place of his combat maneuver check. If the prankster's check exceeds the target's CMD
+by 10 or more, the target is unaware the swap has been made until it tries to use the swapped object
+or the end of its next turn (whichever happens first). This ability replaces lore master.

@@ -2,316 +2,48 @@
 # except the `edit` text of a feature (status `edit` in the review TSV).
 
 [[entry]]
-id = "ref/arc-alchemist/inspired-chemist"
-hold = "checker: [fields] trades = \"replaces: Mutagen\" disagrees with the trade sentences of the feature `inspiring-cognatogen` = \"replaces: the mutagen class ability\" (line 33)"
-opening = ["Akin to a mindchemist, inspired chemists use a type of cognatogen that instead of increasing their mental ability scores grants them inspiration like an investigator. This inspiration also grants an inspired chemist amazing powers to avoid danger, but takes a toll on both physical power and health."]
+id = "ref/arc-brawler/strangler"
+hold = "the replaces trade `Unarmed strike` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
+opening = ["A strangler is trained to choke the life out of her victims with her vise-like grip. Some stranglers are self-taught and are little more than brutish murderers, unhinged sociopaths, or opportunistic alley-bashers. Others are members of murder cults or specialized schools of assassination, trained since the cradle to kill with their bare hands."]
 
 [[entry.feature]]
-anchor = "inspiring-cognatogen"
-head = "Inspiring Cognatogen"
+anchor = "class-skills"
+head = "Class Skills"
+listed = true
+print = "A strangler gains Stealth as a class skill."
+
+[[entry.feature]]
+anchor = "strangle"
+head = "Strangle (Ex)"
 listed = true
 level = 1
-print = "At 1st level, an inspired chemist learns how to create an [inspiring cognatogen](ref/discovery/inspiring-cognatogen), as the inspiring cognatogen discovery. This ability replaces the [mutagen](ref/discovery/mutagen) class ability. (This means that an inspired chemist cannot create mutagens unless he selects the mutagen discovery)."
-import_trades = ["Mutagen"]
+print = "At 1st level, a strangler deals +1d6 [sneak attack](ref/ability/sneak-attack) damage whenever she succeeds at a [grapple](ref/rule/grapple) check to damage or pin an opponent. The strangler is always considered flanking her target for the purpose of using this ability. This damage increases by +1d6 at 2nd, 8th and 15th levels. This ability replaces unarmed strike and brawler's flurry."
+import_trades = ["Unarmed strike, brawler's flurry", "Unarmed strike", "brawler's flurry"]
 
 [[entry.feature]]
-anchor = "bonus-feats"
-head = "Bonus Feats"
-listed = false
-print = "An inspired chemist can select [Skill Focus](ref/feat/skill-focus) (Disable Device, Disguise, Heal, any Knowledge skill, Sense Motive, Spellcraft, or Use Magic Device) in place of a discovery."
-
-[[entry.feature]]
-anchor = "bonus-investigator-talents"
-head = "Bonus Investigator Talents"
+anchor = "practiced-strangler"
+head = "Practiced Strangler (Ex)"
 listed = true
-print = "An inspired chemist can select any two investigator talents in place of a discovery, but can only use these talents while under the effect of an inspiring cognatogen."
+level = 2
+print = "At 2nd level, when a strangler has the [grappled](ref/rule/grapple-conditions) condition, she does not take a -4 penalty to Dexterity and does not lose her Dexterity bonus to AC. At 9th level, a grappling or grappled strangler still threatens an area and is still able to make attacks of opportunity while grappling or grappled; when pinned, she is not denied her Dexterity bonus and does not take a -4 penalty to Armor Class. This ability replaces AC bonus."
+import_trades = ["AC bonus", "AC bonus"]
 
 [[entry.feature]]
-anchor = "languages"
-head = "Languages"
-listed = true
-print = "An inspired chemist can learn three languages in place of a discovery."
-
-[[entry.feature]]
-anchor = "discoveries"
-head = "Discoveries"
-listed = false
-print = "The following discoveries complement the inspired chemist archetype: [grand inspiring cognatogen](ref/discovery/grand-inspiring-cognatogen), [greater inspiring cognatogen](ref/discovery/greater-inspiring-cognatogen), and [inspired bomb](ref/discovery/inspired-bomb)."
-
-[[entry]]
-id = "ref/arc-arcanist/blood-arcanist"
-hold = "checker: [fields] trades = \"replaces: Arcanist exploits gained at 1st, 3rd, 9th, and 15th levels; replaces: magical supremacy\" disagrees with the trade sentences of the feature `bloodline` = \"replaces: the arcanist exploits gained at 1st, 3rd, 9th, and 15th levels, as well as magical supremacy\" (line 31)"
-opening = ["Though most arcanists possess only a rudimentary innate arcane gift, the blood arcanist has the full power of a bloodline to draw upon."]
-
-[[entry.feature]]
-anchor = "bloodline"
-head = "Bloodline"
-listed = true
-print = '''
-A blood arcanist selects one bloodline from those available through the [sorcerer bloodline](ref/ability/sorcerer-bloodlines) class feature. The blood arcanist gains the bloodline arcana and bloodline powers of that bloodline, treating her arcanist level as her sorcerer level. The blood arcanist does not gain the class skill, bonus feats, or bonus spells from her bloodline.
-
-If the blood arcanist takes levels in another class that grants a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of her classes must change. Subject to GM discretion, the blood arcanist can change her former bloodline to make them conform.
-
-This ability replaces the arcanist exploits gained at 1st, 3rd, 9th, and 15th levels, as well as magical supremacy. A blood arcanist cannot select the [bloodline development](ref/exploit/bloodline-development) arcanist exploit.'''
-import_trades = ["Arcanist exploits gained at 1st", "3rd", "9th", "15th levels", "magical supremacy"]
-
-[[entry]]
-id = "ref/arc-bard/voice-of-the-wild"
-hold = "checker: [fields] trades = \"replaces: Countersong; replaces: versatile performance; replaces: jack-of-all-trades\" disagrees with the trade sentences of the feature `nature-magic` = \"replaces: countersong, all instances of versatile performance, and jack-of-all-trades\" (line 47)"
-opening = ["Most bards are inspired by the art of civilization, yet the voice of the wild's muse is the grandeur and beauty of nature. The voice of the wild has discovered some of nature's magical secrets, and can use his performance to bring out the bestial side in his allies."]
-
-[[entry.feature]]
-anchor = "wild-knowledge"
-head = "Wild Knowledge (Ex)"
-listed = true
-level = 1
-print = '''
-At 1st level, a voice of the wild adds 1/2 his level (minimum 1)
-
-to all Knowledge (nature) checks. He can use Knowledge (geography) and Knowledge (nature) untrained. This ability replaces bardic knowledge.'''
-import_trades = ["Bardic knowledge"]
-
-[[entry.feature]]
-anchor = "nature-magic"
-head = "Nature Magic"
-listed = true
-level = 1
-print = "At 1st level, a voice of the wild can select a 1st-level druid or ranger spell as a bard spell known instead of a spell from the bard spell list. The voice of the wild can select another druid or ranger spell (of any bard spell level he can cast) at 4th, 7th, 10th, 13th, and 16th levels. If he chooses to learn a new spell in place of an old one, he can exchange a druid or ranger spell for another. This ability replaces countersong, all instances of versatile performance, and jack-of-all-trades."
-import_trades = ["Countersong", "versatile performance", "jack-of-all-trades"]
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "Voices of the wild gain the following bardic performance."
-
-[[entry.feature]]
-anchor = "song-of-the-wild"
-head = "Song of the Wild (Su)"
-listed = true
-level = 3
-print = '''
-At 3rd level, the voice of the wild can use bardic performance to grant an animal aspect to an ally, as if using the hunter's [animal focus](ref/ability/animal-foci) class feature.
-
-The ally must be able to hear or see the performance. The voice of the wild uses his bard level as his hunter level for determining the effect of the animal aspect.
-
-The bard can affect a second ally with this performance at 10th level and a third at 17th level. Song of the wild relies on audible or visual components. This ability replaces all increments of inspire competence, dirge of doom, and inspire heroics.'''
-import_trades = ["Inspire competence", "dirge of doom", "inspire heroics"]
-
-[[entry]]
-id = "ref/arc-bloodrager/blood-conduit"
-hold = "the alters trade `Bloodline feats` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["Blood conduits learn to channel their arcane might directly through their flesh, without the need for mystical words or gestures."]
-
-[[entry.feature]]
-anchor = "contact-specialist"
-head = "Contact Specialist (Ex)"
-listed = true
-level = 1
-print = "At 1st level, a blood conduit selects a bonus feat from the following: [Improved Bull Rush](ref/feat/improved-bull-rush), [Improved Grapple](ref/feat/improved-grapple), [Improved Reposition](ref/feat/improved-reposition), [Improved Trip](ref/feat/improved-trip), and [Improved Unarmed Strike](ref/feat/improved-unarmed-strike). He does not need to meet the prerequisites to take this feat. He also adds those feats to his list of bloodline feats. This ability replaces fast movement and alters bloodline feats."
-import_trades = ["Bloodline feats", "Fast movement"]
-
-[[entry.feature]]
-anchor = "spell-conduit"
-head = "Spell Conduit (Su)"
-listed = true
-level = 5
-print = "At 5th level, as long as a blood conduit is wearing light or no armor, he can deliver bloodrager spells with a range of touch through bodily contact. When he succeeds at a [combat maneuver](ref/rule/combat-maneuvers) check to bull rush, grapple, pin, reposition, or trip an opponent, or makes an unarmed strike against an enemy, he can as a swift action cast a touch spell on the creature that he affected with the combat maneuver, requiring no further touch attack roll. If this spell would usually require a successful touch attack, his successful combat maneuver check counts as this attack. This ability replaces uncanny dodge and improved uncanny dodge."
-import_trades = ["Uncanny dodge", "improved uncanny dodge"]
-
-[[entry.feature]]
-anchor = "reflexive-conduit"
-head = "Reflexive Conduit (Ex)"
-listed = true
-level = 14
-print = "At 14th level, a blood conduit can discharge his power into foes that attempt bodily contact with him. While wearing light or no armor, when the blood conduit is subject to a combat maneuver check made to bull rush, grapple, pin, reposition, or trip him, as an immediate action he can target his attacker with a bloodrager spell that has a range of touch. If the spell would normally require a touch attack, a blood conduit can attempt a combat maneuver check for this attack instead. This ability replaces indomitable will."
-import_trades = ["Indomitable will"]
-
-[[entry]]
-id = "ref/arc-gunslinger/bolt-ace"
-hold = "the replaces trade `Gunsmith` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["While gunslingers are full of sound and fury, there is a class of gunslingers that never soil their hands with powder or feel the sting of gun smoke. They commit their deeds in a more hushed manner, but with just as much flair."]
-
-[[entry.feature]]
-anchor = "crossbow-maven"
-head = "Crossbow Maven"
-listed = true
-print = "A bolt ace is proficient with all crossbows instead of all firearms and begins play with a masterwork crossbow of her choice. This ability alters the gunslinger's weapon proficiencies and replaces gunsmith."
-
-[[entry.feature]]
-anchor = "grit"
-head = "Grit (Ex)"
-listed = true
-print = "A bolt ace regains grit when she scores a critical hit or deals a killing blow with any kind of crossbow. This ability modifies the grit class feature."
-import_trades = ["Grit"]
-
-[[entry.feature]]
-anchor = "deeds"
-head = "Deeds"
-listed = true
-print = "A bolt ace can perform the following deeds with a crossbow instead of a firearm: [gunslinger initiative](ref/deed/gunslinger-initiative), [pistol-whip](ref/deed/pistol-whip), [dead shot](ref/deed/dead-shot), targeting, [bleeding wound](ref/deed/bleeding-wound), [death's shot](ref/deed/deaths-shot), and [stunning shot](ref/deed/stunning-shot). The bolt ace swaps the following deeds."
-
-[[entry.feature]]
-anchor = "sharp-shoot"
-head = "Sharp Shoot (Ex)"
-listed = true
-level = 1
-print = "At 1st level, a bolt ace can resolve an attack against touch AC instead of normal AC when firing a crossbow at a target within its first range increment. Performing this deed costs 1 grit point. This deed's cost cannot be reduced by any ability or effect that reduces the amount of grit points a deed costs (such as [Signature Deed](ref/feat/signature-deed)). This deed replaces deadeye."
-import_trades = ["Deadeye"]
-
-[[entry.feature]]
-anchor = "vigilant-loading"
-head = "Vigilant Loading (Ex)"
-listed = true
-level = 1
-print = "At 1st level, as long as a bolt ace has at least 1 grit point, she does not provoke attacks of opportunity when loading a crossbow. This deed replaces quick clear."
-import_trades = ["Quick clear"]
-
-[[entry.feature]]
-anchor = "shooter-s-resolve"
-head = "Shooter's Resolve (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, a bolt ace can spend 1 grit point when making a crossbow attack as a standard action and ignore the effects of [concealment](ref/rule/concealment) (though not total concealment) and [cover](ref/rule/cover) (other than total cover) against that shot. This deed replaces utility shot."
-import_trades = ["Utility shot"]
-
-[[entry.feature]]
-anchor = "distracting-shot"
-head = "Distracting Shot (Ex)"
-listed = true
-level = 7
-print = "At 7th level, a bolt ace can spend 1 grit point and choose to miss a target that she could normally attack within her range with a crossbow attack. When she does, the target loses its Dexterity bonus to AC (if any) for 1 round. This deed replaces startling shot."
-import_trades = ["Startling shot"]
-
-[[entry.feature]]
-anchor = "vigilant-shooter"
-head = "Vigilant Shooter (Ex)"
-listed = true
-level = 11
-print = "At 11th level, as long as a bolt ace spends 1 grit point when she does so, she does not provoke attacks of opportunity when firing a crossbow. This deed replaces expert loading."
-import_trades = ["Expert loading"]
-
-[[entry.feature]]
-anchor = "inexplicable-reload"
-head = "Inexplicable Reload (Ex)"
-listed = true
-level = 11
-print = "At 11th level, loading a crossbow becomes unthinking and automatic for a bolt ace. As long as she has at least 1 grit point, she always starts each round of combat (even a surprise round) with her crossbow loaded. Also the amount of time needed to reload a crossbow decreases by one step: a standard action becomes a move action, a move action becomes a swift action, a swift action becomes a free action, and a free action becomes not an action. This deed replaces lightning reload."
-import_trades = ["Lightning reload"]
-
-[[entry.feature]]
-anchor = "pinning-shot"
-head = "Pinning Shot (Ex)"
-listed = true
-level = 15
-print = "At 15th level, the bolt ace can spend 1 grit point while shooting a crossbow and attempt to pin down its target with the bolt. If the crossbow attack hits, it pins the target to a nearby object, to a wall, or to the ground, [entangling](ref/rule/entangled) and [staggering](ref/misc/staggered) the target. While pinned by the bolt, the target cannot move out of its space until it takes a standard action to free itself from the pinning bolt, except by means of teleportation. This deed replaces menacing shot."
-import_trades = ["Menacing shot"]
-
-[[entry.feature]]
-anchor = "crossbow-training"
-head = "Crossbow Training (Ex)"
-listed = true
-level = 5
-print = '''
-Starting at 5th level, a bolt ace can select one specific type of crossbow, such as [hand crossbow](ref/eq-weapon/hand-crossbow) or [heavy crossbow](ref/eq-weapon/heavy-crossbow). She gains a bonus on damage rolls equal to her Dexterity modifier with that crossbow. Furthermore, when she scores a critical hit with that type of crossbow, her critical modifier increases by 1 (a ×2 becomes a ×3, for example).
-
-Every 4 levels thereafter, she can pick a different type of crossbow, gaining the bonus damage and increased critical multiplier with that type of crossbow as well. This ability replaces gun training.'''
-import_trades = ["Gun training"]
-
-[[entry]]
-id = "ref/arc-hunter/feral-hunter"
-hold = "the replaces trade `Hunter tactics` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `speak with master` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["A feral hunter has forged a bond with nature that's so strong that she doesn't merely channel the aspects of animals— she actually becomes an animal herself. Though she lacks an animal companion, a feral hunter is in tune with the beast lurking within her flesh and spirit, and lives in a near-wild state of being. A feral hunter often resembles a lycanthrope, but her power comes from her own nature and is not influenced by moonlight or silver."]
-
-[[entry.feature]]
-anchor = "solitary"
-head = "Solitary"
-listed = true
-print = "Unlike most hunters, a feral hunter does not gain an animal companion."
-
-[[entry.feature]]
-anchor = "feral-focus"
-head = "Feral Focus (Su)"
-listed = true
-level = 1
-print = '''
-At 1st level, a feral hunter gains a limited ability to change her shape into hybrid animal forms. This functions as the animal focus class feature, except that the hunter always applies the animal aspect to herself, and there is no limit to this ability's duration. She can end this ability as a free action.
-
-When a feral hunter uses this ability, her body takes on cosmetic aspects of an animal, such as furry skin, longer nails, elongated teeth, and oddly colored eyes; these changes do not grant her any abilities other than what is stated in the animal focus, and end when she takes on a different aspect or ends the ability. This physical change is a [polymorph](ref/spelldef/polymorph) effect, though the effects of the animal focus are not.
-
-This ability alters animal focus and replaces the hunter tactics and speak with master class abilities.'''
-import_trades = ["Animal focus", "Hunter tactics", "speak with master"]
-
-[[entry.feature]]
-anchor = "precise-summoned-animal"
-head = "Precise Summoned Animal (Ex)"
-listed = true
-print = "This functions like the precise companion class ability, except the hunter grants all her teamwork feats to all animals she summons with _[summon nature's ally](ref/spell/summon-natures-ally)_. This ability alters precise companion."
-import_trades = ["Precise companion"]
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
+anchor = "sleeper-hold"
+head = "Sleeper Hold (Ex)"
 listed = true
 level = 4
-print = "At 4th level, a feral hunter gains the ability to change shape. This ability functions like the [druid](ref/class/druid) wild shape ability, except the hunter can take only animal forms (not elemental or plant forms). The hunter's effective druid level is equal to her class level. This ability replaces the bonus tricks, improved empathic link, greater empathic link, master of the wild, and raise animal companion class abilities."
-import_trades = ["Bonus tricks", "improved empathic link", "greater empathic link", "master of the wild", "raise animal companion"]
+print = "At 4th level, a strangler can instantly render a pinned opponent unconscious. This works like the knockout ability, but requires a successful grapple combat maneuver check against the pinned opponent and does not have to damage the opponent. Creatures that do not need to breathe, are immune to critical hits, or are immune to nonlethal damage are immune to this ability. At 10th level, a strangler can use this ability twice per day. At 16th level, she can use it three times per day. This alters knockout."
+import_trades = ["Knockout", "Knockout"]
 
 [[entry.feature]]
-anchor = "summon-pack"
-head = "Summon Pack (Sp)"
+anchor = "neckbreaker"
+head = "Neckbreaker (Ex)"
 listed = true
-level = 6
-print = "Starting at 6th level, whenever a feral hunter casts a _[summon nature's ally](ref/spell/summon-natures-ally)_ spell to summon one or more animals, she summons one additional animal of the same type. The summoned creature or creatures must be animals and must be of the same type as the hunter's current aspect or of a similar type (bears for bear aspect, dogs or wolves for wolf aspect, great cats for the tiger aspect, and so on). The additional creature immediately vanishes if the hunter chooses a different aspect or ends his feral focus ability. She can increase the duration of any one [summon nature's ally](ref/spell/summon-natures-ally) spell affected by this ability to 1 minute per level. She can have only one spell with a duration increased by this ability active at a time. This ability replaces the teamwork feats gained at 6th, 9th, 12th, 15th, and 18th levels."
-import_trades = ["Teamwork feats gained at 6th", "9th", "12th", "15th", "18th levels"]
-
-[[entry]]
-id = "ref/arc-hunter/packmaster"
-hold = "the alters trade `Precise companion` is not printed in a sentence, and no listed feature of that name prints it; the alters trade `woodland stride` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["Some hunters form bonds with packs of well-trained creatures. Whether such a hunter is a northern berserker running with a pack of timber wolves or a savage warrior dashing through the jungle alongside her herd of dimetrodons, the packmaster revels in the thrill of the hunt and the glory of the kill. A packmaster is more comfortable in groups than alone, and although her animal companions may be weaker than a typical hunter's, what they lack in strength they make up for in numbers."]
-
-[[entry.feature]]
-anchor = "pack-bond"
-head = "Pack Bond (Ex)"
-listed = true
-print = '''
-A packmaster can have more than one animal companion, but she must divide her effective druid level between her companions to determine the abilities of each one. For example, a 4th-level packmaster can have one 4th-level animal companion, two 2nd-level companions, one 3rd-level companion and one 1st-level companion, or four 1st-level companions.
-
-When a packmaster gains a level, she must decide how to allocate the increase among her animal companions, including whether or not to add a new 1st-level companion. Once a hunter level is allocated to a particular companion, it cannot be redistributed while that companion is in the packmaster's service. She must release the companion or wait until the companion dies to allocate its levels to another companion, which she can then do the next time she refreshes her spell slots for the day. The share spells animal companion ability applies to only one animal companion at a time—the packmaster cannot use it to cast a spell that affects only a single target and have the spell affect all of her animal companions.
-
-A packmaster's precise companion, woodland stride, and teamwork feats apply to only one of her animal companions at a time. (For example, a packmaster can apply precise companion to one companion, woodland stride to another, and a given teamwork feat to a third, but cannot apply any of those to two animal companions at once.) As a swift action, she can change which companion gains any or all of these benefits. This ability replaces animal companion.'''
-import_trades = ["Precise companion", "woodland stride", "teamwork feats", "Animal companion"]
-
-[[entry.feature]]
-anchor = "pack-focus"
-head = "Pack Focus (Su)"
-listed = true
-print = "This ability functions like [animal focus](ref/ability/animal-foci), with the following exceptions. A packmaster can apply her animal aspect to only one of her animal companions at a time without it counting against the number of minutes per day she can use that ability. When using animal focus on herself or her other animal companion, the ability counts against her minutes per day as normal. She can have only two animal aspects in effect at a time—one that counts against her minutes per day and one that doesn't—and they can't both target the same companion. Unless both her companions are dead, the hunter can't apply the companion's aspect to herself (and thereby gain the benefit of its unlimited duration). This ability replaces animal focus."
-import_trades = ["Animal focus"]
-
-[[entry.feature]]
-anchor = "teamwork-feat"
-head = "Teamwork Feat (Ex)"
-listed = true
-level = 3
-print = "At 3rd level or any level at which a packmaster would gain a bonus teamwork feat, she can instead increase the number of her animal companions that gain the benefits of her precise companion, woodland stride, and teamwork feats by 1. She can select this ability multiple times. This ability alters teamwork feats."
-import_trades = ["Teamwork feats"]
-
-[[entry.feature]]
-anchor = "second-pack-focus"
-head = "Second Pack Focus (Su)"
-listed = true
-level = 8
-print = "At 8th level, the hunter gains an ability that functions like the second animal focus, but the hunter can either assign each companion one aspect each or assign both aspects to the same companion. The foci on the companions don't need to be the same, nor do they need to be the same as the one assigned to the packmaster. This ability replaces second animal focus."
-import_trades = ["Second animal focus"]
-
-[[entry.feature]]
-anchor = "master-of-the-pack"
-head = "Master of the Pack (Ex)"
-listed = true
-level = 20
-print = "At 20th level, a packmaster and her animal companions can always move at full speed while using Survival to follow tracks without penalty. Each day when a packmaster gains new spells for the day, she chooses one animal focus to be active on herself or one of her animal companions for the entire day (if all of her animal companions are dead, she instead chooses two animal foci to be active on herself for the entire day). This focus is in addition to her pack focus class ability. This ability replaces master hunter."
-import_trades = ["Master hunter"]
+level = 16
+print = "At 16th level, a strangler can attempt to instantly kill a pinned opponent as a standard action. This works like the sleeper hold ability, but imposes a -5 penalty on her grapple combat maneuver check. If the opponent succeeds at its Fortitude save, the strangler deals damage as if she had attempted the grapple check to damage her opponent; if the opponent fails its Fortitude save, it dies. Creatures that are immune to critical hits are immune to this ability. At 20th level, the strangler can attempt this as a move action instead of a standard action. This ability replaces awesome blow and improved awesome blow."
+import_trades = ["Awesome blow, improved awesome blow", "Awesome blow", "improved awesome blow"]
 
 [[entry]]
 id = "ref/arc-hunter/verminous-hunter"
@@ -323,20 +55,21 @@ anchor = "vermin-companion"
 head = "Vermin Companion (Ex)"
 listed = true
 level = 1
-print = "At 1st level, a verminous hunter must choose a vermin companion instead of an animal companion (_Ultimate Magic_ 36). This ability alters animal companion. The hunter tactics class ability allows a verminous hunter to grant her teamwork feats to a mindless vermin companion."
-import_trades = ["Animal companion", "hunter tactics"]
+print = "At 1st level, a verminous hunter must choose a vermin companion instead of an animal companion. This ability alters animal companion. The hunter tactics class ability allows a verminous hunter to grant her teamwork feats to a mindless vermin companion."
+import_trades = ["Animal companion, hunter tactics", "Animal companion", "hunter tactics"]
 
 [[entry.feature]]
 anchor = "vermin-empathy"
 head = "Vermin Empathy (Ex)"
 listed = true
 print = "A verminous hunter gains the wild empathy ability, but can use it only to influence vermin (not animals or magical beasts). This ability alters wild empathy."
-import_trades = ["Wild empathy"]
+import_trades = ["Wild empathy", "Wild empathy"]
 
 [[entry.feature]]
 anchor = "vermin-focus"
 head = "Vermin Focus (Su)"
 listed = true
+level = 1
 print = "A verminous hunter can take on the aspect of a vermin. This functions as [animal focus](ref/ability/animal-foci), but allows only the following choices."
 
 [[entry.feature]]
@@ -446,7 +179,7 @@ print = '''
 The creature gains a 25% chance to treat any critical hit or sneak attack as a normal hit (as the _[fortification](ref/magic-enh/fortification)_ armor special ability). This increases to 50% at 8th level, and 75% at 15th level.
 
 This ability replaces animal focus.'''
-import_trades = ["Animal focus"]
+import_trades = ["Animal focus", "Animal focus"]
 
 [[entry.feature]]
 anchor = "swarm-stride"
@@ -454,78 +187,11 @@ head = "Swarm Stride (Ex)"
 listed = true
 level = 5
 print = "At 5th level, a verminous hunter learns to move through vermin without danger. He can safely pass through [swarms](ref/subtype/swarm) of vermin and does not take swarm damage while within a vermin swarm's space. In addition, he is immune to a swarm's distraction ability. If the hunter or his animal companion attacks a swarm, they lose this protection against only that swarm. This ability replaces woodland stride."
-import_trades = ["Woodland stride"]
-
-[[entry]]
-id = "ref/arc-magus/eldritch-scion"
-hold = "checker: [fields] trades = \"replaces: Arcane pool\" disagrees with the trade sentences of the feature `eldritch-pool` = \"replaces: arcane pool, and abilities that modify arcane pool also modify eldritch pool\" (line 72)"
-opening = ["Unlike typical magi, eldritch scions do not study tomes of magic or spend time learning to combine martial and magical skills. Rather, eldritch scions find that their spells and abilities come to them instinctively."]
-
-[[entry.feature]]
-anchor = "spells"
-head = "Spells"
-listed = true
-print = '''
-An eldritch scion casts arcane spells drawn from the magus spell list. He can cast any spell he knows without preparing it ahead of time. To learn or cast a spell, an eldritch scion must have a Charisma score equal to at least 10 + the spell's level. The DC for a saving throw against an eldritch scion's spell is 10 + the spell's level + the eldritch scion's Charisma modifier. An eldritch scion can cast only a certain number of spells of each spell level per day. His base daily spell allotment is the same as a [bard](ref/class/bard) of the same level. In addition, he receives bonus spells per day if he has a high Charisma score.
-
-An eldritch scion's selection of spells is limited. He has the same number of spells known as a bard of the same level, and can choose new spells to replace old ones at 5th level and every 3 class levels after that, just as a bard does. See the bard (_Core Rulebook_ 35) for more information on swapping spells known. This replaces the magus's spells class feature.'''
-import_trades = ["Spells"]
-
-[[entry.feature]]
-anchor = "bloodline"
-head = "Bloodline"
-listed = true
-print = '''
-An eldritch scion gains a [bloodrager bloodline](ref/ability/bloodrager-bloodlines). The bloodline is selected at 1st level, and this choice cannot be changed. An eldritch scion's effective bloodrager level for his bloodline abilities is equal to his eldritch scion level. He does not gain any bonus feats, and he gains bonus spells from his bloodline at different levels (see the bonus spell class feature below). To use any ability that normally functions when in a bloodrage, an eldritch scion must spend a point from his eldritch pool (see below).
-
-If an eldritch scion takes levels in another class that grant a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of the classes must change. Subject to GM discretion, an eldritch scion can change his former bloodline to make them conform.
-
-This ability replaces spell recall.'''
-import_trades = ["Spell recall"]
-
-[[entry.feature]]
-anchor = "eldritch-pool"
-head = "Eldritch Pool (Su)"
-listed = true
-print = '''
-An eldritch scion gains an eldritch pool of personal magical energy, equal to 1/2 his magus level (minimum 1) + his Charisma modifier. As a swift action, he can spend a point of eldritch energy to enter a state of mystical focus for 2 rounds. This allows him to use abilities from his bloodrager bloodline as though he were in a bloodrage, though he gains none of the other benefits or drawbacks of bloodraging. At 4th level, an eldritch scion can also use his eldritch pool as an arcane pool, gaining all the benefits listed with the magus's arcane pool class feature.
-
-Additionally, any magus's class feature or spell from the magus spell list that normally uses a calculation based on Intelligence is instead based on Charisma for an eldritch scion. For example, an eldritch scion with the [arcane accuracy](ref/arcana/arcane-accuracy) magus arcana grants himself an insight bonus on attacks equal to his Charisma bonus, not his Intelligence bonus. This has no effect on the eldritch scion's skills or skill points. This ability replaces arcane pool, and abilities that modify arcane pool also modify eldritch pool.'''
-import_trades = ["Arcane pool"]
-
-[[entry.feature]]
-anchor = "spell-combat"
-head = "Spell Combat (Ex)"
-listed = true
-print = "An eldritch scion can only use spell combat while in a state of mystic focus (see eldritch pool, above). At 8th level, an eldritch scion can use spell combat at any time. This ability alters spell combat."
-import_trades = ["Spell combat"]
-
-[[entry.feature]]
-anchor = "bonus-spells"
-head = "Bonus Spells"
-listed = false
-print = "At 7th level, an eldritch scion gains the bonus spell from his bloodrager bloodline that is normally gained at 10th level. He gains the next three bonus spells from his bloodline at 9th, 11th, and 13th levels, respectively. This ability replaces knowledge pool."
-import_trades = ["Knowledge pool"]
-
-[[entry.feature]]
-anchor = "improved-spell-combat"
-head = "Improved Spell Combat (Ex)"
-listed = true
-level = 14
-print = "At 14th level, an eldritch scion gains the improved spell combat class feature. This ability alters improved spell combat."
-import_trades = ["Improved spell combat"]
-
-[[entry.feature]]
-anchor = "greater-spell-combat"
-head = "Greater Spell Combat (Ex)"
-listed = true
-level = 18
-print = "At 18th level, an eldritch scion gains the greater spell combat class feature. This ability alters greater spell combat."
-import_trades = ["Greater spell combat"]
+import_trades = ["Woodland stride", "Woodland stride"]
 
 [[entry]]
 id = "ref/arc-oracle/psychic-searcher"
-hold = "the replaces trade `The bonus spells gained at 4th, 6th, 8th, 12th, 16th, and 18th levels from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it; the alters trade `Revelations gained after 3rd level` is not printed in a sentence, and no listed feature of that name prints it"
+hold = "the replaces trade `The bonus spells gained at 4th, 6th, 8th, 12th, 16th, and 18th levels from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it"
 opening = ["A psychic searcher is devoted to revealing the hidden within the world around her by sensing and communing with residual mental energy, haunts, and fragments of living spirits that can dwell in objects or rooms."]
 
 [[entry.feature]]
@@ -533,7 +199,7 @@ anchor = "bonus-spells"
 head = "Bonus Spells"
 listed = false
 print = "_Augury_ (4th), _locate object_ (6th), _divination_ (8th), _find the path_ (12th), _discern location_ (16th), _foresight_ (18th). These bonus spells replace the oracle's normal mystery bonus spells at these levels."
-import_trades = ["The bonus spells gained at 4th", "6th", "8th", "12th", "16th", "18th levels from the oracle's mystery"]
+import_trades = ["The bonus spells gained at 4th, 6th, 8th, 12th, 16th, and 18th levels from the oracle's mystery", "The bonus spells gained at 4th", "6th", "8th", "12th", "16th", "18th levels from the oracle's mystery"]
 
 [[entry.feature]]
 anchor = "inspiration"
@@ -541,7 +207,7 @@ head = "Inspiration (Ex)"
 listed = true
 level = 2
 print = "At 2nd level, a psychic searcher gains an inspiration pool, as the [investigator](ref/class/investigator) class ability. A psychic searcher uses her oracle level as her investigator level to determine the effects of this ability. She gains free uses of inspiration on Diplomacy, Knowledge (arcana, history, local, nobility, planes, religion), and Sense Motive skill checks without spending a use of inspiration, provided she's trained in that skill. A psychic searcher's inspiration pool refreshes each day, usually when she refreshes her spells. A psychic searcher's inspiration pool is based on her Charisma modifier, not her Intelligence modifier. This ability replaces the mystery spell gained at 2nd level."
-import_trades = ["Mystery spell gained at 2nd level"]
+import_trades = ["Mystery spell gained at 2nd level", "Mystery spell gained at 2nd level"]
 
 [[entry.feature]]
 anchor = "psychic-talent"
@@ -549,7 +215,7 @@ head = "Psychic Talent (Su)"
 listed = true
 level = 3
 print = "At 3rd level, a psychic searcher's mastery of her supernatural insight grows, granting her a new investigator talent from the following list: [amazing inspiration](ref/invtalent/amazing-inspiration), [eidetic recollection](ref/invtalent/eidetic-recollection), [empathy](ref/invtalent/empathy), [inspired alertness](ref/invtalent/inspired-alertness), [item lore](ref/invtalent/item-lore), [perceptive tracking](ref/invtalent/perceptive-tracking) (except using Sense Motive instead of Perception or Survival), [rogue talent](ref/invtalent/rogue-talent) (only for [hard to fool](ref/talent/hard-to-fool)), and [tenacious inspiration](ref/invtalent/tenacious-inspiration). Whenever a psychic searcher can select a new revelation, she can instead select an investigator or rogue talent from the above list. This ability replaces the revelation gained at 3rd level."
-import_trades = ["Revelations gained after 3rd level", "Revelation gained at 3rd level"]
+import_trades = ["Revelations gained after 3rd level", "Revelations gained after 3rd level", "Revelation gained at 3rd level", "Revelation gained at 3rd level"]
 
 [[entry.feature]]
 anchor = "recommended-mysteries"
@@ -560,6 +226,7 @@ print = "[Ancestor](ref/mystery/ancestor), [lore](ref/mystery/lore), [nature](re
 [[entry]]
 id = "ref/arc-oracle/spirit-guide"
 hold = "the replaces trade `Bonus skills from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
 opening = ["Through her exploration of the universe's mysteries, a spirit guide opens connections to the spirit world and forms bonds with the entities that inhabit it."]
 
 [[entry.feature]]
@@ -581,250 +248,13 @@ A spirit guide gains one hex of her choice from the list of hexes available from
 At 4th level, she adds the bonded spirit's spirit magic spells to her oracle spells known for that day, but only of spell levels she can cast. At 7th level, she gains the spirit ability of her current bonded spirit. At 15th level, she gains the greater spirit ability of her current bonded spirit.
 
 This ability replaces the revelations gained at 3rd, 7th, and 15th levels.'''
-import_trades = ["Revelations gained at 3rd", "7th", "15th levels"]
+import_trades = ["Revelations gained at 3rd, 7th, and 15th levels", "Revelations gained at 3rd", "7th", "15th levels"]
 
 [[entry.feature]]
 anchor = "recommended-mysteries"
 head = "Recommended Mysteries"
 listed = false
 print = "[Ancestor](ref/mystery/ancestor), [heavens](ref/mystery/heavens), [lore](ref/mystery/lore)."
-
-[[entry]]
-id = "ref/arc-paladin/holy-guide"
-hold = "checker: [fields] trades = \"replaces: 3rd-level mercy\" disagrees with the trade sentences of the feature `favored-terrain` = \"replaces: the mercy gained at 3rd level\" (line 40)"
-opening = ["A holy guide believes that it's his sacred calling to clear the roads of bandits between towns as well as to escort travelers to safety. He must enforce the rule of law in the wilderness and help those that cannot defend themselves against the many dangers of the area."]
-
-[[entry.feature]]
-anchor = "class-skills"
-head = "Class Skills"
-listed = true
-print = "A holy guide gains Knowledge (geography) and Survival as class skills."
-
-[[entry.feature]]
-anchor = "favored-terrain"
-head = "Favored Terrain (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, a holy guide chooses a [favored terrain](ref/ability/favored-terrain) from the [ranger](ref/class/ranger) favored terrains table. This otherwise functions like the ranger ability of the same name. This ability replaces the mercy gained at 3rd level. Every time a holy guide would be able to select another mercy, he can instead select another favored terrain and increase his bonuses for one existing favored terrain, just like a ranger."
-import_trades = ["3rd-level mercy"]
-
-[[entry.feature]]
-anchor = "teamwork-feat"
-head = "Teamwork Feat (Ex)"
-listed = true
-level = 6
-print = "At 6th level, a holy guide gains a teamwork feat as a bonus feat. He must meet the prerequisites for this feat. As a standard action, He can expend one use of smite evil to grant this feat to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the holy guide possesses. Allies do not need to meet the prerequisites of this bonus feat. Evil creatures do not gain the benefit of this teamwork feat, even if the paladin considers them allies. This ability replaces the mercy gained at 6th level."
-import_trades = ["6th-level mercy"]
-
-[[entry]]
-id = "ref/arc-ranger/wild-hunter"
-hold = "checker: [fields] trades = \"replaces: Favored enemy\" disagrees with the trade sentences of the feature `animal-focus` = \"replaces: all instances of the favored enemy class ability\" (line 34)"
-opening = ["A wild hunter seeks to emulate the animals around him to keep him safe while he tracks his prey. Instead of studying the traits and behaviors of a favored enemy, a wild hunter studies those of various animals, incorporating those attributes into his hunting strategy."]
-
-[[entry.feature]]
-anchor = "animal-focus"
-head = "Animal Focus (Su)"
-listed = true
-level = 1
-print = "At 1st level, as a swift action a wild hunter can take on the [aspect of an animal](ref/ability/animal-foci), gaining a bonus or special ability based on the type of animal emulated. This functions as the hunter's animal focus class feature (see page 27), though this only applies to the wild hunter and not an animal companion (see shared focus, below). The wild hunter can use this ability for 1 minute per day per ranger level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. He can only emulate one animal at a time. This ability replaces all instances of the favored enemy class ability."
-import_trades = ["Favored enemy"]
-
-[[entry.feature]]
-anchor = "shared-focus"
-head = "Shared Focus (Su)"
-listed = true
-level = 7
-print = "At 7th level, a wild hunter can share his current animal focus with one creature appropriate to his hunter's bond. If the wild hunter's bond is with an animal companion, the companion automatically gains the benefits of the wild hunter's current animal focus. If the wild hunter's bond is with his companions, as a swift action he can select one bonded ally to gain the benefits of the hunter's current animal focus; this lasts until the hunter's bond ends, the animal focus ends for the wild hunter, or the wild hunter selects a different companion. This ability replaces woodland stride and swift tracker."
-import_trades = ["Woodland stride", "swift tracker"]
-
-[[entry]]
-id = "ref/arc-shaman/animist"
-hold = "checker: [fields] trades = \"replaces: 2nd-level hex\" disagrees with the trade sentences of the feature `wrangle-condition` = \"replaces: the hex gained at 2nd level\" (line 50)"
-opening = ["Even among mystical practitioners, the animist has a strange perspective and even stranger magic. The animist perceives that all things have a spirit, including objects, constructs, illnesses, buildings, and the environment."]
-
-[[entry.feature]]
-anchor = "animist-spirit-magic"
-head = "Animist Spirit Magic"
-listed = true
-print = "The animist adds the following spells to the list of spells he can cast using spirit magic: _speak with animals_ (1st), _skinsend_ (2nd), _speak with plants_ (3rd), _malfunction_ (4th), _dream_ (5th), _speak with stone_ (6th), _control construct_ (7th), _trap the soul_ (8th), _soul bind_ (9th). This ability replaces the spirit magic spells gained from the shaman's spirit."
-import_trades = ["Spirit magic spells gained from the shaman's spirit"]
-
-[[entry.feature]]
-anchor = "wrangle-condition"
-head = "Wrangle Condition (Su)"
-listed = true
-level = 2
-print = '''
-At 2nd level, the animist interacts directly with unwholesome spirits of the ills that trouble him or his people. To the animist, negative conditions manifest as anthropomorphic spirits or are caused by such spirits (visited upon the creature by bad magic). Either way, the animist can attempt to persuade the spirit to leave its victim alone, thus performing a miraculous healing. As the animist grows in power, he can simply inform these spirits that they are unwelcome and command them to depart.
-
-The animist can attempt a Diplomacy check to persuade the condition's spirit to leave. Conditions the animist can affect are ranked from minor to dire, with each category having an accompanying Diplomacy DC (see below). The animist cannot take 10 or 20 on the check or receive aid from any creature except another shaman. Failure by 5 or less means the condition spirit is willing to leave the target and transfer to the animist for the rest of the duration or until cured; this happens only if the animist is willing. Failure by 10 or more means that not only is the target inflicted with the condition, but the animist is as well (whether or not he is willing) for the remaining duration or until cured.
-
-_Minor Conditions_ (DC 15): Fatigued, shaken, and sickened.
-
-_Major Conditions_ (DC 20): Dazed and staggered.
-
-_Severe Conditions_ (DC 25): Exhausted, frightened, and nauseated.
-
-_Dire Conditions_ (DC 30): Blinded, deafened, paralyzed, and stunned.
-
-The animist can use this ability a number of times per day equal to 1/2 his shaman level + his Wisdom modifier. Using this ability is a standard action that requires no contact or shared language with the target, but it relies on audible components and the target must be within 30 feet. If a target is afflicted with multiple conditions, the animist targets one condition at a time (of her choosing). The animist cannot use this ability on himself.
-
-At 5th level, the animist can use this ability to exorcise minor conditions without needing to attempt a Diplomacy check. He can dispatch major conditions without a roll at 9th level, severe conditions at 13th level, and dire conditions at 17th level. Doing so still requires one use of this ability per condition.
-
-This ability replaces the hex gained at 2nd level.'''
-import_trades = ["2nd-level hex"]
-
-[[entry.feature]]
-anchor = "exorcism"
-head = "Exorcism (Su)"
-listed = true
-level = 8
-print = "At 8th level, the animist can attempt to end effects that control a creature or object, such as _[magic jar](ref/spell/magic-jar)_, _[possess object](ref/spell/possess-object)_, _[dominate person](ref/spell/dominate-person)_, and _[dominate monster](ref/spell/dominate-monster)_, or possessing entities such as [ghosts](ref/template/ghost). This is a full-round action that requires the animist to touch the target. The possessing or dominating creature must attempt a Will save with a DC equal to 10 + 1/2 the shaman level + her Wisdom modifier. Failure means that the controlling effect ends or the entity is immediately cast out of the target, as appropriate. If the possessing entity is exorcised, it cannot attempt to dominate or possess that target again for 24 hours. The animist can exorcise the same entity out of different targets, but once the entity successfully saves against the animist's exorcism, it cannot be affected by this ability again for 24 hours. This ability replaces the hex gained at 8th level."
-import_trades = ["Hex gained at 8th level"]
-
-[[entry.feature]]
-anchor = "dominate-spirit"
-head = "Dominate Spirit (Sp)"
-listed = true
-level = 10
-print = "At 10th level, the animist can attempt to possess creatures or objects as _[magic jar](ref/spell/magic-jar)_ or _[possess object](ref/spell/possess-object)_. When the animist is attempting to possess the creature, his familiar acts as the jar and must be within 10 feet when the animist attempts to possess a creature. The animist's soul can perceive his surroundings through the familiar's senses, clearly evaluate potential targets for possession, and communicate with his familiar telepathically. The familiar retains its autonomy while acting as the jar, and is not harmed by being used as a vessel for the animist's soul. The animist can use this ability once per day at 10th level, plus an additional time per day every 4 levels thereafter. This ability replaces the hex gained at 10th level."
-import_trades = ["Hex gained at 10th level"]
-
-[[entry.feature]]
-anchor = "contact-with-the-spirit-world"
-head = "Contact with the Spirit World (Su)"
-listed = true
-level = 12
-print = "At 12th level, the shaman can interact with incorporeal entities as if his unarmed strikes and melee weapons had the _[ghost touch](ref/magic-enh/ghost-touch-weapon)_ weapon special ability. While using this ability, he can also see nearby ethereal entities and likewise strike at them as if they were incorporeal. He can use this ability for a number of rounds per day equal to his shaman level. The rounds need not be consecutive. This ability replaces the hex gained at 12th level."
-import_trades = ["Hex gained at 12th level"]
-
-[[entry.feature]]
-anchor = "etherealness"
-head = "Etherealness (Sp)"
-listed = true
-level = 18
-print = "At 18th level, the animist can cast _[etherealness](ref/spell/etherealness)_ once per day as a [spell-like ability](ref/umr/spell-like-abilities). This ability replaces the hex gained at 18th level."
-import_trades = ["Hex gained at 18th level"]
-
-[[entry.feature]]
-anchor = "spirit-shaman"
-head = "Spirit Shaman (Sp)"
-listed = true
-level = 20
-print = "At 20th level, the animist can use _[ethereal jaunt](ref/spell/ethereal-jaunt)_ as at will as a [spell-like ability](ref/umr/spell-like-abilities), and cast _[astral projection](ref/spell/astral-projection)_ once per day as a spell-like ability. This ability replaces manifestation."
-import_trades = ["Manifestation"]
-
-[[entry]]
-id = "ref/arc-shaman/unsworn-shaman"
-hold = "the replaces trade `Wandering hex` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["An unsworn shaman never binds herself to one specific spirit, always making new deals as she deems necessary for the circumstances that she finds herself in. While this weakens the powers she can access from any one spirit, it gives her access to a broader overall range of abilities."]
-
-[[entry.feature]]
-anchor = "minor-spirit"
-head = "Minor Spirit (Su)"
-listed = true
-level = 1
-print = '''
-At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a shaman or witch hex of her choosing, but not a major hex or a grand hex. She must make this selection each day when she prepares her spells for the day. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day. If she selects a witch hex, she treats her shaman level as her witch level, and uses her Wisdom in place of her Intelligence for the purpose of that hex.
-
-She can make temporary bonds with two minor spirits (thus gaining two hexes) at 4th level, and with one additional minor spirit (and hex) every 4 levels thereafter. This ability replaces spirit and alters hex.'''
-import_trades = ["Hex", "Spirit"]
-
-[[entry.feature]]
-anchor = "spirit-animal"
-head = "Spirit Animal"
-listed = true
-level = 2
-print = "At 2nd level, an unsworn shaman's spirit animal gains the spirit animal bonus from one of her wandering spirits (see below). This bonus can be changed each day when the shaman prepares spells, but it must correspond to one of the shaman's wandering spirits. This ability alters spirit animal."
-import_trades = ["Spirit animal"]
-
-[[entry.feature]]
-anchor = "wandering-spirit"
-head = "Wandering Spirit (Su)"
-listed = true
-level = 2
-print = '''
-At 2nd level, the unsworn shaman gains access to the wandering spirit class feature. At 10th level, she gains the abilities listed in the greater version of her wandering spirit. At 18th level, she gains the abilities listed in the true version of her wandering spirit.
-
-Additionally, at 6th level, she also gains a second wandering spirit, gaining the abilities listed in the greater version of that spirit at 14th level, and the abilities listed in the true version at 20th level. This ability alters wandering spirit and replaces wandering hex.'''
-import_trades = ["Wandering spirit", "Wandering hex"]
-
-[[entry.feature]]
-anchor = "spirit-magic"
-head = "Spirit Magic (Sp)"
-listed = true
-level = 2
-print = "The unsworn shaman gains this ability at 2nd level rather than at 1st. This ability alters spirit magic."
-import_trades = ["Spirit magic"]
-
-[[entry]]
-id = "ref/arc-skald/spell-warrior"
-hold = "checker: [fields] trades = \"replaces: Inspired rage\" disagrees with the trade sentences of the feature `enhance-weapons` = \"replaces: the inspired rage raging song\" (line 52)"
-opening = ["The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor of himself and his allies. With a clash of bracers and a sonorous chant, the Spell Warrior's song reaches out to touch the weapons of his allies, lending them arcane power. While his song does not inspire rage, he can use the power of his music to enchant the weapons of his allies and counter the spells of his foes."]
-
-[[entry.feature]]
-anchor = "improved-counterspell"
-head = "Improved Counterspell"
-listed = true
-level = 1
-print = "At 1st level, the spell warrior receives the [Improved Counterspell](ref/feat/improved-counterspell) feat as a bonus feat. This ability replaces Scribe Scroll."
-import_trades = ["Scribe Scroll"]
-
-[[entry.feature]]
-anchor = "weapon-song"
-head = "Weapon Song (Su)"
-listed = true
-print = "A spell warrior gains the following raging song, allowing him to grant his ally's weapons enhancement bonuses and special powers."
-
-[[entry.feature]]
-anchor = "enhance-weapons"
-head = "Enhance Weapons (Su)"
-listed = true
-level = 1
-print = '''
-At 1st level, the spell warrior can grant a +1 enhancement bonus to the weapons (including ammunition) of allies within 60 feet. At 5th level and every 5 levels thereafter, this enhancement bonus increases by 1. The maximum bonus gained is based upon the number of weapons affected: +5 to one weapon, +4 to two weapons, +3 to three weapons, or +2 to four or more weapons. Fifty pieces of ammunition count as one weapon for this purpose. The wielder of a weapon enhanced by this raging song counts as if he were under the effect of an inspired rage raging song for all purposes involving the skald's rage powers.
-
-These bonuses can also be used to add any of the following weapon special abilities to the weapons enhanced by this ability: _[dancing](ref/magic-enh/dancing)_, _[defending](ref/magic-enh/defending)_, _[distance](ref/magic-enh/distance)_, _[flaming](ref/magic-enh/flaming)_, _[frost](ref/magic-enh/frost)_, _[ghost touch](ref/magic-enh/ghost-touch-weapon)_, _[keen](ref/magic-enh/keen)_, _[mighty cleaving](ref/magic-enh/mighty-cleaving)_, _[returning](ref/magic-enh/returning)_, _[shock](ref/magic-enh/shock)_, _[seeking](ref/magic-enh/seeking)_, or _[speed](ref/magic-enh/speed)_. Adding these weapon special abilities consumes an amount of bonus equal to the special ability's cost (see Table 15–9: Melee Weapon Special Abilities on page 469 of the _Core Rulebook_). These enhancement bonuses and special abilities overlap with any enhancements or special abilities the weapon already has, though duplicate special abilities do not stack. If an affected weapon is not magical, at least a +1 enhancement bonus must be added before any other special abilities can be.
-
-The bonus and special abilities granted by this raging song are determined when the song begins, and cannot be changed until the raging song ends and another is begun. These bonuses apply to only one end of a double weapon. This ability replaces the inspired rage raging song.'''
-import_trades = ["Inspired rage"]
-
-[[entry.feature]]
-anchor = "greater-counterspell"
-head = "Greater Counterspell (Su)"
-listed = true
-level = 5
-print = '''
-At 5th level, the spell warrior gains increased versatility when attempting to counteract enemy spellcasting. When counterspelling, he can expend two skald spell slots of the same level or higher than the opponent's spell, regardless of the school of that spell.
-
-At 11th level, when counterspelling an opponent's spell, the spell warrior only has to expend one skald spell slot of the level of the spell being cast.
-
-At 17th level, the spell warrior gains [Parry Spell](ref/feat/parry-spell) as a bonus feat. The skald does not have to meet the prerequisites for this feat.
-
-This ability replaces spell kenning.'''
-import_trades = ["Spell kenning"]
-
-[[entry.feature]]
-anchor = "song-of-arcane-manipulation"
-head = "Song of Arcane Manipulation (Su)"
-listed = true
-level = 10
-print = "At 10th level, a spell warrior can sacrifice his own rage magic to counter an opponent's spell. When using raging song, he can counterspell as an immediate action without interrupting his raging song. However, in addition to expending a spell slot (or spell slots) to attempt to counter the opponent's spell, the skald must expend 1 round of raging song per spell level of the opponent's spell (for example, if attempting to counterspell a 3rd-level spell, the skald must expend one of his own 3rd-level spell slots and 3 rounds of raging song). This ability replaces the dirge of doom raging song."
-import_trades = ["Dirge of doom"]
-
-[[entry.feature]]
-anchor = "spell-tamper"
-head = "Spell Tamper (Su)"
-listed = true
-level = 20
-print = "At 20th level, when a spell warrior successfully counterspells an opponent's spell, the opponent suffers a backlash of magical energy and takes 1d6 points of damage per spell level of the countered spell. If the opponent succeeds at a Will saving throw (DC = 10 + 1/2 the skald's level + the skald's Charisma modifier), the damage is reduced by half. This damage is magical and is not subject to [damage reduction](ref/rule/damage-reduction) or energy resistance. This ability replaces master skald."
-import_trades = ["Master skald"]
-
-[[entry.feature]]
-anchor = "rage-powers"
-head = "Rage Powers"
-listed = false
-print = "The following rage powers complement the spell warrior archetype: clear mind, disruptive, eater of magic, elemental rage (lesser, normal, and greater), energy resistance, spell sunder, spellbreaker, sunder enchantment, superstition, and witch hunter."
 
 [[entry]]
 id = "ref/arc-sorcerer/eldritch-scrapper"
@@ -844,7 +274,7 @@ At 9th level, an eldritch scrapper can use this ability to gain the benefit of t
 At 15th level, an eldritch scrapper can use this ability to gain the benefit of three combat feats at the same time. She can select one feat as a swift action, two feats as a move action, or three feats as a standard action. She can use one of the feats to meet a prerequisite of the second and third feats, and use the second feat to meet a prerequisite of the third feat. Each individual feat selected counts toward her daily uses of this ability.
 
 This ability replaces the sorcerer's bloodline powers gained 1st, 9th, and 15th levels.'''
-import_trades = ["Bloodline powers gained at 1st", "9th", "15th level"]
+import_trades = ["Bloodline powers gained at 1st, 9th, and 15th level", "Bloodline powers gained at 1st", "9th", "15th level"]
 
 [[entry.feature]]
 anchor = "bloodline-weapons"
@@ -853,58 +283,9 @@ listed = true
 print = "If an eldritch scrapper's 1st-level bloodline power would normally grant her natural attacks (such as bite or claws), at 3rd level she can select that 1st-level bloodline power in place of her 3rd-level bloodline power."
 
 [[entry]]
-id = "ref/arc-summoner/naturalist"
-hold = "checker: [fields] trades = \"replaces: Aspect\" disagrees with the trade sentences of the feature `second-animal-focus` = \"replaces: the aspect summoner class ability\" (line 69)"
-opening = ["A naturalist is a summoner who is in tune with the natural world, using his magic like a lens to focus various animal aspects onto his eidolon. More akin to a hunter than to other arcane spellcasters, a naturalist instinctively masters the power of such creatures as the bear, wolf, mouse, or tiger to make his exotic eidolon the perfect living tool for battle or stealth, and he eventually discovers how to apply these transformations to himself as well."]
-
-[[entry.feature]]
-anchor = "nature-s-call"
-head = "Nature's Call (Sp)"
-listed = true
-level = 1
-print = "Starting at 1st level, the naturalist can cast _[summon nature's ally I](ref/spell/summon-natures-ally-1)_ as a [spell like ability](ref/umr/spell-like-abilities) a number of times per day equal to 3 + his Charisma modifier. He can only use this ability to summon creatures of the animal, magical beast, or vermin type. This ability otherwise functions as the _[summon monster I](ref/spell/summon-monster-1)_ class feature (increasing in level as the naturalist goes up in level and with the same restrictions). This ability replaces _summon monster I_."
-import_trades = ["Summon monster I"]
-
-[[entry.feature]]
-anchor = "animal-focus"
-head = "Animal Focus (Su)"
-listed = true
-level = 4
-print = '''
-At 4th level, as a swift action a naturalist can enhance his eidolon with the aspect of an animal. Each time he uses this ability, he can select a hunter's [animal aspect](ref/ability/animal-foci) (see page 27) and apply it to his eidolon. His hunter level for this ability is equal to his summoner level - 2. He does not gain the ability to add an animal aspect to himself (see Shared Focus, below). This effect lasts until the eidolon is dismissed or sent back to its home plane.
-
-When an animal aspect is applied to an eidolon, its form is altered by superficial physical changes appropriate to that aspect. For example, using aspect of the [bat](ref/aspect/bat) might give the eidolon larger ears and eyes and perhaps membranes of skin connecting its limbs to its body, while using aspect of the [stag](ref/aspect/stag) might give the eidolon antlers and hoof like nails on its feat. None of these changes interfere with any of the eidolon's natural or magical abilities.
-
-This ability replaces shield ally and greater shield ally.'''
-import_trades = ["Shield ally", "greater shield ally"]
-
-[[entry.feature]]
-anchor = "second-animal-focus"
-head = "Second Animal Focus (Su)"
-listed = true
-level = 10
-print = "At 10th level, whenever a naturalist uses animal focus, he may apply two different animal aspects to his eidolon. The eidolon's form gains superficial physical charges appropriate to the chosen aspect. This replaces the aspect summoner class ability."
-import_trades = ["Aspect"]
-
-[[entry.feature]]
-anchor = "shared-focus"
-head = "Shared Focus (Su)"
-listed = true
-level = 14
-print = "At 14th level, the naturalist begins to take on some of the feral nature of his eidolon. Whenever the naturalist uses animal focus to grant an aspect to his eidolon, he also gains the effects of the chosen aspect. The naturalist keeps this aspect until his eidolon is dismissed or sent back to its home plane. The naturalist gains the effects of only one aspect, even if the eidolon gains more than one (naturalist's choice). This ability replaces life bond."
-import_trades = ["Life bond"]
-
-[[entry.feature]]
-anchor = "third-animal-focus"
-head = "Third Animal Focus (Su)"
-listed = true
-level = 18
-print = "At 18th level, whenever a naturalist uses his animal focus ability, he can apply three different animal aspects to his eidolon (one of which lasts until he decides to change it). This ability replaces greater aspect."
-import_trades = ["Greater aspect"]
-
-[[entry]]
 id = "ref/arc-swashbuckler/daring-infiltrator"
 hold = "checker: [fields] trades = \"alters: Bonus feats\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 27)"
+opening_from_print = true
 opening = ["Not known for their flashy entrances or for standing out in a crowd, a daring infiltrator uses stealth, disguise, and ruthless guile to pursue her goals. Some of these swashbucklers work to undermine evil organizations, while others are master thieves or mysterious assassins."]
 
 [[entry.feature]]
@@ -918,7 +299,7 @@ anchor = "bonus-feats"
 head = "Bonus Feats"
 listed = false
 print = "In addition to combat feats, a daring infiltrator's bonus feats at 4th, 8th, 12th, 16th, and 20th level can come from the following list: [Alertness](ref/feat/alertness), [Antagonize](ref/feat/antagonize), [Cosmopolitan](ref/feat/cosmopolitan), [Deceitful](ref/feat/deceitful), [Deft Hands](ref/feat/deft-hands), Disarming Threat\\*, [Persuasive](ref/feat/persuasive), [Prodigy](ref/feat/prodigy), and [Skill Focus](ref/feat/skill-focus). (Those marked with an asterisk \\[\\*\\] are detailed in this book.) This alters the bonus feat class ability."
-import_trades = ["Bonus feats"]
+import_trades = ["Bonus feats", "Bonus feats"]
 
 [[entry.feature]]
 anchor = "quick-tongued"
@@ -926,7 +307,7 @@ head = "Quick-Tongued (Ex)"
 listed = true
 level = 2
 print = "At 2nd level, a daring infiltrator gains a +1 bonus on Bluff checks. This bonus increases by 1 for every 4 levels beyond 2nd. This ability replaces charmed life."
-import_trades = ["Charmed life"]
+import_trades = ["Charmed life", "Charmed life"]
 
 [[entry.feature]]
 anchor = "deeds"
@@ -940,7 +321,7 @@ head = "Clandestine Expertise (Ex)"
 listed = true
 level = 3
 print = "At 3rd level, a daring infiltrator with at least 1 panache point gains a +2 bonus on Disguise and Stealth checks. Also, as long as she has at least 1 panache point, when she successfully aids another with a Disguise or Stealth check, she grants the subject a +4 bonus on the skill check instead of the normal +2. This deed replaces swashbuckler initiative."
-import_trades = ["Swashbuckler initiative"]
+import_trades = ["Swashbuckler initiative", "Swashbuckler initiative"]
 
 [[entry.feature]]
 anchor = "silence-is-golden"
@@ -948,7 +329,7 @@ head = "Silence Is Golden (Ex)"
 listed = true
 level = 3
 print = "At 3rd level, when a daring infiltrator with at least 1 panache point succeeds at a [trip](ref/rule/trip) or [grapple](ref/rule/grapple) combat maneuver check, the target is rendered mute for 1 round. For every 5 by which the result of the combat maneuver check exceeds the opponent's CMD, the target remains mute for an additional round. A mute creature cannot speak, use language-dependent effects or verbal components, or use command words. This deed replaces menacing swordplay."
-import_trades = ["Menacing swordplay"]
+import_trades = ["Menacing swordplay", "Menacing swordplay"]
 
 [[entry.feature]]
 anchor = "authoritative-bluff"
@@ -956,7 +337,7 @@ head = "Authoritative Bluff (Ex)"
 listed = true
 level = 11
 print = "At 11th level, a daring infiltrator can spend 1 panache point to reroll a Bluff check after the roll is made but before the results are revealed. She must take the result of the second roll, even if it is lower. Additionally, a daring infiltrator with at least 1 panache point gains a +5 bonus on Bluff checks to pretend to be someone's superior (socially or in the military). If she succeeds at the check, the target obeys any reasonable orders she gives as it would those of an actual superior in the situation. This deed replaces bleeding wound."
-import_trades = ["Bleeding wound"]
+import_trades = ["Bleeding wound", "Bleeding wound"]
 
 [[entry]]
 id = "ref/arc-swashbuckler/mysterious-avenger"
@@ -980,14 +361,14 @@ anchor = "weapon-and-armor-proficiency"
 head = "Weapon and Armor Proficiency"
 listed = false
 print = "A mysterious avenger loses her proficiency with bucklers, but gains proficiency in the [whip](ref/eq-weapon/whip) exotic weapon. This alters the swashbuckler's weapon and armor proficiency."
-import_trades = ["Weapon", "armor proficiency"]
+import_trades = ["Weapon and armor proficiency", "Weapon", "armor proficiency"]
 
 [[entry.feature]]
 anchor = "avenger-finesse"
 head = "Avenger Finesse (Ex)"
 listed = true
 print = "A mysterious avenger gains all of the benefits of the swashbuckler's finesse class feature, and gains the ability to use a whip in place of a light or one-handed piercing melee weapon for all swashbuckler class features and deeds. This ability alters swashbuckler finesse."
-import_trades = ["Swashbuckler finesse"]
+import_trades = ["Swashbuckler finesse", "Swashbuckler finesse"]
 
 [[entry.feature]]
 anchor = "secret-identity"
@@ -995,7 +376,7 @@ head = "Secret Identity (Su)"
 listed = true
 level = 3
 print = "At 3rd level, a mysterious avenger's force of personality and dedication to her cause give her the ability to keep her true identity secret, even from magical prying. She gains a +4 bonus on Disguise checks in a single disguise of her choice, typically her avenger persona. Once this disguise has been chosen, it can't be changed. She also gains a +4 bonus on saving throws against divination effect. At 11th level, she becomes immune to all _[scrying](ref/spelldef/scrying)_ effects and other magical effects used in attempts to uncover her secret identity. This ability replaces nimble."
-import_trades = ["Nimble"]
+import_trades = ["Nimble", "Nimble"]
 
 [[entry.feature]]
 anchor = "greater-charmed-life"
@@ -1003,7 +384,7 @@ head = "Greater Charmed Life (Ex)"
 listed = true
 level = 4
 print = "At 4th level, the mysterious avenger gains three extra uses of charmed life. As an immediate action, she can expend one use of charmed life to gain a bonus to her AC equal to her Charisma modifier (minimum 1). She must choose to do this before the attack roll is made against her. This ability replaces the bonus feat gained at 4th level."
-import_trades = ["4th-level bonus feat"]
+import_trades = ["4th-level bonus feat", "4th-level bonus feat"]
 
 [[entry.feature]]
 anchor = "avenger-s-target"
@@ -1016,99 +397,19 @@ At 5th level, a mysterious avenger gains a +1 bonus on attack and damage rolls w
 At 10th, 15th, and 20th levels, these mysterious avenger's bonuses against a studied target increase by 1. In addition, at each such interval, a mysterious avenger is able to maintain these bonuses against an additional studied target at the same time. A mysterious avenger can discard this connection to a studied target as a free action, allowing her to study another target in its place.
 
 At 10th level, a mysterious avenger can study an opponent as a move or swift action. This ability replaces swashbuckler weapon training.'''
-import_trades = ["Swashbuckler weapon training"]
-
-[[entry]]
-id = "ref/arc-witch/hex-channeler"
-hold = "checker: [fields] trades = \"replaces: 2nd-level hex\" disagrees with the trade sentences of the feature `channel-energy` = \"replaces: the hex gained at 2nd level\" (line 30)"
-opening = ["A hex channeler is a witch who devotes herself to either life—healing the wounded and destroying the undead—or death, slaying the living and aiding undead."]
-
-[[entry.feature]]
-anchor = "channel-energy"
-head = "Channel Energy (Su)"
-listed = true
-level = 2
-print = '''
-At 2nd level, a hex channeler can call upon her patron to release a wave of energy from herself or her familiar. A good witch channels positive energy (like a good cleric), and an evil witch channels negative energy (like an evil cleric). A witch who is neither good nor evil must choose whether she channels positive or negative energy; once this choice is made, it cannot be reversed.
-
-Channeling energy causes a [burst](ref/misc/burst) that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the witch. The witch can [channel energy](ref/ability/channel-energy) a number of times per day equal to 3 + her Charisma modifier (minimum 1). This otherwise functions as a cleric using channel energy, except the witch does not require a holy symbol to use this ability. The hex channeler uses her witch level as her cleric level for all other effects dependent upon channel energy (except increasing the amount of damage healed or dealt). The hex channeler can choose whether or not to include herself or her familiar in this effect.
-
-This burst heals or deals 1d6 points of damage. Every time the hex channeler is able to learn a new hex (including major or grand hexes, but not hexes gained through the [Extra Hex](ref/feat/extra-hex) feat), she can instead increase her channel energy amount by 1d6. This ability replaces the hex gained at 2nd level.'''
-import_trades = ["2nd-level hex"]
-
-[[entry.feature]]
-anchor = "hexes"
-head = "Hexes"
-listed = false
-print = "The following witch hexes complement the hex channeler archetype: blight, healing, poison steep, and ward."
-
-[[entry.feature]]
-anchor = "major-hexes"
-head = "Major Hexes"
-listed = false
-print = "The following major hexes complement the hex channeler archetype: agony, cook people, infected wounds, major healing, and retribution."
-
-[[entry.feature]]
-anchor = "grand-hexes"
-head = "Grand Hexes"
-listed = false
-print = "The following grand hexes complement the hex channeler archetype: death curse, dire prophecy, life giver, and summon spirit."
-
-[[entry]]
-id = "ref/arc-witch/mountain-witch"
-hold = "checker: [fields] trades = \"replaces: 2nd-level hex\" disagrees with the trade sentences of the feature `mountain-beast-empathy` = \"replaces: the hex gained at 2nd level\" (line 45)"
-opening = ["Mountains can be sanctuaries for witches hunted by society. Here they form bonds with the spirits of the lofty reaches."]
-
-[[entry.feature]]
-anchor = "spells"
-head = "Spells"
-listed = true
-print = "A mountain witch replaces some of her patron spells with the following: 2nd—_magic stone_, 4th—_stone call_, 6th— _meld into stone_, 8th—_stoneskin_, 10th—_wall of stone_, 12th—_stone tell_, 14th—_statue_, 16th—_repel metal or stone_, 18th—_clashing rocks_."
-
-[[entry.feature]]
-anchor = "stone-spirit-hex"
-head = "Stone Spirit Hex"
-listed = true
-print = "A mountain witch can select hexes from the shaman's [stone spirit](ref/shamanspirit/stone) (see page 44) as if they were witch hexes. She uses her witch level as her shaman level to determine the effect of the hex, and Intelligence instead of Wisdom to determine its DC. This ability alters hex."
-import_trades = ["Hex"]
-
-[[entry.feature]]
-anchor = "mountain-beast-empathy"
-head = "Mountain Beast Empathy (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a mountain witch can influence the attitude of mountain-dwelling animals, as the druid's [wild empathy](ref/ability/wild-empathy) class feature but only on animals native to mountainous environments. The mountain witch uses her witch level as her druid level for this ability. This ability replaces the hex gained at 2nd level."
-import_trades = ["2nd-level hex"]
-
-[[entry.feature]]
-anchor = "hexes"
-head = "Hexes"
-listed = false
-print = "The following witch hexes complement the mountain witch archetype: beast of ill-omen, crystal sight, lodestone, metal curse, stone stability, and ward of stone. (Those with asterisks \\[\\*\\] are detailed in the shaman class.)"
-
-[[entry.feature]]
-anchor = "major-hexes"
-head = "Major Hexes"
-listed = false
-print = "The following major hexes complement the mountain witch archetype: beast eye, hidden home, hoarfrost, and weather control."
-
-[[entry.feature]]
-anchor = "grand-hexes"
-head = "Grand Hexes"
-listed = false
-print = "The following grand hexes complement the mountain witch archetype: eternal slumber, natural disaster, and witch's hut."
+import_trades = ["Swashbuckler weapon training", "Swashbuckler weapon training"]
 
 [[entry]]
 id = "ref/arc-wizard/spirit-whisperer"
-hold = "the replaces trade `Spellbook` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `20th-level bonus feat` is not printed in a sentence, and no listed feature of that name prints it; the alters trade `5th-, 10th-, and 15th-level bonus feats` is not printed in a sentence, and no listed feature of that name prints it; Spirit Hex: the sentence \"This ability alters bonus feats\" names no trade"
+hold = "the replaces trade `20th-level bonus feat` is not printed in a sentence, and no listed feature of that name prints it; the alters trade `5th-, 10th-, and 15th-level bonus feats` is not printed in a sentence, and no listed feature of that name prints it; Spirit Hex: the sentence \"This ability alters bonus feats\" names no trade"
 opening = ["Spirit whisperers are a breed apart among wizards, and are often mistaken for witches. While spirit whisperers do gain and store their spells by communing with familiars, the spirits they gain guidance from are somewhat closer to the world and more direct than the powers with which witches typically traffic. These wizards treat such spirits as mentors and friends, conversing with them rather than appeasing them in the effort to gain and use arcane knowledge."]
 
 [[entry.feature]]
 anchor = "arcane-bond"
 head = "Arcane Bond (Ex)"
 listed = true
-print = "When a spirit whisperer chooses an arcane bond, he must choose the familiar arcane bond, and the familiar gains the spirit animal ability of his selected spirit (see spirit link, below). The spirit whisperer does not need a spellbook, but instead stores and prepares his spell by communing with the familiar as the [witch's](ref/class/witch) familiar class feature (_Advanced Player's Guide_ 67). This ability alters arcane bond and replaces the spellbooks class feature."
-import_trades = ["Arcane bond", "Spellbook"]
+print = "When a spirit whisperer chooses an arcane bond, he must choose the familiar arcane bond, and the familiar gains the spirit animal ability of his selected spirit (see spirit link, below). The spirit whisperer does not need a spellbook, but instead stores and prepares his spell by communing with the familiar as the [witch's](ref/class/witch) familiar class feature. This ability alters arcane bond and replaces the spellbooks class feature."
+import_trades = ["Arcane bond", "Arcane bond", "Spellbook", "Spellbook"]
 
 [[entry.feature]]
 anchor = "spirit-link"
@@ -1116,7 +417,7 @@ head = "Spirit Link (Su)"
 listed = true
 level = 1
 print = "At 1st level, a spirit whisperer forms a mystical bond with a spirit. The spirit whisperer picks a spirit from the [shaman's list of spirits](ref/ability/shaman-spirits) (see page 37). At 1st level, he gains a spirit ability granted by that spirit. At 8th level, he gains the greater spirit ability granted by that spirit. At 20th level, the spirit whisperer gains the manifestation ability granted by the spirit. He uses his wizard level as his shaman level for determining the effects and DCs of abilities granted by the spirit. In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these abilities. He does not gain hexes, spirit magic spells, or the true spirit ability typically granted to a shaman by these spirits. This ability replaces arcane school and the bonus feat gained at 20th level."
-import_trades = ["Arcane school", "20th-level bonus feat"]
+import_trades = ["Arcane school, 20th-level bonus feat", "Arcane school", "20th-level bonus feat"]
 
 [[entry.feature]]
 anchor = "spirit-hex"
@@ -1124,4 +425,4 @@ head = "Spirit Hex"
 listed = true
 level = 5
 print = "At 5th level, a spirit whisperer can select one hex from the list of those granted by his chosen spirit. He uses his wizard level as his shaman level when determining the effects and DC of this hex. In addition, he uses his Intelligence modifier in place of his Wisdom modifier for these hexes. At 10th and 15th level, he can select another hex from those granted by his spirit. Each hex selected in this way replaces the bonus feat gained at that level. This ability alters bonus feats."
-import_trades = ["5th-", "10th-", "15th-level bonus feats"]
+import_trades = ["5th-, 10th-, and 15th-level bonus feats", "5th-", "10th-", "15th-level bonus feats"]

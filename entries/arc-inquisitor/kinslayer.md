@@ -34,8 +34,6 @@ to eradicating the very creatures whose blood flows within her veins. She spends
 and slaying those vampiric monsters for whom humans have become prey. A kinslayer has the following
 class features.
 
-**Prerequisites:** Dhampir
-
 ## Judgment (Su) {#judgment}
 
 At 1st level, a kinslayer gains the following judgment.
