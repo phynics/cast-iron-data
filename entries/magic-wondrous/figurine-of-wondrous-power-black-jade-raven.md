@@ -2,7 +2,7 @@
 id = "ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven"
 kind = "item"
 title = "Figurine of Wondrous Power (Black Jade Raven)"
-source_ids = ["ultimate-equipment", "core-rulebook", "aquatic-adventures", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "advanced-race-guide", "andoran-spirit-of-liberty", "elemental-masters-handbook", "ultimate-combat", "advanced-class-guide", "animal-archive", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
+source_ids = ["ultimate-equipment", "core-rulebook", "aquatic-adventures", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "advanced-race-guide", "andoran-spirit-of-liberty", "elemental-masters-handbook", "ultimate-combat", "animal-archive", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_black_jade_raven", path = "json/magic_wondrous_slotless03.json" },
 ]
@@ -39,9 +39,6 @@ page = "10"
 [[sources]]
 publication = "ultimate-combat"
 page = "143"
-[[sources]]
-publication = "advanced-class-guide"
-page = "236"
 [[sources]]
 publication = "animal-archive"
 page = "27"
