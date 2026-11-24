@@ -211,7 +211,7 @@ advanced-players-guide	ref/spell/walk-the-plank	spell	Walk the Plank	1	2	family-
 advanced-players-guide	ref/ability/domains	rule	Domains	2	2	uncited	printed	86	body	0											hub-cited	S10		yes	yes	yes	yes	
 advanced-players-guide	ref/class/arcanist	class	Arcanist	2	8	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/bloodrager	class	Bloodrager	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/brawler	class	Brawler	2	5	uncited	printed		none	4	74,78,104,105										class-hub	S6		yes	yes	yes		
+advanced-players-guide	ref/class/brawler	class	Brawler	2	5	uncited	printed		none	4	74,78,104,105							cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/hunter	class	Hunter	2	8	uncited	printed		none	24	12,13,18,22,26										class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/investigator	class	Investigator	2	7	uncited	printed		none	4	73,133,134,334										class-hub	S6		yes	yes	yes		
@@ -746,7 +746,7 @@ blood-of-the-beast	ref/class/alchemist	class	Alchemist	4	12	uncited	printed		non
 blood-of-the-beast	ref/class/antipaladin	class	Antipaladin	5	5	uncited	printed		none	2	7,14							remove	7	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/arcanist	class	Arcanist	7	8	uncited	printed		none	3	12,20,28							remove	12	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/bloodrager	class	Bloodrager	4	9	uncited	printed		none	6	3,4,7,11,16							remove	4	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/class/brawler	class	Brawler	4	5	uncited	printed		none	3	12,24,28										class-hub	S6		yes	yes			
+blood-of-the-beast	ref/class/brawler	class	Brawler	4	5	uncited	printed		none	3	12,24,28							remove	12	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/cavalier	class	Cavalier	8	8	uncited	printed		none	5	3,12,16,18,28										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/gunslinger	class	Gunslinger	8	8	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 blood-of-the-beast	ref/class/hunter	class	Hunter	4	8	uncited	printed		none	9	3,4,5,9,10										class-hub	S6		yes	yes			
@@ -883,7 +883,7 @@ chronicle-of-legends	ref/class/witch	class	Witch	6	11	uncited	printed		none	4	3,
 chronicle-of-legends	ref/class/antipaladin	class	Antipaladin	2	5	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/arcanist	class	Arcanist	3	8	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/bloodrager	class	Bloodrager	3	9	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/class/brawler	class	Brawler	3	5	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
+chronicle-of-legends	ref/class/brawler	class	Brawler	3	5	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/investigator	class	Investigator	3	7	weak	weak		none	1	29										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/oracle	class	Oracle	5	13	weak	weak		none	1	29										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/rogue	class	Rogue	2	14	weak	weak		none	1	29										class-hub	S7		yes	yes	yes		
@@ -1991,7 +1991,7 @@ paizo-blog-golarion-day-subdomains	ref/domain/death	class_option	Death	2	7	uncit
 paizo-blog-golarion-day-subdomains	ref/domain/repose	class_option	Repose	4	5	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 pathfinder-101-the-kintargo-contract	ref/rule/class-druid/druid	rule	Druid	12	12	inherited	no-pdf		none	0				yes							class-hub	S8		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/bloodrager	class	Bloodrager	8	9	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
-pathfinder-101-the-kintargo-contract	ref/class/brawler	class	Brawler	5	5	uncited	no-pdf		none	0											class-hub	S6		yes	no			
+pathfinder-101-the-kintargo-contract	ref/class/brawler	class	Brawler	5	5	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
 pathfinder-101-the-kintargo-contract	ref/class/druid	class	Druid	12	12	uncited	no-pdf		none	0											class-hub	S6		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/hunter	class	Hunter	8	8	uncited	no-pdf		none	0											class-hub	S6		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/oracle	class	Oracle	11	13	uncited	no-pdf		none	0											class-hub	S7		yes	no			
