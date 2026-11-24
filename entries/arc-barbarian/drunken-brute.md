@@ -16,8 +16,11 @@ page = "78"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "raging-drunk", level = 1 },
+]
 trades = [
-  { replaces = "Fast movement", feature = "fast-movement" },
+  { replaces = "Fast movement", feature = "fast-movement", by = ["raging-drunk"] },
 ]
 +++
 
@@ -25,24 +28,23 @@ Barbarians are known for their ability to consume potent drink, but drunken brut
 into a combat tactic, using the potent liquor to fuel their rage and grant them additional powers. A
 drunken brute has the following class feature.
 
-**Raging Drunk (Ex)**
+## Raging Drunk (Ex) {#raging-drunk}
 
-**Move:** While _raging,_ the drunken brute can drink a potion, or a tankard of ale or similar
-quantity of alcohol, as a move action that does not provoke attacks of opportunity. A potion has its
-normal effect, while an alcoholic drink allows the barbarian to maintain her _rage_ that round
-without expending a round of _rage_ for the day (instead of the alcohol's normal effects).
+While raging, the drunken brute can drink a potion, or a tankard of ale or similar quantity of
+alcohol, as a move action that does not provoke attacks of opportunity. A potion has its normal
+effect, while an alcoholic drink allows the barbarian to maintain her rage that round without
+expending a round of rage for the day (instead of the alcohol's normal effects). For each alcoholic
+drink consumed while raging, the barbarian is [nauseated](ref/misc/nauseated) for 1 round when her
+rage expires, in addition to the normal fatigue that follows a rage. Tireless rage does not negate
+this nauseated condition but the internal fortitude rage power does. This ability replaces fast
+movement.
 
-**Replaces:** Fast movement
+## Rage Powers {#rage-powers}
 
-**Special:** For each alcoholic drink consumed while _raging,_ the barbarian is
-[nauseated](ref/misc/nauseated) for 1 round when her _rage_ expires, in addition to the normal
-fatigue that follows a _rage. Tireless rage_ does not negate this nauseated condition but the
-_internal fortitude_ rage power does.
-
-**Rage Powers:** The following rage powers complement the drunken brute archetype:
+The following rage powers complement the drunken brute archetype:
 [boasting taunt](ref/ragepower/boasting-taunt),
 [good for what ails you](ref/ragepower/good-for-what-ails-you),
 [internal fortitude](ref/ragepower/internal-fortitude),
 [liquid courage](ref/ragepower/liquid-courage),
 [moment of clarity](ref/ragepower/moment-of-clarity), [roaring drunk](ref/ragepower/roaring-drunk),
-[staggering drunk](ref/ragepower/staggering-drunk).
+and [staggering drunk](ref/ragepower/staggering-drunk).

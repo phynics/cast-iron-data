@@ -16,8 +16,11 @@ page = "78"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "elemental-fury", level = 3 },
+]
 trades = [
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["elemental-fury"] },
 ]
 +++
 
@@ -25,22 +28,21 @@ Some barbarian tribes have strong ties to the elemental forces of nature. Their 
 warriors at birth, tying them to the patron element of the tribe and granting them lasting boons
 against such forces. An elemental kin has the following class feature.
 
-**Elemental Fury (Ex)**
+## Elemental Fury (Ex) {#elemental-fury}
 
-**Gained:** At 3rd Level
+At 3rd level, whenever the elemental kin takes an amount of energy damage equal to or greater than
+her barbarian level while raging, she adds 1 to the total number of rounds that she can rage that
+day. At 6th level, and every three levels thereafter, the number of extra rounds per energy attack
+increases by +1, to a maximum of +6 rounds per energy attack at 18th level. This ability replaces
+trap sense.
 
-**Passive:** Whenever the elemental kin takes an amount of energy damage equal to or greater than
-her barbarian level while _raging,_ she adds [one-third](ref/misc/fractions-and-rounding) of her
-barbarian level to the total number of rounds that she can _rage_ that day (1 extra round at 3rd
-level, 2 rounds at 6th level, and so on).
+## Rage Powers {#rage-powers}
 
-**Replaces:** Trap sense
-
-**Rage Powers:** The following rage powers complement the elemental kin archetype:
+The following rage powers complement the elemental kin archetype:
 [elemental rage](ref/ragepower/elemental-rage),
 [energy absorption](ref/ragepower/energy-absorption),
 [energy eruption](ref/ragepower/energy-eruption),
 [energy resistance](ref/ragepower/energy-resistance),
 [greater elemental rage](ref/ragepower/greater-elemental-rage),
-[greater energy resistance](ref/ragepower/greater-energy-resistance),
+[greater energy resistance](ref/ragepower/greater-energy-resistance), and
 [lesser elemental rage](ref/ragepower/lesser-elemental-rage).

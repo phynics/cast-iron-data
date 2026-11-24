@@ -16,9 +16,13 @@ page = "79"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sixth-sense", level = 3 },
+  { anchor = "keen-senses", level = 7 },
+]
 trades = [
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "Damage reduction", feature = "damage-reduction" },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["sixth-sense"] },
+  { replaces = "Damage reduction", feature = "damage-reduction", by = ["keen-senses"] },
 ]
 +++
 
@@ -26,33 +30,25 @@ Many barbarians distrust magic. While most just shy away from magic, others focu
 users of such foul arts. These barbarians are naturally distrusting, and develop keen senses to
 protect them from harm. A superstitious barbarian has the following class features.
 
-**Sixth Sense (Ex)**
+## Sixth Sense (Ex) {#sixth-sense}
 
-**Gained:** At 3rd Level
+At 3rd level, the superstitious barbarian gains a +1 bonus on initiative and a +1 insight bonus to
+AC during surprise rounds. This bonus increases by +1 for every three levels after 3rd. This ability
+replaces trap sense.
 
-**Passive:** The superstitious barbarian gains a bonus on initiative and an insight bonus to AC
-during surprise rounds. These bonuses are equal to one-third of her barbarian level.
+## Keen Senses (Ex) {#keen-senses}
 
-**Replaces:** Trap sense
+At 7th level, the superstitious barbarian gains [low-light vision](ref/umr/low-light-vision) (triple
+normal vision range in dim light if she already has [low-light vision](ref/rule/low-light-vision)).
+At 10th level, she gains [darkvision](ref/umr/darkvision) 60 feet (or adds 60 feet to the range of
+any [darkvision](ref/rule/darkvision) already possessed). At 13th level, she gains
+[scent](ref/umr/scent). At 16th level, she gains [blindsense](ref/umr/blindsense) 30 feet. At 19th
+level, she gains [blindsight](ref/umr/blindsight) 30 feet. This ability replaces
+[damage reduction](ref/rule/damage-reduction).
 
-**Keen Senses (Ex)**
+## Rage Powers {#rage-powers}
 
-**At 10th Level:** She gains [darkvision](ref/umr/darkvision) 60 feet (or adds 60 feet to the range
-of any [darkvision](ref/rule/darkvision) already possessed).
-
-**At 13th Level:** She gains [scent](ref/umr/scent).
-
-**At 16th Level:** She gains [blindsense](ref/umr/blindsense) 30 feet.
-
-**At 19th Level:** She gains [blindsight](ref/umr/blindsight) 30 feet.
-
-**At 7th Level:** The superstitious barbarian gains [low-light vision](ref/umr/low-light-vision)
-(triple normal vision range in dim light if she already has
-[low-light vision](ref/rule/low-light-vision)).
-
-**Replaces:** [Damage reduction](ref/rule/damage-reduction)
-
-**Rage Powers:** The following rage powers complement the superstitious archetype:
+The following rage powers complement the superstitious archetype:
 [clear mind](ref/ragepower/clear-mind), [disruptive](ref/ragepower/disruptive),
 [roused anger](ref/ragepower/roused-anger), [spellbreaker](ref/ragepower/spellbreaker),
-[superstition](ref/ragepower/superstition), [witch hunter](ref/ragepower/witch-hunter).
+[superstition](ref/ragepower/superstition), and [witch hunter](ref/ragepower/witch-hunter).
