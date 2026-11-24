@@ -2552,23 +2552,6 @@ listed = true
 print = "The ranger can use this trick as an immediate action when an enemy adjacent to him hits an ally with a melee or ranged attack. The ranger can make a single melee attack at his highest base attack bonus against the creature who attacked his ally."
 
 [[entry]]
-id = "ref/arc-ranger/spirit-ranger"
-
-[[entry.feature]]
-anchor = "spirit-bond"
-head = "Spirit Bond (Ex)"
-listed = true
-level = 4
-print = "At 4th level, instead of forming a bond with his hunting companions or an animal companion, the spirit ranger forms a bond with the spirits of nature themselves. Each day, as long as he is within one of his favored terrains, the ranger can cast _[augury](ref/spell/augury)_ (_Pathfinder RPG Core Rulebook_ 245) as a [spell-like ability](ref/umr/spell-like-abilities) with a caster level equal to his ranger level. In addition, he can call upon these spirits to cast any one ranger spell that he is capable of casting, without having to prepare the spell. At 8th level, and every four levels thereafter, he can cast an additional spell in this way. This replaces hunter's bond."
-
-[[entry.feature]]
-anchor = "wisdom-of-the-spirits"
-head = "Wisdom of the Spirits (Sp)"
-listed = true
-level = 12
-print = "At 12th level, the spirit ranger can use his _[augury](ref/spell/augury)_ [spell-like ability](ref/umr/spell-like-abilities) even when he is not in one of his favored terrains. If he is within one of his favored terrains, the ranger can cast _[divination](ref/spell/divination)_ (_Pathfinder RPG Core Rulebook_ 273) instead. Like _augury_, the caster level of the _divination_ is equal to the ranger's level. This ability replaces camouflage."
-
-[[entry]]
 id = "ref/arc-ranger/urban-ranger"
 hold = "head not in the entry: Urban Ranger"
 

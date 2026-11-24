@@ -381,7 +381,7 @@ def build_draft(feat: ImportFeature) -> Draft:
                 effect.append(it.content)
         else:
             rest.append(it.content)
-    if not effect and not rest and upgrades and level is None:
+    if not effect and upgrades and level is None:
         # `**At 3rd Level:** text` with no effect row: the first such row is the feature itself
         n, text = min(upgrades)      # the import does not sort its rows: the lowest level is the feature itself
         upgrades.remove((n, text))
@@ -853,12 +853,13 @@ def strip_level_phrase(text: str, level: int | None) -> str:
     return re.sub(rf"\b(?:of\s+|at\s+|starting at\s+|beginning at\s+|reaching\s+|upon reaching\s+)?{o}[\s-]level(?:\s+or\s+(?:higher|above))?", " ", text, flags=re.I)
 
 
-def letters(tokens_: list[str]) -> list[str]:
-    out = []
+def letters(tokens_: list[str]) -> str:
+    """The letters, digits and signs of some tokens, as a multiset (a list that print sets with blanks and
+    the corpus with hyphens has the same letters)."""
+    chars = []
     for t in tokens_:
-        sign = t[0] if t[0] in "+-" else ""
-        out.append(sign + "".join(sorted(re.sub(r"[^a-z0-9]", "", t))))
-    return sorted(out)
+        chars += ([t[0]] if t[0] in "+-" else []) + list(re.sub(r"[^a-z0-9]", "", t))
+    return "".join(sorted(chars))
 
 
 def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens: set[str]) -> Compare:
@@ -872,8 +873,10 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
     lp = lead_level(print_text)
     if draft.level is not None and lp is not None and draft.level != lp:
         notes.append(f"level: corpus {ordinal(draft.level)}, print {ordinal(lp)}")
-    p_clean = strip_level_phrase(strip_leads(p_clean), draft.level if lp is None or lp == draft.level else None)
-    d_tok = Counter(tokens(strip_leads(d_clean), skip))
+    lvl = draft.level if lp is None or lp == draft.level else None
+    p_clean = strip_level_phrase(strip_leads(p_clean), lvl)
+    d_clean = strip_level_phrase(strip_leads(d_clean), lvl)
+    d_tok = Counter(tokens(d_clean, skip))
     if draft.usage:
         # the sentences that state the usage cancel words of the draft, but add none: the import keeps the
         # usage in its `Usage` row
@@ -1115,7 +1118,7 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str]) 
     text = "\n\n".join(paras)
     text = re.sub(r"^A (\d+(?:st|nd|rd|th) level\b)", r"At \1", text)    # a misprint of the book
     # a page reference of the book ("Pathfinder RPG Core Rulebook page 469"): the corpus links instead
-    text = re.sub(r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?page[\s_\x01\x02]*\d+(?:[–-]\d+)?\)", "", text)
+    text = re.sub(r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)", "", text)
     lost: list[str] = []
     if links:
         text, lost = apply_links(text, links)

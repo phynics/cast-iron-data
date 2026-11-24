@@ -8,7 +8,7 @@ ref/arc-barbarian/brutal-pugilist	Improved Savage Grapple (Ex)	improved-savage-g
 ref/arc-barbarian/brutal-pugilist	Rage Powers	rage-powers	no		print	print		78	352a59d3567f67b38d77e8dc5a534607530fb332f3d91fe4e336628d2def4819
 ref/arc-barbarian/drunken-brute	Raging Drunk (Ex)	raging-drunk	yes			hold	rule word: corpus ['action', 'move'] / print -	78	947cdbc2979151aefab6fa3b65f97b6f9bcbf5a499820c9ebebc0e6f53d64470
 ref/arc-barbarian/drunken-brute	Rage Powers	rage-powers	no		print	print		78	2a95207c52b2d46d7e0f2ee827cc0496134c6cc21b916e92667f6be7efda75a5
-ref/arc-barbarian/elemental-kin	Elemental Fury (Ex)	elemental-fury	yes	3		hold	number: corpus ['2', 'one-third'] / print ['+1', '+6', '18', 'attack', 'attack', 'energy', 'energy', 'every', 'increase', 'maximum', 'number', 'thereafter']; link not placed: one-third	78	e7d0ea5214324e75610e00ecba348f5e1c9a4654f706e69187e1fbb269f7addb
+ref/arc-barbarian/elemental-kin	Elemental Fury (Ex)	elemental-fury	yes	3		hold	number: corpus ['2', 'one-third'] / print ['+1', '+6', '18', '3', 'attack', 'attack', 'energy', 'energy', 'every', 'increase', 'maximum', 'number', 'thereafter']; link not placed: one-third	78	e7d0ea5214324e75610e00ecba348f5e1c9a4654f706e69187e1fbb269f7addb
 ref/arc-barbarian/elemental-kin	Rage Powers	rage-powers	no		print	print		78	406fa7a08b84dcf4e4d65b6e73d2801032b1431ebf68784ae5277ef1eeccdd8a
 ref/arc-barbarian/hurler	Skilled Thrower (Ex)	skilled-thrower	yes		print	print		79	56dc55545e5bed5a47594e46bfca8b787e54d911428b289f3573f0fb70cfc092
 ref/arc-barbarian/hurler	Rage Powers	rage-powers	no		print	print		79	5e294db8e1622da8c27a9d19217adcdff41934f35ea9981145de6b6974ff6332
@@ -24,12 +24,12 @@ ref/arc-barbarian/savage-barbarian	Rage Powers	rage-powers	no		print	print		79	6
 ref/arc-barbarian/superstitious	Sixth Sense (Ex)	sixth-sense	yes	3		hold	number: corpus ['bonuse', 'equal', 'one-third'] / print ['+1', '+1', '+1', '3', '3', 'after', 'bonu', 'every', 'increase']	79	2f19e6083a3f16e4cbbaa4ee623e88e013cbc3486d51afffbf5427f2762b0998
 ref/arc-barbarian/superstitious	Keen Senses (Ex)	keen-senses	yes	7	print	print		79	c71cccf7b9e3331d9f6ffad42839927d1d73186676f68edd35c0dcf2924e1ea2
 ref/arc-barbarian/superstitious	Rage Powers	rage-powers	no		print	print		79	becaf18ba502d03289ef22bcecfcf0f505fd946553a9f4b9b0cf6588ff5448a6
-ref/arc-bard/arcane-duelist	Arcane Strike	arcane-strike	yes			hold	number: corpus ['1'] / print -	80	ed5cfae04aa1e4d39d6622dd9bfcfe0c4f795f2a50752101f84183d434bf04a9
+ref/arc-bard/arcane-duelist	Arcane Strike	arcane-strike	yes		print	print		80	ed5cfae04aa1e4d39d6622dd9bfcfe0c4f795f2a50752101f84183d434bf04a9
 ref/arc-bard/arcane-duelist	Bardic Performance	bardic-performance	yes		draft	draft		80	679b8c6938cc2e31cafa61a07cf1a62277fed0ceb220e67c1504076766268c48
 ref/arc-bard/arcane-duelist	Rallying Cry (Su)	rallying-cry	yes	1	print	print		80	ce6eac091207bba88616642f60f5093f61652ae3a2ccd9765fa78d999c825716
 ref/arc-bard/arcane-duelist	Bladethirst (Su)	bladethirst	yes		print	print		80	9abad3da1aa339c3f423336ba41e95158897e164cf646fef5771ac5ae2817bb3
 ref/arc-bard/arcane-duelist	Mass Bladethirst (Su)	mass-bladethirst	yes		print	print		80	3f7a70881451c4ddd4b838ad5ddda1bcf83b4551dcb454957db92331e227531b
-ref/arc-bard/arcane-duelist	Bonus Feats	bonus-feats	no			hold	rule word: corpus ['combat', 'magic', 'might', 'style', 'weave'] / print -	80	9fc00c123e99b4da6c2372427c0c61e2e89c0b68447a460e6435912ecd00f23f
+ref/arc-bard/arcane-duelist	Bonus Feats	bonus-feats	no			hold	rule word: corpus ['casting', 'combat', 'combat', 'gain', 'magic', 'might', 'style', 'weave'] / print -	80	9fc00c123e99b4da6c2372427c0c61e2e89c0b68447a460e6435912ecd00f23f
 ref/arc-bard/arcane-duelist	Arcane Bond (Ex)	arcane-bond	yes	5		hold	rule word: corpus - / print ['bonded', 'choose', 'familiar', 'item', 'not', 'or', 'type']	80	c866f7ddc12bbe6267345e37a3a1d7b42e01a7f70a473246091d1f11af510999
 ref/arc-bard/arcane-duelist	Bonded Object	bonded-object	yes			hold	head not printed		88c771b5f0846b0a5977c33d693b48c40eb3df8c8af382b95cfd3f6a5db080ba
 ref/arc-bard/arcane-duelist	Arcane Armor (Ex)	arcane-armor	yes	10		hold	rule word: corpus ['chance'] / print -	80	d47ffee3d97182bcd22bd8ae107030bf8ae0d83d2c661fef14471a514d3fad7f
@@ -40,7 +40,7 @@ ref/arc-bard/archivist	Pedantic Lecture (Su)	pedantic-lecture	yes	18	print	print
 ref/arc-bard/archivist	Lore Master (Ex)	lore-master	yes	2		hold	number: corpus ['1', '20', 'check', 'day', 'knowledge', 'take'] / print -	80	060f3c4d2897edbf14acee5a474ace86a51216ab1e18416693e47109b2b0e00c
 ref/arc-bard/archivist	Magic Lore (Ex)	magic-lore	yes	2	print	print		81	498bf7eb4604fda6c7b8c8091c6029fa6cf93f00ebaa498a38831cf83507ce98
 ref/arc-bard/archivist	Jack of All Trades (Ex)	jack-of-all-trades	yes	5	print	print		81	dd5dac1a7304071d076ac8f6d307f9fe21c2b25c9a4ec2839ee71ba03fc9f7ed
-ref/arc-bard/archivist	Probable Path (Ex)	probable-path	yes	10		hold	number: corpus ['13', '16', '19', '2', '4', 'day', 'day', 'time'] / print ['1', 'additional', 'after', 'every', 'use']	81	3c8ec558326b58cb67883fe8253c7c5ccff170ac49de8fb3eb6af045f2e8ed8e
+ref/arc-bard/archivist	Probable Path (Ex)	probable-path	yes	10	print	print		81	3c8ec558326b58cb67883fe8253c7c5ccff170ac49de8fb3eb6af045f2e8ed8e
 ref/arc-bard/court-bard	Bardic Performance	bardic-performance	yes		draft	draft		81	da3b7ac1b3ba8ef7b72a04a1a7c67048540ae27f5818614ba965755832bb1354
 ref/arc-bard/court-bard	Satire (Su)	satire	yes		print	print		81	f7dff2e6a1a787c6b2fde24cdb7e49d1736c879639aca7e09c664ac743bc1645
 ref/arc-bard/court-bard	Mockery (Su)	mockery	yes		print	print		81	d21fe564589494f89241aa3245ca7cccfff7cc8e047354642604a99021d10c89
@@ -54,7 +54,7 @@ ref/arc-bard/detective	True Confession (Su)	true-confession	yes	9		hold	rule wor
 ref/arc-bard/detective	Show Yourselves (Ex)	show-yourselves	yes	15	print	print		82	444383c70a8465384e121acc14b03f45b56f96e151ab4fe89abbede25cc00e8a
 ref/arc-bard/detective	Eye for Detail (Ex)	eye-for-detail	yes		print	print		82	8cf98670d1470549f1c01aee6b8714042a2e2e99f5de5593dac4dc81df7d8185
 ref/arc-bard/detective	Arcane Insight (Ex)	arcane-insight	yes	2	print	print		82	50d3a1fcd24f05d198d0f43b707751d5e4a79c630e7e38dbba17ff235c7ff3b1
-ref/arc-bard/detective	Arcane Investigation	arcane-investigation	yes			hold	number: corpus ['1st-detect', '2nd-zone', '3rd-arcane', '4th-discern', '5th-prying', '6th-discern', 'chaos/evil/law/good'] / print ['1', '2', '3', '4', '5', '6', 'chaos/evil/law', 'detect', 'discern', 'discern', 'good', 'prying', 'zone']	82	c54f244fe5b803100f0010f775c597ccd271d8e5a8b72669bc6cfa949c1fb4d1
+ref/arc-bard/detective	Arcane Investigation	arcane-investigation	yes			hold	number: corpus ['1st-detect', '2nd-zone', '3rd-arcane', '4th-discern', '5th-prying', '6th-discern', 'chaos/evil/law/good'] / print ['1', '2', '3', '4', '5', 'chaos/evil/law', 'detect', 'discern', 'discern', 'good', 'prying', 'zone']	82	c54f244fe5b803100f0010f775c597ccd271d8e5a8b72669bc6cfa949c1fb4d1
 ref/arc-bard/magician	Bardic Performance	bardic-performance	yes		draft	draft		82	12e1b83a5747f511bbfdf22cb61fa47d64c5f7b3e6e82ac644d52e6a0b0a2f19
 ref/arc-bard/magician	Dweomercraft (Su)	dweomercraft	yes		print	print		82	41110e04fac102552e66d6ef1e7fc9298942fb8c015c53fe91c20bd35732ef2b
 ref/arc-bard/magician	Spell Suppression (Su)	spell-suppression	yes	8	print	print		82	bc748bea7935d1d2ad3428d5380d70d9c7007333b1b2e20ccd1d41e5edaac5cd
@@ -69,7 +69,7 @@ ref/arc-bard/magician	Wand Mastery (Ex)	wand-mastery	yes	10		hold	rule word: cor
 ref/arc-bard/sandman	Bardic Performance	bardic-performance	yes		draft	draft		83	38057d9d440a8d0ea03d1e0bdf36013eddfe0cd9ef538a791ab151a048f16819
 ref/arc-bard/sandman	Stealspell (Su)	stealspell	yes		print	print	link not placed: half	83	1568ca6ad98f282afd1d0236f9737bb3a1cd1e02f702b0ea626b9a6984775056
 ref/arc-bard/sandman	Slumber Song (Sp)	slumber-song	yes	6	print	print		83	94a646d02c494dc42507f396326bdeb9d9213ba9ee7cbbad73c335b1f6dd3a6e
-ref/arc-bard/sandman	Dramatic Subtext (Su)	dramatic-subtext	yes	9		hold	number: corpus ['9'] / print -	83	91e7eca219b56633c7d2e02188e121cf334c019dd8079f934e4a936b02657862
+ref/arc-bard/sandman	Dramatic Subtext (Su)	dramatic-subtext	yes	9	print	print		83	91e7eca219b56633c7d2e02188e121cf334c019dd8079f934e4a936b02657862
 ref/arc-bard/sandman	Greater Stealspell (Su)	greater-stealspell	yes		print	print		83	194aa5cd3c69e3d44b9f99b05c0ce8af9987d177e7e5d48a21a1edb0ca411003
 ref/arc-bard/sandman	Mass Slumber Song (Sp)	mass-slumber-song	yes	18	print	print		84	380571684cd70a66f1b45420b431d2d29f180a25053ec9b425b3ce9f7f36a2fa
 ref/arc-bard/sandman	Spell Catching (Su)	spell-catching	yes	20		hold	rule word: corpus ['respond'] / print ['use']	84	443e2b48c26f246758bee3aadc69ef99a4ccc39b3c3b34f02b1fdc32134512fa
@@ -81,20 +81,20 @@ ref/arc-bard/savage-skald	Bardic Performance	bardic-performance	yes		draft	draft
 ref/arc-bard/savage-skald	Inspiring Blow (Su)	inspiring-blow	yes		print	print		84	eecc85be7c021472ae66171b50d873d8fec5943273bf6c43b7ec9e1b25d0a163
 ref/arc-bard/savage-skald	Incite Rage (Su)	incite-rage	yes	6	print	print	link not placed: half	84	4f9384f42f9fb22c75fec4ef916e3ecf03579a5eba62da80fafeb32147d81d55
 ref/arc-bard/savage-skald	Song of the Fallen (Sp)	song-of-the-fallen	yes	10		hold	rule word: corpus ['barbarian', 'now', 'now', 'summon', 'summon', 'summon'] / print -	84	47d6bf65d38f0f6ca7d5afa2b7b110f841c6554d5e9c62e770f1377913b97459
-ref/arc-bard/savage-skald	Berserkergang (Ex)	berserkergang	yes	12		hold	number: corpus ['1', '15', '18', '2', 'affect', 'affect', 'creature', 'now'] / print ['additional', 'after', 'plu']	84	515a96b863cbd372f0e2f32b16d9cb2b85757358b3cf96f8dffb000089d565fa
+ref/arc-bard/savage-skald	Berserkergang (Ex)	berserkergang	yes	12		hold	number: corpus ['1', 'battle', 'creature', 'effect', 'fear', 'inspire', 'pain', 'rapturou', 'stunning', 'suppress', 'trance'] / print -	84	515a96b863cbd372f0e2f32b16d9cb2b85757358b3cf96f8dffb000089d565fa
 ref/arc-bard/savage-skald	Battle Song (Su)	battle-song	yes	18	print	print		84	95d3c34e8dff910fc336db02d88b31d3136a937f177960609bc91bf6231c6b7e
 ref/arc-bard/sea-singer	Bardic Performance	bardic-performance	yes		draft	draft		84	542bdb64d6d8696383bf05f7d48a7b0867f3b7568e33433bbb72f663efd8114b
 ref/arc-bard/sea-singer	Sea Shanty (Su)	sea-shanty	yes		print	print		84	9fb1e6e7850b75b8d234e643bf907ace517c57511b6db68dd3d1ad344dc22d96
-ref/arc-bard/sea-singer	Still Water (Su)	still-water	yes	3		hold	number: corpus ['3'] / print -	85	52e738367245aae2ba449106a5f3b8970aaf07a12f484d66f81c4c720ddccc7b
+ref/arc-bard/sea-singer	Still Water (Su)	still-water	yes	3	print	print		85	52e738367245aae2ba449106a5f3b8970aaf07a12f484d66f81c4c720ddccc7b
 ref/arc-bard/sea-singer	Whistle the Wind (Su)	whistle-the-wind	yes		print	print		85	cf3c9c9a6d083227ac21f94388f0369cd1080bd53dcc5980d66d8b84c4b332b1
 ref/arc-bard/sea-singer	Call the Storm (Su)	call-the-storm	yes	18	print	print		85	58a3b4fb594bffb3b3bdc5500237ada9691df710e7db68637f592a873e95d50d
 ref/arc-bard/sea-singer	World Traveler (Ex)	world-traveler	yes		print	print		85	d9ac0b3b0f132d87964867302b385f0278665299f8d8c09229d27c1daac965ec
 ref/arc-bard/sea-singer	Familiar	familiar	yes	2	print	print		85	25fd7c4259b48f334696b29cff89368ad22fcd537fda3546b3095bcf53dec793
 ref/arc-bard/sea-singer	Sea Legs (Ex)	sea-legs	yes	2	print	print		85	ac6f8652ebe1714b895806bde4a7075ee84a3bb25cec835e6c261037f98343f9
 ref/arc-bard/street-performer	Bardic Performance	bardic-performance	yes		draft	draft		85	7d3badda2aec150d785d5c390b1be84518f15763591e1dd8c7ed03e132c2ef78
-ref/arc-bard/street-performer	Disappearing Act (Su)	disappearing-act	yes			hold	number: corpus ['11', '17', '2', '3', '4', 'affect', 'ally', 'ally', 'ally', 'invisible', 'now', 'now', 'render'] / print ['6', 'additional', 'creature', 'every', 'thereafter']; link not placed: half	85	7e7d2294a356e9d41e2c161191f37668cfd599bbc2bae97982aed12c10683922
-ref/arc-bard/street-performer	Harmless Performer (Su)	harmless-performer	yes	3		hold	number: corpus ['3'] / print -	85	30b4a343d3738c25cccbe9f2aea50625bfedd7715922f17540b61ae239e888d3
-ref/arc-bard/street-performer	Madcap Prank (Su)	madcap-prank	yes	9		hold	number: corpus ['1-blinded', '2-dazzled', '3-deafened', '4-entangled', '5-fall', '6-nauseated'] / print ['1', '2', '3', '4', '5', '6', 'blinded', 'dazzled', 'deafened', 'entangled', 'fall', 'nauseated']	85	9bb0dc5c452ba29cf3910cdee49f7dee3fadbc7f04a4c93fb7c674d536bb2682
+ref/arc-bard/street-performer	Disappearing Act (Su)	disappearing-act	yes		print	print	link not placed: half	85	7e7d2294a356e9d41e2c161191f37668cfd599bbc2bae97982aed12c10683922
+ref/arc-bard/street-performer	Harmless Performer (Su)	harmless-performer	yes	3	print	print		85	30b4a343d3738c25cccbe9f2aea50625bfedd7715922f17540b61ae239e888d3
+ref/arc-bard/street-performer	Madcap Prank (Su)	madcap-prank	yes	9	print	print		85	9bb0dc5c452ba29cf3910cdee49f7dee3fadbc7f04a4c93fb7c674d536bb2682
 ref/arc-bard/street-performer	Slip through the Crowd (Su)	slip-through-the-crowd	yes	15	print	print		85	40aeff01ef02214b6267693209c47c58e427141271552e94407c8c3e395d89f2
 ref/arc-bard/street-performer	Gladhanding	gladhanding	yes		print	print		85	c3f38ccbede688d564c76f9bb6ae371b2f4a690126c0670acd9eceefc4c388a7
 ref/arc-bard/street-performer	Streetwise	streetwise	yes		print	print		85	45027c0cc8b7b9aa6723c8392dcb295a263f7bf10d5d4bcaa6f060ca4b913421
@@ -327,7 +327,7 @@ ref/arc-monk/weapon-adept	Uncanny Initiative (Ex)	uncanny-initiative	yes	17	prin
 ref/arc-monk/weapon-adept	Pure Power	pure-power	yes	20	print	print		115	e184d220c2037fb198f1a76e4d16cfe2d5d1b82ad0ee1a91285f41e902d462ae
 ref/arc-monk/zen-archer	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		draft	draft		115	c86e1478afa089735f3b8e4f4b38d05eb5f5d5a8ac5057596dbe82a1f1d6b938
 ref/arc-monk/zen-archer	Flurry of Blows (Ex)	flurry-of-blows	yes	1	draft	draft		115	7ee59192ea51646e8a37dd446580a8f8968b11581cdbe4dbfc0e1a494bee8758
-ref/arc-monk/zen-archer	Bonus Feats	bonus-feats	no			hold	number: corpus ['1'] / print -	115	a33d49e3371f49cbb103b858164e9a108097004924b831f32ebd01ded8092430
+ref/arc-monk/zen-archer	Bonus Feats	bonus-feats	no		print	print		115	a33d49e3371f49cbb103b858164e9a108097004924b831f32ebd01ded8092430
 ref/arc-monk/zen-archer	Perfect Strike (Ex)	perfect-strike	yes	1	print	print		115	080f499f26f63dc6556b56cbae9a83516b7bab03af6860bbc59ba130c0865e08
 ref/arc-monk/zen-archer	Way of the Bow (Ex)	way-of-the-bow	yes	2	print	print		115	e63509416fac0f9f6a60477d64f575162c551a83a3022bee5cf4035dcfd94f41
 ref/arc-monk/zen-archer	Zen Archery (Ex)	zen-archery	yes	3	print	print		115	c49a7204c1cb391a1212246407a8bd0fcabad47d16c40e775dd0cf717297a0cf
@@ -345,7 +345,7 @@ ref/arc-paladin/hospitaler	Aura of Healing (Su)	aura-of-healing	yes	11	print	pri
 ref/arc-paladin/sacred-servant	Smite Evil (Su)	smite-evil	yes			hold	rule word: corpus ['fewer', 'use'] / print -	117	6bec5ad149496384dd85fd477f7157e00836a6d36b93aaaae3f4b07d9fa1c67a
 ref/arc-paladin/sacred-servant	Spells	spells	yes	4	print	print		117	014b09b96e68eb9a907d8c87f58efc72de0b03a5df3654763b23504cd30b713c
 ref/arc-paladin/sacred-servant	Divine Bond (Su)	divine-bond	yes	5		hold	number: corpus ['bonuse', 'gain', 'more', 'starting', 'use/day'] / print ['1', '1', '17', '3', '4', '4', '5', '5', 'additional', 'additional', 'beyond', 'beyond', 'bonu', 'day', 'day', 'day', 'every', 'every', 'time', 'time', 'total', 'use', 'use']	117	1ce6feb3b4cb34e17218a0e8a2217acffd21db6e6986be9dac13be600d364026
-ref/arc-paladin/sacred-servant	Call Celestial Ally (Sp)	call-celestial-ally	yes	8		hold	number: corpus ['8'] / print -; link not placed: lesser planar ally	117	6268d6be2002cc26d74916057c8e5e2df69f7565a32ce2694a2ce199de60fc05
+ref/arc-paladin/sacred-servant	Call Celestial Ally (Sp)	call-celestial-ally	yes	8	print	print	link not placed: lesser planar ally	117	6268d6be2002cc26d74916057c8e5e2df69f7565a32ce2694a2ce199de60fc05
 ref/arc-paladin/shining-knight	Skilled Rider (Ex and Su)	skilled-rider	yes	3	print	print		117	78d2051aba56a9b7a379d9548231c654c48d54245d8e6f0e606fcfb29551d83c
 ref/arc-paladin/shining-knight	Divine Bond (Su)	divine-bond	yes		print	print		117	c2b8ecb37defde4b4ab108678e35e335947a411b600e12af79107b3515685a32
 ref/arc-paladin/shining-knight	Knight's Charge (Su)	knight-s-charge	yes	11	print	print		117	e28d6098e9628bc0c05105ac10f4aa78eefcc6e48361877fd1139a173b5ad329
@@ -354,7 +354,7 @@ ref/arc-paladin/undead-scourge	Aura of Life (Su)	aura-of-life	yes	8	print	print	
 ref/arc-paladin/undead-scourge	Undead Annihilation (Su)	undead-annihilation	yes	11	print	print		118	46038e2037530aeedde9f2d03d8b3294a94731fcb163da88e0a497032917a08a
 ref/arc-paladin/warrior-of-the-holy-light	Power of Faith (Su)	power-of-faith	yes	4		hold	number: corpus - / print ['1', 'additional', 'attain', 'beyond', 'day', 'every', 'gain', 'hand', 'lay', 'use']	118	bda484b418f97753f5f3b069d46ed1efeb17d4568762f15fb4326edce54629e2
 ref/arc-paladin/warrior-of-the-holy-light	Shining Light (Su)	shining-light	yes	14		hold	number: usage row ['3'] not in print	118	596f406d4b2c8103af813d74c2c93bfac28221e5c6a8b649ae0b802fab099da7
-ref/arc-ranger/beast-master	Animal Companion (Ex)	animal-companion	yes			hold	rule word: corpus ['4th-level'] / print -	124	9be65c811dec9067d63115244f62cf9116b48764269d7fc7cfe0fa23c3ed45a5
+ref/arc-ranger/beast-master	Animal Companion (Ex)	animal-companion	yes		print	print		124	9be65c811dec9067d63115244f62cf9116b48764269d7fc7cfe0fa23c3ed45a5
 ref/arc-ranger/beast-master	Improved Empathic Link (Su)	improved-empathic-link	yes	6		hold	rule word: corpus ['1-2'] / print -; level from the trade	125	054179232827476dcf6458b06f5756986c46f7661ae13d14d07334d59e85c4a5
 ref/arc-ranger/beast-master	Strong Bond (Ex)	strong-bond	yes	12	print	print		125	d723c4530c6b7d832a5b84836badd167bf4f4b6e0c18774c73c8730e9c78f9da
 ref/arc-ranger/beast-master	Class Skills	class-skills	no			hold	head not in the entry	124	
@@ -407,7 +407,7 @@ ref/arc-ranger/shapeshifter	Form of the Dragon	form-of-the-dragon	yes		draft	dra
 ref/arc-ranger/shapeshifter	Form of the Eagle	form-of-the-eagle	yes		draft	draft		127	641c9f71473661d8d7aa57a3d8df9670f1f63af7da4166af4596ba304ef8f0e4
 ref/arc-ranger/shapeshifter	Form of the Jackal	form-of-the-jackal	yes		draft	draft		128	ded882d5e928c1806cce0c082d6ae297508f8fe274a519721bf273060494ef1b
 ref/arc-ranger/shapeshifter	Form of the Otter	form-of-the-otter	yes		draft	draft		128	628c23282d414a1ee0fa0b95541ad45a685b24b2afb8074f1964d9268d7d029b
-ref/arc-ranger/skirmisher	Hunter's Tricks	hunter-s-tricks	yes	5		hold	number: corpus ['11', '13', '15', '17', '19', '3', '4', '5', '6', '9', 'learn', 'learn', 'learn', 'learn', 'learn'] / print ['cannot', 'caster', 'completion', 'effect', 'every', 'gain', 'item', 'list', 'magic', 'not', 'not', 'or', 'spell', 'spell', 'spell', 'spellcasting', 'thereafter', 'trigger', 'use']	128	97dd792f9120bfa27343a2196422ceeaf86c90f274cd330deb801a13e7ba9516
+ref/arc-ranger/skirmisher	Hunter's Tricks	hunter-s-tricks	yes	5		hold	rule word: corpus - / print ['cannot', 'caster', 'completion', 'effect', 'gain', 'item', 'list', 'magic', 'not', 'not', 'or', 'spell', 'spell', 'spell', 'spellcasting', 'trigger', 'use']	128	97dd792f9120bfa27343a2196422ceeaf86c90f274cd330deb801a13e7ba9516
 ref/arc-ranger/skirmisher	Aiding Attack (Ex)	aiding-attack	yes		print	print		128	594850dfe520073fdee2240f56e0193f07deda9c0c0e783933725e2cfcb41ad6
 ref/arc-ranger/skirmisher	Bolster Companion (Ex)	bolster-companion	yes		print	print		128	36672b446ab011b33ac40020b24e2299c642fcb04533ef79103ae0816d1b23f6
 ref/arc-ranger/skirmisher	Catfall (Ex)	catfall	yes		print	print		128	5c976201138e4cb8a125b5f5a7d87baac486872c5ae7f74ae33d731ee7da727b
@@ -434,8 +434,8 @@ ref/arc-ranger/skirmisher	Trick Shot (Ex)	trick-shot	yes		draft	draft		129	8505b
 ref/arc-ranger/skirmisher	Uncanny Senses (Ex)	uncanny-senses	yes		print	print		129	68f24c1c39de807a2fc75a2afb4e1cc1db611f55cead3fb96b9db98dde454145
 ref/arc-ranger/skirmisher	Upending Strike (Ex)	upending-strike	yes		print	print		129	4ca7388162787bcc716d1137d4748ff7d757dbb78eaa177993d0eefc278dede9
 ref/arc-ranger/skirmisher	Vengeance Strike (Ex)	vengeance-strike	yes		print	print		129	c19524af5bc9ccd3c6206b8e3c83a41001ff77c5801f8a1f676d33d44239e252
-ref/arc-ranger/spirit-ranger	Spirit Bond (Ex)	spirit-bond	yes	4		hold	number: corpus - / print ['245', 'core', 'pathfinder', 'rpg', 'rulebook']	129	5b539bc885bbcb58fe0757a4bcf48dbb4d6032f0db010c82b23e910e5b2d4cf3
-ref/arc-ranger/spirit-ranger	Wisdom of the Spirits (Sp)	wisdom-of-the-spirits	yes	12		hold	number: corpus - / print ['273', 'core', 'pathfinder', 'rpg', 'rulebook']	129	66b015509c5ec7e65a9a35f8211202bd4dcfbc6b959fac88c96bf7ca3da2015b
+ref/arc-ranger/spirit-ranger	Spirit Bond (Ex)	spirit-bond	yes	4	print	print		129	5b539bc885bbcb58fe0757a4bcf48dbb4d6032f0db010c82b23e910e5b2d4cf3
+ref/arc-ranger/spirit-ranger	Wisdom of the Spirits (Sp)	wisdom-of-the-spirits	yes	12	print	print		129	66b015509c5ec7e65a9a35f8211202bd4dcfbc6b959fac88c96bf7ca3da2015b
 ref/arc-ranger/urban-ranger	Favored Community (Ex)	favored-community	yes	3		hold	rule word: corpus - / print ['every', 'interval', 'thereafter']	129	d131ffbc823bbec25e591a7f9d98ec3d55301538bd6324632563123c6251a406
 ref/arc-ranger/urban-ranger	Trapfinding (Ex)	trapfinding	yes	3	print	print		129	3170d201795e99824e3d0009e83ca7bab39b170246d10ff563fd8223abbdd409
 ref/arc-ranger/urban-ranger	Push Through (Ex)	push-through	yes	7	print	print		129	60799fd1e63e369192c1fc813afa6b69ee65596d41af8303e0cc8b7007e7a532
