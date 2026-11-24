@@ -1488,7 +1488,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 opening = [apply_links(o, res.get("opening_links", []))[0] for o in res["opening"]]
         elif kind == "print" and r["status"] == "hold":
             r["status"] = "print"
-            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling"))]
+            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling", "trade"))]
     # a decided row of the first kind that moved text into another row is re-decided there
     for r in rows:
         dec = decisions.get((e.id, r["anchor"]))
