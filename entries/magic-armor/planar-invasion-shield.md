@@ -12,7 +12,7 @@ publication = "ultimate-equipment"
 page = "349"
 [[sources]]
 publication = "advanced-players-guide"
-page = "310"
+page = "312"
 
 [fields]
 kind = "item"

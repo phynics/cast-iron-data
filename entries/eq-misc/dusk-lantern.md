@@ -2,16 +2,13 @@
 id = "ref/eq-misc/dusk-lantern"
 kind = "item"
 title = "Dusk lantern"
-source_ids = ["adventurers-armory-2", "adventurers-armory"]
+source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dusk_lantern", path = "json/equipment_misc4.json" },
 ]
 [[sources]]
 publication = "adventurers-armory-2"
 page = "12"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 
 [fields]
 kind = "item"

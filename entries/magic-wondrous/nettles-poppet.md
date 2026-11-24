@@ -2,16 +2,13 @@
 id = "ref/magic-wondrous/nettles-poppet"
 kind = "item"
 title = "Nettle's Poppet"
-source_ids = ["heaven-unleashed", "ultimate-equipment"]
+source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nettles_poppet", path = "json/magic_wondrous_slotless04.json" },
 ]
 [[sources]]
 publication = "heaven-unleashed"
 page = "55"
-[[sources]]
-publication = "ultimate-equipment"
-page = "302"
 
 [fields]
 kind = "item"

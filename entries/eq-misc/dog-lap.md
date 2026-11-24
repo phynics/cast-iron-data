@@ -2,7 +2,7 @@
 id = "ref/eq-misc/dog-lap"
 kind = "item"
 title = "Dog (lap)"
-source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory", "knights-of-the-inner-sea", "wilderness-origins"]
+source_ids = ["ultimate-equipment", "core-rulebook", "knights-of-the-inner-sea", "wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_lap", path = "json/equipment_misc4.json" },
 ]
@@ -12,9 +12,6 @@ page = "81"
 [[sources]]
 publication = "core-rulebook"
 page = "159"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 [[sources]]
 publication = "knights-of-the-inner-sea"
 page = "33"

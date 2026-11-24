@@ -11,10 +11,10 @@ publication = "ultimate-equipment"
 page = "81"
 [[sources]]
 publication = "advanced-players-guide"
-page = "185"
+page = "187"
 [[sources]]
 publication = "adventurers-armory"
-page = "19"
+page = "14"
 
 [fields]
 kind = "item"

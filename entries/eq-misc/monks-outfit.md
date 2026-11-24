@@ -2,7 +2,7 @@
 id = "ref/eq-misc/monks-outfit"
 kind = "item"
 title = "Monk's outfit"
-source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory"]
+source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monks_outfit", path = "json/equipment_misc2.json" },
 ]
@@ -12,9 +12,6 @@ page = "89"
 [[sources]]
 publication = "core-rulebook"
 page = "159"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 
 [fields]
 kind = "item"

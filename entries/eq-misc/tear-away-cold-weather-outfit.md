@@ -2,7 +2,7 @@
 id = "ref/eq-misc/tear-away-cold-weather-outfit"
 kind = "item"
 title = "Tear-away cold-weather outfit"
-source_ids = ["ultimate-equipment", "pathfinder-51-the-hungry-storm", "core-rulebook", "adventurers-armory"]
+source_ids = ["ultimate-equipment", "pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tear_away_cold_weather_outfit", path = "json/equipment_misc.json" },
 ]
@@ -12,12 +12,6 @@ page = "89"
 [[sources]]
 publication = "pathfinder-51-the-hungry-storm"
 page = "67"
-[[sources]]
-publication = "core-rulebook"
-page = "159"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 
 [fields]
 kind = "item"

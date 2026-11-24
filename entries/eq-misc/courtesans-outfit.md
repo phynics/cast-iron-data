@@ -2,7 +2,7 @@
 id = "ref/eq-misc/courtesans-outfit"
 kind = "item"
 title = "Courtesan's outfit"
-source_ids = ["adventurers-armory-2", "ultimate-equipment", "adventurers-armory"]
+source_ids = ["adventurers-armory-2", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courtesans_outfit", path = "json/equipment_misc.json" },
 ]
@@ -12,9 +12,6 @@ page = "20"
 [[sources]]
 publication = "adventurers-armory"
 page = "19"
-[[sources]]
-publication = "ultimate-equipment"
-page = "89"
 
 [fields]
 kind = "item"
