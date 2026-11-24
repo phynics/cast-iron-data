@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/death-of-curchanus"
-kind = "rule"
+kind = "haunt"
 title = "Death of Curchanus"
 source_ids = ["horror-realms"]
 provenance = [

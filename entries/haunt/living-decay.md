@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/living-decay"
-kind = "rule"
+kind = "haunt"
 title = "Living Decay"
 source_ids = ["horror-adventures"]
 provenance = [

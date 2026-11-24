@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/shifting-seasons"
-kind = "rule"
+kind = "haunt"
 title = "Shifting Seasons"
 source_ids = ["horror-realms"]
 provenance = [

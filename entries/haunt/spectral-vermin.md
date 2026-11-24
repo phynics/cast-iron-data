@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/spectral-vermin"
-kind = "rule"
+kind = "haunt"
 title = "Spectral Vermin"
 source_ids = ["occult-adventures"]
 provenance = [

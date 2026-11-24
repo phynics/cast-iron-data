@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/cold-spot"
-kind = "rule"
+kind = "haunt"
 title = "Cold Spot"
 source_ids = ["horror-adventures"]
 provenance = [

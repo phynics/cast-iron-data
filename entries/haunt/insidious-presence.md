@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/insidious-presence"
-kind = "rule"
+kind = "haunt"
 title = "Insidious Presence"
 source_ids = ["occult-adventures"]
 provenance = [

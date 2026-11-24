@@ -22,11 +22,10 @@ rules existed twice. Four passes fix that, in this order. A pass changes no `id`
               `Optional Background Skill`), and every other `**Name**` / `**Details:** text` pair
               (the rank unlocks, the survival items) becomes `**Name:** text`.
               Folders that stay as they are, each with a reason in the review file:
-                haunt     stays `rule` (owner decision of 2026-11-22; a Haunts list follows in
-                          phynics/cast-iron#618). The GameMastery Guide (p. 242) says "Although haunts
-                          function like traps" and that "the distinction between a trap and an undead
-                          creature blurs" with a haunt: it does not say a haunt is a kind of trap.
-                          Set `HAUNT_KIND` to `trap` to change all of them.
+                haunt     -> haunt   (no tag; owner decision of 2026-11-23, phynics/cast-iron#618: haunts
+                          are their own kind, with no typed fields). Until then they stayed `rule`
+                          (owner decision of 2026-11-22), because the GameMastery Guide (p. 242) does
+                          not say a haunt is a kind of trap. `HAUNT_KIND = None` keeps them `rule`.
                 template  stays `rule` (issue).
                 eq-poison stays `item` (issue).
 
@@ -118,13 +117,15 @@ FOLDERS: dict[str, tuple[str, str | None]] = {
 }
 # The six words of AFFLICTION_TYPES in phynics/cast-iron `crates/corpus/src/check.rs`.
 AFFLICTION_TYPES = ("addiction", "curse", "disease", "infestation", "insanity", "poison")
-# Owner decision of 2026-11-22 (data #167): haunts stay `rule`; a Haunts list follows in
-# phynics/cast-iron#618. Set `HAUNT_KIND` to `trap` to change all of them.
-HAUNT_KIND = None
+# Owner decision of 2026-11-23 (phynics/cast-iron#618): haunts are their own kind, `haunt`, with no
+# typed fields. Before it they stayed `rule` (owner decision of 2026-11-22, data #167); set
+# `HAUNT_KIND` to `None` to keep them `rule` again.
+HAUNT_KIND = "haunt"
+HAUNT_BASIS = "owner decision of 2026-11-23 (phynics/cast-iron#618): haunts are their own kind"
 HAUNT_REASON = (
-    "stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): "
-    "GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap "
-    "and an undead creature blurs; it does not say a haunt is a kind of trap"
+    "stays `rule` (owner decision of 2026-11-22): GameMastery Guide p. 242 says haunts function like "
+    "traps and that the distinction between a trap and an undead creature blurs; it does not say a "
+    "haunt is a kind of trap"
 )
 # Folders that stay as they are (issue #167): a row per entry in the review file.
 STAYS = {
@@ -491,7 +492,7 @@ def plan_kinds(entries: dict[str, Entry], titles: dict[str, str], plan: Plan) ->
                 plan.keeps.append((entry, "keep-rule", HAUNT_REASON))
             else:
                 if entry.kind != HAUNT_KIND:
-                    plan.kind_changes.append((entry, HAUNT_KIND, None, "haunt"))
+                    plan.kind_changes.append((entry, HAUNT_KIND, None, HAUNT_BASIS))
             continue
         kind, _ = FOLDERS[folder]
         tag, basis = tag_for(folder, entry.body)
@@ -927,6 +928,10 @@ def write_review(root: Path, rows: list[dict]) -> None:
     merged = {(r["entry_id"], r["action"], r["other_id"]): r for r in old}
     for row in rows:
         merged[(row["entry_id"], row["action"], row["other_id"])] = row
+    # A kind change replaces the row that said the entry stays as it was (the haunts, phynics/cast-iron#618).
+    changed = {r["entry_id"] for r in rows if r["action"] == "kind"}
+    for key in [k for k, r in merged.items() if r["action"].startswith("keep-") and r["entry_id"] in changed]:
+        del merged[key]
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=COLUMNS, delimiter="\t", lineterminator="\n")
         writer.writeheader()

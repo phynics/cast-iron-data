@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/eternal-pyre"
-kind = "rule"
+kind = "haunt"
 title = "Eternal Pyre"
 source_ids = ["horror-adventures"]
 provenance = [

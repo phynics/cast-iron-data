@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/betrayal"
-kind = "rule"
+kind = "haunt"
 title = "Betrayal"
 source_ids = ["horror-adventures"]
 provenance = [

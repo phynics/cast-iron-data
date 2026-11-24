@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/network-of-lasers"
-kind = "rule"
+kind = "haunt"
 title = "Network of Lasers"
 source_ids = ["horror-realms"]
 provenance = [

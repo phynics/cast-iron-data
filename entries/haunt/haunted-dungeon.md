@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/haunted-dungeon"
-kind = "rule"
+kind = "haunt"
 title = "Haunted Dungeon"
 source_ids = ["horror-adventures"]
 provenance = [

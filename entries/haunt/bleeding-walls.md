@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/bleeding-walls"
-kind = "rule"
+kind = "haunt"
 title = "Bleeding Walls"
 source_ids = ["game-mastery-guide"]
 provenance = [

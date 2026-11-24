@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/servants-of-the-book"
-kind = "rule"
+kind = "haunt"
 title = "Servants of the Book"
 source_ids = ["book-of-the-damned"]
 provenance = [

@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/demanding-dead"
-kind = "rule"
+kind = "haunt"
 title = "Demanding Dead"
 source_ids = ["occult-adventures", "occult-mysteries"]
 provenance = [

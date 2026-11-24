@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/unsolved-murder"
-kind = "rule"
+kind = "haunt"
 title = "Unsolved Murder"
 source_ids = ["horror-adventures"]
 provenance = [

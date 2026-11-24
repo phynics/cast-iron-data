@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/crushing-terror"
-kind = "rule"
+kind = "haunt"
 title = "Crushing Terror"
 source_ids = ["horror-adventures"]
 provenance = [

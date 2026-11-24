@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/scratching-behind-the-wall"
-kind = "rule"
+kind = "haunt"
 title = "Scratching Behind the Wall"
 source_ids = ["horror-adventures"]
 provenance = [

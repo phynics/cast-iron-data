@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/twisted-wish"
-kind = "rule"
+kind = "haunt"
 title = "Twisted Wish"
 source_ids = ["horror-adventures"]
 provenance = [

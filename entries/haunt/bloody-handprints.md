@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/bloody-handprints"
-kind = "rule"
+kind = "haunt"
 title = "Bloody Handprints"
 source_ids = ["horror-adventures"]
 provenance = [

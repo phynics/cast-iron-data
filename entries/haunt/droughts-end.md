@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/droughts-end"
-kind = "rule"
+kind = "haunt"
 title = "Drought's End"
 source_ids = ["horror-realms"]
 provenance = [

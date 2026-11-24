@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/buried-alive"
-kind = "rule"
+kind = "haunt"
 title = "Buried Alive"
 source_ids = ["horror-adventures"]
 provenance = [

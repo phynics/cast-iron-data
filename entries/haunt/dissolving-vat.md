@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/dissolving-vat"
-kind = "rule"
+kind = "haunt"
 title = "Dissolving Vat"
 source_ids = ["horror-adventures"]
 provenance = [

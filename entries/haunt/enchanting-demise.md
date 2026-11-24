@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/enchanting-demise"
-kind = "rule"
+kind = "haunt"
 title = "Enchanting Demise"
 source_ids = ["ultimate-wilderness"]
 provenance = [
