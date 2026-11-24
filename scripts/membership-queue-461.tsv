@@ -218,7 +218,7 @@ advanced-players-guide	ref/class/investigator	class	Investigator	2	7	uncited	pri
 advanced-players-guide	ref/class/kineticist	class	Kineticist	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/magus	class	Magus	2	10	uncited	body		none	1	54							cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/medium	class	Medium	2	7	uncited	printed		none	40	32,33,38,41,42							cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/mesmerist	class	Mesmerist	2	9	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
+advanced-players-guide	ref/class/mesmerist	class	Mesmerist	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/ninja	class	Ninja	2	4	uncited	body		none	2	134,135										class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/occultist	class	Occultist	2	5	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/psychic	class	Psychic	2	8	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
@@ -755,7 +755,7 @@ blood-of-the-beast	ref/class/investigator	class	Investigator	5	7	uncited	printed
 blood-of-the-beast	ref/class/kineticist	class	Kineticist	4	9	uncited	printed		none	2	24,28							remove	24	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/magus	class	Magus	9	10	uncited	printed		none	2	7,19							remove	7	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/medium	class	Medium	4	7	uncited	printed		none	7	3,4,8,9,14							remove	4	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/class/mesmerist	class	Mesmerist	7	9	uncited	printed		none	10	3,12,14,16,17										class-hub	S6		yes	yes			
+blood-of-the-beast	ref/class/mesmerist	class	Mesmerist	7	9	uncited	printed		none	10	3,12,14,16,17							remove	12	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/ninja	class	Ninja	4	4	uncited	body		none	1	9										class-hub	S7		yes	yes			
 blood-of-the-beast	ref/class/occultist	class	Occultist	3	5	uncited	printed		none	4	14,19,20,28										class-hub	S7		yes	yes			
 blood-of-the-beast	ref/class/oracle	class	Oracle	3	13	uncited	printed		none	4	5,6,8,16										class-hub	S7		yes	yes			
@@ -823,7 +823,7 @@ blood-of-the-sea	ref/class/witch	class	Witch	5	11	uncited	printed		none	7	3,5,13
 blood-of-the-sea	ref/class/arcanist	class	Arcanist	4	8	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/fighter	class	Fighter	4	10	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/magus	class	Magus	5	10	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
-blood-of-the-sea	ref/class/mesmerist	class	Mesmerist	8	9	weak	weak		none	1	13										class-hub	S6		yes	yes			
+blood-of-the-sea	ref/class/mesmerist	class	Mesmerist	8	9	weak	weak		none	1	13							remove	13	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/skald	class	Skald	4	7	weak	weak		none	1	13										class-hub	S7		yes	yes			
 blood-of-the-sea	ref/rule/class-fighter/fighter	rule	Fighter	4	10	weak	weak		none	1	5			yes							class-hub	S8		yes	yes			
 bonus-bestiary	ref/monster/ant-lion-giant-adult-ant-lion	creature	Giant Adult Ant Lion	2	2	review	absent	5	row	0											single-entry	S11			yes		no	
@@ -862,7 +862,7 @@ chronicle-of-legends	ref/class/inquisitor	class	Inquisitor	2	8	uncited	printed		
 chronicle-of-legends	ref/class/kineticist	class	Kineticist	5	9	uncited	printed		none	3	10,11,29							cite	28-29	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/magus	class	Magus	3	10	uncited	printed		none	3	8,9,29							cite	28-29	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/medium	class	Medium	3	7	uncited	printed		none	5	6,10,18,19,29							cite	28-29	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/class/mesmerist	class	Mesmerist	3	9	uncited	printed		none	2	14,29										class-hub	S6		yes	yes	yes		
+chronicle-of-legends	ref/class/mesmerist	class	Mesmerist	3	9	uncited	printed		none	2	14,29							cite	28-29	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/ninja	class	Ninja	3	4	uncited	printed		none	4	3,5,6,29										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/occultist	class	Occultist	4	5	uncited	printed		none	2	3,29										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/psychic	class	Psychic	5	8	uncited	printed		none	4	10,11,14,29										class-hub	S7		yes	yes	yes		
@@ -1577,7 +1577,7 @@ horror-adventures	ref/class/alchemist	class	Alchemist	9	12	uncited	printed		none
 horror-adventures	ref/class/cavalier	class	Cavalier	7	8	uncited	printed		none	2	41,234							remove	41	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/inquisitor	class	Inquisitor	7	8	uncited	printed		none	19	3,41,52,53,58							remove	52	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/magus	class	Magus	8	10	uncited	printed		none	10	39,101,114,115,118							remove	39	class-options-only	class-hub	done			yes			
-horror-adventures	ref/class/mesmerist	class	Mesmerist	4	9	uncited	printed		none	19	3,39,60,61,102										class-hub	S6		yes	yes			
+horror-adventures	ref/class/mesmerist	class	Mesmerist	4	9	uncited	printed		none	19	3,39,60,61,102							remove	60	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/occultist	class	Occultist	5	5	uncited	printed		none	24	3,41,45,55,62										class-hub	S7		yes	yes			
 horror-adventures	ref/class/oracle	class	Oracle	8	13	uncited	printed		none	2	40,177										class-hub	S7		yes	yes			
 horror-adventures	ref/class/psychic	class	Psychic	8	8	uncited	printed		none	40	13,18,40,41,55										class-hub	S7		yes	yes			
@@ -1698,7 +1698,7 @@ legacy-of-dragons	ref/racial-trait/half-orc/medium	racial_trait	Medium	9	18	inhe
 legacy-of-dragons	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal Speed	9	18	inherited	absent		none	0				yes				remove	11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	9	18	inherited	absent		none	0				yes				remove	11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/class/bloodrager	class	Bloodrager	9	9	uncited	printed		none	10	0,3,4,5,16							remove	4	class-options-only	class-hub	done			yes			
-legacy-of-dragons	ref/class/mesmerist	class	Mesmerist	9	9	uncited	printed		none	6	3,13,18,28,29										class-hub	S6		yes	yes			
+legacy-of-dragons	ref/class/mesmerist	class	Mesmerist	9	9	uncited	printed		none	6	3,13,18,28,29							remove	13	class-options-only	class-hub	done			yes			
 legacy-of-dragons	ref/class/oracle	class	Oracle	9	13	uncited	printed		none	7	3,8,9,18,28										class-hub	S7		yes	yes			
 legacy-of-dragons	ref/race/wyvaran	race	Wyvaran	3	3	uncited	printed		none	4	1,3,18,19										race-hub	S9		yes	yes			
 legacy-of-dragons	ref/faith/ardad-lili	rule	Ardad Lili	3	3	review	absent	31	row	0											faith-excerpt	S11	faith-link		yes	yes	no	
@@ -1824,7 +1824,7 @@ legacy-of-the-first-world	ref/racial-trait/halfling/slow-speed	racial_trait	Slow
 legacy-of-the-first-world	ref/racial-trait/halfling/small	racial_trait	Small	8	17	inherited	printed		none	5	9,10,16,17,18			yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	8	17	inherited	absent		none	0				yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/class/alchemist	class	Alchemist	7	12	uncited	printed		none	4	3,6,7,8							remove	6	class-options-only	class-hub	done			yes			
-legacy-of-the-first-world	ref/class/mesmerist	class	Mesmerist	5	9	uncited	printed		none	2	9,13										class-hub	S6		yes	yes			
+legacy-of-the-first-world	ref/class/mesmerist	class	Mesmerist	5	9	uncited	printed		none	2	9,13							remove	9	class-options-only	class-hub	done			yes			
 legacy-of-the-first-world	ref/class/oracle	class	Oracle	10	13	uncited	printed		none	5	3,9,10,11,22										class-hub	S7		yes	yes			
 legacy-of-the-first-world	ref/race/gathlain	race	Gathlain	4	5	uncited	printed		none	5	-1,1,8,9,34										race-hub	S9		yes	yes			
 legacy-of-the-first-world	ref/class/investigator	class	Investigator	6	7	weak	weak		none	1	9							remove	9	class-options-only	class-hub	done			yes			
@@ -2524,7 +2524,7 @@ ultimate-wilderness	ref/class/bloodrager	class	Bloodrager	6	9	uncited	printed		n
 ultimate-wilderness	ref/class/cavalier	class	Cavalier	5	8	uncited	printed		none	10	3,5,10,44,45							remove	44	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/hunter	class	Hunter	7	8	uncited	printed		none	40	3,5,10,16,19							remove	52	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/kineticist	class	Kineticist	9	9	uncited	printed		none	15	3,5,21,23,24							remove	58	class-options-only	class-hub	done			yes			
-ultimate-wilderness	ref/class/mesmerist	class	Mesmerist	6	9	uncited	printed		none	8	17,18,224,227,229										class-hub	S6		yes	yes			
+ultimate-wilderness	ref/class/mesmerist	class	Mesmerist	6	9	uncited	printed		none	8	17,18,224,227,229							remove	17	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/oracle	class	Oracle	13	13	uncited	printed		none	9	3,21,68,69,140										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/class/shaman	class	Shaman	8	8	uncited	printed		none	27	10,14,17,19,22										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/class/skald	class	Skald	7	7	uncited	printed		none	8	3,5,10,36,84										class-hub	S7		yes	yes			
