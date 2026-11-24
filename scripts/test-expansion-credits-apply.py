@@ -5,7 +5,7 @@
 
 Cases (phynics/cast-iron#461, S9): class `expands` needs a `via` entry; class `expands-no-via`
 writes a credit with `publication` and `page` and no `via` key, and refuses a `via`; both take the
-book out of `source_ids` and drop its placement; applying twice changes nothing; an unknown class
+book out of `source_ids` and drop its placement; action `credit` writes only the credit of a book that left `source_ids` before; applying twice changes nothing; an unknown class
 is refused before anything is written.
 """
 import csv
@@ -29,16 +29,16 @@ BOOK_B = ('[[books]]\nsource = "book-b"\n\n[[books.chapters]]\ntitle = "Races"\n
 
 
 class ExpandedInTest(unittest.TestCase):
-    def run_apply(self, klass: str, via: str):
+    def run_apply(self, klass: str, via: str, action: str = "expanded_in", entry_text: str = ENTRY):
         tmp = Path(tempfile.mkdtemp())
         (tmp / "entries/race").mkdir(parents=True)
         (tmp / "books").mkdir()
         (tmp / "publications.toml").write_text(PUBS, encoding="utf-8")
         (tmp / "books/book-b.toml").write_text(BOOK_B, encoding="utf-8")
         path = tmp / "entries/race/test-race.md"
-        path.write_text(ENTRY, encoding="utf-8")
+        path.write_text(entry_text, encoding="utf-8")
         row = dict.fromkeys(HEAD, "")
-        row.update(entry="ref/race/test-race", book="book-b", action="expanded_in", cited_page="31", print_page="31",
+        row.update(entry="ref/race/test-race", book="book-b", action=action, cited_page="31", print_page="31",
                    read="read p. 31", evidence="only a favored class line", via=via)
         row["class"] = klass
         dec = tmp / "decisions.tsv"
@@ -80,6 +80,28 @@ class ExpandedInTest(unittest.TestCase):
         r = self.run_apply("expands-no-via", "ref/class/test-class")
         self.assertNotEqual(r.returncode, 0)
         self.assertIn("expands-no-via", r.stderr)
+        self.assertEqual(self.path.read_text(), ENTRY)
+
+    def test_credit_after_an_earlier_removal(self):
+        gone = ENTRY.replace('source_ids = ["book-a", "book-b", "book-c"]', 'source_ids = ["book-a", "book-c"]')
+        r = self.run_apply("expands-no-via", "", action="credit", entry_text=gone)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn("credit applied: 1", r.stdout)
+        out = self.path.read_text()
+        self.assertIn('[[expanded_in]]\npublication = "book-b"\npage = "31"\n', out)
+        self.assertIn('source_ids = ["book-a", "book-c"]', out)
+        dry = subprocess.run([sys.executable, str(APPLY), str(self.corpus), "--decisions", str(self.dec), "--dry-run"],
+                             capture_output=True, text=True)
+        self.assertIn("credit already: 1", dry.stdout)
+        again = subprocess.run([sys.executable, str(APPLY), str(self.corpus), "--decisions", str(self.dec)],
+                               capture_output=True, text=True)
+        self.assertIn("credit already: 1", again.stdout)
+        self.assertEqual(self.path.read_text(), out)
+
+    def test_credit_is_refused_while_the_book_is_a_member(self):
+        r = self.run_apply("expands-no-via", "", action="credit")
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("still has book-b", r.stderr)
         self.assertEqual(self.path.read_text(), ENTRY)
 
     def test_unknown_class_is_refused(self):

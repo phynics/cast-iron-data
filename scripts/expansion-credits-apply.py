@@ -37,6 +37,10 @@ The decision file has one row per (entry, book). Its `action` column is one of
                                  options that a book prints for a race, owner ruling of
                                  2026-11-24 on #461): `via` must be empty and the row has no
                                  `via` key (docs/corpus-format.md allows it)
+  credit       the book already left `source_ids` (an earlier `remove`) and expands the entry:
+               only the `[[expanded_in]]` row is written, with the book, `cited_page` and the
+               `via` rules of the classes above (class `expands` or `expands-no-via`). Refused
+               when the book is still in `source_ids`; "already" when the entry has the credit.
   page         the book prints the entry on a different page: the `[[sources]]` page becomes
                `print_page`. Nothing else changes.
   add          the book prints the entry and the entry did not list it (class `printed-group`):
@@ -85,7 +89,7 @@ def read_decisions(path: Path) -> list[dict]:
     seen = set()
     for r in rows:
         name = f"{r['entry']} in {r['book']}"
-        if r["action"] not in ("remove", "expanded_in", "page", "add"):
+        if r["action"] not in ("remove", "expanded_in", "credit", "page", "add"):
             raise SystemExit(f"refused: unknown action {r['action']!r} for {name}")
         key = (r["entry"], r["book"])
         if key in seen:
@@ -106,7 +110,7 @@ def read_decisions(path: Path) -> list[dict]:
                 raise SystemExit(f"refused: {name} is a {r['class']} without the invalidated citation")
             if r["class"] == "mention" and not (r["mention_pages"] and r["mention_kind"]):
                 raise SystemExit(f"refused: {name} is a mention without mention_pages and mention_kind")
-        if r["action"] == "expanded_in":
+        if r["action"] in ("expanded_in", "credit"):
             if r["class"] not in EXPAND_CLASSES:
                 raise SystemExit(f"refused: {name} needs class {' or '.join(EXPAND_CLASSES)}")
             if r["class"] == "expands" and not r["via"]:
@@ -241,6 +245,22 @@ def edit_entry(root: Path, path: Path, r: dict) -> str:
                 raise SystemExit(f"refused: {r['entry']} has no page to change in {book}")
         raise SystemExit(f"refused: {r['entry']} has no [[sources]] row for {book}")
 
+    if action == "credit":
+        if book in ids:
+            raise SystemExit(f"refused: {r['entry']} still has {book} in source_ids; use action expanded_in")
+        if f'publication = "{book}"' in text.split("[fields]")[0] and "[[expanded_in]]" in text:
+            return "already"
+        block = ["[[expanded_in]]", f'publication = "{book}"']
+        if r["cited_page"]:
+            block.append(f'page = "{r["cited_page"]}"')
+        if r["via"]:
+            block.append(f'via = "{r["via"]}"')
+        end = header_end(lines)
+        at = end - 1 if end > 0 and lines[end - 1] == "" else end
+        lines[at:at] = block
+        path.write_text("\n".join(lines), encoding="utf-8")
+        return "applied"
+
     if book not in ids:
         if action == "expanded_in" and f'publication = "{book}"' not in text.split("[fields]")[0]:
             raise SystemExit(f"refused: {r['entry']} has neither {book} in source_ids nor an expanded_in row")
@@ -369,7 +389,9 @@ def main() -> int:
             raise SystemExit(f"refused: no entry file for {r['entry']}")
         if args.dry_run:
             ids = source_ids(path.read_text(encoding="utf-8"), path.name)
-            applies = r["action"] == "page" or (r["book"] in ids) == (r["action"] != "add")
+            applies = r["action"] == "page" or (r["book"] in ids) == (r["action"] not in ("add", "credit"))
+            if r["action"] == "credit":
+                applies = r["book"] not in ids and f'publication = "{r["book"]}"' not in path.read_text(encoding="utf-8").split("[fields]")[0]
             if applies and r["action"] == "remove" and r["class"] == "family-ref":
                 verify_family(root, r)
             state = "applied" if applies else "already"
