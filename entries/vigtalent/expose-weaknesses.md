@@ -1,7 +1,7 @@
 +++
 id = "ref/vigtalent/expose-weaknesses"
 kind = "class_option"
-title = "Expose Weaknesses"
+title = "Expose Weakness"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expose_weaknesses", path = "json/class_ability_vigilante_talents.json" },

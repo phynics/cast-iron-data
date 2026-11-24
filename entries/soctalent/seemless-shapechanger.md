@@ -1,7 +1,7 @@
 +++
 id = "ref/soctalent/seemless-shapechanger"
 kind = "class_option"
-title = "Seemless Shapechanger"
+title = "Seamless Shapechanger"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seemless_shapechanger", path = "json/class_ability_social_talents.json" },

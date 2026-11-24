@@ -1,7 +1,7 @@
 +++
 id = "ref/trait/demon-hunter"
 kind = "trait"
-title = "Demon Hunter"
+title = "Asmodean Demon Hunter"
 source_ids = ["advanced-players-guide", "cheliax-empire-of-devils", "ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_hunter", path = "json/traits03.json" },

@@ -1,7 +1,7 @@
 +++
 id = "ref/ragepower/flight-response"
 kind = "class_option"
-title = "Flight Response"
+title = "Fight Response"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flight_response", path = "json/class_ability_rage_powers.json" },

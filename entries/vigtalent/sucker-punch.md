@@ -1,7 +1,7 @@
 +++
 id = "ref/vigtalent/sucker-punch"
 kind = "class_option"
-title = "Sucker Punch"
+title = "Sucker-Punch"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sucker_punch", path = "json/class_ability_vigilante_talents.json" },

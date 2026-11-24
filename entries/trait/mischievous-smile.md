@@ -1,7 +1,7 @@
 +++
 id = "ref/trait/mischievous-smile"
 kind = "trait"
-title = "Mischievous Smile"
+title = "Mischievous Smite"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mischievous_smile", path = "json/traits03.json" },

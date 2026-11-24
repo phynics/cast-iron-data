@@ -20,9 +20,7 @@ attributes = [
   { label = "Proficiency", value = "Exotic Weapons" },
   { label = "Critical", value = "×2" },
   { label = "Dmg (M)", value = "1d4" },
-  { label = "Dmg (L)", value = "1d6" },
   { label = "Type", value = "P" },
-  { label = "Dmg (T)", value = "1d2" },
 ]
 +++
 
@@ -35,9 +33,7 @@ Dmg (S): 1d3
 Proficiency: Exotic Weapons
 Critical: ×2
 Dmg (M): 1d4
-Dmg (L): 1d6
 Type: P
-Dmg (T): 1d2
 :::
 
 The madu is a round, light shield with two animal horns—usually from an antelope—extending from
