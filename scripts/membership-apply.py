@@ -92,7 +92,7 @@ from collections import defaultdict
 from pathlib import Path
 
 
-PAGE_TEXT = re.compile(r"\d+(?:\s*[-\u2013]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-\u2013]\s*\d+)?)*")
+PAGE_TEXT = re.compile(r"\d+(?:\s*[-\u2013]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-\u2013]\s*\d+)?)*|inside cover")
 
 
 def read_cites(path: Path, only_kind: str | None) -> list[dict]:

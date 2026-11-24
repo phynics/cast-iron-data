@@ -2,7 +2,7 @@
 id = "ref/racial-trait/half-orc/normal-speed"
 kind = "racial_trait"
 title = "Normal Speed"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes-from-the-fringe", "bastards-of-golarion", "heroes-of-the-wild", "horror-adventures", "advanced-players-guide", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-wilderness"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/half-orc"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_orc|racial-trait:normal-speed", path = "json/races2.json" },
