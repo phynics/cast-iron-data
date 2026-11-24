@@ -2103,7 +2103,7 @@ def self_test() -> int:
     ent = Entry(Path("x.md"), "ref/x", "X", "archetype", 'id = "ref/x"\n\n[fields]\nkind = "archetype"\ntrades = [\n  { replaces = "Trapfinding", feature = "trapfinding" },\n]', "Intro.\n",
               {"fields": {"trades": [{"replaces": "Trapfinding", "feature": "trapfinding"}]}}, None, "", [])
     props = {"feature": [
-        {"anchor": "adaptation", "head": "Adaptation (Ex)", "listed": True, "print": "At 3rd level, a ranger learns a type. This ability replaces trapfinding."},
+        {"anchor": "adaptation", "head": "Adaptation (Ex)", "listed": True, "level": 3, "print": "At 3rd level, a ranger learns a type. This ability replaces trapfinding."},
         {"anchor": "aberration", "head": "Aberration", "listed": False, "parent": "adaptation", "print": "amphibious, darkvision 60 ft."},
         {"anchor": "fey", "head": "Fey", "listed": False, "parent": "adaptation", "print": "Iron Will."},
     ], "opening": []}
