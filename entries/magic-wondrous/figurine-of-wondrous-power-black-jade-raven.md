@@ -2,19 +2,13 @@
 id = "ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven"
 kind = "item"
 title = "Figurine of Wondrous Power (Black Jade Raven)"
-source_ids = ["ultimate-equipment", "core-rulebook", "aquatic-adventures", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "advanced-race-guide", "andoran-spirit-of-liberty", "elemental-masters-handbook", "ultimate-combat", "advanced-class-guide", "animal-archive", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
+source_ids = ["ultimate-equipment", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "advanced-race-guide", "ultimate-combat", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_black_jade_raven", path = "json/magic_wondrous_slotless03.json" },
 ]
 [[sources]]
 publication = "ultimate-equipment"
 page = "297-298"
-[[sources]]
-publication = "core-rulebook"
-page = "513-514"
-[[sources]]
-publication = "aquatic-adventures"
-page = "62"
 [[sources]]
 publication = "pathfinder-34-blood-for-blood"
 page = "67"
@@ -31,20 +25,8 @@ page = "54"
 publication = "advanced-race-guide"
 page = "166"
 [[sources]]
-publication = "andoran-spirit-of-liberty"
-page = "26"
-[[sources]]
-publication = "elemental-masters-handbook"
-page = "10"
-[[sources]]
 publication = "ultimate-combat"
 page = "143"
-[[sources]]
-publication = "advanced-class-guide"
-page = "236"
-[[sources]]
-publication = "animal-archive"
-page = "27"
 [[sources]]
 publication = "pathfinder-70-the-frozen-stars"
 page = "63"
