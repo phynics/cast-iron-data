@@ -2,7 +2,7 @@
 id = "ref/racial-trait/half-elf/attributes"
 kind = "racial_trait"
 title = "Attributes"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "bastards-of-golarion", "darklands-revisited", "horror-adventures", "legacy-of-dragons", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/half-elf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_elf|racial-trait:attributes", path = "json/races3.json" },
