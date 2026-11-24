@@ -177,7 +177,7 @@ ref/arc-druid/swamp-druid	Swamp Strider (Ex)	swamp-strider	yes	3	print	print		10
 ref/arc-druid/swamp-druid	Pond Scum (Ex)	pond-scum	yes	4	print	print		101	948ff1d42a7a1d3bf8c1947cfc8aeaff2b79ff45e80863a60e5f658a8059bca4
 ref/arc-druid/swamp-druid	Wild Shape (Su)	wild-shape	yes		print	print		101	a790e69ad4fd655c57b7e0a292d849c9ec8628f1c50d4840fbeee13af0bff3f0
 ref/arc-druid/swamp-druid	Slippery (Ex)	slippery	yes	13	print	print		101	1c9f4a623f67a4edf1f27bc308282ff6b325b130ef46ce6d8b07c37aa628b0e7
-ref/arc-druid/urban-druid	Spontaneous Casting	spontaneous-casting	yes		print	print		101	c42ee3c8738d40cfa180b041aadc70e8e2948f6dcd3c78df1d6250bc92ab36f8
+ref/arc-druid/urban-druid	Spontaneous Casting	spontaneous-casting	yes		print	print	trade renamed: "Spontaneous casting" to "Ability to spontaneously cast summon nature's ally spells" to match the printed sentence	101	c42ee3c8738d40cfa180b041aadc70e8e2948f6dcd3c78df1d6250bc92ab36f8
 ref/arc-druid/urban-druid	Nature Bond (Ex)	nature-bond	yes		draft	draft		101	7a046eb812f3e9e3476da8a96ebb0acd1e662dff3cfb7c55a6857ce2b1fa5c3d
 ref/arc-druid/urban-druid	Lorekeeper (Ex)	lorekeeper	yes	2	print	print		102	062d2fbe652525a809f6d53009db1a3fc117cc6f86c3f5f913a8dcc7b0454dbd
 ref/arc-druid/urban-druid	Resist Temptation (Ex)	resist-temptation	yes	4	print	print		102	b357c33e8497d295b538289c8425388c6454fbb71ff48cc2413d405cecaedfe4
@@ -292,7 +292,7 @@ ref/arc-monk/ki-mystic	Mystic Insight (Su)	mystic-insight	yes	5	print	print		111
 ref/arc-monk/ki-mystic	Mystic Visions (Su)	mystic-visions	yes	11	print	print		111	d30bca94b1c9ce3a4a7cbd4e4fa665a945bac266c816835dc07737001ad76c81
 ref/arc-monk/ki-mystic	Mystic Prescience (Su)	mystic-prescience	yes	13	print	print		111	c97235d44c5a0c444aa1fadeb06c312cd75932662b71a7be0199c054309f8cd0
 ref/arc-monk/ki-mystic	Mystic Persistence (Su)	mystic-persistence	yes	19	print	print		111	b23fe031a07ccc2f26cf7aea22c7ee9308f98e6ac4b98825e0619b6bd905807e
-ref/arc-monk/monk-of-the-empty-hand	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		print	print		111	49244f1b4f3dbb556e69ca73c7e157155de4dbf3790d2e043e7107ec5f1cf14e
+ref/arc-monk/monk-of-the-empty-hand	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		print	print	trade renamed: "Weapon proficiencies" to "Normal monk weapon proficiencies" to match the printed sentence	111	49244f1b4f3dbb556e69ca73c7e157155de4dbf3790d2e043e7107ec5f1cf14e
 ref/arc-monk/monk-of-the-empty-hand	Flurry of Blows (Ex)	flurry-of-blows	yes	1	draft	draft		111	c4ba76d5b5e4ce88901b8cf267479d1821d22a191249512415b5c7353f4972f1
 ref/arc-monk/monk-of-the-empty-hand	Bonus Feat	bonus-feat	no		print	print	print asterisks without their key dropped	111	094560f64c330ddb87ce3552be7c075f7847c67ca0440ea474485c354a29bb19
 ref/arc-monk/monk-of-the-empty-hand	Versatile Improvisation (Ex)	versatile-improvisation	yes	3	print	print		111	9bce9095b80e56606938d6e27bfc5ba786cd40c05e421a9f29c37d361af08297
@@ -407,7 +407,7 @@ ref/arc-ranger/shapeshifter	Form of the Dragon	master-shifter-form-of-the-dragon
 ref/arc-ranger/shapeshifter	Form of the Eagle	master-shifter-form-of-the-eagle	yes		draft	draft	anchor `form-of-the-eagle` occurs twice; this one is `master-shifter-form-of-the-eagle`	127	641c9f71473661d8d7aa57a3d8df9670f1f63af7da4166af4596ba304ef8f0e4
 ref/arc-ranger/shapeshifter	Form of the Jackal	master-shifter-form-of-the-jackal	yes		draft	draft	anchor `form-of-the-jackal` occurs twice; this one is `master-shifter-form-of-the-jackal`	128	ded882d5e928c1806cce0c082d6ae297508f8fe274a519721bf273060494ef1b
 ref/arc-ranger/shapeshifter	Form of the Otter	master-shifter-form-of-the-otter	yes		draft	draft	anchor `form-of-the-otter` occurs twice; this one is `master-shifter-form-of-the-otter`	128	628c23282d414a1ee0fa0b95541ad45a685b24b2afb8074f1964d9268d7d029b
-ref/arc-ranger/skirmisher	Hunter's Tricks	hunter-s-tricks	yes	5		hold	rule word: corpus - / print ['any', 'cannot', 'caster', 'completion', 'effect', 'item', 'list', 'magic', 'not', 'not', 'or', 'spell', 'spell', 'spell', 'spellcasting', 'trigger', 'use']	128	97dd792f9120bfa27343a2196422ceeaf86c90f274cd330deb801a13e7ba9516
+ref/arc-ranger/skirmisher	Hunter's Tricks	hunter-s-tricks	yes	5		hold	rule word: corpus - / print ['any', 'cannot', 'caster', 'completion', 'effect', 'item', 'list', 'magic', 'not', 'not', 'or', 'spell', 'spell', 'spell', 'spellcasting', 'trigger', 'use']; trade renamed: "Spellcasting ability" to "Spells" to match the printed sentence	128	97dd792f9120bfa27343a2196422ceeaf86c90f274cd330deb801a13e7ba9516
 ref/arc-ranger/skirmisher	Aiding Attack (Ex)	aiding-attack	yes		print	print		128	594850dfe520073fdee2240f56e0193f07deda9c0c0e783933725e2cfcb41ad6
 ref/arc-ranger/skirmisher	Bolster Companion (Ex)	bolster-companion	yes		print	print		128	36672b446ab011b33ac40020b24e2299c642fcb04533ef79103ae0816d1b23f6
 ref/arc-ranger/skirmisher	Catfall (Ex)	catfall	yes		print	print		128	5c976201138e4cb8a125b5f5a7d87baac486872c5ae7f74ae33d731ee7da727b

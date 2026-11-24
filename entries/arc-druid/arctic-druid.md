@@ -16,73 +16,60 @@ page = "98"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "arctic-native", level = 2 },
+  { anchor = "icewalking", level = 3 },
+  { anchor = "arctic-endurance", level = 4 },
+  { anchor = "wild-shape" },
+  { anchor = "snowcaster", level = 9 },
+  { anchor = "flurry-form", level = 13 },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
-  { replaces = "A thousand faces", feature = "a-thousand-faces" },
-  { alters = "Wild shape", feature = "wild-shape" },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["arctic-native"] },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["icewalking"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["arctic-endurance"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["snowcaster"] },
+  { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["flurry-form"] },
+  { alters = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
 ]
 +++
 
 An arctic druid watches over the stark landscape of the far frozen reaches of the world, tending the
 stunted and rugged life that ekes out its survival in the least habitable climes.
 
-**Arctic Native (Ex)**
+## Arctic Native (Ex) {#arctic-native}
 
-**Gained:** At 2nd Level
+At 2nd level, an arctic druid gains a bonus on Initiative checks and Knowledge (geography),
+Perception, Stealth, and Survival checks equal to 1/2 her druid level in cold or icy terrain, and
+she cannot be tracked in cold or icy terrain. This ability replaces woodland stride.
 
-**Passive:** An arctic druid gains a bonus on Initiative checks and Knowledge (geography),
-Perception, Stealth, and Survival checks equal to [half](ref/misc/fractions-and-rounding) her druid
-level in cold or icy terrain, and she cannot be tracked in cold or icy terrain.
+## Icewalking (Ex) {#icewalking}
 
-**Replaces:** Woodland stride
-
-**Icewalking (Ex)**
-
-**Gained:** At 3rd Level
-
-**Passive:** An arctic druid suffers no penalty to speed or on Acrobatics, Climb, or Stealth checks
+At 3rd level, an arctic druid suffers no penalty to speed or on Acrobatics, Climb, or Stealth checks
 in snowy or icy terrain or weather conditions and can walk across snow crusts or thin ice without
-breaking through.
+breaking through. This ability replaces trackless step.
 
-**Replaces:** Trackless step
+## Arctic Endurance (Ex) {#arctic-endurance}
 
-**Arctic Endurance (Ex)**
+At 4th level, an arctic druid ignores the effects of a cold climate as if using
+_[endure elements](ref/spell/endure-elements)_. She is also immune to being dazzled. This ability
+replaces resist nature's lure.
 
-**Gained:** At 4th Level
+## Wild Shape (Su) {#wild-shape}
 
-**Passive:** An arctic druid ignores the effects of a cold climate as if using
-[endure elements](ref/spell/endure-elements). She is also immune to being dazzled.
-
-**Replaces:** Resist nature's lure
-
-**Wild Shape (Su)**
-
-**Ability:** An arctic druid gains _wild shape,_ except that her effective druid level for this
+An arctic druid gains this ability at 6th level, except that her effective druid level for this
 ability is equal to her druid level - 2.
 
-**Alters:** Wild shape
+## Snowcaster (Su) {#snowcaster}
 
-**Gained:** At 6th Level
-
-**Snowcaster (Su)**
-
-**Ability:** An arctic druid can see normally in ice storm, sleet storm, or similar natural
+At 9th level, an arctic druid can see normally in _ice storm_, _sleet storm_, or similar natural
 snowstorms. In addition, she can prepare any druid spell with the fire subtype as a cold spell, with
-an identical effect but inflicting cold damage instead of fire damage.
+an identical effect but inflicting cold damage instead of fire damage. This ability replaces venom
+immunity.
 
-**Gained:** At 9th Level
+## Flurry Form (Ex) {#flurry-form}
 
-**Replaces:** Venom immunity
-
-**Flurry Form (Ex)**
-
-**Ability:** An arctic druid can assume the form of a swirling column of snow equivalent to
-[gaseous form](ref/spell/gaseous-form) at will. While in this form, she gains a circumstance bonus
-on Stealth checks made in cold terrain equal to her druid level.
-
-**Gained:** At 13th Level
-
-**Replaces:** A thousand faces
+At 13th level, an arctic druid can assume the form of a swirling column of snow equivalent to
+_[gaseous form](ref/spell/gaseous-form)_ at will. While in this form, she gains a circumstance bonus
+on Stealth checks made in cold terrain equal to her druid level. This ability replaces a thousand
+faces.

@@ -19,7 +19,7 @@ print = "The following rage powers complement the elemental kin archetype: [elem
 
 [[entry]]
 id = "ref/arc-bard/arcane-duelist"
-hold = "head not printed: Bonded Object; the replaces trade `Countersong` is not printed in a feature or in the opening text; the replaces trade `Versatile performance` is not printed in a feature or in the opening text; the replaces trade `well-versed` is not printed in a feature or in the opening text"
+hold = "head not printed: Bonded Object; the replaces trade `Versatile performance` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `well-versed` is not printed in a sentence, and no listed feature of that name prints it; Bonus Feats: a trade sentence under a heading that is not a feature, after the first feature"
 
 [[entry.feature]]
 anchor = "arcane-strike"
@@ -79,55 +79,7 @@ listed = false
 print = ""
 
 [[entry]]
-id = "ref/arc-bard/court-bard"
-hold = "the replaces trade `Inspire courage` is not printed in a feature or in the opening text; the replaces trade `Inspire competence` is not printed in a feature or in the opening text; the replaces trade `Dirge of doom` is not printed in a feature or in the opening text; the replaces trade `Frightening tune` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "A court bard gains the following types of bardic performance."
-
-[[entry.feature]]
-anchor = "satire"
-head = "Satire (Su)"
-listed = true
-print = "A court bard can use performance to undermine the confidence of enemies who hear it, causing them to take a -1 penalty on attack and damage rolls (minimum 1) and a -1 penalty on saves against fear and charm effects as long as the bard continues performing. This penalty increases by -1 at 5th level and every six levels thereafter. Satire is a language-dependent, mind-affecting ability that uses audible components. This performance replaces inspire courage."
-
-[[entry.feature]]
-anchor = "mockery"
-head = "Mockery (Su)"
-listed = true
-print = "A court bard of 3rd level or higher can subtly ridicule and defame a specific individual. The bard selects one target who can hear his performance. That individual takes a -2 penalty on Charisma checks and Charisma-related skill checks as long as the bard continues performing. This penalty increases by -1 every four levels after 3rd. Mockery is a language-dependent, mind-affecting ability that relies on audible components. This performance replaces inspire competence."
-
-[[entry.feature]]
-anchor = "glorious-epic"
-head = "Glorious Epic (Su)"
-listed = true
-print = "A court bard of 8th level or higher can weave captivating tales that engross those who hear them. Enemies within 30 feet become [flat-footed](ref/rule/flat-footed) unless they succeed at a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier). A save renders them immune to this ability for 24 hours. Glorious epic is a language-dependent, mind-affecting ability that uses audible components. This performance replaces dirge of doom."
-
-[[entry.feature]]
-anchor = "scandal"
-head = "Scandal (Su)"
-listed = true
-print = "A court bard of 14th level or higher can combine salacious gossip and biting calumny to incite a riot. Each enemy within 30 feet is affected as if by a _[song of discord](ref/spell/song-of-discord)_ for as long as it can hear the performance. A successful Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect, and that creature is immune to this ability for 24 hours. Scandal is a language-dependent, mind-affecting ability that uses audible components. This performance replaces frightening tune."
-
-[[entry.feature]]
-anchor = "heraldic-expertise"
-head = "Heraldic Expertise (Ex)"
-listed = true
-print = "A court bard gains a bonus equal to half his bard level on Diplomacy, Knowledge (history), Knowledge (local), and Knowledge (nobility) checks (minimum +1). Once per day, the court bard can also reroll a check against one of these skills, though he must take the result of the second roll even if it is worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This ability replaces bardic knowledge."
-
-[[entry.feature]]
-anchor = "wide-audience"
-head = "Wide Audience (Su)"
-listed = true
-level = 5
-print = "At 5th level, a court bard can choose to affect a 60-foot cone instead of a 30-foot radius with bardic performances that affect an area. In addition, for every five levels beyond 5th, the area of such powers is increased by 10 feet (radius) or 20 feet (cone). If the power instead affects multiple creatures, it affects one additional creature than normal for every five levels beyond 5th. This does not affect powers that affect only a single creature. This ability replaces lore master and jack of all trades."
-
-[[entry]]
 id = "ref/arc-bard/detective"
-hold = "the replaces trade `Inspire courage` is not printed in a feature or in the opening text; the replaces trade `Inspire greatness` is not printed in a feature or in the opening text; the replaces trade `Inspire heroics` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "bardic-performance"
@@ -176,7 +128,7 @@ print = "In addition, a detective's class spell list includes the following: 1st
 
 [[entry]]
 id = "ref/arc-bard/magician"
-hold = "head not printed: Arcane Bond: Bonded Object; the replaces trade `Dirge of doom` is not printed in a feature or in the opening text; the replaces trade `Frightening tune` is not printed in a feature or in the opening text"
+hold = "head not printed: Arcane Bond: Bonded Object"
 
 [[entry.feature]]
 anchor = "bardic-performance"
@@ -252,7 +204,6 @@ print = ""
 
 [[entry]]
 id = "ref/arc-bard/sandman"
-hold = "the replaces trade `Inspire courage` is not printed in a feature or in the opening text; the replaces trade `Suggestion` is not printed in a feature or in the opening text; the replaces trade `Inspire heroics` is not printed in a feature or in the opening text; the replaces trade `Mass suggestion` is not printed in a feature or in the opening text; the replaces trade `Deadly performance` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "bardic-performance"
@@ -329,7 +280,6 @@ print = "At 5th level, a sandman inflicts +1d6 points of damage against targets 
 
 [[entry]]
 id = "ref/arc-bard/savage-skald"
-hold = "the replaces trade `Fascinate` is not printed in a feature or in the opening text; the replaces trade `Suggestion` is not printed in a feature or in the opening text; the replaces trade `Jack of all trades` is not printed in a feature or in the opening text; the replaces trade `Soothing performance` is not printed in a feature or in the opening text; the replaces trade `Mass suggestion` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "bardic-performance"
@@ -372,64 +322,7 @@ level = 18
 print = "At 18th level, a savage skald can affect all allies within 30 feet when using performance to incite rage. This performance replaces mass suggestion."
 
 [[entry]]
-id = "ref/arc-bard/sea-singer"
-hold = "the replaces trade `Countersong` is not printed in a feature or in the opening text; the replaces trade `Inspire competence` is not printed in a feature or in the opening text; the replaces trade `Suggestion` is not printed in a feature or in the opening text; the replaces trade `Mass suggestion` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "A sea singer gains the following types of bardic performance."
-
-[[entry.feature]]
-anchor = "sea-shanty"
-head = "Sea Shanty (Su)"
-listed = true
-print = "A sea singer learns to counter seasickness and exhaustion during long sea voyages. Each round of a sea shanty, he makes a Perform skill check. Allies within 30 feet (including the sea singer) may use his Perform check in place of a saving throw against becoming exhausted, fatigued, nauseated, or sickened; if already under such an effect, a new save is allowed each round of the sea shanty, using the bard's Perform check for the save. A sea shanty has no effect on instantaneous effects or effects that do not allow saves. This ability requires audible components. This performance replaces countersong."
-
-[[entry.feature]]
-anchor = "still-water"
-head = "Still Water (Su)"
-listed = true
-level = 3
-print = "At 3rd level, a sea singer can use performance to calm rough waters within 30 feet, reducing the DC for Profession (sailor) and Swim checks, as well as for Acrobatics and Climb checks aboard ship, by an amount equal to the bard's level (to a minimum of DC 10) for as long he continues to perform. He can extend this duration to 1 hour by playing for 10 consecutive rounds. This ability requires audible components. This performance replaces inspire competence."
-
-[[entry.feature]]
-anchor = "whistle-the-wind"
-head = "Whistle the Wind (Su)"
-listed = true
-print = "A sea singer of 6th level or higher can use performance to create a _[gust of wind](ref/spell/gust-of-wind)_. This wind lasts for as long as he continues his performance. He can extend this duration to 1 minute by playing for 5 consecutive rounds. This performance replaces suggestion."
-
-[[entry.feature]]
-anchor = "call-the-storm"
-head = "Call the Storm (Su)"
-listed = true
-level = 18
-print = "At 18th level, a sea singer can use performance to duplicate _[control water](ref/spell/control-water), [control weather](ref/spell/control-weather), [control winds](ref/spell/control-winds),_ or _[storm of vengeance](ref/spell/storm-of-vengeance)_, using his bard level as the caster level. Using this ability requires 1 round of continuous performance per level of the spell (as if he were a [druid](ref/class/druid)). These effects continue for as long as the bard continues performing (the effects of _[control weather](ref/spell/control-weather)_ happen immediately), but not longer than the spell's normal duration. This performance replaces mass suggestion."
-
-[[entry.feature]]
-anchor = "world-traveler"
-head = "World Traveler (Ex)"
-listed = true
-print = "A sea singer gains a bonus equal to [half](ref/misc/fractions-and-rounding) his bard level on Knowledge (geography), Knowledge (local), Knowledge (nature), and Linguistics checks. He can reroll a check against one of these skills, but must take the result of the second roll even if it is worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This ability replaces bardic knowledge."
-
-[[entry.feature]]
-anchor = "familiar"
-head = "Familiar"
-listed = true
-level = 2
-print = "At 2nd level, a sea singer acquires an exotic pet—a [monkey](ref/monster/familiar-monkey) or parrot (treat as [raven](ref/monster/familiar-raven))—that gains abilities as a wizard's [familiar](ref/ability/familiars), using the sea singer's bard level as his wizard level. This ability replaces versatile performance."
-
-[[entry.feature]]
-anchor = "sea-legs"
-head = "Sea Legs (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a sea singer gains a +4 bonus on saving throws against air and water effects and effects that would cause the sea singer to slip, trip, or otherwise be knocked [prone](ref/rule/prone). He gains a +2 bonus to CMD against grapple, overrun, and trip. This ability replaces well-versed."
-
-[[entry]]
 id = "ref/arc-bard/street-performer"
-hold = "the replaces trade `Inspire courage` is not printed in a feature or in the opening text; the replaces trade `Inspire competence` is not printed in a feature or in the opening text; the replaces trade `Inspire greatness` is not printed in a feature or in the opening text; the replaces trade `Inspire heroics` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "bardic-performance"
@@ -484,104 +377,8 @@ level = 5
 print = "At 5th level, a street performer can don a disguise as a standard action by taking a -5 penalty on his check. He can take 10 on Bluff and Disguise checks and use Bluff to create a diversion to hide as a swift action. He can take 20 on a Bluff or Disguise check once per day, plus one time per six levels beyond 5th. This ability replaces lore master."
 
 [[entry]]
-id = "ref/arc-druid/aquatic-druid"
-hold = "the alters trade `Wild empathy` is not printed in a feature or in the opening text; the alters trade `Wild shape` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "wild-empathy"
-head = "Wild Empathy (Ex)"
-listed = true
-print = "An aquatic druid's wild empathy functions only on creatures that have a swim speed or the aquatic or water subtype; however, she can improve the attitude of any such creature with Intelligence 2 or less regardless of type, including mindless creatures."
-
-[[entry.feature]]
-anchor = "aquatic-adaptation"
-head = "Aquatic Adaptation (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, an aquatic druid gains an insight bonus on Initiative checks and Knowledge (geography), Perception, Stealth, Survival, and Swim checks equal to 1/2 her druid level in aquatic terrain, and she cannot be tracked such environments. This ability replaces woodland stride."
-
-[[entry.feature]]
-anchor = "natural-swimmer"
-head = "Natural Swimmer (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, an aquatic druid gains a swim speed equal to half her land speed. This ability replaces trackless step."
-
-[[entry.feature]]
-anchor = "resist-ocean-s-fury"
-head = "Resist Ocean's Fury (Ex)"
-listed = true
-level = 4
-print = "At 4th level, an aquatic druid gains a +4 bonus on saving throws against spells of the water type or the exceptional or supernatural abilities of creatures with the aquatic or water subtype. This ability replaces resist nature's lure."
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-print = "An aquatic druid gains this ability at 6th level, except that her effective druid level for the ability is equal to her druid level - 2."
-
-[[entry.feature]]
-anchor = "seaborn"
-head = "Seaborn (Ex)"
-listed = true
-level = 9
-print = "At 9th level, an [aquatic](ref/subtype/aquatic) druid gains the aquatic subtype, the [amphibious](ref/umr/amphibious) trait, and a swim speed equal to her land speed. She also can endure cold climate effects as if using _[endure elements](ref/spell/endure-elements)_. This ability replaces venom immunity."
-
-[[entry.feature]]
-anchor = "deep-diver"
-head = "Deep Diver (Ex)"
-listed = true
-level = 13
-print = "At 13th level, an aquatic druid gains DR/slashing or piercing equal to 1/2 her level. This [damage reduction](ref/rule/damage-reduction) also applies against spells and [spell-like abilities](ref/umr/spell-like-abilities) that inflict damage by grappling or crushing (e.g., _[black tentacles](ref/spell/black-tentacles)_, _[crushing hand](ref/spell/crushing-hand)_). She never takes [pressure damage](ref/rule/water-dangers) from deep water. This ability replaces a thousand faces."
-
-[[entry]]
-id = "ref/arc-druid/arctic-druid"
-hold = "the alters trade `Wild shape` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "arctic-native"
-head = "Arctic Native (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, an arctic druid gains a bonus on Initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks equal to 1/2 her druid level in cold or icy terrain, and she cannot be tracked in cold or icy terrain. This ability replaces woodland stride."
-
-[[entry.feature]]
-anchor = "icewalking"
-head = "Icewalking (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, an arctic druid suffers no penalty to speed or on Acrobatics, Climb, or Stealth checks in snowy or icy terrain or weather conditions and can walk across snow crusts or thin ice without breaking through. This ability replaces trackless step."
-
-[[entry.feature]]
-anchor = "arctic-endurance"
-head = "Arctic Endurance (Ex)"
-listed = true
-level = 4
-print = "At 4th level, an arctic druid ignores the effects of a cold climate as if using _[endure elements](ref/spell/endure-elements)_. She is also immune to being dazzled. This ability replaces resist nature's lure."
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-print = "An arctic druid gains this ability at 6th level, except that her effective druid level for this ability is equal to her druid level - 2."
-
-[[entry.feature]]
-anchor = "snowcaster"
-head = "Snowcaster (Su)"
-listed = true
-level = 9
-print = "At 9th level, an arctic druid can see normally in _ice storm_, _sleet storm_, or similar natural snowstorms. In addition, she can prepare any druid spell with the fire subtype as a cold spell, with an identical effect but inflicting cold damage instead of fire damage. This ability replaces venom immunity."
-
-[[entry.feature]]
-anchor = "flurry-form"
-head = "Flurry Form (Ex)"
-listed = true
-level = 13
-print = "At 13th level, an arctic druid can assume the form of a swirling column of snow equivalent to _[gaseous form](ref/spell/gaseous-form)_ at will. While in this form, she gains a circumstance bonus on Stealth checks made in cold terrain equal to her druid level. This ability replaces a thousand faces."
-
-[[entry]]
 id = "ref/arc-druid/bear-shaman"
-hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the replaces trade `Venom immunity` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
+hold = "the replaces trade `Woodland stride` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `Venom immunity` is not printed in a sentence, and no listed feature of that name prints it; Bonus Feat: a trade sentence under a heading that is not a feature, after the first feature"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -623,45 +420,7 @@ listed = false
 print = "At 9th level and every 4 levels thereafter, a bear shaman gains one of the following bonus feats: [Diehard](ref/feat/diehard), Endurance, [Great Fortitude](ref/feat/great-fortitude), [Improved Great Fortitude](ref/feat/improved-great-fortitude), [Toughness](ref/feat/toughness). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 
 [[entry]]
-id = "ref/arc-druid/blight-druid"
-hold = "the alters trade `Nature bond` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "nature-bond"
-head = "Nature Bond (Ex)"
-listed = true
-print = "A blight druid may not bond with an animal companion, but may either call a [familiar](ref/sidekick/familiar) as a [wizard](ref/class/wizard) of her druid level or select from the Darkness, Death, and [Destruction](ref/domain/destruction) domains in addition to those normally available."
-
-[[entry.feature]]
-anchor = "vermin-empathy"
-head = "Vermin Empathy (Su)"
-listed = true
-print = "A blight druid can improve the attitude of vermin as a normal druid can with animals. Vermin have a starting attitude of unfriendly. The blight druid can also improve the attitude of animals and mindless undead creatures that were formerly animals, but she takes a -4 penalty on the check unless the animal or undead has a disease special attack. This ability replaces wild empathy."
-
-[[entry.feature]]
-anchor = "miasma"
-head = "Miasma (Ex)"
-listed = true
-level = 5
-print = "Starting at 5th level, if a blight druid is adjacent to a creature at the beginning of its turn, the creature must succeed at a Fortitude save with a DC of 10 + 1/2 the druid's level + the druid's Wisdom modifier or become [sickened](ref/misc/sickened) for 1 round. A creature of the animal, fey, or plant type that fails its save is [nauseated](ref/misc/nauseated) for 1 round and sickened for 1 minute thereafter. If the creature makes its save, it is immune to this effect for 24 hours, as are creatures immune to disease. This ability replaces trackless step and resist nature's lure."
-
-[[entry.feature]]
-anchor = "blightblooded"
-head = "Blightblooded (Ex)"
-listed = true
-level = 9
-print = "At 9th level, a blight druid gains immunity to all diseases, including natural and supernatural diseases. She also becomes immune to effects that would cause her to become sickened or nauseated. This ability replaces venom immunity."
-
-[[entry.feature]]
-anchor = "plaguebearer"
-head = "Plaguebearer (Su)"
-listed = true
-level = 13
-print = "Starting at 13th level, any creature that strikes a blight druid with a touch attack, unarmed strike, or natural weapon must succeed at a Fortitude save with a DC of 10 + 1/2 the druid's level + the druid's Wisdom modifier or contract a disease, as the _[contagion](ref/spell/contagion)_ spell. If the creature makes its save, it is immune to this effect for 24 hours. This ability replaces a thousand faces."
-
-[[entry]]
 id = "ref/arc-druid/cave-druid"
-hold = "the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text; the alters trade `Wild shape` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "cavesense"
@@ -710,7 +469,6 @@ print = "A cave druid gains this ability at 6th level, except that her effective
 
 [[entry]]
 id = "ref/arc-druid/desert-druid"
-hold = "the alters trade `Wild shape` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "desert-native"
@@ -755,7 +513,7 @@ print = "At 13th level, a desert druid can assume the form of a swirling mass of
 
 [[entry]]
 id = "ref/arc-druid/eagle-shaman"
-hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
+hold = "the replaces trade `Woodland stride` is not printed in a sentence, and no listed feature of that name prints it; Bonus Feat: a trade sentence under a heading that is not a feature, after the first feature"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -797,45 +555,8 @@ listed = false
 print = "At 9th level and every 4 levels thereafter, an eagle shaman gains one of the following bonus feats: Flyby Attack, Improved Lightning Reflexes, Lightning Reflexes, Skill Focus (Perception), or Wind Stance. She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 
 [[entry]]
-id = "ref/arc-druid/jungle-druid"
-hold = "the alters trade `Wild shape` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "jungle-guardian"
-head = "Jungle Guardian (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a jungle druid gains a bonus on Initiative checks and Climb, Knowledge (geography), Perception, Stealth, and Survival checks equal to 1/2 her druid level in jungle terrain, and she cannot be tracked in such environments. This ability replaces woodland stride."
-
-[[entry.feature]]
-anchor = "woodland-stride"
-head = "Woodland Stride (Ex)"
-listed = true
-print = "A jungle druid gains this ability at 3rd level. This ability replaces trackless step."
-
-[[entry.feature]]
-anchor = "torrid-endurance"
-head = "Torrid Endurance (Ex)"
-listed = true
-level = 4
-print = "At 4th level, a jungle druid ignores the effects of a hot climate as if under the effects of _[endure elements](ref/spell/endure-elements)_. She also gains a +4 bonus on saves against disease and the exceptional abilities of animals and magical beasts. This ability replaces resist nature's lure."
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-print = "A jungle druid gains this ability at 6th level, except that her effective druid level for the ability is equal to her druid level - 2."
-
-[[entry.feature]]
-anchor = "verdant-sentinel"
-head = "Verdant Sentinel (Ex)"
-listed = true
-level = 13
-print = "At 13th level, a jungle druid can cast _[tree shape](ref/spell/tree-shape)_ at will. This ability replaces a thousand faces."
-
-[[entry]]
 id = "ref/arc-druid/lion-shaman"
-hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the replaces trade `Venom immunity` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
+hold = "the replaces trade `Woodland stride` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `Venom immunity` is not printed in a sentence, and no listed feature of that name prints it; Bonus Feat: a trade sentence under a heading that is not a feature, after the first feature"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -877,98 +598,8 @@ listed = false
 print = "At 9th level and every 4 levels thereafter, a lion shaman gains one of the following bonus feats: [Dodge](ref/feat/dodge), [Lunge](ref/feat/lunge), [Improved Iron Will](ref/feat/improved-iron-will), [Iron Will](ref/feat/iron-will), or [Skill Focus](ref/feat/skill-focus) (Acrobatics). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
 
 [[entry]]
-id = "ref/arc-druid/mountain-druid"
-hold = "the alters trade `Wild shape` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "mountaineer"
-head = "Mountaineer (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a mountain druid gains a bonus on Initiative checks and Climb, Knowledge (geography), Perception, Stealth, and Survival checks equal to [half](ref/misc/fractions-and-rounding) her druid level in mountainous terrain, and she cannot be tracked in such an environment. This ability replaces woodland stride."
-
-[[entry.feature]]
-anchor = "sure-footed"
-head = "Sure-Footed (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, a mountain druid suffers no penalty to speed or on Acrobatics or Stealth checks when walking across steep slopes, rubble, or scree. This ability replaces trackless step."
-
-[[entry.feature]]
-anchor = "spire-walker"
-head = "Spire Walker (Ex)"
-listed = true
-level = 4
-print = "At 4th level, a mountain druid does not lose her Dexterity bonus when climbing. A mountain druid is immune to [altitude sickness](ref/rule/mountain-travel) and ignores the effects of a cold climate as if under the effects of _[endure elements](ref/spell/endure-elements)_. This ability replaces resist nature's lure."
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-print = "A mountain druid gains this ability at 6th level, except that her effective druid level for the ability is equal to her druid level - 2. A mountain druid cannot use wild shape to adopt a plant form. However, at 12th level she can assume the form of a Large giant as if using _[giant form I](ref/spell/giant-form-1)_. At 16th level, she may assume the form of a Huge giant as if using _[giant form II](ref/spell/giant-form-2)_."
-
-[[entry.feature]]
-anchor = "mountain-stance"
-head = "Mountain Stance (Ex)"
-listed = true
-level = 9
-print = "At 9th level, a mountain druid gains immunity to petrification and receives a +4 bonus on saving throws or to CMD to resist any attempt to push, pull, bull rush, or drag her, or to resist any other effect that would physically move her from her position (e.g., _[repel wood](ref/spell/repel-wood), [reverse gravity](ref/spell/reverse-gravity),_ or being blown away by high winds). This does not protect her against being tripped, grappled, or overrun. This ability replaces venom immunity."
-
-[[entry.feature]]
-anchor = "mountain-stone"
-head = "Mountain Stone (Ex)"
-listed = true
-level = 13
-print = "At 13th level, a mountain druid can transform her body into a weathered stone outcrop and back at will. This effect functions as _[statue](ref/spell/statue)_. This ability replaces a thousand faces."
-
-[[entry]]
-id = "ref/arc-druid/plains-druid"
-hold = "the alters trade `Wild shape` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "plains-traveler"
-head = "Plains Traveler (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a plains druid gains a bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks equal to 1/2 her druid level in plains terrain, and she cannot be tracked in such an environment. This ability replaces woodland stride."
-
-[[entry.feature]]
-anchor = "run-like-the-wind"
-head = "Run Like the Wind (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, a plains druid gains +10 feet to her land speed when wearing light or no armor and carrying a light load, and once per hour, she may [run](ref/rule/run) or [charge](ref/rule/charge) at double the normal speed for 1 round. If riding her animal companion, it gains this ability instead. This ability replaces trackless step."
-
-[[entry.feature]]
-anchor = "savanna-ambush"
-head = "Savanna Ambush (Ex)"
-listed = true
-level = 4
-print = "At 4th level, a plains druid gains [concealment](ref/rule/concealment) whenever she is [prone](ref/rule/prone) in natural surroundings, and can make Stealth checks at no penalty when prone and not moving or at -5 when crawling. A plains druid can stand up from prone as an immediate action during a surprise round. This ability replaces resist nature's lure."
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-print = "A plains druid gains this ability at 6th level, except that her effective druid level for the ability is equal to her druid level - 2."
-
-[[entry.feature]]
-anchor = "canny-charger"
-head = "Canny Charger (Ex)"
-listed = true
-level = 9
-print = "At 9th level, a plains druid can charge through allies' squares without difficulty (whether mounted or afoot) and can turn up to 90 degrees once during a charge, provided the last 10 feet toward the target are in a straight line. She also gains a +4 dodge bonus to AC against enemy charge attacks and a +4 bonus to damage with a [readied action](ref/rule/ready) against a charging foe. This ability replaces venom immunity."
-
-[[entry.feature]]
-anchor = "evasion"
-head = "Evasion (Ex)"
-listed = true
-level = 13
-print = "At 13th level, a plains druid gains [evasion](ref/ability/evasion) when wearing light or no armor and carrying a light load. This functions as the [rogue](ref/class/rogue) ability of the same name. This ability replaces a thousand faces."
-
-[[entry]]
 id = "ref/arc-druid/serpent-shaman"
-hold = "head not printed: Serpent Shaman Venom; the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the replaces trade `Venom immunity` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
+hold = "head not printed: Serpent Shaman Venom; the replaces trade `Woodland stride` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `Venom immunity` is not printed in a sentence, and no listed feature of that name prints it; Bonus Feat: a trade sentence under a heading that is not a feature, after the first feature"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -1016,46 +647,7 @@ listed = false
 print = ""
 
 [[entry]]
-id = "ref/arc-druid/swamp-druid"
-hold = "the alters trade `Wild shape` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "marshwight"
-head = "Marshwight (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a swamp druid gains a bonus on Initiative checks and Knowledge (geography), Perception, Stealth, Swim, and Survival checks equal to 1/2 her druid level in swamp terrain, and she cannot be tracked in such an environment. This ability replaces woodland stride."
-
-[[entry.feature]]
-anchor = "swamp-strider"
-head = "Swamp Strider (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, a swamp druid suffers no penalty to speed or on Acrobatics or Stealth checks in bogs and undergrowth. This ability replaces trackless step."
-
-[[entry.feature]]
-anchor = "pond-scum"
-head = "Pond Scum (Ex)"
-listed = true
-level = 4
-print = "At 4th level, a swamp druid gains a +4 bonus on saves against disease and the exceptional, supernatural, and [spell-like abilities](ref/umr/spell-like-abilities) of monstrous humanoids. A swamp druid also gains DR/— equal to half her druid level against attacks by swarms. If this damage resistance prevents damage, the druid is unaffected by distraction or other special attacks of the swarm. This ability replaces resist nature's lure."
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-print = "A swamp druid gains this ability at 6th level, except that her effective druid level for the ability is equal to her druid level - 2."
-
-[[entry.feature]]
-anchor = "slippery"
-head = "Slippery (Ex)"
-listed = true
-level = 13
-print = "At 13th level, a swamp druid gains continuous _[freedom of movement](ref/spell/freedom-of-movement)_. This ability replaces a thousand faces."
-
-[[entry]]
 id = "ref/arc-druid/urban-druid"
-hold = "the replaces trade `Spontaneous casting` is not printed in a feature or in the opening text; Spontaneous Casting: the sentence \"This ability replaces the ability to spontaneously cast summon nature's ally spells\" names no trade"
 
 [[entry.feature]]
 anchor = "spontaneous-casting"
@@ -1104,7 +696,7 @@ print = "At 9th level, an urban druid gains immunity to charm and compulsion eff
 
 [[entry]]
 id = "ref/arc-druid/wolf-shaman"
-hold = "the replaces trade `Woodland stride` is not printed in a feature or in the opening text; the replaces trade `Wild shape` is not printed in a feature or in the opening text; the replaces trade `Venom immunity` is not printed in a feature or in the opening text; the alters trade `Nature bond` is not printed in a feature or in the opening text; the alters trade `Wild empathy` is not printed in a feature or in the opening text"
+hold = "the replaces trade `Woodland stride` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `Venom immunity` is not printed in a sentence, and no listed feature of that name prints it; Bonus Feat: a trade sentence under a heading that is not a feature, after the first feature"
 
 [[entry.feature]]
 anchor = "nature-bond"
@@ -1147,7 +739,6 @@ print = "At 9th level and every 4 levels thereafter, a wolf shaman gains one of 
 
 [[entry]]
 id = "ref/arc-fighter/archer"
-hold = "the alters trade `Weapon mastery` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "hawkeye"
@@ -1209,7 +800,6 @@ print = "An archer must choose a type of bow."
 
 [[entry]]
 id = "ref/arc-fighter/crossbowman"
-hold = "the alters trade `Weapon mastery` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "deadshot"
@@ -1377,7 +967,6 @@ print = "At 20th level, a phalanx fighter's shield cannot be [disarmed](ref/rule
 
 [[entry]]
 id = "ref/arc-fighter/polearm-master"
-hold = "the alters trade `Weapon mastery` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "pole-fighting"
@@ -1570,50 +1159,6 @@ level = 13
 print = "At 13th level, a hungry ghost monk gains 1 [temporary hit point](ref/rule/temporary-hit-points) each time he hits an enemy with a melee attack. The monk gains a number of temporary hit points equal to his Wisdom modifier when he scores a critical hit. The maximum number of temporary hit points the monk can have is equal to his monk level. The temporary hit points disappear 1 hour later. The monk can only use this ability when he has at least 1 _ki_ point in his _ki_ pool. This ability is a proscribed manipulation of _ki_ considered by many good monks to be a corruption. This ability replaces diamond soul."
 
 [[entry]]
-id = "ref/arc-monk/monk-of-the-empty-hand"
-hold = "the replaces trade `Weapon proficiencies` is not printed in a feature or in the opening text; the alters trade `Flurry of blows` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "weapon-and-armor-proficiency"
-head = "Weapon and Armor Proficiency"
-listed = false
-print = "Monks of the empty hand are proficient with the [shuriken](ref/eq-weapon/shuriken) only. A monk of the empty hand treats normal weapons as [improvised weapons](ref/misc/improvised-weapons) with the following equivalencies (substituting all of their statistics for the listed weapon): a light weapon functions as a [light hammer](ref/eq-weapon/light-hammer), a one-handed weapon functions as a [club](ref/eq-weapon/club), and a two-handed weapon functions as a [quarterstaff](ref/eq-weapon/quarterstaff). This replaces the normal monk weapon proficiencies."
-
-[[entry.feature]]
-anchor = "flurry-of-blows"
-head = "Flurry of Blows (Ex)"
-listed = true
-level = 1
-print = "Starting at 1st level, a monk of the empty hand can make a flurry of blows using any combination of unarmed strikes or attacks with an improvised weapon. He may not make a flurry of blows with any other weapons, including special monk weapons. A monk of the empty hand's flurry of blows otherwise functions as normal for a monk of his level."
-
-[[entry.feature]]
-anchor = "bonus-feat"
-head = "Bonus Feat"
-listed = false
-print = "A monk of the empty hand adds the following feats to his list of bonus feats at 6th level: [Improved Dirty Trick](ref/feat/improved-dirty-trick), [Improved Steal](ref/feat/improved-steal), and [Improvised Weapon Mastery](ref/feat/improvised-weapon-mastery)."
-
-[[entry.feature]]
-anchor = "versatile-improvisation"
-head = "Versatile Improvisation (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, as a swift action, a monk of the empty hand may use an improvised weapon to deal damage as if it were another type (bludgeoning, piercing, or slashing) for 1 round, regardless of the weapon's normal damage type. This ability replaces still mind."
-
-[[entry.feature]]
-anchor = "ki-pool"
-head = "Ki Pool (Su)"
-listed = true
-level = 4
-print = "At 4th level, in addition to the normal abilities of his _ki_ pool, a monk of the empty hand may spend 1 point from his _ki_ pool to increase the range increment for an improvised thrown weapon or shuriken by 20 feet for 1 round."
-
-[[entry.feature]]
-anchor = "ki-weapons"
-head = "Ki Weapons (Su)"
-listed = true
-level = 5
-print = "At 5th level, a monk of the empty hand may spend 1 point from his _ki_ pool as a swift action to deal damage equal to his unarmed strike damage with an improvised weapon for 1 round. At 11th level, the monk may spend _ki_ to grant an enhancement bonus or magical weapon abilities to an improvised weapon for 1 round, at the rate of 1 point of _ki_ per +1 bonus or its equivalent. The monk may not spend more than 3 points of _ki_ at one time for this purpose. For example, a monk can spend 2 points of _ki_ to give his improvised weapon a +1 enhancement bonus and the _[ki focus](ref/magic-enh/ki-focus)_ quality, or just the _[flaming burst](ref/magic-enh/flaming-burst)_ quality. At 15th level, the limit increases to 5 _ki_ per round. The monk may use this ability to add magical weapon qualities to improvised weapons that could not normally have such a quality, such as adding the _[disruption](ref/magic-enh/disruption)_ quality to a slashing weapon, or the _[vorpal](ref/magic-enh/vorpal)_ quality to a bludgeoning weapon. This ability replaces purity of body and diamond body."
-
-[[entry]]
 id = "ref/arc-monk/monk-of-the-four-winds"
 
 [[entry.feature]]
@@ -1681,31 +1226,6 @@ level = 20
 print = "At 20th level, a monk of the four winds no longer ages. He remains in his current age category forever. Even if the monk comes to a violent end, he spontaneously _[reincarnates](ref/spell/reincarnate)_ (as the spell) 24 hours later in a place of his choosing within 20 miles of the place he died. The monk must have visited the place in which he returns back to life at least once. This ability replaces perfect self."
 
 [[entry]]
-id = "ref/arc-monk/monk-of-the-healing-hand"
-hold = "Ki Sacrifice (Su): the app's sentence reader does not read \"replaces both ...\""
-
-[[entry.feature]]
-anchor = "ancient-healing-hand"
-head = "Ancient Healing Hand (Su)"
-listed = true
-level = 7
-print = "At 7th level, a monk of the healing hand can heal another creature's wounds with a touch. As a full-round action, the monk can spend 2 _ki_ points to heal a number of hit points equal to the monk's level. He needs at least one hand free to use this ability, and cannot heal himself. If the action is interrupted, the subject heals no hit points, and the _ki_ points are lost. This ability replaces wholeness of body."
-
-[[entry.feature]]
-anchor = "ki-sacrifice"
-head = "Ki Sacrifice (Su)"
-listed = true
-level = 11
-print = "At 11th level, a monk of the healing hand can use his entire _ki_ pool to bring a person back to life. It takes 1 hour to perform this ritual. At the end of the ritual, the monk sacrifices all of his _ki_ in order to cast _[raise dead](ref/spell/raise-dead)_ (as the spell) with a caster level equal to his monk level. The ritual uses all of the _ki_ in the monk's _ki_ pool; the monk must have at least 6 points of _ki_ in his _ki_ pool to use this ability. At 15th level, the monk may sacrifice his _ki_ to cast _[resurrection](ref/spell/resurrection)_. The monk must have at least 8 points of _ki_ in his _ki_ pool to use this ability. These rituals do not require material components. When this ability is used, the monk's _ki_ pool is not replenished until 24 hours have passed. This ability replaces both diamond body and quivering palm."
-
-[[entry.feature]]
-anchor = "true-sacrifice"
-head = "True Sacrifice (Su)"
-listed = true
-level = 20
-print = "At 20th level, in a final selfless act, a monk of the healing hand can draw in his entire _ki_, which then explodes outward in a 50-foot-radius [emanation](ref/misc/emanation). All dead allies within the emanation are brought back to life, as if they were the subject of a _[true resurrection](ref/spell/true-resurrection)_ spell with a caster level equal to the monk's level. When the monk does this, he is truly and utterly destroyed. A monk destroyed in this way can never come back to life, not even by way of a _[wish](ref/spell/wish)_ or _[miracle](ref/spell/miracle)_ spell or by the power of a deity. Furthermore, the monk's name can never be spoken or written down again. All written mentions of his name become nothing more than a blank space. This ability replaces perfect self."
-
-[[entry]]
 id = "ref/arc-monk/monk-of-the-lotus"
 
 [[entry.feature]]
@@ -1738,7 +1258,7 @@ print = "At 17th level, a monk of the lotus gains all [Knowledge](ref/skill/know
 
 [[entry]]
 id = "ref/arc-monk/zen-archer"
-hold = "the replaces trade `The monk's normal bonus feats` is not printed in a feature or in the opening text; the alters trade `Flurry of blows` is not printed in a feature or in the opening text; the alters trade `Ki pool` is not printed in a feature or in the opening text"
+hold = "the replaces trade `The monk's normal bonus feats` is not printed in a sentence, and no listed feature of that name prints it"
 
 [[entry.feature]]
 anchor = "weapon-and-armor-proficiency"
@@ -1844,7 +1364,6 @@ print = "At 5th level, instead of forming a divine bond with her weapon or a mou
 
 [[entry]]
 id = "ref/arc-paladin/hospitaler"
-hold = "the alters trade `Smite evil` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "smite-evil"
@@ -1867,7 +1386,6 @@ print = "At 11th level, a hospitaler can expend one use of her channel positive 
 
 [[entry]]
 id = "ref/arc-paladin/sacred-servant"
-hold = "the alters trade `Divine bond` is not printed in a feature or in the opening text"
 
 [[entry.feature]]
 anchor = "smite-evil"
@@ -1898,30 +1416,6 @@ head = "Call Celestial Ally (Sp)"
 listed = true
 level = 8
 print = "At 8th level, a sacred servant can call upon her deity for aid, in the form of a powerful servant. This allows the sacred servant to cast _lesser [planar ally](ref/spell/planar-ally)_ once per week as a [spell-like ability](ref/umr/spell-like-abilities) without having to pay the material component cost or the servant (for reasonable tasks). At 12th level, this improves to _planar ally_ and at 16th level, this improves to _[greater planar ally](ref/spell/planar-ally-greater)_. The sacred servant's caster level for this effect is equal to her paladin level. This ability replaces aura of resolve."
-
-[[entry]]
-id = "ref/arc-paladin/shining-knight"
-hold = "the alters trade `Divine bond` is not printed in a feature or in the opening text"
-
-[[entry.feature]]
-anchor = "skilled-rider"
-head = "Skilled Rider (Ex and Su)"
-listed = true
-level = 3
-print = "At 3rd level, a shining knight does not take any penalty to her Ride skill due to her armor check penalty. In addition, any mount she is riding gains the benefit of her divine grace class feature, adding her Charisma bonus (if any) to its saving throws. This ability replaces divine health."
-
-[[entry.feature]]
-anchor = "divine-bond"
-head = "Divine Bond (Su)"
-listed = true
-print = "Upon reaching 5th level, a shining knight must form a bond with a mount. This ability otherwise functions as the paladin ability."
-
-[[entry.feature]]
-anchor = "knight-s-charge"
-head = "Knight's Charge (Su)"
-listed = true
-level = 11
-print = "At 11th level, whenever a mounted shining knight charges a foe, her movement does not provoke attacks of opportunity, for either her or her mount. In addition, if her target is also the target of her smite evil ability and the charge attack hits, the target must make a Will save or be [panicked](ref/misc/panicked) for a number of rounds equal to 1/2 the shining knight's level. The DC of this save is equal to 10 + 1/2 the shining knight's level + the shining knight's Charisma modifier. This ability replaces aura of justice."
 
 [[entry]]
 id = "ref/arc-paladin/warrior-of-the-holy-light"
@@ -2284,7 +1778,6 @@ print = "The ranger's hands and feet grow webs, and his body grows an oily fur t
 
 [[entry]]
 id = "ref/arc-ranger/skirmisher"
-hold = "the replaces trade `Spellcasting ability` is not printed in a feature or in the opening text; Hunter's Tricks: the sentence \"This ability replaces the ranger's spells class feature\" names no trade"
 
 [[entry.feature]]
 anchor = "hunter-s-tricks"

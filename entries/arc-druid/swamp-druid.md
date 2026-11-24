@@ -16,12 +16,19 @@ page = "100"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "marshwight", level = 2 },
+  { anchor = "swamp-strider", level = 3 },
+  { anchor = "pond-scum", level = 4 },
+  { anchor = "wild-shape" },
+  { anchor = "slippery", level = 13 },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "A thousand faces", feature = "a-thousand-faces" },
-  { alters = "Wild shape", feature = "wild-shape" },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["marshwight"] },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["swamp-strider"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["pond-scum"] },
+  { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["slippery"] },
+  { alters = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
 ]
 +++
 
@@ -29,50 +36,31 @@ Some druids eschew pleasant glades and groves and instead seek out dank marshes,
 heaths, and trackless swamps as the place they call home and watch over with care, finding beauty
 and life in abundance in places few others would willingly enter.
 
-**Marshwight (Ex)**
+## Marshwight (Ex) {#marshwight}
 
-**Gained:** At 2nd Level
+At 2nd level, a swamp druid gains a bonus on Initiative checks and Knowledge (geography),
+Perception, Stealth, Swim, and Survival checks equal to 1/2 her druid level in swamp terrain, and
+she cannot be tracked in such an environment. This ability replaces woodland stride.
 
-**Passive:** A swamp druid gains a bonus on Initiative checks and Knowledge (geography), Perception,
-Stealth, Swim, and Survival checks equal to [half](ref/misc/fractions-and-rounding) her druid level
-in swamp terrain, and she cannot be tracked in such an environment.
+## Swamp Strider (Ex) {#swamp-strider}
 
-**Replaces:** Woodland stride
+At 3rd level, a swamp druid suffers no penalty to speed or on Acrobatics or Stealth checks in bogs
+and undergrowth. This ability replaces trackless step.
 
-**Swamp Strider (Ex)**
+## Pond Scum (Ex) {#pond-scum}
 
-**Gained:** At 3rd Level
-
-**Passive:** A swamp druid suffers no penalty to speed or on Acrobatics or Stealth checks in bogs
-and undergrowth.
-
-**Replaces:** Trackless step
-
-**Pond Scum (Ex)**
-
-**Gained:** At 4th Level
-
-**Passive:** A swamp druid gains a +4 bonus on saves against disease and the exceptional,
+At 4th level, a swamp druid gains a +4 bonus on saves against disease and the exceptional,
 supernatural, and [spell-like abilities](ref/umr/spell-like-abilities) of monstrous humanoids. A
-swamp druid also gains DR/- equal to half her druid level against attacks by swarms. If this damage
+swamp druid also gains DR/— equal to half her druid level against attacks by swarms. If this damage
 resistance prevents damage, the druid is unaffected by distraction or other special attacks of the
-swarm.
+swarm. This ability replaces resist nature's lure.
 
-**Replaces:** Resist nature's lure
+## Wild Shape (Su) {#wild-shape}
 
-**Wild Shape (Su)**
+A swamp druid gains this ability at 6th level, except that her effective druid level for the ability
+is equal to her druid level - 2.
 
-**Ability:** A swamp druid gains _wild shape,_ except that her effective druid level for this
-ability is equal to her druid level - 2.
+## Slippery (Ex) {#slippery}
 
-**Alters:** Wild shape
-
-**Gained:** At 6th Level
-
-**Slippery (Ex)**
-
-**Gained:** At 13th Level
-
-**Passive:** A swamp druid gains continuous [freedom of movement](ref/spell/freedom-of-movement).
-
-**Replaces:** A thousand faces
+At 13th level, a swamp druid gains continuous
+_[freedom of movement](ref/spell/freedom-of-movement)_. This ability replaces a thousand faces.
