@@ -16,9 +16,13 @@ page = "74"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "divine-purpose", level = 4 },
+  { anchor = "divine-epiphany", level = 8 },
+]
 trades = [
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["divine-purpose"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["divine-epiphany"] },
 ]
 +++
 
@@ -29,27 +33,25 @@ disreputable holy thieves serve purely as mercenaries. At the other end of spect
 sanctified rogues adhere to the tenets of their faith with fanatical devotion. Regardless, all seem
 blessed with the ability to call upon divine favor to aid them in times of need.
 
-**Divine Purpose (Su)**
+## Divine Purpose (Su) {#divine-purpose}
 
-**Flavor:** The favor of a deity or religious institution grants a special blessing on a sanctified
-rogue, shoring up some of her weaknesses.
+At 4th level, the favor of a deity or religious institution grants a special blessing on a
+sanctified rogue, shoring up some of her weaknesses. She gains a +1 sacred bonus on Fortitude and
+Will saving throws. This ability replaces uncanny dodge.
 
-**Gained:** At 4th Level
+## Divine Epiphany (Su) {#divine-epiphany}
 
-**Passive:** She gains a +1 sacred bonus on Fortitude and Will saving throws.
+At 8th level, once per day, a sanctified rogue can peer into the immediate future and predict the
+results of a specific action as if she had cast an _[augury](ref/spell/augury)_ spell. The caster
+level of this spell is equal to the sanctified rogue's rogue class level. This ability replaces
+improved uncanny dodge.
 
-**Replaces:** Uncanny dodge
+## Rogue Talents {#rogue-talents}
 
-**Divine Epiphany (Su)**
+The following rogue talents complement the sanctified rogue archetype: esoteric scholar, major
+magic, and minor magic.
 
-**Ability:** Once per day, a sanctified rogue can peer into the immediate future and predict the
-results of a specific action as if she had cast an [augury](ref/spell/augury) spell. The caster
-level of this spell is equal to the sanctified rogue's rogue class level.
+## Advanced Talents {#advanced-talents}
 
-**Gained:** At 8th Level
-
-**Replaces:** Improved uncanny dodge
-
-**These rogue talents complement this archetype:** Esoteric scholar, major magic, minor magic
-
-**These advanced rogue talents complement this archetype:** Feat, skill mastery
+The following advanced rogue talents complement the sanctified rogue archetype: feat and skill
+mastery.
