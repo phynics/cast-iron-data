@@ -16,61 +16,95 @@ page = "103"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "nature-bond" },
-  { anchor = "wild-empathy" },
-  { anchor = "totem-transformation", level = 2 },
-  { anchor = "totemic-summons", level = 5 },
-  { anchor = "wild-shape", level = 6 },
-  { anchor = "bonus-feat", level = 9 },
-]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride", by = ["totem-transformation"] },
-  { replaces = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
-  { replaces = "Venom immunity", feature = "venom-immunity", by = ["bonus-feat"] },
-  { alters = "Nature bond", feature = "nature-bond", by = ["nature-bond"] },
-  { alters = "Wild empathy", feature = "wild-empathy", by = ["wild-empathy"] },
+  { replaces = "Woodland stride", feature = "woodland-stride" },
+  { replaces = "Wild shape", feature = "wild-shape" },
+  { replaces = "Venom immunity", feature = "venom-immunity" },
+  { alters = "Nature bond", feature = "nature-bond" },
+  { alters = "Wild empathy", feature = "wild-empathy" },
 ]
 +++
 
 A shaman with this totem calls upon the proud lion, imposing and majestic, the mighty leader of
 deadly hunters.
 
-## Nature Bond {#nature-bond}
+**Nature Bond**
 
-A [lion](ref/companion/cat-big) shaman who chooses an [animal](ref/domain/animal) companion must
-select a lion. If choosing a domain, the lion shaman must choose from the Animal, Glory, Nobility,
-and [Sun](ref/domain/sun) domains.
+**Alters:** Nature bond
 
-## Wild Empathy (Ex) {#wild-empathy}
+**Choice:** A lion shaman who chooses an animal companion must select a
+[lion](ref/companion/cat-big). If choosing a domain, the lion shaman must choose from the
+[Animal](ref/domain/animal), Glory, Nobility, and [Sun](ref/domain/sun) domains.
 
-A lion shaman can use wild empathy with felines as a full-round action with a +4 bonus.
+**Wild Empathy (Ex)**
 
-## Totem Transformation (Su) {#totem-transformation}
+**Ability:** A lion shaman can use _wild empathy_ with felines as a **full-round action** with a +4
+bonus.
 
-At 2nd level, a lion shaman may adopt an aspect of the lion while retaining her normal form. This
-ability functions as the bear shaman ability, but the druid may select from the following bonuses:
-movement (+20 enhancement bonus to land speed), senses
-([low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent)), or
-[natural weapons](ref/umr/natural-attacks) (bite \[1d4\], 2 claws \[1d4\] for a Medium druid, rake,
-+2 CMB to grapple). While using totem transformation, the lion shaman may speak normally and can
-cast _[speak with animals](ref/spell/speak-with-animals)_ (felines only) at will.
+**Alters:** Wild empathy
 
-## Totemic Summons (Su) {#totemic-summons}
+**Totem Transformation (Su)**
 
-At 5th level, a lion shaman may cast _[summon nature's ally](ref/spell/summon-natures-ally)_ as a
-standard action when summoning felines, and these summoned creatures gain
-[temporary hit points](ref/rule/temporary-hit-points) equal to her druid level. This ability
-otherwise functions as the bear shaman ability.
+**Action:** Standard Action
 
-## Wild Shape (Su) {#wild-shape}
+**At 12th Level:** This becomes a **swift action**.
 
-At 6th level, a lion shaman's wild shape ability functions at her druid level - 2. If she takes on
-the form of a feline, she instead uses her druid level + 2.
+**At 7th Level:** This becomes a **move action**.
 
-## Bonus Feat {#bonus-feat}
+**Gained:** At 2nd Level
 
-At 9th level and every 4 levels thereafter, a lion shaman gains one of the following bonus feats:
-[Dodge](ref/feat/dodge), [Lunge](ref/feat/lunge), [Improved Iron Will](ref/feat/improved-iron-will),
-[Iron Will](ref/feat/iron-will), or [Skill Focus](ref/feat/skill-focus) (Acrobatics). She must meet
-the prerequisites for these bonus feats. This ability replaces venom immunity.
+**Replaces:** Woodland stride
+
+**Special:** This is a polymorph effect and cannot be used while the druid is using another
+polymorph effect, such as _wild shape._
+
+**Usage:** 1 minute/day per druid level; these minutes need not be consecutive, but must be spent in
+1-minute increments
+
+A lion shaman may adopt an aspect of the lion while retaining her normal form. The druid may select
+from the following bonuses:
+
+- **Movement** (+20 enhancement bonus to land speed)
+- **Senses** ([low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent))
+- **[Natural weapons](ref/umr/natural-attacks)** (bite \[1d4\], 2 claws \[1d4\] for a Medium druid,
+  rake, +2 CMB to grapple)
+
+While using _totem transformation,_ the lion shaman may speak normally and can cast
+[speak with animals](ref/spell/speak-with-animals) (felines only) at will.
+
+**Totemic Summons (Su)**
+
+**Gained:** At 5th Level
+
+**Standard:** A lion shaman may cast [summon nature's ally](ref/spell/summon-natures-ally) to summon
+felines, and these summoned creatures gain [temporary hit points](ref/rule/temporary-hit-points)
+equal to her druid level. She can apply the [young](ref/template/young) template to any feline to
+reduce the level of the summoning spell required by one. She can also increase the level of
+summoning required by one in order to apply either the [advanced](ref/template/advanced) or the
+[giant](ref/template/giant) template, or increase it by two to apply both the advanced and giant
+templates.
+
+**Wild Shape (Su)**
+
+**Gained:** At 6th Level
+
+**Passive:** A lion shaman gains _wild shape,_ but the ability functions at her druid level - 2. If
+she takes on the form of a feline, she instead uses her druid level + 2.
+
+**Replaces:** Wild shape
+
+**Bonus Feat**
+
+**Ability:** A lion shaman gains one of the following bonus feats: [Dodge](ref/feat/dodge),
+[Lunge](ref/feat/lunge), [Improved Iron Will](ref/feat/improved-iron-will),
+[Iron Will](ref/feat/iron-will), or [Skill Focus](ref/feat/skill-focus) (Acrobatics).
+
+**At 13th Level:** The druid gains another feat from the list above.
+
+**At 17th Level:** The druid gains a third bonus feat from the list above.
+
+**Gained:** At 9th Level
+
+**Replaces:** Venom immunity
+
+**Special:** She must meet the prerequisites for these bonus feats.

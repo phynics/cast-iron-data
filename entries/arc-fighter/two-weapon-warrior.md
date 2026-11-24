@@ -16,25 +16,15 @@ page = "109"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "defensive-flurry", level = 3 },
-  { anchor = "twin-blades", level = 5 },
-  { anchor = "doublestrike", level = 9 },
-  { anchor = "improved-balance", level = 11 },
-  { anchor = "equal-opportunity", level = 13 },
-  { anchor = "perfect-balance", level = 15 },
-  { anchor = "deft-doublestrike", level = 17 },
-  { anchor = "deadly-defense", level = 19 },
-]
 trades = [
-  { replaces = "Armor training 1 and 2", feature = "armor-training", levels = [3, 7], by = ["defensive-flurry"] },
-  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5], by = ["twin-blades"] },
-  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9], by = ["doublestrike"] },
-  { replaces = "Armor training 3", feature = "armor-training", levels = [11], by = ["improved-balance"] },
-  { replaces = "Weapon training 3", feature = "weapon-training", levels = [13], by = ["equal-opportunity"] },
-  { replaces = "Armor training 4", feature = "armor-training", levels = [15], by = ["perfect-balance"] },
-  { replaces = "Weapon training 4", feature = "weapon-training", levels = [17], by = ["deft-doublestrike"] },
-  { replaces = "Armor mastery", feature = "armor-mastery", by = ["deadly-defense"] },
+  { replaces = "Armor training 1 and 2", feature = "armor-training", levels = [3, 7] },
+  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5] },
+  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9] },
+  { replaces = "Armor training 3", feature = "armor-training", levels = [11] },
+  { replaces = "Weapon training 3", feature = "weapon-training", levels = [13] },
+  { replaces = "Armor training 4", feature = "armor-training", levels = [15] },
+  { replaces = "Weapon training 4", feature = "weapon-training", levels = [17] },
+  { replaces = "Armor mastery", feature = "armor-mastery" },
 ]
 +++
 
@@ -42,53 +32,93 @@ Trained under great masters who preached the simple truth that two are better th
 to weapons, the two-weapon warrior is a terror when his hands are full. From paired daggers to
 exotic double weapons, all combinations come equally alive in his skilled hands.
 
-## Defensive Flurry (Ex) {#defensive-flurry}
+**Defensive Flurry (Ex)**
 
-At 3rd level, when a two-weapon warrior makes a [full attack](ref/rule/full-attack) with both
+**Gained:** At 3rd Level
+
+**Passive:** When a two-weapon warrior makes a [full attack](ref/rule/full-attack) with both
 weapons, he gains a +1 dodge bonus to AC against melee attacks until the beginning of his next turn.
-This bonus increases by +1 every four levels after 3rd. This ability replaces armor training 1
-and 2.
 
-## Twin Blades (Ex) {#twin-blades}
+**Replaces:** Armor training 1 and 2
 
-At 5th level, a two-weapon warrior gains a +1 bonus on attack and damage rolls when making a full
-attack with two weapons or a double weapon. This bonus increases by +1 for every four levels after
-5th. This ability replaces weapon training 1.
+At 7th level: This bonus increases to +2.
 
-## Doublestrike (Ex) {#doublestrike}
+At 11th level: This bonus increases to +3.
 
-At 9th level, a two-weapon warrior may, as a standard action, make one attack with both his primary
-and secondary weapons. The penalties for [attacking with two weapons](ref/rule/two-weapon-fighting)
-apply normally. This ability replaces weapon training 2.
+At 15th level: This bonus increases to +4.
 
-## Improved Balance (Ex) {#improved-balance}
+At 19th level: This bonus increases to +5.
 
-At 11th level, the attack penalties for fighting with two weapons are reduced by -1 for a two-weapon
+**Twin Blades (Ex)**
+
+**Gained:** At 5th Level
+
+**Passive:** A two-weapon warrior gains a +1 bonus on attack and damage rolls when making a full
+attack with two weapons or a double weapon.
+
+**Replaces:** Weapon training 1
+
+At 9th level: This bonus increases to +2.
+
+At 13th level: This bonus increases to +3.
+
+At 17th level: This bonus increases to +4.
+
+**Doublestrike (Ex)**
+
+**Gained:** At 9th Level
+
+**Replaces:** Weapon training 2
+
+**Standard:** A two-weapon warrior may make one attack with both his primary and secondary weapons.
+The penalties for [attacking with two weapons](ref/rule/two-weapon-fighting) apply normally.
+
+**Improved Balance (Ex)**
+
+**Gained:** At 11th Level
+
+**Passive:** The attack penalties for fighting with two weapons are reduced by -1 for a two-weapon
 warrior. Alternatively, he may use a one-handed weapon in his off-hand, treating it as if it were a
-light weapon with the normal light weapon penalties. This ability replaces armor training 3.
+light weapon with the normal light weapon penalties.
 
-## Equal Opportunity (Ex) {#equal-opportunity}
+**Replaces:** Armor training 3
 
-At 13th level, when a two-weapon warrior makes an attack of opportunity, he may attack once with
-both his primary and secondary weapons. The penalties for attacking with two weapons apply normally.
-This ability replaces weapon training 3.
+**Equal Opportunity (Ex)**
 
-## Perfect Balance (Ex) {#perfect-balance}
+**Ability:** When a two-weapon warrior makes an attack of opportunity, he may attack once with both
+his primary and secondary weapons. The penalties for attacking with two weapons apply normally.
 
-At 15th level, the penalties for fighting with two weapons are reduced by an additional -1 for a
-two-weapon warrior. This benefit stacks with improved balance. If he is using a one-handed weapon in
-his off hand, treating it as a light weapon, he uses the normal light weapon penalties. This ability
-replaces armor training 4.
+**Gained:** At 13th Level
 
-## Deft Doublestrike (Ex) {#deft-doublestrike}
+**Replaces:** Weapon training 3
 
-At 17th level, when a two-weapon warrior hits an opponent with both weapons, he can make a
+**Perfect Balance (Ex)**
+
+**Gained:** At 15th Level
+
+**Passive:** The penalties for fighting with two weapons are reduced by an additional -1 for a
+two-weapon warrior. This benefit stacks with _improved balance._ If he is using a one-handed weapon
+in his off hand, treating it as a light weapon, he uses the normal light weapon penalties.
+
+**Replaces:** Armor training 4
+
+**Deft Doublestrike (Ex)**
+
+**Immediate:** When a two-weapon warrior hits an opponent with both weapons, he can make a
 [disarm](ref/rule/disarm) or [sunder](ref/rule/sunder) attempt (or [trip](ref/rule/trip), if one or
-both weapons can be used to trip) against that opponent as an immediate action that does not provoke
-attacks of opportunity. This ability replaces weapon training 4.
+both weapons can be used to trip) against that opponent, and it does not provoke attacks of
+opportunity.
 
-## Deadly Defense (Ex) {#deadly-defense}
+**Gained:** At 17th Level
 
-At 19th level, when a two-weapon warrior makes a full attack with both weapons, every creature that
+**Replaces:** Weapon training 4
+
+**Deadly Defense (Ex)**
+
+**Gained:** At 19th Level
+
+**Passive:** When a two-weapon warrior makes a full attack with both weapons, every creature that
 hits him with a melee attack before the beginning of his next turn provokes an attack of opportunity
-from the warrior. This ability replaces armor mastery.
+from the warrior.
+
+**Replaces:** Armor mastery

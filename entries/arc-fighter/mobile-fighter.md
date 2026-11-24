@@ -16,54 +16,78 @@ page = "105"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "agility", level = 2 },
-  { anchor = "leaping-attack", level = 5 },
-  { anchor = "rapid-attack", level = 11 },
-  { anchor = "fleet-footed", level = 15 },
-  { anchor = "whirlwind-blitz", level = 20 },
-]
 trades = [
-  { replaces = "Bravery", feature = "bravery", by = ["agility"] },
-  { replaces = "Weapon training 1, 2, 3, and 4", feature = "weapon-training", levels = [5, 9, 13, 17], by = ["leaping-attack"] },
-  { replaces = "Armor training 3", feature = "armor-training", levels = [11], by = ["rapid-attack"] },
-  { replaces = "Armor training 4", feature = "armor-training", levels = [15], by = ["fleet-footed"] },
-  { replaces = "Weapon mastery", feature = "weapon-mastery", by = ["whirlwind-blitz"] },
+  { replaces = "Bravery", feature = "bravery" },
+  { replaces = "Weapon training 1, 2, 3, and 4", feature = "weapon-training", levels = [5, 9, 13, 17] },
+  { replaces = "Armor training 3", feature = "armor-training", levels = [11] },
+  { replaces = "Armor training 4", feature = "armor-training", levels = [15] },
+  { replaces = "Weapon mastery", feature = "weapon-mastery" },
 ]
 +++
 
 Where some fighters focus on strength and raw power, the mobile fighter relies on swiftness and
 mobility, gliding across the battlefield like a steel whirlwind and leaving destruction in his wake.
 
-## Agility (Ex) {#agility}
+**Agility (Ex)**
 
-At 2nd level, a mobile fighter gains a +1 bonus on saving throws made against effects that cause him
+**Gained:** At 2nd Level
+
+**Passive:** A mobile fighter gains a +1 bonus on saving throws made against effects that cause him
 to become [paralyzed](ref/rule/paralyzed), [slowed](ref/spell/slow), or
-[entangled](ref/rule/entangled). This bonus increases by +1 for every four levels beyond 2nd. This
-ability replaces bravery.
+[entangled](ref/rule/entangled).
 
-## Leaping Attack (Ex) {#leaping-attack}
+**Replaces:** Bravery
 
-At 5th level, when a mobile fighter moves at least 5 feet prior to attacking, he gains a +1 bonus on
-attack and damage rolls. This bonus increases by +1 for every four levels beyond 5th. This ability
-replaces weapon training 1, 2, 3, and 4.
+At 6th level: This bonus increases to +2.
 
-## Rapid Attack (Ex) {#rapid-attack}
+At 10th level: This bonus increases to +3.
 
-At 11th level, a mobile fighter can combine a [full attack](ref/rule/full-attack) action with a
-single move. He must forgo the attack at his highest bonus but may take the remaining attacks at any
-point during his movement. This movement provokes attacks of opportunity as normal. This ability
-replaces armor training 3.
+At 14th level: This bonus increases to +4.
 
-## Fleet Footed (Ex) {#fleet-footed}
+At 18th level: This bonus increases to +5.
 
-At 15th level, the mobile fighter's speed increases by 10 feet. He can
+**Leaping Attack (Ex)**
+
+**Gained:** At 5th Level
+
+**Passive:** When a mobile fighter moves at least 5 feet prior to attacking, he gains a +1 bonus on
+attack and damage rolls.
+
+**Replaces:** Weapon training 1, 2, 3, and 4
+
+At 9th level: This bonus increases to +2.
+
+At 13th level: This bonus increases to +3.
+
+At 17th level: This bonus increases to +4.
+
+**Rapid Attack (Ex)**
+
+**Ability:** A mobile fighter can combine a [full attack](ref/rule/full-attack) action with a single
+move. He must forgo the attack at his highest bonus but may take the remaining attacks at any point
+during his movement. This movement provokes attacks of opportunity as normal.
+
+**Gained:** At 11th Level
+
+**Replaces:** Armor training 3
+
+**Fleet Footed (Ex)**
+
+**Ability:** The mobile fighter's speed increases by 10 feet. He can
 [take 10](ref/rule/taking-10-and-taking-20) on Acrobatics checks even while distracted or
-threatened, and can take 20 on an Acrobatics check once per day for every five fighter levels he
-possesses. This ability replaces armor training 4.
+threatened, and can take 20 on an Acrobatics check three times per day.
 
-## Whirlwind Blitz (Ex) {#whirlwind-blitz}
+**At 20th Level:** He can take 20 four times a day.
 
-At 20th level, a mobile fighter can make a full-attack action as a standard action. He may also use
-the [Whirlwind Attack](ref/feat/whirlwind-attack) feat as a standard action. This ability replaces
-weapon mastery.
+**Gained:** At 15th Level
+
+**Replaces:** Armor training 4
+
+**Whirlwind Blitz (Ex)**
+
+**Gained:** At 20th Level
+
+**Replaces:** Weapon mastery
+
+**Standard:** A mobile fighter can make a full-attack action. He may also use the
+[Whirlwind Attack](ref/feat/whirlwind-attack) feat as a **standard action**.

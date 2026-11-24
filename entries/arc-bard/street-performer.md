@@ -16,90 +16,109 @@ page = "85"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "bardic-performance" },
-  { anchor = "disappearing-act" },
-  { anchor = "harmless-performer", level = 3 },
-  { anchor = "madcap-prank", level = 9 },
-  { anchor = "slip-through-the-crowd", level = 15 },
-  { anchor = "gladhanding" },
-  { anchor = "streetwise" },
-  { anchor = "quick-change", level = 5 },
-]
 trades = [
-  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage", by = ["disappearing-act"] },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["harmless-performer"] },
-  { replaces = "Inspire greatness", feature = "bardic-performance", power = "inspire greatness", by = ["madcap-prank"] },
-  { replaces = "Inspire heroics", feature = "bardic-performance", power = "inspire heroics", by = ["slip-through-the-crowd"] },
-  { replaces = "Countersong", feature = "bardic-performance", power = "countersong", by = ["gladhanding"] },
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["streetwise"] },
-  { replaces = "Lore master", feature = "lore-master", by = ["quick-change"] },
+  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage" },
+  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
+  { replaces = "Inspire greatness", feature = "bardic-performance", power = "inspire greatness" },
+  { replaces = "Inspire heroics", feature = "bardic-performance", power = "inspire heroics" },
+  { replaces = "Countersong", feature = "bardic-performance", power = "countersong" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
+  { replaces = "Lore master", feature = "lore-master" },
 ]
 +++
 
 Whether acrobat, troubadour, or thespian, the street performer mixes with the masses, singing for
 his supper.
 
-## Bardic Performance {#bardic-performance}
+**Bardic Performance**
 
-A street performer gains the following types of bardic performance.
+**Info:** A street performer gains the following types of bardic performance.
 
-## Disappearing Act (Su) {#disappearing-act}
+**Disappearing Act (Su)**
 
-A street performer can use performance to divert attention from an ally. All creatures within 30
-feet that fail a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) treat one
-creature chosen by the bard as if it were _[invisible](ref/rule/invisible)_. This performance
-affects one additional creature at 5th level and every 6 levels thereafter. If the targets take any
-action that would cause them to become visible, they become visible to everyone. The bard cannot use
-this ability on himself. This ability is a mind-affecting effect that requires visual components.
-This performance replaces inspire courage.
+**At 1st Level:** A street performer can use performance to divert attention from an ally. All
+creatures within 30 feet that fail a Will save (DC 10 + [half](ref/misc/fractions-and-rounding) the
+bard's level + the bard's Cha modifier) treat one creature chosen by the bard as if it were
+[invisible](ref/rule/invisible).
 
-## Harmless Performer (Su) {#harmless-performer}
+**At 11th Level:** The bard can render three allies invisible.
 
-At 3rd level, a street performer can use performance to appear meek and unworthy of being attacked.
-While using this performance, whenever an enemy targets the street performer, the enemy must succeed
-at a Will save (DC 10 + 1/2 the bard's level + the bard's Cha bonus) or be unable to attack the bard
-this round, as per _[sanctuary](ref/spell/sanctuary)_. The enemy loses the attack that targeted the
-bard, but may spend additional attacks targeting other creatures. If the opponent was targeting the
-street performer with a spell, it must succeed at a [concentration](ref/rule/concentration) check at
-the same DC or lose the spell. If this check succeeds, it may target another creature with the spell
-instead. This mind-affecting ability requires audible or visual components. This performance
-replaces inspire competence.
+**At 17th Level:** The bard can now affect four allies.
 
-## Madcap Prank (Su) {#madcap-prank}
+**At 5th Level:** This performance now affects two allies.
 
-At 9th level, a street performer can use performance to discomfit a target within 30 feet, causing
-its clothing to become tangled, its headgear to fall down over its eyes, or even causing it to slip
-and fall or otherwise be made to appear a fool. The target must make a Reflex save (DC 10 + 1/2 the
-bard's level + the bard's Cha modifier) each round that it hears or sees the performance, or it
-takes one of the following random effects each round: 1—[blinded](ref/misc/blinded),
-2—[dazzled](ref/misc/dazzled), 3—[deafened](ref/misc/deafened), 4—[entangled](ref/rule/entangled),
-5—fall [prone](ref/rule/prone), 6—[nauseated](ref/misc/nauseated). Each effect lasts 1 round. This
-performance replaces inspire greatness.
+**Replaces:** Inspire courage
 
-## Slip through the Crowd (Su) {#slip-through-the-crowd}
+**Special:** If the targets take any action that would cause them to become visible, they become
+visible to everyone. The bard cannot use this ability on himself. This ability is a mind-affecting
+effect that requires visual components.
 
-At 15th level, a street performer's disappearing act enables affected creatures to move through
+**Harmless Performer (Su)**
+
+**At 3rd Level:** A street performer can use performance to appear meek and unworthy of being
+attacked. While using this performance, whenever an enemy targets the street performer, the enemy
+must succeed at a Will save (DC 10 + 1/2 the bard's level + the bard's Cha bonus) or be unable to
+attack the bard this round, as per [sanctuary](ref/spell/sanctuary). The enemy loses the attack that
+targeted the bard, but may spend additional attacks targeting other creatures. If the opponent was
+targeting the street performer with a spell, it must succeed at a
+[concentration](ref/rule/concentration) check at the same DC or lose the spell. If this check
+succeeds, it may target another creature with the spell instead.
+
+**Replaces:** Inspire competence
+
+**Special:** This mind-affecting ability requires audible or visual components.
+
+**Madcap Prank (Su)**
+
+**At 9th Level:** A street performer can use performance to discomfit a target within 30 feet,
+causing its clothing to become tangled, its headgear to fall down over its eyes, or even causing it
+to slip and fall or otherwise be made to appear a fool. The target must make a Reflex save (DC 10 +
+1/2 the bard's level + the bard's Cha modifier) each round that it hears or sees the performance, or
+it takes one of the following random effects each round: 1-[blinded](ref/misc/blinded),
+2-[dazzled](ref/misc/dazzled), 3-[deafened](ref/misc/deafened), 4-[entangled](ref/rule/entangled),
+5-fall [prone](ref/rule/prone), 6-[nauseated](ref/misc/nauseated). Each effect lasts 1 round.
+
+**Replaces:** Inspire greatness
+
+**Slip through the Crowd (Su)**
+
+**At 15th Level:** A street performer's disappearing act enables affected creatures to move through
 crowd squares and enemy-occupied squares without impediment. Affected creatures are treated as if
-having _[greater invisibility](ref/spell/invisibility-greater)_, but enemies gain a new saving throw
-to notice them each time they are attacked. This performance replaces inspire heroics.
+having [greater invisibility](ref/spell/invisibility-greater), but enemies gain a new saving throw
+to notice them each time they are attacked.
 
-## Gladhanding {#gladhanding}
+**Replaces:** Inspire heroics
 
-A street performer earns double the normal amount of money from [Perform](ref/skill/perform-any)
-checks. As a standard action, he may use a Bluff check in place of a Diplomacy check to improve a
-creature's attitude for 1 minute, after which its attitude becomes one step worse than originally.
-This ability replaces countersong.
+**Gladhanding**
 
-## Streetwise {#streetwise}
+**Ability:** A street performer earns double the normal amount of money from
+[Perform](ref/skill/perform-any) checks.
 
-A street performer gains a bonus equal to half his level on Bluff, Disguise, Knowledge (local), and
-Sleight of Hand checks, Diplomacy or Intimidate checks made to influence crowds, and Diplomacy
-checks to gather information (minimum +1). This replaces bardic knowledge.
+**Replaces:** Countersong
 
-## Quick Change (Ex) {#quick-change}
+**Standard:** He may use a Bluff check in place of a Diplomacy check to improve a creature's
+attitude for 1 minute, after which its attitude becomes one step worse than originally.
 
-At 5th level, a street performer can don a disguise as a standard action by taking a -5 penalty on
-his check. He can take 10 on Bluff and Disguise checks and use Bluff to create a diversion to hide
-as a swift action. He can take 20 on a Bluff or Disguise check once per day, plus one time per six
-levels beyond 5th. This ability replaces lore master.
+**Streetwise**
+
+**Passive:** A street performer gains a bonus equal to half his level on Bluff, Disguise, Knowledge
+(local), and Sleight of Hand checks, Diplomacy or Intimidate checks made to influence crowds, and
+Diplomacy checks to gather information (minimum +1).
+
+**Replaces:** Bardic knowledge
+
+**Quick Change (Ex)**
+
+**Ability:** He can Take 20 on a Bluff or Disguise check once per day.
+
+**At 11th Level:** He can Take 20 twice a day.
+
+**At 17th Level:** He can Take 20 three times a day.
+
+**Gained:** At 5th Level
+
+**Replaces:** Lore master
+
+**Standard:** A street performer can don a disguise by taking a -5 penalty on his check.
+
+**Swift:** He can take 10 on Bluff and Disguise checks and use Bluff to create a diversion to hide.

@@ -1375,18 +1375,27 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
 
 
 def contained_in_longer(phrase: str, trades: list[dict], i: int) -> bool:
-    """Whether the phrase names a longer stored trade of the same op that holds the name of trade `i` ("replaces
-    mass suggestion" names `Mass suggestion`, so it does not also name `Suggestion`)."""
+    """Whether every place where the phrase names trade `i` lies inside the name of a longer stored trade of the
+    same op ("replaces mass suggestion" names `Mass suggestion`, so it does not also name `Suggestion`; "replaces
+    quarry and improved quarry" names both, because `quarry` stands once outside `improved quarry`)."""
     op, name = trade_name(trades[i])
     mine = phrase_tokens(ABILITY_TAG.sub("", name))
+    p = phrase_tokens(phrase)
+
+    def spans(tokens_: list[str]) -> list[tuple[int, int]]:
+        return [(k, k + len(tokens_)) for k in range(len(p) - len(tokens_) + 1) if p[k:k + len(tokens_)] == tokens_]
+
+    own = spans(mine)
+    if not own:
+        return False
+    longer: list[tuple[int, int]] = []
     for j, other in enumerate(trades):
         if j == i or trade_name(other)[0] != op:
             continue
         theirs = phrase_tokens(ABILITY_TAG.sub("", trade_name(other)[1]))
-        if len(theirs) > len(mine) and any(theirs[k:k + len(mine)] == mine for k in range(len(theirs) - len(mine) + 1)) \
-                and covers(phrase, trade_name(other)[1]):
-            return True
-    return False
+        if len(theirs) > len(mine) and any(theirs[k:k + len(mine)] == mine for k in range(len(theirs) - len(mine) + 1)):
+            longer += spans(theirs)
+    return all(any(a <= x and y <= b for a, b in longer) for x, y in own)
 
 
 def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tuple[dict[int, list[str]], list[str]]:
@@ -2024,6 +2033,9 @@ def self_test() -> int:
     eq(by.get(3), ["b"], "improved evasion is named")
     eq(0 in by or 2 in by, False, "the shorter trades are not named by the longer phrase")
     eq(len(problems), 2, "the shorter trades have no sentence of their own")
+    trades = [{"replaces": "Uncanny dodge"}, {"replaces": "improved uncanny dodge"}]
+    by, _ = assign_by(trades, [{"anchor": "a", "head": "A", "print": "This ability replaces uncanny dodge, improved uncanny dodge, and damage reduction."}], [])
+    eq(by, {0: ["a"], 1: ["a"]}, "a plain trade stated beside the longer one is named")
     trades = [{"replaces": "Armor training 3"}, {"replaces": "Armor training 4"}]
     by, _ = assign_by(trades, [{"anchor": "a", "head": "A", "print": "This ability replaces armor training 3 and 4."}], [])
     eq(by, {0: ["a"], 1: ["a"]}, "a step list still names both trades")

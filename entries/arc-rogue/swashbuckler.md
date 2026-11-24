@@ -16,13 +16,9 @@ page = "135"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "martial-training", level = 1 },
-  { anchor = "daring", level = 3 },
-]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding", by = ["martial-training"] },
-  { replaces = "Trap sense", feature = "trap-sense", by = ["daring"] },
+  { replaces = "Trapfinding", feature = "trapfinding" },
+  { replaces = "Trap sense", feature = "trap-sense" },
 ]
 +++
 
@@ -33,23 +29,27 @@ A paragon of mobile swordplay, the swashbuckler is a rogue who focuses almost ex
 her skill at arms and perfecting daring acrobatic moves and elaborate flourishes that border on
 performance.
 
-## Martial Training (Ex) {#martial-training}
+**Martial Training (Ex)**
 
-At 1st level, the swashbuckler may select one martial weapon to add to her list of weapon
+**Ability:** The swashbuckler may select one martial weapon to add to her list of weapon
 proficiencies. In addition, she may take the [combat trick](ref/talent/combat-trick) rogue talent up
-to two times. This ability replaces trapfinding.
+to two times.
 
-## Daring (Ex) {#daring}
+**Gained:** At 1st Level
 
-At 3rd level, a swashbuckler gains a +1 morale bonus on Acrobatics checks and saving throws against
-fear. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense.
+**Replaces:** Trapfinding
 
-## Rogue Talents {#rogue-talents}
+**Daring (Ex)**
 
-The following rogue talents complement the swashbuckler archetype: offensive defense, positioning
-attack, powerful sneak, and weapon training.
+**Gained:** At 3rd Level
 
-## Advanced Talents {#advanced-talents}
+**Passive:** A swashbuckler gains a morale bonus on Acrobatics checks and saving throws against
+fear. This bonus is equal to one-third of her rogue level.
 
-The following advanced rogue talents complement the swashbuckler archetype: crippling strike,
-entanglement of blades, and redirect attack.
+**Replaces:** Trap sense
+
+**These rogue talents complement this archetype:** Offensive defense, positioning attack, powerful
+sneak, weapon training
+
+**These advanced rogue talents complement this archetype:** Crippling strike, entanglement of
+blades, redirect attack

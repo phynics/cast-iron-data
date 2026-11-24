@@ -16,36 +16,48 @@ page = "79"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "naked-courage", level = 3 },
-  { anchor = "natural-toughness", level = 7 },
-]
 trades = [
-  { replaces = "Trap sense", feature = "trap-sense", by = ["naked-courage"] },
-  { replaces = "Damage reduction", feature = "damage-reduction", by = ["natural-toughness"] },
+  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Damage reduction", feature = "damage-reduction" },
 ]
 +++
 
 Some barbarians are truly savage, having little training in modern arms. These savage barbarians
 learn to avoid blows and toughen up their skin. A savage barbarian has the following class features.
 
-## Naked Courage (Ex) {#naked-courage}
+**Naked Courage (Ex)**
 
-At 3rd level, the savage barbarian gains a +1 dodge bonus to AC and a +1 morale bonus on saving
-throws against fear when wearing no armor (shields are allowed). This bonus increases by +1 for
-every six levels after 3rd. This ability replaces trap sense.
+**Gained:** At 3rd Level
 
-## Natural Toughness (Ex) {#natural-toughness}
+**Passive:** The savage barbarian gains a +1 dodge bonus to AC and a +1 morale bonus on saving
+throws against fear when wearing no armor (shields are allowed).
 
-At 7th level, the savage barbarian gains a +1 natural armor bonus to AC when wearing no armor
-(shields are allowed). This bonus increases by +1 for every three levels beyond 7th. This ability
-replaces [damage reduction](ref/rule/damage-reduction).
+**Replaces:** Trap sense
 
-## Rage Powers {#rage-powers}
+At 9th level: The bonuses increase to +2.
 
-The following rage powers complement the savage barbarian archetype:
+At 15th level: The bonuses increase to +3.
+
+**Natural Toughness (Ex)**
+
+**Gained:** At 7th Level
+
+**Passive:** The savage barbarian gains a +1 natural armor bonus to AC when wearing no armor
+(shields are allowed).
+
+**Replaces:** [Damage reduction](ref/rule/damage-reduction)
+
+At 10th level: The bonus increases to +2.
+
+At 13th level: The bonus increases to +3.
+
+At 16th level: The bonus increases to +4.
+
+At 19th level: The bonus increases to +5.
+
+**Rage Powers:** The following rage powers complement the savage barbarian archetype:
 [flesh wound](ref/ragepower/flesh-wound), [guarded stance](ref/ragepower/guarded-stance),
 [increased damage reduction](ref/ragepower/increased-damage-reduction),
 [intimidating glare](ref/ragepower/intimidating-glare),
-[rolling dodge](ref/ragepower/rolling-dodge), [superstition](ref/ragepower/superstition), and
+[rolling dodge](ref/ragepower/rolling-dodge), [superstition](ref/ragepower/superstition),
 [terrifying howl](ref/ragepower/terrifying-howl).

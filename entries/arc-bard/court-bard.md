@@ -16,23 +16,14 @@ page = "81"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "bardic-performance" },
-  { anchor = "satire" },
-  { anchor = "mockery" },
-  { anchor = "glorious-epic" },
-  { anchor = "scandal" },
-  { anchor = "heraldic-expertise" },
-  { anchor = "wide-audience", level = 5 },
-]
 trades = [
-  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage", by = ["satire"] },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["mockery"] },
-  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["glorious-epic"] },
-  { replaces = "Frightening tune", feature = "bardic-performance", power = "frightening tune", by = ["scandal"] },
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["heraldic-expertise"] },
-  { replaces = "Lore master", feature = "lore-master", by = ["wide-audience"] },
-  { replaces = "jack of all trades", feature = "jack-of-all-trades", by = ["wide-audience"] },
+  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage" },
+  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
+  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom" },
+  { replaces = "Frightening tune", feature = "bardic-performance", power = "frightening tune" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
+  { replaces = "Lore master", feature = "lore-master" },
+  { replaces = "jack of all trades", feature = "jack-of-all-trades" },
 ]
 +++
 
@@ -40,56 +31,105 @@ Spending years studying all of the finer points of erudition and etiquette, the 
 the role of resplendent proclaimer and artist-in-residence at the hand of nobility, royalty, and the
 well-moneyed elite who aspire to join their ranks.
 
-## Bardic Performance {#bardic-performance}
+**Bardic Performance**
 
-A court bard gains the following types of bardic performance.
+**Info:** A court bard gains the following types of bardic performance.
 
-## Satire (Su) {#satire}
+**Satire (Su)**
 
-A court bard can use performance to undermine the confidence of enemies who hear it, causing them to
-take a -1 penalty on attack and damage rolls (minimum 1) and a -1 penalty on saves against fear and
-charm effects as long as the bard continues performing. This penalty increases by -1 at 5th level
-and every six levels thereafter. Satire is a language-dependent, mind-affecting ability that uses
-audible components. This performance replaces inspire courage.
+**Ability:** A court bard can use performance to undermine the confidence of enemies who hear it,
+causing them to take a -1 penalty on attack and damage rolls (minimum 1) and a -1 penalty on saves
+against fear and charm effects as long as the bard continues performing.
 
-## Mockery (Su) {#mockery}
+**At 11th Level:** The penalty becomes -3.
 
-A court bard of 3rd level or higher can subtly ridicule and defame a specific individual. The bard
-selects one target who can hear his performance. That individual takes a -2 penalty on Charisma
-checks and Charisma-related skill checks as long as the bard continues performing. This penalty
-increases by -1 every four levels after 3rd. Mockery is a language-dependent, mind-affecting ability
-that relies on audible components. This performance replaces inspire competence.
+**At 17th Level:** The penalty becomes -4.
 
-## Glorious Epic (Su) {#glorious-epic}
+**At 5th Level:** The penalty becomes -2.
 
-A court bard of 8th level or higher can weave captivating tales that engross those who hear them.
-Enemies within 30 feet become [flat-footed](ref/rule/flat-footed) unless they succeed at a Will save
-(DC 10 + 1/2 the bard's level + the bard's Cha modifier). A save renders them immune to this ability
-for 24 hours. Glorious epic is a language-dependent, mind-affecting ability that uses audible
-components. This performance replaces dirge of doom.
+**Replaces:** Inspire courage
 
-## Scandal (Su) {#scandal}
+**Special:** _Satire_ is a language-dependent, mind-affecting ability that uses audible components.
 
-A court bard of 14th level or higher can combine salacious gossip and biting calumny to incite a
-riot. Each enemy within 30 feet is affected as if by a
-_[song of discord](ref/spell/song-of-discord)_ for as long as it can hear the performance. A
+**Mockery (Su)**
+
+**Ability:** The bard selects one target who can hear his performance. That individual takes a -2
+penalty on Charisma checks and Charisma-related skill checks as long as the bard continues
+performing.
+
+**Flavor:** A court bard can subtly ridicule and defame a specific individual.
+
+**At 11th Level:** The penalty becomes -4.
+
+**At 15th Level:** The penalty becomes -5.
+
+**At 19th Level:** The penalty becomes -6.
+
+**At 7th Level:** The penalty becomes -3.
+
+**Gained:** At 3rd Level
+
+**Replaces:** Inspire competence
+
+**Special:** _Mockery_ is a language-dependent, mind-affecting ability that relies on audible
+components.
+
+**Glorious Epic (Su)**
+
+**Ability:** Enemies within 30 feet become [flat-footed](ref/rule/flat-footed) unless they succeed
+at a Will save (DC 10 + [half](ref/misc/fractions-and-rounding) the bard's level + the bard's Cha
+modifier). A save renders them immune to this ability for 24 hours.
+
+**Flavor:** A court bard can weave captivating tales that engross those who hear them.
+
+**Gained:** At 8th Level
+
+**Replaces:** Dirge of doom
+
+**Special:** _Glorious epic_ is a language-dependent, mind-affecting ability that uses audible
+components.
+
+**Scandal (Su)**
+
+**Ability:** Each enemy within 30 feet is affected as if by a
+[song of discord](ref/spell/song-of-discord) for as long as it can hear the performance. A
 successful Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect,
-and that creature is immune to this ability for 24 hours. Scandal is a language-dependent,
-mind-affecting ability that uses audible components. This performance replaces frightening tune.
+and that creature is immune to this ability for 24 hours.
 
-## Heraldic Expertise (Ex) {#heraldic-expertise}
+**Flavor:** A court bard can combine salacious gossip and biting calumny to incite a riot.
 
-A court bard gains a bonus equal to half his bard level on Diplomacy, Knowledge (history), Knowledge
-(local), and Knowledge (nobility) checks (minimum +1). Once per day, the court bard can also reroll
-a check against one of these skills, though he must take the result of the second roll even if it is
-worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This
-ability replaces bardic knowledge.
+**Gained:** At 14th Level
 
-## Wide Audience (Su) {#wide-audience}
+**Replaces:** Frightening tune
 
-At 5th level, a court bard can choose to affect a 60-foot cone instead of a 30-foot radius with
-bardic performances that affect an area. In addition, for every five levels beyond 5th, the area of
-such powers is increased by 10 feet (radius) or 20 feet (cone). If the power instead affects
-multiple creatures, it affects one additional creature than normal for every five levels beyond 5th.
-This does not affect powers that affect only a single creature. This ability replaces lore master
-and jack of all trades.
+**Special:** _Scandal_ is a language-dependent, mind-affecting ability that uses audible components.
+
+**Heraldic Expertise (Ex)**
+
+**Ability:** The court bard can also reroll a check against one of these skills, though he must take
+the result of the second roll even if it is worse.
+
+**Passive:** A court bard gains a bonus equal to half his bard level on Diplomacy, Knowledge
+(history), Knowledge (local), and Knowledge (nobility) checks (minimum +1).
+
+**Replaces:** Bardic knowledge
+
+**Usage:** 1 time/day + 1 per 5 bard levels
+
+**Wide Audience (Su)**
+
+**Ability:** A court bard can choose to affect a 60-foot cone instead of a 30-foot radius with
+bardic performances that affect an area.
+
+**At 10th Level:** The area of such powers is increased by 10 feet (radius) or 20 feet (cone). If
+the power instead affects multiple creatures, it affects one additional creature than normal.
+
+**At 15th Level:** If the power instead affects multiple creatures, it affects two additional
+creatures than normal.
+
+**At 20th Level:** If the power instead affects multiple creatures, it affects three additional
+creatures than normal.
+
+**Replaces:** Lore master, jack of all trades
+
+**Special:** This does not affect powers that affect only a single creature.

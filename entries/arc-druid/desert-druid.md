@@ -16,21 +16,13 @@ page = "99"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "desert-native", level = 2 },
-  { anchor = "sandwalker", level = 3 },
-  { anchor = "desert-endurance", level = 4 },
-  { anchor = "wild-shape" },
-  { anchor = "shaded-vision", level = 9 },
-  { anchor = "dunemeld", level = 13 },
-]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride", by = ["desert-native"] },
-  { replaces = "Trackless step", feature = "trackless-step", by = ["sandwalker"] },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["desert-endurance"] },
-  { replaces = "Venom immunity", feature = "venom-immunity", by = ["shaded-vision"] },
-  { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["dunemeld"] },
-  { alters = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
+  { replaces = "Woodland stride", feature = "woodland-stride" },
+  { replaces = "Trackless step", feature = "trackless-step" },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
+  { replaces = "Venom immunity", feature = "venom-immunity" },
+  { replaces = "A thousand faces", feature = "a-thousand-faces" },
+  { alters = "Wild shape", feature = "wild-shape" },
 ]
 +++
 
@@ -39,43 +31,73 @@ hidden from the sun and rarely friendly - and raw, desolate beauty. Here desert 
 homage, protect and maintain the few habitable locales, and witness nature's majesty in all its
 burning, merciless glory.
 
-## Desert Native (Ex) {#desert-native}
+**Desert Native (Ex)**
 
-At 2nd level, a desert druid gains a bonus on Initiative checks and Knowledge (geography),
-Perception, Stealth, and Survival checks equal to 1/2 her druid level in desert terrain, and she
-cannot be tracked in such environments. This ability replaces woodland stride.
+**Gained:** At 2nd Level
 
-## Sandwalker (Ex) {#sandwalker}
+**Passive:** A desert druid gains a bonus on Initiative checks and Knowledge (geography),
+Perception, Stealth, and Survival checks equal to [half](ref/misc/fractions-and-rounding) her druid
+level in desert terrain, and she cannot be tracked in such environments.
 
-At 3rd level, a desert druid suffers no penalty to speed or on Acrobatics or Stealth checks when
-moving through sandy or desert terrain. This ability replaces trackless step.
+**Replaces:** Woodland stride
 
-## Desert Endurance (Ex) {#desert-endurance}
+**Sandwalker (Ex)**
 
-At 4th level, a desert druid ignores the effects of a hot climate as if using
-_[endure elements](ref/spell/endure-elements)_. She also has a reduced need to eat and drink, as if
-wearing a _[ring of sustenance](ref/magic-ring/ring-of-sustenance)_ (though normal sleep is still
-required). This ability replaces resist nature's lure.
+**Gained:** At 3rd Level
 
-## Wild Shape (Su) {#wild-shape}
+**Passive:** A desert druid suffers no penalty to speed or on Acrobatics or Stealth checks when
+moving through sandy or desert terrain.
 
-A desert druid gains this ability at 6th level, except that her effective druid level for the
-ability is equal to her druid level - 2. A desert druid cannot use wild shape to adopt a plant form.
-At 10th level she can assume the form of a Small or Medium vermin, at 12th level a Tiny or Large
-vermin, and at 14th level a Diminutive or Huge vermin. This effect functions as
-_[beast shape IV](ref/spell/beast-shape-4)_ (treating the vermin as an animal to determine its
-ability and natural armor modifiers).
+**Replaces:** Trackless step
 
-## Shaded Vision (Ex) {#shaded-vision}
+**Desert Endurance (Ex)**
 
-At 9th level, a desert druid becomes immune to blinding and dazzling effects and gains a +2 bonus on
+**Gained:** At 4th Level
+
+**Passive:** A desert druid ignores the effects of a hot climate as if using
+[endure elements](ref/spell/endure-elements). She also has a reduced need to eat and drink, as if
+wearing a [ring of sustenance](ref/magic-ring/ring-of-sustenance) (though normal sleep is still
+required).
+
+**Replaces:** Resist nature's lure
+
+**Wild Shape (Su)**
+
+**Ability:** A desert druid gains _wild shape,_ except that her effective druid level for this
+ability is equal to her druid level - 2. A desert druid cannot use _wild shape_ to adopt a plant
+form.
+
+**Alters:** Wild shape
+
+**At 10th Level:** She can assume the form of a Small or Medium vermin.
+
+**At 12th Level:** She can take the form of a Tiny or Large vermin.
+
+**At 14th Level:** She can assume the form of a Diminutive or Huge vermin.
+
+**Gained:** At 6th Level
+
+**Special:** Starting at 10th level, this effect functions as
+[beast shape IV](ref/spell/beast-shape-4) (treating the vermin as an animal to determine its ability
+and natural armor modifiers).
+
+**Shaded Vision (Ex)**
+
+**Gained:** At 9th Level
+
+**Passive:** A desert druid becomes immune to blinding and dazzling effects and gains a +2 bonus on
 saving throws against [gaze](ref/umr/gaze) attacks and illusions of the figment and pattern
-subschools. This ability replaces venom immunity.
+subschools.
 
-## Dunemeld (Ex) {#dunemeld}
+**Replaces:** Venom immunity
 
-At 13th level, a desert druid can assume the form of a swirling mass of sand at will. This is
-equivalent to _[gaseous form](ref/spell/gaseous-form)_, but the druid gains a land and burrow speed
-of 10 feet rather than a fly speed. While in this form, the druid gains a circumstance bonus on
-Stealth checks made in desert terrain equal to her druid level. This ability replaces a thousand
-faces.
+**Dunemeld (Ex)**
+
+**Ability:** A desert druid can assume the form of a swirling mass of sand at will. This is
+equivalent to [gaseous form](ref/spell/gaseous-form), but the druid gains a land and burrow speed of
+10 feet rather than a fly speed. While in this form, the druid gains a circumstance bonus on Stealth
+checks made in desert terrain equal to her druid level.
+
+**Gained:** At 13th Level
+
+**Replaces:** A thousand faces

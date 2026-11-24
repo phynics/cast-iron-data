@@ -16,22 +16,13 @@ page = "108"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "shattering-strike", level = 2 },
-  { anchor = "overhand-chop", level = 3 },
-  { anchor = "weapon-training" },
-  { anchor = "backswing", level = 7 },
-  { anchor = "piledriver", level = 11 },
-  { anchor = "greater-power-attack", level = 15 },
-  { anchor = "devastating-blow", level = 19 },
-]
 trades = [
-  { replaces = "Bravery", feature = "bravery", by = ["shattering-strike"] },
-  { replaces = "Armor training 1", feature = "armor-training", levels = [3], by = ["overhand-chop"] },
-  { replaces = "Armor training 2", feature = "armor-training", levels = [7], by = ["backswing"] },
-  { replaces = "Armor training 3", feature = "armor-training", levels = [11], by = ["piledriver"] },
-  { replaces = "Armor training 4", feature = "armor-training", levels = [15], by = ["greater-power-attack"] },
-  { replaces = "Armor mastery", feature = "armor-mastery", by = ["devastating-blow"] },
+  { replaces = "Bravery", feature = "bravery" },
+  { replaces = "Armor training 1", feature = "armor-training", levels = [3] },
+  { replaces = "Armor training 2", feature = "armor-training", levels = [7] },
+  { replaces = "Armor training 3", feature = "armor-training", levels = [11] },
+  { replaces = "Armor training 4", feature = "armor-training", levels = [15] },
+  { replaces = "Armor mastery", feature = "armor-mastery" },
 ]
 +++
 
@@ -39,44 +30,77 @@ Some fighters focus their efforts on finding the biggest, heaviest, most imposin
 find and training to manage and harness the weight of their massive weapons for maximum impact.
 These fighting school benefits only apply when using two-handed weapons.
 
-## Shattering Strike (Ex) {#shattering-strike}
+**Shattering Strike (Ex)**
 
-At 2nd level, a two-handed fighter gains a +1 bonus to CMB and CMD on [sunder](ref/rule/sunder)
-attempts and on damage rolls made against objects. These bonuses increase by +1 for every four
-levels beyond 2nd. This ability replaces bravery.
+**Gained:** At 2nd Level
 
-## Overhand Chop (Ex) {#overhand-chop}
+**Passive:** A two-handed fighter gains a +1 bonus to CMB and CMD on [sunder](ref/rule/sunder)
+attempts and on damage rolls made against objects.
 
-At 3rd level, when a two-handed fighter makes a single attack (with the attack action or a
+**Replaces:** Bravery
+
+At 6th level: These bonuses increase to +2.
+
+At 10th level: These bonuses increase to +3.
+
+At 14th level: These bonuses increase to +4.
+
+At 18th level: These bonuses increase to +5.
+
+**Overhand Chop (Ex)**
+
+**Gained:** At 3rd Level
+
+**Passive:** When a two-handed fighter makes a single attack (with the attack action or a
 [charge](ref/rule/charge)) with a two-handed weapon, he adds double his Strength bonus on damage
-rolls. This ability replaces armor training 1.
+rolls.
 
-## Weapon Training (Ex) {#weapon-training}
+**Replaces:** Armor training 1
 
-As the fighter class feature, but the bonuses only apply when wielding two-handed melee weapons.
+**Weapon Training (Ex)**
 
-## Backswing (Ex) {#backswing}
+**Ability:** As the fighter class feature, but the bonuses only apply when wielding two-handed melee
+weapons.
 
-At 7th level, when a two-handed fighter makes a [full attack](ref/rule/full-attack) with a
-two-handed weapon, he adds double his Strength bonus on damage rolls for all attacks after the
-first. This ability replaces armor training 2.
+**Gained:** At 5th Level
 
-## Piledriver (Ex) {#piledriver}
+**Backswing (Ex)**
 
-At 11th level, as a standard action, a two-handed fighter can make a single melee attack with a
-two-handed weapon. If the attack hits, he may make a [bull rush](ref/rule/bull-rush) or
-[trip](ref/rule/trip) combat maneuver against the target of his attack as a free action that does
-not provoke an attack of opportunity. This ability replaces armor training 3.
+**Gained:** At 7th Level
 
-## Greater Power Attack (Ex) {#greater-power-attack}
+**Passive:** When a two-handed fighter makes a [full attack](ref/rule/full-attack) with a two-handed
+weapon, he adds double his Strength bonus on damage rolls for all attacks after the first.
 
-At 15th level, when using [Power Attack](ref/feat/power-attack) with a two-handed melee weapon, the
-bonus damage from Power Attack is doubled (+100%) instead of increased by half (+50%). This ability
-replaces armor training 4.
+**Replaces:** Armor training 2
 
-## Devastating Blow (Ex) {#devastating-blow}
+**Piledriver (Ex)**
 
-At 19th level, as a standard action, a two-handed fighter may make a single melee attack with a
-two-handed weapon at a -5 penalty. If the attack hits, it is treated as a critical threat. Special
-weapon abilities that activate only on a critical hit do not activate if this critical hit is
-confirmed. This ability replaces armor mastery.
+**Gained:** At 11th Level
+
+**Replaces:** Armor training 3
+
+**Standard:** A two-handed fighter can make a single melee attack with a two-handed weapon. If the
+attack hits, he may make a [bull rush](ref/rule/bull-rush) or [trip](ref/rule/trip) combat maneuver
+against the target of his attack as a **free action** that does not provoke an attack of
+opportunity.
+
+**Greater Power Attack (Ex)**
+
+**Gained:** At 15th Level
+
+**Passive:** When using [Power Attack](ref/feat/power-attack) with a two-handed melee weapon, the
+bonus damage from Power Attack is doubled (+100%) instead of increased by half (+50%).
+
+**Replaces:** Armor training 4
+
+**Devastating Blow (Ex)**
+
+**Gained:** At 19th Level
+
+**Replaces:** Armor mastery
+
+**Special:** Special weapon abilities that activate only on a critical hit do not activate if this
+critical hit is confirmed.
+
+**Standard:** A two-handed fighter may make a single melee attack with a two-handed weapon at a -5
+penalty. If the attack hits, it is treated as a critical threat.

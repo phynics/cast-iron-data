@@ -16,13 +16,9 @@ page = "134"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "accuracy", level = 1 },
-  { anchor = "deadly-range", level = 3 },
-]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding", by = ["accuracy"] },
-  { replaces = "Trap sense", feature = "trap-sense", by = ["deadly-range"] },
+  { replaces = "Trapfinding", feature = "trapfinding" },
+  { replaces = "Trap sense", feature = "trap-sense" },
 ]
 +++
 
@@ -33,23 +29,34 @@ bleatings of sheep fearing the slaughter and pay them no heed. Most snipers take
 formidable abilities, which allow them to take life quickly, quietly, and efficiently, then
 disappear into their surroundings without a trace.
 
-## Accuracy (Ex) {#accuracy}
+**Accuracy (Ex)**
 
-At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow or
-crossbow. This ability replaces trapfinding.
+**Gained:** At 1st Level
 
-## Deadly Range (Ex) {#deadly-range}
+**Passive:** A sniper halves all range increment penalties when making ranged attacks with a bow or
+crossbow.
 
-At 3rd level, a sniper increases the range at which she can apply her sneak attack damage by 10
-feet. This range increases by 10 feet for every 3 levels after 3rd. This ability replaces trap
-sense.
+**Replaces:** Trapfinding
 
-## Rogue Talents {#rogue-talents}
+**Deadly Range (Ex)**
 
-The following rogue talents complement the sniper archetype: camouflage, snap shot, sniper's eye,
-and weapon training.
+**At 3rd Level:** A sniper increases the range at which she can apply her sneak attack damage by 10
+feet.
 
-## Advanced Talents {#advanced-talents}
+**Replaces:** Trap sense
 
-The following advanced rogue talents complement the sniper archetype: defensive roll, master of
-disguise, and stealthy sniper.
+At 6th level: This range increases to 20 feet.
+
+At 9th level: This range increases to 30 feet.
+
+At 12th level: This range increases to 40 feet.
+
+At 15th level: This range increases to 50 feet.
+
+At 18th level: This range increases to 60 feet.
+
+**These rogue talents complement this archetype:** Camouflage, snap shot, sniper's eye, weapon
+training
+
+**These advanced rogue talents complement this archetype:** Defensive roll, master of disguise,
+stealthy sniper

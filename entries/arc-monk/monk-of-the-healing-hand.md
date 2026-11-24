@@ -16,16 +16,11 @@ page = "113"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "ancient-healing-hand", level = 7 },
-  { anchor = "ki-sacrifice", level = 11 },
-  { anchor = "true-sacrifice", level = 20 },
-]
 trades = [
-  { replaces = "Wholeness of body", feature = "wholeness-of-body", by = ["ancient-healing-hand"] },
-  { replaces = "Diamond body", feature = "diamond-body", by = ["ki-sacrifice"] },
-  { replaces = "quivering palm", feature = "quivering-palm", by = ["ki-sacrifice"] },
-  { replaces = "Perfect self", feature = "perfect-self", by = ["true-sacrifice"] },
+  { replaces = "Wholeness of body", feature = "wholeness-of-body" },
+  { replaces = "Diamond body", feature = "diamond-body" },
+  { replaces = "quivering palm", feature = "quivering-palm" },
+  { replaces = "Perfect self", feature = "perfect-self" },
 ]
 +++
 
@@ -35,34 +30,50 @@ ki with others, healing wounds and even bringing the dead back to life. For such
 himself to save another is the surest way to achieve transcendence. A monk of the healing hand has
 the following class features.
 
-## Ancient Healing Hand (Su) {#ancient-healing-hand}
+**Ancient Healing Hand (Su)**
 
-At 7th level, a monk of the healing hand can heal another creature's wounds with a touch. As a
-full-round action, the monk can spend 2 _ki_ points to heal a number of hit points equal to the
-monk's level. He needs at least one hand free to use this ability, and cannot heal himself. If the
-action is interrupted, the subject heals no hit points, and the _ki_ points are lost. This ability
-replaces wholeness of body.
+**Flavor:** A monk of the healing hand can heal another creature's wounds with a touch.
 
-## Ki Sacrifice (Su) {#ki-sacrifice}
+**Fullround:** The monk can spend 2 ki points to heal a number of hit points equal to the monk's
+level. He needs at least one hand free to use this ability, and cannot heal himself. If the action
+is interrupted, the subject heals no hit points, and the ki points are lost.
 
-At 11th level, a monk of the healing hand can use his entire _ki_ pool to bring a person back to
-life. It takes 1 hour to perform this ritual. At the end of the ritual, the monk sacrifices all of
-his _ki_ in order to cast _[raise dead](ref/spell/raise-dead)_ (as the spell) with a caster level
-equal to his monk level. The ritual uses all of the _ki_ in the monk's _ki_ pool; the monk must have
-at least 6 points of _ki_ in his _ki_ pool to use this ability. At 15th level, the monk may
-sacrifice his _ki_ to cast _[resurrection](ref/spell/resurrection)_. The monk must have at least 8
-points of _ki_ in his _ki_ pool to use this ability. These rituals do not require material
-components. When this ability is used, the monk's _ki_ pool is not replenished until 24 hours have
-passed. This ability replaces both diamond body and quivering palm.
+**Gained:** At 7th Level
 
-## True Sacrifice (Su) {#true-sacrifice}
+**Replaces:** Wholeness of body
 
-At 20th level, in a final selfless act, a monk of the healing hand can draw in his entire _ki_,
-which then explodes outward in a 50-foot-radius [emanation](ref/misc/emanation). All dead allies
-within the emanation are brought back to life, as if they were the subject of a
-_[true resurrection](ref/spell/true-resurrection)_ spell with a caster level equal to the monk's
-level. When the monk does this, he is truly and utterly destroyed. A monk destroyed in this way can
-never come back to life, not even by way of a _[wish](ref/spell/wish)_ or
-_[miracle](ref/spell/miracle)_ spell or by the power of a deity. Furthermore, the monk's name can
+**Ki Sacrifice (Su)**
+
+**Ability:** A monk of the healing hand can use his entire _ki pool_ to bring a person back to life.
+It takes 1 hour to perform this ritual. At the end of the ritual, the monk sacrifices all of his ki
+in order to cast [raise dead](ref/spell/raise-dead) (as the spell) with a caster level equal to his
+monk level. The ritual uses all of the ki in the monk's _ki pool;_ the monk must have at least 6
+points of ki in his _ki pool_ to use this ability.
+
+**At 15th Level:** The monk may sacrifice his ki to cast [resurrection](ref/spell/resurrection). The
+monk must have at least 8 points of ki in his _ki pool_ to use this ability.
+
+**Gained:** At 11th Level
+
+**Replaces:** Diamond body, quivering palm
+
+**Special:** These rituals do not require material components. When this ability is used, the monk's
+_ki pool_ is not replenished until 24 hours have passed.
+
+**True Sacrifice (Su)**
+
+**Ability:** In a final selfless act, a monk of the healing hand can draw in his entire ki, which
+then explodes outward in a 50-foot-radius [emanation](ref/misc/emanation). All dead allies within
+the emanation are brought back to life, as if they were the subject of a
+[true resurrection](ref/spell/true-resurrection) spell with a caster level equal to the monk's
+level.
+
+**Gained:** At 20th Level
+
+**Replaces:** Perfect self
+
+**Special:** When the monk does this, he is truly and utterly destroyed. A monk destroyed in this
+way can never come back to life, not even by way of a [wish](ref/spell/wish) or
+[miracle](ref/spell/miracle) spell or by the power of a deity. Furthermore, the monk's name can
 never be spoken or written down again. All written mentions of his name become nothing more than a
-blank space. This ability replaces perfect self.
+blank space.

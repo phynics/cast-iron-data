@@ -16,13 +16,9 @@ page = "78"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "destructive", level = 1 },
-  { anchor = "battle-scavenger", level = 3 },
-]
 trades = [
-  { replaces = "Fast movement", feature = "fast-movement", by = ["destructive"] },
-  { replaces = "Trap sense", feature = "trap-sense", by = ["battle-scavenger"] },
+  { replaces = "Fast movement", feature = "fast-movement" },
+  { replaces = "Trap sense", feature = "trap-sense" },
 ]
 +++
 
@@ -31,21 +27,34 @@ surroundings an almost uncontrollable urge when in the middle of a _rage._ These
 danger not only to their foes, but also to the very environment around them. A breaker barbarian has
 the following class features.
 
-## Destructive (Ex) {#destructive}
+**Destructive (Ex)**
 
-Whenever the breaker barbarian makes a melee attack that targets an unattended object or makes a
-[sunder](ref/rule/sunder) combat maneuver, she adds [half](ref/misc/fractions-and-rounding) her
-barbarian level (minimum +1) on the damage roll. This ability replaces fast movement.
+**Passive:** Whenever the breaker barbarian makes a melee attack that targets an unattended object
+or makes a [sunder](ref/rule/sunder) combat maneuver, she adds
+[half](ref/misc/fractions-and-rounding) her barbarian level (minimum +1) on the damage roll.
 
-## Battle Scavenger (Ex) {#battle-scavenger}
+**Replaces:** Fast movement
 
-At 3rd level, the breaker barbarian suffers no penalty on attack rolls when using an
+**Battle Scavenger (Ex)**
+
+**At 6th Level:** She gains a +1 bonus on damage rolls with improvised or broken weapons.
+
+**Gained:** At 3rd Level
+
+**Passive:** The breaker barbarian suffers no penalty on attack rolls when using an
 [improvised weapon](ref/misc/improvised-weapons) or a weapon with the [broken](ref/misc/broken)
-condition. In addition, she gains a +1 bonus on damage rolls with improvised or broken weapons for
-every three levels beyond 3rd. This ability replaces trap sense.
+condition.
 
-## Rage Powers {#rage-powers}
+**Replaces:** Trap sense
 
-The following rage powers complement the breaker archetype:
-[ground breaker](ref/ragepower/ground-breaker), [smasher](ref/ragepower/smasher), and
+At 9th level: This bonus increases to +2.
+
+At 12th level: This bonus increases to +3.
+
+At 15th level: This bonus increases to +4.
+
+At 18th level: This bonus increases to +5.
+
+**Rage Powers:** The following rage powers complement the breaker archetype:
+[ground breaker](ref/ragepower/ground-breaker), [smasher](ref/ragepower/smasher),
 [strength surge](ref/ragepower/strength-surge).

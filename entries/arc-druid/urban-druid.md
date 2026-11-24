@@ -16,21 +16,12 @@ page = "101"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "spontaneous-casting" },
-  { anchor = "nature-bond" },
-  { anchor = "lorekeeper", level = 2 },
-  { anchor = "resist-temptation", level = 4 },
-  { anchor = "a-thousand-faces" },
-  { anchor = "wild-shape" },
-  { anchor = "mental-strength", level = 9 },
-]
 trades = [
-  { replaces = "Ability to spontaneously cast summon nature's ally spells", feature = "spontaneous-casting", by = ["spontaneous-casting"] },
-  { replaces = "Woodland stride", feature = "woodland-stride", by = ["lorekeeper"] },
-  { replaces = "trackless step", feature = "trackless-step", by = ["lorekeeper"] },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["resist-temptation"] },
-  { replaces = "Venom immunity", feature = "venom-immunity", by = ["mental-strength"] },
+  { replaces = "Spontaneous casting", feature = "spontaneous-casting" },
+  { replaces = "Woodland stride", feature = "woodland-stride" },
+  { replaces = "trackless step", feature = "trackless-step" },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
+  { replaces = "Venom immunity", feature = "venom-immunity" },
 ]
 +++
 
@@ -38,42 +29,58 @@ While many druids keep to the wilderness, some make their way within settlements
 animals and vermin who live there and speaking for the nature that runs rampant in civilization's
 very cradle.
 
-## Spontaneous Casting {#spontaneous-casting}
+**Spontaneous Casting**
 
-An urban druid can channel stored spell energy into domain spells that she has not prepared ahead of
-time. She can "lose" a prepared spell in order to cast any domain spell of the same level or lower.
-This ability replaces the ability to spontaneously cast summon nature's ally spells.
+**Ability:** An urban druid can channel stored spell energy into domain spells that she has not
+prepared ahead of time. She can "lose" a prepared spell in order to cast any domain spell of the
+same level or lower.
 
-## Nature Bond (Ex) {#nature-bond}
+**Replaces:** Spontaneous casting
 
-An urban druid may not select an animal companion. Instead, she must choose from the following
-domains, rather than those usually available to druids: [Charm](ref/domain/charm), Community,
-Knowledge, Nobility, [Protection](ref/domain/protection), Repose, Rune, or
+**Nature Bond (Ex)**
+
+**Choice:** An urban druid may not select an animal companion. Instead, she must choose from the
+following domains, rather than those usually available to druids: [Charm](ref/domain/charm),
+Community, Knowledge, Nobility, [Protection](ref/domain/protection), Repose, Rune, or
 [Weather](ref/domain/weather).
 
-## Lorekeeper (Ex) {#lorekeeper}
+**Lorekeeper (Ex)**
 
-At 2nd level, an urban druid adds [Diplomacy](ref/skill/diplomacy),
-[Knowledge (history)](ref/skill/knowledge-history), [Knowledge (local)](ref/skill/knowledge-local),
-and [Knowledge (nobility)](ref/skill/knowledge-nobility) skills to her list of class skills. She
-also receives a +2 bonus on these skill checks. This ability replaces a druid's woodland stride and
-trackless step abilities.
+**Gained:** At 2nd Level
 
-## Resist Temptation (Ex) {#resist-temptation}
+**Passive:** An urban druid adds [Diplomacy](ref/skill/diplomacy) (CHA),
+[Knowledge (history)](ref/skill/knowledge-history) (INT),
+[Knowledge (local)](ref/skill/knowledge-local) (INT), and
+[Knowledge (nobility)](ref/skill/knowledge-nobility) (INT) skills to her list of class skills. She
+also receives a +2 bonus on these skill checks.
 
-At 4th level, an urban druid gains a +2 bonus on saves vs. divinations and enchantments. This
-replaces the resist nature's lure ability.
+**Replaces:** Woodland stride, trackless step
 
-## A Thousand Faces (Su) {#a-thousand-faces}
+**Resist Temptation (Ex)**
 
-An urban druid gains this ability at 6th level.
+**Gained:** At 4th Level
 
-## Wild Shape (Su) {#wild-shape}
+**Passive:** An urban druid gains a +2 bonus on saves vs. divinations and enchantments.
 
-An urban druid gains this ability at 8th level, except that her effective druid level for the
+**Replaces:** Resist nature's lure
+
+**A Thousand Faces (Su)**
+
+**Ability:** An urban druid gains this ability now instead of at 13th level.
+
+**Gained:** At 6th Level
+
+**Wild Shape (Su)**
+
+**Ability:** An urban druid gains _wild shape,_ except that her effective druid level for the
 ability is equal to her druid level - 4.
 
-## Mental Strength (Ex) {#mental-strength}
+**Gained:** At 8th Level
 
-At 9th level, an urban druid gains immunity to charm and compulsion effects. This ability replaces
-venom immunity.
+**Mental Strength (Ex)**
+
+**Gained:** At 9th Level
+
+**Passive:** An urban druid gains immunity to charm and compulsion effects.
+
+**Replaces:** Venom immunity

@@ -16,13 +16,9 @@ page = "135"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "careful-disarm", level = 4 },
-  { anchor = "trap-master", level = 8 },
-]
 trades = [
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["careful-disarm", "trap-master"] },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["trap-master"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
 ]
 +++
 
@@ -32,25 +28,29 @@ have started out putting together traps in order to better understand how to dis
 most, it's long since gone beyond that - they now relish the challenge of creating the perfect
 combat machine.
 
-## Careful Disarm (Ex) {#careful-disarm}
+**Careful Disarm (Ex)**
 
-At 4th level, whenever a trapsmith attempts to disarm a trap using Disable Device, she does not
+**Ability:** Whenever a trapsmith attempts to disarm a trap using Disable Device, she does not
 spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to
-disarm, she adds double her trap sense bonus to avoid the trap. This ability replaces uncanny dodge.
+disarm, she adds double her _trap sense_ bonus to avoid the trap.
 
-## Trap Master (Ex) {#trap-master}
+**Gained:** At 4th Level
 
-At 8th level, whenever a trapsmith disarms a trap using Disable Device, she can bypass it even if
-her check did not exceed the DC by 10 or more. If it is a magic trap that allows specific creatures
-to pass it without danger, she can modify which creatures it allows to pass, adding her allies and
-restricting enemies if she desires. This ability replaces improved uncanny dodge.
+**Replaces:** Uncanny dodge
 
-## Rogue Talents {#rogue-talents}
+**Trap Master (Ex)**
 
-The following rogue talents complement the trapsmith archetype: befuddling strike, cunning trigger,
-quick disable, and quick trapsmith.
+**Ability:** Whenever a trapsmith disarms a trap using Disable Device, she can bypass it even if her
+check did not exceed the DC by 10 or more. If it is a magic trap that allows specific creatures to
+pass it without danger, she can modify which creatures it allows to pass, adding her allies and
+restricting enemies if she desires.
 
-## Advanced Talents {#advanced-talents}
+**Gained:** At 8th Level
 
-The following advanced rogue talents complement the trapsmith archetype: another day, frugal
-trapsmith, and skill mastery.
+**Replaces:** Improved uncanny dodge
+
+**These rogue talents complement this archetype:** Befuddling strike, cunning trigger, quick
+disable, quick trapsmith
+
+**These advanced rogue talents complement this archetype:** Another day, frugal trapsmith, skill
+mastery

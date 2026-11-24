@@ -16,34 +16,8 @@ page = "125"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "adaptation", level = 3 },
-  { anchor = "aberration" },
-  { anchor = "animal" },
-  { anchor = "construct" },
-  { anchor = "dragon" },
-  { anchor = "fey" },
-  { anchor = "humanoid-aquatic" },
-  { anchor = "humanoid-dwarf" },
-  { anchor = "humanoid-elf" },
-  { anchor = "humanoid-giant" },
-  { anchor = "humanoid-gnoll" },
-  { anchor = "humanoid-gnome" },
-  { anchor = "humanoid-goblinoid" },
-  { anchor = "humanoid-half-ling" },
-  { anchor = "humanoid-human" },
-  { anchor = "humanoid-orc" },
-  { anchor = "humanoid-reptilian" },
-  { anchor = "magical-beast" },
-  { anchor = "monstrous-humanoid" },
-  { anchor = "ooze" },
-  { anchor = "outsider" },
-  { anchor = "plant" },
-  { anchor = "undead" },
-  { anchor = "vermin" },
-]
 trades = [
-  { replaces = "Favored terrain", feature = "favored-terrain", by = ["adaptation"] },
+  { replaces = "Favored terrain", feature = "favored-terrain" },
 ]
 +++
 
@@ -52,130 +26,143 @@ own abilities and using their foes' strengths against them. Infiltrators are wil
 in an enemy's shoes so as to learn eveything there is to know about their foes in order to more
 effectively hunt and kill them.
 
-## Adaptation (Ex) {#adaptation}
+**Adaptation (Ex)**
 
-At 3rd level, an infiltrator learns how to copy the unusual abilities of his prey. He chooses one
-type of creature he has selected as a favored enemy, such as "aberrations." The ranger selects one
-ability or feat from the adaptation list for that type (see below). A ranger can use adaptations for
-10 minutes per day per ranger level he possesses. This duration does not need to be consecutive, but
-it must be used in 10-minute increments. If the adaptation requires the ranger to make a more
-specific choice (such as what skill to use with [Skill Focus](ref/feat/skill-focus)), this choice is
-permanent and cannot be changed.
+**Ability:** He chooses one type of creature he has selected as a _favored enemy,_ such as
+"aberrations." The ranger selects one ability or feat from the adaptation list for that type (see
+below). If the adaptation requires the ranger to make a more specific choice (such as what skill to
+use with [Skill Focus](ref/feat/skill-focus)), this choice is permanent and cannot be changed.
 
-At 8th, 13th, and 15th-level, the ranger chooses another one of his favored enemy types and selects
-one adaptation from that type's list, as well as an additional adaptation from any one list of a
-creature type he's selected (including the one just chosen, if so desired). The infiltrator can only
-use one adaptation at a time. This class ability replaces favored terrain.
+**Flavor:** An infiltrator learns how to copy the unusual abilities of his prey.
 
-## Aberration {#aberration}
+**Gained:** At 3rd Level
 
-[amphibious](ref/umr/amphibious), [darkvision](ref/rule/darkvision) 60 ft.,
+**Repeat At:** The ranger chooses another one of his _favored enemy_ types and selects one
+adaptation from that type's list, as well as an additional adaptation from any one list of a
+creature type he's selected (including the one just chosen, if so desired)., 8, 13, 15
+
+**Replaces:** Favored terrain
+
+**Special:** The infiltrator can only use one adaptation at a time. The ranger can use the
+_camouflage_ and _hide in plain sight_ class features whenever he is using adaptations.
+
+**Usage:** 10 minutes/day per ranger level; these minutes need not be consecutive, but must be spent
+in 10-minute increments
+
+**Aberration**
+
+**Choice:** [amphibious](ref/umr/amphibious), [darkvision](ref/rule/darkvision) 60 ft.,
 [Iron Will](ref/feat/iron-will), natural armor +2.
 
-## Animal {#animal}
+**Animal**
 
-climb 15 ft., [darkvision](ref/rule/darkvision) 60 ft., [Great Fortitude](ref/feat/great-fortitude),
-[Lightning Reflexes](ref/feat/lightning-reflexes), [low-light vision](ref/rule/low-light-vision),
-natural armor (+2), swim 15 ft.
+**Choice:** climb 15 ft., [darkvision](ref/rule/darkvision) 60 ft.,
+[Great Fortitude](ref/feat/great-fortitude), [Lightning Reflexes](ref/feat/lightning-reflexes),
+[low-light vision](ref/rule/low-light-vision), natural armor (+2), swim 15 ft.
 
-## Construct {#construct}
+**Construct**
 
-[darkvision](ref/rule/darkvision) 60 ft., Great Fortitude, Lightning Reflexes,
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., Great Fortitude, Lightning Reflexes,
 [low-light vision](ref/rule/low-light-vision).
 
-## Dragon {#dragon}
+**Dragon**
 
-[darkvision](ref/rule/darkvision) 60 ft., Great Fortitude, Iron Will, Lightning Reflexes,
-[low-light vision](ref/rule/low-light-vision), [Lunge](ref/feat/lunge).
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., Great Fortitude, Iron Will, Lightning
+Reflexes, [low-light vision](ref/rule/low-light-vision), [Lunge](ref/feat/lunge).
 
-## Fey {#fey}
+**Fey**
 
-Iron Will, Lightning Reflexes, [low-light vision](ref/rule/low-light-vision).
+**Choice:** Iron Will, Lightning Reflexes, [low-light vision](ref/rule/low-light-vision).
 
-## Humanoid (aquatic) {#humanoid-aquatic}
+**Humanoid (aquatic)**
 
-[low-light vision](ref/rule/low-light-vision), natural armor +2, [darkvision](ref/rule/darkvision),
-swim 15 ft.
+**Choice:** [low-light vision](ref/rule/low-light-vision), natural armor +2,
+[darkvision](ref/rule/darkvision), swim 15 ft.
 
-## Humanoid (dwarf) {#humanoid-dwarf}
+**Humanoid (dwarf)**
 
-[darkvision](ref/rule/darkvision) 60 ft., [defensive training](ref/race/dwarf), greed, hatred,
-hardy, slow and steady, stability, stonecunning, weapon familiarity.
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., _[defensive training](ref/race/dwarf), greed,
+hatred, hardy, slow and steady, stability, stonecunning, weapon familiarity._
 
-## Humanoid (elf) {#humanoid-elf}
+**Humanoid (elf)**
 
-[elf](ref/race/half-elf) blood, [low-light vision](ref/rule/low-light-vision), [elven](ref/race/elf)
-immunities, elven magic, keen senses, Skill Focus (choose one skill), weapon familiarity.
+**Choice:** _[elf](ref/race/half-elf) blood,_ [low-light vision](ref/rule/low-light-vision),
+_[elven](ref/race/elf) immunities, elven magic, keen senses,_ Skill Focus (choose one skill),
+_weapon familiarity._
 
-## Humanoid (giant) {#humanoid-giant}
+**Humanoid (giant)**
 
-[low-light vision](ref/rule/low-light-vision), Lunge, natural armor +2, [resist](ref/umr/resistance)
-energy 10 (choose cold, electricity, or fire), [Throw Anything](ref/feat/throw-anything).
+**Choice:** [low-light vision](ref/rule/low-light-vision), Lunge, natural armor +2,
+[resist](ref/umr/resistance) energy 10 (choose cold, electricity, or fire),
+[Throw Anything](ref/feat/throw-anything).
 
-## Humanoid (gnoll) {#humanoid-gnoll}
+**Humanoid (gnoll)**
 
-[darkvision](ref/rule/darkvision) 60 ft.,
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft.,
 [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency)
 ([dire flail](ref/eq-weapon/dire-flail)), natural armor +2.
 
-## Humanoid (gnome) {#humanoid-gnome}
+**Humanoid (gnome)**
 
-defensive training, [gnome](ref/race/gnome) magic, hatred, illusion resistance, keen senses,
-low-light vision, obsessive, weapon familiarity.
+**Choice:** defensive training, _[gnome](ref/race/gnome) magic, hatred, illusion resistance, keen
+senses, low-light vision, obsessive, weapon familiarity._
 
-## Humanoid (goblinoid) {#humanoid-goblinoid}
+**Humanoid (goblinoid)**
 
-[darkvision](ref/rule/darkvision) 60 ft., goblin fast, Skill Focus (Stealth), natural armor (+2).
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., goblin fast, Skill Focus (Stealth), natural
+armor (+2).
 
-## Humanoid (half ling) {#humanoid-half-ling}
+**Humanoid (halfling)**
 
-fearless, [halfling](ref/race/halfling) luck, keen senses, sure-footed, weapon familiarity.
+**Choice:** _fearless, [halfling](ref/race/halfling) luck, keen senses, sure-footed, weapon
+familiarity._
 
-## Humanoid (human) {#humanoid-human}
+**Humanoid (human)**
 
-Great Fortitude, Iron Will, Lightning Reflexes, Skill Focus (choose one skill).
+**Choice:** Great Fortitude, Iron Will, Lightning Reflexes, Skill Focus (choose one skill).
 
-## Humanoid (orc) {#humanoid-orc}
+**Humanoid (orc)**
 
-[darkvision](ref/rule/darkvision) 60 ft., [ferocity](ref/umr/ferocity),
-[intimidating](ref/race/half-orc), orc blood, weapon familiarity.
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., [ferocity](ref/umr/ferocity),
+_[intimidating](ref/race/half-orc), orc blood, weapon familiarity._
 
-## Humanoid (reptilian) {#humanoid-reptilian}
+**Humanoid (reptilian)**
 
-[darkvision](ref/rule/darkvision) 60 ft., kobold fast (as goblin fast),
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., _kobold fast_ (as goblin fast^1-2^),
 [lizardfolk](ref/monster/lizardfolk)
-[hold breath](ref/carried/bestiary/rules/universal-monster-rules/hold-breath), natural armor +2,
+_[hold breath](ref/carried/bestiary/rules/universal-monster-rules/hold-breath),_ natural armor +2,
 Skill Focus (choose Acrobatics, Perception, or Stealth).
 
-## Magical Beast {#magical-beast}
+**Magical Beast**
 
-[darkvision](ref/rule/darkvision) 60 ft., Great Fortitude,
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., Great Fortitude,
 [low-light vision](ref/rule/low-light-vision), natural armor +2.
 
-## Monstrous Humanoid {#monstrous-humanoid}
+**Monstrous Humanoid**
 
-[darkvision](ref/rule/darkvision) 60 ft., Lightning Reflexes,
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., Lightning Reflexes,
 [low-light vision](ref/rule/low-light-vision), natural armor +2.
 
-## Ooze {#ooze}
+**Ooze**
 
-acid resistance 10, Great Fortitude, Iron Will, Skill Focus (choose Climb, Escape Artist, or
-Perception).
+**Choice:** acid resistance 10, Great Fortitude, Iron Will, Skill Focus (choose Climb, Escape
+Artist, or Perception).
 
-## Outsider {#outsider}
+**Outsider**
 
-[darkvision](ref/rule/darkvision) 60 ft., energy resistance 5 (choose one type of energy from acid,
-cold, electricity, or fire), Great Fortitude, Iron Will, Lightning Reflexes.
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., energy resistance 5 (choose one type of energy
+from acid, cold, electricity, or fire), Great Fortitude, Iron Will, Lightning Reflexes.
 
-## Plant {#plant}
+**Plant**
 
-[low-light vision](ref/rule/low-light-vision), Great Fortitude, Iron Will.
+**Choice:** [low-light vision](ref/rule/low-light-vision), Great Fortitude, Iron Will.
 
-## Undead {#undead}
+**Undead**
 
-[darkvision](ref/rule/darkvision) 60 ft., Great Fortitude, Iron Will, natural armor (+2). Skill
-Focus (Stealth).
+**Choice:** [darkvision](ref/rule/darkvision) 60 ft., Great Fortitude, Iron Will, natural armor
+(+2). Skill Focus (Stealth).
 
-## Vermin {#vermin}
+**Vermin**
 
-climb 15 ft., [darkvision](ref/rule/darkvision) 60 ft., Great Fortitude, Iron Will, swim 15 ft.
+**Choice:** climb 15 ft., [darkvision](ref/rule/darkvision) 60 ft., Great Fortitude, Iron Will, swim
+15 ft.

@@ -16,17 +16,11 @@ page = "114"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "touch-of-serenity", level = 1 },
-  { anchor = "touch-of-surrender", level = 12 },
-  { anchor = "touch-of-peace", level = 15 },
-  { anchor = "learned-master", level = 17 },
-]
 trades = [
-  { replaces = "Stunning Fist", feature = "stunning-fist", by = ["touch-of-serenity"] },
-  { replaces = "Abundant step", feature = "abundant-step", by = ["touch-of-surrender"] },
-  { replaces = "Quivering palm", feature = "quivering-palm", by = ["touch-of-peace"] },
-  { replaces = "Tongue of the sun and the moon", feature = "tongue-of-the-sun-and-moon", by = ["learned-master"] },
+  { replaces = "Stunning Fist", feature = "stunning-fist" },
+  { replaces = "Abundant step", feature = "abundant-step" },
+  { replaces = "Quivering palm", feature = "quivering-palm" },
+  { replaces = "Tongue of the sun and the moon", feature = "tongue-of-the-sun-and-moon" },
 ]
 +++
 
@@ -36,41 +30,63 @@ avoided - and is more than capable in a fight - he understands that all creature
 to harm another is to harm the self. Instead, he strives to find peaceful resolutions to conflicts,
 and in doing so, hopes to achieve inner peace. A monk of the lotus has the following class features.
 
-## Touch of Serenity (Su) {#touch-of-serenity}
+**Touch of Serenity (Su)**
 
-At 1st level, a monk of the lotus gains [Touch of Serenity](ref/feat/touch-of-serenity) as a bonus
-feat, even if he does not meet the prerequisites. At 6th level, and every six levels thereafter, the
-duration of Touch of Serenity increases by 1 round. Each round on its turn, the target may attempt a
-new Will save to end the effect. This duration does not stack; only the longest remaining duration
-applies. This ability replaces Stunning Fist.
+**Ability:** A monk of the lotus gains [Touch of Serenity](ref/feat/touch-of-serenity) as a bonus
+feat, even if he does not meet the prerequisites. The duration of Touch of Serenity is increased by
+[one-sixth](ref/misc/fractions-and-rounding) of his monk level.
 
-## Touch of Surrender (Su) {#touch-of-surrender}
+**Gained:** At 1st Level
 
-At 12th level, a monk of the lotus makes a foe into a friend with a single show of mercy. As an
-immediate action, when one of his melee attacks would reduce a creature to 0 or fewer hit points,
-the monk can spend 6 _ki_ points to make the target of that attack surrender. When the target
-surrenders, it is reduced to 0 hit points, becomes [disabled](ref/misc/disabled), and is charmed, as
-if the monk had cast _[charm monster](ref/spell/charm-monster)_ with a caster level equal to the
-monk's level. The target does not get a saving throw against this effect. This charm lasts until its
-duration expires, until the monk dismisses it or uses it on another creature, or until the target is
-again reduced to 0 or fewer hit points, whichever happens first. The monk can only have one creature
-charmed with touch of surrender at a time. This is a mind-affecting charm effect. This ability
-replaces abundant step.
+**Replaces:** Stunning Fist
 
-## Touch of Peace (Su) {#touch-of-peace}
+**Special:** Each round on its turn, the target may attempt a new Will save to end the effect. This
+duration does not stack; only the longest remaining duration applies.
 
-At 15th level, a monk of the lotus can set up vibrations within the body of another creature to win
-over the creature's mind. The monk can use touch of peace once per day, and must announce his intent
-before making his attack roll. On a successful hit, the attack deals no damage, but the target is
-charmed as if the monk had cast _[charm monster](ref/spell/charm-monster)_ with a caster level equal
-to the monk's level. The target does not get a saving throw against this effect. The creature is
-charmed for 1 day per level. If the monk or his allies attack the charmed creature, or if the monk
-asks or commands the charmed creature to take hostile actions, the effect ends. This is a
-mind-affecting charm effect. This ability replaces quivering palm.
+**Touch of Surrender (Su)**
 
-## Learned Master (Ex) {#learned-master}
+**Flavor:** A monk of the lotus makes a foe into a friend with a single show of mercy.
 
-At 17th level, a monk of the lotus gains all [Knowledge](ref/skill/knowledge-all) skills and the
+**Immediate:** When one of his melee attacks would reduce a creature to 0 or fewer hit points, the
+monk can spend 6 ki points to make the target of that attack surrender. When the target surrenders,
+it is reduced to 0 hit points, becomes [disabled](ref/misc/disabled), and is charmed, as if the monk
+had cast [charm monster](ref/spell/charm-monster) with a caster level equal to the monk's level. The
+target does not get a saving throw against this effect.
+
+**Gained:** At 12th Level
+
+**Replaces:** Abundant step
+
+**Special:** This charm lasts until its duration expires, until the monk dismisses it or uses it on
+another creature, or until the target is again reduced to 0 or fewer hit points, whichever happens
+first. The monk can only have one creature charmed with _touch of surrender_ at a time. This is a
+mind-affecting charm effect.
+
+**Touch of Peace (Su)**
+
+**Ability:** The monk can use _touch of peace_ once per day, and must announce his intent before
+making his attack roll. On a successful hit, the attack deals no damage, but the target is charmed
+as if the monk had cast _[charm monster](ref/spell/charm-monster)_ with a caster level equal to the
+monk's level. The target does not get a saving throw against this effect. The creature is charmed
+for 1 day per level.
+
+**Flavor:** A monk of the lotus can set up vibrations within the body of another creature to win
+over the creature's mind.
+
+**Gained:** At 15th Level
+
+**Replaces:** Quivering palm
+
+**Special:** If the monk or his allies attack the charmed creature, or if the monk asks or commands
+the charmed creature to take hostile actions, the effect ends. This is a mind-affecting charm
+effect.
+
+**Learned Master (Ex)**
+
+**Ability:** A monk of the lotus gains all [Knowledge](ref/skill/knowledge-all) skills and the
 [Linguistics](ref/skill/linguistics) skill as class skills. The monk uses Wisdom instead of
-Intelligence as the key ability for these skills. This ability replaces tongue of the sun and the
-moon.
+Intelligence as the key ability for these skills.
+
+**Gained:** At 17th Level
+
+**Replaces:** Tongue of the sun and the moon

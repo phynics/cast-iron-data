@@ -16,19 +16,12 @@ page = "111"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "ki-mystic", level = 3 },
-  { anchor = "mystic-insight", level = 5 },
-  { anchor = "mystic-visions", level = 11 },
-  { anchor = "mystic-prescience", level = 13 },
-  { anchor = "mystic-persistence", level = 19 },
-]
 trades = [
-  { replaces = "Still mind", feature = "still-mind", by = ["ki-mystic"] },
-  { replaces = "Purity of body", feature = "purity-of-body", by = ["mystic-insight"] },
-  { replaces = "Diamond body", feature = "diamond-body", by = ["mystic-visions"] },
-  { replaces = "Diamond soul", feature = "diamond-soul", by = ["mystic-prescience"] },
-  { replaces = "Empty body", feature = "empty-body", by = ["mystic-persistence"] },
+  { replaces = "Still mind", feature = "still-mind" },
+  { replaces = "Purity of body", feature = "purity-of-body" },
+  { replaces = "Diamond body", feature = "diamond-body" },
+  { replaces = "Diamond soul", feature = "diamond-soul" },
+  { replaces = "Empty body", feature = "empty-body" },
 ]
 +++
 
@@ -37,40 +30,63 @@ true root of perfection. Through meditation and spiritual visions, a ki mystic c
 veil of reality to the underlying truth of all existence. A ki mystic has the following class
 features.
 
-## Ki Mystic (Su) {#ki-mystic}
+**Ki Mystic (Su)**
 
-At 3rd level, a _ki_ mystic gains a pool of _ki_ points equal to his Wisdom modifier. The pool
-increases to 1/2 his monk level + his Wisdom modifier + 2 at level 4. If the monk has at least 1
-point of _ki_ in his _ki_ pool, he gains a +2 bonus on all Knowledge skill checks. As a swift
-action, the monk can spend 1 _ki_ point immediately before making an ability, or skill check to gain
-a +4 insight bonus on the check. This ability replaces still mind.
+**Ability:** A ki mystic gains a pool of ki points equal to his Wisdom modifier. If the monk has at
+least 1 point of ki in his _ki pool,_ he gains a +2 bonus on all Knowledge skill checks.
 
-## Mystic Insight (Su) {#mystic-insight}
+**At 4th Level:** The pool increases to 1/2 his monk level + his Wisdom modifier + 2.
 
-At 5th level, a _ki_ mystic becomes apt at giving just the right word of advice in just the nick of
-time. As an immediate action, the monk can spend 2 _ki_ points to grant an ally within 30 feet the
-ability to reroll a single attack roll or saving throw. The ally must be able to hear the monk to
-gain the reroll benefit. This ability replaces purity of body.
+**Gained:** At 3rd Level
 
-## Mystic Visions (Su) {#mystic-visions}
+**Replaces:** Still mind
 
-At 11th level, a _ki_ mystic may receive mystic visions when he rests. These visions can come as a
+**Swift:** The monk can spend 1 ki point immediately before making an ability or skill check to gain
+a +4 insight bonus on the check.
+
+**Mystic Insight (Su)**
+
+**Flavor:** A ki mystic becomes apt at giving just the right word of advice in just the nick of
+time.
+
+**Immediate:** The monk can spend 2 ki points to grant an ally within 30 feet the ability to reroll
+a single attack roll or saving throw. The ally must be able to hear the monk to gain the reroll
+benefit.
+
+**Gained:** At 5th Level
+
+**Replaces:** Purity of body
+
+**Mystic Visions (Su)**
+
+**Ability:** A ki mystic may receive mystic visions when he rests. These visions can come as a
 dream, an epiphany, or even as the voice of an old friend whispering in the monk's mind. The effect
-is similar to a _[divination](ref/spell/divination)_ spell with a caster level equal to the monk's
-level. The _divination_ has no casting time; it is just part of the normal dreams or visions that
-occur every night. Using this ability costs 2 _ki_ points that are removed from the next day's
-total. This ability replaces diamond body.
+is similar to a [divination](ref/spell/divination) spell with a caster level equal to the monk's
+level. The divination has no casting time; it is just part of the normal dreams or visions that
+occur every night. Using this ability costs 2 ki points that are removed from the next day's total.
 
-## Mystic Prescience (Su) {#mystic-prescience}
+**Gained:** At 11th Level
 
-At 13th level, a _ki_ mystic gains a +2 insight bonus to AC and CMD. At 20th level, the bonus
-increases to +4. This ability replaces diamond soul.
+**Replaces:** Diamond body
 
-## Mystic Persistence (Su) {#mystic-persistence}
+**Mystic Prescience (Su)**
 
-At 19th level, a _ki_ mystic can create an aura once per day as a swift action at the cost of at
-least 2 points of _ki._ The aura emanates out to a 20-foot radius. The monk and all allies within
-the aura can roll two dice when making an attack roll or a saving throw and take the better result.
-The aura lasts for 1 round, plus an additional round for every 2 _ki_ points spent when the monk
-created the aura. The monk can dismiss the aura at any time as a free action, but the _ki_ points
-for the full duration of the aura are lost. This ability replaces empty body.
+**At 13th Level:** A ki mystic gains a +2 insight bonus to AC and CMD.
+
+**At 20th Level:** The bonus increases to +4.
+
+**Replaces:** Diamond soul
+
+**Mystic Persistence (Su)**
+
+**Gained:** At 19th Level
+
+**Replaces:** Empty body
+
+**Special:** The monk can dismiss the aura at any time as a **free action**, but the ki points for
+the full duration of the aura are lost.
+
+**Swift:** A ki mystic can create an aura once per day at the cost of at least 2 points of ki. The
+aura emanates out to a 20-foot radius. The monk and all allies within the aura can roll two dice
+when making an attack roll or a saving throw and take the better result. The aura lasts for 1 round,
+plus an additional round for every 2 ki points spent when the monk created the aura.

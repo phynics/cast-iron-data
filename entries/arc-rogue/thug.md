@@ -16,13 +16,9 @@ page = "135"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "frightening", level = 1 },
-  { anchor = "brutal-beating", level = 3 },
-]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding", by = ["frightening"] },
-  { replaces = "Trap sense", feature = "trap-sense", by = ["brutal-beating"] },
+  { replaces = "Trapfinding", feature = "trapfinding" },
+  { replaces = "Trap sense", feature = "trap-sense" },
 ]
 +++
 
@@ -31,26 +27,27 @@ gone and the coin already spent. A thug, on the other hand, cares nothing for fi
 threat and violence, the thug gets what she wants by the promise of force, and has no problem making
 good on that promise as needed.
 
-## Frightening (Ex) {#frightening}
+**Frightening (Ex)**
 
-Whenever a thug successfully uses [Intimidate](ref/skill/intimidate) to demoralize a creature, the
-duration of the [shaken](ref/misc/shaken) condition is increased by 1 round. In addition, if the
-target is shaken for 4 or more rounds, the thug can instead decide to make the target
-[frightened](ref/misc/frightened) for 1 round. This ability replaces trapfinding.
+**Ability:** Whenever a thug successfully uses [Intimidate](ref/skill/intimidate) to demoralize a
+creature, the duration of the [shaken](ref/misc/shaken) condition is increased by 1 round. In
+addition, if the target is shaken for 4 or more rounds, the thug can instead decide to make the
+target [frightened](ref/misc/frightened) for 1 round.
 
-## Brutal Beating (Ex) {#brutal-beating}
+**Replaces:** Trapfinding
 
-At 3rd level, whenever a thug deals sneak attack damage, she can choose to forgo 1d6 points of sneak
+**Brutal Beating (Ex)**
+
+**Ability:** Whenever a thug deals sneak attack damage, she can choose to forgo 1d6 points of sneak
 attack damage to make the target [sickened](ref/misc/sickened) for a number of rounds equal to 1/2
-her rogue level. This ability does not stack with itself—only the most recent duration applies. This
-ability replaces trap sense.
+her rogue level. This ability does not stack with itself - only the most recent duration applies.
 
-## Rogue Talents {#rogue-talents}
+**Gained:** At 3rd Level
 
-The following rogue talents complement the thug archetype: offensive defense, powerful sneak, strong
-impression, and weapon training.
+**Replaces:** Trap sense
 
-## Advanced Talents {#advanced-talents}
+**These rogue talents complement this archetype:** Offensive defense, powerful sneak, strong
+impression, weapon training
 
-The following advanced rogue talents complement the thug archetype: crippling strike, deadly sneak,
-and knock-out blow.
+**These advanced rogue talents complement this archetype:** Crippling strike, deadly sneak,
+knock-out blow

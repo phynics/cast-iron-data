@@ -16,30 +16,18 @@ page = "115"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "flurry-of-blows", level = 1 },
-  { anchor = "perfect-strike", level = 1 },
-  { anchor = "way-of-the-bow", level = 2 },
-  { anchor = "zen-archery", level = 3 },
-  { anchor = "point-blank-master", level = 3 },
-  { anchor = "ki-pool", level = 4 },
-  { anchor = "ki-arrows", level = 5 },
-  { anchor = "reflexive-shot", level = 9 },
-  { anchor = "trick-shot", level = 11 },
-  { anchor = "ki-focus-bow", level = 17 },
-]
 trades = [
   { replaces = "The monk's normal bonus feats", feature = "bonus-feat" },
-  { replaces = "Stunning Fist", feature = "stunning-fist", by = ["perfect-strike"] },
-  { replaces = "Evasion", feature = "evasion", by = ["way-of-the-bow", "reflexive-shot"] },
-  { replaces = "Maneuver training", feature = "maneuver-training", by = ["zen-archery"] },
-  { replaces = "Still mind", feature = "still-mind", by = ["point-blank-master"] },
-  { replaces = "Purity of body", feature = "purity-of-body", by = ["ki-arrows"] },
-  { replaces = "Improved evasion", feature = "improved-evasion", by = ["reflexive-shot"] },
-  { replaces = "Diamond body", feature = "diamond-body", by = ["trick-shot"] },
-  { replaces = "Tongue of the sun and moon", feature = "tongue-of-the-sun-and-moon", by = ["ki-focus-bow"] },
-  { alters = "Flurry of blows", feature = "flurry-of-blows", by = ["flurry-of-blows"] },
-  { alters = "Ki pool", feature = "ki-pool", by = ["ki-pool"] },
+  { replaces = "Stunning Fist", feature = "stunning-fist" },
+  { replaces = "Evasion", feature = "evasion" },
+  { replaces = "Maneuver training", feature = "maneuver-training" },
+  { replaces = "Still mind", feature = "still-mind" },
+  { replaces = "Purity of body", feature = "purity-of-body" },
+  { replaces = "Improved evasion", feature = "improved-evasion" },
+  { replaces = "Diamond body", feature = "diamond-body" },
+  { replaces = "Tongue of the sun and moon", feature = "tongue-of-the-sun-and-moon" },
+  { alters = "Flurry of blows", feature = "flurry-of-blows" },
+  { alters = "Ki pool", feature = "ki-pool" },
 ]
 +++
 
@@ -47,94 +35,138 @@ Some monks seek to become one with another weapon entirely - the bow. The zen ar
 most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's
 limbs, and the flight of an arrow fired true.
 
-## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
+**Weapon and Armor Proficiency**
 
-Zen archers are proficient with [longbows](ref/eq-weapon/longbow),
+**Info:** Zen archers are proficient with [longbows](ref/eq-weapon/longbow),
 [shortbows](ref/eq-weapon/shortbow), [composite longbows](ref/eq-weapon/composite-longbow), and
 [composite shortbows](ref/eq-weapon/composite-shortbow) in addition to their normal weapon
 proficiencies.
 
-## Flurry of Blows (Ex) {#flurry-of-blows}
+**Flurry of Blows (Ex)**
 
-Starting at 1st level, a zen archer can make a flurry of blows as a full-attack action, but only
-when using a bow (even though it is a ranged weapon). He may not make a flurry of blows with his
-unarmed attacks or any other weapons. A zen archer does not apply his Strength bonus on damage rolls
-made with flurry of blows unless he is using a composite bow with a Strength rating. A zen archer's
-flurry of blows otherwise functions as normal for a monk of his level.
+**Ability:** A zen archer can make a _flurry of blows_ as a full-attack action, but only when using
+a bow (even though it is a ranged weapon). He may not make a _flurry of blows_ with his unarmed
+attacks or any other weapons. A zen archer does not apply his Strength bonus on damage rolls made
+with _flurry of blows_ unless he is using a composite bow with a Strength rating. A zen archer's
+_flurry of blows_ otherwise functions as normal for a monk of his level.
 
-A zen archer cannot use [Rapid Shot](ref/feat/rapid-shot) or [Manyshot](ref/feat/manyshot) when
-making a flurry of blows with his bow.
+**Alters:** Flurry of blows
 
-## Bonus Feats {#bonus-feats}
+**Gained:** At 1st Level
 
-A zen archer's bonus feats must be taken from the following list:
+**Special:** A zen archer cannot use [Rapid Shot](ref/feat/rapid-shot) or
+[Manyshot](ref/feat/manyshot) when making a _flurry of blows_ with his bow.
+
+**Bonus Feats**
+
+**At 1st Level:** A zen archer's bonus feats must be taken from the following list:
 [Combat Reflexes](ref/feat/combat-reflexes), [Deflect Arrows](ref/feat/deflect-arrows),
 [Dodge](ref/feat/dodge), [Far Shot](ref/feat/far-shot),
 [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), and Rapid
-Shot. At 6th level, the following feats are added to the list:
-[Focused Shot](ref/feat/focused-shot), [Improved Precise Shot](ref/feat/improved-precise-shot),
-Manyshot, [Mobility](ref/feat/mobility), and [Parting Shot](ref/feat/parting-shot). At 10th level,
-the following feats are added to the list: [Improved Critical](ref/feat/improved-critical),
-[Pinpoint Targeting](ref/feat/pinpoint-targeting), [Shot on the Run](ref/feat/shot-on-the-run), and
-[Snatch Arrows](ref/feat/snatch-arrows). A monk need not have any of the prerequisites normally
-required for these feats to select them. These feats replace the monk's normal bonus feats.
+Shot.
 
-## Perfect Strike (Ex) {#perfect-strike}
+**At 10th Level:** The following feats are added to the list:
+[Improved Critical](ref/feat/improved-critical), [Pinpoint Targeting](ref/feat/pinpoint-targeting),
+[Shot on the Run](ref/feat/shot-on-the-run), and [Snatch Arrows](ref/feat/snatch-arrows).
 
-At 1st level, a zen archer gains [Perfect Strike](ref/feat/perfect-strike) as a bonus feat, even if
-he does not meet the prerequisites. A zen archer can use Perfect Strike with any bow. At 10th level,
-the monk can roll his attack roll three times and take the highest result. If one of these rolls is
-a critical threat, the monk must choose one of his other two rolls to use as his confirmation roll.
-This ability replaces Stunning Fist.
+**At 6th Level:** The following feats are added to the list: [Focused Shot](ref/feat/focused-shot),
+[Improved Precise Shot](ref/feat/improved-precise-shot), Manyshot, [Mobility](ref/feat/mobility),
+and [Parting Shot](ref/feat/parting-shot).
 
-## Way of the Bow (Ex) {#way-of-the-bow}
+**Replaces:** The monk's normal bonus feats
 
-At 2nd level, a zen archer gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat with one type
-of bow. At 6th level, the monk gains [Weapon Specialization](ref/feat/weapon-specialization) with
-the same weapon as a bonus feat, even if he does not meet the prerequisites. This ability replaces
-evasion.
+**Special:** A monk need not have any of the prerequisites normally required for these feats to
+select them.
 
-## Zen Archery (Ex) {#zen-archery}
+**Perfect Strike (Ex)**
 
-At 3rd level, a zen archer may use his Wisdom modifier instead of his Dexterity modifier on ranged
-attack rolls when using a bow. This ability replaces maneuver training.
+**At 1st Level:** A zen archer gains [Perfect Strike](ref/feat/perfect-strike) as a bonus feat, even
+if he does not meet the prerequisites. A zen archer can use Perfect Strike with any bow.
 
-## Point Blank Master (Ex) {#point-blank-master}
+**At 10th Level:** The monk can roll his attack roll three times and take the highest result. If one
+of these rolls is a critical threat, the monk must choose one of his other two rolls to use as his
+confirmation roll.
 
-At 3rd level, a zen archer gains [Point Blank Master](ref/feat/point-blank-master) as a bonus feat,
-even if he does not meet the prerequisites. This ability replaces still mind.
+**Replaces:** Stunning Fist
 
-## Ki Pool (Su) {#ki-pool}
+**Way of the Bow (Ex)**
 
-At 4th level, in addition to the normal abilities of his _ki_ pool, a zen archer may spend 1 point
-from his _ki_ pool to increase the range increment for his bow by 50 feet for 1 round.
+**At 2nd Level:** A zen archer gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat with one
+type of bow.
 
-## Ki Arrows (Su) {#ki-arrows}
+**At 6th Level:** The monk gains [Weapon Specialization](ref/feat/weapon-specialization) with the
+same weapon as a bonus feat, even if he does not meet the prerequisites.
 
-At 5th level, a zen archer may spend 1 point from his _ki_ pool as a swift action to change the
-damage dice of arrows he shoots to that of his unarmed strikes. This lasts until the start of his
-next turn. For example, a Medium zen archer's short bow normally deals 1d6 damage; using this
-ability, his arrows deal 1d8 damage until the start of his next turn. This ability replaces purity
-of body.
+**Replaces:** Evasion
 
-## Reflexive Shot (Ex) {#reflexive-shot}
+**Zen Archery (Ex)**
 
-At 9th level, a zen archer can make attacks of opportunity with arrows from his bow. The monk still
+**Ability:** A zen archer may use his Wisdom modifier instead of his Dexterity modifier on ranged
+attack rolls when using a bow.
+
+**Gained:** At 3rd Level
+
+**Replaces:** Maneuver training
+
+**Point Blank Master (Ex)**
+
+**Ability:** A zen archer gains [Point-Blank Master](ref/feat/point-blank-master) as a bonus feat,
+even if he does not meet the prerequisites.
+
+**Gained:** At 3rd Level
+
+**Replaces:** Still mind
+
+**Ki Pool (Su)**
+
+**Ability:** In addition to the normal abilities of his _ki pool,_ a zen archer may spend 1 point
+from his _ki pool_ to increase the range increment for his bow by 50 feet for 1 round.
+
+**Alters:** Ki pool
+
+**Gained:** At 4th Level
+
+**Ki Arrows (Su)**
+
+**Gained:** At 5th Level
+
+**Replaces:** Purity of body
+
+**Swift:** A zen archer may spend 1 point from his _ki pool_ to change the damage dice of arrows he
+shoots to that of his unarmed strikes. This lasts until the start of his next turn. For example, a
+Medium zen archer's short bow normally deals 1d6 damage; using this ability, his arrows deal 1d8
+damage until the start of his next turn.
+
+**Reflexive Shot (Ex)**
+
+**Ability:** A zen archer can make attacks of opportunity with arrows from his bow. The monk still
 threatens squares he could reach with unarmed strikes, and can still only make one attack of
-opportunity per round (unless he has Combat Reflexes). This ability replaces improved evasion.
+opportunity per round (unless he has Combat Reflexes).
 
-## Trick Shot (Su) {#trick-shot}
+**Gained:** At 9th Level
 
-At 11th level, a zen archer may hit targets that he might otherwise miss. By spending 1 point from
-his _ki_ pool as a swift action, the zen archer can ignore [concealment](ref/rule/concealment). By
-spending 2 points, he can ignore total concealment or [cover](ref/rule/cover). By spending 3 points,
-he can ignore total cover, even firing arrows around corners. The arrow must still be able to reach
-the target; a target inside a closed building with no open doors or windows cannot be attacked.
-These effects last for 1 round. This ability replaces diamond body.
+**Replaces:** Improved evasion
 
-## Ki Focus Bow (Su) {#ki-focus-bow}
+**Trick Shot (Su)**
 
-At 17th level, as long as he has at least 1 point of _ki_ in his _ki_ pool, a zen archer may treat
-arrows fired from his bow as if they were _[ki focus](ref/magic-enh/ki-focus)_ weapons, allowing him
-to use his special _ki_ attacks as if his arrows were unarmed attacks. This ability replaces tongue
-of the sun and moon.
+**Flavor:** A zen archer may hit targets that he might otherwise miss.
+
+**Gained:** At 11th Level
+
+**Replaces:** Diamond body
+
+**Swift:** By spending 1 point from his _ki pool,_ the zen archer can ignore
+[concealment](ref/rule/concealment). By spending 2 points, he can ignore total concealment or
+[cover](ref/rule/cover). By spending 3 points, he can ignore total cover, even firing arrows around
+corners. The arrow must still be able to reach the target; a target inside a closed building with no
+open doors or windows cannot be attacked. These effects last for 1 round.
+
+**Ki Focus Bow (Su)**
+
+**Ability:** As long as he has at least 1 point of ki in his _ki pool,_ a zen archer may treat
+arrows fired from his bow as if they were [ki focus](ref/magic-enh/ki-focus) weapons, allowing him
+to use his special ki attacks as if his arrows were unarmed attacks.
+
+**Gained:** At 17th Level
+
+**Replaces:** Tongue of the sun and moon

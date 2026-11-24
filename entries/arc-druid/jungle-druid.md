@@ -16,19 +16,12 @@ page = "100"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "jungle-guardian", level = 2 },
-  { anchor = "woodland-stride" },
-  { anchor = "torrid-endurance", level = 4 },
-  { anchor = "wild-shape" },
-  { anchor = "verdant-sentinel", level = 13 },
-]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride", by = ["jungle-guardian"] },
-  { replaces = "Trackless step", feature = "trackless-step", by = ["woodland-stride"] },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["torrid-endurance"] },
-  { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["verdant-sentinel"] },
-  { alters = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
+  { replaces = "Woodland stride", feature = "woodland-stride" },
+  { replaces = "Trackless step", feature = "trackless-step" },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
+  { replaces = "A thousand faces", feature = "a-thousand-faces" },
+  { alters = "Wild shape", feature = "wild-shape" },
 ]
 +++
 
@@ -36,29 +29,47 @@ The fecund jungles of the equatorial regions are rich in life and ancient tradit
 guardians of sacred pools, elder trees, and trembling volcanoes watch over crumbling temples and the
 inevitable reclamation of lost civilizations by the beating heart of nature untamed.
 
-## Jungle Guardian (Ex) {#jungle-guardian}
+**Jungle Guardian (Ex)**
 
-At 2nd level, a jungle druid gains a bonus on Initiative checks and Climb, Knowledge (geography),
-Perception, Stealth, and Survival checks equal to 1/2 her druid level in jungle terrain, and she
-cannot be tracked in such environments. This ability replaces woodland stride.
+**Gained:** At 2nd Level
 
-## Woodland Stride (Ex) {#woodland-stride}
+**Passive:** A jungle druid gains a bonus on Initiative checks and Climb, Knowledge (geography),
+Perception, Stealth, and Survival checks equal to [half](ref/misc/fractions-and-rounding) her druid
+level in jungle terrain, and she cannot be tracked in such environments.
 
-A jungle druid gains this ability at 3rd level. This ability replaces trackless step.
+**Replaces:** Woodland stride
 
-## Torrid Endurance (Ex) {#torrid-endurance}
+**Woodland Stride (Ex)**
 
-At 4th level, a jungle druid ignores the effects of a hot climate as if under the effects of
-_[endure elements](ref/spell/endure-elements)_. She also gains a +4 bonus on saves against disease
-and the exceptional abilities of animals and magical beasts. This ability replaces resist nature's
-lure.
+**Ability:** A jungle druid gains _woodland stride_ at this level.
 
-## Wild Shape (Su) {#wild-shape}
+**Gained:** At 3rd Level
 
-A jungle druid gains this ability at 6th level, except that her effective druid level for the
+**Replaces:** Trackless step
+
+**Torrid Endurance (Ex)**
+
+**Gained:** At 4th Level
+
+**Passive:** A jungle druid ignores the effects of a hot climate as if under the effects of
+[endure elements](ref/spell/endure-elements). She also gains a +4 bonus on saves against disease and
+the exceptional abilities of animals and magical beasts.
+
+**Replaces:** Resist nature's lure
+
+**Wild Shape (Su)**
+
+**Ability:** A jungle druid gains _wild shape,_ except that her effective druid level for this
 ability is equal to her druid level - 2.
 
-## Verdant Sentinel (Ex) {#verdant-sentinel}
+**Alters:** Wild shape
 
-At 13th level, a jungle druid can cast _[tree shape](ref/spell/tree-shape)_ at will. This ability
-replaces a thousand faces.
+**Gained:** At 6th Level
+
+**Verdant Sentinel (Ex)**
+
+**Ability:** A jungle druid can cast [tree shape](ref/spell/tree-shape) at will.
+
+**Gained:** At 13th Level
+
+**Replaces:** A thousand faces

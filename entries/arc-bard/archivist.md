@@ -16,83 +16,115 @@ page = "80"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "bardic-performance" },
-  { anchor = "naturalist" },
-  { anchor = "lamentable-belaborment", level = 6 },
-  { anchor = "pedantic-lecture", level = 18 },
-  { anchor = "lore-master", level = 2 },
-  { anchor = "magic-lore", level = 2 },
-  { anchor = "jack-of-all-trades", level = 5 },
-  { anchor = "probable-path", level = 10 },
-]
 trades = [
-  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage", by = ["naturalist"] },
-  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion", by = ["lamentable-belaborment", "pedantic-lecture"] },
-  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion", by = ["pedantic-lecture"] },
-  { replaces = "Versatile performance", feature = "versatile-performance", by = ["lore-master"] },
-  { replaces = "Well-versed", feature = "well-versed", by = ["magic-lore"] },
-  { replaces = "Lore master", feature = "lore-master", by = ["jack-of-all-trades"] },
-  { replaces = "Jack of all trades", feature = "jack-of-all-trades", by = ["probable-path"] },
+  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage" },
+  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion" },
+  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion" },
+  { replaces = "Versatile performance", feature = "versatile-performance" },
+  { replaces = "Well-versed", feature = "well-versed" },
+  { replaces = "Lore master", feature = "lore-master" },
+  { replaces = "Jack of all trades", feature = "jack-of-all-trades" },
 ]
 +++
 
 Some bards greatly prefer academic pursuits to the drama (and sometimes melodrama) of their artistic
 brethren.
 
-## Bardic Performance {#bardic-performance}
+**Bardic Performance**
 
-An archivist gains the following types of bardic performance.
+**Info:** An archivist gains the following types of bardic performance.
 
-## Naturalist (Ex) {#naturalist}
+**Naturalist (Ex)**
 
-An archivist who has identified a creature with a Knowledge check appropriate to its type can use
-performance to share strategies for defeating it with allies in combat. The archivist and any allies
-within 30 feet gain a +1 insight bonus to AC and on attack rolls and saving throws against
-exceptional, supernatural, and [spell-like abilities](ref/umr/spell-like-abilities) used by
+**Ability:** An archivist who has identified a creature with a Knowledge check appropriate to its
+type can use performance to share strategies for defeating it with allies in combat. The archivist
+and any allies within 30 feet gain a +1 insight bonus to AC and on attack rolls and saving throws
+against exceptional, supernatural, and [spell-like abilities](ref/umr/spell-like-abilities) used by
 creatures of that specific kind of monster (e.g.,
-[frost giants](ref/monster/giant-frost-frost-giant), not all giants or all humanoids). This bonus
-increases by +1 at 5th level and every six levels thereafter. This language-dependent ability
-requires visual and audible components. This ability replaces inspire courage.
+[frost giants](ref/monster/giant-frost-frost-giant), not all giants or all humanoids).
 
-## Lamentable Belaborment (Ex) {#lamentable-belaborment}
+**Replaces:** Inspire courage
 
-At 6th level, an archivist can bewilder a creature already [fascinated](ref/misc/fascinated) by his
+**Special:** This language-dependent ability requires visual and audible components.
+
+At 5th level: The bonus increases to +2.
+
+At 11th level: The bonus increases to +3.
+
+At 17th level: The bonus increases to +4.
+
+**Lamentable Belaborment (Ex)**
+
+**Ability:** An archivist can bewilder a creature already [fascinated](ref/misc/fascinated) by his
 performance. Using this ability does not disrupt the fascinate effect, but it does require a
-standard action to activate (in addition to the free action to continue the fascinate effect). The
-target must make a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier). Success
-renders the target immune to this power for 24 hours, but failure leaves the target either
-[dazed](ref/misc/dazed) or [confused](ref/misc/confused) (archivist's choice) for as long as the
-performance continues. If the target takes damage, this effect ends immediately. This mind-affecting
-ability relies on audible components. This ability replaces suggestion.
+**standard action** to activate (in addition to the **free action** to continue the fascinate
+effect). The target must make a Will save (DC 10 + [half](ref/misc/fractions-and-rounding) the
+bard's level + the bard's Cha modifier). Success renders the target immune to this power for 24
+hours, but failure leaves the target either [dazed](ref/misc/dazed) or [confused](ref/misc/confused)
+(archivist's choice) for as long as the performance continues.
 
-## Pedantic Lecture (Su) {#pedantic-lecture}
+**Gained:** At 6th Level
 
-At 18th level, an archivist can affect as many creatures with lamentable belaborment as he currently
+**Replaces:** Suggestion
+
+**Special:** If the target takes damage, this effect ends immediately. This mind-affecting ability
+relies on audible components.
+
+**Pedantic Lecture (Su)**
+
+**Ability:** An archivist can affect as many creatures with _lamentable belaborment_ as he currently
 has fascinated. In addition, he may choose to cause targets to fall asleep rather than be dazed or
-confused. This ability replaces mass suggestion.
+confused.
 
-## Lore Master (Ex) {#lore-master}
+**Gained:** At 18th Level
 
-At 2nd level, an archivist may take 20 on Knowledge checks once per day, plus once per six levels
-beyond 2nd. This ability replaces versatile performance.
+**Replaces:** Mass suggestion
 
-## Magic Lore (Ex) {#magic-lore}
+**Lore Master (Ex)**
 
-At 2nd level, an archivist gains a bonus on Spellcraft checks to identify magic items or decipher
-scrolls equal to half his bard level and may take 10 on such checks. An archivist can use Disable
-Device to disarm magical traps as per a rogue's [trapfinding](ref/ability/trapfinding) ability and
-gains a +4 bonus on saves against magical traps, language-dependent effects, and symbols, glyphs,
-and magical writings of any kind. This ability replaces well-versed.
+**At 14th Level:** He may do so three times a day.
 
-## Jack of All Trades (Ex) {#jack-of-all-trades}
+**At 2nd Level:** An archivist may take 20 on Knowledge checks once per day.
 
-At 5th level, an archivist can use any skill, even if the skill normally requires him to be trained.
-At 11th level, he considers all skills to be class skills, and at 17th level he can take 10 on any
-skill check, even if it is not normally allowed. This ability replaces lore master.
+**At 20th Level:** He may do so four times a day.
 
-## Probable Path (Ex) {#probable-path}
+**At 8th Level:** He may do so twice a day.
 
-At 10th level, an archivist can calculate the action likely to bring success with the least risk.
-Once per day, he can take 10 on any d20 roll. He may use this ability one additional time per day
-for every three levels after 10th. This ability replaces jack of all trades.
+**Replaces:** Versatile performance
+
+**Magic Lore (Ex)**
+
+**Ability:** An archivist can use Disable Device to disarm magical traps as per a rogue's
+[trapfinding](ref/ability/trapfinding) ability.
+
+**Passive:** An archivist gains a bonus on Spellcraft checks to identify magic items or decipher
+scrolls equal to half his bard level and may take 10 on such checks. He gains a +4 bonus on saves
+against magical traps, language-dependent effects, and symbols, glyphs, and magical writings of any
+kind.
+
+**Replaces:** Well-versed
+
+**Jack-of-All-Trades (Ex)**
+
+**At 11th Level:** He considers all skills to be class skills.
+
+**At 17th Level:** He can take 10 on any skill check, even if it is not normally allowed.
+
+**At 5th Level:** An archivist can use any skill, even if the skill normally requires him to be
+trained.
+
+**Replaces:** Lore master
+
+**Probable Path (Ex)**
+
+**Flavor:** An archivist can calculate the action likely to bring success with the least risk
+
+**At 10th Level:** Once per day, he can take 10 on any d20 roll.
+
+**At 13th Level:** He may do so twice a day.
+
+**At 16th Level:** He may do so three times a day.
+
+**At 19th Level:** He may do so four times a day.
+
+**Replaces:** Jack of all trades
