@@ -604,6 +604,9 @@ ref/trait/dark-magic-affinity	blood-of-fiends	30	print
 ref/trait/deadly-rush	blood-of-fiends	20	print	
 ref/trait/dealmaker	adventurers-armory	30	print	
 ref/trait/deaths-deputy	blood-of-fiends	19	print	
+ref/trait/demon-hunter	advanced-players-guide	332	print		the religion trait is printed on this page as Asmodean Demon Hunter (Asmodeus), with the same text; the entry title reads Demon Hunter; the membership holds
+ref/trait/demon-hunter	cheliax-empire-of-devils	19	print		the religion trait is printed on this page as Asmodean Demon Hunter (Asmodeus), with the same text; the entry title reads Demon Hunter; the membership holds
+ref/trait/demon-hunter	ultimate-campaign	63	print		the religion trait is printed on this page as Asmodean Demon Hunter (Asmodeus), with the same text; the entry title reads Demon Hunter; the membership holds
 ref/trait/detect-disobedience	champions-of-corruption	7	print	
 ref/trait/devil-fighter	armor-masters-handbook	2	print	
 ref/trait/dirty-trickster	antiheros-handbook	7	print	
@@ -2790,6 +2793,7 @@ ref/patron/animals	advanced-players-guide	70	print
 ref/patron/deception	advanced-players-guide	70	print	
 ref/patron/elements	advanced-players-guide	70	print	
 ref/patron/endurance	advanced-players-guide	70	print	
+ref/patron/nightmares	horror-adventures	72	print		the witch patron is printed under its name with the same spell list (sleep, detect thoughts, oneiric horror, phantasmal killer, nightmare, dream travel, symbol of weakness, demand, polar midnight) on this page; the membership holds (the earlier reference listed the entry only in other books)
 ref/patron/plague	advanced-players-guide	70	print	
 ref/patron/shadow	advanced-players-guide	70	print	
 ref/patron/strength	advanced-players-guide	70	print	
@@ -4432,6 +4436,7 @@ ref/ragepower/tor-linnorm-death-curse	advanced-class-guide	114	print		the rage p
 ref/carried/core-rulebook/rules/glossary/special-abilities/poison/burnt-othur-fumes	core-rulebook	558	print		the poison (save DC, frequency, effects, cure) is in the Poison list of the glossary on this page; Table 16-2 repeats it on page 559
 ref/performance/countersong	core-rulebook	36	print		the bardic performance is printed under its name on this page
 ref/performance/dirge-of-doom	core-rulebook	37	print		the bardic performance is printed under its name on this page
+ref/performance/distraction	core-rulebook	36	print		the bardic performance is printed under its name on this page; the membership holds (the earlier reference listed the entry only in other books)
 ref/performance/fascinate	core-rulebook	37	print		the bardic performance is printed under its name on this page
 ref/performance/inspire-competence	core-rulebook	37	print		the bardic performance is printed under its name on this page
 ref/performance/inspire-courage	core-rulebook	37	print		the bardic performance is printed under its name on this page

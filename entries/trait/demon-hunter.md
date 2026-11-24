@@ -7,6 +7,16 @@ provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_hunter", path = "json/traits03.json" },
 ]
 
+[[sources]]
+publication = "advanced-players-guide"
+page = "332"
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "19"
+[[sources]]
+publication = "ultimate-campaign"
+page = "63"
+
 [fields]
 kind = "trait"
 category = "Religion"
