@@ -2,127 +2,8 @@
 # except the `edit` text of a feature (status `edit` in the review TSV).
 
 [[entry]]
-id = "ref/arc-alchemist/chirurgeon"
-opening = ["An alchemist who studies anatomy and uses this knowledge to heal is a chirurgeon. A chirurgeon has the following class features."]
-
-[[entry.feature]]
-anchor = "infused-curative"
-head = "Infused Curative"
-listed = true
-level = 2
-print = "At 2nd level, a chirurgeon's extracts of _cure_ spells automatically act as infusions, and can be used by non-alchemists. When a chirurgeon prepares his extracts, he may choose to render any or all of his infused curatives inert and prepare other extracts to replace them (unlike infusions, which continue to occupy the alchemist's daily extract slots until consumed or used). This ability replaces poison use."
-import_trades = ["Poison use"]
-
-[[entry.feature]]
-anchor = "anaesthetic"
-head = "Anaesthetic"
-listed = true
-level = 5
-print = "At 5th level, a chirurgeon learns how to supplement uses of the Heal skill with pain-killing drugs. He gains [Skill Focus](ref/feat/skill-focus) (Heal) as a bonus feat. Any use of the Heal skill that has a risk of harming the patient (such as extracting a barb) only deals the minimum damage when performed by a chirurgeon. This ability replaces poison resistance +4."
-import_trades = ["Poison resistance +4"]
-
-[[entry.feature]]
-anchor = "power-over-death"
-head = "Power Over Death"
-listed = true
-level = 10
-print = "At 10th level, a chirurgeon adds _[breath of life](ref/spell/breath-of-life)_ to his formula book as a 4th-level extract. His infused curative ability applies to this extract. This ability replaces poison immunity."
-import_trades = ["Poison immunity"]
-
-[[entry.feature]]
-anchor = "discoveries"
-head = "Discoveries"
-listed = false
-print = "The following discoveries complement the chirurgeon archetype: [elixir of life](ref/discovery/elixir-of-life), [healing touch](ref/discovery/healing-touch), [infusion](ref/discovery/infusion), and [spontaneous healing](ref/discovery/spontaneous-healing)."
-
-[[entry]]
-id = "ref/arc-alchemist/clone-master"
-opening = ["Clone masters practice duplicating existing creatures in order to better understand how to create new life. A clone master has the following class features."]
-
-[[entry.feature]]
-anchor = "bomb"
-head = "Bomb"
-listed = true
-print = "A clone master's bombs deal damage one die step lower than normal (regular bombs deal d4s, [concussive bombs](ref/discovery/concussive-bomb) deal 1d3s, and so on). This otherwise functions as and replaces the standard alchemist bomb class feature."
-import_trades = ["Bombs"]
-
-[[entry.feature]]
-anchor = "lesser-simulacrum"
-head = "Lesser Simulacrum"
-listed = true
-level = 7
-print = "At 7th level, a clone master adds _[lesser simulacrum](ref/spell/simulacrum-lesser)_ to his formula book as a 3rd-level extract."
-
-[[entry.feature]]
-anchor = "rebirth"
-head = "Rebirth"
-listed = true
-level = 8
-print = "At 8th level, a [clone](ref/spell/clone) master can prepare a clone of himself that awakens if he is slain. Creating the clone costs 5,000 gp, takes 1 week of work, and requires 3 additional weeks for the clone to grow to maturity. If he dies, the clone awakens as if the alchemist had used the _clone_ spell on himself. He can have one inert of himself at a time. Unused clones created by a clone master do not rot. This ability replaces poison resistance +6 and poison immunity."
-import_trades = ["Poison resistance +6", "poison immunity"]
-
-[[entry.feature]]
-anchor = "simulacrum"
-head = "Simulacrum"
-listed = true
-level = 13
-print = "At 13th level, a clone master adds _[simulacrum](ref/spell/simulacrum)_ to his formula book as a 5th-level extract."
-
-[[entry.feature]]
-anchor = "clone"
-head = "Clone"
-listed = true
-level = 16
-print = "At 16th level, a [clone](ref/spell/clone) master adds _clone_ to his formula book as a 6th-level extract."
-
-[[entry.feature]]
-anchor = "discoveries"
-head = "Discoveries"
-listed = false
-print = "The following discoveries complement the clone master archetype: [alchemical simulacrum](ref/discovery/alchemical-simulacrum), [doppelganger simulacrum](ref/discovery/doppelganger-simulacrum), [preserve organs](ref/discovery/preserve-organs), and [parasitic twin](ref/discovery/parasitic-twin)."
-
-[[entry]]
-id = "ref/arc-alchemist/internal-alchemist"
-opening = ["An internal alchemist studies medicine, diet, and the living body to purify the self in the hope of gaining immortality by means of alchemical concoctions and controlling vital energy. Internal alchemists develop unusual physical abilities from heightened knowledge of how their bodies work. An internal alchemist has the following class features."]
-
-[[entry.feature]]
-anchor = "breath-mastery"
-head = "Breath Mastery"
-listed = true
-level = 1
-print = "At 1st level, the internal alchemist can control his breath and the flow of vital energy within his body. Without preparation, he can [hold his breath](ref/misc/hold-your-breath) for a number of minutes equal to his Constitution score (after this, he must begin making Constitution checks or risk suffocation); by spending a full-round action preparing himself, he can increase this duration to 1 hour per point of Constitution. The alchemist can survive twice as long as normal without food or water before he starts to take penalties. He can put himself into a state of suspended animation as a move action, and is then unconscious and appears completely dead; he awakens at a preset time or in response to a condition set by him when he enters this state. This ability replaces Throw Anything."
-import_trades = ["Throw Anything"]
-
-[[entry.feature]]
-anchor = "bonus-feats"
-head = "Bonus Feats"
-listed = false
-print = "An internal alchemist can select [Alertness](ref/feat/alertness), Extra _Ki_, [Great Fortitude](ref/feat/great-fortitude), [Improved Critical](ref/feat/improved-critical) (unarmed strike), [Improved Initiative](ref/feat/improved-initiative), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Iron Will](ref/feat/iron-will), [Lightning Reflexes](ref/feat/lightning-reflexes), [Stunning Fist](ref/feat/stunning-fist), or [Weapon Focus](ref/feat/weapon-focus) (unarmed strike) in place of an alchemical discovery."
-
-[[entry.feature]]
-anchor = "disease-resistance"
-head = "Disease Resistance"
-listed = true
-level = 3
-print = "At 3rd level, an internal alchemist gains a bonus on all saving throws against disease equal to his alchemist class bonus against poison. When he gains the poison immunity alchemist class ability, he becomes immune to disease as well. This ability replaces swift alchemy."
-import_trades = ["Swift alchemy"]
-
-[[entry.feature]]
-anchor = "uncanny-dodge"
-head = "Uncanny Dodge"
-listed = true
-level = 6
-print = "Starting at 6th level, an internal alchemist can react to danger before his senses would normally allow him to do so. He cannot be caught [flat-footed](ref/rule/flat-footed), nor does he lose his Dexterity bonus to AC if the attacker is invisible. However, he still loses his Dexterity bonus to AC if he is immobilized, or if an opponent successfully uses the feint action against him. If the internal alchemist already has uncanny dodge from a different class, he automatically gains [improved uncanny dodge](ref/ability/improved-uncanny-dodge) (as a rogue) instead. This ability replaces swift poisoning."
-import_trades = ["Swift poisoning"]
-
-[[entry.feature]]
-anchor = "discoveries"
-head = "Discoveries"
-listed = false
-print = "The following discoveries complement the internal alchemist archetype: [cognatogen](ref/discovery/cognatogen), [elixir of life](ref/discovery/elixir-of-life), [grand cognatogen](ref/discovery/grand-cognatogen), [greater cognatogen](ref/discovery/greater-cognatogen), [lingering spirit](ref/discovery/lingering-spirit), [mummification](ref/discovery/mummification), and [spontaneous healing](ref/discovery/spontaneous-healing)."
-
-[[entry]]
 id = "ref/arc-alchemist/mindchemist"
+hold = "checker: [fields] trades = \"replaces: Mutagen\" disagrees with the trade sentences of the feature `cognatogen` = \"replaces: the mutagen class ability (a mindchemist cannot create mutagens unless he selects mutagen as a discovery)\" (line 35)"
 opening = ["While most alchemists use mutagens to boost their physical ability at the cost of mental ability, some use alchemy for the opposite purpose—to boost the power of the mind and memory. A mindchemist can reach incredible levels of mental acuity, but suffers lingering debilitating effects to his physique. A mindchemist has the following class features."]
 
 [[entry.feature]]
@@ -158,64 +39,6 @@ anchor = "discoveries"
 head = "Discoveries"
 listed = false
 print = "The following discoveries complement the mindchemist archetype: [grand cognatogen](ref/discovery/grand-cognatogen), [greater cognatogen](ref/discovery/greater-cognatogen), [infuse mutagen](ref/discovery/infuse-mutagen)."
-
-[[entry]]
-id = "ref/arc-alchemist/preservationist"
-opening = ["Some alchemists are obsessed with collecting and preserving exotic creatures. These preservationists may use bottled animals and monsters as teaching tools, but some learn how to reanimate them for short periods to battle on the alchemist's behalf. A preservationist has the following class features."]
-
-[[entry.feature]]
-anchor = "bottled-ally-i"
-head = "Bottled Ally I"
-listed = true
-level = 2
-print = "At 2nd level, a preservationist adds [Handle Animal](ref/skill/handle-animal) to his list of class skills. He adds _[summon nature's ally I](ref/spell/summon-natures-ally-1)_ to his formula book as a 1st-level extract. When he prepares that extract, he actually prepares a tiny, preserved specimen in a bottle (as with a caster casting the spell, the preservationist doesn't have to choose the creature until he uses the extract). When the alchemist opens the bottle, the specimen animates and grows to normal size, serving the preservationist as per the spell and otherwise being treated as a summoned creature. When the duration expires, the preserved creature decays into powder. If the preservationist has the [infusion](ref/discovery/infusion) discovery, another character can use the infused specimen. The [Augment Summoning](ref/feat/augment-summoning) feat can be applied to these specimens. This ability replaces poison use."
-import_trades = ["Poison use"]
-
-[[entry.feature]]
-anchor = "bottled-ally-ii"
-head = "Bottled Ally II"
-listed = true
-level = 5
-print = "At 5th level, a preservationist adds _[summon nature's ally II](ref/spell/summon-natures-ally-2)_ to his formula book as a 2nd-level extract. This ability replaces poison resistance +4."
-import_trades = ["Poison resistance +4"]
-
-[[entry.feature]]
-anchor = "bottled-ally-iii"
-head = "Bottled Ally III"
-listed = true
-level = 8
-print = "At 8th level, a preservationist adds _[summon nature's ally IV](ref/spell/summon-natures-ally-4)_ to his formula book as a 3rd-level extract. This ability replaces poison resistance +6."
-import_trades = ["Poison resistance +6"]
-
-[[entry.feature]]
-anchor = "bottled-ally-iv"
-head = "Bottled Ally IV"
-listed = true
-level = 10
-print = "At 10th level, a preservationist adds _[summon nature's ally V](ref/spell/summon-natures-ally-5)_ to his formula book as a 4th-level extract. This ability replaces poison immunity."
-import_trades = ["Poison immunity"]
-
-[[entry.feature]]
-anchor = "bottled-ally-v"
-head = "Bottled Ally V"
-listed = true
-level = 14
-print = "At 14th level, a preservationist adds _[summon nature's ally VII](ref/spell/summon-natures-ally-7)_ to his formula book as a 5th-level extract. This ability replaces persistent mutagen."
-import_trades = ["Persistent mutagen"]
-
-[[entry.feature]]
-anchor = "bottled-ally-vi"
-head = "Bottled Ally VI"
-listed = true
-level = 18
-print = "At 18 level, a preservationist adds _[summon nature's ally IX](ref/spell/summon-natures-ally-9)_ to his formula book as a 6th-level extract. This ability replaces his 18th-level discovery."
-import_trades = ["18th-level discovery"]
-
-[[entry.feature]]
-anchor = "discoveries"
-head = "Discoveries"
-listed = false
-print = "The following discoveries complement the preservationist archetype: [bottled ooze](ref/discovery/bottled-ooze), [preserve organs](ref/discovery/preserve-organs), [tentacle](ref/discovery/tentacle), [vestigial arm](ref/discovery/vestigial-arm), and [wings](ref/discovery/wings)."
 
 [[entry]]
 id = "ref/arc-alchemist/psychonaut"
@@ -318,237 +141,6 @@ listed = false
 print = "The following discoveries complement the reanimator archetype: [alchemical zombie](ref/discovery/alchemical-zombie), [elixir of life](ref/discovery/elixir-of-life), [eternal potion](ref/discovery/eternal-potion), [mummification](ref/discovery/mummification), and [preserve organs](ref/discovery/preserve-organs)."
 
 [[entry]]
-id = "ref/arc-alchemist/vivisectionist"
-opening = ["A vivisectionist studies bodies to better understand how they function and how their parts interact. Unlike a chirurgeon, a vivisectionist's goals are not related to healing, but rather to experimentation and knowledge that most people would consider evil. A vivisectionist has the following class features."]
-
-[[entry.feature]]
-anchor = "sneak-attack"
-head = "Sneak Attack"
-listed = true
-level = 1
-print = "At 1st level, a vivisectionist gains the [sneak attack](ref/ability/sneak-attack) ability as a rogue of the same level. If a character already has sneak attack from another class, the levels from the classes that grant sneak attack stack to determine the effective rogue level for the sneak attack's extra damage dice (so an alchemist 1/rogue 1 has a +1d6 sneak attack like a 2nd-level rogue, an alchemist 2/rogue 1 has a +2d6 sneak attack like a 3rd-level rogue, and so on). This ability replaces bomb."
-import_trades = ["Bomb"]
-
-[[entry.feature]]
-anchor = "torturer-s-eye"
-head = "Torturer's Eye"
-listed = true
-level = 2
-print = "At 2nd level, a vivisectionist adds _[deathwatch](ref/spell/deathwatch)_ to his formula book as a 1st-level extract."
-
-[[entry.feature]]
-anchor = "cruel-anatomist"
-head = "Cruel Anatomist"
-listed = true
-level = 3
-print = "At 3rd level, a vivisectionist may use his Knowledge (nature) skill bonus in place of his Heal skill bonus."
-
-[[entry.feature]]
-anchor = "torturous-transformation"
-head = "Torturous Transformation"
-listed = true
-level = 7
-print = '''
-At 7th level, a vivisectionist adds _[anthropomorphic animal](ref/spell/anthropomorphic-animal)_ to his formula book as a 2nd-level extract. When he uses this extract, he injects it into an animal as part of a 2-hour surgical procedure. By using multiple doses of this extract as part of the surgery, he multiplies the duration by the number of extracts used.
-
-At 9th level, a vivisectionist adds _[awaken](ref/spell/awaken)_ and _[baleful polymorph](ref/spell/baleful-polymorph)_ to his formula book as 3rd-level extracts. When he uses the _[awaken](ref/spell/awaken)_ or _[baleful polymorph](ref/spell/baleful-polymorph)_ extract, he injects it into the target (not a plant) as part of a 24-hour surgical procedure. He can make _[anthropomorphic animal](ref/spell/anthropomorphic-animal)_ [permanent](ref/spell/permanency) on a creature by spending 7,500 gp.
-
-At 15th level, a vivisectionist adds _[regenerate](ref/spell/regenerate)_ to his formula book as a 5th-level extract.'''
-
-[[entry.feature]]
-anchor = "bleeding-attack"
-head = "Bleeding Attack"
-listed = true
-print = "A vivisectionist may select the bleeding attack rogue talent in place of a discovery."
-
-[[entry.feature]]
-anchor = "crippling-strike"
-head = "Crippling Strike"
-listed = true
-level = 10
-print = "At 10th level or later, a vivisectionist may select the [crippling strike](ref/talent/crippling-strike) rogue talent in place of a discovery."
-
-[[entry.feature]]
-anchor = "discoveries"
-head = "Discoveries"
-listed = false
-print = "The following discoveries complement the vivisectionist archetype: [alchemical simulacrum](ref/discovery/alchemical-simulacrum), [concentrate poison](ref/discovery/concentrate-poison), [doppelganger simulacrum](ref/discovery/doppelganger-simulacrum), [feral mutagen](ref/discovery/feral-mutagen), [parasitic twin](ref/discovery/parasitic-twin), [preserve organs](ref/discovery/preserve-organs), [tentacle](ref/discovery/tentacle), [tumor familiar](ref/discovery/tumor-familiar), [vestigial arm](ref/discovery/vestigial-arm), and [wings](ref/discovery/wings)."
-
-[[entry]]
-id = "ref/arc-bard/animal-speaker"
-opening = ["An animal speaker focuses not on the ears and minds of humans, but on the creatures of the wild and those in the underbellies of cities."]
-
-[[entry.feature]]
-anchor = "animal-friend"
-head = "Animal Friend"
-listed = true
-print = '''
-An animal speaker selects a particular kind of animal, such as apes, badgers, bears, boars, cats, snakes, and so on. The bard gains a +4 bonus on Handle Animal checks to influence animals of his chosen kind. Animals of this kind have a starting attitude of at least "indifferent" toward the bard and never attack him unless he attacks them first.
-
-Animal companions and magically controlled animals of the bard's chosen kind can be directed to attack the bard if the controlling creature wins an opposed Charisma check against the bard (this check can be made once per round until it succeeds, after which no further checks are needed). Supernatural versions of animals (such as animals with the [fiendish](ref/template/fiendish) template) can attempt an opposed Charisma check against the bard with a +4 bonus on its roll to overcome this hesitation. This ability has no effect on creatures other than animals. This ability replaces fascinate.'''
-import_trades = ["Fascinate"]
-
-[[entry.feature]]
-anchor = "nature-s-speaker"
-head = "Nature's Speaker"
-listed = true
-print = "At 5th, 11th, and 17th level, the animal speaker selects another kind of animal friend. The bard can use _[speak with animals](ref/spell/speak-with-animals)_ at will on animals of his selected kinds. This ability replaces well-versed."
-import_trades = ["Well-versed"]
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "An animal speaker gains the following types of bardic performance."
-
-[[entry.feature]]
-anchor = "soothing-performance"
-head = "Soothing Performance"
-listed = false
-parent = "bardic-performance"
-print = "At 3rd level, an animal speaker can use bardic performance to influence animals. This works like the druid ability [wild empathy](ref/ability/wild-empathy), except he expends 1 round of bardic performance and makes a Perform check. If the bard already has wild empathy from another class, he adds the class levels that provide wild empathy to the result of his Perform check to influence an animal. This ability replaces inspire competence."
-import_trades = ["Inspire competence"]
-
-[[entry.feature]]
-anchor = "attract-rats"
-head = "Attract Rats"
-listed = false
-parent = "bardic-performance"
-print = "At 6th level, the animal speaker can use bardic performance to summon 1d3 [rat swarms](ref/monster/rat-rat-swarm); they remain as long as he continues performing. At 11th level, he summons 2d3 swarms instead of 1d3 and the swarms have the [advanced](ref/template/advanced) creature simple template. At 17th level, the number of swarms he summons increases to 3d3. This ability replaces _suggestion_."
-import_trades = ["Suggestion"]
-
-[[entry.feature]]
-anchor = "summon-nature-s-ally"
-head = "Summon Nature's Ally"
-listed = true
-level = 1
-print = "At 1st level, the animal speaker adds _[summon nature's ally I](ref/spell/summon-natures-ally-1)_ to his bard spell list and bard spells known as a 1st-level spell. At 4th level (when he gains access to 2nd-level spells) he adds _[summon nature's ally II](ref/spell/summon-natures-ally-2)_ to his spell list and spells known as a 2nd-level spell, and so on every 3 levels thereafter, until 16th level when he adds _[summon nature's ally VI](ref/spell/summon-natures-ally-6)_ to his 6th-level spell list and spells known. This replaces mass suggestion."
-import_trades = ["Mass suggestion"]
-
-[[entry]]
-id = "ref/arc-bard/celebrity"
-opening = ["Known for being known, a celebrity bard is a master of performance who captures the imagination and attention of his audience. He trades on his charisma, his wit, and his exploits to build his renown—and that of his companions."]
-
-[[entry.feature]]
-anchor = "famous"
-head = "Famous"
-listed = true
-level = 1
-print = '''
-At 1st level, a celebrity bard may choose a region where he is famous, and within that region, the locals are more likely to react favorably toward the bard. The bard gains a bonus on Diplomacy and Intimidate checks in that area and to influence people from that area.
-
-At 1st level, this region is a settlement or settlements with a total population of 1,000 or fewer people, and the modifier on Diplomacy and Intimidate checks is +1. As the celebrity grows more famous, additional areas learn of him (typically places where he has lived or traveled, or settlements adjacent to those where he is known) and his bonuses apply to even more people. At 5th level, the region is a settlement or settlements with a total population of 5,000 or fewer people, and the modifier on Diplomacy and Intimidate checks is +2. At 9th level, the region is a settlement or settlements with a total population of up to 25,000 people, and the modifier on Diplomacy and Intimidate checks is +3. At 13th level, the region is a settlement or settlements with a total population of up to 100,000 people, and the modifier to Diplomacy and Intimidate is +4. At 17th level and above, the bard's renown has spread far, and most civilized folk know of him (GM's discretion); the bard's modifier on Diplomacy and Intimidate checks is +5.
-
-This ability replaces inspire courage.'''
-import_trades = ["Inspire courage"]
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "A celebrity gains the following type of bardic performance."
-
-[[entry.feature]]
-anchor = "gather-crowd"
-head = "Gather Crowd (Ex)"
-listed = true
-level = 5
-print = "At 5th level, the celebrity is skilled at drawing an audience to his performances. If he is in a settlement or populated area, he can shout, sing, or otherwise make himself noticed in order to attract an audience to his impromptu stage. The size of the crowd depends on the local population, but typically is a number of people equal to 1/2 the bard's class level × the result of the bard's Perform check. The crowd gathers over the next 1d10 rounds. If the bard fails to engage the crowd (such as by performing, kissing babies, trying to use fascinate, and so on), it disperses over the next 1d10 rounds. This ability replaces lore master."
-import_trades = ["Lore master"]
-
-[[entry.feature]]
-anchor = "shining-star"
-head = "Shining Star (Su)"
-listed = true
-level = 8
-print = "At 8th level, the celebrity has learned how to focus attention on himself so thoroughly that even the presence of danger does not distract his adoring crowd. When using fascinate, a target making a save to break the effect because of a potential threat takes a -4 penalty on that save, and even obvious threats require a save rather than automatically breaking the effect. Creatures affected by the bard's fascinate ability ignore the shaken condition. The ability replaces dirge of doom."
-import_trades = ["Dirge of doom"]
-
-[[entry]]
-id = "ref/arc-bard/demagogue"
-opening = ["Not content with providing amusing and occasionally instructive performances, the demagogue seeks to inflame and ignite his audience, driving them toward a specific purpose with carefully chosen words and tones that may spark momentous change."]
-
-[[entry.feature]]
-anchor = "famous"
-head = "Famous"
-listed = true
-level = 1
-print = "At 1st level, a demagogue is famous in a particular region. This works like the famous ability of the celebrity bard archetype, except the demagogue's skill bonuses apply to Bluff and Intimidate instead of Diplomacy and Intimidate. This ability replaces inspire courage +1."
-import_trades = ["Inspire courage +1"]
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "A demagogue gains the following type of bardic performance."
-
-[[entry.feature]]
-anchor = "gather-crowd"
-head = "Gather Crowd (Ex)"
-listed = true
-level = 5
-print = "At 5th level, the demagogue gains the ability to quickly gather a crowd. This is identical to the gather crowd ability of the celebrity bard archetype. This ability replaces lore master."
-import_trades = ["Lore master"]
-
-[[entry.feature]]
-anchor = "incite-violence"
-head = "Incite Violence (Ex)"
-listed = true
-level = 6
-print = "At 6th level, the demagogue can use his performance to fan the fury of a crowd of people he has fascinated. Using this ability does not disrupt the fascinate effect, but does require a standard action to activate (in addition to the free action to continue the fascinate effect). The bard selects a number of targets equal to his level, who must make Will saves (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) or be affected by _[rage](ref/spell/rage)_ for a number of rounds equal to the bard's level. The bard indicates who is the intended target of violence (either after using this ability or as part of the performance leading to it) and the enraged members of the crowd immediately attack the target if possible. The target does not need to be present (\"kill the king\" is a suitable choice) and can be an object instead of a person (\"destroy the prison!\" is likewise appropriate). Other members of the crowd may follow suit, though they do not gain the benefits of _rage_. This is a sound-based effect and is affected by countersong. If two or more bards are attempting to direct the crowd against different targets, they must make opposed Charisma checks, with the crowd following the directions of the winner. This ability replaces suggestion."
-import_trades = ["Suggestion"]
-
-[[entry.feature]]
-anchor = "righteous-cause"
-head = "Righteous Cause (Ex)"
-listed = true
-level = 18
-print = "At 18th level, the demagogue can lift a crowd's emotions and turn them toward a common purpose. First, he must fascinate the crowd, and then use incite violence without designating a target, at which point he can use righteous cause. Instead of driving the crowd with anger, he fills them with purpose. Fascinated creatures must make Will saves (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) to resist. Those who fail are affected by _[mass suggestion](ref/spell/suggestion-mass)_ of a plausible idea that lingers with them for one day. Typical uses of this ability are to spark rebellion, overthrow a king, build a beneficial structure such as an orphanage, or donate money to a cause. This ability replaces mass suggestion."
-import_trades = ["Mass suggestion"]
-
-[[entry]]
-id = "ref/arc-bard/dirge-bard"
-opening = ["A composer of sonorous laments for the dead and elaborate requiems for those lost yet long remembered, dirge bards master musical tools and tropes that must appeal to the ears and hearts of both the living and the dead."]
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "A dirge bard gains the following type of bardic performance."
-
-[[entry.feature]]
-anchor = "dance-of-the-dead"
-head = "Dance of the Dead (Su)"
-listed = true
-level = 10
-print = "At 10th level, a dirge bard can use his bardic performance to cause dead bones or bodies to rise up and move or fight at his command. This ability functions like _[animate dead](ref/spell/animate-dead)_, but the created skeletons or zombies remain fully animate only as long as the dirge bard continues the performance. Once it stops, any created undead collapse into carrion. Bodies or bones cannot be animated more than once using this ability. Unlike _[animate dead](ref/spell/animate-dead)_, dance of the dead requires no components and does not have the evil descriptor. This performance replaces jack-of-all-trades."
-import_trades = ["Jack-of-all-trades"]
-
-[[entry.feature]]
-anchor = "haunted-eyes"
-head = "Haunted Eyes (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a dirge bard gains a +4 bonus on saves against fear, energy drain, death effects, and necromantic effects. This ability replaces well-versed."
-import_trades = ["Well-versed"]
-
-[[entry.feature]]
-anchor = "secrets-of-the-grave"
-head = "Secrets of the Grave (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a dirge bard gains a bonus equal to [half](ref/misc/fractions-and-rounding) his bard level on Knowledge (religion) checks made to identify undead creatures and their abilities. A dirge bard may use mind-affecting spells to affect undead as if they were living creatures, even if they are mindless (though spells that affect only humanoids do not affect them, even if they were humanoids in life). In addition, he may add one necromancy spell from the spell list of any arcane spellcasting class to his list of spells known at 2nd level and every four levels thereafter. This ability replaces versatile performance."
-import_trades = ["Versatile performance"]
-
-[[entry.feature]]
-anchor = "haunting-refrain"
-head = "Haunting Refrain (Su)"
-listed = true
-level = 5
-print = "At 5th level, a dirge bard is able to stir primal terrors in the hearts of listeners. He can use a Perform (keyboard) or Perform (percussion) check in place of an Intimidate check to demoralize an opponent, with a bonus equal to half his bard level. In addition, saving throws against any fear effect he creates are made with a -2 penalty, and this penalty increases by -1 every 5 levels beyond 5th. This ability replaces lore master."
-import_trades = ["Lore master"]
-
-[[entry]]
 id = "ref/arc-bard/geisha"
 hold = "the alters trade `Armor and weapon proficiencies` is not printed in a sentence, and no listed feature of that name prints it"
 opening = ["In some cultures, the professional entertainer is a prestigious role. Specially trained entertainers called geisha are praised for their appearance and skill at conversation, music, dancing, singing, poetry, and calligraphy. A geisha provides social intimacy and status but not physical intimacy."]
@@ -580,37 +172,6 @@ listed = true
 print = "A geisha gains [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat."
 
 [[entry]]
-id = "ref/arc-bard/songhealer"
-opening = ["Words can harm, but they also heal. The songhealer brings peace and surcease of pain, calming wild emotions and providing a balm for the wounded body."]
-
-[[entry.feature]]
-anchor = "enhance-healing"
-head = "Enhance Healing (Su)"
-listed = true
-print = "A number of times per day equal to his Charisma modifier, a songhealer can cause any healing effect from a spell completion or spell trigger item to function at a caster level equal to his class level. This ability replaces versatile performance."
-import_trades = ["Versatile performance"]
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "A songhealer gains the following type of bardic performance."
-
-[[entry.feature]]
-anchor = "healing-performance"
-head = "Healing Performance (Su)"
-listed = true
-print = "A bard of 14th level or higher can use his performance to create an effect equivalent to _[heal](ref/spell/heal)_ on a living target (or _[harm](ref/spell/harm)_ on an undead target), using the bard's level as the caster level. Using this ability requires 5 rounds of continuous performance, and the target must be able to see and hear the bard throughout the performance. The healing performance relies on audible and visual components. This ability replaces frightening tune."
-import_trades = ["Frightening tune"]
-
-[[entry.feature]]
-anchor = "funereal-ballad"
-head = "Funereal Ballad (Su)"
-listed = true
-print = "A bard of 20th level or higher can use his performance to create an effect equivalent to _[resurrection](ref/spell/resurrection)_ on a dead creature, using the bard's level as the caster level. Using this ability requires 20 rounds of continuous performance, and the target must be within 10 feet of the bard for the entire performance. Funereal ballad relies on audible and visual components. This ability replaces deadly performance."
-import_trades = ["Deadly performance"]
-
-[[entry]]
 id = "ref/arc-bard/sound-striker"
 opening = ["They say that words can cut deeper than any blade, and the sound striker proves this true. Using music and words as a weapon, he can focus his performances into a deadly delivery."]
 
@@ -635,478 +196,6 @@ listed = true
 level = 6
 print = "At 6th level, a sound striker can start a performance as a standard action, lashing out with 1 potent sound per bard level (maximum 10), each sound affecting one target within 30 feet. These are ranged touch attacks. Each weird word deals 1d8 points of damage plus the bard's Charisma bonus (Fortitude half), and the bard chooses whether it deals bludgeoning, piercing, or slashing damage for each word. This performance replaces _suggestion_."
 import_trades = ["Suggestion"]
-
-[[entry]]
-id = "ref/arc-cleric/separatist"
-opening = ["A radical cleric, unsatisfied with the orthodoxy of her deity's teachings, forges her own path of defiant divine expression. Though most members of her faith would call her a separatist or heretic, she continues to receive spells from her deity. Charismatic separatists may develop a large following of like-minded believers and eventually found a splinter church of their deity—and they are just as likely to be the cause of a holy civil war as the branches of the religion fight to determine which is the true faith.", "A cleric who does not serve a deity cannot take the separatist archetype. A separatist has the following class features."]
-
-[[entry.feature]]
-anchor = "weapon-and-armor-proficiency"
-head = "Weapon and Armor Proficiency"
-listed = false
-print = "Separatists do not gain proficiency in their deity's favored weapon (though they are not prohibited from using it or learning its use)."
-
-[[entry.feature]]
-anchor = "forbidden-rites"
-head = "Forbidden Rites"
-listed = true
-print = '''
-A separatist selects one domain from her deity's domain list, and a second domain that is not on her deity's domain list. This second domain cannot be an alignment domain that doesn't match the cleric's or her deity's alignment. For example, a lawful good separatist cleric of a neutral good deity cannot choose the Chaos or Evil domain with this ability, but can select the Lawful domain even though her deity isn't lawful.
-
-Granted powers from the cleric's second domain function as if the cleric's level, Wisdom, and Charisma were 2 lower than normal (minimum level 1) in terms of effect, DC, and uses per day. This also means the separatist doesn't gain the domain's higher-level ability until 2 levels later than normal. If the second domain grants additional class skills, the separatist gains these as normal. In all other respects, this ability works like and replaces the standard cleric's domain ability.'''
-import_trades = ["Domains"]
-
-[[entry]]
-id = "ref/arc-cleric/theologian"
-opening = ["A theologian is an expert on one particular area of her religion. She is so focused on that area that she eschews the broader sweep of her deity's dogma and focuses intensely upon that aspect of it, embodying its power in all she does. Theologians tend to be more zealous than other clerics, and many crusades are started by theologians. A theologian has the following class features."]
-
-[[entry.feature]]
-anchor = "focused-domain"
-head = "Focused Domain"
-listed = true
-print = '''
-A theologian chooses only one domain from her deity's portfolio rather than the normal two domains. All level-dependent effects of the granted powers from the theologian's domain function as if she were two cleric levels higher than her actual cleric level. This does not allow her to gain domain-granted powers earlier than normal.
-
-A theologian can prepare domain spells using her non-domain slots. She cannot use her spontaneous casting ability on domain spells, even if they are prepared in non-domain slots. In all other respects, this works like and replaces the standard cleric domain ability.'''
-import_trades = ["Domains"]
-
-[[entry.feature]]
-anchor = "domain-secret"
-head = "Domain Secret (Ex)"
-listed = true
-level = 5
-print = "At 5th level, the theologian chooses one domain spell. That spell becomes permanently modified with one of the following metamagic feats: [Bouncing Spell](ref/feat/bouncing-spell), [Disruptive Spell](ref/feat/disruptive-spell), [Ectoplasmic Spell](ref/feat/ectoplasmic-spell), [Enlarge Spell](ref/feat/enlarge-spell), [Extend Spell](ref/feat/extend-spell), [Focused Spell](ref/feat/focused-spell), [Intensified Spell](ref/feat/intensified-spell), [Silent Spell](ref/feat/silent-spell), [Still Spell](ref/feat/still-spell). This metamagic feat does not increase the level of the spell. Once chosen, this modification cannot be changed. The domain specialist need not have the metamagic feat to apply it to a spell using this ability. At every 5 levels after 5th, the domain specialist may choose an additional domain spell to modify in this way. She cannot modify the same spell more than once."
-
-[[entry]]
-id = "ref/arc-cleric/undead-lord"
-opening = ["An undead lord is a cleric focused on using necromancy to control undead. Her flock is the walking dead and her choir the keening spirits of the damned. This unliving congregation is the manifestation of her unceasing love affair with death.", "A cleric cannot take the undead lord archetype unless her deity's portfolio includes the Death domain or a similar domain that promotes undeath. An undead lord has the following class features."]
-
-[[entry.feature]]
-anchor = "death-magic"
-head = "Death Magic"
-listed = true
-print = "An undead lord must select the Death domain (and the Undead subdomain from the _Advanced Player's Guide_, if available in the campaign). She does not gain a second domain. In all other respects, this works like and replaces the standard cleric's domain ability."
-import_trades = ["Domains"]
-
-[[entry.feature]]
-anchor = "corpse-companion"
-head = "Corpse Companion (Su)"
-listed = true
-print = "With a ritual requiring 8 hours, an undead lord can animate a single [skeleton](ref/template/skeleton) or [zombie](ref/template/zombie) whose Hit Dice do not exceed her cleric level. This corpse companion automatically follows her commands and does not need to be controlled by her. She cannot have more than one corpse companion at a time. It does not count against the number of Hit Dice of undead controlled by other methods. She can use this ability to create a variant skeleton such as a bloody or burning skeleton, but its Hit Dice cannot exceed [half](ref/misc/fractions-and-rounding) her cleric level. She can dismiss her companion as a standard action, which destroys it."
-
-[[entry.feature]]
-anchor = "bonus-feats"
-head = "Bonus Feats"
-listed = false
-print = "All undead lords gain [Command Undead](ref/feat/command-undead) as a bonus feat. In addition, at 10th level, she may select one of the following as a bonus feat: [Channel Smite](ref/feat/channel-smite), [Extra Channel](ref/feat/extra-channel), [Improved Channel](ref/feat/improved-channel), [Quick Channel](ref/feat/quick-channel), [Skeleton Summoner](ref/feat/skeleton-summoner), [Undead Master](ref/feat/undead-master)."
-
-[[entry.feature]]
-anchor = "unlife-healer"
-head = "Unlife Healer (Su)"
-listed = true
-level = 8
-print = "At 8th level, the undead lord's spells, [spell-like abilities](ref/umr/spell-like-abilities), and supernatural abilities used to heal undead heal an extra 50% damage. At 16th level, these effects automatically heal the maximum possible damage for the effect + the extra 50%. This does not stack with abilities or feats such as [Empower Spell](ref/feat/empower-spell) or [Maximize Spell](ref/feat/maximize-spell)."
-
-[[entry]]
-id = "ref/arc-druid/dragon-shaman"
-opening = ["Your totem is the legendary dragon, fearsome and deadly yet cunning and wise, a creature born of pure magic and raw elemental fury, bound within a shell of fangs, claws, and scales that few dare to challenge. Though your initial focus is on dragons' mundane cousins, as your powers grow you become attuned to actual dragons."]
-
-[[entry.feature]]
-anchor = "nature-bond"
-head = "Nature Bond"
-listed = true
-print = "A dragon shaman who chooses an animal companion must select a [crocodile](ref/companion/crocodile) or [monitor lizard](ref/companion/lizard-monitor-lizard). If choosing a domain, the dragon shaman must choose from the [Air](ref/domain/air), [Animal](ref/domain/animal), [Destruction](ref/domain/destruction), [Earth](ref/domain/earth), [Fire](ref/domain/fire), [War](ref/domain/war), and [Water](ref/domain/water) domains."
-import_trades = ["Nature bond"]
-
-[[entry.feature]]
-anchor = "wild-empathy"
-head = "Wild Empathy (Ex)"
-listed = true
-print = "A dragon shaman can use her wild empathy ability with lizards as a full-round action with a +4 bonus."
-import_trades = ["Wild empathy"]
-
-[[entry.feature]]
-anchor = "totem-transformation"
-head = "Totem Transformation (Su)"
-listed = true
-level = 2
-print = "At 2nd level, a dragon shaman may adopt an aspect of the dragon while retaining her normal form. She gains one of the following bonuses: movement (fly speed 30 feet \\[average\\], the druid must be 5th level to select this bonus), senses ([low-light vision](ref/rule/low-light-vision), +4 racial bonus to Perception), toughness (+2 natural armor bonus to AC, [Endurance](ref/feat/endurance) feat), or [natural weapons](ref/umr/natural-attacks) (bite \\[1d6\\] and 2 claws \\[1d4\\] for a Medium shaman, +2 bonus on CMB on grapple checks). While using totem transformation, the dragon shaman may speak normally and can cast _[speak with animals](ref/spell/speak-with-animals)_ (lizards only) at will. Using this ability is a standard action at 2nd level, a move action at 7th level, and a swift action at 12th level. The dragon shaman can use this ability for a number of minutes per day equal to her druid level. These minutes do not need to be consecutive, but they must be used in 1-minute increments. This is a polymorph effect and cannot be used while the druid is using another polymorph effect, such as wild shape."
-import_trades = ["Woodland stride"]
-
-[[entry.feature]]
-anchor = "totemic-summons"
-head = "Totemic Summons (Su)"
-listed = true
-level = 5
-print = "At 5th level, a dragon shaman may cast _[summon nature's ally](ref/spell/summon-natures-ally)_ as a standard action when summoning lizards, and summoned lizards gain [temporary hit points](ref/rule/temporary-hit-points) equal to her druid level. She can apply the [young](ref/template/young) template to any lizard to reduce the level of the summoning spell required by one. She can also increase the level of summoning required by one in order to apply either the [advanced](ref/template/advanced) or the [giant](ref/template/giant) template, or increase it by two to apply both the advanced and giant templates. This ability replaces a thousand faces."
-import_trades = ["A thousand faces"]
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-level = 6
-print = "At 6th level, a dragon shaman's wild shape ability functions at her druid level - 4. If she takes on the form of a lizard, she instead uses her unmodified druid level."
-import_trades = ["Wild shape"]
-
-[[entry.feature]]
-anchor = "dragon-bite"
-head = "Dragon Bite (Su)"
-listed = true
-level = 8
-print = "At 8th level, a dragon shaman's bite attack (whether using totem transformation or wild shape to take the form of a lizard) deals +1d6 points of energy damage (acid, cold, electricity, or fire). She chooses what kind of energy damage that she deals each time she bites. This ability replaces the additional use of wild shape at 8th level."
-import_trades = ["The additional use of _wild shape_ at 8th level"]
-
-[[entry.feature]]
-anchor = "bonus-feat"
-head = "Bonus Feat"
-listed = true
-level = 9
-print = "At 9th level and every 4 levels thereafter, a dragon shaman gains one of the following bonus feats: [Combat Casting](ref/feat/combat-casting), [Dazzling Display](ref/feat/dazzling-display), [Magical Aptitude](ref/feat/magical-aptitude), [Skill Focus](ref/feat/skill-focus) (Knowledge \\[arcana\\]), and [Spell Penetration](ref/feat/spell-penetration). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
-import_trades = ["Venom immunity"]
-
-[[entry]]
-id = "ref/arc-druid/menhir-savant"
-opening = ["Some druids study the paths of nature's power through the nodes and ley lines that connect standing stones and megalithic circles, learning to tap into their energies."]
-
-[[entry.feature]]
-anchor = "spirit-sense"
-head = "Spirit Sense (Sp)"
-listed = true
-level = 1
-print = "At 1st level, a menhir savant can detect the presence of undead; fey; outsiders; and astral, ethereal, or incorporeal creatures. This ability functions like _[detect undead](ref/spell/detect-undead)_, and the druid detects all of these creatures rather than trying to detect one kind. This ability replaces nature sense and wild empathy."
-import_trades = ["Nature sense", "wild empathy"]
-
-[[entry.feature]]
-anchor = "place-magic"
-head = "Place Magic (Su)"
-listed = true
-level = 2
-print = "At 2nd level, a menhir savant learns to identify and tap into ley lines in different types of terrain. As a free action, she can tap into the magic of a nearby ley line and increase her caster level by +1 for 1 round. She can use this ability a number of times per day equal to 3 + her Wisdom bonus. This ability replaces woodland stride and trackless step."
-import_trades = ["Woodland stride", "trackless step"]
-
-[[entry.feature]]
-anchor = "walk-the-lines"
-head = "Walk the Lines (Su)"
-listed = true
-level = 9
-print = "At 9th level, a menhir savant can use her connection to ley lines to cast _[transport via plants](ref/spell/transport-via-plants)_ a number of times per day equal to her Wisdom bonus."
-
-[[entry.feature]]
-anchor = "empty-body"
-head = "Empty Body (Su)"
-listed = true
-level = 13
-print = "At 13th level, a menhir savant can become ethereal as a standard action, as if using _[ethereal jaunt](ref/spell/ethereal-jaunt)_. She can remain ethereal for a number of rounds per day equal to her druid level. These rounds do not need to be consecutive. This ability replaces a thousand faces."
-import_trades = ["A thousand faces"]
-
-[[entry]]
-id = "ref/arc-druid/mooncaller"
-opening = ["A mooncaller is bound to the subtle influences of the ever-changing moon and its endless cycles from light to dark and back again."]
-
-[[entry.feature]]
-anchor = "night-sight"
-head = "Night Sight (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a mooncaller gains [low-light vision](ref/rule/low-light-vision). If she already has low-light vision, she gains [darkvision](ref/rule/darkvision) with a range of 30 feet. If she already has darkvision, the range of her darkvision is increased by 30 feet. This ability replaces woodland stride."
-import_trades = ["Woodland stride"]
-
-[[entry.feature]]
-anchor = "resist-call-of-the-wild"
-head = "Resist Call of the Wild (Ex)"
-listed = true
-level = 4
-print = "At 4th level, a mooncaller gains a +4 bonus on saving throws to avoid confusion, daze, feeblemind, and insanity effects. She also gains a +4 bonus against the exceptional, spell-like, and supernatural abilities of creatures with the shapechanger subtype. This ability replaces resist nature's lure."
-import_trades = ["Resist nature's lure"]
-
-[[entry.feature]]
-anchor = "purity-of-body"
-head = "Purity of Body (Ex)"
-listed = true
-level = 9
-print = "At 9th level, a mooncaller gains immunity to all diseases, including supernatural and magical diseases. This ability replaces venom immunity."
-import_trades = ["Venom immunity"]
-
-[[entry.feature]]
-anchor = "wolfsbane"
-head = "Wolfsbane (Su)"
-listed = true
-level = 13
-print = "At 13th level, a mooncaller gains DR 3/ silver, increasing to DR 4/silver at 16th level and DR 5/silver at 19th level. This ability replaces a thousand faces."
-import_trades = ["A thousand faces"]
-
-[[entry]]
-id = "ref/arc-druid/pack-lord"
-opening = ["Some druids bond with many animal companions rather than just one, achieving a level of communion rare even in druidic circles and leading their pack brothers and pack sisters with total authority."]
-
-[[entry.feature]]
-anchor = "pack-bond"
-head = "Pack Bond (Ex)"
-listed = true
-print = '''
-A pack lord druid may not select a domain and must choose an animal companion. The druid gains a +2 bonus on wild empathy and Handle Animal checks made regarding her animal companion. The pack lord may have more than one animal companion, but she must divide up her effective druid level between her companions to determine the abilities of each companion. For example, a 4th-level pack lord can have one 4th-level companion, two 2nd-level companions, or one 1st-level and one 3rd-level companion.
-
-Each time a pack lord's druid level increases, she must decide how to allocate the increase among her animal companions (including the option of adding a new 1st-level companion). Once a druid level is allocated to a particular companion, it cannot be redistributed while that companion is in the pack lord's service (she must release the companion or wait until the companion dies to allocate its levels to another companion, which she can do the next time she prepares spells). The share spells animal companion ability only applies to one animal companion at a time—the pack lord cannot use it to cast a one-target spell and have it affect all of her animal companions. This ability replaces nature bond.'''
-import_trades = ["Nature bond"]
-
-[[entry.feature]]
-anchor = "improved-empathic-link"
-head = "Improved Empathic Link (Su)"
-listed = true
-level = 6
-print = "The pack lord gains an empathic link with all of her animal companions. This functions like an empathic link with a [familiar](ref/sidekick/familiar). In addition, as a swift action the pack lord can shift her perception to one of her companions, allowing her to experience what it sees, hears, and so on. She can maintain this connection as long as she likes (as long as the companion is within 1 mile) and end it as a free action. The druid can only use this ability on one companion at a time, and cannot see, hear, or smell with her own body while maintaining this connection. This ability replaces the 6th-level additional use of wild shape."
-import_trades = ["The 6th-level additional use of _wild shape_"]
-
-[[entry]]
-id = "ref/arc-druid/reincarnated-druid"
-opening = ["Spun off into the endless circle of life, a reincarnated druid is an embodiment of nature's eternal renewal. She lives many lives and wanders the world devoid of attachments, a stranger to all yet one with all life."]
-
-[[entry.feature]]
-anchor = "mysterious-stranger"
-head = "Mysterious Stranger (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a reincarnated druids adds 1/2 her druid level to the DC of Sense Motive, Diplomacy, and Knowledge checks to learn about her. This ability replaces woodland stride."
-import_trades = ["Woodland stride"]
-
-[[entry.feature]]
-anchor = "resist-death-s-touch"
-head = "Resist Death's Touch (Ex)"
-listed = true
-level = 4
-print = "At 4th level, a reincarnated druid gains a +4 bonus on saving throws against death effects, energy drain, and necromancy effects, and on stabilization checks when dying. This ability replaces resist nature's lure."
-import_trades = ["Resist nature's lure"]
-
-[[entry.feature]]
-anchor = "many-lives"
-head = "Many Lives (Ex)"
-listed = true
-level = 5
-print = "At 5th level, if a reincarnated druid is killed, she may automatically _[reincarnate](ref/spell/reincarnate)_ (as the spell) 1 day later. The reincarnated druid appears in a safe location within 1 mile of her previous body. At will for the next 7 days, she can sense the presence of her remains as if using _[locate object](ref/spell/locate-object)_ as a [spell-like ability](ref/umr/spell-like-abilities). If she is killed during these 7 days, she remains dead and does not reincarnate. The many lives ability does not function if the reincarnated druid is slain by a death effect. A reincarnated druid cannot be [raised from the dead](ref/spell/raise-dead) or [resurrected](ref/spell/resurrection), though she can be reincarnated."
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-level = 6
-print = "A reincarnated druid gains this ability at 6th level, and it functions at her druid level - 2."
-import_trades = ["Wild shape"]
-
-[[entry.feature]]
-anchor = "cheat-death"
-head = "Cheat Death (Ex)"
-listed = true
-level = 9
-print = "At 9th level, once per day, a reincarnated druid may reroll a save against a death effect, energy drain, or necromancy effect before the result of the roll is revealed, or reroll a failed stabilization check while dying. She must take the result of the second roll, even if it is worse than the original roll. This ability replaces venom immunity."
-import_trades = ["Venom immunity"]
-
-[[entry.feature]]
-anchor = "tongue-of-the-sun-and-moon"
-head = "Tongue of the Sun and Moon (Ex)"
-listed = true
-level = 15
-print = "At 15th level, a reincarnated druid can speak with any living creature. This ability replaces timeless body."
-import_trades = ["Timeless body"]
-
-[[entry]]
-id = "ref/arc-druid/saurian-shaman"
-opening = ["A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a hungering, atavistic stranger at the fringes of the ecosystem, a destroyer and despoiler whose coming other animals dread."]
-
-[[entry.feature]]
-anchor = "nature-bond"
-head = "Nature Bond"
-listed = true
-print = '''
-A saurian shaman who chooses
-
-an animal companion must select a dinosaur.
-
-If choosing a domain, a saurian shaman
-
-must choose from the [Animal](ref/domain/animal), [Destruction](ref/domain/destruction),
-
-Strength, and [War](ref/domain/war) domains.'''
-import_trades = ["Nature bond"]
-
-[[entry.feature]]
-anchor = "wild-empathy"
-head = "Wild Empathy (Ex)"
-listed = true
-print = "A saurian shaman can use wild empathy with dinosaurs and reptiles as a full-round action with a +4 bonus."
-import_trades = ["Wild empathy"]
-
-[[entry.feature]]
-anchor = "totem-transformation"
-head = "Totem Transformation (Su)"
-listed = true
-level = 2
-print = "At 2nd level, a saurian shaman may adopt an aspect of the saurian while retaining her normal form. This ability functions as the dragon shaman's totem transformation ability, but the druid may select from the following bonuses: movement (+10 enhancement bonus to land speed), scales (+2 natural armor bonus to AC), senses ([low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent)), or [natural weapons](ref/umr/natural-attacks) (bite \\[1d6\\], 2 claws \\[1d4\\] for a Medium druid, rake, +2 CMB to grapple). While using totem transformation, a saurian shaman may speak normally and can cast _[speak with animals](ref/spell/speak-with-animals)_ (reptiles and dinosaurs only) at will."
-import_trades = ["Woodland stride"]
-
-[[entry.feature]]
-anchor = "totemic-summons"
-head = "Totemic Summons (Su)"
-listed = true
-level = 5
-print = "At 5th level, a saurian shaman may cast _[summon nature's ally](ref/spell/summon-natures-ally)_ as a standard action when summoning reptiles and dinosaurs, and these summoned creatures gain [temporary hit points](ref/rule/temporary-hit-points) equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability."
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-level = 6
-print = "At 6th level, a saurian shaman's wild shape ability functions at her druid level -2. If she takes on the form of a reptile or a dinosaur, she instead uses her druid level +2."
-import_trades = ["Wild shape"]
-
-[[entry.feature]]
-anchor = "bonus-feat"
-head = "Bonus Feat"
-listed = true
-level = 9
-print = "At 9th level and every 4 levels thereafter, a saurian shaman gains one of the following bonus feats: [Improved Overrun](ref/feat/improved-overrun), [Nimble Moves](ref/feat/nimble-moves), [Power Attack](ref/feat/power-attack), [Skill Focus](ref/feat/skill-focus) (Intimidate), or [Vital Strike](ref/feat/vital-strike). She must meet the prerequisites for these bonus feats. This ability replaces venom immunity."
-import_trades = ["Venom immunity"]
-
-[[entry]]
-id = "ref/arc-druid/shark-shaman"
-opening = ["Some druids emulate the deadly shark, a remorseless hunter that marine dwellers dread. Like a true shark, a shark shaman leaves blood and fear in her wake."]
-
-[[entry.feature]]
-anchor = "nature-bond"
-head = "Nature Bond"
-listed = true
-print = "A [shark](ref/companion/shark) shaman who chooses an animal companion must select a shark. If choosing a domain, a shark shaman may choose the [Animal](ref/domain/animal), Death, [War](ref/domain/war), or [Water](ref/domain/water) domain."
-import_trades = ["Nature bond"]
-
-[[entry.feature]]
-anchor = "wild-empathy"
-head = "Wild Empathy (Ex)"
-listed = true
-print = "A shark shaman can use wild empathy with fish as a full-round action with a +4 bonus."
-import_trades = ["Wild empathy"]
-
-[[entry.feature]]
-anchor = "totem-transformation"
-head = "Totem Transformation (Su)"
-listed = true
-level = 2
-print = "At 2nd level, a shark shaman may adopt an aspect of the shark while retaining her normal form. This ability functions as the dragon shaman's totem transformation ability, but the druid may select from the following bonuses: movement (can breathe water, swim speed 30 feet), senses ([scent](ref/umr/scent) 30 feet, scent 90 feet in water), [natural weapons](ref/umr/natural-attacks) (bite 1d6 for a Medium shaman), or shark skin (+2 natural armor, creatures grappling the shaman take 1 point of slashing damage per round of grapple). While using totem transformation, the shark shaman may speak normally and can cast _[speak with animals](ref/spell/speak-with-animals)_ (fish only) at will."
-import_trades = ["Woodland stride"]
-
-[[entry.feature]]
-anchor = "totemic-summons"
-head = "Totemic Summons (Su)"
-listed = true
-level = 5
-print = "At 5th level, a shark shaman may use _[summon nature's ally I](ref/spell/summon-natures-ally-1)_ to summon a [stingray](ref/monster/ray-stingray) (_Bestiary 2_) and _[summon nature's ally II](ref/spell/summon-natures-ally-2)_ to summon a [manta ray](ref/monster/ray-manta-ray) (_Bestiary 2_). She may cast _summon nature's ally_ as a standard action when summoning rays and sharks, and summoned rays and sharks gain a number of [temporary hit points](ref/rule/temporary-hit-points) equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability."
-
-[[entry.feature]]
-anchor = "wild-shape"
-head = "Wild Shape (Su)"
-listed = true
-level = 6
-print = "At 6th level, a shark shaman's wild shape ability functions at her druid level -2. If she takes on the form of a shark, she instead uses her druid level +2."
-import_trades = ["Wild shape"]
-
-[[entry.feature]]
-anchor = "bonus-feat"
-head = "Bonus Feat"
-listed = true
-level = 9
-print = "At 9th level and every 4 levels thereafter, a shark shaman gains one of the following bonus feats: [Bleeding Critical](ref/feat/bleeding-critical), [Improved Initiative](ref/feat/improved-initiative), [Lightning Reflexes](ref/feat/lightning-reflexes), [Self- Sufficient](ref/feat/self-sufficient), or [Skill Focus](ref/feat/skill-focus) (Swim). She must meet prerequisites for these bonus feats. This ability replaces venom immunity."
-import_trades = ["Venom immunity"]
-
-[[entry]]
-id = "ref/arc-druid/storm-druid"
-opening = ["While most druids focus their attention upon the rich earth and the bounty of nature that springs forth from it, the storm druid's eyes have ever been cast to the skies and the endless expanse of blue, channeling the most raw and untamed aspects of nature."]
-
-[[entry.feature]]
-anchor = "spontaneous-domain-casting"
-head = "Spontaneous Domain Casting"
-listed = true
-print = "A storm druid can channel stored spell energy into domain spells that she has not prepared ahead of time. She can \"lose\" a prepared spell in order to cast any domain spell of the same level or lower. This replaces spontaneous casting."
-import_trades = ["Spontaneous casting"]
-
-[[entry.feature]]
-anchor = "nature-bond"
-head = "Nature Bond (Ex)"
-listed = true
-print = "A storm druid may not choose an animal companion. A storm druid must choose the [Air](ref/domain/air) or [Weather](ref/domain/weather) domain, or the Cloud, Storm, or Wind subdomain."
-
-[[entry.feature]]
-anchor = "windwalker"
-head = "Windwalker (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, the penalties from natural or magical wind effects are treated as one step less severe for a storm druid. This ability replaces woodland stride."
-import_trades = ["Woodland stride"]
-
-[[entry.feature]]
-anchor = "stormvoice"
-head = "Stormvoice (Ex)"
-listed = true
-level = 3
-print = "At 3rd level, a storm druid's voice can magically carry over howling winds and peals of thunder. Whenever a Perception check is needed to hear the druid's voice, the DC is reduced by an amount equal to the druid's level. This ability replaces trackless step."
-import_trades = ["Trackless step"]
-
-[[entry.feature]]
-anchor = "eyes-of-the-storm"
-head = "Eyes of the Storm (Ex)"
-listed = true
-level = 4
-print = "At 4th level, a storm druid can see through 10 feet of magical fog, mist, gas, wind, rain, or similar inclement weather conditions, ignoring any concealment it might grant. This distance increases by 5 feet for every 4 levels beyond 4th. This ability replaces resist nature's lure."
-import_trades = ["Resist nature's lure"]
-
-[[entry.feature]]
-anchor = "windlord"
-head = "Windlord"
-listed = true
-level = 9
-print = "At 9th level, a storm druid can select another domain or subdomain from those available to her through her nature bond. This ability replaces venom immunity."
-import_trades = ["Venom immunity"]
-
-[[entry.feature]]
-anchor = "storm-lord"
-head = "Storm Lord (Ex)"
-listed = true
-level = 13
-print = "At 13th level, a storm druid is unaffected by natural and magical wind effects. She also becomes immune to deafness and gains +2 bonus on saving throws against sonic effects. This ability replaces a thousand faces."
-import_trades = ["A thousand faces"]
-
-[[entry]]
-id = "ref/arc-inquisitor/exorcist"
-opening = ["Some inquisitors, as they learn more about the threat of possession and the machinations of the planes, task themselves to expel possessing spirits and conniving outsiders from the world whenever possible. Eventually they learn the secret of the verdicts of exorcism, exile, and anathema."]
-
-[[entry.feature]]
-anchor = "verdict-of-exorcism"
-head = "Verdict of Exorcism (Su)"
-listed = true
-level = 8
-print = "At 8th level, an inquisitor using judgment can unleash the verdict of exorcism on a creature. When she does, her judgment ends, but the creature is [dazed](ref/misc/dazed) for 1 round (Will negates); if the creature is possessed, the possessing entity must succeed at a Will saving throw (DC 10 + 1/2 inquisitor level + inquisitor's Wisdom bonus), or be exorcised and never again allowed in that same body. This ability replaces second judgment."
-import_trades = ["Second judgment"]
-
-[[entry.feature]]
-anchor = "verdict-of-exile"
-head = "Verdict of Exile (Su)"
-listed = true
-level = 16
-print = "At 16th level, an inquisitor using judgment can unleash the verdict of exile on a creature. When she does, her judgment ends, but the creature subject to that judgment is dazed for 1 round (Will negates, DC of 10 + 1/2 inquisitor level + Wisdom bonus). If the creature is possessed or an outsider, the possessing entity or the outsider is affected by _[dismissal](ref/spell/dismissal)_ (Will negates). This ability replaces third judgment."
-import_trades = ["Third judgment"]
-
-[[entry.feature]]
-anchor = "closed-mind"
-head = "Closed Mind (Su)"
-listed = true
-print = "An exorcist inquisitor must close off her mind to deny her enemies even a foothold. At 17th level, the inquisitor becomes immune to compulsion effects and possession attempts (including _[magic jar](ref/spell/magic-jar)_). This ability replaces slayer."
-import_trades = ["Slayer"]
-
-[[entry.feature]]
-anchor = "verdict-of-anathema"
-head = "Verdict of Anathema (Su)"
-listed = true
-level = 20
-print = "At 20th level, an inquisitor using judgment can unleash the verdict of anathema on her enemies. When she does, her judgment ends, and all enemy creatures within 10 feet are affected by her verdict of exorcism. This ability replaces true judgment."
-import_trades = ["True judgment"]
 
 [[entry]]
 id = "ref/arc-inquisitor/heretic"
@@ -1137,12 +226,13 @@ anchor = "hide-tracks"
 head = "Hide Tracks (Ex)"
 listed = true
 level = 1
-print = '''
-At 1st level, a heretical inquisitor is adept at hiding her tracks. Creatures attempting to track her take a -5 penalty on rolls to find or follow her tracks.
+print = "At 1st level, a heretical inquisitor is adept at hiding her tracks. Creatures attempting to track her take a -5 penalty on rolls to find or follow her tracks."
 
-Ex-Inquisitors
-
-An inquisitor who becomes an ex-inquisitor can, with the GM's permission, take the heretic archetype, replacing her class abilities with the appropriate archetype abilities. If the character atones or joins a different faith, she loses her heretic abilities and regains her previous inquisitor class abilities.'''
+[[entry.feature]]
+anchor = "ex-inquisitors"
+head = "Ex-Inquisitors"
+listed = true
+print = "An inquisitor who becomes an ex-inquisitor can, with the GM's permission, take the heretic archetype, replacing her class abilities with the appropriate archetype abilities. If the character atones or joins a different faith, she loses her heretic abilities and regains her previous inquisitor class abilities."
 
 [[entry]]
 id = "ref/arc-inquisitor/infiltrator"
@@ -1218,6 +308,7 @@ Whenever the preacher could select a bonus teamwork feat (at 3rd, 6th, 9th, 12th
 
 [[entry]]
 id = "ref/arc-inquisitor/sin-eater"
+hold = "checker: [fields] trades = \"replaces: Teamwork feat gained at 6th level\" disagrees with the trade sentences of the feature `speak-with-dead` = \"replaces: the bonus teamwork feat gained at 6th level\" (line 71)"
 opening = ["There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies of the church— one must also devour those enemies' sins. More benign versions of the practice believe that sin, or evil, is taken out of the world when a sin is devoured, denying the enemy's soul to the enemy's god and purifying the world of its taint. Followers of malevolent churches believe that consuming the sins of good folk not only corrupts the enemy soul to keep it from the celestial planes, but also taints the souls of those who witness the sin-eating or the corpse of its victim. Consuming sins empowers the sin eater, at least for a time."]
 
 [[entry.feature]]
@@ -1257,6 +348,7 @@ import_trades = ["Exploit weakness"]
 
 [[entry]]
 id = "ref/arc-magus/bladebound"
+hold = "head not printed: Black Blade Basics, Black Blade Ability Descriptions, Alertness (Ex), Black Blade Strike (Sp), Telepathy (Su), Unbreakable (Ex), Energy Attunement (Su), Teleport Blade (Sp), Transfer Arcana (Su), Spell Defense (Sp), Life Drinker (Su)"
 opening = ["A select group of magi are called to carry a _black blade_—a sentient weapon of often unknown and possibly unknowable purpose. These weapons become valuable tools and allies, as both the magus and weapon typically crave arcane power, but as a _black blade_ becomes more aware, its true motivations manifest, and as does its ability to influence its wielder with its ever-increasing ego."]
 
 [[entry.feature]]
@@ -1267,10 +359,14 @@ level = 3
 print = '''
 At 3rd level, the bladebound magus gains a powerful sentient weapon called a _black blade_, whose weapon type is chosen by the magus. A magus with this class feature cannot take the [familiar](ref/arcana/familiar) magus arcana, and cannot have a familiar of any kind, even from another class.
 
-Instead of the normal arcane pool amount, the bladebound magus's arcane pool has a number of points equal to 1/3 his
-
-Table 1—3: Black Blade Progression'''
+Instead of the normal arcane pool amount, the bladebound magus's arcane pool has a number of points equal to 1/3 his'''
 import_trades = ["Arcane Pool", "Magus arcana gained at 3rd level"]
+
+[[entry.feature]]
+anchor = "table-1-3-black-blade-progression"
+head = "Table 1—3: Black Blade Progression"
+listed = true
+print = ""
 
 [[entry.feature]]
 anchor = "magus-enhancement"
@@ -1333,61 +429,18 @@ listed = true
 print = '''
 A _black blade_ has special abilities (or imparts abilities to its wielder) depending on the wielder's magus level. The abilities are cumulative. A Ego Special 5 Alertness, _black blade_ strike, telepathy, unbreakable 8 Energy attunement 10 — 12 Teleport blade 14 —
 
-Transfer arcana 18 — 22 Spell defense 24 Life drinker
+Transfer arcana 18 — 22 Spell defense 24 Life drinker'''
 
-Black Blades
+[[entry.feature]]
+anchor = "black-blades"
+head = "Black Blades"
+listed = true
+print = '''
+A _black blade_ is a particular form of intelligent weapon gained by a magus with the bladebound archetype. There are several ways a magus might gain this weapon. Sometimes it just appears among the magus's possessions, and its origin is a mystery. Other times the magus finds a _black blade_ during an adventure or event of some kind. Sometimes a _black blade_ is passed down generation to generation in an ongoing search for a magus who can unlock its true potential.
 
-A _black blade_ is a particular form of intelligent weapon
+A _black blade_ is always a one-handed slashing weapon, a rapier, or a sword cane. The magus chooses the blade's type upon gaining the blade, and once chosen, it can't be changed. As a bladebound magus increases in level, his _black blade_ gains power.
 
-gained by a magus with the bladebound archetype.
-
-There are several ways a magus might gain this weapon.
-
-Sometimes it just appears among the magus's possessions,
-
-and its origin is a mystery. Other times the magus finds
-
-a _black blade_ during an adventure or event of some kind.
-
-Sometimes a _black blade_ is passed down generation to
-
-generation in an ongoing search for a magus who can
-
-unlock its true potential.
-
-A _black blade_ is always a one-handed slashing weapon,
-
-a rapier, or a sword cane.
-
-The magus chooses the blade's type upon gaining the
-
-blade, and once chosen, it can't be changed. As a
-
-bladebound magus increases in level, his _black blade_
-
-gains power.
-
-_A black blade_ is independently conscious but features
-
-some personality traits reflecting its wielder. A _black_
-
-_blade_ always has the same alignment as its wielder and
-
-even changes its alignment if its wielder does. The blade
-
-typically works toward its wielder's goals, but not always
-
-without argument or backlash. Each _black blade_ has a
-
-mission, and while sometimes two or more _black blades_
-
-will work in concert, each mission is singular in purpose._ Some _black blades_ are very
-
-open about their missions, but most are secretive. Certain
-
-sages have speculated that an invisible hand or arcane
-
-purpose moves these weapons. _black blade_ normally refuses to use any of its abilities when wielded by anyone other than its magus, and acts as a masterwork weapon of its type.'''
+_A black blade_ is independently conscious but features some personality traits reflecting its wielder. A _black blade_ always has the same alignment as its wielder and even changes its alignment if its wielder does. The blade typically works toward its wielder's goals, but not always without argument or backlash. Each _black blade_ has a mission, and while sometimes two or more _black blades_ will work in concert, each mission is singular in purpose (the _black blade_'s mission is usually up to the GM and the needs of the campaign or the adventure, or a GM can roll randomly for the weapon's purpose using Table 15–25 on page 534 of the _Core Rulebook)._ Some _black blades_ are very open about their missions, but most are secretive. Certain sages have speculated that an invisible hand or arcane purpose moves these weapons. _black blade_ normally refuses to use any of its abilities when wielded by anyone other than its magus, and acts as a masterwork weapon of its type.'''
 
 [[entry.feature]]
 anchor = "alertness"
@@ -1446,86 +499,75 @@ listed = true
 level = 19
 print = "At 19th level, each time the magus kills a living creature with the _black blade_, he can pick one of the following effects: the _black blade_ restores 2 points to its arcane pool; the _black blade_ restores 1 point to its arcane pool and the magus restores 1 point to his arcane pool; the magus gains a number of temporary hit points equal to the _black blade_'s ego (these temporary hit points last until spent or 1 minute, whichever is shorter). The creature killed must have a number of Hit Dice equal to half the magus's character level for this to occur."
 
-[[entry]]
-id = "ref/arc-magus/hexcrafter"
-opening = ["A hexcrafter magus has uncovered the secret of using his arcane pool to recreate witch hexes. These magi can hex friend and foe, curse those they strike, and expand their spell selection to include many curses and harmful spells."]
-
 [[entry.feature]]
-anchor = "hex-magus"
-head = "Hex Magus (Su)"
-listed = true
-level = 4
-print = "At 4th level, the hexcrafter magus gains access to a small number of witch's hexes. The hexcrafter magus picks one hex from the witch's hex class feature. He gains the benefit of or uses that hex as if he were a witch of a level equal to his magus level. This feature replaces spell recall."
-import_trades = ["Spell recall"]
-
-[[entry.feature]]
-anchor = "hex-arcana"
-head = "Hex Arcana"
-listed = true
-print = "A hexcrafter gains access to the following magus arcana, or may select any witch hex in place of a magus arcana. At 12th level, the hexcrafter may select a hex or major hex in place of a magus arcana. At 18th level, a hexcrafter can select a hex, major hex, or grand hex in place of a magus arcana. He cannot select any hex or arcana more than once."
-
-[[entry.feature]]
-anchor = "accursed-strike"
-head = "Accursed Strike (Sp)"
-listed = true
-print = "A hexcrafter magus who can cast _[bestow curse](ref/spell/bestow-curse)_, _[major curse](ref/spell/curse-major)_, or any spell with the [curse](ref/spelldef/curse) descriptor can deliver these prepared spells using the spellstrike ability, even if the spells are not touch attack spells."
-
-[[entry.feature]]
-anchor = "spells"
-head = "Spells"
-listed = true
-print = "A hexcrafter magus adds the following spells to his magus spell list: _bestow curse_, _major curse_, and all other spells of 6th level or lower that have the curse descriptor."
-
-[[entry.feature]]
-anchor = "magus-arcana"
-head = "Magus Arcana"
+anchor = "black-blades-black-blade-basics"
+head = "Black Blade Basics"
 listed = false
-print = "The following magus arcana complement the hexcrafter archetype: [arcane accuracy](ref/arcana/arcane-accuracy), [broad study](ref/arcana/broad-study), [familiar](ref/arcana/familiar), and quicken magic."
-
-[[entry]]
-id = "ref/arc-magus/spellblade"
-opening = ["A spellblade magus can manifest a ghostly blade of force that can be used as an off-hand weapon."]
+print = ""
 
 [[entry.feature]]
-anchor = "force-athame"
-head = "Force Athame (Sp)"
-listed = true
-level = 2
-print = "At 2nd level, a spellblade magus can sacrifice a prepared magus spell of 1st level or higher as a swift action to create a [dagger](ref/eq-weapon/dagger) of [force](ref/spelldef/force) in his off hand. The athame lasts for 1 minute or until dismissed, has an enhancement bonus on attack and damage rolls equal to the level of the spell sacrificed (maximum +5), and is considered a weapon the spellblade is holding for purposes of his arcane pool feature (using the pool to add abilities to a held weapon applies to the magus's physical weapon and to the athame for no additional cost). The athame acts as a dagger, but the hand holding it is still considered free for the purpose of casting spells and delivering touch attacks. The magus can use the athame as if he were [fighting with two weapons](ref/rule/two-weapon-fighting), or can use that hand to cast spells as part of the spell combat class ability (but not both in the same round). Attacks with the athame are force attacks and deal force damage. This ability replaces the spellstrike class feature."
-import_trades = ["Spellstrike"]
-
-[[entry.feature]]
-anchor = "spellblade-arcana"
-head = "Spellblade Arcana"
-listed = true
-print = "A spellblade gains access to the following magus arcana. He cannot select any arcana more than once."
-
-[[entry.feature]]
-anchor = "pool-sourced-athame"
-head = "Pool-Sourced Athame (Su)"
-listed = true
-print = "Instead of sacrificing a prepared spell to create the force athame, the magus can spend points from his arcane pool to do so. An athame created this way has an enhancement bonus equal to the number of arcane pool points spent."
-
-[[entry.feature]]
-anchor = "spellblade-parry"
-head = "Spellblade Parry (Su)"
-listed = true
-print = "When an enemy makes a melee attack roll against the magus, as an immediate action the magus can end the athame's duration to gain a deflection bonus to his Armor Class until the end of his next turn. This bonus is equal to the level of the spell sacrificed to create the athame (maximum +5)."
-
-[[entry.feature]]
-anchor = "throw-athame"
-head = "Throw Athame (Su)"
-listed = true
-print = "As a standard action, a spellblade magus can throw his athame up to 60 feet as a ranged attack (no range penalty). If the athame misses, it returns automatically to the magus' hand just before his next turn. If the athame hits, it deals damage and its duration ends; the magus can choose to spend up to 2 points from his arcane pool to increase the thrown athame's damage by +1d6 for each point spent."
-
-[[entry.feature]]
-anchor = "magus-arcana"
-head = "Magus Arcana"
+anchor = "black-blades-black-blade-ability-descriptions"
+head = "Black Blade Ability Descriptions"
 listed = false
-print = "The following magus arcana complement the spellblade archetype: [critical strike](ref/arcana/critical-strike), [hasted assault](ref/arcana/hasted-assault), [pool strike](ref/arcana/pool-strike), and [spell shield](ref/arcana/spell-shield)."
+print = ""
+
+[[entry.feature]]
+anchor = "black-blades-alertness"
+head = "Alertness (Ex)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "black-blades-black-blade-strike"
+head = "Black Blade Strike (Sp)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "black-blades-telepathy"
+head = "Telepathy (Su)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "black-blades-unbreakable"
+head = "Unbreakable (Ex)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "black-blades-energy-attunement"
+head = "Energy Attunement (Su)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "black-blades-teleport-blade"
+head = "Teleport Blade (Sp)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "black-blades-transfer-arcana"
+head = "Transfer Arcana (Su)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "black-blades-spell-defense"
+head = "Spell Defense (Sp)"
+listed = false
+print = ""
+
+[[entry.feature]]
+anchor = "black-blades-life-drinker"
+head = "Life Drinker (Su)"
+listed = false
+print = ""
 
 [[entry]]
 id = "ref/arc-magus/staff-magus"
+hold = "checker: [fields] trades = \"replaces: Medium armor; replaces: heavy armor\" disagrees with the trade sentences of the feature `quarterstaff-defense` = \"replaces: the medium armor and heavy armor class abilities\" (line 53)"
 opening = ["While most magi use a one-handed weapon as their melee implement of choice, one group of magi uses the quarterstaff instead. These lightly armored magi use staves for both defense and inflicting their spells upon enemies. Skilled in manipulating these weapons with one hand or two, they eventually learn how to use arcane staves as well, and are just as formidable in combat as their sword-swinging brethren."]
 
 [[entry.feature]]
@@ -1573,19 +615,20 @@ opening = ["The qinggong monk is a master of her _ki_, using it to perform super
 anchor = "ki-power"
 head = "Ki Power"
 listed = true
-print = '''
-A qinggong monk can select a _ki_ power for which she qualifies in place of the following monk class abilities: slow fall (4th), high jump (5th), wholeness of body (7th), diamond body (11th), abundant step (12th), diamond soul (13th), quivering palm (15th), timeless body (17th), tongue of the sun and moon (17th), empty body (19th), and perfect self (20th). This replaces the monk class ability the qinggong monk gives up for this _ki_ power.
-
-Ki Powers
-
-_Ki_ powers are abilities that draw on the power of a monk's _ki_. The standard monk presented in the _Core Rulebook_ has several abilities that count as _ki_ powers, such as wholeness of body, abundant step, and empty body. A qinggong monk can learn additional _ki_ powers, which often replaces a non-_ki_ monk ability such as purity of body. _Ki_ powers are divided into three categories: feats, monk abilities, and spells.'''
+print = "A qinggong monk can select a _ki_ power for which she qualifies in place of the following monk class abilities: slow fall (4th), high jump (5th), wholeness of body (7th), diamond body (11th), abundant step (12th), diamond soul (13th), quivering palm (15th), timeless body (17th), tongue of the sun and moon (17th), empty body (19th), and perfect self (20th). This replaces the monk class ability the qinggong monk gives up for this _ki_ power."
 import_trades = ["The monk class abilities the qinggong monk gives up for a ki power."]
+
+[[entry.feature]]
+anchor = "ki-powers"
+head = "Ki Powers"
+listed = true
+print = "_Ki_ powers are abilities that draw on the power of a monk's _ki_. The standard monk presented in the _Core Rulebook_ has several abilities that count as _ki_ powers, such as wholeness of body, abundant step, and empty body. A qinggong monk can learn additional _ki_ powers, which often replaces a non-_ki_ monk ability such as purity of body. _Ki_ powers are divided into three categories: feats, monk abilities, and spells."
 
 [[entry.feature]]
 anchor = "feats"
 head = "Feats"
 listed = false
-parent = "ki-power"
+parent = "ki-powers"
 print = '''
 These _ki_ powers duplicate the effects of specific feats. A monk does not need to qualify for a feat to select it as a _ki_ power. For example, a qinggong monk can select
 
@@ -1621,7 +664,7 @@ powers are noted in the _ki_ powers list.'''
 anchor = "monk-abilities"
 head = "Monk Abilities"
 listed = false
-parent = "ki-power"
+parent = "ki-powers"
 print = '''
 Some _ki_ powers are standard
 
@@ -1641,7 +684,7 @@ one of her _ki_ powers.'''
 anchor = "spells"
 head = "Spells"
 listed = false
-parent = "ki-power"
+parent = "ki-powers"
 print = '''
 These _ki_ powers
 
@@ -2039,6 +1082,7 @@ when it is used.'''
 
 [[entry]]
 id = "ref/arc-summoner/broodmaster"
+hold = "head not printed: Brood Bond (Su)"
 opening = ["Most summoners bond with one eidolon for their entire lives, but the broodmaster forges a link with multiple smaller eidolons that make up his brood. Separately, a broodmaster's eidolons are no match for a summoner's single eidolon, but taken as a whole, an eidolon brood makes up in quantity what it lacks in individual power."]
 
 [[entry.feature]]
@@ -2102,44 +1146,13 @@ At 13th level, if the broodmaster has purchased the large evolution for his broo
 anchor = "greater-shield-ally"
 head = "Greater Shield Ally (Su)"
 listed = true
-print = '''
-The broodmaster or an ally can only gain the bonuses from these abilities once, regardless of how many eidolons in the brood are within reach.
-
-Hordes of Summoned Monsters
-
-The broodmaster and master summoner archetypes can
-
-potentially have 5, 10, or even more summoned creatures
-
-in play. This is a deliberate feature of these archetypes,
-
-and means that the summoner can potentially be a strong
-
-candidate for "solo" adventuring by one player. However, in
-
-the hands of an inexperienced or moderately experienced
-
-player, dealing with all of those creatures in combat can
-
-take a long time, forcing other players to wait extended
-
-periods between their turns in the initiative. It is strongly
-
-recommended that GMs only allow these archetypes for
-
-experienced players, or decide on a way to speed up the
-
-summoner's turn (such as by allowing other players to
-
-control some of the summoned monsters).'''
+print = "The broodmaster or an ally can only gain the bonuses from these abilities once, regardless of how many eidolons in the brood are within reach."
 
 [[entry.feature]]
-anchor = "brood-bond"
-head = "Brood Bond (Su)"
+anchor = "hordes-of-summoned-monsters"
+head = "Hordes of Summoned Monsters"
 listed = true
-level = 14
-print = "At 14th level, a summoner's life becomes linked to his brood. This functions as the life bond ability, except the broodmaster can only transfer damage to one eidolon in the brood at a time. If that eidolon takes enough damage to send it back to its home plane, all excess damage remains with the broodmaster, killing him. This ability replaces life bond."
-import_trades = ["Life bond"]
+print = "The broodmaster and master summoner archetypes can potentially have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can potentially be a strong candidate for \"solo\" adventuring by one player. However, in the hands of an inexperienced or moderately experienced player, dealing with all of those creatures in combat can take a long time, forcing other players to wait extended periods between their turns in the initiative. It is strongly recommended that GMs only allow these archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by allowing other players to control some of the summoned monsters). Brood Bond (Su): At 14th level, a summoner's life becomes linked to his brood. This functions as the life bond ability, except the broodmaster can only transfer damage to one eidolon in the brood at a time. If that eidolon takes enough damage to send it back to its home plane, all excess damage remains with the broodmaster, killing him. This ability replaces life bond."
 
 [[entry.feature]]
 anchor = "merge-forms"
@@ -2148,36 +1161,15 @@ listed = true
 print = "The broodmaster can only merge with one eidolon in the brood at a time. This ability otherwise works like and replaces merge forms."
 import_trades = ["Merge forms"]
 
-[[entry]]
-id = "ref/arc-summoner/evolutionist"
-opening = ["Changing an eidolon's evolutions is normally a slow process. As a summoner progresses in levels, his control over his eidolon's abilities increases. But an evolutionist possesses greater power over his eidolon's form, and is able to evolve his eidolon and its abilities to meet any challenge or face any threat as it comes up, seemingly on a whim."]
-
 [[entry.feature]]
-anchor = "mutate-eidolon"
-head = "Mutate Eidolon (Su)"
-listed = true
-level = 6
-print = "At 6th level, an evolutionist can change his eidolon's evolutions as if he had gained a level. To mutate his eidolon, the evolutionist must perform an arcane ritual that requires 24 hours of uninterrupted concentration and costs 200 gp per summoner level in material components. This ability replaces maker's call."
-import_trades = ["Maker's call"]
-
-[[entry.feature]]
-anchor = "evolve-base-form"
-head = "Evolve Base Form (Su)"
-listed = true
-level = 8
-print = "Starting at 8th level, whenever he gains a level, the evolutionist can change his eidolon's base form to a new base form. Once chosen, this base form is set until the evolutionist gains another summoner level. This ability replaces transposition."
-import_trades = ["Transposition"]
-
-[[entry.feature]]
-anchor = "transmogrify"
-head = "Transmogrify (Sp)"
-listed = true
-level = 12
-print = "At 12th level, the evolutionist can cast _[transmogrify](ref/spell/transmogrify)_ as a [spell-like ability](ref/umr/spell-like-abilities) once per day without the need for a material component. This ability has a casting time of 1 minute. This ability replaces greater shield ally."
-import_trades = ["Greater shield ally"]
+anchor = "brood-bond"
+head = "Brood Bond (Su)"
+listed = false
+print = ""
 
 [[entry]]
 id = "ref/arc-summoner/master-summoner"
+hold = "checker: [fields] trades = \"replaces: Eidolon\" disagrees with the trade sentences of the feature `lesser-eidolon` = \"replaces: the summoner's normal eidolon ability\" (line 36)"
 opening = ["Most summoners forge a bond with a single, powerful eidolon, but some summoners seek to control a variety of creatures. The master summoner sacrifices the power of his eidolon in favor of summoning a plethora of otherworldly creatures to aid him."]
 
 [[entry.feature]]
@@ -2204,273 +1196,8 @@ print = "At 2nd level, a master summoner gains [Augment Summoning](ref/feat/augm
 import_trades = ["Bond senses"]
 
 [[entry]]
-id = "ref/arc-summoner/synthesist"
-opening = ["Rather than summon an eidolon to serve by his side, the synthesist fuses his eidolon's essence to his own. Instead of two creatures, the synthesist is a fusion of the summoner and eidolon into a single being."]
-
-[[entry.feature]]
-anchor = "fused-eidolon"
-head = "Fused Eidolon"
-listed = true
-print = '''
-A synthesist summons the essence of a powerful outsider to meld with his own being. The synthesist wears the eidolon like translucent, living armor. The eidolon mimics all of the synthesist's movements, and the synthesist perceives through the eidolon's senses and speaks through its voice, as the two are now one creature. The synthesist directs all of the eidolon's actions while fused, perceives through its senses, and speaks through its voice, as the two are now one creature.
-
-While fused with his eidolon, the synthesist uses the eidolon's Strength, Dexterity, and Constitution, but retains his own Intelligence, Wisdom, and Charisma. The synthesist gains the eidolon's hit points as [temporary hit points](ref/rule/temporary-hit-points). When these hit points reach 0, the eidolon is killed and sent back to its home plane. The synthesist uses the eidolon's base attack bonus, and gains the eidolon's armor and natural armor bonuses and modifiers to ability scores. The synthesist also gains access to the eidolon's special abilities and the eidolon's evolutions. The synthesist is still limited to the eidolon's maximum number of natural attacks. The eidolon has no skills or feats of its own. The eidolon must be at least the same size as the synthesist. The eidolon must have [limbs](ref/evolution/limbs) for the synthesist to cast spells with somatic components. The eidolon's temporary hit points can be restored with the _[rejuvenate eidolon](ref/spell/rejuvenate-eidolon)_ spell.
-
-While fused, the synthesist loses the benefits of his armor. He counts both as his original type and as an outsider for any effect related to type, whichever is worse for the synthesist. Spells such as _[banishment](ref/spell/banishment)_ or _[dismissal](ref/spell/dismissal)_ work normally on the eidolon, but the synthesist is unaffected. Neither the synthesist nor his eidolon can be targeted separately, as they are fused into one creature. The synthesist and eidolon cannot take separate actions. While fused with his eidolon, the synthesist can use all of his own abilities and gear, except for his armor. In all other cases, this ability functions as the summoner's normal eidolon ability (for example, the synthesist cannot use his _[summon monster](ref/spell/summon-monster)_ ability while the eidolon is present). This ability replaces the class's eidolon ability, bond senses, and life bond.
-
-The following class abilities function differently for synthesist summoners.'''
-import_trades = ["Eidolon", "bond senses", "life bond"]
-
-[[entry.feature]]
-anchor = "fused-link"
-head = "Fused Link (Su)"
-listed = true
-level = 1
-print = "Starting at 1st level, the synthesist forms a close bond with his eidolon. Whenever the temporary hit points from his eidolon would be reduced to 0, the summoner can, as a free action, sacrifice any number of his own hit points. Each hit point sacrificed this way prevents 1 point of damage done to the eidolon (thus preventing the loss of the summoner's temporary hit points), preventing the eidolon from being killed and sent back to its home plane. This ability replaces life link."
-import_trades = ["Life link"]
-
-[[entry.feature]]
-anchor = "shielded-meld"
-head = "Shielded Meld (Ex)"
-listed = true
-level = 4
-print = "At 4th level, whenever the synthesist is fused with his eidolon, he gains a +2 shield bonus to his Armor Class and a +2 circumstance bonus on his saving throws. This ability replaces shield ally."
-import_trades = ["Shield ally"]
-
-[[entry.feature]]
-anchor = "maker-s-jump"
-head = "Maker's Jump (Sp)"
-listed = true
-level = 6
-print = "At 6th level, whenever the synthesist is fused with his eidolon, the synthesist can cast _[dimension door](ref/spell/dimension-door)_ as a [spell-like ability](ref/umr/spell-like-abilities) using his caster level. This ability only affects the fused synthesist and eidolon. The synthesist can use this ability once per day at 6th level, plus one additional time per day for every six levels beyond 6th. This ability replaces maker's call and transposition."
-import_trades = ["Maker's call", "transposition"]
-
-[[entry.feature]]
-anchor = "greater-shielded-meld"
-head = "Greater Shielded Meld (Ex)"
-listed = true
-level = 12
-print = "At 12th level, whenever the synthesist is fused with his eidolon, he gains a +4 shield bonus to his Armor Class and a +4 circumstance bonus on his saving throws. This ability replaces greater shield ally."
-import_trades = ["Greater shield ally"]
-
-[[entry.feature]]
-anchor = "split-forms"
-head = "Split Forms (Su)"
-listed = true
-level = 16
-print = '''
-At 16th level, as a swift action, the synthesist and his fused eidolon can split into two creatures: the synthesist and the eidolon. Both have the same evolutions. The synthesist emerges in a square adjacent to the eidolon if possible. All effects and spells currently targeting the fused synthesist-eidolon affect both the synthesist and the eidolon.
-
-The synthesist can use this ability for a number of rounds per day equal to his summoner level. He can end this effect at any time as a full-round action. For the duration of this effect, the eidolon functions as a normal eidolon of the summoner's class level. This ability replaces merge forms.'''
-import_trades = ["Merge forms"]
-
-[[entry]]
-id = "ref/arc-witch/beast-bonded"
-opening = ["While all witches are intimately tied to their familiars, a beast-bonded witch's craft focuses specifically on her familiar bond and developing the relationship with her patron through her familiar."]
-
-[[entry.feature]]
-anchor = "transfer-feats"
-head = "Transfer Feats (Ex)"
-listed = true
-print = "Whenever the beast-bonded witch is capable of learning a new feat, she may choose to instead have her familiar learn the feat as a bonus feat. The familiar must meet the prerequisites for any feats that it learns this way. If her familiar is lost or dies, the witch can reclaim the feat slots and select new feats for herself, or apply the slots toward her new familiar."
-
-[[entry.feature]]
-anchor = "enhanced-familiar"
-head = "Enhanced Familiar (Su)"
-listed = true
-level = 4
-print = "At 4th level, the beast-bonded witch's connection with her familiar strengthens. For the purposes of determining her familiar's powers and abilities, she treats her familiar as if she were one level higher than her actual witch level. This ability replaces the witch's 4th-level hex."
-import_trades = ["4th-level hex"]
-
-[[entry.feature]]
-anchor = "familiar-form"
-head = "Familiar Form (Sp)"
-listed = true
-level = 8
-print = "At 8th level, a beast-bonded witch may take the shape of her familiar (or a giant version of her familiar or a similar kind of animal) as if using _[beast shape II](ref/spell/beast-shape-2)_. For example, a witch with a rat familiar can turn into a Tiny rat, Small dire rat, or a larger rodent; one with a cat familiar can turn into a Tiny cat or a Large feline such as a tiger or lion; one with a monkey familiar can turn into a Tiny monkey or a Large gorilla, and so on. The witch can remain in animal form for a number of minutes per day equal to her level. This ability replaces the witch's 8th-level hex."
-import_trades = ["8th-level hex"]
-
-[[entry.feature]]
-anchor = "twin-soul"
-head = "Twin Soul (Su)"
-listed = true
-level = 10
-print = "At 10th level, if the witch or her familiar is gravely injured or about to die, the soul of the dying one immediately transfers to the other's body. The two souls share the surviving body peaceably, can communicate freely, and both retain their ability to think and reason. The host may allow the guest soul to take over the body temporarily or reclaim it as a move action. They can persist in this state indefinitely, or the guest can return to its own body (if available) by touch, transfer into a suitable vessel (such as a [clone](ref/spell/clone)), or take over another body as if using _[magic jar](ref/spell/magic-jar)_ (with no receptacle). This replaces the witch's major hex at 10th-level."
-import_trades = ["Major hex at 10th-level"]
-
-[[entry.feature]]
-anchor = "hexes"
-head = "Hexes"
-listed = true
-print = "The following witch hexes complement the beast-bonded archetype: beast of ill omen, charm, feral speech, ward."
-
-[[entry.feature]]
-anchor = "major-hexes"
-head = "Major Hexes"
-listed = true
-print = "The following major hex complements the beast-bonded archetype: beast eye."
-
-[[entry.feature]]
-anchor = "grand-hexes"
-head = "Grand Hexes"
-listed = true
-print = "The following grand hex complements the beast-bonded archetype: forced reincarnation."
-
-[[entry]]
-id = "ref/arc-witch/gravewalker"
-hold = "the replaces trade `4th-level hex` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `8th-level hex` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["Having much in common with necromancers, the gravewalker is obsessed with the occult manipulations of the dead, particularly mindless undead such as zombies. Unlike the creations of standard necromancers, a gravewalker's creations remain forever tied to her will, and she can produce vile apparitions of tremendous power."]
-
-[[entry.feature]]
-anchor = "spells"
-head = "Spells"
-listed = true
-print = "A gravewalker replaces some of her patron spells with the following: 4th—_command undead_, 6th—_animate dead_, 12th—_create undead_, 14th—_control undead_, 16th— _create greater undead_. These replace the patron spells"
-import_trades = ["Patron spells"]
-
-[[entry.feature]]
-anchor = "spell-poppet"
-head = "Spell Poppet"
-listed = true
-print = "Each gravewalker carries around a gristly, inanimate poppet stitched from human skin and stuffed with shards of bone, fingernails, and grave dirt. A gravewalker's spells come from the will of evil spirits residing in the poppet, and its ability to hold spells functions in a manner identical to the way a witch's spells are granted by her familiar. The gravewalker must commune with her poppet each day to prepare her spells and cannot prepare spells that are not stored in the poppet. This ability replaces familiar. The following familiar ability works differently for a gravewalker:"
-import_trades = ["Familiar"]
-
-[[entry.feature]]
-anchor = "deliver-touch-spells"
-head = "Deliver Touch Spells (Su)"
-listed = true
-level = 3
-print = "At 3rd level or higher, a gravewalker can use her poppet to deliver touch spells. After casting a touch spell, as a full-round action, the witch can designate a target and stab a pin into her poppet, delivering the spell as a ranged touch attack. The target must be within range of her aura of desecration ability."
-
-[[entry.feature]]
-anchor = "aura-of-desecration"
-head = "Aura of Desecration (Su)"
-listed = true
-level = 1
-print = "At 1st level, a gravewalker can create a 20-foot-radius aura of evil power. This aura increases the DC of channeled negative energy by +1 and the turn resistance of undead by +1. At 3rd level and every 2 levels thereafter, the radius of the aura increases by 5 feet, to a maximum of 70 feet at 20th level. This ability replaces the witch's 1st-level hex."
-import_trades = ["1st-level hex"]
-
-[[entry.feature]]
-anchor = "bonethrall"
-head = "Bonethrall (Su)"
-listed = true
-level = 1
-print = "At 1st level, a gravewalker can take control of an undead creature within her aura of desecration by forcing her will upon it (Will negates, using her hex DC). If it fails the save, the creature falls under her control as if she had used _[command undead](ref/spell/command-undead)_ (once control is established, the undead remain controlled even if outside the witch's aura). Intelligent undead receive a new saving throw each day to resist her command. The witch can control up to 1 HD of undead creatures per caster level. If an undead creature is under the control of another creature, the witch must make an opposed Charisma check whenever her orders conflict with that creature's. This replaces the witch's hex gained at 4th level."
-import_trades = ["4th-level hex"]
-
-[[entry.feature]]
-anchor = "possess-undead"
-head = "Possess Undead (Sp)"
-listed = true
-print = "A gravewalker may take direct control of one of her undead minions within her aura of desecration, as if using _[magic jar](ref/spell/magic-jar)_; the witch's poppet acts as the soul receptacle for this ability. The minion gets no saving throw against this ability. This replaces the witch's hex gained at 8th level."
-import_trades = ["8th-level hex"]
-
-[[entry.feature]]
-anchor = "hexes"
-head = "Hexes"
-listed = true
-print = "The following witch hexes complement the gravewalker archetype: beast of ill-omen, evil eye, misfortune."
-
-[[entry.feature]]
-anchor = "major-hexes"
-head = "Major Hexes"
-listed = true
-print = "The following major hexes complement the gravewalker archetype: ice tomb, infected wounds, waxen image."
-
-[[entry.feature]]
-anchor = "grand-hexes"
-head = "Grand Hexes"
-listed = true
-print = "The following grand hexes complement the gravewalker archetype: death curse, summon spirit."
-
-[[entry]]
-id = "ref/arc-witch/hedge-witch"
-hold = "the replaces trade `4th-level hex` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `8th-level hex` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["Among witches, there are those who devote themselves to the care of others and restrict their practices to the healing arts. They often take the place of clerics in rural communities and may wander the countryside servicing the needs of several small communities."]
-
-[[entry.feature]]
-anchor = "patron"
-head = "Patron"
-listed = true
-print = "A hedge witch's patron is normally one with a [healing](ref/patron/healing) theme."
-
-[[entry.feature]]
-anchor = "spontaneous-healing"
-head = "Spontaneous Healing (Su)"
-listed = true
-print = "A hedge witch can channel stored spell energy into healing spells that she did not prepare ahead of time. The witch can \"lose\" any prepared spell that is not a cantrip in order to cast any _cure_ spell of the same spell level or lower, even if she doesn't know that cure spell. This replaces the witch's hex gained at 4th level."
-import_trades = ["4th-level hex"]
-
-[[entry.feature]]
-anchor = "empathic-healing"
-head = "Empathic Healing (Su)"
-listed = true
-print = "A hedge witch can minister to a diseased or poisoned target, redirecting the affliction into herself. For a poisoned target, the witch must tend to him as a standard action; he makes his next saving throw against the poison as normal, but the witch suffers the effects of the failed save instead of the poisoned creature. For a diseased target, the witch must tend to the sick person for an hour; he makes his next saving throw against the disease as normal, but the witch suffers the effects of the failed save instead of the diseased creature. The witch does not actually become poisoned or diseased (and is not contagious and does not need to be cured), but suffers the effects of the affliction as if she had been. The witch normally uses this ability to extend the life of someone near death, giving him time to recover. This ability has no effect if the witch is immune to disease or poison. This replaces the witch's hex gained at 8th level."
-import_trades = ["8th-level hex"]
-
-[[entry.feature]]
-anchor = "hexes"
-head = "Hexes"
-listed = true
-print = "The following witch hexes complement the hedge witch archetype: cauldron, feral speech, healing, tongues."
-
-[[entry.feature]]
-anchor = "major-hexes"
-head = "Major Hexes"
-listed = true
-print = "The following major hexes complement the hedge witch archetype: major healing, weather control, witch's brew. Grand Hexes: The following grand hex complements the hedge witch archetype: life giver."
-
-[[entry]]
-id = "ref/arc-witch/sea-witch"
-opening = ["A sea witch's affinities are tied to the vast oceans and the rolling waves. Her magic concerns the moon, tides, water, and winds, and she is most at peace when she is upon or near the sea."]
-
-[[entry.feature]]
-anchor = "patron"
-head = "Patron"
-listed = true
-print = "A sea witch cannot choose a patron whose interests or theme opposes that of water (for example, earth or fire)."
-
-[[entry.feature]]
-anchor = "spells"
-head = "Spells"
-listed = true
-print = "A sea witch replaces some of her patron spells with the following: 2nd—_touch of sea_\\*\\*, 4th—_gust of wind_, 6th—_water breathing_, 8th—_control water_, 10th— _cloudkill_, 12th—_control wind_, 14th—_control weather_, 16th—_vortex_\\*\\*, 18th—_tsunami_\\*\\*."
-
-[[entry.feature]]
-anchor = "know-direction"
-head = "Know Direction (Sp)"
-listed = true
-print = "So long as she near a sizable body of water (at least a lake with a diameter of 1 mile or more), a sea witch may cast _[know direction](ref/spell/know-direction)_ at will as a [spell-like ability](ref/umr/spell-like-abilities)."
-
-[[entry.feature]]
-anchor = "sea-creature-empathy"
-head = "Sea Creature Empathy (Ex)"
-listed = true
-level = 1
-print = "A sea witch can influence the attitude of water-dwelling animals and animals that live along coasts and shores, including birds, as if using [wild empathy](ref/ability/wild-empathy). The sea witch uses her witch level as her [druid](ref/class/druid) level for this ability. If the sea witch has wild empathy from another class, her witch levels stack with the other class's levels to determine her wild empathy bonus for these kinds of creatures. This ability replaces the witch's 1st-level hex."
-import_trades = ["1st-level hex"]
-
-[[entry.feature]]
-anchor = "hexes"
-head = "Hexes"
-listed = true
-print = "The following witch hexes complement the sea witch archetype: charm, flight, water lung."
-
-[[entry.feature]]
-anchor = "major-hexes"
-head = "Major Hexes"
-listed = true
-print = "The following major hexes complement the sea witch archetype: hag eye, hidden home, weather control."
-
-[[entry.feature]]
-anchor = "grand-hexes"
-head = "Grand Hexes"
-listed = true
-print = "The following grand hex complements the sea witch archetype: natural disaster."
-
-[[entry]]
 id = "ref/arc-wizard/scrollmaster"
-hold = "the replaces trade `10th-level bonus feat` is not printed in a sentence, and no listed feature of that name prints it; Improved Scroll Casting (Su): the sentence \"This ability replaces the 10th-level wizard bonus feat\" names no trade"
+hold = "checker: [fields] trades = \"replaces: 10th-level bonus feat\" disagrees with the trade sentences of the feature `improved-scroll-casting` = \"replaces: the 10th-level wizard bonus feat\" (line 111)"
 opening = ["To some wizards, a scroll is not just a written form of a spell, it is a physical weapon meant to be used in combat like a sword or a shield. These strange wizards enter battle armed with scrolls, often one in each in each hand, practicing combat techniques resembling some monk martial arts."]
 
 [[entry.feature]]
@@ -2507,50 +1234,78 @@ anchor = "improved-scroll-casting"
 head = "Improved Scroll Casting (Su)"
 listed = true
 level = 10
+print = "At 10th level, the scrollmaster can cast a wizard spell from a scroll and use his own Intelligence score and relevant feats to set the DC for the spell, and can use his own caster level if it is higher than that of the scroll (similar to a caster using a [staff](ref/rule/staves)). The scrollmaster must have already deciphered the writing on the scroll to use this ability. This ability replaces the 10th-level wizard bonus feat."
+import_trades = ["10th-level bonus feat"]
+
+[[entry.feature]]
+anchor = "2-m-astering"
+head = "2 M astering"
+listed = true
+print = ""
+
+[[entry.feature]]
+anchor = "m-agic"
+head = "M agic"
+listed = true
+print = ""
+
+[[entry.feature]]
+anchor = "a-nd-so-it-came-to-pass-that-in-the-last-days-of-the-thassilonian-empire-the-very-heavens-themselves-rebelled-against-its-blasphemy-the-starstone-fell-shaking-the-world-and-driving-the-seas-forth-across-continents-nearly-extinguishing-the-light-of-humanity-yet-even-in-the-rubble-of-their-nations-the-runelords-continued-to-spar-from-the-mountains-of-the-rasp-the-runelord-karzoug-ignored-his-people-and-struck-out-at-alaznist-runelord-of-wrath-driving-her-realm-deeper-beneath-the-waves-and-in-these-last-futile-scramblings-we-see-how-even-the-mightiest-of-spellcasters-may-be-brought-low-by-sin"
+head = "A nd so it came to pass that in the last days of the Thassilonian Empire, the very heavens themselves rebelled against its blasphemy. The Starstone fell, shaking the world and driving the seas forth across continents, nearly extinguishing the light of humanity. Yet even in the rubble of their nations, the runelords continued to spar. From the mountains of the Rasp, the Runelord Karzoug ignored his people and struck out at Alaznist, Runelord of Wrath, driving her realm deeper beneath the waves. And in these last, futile scramblings, we see how even the mightiest of spellcasters may be brought low by sin."
+listed = true
+print = ""
+
+[[entry.feature]]
+anchor = "introduction"
+head = "Introduction"
+listed = true
 print = '''
-At 10th level, the scrollmaster can cast a wizard spell from a scroll and use his own Intelligence score and relevant feats to set the DC for the spell, and can use his own caster level if it is higher than that of the scroll (similar to a caster using a [staff](ref/rule/staves)). The scrollmaster must have already deciphered the writing on the scroll to use this ability. This ability replaces the 10th-level wizard bonus feat.
-
-2 M astering
-
-M agic
-
-A _nd so it came to pass that in the last days of the Thassilonian Empire, the very heavens themselves rebelled against its blasphemy. The Starstone fell, shaking the world and driving the seas forth across continents, nearly extinguishing the light of humanity. Yet even in the rubble of their nations, the runelords continued to spar. From the mountains of the Rasp, the Runelord Karzoug ignored his people and struck out at Alaznist, Runelord of Wrath, driving her realm deeper beneath the waves. And in these last, futile scramblings, we see how even the mightiest of spellcasters may be brought low by sin._
-
-Introduction
-
 Anyone can be a spellcaster. If you can crack open a book and knuckle down in your studies, you can probably become a passable wizard. If you can devote yourself in body and soul to a god—and why wouldn't you, when there's such a variety to choose from?—you may find yourself endowed with magical powers simply for having faith in your god's (and your own) righteousness. Oracles are chosen without their consent, far-roving rangers pick up magical tricks and traps, druids channel the will of nature, sorcerers get their abilities as dubious presents from philandering ancestors, and bards find magical inspiration in performance and art. Magic is everywhere in the Pathfinder Roleplaying Game, and many of the movers and shakers in towns and cities of any significant size have a spell or two up their sleeves.
 
 But those are just ordinary people who have access to magic. Basic hedge wizards may make a fine living crafting glowing swords, and a priest with the ability to heal broken bones is a must for any church that wants to win itself a congregation, but such everyday spellcasters are hardly the stuff of legend. Instead, those magic users who get remembered as heroes and legends—rather than simply magical craftsmen and merchants—take these same techniques and build upon them, seeking out ever-more-elusive knowledge and crafting new spells of magnificent power. It is with these esoteric practices that the greatest make names for themselves; these potent arts set the masters apart from mundane practitioners.
 
 This chapter introduces several new subsystems and guidelines that help true acolytes of the magical arts hone their skills, and take them beyond the simple spells and constraints of lesser casters. In addition to in-game systems for crafting constructs, binding outsiders, and more, this section also includes dangerous new conditions called spellblights that afflict only casters, plus details for both players and Game Masters alike on how to design new spells for the Pathfinder Roleplaying Game and make sure that they're properly balanced and thought through ahead of time—before they wreak havoc at your gaming table.
 
-Major subjects and subsystems covered in this chapter include the following.
+Major subjects and subsystems covered in this chapter include the following.'''
 
-Spellblights
+[[entry.feature]]
+anchor = "spellblights"
+head = "Spellblights"
+listed = true
+print = "Just as spellcasters have strange and extraordinary abilities unavailable to the common person, so too are they susceptible to unique maladies. Spellblights are specific curses that only affect spellcasters and creatures that use spell-like abilities, saddling them with a host of unfortunate conditions that are extremely difficult to get rid of and greatly hinder the victim's use of magic. (Fortunately, some of these curses have also been discovered to have beneficial side effects that cursed casters can use to their advantage.) Divided into both major and minor categories, spellblights include such grotesque conditions as hemoculysis—in which the caster bleeds from the eyes each time she casts a spell—as well as gentler but more inconvenient afflictions such as phase blight and spell addiction. Spellblights are described in full beginning on page 94."
 
-Just as spellcasters have strange and extraordinary abilities unavailable to the common person, so too are they susceptible to unique maladies. Spellblights are specific curses that only affect spellcasters and creatures that use spell-like abilities, saddling them with a host of unfortunate conditions that are extremely difficult to get rid of and greatly hinder the victim's use of magic. (Fortunately, some of these curses have also been discovered to have beneficial side effects that cursed casters can use to their advantage.) Divided into both major and minor categories, spellblights include such grotesque conditions as hemoculysis—in which the caster bleeds from the eyes each time she casts a spell—as well as gentler but more inconvenient afflictions such as phase blight and spell addiction. Spellblights are described in full beginning on page 94.
+[[entry.feature]]
+anchor = "spell-duels"
+head = "Spell Duels"
+listed = true
+print = "When two competent spellcasters come to blows, the result is always impressive, if not downright frightening. Yet not every matter of honor is meant to be settled on the battlefield in standard, no-holds-barred combat. To this end, many of the more civilized casters (especially those in magical universities, military orders, and other situations in which the combatants might regret killing their opponents, or need to prove that their victory was through skill alone) settle such matters using a highly ritualized form of combat known as the spell duel. Sample rules for running a spell duel begin on page 99."
 
-Spell Duels
+[[entry.feature]]
+anchor = "binding-outsiders"
+head = "Binding Outsiders"
+listed = true
+print = "What better way for an accomplished arcanist or theological miracle-worker to display his abilities than to summon and bind a powerful outsider as his servant? Whether it's a cleric of Asmodeus f launting a chained angel or the wizard who binds an inevitable to seek out and punish those who break contracts with him, binders are both feared and respected by beings from all planes—and for good reason. This section begins with general notes on binding, then goes on to present inside information on the various gifts and offerings that help secure the allegiance of each individual type of outsider, from akhana aeons to shoggti qlippoth. These dangerous secrets begin on page 101."
 
-When two competent spellcasters come to blows, the result is always impressive, if not downright frightening. Yet not every matter of honor is meant to be settled on the battlefield in standard, no-holds-barred combat. To this end, many of the more civilized casters (especially those in magical universities, military orders, and other situations in which the combatants might regret killing their opponents, or need to prove that their victory was through skill alone) settle such matters using a highly ritualized form of combat known as the spell duel. Sample rules for running a spell duel begin on page 99.
+[[entry.feature]]
+anchor = "building-and-modifying-constructs"
+head = "Building and Modifying Constructs"
+listed = true
+print = "Constructs can be far more than just lumbering golems and awkward animated bureaus. Those who devote their lives to unlocking the inner workings of animating magic have uncovered numerous new abilities with which to imbue their constructs, as well as strange new ways to utilize the constructs themselves. Learn new animated object abilities, as well as how to price, modify, and repair unique constructs. Or dive deeper into more complex modifications: give your golem a brain to store feats, wear it as armor, see through its eyes, inscribe a rune on its forehead to protect it, or turn its limbs into grenades ready to shatter and splash liquid death over those who attack it. Construct building and modification begins on page 111."
 
-Binding Outsiders
+[[entry.feature]]
+anchor = "new-familiars"
+head = "New Familiars"
+listed = true
+print = "A distinctive spellcaster deserves a distinctive familiar. This section presents statistics from a number of new and highly recognizable familiars, from the blue-ringed octopus and the donkey rat to the king crab and the ever-popular pig. These new minions begin their campaigns to become your next arcane assistants on page 117."
 
-What better way for an accomplished arcanist or theological miracle-worker to display his abilities than to summon and bind a powerful outsider as his servant? Whether it's a cleric of Asmodeus f launting a chained angel or the wizard who binds an inevitable to seek out and punish those who break contracts with him, binders are both feared and respected by beings from all planes—and for good reason. This section begins with general notes on binding, then goes on to present inside information on the various gifts and offerings that help secure the allegiance of each individual type of outsider, from akhana aeons to shoggti qlippoth. These dangerous secrets begin on page 101.
+[[entry.feature]]
+anchor = "spellbooks"
+head = "Spellbooks"
+listed = true
+print = "As with all scholarly practices, wizards and other arcane casters who follow an academic course to power achieve greatness by standing on the shoulders of giants. Presented in this section are numerous unique spellbooks ready to be dropped in front of arcane adventurers as treasure, or perhaps sought out as the objects of scholarly quests. In addition to spell lists and brief descriptions of each book's theme, these listings also include preparation rituals—boons a spellcaster can receive by preparing her spells using the spellbook in question. But beware, for not all of the spellcasters who penned these tomes take kindly to interlopers plagiarizing their work, and some spellbooks carry dangerous wards to defend their pages against prying eyes. The section detailing new spellbooks begins on page 121."
 
-Building and Modifying Constructs
-
-Constructs can be far more than just lumbering golems and awkward animated bureaus. Those who devote their lives to unlocking the inner workings of animating magic have uncovered numerous new abilities with which to imbue their constructs, as well as strange new ways to utilize the constructs themselves. Learn new animated object abilities, as well as how to price, modify, and repair unique constructs. Or dive deeper into more complex modifications: give your golem a brain to store feats, wear it as armor, see through its eyes, inscribe a rune on its forehead to protect it, or turn its limbs into grenades ready to shatter and splash liquid death over those who attack it. Construct building and modification begins on page 111.
-
-New Familiars
-
-A distinctive spellcaster deserves a distinctive familiar. This section presents statistics from a number of new and highly recognizable familiars, from the blue-ringed octopus and the donkey rat to the king crab and the ever-popular pig. These new minions begin their campaigns to become your next arcane assistants on page 117.
-
-Spellbooks
-
-As with all scholarly practices, wizards and other arcane casters who follow an academic course to power achieve greatness by standing on the shoulders of giants. Presented in this section are numerous unique spellbooks ready to be dropped in front of arcane adventurers as treasure, or perhaps sought out as the objects of scholarly quests. In addition to spell lists and brief descriptions of each book's theme, these listings also include preparation rituals—boons a spellcaster can receive by preparing her spells using the spellbook in question. But beware, for not all of the spellcasters who penned these tomes take kindly to interlopers plagiarizing their work, and some spellbooks carry dangerous wards to defend their pages against prying eyes. The section detailing new spellbooks begins on page 121.
-
-Designing Spells
-
-While this book contains a host of new spells, you can never have enough variety in your magical arsenal, and one of the great joys of playing a spellcaster (or Game Mastering for one!) is designing new spells unique to a given character or situation. This section takes a detailed look at the design process for spells, a delicate balancing act that is as much art as science. How much damage should a spell of a given level do? Is a spell that kills or controls more powerful? Which bonus type should a given spell grant? What spells are good benchmarks to compare your new creation against? The secrets of the Pathfinder RPG's key designers await, beginning on page 128.'''
-import_trades = ["10th-level bonus feat"]
+[[entry.feature]]
+anchor = "designing-spells"
+head = "Designing Spells"
+listed = true
+print = "While this book contains a host of new spells, you can never have enough variety in your magical arsenal, and one of the great joys of playing a spellcaster (or Game Mastering for one!) is designing new spells unique to a given character or situation. This section takes a detailed look at the design process for spells, a delicate balancing act that is as much art as science. How much damage should a spell of a given level do? Is a spell that kills or controls more powerful? Which bonus type should a given spell grant? What spells are good benchmarks to compare your new creation against? The secrets of the Pathfinder RPG's key designers await, beginning on page 128."
