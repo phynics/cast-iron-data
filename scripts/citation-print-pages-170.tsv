@@ -4175,10 +4175,10 @@ ref/vigtalent/twisting-fear	ultimate-intrigue	16	print
 ref/vigtalent/unexpected-strike	ultimate-intrigue	16	print		
 ref/vigtalent/unkillable	ultimate-intrigue	16	print		
 ref/vigtalent/up-close-and-personal	ultimate-intrigue	17	print		
-ref/discovery/boneshard-bomb	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
-ref/discovery/ectoplasmic-bomb	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
-ref/discovery/phantom-limb	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
-ref/discovery/psychokinetic-tincture	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
+ref/discovery/boneshard-bomb	undead-slayers-handbook	21	print		rendered PDF p. 23, printed p. 21, seen: the discovery is printed as a heading (name, asterisk, colon) under Alchemist Discoveries on this page; the offset +2 of pages 9 to 15 holds
+ref/discovery/ectoplasmic-bomb	undead-slayers-handbook	21	print		rendered PDF p. 23, printed p. 21, seen: the discovery is printed as a heading (name, asterisk, colon) under Alchemist Discoveries on this page; the offset +2 of pages 9 to 15 holds
+ref/discovery/phantom-limb	undead-slayers-handbook	21	print		rendered PDF p. 23, printed p. 21, seen: the discovery is printed as a heading (name, asterisk, colon) under Alchemist Discoveries on this page; the offset +2 of pages 9 to 15 holds
+ref/discovery/psychokinetic-tincture	undead-slayers-handbook	21	print		rendered PDF p. 23, printed p. 21, seen: the discovery is printed as a heading (name, asterisk, colon) under Alchemist Discoveries on this page; the offset +2 of pages 9 to 15 holds
 ref/racial-trait/dwarf/attributes	inner-sea-races	236	print		the trait is in the DWARVES race block on this page
 ref/racial-trait/dwarf/darkvision	inner-sea-races	236	print		the trait is in the DWARVES race block on this page
 ref/racial-trait/dwarf/defensive-training	inner-sea-races	236	print		the trait is in the DWARVES race block on this page
