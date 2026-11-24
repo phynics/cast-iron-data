@@ -463,7 +463,7 @@ agents-of-evil	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal Speed	
 agents-of-evil	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	12	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
 agents-of-evil	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	12	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
 agents-of-evil	ref/race/changeling	race	Changeling	6	7	uncited	printed		none	2	3,24										race-hub	S9		yes	yes			
-agents-of-evil	ref/race/drow	race	Drow	5	6	uncited	printed		none	6	0,3,6,11,22										race-hub	S9		yes	yes			
+agents-of-evil	ref/race/drow	race	Drow	5	6	uncited	printed		none	6	0,3,6,11,22							remove	24	race-options-only	race-hub	done		yes	yes			
 agents-of-evil	ref/race/fetchling	race	Fetchling	5	5	uncited	printed		none	5	3,24,25,28,31										race-hub	S9		yes	yes			
 agents-of-evil	ref/race/tiefling	race	Tiefling	5	7	uncited	printed		none	2	3,25										race-hub	S9		yes	yes			
 agents-of-evil	ref/spell/detect-chaos-evil-good-law	spell	Detect Chaos/Evil/Good/Law	2	2	review	absent	16	row	0								resolved	none	out-of-source-ids	single-entry	S0			yes			
@@ -704,7 +704,7 @@ blood-of-shadows	ref/class/spiritualist	class	Spiritualist	7	7	uncited	printed		
 blood-of-shadows	ref/class/summoner	class	Summoner	5	7	uncited	printed		none	4	3,11,15,30							remove	15	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/warpriest	class	Warpriest	3	6	uncited	printed		none	3	3,15,17							remove	15	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/witch	class	Witch	3	11	uncited	printed		none	8	4,11,15,16,28							remove	11	class-options-only	class-hub	done			yes			
-blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5										race-hub	S9		yes	yes			
+blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5							remove	14	race-options-only	race-hub	done		yes	yes			
 blood-of-shadows	ref/race/fetchling	race	Fetchling	4	5	uncited	printed		none	9	2,3,4,5,6										race-hub	S9		yes	yes			
 blood-of-shadows	ref/race/wayang	race	Wayang	6	6	uncited	printed		none	8	2,3,5,10,11										race-hub	S9		yes	yes			
 blood-of-shadows	ref/class/arcanist	class	Arcanist	6	8	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
