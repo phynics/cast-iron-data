@@ -24,7 +24,7 @@ trades = [
 ]
 +++
 
-**Source** Ultimate Wilderness pg. 50, errata
+**Source** Ultimate Wilderness pg. 50
 
 Not all battles are fought between armies; sometimes, a settlement or nation faces a threat too dire
 to fight in the open. In order to repel a much larger enemy force, some soldiers must abandon

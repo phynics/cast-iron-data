@@ -19,7 +19,7 @@ trades = [
 ]
 +++
 
-**Source** Ultimate Magic pg. 27, errata
+**Source** Ultimate Magic pg. 27
 
 They say that words can cut deeper than any blade, and the sound striker proves this true. Using
 music and words as a weapon, he can focus his performances into a deadly delivery.
@@ -41,12 +41,10 @@ the bard's level to an object, or half this damage to a living creature.
 
 **Weird Words (Su)**
 
-**At 6th Level:** The bard can start a performance that is always a **standard action** to speak up
-to one word per 4 bard levels laden with sonic energy. Each word deals 4d6 points of sonic damage as
-a ranged touch attack with a range of 30 feet. The bard adds his charisma modifier on damage rolls
-with weird words. Multiple words that strike the same target stack into a single powerful attack,
-applying energy resistance and bonuses on damage rolls only once. The bard can target all words at
-the same or different targets, but he unleashes all words simultaneously. Each word costs 1 round of
-bardic performance.
+**At 6th Level:** A sound striker can start a performance as a **standard action**, lashing out with
+1 potent sound per bard level (maximum 10), each sound affecting one target within 30 feet. These
+are ranged touch attacks. Each weird word deals 1d8 points of damage plus the bard's Charisma bonus
+(Fortitude half), and the bard chooses whether it deals bludgeoning, piercing, or slashing damage
+for each word.
 
 **Replaces:** Suggestion

@@ -79,12 +79,8 @@ Disable Device to disarm magic traps. When determining the ability of a crypt br
 **Gained:** At 1st Level
 
 **Passive:** A crypt breaker may take the following rogue talents as discoveries:
-[quick disable](ref/talent/quick-disable), _trap sense_ (see below), and
-[trap spotter](ref/talent/trap-spotter). Treat the crypt breaker's alchemist level as his rogue
-level for these talents.
-
-> _Per errata, Trap Sense refers to the rogue [class ability](ref/ability/trap-sense). The crypt
-> breaker can take it as a discovery, and it improves as the crypt breaker levels up._
+[quick disable](ref/talent/quick-disable), trap sense, and [trap spotter](ref/talent/trap-spotter).
+Treat the crypt breaker's alchemist level as his rogue level for these talents.
 
 **Enhanced Alkahest (Su)**
 
