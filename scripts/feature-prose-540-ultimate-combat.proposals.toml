@@ -1,0 +1,1333 @@
+# Texts of the entries that feature-prose-540.py has not converted yet. Generated: never edit by hand
+# except the `edit` text of a feature (status `edit` in the review TSV).
+
+[[entry]]
+id = "ref/arc-alchemist/beastmorph"
+hold = "checker: [fields] trades = \"replaces: Poison resistance +2, +4, and +6; replaces: poison immunity\" disagrees with the trade sentences of the feature `greater-beastform-mutagen` = \"replaces: poison resistance +2, +4, and +6, as well as poison immunity\" (line 55)"
+opening = ["Beastmorphs study the anatomy of monsters, learning how they achieve their strange powers. They use their knowledge to duplicate these abilities, but at the cost of taking on inhuman shapes when they use mutagens."]
+
+[[entry.feature]]
+anchor = "beastform-mutagen"
+head = "Beastform Mutagen"
+listed = true
+level = 3
+print = "At 3rd level, a beastmorph's mutagen causes him to take on animalistic features— whether those of an animal, a magical beast, an animal-like humanoid (such as a lizardfolk), or a monstrous humanoid. For example, when the beastmorph uses his mutagen, he may gain a furry muzzle and pointed ears like a werewolf, scaly skin like a lizardfolk or sahuagin, or compound eyes and mandibles like a giant insect. The beastmorph also gains his choice of one of the abilities listed in the _[alter self](ref/spell/alter-self)_ spell, which persists as long as the mutagen. He may select a different ability each time he creates a mutagen. This ability replaces swift alchemy."
+import_trades = ["Swift alchemy"]
+
+[[entry.feature]]
+anchor = "improved-beastform-mutagen"
+head = "Improved Beastform Mutagen"
+listed = true
+level = 6
+print = "At 6th level, a beastmorph's mutagen grants him additional abilities and options. The alchemist gains his choice of two of the abilities listed in the _[beast shape I](ref/spell/beast-shape-1)_ spell, which persist as long as the mutagen. He may select two different abilities each time he creates a mutagen. This ability replaces swift poisoning."
+import_trades = ["Swift poisoning"]
+
+[[entry.feature]]
+anchor = "greater-beastform-mutagen"
+head = "Greater Beastform Mutagen"
+listed = true
+level = 10
+print = "At 10th level, a beastmorph's mutagen grants him three of the abilities listed in the _[beast shape II](ref/spell/beast-shape-2)_ spell, which persist as long as the mutagen. He may select three different abilities each time he creates a mutagen. This ability replaces poison resistance +2, +4, and +6, as well as poison immunity."
+import_trades = ["Poison resistance +2", "+4", "+6", "poison immunity"]
+
+[[entry.feature]]
+anchor = "grand-beastform-mutagen"
+head = "Grand Beastform Mutagen"
+listed = true
+level = 14
+print = "At 14th level, a beastmorph's mutagen grants him four of the abilities listed in the _[beast shape III](ref/spell/beast-shape-3)_ spell, which persist as long as the mutagen. He may select four different abilities each time he creates a mutagen. This ability replaces persistent mutagen."
+import_trades = ["Persistent mutagen"]
+
+[[entry.feature]]
+anchor = "discoveries"
+head = "Discoveries"
+listed = false
+print = "The following discoveries complement the beastmorph archetype: [feral mutagen](ref/discovery/feral-mutagen), [grand mutagen](ref/discovery/grand-mutagen), [greater mutagen](ref/discovery/greater-mutagen), [infuse mutagen](ref/discovery/infuse-mutagen), [mummification](ref/discovery/mummification), [spontaneous healing](ref/discovery/spontaneous-healing), [tentacle](ref/discovery/tentacle), and [wings](ref/discovery/wings)."
+
+[[entry]]
+id = "ref/arc-barbarian/true-primitive"
+hold = "the alters trade `The barbarian's armor and weapon proficiencies` is not printed in a sentence, and no listed feature of that name prints it"
+opening = ["Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from cities and organized settlements as strange, dangerous, and decadent. They gain power from their truly primitive nature; their bodies and spirits are hardened by the wild and untainted existence far from the pathetic softness of so-called civilization. Even when forced to mingle with civilization, the true primitive stays apart in both traditions and trappings."]
+
+[[entry.feature]]
+anchor = "weapon-and-armor-proficiency"
+head = "Weapon and Armor Proficiency"
+listed = false
+print = "A true primitive is proficient with [hide armor](ref/eq-armor/hide) and armors made from [bone](ref/eq-material/bone) (see page 146). A true primitive is also proficient with bone shields and the following weapons: [battleaxe](ref/eq-weapon/battleaxe), [blowgun](ref/eq-weapon/blowgun), [club](ref/eq-weapon/club), [greatclub](ref/eq-weapon/greatclub), [handaxe](ref/eq-weapon/handaxe), [longspear](ref/eq-weapon/longspear), [shortspear](ref/eq-weapon/shortspear), [sling](ref/eq-weapon/sling), and [spear](ref/eq-weapon/spear)."
+import_trades = ["The barbarian's armor", "weapon proficiencies"]
+
+[[entry.feature]]
+anchor = "illiteracy"
+head = "Illiteracy"
+listed = true
+print = "A true primitive cannot read or write, and her superstition about such things leads her to refuse to ever learn to read or write, even if she multiclasses into other classes."
+
+[[entry.feature]]
+anchor = "favored-terrain"
+head = "Favored Terrain (Ex)"
+listed = true
+level = 1
+print = "A true primitive has a [favored terrain](ref/ability/favored-terrain) representing her native homeland. This ability functions as the ranger class feature, and the true primitive's bonuses in that terrain improve by +2 at 5th level and every five levels thereafter. However, she does not gain any additional favored terrains. This ability replaces fast movement."
+import_trades = ["Fast movement"]
+
+[[entry.feature]]
+anchor = "trophy-fetish"
+head = "Trophy Fetish (Ex)"
+listed = true
+print = "A true primitive collects teeth, bones, hair, and other trophies from vanquished enemies, representing their power and strength. At 3rd level, a true primitive can attach a trophy fetish to one of the traditional true primitive weapons listed above. When wielding that weapon, the true primitive gains a +1 morale bonus on damage rolls. Furthermore, if that weapon has the [fragile](ref/misc/fragile) property, once per day, the true primitive can ignore the effects of a single natural 1 roll. A trophy fetish can also be attached to a suit of hide or bone armor, granting the true primitive a +1 morale bonus on saving throws. Furthermore, if that armor has the fragile property, once per day, the true primitive can chose not to have the armor break on the confirmation of a critical hit made against her. Every five levels beyond 3rd, a true primitive can use an additional trophy fetish. Multiple trophy fetishes can be attached to the same armor or weapon; their effects stack. A trophy fetish can be sundered ([hardness](ref/umr/hardness) 5, 1 hit point) but is not damaged by area attacks or attacks that do not specifically target it. It has no effect if attached to other types of weapons or armor. This ability replaces trap sense."
+import_trades = ["Trap sense"]
+
+[[entry.feature]]
+anchor = "rage-powers"
+head = "Rage Powers"
+listed = false
+print = "The following rage powers complement the true primitive archetype: [animal fury](ref/ragepower/animal-fury), [eater of magic](ref/ragepower/eater-of-magic), [ghost rager](ref/ragepower/ghost-rager), [low-light vision](ref/ragepower/low-light-vision), [night vision](ref/ragepower/night-vision), [primal scent](ref/ragepower/primal-scent), [scent](ref/ragepower/scent), [spell sunder](ref/ragepower/spell-sunder), [sunder enchantment](ref/ragepower/sunder-enchantment), [superstition](ref/ragepower/superstition), and [witch hunter](ref/ragepower/witch-hunter)."
+
+[[entry]]
+id = "ref/arc-bard/dervish-dancer"
+hold = "the alters trade `Bardic performance` is not printed in a sentence, and no listed feature of that name prints it; Battle Dance: the sentence \"This ability replaces bardic performance\" names no trade"
+opening = ["Not all bards inspire others with their performances. Dervish dancers enter a near-mystical trance that allows them to push their bodies beyond normal limits."]
+
+[[entry.feature]]
+anchor = "weapon-and-armor-proficiency"
+head = "Weapon and Armor Proficiency"
+listed = false
+print = "Dervish dancers gain weapon proficiency with the [scimitar](ref/eq-weapon/scimitar) and [kukri](ref/eq-weapon/kukri). This ability replaces their proficiency with the rapier and whip."
+import_trades = ["Proficiency with the rapier", "whip"]
+
+[[entry.feature]]
+anchor = "battle-dance"
+head = "Battle Dance"
+listed = true
+print = '''
+A dervish dancer is trained in the use of the Perform skill, especially dance, to create magical effects on himself. This works like bardic performance, except the dervish dancer only affects himself, and does not need to be able to see or hear his own performance. Battle dancing is treated as bardic performance for the purposes of feats, abilities, effects, and the like that affect bardic performance, except that battle dancing does not benefit from the [Lingering Performance](ref/feat/lingering-performance) feat or any other ability that allows a bardic performance to grant bonuses after it has ended. Battle dancing benefits apply only when the bard is wearing light or no armor. Like bardic performance, it cannot be maintained at the same time as other performance abilities.
+
+Starting a battle dance is a move action, but it can be maintained each round as a free action. Changing a battle dance from one effect to another requires the dervish dancer to stop the previous performance and start the new one as a move action. Like a bard, a dervish dancer's performance ends immediately if he is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round. A dervish dancer cannot perform more than one battle dance at a time. At 10th level, a dervish dancer can start a battle dance as a swift action instead of a move action.
+
+Dervish dancers gain the inspire courage, inspire greatness, and inspire heroics bardic performance types as battle dances, but these only provide benefit to the dervish dancer himself. This ability replaces bardic performance.'''
+import_trades = ["Bardic performance"]
+
+[[entry.feature]]
+anchor = "rain-of-blows"
+head = "Rain of Blows (Su)"
+listed = true
+level = 6
+print = "At 6th level, a dervish dancer can speed up his attacks. When making a [full attack](ref/rule/full-attack) action, he may make one extra attack with any weapon he is holding, as though under the effects of a _[haste](ref/spell/haste)_ spell. He also gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and on Reflex saves. At 9th level, and every three bard levels thereafter, these bonuses increase by +1, to a maximum of +5 at 18th level. These bonuses do not stack with the _[haste](ref/spell/haste)_ spell. This ability replaces suggestion and mass suggestion."
+import_trades = ["Suggestion", "mass suggestion"]
+
+[[entry.feature]]
+anchor = "razor-s-kiss"
+head = "Razor's Kiss (Su)"
+listed = true
+level = 8
+print = "At 8th level, a dervish dancer can use his battle dance to improve his weapons' critical range. All attacks he makes with manufactured weapons are treated as though he had the [Improved Critical](ref/feat/improved-critical) feat. Natural weapons and spells are not affected. This ability replaces dirge of doom."
+import_trades = ["Dirge of doom"]
+
+[[entry.feature]]
+anchor = "leaf-on-the-wind"
+head = "Leaf on the Wind (Su)"
+listed = true
+level = 14
+print = '''
+At 14th level, a dervish dancer can use his battle dance to evade attacks with unearthly grace and to shake off the effects of his wounds. Unlike other battle dances, leaf on the wind requires a standard action each round to start or maintain the performance. Each round it is maintained, including the first, the dervish dancer
+
+gains a +6 dodge bonus to Armor Class and on
+
+Reflex saves. If wounded, he heals 1 hit point
+
+of damage per bard level. This ability
+
+replaces frightening performance.'''
+import_trades = ["Frightening performance"]
+
+[[entry.feature]]
+anchor = "fleet"
+head = "Fleet (Su)"
+listed = true
+print = '''
+While performing a
+
+battle dance, a dervish dancer
+
+gains a +10 enhancement bonus
+
+to his land speed. This bonus
+
+increases by 5 feet for every
+
+four bard levels gained after 1st
+
+level, to a maximum of +30 feet
+
+at 19th level. This ability replaces
+
+bardic knowledge and lore master.'''
+import_trades = ["Bardic knowledge", "lore master"]
+
+[[entry.feature]]
+anchor = "versatile-dance"
+head = "Versatile Dance (Ex)"
+listed = true
+level = 2
+print = '''
+At 2nd level, a dervish dancer
+
+gains a bonus equal to [half](ref/misc/fractions-and-rounding) his level on Perform
+
+(dance) checks. He can use his bonus for his Perform
+
+(dance) skill in place of his bonus for Acrobatics. This
+
+ability replaces versatile performance.'''
+import_trades = ["Versatile performance"]
+
+[[entry.feature]]
+anchor = "dance-of-fury"
+head = "Dance of Fury (Su)"
+listed = true
+level = 12
+print = '''
+At 12th level, a dervish dancer
+
+can attack more than once as he moves while
+
+performing a battle dance. He can combine a full-
+
+attack action with a single move, taking the attacks
+
+at any point during his movement, but must move
+
+at least 5 feet between each attack. This movement
+
+provokes attacks of opportunity as normal. This
+
+ability replaces soothing performance.'''
+import_trades = ["Soothing performance"]
+
+[[entry.feature]]
+anchor = "battle-fury"
+head = "Battle Fury (Su)"
+listed = true
+level = 20
+print = '''
+At 20th level, the
+
+dervish dancer can unleash a whirlwind
+
+of blows while performing a battle dance.
+
+As a full-round action, he can take a single
+
+move action and unleash a single attack
+
+at his highest bonus against each target
+
+within his reach during any point of
+
+his move, up to a maximum number of
+
+attacks equal to the dervish dancer's
+
+character level. This movement
+
+provokes attacks of opportunity
+
+as normal, and replaces
+
+deadly performance.'''
+import_trades = ["Deadly performance"]
+
+[[entry]]
+id = "ref/arc-cavalier/gendarme"
+hold = "checker: [fields] trades = \"replaces: Tactician; replaces: greater tactician; replaces: master tactician; replaces: cavalier bonus feats\" disagrees with the trade sentences of the text outside any feature = \"replaces: tactician, greater tactician, and master tactician,; alters: the standard cavalier's select"
+opening = ["The gendarme cares less for the finer points of tactical precision than he does for the exhilaration of the charge: the rush of wind through the visor of his helmet, the feel of his couched lance, the satisfying shriek of armor giving way before his weapon's force as the point drives past metal into his foes."]
+
+[[entry.feature]]
+anchor = "bonus-feats"
+head = "Bonus Feats"
+listed = false
+print = "A gendarme trains to be a mounted terror, almost to the exclusion of all other abilities. He gains bonus feats at 1st level, 5th level, and then every three levels thereafter, but must select these bonus feats from the following list: [Improved Bull Rush](ref/feat/improved-bull-rush), [Mounted Combat](ref/feat/mounted-combat), [Power Attack](ref/feat/power-attack), [Ride-By Attack](ref/feat/ride-by-attack), [Spirited Charge](ref/feat/spirited-charge), [Spring Attack](ref/feat/spring-attack), and [Unseat](ref/feat/unseat). If the gendarme has already selected all of the listed feats, then he may select his bonus feats from those feats listed as combat feats. This ability replaces tactician, greater tactician, and master tactician, and alters the standard cavalier's selection of bonus feats."
+import_trades = ["Tactician", "greater tactician", "master tactician", "cavalier bonus feats"]
+
+[[entry.feature]]
+anchor = "transfixing-charge"
+head = "Transfixing Charge (Ex)"
+listed = true
+level = 20
+print = "At 20th level, a gendarme represents the epitome of mounted combat. Whenever he makes a [charge](ref/rule/charge) attack while mounted, he deals triple the normal damage (quadruple if using a [lance](ref/eq-weapon/lance)); this damage includes all increases from the Spirited Charge feat and from the use of a lance. In addition, if the gendarme confirms a critical hit on a charge attack while mounted, the attack deals maximum damage for the weapon wielded. Additional damage from weapon properties, magic effects, precision-based bonuses, or other increases are rolled normally. This ability replaces supreme charge."
+import_trades = ["Supreme charge"]
+
+[[entry]]
+id = "ref/arc-cleric/evangelist"
+hold = "the replaces trade `The 1st-, 9th-, and 15th-level channel energy abilities` is not printed in a sentence, and no listed feature of that name prints it"
+opening = ["The evangelist is the voice of her religion in the world. Where others nurture the faith among believers, an evangelist proclaims the coming glory of her deific patron and issues the clarion call to all around to heed the truth, or obey the call to war and crusade against the enemies of the church."]
+
+[[entry.feature]]
+anchor = "single-minded"
+head = "Single-Minded"
+listed = true
+print = "An evangelist focuses her skills and learning on proclamation rather than the fine details of the church's deeper mysteries or martial training. Thus, she may select only one domain and does not gain Medium Armor Proficiency or Shield Proficiency."
+
+[[entry.feature]]
+anchor = "public-speaker"
+head = "Public Speaker"
+listed = true
+print = "An evangelist gains [Perform](ref/skill/perform-any) as a class skill. In addition, she is trained to project her voice with great skill and effect; the DC to hear her speak in difficult conditions is reduced by an amount equal to her class level plus her Charisma modifier (minimum 0)."
+
+[[entry.feature]]
+anchor = "sermonic-performance"
+head = "Sermonic Performance"
+listed = true
+print = "An evangelist gains the ability to deliver a select number of supernatural and spell-like performances through the force and power of her divinely inspired preaching and exhortation. This ability is similar in all respects to bardic performance as used by a bard of the same level (including interactions with feats, spells, and prestige classes), using Perform (oratory) as the evangelist's performance skill. However, an evangelist gains only the following types of bardic performance: [countersong](ref/performance/countersong), [fascinate](ref/performance/fascinate), and [inspire courage](ref/performance/inspire-courage) at 1st level; [inspire greatness](ref/performance/inspire-greatness) at 9th level; and [inspire heroics](ref/performance/inspire-heroics) at 15th level. Sermonic performance replaces the 1st-, 9th-, and 15th-level channel energy abilities. This caps the cleric's channel energy damage at 7d6 points."
+import_trades = ["The 1st-", "9th-", "15th-level channel energy abilities"]
+
+[[entry.feature]]
+anchor = "spontaneous-casting"
+head = "Spontaneous Casting"
+listed = true
+print = "An evangelist does not gain the ability to spontaneously cast cure or inflict spells by sacrificing prepared spells. However, an evangelist can spontaneously cast the following spells by sacrificing a prepared spell of the noted level or above: Spell Level Spontaneous Spell 1st level _command_ 2nd level _enthrall_ 3rd level _tongues_ 4th level _suggestion_ 5th level _greater command_ 6th level _geas/quest_ 7th level _mass suggestion_ 8th level _sympathy_ 9th level _demand_"
+import_trades = ["Spontaneous casting"]
+
+[[entry]]
+id = "ref/arc-druid/world-walker"
+hold = "the replaces trade `resist nature's lure` is not printed in a sentence, and no listed feature of that name prints it"
+opening = ["While all druids traverse the wilderness with ease, the world walkers take it upon themselves to travel the entire world. Some act as messengers and scouts for druidic circles, while others have a seemingly unquenchable wanderlust; each new land provides new mysteries to discover and new wisdom to be gained from mastering those mysteries."]
+
+[[entry.feature]]
+anchor = "favored-terrain"
+head = "Favored Terrain (Ex)"
+listed = true
+level = 3
+print = '''
+At 3rd level, the world walker gains the ranger's [favored terrain](ref/ability/favored-terrain) ability. She treats her druid level as her ranger level for this ability. If she has levels in both classes, both class's levels stack for determining the effect of this ability. This ability replaces
+
+trackless step and resist nature's lore.'''
+import_trades = ["Trackless step", "resist nature's lure"]
+
+[[entry.feature]]
+anchor = "path-of-trees"
+head = "Path of Trees (Su)"
+listed = true
+level = 9
+print = '''
+At 9th level, once a day, a wanderer
+
+can step within a tree and then teleport from that tree to
+
+another one in a manner similar to the _[tree stride](ref/spell/tree-stride)_ spell. She gains an
+
+extra use of this ability each
+
+day at 12th level, and a
+
+third use of this ability at
+
+15th level. Furthermore,
+
+a world walker of 13th level or
+
+higher can use this ability to teleport
+
+to any other tree of its type up to 100
+
+miles away. This ability replaces
+
+both venom immunity
+
+and timeless body.'''
+import_trades = ["Venom immunity", "timeless body"]
+
+[[entry]]
+id = "ref/arc-fighter/gladiator"
+hold = "the replaces trade `Proficiency with heavy armor` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `tower shields` is not printed in a sentence, and no listed feature of that name prints it"
+opening_from_print = true
+opening = ["Most fighters battle out of necessity, with each battle a contest of life and death. Some, however, fight for glory and for the adulation of the crowd. The gladiator is both a cunning warrior and a consummate performer, knowing life and death are balanced not only on a sword's edge, but also on the cheers or jeers of the crowd."]
+
+[[entry.feature]]
+anchor = "skills"
+head = "Skills"
+listed = false
+print = "A gladiator gains Perform (act, comedy, and dance) (Cha) as class skills."
+
+[[entry.feature]]
+anchor = "weapon-and-armor-proficiency"
+head = "Weapon and Armor Proficiency"
+listed = false
+print = "A gladiator is not proficient with heavy armor or tower shields. Instead he gains the [Performance Weapon Mastery](ref/feat/performance-weapon-mastery) feat (see page 112) at 1st level as a bonus feat. This bonus feat is in addition to the bonus feat a fighter gains at 1st level. Furthermore, a gladiator using [piecemeal armor](ref/rule/piecemeal-armor) is considered to be wearing a suit of armor as long as he wearing two or three armor pieces, gaining the +1 to armor bonus but still taking the +5% chance of arcane spell failure if the pieces are mixed."
+import_trades = ["Proficiency with heavy armor", "tower shields"]
+
+[[entry.feature]]
+anchor = "bonus-feats"
+head = "Bonus Feats"
+listed = false
+print = "A gladiator may choose to take combat or performance feats as bonus feats."
+
+[[entry.feature]]
+anchor = "fame"
+head = "Fame (Ex)"
+listed = true
+level = 2
+print = "At 2nd level, when a gladiator begins a [performance combat](ref/rule/performance-combat) (see page 153), he always starts with at least 1 victory point. If he already has victory points, he gains 1 extra victory point. At 10th level, the gladiator starts out with at least 2 victory points. If he already has victory points, he gains 2 extra victory points. This ability replaces bravery."
+import_trades = ["Bravery"]
+
+[[entry]]
+id = "ref/arc-fighter/tactician"
+hold = "the alters trade `Proficiency with heavy armor` is not printed in a sentence, and no listed feature of that name prints it; the alters trade `tower shields` is not printed in a sentence, and no listed feature of that name prints it"
+opening = ["While many fighters focus on the fundamentals of melee and ranged combat, there are those who are trained to view the bigger picture on the battlefield. These fighters use their training and tactical acumen to overcome challenges that would overwhelm mere brute strength and skill at arms."]
+
+[[entry.feature]]
+anchor = "weapon-and-armor-proficiency"
+head = "Weapon and Armor Proficiency"
+listed = false
+print = "A tactician is not proficient with heavy armor or tower shields."
+
+[[entry.feature]]
+anchor = "strategic-training"
+head = "Strategic Training (Ex)"
+listed = true
+level = 1
+print = "A tactician gains 4 skill points + a number of skill points equal to his Intelligence modifier at each level, instead of the normal 2 skill points + Intelligence modifier at each level. Furthermore, [Diplomacy](ref/skill/diplomacy) (Cha), [Knowledge (geography)](ref/skill/knowledge-geography) (Int), [Knowledge (nobility)](ref/skill/knowledge-nobility) (Int), [Linguistics](ref/skill/linguistics) (Int), and [Sense Motive](ref/skill/sense-motive) (Wis) are all class skills for the tactician. This ability replaces the bonus fighter combat feat gained at 1st level."
+import_trades = ["The bonus fighter combat feat gained at 1st level"]
+
+[[entry.feature]]
+anchor = "bonus-feats"
+head = "Bonus Feats"
+listed = false
+print = "A tactician may choose [Skill Focus](ref/feat/skill-focus) or any teamwork feat, in addition to combat feats, as bonus feats."
+
+[[entry.feature]]
+anchor = "tactical-awareness"
+head = "Tactical Awareness (Ex)"
+listed = true
+level = 2
+print = "At 2nd level, a tactician gains a +1 bonus on initiative checks. This bonus increases by +1 for every four levels after 2nd level (to a maximum of +5 at 18th level). This ability replaces bravery."
+import_trades = ["Bravery"]
+
+[[entry.feature]]
+anchor = "tactician"
+head = "Tactician (Ex)"
+listed = true
+level = 5
+print = "At 5th level, a tactician gains this ability as the [cavalier](ref/class/cavalier) class feature. He may use this ability once per day at 5th level, plus one additional time for every five levels after 5th (to a maximum of four times at 20th level). If the tactician also has cavalier levels, these levels stack for determining the number of uses per day, and he can take the better progression. This ability replaces weapon training 1."
+import_trades = ["Weapon training 1"]
+
+[[entry.feature]]
+anchor = "cooperative-combatant"
+head = "Cooperative Combatant (Ex)"
+listed = true
+level = 11
+print = "At 11th level, when a tactician uses the [aid another](ref/rule/aid-another-2) special attack, he may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the +2 bonus to AC against the opponent's next attack on that ally, and can grant different allies different bonuses. This ability replaces armor training 3."
+import_trades = ["Armor training 3"]
+
+[[entry.feature]]
+anchor = "battle-insight"
+head = "Battle Insight (Ex)"
+listed = true
+level = 15
+print = "At 15th level, as a swift action, a tactician can grant his Intelligence modifier as an insight bonus on the attack rolls made by a single ally within line of sight that can both see and hear the tactician. That ally gains the bonus until the end of the tactician's next turn. The tactician can use this ability a number of times per day equal to 3 + his Intelligence modifier. This ability replaces armor training 4."
+import_trades = ["Armor training 4"]
+
+[[entry]]
+id = "ref/arc-gunslinger/gun-tank"
+hold = "the replaces trade `All bonus combat/grit feats` is not printed in a sentence, and no listed feature of that name prints it; Armor Training (Ex): the sentence \"This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter\" names no trade"
+opening = ["Gunslingers usually don't use heavy armor, but there are a few who use and modify their armor to protect themselves from both traditional weapons and gunfire. These gun tanks trundle into battle with barrels blazing, dealing out punishment with their firearms while knowing few can penetrate their hard protective shells."]
+
+[[entry.feature]]
+anchor = "armor-proficiency"
+head = "Armor Proficiency"
+listed = true
+print = "A gun tank is proficient with all armors and shields, including tower shields."
+
+[[entry.feature]]
+anchor = "deeds"
+head = "Deeds"
+listed = true
+print = "A gun tank swaps a pair of deeds for the following. The new deed descriptions include information on which deeds from the gunslinger class feature these new deeds replace."
+
+[[entry.feature]]
+anchor = "gun-tank-s-resolve"
+head = "Gun Tank's Resolve (Ex)"
+listed = true
+level = 1
+print = "At 1st level, the gun tank can shrug off the most serious of attacks. When the gun tank is wearing medium or heavy armor and is subject to a critical hit or [sneak attack](ref/ability/sneak-attack), she can spend 1 grit point as an immediate action to attempt to negate the critical hit or sneak attack damage. At 1st level, she has a 25% chance of doing so. At 10th level, the chance increases to 50%. At 15th level, the chance increases to 75%. While a gun tank's resolve does not stack with the _[fortification](ref/magic-enh/fortification-light)_ armor special ability, it does work in concert with that armor special ability or similar effects, so a gun tank can use this ability even after the _armor of fortification_ has failed to negate the critical hit or sneak attack damage. This deed replaces the gunslinger's dodge deed."
+import_trades = ["Gunslinger's dodge deed"]
+
+[[entry.feature]]
+anchor = "gun-tank-s-resilience"
+head = "Gun Tank's Resilience (Ex)"
+listed = true
+level = 15
+print = "At 15th level, when the gun tank has at least 1 grit point and makes a successful Fortitude saving throw against an attack that would deal half damage or have a partial effect, she takes no damage or other effects from that attack. Furthermore, she gains a +2 bonus on all saving throws against fear and mind-affecting effects. This deed replaces the evasive deed."
+import_trades = ["Evasive deed"]
+
+[[entry.feature]]
+anchor = "bullet-deflection"
+head = "Bullet Deflection (Ex)"
+listed = true
+print = "A gun tank is adept at modifying and using her armor to stop firearm attacks. Starting at 2nd level, a gun tank wearing medium or heavy armor gains half the armor's bonus plus the armor's enhancement bonus (if any) as a deflection bonus against any non-siege firearm or splash weapon attack (including the alchemist's bomb class ability; _Advanced Player's Guide_ 28). This ability has no affect on spells, spell-like abilities, or supernatural abilities that make a touch attack. This ability replaces nimble."
+
+[[entry.feature]]
+anchor = "armor-training"
+head = "Armor Training (Ex)"
+listed = true
+level = 4
+print = "At 4th level, a gun tank learns to be more maneuverable while wearing armor. Whenever she is wearing armor, the armor check penalty is reduced by 1 (to a minimum of 0) and the maximum Dexterity bonus allowed by her armor increases by 1. Every four levels thereafter (8th, 12th, and 16th), the bonus increases by 1, to a maximum of a -4 reduction of the armor check penalty and a +4 increase to the maximum Dexterity bonus allowed. This ability stacks with the [fighter](ref/class/fighter) class ability of the same name. If the gun tank has both class features, she takes the most advantageous benefit of the two class features. This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter."
+import_trades = ["All bonus combat/grit feats"]
+
+[[entry]]
+id = "ref/arc-gunslinger/musket-master"
+hold = "the replaces trade `Firearm training 1, 2, 3, and 4` is not printed in a sentence, and no listed feature of that name prints it"
+opening = ["Pistols and other one-handed firearms are often easy to conceal and faster to load than other firearms, and do sufficient damage for most situations. But some gunslingers want a little more firepower and range. These are the musket masters; the best of these gunslingers can reload a musket with dazzling speed, potentially putting even their pistol-wielding brethren to shame."]
+
+[[entry.feature]]
+anchor = "weapon-proficiency"
+head = "Weapon Proficiency"
+listed = true
+print = "Instead of proficiency with all firearms, a musket master only gains proficiency with two-handed firearms. She must take the [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms) feat to gain proficiency with one-handed firearms and firearm siege engines."
+
+[[entry.feature]]
+anchor = "gunsmith"
+head = "Gunsmith"
+listed = true
+print = "A [musket](ref/eq-weapon/musket) master must take a musket when she chooses a battered firearm at 1st level."
+import_trades = ["Gunsmith"]
+
+[[entry.feature]]
+anchor = "deeds"
+head = "Deeds"
+listed = true
+print = "A musket master swaps a pair of deeds for the following."
+
+[[entry.feature]]
+anchor = "steady-aim"
+head = "Steady Aim (Ex)"
+listed = true
+level = 1
+print = "At 1st level, as long as a musket master has at least 1 grit point, she can take a move-equivalent action to increase the accuracy of a two-handed firearm. When she does, she increases the range increment of the firearm she is firing by 10 feet. This stacks with other abilities that increase her range increment. This deed replaces the gunslinger's dodge deed."
+import_trades = ["Gunslinger's dodge deed"]
+
+[[entry.feature]]
+anchor = "fast-musket"
+head = "Fast Musket (Ex)"
+listed = true
+level = 3
+print = "At 3rd level, as long as the musket master has 1 grit point, she can reload any two-handed firearm as if it were a one-handed firearm. This deed replaces the utility shot deed."
+import_trades = ["Utility shot deed"]
+
+[[entry.feature]]
+anchor = "rapid-reloader"
+head = "Rapid Reloader"
+listed = true
+level = 1
+print = "At 1st level, a musket master gains [Rapid Reload](ref/feat/rapid-reload) (musket) as a bonus feat. Use the updated version of this feat on page 115."
+
+[[entry.feature]]
+anchor = "musket-training"
+head = "Musket Training (Ex)"
+listed = true
+level = 5
+print = "Starting at 5th level, a musket master increases her skill with two-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a two-handed firearm, the misfire value increases by 2 instead of 4. Every four levels thereafter (9th, 13th, and 17th), the bonus on damage rolls increases by +1. This replaces gun training 1, 2, 3, and 4."
+import_trades = ["Firearm training 1", "2", "3", "4"]
+
+[[entry]]
+id = "ref/arc-gunslinger/pistolero"
+hold = "checker: [fields] trades = \"replaces: Gun training 1-4\" disagrees with the trade sentences of the feature `pistol-training` = \"replaces: gun training 1 to 4\" (line 78)"
+opening_from_print = true
+opening = ["While most gunslingers have favorite firearms, there are those rare ones who choose to specialize in one-handed firearms exclusively. These gunslingers are called pistoleros. While they lack the flexibility of being able to pick up any kind of firearm and use it with reasonable proficiency, they are crackerjack shots with pistols and similar firearms. Their skill and aim with these firearms at close range is second to none, and they rarely misfire with these weapons."]
+
+[[entry.feature]]
+anchor = "weapon-proficiency"
+head = "Weapon Proficiency"
+listed = true
+print = "Instead of proficiency with all firearms, a pistolero only gains proficiency with one-handed firearms. She must take [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms) to gain proficiency with two-handed firearms and firearm siege engines."
+
+[[entry.feature]]
+anchor = "gunsmith"
+head = "Gunsmith"
+listed = true
+print = "A pistolero must take a [pistol](ref/eq-weapon/pistol) when she chooses a battered firearm at 1st level."
+import_trades = ["Gunsmith"]
+
+[[entry.feature]]
+anchor = "deeds"
+head = "Deeds"
+listed = true
+print = "A pistolero swaps a trio of deeds for the following."
+
+[[entry.feature]]
+anchor = "up-close-and-deadly"
+head = "Up Close and Deadly (Ex)"
+listed = true
+level = 1
+print = "At 1st level, when the pistolero hits a target with a one-handed firearm that is not making a scatter shot, she can spend 1 grit point to deal 1d6 points of extra damage on a hit. If she misses with the attack, she grazes the target, dealing half the extra damage anyway. This is precision damage and is not multiplied if the attack is a critical hit. This precision damage increases to 2d6 at 5th level, to 3d6 at 10th level, to 4d6 at 15th level, and to 5d6 at 20th level. This precision damage stacks with [sneak attack](ref/ability/sneak-attack) and other forms of precision damage. The cost of using this deed cannot be reduced with the [Signature Deed](ref/feat/signature-deed) feat, the true grit class feature, or any similar effect. This deed replaces the deadeye deed."
+import_trades = ["_Deadeye_ deed"]
+
+[[entry.feature]]
+anchor = "deadeye"
+head = "Deadeye (Ex)"
+listed = true
+level = 7
+print = "At 7th level, the pistolero gains the [deadeye](ref/deed/deadeye) deed, which is normally a 1st-level gunslinger deed. This deed replaces the startling shot deed."
+import_trades = ["Startling shot deed"]
+
+[[entry.feature]]
+anchor = "twin-shot-knockdown"
+head = "Twin Shot Knockdown (Ex)"
+listed = true
+level = 11
+print = "At 11th level, when the pistolero hits a single target with two or more one-handed firearm attacks during her turn, she can spend 1 grit point to knock the target [prone](ref/rule/prone). She can choose to spend the grit point after the attacks are made. This deed replaces the bleeding wound deed."
+import_trades = ["Bleeding wound deed"]
+
+[[entry.feature]]
+anchor = "pistol-training"
+head = "Pistol Training (Ex)"
+listed = true
+level = 5
+print = "Starting at 5th level, a pistolero increases her skill with one-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a one-handed firearm, the misfire value increases by 2 instead of 4. Every four levels thereafter (9th, 13th, and 17th), the bonus on damage rolls increases by +1. This ability replaces gun training 1 to 4."
+import_trades = ["Gun training 1-4"]
+
+[[entry]]
+id = "ref/arc-inquisitor/spellbreaker"
+hold = "checker: [fields] trades = \"replaces: Teamwork feats\" disagrees with the trade sentences of the feature `defense-against-magic` = \"replaces: all bonus teamwork feats\" (line 43)"
+opening = ["The world is full of dangerous magic, and many recoil in the face of such power. The spellbreaker, by contrast, learns to recognize and resist certain types of magic, wading through waves of magic to reach her foes."]
+
+[[entry.feature]]
+anchor = "strong-willed"
+head = "Strong-Willed (Ex)"
+listed = true
+level = 1
+print = "At 1st level, a spellbreaker is able to stand strong against magical effects that seek to control, compel, or persuade her. The spellbreaker rolls twice and takes the best result when making a Will saving throw against a mind-affecting effect. This ability replaces monster lore."
+import_trades = ["Monster lore"]
+
+[[entry.feature]]
+anchor = "defense-against-magic"
+head = "Defense against Magic (Ex)"
+listed = true
+level = 3
+print = "At 3rd level, a spellbreaker picks a single [wizard school](ref/ability/arcane-schools). She gains a +1 bonus on saving throws against arcane spells of that school. Every four levels beyond 3rd, the spellbreaker picks a new school and gains this bonus against arcane spells of that school (to a maximum of five schools of magic at 19th level). Furthermore, each time the spellbreaker picks a new school, the bonuses for the schools she has already chosen increase by 1. This ability replaces all bonus teamwork feats."
+import_trades = ["Teamwork feats"]
+
+[[entry.feature]]
+anchor = "foil-casting"
+head = "Foil Casting (Su)"
+listed = true
+level = 3
+print = "At 3rd level, when an opponent tries to cast an arcane spell within a spellbreaker's threatened area, the DC for that caster to cast defensively increases by 2. This increase stacks with the effects of the [Disruptive](ref/feat/disruptive) feat (see page 112 of the _Core Rulebook_). Furthermore, the spellbreaker knows where to hit foes to foil casting from a distance. Each time she hits an arcane spellcaster or a creature that uses [spell-like abilities](ref/umr/spell-like-abilities) with a ranged weapon attack, the DC of any [Concentration](ref/rule/concentration) checks the caster makes increases by 2 for 1 round. This ability replaces solo tactics."
+import_trades = ["Solo tactics"]
+
+[[entry.feature]]
+anchor = "impervious"
+head = "Impervious (Ex)"
+listed = true
+level = 20
+print = "At 20th level, a spellbreaker becomes immune to the effects of a single school of arcane magic. That school of magic must be the first one she picked for defense against magic (see above). Neither harmful nor helpful arcane spells of that school have an effect on the spellbreaker. If a spell of that school is an area of effect spell, the spell goes off as normal, but the spellbreaker is untouched by its effects. Once per day, as a swift action, the spellbreaker can grant this imperviousness to all allies in a 60-foot [burst](ref/misc/burst) for 1 minute. This ability replaces true judgment."
+import_trades = ["True judgment"]
+
+[[entry]]
+id = "ref/arc-magus/kensai"
+hold = "the replaces trade `Magus arcana gained at 9th level` is not printed in a sentence, and no listed feature of that name prints it; Critical Perfection (Ex): the sentence \"This ability replaces the magus arcana normally gained at 9th level\" names no trade"
+opening = ["A kensai spends his life focusing his training and meditation into a rapturous perfection of the use of a single weapon, which is usually but not always a sword, channeling his arcane might through it in a dizzying and deadly dance beyond the abilities of even the greatest of mundane warriors."]
+
+[[entry.feature]]
+anchor = "weapon-and-armor-proficiency"
+head = "Weapon and Armor Proficiency"
+listed = false
+print = "A kensai is proficient in simple weapons and in a single martial or exotic melee weapon of his choice. A kensai is not proficient with armor or shields and suffers normal arcane spell failure chance when casting magus spells while armored."
+
+[[entry.feature]]
+anchor = "diminished-spellcasting"
+head = "Diminished Spellcasting"
+listed = true
+print = "A kensai may cast one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows [bonus spells](ref/rule/determine-bonuses) of that level."
+
+[[entry.feature]]
+anchor = "canny-defense"
+head = "Canny Defense (Ex)"
+listed = true
+level = 1
+print = "At 1st level, when a kensai is wielding his chosen weapon, he gains the canny defense ability. This is identical to the [duelist prestige class](ref/pclass/duelist) ability of the same name, save that his chosen weapon may be of any type."
+
+[[entry.feature]]
+anchor = "weapon-focus"
+head = "Weapon Focus (Ex)"
+listed = true
+level = 1
+print = "At 1st level, a kensai gains [Weapon Focus](ref/feat/weapon-focus) with his chosen weapon as a bonus feat."
+
+[[entry.feature]]
+anchor = "perfect-strike"
+head = "Perfect Strike (Ex)"
+listed = true
+level = 4
+print = '''
+At 4th level, when a kensai hits with his chosen weapon, he can spend 1 point from his arcane pool in order to maximize his weapon damage. Don't roll for damage—the weapon deals maximum damage. This affects only the weapon's base damage dice, not additional damage from [sneak attack](ref/ability/sneak-attack), magical weapon properties, spellstrike, or critical hits.
+
+If the kensai confirms a critical hit, he can instead spend 2 points from his arcane pool to increase his weapon's critical multiplier by 1. This ability replaces spell recall.'''
+import_trades = ["Spell recall"]
+
+[[entry.feature]]
+anchor = "fighter-training"
+head = "Fighter Training (Ex)"
+listed = true
+level = 7
+print = "Starting at 7th level, a kensai counts his magus level -3 as his fighter level for the purpose of qualifying for feats (if he has levels in fighter, these levels stack), but forfeits the benefit of such feats with weapons other than his favored weapon. This ability replaces knowledge pool."
+import_trades = ["Knowledge pool"]
+
+[[entry.feature]]
+anchor = "iaijutsu"
+head = "Iaijutsu (Ex)"
+listed = true
+level = 7
+print = "At 7th level, a kensai applies his Intelligence modifier as well as his Dexterity modifier on initiative rolls (minimum 0). A kensai may make attacks of opportunity when flat-footed, and may draw his favored weapon as a free action as part of taking an attack of opportunity. This ability replaces the medium armor ability."
+import_trades = ["Medium armor"]
+
+[[entry.feature]]
+anchor = "critical-perfection"
+head = "Critical Perfection (Ex)"
+listed = true
+level = 9
+print = "At 9th level, a kensai adds his Intelligence bonus (minimum 0) on critical hit confirmation rolls with his favored weapon. In addition, the kensai may use his magus levels in place of his base attack bonuses to qualify for [Critical Focus](ref/feat/critical-focus) and any feat for which it is a prerequisite; these feats apply only with a kensai's favored weapon. This ability replaces the magus arcana normally gained at 9th level."
+import_trades = ["Magus arcana gained at 9th level"]
+
+[[entry.feature]]
+anchor = "superior-reflexes"
+head = "Superior Reflexes (Ex)"
+listed = true
+level = 11
+print = "At 11th level, kensai can make a number of attacks of opportunity in a round equal to his Intelligence modifier (minimum 1). This effect stacks with the [Combat Reflexes](ref/feat/combat-reflexes) feat. This ability replaces improved spell recall."
+import_trades = ["Improved spell recall"]
+
+[[entry.feature]]
+anchor = "iaijutsu-focus"
+head = "Iaijutsu Focus (Ex)"
+listed = true
+level = 13
+print = "At 13th level, a kensai may always act and may draw his weapon as a swift action during a surprise round, though he is considered flat-footed until he acts. During a surprise round or when attacking a flat-footed opponent, he adds his Intelligence modifier on damage with his chosen weapon (minimum 0). This ability replaces heavy armor."
+import_trades = ["Heavy armor"]
+
+[[entry.feature]]
+anchor = "iaijutsu-master"
+head = "Iaijutsu Master (Ex)"
+listed = true
+level = 19
+print = "At 19th level, a kensai's initiative roll is automatically a natural 20 and he is never surprised. This ability replaces greater spell access."
+import_trades = ["Greater spell access"]
+
+[[entry.feature]]
+anchor = "weapon-mastery"
+head = "Weapon Mastery (Ex)"
+listed = true
+level = 20
+print = "At 20th level, a kensai gains weapon mastery with his favored weapon, as the [fighter](ref/class/fighter) class ability. This ability replaces true magus."
+import_trades = ["True magus"]
+
+[[entry.feature]]
+anchor = "magus-arcana"
+head = "Magus Arcana"
+listed = false
+print = "The following magus arcana complement the kensai archetype: [concentrate](ref/arcana/concentrate), [critical strike](ref/arcana/critical-strike), [prescient attack](ref/arcana/prescient-attack), [prescient defense](ref/arcana/prescient-defense), [spell shield](ref/arcana/spell-shield)."
+
+[[entry]]
+id = "ref/arc-magus/myrmidarch"
+hold = "the replaces trade `Magus arcana gained at 6th, 12th, and 18th levels` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `10th-level fighter training` is not printed in a sentence, and no listed feature of that name prints it; Weapon Training (Ex): the sentence \"This ability replaces the magus arcana normally gained at 6th, 12th, and 18th levels\" names no trade"
+opening_from_print = true
+opening = ["The myrmidarch is a skilled specialist, using magic to supplement and augment his martial mastery."]
+
+[[entry.feature]]
+anchor = "diminished-spellcasting"
+head = "Diminished Spellcasting"
+listed = true
+print = "Myrmidarchs cast one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows [bonus spells](ref/rule/determine-bonuses) of that level."
+
+[[entry.feature]]
+anchor = "ranged-spellstrike"
+head = "Ranged Spellstrike (Su)"
+listed = true
+level = 4
+print = '''
+At 4th level, a myrmidarch can use spellstrike to cast a single-target touch attack ranged spell and deliver it through a ranged weapon attack. Even if the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies the attack.
+
+At 11th level, a myrmidarch can spend a full-round action to cast a spell that includes multiple ranged touch attacks and deliver more than one using ranged attacks. The spell must have a casting time of 1 full-round action or less. This functions similarly to the base ability of ranged spellstrike, but the myrmidarch can deliver a number of missiles, rays, or effect up to the number of attacks he could make with a full attack. Attacks beyond the first take penalties as if the myrmidarch were making a full attack. Any effects not used in the round the spell is cast are lost, as are any additional ranged touch attacks the spell would allow beyond the myrmidarch's maximum number of attacks. This ability replaces spell recall and improved spell recall.'''
+import_trades = ["Spell recall", "improved spell recall"]
+
+[[entry.feature]]
+anchor = "weapon-training"
+head = "Weapon Training (Ex)"
+listed = true
+level = 6
+print = "At 6th level, a myrmidarch gains weapon training, as the [fighter](ref/class/fighter) ability, adding an additional weapon group every six levels after 6th (to a maximum of three groups at 18th level) and increasing the bonus on attack and damage rolls for weapon groups already chosen by +1. This ability replaces the magus arcana normally gained at 6th, 12th, and 18th levels."
+import_trades = ["Magus arcana gained at 6th", "12th", "18th levels"]
+
+[[entry.feature]]
+anchor = "fighter-training"
+head = "Fighter Training (Ex)"
+listed = true
+level = 7
+print = "At 7th level, a myrmidarch counts his magus level -3 as his fighter level for the purpose of qualifying for feats (if he has levels in fighter, these levels stack). At 10th level, the myrmidarch treats his magus levels as fighter levels for the purposes of fighter training. This ability replaces knowledge pool and the fighter training the magus gains at 10th level."
+import_trades = ["Knowledge pool", "10th-level fighter training"]
+
+[[entry.feature]]
+anchor = "armor-training"
+head = "Armor Training (Ex)"
+listed = true
+level = 8
+print = "At 8th level, a myrmidarch gains armor training, as the fighter ability. At 14th level, he gains armor training 2. This ability replaces improved spell combat and greater spell combat."
+import_trades = ["Improved spell combat", "greater spell combat"]
+
+[[entry.feature]]
+anchor = "armor-mastery"
+head = "Armor Mastery (Ex)"
+listed = true
+level = 20
+print = "At 20th level, a myrmidarch gains DR 5/– when wearing armor. This ability replaces true magus."
+import_trades = ["True magus"]
+
+[[entry.feature]]
+anchor = "magus-arcana"
+head = "Magus Arcana"
+listed = false
+print = "The following magus arcana complement the myrmidarch archetype: [accurate strike](ref/arcana/accurate-strike), [arcane edge](ref/arcana/arcane-edge), [lingering pain](ref/arcana/lingering-pain), [prescient attack](ref/arcana/prescient-attack), [prescient defense](ref/arcana/prescient-defense), [spell shield](ref/arcana/spell-shield), [spellbreaker](ref/arcana/spellbreaker)."
+
+[[entry]]
+id = "ref/arc-magus/skirnir"
+hold = "the alters trade `Spell combat` is not printed in a sentence, and no listed feature of that name prints it"
+opening = ["Sometimes called a shield-vassal or shieldmaiden, the skirnir has learned to infuse his power into his shield."]
+
+[[entry.feature]]
+anchor = "diminished-spellcasting"
+head = "Diminished Spellcasting"
+listed = true
+print = "A skirnir casts one fewer spell of each level than normal. If this reduces the number to 0, he may cast spells of that level only if his Intelligence allows [bonus spells](ref/rule/determine-bonuses) of that level."
+
+[[entry.feature]]
+anchor = "arcane-bond"
+head = "Arcane Bond (Su)"
+listed = true
+level = 1
+print = "At 1st level, a skirnir gains a shield (except for a tower shield) as an arcane bond item. This is identical to the [wizard](ref/class/wizard) class ability, but the skirnir may only bond with a shield, not a familiar or other item."
+
+[[entry.feature]]
+anchor = "arcane-pool"
+head = "Arcane Pool"
+listed = true
+level = 1
+print = "At 1st level, a skirnir can use his arcane pool to grant an enhancement bonus to a weapon as normal, as well as to his shield, paying the arcane pool cost separately for each. At 5th level and above, he can also add the following shield special abilities: _[animated](ref/magic-enh/animated)_, _[arrow catching](ref/magic-enh/arrow-catching)_, _[arrow deflection](ref/magic-enh/arrow-deflection)_, _[bashing](ref/magic-enh/bashing)_, _[blinding](ref/magic-enh/blinding)_, _[fortification](ref/magic-enh/fortification)_ (any), _[reflecting](ref/magic-enh/reflecting)_, _[spell resistance](ref/magic-enh/spell-resistance)_ (any)."
+
+[[entry.feature]]
+anchor = "sorcerous-shield"
+head = "Sorcerous Shield (Ex)"
+listed = true
+level = 1
+print = "At 1st level, skirnirs are proficient with all types of shields, including tower shields, and do not suffer an arcane spell failure chance when casting magus spells while using a shield. They treat their magus levels as their fighter levels for the purpose of qualifying for shield-related feats. This ability replaces spell combat."
+import_trades = ["Spell combat"]
+
+[[entry.feature]]
+anchor = "spellstrike"
+head = "Spellstrike (Su)"
+listed = true
+level = 1
+print = "At 1st level, a skirnir may use this ability with a weapon or [shield bash](ref/misc/shield-bash) attack."
+import_trades = ["Spellstrike"]
+
+[[entry.feature]]
+anchor = "shield-pool"
+head = "Shield Pool (Ex)"
+listed = true
+level = 4
+print = "At 4th level, as a free action, a skirnir may spend 1 point from his arcane pool to add his shield bonus to AC (not including enhancement bonuses) on a [concentration](ref/rule/concentration) check to cast defensively. He may also use a touch attack or shield bash with his shield in conjunction with any pool strike magus arcana. This ability replaces spell recall."
+import_trades = ["Spell recall"]
+
+[[entry.feature]]
+anchor = "spellshield"
+head = "Spellshield (Su)"
+listed = true
+level = 7
+print = "At 7th level, as a standard action, a skirnir may store a magus spell in his shield by spending 1 point from his arcane pool per level of the spell. This functions as the _[spell storing](ref/magic-enh/spell-storing)_ weapon special ability, but activates only on a successful shield bash by the skirnir and is not limited to spells of 3rd level or less. This ability replaces knowledge pool."
+import_trades = ["Knowledge pool"]
+
+[[entry.feature]]
+anchor = "shielded-spell-combat"
+head = "Shielded Spell Combat (Su)"
+listed = true
+level = 8
+print = '''
+At 8th level, a skirnir gains the spell combat ability, but only when wielding his bonded shield. A skirnir may use his shield hand to perform somatic components for magus spells, forfeiting the shield's bonus to AC until the beginning of his next turn; if the bonded shield is a buckler, he retains its bonus to AC. At 14th level, he gains the benefits of improved spell combat.
+
+At 19th level, he retains his shield's bonus to AC when using any type of shield with spell combat. This ability replaces improved spell combat, greater spell combat, and greater spell access.'''
+import_trades = ["Spell combat", "Improved spell combat", "greater spell combat", "greater spell access"]
+
+[[entry.feature]]
+anchor = "greater-spellshield"
+head = "Greater Spellshield (Su)"
+listed = true
+level = 16
+print = "At 16th level, a skirnir may activate a stored spell as an immediate action after being struck in combat. He may choose to have the spell affect himself or the creature that struck him. This ability replaces counterstrike."
+import_trades = ["Counterstrike"]
+
+[[entry.feature]]
+anchor = "magus-arcana"
+head = "Magus Arcana"
+listed = false
+print = "The following magus arcana complement the skirnir archetype: [arcane redoubt](ref/arcana/arcane-redoubt), arcane redoubt (greater), [enduring blade](ref/arcana/enduring-blade) (may use on weapon or shield), [pool strike](ref/arcana/pool-strike), pool strike (arcing, clinging, thunderous), [prescient defense](ref/arcana/prescient-defense), [reflection](ref/arcana/reflection)."
+
+[[entry]]
+id = "ref/arc-monk/sensei"
+hold = "the replaces trade `Bonus feats gained at 6th, 10th, and 14th level` is not printed in a sentence, and no listed feature of that name prints it; Mystic Wisdom (Su): the sentence \"This ability replaces the bonus feats at 6th, 10th, and 14th level\" names no trade"
+opening_from_print = true
+opening = ["The sensei is a revered teacher who imparts lessons on the oneness of mind, body, and spirit, along with occasional correction that is subtle and swift. Rather than using wisdom for his own benefit alone, he uses it to better those around him."]
+
+[[entry.feature]]
+anchor = "skills"
+head = "Skills"
+listed = false
+print = "A sensei gains Diplomacy, Linguistics, and all Knowledge skills as class skills."
+
+[[entry.feature]]
+anchor = "advice"
+head = "Advice (Ex)"
+listed = true
+print = "A sensei's advice is identical to bardic performance (using oratory), allowing him to [inspire courage](ref/performance/inspire-courage) at 1st level, [inspire competence](ref/performance/inspire-competence) at 3rd level, and [inspire greatness](ref/performance/inspire-greatness) at 9th level, as a bard of the sensei's level, usable a total number of rounds per day equal to his level + his Wisdom modifier (minimum 1). This ability replaces flurry of blows, fast movement, and improved evasion."
+import_trades = ["Flurry of blows", "fast movement", "improved evasion"]
+
+[[entry.feature]]
+anchor = "insightful-strike"
+head = "Insightful Strike (Ex)"
+listed = true
+level = 2
+print = "At 2nd level, a sensei may use his Wisdom bonus in lieu of his Strength or Dexterity on attack rolls and combat maneuver checks with unarmed strikes or monk weapons. This ability replaces evasion and the bonus feat gained at 2nd level."
+import_trades = ["Evasion", "bonus feat gained at 2nd level"]
+
+[[entry.feature]]
+anchor = "mystic-wisdom"
+head = "Mystic Wisdom (Su)"
+listed = true
+level = 6
+print = '''
+At 6th level, a sensei may use his advice ability when spending points from his ki pool to activate a class ability (using the normal actions required for each) in order to have that ability affect one ally within 30 feet rather than the sensei himself. At 12th level, a sensei may affect all allies within 30 feet rather than himself (spending points from his ki pool only once, not once for each target).
+
+At 10th level, a sensei may instead spend 1 point from his ki pool (as a swift action) while using advice to provide a single ally within 30 feet with evasion, fast movement, high jump, purity of body, or slow fall. At 14th level, a sensei may spend 2 points to grant one of the abilities listed above to all allies within 30 feet, or diamond body, diamond soul, or improved evasion to a single ally within 30 feet. These abilities function at the sensei's level and last 1 round. This ability replaces the bonus feats at 6th, 10th, and 14th level.'''
+import_trades = ["Bonus feats gained at 6th", "10th", "14th level"]
+
+[[entry]]
+id = "ref/arc-monk/tetori"
+hold = "checker: [fields] trades = \"replaces: Bonus feats\" disagrees with the trade sentences of the feature `bonus-feat` = \"replaces: a monk's normal bonus feats\" (line 45)"
+opening = ["The style of the tetori is that of the majestic wrestler—a warrior with a dizzying array of grabs, holds, and locks with which to bewilder and incapacitate his foes."]
+
+[[entry.feature]]
+anchor = "bonus-feat"
+head = "Bonus Feat"
+listed = true
+print = "A tetori gains the following bonus feats: 1st level—[Improved Grapple](ref/feat/improved-grapple), 2nd level—[Stunning Pin](ref/feat/stunning-pin), 6th level—[Greater Grapple](ref/feat/greater-grapple), 10th level—Pinning Knockout, 14th level—[Chokehold](ref/feat/chokehold), 18th level—[Neckbreaker](ref/feat/neckbreaker). These feats replace a monk's normal bonus feats."
+import_trades = ["Bonus feats"]
+
+[[entry.feature]]
+anchor = "graceful-grappler"
+head = "Graceful Grappler (Ex)"
+listed = true
+print = "A tetori uses his monk level in place of his base attack bonus to determine CMB and CMD for grappling. At 4th level, he suffers no penalties on attack rolls, can make attacks of opportunity while grappling, and retains his Dexterity bonus to AC when pinning an opponent or when [grappled](ref/rule/grapple-conditions). At 8th level, a tetori gains the [grab](ref/umr/grab) special attack when using unarmed strikes, and can use this ability against creatures his own size or smaller by spending 1 point from his ki pool, or against larger creatures by spending 2 points from his ki pool. At 15th level, a tetori gains the [constrict](ref/umr/constrict) special attack, inflicting his unarmed strike damage on any successful [grapple](ref/rule/grapple) check. This ability replaces flurry of blows."
+import_trades = ["Flurry of blows"]
+
+[[entry.feature]]
+anchor = "counter-grapple"
+head = "Counter-Grapple (Ex)"
+listed = true
+level = 4
+print = "At 4th level, a tetori wrestler may make an attack of opportunity against a creature attempting to grapple him. This ability does not allow the tetori to make an attack of opportunity against a creature with the Greater Grapple feat. At 6th level, he may use counter-grapple even if his attacker has [concealment](ref/rule/concealment) or total concealment, at 8th level even if he is flat-footed, and at 10th level even if his attacker has exceptional reach. This ability replaces slow fall."
+import_trades = ["Slow fall"]
+
+[[entry.feature]]
+anchor = "break-free"
+head = "Break Free (Ex)"
+listed = true
+level = 5
+print = "At 5th level, a tetori adds his monk level on combat maneuver or Escape Artist checks made to escape a grapple. If a tetori fails a save against an effect that causes him to become [entangled](ref/rule/entangled), [paralyzed](ref/rule/paralyzed), [slowed](ref/spell/slow), or [staggered](ref/misc/staggered), he may spend 1 point from his ki pool as an immediate action to attempt a new save. This ability replaces high jump."
+import_trades = ["High jump"]
+
+[[entry.feature]]
+anchor = "inescapable-grasp"
+head = "Inescapable Grasp (Su)"
+listed = true
+level = 9
+print = "At 9th level, a tetori can spend 1 point from his ki pool to suppress his opponents' _[freedom of movement](ref/spell/freedom-of-movement)_ and magical bonuses to Escape Artist or on checks to escape a grapple. At 13th level, this ability also duplicates the effect of _[dimensional anchor](ref/spell/dimensional-anchor)_. At 17th level, the tetori's unarmed strike gains the _[ghost touch](ref/magic-enh/ghost-touch-weapon)_ special ability, and an [incorporeal](ref/subtype/incorporeal) creature that he strikes gains the grappled condition (Reflex negates, DC 10 + 1/2 the wrestler's level + his Wisdom modifier). Inescapable grasp is a swift action and lasts until the beginning of the wrestler's next turn. This ability replaces abundant step, improved evasion, timeless body, and tongue of the sun and moon."
+import_trades = ["Abundant step", "improved evasion", "timeless body", "tongue of sun", "moon"]
+
+[[entry.feature]]
+anchor = "form-lock"
+head = "Form Lock (Su)"
+listed = true
+level = 13
+print = "At 13th level, a tetori can negate a polymorph effect by touch with a Wisdom check, adding a bonus equal to his monk level, against a DC of 11 + the caster level of the effect (or HD of the creature, for supernatural polymorph effects). This is a standard action requiring 2 points from the tetori's ki pool, or an immediate action if a creature the tetori is grappling attempts to use a polymorph effect. This ability replaces diamond soul."
+import_trades = ["Diamond soul"]
+
+[[entry.feature]]
+anchor = "iron-body"
+head = "Iron Body (Su)"
+listed = true
+level = 19
+print = "At 19th level, as a move action, a tetori can make his tissues ultra-dense for 1 minute as the _[iron body](ref/spell/iron-body)_ spell by spending 3 points from his ki pool. This ability replaces empty body."
+import_trades = ["Empty body"]
+
+[[entry]]
+id = "ref/arc-paladin/sacred-shield"
+hold = "checker: [fields] trades = \"replaces: Holy champion\" disagrees with the trade sentences of the feature `perfect-bastion` = \"replaces: the sacred shield's holy champion ability\" (line 95)"
+opening = ["When faced by evil, the sacred shield reaches first not for a weapon, but for her trusty shield. With her faith, she can ward others from harm."]
+
+[[entry.feature]]
+anchor = "bastion-of-good"
+head = "Bastion of Good (Su)"
+listed = true
+level = 1
+print = "At 1st level, a sacred shield can call upon the powers of good to defend her and her allies against evil. This ability functions as smite evil, except that the paladin gains no benefit on attack or damage rolls against her target. Instead, any attacks the target makes against allies within 10 feet of the paladin deal half damage. Attacks against the paladin deal full damage, but the paladin gains a deflection bonus to her AC equal to her Charisma bonus (if any) against attacks made by the target of the smite. This bonus increases by +1 for every four paladin levels (to a maximum of +6 at 20th level). As with smite evil, if the paladin targets a creature that is not evil, her bastion of good ability is wasted with no effect. Feats, abilities, and the like that increase a paladin's number of uses of smite evil per day increase a sacred shield's uses of bastion of good per day. This ability replaces smite evil."
+import_trades = ["Smite evil"]
+
+[[entry.feature]]
+anchor = "holy-shield"
+head = "Holy Shield (Su)"
+listed = true
+level = 4
+print = "At 4th level, a sacred shield can channel her faith into her shield, protecting any nearby allies. All allies adjacent to the paladin gain a shield bonus equal to the sacred shield's own shield bonus, including any increase from the shield's enhancement bonus. This bonus does not stack with any existing shield bonuses. The paladin herself radiates [light](ref/spell/light) as a _light_ spell while the shielding is active. At 11th level, this protection expands to cover any allies within 10 feet and the radiance increases to the effects of a _[daylight](ref/spell/daylight)_ spell. At 20th level, any allies within 20 feet are protected. Using this ability consumes two uses of the sacred shield's lay on hands ability, and the effects last for 3 rounds plus a number of rounds equal to her Charisma bonus (if any). This ability replaces channel positive energy."
+import_trades = ["Channel positive energy"]
+
+[[entry.feature]]
+anchor = "divine-bond"
+head = "Divine Bond (Su)"
+listed = true
+level = 5
+print = '''
+At 5th level, instead of forming a divine bond with her weapon or a mount, a sacred shield forms a bond with her shield. As a standard action, a sacred shield can enhance her shield by calling on the aid of a celestial spirit. This bond lasts for 1 minute per paladin level. When called, the spirit causes the shield to shed light like a [torch](ref/eq-misc/torch). At 5th level, the spirit grants the shield a +1 enhancement bonus. For every three levels beyond 5th, the shield gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the shield, stacking with existing enhancement bonuses to a maximum of +5, or they can be used to add any of the following armor special abilities: _[arrow deflection](ref/magic-enh/arrow-deflection)_, _[bashing](ref/magic-enh/bashing)_, _[blinding](ref/magic-enh/blinding)_, _[fortification](ref/magic-enh/fortification)_ (any), _[reflecting](ref/magic-enh/reflecting)_, and _[spell resistance](ref/magic-enh/spell-resistance)_ (any). The _reflecting_ enhancement may be used once each time the sacred shield makes use of her divine bond. Adding these armor special abilities consumes an amount of bonus equal to the property's cost (see Table 15–4 on page 485 of the _Core Rulebook_). These bonuses are added to any properties the shield already has, but duplicate special abilities do not grant any extra benefit. If the shield is not magical, at least a +1 enhancement bonus must be added before any other special abilities can be added. The bonus and special abilities granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the shield is used by anyone other than the sacred shield, but it resumes giving bonuses if the sacred shield resumes using the shield. A sacred shield can use this ability once per day at 5th level, and one additional time per day for every four levels beyond 5th, to a maximum of four times per day at 17th level.
+
+If a shield with a celestial spirit is destroyed, the sacred shield loses the use of this ability for 30 days, or until she gains a level, whichever comes first. During this period, the sacred shield takes a -1 penalty to her armor class and on saving throws.'''
+
+[[entry.feature]]
+anchor = "improved-bastion"
+head = "Improved Bastion"
+listed = true
+level = 11
+print = "At 11th level, the radius of a sacred shield's bastion of good ability increases to 20 feet. This ability replaces the paladin's aura of justice."
+import_trades = ["Aura of justice"]
+
+[[entry.feature]]
+anchor = "perfect-bastion"
+head = "Perfect Bastion"
+listed = true
+level = 20
+print = "At 20th level, a sacred shield and her allies within 20 feet gain [regeneration](ref/umr/regeneration) 10 against the target of her bastion of good ability (essentially regeneration that is overcome by any damage not caused by the target). This ability replaces the sacred shield's holy champion ability."
+import_trades = ["Holy champion"]
+
+[[entry]]
+id = "ref/arc-ranger/battle-scout"
+hold = "checker: [fields] trades = \"replaces: 2nd favored enemy\" disagrees with the trade sentences of the feature `advantageous-terrain` = \"replaces: the ranger's second favored enemy\" (line 44)"
+opening = ["Armies need clean water, safe routes, and intelligence about their enemies. Though regular outdoorsmen might suffice in many cases, some large forces look to battle scouts to keep the body of their troops safe and prepared for the terrain and whatever dangers that terrain hides."]
+
+[[entry.feature]]
+anchor = "hunter-s-bond"
+head = "Hunter's Bond (Ex)"
+listed = true
+level = 4
+print = "At 4th level, when a battle scout gains the hunter's bond ability, he must choose to bond with his companions. Battle scouts do not have animal companions."
+import_trades = ["Hunter's bond"]
+
+[[entry.feature]]
+anchor = "advantageous-terrain"
+head = "Advantageous Terrain (Ex)"
+listed = true
+level = 5
+print = "At 5th level, when a battle scout is within one of his favored terrains, he can spend up to 3 consecutive rounds studying an area of terrain to gain the benefits below. Each round of studying terrain is a standard action. During the first round of studying terrain, the battle scout designates a 60-foot-radius-[burst](ref/misc/burst) area from anywhere within line of sight. Depending on how many rounds the battle scout spends studying the area, he or his allies gain the following benefits for 10 minutes per ranger level he possesses. (For example, if he spends 2 rounds, he or his allies gain the first two benefits.)"
+import_trades = ["2nd favored enemy"]
+
+[[entry.feature]]
+anchor = "1st-round"
+head = "1st Round"
+listed = false
+parent = "advantageous-terrain"
+print = "Allies within line of sight and that can hear the battle scout gain a +2 bonus on initiative checks while within the advantageous terrain area."
+
+[[entry.feature]]
+anchor = "2nd-round"
+head = "2nd Round"
+listed = false
+parent = "advantageous-terrain"
+print = "Allies within line of sight and that can hear the battle scout gain a +2 on Perception, Stealth, and Survival checks while within the advantageous terrain area."
+
+[[entry.feature]]
+anchor = "3rd-round"
+head = "3rd Round"
+listed = false
+parent = "advantageous-terrain"
+print = '''
+The battle scout's movement is not hampered by [difficult terrain](ref/rule/terrain-and-obstacles) while within the advantageous terrain area. Furthermore, the battle scout can take 10 on Climb and Swim checks and checks to jump while within the area, even when in immediate danger or distracted.
+
+This ability replaces the ranger's second favored enemy.'''
+
+[[entry.feature]]
+anchor = "infiltration"
+head = "Infiltration (Ex)"
+listed = true
+level = 10
+print = "At 10th level, once per day, a battle scout can choose a single terrain type that is not his favored terrain. For the next hour per ranger level, he treats that terrain as if it were one of his favored terrains. This ability replaces the ranger's third favored enemy."
+import_trades = ["3rd favored enemy"]
+
+[[entry.feature]]
+anchor = "superior-tactics"
+head = "Superior Tactics (Ex)"
+listed = true
+level = 15
+print = "At 15th level, once per day, after a battle scout and his allies roll initiative, the battle scout can arrange his and his allies' initiative rolls any way he wishes. If he has already taken 3 rounds to scout out the terrain with his advantageous terrain ability and both he and his allies are within the effect area, they gain a +2 bonus to initiative checks. Using this ability is not an action. This ability replaces the ranger's fourth favored enemy."
+import_trades = ["4th favored enemy"]
+
+[[entry.feature]]
+anchor = "perfect-advantage"
+head = "Perfect Advantage (Ex)"
+listed = true
+level = 20
+print = "At 20th level, when using his advantageous terrain ability, a battle scout needs only to study the terrain as a standard action to gain all of the benefits. Furthermore, the area of his advantageous terrain increases to a 1-mile-radius [spread](ref/misc/spread) from the single square within line of sight. This ability replaces master hunter."
+import_trades = ["Master hunter"]
+
+[[entry]]
+id = "ref/arc-ranger/falconer"
+hold = "the replaces trade `6th-level combat style feat` is not printed in a sentence, and no listed feature of that name prints it; Swoop for the Kill (Ex): the sentence \"This ability replaces the combat style feat the ranger gains at 6th level\" names no trade"
+opening = ["Rangers have always enjoyed a special bond with a specific animal, but the falconer takes this bond to a deeper level. Falconers begin with their companion earlier than other rangers, and have the ability to teach their companions special tricks."]
+
+[[entry.feature]]
+anchor = "feathered-companion"
+head = "Feathered Companion (Ex)"
+listed = true
+level = 1
+print = '''
+At 1st level, a falconer earns the trust and companionship of a [bird](ref/companion/bird) of prey. The bird can be of any type of large hunting or scavenging bird (even a vulture). This ability functions like the druid [animal companion](ref/sidekick/animal-companion) ability (which is part of the nature bond class feature), but the falconer must take the bird animal companion, and that companion has only half the normal hit points.
+
+The falconer cannot teach the bird of prey the work trick, but can teach it either the roam or distract trick for free. Whichever trick the falconer does not pick then can be picked as a trick later.'''
+import_trades = ["Wild empathy"]
+
+[[entry.feature]]
+anchor = "roam-dc-15"
+head = "Roam (DC 15)"
+listed = false
+parent = "feathered-companion"
+print = "The falconer can let his animal companion loose to roam and forage. He must let it roam for no more than a week. When the falconer lets it roam, it agrees to return to the place he let it loose within the time period he designates."
+
+[[entry.feature]]
+anchor = "distract-dc-20-bird-only"
+head = "Distract (DC 20; bird only)"
+listed = false
+parent = "feathered-companion"
+print = '''
+The animal companion flutters wildly around any enemy it would normally attack with the attack trick. It makes an attack roll against that enemy. On a hit, the enemy is [shaken](ref/misc/shaken) for 1 round.
+
+This ability replaces wild empathy.'''
+
+[[entry.feature]]
+anchor = "hunter-s-bond"
+head = "Hunter's Bond (Ex)"
+listed = true
+level = 4
+print = "At 4th level, a falconer must select an animal companion when he gains hunter's bond. He does not gain a new companion at 4th level; rather, his feathered companion gains full hit points."
+
+[[entry.feature]]
+anchor = "swoop-for-the-kill"
+head = "Swoop for the Kill (Ex)"
+listed = true
+level = 6
+print = "At 6th level, when outdoors, a falconer can direct his feathered companion to strike an enemy from high above. His feathered companion gains the following trick as a bonus trick."
+import_trades = ["6th-level combat style feat"]
+
+[[entry.feature]]
+anchor = "swooping-charge-dc-20-bird"
+head = "Swooping Charge (DC 20; bird)"
+listed = false
+parent = "swoop-for-the-kill"
+print = '''
+The falconer's bird companion flies up and then swoops down into a [charge](ref/rule/charge). To perform this trick, the companion must be able to fly, and it must be outdoors or someplace with enough room for the bird to fly great distances in (a grand cathedral may have enough room, but dungeons usually do not). It spends a full-round action flying to a high vantage point, and on the next round makes a charge attack upon an enemy the falconer designates. If that charge attack hits, the bird deals 2d4 points of damage instead of 1d4 with its bite and gains a ×4 critical modifier when making the attack. If the bird hits, the target is [staggered](ref/misc/staggered) for 1 round.
+
+This ability replaces the combat style feat the ranger gains at 6th level.'''
+
+[[entry]]
+id = "ref/arc-ranger/warden"
+hold = "checker: [fields] trades = \"replaces: 1st favored enemy\" disagrees with the trade sentences of the feature `master-of-terrain` = \"replaces: the ranger's first favored enemy ability\" (line 42)"
+opening = ["All rangers have a bond with the wilderness, but the warden may have the strongest. This protector sits guard in the middle of the wilderness, keeping a lookout for any dangers that might spill from the deeper wilderness beyond, and protecting civilization from the savagery of nature—and vice versa. His long weeks, months, and sometimes years of isolation cause him to \"hear\" what the land is saying. Not all are crazy."]
+
+[[entry.feature]]
+anchor = "master-of-terrain"
+head = "Master of Terrain (Ex)"
+listed = true
+level = 1
+print = "At 1st level, a warden selects his first favored terrain. He gains another one at 3rd level, and then every five levels thereafter (for a maximum of five favored terrains at 18th level). This ability replaces the ranger's first favored enemy ability."
+import_trades = ["1st favored enemy"]
+
+[[entry.feature]]
+anchor = "live-in-comfort"
+head = "Live in Comfort (Ex)"
+listed = true
+level = 2
+print = "At 2nd level, a warden is truly at home within his favored terrains. He knows all the signs of the wilderness. He rarely gets lost. He can easily live off the land in comfort, and can provide for companions. The warden can take 10 on any Survival check involving any of his favored terrains, even when in immediate danger and distracted. If the warden is not in immediate danger and distracted, he can take 20 even if the check has a penalty for failure. This ability replaces all combat style feats."
+import_trades = ["All combat style feats"]
+
+[[entry.feature]]
+anchor = "terrain-bond"
+head = "Terrain Bond (Ex)"
+listed = true
+level = 4
+print = "At 4th level, a warden forms a bond with the land itself, enabling him to direct others in such terrain. When in his favored terrain, the warden grants all allies within line of sight and that can hear him a +2 bonus on initiative checks and Perception, Stealth, and Survival skill checks. Also, as long as they travel with him, the warden's allies leave no trail and can't be tracked. The warden can choose for the group to leave a trail, or even for specific members of the group to leave a trail if he so desires. This ability replaces hunter's bond."
+import_trades = ["Hunter's bond"]
+
+[[entry.feature]]
+anchor = "able-explorer"
+head = "Able Explorer (Ex)"
+listed = true
+level = 5
+print = "At 5th level, when making an Acrobatics, Climb, Fly, Ride, or Swim check in any of his favored terrains, a warden can make two skill checks and take the higher. This ability replaces the ranger's second, third, and fourth favored enemies."
+import_trades = ["2nd", "3rd", "4th favored enemies"]
+
+[[entry.feature]]
+anchor = "wilderness-whispers"
+head = "Wilderness Whispers (Su)"
+listed = true
+level = 20
+print = "At 20th level, a warden cannot be surprised and always acts as if he had rolled a natural 20 on any initiative check while within any of his favored terrains. A warden can always move at full speed while using Survival to follow tracks without penalty. This ability replaces the ranger's fifth favored enemy and master hunter."
+import_trades = ["5th favored enemy", "master hunter"]
+
+[[entry]]
+id = "ref/arc-ranger/wild-stalker"
+hold = "checker: [fields] trades = \"replaces: 1st favored enemy\" disagrees with the trade sentences of the feature `strong-senses` = \"replaces: the ranger's first favored enemy ability\" (line 41)"
+opening = ["Civilization grows stronger and more decadent with each passing year. It tears into unclaimed wilderness and destroys the fragile ecology in its constant push for expansion and exploitation. The wild stalker forsakes the bonds of community and lives in the trackless wilds far from others of his kind, or perhaps grew up there, never knowing of civilization as anything more than his enemy. He drives pioneers back to civilization and strives to keep the land unspoiled."]
+
+[[entry.feature]]
+anchor = "strong-senses"
+head = "Strong Senses (Ex)"
+listed = true
+level = 1
+print = "At 1st level, a wild stalker's life among the wild has sharpened his senses. He gains [low-light vision](ref/rule/low-light-vision) and a +1 bonus on Perception checks. If he already has low-light vision, he gains a +2 bonus on Perception checks instead. This bonus increases by +1 for every four levels after 1st (to a maximum of +6 at 20th level, or +7 if the character did not gain low-light vision from this ability). This ability replaces the ranger's first favored enemy ability."
+import_trades = ["1st favored enemy"]
+
+[[entry.feature]]
+anchor = "uncanny-dodge"
+head = "Uncanny Dodge (Ex)"
+listed = true
+level = 2
+print = "At 2nd level, a wild stalker gains [uncanny dodge](ref/ability/uncanny-dodge) as the barbarian's class feature. This ability replaces the ranger's 2nd-level combat style feat."
+import_trades = ["2nd-level combat style feat"]
+
+[[entry.feature]]
+anchor = "rage-of-the-wild"
+head = "Rage of the Wild (Ex)"
+listed = true
+level = 4
+print = "At 4th level, a wild stalker gains the rage ability as the [barbarian](ref/class/barbarian) class feature, but its barbarian level is considered to be his ranger level -3. This ability replaces hunter's bond."
+import_trades = ["Hunter's bond"]
+
+[[entry.feature]]
+anchor = "rage-powers"
+head = "Rage Powers"
+listed = true
+level = 5
+print = "At 5th level, a wild stalker ranger gains a single rage power, as the barbarian class feature. He gains another rage power each five levels after 5th (to a maximum of four rage powers at 20th level). This ability replaces the ranger's second, third, fourth, and fifth favored enemy abilities."
+import_trades = ["2nd", "3rd", "4th", "5th favored enemy"]
+
+[[entry.feature]]
+anchor = "wild-talents"
+head = "Wild Talents (Ex)"
+listed = true
+level = 6
+print = "At 6th level, a wild stalker can either take a rage power, or gains a +2 insight bonus into any one of the following skills: Acrobatics, Climb, Perception, Stealth, Survival, or Swim. The wild stalker can gain one of these two benefits again every five levels after 6th (to a maximum of 4 times at 20th level). This ability replaces the ranger's 6th-, 10th-, 14th-, and 18th-level combat style feat abilities."
+import_trades = ["6th-", "10th-", "14th-", "18th-level combat style feat"]
+
+[[entry]]
+id = "ref/arc-wizard/arcane-bomber"
+hold = "checker: [fields] trades = \"replaces: Cantrips\" disagrees with the trade sentences of the feature `spellblast-bombs` = \"replaces: cantrips, but the arcana bomber gains the detect magic and read magic cantrips and places them in his spellbook\" (line 45)"
+opening = ["To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power."]
+
+[[entry.feature]]
+anchor = "bomb"
+head = "Bomb (Su)"
+listed = true
+level = 1
+print = "At 1st level, the arcane bomber gains an ability nearly identical to the [alchemist's](ref/class/alchemist) bomb ability. Unlike the alchemist, at 1st level, the arcane bomber chooses one type of energy from the following list: acid, cold, fire, and electricity. He can throw bombs of that type, but cannot modify them with discoveries. This ability stacks with the alchemist bomb ability to determine the level of bomb damage, but an arcane bomber that becomes an alchemist does not gain that class's bomb ability, nor does an alchemist that becomes an arcane bomber gain this bomb ability. This ability replaces arcane bond."
+import_trades = ["Arcane bond"]
+
+[[entry.feature]]
+anchor = "spellblast-bombs"
+head = "Spellblast Bombs (Su)"
+listed = true
+level = 1
+print = "At 1st level, as a swift action, an arcane bomber can sacrifice one of his spells to empower the next bomb he throws during his turn. When he does, he gains a bonus to hit with the next bomb he throws before the end of his turn equal to the level of the spell he sacrificed, and a bonus to damage equal to twice the level of the spell. This ability replaces cantrips, but the arcana bomber gains the _[detect magic](ref/spell/detect-magic)_ and _[read magic](ref/spell/read-magic)_ cantrips and places them in his spellbook. He can cast either of these as 1st-level spells."
+import_trades = ["Cantrips"]
+
+[[entry.feature]]
+anchor = "school-of-the-bomb"
+head = "School of the Bomb"
+listed = true
+print = "The creation and use of bombs is often so engrossing or intellectually taxing that an arcane bomber forsakes four schools of magic. These opposition schools are chosen at 1st level and cannot be changed later. An arcane bomber who prepares spells from his opposition school must use two spell slots of that level to prepare the spell. In addition, the arcane bomber takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools. This ability replaces arcane school."
+import_trades = ["Arcane school"]
+
+[[entry]]
+id = "ref/arc-wizard/siege-mage"
+hold = "checker: [fields] trades = \"replaces: Cantrips\" disagrees with the trade sentences of the feature `empower-siege-engine` = \"replaces: cantrips, but the siege mage gains the detect magic and read magic cantrips and places them in his spellbook\" (line 54)"
+opening = ["The siege mage combines his arcane mastery with a supernatural link to siege engines."]
+
+[[entry.feature]]
+anchor = "siege-engineer"
+head = "Siege Engineer"
+listed = true
+level = 1
+print = "At 1st level, the siege mage gains [Siege Engineer](ref/feat/siege-engineer) (see page 118) as a bonus feat, even though he does not meet the prerequisites for that feat. This ability replaces scribe scroll."
+import_trades = ["Scribe scroll"]
+
+[[entry.feature]]
+anchor = "siege-engine-bond"
+head = "Siege Engine Bond (Su)"
+listed = true
+level = 1
+print = "At 1st level, a siege mage can bond with a single siege engine within 30 feet and line of sight as a standard action. He can utilize the power of this link to aim and fire the siege engine remotely (as long as he's within 30 feet), though it still requires a crew to reload the siege engine. At 10th level, he can reload, aim, and fire the siege engine purely by the power of this link, and no longer needs a crew to control the siege engine. It still takes the normal required amount of time and actions to control a siege engine in this manner. This ability replaces arcane bond. The siege mage can end this bond with a free action. A siege mage can bond with a siege engine in this manner a number of times per day equal to his Intelligence modifier (minimum 1) but can only be bonded with one siege engine at a time."
+import_trades = ["Arcane bond"]
+
+[[entry.feature]]
+anchor = "empower-siege-engine"
+head = "Empower Siege Engine (Su)"
+listed = true
+print = "As a swift action, a siege mage can sacrifice one of his spells to empower the next attack he makes before the end of his turn with a siege engine he is bonded with. When he does, the siege engine attack gains a bonus on its attack roll or targeting roll equal to the level of the spell he sacrificed, and a bonus to damage equal to 3 × the level of the spell. This ability replaces cantrips, but the siege mage gains the _[detect magic](ref/spell/detect-magic)_ and _[read magic](ref/spell/read-magic)_ cantrips and places them in his spellbook. He can cast either of these as 1st-level spells."
+import_trades = ["Cantrips"]
+
+[[entry.feature]]
+anchor = "siege-school"
+head = "Siege School"
+listed = true
+print = "The strange rituals needed to empower all forms of siege engines takes a level of dedication and perseverance that limits a wizard's time to unlock other arcane mysteries. At 1st level, the siege mage forsakes three schools of magic. Once chosen, these opposition schools cannot be changed. A siege mage who prepares spells from his opposition school must use two spell slots of that level to prepare the spell. In addition, the siege mage takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools. This ability replaces arcane school."
+import_trades = ["Arcane school"]
+
+[[entry]]
+id = "ref/arc-wizard/spellslinger"
+hold = "checker: [fields] trades = \"replaces: Cantrips\" disagrees with the trade sentences of the feature `mage-bullets` = \"replaces: cantrips, but the spellslinger gains the detect magic and read magic cantrips and places them in his spellbook\" (line 74)"
+opening = ["While few contest the seductive allure of commanding arcane and occult powers, there are those wizards who become obsessed with the natural mysteries of black powder. Combining this emerging technology with their considerable arcane skills, they transform firearms into a powerful focus."]
+
+[[entry.feature]]
+anchor = "arcane-gun"
+head = "Arcane Gun (Su)"
+listed = true
+print = '''
+The spellslinger gains the [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms) feat, and one or two of his firearms can be _arcane guns_. _Arcane guns_ are normal one-handed or two-handed firearms in the hands of others, as they were normal firearms before the spellslinger imbued them with magic. In a spellslinger's hands, they both fire projectiles (bullets and pellets) and cast magic. At 1st level, the spellslinger decides whether he wants to have one or two _arcane guns_ at a time. If the spellslinger chooses to have only one arcane gun at a time, spells fired through the arcane gun that require an attack roll have a ×3 critical hit multiplier.
+
+A spellslinger can cast any ranged touch attack, cone, line, or ray spells through his _arcane gun_. When he casts through the _arcane gun_, the gun's enhancement bonus (if any) is a bonus to the spell's attack rolls or to the spell's saving throw DCs. Yet there are dangers inherent to this method. If any of the spells' attack rolls result in a natural 1 (a misfire), or a natural 20 is rolled on any saving throw made against the spell by a target (an overload), the _arcane gun_ gains the [broken](ref/misc/broken) condition. If the _arcane gun_ already has the broken condition, the gun explodes. When a gun explodes, it lets loose a blast of force, or if the spell has the acid, cold, electricity, or sonic descriptor, it deals that type of energy damage instead. In the case of spells with multiple descriptors, roll randomly among the descriptors to determine the type of damage dealt by the blast. The blast is centered on a single intersection within the spellslinger's space (spellslinger's choice) and deals 1d6 points of the appropriate energy damage or force damage per level of the spell cast. Any creature within the blast other than the spellslinger can make a Reflex saving throw to halve the damage. The Reflex save DC is calculated using the spell level of the spell being sacrificed.
+
+A spellslinger can attune his _arcane guns_ at the start of each day. That attunement lasts until the spellslinger attunes to a new gun, even if a formally attuned gun is destroyed. This ability replaces arcane bond.'''
+import_trades = ["Arcane bond"]
+
+[[entry.feature]]
+anchor = "gunsmith"
+head = "Gunsmith"
+listed = true
+print = "The spellslinger gains the [Gunsmithing](ref/feat/gunsmithing) feat (see page 103) and a battered gun that is identical to the gun a [gunslinger](ref/class/gunslinger) (see page 9) gains at first level. If the spellslinger chooses the ability to attune two arcane guns, he still only starts out with one gun. Like a gunslinger, a spellslinger can use the Gunsmithing feat to restore his battered gun. This ability replaces scribe scroll."
+import_trades = ["Scribe scroll"]
+
+[[entry.feature]]
+anchor = "mage-bullets"
+head = "Mage Bullets (Su)"
+listed = true
+print = "A spellslinger is adept at transferring spell energy into his _arcane gun_ attacks. As a swift action, he can sacrifice a spell and transform that energy into a weapon bonus equal to the level of the spell sacrificed on a single barrel of his firearm. With that weapon bonus the spellslinger can apply any of the following to his arcane bond: enhancement bonuses (up to +5) and _[dancing](ref/magic-enh/dancing)_, _[defending](ref/magic-enh/defending)_, _[distance](ref/magic-enh/distance)_, _[flaming](ref/magic-enh/flaming)_, _[flaming burst](ref/magic-enh/flaming-burst)_, _[frost](ref/magic-enh/frost)_, _[ghost touch](ref/magic-enh/ghost-touch-weapon)_, _[icy burst](ref/magic-enh/icy-burst)_, _[merciful](ref/magic-enh/merciful)_, _[seeking](ref/magic-enh/seeking), [shock](ref/magic-enh/shock)_, _[shocking burst](ref/magic-enh/shocking-burst)_, _[spell storing](ref/magic-enh/spell-storing)_, _[thundering](ref/magic-enh/thundering)_, _[vicious](ref/magic-enh/vicious)_, and _[wounding](ref/magic-enh/wounding)_. An arcane gun gains no benefit from having two of the same weapon special abilities on the same barrel. The effect of the mage bullets ability lasts for a number of minutes equal to the level of the spell sacrificed, or until this ability is used again to assign the barrel different enhancements. This ability replaces cantrips, but the spellslinger gains the _[detect magic](ref/spell/detect-magic)_ and _[read magic](ref/spell/read-magic)_ cantrips and places them in his spellbook. He can cast either of these as 1st-level spells."
+import_trades = ["Cantrips"]
+
+[[entry.feature]]
+anchor = "school-of-the-gun"
+head = "School of the Gun"
+listed = true
+print = "The rigor and care required by arcane guns is so great that a spellslinger forsakes four schools of magic. These opposition schools are chosen at 1st level and cannot be changed later. A spellslinger who prepares a spell from his opposition school must use two spell slots of that level to prepare the spell. In addition, the spellslinger takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools as a prerequisite. This ability replaces arcane school."
+import_trades = ["Arcane school"]

@@ -16,13 +16,19 @@ page = "53"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spell-sage", level = 1 },
+  { anchor = "knowledgeable-defense", level = 2 },
+  { anchor = "spell-scent", level = 6 },
+  { anchor = "witch-s-bane-judgment", level = 14 },
+]
 trades = [
-  { replaces = "Monster lore", feature = "monster-lore" },
-  { replaces = "Detect alignment", feature = "detect-alignment" },
-  { replaces = "discern lies", feature = "discern-lies" },
-  { replaces = "true judgment", feature = "true-judgment" },
-  { replaces = "Track", feature = "track" },
-  { replaces = "Exploit weakness", feature = "exploit-weakness" },
+  { replaces = "Monster lore", feature = "monster-lore", by = ["spell-sage"] },
+  { replaces = "Detect alignment", feature = "detect-alignment", by = ["knowledgeable-defense"] },
+  { replaces = "discern lies", feature = "discern-lies", by = ["knowledgeable-defense"] },
+  { replaces = "true judgment", feature = "true-judgment", by = ["knowledgeable-defense"] },
+  { replaces = "Track", feature = "track", by = ["spell-scent"] },
+  { replaces = "Exploit weakness", feature = "exploit-weakness", by = ["witch-s-bane-judgment"] },
 ]
 +++
 
@@ -30,65 +36,42 @@ When pursuing justice for their faith, inquisitors sometimes hunt sorcerers, wit
 other practitioners of arcane magic - but especially witches, since their devotion to a patron is
 often seen as suspect by many religions.
 
-**Spell Sage (Ex)**
+## Spell Sage (Ex) {#spell-sage}
 
-**Gained:** At 1st Level
-
-**Passive:** A witch hunter adds her Wisdom modifier on Spellcraft checks in addition to her
+At 1st level, a witch hunter adds her Wisdom modifier on Spellcraft checks in addition to her
 Intelligence modifier when attempting to identify a spell as it is being cast, to identify the
-properties of a magic item using [detect magic](ref/spell/detect-magic), or to decipher a scroll.
+properties of a magic item using _[detect magic](ref/spell/detect-magic)_, or to decipher a scroll.
+This ability replaces monster lore.
 
-**Replaces:** Monster lore
+## Knowledgeable Defense {#knowledgeable-defense}
 
-**Knowledgeable Defense**
+At 2nd level, a witch hunter who identifies a spell with Spellcraft gains a bonus against its
+effects, either a +1 bonus on saving throws or a +1 dodge bonus to AC against this spell. This bonus
+increases every four levels (to a maximum of +5 at 18th level). At 20th level, once per day as a
+swift action, she can grant this bonus to all her allies within 60 feet, for 1 minute. The allies
+gain the bonus when the witch hunter identifies the spell, and those among the allies who have at
+least 1 rank in Spellcraft can aid the witch hunter's next Spellcraft check as a swift action while
+under the effect of this ability. This ability replaces _detect alignment_, _discern lies_, and true
+judgment.
 
-**At 20th Level:** Once per day as a **swift action**, she can grant this bonus to all her allies
-within 60 feet, for 1 minute. The allies gain the bonus when the witch hunter identifies the spell,
-and those among the allies who have at least 1 rank in Spellcraft can aid the witch hunter's next
-Spellcraft check as a **swift action** while under the effect of this ability.
+## Spell Scent {#spell-scent}
 
-**Gained:** At 2nd Level
-
-**Passive:** A witch hunter who identifies a spell with Spellcraft gains a bonus against its
-effects, either a +1 bonus on saving throws or a +1 dodge bonus to AC against this spell.
-
-**Replaces:** Detect alignment, discern lies, true judgment
-
-At 6th level: This bonus increases to +2.
-
-At 10th level: This bonus increases to +3.
-
-At 14th level: This bonus increases to +4.
-
-At 18th level: This bonus increases to +5.
-
-**Spell Scent**
-
-**Flavor:** The witch hunter learns how to sense unique spell signatures, and can follow the trail
-of a cast spell or spell effect cast back to its source.
-
-**Fullround:** Once per day, when the witch hunter comes into contact with or is exposed to a spell
-effect or a magic item, she can examine the spell effect or magic item, and then gains the effect of
-a [locate creature](ref/spell/locate-creature) spell. She can do this even if the spell effect was
+At 6th level, the witch hunter learns how to sense unique spell signatures, and can follow the trail
+of a cast spell or spell effect cast back to its source. Once per day, when the witch hunter comes
+into contact with or is exposed to a spell effect or a magic item, she can spend a full-round action
+to examine the spell effect or magic item, and then gains the effect of a
+_[locate creature](ref/spell/locate-creature)_ spell. She can do this even if the spell effect was
 instantaneous, but must start her examination within 1 round after she experienced the spell's
 effect. Instead of locating a known creature, the witch hunter locates the caster of the spell
 effect or magic item she examined. Doing so does not allow the witch hunter to gain any intelligence
-about the spellcaster other than its location.
+about the spellcaster other than its location. This ability replaces track.
 
-**Gained:** At 6th Level
+## Witch's Bane Judgment (Ex) {#witch-s-bane-judgment}
 
-**Replaces:** Track
+At 14th level, a witch hunter gains the following judgment.
 
-**Witch's Bane Judgment (Ex)**
+### Witch's Bane {#witch-s-bane}
 
-**Ability:** A witch hunter gains the following judgment.
-
-**Gained:** At 14th Level
-
-**Replaces:** Exploit weakness
-
-**Witch's Bane**
-
-**Passive:** Any creature that casts an arcane spell within 30 feet of the witch hunter takes a -2
-penalty to AC against her attacks and a -2 penalty on saving throws against her spells while this
-judgment remains in effect.
+Any creature that casts an arcane spell within 30 feet of the witch hunter takes a -2 penalty to AC
+against her attacks and a -2 penalty on saving throws against her spells while this judgment remains
+in effect. This ability replaces exploit weakness.
