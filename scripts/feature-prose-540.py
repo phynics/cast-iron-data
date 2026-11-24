@@ -861,7 +861,8 @@ CORPUS_FRACTION = re.compile(
     r"(?:equal to\s+(?:a\s+)?)?(?:(\d+)\s*\+\s*)?(one-half|half|one-third|one-fourth|one-fifth|one-sixth|one-eighth)\s+"
     r"(?:of\s+)?(?:her|his|its|their|the)\s+(?:[\w-]+\s+){0,2}?levels?(?:\s*\((?:minimum|min\.?)\s*\+?(\d+)\))?", re.I)
 PRINT_PROGRESSION = re.compile(
-    r"increases?\s+by\s+\+?(\d+)[^.]*?(?:every|for every|per)\s+(\w+)\s+levels?\s+(?:after|beyond|above)\s+(\d+)(?:st|nd|rd|th)", re.I)
+    r"(?:increases?|improves?|rises?|grows?)\s+by\s+\+?(\d+)[^.]*?(?:every|for every|per)\s+(\w+)\s+levels?\s+(?:after|beyond|above)\s+(\d+)(?:st|nd|rd|th)", re.I)
+PRINT_MAXIMUM = re.compile(r"maximum\s+(?:bonus\s+)?of\s+\+?(\d+)(?:[^.]*?\bat\s+(\d+)(?:st|nd|rd|th)\s+level)?", re.I)
 
 # Features where the owner ruled that print wins over a corpus value that the expansion shows to differ
 # (ruling 8 of 2026-11-24 on phynics/cast-iron-data#306).
@@ -889,12 +890,21 @@ def expand_rules(print_text: str, corpus_text: str) -> tuple[str, list[str]] | N
         return None
     b, s_, n, k = int(first.group(1)), int(pm.group(1)), int(step), int(pm.group(3))
     start = max(k, lead_level(print_text) or k)
+    mx = PRINT_MAXIMUM.search(print_text)
+    cap = int(mx.group(1)) if mx else None
     for level in range(start, 21):
         printed = b + s_ * ((level - k) // n)
+        if cap is not None:
+            printed = min(printed, cap)
         stored = max(base_c + level * num // den, minimum)
+        if cap is not None:
+            stored = min(stored, cap)
         if printed != stored:
             return "differ", [f"at level {level} print gives +{printed}, the corpus {stored}"]
-    return "equal", [f"+{b}", f"+{s_}", str(k), str(n)]
+    forget = [f"+{b}", f"+{s_}", str(k), str(n)]
+    if mx:
+        forget += [f"+{cap}", str(cap), "maximum"] + ([mx.group(2)] if mx.group(2) else [])
+    return "equal", forget
 
 
 def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens: set[str]) -> Compare:
@@ -1291,6 +1301,10 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     text = re.sub(r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)", "", text)
     # a cross-reference of the book ("(see page 83)", "(see Advanced Player's Guide page 54)"): the corpus links instead
     xref = re.sub(r"\s*\((?:[Ss]ee)\b[^()]*\)", "", text)
+    xref = re.sub(r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+                  r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+                  r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?\)", "", xref)
+    xref = re.sub(r"\s*\([^()]*\bpage\s*\d+[^()]*\)", "", xref)
     if xref != text:
         notes.append("printed cross-reference left out")
         text = xref
