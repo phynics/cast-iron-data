@@ -2,7 +2,7 @@
 id = "ref/magic-wondrous/figurine-of-wondrous-power-serpentine-eagle"
 kind = "item"
 title = "Figurine of Wondrous Power (Serpentine Eagle)"
-source_ids = ["ultimate-equipment", "core-rulebook", "aquatic-adventures", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "andoran-spirit-of-liberty", "elemental-masters-handbook", "ultimate-combat", "animal-archive", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
+source_ids = ["ultimate-equipment", "core-rulebook", "aquatic-adventures", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "andoran-spirit-of-liberty", "elemental-masters-handbook", "ultimate-combat", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_serpentine_eagle", path = "json/magic_wondrous_slotless03.json" },
 ]
@@ -36,9 +36,6 @@ page = "10"
 [[sources]]
 publication = "ultimate-combat"
 page = "143"
-[[sources]]
-publication = "animal-archive"
-page = "27"
 [[sources]]
 publication = "pathfinder-70-the-frozen-stars"
 page = "63"

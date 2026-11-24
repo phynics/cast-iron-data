@@ -502,29 +502,29 @@ animal-archive	ref/spell/die-for-your-master	spell	Die for Your Master	2	2	famil
 animal-archive	ref/spell/sea-stallion	spell	Sea Stallion	2	2	family-leak	absent	25	row	0		variant	ref/spell/sea-steed(title)					keep	25	title-printed	single-entry	done			yes		no	
 animal-archive	ref/spell/shield-companion-aa	spell	Shield Companion (AA)	2	2	family-leak	absent	25	row	0		variant	ref/spell/shield-other(title)					keep	25	title-printed	single-entry	done			yes		no	
 animal-archive	ref/ability/familiars	rule	Familiars	5	5	uncited	printed		none	11	0,2,3,4,5										link-only-hub	S10	hub-design-a	yes	yes			
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	13	15	review	loose	27	row	0											figurine	S4a			yes		no	
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven	item	Figurine of Wondrous Power (Black Jade Raven)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-bronze-griffon	item	Figurine of Wondrous Power (Bronze Griffon)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-coral-hippocampus	item	Figurine of Wondrous Power (Coral Hippocampus)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-ebony-fly	item	Figurine of Wondrous Power (Ebony Fly)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-emerald-frog	item	Figurine of Wondrous Power (Emerald Frog)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-glass-walrus	item	Figurine of Wondrous Power (Glass Walrus)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-golden-lions	item	Figurine of Wondrous Power (Golden Lions)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-hematite-courgar	item	Figurine of Wondrous Power (Hematite Courgar)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-ivory-goats	item	Figurine of Wondrous Power (Ivory Goats)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-lapis-camel	item	Figurine of Wondrous Power (Lapis Camel)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-marble-elephant	item	Figurine of Wondrous Power (Marble Elephant)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-obsidian-raven	item	Figurine of Wondrous Power (Obsidian Raven)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-obsidian-steed	item	Figurine of Wondrous Power (Obsidian Steed)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-onyx-dog	item	Figurine of Wondrous Power (Onyx Dog)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-pearl-dolphin	item	Figurine of Wondrous Power (Pearl Dolphin)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-ruby-butterfly	item	Figurine of Wondrous Power (Ruby Butterfly)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-serpentine-eagle	item	Figurine of Wondrous Power (Serpentine Eagle)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-serpentine-owl	item	Figurine of Wondrous Power (Serpentine Owl)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	Figurine of Wondrous Power (Silver Raven)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
-animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven	item	Figurine of Wondrous Power (Black Jade Raven)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-bronze-griffon	item	Figurine of Wondrous Power (Bronze Griffon)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-coral-hippocampus	item	Figurine of Wondrous Power (Coral Hippocampus)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-ebony-fly	item	Figurine of Wondrous Power (Ebony Fly)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-emerald-frog	item	Figurine of Wondrous Power (Emerald Frog)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-glass-walrus	item	Figurine of Wondrous Power (Glass Walrus)	13	15	review	loose	27	row	0								keep	27	title-on-cited-page	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-golden-lions	item	Figurine of Wondrous Power (Golden Lions)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-hematite-courgar	item	Figurine of Wondrous Power (Hematite Courgar)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-ivory-goats	item	Figurine of Wondrous Power (Ivory Goats)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-lapis-camel	item	Figurine of Wondrous Power (Lapis Camel)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-marble-elephant	item	Figurine of Wondrous Power (Marble Elephant)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-obsidian-raven	item	Figurine of Wondrous Power (Obsidian Raven)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-obsidian-steed	item	Figurine of Wondrous Power (Obsidian Steed)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-onyx-dog	item	Figurine of Wondrous Power (Onyx Dog)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-pearl-dolphin	item	Figurine of Wondrous Power (Pearl Dolphin)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-ruby-butterfly	item	Figurine of Wondrous Power (Ruby Butterfly)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-serpentine-eagle	item	Figurine of Wondrous Power (Serpentine Eagle)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-serpentine-owl	item	Figurine of Wondrous Power (Serpentine Owl)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	Figurine of Wondrous Power (Silver Raven)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
+animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	13	15	review	loose	27	row	0								remove	27	wrong-credit-invalidated	figurine	done			yes		no	none
 animal-archive	ref/spell/scamper	spell	Scamper	2	2	review	absent	25	row	0											single-entry	S11			yes		no	
 animal-archive	ref/spell/sky-steed	spell	Sky Steed	2	2	review	absent	25	row	0											single-entry	S11			yes		no	
 aquatic-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	1	11	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
