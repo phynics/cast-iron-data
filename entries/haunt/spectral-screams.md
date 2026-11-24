@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/spectral-screams"
-kind = "rule"
+kind = "haunt"
 title = "Spectral Screams"
 source_ids = ["horror-adventures"]
 provenance = [

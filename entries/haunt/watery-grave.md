@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/watery-grave"
-kind = "rule"
+kind = "haunt"
 title = "Watery Grave"
 source_ids = ["horror-adventures"]
 provenance = [

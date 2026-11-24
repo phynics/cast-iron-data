@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/bountiful-feast"
-kind = "rule"
+kind = "haunt"
 title = "Bountiful Feast"
 source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [

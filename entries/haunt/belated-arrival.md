@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/belated-arrival"
-kind = "rule"
+kind = "haunt"
 title = "Belated Arrival"
 source_ids = ["horror-adventures"]
 provenance = [

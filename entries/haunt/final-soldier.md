@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/final-soldier"
-kind = "rule"
+kind = "haunt"
 title = "Final Soldier"
 source_ids = ["horror-adventures"]
 provenance = [

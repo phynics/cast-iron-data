@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/following-footsteps"
-kind = "rule"
+kind = "haunt"
 title = "Following Footsteps"
 source_ids = ["ultimate-wilderness"]
 provenance = [

@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/spawn-of-the-abyss"
-kind = "rule"
+kind = "haunt"
 title = "Spawn of the Abyss"
 source_ids = ["horror-adventures"]
 provenance = [

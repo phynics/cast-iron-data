@@ -11,7 +11,7 @@ of official status or compatibility.
 
 | Path | Contents |
 |---|---|
-| `entries/<kind>/<slug>.md` | One rules entry per file: 31,106 entries (spells, feats, creatures, items, classes, races, rules, and more) |
+| `entries/<kind>/<slug>.md` | One rules entry per file: 31,106 entries (spells, feats, creatures, items, classes, races, rules, traps, haunts, and more) |
 | `corpus.toml` | The format version and the defaults entries omit |
 | `publications.toml` | Publication metadata |
 | `books/<publication-id>.toml` | The printed chapter order of a book that has one (16 books). Every other book is built from the `[[sources]]` pages of its entries |

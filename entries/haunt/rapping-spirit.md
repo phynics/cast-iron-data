@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/rapping-spirit"
-kind = "rule"
+kind = "haunt"
 title = "Rapping Spirit"
 source_ids = ["occult-adventures", "occult-mysteries"]
 provenance = [

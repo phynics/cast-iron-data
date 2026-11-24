@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/arcane-storm"
-kind = "rule"
+kind = "haunt"
 title = "Arcane Storm"
 source_ids = ["horror-adventures"]
 provenance = [

@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/dimensional-tear"
-kind = "rule"
+kind = "haunt"
 title = "Dimensional Tear"
 source_ids = ["ultimate-wilderness"]
 provenance = [

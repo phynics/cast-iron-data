@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/whispers-from-beyond"
-kind = "rule"
+kind = "haunt"
 title = "Whispers from Beyond"
 source_ids = ["horror-adventures"]
 provenance = [

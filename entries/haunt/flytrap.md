@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/flytrap"
-kind = "rule"
+kind = "haunt"
 title = "Flytrap"
 source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [

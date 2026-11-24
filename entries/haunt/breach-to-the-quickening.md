@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/breach-to-the-quickening"
-kind = "rule"
+kind = "haunt"
 title = "Breach to the Quickening"
 source_ids = ["horror-realms"]
 provenance = [

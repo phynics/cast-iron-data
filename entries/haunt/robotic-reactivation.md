@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/robotic-reactivation"
-kind = "rule"
+kind = "haunt"
 title = "Robotic Reactivation"
 source_ids = ["horror-realms"]
 provenance = [

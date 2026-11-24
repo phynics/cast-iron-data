@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/foreboding-mist"
-kind = "rule"
+kind = "haunt"
 title = "Foreboding Mist"
 source_ids = ["horror-adventures"]
 provenance = [

@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/soul-vortex"
-kind = "rule"
+kind = "haunt"
 title = "Soul Vortex"
 source_ids = ["horror-adventures"]
 provenance = [

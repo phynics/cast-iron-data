@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/fallen-from-the-sky"
-kind = "rule"
+kind = "haunt"
 title = "Fallen from the Sky"
 source_ids = ["horror-adventures"]
 provenance = [

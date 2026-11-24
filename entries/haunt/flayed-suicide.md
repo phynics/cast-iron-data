@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/flayed-suicide"
-kind = "rule"
+kind = "haunt"
 title = "Flayed Suicide"
 source_ids = ["horror-adventures"]
 provenance = [

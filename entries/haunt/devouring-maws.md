@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/devouring-maws"
-kind = "rule"
+kind = "haunt"
 title = "Devouring Maws"
 source_ids = ["horror-adventures"]
 provenance = [

@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/isolation-haunt"
-kind = "rule"
+kind = "haunt"
 title = "Isolation Haunt"
 source_ids = ["construct-handbook"]
 provenance = [

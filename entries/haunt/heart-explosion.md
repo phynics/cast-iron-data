@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/heart-explosion"
-kind = "rule"
+kind = "haunt"
 title = "Heart Explosion"
 source_ids = ["horror-adventures"]
 provenance = [

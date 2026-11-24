@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/malignant-weapon"
-kind = "rule"
+kind = "haunt"
 title = "Malignant Weapon"
 source_ids = ["occult-adventures"]
 provenance = [

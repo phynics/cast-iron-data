@@ -1,6 +1,6 @@
 +++
 id = "ref/haunt/psychic-echo-anger"
-kind = "rule"
+kind = "haunt"
 title = "Psychic Echo (Anger)"
 source_ids = ["horror-adventures"]
 provenance = [
