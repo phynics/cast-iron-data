@@ -578,7 +578,7 @@ def runs_of(raw: str) -> list[tuple[str, bool, bool]]:
 @dataclass
 class Book:
     fonts: dict[str, int]
-    pages: dict[int, list[tuple[int, int, int, str]]]    # pdf page -> (top, left, font, raw)
+    pages: dict[int, list[tuple[int, int, int, str, int]]]    # pdf page -> (top, left, font, raw, width)
     printed: dict[int, int]                              # pdf page -> printed page
     vocab: set[str]
 
@@ -601,7 +601,7 @@ def load_book(xml_path: Path) -> Book:
             plain = html.unescape(re.sub(r"</?[bi]>", "", raw)).strip()
             if top > BODY_TOP[1] and plain.isdigit():
                 printed[num] = int(plain)
-            items.append((top, left, int(font), raw))
+            items.append((top, left, int(font), raw, int(_w)))
             for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", plain):
                 words[w.lower()] += 1
                 if "-" in w:
@@ -614,23 +614,24 @@ def load_book(xml_path: Path) -> Book:
 
 def page_lines(book: Book, num: int) -> list[dict]:
     by_col: dict[int, list] = {0: [], 1: []}
-    for top, left, font, raw in book.pages.get(num, []):
+    for top, left, font, raw, width in book.pages.get(num, []):
         if BODY_TOP[0] <= top <= BODY_TOP[1]:
-            by_col[0 if left < COL_SPLIT else 1].append((top, left, font, raw))
+            by_col[0 if left < COL_SPLIT else 1].append((top, left, font, raw, width))
     lines = []
     for col in (0, 1):
         cur: list[dict] = []
-        for top, left, font, raw in sorted(by_col[col], key=lambda x: (x[0], x[1])):
+        for top, left, font, raw, width in sorted(by_col[col], key=lambda x: (x[0], x[1])):
             if cur and abs(cur[-1]["top"] - top) <= 4:
-                cur[-1]["parts"].append((left, raw))
+                cur[-1]["parts"].append((left, raw, width))
                 cur[-1]["size"] = max(cur[-1]["size"], book.fonts[str(font)])
             else:
-                cur.append({"col": col, "top": top, "size": book.fonts[str(font)], "parts": [(left, raw)]})
+                cur.append({"col": col, "top": top, "size": book.fonts[str(font)], "parts": [(left, raw, width)]})
         for ln in cur:
             ln["parts"].sort()
             ln["left"] = ln["parts"][0][0]
+            ln["right"] = max(a + w for a, _, w in ln["parts"])
             runs: list = []
-            for _, raw in ln["parts"]:
+            for _, raw, _w in ln["parts"]:
                 runs += runs_of(raw)
             ln["runs"] = runs
         lines += cur
@@ -655,6 +656,7 @@ def merge_runs(runs: list[tuple[str, bool, bool]]) -> list[tuple[str, bool, bool
 def read_blocks(book: Book, first: int, last: int) -> list[Para]:
     """Paragraphs and titles of the PDF pages `first`..`last`, columns in reading order."""
     out: list[Para] = []
+    insets: dict[int, int | None] = {}
     for num in range(first, last + 1):
         if num not in book.pages:
             continue
@@ -662,12 +664,21 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
         for ln in page_lines(book, num):
             indent = ln["left"] - COL_LEFT[ln["col"]]
             if ln["size"] >= 16:
+                insets[ln["col"]] = ln["left"] if indent >= 8 else None
                 if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown:
                     out[-1].runs += [(" ", True, False)] + ln["runs"]
                 else:
                     out.append(Para("title", list(ln["runs"]), shown, ln["col"]))
                 continue
-            if not out or out[-1].kind == "title" or indent >= 8:
+            # a paragraph starts at an indent. A sidebar is an inset block that a title opens: inside it every line is
+            # indented, and only a deeper indent starts a paragraph
+            inset = insets.get(ln["col"])
+            if inset is not None and ln["left"] >= inset - 6:
+                starts = ln["left"] - inset >= 8
+            else:
+                insets[ln["col"]] = None
+                starts = indent >= 8
+            if not out or out[-1].kind == "title" or starts:
                 out.append(Para("para", list(ln["runs"]), shown, ln["col"]))
             else:
                 out[-1].runs.append((" ", False, False))
