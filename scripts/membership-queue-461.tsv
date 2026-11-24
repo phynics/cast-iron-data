@@ -1333,7 +1333,7 @@ heroes-of-the-high-court	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Bl
 heroes-of-the-high-court	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	8	18	inherited	absent		none	0				yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	8	18	inherited	absent		none	0				yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/hex/cackle	class_option	Cackle	4	5	uncited	absent		none	0								remove	9	mention-only	single-entry	done			yes			
-heroes-of-the-high-court	ref/hex/soothsayer	class_option	Soothsayer	2	2	weak	weak		none	1	17										single-entry	S5		yes	yes			
+heroes-of-the-high-court	ref/hex/soothsayer	class_option	Soothsayer	2	2	weak	weak		none	1	17							remove	none	whole-book-absent	single-entry	done		yes	yes			
 heroes-of-the-high-court	ref/race/half-elf	race	Half-Elf	13	18	weak	weak		none	1	15	child	ref/racial-trait/half-elf/keen-senses(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)								race-hub	S9		yes	yes			
 heroes-of-the-high-court	ref/race/half-orc	race	Half-Orc	8	18	weak	weak		none	1	15	child	ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)								race-hub	S9		yes	yes			
 heroes-of-the-high-court	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	12	16	weak	weak		none	1	15	parent	ref/race/dwarf(title)	yes				remove	14	race-section-read-no-trait	standard-racial-trait	done			yes			

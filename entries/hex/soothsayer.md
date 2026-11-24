@@ -2,7 +2,7 @@
 id = "ref/hex/soothsayer"
 kind = "class_option"
 title = "Soothsayer"
-source_ids = ["the-harrow-handbook", "heroes-of-the-high-court"]
+source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothsayer", path = "json/class_ability_hexes.json" },
 ]
