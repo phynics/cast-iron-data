@@ -16,11 +16,23 @@ page = "78"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "eidolon-brood", level = 2 },
+  { anchor = "brood-link", level = 2 },
+  { anchor = "bond-senses" },
+  { anchor = "shield-ally" },
+  { anchor = "maker-s-call" },
+  { anchor = "transposition" },
+  { anchor = "larger-brood", level = 8 },
+  { anchor = "greater-shield-ally" },
+  { anchor = "hordes-of-summoned-monsters" },
+  { anchor = "merge-forms" },
+]
 trades = [
-  { replaces = "Eidolon", feature = "eidolon" },
-  { replaces = "Life link", feature = "life-link" },
-  { replaces = "Life bond", feature = "life-bond" },
-  { replaces = "Merge forms", feature = "merge-forms" },
+  { replaces = "Eidolon", feature = "eidolon", by = ["eidolon-brood"] },
+  { replaces = "Life link", feature = "life-link", by = ["brood-link"] },
+  { replaces = "Life bond", feature = "life-bond", by = ["hordes-of-summoned-monsters"] },
+  { replaces = "Merge forms", feature = "merge-forms", by = ["merge-forms"] },
 ]
 +++
 
@@ -29,9 +41,9 @@ multiple smaller eidolons that make up his brood. Separately, a broodmaster's ei
 for a summoner's single eidolon, but taken as a whole, an eidolon brood makes up in quantity what it
 lacks in individual power.
 
-**Eidolon Brood**
+## Eidolon Brood {#eidolon-brood}
 
-**Ability:** Instead of a single eidolon, a broodmaster summons two Small
+At 2nd level, instead of a single eidolon, a broodmaster summons two Small
 [eidolons](ref/sidekick/eidolon) to his side, each less powerful than the single eidolon of a
 standard summoner. Each eidolon has it own base form and associated base statistics and free
 evolutions. Regardless of the number of eidolons in the brood, each eidolon has the same base attack
@@ -41,98 +53,84 @@ Str/Dex bonus, evolution pool (but see below), and maximum number of natural att
 eidolons in the brood must purchase evolutions separately. Once a broodmaster decides on the forms
 and abilities of his eidolons, they cannot be changed until the summoner gains a level.
 
-**Example:** A 2nd-level broodmaster can summon two eidolons. Each eidolon has 1 Hit Dice, BAB +2,
-+3 on its two good saves and +0 on its bad save. The broodmaster decides to give the first eidolon 4
+_Example_: A 2nd-level broodmaster can summon two eidolons. Each eidolon has 1 Hit Dice, BAB +2, +3
+on its two good saves and +0 on its bad save. The broodmaster decides to give the first eidolon 4
 skill points, one feat, a +1 armor bonus, a +1 bonus to Strength, 2 points from the evolution pool,
 and a maximum of two attacks. The remaining 4 skill points, +1 armor bonus, +1 bonus to Dexterity,
 and 2 points from the evolution pool go to the second eidolon, but it gains no feats and can have
 only one natural attack.
 
-**Gained:** At 2nd Level
-
-**Replaces:** Eidolon
-
-**Special:** The broodmaster must dismiss all of his eidolons at one time. Likewise, all of the
-eidolons in a brood are banished if the broodmaster is unconscious, asleep, or killed. However, each
-eidolon in the brood is sent back to its home plane individually when its hit points are reduced to
-a negative number equal to or greater than its Constitution score.
+The broodmaster must dismiss all of his eidolons at one time. Likewise, all of the eidolons in a
+brood are banished if the broodmaster is unconscious, asleep, or killed. However, each eidolon in
+the brood is sent back to its home plane individually when its hit points are reduced to a negative
+number equal to or greater than its Constitution score. This ability replaces the summoner's normal
+eidolon ability.
 
 The following are new class features of the broodmaster archetype. Those with the same name as the
 standard summoner class have slightly different rules, but otherwise work as and replace the
 standard summoner class features of the same name.
 
-**Brood Link (Su)**
+## Brood Link (Su) {#brood-link}
 
-**Ability:** A broodmaster forms a close bond with his eidolons. This ability works like the
-standard summoner _life link_ ability, except the broodmaster can only sacrifice hit points to
-prevent damage to one eidolon in the brood at a time. If two or more eidolons in the brood take
-enough damage to send them back to their home plane, the broodmaster can only sacrifice hit points
-to prevent damage to one of them.
+At 2nd level, a broodmaster forms a close bond with his eidolons. This ability works like the
+standard summoner life link ability, except the broodmaster can only sacrifice hit points to prevent
+damage to one eidolon in the brood at a time. If two or more eidolons in the brood take enough
+damage to send them back to their home plane, the broodmaster can only sacrifice hit points to
+prevent damage to one of them. This ability replaces life link.
 
-**Gained:** At 2nd Level
+## Bond Senses (Su) {#bond-senses}
 
-**Replaces:** Life link
+The broodmaster can only share the senses of one eidolon in his brood at a time.
 
-**Bond Senses (Su)**
+## Shield Ally (Ex) {#shield-ally}
 
-**At 2nd Level:** The broodmaster can only share the senses of one eidolon in his brood at a time.
+The broodmaster or an ally can only gain the bonuses from these abilities once, regardless of how
+many eidolons in the brood are within reach.
 
-**Shield Ally (Ex)**
+## Maker's Call (Su) {#maker-s-call}
 
-**At 4th Level:** The broodmaster or an ally can only gain the bonuses from _shield ally_ once,
-regardless of how many eidolons in the brood are within reach.
+The broodmaster can only call one eidolon in the brood to his side with each use of this ability.
 
-**Maker's Call (Su)**
+## Transposition (Su) {#transposition}
 
-**At 6th Level:** The broodmaster can only call one eidolon in the brood to his side with each use
-of this ability.
+The broodmaster swaps his location with that of one eidolon in the brood with each use of this
+ability.
 
-**Transposition (Su)**
+## Larger Brood {#larger-brood}
 
-**At 8th Level:** The broodmaster swaps his location with that of one eidolon in the brood with each
-use of this ability.
-
-**Larger Brood**
-
-**At 13th Level:** If the broodmaster has purchased the large evolution for his brood, he can spend
-an additional 6 evolution points from the evolution pool for the 'huge' option of the large
-evolution, distributing the remaining points among his eidolons. This allows him to call two Large
-eidolons, four Medium eidolons, eight Small eidolons, or any similar combination in which two
-smaller eidolons count as one eidolon of one size larger.
-
-**At 8th Level:** The broodmaster can spend 4 evolution points from the evolution pool for the
+At 8th level, the broodmaster can spend 4 evolution points from the evolution pool for the
 [large](ref/evolution/large) evolution; unlike with other evolutions, he spends these 4 points
 before he assigns evolution points to his individual eidolons (for an 8th-level broodmaster with 11
 evolution points, this leaves 7 evolution points to distribute among the eidolons). This allows him
 to summon two Medium eidolons, four Small eidolons, or one Medium eidolon and two Small eidolons.
 
-**Greater Shield Ally (Su)**
+At 13th level, if the broodmaster has purchased the large evolution for his brood, he can spend an
+additional 6 evolution points from the evolution pool for the huge evolution, distributing the
+remaining points among his eidolons. This allows him to call two Large eidolons, four Medium
+eidolons, eight Small eidolons, or any similar combination in which two smaller eidolons count as
+one eidolon of one size larger.
 
-**At 12th Level:** The broodmaster or an ally can only gain the bonuses from _greater shield ally,_
-regardless of how many eidolons in the brood are within reach.
+## Greater Shield Ally (Su) {#greater-shield-ally}
 
-**Brood Bond (Su)**
+The broodmaster or an ally can only gain the bonuses from these abilities once, regardless of how
+many eidolons in the brood are within reach.
 
-**At 14th Level:** A summoner's life becomes linked to his brood. This functions as the _life bond_
-ability, except the broodmaster can only transfer damage to one eidolon in the brood at a time. If
-that eidolon takes enough damage to send it back to its home plane, all excess damage remains with
-the broodmaster, killing him.
+## Hordes of Summoned Monsters {#hordes-of-summoned-monsters}
 
-**Replaces:** Life bond
+The broodmaster and master summoner archetypes can potentially have 5, 10, or even more summoned
+creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can
+potentially be a strong candidate for "solo" adventuring by one player. However, in the hands of an
+inexperienced or moderately experienced player, dealing with all of those creatures in combat can
+take a long time, forcing other players to wait extended periods between their turns in the
+initiative. It is strongly recommended that GMs only allow these archetypes for experienced players,
+or decide on a way to speed up the summoner's turn (such as by allowing other players to control
+some of the summoned monsters). Brood Bond (Su): At 14th level, a summoner's life becomes linked to
+his brood. This functions as the life bond ability, except the broodmaster can only transfer damage
+to one eidolon in the brood at a time. If that eidolon takes enough damage to send it back to its
+home plane, all excess damage remains with the broodmaster, killing him. This ability replaces life
+bond.
 
-**Merge Forms (Su)**
+## Merge Forms (Su) {#merge-forms}
 
-**At 16th Level:** The broodmaster can only merge with one eidolon in the brood at a time.
-
-**Replaces:** Merge forms
-
-### Hoarders of Summoned Monsters
-
-The broodmaster and [master summoner](ref/arc-summoner/master-summoner) archetypes can potentially
-have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these
-archetypes, and means that the summoner can potentially be a strong candidate for "solo" adventuring
-by one player. However, in the hands of an inexperienced or moderately experienced player, dealing
-with all of those creatures in combat can take a long time, forcing other players to wait extended
-periods between their turns in the initiative. It is strongly recommended that GMs only allow these
-archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by
-allowing other players to control some of the summoned monsters).
+The broodmaster can only merge with one eidolon in the brood at a time. This ability otherwise works
+like and replaces merge forms.
