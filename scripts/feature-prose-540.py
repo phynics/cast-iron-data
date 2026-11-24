@@ -85,6 +85,14 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+
+# The printing of the owner's copy of each book that a review table was made from (named in the first row of
+# each entry): a rule that print and the corpus state differently is read against this printing.
+PRINTINGS = {
+    "advanced-players-guide": "Advanced Player's Guide, 2nd printing",
+    "ultimate-magic": "Ultimate Magic, 2nd printing",
+    "ultimate-combat": "Ultimate Combat, 3rd printing",
+}
 ROOT = HERE.parent
 
 TSV_HEADER = [
@@ -316,6 +324,11 @@ def parse_import(body: str, heads: set[str] = frozenset()) -> tuple[list[list[st
         if r:
             label, content = r.group(1).strip(), r.group(2).strip()
             known = label in PLAIN_LABELS or label in EFFECT_LABELS or label in ACTION_LABELS or UPGRADE_LABEL.match(label)
+            if not known and cur.pseudo and namekey(label) == namekey(cur.label):
+                # the import split a printed table or list into rows with one label: they are one head
+                cur.raw.append(block)
+                cur.items.append(Item(None, content))
+                continue
             if not known and (namekey(tail_name(label)) in heads or namekey(label) in heads):
                 cur = ImportFeature(tail_name(label), [Item(None, content)], [block], pseudo=True, label=label)
                 feats.append(cur)
@@ -369,6 +382,8 @@ def build_draft(feat: ImportFeature) -> Draft:
             effect.append(f"as a {ACTION_LABELS[lab]} action, " + lower_first(it.content))
         elif lab == "Action":
             v = ACTION_VALUES.get(it.content.strip().rstrip(".").lower())
+            if it.content.strip().rstrip(".").lower() in ("ability", "special", "passive ability", "passive"):
+                continue        # "Action: Ability" names no action
             if v:
                 action = v
                 labelled = True
@@ -539,6 +554,7 @@ class Para:
     runs: list[tuple[str, bool, bool]]
     page: int                                # printed page
     col: int
+    size: int = 0                            # the font size of a title
 
     def plain(self) -> str:
         return "".join(t for t, _, _ in self.runs)
@@ -563,7 +579,7 @@ def runs_of(raw: str) -> list[tuple[str, bool, bool]]:
 @dataclass
 class Book:
     fonts: dict[str, int]
-    pages: dict[int, list[tuple[int, int, int, str]]]    # pdf page -> (top, left, font, raw)
+    pages: dict[int, list[tuple[int, int, int, str, int]]]    # pdf page -> (top, left, font, raw, width)
     printed: dict[int, int]                              # pdf page -> printed page
     vocab: set[str]
 
@@ -586,7 +602,7 @@ def load_book(xml_path: Path) -> Book:
             plain = html.unescape(re.sub(r"</?[bi]>", "", raw)).strip()
             if top > BODY_TOP[1] and plain.isdigit():
                 printed[num] = int(plain)
-            items.append((top, left, int(font), raw))
+            items.append((top, left, int(font), raw, int(_w)))
             for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", plain):
                 words[w.lower()] += 1
                 if "-" in w:
@@ -599,23 +615,24 @@ def load_book(xml_path: Path) -> Book:
 
 def page_lines(book: Book, num: int) -> list[dict]:
     by_col: dict[int, list] = {0: [], 1: []}
-    for top, left, font, raw in book.pages.get(num, []):
+    for top, left, font, raw, width in book.pages.get(num, []):
         if BODY_TOP[0] <= top <= BODY_TOP[1]:
-            by_col[0 if left < COL_SPLIT else 1].append((top, left, font, raw))
+            by_col[0 if left < COL_SPLIT else 1].append((top, left, font, raw, width))
     lines = []
     for col in (0, 1):
         cur: list[dict] = []
-        for top, left, font, raw in sorted(by_col[col], key=lambda x: (x[0], x[1])):
+        for top, left, font, raw, width in sorted(by_col[col], key=lambda x: (x[0], x[1])):
             if cur and abs(cur[-1]["top"] - top) <= 4:
-                cur[-1]["parts"].append((left, raw))
+                cur[-1]["parts"].append((left, raw, width))
                 cur[-1]["size"] = max(cur[-1]["size"], book.fonts[str(font)])
             else:
-                cur.append({"col": col, "top": top, "size": book.fonts[str(font)], "parts": [(left, raw)]})
+                cur.append({"col": col, "top": top, "size": book.fonts[str(font)], "parts": [(left, raw, width)]})
         for ln in cur:
             ln["parts"].sort()
             ln["left"] = ln["parts"][0][0]
+            ln["right"] = max(a + w for a, _, w in ln["parts"])
             runs: list = []
-            for _, raw in ln["parts"]:
+            for _, raw, _w in ln["parts"]:
                 runs += runs_of(raw)
             ln["runs"] = runs
         lines += cur
@@ -640,6 +657,7 @@ def merge_runs(runs: list[tuple[str, bool, bool]]) -> list[tuple[str, bool, bool
 def read_blocks(book: Book, first: int, last: int) -> list[Para]:
     """Paragraphs and titles of the PDF pages `first`..`last`, columns in reading order."""
     out: list[Para] = []
+    insets: dict[int, int | None] = {}
     for num in range(first, last + 1):
         if num not in book.pages:
             continue
@@ -647,12 +665,21 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
         for ln in page_lines(book, num):
             indent = ln["left"] - COL_LEFT[ln["col"]]
             if ln["size"] >= 16:
+                insets[ln["col"]] = ln["left"] if indent >= 8 else None
                 if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown:
                     out[-1].runs += [(" ", True, False)] + ln["runs"]
                 else:
-                    out.append(Para("title", list(ln["runs"]), shown, ln["col"]))
+                    out.append(Para("title", list(ln["runs"]), shown, ln["col"], ln["size"]))
                 continue
-            if not out or out[-1].kind == "title" or indent >= 8:
+            # a paragraph starts at an indent. A sidebar is an inset block that a title opens: inside it every line is
+            # indented, and only a deeper indent starts a paragraph
+            inset = insets.get(ln["col"])
+            if inset is not None and ln["left"] >= inset - 6:
+                starts = ln["left"] - inset >= 8
+            else:
+                insets[ln["col"]] = None
+                starts = indent >= 8
+            if not out or out[-1].kind == "title" or starts:
                 out.append(Para("para", list(ln["runs"]), shown, ln["col"]))
             else:
                 out[-1].runs.append((" ", False, False))
@@ -662,14 +689,33 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
     return out
 
 
-def find_section(blocks: list[Para], title: str) -> list[Para] | None:
+CLASS_TITLES = {squash(x) for x in (
+    "Alchemist", "Antipaladin", "Barbarian", "Bard", "Cavalier", "Cleric", "Druid", "Fighter", "Gunslinger", "Inquisitor",
+    "Magus", "Monk", "Oracle", "Paladin", "Ranger", "Rogue", "Sorcerer", "Summoner", "Witch", "Wizard", "Archetypes")}
+
+
+def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) -> list[Para] | None:
+    """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
+    title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
+    any kind ends it."""
     key = squash(title)
     for i, b in enumerate(blocks):
-        if b.kind == "title" and squash(b.plain()) == key:
+        # Ultimate Magic and Ultimate Combat print "REANIMATOR (ARCHETYPE)"
+        if b.kind == "title" and squash(b.plain()) in (key, key + "archetype"):
             j = i + 1
-            while j < len(blocks) and blocks[j].kind != "title":
+            out = [b]
+            while j < len(blocks):
+                nxt = blocks[j]
+                if nxt.kind == "title":
+                    k = squash(nxt.plain())
+                    # another archetype, a class, or a chapter title (a larger font) ends the section
+                    if stops is None or k in stops or k.endswith("archetype") or nxt.size >= 30:
+                        break
+                    out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
+                else:
+                    out.append(nxt)
                 j += 1
-            return blocks[i:j]
+            return out
     return None
 
 
@@ -682,19 +728,23 @@ class PrintFeature:
 
 
 def head_candidate(p: Para) -> tuple[str, list, bool] | None:
-    """The leading bold (or italic) run before the colon of a paragraph, and the rest of its runs."""
-    if not p.runs:
+    """The leading bold (or italic) run before the colon of a paragraph, and the rest of its runs. Blanks before
+    the head (a justified first line) do not count."""
+    runs = list(p.runs)
+    while runs and not runs[0][0].strip():
+        runs.pop(0)
+    if not runs:
         return None
-    first = p.runs[0]
+    first = runs[0]
     style = "bold" if first[1] else ("italic" if first[2] else "")
     if not style:
         return None
     i, head = 0, ""
-    while i < len(p.runs) and (p.runs[i][1] if style == "bold" else p.runs[i][2]):
-        head += p.runs[i][0]
+    while i < len(runs) and (runs[i][1] if style == "bold" else runs[i][2]):
+        head += runs[i][0]
         i += 1
     head = re.sub(r"\s+", " ", head).strip()
-    rest = p.runs[i:]
+    rest = runs[i:]
     if not head:
         return None
     return head, rest, style == "bold"
@@ -748,6 +798,7 @@ def trade_sentences(text: str) -> list[tuple[str, str, bool]]:
     ability, feature, power or archetype in its subject: the app counts it only when it names a stored trade."""
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[\\_*]", "", text)
+    text = re.sub(r"\s+", " ", text)        # a paragraph break inside a sentence (a column or page break) does not end it
     out = []
     for m in TRADE_SENTENCE.finditer(text):
         op = "replaces" if m.group(2).lower().startswith("replace") else "alters"
@@ -759,10 +810,26 @@ def trade_sentences(text: str) -> list[tuple[str, str, bool]]:
     return out
 
 
+ORDINAL_WORDS = {"first": "1st", "second": "2nd", "third": "3rd", "fourth": "4th", "fifth": "5th", "sixth": "6th",
+                 "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th"}
+CLASS_WORDS = {"alchemist", "barbarian", "bard", "cavalier", "cleric", "druid", "fighter", "gunslinger", "inquisitor",
+               "magus", "monk", "oracle", "paladin", "ranger", "rogue", "sorcerer", "summoner", "witch", "wizard", "both"}
+
+
 def phrase_tokens(text: str) -> list[str]:
+    """Words of a trade name or of a printed phrase, as the app reads them: no articles, no class names, ordinals as
+    digits, "gained at 4th level" as "4th-level", "1 to 4" as one range."""
     text = fold(text).replace("'s", "")
-    words = re.findall(r"[a-z0-9]+", text)
-    return [stem(w) for w in words if w not in ("the", "a", "an", "standard", "ability", "feature", "class")]
+    text = re.sub(r"(\d+)\s*(?:to|-|through)\s*(\d+)\b", r"\1-\2", text)
+    text = re.sub(r"\b(\w+) gained at (\d+(?:st|nd|rd|th)) levels?\b", r"\2-level \1", text)
+    words = re.findall(r"[a-z0-9]+(?:-[a-z0-9]+)*", text)
+    out = []
+    for w in words:
+        w = ORDINAL_WORDS.get(w, w)
+        if w in ("the", "a", "an", "standard", "ability", "feature", "class") or w in CLASS_WORDS:
+            continue
+        out.extend(stem(x) for x in (w.split("-") if re.fullmatch(r"\d+-\d+", w) is None else [w]))
+    return out
 
 
 def covers(phrase: str, trade_name: str) -> bool:
@@ -859,7 +926,8 @@ CORPUS_FRACTION = re.compile(
     r"(?:equal to\s+(?:a\s+)?)?(?:(\d+)\s*\+\s*)?(one-half|half|one-third|one-fourth|one-fifth|one-sixth|one-eighth)\s+"
     r"(?:of\s+)?(?:her|his|its|their|the)\s+(?:[\w-]+\s+){0,2}?levels?(?:\s*\((?:minimum|min\.?)\s*\+?(\d+)\))?", re.I)
 PRINT_PROGRESSION = re.compile(
-    r"increases?\s+by\s+\+?(\d+)[^.]*?(?:every|for every|per)\s+(\w+)\s+levels?\s+(?:after|beyond|above)\s+(\d+)(?:st|nd|rd|th)", re.I)
+    r"(?:increases?|improves?|rises?|grows?)\s+by\s+\+?(\d+)[^.]*?(?:every|for every|per)\s+(\w+)\s+levels?\s+(?:after|beyond|above)\s+(\d+)(?:st|nd|rd|th)", re.I)
+PRINT_MAXIMUM = re.compile(r"maximum\s+(?:bonus\s+)?of\s+\+?(\d+)(?:[^.]*?\bat\s+(\d+)(?:st|nd|rd|th)\s+level)?", re.I)
 
 # Features where the owner ruled that print wins over a corpus value that the expansion shows to differ
 # (ruling 8 of 2026-11-24 on phynics/cast-iron-data#306).
@@ -887,12 +955,21 @@ def expand_rules(print_text: str, corpus_text: str) -> tuple[str, list[str]] | N
         return None
     b, s_, n, k = int(first.group(1)), int(pm.group(1)), int(step), int(pm.group(3))
     start = max(k, lead_level(print_text) or k)
+    mx = PRINT_MAXIMUM.search(print_text)
+    cap = int(mx.group(1)) if mx else None
     for level in range(start, 21):
         printed = b + s_ * ((level - k) // n)
+        if cap is not None:
+            printed = min(printed, cap)
         stored = max(base_c + level * num // den, minimum)
+        if cap is not None:
+            stored = min(stored, cap)
         if printed != stored:
             return "differ", [f"at level {level} print gives +{printed}, the corpus {stored}"]
-    return "equal", [f"+{b}", f"+{s_}", str(k), str(n)]
+    forget = [f"+{b}", f"+{s_}", str(k), str(n)]
+    if mx:
+        forget += [f"+{cap}", str(cap), "maximum"] + ([mx.group(2)] if mx.group(2) else [])
+    return "equal", forget
 
 
 def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens: set[str]) -> Compare:
@@ -1081,7 +1158,7 @@ def trade_name(t: dict) -> tuple[str, str]:
 
 
 DECISION_HEADER = ["entry", "anchor", "decision", "note"]
-DECISIONS = ("print", "drop", "to-opening")
+DECISIONS = ("print", "drop", "to-opening", "hold")
 
 
 def decisions_path(corpus: Path, book: str) -> Path:
@@ -1239,6 +1316,10 @@ def publication_title(corpus: Path, book: str) -> str:
 # Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
 # entry, the printed words, the words written, and why. The review table's note records each fix.
 MISPRINTS = [
+    ("ref/arc-inquisitor/infiltrator", "such as _detect lies_", "such as discern lies",
+     "there is no detect lies spell in Pathfinder; the same entry's trade sentence says \"replaces discern lies\""),
+    ("ref/arc-wizard/scrollmaster", "masterwork light shield sword", "masterwork light shield", "a stray word; the scroll shield is a light shield"),
+    ("ref/arc-alchemist/internal-alchemist", "Lighting Reflexes", "Lightning Reflexes", "the feat is Lightning Reflexes"),
     ("ref/arc-barbarian/elemental-kin", "at at 18th level", "at 18th level", "a doubled word"),
     ("ref/arc-druid/cave-druid", "A underground druid", "A cave druid",
      "every other feature of the entry says \"a cave druid\"; \"underground druid\" names nothing"),
@@ -1286,10 +1367,46 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
             notes.append(f"misprint fixed: print has \"{wrong}\", written \"{right}\" ({why})")
     # a page reference of the book ("Pathfinder RPG Core Rulebook page 469"): the corpus links instead
     text = re.sub(r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)", "", text)
+    # a cross-reference of the book ("(see page 83)", "(see Advanced Player's Guide page 54)"): the corpus links instead
+    xref = re.sub(r"\s*\((?:[Ss]ee)\b[^()]*\)", "", text)
+    xref = re.sub(r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+                  r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+                  r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?\)", "", xref)
+    xref = re.sub(r"\s*\((?=[^()]{0,70}\))[^()]*\bpage\s*\d+[^()]*\)", "", xref)     # a short one only: a long one has text
+    if xref != text:
+        notes.append("printed cross-reference left out")
+        text = xref
+    # the key of print's asterisks ("An asterisk (*) indicates ...", "* Indicates a new feat in this book."): print apparatus
+    keyless = re.sub(r"(?:^|\n\n)(?:An asterisk \(\\\*\)|\\\*) [Ii]ndicates[^\n]*", "", text)
+    if keyless != text:
+        notes.append("print's asterisk key left out")
+        text = keyless.strip()
+    text = balance_marks(text)
     lost: list[str] = []
     if links:
         text, lost = apply_links(text, links)
     return render_marks(text), lost, notes
+
+
+def balance_marks(s: str) -> str:
+    """Drops an italic mark that has no partner (a cut that took the text between two marks)."""
+    out, depth, opened = [], 0, []
+    for ch in s:
+        if ch == I_OPEN:
+            depth += 1
+            opened.append(len(out))
+            out.append(ch)
+        elif ch == I_CLOSE:
+            if depth == 0:
+                continue
+            depth -= 1
+            opened.pop()
+            out.append(ch)
+        else:
+            out.append(ch)
+    for i in reversed(opened):
+        del out[i]
+    return "".join(out)
 
 
 def head_text(head: str) -> str:
@@ -1330,6 +1447,14 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
             used.add(idx)
             last = idx
         matched.append(idx)
+    # a head that print sets in another order than the import (a sidebar before a list) matches wherever it stands
+    for n, pf in enumerate(pfeats):
+        if matched[n] is None:
+            key = namekey(pf.head)
+            idx = next((i for i in range(len(feats)) if i not in used and namekey(feats[i].name) == key), None)
+            if idx is not None:
+                used.add(idx)
+                matched[n] = idx
     problems: list[str] = []
     lost_heads = [feats[i].name for i in range(len(feats)) if i not in used]
     if lost_heads:
@@ -1449,6 +1574,14 @@ TRADE_RENAMES = {
 }
 
 
+# A stored trade whose op print contradicts (data fix; the TSV note records it): the entry, the printed name,
+# the op that print says. Reanimator (Ultimate Magic p. 20): "functions as and replaces the standard alchemist
+# bomb class feature", stored as `alters`.
+TRADE_OP_FIXES = {
+    ("ref/arc-alchemist/reanimator", "Bombs"): "replaces",
+}
+
+
 # A trade that print states in a trade sentence and that the entry does not store (data fix inside the
 # pilot's book; the TSV note records it). The other four shaman archetypes store `Venom immunity`.
 TRADE_ADDITIONS = {
@@ -1483,7 +1616,11 @@ def effective_trades_origin(e: Entry) -> list[tuple[dict, int | None]]:
             continue
         op, name = trade_name(t)
         new = TRADE_RENAMES.get((e.id, name))
-        out.append((dict(t, **{op: new}) if new else t, i))
+        t2 = dict(t, **{op: new}) if new else t
+        fixed = TRADE_OP_FIXES.get((e.id, name))
+        if fixed and fixed != op:
+            t2 = {("replaces" if fixed == "replaces" else "alters") if k == op else k: v for k, v in t2.items()}
+        out.append((t2, i))
     return out + [(dict(t), None) for t in TRADE_ADDITIONS.get(e.id, [])]
 
 
@@ -1578,6 +1715,9 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             if kind == "to-opening":
                 opening_from_print = True
                 opening = [apply_links(o, res.get("opening_links", []))[0] for o in res["opening"]]
+        elif kind == "hold":
+            r["status"] = "hold"
+            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor"))]
         elif kind == "print" and r["status"] == "hold":
             r["status"] = "print"
             r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling", "trade"))]
@@ -1617,7 +1757,10 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         old = trades_of(e)[origin]
         if old != t:
             anchors = by.get(i) or [rows[0]["anchor"]]
-            note = f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
+            if trade_name(old)[0] != trade_name(t)[0]:
+                note = f'trade op fixed: stored as {trade_name(old)[0]} "{trade_name(old)[1]}", print says {trade_name(t)[0]}'
+            else:
+                note = f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
             next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
     for origin in sorted(dropped_trade_indices(e)):
         old = trades_of(e)[origin]
@@ -1667,6 +1810,8 @@ def run_compare(args) -> int:
     old_rows = read_tsv(tsv_path(corpus, book))
     old_props = read_proposals(proposals_path(corpus, book))
     decisions = read_decisions(corpus, book)
+    stops = {squash(x.title) for x in entries} | CLASS_TITLES
+    whole = None
     done = {e.id for e in entries if e.converted}
     redo = {e.id for e in entries if not e.converted}
     rows: list[dict] = [r for r in old_rows if r["entry"] in done or r["entry"] not in redo]
@@ -1675,18 +1820,27 @@ def run_compare(args) -> int:
         if e.converted:
             continue
         page = int(e.page) if e.page.isdigit() else None
-        if page is None:
-            rows.append(entry_hold_row(e, "no page cited"))
-            continue
         top = max(bk.pages)
-        blocks = read_blocks(bk, max(1, page + 1 - 3), min(page + 1 + 4, top))
-        section = find_section(blocks, e.title)
+        if page is None:
+            # no page cited: the title must occur once in the book
+            if whole is None:
+                whole = read_blocks(bk, 1, top)
+            hits = [b for b in whole if b.kind == "title" and squash(b.plain()) in (squash(e.title), squash(e.title) + "archetype")]
+            if len(hits) != 1:
+                rows.append(entry_hold_row(e, f"no page cited, and the title is printed {len(hits)} times"))
+                continue
+            section = find_section(whole, e.title, stops)
+        else:
+            blocks = read_blocks(bk, max(1, page + 1 - 3), min(page + 1 + 4, top))
+            section = find_section(blocks, e.title, stops)
         if section is None:
             rows.append(entry_hold_row(e, f"title not found near page {page}"))
             continue
         res = compare_entry(e, section, bk)
         res["decisions"] = decisions
         fin = finalize(e, res)
+        if book in PRINTINGS and fin["rows"]:
+            fin["rows"][0]["notes"].append(f"print: {PRINTINGS[book]}")
         old = {(r["entry"], r["anchor"]): r for r in old_rows if r["entry"] == e.id}
         entry_rows, entry_props = rows_of(e, fin, old, old_props.get(e.id))
         rows += entry_rows
@@ -1738,6 +1892,8 @@ def rows_of(e: Entry, fin: dict, old: dict, old_props: dict | None) -> tuple[lis
         rows.append({"entry": e.id, "feature": r["head"], "anchor": r["anchor"], "listed": "no", "level": "", "source": "",
                      "status": "print", "note": "; ".join(r["notes"]), "page": r["page"], "span_sha256": r["span"],
                      "_n": 1000 + len(rows)})
+    if not hold:
+        hold = next((r["note"] for r in rows if r["status"] == "hold" and r["note"].startswith("checker:")), "")
     prop = {"id": e.id, "hold": hold, "opening": fin["opening"], "feature": feats}
     if fin.get("opening_from_print"):
         prop["opening_from_print"] = True
@@ -1842,6 +1998,10 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     for (eid, old), new in TRADE_RENAMES.items():
         if eid == e.id:
             front = front.replace(f'"{old}"', f'"{new}"', 1)
+    for (eid, name), op in TRADE_OP_FIXES.items():
+        if eid == e.id:
+            other = "alters" if op == "replaces" else "replaces"
+            front = front.replace(f'{other} = "{name}"', f'{op} = "{name}"', 1)
     return "+++\n" + front + "\n+++\n\n" + "\n\n".join(parts) + "\n"
 
 
@@ -1901,7 +2061,9 @@ def recheck(corpus: Path, args, written: list[Entry], originals: dict[Path, str]
     """Runs the checker on the written corpus; puts back each entry that it rejects and holds it."""
     fmt = subprocess.run([args.checker, "fmt", str(corpus)], capture_output=True, text=True)
     if fmt.returncode != 0:
-        raise SystemExit("fmt failed:\n" + fmt.stderr[-2000:])
+        for path, text in originals.items():      # leave the corpus as it was
+            path.write_text(text, encoding="utf-8")
+        raise SystemExit("fmt failed; every entry of this run is put back:\n" + fmt.stderr[-2000:])
     for _ in range(5):
         r = subprocess.run([args.checker, "check", str(corpus)], capture_output=True, text=True)
         if r.returncode == 0:
@@ -2092,6 +2254,7 @@ def self_test() -> int:
     # words that matter are not ignored; words that do not are
     eq(len(tokens("any all each both either neither")), 6, "quantifiers are rule words")
     eq(tokens("the she its but gains however"), [], "articles, pronouns and connectives are ignored")
+    eq(balance_marks(f"a {I_OPEN}b{I_CLOSE} c d{I_CLOSE} e {I_OPEN}f"), f"a {I_OPEN}b{I_CLOSE} c d e f", "an italic mark without a partner is dropped")
     # an opening note that print does not have
     eq(unprinted_notes([["Intro text."], ["> _**Note:** This is a rogue archetype, and has no relation to the class."]], ["Intro text."]), [1], "an unprinted note")
     eq(unprinted_notes([["> kept words here and more"]], ["kept words here and more"]), [], "a printed note stays")
