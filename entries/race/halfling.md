@@ -3,7 +3,7 @@ id = "ref/race/halfling"
 kind = "race"
 title = "Halfling"
 aon = "RacesDisplay.aspx?ItemName=Halfling"
-source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide", "halflings-of-golarion", "advanced-class-guide", "occult-adventures"]
+source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide", "halflings-of-golarion"]
 race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling", path = "json/races2.json" },
@@ -28,6 +28,12 @@ via = "ref/class/vigilante"
 publication = "ultimate-wilderness"
 page = "31"
 via = "ref/class/shifter"
+[[expanded_in]]
+publication = "advanced-class-guide"
+page = "70"
+[[expanded_in]]
+publication = "occult-adventures"
+page = "85"
 
 [fields]
 kind = "none"

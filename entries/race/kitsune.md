@@ -3,7 +3,7 @@ id = "ref/race/kitsune"
 kind = "race"
 title = "Kitsune"
 aon = "RacesDisplay.aspx?ItemName=Kitsune"
-source_ids = ["inner-sea-races", "bestiary-4", "advanced-race-guide", "dragon-empires-gazetteer", "dragon-empires-primer", "wilderness-origins"]
+source_ids = ["inner-sea-races", "bestiary-4", "advanced-race-guide", "dragon-empires-gazetteer", "dragon-empires-primer"]
 race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune", path = "json/races2.json" },
@@ -23,6 +23,9 @@ page = "11"
 [[sources]]
 publication = "dragon-empires-primer"
 page = "4"
+[[expanded_in]]
+publication = "wilderness-origins"
+page = "8"
 
 [fields]
 kind = "none"

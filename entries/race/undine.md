@@ -3,7 +3,7 @@ id = "ref/race/undine"
 kind = "race"
 title = "Undine"
 aon = "RacesDisplay.aspx?ItemName=Undine"
-source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2", "wilderness-origins"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2"]
 race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undine", path = "json/races4.json" },
@@ -17,6 +17,9 @@ page = "174"
 [[sources]]
 publication = "bestiary-2"
 page = "275"
+[[expanded_in]]
+publication = "wilderness-origins"
+page = "8"
 
 [fields]
 kind = "none"

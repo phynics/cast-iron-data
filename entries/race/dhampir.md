@@ -3,7 +3,7 @@ id = "ref/race/dhampir"
 kind = "race"
 title = "Dhampir"
 aon = "RacesDisplay.aspx?ItemName=Dhampir"
-source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2", "wilderness-origins"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2"]
 race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dhampir", path = "json/races.json" },
@@ -17,6 +17,9 @@ page = "96"
 [[sources]]
 publication = "bestiary-2"
 page = "89"
+[[expanded_in]]
+publication = "wilderness-origins"
+page = "8"
 
 [fields]
 kind = "none"

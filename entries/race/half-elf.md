@@ -3,7 +3,7 @@ id = "ref/race/half-elf"
 kind = "race"
 title = "Half-Elf"
 aon = "RacesDisplay.aspx?ItemName=Half-Elf"
-source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide", "advanced-class-guide", "occult-adventures"]
+source_ids = ["core-rulebook", "inner-sea-races", "advanced-race-guide"]
 race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_elf", path = "json/races3.json" },
@@ -25,6 +25,12 @@ via = "ref/class/vigilante"
 publication = "ultimate-wilderness"
 page = "31"
 via = "ref/class/shifter"
+[[expanded_in]]
+publication = "advanced-class-guide"
+page = "70"
+[[expanded_in]]
+publication = "occult-adventures"
+page = "85"
 
 [fields]
 kind = "none"

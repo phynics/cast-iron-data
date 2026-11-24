@@ -3,7 +3,7 @@ id = "ref/race/grippli"
 kind = "race"
 title = "Grippli"
 aon = "RacesDisplay.aspx?ItemName=Grippli"
-source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2", "wilderness-origins"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2"]
 race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grippli", path = "json/races3.json" },
@@ -17,6 +17,9 @@ page = "190"
 [[sources]]
 publication = "bestiary-2"
 page = "149"
+[[expanded_in]]
+publication = "wilderness-origins"
+page = "8"
 
 [fields]
 kind = "none"
