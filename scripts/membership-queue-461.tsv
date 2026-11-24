@@ -288,7 +288,7 @@ advanced-race-guide	ref/class/cleric	class	Cleric	3	9	family-leak	printed		none	
 advanced-race-guide	ref/class/druid	class	Druid	4	12	family-leak	printed		none	40	9,13,19,23,25	child	ref/rule/class-druid/druid(title)					remove	13	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/fighter	class	Fighter	6	10	family-leak	printed		none	38	9,11,13,14,18	child	ref/rule/class-fighter/fighter(title)					remove	13	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/monk	class	Monk	5	9	family-leak	printed		none	37	9,13,23,33,43	child	ref/rule/class-monk/monk(title)					remove	13	class-options-only	class-hub	done			yes			
-advanced-race-guide	ref/class/paladin	class	Paladin	4	12	family-leak	printed		none	31	4,9,13,16,17	child	ref/rule/class-paladin/paladin(title)								class-hub	S7		yes	yes			
+advanced-race-guide	ref/class/paladin	class	Paladin	4	12	family-leak	printed		none	31	4,9,13,16,17	child	ref/rule/class-paladin/paladin(title)					remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/class/ranger	class	Ranger	6	12	family-leak	printed		none	40	9,13,19,21,23	child	ref/rule/class-ranger/ranger(title)					remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/class/rogue	class	Rogue	4	14	family-leak	printed		none	40	9,12,13,23,33	child	ref/rule/class-rogue/rogue(title)					remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/class/sorcerer	class	Sorcerer	3	11	family-leak	printed		none	40	9,13,23,24,29	child	ref/rule/class-sorcerer/sorcerer(title)					remove	13	class-options-only	class-hub	done		yes	yes			
@@ -611,7 +611,7 @@ blood-of-shadows	ref/class/cleric	class	Cleric	6	9	family-leak	printed		none	10	
 blood-of-shadows	ref/class/druid	class	Druid	5	12	family-leak	printed		none	6	7,11,15,16,29	child	ref/rule/class-druid/druid(title)					remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/fighter	class	Fighter	8	10	family-leak	printed		none	3	7,11,25	child	ref/rule/class-fighter/fighter(title)					remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/monk	class	Monk	6	9	family-leak	printed		none	2	7,11	child	ref/rule/class-monk/monk(title)					remove	7	class-options-only	class-hub	done			yes			
-blood-of-shadows	ref/class/paladin	class	Paladin	5	12	family-leak	printed		none	6	3,7,11,15,18	child	ref/rule/class-paladin/paladin(title)								class-hub	S7		yes	yes			
+blood-of-shadows	ref/class/paladin	class	Paladin	5	12	family-leak	printed		none	6	3,7,11,15,18	child	ref/rule/class-paladin/paladin(title)					remove	7	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/ranger	class	Ranger	7	12	family-leak	printed		none	3	11,15,16	child	ref/rule/class-ranger/ranger(title)					remove	11	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/rogue	class	Rogue	12	14	family-leak	printed		none	7	3,7,8,9,11	child	ref/rule/class-rogue/rogue(title)					remove	7	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/wizard	class	Wizard	4	11	family-leak	printed		none	9	11,12,15,16,28	child	ref/rule/class-wizard/wizard(title)					remove	11	class-options-only	class-hub	done		yes	yes			
@@ -724,7 +724,7 @@ blood-of-the-beast	ref/class/cleric	class	Cleric	8	9	family-leak	printed		none	7
 blood-of-the-beast	ref/class/druid	class	Druid	11	12	family-leak	printed		none	9	3,7,8,11,18	child	ref/rule/class-druid/druid(title)					remove	21	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/fighter	class	Fighter	10	10	family-leak	printed		none	5	3,12,20,29,31	child	ref/rule/class-fighter/fighter(title)					remove	12	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/monk	class	Monk	3	9	family-leak	printed		none	7	3,4,13,28,29	child	ref/rule/class-monk/monk(title)					remove	4	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/class/paladin	class	Paladin	6	12	family-leak	printed		none	2	8,16	child	ref/rule/class-paladin/paladin(title)								class-hub	S7		yes	yes			
+blood-of-the-beast	ref/class/paladin	class	Paladin	6	12	family-leak	printed		none	2	8,16	child	ref/rule/class-paladin/paladin(title)					remove	16	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/ranger	class	Ranger	12	12	family-leak	printed		none	7	3,7,9,10,11	child	ref/rule/class-ranger/ranger(title)					remove	9	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/rogue	class	Rogue	10	14	family-leak	printed		none	7	6,7,10,20,26	child	ref/rule/class-rogue/rogue(title)					remove	6	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/sorcerer	class	Sorcerer	4	11	family-leak	printed		none	10	3,7,12,13,14	child	ref/rule/class-sorcerer/sorcerer(title)					remove	13	class-options-only	class-hub	done		yes	yes			
@@ -841,7 +841,7 @@ chronicle-of-legends	ref/class/cleric	class	Cleric	2	9	family-leak	printed		none
 chronicle-of-legends	ref/class/druid	class	Druid	2	12	family-leak	printed		none	4	14,22,26,28	child	ref/rule/class-druid/druid(title)					cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/fighter	class	Fighter	2	10	family-leak	printed		none	3	10,28,31	child	ref/rule/class-fighter/fighter(title)					cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/monk	class	Monk	2	9	family-leak	printed		none	3	27,29,31	child	ref/rule/class-monk/monk(title)					cite	28-29	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/class/paladin	class	Paladin	7	12	family-leak	printed		none	3	2,25,29	child	ref/rule/class-paladin/paladin(title)								class-hub	S7		yes	yes	yes		
+chronicle-of-legends	ref/class/paladin	class	Paladin	7	12	family-leak	printed		none	3	2,25,29	child	ref/rule/class-paladin/paladin(title)					cite	28-29	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/ranger	class	Ranger	2	12	family-leak	printed		none	2	22,29	child	ref/rule/class-ranger/ranger(title)					cite	28-29	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/sorcerer	class	Sorcerer	5	11	family-leak	printed		none	2	14,30	child	ref/rule/class-sorcerer/sorcerer(title)					cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/wizard	class	Wizard	7	11	family-leak	printed		none	8	6,14,20,24,28	child	ref/rule/class-wizard/wizard(title)					cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
@@ -1261,7 +1261,7 @@ heroes-of-golarion	ref/rule/marshal-2-1	rule	1st-Tier Marshal Path Abilities	3	3
 heroes-of-golarion	ref/rule/trickster-1	rule	1st-Tier Trickster Path Abilities	3	3	review	absent	30	row	0								keep	30	section-printed	link-only-hub	done			yes		no	
 heroes-of-golarion	ref/rule/upa-1	rule	1st-Tier Universal Path Abilities	6	6	review	absent	31	row	0								keep	31	section-printed	link-only-hub	done			yes		no	
 heroes-of-golarion	ref/class/magus	class	Magus	10	10	weak	weak		none	1	6							remove	6	class-options-only	class-hub	done			yes			
-heroes-of-golarion	ref/class/paladin	class	Paladin	8	12	weak	weak		none	1	6										class-hub	S7		yes	yes			
+heroes-of-golarion	ref/class/paladin	class	Paladin	8	12	weak	weak		none	1	6							remove	6	class-options-only	class-hub	done		yes	yes			
 heroes-of-golarion	ref/rule/class-paladin/paladin	rule	Paladin	8	12	weak	weak		none	1	6			yes							class-hub	S8		yes	yes			
 heroes-of-the-high-court	ref/race/dwarf	race	Dwarf	13	17	family-leak	printed		none	2	14,24	child	ref/racial-trait/dwarf/hardy(body),ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)								race-hub	S9		yes	yes			
 heroes-of-the-high-court	ref/race/elf	race	Elf	12	17	family-leak	printed		none	2	14,15	child	ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
@@ -1494,7 +1494,7 @@ horror-adventures	ref/class/cleric	class	Cleric	7	9	family-leak	printed		none	38
 horror-adventures	ref/class/druid	class	Druid	9	12	family-leak	printed		none	18	3,39,44,50,51	child	ref/rule/class-druid/druid(title)					remove	50	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/fighter	class	Fighter	9	10	family-leak	printed		none	5	40,44,81,163,234	child	ref/rule/class-fighter/fighter(title)					remove	40	class-options-only	class-hub	done			yes			
 horror-adventures	ref/class/monk	class	Monk	9	9	family-leak	printed		none	5	41,81,88,89,179	child	ref/rule/class-monk/monk(title)					remove	41	class-options-only	class-hub	done			yes			
-horror-adventures	ref/class/paladin	class	Paladin	9	12	family-leak	printed		none	19	3,5,38,44,56	child	ref/rule/class-paladin/paladin(title)								class-hub	S7		yes	yes			
+horror-adventures	ref/class/paladin	class	Paladin	9	12	family-leak	printed		none	19	3,5,38,44,56	child	ref/rule/class-paladin/paladin(title)					remove	38	class-options-only	class-hub	done		yes	yes			
 horror-adventures	ref/class/ranger	class	Ranger	11	12	family-leak	printed		none	16	33,38,39,40,60	child	ref/rule/class-ranger/ranger(title)					remove	40	class-options-only	class-hub	done		yes	yes			
 horror-adventures	ref/class/rogue	class	Rogue	8	14	family-leak	printed		none	5	39,44,66,82,240	child	ref/rule/class-rogue/rogue(title)					remove	39	class-options-only	class-hub	done		yes	yes			
 horror-adventures	ref/class/sorcerer	class	Sorcerer	7	11	family-leak	printed		none	31	22,27,35,39,59	child	ref/rule/class-sorcerer/sorcerer(title)					remove	39	class-options-only	class-hub	done		yes	yes			
@@ -1638,11 +1638,11 @@ kobolds-of-golarion	ref/class/wizard	class	Wizard	10	11	family-leak	printed		non
 kobolds-of-golarion	ref/rule/class-wizard/wizard	rule	Wizard	10	11	family-leak	printed		none	4	15,26,27,32	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 kobolds-of-golarion	ref/class/barbarian	class	Barbarian	8	10	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done			yes			
 kobolds-of-golarion	ref/class/inquisitor	class	Inquisitor	8	8	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done			yes			
-kobolds-of-golarion	ref/class/paladin	class	Paladin	10	12	weak	weak		none	1	15										class-hub	S7		yes	yes			
+kobolds-of-golarion	ref/class/paladin	class	Paladin	10	12	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done		yes	yes			
 kobolds-of-golarion	ref/rule/class-barbarian/barbarian	rule	Barbarian	8	10	weak	weak		none	1	15			yes							class-hub	S8		yes	yes			
 kobolds-of-golarion	ref/rule/class-paladin/paladin	rule	Paladin	10	12	weak	weak		none	1	15			yes							class-hub	S8		yes	yes			
 lands-of-conflict	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	6	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-legacy-of-dragons	ref/class/paladin	class	Paladin	11	12	family-leak	printed		none	5	3,18,25,28,31	child	ref/rule/class-paladin/paladin(title)								class-hub	S7		yes	yes			
+legacy-of-dragons	ref/class/paladin	class	Paladin	11	12	family-leak	printed		none	5	3,18,25,28,31	child	ref/rule/class-paladin/paladin(title)					remove	18	class-options-only	class-hub	done		yes	yes			
 legacy-of-dragons	ref/class/sorcerer	class	Sorcerer	8	11	family-leak	printed		none	15	0,2,3,4,5	child	ref/rule/class-sorcerer/sorcerer(title)					remove	4	class-options-only	class-hub	done		yes	yes			
 legacy-of-dragons	ref/race/dwarf	race	Dwarf	12	17	family-leak	printed		none	2	6,10	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/greed(title),ref/racial-trait/dwarf/languages(title)								race-hub	S9		yes	yes			
 legacy-of-dragons	ref/race/elf	race	Elf	10	17	family-leak	printed		none	2	10,11	child	ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
@@ -2128,7 +2128,7 @@ plane-hoppers-handbook	ref/class/cleric	class	Cleric	4	9	family-leak	printed		no
 plane-hoppers-handbook	ref/class/druid	class	Druid	6	12	family-leak	printed		none	5	10,12,19,26,30	child	ref/rule/class-druid/druid(title)					remove	19	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/fighter	class	Fighter	3	10	family-leak	printed		none	3	10,15,17	child	ref/rule/class-fighter/fighter(title)					remove	15	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/monk	class	Monk	4	9	family-leak	printed		none	2	9,17	child	ref/rule/class-monk/monk(title)					remove	17	class-options-only	class-hub	done			yes			
-plane-hoppers-handbook	ref/class/paladin	class	Paladin	12	12	family-leak	printed		none	9	3,7,10,12,13	child	ref/rule/class-paladin/paladin(title)								class-hub	S7		yes	yes			
+plane-hoppers-handbook	ref/class/paladin	class	Paladin	12	12	family-leak	printed		none	9	3,7,10,12,13	child	ref/rule/class-paladin/paladin(title)					remove	17	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/class/ranger	class	Ranger	3	12	family-leak	printed		none	4	12,15,17,23	child	ref/rule/class-ranger/ranger(title)					remove	15	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/class/rogue	class	Rogue	3	14	family-leak	printed		none	6	5,9,10,15,17	child	ref/rule/class-rogue/rogue(title)					remove	15	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/class/sorcerer	class	Sorcerer	10	11	family-leak	printed		none	9	12,13,19,20,21	child	ref/rule/class-sorcerer/sorcerer(title)					remove	19	class-options-only	class-hub	done		yes	yes			
