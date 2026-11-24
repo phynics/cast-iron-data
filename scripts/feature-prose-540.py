@@ -165,8 +165,8 @@ IGNORED = set(
     """a an the this that these those such is are be been being was were am do does did has have had having
     it its itself he she his her him hers they their them themselves you your yours i also following then
     there here which who whom whose what where when while per of to in on at for with by from as into than
-    so up out over can may will would could should one's ones one each any all both either neither other
-    another its who s and level ability feature addition str dex con int wis cha""".split()
+    so up out over can may will would could should one's ones other another its who s and level ability
+    feature addition str dex con int wis cha however moreover furthermore thus therefore but gain""".split()
 )
 NUMBER_TOKEN = re.compile(r"^[+\-]?\d[\d/,.]*$")
 TOKEN = re.compile(r"[+\-]?[a-z0-9]+(?:[-'/][a-z0-9]+)*", re.I)
@@ -177,6 +177,8 @@ def stem(word: str) -> str:
         return word[:-3] + "y"
     if len(word) > 4 and word.endswith(("sses", "xes", "zes", "ches", "shes")):
         return word[:-2]
+    if len(word) > 6 and word.endswith("uses"):
+        return word[:-3]                                  # bonuses -> bonu, like bonus -> bonu
     if len(word) > 3 and word.endswith("s") and not word.endswith("ss"):
         return word[:-1]
     return word
@@ -339,6 +341,8 @@ class Draft:
     usage: list[str]
     level: int | None                           # the level of the Gained row
     inexpressible: list[str]                    # why the draft cannot be built without guessing
+    parts: list[str] = field(default_factory=list)   # the paragraphs of the corpus text (no leads, no upgrade rows)
+    action_labelled: bool = False               # an action label (`**Swift:**`) made a phrase that print may not have
 
 
 def build_draft(feat: ImportFeature) -> Draft:
@@ -349,6 +353,7 @@ def build_draft(feat: ImportFeature) -> Draft:
     upgrades: list[tuple[int, str]] = []
     usage: list[str] = []
     bad: list[str] = []
+    labelled = False
     for it in feat.items:
         lab = it.label
         if lab == "Gained":
@@ -360,11 +365,13 @@ def build_draft(feat: ImportFeature) -> Draft:
         elif lab in EFFECT_LABELS:
             effect.append(it.content)
         elif lab in ACTION_LABELS:
+            labelled = True
             effect.append(f"as a {ACTION_LABELS[lab]} action, " + lower_first(it.content))
         elif lab == "Action":
             v = ACTION_VALUES.get(it.content.strip().rstrip(".").lower())
             if v:
                 action = v
+                labelled = True
             else:
                 bad.append(f"Action: {it.content}")
         elif lab in ("Replaces", "Alters"):
@@ -400,7 +407,7 @@ def build_draft(feat: ImportFeature) -> Draft:
     parts += effect + rest
     core = " ".join(parts)
     full = core + "".join(f" At {ordinal(n)} level, {lower_first(t)}" for n, t in sorted(upgrades))
-    return Draft(full, core, sorted(upgrades), usage, level, bad)
+    return Draft(full, core, sorted(upgrades), usage, level, bad, [x for x in effect + rest], labelled)
 
 
 # ---- links and italics carried over from the import --------------------------------------------------
@@ -409,32 +416,31 @@ LINK = re.compile(r"(_?)\[([^\]]+)\]\(([^)]+)\)(_?)")
 
 
 def old_links(feat: ImportFeature) -> list[tuple[str, str]]:
+    """Every link of the import text, once for each occurrence (a word that the import links twice is
+    placed twice)."""
     text = "\n".join(it.content for it in feat.items) + "\n" + feat.name
-    out, seen = [], set()
-    for m in LINK.finditer(text):
-        key = (m.group(2), m.group(3))
-        if key not in seen:
-            seen.add(key)
-            out.append(key)
-    return out
+    return [(m.group(2), m.group(3)) for m in LINK.finditer(text)]
 
 
 I_OPEN, I_CLOSE = "\x01", "\x02"
+LINK_SPAN = re.compile(r"(?<!\\)\[[^\[\]]*\]\([^()\s]*\)")
 
 
 def apply_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]]:
-    """Wrap the first whole-word occurrence of each old link text (italic marks in the text are
-    skipped over). Returns the text and the link texts that found no place."""
+    """Wrap the first whole-word occurrence of each old link text that is not inside a link already.
+    The spans of the links already placed are found by their own shape (`[label](target)`, a target
+    holds no parenthesis), so printed parentheses and brackets do not fool the test. Returns the text
+    and the link texts that found no place."""
     lost = []
     for label, target in links:
         words = [re.escape(w) for w in label.replace("\\", "").split()]
         if not words:
             continue
         pat = re.compile(r"(?<![\w\[])" + r"\s+".join(words) + r"(?![\w\]])", re.I)
+        spans = [(m.start(), m.end()) for m in LINK_SPAN.finditer(text)]
         done = False
         for m in pat.finditer(text):
-            before = text[: m.start()]
-            if before.count("](") > before.count(")") or re.search(r"\[[^\]]*$", before):
+            if any(a <= m.start() < b for a, b in spans):
                 continue
             text = text[: m.start()] + f"[{m.group(0)}]({target})" + text[m.end():]
             done = True
@@ -840,33 +846,61 @@ def progression_levels(text: str) -> set[int] | None:
 @dataclass
 class Compare:
     status: str                  # print | draft | hold
-    notes: list[str]
+    notes: list[str]             # for a hold: why; otherwise what the comparison did
     level_print: int | None
 
 
-def strip_level_phrase(text: str, level: int | None) -> str:
-    """Drops "of 18th level or higher" and the like for the level that the import's Gained row gives: the
-    import wrote it as a lead, print words it inside the sentence."""
-    if level is None:
-        return text
-    o = ordinal(level)
-    return re.sub(rf"\b(?:of\s+|at\s+|starting at\s+|beginning at\s+|reaching\s+|upon reaching\s+)?{o}[\s-]level(?:\s+or\s+(?:higher|above))?", " ", text, flags=re.I)
+ACTION_TOKENS = {"standard", "move", "swift", "immediate", "free", "full-round", "action"}
+FRACTIONS = {"half": (1, 2), "one-half": (1, 2), "one-third": (1, 3), "one-fourth": (1, 4), "one-fifth": (1, 5),
+             "one-sixth": (1, 6), "one-eighth": (1, 8)}
+CORPUS_FRACTION = re.compile(
+    r"(?:equal to\s+(?:a\s+)?)?(?:(\d+)\s*\+\s*)?(one-half|half|one-third|one-fourth|one-fifth|one-sixth|one-eighth)\s+"
+    r"(?:of\s+)?(?:her|his|its|their|the)\s+(?:[\w-]+\s+){0,2}?levels?(?:\s*\((?:minimum|min\.?)\s*\+?(\d+)\))?", re.I)
+PRINT_PROGRESSION = re.compile(
+    r"increases?\s+by\s+\+?(\d+)[^.]*?(?:every|for every|per)\s+(\w+)\s+levels?\s+(?:after|beyond|above)\s+(\d+)(?:st|nd|rd|th)", re.I)
+
+# Features where the owner ruled that print wins over a corpus value that the expansion shows to differ
+# (ruling 8 of 2026-11-24 on phynics/cast-iron-data#306).
+PRINT_WINS = {
+    ("ref/arc-fighter/archer", "hawkeye"): "ruling 8: print corrects the corpus (+1 at 2nd level and every 4 levels beyond; the corpus gave 1 + one-fourth of the level)",
+}
 
 
-def letters(tokens_: list[str]) -> str:
-    """The letters, digits and signs of some tokens, as a multiset (a list that print sets with blanks and
-    the corpus with hyphens has the same letters)."""
-    chars = []
-    for t in tokens_:
-        chars += ([t[0]] if t[0] in "+-" else []) + list(re.sub(r"[^a-z0-9]", "", t))
-    return "".join(sorted(chars))
+def expand_rules(print_text: str, corpus_text: str) -> tuple[str, list[str]] | None:
+    """Rule 8. When print states "+B ... increases by +S for every N levels after Kth" and the corpus states
+    "equal to one-third of her X level (minimum +M)", expands both into the values at levels K..20. Returns
+    ("equal", [words]) when they agree (the words are the numbers to leave out of the comparison), or
+    ("differ", [description]) when they do not; None when the text has no such pair."""
+    flat = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", corpus_text)
+    cm = CORPUS_FRACTION.search(flat)
+    pm = PRINT_PROGRESSION.search(print_text)
+    if not cm or not pm:
+        return None
+    base_c = int(cm.group(1) or 0)
+    num, den = FRACTIONS[cm.group(2).lower()]
+    minimum = int(cm.group(3)) if cm.group(3) else 0
+    step = NUMBER_WORDS.get(pm.group(2).lower(), pm.group(2))
+    first = re.search(r"\+(\d+)", print_text)
+    if not step.isdigit() or not first:
+        return None
+    b, s_, n, k = int(first.group(1)), int(pm.group(1)), int(step), int(pm.group(3))
+    start = max(k, lead_level(print_text) or k)
+    for level in range(start, 21):
+        printed = b + s_ * ((level - k) // n)
+        stored = max(base_c + level * num // den, minimum)
+        if printed != stored:
+            return "differ", [f"at level {level} print gives +{printed}, the corpus {stored}"]
+    return "equal", [f"+{b}", f"+{s_}", str(k), str(n)]
 
 
 def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens: set[str]) -> Compare:
     """Draft against the printed paragraph. Differences in words that carry no rule (articles, pronouns, the
-    person, the order of sentences) are wording; a number or any other word that only one side has is a
-    changed number or rule word (held)."""
+    person, connectives, action labels, the order of sentences) are wording; a number or any other word that
+    only one side has is a changed number or rule word (held). Printed progressions are expanded against the
+    corpus's fractions of the level (ruling 8); a corpus paragraph that print does not have is dropped
+    (ruling 10)."""
     notes: list[str] = []
+    info: list[str] = []
     skip = drop | title_tokens
     p_clean = strip_trade_sentences(print_text)
     d_clean = strip_trade_sentences(draft.core)
@@ -876,6 +910,16 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
     lvl = draft.level if lp is None or lp == draft.level else None
     p_clean = strip_level_phrase(strip_leads(p_clean), lvl)
     d_clean = strip_level_phrase(strip_leads(d_clean), lvl)
+    forget_p: set[str] = set()
+    expanded = expand_rules(print_text, d_clean)
+    if expanded:
+        if expanded[0] == "equal":
+            forget_p = set(expanded[1])
+            p_clean = strip_progression(p_clean)
+            d_clean = CORPUS_FRACTION.sub(" ", d_clean)
+            info.append("rule 8: the printed progression and the corpus's fraction of the level give the same values; print's wording taken")
+        else:
+            notes.append("hand review: " + expanded[1][0])
     d_tok = Counter(tokens(d_clean, skip))
     if draft.usage:
         # the sentences that state the usage cancel words of the draft, but add none: the import keeps the
@@ -888,6 +932,8 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
                 p_tok[t] += min(n - p_tok[t], room) if n > p_tok[t] else 0
     else:
         p_tok = Counter(tokens(p_clean, skip))
+    for t in forget_p:
+        p_tok.pop(t, None)
     prog = progression_levels(print_text)
     if prog is not None:
         # the progression that print states may be written out in the corpus ("6th, 9th, 12th") or as rows
@@ -913,6 +959,29 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
                     d_tok[tk] += 1
     only_print = p_tok - d_tok
     only_draft = d_tok - p_tok
+    if draft.action_labelled:
+        for t in ACTION_TOKENS:          # a phrase that an action label made ("as a swift action") is not a rule word
+            only_draft.pop(t, None)
+    if forget_p:
+        for t in ("bonu", "bonuse"):     # the noun of "These bonuses are equal to ..." that the expansion replaces
+            only_draft.pop(t, None)
+            only_print.pop(t, None)
+    if only_draft and not only_print:
+        # ruling 10: a paragraph of the corpus that print does not have is dropped
+        dropped = []
+        for part in draft.parts:
+            tk = Counter(tokens(strip_level_phrase(strip_leads(strip_trade_sentences(part)), lvl), skip))
+            total = sum(tk.values())
+            if total >= 4 and sum(min(n, p_tok[t]) for t, n in tk.items()) * 2 < total:
+                dropped.append(part)
+                d_tok = d_tok - tk
+        only_draft = d_tok - p_tok
+        if draft.action_labelled:
+            for t in ACTION_TOKENS:
+                only_draft.pop(t, None)
+        if dropped and not only_draft:
+            info.append("ruling 10: corpus text that print does not have is dropped: " + "; ".join(
+                "“" + " ".join(x.split()[:7]) + " …”" for x in dropped))
     a = sorted(only_draft.elements())
     b = sorted(only_print.elements())
     if (a or b) and letters(a) == letters(b):
@@ -931,10 +1000,30 @@ def compare_feature(draft: Draft, print_text: str, drop: set[str], title_tokens:
     if draft.inexpressible:
         notes.append("draft cannot express: " + "; ".join(draft.inexpressible))
     if notes:
-        return Compare("hold", notes, lp)
+        return Compare("hold", notes + info, lp)
     same = [fold(strip_leads(x)) for x in (draft.text, print_text)]
     norm = [re.sub(r"[^a-z0-9+\-]+", " ", s).split() for s in same]
-    return Compare("draft" if norm[0] == norm[1] and draft.level == lp else "print", [], lp)
+    return Compare("draft" if norm[0] == norm[1] and draft.level == lp and not info else "print", info, lp)
+
+
+
+
+def strip_level_phrase(text: str, level: int | None) -> str:
+    """Drops "of 18th level or higher" and the like for the level that the import's Gained row gives: the
+    import wrote it as a lead, print words it inside the sentence."""
+    if level is None:
+        return text
+    o = ordinal(level)
+    return re.sub(rf"\b(?:of\s+|at\s+|starting at\s+|beginning at\s+|reaching\s+|upon reaching\s+)?{o}[\s-]level(?:\s+or\s+(?:higher|above))?", " ", text, flags=re.I)
+
+
+def letters(tokens_: list[str]) -> str:
+    """The letters, digits and signs of some tokens, as a multiset (a list that print sets with blanks and
+    the corpus with hyphens has the same letters)."""
+    chars = []
+    for t in tokens_:
+        chars += ([t[0]] if t[0] in "+-" else []) + list(re.sub(r"[^a-z0-9]", "", t))
+    return "".join(sorted(chars))
 
 
 # ---- corpus access ------------------------------------------------------------------------------------
@@ -1109,20 +1198,51 @@ def publication_title(corpus: Path, book: str) -> str:
     raise SystemExit(f"publication {book!r} is not in publications.toml")
 
 
-def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str]) -> tuple[str, list[str]]:
+# Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
+# entry, the printed words, the words written, and why. The review table's note records each fix.
+MISPRINTS = [
+    ("ref/arc-ranger/horse-lord", "of the him", "of him", "the sentence needs no article before the pronoun"),
+    ("ref/arc-monk/hungry-ghost-monk", "The ability replaces diamond soul", "This ability replaces diamond soul",
+     "every other trade sentence of the book starts \"This ability\""),
+    ("ref/arc-rogue/investigator", "thought reexamining", "thoughtful reexamining",
+     "the advanced rogue talent is Thoughtful Reexamining, which the same book prints in full for the burglar"),
+]
+
+
+def is_scaffold(head: str) -> bool:
+    k = namekey(head)
+    return k in SCAFFOLD or k + "s" in SCAFFOLD or k.rstrip("s") in SCAFFOLD
+
+
+def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], entry_id: str = "") -> tuple[str, list[str], list[str]]:
+    """The printed paragraphs as Markdown, the link texts that found no place, and the notes (misprint fixes,
+    dropped asterisks)."""
     paras = []
     for runs in feat.paras:
         s = finish_text(clean_runs(runs), vocab)
         if s:
             paras.append(s)
     text = "\n\n".join(paras)
-    text = re.sub(r"^A (\d+(?:st|nd|rd|th) level\b)", r"At \1", text)    # a misprint of the book
+    notes: list[str] = []
+    fixed = re.sub(r"^A (\d+(?:st|nd|rd|th) level\b)", r"At \1", text)
+    if fixed != text:
+        notes.append("misprint fixed: print has \"A " + text.split(" level", 1)[0][2:] + " level\", the lead is \"At " + text.split(" level", 1)[0][2:] + " level\"")
+        text = fixed
+    for eid, wrong, right, why in MISPRINTS:
+        if eid == entry_id and wrong in text:
+            text = text.replace(wrong, right)
+            notes.append(f"misprint fixed: print has \"{wrong}\", written \"{right}\" ({why})")
     # a page reference of the book ("Pathfinder RPG Core Rulebook page 469"): the corpus links instead
     text = re.sub(r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)", "", text)
+    # print's asterisks mark a talent or a feat that has a prerequisite; the key is not printed here (ruling 10)
+    stripped = re.sub(r"(?<=[\w)\]])\\\*", "", text)
+    if stripped != text:
+        notes.append("print asterisks without their key dropped")
+        text = stripped
     lost: list[str] = []
     if links:
         text, lost = apply_links(text, links)
-    return render_marks(text), lost
+    return render_marks(text), lost, notes
 
 
 def head_text(head: str) -> str:
@@ -1130,8 +1250,8 @@ def head_text(head: str) -> str:
 
 
 def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
-    """The comparison of one archetype with its printed section: a row for each printed head and for each
-    feature of the import that print lacks."""
+    """The comparison of one archetype with its printed section: a row for each printed head, in print
+    order, then one for each feature of the import that print lacks."""
     plain_names = [m.group(1) for b in blocks_of(e.body) for m in [NAME_BLOCK.match(logical(b))] if m]
     probe = {namekey(h) for h in [head_of_para(p) for p in section[1:]] if h}
     opening_imp, feats = parse_import(e.body, probe)
@@ -1139,46 +1259,49 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     opening_print, pfeats = split_print(section, plain_names + [tail_name(n) for n in names])
     vocab = book.vocab | {w.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)*", e.body)} | {
         p.lower() for w in re.findall(r"[A-Za-z]+(?:-[A-Za-z]+)+", e.body) for p in w.split("-")}
-    ck = [namekey(f.name) for f in feats]
-    pk = [namekey(f.head) for f in pfeats]
-    problems: list[str] = []
-    if ck != pk:
-        extra = [n for n in names if namekey(n) not in pk]
-        missing = [h.head for h in pfeats if namekey(h.head) not in ck]
-        if extra:
-            problems.append("head not printed: " + ", ".join(extra))
-        if missing:
-            problems.append("head not in the entry: " + ", ".join(missing))
-        if not extra and not missing:
-            problems.append("heads in another order")
-    title_tokens = set(tokens(e.title)) | {w for c in e.classes for w in tokens(c.split("/")[-1].replace("-", " "))}
-    by_key = {namekey(f.head): f for f in pfeats}
-    rows = []
-    for f in feats:
-        pf = by_key.get(namekey(f.name))
-        draft = build_draft(f)
-        row = {"anchor": anchor_of(pf.head if pf else f.name), "span": f.span_sha(), "page": pf.page if pf else "",
-               "pseudo": f.pseudo, "draft": draft.text, "level_import": draft.level}
-        if pf:
-            row["head"] = head_text(pf.head)
-            text, lost = print_md(pf, old_links(f), vocab)
-            row["print"] = text
-            cmp = compare_feature(draft, text, set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
-            row["status"], row["notes"] = cmp.status, list(cmp.notes)
-            if lost:
-                row["notes"].append("link not placed: " + ", ".join(lost))
-        else:
-            row["head"] = head_text(f.name)
-            row["print"], row["status"], row["notes"] = "", "hold", ["head not printed"]
-        row["listed"] = namekey(row["head"]) not in SCAFFOLD and not f.pseudo
-        rows.append(row)
-    known = set(ck)
+    # match the heads in order, so a name that occurs twice is matched to its own printed head
+    used: set[int] = set()
+    last = -1
+    matched: list[int | None] = []
     for pf in pfeats:
-        if namekey(pf.head) not in known:
-            text, _ = print_md(pf, [], vocab)
+        key = namekey(pf.head)
+        idx = next((i for i in range(last + 1, len(feats)) if i not in used and namekey(feats[i].name) == key), None)
+        if idx is not None:
+            used.add(idx)
+            last = idx
+        matched.append(idx)
+    problems: list[str] = []
+    lost_heads = [feats[i].name for i in range(len(feats)) if i not in used]
+    if lost_heads:
+        problems.append("head not printed: " + ", ".join(lost_heads))
+    title_tokens = set(tokens(e.title)) | {w for c in e.classes for w in tokens(c.split("/")[-1].replace("-", " "))}
+    rows = []
+    for pf, idx in zip(pfeats, matched):
+        if idx is None:
+            text, _, pnotes = print_md(pf, [], vocab, e.id)
             rows.append({"anchor": anchor_of(pf.head), "span": "", "page": pf.page, "pseudo": False, "draft": "",
-                         "level_import": None, "head": head_text(pf.head), "print": text, "status": "hold",
-                         "notes": ["head not in the entry"], "listed": False})
+                         "level_import": None, "head": head_text(pf.head), "print": text, "status": "print",
+                         "notes": ["head printed, not in the import: added from print"] + pnotes,
+                         "listed": not is_scaffold(pf.head), "name": pf.head})
+            continue
+        f = feats[idx]
+        draft = build_draft(f)
+        text, lost, pnotes = print_md(pf, old_links(f), vocab, e.id)
+        cmp = compare_feature(draft, text, set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
+        row = {"anchor": anchor_of(pf.head), "span": f.span_sha(), "page": pf.page, "pseudo": f.pseudo,
+               "draft": draft.text, "level_import": draft.level, "head": head_text(pf.head), "print": text,
+               "status": cmp.status, "notes": list(cmp.notes) + pnotes, "name": pf.head}
+        if lost:
+            row["notes"].append("link not placed: " + ", ".join(lost))
+        row["listed"] = not is_scaffold(pf.head) and not f.pseudo
+        if (e.id, row["anchor"]) in PRINT_WINS and row["status"] == "hold":
+            row["status"], row["notes"] = "print", [PRINT_WINS[(e.id, row["anchor"])]] + pnotes
+        rows.append(row)
+    for i, f in enumerate(feats):
+        if i not in used:
+            rows.append({"anchor": anchor_of(f.name), "span": f.span_sha(), "page": "", "pseudo": f.pseudo,
+                         "draft": build_draft(f).text, "level_import": None, "head": head_text(f.name), "print": "",
+                         "status": "hold", "notes": ["head not printed"], "listed": False, "name": f.name})
     opening = [render_marks(finish_text(clean_runs(r), vocab)) for r in opening_print]
     return {"rows": rows, "problems": problems, "opening": [o for o in opening if o]}
 
@@ -1210,15 +1333,43 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
     return by, problems
 
 
-def finalize(e: Entry, res: dict) -> dict:
-    """Levels, `by` and the entry-level problems, from the compared rows."""
+def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
+    """The name keys of the features that the class table of a base class lists at 1st level."""
+    if class_id in cache:
+        return cache[class_id]
+    path = corpus / "entries" / (class_id.removeprefix("ref/") + ".md")
+    keys: set[str] = set()
+    if path.exists():
+        for ln in path.read_text(encoding="utf-8").split("\n"):
+            if ln.startswith("|1st|"):
+                last = [c for c in ln.strip().strip("|").split("|") if c.strip()][-1]
+                for item in last.split(","):
+                    keys.add(namekey(re.sub(r"\s*[+\-]\d.*$", "", item)))
+                break
+    cache[class_id] = keys
+    return keys
+
+
+def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
+    """Anchors, levels, `by` and the entry-level problems, from the compared rows."""
+    class_cache = {} if class_cache is None else class_cache
+    corpus = e.path.parents[2]
     rows = res["rows"]
     problems = list(res["problems"])
-    listed = [r for r in rows if r["listed"]]
-    anchors = [r["anchor"] for r in rows]
-    for a, n in Counter(anchors).items():
+    # an anchor that occurs twice: the later one is prefixed with the nearest unique head before it
+    counts = Counter(r["anchor"] for r in rows)
+    seen: set[str] = set()
+    for i, r in enumerate(rows):
+        if r["anchor"] in seen:
+            owner = next((q["anchor"] for q in reversed(rows[:i]) if counts[q["anchor"]] == 1 and q["anchor"] not in ("rage-powers",)), "")
+            new = f"{owner}-{r['anchor']}" if owner else r["anchor"]
+            r["notes"].append(f"anchor `{r['anchor']}` occurs twice; this one is `{new}`")
+            r["anchor"] = new
+        seen.add(r["anchor"])
+    for a, n in Counter(r["anchor"] for r in rows).items():
         if n > 1:
             problems.append(f"anchor `{a}` occurs {n} times")
+    listed = [r for r in rows if r["listed"]]
     trades = trades_of(e)
     by, more = assign_by(trades, listed, res["opening"]) if all(r["print"] for r in listed) else ({}, [])
     problems += more
@@ -1231,6 +1382,15 @@ def finalize(e: Entry, res: dict) -> dict:
             if mine and len(levels) == 1 and len(next(iter(levels))) == 1 and all("levels" in t for t in mine):
                 r["level"] = next(iter(levels))[0]
                 r["notes"].append("level from the trade")
+            elif mine and r["level_import"] in (None, 1):
+                # ruling 11: the feature replaces features that the base class gains at 1st level
+                firsts = []
+                for t in mine:
+                    cls = t.get("class") or (e.classes[0] if e.classes else "")
+                    firsts.append(bool(cls) and namekey(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache))
+                if all(firsts):
+                    r["level"] = 1
+                    r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", gained at 1st level in the class table")
         if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold":
             r["status"] = "hold"
             r["notes"].append(f"level: corpus {ordinal(r['level_import'])}, print {ordinal(r['level'])}")
@@ -1408,8 +1568,8 @@ def stale_rows(e: Entry, rows: list[dict]) -> list[str]:
     for r in rows:
         if r["span_sha256"] and r["feature"]:
             have = spans.get(namekey(r["feature"]))
-            if have is not None and r["span_sha256"] not in have:
-                bad.append(r["feature"])
+            if have is None or r["span_sha256"] not in have:
+                bad.append(r["feature"])     # the feature changed, or its name is gone
     return bad
 
 
@@ -1585,6 +1745,32 @@ def self_test() -> int:
     eq(c.status, "hold", "a changed rule word is held")
     c = compare_feature(d, printed.replace("a two-handed fighter gains", "he gains"), set(), set(tokens("Two-Handed Fighter")))
     eq(c.status, "print", "person is wording")
+    # links: printed parentheses do not fool the inside-a-link test; every linked occurrence is placed
+    got, lost = apply_links("she gains darkvision 60 feet (or adds 60 feet to the range of any darkvision already possessed)",
+                            [("darkvision", "ref/umr/darkvision"), ("darkvision", "ref/rule/darkvision")])
+    eq(got, "she gains [darkvision](ref/umr/darkvision) 60 feet (or adds 60 feet to the range of any [darkvision](ref/rule/darkvision) already possessed)", "links after a parenthesis")
+    eq(lost, [], "no lost link")
+    got, lost = apply_links("equal to half his level, while a penalty equal to half his level", [("half", "x"), ("half", "x"), ("half", "x")])
+    eq(got.count("[half](x)"), 2, "a repeated linked word is placed twice")
+    eq(lost, ["half"], "the third link of a word that occurs twice is reported lost")
+    # rule 8: the printed progression against the corpus's fraction of the level
+    eq(expand_rules("At 3rd level, a barbarian gains a +1 bonus. This bonus increases by +1 for every three levels after 3rd.",
+                    "Gains a bonus equal to [one-third](ref/misc/f) of her barbarian level.")[0], "equal", "rule 8 equal")
+    eq(expand_rules("At 2nd level, an archer gains a +1 bonus. These bonuses increase by +1 for every 4 levels beyond 2nd.",
+                    "A bonus equal to 1 + one-fourth his fighter level.")[0], "differ", "rule 8 differ")
+    # rule 8 and action labels in the comparison
+    imp = parse_import("**Fast (Ex)**\n\n**Gained:** At 3rd Level\n\n**Passive:** A rake gains a morale bonus equal to one-third of her rogue level.\n\n**Replaces:** Trap sense\n")[1][0]
+    c = compare_feature(build_draft(imp), "At 3rd level, a rake gains a +1 morale bonus. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense.", set(), set(tokens("Rake rogue")))
+    eq(c.status, "print", "rule 8 takes print when the values agree")
+    imp = parse_import("**Deft (Ex)**\n\n**Gained:** At 7th Level\n\n**Move:** The skirmisher can move and attack.\n")[1][0]
+    c = compare_feature(build_draft(imp), "At 7th level, the skirmisher can move and attack.", set(), set(tokens("Skirmisher")))
+    eq(c.status, "print", "an action label is not a rule word")
+    # print_md: misprints and asterisks are recorded
+    pf = PrintFeature("Poison Use (Ex)", [[("A 3rd level, a spy is trained in poison, and talent* too.", False, False)]], 135)
+    text, _, notes = print_md(pf, [], set(), "ref/arc-rogue/spy")
+    eq(text.startswith("At 3rd level, a spy"), True, "misprint fixed")
+    eq(any("misprint fixed" in n for n in notes) and any("asterisks" in n for n in notes), True, "fixes are in the notes")
+    eq(is_scaffold("Bonus Feat"), True, "scaffold singular")
     # front matter edit
     front = 'id = "x"\n\n[fields]\nkind = "archetype"\ntrades = [\n  { replaces = "Bravery", feature = "bravery" },\n  { replaces = "Armor training", feature = "armor-training" },\n]'
     got = edit_front(front, [{"anchor": "a", "level": 2, "listed": True}, {"anchor": "b", "listed": True}], {0: ["a"], 1: []}, 2)
