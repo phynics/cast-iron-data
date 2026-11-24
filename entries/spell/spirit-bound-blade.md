@@ -3,13 +3,25 @@ id = "ref/spell/spirit-bound-blade"
 kind = "spell"
 title = "Spirit-Bound Blade"
 aon = "SpellDisplay.aspx?ItemName=Spirit-Bound%20Blade"
-source_ids = ["occult-adventures", "psychic-anthology", "occult-origins", "heroes-from-the-fringe"]
+source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_bound_blade", path = "json/spells9.json" },
 ]
 [[sources]]
 publication = "occult-adventures"
 page = "186"
+[[expanded_in]]
+publication = "heroes-from-the-fringe"
+page = "19"
+via = "ref/emotionalfocus/whimsey"
+[[expanded_in]]
+publication = "occult-origins"
+page = "19"
+via = "ref/emotionalfocus/remorse"
+[[expanded_in]]
+publication = "psychic-anthology"
+page = "5"
+via = "ref/emotionalfocus/kindness"
 
 [fields]
 kind = "spell"

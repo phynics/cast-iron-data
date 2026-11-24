@@ -1216,9 +1216,9 @@ heroes-from-the-fringe	ref/racial-trait/halfling/small	racial_trait	Small	4	17	f
 heroes-from-the-fringe	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	4	13	family-leak	printed		none	6	4,10,11,16,17	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/race/merfolk	race	Merfolk	5	5	uncited	printed		none	3	3,30,31										race-hub	S9		yes	yes			
 heroes-from-the-fringe	ref/race/sahuagin	race	Sahuagin	2	2	uncited	printed		none	3	3,30,31										race-hub	S9		yes	yes			
-heroes-from-the-fringe	ref/arc-bloodrager/id-rager	archetype	Id Rager	3	3	weak	weak		none	1	19										single-entry	S5		yes	yes			
-heroes-from-the-fringe	ref/arc-spiritualist/fractured-mind	archetype	Fractured Mind	4	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
-heroes-from-the-fringe	ref/feat/emotional-conduit	feat	Emotional Conduit	4	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
+heroes-from-the-fringe	ref/arc-bloodrager/id-rager	archetype	Id Rager	3	3	weak	weak		none	1	19							expands	19	expansion-credited-via-whimsey	single-entry	done		yes	yes			
+heroes-from-the-fringe	ref/arc-spiritualist/fractured-mind	archetype	Fractured Mind	4	4	weak	weak		none	1	19							expands	19	expansion-credited-via-whimsey	single-entry	done		yes	yes			
+heroes-from-the-fringe	ref/feat/emotional-conduit	feat	Emotional Conduit	4	4	weak	weak		none	1	19							expands	19	expansion-credited-via-whimsey	single-entry	done		yes	yes			
 heroes-from-the-fringe	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	4	16	weak	weak		none	1	16	parent	ref/race/dwarf(title)	yes				remove	4-6, 8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/dwarf/hardy	racial_trait	Hardy	4	14	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	4-6, 8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/dwarf/stability	racial_trait	Stability	4	11	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	4-6, 8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1227,7 +1227,7 @@ heroes-from-the-fringe	ref/racial-trait/half-elf/multitalented	racial_trait	Mult
 heroes-from-the-fringe	ref/racial-trait/half-orc/darkvision	racial_trait	Darkvision	4	17	weak	weak		none	1	16	parent	ref/race/half-orc(title)	yes				remove	24-26	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/halfling/fearless	racial_trait	Fearless	4	14	weak	weak		none	1	28	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	4	10	weak	weak		none	1	28	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-from-the-fringe	ref/spell/spirit-bound-blade	spell	Spirit-Bound Blade	4	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
+heroes-from-the-fringe	ref/spell/spirit-bound-blade	spell	Spirit-Bound Blade	4	4	weak	weak		none	1	19							expands	19	expansion-credited-via-whimsey	single-entry	done		yes	yes			
 heroes-of-golarion	ref/class/cleric	class	Cleric	9	9	family-leak	printed		none	4	6,14,15,17	child	ref/rule/class-cleric/cleric(title)								class-hub	S6		yes	yes			
 heroes-of-golarion	ref/class/rogue	class	Rogue	13	14	family-leak	printed		none	2	6,17	child	ref/rule/class-rogue/rogue(title)								class-hub	S7		yes	yes			
 heroes-of-golarion	ref/class/wizard	class	Wizard	8	11	family-leak	printed		none	4	6,14,18,32	child	ref/rule/class-wizard/wizard(title)								class-hub	S7		yes	yes			
@@ -1981,9 +1981,9 @@ occult-adventures	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	6	6
 occult-bestiary	ref/rule/rare-races	rule	Rare Races	8	20	hub-keep	absent	23	row	0											hub-cited	S11			yes	yes	no	
 occult-mysteries	ref/rule/types-of-traits	rule	Types of Traits	4	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
 occult-mysteries	ref/magic-wondrous/trumpet-of-spirit-speaking	item	Trumpet of Spirit Speaking	1	2	review	absent	55	row	0					primary	pathfinder-71-rasputin-must-die	unscreened				single-entry	S11			yes		no	
-occult-origins	ref/arc-spiritualist/fractured-mind	archetype	Fractured Mind	3	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
-occult-origins	ref/feat/emotional-conduit	feat	Emotional Conduit	3	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
-occult-origins	ref/spell/spirit-bound-blade	spell	Spirit-Bound Blade	3	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
+occult-origins	ref/arc-spiritualist/fractured-mind	archetype	Fractured Mind	3	4	weak	weak		none	1	19							expands	19	expansion-credited-via-remorse	single-entry	done		yes	yes			
+occult-origins	ref/feat/emotional-conduit	feat	Emotional Conduit	3	4	weak	weak		none	1	19							expands	19	expansion-credited-via-remorse	single-entry	done		yes	yes			
+occult-origins	ref/spell/spirit-bound-blade	spell	Spirit-Bound Blade	3	4	weak	weak		none	1	19							expands	19	expansion-credited-via-remorse	single-entry	done		yes	yes			
 occult-realms	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	7	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 occult-realms	ref/rule/specific-rulesets	rule	Specific Rulesets	6	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 occult-realms	ref/ability/spirits	rule	Medium Spirits	2	2	uncited	body		none	1	10										hub-cited	S10		yes	yes	yes		
@@ -2172,10 +2172,10 @@ potions-and-poisons	ref/spell/detect-magic-greater	spell	Greater Detect Magic	5	
 potions-and-poisons	ref/spell/stoneskin-communal	spell	Communal Stoneskin	2	3	family-leak	absent	17	row	0		variant	ref/spell/stoneskin(body)					remove	17	wrong-credit-invalidated	single-entry	done			yes			
 psychic-anthology	ref/ability/implements	rule	Implements	2	3	hub-keep	printed		none	5	26,27,28,29,34										hub-cited	S10		yes	yes	yes		
 psychic-anthology	ref/rule/feats-class	rule	Class-Based Feats	6	7	hub-keep	absent	16	row	0											hub-cited	S11			yes	yes	no	
-psychic-anthology	ref/arc-bloodrager/id-rager	archetype	Id Rager	2	3	weak	weak		none	1	5										single-entry	S5		yes	yes			
-psychic-anthology	ref/arc-spiritualist/fractured-mind	archetype	Fractured Mind	2	4	weak	weak		none	1	5										single-entry	S5		yes	yes			
-psychic-anthology	ref/feat/emotional-conduit	feat	Emotional Conduit	2	4	weak	weak		none	1	5										single-entry	S5		yes	yes			
-psychic-anthology	ref/spell/spirit-bound-blade	spell	Spirit-Bound Blade	2	4	weak	weak		none	1	5										single-entry	S5		yes	yes			
+psychic-anthology	ref/arc-bloodrager/id-rager	archetype	Id Rager	2	3	weak	weak		none	1	5							expands	5	expansion-credited-via-kindness	single-entry	done		yes	yes			
+psychic-anthology	ref/arc-spiritualist/fractured-mind	archetype	Fractured Mind	2	4	weak	weak		none	1	5							expands	5	expansion-credited-via-kindness	single-entry	done		yes	yes			
+psychic-anthology	ref/feat/emotional-conduit	feat	Emotional Conduit	2	4	weak	weak		none	1	5							expands	5	expansion-credited-via-kindness	single-entry	done		yes	yes			
+psychic-anthology	ref/spell/spirit-bound-blade	spell	Spirit-Bound Blade	2	4	weak	weak		none	1	5							expands	5	expansion-credited-via-kindness	single-entry	done		yes	yes			
 qadira-gateway-to-the-east	ref/trait/alchemical-prodigy	trait	Alchemical Prodigy	2	2	review	printed	25	row	0								keep	25	title-on-cited-page	single-entry	S0			yes		yes	
 qadira-gateway-to-the-east	ref/trait/strong-arm-supple-wrist	trait	Strong Arm, Supple Wrist	2	2	review	printed	9	row	0								keep	9	title-on-cited-page	single-entry	S0			yes		yes	
 revenge-of-the-kobold-king	ref/eq-weapon/chain-spear	item	Chain spear	3	5	review	absent	13	row	0											single-entry	S11			yes		no	

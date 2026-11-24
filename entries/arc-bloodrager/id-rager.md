@@ -3,7 +3,7 @@ id = "ref/arc-bloodrager/id-rager"
 kind = "archetype"
 title = "Id Rager"
 aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Id%20Rager"
-source_ids = ["occult-origins", "psychic-anthology", "heroes-from-the-fringe"]
+source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "id_rager", path = "json/archetypes_bloodrager.json" },
 ]
@@ -13,6 +13,14 @@ relations = [
 [[sources]]
 publication = "occult-origins"
 page = "23"
+[[expanded_in]]
+publication = "heroes-from-the-fringe"
+page = "19"
+via = "ref/emotionalfocus/whimsey"
+[[expanded_in]]
+publication = "psychic-anthology"
+page = "5"
+via = "ref/emotionalfocus/kindness"
 
 [fields]
 kind = "archetype"
