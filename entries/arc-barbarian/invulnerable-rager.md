@@ -16,11 +16,15 @@ page = "79"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "invulnerability", level = 2 },
+  { anchor = "extreme-endurance", level = 3 },
+]
 trades = [
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "damage reduction", feature = "damage-reduction" },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["invulnerability"] },
+  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["invulnerability"] },
+  { replaces = "damage reduction", feature = "damage-reduction", by = ["invulnerability"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["extreme-endurance"] },
 ]
 +++
 
@@ -28,28 +32,25 @@ Some barbarians learn to take whatever comes their way, shrugging off mortal wou
 barbarians invite their enemies to attack them, and use pain to fuel their rage. An invulnerable
 rager has the following class features.
 
-**Invulnerability (Ex)**
+## Invulnerability (Ex) {#invulnerability}
 
-**Gained:** At 2nd Level
+At 2nd level, the invulnerable rager gains [DR](ref/rule/damage-reduction)/— equal to
+[half](ref/misc/fractions-and-rounding) her barbarian level. This
+[damage reduction](ref/rule/damage-reduction) is doubled against nonlethal damage. This ability
+replaces uncanny dodge, improved uncanny dodge, and damage reduction.
 
-**Passive:** The invulnerable rager gains [DR](ref/rule/damage-reduction)/- equal to
-[half](ref/misc/fractions-and-rounding) her barbarian level. This damage reduction is doubled
-against nonlethal damage.
+## Extreme Endurance (Ex) {#extreme-endurance}
 
-**Replaces:** Uncanny dodge, improved uncanny dodge, [damage reduction](ref/rule/damage-reduction)
+At 3rd level, the invulnerable rager is inured to either hot or cold climate effects (choose one) as
+if using _[endure elements](ref/spell/endure-elements)_. In addition, the barbarian gains 1 point of
+fire or cold [resistance](ref/umr/resistance) for every three levels beyond 3rd. This ability
+replaces trap sense.
 
-**Extreme Endurance (Ex)**
+## Rage Powers {#rage-powers}
 
-**Gained:** At 3rd Level
-
-**Passive:** The invulnerable rager is inured to either hot or cold climate effects (choose one) as
-if using [endure elements](ref/spell/endure-elements). In addition, the barbarian gains 1 point of
-fire or cold [resistance](ref/umr/resistance) for every three levels beyond 3rd.
-
-**Replaces:** Trap sense
-
-**Rage Powers:** The following rage powers complement the invulnerable rager archetype:
+The following rage powers complement the invulnerable rager archetype:
 [come and get me](ref/ragepower/come-and-get-me), [guarded life](ref/ragepower/guarded-life),
-[increased damage reduction](ref/ragepower/increased-damage-reduction),
+[increased damage reduction](ref/ragepower/increased-damage-reduction)\*,
 [inspire ferocity](ref/ragepower/inspire-ferocity),
-[reckless abandon](ref/ragepower/reckless-abandon), [renewed vigor](ref/ragepower/renewed-vigor).
+[reckless abandon](ref/ragepower/reckless-abandon), and
+[renewed vigor](ref/ragepower/renewed-vigor)\*.

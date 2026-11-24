@@ -16,12 +16,19 @@ page = "114"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "perfect-strike", level = 1 },
+  { anchor = "way-of-the-weapon-master", level = 2 },
+  { anchor = "evasion", level = 9 },
+  { anchor = "uncanny-initiative", level = 17 },
+  { anchor = "pure-power", level = 20 },
+]
 trades = [
-  { replaces = "Stunning Fist", feature = "stunning-fist" },
-  { replaces = "Evasion", feature = "evasion" },
-  { replaces = "Improved evasion", feature = "improved-evasion" },
-  { replaces = "Timeless body", feature = "timeless-body" },
-  { replaces = "Perfect self", feature = "perfect-self" },
+  { replaces = "Stunning Fist", feature = "stunning-fist", by = ["perfect-strike"] },
+  { replaces = "Evasion", feature = "evasion", by = ["way-of-the-weapon-master", "evasion"] },
+  { replaces = "Improved evasion", feature = "improved-evasion", by = ["evasion"] },
+  { replaces = "Timeless body", feature = "timeless-body", by = ["uncanny-initiative"] },
+  { replaces = "Perfect self", feature = "perfect-self", by = ["pure-power"] },
 ]
 +++
 
@@ -30,50 +37,32 @@ with his weapons, transforming them into perfect extensions of his own body. Thr
 a weapon adept seeks to attain perfection by becoming a living weapon himself. A weapon adept has
 the following class features.
 
-**Perfect Strike (Ex)**
+## Perfect Strike (Ex) {#perfect-strike}
 
-**At 10th Level:** The monk can roll his attack roll three times and take the higher result. If one
-of these rolls is a critical threat, he can choose which one of his other two rolls to use as his
-confirmation roll.
+At 1st level, a weapon adept gains [Perfect Strike](ref/feat/perfect-strike) as a bonus feat, even
+if he does not meet the prerequisites. At 10th level, the monk can roll his attack roll three times
+and take the higher result. If one of these rolls is a critical threat, he can choose which one of
+his other two rolls to use as his confirmation roll. This ability replaces Stunning Fist.
 
-**At 1st Level:** A weapon adept gains [Perfect Strike](ref/feat/perfect-strike) as a bonus feat,
-even if he does not meet the prerequisites.
+## Way of the Weapon Master (Ex) {#way-of-the-weapon-master}
 
-**Replaces:** Stunning Fist
+At 2nd level, a weapon adept gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat with one of
+his monk weapons. At 6th level, the monk gains
+[Weapon Specialization](ref/feat/weapon-specialization) with the same weapon as a bonus feat, even
+if he does not meet the prerequisites. This ability replaces evasion.
 
-**Way of the Weapon Master (Ex)**
+## Evasion (Ex) {#evasion}
 
-**At 2nd Level:** A weapon adept gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat with
-one of his monk weapons.
+At 9th level, the monk gains [evasion](ref/ability/evasion). This ability replaces improved evasion.
 
-**At 6th Level:** The monk gains [Weapon Specialization](ref/feat/weapon-specialization) with the
-same weapon as a bonus feat, even if he does not meet the prerequisites.
+## Uncanny Initiative (Ex) {#uncanny-initiative}
 
-**Replaces:** Evasion
+At 17th level, a weapon adept does not need to roll for initiative. He always treats his initiative
+roll as if it resulted in any number of his choosing (from 1 to 20). This ability replaces timeless
+body.
 
-**Evasion (Ex)**
+## Pure Power {#pure-power}
 
-**Ability:** The monk gains [evasion](ref/ability/evasion).
-
-**Gained:** At 9th Level
-
-**Replaces:** Improved evasion
-
-**Uncanny Initiative (Ex)**
-
-**Gained:** At 17th Level
-
-**Passive:** A weapon adept does not need to roll for initiative. He always treats his initiative
-roll as if it resulted in any number of his choosing (from 1 to 20).
-
-**Replaces:** Timeless body
-
-**Pure Power**
-
-**Gained:** At 20th Level
-
-**Passive:** A weapon adept forsakes the ideals of the perfect self to become a bastion of the
+At 20th level, a weapon adept forsakes the ideals of the perfect self to become a bastion of the
 physical and mental virtues monks hold dear. The monk gains a +2 bonus to Strength, Dexterity, and
-Wisdom.
-
-**Replaces:** Perfect self
+Wisdom. This ability replaces perfect self.

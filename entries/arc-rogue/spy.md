@@ -16,9 +16,13 @@ page = "135"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "skilled-liar" },
+  { anchor = "poison-use", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["skilled-liar"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["poison-use"] },
 ]
 +++
 
@@ -27,23 +31,23 @@ situation, they can also change their personalities, allegiances, and even loves
 takes to achieve their clandestine goals. Spies are the ultimate manipulators, and even those who
 commission their services sometimes find that they've merely served the spies' own interests.
 
-**Skilled Liar (Ex)**
+## Skilled Liar (Ex) {#skilled-liar}
 
-**Passive:** Whenever a spy uses [Bluff](ref/skill/bluff) to attempt to deceive someone, she gains a
-bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). This bonus does not apply to
-feint attempts or attempts to pass secret messages.
+Whenever a spy uses [Bluff](ref/skill/bluff) to attempt to deceive someone, she gains a bonus on the
+opposed roll equal to 1/2 her rogue level (minimum +1). This bonus does not apply to feint attempts
+or attempts to pass secret messages. This ability replaces trapfinding.
 
-**Replaces:** Trapfinding
+## Poison Use (Ex) {#poison-use}
 
-**Poison Use (Ex)**
+At 3rd level, a spy is trained in the use of poison and cannot accidentally poison herself when
+applying poison to a blade. This ability replaces trap sense.
 
-**At 3rd Level:** A spy is trained in the use of poison and cannot accidentally poison herself when
-applying poison to a blade.
+## Rogue Talents {#rogue-talents}
 
-**Replaces:** Trap sense
+The following rogue talents complement the spy archetype: canny observer, guileful polyglot, honeyed
+words, major magic\*, minor magic\*, and quick disguise.
 
-**These rogue talents complement this archetype:** Canny observer, guileful polyglot, honeyed words,
-major magic, minor magic, quick disguise
+## Advanced Talents {#advanced-talents}
 
-**These advanced rogue talents complement this archetype:** Crippling strike, master of disguise,
-stealthy sniper
+The following advanced rogue talents complement the spy archetype: crippling strike\*, master of
+disguise, and stealthy sniper.

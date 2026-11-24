@@ -16,15 +16,25 @@ page = "106"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "steadfast-mount", level = 2 },
+  { anchor = "armored-charger", level = 3 },
+  { anchor = "mounted-mettle", level = 5 },
+  { anchor = "leap-from-the-saddle", level = 7 },
+  { anchor = "relentless-steed", level = 11 },
+  { anchor = "ride-them-down", level = 15 },
+  { anchor = "unavoidable-onslaught", level = 15 },
+  { anchor = "indomitable-steed", level = 19 },
+]
 trades = [
-  { replaces = "Bravery", feature = "bravery" },
-  { replaces = "Armor training 1", feature = "armor-training", levels = [3] },
-  { replaces = "Weapon training 1, 2, 3, and 4", feature = "weapon-training", levels = [5, 9, 13, 17] },
-  { replaces = "Armor training 2", feature = "armor-training", levels = [7] },
-  { replaces = "Armor training 3", feature = "armor-training", levels = [11] },
-  { replaces = "Armor training 4", feature = "armor-training", levels = [15] },
-  { replaces = "Armor training 4" },
-  { replaces = "Armor mastery", feature = "armor-mastery" },
+  { replaces = "Bravery", feature = "bravery", by = ["steadfast-mount"] },
+  { replaces = "Armor training 1", feature = "armor-training", levels = [3], by = ["armored-charger"] },
+  { replaces = "Weapon training 1, 2, 3, and 4", feature = "weapon-training", levels = [5, 9, 13, 17], by = ["mounted-mettle"] },
+  { replaces = "Armor training 2", feature = "armor-training", levels = [7], by = ["leap-from-the-saddle"] },
+  { replaces = "Armor training 3", feature = "armor-training", levels = [11], by = ["relentless-steed"] },
+  { replaces = "Armor training 4", feature = "armor-training", levels = [15], by = ["ride-them-down", "unavoidable-onslaught"] },
+  { replaces = "Armor training 4", by = ["ride-them-down", "unavoidable-onslaught"] },
+  { replaces = "Armor mastery", feature = "armor-mastery", by = ["indomitable-steed"] },
 ]
 +++
 
@@ -32,96 +42,52 @@ Roughriders study and practice the fine points of mounted combat, drilling endle
 warbeasts - from noble thoroughbreds to trained monsters - to form a perfect synergy between rider
 and steed.
 
-**Steadfast Mount (Ex)**
+## Steadfast Mount (Ex) {#steadfast-mount}
 
-**Gained:** At 2nd Level
+At 2nd level, after a roughrider has spent 1 hour practicing with a mount, the mount gains a +1
+dodge bonus to AC and a +1 morale bonus on saves, but only while the roughrider is mounted on it or
+adjacent to it. This bonus increases by +1 for every four levels after 2nd. This ability replaces
+bravery.
 
-**Passive:** After a roughrider has spent 1 hour practicing with a mount, the mount gains a +1 dodge
-bonus to AC and a +1 morale bonus on saves, but only while the roughrider is mounted on it or
-adjacent to it.
+## Armored Charger (Ex) {#armored-charger}
 
-**Replaces:** Bravery
+At 3rd level, a roughrider no longer suffers armor check penalties on Ride skill checks. His mount's
+speed is not reduced when carrying a medium load or wearing medium barding. This ability replaces
+armor training 1.
 
-At 6th level: This bonus increases to +2.
+## Mounted Mettle (Ex) {#mounted-mettle}
 
-At 10th level: This bonus increases to +3.
+At 5th level, a roughrider and his mount gain a +1 bonus on attack and damage rolls when he is
+mounted or adjacent to his mount. This bonus increases by +1 for every four levels after 5th. This
+ability replaces weapon training 1, 2, 3, and 4.
 
-At 14th level: This bonus increases to +4.
+## Leap from the Saddle (Ex) {#leap-from-the-saddle}
 
-At 18th level: This bonus increases to +5.
+At 7th level, after a roughrider's mount takes a single move, he may attempt a fast dismount (DC 20
+Ride check). If he succeeds, he can take a [full attack](ref/rule/full-attack) action. This ability
+replaces armor training 2.
 
-**Armored Charger (Ex)**
+## Relentless Steed (Ex) {#relentless-steed}
 
-**Gained:** At 3rd Level
+At 11th level, a roughrider's mount does not reduce its speed when wearing heavy barding or carrying
+a heavy load. The roughrider may also reroll a Ride skill check or a saving throw made by the mount
+once per day, but must use the second roll even if it is worse. This ability may be used one
+additional time per day for every four levels beyond 11th. This ability replaces armor training 3.
 
-**Passive:** A roughrider no longer suffers armor check penalties on Ride skill checks. His mount's
-speed is not reduced when carrying a medium load or wearing medium barding.
+## Ride Them Down (Ex) {#ride-them-down}
 
-**Replaces:** Armor training 1
-
-**Mounted Mettle (Ex)**
-
-**Gained:** At 5th Level
-
-**Passive:** A roughrider and his mount gain a +1 bonus on attack and damage rolls when he is
-mounted or adjacent to his mount.
-
-**Replaces:** Weapon training 1, 2, 3, and 4
-
-At 9th level: This bonus increases to +2.
-
-At 13th level: This bonus increases to +3.
-
-At 17th level: This bonus increases to +4.
-
-**Leap from the Saddle (Ex)**
-
-**Ability:** After a roughrider's mount takes a single move, he may attempt a fast dismount (DC 20
-Ride check). If he succeeds, he can take a [full attack](ref/rule/full-attack) action.
-
-**Gained:** At 7th Level
-
-**Replaces:** Armor training 2
-
-**Relentless Steed (Ex)**
-
-**Ability:** The roughrider may reroll a Ride skill check or a saving throw made by the mount, but
-must use the second roll even if it is worse.
-
-**Gained:** At 11th Level
-
-**Passive:** A roughrider's mount does not reduce its speed when wearing heavy barding or carrying a
-heavy load.
-
-**Replaces:** Armor training 3
-
-**Usage:** 1 time/day + 1 per 4 fighter levels beyond 11th
-
-**Ride Them Down (Ex)**
-
-**Ability:** A roughrider can spur his mount on while readying an attack. If a roughrider's mount
-takes a single move, the roughrider can make a full attack, taking his attacks at any point during
-his mount's movement. If he has the [Trample](ref/feat/trample) feat, he may substitute an
+At 15th level, can spur his mount on while readying an attack. If a roughrider's mount takes a
+single move, the roughrider can make a full attack, taking his attacks at any point during his
+mount's movement. If he has the [Trample](ref/feat/trample) feat, he may substitute an
 [overrun](ref/rule/overrun) combat maneuver for each of his attacks. This movement provokes attacks
-of opportunity against the roughrider but not his mount.
+of opportunity against the roughrider but not his mount. This ability replaces armor training 4.
 
-**Gained:** At 15th Level
+## Unavoidable Onslaught (Ex) {#unavoidable-onslaught}
 
-**Replaces:** Armor training 4
+At 15th level, a roughrider's mounted charge is not blocked by friendly creatures or
+[difficult terrain](ref/rule/terrain-and-obstacles). This ability replaces armor training 4.
 
-**Unavoidable Onslaught (Ex)**
+## Indomitable Steed (Ex) {#indomitable-steed}
 
-**Gained:** At 15th Level
-
-**Passive:** A roughrider's mounted charge is not blocked by friendly creatures or
-[difficult terrain](ref/rule/terrain-and-obstacles).
-
-**Replaces:** Armor training 4
-
-**Indomitable Steed (Ex)**
-
-**Gained:** At 19th Level
-
-**Passive:** A roughrider and his steed gain DR 5/- when mounted.
-
-**Replaces:** Armor mastery
+At 19th level, a roughrider and his steed gain DR 5/— when mounted. This ability replaces armor
+mastery.
