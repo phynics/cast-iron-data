@@ -1864,7 +1864,7 @@ monster-codex	ref/race/goblin	race	Goblin	4	5	uncited	unaligned		none	0									
 monster-codex	ref/race/ratfolk	race	Ratfolk	4	6	uncited	unaligned		none	0											race-hub	S9		yes	yes			
 monster-summoners-handbook	ref/spell/summon-monster-6	spell	Summon Monster VI	2	2	review	absent	18	row	0								resolved	18	expanded-in-row	single-entry	S0			yes			
 monster-summoners-handbook	ref/spell/summon-monster-8	spell	Summon Monster VIII	2	2	review	absent	18	row	0								resolved	18	expanded-in-row	single-entry	S0			yes			
-monster-summoners-handbook	ref/hex/cackle	class_option	Cackle	3	4	weak	weak		none	1	9										single-entry	S5		yes	yes			
+monster-summoners-handbook	ref/hex/cackle	class_option	Cackle	3	4	weak	weak		none	1	9							remove	9	mention-only	single-entry	done		yes	yes			
 monster-summoners-handbook	ref/spell/summon-monster-1	spell	Summon Monster I	2	2	cite-off	off-page	18	row	3	6,7,31							resolved	18	expanded-in-row	single-entry	S0			yes			
 monster-summoners-handbook	ref/spell/summon-monster-2	spell	Summon Monster II	2	2	cite-off	off-page	18	row	1	6							resolved	18	expanded-in-row	single-entry	S0			yes			
 monster-summoners-handbook	ref/spell/summon-monster-3	spell	Summon Monster III	2	2	cite-off	off-page	18	row	3	6,21,26							resolved	18	expanded-in-row	single-entry	S0			yes			

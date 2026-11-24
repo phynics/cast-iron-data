@@ -2,7 +2,7 @@
 id = "ref/hex/cackle"
 kind = "class_option"
 title = "Cackle"
-source_ids = ["advanced-players-guide", "monster-summoners-handbook", "people-of-the-wastes"]
+source_ids = ["advanced-players-guide", "people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cackle", path = "json/class_ability_hexes.json" },
 ]
