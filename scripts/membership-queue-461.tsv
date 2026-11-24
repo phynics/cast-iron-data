@@ -2119,7 +2119,7 @@ pathfinder-unchained	ref/rule/optional-alignment-changes	rule	Optional Alignment
 pathfinder-unchained	ref/rule/optional-combat-changes	rule	Optional Combat Changes	2	2	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 pathfinder-unchained	ref/rule/optional-magic-changes	rule	Optional Magic Changes	1	4	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 pathfinder-unchained	ref/rule/optional-subsystems	rule	Optional Subsystems	9	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-people-of-the-wastes	ref/hex/cackle	class_option	Cackle	4	4	weak	weak		none	1	21										single-entry	S5		yes	yes			
+people-of-the-wastes	ref/hex/cackle	class_option	Cackle	4	4	weak	weak		none	1	21							remove	21	mention-only	single-entry	done		yes	yes			
 planar-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	9	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 planar-adventures	ref/rule/rare-races	rule	Rare Races	4	20	hub-keep	absent	224	row	0											hub-cited	S11			yes	yes	no	
 plane-hoppers-handbook	ref/rule/feats-roleplaying	rule	Roleplaying Feats	5	6	hub-keep	absent	22	row	0											hub-cited	S11			yes	yes	no	
