@@ -1279,6 +1279,9 @@ def publication_title(corpus: Path, book: str) -> str:
 # Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
 # entry, the printed words, the words written, and why. The review table's note records each fix.
 MISPRINTS = [
+    ("ref/arc-inquisitor/infiltrator", "such as _detect lies_", "such as discern lies",
+     "there is no detect lies spell in Pathfinder; the same entry's trade sentence says \"replaces discern lies\""),
+    ("ref/arc-wizard/scrollmaster", "masterwork light shield sword", "masterwork light shield", "a stray word; the scroll shield is a light shield"),
     ("ref/arc-alchemist/internal-alchemist", "Lighting Reflexes", "Lightning Reflexes", "the feat is Lightning Reflexes"),
     ("ref/arc-barbarian/elemental-kin", "at at 18th level", "at 18th level", "a doubled word"),
     ("ref/arc-druid/cave-druid", "A underground druid", "A cave druid",
@@ -1738,6 +1741,7 @@ def run_compare(args) -> int:
     old_props = read_proposals(proposals_path(corpus, book))
     decisions = read_decisions(corpus, book)
     stops = {squash(x.title) for x in entries} | CLASS_TITLES
+    whole = None
     done = {e.id for e in entries if e.converted}
     redo = {e.id for e in entries if not e.converted}
     rows: list[dict] = [r for r in old_rows if r["entry"] in done or r["entry"] not in redo]
@@ -1746,12 +1750,19 @@ def run_compare(args) -> int:
         if e.converted:
             continue
         page = int(e.page) if e.page.isdigit() else None
-        if page is None:
-            rows.append(entry_hold_row(e, "no page cited"))
-            continue
         top = max(bk.pages)
-        blocks = read_blocks(bk, max(1, page + 1 - 3), min(page + 1 + 4, top))
-        section = find_section(blocks, e.title, stops)
+        if page is None:
+            # no page cited: the title must occur once in the book
+            if whole is None:
+                whole = read_blocks(bk, 1, top)
+            hits = [b for b in whole if b.kind == "title" and squash(b.plain()) in (squash(e.title), squash(e.title) + "archetype")]
+            if len(hits) != 1:
+                rows.append(entry_hold_row(e, f"no page cited, and the title is printed {len(hits)} times"))
+                continue
+            section = find_section(whole, e.title, stops)
+        else:
+            blocks = read_blocks(bk, max(1, page + 1 - 3), min(page + 1 + 4, top))
+            section = find_section(blocks, e.title, stops)
         if section is None:
             rows.append(entry_hold_row(e, f"title not found near page {page}"))
             continue
