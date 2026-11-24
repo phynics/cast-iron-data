@@ -20,12 +20,6 @@ features = [
   { anchor = "elemental-fist", level = 1 },
   { anchor = "slow-time", level = 12 },
   { anchor = "aspect-master", level = 17 },
-  { anchor = "aspect-of-the-carp" },
-  { anchor = "aspect-of-the-ki-rin" },
-  { anchor = "aspect-of-the-monkey" },
-  { anchor = "aspect-of-the-oni" },
-  { anchor = "aspect-of-the-owl" },
-  { anchor = "aspect-of-the-tiger" },
   { anchor = "immortality", level = 20 },
 ]
 trades = [
@@ -69,13 +63,13 @@ aspect. If the monk ever changes his alignment to something outside the aspect's
 restrictions, he loses this ability and cannot regain it unless his alignment later changes again to
 match that of the aspect. This ability replaces timeless body.
 
-## Aspect of the Carp {#aspect-of-the-carp}
+### Aspect of the Carp {#aspect-of-the-carp}
 
 The monk's skin becomes a coat of golden, iridescent fish scales, his neck grows gills, and his
 fingers become webbed. He can breathe water and gains a swim speed equal to his land speed. The carp
 is heroic and adventurous—a monk must be nonevil to take on the aspect of the carp.
 
-## Aspect of the Ki-Rin {#aspect-of-the-ki-rin}
+### Aspect of the Ki-Rin {#aspect-of-the-ki-rin}
 
 The monk's skin takes on a golden luminescence, and a silvery mane that cannot be bound grows atop
 his head. He gains a fly speed equal to his land speed, but he must end each turn on the ground. If
@@ -83,7 +77,7 @@ the monk does not land by the end of his turn, he falls from whatever height he 
 ki-rin is honorable, honest, and self-sacrificing—a monk must be lawful good to take on the aspect
 of the ki-rin.
 
-## Aspect of the Monkey {#aspect-of-the-monkey}
+### Aspect of the Monkey {#aspect-of-the-monkey}
 
 The monk's face becomes that of a monkey, and he grows a prehensile tail. The monk can pick up
 objects and make unarmed attacks with his tail (though the tail does not grant additional unarmed
@@ -91,7 +85,7 @@ attacks or natural attacks). In addition, the monk gains a climb speed equal to 
 monkey is a creature of whimsy and a lover of pranks—a monk of any alignment can take on the aspect
 of the monkey.
 
-## Aspect of the Oni {#aspect-of-the-oni}
+### Aspect of the Oni {#aspect-of-the-oni}
 
 The monk's skin becomes pitch black, and his hair turns white, black, red, or violet. He can assume
 _[gaseous form](ref/spell/gaseous-form)_ (as the spell) as a standard action for 1 minute per day
@@ -99,13 +93,13 @@ per monk level. This duration does not need to be consecutive, but it must be sp
 increments. The oni is treacherous and deceitful, and it hungers for the pain and death of living
 creatures—a monk must be evil to take on the aspect of the oni.
 
-## Aspect of the Owl {#aspect-of-the-owl}
+### Aspect of the Owl {#aspect-of-the-owl}
 
 The monk grows feathers, and his head becomes avian, with wide, unblinking eyes. He gains a fly
 speed of 30 feet. The owl is a sage creature, deeply serious, and driven toward a single goal—a monk
 of any alignment can take on the aspect of the owl.
 
-## Aspect of the Tiger {#aspect-of-the-tiger}
+### Aspect of the Tiger {#aspect-of-the-tiger}
 
 Dark stripes appear on the monk's skin, and his face becomes more feline. His eyes become catlike,
 with vertical pupils, and his canines enlarge. Once per hour, the monk can move at 10 times his

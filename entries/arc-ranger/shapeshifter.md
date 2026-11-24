@@ -19,20 +19,8 @@ kind = "archetype"
 features = [
   { anchor = "combat-style-feat", level = 2 },
   { anchor = "shifter-s-blessing", level = 3 },
-  { anchor = "form-of-the-bear" },
-  { anchor = "form-of-the-cat" },
-  { anchor = "form-of-the-dragon" },
-  { anchor = "form-of-the-eagle" },
-  { anchor = "form-of-the-jackal" },
-  { anchor = "form-of-the-otter" },
   { anchor = "dual-form-shifter", level = 12 },
   { anchor = "master-shifter", level = 20 },
-  { anchor = "master-shifter-form-of-the-bear" },
-  { anchor = "master-shifter-form-of-the-cat" },
-  { anchor = "master-shifter-form-of-the-dragon" },
-  { anchor = "master-shifter-form-of-the-eagle" },
-  { anchor = "master-shifter-form-of-the-jackal" },
-  { anchor = "master-shifter-form-of-the-otter" },
 ]
 trades = [
   { replaces = "Favored terrain", feature = "favored-terrain", by = ["shifter-s-blessing"] },
@@ -68,34 +56,34 @@ ability; a ranger with shifter's blessing in one of his shifted forms can be aff
 ability and retain his bonus and traits gained by the class feature. This ability replaces favored
 terrain.
 
-## Form of the Bear {#form-of-the-bear}
+### Form of the Bear {#form-of-the-bear}
 
 The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this
 form, the ranger gains a +4 enhancement bonus to Strength, but his base speed becomes 20 feet.
 
-## Form of the Cat {#form-of-the-cat}
+### Form of the Cat {#form-of-the-cat}
 
 The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in
 this form, the ranger increases his base speed by 10 feet, and he gains a +4 bonus on Acrobatics and
 Climb checks.
 
-## Form of the Dragon {#form-of-the-dragon}
+### Form of the Dragon {#form-of-the-dragon}
 
 The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +2 natural armor
 bonus to AC.
 
-## Form of the Eagle {#form-of-the-eagle}
+### Form of the Eagle {#form-of-the-eagle}
 
 The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the
 ranger gains a +10 bonus on Perception checks.
 
-## Form of the Jackal {#form-of-the-jackal}
+### Form of the Jackal {#form-of-the-jackal}
 
 The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this
 form, the ranger can spend a move action to move up to 1/2 his speed without provoking attacks of
 opportunity.
 
-## Form of the Otter {#form-of-the-otter}
+### Form of the Otter {#form-of-the-otter}
 
 The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While
 in this form, the ranger gains a swim speed of 30 feet and a +8 bonus on Swim checks.
@@ -112,42 +100,42 @@ beasts. The ranger can use dual form shifter with this ability, although he cann
 polymorph effect at any one time. This ability replaces master hunter. The ranger's forms from
 shifter's blessing improve to the following:
 
-## Form of the Bear {#master-shifter-form-of-the-bear}
+### Form of the Bear {#master-shifter-form-of-the-bear}
 
 The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this
 form, the ranger gains a +8 enhancement bonus to Strength and he does not suffer any reduction of
 speed. Alternatively, the ranger can polymorph into the form of a bear as if the caster of
 _[beast shape IV](ref/spell/beast-shape-4)_.
 
-## Form of the Cat {#master-shifter-form-of-the-cat}
+### Form of the Cat {#master-shifter-form-of-the-cat}
 
 The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in
 this form, the ranger increases his base speed by 20 feet and he gains a +10 bonus on Acrobatics and
 Climb checks. Alternatively, the ranger can polymorph into the form of a cat of any size as if the
 caster of _[beast shape IV](ref/spell/beast-shape-4)_.
 
-## Form of the Dragon {#master-shifter-form-of-the-dragon}
+### Form of the Dragon {#master-shifter-form-of-the-dragon}
 
 The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +4 natural armor
 bonus to AC and a fly speed of 30 feet with average maneuverability. Alternately, the ranger can
 polymorph into the form of a dragon as if the caster of
 _[form of the dragon I](ref/spell/form-of-the-dragon-1)_.
 
-## Form of the Eagle {#master-shifter-form-of-the-eagle}
+### Form of the Eagle {#master-shifter-form-of-the-eagle}
 
 The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the
 ranger gains a +10 bonus on Perception checks and a fly speed of 40 feet with good maneuverability.
 Alternatively, the ranger can polymorph into the form of an eagle or similar raptor as if the caster
 of _[beast shape IV](ref/spell/beast-shape-4)_.
 
-## Form of the Jackal {#master-shifter-form-of-the-jackal}
+### Form of the Jackal {#master-shifter-form-of-the-jackal}
 
 The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this
 form, the ranger does not provoke attacks of opportunity due to movement. Alternatively, the ranger
 can polymorph into the form of a jackal or other canine creature as if the caster of
 _[beast shape IV](ref/spell/beast-shape-4)_.
 
-## Form of the Otter {#master-shifter-form-of-the-otter}
+### Form of the Otter {#master-shifter-form-of-the-otter}
 
 The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While
 in this form, the ranger gains a swim speed of 60 feet and a +5 bonus on Swim checks. Alternatively,
