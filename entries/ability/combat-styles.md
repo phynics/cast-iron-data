@@ -11,6 +11,18 @@ publication = "core-rulebook"
 [[sources]]
 publication = "advanced-players-guide"
 [[sources]]
+publication = "ultimate-intrigue"
+page = "40"
+[[sources]]
+publication = "disciples-doctrine"
+page = "5"
+[[sources]]
+publication = "inner-sea-combat"
+page = "11"
+[[sources]]
+publication = "advanced-class-guide"
+page = "118"
+[[sources]]
 publication = "aquatic-adventures"
 page = "55"
 

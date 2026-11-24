@@ -2,7 +2,7 @@
 id = "ref/faith/rovagug"
 kind = "rule"
 title = "Rovagug"
-source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfinder-23-the-impossible-eye"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-23-the-impossible-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rovagug", path = "json/faiths7.json" },
 ]
@@ -149,37 +149,7 @@ Spring)\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Rovagug's Thunder
->
-> **Sources:** Divine Anthology
->
-> Most copies of Ravage and Ruin, the divine fighting manual of the Rough Beast Rovagug, are
-> scrawled in blood upon flensed skins by orc priests - and indeed the vile techniques described
-> within originated from the Hold of Belkzen not long after the orcs first seized that land as their
-> own. Reviled across the Inner Sea, Ravage and Ruin sees additional use among savage Ulfen clans
-> who have fallen to the Rough Beast's urges to become corrupt, lunatic cannibals who relish
-> despoiling beauty in Rovagug's name.
->
-> **Initial Benefit:** Whenever you succeed at a [dirty trick](ref/rule/dirty-trick) combat maneuver
-> check against an opponent, you deal an amount of nonlethal damage equal to 1d6 + your Charisma
-> modifier. In addition, whenever your dirty trick combat maneuver check beats an opponent's CMD by
-> 5 or more, you can forgo increasing the duration of your condition by 1 or more rounds to instead
-> impose a -2 penalty on all of that opponent's Charisma-based checks. This penalty doesn't stack
-> with itself, and it lasts for a number of minutes equal to your Charisma modifier (minimum of 1
-> minute) or until the target receives any form of magical healing.
->
-> **Advanced Prerequisite:** [Power Attack](ref/feat/power-attack),
-> [Divine Fighting Technique](ref/feat/divine-fighting-technique), Base Attack Bonus +10.
->
-> **Optional Advanced Replacement:** A chaotic evil barbarian of at least 10th level who worships
-> Rovagug can replace a rage power with the following advanced benefit without meeting its
-> prerequisites.
->
-> **Advanced Benefit:** Anytime you use Power Attack with a great axe or a natural attack, you
-> ignore an amount of the target's [hardness](ref/umr/hardness) or
-> [damage reduction](ref/rule/damage-reduction) equal to the penalty Power Attack imparts to your
-> attack roll. This benefit stacks with [Penetrating Strike](ref/feat/penetrating-strike) and
-> [Greater Penetrating Strike](ref/feat/greater-penetrating-strike).
+[Rovagug's Thunder](ref/feat/divine-fighting-technique#sec-rovagug-s-thunder)
 
 ## Follower Options
 

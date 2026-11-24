@@ -2,12 +2,21 @@
 id = "ref/ability/familiars"
 kind = "rule"
 title = "Familiars"
-source_ids = ["core-rulebook", "familiar-folio", "ultimate-magic", "ultimate-wilderness", "animal-archive"]
+source_ids = ["core-rulebook", "familiar-folio", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiars", path = "json/class_abilities6.json" },
 ]
 [[sources]]
 publication = "core-rulebook"
+[[sources]]
+publication = "familiar-folio"
+page = "31"
+[[sources]]
+publication = "ultimate-magic"
+page = "118"
+[[expanded_in]]
+publication = "animal-archive"
+page = "10"
 
 [fields]
 kind = "none"
@@ -29,7 +38,6 @@ familiar abilities that depend on the master's level.
 If a familiar is lost or dies, it can be replaced 1 week later through a specialized ritual that
 costs 200 gp per wizard level. The ritual takes 8 hours to complete.
 
-**Sources:** Familiar Folio, Ultimate Magic\
 While most familiars are Tiny animals or magical beasts, spellcasters may acquire larger or more
 unusual creatures during their travels, which impart certain rules effects that should be considered
 at the table.

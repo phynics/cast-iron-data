@@ -1,0 +1,65 @@
+entry	book	verdict	print_page	evidence	note
+ref/ability/arcane-schools	dragon-empires-primer	remove	29	listed-link ref/arcaneschool/void	one sentence names the void element; its own entry carries the book
+ref/rule/sanity-and-madness	horror-adventures	remove	182	listed-link ref/rule/madness	a note links the Horror Adventures madness rules, which have their own entry
+ref/rule/underwater-combat	aquatic-adventures	remove	none	listed-link ref/rule/fighting-underwater	a see-also line links the Aquatic Adventures rules, which have their own entry
+ref/ability/familiars	ultimate-wilderness	remove	198	listed-link ref/monster/familiar-giant-isopod	the table row links the familiar, which carries the book
+ref/ability/familiars	animal-archive	expands	10	expansion-no-entry	Animal Archive p. 10 prints one more familiar bonus for the giant isopod; the linked entry does not carry the book and no entry holds that bonus
+ref/rule/monster-sahuagin/sahuagin	monster-codex	remove	186	section-read-no-entry	the Sahuagin chapter (pp. 186-197) prints its own introduction and variants; the boxed description of this page is not printed there
+ref/rule/umr-trample/trample	bestiary	cite	305	section-printed	the universal monster rules appendix prints Trample (Ex) on p. 305
+ref/ability/combat-styles	advanced-class-guide	cite	118	section-printed	
+ref/ability/combat-styles	disciples-doctrine	cite	5	section-printed	
+ref/ability/combat-styles	inner-sea-combat	cite	11	section-printed	
+ref/ability/combat-styles	ultimate-intrigue	cite	40	section-printed	
+ref/ability/advanced-weapon-training	blood-of-the-beast	cite	29	section-printed	
+ref/ability/advanced-weapon-training	magic-tactics-toolbox	cite	10	section-printed	
+ref/ability/arcane-schools	advanced-players-guide	cite	142-143	section-printed	
+ref/ability/arcane-schools	ultimate-magic	cite	88	section-printed	
+ref/rule/races	advanced-players-guide	cite	8	section-printed	
+ref/rule/favored-class	advanced-players-guide	cite	8	section-printed	
+ref/ability/domains	advanced-players-guide	cite	86	section-printed	
+ref/rule/types-of-traits	adventurers-armory	cite	30	section-printed	
+ref/rule/types-of-traits	wilderness-origins	cite	23	section-printed	
+ref/rule/types-of-traits	occult-mysteries	cite	36-37	section-printed	
+ref/rule/types-of-traits	cohorts-and-companions	cite	18	section-printed	
+ref/rule/types-of-traits	chronicle-of-legends	cite	2-3	section-printed	
+ref/rule/rare-races	bestiary	cite	115	section-printed	
+ref/rule/rare-races	bestiary-4	cite	122, 174, 264, 280-281	section-printed	
+ref/rule/slimes-molds-and-fungi	bestiary	cite	273	section-printed	
+ref/umr/trample	bestiary	cite	174, 305	section-printed	
+ref/family/robot	bestiary-5	cite	205	section-printed	
+ref/template/hellbound-creature	bestiary-4	cite	56	section-printed	
+ref/misc/damage-die-adjustments	core-rulebook	cite	144-145	section-printed	
+ref/ability/familiars	familiar-folio	cite	31	section-printed	
+ref/ability/familiars	ultimate-magic	cite	118	section-printed	
+ref/ability/blessings	healers-handbook	cite	12-13	section-printed	
+ref/template/vampire	monster-codex	cite	236	section-printed	
+ref/ability/spirits	occult-realms	cite	10	section-printed	
+ref/ability/implements	psychic-anthology	cite	26-29	section-printed	
+ref/rule/feats-roleplaying	ultimate-campaign	cite	66	section-printed	
+ref/rule/feats-class	ultimate-combat	cite	78	section-printed	
+ref/rule/feats-other	ultimate-combat	cite	78	section-printed	
+ref/ability/orders	ultimate-combat	cite	21	section-printed	
+ref/rule/common-cursed-item-effects	ultimate-equipment	cite	340-341, 343	section-printed	
+ref/rule/complex-modifications	ultimate-magic	cite	114-116	section-printed	
+ref/sidekick/eidolon	ultimate-magic	cite	74-75	section-printed	
+ref/ability/sorcerer-bloodlines	ultimate-magic	cite	70	section-printed	
+ref/faith/asmodeus	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/desna	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/erastil	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/irori	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/lamashtu	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/rovagug	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/sarenrae	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/torag	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/urgathoa	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/calistria	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/cayden-cailean	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/abadar	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/gorum	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/zon-kuthon	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/norgorber	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the section was added to the feat entry from print (Divine Anthology p. 30), then linked
+ref/faith/iomedae	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the section was added to the feat entry from print (Weapon Master's Handbook p. 11), then linked
+ref/sidekick/animal-companion	advanced-players-guide	remove	72	generic-archetype-intro	the Archetypes introduction of p. 72 is generic; the copied text and its source line left the body (owner ruling of 2026-11-24)
+ref/sidekick/familiar	advanced-players-guide	remove	72	generic-archetype-intro	the Archetypes introduction of p. 72 is generic; the copied text and its source line left the body (owner ruling of 2026-11-24)
+ref/family/elemental	bestiary-2	remove	none	copied-generic-section	the closing sentence and its source line (Bestiary 2, Bestiary 5) were copied generic text and left the body (owner ruling 3 of 2026-11-24); the book prints no Elemental section
+ref/family/elemental	bestiary-5	remove	none	copied-generic-section	the closing sentence and its source line (Bestiary 2, Bestiary 5) were copied generic text and left the body (owner ruling 3 of 2026-11-24); the book prints no Elemental section

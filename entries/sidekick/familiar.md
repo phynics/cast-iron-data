@@ -2,7 +2,7 @@
 id = "ref/sidekick/familiar"
 kind = "rule"
 title = "Familiar"
-source_ids = ["core-rulebook", "advanced-players-guide"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar", path = "json/sidekicks.json" },
 ]
@@ -121,18 +121,6 @@ level) that equals or exceeds the familiar's spell resistance.
 casting the _[scrying](ref/spell/scrying)_ spell) once per day.
 
 ### Archetypes
-
-**Source** Advanced Player's Guide pg. 72\
-From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
-that basic concept exists the potential for innumerable interpretations, details, and refinements;
-and some archetypes prove pervasive and exciting enough to see use in play time and time again.
-
-To help players interested in creating iconic fantasy characters, **archetypes** were introduced.
-These optional features represent a unique view of what a class deliberately designed to capture a
-specific character archetype might become. While the types of options presented for each class
-differ, each subsystem is customized to best serve that class, emulate the abilities and talents of
-classic fantasy archetypes, and expand players' freedom to design exactly the characters they
-desire.
 
 **Ambassador**
 

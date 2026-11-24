@@ -2,7 +2,7 @@
 id = "ref/faith/iomedae"
 kind = "rule"
 title = "Iomedae"
-source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", "pathfinder-26-the-sixfold-trial"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iomedae", path = "json/faiths4.json" },
 ]
@@ -174,30 +174,7 @@ Sargava\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Iomedae's Inspiring Sword
->
-> **Sources:** Weapon Master's Handbook
->
-> Iomedae demonstrates how to turn a longsword into a shining beacon of hope.
->
-> **Optional Replacement:** A paladin who worships Iomedae can replace a mercy with this initial
-> benefit, even if she doesn't meets its prerequisites.
->
-> **Initial Benefit:** While wielding a longsword, you can perform an impressive display of prowess
-> as a full-round action. All allies within 30 feet who can see your display gain a +2 sacred bonus
-> on attack rolls, saving throws, and skill checks for 1 round + 1 round per 5 points of base attack
-> bonus you have.
->
-> **Advanced Prerequisite:** [Dazzling Display](ref/feat/dazzling-display),
-> [Weapon Focus](ref/feat/weapon-focus) (longsword), Base Attack Bonus +10.
->
-> **Optional Advanced Replacement:** A paladin of at least 9th level who worships Iomedae can
-> replace a mercy with the following advanced benefit, even if she doesn't meet the benefit's
-> prerequisites.
->
-> **Advanced Benefit:** As a standard action or at the end of a charge, you can make an attack
-> against a foe with a longsword. If you succeed, you grant all allies who can see your attack a +2
-> sacred bonus on attack rolls, saving throws, and skill checks for 1 minute.
+[Iomedae's Inspiring Sword](ref/feat/divine-fighting-technique#sec-iomedae-s-inspiring-sword)
 
 ## Follower Options
 

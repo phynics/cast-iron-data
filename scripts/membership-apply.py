@@ -69,7 +69,8 @@ It refuses a row that
     and the entry holds a `[[sources]]` row for it whose page is exactly the reviewed `print_page`.
     A gated row with any other value is refused, and so is a queue that also removes that proposed
     book from the same entry (the rows are checked against the files as they are now, then applied
-    one after another). Or has tag `hub-keep`,
+    one after another). Or has tag `hub-keep`, unless its evidence is `hub-link`, `listed-link` or
+    `hub-no-evidence` (design (a) of the link-only hubs, owner ruling of 2026-11-24),
   * would leave `source_ids` empty (the last book of an entry is never removed),
   * names a book that is not in the entry's `source_ids`, or an entry that does not exist.
 It never edits an `id` and never moves a file. The edit is textual and keeps the canonical form;
@@ -93,6 +94,12 @@ import tomllib
 from collections import defaultdict
 from pathlib import Path
 
+
+# Owner ruling of 2026-11-24 on #461, design (a): a link-only hub keeps only its home book, so the tag
+# `hub-keep` (#94: a hub membership is never a removal) yields to a verdict that names the listed
+# entry which carries the book (`hub-link <target>`, `listed-link <target>`) or finds no entry that
+# does (`hub-no-evidence <record>`). `scripts/hub-verdicts-461.py` derives them.
+HUB_DESIGN_EVIDENCE = ("hub-link", "hub-no-evidence", "listed-link")
 
 PAGE_TEXT = re.compile(r"\d+(?:\s*[-\u2013]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-\u2013]\s*\d+)?)*|inside cover")
 
@@ -124,7 +131,8 @@ def read_queue(path: Path, only_kind: str | None) -> list[dict]:
             continue
         cleared = (r["gate"] == "primary" and r["proposed_primary"] and r["proposed_primary"] != r["book"]
                    and r["proposed_status"] in ("printed", "body", "unverified-no-pdf"))
-        if (r["gate"] and not cleared) or r["tag"] == "hub-keep":
+        hub_design = r["evidence"].split(" ")[0] in HUB_DESIGN_EVIDENCE
+        if (r["gate"] and not cleared) or (r["tag"] == "hub-keep" and not hub_design):
             raise SystemExit(f"refused: {r['entry']} in {r['book']} is gated or a hub (gate={r['gate']!r}, tag={r['tag']})")
         if not r["print_page"] or not r["evidence"]:
             raise SystemExit(f"refused: {r['entry']} in {r['book']} has no print_page/evidence recorded")
@@ -351,10 +359,21 @@ def split_segment(seg: str) -> tuple[str, str]:
     return seg, ""
 
 
+SERIES_PREFIX = re.compile(r"^(?:pathfinder rpg|pathfinder roleplaying game|prpg) ")
+
+
+def same_book(seg_title: str, ft: str) -> bool:
+    """The segment's title names the book, with or without the series prefix of the old citations
+    (`Pathfinder RPG Bestiary`, `PRPG Core Rulebook`). `Bestiary 5` is another book."""
+    s = fold(seg_title)
+    return s == ft or SERIES_PREFIX.sub("", s) == ft
+
+
 def convert_body_lines(text: str, title: str, page: str, name: str) -> tuple[str, int]:
     """Take the book's part out of the body `**Source**` lines. Returns the text and the number
     of parts taken out. Refuses a part whose page does not overlap `page`. A line that does not
-    name the book exactly (a longer title, another book) is left as it is."""
+    name the book exactly (a longer title, another book) is left as it is; the series prefix of the
+    old citations (`Pathfinder RPG Bestiary`, `PRPG Core Rulebook`) is not part of the title."""
     start = text.index("+++", 3) + 3 if text.startswith("+++") else 0
     head, body = text[:start], text[start:]
     ft = fold(title)
@@ -370,7 +389,7 @@ def convert_body_lines(text: str, title: str, page: str, name: str) -> tuple[str
         keep, found = [], 0
         for seg in re.split(r",\s*(?=[A-Z])", rest):
             seg_title, seg_page = split_segment(seg)
-            if fold(seg_title) != ft:
+            if not same_book(seg_title, ft):
                 keep.append(seg.strip())
                 continue
             if seg_page and not overlap(seg_page, page):

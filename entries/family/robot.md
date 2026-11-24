@@ -8,6 +8,9 @@ provenance = [
 ]
 [[sources]]
 publication = "inner-sea-bestiary"
+[[sources]]
+publication = "bestiary-5"
+page = "205"
 
 [fields]
 kind = "none"
@@ -44,8 +47,6 @@ fueled by its central energy core, and unless otherwise indicated, a robot's wea
 have infinite ammunition and power.
 
 ### Robot
-
-**Sources:** Bestiary 5
 
 Products of advanced scientific technology, the constructs called robots are animated by engineering
 and advanced science rather than magic. Most people refer to robots as "automatons" or "metal men";

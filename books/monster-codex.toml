@@ -2157,10 +2157,6 @@ title = "Sahuagin"
 entry = "ref/carried/monster-codex/rules/sahuagin"
 
 [[books.chapters.children]]
-title = "Sahuagin"
-entry = "ref/rule/monster-sahuagin/sahuagin"
-
-[[books.chapters.children]]
 title = "New Rules"
 entry = "ref/carried/monster-codex/rules/sahuagin/new-rules"
 

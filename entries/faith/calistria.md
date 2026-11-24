@@ -2,7 +2,7 @@
 id = "ref/faith/calistria"
 kind = "rule"
 title = "Calistria"
-source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", "inner-sea-temples", "pathfinder-17-a-memory-of-darkness"]
+source_ids = ["inner-sea-gods", "planar-adventures", "inner-sea-temples", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calistria", path = "json/faiths2.json" },
 ]
@@ -157,29 +157,7 @@ revenge or trickery)\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Calistria's Poisoned Lash
->
-> **Sources:** Weapon Master's Handbook
->
-> Calistria inspires creative ways to poison foes.
->
-> **Optional Replacement:** A chaotic neutral [rogue](ref/class/rogue) or [slayer](ref/class/slayer)
-> who worships Calistria can replace one talent with the following initial benefit.
->
-> **Initial Benefit:** You can apply poison (your choice) to a whip as a move action. You do not
-> risk poisoning yourself when applying poison to a whip. A whip you wield can deliver contact
-> poison upon a successful combat maneuver check as well as upon a successful attack roll,
-> regardless of whether you deal damage.
->
-> **Advanced Prerequisite:** [Whip Mastery](ref/feat/whip-mastery), Base Attack Bonus +10.
->
-> **Optional Advanced Replacement:** A chaotic neutral rogue or slayer who worships Calistria can
-> replace one advanced talent with the following advanced benefit even if she doesn't meet the
-> prerequisites.
->
-> **Advanced Benefit:** You can apply poison to a whip as a swift action. You can apply up to 3
-> doses of the same poison to a whip at a time. Foes are exposed to only 1 dose of poison from any
-> one attack.
+[Calistria's Poisoned Lash](ref/feat/divine-fighting-technique#sec-calistria-s-poisoned-lash)
 
 ## Follower Options
 

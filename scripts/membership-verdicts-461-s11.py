@@ -96,9 +96,11 @@ def main() -> int:
         if q["verdict"] and q["verdict"] != v["verdict"]:
             raise SystemExit(f"refused: {v['entry']} in {v['book']} has the verdict {q['verdict']} already")
         if not q["verdict"] or q["print_page"] != v["print_page"] or q["evidence"] != v["evidence"] \
-                or (v.get("proposed_primary") and (q["proposed_primary"] != v["proposed_primary"] or q["gate"] != "primary")):
+                or (v.get("group") and q["group"] != v["group"]) or (v.get("proposed_primary") and (q["proposed_primary"] != v["proposed_primary"] or q["gate"] != "primary")):
             pending += 1
             q.update(verdict=v["verdict"], print_page=v["print_page"], evidence=v["evidence"], slice="done")
+            if v.get("group"):
+                q["group"] = v["group"]  # the entry's group changed with the edit that made the removal possible
             if v.get("proposed_status"):
                 q["proposed_status"] = v["proposed_status"]
             if v.get("proposed_primary"):

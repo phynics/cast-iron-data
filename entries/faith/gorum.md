@@ -2,7 +2,7 @@
 id = "ref/faith/gorum"
 kind = "rule"
 title = "Gorum"
-source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", "pathfinder-35-war-of-the-river-kings"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorum", path = "json/faiths3.json" },
 ]
@@ -130,31 +130,7 @@ the Mammoth Lords, River Kingdoms\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Gorum's Swordmanship
->
-> **Sources:** Weapon Master's Handbook
->
-> **Optional Replacement:** A chaotic neutral barbarian or fighter who worships Gorum can replace a
-> bonus feat or rage power with the following initial benefit.
->
-> **Initial Benefit:** If you have the [Vital Strike](ref/feat/vital-strike) feat, you can apply its
-> effect to an attack you make with a greatsword at the end of a charge. If you don't have the Vital
-> Strike feat, that attack deals 1 additional point of damage instead. The first time you make an
-> attack of opportunity with a greatsword after using Vital Strike with a greatsword on your turn,
-> you can apply Vital Strike to that attack of opportunity.
->
-> **Advanced Prerequisite:** Strength 13, [Cleave](ref/feat/cleave),
-> [Power Attack](ref/feat/power-attack), Vital Strike, Base Attack Bonus +10.
->
-> **Optional Advanced Replacement:** A chaotic neutral barbarian or fighter of at least 10th level
-> who worships Gorum can replace a bonus feat or rage power with the following advanced benefit,
-> even if she doesn't meet the prerequisites.
->
-> **Advanced Benefit:** When you use Vital Strike,
-> [Improved Vital Strike](ref/feat/improved-vital-strike), or
-> [Greater Vital Strike](ref/feat/greater-vital-strike) with a greatsword, the damage counts as
-> continuous damage from an injury for the purpose of determining whether a target must attempt a
-> [concentration](ref/rule/concentration) check to cast spells.
+[Gorum's Swordsmanship](ref/feat/divine-fighting-technique#sec-gorum-s-swordmanship)
 
 ## Follower Options
 

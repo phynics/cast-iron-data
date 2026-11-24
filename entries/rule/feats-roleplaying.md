@@ -21,6 +21,9 @@ page = "98"
 [[sources]]
 publication = "plane-hoppers-handbook"
 page = "22"
+[[sources]]
+publication = "ultimate-campaign"
+page = "66"
 
 [fields]
 kind = "none"
@@ -125,7 +128,6 @@ court the favor of the fey with audacious deeds, and are sometimes rewarded by b
 
 ### Story Feats
 
-**Sources:** Ultimate Campaign pg 66\
 A story feat (76 feats) reflects a goal - often an all-consuming one - that shapes your life. Each
 story feat incorporates a trigger event (which comes from either a campaign occurrence or your
 background), an immediate benefit, a goal, and a further benefit for achieving that goal.

@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "415"
 [[sources]]
+publication = "bestiary"
+page = "273"
+[[sources]]
 publication = "darklands-revisited"
 page = "61"
 
@@ -64,7 +67,6 @@ of Constitution damage. Another DC 15 Fortitude save is required once per round 
 rounds, to avoid taking 1d3 points of Constitution damage each round. A successful Fortitude save
 ends this effect. Fire destroys yellow mold, and sunlight renders it dormant.
 
-**Sources:** Pathfinder RPG Bestiary pg 273\
 **Russet Mold (CR 6):** This hazardous fungus can be found in dark, wet areas, and often grows in
 great abundance at the heart of a [vegepygmy](ref/monster/vegepygmy) lair. When a creature
 approaches within 5 feet of a patch of russet mold, the fungus releases a cloud of spores in a

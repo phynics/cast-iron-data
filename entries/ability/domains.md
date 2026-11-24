@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "40"
+[[sources]]
+publication = "advanced-players-guide"
+page = "86"
 
 [fields]
 kind = "none"
@@ -34,7 +37,6 @@ level. Unless otherwise noted, using a domain power is a **standard action**.
 
 ### Subdomains
 
-**Sources:** Advanced Player's Guide pg 86\
 Every domain has a number of subdomains associated with it. Each subdomain replaces a granted power
 and a number of spells in the domain's granted spell list. A cleric who chooses a subdomain must
 have access to both the domain and its subdomain from her deity. If a cleric selects a subdomain,

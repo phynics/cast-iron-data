@@ -2,7 +2,7 @@
 id = "ref/faith/desna"
 kind = "rule"
 title = "Desna"
-source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfinder-2-the-skinsaw-murders", "monster-summoners-handbook"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-2-the-skinsaw-murders", "monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desna", path = "json/faiths3.json" },
 ]
@@ -143,43 +143,7 @@ Varisia\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Desna's Shooting Star
->
-> **Sources:** Divine Anthology
->
-> Among the divine fighting manuals of the Inner Sea, few are as ancient as Clamor of the Spheres, a
-> collection of fighting techniques favored by Desna's faithful. True to its name, the manual
-> focuses on interpreting the chaos and sounds of combat, but nevertheless provides insightful and
-> downright brilliant methods of defense with Desna's favored weapon, using techniques that treat a
-> fight with a starknife more as a beautiful dance than a battle.
->
-> **Optional Replacement:** A chaotic good bard of at least 2nd level who worships Desna can replace
-> a versatile performance with the following initial benefit.
->
-> **Initial Benefit:** You can add your Charisma bonus to attack rolls and damage rolls when
-> wielding a starknife. If you do so, you don't modify attack rolls and damage rolls with your
-> starknife with your Strength modifier, your Dexterity modifier (if you have
-> [Weapon Finesse](ref/feat/weapon-finesse)), or any other ability score (if you have an ability
-> that allows you to modify attack rolls and damage rolls with that ability score).
->
-> **Advanced Prerequisite:** Dexterity 17,
-> [Divine Fighting Technique](ref/feat/divine-fighting-technique),
-> [Point-Blank Shot](ref/feat/point-blank-shot), [Rapid Shot](ref/feat/rapid-shot), either Base
-> Attack Bonus +11 or 11 ranks in [Sleight of Hand](ref/skill/sleight-of-hand).
->
-> **Optional Advanced Replacement:** A chaotic good bard of at least 10th level who worships Desna
-> can replace a versatile performance with the following advanced benefit without meeting its
-> prerequisites.
->
-> **Advanced Benefit:** You can impart a powerful spin to a thrown starknife so that multiple blades
-> strike the target rather than just a single blade of the four, dealing extra damage with the other
-> blades. As a full-round action, you can make a single attack with a thrown starknife, rolling 1d4
-> to determine how many effective strikes you gain with the attack (if you roll a 1, then only one
-> blade strikes). If the attack hits, all of the effective strikes damage the target. Apply
-> precision-based damage (such as sneak attack damage) and critical hit damage only once for this
-> attack. The damage bonus from your appropriate ability score modifier applies to each strike, as
-> do other damage bonuses, such as a bard's inspire competence bonus.
-> [Damage reduction](ref/rule/damage-reduction) and resistances apply separately to each strike.
+[Desna's Shooting Star](ref/feat/divine-fighting-technique#sec-desna-s-shooting-star)
 
 ## Follower Options
 

@@ -16,9 +16,13 @@ page = "132"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "measure-the-mark", level = 1 },
+  { anchor = "stab-and-grab", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["measure-the-mark"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["stab-and-grab"] },
 ]
 +++
 
@@ -29,30 +33,30 @@ Some find themselves taking up the mantle of adventurer, and their talents are g
 in this role, but the cutpurse is still the first person her companions look to when an item goes
 missing.
 
-**Measure the Mark (Ex)**
+## Measure the Mark (Ex) {#measure-the-mark}
 
-**Ability:** When a cutpurse makes a Sleight of Hand check to take something from a creature, the
-target makes its Perception check before the rogue makes her Sleight of Hand check, and the rogue
-knows the Perception check result. She can decide whether or not to make the check based on the
-results of the target's Perception check. If the rogue elects not to make the check, she can make a
-Bluff check, opposed by the target's Sense Motive, to prevent the target from noticing the attempt.
+When a cutpurse makes a Sleight of Hand check to take something from a creature, the target makes
+its Perception check before the rogue makes her Sleight of Hand check, and the rogue knows the
+Perception check result. She can decide whether or not to make the check based on the results of the
+target's Perception check. If the rogue elects not to make the check, she can make a Bluff check,
+opposed by the target's Sense Motive, to prevent the target from noticing the attempt. This ability
+replaces trapfinding.
 
-**Replaces:** Trapfinding
+## Stab and Grab (Ex) {#stab-and-grab}
 
-**Stab and Grab (Ex)**
+At 3rd level, as a full-round action, a cutpurse can make an attack and also make a Sleight of Hand
+check to steal something from the target of the attack. If the attack deals sneak attack damage, the
+rogue can use Sleight of Hand to take an item from the creature during combat; otherwise this
+ability can only be used in a surprise round before the target has acted. If the attack is
+successful, the target takes a -5 penalty on the Perception check to notice the theft. This ability
+replaces trap sense.
 
-**Fullround:** A cutpurse can make an attack and also make a Sleight of Hand check to steal
-something from the target of the attack. If the attack deals sneak attack damage, the rogue can use
-Sleight of Hand to take an item from the creature during combat; otherwise this ability can only be
-used in a surprise round before the target has acted. If the attack is successful, the target takes
-a -5 penalty on the Perception check to notice the theft.
+## Rogue Talents {#rogue-talents}
 
-**Gained:** At 3rd Level
+The following rogue talents complement the cutpurse archetype: combat swipe, fast fingers, fast
+getaway, hard to fool, minor magic, slow reactions, and surprise attack.
 
-**Replaces:** Trap sense
+## Advanced Talents {#advanced-talents}
 
-**These rogue talents complement this archetype:** Combat swipe, fast fingers, fast getaway, hard to
-fool, minor magic, slow reactions, surprise attack
-
-**These advanced rogue talents complement this archetype:** Crippling strike, fast tumble, skill
-mastery
+The following advanced rogue talents complement the cutpurse archetype: crippling strike, fast
+tumble, and skill mastery.

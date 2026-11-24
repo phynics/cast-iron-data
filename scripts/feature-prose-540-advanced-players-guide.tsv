@@ -1,0 +1,491 @@
+entry	feature	anchor	listed	level	source	status	note	page	span_sha256
+ref/arc-barbarian/breaker	Destructive (Ex)	destructive	yes	1	print	print	level 1: replaces Fast movement, gained at 1st level in the class table	78	2a40a9322d4c26d1f16b6e498255400b6f581965590e0e544717dca8ef029564
+ref/arc-barbarian/breaker	Battle Scavenger (Ex)	battle-scavenger	yes	3	print	print		78	2c3a2de28748d9f3e37d5e1f8bb2525c39f62c397c9fb156b752a6b639ce36fa
+ref/arc-barbarian/breaker	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	78	89610b0d46d276412cf947f55355ea557a49d746842c0efd7e106e94e1ceaf2b
+ref/arc-barbarian/brutal-pugilist	Savage Grapple (Ex)	savage-grapple	yes	2	print	print		78	ca7a55be2d42078177570fd4f2bd21af57d447fd7c34e2772e37a5fefd0c466b
+ref/arc-barbarian/brutal-pugilist	Pit Fighter (Ex)	pit-fighter	yes	3	print	print		78	23a51e8c7e1467aa817c1d07581b1d86235f729faf1db56a6220458d9aaba781
+ref/arc-barbarian/brutal-pugilist	Improved Savage Grapple (Ex)	improved-savage-grapple	yes	5	print	print		78	f2d9531ffbe50ba1e34ee217800d8ec63fbdde81057a7e696af75d885a0ac077
+ref/arc-barbarian/brutal-pugilist	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	78	352a59d3567f67b38d77e8dc5a534607530fb332f3d91fe4e336628d2def4819
+ref/arc-barbarian/drunken-brute	Raging Drunk (Ex)	raging-drunk	yes	1	print	print	level 1: replaces Fast movement, gained at 1st level in the class table	78	947cdbc2979151aefab6fa3b65f97b6f9bcbf5a499820c9ebebc0e6f53d64470
+ref/arc-barbarian/drunken-brute	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	78	2a95207c52b2d46d7e0f2ee827cc0496134c6cc21b916e92667f6be7efda75a5
+ref/arc-barbarian/elemental-kin	Elemental Fury (Ex)	elemental-fury	yes	3	print	print	hand review (ruling 14, misprint): Values are equal: 1 at 3rd, 2 at 6th, 3 at 9th, 4 at 12th, 5 at 15th, 6 at 18th (one-third also gives 6 at 20th). The doubled word needs a fix: write "…per energy attack at 18th level."; misprint fixed: print has "at at 18th level", written "at 18th level" (a doubled word); link not placed: one-third	78	e7d0ea5214324e75610e00ecba348f5e1c9a4654f706e69187e1fbb269f7addb
+ref/arc-barbarian/elemental-kin	Rage Powers	rage-powers	no		print	print		78	406fa7a08b84dcf4e4d65b6e73d2801032b1431ebf68784ae5277ef1eeccdd8a
+ref/arc-barbarian/hurler	Skilled Thrower (Ex)	skilled-thrower	yes	1	print	print	level 1: replaces Fast movement, gained at 1st level in the class table	79	56dc55545e5bed5a47594e46bfca8b787e54d911428b289f3573f0fb70cfc092
+ref/arc-barbarian/hurler	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	79	5e294db8e1622da8c27a9d19217adcdff41934f35ea9981145de6b6974ff6332
+ref/arc-barbarian/invulnerable-rager	Invulnerability (Ex)	invulnerability	yes	2	print	print		79	de9b12a28af978622baf1e1f6c5c6c4f865a7302672f50d7c905d73e0fe2f4a6
+ref/arc-barbarian/invulnerable-rager	Extreme Endurance (Ex)	extreme-endurance	yes	3	print	print		79	f7e4a88d28e2af7e0162d1bfad5c0e7fc7e067238fd4aabe33b3343c64e0dccc
+ref/arc-barbarian/invulnerable-rager	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	79	2cae8d9ed4ef93de16e77c1250b1358529690b5bd74e82e637be593f78d541f1
+ref/arc-barbarian/mounted-fury	Fast Rider (Ex)	fast-rider	yes	1	print	print	level 1: replaces Fast movement, gained at 1st level in the class table	79	d89d56a436849b1642d697b6a021d0c069a85909ab5402af615277540ed2b312
+ref/arc-barbarian/mounted-fury	Bestial Mount (Ex)	bestial-mount	yes	5	print	print		79	fcabff98a12823e43f9df58a447f35aaf1b656957ccc4989c2f246d368702696
+ref/arc-barbarian/mounted-fury	Rage Powers	rage-powers	no		print	print		79	ce2e7d741524c4487e9810bbf76660a002ee0b0914d0b42fc17d8f0b45809722
+ref/arc-barbarian/savage-barbarian	Naked Courage (Ex)	naked-courage	yes	3	print	print		79	b6c81958beef9afd5d9ce9a1100259d94eeac1ecff56936000d4a2e533affa18
+ref/arc-barbarian/savage-barbarian	Natural Toughness (Ex)	natural-toughness	yes	7	print	print		79	f8e98c00a8507baefe2581e685cf5350ba16021a09047349052edb282e1ebed5
+ref/arc-barbarian/savage-barbarian	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	79	62426a3dcf7e0dde2488495eea96d075423b8fa704bef5065464950eb255add3
+ref/arc-barbarian/superstitious	Sixth Sense (Ex)	sixth-sense	yes	3	print	print	rule 8: the printed progression and the corpus's fraction of the level give the same values; print's wording taken	79	2f19e6083a3f16e4cbbaa4ee623e88e013cbc3486d51afffbf5427f2762b0998
+ref/arc-barbarian/superstitious	Keen Senses (Ex)	keen-senses	yes	7	print	print		79	c71cccf7b9e3331d9f6ffad42839927d1d73186676f68edd35c0dcf2924e1ea2
+ref/arc-barbarian/superstitious	Rage Powers	rage-powers	no		print	print	print asterisks without their key dropped	79	becaf18ba502d03289ef22bcecfcf0f505fd946553a9f4b9b0cf6588ff5448a6
+ref/arc-bard/arcane-duelist	Arcane Strike	arcane-strike	yes		print	print		80	ed5cfae04aa1e4d39d6622dd9bfcfe0c4f795f2a50752101f84183d434bf04a9
+ref/arc-bard/arcane-duelist	Bardic Performance	bardic-performance	yes		draft	draft		80	679b8c6938cc2e31cafa61a07cf1a62277fed0ceb220e67c1504076766268c48
+ref/arc-bard/arcane-duelist	Rallying Cry (Su)	rallying-cry	yes	1	print	print		80	ce6eac091207bba88616642f60f5093f61652ae3a2ccd9765fa78d999c825716
+ref/arc-bard/arcane-duelist	Bladethirst (Su)	bladethirst	yes		print	print		80	9abad3da1aa339c3f423336ba41e95158897e164cf646fef5771ac5ae2817bb3
+ref/arc-bard/arcane-duelist	Mass Bladethirst (Su)	mass-bladethirst	yes		print	print		80	3f7a70881451c4ddd4b838ad5ddda1bcf83b4551dcb454957db92331e227531b
+ref/arc-bard/arcane-duelist	Bonus Feats	bonus-feats	no		print	print	hand review (ruling 14, print): Same five feats at the same levels. It is a scaffold heading; its trade is ruling 13.	80	9fc00c123e99b4da6c2372427c0c61e2e89c0b68447a460e6435912ecd00f23f
+ref/arc-bard/arcane-duelist	Arcane Bond (Ex)	arcane-bond	yes	5	print	print	hand review (ruling 14, print): The restriction is printed; the import dropped it.	80	c866f7ddc12bbe6267345e37a3a1d7b42e01a7f70a473246091d1f11af510999
+ref/arc-bard/arcane-duelist	Arcane Armor (Ex)	arcane-armor	yes	10	print	print	hand review (ruling 14, print): Same rule, different words.	80	d47ffee3d97182bcd22bd8ae107030bf8ae0d83d2c661fef14471a514d3fad7f
+ref/arc-bard/arcane-duelist	Bonded Object	bonded-object	no			print	hand review (ruling 14, structural): The text is copied from the wizard class, not from this book. Drop the section (ruling 10).; link of the dropped section not placed: concentration; link of the dropped section not placed: Craft Magic Arms and Armor		88c771b5f0846b0a5977c33d693b48c40eb3df8c8af382b95cfd3f6a5db080ba
+ref/arc-bard/archivist	Bardic Performance	bardic-performance	yes		draft	draft		80	c32b37516bf1780dba27961c20374e9c098bd093cc90488ffbffd1a3924772c5
+ref/arc-bard/archivist	Naturalist (Ex)	naturalist	yes		print	print		80	13ddacfb62f8161597d458ee00e3cd63f17378450d1800b51048adcd1fe7bf2f
+ref/arc-bard/archivist	Lamentable Belaborment (Ex)	lamentable-belaborment	yes	6	print	print	link not placed: half	80	f51dc4826c2576461e9d8d4afc49acefba640dfd7d4c48f3dae7c24477f1ba7c
+ref/arc-bard/archivist	Pedantic Lecture (Su)	pedantic-lecture	yes	18	print	print		80	ab6378cf7968e3836a03def1968dc70461c2c3df7b0b18a40b374da76efe7072
+ref/arc-bard/archivist	Lore Master (Ex)	lore-master	yes	2	print	print	ruling 10: corpus text that print does not have is dropped: “At 2nd level, an archivist may take …”	80	060f3c4d2897edbf14acee5a474ace86a51216ab1e18416693e47109b2b0e00c
+ref/arc-bard/archivist	Magic Lore (Ex)	magic-lore	yes	2	print	print		81	498bf7eb4604fda6c7b8c8091c6029fa6cf93f00ebaa498a38831cf83507ce98
+ref/arc-bard/archivist	Jack of All Trades (Ex)	jack-of-all-trades	yes	5	print	print		81	dd5dac1a7304071d076ac8f6d307f9fe21c2b25c9a4ec2839ee71ba03fc9f7ed
+ref/arc-bard/archivist	Probable Path (Ex)	probable-path	yes	10	print	print		81	3c8ec558326b58cb67883fe8253c7c5ccff170ac49de8fb3eb6af045f2e8ed8e
+ref/arc-bard/court-bard	Bardic Performance	bardic-performance	yes		draft	draft		81	da3b7ac1b3ba8ef7b72a04a1a7c67048540ae27f5818614ba965755832bb1354
+ref/arc-bard/court-bard	Satire (Su)	satire	yes		print	print		81	f7dff2e6a1a787c6b2fde24cdb7e49d1736c879639aca7e09c664ac743bc1645
+ref/arc-bard/court-bard	Mockery (Su)	mockery	yes		print	print		81	d21fe564589494f89241aa3245ca7cccfff7cc8e047354642604a99021d10c89
+ref/arc-bard/court-bard	Glorious Epic (Su)	glorious-epic	yes		print	print	link not placed: half	81	ce5f313dc963e6007a31f1cf4dacb1dbf4e7cf3eca6bfc4863e12f78b36cf268
+ref/arc-bard/court-bard	Scandal (Su)	scandal	yes		print	print		81	4ce487683b307c863f01a0c403d8654c49553b3cf59035809ecb26e7191ee0d0
+ref/arc-bard/court-bard	Heraldic Expertise (Ex)	heraldic-expertise	yes		print	print		81	94b8e08947085b1d673897807699afa0a2338a3066e7c1fe5138b2011227fb9a
+ref/arc-bard/court-bard	Wide Audience (Su)	wide-audience	yes	5	print	print		81	246c41987a60c2c5d8eb40e319ace146b79d7cfe11dbf0e47d6117d7d04c0486
+ref/arc-bard/detective	Bardic Performance	bardic-performance	yes		draft	draft		81	952702d865565dd306fbb5c6b0fe1a346259a3f1a183144337c72a00b3edfcac
+ref/arc-bard/detective	Careful Teamwork (Su)	careful-teamwork	yes		print	print		81	efe7ef0c89d6cc57357e87d216737fa0dc62d574fadda83d3dc999cb9dc3e9a7
+ref/arc-bard/detective	True Confession (Su)	true-confession	yes	9	print	print	hand review (ruling 14, print): Same values.; link not placed: half	81	40613f9b417fd8a8c35ba4aabccca6acdd9a04fb29de471820320c27c07d07d2
+ref/arc-bard/detective	Show Yourselves (Ex)	show-yourselves	yes	15	print	print		82	444383c70a8465384e121acc14b03f45b56f96e151ab4fe89abbede25cc00e8a
+ref/arc-bard/detective	Eye for Detail (Ex)	eye-for-detail	yes		print	print		82	8cf98670d1470549f1c01aee6b8714042a2e2e99f5de5593dac4dc81df7d8185
+ref/arc-bard/detective	Arcane Insight (Ex)	arcane-insight	yes	2	print	print		82	50d3a1fcd24f05d198d0f43b707751d5e4a79c630e7e38dbba17ff235c7ff3b1
+ref/arc-bard/detective	Arcane Investigation	arcane-investigation	yes		print	print	hand review (ruling 14, print): The corpus's list is the expansion of print's rule. Same spell list.	82	c54f244fe5b803100f0010f775c597ccd271d8e5a8b72669bc6cfa949c1fb4d1
+ref/arc-bard/magician	Bardic Performance	bardic-performance	yes		draft	draft		82	12e1b83a5747f511bbfdf22cb61fa47d64c5f7b3e6e82ac644d52e6a0b0a2f19
+ref/arc-bard/magician	Dweomercraft (Su)	dweomercraft	yes		print	print		82	41110e04fac102552e66d6ef1e7fc9298942fb8c015c53fe91c20bd35732ef2b
+ref/arc-bard/magician	Spell Suppression (Su)	spell-suppression	yes	8	print	print	misprint fixed: print has "A 8th level", the lead is "At 8th level"	82	bc748bea7935d1d2ad3428d5380d70d9c7007333b1b2e20ccd1d41e5edaac5cd
+ref/arc-bard/magician	Metamagic Mastery (Ex)	metamagic-mastery	yes	14	print	print		82	0a9229b7dff095f56b8c94c8d280d46ed43735278c153ae29b40c4b6faf56755
+ref/arc-bard/magician	Magical Talent (Ex)	magical-talent	yes		print	print		82	2e62692cb4f3655f37dea241f34b28a59541992bd2484796fab90b9457e30587
+ref/arc-bard/magician	Improved Counterspell	improved-counterspell	yes		print	print		82	e49aa3371115116211b6c9d96379e788116afccb3a5a33b2bcac6eb2c85d6a87
+ref/arc-bard/magician	Extended Performance (Su)	extended-performance	yes	2	print	print		82	95e8e60331df49822305730d1454e516cc8e0ec207a418140c9f1c271047e6eb
+ref/arc-bard/magician	Expanded Repertoire (Ex)	expanded-repertoire	yes	2	print	print	ruling 10: corpus text that print does not have is dropped: “At 2nd level, a magician can add …”	82	d9edbe36a847f1870a30ca3569b37fe62c3a16c711a71894dfa5a95c0bb818c2
+ref/arc-bard/magician	Arcane Bond (Ex)	arcane-bond	yes	5	print	print		82	9ed09ca18990fd33ef675f3db304d9507b99ff14df66e4026eb2600b2bc645e5
+ref/arc-bard/magician	Wand Mastery (Ex)	wand-mastery	yes	10	print	print	hand review (ruling 14, print): The corpus lost "DC".	82	dd66c67c9819cbc77291c255e95056bd7a74e564f13f358019bb0173a284486f
+ref/arc-bard/magician	Arcane Bond: Bonded Object	arcane-bond-bonded-object	no			print	hand review (ruling 14, structural): Same as for the Arcane Duelist. Drop it (ruling 10).; link of the dropped section not placed: ring or neck slot; link of the dropped section not placed: Craft Magic Arms and Armor		356c5d76540a157b84d4be2fec25c32d8a623fddf6915b6240cfaed96e2e7f30
+ref/arc-bard/sandman	Bardic Performance	bardic-performance	yes		draft	draft		83	38057d9d440a8d0ea03d1e0bdf36013eddfe0cd9ef538a791ab151a048f16819
+ref/arc-bard/sandman	Stealspell (Su)	stealspell	yes		print	print	link not placed: half	83	1568ca6ad98f282afd1d0236f9737bb3a1cd1e02f702b0ea626b9a6984775056
+ref/arc-bard/sandman	Slumber Song (Sp)	slumber-song	yes	6	print	print		83	94a646d02c494dc42507f396326bdeb9d9213ba9ee7cbbad73c335b1f6dd3a6e
+ref/arc-bard/sandman	Dramatic Subtext (Su)	dramatic-subtext	yes	9	print	print		83	91e7eca219b56633c7d2e02188e121cf334c019dd8079f934e4a936b02657862
+ref/arc-bard/sandman	Greater Stealspell (Su)	greater-stealspell	yes		print	print		83	194aa5cd3c69e3d44b9f99b05c0ce8af9987d177e7e5d48a21a1edb0ca411003
+ref/arc-bard/sandman	Mass Slumber Song (Sp)	mass-slumber-song	yes	18	print	print		84	380571684cd70a66f1b45420b431d2d29f180a25053ec9b425b3ce9f7f36a2fa
+ref/arc-bard/sandman	Spell Catching (Su)	spell-catching	yes	20	print	print	hand review (ruling 14, print): Paraphrase.	84	443e2b48c26f246758bee3aadc69ef99a4ccc39b3c3b34f02b1fdc32134512fa
+ref/arc-bard/sandman	Master of Deception (Ex)	master-of-deception	yes		print	print		84	87a98a1edce148e8a83a0973125afdce724af40e8ff82740a1caf282448da470
+ref/arc-bard/sandman	Sneakspell (Ex)	sneakspell	yes	2	print	print	hand review (ruling 14, print): Same values.	84	1be904f07976c63374ba6217f2bc46e53c55898e860d859a7f75b5b734211d69
+ref/arc-bard/sandman	Trap Sense (Ex)	trap-sense	yes	3	print	print	rule 8: the printed progression and the corpus's fraction of the level give the same values; print's wording taken	84	0cd6f036e96e149b3170e260b575b5a27b4e3c8341922df0e5070e06103e5b73
+ref/arc-bard/sandman	Sneak Attack (Ex)	sneak-attack	yes	5	print	print	hand review (ruling 14, print): Same values: 1d6 at 5th, 2d6 at 10th, 3d6 at 15th, 4d6 at 20th.	84	e5e081ead254df98ed67b77780f6dff6723a08736fa803f50f6fac0bc6cad370
+ref/arc-bard/savage-skald	Bardic Performance	bardic-performance	yes		draft	draft		84	944f56ac8a191ede39a9ddccc6c53568a2eff64ceff6beb84e35f1763d92c1e2
+ref/arc-bard/savage-skald	Inspiring Blow (Su)	inspiring-blow	yes		print	print		84	eecc85be7c021472ae66171b50d873d8fec5943273bf6c43b7ec9e1b25d0a163
+ref/arc-bard/savage-skald	Incite Rage (Su)	incite-rage	yes	6	print	print	link not placed: half	84	4f9384f42f9fb22c75fec4ef916e3ecf03579a5eba62da80fafeb32147d81d55
+ref/arc-bard/savage-skald	Song of the Fallen (Sp)	song-of-the-fallen	yes	10	print	print	hand review (ruling 14, print): Same values.	84	47d6bf65d38f0f6ca7d5afa2b7b110f841c6554d5e9c62e770f1377913b97459
+ref/arc-bard/savage-skald	Berserkergang (Ex)	berserkergang	yes	12	print	print	ruling 10: corpus text that print does not have is dropped: “At 12th level, a savage skald can …”	84	515a96b863cbd372f0e2f32b16d9cb2b85757358b3cf96f8dffb000089d565fa
+ref/arc-bard/savage-skald	Battle Song (Su)	battle-song	yes	18	print	print		84	95d3c34e8dff910fc336db02d88b31d3136a937f177960609bc91bf6231c6b7e
+ref/arc-bard/sea-singer	Bardic Performance	bardic-performance	yes		draft	draft		84	542bdb64d6d8696383bf05f7d48a7b0867f3b7568e33433bbb72f663efd8114b
+ref/arc-bard/sea-singer	Sea Shanty (Su)	sea-shanty	yes		print	print		84	9fb1e6e7850b75b8d234e643bf907ace517c57511b6db68dd3d1ad344dc22d96
+ref/arc-bard/sea-singer	Still Water (Su)	still-water	yes	3	print	print		85	52e738367245aae2ba449106a5f3b8970aaf07a12f484d66f81c4c720ddccc7b
+ref/arc-bard/sea-singer	Whistle the Wind (Su)	whistle-the-wind	yes		print	print		85	cf3c9c9a6d083227ac21f94388f0369cd1080bd53dcc5980d66d8b84c4b332b1
+ref/arc-bard/sea-singer	Call the Storm (Su)	call-the-storm	yes	18	print	print		85	58a3b4fb594bffb3b3bdc5500237ada9691df710e7db68637f592a873e95d50d
+ref/arc-bard/sea-singer	World Traveler (Ex)	world-traveler	yes		print	print		85	d9ac0b3b0f132d87964867302b385f0278665299f8d8c09229d27c1daac965ec
+ref/arc-bard/sea-singer	Familiar	familiar	yes	2	print	print		85	25fd7c4259b48f334696b29cff89368ad22fcd537fda3546b3095bcf53dec793
+ref/arc-bard/sea-singer	Sea Legs (Ex)	sea-legs	yes	2	print	print		85	ac6f8652ebe1714b895806bde4a7075ee84a3bb25cec835e6c261037f98343f9
+ref/arc-bard/street-performer	Bardic Performance	bardic-performance	yes		draft	draft		85	7d3badda2aec150d785d5c390b1be84518f15763591e1dd8c7ed03e132c2ef78
+ref/arc-bard/street-performer	Disappearing Act (Su)	disappearing-act	yes		print	print	link not placed: half	85	7e7d2294a356e9d41e2c161191f37668cfd599bbc2bae97982aed12c10683922
+ref/arc-bard/street-performer	Harmless Performer (Su)	harmless-performer	yes	3	print	print		85	30b4a343d3738c25cccbe9f2aea50625bfedd7715922f17540b61ae239e888d3
+ref/arc-bard/street-performer	Madcap Prank (Su)	madcap-prank	yes	9	print	print		85	9bb0dc5c452ba29cf3910cdee49f7dee3fadbc7f04a4c93fb7c674d536bb2682
+ref/arc-bard/street-performer	Slip through the Crowd (Su)	slip-through-the-crowd	yes	15	print	print		85	40aeff01ef02214b6267693209c47c58e427141271552e94407c8c3e395d89f2
+ref/arc-bard/street-performer	Gladhanding	gladhanding	yes		print	print		85	c3f38ccbede688d564c76f9bb6ae371b2f4a690126c0670acd9eceefc4c388a7
+ref/arc-bard/street-performer	Streetwise	streetwise	yes		print	print		85	45027c0cc8b7b9aa6723c8392dcb295a263f7bf10d5d4bcaa6f060ca4b913421
+ref/arc-bard/street-performer	Quick Change (Ex)	quick-change	yes	5	print	print	hand review (ruling 14, print): Same values.	85	535fd4af815cf660d33be6c30ae266961d8d3a15a0bb649c9e407972343a4e73
+ref/arc-druid/aquatic-druid	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		98	ce1aeade970b2ba6d70f103c483a1470e221de44e6c0889b1f1a7fa4919d9ef2
+ref/arc-druid/aquatic-druid	Aquatic Adaptation (Ex)	aquatic-adaptation	yes	2	print	print	link not placed: half	98	9560c181b0f893be4ddb47f27f4dd90c5552070f3a7b3fa76059efb09f2f41a7
+ref/arc-druid/aquatic-druid	Natural Swimmer (Ex)	natural-swimmer	yes	3	print	print		98	899c50b65331f490d784da561f2d8330c8988010471adbf0119b53150c381e51
+ref/arc-druid/aquatic-druid	Resist Ocean's Fury (Ex)	resist-ocean-s-fury	yes	4	print	print		98	398724dca3da74f3a2f65663fb7d1d283d16e9cef6b9455bdce66813c1c47e6f
+ref/arc-druid/aquatic-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	98	196898fe6ea2ec48185ff0274aa30e3bb9cd16daac1be481074f8880a04f17f3
+ref/arc-druid/aquatic-druid	Seaborn (Ex)	seaborn	yes	9	print	print		98	4e357f7a9e2841dba1a036efc5669c9c7c2c1ec1b2a1455c55d0bb0de02edcc8
+ref/arc-druid/aquatic-druid	Deep Diver (Ex)	deep-diver	yes	13	print	print		98	90599fea7d48dc2b70dc93e81888821a503b6c10798d402a70595eecf681d97a
+ref/arc-druid/arctic-druid	Arctic Native (Ex)	arctic-native	yes	2	print	print	link not placed: half	98	8251f1c606b63b30ce22d18a1b37693e43cc7b3fdee0674641d16e578b130341
+ref/arc-druid/arctic-druid	Icewalking (Ex)	icewalking	yes	3	print	print		98	4307015bd82a01c463c50e1ff835edce139bd3462cafc7433136d8a69b653f89
+ref/arc-druid/arctic-druid	Arctic Endurance (Ex)	arctic-endurance	yes	4	print	print		98	2c2bb6c17308eaeee0f864b7858a01ae377fa485fc0a14cdc1385885f99ba417
+ref/arc-druid/arctic-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	98	34a9767498eac89f07f6aa0f3f3902212a2f5d9d6e32c2047db8ec5d914a73d9
+ref/arc-druid/arctic-druid	Snowcaster (Su)	snowcaster	yes	9	print	print		98	8304ee80150201d400281842cecdef6ebaeb20cb3e9fa7f07bf9a18d542e5c51
+ref/arc-druid/arctic-druid	Flurry Form (Ex)	flurry-form	yes	13	print	print		98	100e0a6df98045ce9e4c2472fc84b2ae5e5abcbd7ce4c73cc194f69f4f670111
+ref/arc-druid/bear-shaman	Nature Bond	nature-bond	yes		print	print		102	4da9273d8c4a437f3d43ed11980ea518bfde6bde51f26486b06965111229a25f
+ref/arc-druid/bear-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		102	7931f9870c69b02782edabb616a8d2d11b11c5d5959cbe668a05ba45b5a2ac5b
+ref/arc-druid/bear-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): Same values.	102	0a9823ef031359bbc9842cf5b80e0b0ecd1e8c1ff2fff28d08b4f8497bc437b0
+ref/arc-druid/bear-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Paraphrase.	102	e93b58fc44ad3ae06af6210b7ad475ce12cdb42963d239a51e610e667d27b929
+ref/arc-druid/bear-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print		102	d010a20ffadd41abf4c613cdeb758283ea7e5202e61eb417ee3e95abce8d326c
+ref/arc-druid/bear-shaman	Bonus Feat	bonus-feat	yes	9	print	print	ruling 10: corpus text that print does not have is dropped: “At 9th level, a bear shaman gains …”	102	a545f6c94a5978c8d39a5e854f584652ad627a1ca3556f5916d679cf5e7aca3b
+ref/arc-druid/blight-druid	Nature Bond (Ex)	nature-bond	yes		draft	draft		98	d368eb98f1f2361cdf366b2945a3ae84ad027d39dbeb98d13914b84b4bdad520
+ref/arc-druid/blight-druid	Vermin Empathy (Su)	vermin-empathy	yes		print	print		98	85749e66e5ec5b9fff7e3475dd6bb2cc3c285afcf12d1aff14f2b24153dbb734
+ref/arc-druid/blight-druid	Miasma (Ex)	miasma	yes	5	print	print	link not placed: half	99	e7e1d2716d3969a3cbc9c84523f9704857852337300423f8178b0c19a77dee66
+ref/arc-druid/blight-druid	Blightblooded (Ex)	blightblooded	yes	9	print	print		99	5c05b336cdd0d587839360d4a610595f6bbf11fe57b4e4eea2ff13850c871dc6
+ref/arc-druid/blight-druid	Plaguebearer (Su)	plaguebearer	yes	13	print	print		99	34c97d1b8c8480347bea5981c603b22932290a524eab4a3172af38bd69734ab5
+ref/arc-druid/cave-druid	Cavesense (Ex)	cavesense	yes		print	print	misprint fixed: print has "A underground druid", written "A cave druid" (every other feature of the entry says "a cave druid"; "underground druid" names nothing)	99	58c0ff3a55baec4fc702542af1a331b52500be133c7a3ccea14a9a10ce62320d
+ref/arc-druid/cave-druid	Nature Bond	nature-bond	yes		draft	draft		99	033dc4b8267b1e925f4cdcd80f5d00de12c4b11ff93f5a95f299a99abd702e99
+ref/arc-druid/cave-druid	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		99	43ae55826ce4e5f58d410d78aff84def5c3e1ff9eb1a2a2382bb0ddb1f7c4268
+ref/arc-druid/cave-druid	Tunnelrunner (Ex)	tunnelrunner	yes	2	print	print		99	df60afdc92f22ca7eb7e1cd089dc96ab6c8ba736bd156e860453d0cd69cd69d3
+ref/arc-druid/cave-druid	Lightfoot (Ex)	lightfoot	yes	3	print	print		99	5bc8fc73de7f67b857cb77bc3e9c322995e1635b1e5778c73c50488513b57834
+ref/arc-druid/cave-druid	Resist Subterranean Corruption (Ex)	resist-subterranean-corruption	yes	4	print	print		99	72d351b7b0c4bf4bba207d2aeaef4f52563cf7b997d9d52cdc8eb1e0ef1a6a10
+ref/arc-druid/cave-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	hand review (ruling 14, print): Same values.; level 6: print says "gains this ability at 6th level"	99	9f2b78d308eeb2d9513d94efdddd8fb100cf2b625a31d32cb0641b6c49c53b63
+ref/arc-druid/desert-druid	Desert Native (Ex)	desert-native	yes	2	print	print	link not placed: half	99	033278b8e140ec326c5feeaf663cd6d20816f05691b92ba1c700be51b3668266
+ref/arc-druid/desert-druid	Sandwalker (Ex)	sandwalker	yes	3	print	print		99	be7c7359bb484850f4aa67595cf099bc8aec532dfe5a68f22ceea71ef227e173
+ref/arc-druid/desert-druid	Desert Endurance (Ex)	desert-endurance	yes	4	print	print		99	273a3f3df57cf0d97642f00e643ef8609793d3c41536d9fc84ec35afa46bb0a5
+ref/arc-druid/desert-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	hand review (ruling 14, print): Print's sentence follows the 10th-level forms. The corpus only says so explicitly.; level 6: print says "gains this ability at 6th level"	99	e0482146681f13a33b43ad72ba2eb037b684bd6e18affc023a85215ef7c761c9
+ref/arc-druid/desert-druid	Shaded Vision (Ex)	shaded-vision	yes	9	print	print		99	82b6fbd1cf2b398d2c4716ccde2135b2d049c616e7648f710a9a2b5bc0ce73d9
+ref/arc-druid/desert-druid	Dunemeld (Ex)	dunemeld	yes	13	print	print		99	70c2564d3b8540329509bcaf30ff1043066c29d60a017db2e46bd01d272739ce
+ref/arc-druid/eagle-shaman	Nature Bond	nature-bond	yes		draft	draft		102	4a118b39072e194910063d46f47801b7f29d10c859d318ad5a94c907cd001017
+ref/arc-druid/eagle-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		102	59c8194efbd0805bb5d83edadc239dfdca3abfe16134d9a5b2b04bc97e4633f4
+ref/arc-druid/eagle-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): The corpus repeats the bear rule that print gives by reference. Same values.	102	d5bbf78eb0a58ecaa44db950a943e6fa41c139f897daf0b64abac834ea14bd78
+ref/arc-druid/eagle-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Same.; link not placed: advanced, young, giant	102	36119bea3293811d7aa26bd6c66d4b399f21df841af9c8f124ea5930a997cb9d
+ref/arc-druid/eagle-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print	ruling 10: corpus text that print does not have is dropped: “To remedy this problem, an eagle shaman …”; “The lack of suitable giant bird stat …”; link not placed: beast shape	102	b96f0f61de3247a55862c97526f6f234e00a91cf72b5f8fa59aa7ddc1ab979a5
+ref/arc-druid/eagle-shaman	Bonus Feat	bonus-feat	yes	9	print	print	head printed, not in the import: added from print; trade added: replaces "Venom immunity" (feature `venom-immunity`), which print states and the entry did not store	102	
+ref/arc-druid/jungle-druid	Jungle Guardian (Ex)	jungle-guardian	yes	2	print	print	link not placed: half	100	8377310917c970cc4cac192ea723c784ef0929a026216d244f4d43621fc3834b
+ref/arc-druid/jungle-druid	Woodland Stride (Ex)	woodland-stride	yes	3	print	print	level 3: print says "gains this ability at 3rd level"	100	485e5616ec3b4183f24d71379968dd68f4572f8a9fba1c8649e984716fddc41a
+ref/arc-druid/jungle-druid	Torrid Endurance (Ex)	torrid-endurance	yes	4	print	print		100	3d7627137f929ee33ef36d407854c78e1c8ef10b744331962d9beb2e7f8b88b3
+ref/arc-druid/jungle-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	100	a761e78c309baaecc4085518ef01799f241a75debf2469e9b26bef8e8e91a23b
+ref/arc-druid/jungle-druid	Verdant Sentinel (Ex)	verdant-sentinel	yes	13	print	print		100	ef14e5139c0a8bedcdb37017e6db02fa14bc1e382f1df08bf52f0f0d55a6e4b6
+ref/arc-druid/lion-shaman	Nature Bond	nature-bond	yes		print	print		103	4370a9380262d05cbf1be9496e1f6a662e19da1462086adb35222229228ae02c
+ref/arc-druid/lion-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		103	898ed3bddb8c65cae0564a2ba53ade91b8fef1e31cb507744d0c2ca2b6bf03b1
+ref/arc-druid/lion-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): Same.	103	96f2e319a45813f9d2835b7e2eb0ebb22465e7aeb7a5f8df4b9f0f60febf22c5
+ref/arc-druid/lion-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Same.; link not placed: advanced, young, giant	103	72ae477484cb05e19ff32e5e20a2442eed34759c6102a0e052a049c2c9ee92e2
+ref/arc-druid/lion-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print		103	eab733d94712ee0fe09e6d2d5c9853beee89d1c4489e5f3e1bb89a8a070bbfcd
+ref/arc-druid/lion-shaman	Bonus Feat	bonus-feat	yes	9	print	print	ruling 10: corpus text that print does not have is dropped: “At 9th level, a lion shaman gains …”	103	a2888d1718e0032b9ff5ee0a62235403837c75dae5a97646e0ef32e4e53f5bc5
+ref/arc-druid/mountain-druid	Mountaineer (Ex)	mountaineer	yes	2	print	print		100	348df39f1baf89f212f28c2ed9163443c41cab840afd6a54d74407a85dd8751b
+ref/arc-druid/mountain-druid	Sure-Footed (Ex)	sure-footed	yes	3	print	print		100	bacc2de5c5740641c51e94d5d05a166797fa9c25d94eb9cea842a3712e41d3b2
+ref/arc-druid/mountain-druid	Spire Walker (Ex)	spire-walker	yes	4	print	print		100	05c30f6ac0e3ecb5519399bb954d1333a216ce69f84d56ef3399bc7e10f5008a
+ref/arc-druid/mountain-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	100	f0694b9c9a6d00959250a55e5a9f2d4a082c1bbd5d87158a322e9e5c62472b37
+ref/arc-druid/mountain-druid	Mountain Stance (Ex)	mountain-stance	yes	9	print	print		100	ba23b74bbc9937c81e9ebdd62078be79d72b4be9c8135c473fda04e7b837d7ab
+ref/arc-druid/mountain-druid	Mountain Stone (Ex)	mountain-stone	yes	13	print	print		100	73d76e9762c86b275e8954b6eb174f0f3c2f48944996805c69c04475cfcbdbff
+ref/arc-druid/plains-druid	Plains Traveler (Ex)	plains-traveler	yes	2	print	print	link not placed: half	100	67cae03a382c14c50d3091ed777a9c72649c6adf19cfd4962c9b1e577b7e7358
+ref/arc-druid/plains-druid	Run Like the Wind (Ex)	run-like-the-wind	yes	3	print	print		100	937c5bf189647dd2eb616b5f2d898334eaf29d0e245aeb0bf2eefac90b2a9c23
+ref/arc-druid/plains-druid	Savanna Ambush (Ex)	savanna-ambush	yes	4	print	print		100	18e537ab7e889b08f69620ff40f42c73a42288e4434938c3d7ce4e36ffd6b317
+ref/arc-druid/plains-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	100	6a0ad82522d4472f57442c1422d2983ad4b192db718461a071e4e1876050f5f3
+ref/arc-druid/plains-druid	Canny Charger (Ex)	canny-charger	yes	9	print	print		100	d0e7a71575fe62ec326adebdce5a6e0c722adda8c9571c1c98da175be6b22141
+ref/arc-druid/plains-druid	Evasion (Ex)	evasion	yes	13	print	print		100	7651c9c83748cf68fc365529cfbbca1a3e4ac23c85cfdd81eac7c3c154da40d0
+ref/arc-druid/serpent-shaman	Nature Bond	nature-bond	yes		draft	draft		103	91a5196a3f4c2fab1a57e50d7c4c51f1a37348fedbb92b87e22457c062553a19
+ref/arc-druid/serpent-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		103	5f5d32455916b2337cb5d04f93ad35691c8e1f86643dbcc61d4d8b5648d46ca0
+ref/arc-druid/serpent-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): Same values (1/round for 6 rounds, 1 Con, 1 save).	103	dc92c36f91e22dc8d7d5cd470769b201013de5de172adee79b39d8b20aaeaf61
+ref/arc-druid/serpent-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Same.; link not placed: advanced, young, giant	103	829b857548e79067ae757b2ba8de926274ba2c37b85208480cc2b01005f2d18b
+ref/arc-druid/serpent-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print		103	06c1bfc32937db2f14259beeba42773ac5ab46c162055a530747d5c6fb299d96
+ref/arc-druid/serpent-shaman	Bonus Feat	bonus-feat	yes	9	print	print	ruling 10: corpus text that print does not have is dropped: “At 9th level, a serpent shaman gains …”	103	4d1e406cd7662bc4659bfa24f3f130055c1dc04410d25583353fffbe5b52af35
+ref/arc-druid/serpent-shaman	Serpent Shaman Venom	serpent-shaman-venom	no			print	hand review (ruling 14, structural): The block is the import's unpacking of print's bracket, and its DC formula spells out "Con-based DC". Drop the head and keep print's bracket.; link of the dropped section not placed: speak with animals		43871623fccb1d435081d9d0604998ed8c6682a1189b023b14bce43aacb67860
+ref/arc-druid/swamp-druid	Marshwight (Ex)	marshwight	yes	2	print	print	link not placed: half	101	9eb0d008b215be907c5d81f3620e718c821010e82667a9e9a385b9644b7fae49
+ref/arc-druid/swamp-druid	Swamp Strider (Ex)	swamp-strider	yes	3	print	print		101	2e8aa83f0202509022f608972d74ab75c7a451348f9a4b58a75f28a0866aaf2d
+ref/arc-druid/swamp-druid	Pond Scum (Ex)	pond-scum	yes	4	print	print		101	948ff1d42a7a1d3bf8c1947cfc8aeaff2b79ff45e80863a60e5f658a8059bca4
+ref/arc-druid/swamp-druid	Wild Shape (Su)	wild-shape	yes	6	print	print	level 6: print says "gains this ability at 6th level"	101	a790e69ad4fd655c57b7e0a292d849c9ec8628f1c50d4840fbeee13af0bff3f0
+ref/arc-druid/swamp-druid	Slippery (Ex)	slippery	yes	13	print	print		101	1c9f4a623f67a4edf1f27bc308282ff6b325b130ef46ce6d8b07c37aa628b0e7
+ref/arc-druid/urban-druid	Spontaneous Casting	spontaneous-casting	yes		print	print	trade renamed: "Spontaneous casting" to "Ability to spontaneously cast summon nature's ally spells" to match the printed sentence	101	c42ee3c8738d40cfa180b041aadc70e8e2948f6dcd3c78df1d6250bc92ab36f8
+ref/arc-druid/urban-druid	Nature Bond (Ex)	nature-bond	yes		draft	draft		101	7a046eb812f3e9e3476da8a96ebb0acd1e662dff3cfb7c55a6857ce2b1fa5c3d
+ref/arc-druid/urban-druid	Lorekeeper (Ex)	lorekeeper	yes	2	print	print		102	062d2fbe652525a809f6d53009db1a3fc117cc6f86c3f5f913a8dcc7b0454dbd
+ref/arc-druid/urban-druid	Resist Temptation (Ex)	resist-temptation	yes	4	print	print		102	b357c33e8497d295b538289c8425388c6454fbb71ff48cc2413d405cecaedfe4
+ref/arc-druid/urban-druid	A Thousand Faces (Su)	a-thousand-faces	yes	6	print	print	hand review (ruling 14, print): Same meaning.; level 6: print says "gains this ability at 6th level"	102	73677069d88a02da53e2e6718d77c1ab8728309a2b5b9775d4904c34dda3c61d
+ref/arc-druid/urban-druid	Wild Shape (Su)	wild-shape	yes	8	print	print	level 8: print says "gains this ability at 8th level"	102	c9fad2f321d29c50f273c8b9becab3d26a4a8353ded5e3e90357ca9b8572f72c
+ref/arc-druid/urban-druid	Mental Strength (Ex)	mental-strength	yes	9	print	print		102	7d087952e7635f08f5bc3a643c422cdc2017ffc32883722a94cdfdd61c89ddf2
+ref/arc-druid/wolf-shaman	Nature Bond	nature-bond	yes		print	print		103	2f0c195a8512e37a4b68000392cfd6cda94478108523246fca065a10f3827c70
+ref/arc-druid/wolf-shaman	Wild Empathy (Ex)	wild-empathy	yes		draft	draft		103	ad44610d6af2cb332f96f2b48c28c9845671d65ef9c2801efd3468226f9dbcc6
+ref/arc-druid/wolf-shaman	Totem Transformation (Su)	totem-transformation	yes	2	print	print	hand review (ruling 14, print): Same.	103	44050b4d8c641405c92133095911bc260a4725c334d40f847b71cc110d139fff
+ref/arc-druid/wolf-shaman	Totemic Summons (Su)	totemic-summons	yes	5	print	print	hand review (ruling 14, print): Same.; link not placed: advanced, young, giant	103	ded71dfba4d280bd18d8132147ca0036c5b6490cbdbb51c3ea9f840dd178f1bf
+ref/arc-druid/wolf-shaman	Wild Shape (Su)	wild-shape	yes	6	print	print		103	d0b92e8de60a66b31f8061e1f38f5041d17381f31ceaca103d3ed55d09b3d06b
+ref/arc-druid/wolf-shaman	Bonus Feat	bonus-feat	yes	9	print	print	ruling 10: corpus text that print does not have is dropped: “At 9th level, a wolf shaman gains …”	103	bbfb715e8a4d774a095185ae6da93a21eabd0bc5394f45fadc47f5a044c69a61
+ref/arc-fighter/archer	Hawkeye (Ex)	hawkeye	yes	2	print	print	ruling 8: print corrects the corpus (+1 at 2nd level and every 4 levels beyond; the corpus gave 1 + one-fourth of the level)	104	663f9ecd5421b3f0195ff4da855b9871ffa1203ed9bffa761acab5e45ce34316
+ref/arc-fighter/archer	Trick Shot (Ex)	trick-shot	yes	3	print	print	hand review (ruling 14, print): Same values.	104	1e60c77ba07d23175d562f8a614b3b89fd443b36e455deb635d15df37373a6e5
+ref/arc-fighter/archer	Expert Archer (Ex)	expert-archer	yes	5	print	print		104	3792c425e12944edad20442fb90d5ddf3f0662b66001f26ce68b35dee5378aef
+ref/arc-fighter/archer	Safe Shot (Ex)	safe-shot	yes	9	print	print		104	07a9b892920a3cbd94f71739c74801dfd7c3c734a198bf11549fa1c4d460b4b0
+ref/arc-fighter/archer	Evasive Archer (Ex)	evasive-archer	yes	13	print	print	hand review (ruling 14, print): Same value.	104	d5437ea5d801a906adba6ab27efb5b627d6dc81df2d2705a022e6073754a3abe
+ref/arc-fighter/archer	Volley (Ex)	volley	yes	17	print	print		104	194bb32d75235ee918ff3a33dec2869d19144e499145c04f60a7c4233bc7ee82
+ref/arc-fighter/archer	Ranged Defense (Ex)	ranged-defense	yes	19	print	print		104	1e03a12acd0df72da5dbfc250d3d77f65a81e139f7f11458bef3e4342b4639ff
+ref/arc-fighter/archer	Weapon Mastery (Ex)	weapon-mastery	yes		draft	draft		104	1c4b1e5557e36838d4f7f389a505efe6b89be0981b152a96f14938c18d99f32f
+ref/arc-fighter/crossbowman	Deadshot (Ex)	deadshot	yes	3	print	print	link not placed: half	104	f550cf2a701bbd88b28f128e929027c23546b5fdf851a445a252ea53d4f9eb81
+ref/arc-fighter/crossbowman	Crossbow Expert (Ex)	crossbow-expert	yes	5	print	print		104	720e6f9fc7821133c1249b41063f7934cecb41a52077458c972c373348bde24d
+ref/arc-fighter/crossbowman	Improved Deadshot (Ex)	improved-deadshot	yes	7	print	print		104	c0b0b86d39e1f2d132c75f8cdfb7d9302de7e7f7a4b1006cf8bfb186dde07454
+ref/arc-fighter/crossbowman	Quick Sniper (Ex)	quick-sniper	yes	9	print	print		104	15a02a1ac47b9ef87c45a2c467bea8cd87c91cf3531ff5a0705a2a8193688a2b
+ref/arc-fighter/crossbowman	Greater Deadshot (Ex)	greater-deadshot	yes	11	print	print		104	52e5c72f41116ac02d436c427d095b0d989d2611d2ee527ebc17958204bfb0aa
+ref/arc-fighter/crossbowman	Safe Shot (Ex)	safe-shot	yes	13	print	print		104	761ab8432025e48058750bc2426865b733e2ac6d022c8807a2249d6da88d50a9
+ref/arc-fighter/crossbowman	Pinpoint Targeting	pinpoint-targeting	yes	15	print	print		104	9132156abb8ee47c28448794592e2750f51c79cd6634cfe888c86f921253c798
+ref/arc-fighter/crossbowman	Meteor Shot (Ex)	meteor-shot	yes	17	print	print		104	692362f4d54431caff0192c0a034b97e0f4b3480b329a319a0546f25aa010162
+ref/arc-fighter/crossbowman	Penetrating Shot (Ex)	penetrating-shot	yes	19	print	print		104	c24e7eb3671caad1af4aa6314dbba4502b3c04cb565ce79000f58844dd85c6c1
+ref/arc-fighter/crossbowman	Weapon Mastery (Ex)	weapon-mastery	yes		print	print	hand review (ruling 14, print): Same rule.	105	1006d74f5e319f4070469cf7e5f631206255fb7099dca988a04482b40d5c0c6d
+ref/arc-fighter/free-hand-fighter	Deceptive Strike (Ex)	deceptive-strike	yes	2	print	print		105	49a44763dd6898383c4a4e30132780613bc6ac3b003af7ab1614b7387484b4fe
+ref/arc-fighter/free-hand-fighter	Elusive (Ex)	elusive	yes	3	print	print		105	9d6e451ed83b662f13f976d3c090196ed2d3a3ade15c4a520cb529b282bcc5f1
+ref/arc-fighter/free-hand-fighter	Singleton (Ex)	singleton	yes	5	print	print		105	b29f3f3630d5908aedeb63b1074558aaa2e44b7784709071e0fb027d910ae00b
+ref/arc-fighter/free-hand-fighter	Timely Tip (Ex)	timely-tip	yes	9	print	print		105	a1a037d59544611cf920f54c1639b51cc1b6bb2e47be778c291cd2286974a001
+ref/arc-fighter/free-hand-fighter	Interference (Ex)	interference	yes	13	print	print		105	d9684dd5461928447c9e29568e707c41a1ae22e9f17f46c6eb34752602406400
+ref/arc-fighter/free-hand-fighter	Reversal (Ex)	reversal	yes	19	print	print		105	eda4bb704d9d1d7a9453d63ba566325b1cf6dc098c522d3057b9fca85616dde6
+ref/arc-fighter/mobile-fighter	Agility (Ex)	agility	yes	2	print	print		105	ad844d87e4cc4abc34a2e5561cd725e21986854ed81bbe6cc0eca4a72b2e2c99
+ref/arc-fighter/mobile-fighter	Leaping Attack (Ex)	leaping-attack	yes	5	print	print		105	65c9f26a51579086d2a80ccc4082742cd5c3439f52e595382441e5b1333fb038
+ref/arc-fighter/mobile-fighter	Rapid Attack (Ex)	rapid-attack	yes	11	print	print		105	72750eeb244e6298e7efa4cae286539749e794d0a2def7cd0ce690ec29595ca7
+ref/arc-fighter/mobile-fighter	Fleet Footed (Ex)	fleet-footed	yes	15	print	print	hand review (ruling 14, print): Same values (3 at 15th, 4 at 20th).	105	1a65daca0385a3eb0dd80b7a0dda274e63e068d728d2f1baa2e728b1ff78d580
+ref/arc-fighter/mobile-fighter	Whirlwind Blitz (Ex)	whirlwind-blitz	yes	20	print	print		105	30a63945dc88a9eed7a1b1ada397c955b1daab912f67105032dc9225854bbdd9
+ref/arc-fighter/phalanx-soldier	Stand Firm (Ex)	stand-firm	yes	2	print	print	hand review (ruling 14, print): Same bonuses. Print lists drag, and the corpus dropped it.	105	13fa728d2b5e8a5d2d518edb78b6f7236d46b51af871963f99fd21fca6ad735e
+ref/arc-fighter/phalanx-soldier	Phalanx Fighting (Ex)	phalanx-fighting	yes	3	print	print		105	74eed3d98c7097be4027d48e98858cf80d6892d43b73e208ed0d1816c7c8fe2b
+ref/arc-fighter/phalanx-soldier	Ready Pike (Ex)	ready-pike	yes	5	print	print		105	b045d556711cef249b92f0fc928d58bcd3ad5b4b5f14764803da10e4f0b611d7
+ref/arc-fighter/phalanx-soldier	Deft Shield (Ex)	deft-shield	yes	7	print	print		105	3d16aeff8fd71c76f721aa3a51e0d6799e60b3c4aaf43778c830da5ade284f05
+ref/arc-fighter/phalanx-soldier	Shield Ally (Ex)	shield-ally	yes	9	print	print		106	4e75905a8f9447bc1387135073f6da73bb1d28bc51fcb12675b09b56afb7373e
+ref/arc-fighter/phalanx-soldier	Irresistible Advance (Ex)	irresistible-advance	yes	15	print	print		106	5b85157a9c58bbe185796856f27d3226924160b22c03f691eac108b16604435f
+ref/arc-fighter/phalanx-soldier	Shielded Fortress (Ex)	shielded-fortress	yes	20	print	print		106	7feb101c7b9575a5aa89f77bf0eb468f966ae09e36e621a209ca569dc5febb17
+ref/arc-fighter/polearm-master	Pole Fighting (Ex)	pole-fighting	yes	2	print	print		106	7dff03c469d261f52ece3a1d9f161ee46396740fe279f3797fe6330c98114788
+ref/arc-fighter/polearm-master	Steadfast Pike (Ex)	steadfast-pike	yes	3	print	print		106	68ed8f12c8c5ef41c79773cf18d0acc5977b8d14307fc4df8799b94630a8616a
+ref/arc-fighter/polearm-master	Polearm Training (Ex)	polearm-training	yes	5	print	print		106	32fe65e186fc4759ae179ef10dcc132da32a20446f7efeae46d33ba324f62b33
+ref/arc-fighter/polearm-master	Flexible Flanker (Ex)	flexible-flanker	yes	9	print	print		106	f7ac9bbee503e0900db24afbebb031cb29fd16ffb7888f173809ddda92dc0701
+ref/arc-fighter/polearm-master	Sweeping Fend (Ex)	sweeping-fend	yes	13	print	print	owner decision of 2026-11-24 (corpus-errata): print (The rule differs: the corpus gives trips the trip weapon feature, and the –4 applies only to bull rush. This is not a paraphrase. The corpus kept print's last sentence, which only makes sense under print's rule. So someone revised print's first sentence on purpose, which is the shape of an errata edit. The owner decides.)	106	ab4d6cb3faf61a5732892efe22dd39fc009c59b76d1d599515bebe267b2891a4
+ref/arc-fighter/polearm-master	Step Aside (Ex)	step-aside	yes	17	print	print		106	40f81122d8b55fead492c2e9d897dc8702c7ffdf92747a0e39f4b0bf81d02cf2
+ref/arc-fighter/polearm-master	Polearm Parry (Ex)	polearm-parry	yes	19	print	print	hand review (ruling 14, print): Paraphrase.	106	7a7b254aaaf06c197f7303387cf8e21466db652455005ccf9a48f11fc6dfd733
+ref/arc-fighter/polearm-master	Weapon Mastery (Ex)	weapon-mastery	yes		print	print		106	d30546f188fde3cdb5dffe0b2f5b8c91d96ad2ad264aa050f32775c6e9501300
+ref/arc-fighter/roughrider	Steadfast Mount (Ex)	steadfast-mount	yes	2	print	print	duplicate trade left out: replaces "Armor training 4" was stored twice, once without its feature link	106	6c0ca36f98eb3fe4222abcb22344a4f7ce91d41c9163583629e0cdf0a1edfe12
+ref/arc-fighter/roughrider	Armored Charger (Ex)	armored-charger	yes	3	print	print		106	5e2f6603ed2d83f40e199e3daeee5a63479d748b4737a3798a2d9285a8b4d7bd
+ref/arc-fighter/roughrider	Mounted Mettle (Ex)	mounted-mettle	yes	5	print	print		106	a8302d30e5c5c7e161581cac955ecd51bf68b48b3e6f3656c56b58dc62729308
+ref/arc-fighter/roughrider	Leap from the Saddle (Ex)	leap-from-the-saddle	yes	7	print	print		106	d62bca8d0396cfb44d443eefba3f486338b555a878d13f31dce4eda58d591145
+ref/arc-fighter/roughrider	Relentless Steed (Ex)	relentless-steed	yes	11	print	print		106	e6e064f2dc5fbbe537f1b38f98c0d03530c233548a414553893f9b9aafb21c98
+ref/arc-fighter/roughrider	Ride Them Down (Ex)	ride-them-down	yes	15	print	print		107	8d5f59741e6280643ea6925847b98f3cb4c8222ba5917b225bf15505a13e707a
+ref/arc-fighter/roughrider	Unavoidable Onslaught (Ex)	unavoidable-onslaught	yes	15	print	print		107	2f52028dbcfb892b4d6a4b2298c322d14ab4d4aae9806f14e9a63750e35ab2f1
+ref/arc-fighter/roughrider	Indomitable Steed (Ex)	indomitable-steed	yes	19	print	print		107	8146305d2d3fb86f70edb1f1a71df20da8955aa56aa44317f340ffc7d08a3489
+ref/arc-fighter/savage-warrior	Spark of Life (Ex)	spark-of-life	yes	2	print	print		107	eae59a4bfa420bdb6f124a04101fdd17779583dfa2dbdffa74767b573de8b7b8
+ref/arc-fighter/savage-warrior	Natural Savagery (Ex)	natural-savagery	yes	5	print	print		107	a5966bffe064e577589959c36e5b433fd09ae88bca2c20b4c68b272ea0b4f2a3
+ref/arc-fighter/savage-warrior	Savage Charge (Ex)	savage-charge	yes	9	print	print		107	e5f0c940b02f9d5443a2973ab53ee1878474681f5c065f64826f9024e579d5c5
+ref/arc-fighter/savage-warrior	Careful Claw (Ex)	careful-claw	yes	13	print	print		108	ea315a4db1924d56e65000608e62ea771a331fa66fc0b63fe1d21a6c6584e567
+ref/arc-fighter/savage-warrior	Greater Savage Charge (Ex)	greater-savage-charge	yes	17	print	print		108	7e86776dfd70fc6a51ed5c5467e0d04961d272ff8a958214f8ef72ea1bc0207c
+ref/arc-fighter/savage-warrior	Natural Weapon Mastery (Ex)	natural-weapon-mastery	yes	20	print	print		108	310b81bd4494fc0d08b34d7f55794ab59d4a616d9c1d57cbb9d1d248f9594047
+ref/arc-fighter/shielded-fighter	Active Defense (Ex)	active-defense	yes	3	print	print		108	6cc1ebcc43157d0d37bb1fa9b38e7b1aac566e7b4ee02f6fd731fdb632555dd1
+ref/arc-fighter/shielded-fighter	Shield Fighter (Ex)	shield-fighter	yes	5	print	print		108	7a1a495d8cd4808e22e50de0ee4343c54438d6563af13b434b3f964ea0101f72
+ref/arc-fighter/shielded-fighter	Shield Buffet (Ex)	shield-buffet	yes	9	print	print		108	5c4366dcf1769c3c843a04e937cd1e125c45605b8f24d2e09b242cc13ddfa0e4
+ref/arc-fighter/shielded-fighter	Shield Guard (Ex)	shield-guard	yes	17	print	print		108	3c42b5fedaff073c79232aa696cce79dc9a3b73eb7024f0c70838072a80415e2
+ref/arc-fighter/shielded-fighter	Shield Mastery (Ex)	shield-mastery	yes	19	print	print		108	783c80bd98856cc66d27dace07bf2bf81587e548d8a286a0a68e0b6b517aa52f
+ref/arc-fighter/shielded-fighter	Shield Ward (Ex)	shield-ward	yes	20	print	print		108	d3143b211436ba61dc4108215b0d27144fccf62a56983c126800e4352373baaa
+ref/arc-fighter/two-handed-fighter	Shattering Strike (Ex)	shattering-strike	yes	2	print	print		108	5a90db7fcf1372279da97fee68555823ebb2e3273d9f3bfd7f52ccf8eaf89958
+ref/arc-fighter/two-handed-fighter	Overhand Chop (Ex)	overhand-chop	yes	3	print	print		108	06cbf7dce513e2232833ac753681c8e5dc3e0090dfafab02f9ec75e5dc3856c4
+ref/arc-fighter/two-handed-fighter	Weapon Training (Ex)	weapon-training	yes		print	print		108	f0f1c953f451ba9648dd2d3979c409d0525e86d114943270e92607ae505264c1
+ref/arc-fighter/two-handed-fighter	Backswing (Ex)	backswing	yes	7	print	print		108	436ae7a234494d5ccb48e169228b6c3898b205b6f9070ee36c27c88a968d9e8e
+ref/arc-fighter/two-handed-fighter	Piledriver (Ex)	piledriver	yes	11	print	print		108	8457d38a21b64f239802029ea6a8d616c0163f03fab357e30c7265e481f460ed
+ref/arc-fighter/two-handed-fighter	Greater Power Attack (Ex)	greater-power-attack	yes	15	print	print		108	3abac54a448452b115f7d3d51b8d590217061f56e894784a6ac59894939ae248
+ref/arc-fighter/two-handed-fighter	Devastating Blow (Ex)	devastating-blow	yes	19	print	print		109	349a31809f5929b1c45cab0257a41ec695d1611dbcd57d4ea3788a0cdf39ca3c
+ref/arc-fighter/two-weapon-warrior	Defensive Flurry (Ex)	defensive-flurry	yes	3	print	print		109	092bf480ba87aea098bc621cfb5c478d4df28f282863d793be2a74f2c8aa737e
+ref/arc-fighter/two-weapon-warrior	Twin Blades (Ex)	twin-blades	yes	5	print	print		109	5d816cb85a18d9d2779bdcfbd04cfbb13d05aec093292782e3ae97343b8b2ed3
+ref/arc-fighter/two-weapon-warrior	Doublestrike (Ex)	doublestrike	yes	9	print	print		109	db07712665398a7c03d27d101a752449a1880b85de0270939d60cf6a3217c54d
+ref/arc-fighter/two-weapon-warrior	Improved Balance (Ex)	improved-balance	yes	11	print	print		109	cb101e378fa6a55da6743e7f5f6a95a925da9e04d32d000ea54cdc7307c9b81c
+ref/arc-fighter/two-weapon-warrior	Equal Opportunity (Ex)	equal-opportunity	yes	13	print	print		109	fe05e4c6a8336294e1f8994ca819e3efc991373944f6f0877cff9001b9b4f253
+ref/arc-fighter/two-weapon-warrior	Perfect Balance (Ex)	perfect-balance	yes	15	print	print		109	19aba166a2937d2983b172a397e3e1b6b613ad8d1308cf9757492eb854744e8d
+ref/arc-fighter/two-weapon-warrior	Deft Doublestrike (Ex)	deft-doublestrike	yes	17	print	print		109	f30025be3bb2004a0cdd7f38cc919efd1293220f35c971fbc3e2d5b7a1b8cd8b
+ref/arc-fighter/two-weapon-warrior	Deadly Defense (Ex)	deadly-defense	yes	19	print	print		109	4f92bbc951ef5322d924094bc30743ec8f8a0e757d73aaf38a69c4ae87b6be92
+ref/arc-fighter/weapon-master	Weapon Guard (Ex)	weapon-guard	yes	2	print	print		109	770dbdeb32ad756ce193df436f332aebfdad2bc93d5e042963033b7a26e3520c
+ref/arc-fighter/weapon-master	Weapon Training (Ex)	weapon-training	yes	3	print	print		109	e69f54f9e8c281eebf266caaba4bae4d9dd7bc6a70bf9586d9fc7262981fb2b9
+ref/arc-fighter/weapon-master	Reliable Strike (Ex)	reliable-strike	yes	5	print	print		109	ec6799aea88676d1ce889626ede6309dba581f46afe4b9f7800d2c15a978dddb
+ref/arc-fighter/weapon-master	Mirror Move (Ex)	mirror-move	yes	9	print	print		109	4adfd5d6a44d844789f64df5ae56e1b8d00ba50a63edf0272b5fadba20e02dc5
+ref/arc-fighter/weapon-master	Deadly Critical (Ex)	deadly-critical	yes	13	print	print		109	aabb093d52f696eaba81b780fa60a09cff1d7df6ca5aceb906a791f58969ae8f
+ref/arc-fighter/weapon-master	Critical Specialist (Ex)	critical-specialist	yes	17	print	print		109	7a4edf42610c54952d5519764aa3f671cb42cb87110f2b97bb8539048d9789e2
+ref/arc-fighter/weapon-master	Unstoppable Strike (Ex)	unstoppable-strike	yes	19	print	print	hand review (ruling 14, print): Paraphrase.	109	71eef73b46b6d43cdb85eb63cb18b4cb7c9f84db812e7bef33ef7d603e28b256
+ref/arc-fighter/weapon-master	Chosen Weapon	chosen-weapon	no			print	hand review (ruling 14, structural): Move the sentence into the opening text, unheaded, and do not list it.		5df9d58d0441b8c9ff7b34f2d52db6ac611cb85f000030a6fe7c0b1235ff1775
+ref/arc-monk/drunken-master	Drunken Ki (Su)	drunken-ki	yes	3	print	print	hand review (ruling 14, print): Same values.	110	ea3257eaf569ed3a0cf5c262a1f71bb704e36987e5c61976ab3ebcf733e10d36
+ref/arc-monk/drunken-master	Drunken Strength (Su)	drunken-strength	yes	5	print	print	hand review (ruling 14, print): The corpus lacks print's three sentences. Nothing in the book suggests a later removal.	110	811d4c5c2db8b99d3709580458970a4967fd44cf5d202881ef444c1724014a2f
+ref/arc-monk/drunken-master	Drunken Courage (Su)	drunken-courage	yes	11	print	print		110	562cf8733826764ebb86e65418f24cfedcaf33d0215dfa5f2ea969dcd226d2b3
+ref/arc-monk/drunken-master	Drunken Resilience (Ex)	drunken-resilience	yes	13	print	print		110	bc696572d3be2dc9f8db8a0b57e3e36b9f4cbbeab0eeef7716947aac71918dfe
+ref/arc-monk/drunken-master	Firewater Breath (Su)	firewater-breath	yes	19	print	print		110	3cc2d140481d2d5a4d3e57d130ce5c73ab514856f78fbd0271c376ecb400ac8d
+ref/arc-monk/hungry-ghost-monk	Punishing Kick (Ex)	punishing-kick	yes	1	print	print	hand review (ruling 14, print): Same values.	110	a3b6a5295ec330286d46cc327f92d552109a833ea661e611426fc97caf394699
+ref/arc-monk/hungry-ghost-monk	Steal Ki (Ex)	steal-ki	yes	5	print	print		110	33d7de67eba4516c53967766a6ec11cb1bd2a28587297cc16d96c98f862701d2
+ref/arc-monk/hungry-ghost-monk	Life Funnel (Su)	life-funnel	yes	7	print	print		110	3c0c39e8a390f104c74ff0f6d2f2ba7e6b0be3dce0546de492aaa50faa92b952
+ref/arc-monk/hungry-ghost-monk	Life from a Stone (Su)	life-from-a-stone	yes	11	print	print		111	69b23ffb2c783de2b10a033829562a49c6fa0d248db3b2df698b090682e11ac7
+ref/arc-monk/hungry-ghost-monk	Sipping Demon (Su)	sipping-demon	yes	13	print	print	misprint fixed: print has "A 13th level", the lead is "At 13th level"; misprint fixed: print has "The ability replaces diamond soul", written "This ability replaces diamond soul" (every other trade sentence of the book starts "This ability")	111	cc5067e76223369bf8c4d5af0c25587e6ae672f1cee07e5754c4b5339d572e42
+ref/arc-monk/ki-mystic	Ki Mystic (Su)	ki-mystic	yes	3	print	print		111	910ee6381ab2fd6d733cde3841c35dc712c842871753d50e67e8c4058409ce8d
+ref/arc-monk/ki-mystic	Mystic Insight (Su)	mystic-insight	yes	5	print	print		111	b0d4c28ad28acf718bb50ff555adf2274f17d48f6c69420d06ff09636dad6b19
+ref/arc-monk/ki-mystic	Mystic Visions (Su)	mystic-visions	yes	11	print	print		111	d30bca94b1c9ce3a4a7cbd4e4fa665a945bac266c816835dc07737001ad76c81
+ref/arc-monk/ki-mystic	Mystic Prescience (Su)	mystic-prescience	yes	13	print	print		111	c97235d44c5a0c444aa1fadeb06c312cd75932662b71a7be0199c054309f8cd0
+ref/arc-monk/ki-mystic	Mystic Persistence (Su)	mystic-persistence	yes	19	print	print		111	b23fe031a07ccc2f26cf7aea22c7ee9308f98e6ac4b98825e0619b6bd905807e
+ref/arc-monk/monk-of-the-empty-hand	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		print	print	trade renamed: "Weapon proficiencies" to "Normal monk weapon proficiencies" to match the printed sentence	111	49244f1b4f3dbb556e69ca73c7e157155de4dbf3790d2e043e7107ec5f1cf14e
+ref/arc-monk/monk-of-the-empty-hand	Flurry of Blows (Ex)	flurry-of-blows	yes	1	draft	draft		111	c4ba76d5b5e4ce88901b8cf267479d1821d22a191249512415b5c7353f4972f1
+ref/arc-monk/monk-of-the-empty-hand	Bonus Feat	bonus-feat	yes		print	print	print asterisks without their key dropped	111	094560f64c330ddb87ce3552be7c075f7847c67ca0440ea474485c354a29bb19
+ref/arc-monk/monk-of-the-empty-hand	Versatile Improvisation (Ex)	versatile-improvisation	yes	3	print	print		111	9bce9095b80e56606938d6e27bfc5ba786cd40c05e421a9f29c37d361af08297
+ref/arc-monk/monk-of-the-empty-hand	Ki Pool (Su)	ki-pool	yes	4	draft	draft		111	d59e46f3975bf87fd8042f17c2a0931b6a9bc2523ede21eb4c21ba75890dd5f3
+ref/arc-monk/monk-of-the-empty-hand	Ki Weapons (Su)	ki-weapons	yes	5	print	print		112	892a70e0ccc3ca14c5550b426e80e87a42b8c36f18e749443922d296a6028f04
+ref/arc-monk/monk-of-the-four-winds	Elemental Fist (Su)	elemental-fist	yes	1	print	print	hand review (ruling 14, print): The corpus gives the increase over the feat's 1d6, so the totals are the same: 2d6, 3d6, 4d6, 5d6.	112	6068f7249125489c655a2b60c2f611572e0ff1d8a477fdcd14c90f34c67dff7d
+ref/arc-monk/monk-of-the-four-winds	Slow Time (Su)	slow-time	yes	12	print	print		112	3aa9c26f13d2c1a9c42cce41c09211f2db1a89a960b28465f38df81b249eb460
+ref/arc-monk/monk-of-the-four-winds	Aspect Master (Su)	aspect-master	yes	17	print	print		112	2bb18b2a089a9fef8b9578f8424f95aac2b8a08c1b03d09bdf20a6351da6fb8c
+ref/arc-monk/monk-of-the-four-winds	Aspect of the Carp	aspect-of-the-carp	no		print	print	option item, not a feature (ruling 15): a subheading of `aspect-master`	112	1da55d266cb35fffb75f6edaf135fabd1f16f7f56b457e8ba226a9f1cd232bfe
+ref/arc-monk/monk-of-the-four-winds	Aspect of the Ki-Rin	aspect-of-the-ki-rin	no		print	print	option item, not a feature (ruling 15): a subheading of `aspect-master`	112	fe92f13b86997406cd5cf867dec0c776ea56139ce413d051de1ff9f3273481a9
+ref/arc-monk/monk-of-the-four-winds	Aspect of the Monkey	aspect-of-the-monkey	no		print	print	option item, not a feature (ruling 15): a subheading of `aspect-master`	112	feaab968e0f09e9998baeaf795528d9ac8193b9469a84ae3336ce90dbc77a734
+ref/arc-monk/monk-of-the-four-winds	Aspect of the Oni	aspect-of-the-oni	no		print	print	option item, not a feature (ruling 15): a subheading of `aspect-master`	112	2a27979a0ca499d48d7fd6734b72dd7d1d367cf27746758c501e02f25ca04467
+ref/arc-monk/monk-of-the-four-winds	Aspect of the Owl	aspect-of-the-owl	no		print	print	option item, not a feature (ruling 15): a subheading of `aspect-master`	112	22aa18ece5ba9e93df22d784c5c70f75df3267645ce7c995803457e8be9ad99c
+ref/arc-monk/monk-of-the-four-winds	Aspect of the Tiger	aspect-of-the-tiger	no		print	print	option item, not a feature (ruling 15): a subheading of `aspect-master`	112	c0f998d93b9d2f45214be75e8fb9fa37e877af1bf8048e32a78a9443fc7d209f
+ref/arc-monk/monk-of-the-four-winds	Immortality (Su)	immortality	yes	20	print	print		112	28c1ae63e31ba6e4ddf3c8993b8a3f923fefaab9f653b69d0ae9d9e744aac30b
+ref/arc-monk/monk-of-the-healing-hand	Ancient Healing Hand (Su)	ancient-healing-hand	yes	7	print	print		113	110f1001a56de00577e6090a4f84c5fe3cdb65529d47fd7a9d2f1eef9c7396fa
+ref/arc-monk/monk-of-the-healing-hand	Ki Sacrifice (Su)	ki-sacrifice	yes	11	print	print		113	602fee2db2ef18e4bc269b477d36d8460666383483b1c3f7eba891b0aae8e35a
+ref/arc-monk/monk-of-the-healing-hand	True Sacrifice (Su)	true-sacrifice	yes	20	print	print		113	b5e305cf6b9eb557ec9c4eb5df9940198838bc4e1c86a8bb0aa10baed51b37be
+ref/arc-monk/monk-of-the-lotus	Touch of Serenity (Su)	touch-of-serenity	yes	1	print	print	hand review (ruling 14, print): Same values (+1, +2, +3 at 6th, 12th, 18th).; link not placed: one-sixth	114	d1bcef341d7e5bfa0d1a3f3b771614507c669e43bb7a5a73042a5b82aabaae3c
+ref/arc-monk/monk-of-the-lotus	Touch of Surrender (Su)	touch-of-surrender	yes	12	print	print		114	cdba8d3ab438b0d97f0b6a8f0bca0aef230fbea5eba1bffc942602e2554c93cd
+ref/arc-monk/monk-of-the-lotus	Touch of Peace (Su)	touch-of-peace	yes	15	print	print		114	cc46d08df11c5606048d957c2b0100d928db193bb34b60e2349662097268ed76
+ref/arc-monk/monk-of-the-lotus	Learned Master (Ex)	learned-master	yes	17	print	print		114	5ae4d049ef4fdec52b2a298c6ed63a12c62193e92896063be17aa05116fc2b9a
+ref/arc-monk/monk-of-the-sacred-mountain	Iron Monk (Ex)	iron-monk	yes	2	print	print		114	518a3d09e2b2e64c66250517612fc8c80ae0986e1aed6b87f3a3d1a45e04c5b2
+ref/arc-monk/monk-of-the-sacred-mountain	Bastion Stance (Ex)	bastion-stance	yes	4	print	print		114	36fb45e8c31b10136c03b04e9c0092974a72e3440ca11a974e9c4fc094e5220e
+ref/arc-monk/monk-of-the-sacred-mountain	Iron Limb Defense (Ex)	iron-limb-defense	yes	5	print	print		114	1b2e81985050deb2ea7b99611c298c1310b5ce5b003ed635fe98c8ff97a2aa8b
+ref/arc-monk/monk-of-the-sacred-mountain	Adamantine Monk (Ex)	adamantine-monk	yes	9	print	print		114	4f909febe04093f18abe6ec1eaa7a19588c2046f1b1613dbc9663473e5ebacd2
+ref/arc-monk/monk-of-the-sacred-mountain	Vow of Silence (Su)	vow-of-silence	yes	17	print	print		114	8409d12c7a8fc6eefd2c70b92e0c06d83945b4ce0079b52fad77ec02d9967adc
+ref/arc-monk/weapon-adept	Perfect Strike (Ex)	perfect-strike	yes	1	print	print		114	18f0a7b175cf0ca89fd03dc414b852a4261c70a1d16fda7032b2c6f1358e9467
+ref/arc-monk/weapon-adept	Way of the Weapon Master (Ex)	way-of-the-weapon-master	yes	2	print	print		115	8cf123c0929d80d65a8b590d5562c3e8857e8e400bf4809353696e23bcc35542
+ref/arc-monk/weapon-adept	Evasion (Ex)	evasion	yes	9	print	print		115	09024f15a014a4781b00c04527301e5a0c4e8487abee907d786389bb21d863e0
+ref/arc-monk/weapon-adept	Uncanny Initiative (Ex)	uncanny-initiative	yes	17	print	print		115	3eebc0603fce9921e18a02e284339631164e62ddf047e051262ea0c978265c29
+ref/arc-monk/weapon-adept	Pure Power	pure-power	yes	20	print	print		115	e184d220c2037fb198f1a76e4d16cfe2d5d1b82ad0ee1a91285f41e902d462ae
+ref/arc-monk/zen-archer	Weapon and Armor Proficiency	weapon-and-armor-proficiency	no		draft	draft		115	c86e1478afa089735f3b8e4f4b38d05eb5f5d5a8ac5057596dbe82a1f1d6b938
+ref/arc-monk/zen-archer	Flurry of Blows (Ex)	flurry-of-blows	yes	1	draft	draft		115	7ee59192ea51646e8a37dd446580a8f8968b11581cdbe4dbfc0e1a494bee8758
+ref/arc-monk/zen-archer	Bonus Feats	bonus-feats	no		print	print	print asterisks without their key dropped	115	a33d49e3371f49cbb103b858164e9a108097004924b831f32ebd01ded8092430
+ref/arc-monk/zen-archer	Perfect Strike (Ex)	perfect-strike	yes	1	print	print		115	080f499f26f63dc6556b56cbae9a83516b7bab03af6860bbc59ba130c0865e08
+ref/arc-monk/zen-archer	Way of the Bow (Ex)	way-of-the-bow	yes	2	print	print		115	e63509416fac0f9f6a60477d64f575162c551a83a3022bee5cf4035dcfd94f41
+ref/arc-monk/zen-archer	Zen Archery (Ex)	zen-archery	yes	3	print	print		115	c49a7204c1cb391a1212246407a8bd0fcabad47d16c40e775dd0cf717297a0cf
+ref/arc-monk/zen-archer	Point Blank Master (Ex)	point-blank-master	yes	3	print	print	hand review (ruling 14, print): The feat chapter of the same book prints the head "Point Blank Master (Combat)". Put the link on the printed name and drop the asterisk.; print asterisks without their key dropped	115	b497c5b0e3c55d0fd42728e623716d46bc459affd1f8c446a9c45d362d5a763a
+ref/arc-monk/zen-archer	Ki Pool (Su)	ki-pool	yes	4	draft	draft		115	8d2ca40842463a40d36c85736f7c37afc2fdf19ca0e67d3dc74d01e07e50f42e
+ref/arc-monk/zen-archer	Ki Arrows (Su)	ki-arrows	yes	5	print	print		115	68d5e051aa54cdc23d12d9e33c7073c212ba1ba143e2be80ad0f065d885f8507
+ref/arc-monk/zen-archer	Reflexive Shot (Ex)	reflexive-shot	yes	9	print	print		115	7a4b662bae84ba17da8901a0a3139e74465b8934c23585a66689d681f5c5d7dd
+ref/arc-monk/zen-archer	Trick Shot (Su)	trick-shot	yes	11	print	print		115	91b3eb4b494b4f48d15c10615c78ae35888fa9e8a474def64dc9c9e3b66137f7
+ref/arc-monk/zen-archer	Ki Focus Bow (Su)	ki-focus-bow	yes	17	print	print		115	e815fb0e5bb7481bb5ba247585945fa3b862e102956e47c8fb6b8de65a6c3005
+ref/arc-paladin/divine-defender	Shared Defense (Su)	shared-defense	yes	3	print	print	hand review (ruling 14, print): Same values.	116	df9fbd3edc8fd86864e22fda26db0f40bb627b4d4492fa00e490f72e930c41c7
+ref/arc-paladin/divine-defender	Divine Bond (Su)	divine-bond	yes	5	print	print	hand review (ruling 14, print): The values differ: the corpus gives 2/3/4/5/6 uses at 8th/11th/14th/17th/20th, print gives 2/3/4 at 9th/13th/17th. Print is self-consistent ("four times per day at 17th") and matches the Sacred Servant (p. 117). The corpus confused it with the enhancement progression (+1 per three levels, the same in both).	116	cbdfc2996eb53fe4272cbaa0f2ff00ff9a0519a6df82ddd91896fb6330162c58
+ref/arc-paladin/hospitaler	Smite Evil (Su)	smite-evil	yes		print	print	ruling 10: corpus text that print does not have is dropped: “This functions as the paladin ability, with …”	116	39121d148f92ffbcfc7e9d9435b097daf15a1e1cf822dc0532b0c4454400ac61
+ref/arc-paladin/hospitaler	Channel Positive Energy (Su)	channel-positive-energy	yes		print	print	hand review (ruling 14, print): The corpus text is garbled.	116	58db31a1f805aec2075f843db7e98d07f0c2a7081a8d01795bc4db6c3f9535c1
+ref/arc-paladin/hospitaler	Aura of Healing (Su)	aura-of-healing	yes	11	print	print		116	3cc3ba7beab36b59175911edd92b736311149b610688c3da20ada7ea0fbd4502
+ref/arc-paladin/sacred-servant	Smite Evil (Su)	smite-evil	yes		print	print	hand review (ruling 14, print): Same values (2 at 7th, 3 at 13th, 4 at 19th).	117	6bec5ad149496384dd85fd477f7157e00836a6d36b93aaaae3f4b07d9fa1c67a
+ref/arc-paladin/sacred-servant	Spells	spells	yes	4	print	print		117	014b09b96e68eb9a907d8c87f58efc72de0b03a5df3654763b23504cd30b713c
+ref/arc-paladin/sacred-servant	Divine Bond (Su)	divine-bond	yes	5	print	print	hand review (ruling 14, print): The corpus has no rate for either value and caps the uses at 1. Print gives both rates.	117	1ce6feb3b4cb34e17218a0e8a2217acffd21db6e6986be9dac13be600d364026
+ref/arc-paladin/sacred-servant	Call Celestial Ally (Sp)	call-celestial-ally	yes	8	print	print		117	6268d6be2002cc26d74916057c8e5e2df69f7565a32ce2694a2ce199de60fc05
+ref/arc-paladin/shining-knight	Skilled Rider (Ex and Su)	skilled-rider	yes	3	print	print		117	78d2051aba56a9b7a379d9548231c654c48d54245d8e6f0e606fcfb29551d83c
+ref/arc-paladin/shining-knight	Divine Bond (Su)	divine-bond	yes		print	print		117	c2b8ecb37defde4b4ab108678e35e335947a411b600e12af79107b3515685a32
+ref/arc-paladin/shining-knight	Knight's Charge (Su)	knight-s-charge	yes	11	print	print		117	e28d6098e9628bc0c05105ac10f4aa78eefcc6e48361877fd1139a173b5ad329
+ref/arc-paladin/undead-scourge	Smite Evil (Su)	smite-evil	yes		draft	draft		118	b6ca06fc4e743a5681e81d05f0caebd22aef98e323d2c7b43e8e5d55d2f6d9f3
+ref/arc-paladin/undead-scourge	Aura of Life (Su)	aura-of-life	yes	8	print	print		118	feb4d08aee9a2017b33e3f65b91742be3685f19934d339f9529dd0563012ee0d
+ref/arc-paladin/undead-scourge	Undead Annihilation (Su)	undead-annihilation	yes	11	print	print		118	46038e2037530aeedde9f2d03d8b3294a94731fcb163da88e0a497032917a08a
+ref/arc-paladin/warrior-of-the-holy-light	Power of Faith (Su)	power-of-faith	yes	4	print	print	hand review (ruling 14, print): The corpus row is garbled. Print's rule is clear.	118	bda484b418f97753f5f3b069d46ed1efeb17d4568762f15fb4326edce54629e2
+ref/arc-paladin/warrior-of-the-holy-light	Shining Light (Su)	shining-light	yes	14	print	print	hand review (ruling 14, print): Same values.	118	596f406d4b2c8103af813d74c2c93bfac28221e5c6a8b649ae0b802fab099da7
+ref/arc-ranger/beast-master	Class Skills	class-skills	yes		print	print	head printed, not in the import: added from print	124	
+ref/arc-ranger/beast-master	Animal Companion (Ex)	animal-companion	yes		print	print		124	9be65c811dec9067d63115244f62cf9116b48764269d7fc7cfe0fa23c3ed45a5
+ref/arc-ranger/beast-master	Improved Empathic Link (Su)	improved-empathic-link	yes	6	print	print	hand review (ruling 14, print): A stray citation mark in the corpus.; level from the trade	125	054179232827476dcf6458b06f5756986c46f7661ae13d14d07334d59e85c4a5
+ref/arc-ranger/beast-master	Strong Bond (Ex)	strong-bond	yes	12	print	print		125	d723c4530c6b7d832a5b84836badd167bf4f4b6e0c18774c73c8730e9c78f9da
+ref/arc-ranger/guide	Ranger's Focus (Ex)	ranger-s-focus	yes	1	print	print	hand review (ruling 14, print): Same values (uses 2 at 4th, 3 at 7th … 7 at 19th).	125	27a8ef283e7511a8014bf3115f8c8c7e88dcf16e99ef2d37e77940894b8fcd0e
+ref/arc-ranger/guide	Terrain Bond (Ex)	terrain-bond	yes	4	print	print		125	80ae99a96b73d61853b578abd7f1d6e1006c9630d9fbc7b3e16826bad5d333f5
+ref/arc-ranger/guide	Ranger's Luck (Ex)	ranger-s-luck	yes		print	print	hand review (ruling 14, print): Same values.	125	226a2f7f6b26f1f6cdf4b8b5b12293bfd213bc98a54c83b9cf421d38f6cd96e1
+ref/arc-ranger/guide	Inspired Moment (Ex)	inspired-moment	yes	11	print	print	hand review (ruling 14, print): Same value.	125	2877b2f3a48c3e7adaff4893b554beb5244b20db15acc5173fd91ff72a84642b
+ref/arc-ranger/guide	Improved Ranger's Luck (Ex)	improved-ranger-s-luck	yes		print	print		125	8416739c4ff3116f4903d04cb8b05247feff56e5cd3dfde6e92bda0e4e189bf0
+ref/arc-ranger/horse-lord	Combat Style Feat (Ex)	combat-style-feat	yes	2	draft	draft		125	19e8c97c09d1f27fd26a9f7fba7fd8c001172e2e8519a7da75cab13c2ac5386b
+ref/arc-ranger/horse-lord	Mounted Bond (Ex)	mounted-bond	yes	4	print	print		125	0f3f95910962dbb5d5bc2d7cc2f4f8771d5d1fc01a0a3b32b61fcdb168dc40b9
+ref/arc-ranger/horse-lord	Strong Bond (Ex)	strong-bond	yes	12	print	print		125	bd55116253a43a98d883673453ba9b49bce2557f3778e020a3b770937bc35db2
+ref/arc-ranger/horse-lord	Spiritual Bond (Su)	spiritual-bond	yes	17	print	print	misprint fixed: print has "of the him", written "of him" (the sentence needs no article before the pronoun)	125	f2d73642f646f9c88db88930f2dce9220d0ded1dad688375cadcc7a00e0e1c6b
+ref/arc-ranger/infiltrator	Adaptation (Ex)	adaptation	yes	3	print	print	owner decision of 2026-11-24 (corpus-errata): print; the corpus sentence that print does not have is dropped (ruling 10) (The values agree, but the corpus has a rule that print lacks. The infiltrator replaces favored terrain (p. 126) and keeps camouflage and hide in plain sight, which work only in favored terrain. Without the corpus sentence, those two features do nothing. That gap is the kind a later fix closes, and an import does not invent rules. The owner decides.)	126	666a00fe429754f208fac45c212ce763b5250d6ea2b60305efc2208949d450e5
+ref/arc-ranger/infiltrator	Aberration	aberration	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	3bd0e9f85968e83c4c1b2aec3069a6a268ca9c1a679cc32f38e7e1b938c2e3d3
+ref/arc-ranger/infiltrator	Animal	animal	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	11598d295ef3df1b8239ba3ddbf8daac0598d3c601a1b5a3bc7df92a2b327a3e
+ref/arc-ranger/infiltrator	Construct	construct	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	271e7f51fe70a6c83f526b2c6a9aa8bf454f11281cdd61fe47c7913872bf7083
+ref/arc-ranger/infiltrator	Dragon	dragon	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	a357631714bf31c6beeda2a0dda1a02894f3955dc2c7027230d2ac0f2278a2db
+ref/arc-ranger/infiltrator	Fey	fey	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	577aed2413dbae6d6f84f77f44c797e6cdabb720eae3ec004d7632c7c14aba06
+ref/arc-ranger/infiltrator	Humanoid (aquatic)	humanoid-aquatic	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	a78e313983016aace11139b2423c69257e9e2eda11514fce7cfa9b57168239a1
+ref/arc-ranger/infiltrator	Humanoid (dwarf)	humanoid-dwarf	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	bd50a4d6b4287b4a8757ca7f752c078b208c1c6214e51e941c7d63939ece43a4
+ref/arc-ranger/infiltrator	Humanoid (elf)	humanoid-elf	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	77534c17244f1097acd83750b60e964d4df8561397bb760645a9b0eb762426f5
+ref/arc-ranger/infiltrator	Humanoid (giant)	humanoid-giant	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	0ddb73f71953874b1b330bd046be9de880390b14555ab4e237dc71ae644cf005
+ref/arc-ranger/infiltrator	Humanoid (gnoll)	humanoid-gnoll	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	c936ced7938136ab2a0965f86e55ffb7b590090f1c9e055287471890f7871291
+ref/arc-ranger/infiltrator	Humanoid (gnome)	humanoid-gnome	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	e9b3f7297df9e909b15e297edf109c8f5d4442cd18892b96d88562a6020f37d5
+ref/arc-ranger/infiltrator	Humanoid (goblinoid)	humanoid-goblinoid	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	f019656a5fa5379ec565f213e8261e59520eb231fae2ba4a41b60607650c6c93
+ref/arc-ranger/infiltrator	Humanoid (halfling)	humanoid-halfling	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	2b4ce8e2c3150ecad67eacfd56e3a8cfe15815403ac70868ad96c5984ba409e0
+ref/arc-ranger/infiltrator	Humanoid (human)	humanoid-human	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	ea388cfe7d74bafa0bf8e2edc630e3c13d8b01fc353f881428889d681a8ef64d
+ref/arc-ranger/infiltrator	Humanoid (orc)	humanoid-orc	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	cb89af6b13a8863006e853da8028466536d2068c18429033f7899b0afce5d540
+ref/arc-ranger/infiltrator	Humanoid (reptilian)	humanoid-reptilian	no		print	print	hand review (ruling 14, print): Stray mark.; option item, not a feature (ruling 15): a subheading of `adaptation`	126	e5814e66fd0459ee6a09750161a6829123fbe0b6eccd40d27ba7a5b60cb27e04
+ref/arc-ranger/infiltrator	Magical Beast	magical-beast	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	ab16fb381b53a55ac7828e2818edf2e0a9c9b24a36e4f783e5b523ea816b050f
+ref/arc-ranger/infiltrator	Monstrous Humanoid	monstrous-humanoid	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	8d08976932af5bc7d51aabf8c0612d867cb05b90de8c01d66d038cdc6cbc4196
+ref/arc-ranger/infiltrator	Ooze	ooze	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	b781ca7b93c5063305625c9f0231345cafecb6a2699960fa71a79605e4c21fcb
+ref/arc-ranger/infiltrator	Outsider	outsider	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	906bf2e1eaff4f7c8f49a74bf6f06da9b2a8903e3c08953ad997b3357bbc790e
+ref/arc-ranger/infiltrator	Plant	plant	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	92072c8d081bbf8e48f6d316c2b4646305746c8d15073791d48b657783599514
+ref/arc-ranger/infiltrator	Undead	undead	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	dd9758de310c3d07444c260e0189fc7c987fae6aa593b086ae2ff0dccbd06771
+ref/arc-ranger/infiltrator	Vermin	vermin	no		draft	draft	option item, not a feature (ruling 15): a subheading of `adaptation`	126	56d9eaa1f34058be66f44057e83224a0469c8860802d1c1abb11fd4e7a71d6c0
+ref/arc-ranger/shapeshifter	Combat Style Feat (Ex)	combat-style-feat	yes	2	draft	draft		126	a7b9dc5915192a7efabdd8b49c9a572ac4a331c528088e77986a55abf6ff7665
+ref/arc-ranger/shapeshifter	Shifter's Blessing (Su)	shifter-s-blessing	yes	3	print	print	ruling 10: corpus text that print does not have is dropped: “This is not a polymorph ability; a …”; misprint fixed: print has "the shapeshifter subtype", written "the shapechanger subtype" (there is no shapeshifter subtype; the same book writes "the shapechanger subtype" (p. 139))	126	06b4b6023e03647160a4ceffdc099727f21afa26cc62357c50897ce0c25c9e1a
+ref/arc-ranger/shapeshifter	Form of the Bear	form-of-the-bear	no		draft	draft	option item, not a feature (ruling 15): a subheading of `shifter-s-blessing`	126	5d7006fa7bb5ace2b6ad59e2bf31f9b0344718afd9baa9819991861944765e9e
+ref/arc-ranger/shapeshifter	Form of the Cat	form-of-the-cat	no		draft	draft	option item, not a feature (ruling 15): a subheading of `shifter-s-blessing`	126	a7390805a33046f6456719d372ad6c7ce29f235ad57bf47d04e19ece743c2273
+ref/arc-ranger/shapeshifter	Form of the Dragon	form-of-the-dragon	no		draft	draft	option item, not a feature (ruling 15): a subheading of `shifter-s-blessing`	126	b83274a239eb2f072ff526773c96f7026b1fe5051dc5329d40a6ec81992b8d73
+ref/arc-ranger/shapeshifter	Form of the Eagle	form-of-the-eagle	no		draft	draft	option item, not a feature (ruling 15): a subheading of `shifter-s-blessing`	126	818fbf0dcb7f04561f25ae2c8bf6ab073a8509a9b321974a397332485fe21bd0
+ref/arc-ranger/shapeshifter	Form of the Jackal	form-of-the-jackal	no		draft	draft	option item, not a feature (ruling 15): a subheading of `shifter-s-blessing`	126	3c87491b1eaf1150d70d27859603bdbc8ea7a94421a9d66c38dc5ab30c94ef7f
+ref/arc-ranger/shapeshifter	Form of the Otter	form-of-the-otter	no		print	print	hand review (ruling 14, structural): The closing paragraph belongs to Shifter's Blessing. It follows its form list, under the last form's head. Put it in Shifter's Blessing, which keeps the trade sentence. Take print's progression (extra form and use at 8th, 13th, 18th), which the corpus lacks.; option item, not a feature (ruling 15): a subheading of `shifter-s-blessing`	127	8c6a4ab2a038411d61614ba2ead6ab8cbf568fe39a88393b63f25674828bbca6
+ref/arc-ranger/shapeshifter	Dual Form Shifter (Ex)	dual-form-shifter	yes	12	print	print		127	758811a9a45179eca769911a382fca788ed7cbf78ed295b05b8d17054766d845
+ref/arc-ranger/shapeshifter	Master Shifter (Su)	master-shifter	yes	20	print	print		127	f7ac256a444650c1ea8f56ee895003523d41c2f6c0857ef579423b645fc8aa65
+ref/arc-ranger/shapeshifter	Form of the Bear	master-shifter-form-of-the-bear	no		draft	draft	anchor `form-of-the-bear` occurs twice; this one is `master-shifter-form-of-the-bear`; option item, not a feature (ruling 15): a subheading of `master-shifter`	127	650311b8034ddb4d4be0eed5b6bb85a2aac88d72f94f448275f5e770141d35a9
+ref/arc-ranger/shapeshifter	Form of the Cat	master-shifter-form-of-the-cat	no		draft	draft	anchor `form-of-the-cat` occurs twice; this one is `master-shifter-form-of-the-cat`; option item, not a feature (ruling 15): a subheading of `master-shifter`	127	8940971bf804fa99b66240a1c9410c1526444d3efa0924b837a2b09f9dd0b16a
+ref/arc-ranger/shapeshifter	Form of the Dragon	master-shifter-form-of-the-dragon	no		draft	draft	anchor `form-of-the-dragon` occurs twice; this one is `master-shifter-form-of-the-dragon`; option item, not a feature (ruling 15): a subheading of `master-shifter`	127	816b798310bfa2152a58519a5e24460a7a3c26aa493d4424a951848ed89b14f0
+ref/arc-ranger/shapeshifter	Form of the Eagle	master-shifter-form-of-the-eagle	no		draft	draft	anchor `form-of-the-eagle` occurs twice; this one is `master-shifter-form-of-the-eagle`; option item, not a feature (ruling 15): a subheading of `master-shifter`	127	641c9f71473661d8d7aa57a3d8df9670f1f63af7da4166af4596ba304ef8f0e4
+ref/arc-ranger/shapeshifter	Form of the Jackal	master-shifter-form-of-the-jackal	no		draft	draft	anchor `form-of-the-jackal` occurs twice; this one is `master-shifter-form-of-the-jackal`; option item, not a feature (ruling 15): a subheading of `master-shifter`	128	ded882d5e928c1806cce0c082d6ae297508f8fe274a519721bf273060494ef1b
+ref/arc-ranger/shapeshifter	Form of the Otter	master-shifter-form-of-the-otter	no		draft	draft	anchor `form-of-the-otter` occurs twice; this one is `master-shifter-form-of-the-otter`; option item, not a feature (ruling 15): a subheading of `master-shifter`	128	628c23282d414a1ee0fa0b95541ad45a685b24b2afb8074f1964d9268d7d029b
+ref/arc-ranger/skirmisher	Hunter's Tricks	hunter-s-tricks	yes	5	print	print	hand review (ruling 14, print): The corpus skips 7th: print gives 8 tricks at 19th, the corpus 7. The gap is the import's slip. Print also says "Skirmishers do not gain any spells…"; trade renamed: "Spellcasting ability" to "Spells" to match the printed sentence	128	97dd792f9120bfa27343a2196422ceeaf86c90f274cd330deb801a13e7ba9516
+ref/arc-ranger/skirmisher	Aiding Attack (Ex)	aiding-attack	yes		print	print		128	594850dfe520073fdee2240f56e0193f07deda9c0c0e783933725e2cfcb41ad6
+ref/arc-ranger/skirmisher	Bolster Companion (Ex)	bolster-companion	yes		print	print		128	36672b446ab011b33ac40020b24e2299c642fcb04533ef79103ae0816d1b23f6
+ref/arc-ranger/skirmisher	Catfall (Ex)	catfall	yes		print	print		128	5c976201138e4cb8a125b5f5a7d87baac486872c5ae7f74ae33d731ee7da727b
+ref/arc-ranger/skirmisher	Chameleon Step (Ex)	chameleon-step	yes		print	print		128	c01c244040b1be6765ab79dbc5a89f54b8aac614754d9d6b4c0d410cdd417000
+ref/arc-ranger/skirmisher	Cunning Pantomime (Ex)	cunning-pantomime	yes		draft	draft		128	5a3d5d643fd33d990588c61522e38b9a0bdca8df5003f91d322959ee4f0780ba
+ref/arc-ranger/skirmisher	Defensive Bow Stance (Ex)	defensive-bow-stance	yes		print	print	hand review (ruling 14, print): Paraphrase.	128	df51f931e0bcb22d9b0afc4ad1b5a4071162457d1c12a3d958e6049c082b4c8b
+ref/arc-ranger/skirmisher	Deft Stand (Ex)	deft-stand	yes		print	print		128	18809fd26db0bfc2ef49b9e05e16ed404634592e1ed8b8946388a3e01509c66b
+ref/arc-ranger/skirmisher	Distracting Attack (Ex)	distracting-attack	yes		print	print		128	bb2c4d55efc713bc58e9b9fe5d6b1e4e81b26596fb57a6f6c693b019472ec316
+ref/arc-ranger/skirmisher	Hateful Attack (Ex)	hateful-attack	yes		print	print		128	a67ecbe4945fbeee0fad3579385c5a6731ad1320ac08ac4e8a1fafb9a1e55bbe
+ref/arc-ranger/skirmisher	Heel (Ex)	heel	yes		print	print		128	4001f5e94a99da8949641d41e749c505cb11059e99f7bb65cb75fd30d8a99f04
+ref/arc-ranger/skirmisher	Hobbling Attack (Ex)	hobbling-attack	yes		print	print		128	75a799141d505d3fdc63c2e02a8542116cfac330fe44867015fc7709274777ce
+ref/arc-ranger/skirmisher	Quick Climb (Ex)	quick-climb	yes		print	print		128	c66c26001cf0b43c90b266b38862a5f2c5265537acd09f1d78d19a72dbe3d1a0
+ref/arc-ranger/skirmisher	Quick Healing (Ex)	quick-healing	yes		print	print		128	7974cedf22bde66456bc47dd83fbb9dd71746e019e1f07fa7c7320ea9a4e11bd
+ref/arc-ranger/skirmisher	Quick Swim (Ex)	quick-swim	yes		print	print		128	d5fac9cda7e754116ed1320955795f036ade68fe4554d2bd68dd94ab6c528c66
+ref/arc-ranger/skirmisher	Ranger's Counsel (Ex)	ranger-s-counsel	yes		draft	draft		128	b0133274ea17173538e63e5e48626232ab1b1f4766dfe2c63480b3dec6cafa07
+ref/arc-ranger/skirmisher	Rattling Strike (Ex)	rattling-strike	yes		print	print		128	644352f086e8bda5c99cb26de9c44c6166e3b36e06c472e1c257045883b958e2
+ref/arc-ranger/skirmisher	Second Chance Strike (Ex)	second-chance-strike	yes		print	print	hand review (ruling 14, print): Paraphrase.	129	dfbe0aea10aaeefeee98fbd6ce52f344b21ebd7052db712ee457d158eb368819
+ref/arc-ranger/skirmisher	Sic 'Em (Ex)	sic-em	yes		print	print	hand review (ruling 14, print): Paraphrase. The head is "Sic 'Em".	129	e08779c046d0642515ef4401ac9c0ed19cfdad8677c4ccce9cfffc190624220a
+ref/arc-ranger/skirmisher	Skill Sage (Ex)	skill-sage	yes		draft	draft		129	538129e25962a840ca7935a8ab8ebf30d38d3ea4117a600668ba4e88799b29de
+ref/arc-ranger/skirmisher	Stag's Leap (Ex)	stag-s-leap	yes		draft	draft		129	62530f8d6d6ec570810063f13a935c0989cb385b83165246c0e4508b28663918
+ref/arc-ranger/skirmisher	Surprise Shift (Ex)	surprise-shift	yes		print	print		129	28160d0e75500e5c821ab44f610c8dc3199d2b9afe1db82e3e09bfac7e89327b
+ref/arc-ranger/skirmisher	Tangling Attack (Ex)	tangling-attack	yes		print	print		129	78c98afa8b29ae37164c171ebdd6c8d26c0809eb006aa93e60a8d7015adf4caa
+ref/arc-ranger/skirmisher	Trick Shot (Ex)	trick-shot	yes		draft	draft		129	8505b1e8866a3455a43b285b48a0f3916aac22a32b1a3bda78ef4fc31c352400
+ref/arc-ranger/skirmisher	Uncanny Senses (Ex)	uncanny-senses	yes		print	print		129	68f24c1c39de807a2fc75a2afb4e1cc1db611f55cead3fb96b9db98dde454145
+ref/arc-ranger/skirmisher	Upending Strike (Ex)	upending-strike	yes		print	print		129	4ca7388162787bcc716d1137d4748ff7d757dbb78eaa177993d0eefc278dede9
+ref/arc-ranger/skirmisher	Vengeance Strike (Ex)	vengeance-strike	yes		print	print		129	c19524af5bc9ccd3c6206b8e3c83a41001ff77c5801f8a1f676d33d44239e252
+ref/arc-ranger/spirit-ranger	Spirit Bond (Ex)	spirit-bond	yes	4	print	print		129	5b539bc885bbcb58fe0757a4bcf48dbb4d6032f0db010c82b23e910e5b2d4cf3
+ref/arc-ranger/spirit-ranger	Wisdom of the Spirits (Sp)	wisdom-of-the-spirits	yes	12	print	print		129	66b015509c5ec7e65a9a35f8211202bd4dcfbc6b959fac88c96bf7ca3da2015b
+ref/arc-ranger/urban-ranger	Urban Ranger	urban-ranger	yes	1	print	print	head printed, not in the import: added from print	129	
+ref/arc-ranger/urban-ranger	Favored Community (Ex)	favored-community	yes	3	print	print	hand review (ruling 14, print): Same rule. The corpus row is garbled.	129	d131ffbc823bbec25e591a7f9d98ec3d55301538bd6324632563123c6251a406
+ref/arc-ranger/urban-ranger	Trapfinding (Ex)	trapfinding	yes	3	print	print		129	3170d201795e99824e3d0009e83ca7bab39b170246d10ff563fd8223abbdd409
+ref/arc-ranger/urban-ranger	Push Through (Ex)	push-through	yes	7	print	print		129	60799fd1e63e369192c1fc813afa6b69ee65596d41af8303e0cc8b7007e7a532
+ref/arc-ranger/urban-ranger	Blend In (Ex)	blend-in	yes		print	print		129	d24933f79bd07abf821574e3d85643db91315a6b1c0854c349b580532ef4b616
+ref/arc-ranger/urban-ranger	Invisibility Trick (Sp)	invisibility-trick	yes	17	print	print		129	28e64757b1d4f671eb7bb41fbd36934e4d8818636ad32fc4f08e8082450249e0
+ref/arc-rogue/acrobat	Expert Acrobat (Ex)	expert-acrobat	yes	1	print	print		132	fdec2021a0e74829783ad7c6b9fca24e3a004bebac9d414b52426c4241486056
+ref/arc-rogue/acrobat	Second Chance (Ex)	second-chance	yes	3	print	print		132	c9793d953a7401ce679d59bff9526fe1640e002d86d1eefa1def59d1fdbc089b
+ref/arc-rogue/acrobat	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped; misprint fixed: print has "expert leaper, ledge walker,", written "expert leaper, fast getaway, ledge walker," (the same book prints Fast Getaway among the rogue talents (p. 130), not the advanced talents)	132	b510e2e9efcc634e0af17ddb8d9ff840d051215b1c0bc86b323d59ea67d6bb0c
+ref/arc-rogue/acrobat	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped; misprint fixed: print has "defensive roll, fast getaway, fast tumble,", written "defensive roll, fast tumble," (Fast Getaway is a rogue talent (p. 130), not an advanced rogue talent)	132	340d06843061b233514877f1fae7eabec1e07a61398e81363aa775c3eba7371c
+ref/arc-rogue/burglar	Careful Disarm (Ex)	careful-disarm	yes	4	print	print		132	52c1be66cf06bd45ba3ef3522798371c161f59da565edf0ea68f2758f231934c
+ref/arc-rogue/burglar	Distraction (Ex)	distraction	yes	8	print	print		132	2ee3a577c7f1ed525cf833adf25486ac8d64f622a924dd70857dce372c357b6b
+ref/arc-rogue/burglar	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	132	6b04ce74ed7d103d7640fd16e1e3623ae7db32f26cb242204d267597b2a0a01b
+ref/arc-rogue/burglar	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	132	e1fb99ca26b26027780b211bd5355bae7d0c8f0422f99eb02bc873661b6b27e5
+ref/arc-rogue/cutpurse	Measure the Mark (Ex)	measure-the-mark	yes	1	print	print	level 1: replaces Trapfinding, gained at 1st level in the class table	133	52c6abcf10f693d7c8591db0b6f03d2eacb51e031330c322c65e380155e9cbeb
+ref/arc-rogue/cutpurse	Stab and Grab (Ex)	stab-and-grab	yes	3	print	print		133	ccd3f6b10e920da585a69861fd30cdca5c2fafce5d48c608561a3653937f7d33
+ref/arc-rogue/cutpurse	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	133	adb5745cbe42cdb484de9062d89d0dd3062b3655824d2b0d506bfa517b7a3fe6
+ref/arc-rogue/cutpurse	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	133	28c0bbbe0ba23d893679c32bae5a33a84bb3603c86c25dac8ddef036a4d7ffe2
+ref/arc-rogue/investigator	Follow Up (Ex)	follow-up	yes	1	print	print	level 1: replaces Trapfinding, gained at 1st level in the class table; opening note that print does not have dropped (ruling 10): “> _**Note:** This is a rogue archetype, and has …”	133	c50dc1fe83c13a10d1277e662e4f815f3397d36b1d5dda4c15d7c6a49b17e5be
+ref/arc-rogue/investigator	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	134	174a99dd100674c89b28d3c829afbf5f667b01ff6816c157cc8681e3849b5578
+ref/arc-rogue/investigator	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped; misprint fixed: print has "thought reexamining", written "thoughtful reexamining" (the advanced rogue talent is Thoughtful Reexamining, which the same book prints in full for the burglar)	134	f9ea7bed7d03f26e2def258e9969f8cf613284e9e40f58f2d6c1e1244b520888
+ref/arc-rogue/poisoner	Poison Use (Ex)	poison-use	yes	1	print	print		134	f7024dcaeb8bad8f26453d11df880a34443770a0953889f6aed09d1a9735f82e
+ref/arc-rogue/poisoner	Master Poisoner (Ex)	master-poisoner	yes	3	print	print		134	d11ba1e3fd898684053c52e62cd5cd699b48129cb2bb63cc8a2d4db3ed24ec5d
+ref/arc-rogue/poisoner	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	134	055b831b42e6db8e45f5cdcf0139d6833fd946025fb8954db896da00781e7ea9
+ref/arc-rogue/poisoner	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	134	5ebc837e592d75d6fe7b3a0da299c60891b3f4710682023682012c4c0c884b56
+ref/arc-rogue/rake	Bravado's Blade (Ex)	bravado-s-blade	yes	1	print	print	level 1: replaces Trapfinding, gained at 1st level in the class table	134	048fc964553d4f5cdfea0271e2bef067234553bd498818b89d6f4cdd50dd4c0b
+ref/arc-rogue/rake	Rake's Smile (Ex)	rake-s-smile	yes	3	print	print	rule 8: the printed progression and the corpus's fraction of the level give the same values; print's wording taken; link not placed: one-third	134	d75009ab7111453d6fca6a4a44a6f3cf58bd0337f22f79595ba1fe541892a4bb
+ref/arc-rogue/rake	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	134	3e25bddf87dd2ad9090cc5edb13ca9f3f51eb11d84fac3039c89d1709f652762
+ref/arc-rogue/rake	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	134	5b0bf5b8dc08061930646c342a251eb024ae784079fa66ca41b86ac43ff66a5c
+ref/arc-rogue/scout	Scout's Charge (Ex)	scout-s-charge	yes	4	print	print		134	06f8d8e98d8b08b18b743fad911d7394a1a9acce9c1f229fb65fc125d4fd1df9
+ref/arc-rogue/scout	Skirmisher (Ex)	skirmisher	yes	8	print	print		134	b7fd647d7e62b949b95b38a985e5578f6f4b9ecb66d58464245c73a2f7ead792
+ref/arc-rogue/scout	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	134	882a78a1089890899ded2e84493d927fc491348fdcd63c0e0b2f6b5dfdf6e8a1
+ref/arc-rogue/scout	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	134	c6762a41747453230fe8c39364f6b7d5022c0fea19c840e416ac82e2e8b668aa
+ref/arc-rogue/sniper	Accuracy (Ex)	accuracy	yes	1	print	print		134	744edfb32e79fda470f611f02a8b0c5ef11e5be3d9add95b49c445a28908e19c
+ref/arc-rogue/sniper	Deadly Range (Ex)	deadly-range	yes	3	print	print		134	98c73f6494319f39e350adcdf9405339d71a1a133558d1955cec8f74194cf7c5
+ref/arc-rogue/sniper	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	135	fb7899fc30b2861a055d86c824073a5a670393ab0c502b3fc3d92e7eabbb8e88
+ref/arc-rogue/sniper	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	135	95d3d01375b3394c9b653d077a06e9471d67729abb86b4cf77c555cc1e6e3749
+ref/arc-rogue/spy	Skilled Liar (Ex)	skilled-liar	yes	1	print	print	level 1: replaces Trapfinding, gained at 1st level in the class table	135	16a44a0d2a11c39b883653de4473f472b24f3d581fb833463dabb396126386a3
+ref/arc-rogue/spy	Poison Use (Ex)	poison-use	yes	3	print	print	misprint fixed: print has "A 3rd level", the lead is "At 3rd level"	135	636f7c1145c48fdd22e1290ef74609edf6488b70f2ba2c0e086ca759f2db1a8d
+ref/arc-rogue/spy	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	135	130878640519009961b03bf5e36a2cfdd35049525deca26f9da15ebcd48990e3
+ref/arc-rogue/spy	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	135	dbe573e2d76e65a94dd805d1576ab7923ba400285208487873e776daee4116d2
+ref/arc-rogue/swashbuckler	Martial Training (Ex)	martial-training	yes	1	print	print	opening note that print does not have dropped (ruling 10): “> _**Note:** This is a rogue archetype, and has …”	135	bd43edbbc88f602bf245fad7742b5b7f9c38d8171dd92f26eb251f41ac3f0da2
+ref/arc-rogue/swashbuckler	Daring (Ex)	daring	yes	3	print	print	rule 8: the printed progression and the corpus's fraction of the level give the same values; print's wording taken	135	61950e29ada3f11d936b5aebae728acf1bca8032cd2e6731048c5c7bfb34789d
+ref/arc-rogue/swashbuckler	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	135	9aa6427a83396f0ed6f6fda6741d39d6ab1784f2e625fcb659a1f7192ee55533
+ref/arc-rogue/swashbuckler	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	135	0bbee026f0a0ce479e26125015c2b9cb52084decd927809b989909f3ebdd9f9f
+ref/arc-rogue/thug	Frightening (Ex)	frightening	yes	1	print	print	level 1: replaces Trapfinding, gained at 1st level in the class table	135	0ae28e33d3e30fd7cae4689f9de871769d1b1903a3f1f0be0668435d9457dfb5
+ref/arc-rogue/thug	Brutal Beating (Ex)	brutal-beating	yes	3	print	print		135	afc7808cf82b627cca98a5bcfb1045fd8e22ebab4ef9f876691bf7b50c0facaf
+ref/arc-rogue/thug	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	135	0d4240239fa285e3e061e9708435a2eb3f7a0d3c3f9de11205d25f6a99de6ba7
+ref/arc-rogue/thug	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	135	96f40172953a4b55f57900551088ac9952116cd8d5c50d2077b88105f6cc6440
+ref/arc-rogue/trapsmith	Careful Disarm (Ex)	careful-disarm	yes	4	print	print		135	02217366cc1c4090b611308cde45f0c68ca97f4c11d8010fe2e7ad960f1d5209
+ref/arc-rogue/trapsmith	Trap Master (Ex)	trap-master	yes	8	print	print		135	b170bf6e36a4b17f54915a2b012451528e4c58c49ec446d64cb8171c07d07809
+ref/arc-rogue/trapsmith	Rogue Talents	rogue-talents	no		print	print	print asterisks without their key dropped	135	143f7f4e1e74a9d681b814d5814f221e2bd280a6e4b3ee76682175ae093c120b
+ref/arc-rogue/trapsmith	Advanced Talents	advanced-talents	no		print	print	print asterisks without their key dropped	135	a742a31df23ac60de4d010d9bea4bf04fa766f89429fa996085010c8fc9ffccb
