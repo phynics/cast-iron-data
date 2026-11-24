@@ -112,7 +112,11 @@ entry's parent lists the book).
         `scripts/expansion-credits-apply.py`, decisions in `scripts/expansion-credits-461-batch4.tsv`),
         `section-printed` (keep: the book prints a section of the entry's body on `print_page`; a
         keep needs a `[[sources]]` row, and the row is added when the entry holds only a body line).
-        A re-run overwrites the queue; scripts/membership-apply.py applies the rows marked `remove`.
+        A re-run overwrites the queue; scripts/membership-apply.py applies the rows marked `remove`
+        and `cite`. Since S0 of #461 the queue is kept by scripts/membership-queue-461.py, which
+        adds the columns `group`, `slice`, `ruling`, `in_warning`, `pdf`, `body_line`, `exact` and
+        `paren`, the verdicts `cite` and `resolved`, and the rows that this screen does not queue
+        (see scripts/membership-queue-461.md). `--status-out` writes its input.
 
 Known limits (see the PR for the calibration): no-PDF memberships and books without readable
 page numbers are not judged, and neither says anything about absence. A hub-looking entry that
@@ -251,6 +255,24 @@ def title_patterns(title: str) -> list[str]:
     return out
 
 
+def paren_pattern(title: str) -> re.Pattern | None:
+    """The parenthetical of a title ("Figurine of Wondrous Power (Slate Spider)" -> "Slate Spider")
+    as a pattern, or None. A parenthetical of fewer than five letters, or one of GENERIC_PARENS
+    ("Familiar", "Mass", "Lesser"), tells no two entries apart, so it gives None."""
+    m = re.search(r"\(([^)]*)\)", title)
+    if not m:
+        return None
+    inner = fold(m.group(1))
+    if len(inner.replace(" ", "")) < 5 or inner in GENERIC_PARENS:
+        return None
+    pats = title_patterns(m.group(1))
+    return re.compile("|".join(pats)) if pats else None
+
+
+GENERIC_PARENS = {"familiar", "creature", "spell", "feat", "trait", "item", "class", "mythic", "variant",
+                  "lesser", "greater", "mass", "communal", "alchemical", "magic item", "optional rule"}
+
+
 # ------------------------------------------------------------------------------------- the book
 
 
@@ -323,6 +345,11 @@ class Book:
     def window(self, a: int, z: int) -> str:
         """The text of the pages whose printed number is in a-1 .. z+1."""
         return " ## ".join(self.text[i] for i in self.window_pages(a, z))
+
+    def exact(self, a: int, z: int) -> str:
+        """The text of the pages whose printed number is in a .. z (no page before or after)."""
+        idx = sorted({i for n in range(a, z + 1) for i in self.by_printed.get(n, [])})
+        return " ## ".join(self.text[i] for i in idx)
 
     def window_has_words(self, a: int, z: int, words: set[str]) -> bool:
         have = set().union(*(self.words[i] for i in self.window_pages(a, z))) if self.by_printed else set()
@@ -529,7 +556,16 @@ def run(args, root, pubs, entries, multi, members, screen_set, links, pdfs, cach
                     page, cite = bp, "body"
             spans = parse_pages(page)
             chunks = body_chunks(d["_body"])
-            r = {"has_row": row is not None, "cited": page, "cite": cite, "hits": 0, "found": []}
+            r = {"has_row": row is not None, "cited": page, "cite": cite, "hits": 0, "found": [],
+                 "exact": "", "paren": ""}
+            if spans and rx is not None:  # the title on the cited pages themselves, no page before or after
+                r["exact"] = "yes" if any(rx.search(bk.exact(a, z)) for a, z in spans) else "no"
+            prx = paren_pattern(d["title"])
+            if prx is not None:  # the parenthetical (a variant name) says what the title alone cannot
+                if spans and any(prx.search(bk.exact(a, z)) for a, z in spans):
+                    r["paren"] = "page"
+                else:
+                    r["paren"] = "book" if bk.pages_with(prx, 1) else "none"
             if rx is None:
                 r["status"] = "absent"
             elif spans:
@@ -565,17 +601,17 @@ def run(args, root, pubs, entries, multi, members, screen_set, links, pdfs, cach
         for e, r in res.items():
             if not aligned:  # no readable page numbers: no verdict of any kind, and no page numbers
                 r = {"status": "unaligned", "has_row": r["has_row"], "cited": r["cited"], "cite": r["cite"],
-                     "hits": 0, "found": []}
+                     "hits": 0, "found": [], "exact": "", "paren": ""}
             status[(e, book)] = r
 
     def prints_there(e: str, book: str) -> bool:
         s = status.get((e, book))
         return bool(s) and s["status"] in ("printed", "body")  # not loose, not weak: too permissive
 
-    queue = []
+    allrows = []  # one row per screened membership, whatever its status
     for (e, book), r in sorted(status.items()):
         st = r["status"]
-        if e not in multi or st in ("printed", "body", "loose", "unaligned", "no-text"):
+        if e not in multi:
             continue
         d = entries[e]
         lk = links.get(e, {})
@@ -602,7 +638,7 @@ def run(args, root, pubs, entries, multi, members, screen_set, links, pdfs, cach
             tag = "uncited"
         else:
             tag = "review"
-        queue.append({
+        allrows.append({
             "book": book, "entry": e, "kind": d["kind"], "title": d["title"].replace("\t", " "),
             "member": d["source_ids"].index(book) + 1, "n_books": len(d["source_ids"]),
             "tag": tag, "status": st, "cited": r["cited"], "cite": r["cite"], "hits": r["hits"],
@@ -610,7 +646,9 @@ def run(args, root, pubs, entries, multi, members, screen_set, links, pdfs, cach
             "via": ",".join(dict.fromkeys(via)), "family": ",".join(fam[:3]),
             "parent_has_book": "yes" if parent_has else "",
             "gate": "", "proposed_primary": "", "proposed_status": "", "verdict": "", "print_page": "", "evidence": "",
+            "has_row": "yes" if r["has_row"] else "", "exact": r.get("exact", ""), "paren": r.get("paren", ""),
         })
+    queue = [q for q in allrows if q["status"] not in ("printed", "body", "loose", "unaligned", "no-text")]
     # First-book rows change the entry's primary book when removed: gate them, and name the book
     # that would become primary (the first later book that is not itself a removal candidate).
     removal_books = collections.defaultdict(set)
@@ -625,6 +663,7 @@ def run(args, root, pubs, entries, multi, members, screen_set, links, pdfs, cach
             if rest:
                 q["proposed_status"] = status.get((q["entry"], rest[0]), {}).get("status", "unscreened")
     queue.sort(key=lambda q: (q["book"], TAG_ORDER.index(q["tag"]), q["entry"]))
+    queued = {(q["book"], q["entry"]) for q in queue}
 
     cols = ["book", "entry", "kind", "title", "member", "n_books", "tag", "status", "cited", "cite",
             "hits", "found", "via", "family", "parent_has_book", "gate", "proposed_primary",
@@ -633,6 +672,14 @@ def run(args, root, pubs, entries, multi, members, screen_set, links, pdfs, cach
         f.write("\t".join(cols) + "\n")
         for q in queue:
             f.write("\t".join(str(q[c]) for c in cols) + "\n")
+
+    if args.status_out:  # every screened membership, for scripts/membership-queue-461.py
+        ext = cols + ["has_row", "exact", "paren", "queued"]
+        with open(args.status_out, "w", encoding="utf-8", newline="\n") as f:
+            f.write("\t".join(ext) + "\n")
+            for q in sorted(allrows, key=lambda q: (q["book"], q["entry"])):
+                q["queued"] = "yes" if (q["book"], q["entry"]) in queued else ""
+                f.write("\t".join(str(q.get(c, "")) for c in ext) + "\n")
 
     report(queue, status, quality, multi, pdfs, members)
     return 0
@@ -672,6 +719,10 @@ def main() -> int:
     ap.add_argument("corpus", help="corpus directory (a checkout of cast-iron-data)")
     ap.add_argument("--pdf-dir", required=True, help="directory that holds the owner PDFs (searched recursively)")
     ap.add_argument("--out", default="membership-queue.tsv")
+    ap.add_argument("--status-out", help="also write every screened membership (printed ones too) with the "
+                    "columns `has_row`, `exact` (title on the cited pages themselves), `paren` (the "
+                    "parenthetical of the title on the cited page, elsewhere in the book, or nowhere) "
+                    "and `queued`; scripts/membership-queue-461.py reads it")
     ap.add_argument("--text-cache", help="directory for extracted text (outside any repository)")
     ap.add_argument("--books", help="comma-separated publication ids; default is every book with a PDF")
     ap.add_argument("--pdftotext", default="pdftotext")

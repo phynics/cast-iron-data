@@ -23,6 +23,6 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** -4 on Perception checks, target is permanently blinded if it fails 3 saves
+**Effect:** -4 on Perception checks, target is permanently blinded if fails 3 saves
 
 **Cure:** 2 consecutive saves

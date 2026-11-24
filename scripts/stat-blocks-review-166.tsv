@@ -22,16 +22,6 @@ entries/eq-misc/snake-oil.md	item	variant-paragraphs	Type
 entries/eq-misc/winterbite.md	item	block-ended-at-sentences	Preparation
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
 entries/magic-armor/planar-invasion-shield.md	item	print-fix	Construction: the intended item `absorbing shield` as a link, without the emphasis that held the `;` (Ultimate Equipment p. 349)
-entries/magic-artifact/sword-of-gluttony-ungarato.md	intelligent	sentences-in-variant	Powers
-entries/magic-artifact/sword-of-gluttony-ungarato.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/sword-of-lust-asheia.md	intelligent	sentences-in-variant	Powers
-entries/magic-artifact/sword-of-lust-asheia.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/sword-of-pride-baraket.md	intelligent	sentences-in-variant	Dedicated Powers
-entries/magic-artifact/sword-of-pride-baraket.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/sword-of-sloth-shin-tari.md	intelligent	sentences-in-variant	Powers
-entries/magic-artifact/sword-of-sloth-shin-tari.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/sword-of-wrath-garvok.md	intelligent	sentences-in-variant	Powers
-entries/magic-artifact/sword-of-wrath-garvok.md	item	variant-paragraphs	Alignment
 entries/magic-graft/fungal-eyes.md	item	unlabelled-line	These small, glowing blue fungi form a p
 entries/magic-graft/reaching-vines.md	item	unlabelled-line	Cytillesh spores seeded beneath the subj
 entries/magic-ioun/agate-ellipsoid.md	item	variant-paragraphs	Price; Price
@@ -131,13 +121,6 @@ entries/magic-poison/burning-heart.md	item	variant-paragraphs	Type; Requirements
 entries/magic-poison/dust-of-eox.md	item	variant-paragraphs	Type; Requirements
 entries/magic-poison/liquid-influence.md	item	variant-paragraphs	Type; Requirements
 entries/magic-relic/belt-of-the-last-wall.md	item	variant-paragraphs	Task
-entries/magic-set/archmages-vestments.md	item	linked-label	[Caster's Shield, Greater:](ref/magic-armor/casters-shield-g
-entries/magic-set/arodens-array.md	item	linked-label	[Belt of Fallen Heroes:](ref/magic-wondrous/belt-of-fallen-h
-entries/magic-set/beastmasters-will.md	item	linked-label	[Boots of the Cat:](ref/magic-wondrous/boots-of-the-cat)
-entries/magic-set/besmaras-bounty.md	item	linked-label	[Bracelet of Bargaining:](ref/magic-wondrous/bracelet-of-bar
-entries/magic-set/dread-demonic-armor.md	item	linked-label	[Deliquescent Gloves:](ref/magic-wondrous/deliquescent-glove
-entries/magic-set/pharasmas-command.md	item	linked-label	[Cassock of the Clergy:](ref/magic-wondrous/cassock-of-the-c
-entries/magic-set/urgathoas-gluttony.md	item	linked-label	[Haunted Shoes:](ref/magic-wondrous/haunted-shoes)
 entries/magic-wondrous/cube-of-force.md	item	print-fix	row `11`, the base item's own text; `13` and `14` stay as rows for the variant paragraphs of the body (Classic Treasures Revisited p. 11)
 entries/magic-wondrous/cube-of-varied-force-walls.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
 entries/magic-wondrous/discriminating-cube.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
@@ -153,6 +136,7 @@ entries/monster/brambleblight.md	creature	held-for-print	the Animated Bramble (s
 entries/monster/cauldron-bloom.md	creature	print-254	tremorParens: 1 mile
 entries/monster/elemental-lord-ymeri.md	creature	print-fix	melee: `flaming burst` where the import left `EFB` (Planes of Power p. 54)
 entries/monster/ghul.md	creature	print-fix	rows: the Ghul on p. 62 and the Great Ghuls on p. 63 (Dark Markets, a Guide to Katapesh pp. 62-63)
+entries/monster/goblin-goblin-vulture-pilot.md	creature	print-fix	Combat Gear and Other Gear rows: `potions of barkskin (2)` and `mwk mithral chain shirt` as printed; the import wrote the count first (`2 potion of barkskin`), left the other counts the same way, and ran `mwk mithral` and `sunrods (2)` into `MM` and `srs` (Monster Codex p. 109)
 entries/monster/hag-annis-hag.md	creature	sources-unparsed	Blood of the Coven
 entries/monster/hag-ash-hag.md	creature	sources-unparsed	Blood of the Coven
 entries/monster/hag-blood-hag.md	creature	sources-unparsed	Blood of the Coven
@@ -181,20 +165,17 @@ entries/npc/demon-hunter.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10
 entries/npc/desert-protector.md	npc	unlabelled-line	Aura courage (10 ft.), resolve (10 ft.)
 entries/npc/dog-rider-knight.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/dragon-smiter.md	npc	unlabelled-line	Aura courage (10 ft.), justice (10 ft.),
-entries/npc/duergar-strandrider.md	npc	section-twice	Defense
 entries/npc/elven-honorblade.md	npc	unlabelled-line	Aura courage (10 ft.), justice (10 ft.),
 entries/npc/forge-rider.md	npc	unlabelled-line	Aura courage (10 ft.), justice (10 ft.),
 entries/npc/furious-crusader.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
 entries/npc/geb-blood-lord.md	npc	unlabelled-line	Aura fear aura (60 ft., DC 21)
 entries/npc/giant-hunter.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
-entries/npc/god-caller.md	npc	section-twice	Defense
 entries/npc/hammer-of-justice.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/haughty-avenger.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/holy-archer.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/knight-of-ozem.md	npc	unlabelled-line	Aura courage (10 ft.)
-entries/npc/mammoth-rider.md	npc	section-twice	Defense
+entries/npc/mammoth-rider.md	npc	print-fix	Mammoth Steed Senses: `Perception +15` is part of the value (print does not set it as a label), so it is no `Perception` row (Inner Sea NPC Codex p. 36)
 entries/npc/mithral-master.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
-entries/npc/molthuni-commander.md	npc	section-twice	Defense
 entries/npc/mounted-paragon.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
 entries/npc/noble-knight.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/pious-guard.md	npc	unlabelled-line	Aura courage (10 ft.), resolve (10 ft.)
@@ -203,15 +184,9 @@ entries/npc/saintly-knight.md	npc	unlabelled-line	Aura courage (10 ft.), resolve
 entries/npc/savage-plant-sage.md	npc	spell-header	**Druid Spells Prepared** (CL 4th; conc. +5)
 entries/npc/signifer-of-the-nail.md	npc	unlabelled-line	Aura aura of law
 entries/npc/skirmishing-crusader.md	npc	unlabelled-line	Aura courage (10 ft.)
-entries/npc/uskwood-druid.md	npc	section-twice	Defense
 entries/npc/water-merchant.md	npc	unlabelled-line	D Domain spell; **Domain** Water
 entries/npc/wayward-crusader.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/winter-witch-baroness.md	npc	print-fix	Spell-Like Abilities concentration: `+7`; the import left `+7))` (Irrisen, Land of Eternal Winter p. 62)
 entries/npc/winter-witch-cold-sister.md	npc	print-fix	Spell-Like Abilities concentration: `+7`; the import left `+7s` (Irrisen, Land of Eternal Winter p. 62)
-entries/tech-artifact/fission-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
-entries/tech-artifact/fusion-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
-entries/tech-artifact/geothermal-generator.md	item	linked-label	[Hardness](ref/umr/hardness)
-entries/tech-artifact/graviton-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
-entries/tech-artifact/solar-generator.md	item	linked-label	[Hardness](ref/umr/hardness)
 entries/tech-misc/grip-of-death.md	item	variant-paragraphs	Aura
 entries/tech-weapon/starfall-spade.md	item	variant-paragraphs	Aura

@@ -3002,7 +3002,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/rules/new-rules/traits/campaign-traits/favored-son-daughter"
-target = "ref/carried/advanced-players-guide/rules/new-rules/traits/campaign-traits/favored-son-daughter"
+target = "ref/trait/favored-son-or-daughter"
 basis = "carried"
 
 [[entries]]
@@ -3127,7 +3127,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan"
-target = "ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan"
+target = "ref/trait/calistrian-courtesan"
 basis = "carried"
 
 [[entries]]
@@ -31378,6 +31378,16 @@ basis = "direct"
 [[entries]]
 old = "ref/carried/advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/bear-trap/bear-trap"
 target = "ref/trap/bear-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/rules/new-rules/traits/campaign-traits/favored-son-daughter"
+target = "ref/trait/favored-son-or-daughter"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan"
+target = "ref/trait/calistrian-courtesan"
 basis = "shared"
 
 [[entries]]

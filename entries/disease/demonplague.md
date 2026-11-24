@@ -23,8 +23,8 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1d3, Wisdom damage 1d6, and victim is fatigued if it takes any
-ability damage from the disease
+**Effect:** 1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage
+from the disease; certain creatures slain by demonplague rise as plagued beasts (see page 56)
 
 **Cure:** 3 consecutive saves
 

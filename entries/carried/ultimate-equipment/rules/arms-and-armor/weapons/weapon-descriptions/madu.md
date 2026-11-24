@@ -13,6 +13,9 @@ publication = "ultimate-equipment"
 page = "13"
 [[sources]]
 publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-equipment"
 page = "32"
 
 [fields]
@@ -36,9 +39,7 @@ attributes = [
   { label = "Weapon: Proficiency", value = "Light Melee Weapons" },
   { label = "Weapon: Critical", value = "×2" },
   { label = "Weapon: Dmg (M)", value = "1d4" },
-  { label = "Weapon: Dmg (L)", value = "1d6" },
   { label = "Weapon: Type", value = "P" },
-  { label = "Weapon: Dmg (T)", value = "1d2" },
 ]
 +++
 
@@ -91,9 +92,7 @@ Weapon\: Dmg (S): 1d3
 Weapon\: Proficiency: Light Melee Weapons
 Weapon\: Critical: ×2
 Weapon\: Dmg (M): 1d4
-Weapon\: Dmg (L): 1d6
 Weapon\: Type: P
-Weapon\: Dmg (T): 1d2
 :::
 
 ::: paragraph statline

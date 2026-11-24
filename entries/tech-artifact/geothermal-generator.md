@@ -15,8 +15,14 @@ kind = "item"
 category = "Technological Artifacts"
 +++
 
-**Yield** 200; **Fort** +4; **[Hardness](ref/umr/hardness)** 10; **HP** 1,000; **Explosion** 10d6
-bludgeoning and 10d6 fire (60-ft. radius; Reflex DC 15 half); **Perception Penalty** -5
+::: statblock
+Yield: 200
+Fort: +4
+Hardness: [10](ref/umr/hardness)
+HP: 1,000
+Explosion: 10d6 bludgeoning and 10d6 fire (60-ft. radius; Reflex DC 15 half)
+Perception Penalty: -5
+:::
 
 A geothermal generator doesn't take up much room on the surface, but its components reach far into
 the earth and tap upon superheated water, steam, and even magma to generate power. Once activated, a

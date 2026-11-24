@@ -15,9 +15,14 @@ kind = "item"
 category = "Technological Artifacts"
 +++
 
-**Yield** 1,000; **Fort** +2; **[Hardness](ref/umr/hardness)** 10; **HP** 1,500; **Explosion** 20d10
-bludgeoning and 20d10 fire plus severe [radiation](ref/rule/radiation) (250-ft. radius; Reflex DC 20
-half); **Perception Penalty** -10
+::: statblock
+Yield: 1,000
+Fort: +2
+Hardness: [10](ref/umr/hardness)
+HP: 1,500
+Explosion: 20d10 bludgeoning and 20d10 fire plus severe [radiation](ref/rule/radiation) (250-ft. radius; Reflex DC 20 half)
+Perception Penalty: -10
+:::
 
 A fission reactor harnesses power from nuclear energy gathered by processing and consuming
 radioactive fuel. Once activated, a fission reactor can function for many years before its

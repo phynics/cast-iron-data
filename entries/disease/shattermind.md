@@ -24,10 +24,10 @@ kind = "none"
 **Frequency:** 1/day
 
 **Effect:** 1d4 Wis damage (cannot reduce Wisdom below 1); on any day the victim fails her saving
-throw, she suffers the effects of a type of insanity. Unlike normal insanity, on any day she makes a
-successful saving throw (using the DC for shattermind, not her form of insanity), she regains her
-sanity for that day. A given variety of shattermind spreads the same form of insanity to all of its
-victims.
+throw, she suffers the effects of a type of insanity (GameMastery Guide 250). Unlike normal
+insanity, on any day she makes a successful saving throw (using the DC for shattermind, not her form
+of insanity), she regains her sanity for that day. A given variety of shattermind spreads the same
+form of insanity to all of its victims.
 
 **Cure:** 2 consecutive saves
 

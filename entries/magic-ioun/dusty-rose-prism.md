@@ -20,10 +20,10 @@ publication = "seekers-of-secrets"
 page = "48"
 [[sources]]
 publication = "seekers-of-secrets"
-page = "47"
+page = "46"
 [[sources]]
 publication = "seekers-of-secrets"
-page = "46"
+page = "47"
 
 [fields]
 kind = "item"

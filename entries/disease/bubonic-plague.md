@@ -23,6 +23,6 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1d4, Charisma damage 1, and target is fatigued
+**Effect:** 1d4 Con damage and 1 Cha damage and target is fatigued
 
 **Cure:** 2 consecutive saves

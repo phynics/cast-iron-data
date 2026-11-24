@@ -15,8 +15,14 @@ kind = "item"
 category = "Technological Artifacts"
 +++
 
-**Yield** 50; **Fort** +5; **[Hardness](ref/umr/hardness)** 2; **HP** 100; **Explosion** none;
-**Perception Penalty** +0
+::: statblock
+Yield: 50
+Fort: +5
+Hardness: [2](ref/umr/hardness)
+HP: 100
+Explosion: none
+Perception Penalty: +0
+:::
 
 A solar generator consists of a fairly small converter attached to a set of huge reflective panels.
 It produces full yield while receiving direct sunlight. Its yield halves during overcast conditions.

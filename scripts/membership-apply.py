@@ -1,12 +1,29 @@
 #!/usr/bin/env python3
-"""Apply the reviewed removals of phynics/cast-iron#461 to a corpus.
+"""Apply the reviewed decisions of phynics/cast-iron#461 to a corpus.
 
     python3 scripts/membership-apply.py <corpus-dir> [--queue scripts/membership-queue-461.tsv]
-        [--dry-run] [--only-kind racial_trait]
+        [--dry-run | --check] [--only-kind racial_trait] [--convert-body]
 
-It reads the queue written by `scripts/membership-screen.py` and acts only on the rows whose
-`verdict` column is `remove` (the print check is recorded there: `print_page`, `evidence`). Rows
-marked `keep` or `expands` and rows without a verdict are never touched. For each removal it
+It reads the queue (`scripts/membership-queue-461.tsv`, kept by `scripts/membership-queue-461.py`
+from the output of `scripts/membership-screen.py`) and acts only on the rows whose `verdict`
+column is `remove` or `cite` (the print check is recorded there: `print_page`, `evidence`). Rows
+marked `keep`, `expands` or `resolved` and rows without a verdict are never touched. Two actions:
+
+`cite` (the book prints the entry and the membership stays)
+  The entry gets a `[[sources]]` row for the book with `print_page`, which is what the
+  `corpus-check` warning asks for. The book must be in `source_ids` (adding a book is the `add`
+  action of `scripts/expansion-credits-apply.py`). The row goes where the entry's rows are in
+  `source_ids` order. An entry that has the row already is left alone when its page is
+  `print_page` ("already"), and refused when the page differs (the `page` action of
+  `scripts/expansion-credits-apply.py` changes a page). A row without a page gets the page. A
+  book with an `[[expanded_in]]` credit on the entry is refused: a credit is not membership.
+  A body `**Source**` line stays as it is. With `--convert-body` the line becomes the row: the
+  book's part of the line goes, the rest of the line stays, and a line with nothing left goes
+  too. It is refused when the line's page and `print_page` do not overlap or the part cannot be
+  read. A `keep` row needs the row to be there already (`--check` lists those that do not).
+
+`remove` (the book does not print the entry)
+  For each removal the script
 
   1. takes the book out of the entry's `source_ids` (order of the rest is kept),
   2. drops the entry's placement in that book from `books.toml` (format 3: from the curated `books/<book>.toml`;
@@ -57,7 +74,12 @@ It never edits an `id` and never moves a file. The edit is textual and keeps the
 run `cargo xtask corpus-fmt --check <dir>` and `cargo xtask corpus-check <dir>` afterwards.
 
 Applying twice is safe: a row whose book is already out of `source_ids` and `books.toml` is
-reported as already applied. Output has ids and book ids only.
+reported as already applied, and so is a `cite` row whose `[[sources]]` row is there.
+
+`--check` writes nothing: it validates every row as a run would and prints how many changes are
+pending (a removal whose book is still in `source_ids`, a `cite` whose row is missing, a `keep`
+without its row). It exits 1 when any is pending, so it proves that a run has finished.
+`--dry-run` is the same without the exit status. Output has ids and book ids only.
 """
 from __future__ import annotations
 
@@ -68,6 +90,25 @@ import sys
 import tomllib
 from collections import defaultdict
 from pathlib import Path
+
+
+PAGE_TEXT = re.compile(r"\d+(?:\s*[-\u2013]\s*\d+)?(?:\s*,\s*\d+(?:\s*[-\u2013]\s*\d+)?)*")
+
+
+def read_cites(path: Path, only_kind: str | None) -> list[dict]:
+    """The rows with verdict `cite`: they need a printed page and the evidence for it."""
+    with open(path, encoding="utf-8", newline="") as f:
+        rows = list(csv.DictReader(f, delimiter="\t"))
+    out = []
+    for r in rows:
+        if r["verdict"] != "cite" or (only_kind and r["kind"] != only_kind):
+            continue
+        if not PAGE_TEXT.fullmatch(r["print_page"] or ""):
+            raise SystemExit(f"refused: {r['entry']} in {r['book']} has verdict cite and print_page {r['print_page']!r}, which is not a page")
+        if not r["evidence"]:
+            raise SystemExit(f"refused: {r['entry']} in {r['book']} has no evidence recorded")
+        out.append(r)
+    return out
 
 
 def read_queue(path: Path, only_kind: str | None) -> list[dict]:
@@ -257,6 +298,134 @@ def edit_entry(path: Path, book: str, title: str, write: bool = True,
     return "removed"
 
 
+
+# ------------------------------------------------------------------------------------- cite
+
+
+def header_end(lines: list[str]) -> int:
+    """Index of the line where the front matter's tables end (`[fields]` or the closing `+++`)."""
+    for i in range(1, len(lines)):
+        if lines[i] in ("[fields]", "+++"):
+            return i
+    raise SystemExit("refused: front matter does not end")
+
+
+def source_blocks(lines: list[str], end: int) -> list[tuple[int, int, str]]:
+    """(first line, line after the block, publication) of each `[[sources]]` row of the header."""
+    out = []
+    i = 1
+    while i < end:
+        if lines[i] == "[[sources]]":
+            j = i + 1
+            while j < end and lines[j] and not lines[j].startswith("["):
+                j += 1
+            pub = next((m.group(1) for l in lines[i:j] if (m := re.match(r'^publication = "([^"]*)"$', l))), "")
+            out.append((i, j, pub))
+            i = j
+        else:
+            i += 1
+    return out
+
+
+def has_expanded_in(text: str, book: str) -> bool:
+    lines = text.split("\n")
+    return any(line == "[[expanded_in]]" and f'publication = "{book}"' in lines[i + 1:i + 3]
+               for i, line in enumerate(lines[:header_end(lines)]))
+
+
+BODY_PAGE = re.compile(r"\s*(?:pg\.?|p\.?|page)\s*(\d.*)$", re.I)
+SLASH_PAGE = re.compile(r"^(.+?)/(\d[\d\s,\-\u2013]*)$")
+
+
+def split_segment(seg: str) -> tuple[str, str]:
+    """A body citation part (`Book pg. 28`, `Book/28`, `Book`) -> (title, page text or '')."""
+    seg = seg.strip()
+    m = BODY_PAGE.search(seg)
+    if m:
+        return seg[:m.start()].strip(), m.group(1).strip().rstrip(".")
+    m = SLASH_PAGE.match(seg)
+    if m:
+        return m.group(1).strip(), m.group(2).strip()
+    return seg, ""
+
+
+def convert_body_lines(text: str, title: str, page: str, name: str) -> tuple[str, int]:
+    """Take the book's part out of the body `**Source**` lines. Returns the text and the number
+    of parts taken out. Refuses a part whose page does not overlap `page`. A line that does not
+    name the book exactly (a longer title, another book) is left as it is."""
+    start = text.index("+++", 3) + 3 if text.startswith("+++") else 0
+    head, body = text[:start], text[start:]
+    ft = fold(title)
+    out, taken = [], 0
+    for line in body.split("\n"):
+        m = SOURCE_LINE.match(line)
+        if not m:
+            out.append(line)
+            continue
+        rest, tail = line[m.end():].strip(), ""
+        if rest.endswith("\\"):
+            rest, tail = rest[:-1].rstrip(), "\\"
+        keep, found = [], 0
+        for seg in re.split(r",\s*(?=[A-Z])", rest):
+            seg_title, seg_page = split_segment(seg)
+            if fold(seg_title) != ft:
+                keep.append(seg.strip())
+                continue
+            if seg_page and not overlap(seg_page, page):
+                raise SystemExit(f"refused: {name} has a body line for the book at p. {seg_page}, not p. {page}; reconcile it by hand")
+            found += 1
+        if not found:
+            out.append(line)
+            continue
+        taken += found
+        if keep:  # a line with nothing left goes, and its trailing hard break with it
+            out.append(line[:m.end()] + " " + ", ".join(keep) + tail)
+    return head + "\n".join(out), taken
+
+
+def cite_entry(path: Path, book: str, title: str, page: str, write: bool = True, convert_body: bool = False) -> str:
+    """Give the entry a `[[sources]]` row for `book` at `page`. Returns 'cited' or 'already'."""
+    text = path.read_text(encoding="utf-8")
+    m = SOURCE_IDS.search(text)
+    if not m:
+        raise SystemExit(f"refused: {path.name} has no single-line source_ids")
+    ids = re.findall(r'"([^"]*)"', m.group(1))
+    if book not in ids:
+        if has_expanded_in(text, book):
+            raise SystemExit(f"refused: {path.name} credits {book} with expanded_in, which is not membership; it cannot be cited")
+        raise SystemExit(f"refused: {book} is not in source_ids of {path.name}; add it first")
+    lines = text.split("\n")
+    end = header_end(lines)
+    blocks = source_blocks(lines, end)
+    mine = next((b for b in blocks if b[2] == book), None)
+    state = "already"
+    if mine:
+        have = sources_page(text, book)
+        if have and have != page:
+            raise SystemExit(f"refused: {path.name} cites {book} at p. {have}, not p. {page}; change a page with expansion-credits-apply.py")
+        if not have:
+            lines.insert(mine[0] + 2 if lines[mine[0] + 1].startswith("publication") else mine[0] + 1, f'page = "{page}"')
+            state = "cited"
+    else:
+        before = [b for b in blocks if b[2] in ids and ids.index(b[2]) < ids.index(book)]
+        if before:
+            at = before[-1][1]
+        elif blocks:
+            at = blocks[0][0]
+        else:
+            at = end - 1 if lines[end - 1] == "" else end
+        lines[at:at] = ["[[sources]]", f'publication = "{book}"', f'page = "{page}"']
+        state = "cited"
+    new = "\n".join(lines)
+    if convert_body:
+        new, taken = convert_body_lines(new, title, page, path.name)
+        if taken:
+            state = "cited"
+    if write and new != text:
+        path.write_text(new, encoding="utf-8")
+    return state
+
+
 # --------------------------------------------------------------------------------- books.toml
 
 
@@ -358,9 +527,15 @@ def main() -> int:
                     help="rows that release a [[sources]] row (class invalidated or reference)")
     ap.add_argument("--only-kind", default=None, help="act on one entry kind only, for example racial_trait")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--check", action="store_true",
+                    help="write nothing; exit 1 when a decision of the queue is still pending")
+    ap.add_argument("--convert-body", action="store_true",
+                    help="a `cite` also takes the book out of the body `**Source**` lines (the row replaces them)")
     args = ap.parse_args()
+    args.dry_run = args.dry_run or args.check
 
     rows = read_queue(args.queue, args.only_kind)
+    cites = read_cites(args.queue, args.only_kind)
     root = args.corpus
     audit = read_audit(args.audit)
     titles = {p["id"]: p["title"] for p in tomllib.loads((root / "publications.toml").read_text(encoding="utf-8"))["publication"]}
@@ -390,6 +565,38 @@ def main() -> int:
     for path, r in todo:
         edit_entry(path, r["book"], titles[r["book"]], write=False, entry=r["entry"], root=root, audit=audit,
                    primary_to=r["proposed_primary"] if r["gate"] else "", print_page=r["print_page"])
+    # `cite` rows are checked now too: a refusal of any row, removal or cite, stops the run before
+    # the first file is written.
+    cite_todo = []
+    for r in cites:
+        key = (r["book"], r["entry"])
+        if key in seen:
+            raise SystemExit(f"refused: duplicate row {r['entry']} in {r['book']}")
+        seen.add(key)
+        if r["book"] not in titles:
+            raise SystemExit(f"refused: unknown book {r['book']}")
+        path = entry_path(root, r["entry"])
+        if not path.is_file():
+            raise SystemExit(f"refused: no entry file for {r['entry']}")
+        cite_todo.append((path, r))
+    for path, r in cite_todo:
+        cite_entry(path, r["book"], titles[r["book"]], r["print_page"], write=False, convert_body=args.convert_body)
+    # A `keep` row is a decision that the entry's `[[sources]]` row is right, so it must be there.
+    # (The first book needs no row: it is the entry's home.)
+    unrowed = []
+    with open(args.queue, encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f, delimiter="\t"):
+            if r["verdict"] != "keep" or (args.only_kind and r["kind"] != args.only_kind):
+                continue
+            path = entry_path(root, r["entry"])
+            if not path.is_file():
+                raise SystemExit(f"refused: no entry file for {r['entry']}")
+            text = path.read_text(encoding="utf-8")
+            m = SOURCE_IDS.search(text)
+            ids = re.findall(r'"([^"]*)"', m.group(1)) if m else []
+            if r["book"] in ids and ids[0] != r["book"] and not has_sources_row(text, r["book"]):
+                unrowed.append(r)
+
     # The book files are checked before anything is written as well.
     planned: dict[str, set[str]] = defaultdict(set)
     for _, r in todo:
@@ -406,9 +613,26 @@ def main() -> int:
 
     layout, counts, groups = apply_layout(root, removals, args.dry_run)
     placed = sum(counts.values())
+
+    cited = cite_already = 0
+    for path, r in cite_todo:
+        state = cite_entry(path, r["book"], titles[r["book"]], r["print_page"], write=not args.dry_run,
+                           convert_body=args.convert_body)
+        cited += state == "cited"
+        cite_already += state == "already"
+
     print(f"rows with verdict remove: {len(rows)}")
     print(f"source_ids: removed {removed}, already out {absent}")
     print(f"{layout}: placements dropped {placed}, empty title-only groups dropped {groups}")
+    print(f"rows with verdict cite: {len(cites)}")
+    print(f"[[sources]] rows: added {cited}, already there {cite_already}")
+    print(f"rows with verdict keep and no [[sources]] row: {len(unrowed)}")
+    for r in unrowed[:10]:
+        print(f"  {r['entry']} in {r['book']}")
+    pending = removed + cited + len(unrowed)
+    if args.check:
+        print(f"pending changes: {pending}")
+        return 1 if pending else 0
     if args.dry_run:
         print("dry run: nothing written")
     return 0

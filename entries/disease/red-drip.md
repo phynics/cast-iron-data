@@ -26,6 +26,6 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Dexterity damage 1d4 and Charisma damage 1d2
+**Effect:** 1d4 Dex damage and 1d2 Cha damage
 
 **Cure:** 2 consecutive saves or amputation of infected limb

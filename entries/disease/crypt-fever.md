@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Strength damage 1d6, Charisma damage 1d6, and victim is exhausted
+**Effect:** 1d6 Str damage, 1d6 Cha damage, and victim is exhausted
 
 **Cure:** Can only be cured by successfully casting remove curse and remove disease within 1 minute
 of each other.
