@@ -3,16 +3,13 @@ id = "ref/class/mesmerist"
 kind = "class"
 title = "Mesmerist"
 aon = "ClassDisplay.aspx?ItemName=Mesmerist"
-source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legends"]
+source_ids = ["occult-adventures", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mesmerist", path = "json/classes8.json" },
 ]
 [[sources]]
 publication = "occult-adventures"
 page = "38"
-[[sources]]
-publication = "advanced-players-guide"
-page = "72"
 [[sources]]
 publication = "chronicle-of-legends"
 page = "28-29"

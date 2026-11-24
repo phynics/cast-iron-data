@@ -3,16 +3,13 @@ id = "ref/class/medium"
 kind = "class"
 title = "Medium"
 aon = "ClassDisplay.aspx?ItemName=Medium"
-source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legends"]
+source_ids = ["occult-adventures", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medium", path = "json/classes6.json" },
 ]
 [[sources]]
 publication = "occult-adventures"
 page = "30"
-[[sources]]
-publication = "advanced-players-guide"
-page = "72"
 [[sources]]
 publication = "chronicle-of-legends"
 page = "28-29"

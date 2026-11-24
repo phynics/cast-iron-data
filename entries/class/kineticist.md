@@ -3,16 +3,13 @@ id = "ref/class/kineticist"
 kind = "class"
 title = "Kineticist"
 aon = "ClassDisplay.aspx?ItemName=Kineticist"
-source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legends"]
+source_ids = ["occult-adventures", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kineticist", path = "json/classes2.json" },
 ]
 [[sources]]
 publication = "occult-adventures"
 page = "10"
-[[sources]]
-publication = "advanced-players-guide"
-page = "72"
 [[sources]]
 publication = "chronicle-of-legends"
 page = "28-29"

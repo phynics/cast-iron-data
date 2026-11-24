@@ -3,16 +3,13 @@ id = "ref/class/brawler"
 kind = "class"
 title = "Brawler"
 aon = "ClassDisplay.aspx?ItemName=Brawler"
-source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-legends"]
+source_ids = ["advanced-class-guide", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brawler", path = "json/classes8.json" },
 ]
 [[sources]]
 publication = "advanced-class-guide"
 page = "23"
-[[sources]]
-publication = "advanced-players-guide"
-page = "72"
 [[sources]]
 publication = "chronicle-of-legends"
 page = "28"

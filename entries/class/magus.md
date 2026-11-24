@@ -3,16 +3,13 @@ id = "ref/class/magus"
 kind = "class"
 title = "Magus"
 aon = "ClassDisplay.aspx?ItemName=Magus"
-source_ids = ["ultimate-magic", "advanced-players-guide", "chronicle-of-legends"]
+source_ids = ["ultimate-magic", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magus", path = "json/classes7.json" },
 ]
 [[sources]]
 publication = "ultimate-magic"
 page = "9"
-[[sources]]
-publication = "advanced-players-guide"
-page = "72"
 [[sources]]
 publication = "chronicle-of-legends"
 page = "28-29"

@@ -209,16 +209,16 @@ advanced-players-guide	ref/spell/mask-dweomer-communal	spell	Communal Mask Dweom
 advanced-players-guide	ref/spell/share-language-communal	spell	Communal Share Language	1	3	family-leak	absent		none	0		variant	ref/spell/share-language(title)		primary	ultimate-combat	body	remove	243	whole-book-absent-new-primary-printed	single-entry	done			yes			
 advanced-players-guide	ref/spell/walk-the-plank	spell	Walk the Plank	1	2	family-leak	absent		none	0		variant	ref/spell/create-pit(title)		primary	villain-codex	printed	remove	188	whole-book-absent-new-primary-printed	single-entry	done			yes			
 advanced-players-guide	ref/ability/domains	rule	Domains	2	2	uncited	printed	86	body	0											hub-cited	S10		yes	yes	yes	yes	
-advanced-players-guide	ref/class/arcanist	class	Arcanist	2	8	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/bloodrager	class	Bloodrager	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/brawler	class	Brawler	2	5	uncited	printed		none	4	74,78,104,105							cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/hunter	class	Hunter	2	8	uncited	printed		none	24	12,13,18,22,26							cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/investigator	class	Investigator	2	7	uncited	printed		none	4	73,133,134,334							cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/kineticist	class	Kineticist	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/magus	class	Magus	2	10	uncited	body		none	1	54							cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/medium	class	Medium	2	7	uncited	printed		none	40	32,33,38,41,42							cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/mesmerist	class	Mesmerist	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/arcanist	class	Arcanist	2	8	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/bloodrager	class	Bloodrager	2	9	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/brawler	class	Brawler	2	5	uncited	printed		none	4	74,78,104,105							remove	72	generic-archetype-intro	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/hunter	class	Hunter	2	8	uncited	printed		none	24	12,13,18,22,26							remove	72	generic-archetype-intro	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/investigator	class	Investigator	2	7	uncited	printed		none	4	73,133,134,334							remove	72	generic-archetype-intro	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/kineticist	class	Kineticist	2	9	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/magus	class	Magus	2	10	uncited	body		none	1	54							remove	72	generic-archetype-intro	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/medium	class	Medium	2	7	uncited	printed		none	40	32,33,38,41,42							remove	72	generic-archetype-intro	class-hub	done			yes	yes		
+advanced-players-guide	ref/class/mesmerist	class	Mesmerist	2	9	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/ninja	class	Ninja	2	4	uncited	body		none	2	134,135										class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/occultist	class	Occultist	2	5	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/psychic	class	Psychic	2	8	uncited	absent		none	0											class-hub	S7		yes	yes	yes		

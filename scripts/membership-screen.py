@@ -117,6 +117,10 @@ entry's parent lists the book).
         class options for the class but no section of the class body (owner ruling 1 of 2026-11-23);
         `print_page` is the first page of that material for the class. Capstones and the
         Archetypes introduction are `section-printed`, a `cite`).
+        `generic-archetype-intro` (remove, class hubs: the cited page is the Advanced Player's Guide
+        Archetypes introduction (p. 72), which is generic and names only the core classes, so the
+        book does not print a section of the body of a class it does not cover; owner ruling of
+        2026-11-24 on #461. The audit file releases the `[[sources]]` row, class `wrong-credit`).
         A re-run overwrites the queue; scripts/membership-apply.py applies the rows marked `remove`
         and `cite`. Since S0 of #461 the queue is kept by scripts/membership-queue-461.py, which
         adds the columns `group`, `slice`, `ruling`, `in_warning`, `pdf`, `body_line`, `exact` and

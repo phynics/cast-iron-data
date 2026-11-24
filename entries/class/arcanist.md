@@ -3,16 +3,13 @@ id = "ref/class/arcanist"
 kind = "class"
 title = "Arcanist"
 aon = "ClassDisplay.aspx?ItemName=Arcanist"
-source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-legends"]
+source_ids = ["advanced-class-guide", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcanist", path = "json/classes.json" },
 ]
 [[sources]]
 publication = "advanced-class-guide"
 page = "8"
-[[sources]]
-publication = "advanced-players-guide"
-page = "72"
 [[sources]]
 publication = "chronicle-of-legends"
 page = "28"
