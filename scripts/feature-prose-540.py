@@ -1449,6 +1449,14 @@ TRADE_RENAMES = {
 }
 
 
+# A stored trade whose op print contradicts (data fix; the TSV note records it): the entry, the printed name,
+# the op that print says. Reanimator (Ultimate Magic p. 20): "functions as and replaces the standard alchemist
+# bomb class feature", stored as `alters`.
+TRADE_OP_FIXES = {
+    ("ref/arc-alchemist/reanimator", "Bombs"): "replaces",
+}
+
+
 # A trade that print states in a trade sentence and that the entry does not store (data fix inside the
 # pilot's book; the TSV note records it). The other four shaman archetypes store `Venom immunity`.
 TRADE_ADDITIONS = {
@@ -1483,7 +1491,11 @@ def effective_trades_origin(e: Entry) -> list[tuple[dict, int | None]]:
             continue
         op, name = trade_name(t)
         new = TRADE_RENAMES.get((e.id, name))
-        out.append((dict(t, **{op: new}) if new else t, i))
+        t2 = dict(t, **{op: new}) if new else t
+        fixed = TRADE_OP_FIXES.get((e.id, name))
+        if fixed and fixed != op:
+            t2 = {("replaces" if fixed == "replaces" else "alters") if k == op else k: v for k, v in t2.items()}
+        out.append((t2, i))
     return out + [(dict(t), None) for t in TRADE_ADDITIONS.get(e.id, [])]
 
 
@@ -1617,7 +1629,10 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         old = trades_of(e)[origin]
         if old != t:
             anchors = by.get(i) or [rows[0]["anchor"]]
-            note = f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
+            if trade_name(old)[0] != trade_name(t)[0]:
+                note = f'trade op fixed: stored as {trade_name(old)[0]} "{trade_name(old)[1]}", print says {trade_name(t)[0]}'
+            else:
+                note = f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
             next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
     for origin in sorted(dropped_trade_indices(e)):
         old = trades_of(e)[origin]
@@ -1842,6 +1857,10 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     for (eid, old), new in TRADE_RENAMES.items():
         if eid == e.id:
             front = front.replace(f'"{old}"', f'"{new}"', 1)
+    for (eid, name), op in TRADE_OP_FIXES.items():
+        if eid == e.id:
+            other = "alters" if op == "replaces" else "replaces"
+            front = front.replace(f'{other} = "{name}"', f'{op} = "{name}"', 1)
     return "+++\n" + front + "\n+++\n\n" + "\n\n".join(parts) + "\n"
 
 
