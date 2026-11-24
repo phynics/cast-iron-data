@@ -214,7 +214,7 @@ advanced-players-guide	ref/class/bloodrager	class	Bloodrager	2	9	uncited	absent	
 advanced-players-guide	ref/class/brawler	class	Brawler	2	5	uncited	printed		none	4	74,78,104,105							cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/hunter	class	Hunter	2	8	uncited	printed		none	24	12,13,18,22,26							cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/investigator	class	Investigator	2	7	uncited	printed		none	4	73,133,134,334										class-hub	S6		yes	yes	yes		
+advanced-players-guide	ref/class/investigator	class	Investigator	2	7	uncited	printed		none	4	73,133,134,334							cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/kineticist	class	Kineticist	2	9	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/magus	class	Magus	2	10	uncited	body		none	1	54										class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/medium	class	Medium	2	7	uncited	printed		none	40	32,33,38,41,42										class-hub	S6		yes	yes	yes		
@@ -751,7 +751,7 @@ blood-of-the-beast	ref/class/cavalier	class	Cavalier	8	8	uncited	printed		none	5
 blood-of-the-beast	ref/class/gunslinger	class	Gunslinger	8	8	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 blood-of-the-beast	ref/class/hunter	class	Hunter	4	8	uncited	printed		none	9	3,4,5,9,10							remove	4	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/inquisitor	class	Inquisitor	5	8	uncited	printed		none	6	3,4,5,11,14							remove	4	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/class/investigator	class	Investigator	5	7	uncited	printed		none	5	3,4,6,20,21										class-hub	S6		yes	yes			
+blood-of-the-beast	ref/class/investigator	class	Investigator	5	7	uncited	printed		none	5	3,4,6,20,21							remove	4	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/kineticist	class	Kineticist	4	9	uncited	printed		none	2	24,28										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/magus	class	Magus	9	10	uncited	printed		none	2	7,19										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/medium	class	Medium	4	7	uncited	printed		none	7	3,4,8,9,14										class-hub	S6		yes	yes			
@@ -813,7 +813,7 @@ blood-of-the-sea	ref/rule/class-ranger/ranger	rule	Ranger	4	12	family-leak	print
 blood-of-the-sea	ref/rule/class-rogue/rogue	rule	Rogue	11	14	family-leak	printed		none	3	3,5,11	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
 blood-of-the-sea	ref/rule/class-wizard/wizard	rule	Wizard	6	11	family-leak	printed		none	5	5,21,24,27,32	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 blood-of-the-sea	ref/class/cavalier	class	Cavalier	4	8	uncited	printed		none	6	3,5,11,24,25							remove	5	class-options-only	class-hub	done			yes			
-blood-of-the-sea	ref/class/investigator	class	Investigator	7	7	uncited	printed		none	2	9,11										class-hub	S6		yes	yes			
+blood-of-the-sea	ref/class/investigator	class	Investigator	7	7	uncited	printed		none	2	9,11							remove	9	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/medium	class	Medium	5	7	uncited	printed		none	9	7,9,11,15,16										class-hub	S6		yes	yes			
 blood-of-the-sea	ref/class/oracle	class	Oracle	4	13	uncited	printed		none	3	3,12,13										class-hub	S7		yes	yes			
 blood-of-the-sea	ref/class/samurai	class	Samurai	5	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
@@ -884,7 +884,7 @@ chronicle-of-legends	ref/class/antipaladin	class	Antipaladin	2	5	weak	weak		none
 chronicle-of-legends	ref/class/arcanist	class	Arcanist	3	8	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/bloodrager	class	Bloodrager	3	9	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/brawler	class	Brawler	3	5	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/class/investigator	class	Investigator	3	7	weak	weak		none	1	29										class-hub	S6		yes	yes	yes		
+chronicle-of-legends	ref/class/investigator	class	Investigator	3	7	weak	weak		none	1	29							cite	28-29	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/oracle	class	Oracle	5	13	weak	weak		none	1	29										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/rogue	class	Rogue	2	14	weak	weak		none	1	29										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/rule/class-rogue/rogue	rule	Rogue	2	14	weak	weak		none	1	29			yes							class-hub	S8		yes	yes	yes		
@@ -1827,7 +1827,7 @@ legacy-of-the-first-world	ref/class/alchemist	class	Alchemist	7	12	uncited	print
 legacy-of-the-first-world	ref/class/mesmerist	class	Mesmerist	5	9	uncited	printed		none	2	9,13										class-hub	S6		yes	yes			
 legacy-of-the-first-world	ref/class/oracle	class	Oracle	10	13	uncited	printed		none	5	3,9,10,11,22										class-hub	S7		yes	yes			
 legacy-of-the-first-world	ref/race/gathlain	race	Gathlain	4	5	uncited	printed		none	5	-1,1,8,9,34										race-hub	S9		yes	yes			
-legacy-of-the-first-world	ref/class/investigator	class	Investigator	6	7	weak	weak		none	1	9										class-hub	S6		yes	yes			
+legacy-of-the-first-world	ref/class/investigator	class	Investigator	6	7	weak	weak		none	1	9							remove	9	class-options-only	class-hub	done			yes			
 legacy-of-the-first-world	ref/class/kineticist	class	Kineticist	7	9	weak	weak		none	1	9										class-hub	S6		yes	yes			
 legacy-of-the-first-world	ref/race/dwarf	race	Dwarf	9	17	weak	weak		none	1	4	child	ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)								race-hub	S9		yes	yes			
 legacy-of-the-first-world	ref/race/half-orc	race	Half-Orc	13	18	weak	weak		none	1	5	child	ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)								race-hub	S9		yes	yes			
@@ -2149,7 +2149,7 @@ plane-hoppers-handbook	ref/class/arcanist	class	Arcanist	5	8	uncited	printed		no
 plane-hoppers-handbook	ref/class/bloodrager	class	Bloodrager	7	9	uncited	printed		none	2	13,23							remove	23	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/hunter	class	Hunter	6	8	uncited	printed		none	3	15,16,19							remove	19	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/inquisitor	class	Inquisitor	4	8	uncited	printed		none	4	10,12,13,15							remove	15	class-options-only	class-hub	done			yes			
-plane-hoppers-handbook	ref/class/investigator	class	Investigator	4	7	uncited	printed		none	4	15,17,19,23										class-hub	S6		yes	yes			
+plane-hoppers-handbook	ref/class/investigator	class	Investigator	4	7	uncited	printed		none	4	15,17,19,23							remove	15	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/kineticist	class	Kineticist	8	9	uncited	printed		none	3	3,8,17										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/medium	class	Medium	6	7	uncited	printed		none	3	12,13,23										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/oracle	class	Oracle	12	13	uncited	printed		none	3	10,19,23										class-hub	S7		yes	yes			
