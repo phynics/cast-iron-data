@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "bestiary-4"
 page = "279"
+[[sources]]
+publication = "blood-of-the-coven"
+page = "12-13"
 
 [fields]
 kind = "creature"
@@ -134,7 +137,6 @@ gains icewalking and snow vision.
 
 ### Customizing Hag Covens
 
-**Sources:** Blood of the Coven
 
 Any group of three hags can form a coven, but realistically, many types of hags will never cross
 paths or deign to work with one another. Blood hags are loath to form covens that are not under

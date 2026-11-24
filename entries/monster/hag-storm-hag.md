@@ -13,6 +13,9 @@ page = "235"
 [[sources]]
 publication = "pathfinder-72-the-witch-queens-revenge"
 page = "90"
+[[sources]]
+publication = "blood-of-the-coven"
+page = "12-13"
 
 [fields]
 kind = "creature"
@@ -135,7 +138,6 @@ as a member has access to the following additional spell-like abilities: call li
 
 ### Customizing Hag Covens
 
-**Sources:** Blood of the Coven
 
 Any group of three hags can form a coven, but realistically, many types of hags will never cross
 paths or deign to work with one another. Blood hags are loath to form covens that are not under

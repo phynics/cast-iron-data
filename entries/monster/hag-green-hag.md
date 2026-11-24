@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "bestiary"
 page = "167"
+[[sources]]
+publication = "blood-of-the-coven"
+page = "12-13"
 
 [fields]
 kind = "creature"
@@ -139,7 +142,6 @@ At the GM's discretion, certain more powerful hag covens might have additional
 
 ### Customizing Hag Covens
 
-**Sources:** Blood of the Coven
 
 Any group of three hags can form a coven, but realistically, many types of hags will never cross
 paths or deign to work with one another. Blood hags are loath to form covens that are not under

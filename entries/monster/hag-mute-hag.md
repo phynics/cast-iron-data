@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "the-harrowing"
 page = "31"
+[[sources]]
+publication = "blood-of-the-coven"
+page = "12-13"
 
 [fields]
 kind = "creature"
@@ -136,7 +139,6 @@ feet tall and weigh 150 to 250 pounds.
 
 ### Customizing Hag Covens
 
-**Sources:** Blood of the Coven
 
 Any group of three hags can form a coven, but realistically, many types of hags will never cross
 paths or deign to work with one another. Blood hags are loath to form covens that are not under

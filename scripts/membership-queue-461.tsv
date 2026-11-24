@@ -786,17 +786,17 @@ blood-of-the-beast	ref/class/warpriest	class	Warpriest	4	6	weak	weak		none	1	16	
 blood-of-the-beast	ref/rule/class-barbarian/barbarian	rule	Barbarian	5	10	weak	weak		none	1	8			yes							class-hub	S8		yes	yes			
 blood-of-the-coven	ref/rule/feats-multiperson	rule	Multiperson Feats	3	3	hub-keep	absent	13	row	0											hub-cited	S11			yes	yes	no	
 blood-of-the-coven	ref/affliction/hag-sea-hag/evil-eye-curse	affliction	Evil Eye Curse	2	2	family-leak	absent		none	0		parent	ref/monster/hag-sea-hag(title)	yes				remove	8, 27	passing-mention-recorded	single-entry	done			yes			
-blood-of-the-coven	ref/affliction/hag-moon-hag/dreadful-ravings	affliction	Dreadful Ravings	2	2	inherited	absent		none	0				yes							single-entry	S5		yes	yes			
-blood-of-the-coven	ref/monster/hag-annis-hag	creature	Annis Hag	3	3	uncited	printed		none	4	0,5,12,13										single-entry	S5		yes	yes	yes		
-blood-of-the-coven	ref/monster/hag-ash-hag	creature	Ash Hag	2	2	uncited	printed		none	3	0,5,13										single-entry	S5		yes	yes	yes		
-blood-of-the-coven	ref/monster/hag-blood-hag	creature	Blood Hag	2	2	uncited	printed		none	4	0,6,12,13										single-entry	S5		yes	yes	yes		
-blood-of-the-coven	ref/monster/hag-dreamthief-hag	creature	Dreamthief Hag	2	2	uncited	printed		none	5	0,4,6,12,13										single-entry	S5		yes	yes	yes		
-blood-of-the-coven	ref/monster/hag-green-hag	creature	Green Hag	2	2	uncited	printed		none	6	0,7,12,13,22										single-entry	S5		yes	yes	yes		
-blood-of-the-coven	ref/monster/hag-moon-hag	creature	Moon Hag	2	2	uncited	absent		none	0											single-entry	S5		yes	yes	yes		
-blood-of-the-coven	ref/monster/hag-mute-hag	creature	Mute Hag	2	2	uncited	printed		none	4	0,7,13,15										single-entry	S5		yes	yes	yes		
-blood-of-the-coven	ref/monster/hag-sea-hag	creature	Sea Hag	2	2	uncited	printed		none	7	0,8,12,13,22										single-entry	S5		yes	yes	yes		
-blood-of-the-coven	ref/monster/hag-storm-hag	creature	Storm Hag	3	3	uncited	printed		none	4	0,9,12,13										single-entry	S5		yes	yes	yes		
-blood-of-the-coven	ref/monster/hag-winter-hag	creature	Winter Hag	2	2	uncited	printed		none	4	0,9,12,13										single-entry	S5		yes	yes	yes		
+blood-of-the-coven	ref/affliction/hag-moon-hag/dreadful-ravings	affliction	Dreadful Ravings	2	2	inherited	absent		none	0				yes				remove	none	whole-book-absent	single-entry	done		yes	yes			
+blood-of-the-coven	ref/monster/hag-annis-hag	creature	Annis Hag	3	3	uncited	printed		none	4	0,5,12,13							cite	12-13	section-printed	single-entry	done		yes	yes	yes		
+blood-of-the-coven	ref/monster/hag-ash-hag	creature	Ash Hag	2	2	uncited	printed		none	3	0,5,13							cite	12-13	section-printed	single-entry	done		yes	yes	yes		
+blood-of-the-coven	ref/monster/hag-blood-hag	creature	Blood Hag	2	2	uncited	printed		none	4	0,6,12,13							cite	12-13	section-printed	single-entry	done		yes	yes	yes		
+blood-of-the-coven	ref/monster/hag-dreamthief-hag	creature	Dreamthief Hag	2	2	uncited	printed		none	5	0,4,6,12,13							cite	12-13	section-printed	single-entry	done		yes	yes	yes		
+blood-of-the-coven	ref/monster/hag-green-hag	creature	Green Hag	2	2	uncited	printed		none	6	0,7,12,13,22							cite	12-13	section-printed	single-entry	done		yes	yes	yes		
+blood-of-the-coven	ref/monster/hag-moon-hag	creature	Moon Hag	2	2	uncited	absent		none	0								cite	12-13	section-printed	single-entry	done		yes	yes	yes		
+blood-of-the-coven	ref/monster/hag-mute-hag	creature	Mute Hag	2	2	uncited	printed		none	4	0,7,13,15							cite	12-13	section-printed	single-entry	done		yes	yes	yes		
+blood-of-the-coven	ref/monster/hag-sea-hag	creature	Sea Hag	2	2	uncited	printed		none	7	0,8,12,13,22							cite	12-13	section-printed	single-entry	done		yes	yes	yes		
+blood-of-the-coven	ref/monster/hag-storm-hag	creature	Storm Hag	3	3	uncited	printed		none	4	0,9,12,13							cite	12-13	section-printed	single-entry	done		yes	yes	yes		
+blood-of-the-coven	ref/monster/hag-winter-hag	creature	Winter Hag	2	2	uncited	printed		none	4	0,9,12,13							cite	12-13	section-printed	single-entry	done		yes	yes	yes		
 blood-of-the-elements	ref/race/oread	race	Oread	5	5	uncited	printed		none	13	0,1,2,3,5										race-hub	S9		yes	yes			
 blood-of-the-night	ref/rule/optional-subsystems	rule	Optional Subsystems	10	10	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 blood-of-the-night	ref/race/dhampir	race	Dhampir	4	5	uncited	unaligned		none	0											race-hub	S9		yes	yes			
