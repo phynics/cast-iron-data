@@ -2,7 +2,7 @@
 id = "ref/eq-misc/cold-weather-outfit"
 kind = "item"
 title = "Cold-weather outfit"
-source_ids = ["ultimate-equipment", "pathfinder-51-the-hungry-storm", "core-rulebook", "adventurers-armory"]
+source_ids = ["ultimate-equipment", "pathfinder-51-the-hungry-storm", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_weather_outfit", path = "json/equipment_misc.json" },
 ]
@@ -15,9 +15,6 @@ page = "67"
 [[sources]]
 publication = "core-rulebook"
 page = "159"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 
 [fields]
 kind = "item"

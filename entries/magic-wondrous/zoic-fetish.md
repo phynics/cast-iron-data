@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "adventurers-guide"
-page = "114"
+page = "134"
 [[sources]]
 publication = "inner-sea-world-guide"
 page = "299"

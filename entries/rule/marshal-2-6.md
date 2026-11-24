@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "mythic-adventures"
-page = "35"
+page = "42-43"
 [[sources]]
 publication = "mythic-origins"
 page = "27"

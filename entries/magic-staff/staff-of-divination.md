@@ -12,7 +12,7 @@ publication = "ultimate-equipment"
 page = "196"
 [[sources]]
 publication = "core-rulebook"
-page = "293"
+page = "493"
 
 [fields]
 kind = "item"

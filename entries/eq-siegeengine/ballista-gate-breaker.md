@@ -2,16 +2,13 @@
 id = "ref/eq-siegeengine/ballista-gate-breaker"
 kind = "item"
 title = "Ballista, gate Breaker"
-source_ids = ["ultimate-combat", "core-rulebook"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ballista_gate_breaker", path = "json/equipment_siege_engines.json" },
 ]
 [[sources]]
 publication = "ultimate-combat"
 page = "160"
-[[sources]]
-publication = "core-rulebook"
-page = "435"
 
 [fields]
 kind = "item"

@@ -7,11 +7,14 @@ provenance = [
   { dataset = "pathfinder-data-1-e", record = "feats_multiperson", path = "json/rules_basics01.json" },
 ]
 [[sources]]
+publication = "advanced-players-guide"
+page = "150"
+[[sources]]
 publication = "blood-of-the-coven"
 page = "13"
 [[sources]]
 publication = "champions-of-corruption"
-page = "22"
+page = "20"
 
 [fields]
 kind = "none"

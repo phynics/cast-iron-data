@@ -3,16 +3,13 @@ id = "ref/monster/moldering-emperor"
 kind = "creature"
 title = "The Moldering Emperor"
 aon = "MonsterDisplay.aspx?ItemName=The%20Moldering%20Emperor"
-source_ids = ["pathfinder-18-descent-into-midnight", "bestiary"]
+source_ids = ["pathfinder-18-descent-into-midnight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moldering_emperor", path = "json/monsters_unique3.json" },
 ]
 [[sources]]
 publication = "pathfinder-18-descent-into-midnight"
 page = "82"
-[[sources]]
-publication = "bestiary"
-page = "214"
 
 [fields]
 kind = "creature"

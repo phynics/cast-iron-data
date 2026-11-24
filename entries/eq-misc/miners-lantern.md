@@ -2,16 +2,13 @@
 id = "ref/eq-misc/miners-lantern"
 kind = "item"
 title = "Miner's lantern"
-source_ids = ["pathfinder-society-field-guide", "adventurers-armory"]
+source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miners_lantern", path = "json/equipment_misc2.json" },
 ]
 [[sources]]
 publication = "pathfinder-society-field-guide"
 page = "47"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 
 [fields]
 kind = "item"

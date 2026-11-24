@@ -11,7 +11,7 @@ publication = "ultimate-equipment"
 page = "56"
 [[sources]]
 publication = "advanced-players-guide"
-page = "184"
+page = "186"
 [[sources]]
 publication = "adventurers-armory"
 page = "19"

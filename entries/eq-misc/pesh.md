@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "adventurers-armory"
-page = "19"
+page = "17"
 [[sources]]
 publication = "dark-markets-a-guide-to-katapesh"
 page = "14"

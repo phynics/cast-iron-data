@@ -12,7 +12,7 @@ publication = "bestiary-4"
 page = "251"
 [[sources]]
 publication = "carrion-hill"
-page = "30"
+page = "28"
 
 [fields]
 kind = "creature"

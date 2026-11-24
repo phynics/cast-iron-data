@@ -20,7 +20,7 @@ publication = "inner-sea-world-guide"
 page = "290"
 [[sources]]
 publication = "adventurers-armory"
-page = "0"
+page = "33"
 
 [fields]
 kind = "item"

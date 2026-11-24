@@ -2,7 +2,7 @@
 id = "ref/ability/animal-tricks"
 kind = "rule"
 title = "Animal Tricks"
-source_ids = ["core-rulebook", "animal-archive", "ultimate-wilderness"]
+source_ids = ["core-rulebook", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_tricks", path = "json/class_abilities6.json" },
 ]
@@ -10,8 +10,6 @@ provenance = [
 publication = "core-rulebook"
 [[sources]]
 publication = "animal-archive"
-[[sources]]
-publication = "ultimate-wilderness"
 
 [fields]
 kind = "none"

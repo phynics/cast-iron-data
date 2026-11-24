@@ -14,7 +14,7 @@ publication = "adventurers-armory"
 page = "19"
 [[sources]]
 publication = "advanced-players-guide"
-page = "185"
+page = "187"
 [[sources]]
 publication = "pirates-of-the-inner-sea"
 page = "21"

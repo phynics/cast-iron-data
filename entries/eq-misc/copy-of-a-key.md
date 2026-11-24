@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-equipment"
-page = "56"
+page = "63"
 [[sources]]
 publication = "adventurers-armory"
 page = "19"

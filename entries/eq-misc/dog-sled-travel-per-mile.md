@@ -2,19 +2,13 @@
 id = "ref/eq-misc/dog-sled-travel-per-mile"
 kind = "item"
 title = "Dog sled (travel, per mile)"
-source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guide", "pathfinder-51-the-hungry-storm"]
+source_ids = ["ultimate-equipment", "pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_sled_travel_per_mile", path = "json/equipment_misc4.json" },
 ]
 [[sources]]
 publication = "ultimate-equipment"
 page = "87"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
-[[sources]]
-publication = "advanced-players-guide"
-page = "185"
 [[sources]]
 publication = "pathfinder-51-the-hungry-storm"
 page = "67"

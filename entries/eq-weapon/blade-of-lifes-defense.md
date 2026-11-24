@@ -2,16 +2,13 @@
 id = "ref/eq-weapon/blade-of-lifes-defense"
 kind = "item"
 title = "Blade of Life's Defense"
-source_ids = ["merchants-manifest", "ultimate-equipment"]
+source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_lifes_defense", path = "json/equipment_weapons.json" },
 ]
 [[sources]]
 publication = "merchants-manifest"
 page = "7"
-[[sources]]
-publication = "ultimate-equipment"
-page = "20"
 
 [fields]
 kind = "item"

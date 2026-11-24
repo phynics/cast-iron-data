@@ -2,7 +2,7 @@
 id = "ref/eq-weapon/alchemical-cartridge-entangling-shot"
 kind = "item"
 title = "Alchemical cartridge (entangling shot)"
-source_ids = ["ultimate-equipment", "ultimate-combat", "heroes-of-golarion", "people-of-the-wastes"]
+source_ids = ["ultimate-equipment", "ultimate-combat", "people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_cartridge_entangling_shot", path = "json/equipment_weapons2.json" },
 ]
@@ -12,9 +12,6 @@ page = "41"
 [[sources]]
 publication = "ultimate-combat"
 page = "140"
-[[sources]]
-publication = "heroes-of-golarion"
-page = "18"
 [[sources]]
 publication = "people-of-the-wastes"
 page = "15"

@@ -2,19 +2,13 @@
 id = "ref/magic-wondrous/medallion-of-sar-gorog"
 kind = "item"
 title = "Medallion of Sar-Gorog"
-source_ids = ["heaven-unleashed", "ultimate-equipment", "core-rulebook"]
+source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medallion_of_sar_gorog", path = "json/magic_wondrous_neck.json" },
 ]
 [[sources]]
 publication = "heaven-unleashed"
 page = "55"
-[[sources]]
-publication = "ultimate-equipment"
-page = "260"
-[[sources]]
-publication = "core-rulebook"
-page = "525"
 
 [fields]
 kind = "item"

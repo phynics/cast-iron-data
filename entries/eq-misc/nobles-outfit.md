@@ -3,7 +3,7 @@ id = "ref/eq-misc/nobles-outfit"
 kind = "item"
 title = "Noble's outfit"
 aon = "EquipmentMiscDisplay.aspx?ItemName=Noble%27s%20Outfit"
-source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory"]
+source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nobles_outfit", path = "json/equipment_misc4.json" },
 ]
@@ -13,9 +13,6 @@ page = "89"
 [[sources]]
 publication = "core-rulebook"
 page = "159"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 
 [fields]
 kind = "item"
