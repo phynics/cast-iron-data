@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "horror-adventures"
 page = "187"
+[[sources]]
+publication = "game-mastery-guide"
+page = "251"
 
 [fields]
 kind = "none"
@@ -35,12 +38,12 @@ character whenever the madness is dominant. Evil characters can't gain this madn
 **Sources:** GameMastery Guide pg 251\
 **Type** insanity; **Save** Will DC 20\
 **Onset** 3d6 days\
-**Effect** The afflicted character's alignment shifts to chaotic evil, and he gains a +10 competence
-bonus on Bluff checks to hide this insanity
+**Effect** character becomes chaotic evil; gains +10 competence bonus on Bluff checks to hide
+insanity
 
-This complex insanity fills the victim with hate for the world. He may suppress his insanity for a
+This complex insanity fills the victim with hate for the world. He may suppress his psychosis for a
 period of 1 day by making a Will save against the DC of his insanity, otherwise he cannot help but
 plot and plan the death and destruction of his friends and enemies alike. For the most part, the
-impact of this insanity must be roleplayed, although not all players find entertainment in
-roleplaying a lunatic who's trying to do in his friends. In such cases, the GM should assume control
-of the character whenever his insanity is in control.
+impact of psychosis must be roleplayed, although not all players find entertainment in roleplaying a
+lunatic who's trying to do in his friends. In such cases, the GM should assume control of the
+character whenever his psychosis is in control.

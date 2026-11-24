@@ -2182,22 +2182,6 @@ entry = "ref/madness/phobia"
 title = "Schizophrenia"
 entry = "ref/madness/schizophrenia"
 
-[[books.chapters.children.children.children]]
-title = "Mania/Phobia"
-entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-phobia"
-
-[[books.chapters.children.children.children]]
-title = "Multiple Personality Disorder"
-entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/multiple-personality-disorder"
-
-[[books.chapters.children.children.children]]
-title = "Paranoia"
-entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/paranoia"
-
-[[books.chapters.children.children.children]]
-title = "Psychosis"
-entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis"
-
 [[books.chapters.children.children]]
 title = "Going Insane"
 entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/going-insane"

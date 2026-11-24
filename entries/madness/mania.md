@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "horror-adventures"
 page = "184"
+[[sources]]
+publication = "game-mastery-guide"
+page = "250"
 
 [fields]
 kind = "none"
@@ -41,7 +44,7 @@ and the group.
 
 ### Mania/Phobia (original rules version)
 
-**Sources:** GameMastery Guide pg 251\
+**Sources:** GameMastery Guide pg 250\
 **Type** insanity; **Save** Will DC 14\
 **Onset** 1 day\
 **Effect** target is [sickened](ref/misc/sickened) (if manic) or [shaken](ref/misc/shaken) (if
