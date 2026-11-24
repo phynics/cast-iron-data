@@ -665,7 +665,8 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
 def find_section(blocks: list[Para], title: str) -> list[Para] | None:
     key = squash(title)
     for i, b in enumerate(blocks):
-        if b.kind == "title" and squash(b.plain()) == key:
+        # Ultimate Magic and Ultimate Combat print "REANIMATOR (ARCHETYPE)"
+        if b.kind == "title" and squash(b.plain()) in (key, key + "archetype"):
             j = i + 1
             while j < len(blocks) and blocks[j].kind != "title":
                 j += 1
