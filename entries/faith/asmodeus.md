@@ -2,7 +2,7 @@
 id = "ref/faith/asmodeus"
 kind = "rule"
 title = "Asmodeus"
-source_ids = ["inner-sea-gods", "planar-adventures", "book-of-the-damned", "divine-anthology", "pathfinder-29-mother-of-flies"]
+source_ids = ["inner-sea-gods", "planar-adventures", "book-of-the-damned", "pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asmodeus", path = "json/faiths.json" },
 ]
@@ -143,31 +143,7 @@ intended to blaspheme)\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Asmodeus's Mandate
->
-> **Sources:** Divine Anthology
->
-> Although soldiers and mercenaries alike in Cheliax claim that the martial techniques detailed
-> within Wrath and Punishment, the most well-known fighting manual of the Church of Asmodeus, are as
-> old as time itself, martial experts across the Inner Sea region note that Wrath and Punishment is
-> less than 3 decades old. Of course, few in Cheliax dare to publicly make such claims. Outside of
-> Cheliax, copies of Wrath and Punishment tend to be found in [Hellknight](ref/rule/aff-lawknights)
-> enclaves.
->
-> **Initial Benefit:** Whenever you threaten a critical hit with a light mace or heavy mace on a
-> foe, that foe becomes [sickened](ref/misc/sickened) for 1 round. If you confirm the critical hit,
-> the sickened effect lasts for 2 rounds. The duration of the sickened effect doesn't stack with
-> multiple critical threats.
->
-> **Advanced Prerequisite:** Intelligence 13, [Combat Expertise](ref/feat/combat-expertise),
-> [Divine Fighting Technique](ref/feat/divine-fighting-technique),
-> [Improved Feint](ref/feat/improved-feint), either Base Attack Bonus +10 or 10 ranks in
-> [Bluff](ref/skill/bluff).
->
-> **Advanced Benefit:** An opponent that you hit with a light mace or heavy mace who is denied his
-> Dexterity bonus to AC is also hindered by the attack. You can attempt a
-> [dirty trick](ref/rule/dirty-trick) combat maneuver check as a swift action that doesn't provoke
-> an attack of opportunity immediately after damage from the attack is resolved.
+[Asmodeus's Mandate](ref/feat/divine-fighting-technique#sec-asmodeus-s-mandate)
 
 ## Follower Options
 

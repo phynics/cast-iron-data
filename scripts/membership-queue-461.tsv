@@ -1057,16 +1057,16 @@ disciples-doctrine	ref/ability/combat-styles	rule	Combat Styles	4	7	weak	weak		n
 distant-shores	ref/rule/universal-path-abilities	rule	Universal Path Abilities	4	7	uncited	absent		none	0								expands	12	expansion-credited-via-upa-1	link-only-hub	done			yes			
 divine-anthology	ref/rule/basics	rule	Basics	5	5	hub-keep	absent		none	0								remove	none	hub-no-evidence none	link-only-hub	done			yes			
 divine-anthology	ref/rule/gamemastery	rule	Gamemastery	7	8	hub-keep	absent		none	0								remove	none	hub-no-evidence weather	link-only-hub	done			yes			
-divine-anthology	ref/faith/asmodeus	rule	Asmodeus	4	5	uncited	printed		none	3	3,26,28										faith-excerpt	S10	faith-link	yes	yes	yes		
-divine-anthology	ref/faith/desna	rule	Desna	3	5	uncited	printed		none	3	3,17,28										faith-excerpt	S10	faith-link	yes	yes	yes		
-divine-anthology	ref/faith/erastil	rule	Erastil	3	4	uncited	printed		none	3	3,20,29										faith-excerpt	S10	faith-link	yes	yes	yes		
-divine-anthology	ref/faith/irori	rule	Irori	3	4	uncited	printed		none	6	3,4,8,25,26										faith-excerpt	S10	faith-link	yes	yes	yes		
-divine-anthology	ref/faith/lamashtu	rule	Lamashtu	4	6	uncited	printed		none	3	3,27,29										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/asmodeus	rule	Asmodeus	4	5	uncited	printed		none	3	3,26,28							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+divine-anthology	ref/faith/desna	rule	Desna	3	5	uncited	printed		none	3	3,17,28							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+divine-anthology	ref/faith/erastil	rule	Erastil	3	4	uncited	printed		none	3	3,20,29							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+divine-anthology	ref/faith/irori	rule	Irori	3	4	uncited	printed		none	6	3,4,8,25,26							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+divine-anthology	ref/faith/lamashtu	rule	Lamashtu	4	6	uncited	printed		none	3	3,27,29							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 divine-anthology	ref/faith/norgorber	rule	Norgorber	3	4	uncited	printed		none	6	3,4,6,7,22										faith-excerpt	S10	faith-link	yes	yes	yes		
-divine-anthology	ref/faith/rovagug	rule	Rovagug	3	4	uncited	printed		none	3	3,24,30										faith-excerpt	S10	faith-link	yes	yes	yes		
-divine-anthology	ref/faith/sarenrae	rule	Sarenrae	3	4	uncited	printed		none	6	3,10,20,25,26										faith-excerpt	S10	faith-link	yes	yes	yes		
-divine-anthology	ref/faith/torag	rule	Torag	3	4	uncited	printed		none	9	0,3,16,17,18										faith-excerpt	S10	faith-link	yes	yes	yes		
-divine-anthology	ref/faith/urgathoa	rule	Urgathoa	3	4	uncited	printed		none	3	3,26,31										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/rovagug	rule	Rovagug	3	4	uncited	printed		none	3	3,24,30							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+divine-anthology	ref/faith/sarenrae	rule	Sarenrae	3	4	uncited	printed		none	6	3,10,20,25,26							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+divine-anthology	ref/faith/torag	rule	Torag	3	4	uncited	printed		none	9	0,3,16,17,18							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+divine-anthology	ref/faith/urgathoa	rule	Urgathoa	3	4	uncited	printed		none	3	3,26,31							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 dragon-empires-primer	ref/ability/arcane-schools	rule	Arcane Schools	7	7	hub-keep	absent		none	0								remove	29	listed-link ref/arcaneschool/void	link-only-hub	done			yes			
 dragonslayers-handbook	ref/eq-material/dragonhide	item	Dragonhide	3	3	review	absent	19	row	0											single-entry	S11			yes		no	
 dungeoneers-handbook	ref/rule/specific-rulesets	rule	Specific Rulesets	3	11	hub-keep	unaligned		none	0								remove	14	hub-link ref/rule/dungeon-guides	link-only-hub	done			yes			
@@ -2559,12 +2559,12 @@ villain-codex	ref/spell/thirsting-entanglement	spell	Thirsting Entanglement	2	4	
 villain-codex	ref/spell/thorny-entanglement	spell	Thorny Entanglement	2	4	family-leak	absent	140	row	0		variant	ref/spell/entangle(title)					remove	140	wrong-credit-invalidated	single-entry	done			yes			
 wardens-of-the-reborn-forge	ref/affliction/capramace/waste-trembles	affliction	Waste Trembles	2	2	family-leak	printed	61	row	0		parent	ref/monster/capramace(title)	yes				keep	61	title-on-cited-page	single-entry	S0			yes		yes	
 weapon-masters-handbook	ref/rule/gamemastery	rule	Gamemastery	5	8	hub-keep	absent		none	0								remove	28	hub-link ref/rule/creating-new-weapons	link-only-hub	done			yes			
-weapon-masters-handbook	ref/faith/calistria	rule	Calistria	3	5	uncited	printed		none	2	10,11										faith-excerpt	S10	faith-link	yes	yes	yes		
-weapon-masters-handbook	ref/faith/cayden-cailean	rule	Cayden Cailean	3	4	uncited	printed		none	2	11,31										faith-excerpt	S10	faith-link	yes	yes	yes		
+weapon-masters-handbook	ref/faith/calistria	rule	Calistria	3	5	uncited	printed		none	2	10,11							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+weapon-masters-handbook	ref/faith/cayden-cailean	rule	Cayden Cailean	3	4	uncited	printed		none	2	11,31							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 weapon-masters-handbook	ref/faith/iomedae	rule	Iomedae	3	4	uncited	printed		none	4	4,6,11,31										faith-excerpt	S10	faith-link	yes	yes	yes		
-weapon-masters-handbook	ref/faith/abadar	rule	Abadar	3	5	weak	weak		none	1	10										faith-excerpt	S10	faith-link	yes	yes	yes		
-weapon-masters-handbook	ref/faith/gorum	rule	Gorum	3	4	weak	weak		none	1	11										faith-excerpt	S10	faith-link	yes	yes	yes		
-weapon-masters-handbook	ref/faith/zon-kuthon	rule	Zon-Kuthon	3	4	weak	weak		none	1	11										faith-excerpt	S10	faith-link	yes	yes	yes		
+weapon-masters-handbook	ref/faith/abadar	rule	Abadar	3	5	weak	weak		none	1	10							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+weapon-masters-handbook	ref/faith/gorum	rule	Gorum	3	4	weak	weak		none	1	11							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
+weapon-masters-handbook	ref/faith/zon-kuthon	rule	Zon-Kuthon	3	4	weak	weak		none	1	11							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 wilderness-origins	ref/rule/types-of-traits	rule	Types of Traits	3	6	hub-keep	absent		none	0								cite	23	section-printed	link-only-hub	done			yes			
 wilderness-origins	ref/spell/phantom-steed-communal	spell	Communal Phantom Steed	2	3	family-leak	absent	28	row	0		variant	ref/spell/phantom-steed(title)					remove	28	wrong-credit-invalidated	single-entry	done			yes			
 wilderness-origins	ref/class/shifter	class	Shifter	4	4	uncited	printed		none	10	1,3,4,5,6							remove	5	class-options-only	class-hub	done			yes			

@@ -34,7 +34,7 @@ fighting technique without having to meet the technique's prerequisites (includi
 Fighting Technique feat). In addition, a warpriest can give up a major blessing to gain the advanced
 benefit without meeting its prerequisites.
 
-### Abadar's Crossbow
+### Abadar's Crossbow {#sec-abadar-s-crossbow}
 
 [Abadar](ref/faith/abadar) teaches complex crossbow techniques.\
 **Initial Benefit:** You can attempt a ranged [steal](ref/rule/steal) combat maneuver check with a
@@ -50,7 +50,7 @@ your bolt pins the target's clothing (or feathers, hide, or the like) to the sur
 target from leaving that space until it breaks free by destroying the bolt or removing it with a
 successful Strength check (DC = the result of your combat maneuver check to pin it).
 
-### Asmodeus's Mandate
+### Asmodeus's Mandate {#sec-asmodeus-s-mandate}
 
 Although soldiers and mercenaries alike in Cheliax claim that the martial techniques detailed within
 Wrath and Punishment, the most well-known fighting manual of the Church of
@@ -71,7 +71,7 @@ Dexterity bonus to AC is also hindered by the attack. You can attempt a dirty tr
 check as a swift action that doesn't provoke an attack of opportunity immediately after damage from
 the attack is resolved.
 
-### Calistria's Poisoned Lash
+### Calistria's Poisoned Lash {#sec-calistria-s-poisoned-lash}
 
 [Calistria](ref/faith/calistria) inspires creative ways to poison foes.\
 **Optional Replacement:** A chaotic neutral [rogue](ref/class/rogue) or [slayer](ref/class/slayer)
@@ -87,7 +87,7 @@ advanced talent with the following advanced benefit even if she doesn't meet the
 of the same poison to a whip at a time. Foes are exposed to only 1 dose of poison from any one
 attack.
 
-### Cayden Cailean's Blade and Tankard
+### Cayden Cailean's Blade and Tankard {#sec-cayden-cailean-s-blade-and-tankard}
 
 [Cayden Cailean](ref/faith/cayden-cailean) is famous for wading into battle with a tankard in his
 off hand.\
@@ -112,7 +112,7 @@ tricks with tankards. The effects of such a dirty trick lasts for 1d4 rounds + 1
 points by which the result of your combat maneuver check exceeds the target's CMD; a standard action
 is required for the target to remove this penalty.
 
-### Desna's Shooting Star
+### Desna's Shooting Star {#sec-desna-s-shooting-star}
 
 Among the divine fighting manuals of the Inner Sea, few are as ancient as Clamor of the Spheres, a
 collection of fighting techniques favored by [Desna's](ref/faith/desna) faithful. True to its name,
@@ -142,7 +142,7 @@ strike, as do other damage bonuses, such as a bard's
 [inspire competence](ref/performance/inspire-competence) bonus.
 [Damage reduction](ref/rule/damage-reduction) and resistances apply separately to each strike.
 
-### Erastil's Distracting Shot
+### Erastil's Distracting Shot {#sec-erastil-s-distracting-shot}
 
 Sometimes used as a companion piece to the Parables of Erastil, the lesser-known Horns of the Elk is
 a manual completely dedicated to archery. Lacking the folktales that the Parables are celebrated
@@ -166,7 +166,7 @@ following advanced benefit without meeting its prerequisites.\
 a +4 Armor Class bonus to the selected adjacent ally and a +2 Armor Class bonus to all other allies
 within 30 feet of the selected adjacent ally against attacks by the targeted creature.
 
-### Gorum's Swordmanship
+### Gorum's Swordmanship {#sec-gorum-s-swordmanship}
 
 [Gorum](ref/faith/gorum) teaches devastating greatsword techniques.\
 **Optional Replacement:** A chaotic neutral [barbarian](ref/class/barbarian) or
@@ -188,7 +188,7 @@ doesn't meet the prerequisites.\
 continuous damage from an injury for the purpose of determining whether a target must attempt a
 [concentration](ref/rule/concentration) check to cast spells.
 
-### Irori's Perfected Fist
+### Irori's Perfected Fist {#sec-irori-s-perfected-fist}
 
 Practically synonymous with [Irori](ref/faith/irori) and his faith, The Woven Fist is among the best
 known of all diving fighting manuals. Many learned monks were taught their first martial techniques
@@ -215,7 +215,7 @@ you choose to deal the average amount of damage. If you critically hit a creatur
 ability, you automatically inflict maximum weapon damage for that critical hit (although you must
 still roll sneak attack dice or any other dice-based additional damage).
 
-### Lamashtu's Carving
+### Lamashtu's Carving {#sec-lamashtu-s-carving}
 
 One of the grisliest divine fighting manuals is Fecundity of Corpses, a harrowing tome that depicts
 the fighting styles favored by the followers of [Lamashtu](ref/faith/lamashtu), the Mother of
@@ -239,7 +239,7 @@ kukri, that creature must succeed at a Fortitude save (DC = 10 + your base attac
 and a creature that successfully saves against this staggering effect is immune to this effect for 1
 round.
 
-### Rovagug's Thunder
+### Rovagug's Thunder {#sec-rovagug-s-thunder}
 
 Most copies of Ravage and Ruin, the divine fighting manual of the Rough Beast
 [Rovagug](ref/faith/rovagug), are scrawled in blood upon flensed skins by orc priests - and indeed
@@ -264,7 +264,7 @@ an amount of the target's [hardness](ref/umr/hardness) or
 attack roll. This benefit stacks with [Penetrating Strike](ref/feat/penetrating-strike) and
 [Greater Penetrating Strike](ref/feat/greater-penetrating-strike).
 
-### Sarenrae's Mercy
+### Sarenrae's Mercy {#sec-sarenrae-s-mercy}
 
 Although the Dawnflower is the goddess of healing and redemption, she is not a goddess of peace, and
 her followers are taught that combat may be the only way to ensure the safety of those who look to
@@ -290,7 +290,7 @@ that dealt nonlethal damage was from a scimitar, you instead regain 2d6 hit poin
 benefit of this healing only once per round, regardless of how many successful attacks you make with
 the weapon.
 
-### Torag's Patient Strikes
+### Torag's Patient Strikes {#sec-torag-s-patient-strikes}
 
 Copies of Lessons of the Father, the divine fighting manual of [Torag](ref/faith/torag), are
 somewhat rare outside of the Five Kings Mountains, as tradition mandates that all copies of Lessons
@@ -314,7 +314,7 @@ feats. If you confirm a critical hit with an opportunistic strike, you can attem
 [disarm](ref/rule/disarm) or [trip](ref/rule/trip) combat maneuver check against the target as a
 free action - this combat maneuver does not provoke an attack of opportunity.
 
-### Urgathoa's Hunger
+### Urgathoa's Hunger {#sec-urgathoa-s-hunger}
 
 The grisly content of Pallid Cravings can be found in many places where the Pallid Princess
 maintains a significant presence, especially within the undead nation of Geb. The pages of this
@@ -335,7 +335,7 @@ saving throws against all diseases with which it is currently afflicted. Any fai
 target to immediately take the effects of that disease, while a successful save does not count
 toward the number of consecutive saves that the target must succeed at in order to cure the disease.
 
-### Zon-Kuthon's Flensing
+### Zon-Kuthon's Flensing {#sec-zon-kuthon-s-flensing}
 
 [Zon-Kuthon](ref/faith/zon-kuthon) invites all mortals to join in inflicting and suffering pain.\
 **Initial Benefit:** Once per round, when you hit a foe with a

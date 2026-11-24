@@ -2,7 +2,7 @@
 id = "ref/faith/erastil"
 kind = "rule"
 title = "Erastil"
-source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfinder-32-rivers-run-red"]
+source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erastil", path = "json/faiths3.json" },
 ]
@@ -162,36 +162,7 @@ Molthune, Nirmathas, River Kingdoms, Varisia\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-> ### Erastil's Distracting Shot
->
-> **Sources:** Divine Anthology
->
-> Sometimes used as a companion piece to the Parables of Erastil, the lesser-known Horns of the Elk
-> is a manual completely dedicated to archery. Lacking the folktales that the Parables are
-> celebrated for, the Horns of the Elk instead focuses on covering a wide array of beginner and
-> advanced archery tactics. A copy of the manual can be found virtually anywhere a shrine to Erastil
-> exists.
->
-> **Optional Replacement:** A lawful good ranger who worships Erastil can choose
-> [Divine Fighting Technique](ref/feat/divine-fighting-technique) as the bonus feat granted by his
-> combat style if he chooses archery as his combat style.
->
-> **Initial Benefit:** As a standard action, you can fire a distracting shot from your longbow or
-> shortbow; when you do, select one ally who is adjacent to the creature you are targeting with the
-> distracting shot. If you hit the creature, the chosen ally gains a +2 bonus to her Armor Class
-> against that creature. This bonus to her Armor Class lasts until the start of your next turn.
->
-> **Advanced Prerequisite:** Dexterity 17, Divine Fighting Technique,
-> [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), Base Attack
-> Bonus +10.
->
-> **Optional Advanced Replacement:** A lawful good ranger who worships Erastil and has the Divine
-> Fighting Technique feat can replace the bonus feat granted by his combat style at 10th level with
-> the following advanced benefit without meeting its prerequisites.
->
-> **Advanced Benefit:** When you fire a distracting shot at a creature and hit the creature, you
-> grant a +4 Armor Class bonus to the selected adjacent ally and a +2 Armor Class bonus to all other
-> allies within 30 feet of the selected adjacent ally against attacks by the targeted creature.
+[Erastil's Distracting Shot](ref/feat/divine-fighting-technique#sec-erastil-s-distracting-shot)
 
 ## Follower Options
 

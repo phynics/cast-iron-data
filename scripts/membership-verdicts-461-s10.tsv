@@ -47,3 +47,17 @@ ref/rule/common-cursed-item-effects	ultimate-equipment	cite	340, 343	section-pri
 ref/rule/complex-modifications	ultimate-magic	cite	114-115	section-printed	
 ref/sidekick/eidolon	ultimate-magic	cite	74-75	section-printed	
 ref/ability/sorcerer-bloodlines	ultimate-magic	cite	70	section-printed	
+ref/faith/asmodeus	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/desna	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/erastil	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/irori	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/lamashtu	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/rovagug	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/sarenrae	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/torag	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/urgathoa	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/calistria	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/cayden-cailean	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/abadar	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/gorum	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/zon-kuthon	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
