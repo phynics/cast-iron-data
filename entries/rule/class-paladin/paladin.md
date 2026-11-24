@@ -2,7 +2,7 @@
 id = "ref/rule/class-paladin/paladin"
 kind = "rule"
 title = "Paladin"
-source_ids = ["core-rulebook", "advanced-players-guide", "healers-handbook", "advanced-race-guide", "blood-of-shadows", "blood-of-the-beast", "chronicle-of-legends", "heroes-of-golarion", "horror-adventures", "kobolds-of-golarion", "legacy-of-dragons", "plane-hoppers-handbook"]
+source_ids = ["core-rulebook", "advanced-players-guide", "healers-handbook", "chronicle-of-legends"]
 section = ["Paladin"]
 parent = "ref/class/paladin"
 provenance = [
@@ -16,6 +16,9 @@ publication = "advanced-players-guide"
 [[sources]]
 publication = "healers-handbook"
 page = "25"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28-29"
 
 [fields]
 kind = "none"
@@ -473,7 +476,6 @@ as a paladin. She regains her abilities and advancement potential if she
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
