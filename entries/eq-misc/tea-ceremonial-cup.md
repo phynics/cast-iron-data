@@ -11,7 +11,7 @@ publication = "ultimate-equipment"
 page = "95"
 [[sources]]
 publication = "adventurers-armory"
-page = "19"
+page = "14"
 
 [fields]
 kind = "item"

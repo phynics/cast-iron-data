@@ -3,7 +3,7 @@ id = "ref/spell/tectonic-communion"
 kind = "spell"
 title = "Tectonic Communion"
 aon = "SpellDisplay.aspx?ItemName=Tectonic%20Communion"
-source_ids = ["core-rulebook", "ultimate-wilderness", "faiths-and-philosophies"]
+source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tectonic_communion", path = "json/spells12.json" },
 ]
@@ -13,9 +13,6 @@ relations = [
 [[sources]]
 publication = "faiths-and-philosophies"
 page = "29"
-[[sources]]
-publication = "ultimate-wilderness"
-page = "235"
 
 [fields]
 kind = "spell"

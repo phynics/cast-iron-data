@@ -2,16 +2,13 @@
 id = "ref/magic-weapon/rostland-edge"
 kind = "item"
 title = "Rostland Edge"
-source_ids = ["adventurers-guide", "inner-sea-combat"]
+source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rostland_edge", path = "json/magic_weapon2.json" },
 ]
 [[sources]]
 publication = "adventurers-guide"
 page = "26"
-[[sources]]
-publication = "inner-sea-combat"
-page = "56"
 
 [fields]
 kind = "item"

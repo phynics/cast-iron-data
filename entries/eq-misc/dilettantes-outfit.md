@@ -2,19 +2,13 @@
 id = "ref/eq-misc/dilettantes-outfit"
 kind = "item"
 title = "Dilettante's outfit"
-source_ids = ["advanced-race-guide", "ultimate-equipment", "adventurers-armory"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dilettantes_outfit", path = "json/equipment_misc4.json" },
 ]
 [[sources]]
 publication = "advanced-race-guide"
 page = "36"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
-[[sources]]
-publication = "ultimate-equipment"
-page = "89"
 
 [fields]
 kind = "item"

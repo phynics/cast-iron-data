@@ -8,10 +8,10 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-equipment"
-page = "57"
+page = "67"
 [[sources]]
 publication = "core-rulebook"
-page = "158"
+page = "156"
 
 [fields]
 kind = "item"

@@ -2,16 +2,13 @@
 id = "ref/eq-misc/cage-small-or-medium-aquatic"
 kind = "item"
 title = "Cage (small or medium, aquatic)"
-source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guide"]
+source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cage_small_or_medium_aquatic", path = "json/equipment_misc.json" },
 ]
 [[sources]]
 publication = "ultimate-equipment"
 page = "81"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 [[sources]]
 publication = "advanced-players-guide"
 page = "185"

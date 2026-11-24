@@ -12,7 +12,7 @@ relations = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "204"
+page = "201"
 
 [fields]
 kind = "spell"

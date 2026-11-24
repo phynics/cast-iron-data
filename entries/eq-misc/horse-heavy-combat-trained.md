@@ -14,7 +14,7 @@ publication = "core-rulebook"
 page = "159"
 [[sources]]
 publication = "adventurers-armory"
-page = "19"
+page = "15"
 [[sources]]
 publication = "knights-of-the-inner-sea"
 page = "33"

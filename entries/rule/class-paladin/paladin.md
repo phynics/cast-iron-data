@@ -13,6 +13,7 @@ publication = "core-rulebook"
 page = "60"
 [[sources]]
 publication = "advanced-players-guide"
+page = "72"
 [[sources]]
 publication = "healers-handbook"
 page = "25"

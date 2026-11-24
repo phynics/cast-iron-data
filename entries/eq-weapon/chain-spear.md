@@ -2,19 +2,13 @@
 id = "ref/eq-weapon/chain-spear"
 kind = "item"
 title = "Chain spear"
-source_ids = ["ultimate-equipment", "crown-of-the-kobold-king", "revenge-of-the-kobold-king", "adventurers-armory", "advanced-players-guide"]
+source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_spear", path = "json/equipment_weapons2.json" },
 ]
 [[sources]]
 publication = "ultimate-equipment"
 page = "20"
-[[sources]]
-publication = "crown-of-the-kobold-king"
-page = "17"
-[[sources]]
-publication = "revenge-of-the-kobold-king"
-page = "13"
 [[sources]]
 publication = "adventurers-armory"
 page = "3"

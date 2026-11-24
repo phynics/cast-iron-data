@@ -2,19 +2,13 @@
 id = "ref/eq-misc/tear-away-entertainers-outfit"
 kind = "item"
 title = "Tear-away entertainer's outfit"
-source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory"]
+source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tear_away_entertainers_outfit", path = "json/equipment_misc4.json" },
 ]
 [[sources]]
 publication = "ultimate-equipment"
 page = "89"
-[[sources]]
-publication = "core-rulebook"
-page = "159"
-[[sources]]
-publication = "adventurers-armory"
-page = "19"
 
 [fields]
 kind = "item"

@@ -14,7 +14,7 @@ publication = "pathfinder-51-the-hungry-storm"
 page = "67"
 [[sources]]
 publication = "advanced-players-guide"
-page = "185"
+page = "187"
 [[sources]]
 publication = "adventurers-armory"
 page = "19"

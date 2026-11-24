@@ -2,7 +2,7 @@
 id = "ref/affliction/zombie/deathspore-toxin"
 kind = "affliction"
 title = "Deathspore Toxin"
-source_ids = ["bestiary", "horror-realms"]
+source_ids = ["horror-realms"]
 parent = "ref/template/zombie"
 tags = ["poison"]
 provenance = [

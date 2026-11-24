@@ -2,16 +2,13 @@
 id = "ref/magic-wondrous/gory-beacon"
 kind = "item"
 title = "Gory Beacon"
-source_ids = ["heaven-unleashed", "ultimate-equipment"]
+source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gory_beacon", path = "json/magic_wondrous_slotless03.json" },
 ]
 [[sources]]
 publication = "heaven-unleashed"
 page = "55"
-[[sources]]
-publication = "ultimate-equipment"
-page = "301"
 
 [fields]
 kind = "item"

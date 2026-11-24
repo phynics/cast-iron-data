@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "occult-mysteries"
-page = "55"
+page = "56"
 [[sources]]
 publication = "pathfinder-71-rasputin-must-die"
 page = "61"

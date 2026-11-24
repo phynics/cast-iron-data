@@ -2,7 +2,7 @@
 id = "ref/faith/ardad-lili"
 kind = "rule"
 title = "Ardad Lili"
-source_ids = ["inner-sea-gods", "book-of-the-damned", "legacy-of-dragons"]
+source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ardad_lili", path = "json/faiths.json" },
 ]
@@ -12,9 +12,6 @@ page = "328"
 [[sources]]
 publication = "book-of-the-damned"
 page = "22"
-[[sources]]
-publication = "legacy-of-dragons"
-page = "31"
 
 [fields]
 kind = "none"
@@ -102,16 +99,6 @@ kind = "none"
 >   saving throw, a target takes only half the damage and negates the slow effect. Creatures need
 >   not hear you to be affected, but you must be able to speak to use this ability. This is a
 >   polymorph effect.
-
-## Follower Options
-
-> ### Unique Spell Rules
->
-> **Sources:** Legacy of Dragons pg 31
->
-> #### Cleric, Inquisitor, Oracle, Warpriest
->
-> - [Tail Strike](ref/spell/tail-strike) can be prepared as a 4th-level spell
 
 ## Description
 

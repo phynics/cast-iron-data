@@ -11,7 +11,7 @@ publication = "ultimate-equipment"
 page = "77"
 [[sources]]
 publication = "advanced-players-guide"
-page = "185"
+page = "187"
 [[sources]]
 publication = "pathfinder-51-the-hungry-storm"
 page = "67"

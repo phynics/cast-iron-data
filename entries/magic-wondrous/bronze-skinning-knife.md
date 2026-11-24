@@ -2,16 +2,13 @@
 id = "ref/magic-wondrous/bronze-skinning-knife"
 kind = "item"
 title = "Bronze Skinning Knife"
-source_ids = ["inner-sea-gods", "gods-and-magic"]
+source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bronze_skinning_knife", path = "json/magic_wondrous_slotless01.json" },
 ]
 [[sources]]
 publication = "inner-sea-gods"
 page = "262"
-[[sources]]
-publication = "gods-and-magic"
-page = "55"
 
 [fields]
 kind = "item"

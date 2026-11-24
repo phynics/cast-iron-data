@@ -113,6 +113,16 @@ hypotheses, not proof.
 A book can print an entry on its inside cover, which has no number. The page is then `inside cover`,
 the form the corpus uses already, and `membership-apply.py` accepts it as a page.
 
+S11 (rows the warning cannot see) records its verdicts in `membership-verdicts-461-s11.tsv`, one row
+per (book, entry), and `membership-verdicts-461-s11.py` writes them into the queue, the audit file
+and `expansion-credits-461-s11.tsv` (the `page` actions that `expansion-credits-apply.py` applies; a
+row without a page gets its page). Verdict `page` is for an entry outside the queue. New evidence codes:
+`page-corrected` (the book prints the entry on another page than the row said; `print_page` is the
+printed page: the page of the item's description, or of the table when the book has no description),
+`page-confirmed` (the cited page prints the entry), `home-book-kept` (the first book of a hub stays, owner ruling 3 of 2026-11-24, home books are post-v1 in phynics/cast-iron-data#277). Three first-book
+removals whose new first book is not among the owner's PDFs (Conditional Curse, Swampseer Poison, Yak) stay undecided with the evidence note `waits for S12`
+(owner ruling of 2026-11-24). `faith-unique-spell-rules-461-s11.py` removes the copied spell rule from two faith pages.
+
 ## Slices
 
 Each slice records its verdicts in the queue (`print_page`, `evidence`), applies them with the apply

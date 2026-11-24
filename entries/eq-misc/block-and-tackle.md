@@ -2,16 +2,13 @@
 id = "ref/eq-misc/block-and-tackle"
 kind = "item"
 title = "Block and tackle"
-source_ids = ["ultimate-equipment", "advanced-players-guide", "core-rulebook", "adventurers-armory"]
+source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "block_and_tackle", path = "json/equipment_misc.json" },
 ]
 [[sources]]
 publication = "ultimate-equipment"
 page = "56"
-[[sources]]
-publication = "advanced-players-guide"
-page = "185"
 [[sources]]
 publication = "core-rulebook"
 page = "158"
