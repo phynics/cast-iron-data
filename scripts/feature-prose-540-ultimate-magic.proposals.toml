@@ -198,43 +198,6 @@ print = "At 6th level, a sound striker can start a performance as a standard act
 import_trades = ["Suggestion"]
 
 [[entry]]
-id = "ref/arc-inquisitor/heretic"
-opening = ["While all inquisitors hunt the enemies of the faith, sometimes, either through political maneuvering by her enemies or an unyielding tenacity that breaks her faith's basic tenets, an inquisitor can find herself a heretic. Still unyielding in her cause, these heretics are accustomed to using guile and deception to hide themselves and their activities while they continue to hunt their enemies."]
-
-[[entry.feature]]
-anchor = "judgment"
-head = "Judgment (Su)"
-listed = true
-print = "A heretic gains the following judgment in addition to the normal list of inquisitor judgments."
-
-[[entry.feature]]
-anchor = "escape"
-head = "Escape (Su)"
-listed = true
-print = "Each time the inquisitor using this judgment hits an opponent with a melee or ranged attack, she can use a move action attempt to create a diversion to hide."
-
-[[entry.feature]]
-anchor = "lore-of-escape"
-head = "Lore of Escape (Ex)"
-listed = true
-level = 1
-print = "At 1st level, the heretic uses every trick she knows to escape those now pursuing her. She adds her Wisdom modifier on Bluff and Stealth skill checks in addition to the normal ability score modifiers. This ability replaces monster lore."
-import_trades = ["Monster lore"]
-
-[[entry.feature]]
-anchor = "hide-tracks"
-head = "Hide Tracks (Ex)"
-listed = true
-level = 1
-print = "At 1st level, a heretical inquisitor is adept at hiding her tracks. Creatures attempting to track her take a -5 penalty on rolls to find or follow her tracks."
-
-[[entry.feature]]
-anchor = "ex-inquisitors"
-head = "Ex-Inquisitors"
-listed = true
-print = "An inquisitor who becomes an ex-inquisitor can, with the GM's permission, take the heretic archetype, replacing her class abilities with the appropriate archetype abilities. If the character atones or joins a different faith, she loses her heretic abilities and regains her previous inquisitor class abilities."
-
-[[entry]]
 id = "ref/arc-inquisitor/infiltrator"
 hold = "the alters trade `Stern gaze` is not printed in a sentence, and no listed feature of that name prints it; Misdirection (Sp): the sentence \"This ability replaces stern gaze\" names no trade"
 opening = ["This inquisitor uses guile and deception to blend in among the enemies of the faith rather than confronting them head-on."]
@@ -348,7 +311,6 @@ import_trades = ["Exploit weakness"]
 
 [[entry]]
 id = "ref/arc-magus/bladebound"
-hold = "head not printed: Black Blade Basics, Black Blade Ability Descriptions, Alertness (Ex), Black Blade Strike (Sp), Telepathy (Su), Unbreakable (Ex), Energy Attunement (Su), Teleport Blade (Sp), Transfer Arcana (Su), Spell Defense (Sp), Life Drinker (Su)"
 opening = ["A select group of magi are called to carry a _black blade_—a sentient weapon of often unknown and possibly unknowable purpose. These weapons become valuable tools and allies, as both the magus and weapon typically crave arcane power, but as a _black blade_ becomes more aware, its true motivations manifest, and as does its ability to influence its wielder with its ever-increasing ego."]
 
 [[entry.feature]]
@@ -446,7 +408,7 @@ _A black blade_ is independently conscious but features some personality traits 
 anchor = "alertness"
 head = "Alertness (Ex)"
 listed = true
-print = "While a magus is wielding his _black blade_, he gains the Alertness feat."
+print = "While a magus is wielding his _black blade_, he gains the [Alertness](ref/feat/alertness) feat."
 
 [[entry.feature]]
 anchor = "black-blade-strike"
@@ -464,7 +426,7 @@ print = "While a magus is wielding or carrying his _black blade_, he can communi
 anchor = "unbreakable"
 head = "Unbreakable (Ex)"
 listed = true
-print = "As long as it has at least 1 point in its arcane pool, a _black blade_ is immune to the broken condition. If broken, the _black blade_ is unconscious and powerless until repaired. If destroyed, the _black blade_ can be reforged 1 week later through a special ritual that costs 200 gp per magus level. The ritual takes 24 hours to complete."
+print = "As long as it has at least 1 point in its arcane pool, a _black blade_ is immune to the [broken](ref/misc/broken) condition. If broken, the _black blade_ is unconscious and powerless until repaired. If destroyed, the _black blade_ can be reforged 1 week later through a special ritual that costs 200 gp per magus level. The ritual takes 24 hours to complete."
 
 [[entry.feature]]
 anchor = "energy-attunement"
@@ -484,7 +446,7 @@ anchor = "transfer-arcana"
 head = "Transfer Arcana (Su)"
 listed = true
 level = 13
-print = "At 13th level, once per day, a magus can attempt to siphon points from his _black blade_'s arcane pool into his own arcane pool. Doing so takes a full-round action and the magus must succeed at a Will saving throw with a DC equal to the _black blade_'s ego. If the magus succeeds, he regains 1 point to his arcane pool for every 2 points he saps from his _black blade_. If he fails the saving throw, the magus becomes fatigued (but can try again). If he is fatigued, he becomes exhausted instead. He cannot use this ability if he is exhausted."
+print = "At 13th level, once per day, a magus can attempt to siphon points from his _black blade_'s arcane pool into his own arcane pool. Doing so takes a full-round action and the magus must succeed at a Will saving throw with a DC equal to the _black blade_'s ego. If the magus succeeds, he regains 1 point to his arcane pool for every 2 points he saps from his _black blade_. If he fails the saving throw, the magus becomes [fatigued](ref/misc/fatigued) (but can try again). If he is fatigued, he becomes [exhausted](ref/misc/exhausted) instead. He cannot use this ability if he is exhausted."
 
 [[entry.feature]]
 anchor = "spell-defense"
@@ -497,73 +459,7 @@ anchor = "life-drinker"
 head = "Life Drinker (Su)"
 listed = true
 level = 19
-print = "At 19th level, each time the magus kills a living creature with the _black blade_, he can pick one of the following effects: the _black blade_ restores 2 points to its arcane pool; the _black blade_ restores 1 point to its arcane pool and the magus restores 1 point to his arcane pool; the magus gains a number of temporary hit points equal to the _black blade_'s ego (these temporary hit points last until spent or 1 minute, whichever is shorter). The creature killed must have a number of Hit Dice equal to half the magus's character level for this to occur."
-
-[[entry.feature]]
-anchor = "black-blades-black-blade-basics"
-head = "Black Blade Basics"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-black-blade-ability-descriptions"
-head = "Black Blade Ability Descriptions"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-alertness"
-head = "Alertness (Ex)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-black-blade-strike"
-head = "Black Blade Strike (Sp)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-telepathy"
-head = "Telepathy (Su)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-unbreakable"
-head = "Unbreakable (Ex)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-energy-attunement"
-head = "Energy Attunement (Su)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-teleport-blade"
-head = "Teleport Blade (Sp)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-transfer-arcana"
-head = "Transfer Arcana (Su)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-spell-defense"
-head = "Spell Defense (Sp)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "black-blades-life-drinker"
-head = "Life Drinker (Su)"
-listed = false
-print = ""
+print = "At 19th level, each time the magus kills a living creature with the _black blade_, he can pick one of the following effects: the _black blade_ restores 2 points to its arcane pool; the _black blade_ restores 1 point to its arcane pool and the magus restores 1 point to his arcane pool; the magus gains a number of [temporary hit points](ref/rule/temporary-hit-points) equal to the _black blade_'s ego (these temporary hit points last until spent or 1 minute, whichever is shorter). The creature killed must have a number of Hit Dice equal to half the magus's character level for this to occur."
 
 [[entry]]
 id = "ref/arc-magus/staff-magus"
@@ -1082,7 +978,7 @@ when it is used.'''
 
 [[entry]]
 id = "ref/arc-summoner/broodmaster"
-hold = "head not printed: Brood Bond (Su)"
+hold = "checker: [fields] trades = \"replaces: Eidolon\" disagrees with the trade sentences of the feature `eidolon-brood` = \"replaces: the summoner's normal eidolon ability\" (line 44)"
 opening = ["Most summoners bond with one eidolon for their entire lives, but the broodmaster forges a link with multiple smaller eidolons that make up his brood. Separately, a broodmaster's eidolons are no match for a summoner's single eidolon, but taken as a whole, an eidolon brood makes up in quantity what it lacks in individual power."]
 
 [[entry.feature]]
@@ -1161,12 +1057,6 @@ listed = true
 print = "The broodmaster can only merge with one eidolon in the brood at a time. This ability otherwise works like and replaces merge forms."
 import_trades = ["Merge forms"]
 
-[[entry.feature]]
-anchor = "brood-bond"
-head = "Brood Bond (Su)"
-listed = false
-print = ""
-
 [[entry]]
 id = "ref/arc-summoner/master-summoner"
 hold = "checker: [fields] trades = \"replaces: Eidolon\" disagrees with the trade sentences of the feature `lesser-eidolon` = \"replaces: the summoner's normal eidolon ability\" (line 36)"
@@ -1197,7 +1087,7 @@ import_trades = ["Bond senses"]
 
 [[entry]]
 id = "ref/arc-wizard/scrollmaster"
-hold = "checker: [fields] trades = \"replaces: 10th-level bonus feat\" disagrees with the trade sentences of the feature `improved-scroll-casting` = \"replaces: the 10th-level wizard bonus feat\" (line 111)"
+hold = "checker: [fields] trades = \"replaces: 10th-level bonus feat\" disagrees with the trade sentences of the feature `improved-scroll-casting` = \"replaces: the 10th-level wizard bonus feat\" (line 100)"
 opening = ["To some wizards, a scroll is not just a written form of a spell, it is a physical weapon meant to be used in combat like a sword or a shield. These strange wizards enter battle armed with scrolls, often one in each in each hand, practicing combat techniques resembling some monk martial arts."]
 
 [[entry.feature]]
@@ -1236,76 +1126,3 @@ listed = true
 level = 10
 print = "At 10th level, the scrollmaster can cast a wizard spell from a scroll and use his own Intelligence score and relevant feats to set the DC for the spell, and can use his own caster level if it is higher than that of the scroll (similar to a caster using a [staff](ref/rule/staves)). The scrollmaster must have already deciphered the writing on the scroll to use this ability. This ability replaces the 10th-level wizard bonus feat."
 import_trades = ["10th-level bonus feat"]
-
-[[entry.feature]]
-anchor = "2-m-astering"
-head = "2 M astering"
-listed = true
-print = ""
-
-[[entry.feature]]
-anchor = "m-agic"
-head = "M agic"
-listed = true
-print = ""
-
-[[entry.feature]]
-anchor = "a-nd-so-it-came-to-pass-that-in-the-last-days-of-the-thassilonian-empire-the-very-heavens-themselves-rebelled-against-its-blasphemy-the-starstone-fell-shaking-the-world-and-driving-the-seas-forth-across-continents-nearly-extinguishing-the-light-of-humanity-yet-even-in-the-rubble-of-their-nations-the-runelords-continued-to-spar-from-the-mountains-of-the-rasp-the-runelord-karzoug-ignored-his-people-and-struck-out-at-alaznist-runelord-of-wrath-driving-her-realm-deeper-beneath-the-waves-and-in-these-last-futile-scramblings-we-see-how-even-the-mightiest-of-spellcasters-may-be-brought-low-by-sin"
-head = "A nd so it came to pass that in the last days of the Thassilonian Empire, the very heavens themselves rebelled against its blasphemy. The Starstone fell, shaking the world and driving the seas forth across continents, nearly extinguishing the light of humanity. Yet even in the rubble of their nations, the runelords continued to spar. From the mountains of the Rasp, the Runelord Karzoug ignored his people and struck out at Alaznist, Runelord of Wrath, driving her realm deeper beneath the waves. And in these last, futile scramblings, we see how even the mightiest of spellcasters may be brought low by sin."
-listed = true
-print = ""
-
-[[entry.feature]]
-anchor = "introduction"
-head = "Introduction"
-listed = true
-print = '''
-Anyone can be a spellcaster. If you can crack open a book and knuckle down in your studies, you can probably become a passable wizard. If you can devote yourself in body and soul to a god—and why wouldn't you, when there's such a variety to choose from?—you may find yourself endowed with magical powers simply for having faith in your god's (and your own) righteousness. Oracles are chosen without their consent, far-roving rangers pick up magical tricks and traps, druids channel the will of nature, sorcerers get their abilities as dubious presents from philandering ancestors, and bards find magical inspiration in performance and art. Magic is everywhere in the Pathfinder Roleplaying Game, and many of the movers and shakers in towns and cities of any significant size have a spell or two up their sleeves.
-
-But those are just ordinary people who have access to magic. Basic hedge wizards may make a fine living crafting glowing swords, and a priest with the ability to heal broken bones is a must for any church that wants to win itself a congregation, but such everyday spellcasters are hardly the stuff of legend. Instead, those magic users who get remembered as heroes and legends—rather than simply magical craftsmen and merchants—take these same techniques and build upon them, seeking out ever-more-elusive knowledge and crafting new spells of magnificent power. It is with these esoteric practices that the greatest make names for themselves; these potent arts set the masters apart from mundane practitioners.
-
-This chapter introduces several new subsystems and guidelines that help true acolytes of the magical arts hone their skills, and take them beyond the simple spells and constraints of lesser casters. In addition to in-game systems for crafting constructs, binding outsiders, and more, this section also includes dangerous new conditions called spellblights that afflict only casters, plus details for both players and Game Masters alike on how to design new spells for the Pathfinder Roleplaying Game and make sure that they're properly balanced and thought through ahead of time—before they wreak havoc at your gaming table.
-
-Major subjects and subsystems covered in this chapter include the following.'''
-
-[[entry.feature]]
-anchor = "spellblights"
-head = "Spellblights"
-listed = true
-print = "Just as spellcasters have strange and extraordinary abilities unavailable to the common person, so too are they susceptible to unique maladies. Spellblights are specific curses that only affect spellcasters and creatures that use spell-like abilities, saddling them with a host of unfortunate conditions that are extremely difficult to get rid of and greatly hinder the victim's use of magic. (Fortunately, some of these curses have also been discovered to have beneficial side effects that cursed casters can use to their advantage.) Divided into both major and minor categories, spellblights include such grotesque conditions as hemoculysis—in which the caster bleeds from the eyes each time she casts a spell—as well as gentler but more inconvenient afflictions such as phase blight and spell addiction. Spellblights are described in full beginning on page 94."
-
-[[entry.feature]]
-anchor = "spell-duels"
-head = "Spell Duels"
-listed = true
-print = "When two competent spellcasters come to blows, the result is always impressive, if not downright frightening. Yet not every matter of honor is meant to be settled on the battlefield in standard, no-holds-barred combat. To this end, many of the more civilized casters (especially those in magical universities, military orders, and other situations in which the combatants might regret killing their opponents, or need to prove that their victory was through skill alone) settle such matters using a highly ritualized form of combat known as the spell duel. Sample rules for running a spell duel begin on page 99."
-
-[[entry.feature]]
-anchor = "binding-outsiders"
-head = "Binding Outsiders"
-listed = true
-print = "What better way for an accomplished arcanist or theological miracle-worker to display his abilities than to summon and bind a powerful outsider as his servant? Whether it's a cleric of Asmodeus f launting a chained angel or the wizard who binds an inevitable to seek out and punish those who break contracts with him, binders are both feared and respected by beings from all planes—and for good reason. This section begins with general notes on binding, then goes on to present inside information on the various gifts and offerings that help secure the allegiance of each individual type of outsider, from akhana aeons to shoggti qlippoth. These dangerous secrets begin on page 101."
-
-[[entry.feature]]
-anchor = "building-and-modifying-constructs"
-head = "Building and Modifying Constructs"
-listed = true
-print = "Constructs can be far more than just lumbering golems and awkward animated bureaus. Those who devote their lives to unlocking the inner workings of animating magic have uncovered numerous new abilities with which to imbue their constructs, as well as strange new ways to utilize the constructs themselves. Learn new animated object abilities, as well as how to price, modify, and repair unique constructs. Or dive deeper into more complex modifications: give your golem a brain to store feats, wear it as armor, see through its eyes, inscribe a rune on its forehead to protect it, or turn its limbs into grenades ready to shatter and splash liquid death over those who attack it. Construct building and modification begins on page 111."
-
-[[entry.feature]]
-anchor = "new-familiars"
-head = "New Familiars"
-listed = true
-print = "A distinctive spellcaster deserves a distinctive familiar. This section presents statistics from a number of new and highly recognizable familiars, from the blue-ringed octopus and the donkey rat to the king crab and the ever-popular pig. These new minions begin their campaigns to become your next arcane assistants on page 117."
-
-[[entry.feature]]
-anchor = "spellbooks"
-head = "Spellbooks"
-listed = true
-print = "As with all scholarly practices, wizards and other arcane casters who follow an academic course to power achieve greatness by standing on the shoulders of giants. Presented in this section are numerous unique spellbooks ready to be dropped in front of arcane adventurers as treasure, or perhaps sought out as the objects of scholarly quests. In addition to spell lists and brief descriptions of each book's theme, these listings also include preparation rituals—boons a spellcaster can receive by preparing her spells using the spellbook in question. But beware, for not all of the spellcasters who penned these tomes take kindly to interlopers plagiarizing their work, and some spellbooks carry dangerous wards to defend their pages against prying eyes. The section detailing new spellbooks begins on page 121."
-
-[[entry.feature]]
-anchor = "designing-spells"
-head = "Designing Spells"
-listed = true
-print = "While this book contains a host of new spells, you can never have enough variety in your magical arsenal, and one of the great joys of playing a spellcaster (or Game Mastering for one!) is designing new spells unique to a given character or situation. This section takes a detailed look at the design process for spells, a delicate balancing act that is as much art as science. How much damage should a spell of a given level do? Is a spell that kills or controls more powerful? Which bonus type should a given spell grant? What spells are good benchmarks to compare your new creation against? The secrets of the Pathfinder RPG's key designers await, beginning on page 128."
