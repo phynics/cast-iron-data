@@ -1571,6 +1571,9 @@ TRADE_RENAMES = {
     ("ref/arc-druid/urban-druid", "Spontaneous casting"): "Ability to spontaneously cast summon nature's ally spells",
     ("ref/arc-ranger/skirmisher", "Spellcasting ability"): "Spells",
     ("ref/arc-monk/monk-of-the-empty-hand", "Weapon proficiencies"): "Normal monk weapon proficiencies",
+    ("ref/arc-alchemist/reanimator", "7th-level bomb damage increase"): "Increase to bomb damage at this level",
+    ("ref/arc-alchemist/reanimator", "13th-level bomb damage increase"): "Increase to bomb damage at this level",
+    ("ref/arc-alchemist/reanimator", "15th-level bomb damage increase"): "Increase to bomb damage at this level",
 }
 
 
@@ -1596,12 +1599,31 @@ TRADE_DROPS = {
 }
 
 
+# Stored trades that lose their `feature` link and `levels` (data fix; the TSV note records it): the entry and
+# the stored names. Reanimator (Ultimate Magic p. 20): the Bomb feature "functions as and replaces the standard
+# alchemist bomb class feature" (the trade `Bombs`, whole feature), and three features each "replace the
+# increase to bomb damage at this level". A trade of the whole feature and a trade of one level of it on one
+# feature overlap (the check refuses them), so the printed level trade is written once, as the printed name, and
+# stays unlinked, the way the check allows; `by` names the three features that print it, whose levels are 7, 13
+# and 15. TRADE_UNLINKS lists the stored trade that stays, TRADE_MERGED the two that print states with the
+# same words and that the one trade covers.
+TRADE_UNLINKS = {
+    "ref/arc-alchemist/reanimator": ["7th-level bomb damage increase"],
+}
+TRADE_MERGED = {
+    "ref/arc-alchemist/reanimator": [("replaces", "13th-level bomb damage increase"),
+                                     ("replaces", "15th-level bomb damage increase")],
+}
+
+
 def dropped_trade_indices(e: Entry) -> set[int]:
     """The indices of the stored trades that repeat another one without a `feature`."""
     out = set()
     for i, t in enumerate(trades_of(e)):
         key = trade_name(t)
-        if key in TRADE_DROPS.get(e.id, []) and "feature" not in t and any(
+        if key in TRADE_MERGED.get(e.id, []):
+            out.add(i)
+        elif key in TRADE_DROPS.get(e.id, []) and "feature" not in t and any(
                 j != i and trade_name(u) == key and "feature" in u for j, u in enumerate(trades_of(e))):
             out.add(i)
     return out
@@ -1755,6 +1777,8 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
             continue
         old = trades_of(e)[origin]
+        if trade_name(old)[1] in TRADE_UNLINKS.get(e.id, []):
+            rows[0]["notes"].append(f'trade unlinked: "{trade_name(old)[1]}" loses its `feature` and `levels`: a trade of the whole Bomb feature (print: "functions as and replaces the standard alchemist bomb class feature", p. 20) overlaps a trade of one level of it, so the printed level trade is one unlinked trade')
         if old != t:
             anchors = by.get(i) or [rows[0]["anchor"]]
             if trade_name(old)[0] != trade_name(t)[0]:
@@ -1764,6 +1788,9 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
     for origin in sorted(dropped_trade_indices(e)):
         old = trades_of(e)[origin]
+        if trade_name(old) in TRADE_MERGED.get(e.id, []):
+            rows[0]["notes"].append(f'trade merged: {trade_name(old)[0]} "{trade_name(old)[1]}" is the printed trade of the sentence that each feature prints with the same words; one trade names all three features')
+            continue
         rows[0]["notes"].append(f'duplicate trade left out: {trade_name(old)[0]} "{trade_name(old)[1]}" was stored twice, once without its feature link')
     for r in rows:
         first = r["print"].split("\n\n", 1)[0] if r["print"] else ""
@@ -1995,6 +2022,9 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
     front = edit_front(e.front, feats, by, len(trades_of(e)), TRADE_ADDITIONS.get(e.id), dropped_trade_indices(e))
+    for old in TRADE_UNLINKS.get(e.id, []):
+        front = re.sub(r'^(\s*\{ \w+ = "' + re.escape(old) + r'")(?:, feature = "[^"]*")?(?:, levels = \[[^\]]*\])?',
+                       r"\1", front, count=1, flags=re.M)
     for (eid, old), new in TRADE_RENAMES.items():
         if eid == e.id:
             front = front.replace(f'"{old}"', f'"{new}"', 1)

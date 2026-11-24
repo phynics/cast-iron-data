@@ -401,7 +401,7 @@ ref/arc-paladin/holy-tactician	Battlefield Presence (Su)	battlefield-presence	ye
 ref/arc-paladin/holy-tactician	Guide the Battle (Ex)	guide-the-battle	yes	8	print	print		64	5ee1a93154d3578fb71cbd96a259837ec75871a82a892975b5cbb07fd3bb1966
 ref/arc-paladin/holy-tactician	Weal's Wrath (Su)	weal-s-wrath	yes	11	print	print		64	58b84b660d021beb768a5e61daff642b61893c7c9ba3de91b36fb7780c493e8f
 ref/arc-paladin/holy-tactician	Masterful Presence (Su)	masterful-presence	yes	20	print	print		64	c8f0916054f0e12811a691afbc9e187cab6dcc9e230d9c493ab801fce96881ff
-ref/arc-paladin/sacred-shield	Bastion of Good (Su)	bastion-of-good	yes	1		hold	number: corpus ['one-fourth'] / print ['+1', '+6', '20', '4', 'every', 'increase', 'maximum']; print: Ultimate Combat, 3rd printing	65	15ee2d5ff7273ec065ff1293d470330222d3aa48d4396c51beddfba387795972
+ref/arc-paladin/sacred-shield	Bastion of Good (Su)	bastion-of-good	yes	1		hold	checker: [fields] trades = "replaces: Holy champion" disagrees with the trade sentences of the feature `perfect-bastion` = "replaces: the sacred shield's holy champion ability" (line 95)	65	15ee2d5ff7273ec065ff1293d470330222d3aa48d4396c51beddfba387795972
 ref/arc-paladin/sacred-shield	Holy Shield (Su)	holy-shield	yes	4	print	print		65	87eded0cb2bcdecc0de410b4d9c887bfa8dc69b5b101822dffa5a7d1f94b56bd
 ref/arc-paladin/sacred-shield	Divine Bond (Su)	divine-bond	yes	5	print	print	printed cross-reference left out	65	46f1991bca26f89c93a7e00ce57e579ad5ebe1c25b8f4a4b5a2a69cde3f57007
 ref/arc-paladin/sacred-shield	Improved Bastion	improved-bastion	yes	11	print	print		65	7a1bc1aa1147635fbe4f4d5510a545fa0fa1330061c4d30a84d21e0361e8b7d9

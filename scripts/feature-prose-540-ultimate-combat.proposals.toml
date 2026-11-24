@@ -1180,6 +1180,7 @@ import_trades = ["Aura of righteousness"]
 
 [[entry]]
 id = "ref/arc-paladin/sacred-shield"
+hold = "checker: [fields] trades = \"replaces: Holy champion\" disagrees with the trade sentences of the feature `perfect-bastion` = \"replaces: the sacred shield's holy champion ability\" (line 95)"
 opening = ["When faced by evil, the sacred shield reaches first not for a weapon, but for her trusty shield. With her faith, she can ward others from harm."]
 
 [[entry.feature]]

@@ -99,48 +99,6 @@ listed = false
 print = "The following discoveries complement the psychonaut archetype: [confusion bomb](ref/discovery/confusion-bomb), [eternal potion](ref/discovery/eternal-potion), [extend potion](ref/discovery/extend-potion), [lingering spirit](ref/discovery/lingering-spirit), and [madness bomb](ref/discovery/madness-bomb)."
 
 [[entry]]
-id = "ref/arc-alchemist/reanimator"
-hold = "the replaces trade `7th-level bomb damage increase` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `13th-level bomb damage increase` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `15th-level bomb damage increase` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["A reanimator is an alchemist who has discovered how to infuse a corpse with a semblance of life. Many work in tandem with necromancers to explore the fine border between the worlds of the living and the dead. A reanimator has the following class features."]
-
-[[entry.feature]]
-anchor = "bomb"
-head = "Bomb"
-listed = true
-print = "A reanimator's bombs deal damage [one die step](ref/misc/damage-die-adjustments) lower than normal (regular bombs deal d4s, [concussive bombs](ref/discovery/concussive-bomb) deal 1d3s, and so on). This ability otherwise functions as and replaces the standard alchemist bomb class feature."
-import_trades = ["Bombs"]
-
-[[entry.feature]]
-anchor = "simple-reanimation"
-head = "Simple Reanimation"
-listed = true
-level = 7
-print = "At 7th level, a reanimator adds _[lesser animate dead](ref/spell/animate-dead-lesser)_ to his formula book as a 3rd-level extract. When he uses that extract, rather than drinking it, he injects it into the corpse he intends to animate, which rises as an undead creature under his control 1 hour later. The extract can only create [zombies](ref/template/zombie) (including variant zombies). This ability replaces the increase to bomb damage at this level."
-import_trades = ["7th-level bomb damage increase"]
-
-[[entry.feature]]
-anchor = "create-undead"
-head = "Create Undead"
-listed = true
-level = 13
-print = "At 13th level, a reanimator adds _[create undead](ref/spell/create-undead)_ to his formula book as a 4th-level extract. When he uses that extract, rather than drinking it, he injects it into the corpse he intends to animate, which rises as an uncontrolled undead 1 hour later. The extract can only create corporeal undead. This ability replaces the increase to bomb damage at this level."
-import_trades = ["13th-level bomb damage increase"]
-
-[[entry.feature]]
-anchor = "create-greater-undead"
-head = "Create Greater Undead"
-listed = true
-level = 15
-print = "At 15th level, a reanimator adds _[create greater undead](ref/spell/create-greater-undead)_ to his formula book as a 5th-level extract. This otherwise acts similarly to a _[create undead](ref/spell/create-undead)_ extract. This ability replaces the increase to bomb damage at this level."
-import_trades = ["15th-level bomb damage increase"]
-
-[[entry.feature]]
-anchor = "discoveries"
-head = "Discoveries"
-listed = false
-print = "The following discoveries complement the reanimator archetype: [alchemical zombie](ref/discovery/alchemical-zombie), [elixir of life](ref/discovery/elixir-of-life), [eternal potion](ref/discovery/eternal-potion), [mummification](ref/discovery/mummification), and [preserve organs](ref/discovery/preserve-organs)."
-
-[[entry]]
 id = "ref/arc-bard/geisha"
 hold = "the alters trade `Armor and weapon proficiencies` is not printed in a sentence, and no listed feature of that name prints it"
 opening = ["In some cultures, the professional entertainer is a prestigious role. Specially trained entertainers called geisha are praised for their appearance and skill at conversation, music, dancing, singing, poetry, and calligraphy. A geisha provides social intimacy and status but not physical intimacy."]
