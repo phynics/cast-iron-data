@@ -792,7 +792,7 @@ blood-of-the-coven	ref/monster/hag-ash-hag	creature	Ash Hag	2	2	uncited	printed	
 blood-of-the-coven	ref/monster/hag-blood-hag	creature	Blood Hag	2	2	uncited	printed		none	4	0,6,12,13							cite	12-13	section-printed	single-entry	done			yes	yes		
 blood-of-the-coven	ref/monster/hag-dreamthief-hag	creature	Dreamthief Hag	2	2	uncited	printed		none	5	0,4,6,12,13							cite	12-13	section-printed	single-entry	done			yes	yes		
 blood-of-the-coven	ref/monster/hag-green-hag	creature	Green Hag	2	2	uncited	printed		none	6	0,7,12,13,22							cite	12-13	section-printed	single-entry	done			yes	yes		
-blood-of-the-coven	ref/monster/hag-moon-hag	creature	Moon Hag	2	2	uncited	absent		none	0								cite	12-13	section-printed	single-entry	done			yes	yes		
+blood-of-the-coven	ref/monster/hag-moon-hag	creature	Moon Hag	2	2	uncited	absent		none	0								remove	12-13	section-names-no-moon-hag	single-entry	done			yes	yes		
 blood-of-the-coven	ref/monster/hag-mute-hag	creature	Mute Hag	2	2	uncited	printed		none	4	0,7,13,15							cite	12-13	section-printed	single-entry	done			yes	yes		
 blood-of-the-coven	ref/monster/hag-sea-hag	creature	Sea Hag	2	2	uncited	printed		none	7	0,8,12,13,22							cite	12-13	section-printed	single-entry	done			yes	yes		
 blood-of-the-coven	ref/monster/hag-storm-hag	creature	Storm Hag	3	3	uncited	printed		none	4	0,9,12,13							cite	12-13	section-printed	single-entry	done			yes	yes		
