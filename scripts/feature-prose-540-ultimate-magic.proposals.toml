@@ -130,32 +130,6 @@ listed = true
 print = "A geisha gains [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat."
 
 [[entry]]
-id = "ref/arc-bard/sound-striker"
-opening = ["They say that words can cut deeper than any blade, and the sound striker proves this true. Using music and words as a weapon, he can focus his performances into a deadly delivery."]
-
-[[entry.feature]]
-anchor = "bardic-performance"
-head = "Bardic Performance"
-listed = true
-print = "A sound striker gains the following type of bardic performance. Neither performance can be performed more quickly than a standard action."
-
-[[entry.feature]]
-anchor = "wordstrike"
-head = "Wordstrike (Su)"
-listed = true
-level = 3
-print = "At 3rd level, the sound striker bard can spend 1 round of bardic performance as a standard action to direct a burst of sonically charged words at a creature or object. This performance deals 1d4 points of damage plus the bard's level to an object, or half this damage to a living creature. This performance replaces inspire competence."
-import_trades = ["Inspire competence"]
-
-[[entry.feature]]
-anchor = "weird-words"
-head = "Weird Words (Su)"
-listed = true
-level = 6
-print = "At 6th level, a sound striker can start a performance as a standard action, lashing out with 1 potent sound per bard level (maximum 10), each sound affecting one target within 30 feet. These are ranged touch attacks. Each weird word deals 1d8 points of damage plus the bard's Charisma bonus (Fortitude half), and the bard chooses whether it deals bludgeoning, piercing, or slashing damage for each word. This performance replaces _suggestion_."
-import_trades = ["Suggestion"]
-
-[[entry]]
 id = "ref/arc-inquisitor/infiltrator"
 hold = "the alters trade `Stern gaze` is not printed in a sentence, and no listed feature of that name prints it; Misdirection (Sp): the sentence \"This ability replaces stern gaze\" names no trade"
 opening = ["This inquisitor uses guile and deception to blend in among the enemies of the faith rather than confronting them head-on."]
