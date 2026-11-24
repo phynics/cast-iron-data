@@ -15,6 +15,9 @@ page = "57"
 [[sources]]
 publication = "pathfinder-51-the-hungry-storm"
 page = "67"
+[[sources]]
+publication = "adventurers-armory"
+page = "8"
 
 [fields]
 kind = "item"

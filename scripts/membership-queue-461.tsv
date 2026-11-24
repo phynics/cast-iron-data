@@ -340,8 +340,8 @@ advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	i
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	8	15	review	printed	166	row	0								remove	166	wrong-credit-invalidated	figurine	done			yes		yes	none
 adventurers-armory	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	1	4	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 adventurers-armory	ref/rule/types-of-traits	rule	Types of Traits	2	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
-adventurers-armory	ref/eq-misc/shovel-common	item	Shovel (common)	4	4	uncited	printed		none	3	8,20,31										single-entry	S5		yes	yes			book
-adventurers-armory	ref/eq-misc/shovel-folding	item	Shovel (folding)	4	4	uncited	printed		none	3	8,20,31										single-entry	S5		yes	yes			book
+adventurers-armory	ref/eq-misc/shovel-common	item	Shovel (common)	4	4	uncited	printed		none	3	8,20,31							cite	8	section-printed	single-entry	done		yes	yes			book
+adventurers-armory	ref/eq-misc/shovel-folding	item	Shovel (folding)	4	4	uncited	printed		none	3	8,20,31							remove	8	sibling-printed-base-absent	single-entry	done		yes	yes			book
 adventurers-armory	ref/eq-armor/stoneplate	item	Stoneplate	3	4	review	absent	19	row	0								keep	19	title-printed	single-entry	done			yes		no	
 adventurers-armory	ref/eq-misc/artisans-outfit	item	Artisan's outfit	3	3	review	absent	19	row	0											single-entry	S11			yes		no	
 adventurers-armory	ref/eq-misc/burglars-outfit	item	Burglar's outfit	3	3	review	absent	19	row	0											single-entry	S11			yes		no	
