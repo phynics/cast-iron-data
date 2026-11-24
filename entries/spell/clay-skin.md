@@ -3,7 +3,7 @@ id = "ref/spell/clay-skin"
 kind = "spell"
 title = "Clay Skin"
 aon = "SpellDisplay.aspx?ItemName=Clay%20Skin"
-source_ids = ["potions-and-poisons", "ultimate-combat"]
+source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clay_skin", path = "json/spells9.json" },
 ]

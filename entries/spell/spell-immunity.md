@@ -3,7 +3,7 @@ id = "ref/spell/spell-immunity"
 kind = "spell"
 title = "Spell Immunity"
 aon = "SpellDisplay.aspx?ItemName=Spell%20Immunity"
-source_ids = ["core-rulebook", "ultimate-combat"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_immunity", path = "json/spells9.json" },
 ]

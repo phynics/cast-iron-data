@@ -3,7 +3,7 @@ id = "ref/spell/air-walk"
 kind = "spell"
 title = "Air Walk"
 aon = "SpellDisplay.aspx?ItemName=Air%20Walk"
-source_ids = ["core-rulebook", "ultimate-combat"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_walk", path = "json/spells.json" },
 ]
