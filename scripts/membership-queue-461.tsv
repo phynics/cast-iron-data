@@ -2112,7 +2112,7 @@ pathfinder-86-lords-of-rust	ref/tech-weapon/soft-grenade	item	Grenade (soft gren
 pathfinder-86-lords-of-rust	ref/tech-weapon/sonic-grenade	item	Grenade (sonic grenade)	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 pathfinder-86-lords-of-rust	ref/tech-weapon/zero-grenade	item	Grenade (zero grenade)	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 pathfinder-society-primer	ref/rule/specific-rulesets	rule	Specific Rulesets	10	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-pathfinder-society-primer	ref/magic-wondrous/ioun-stone	item	Ioun Stones	2	3	uncited	printed		none	6	2,3,5,20,22										single-entry	S5		yes	yes	yes		
+pathfinder-society-primer	ref/magic-wondrous/ioun-stone	item	Ioun Stones	2	3	uncited	printed		none	6	2,3,5,20,22							cite	23	section-printed	single-entry	done		yes	yes	yes		
 pathfinder-society-primer	ref/magic-wondrous/polish-of-inconspicuous-armor	item	Polish of Inconspicuous Armor	2	2	review	absent	25	row	0											single-entry	S11			yes		no	
 pathfinder-unchained	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	1	8	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 pathfinder-unchained	ref/rule/optional-alignment-changes	rule	Optional Alignment Changes	1	2	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
