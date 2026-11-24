@@ -85,6 +85,14 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+
+# The printing of the owner's copy of each book that a review table was made from (named in the first row of
+# each entry): a rule that print and the corpus state differently is read against this printing.
+PRINTINGS = {
+    "advanced-players-guide": "Advanced Player's Guide, 2nd printing",
+    "ultimate-magic": "Ultimate Magic, 2nd printing",
+    "ultimate-combat": "Ultimate Combat, 3rd printing",
+}
 ROOT = HERE.parent
 
 TSV_HEADER = [
@@ -1769,6 +1777,8 @@ def run_compare(args) -> int:
         res = compare_entry(e, section, bk)
         res["decisions"] = decisions
         fin = finalize(e, res)
+        if book in PRINTINGS and fin["rows"]:
+            fin["rows"][0]["notes"].append(f"print: {PRINTINGS[book]}")
         old = {(r["entry"], r["anchor"]): r for r in old_rows if r["entry"] == e.id}
         entry_rows, entry_props = rows_of(e, fin, old, old_props.get(e.id))
         rows += entry_rows
