@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "horror-adventures"
 page = "186"
+[[sources]]
+publication = "game-mastery-guide"
+page = "250"
 
 [fields]
 kind = "none"

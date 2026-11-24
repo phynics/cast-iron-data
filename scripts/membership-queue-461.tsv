@@ -1116,14 +1116,14 @@ faiths-of-purity	ref/trait/purity-of-faith	trait	Purity of Faith	2	2	review	prin
 faiths-of-purity	ref/trait/the-flexing-arm	trait	The Flexing Arm	2	2	review	printed	18	row	0								keep	18	title-on-cited-page	single-entry	S0			yes		yes	
 familiar-folio	ref/ability/familiars	rule	Familiars	2	5	uncited	printed		none	33	0,1,2,3,4										hub-cited	S10		yes	yes	yes		
 game-mastery-guide	ref/rule/gamemastery	rule	Gamemastery	2	8	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-game-mastery-guide	ref/madness/amnesia	affliction	Amnesia	2	2	uncited	unaligned	250	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/dissociated-identity	affliction	Dissociated Identity	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/mania	affliction	Mania	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/moral-insanity	affliction	Moral Insanity	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/paranoid	affliction	Paranoid	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/phobia	affliction	Phobia	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/schizophrenia	affliction	Schizophrenia	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/skill/diplomacy	skill	Diplomacy	2	4	uncited	unaligned	204	body	0											single-entry	S5		yes	yes			
+game-mastery-guide	ref/madness/amnesia	affliction	Amnesia	2	2	uncited	unaligned	250	body	0								cite	250	section-printed	single-entry	done		yes	yes			
+game-mastery-guide	ref/madness/dissociated-identity	affliction	Dissociated Identity	2	2	uncited	unaligned	251	body	0								cite	251	section-printed	single-entry	done		yes	yes			
+game-mastery-guide	ref/madness/mania	affliction	Mania	2	2	uncited	unaligned	251	body	0								cite	250	section-printed	single-entry	done		yes	yes			
+game-mastery-guide	ref/madness/moral-insanity	affliction	Moral Insanity	2	2	uncited	unaligned	251	body	0								cite	251	section-printed	single-entry	done		yes	yes			
+game-mastery-guide	ref/madness/paranoid	affliction	Paranoid	2	2	uncited	unaligned	251	body	0								cite	251	section-printed	single-entry	done		yes	yes			
+game-mastery-guide	ref/madness/phobia	affliction	Phobia	2	2	uncited	unaligned	251	body	0								cite	250	section-printed	single-entry	done		yes	yes			
+game-mastery-guide	ref/madness/schizophrenia	affliction	Schizophrenia	2	2	uncited	unaligned	251	body	0								cite	251	section-printed	single-entry	done		yes	yes			
+game-mastery-guide	ref/skill/diplomacy	skill	Diplomacy	2	4	uncited	unaligned	204	body	0								cite	204	section-printed	single-entry	done		yes	yes			
 gnomes-of-golarion	ref/eq-weapon/stormshaft-javelin	item	Stormshaft javelin	2	2	review	body	22	row	0											single-entry	S11			yes		no	
 goblins-of-golarion	ref/class/bard	class	Bard	11	13	family-leak	printed		none	6	8,10,13,15,28	child	ref/rule/class-bard/bard(title)								class-hub	S6		yes	yes			
 goblins-of-golarion	ref/class/druid	class	Druid	10	12	family-leak	printed		none	4	14,15,28,31	child	ref/rule/class-druid/druid(title)								class-hub	S6		yes	yes			

@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "93"
 [[sources]]
+publication = "game-mastery-guide"
+page = "204"
+[[sources]]
 publication = "occult-adventures"
 page = "195"
 [[sources]]
