@@ -16,12 +16,19 @@ page = "68"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "strong-senses", level = 1 },
+  { anchor = "uncanny-dodge", level = 2 },
+  { anchor = "rage-of-the-wild", level = 4 },
+  { anchor = "rage-powers", level = 5 },
+  { anchor = "wild-talents", level = 6 },
+]
 trades = [
-  { replaces = "1st favored enemy", feature = "favored-enemy", levels = [1] },
-  { replaces = "2nd-level combat style feat", feature = "combat-style-feat", levels = [2] },
-  { replaces = "Hunter's bond", feature = "hunter-s-bond" },
-  { replaces = "2nd, 3rd, 4th, and 5th favored enemy", feature = "favored-enemy", levels = [5, 10, 15, 20] },
-  { replaces = "6th-, 10th-, 14th-, and 18th-level combat style feat", feature = "combat-style-feat", levels = [6, 10, 14, 18] },
+  { replaces = "1st favored enemy", feature = "favored-enemy", levels = [1], by = ["strong-senses"] },
+  { replaces = "2nd-level combat style feat", feature = "combat-style-feat", levels = [2], by = ["uncanny-dodge"] },
+  { replaces = "Hunter's bond", feature = "hunter-s-bond", by = ["rage-of-the-wild"] },
+  { replaces = "2nd, 3rd, 4th, and 5th favored enemy", feature = "favored-enemy", levels = [5, 10, 15, 20], by = ["rage-powers"] },
+  { replaces = "6th-, 10th-, 14th-, and 18th-level combat style feat", feature = "combat-style-feat", levels = [6, 10, 14, 18], by = ["wild-talents"] },
 ]
 +++
 
@@ -31,79 +38,35 @@ wild stalker forsakes the bonds of community and lives in the trackless wilds fa
 kind, or perhaps grew up there, never knowing of civilization as anything more than his enemy. He
 drives pioneers back to civilization and strives to keep the land unspoiled.
 
-**Strong Senses (Ex)**
+## Strong Senses (Ex) {#strong-senses}
 
-**Ability:** He gains [low-light vision](ref/rule/low-light-vision) and a bonus on Perception checks
-equal to 1 + [one-fourth](ref/misc/fractions-and-rounding) of his ranger level. If he already has
-low-light vision, the bonus becomes 2 + one-fourth of his ranger level.
+At 1st level, a wild stalker's life among the wild has sharpened his senses. He gains
+[low-light vision](ref/rule/low-light-vision) and a +1 bonus on Perception checks. If he already has
+low-light vision, he gains a +2 bonus on Perception checks instead. This bonus increases by +1 for
+every four levels after 1st (to a maximum of +6 at 20th level, or +7 if the character did not gain
+low-light vision from this ability). This ability replaces the ranger's first favored enemy ability.
 
-**Flavor:** A wild stalker's life among the wild has sharpened his senses.
+## Uncanny Dodge (Ex) {#uncanny-dodge}
 
-**Gained:** At 1st Level
+At 2nd level, a wild stalker gains [uncanny dodge](ref/ability/uncanny-dodge) as the barbarian's
+class feature. This ability replaces the ranger's 2nd-level combat style feat.
 
-**Replaces:** 1st favored enemy
+## Rage of the Wild (Ex) {#rage-of-the-wild}
 
-**Uncanny Dodge (Ex)**
+At 4th level, a wild stalker gains the rage ability as the [barbarian](ref/class/barbarian) class
+feature, but its barbarian level is considered to be his ranger level -3. This ability replaces
+hunter's bond.
 
-**Ability:** A wild stalker gains [uncanny dodge](ref/ability/uncanny-dodge) as the barbarian class
-feature.
+## Rage Powers {#rage-powers}
 
-**Gained:** At 2nd Level
+At 5th level, a wild stalker ranger gains a single rage power, as the barbarian class feature. He
+gains another rage power each five levels after 5th (to a maximum of four rage powers at 20th
+level). This ability replaces the ranger's second, third, fourth, and fifth favored enemy abilities.
 
-**Replaces:** 2nd-level combat style feat
+## Wild Talents (Ex) {#wild-talents}
 
-**Rage of the Wild (Ex)**
-
-**Ability:** A wild stalker gains the _rage_ ability as the [barbarian](ref/class/barbarian) class
-feature, but its barbarian level is considered to be his ranger level - 3.
-
-**Gained:** At 4th Level
-
-**Replaces:** Hunter's bond
-
-**Rage (Ex)**
-
-**Flavor:** Text from the barbarian class.
-
-**Free:** You can enter (or end) a _rage._ You gain a +4 morale bonus to your Strength and
-Constitution, as well as a +2 morale bonus on Will saves. The increase to Constitution grants you 2
-hit points per Hit Dice, but these disappear when the _rage_ ends and are not lost first like
-[temporary hit points](ref/rule/temporary-hit-points).
-
-**Passive:** While in _rage,_ you take a -2 penalty to Armor Class, and you cannot use any
-Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride)
-or any ability that requires patience or concentration. You are [fatigued](ref/misc/fatigued) after
-_rage_ for a number of rounds equal to 2 times the number of rounds spent in the _rage._ You cannot
-enter a new _rage_ while fatigued or [exhausted](ref/misc/exhausted) but can otherwise enter _rage_
-multiple times during a single encounter or combat. If you fall unconscious, your _rage_ immediately
-ends, placing you in peril of death.
-
-**Special:** Temporary increases to Constitution, such as those gained from _rage_ and spells like
-[bear's endurance](ref/spell/bears-endurance), do not increase the total number of rounds that a
-barbarian can _rage_ per day. The total number of rounds of _rage_ per day is renewed after resting
-for 8 hours, although these hours do not need to be consecutive.
-
-**Usage:** 2 rounds/day + double your barbarian level + your Constitution modifier
-
-**Usage:** 2 rounds/day + double your barbarian level + your Constitution modifier
-
-**Rage Powers**
-
-**Ability:** A wild stalker ranger gains a single rage power, as the barbarian class feature.
-
-**Gained:** At 5th Level
-
-**Repeat:** He gains another rage power., 10, 5
-
-**Replaces:** 2nd, 3rd, 4th, and 5th favored enemy
-
-**Wild Talents (Ex)**
-
-**Choice:** A wild stalker can either take a rage power, or gain a +2 insight bonus into any one of
-the following skills: Acrobatics, Climb, Perception, Stealth, Survival, or Swim.
-
-**Gained:** At 6th Level
-
-**Repeat:** The wild stalker can gain one of these two benefits again., 10, 4
-
-**Replaces:** 6th-, 10th-, 14th-, and 18th-level combat style feat
+At 6th level, a wild stalker can either take a rage power, or gains a +2 insight bonus into any one
+of the following skills: Acrobatics, Climb, Perception, Stealth, Survival, or Swim. The wild stalker
+can gain one of these two benefits again every five levels after 6th (to a maximum of 4 times at
+20th level). This ability replaces the ranger's 6th-, 10th-, 14th-, and 18th-level combat style feat
+abilities.

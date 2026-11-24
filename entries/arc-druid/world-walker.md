@@ -16,11 +16,15 @@ page = "43"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "favored-terrain", level = 3 },
+  { anchor = "path-of-trees", level = 9 },
+]
 trades = [
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
-  { replaces = "timeless body", feature = "timeless-body" },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["favored-terrain"] },
+  { replaces = "resist nature's lure", feature = "resist-nature-s-lure", by = ["favored-terrain"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["path-of-trees"] },
+  { replaces = "timeless body", feature = "timeless-body", by = ["path-of-trees"] },
 ]
 +++
 
@@ -29,28 +33,38 @@ travel the entire world. Some act as messengers and scouts for druidic circles, 
 seemingly unquenchable wanderlust; each new land provides new mysteries to discover and new wisdom
 to be gained from mastering those mysteries.
 
-**Favored Terrain (Ex)**
+## Favored Terrain (Ex) {#favored-terrain}
 
-**Ability:** The world walker gains the ranger's [favored terrain](ref/ability/favored-terrain)
+At 3rd level, the world walker gains the ranger's [favored terrain](ref/ability/favored-terrain)
 ability. She treats her druid level as her ranger level for this ability. If she has levels in both
-classes, both class's levels stack for determining the effect of this ability.
+classes, both class's levels stack for determining the effect of this ability. This ability replaces
 
-**Gained:** At 3rd Level
+trackless step and resist nature's lure.
 
-**Replaces:** Trackless step, resist nature's lure
+## Path of Trees (Su) {#path-of-trees}
 
-**Path of Trees (Su)**
+At 9th level, once a day, a wanderer
 
-**Ability:** Once a day, a wanderer can step within a tree and then teleport from that tree to
-another one in a manner similar to the [tree stride](ref/spell/tree-stride) spell.
+can step within a tree and then teleport from that tree to
 
-**At 12th Level:** She can do this twice a day.
+another one in a manner similar to the _[tree stride](ref/spell/tree-stride)_ spell. She gains an
 
-**At 13th Level:** She can use this ability to teleport to any other tree of its type up to 100
-miles away.
+extra use of this ability each
 
-**At 15th Level:** She can do this three times a day.
+day at 12th level, and a
 
-**Gained:** At 9th Level
+third use of this ability at
 
-**Replaces:** Venom immunity, timeless body
+15th level. Furthermore,
+
+a world walker of 13th level or
+
+higher can use this ability to teleport
+
+to any other tree of its type up to 100
+
+miles away. This ability replaces
+
+both venom immunity
+
+and timeless body.

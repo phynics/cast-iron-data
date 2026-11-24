@@ -41,3 +41,23 @@ _Thrown_: aklys\*\*, amentum\*\*, atlatl\*\*, blowgun, bolas, boomerang\*, chakr
 
 _Siege Engines_: all siege engines\*\*
 '''
+
+[[edit]]
+entry = "ref/arc-cleric/evangelist"
+anchor = "spontaneous-casting"
+note = 'hand-written from print (Ultimate Combat p. 41): the two-column table of spell levels and spontaneous spells, which the extraction ran into the paragraph'
+text = '''
+An evangelist does not gain the ability to spontaneously cast _cure_ or _inflict_ spells by sacrificing prepared spells. However, an evangelist can spontaneously cast the following spells by sacrificing a prepared spell of the noted level or above:
+
+| Spell level | Spontaneous spell |
+|---|---|
+| 1st level | _command_ |
+| 2nd level | _enthrall_ |
+| 3rd level | _tongues_ |
+| 4th level | _suggestion_ |
+| 5th level | _greater command_ |
+| 6th level | _geas/quest_ |
+| 7th level | _mass suggestion_ |
+| 8th level | _sympathy_ |
+| 9th level | _demand_ |
+'''
