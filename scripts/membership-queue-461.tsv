@@ -233,7 +233,7 @@ advanced-players-guide	ref/class/unchained-barbarian	class	Unchained Barbarian	2
 advanced-players-guide	ref/class/unchained-monk	class	Unchained Monk	2	4	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/unchained-rogue	class	Unchained Rogue	2	3	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/unchained-summoner	class	Unchained Summoner	2	4	uncited	body		none	1	54							remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
-advanced-players-guide	ref/class/vigilante	class	Vigilante	2	5	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
+advanced-players-guide	ref/class/vigilante	class	Vigilante	2	5	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/warpriest	class	Warpriest	2	6	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/rule/favored-class	rule	Favored Class	2	2	uncited	printed	8	body	0											hub-cited	S10		yes	yes	yes	yes	
 advanced-players-guide	ref/rule/traits-and-other-details	rule	Filling Out the Details	2	3	uncited	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
@@ -772,7 +772,7 @@ blood-of-the-beast	ref/class/unchained-barbarian	class	Unchained Barbarian	4	4	u
 blood-of-the-beast	ref/class/unchained-monk	class	Unchained Monk	4	4	uncited	printed		none	2	3,4							remove	30	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/unchained-rogue	class	Unchained Rogue	4	4	uncited	absent		none	0								remove	none	mention-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/unchained-summoner	class	Unchained Summoner	4	4	uncited	printed		none	2	3,31							remove	31	class-options-only	class-hub	done		yes	yes			
-blood-of-the-beast	ref/class/vigilante	class	Vigilante	5	5	uncited	printed		none	6	3,7,12,13,15										class-hub	S7		yes	yes			
+blood-of-the-beast	ref/class/vigilante	class	Vigilante	5	5	uncited	printed		none	6	3,7,12,13,15							remove	7	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/witch	class	Witch	4	11	uncited	printed		none	10	3,7,8,14,19										class-hub	S7		yes	yes			
 blood-of-the-beast	ref/race/catfolk	race	Catfolk	4	5	uncited	printed		none	9	0,1,2,4,5										race-hub	S9		yes	yes			
 blood-of-the-beast	ref/race/grippli	race	Grippli	4	5	uncited	printed		none	8	0,1,2,8,10										race-hub	S9		yes	yes			
@@ -877,7 +877,7 @@ chronicle-of-legends	ref/class/unchained-barbarian	class	Unchained Barbarian	3	3
 chronicle-of-legends	ref/class/unchained-monk	class	Unchained Monk	3	4	uncited	absent		none	0								cite	28-29	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-rogue	class	Unchained Rogue	3	3	uncited	absent		none	0								cite	28-29	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-summoner	class	Unchained Summoner	3	4	uncited	absent		none	0								cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
-chronicle-of-legends	ref/class/vigilante	class	Vigilante	3	5	uncited	printed		none	4	3,5,7,30										class-hub	S7		yes	yes	yes		
+chronicle-of-legends	ref/class/vigilante	class	Vigilante	3	5	uncited	printed		none	4	3,5,7,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/warpriest	class	Warpriest	5	6	uncited	printed		none	3	14,16,30										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/witch	class	Witch	6	11	uncited	printed		none	4	3,14,30,31										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/antipaladin	class	Antipaladin	2	5	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
@@ -2165,7 +2165,7 @@ plane-hoppers-handbook	ref/race/shabti	race	Shabti	3	3	uncited	printed		none	4	3
 plane-hoppers-handbook	ref/race/sylph	race	Sylph	4	4	uncited	printed		none	3	20,21,32										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/race/undine	race	Undine	4	5	uncited	printed		none	3	20,21,32										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/class/magus	class	Magus	4	10	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done			yes			
-plane-hoppers-handbook	ref/class/vigilante	class	Vigilante	4	5	weak	weak		none	1	17										class-hub	S7		yes	yes			
+plane-hoppers-handbook	ref/class/vigilante	class	Vigilante	4	5	weak	weak		none	1	17							remove	17	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/class/warpriest	class	Warpriest	6	6	weak	weak		none	1	15										class-hub	S7		yes	yes			
 potions-and-poisons	ref/spell/detect-charm	spell	Detect Charm	5	5	family-leak	absent	17	row	0		variant	ref/spell/detect-magic(title)					remove	17	wrong-credit-invalidated	single-entry	done			yes			
 potions-and-poisons	ref/spell/detect-magic-greater	spell	Greater Detect Magic	5	5	family-leak	absent	17	row	0		variant	ref/spell/detect-magic(title)					remove	17	wrong-credit-invalidated	single-entry	done			yes			
