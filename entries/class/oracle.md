@@ -3,13 +3,16 @@ id = "ref/class/oracle"
 kind = "class"
 title = "Oracle"
 aon = "ClassDisplay.aspx?ItemName=Oracle"
-source_ids = ["advanced-players-guide", "advanced-race-guide", "blood-of-the-beast", "blood-of-the-sea", "chronicle-of-legends", "goblins-of-golarion", "heroes-of-golarion", "horror-adventures", "legacy-of-dragons", "legacy-of-the-first-world", "pathfinder-101-the-kintargo-contract", "plane-hoppers-handbook", "ultimate-wilderness"]
+source_ids = ["advanced-players-guide", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oracle", path = "json/classes3.json" },
 ]
 [[sources]]
 publication = "advanced-players-guide"
 page = "42"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28-29"
 
 [fields]
 kind = "class"
@@ -190,7 +193,6 @@ amazing powers and abilities.
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
