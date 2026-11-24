@@ -209,7 +209,7 @@ advanced-players-guide	ref/spell/mask-dweomer-communal	spell	Communal Mask Dweom
 advanced-players-guide	ref/spell/share-language-communal	spell	Communal Share Language	1	3	family-leak	absent		none	0		variant	ref/spell/share-language(title)		primary	ultimate-combat	body	remove	243	whole-book-absent-new-primary-printed	single-entry	done			yes			
 advanced-players-guide	ref/spell/walk-the-plank	spell	Walk the Plank	1	2	family-leak	absent		none	0		variant	ref/spell/create-pit(title)		primary	villain-codex	printed	remove	188	whole-book-absent-new-primary-printed	single-entry	done			yes			
 advanced-players-guide	ref/ability/domains	rule	Domains	2	2	uncited	printed	86	body	0											hub-cited	S10		yes	yes	yes	yes	
-advanced-players-guide	ref/class/arcanist	class	Arcanist	2	8	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
+advanced-players-guide	ref/class/arcanist	class	Arcanist	2	8	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/bloodrager	class	Bloodrager	2	9	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/brawler	class	Brawler	2	5	uncited	printed		none	4	74,78,104,105										class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
@@ -707,7 +707,7 @@ blood-of-shadows	ref/class/witch	class	Witch	3	11	uncited	printed		none	8	4,11,1
 blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5										race-hub	S9		yes	yes			
 blood-of-shadows	ref/race/fetchling	race	Fetchling	4	5	uncited	printed		none	9	2,3,4,5,6										race-hub	S9		yes	yes			
 blood-of-shadows	ref/race/wayang	race	Wayang	6	6	uncited	printed		none	8	2,3,5,10,11										race-hub	S9		yes	yes			
-blood-of-shadows	ref/class/arcanist	class	Arcanist	6	8	weak	weak		none	1	7										class-hub	S6		yes	yes			
+blood-of-shadows	ref/class/arcanist	class	Arcanist	6	8	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/gunslinger	class	Gunslinger	6	7	weak	weak		none	1	7										class-hub	S6		yes	yes			
 blood-of-shadows	ref/class/hunter	class	Hunter	5	8	weak	weak		none	1	7										class-hub	S6		yes	yes			
 blood-of-shadows	ref/class/kineticist	class	Kineticist	3	9	weak	weak		none	1	11										class-hub	S6		yes	yes			
@@ -744,7 +744,7 @@ blood-of-the-beast	ref/spell/triggered-suggestion	spell	Triggered Suggestion	2	3
 blood-of-the-beast	ref/ability/advanced-weapon-training	rule	Advanced Weapon Training	2	3	uncited	printed		none	2	3,29										link-only-hub	S10	hub-design-a	yes	yes			
 blood-of-the-beast	ref/class/alchemist	class	Alchemist	4	12	uncited	printed		none	7	4,7,10,11,19							remove	4	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/antipaladin	class	Antipaladin	5	5	uncited	printed		none	2	7,14							remove	7	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/class/arcanist	class	Arcanist	7	8	uncited	printed		none	3	12,20,28										class-hub	S6		yes	yes			
+blood-of-the-beast	ref/class/arcanist	class	Arcanist	7	8	uncited	printed		none	3	12,20,28							remove	12	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/bloodrager	class	Bloodrager	4	9	uncited	printed		none	6	3,4,7,11,16										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/brawler	class	Brawler	4	5	uncited	printed		none	3	12,24,28										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/cavalier	class	Cavalier	8	8	uncited	printed		none	5	3,12,16,18,28										class-hub	S6		yes	yes			
@@ -820,7 +820,7 @@ blood-of-the-sea	ref/class/samurai	class	Samurai	5	9	uncited	absent		none	0					
 blood-of-the-sea	ref/class/slayer	class	Slayer	6	8	uncited	printed		none	5	3,11,14,15,34										class-hub	S7		yes	yes			
 blood-of-the-sea	ref/class/summoner	class	Summoner	4	7	uncited	printed		none	3	5,23,24										class-hub	S7		yes	yes			
 blood-of-the-sea	ref/class/witch	class	Witch	5	11	uncited	printed		none	7	3,5,13,21,22										class-hub	S7		yes	yes			
-blood-of-the-sea	ref/class/arcanist	class	Arcanist	4	8	weak	weak		none	1	5										class-hub	S6		yes	yes			
+blood-of-the-sea	ref/class/arcanist	class	Arcanist	4	8	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/fighter	class	Fighter	4	10	weak	weak		none	1	5										class-hub	S6		yes	yes			
 blood-of-the-sea	ref/class/magus	class	Magus	5	10	weak	weak		none	1	5										class-hub	S6		yes	yes			
 blood-of-the-sea	ref/class/mesmerist	class	Mesmerist	8	9	weak	weak		none	1	13										class-hub	S6		yes	yes			
@@ -881,7 +881,7 @@ chronicle-of-legends	ref/class/vigilante	class	Vigilante	3	5	uncited	printed		no
 chronicle-of-legends	ref/class/warpriest	class	Warpriest	5	6	uncited	printed		none	3	14,16,30										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/witch	class	Witch	6	11	uncited	printed		none	4	3,14,30,31										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/antipaladin	class	Antipaladin	2	5	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/class/arcanist	class	Arcanist	3	8	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
+chronicle-of-legends	ref/class/arcanist	class	Arcanist	3	8	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/bloodrager	class	Bloodrager	3	9	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/brawler	class	Brawler	3	5	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/investigator	class	Investigator	3	7	weak	weak		none	1	29										class-hub	S6		yes	yes	yes		
@@ -1235,7 +1235,7 @@ heroes-of-golarion	ref/rule/class-cleric/cleric	rule	Cleric	9	9	family-leak	prin
 heroes-of-golarion	ref/rule/class-rogue/rogue	rule	Rogue	13	14	family-leak	printed		none	2	6,17	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
 heroes-of-golarion	ref/rule/class-wizard/wizard	rule	Wizard	8	11	family-leak	printed		none	4	6,14,18,32	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 heroes-of-golarion	ref/class/alchemist	class	Alchemist	11	12	uncited	printed		none	5	3,6,24,25,27							remove	6	class-options-only	class-hub	done			yes			
-heroes-of-golarion	ref/class/arcanist	class	Arcanist	8	8	uncited	printed		none	3	3,6,20										class-hub	S6		yes	yes			
+heroes-of-golarion	ref/class/arcanist	class	Arcanist	8	8	uncited	printed		none	3	3,6,20							remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/class/oracle	class	Oracle	7	13	uncited	printed		none	3	3,6,14										class-hub	S7		yes	yes			
 heroes-of-golarion	ref/class/psychic	class	Psychic	7	8	uncited	printed		none	10	3,6,8,9,12										class-hub	S7		yes	yes			
 heroes-of-golarion	ref/class/slayer	class	Slayer	8	8	uncited	printed		none	3	3,4,6										class-hub	S7		yes	yes			
@@ -2145,7 +2145,7 @@ plane-hoppers-handbook	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	10	11	fami
 plane-hoppers-handbook	ref/rule/class-wizard/wizard	rule	Wizard	11	11	family-leak	printed		none	11	7,12,13,15,16	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 plane-hoppers-handbook	ref/class/alchemist	class	Alchemist	3	12	uncited	printed		none	3	10,13,15							remove	15	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/antipaladin	class	Antipaladin	4	5	uncited	printed		none	2	13,17							remove	17	class-options-only	class-hub	done			yes			
-plane-hoppers-handbook	ref/class/arcanist	class	Arcanist	5	8	uncited	printed		none	5	3,7,8,17,19										class-hub	S6		yes	yes			
+plane-hoppers-handbook	ref/class/arcanist	class	Arcanist	5	8	uncited	printed		none	5	3,7,8,17,19							remove	7	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/bloodrager	class	Bloodrager	7	9	uncited	printed		none	2	13,23										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/hunter	class	Hunter	6	8	uncited	printed		none	3	15,16,19										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/inquisitor	class	Inquisitor	4	8	uncited	printed		none	4	10,12,13,15										class-hub	S6		yes	yes			
