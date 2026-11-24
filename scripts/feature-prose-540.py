@@ -749,6 +749,7 @@ def trade_sentences(text: str) -> list[tuple[str, str, bool]]:
     ability, feature, power or archetype in its subject: the app counts it only when it names a stored trade."""
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[\\_*]", "", text)
+    text = re.sub(r"\s+", " ", text)        # a paragraph break inside a sentence (a column or page break) does not end it
     out = []
     for m in TRADE_SENTENCE.finditer(text):
         op = "replaces" if m.group(2).lower().startswith("replace") else "alters"
