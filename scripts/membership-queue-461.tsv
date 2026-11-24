@@ -2163,7 +2163,7 @@ plane-hoppers-handbook	ref/race/ifrit	race	Ifrit	4	4	uncited	printed		none	3	20,
 plane-hoppers-handbook	ref/race/oread	race	Oread	4	5	uncited	printed		none	2	20,32							remove	20	race-options-only	race-hub	done		yes	yes			
 plane-hoppers-handbook	ref/race/shabti	race	Shabti	3	3	uncited	printed		none	4	3,20,22,23										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/race/sylph	race	Sylph	4	4	uncited	printed		none	3	20,21,32										race-hub	S9		yes	yes			
-plane-hoppers-handbook	ref/race/undine	race	Undine	4	5	uncited	printed		none	3	20,21,32										race-hub	S9		yes	yes			
+plane-hoppers-handbook	ref/race/undine	race	Undine	4	5	uncited	printed		none	3	20,21,32							remove	20	race-options-only	race-hub	done		yes	yes			
 plane-hoppers-handbook	ref/class/magus	class	Magus	4	10	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/vigilante	class	Vigilante	4	5	weak	weak		none	1	17							remove	17	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/warpriest	class	Warpriest	6	6	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done			yes			
