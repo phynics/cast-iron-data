@@ -9,11 +9,12 @@ entry id, the book and printed page of the stat block, the printed Effect words,
                   sign is a hyphen-minus and apostrophes are straight.
   status          matches        the entry already carries the printed words
                   rewrite        the script replaces the entry's Effect value
+                                 (The Tainted Plague prints `damage 1d6 Con and 1d6 Wis` under
+                                 the label `damage`; the owner ruled the Effect value
+                                 `1d6 Con and 1d6 Wis damage`.)
                   tail-in-body   print continues the Effect line with a clause that the entry
                                  already holds as a paragraph below the block; the Effect
                                  value takes the stat words and the paragraph stays
-                  label-damage   print labels the line `damage`, not `Effect`; the value is
-                                 the printed words after the label
                   no-pdf         the book is not among the books read; the entry stays
 
 Only the Effect value changes. No typed field mirrors it (`[fields] kind = "none"`).
@@ -32,7 +33,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 CORPUS = HERE.parent
 TABLE = HERE / 'disease-effects-272.tsv'
-STATUSES = {'matches', 'rewrite', 'tail-in-body', 'label-damage', 'no-pdf'}
+STATUSES = {'matches', 'rewrite', 'tail-in-body', 'no-pdf'}
 EFFECT = re.compile(r'^\*\*(Effect|Initial effect):\*\* (.*?)(?=\n\n)', re.S | re.M)
 WIDTH = 100
 

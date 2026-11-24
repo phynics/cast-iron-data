@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** damage 1d6 Con and 1d6 Wis
+**Effect:** 1d6 Con and 1d6 Wis damage
 
 **Cure:** 2 consecutive saves
 

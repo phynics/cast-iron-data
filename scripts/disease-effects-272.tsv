@@ -45,5 +45,5 @@ slimy-doom	core-rulebook	557	1d4 Con damage, target must make a second Fort save
 spellscar-fever	pathfinder-119-prisoners-of-the-blight	63		no-pdf
 tetanus	pathfinder-1-burnt-offerings	43		no-pdf
 the-scales	lost-cities-of-golarion	8	1d2 Dex damage and 1d2 Cha damage	rewrite
-the-tainted-plague	pathfinder-campaign-setting	149	damage 1d6 Con and 1d6 Wis	label-damage
+the-tainted-plague	pathfinder-campaign-setting	149	1d6 Con and 1d6 Wis damage	rewrite
 vorels-phage	pathfinder-2-the-skinsaw-murders	27		no-pdf
