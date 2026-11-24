@@ -1630,10 +1630,6 @@ title = "Scale Spikes"
 entry = "ref/spell/scale-spikes"
 
 [[books.chapters.children.children.children]]
-title = "Scale Spikes, Greater"
-entry = "ref/carried/monster-codex/rules/lizardfolk/new-rules/lizardfolk-spells/scale-spikes/greater"
-
-[[books.chapters.children.children.children.children]]
 title = "Greater Scale Spikes"
 entry = "ref/spell/scale-spikes-greater"
 

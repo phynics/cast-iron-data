@@ -3370,10 +3370,6 @@ title = "Brand"
 entry = "ref/spell/brand"
 
 [[books.chapters.children]]
-title = "Brand, Greater"
-entry = "ref/carried/advanced-players-guide/spells/brand/greater"
-
-[[books.chapters.children]]
 title = "Break"
 entry = "ref/spell/break"
 
@@ -3398,10 +3394,6 @@ title = "Cacophonous Call"
 entry = "ref/spell/cacophonous-call"
 
 [[books.chapters.children]]
-title = "Cacophonous Call, Mass"
-entry = "ref/carried/advanced-players-guide/spells/cacophonous-call/mass"
-
-[[books.chapters.children]]
 title = "Calcific Touch"
 entry = "ref/spell/calcific-touch"
 
@@ -3420,10 +3412,6 @@ entry = "ref/spell/cast-out"
 [[books.chapters.children]]
 title = "Castigate"
 entry = "ref/spell/castigate"
-
-[[books.chapters.children]]
-title = "Castigate, Mass"
-entry = "ref/carried/advanced-players-guide/spells/castigate/mass"
 
 [[books.chapters.children]]
 title = "Challenge Evil"
@@ -3602,10 +3590,6 @@ title = "Evolution Surge"
 entry = "ref/spell/evolution-surge"
 
 [[books.chapters.children]]
-title = "Evolution Surge, Greater"
-entry = "ref/carried/advanced-players-guide/spells/evolution-surge/greater"
-
-[[books.chapters.children]]
 title = "Evolution Surge, Lesser"
 entry = "ref/spell/evolution-surge-lesser"
 
@@ -3626,16 +3610,8 @@ title = "Feather Step"
 entry = "ref/spell/feather-step"
 
 [[books.chapters.children]]
-title = "Feather Step, Mass"
-entry = "ref/carried/advanced-players-guide/spells/feather-step/mass"
-
-[[books.chapters.children]]
 title = "Fester"
 entry = "ref/spell/fester"
-
-[[books.chapters.children]]
-title = "Fester, Mass"
-entry = "ref/carried/advanced-players-guide/spells/fester/mass"
 
 [[books.chapters.children]]
 title = "Fiery Body"
@@ -3690,10 +3666,6 @@ title = "Fly"
 entry = "ref/spell/fly"
 
 [[books.chapters.children]]
-title = "Fly, Mass"
-entry = "ref/carried/advanced-players-guide/spells/fly/mass"
-
-[[books.chapters.children]]
 title = "Foe To Friend"
 entry = "ref/spell/foe-to-friend"
 
@@ -3728,10 +3700,6 @@ entry = "ref/spell/geyser"
 [[books.chapters.children]]
 title = "Ghostbane Dirge"
 entry = "ref/spell/ghostbane-dirge"
-
-[[books.chapters.children]]
-title = "Ghostbane Dirge, Mass"
-entry = "ref/carried/advanced-players-guide/spells/ghostbane-dirge/mass"
 
 [[books.chapters.children]]
 title = "Glide"
@@ -3828,10 +3796,6 @@ entry = "ref/spell/instant-enemy"
 [[books.chapters.children]]
 title = "Invigorate"
 entry = "ref/spell/invigorate"
-
-[[books.chapters.children]]
-title = "Invigorate, Mass"
-entry = "ref/carried/advanced-players-guide/spells/invigorate/mass"
 
 [[books.chapters.children]]
 title = "Jester's Jaunt"
@@ -3954,10 +3918,6 @@ title = "Pain Strike"
 entry = "ref/spell/pain-strike"
 
 [[books.chapters.children]]
-title = "Pain Strike, Mass"
-entry = "ref/carried/advanced-players-guide/spells/pain-strike/mass"
-
-[[books.chapters.children]]
 title = "Paladin's Sacrifice"
 entry = "ref/spell/paladins-sacrifice"
 
@@ -3984,10 +3944,6 @@ entry = "ref/spell/pillar-of-life"
 [[books.chapters.children]]
 title = "Planar Adaptation"
 entry = "ref/spell/planar-adaptation"
-
-[[books.chapters.children]]
-title = "Planar Adaptation, Mass"
-entry = "ref/carried/advanced-players-guide/spells/planar-adaptation/mass"
 
 [[books.chapters.children]]
 title = "Pox Pustules"
@@ -4024,10 +3980,6 @@ entry = "ref/spell/rebuke"
 [[books.chapters.children]]
 title = "Rejuvenate Eidolon"
 entry = "ref/spell/rejuvenate-eidolon"
-
-[[books.chapters.children]]
-title = "Rejuvenate Eidolon, Greater"
-entry = "ref/carried/advanced-players-guide/spells/rejuvenate-eidolon/greater"
 
 [[books.chapters.children]]
 title = "Rejuvenate Eidolon, Lesser"
@@ -4200,10 +4152,6 @@ entry = "ref/spell/stunning-finale"
 [[books.chapters.children]]
 title = "Suffocation"
 entry = "ref/spell/suffocation"
-
-[[books.chapters.children]]
-title = "Suffocation, Mass"
-entry = "ref/carried/advanced-players-guide/spells/suffocation/mass"
 
 [[books.chapters.children]]
 title = "Summon Eidolon"
@@ -5561,10 +5509,6 @@ anchor = "hero-point-spells"
 [[books.chapters.children.children.children]]
 title = "Heroic Fortune"
 entry = "ref/spell/heroic-fortune"
-
-[[books.chapters.children.children.children]]
-title = "Heroic Fortune, Mass"
-entry = "ref/carried/advanced-players-guide/rules/new-rules/hero-points/hero-point-spells/heroic-fortune/mass"
 
 [[books.chapters.children.children.children]]
 title = "Malediction"

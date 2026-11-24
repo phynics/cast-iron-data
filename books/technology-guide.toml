@@ -105,10 +105,6 @@ title = "Discharge"
 entry = "ref/spell/discharge"
 
 [[books.chapters.children.children]]
-title = "Discharge, Greater"
-entry = "ref/carried/technology-guide/rules/technology-in-the-world/spells/discharge/greater"
-
-[[books.chapters.children.children]]
 title = "Greater Discharge"
 entry = "ref/spell/discharge-greater"
 
@@ -123,10 +119,6 @@ entry = "ref/spell/irradiate"
 [[books.chapters.children.children]]
 title = "Magic Circle Against Technology"
 entry = "ref/spell/magic-circle-against-technology"
-
-[[books.chapters.children.children]]
-title = "Make Whole, Greater"
-entry = "ref/carried/technology-guide/rules/technology-in-the-world/spells/make-whole/greater"
 
 [[books.chapters.children.children]]
 title = "Greater Make Whole"
@@ -151,10 +143,6 @@ entry = "ref/spell/recharge"
 [[books.chapters.children.children]]
 title = "Remove Radioactivity"
 entry = "ref/spell/remove-radioactivity"
-
-[[books.chapters.children.children]]
-title = "Remove Radioactivity, Greater"
-entry = "ref/carried/technology-guide/rules/technology-in-the-world/spells/remove-radioactivity/greater"
 
 [[books.chapters.children.children]]
 title = "Greater Remove Radioactivity"

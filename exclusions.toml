@@ -57094,6 +57094,234 @@ reason = "duplicate of ref/eq-misc/odor-stalk"
 path = "ref/carried/ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
 reason = "duplicate of ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
 
+[[rejected]]
+path = "ref/carried/advanced-players-guide/rules/new-rules/hero-points/hero-point-spells/heroic-fortune/mass"
+reason = "duplicate of ref/spell/heroic-fortune-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/brand/greater"
+reason = "duplicate of ref/spell/brand-greater"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/cacophonous-call/mass"
+reason = "duplicate of ref/spell/cacophonous-call-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/castigate/mass"
+reason = "duplicate of ref/spell/castigate-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/evolution-surge/greater"
+reason = "duplicate of ref/spell/evolution-surge-greater"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/feather-step/mass"
+reason = "duplicate of ref/spell/feather-step-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/fester/mass"
+reason = "duplicate of ref/spell/fester-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/fly/mass"
+reason = "duplicate of ref/spell/fly-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/ghostbane-dirge/mass"
+reason = "duplicate of ref/spell/ghostbane-dirge-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/invigorate/mass"
+reason = "duplicate of ref/spell/invigorate-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/pain-strike/mass"
+reason = "duplicate of ref/spell/pain-strike-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/planar-adaptation/mass"
+reason = "duplicate of ref/spell/planar-adaptation-mass"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/rejuvenate-eidolon/greater"
+reason = "duplicate of ref/spell/rejuvenate-eidolon-greater"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/suffocation/mass"
+reason = "duplicate of ref/spell/suffocation-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/arcane-sight/greater"
+reason = "duplicate of ref/spell/arcane-sight-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/bears-endurance/mass"
+reason = "duplicate of ref/spell/bears-endurance-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/bulls-strength/mass"
+reason = "duplicate of ref/spell/bulls-strength-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/cats-grace/mass"
+reason = "duplicate of ref/spell/cats-grace-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/charm-monster/mass"
+reason = "duplicate of ref/spell/charm-monster-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/command/greater"
+reason = "duplicate of ref/spell/command-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/confusion/lesser"
+reason = "duplicate of ref/spell/confusion-lesser"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/dispel-magic/greater"
+reason = "duplicate of ref/spell/dispel-magic-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/enlarge-person/mass"
+reason = "duplicate of ref/spell/enlarge-person-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/foxs-cunning/mass"
+reason = "duplicate of ref/spell/foxs-cunning-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/globe-of-invulnerability/lesser"
+reason = "duplicate of ref/spell/globe-of-invulnerability-lesser"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/glyph-of-warding/greater"
+reason = "duplicate of ref/spell/glyph-of-warding-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/heal/mass"
+reason = "duplicate of ref/spell/heal-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/heroism/greater"
+reason = "duplicate of ref/spell/heroism-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/hold-monster/mass"
+reason = "duplicate of ref/spell/hold-monster-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/hold-person/mass"
+reason = "duplicate of ref/spell/hold-person-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/inflict-critical-wounds/mass"
+reason = "duplicate of ref/spell/inflict-critical-wounds-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/inflict-light-wounds/mass"
+reason = "duplicate of ref/spell/inflict-light-wounds-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/inflict-moderate-wounds/mass"
+reason = "duplicate of ref/spell/inflict-moderate-wounds-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/inflict-serious-wounds/mass"
+reason = "duplicate of ref/spell/inflict-serious-wounds-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/invisibility/greater"
+reason = "duplicate of ref/spell/invisibility-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/invisibility/mass"
+reason = "duplicate of ref/spell/invisibility-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/magic-fang/greater"
+reason = "duplicate of ref/spell/magic-fang-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/magic-weapon/greater"
+reason = "duplicate of ref/spell/magic-weapon-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/owls-wisdom/mass"
+reason = "duplicate of ref/spell/owls-wisdom-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/planar-ally/greater"
+reason = "duplicate of ref/spell/planar-ally-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/planar-ally/lesser"
+reason = "duplicate of ref/spell/planar-ally-lesser"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/planar-binding/greater"
+reason = "duplicate of ref/spell/planar-binding-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/planar-binding/lesser"
+reason = "duplicate of ref/spell/planar-binding-lesser"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/reduce-person/mass"
+reason = "duplicate of ref/spell/reduce-person-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/restoration/greater"
+reason = "duplicate of ref/spell/restoration-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/restoration/lesser"
+reason = "duplicate of ref/spell/restoration-lesser"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/scrying/greater"
+reason = "duplicate of ref/spell/scrying-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/shadow-conjuration/greater"
+reason = "duplicate of ref/spell/shadow-conjuration-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/shadow-evocation/greater"
+reason = "duplicate of ref/spell/shadow-evocation-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/shout/greater"
+reason = "duplicate of ref/spell/shout-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/spell-immunity/greater"
+reason = "duplicate of ref/spell/spell-immunity-greater"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/suggestion/mass"
+reason = "duplicate of ref/spell/suggestion-mass"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/spells/teleport/greater"
+reason = "duplicate of ref/spell/teleport-greater"
+
+[[rejected]]
+path = "ref/carried/monster-codex/rules/lizardfolk/new-rules/lizardfolk-spells/scale-spikes/greater"
+reason = "duplicate of ref/spell/scale-spikes-greater"
+
+[[rejected]]
+path = "ref/carried/technology-guide/rules/technology-in-the-world/spells/discharge/greater"
+reason = "duplicate of ref/spell/discharge-greater"
+
+[[rejected]]
+path = "ref/carried/technology-guide/rules/technology-in-the-world/spells/make-whole/greater"
+reason = "duplicate of ref/spell/make-whole-greater"
+
+[[rejected]]
+path = "ref/carried/technology-guide/rules/technology-in-the-world/spells/remove-radioactivity/greater"
+reason = "duplicate of ref/spell/remove-radioactivity-greater"
+
 [[resolved]]
 path = "json/prestige_classes.json#thought_thief_arcane_trickster"
 entries = ["ref/pclass/thought-thief-arcane-trickster"]
