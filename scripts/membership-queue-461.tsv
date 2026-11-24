@@ -222,7 +222,7 @@ advanced-players-guide	ref/class/mesmerist	class	Mesmerist	2	9	uncited	absent		n
 advanced-players-guide	ref/class/ninja	class	Ninja	2	4	uncited	body		none	2	134,135							remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/occultist	class	Occultist	2	5	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/psychic	class	Psychic	2	8	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
-advanced-players-guide	ref/class/samurai	class	Samurai	3	4	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
+advanced-players-guide	ref/class/samurai	class	Samurai	3	4	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/shaman	class	Shaman	2	8	uncited	printed		none	8	73,78,98,102,103										class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/shifter	class	Shifter	2	4	uncited	printed		none	2	126,127										class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/skald	class	Skald	2	7	uncited	printed		none	3	72,84,335										class-hub	S7		yes	yes	yes		
@@ -2532,7 +2532,7 @@ ultimate-wilderness	ref/class/summoner	class	Summoner	6	7	uncited	printed		none	
 ultimate-wilderness	ref/class/witch	class	Witch	11	11	uncited	printed		none	36	3,5,10,14,17										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/ability/animal-tricks	rule	Animal Tricks	3	3	review	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 ultimate-wilderness	ref/spell/tectonic-communion	spell	Tectonic Communion	2	3	review	absent	235	row	0											single-entry	S11			yes		no	
-ultimate-wilderness	ref/class/samurai	class	Samurai	4	4	weak	weak		none	1	186										class-hub	S7		yes	yes			
+ultimate-wilderness	ref/class/samurai	class	Samurai	4	4	weak	weak		none	1	186							remove	186	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/race/half-elf	race	Half-Elf	17	18	weak	weak		none	1	31	child	ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title),ref/racial-trait/half-elf/medium(title)								race-hub	S9		yes	yes			
 ultimate-wilderness	ref/race/half-orc	race	Half-Orc	17	18	weak	weak		none	1	31	child	ref/racial-trait/half-orc/darkvision(title),ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title)								race-hub	S9		yes	yes			
 ultimate-wilderness	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	8	9	weak	weak		none	1	257	parent	ref/race/dwarf(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
