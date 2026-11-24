@@ -2396,7 +2396,7 @@ ultimate-intrigue	ref/racial-trait/halfling/languages	racial_trait	Languages	17	
 ultimate-intrigue	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	17	17	inherited	absent		none	0				yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/halfling/small	racial_trait	Small	17	17	inherited	printed		none	40	11,26,44,59,62			yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/ability/combat-styles	rule	Combat Styles	3	7	uncited	printed		none	4	3,5,40,252										link-only-hub	S10	hub-design-a	yes	yes			
-ultimate-intrigue	ref/feat/leadership	feat	Leadership	2	2	uncited	printed		none	14	3,5,24,35,45										single-entry	S5		yes	yes			
+ultimate-intrigue	ref/feat/leadership	feat	Leadership	2	2	uncited	printed		none	14	3,5,24,35,45							remove	130	expansion-credited-on-related	single-entry	done		yes	yes			
 ultimate-intrigue	ref/spell/identifiers-eye	spell	Identifier's Eye	4	5	review	absent	212	row	0											single-entry	S11			yes		no	
 ultimate-intrigue	ref/race/halfling	race	Halfling	17	17	weak	weak		none	1	114	child	ref/racial-trait/halfling/attributes(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
 ultimate-intrigue	ref/racial-trait/dwarf/defensive-training	racial_trait	Defensive Training	8	8	weak	weak		none	1	27	parent	ref/race/dwarf(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
