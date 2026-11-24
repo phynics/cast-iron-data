@@ -1879,6 +1879,8 @@ def rows_of(e: Entry, fin: dict, old: dict, old_props: dict | None) -> tuple[lis
         rows.append({"entry": e.id, "feature": r["head"], "anchor": r["anchor"], "listed": "no", "level": "", "source": "",
                      "status": "print", "note": "; ".join(r["notes"]), "page": r["page"], "span_sha256": r["span"],
                      "_n": 1000 + len(rows)})
+    if not hold:
+        hold = next((r["note"] for r in rows if r["status"] == "hold" and r["note"].startswith("checker:")), "")
     prop = {"id": e.id, "hold": hold, "opening": fin["opening"], "feature": feats}
     if fin.get("opening_from_print"):
         prop["opening_from_print"] = True
