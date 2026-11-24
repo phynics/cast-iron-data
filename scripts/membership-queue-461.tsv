@@ -305,7 +305,7 @@ advanced-race-guide	ref/rule/class-rogue/rogue	rule	Rogue	4	14	family-leak	print
 advanced-race-guide	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	3	11	family-leak	printed		none	40	9,13,23,24,29	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 advanced-race-guide	ref/rule/class-wizard/wizard	rule	Wizard	3	11	family-leak	printed		none	40	2,9,13,21,22	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 advanced-race-guide	ref/class/alchemist	class	Alchemist	5	12	uncited	printed		none	40	9,13,23,29,33							remove	13	class-options-only	class-hub	done			yes			
-advanced-race-guide	ref/class/antipaladin	class	Antipaladin	3	5	uncited	printed		none	12	19,58,59,102,103										class-hub	S6		yes	yes			
+advanced-race-guide	ref/class/antipaladin	class	Antipaladin	3	5	uncited	printed		none	12	19,58,59,102,103							remove	103	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/cavalier	class	Cavalier	3	8	uncited	printed		none	24	9,13,23,33,42										class-hub	S6		yes	yes			
 advanced-race-guide	ref/class/gunslinger	class	Gunslinger	5	7	uncited	printed		none	23	9,13,23,33,34										class-hub	S6		yes	yes			
 advanced-race-guide	ref/class/inquisitor	class	Inquisitor	3	8	uncited	printed		none	39	9,13,14,23,33										class-hub	S6		yes	yes			
@@ -743,7 +743,7 @@ blood-of-the-beast	ref/spell/suggestion-mass	spell	Mass Suggestion	2	3	family-le
 blood-of-the-beast	ref/spell/triggered-suggestion	spell	Triggered Suggestion	2	3	family-leak	absent	14	row	0		variant	ref/spell/suggestion(title)					remove	14	wrong-credit-invalidated	single-entry	done			yes			
 blood-of-the-beast	ref/ability/advanced-weapon-training	rule	Advanced Weapon Training	2	3	uncited	printed		none	2	3,29										link-only-hub	S10	hub-design-a	yes	yes			
 blood-of-the-beast	ref/class/alchemist	class	Alchemist	4	12	uncited	printed		none	7	4,7,10,11,19							remove	4	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/class/antipaladin	class	Antipaladin	5	5	uncited	printed		none	2	7,14										class-hub	S6		yes	yes			
+blood-of-the-beast	ref/class/antipaladin	class	Antipaladin	5	5	uncited	printed		none	2	7,14							remove	7	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/arcanist	class	Arcanist	7	8	uncited	printed		none	3	12,20,28										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/bloodrager	class	Bloodrager	4	9	uncited	printed		none	6	3,4,7,11,16										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/brawler	class	Brawler	4	5	uncited	printed		none	3	12,24,28										class-hub	S6		yes	yes			
@@ -880,7 +880,7 @@ chronicle-of-legends	ref/class/unchained-summoner	class	Unchained Summoner	3	4	u
 chronicle-of-legends	ref/class/vigilante	class	Vigilante	3	5	uncited	printed		none	4	3,5,7,30										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/warpriest	class	Warpriest	5	6	uncited	printed		none	3	14,16,30										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/witch	class	Witch	6	11	uncited	printed		none	4	3,14,30,31										class-hub	S7		yes	yes	yes		
-chronicle-of-legends	ref/class/antipaladin	class	Antipaladin	2	5	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
+chronicle-of-legends	ref/class/antipaladin	class	Antipaladin	2	5	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/arcanist	class	Arcanist	3	8	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/bloodrager	class	Bloodrager	3	9	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/brawler	class	Brawler	3	5	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
@@ -2144,7 +2144,7 @@ plane-hoppers-handbook	ref/rule/class-rogue/rogue	rule	Rogue	3	14	family-leak	pr
 plane-hoppers-handbook	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	10	11	family-leak	printed		none	9	12,13,19,20,21	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 plane-hoppers-handbook	ref/rule/class-wizard/wizard	rule	Wizard	11	11	family-leak	printed		none	11	7,12,13,15,16	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 plane-hoppers-handbook	ref/class/alchemist	class	Alchemist	3	12	uncited	printed		none	3	10,13,15							remove	15	class-options-only	class-hub	done			yes			
-plane-hoppers-handbook	ref/class/antipaladin	class	Antipaladin	4	5	uncited	printed		none	2	13,17										class-hub	S6		yes	yes			
+plane-hoppers-handbook	ref/class/antipaladin	class	Antipaladin	4	5	uncited	printed		none	2	13,17							remove	17	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/arcanist	class	Arcanist	5	8	uncited	printed		none	5	3,7,8,17,19										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/bloodrager	class	Bloodrager	7	9	uncited	printed		none	2	13,23										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/hunter	class	Hunter	6	8	uncited	printed		none	3	15,16,19										class-hub	S6		yes	yes			
