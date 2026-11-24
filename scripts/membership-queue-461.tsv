@@ -594,7 +594,7 @@ bestiary-2	ref/family/elemental	rule	Elemental	2	3	uncited	printed		none	40	4,17
 bestiary-4	ref/rule/rare-races	rule	Rare Races	11	20	hub-keep	absent	122	body	0											hub-cited	S10		yes	yes	yes	no	
 bestiary-4	ref/affliction/gholdako/seaside-rot	affliction	Seaside rot	1	2	family-leak	printed	125	row	0		parent	ref/monster/gholdako(title)	yes				keep	125	title-on-cited-page	single-entry	S0			yes		yes	
 bestiary-4	ref/affliction/ningyo/ningyo-flesh	affliction	Ningyo Flesh	2	2	family-leak	printed	206	row	0		parent	ref/monster/ningyo(title)	yes				keep	206	title-on-cited-page	single-entry	S0			yes		yes	
-bestiary-4	ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting	creature	Familiar, Scorpion, Greensting	2	2	uncited	body		none	1	232										single-entry	S5		yes	yes			
+bestiary-4	ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting	creature	Familiar, Scorpion, Greensting	2	2	uncited	body		none	1	232							cite	232	section-printed	single-entry	done		yes	yes			
 bestiary-4	ref/template/hellbound-creature	rule	Hellbound Creature	2	2	uncited	body	56	body	0											hub-cited	S10		yes	yes	yes	no	
 bestiary-5	ref/misc/damage-die-adjustments	rule	Damage Die Adjustments	2	3	hub-keep	absent	296	row	0											hub-cited	S11			yes	yes	no	
 bestiary-5	ref/rule/rare-races	rule	Rare Races	5	20	hub-keep	absent	37	row	0											hub-cited	S11			yes	yes	no	
