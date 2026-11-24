@@ -3,7 +3,7 @@ id = "ref/monster/hag-moon-hag"
 kind = "creature"
 title = "Moon Hag"
 aon = "MonsterDisplay.aspx?ItemName=Moon%20Hag"
-source_ids = ["planar-adventures", "blood-of-the-coven"]
+source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_moon_hag", path = "json/monsters33.json" },
 ]
@@ -126,35 +126,5 @@ Moon hag changelings are especially pale-skinned, and many are plagued by chroni
 them to become reclusive. The daughter of a moon hag gains the moon daughter racial trait: she gains
 a +1 insight bonus to her AC but takes a -2 penalty on Will saving throws. If a moon is visible, the
 bonus and penalty each increase by 1.
-
-### Customizing Hag Covens
-
-**Sources:** Blood of the Coven
-
-Any group of three hags can form a coven, but realistically, many types of hags will never cross
-paths or deign to work with one another. Blood hags are loath to form covens that are not under
-their control. Annis hags are likewise domineering, rarely working with more powerful hags. Storm
-hags usually prefer allying with other storm hags, but they will occasionally form covens with green
-hags or sea hags. Sea hags sometimes seek out a green hag to lead them. Mute hags-among the most
-powerful of mortal hags-relish the destruction of relationships, and their involvement in a coven is
-typically transient, lasting only as long as whatever barrier prompted them to seek sisters in the
-first place. Night hags and dreamthief hags are outsiders that wander the planes in search of
-victims. These cautious schemers do not hesitate to involve mortal hags in their machinations,
-readily joining covens when it proves expedient. Their immortality grants them great patience and
-enough time to plan contingencies so that betraying them becomes a risky proposition.
-
-A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm
-hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To
-reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of
-covens based on their membership; each type of hag makes specific spells available to cast as coven
-magic.
-
-All covens can cast the following spells, regardless of the hags that comprise them:
-[animate dead](ref/spell/animate-dead), [baleful polymorph](ref/spell/baleful-polymorph),
-_[bestow curse](ref/spell/bestow-curse),_
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [commune](ref/spell/commune),
-[dream](ref/spell/dream), [forcecage](ref/spell/forcecage), [mind blank](ref/spell/mind-blank),
-[reincarnate](ref/spell/reincarnate), _[speak with dead](ref/spell/speak-with-dead),_
-[veil](ref/spell/veil), [vision](ref/spell/vision)
 
 **Family:** [Hag](ref/family/hag)

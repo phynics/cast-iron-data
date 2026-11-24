@@ -3,7 +3,7 @@ id = "ref/spell/detect-animals-or-plants"
 kind = "spell"
 title = "Detect Animals or Plants"
 aon = "SpellDisplay.aspx?ItemName=Detect%20Animals%20or%20Plants"
-source_ids = ["core-rulebook", "advanced-players-guide"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_animals_or_plants", path = "json/spells3.json" },
 ]

@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "bestiary-4"
 page = "19"
+[[sources]]
+publication = "blood-of-the-coven"
+page = "12-13"
 
 [fields]
 kind = "creature"
@@ -147,8 +150,6 @@ hag. Blood hags absolutely loathe submitting to the authority of others, and rar
 other blood hags or with any hags of power comparable to or greater than their own.
 
 ### Customizing Hag Covens
-
-**Sources:** Blood of the Coven
 
 Any group of three hags can form a coven, but realistically, many types of hags will never cross
 paths or deign to work with one another. Blood hags are loath to form covens that are not under

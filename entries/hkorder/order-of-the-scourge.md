@@ -2,7 +2,7 @@
 id = "ref/hkorder/order-of-the-scourge"
 kind = "class_option"
 title = "Order of the Scourge"
-source_ids = ["path-of-the-hellknight", "inner-sea-npc-codex"]
+source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_scourge", path = "json/class_ability_hellknight_orders.json" },
 ]

@@ -3,7 +3,7 @@ id = "ref/spell/resist-energy"
 kind = "spell"
 title = "Resist Energy"
 aon = "SpellDisplay.aspx?ItemName=Resist%20Energy"
-source_ids = ["core-rulebook", "ultimate-combat"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resist_energy", path = "json/spells8.json" },
 ]

@@ -13,6 +13,9 @@ page = "16"
 [[sources]]
 publication = "bonus-bestiary"
 page = "11"
+[[sources]]
+publication = "blood-of-the-coven"
+page = "12-13"
 
 [fields]
 kind = "creature"
@@ -128,8 +131,6 @@ covens often seek to recruit additional creatures as guardians and are particula
 and ogres for such roles.
 
 ### Customizing Hag Covens
-
-**Sources:** Blood of the Coven
 
 Any group of three hags can form a coven, but realistically, many types of hags will never cross
 paths or deign to work with one another. Blood hags are loath to form covens that are not under

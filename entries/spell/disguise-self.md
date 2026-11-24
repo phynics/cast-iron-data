@@ -3,7 +3,7 @@ id = "ref/spell/disguise-self"
 kind = "spell"
 title = "Disguise Self"
 aon = "SpellDisplay.aspx?ItemName=Disguise%20Self"
-source_ids = ["core-rulebook", "ultimate-magic"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disguise_self", path = "json/spells13.json" },
 ]

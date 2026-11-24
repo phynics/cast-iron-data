@@ -3,7 +3,7 @@ id = "ref/spell/summon-swarm"
 kind = "spell"
 title = "Summon Swarm"
 aon = "SpellDisplay.aspx?ItemName=Summon%20Swarm"
-source_ids = ["core-rulebook", "ultimate-magic"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_swarm", path = "json/spells16.json" },
 ]

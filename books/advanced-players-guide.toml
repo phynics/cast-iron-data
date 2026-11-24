@@ -3518,10 +3518,6 @@ title = "Detect Aberration"
 entry = "ref/spell/detect-aberration"
 
 [[books.chapters.children]]
-title = "Detect Animals or Plants"
-entry = "ref/spell/detect-animals-or-plants"
-
-[[books.chapters.children]]
 title = "Detonate"
 entry = "ref/spell/detonate"
 
@@ -3650,20 +3646,12 @@ title = "Flames Of The Faithful"
 entry = "ref/spell/flames-of-the-faithful"
 
 [[books.chapters.children]]
-title = "Flare"
-entry = "ref/spell/flare"
-
-[[books.chapters.children]]
 title = "Flare Burst"
 entry = "ref/spell/flare-burst"
 
 [[books.chapters.children]]
 title = "Fluid Form"
 entry = "ref/spell/fluid-form"
-
-[[books.chapters.children]]
-title = "Fly"
-entry = "ref/spell/fly"
 
 [[books.chapters.children]]
 title = "Foe To Friend"

@@ -3,7 +3,7 @@ id = "ref/spell/swallow-your-fear"
 kind = "spell"
 title = "Swallow Your Fear"
 aon = "SpellDisplay.aspx?ItemName=Swallow%20Your%20Fear"
-source_ids = ["pathfinder-35-war-of-the-river-kings", "inner-sea-gods"]
+source_ids = ["pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swallow_your_fear", path = "json/spells10.json" },
 ]

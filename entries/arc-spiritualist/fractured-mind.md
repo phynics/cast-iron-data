@@ -3,7 +3,7 @@ id = "ref/arc-spiritualist/fractured-mind"
 kind = "archetype"
 title = "Fractured Mind"
 aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Fractured%20Mind"
-source_ids = ["occult-adventures", "psychic-anthology", "occult-origins", "heroes-from-the-fringe"]
+source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fractured_mind", path = "json/archetypes_spiritualist.json" },
 ]
@@ -13,6 +13,18 @@ relations = [
 [[sources]]
 publication = "occult-adventures"
 page = "109"
+[[expanded_in]]
+publication = "heroes-from-the-fringe"
+page = "19"
+via = "ref/emotionalfocus/whimsey"
+[[expanded_in]]
+publication = "occult-origins"
+page = "19"
+via = "ref/emotionalfocus/remorse"
+[[expanded_in]]
+publication = "psychic-anthology"
+page = "5"
+via = "ref/emotionalfocus/kindness"
 
 [fields]
 kind = "archetype"

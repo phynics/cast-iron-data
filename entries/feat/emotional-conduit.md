@@ -3,13 +3,25 @@ id = "ref/feat/emotional-conduit"
 kind = "feat"
 title = "Emotional Conduit"
 aon = "FeatDisplay.aspx?ItemName=Emotional%20Conduit"
-source_ids = ["occult-adventures", "psychic-anthology", "occult-origins", "heroes-from-the-fringe"]
+source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotional_conduit", path = "json/feat05.json" },
 ]
 [[sources]]
 publication = "occult-adventures"
 page = "132"
+[[expanded_in]]
+publication = "heroes-from-the-fringe"
+page = "19"
+via = "ref/emotionalfocus/whimsey"
+[[expanded_in]]
+publication = "occult-origins"
+page = "19"
+via = "ref/emotionalfocus/remorse"
+[[expanded_in]]
+publication = "psychic-anthology"
+page = "5"
+via = "ref/emotionalfocus/kindness"
 
 [fields]
 kind = "feat"

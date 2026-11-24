@@ -44,7 +44,6 @@ and the group.
 
 ### Mania/Phobia (original rules version)
 
-**Sources:** GameMastery Guide pg 250\
 **Type** insanity; **Save** Will DC 14\
 **Onset** 1 day\
 **Effect** target is [sickened](ref/misc/sickened) (if manic) or [shaken](ref/misc/shaken) (if

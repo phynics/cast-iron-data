@@ -3,7 +3,7 @@ id = "ref/spell/contagion"
 kind = "spell"
 title = "Contagion"
 aon = "SpellDisplay.aspx?ItemName=Contagion"
-source_ids = ["core-rulebook", "ultimate-magic"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagion", path = "json/spells12.json" },
 ]

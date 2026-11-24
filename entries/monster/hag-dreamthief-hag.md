@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "occult-bestiary"
 page = "22"
+[[sources]]
+publication = "blood-of-the-coven"
+page = "12-13"
 
 [fields]
 kind = "creature"
@@ -143,8 +146,6 @@ hags' care, those who have been released by them are never quite the same, and r
 nightmare-free night of sleep again.
 
 ### Customizing Hag Covens
-
-**Sources:** Blood of the Coven
 
 Any group of three hags can form a coven, but realistically, many types of hags will never cross
 paths or deign to work with one another. Blood hags are loath to form covens that are not under

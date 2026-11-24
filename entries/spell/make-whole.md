@@ -3,7 +3,7 @@ id = "ref/spell/make-whole"
 kind = "spell"
 title = "Make Whole"
 aon = "SpellDisplay.aspx?ItemName=Make%20Whole"
-source_ids = ["core-rulebook", "technology-guide"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "make_whole", path = "json/spells6.json" },
 ]

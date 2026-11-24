@@ -2,12 +2,13 @@
 id = "ref/ninjatrick/breath-of-the-ancestors"
 kind = "class_option"
 title = "Breath of the Ancestors"
-source_ids = ["legacy-of-dragons"]
+source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breath_of_the_ancestors", path = "json/class_ability_ninja_tricks.json" },
 ]
 [[sources]]
-publication = "legacy-of-dragons"
+publication = "spymasters-handbook"
+page = "22"
 
 [fields]
 kind = "class_option"

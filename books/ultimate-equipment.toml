@@ -3040,10 +3040,6 @@ entry = "ref/eq-misc/stabling-per-day"
 title = "Yak"
 entry = "ref/eq-misc/yak"
 
-[[books.chapters.children.children.children.children]]
-title = "Yak (Herd Animal)"
-entry = "ref/monster/yak"
-
 [[books.chapters.children.children]]
 title = "Transports"
 anchor = "transports"
