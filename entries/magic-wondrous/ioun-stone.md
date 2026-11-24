@@ -51,7 +51,6 @@ Cost: half the market price
 
 ### Resonant Powers
 
-
 When an ioun stone is set within the special indentation in a
 [wayfinder](ref/magic-wondrous/wayfinder), a secondary resonant power sometimes manifests to augment
 the ioun stone's powers, though this suppresses the wayfinder's normal magical abilities. This minor

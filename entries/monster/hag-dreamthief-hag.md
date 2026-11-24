@@ -147,7 +147,6 @@ nightmare-free night of sleep again.
 
 ### Customizing Hag Covens
 
-
 Any group of three hags can form a coven, but realistically, many types of hags will never cross
 paths or deign to work with one another. Blood hags are loath to form covens that are not under
 their control. Annis hags are likewise domineering, rarely working with more powerful hags. Storm

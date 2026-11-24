@@ -112,7 +112,6 @@ You can retry Diplomacy checks made to gather information.
 
 #### Calling for the Guards
 
-
 It's inevitable - sooner or later, the PCs will want to call upon the town guard or cause a
 situation where citizens do so instead. Calling for the guard requires a Diplomacy check modified by
 the settlement's law modifier. It's only a DC 5 check to call for the guard; with a success, the
