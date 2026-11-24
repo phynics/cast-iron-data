@@ -234,7 +234,7 @@ advanced-players-guide	ref/class/unchained-monk	class	Unchained Monk	2	4	uncited
 advanced-players-guide	ref/class/unchained-rogue	class	Unchained Rogue	2	3	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/unchained-summoner	class	Unchained Summoner	2	4	uncited	body		none	1	54							remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/vigilante	class	Vigilante	2	5	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
-advanced-players-guide	ref/class/warpriest	class	Warpriest	2	6	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
+advanced-players-guide	ref/class/warpriest	class	Warpriest	2	6	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/rule/favored-class	rule	Favored Class	2	2	uncited	printed	8	body	0											hub-cited	S10		yes	yes	yes	yes	
 advanced-players-guide	ref/rule/traits-and-other-details	rule	Filling Out the Details	2	3	uncited	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 advanced-players-guide	ref/sidekick/animal-companion	rule	Animal Companion	2	2	uncited	printed		none	26	15,17,19,20,23										hub-cited	S10		yes	yes	yes		
@@ -702,7 +702,7 @@ blood-of-shadows	ref/class/shaman	class	Shaman	3	8	uncited	printed		none	7	11,15
 blood-of-shadows	ref/class/slayer	class	Slayer	5	8	uncited	printed		none	2	7,11							remove	7	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/spiritualist	class	Spiritualist	7	7	uncited	printed		none	6	11,16,28,29,30							remove	11	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/summoner	class	Summoner	5	7	uncited	printed		none	4	3,11,15,30										class-hub	S7		yes	yes			
-blood-of-shadows	ref/class/warpriest	class	Warpriest	3	6	uncited	printed		none	3	3,15,17										class-hub	S7		yes	yes			
+blood-of-shadows	ref/class/warpriest	class	Warpriest	3	6	uncited	printed		none	3	3,15,17							remove	15	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/witch	class	Witch	3	11	uncited	printed		none	8	4,11,15,16,28										class-hub	S7		yes	yes			
 blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5										race-hub	S9		yes	yes			
 blood-of-shadows	ref/race/fetchling	race	Fetchling	4	5	uncited	printed		none	9	2,3,4,5,6										race-hub	S9		yes	yes			
@@ -782,7 +782,7 @@ blood-of-the-beast	ref/race/ratfolk	race	Ratfolk	5	6	uncited	printed		none	8	1,3
 blood-of-the-beast	ref/race/tengu	race	Tengu	6	6	uncited	printed		none	8	0,1,3,24,25										race-hub	S9		yes	yes			
 blood-of-the-beast	ref/race/vanara	race	Vanara	4	5	uncited	printed		none	7	0,1,3,28,29										race-hub	S9		yes	yes			
 blood-of-the-beast	ref/class/barbarian	class	Barbarian	5	10	weak	weak		none	1	8							remove	8	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/class/warpriest	class	Warpriest	4	6	weak	weak		none	1	16										class-hub	S7		yes	yes			
+blood-of-the-beast	ref/class/warpriest	class	Warpriest	4	6	weak	weak		none	1	16							remove	16	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/rule/class-barbarian/barbarian	rule	Barbarian	5	10	weak	weak		none	1	8			yes							class-hub	S8		yes	yes			
 blood-of-the-coven	ref/rule/feats-multiperson	rule	Multiperson Feats	3	3	hub-keep	absent	13	row	0											hub-cited	S11			yes	yes	no	
 blood-of-the-coven	ref/affliction/hag-sea-hag/evil-eye-curse	affliction	Evil Eye Curse	2	2	family-leak	absent		none	0		parent	ref/monster/hag-sea-hag(title)	yes				remove	8, 27	passing-mention-recorded	single-entry	done			yes			
@@ -878,7 +878,7 @@ chronicle-of-legends	ref/class/unchained-monk	class	Unchained Monk	3	4	uncited	a
 chronicle-of-legends	ref/class/unchained-rogue	class	Unchained Rogue	3	3	uncited	absent		none	0								cite	28-29	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-summoner	class	Unchained Summoner	3	4	uncited	absent		none	0								cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/vigilante	class	Vigilante	3	5	uncited	printed		none	4	3,5,7,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
-chronicle-of-legends	ref/class/warpriest	class	Warpriest	5	6	uncited	printed		none	3	14,16,30										class-hub	S7		yes	yes	yes		
+chronicle-of-legends	ref/class/warpriest	class	Warpriest	5	6	uncited	printed		none	3	14,16,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/witch	class	Witch	6	11	uncited	printed		none	4	3,14,30,31										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/antipaladin	class	Antipaladin	2	5	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/arcanist	class	Arcanist	3	8	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
@@ -2166,7 +2166,7 @@ plane-hoppers-handbook	ref/race/sylph	race	Sylph	4	4	uncited	printed		none	3	20,
 plane-hoppers-handbook	ref/race/undine	race	Undine	4	5	uncited	printed		none	3	20,21,32										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/class/magus	class	Magus	4	10	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/vigilante	class	Vigilante	4	5	weak	weak		none	1	17							remove	17	class-options-only	class-hub	done		yes	yes			
-plane-hoppers-handbook	ref/class/warpriest	class	Warpriest	6	6	weak	weak		none	1	15										class-hub	S7		yes	yes			
+plane-hoppers-handbook	ref/class/warpriest	class	Warpriest	6	6	weak	weak		none	1	15							remove	15	class-options-only	class-hub	done		yes	yes			
 potions-and-poisons	ref/spell/detect-charm	spell	Detect Charm	5	5	family-leak	absent	17	row	0		variant	ref/spell/detect-magic(title)					remove	17	wrong-credit-invalidated	single-entry	done			yes			
 potions-and-poisons	ref/spell/detect-magic-greater	spell	Greater Detect Magic	5	5	family-leak	absent	17	row	0		variant	ref/spell/detect-magic(title)					remove	17	wrong-credit-invalidated	single-entry	done			yes			
 potions-and-poisons	ref/spell/stoneskin-communal	spell	Communal Stoneskin	2	3	family-leak	absent	17	row	0		variant	ref/spell/stoneskin(body)					remove	17	wrong-credit-invalidated	single-entry	done			yes			
