@@ -12,3 +12,38 @@ kind = "none"
 +++
 
 These topics contain more "advanced" topics about magic in the Pathfinder RPG.
+
+::: entry-link
+target = "ref/rule/alchemical-power-components"
+title = "Alchemical Power components"
+:::
+
+::: entry-link
+target = "ref/rule/binding-outsiders"
+title = "Binding Outsiders"
+:::
+
+::: entry-link
+target = "ref/rule/building-and-modifying-constructs"
+title = "Building and Modifying Constructs"
+:::
+
+::: entry-link
+target = "ref/rule/designing-spells"
+title = "Designing Spells"
+:::
+
+::: entry-link
+target = "ref/rule/magic-item-creation-ucp"
+title = "Magic Item Creation"
+:::
+
+::: entry-link
+target = "ref/rule/magic-item-familiars-companions"
+title = "Magic Items for Familiars and Animal Companions"
+:::
+
+::: entry-link
+target = "ref/rule/spellblights"
+title = "Spellblights"
+:::

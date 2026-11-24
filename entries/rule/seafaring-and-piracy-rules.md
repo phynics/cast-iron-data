@@ -13,3 +13,23 @@ kind = "none"
 
 The _Skull & Shackles_ Adventure Path introduced new rules for seafaring adventures, along with the
 pirate staples of plunder and infamy.
+
+::: entry-link
+target = "ref/rule/ship-to-ship-combat"
+title = "Ship-to-Ship Combat"
+:::
+
+::: entry-link
+target = "ref/rule/ships-and-ship-statistics"
+title = "Ships and Ship Statistics"
+:::
+
+::: entry-link
+target = "ref/rule/mass-naval-combat"
+title = "Mass Naval Combat"
+:::
+
+::: entry-link
+target = "ref/rule/plunder-and-infamy"
+title = "Plunder and Infamy"
+:::

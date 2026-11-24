@@ -12,3 +12,18 @@ kind = "none"
 +++
 
 These topics cover optional changes to the alignment rules.
+
+::: entry-link
+target = "ref/rule/alignment-pu"
+title = "Alignment as a Storytelling Mechanic"
+:::
+
+::: entry-link
+target = "ref/rule/changing-alignment-ucp"
+title = "Changing Alignment"
+:::
+
+::: entry-link
+target = "ref/rule/removing-alignment"
+title = "Removing Alignment"
+:::
