@@ -84,7 +84,14 @@ rules of the queue script).
 `print_page` is the printed page that decides the row, and `evidence` is a short code for what the
 print check found (the codes are in the docstring of `membership-screen.py`). New codes of S0:
 `title-on-cited-page` (keep: the screen found the title on the cited page itself; for a title with a
-parenthetical, the parenthetical as well), `out-of-source-ids`, `expanded-in-row`. A removal still
+parenthetical, the parenthetical as well), `out-of-source-ids`, `expanded-in-row`.
+Two codes record a standard racial trait whose book does not print the trait text:
+`race-section-read-no-trait` (the book's section for the race was read in print and prints only
+alternate racial traits with "replaces" lines, favored class options, archetypes or background) and
+`no-pdf-structural-rule` (owner ruling of 2026-11-24 on #461: the book is not among the owner's PDFs,
+the corpus has no page for it, and other print evidence shows that the book prints only alternate
+traits; `print_page` is the page of that other evidence, for example Heroes from the Fringe p. 11
+citing Pathfinder #124 p. 79 for the Spiresworn elves). A removal still
 needs the print check, a page and the audit row that its class asks for. The queue is a list of
 hypotheses, not proof.
 
