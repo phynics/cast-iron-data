@@ -31,7 +31,7 @@ levels = [
   { class = "Shaman", level = 8 },
 ]
 casting_time = "10 minutes"
-components = "V, S, M (offerings worth 2,500 plus payment), DF"
+components = "V, S, M (offerings worth 2,500 gp plus payment), DF"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
   { label = "Effect", value = "up to three called outsiders, totaling no more than 18 HD, no two of which can be more than 30 ft. apart when they appear." },
@@ -46,7 +46,7 @@ title = "Spell statistics"
 School: conjuration \[see text\]
 Level: 8: Cleric, Oracle, Psychic, Shaman
 Casting time: 10 minutes
-Components: V, S, M (offerings worth 2,500 plus payment), DF
+Components: V, S, M (offerings worth 2,500 gp plus payment), DF
 Range: close (25 ft. + 5 ft./2 levels)
 Effect: up to three called outsiders, totaling no more than 18 HD, no two of which can be more than 30 ft. apart when they appear.
 Duration: instantaneous

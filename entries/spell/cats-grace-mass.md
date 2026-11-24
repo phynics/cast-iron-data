@@ -57,4 +57,5 @@ Spell resistance: yes
 
 ### Mass Cat's Grace
 
-This spell functions like [cat's grace](ref/spell/cats-grace), except it affects multiple creatures.
+This spell functions like [cat's grace](ref/spell/cats-grace), except that it affects multiple
+creatures.
