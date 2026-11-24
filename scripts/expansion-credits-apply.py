@@ -242,6 +242,11 @@ def edit_entry(root: Path, path: Path, r: dict) -> str:
                     lines[j] = f'page = "{r["print_page"]}"'
                     path.write_text("\n".join(lines), encoding="utf-8")
                     return "applied"
+                if not r["cited_page"]:
+                    # a row that has no page yet gets the page (S11 of #461: the Paladin hubs' Advanced Player's Guide row)
+                    lines.insert(j, f'page = "{r["print_page"]}"')
+                    path.write_text("\n".join(lines), encoding="utf-8")
+                    return "applied"
                 raise SystemExit(f"refused: {r['entry']} has no page to change in {book}")
         raise SystemExit(f"refused: {r['entry']} has no [[sources]] row for {book}")
 

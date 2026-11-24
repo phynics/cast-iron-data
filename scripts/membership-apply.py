@@ -63,7 +63,9 @@ It refuses a row that
     names the book (see above),
   * has `gate = primary` (removing the first book changes the entry's primary book) unless the
     reviewer cleared it: the row names `proposed_primary`, `proposed_status` is `printed` or
-    `body` (the reviewer read the page), the book that becomes first is exactly `proposed_primary`,
+    `body` (the reviewer read the page) or `unverified-no-pdf` (the new first book is not among the
+    owner's PDFs; owner ruling 4 of #461: the corpus's own page stands, and `print_page` is that page,
+    or `none` when the corpus has none), the book that becomes first is exactly `proposed_primary`,
     and the entry holds a `[[sources]]` row for it whose page is exactly the reviewed `print_page`.
     A gated row with any other value is refused, and so is a queue that also removes that proposed
     book from the same entry (the rows are checked against the files as they are now, then applied
@@ -121,7 +123,7 @@ def read_queue(path: Path, only_kind: str | None) -> list[dict]:
         if only_kind and r["kind"] != only_kind:
             continue
         cleared = (r["gate"] == "primary" and r["proposed_primary"] and r["proposed_primary"] != r["book"]
-                   and r["proposed_status"] in ("printed", "body"))
+                   and r["proposed_status"] in ("printed", "body", "unverified-no-pdf"))
         if (r["gate"] and not cleared) or r["tag"] == "hub-keep":
             raise SystemExit(f"refused: {r['entry']} in {r['book']} is gated or a hub (gate={r['gate']!r}, tag={r['tag']})")
         if not r["print_page"] or not r["evidence"]:
@@ -284,9 +286,9 @@ def edit_entry(path: Path, book: str, title: str, write: bool = True,
         if ids[0] != book or len(ids) < 2 or ids[1] != primary_to:
             raise SystemExit(f"refused: {path.name} would not have {primary_to} as its first book after removing {book}")
         cited = sources_page(text, primary_to)
-        if not cited:
+        if not cited and print_page != "none":
             raise SystemExit(f"refused: {path.name} has no page citation for the new first book {primary_to}")
-        if cited != print_page:
+        if cited and cited != print_page:
             raise SystemExit(f"refused: {path.name} cites {primary_to} at p. {cited}, but the reviewed print_page is {print_page!r}")
     ids.remove(book)
     new_line = "source_ids = [" + ", ".join(f'"{i}"' for i in ids) + "]"
