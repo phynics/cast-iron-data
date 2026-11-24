@@ -1,7 +1,7 @@
 +++
 id = "ref/stylestrike/dirty-strikes"
 kind = "class_option"
-title = "Dirty Strikes"
+title = "Dirty Strike"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_strikes", path = "json/class_ability_style_strikes.json" },

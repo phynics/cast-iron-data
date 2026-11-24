@@ -1,7 +1,7 @@
 +++
 id = "ref/oraclecurse/acursed"
 kind = "class_option"
-title = "Acursed"
+title = "Accursed"
 source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acursed", path = "json/class_ability_curses.json" },

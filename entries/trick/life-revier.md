@@ -1,7 +1,7 @@
 +++
 id = "ref/trick/life-revier"
 kind = "class_option"
-title = "Life Revier"
+title = "Life Review"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_revier", path = "json/class_ability_tricks.json" },

@@ -1,7 +1,7 @@
 +++
 id = "ref/vigtalent/environmental-weapon"
 kind = "class_option"
-title = "Environmental Weapon"
+title = "Environment Weapon"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "environmental_weapon", path = "json/class_ability_vigilante_talents.json" },

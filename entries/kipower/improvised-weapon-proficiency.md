@@ -1,7 +1,7 @@
 +++
 id = "ref/kipower/improvised-weapon-proficiency"
 kind = "class_option"
-title = "Improvised Weapon Proficiency"
+title = "Improvised Weapon Affinity"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvised_weapon_proficiency", path = "json/class_ability_ki_powers.json" },
