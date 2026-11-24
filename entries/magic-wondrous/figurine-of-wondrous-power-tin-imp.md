@@ -2,7 +2,7 @@
 id = "ref/magic-wondrous/figurine-of-wondrous-power-tin-imp"
 kind = "item"
 title = "Figurine of Wondrous Power (Tin Imp)"
-source_ids = ["ultimate-equipment", "core-rulebook", "aquatic-adventures", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "elemental-masters-handbook", "ultimate-combat", "advanced-class-guide", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
+source_ids = ["ultimate-equipment", "core-rulebook", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "seers-of-the-drowned-city", "elemental-masters-handbook", "ultimate-combat", "advanced-class-guide", "pathfinder-70-the-frozen-stars", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_tin_imp", path = "json/magic_wondrous_slotless03.json" },
 ]
@@ -12,9 +12,6 @@ page = "297-298"
 [[sources]]
 publication = "core-rulebook"
 page = "513-514"
-[[sources]]
-publication = "aquatic-adventures"
-page = "62"
 [[sources]]
 publication = "pathfinder-34-blood-for-blood"
 page = "67"
