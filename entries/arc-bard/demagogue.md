@@ -16,11 +16,18 @@ page = "26"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "famous", level = 1 },
+  { anchor = "bardic-performance" },
+  { anchor = "gather-crowd", level = 5 },
+  { anchor = "incite-violence", level = 6 },
+  { anchor = "righteous-cause", level = 18 },
+]
 trades = [
-  { replaces = "Inspire courage +1", feature = "bardic-performance", levels = [1], power = "inspire courage" },
-  { replaces = "Lore master", feature = "lore-master" },
-  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion" },
-  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion" },
+  { replaces = "Inspire courage +1", feature = "bardic-performance", levels = [1], power = "inspire courage", by = ["famous"] },
+  { replaces = "Lore master", feature = "lore-master", by = ["gather-crowd"] },
+  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion", by = ["incite-violence"] },
+  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion", by = ["righteous-cause"] },
 ]
 +++
 
@@ -28,85 +35,44 @@ Not content with providing amusing and occasionally instructive performances, th
 inflame and ignite his audience, driving them toward a specific purpose with carefully chosen words
 and tones that may spark momentous change.
 
-**Famous**
+## Famous {#famous}
 
-**Choice:** A demagogue may choose a region where he is famous, and within that region, the locals
-are more likely to react favorably toward him. The bard gains a bonus on Bluff and Intimidate checks
-in that area and to influence people from that area.
+At 1st level, a demagogue is famous in a particular region. This works like the famous ability of
+the celebrity bard archetype, except the demagogue's skill bonuses apply to Bluff and Intimidate
+instead of Diplomacy and Intimidate. This ability replaces inspire courage +1.
 
-**At 1st Level:** This region is a settlement or settlements with a total population of 1,000 or
-fewer people, and the modifier on Bluff and Intimidate checks is +1. As the demagogue grows more
-famous, additional areas learn of him (typically places where he has lived or traveled, or
-settlements adjacent to those where he is known) and his bonuses apply to even more people.
+## Bardic Performance {#bardic-performance}
 
-**At 13th Level:** The region is a settlement or settlements with a total population of up to
-100,000 people, and the modifier to Bluff and Intimidate is +4.
+A demagogue gains the following type of bardic performance.
 
-**At 17th Level:** The demagogue's renown has spread far, and most civilized folk know of him (GM's
-discretion); the demagogue's modifier on Bluff and Intimidate checks is +5.
+## Gather Crowd (Ex) {#gather-crowd}
 
-**At 5th Level:** The region is a settlement or settlements with a total population of 5,000 or
-fewer people, and the modifier on Bluff and Intimidate checks is +2.
+At 5th level, the demagogue gains the ability to quickly gather a crowd. This is identical to the
+gather crowd ability of the celebrity bard archetype. This ability replaces lore master.
 
-**At 9th Level:** The region is a settlement or settlements with a total population of up to 25,000
-people, and the modifier on Bluff and Intimidate checks is +3.
+## Incite Violence (Ex) {#incite-violence}
 
-**Gained:** At 1st Level
+At 6th level, the demagogue can use his performance to fan the fury of a crowd of people he has
+fascinated. Using this ability does not disrupt the fascinate effect, but does require a standard
+action to activate (in addition to the free action to continue the fascinate effect). The bard
+selects a number of targets equal to his level, who must make Will saves (DC 10 + 1/2 the bard's
+level + the bard's Charisma modifier) or be affected by _[rage](ref/spell/rage)_ for a number of
+rounds equal to the bard's level. The bard indicates who is the intended target of violence (either
+after using this ability or as part of the performance leading to it) and the enraged members of the
+crowd immediately attack the target if possible. The target does not need to be present ("kill the
+king" is a suitable choice) and can be an object instead of a person ("destroy the prison!" is
+likewise appropriate). Other members of the crowd may follow suit, though they do not gain the
+benefits of _rage_. This is a sound-based effect and is affected by countersong. If two or more
+bards are attempting to direct the crowd against different targets, they must make opposed Charisma
+checks, with the crowd following the directions of the winner. This ability replaces suggestion.
 
-**Replaces:** Inspire courage +1
+## Righteous Cause (Ex) {#righteous-cause}
 
-**Bardic Performance**
-
-**Info:** A demagogue gains the following type of bardic performance.
-
-**Gather Crowd (Ex)**
-
-**Ability:** The demagogue is skilled at drawing an audience to his performances. If he is in a
-settlement or populated area, he can shout, sing, or otherwise make himself noticed in order to
-attract an audience to his impromptu stage. The size of the crowd depends on the local population,
-but typically is a number of people equal to [half](ref/misc/fractions-and-rounding) the bard's
-class level × the result of the bard's Perform check. The crowd gathers over the next 1d10 rounds.
-
-**Gained:** At 5th Level
-
-**Replaces:** Lore master
-
-**Special:** If the bard fails to engage the crowd (such as by performing, kissing babies, trying to
-use _fascinate,_ and so on), it disperses over the next 1d10 rounds.
-
-**Incite Violence (Ex)**
-
-**Ability:** The demagogue can use his performance to fan the fury of a crowd of people he has
-fascinated. Using this ability does not disrupt the _fascinate_ effect, but does require a
-**standard action** to activate (in addition to the **free action** to continue the _fascinate_
-effect). The bard selects a number of targets equal to his level, who must make Will saves (DC 10 +
-1/2 the bard's level + the bard's Charisma modifier) or be affected by [rage](ref/spell/rage) for a
-number of rounds equal to the bard's level. The bard indicates who is the intended target of
-violence (either after using this ability or as part of the performance leading to it) and the
-enraged members of the crowd immediately attack the target if possible. The target does not need to
-be present ("kill the king" is a suitable choice) and can be an object instead of a person ("destroy
-the prison!" is likewise appropriate). Other members of the crowd may follow suit, though they do
-not gain the benefits of _rage._
-
-**Gained:** At 6th Level
-
-**Replaces:** Suggestion
-
-**Special:** This is a sound-based effect and is affected by _countersong._ If two or more bards are
-attempting to direct the crowd against different targets, they must make opposed Charisma checks,
-with the crowd following the directions of the winner.
-
-**Righteous Cause (Ex)**
-
-**Ability:** The demagogue can lift a crowd's emotions and turn them toward a common purpose. First,
-he must _fascinate_ the crowd, and then use _incite violence_ without designating a target, at which
-point he can use _righteous cause._ Instead of driving the crowd with anger, he fills them with
+At 18th level, the demagogue can lift a crowd's emotions and turn them toward a common purpose.
+First, he must fascinate the crowd, and then use incite violence without designating a target, at
+which point he can use righteous cause. Instead of driving the crowd with anger, he fills them with
 purpose. Fascinated creatures must make Will saves (DC 10 + 1/2 the bard's level + the bard's
 Charisma modifier) to resist. Those who fail are affected by
-[mass suggestion](ref/spell/suggestion-mass) of a plausible idea that lingers with them for one day.
-Typical uses of this ability are to spark rebellion, overthrow a king, build a beneficial structure
-such as an orphanage, or donate money to a cause.
-
-**Gained:** At 18th Level
-
-**Replaces:** Mass suggestion
+_[mass suggestion](ref/spell/suggestion-mass)_ of a plausible idea that lingers with them for one
+day. Typical uses of this ability are to spark rebellion, overthrow a king, build a beneficial
+structure such as an orphanage, or donate money to a cause. This ability replaces mass suggestion.
