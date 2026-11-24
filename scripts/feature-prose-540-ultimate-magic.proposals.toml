@@ -319,7 +319,6 @@ print = "The following discoveries complement the reanimator archetype: [alchemi
 
 [[entry]]
 id = "ref/arc-alchemist/vivisectionist"
-hold = "head not printed: Bleeding Attack"
 opening = ["A vivisectionist studies bodies to better understand how they function and how their parts interact. Unlike a chirurgeon, a vivisectionist's goals are not related to healing, but rather to experimentation and knowledge that most people would consider evil. A vivisectionist has the following class features."]
 
 [[entry.feature]]
@@ -374,12 +373,6 @@ anchor = "discoveries"
 head = "Discoveries"
 listed = false
 print = "The following discoveries complement the vivisectionist archetype: [alchemical simulacrum](ref/discovery/alchemical-simulacrum), [concentrate poison](ref/discovery/concentrate-poison), [doppelganger simulacrum](ref/discovery/doppelganger-simulacrum), [feral mutagen](ref/discovery/feral-mutagen), [parasitic twin](ref/discovery/parasitic-twin), [preserve organs](ref/discovery/preserve-organs), [tentacle](ref/discovery/tentacle), [tumor familiar](ref/discovery/tumor-familiar), [vestigial arm](ref/discovery/vestigial-arm), and [wings](ref/discovery/wings)."
-
-[[entry.feature]]
-anchor = "discoveries-bleeding-attack"
-head = "Bleeding Attack"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-bard/animal-speaker"
@@ -1264,7 +1257,6 @@ import_trades = ["Exploit weakness"]
 
 [[entry]]
 id = "ref/arc-magus/bladebound"
-hold = "head not printed: Black Blade Basics, Black Blade Ability Descriptions, Alertness (Ex), Black Blade Strike (Sp), Telepathy (Su), Unbreakable (Ex), Energy Attunement (Su), Teleport Blade (Sp), Transfer Arcana (Su), Spell Defense (Sp), Life Drinker (Su)"
 opening = ["A select group of magi are called to carry a _black blade_—a sentient weapon of often unknown and possibly unknowable purpose. These weapons become valuable tools and allies, as both the magus and weapon typically crave arcane power, but as a _black blade_ becomes more aware, its true motivations manifest, and as does its ability to influence its wielder with its ever-increasing ego."]
 
 [[entry.feature]]
@@ -1454,72 +1446,6 @@ listed = true
 level = 19
 print = "At 19th level, each time the magus kills a living creature with the _black blade_, he can pick one of the following effects: the _black blade_ restores 2 points to its arcane pool; the _black blade_ restores 1 point to its arcane pool and the magus restores 1 point to his arcane pool; the magus gains a number of temporary hit points equal to the _black blade_'s ego (these temporary hit points last until spent or 1 minute, whichever is shorter). The creature killed must have a number of Hit Dice equal to half the magus's character level for this to occur."
 
-[[entry.feature]]
-anchor = "magus-arcana-black-blade-basics"
-head = "Black Blade Basics"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-black-blade-ability-descriptions"
-head = "Black Blade Ability Descriptions"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-alertness"
-head = "Alertness (Ex)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-black-blade-strike"
-head = "Black Blade Strike (Sp)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-telepathy"
-head = "Telepathy (Su)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-unbreakable"
-head = "Unbreakable (Ex)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-energy-attunement"
-head = "Energy Attunement (Su)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-teleport-blade"
-head = "Teleport Blade (Sp)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-transfer-arcana"
-head = "Transfer Arcana (Su)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-spell-defense"
-head = "Spell Defense (Sp)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-life-drinker"
-head = "Life Drinker (Su)"
-listed = false
-print = ""
-
 [[entry]]
 id = "ref/arc-magus/hexcrafter"
 opening = ["A hexcrafter magus has uncovered the secret of using his arcane pool to recreate witch hexes. These magi can hex friend and foe, curse those they strike, and expand their spell selection to include many curses and harmful spells."]
@@ -1640,7 +1566,7 @@ print = "The following magus arcana complement the staff magus archetype: [criti
 
 [[entry]]
 id = "ref/arc-monk/qinggong-monk"
-hold = "head not printed: List of Ki Powers; the replaces trade `The monk class abilities the qinggong monk gives up for a ki power` is not printed in a sentence, and no listed feature of that name prints it"
+hold = "the replaces trade `The monk class abilities the qinggong monk gives up for a ki power` is not printed in a sentence, and no listed feature of that name prints it"
 opening = ["The qinggong monk is a master of her _ki_, using it to perform superhuman stunts or even blast opponents with supernatural energy. Some achieve their power over _ki_ through extreme discipline, while others attain this power by intentionally or accidentally ingesting rare herbs or strange mystical fruits, and a few are gifted these abilities by a dying qinggong master."]
 
 [[entry.feature]]
@@ -1812,12 +1738,6 @@ anchor = "20th-level-ki-powers"
 head = "20th-Level Ki Powers"
 listed = true
 print = "Blinding Critical (3 _ki_ points)\n\nCrippling Critical\\* (3 _ki_ points)\n\nDeafening Critical (3 _ki_ points)\n\nempty body (monk ability, 3 _ki_ points)\n\nGreater Penetrating Strike (3 _ki_ points)\n\nperfect self (monk ability, level 20)\n\nTiring Critical (3 _ki_ points)"
-
-[[entry.feature]]
-anchor = "list-of-ki-powers"
-head = "List of Ki Powers"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-oracle/dual-cursed-oracle"
@@ -2398,7 +2318,7 @@ print = "The following grand hex complements the beast-bonded archetype: forced 
 
 [[entry]]
 id = "ref/arc-witch/gravewalker"
-hold = "head not printed: Spells; the replaces trade `4th-level hex` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `8th-level hex` is not printed in a sentence, and no listed feature of that name prints it"
+hold = "the replaces trade `4th-level hex` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `8th-level hex` is not printed in a sentence, and no listed feature of that name prints it"
 opening = ["Having much in common with necromancers, the gravewalker is obsessed with the occult manipulations of the dead, particularly mindless undead such as zombies. Unlike the creations of standard necromancers, a gravewalker's creations remain forever tied to her will, and she can produce vile apparitions of tremendous power."]
 
 [[entry.feature]]
@@ -2463,12 +2383,6 @@ head = "Grand Hexes"
 listed = true
 print = "The following grand hexes complement the gravewalker archetype: death curse, summon spirit."
 
-[[entry.feature]]
-anchor = "grand-hexes-spells"
-head = "Spells"
-listed = false
-print = ""
-
 [[entry]]
 id = "ref/arc-witch/hedge-witch"
 hold = "the replaces trade `4th-level hex` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `8th-level hex` is not printed in a sentence, and no listed feature of that name prints it"
@@ -2508,7 +2422,6 @@ print = "The following major hexes complement the hedge witch archetype: major h
 
 [[entry]]
 id = "ref/arc-witch/sea-witch"
-hold = "head not printed: Spells"
 opening = ["A sea witch's affinities are tied to the vast oceans and the rolling waves. Her magic concerns the moon, tides, water, and winds, and she is most at peace when she is upon or near the sea."]
 
 [[entry.feature]]
@@ -2554,12 +2467,6 @@ anchor = "grand-hexes"
 head = "Grand Hexes"
 listed = true
 print = "The following grand hex complements the sea witch archetype: natural disaster."
-
-[[entry.feature]]
-anchor = "grand-hexes-spells"
-head = "Spells"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-wizard/scrollmaster"

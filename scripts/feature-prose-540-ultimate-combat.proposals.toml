@@ -705,7 +705,6 @@ import_trades = ["Deadly performance"]
 
 [[entry]]
 id = "ref/arc-cavalier/beast-rider"
-hold = "head not printed: Small Size, Medium Size"
 opening = ["The cavalier is defined not only by his dedication to his order or his skill on the battlefield, but also by the special relationship he maintains with his mount. Where some cavaliers are simply skilled with horses or well-trained knights, the beast rider spends his life in constant pursuit of the most perfect mount, forming bonds with greater, more powerful, and more exotic creatures."]
 
 [[entry.feature]]
@@ -744,18 +743,6 @@ Anytime a feat or ability allows a mount to make a hoof attack, it can make a cl
 
 This ability replaces the standard cavalier's mount and expert trainer abilities.'''
 import_trades = ["Mount", "expert trainer"]
-
-[[entry.feature]]
-anchor = "small-size"
-head = "Small Size"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "medium-size"
-head = "Medium Size"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-cavalier/emissary"
@@ -954,7 +941,6 @@ import_trades = ["Expert trainer"]
 
 [[entry]]
 id = "ref/arc-cavalier/standard-bearer"
-hold = "head not printed: Original Standard (Ex), Fleet Standard (Ex), Jinx Standard (Ex), Knave Standard (Ex), Stalwart Standard (Ex)"
 opening = ["Not all cavaliers are content to ride at the head of a charge, leading from the front and facing down their enemies directly. Some prefer to stand away from the fray, their banners a beacon shining brightly over the battlefield, rallying their troops to victory. The standard bearer employs the banner of his order, his lord, or his own house to raise the spirits of his allies and warns enemies of impending doom."]
 
 [[entry.feature]]
@@ -988,36 +974,6 @@ listed = true
 level = 20
 print = "At 20th level, a standard bearer's banner has become a powerful rallying point to his allies, and a bane to his foes. Whenever his banner is visible, allies of the standard bearer within 60 feet gain a +1 morale bonus on attack rolls, immunity to fear effects, and a +3 morale bonus on saving throws against mind-affecting effects. This ability replaces supreme charge."
 import_trades = ["Supreme charge"]
-
-[[entry.feature]]
-anchor = "original-standard"
-head = "Original Standard (Ex)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "fleet-standard"
-head = "Fleet Standard (Ex)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "jinx-standard"
-head = "Jinx Standard (Ex)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "knave-standard"
-head = "Knave Standard (Ex)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "stalwart-standard"
-head = "Stalwart Standard (Ex)"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-cavalier/strategist"
@@ -1745,7 +1701,7 @@ import_trades = ["Bravery"]
 
 [[entry]]
 id = "ref/arc-fighter/tactician"
-hold = "head not printed: Armor Proficiency; the alters trade `Proficiency with heavy armor` is not printed in a sentence, and no listed feature of that name prints it; the alters trade `tower shields` is not printed in a sentence, and no listed feature of that name prints it"
+hold = "the alters trade `Proficiency with heavy armor` is not printed in a sentence, and no listed feature of that name prints it; the alters trade `tower shields` is not printed in a sentence, and no listed feature of that name prints it"
 opening = ["While many fighters focus on the fundamentals of melee and ranged combat, there are those who are trained to view the bigger picture on the battlefield. These fighters use their training and tactical acumen to overcome challenges that would overwhelm mere brute strength and skill at arms."]
 
 [[entry.feature]]
@@ -1799,12 +1755,6 @@ listed = true
 level = 15
 print = "At 15th level, as a swift action, a tactician can grant his Intelligence modifier as an insight bonus on the attack rolls made by a single ally within line of sight that can both see and hear the tactician. That ally gains the bonus until the end of the tactician's next turn. The tactician can use this ability a number of times per day equal to 3 + his Intelligence modifier. This ability replaces armor training 4."
 import_trades = ["Armor training 4"]
-
-[[entry.feature]]
-anchor = "armor-proficiency"
-head = "Armor Proficiency"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-fighter/thunderstriker"
@@ -2098,7 +2048,7 @@ import_trades = ["Weapon mastery"]
 
 [[entry]]
 id = "ref/arc-gunslinger/gun-tank"
-hold = "head not printed: Bullet Defection (Ex); the replaces trade `All bonus combat/grit feats` is not printed in a sentence, and no listed feature of that name prints it; Armor Training (Ex): the sentence \"This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter\" names no trade"
+hold = "the replaces trade `All bonus combat/grit feats` is not printed in a sentence, and no listed feature of that name prints it; Armor Training (Ex): the sentence \"This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter\" names no trade"
 opening = ["Gunslingers usually don't use heavy armor, but there are a few who use and modify their armor to protect themselves from both traditional weapons and gunfire. These gun tanks trundle into battle with barrels blazing, dealing out punishment with their firearms while knowing few can penetrate their hard protective shells."]
 
 [[entry.feature]]
@@ -2142,12 +2092,6 @@ listed = true
 level = 4
 print = "At 4th level, a gun tank learns to be more maneuverable while wearing armor. Whenever she is wearing armor, the armor check penalty is reduced by 1 (to a minimum of 0) and the maximum Dexterity bonus allowed by her armor increases by 1. Every four levels thereafter (8th, 12th, and 16th), the bonus increases by 1, to a maximum of a -4 reduction of the armor check penalty and a +4 increase to the maximum Dexterity bonus allowed. This ability stacks with the [fighter](ref/class/fighter) class ability of the same name. If the gun tank has both class features, she takes the most advantageous benefit of the two class features. This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter."
 import_trades = ["All bonus combat/grit feats"]
-
-[[entry.feature]]
-anchor = "bullet-defection"
-head = "Bullet Defection (Ex)"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-gunslinger/musket-master"
@@ -2434,7 +2378,7 @@ print = "Any creature that casts an arcane spell within 30 feet of the witch hun
 
 [[entry]]
 id = "ref/arc-magus/kensai"
-hold = "head not printed: From the Duelist class; the replaces trade `Magus arcana gained at 9th level` is not printed in a sentence, and no listed feature of that name prints it; Critical Perfection (Ex): the sentence \"This ability replaces the magus arcana normally gained at 9th level\" names no trade"
+hold = "the replaces trade `Magus arcana gained at 9th level` is not printed in a sentence, and no listed feature of that name prints it; Critical Perfection (Ex): the sentence \"This ability replaces the magus arcana normally gained at 9th level\" names no trade"
 opening = ["A kensai spends his life focusing his training and meditation into a rapturous perfection of the use of a single weapon, which is usually but not always a sword, channeling his arcane might through it in a dizzying and deadly dance beyond the abilities of even the greatest of mundane warriors."]
 
 [[entry.feature]]
@@ -2536,15 +2480,9 @@ head = "Magus Arcana"
 listed = false
 print = "The following magus arcana complement the kensai archetype: [concentrate](ref/arcana/concentrate), [critical strike](ref/arcana/critical-strike), [prescient attack](ref/arcana/prescient-attack), [prescient defense](ref/arcana/prescient-defense), [spell shield](ref/arcana/spell-shield)."
 
-[[entry.feature]]
-anchor = "from-the-duelist-class"
-head = "From the Duelist class"
-listed = false
-print = ""
-
 [[entry]]
 id = "ref/arc-magus/myrmidarch"
-hold = "head not printed: Weapon Training (Ex), Armor Training (Ex); the replaces trade `Magus arcana gained at 6th, 12th, and 18th levels` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `10th-level fighter training` is not printed in a sentence, and no listed feature of that name prints it; Weapon Training (Ex): the sentence \"This ability replaces the magus arcana normally gained at 6th, 12th, and 18th levels\" names no trade"
+hold = "the replaces trade `Magus arcana gained at 6th, 12th, and 18th levels` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `10th-level fighter training` is not printed in a sentence, and no listed feature of that name prints it; Weapon Training (Ex): the sentence \"This ability replaces the magus arcana normally gained at 6th, 12th, and 18th levels\" names no trade"
 opening = ["The myrmidarch is a skilled specialist, using magic to supplement and augment his martial mastery."]
 
 [[entry.feature]]
@@ -2602,21 +2540,9 @@ head = "Magus Arcana"
 listed = false
 print = "The following magus arcana complement the myrmidarch archetype: [accurate strike](ref/arcana/accurate-strike), [arcane edge](ref/arcana/arcane-edge), [lingering pain](ref/arcana/lingering-pain), [prescient attack](ref/arcana/prescient-attack), [prescient defense](ref/arcana/prescient-defense), [spell shield](ref/arcana/spell-shield), [spellbreaker](ref/arcana/spellbreaker)."
 
-[[entry.feature]]
-anchor = "magus-arcana-weapon-training"
-head = "Weapon Training (Ex)"
-listed = false
-print = ""
-
-[[entry.feature]]
-anchor = "magus-arcana-armor-training"
-head = "Armor Training (Ex)"
-listed = false
-print = ""
-
 [[entry]]
 id = "ref/arc-magus/skirnir"
-hold = "head not printed: Bonded Object; the alters trade `Spell combat` is not printed in a sentence, and no listed feature of that name prints it"
+hold = "the alters trade `Spell combat` is not printed in a sentence, and no listed feature of that name prints it"
 opening = ["Sometimes called a shield-vassal or shieldmaiden, the skirnir has learned to infuse his power into his shield."]
 
 [[entry.feature]]
@@ -2696,15 +2622,8 @@ head = "Magus Arcana"
 listed = false
 print = "The following magus arcana complement the skirnir archetype: [arcane redoubt](ref/arcana/arcane-redoubt), arcane redoubt (greater), [enduring blade](ref/arcana/enduring-blade) (may use on weapon or shield), [pool strike](ref/arcana/pool-strike), pool strike (arcing, clinging, thunderous), [prescient defense](ref/arcana/prescient-defense), [reflection](ref/arcana/reflection)."
 
-[[entry.feature]]
-anchor = "bonded-object"
-head = "Bonded Object"
-listed = false
-print = ""
-
 [[entry]]
 id = "ref/arc-magus/soul-forger"
-hold = "head not printed: Bonded Object"
 opening = ["The soul forger has learned the skill of infusing the raw magical essence of his soul into armaments of surpassing power, combining the mystic arts with the arts of war in a unity of steely perfection."]
 
 [[entry.feature]]
@@ -2784,12 +2703,6 @@ anchor = "magus-arcana"
 head = "Magus Arcana"
 listed = false
 print = "The following magus arcana complement the soul forger archetype: [arcane accuracy](ref/arcana/arcane-accuracy), [bane blade](ref/arcana/bane-blade), [devoted blade](ref/arcana/devoted-blade), [dispelling strike](ref/arcana/dispelling-strike), [enduring blade](ref/arcana/enduring-blade), and [ghost blade](ref/arcana/ghost-blade)."
-
-[[entry.feature]]
-anchor = "bonded-object"
-head = "Bonded Object"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-monk/flowing-monk"
@@ -2904,7 +2817,6 @@ import_trades = ["Quivering palm"]
 
 [[entry]]
 id = "ref/arc-monk/martial-artist"
-hold = "head not printed: Bonus Feats"
 opening = ["The martial artist pursues a mastery of pure martial arts without the monastic traditions. He is a master of form, but lacks the ability to harness his ki."]
 
 [[entry.feature]]
@@ -2988,12 +2900,6 @@ level = 19
 print = "At 19th level, a martial artist suffers no damage on a successful defensive roll, and only half damage if the Reflex saving throw fails. This ability replaces empty body."
 import_trades = ["Empty body"]
 
-[[entry.feature]]
-anchor = "bonus-feats"
-head = "Bonus Feats"
-listed = false
-print = ""
-
 [[entry]]
 id = "ref/arc-monk/master-of-many-styles"
 opening = ["The master of many styles is a collector. For every move, he seeks a counter. For every style, he has a riposte. Ultimately, he seeks perfection through the fusion of styles."]
@@ -3068,7 +2974,6 @@ import_trades = ["Bonus feats gained at 6th", "10th", "14th level"]
 
 [[entry]]
 id = "ref/arc-monk/sohei"
-hold = "head not printed: Weapon Training (Ex)"
 opening = ["The sohei are masters of the horse and the hunt. A monastic soldier, the sohei is equally adept at combat afoot or on horseback."]
 
 [[entry.feature]]
@@ -3127,12 +3032,6 @@ listed = true
 level = 6
 print = "At 6th level, a sohei gains weapon training in one of the following [weapon groups](ref/ability/weapon-groups), as the [fighter](ref/class/fighter) class feature: bows, crossbows, monk weapons, polearms, spears, or thrown weapons. He may select an additional group of weapons for every six levels after 6th, to a maximum of three at 18th level. A sohei may use flurry of blows and ki strike with any weapon in which he has weapon training. This ability replaces purity of body, diamond body, quivering palm, timeless body, and tongue of the sun and moon."
 import_trades = ["Purity of body", "diamond body", "quivering palm", "timeless body", "tongue of sun", "moon"]
-
-[[entry.feature]]
-anchor = "ki-weapon-weapon-training"
-head = "Weapon Training (Ex)"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-monk/tetori"
@@ -3697,7 +3596,7 @@ import_trades = ["5th favored enemy", "master hunter"]
 
 [[entry]]
 id = "ref/arc-ranger/wild-stalker"
-hold = "head not printed: Rage (Ex); the replaces trade `1st favored enemy` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `2nd, 3rd, 4th, and 5th favored enemy` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `6th-, 10th-, 14th-, and 18th-level combat style feat` is not printed in a sentence, and no listed feature of that name prints it; Strong Senses (Ex): the sentence \"This ability replaces the ranger's first favored enemy ability\" names no trade; Rage Powers: the sentence \"This ability replaces the ranger's second, third, fourth, and fifth favored enemy abilities\" names no trade; Wild Talents (Ex): the sentence \"This ability replaces the ranger's 6th-, 1oth-, 14th-, and 18th-level combat style feat abilities\" names no trade"
+hold = "the replaces trade `1st favored enemy` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `2nd, 3rd, 4th, and 5th favored enemy` is not printed in a sentence, and no listed feature of that name prints it; the replaces trade `6th-, 10th-, 14th-, and 18th-level combat style feat` is not printed in a sentence, and no listed feature of that name prints it; Strong Senses (Ex): the sentence \"This ability replaces the ranger's first favored enemy ability\" names no trade; Rage Powers: the sentence \"This ability replaces the ranger's second, third, fourth, and fifth favored enemy abilities\" names no trade; Wild Talents (Ex): the sentence \"This ability replaces the ranger's 6th-, 1oth-, 14th-, and 18th-level combat style feat abilities\" names no trade"
 opening = ["Civilization grows stronger and more decadent with each passing year. It tears into unclaimed wilderness and destroys the fragile ecology in its constant push for expansion and exploitation. The wild stalker forsakes the bonds of community and lives in the trackless wilds far from others of his kind, or perhaps grew up there, never knowing of civilization as anything more than his enemy. He drives pioneers back to civilization and strives to keep the land unspoiled."]
 
 [[entry.feature]]
@@ -3739,12 +3638,6 @@ listed = true
 level = 6
 print = "At 6th level, a wild stalker can either take a rage power, or gains a +2 insight bonus into any one of the following skills: Acrobatics, Climb, Perception, Stealth, Survival, or Swim. The wild stalker can gain one of these two benefits again every five levels after 6th (to a maximum of 4 times at 20th level). This ability replaces the ranger's 6th-, 1oth-, 14th-, and 18th-level combat style feat abilities."
 import_trades = ["6th-", "10th-", "14th-", "18th-level combat style feat"]
-
-[[entry.feature]]
-anchor = "rage"
-head = "Rage (Ex)"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-rogue/bandit"
@@ -4050,7 +3943,6 @@ print = "The following advanced rogue talents complement the survivalist archety
 
 [[entry]]
 id = "ref/arc-wizard/arcane-bomber"
-hold = "head not printed: Bomb (Su)"
 opening = ["To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power."]
 
 [[entry.feature]]
@@ -4075,12 +3967,6 @@ head = "School of the Bomb"
 listed = true
 print = "The creation and use of bombs is often so engrossing or intellectually taxing that an arcane bomber forsakes four schools of magic. These opposition schools are chosen at 1st level and cannot be changed later. An arcane bomber who prepares spells from his opposition school must use two spell slots of that level to prepare the spell. In addition, the arcane bomber takes a -4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools. This ability replaces arcane school."
 import_trades = ["Arcane school"]
-
-[[entry.feature]]
-anchor = "school-of-the-bomb-bomb"
-head = "Bomb (Su)"
-listed = false
-print = ""
 
 [[entry]]
 id = "ref/arc-wizard/siege-mage"

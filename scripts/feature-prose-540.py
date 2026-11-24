@@ -797,10 +797,26 @@ def trade_sentences(text: str) -> list[tuple[str, str, bool]]:
     return out
 
 
+ORDINAL_WORDS = {"first": "1st", "second": "2nd", "third": "3rd", "fourth": "4th", "fifth": "5th", "sixth": "6th",
+                 "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th"}
+CLASS_WORDS = {"alchemist", "barbarian", "bard", "cavalier", "cleric", "druid", "fighter", "gunslinger", "inquisitor",
+               "magus", "monk", "oracle", "paladin", "ranger", "rogue", "sorcerer", "summoner", "witch", "wizard", "both"}
+
+
 def phrase_tokens(text: str) -> list[str]:
+    """Words of a trade name or of a printed phrase, as the app reads them: no articles, no class names, ordinals as
+    digits, "gained at 4th level" as "4th-level", "1 to 4" as one range."""
     text = fold(text).replace("'s", "")
-    words = re.findall(r"[a-z0-9]+", text)
-    return [stem(w) for w in words if w not in ("the", "a", "an", "standard", "ability", "feature", "class")]
+    text = re.sub(r"(\d+)\s*(?:to|-|through)\s*(\d+)\b", r"\1-\2", text)
+    text = re.sub(r"\b(\w+) gained at (\d+(?:st|nd|rd|th)) levels?\b", r"\2-level \1", text)
+    words = re.findall(r"[a-z0-9]+(?:-[a-z0-9]+)*", text)
+    out = []
+    for w in words:
+        w = ORDINAL_WORDS.get(w, w)
+        if w in ("the", "a", "an", "standard", "ability", "feature", "class") or w in CLASS_WORDS:
+            continue
+        out.extend(stem(x) for x in (w.split("-") if re.fullmatch(r"\d+-\d+", w) is None else [w]))
+    return out
 
 
 def covers(phrase: str, trade_name: str) -> bool:
