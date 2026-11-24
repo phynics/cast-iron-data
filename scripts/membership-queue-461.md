@@ -94,6 +94,8 @@ traits; `print_page` is the page of that other evidence, for example Heroes from
 citing Pathfinder #124 p. 79 for the Spiresworn elves). A removal still
 needs the print check, a page and the audit row that its class asks for. The queue is a list of
 hypotheses, not proof.
+A book can print an entry on its inside cover, which has no number. The page is then `inside cover`,
+the form the corpus uses already, and `membership-apply.py` accepts it as a page.
 
 ## Slices
 
