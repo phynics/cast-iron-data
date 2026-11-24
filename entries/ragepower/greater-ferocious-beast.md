@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "animal-archive"
+page = "7"
 
 [fields]
 kind = "class_option"

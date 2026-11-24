@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "concordance-of-rivals"
+page = "60"
 
 [fields]
 kind = "none"

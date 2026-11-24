@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-magic"
+page = "15"
 
 [fields]
 kind = "class_option"

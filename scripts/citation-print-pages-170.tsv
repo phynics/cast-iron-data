@@ -538,6 +538,8 @@ ref/racial-trait/human/normal-speed	core-rulebook	27	print
 ref/racial-trait/human/skilled	core-rulebook	27	print	
 ref/trait/abendego-pilot	blood-of-the-elements	13	print	
 ref/trait/absalom-bouncer	advanced-class-origins	11	print	
+ref/trait/absolute-loyalty	knights-of-the-inner-sea	inside cover	print		the trait is printed on the inside front cover; the book's rules index gives its page as Inside Front Cover
+ref/trait/adherent-of-ancient-osirion	blood-of-the-beast	2	print		the regional or religion trait is printed under its name (with its type) on this page
 ref/trait/aeromantic-affinity	blood-of-the-ancients	29	print	
 ref/trait/agent-of-the-sultana	blood-of-the-elements	21	print	
 ref/trait/airship-captain	blood-of-the-elements	19	print	
@@ -568,6 +570,7 @@ ref/trait/betrayed-ex-noble	blood-of-the-elements	27	print
 ref/trait/big-boned	blood-of-fiends	22	print	
 ref/trait/bitter-heart	agents-of-evil	25	print	
 ref/trait/bitter	antiheros-handbook	6	print	
+ref/trait/blessed-mutt	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
 ref/trait/blessed-of-the-norns	blood-of-the-coven	3	print	
 ref/trait/blessing-of-darkness	blood-of-fiends	30	print	
 ref/trait/blood-stalker	blood-of-fiends	21	print	
@@ -579,12 +582,14 @@ ref/trait/brave-words	blood-of-the-ancients	25	print
 ref/trait/broken-not-beaten	agents-of-evil	11	print	
 ref/trait/buried-anxiety	blood-of-fiends	21	print	
 ref/trait/callous	antiheros-handbook	7	print	
+ref/trait/caravan-nomad	blood-of-the-beast	2	print		the regional or religion trait is printed under its name (with its type) on this page
 ref/trait/carnal-attraction	agents-of-evil	10	print	
 ref/trait/carpenden-lobber	andoran-spirit-of-liberty	19	print	
 ref/trait/carpenden-roof-runner	andoran-spirit-of-liberty	19	print	
 ref/trait/chain-master	blood-of-fiends	22	print	
 ref/trait/channel-the-earth	blood-of-the-elements	21	print	
 ref/trait/child-of-the-moon	blood-of-the-moon	33	print	
+ref/trait/clamber	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
 ref/trait/clockwork-surgeon	blood-of-the-ancients	13	print	
 ref/trait/contemptuous	antiheros-handbook	7	print	
 ref/trait/coven-casting	blood-of-the-coven	3	print	
@@ -601,12 +606,16 @@ ref/trait/dark-magic-affinity	blood-of-fiends	30	print
 ref/trait/deadly-rush	blood-of-fiends	20	print	
 ref/trait/dealmaker	adventurers-armory	30	print	
 ref/trait/deaths-deputy	blood-of-fiends	19	print	
+ref/trait/demon-hunter	advanced-players-guide	332	print		the religion trait is printed on this page as Asmodean Demon Hunter (Asmodeus), with the same text; the entry title reads Demon Hunter; the membership holds
+ref/trait/demon-hunter	cheliax-empire-of-devils	19	print		the religion trait is printed on this page as Asmodean Demon Hunter (Asmodeus), with the same text; the entry title reads Demon Hunter; the membership holds
+ref/trait/demon-hunter	ultimate-campaign	63	print		the religion trait is printed on this page as Asmodean Demon Hunter (Asmodeus), with the same text; the entry title reads Demon Hunter; the membership holds
 ref/trait/detect-disobedience	champions-of-corruption	7	print	
 ref/trait/devil-fighter	armor-masters-handbook	2	print	
 ref/trait/dirty-trickster	antiheros-handbook	7	print	
 ref/trait/divine-deceiver	champions-of-corruption	13	print	
 ref/trait/dragon-armor	armor-masters-handbook	3	print	
 ref/trait/dualborn	blood-of-the-elements	11	print	
+ref/trait/dueling-cloak-adept	knights-of-the-inner-sea	inside cover	print		the trait is printed on the inside front cover; the book's rules index gives its page as Inside Front Cover
 ref/trait/durable-change	blood-of-the-moon	11	print	
 ref/trait/dusk-market-bribery	black-markets	8	print	
 ref/trait/earthsense	blood-of-the-elements	9	print	
@@ -627,6 +636,7 @@ ref/trait/fiery-dominance	blood-of-the-elements	23	print
 ref/trait/fight-with-the-flock	blood-of-the-moon	9	print	
 ref/trait/flair-for-destruction	blood-of-fiends	20	print	
 ref/trait/for-the-money	agents-of-evil	10	print	
+ref/trait/fortune-found	blood-of-the-beast	3	print		the regional or magic trait is printed under its name (with its type) on this page
 ref/trait/foul-brand	champions-of-corruption	29	print	
 ref/trait/founders-heritage	arcane-anthology	10	print	
 ref/trait/friendless	blood-of-fiends	30	print	
@@ -645,12 +655,15 @@ ref/trait/horrifying-mind	champions-of-corruption	9	print
 ref/trait/impatient	antiheros-handbook	6	print	
 ref/trait/improvisational-equipment	adventurers-armory	30	print	
 ref/trait/insatiable	antiheros-handbook	6	print	
+ref/trait/inspiring-rush	knights-of-the-inner-sea	inside cover	print		the trait is printed on the inside front cover; the book's rules index gives its page as Inside Front Cover
 ref/trait/instant-friendship	blood-of-the-elements	11	print	
 ref/trait/inured-to-disease	blood-of-the-moon	19	print	
 ref/trait/iron-liver	adventurers-armory	30	print	
 ref/trait/irreverent	antiheros-handbook	7	print	
 ref/trait/jacket-training	armor-masters-handbook	2	print	
+ref/trait/jinx-eater	blood-of-the-beast	3	print		the regional or magic trait is printed under its name (with its type) on this page
 ref/trait/jistkan-scholar	blood-of-the-ancients	19	print	
+ref/trait/jungle-native	blood-of-the-beast	2	print		the regional or religion trait is printed under its name (with its type) on this page
 ref/trait/kobolds-neighbor	andoran-spirit-of-liberty	9	print	
 ref/trait/lasting-ferociousness	agents-of-evil	25	print	
 ref/trait/lastwall-defender	advanced-class-origins	25	print	
@@ -668,8 +681,11 @@ ref/trait/master-messenger	adventurers-armory-2	3	print
 ref/trait/mastery-of-form	blood-of-the-moon	7	print	
 ref/trait/mechanical-aptitude	blood-of-the-ancients	19	print	
 ref/trait/merabian-mentorship	blood-of-the-elements	11	print	
+ref/trait/mischievous-smile	divine-anthology	17	print		the religion trait is printed on this page as Mischievous Smite (Chaldira Zuzaristan); the entry title reads Mischievous Smile
 ref/trait/motherless	blood-of-fiends	30	print	
+ref/trait/naga-emissary	blood-of-the-beast	3	print		the regional or magic trait is printed under its name (with its type) on this page
 ref/trait/naturalist	blood-of-the-ancients	11	print	
+ref/trait/nauseating-spit	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
 ref/trait/nexian-corpse-hunter	advanced-class-origins	7	print	
 ref/trait/nightstalls-escapee	blood-of-the-elements	7	print	
 ref/trait/nightstalls-navigator	black-markets	8	print	
@@ -693,6 +709,7 @@ ref/trait/prideful-temper	blood-of-fiends	31	print
 ref/trait/prismati-player	andoran-spirit-of-liberty	7	print	
 ref/trait/prolong-magic	blood-of-fiends	30	print	
 ref/trait/promising	armor-masters-handbook	2	print	
+ref/trait/prophet-of-burrows	blood-of-the-beast	3	print		the regional or magic trait is printed under its name (with its type) on this page
 ref/trait/punish-insurrection	champions-of-corruption	7	print	
 ref/trait/quick-learner	adventurers-armory	31	print	
 ref/trait/rat-squeeze	blood-of-the-moon	19	print	
@@ -704,6 +721,7 @@ ref/trait/repel-sin	blood-of-fiends	23	print
 ref/trait/repulsive	blood-of-fiends	20	print	
 ref/trait/reviving-rest	blood-of-the-moon	11	print	
 ref/trait/rough-and-ready	adventurers-armory	31	print	
+ref/trait/running-pig	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
 ref/trait/sacred-orienteer	blood-of-the-ancients	13	print	
 ref/trait/scarred	antiheros-handbook	6	print	
 ref/trait/scholar-of-the-analects	arcane-anthology	10	print	
@@ -732,6 +750,7 @@ ref/trait/stabbing-spells	arcane-anthology	10	print
 ref/trait/stage-magic	adventurers-armory	31	print	
 ref/trait/statuesque	blood-of-the-elements	9	print	
 ref/trait/stealthy-escape	adventurers-armory	31	print	
+ref/trait/steel-skin	knights-of-the-inner-sea	inside cover	print		the trait is printed on the inside front cover; the book's rules index gives its page as Inside Front Cover
 ref/trait/stigmatized	antiheros-handbook	6	print	
 ref/trait/strength-of-body	blood-of-the-moon	13	print	
 ref/trait/subjective-truth	champions-of-corruption	9	print	
@@ -749,6 +768,8 @@ ref/trait/tigers-claw	blood-of-the-moon	23	print
 ref/trait/to-the-last	armor-masters-handbook	2	print	
 ref/trait/tough-skin	blood-of-fiends	23	print	
 ref/trait/traumatic-shift	blood-of-the-moon	7	print	
+ref/trait/treerazers-bane	elves-of-golarion	15	print		the regional trait is printed on this page as Treerazer's Bane (Kyonin)
+ref/trait/treerazers-bane	inner-sea-primer	10	print		the regional trait is printed under its name (Treerazer's Bane, regional) on this page
 ref/trait/twilight-zeal	blood-of-fiends	31	print	
 ref/trait/umbral-unmasking	champions-of-corruption	29	print	
 ref/trait/unbalanced-insight	agents-of-evil	11	print	
@@ -1125,9 +1146,9 @@ ref/trait/bouncy	we-be-goblins	15	print
 ref/trait/brastlewark-businessman-ceod	cheliax-empire-of-devils	19	print	
 ref/trait/brastlewark-businessman-gog	gnomes-of-golarion	15	print	
 ref/trait/centaur-vengeance	dragonslayers-handbook	13	print	
-ref/trait/chosen-of-iomedae	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it
+ref/trait/chosen-of-iomedae	champions-of-purity	13	print		the faith trait is printed under its name on this page; the book's trait list gives it as 13
 ref/trait/draconic-vigil	dragonslayers-handbook	13	print	
-ref/trait/elven-polytheist	faiths-of-purity		unconfirmed	title not found on the proposed page or the two pages around it
+ref/trait/elven-polytheist	faiths-of-purity	20	print		the religion trait is printed on this page as Elven Pantheist (any elven deity); the entry title reads Elven Polytheist
 ref/trait/flotsam	dragonslayers-handbook	12	print	
 ref/trait/freed-slave-fg	faction-guide	63	print	
 ref/trait/freedom-fighter-shokuro	dragon-empires-primer	18	print	
@@ -1161,7 +1182,7 @@ ref/trait/accident-resistant	inner-sea-gods	218	print
 ref/trait/acolyte-of-razmir	inner-sea-primer	18	print	
 ref/trait/adventurous-imbiber	inner-sea-gods	218	print	
 ref/trait/affinity-for-the-elements	inner-sea-gods	218	print	
-ref/trait/affinity-for-the-elements	faiths-of-corruption		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/affinity-for-the-elements	faiths-of-corruption	19	print		the religion trait is printed on this page as Affinity of the Elements (Elemental Lords); the entry title reads Affinity for the Elements
 ref/trait/agent-of-chance	inner-sea-gods	218	print	
 ref/trait/agent-of-chance	faiths-of-purity	20	print	
 ref/trait/alkenstar-defender	inner-sea-primer	12	print	
@@ -1484,7 +1505,7 @@ ref/trait/tongue-of-many-towns	humans-of-golarion	31	print
 ref/trait/touched-by-the-sky	inner-sea-primer	16	print	
 ref/trait/trailblazer	humans-of-golarion	31	print	
 ref/trait/underlying-principles	inner-sea-gods	223	print	
-ref/trait/underlying-principles	faiths-of-balance		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/underlying-principles	faiths-of-balance	15	print		the religion trait is printed on this page as Underlying Principals; the entry title reads Underlying Principles
 ref/trait/unhinged-mentality	inner-sea-gods	223	print	
 ref/trait/unhinged-mentality	faiths-of-corruption	7	print	
 ref/trait/unspeakable-bond	inner-sea-gods	223	print	
@@ -1590,7 +1611,7 @@ ref/trait/fury-of-the-red	legacy-of-dragons	6	print
 ref/trait/fury	orcs-of-golarion	23	print	
 ref/trait/generous	inner-sea-races	196	print	
 ref/trait/genie-heir	inner-sea-races	197	print	
-ref/trait/godclaw-disciple	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/godclaw-disciple	path-of-the-hellknight	56	print		the trait is printed under its name, with its type in brackets, on this page
 ref/trait/golden-scales	kobolds-of-golarion	19	print	
 ref/trait/gravelwalker	kobolds-of-golarion	9	print	
 ref/trait/grit-goggles	kobolds-of-golarion	9	print	
@@ -1600,7 +1621,7 @@ ref/trait/gunworker	inner-sea-races	194	print
 ref/trait/hard-to-pin-down	inner-sea-races	198	print	
 ref/trait/heat-fortitude	kobolds-of-golarion	19	print	
 ref/trait/hellknight-initiate	monster-summoners-handbook	10	print	
-ref/trait/hellknight-inquisitor	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/hellknight-inquisitor	path-of-the-hellknight	56	print		the trait is printed under its name, with its type in brackets, on this page
 ref/trait/honored-provider	inner-sea-races	198	print	
 ref/trait/hot-headed	inner-sea-races	197	print	
 ref/trait/icy-mementos	kobolds-of-golarion	19	print	
@@ -1650,7 +1671,7 @@ ref/trait/planetary-traveler	inner-sea-races	194	print
 ref/trait/practiced-gambler	inner-sea-races	196	print	
 ref/trait/promising-peacemaker	inner-sea-races	194	print	
 ref/trait/purple-scales	kobolds-of-golarion	19	print	
-ref/trait/questing-hellknight	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/questing-hellknight	path-of-the-hellknight	56	print		the trait is printed under its name, with its type in brackets, on this page
 ref/trait/rage-of-storms	orcs-of-golarion	23	print	
 ref/trait/ratfolk-avenger	inner-sea-races	199	print	
 ref/trait/relic-proof	pathfinder-society-primer	11	print	
@@ -2100,7 +2121,7 @@ ref/trait/bully	ultimate-campaign	59	print
 ref/trait/bully	advanced-players-guide	329	print	
 ref/trait/calistrian-courtesan	ultimate-campaign	63	print	
 ref/trait/calistrian-courtesan	advanced-players-guide	333	print	
-ref/trait/calistrian-courtesan	elves-of-golarion		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/calistrian-courtesan	elves-of-golarion	15	print		the religion trait is printed on this page as Calistrian Prostitute (Calistria), with the bonus on Gather Information and Sense Motive; the entry text is the later form of this trait (Calistrian Courtesan, Sense Motive and Diplomacy), so the book's own text differs
 ref/trait/canter	ultimate-campaign	59	print	
 ref/trait/canter	advanced-players-guide	330	print	
 ref/trait/caretaker	ultimate-campaign	54	print	
@@ -2231,7 +2252,7 @@ ref/trait/imposing-scion	ultimate-campaign	60	print
 ref/trait/indelible-ire	ultimate-campaign	53	print	
 ref/trait/indomitable-faith	ultimate-campaign	55	print	
 ref/trait/indomitable-faith	advanced-players-guide	328	print	
-ref/trait/influence	ultimate-campaign		unconfirmed	title is a common word: it is on the proposed page and the one before, and as a heading on another page, so the page is not settled
+ref/trait/influence	ultimate-campaign	60	print		the social trait is printed under its name in the Social traits list on this page
 ref/trait/inspired	ultimate-campaign	55	print	
 ref/trait/just-like-new	ultimate-campaign	53	print	
 ref/trait/killer	ultimate-campaign	53	print	
@@ -2453,6 +2474,7 @@ ref/affliction/ant-giant-ant/poison-ex	bestiary	16	print
 ref/affliction/ant-knight-ant/poison-ex	bestiary-5	27	print	
 ref/affliction/ant-megapon-ant/poison-ex	bestiary-5	27	print	
 ref/affliction/apocalypse-locust-mythic/sting-ex	bestiary-4	12	print	
+ref/affliction/automaton-familiar-automaton/arcane-fever	construct-handbook	24	print		the disease line (Arcane fever) is printed in the special abilities of the automaton familiar on this page (the proposal 24 was a coarse page)
 ref/affliction/basidirond/basidirond-spores	bestiary	28	print	
 ref/affliction/botfly-botfly-swarm/botfly-larvae	heart-of-the-jungle	59	print	
 ref/affliction/botfly-giant-botfly/giant-botfly-larvae	heart-of-the-jungle	59	print	
@@ -2464,14 +2486,23 @@ ref/affliction/cerberi/cerberuss-jaws-su	bestiary-3	51	print
 ref/affliction/chickcharney/curse-of-ill-luck	isles-of-the-shackles	46	print	
 ref/affliction/colossus-iron-colossus-mythic/deadly-fumes	bestiary-4	36	print	
 ref/affliction/curse/curse-name-su	bestiary-5	291	print	
+ref/affliction/daemon-lacridaemon/lacridaemon-poison	bestiary-6	71	print		the poison is printed as a line in the monster's special abilities on this page
+ref/affliction/daemon-lacridaemon/lacridaemon-poison	book-of-the-damned-volume-3-horsemen-of-the-apocalypse	48	print		the poison line (Lacridaemon poison) is printed in the Lacridaemon special abilities on this page
+ref/affliction/daemonic-harbinger-braismois/poison-1-broken-oath	druma-profit-and-prophecy	58	print		the poison is a bullet of the Toxic Quill ability of Braismois on this page (the Promise of Power bullet continues on page 59)
+ref/affliction/daemonic-harbinger-braismois/poison-2-promise-of-power	druma-profit-and-prophecy	58	print		the poison is a bullet of the Toxic Quill ability of Braismois on this page (the Promise of Power bullet continues on page 59)
+ref/affliction/daemonic-harbinger-braismois/poison-3-silence	druma-profit-and-prophecy	59	print		the poison is a bullet of the Toxic Quill ability of Braismois, at the top of this page
 ref/affliction/daughter-of-urgathoa/bubonic-plague	inner-sea-world-guide	309	print	
 ref/affliction/death-dog/wormpox	bestiary-4	44	print	
+ref/affliction/disease/disease-name-ex-or-su	bestiary-5	292	print		the disease format example (Disease Name, Bite-injury, DC 15, onset 1d3 days) is printed in the Disease universal monster rule on this page
 ref/affliction/dorvae/dorvae-poison-su	bestiary-4	62	print	
+ref/affliction/drakainia/poison-glands-poison	bestiary-4	77	print		the poison line is printed in the Poison Glands ability of the drakainia template on this page
 ref/affliction/duneshaker/duneshaker-poison	bestiary-6	256	print	
 ref/affliction/embalming-bear/potent-embalming-fluid	tears-at-bitter-manor	60	print	
 ref/affliction/empusa/lash-venom	planar-adventures	232	print	
+ref/affliction/energized/miasma	construct-handbook	38	print		the poison is printed in the energized template's Caustic Mist ability on this page
 ref/affliction/fafnheir/curse-of-fafnheir	lands-of-the-linnorm-kings	56	print	
 ref/affliction/festrog/necrotic-boils	bestiary-3	115	print	
+ref/affliction/festrog/necrotic-boils	hungry-are-the-dead	30	print		the disease (necrotic boils) is described in the festrog's Squirt ability on this page, with its DC and incubation
 ref/affliction/fungal-creature/fungal-blood-or-flesh	bestiary-4	117	print		proposal 116, print 117: the monster starts on 116; the affliction heading is on 117
 ref/affliction/fungal-creature/fungal-spores	bestiary-4	117	print		proposal 116, print 117: the monster starts on 116; the affliction heading is on 117
 ref/affliction/gholdako/seaside-rot	bestiary-4	125	print	
@@ -2480,21 +2511,31 @@ ref/affliction/ghole/bubonic-plague	bestiary-6	132	print
 ref/affliction/ghoul-leng-ghoul/leng-ghoul-fever	bestiary-5	120	print	
 ref/affliction/giant-ash-giant/ash-leprosy	bestiary-3	126	print	
 ref/affliction/giant-plague-giant/atrophic-plague	bestiary-6	134	print	
+ref/affliction/golem-gold-golem/prismatic-poison	bestiary-6	140	print		the poison is the Poison row of the gold golem's prismatic ray table on this page (the proposal 140 was a coarse page)
+ref/affliction/golem-inubrix-golem/abysium-residue	construct-handbook	45	print		proposal 44, print 45: the Abysium Residue line is under the Inubrix golem entry on this page
 ref/affliction/golem-lead-golem/poison-cloud	bestiary-5	127	print	
 ref/affliction/golem-viridium-golem/viridium-leprosy	bestiary-6	143	print	
 ref/affliction/gravebound/false-death	bestiary-5	128	print	
 ref/affliction/hag-moon-hag/dreadful-ravings	planar-adventures	242	print	
 ref/affliction/hag-sea-hag/evil-eye-curse	bestiary	243	print	
+ref/affliction/horsemen-of-the-apocalypse-apollyon/soul-plague	bestiary-6	160	print		the disease is printed as a line in the monster's special abilities on this page
 ref/affliction/howler/howler-howl	bestiary-2	159	print	
+ref/affliction/hungry-flesh/tumor-infestation	bestiary-4	152	print		the disease line (Tumor infestation) is printed in the special abilities of the hungry flesh on this page (the proposal 152 was a coarse page)
 ref/affliction/hypnalis/hypnalis-venom	bestiary-4	154	print	
 ref/affliction/iku-turso/tursas	bestiary-3	153	print	
 ref/affliction/jinmenju/head-fruit-poison	bestiary-4	161	print	
 ref/affliction/julunggali-mythic/julunggali-venom	bestiary-4	164	print	
+ref/affliction/kakuen-taka/carrionstorm-poison-ex	inner-sea-bestiary	20	print		the Carrionstorm Poison line is in the Kakuen-Taka special abilities on this page; the proposal 20 is confirmed (page number read on the rendered page)
+ref/affliction/kallas-devil/evil-eye-curse	fey-revisited	33	print		proposal 32, print 33: the Evil Eye Curse line is in the Kallas Devil special abilities on this page (page number read on the rendered page)
 ref/affliction/khala/chillbane-fever	bestiary-5	151	print		reference marked book-differs; print confirms the heading on p. 151
 ref/affliction/kraken/kraken-ink	bestiary	184	print	
 ref/affliction/kurobozu/black-apoxia	bestiary-5	153	print	
+ref/affliction/kyton-cantor/lingering-touch	occult-bestiary	30	print		the poison line (Lingering Touch) is printed in the Kyton Cantor special abilities on this page
+ref/affliction/kyton-termagant/flux-infusion	inner-sea-bestiary	24	print		the poison (Flux Infusion) is described and its line printed in the Kyton Termagant special abilities on this page (page number read on the rendered page)
 ref/affliction/lizard-monitor-lizard/poison-ex	bestiary	194	print	
 ref/affliction/magma-ooze/magma-ooze-poison	bestiary-2	184	print	
+ref/affliction/mana-wastes-mutant/mana-fever	inner-sea-bestiary	29	print		the disease line (Mana fever) is printed in the Mana Wastes mutant special abilities on this page (page number read on the rendered page)
+ref/affliction/moxix/moxixs-delectation	inner-sea-bestiary	32	print		the poison line is printed in the Moxix special abilities on this page; the proposal 32 is confirmed (page number read on the rendered page)
 ref/affliction/mummy-lord/insidious-mummy-rot-su	bestiary-5	177	print		proposal 176, print 177: the monster starts on 176; the affliction heading is on 177
 ref/affliction/myceloid/purple-pox	bestiary-3	196	print	
 ref/affliction/necrocraft/rotting-flesh	bestiary-4	201	print		proposal 200, print 201: the monster starts on 200; the affliction heading is on 201
@@ -2502,10 +2543,14 @@ ref/affliction/nekomata/nekomata-madness	bestiary-6	201	print
 ref/affliction/ningyo/ningyo-flesh	bestiary-4	206	print	
 ref/affliction/nuckelavee/mortasheen	bestiary-3	203	print	
 ref/affliction/phycomid/phycomid-spores	bestiary-2	210	print	
+ref/affliction/plague-swarm-rat-plague-swarm-mythic/bubonic-plague	bestiary-5	192	print		the disease line (Bubonic plague) is printed in the special abilities of the mythic rat plague swarm on this page
 ref/affliction/poison/poison-name-ex	bestiary-5	297	print	
 ref/affliction/pooka/pooka-dust-su	bestiary-4	216	print	
+ref/affliction/psychopomp-fulgati/fulgati-blood	concordance-of-rivals	60	print		the poison line (Fulgati Blood) is printed in the Fulgati special abilities on the left page of this spread (pages 60 and 61 form one PDF page)
+ref/affliction/qlippoth-lord-isph-aun-vuln/winds-of-isph-aun-vuln	bestiary-6	235	print		the poison is printed as a line in the monster's special abilities on this page
 ref/affliction/rat-king/bubonic-plague	bestiary-4	225	print	
 ref/affliction/rokurokubi/rokurokubis-curse-su	bestiary-4	227	print	
+ref/affliction/sahkil-ximtal/forsaken-agony	bestiary-6	244	print		the disease is printed as a line in the monster's special abilities on this page
 ref/affliction/sangoi/curse-of-misery	bestiary-5	219	print	
 ref/affliction/sha/touch-of-madness	bestiary-5	226	print	
 ref/affliction/slime-mold/fungal-rot	bestiary-2	249	print	
@@ -2513,14 +2558,17 @@ ref/affliction/spider-giant-crab-spider/poison-ex	bestiary-3	254	print
 ref/affliction/spider-ogre-spider/poison-ex	bestiary-3	254	print	
 ref/affliction/swamp-mummy/bog-rot	bestiary-5	178	print	
 ref/affliction/tatzlwyrm/tatzlwyrm-poison	bestiary-3	261	print	
+ref/affliction/tatzlwyrm/tatzlwyrm-poison	hollows-last-hope	15	print		proposal 18, print 15: the Tatzlwyrm Poison Gasp ability is printed on this page in the older inline form (contact; DC 12; initial 1 Con; secondary none)
 ref/affliction/tick-giant-tick/red-ache	bestiary-2	265	print	
 ref/affliction/tick-tick-swarm/bubonic-plague	bestiary-2	265	print	
 ref/affliction/tobongo-mwangi-treant/curse-of-barkflesh	heart-of-the-jungle	61	print	
 ref/affliction/trollhound/bloodfire-fever	bestiary-3	274	print	
 ref/affliction/ubashki-ubashki-swarm/ubashki-fever	lost-kingdoms	19	print	
 ref/affliction/urhag/red-plague	bestiary-6	269	print	
+ref/affliction/vampire-vampire-warrior/vishkanya-venom	monster-codex	240	print		the poison is printed as Poison (Ex) Vishkanya venom in the Vampire Warrior block on this page (the proposal 240 was a coarse page; page footer read)
 ref/affliction/vishkanya/vishkanya-venom	bestiary-3	281	print	
 ref/affliction/vrykolakas/bubonic-plague	bestiary-6	273	print	
+ref/affliction/vydrarch/vydrarch-poison	magnimar-city-of-monuments	62	print		the poison line (Vydrarch poison) is printed in the Vydrarch special abilities on this page (page number read on the rendered page)
 ref/affliction/wendigo/wendigo-psychosis-su	bestiary-2	281	print	
 ref/affliction/wolf-in-sheeps-clothing/wolf-in-sheeps-clothing-egg	bestiary-3	285	print	
 ref/affliction/wolf-in-sheeps-clothing/wolf-in-sheeps-clothing-egg	misfit-monsters-redeemed	63	print	
@@ -2569,6 +2617,7 @@ ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wolfsbane	core
 ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wyvern-poison	core-rulebook	560	print	
 ref/carried/advanced-race-guide/races/duergar/new-racial-rules/duergar-equipment/spellscorch/spellscorch	advanced-race-guide	187	print		the poison is in the Duergar Equipment text and Table 3-1 on this page; TEXT DIFFERS: Table 3-1 gives the type as injury, the entry says contact
 ref/discovery/acid-bomb	advanced-players-guide	29	print		the discovery is printed as a heading (name, asterisk, colon) on this page
+ref/discovery/alchemical-strike	magic-tactics-toolbox	12	print		the book prints the feat Alchemical Strike (Combat) here; its Special line (page 13) lets an alchemist take the feat in place of a discovery, so the discovery is the feat
 ref/discovery/awakened-intellect	advanced-players-guide	31	print	
 ref/discovery/bone-spike-mutagen	antiheros-handbook	29	print	
 ref/discovery/chameleon	advanced-race-guide	191	print	
@@ -2613,8 +2662,9 @@ ref/discovery/poison-bomb	advanced-players-guide	31	print		the discovery is prin
 ref/discovery/poison-touch	advanced-players-guide	32	print	
 ref/discovery/precise-bombs	advanced-players-guide	31	print	
 ref/discovery/rag-doll-mutagen	advanced-race-guide	116	print	
+ref/discovery/remedy-extract	healers-handbook	11	print		the alchemist discovery is printed under its name on this page
 ref/discovery/rocket-bomb	advanced-race-guide	116	print	
-ref/discovery/sand-bomb	antiheros-handbook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/sand-bomb	antiheros-handbook	29	print		the alchemist discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/scrap-bomb	advanced-race-guide	116	print	
 ref/discovery/shock-bomb	advanced-players-guide	31	print		the discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/smoke-bomb	advanced-players-guide	31	print		the discovery is printed as a heading (name, asterisk, colon) on this page
@@ -2697,6 +2747,7 @@ ref/hex/nightmares	advanced-players-guide	68	print
 ref/hex/retribution	advanced-players-guide	68	print	
 ref/hex/slumber	advanced-players-guide	66	print	
 ref/hex/tongues	advanced-players-guide	67	print	
+ref/hex/verdant-familiar	wilderness-origins	17	print		the witch hex is printed under its name on this page
 ref/hex/vision	advanced-players-guide	68	print	
 ref/hex/ward	advanced-players-guide	67	print	
 ref/hex/waxen-image	advanced-players-guide	68	print	
@@ -2710,11 +2761,12 @@ ref/invtalent/confusing-strike	advanced-class-guide	32	print		title text only (n
 ref/invtalent/deafening-strike	advanced-class-guide	32	print		title text only (no heading form): the name is on page 32 and on none of the two pages each side
 ref/invtalent/device-talent	advanced-class-guide	32	print	
 ref/invtalent/didactic-strike	adventurers-guide	147	print	
-ref/invtalent/domino-effect	advanced-class-origins		unconfirmed	only a short title is on the proposed page, which proves little
+ref/invtalent/domino-effect	advanced-class-origins	15	print		the investigator talent is printed under its name (with an asterisk) on this page
 ref/invtalent/effortless-aid	advanced-class-guide	32	print	
 ref/invtalent/eidetic-recollection	advanced-class-guide	32	print	
 ref/invtalent/empathy	advanced-class-guide	32	print	
 ref/invtalent/expanded-inspiration	advanced-class-guide	32	print	
+ref/invtalent/graceful-athlete	blood-of-the-beast	6	print		the book prints the feat Graceful Athlete on this page; its Special line lets investigators, rogues and slayers take the feat in place of a talent, so the talent is the feat (the proposal 6 was a coarse page)
 ref/invtalent/greater-combat-inspiration	advanced-class-guide	32	print	
 ref/invtalent/hidden-agendas	advanced-class-guide	32	print	
 ref/invtalent/inspirational-expertise	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
@@ -2722,6 +2774,7 @@ ref/invtalent/inspired-alertness	advanced-class-guide	33	print		proposal 32, pri
 ref/invtalent/inspired-intelligence	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/inspired-intimidator	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/item-lore	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
+ref/invtalent/masterful-numerical-strike	disciples-doctrine	17	print		the investigator talent is printed as Numerical Strike, Masterful* (Ex) on this page; the entry title reads Masterful Numerical Strike
 ref/invtalent/perceptive-tracking	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/prolonged-study	advanced-class-origins	15	print		title text only (no heading form): the name is on page 15 and on none of the two pages each side
 ref/invtalent/quick-study	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
@@ -2729,11 +2782,11 @@ ref/invtalent/repositioning-strike	advanced-class-guide	33	print		the investigat
 ref/invtalent/rogue-talent	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/sapping-offensive	advanced-class-guide	33	print		the investigator talent is printed under its name on this page
 ref/invtalent/sickening-offensive	advanced-class-guide	33	print		the investigator talent is printed under its name on this page
-ref/invtalent/slowing-strike	advanced-class-origins		unconfirmed	only a short title is on the proposed page, which proves little
+ref/invtalent/slowing-strike	advanced-class-origins	15	print		the investigator talent is printed under its name (with an asterisk) on this page
 ref/invtalent/stealing-strike	advanced-class-guide	33	print		the investigator talent is printed under its name on this page
 ref/invtalent/studied-defense	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/tenacious-inspiration	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
-ref/invtalent/timed-strike	advanced-class-origins		unconfirmed	only a short title is on the proposed page, which proves little
+ref/invtalent/timed-strike	advanced-class-origins	15	print		the investigator talent is printed under its name (with an asterisk) on this page
 ref/invtalent/toppling-strike	advanced-class-guide	33	print		the investigator talent is printed under its name on this page
 ref/invtalent/unconventional-inspiration	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/underworld-inspiration	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
@@ -2748,6 +2801,7 @@ ref/patron/animals	advanced-players-guide	70	print
 ref/patron/deception	advanced-players-guide	70	print	
 ref/patron/elements	advanced-players-guide	70	print	
 ref/patron/endurance	advanced-players-guide	70	print	
+ref/patron/nightmares	horror-adventures	72	print		the witch patron is printed under its name with the same spell list (sleep, detect thoughts, oneiric horror, phantasmal killer, nightmare, dream travel, symbol of weakness, demand, polar midnight) on this page; the membership holds (the earlier reference listed the entry only in other books)
 ref/patron/plague	advanced-players-guide	70	print	
 ref/patron/shadow	advanced-players-guide	70	print	
 ref/patron/strength	advanced-players-guide	70	print	
@@ -2788,7 +2842,7 @@ ref/ragepower/greater-draconic-blood	advanced-class-guide	80	print		the rage pow
 ref/ragepower/greater-elemental-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-elemental-rage	advanced-players-guide	74	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-energy-resistance	advanced-players-guide	75	print		title text only (no heading form): the name is on page 75 and on none of the two pages each side
-ref/ragepower/greater-ferocious-beast	animal-archive		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-ferocious-beast	animal-archive	7	print		the rage power is printed as Ferocious Beast, Greater (Ex) on this page
 ref/ragepower/greater-ferocious-mount	advanced-players-guide	75	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-ferocious-trample	advanced-players-guide	75	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-fey-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
@@ -2848,6 +2902,7 @@ ref/slayertalent/assassinate	advanced-class-guide	54	print
 ref/slayertalent/blood-reader	advanced-class-origins	21	print	
 ref/slayertalent/deadly-range	advanced-class-guide	53	print	
 ref/slayertalent/foil-scrutiny	advanced-class-guide	53	print	
+ref/slayertalent/graceful-athlete	blood-of-the-beast	6	print		the book prints the feat Graceful Athlete on this page; its Special line lets investigators, rogues and slayers take the feat in place of a talent, so the talent is the feat (the proposal 6 was a coarse page)
 ref/slayertalent/ranger-combat-style	advanced-class-guide	53	print	
 ref/slayertalent/rogue-and-ninja-advanced-talents	advanced-class-guide	55	print	
 ref/slayertalent/rogue-talent	advanced-class-guide	53	print	
@@ -2904,6 +2959,7 @@ ref/talent/fast-tumble	advanced-players-guide	131	print		proposal 1 (placeholder
 ref/talent/follow-clues	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
 ref/talent/founders-blessing	adventurers-guide	53	print	
 ref/talent/frugal-trapsmith	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
+ref/talent/graceful-athlete	blood-of-the-beast	6	print		the book prints the feat Graceful Athlete on this page; its Special line lets investigators, rogues and slayers take the feat in place of a talent, so the talent is the feat (the proposal 6 was a coarse page)
 ref/talent/graceful-faller	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
 ref/talent/grazing-shot	agents-of-evil	24	print	
 ref/talent/guileful-polyglot	advanced-players-guide	130	print		proposal 1 (placeholder), print 130: heading on exactly one page of the whole book
@@ -2936,8 +2992,11 @@ ref/talent/survivalist	advanced-players-guide	131	print		the rogue talent is pri
 ref/talent/swift-poison	advanced-players-guide	131	print		proposal 1 (placeholder), print 131: heading on exactly one page of the whole book
 ref/talent/thoughtful-reexamining	advanced-players-guide	132	print		proposal 1 (placeholder), print 132: heading on exactly one page of the whole book
 ref/talent/vicious-claws	advanced-race-guide	92	print		proposal 1 (placeholder), print 92: heading on exactly one page of the whole book
+ref/vigtalent/brutal-maneuver	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/vigtalent/combat-expertise	antiheros-handbook	16	print	
+ref/vigtalent/deceitful-trick	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/vigtalent/poisoner	antiheros-handbook	16	print	
+ref/vigtalent/racial-paragon	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/vigtalent/signature-arrows	antiheros-handbook	16	print	
 ref/vigtalent/sweeping-strike	antiheros-handbook	16	print	
 ref/vigtalent/vigilantes-reflexes	antiheros-handbook	17	print	
@@ -2949,17 +3008,17 @@ ref/discovery/aromatic-extract	heroes-of-the-high-court	10	print
 ref/discovery/celestial-poisons	champions-of-purity	24	print	
 ref/discovery/change-alignment	champions-of-purity	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
 ref/discovery/constructive-dyes	heroes-of-golarion	25	print	
-ref/discovery/cursed-bomb	champions-of-corruption		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/cursed-bomb	champions-of-corruption	26	print		the alchemist discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/divine-inks	heroes-of-golarion	25	print	
 ref/discovery/dread-bomb	distant-realms	52	print	
 ref/discovery/elemental-destabilizers	elemental-masters-handbook	30	print		proposal 31, print 30: heading on exactly one page within two pages of the proposal
 ref/discovery/explosive-calligraphy	heroes-of-golarion	25	print	
 ref/discovery/grand-rasugen	distant-realms	52	print	
-ref/discovery/greater-change-alignment	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/discovery/greater-change-alignment	champions-of-purity	24	print		the alchemical discovery is printed under its name (Greater Change Alignment as Change Alignment, Greater) on this page
 ref/discovery/greater-constructive-dyes	heroes-of-golarion	25	print	
 ref/discovery/greater-divine-inks	heroes-of-golarion	25	print	
 ref/discovery/greater-rasugen	distant-realms	52	print	
-ref/discovery/holy-bombs	champions-of-purity		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/holy-bombs	champions-of-purity	24	print		the alchemical discovery is printed under its name (Greater Change Alignment as Change Alignment, Greater) on this page
 ref/discovery/improved-divine-inks	heroes-of-golarion	25	print	
 ref/discovery/living-pigment	heroes-of-golarion	25	print	
 ref/discovery/material-mastery	cohorts-and-companions	13	print	
@@ -2969,16 +3028,17 @@ ref/discovery/nostrum	heroes-of-the-high-court	11	print
 ref/discovery/pickled-quasit	champions-of-corruption	26	print	
 ref/discovery/plague-vector	champions-of-corruption	26	print	
 ref/discovery/poisoned-explosive	dirty-tactics-toolbox	7	print		title text only (no heading form): the name is on page 7 and on none of the two pages each side
-ref/discovery/profane-bomb	champions-of-corruption		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/profane-bomb	champions-of-corruption	26	print		the alchemist discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/psychoactive-bomb	blood-of-the-moon	15	print		title text only (no heading form): the name is on page 15 and on none of the two pages each side
 ref/discovery/purging-mutagen	healers-handbook	11	print	
-ref/discovery/ranged-baptism	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/discovery/ranged-baptism	champions-of-purity	24	print		the alchemical discovery is printed under its name (Greater Change Alignment as Change Alignment, Greater) on this page
 ref/discovery/spell-knowledge	cohorts-and-companions	13	print	
 ref/discovery/substantiating-bomb	distant-realms	53	print		title text only (no heading form): the name is on page 53 and on none of the two pages each side
 ref/discovery/syringe-stirge	cohorts-and-companions	13	print	
 ref/discovery/tainted-infusion	champions-of-corruption	26	print	
-ref/eidolon/deepwater	blood-of-the-sea		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/genie	elemental-masters-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/eidolon/ancestor	blood-of-the-beast	31	print		the Ancestor unchained summoner eidolon subtype is printed under its name on this page
+ref/eidolon/deepwater	blood-of-the-sea	23	print		the Deepwater Eidolon (eidolon subtype) heading is on this page; the description starts here
+ref/eidolon/genie	elemental-masters-handbook	27	print		the Genie Eidolon (eidolon subtype) heading is on this page; the description starts here
 ref/eidolon/shadow	blood-of-shadows	12	print		proposal 11, print 12: heading on exactly one page within two pages of the proposal
 ref/evolution/alignment-smite	champions-of-purity	26	print		title text only (no heading form): the name is on page 26 and on none of the two pages each side
 ref/evolution/bleed	champions-of-corruption	25	print		proposal 27, print 25: heading on exactly one page within two pages of the proposal
@@ -3014,11 +3074,11 @@ ref/hex/steal-voice	dirty-tactics-toolbox	23	print
 ref/hex/swamps-grasp	blood-of-the-moon	15	print	
 ref/hex/swine	heroes-of-golarion	15	print	
 ref/hex/witchs-bounty	champions-of-purity	27	print	
-ref/hex/witchs-charge	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/hex/witchs-charge	champions-of-purity	27	print		the witch hex is printed under its name on this page
 ref/invtalent/castling	elemental-masters-handbook	9	print	
 ref/invtalent/extra-earthcraft	elemental-masters-handbook	9	print	
 ref/invtalent/fortified-position	elemental-masters-handbook	9	print	
-ref/invtalent/greater-numerical-alchemy	disciples-doctrine		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/greater-numerical-alchemy	disciples-doctrine	17	print		the investigator talent is printed as Numerical Alchemy, Greater (Su) on this page
 ref/invtalent/greater-numerical-strike	disciples-doctrine	17	print		title text only (no heading form): the name is on page 17 and on none of the two pages each side
 ref/invtalent/numerical-alchemy	disciples-doctrine	17	print	
 ref/invtalent/numerical-strike	disciples-doctrine	17	print		title text only (no heading form): the name is on page 17 and on none of the two pages each side
@@ -3086,7 +3146,7 @@ ref/phrenicamp/psychic-defense	heroes-of-golarion	13	print
 ref/phrenicamp/whisper-of-ancients	heroes-of-golarion	13	print	
 ref/ragepower/air-totem	blood-of-the-elements	11	print	
 ref/ragepower/animal-fury	core-rulebook	32	print	
-ref/ragepower/armor-ripper	blood-of-the-moon		unconfirmed	only a short title is on the proposed page, which proves little
+ref/ragepower/armor-ripper	blood-of-the-moon	13	print		the rage power is printed on this page under its name in the barbarian rage powers for wereboar-kin
 ref/ragepower/bloody-fist	demon-hunters-handbook	8	print	
 ref/ragepower/boars-charge	blood-of-the-moon	13	print	
 ref/ragepower/celestial-totem	champions-of-purity	22	print	
@@ -3099,18 +3159,18 @@ ref/ragepower/fearless-rage	core-rulebook	33	print
 ref/ragepower/feast-of-blood	demon-hunters-handbook	8	print	
 ref/ragepower/fire-totem	blood-of-the-elements	11	print	
 ref/ragepower/fueled-by-vengeance	blood-of-the-moon	13	print	
-ref/ragepower/greater-air-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-air-totem	blood-of-the-elements	11	print		the rage power is printed as Name Totem, Greater (Su) on this page
 ref/ragepower/greater-animal-fury	champions-of-corruption	27	print	
-ref/ragepower/greater-celestial-totem	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-earth-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-fire-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-water-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-celestial-totem	champions-of-purity	22	print		the rage power is printed as Celestial Totem, Greater / Lesser (Su) on this page
+ref/ragepower/greater-earth-totem	blood-of-the-elements	11	print		the rage power is printed as Name Totem, Greater (Su) on this page
+ref/ragepower/greater-fire-totem	blood-of-the-elements	11	print		the rage power is printed as Name Totem, Greater (Su) on this page
+ref/ragepower/greater-water-totem	blood-of-the-elements	11	print		the rage power is printed as Name Totem, Greater (Su) on this page
 ref/ragepower/guarded-stance	core-rulebook	33	print	
 ref/ragepower/increased-damage-reduction	core-rulebook	33	print	
 ref/ragepower/internal-fortitude	core-rulebook	33	print	
 ref/ragepower/intimidating-glare	core-rulebook	33	print	
 ref/ragepower/knockback	core-rulebook	33	print	
-ref/ragepower/lesser-celestial-totem	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-celestial-totem	champions-of-purity	22	print		the rage power is printed as Celestial Totem, Greater / Lesser (Su) on this page
 ref/ragepower/lesser-elemental-totem	blood-of-the-elements	10	print		title text only (no heading form): the name is on page 10 and on none of the two pages each side
 ref/ragepower/low-light-vision	core-rulebook	33	print	
 ref/ragepower/mighty-swing	core-rulebook	33	print	
@@ -3138,8 +3198,8 @@ ref/ragepower/unexpected-strike	core-rulebook	34	print
 ref/ragepower/vipers-breath	dirty-tactics-toolbox	9	print	
 ref/ragepower/vipers-kiss	dirty-tactics-toolbox	9	print	
 ref/ragepower/water-totem	blood-of-the-elements	11	print	
-ref/rangertrap/anchoring-trap	demon-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little
-ref/rangertrap/telepathy-trap	demon-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/rangertrap/anchoring-trap	demon-hunters-handbook	11	print		the ranger trap is printed under its name (name, Su) on this page
+ref/rangertrap/telepathy-trap	demon-hunters-handbook	11	print		the ranger trap is printed under its name (name, Su) on this page
 ref/rangertrap/transpositional-trap	demon-hunters-handbook	11	print		title text only (no heading form): the name is on page 11 and on none of the two pages each side
 ref/shamanhex/draconic-resilience	heroes-from-the-fringe	8	print	
 ref/shamanhex/intimidating-display	heroes-from-the-fringe	8	print	
@@ -3165,7 +3225,9 @@ ref/soctalent/ancestral-enlightenment	disciples-doctrine	23	print
 ref/soctalent/beast-friend	heroes-of-golarion	19	print	
 ref/soctalent/beast-speech	heroes-of-golarion	19	print	
 ref/soctalent/morphic-mask	chronicle-of-legends	7	print	
+ref/soctalent/obscurity	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/soctalent/owls-sight	heroes-of-golarion	19	print	
+ref/soctalent/seemless-shapechanger	blood-of-the-beast	15	print		the vigilante talent is printed on this page as Seamless Shapechanger (Ex); the entry title reads Seemless Shapechanger
 ref/soctalent/skill-familiarity	disciples-doctrine	23	print	
 ref/soctalent/songbird	heroes-of-golarion	19	print	
 ref/stare/distracted	heroes-of-golarion	9	print	
@@ -3188,7 +3250,7 @@ ref/talent/disease-use	blood-of-the-moon	19	print
 ref/talent/dispelling-attack	core-rulebook	70	print		title text only (no heading form): the name is on page 70 and on none of the two pages each side
 ref/talent/eerie-disappearance	heroes-of-the-streets	26	print	
 ref/talent/emboldening-strike	blood-of-shadows	8	print		title text only (no heading form): the name is on page 8 and on none of the two pages each side
-ref/talent/expert-cypher	divine-anthology		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/expert-cypher	divine-anthology	7	print		the rogue talent is printed on this page as Expert Cipher (Ex); the entry title reads Expert Cypher
 ref/talent/extinguishing-strike	blood-of-shadows	8	print		title text only (no heading form): the name is on page 8 and on none of the two pages each side
 ref/talent/extra-earthcraft	elemental-masters-handbook	9	print	
 ref/talent/face-in-the-crowd	blood-of-the-moon	19	print	
@@ -3241,6 +3303,9 @@ ref/talent/umbral-gear	blood-of-shadows	8	print
 ref/talent/unbalancing-trick	elemental-masters-handbook	9	print	
 ref/talent/underhanded-trick	blood-of-shadows	8	print	
 ref/talent/weapon-training	core-rulebook	69	print	
+ref/trick/break-stupor	blood-of-the-beast	18	print		the mesmerist trick is printed under its name on this page
+ref/trick/enchanting-words	blood-of-the-beast	18	print		the mesmerist trick is printed under its name on this page
+ref/trick/life-revier	blood-of-the-beast	19	print		the mesmerist trick is printed on this page as Life Review; the entry title reads Life Revier
 ref/trick/psychic-impression	heroes-of-golarion	9	print	
 ref/trick/telepathic-link	heroes-of-golarion	9	print	
 ref/trick/voice-of-reason	heroes-of-golarion	9	print	
@@ -3287,43 +3352,43 @@ ref/discovery/grand-fey-mutagen	legacy-of-the-first-world	7	print
 ref/discovery/greater-fey-mutagen	legacy-of-the-first-world	7	print		
 ref/discovery/method-to-the-madness	inner-sea-monster-codex	23	print		
 ref/discovery/monstrous-graft	inner-sea-monster-codex	23	print		
-ref/discovery/ooze-blight	monster-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/ooze-blight	monster-hunters-handbook	17	print		the alchemist discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/precise-poison	inner-sea-monster-codex	23	print		
 ref/discovery/promethean-disciple	occult-adventures	112	print		
 ref/discovery/sleeper-agent	inner-sea-monster-codex	23	print		
 ref/discovery/splitting-mutagen	monster-hunters-handbook	17	print		
 ref/discovery/subsumed-spirit	inner-sea-monster-codex	23	print		
 ref/discovery/sunlight-acclimation	inner-sea-monster-codex	23	print		
-ref/eidolon/aberrant	horror-realms		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/eidolon/twinned	legacy-of-the-first-world		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/aberrant	horror-realms	18	print		the Aberrant Eidolons heading is on this page; the description starts here
+ref/eidolon/twinned	legacy-of-the-first-world	18	print		the Twinned Eidolon (Eidolon Subtype) heading is at the foot of this page; the description continues on page 19
 ref/hex/disrupt-connection	monster-summoners-handbook	9	print		
-ref/hex/mothers-eye	legacy-of-the-first-world		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/hex/mothers-eye	legacy-of-the-first-world	17	print		the witch hex is printed on this page as Mother's Eyes (Su); the entry title reads Mother's Eye
 ref/hex/seduction	legacy-of-the-first-world	17	print		
 ref/hex/witchs-bottle	heroes-of-the-wild	11	print		
 ref/hkdiscipline/brand	inner-sea-world-guide	278	print		
-ref/hkdiscipline/call-armor	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/call-armor	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/censor	inner-sea-world-guide	278	print		
-ref/hkdiscipline/command	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/hkdiscipline/dispel-chaos	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/hkdiscipline/favored-quarry	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/command	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
+ref/hkdiscipline/dispel-chaos	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
+ref/hkdiscipline/favored-quarry	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/fearsomeness	inner-sea-world-guide	279	print		
-ref/hkdiscipline/mental-intrusion	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/mental-intrusion	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/onslaught	inner-sea-world-guide	279	print		
 ref/hkdiscipline/pentamic-faith	inner-sea-world-guide	279	print		
 ref/hkdiscipline/shackle	inner-sea-world-guide	279	print		
-ref/hkdiscipline/shadow-step	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/shadow-step	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/summon-devil	inner-sea-world-guide	279	print		
-ref/hkdiscipline/summon-servant-of-law	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/hkdiscipline/trace	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/summon-servant-of-law	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
+ref/hkdiscipline/trace	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/tracker	inner-sea-world-guide	279	print		
-ref/hkdiscipline/versatile-intimidation	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/versatile-intimidation	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/vigilance	inner-sea-world-guide	279	print		
 ref/hkdiscipline/wrack	inner-sea-world-guide	279	print		
 ref/invtalent/atheist-inspiration	inner-sea-intrigue	31	print		
 ref/invtalent/eldritch-conduit	magic-tactics-toolbox	7	print		
 ref/invtalent/false-spellcaster	inner-sea-intrigue	31	print		
 ref/invtalent/favored-beat	inner-sea-intrigue	31	print		
-ref/invtalent/iconclastic-strike	inner-sea-intrigue		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/invtalent/iconclastic-strike	inner-sea-intrigue	31	print		the investigator talent is printed as Iconoclastic Strike* (Ex) on this page; the entry title reads Iconclastic Strike
 ref/invtalent/innocent-facade	magic-tactics-toolbox	27	print		
 ref/invtalent/just-a-face-in-the-crowd	magic-tactics-toolbox	7	print		
 ref/invtalent/occult-dungeoneer	magic-tactics-toolbox	7	print		
@@ -3336,11 +3401,15 @@ ref/invtalent/the-whole-time	magic-tactics-toolbox	7	print
 ref/invtalent/twilight-talon-improvisation	inner-sea-intrigue	31	print		title text only (no heading form): the name is on page 31 and on none of the two pages each side
 ref/kipower/action-before-thought	martial-arts-handbook	20	print		
 ref/kipower/bare-hand-block	martial-arts-handbook	20	print		
+ref/kipower/branch-runner	blood-of-the-beast	30	print		the ki power is printed under its name (Ex, Su) on this page
 ref/kipower/breaking-down-koan	martial-arts-handbook	20	print		
 ref/kipower/building-up-koan	martial-arts-handbook	20	print		
+ref/kipower/freedom-of-movement	blood-of-the-beast	31	print		the ki power is printed under its name (Su) on this page
+ref/kipower/improvised-weapon-proficiency	blood-of-the-beast	31	print		the ki power is printed on this page as Improvised Weapon Affinity (Ex, Su); the entry title reads Improvised Weapon Proficiency
+ref/kipower/ki-meditation	blood-of-the-beast	31	print		the ki power is printed under its name (Su) on this page
 ref/kipower/ki-sunder	martial-arts-handbook	20	print		
 ref/kipower/master-thought-koan	martial-arts-handbook	20	print		
-ref/ninjatrick/breath-of-the-ancestors	legacy-of-dragons		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ninjatrick/breath-of-the-ancestors	legacy-of-dragons		unconfirmed	title not found on the proposed page or anywhere in the book; the book prints no text about the ninja class (a full-text search of the book finds none), so the membership itself may be wrong	
 ref/ninjatrick/deep-cover	martial-arts-handbook	21	print		
 ref/ninjatrick/greater-ki-venom	martial-arts-handbook	21	print		
 ref/ninjatrick/herbal-compound	martial-arts-handbook	20	print		
@@ -3350,7 +3419,7 @@ ref/ninjatrick/occulted-soul	martial-arts-handbook	21	print
 ref/ninjatrick/strangler	martial-arts-handbook	21	print		
 ref/ninjatrick/swift-poisoner	martial-arts-handbook	21	print		
 ref/oraclecurse/aboleth	horror-realms	14	print		
-ref/oraclecurse/acursed	horror-realms		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/oraclecurse/acursed	horror-realms	14	print		the oracle curse is printed on this page as Accursed; the entry title reads Acursed
 ref/oraclecurse/covetous	legacy-of-dragons	8	print		
 ref/oraclecurse/deep-one	horror-realms	14	print		
 ref/oraclecurse/demonic	horror-realms	14	print		
@@ -3363,9 +3432,9 @@ ref/oraclecurse/lycanthropy	horror-realms	14	print
 ref/oraclecurse/plagued	horror-realms	15	print		
 ref/oraclecurse/possessed	horror-realms	15	print		
 ref/oraclecurse/powerless-prophecy	inner-sea-monster-codex	17	print		
-ref/oraclecurse/pranked	legacy-of-the-first-world		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/oraclecurse/pranked	legacy-of-the-first-world	10	print		the oracle curse is printed under its name (Pranked, Oracle Curse) on this page
 ref/oraclecurse/promethean	horror-realms	15	print		
-ref/oraclecurse/reclusive	legacy-of-the-first-world		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/oraclecurse/reclusive	legacy-of-the-first-world	22	print		the oracle curse is printed under its name (Reclusive, Oracle Curse) on this page
 ref/oraclecurse/shadowbound	horror-realms	15	print		
 ref/oraclecurse/site-bound	inner-sea-monster-codex	35	print		
 ref/oraclecurse/vampirism	horror-realms	15	print		
@@ -3384,12 +3453,12 @@ ref/patron/summer	ultimate-wilderness	88	print
 ref/patron/thorns	heroes-of-the-wild	13	print		
 ref/patron/thorns	ultimate-wilderness	88	print		
 ref/phrenicamp/biokinetic-healing	occult-origins	16	print		
-ref/phrenicamp/complex-countermeasures	occult-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/phrenicamp/complex-countermeasures	occult-adventures	60	print		the phrenic amplification is printed on this page as Complex Countermeasure (Ex); the entry title reads Complex Countermeasures
 ref/phrenicamp/conjured-armor	occult-adventures	61	print		
 ref/phrenicamp/defensive-prognostication	occult-adventures	61	print		
 ref/phrenicamp/deflection-field	occult-origins	16	print		
 ref/phrenicamp/dispelling-pulse	occult-adventures	63	print		
-ref/phrenicamp/dragons-breath	occult-origins		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/phrenicamp/dragons-breath	occult-origins	16	print		the phrenic amplification is printed on this page as Dragon's Breath Focus (Su); the entry title reads Dragon's Breath
 ref/phrenicamp/dual-amplification	occult-adventures	63	print		
 ref/phrenicamp/focused-force	occult-adventures	61	print		
 ref/phrenicamp/intense-focus	occult-adventures	61	print		
@@ -3412,28 +3481,28 @@ ref/phrenicamp/undercast-surge	occult-adventures	62	print
 ref/phrenicamp/will-of-the-dead	occult-adventures	62	print		
 ref/ragepower/cult-totem	horror-adventures	46	print		
 ref/ragepower/daemon-totem	horror-adventures	46	print		
-ref/ragepower/flight-response	horror-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-cult-totem	horror-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-daemon-totem	horror-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-suffocating-grip	legacy-of-the-first-world		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/flight-response	horror-adventures	46	print		the rage power is printed on this page as Fight Response (Ex); the entry title reads Flight Response
+ref/ragepower/greater-cult-totem	horror-adventures	46	print		the rage power is printed as Name Totem, Greater (Su) on this page
+ref/ragepower/greater-daemon-totem	horror-adventures	46	print		the rage power is printed as Name Totem, Greater (Su) on this page
+ref/ragepower/greater-suffocating-grip	legacy-of-the-first-world	29	print		the rage power is printed as Suffocating Grip, Greater (Ex) on this page
 ref/ragepower/lesser-cult-totem	horror-adventures	46	print		title text only (no heading form): the name is on page 46 and on none of the two pages each side
 ref/ragepower/lesser-daemon-totem	horror-adventures	46	print		title text only (no heading form): the name is on page 46 and on none of the two pages each side
 ref/ragepower/master-of-the-deep	legacy-of-the-first-world	29	print		
 ref/ragepower/suffocating-grip	legacy-of-the-first-world	29	print		
-ref/rangertrap/acid-trap	kobolds-of-golarion		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/rangertrap/acid-trap	kobolds-of-golarion	20	print		the ranger trap is printed under its name (name, Ex or Su) in the Traps section on this page
 ref/rangertrap/blightburn-trap	kobolds-of-golarion	20	print		
 ref/rangertrap/channeled-energy-trap	kobolds-of-golarion	20	print		title text only (no heading form): the name is on page 20 and on none of the two pages each side
 ref/rangertrap/distraction-trap	kobolds-of-golarion	20	print		title text only (no heading form): the name is on page 20 and on none of the two pages each side
-ref/rangertrap/lazurite-trap	kobolds-of-golarion		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/rangertrap/lazurite-trap	kobolds-of-golarion	20	print		the ranger trap is printed under its name (name, Ex or Su) in the Traps section on this page
 ref/rangertrap/oversized-barbs	kobolds-of-golarion	20	print		title text only (no heading form): the name is on page 20 and on none of the two pages each side
-ref/rangertrap/pit-trap	kobolds-of-golarion		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/rangertrap/pit-trap	kobolds-of-golarion	21	print		the ranger trap is printed under its name (name, Ex or Su) in the Traps section on this page
 ref/rangertrap/rust-monster-trap	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
 ref/rangertrap/selective-trigger	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
 ref/rangertrap/spell-stealing-trap	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
 ref/rangertrap/spell-storing-trap	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
-ref/rangertrap/tar-trap	kobolds-of-golarion		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/rangertrap/tar-trap	kobolds-of-golarion	21	print		the ranger trap is printed under its name (name, Ex or Su) in the Traps section on this page
 ref/rangertrap/transdimensional-trap	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
-ref/rangertrap/tripwire	kobolds-of-golarion		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/rangertrap/tripwire	kobolds-of-golarion	21	print		the ranger trap is printed under its name (name, Ex or Su) in the Traps section on this page
 ref/shamanhex/silkstring-snare	legacy-of-the-first-world	17	print		
 ref/slayertalent/eternal-opposition	martial-arts-handbook	18	print		
 ref/slayertalent/experience-across-ages	martial-arts-handbook	18	print		
@@ -3467,20 +3536,22 @@ ref/stare/sluggishness	occult-adventures	43	print
 ref/stare/susceptibility	occult-adventures	43	print		
 ref/stare/timidity	occult-adventures	43	print		
 ref/stylestrike/break	martial-arts-handbook	7	print		
+ref/stylestrike/dirty-strikes	blood-of-the-beast	31	print		the style strike is printed on this page as Dirty Strike, singular; the entry title reads Dirty Strikes
+ref/stylestrike/overbearing-assault	blood-of-the-beast	31	print		the style strike is printed under its name on this page
 ref/stylestrike/rabbit-punch	martial-arts-handbook	6	print		
 ref/stylestrike/throat-crush	martial-arts-handbook	7	print		
 ref/talent/acrobatic-stunt	inner-sea-combat	16	print		
 ref/talent/ambuscading-grapple	monster-hunters-handbook	9	print		
-ref/talent/armor-piercer	monster-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/talent/armor-piercer	monster-hunters-handbook	9	print		the rogue talent is printed under its name (with an asterisk) on this page
 ref/talent/claimed-turf	inner-sea-intrigue	32	print		
-ref/talent/climbing-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/climbing-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/dampen-presence	magic-tactics-toolbox	27	print		
 ref/talent/developed-poison-immunity	heroes-of-the-wild	21	print		
-ref/talent/disabling-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/disabling-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/eldritch-conduit	magic-tactics-toolbox	7	print		
-ref/talent/escaping-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/escaping-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/favored-terrain	heroes-of-the-wild	21	print		
-ref/talent/flying-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/flying-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/glib-facade	magic-tactics-toolbox	27	print		
 ref/talent/green-tongue	heroes-of-the-wild	21	print		
 ref/talent/innocent-facade	magic-tactics-toolbox	27	print		
@@ -3489,15 +3560,15 @@ ref/talent/just-a-face-in-the-crowd	magic-tactics-toolbox	7	print
 ref/talent/maneuvering-dodge	inner-sea-intrigue	32	print		
 ref/talent/occult-dungeoneer	magic-tactics-toolbox	7	print		
 ref/talent/rapid-perception	magic-tactics-toolbox	27	print		
-ref/talent/riding-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/riding-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/scry-slip	magic-tactics-toolbox	27	print		
 ref/talent/sczarni-smuggler	inner-sea-intrigue	32	print		
-ref/talent/sleight-of-hand-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/sleight-of-hand-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/spell-storing	magic-tactics-toolbox	7	print		
 ref/talent/stealth-stunt	inner-sea-combat	16	print		
 ref/talent/superior-sniper	magic-tactics-toolbox	27	print		
 ref/talent/swift-tracker	heroes-of-the-wild	21	print		
-ref/talent/swimming-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/swimming-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/the-whole-time	magic-tactics-toolbox	7	print		
 ref/talent/thrill-of-the-chase	inner-sea-intrigue	32	print		
 ref/talent/unlock-ki	magic-tactics-toolbox	27	print		
@@ -3599,12 +3670,12 @@ ref/discovery/immolation-bomb	ultimate-combat	24	print		title text only (no head
 ref/discovery/lasting-tinctures	potions-and-poisons	9	print		
 ref/discovery/nauseating-flesh	ultimate-combat	24	print		
 ref/discovery/poison-conversion	ultimate-combat	24	print		
-ref/discovery/siege-bomb	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
-ref/eidolon/aeon	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/siege-bomb	ultimate-combat	24	print		the discovery is printed as a heading (name, asterisk, colon) on this page
+ref/eidolon/aeon	plane-hoppers-handbook	24	print		the eidolon subtype heading (name, eidolon subtype) is on this page; the description starts here
 ref/eidolon/agathion	pathfinder-unchained	29	print		the subtype heading is on this page; the description starts here (it continues on page 30)
 ref/eidolon/angel	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
 ref/eidolon/archon	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
-ref/eidolon/astral	plane-hoppers-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/astral	plane-hoppers-handbook	24	print		the eidolon subtype heading (name, eidolon subtype) is on this page; the description starts here
 ref/eidolon/azata	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
 ref/eidolon/daemon	pathfinder-unchained	31	print		the subtype heading is on this page; the description starts here
 ref/eidolon/demon	pathfinder-unchained	31	print		the subtype heading is on this page; the description starts here
@@ -3614,9 +3685,9 @@ ref/eidolon/elemental	pathfinder-unchained	33	print		the subtype heading is on t
 ref/eidolon/inevitable	pathfinder-unchained	33	print		the subtype heading is on this page; the description starts here
 ref/eidolon/protean	pathfinder-unchained	33	print		the subtype heading is on this page; the description starts here
 ref/eidolon/psychopomp	pathfinder-unchained	34	print		the subtype heading is on this page; the description starts here
-ref/eidolon/radiant	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
-ref/eidolon/storykin	plane-hoppers-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/eidolon/void	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/radiant	plane-hoppers-handbook	25	print		the eidolon subtype heading (name, eidolon subtype) is on this page; the description starts here
+ref/eidolon/storykin	plane-hoppers-handbook	31	print		proposal 26, print 31: the Storykin Eidolon Subtype heading is in the Harrowed Realm section on this page; the subtypes of the Planar Allies section (24 to 25) are Aeon, Astral, Radiant and Void
+ref/eidolon/void	plane-hoppers-handbook	25	print		the eidolon subtype heading (name, eidolon subtype) is on this page; the description starts here
 ref/hex/congeal	people-of-the-wastes	21	print		
 ref/hex/deathcall	qadira-jewel-of-the-east	15	print		
 ref/hex/gift-of-consumption	potions-and-poisons	10	print		
@@ -3664,7 +3735,7 @@ ref/kipower/water-sprint	pathfinder-unchained	18	print
 ref/kipower/wholeness-of-body	pathfinder-unchained	18	print		
 ref/kipower/wind-jump	pathfinder-unchained	18	print		
 ref/ninjatrick/acrobatic-master	ultimate-combat	14	print		
-ref/ninjatrick/advanced-talent	ultimate-combat		unconfirmed	the name is a heading only on page 32, far from the proposed page 16; which one prints the option is not settled	
+ref/ninjatrick/advanced-talent	ultimate-combat	16	print		the ninja trick is printed under its name on this page
 ref/ninjatrick/assassinate	ultimate-combat	16	print		
 ref/ninjatrick/bleeding-attack	ultimate-combat	14	print		title text only (no heading form): the name is on page 14 and on none of the two pages each side
 ref/ninjatrick/blinding-bomb	ultimate-combat	17	print		
@@ -3673,7 +3744,7 @@ ref/ninjatrick/combat-trick	ultimate-combat	15	print
 ref/ninjatrick/darkvision	ultimate-combat	15	print		
 ref/ninjatrick/deadly-range	ultimate-combat	15	print		
 ref/ninjatrick/deadly-shuriken	ultimate-combat	17	print		
-ref/ninjatrick/deflect-arrows	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/ninjatrick/deflect-arrows	ultimate-combat	15	print		the ninja trick is printed under its name on this page
 ref/ninjatrick/evasion	ultimate-combat	17	print		
 ref/ninjatrick/fast-stealth	ultimate-combat	15	print		
 ref/ninjatrick/feat	ultimate-combat	17	print		
@@ -3684,7 +3755,7 @@ ref/ninjatrick/ghost-step	ultimate-combat	17	print
 ref/ninjatrick/hidden-weapons	ultimate-combat	15	print		
 ref/ninjatrick/high-jumper	ultimate-combat	15	print		
 ref/ninjatrick/invisible-blade	ultimate-combat	17	print		
-ref/ninjatrick/ki-block	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/ninjatrick/ki-block	ultimate-combat	15	print		the ninja trick is printed under its name on this page
 ref/ninjatrick/ki-charge	ultimate-combat	15	print		
 ref/ninjatrick/master-disguise	ultimate-combat	17	print		
 ref/ninjatrick/poison-bomb	ultimate-combat	15	print		
@@ -3694,7 +3765,7 @@ ref/ninjatrick/see-the-unseen	ultimate-combat	17	print
 ref/ninjatrick/shadow-clone	ultimate-combat	15	print		
 ref/ninjatrick/shadow-split	ultimate-combat	17	print		
 ref/ninjatrick/slow-metabolism	ultimate-combat	15	print		
-ref/ninjatrick/slow-reactions	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/ninjatrick/slow-reactions	ultimate-combat	16	print		the ninja trick is printed under its name on this page
 ref/ninjatrick/smoke-bomb	ultimate-combat	16	print		
 ref/ninjatrick/snatch-arrows	ultimate-combat	16	print		
 ref/ninjatrick/style-master	ultimate-combat	16	print		
@@ -3707,7 +3778,7 @@ ref/ninjatrick/vanishing-trick	ultimate-combat	16	print
 ref/ninjatrick/ventriloquism	ultimate-combat	16	print		
 ref/ninjatrick/wall-climber	ultimate-combat	16	print		
 ref/ninjatrick/weapon-training	ultimate-combat	16	print		
-ref/patron/aurora	paths-of-the-righteous		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/patron/aurora	paths-of-the-righteous	31	print		the witch patron is printed on this page as Aurora Patron, with its spell list,
 ref/ragepower/accurate-stance	pathfinder-unchained	9	print		
 ref/ragepower/auspicious-mark	ultimate-combat	26	print		
 ref/ragepower/bestial-climber	ultimate-combat	26	print		
@@ -3724,9 +3795,9 @@ ref/ragepower/dragon-totem	ultimate-combat	26	print
 ref/ragepower/eater-of-magic	ultimate-combat	27	print		
 ref/ragepower/elemental-stance	pathfinder-unchained	10	print		
 ref/ragepower/ghost-rager	ultimate-combat	27	print		
-ref/ragepower/greater-ground-breaker	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-guarded-life	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-sun-totem	qadira-jewel-of-the-east		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-ground-breaker	ultimate-combat	27	print		the rage power is printed as Name, Greater on this page
+ref/ragepower/greater-guarded-life	ultimate-combat	27	print		the rage power is printed as Name, Greater on this page
+ref/ragepower/greater-sun-totem	qadira-jewel-of-the-east	29	print		the rage power is printed as Sun Totem, Greater (Su) on this page
 ref/ragepower/guarded-stance-stance	pathfinder-unchained	11	print		
 ref/ragepower/hive-totem-resilience	ultimate-combat	27	print		
 ref/ragepower/hive-totem-toxicity	ultimate-combat	27	print		
@@ -3754,7 +3825,7 @@ ref/ragepower/world-serpent-spirit	ultimate-combat	28	print
 ref/ragepower/world-serpent-totem-unity	ultimate-combat	28	print		
 ref/ragepower/world-serpent-totem	ultimate-combat	28	print		
 ref/rangertrap/blighted-mark-trap	people-of-the-wastes	17	print		title text only (no heading form): the name is on page 17 and on none of the two pages each side
-ref/rangertrap/cleansing-trap	people-of-the-wastes		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/rangertrap/cleansing-trap	people-of-the-wastes	17	print		the ranger trap is printed under its name (name, Ex or Su) on this page
 ref/rangertrap/infected-snare-trap	people-of-the-wastes	17	print		title text only (no heading form): the name is on page 17 and on none of the two pages each side
 ref/slayertalent/focused-poison	potions-and-poisons	13	print		
 ref/slayertalent/one-of-those-faces	spymasters-handbook	21	print		
@@ -3764,6 +3835,7 @@ ref/soctalent/entrepreneur	spymasters-handbook	26	print
 ref/soctalent/guise-of-life	spymasters-handbook	26	print		
 ref/soctalent/guise-of-unlife	spymasters-handbook	26	print		
 ref/soctalent/intrigue-feats	spymasters-handbook	27	print		
+ref/soctalent/transformation-sequence	blood-of-the-beast	15	print		the vigilante talent is printed under its name on this page
 ref/soctalent/well-known-expert	spymasters-handbook	27	print		
 ref/stylestrike/defensive-spin	pathfinder-unchained	18	print		
 ref/stylestrike/elbow-smash	pathfinder-unchained	18	print		
@@ -3779,7 +3851,7 @@ ref/talent/accurate-poisoner	potions-and-poisons	13	print
 ref/talent/black-market-connections	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
 ref/talent/certainty	pathfinder-unchained	21	print		
 ref/talent/coax-information-unchained-rogue	pathfinder-unchained	21	print		
-ref/talent/confounding-blades	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/confounding-blades	ultimate-combat	70	print		the rogue talent is printed under its name on this page (the proposed page 1 was a placeholder)
 ref/talent/convincing-lie	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
 ref/talent/cutting-edge	pathfinder-unchained	23	print		
 ref/talent/deadly-sneak-unchained-rogue	pathfinder-unchained	23	print		title text only (no heading form): the name is on page 23 and on none of the two pages each side
@@ -3793,12 +3865,12 @@ ref/talent/getaway-artist	ultimate-combat	69	print		proposal 1 (placeholder), pr
 ref/talent/getaway-master	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
 ref/talent/greater-multitalented	pathfinder-unchained	24	print		the rogue talent is printed on this page as Multitalented, Greater
 ref/talent/greater-terrain-mastery	pathfinder-unchained	24	print		the rogue talent is printed on this page as Terrain Mastery, Greater
-ref/talent/grit	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/grit	ultimate-combat	69	print		the rogue talent is printed under its name on this page (the proposed page 1 was a placeholder)
 ref/talent/hard-minded	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
 ref/talent/hide-in-plain-sight	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
 ref/talent/hold-breath	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
 ref/talent/iron-guts	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
-ref/talent/ki-pool	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/ki-pool	ultimate-combat	69	print		the rogue talent is printed under its name on this page (the proposed page 1 was a placeholder)
 ref/talent/lasting-poison-unchained-rogue	pathfinder-unchained	21	print		
 ref/talent/ledge-walker-unchained-rogue	pathfinder-unchained	22	print		
 ref/talent/light-walker	pathfinder-unchained	24	print		
@@ -3823,7 +3895,7 @@ ref/talent/suppress-poison	potions-and-poisons	13	print
 ref/talent/surprise-attack-unchained-rogue	pathfinder-unchained	22	print		
 ref/talent/terrain-mastery	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
 ref/talent/toxic-regurgitation	potions-and-poisons	13	print		
-ref/talent/underhanded	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/underhanded	ultimate-combat	70	print		the rogue talent is printed under its name on this page (the proposed page 1 was a placeholder)
 ref/talent/unwitting-ally	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
 ref/talent/wall-scramble	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
 ref/talent/weapon-snatcher	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
@@ -3926,12 +3998,12 @@ ref/discovery/bitter-pill	ultimate-wilderness	34	print
 ref/discovery/blinding-bomb	ultimate-magic	15	print		
 ref/discovery/bottled-ooze	ultimate-magic	15	print		
 ref/discovery/cognatogen	ultimate-magic	15	print		the heading is on the proposed page (15) and on 15,16; the row keeps the proposal
-ref/discovery/confusion-bomb	ultimate-magic		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/confusion-bomb	ultimate-magic	15	print		the alchemist discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/doppelganger-simulacrum	ultimate-magic	15	print		
 ref/discovery/grand-cognatogen	ultimate-magic	16	print		
 ref/discovery/greater-alchemical-simulacrum	ultimate-magic	16	print		
 ref/discovery/greater-cognatogen	ultimate-magic	16	print		
-ref/discovery/grounding-goo	ultimate-wilderness		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/grounding-goo	ultimate-wilderness	34	print		the alchemist discovery is printed as a heading (name, dagger, colon) on this page
 ref/discovery/healing-touch	ultimate-magic	16	print		
 ref/discovery/incendiary-charge	villain-codex	236	print		
 ref/discovery/lingering-spirit	ultimate-magic	16	print		
@@ -3942,19 +4014,19 @@ ref/discovery/penetrating-charge	villain-codex	236	print
 ref/discovery/pheromones	ultimate-wilderness	34	print		
 ref/discovery/plague-bomb	ultimate-magic	16	print		
 ref/discovery/preserve-organs	ultimate-magic	17	print		
-ref/discovery/solid-ground	ultimate-wilderness		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/solid-ground	ultimate-wilderness	34	print		the alchemist discovery is printed as a heading (name, dagger, colon) on this page
 ref/discovery/spontaneous-healing	ultimate-magic	17	print		
 ref/discovery/strafe-bomb	ultimate-magic	17	print		
 ref/discovery/sunlight-bomb	ultimate-magic	17	print		
 ref/discovery/tanglefoot-bomb	ultimate-magic	17	print		
 ref/discovery/tentacle	ultimate-magic	17	print		
-ref/discovery/thorny-bomb	ultimate-wilderness		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/thorny-bomb	ultimate-wilderness	34	print		the alchemist discovery is printed as a heading (name, dagger, colon) on this page
 ref/discovery/tumor-familiar	ultimate-magic	17	print		
 ref/discovery/vestigial-arm	ultimate-magic	18	print		
 ref/discovery/volumizer	ultimate-wilderness	34	print		
 ref/discovery/wings	ultimate-magic	18	print		
-ref/eidolon/kami	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/eidolon/plant	ultimate-wilderness		unconfirmed	the name is a heading only on page 17, far from the proposed page 95; which one prints the option is not settled	
+ref/eidolon/kami	wilderness-origins	18	print		the Kami (Eidolon Subtype) heading is on this page; the description starts here
+ref/eidolon/plant	ultimate-wilderness	95	print		the Plant Eidolon Subtype heading is on this page; the description starts here
 ref/evolution/basic-magic	ultimate-magic	76	print		
 ref/evolution/channel-resistance	ultimate-magic	77	print		
 ref/evolution/dimension-door	ultimate-magic	78	print		
@@ -4033,16 +4105,16 @@ ref/ragepower/eclipsing-rage	ultimate-wilderness	36	print
 ref/ragepower/erratic-charge	villain-codex	176	print		
 ref/ragepower/furious-barrage	villain-codex	176	print		
 ref/ragepower/furious-draw	villain-codex	176	print		
-ref/ragepower/greater-ancestor-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-atavism-totem	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-eclipsing-rage	ultimate-wilderness		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-erratic-charge	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-moon-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-spire-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-tyrant-totem	ultimate-wilderness		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-ancestor-totem	wilderness-origins	24	print		the rage power is printed as Name Totem, Greater (Su) in the Totems of the Quahs list on this page
+ref/ragepower/greater-atavism-totem	villain-codex	140	print		the rage power is printed as Atavism Totem, Greater / Lesser (Su) on this page
+ref/ragepower/greater-eclipsing-rage	ultimate-wilderness	36	print		the rage power is printed as Name, Greater (Su) on this page
+ref/ragepower/greater-erratic-charge	villain-codex	176	print		the rage power is printed as Erratic Charge, Greater (Ex) on this page
+ref/ragepower/greater-moon-totem	wilderness-origins	24	print		the rage power is printed as Name Totem, Greater (Su) in the Totems of the Quahs list on this page
+ref/ragepower/greater-spire-totem	wilderness-origins	24	print		the rage power is printed as Name Totem, Greater (Su) in the Totems of the Quahs list on this page
+ref/ragepower/greater-tyrant-totem	ultimate-wilderness	36	print		the rage power is printed as Name, Greater (Su) on this page
 ref/ragepower/hissing-rage	ultimate-wilderness	36	print		
 ref/ragepower/lesser-ancestor-totem	wilderness-origins	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
-ref/ragepower/lesser-atavism-totem	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/lesser-atavism-totem	villain-codex	140	print		the rage power is printed as Atavism Totem, Greater / Lesser (Su) on this page
 ref/ragepower/lesser-moon-totem	wilderness-origins	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
 ref/ragepower/lesser-spire-totem	wilderness-origins	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
 ref/ragepower/lesser-tyrant-totem	ultimate-wilderness	37	print		title text only (no heading form): the name is on page 37 and on none of the two pages each side
@@ -4095,12 +4167,12 @@ ref/vigtalent/chase-master	ultimate-intrigue	14	print
 ref/vigtalent/close-the-gap	ultimate-intrigue	14	print		
 ref/vigtalent/combat-skill	ultimate-intrigue	14	print		
 ref/vigtalent/cunning-feint	ultimate-intrigue	14	print		
-ref/vigtalent/environmental-weapon	ultimate-intrigue		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/vigtalent/environmental-weapon	ultimate-intrigue	14	print		the vigilante talent is printed on this page as Environment Weapon (Ex); the entry title reads Environmental Weapon
 ref/vigtalent/evasive	ultimate-intrigue	14	print		
-ref/vigtalent/expose-weaknesses	ultimate-intrigue		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/vigtalent/expose-weaknesses	ultimate-intrigue	14	print		the vigilante talent is printed on this page as Expose Weakness (Ex); the entry title reads Expose Weaknesses
 ref/vigtalent/favored-maneuver	ultimate-intrigue	14	print		
 ref/vigtalent/fist-of-the-avenger	ultimate-intrigue	14	print		
-ref/vigtalent/foe-collision	ultimate-intrigue		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/vigtalent/foe-collision	ultimate-intrigue	14	print		the vigilante talent is printed under its name on this page
 ref/vigtalent/heavy-training	ultimate-intrigue	14	print		
 ref/vigtalent/hide-in-plain-sight	ultimate-intrigue	14	print		
 ref/vigtalent/inspired-vigilante	ultimate-intrigue	14	print		
@@ -4108,7 +4180,7 @@ ref/vigtalent/leave-an-opening	ultimate-intrigue	14	print		title text only (no h
 ref/vigtalent/lethal-grace	ultimate-intrigue	15	print		
 ref/vigtalent/living-shield	ultimate-intrigue	15	print		
 ref/vigtalent/mad-rush	ultimate-intrigue	15	print		
-ref/vigtalent/mighty-ambush	ultimate-intrigue		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/vigtalent/mighty-ambush	ultimate-intrigue	15	print		the vigilante talent is printed under its name on this page
 ref/vigtalent/nothing-can-stop-me	ultimate-intrigue	15	print		
 ref/vigtalent/perfect-fall	ultimate-intrigue	15	print		
 ref/vigtalent/perfect-vulnerability	ultimate-intrigue	15	print		
@@ -4125,18 +4197,18 @@ ref/vigtalent/silent-dispatch	ultimate-intrigue	16	print
 ref/vigtalent/sniper	ultimate-intrigue	16	print		
 ref/vigtalent/stalker-sense	ultimate-intrigue	16	print		
 ref/vigtalent/strike-the-unseen	ultimate-intrigue	16	print		
-ref/vigtalent/sucker-punch	ultimate-intrigue		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/vigtalent/sucker-punch	ultimate-intrigue	16	print		the vigilante talent is printed on this page as Sucker-Punch (Ex), with a hyphen
 ref/vigtalent/sure-footed	ultimate-intrigue	16	print		
 ref/vigtalent/surprise-strike	ultimate-intrigue	16	print		
-ref/vigtalent/throat-jab	ultimate-intrigue		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/vigtalent/throat-jab	ultimate-intrigue	16	print		the vigilante talent is printed under its name on this page
 ref/vigtalent/twisting-fear	ultimate-intrigue	16	print		
 ref/vigtalent/unexpected-strike	ultimate-intrigue	16	print		
 ref/vigtalent/unkillable	ultimate-intrigue	16	print		
 ref/vigtalent/up-close-and-personal	ultimate-intrigue	17	print		
-ref/discovery/boneshard-bomb	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
-ref/discovery/ectoplasmic-bomb	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
-ref/discovery/phantom-limb	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
-ref/discovery/psychokinetic-tincture	undead-slayers-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 11, 13, 15, 17 = printed p. 9, 11, 13, 15 (rendered for the traits of #206)
+ref/discovery/boneshard-bomb	undead-slayers-handbook	21	print		rendered PDF p. 23, printed p. 21, seen: the discovery is printed as a heading (name, asterisk, colon) under Alchemist Discoveries on this page; the offset +2 of pages 9 to 15 holds
+ref/discovery/ectoplasmic-bomb	undead-slayers-handbook	21	print		rendered PDF p. 23, printed p. 21, seen: the discovery is printed as a heading (name, asterisk, colon) under Alchemist Discoveries on this page; the offset +2 of pages 9 to 15 holds
+ref/discovery/phantom-limb	undead-slayers-handbook	21	print		rendered PDF p. 23, printed p. 21, seen: the discovery is printed as a heading (name, asterisk, colon) under Alchemist Discoveries on this page; the offset +2 of pages 9 to 15 holds
+ref/discovery/psychokinetic-tincture	undead-slayers-handbook	21	print		rendered PDF p. 23, printed p. 21, seen: the discovery is printed as a heading (name, asterisk, colon) under Alchemist Discoveries on this page; the offset +2 of pages 9 to 15 holds
 ref/racial-trait/dwarf/attributes	inner-sea-races	236	print		the trait is in the DWARVES race block on this page
 ref/racial-trait/dwarf/darkvision	inner-sea-races	236	print		the trait is in the DWARVES race block on this page
 ref/racial-trait/dwarf/defensive-training	inner-sea-races	236	print		the trait is in the DWARVES race block on this page
@@ -4390,6 +4462,7 @@ ref/ragepower/tor-linnorm-death-curse	advanced-class-guide	114	print		the rage p
 ref/carried/core-rulebook/rules/glossary/special-abilities/poison/burnt-othur-fumes	core-rulebook	558	print		the poison (save DC, frequency, effects, cure) is in the Poison list of the glossary on this page; Table 16-2 repeats it on page 559
 ref/performance/countersong	core-rulebook	36	print		the bardic performance is printed under its name on this page
 ref/performance/dirge-of-doom	core-rulebook	37	print		the bardic performance is printed under its name on this page
+ref/performance/distraction	core-rulebook	36	print		the bardic performance is printed under its name on this page; the membership holds (the earlier reference listed the entry only in other books)
 ref/performance/fascinate	core-rulebook	37	print		the bardic performance is printed under its name on this page
 ref/performance/inspire-competence	core-rulebook	37	print		the bardic performance is printed under its name on this page
 ref/performance/inspire-courage	core-rulebook	37	print		the bardic performance is printed under its name on this page
@@ -4419,3 +4492,21 @@ ref/trait/devout-visionary	faiths-and-philosophies	inside cover	print		the trait
 ref/trait/divine-denier	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
 ref/trait/monastic	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
 ref/trait/nature-worshiper	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/addiction/minor-addiction	game-mastery-guide	236	print		the stat block is under its name in the Drugs and Addiction section on this page; the book's index lists the section as 236 to 237
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/addiction/moderate-addiction	game-mastery-guide	236	print		the stat block is under its name in the Drugs and Addiction section on this page; the book's index lists the section as 236 to 237
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/addiction/severe-addiction	game-mastery-guide	236	print		the stat block is under its name in the Drugs and Addiction section on this page; the book's index lists the section as 236 to 237
+ref/carried/game-mastery-guide/rules/hazards/sample-hazards/ear-seekers/ear-seekers	game-mastery-guide	244	print		the hazard is printed under its name (with its CR) on this page; the book's index lists Ear Seekers as 244
+ref/carried/game-mastery-guide/rules/hazards/sample-hazards/poison-oak/poison-oak	game-mastery-guide	245	print		the hazard is printed under its name (with its CR) on this page; the book's index lists it as 245
+ref/carried/game-mastery-guide/rules/hazards/sample-hazards/poison-oak/poison-oak-severe-exposure	game-mastery-guide	245	print		the poison stat block Poison Oak (Severe Exposure) is printed with the Poison Oak hazard on this page
+ref/carried/game-mastery-guide/rules/hazards/sample-hazards/rot-grubs/rot-grubs	game-mastery-guide	245	print		the hazard is printed under its name (with its CR) on this page; the book's index lists it as 245
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-phobia	game-mastery-guide	250	print		the insanity is printed under its name in the Types of Insanity list on this page; its effect continues on page 251
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/multiple-personality-disorder	game-mastery-guide	251	print		the insanity is printed under its name in the Types of Insanity list on this page
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/paranoia	game-mastery-guide	251	print		the insanity is printed under its name in the Types of Insanity list on this page
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis	game-mastery-guide	251	print		the insanity is printed under its name in the Types of Insanity list on this page
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/acid-drop-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragon-dung-pit-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragonfire-trap	monster-codex	128	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/ensnaring-dirt-trap	monster-codex	128	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/falling-log-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/rotting-badger-under-a-falling-rock-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/snake-spear-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read

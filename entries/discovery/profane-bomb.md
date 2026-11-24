@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "champions-of-corruption"
+page = "26"
 
 [fields]
 kind = "class_option"

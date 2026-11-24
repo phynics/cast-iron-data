@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "demon-hunters-handbook"
+page = "11"
 
 [fields]
 kind = "class_option"

@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "wilderness-origins"
+page = "24"
 
 [fields]
 kind = "class_option"

@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "blood-of-the-sea"
+page = "23"
 
 [fields]
 kind = "class_option"

@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "blood-of-the-elements"
+page = "11"
 
 [fields]
 kind = "class_option"

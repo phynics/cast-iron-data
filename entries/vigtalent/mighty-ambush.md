@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-intrigue"
+page = "15"
 
 [fields]
 kind = "class_option"

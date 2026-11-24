@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "occult-adventures"
+page = "60"
 
 [fields]
 kind = "class_option"

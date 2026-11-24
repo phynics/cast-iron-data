@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "occult-bestiary"
+page = "30"
 
 [fields]
 kind = "none"

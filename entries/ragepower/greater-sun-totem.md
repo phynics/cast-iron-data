@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "qadira-jewel-of-the-east"
+page = "29"
 
 [fields]
 kind = "class_option"

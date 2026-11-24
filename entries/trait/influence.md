@@ -9,6 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-campaign"
+page = "60"
 
 [fields]
 kind = "trait"

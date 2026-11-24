@@ -9,6 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "knights-of-the-inner-sea"
+page = "inside cover"
 
 [fields]
 kind = "trait"

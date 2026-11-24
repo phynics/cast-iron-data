@@ -15,6 +15,7 @@ page = "261"
 publication = "pathfinder-31-stolen-land"
 [[sources]]
 publication = "hollows-last-hope"
+page = "15"
 
 [fields]
 kind = "none"

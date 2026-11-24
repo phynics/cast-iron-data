@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "disciples-doctrine"
+page = "17"
 
 [fields]
 kind = "class_option"

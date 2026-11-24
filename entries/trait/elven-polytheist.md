@@ -9,6 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "faiths-of-purity"
+page = "20"
 [[sources]]
 publication = "inner-sea-gods"
 page = "219"

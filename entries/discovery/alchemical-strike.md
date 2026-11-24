@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "magic-tactics-toolbox"
+page = "12"
 
 [fields]
 kind = "class_option"

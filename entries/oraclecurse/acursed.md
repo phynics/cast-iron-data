@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "horror-realms"
+page = "14"
 
 [fields]
 kind = "class_option"
