@@ -16,9 +16,13 @@ page = "132"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "careful-disarm", level = 4 },
+  { anchor = "distraction", level = 8 },
+]
 trades = [
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["careful-disarm"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["distraction"] },
 ]
 +++
 
@@ -26,31 +30,27 @@ Adept at infiltration, trap removal, and lock picking, burglars prey on the home
 forgotten tombs alike. Such riches are guarded with vicious traps and hazards, but the devious mind
 of the burglar allows her to find such dangers and avoid them.
 
-**Careful Disarm (Ex)**
+## Careful Disarm (Ex) {#careful-disarm}
 
-**Gained:** At 4th Level
-
-**Passive:** Whenever a burglar attempts to disarm a trap using Disable Device, she does not spring
+At 4th level, whenever a burglar attempts to disarm a trap using Disable Device, she does not spring
 the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm,
-she adds double her _trap sense_ bonus to avoid the trap.
+she adds double her trap sense bonus to avoid the trap. This ability replaces uncanny dodge.
 
-**Replaces:** Uncanny dodge
+## Distraction (Ex) {#distraction}
 
-**Distraction (Ex)**
-
-**Ability:** Whenever a burglar is detected while using Stealth, she can immediately attempt a Bluff
-skill check opposed by the Sense Motive skill of the creature that spotted her. If this check
+At 8th level, whenever a burglar is detected while using Stealth, she can immediately attempt a
+Bluff skill check opposed by the Sense Motive skill of the creature that spotted her. If this check
 succeeds, the target assumes that the noise was something innocent and disregards the detection.
 This only functions if the creature cannot see the rogue. This ability can only be used once during
 a given Stealth attempt. If the same creature detects the rogue's presence again, the ability has no
-effect.
+effect. This ability replaces improved uncanny dodge.
 
-**Gained:** At 8th Level
+## Rogue Talents {#rogue-talents}
 
-**Replaces:** Improved uncanny dodge
+The following rogue talents complement the burglar archetype: fast picks, fast stealth, nimble
+climber, quick disable, and trap spotter.
 
-**These rogue talents complement this archetype:** Fast picks, fast stealth, nimble climber, quick
-disable, trap spotter
+## Advanced Talents {#advanced-talents}
 
-**These advanced rogue talents complement this archetype:** Knock-out blow, skill mastery,
-thoughtful reexamining
+The following advanced rogue talents complement the burglar archetype: knock-out blow, skill
+mastery, and thoughtful reexamining.

@@ -16,9 +16,13 @@ page = "134"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "poison-use", level = 1 },
+  { anchor = "master-poisoner", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["poison-use"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["master-poisoner"] },
 ]
 +++
 
@@ -27,31 +31,26 @@ no different than any other weapon. Some poisoners see themselves as great equal
 able to craft weapons that the weakest of creatures can wield to devastating effect, but most have
 no lofty delusions about their work.
 
-**Poison Use (Ex)**
+## Poison Use (Ex) {#poison-use}
 
-**Ability:** A poisoner is trained in the use of poison and cannot accidentally poison herself when
-applying poison to a blade.
+At 1st level, a poisoner is trained in the use of poison and cannot accidentally poison herself when
+applying poison to a blade. This ability replaces trapfinding.
 
-**Gained:** At 1st Level
+## Master Poisoner (Ex) {#master-poisoner}
 
-**Replaces:** Trapfinding
-
-**Master Poisoner (Ex)**
-
-**Ability:** A poisoner can use Craft (alchemy) to change the type of a [poison](ref/rule/poison).
+At 3rd level, a poisoner can use Craft (alchemy) to change the type of a [poison](ref/rule/poison).
 This requires 1 hour of work with an [alchemist's lab](ref/eq-misc/alchemists-lab) and a Craft
 (alchemy) skill check with a DC equal to the poison's DC. If successful, the poison's type changes
-to contact, ingested, inhaled, or injury. If the check fails, the poison is ruined.
+to contact, ingested, inhaled, or injury. If the check fails, the poison is ruined. The poisoner
+also receives a bonus on Craft (alchemy) skill checks when working with poison equal to 1/2 her
+rogue level. This ability replaces trap sense.
 
-**Gained:** At 3rd Level
+## Rogue Talents {#rogue-talents}
 
-**Passive:** The poisoner also receives a bonus on Craft (alchemy) skill checks when working with
-poison equal to 1/2 her rogue level.
+The following rogue talents complement the poisoner archetype: distracting attack, lasting poison,
+surprise attack, swift poison, and weapon training.
 
-**Replaces:** Trap sense
+## Advanced Talents {#advanced-talents}
 
-**These rogue talents complement this archetype:** Distracting attack, lasting poison, surprise
-attack, swift poison, weapon training
-
-**These advanced rogue talents complement this archetype:** Deadly cocktail, hunter's surprise,
-opportunist
+The following advanced rogue talents complement the poisoner archetype: deadly cocktail, hunter's
+surprise, and opportunist.

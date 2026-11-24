@@ -16,10 +16,16 @@ page = "124"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "class-skills" },
+  { anchor = "animal-companion" },
+  { anchor = "improved-empathic-link", level = 6 },
+  { anchor = "strong-bond", level = 12 },
+]
 trades = [
-  { replaces = "Hunter's bond", feature = "hunter-s-bond" },
-  { replaces = "6th-level combat style feat", feature = "combat-style-feat", levels = [6] },
-  { replaces = "Camouflage", feature = "camouflage" },
+  { replaces = "Hunter's bond", feature = "hunter-s-bond", by = ["animal-companion"] },
+  { replaces = "6th-level combat style feat", feature = "combat-style-feat", levels = [6], by = ["improved-empathic-link"] },
+  { replaces = "Camouflage", feature = "camouflage", by = ["strong-bond"] },
 ]
 +++
 
@@ -32,54 +38,44 @@ following class features.
 
 **Lost class skills:** kd, kg, prof, spc
 
-**Animal Companion (Ex)**
+## Class Skills {#class-skills}
 
-**Ability:** A beast master forms a close bond with an
-[animal companion](ref/sidekick/animal-companion). This ability functions like the druid animal
-companion ability except that the ranger's effective druid level is equal to his ranger level - 3.
-The ranger gains a +2 bonus on _wild empathy_ and Handle Animal checks made regarding his animal
-companion. Unlike a normal ranger, a beast master's choice of animal companion is not limited to a
-subset of all possibile animal companion choices - he may choose freely among all animal companion
-choices, just as a druid can.
+A beast master's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Escape Artist (Dex),
+Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (nature) (Int), Perception (Wis), Ride
+(Dex), Stealth (Dex), Survival (Wis), and Swim (Wis). These replace the standard ranger class
+skills.
 
-**Ability2:** Each time a beast master's effective druid level increases, he must decide how to
-allocate the increase among his animal companions (including the option of adding a new 1st-level
-companion). Once an effective druid level is allocated to a particular companion, it cannot be
-redistributed while that companion is in the ranger's service (he must release a companion or wait
-until a companion dies to allocate its levels to another companion).
+## Animal Companion (Ex) {#animal-companion}
 
-**Info:** The beast master may have more than one animal companion, but he must divide up his
-effective druid level between his companions to determine the abilities of each companion. For
-example, a beast master with an effective druid level of 4 can have one 4th-level companion, two
-2nd-level companions, or one 1st-level and one 3rd-level companion.
+A beast master forms a close bond with an [animal companion](ref/sidekick/animal-companion). This
+ability functions like the druid animal companion ability except that the ranger's effective druid
+level is equal to his ranger level - 3. The ranger gains a +2 bonus on wild empathy and Handle
+Animal checks made regarding his animal companion. Unlike a normal ranger, a beast master's choice
+of animal companion is not limited to a subset of all possibile animal companion choices—he may
+choose freely among all animal companion choices, just as a druid can.
 
-**Gained:** At 4th Level
+The beast master may have more than one animal companion, but he must divide up his effective druid
+level between his companions to determine the abilities of each companion. For example, a beast
+master with an effective druid level of 4 can have one 4th-level companion, two 2nd-level
+companions, or one 1st-level and one 3rd-level companion. Each time a beast master's effective druid
+level increases, he must decide how to allocate the increase among his animal companions (including
+the option of adding a new 1st-level companion). Once an effective druid level is allocated to a
+particular companion, it cannot be redistributed while that companion is in the ranger's service (he
+must release a companion or wait until a companion dies to allocate its levels to another
+companion). The share spells animal companion ability does not give the ranger the ability to cast a
+single spell so that it affects all of his animal companions. This ability replaces hunter's bond.
 
-**Replaces:** Hunter's bond
+## Improved Empathic Link (Su) {#improved-empathic-link}
 
-**Special:** The _share spells_ animal companion ability does not give the ranger the ability to
-cast a single spell so that it affects all of his animal companions.
+The beast master gains an empathic link with all of his animal companions. This functions like an
+empathic link with a [familiar](ref/sidekick/familiar), except the ranger can also see through a
+companion's eyes as a swift action, maintaining this connection as long as he likes (as long as the
+companion is within 1 mile) and ending it as a free action. The ranger can only see through the eyes
+of one companion at a time, and is [blinded](ref/misc/blinded) while maintaining this connection.
+This replaces the 6th-level combat style feat.
 
-**Improved Empathic Link (Su)**
+## Strong Bond (Ex) {#strong-bond}
 
-**Ability:** The beast master gains^1-2^ an empathic link with all of his animal companions. This
-functions like an empathic link with a [familiar](ref/sidekick/familiar), except the ranger can also
-see through a companion's eyes as a **swift action**, maintaining this connection as long as he
-likes (as long as the companion is within 1 mile) and ending it as a **free action**.
-
-**Gained:** At 6th Level
-
-**Replaces:** 6th-level combat style feat
-
-**Special:** The ranger can only see through the eyes of one companion at a time, and is
-[blinded](ref/misc/blinded) while maintaining this connection.
-
-**Strong Bond (Ex)**
-
-**Ability:** The ranger strengthens his bond with his animal companions. The ranger's effective
+At 12th level, the ranger strengthens his bond with his animal companions. The ranger's effective
 druid level for his animal companions is now equal to his ranger level; he may immediately allocate
-these additional levels to his companions as he sees fit.
-
-**Gained:** At 12th Level
-
-**Replaces:** Camouflage
+these additional levels to his companions as he sees fit. This ability replaces camouflage.

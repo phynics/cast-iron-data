@@ -16,8 +16,37 @@ page = "128"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hunter-s-tricks", level = 5 },
+  { anchor = "aiding-attack" },
+  { anchor = "bolster-companion" },
+  { anchor = "catfall" },
+  { anchor = "chameleon-step" },
+  { anchor = "cunning-pantomime" },
+  { anchor = "defensive-bow-stance" },
+  { anchor = "deft-stand" },
+  { anchor = "distracting-attack" },
+  { anchor = "hateful-attack" },
+  { anchor = "heel" },
+  { anchor = "hobbling-attack" },
+  { anchor = "quick-climb" },
+  { anchor = "quick-healing" },
+  { anchor = "quick-swim" },
+  { anchor = "ranger-s-counsel" },
+  { anchor = "rattling-strike" },
+  { anchor = "second-chance-strike" },
+  { anchor = "sic-em" },
+  { anchor = "skill-sage" },
+  { anchor = "stag-s-leap" },
+  { anchor = "surprise-shift" },
+  { anchor = "tangling-attack" },
+  { anchor = "trick-shot" },
+  { anchor = "uncanny-senses" },
+  { anchor = "upending-strike" },
+  { anchor = "vengeance-strike" },
+]
 trades = [
-  { replaces = "Spellcasting ability", feature = "spells" },
+  { replaces = "Spells", feature = "spells", by = ["hunter-s-tricks"] },
 ]
 +++
 
@@ -25,168 +54,156 @@ Many rangers rely on spells, but there are some who eschew aid from divine power
 reasons. Skirmishers rely on their wits, their wisdom, and sometimes even instinct to aid in their
 quests. A skirmisher has the following class features.
 
-**Hunter's Tricks**
+## Hunter's Tricks {#hunter-s-tricks}
 
-**Flavor:** A skirmisher ranger learns the use of _hunter's tricks,_ which typically grant a boon or
-bonus to the ranger or a nearby ally.
+At 5th level, a skirmisher ranger learns the use of hunter's tricks, which typically grant a boon or
+bonus to the ranger or a nearby ally. At 5th level, the ranger learns one trick, selected from the
+list below. At 7th level, and every two levels thereafter, he learns another trick. A ranger can use
+these tricks a total number of times per day equal to 1/2 his ranger level + his Wisdom modifier.
+Tricks are usually swift actions, but sometimes move or free actions that modify a standard action,
+usually an attack action. Once a trick is chosen, it can't be retrained. A ranger cannot select an
+individual trick more than once. This ability replaces the ranger's spells class feature.
+Skirmishers do not gain any spells or spellcasting ability, do not have a caster level, and cannot
+use spell trigger and spell completion magic items.
 
-**At 5th Level:** The ranger learns one trick, selected from the list below.
+The following is a list of hunter tricks and their effects.
 
-**Replaces:** Spellcasting ability
+## Aiding Attack (Ex) {#aiding-attack}
 
-**Special:** Tricks are usually **swift actions**, but sometimes **move** or **free** actions that
-modify a **standard action**, usually an attack action. Once a trick is chosen, it can't be
-retrained. A ranger cannot select an individual trick more than once.
+The ranger can use this trick as a free action when he hits a creature with an attack. The next ally
+who makes an attack against the target creature before the start of the ranger's next turn gains a
++2 circumstance bonus on that attack roll.
 
-**Usage:** A number of times per day equal to 1/2 his ranger level + his Wisdom modifier
+## Bolster Companion (Ex) {#bolster-companion}
 
-**Usage:** A number of times per day equal to 1/2 his ranger level + his Wisdom modifier
-
-At 9th level: He learns his 2nd trick.
-
-At 11th level: He learns his 3rd trick.
-
-At 13th level: He learns his 4th trick.
-
-At 15th level: He learns his 5th trick.
-
-At 17th level: He learns his 6th trick.
-
-At 19th level: He learns his 7th trick.
-
-**Aiding Attack (Ex)**
-
-**Free:** The ranger can use this trick when he hits a creature with an attack. The next ally who
-makes an attack against the target creature before the start of the ranger's next turn gains a +2
-circumstance bonus on that attack roll.
-
-**Bolster Companion (Ex)**
-
-**Immediate:** The ranger can use this trick when his animal companion is hit with an attack or a
-combat maneuver. The companion's AC and combat maneuver defense increase by +4 for the purposes of
-that attack. If the attack still hits, the animal companion only takes half damage (if any). The
+The ranger can use this trick as an immediate action when his animal companion is hit with an attack
+or a combat maneuver. The companion's AC and combat maneuver defense increase by +4 for the purposes
+of that attack. If the attack still hits, the animal companion only takes half damage (if any). The
 animal companion must be able to see and hear the ranger to benefit from this trick.
 
-**Catfall (Ex)**
+## Catfall (Ex) {#catfall}
 
-**Immediate:** The ranger can use this trick when he falls 20 or more feet, ignoring the first 20
-feet of the fall when calculating the [falling damage](ref/rule/falling). If the ranger takes no
-damage from the fall, he does not fall prone.
+The ranger can use this trick as an immediate action when he falls 20 or more feet, ignoring the
+first 20 feet of the fall when calculating the [falling damage](ref/rule/falling). If the ranger
+takes no damage from the fall, he does not fall prone.
 
-**Chameleon Step (Ex)**
+## Chameleon Step (Ex) {#chameleon-step}
 
-**Move:** The ranger can move up to twice his speed. The ranger does not take any penalty on Stealth
-checks for movement during this move. This move provokes attacks of opportunity as normal.
+The ranger can move up to twice his speed as a move action. The ranger does not take any penalty on
+Stealth checks for movement during this move. This move provokes attacks of opportunity as normal.
 
-**Cunning Pantomime (Ex)**
+## Cunning Pantomime (Ex) {#cunning-pantomime}
 
-**Standard:** The ranger can communicate with a single creature as if using the
-[tongues](ref/spell/tongues) spell for 10 minutes. Because the communication is slow and lacks
+As a standard action, the ranger can communicate with a single creature as if using the
+_[tongues](ref/spell/tongues)_ spell for 10 minutes. Because the communication is slow and lacks
 subtlety, the ranger suffers a -4 penalty on all Bluff and Diplomacy checks relating to the creature
 he is communicating with when using this trick.
 
-**Defensive Bow Stance (Ex)**
+## Defensive Bow Stance (Ex) {#defensive-bow-stance}
 
-**Swift:** Until the start of his next turn, the ranger's ranged attacks do not provoke attacks of
-opportunity.
+The ranger can use this trick as a swift action. Until the start of his next turn, his ranged
+attacks do not provoke attacks of opportunity.
 
-**Deft Stand (Ex)**
+## Deft Stand (Ex) {#deft-stand}
 
-**Move:** The ranger can spend a move action to stand up without provoking attacks of opportunity.
+The ranger can spend a move action to stand up without provoking attacks of opportunity.
 
-**Distracting Attack (Ex)**
+## Distracting Attack (Ex) {#distracting-attack}
 
-**Free:** The ranger can use this trick before he makes an attack. If the attack hits, the target
-takes a -2 penalty on all attack rolls for 1 round.
+The ranger can use this trick as a free action before he makes an attack. If the attack hits, the
+target takes a -2 penalty on all attack rolls for 1 round.
 
-**Hateful Attack (Ex)**
+## Hateful Attack (Ex) {#hateful-attack}
 
-**Free:** The ranger can use this trick when he makes an attack against one of his _favored
-enemies._ The ranger doubles the threat range of his weapon for this attack. This does not stack
-with other abilities that increase a weapon's threat range.
+The ranger can use this trick as a free action when he makes an attack against one of his favored
+enemies. The ranger doubles the threat range of his weapon for this attack. This does not stack with
+other abilities that increase a weapon's threat range.
 
-**Heel (Ex)**
+## Heel (Ex) {#heel}
 
-**Immediate:** The ranger can use this trick when his animal companion moves. When the companion
-moves, the square it starts out in is not considered threatened by any opponent it can see, and
-therefore visible enemies do not get attacks of opportunity against it when it moves from that
-square. The companion must end this movement in a square adjacent to the ranger. The animal
+The ranger can use this trick as an immediate action when his animal companion moves. When the
+companion moves, the square it starts out in is not considered threatened by any opponent it can
+see, and therefore visible enemies do not get attacks of opportunity against it when it moves from
+that square. The companion must end this movement in a square adjacent to the ranger. The animal
 companion must be able to see and hear the ranger to take this movement.
 
-**Hobbling Attack (Ex)**
+## Hobbling Attack (Ex) {#hobbling-attack}
 
-**Free:** The ranger can use this trick when he hits with an attack. The target of the attack's land
-speed is reduced by 1/2 for 1d4 rounds.
+The ranger can use this trick as a free action when he hits with an attack. The target of the
+attack's land speed is reduced by 1/2 for 1d4 rounds.
 
-**Quick Climb (Ex)**
+## Quick Climb (Ex) {#quick-climb}
 
-**Move:** The ranger can climb at his full speed without penalty.
+The ranger can climb at his full speed as a move action without penalty.
 
-**Quick Healing (Ex)**
+## Quick Healing (Ex) {#quick-healing}
 
-**Move:** Alternatively, the ranger can administer a potion to an unconscious character.
+As a swift action, the ranger can make a Heal check to administer first aid on an adjacent dying
+character. Alternatively, the ranger can administer a potion to an unconscious character as a move
+action.
 
-**Swift:** The ranger can make a Heal check to administer first aid on an adjacent dying character.
+## Quick Swim (Ex) {#quick-swim}
 
-**Quick Swim (Ex)**
+The ranger can swim at his full speed as a move action without penalty.
 
-**Move:** The ranger can swim at his full speed without penalty.
+## Ranger's Counsel (Ex) {#ranger-s-counsel}
 
-**Ranger's Counsel (Ex)**
+As a swift action, the ranger can grant all allies within 30 feet that are within line of sight and
+can hear him a +2 bonus on skill checks with a single skill of his choice. The ranger must have at
+least one rank in the chosen skill. This bonus lasts for 1 round.
 
-**Swift:** The ranger can grant all allies within 30 feet that are within line of sight and can hear
-him a +2 bonus on skill checks with a single skill of his choice. The ranger must have at least one
-rank in the chosen skill. This bonus lasts for 1 round.
+## Rattling Strike (Ex) {#rattling-strike}
 
-**Rattling Strike (Ex)**
+The ranger can use this trick as a free action before he makes a melee attack. If the attack hits,
+the target is shaken for 1d4 rounds.
 
-**Free:** The ranger can use this trick before he makes a melee attack. If the attack hits, the
-target is shaken for 1d4 rounds.
+## Second Chance Strike (Ex) {#second-chance-strike}
 
-**Second Chance Strike (Ex)**
+When he misses with a melee attack, the ranger may reroll his attack at a -5 penalty. Using this
+ability is an immediate action.
 
-**Immediate:** When he misses with a melee attack, the ranger may reroll his attack at a -5 penalty.
+## Sic 'Em (Ex) {#sic-em}
 
-**Sic-Em (Ex)**
+The ranger can use this trick as a swift action. His animal companion makes one melee attack against
+an adjacent creature. The animal companion must be able to see and hear the ranger to make this
+attack.
 
-**Swift:** The ranger's animal companion makes one melee attack against an adjacent creature. The
-animal companion must be able to see and hear the ranger to make this attack.
+## Skill Sage (Ex) {#skill-sage}
 
-**Skill Sage (Ex)**
+As a free action, the ranger can roll twice on any one skill check and take the better result. He
+must have at least 1 rank in that skill to use this ability.
 
-**Free:** The ranger can roll twice on any one skill check and take the better result. He must have
-at least 1 rank in that skill to use this ability.
+## Stag's Leap (Ex) {#stag-s-leap}
 
-**Stag's Leap (Ex)**
+As a free action, the ranger can attempt a running jump without moving 10 feet before the jump.
 
-**Free:** The ranger can attempt a running jump without moving 10 feet before the jump.
+## Surprise Shift (Ex) {#surprise-shift}
 
-**Surprise Shift (Ex)**
+The ranger can move 5 feet as a swift action. This movement does not provoke attacks of opportunity
+and does not count as a 5-foot step.
 
-**Swift:** The ranger can move 5 feet. This movement does not provoke attacks of opportunity and
-does not count as a 5-foot step.
+## Tangling Attack (Ex) {#tangling-attack}
 
-**Tangling Attack (Ex)**
+The ranger can use this attack as a free action when he makes an attack. If the attack hits, the
+target is entangled for 1 round.
 
-**Free:** The ranger can use this attack when he makes an attack. If the attack hits, the target is
-entangled for 1 round.
+## Trick Shot (Ex) {#trick-shot}
 
-**Trick Shot (Ex)**
+As a standard action, the ranger can make a ranged attack that ignores
+[concealment](ref/rule/concealment) (but not total concealment), soft [cover](ref/rule/cover), and
+partial cover.
 
-**Standard:** The ranger can make a ranged attack that ignores [concealment](ref/rule/concealment)
-(but not total concealment), soft [cover](ref/rule/cover), and partial cover.
+## Uncanny Senses (Ex) {#uncanny-senses}
 
-**Uncanny Senses (Ex)**
+As an immediate action, the ranger gains a +10 insight bonus on Perception checks for 1 round.
 
-**Immediate:** The ranger gains a +10 insight bonus on Perception checks for 1 round.
+## Upending Strike (Ex) {#upending-strike}
 
-**Upending Strike (Ex)**
+The ranger can use this trick as a free action just before he makes a melee attack. If the attack
+hits, he may make a free [trip](ref/rule/trip) combat maneuver against the target.
 
-**Free:** The ranger can use this trick just before he makes a melee attack. If the attack hits, he
-may make a free [trip](ref/rule/trip) combat maneuver against the target.
+## Vengeance Strike (Ex) {#vengeance-strike}
 
-**Vengeance Strike (Ex)**
-
-**Immediate:** The ranger can use this trick when an enemy adjacent to him hits an ally with a melee
-or ranged attack. The ranger can make a single melee attack at his highest base attack bonus against
-the creature who attacked his ally.
+The ranger can use this trick as an immediate action when an enemy adjacent to him hits an ally with
+a melee or ranged attack. The ranger can make a single melee attack at his highest base attack bonus
+against the creature who attacked his ally.
