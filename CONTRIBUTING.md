@@ -201,9 +201,10 @@ tag.
 
 1. Check that `main` is green: the `corpus` workflow passed on the commit you tag.
 2. Choose the number:
-   - patch (`v0.1.1`): corrections to entries that change no id;
-   - minor (`v0.2.0`): added entries, or added data files;
-   - major (`v1.0.0`): a change of corpus format (`corpus.toml` `format`).
+   - Until the app declares v1, every tag is the next `v0.1.N`, whatever it changes: entry
+     corrections, added or retired entries (a retired id stays an alias), and corpus format
+     changes (`corpus.toml` `format`; format 3 shipped in `v0.1.36`, format 4 in `v0.1.45`).
+     The tag message says what changed, and Cast Iron's pin reads the format from `corpus.toml`.
 3. Create and push an annotated tag on that commit:
 
    ```sh
