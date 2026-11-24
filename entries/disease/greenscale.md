@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/week
 
-**Effect:** Dexterity damage 1d2, Charisma damage 1d2, and target must make a second Fort save or 1
-point of the Cha damage is drain instead
+**Effect:** 1d2 Cha damage and 1d2 Dex damage, target must make a second Fort save or 1 point of the
+Cha damage is drain instead
 
 **Cure:** 2 consecutive saves

@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Intelligence damage 1d3, Wisdom damage 1d3, and if damaged in combat, target must make a
-second Fort save or gain the confused condition for the duration of the encounter
+**Effect:** 1d3 Wis damage and 1d3 Int damage, if damaged in combat, target must make a second Fort
+save or gain the confused condition for the duration of the encounter
 
 **Cure:** 2 consecutive saves

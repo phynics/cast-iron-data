@@ -23,6 +23,6 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Intelligence damage 1d4
+**Effect:** 1d4 Int damage
 
 **Cure:** 2 consecutive saves

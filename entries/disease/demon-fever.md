@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1d6 and target must make a second Fort save or 1 point of the damage
-is drain instead
+**Effect:** 1d6 Con damage, target must make a second Fort save or 1 point of the damage is drain
+instead
 
 **Cure:** 2 consecutive saves

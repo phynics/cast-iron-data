@@ -26,7 +26,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1d6 and Charisma damage 1d6
+**Effect:** 1d6 Con damage and 1d6 Cha damage
 
 **Cure:** 2 consecutive saves
 
