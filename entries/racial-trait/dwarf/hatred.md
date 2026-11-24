@@ -2,7 +2,7 @@
 id = "ref/racial-trait/dwarf/hatred"
 kind = "racial_trait"
 title = "Hatred"
-source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes-from-the-fringe", "heroes-of-the-wild", "blood-of-shadows", "advanced-players-guide", "horror-adventures", "rival-guide", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide"]
 parent = "ref/race/dwarf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf|racial-trait:hatred", path = "json/races.json" },

@@ -2,7 +2,7 @@
 id = "ref/racial-trait/dwarf/defensive-training"
 kind = "racial_trait"
 title = "Defensive Training"
-source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes-from-the-fringe", "blood-of-shadows", "advanced-players-guide", "horror-adventures", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide"]
 parent = "ref/race/dwarf"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf|racial-trait:defensive-training", path = "json/races.json" },
