@@ -2,7 +2,7 @@
 id = "ref/racial-trait/gnome/obsessive"
 kind = "racial_trait"
 title = "Obsessive"
-source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes-from-the-fringe", "advanced-players-guide", "horror-adventures", "legacy-of-the-first-world", "heroes-of-the-wild", "heroes-of-the-streets", "advanced-class-guide"]
+source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide"]
 parent = "ref/race/gnome"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome|racial-trait:obsessive", path = "json/races3.json" },
