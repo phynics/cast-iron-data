@@ -836,10 +836,11 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
         subject = sentence[:verb.start()]
         bare = not re.search(ABILITY_NOUN, subject, re.I) and not (plain and subject.strip().lower() == plain.lower())
         rest = sentence[verb.end():]
-        parts = re.split(r"\s*,?\s+and\s+(?=(?:replaces?|alters?|changes?)\b)", rest, flags=re.I)       # R11: two verbs, two sentences
-        ops = [verb.group(1)] + [re.match(r"(replaces?|alters?|changes?)", x, re.I).group(1) for x in parts[1:]]
+        # R11: two verbs, two sentences; "changes" is a verb only as the first one (owner ruling 25)
+        parts = re.split(r"\s*,?\s+and\s+(?=(?:replaces?|alters?)\b)", rest, flags=re.I)
+        ops = [verb.group(1)] + [re.match(r"(replaces?|alters?)", x, re.I).group(1) for x in parts[1:]]
         for op_word, part in zip(ops, parts):
-            part = re.sub(r"^(?:replaces?|alters?|changes?)\b", "", part.strip(), flags=re.I)
+            part = re.sub(r"^(?:replaces?|alters?)\b", "", part.strip(), flags=re.I)
             out.append((_op_of(op_word), _clean_phrase(part), bare))
     return out
 
@@ -1667,8 +1668,9 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
                        if quiet(f) and namekey(name) in {namekey(x) for x in f.get("import_trades", [])}]
             if own:
                 by[i] = own
-            elif op == "alters" and t.get("feature") == "weapon-and-armor-proficiencies":
-                by[i] = []              # owner ruling 23: a proficiency change that no sentence states, stored as `alters`
+            elif (op == "alters" and t.get("feature") == "weapon-and-armor-proficiencies"
+                  and not any(sop == "alters" for sop, _, _ in opening_sentences)):
+                by[i] = []              # owner ruling 23, per operation: a proficiency section that prints no `alters` sentence
             else:
                 problems.append(f"the {op} trade `{name}` is not printed in a sentence, and no listed feature of that name prints it")
     for f in listed:
@@ -2524,6 +2526,7 @@ def self_test() -> int:
        [("replaces", "tactician", False), ("alters", "the standard cavalier's selection of bonus feats", False)], "R11 two verbs, two sentences")
     eq(trade_sentences("Sermonic performance replaces inspire courage.", "Sermonic Performance (Su)"), [("replaces", "inspire courage", False)], "R12 the heading is a subject")
     eq(trade_sentences("Sermonic performance replaces inspire courage.", ""), [], "R12 without the heading it is prose")
+    eq(trade_sentences("This ability replaces tactician and changes the cavalier's feats.")[0][1], "tactician and changes the cavalier's feats", "ruling 25: a second `changes` is no verb")
     eq(trade_sentences("This ability changes the Arcane Pool class feature and replaces the magus arcana gained at 3rd level."),
        [("alters", "the Arcane Pool class feature", False), ("replaces", "the magus arcana gained at 3rd level", False)], "ruling 25 changes")
     # ruling 24: ruling A per operation; ruling 23: a proficiency change stored as alters needs no sentence
