@@ -428,10 +428,6 @@ title = "Duergar"
 entry = "ref/carried/monster-codex/rules/duergar"
 
 [[books.chapters.children]]
-title = "Duergar"
-entry = "ref/race/duergar"
-
-[[books.chapters.children]]
 title = "New Rules"
 entry = "ref/carried/monster-codex/rules/duergar/new-rules"
 
