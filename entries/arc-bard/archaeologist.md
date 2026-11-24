@@ -16,73 +16,89 @@ page = "32"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "bardic-performance" },
-  { anchor = "archaeologist-s-luck" },
-  { anchor = "clever-explorer", level = 2 },
-  { anchor = "uncanny-dodge", level = 2 },
-  { anchor = "trap-sense", level = 3 },
-  { anchor = "rogue-talents", level = 4 },
-  { anchor = "evasion", level = 6 },
-  { anchor = "advanced-talent", level = 12 },
-]
 trades = [
-  { replaces = "Versatile performance", feature = "versatile-performance", by = ["clever-explorer"] },
-  { replaces = "Well-versed", feature = "well-versed", by = ["uncanny-dodge"] },
+  { replaces = "Versatile performance", feature = "versatile-performance" },
+  { replaces = "Well-versed", feature = "well-versed" },
 ]
 +++
 
 No stodgy researcher, this archaeologist meets his research head-on in the field. Archaeologists
 sacrifice the bard's inspirational performance for a smattering of rogue talents. This archetype
-also fits roguelike characters that focus more on learning than on stabbing foes in the back.
+also fits rogue-like characters that focus more on learning than on stabbing foes in the back.
 
-## Bardic Performance {#bardic-performance}
+**Bardic Performance**
 
-Archaeologists do not gain the bardic performance ability or any of its performance types.
+**Info:** Archaeologists do not gain the _bardic performance_ ability or any of its performance
+types.
 
-## Archaeologist's Luck (Ex) {#archaeologist-s-luck}
+**Archaeologist's Luck (Ex)**
 
-Fortune favors the archaeologist. As a swift action, an archaeologist can call on fortune's favor,
-giving him a +1 luck bonus on attack rolls, saving throws, skill checks, and weapon damage rolls. He
-can use this ability for a number of rounds per day equal to 4 + his Charisma modifier. Maintaining
-this bonus is a free action, but it ends immediately if the archaeologist is killed, paralyzed,
-stunned, knocked unconscious, or otherwise prevented from taking a free action to maintain it each
-round. Archaeologist's luck is treated as bardic performance for the purposes of feats, abilities,
-effects, and the like that affect bardic performance. Like bardic performance, it cannot be
-maintained at the same time as other performance abilities. This bonus increases to +2 at 5th level,
-+3 at 11th level, and +4 at 17th level.
+**Flavor:** Fortune favors the archaeologist.
 
-## Clever Explorer (Ex) {#clever-explorer}
+**Special:** Archaeologist's luck is treated as bardic performance for the purposes of feats,
+abilities, effects, and the like that affect bardic performance. Like bardic performance, it cannot
+be maintained at the same time as other performance abilities.
 
-At 2nd level, an archaeologist gains a bonus equal to [half](ref/misc/fractions-and-rounding) his
+**Swift:** An archaeologist can call on fortune's favor, giving him a +1 luck bonus on attack rolls,
+saving throws, skill checks, and weapon damage rolls. Maintaining this bonus is a **free action**,
+but it ends immediately if the archaeologist is killed, paralyzed, stunned, knocked unconscious, or
+otherwise prevented from taking a free action to maintain it each round.
+
+**Usage:** Cha4 modifier rounds/day
+
+At 5th level: The bonus increases to +2.
+
+At 11th level: The bonus increases to +3.
+
+At 17th level: The bonus increases to +4.
+
+**Clever Explorer (Ex)**
+
+**At 6th Level:** An archaeologist can take 10 on Disable Device checks, even if distracted or
+endangered, and can disarm magical traps.
+
+**Gained:** At 2nd Level
+
+**Passive:** An archaeologist gains a bonus equal to [half](ref/misc/fractions-and-rounding) his
 class level on Disable Device and Perception checks. He can disable intricate and complex devices in
-half the normal amount of time (minimum 1 round) and open a lock as a standard action. At 6th level,
-an archaeologist can take 10 on Disable Device checks, even if distracted or endangered, and can
-disarm magical traps. This ability replaces the versatile performance ability.
+half the normal amount of time (minimum 1 round) and open a lock as a **standard action**.
 
-## Uncanny Dodge (Ex) {#uncanny-dodge}
+**Replaces:** Versatile performance
 
-At 2nd level, an archaeologist gains [uncanny dodge](ref/ability/uncanny-dodge), as the rogue class
-feature of the same name. This ability replaces well-versed.
+**Uncanny Dodge (Ex)**
 
-## Trap Sense (Ex) {#trap-sense}
+**Ability:** An archaeologist gains [uncanny dodge](ref/ability/uncanny-dodge), as the rogue class
+feature of the same name.
 
-At 3rd level, an archaeologist gains [trap sense](ref/ability/trap-sense) +1, as the rogue class
-feature of the same name. This bonus improves by +1 for every three levels gained after 3rd, to a
-maximum of +6 at 18th level.
+**Gained:** At 2nd Level
 
-## Rogue Talents {#rogue-talents}
+**Replaces:** Well-versed
 
-At 4th level, an archaeologist gains a rogue talent. He gains an additional rogue talent for every
+**Trap Sense (Ex)**
+
+**Ability:** An archaeologist gains [trap sense](ref/ability/trap-sense), as the rogue class feature
+of the same name. The bonus granted by _trap sense_ is equal to one-third of your archaeologist
+level.
+
+**Gained:** At 3rd Level
+
+**Rogue Talents**
+
+**Ability:** An archaeologist gains a rogue talent. He gains an additional rogue talent for every
 four levels of archaeologist gained after 4th level. Otherwise, this works as the rogue's rogue
 talent ability.
 
-## Evasion (Ex) {#evasion}
+**Gained:** At 4th Level
 
-At 6th level, an archaeologist gains [evasion](ref/ability/evasion), as the rogue ability of the
-same name.
+**Evasion (Ex)**
 
-## Advanced Talent {#advanced-talent}
+**Ability:** An archaeologist gains [evasion](ref/ability/evasion), as the rogue ability of the same
+name.
 
-At 12th level, and every four levels thereafter, an archaeologist can choose an advanced rogue
-talent in place of a rogue talent.
+**Gained:** At 6th Level
+
+**Advanced Talent**
+
+**Ability:** An archaeologist can now choose an advanced rogue talent instead of a rogue talent.
+
+**Gained:** At 12th Level

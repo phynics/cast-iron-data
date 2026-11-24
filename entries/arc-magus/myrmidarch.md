@@ -16,75 +16,117 @@ page = "56"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "diminished-spellcasting" },
-  { anchor = "ranged-spellstrike", level = 4 },
-  { anchor = "weapon-training", level = 6 },
-  { anchor = "fighter-training", level = 7 },
-  { anchor = "armor-training", level = 8 },
-  { anchor = "armor-mastery", level = 20 },
-]
 trades = [
-  { replaces = "Spell recall", feature = "spell-recall", by = ["ranged-spellstrike"] },
-  { replaces = "improved spell recall", feature = "improved-spell-recall", by = ["ranged-spellstrike"] },
-  { replaces = "Magus arcana gained at 6th, 12th, and 18th levels", feature = "magus-arcana", levels = [6, 12, 18], by = ["weapon-training"] },
-  { replaces = "Knowledge pool", feature = "knowledge-pool", by = ["fighter-training"] },
-  { replaces = "Fighter training the magus gains at 10th level", feature = "fighter-training", levels = [10], by = ["fighter-training"] },
-  { replaces = "Improved spell combat", feature = "improved-spell-combat", by = ["armor-training"] },
-  { replaces = "greater spell combat", feature = "greater-spell-combat", by = ["armor-training"] },
-  { replaces = "True magus", feature = "true-magus", by = ["armor-mastery"] },
+  { replaces = "Spell recall", feature = "spell-recall" },
+  { replaces = "improved spell recall", feature = "improved-spell-recall" },
+  { replaces = "Magus arcana gained at 6th, 12th, and 18th levels", feature = "magus-arcana", levels = [6, 12, 18] },
+  { replaces = "Knowledge pool", feature = "knowledge-pool" },
+  { replaces = "10th-level fighter training", feature = "fighter-training", levels = [10] },
+  { replaces = "Improved spell combat", feature = "improved-spell-combat" },
+  { replaces = "greater spell combat", feature = "greater-spell-combat" },
+  { replaces = "True magus", feature = "true-magus" },
 ]
 +++
 
 The myrmidarch is a skilled specialist, using magic to supplement and augment his martial mastery.
+Less inclined to mix the two than a typical magus, the myrmidarch seeks supremacy with blade, bow,
+and armor.
 
-## Diminished Spellcasting {#diminished-spellcasting}
+**Diminished Spellcasting**
 
-Myrmidarchs cast one fewer spell of each level than normal. If this reduces the number to 0, he may
-cast spells of that level only if his Intelligence allows [bonus spells](ref/rule/determine-bonuses)
-of that level.
+**Ability:** Myrmidarchs cast one fewer spell of each level than normal. If this reduces the number
+to 0, he may cast spells of that level only if his Intelligence allows
+[bonus spells](ref/rule/determine-bonuses) of that level.
 
-## Ranged Spellstrike (Su) {#ranged-spellstrike}
+**Ranged Spellstrike (Su)**
 
-At 4th level, a myrmidarch can use spellstrike to cast a single-target touch attack ranged spell and
-deliver it through a ranged weapon attack. Even if the spell can normally affect multiple targets,
-only a single missile, ray, or effect accompanies the attack.
+**Ability:** A myrmidarch can use _spellstrike_ to cast a single-target touch attack ranged spell
+and deliver it through a ranged weapon attack. Even if the spell can normally affect multiple
+targets, only a single missile, ray, or effect accompanies the attack.
 
-At 11th level, a myrmidarch can spend a full-round action to cast a spell that includes multiple
-ranged touch attacks and deliver more than one using ranged attacks. The spell must have a casting
-time of 1 full-round action or less. This functions similarly to the base ability of ranged
-spellstrike, but the myrmidarch can deliver a number of missiles, rays, or effect up to the number
+**At 11th Level:** A myrmidarch can spend a **full-round action** to cast a spell that includes
+multiple ranged touch attacks and deliver more than one using ranged attacks. The spell must have a
+casting time of 1 full-round action or less. This functions similarly to the base ability of _ranged
+spellstrike,_ but the myrmidarch can deliver a number of missiles, rays, or effect up to the number
 of attacks he could make with a full attack. Attacks beyond the first take penalties as if the
 myrmidarch were making a full attack. Any effects not used in the round the spell is cast are lost,
 as are any additional ranged touch attacks the spell would allow beyond the myrmidarch's maximum
-number of attacks. This ability replaces spell recall and improved spell recall.
+number of attacks.
 
-## Weapon Training (Ex) {#weapon-training}
+**Gained:** At 4th Level
 
-At 6th level, a myrmidarch gains weapon training, as the [fighter](ref/class/fighter) ability,
+**Replaces:** Spell recall, improved spell recall
+
+**Weapon Training (Ex)**
+
+**Ability:** A myrmidarch gains _weapon training,_ as the [fighter](ref/class/fighter) ability,
 adding an additional weapon group every six levels after 6th (to a maximum of three groups at 18th
 level) and increasing the bonus on attack and damage rolls for weapon groups already chosen by +1.
-This ability replaces the magus arcana normally gained at 6th, 12th, and 18th levels.
 
-## Fighter Training (Ex) {#fighter-training}
+**Gained:** At 6th Level
 
-At 7th level, a myrmidarch counts his magus level -3 as his fighter level for the purpose of
-qualifying for feats (if he has levels in fighter, these levels stack). At 10th level, the
-myrmidarch treats his magus levels as fighter levels for the purposes of fighter training. This
-ability replaces knowledge pool and the fighter training the magus gains at 10th level.
+**Replaces:** Magus arcana gained at 6th, 12th, and 18th levels
 
-## Armor Training (Ex) {#armor-training}
+**Weapon Training (Ex)**
 
-At 8th level, a myrmidarch gains armor training, as the fighter ability. At 14th level, he gains
-armor training 2. This ability replaces improved spell combat and greater spell combat.
+**Flavor:** Text from the fighter class ability, with levels adjusted.
 
-## Armor Mastery (Ex) {#armor-mastery}
+**At 12th Level:** You select a new weapon group and gain the +1 bonus when using weapons from that
+group. Your previously selected group's bonus increases to +2.
 
-At 20th level, a myrmidarch gains DR 5/– when wearing armor. This ability replaces true magus.
+**At 18th Level:** You select a new weapon group and gain the +1 bonus when using weapons from that
+group. Your previously selected groups' bonuses increase to +2 and +3.
 
-## Magus Arcana {#magus-arcana}
+**At 6th Level:** Select one [weapon group](ref/ability/weapon-groups). Whenever you attack with a
+weapon from this group, you gain a +1 bonus on attack and damage rolls. You also add this bonus to
+any combat maneuver checks made with weapons from this group. This bonus also applies to your
+[CMD](ref/rule/combat-maneuvers) when defending against [disarm](ref/rule/disarm) and
+[sunder](ref/rule/sunder) attempts made against weapons from this group.
 
-The following magus arcana complement the myrmidarch archetype:
+**Special:** Bonuses granted from overlapping groups do not stack. Take the highest bonus granted
+for a weapon if it resides in two or more groups.
+
+**Fighter Training (Ex)**
+
+**At 10th Level:** The myrmidarch treats his magus levels as fighter levels for the purposes of
+_fighter training._
+
+**Gained:** At 7th Level
+
+**Passive:** A myrmidarch counts his magus level - 3 as his fighter level for the purpose of
+qualifying for feats (if he has levels in fighter, these levels stack).
+
+**Replaces:** Knowledge pool, 10th-level fighter training
+
+**Armor Training (Ex)**
+
+**Ability:** A myrmidarch gains _armor training,_ as the fighter ability, but he only receives the
+first two benefits, and at a slower rate (see below).
+
+**Gained:** At 8th Level
+
+**Replaces:** Improved spell combat, greater spell combat
+
+**Armor Training (Ex)**
+
+**Flavor:** Text from the fighter class ability, with levels adjusted.
+
+**At 14th Level:** The penalty is now reduced by 2 (minimum 0) and the maximum Dex bonus is now
+increased by +2. You can also move at your normal speed while wearing heavy armor.
+
+**At 8th Level:** Whenever you wear armor, you reduce the armor check penalty by 1 (to a minimum of
+0) and increase the maximum Dexterity bonus allowed by the armor by 1. You can also move at your
+normal speed while wearing medium armor.
+
+**Armor Mastery (Ex)**
+
+**Gained:** At 20th Level
+
+**Passive:** A myrmidarch gains DR 5/- when wearing armor.
+
+**Replaces:** True magus
+
+**Magus Arcana:** The following magus arcana complement the myrmidarch archetype:
 [accurate strike](ref/arcana/accurate-strike), [arcane edge](ref/arcana/arcane-edge),
 [lingering pain](ref/arcana/lingering-pain), [prescient attack](ref/arcana/prescient-attack),
 [prescient defense](ref/arcana/prescient-defense), [spell shield](ref/arcana/spell-shield),

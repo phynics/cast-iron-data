@@ -16,18 +16,12 @@ page = "25"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "beastform-mutagen", level = 3 },
-  { anchor = "improved-beastform-mutagen", level = 6 },
-  { anchor = "greater-beastform-mutagen", level = 10 },
-  { anchor = "grand-beastform-mutagen", level = 14 },
-]
 trades = [
-  { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["beastform-mutagen"] },
-  { replaces = "Swift poisoning", feature = "swift-poisoning", by = ["improved-beastform-mutagen"] },
-  { replaces = "Poison resistance +2, +4, and +6", feature = "poison-resistance", levels = [2, 5, 8], by = ["greater-beastform-mutagen"] },
-  { replaces = "poison immunity", feature = "poison-resistance", levels = [10], by = ["greater-beastform-mutagen"] },
-  { replaces = "Persistent mutagen", feature = "persistent-mutagen", by = ["grand-beastform-mutagen"] },
+  { replaces = "Swift alchemy", feature = "swift-alchemy" },
+  { replaces = "Swift poisoning", feature = "swift-poisoning" },
+  { replaces = "Poison resistance +2, +4, and +6", feature = "poison-resistance", levels = [2, 5, 8] },
+  { replaces = "poison immunity", feature = "poison-resistance", levels = [10] },
+  { replaces = "Persistent mutagen", feature = "persistent-mutagen" },
 ]
 +++
 
@@ -35,40 +29,52 @@ Beastmorphs study the anatomy of monsters, learning how they achieve their stran
 their knowledge to duplicate these abilities, but at the cost of taking on inhuman shapes when they
 use mutagens.
 
-## Beastform Mutagen {#beastform-mutagen}
+**Beastform Mutagen**
 
-At 3rd level, a beastmorph's mutagen causes him to take on animalistic features— whether those of an
-animal, a magical beast, an animal-like humanoid (such as a lizardfolk), or a monstrous humanoid.
-For example, when the beastmorph uses his mutagen, he may gain a furry muzzle and pointed ears like
-a werewolf, scaly skin like a lizardfolk or sahuagin, or compound eyes and mandibles like a giant
-insect. The beastmorph also gains his choice of one of the abilities listed in the
-_[alter self](ref/spell/alter-self)_ spell, which persists as long as the mutagen. He may select a
-different ability each time he creates a mutagen. This ability replaces swift alchemy.
+**Gained:** At 3rd Level
 
-## Improved Beastform Mutagen {#improved-beastform-mutagen}
+**Passive:** A beastmorph's _mutagen_ causes him to take on animalistic features - whether those of
+an animal, a magical beast, an animal-like humanoid (such as a lizardfolk), or a monstrous humanoid.
+For example, when the beastmorph uses his _mutagen,_ he may gain a furry muzzle and pointed ears
+like a werewolf, scaly skin like a lizardfolk or sahuagin, or compound eyes and mandibles like a
+giant insect. The beastmorph also gains his choice of one of the abilities listed in the
+[alter self](ref/spell/alter-self) spell, which persists as long as the _mutagen._ He may select a
+different ability each time he creates a mutagen.
 
-At 6th level, a beastmorph's mutagen grants him additional abilities and options. The alchemist
-gains his choice of two of the abilities listed in the _[beast shape I](ref/spell/beast-shape-1)_
-spell, which persist as long as the mutagen. He may select two different abilities each time he
-creates a mutagen. This ability replaces swift poisoning.
+**Replaces:** Swift alchemy
 
-## Greater Beastform Mutagen {#greater-beastform-mutagen}
+**Improved Beastform Mutagen**
 
-At 10th level, a beastmorph's mutagen grants him three of the abilities listed in the
-_[beast shape II](ref/spell/beast-shape-2)_ spell, which persist as long as the mutagen. He may
-select three different abilities each time he creates a mutagen. This ability replaces poison
-resistance +2, +4, and +6, as well as poison immunity.
+**Gained:** At 6th Level
 
-## Grand Beastform Mutagen {#grand-beastform-mutagen}
+**Passive:** A beastmorph's _mutagen_ grants him additional abilities and options. The alchemist
+gains his choice of two of the abilities listed in the [beast shape I](ref/spell/beast-shape-1)
+spell, which persist as long as the _mutagen._ He may select two different abilities each time he
+creates a _mutagen._
 
-At 14th level, a beastmorph's mutagen grants him four of the abilities listed in the
-_[beast shape III](ref/spell/beast-shape-3)_ spell, which persist as long as the mutagen. He may
-select four different abilities each time he creates a mutagen. This ability replaces persistent
-mutagen.
+**Replaces:** Swift poisoning
 
-## Discoveries {#discoveries}
+**Greater Beastform Mutagen**
 
-The following discoveries complement the beastmorph archetype:
+**Gained:** At 10th Level
+
+**Passive:** A beastmorph's _mutagen_ grants him three of the abilities listed in the
+[beast shape II](ref/spell/beast-shape-2) spell, which persist as long as the _mutagen._ He may
+select three different abilities each time he creates a _mutagen._
+
+**Replaces:** Poison resistance +2, +4, and +6, poison immunity
+
+**Grand Beastform Mutagen**
+
+**Gained:** At 14th Level
+
+**Passive:** A beastmorph's _mutagen_ grants him four of the abilities listed in the
+[beast shape III](ref/spell/beast-shape-3) spell, which persist as long as the _mutagen._ He may
+select four different abilities each time he creates a _mutagen._
+
+**Replaces:** Persistent mutagen
+
+**Discoveries:** The following discoveries complement the beastmorph archetype:
 [feral mutagen](ref/discovery/feral-mutagen), [grand mutagen](ref/discovery/grand-mutagen),
 [greater mutagen](ref/discovery/greater-mutagen), [infuse mutagen](ref/discovery/infuse-mutagen),
 [mummification](ref/discovery/mummification),

@@ -16,17 +16,11 @@ page = "44"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "verdict-of-exorcism", level = 8 },
-  { anchor = "verdict-of-exile", level = 16 },
-  { anchor = "closed-mind" },
-  { anchor = "verdict-of-anathema", level = 20 },
-]
 trades = [
-  { replaces = "Second judgment", feature = "second-judgment", by = ["verdict-of-exorcism"] },
-  { replaces = "Third judgment", feature = "third-judgment", by = ["verdict-of-exile"] },
-  { replaces = "Slayer", feature = "slayer", by = ["closed-mind"] },
-  { replaces = "True judgment", feature = "true-judgment", by = ["verdict-of-anathema"] },
+  { replaces = "Second judgment", feature = "second-judgment" },
+  { replaces = "Third judgment", feature = "third-judgment" },
+  { replaces = "Slayer", feature = "slayer" },
+  { replaces = "True judgment", feature = "true-judgment" },
 ]
 +++
 
@@ -34,30 +28,47 @@ Some inquisitors, as they learn more about the threat of possession and the mach
 planes, task themselves to expel possessing spirits and conniving outsiders from the world whenever
 possible. Eventually they learn the secret of the _verdicts of exorcism, exile,_ and _anathema._
 
-## Verdict of Exorcism (Su) {#verdict-of-exorcism}
+**Verdict of Exorcism (Su)**
 
-At 8th level, an inquisitor using judgment can unleash the verdict of exorcism on a creature. When
-she does, her judgment ends, but the creature is [dazed](ref/misc/dazed) for 1 round (Will negates);
-if the creature is possessed, the possessing entity must succeed at a Will saving throw (DC 10 + 1/2
-inquisitor level + inquisitor's Wisdom bonus), or be exorcised and never again allowed in that same
-body. This ability replaces second judgment.
+**Ability:** An inquisitor using _judgment_ can unleash the _verdict of exorcism_ on a creature.
+When she does, her judgment ends, but the creature is [dazed](ref/misc/dazed) for 1 round (Will
+negates); if the creature is possessed, the possessing entity must succeed at a Will saving throw
+(DC 10 + 1/2 inquisitor level + inquisitor's Wisdom bonus), or be exorcised and never again allowed
+in that same body.
 
-## Verdict of Exile (Su) {#verdict-of-exile}
+**Gained:** At 8th Level
 
-At 16th level, an inquisitor using judgment can unleash the verdict of exile on a creature. When she
-does, her judgment ends, but the creature subject to that judgment is dazed for 1 round (Will
+**Replaces:** Second judgment
+
+**Verdict of Exile (Su)**
+
+**Ability:** An inquisitor using _judgment_ can unleash the _verdict of exile_ on a creature. When
+she does, her judgment ends, but the creature subject to that judgment is dazed for 1 round (Will
 negates, DC of 10 + 1/2 inquisitor level + Wisdom bonus). If the creature is possessed or an
-outsider, the possessing entity or the outsider is affected by _[dismissal](ref/spell/dismissal)_
-(Will negates). This ability replaces third judgment.
+outsider, the possessing entity or the outsider is affected by [dismissal](ref/spell/dismissal)
+(Will negates).
 
-## Closed Mind (Su) {#closed-mind}
+**Gained:** At 16th Level
 
-An exorcist inquisitor must close off her mind to deny her enemies even a foothold. At 17th level,
-the inquisitor becomes immune to compulsion effects and possession attempts (including
-_[magic jar](ref/spell/magic-jar)_). This ability replaces slayer.
+**Replaces:** Third judgment
 
-## Verdict of Anathema (Su) {#verdict-of-anathema}
+**Closed Mind (Su)**
 
-At 20th level, an inquisitor using judgment can unleash the verdict of anathema on her enemies. When
-she does, her judgment ends, and all enemy creatures within 10 feet are affected by her verdict of
-exorcism. This ability replaces true judgment.
+**Flavor:** An exorcist inquisitor must close off her mind to deny her enemies even a foothold.
+
+**Gained:** At 17th Level
+
+**Passive:** The inquisitor becomes immune to compulsion effects and possession attempts (including
+[magic jar](ref/spell/magic-jar)).
+
+**Replaces:** Slayer
+
+**Verdict of Anathema (Su)**
+
+**Ability:** An inquisitor using _judgment_ can unleash the _verdict of anathema_ on her enemies.
+When she does, her judgment ends, and all enemy creatures within 10 feet are affected by her
+_verdict of exorcism._
+
+**Gained:** At 20th Level
+
+**Replaces:** True judgment

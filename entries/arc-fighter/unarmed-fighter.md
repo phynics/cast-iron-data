@@ -16,31 +16,18 @@ page = "48"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "unarmed-style", level = 1 },
-  { anchor = "harsh-training", level = 2 },
-  { anchor = "tough-guy", level = 3 },
-  { anchor = "weapon-training", level = 5 },
-  { anchor = "clever-wrestler", level = 7 },
-  { anchor = "trick-throw", level = 8 },
-  { anchor = "takedown", level = 12 },
-  { anchor = "eye-gouge", level = 13 },
-  { anchor = "sucker-punch", level = 17 },
-  { anchor = "sheer-toughness", level = 19 },
-  { anchor = "weapon-mastery" },
-]
 trades = [
-  { replaces = "The bonus feat at 1st level", feature = "bonus-feats", levels = [1], by = ["unarmed-style"] },
-  { replaces = "Bravery", feature = "bravery", by = ["harsh-training"] },
-  { replaces = "Armor training 1", feature = "armor-training", levels = [3], by = ["tough-guy"] },
-  { replaces = "Weapon training 1, 2, 3, and 4", by = ["weapon-training"] },
-  { replaces = "Armor training 2", feature = "armor-training", levels = [7], by = ["clever-wrestler"] },
-  { replaces = "The 8th-level bonus feat", feature = "bonus-feats", levels = [8], by = ["trick-throw"] },
-  { replaces = "The 12th-level bonus feat", feature = "bonus-feats", levels = [12], by = ["takedown"] },
-  { replaces = "Weapon training 3", feature = "weapon-training", levels = [13], by = ["eye-gouge"] },
-  { replaces = "Armor training 4", feature = "armor-training", levels = [15], by = ["sucker-punch"] },
-  { replaces = "Armor mastery", feature = "armor-mastery", by = ["sheer-toughness"] },
-  { alters = "Weapon mastery", feature = "weapon-mastery", by = ["weapon-mastery"] },
+  { replaces = "The bonus feat at 1st level", feature = "bonus-feats", levels = [1] },
+  { replaces = "Bravery", feature = "bravery" },
+  { replaces = "Armor training 1", feature = "armor-training", levels = [3] },
+  { replaces = "Weapon training 1, 2, 3, and 4" },
+  { replaces = "Armor training 2", feature = "armor-training", levels = [7] },
+  { replaces = "The 8th-level bonus feat", feature = "bonus-feats", levels = [8] },
+  { replaces = "The 12th-level bonus feat", feature = "bonus-feats", levels = [12] },
+  { replaces = "Weapon training 3", feature = "weapon-training", levels = [13] },
+  { replaces = "Armor training 4", feature = "armor-training", levels = [15] },
+  { replaces = "Armor mastery", feature = "armor-mastery" },
+  { alters = "Weapon mastery", feature = "weapon-mastery" },
 ]
 +++
 
@@ -49,80 +36,140 @@ only rarely, and when he does, he prefers the weapons of the monk. There are eve
 them for monks, but these fighters enter the fight without ki, and instead have a tough perseverance
 that few can rival.
 
-## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
+**Weapon and Armor Proficiency**
 
-An unarmed fighter is not proficient with medium armor, heavy armor, or shields. An unarmed fighter
-is proficient with all [monk](ref/class/monk) weapons, including exotic monk weapons.
+**Info:** An unarmed fighter is not proficient with medium armor, heavy armor, or shields. An
+unarmed fighter is proficient with all [monk](ref/class/monk) weapons, including exotic monk
+weapons.
 
-## Unarmed Style {#unarmed-style}
+**Unarmed Style**
 
-At 1st level, a unarmed fighter gains the
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat and any single style feat (see
-Chapter 3) as a bonus feat. The unarmed fighter need not meet all the prerequisites of the style
-feat he chooses, but style feats that grant additional uses of the
-[Elemental Fist](ref/feat/elemental-fist) feat cannot be taken until the unarmed fighter has that
-feat. This ability replaces the bonus feat at 1st level.
+**Ability:** An unarmed fighter gains the
+[Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat and any single style feat as a
+bonus feat. The unarmed fighter need not meet all the prerequisites of the style feat he chooses,
+but style feats that grant additional uses of the [Elemental Fist](ref/feat/elemental-fist) feat
+cannot be taken until the unarmed fighter has that feat.
 
-## Harsh Training (Ex) {#harsh-training}
+**Gained:** At 1st Level
 
-At 2nd level, an unarmed fighter gains a +1 bonus on saving throws against effects that cause the
-exhausted, fatigued, or staggered conditions or temporary penalties to ability scores. This bonus
-increases by +1 for every four levels after 2nd (to a maximum of +5 at 18th level). This ability
-replaces bravery.
+**Replaces:** The bonus feat at 1st level
 
-## Tough Guy (Ex) {#tough-guy}
+**Harsh Training (Ex)**
 
-At 3rd level, an unarmed fighter gains DR/— equal to [half](ref/misc/fractions-and-rounding) his
+**Gained:** At 2nd Level
+
+**Passive:** An unarmed fighter gains a +1 bonus on saving throws against effects that cause the
+exhausted, fatigued, or staggered conditions or temporary penalties to ability scores.
+
+**Replaces:** Bravery
+
+At 6th level: This bonus increases to +2.
+
+At 10th level: This bonus increases to +3.
+
+At 14th level: This bonus increases to +4.
+
+At 18th level: This bonus increases to +5.
+
+**Tough Guy (Ex)**
+
+**Gained:** At 3rd Level
+
+**Passive:** An unarmed fighter gains DR/- equal to [half](ref/misc/fractions-and-rounding) his
 fighter level against nonlethal damage or damage taken while he is
-[grappled](ref/rule/grapple-conditions). This ability replaces armor training 1.
+[grappled](ref/rule/grapple-conditions).
 
-## Weapon Training (Ex) {#weapon-training}
+**Replaces:** Armor training 1
 
-At 5th level, an unarmed fighter gains a +1 bonus on attack and damage rolls with weapons in the
-monk and natural [weapon groups](ref/ability/weapon-groups), improving by +1 for every four levels
-beyond 5th (to a maximum of +4 at 17th level). This ability replaces weapon training 1, 2, 3, and 4.
+**Weapon Training (Ex)**
 
-## Clever Wrestler (Ex) {#clever-wrestler}
+**Gained:** At 5th Level
 
-At 7th level, an unarmed fighter takes no penalties to Dexterity or on attack rolls while grappled,
-and retains his Dexterity bonus to AC while pinning an opponent. The unarmed fighter can make
-attacks of opportunity even when grappled and even against creatures attempting to
-[grapple](ref/rule/grapple) him if the opponent has the
-[Improved Grapple](ref/feat/improved-grapple) feat or the [grab](ref/umr/grab) ability. This ability
-replaces armor training 2.
+**Passive:** An unarmed fighter gains a +1 bonus on attack and damage rolls with weapons in the monk
+and natural [weapon groups](ref/ability/weapon-groups).
 
-## Trick Throw (Ex) {#trick-throw}
+**Replaces:** Weapon training 1, 2, 3, and 4
 
-At 8th level, when an unarmed fighter successfully [trips](ref/rule/trip) an opponent with an
+At 9th level: This bonus increases to +2.
+
+At 13th level: This bonus increases to +3.
+
+At 17th level: This bonus increases to +4.
+
+**Clever Wrestler (Ex)**
+
+**Ability:** The unarmed fighter can make attacks of opportunity even when grappled and even against
+creatures attempting to [grapple](ref/rule/grapple) him if the opponent has the
+[Improved Grapple](ref/feat/improved-grapple) feat or the [grab](ref/umr/grab) ability.
+
+**Gained:** At 7th Level
+
+**Passive:** An unarmed fighter takes no penalties to Dexterity or on attack rolls while grappled,
+and retains his Dexterity bonus to AC while pinning an opponent.
+
+**Replaces:** Armor training 2
+
+**Trick Throw (Ex)**
+
+**Immediate:** When an unarmed fighter successfully [trips](ref/rule/trip) an opponent with an
 unarmed attack, he can attempt a [dirty trick](ref/rule/dirty-trick) combat maneuver against that
-creature (before the opponent becomes prone) as an immediate action that does not provoke attacks of
-opportunity. This ability replaces the 8th-level bonus feat.
+creature (before the opponent becomes prone).
 
-## Takedown (Ex) {#takedown}
+**Gained:** At 8th Level
 
-At 12th level, if an unarmed fighter succeeds on a [drag](ref/rule/drag) maneuver, he can attempt a
-trip maneuver against the same target as a swift action that does not provoke attacks of
-opportunity. At 15th level, he may do so after a successful grapple check. This ability replaces the
-12th-level bonus feat.
+**Provokes attack of opportunity:** No
 
-## Eye Gouge (Ex) {#eye-gouge}
+**Replaces:** The 8th-level bonus feat
 
-At 13th level, if an unarmed fighter confirms a critical hit with his unarmed strike or begins his
-turn grappled, he may attempt a dirty trick maneuver to [blind](ref/misc/blinded) his target as a
-swift action that does not provoke attacks of opportunity. A target more than one size category
-larger is unaffected. This ability replaces weapon training 3.
+**Takedown (Ex)**
 
-## Sucker Punch (Ex) {#sucker-punch}
+**At 15th Level:** He may do so after a successful grapple check.
 
-At 17th level, when an unarmed fighter strikes a creature that is denied its Dexterity bonus to AC,
-or that he has successfully pinned with a grapple check, he can attempt a dirty trick or trip combat
-maneuver against that target as a swift action. This ability replaces armor training 4.
+**Gained:** At 12th Level
 
-## Sheer Toughness (Ex) {#sheer-toughness}
+**Provokes attack of opportunity:** No
 
-At 19th level, an unarmed fighter becomes immune to nonlethal damage and the exhausted, fatigued,
-and staggered conditions. This ability replaces armor mastery.
+**Replaces:** The 12th-level bonus feat
 
-## Weapon Mastery (Ex) {#weapon-mastery}
+**Swift:** If an unarmed fighter succeeds on a [drag](ref/rule/drag) maneuver, he can attempt a trip
+maneuver against the same target.
 
-This ability applies to unarmed strikes only.
+**Eye Gouge (Ex)**
+
+**Gained:** At 13th Level
+
+**Provokes attack of opportunity:** No
+
+**Replaces:** Weapon training 3
+
+**Special:** A target more than one size category larger is unaffected.
+
+**Swift:** If an unarmed fighter confirms a critical hit with his unarmed strike or begins his turn
+grappled, he may attempt a dirty trick maneuver to [blind](ref/misc/blinded) his target.
+
+**Sucker Punch (Ex)**
+
+**Gained:** At 17th Level
+
+**Replaces:** Armor training 4
+
+**Swift:** When an unarmed fighter strikes a creature that is denied its Dexterity bonus to AC, or
+that he has successfully pinned with a grapple check, he can attempt a dirty trick or trip combat
+maneuver against that target.
+
+**Sheer Toughness (Ex)**
+
+**Gained:** At 19th Level
+
+**Passive:** An unarmed fighter becomes immune to nonlethal damage and the exhausted, fatigued, and
+staggered conditions.
+
+**Replaces:** Armor mastery
+
+**Weapon Mastery (Ex)**
+
+**Alters:** Weapon mastery
+
+**Info:** _Weapon mastery_ applies to unarmed strikes only.
+
+**Gained:** At 20th Level

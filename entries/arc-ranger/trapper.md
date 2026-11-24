@@ -16,55 +16,48 @@ page = "65"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "class-skills" },
-  { anchor = "trapfinding" },
-  { anchor = "trap", level = 5 },
-  { anchor = "launch-trap", level = 10 },
-]
 trades = [
-  { replaces = "Spells", feature = "spells", by = ["trap"] },
+  { replaces = "Spellcasting ability", feature = "spells" },
 ]
 +++
 
 A trapper is a ranger who focuses exclusively on traps, rather than learning conventional magic. A
 trapper has the following class features.
 
-## Class Skills {#class-skills}
+**Gained class skills:** dd
 
-A trapper adds Disable Device to her list of class skills in addition to the normal ranger class
-skills.
+**Trapfinding**
 
-## Trapfinding {#trapfinding}
+**Ability:** A trapper can use Disable Device to disarm magic traps.
 
-A trapper adds 1/2 her ranger level on Perception skill checks made to locate traps and on Disable
-Device skill checks (minimum +1). A trapper can use Disable Device to disarm magic traps.
+**Passive:** A trapper adds 1/2 her ranger level on Perception skill checks made to locate traps and
+on Disable Device skill checks (minimum +1).
 
-## Trap {#trap}
+**Trap**
 
-At 5th level, a trapper learns how to create a [snare trap](ref/rangertrap/snare-trap) and one other
-ranger trap of her choice. At 7th level and every two levels thereafter, she learns another trap.
-The trapper can use these traps a total number of times per day equal to 1/2 her ranger level + her
-Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a different type of
-trap. The trapper cannot select an individual trap more than once. This ability replaces the
-ranger's spells class feature. Trappers do not gain any spells or spellcasting ability, do not have
-a caster level, and cannot use spell trigger and spell completion magic items.
+**At 5th Level:** A trapper learns how to create a [snare trap](ref/rangertrap/snare-trap) and one
+other ranger trap of her choice.
 
-## Launch Trap {#launch-trap}
+**Repeat:** She learns another trap., 7, 2
 
-At 10th level, a trapper can affix a magical ranger trap to an arrow, crossbow bolt, or thrown
-weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to
-the projectile is part of the full-round action of creating a new trap. The trapped projectile is
+**Replaces:** Spellcasting ability
+
+**Special:** The trapper can use these traps a total number of times per day equal to 1/2 her ranger
+level + her Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a
+different type of trap. The trapper cannot select an individual trap more than once.
+
+**Launch Trap**
+
+**Ability:** A trapper can affix a magical ranger trap to an arrow, crossbow bolt, or thrown weapon,
+allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the
+projectile is part of the **full-round action** of creating a new trap. The trapped projectile is
 fired or thrown in the normal manner. If fired at a square, the trap is treated as if the ranger had
 set the trap in that square, except the DC is 5 lower than normal. If fired at a creature, the
-target takes damage from the ranged weapon and is treated as if it had triggered
+target takes damage from the ranged weapon and is treated as if it had triggered the trap (saving
+throw applies, if any). The attack has a maximum range of 60 feet, and range increments apply to the
+attack roll.
 
-the trap (saving throw applies, if any). The attack has
+**Gained:** At 10th Level
 
-a maximum range of 60 feet, and range increments
-
-apply to the attack roll. The duration of the trapped
-
-projectile starts from when it is created, not from
-
-when it is used.
+**Special:** The duration of the trapped projectile starts from when it is created, not from when it
+is used.

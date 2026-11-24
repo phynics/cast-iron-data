@@ -16,14 +16,9 @@ page = "19"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "cognatogen", level = 1 },
-  { anchor = "perfect-recall", level = 2 },
-  { anchor = "languages" },
-]
 trades = [
-  { replaces = "Mutagen", feature = "mutagen", by = ["cognatogen"] },
-  { replaces = "Poison use", feature = "poison-use", by = ["perfect-recall"] },
+  { replaces = "Mutagen", feature = "mutagen" },
+  { replaces = "Poison use", feature = "poison-use" },
 ]
 +++
 
@@ -32,32 +27,37 @@ some use alchemy for the opposite purpose - to boost the power of the mind and m
 can reach incredible levels of mental acuity, but suffers lingering debilitating effects to his
 physique. A mindchemist has the following class features.
 
-## Cognatogen {#cognatogen}
+**Cognatogen**
 
-At 1st level, a mindchemist learns how to create a [cognatogen](ref/discovery/cognatogen), as per
-the cognatogen discovery. This ability replaces the [mutagen](ref/discovery/mutagen) class ability
-(a mindchemist cannot create mutagens unless he selects mutagen as a discovery).
+**Ability:** A mindchemist learns how to create a cognatogen, as per the
+[cognatogen](ref/discovery/cognatogen) discovery. (A mindchemist cannot create mutagens unless he
+selects [mutagen](ref/discovery/mutagen) as a discovery.)
 
-## Perfect Recall {#perfect-recall}
+**Gained:** At 1st Level
 
-At 2nd level, a mindchemist has honed his memory. When making a Knowledge check, he may add his
-Intelligence bonus on the check a second time. Thus, a mindchemist with 5 ranks in Knowledge
-(history) and a +2 Intelligence bonus has a total skill bonus of +9 (5 + 2 + 2) using this ability.
-The mindchemist can also use this ability when making an Intelligence check to remember something.
-This ability replaces poison use.
+**Replaces:** Mutagen
 
-## Bonus Feats {#bonus-feats}
+**Perfect Recall**
 
-A mindchemist may select [Skill Focus](ref/feat/skill-focus) (Disable Device, Disguise, Heal, any
-Knowledge skill, Sense Motive, or Spellcraft) in place of a discovery.
+**Gained:** At 2nd Level
 
-## Languages {#languages}
+**Passive:** When making a Knowledge check, he may add his Intelligence bonus on the check a second
+time. Thus, a mindchemist with 5 ranks in Knowledge (history) and a +2 Intelligence bonus has a
+total skill bonus of +9 (5 + 2 + 2) using this ability. The mindchemist can also use this ability
+when making an Intelligence check to remember something.
 
-A mindchemist may learn three languages in place of a discovery.
+**Replaces:** Poison use
 
-## Discoveries {#discoveries}
+**Bonus Feats**
 
-The following discoveries complement the mindchemist archetype:
+**Passive:** A mindchemist may select [Skill Focus](ref/feat/skill-focus) (Disable Device, Disguise,
+Heal, any Knowledge skill, Sense Motive, or Spellcraft) in place of a discovery.
+
+**Languages**
+
+**Passive:** A mindchemist may learn three languages in place of a discovery.
+
+**Discoveries:** The following discoveries complement the mindchemist archetype:
 [grand cognatogen](ref/discovery/grand-cognatogen),
 [greater cognatogen](ref/discovery/greater-cognatogen),
 [infuse mutagen](ref/discovery/infuse-mutagen).

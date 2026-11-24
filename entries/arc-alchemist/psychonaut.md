@@ -16,72 +16,83 @@ page = "19"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "bomb" },
-  { anchor = "precognition", level = 5 },
-  { anchor = "psychic-senses", level = 8 },
-  { anchor = "remote-consciousness", level = 10 },
-  { anchor = "greater-precognition", level = 15 },
-  { anchor = "master-precognition", level = 17 },
-]
 trades = [
-  { replaces = "Bombs", feature = "bomb", by = ["bomb"] },
-  { replaces = "Poison resistance +4", feature = "poison-resistance", levels = [5], by = ["precognition"] },
-  { replaces = "Poison resistance +6", feature = "poison-resistance", levels = [8], by = ["psychic-senses"] },
-  { replaces = "Poison immunity", feature = "poison-resistance", levels = [10], by = ["remote-consciousness"] },
-  { replaces = "Increase to bomb damage at this level", by = ["greater-precognition", "master-precognition"] },
+  { replaces = "Bombs", feature = "bomb" },
+  { replaces = "Poison resistance +4", feature = "poison-resistance", levels = [5] },
+  { replaces = "Poison resistance +6", feature = "poison-resistance", levels = [8] },
+  { replaces = "Poison immunity", feature = "poison-resistance", levels = [10] },
+  { replaces = "15th-level bomb damage increase" },
+  { replaces = "17th-level bomb damage increase" },
 ]
 +++
 
 A psychonaut uses his knowledge to explore altered states of consciousness and even other planes of
 existence. A psychonaut has the following class features.
 
-## Bomb {#bomb}
+**Bomb**
 
-A psychonaut's bombs deal damage [one die step](ref/misc/damage-die-adjustments) lower than normal
-(regular bombs deal d4s, [concussive bombs](ref/discovery/concussive-bomb) deal 1d3s, and so on).
-This ability otherwise functions as and replaces the standard alchemist bomb class feature.
+**Ability:** A psychonaut's bombs deal damage [one die step](ref/misc/damage-die-adjustments) lower
+than normal (regular bombs deal d4s, [concussive bombs](ref/discovery/concussive-bomb) deal 1d3s,
+and so on). This ability otherwise functions as and replaces the standard alchemist bomb class
+feature.
 
-## Precognition {#precognition}
+**Replaces:** Bombs
 
-At 5th level, a psychonaut adds _[augury](ref/spell/augury)_ to his formula book as a 2nd-level
-extract (this extract does not require a divine focus component). This replaces poison resistance
-+4.
+**Precognition**
 
-## Psychic Senses {#psychic-senses}
+**Gained:** At 5th Level
 
-At 8th level, a psychonaut adds
-_[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)_,
-_[detect scrying](ref/spell/detect-scrying)_, _[scrying](ref/spell/scrying)_, and
-_[speak with dead](ref/spell/speak-with-dead)_ to his formula book as 3rd-level extracts (a
-_[scrying](ref/spell/scrying)_ extract does not require a focus or divine focus component). When a
-psychonaut uses a _[speak with dead](ref/spell/speak-with-dead)_ extract, he gains the power to hear
-the lingering spirit within a corpse rather than enabling the corpse to audibly speak, but the
-extract otherwise works as the spell. This ability replaces poison resistance +6.
+**Passive:** A psychonaut adds [augury](ref/spell/augury) to his formula book as a 2nd-level extract
+(this extract does not require a divine focus component).
 
-## Remote Consciousness {#remote-consciousness}
+**Replaces:** Poison resistance +4
 
-At 10th level, a psychonaut adds _[dream](ref/spell/dream)_,
-_[lesser astral projection](ref/spell/astral-projection-lesser)_,
-_[nightmare](ref/spell/nightmare)_, _[plane shift](ref/spell/plane-shift)_,
-_[sending](ref/spell/sending)_, and _[telepathic bond](ref/spell/telepathic-bond)_ to his formula
-book as 4th-level extracts (a _[plane shift](ref/spell/plane-shift)_ extract does not require a
-focus component). This ability replaces poison immunity.
+**Psychic Senses**
 
-## Greater Precognition {#greater-precognition}
+**Gained:** At 8th Level
 
-At 15th level, a psychonaut adds _[moment of prescience](ref/spell/moment-of-prescience)_ to his
-formula book as a 5th-level extract. This ability replaces the increase to bomb damage at this
-level.
+**Passive:** A psychonaut adds [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
+[detect scrying](ref/spell/detect-scrying), [scrying](ref/spell/scrying), and
+[speak with dead](ref/spell/speak-with-dead) to his formula book as 3rd-level extracts (a
+_[scrying](ref/spell/scrying)_ extract does not require a focus or divine focus component).
 
-## Master Precognition {#master-precognition}
+**Replaces:** Poison resistance +6
 
-At 17th level, a psychonaut adds _[foresight](ref/spell/foresight)_ to his formula book as a
-6th-level extract. This ability replaces the increase to bomb damage at this level.
+**Special:** When a psychonaut uses a _[speak with dead](ref/spell/speak-with-dead)_ extract, he
+gains the power to hear the lingering spirit within a corpse rather than enabling the corpse to
+audibly speak, but the extract otherwise works as the spell.
 
-## Discoveries {#discoveries}
+**Remote Consciousness**
 
-The following discoveries complement the psychonaut archetype:
+**Gained:** At 10th Level
+
+**Passive:** A psychonaut adds [dream](ref/spell/dream),
+[lesser astral projection](ref/spell/astral-projection-lesser), [nightmare](ref/spell/nightmare),
+[plane shift](ref/spell/plane-shift), [sending](ref/spell/sending), and
+[telepathic bond](ref/spell/telepathic-bond) to his formula book as 4th-level extracts (a
+_[plane shift](ref/spell/plane-shift)_ extract does not require a focus component).
+
+**Replaces:** Poison immunity
+
+**Greater Precognition**
+
+**Gained:** At 15th Level
+
+**Passive:** A psychonaut adds [moment of prescience](ref/spell/moment-of-prescience) to his formula
+book as a 5th-level extract.
+
+**Replaces:** 15th-level bomb damage increase
+
+**Master Precognition**
+
+**Gained:** At 17th Level
+
+**Passive:** A psychonaut adds [foresight](ref/spell/foresight) to his formula book as a 6th-level
+extract.
+
+**Replaces:** 17th-level bomb damage increase
+
+**Discoveries:** The following discoveries complement the psychonaut archetype:
 [confusion bomb](ref/discovery/confusion-bomb), [eternal potion](ref/discovery/eternal-potion),
 [extend potion](ref/discovery/extend-potion), [lingering spirit](ref/discovery/lingering-spirit),
 and [madness bomb](ref/discovery/madness-bomb).

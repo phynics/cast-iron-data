@@ -16,20 +16,11 @@ page = "50"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "weapon-proficiency" },
-  { anchor = "gunsmith" },
-  { anchor = "deeds" },
-  { anchor = "steady-aim", level = 1 },
-  { anchor = "fast-musket", level = 3 },
-  { anchor = "rapid-reloader", level = 1 },
-  { anchor = "musket-training", level = 5 },
-]
 trades = [
-  { replaces = "Gunslinger's dodge deed", feature = "deeds", power = "gunslinger's dodge", by = ["steady-aim"] },
-  { replaces = "Utility shot deed", feature = "deeds", power = "utility shot", by = ["fast-musket"] },
-  { replaces = "Gun training 1, 2, 3, and 4", feature = "gun-training", levels = [5, 9, 13, 17], by = ["musket-training"] },
-  { alters = "Gunsmith", feature = "gunsmith", by = ["gunsmith"] },
+  { replaces = "Gunslinger's dodge deed", feature = "deeds", power = "gunslinger's dodge" },
+  { replaces = "Utility shot deed", feature = "deeds", power = "utility shot" },
+  { replaces = "Firearm training 1, 2, 3, and 4", feature = "gun-training", levels = [5, 9, 13, 17] },
+  { alters = "Gunsmith", feature = "gunsmith" },
 ]
 +++
 
@@ -38,41 +29,61 @@ firearms, and do sufficient damage for most situations. But some gunslingers wan
 firepower and range. These are the musket masters; the best of these gunslingers can reload a musket
 with dazzling speed, potentially putting even their pistol-wielding brethren to shame.
 
-## Weapon Proficiency {#weapon-proficiency}
+**Weapon Proficiency**
 
-Instead of proficiency with all firearms, a musket master only gains proficiency with two-handed
-firearms. She must take the [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency)
-(firearms) feat to gain proficiency with one-handed firearms and firearm siege engines.
+**Info:** Instead of proficiency with all firearms, a musket master only gains proficiency with
+two-handed firearms. She must take the
+[Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearm) feat to gain proficiency
+with one-handed firearms and firearm siege engines.
 
-## Gunsmith {#gunsmith}
+**Gunsmith**
 
-A [musket](ref/eq-weapon/musket) master must take a musket when she chooses a battered firearm at
-1st level.
+**Alters:** Gunsmith
 
-## Deeds {#deeds}
+**Info:** A musket master must take a [musket](ref/eq-weapon/musket) when she chooses a battered
+firearm at 1st level.
 
-A musket master swaps a pair of deeds for the following.
+**Deeds**
 
-## Steady Aim (Ex) {#steady-aim}
+**Info:** A musket master swaps a pair of deeds for the following.
 
-At 1st level, as long as a musket master has at least 1 grit point, she can take a move-equivalent
-action to increase the accuracy of a two-handed firearm. When she does, she increases the range
-increment of the firearm she is firing by 10 feet. This stacks with other abilities that increase
-her range increment. This deed replaces the gunslinger's dodge deed.
+**Steady Aim (Ex)**
 
-## Fast Musket (Ex) {#fast-musket}
+**Gained:** At 1st Level
 
-At 3rd level, as long as the musket master has 1 grit point, she can reload any two-handed firearm
-as if it were a one-handed firearm. This deed replaces the utility shot deed.
+**Move:** As long as a musket master has at least 1 grit point, she can increase the accuracy of a
+two-handed firearm. When she does, she increases the range increment of the firearm she is firing by
+10 feet. This stacks with other abilities that increase her range increment.
 
-## Rapid Reloader {#rapid-reloader}
+**Replaces:** Gunslinger's dodge deed
 
-At 1st level, a musket master gains [Rapid Reload](ref/feat/rapid-reload) (musket) as a bonus feat.
-Use the updated version of this feat on page 115.
+**Fast Musket (Ex)**
 
-## Musket Training (Ex) {#musket-training}
+**Ability:** As long as the musket master has 1 grit point, she can reload any two-handed firearm as
+if it were a one-handed firearm.
 
-Starting at 5th level, a musket master increases her skill with two-handed firearms. She gains a
-bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a two-handed
-firearm, the misfire value increases by 2 instead of 4. Every four levels thereafter (9th, 13th, and
-17th), the bonus on damage rolls increases by +1. This replaces gun training 1, 2, 3, and 4.
+**Gained:** At 3rd Level
+
+**Replaces:** Utility shot deed
+
+**Rapid Reloader**
+
+**Ability:** A musket master gains [Rapid Reload](ref/feat/rapid-reload) (muskets) as a bonus feat.
+
+**Gained:** At 1st Level
+
+**Musket Training (Ex)**
+
+**Ability:** A musket master increases her skill with two-handed firearms. She gains a bonus on
+damage rolls equal to her Dexterity modifier, and when she misfires with a two-handed firearm, the
+misfire value increases by 2 instead of 4.
+
+**Gained:** At 5th Level
+
+**Replaces:** Firearm training 1, 2, 3, and 4
+
+At 9th level: The damage bonus increases to her Dexterity modifier +1.
+
+At 13th level: The damage bonus increases to her Dexterity modifier +2.
+
+At 17th level: The damage bonus increases to her Dexterity modifier +3.

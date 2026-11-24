@@ -16,85 +16,111 @@ page = "65"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "bastion-of-good", level = 1 },
-  { anchor = "holy-shield", level = 4 },
-  { anchor = "divine-bond", level = 5 },
-  { anchor = "improved-bastion", level = 11 },
-  { anchor = "perfect-bastion", level = 20 },
-]
 trades = [
-  { replaces = "Smite evil", feature = "smite-evil", by = ["bastion-of-good"] },
-  { replaces = "Channel positive energy", feature = "channel-positive-energy", by = ["holy-shield"] },
-  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["improved-bastion"] },
-  { replaces = "Holy champion", feature = "holy-champion", by = ["perfect-bastion"] },
+  { replaces = "Smite evil", feature = "smite-evil" },
+  { replaces = "Channel positive energy", feature = "channel-positive-energy" },
+  { replaces = "Aura of justice", feature = "aura-of-justice" },
+  { replaces = "Holy champion", feature = "holy-champion" },
 ]
 +++
 
 When faced by evil, the sacred shield reaches first not for a weapon, but for her trusty shield.
 With her faith, she can ward others from harm.
 
-## Bastion of Good (Su) {#bastion-of-good}
+**Bastion of Good (Su)**
 
-At 1st level, a sacred shield can call upon the powers of good to defend her and her allies against
-evil. This ability functions as smite evil, except that the paladin gains no benefit on attack or
+**Ability:** A sacred shield can call upon the powers of good to defend her and her allies against
+evil. This ability functions as _smite evil,_ except that the paladin gains no benefit on attack or
 damage rolls against her target. Instead, any attacks the target makes against allies within 10 feet
 of the paladin deal half damage. Attacks against the paladin deal full damage, but the paladin gains
-a deflection bonus to her AC equal to her Charisma bonus (if any) against attacks made by the target
-of the smite. This bonus increases by +1 for every four paladin levels (to a maximum of +6 at 20th
-level). As with smite evil, if the paladin targets a creature that is not evil, her bastion of good
-ability is wasted with no effect. Feats, abilities, and the like that increase a paladin's number of
-uses of smite evil per day increase a sacred shield's uses of bastion of good per day. This ability
-replaces smite evil.
+a deflection bonus to her AC against attacks made by the target of the smite. This bonus is equal to
+one-fourth of her paladin level + her Charisma bonus (if any).
 
-## Holy Shield (Su) {#holy-shield}
+**Gained:** At 1st Level
 
-At 4th level, a sacred shield can channel her faith into her shield, protecting any nearby allies.
-All allies adjacent to the paladin gain a shield bonus equal to the sacred shield's own shield
-bonus, including any increase from the shield's enhancement bonus. This bonus does not stack with
-any existing shield bonuses. The paladin herself radiates [light](ref/spell/light) as a _light_
-spell while the shielding is active. At 11th level, this protection expands to cover any allies
-within 10 feet and the radiance increases to the effects of a _[daylight](ref/spell/daylight)_
-spell. At 20th level, any allies within 20 feet are protected. Using this ability consumes two uses
-of the sacred shield's lay on hands ability, and the effects last for 3 rounds plus a number of
-rounds equal to her Charisma bonus (if any). This ability replaces channel positive energy.
+**Replaces:** Smite evil
 
-## Divine Bond (Su) {#divine-bond}
+**Special:** As with _smite evil,_ if the paladin targets a creature that is not evil, her _bastion
+of good_ ability is wasted with no effect. Feats, abilities, and the like that increase a paladin's
+number of uses of _smite evil_ per day increase a sacred shield's uses of _bastion of good_ per day.
 
-At 5th level, instead of forming a divine bond with her weapon or a mount, a sacred shield forms a
-bond with her shield. As a standard action, a sacred shield can enhance her shield by calling on the
-aid of a celestial spirit. This bond lasts for 1 minute per paladin level. When called, the spirit
-causes the shield to shed light like a [torch](ref/eq-misc/torch). At 5th level, the spirit grants
-the shield a +1 enhancement bonus. For every three levels beyond 5th, the shield gains another +1
-enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the shield,
-stacking with existing enhancement bonuses to a maximum of +5, or they can be used to add any of the
-following armor special abilities: _[arrow deflection](ref/magic-enh/arrow-deflection)_,
-_[bashing](ref/magic-enh/bashing)_, _[blinding](ref/magic-enh/blinding)_,
-_[fortification](ref/magic-enh/fortification)_ (any), _[reflecting](ref/magic-enh/reflecting)_, and
-_[spell resistance](ref/magic-enh/spell-resistance)_ (any). The _reflecting_ enhancement may be used
-once each time the sacred shield makes use of her divine bond. Adding these armor special abilities
-consumes an amount of bonus equal to the property's cost (see Table 15–4 on page 485 of the _Core
-Rulebook_). These bonuses are added to any properties the shield already has, but duplicate special
-abilities do not grant any extra benefit. If the shield is not magical, at least a +1 enhancement
-bonus must be added before any other special abilities can be added. The bonus and special abilities
-granted by the spirit are determined when the spirit is called and cannot be changed until the
-spirit is called again. The celestial spirit imparts no bonuses if the shield is used by anyone
-other than the sacred shield, but it resumes giving bonuses if the sacred shield resumes using the
-shield. A sacred shield can use this ability once per day at 5th level, and one additional time per
-day for every four levels beyond 5th, to a maximum of four times per day at 17th level.
+**Holy Shield (Su)**
 
-If a shield with a celestial spirit is destroyed, the sacred shield loses the use of this ability
-for 30 days, or until she gains a level, whichever comes first. During this period, the sacred
-shield takes a -1 penalty to her armor class and on saving throws.
+**At 11th Level:** This protection expands to cover any allies within 10 feet and the radiance
+increases to the effects of a [daylight](ref/spell/daylight) spell.
 
-## Improved Bastion {#improved-bastion}
+**At 20th Level:** Any allies within 20 feet are protected.
 
-At 11th level, the radius of a sacred shield's bastion of good ability increases to 20 feet. This
-ability replaces the paladin's aura of justice.
+**At 4th Level:** A sacred shield can channel her faith into her shield, protecting any nearby
+allies. All allies adjacent to the paladin gain a shield bonus equal to the sacred shield's own
+shield bonus, including any increase from the shield's enhancement bonus. This bonus does not stack
+with any existing shield bonuses. The paladin herself radiates light as a [light](ref/spell/light)
+spell while the shielding is active.
 
-## Perfect Bastion {#perfect-bastion}
+**Replaces:** Channel positive energy
 
-At 20th level, a sacred shield and her allies within 20 feet gain
-[regeneration](ref/umr/regeneration) 10 against the target of her bastion of good ability
-(essentially regeneration that is overcome by any damage not caused by the target). This ability
-replaces the sacred shield's holy champion ability.
+**Special:** Using this ability consumes two uses of the sacred shield's _lay on hands_ ability, and
+the effects last for 3 rounds plus a number of rounds equal to her Charisma bonus (if any).
+
+**Divine Bond (Su)**
+
+**Flavor:** Instead of forming a _divine bond_ with her weapon or a mount, a sacred shield forms a
+bond with her shield.
+
+**Info:** If a shield with a celestial spirit is destroyed, the sacred shield loses the use of this
+ability for 30 days, or until she gains a level, whichever comes first. During this period, the
+sacred shield takes a -1 penalty to her armor class and on saving throws.
+
+**Gained:** At 5th Level
+
+**Special:** These bonuses can be added to the shield, stacking with existing enhancement bonuses to
+a maximum of +5, or they can be used to add any of the following armor special abilities:
+[arrow deflection](ref/magic-enh/arrow-deflection), [bashing](ref/magic-enh/bashing),
+[blinding](ref/magic-enh/blinding), [fortification](ref/magic-enh/fortification) (any),
+[reflecting](ref/magic-enh/reflecting), and [spell resistance](ref/magic-enh/spell-resistance)
+(any). The _reflecting_ enhancement may be used once each time the sacred shield makes use of her
+_divine bond._
+
+Adding these armor special abilities consumes an amount of bonus equal to the property's cost. These
+bonuses are added to any properties the shield already has, but duplicate special abilities do not
+grant any extra benefit. If the shield is not magical, at least a +1 enhancement bonus must be added
+before any other special abilities can be added.
+
+The bonus and special abilities granted by the spirit are determined when the spirit is called and
+cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the
+shield is used by anyone other than the sacred shield, but it resumes giving bonuses if the sacred
+shield resumes using the shield.
+
+**Standard:** A sacred shield can enhance her shield by calling on the aid of a celestial spirit.
+This bond lasts for 1 minute per paladin level. When called, the spirit causes the shield to shed
+light like a [torch](ref/eq-misc/torch). The spirit grants the shield a +1 enhancement bonus.
+
+**Usage:** 1 time/day + 1 per 4 paladin levels beyond 5th
+
+At 8th level: The shield's bonus increases to +2.
+
+At 11th level: The shield's bonus increases to +3.
+
+At 14th level: The shield's bonus increases to +4.
+
+At 17th level: The shield's bonus increases to +5.
+
+At 20th level: The shield's bonus increases to +6.
+
+**Improved Bastion**
+
+**Ability:** The radius of a sacred shield's _bastion of good_ ability increases to 20 feet.
+
+**Gained:** At 11th Level
+
+**Replaces:** Aura of justice
+
+**Perfect Bastion**
+
+**Gained:** At 20th Level
+
+**Passive:** A sacred shield and her allies within 20 feet gain [regeneration](ref/umr/regeneration)
+10 against the target of her _bastion of good_ ability (essentially regeneration that is overcome by
+any damage not caused by the target).
+
+**Replaces:** Holy champion

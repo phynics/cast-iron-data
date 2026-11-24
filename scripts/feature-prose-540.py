@@ -1446,6 +1446,11 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     xref = re.sub(r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
                   r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
                   r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?\)", "", text)
+    # a bare book citation at the end of a parenthesis ("(including the alchemist's bomb class ability; Advanced
+    # Player's Guide 28)", owner ruling 26): the corpus links the named rule
+    xref = re.sub(r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+                  r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+                  r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?(?=\))", "", xref)
     xref = re.sub(r"\s*\((?![Ss]ee\b)(?=[^()]{0,70}\))[^()]*\bpage\s*\d+[^()]*\)", "", xref)     # a short one only: a long one has text
     if xref != text:
         notes.append("printed cross-reference left out")
@@ -1500,6 +1505,17 @@ def unprinted_notes(opening: list[list[str]], printed: list[str]) -> list[int]:
     return out
 
 
+# A head of the import that misspells the printed head (data fix; the section is the printed one): the entry, the
+# import's head, the printed head. Gun Tank (Ultimate Combat p. 50): "Bullet Defection (Ex)" for "Bullet Deflection (Ex)".
+IMPORT_HEAD_FIXES = {
+    ("ref/arc-gunslinger/gun-tank", "Bullet Defection (Ex)"): "Bullet Deflection (Ex)",
+}
+
+
+def import_name(entry_id: str, name: str) -> str:
+    return IMPORT_HEAD_FIXES.get((entry_id, name), name)
+
+
 def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str]) -> bool:
     """Whether the printed section holds a key of its asterisks (a sentence that names the asterisk and is not the
     book's "An asterisk (*) indicates ..." line): then its marks stay (owner ruling 10)."""
@@ -1528,7 +1544,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     matched: list[int | None] = []
     for pf in pfeats:
         key = namekey(pf.head)
-        idx = next((i for i in range(last + 1, len(feats)) if i not in used and namekey(feats[i].name) == key), None)
+        idx = next((i for i in range(last + 1, len(feats)) if i not in used and namekey(import_name(e.id, feats[i].name)) == key), None)
         if idx is not None:
             used.add(idx)
             last = idx
@@ -1537,7 +1553,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     for n, pf in enumerate(pfeats):
         if matched[n] is None:
             key = namekey(pf.head)
-            idx = next((i for i in range(len(feats)) if i not in used and namekey(feats[i].name) == key), None)
+            idx = next((i for i in range(len(feats)) if i not in used and namekey(import_name(e.id, feats[i].name)) == key), None)
             if idx is not None:
                 used.add(idx)
                 matched[n] = idx
@@ -1597,6 +1613,8 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     imp_words = Counter(tokens(" ".join(logical(b) for i, b in enumerate(opening_imp) if i not in gone)))
     print_words = Counter(tokens(" ".join(kept)))
     diff = sorted(((imp_words - print_words) + (print_words - imp_words)).elements())
+    if not diff and "\u2014" in " ".join(kept) and "\u2014" not in " ".join(logical(b) for i, b in enumerate(opening_imp) if i not in gone):
+        diff = ["\u2014"]          # the import writes the printed em dash as " - "
     return {"rows": rows, "problems": problems, "opening": kept, "opening_links": links,
             "opening_dropped": [logical(opening_imp[i]) for i in gone], "opening_diff": diff}
 
@@ -1762,17 +1780,16 @@ TRADE_MERGED = {
 }
 
 
-# A level that the lead does not state and the class table does not prove by name (owner ruling 11 of 2026-11-24,
-# applied in the review of batch 1): the entry and anchor, the level, the TSV note.
-LEVEL_OVERRIDES = {
-    ("ref/arc-bard/daredevil", "agile"): (1, "level 1: replaces bardic knowledge, gained at 1st level in the class table (ruling 11)"),
-    ("ref/arc-bard/daredevil", "derring-do"): (1, "level 1: replaces inspire courage, gained at 1st level in the class table (ruling 11)"),
-    ("ref/arc-bard/animal-speaker", "animal-friend"): (1, "level 1: replaces fascinate, gained at 1st level in the class table (ruling 11)"),
-    ("ref/arc-druid/pack-lord", "pack-bond"): (1, "level 1: replaces nature bond, gained at 1st level in the class table (ruling 11)"),
-    ("ref/arc-cleric/separatist", "forbidden-rites"): (1, "level 1: replaces domains, gained at 1st level in the class table (ruling 11)"),
-    ("ref/arc-cleric/theologian", "focused-domain"): (1, "level 1: replaces domains, gained at 1st level in the class table (ruling 11)"),
-    ("ref/arc-cleric/undead-lord", "death-magic"): (1, "level 1: replaces domains, gained at 1st level in the class table (ruling 11)"),
-    ("ref/arc-rogue/pirate", "unflinching"): (3, "level 3: print says \"At 3rd level\" after its flavor sentence"),
+# Features whose first paragraph states the level after a flavor sentence or inside its first sentence (owner review
+# of batch 1): the level is the first "At Nth level" of the paragraph. The paragraphs of the other features hold
+# progressions ("At 6th level ..., at 9th level ...") that this reading would take for the level of the feature.
+LEVEL_IN_FIRST_PARAGRAPH = {
+    ("ref/arc-barbarian/true-primitive", "trophy-fetish"),
+    ("ref/arc-gunslinger/gun-tank", "bullet-deflection"),
+    ("ref/arc-inquisitor/exorcist", "closed-mind"),
+    ("ref/arc-paladin/empyreal-knight", "celestial-heart"),
+    ("ref/arc-rogue/pirate", "unflinching"),
+    ("ref/arc-paladin/divine-hunter", "precise-shot"),
 }
 
 
@@ -1865,18 +1882,35 @@ def opening_texts(rows: list[dict], opening: list[str]) -> list[str]:
     return list(opening) + [r["print"] for r in rows if not r["listed"] and not r.get("parent") and r["print"]]
 
 
+def first_level_key(name: str) -> str:
+    """A feature name as the class table of a base class writes it, compared without case, plural, tag and suffix:
+    "smite evil 1/day", "channel energy 1d6", "bomb 1d6", "Bombs" and "witch's familiar" are the names smite evil,
+    channel energy, bomb, bomb and witch's familiar."""
+    name = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", ABILITY_TAG.sub("", name))
+    name = re.sub(r"[_*]", "", name)
+    name = re.sub(r"\s+(?:\d+/\w+|\d+d\d+|[+\-]\d.*|\d+)$", "", name.strip())
+    name = re.sub(r"^[a-z]+'s\s+", "", fold(name))                 # "witch's familiar" is the name familiar
+    return " ".join(stem(w) for w in re.findall(r"[a-z0-9']+", name))
+
+
 def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
-    """The name keys of the features that the class table of a base class lists at 1st level."""
+    """The names (see `first_level_key`) of the features that the Special column of the class table of a base class
+    lists at 1st level. The column is found by its heading: it is the last column of a martial class and the sixth
+    of a caster's table, never a spell-slot column or fast movement."""
     if class_id in cache:
         return cache[class_id]
     path = corpus / "entries" / (class_id.removeprefix("ref/") + ".md")
     keys: set[str] = set()
     if path.exists():
+        col = None
         for ln in path.read_text(encoding="utf-8").split("\n"):
-            if ln.startswith("|1st|"):
-                last = [c for c in ln.strip().strip("|").split("|") if c.strip()][-1]
-                for item in last.split(","):
-                    keys.add(namekey(re.sub(r"\s*[+\-]\d.*$", "", item)))
+            cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+            if col is None and ln.startswith("|Level|") and "Special" in cells:
+                col = cells.index("Special")
+            elif col is not None and ln.startswith("|1st|"):
+                if col < len(cells):
+                    for item in re.split(r",(?![^()]*\))", cells[col]):
+                        keys.add(first_level_key(item))
                 break
     cache[class_id] = keys
     return keys
@@ -2019,6 +2053,13 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         first = r["print"].split("\n\n", 1)[0] if r["print"] else ""
         r["level"] = lead_level(first)
         if r["level"] is None and r["listed"]:
+            # a level that print states after a flavor sentence or inside the sentence (reviewed list)
+            if (e.id, r["anchor"]) in LEVEL_IN_FIRST_PARAGRAPH:
+                m = re.search(r"\b(?:At|Starting at|Beginning at)\s+(\d+)(st|nd|rd|th)\s+level\b", first, re.I)
+                if m and 1 <= int(m.group(1)) <= 20 and m.group(2) == ordinal(int(m.group(1)))[len(m.group(1)):]:
+                    r["level"] = int(m.group(1))
+                    r["notes"].append(f"level {r['level']}: print says \"{m.group(0)}\" in its first paragraph, after an opening sentence")
+        if r["level"] is None and r["listed"]:
             m = re.match(r"[^.]*?\bgains this ability at (\d+)(st|nd|rd|th) level\b", first)
             if m and 1 <= int(m.group(1)) <= 20 and m.group(2) == ordinal(int(m.group(1)))[len(m.group(1)):]:
                 r["level"] = int(m.group(1))
@@ -2034,14 +2075,10 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 firsts = []
                 for t in mine:
                     cls = t.get("class") or (e.classes[0] if e.classes else "")
-                    firsts.append(bool(cls) and namekey(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache))
+                    firsts.append(bool(cls) and first_level_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache))
                 if all(firsts) and all(trade_name(t)[0] == "replaces" for t in mine):
                     r["level"] = 1
                     r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", gained at 1st level in the class table")
-        forced = LEVEL_OVERRIDES.get((e.id, r["anchor"]))
-        if forced and r["listed"]:
-            r["level"] = forced[0]
-            r["notes"].append(forced[1])
         if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold" \
                 and (e.id, r["anchor"]) not in decisions:
             r["status"] = "hold"
@@ -2278,7 +2315,7 @@ def stale_rows(e: Entry, rows: list[dict]) -> list[str]:
     _, feats = parse_import(e.body, probe)
     spans: dict[str, set[str]] = {}
     for f in feats:
-        spans.setdefault(namekey(f.name), set()).add(f.span_sha())
+        spans.setdefault(namekey(import_name(e.id, f.name)), set()).add(f.span_sha())
     bad = []
     for r in rows:
         if r["span_sha256"] and r["feature"]:
@@ -2547,6 +2584,27 @@ def self_test() -> int:
     eq(text, "Choose boasting taunt, guarded life, and a feat (see the Stealth skill).", "both stars of a mark go, a cross-reference stays")
     text, _, notes = print_md(pf, [], set(), "ref/arc-fighter/crusader", True)
     eq(text.count("\\*"), 3, "the marks stay when the key is printed")
+    pf = PrintFeature("Bullet Deflection (Ex)", [[("(including the alchemist's bomb class ability; ", False, False), ("Advanced Player's Guide", False, True), (" 28). It works.", False, False)]], 50)
+    text, _, notes = print_md(pf, [("alchemist's", "ref/class/alchemist")], set(), "ref/arc-gunslinger/gun-tank")
+    eq(text, "(including the [alchemist's](ref/class/alchemist) bomb class ability). It works.", "ruling 26: a bare book citation goes, the link stays")
+    # ruling 11: the Special column of the class table, with its suffixes, never a spell-slot or fast-movement column
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        (Path(tmp) / "entries" / "class").mkdir(parents=True)
+        (Path(tmp) / "entries" / "class" / "witch.md").write_text(
+            "|Level|Base Attack Bonus|Fort Save|Ref Save|Will Save|Special|0|1st|\n|---|---|---|---|---|---|---|---|\n"
+            "|1st|+0|+0|+0|+2|Cantrips, hex, witch's familiar|3|1|\n", encoding="utf-8")
+        (Path(tmp) / "entries" / "class" / "monk.md").write_text(
+            "|Level|Base Attack Bonus|Fort Save|Ref Save|Will Save|Special|Flurry|Fast Movement|\n|---|---|---|---|---|---|---|---|\n"
+            "|1st|+0|+2|+2|+2|Bonus feat, flurry of blows, _[stunning fist](ref/x)_|-1/-1|+0 ft.|\n", encoding="utf-8")
+        (Path(tmp) / "entries" / "class" / "paladin.md").write_text(
+            "|Level|Base Attack Bonus|Special|\n|---|---|---|\n|1st|+1|Aura of good, smite evil 1/day, channel energy 1d6, bomb 1d6|\n", encoding="utf-8")
+        eq(sorted(class_first_level(Path(tmp), "ref/class/witch", {})), ["cantrip", "familiar", "hex"], "Special column of a caster")
+        eq("+0 ft." in class_first_level(Path(tmp), "ref/class/monk", {}), False, "never fast movement")
+        eq("flurry of blow" in class_first_level(Path(tmp), "ref/class/monk", {}), True, "monk special")
+        eq(first_level_key("Bombs") in class_first_level(Path(tmp), "ref/class/paladin", {}), True, "a plural trade name, a suffixed table name")
+        eq(first_level_key("Smite evil") in class_first_level(Path(tmp), "ref/class/paladin", {}), True, "smite evil 1/day")
+        eq(first_level_key("Channel energy") in class_first_level(Path(tmp), "ref/class/paladin", {}), True, "channel energy 1d6")
     # links: the longer label first, the same case first
     got, lost = apply_links("a lesser planar ally and a planar ally later", [("planar ally", "ref/spell/planar-ally"), ("lesser planar ally", "ref/spell/lesser-planar-ally")])
     eq(got, "a [lesser planar ally](ref/spell/lesser-planar-ally) and a [planar ally](ref/spell/planar-ally) later", "longer label first")

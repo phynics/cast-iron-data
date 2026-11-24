@@ -22,11 +22,8 @@ page = "149"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "ki-power" },
-]
 trades = [
-  { replaces = "The monk class ability the qinggong monk gives up for this ki power", by = ["ki-power"] },
+  { replaces = "The monk class abilities the qinggong monk gives up for a ki power" },
 ]
 +++
 
@@ -35,181 +32,304 @@ opponents with supernatural energy. Some achieve their power over ki through ext
 while others attain this power by intentionally or accidentally ingesting rare herbs or strange
 mystical fruits, and a few are gifted these abilities by a dying qinggong master.
 
-## Ki Power {#ki-power}
+**Ki Power**
 
-A qinggong monk can select a _ki_ power (see below) for which she qualifies in place of the
-following monk class abilities: slow fall (4th), high jump (5th), wholeness of body (7th), diamond
-body (11th), abundant step (12th), diamond soul (13th), quivering palm (15th), timeless body (17th),
-tongue of the sun and moon (17th), empty body (19th), and perfect self (20th). This replaces the
-monk class ability the qinggong monk gives up for this _ki_ power.
+**Ability:** A qinggong monk can select a ki power (see below) for which she qualifies in place of
+the following monk class abilities.
 
-### Ki Powers {#ki-powers}
+**At 11th Level:** Diamond body
 
-_Ki_ powers are abilities that draw on the power of a monk's _ki_. The standard monk presented in
-the _Core Rulebook_ has several abilities that count as _ki_ powers, such as wholeness of body,
-abundant step, and empty body. A qinggong monk can learn additional _ki_ powers, which often
-replaces a non-_ki_ monk ability such as purity of body. _Ki_ powers are divided into three
-categories: feats, monk abilities, and spells.
+**At 12th Level:** Abundant step
 
-### Feats {#feats}
+**At 13th Level:** Diamond soul
 
-These _ki_ powers duplicate the effects of specific feats. A monk does not need to qualify for a
-feat to select it as a _ki_ power. For example, a qinggong monk can select Spring Attack as a _ki_
+**At 15th Level:** Quivering palm
+
+**At 17th Level:** Timeless body; Tongue of the sun and moon
+
+**At 19th Level:** Empty body
+
+**At 20th Level:** Perfect self
+
+**At 4th Level:** Slow fall
+
+**At 5th Level:** High jump
+
+**At 7th Level:** Wholeness of body
+
+**Replaces:** The monk class abilities the qinggong monk gives up for a ki power.
+
+**Special:** Ki powers are abilities that draw on the power of a monk's ki. The standard monk has
+several abilities that count as ki powers, such as _wholeness of body, abundant step,_ and _empty
+body._ A qinggong monk can learn additional ki powers, which often replaces a non-ki monk ability
+such as _purity of body._ Ki powers are divided into three categories: **feats, monk abilities,**
+and **spells.**
+
+**Feats**
+
+**Info:** These ki powers duplicate the effects of specific feats. A monk does not need to qualify
+for a feat to select it as a ki power. For example, a qinggong monk can select Spring Attack as a ki
 power even if she doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating
-one of these _ki_ powers is a free action on the monk's turn; until the start of her next turn, the
-monk is treated as if she had that feat. Some of these _ki_ powers that duplicate feats may also be
-activated as an immediate action; these powers are noted in the _ki_ powers list.
+one of these ki powers is a **free action** on the monk's turn; until the start of her next turn,
+the monk is treated as if she had that feat. Some of these ki powers that duplicate feats may also
+be activated as an **immediate action**; these powers are noted in the ki powers list.
 
-### Monk Abilities {#monk-abilities}
+**Monk Abilities**
 
-Some _ki_ powers are standard monk abilities described in the _Core Rulebook_. Even if a qinggong
-monk selects a different _ki_ power in place of a standard monk ability, she can select that monk
-ability later as one of her _ki_ powers.
+**Info:** Some ki powers are standard monk abilities. Even if a qinggong monk selects a different ki
+power in place of a standard monk ability, she can select that monk ability later as one of her ki
+powers.
 
-### Spells {#spells}
+**Spells**
 
-These _ki_ powers duplicate the effects of a spell, and are
+**Info:** These ki powers duplicate the effects of a spell, and are
 [spell-like abilities](ref/umr/spell-like-abilities). A qinggong monk's class level is the caster
 level for these spell-like abilities, and she uses Wisdom to determine her
 [concentration](ref/rule/concentration) check bonus.
 
-### Requirements {#requirements}
+**List of Ki Powers**
 
-All _ki_ powers have a minimum monk level requirement to select them. A monk who does not meet this
-requirement cannot select that _ki_ power.
+**Action:** Ability
 
-### Activation {#activation}
+All ki powers have a minimum monk level requirement to select them. A monk who does not meet this
+requirement cannot select that ki power.
 
-Most _ki_ powers require the monk to spend _ki_ points; the exact amount is listed after the _ki_
-power. _Ki_ powers that cost 0 _ki_ do not require the monk to have any _ki_ points in her _ki_ pool
-to use the ability.
+Most ki powers require the monk to spend ki points; the exact amount is listed after the ki power.
+Ki powers that cost 0 ki do not require the monk to have any ki points in her _ki pool_ to use the
+ability.
 
-The saving throw against a monk's _ki_ power, if any, is equal to 10 + 1/2 the monk's level + the
+The saving throw against a monk's ki power, if any, is equal to 10 + 1/2 the monk's level + the
 monk's Wisdom bonus.
 
-Feats or spells marked with a single asterisk (\*) are described in this book. Feats or spells
-marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats marked with a dagger
-(†) are _ki_ powers that can be activated as an immediate action.
+### 4th-level Ki Powers
 
-### 4th-Level Ki Powers {#4th-level-ki-powers}
-
-|Ki power|Details|
+|Feats|Ki points|
 | --- | --- |
-|Acrobatic Steps|1 _ki_ point|
-|_augury_|1 _ki_ point|
-|_barkskin_|self only, 1 _ki_ point|
-|Deny Death\*, †|0 _ki_ points|
-|_feather step_\*\*|self only, 1 _ki_ point|
-|_hydraulic push_\*\*|1 _ki_ point|
-|_ki arrow\*_|1 _ki_ point|
-|_Ki_ Stand\*, †|0 _ki_ points|
-|_message_|1 _ki_ point|
-|Power Attack|1 _ki_ point|
-|Quick Draw|1 _ki_ point|
-|_scorching ray_|2 _ki_ points|
-|slow fall|monk ability, 0 _ki_ points|
-|Throw Anything|1 _ki_ point|
-|_true strike_|self only, 1 _ki_ point|
+|[Acrobatic Steps](ref/feat/acrobatic-steps)|1|
+|[Adder Strike](ref/feat/adder-strike)|1|
+|[Death from Above](ref/feat/death-from-above)|1|
+|[Deny Death](ref/feat/deny-death) ^[1](ref/arc-monk/qinggong-monk#footnote-i)^|0|
+|[Ki Stand](ref/feat/ki-stand) ^[1](ref/arc-monk/qinggong-monk#footnote-i)^|0|
+|[Power Attack](ref/feat/power-attack)|1|
+|[Quick Draw](ref/feat/quick-draw)|1|
+|[Throw Anything](ref/feat/throw-anything)|1|
 
-### 6th-Level Ki Powers {#6th-level-ki-powers}
-
-|Ki power|Details|
+|Monk Abilities|Ki points|
 | --- | --- |
-|_cloak of winds_\*\*|self only, 2 _ki_ points|
-|_gaseous form_|self only, 1 _ki_ point|
-|Heroic Recovery\*\*, †|1 _ki_ point|
-|high jump|monk ability, 1 _ki_ point|
-|_hydraulic torrent_ \*\*|2 _ki_ points|
-|_remove disease_|2 _ki_ points|
-|Sidestep \*\*, †|1 _ki_ point|
-|Snatch Arrows†|1 _ki_ point|
-|Spring Attack|1 _ki_ point|
+|**Slow Fall**|0|
 
-### 8th-Level Ki Powers {#8th-level-ki-powers}
-
-|Ki power|Details|
+|Spells|Ki points|
 | --- | --- |
-|_dragon's breath_\*\*|2 _ki_ points|
-|Gliding Steps\*, †|1 _ki_ point|
-|_neutralize poison_|3 _ki_ points|
-|_poison_|2 _ki_ points|
-|_restoration_|self only, 2 _ki_ points|
-|_share memory_\*|0 _ki_ points|
-|_silk to steel_\*|1 _ki_ point|
-|Spider Step\*\*|1 _ki_ point|
-|Whirlwind Attack|2 _ki_ points|
-|wholeness of body|monk ability, level 7, 2 _ki_ points|
+|[Augury](ref/spell/augury)|1|
+|[Barkskin](ref/spell/barkskin) ^[2](ref/arc-monk/qinggong-monk#footnote-s)^|1|
+|[Burst of Adrenaline](ref/spell/burst-of-adrenaline)|1|
+|[Burst of Insight](ref/spell/burst-of-insight)|1|
+|[Calm Spirit](ref/spell/calm-spirit)|1|
+|[Feather Step](ref/spell/feather-step) ^[2](ref/arc-monk/qinggong-monk#footnote-s)^|1|
+|[Hydraulic Push](ref/spell/hydraulic-push)|1|
+|[Ki Arrow](ref/spell/ki-arrow)|1|
+|[Message](ref/spell/message)|1|
+|[Mighty Fist of the Earth](ref/spell/mighty-fist-of-the-earth)|1|
+|[Psychic Reading](ref/spell/psychic-reading)|1|
+|[Scorching Ray](ref/spell/scorching-ray)|2|
+|[Stone Shield](ref/spell/stone-shield)|1|
+|[True Strike](ref/spell/true-strike) ^[2](ref/arc-monk/qinggong-monk#footnote-s)^|1|
 
-### 10th-Level Ki Powers {#10th-level-ki-powers}
+### 6th-level Ki Powers
 
-|Ki power|Details|
+|Feats|Ki points|
 | --- | --- |
-|_discordant blast_\*\*|2 _ki_ points|
-|Greater Bull Rush|2 _ki_ points|
-|Greater Disarm|2 _ki_ points|
-|Greater Feint|2 _ki_ points|
-|Greater Sunder|2 _ki_ points|
-|Improved Blind-Fight\*\*, †|1 _ki_ point|
-|_ki leech_\*|0 _ki_ points|
-|Lunge|1 _ki_ point|
-|_shadow step_\*|1 _ki_ point|
-|_spit venom_\*|2 _ki_ points|
-|Step Up and Strike\*\*, †|2 _ki_ points|
-|Wind Stance|2 _ki_ points|
+|[Absorb Spirit](ref/feat/absorb-spirit)|1|
+|[Heroic Recovery](ref/feat/heroic-recovery) ^[1](ref/arc-monk/qinggong-monk#footnote-i)^|1|
+|[Sidestep](ref/feat/sidestep) ^[1](ref/arc-monk/qinggong-monk#footnote-i)^|1|
+|[Snatch Arrows](ref/feat/snatch-arrows) ^[1](ref/arc-monk/qinggong-monk#footnote-i)^|1|
+|[Spring Attack](ref/feat/spring-attack)|1|
 
-### 12th-Level Ki Powers {#12th-level-ki-powers}
-
-|Ki power|Details|
+|Monk Abilities|Ki points|
 | --- | --- |
-|abundant step|monk ability, 2 _ki_ points|
-|_battlemind link\*_|4 _ki_ points|
-|diamond body|monk ability|
-|Elemental Fists\*\*|2 _ki_ points|
-|Improvised Weapon Mastery|2 _ki_ points|
-|_Ki_ Throw\*\*|2 _ki_ points|
-|Punishing Kick\*\*|2 _ki_ points|
-|_shadow walk_|3 _ki_ points|
+|**High Jump**|1|
 
-### 14th-Level Ki Powers {#14th-level-ki-powers}
-
-|Ki power|Details|
+|Spells|Ki points|
 | --- | --- |
-|_blood crow strike_\*|2 _ki_ points|
-|Cloud Step\*\*|3 _ki_ points|
-|_cold ice strike\*_|3 _ki_ points|
-|diamond soul|monk ability|
-|Disarming Strike\*\*|2 _ki_ points|
-|Improved _Ki_ Throw\*\*|2 _ki_ points|
-|_ki shout_\*|3 _ki_ points|
-|_sonic thrust_\*|2 _ki_ points|
+|[Cloak of Winds](ref/spell/cloak-of-winds) ^[2](ref/arc-monk/qinggong-monk#footnote-s)^|2|
+|[Enshroud Thoughts](ref/spell/enshroud-thoughts)|1|
+|[Gaseous Form](ref/spell/gaseous-form) ^[2](ref/arc-monk/qinggong-monk#footnote-s)^|1|
+|[Hydraulic Torrent](ref/spell/hydraulic-torrent)|2|
+|[Mental Barrier I](ref/spell/mental-barrier-1)|1|
+|[Object Reading](ref/spell/object-reading)|1|
+|[Placebo Effect](ref/spell/placebo-effect)|1|
+|[Remove Disease](ref/spell/remove-disease)|2|
+|[Thought Shield I](ref/spell/thought-shield-1)|1|
 
-### 16th-Level Ki Powers {#16th-level-ki-powers}
+### 7th-level Ki Powers
 
-|Ki power|Details|
+|Monk Abilities|Ki points|
 | --- | --- |
-|Bleeding Critical|3 _ki_ points|
-|Greater Blind-Fight\*\*, †|2 _ki_ points|
-|Improved Vital Strike|2 _ki_ points|
-|Lightning Stance|3 _ki_ points|
-|Penetrating Strike|2 _ki_ points|
-|quivering palm|monk ability, 2 _ki_ points|
-|_strangling hair\*_|3 _ki_ points|
+|**Wholeness of Body**|2|
 
-### 18th-Level Ki Powers {#18th-level-ki-powers}
+### 8th-level Ki Powers
 
-|Ki power|Details|
+|Feats|Ki points|
 | --- | --- |
-|timeless body|monk ability, 0 _ki_ points|
-|tongue of the sun and moon|monk ability, 0 _ki_ points|
+|[Gliding Steps](ref/feat/gliding-steps) ^[1](ref/arc-monk/qinggong-monk#footnote-i)^|1|
+|[Jawbreaker](ref/feat/jawbreaker)|1|
+|[Spider Step](ref/feat/spider-step)|1|
+|[Whirlwind Attack](ref/feat/whirlwind-attack)|2|
 
-### 20th-Level Ki Powers {#20th-level-ki-powers}
-
-|Ki power|Details|
+|Spells|Ki points|
 | --- | --- |
-|Blinding Critical|3 _ki_ points|
-|Crippling Critical\*\*|3 _ki_ points|
-|Deafening Critical|3 _ki_ points|
-|empty body|monk ability, 3 _ki_ points|
-|Greater Penetrating Strike|3 _ki_ points|
-|perfect self|monk ability, level 20|
-|Tiring Critical|3 _ki_ points|
+|[Deadly Juggernaut](ref/spell/deadly-juggernaut)|2|
+|[Dragon's breath](ref/spell/dragons-breath)|2|
+|[Hypercognition](ref/spell/hypercognition)|1|
+|[Mantle of Calm](ref/spell/mantle-of-calm)|1|
+|[Mental Barrier II](ref/spell/mental-barrier-2)|1|
+|[Neutralize Poison](ref/spell/neutralize-poison)|3|
+|[Poison](ref/spell/poison)|2|
+|[Purge Spirit](ref/spell/purge-spirit)|1|
+|[Restoration](ref/spell/restoration) ^[2](ref/arc-monk/qinggong-monk#footnote-s)^|2|
+|[Share Memory](ref/spell/share-memory)|0|
+|[Silk to Steel](ref/spell/silk-to-steel)|1|
+|[Thought Shield II](ref/spell/thought-shield-2)|1|
+
+### 10th-level Ki Powers
+
+|Feats|Ki points|
+| --- | --- |
+|[Greater Bull Rush](ref/feat/greater-bull-rush)|2|
+|[Greater Disarm](ref/feat/greater-disarm)|2|
+|[Greater Feint](ref/feat/greater-feint)|2|
+|[Greater Sunder](ref/feat/greater-sunder)|2|
+|[Improved Blind-Fight](ref/feat/improved-blind-fight) ^[1](ref/arc-monk/qinggong-monk#footnote-i)^|1|
+|[Lunge](ref/feat/lunge)|1|
+|[Step Up and Strike](ref/feat/step-up-and-strike) ^[1](ref/arc-monk/qinggong-monk#footnote-i)^|2|
+|[Wind Stance](ref/feat/wind-stance)|2|
+
+|Spells|Ki points|
+| --- | --- |
+|[Aura Alteration](ref/spell/aura-alteration)|1|
+|[Discordant Blast](ref/spell/discordant-blast)|2|
+|[Ethereal Fists](ref/spell/ethereal-fists)|1|
+|[Glimpse of Truth](ref/spell/glimpse-of-truth)|2|
+|[Ki Leech](ref/spell/ki-leech)|0|
+|[Mental Barrier III](ref/spell/mental-barrier-3)|2|
+|[Persistent Vigor](ref/spell/persistent-vigor)|1|
+|[Quieting Weapons](ref/spell/quieting-weapons)|1|
+|[Retrocognition](ref/spell/retrocognition)|1|
+|[Sessile Spirit](ref/spell/sessile-spirit)|2|
+|[Shadow Step](ref/spell/shadow-step)|1|
+|[Spit Venom](ref/spell/spit-venom)|2|
+|[Thought Shield III](ref/spell/thought-shield-3)|2|
+
+### 12th-level Ki Powers
+
+|Feats|Ki points|
+| --- | --- |
+|[Bonebreaker](ref/feat/bonebreaker)|2|
+|[Elemental Fists](ref/feat/elemental-fist)|2|
+|[Improved Spring Attack](ref/feat/improved-spring-attack)|3|
+|[Improvised Weapon Mastery](ref/feat/improvised-weapon-mastery)|2|
+|[Ki Throw](ref/feat/ki-throw)|2|
+|[Punishing Kick](ref/feat/punishing-kick)|2|
+
+|Monk Abilities|Ki points|
+| --- | --- |
+|**Abundant Step**|2|
+|**Diamond Body**|0|
+
+|Spells|Ki points|
+| --- | --- |
+|[Battlemind Link](ref/spell/battlemind-link)|4|
+|[Dust Form](ref/spell/dust-form)|2|
+|[Entrap Spirit](ref/spell/entrap-spirit)|3|
+|[Mental Barrier IV](ref/spell/mental-barrier-4)|2|
+|[Shadow Walk](ref/spell/shadow-walk)|3|
+|[Thought Shield IV](ref/spell/thought-shield-4)|2|
+
+### 14th-level Ki Powers
+
+|Feats|Ki points|
+| --- | --- |
+|[Cloud Step](ref/feat/cloud-step)|3|
+|[Disarming Strike](ref/feat/disarming-strike)|2|
+|[Improved Ki Throw](ref/feat/improved-ki-throw)|2|
+|[Neckbreaker](ref/feat/neckbreaker)|2|
+
+|Monk Abilities|Ki points|
+| --- | --- |
+|**Diamond Soul**|0|
+
+|Spells|Ki points|
+| --- | --- |
+|[Blood Crow Strike](ref/spell/blood-crow-strike)|2|
+|[Cold Ice Strike](ref/spell/cold-ice-strike)|3|
+|[Ki Shout](ref/spell/ki-shout)|3|
+|[Mental Barrier V](ref/spell/mental-barrier-5)|2|
+|[Prognostication](ref/spell/prognostication)|2|
+|[Repress Memory](ref/spell/repress-memory)|2|
+|[Sonic Thrust](ref/spell/sonic-thrust)|2|
+|[Thought Shield V](ref/spell/thought-shield-5)|2|
+
+### 16th-level Ki Powers
+
+|Feats|Ki points|
+| --- | --- |
+|[Bleeding Critical](ref/feat/bleeding-critical)|3|
+|[Greater Blind-Fight](ref/feat/greater-blind-fight) ^[1](ref/arc-monk/qinggong-monk#footnote-i)^|2|
+|[Improved Vital Strike](ref/feat/improved-vital-strike)|2|
+|[Lightning Stance](ref/feat/lightning-stance)|3|
+|[Penetrating Strike](ref/feat/penetrating-strike)|2|
+
+|Monk Abilities|Ki points|
+| --- | --- |
+|**Quivering Palm**|2|
+
+|Spells|Ki points|
+| --- | --- |
+|[Strangling Hair](ref/spell/strangling-hair)|3|
+|[Unshakeable Zeal](ref/spell/unshakeable-zeal)|2|
+
+### 18th-level Ki Powers
+
+|Feats|Ki points|
+| --- | --- |
+|[Greater Spring Attack](ref/feat/greater-spring-attack)|3|
+
+|Monk Abilities|Ki points|
+| --- | --- |
+|**Timeless Body**|0|
+|**Tongue of the Sun and Moon**|0|
+
+|Spells|Ki points|
+| --- | --- |
+|[Bilocation](ref/spell/bilocation)|3|
+|[True Prognostication](ref/spell/true-prognostication)|2|
+
+### 20th-level Ki Powers
+
+|Feats|Ki points|
+| --- | --- |
+|[Blinding Critical](ref/feat/blinding-critical)|3|
+|[Crippling Critical](ref/feat/crippling-critical)|3|
+|[Deafening Critical](ref/feat/deafening-critical)|3|
+|[Greater Penetrating Strike](ref/feat/greater-penetrating-strike)|3|
+|[Tiring Critical](ref/feat/tiring-critical)|3|
+
+|Monk Abilities|Ki points|
+| --- | --- |
+|**Empty Body**|3|
+|**Perfect Self**|0|
+
+|Spells|Ki points|
+| --- | --- |
+|[Akashic Form](ref/spell/akashic-form)|3|
+|[Divide Mind](ref/spell/divide-mind)|3|
+|[Earthquake](ref/spell/earthquake)|4|
+|[Frightful Aspect](ref/spell/frightful-aspect)|3|
+
+###### ^1^ {#footnote-i}
+
+Can be used as an immediate action.
+
+###### ^2^ {#footnote-s}
+
+Can only be used on himself.
