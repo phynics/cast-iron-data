@@ -212,7 +212,7 @@ advanced-players-guide	ref/ability/domains	rule	Domains	2	2	uncited	printed	86	b
 advanced-players-guide	ref/class/arcanist	class	Arcanist	2	8	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/bloodrager	class	Bloodrager	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/brawler	class	Brawler	2	5	uncited	printed		none	4	74,78,104,105							cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
+advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/hunter	class	Hunter	2	8	uncited	printed		none	24	12,13,18,22,26										class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/investigator	class	Investigator	2	7	uncited	printed		none	4	73,133,134,334										class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/kineticist	class	Kineticist	2	9	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
@@ -307,7 +307,7 @@ advanced-race-guide	ref/rule/class-wizard/wizard	rule	Wizard	3	11	family-leak	pr
 advanced-race-guide	ref/class/alchemist	class	Alchemist	5	12	uncited	printed		none	40	9,13,23,29,33							remove	13	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/antipaladin	class	Antipaladin	3	5	uncited	printed		none	12	19,58,59,102,103							remove	103	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/cavalier	class	Cavalier	3	8	uncited	printed		none	24	9,13,23,33,42							remove	13	class-options-only	class-hub	done			yes			
-advanced-race-guide	ref/class/gunslinger	class	Gunslinger	5	7	uncited	printed		none	23	9,13,23,33,34										class-hub	S6		yes	yes			
+advanced-race-guide	ref/class/gunslinger	class	Gunslinger	5	7	uncited	printed		none	23	9,13,23,33,34							remove	13	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/inquisitor	class	Inquisitor	3	8	uncited	printed		none	39	9,13,14,23,33										class-hub	S6		yes	yes			
 advanced-race-guide	ref/class/magus	class	Magus	6	10	uncited	printed		none	36	9,13,19,23,24										class-hub	S6		yes	yes			
 advanced-race-guide	ref/class/oracle	class	Oracle	2	13	uncited	printed		none	37	9,12,13,23,24										class-hub	S7		yes	yes			
@@ -708,7 +708,7 @@ blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5	
 blood-of-shadows	ref/race/fetchling	race	Fetchling	4	5	uncited	printed		none	9	2,3,4,5,6										race-hub	S9		yes	yes			
 blood-of-shadows	ref/race/wayang	race	Wayang	6	6	uncited	printed		none	8	2,3,5,10,11										race-hub	S9		yes	yes			
 blood-of-shadows	ref/class/arcanist	class	Arcanist	6	8	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
-blood-of-shadows	ref/class/gunslinger	class	Gunslinger	6	7	weak	weak		none	1	7										class-hub	S6		yes	yes			
+blood-of-shadows	ref/class/gunslinger	class	Gunslinger	6	7	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/hunter	class	Hunter	5	8	weak	weak		none	1	7										class-hub	S6		yes	yes			
 blood-of-shadows	ref/class/kineticist	class	Kineticist	3	9	weak	weak		none	1	11										class-hub	S6		yes	yes			
 blood-of-shadows	ref/race/tiefling	race	Tiefling	6	7	weak	weak		none	1	5										race-hub	S9		yes	yes			
@@ -856,7 +856,7 @@ chronicle-of-legends	ref/rule/class-ranger/ranger	rule	Ranger	2	12	family-leak	p
 chronicle-of-legends	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	5	11	family-leak	printed		none	2	14,30	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes	yes		
 chronicle-of-legends	ref/rule/class-wizard/wizard	rule	Wizard	7	11	family-leak	printed		none	8	6,14,20,24,28	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes	yes		
 chronicle-of-legends	ref/class/alchemist	class	Alchemist	2	12	uncited	printed		none	4	3,7,17,31							cite	28, 31	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/class/gunslinger	class	Gunslinger	4	7	uncited	printed		none	4	3,4,5,28										class-hub	S6		yes	yes	yes		
+chronicle-of-legends	ref/class/gunslinger	class	Gunslinger	4	7	uncited	printed		none	4	3,4,5,28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/hunter	class	Hunter	3	8	uncited	printed		none	3	20,26,28										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/inquisitor	class	Inquisitor	2	8	uncited	printed		none	3	14,28,29										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/kineticist	class	Kineticist	5	9	uncited	printed		none	3	10,11,29										class-hub	S6		yes	yes	yes		
@@ -1137,7 +1137,7 @@ goblins-of-golarion	ref/rule/class-rogue/rogue	rule	Rogue	9	14	family-leak	print
 goblins-of-golarion	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	6	11	family-leak	printed		none	5	8,15,28,31,32	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 goblins-of-golarion	ref/class/alchemist	class	Alchemist	8	12	uncited	printed		none	9	4,5,10,13,14							remove	13	class-options-only	class-hub	done			yes			
 goblins-of-golarion	ref/class/cavalier	class	Cavalier	6	8	uncited	printed		none	4	13,14,30,31							remove	13	class-options-only	class-hub	done			yes			
-goblins-of-golarion	ref/class/gunslinger	class	Gunslinger	7	7	uncited	printed		none	2	14,31										class-hub	S6		yes	yes			
+goblins-of-golarion	ref/class/gunslinger	class	Gunslinger	7	7	uncited	printed		none	2	14,31							remove	14	class-options-only	class-hub	done			yes			
 goblins-of-golarion	ref/class/oracle	class	Oracle	6	13	uncited	printed		none	2	15,31										class-hub	S7		yes	yes			
 goblins-of-golarion	ref/class/samurai	class	Samurai	7	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 goblins-of-golarion	ref/class/witch	class	Witch	7	11	uncited	printed		none	4	15,28,31,32										class-hub	S7		yes	yes			
