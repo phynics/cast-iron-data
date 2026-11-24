@@ -472,6 +472,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     s = s.replace("\u00ad", "")
     s = re.sub(r"(?<![\w)\]])–(?=\d)", "-", s)           # a minus sign
+    s = re.sub(r"(?<=\w) – (?=\d)", " - ", s)             # a minus operator ("druid level – 2")
     s = fix_ligatures(s, vocab)
     s = fix_hyphens(s, vocab)
     # the extraction pads italic runs with blanks
@@ -733,15 +734,20 @@ TRADE_SENTENCE = re.compile(
 )
 
 
-def trade_sentences(text: str) -> list[tuple[str, str]]:
-    """[(op, phrase)] of the trade sentences of a text: "This ability replaces bravery." -> ("replaces", "bravery")."""
+def trade_sentences(text: str) -> list[tuple[str, str, bool]]:
+    """[(op, phrase, bare)] of the trade sentences of a text: "This ability replaces bravery." gives
+    ("replaces", "bravery", False). A bare sentence ("These replace the normal attack roll bonus.") has no
+    ability, feature, power or archetype in its subject: the app counts it only when it names a stored trade."""
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[\\_*]", "", text)
     out = []
     for m in TRADE_SENTENCE.finditer(text):
         op = "replaces" if m.group(2).lower().startswith("replace") else "alters"
-        phrase = re.sub(r"^(?:This|These|It)\b.*?\b(?:replaces?|alters?)\b", "", m.group(1), flags=re.I).strip().rstrip(".")
-        out.append((op, phrase))
+        sentence = m.group(1)
+        subject = re.match(r"^(?:This|These|It)\b(.*?)\b(?:replaces?|alters?)\b", sentence, re.I).group(1)
+        bare = not re.search(r"\b(?:ability|abilities|feature|features|power|powers|archetype)\b", subject, re.I)
+        phrase = re.sub(r"^(?:This|These|It)\b.*?\b(?:replaces?|alters?)\b", "", sentence, flags=re.I).strip().rstrip(".")
+        out.append((op, phrase, bare))
     return out
 
 
@@ -1185,18 +1191,18 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
     for i, t in enumerate(trades):
         op, name = trade_name(t)
         anchors = [f["anchor"] for f in listed
-                   if any(sop == op and covers(ph, name) for sop, ph in sentences[f["anchor"]])]
+                   if any(sop == op and covers(ph, name) for sop, ph, _ in sentences[f["anchor"]])]
         if anchors:
             by[i] = anchors
-        elif any(sop == op and covers(ph, name) for sop, ph in opening_sentences):
+        elif any(sop == op and covers(ph, name) for sop, ph, _ in opening_sentences):
             by[i] = []
         else:
             problems.append(f"the {op} trade `{name}` is not printed in a feature or in the opening text")
     for f in listed:
-        for sop, ph in sentences[f["anchor"]]:
+        for sop, ph, bare in sentences[f["anchor"]]:
             if re.match(r"both\b", ph, re.I):
                 problems.append(f"{f['head']}: the app's sentence reader does not read \"{sop} both ...\"")
-            if not any(sop == trade_name(t)[0] and covers(ph, trade_name(t)[1]) for t in trades):
+            if not bare and not any(sop == trade_name(t)[0] and covers(ph, trade_name(t)[1]) for t in trades):
                 problems.append(f"{f['head']}: the sentence \"This ability {sop} {ph}\" names no trade")
     return by, problems
 
@@ -1546,7 +1552,8 @@ def self_test() -> int:
     eq(progression_levels("This bonus increases by +1 for every four levels beyond 2nd."), {6, 10, 14, 18}, "progression")
     eq(progression_levels("increases by +1 at 5th level and every six levels thereafter"), {5, 11, 17}, "progression thereafter")
     eq(progression_levels("no rule here"), None, "no progression")
-    eq(trade_sentences("It works. This ability replaces armor training 1 and 2.")[0], ("replaces", "armor training 1 and 2"), "trade sentence")
+    eq(trade_sentences("It works. This ability replaces armor training 1 and 2.")[0], ("replaces", "armor training 1 and 2", False), "trade sentence")
+    eq(trade_sentences("These replace the normal attack roll bonus.")[0][2], True, "bare trade sentence")
     eq(covers("armor training 1, 2, 3, and 4", "Armor training 3"), True, "covers step")
     eq(covers("armor training 1 and 2", "Armor training 3"), False, "covers step miss")
     eq(covers("the standard alchemist bomb class feature", "Bombs"), True, "covers a name inside a longer phrase")
