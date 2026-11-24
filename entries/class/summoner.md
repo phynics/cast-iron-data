@@ -3,13 +3,16 @@ id = "ref/class/summoner"
 kind = "class"
 title = "Summoner"
 aon = "ClassDisplay.aspx?ItemName=Summoner"
-source_ids = ["advanced-players-guide", "chronicle-of-legends", "advanced-race-guide", "blood-of-the-sea", "blood-of-shadows", "ultimate-wilderness", "blood-of-the-beast"]
+source_ids = ["advanced-players-guide", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoner", path = "json/classes8.json" },
 ]
 [[sources]]
 publication = "advanced-players-guide"
 page = "54"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28, 30"
 
 [fields]
 kind = "class"
@@ -350,7 +353,6 @@ in 1-minute increments
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone

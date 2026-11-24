@@ -312,7 +312,7 @@ advanced-race-guide	ref/class/inquisitor	class	Inquisitor	3	8	uncited	printed		n
 advanced-race-guide	ref/class/magus	class	Magus	6	10	uncited	printed		none	36	9,13,19,23,24							remove	13	class-options-only	class-hub	done			yes			
 advanced-race-guide	ref/class/oracle	class	Oracle	2	13	uncited	printed		none	37	9,12,13,23,24							remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/class/samurai	class	Samurai	4	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
-advanced-race-guide	ref/class/summoner	class	Summoner	3	7	uncited	printed		none	39	9,13,23,34,43										class-hub	S7		yes	yes			
+advanced-race-guide	ref/class/summoner	class	Summoner	3	7	uncited	printed		none	39	9,13,23,34,43							remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/class/witch	class	Witch	2	11	uncited	printed		none	40	9,13,23,29,34										class-hub	S7		yes	yes			
 advanced-race-guide	ref/monster/rat-dire-rat	creature	Dire Rat	2	2	uncited	printed		none	3	150,153,155										single-entry	S5		yes	yes			
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	8	15	review	loose	166	row	0								remove	166	wrong-credit-invalidated	figurine	done			yes		no	
@@ -701,7 +701,7 @@ blood-of-shadows	ref/class/psychic	class	Psychic	3	8	uncited	printed		none	9	3,1
 blood-of-shadows	ref/class/shaman	class	Shaman	3	8	uncited	printed		none	7	11,15,16,28,29							remove	11	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/slayer	class	Slayer	5	8	uncited	printed		none	2	7,11							remove	7	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/spiritualist	class	Spiritualist	7	7	uncited	printed		none	6	11,16,28,29,30							remove	11	class-options-only	class-hub	done		yes	yes			
-blood-of-shadows	ref/class/summoner	class	Summoner	5	7	uncited	printed		none	4	3,11,15,30										class-hub	S7		yes	yes			
+blood-of-shadows	ref/class/summoner	class	Summoner	5	7	uncited	printed		none	4	3,11,15,30							remove	15	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/warpriest	class	Warpriest	3	6	uncited	printed		none	3	3,15,17							remove	15	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/class/witch	class	Witch	3	11	uncited	printed		none	8	4,11,15,16,28										class-hub	S7		yes	yes			
 blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5										race-hub	S9		yes	yes			
@@ -766,7 +766,7 @@ blood-of-the-beast	ref/class/shifter	class	Shifter	3	5	uncited	absent		none	0			
 blood-of-the-beast	ref/class/skald	class	Skald	3	7	uncited	printed		none	5	3,8,10,12,26							remove	8	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/slayer	class	Slayer	4	8	uncited	printed		none	5	4,6,8,16,24							remove	4	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/spiritualist	class	Spiritualist	6	7	uncited	printed		none	4	7,20,24,27							remove	20	class-options-only	class-hub	done		yes	yes			
-blood-of-the-beast	ref/class/summoner	class	Summoner	7	7	uncited	printed		none	4	3,11,28,31										class-hub	S7		yes	yes			
+blood-of-the-beast	ref/class/summoner	class	Summoner	7	7	uncited	printed		none	4	3,11,28,31							remove	28	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/swashbuckler	class	Swashbuckler	4	4	uncited	printed		none	7	3,7,8,12,20							remove	8	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/unchained-barbarian	class	Unchained Barbarian	4	4	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 blood-of-the-beast	ref/class/unchained-monk	class	Unchained Monk	4	4	uncited	printed		none	2	3,4							remove	30	class-options-only	class-hub	done		yes	yes			
@@ -818,7 +818,7 @@ blood-of-the-sea	ref/class/medium	class	Medium	5	7	uncited	printed		none	9	7,9,1
 blood-of-the-sea	ref/class/oracle	class	Oracle	4	13	uncited	printed		none	3	3,12,13							remove	12	class-options-only	class-hub	done		yes	yes			
 blood-of-the-sea	ref/class/samurai	class	Samurai	5	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 blood-of-the-sea	ref/class/slayer	class	Slayer	6	8	uncited	printed		none	5	3,11,14,15,34							remove	11	class-options-only	class-hub	done		yes	yes			
-blood-of-the-sea	ref/class/summoner	class	Summoner	4	7	uncited	printed		none	3	5,23,24										class-hub	S7		yes	yes			
+blood-of-the-sea	ref/class/summoner	class	Summoner	4	7	uncited	printed		none	3	5,23,24							remove	5	class-options-only	class-hub	done		yes	yes			
 blood-of-the-sea	ref/class/witch	class	Witch	5	11	uncited	printed		none	7	3,5,13,21,22										class-hub	S7		yes	yes			
 blood-of-the-sea	ref/class/arcanist	class	Arcanist	4	8	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/fighter	class	Fighter	4	10	weak	weak		none	1	5							remove	5	class-options-only	class-hub	done			yes			
@@ -871,7 +871,7 @@ chronicle-of-legends	ref/class/shifter	class	Shifter	3	4	uncited	printed		none	2
 chronicle-of-legends	ref/class/skald	class	Skald	5	7	uncited	body		none	1	10							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/slayer	class	Slayer	3	8	uncited	printed		none	5	3,5,6,7,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/spiritualist	class	Spiritualist	3	7	uncited	printed		none	2	14,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
-chronicle-of-legends	ref/class/summoner	class	Summoner	2	7	uncited	printed		none	2	14,30										class-hub	S7		yes	yes	yes		
+chronicle-of-legends	ref/class/summoner	class	Summoner	2	7	uncited	printed		none	2	14,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/swashbuckler	class	Swashbuckler	3	4	uncited	printed		none	4	3,4,5,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-barbarian	class	Unchained Barbarian	3	3	uncited	absent		none	0								cite	28	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-monk	class	Unchained Monk	3	4	uncited	absent		none	0								cite	28-29	section-printed	class-hub	done		yes	yes	yes		
@@ -2528,7 +2528,7 @@ ultimate-wilderness	ref/class/mesmerist	class	Mesmerist	6	9	uncited	printed		non
 ultimate-wilderness	ref/class/oracle	class	Oracle	13	13	uncited	printed		none	9	3,21,68,69,140							remove	21	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/class/shaman	class	Shaman	8	8	uncited	printed		none	27	10,14,17,19,22							remove	10	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/class/skald	class	Skald	7	7	uncited	printed		none	8	3,5,10,36,84							remove	10	class-options-only	class-hub	done		yes	yes			
-ultimate-wilderness	ref/class/summoner	class	Summoner	6	7	uncited	printed		none	13	10,14,25,48,94										class-hub	S7		yes	yes			
+ultimate-wilderness	ref/class/summoner	class	Summoner	6	7	uncited	printed		none	13	10,14,25,48,94							remove	10	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/class/witch	class	Witch	11	11	uncited	printed		none	36	3,5,10,14,17										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/ability/animal-tricks	rule	Animal Tricks	3	3	review	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 ultimate-wilderness	ref/spell/tectonic-communion	spell	Tectonic Communion	2	3	review	absent	235	row	0											single-entry	S11			yes		no	
