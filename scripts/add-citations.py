@@ -67,6 +67,11 @@ page, or no page when the line's `page` is empty, and the review queue holds it 
 counts as closed for the page queue. The line never gives a page (`PRINT` ignores it) and never adds a
 row: the row must exist already, and a `page` on the line must equal the row's page, or the script stops.
 
+A review line with the reason `wrong-book` records a print finding: the book does not print the entry
+(it prints it elsewhere), so no page can be read. It is a note like `heading-form`: the line stays
+while the entry exists, and the membership itself is decided in the #461 queue
+(`scripts/membership-queue-461.tsv`). It is not an open page row.
+
 The print-pages file may carry a fifth column `note`; a row with a note also gets a
 `heading-form` review line (the page is read in print, but the heading does not look as expected).
 
@@ -90,7 +95,7 @@ from pathlib import Path
 REVIEW_DEFAULT = "scripts/citation-review-170.tsv"
 PRINT_DEFAULT = "scripts/citation-print-pages-170.tsv"
 # Review lines that stay while their entry exists (paragraph findings and print notes).
-NOTE_REASONS = {"conflict", "unknown-title", "blog", "not-member", "marker", "heading-form"}
+NOTE_REASONS = {"conflict", "unknown-title", "blog", "not-member", "marker", "heading-form", "wrong-book"}
 # Review reasons of the page queue (#215): a row without a page or on a proposal alone that print has not settled.
 OPEN_REASONS = {"coarse", "no-page", "unconfirmed", "ambiguous", "page-format", "sibling-differs", "no-proposal"}
 UNVERIFIED = "unverified-no-pdf"
