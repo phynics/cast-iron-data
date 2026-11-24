@@ -1847,7 +1847,7 @@ legacy-of-the-first-world	ref/racial-trait/halfling/keen-senses	racial_trait	Kee
 legacy-of-the-first-world	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	8	13	weak	weak		none	1	5			yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 magic-tactics-toolbox	ref/rule/feats-class	rule	Class-Based Feats	7	7	hub-keep	absent	28	row	0											hub-cited	S11			yes	yes	no	
 magic-tactics-toolbox	ref/ability/advanced-weapon-training	rule	Advanced Weapon Training	3	3	uncited	printed		none	2	3,10										link-only-hub	S10	hub-design-a	yes	yes			
-magical-marketplace	ref/hex/cackle	class_option	Cackle	2	4	uncited	unaligned		none	0											single-entry	S5		yes	yes			
+magical-marketplace	ref/hex/cackle	class_option	Cackle	2	4	uncited	unaligned		none	0								remove	28	mention-only	single-entry	done		yes	yes			
 misfit-monsters-redeemed	ref/affliction/wolf-in-sheeps-clothing/wolf-in-sheeps-clothing-egg	affliction	Wolf-in-Sheep's-Clothing Egg	2	2	family-leak	printed	63	row	0		parent	ref/monster/wolf-in-sheeps-clothing(title)	yes				keep	63	title-on-cited-page	single-entry	S0			yes		yes	
 monster-codex	ref/template/vampire	rule	Vampire	3	3	hub-keep	unaligned	236	body	0											hub-cited	S10		yes	yes	yes		
 monster-codex	ref/rule/class-barbarian/barbarian	rule	Barbarian	9	10	inherited	unaligned		none	0				yes							class-hub	S8		yes	yes			
