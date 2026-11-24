@@ -16,47 +16,58 @@ page = "38"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "spirit-sense", level = 1 },
-  { anchor = "place-magic", level = 2 },
-  { anchor = "walk-the-lines", level = 9 },
-  { anchor = "empty-body", level = 13 },
-]
 trades = [
-  { replaces = "Nature sense", feature = "nature-sense", by = ["spirit-sense"] },
-  { replaces = "wild empathy", feature = "wild-empathy", by = ["spirit-sense"] },
-  { replaces = "Woodland stride", feature = "woodland-stride", by = ["place-magic"] },
-  { replaces = "trackless step", feature = "trackless-step", by = ["place-magic"] },
-  { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["empty-body"] },
+  { replaces = "Nature sense", feature = "nature-sense" },
+  { replaces = "wild empathy", feature = "wild-empathy" },
+  { replaces = "Woodland stride", feature = "woodland-stride" },
+  { replaces = "trackless step", feature = "trackless-step" },
+  { replaces = "A thousand faces", feature = "a-thousand-faces" },
 ]
 +++
 
 Some druids study the paths of nature's power through the nodes and ley lines that connect standing
 stones and megalithic circles, learning to tap into their energies.
 
-## Spirit Sense (Sp) {#spirit-sense}
+**Spirit Sense (Sp)**
 
-At 1st level, a menhir savant can detect the presence of undead; fey; outsiders; and astral,
+**Ability:** A menhir savant can detect the presence of undead; fey; outsiders; and astral,
 ethereal, or incorporeal creatures. This ability functions like
-_[detect undead](ref/spell/detect-undead)_, and the druid detects all of these creatures rather than
-trying to detect one kind. This ability replaces nature sense and wild empathy.
+[detect undead](ref/spell/detect-undead), and the druid detects all of these creatures rather than
+trying to detect one kind.
 
-## Place Magic (Su) {#place-magic}
+**Gained:** At 1st Level
 
-At 2nd level, a menhir savant learns to identify and tap into ley lines in different types of
-terrain. As a free action, she can tap into the magic of a nearby ley line and increase her caster
-level by +1 for 1 round. She can use this ability a number of times per day equal to 3 + her Wisdom
-bonus. This ability replaces woodland stride and trackless step.
+**Replaces:** Nature sense, wild empathy
 
-## Walk the Lines (Su) {#walk-the-lines}
+**Place Magic (Su)**
 
-At 9th level, a menhir savant can use her connection to ley lines to cast
-_[transport via plants](ref/spell/transport-via-plants)_ a number of times per day equal to her
-Wisdom bonus.
+**Flavor:** A menhir savant learns to identify and tap into ley lines in different types of terrain.
 
-## Empty Body (Su) {#empty-body}
+**Free:** She can tap into the magic of a nearby ley line and increase her caster level by +1 for 1
+round.
 
-At 13th level, a menhir savant can become ethereal as a standard action, as if using
-_[ethereal jaunt](ref/spell/ethereal-jaunt)_. She can remain ethereal for a number of rounds per day
-equal to her druid level. These rounds do not need to be consecutive. This ability replaces a
-thousand faces.
+**Gained:** At 2nd Level
+
+**Replaces:** Woodland stride, trackless step
+
+**Usage:** Wis3 modifier times/day
+
+**Walk the Lines (Su)**
+
+**Ability:** A menhir savant can use her connection to ley lines to cast
+[transport via plants](ref/spell/transport-via-plants).
+
+**Gained:** At 9th Level
+
+**Usage:** Wis modifier times/day
+
+**Empty Body (Su)**
+
+**Gained:** At 13th Level
+
+**Replaces:** A thousand faces
+
+**Standard:** A menhir savant can become ethereal, as if using
+[ethereal jaunt](ref/spell/ethereal-jaunt).
+
+**Usage:** 1 round/day per druid level

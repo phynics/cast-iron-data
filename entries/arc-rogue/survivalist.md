@@ -16,13 +16,9 @@ page = "74"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "hardy", level = 1 },
-  { anchor = "endure-elements", level = 3 },
-]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding", by = ["hardy"] },
-  { replaces = "Trap sense", feature = "trap-sense", by = ["endure-elements"] },
+  { replaces = "Trapfinding", feature = "trapfinding" },
+  { replaces = "Trap sense", feature = "trap-sense" },
 ]
 +++
 
@@ -31,25 +27,28 @@ lesser rogue. Whether in blazing deserts or frigid arctic wastes - or simply the
 of the streets - the survivalist uses her training to both ensure her own success and provide for
 the safety of her allies.
 
-## Hardy (Ex) {#hardy}
+**Hardy (Ex)**
 
-At 1st level, a survivalist is already prepared to endure extreme hardships and environmental
+**Ability:** A survivalist is already prepared to endure extreme hardships and environmental
 conditions. She can go twice the normal number of days without water and triple the normal number of
-days without food before feeling the effects of either thirst or starvation. This ability replaces
-trapfinding.
+days without food before feeling the effects of either thirst or starvation.
 
-## Endure Elements (Sp) {#endure-elements}
+**Gained:** At 1st Level
 
-At 3rd level, a survivalist rogue can use _[endure elements](ref/spell/endure-elements)_ once per
-day as a [spell-like ability](ref/umr/spell-like-abilities). The survivalist's caster level is the
-same as her rogue level. This ability replaces trap sense.
+**Replaces:** Trapfinding
 
-## Rogue Talents {#rogue-talents}
+**Endure Elements (Sp)**
 
-The following rogue talents complement the survivalist archetype: hold breath, iron guts,
-resiliency, strong stroke, survivalist\*, terrain mastery, and wall scramble.
+**Ability:** A survivalist rogue can use [endure elements](ref/spell/endure-elements) once per day
+as a [spell-like ability](ref/umr/spell-like-abilities). The survivalist's caster level is the same
+as her rogue level.
 
-## Advanced Talents {#advanced-talents}
+**Gained:** At 3rd Level
 
-The following advanced rogue talents complement the survivalist archetype: another day\*, defensive
-roll, feat, and skill mastery.
+**Replaces:** Trap sense
+
+**These rogue talents complement this archetype:** Hold breath, iron guts, resiliency, strong
+stroke, survivalist, terrain mastery, wall scramble
+
+**These advanced rogue talents complement this archetype:** Another day, defensive roll, feat, skill
+mastery

@@ -16,19 +16,12 @@ page = "30"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "big-game-hunter", level = 1 },
-  { anchor = "jotungrip", level = 2 },
-  { anchor = "massive-weapons", level = 3 },
-  { anchor = "evade-reach", level = 5 },
-  { anchor = "titanic-rage", level = 14 },
-]
 trades = [
-  { replaces = "Fast movement", feature = "fast-movement", by = ["big-game-hunter"] },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["jotungrip"] },
-  { replaces = "Trap sense", feature = "trap-sense", by = ["massive-weapons"] },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["evade-reach"] },
-  { replaces = "Indomitable will", feature = "indomitable-will", by = ["titanic-rage"] },
+  { replaces = "Fast movement", feature = "fast-movement" },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
+  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
+  { replaces = "Indomitable will", feature = "indomitable-will" },
 ]
 +++
 
@@ -38,45 +31,68 @@ makes the creatures strong, the titan mauler is even stronger, taking up weapons
 foes that no lesser warrior can lift, and using them when she beseeches the spirits to grant her
 increased size and greater ferocity against her titanic foes.
 
-## Big Game Hunter (Ex) {#big-game-hunter}
+**Big Game Hunter (Ex)**
 
-A titan mauler gains a +1 bonus on attack rolls and a +1 dodge bonus to AC in melee with creatures
-larger than themselves. This ability replaces fast movement.
+**Gained:** At 1st Level
 
-## Jotungrip (Ex) {#jotungrip}
+**Passive:** A titan mauler gains a +1 bonus on attack rolls and a +1 dodge bonus to AC in melee
+with creatures larger than themselves.
 
-At 2nd level, a titan mauler may choose to wield a two-handed melee weapon in one hand with a -2
+**Replaces:** Fast movement
+
+**Jotungrip (Ex)**
+
+**Ability:** A titan mauler may choose to wield a two-handed melee weapon in one hand with a -2
 penalty on attack rolls while doing so. The weapon must be appropriately sized for her, and it is
 treated as one-handed when determining the effect of [Power Attack](ref/feat/power-attack), Strength
-bonus to damage, and the like. This ability replaces uncanny dodge.
+bonus to damage, and the like.
 
-## Massive Weapons (Ex) {#massive-weapons}
+**Gained:** At 2nd Level
 
-At 3rd level, a titan mauler becomes skilled in the use of massive weapons looted from her titanic
+**Replaces:** Uncanny dodge
+
+**Massive Weapons (Ex)**
+
+**Ability:** A titan mauler becomes skilled in the use of massive weapons looted from her titanic
 foes. She can use two-handed weapons meant for creatures one size category larger, but the penalty
 for doing so is increased by 4. However, the attack roll penalty for using weapons too large for her
-size is reduced by 1, and this reduction increases by 1 for every three levels beyond 3rd (to a
-minimum of 0). This ability replaces trap sense.
+size is reduced by an amount equal to [one-third](ref/misc/fractions-and-rounding) of her barbarian
+level (to a minimum of 0).
 
-## Evade Reach (Ex) {#evade-reach}
+**Gained:** At 3rd Level
 
-At 5th level, as a swift action, a titan mauler may choose one creature within her line of sight.
-Until the end of her turn, that target's reach is treated as if it were 5 feet shorter with respect
-to reaching the titan mauler, and this reduction increases by 5 feet for every five levels beyond
-5th. This ability replaces improved uncanny dodge.
+**Replaces:** Trap sense
 
-## Titanic Rage (Su) {#titanic-rage}
+**Evade Reach (Ex)**
 
-At 14th level, a titan mauler may choose to gain the benefits of
-_[enlarge person](ref/spell/enlarge-person)_ when she enters a rage. While using titanic rage, she
-must spend 2 rounds of rage per round, and she becomes [exhausted](ref/misc/exhausted) rather than
-fatigued when the rage ends. This ability replaces indomitable will.
+**At 10th Level:** The target's reach is treated as 10 feet shorter.
 
-## Rage Powers {#rage-powers}
+**At 15th Level:** The target's reach is treated as 15 feet shorter.
 
-The following rage powers complement the titan mauler archetype:
+**At 20th Level:** The target's reach is treated as 20 feet shorter.
+
+**Gained:** At 5th Level
+
+**Replaces:** Improved uncanny dodge
+
+**Swift:** A titan mauler may choose one creature within her line of sight. Until the end of her
+turn, that target's reach is treated as if it were 5 feet shorter with respect to reaching the titan
+mauler.
+
+**Titanic Rage (Su)**
+
+**Ability:** A titan mauler may choose to gain the benefits of
+[enlarge person](ref/spell/enlarge-person) when she enters a _rage._ While using _titanic rage,_ she
+must spend 2 rounds of _rage_ per round, and she becomes [exhausted](ref/misc/exhausted) rather than
+fatigued when the _rage_ ends.
+
+**Gained:** At 14th Level
+
+**Replaces:** Indomitable will
+
+**Rage Powers:** The following rage powers complement the titan mauler archetype:
 [body bludgeon](ref/ragepower/body-bludgeon),
 [greater ground breaker](ref/ragepower/greater-ground-breaker),
-[ground breaker](ref/ragepower/ground-breaker)\*, [knockback](ref/ragepower/knockback),
+[ground breaker](ref/ragepower/ground-breaker), [knockback](ref/ragepower/knockback),
 [mighty swing](ref/ragepower/mighty-swing), [powerful blow](ref/ragepower/powerful-blow),
-[smasher](ref/ragepower/smasher)\*, and [strength surge](ref/ragepower/strength-surge).
+[smasher](ref/ragepower/smasher), [strength surge](ref/ragepower/strength-surge).

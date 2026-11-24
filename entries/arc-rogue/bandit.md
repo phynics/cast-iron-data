@@ -16,13 +16,9 @@ page = "71"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "ambush", level = 4 },
-  { anchor = "fearsome-strike", level = 8 },
-]
 trades = [
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["ambush"] },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["fearsome-strike"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
 ]
 +++
 
@@ -34,27 +30,33 @@ does not do the trick. But not all bandits are ruthless thugs. There are those w
 opposition to tyrants or similar oppressors. These bandits target the status quo and distribute
 their spoils back into the needy hands of the peasantry.
 
-## Ambush (Ex) {#ambush}
+**Ambush (Ex)**
 
-At 4th level, a bandit becomes fully practiced in the art of ambushing. When she acts in the
-surprise round, she can take a move action, standard action, and swift action during the surprise
-round, not just a move or standard action. This ability replaces uncanny dodge.
+**Ability:** When she acts in the surprise round, she can take a move action, standard action, and
+swift action during the surprise round, not just a move or standard action.
 
-## Fearsome Strike (Ex) {#fearsome-strike}
+**Flavor:** A bandit becomes fully practiced in the art of ambushing.
 
-At 8th level, a bandit can terrify an opponent with a single hit. A number of times per day equal to
-her Charisma modifier (minimum 1), when a bandit confirms a critical hit and deals sneak attack
-damage to an opponent, she can choose to make the opponent [frightened](ref/misc/frightened) for a
-number of rounds equal to her Charisma modifier (minimum 1). She cannot use this ability in
-conjunction with a critical feat. This ability replaces improved uncanny dodge.
+**Gained:** At 4th Level
 
-## Rogue Talents {#rogue-talents}
+**Replaces:** Uncanny dodge
 
-The following rogue talents complement the bandit archetype: assault leader \*\*, combat trick,
-cunning trigger\*, snap shot\*, strong impression\*, surprise attack, terrain mastery, underhanded,
-and weapon training.
+**Fearsome Strike (Ex)**
 
-## Advanced Talents {#advanced-talents}
+**Ability:** When a bandit confirms a critical hit and deals sneak attack damage to an opponent, she
+can choose to make the opponent [frightened](ref/misc/frightened) for a number of rounds equal to
+her Charisma modifier (minimum 1). She cannot use this ability in conjunction with a critical feat.
 
-The following advanced rogue talents complement the bandit archetype: hide in plain sight, knock-out
-blow\*, and opportunist.
+**Flavor:** A bandit can terrify an opponent with a single hit.
+
+**Gained:** At 8th Level
+
+**Replaces:** Improved uncanny dodge
+
+**Usage:** Charisma modifier times/day (minimum 1)
+
+**These rogue talents complement this archetype:** Assault leader, combat trick, cunning trigger,
+snap shot, strong impression, surprise attack, terrain mastery, underhanded, weapon training
+
+**These advanced rogue talents complement this archetype:** Hide in plain sight, knock-out blow,
+opportunist

@@ -16,43 +16,52 @@ page = "38"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "night-sight", level = 2 },
-  { anchor = "resist-call-of-the-wild", level = 4 },
-  { anchor = "purity-of-body", level = 9 },
-  { anchor = "wolfsbane", level = 13 },
-]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride", by = ["night-sight"] },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["resist-call-of-the-wild"] },
-  { replaces = "Venom immunity", feature = "venom-immunity", by = ["purity-of-body"] },
-  { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["wolfsbane"] },
+  { replaces = "Woodland stride", feature = "woodland-stride" },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
+  { replaces = "Venom immunity", feature = "venom-immunity" },
+  { replaces = "A thousand faces", feature = "a-thousand-faces" },
 ]
 +++
 
 A mooncaller is bound to the subtle influences of the ever-changing moon and its endless cycles from
 light to dark and back again.
 
-## Night Sight (Ex) {#night-sight}
+**Night Sight (Ex)**
 
-At 2nd level, a mooncaller gains [low-light vision](ref/rule/low-light-vision). If she already has
+**Ability:** A mooncaller gains [low-light vision](ref/rule/low-light-vision). If she already has
 low-light vision, she gains [darkvision](ref/rule/darkvision) with a range of 30 feet. If she
-already has darkvision, the range of her darkvision is increased by 30 feet. This ability replaces
-woodland stride.
+already has darkvision, the range of her darkvision is increased by 30 feet.
 
-## Resist Call of the Wild (Ex) {#resist-call-of-the-wild}
+**Gained:** At 2nd Level
 
-At 4th level, a mooncaller gains a +4 bonus on saving throws to avoid confusion, daze, feeblemind,
+**Replaces:** Woodland stride
+
+**Resist Call of the Wild (Ex)**
+
+**Gained:** At 4th Level
+
+**Passive:** A mooncaller gains a +4 bonus on saving throws to avoid confusion, daze, feeblemind,
 and insanity effects. She also gains a +4 bonus against the exceptional, spell-like, and
-supernatural abilities of creatures with the shapechanger subtype. This ability replaces resist
-nature's lure.
+supernatural abilities of creatures with the shapechanger subtype.
 
-## Purity of Body (Ex) {#purity-of-body}
+**Replaces:** Resist nature's lure
 
-At 9th level, a mooncaller gains immunity to all diseases, including supernatural and magical
-diseases. This ability replaces venom immunity.
+**Purity of Body (Ex)**
 
-## Wolfsbane (Su) {#wolfsbane}
+**Gained:** At 9th Level
 
-At 13th level, a mooncaller gains DR 3/ silver, increasing to DR 4/silver at 16th level and DR
-5/silver at 19th level. This ability replaces a thousand faces.
+**Passive:** A mooncaller gains immunity to all diseases, including supernatural and magical
+diseases.
+
+**Replaces:** Venom immunity
+
+**Wolfsbane (Su)**
+
+**At 13th Level:** A mooncaller gains DR 3/silver.
+
+**At 16th Level:** This becomes DR 4/silver.
+
+**At 19th Level:** This becomes DR 5/silver.
+
+**Replaces:** A thousand faces

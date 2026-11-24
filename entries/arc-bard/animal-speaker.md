@@ -16,70 +16,88 @@ page = "25"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "animal-friend" },
-  { anchor = "nature-s-speaker" },
-  { anchor = "bardic-performance" },
-  { anchor = "summon-nature-s-ally", level = 1 },
-]
 trades = [
-  { replaces = "Fascinate", feature = "bardic-performance", power = "fascinate", by = ["animal-friend"] },
-  { replaces = "Well-versed", feature = "well-versed", by = ["nature-s-speaker"] },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["bardic-performance"] },
-  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion", by = ["bardic-performance"] },
-  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion", by = ["summon-nature-s-ally"] },
+  { replaces = "Fascinate", feature = "bardic-performance", power = "fascinate" },
+  { replaces = "Well-versed", feature = "well-versed" },
+  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
+  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion" },
+  { replaces = "Mass suggestion", feature = "bardic-performance", power = "mass suggestion" },
 ]
 +++
 
 An animal speaker focuses not on the ears and minds of humans, but on the creatures of the wild and
 those in the underbellies of cities.
 
-## Animal Friend {#animal-friend}
+**Animal Friend**
 
-An animal speaker selects a particular kind of animal, such as apes, badgers, bears, boars, cats,
-snakes, and so on. The bard gains a +4 bonus on Handle Animal checks to influence animals of his
-chosen kind. Animals of this kind have a starting attitude of at least "indifferent" toward the bard
-and never attack him unless he attacks them first.
+**Choice:** An animal speaker selects a particular kind of animal, such as apes, badgers, bears,
+boars, cats, snakes, and so on.
 
-Animal companions and magically controlled animals of the bard's chosen kind can be directed to
-attack the bard if the controlling creature wins an opposed Charisma check against the bard (this
-check can be made once per round until it succeeds, after which no further checks are needed).
-Supernatural versions of animals (such as animals with the [fiendish](ref/template/fiendish)
-template) can attempt an opposed Charisma check against the bard with a +4 bonus on its roll to
-overcome this hesitation. This ability has no effect on creatures other than animals. This ability
-replaces fascinate.
+**Passive:** The bard gains a +4 bonus on Handle Animal checks to influence animals of his chosen
+kind. Animals of this kind have a starting attitude of at least "indifferent" toward the bard and
+never attack him unless he attacks them first.
 
-## Nature's Speaker {#nature-s-speaker}
+**Replaces:** Fascinate
 
-At 5th, 11th, and 17th level, the animal speaker selects another kind of animal friend. The bard can
-use _[speak with animals](ref/spell/speak-with-animals)_ at will on animals of his selected kinds.
-This ability replaces well-versed.
+**Special:** Animal companions and magically controlled animals of the bard's chosen kind can be
+directed to attack the bard if the controlling creature wins an opposed Charisma check against the
+bard (this check can be made once per round until it succeeds, after which no further checks are
+needed). Supernatural versions of animals (such as animals with the
+[fiendish](ref/template/fiendish) template) can attempt an opposed Charisma check against the bard
+with a +4 bonus on its roll to overcome this hesitation. This ability has no effect on creatures
+other than animals.
 
-## Bardic Performance {#bardic-performance}
+**Nature's Speaker**
 
-An animal speaker gains the following types of bardic performance.
+**At 11th Level:** The animal speaker selects a third kind of _animal friend._
 
-### Soothing Performance {#soothing-performance}
+**At 17th Level:** The animal speaker selects a fourth kind of _animal friend._
 
-At 3rd level, an animal speaker can use bardic performance to influence animals. This works like the
+**At 5th Level:** The animal speaker selects a second kind of _animal friend._
+
+**Replaces:** Well-versed
+
+**Special:** The bard can use [speak with animals](ref/spell/speak-with-animals) at will on animals
+of his selected kinds.
+
+**Bardic Performance**
+
+**Ability:** An animal speaker gains the following types of bardic performance.
+
+**Soothing Performance**
+
+**Ability:** An animal speaker can use bardic performance to influence animals. This works like the
 druid ability [wild empathy](ref/ability/wild-empathy), except he expends 1 round of bardic
 performance and makes a Perform check. If the bard already has wild empathy from another class, he
 adds the class levels that provide wild empathy to the result of his Perform check to influence an
-animal. This ability replaces inspire competence.
+animal.
 
-### Attract Rats {#attract-rats}
+**Gained:** At 3rd Level
 
-At 6th level, the animal speaker can use bardic performance to summon 1d3
-[rat swarms](ref/monster/rat-rat-swarm); they remain as long as he continues performing. At 11th
-level, he summons 2d3 swarms instead of 1d3 and the swarms have the
-[advanced](ref/template/advanced) creature simple template. At 17th level, the number of swarms he
-summons increases to 3d3. This ability replaces _suggestion_.
+**Replaces:** Inspire competence
 
-## Summon Nature's Ally {#summon-nature-s-ally}
+**Attract Rats**
 
-At 1st level, the animal speaker adds _[summon nature's ally I](ref/spell/summon-natures-ally-1)_ to
-his bard spell list and bard spells known as a 1st-level spell. At 4th level (when he gains access
-to 2nd-level spells) he adds _[summon nature's ally II](ref/spell/summon-natures-ally-2)_ to his
-spell list and spells known as a 2nd-level spell, and so on every 3 levels thereafter, until 16th
-level when he adds _[summon nature's ally VI](ref/spell/summon-natures-ally-6)_ to his 6th-level
-spell list and spells known. This replaces mass suggestion.
+**Ability:** The animal speaker can use bardic performance to summon 1d3
+[rat swarms](ref/monster/rat-rat-swarm); they remain as long as he continues performing.
+
+**At 11th Level:** He summons 2d3 swarms instead of 1d3 and the swarms have the
+[advanced](ref/template/advanced) creature simple template.
+
+**At 17th Level:** The number of swarms he summons increases to 3d3.
+
+**Gained:** At 6th Level
+
+**Replaces:** Suggestion
+
+**Summon Nature's Ally**
+
+**Ability:** At 1st level, the animal speaker adds
+[summon nature's ally I](ref/spell/summon-natures-ally-1) to his bard spell list and bard spells
+known as a 1st-level spell. At 4th level, he adds
+[summon nature's ally II](ref/spell/summon-natures-ally-2) to his spell list and spells known as a
+2nd-level spell, and so on every 3 levels thereafter, until 16th level when he adds
+[summon nature's ally VI](ref/spell/summon-natures-ally-6) to his 6th-level spell list and spells
+known.
+
+**Replaces:** Mass suggestion

@@ -16,15 +16,10 @@ page = "79"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "mutate-eidolon", level = 6 },
-  { anchor = "evolve-base-form", level = 8 },
-  { anchor = "transmogrify", level = 12 },
-]
 trades = [
-  { replaces = "Maker's call", feature = "maker-s-call", by = ["mutate-eidolon"] },
-  { replaces = "Transposition", feature = "transposition", by = ["evolve-base-form"] },
-  { replaces = "Greater shield ally", feature = "greater-shield-ally", by = ["transmogrify"] },
+  { replaces = "Maker's call", feature = "maker-s-call" },
+  { replaces = "Transposition", feature = "transposition" },
+  { replaces = "Greater shield ally", feature = "greater-shield-ally" },
 ]
 +++
 
@@ -33,21 +28,31 @@ control over his eidolon's abilities increases. But an evolutionist possesses gr
 eidolon's form, and is able to evolve his eidolon and its abilities to meet any challenge or face
 any threat as it comes up, seemingly on a whim.
 
-## Mutate Eidolon (Su) {#mutate-eidolon}
+**Mutate Eidolon (Su)**
 
-At 6th level, an evolutionist can change his eidolon's evolutions as if he had gained a level. To
+**Ability:** An evolutionist can change his eidolon's evolutions as if he had gained a level. To
 mutate his eidolon, the evolutionist must perform an arcane ritual that requires 24 hours of
-uninterrupted concentration and costs 200 gp per summoner level in material components. This ability
-replaces maker's call.
+uninterrupted concentration and costs 200 gp per summoner level in material components.
 
-## Evolve Base Form (Su) {#evolve-base-form}
+**Gained:** At 6th Level
 
-Starting at 8th level, whenever he gains a level, the evolutionist can change his eidolon's base
-form to a new base form. Once chosen, this base form is set until the evolutionist gains another
-summoner level. This ability replaces transposition.
+**Replaces:** Maker's call
 
-## Transmogrify (Sp) {#transmogrify}
+**Evolve Base Form (Su)**
 
-At 12th level, the evolutionist can cast _[transmogrify](ref/spell/transmogrify)_ as a
+**Ability:** Whenever he gains a level, the evolutionist can change his eidolon's base form to a new
+base form. Once chosen, this base form is set until the evolutionist gains another summoner level.
+
+**Gained:** At 8th Level
+
+**Replaces:** Transposition
+
+**Transmogrify (Sp)**
+
+**Ability:** The evolutionist can cast [transmogrify](ref/spell/transmogrify) as a
 [spell-like ability](ref/umr/spell-like-abilities) once per day without the need for a material
-component. This ability has a casting time of 1 minute. This ability replaces greater shield ally.
+component. This ability has a casting time of 1 minute.
+
+**Gained:** At 12th Level
+
+**Replaces:** Greater shield ally

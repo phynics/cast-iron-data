@@ -554,6 +554,7 @@ class Para:
     runs: list[tuple[str, bool, bool]]
     page: int                                # printed page
     col: int
+    size: int = 0                            # the font size of a title
 
     def plain(self) -> str:
         return "".join(t for t, _, _ in self.runs)
@@ -668,7 +669,7 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
                 if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown:
                     out[-1].runs += [(" ", True, False)] + ln["runs"]
                 else:
-                    out.append(Para("title", list(ln["runs"]), shown, ln["col"]))
+                    out.append(Para("title", list(ln["runs"]), shown, ln["col"], ln["size"]))
                 continue
             # a paragraph starts at an indent. A sidebar is an inset block that a title opens: inside it every line is
             # indented, and only a deeper indent starts a paragraph
@@ -707,7 +708,8 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                 nxt = blocks[j]
                 if nxt.kind == "title":
                     k = squash(nxt.plain())
-                    if stops is None or k in stops or k.endswith("archetype"):
+                    # another archetype, a class, or a chapter title (a larger font) ends the section
+                    if stops is None or k in stops or k.endswith("archetype") or nxt.size >= 30:
                         break
                     out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
                 else:
@@ -1156,7 +1158,7 @@ def trade_name(t: dict) -> tuple[str, str]:
 
 
 DECISION_HEADER = ["entry", "anchor", "decision", "note"]
-DECISIONS = ("print", "drop", "to-opening")
+DECISIONS = ("print", "drop", "to-opening", "hold")
 
 
 def decisions_path(corpus: Path, book: str) -> Path:
@@ -1445,6 +1447,14 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
             used.add(idx)
             last = idx
         matched.append(idx)
+    # a head that print sets in another order than the import (a sidebar before a list) matches wherever it stands
+    for n, pf in enumerate(pfeats):
+        if matched[n] is None:
+            key = namekey(pf.head)
+            idx = next((i for i in range(len(feats)) if i not in used and namekey(feats[i].name) == key), None)
+            if idx is not None:
+                used.add(idx)
+                matched[n] = idx
     problems: list[str] = []
     lost_heads = [feats[i].name for i in range(len(feats)) if i not in used]
     if lost_heads:
@@ -1705,6 +1715,9 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             if kind == "to-opening":
                 opening_from_print = True
                 opening = [apply_links(o, res.get("opening_links", []))[0] for o in res["opening"]]
+        elif kind == "hold":
+            r["status"] = "hold"
+            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor"))]
         elif kind == "print" and r["status"] == "hold":
             r["status"] = "print"
             r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling", "trade"))]
