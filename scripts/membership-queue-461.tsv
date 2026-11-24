@@ -1603,10 +1603,10 @@ horror-realms	ref/affliction/zombie/zombie-rot	affliction	Zombie Rot	2	3	family-
 humans-of-golarion	ref/trait/azlanti-inheritor	trait	Azlanti Inheritor	2	2	review	printed	30	row	0								keep	30	title-on-cited-page	single-entry	S0			yes		yes	
 inner-sea-combat	ref/ability/combat-styles	rule	Combat Styles	5	7	uncited	printed		none	2	1,11										link-only-hub	S10	hub-design-a	yes	yes			
 inner-sea-combat	ref/magic-weapon/rostland-edge	item	Rostland Edge	2	2	review	absent	56	row	0											single-entry	S11			yes		no	
-inner-sea-gods	ref/spell/drunkards-breath	spell	Drunkard's Breath	2	2	uncited	body		none	1	228										single-entry	S5		yes	yes			
-inner-sea-gods	ref/spell/ironbloom-sprouts	spell	Ironbloom Sprouts	2	2	uncited	body		none	1	228										single-entry	S5		yes	yes			
-inner-sea-gods	ref/spell/sign-of-the-dawnflower	spell	Sign of the Dawnflower	2	2	uncited	body		none	1	228										single-entry	S5		yes	yes			
-inner-sea-gods	ref/spell/swallow-your-fear	spell	Swallow Your Fear	2	2	uncited	body		none	1	228										single-entry	S5		yes	yes			
+inner-sea-gods	ref/spell/drunkards-breath	spell	Drunkard's Breath	2	2	uncited	body		none	1	228							remove	228-245	section-read-no-entry	single-entry	done		yes	yes			
+inner-sea-gods	ref/spell/ironbloom-sprouts	spell	Ironbloom Sprouts	2	2	uncited	body		none	1	228							remove	228-245	section-read-no-entry	single-entry	done		yes	yes			
+inner-sea-gods	ref/spell/sign-of-the-dawnflower	spell	Sign of the Dawnflower	2	2	uncited	body		none	1	228							remove	228-245	section-read-no-entry	single-entry	done		yes	yes			
+inner-sea-gods	ref/spell/swallow-your-fear	spell	Swallow Your Fear	2	2	uncited	body		none	1	228							remove	228-245	section-read-no-entry	single-entry	done		yes	yes			
 inner-sea-gods	ref/spell/sympathetic-wounds	spell	Sympathetic Wounds	2	2	uncited	absent		none	0								remove	228-245	section-read-no-entry	single-entry	done			yes			
 inner-sea-gods	ref/spell/trail-of-the-rose	spell	Trail of the Rose	2	2	uncited	absent		none	0								remove	228-245	section-read-no-entry	single-entry	done			yes			
 inner-sea-gods	ref/spell/traveling-dream	spell	Traveling Dream	3	3	uncited	absent		none	0								remove	228-245	section-read-no-entry	single-entry	done			yes			
