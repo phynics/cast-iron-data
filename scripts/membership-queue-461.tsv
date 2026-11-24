@@ -194,7 +194,7 @@ advanced-players-guide	ref/rule/class-druid/druid	rule	Druid	8	12	family-leak	pr
 advanced-players-guide	ref/rule/class-fighter/fighter	rule	Fighter	7	10	family-leak	printed		none	38	3,10,11,12,13	parent	ref/class/fighter(title)	yes				cite	72	section-printed	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/rule/class-monk/monk	rule	Monk	8	9	family-leak	printed		none	39	1,3,5,10,12	parent	ref/class/monk(title)	yes				cite	72	section-printed	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/rule/class-ranger/ranger	rule	Ranger	8	12	family-leak	printed		none	40	1,3,5,10,11	parent	ref/class/ranger(title)	yes				cite	72	section-printed	class-hub	done		yes	yes	yes		
-advanced-players-guide	ref/rule/class-rogue/rogue	rule	Rogue	5	14	family-leak	printed		none	40	1,3,5,9,10	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes	yes		
+advanced-players-guide	ref/rule/class-rogue/rogue	rule	Rogue	5	14	family-leak	printed		none	40	1,3,5,9,10	parent	ref/class/rogue(title)	yes				cite	72	section-printed	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	2	11	family-leak	printed		none	40	3,10,12,13,14	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes	yes		
 advanced-players-guide	ref/rule/class-wizard/wizard	rule	Wizard	2	11	family-leak	printed		none	40	2,3,5,10,12	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes	yes		
 advanced-players-guide	ref/rule/races	rule	Races	3	3	family-leak	printed	8	body	0		child	ref/carried/advanced-players-guide/rules/races/dwarves(title),ref/carried/advanced-players-guide/rules/races/elves(title),ref/carried/advanced-players-guide/rules/races/gnomes(title)								hub-cited	S10		yes	yes	yes	yes	
@@ -301,7 +301,7 @@ advanced-race-guide	ref/rule/class-fighter/fighter	rule	Fighter	6	10	family-leak
 advanced-race-guide	ref/rule/class-monk/monk	rule	Monk	5	9	family-leak	printed		none	37	9,13,23,33,43	parent	ref/class/monk(title)	yes				remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/rule/class-paladin/paladin	rule	Paladin	4	12	family-leak	printed		none	31	4,9,13,16,17	parent	ref/class/paladin(title)	yes				remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/rule/class-ranger/ranger	rule	Ranger	6	12	family-leak	printed		none	40	9,13,19,21,23	parent	ref/class/ranger(title)	yes				remove	13	class-options-only	class-hub	done		yes	yes			
-advanced-race-guide	ref/rule/class-rogue/rogue	rule	Rogue	4	14	family-leak	printed		none	40	9,12,13,23,33	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+advanced-race-guide	ref/rule/class-rogue/rogue	rule	Rogue	4	14	family-leak	printed		none	40	9,12,13,23,33	parent	ref/class/rogue(title)	yes				remove	13	class-options-only	class-hub	done		yes	yes			
 advanced-race-guide	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	3	11	family-leak	printed		none	40	9,13,23,24,29	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 advanced-race-guide	ref/rule/class-wizard/wizard	rule	Wizard	3	11	family-leak	printed		none	40	2,9,13,21,22	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 advanced-race-guide	ref/class/alchemist	class	Alchemist	5	12	uncited	printed		none	40	9,13,23,29,33							remove	13	class-options-only	class-hub	done			yes			
@@ -690,7 +690,7 @@ blood-of-shadows	ref/rule/class-fighter/fighter	rule	Fighter	8	10	family-leak	pr
 blood-of-shadows	ref/rule/class-monk/monk	rule	Monk	6	9	family-leak	printed		none	2	7,11	parent	ref/class/monk(title)	yes				remove	7	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/rule/class-paladin/paladin	rule	Paladin	5	12	family-leak	printed		none	6	3,7,11,15,18	parent	ref/class/paladin(title)	yes				remove	7	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/rule/class-ranger/ranger	rule	Ranger	7	12	family-leak	printed		none	3	11,15,16	parent	ref/class/ranger(title)	yes				remove	11	class-options-only	class-hub	done		yes	yes			
-blood-of-shadows	ref/rule/class-rogue/rogue	rule	Rogue	12	14	family-leak	printed		none	7	3,7,8,9,11	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+blood-of-shadows	ref/rule/class-rogue/rogue	rule	Rogue	12	14	family-leak	printed		none	7	3,7,8,9,11	parent	ref/class/rogue(title)	yes				remove	7	class-options-only	class-hub	done		yes	yes			
 blood-of-shadows	ref/rule/class-wizard/wizard	rule	Wizard	4	11	family-leak	printed		none	9	11,12,15,16,28	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 blood-of-shadows	ref/class/alchemist	class	Alchemist	6	12	uncited	printed		none	10	3,7,11,15,16							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/bloodrager	class	Bloodrager	5	9	uncited	printed		none	5	3,15,16,30,31							remove	15	class-options-only	class-hub	done			yes			
@@ -736,7 +736,7 @@ blood-of-the-beast	ref/rule/class-fighter/fighter	rule	Fighter	10	10	family-leak
 blood-of-the-beast	ref/rule/class-monk/monk	rule	Monk	3	9	family-leak	printed		none	7	3,4,13,28,29	parent	ref/class/monk(title)	yes				remove	4	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/rule/class-paladin/paladin	rule	Paladin	6	12	family-leak	printed		none	2	8,16	parent	ref/class/paladin(title)	yes				remove	16	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/rule/class-ranger/ranger	rule	Ranger	12	12	family-leak	printed		none	7	3,7,9,10,11	parent	ref/class/ranger(title)	yes				remove	9	class-options-only	class-hub	done		yes	yes			
-blood-of-the-beast	ref/rule/class-rogue/rogue	rule	Rogue	10	14	family-leak	printed		none	7	6,7,10,20,26	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+blood-of-the-beast	ref/rule/class-rogue/rogue	rule	Rogue	10	14	family-leak	printed		none	7	6,7,10,20,26	parent	ref/class/rogue(title)	yes				remove	6	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	4	11	family-leak	printed		none	10	3,7,12,13,14	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 blood-of-the-beast	ref/rule/class-wizard/wizard	rule	Wizard	5	11	family-leak	printed		none	8	7,12,14,19,21	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 blood-of-the-beast	ref/spell/suggestion-mass	spell	Mass Suggestion	2	3	family-leak	absent	14	row	0		variant	ref/spell/suggestion(title)					remove	14	wrong-credit-invalidated	single-entry	done			yes			
@@ -810,7 +810,7 @@ blood-of-the-sea	ref/rule/class-bard/bard	rule	Bard	10	13	family-leak	printed		n
 blood-of-the-sea	ref/rule/class-druid/druid	rule	Druid	3	12	family-leak	printed		none	6	3,5,11,21,24	parent	ref/class/druid(title)	yes				remove	5	class-options-only	class-hub	done		yes	yes			
 blood-of-the-sea	ref/rule/class-monk/monk	rule	Monk	7	9	family-leak	printed		none	4	9,10,11,13	parent	ref/class/monk(title)	yes				remove	9	class-options-only	class-hub	done		yes	yes			
 blood-of-the-sea	ref/rule/class-ranger/ranger	rule	Ranger	4	12	family-leak	printed		none	3	5,11,21	parent	ref/class/ranger(title)	yes				remove	5	class-options-only	class-hub	done		yes	yes			
-blood-of-the-sea	ref/rule/class-rogue/rogue	rule	Rogue	11	14	family-leak	printed		none	3	3,5,11	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+blood-of-the-sea	ref/rule/class-rogue/rogue	rule	Rogue	11	14	family-leak	printed		none	3	3,5,11	parent	ref/class/rogue(title)	yes				remove	5	class-options-only	class-hub	done		yes	yes			
 blood-of-the-sea	ref/rule/class-wizard/wizard	rule	Wizard	6	11	family-leak	printed		none	5	5,21,24,27,32	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 blood-of-the-sea	ref/class/cavalier	class	Cavalier	4	8	uncited	printed		none	6	3,5,11,24,25							remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/investigator	class	Investigator	7	7	uncited	printed		none	2	9,11							remove	9	class-options-only	class-hub	done			yes			
@@ -887,7 +887,7 @@ chronicle-of-legends	ref/class/brawler	class	Brawler	3	5	weak	weak		none	1	28			
 chronicle-of-legends	ref/class/investigator	class	Investigator	3	7	weak	weak		none	1	29							cite	28-29	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/oracle	class	Oracle	5	13	weak	weak		none	1	29							cite	28-29	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/rogue	class	Rogue	2	14	weak	weak		none	1	29							cite	28-29	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/rule/class-rogue/rogue	rule	Rogue	2	14	weak	weak		none	1	29			yes							class-hub	S8		yes	yes	yes		
+chronicle-of-legends	ref/rule/class-rogue/rogue	rule	Rogue	2	14	weak	weak		none	1	29			yes				cite	28-29	section-printed	class-hub	done		yes	yes	yes		
 classic-horrors-revisited	ref/affliction/zombie/deathspore-toxin	affliction	Deathspore Toxin	3	3	family-leak	absent	25	row	0		parent	ref/template/zombie(title)	yes				remove	25	wrong-credit-invalidated	single-entry	done			yes			
 cohorts-and-companions	ref/rule/advanced-player-topics	rule	Advanced Player Topics	1	3	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 cohorts-and-companions	ref/rule/types-of-traits	rule	Types of Traits	5	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
@@ -1133,7 +1133,7 @@ goblins-of-golarion	ref/class/sorcerer	class	Sorcerer	6	11	family-leak	printed		
 goblins-of-golarion	ref/rule/class-bard/bard	rule	Bard	11	13	family-leak	printed		none	6	8,10,13,15,28	parent	ref/class/bard(title)	yes				remove	13	class-options-only	class-hub	done		yes	yes			
 goblins-of-golarion	ref/rule/class-druid/druid	rule	Druid	10	12	family-leak	printed		none	4	14,15,28,31	parent	ref/class/druid(title)	yes				remove	14	class-options-only	class-hub	done		yes	yes			
 goblins-of-golarion	ref/rule/class-ranger/ranger	rule	Ranger	10	12	family-leak	printed		none	4	8,14,15,31	parent	ref/class/ranger(title)	yes				remove	15	class-options-only	class-hub	done		yes	yes			
-goblins-of-golarion	ref/rule/class-rogue/rogue	rule	Rogue	9	14	family-leak	printed		none	5	8,14,15,31,32	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+goblins-of-golarion	ref/rule/class-rogue/rogue	rule	Rogue	9	14	family-leak	printed		none	5	8,14,15,31,32	parent	ref/class/rogue(title)	yes				remove	15	class-options-only	class-hub	done		yes	yes			
 goblins-of-golarion	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	6	11	family-leak	printed		none	5	8,15,28,31,32	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 goblins-of-golarion	ref/class/alchemist	class	Alchemist	8	12	uncited	printed		none	9	4,5,10,13,14							remove	13	class-options-only	class-hub	done			yes			
 goblins-of-golarion	ref/class/cavalier	class	Cavalier	6	8	uncited	printed		none	4	13,14,30,31							remove	13	class-options-only	class-hub	done			yes			
@@ -1232,7 +1232,7 @@ heroes-of-golarion	ref/class/cleric	class	Cleric	9	9	family-leak	printed		none	4
 heroes-of-golarion	ref/class/rogue	class	Rogue	13	14	family-leak	printed		none	2	6,17	child	ref/rule/class-rogue/rogue(title)					remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/class/wizard	class	Wizard	8	11	family-leak	printed		none	4	6,14,18,32	child	ref/rule/class-wizard/wizard(title)					remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/rule/class-cleric/cleric	rule	Cleric	9	9	family-leak	printed		none	4	6,14,15,17	parent	ref/class/cleric(title)	yes				remove	6	class-options-only	class-hub	done		yes	yes			
-heroes-of-golarion	ref/rule/class-rogue/rogue	rule	Rogue	13	14	family-leak	printed		none	2	6,17	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+heroes-of-golarion	ref/rule/class-rogue/rogue	rule	Rogue	13	14	family-leak	printed		none	2	6,17	parent	ref/class/rogue(title)	yes				remove	6	class-options-only	class-hub	done		yes	yes			
 heroes-of-golarion	ref/rule/class-wizard/wizard	rule	Wizard	8	11	family-leak	printed		none	4	6,14,18,32	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 heroes-of-golarion	ref/class/alchemist	class	Alchemist	11	12	uncited	printed		none	5	3,6,24,25,27							remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/class/arcanist	class	Arcanist	8	8	uncited	printed		none	3	3,6,20							remove	6	class-options-only	class-hub	done			yes			
@@ -1568,7 +1568,7 @@ horror-adventures	ref/rule/class-fighter/fighter	rule	Fighter	9	10	family-leak	p
 horror-adventures	ref/rule/class-monk/monk	rule	Monk	9	9	family-leak	printed		none	5	41,81,88,89,179	parent	ref/class/monk(title)	yes				remove	41	class-options-only	class-hub	done		yes	yes			
 horror-adventures	ref/rule/class-paladin/paladin	rule	Paladin	9	12	family-leak	printed		none	19	3,5,38,44,56	parent	ref/class/paladin(title)	yes				remove	38	class-options-only	class-hub	done		yes	yes			
 horror-adventures	ref/rule/class-ranger/ranger	rule	Ranger	11	12	family-leak	printed		none	16	33,38,39,40,60	parent	ref/class/ranger(title)	yes				remove	40	class-options-only	class-hub	done		yes	yes			
-horror-adventures	ref/rule/class-rogue/rogue	rule	Rogue	8	14	family-leak	printed		none	5	39,44,66,82,240	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+horror-adventures	ref/rule/class-rogue/rogue	rule	Rogue	8	14	family-leak	printed		none	5	39,44,66,82,240	parent	ref/class/rogue(title)	yes				remove	39	class-options-only	class-hub	done		yes	yes			
 horror-adventures	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	7	11	family-leak	printed		none	31	22,27,35,39,59	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 horror-adventures	ref/rule/class-wizard/wizard	rule	Wizard	9	11	family-leak	printed		none	40	3,22,27,35,38	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 horror-adventures	ref/rule/rule-sanity-and-madness/curing-insanity	rule	Curing Insanity	2	2	family-leak	absent		none	0		parent	ref/rule/sanity-and-madness(title)	yes				remove	12-13, 182	passing-mention-recorded	link-only-hub	done			yes			
@@ -1727,7 +1727,7 @@ legacy-of-dragons	ref/racial-trait/halfling/attributes	racial_trait	Attributes	5
 legacy-of-dragons	ref/racial-trait/halfling/fearless	racial_trait	Fearless	9	14	weak	weak		none	1	11	parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	9	13	weak	weak		none	1	11	parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/human/attributes	racial_trait	Attributes	4	10	weak	weak		none	1	0	parent	ref/race/human(title)	yes				remove	11	race-section-read-no-trait	standard-racial-trait	done			yes			
-legacy-of-dragons	ref/rule/class-rogue/rogue	rule	Rogue	14	14	weak	weak		none	1	18			yes							class-hub	S8		yes	yes			
+legacy-of-dragons	ref/rule/class-rogue/rogue	rule	Rogue	14	14	weak	weak		none	1	18			yes				remove	18	class-options-only	class-hub	done		yes	yes			
 legacy-of-dragons	ref/faith/general-susumu	rule	General Susumu	2	2	cite-off	off-page	31	row	1	8										faith-excerpt	S11	faith-link		yes	yes	no	
 legacy-of-dragons	ref/faith/nalinivati	rule	Nalinivati	2	2	cite-off	off-page	31	row	1	8										faith-excerpt	S11	faith-link		yes	yes	no	
 legacy-of-dragons	ref/faith/ragadahn	rule	Ragadahn	2	2	cite-off	off-page	31	row	1	8										faith-excerpt	S11	faith-link		yes	yes	no	
@@ -1798,7 +1798,7 @@ legacy-of-the-first-world	ref/racial-trait/human/medium	racial_trait	Medium	10	1
 legacy-of-the-first-world	ref/racial-trait/human/normal-speed	racial_trait	Normal Speed	10	15	family-leak	absent		none	0		parent	ref/race/human(title)	yes				remove	5, 12	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/human/skilled	racial_trait	Skilled	10	15	family-leak	printed		none	4	5,12,19,21	parent	ref/race/human(title)	yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/rule/class-bard/bard	rule	Bard	9	13	family-leak	printed		none	8	3,8,11,13,20	parent	ref/class/bard(title)	yes				remove	8	class-options-only	class-hub	done		yes	yes			
-legacy-of-the-first-world	ref/rule/class-rogue/rogue	rule	Rogue	7	14	family-leak	printed		none	4	3,9,15,27	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+legacy-of-the-first-world	ref/rule/class-rogue/rogue	rule	Rogue	7	14	family-leak	printed		none	4	3,9,15,27	parent	ref/class/rogue(title)	yes				remove	9	class-options-only	class-hub	done		yes	yes			
 legacy-of-the-first-world	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	9	11	family-leak	printed		none	8	4,9,10,13,21	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 legacy-of-the-first-world	ref/spell/burning-entanglement	spell	Burning Entanglement	4	4	family-leak	absent	17	row	0		variant	ref/spell/entangle(title)					remove	17	wrong-credit-invalidated	single-entry	done			yes			
 legacy-of-the-first-world	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	9	17	inherited	absent		none	0				yes				remove	4	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -2140,7 +2140,7 @@ plane-hoppers-handbook	ref/rule/class-fighter/fighter	rule	Fighter	3	10	family-l
 plane-hoppers-handbook	ref/rule/class-monk/monk	rule	Monk	4	9	family-leak	printed		none	2	9,17	parent	ref/class/monk(title)	yes				remove	17	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/rule/class-paladin/paladin	rule	Paladin	12	12	family-leak	printed		none	9	3,7,10,12,13	parent	ref/class/paladin(title)	yes				remove	17	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/rule/class-ranger/ranger	rule	Ranger	3	12	family-leak	printed		none	4	12,15,17,23	parent	ref/class/ranger(title)	yes				remove	15	class-options-only	class-hub	done		yes	yes			
-plane-hoppers-handbook	ref/rule/class-rogue/rogue	rule	Rogue	3	14	family-leak	printed		none	6	5,9,10,15,17	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+plane-hoppers-handbook	ref/rule/class-rogue/rogue	rule	Rogue	3	14	family-leak	printed		none	6	5,9,10,15,17	parent	ref/class/rogue(title)	yes				remove	15	class-options-only	class-hub	done		yes	yes			
 plane-hoppers-handbook	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	10	11	family-leak	printed		none	9	12,13,19,20,21	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 plane-hoppers-handbook	ref/rule/class-wizard/wizard	rule	Wizard	11	11	family-leak	printed		none	11	7,12,13,15,16	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 plane-hoppers-handbook	ref/class/alchemist	class	Alchemist	3	12	uncited	printed		none	3	10,13,15							remove	15	class-options-only	class-hub	done			yes			
@@ -2499,7 +2499,7 @@ ultimate-wilderness	ref/rule/class-barbarian/barbarian	rule	Barbarian	10	10	fami
 ultimate-wilderness	ref/rule/class-bard/bard	rule	Bard	8	13	family-leak	printed		none	22	3,5,9,10,11	parent	ref/class/bard(title)	yes				remove	40	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/rule/class-druid/druid	rule	Druid	7	12	family-leak	printed		none	40	3,4,5,10,11	parent	ref/class/druid(title)	yes				remove	46	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/rule/class-ranger/ranger	rule	Ranger	9	12	family-leak	printed		none	40	3,5,10,14,17	parent	ref/class/ranger(title)	yes				remove	10	class-options-only	class-hub	done		yes	yes			
-ultimate-wilderness	ref/rule/class-rogue/rogue	rule	Rogue	6	14	family-leak	printed		none	16	3,9,10,12,17	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
+ultimate-wilderness	ref/rule/class-rogue/rogue	rule	Rogue	6	14	family-leak	printed		none	16	3,9,10,12,17	parent	ref/class/rogue(title)	yes				remove	10	class-options-only	class-hub	done		yes	yes			
 ultimate-wilderness	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	11	11	family-leak	printed		none	20	14,16,17,19,25	parent	ref/class/sorcerer(title)	yes							class-hub	S8		yes	yes			
 ultimate-wilderness	ref/spell/die-for-your-master	spell	Die for Your Master	1	2	family-leak	absent	227	row	0		variant	ref/spell/bleed-for-your-master(title)		primary	(none)		resolved	none	out-of-source-ids	single-entry	S0			yes			
 ultimate-wilderness	ref/racial-trait/half-elf/elf-blood	racial_trait	Elf Blood	17	18	inherited	absent		none	0				yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
