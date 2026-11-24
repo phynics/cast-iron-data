@@ -230,7 +230,7 @@ advanced-players-guide	ref/class/slayer	class	Slayer	2	8	uncited	printed		none	4
 advanced-players-guide	ref/class/spiritualist	class	Spiritualist	2	7	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/swashbuckler	class	Swashbuckler	2	4	uncited	printed		none	4	22,73,135,335							remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/unchained-barbarian	class	Unchained Barbarian	2	3	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
-advanced-players-guide	ref/class/unchained-monk	class	Unchained Monk	2	4	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
+advanced-players-guide	ref/class/unchained-monk	class	Unchained Monk	2	4	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/unchained-rogue	class	Unchained Rogue	2	3	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/unchained-summoner	class	Unchained Summoner	2	4	uncited	body		none	1	54										class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/vigilante	class	Vigilante	2	5	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
@@ -769,7 +769,7 @@ blood-of-the-beast	ref/class/spiritualist	class	Spiritualist	6	7	uncited	printed
 blood-of-the-beast	ref/class/summoner	class	Summoner	7	7	uncited	printed		none	4	3,11,28,31										class-hub	S7		yes	yes			
 blood-of-the-beast	ref/class/swashbuckler	class	Swashbuckler	4	4	uncited	printed		none	7	3,7,8,12,20							remove	8	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/unchained-barbarian	class	Unchained Barbarian	4	4	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
-blood-of-the-beast	ref/class/unchained-monk	class	Unchained Monk	4	4	uncited	printed		none	2	3,4										class-hub	S7		yes	yes			
+blood-of-the-beast	ref/class/unchained-monk	class	Unchained Monk	4	4	uncited	printed		none	2	3,4							remove	30	class-options-only	class-hub	done		yes	yes			
 blood-of-the-beast	ref/class/unchained-rogue	class	Unchained Rogue	4	4	uncited	absent		none	0								remove	none	mention-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/unchained-summoner	class	Unchained Summoner	4	4	uncited	printed		none	2	3,31										class-hub	S7		yes	yes			
 blood-of-the-beast	ref/class/vigilante	class	Vigilante	5	5	uncited	printed		none	6	3,7,12,13,15										class-hub	S7		yes	yes			
@@ -874,7 +874,7 @@ chronicle-of-legends	ref/class/spiritualist	class	Spiritualist	3	7	uncited	print
 chronicle-of-legends	ref/class/summoner	class	Summoner	2	7	uncited	printed		none	2	14,30										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/swashbuckler	class	Swashbuckler	3	4	uncited	printed		none	4	3,4,5,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-barbarian	class	Unchained Barbarian	3	3	uncited	absent		none	0								cite	28	section-printed	class-hub	done		yes	yes	yes		
-chronicle-of-legends	ref/class/unchained-monk	class	Unchained Monk	3	4	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
+chronicle-of-legends	ref/class/unchained-monk	class	Unchained Monk	3	4	uncited	absent		none	0								cite	28-29	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-rogue	class	Unchained Rogue	3	3	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-summoner	class	Unchained Summoner	3	4	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/vigilante	class	Vigilante	3	5	uncited	printed		none	4	3,5,7,30										class-hub	S7		yes	yes	yes		
