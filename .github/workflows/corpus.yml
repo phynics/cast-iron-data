@@ -2,7 +2,7 @@ name: corpus
 
 # Checks every pull request the way the app reads the corpus. The checker is built from the
 # current `main` of Cast Iron, so a corpus change that the app's content build would reject
-# fails here, before a tag and a pin bump. Five checks run:
+# fails here, before a tag and a pin bump. Six checks run:
 #   1. `fmt --check`: every file is in canonical form.
 #   2. `check`: references resolve (the compiler runs it first and stops on any problem).
 #   3. The app's compiler, given the same inputs as `cargo xtask content`: every id in the app's
@@ -16,6 +16,8 @@ name: corpus
 #   5. `scripts/feature-prose-540.py --self-test` and `--check` (phynics/cast-iron#540): the review
 #      table of each book that is being rewritten into headed printed prose matches its entries (no
 #      stale row, no entry that could be converted and was not). It needs no PDF.
+#   6. `scripts/errata.py --self-test` and `--check` (phynics/cast-iron-data#309): `scripts/errata.tsv`
+#      is well formed, every row's entry exists, and the entry holds the printed (or kept) value.
 # When Cast Iron `main` changes the corpus format, this workflow fails until a corpus pull
 # request migrates the corpus; that is the point of building from `main`.
 on:
@@ -87,6 +89,10 @@ jobs:
         run: |
           python3 corpus/scripts/feature-prose-540.py --self-test
           python3 corpus/scripts/feature-prose-540.py corpus --check
+      - name: Errata review file (#309)
+        run: |
+          python3 corpus/scripts/errata.py --self-test
+          python3 corpus/scripts/errata.py corpus --check
       - name: Check and content build
         run: |
           "$RUNNER_TEMP/checker/bin/cast-iron-compile" \
