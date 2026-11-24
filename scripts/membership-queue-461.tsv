@@ -314,7 +314,7 @@ advanced-race-guide	ref/class/oracle	class	Oracle	2	13	uncited	printed		none	37	
 advanced-race-guide	ref/class/samurai	class	Samurai	4	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 advanced-race-guide	ref/class/summoner	class	Summoner	3	7	uncited	printed		none	39	9,13,23,34,43										class-hub	S7		yes	yes			
 advanced-race-guide	ref/class/witch	class	Witch	2	11	uncited	printed		none	40	9,13,23,29,34										class-hub	S7		yes	yes			
-advanced-race-guide	ref/monster/rat-dire-rat	creature	Dire Rat	2	2	uncited	printed		none	3	150,153,155										single-entry	S5		yes	yes			
+advanced-race-guide	ref/monster/rat-dire-rat	creature	Dire Rat	2	2	uncited	printed		none	3	150,153,155							remove	150	mention-only	single-entry	done		yes	yes			
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	8	15	review	loose	166	row	0								remove	166	wrong-credit-invalidated	figurine	done			yes		no	
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	8	15	review	printed	166	row	0								remove	166	wrong-credit-invalidated	figurine	done			yes		yes	none
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven	item	Figurine of Wondrous Power (Black Jade Raven)	8	15	review	printed	166	row	0								keep	166	title-on-cited-page	figurine	S0			yes		yes	page
