@@ -316,6 +316,11 @@ def parse_import(body: str, heads: set[str] = frozenset()) -> tuple[list[list[st
         if r:
             label, content = r.group(1).strip(), r.group(2).strip()
             known = label in PLAIN_LABELS or label in EFFECT_LABELS or label in ACTION_LABELS or UPGRADE_LABEL.match(label)
+            if not known and cur.pseudo and namekey(label) == namekey(cur.label):
+                # the import split a printed table or list into rows with one label: they are one head
+                cur.raw.append(block)
+                cur.items.append(Item(None, content))
+                continue
             if not known and (namekey(tail_name(label)) in heads or namekey(label) in heads):
                 cur = ImportFeature(tail_name(label), [Item(None, content)], [block], pseudo=True, label=label)
                 feats.append(cur)
@@ -369,6 +374,8 @@ def build_draft(feat: ImportFeature) -> Draft:
             effect.append(f"as a {ACTION_LABELS[lab]} action, " + lower_first(it.content))
         elif lab == "Action":
             v = ACTION_VALUES.get(it.content.strip().rstrip(".").lower())
+            if it.content.strip().rstrip(".").lower() in ("ability", "special", "passive ability", "passive"):
+                continue        # "Action: Ability" names no action
             if v:
                 action = v
                 labelled = True
@@ -700,19 +707,23 @@ class PrintFeature:
 
 
 def head_candidate(p: Para) -> tuple[str, list, bool] | None:
-    """The leading bold (or italic) run before the colon of a paragraph, and the rest of its runs."""
-    if not p.runs:
+    """The leading bold (or italic) run before the colon of a paragraph, and the rest of its runs. Blanks before
+    the head (a justified first line) do not count."""
+    runs = list(p.runs)
+    while runs and not runs[0][0].strip():
+        runs.pop(0)
+    if not runs:
         return None
-    first = p.runs[0]
+    first = runs[0]
     style = "bold" if first[1] else ("italic" if first[2] else "")
     if not style:
         return None
     i, head = 0, ""
-    while i < len(p.runs) and (p.runs[i][1] if style == "bold" else p.runs[i][2]):
-        head += p.runs[i][0]
+    while i < len(runs) and (runs[i][1] if style == "bold" else runs[i][2]):
+        head += runs[i][0]
         i += 1
     head = re.sub(r"\s+", " ", head).strip()
-    rest = p.runs[i:]
+    rest = runs[i:]
     if not head:
         return None
     return head, rest, style == "bold"
