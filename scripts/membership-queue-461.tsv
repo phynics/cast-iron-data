@@ -706,7 +706,7 @@ blood-of-shadows	ref/class/warpriest	class	Warpriest	3	6	uncited	printed		none	3
 blood-of-shadows	ref/class/witch	class	Witch	3	11	uncited	printed		none	8	4,11,15,16,28							remove	11	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/race/drow	race	Drow	4	6	uncited	printed		none	10	8,2,3,4,5							remove	14	race-options-only	race-hub	done		yes	yes			
 blood-of-shadows	ref/race/fetchling	race	Fetchling	4	5	uncited	printed		none	9	2,3,4,5,6							remove	6	race-options-only	race-hub	done		yes	yes			
-blood-of-shadows	ref/race/wayang	race	Wayang	6	6	uncited	printed		none	8	2,3,5,10,11										race-hub	S9		yes	yes			
+blood-of-shadows	ref/race/wayang	race	Wayang	6	6	uncited	printed		none	8	2,3,5,10,11							remove	10	race-options-only	race-hub	done		yes	yes			
 blood-of-shadows	ref/class/arcanist	class	Arcanist	6	8	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/gunslinger	class	Gunslinger	6	7	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/hunter	class	Hunter	5	8	weak	weak		none	1	7							remove	7	class-options-only	class-hub	done			yes			
