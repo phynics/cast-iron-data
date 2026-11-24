@@ -229,7 +229,7 @@ advanced-players-guide	ref/class/skald	class	Skald	2	7	uncited	printed		none	3	7
 advanced-players-guide	ref/class/slayer	class	Slayer	2	8	uncited	printed		none	4	40,41,333,335							remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/spiritualist	class	Spiritualist	2	7	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/swashbuckler	class	Swashbuckler	2	4	uncited	printed		none	4	22,73,135,335							remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
-advanced-players-guide	ref/class/unchained-barbarian	class	Unchained Barbarian	2	3	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
+advanced-players-guide	ref/class/unchained-barbarian	class	Unchained Barbarian	2	3	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done		yes	yes	yes		
 advanced-players-guide	ref/class/unchained-monk	class	Unchained Monk	2	4	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/unchained-rogue	class	Unchained Rogue	2	3	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/unchained-summoner	class	Unchained Summoner	2	4	uncited	body		none	1	54										class-hub	S7		yes	yes	yes		
@@ -873,7 +873,7 @@ chronicle-of-legends	ref/class/slayer	class	Slayer	3	8	uncited	printed		none	5	3
 chronicle-of-legends	ref/class/spiritualist	class	Spiritualist	3	7	uncited	printed		none	2	14,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/summoner	class	Summoner	2	7	uncited	printed		none	2	14,30										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/swashbuckler	class	Swashbuckler	3	4	uncited	printed		none	4	3,4,5,30							cite	28, 30	section-printed	class-hub	done		yes	yes	yes		
-chronicle-of-legends	ref/class/unchained-barbarian	class	Unchained Barbarian	3	3	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
+chronicle-of-legends	ref/class/unchained-barbarian	class	Unchained Barbarian	3	3	uncited	absent		none	0								cite	28	section-printed	class-hub	done		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-monk	class	Unchained Monk	3	4	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-rogue	class	Unchained Rogue	3	3	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/unchained-summoner	class	Unchained Summoner	3	4	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
