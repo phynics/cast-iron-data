@@ -112,6 +112,11 @@ entry's parent lists the book).
         `scripts/expansion-credits-apply.py`, decisions in `scripts/expansion-credits-461-batch4.tsv`),
         `section-printed` (keep: the book prints a section of the entry's body on `print_page`; a
         keep needs a `[[sources]]` row, and the row is added when the entry holds only a body line).
+        `class-options-only` (remove, class hubs, S6 of #461: the book's rules index and the class's
+        pages were read, and the book prints archetypes, favored class options, feats, spells or
+        class options for the class but no section of the class body (owner ruling 1 of 2026-11-23);
+        `print_page` is the first page of that material for the class. Capstones and the
+        Archetypes introduction are `section-printed`, a `cite`).
         A re-run overwrites the queue; scripts/membership-apply.py applies the rows marked `remove`
         and `cite`. Since S0 of #461 the queue is kept by scripts/membership-queue-461.py, which
         adds the columns `group`, `slice`, `ruling`, `in_warning`, `pdf`, `body_line`, `exact` and

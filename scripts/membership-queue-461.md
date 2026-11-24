@@ -91,7 +91,11 @@ alternate racial traits with "replaces" lines, favored class options, archetypes
 `no-pdf-structural-rule` (owner ruling of 2026-11-24 on #461: the book is not among the owner's PDFs,
 the corpus has no page for it, and other print evidence shows that the book prints only alternate
 traits; `print_page` is the page of that other evidence, for example Heroes from the Fringe p. 11
-citing Pathfinder #124 p. 79 for the Spiresworn elves). A removal still
+citing Pathfinder #124 p. 79 for the Spiresworn elves; the same code covers the class hubs of
+Pathfinder #101: the corpus lists that volume on no archetype or class option entry of those
+classes and has no page for it, so `print_page` is `none`). `class-options-only` records a class hub whose book prints archetypes, favored class
+options, feats, spells or class options for the class and no section of the class body (owner
+ruling 1 of 2026-11-23; S6 of #461). A removal still
 needs the print check, a page and the audit row that its class asks for. The queue is a list of
 hypotheses, not proof.
 A book can print an entry on its inside cover, which has no number. The page is then `inside cover`,
