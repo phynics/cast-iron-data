@@ -19,11 +19,17 @@ page = "4"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "banner", level = 1 },
+  { anchor = "mount", level = 5 },
+  { anchor = "banner-of-solace", level = 11 },
+  { anchor = "awesome-pennon", level = 20 },
+]
 trades = [
-  { replaces = "Mount", feature = "mount" },
-  { replaces = "Banner", feature = "banner" },
-  { replaces = "Mighty charge", feature = "mighty-charge" },
-  { replaces = "Supreme charge", feature = "supreme-charge" },
+  { replaces = "Mount", feature = "mount", by = ["banner"] },
+  { replaces = "Banner", feature = "banner", by = ["mount"] },
+  { replaces = "Mighty charge", feature = "mighty-charge", by = ["banner-of-solace"] },
+  { replaces = "Supreme charge", feature = "supreme-charge", by = ["awesome-pennon"] },
 ]
 +++
 
@@ -33,91 +39,32 @@ brightly over the battlefield, rallying their troops to victory. The standard be
 banner of his order, his lord, or his own house to raise the spirits of his allies and warns enemies
 of impending doom.
 
-**Banner (Ex)**
+## Banner (Ex) {#banner}
 
-**Ability:** A standard bearer gains the _banner_ ability. This ability is identical to the standard
-cavalier's _banner_ ability, with the following modifications based on the standard the standard
-bearer chooses.
+At 1st level, a standard bearer gains the banner ability. This ability is identical to the standard
+cavalier's banner ability, except that the morale bonuses on saving throws against fear effects and
+on attack rolls made as part of a charge increase at 5th level, and every five levels thereafter.
+This ability replaces the standard cavalier's mount ability.
 
-**Gained:** At 1st Level
+## Mount (Ex) {#mount}
 
-**Replaces:** Mount
+At 5th level, a standard bearer gains the service of a loyal and trusted mount. This mount is
+identical in all ways to the standard cavalier's mount. This ability replaces the standard
+cavalier's banner ability.
 
-**Original Standard (Ex)**
+## Banner of Solace (Ex) {#banner-of-solace}
 
-**Passive:** As long as your banner is clearly visible, all allies within 60 feet receive a morale
-bonus on saving throws against fear and a smaller morale bonus on attack rolls made as part of a
-charge. The save bonus is equal to 2 + [one-fifth](ref/misc/fractions-and-rounding) of your cavalier
-level, while the charge bonus is equal to 1 + one-fifth of your cavalier level.
+At 11th level, a standard bearer's banner becomes an even more potent symbol of protection and
+inspiration to those around him. Once per day, while his banner is displayed, the standard bearer
+can wave it through the air as a full-round action, granting all allies within 60 feet
+[temporary hit points](ref/rule/temporary-hit-points) equal to 1/2 his cavalier level, and a +2
+morale bonus on their next damage rolls. At 15th level, and every four levels thereafter, this bonus
+increases by +1 (to a maximum of +4 at 19th level). The temporary hit points last for 10 minutes or
+until depleted, whichever occurs first. This ability replaces mighty charge.
 
-**Fleet Standard (Ex)**
+## Awesome Pennon (Ex) {#awesome-pennon}
 
-**Passive:** An ally who benefits from this standard increases their land speed by 5 feet^1-1^ and
-gains a +1 dodge bonus to AC during any round in which they moved at least 10 feet. This increase to
-land speed is an enhancement bonus.
-
-At 5th level: The bonus to speed increases to +10 feet.
-
-At 10th level: The bonus to speed increases to +15 feet.
-
-At 15th level: The bonus to speed increases to +20 feet.
-
-At 20th level: The bonus to speed increases to +25 feet.
-
-**Jinx Standard (Ex)**
-
-**Passive:** An ally who benefits from this standard gains a bonus on caster level checks to bypass
-[spell resistance](ref/rule/spell-resistance) and a bonus to the DC of their hexes and necromancy or
-enchantment spell they casts. These bonuses are equal to 1 + one-fifth of the cavalier's level.^1-2^
-
-**Knave Standard (Ex)**
-
-**Passive:** An ally who benefits from this standard gains a dodge bonus (equal to 2 + one-fifth of
-your cavalier level^1-3^) to AC against attacks of opportunity provoked by movement, and a +1 morale
-bonus on attack rolls that benefit from [flanking](ref/rule/flanking).
-
-**Stalwart Standard (Ex)**
-
-**Passive:** An ally who benefits from this standard gains a morale bonus (equal to 2 + one-fifth
-your cavalier level^1-4^) to CMD and a +1 morale bonus on attack rolls to creatures threatening an
-ally.
-
-**Mount (Ex)**
-
-**Ability:** A standard bearer gains the service of a loyal and trusted mount. This mount is
-identical in all ways to the standard cavalier's mount.
-
-**Gained:** At 5th Level
-
-**Replaces:** Banner
-
-**Banner of Solace (Ex)**
-
-**Flavor:** A standard bearer's banner becomes an even more potent symbol of protection and
-inspiration to those around him.
-
-**Fullround:** Once per day, while his banner is displayed, the standard bearer can wave it through
-the air, granting all allies within 60 feet [temporary hit points](ref/rule/temporary-hit-points)
-equal to 1/2 his cavalier level, and a +2 morale bonus on their next damage rolls. The temporary hit
-points last for 10 minutes or until depleted, whichever occurs first.
-
-**At 15th Level:** The morale bonus becomes +3.
-
-**At 19th Level:** The morale bonus becomes +4.
-
-**Gained:** At 11th Level
-
-**Replaces:** Mighty charge
-
-**Awesome Pennon (Ex)**
-
-**Flavor:** A standard bearer's banner has become a powerful rallying point to his allies, and a
-bane to his foes.
-
-**Gained:** At 20th Level
-
-**Passive:** Whenever his banner is visible, allies of the standard bearer within 60 feet gain a +1
-morale bonus on attack rolls, immunity to fear effects, and a +3 morale bonus on saving throws
-against mind-affecting effects.
-
-**Replaces:** Supreme charge
+At 20th level, a standard bearer's banner has become a powerful rallying point to his allies, and a
+bane to his foes. Whenever his banner is visible, allies of the standard bearer within 60 feet gain
+a +1 morale bonus on attack rolls, immunity to fear effects, and a +3 morale bonus on saving throws
+against mind-affecting effects. This ability replaces supreme charge.

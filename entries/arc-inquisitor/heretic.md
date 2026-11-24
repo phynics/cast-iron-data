@@ -16,8 +16,13 @@ page = "45"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "judgment" },
+  { anchor = "lore-of-escape", level = 1 },
+  { anchor = "hide-tracks", level = 1 },
+]
 trades = [
-  { replaces = "Monster lore", feature = "monster-lore" },
+  { replaces = "Monster lore", feature = "monster-lore", by = ["lore-of-escape"] },
 ]
 +++
 
@@ -26,38 +31,28 @@ by her enemies or an unyielding tenacity that breaks her faith's basic tenets, a
 find herself a heretic. Still unyielding in her cause, these heretics are accustomed to using guile
 and deception to hide themselves and their activities while they continue to hunt their enemies.
 
-**Judgment (Su)**
+## Judgment (Su) {#judgment}
 
-**Ability:** A heretic gains the following judgment in addition to the normal list of inquisitor
-judgments.
+A heretic gains the following judgment in addition to the normal list of inquisitor judgments.
 
-**Escape (Su)**
+### Escape (Su) {#escape}
 
-**Ability:** Each time the inquisitor using this judgment hits an opponent with a melee or ranged
-attack, she can use a **move action** attempt to create a diversion to hide (see the
-[Stealth](ref/skill/stealth) skill).
+Each time the inquisitor using this judgment hits an opponent with a melee or ranged attack, she can
+use a move action attempt to create a diversion to hide (see the [Stealth](ref/skill/stealth)
+skill).
 
-**Lore of Escape (Ex)**
+## Lore of Escape (Ex) {#lore-of-escape}
 
-**Flavor:** The heretic uses every trick she knows to escape those now pursuing her.
+At 1st level, the heretic uses every trick she knows to escape those now pursuing her. She adds her
+Wisdom modifier on Bluff and Stealth skill checks in addition to the normal ability score modifiers.
+This ability replaces monster lore.
 
-**Gained:** At 1st Level
+## Hide Tracks (Ex) {#hide-tracks}
 
-**Passive:** She adds her Wisdom modifier on Bluff and Stealth skill checks in addition to the
-normal ability score modifiers.
+At 1st level, a heretical inquisitor is adept at hiding her tracks. Creatures attempting to track
+her take a -5 penalty on rolls to find or follow her tracks.
 
-**Replaces:** Monster lore
-
-**Hide Tracks (Ex)**
-
-**Flavor:** A heretical inquisitor is adept at hiding her tracks.
-
-**Gained:** At 1st Level
-
-**Passive:** Creatures attempting to track her take a -5 penalty on rolls to find or follow her
-tracks.
-
-### Ex-Inquisitors
+## Ex-Inquisitors {#ex-inquisitors}
 
 An inquisitor who becomes an ex-inquisitor can, with the GM's permission, take the heretic
 archetype, replacing her class abilities with the appropriate archetype abilities. If the character

@@ -16,103 +16,82 @@ page = "64"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "weal-s-champion", level = 1 },
+  { anchor = "tactical-acumen", level = 3 },
+  { anchor = "battlefield-presence", level = 3 },
+  { anchor = "guide-the-battle", level = 8 },
+  { anchor = "weal-s-wrath", level = 11 },
+  { anchor = "masterful-presence", level = 20 },
+]
 trades = [
-  { replaces = "Smite evil", feature = "smite-evil" },
-  { replaces = "Divine health", feature = "divine-health" },
-  { replaces = "divine bond", feature = "divine-bond" },
-  { replaces = "Aura of courage", feature = "aura-of-courage" },
-  { replaces = "Aura of resolve", feature = "aura-of-resolve" },
-  { replaces = "Aura of justice", feature = "aura-of-justice" },
-  { replaces = "Holy champion", feature = "holy-champion" },
+  { replaces = "Smite evil", feature = "smite-evil", by = ["weal-s-champion"] },
+  { replaces = "Divine health", feature = "divine-health", by = ["tactical-acumen"] },
+  { replaces = "divine bond", feature = "divine-bond", by = ["tactical-acumen"] },
+  { replaces = "Aura of courage", feature = "aura-of-courage", by = ["battlefield-presence"] },
+  { replaces = "Aura of resolve", feature = "aura-of-resolve", by = ["guide-the-battle"] },
+  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["weal-s-wrath"] },
+  { replaces = "Holy champion", feature = "holy-champion", by = ["masterful-presence"] },
 ]
 +++
 
 The holy tactician inspires her allies on the field of battle. Her place is at their side against
 overwhelming odds, and her guidance brings out their true potential.
 
-**Weal's Champion (Su)**
+## Weal's Champion (Su) {#weal-s-champion}
 
-**Action:** Swift Action
-
-**Gained:** At 1st Level
-
-**Replaces:** Smite evil
-
-**Special:** She can grant this bonus against more than one creature at a time. To gain this
-benefit, the holy tactician's allies must be able to see or hear her, and she must be conscious.
-
-**Usage:** 1 time/day + 1 per 3 paladin levels beyond 1st
-
-A holy tactician can call on the powers of good to aid her against evil. Against evil targets, the
-holy tactician gains her Charisma bonus (if any) on her attack rolls against evil creatures, and if
-she hits, she adds 1/2 her paladin level on her weapon damage rolls as well. These bonuses last for
-a number of rounds equal to [half](ref/misc/fractions-and-rounding) of her paladin level (minimum 1
-round).
+Once per day as swift action, a holy tactician can call on the powers of good to aid her against
+evil. Against evil targets, the holy tactician gains her Charisma bonus (if any) on her attack rolls
+against evil creatures, and if she hits, she adds 1/2 her paladin level on her weapon damage rolls
+as well. These bonuses last for 1 round for every two paladin levels the holy tactician has attained
+(minimum 1 round).
 
 In addition, for 1 round after the holy tactician successfully strikes an evil creature, all
 non-evil allies within 30 feet of her gain a competence bonus on attack rolls equal to 1/2 her
-Charisma bonus against that creature as well as a competence bonus on damage rolls. The bonus on
-damage rolls is equal to 1 + [one-fifth](ref/misc/fractions-and-rounding) of her paladin level.
+Charisma bonus against that creature as well as a +1 competence bonus on damage rolls. The bonus on
+damage rolls increases by +1 for every five levels the holy tactician attains (to a maximum of +5 at
+20th level). She can grant this bonus against more than one creature at a time. To gain this
+benefit, the holy tactician's allies must be able to see or hear her, and she must be conscious.
 
-**Tactical Acumen (Ex)**
+At 4th level, and every three levels thereafter, the holy tactician may use weal's champion one
+additional time per day (to a maximum of seven times per day at 19th level). This ability replaces
+smite evil.
 
-**Ability:** A holy tactician gains a teamwork feat as a bonus feat.
+## Tactical Acumen (Ex) {#tactical-acumen}
 
-**Gained:** At 3rd Level
+At 3rd level, a holy tactician gains a teamwork feat as a bonus feat. She must meet the
+prerequisites for this feat. She gains an additional bonus feat for every four levels attained after
+3rd, to a maximum of five bonus feats at 19th level. This ability replaces divine health and divine
+bond.
 
-**Repeat:** She gains an additional bonus teamwork feat., 7, 4
+## Battlefield Presence (Su) {#battlefield-presence}
 
-**Replaces:** Divine health, divine bond
+At 3rd level, a tactician can direct her allies in battle, granting each ally within 30 feet one
+teamwork feat she possesses as a bonus feat as a standard action. All allies must receive the same
+feat, but do not need to meet the prerequisites of this bonus feat. This ability does not function
+if the paladin is [flat-footed](ref/rule/flat-footed) or unconscious. Allies must be able to see and
+hear the holy tactician in order to gain this benefit. Changing the bonus feat granted is a swift
+action. This ability replaces aura of courage.
 
-**Special:** She must meet the prerequisites for these feats.
+## Guide the Battle (Ex) {#guide-the-battle}
 
-**Battlefield Presence (Su)**
+At 8th level, the paladin can direct her allies into an advantageous position once per round as a
+move action. Each ally (if physically able to) can move 5 feet without expending an action. This
+movement does not provoke attacks of opportunity. The allies must be able to see or hear the paladin
+in order to make this movement and cannot be flat-footed. At 15th level, her allies can make this
+5-foot move and ignore [difficult terrain](ref/rule/terrain-and-obstacles). This ability replaces
+aura of resolve.
 
-**Gained:** At 3rd Level
+## Weal's Wrath (Su) {#weal-s-wrath}
 
-**Replaces:** Aura of courage
+At 11th level, a tactician can expend two uses of her weal's champion ability at once to enhance its
+effects. This functions as weal's champion, except the bonus she provides to her allies lasts until
+each creature she strikes is slain, her weal's champion ability expires, or the paladin herself is
+slain or knocked unconscious, whichever happens first. This ability replaces aura of justice.
 
-**Special:** This ability does not function if the paladin is [flat-footed](ref/rule/flat-footed) or
-unconscious. Allies must be able to see and hear the holy tactician in order to gain this benefit.
+## Masterful Presence (Su) {#masterful-presence}
 
-**Standard:** A tactician can direct her allies in battle, granting each ally within 30 feet one
-teamwork feat she possesses as a bonus feat. All allies must receive the same feat, but do not need
-to meet the prerequisites of this bonus feat.
-
-**Swift:** She may change the bonus feat granted.
-
-**Guide the Battle (Ex)**
-
-**At 15th Level:** Her allies can make this 5-foot move and ignore
-[difficult terrain](ref/rule/terrain-and-obstacles).
-
-**Gained:** At 8th Level
-
-**Move:** The paladin can direct her allies into an advantageous position once per round. Each ally
-(if physically able to) can move 5 feet without expending an action. This movement does not provoke
-attacks of opportunity. The allies must be able to see or hear the paladin in order to make this
-movement and cannot be flat-footed.
-
-**Replaces:** Aura of resolve
-
-**Weal's Wrath (Su)**
-
-**Ability:** A tactician can expend two uses of her _weal's champion_ ability at once to enhance its
-effects. This functions as _weal's champion,_ except the bonus she provides to her allies lasts
-until each creature she strikes is slain, her _weal's champion_ ability expires, or the paladin
-herself is slain or knocked unconscious, whichever happens first.
-
-**Gained:** At 11th Level
-
-**Replaces:** Aura of justice
-
-**Masterful Presence (Su)**
-
-**Ability:** A tactician gains the ability to grant a different bonus feat to each ally affected by
-her _battlefield presence._ In addition, all critical threats made by her and her allies against
-creatures affected by her _weal's champion_ ability are automatically confirmed (no confirmation
-roll is needed).
-
-**Gained:** At 20th Level
-
-**Replaces:** Holy champion
+At 20th level, a tactician gains the ability to grant a different bonus feat to each ally affected
+by her battlefield presence. In addition, all critical threats made by her and her allies against
+creatures affected by her weal's champion ability are automatically confirmed (no confirmation roll
+is needed). This ability replaces holy champion.

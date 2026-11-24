@@ -16,9 +16,14 @@ page = "27"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "tea-ceremony" },
+  { anchor = "geisha-knowledge", level = 1 },
+  { anchor = "scribe-scroll" },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { alters = "Armor and weapon proficiencies", feature = "weapon-and-armor-proficiencies" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["geisha-knowledge"] },
+  { replaces = "Armor and weapon proficiencies", feature = "weapon-and-armor-proficiencies" },
 ]
 +++
 
@@ -26,30 +31,27 @@ In some cultures, the professional entertainer is a prestigious role. Specially 
 called geisha are praised for their appearance and skill at conversation, music, dancing, singing,
 poetry, and calligraphy. A geisha provides social intimacy and status but not physical intimacy.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Alters:** Armor and weapon proficiencies
+Geisha are proficient in all simple weapons and one [monk](ref/class/monk) weapon. Geisha are not
+proficient in any armor or shield; unlike bards, geisha are subject to arcane spell failure even
+when casting in light armor or when using a shield. This replaces the normal bard armor and weapon
+proficiencies.
 
-**Info:** Geisha are proficient in all simple weapons and one [monk](ref/class/monk) weapon. Geisha
-are not proficient in any armor or shield; unlike bards, geisha are subject to arcane spell failure
-even when casting in light armor or when using a shield.
+## Tea Ceremony (Su) {#tea-ceremony}
 
-**Tea Ceremony (Su)**
+By spending 10 minutes preparing an elaborate tea ceremony, a geisha may affect her allies with
+inspire courage, inspire competence, inspire greatness, or inspire heroics. The ceremony's effects
+last 10 minutes. The geisha must spend 4 rounds of bardic performance for each creature to be
+affected.
 
-**Ability:** By spending 10 minutes preparing an elaborate tea ceremony, a geisha may affect her
-allies with _inspire courage, inspire competence, inspire greatness,_ or _inspire heroics._ The
-ceremony's effects last 10 minutes. The geisha must spend 4 rounds of bardic performance for each
-creature to be affected.
+## Geisha Knowledge {#geisha-knowledge}
 
-**Geisha Knowledge**
+A geisha adds [half](ref/misc/fractions-and-rounding) her class level (minimum 1) on Craft
+(calligraphy) checks, Diplomacy checks, Knowledge (nobility) checks, and one type of Perform check
+(act, dance, oratory, percussion, string instruments, or sing); she may make checks with these
+skills untrained. This replaces bardic knowledge.
 
-**Passive:** A geisha adds [half](ref/misc/fractions-and-rounding) her class level (minimum 1) on
-Craft (calligraphy) checks, Diplomacy checks, Knowledge (nobility) checks, and one type of Perform
-check (act, dance, oratory, percussion, string, or sing); she may make checks with these skills
-untrained.
+## Scribe Scroll {#scribe-scroll}
 
-**Replaces:** Bardic knowledge
-
-**Scribe Scroll**
-
-**Ability:** A geisha gains [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat.
+A geisha gains [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat.

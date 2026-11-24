@@ -16,12 +16,19 @@ page = "66"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hunter-s-bond", level = 4 },
+  { anchor = "advantageous-terrain", level = 5 },
+  { anchor = "infiltration", level = 10 },
+  { anchor = "superior-tactics", level = 15 },
+  { anchor = "perfect-advantage", level = 20 },
+]
 trades = [
-  { replaces = "2nd favored enemy", feature = "favored-enemy", levels = [5] },
-  { replaces = "3rd favored enemy", feature = "favored-enemy", levels = [10] },
-  { replaces = "4th favored enemy", feature = "favored-enemy", levels = [15] },
-  { replaces = "Master hunter", feature = "master-hunter" },
-  { alters = "Hunter's bond", feature = "hunter-s-bond" },
+  { replaces = "2nd favored enemy", feature = "favored-enemy", levels = [5], by = ["advantageous-terrain"] },
+  { replaces = "3rd favored enemy", feature = "favored-enemy", levels = [10], by = ["infiltration"] },
+  { replaces = "4th favored enemy", feature = "favored-enemy", levels = [15], by = ["superior-tactics"] },
+  { replaces = "Master hunter", feature = "master-hunter", by = ["perfect-advantage"] },
+  { alters = "Hunter's bond", feature = "hunter-s-bond", by = ["hunter-s-bond"] },
 ]
 +++
 
@@ -29,74 +36,56 @@ Armies need clean water, safe routes, and intelligence about their enemies. Thou
 outdoorsmen might suffice in many cases, some large forces look to battle scouts to keep the body of
 their troops safe and prepared for the terrain and whatever dangers that terrain hides.
 
-**Hunter's Bond (Ex)**
+## Hunter's Bond (Ex) {#hunter-s-bond}
 
-**Alters:** Hunter's bond
-
-**Info:** When a battle scout gains the _hunter's bond_ ability, he must choose to bond with his
+At 4th level, when a battle scout gains the hunter's bond ability, he must choose to bond with his
 companions. Battle scouts do not have animal companions.
 
-**Gained:** At 4th Level
+## Advantageous Terrain (Ex) {#advantageous-terrain}
 
-**Advantageous Terrain (Ex)**
-
-**Ability:** When a battle scout is within one of his _favored terrains,_ he can spend up to 3
+At 5th level, when a battle scout is within one of his favored terrains, he can spend up to 3
 consecutive rounds studying an area of terrain to gain the benefits below. Each round of studying
-terrain is a **standard action**. During the first round of studying terrain, the battle scout
-designates a 60-foot-radius-[burst](ref/misc/burst) area from a single square within line of sight.
+terrain is a standard action. During the first round of studying terrain, the battle scout
+designates a 60-foot-radius-[burst](ref/misc/burst) area from anywhere within line of sight.
 Depending on how many rounds the battle scout spends studying the area, he or his allies gain the
 following benefits for 10 minutes per ranger level he possesses. (For example, if he spends 2
 rounds, he or his allies gain the first two benefits.)
 
-**Gained:** At 5th Level
+### 1st Round {#1st-round}
 
-**Replaces:** 2nd favored enemy
+Allies within line of sight and that can hear the battle scout gain a +2 bonus on initiative checks
+while within the advantageous terrain area.
 
-**1st Round**
+### 2nd Round {#2nd-round}
 
-**Passive:** Allies within line of sight and that can hear the battle scout gain a +2 bonus on
-initiative checks while within the _advantageous terrain_ area.
+Allies within line of sight and that can hear the battle scout gain a +2 on Perception, Stealth, and
+Survival checks while within the advantageous terrain area.
 
-**2nd Round**
+### 3rd Round {#3rd-round}
 
-**Passive:** Allies within line of sight and that can hear the battle scout gain a +2 on Perception,
-Stealth, and Survival checks while within the _advantageous terrain_ area.
+The battle scout's movement is not hampered by [difficult terrain](ref/rule/terrain-and-obstacles)
+while within the advantageous terrain area. Furthermore, the battle scout can take 10 on Climb and
+Swim checks and checks to jump while within the area, even when in immediate danger or distracted.
 
-**3rd Round**
+This ability replaces the ranger's second favored enemy.
 
-**Ability:** The battle scout's movement is not hampered by
-[difficult terrain](ref/rule/terrain-and-obstacles) while within the _advantageous terrain_ area.
-Furthermore, the battle scout can take 10 on Climb and Swim checks and checks to jump while within
-the area, even when in immediate danger or distracted.
+## Infiltration (Ex) {#infiltration}
 
-**Infiltration (Ex)**
+At 10th level, once per day, a battle scout can choose a single terrain type that is not his favored
+terrain. For the next hour per ranger level, he treats that terrain as if it were one of his favored
+terrains. This ability replaces the ranger's third favored enemy.
 
-**Ability:** Once per day, a battle scout can choose a single terrain type that is not his _favored
-terrain._ For the next hour per ranger level, he treats that terrain as if it were one of his
-_favored terrains._
+## Superior Tactics (Ex) {#superior-tactics}
 
-**Gained:** At 10th Level
-
-**Replaces:** 3rd favored enemy
-
-**Superior Tactics (Ex)**
-
-**Ability:** Once per day, after a battle scout and his allies roll initiative, the battle scout can
-arrange his and his allies' initiative rolls any way he wishes. If he has already taken 3 rounds to
-scout out the terrain with his _advantageous terrain_ ability and both he and his allies are within
+At 15th level, once per day, after a battle scout and his allies roll initiative, the battle scout
+can arrange his and his allies' initiative rolls any way he wishes. If he has already taken 3 rounds
+to scout out the terrain with his advantageous terrain ability and both he and his allies are within
 the effect area, they gain a +2 bonus to initiative checks. Using this ability is not an action.
+This ability replaces the ranger's fourth favored enemy.
 
-**Gained:** At 15th Level
+## Perfect Advantage (Ex) {#perfect-advantage}
 
-**Replaces:** 4th favored enemy
-
-**Perfect Advantage (Ex)**
-
-**Ability:** When using his _advantageous terrain_ ability, a battle scout needs only to study the
-terrain as a **standard action** to gain all of the benefits. Furthermore, the area of his
-_advantageous terrain_ increases to a 1-mile-radius [spread](ref/misc/spread) from the single square
-within line of sight.
-
-**Gained:** At 20th Level
-
-**Replaces:** Master hunter
+At 20th level, when using his advantageous terrain ability, a battle scout needs only to study the
+terrain as a standard action to gain all of the benefits. Furthermore, the area of his advantageous
+terrain increases to a 1-mile-radius [spread](ref/misc/spread) from the single square within line of
+sight. This ability replaces master hunter.

@@ -16,39 +16,40 @@ page = "74"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "hardy", level = 1 },
+  { anchor = "endure-elements", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["hardy"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["endure-elements"] },
 ]
 +++
 
 The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a
-lesser rogue. Whether in blazing deserts or frigid arctic wastes - or simply the cold, hard reality
-of the streets - the survivalist uses her training to both ensure her own success and provide for
-the safety of her allies.
+lesser rogue. Whether in blazing deserts or frigid arctic wastes—or simply the cold, hard reality of
+the streets—the survivalist uses her training to both ensure her own success and provide for the
+safety of her allies.
 
-**Hardy (Ex)**
+## Hardy (Ex) {#hardy}
 
-**Ability:** A survivalist is already prepared to endure extreme hardships and environmental
+At 1st level, a survivalist is already prepared to endure extreme hardships and environmental
 conditions. She can go twice the normal number of days without water and triple the normal number of
-days without food before feeling the effects of either thirst or starvation.
+days without food before feeling the effects of either thirst or starvation. This ability replaces
+trapfinding.
 
-**Gained:** At 1st Level
+## Endure Elements (Sp) {#endure-elements}
 
-**Replaces:** Trapfinding
+At 3rd level, a survivalist rogue can use _[endure elements](ref/spell/endure-elements)_ once per
+day as a [spell-like ability](ref/umr/spell-like-abilities). The survivalist's caster level is the
+same as her rogue level. This ability replaces trap sense.
 
-**Endure Elements (Sp)**
+## Rogue Talents {#rogue-talents}
 
-**Ability:** A survivalist rogue can use [endure elements](ref/spell/endure-elements) once per day
-as a [spell-like ability](ref/umr/spell-like-abilities). The survivalist's caster level is the same
-as her rogue level.
+The following rogue talents complement the survivalist archetype: hold breath, iron guts,
+resiliency, strong stroke, survivalist, terrain mastery, and wall scramble.
 
-**Gained:** At 3rd Level
+## Advanced Talents {#advanced-talents}
 
-**Replaces:** Trap sense
-
-**These rogue talents complement this archetype:** Hold breath, iron guts, resiliency, strong
-stroke, survivalist, terrain mastery, wall scramble
-
-**These advanced rogue talents complement this archetype:** Another day, defensive roll, feat, skill
-mastery
+The following advanced rogue talents complement the survivalist archetype: another day, defensive
+roll, feat, and skill mastery.

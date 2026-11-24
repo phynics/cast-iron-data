@@ -16,100 +16,66 @@ page = "40"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "nature-bond" },
+  { anchor = "wild-empathy" },
+  { anchor = "totem-transformation", level = 2 },
+  { anchor = "totemic-summons", level = 5 },
+  { anchor = "wild-shape", level = 6 },
+  { anchor = "bonus-feat", level = 9 },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Wild shape", feature = "wild-shape" },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
-  { alters = "Nature bond", feature = "nature-bond" },
-  { alters = "Wild empathy", feature = "wild-empathy" },
+  { replaces = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["bonus-feat"] },
+  { alters = "Nature bond", feature = "nature-bond", by = ["nature-bond"] },
+  { alters = "Wild empathy", feature = "wild-empathy", by = ["wild-empathy"] },
 ]
 +++
 
 Some druids emulate the deadly shark, a remorseless hunter that marine dwellers dread. Like a true
 shark, a shark shaman leaves blood and fear in her wake.
 
-**Nature Bond**
+## Nature Bond {#nature-bond}
 
-**Alters:** Nature bond
+A [shark](ref/companion/shark) shaman who chooses an animal companion must select a shark. If
+choosing a domain, a shark shaman may choose the [Animal](ref/domain/animal), Death,
+[War](ref/domain/war), or [Water](ref/domain/water) domain.
 
-**Choice:** A shark shaman who chooses an animal companion must select a
-[shark](ref/companion/shark). If choosing a domain, a shark shaman may choose the
-[Animal](ref/domain/animal), Death, [War](ref/domain/war), or [Water](ref/domain/water) domain.
+## Wild Empathy (Ex) {#wild-empathy}
 
-**Wild Empathy (Ex)**
+A shark shaman can use wild empathy with fish as a full-round action with a +4 bonus.
 
-**Ability:** A shark shaman can use _wild empathy_ with fish as a **full-round action** with a +4
-bonus.
+## Totem Transformation (Su) {#totem-transformation}
 
-**Alters:** Wild empathy
+At 2nd level, a shark shaman may adopt an aspect of the shark while retaining her normal form. This
+ability functions as the dragon shaman's totem transformation ability, but the druid may select from
+the following bonuses: movement (can breathe water, swim speed 30 feet), senses
+([scent](ref/umr/scent) 30 feet, scent 90 feet in water), [natural weapons](ref/umr/natural-attacks)
+(bite 1d6 for a Medium shaman), or shark skin (+2 natural armor, creatures grappling the shaman take
+1 point of slashing damage per round of grapple). While using totem transformation, the shark shaman
+may speak normally and can cast _[speak with animals](ref/spell/speak-with-animals)_ (fish only) at
+will.
 
-**Totem Transformation (Su)**
+## Totemic Summons (Su) {#totemic-summons}
 
-**Action:** Standard Action
+At 5th level, a shark shaman may use _[summon nature's ally I](ref/spell/summon-natures-ally-1)_ to
+summon a [stingray](ref/monster/ray-stingray) (_Bestiary 2_) and
+_[summon nature's ally II](ref/spell/summon-natures-ally-2)_ to summon a
+[manta ray](ref/monster/ray-manta-ray) (_Bestiary 2_). She may cast _summon nature's ally_ as a
+standard action when summoning rays and sharks, and summoned rays and sharks gain a number of
+[temporary hit points](ref/rule/temporary-hit-points) equal to her druid level. This ability
+otherwise functions as the dragon shaman's totemic summons ability.
 
-**At 12th Level:** This becomes a **swift action**.
+## Wild Shape (Su) {#wild-shape}
 
-**At 7th Level:** This becomes a **move action**.
+At 6th level, a shark shaman's wild shape ability functions at her druid level -2. If she takes on
+the form of a shark, she instead uses her druid level +2.
 
-**Gained:** At 2nd Level
+## Bonus Feat {#bonus-feat}
 
-**Replaces:** Woodland stride
-
-**Special:** This is a polymorph effect and cannot be used while the druid is using another
-polymorph effect, such as _wild shape._
-
-**Usage:** 1 minute/day per druid level; these minutes need not be consecutive, but must be spent in
-1-minute increments
-
-A shark shaman may adopt an aspect of the shark while retaining her normal form. The druid may
-select from the following bonuses:
-
-- **Movement** (can breathe water, swim speed 30 feet)
-- **Senses** ([scent](ref/umr/scent) 30 feet, scent 90 feet in water)
-- **[Natural weapons](ref/umr/natural-attacks)** (bite 1d6 for a Medium shaman)
-- **Shark skin** (+2 natural armor, creatures grappling the shaman take 1 point of slashing damage
-  per round of grapple)
-
-While using _totem transformation,_ the shark shaman may speak normally and can cast
-[speak with animals](ref/spell/speak-with-animals) (fish only) at will.
-
-**Totemic Summons (Su)**
-
-**Gained:** At 5th Level
-
-**Standard:** A shark shaman may cast [summon nature's ally I](ref/spell/summon-natures-ally-1) to
-summon a [stingray](ref/monster/ray-stingray) and
-[summon nature's ally II](ref/spell/summon-natures-ally-2) to summon a
-[manta ray](ref/monster/ray-manta-ray). Summoned rays and sharks gain a number of
-[temporary hit points](ref/rule/temporary-hit-points) equal to her druid level. She can apply the
-[young](ref/template/young) template to any such summon to reduce the level of the summoning spell
-required by one. She can also increase the level of summoning required by one in order to apply
-either the [advanced](ref/template/advanced) or the [giant](ref/template/giant) template, or
-increase it by two to apply both the advanced and giant templates.
-
-**Wild Shape (Su)**
-
-**Gained:** At 6th Level
-
-**Passive:** A shark shaman gains _wild shape,_ but the ability functions at her druid level - 2. If
-she takes on the form of a shark, she instead uses her druid level +2.
-
-**Replaces:** Wild shape
-
-**Bonus Feat**
-
-**Ability:** A shark shaman gains one of the following bonus feats:
+At 9th level and every 4 levels thereafter, a shark shaman gains one of the following bonus feats:
 [Bleeding Critical](ref/feat/bleeding-critical),
 [Improved Initiative](ref/feat/improved-initiative),
-[Lightning Reflexes](ref/feat/lightning-reflexes), [Self-Sufficient](ref/feat/self-sufficient), or
-[Skill Focus](ref/feat/skill-focus) (Swim).
-
-**At 13th Level:** The druid gains another feat from the list above.
-
-**At 17th Level:** The druid gains a third bonus feat from the list above.
-
-**Gained:** At 9th Level
-
-**Replaces:** Venom immunity
-
-**Special:** She must meet prerequisites for these bonus feats.
+[Lightning Reflexes](ref/feat/lightning-reflexes), [Self- Sufficient](ref/feat/self-sufficient), or
+[Skill Focus](ref/feat/skill-focus) (Swim). She must meet prerequisites for these bonus feats. This
+ability replaces venom immunity.
