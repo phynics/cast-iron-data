@@ -662,15 +662,32 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
     return out
 
 
-def find_section(blocks: list[Para], title: str) -> list[Para] | None:
+CLASS_TITLES = {squash(x) for x in (
+    "Alchemist", "Antipaladin", "Barbarian", "Bard", "Cavalier", "Cleric", "Druid", "Fighter", "Gunslinger", "Inquisitor",
+    "Magus", "Monk", "Oracle", "Paladin", "Ranger", "Rogue", "Sorcerer", "Summoner", "Witch", "Wizard", "Archetypes")}
+
+
+def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) -> list[Para] | None:
+    """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
+    title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
+    any kind ends it."""
     key = squash(title)
     for i, b in enumerate(blocks):
         # Ultimate Magic and Ultimate Combat print "REANIMATOR (ARCHETYPE)"
         if b.kind == "title" and squash(b.plain()) in (key, key + "archetype"):
             j = i + 1
-            while j < len(blocks) and blocks[j].kind != "title":
+            out = [b]
+            while j < len(blocks):
+                nxt = blocks[j]
+                if nxt.kind == "title":
+                    k = squash(nxt.plain())
+                    if stops is None or k in stops or k.endswith("archetype"):
+                        break
+                    out.append(Para("para", nxt.runs, nxt.page, nxt.col))
+                else:
+                    out.append(nxt)
                 j += 1
-            return blocks[i:j]
+            return out
     return None
 
 
@@ -1709,6 +1726,7 @@ def run_compare(args) -> int:
     old_rows = read_tsv(tsv_path(corpus, book))
     old_props = read_proposals(proposals_path(corpus, book))
     decisions = read_decisions(corpus, book)
+    stops = {squash(x.title) for x in entries} | CLASS_TITLES
     done = {e.id for e in entries if e.converted}
     redo = {e.id for e in entries if not e.converted}
     rows: list[dict] = [r for r in old_rows if r["entry"] in done or r["entry"] not in redo]
@@ -1722,7 +1740,7 @@ def run_compare(args) -> int:
             continue
         top = max(bk.pages)
         blocks = read_blocks(bk, max(1, page + 1 - 3), min(page + 1 + 4, top))
-        section = find_section(blocks, e.title)
+        section = find_section(blocks, e.title, stops)
         if section is None:
             rows.append(entry_hold_row(e, f"title not found near page {page}"))
             continue
