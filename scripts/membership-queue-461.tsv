@@ -1117,11 +1117,11 @@ faiths-of-purity	ref/trait/the-flexing-arm	trait	The Flexing Arm	2	2	review	prin
 familiar-folio	ref/ability/familiars	rule	Familiars	2	5	uncited	printed		none	33	0,1,2,3,4										hub-cited	S10		yes	yes	yes		
 game-mastery-guide	ref/rule/gamemastery	rule	Gamemastery	2	8	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 game-mastery-guide	ref/madness/amnesia	affliction	Amnesia	2	2	uncited	unaligned	250	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/dissociated-identity	affliction	Dissociated Identity	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/mania	affliction	Mania	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/moral-insanity	affliction	Moral Insanity	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/paranoid	affliction	Paranoid	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
-game-mastery-guide	ref/madness/phobia	affliction	Phobia	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
+game-mastery-guide	ref/madness/dissociated-identity	affliction	Dissociated Identity	2	2	uncited	unaligned	251	body	0											single-entry	S11			yes			
+game-mastery-guide	ref/madness/mania	affliction	Mania	2	2	uncited	unaligned	251	body	0											single-entry	S11			yes			
+game-mastery-guide	ref/madness/moral-insanity	affliction	Moral Insanity	2	2	uncited	unaligned	251	body	0											single-entry	S11			yes			
+game-mastery-guide	ref/madness/paranoid	affliction	Paranoid	2	2	uncited	unaligned	251	body	0											single-entry	S11			yes			
+game-mastery-guide	ref/madness/phobia	affliction	Phobia	2	2	uncited	unaligned	251	body	0											single-entry	S11			yes			
 game-mastery-guide	ref/madness/schizophrenia	affliction	Schizophrenia	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
 game-mastery-guide	ref/skill/diplomacy	skill	Diplomacy	2	4	uncited	unaligned	204	body	0											single-entry	S5		yes	yes			
 gnomes-of-golarion	ref/eq-weapon/stormshaft-javelin	item	Stormshaft javelin	2	2	review	body	22	row	0											single-entry	S11			yes		no	
