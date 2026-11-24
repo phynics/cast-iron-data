@@ -2225,13 +2225,13 @@ taldor-echoes-of-glory	ref/trait/chivalrous	trait	Chivalrous	2	2	review	printed	
 taldor-echoes-of-glory	ref/trait/divine-warrior	trait	Divine Warrior	2	3	review	printed	14	row	0								keep	14	title-on-cited-page	single-entry	S0			yes		yes	
 taldor-echoes-of-glory	ref/trait/failed-apprentice	trait	Failed Apprentice	3	3	review	printed	14	row	0								keep	14	title-on-cited-page	single-entry	S0			yes		yes	
 technology-guide	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	11	11	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-technology-guide	ref/skill/craft-any	skill	Craft (any)	2	3	uncited	unaligned	5	body	0											single-entry	S5		yes	yes	yes		
-technology-guide	ref/skill/disable-device	skill	Disable Device	2	3	uncited	unaligned	5	body	0											single-entry	S5		yes	yes	yes		
-technology-guide	ref/skill/heal	skill	Heal	3	4	uncited	unaligned	5	body	0											single-entry	S5		yes	yes	yes		
-technology-guide	ref/skill/knowledge-engineering	skill	Knowledge (engineering)	2	3	uncited	unaligned	5	body	0											single-entry	S5		yes	yes	yes		
-technology-guide	ref/skill/knowledge-geography	skill	Knowledge (geography)	2	3	uncited	unaligned	5	body	0											single-entry	S5		yes	yes	yes		
-technology-guide	ref/skill/linguistics	skill	Linguistics	3	4	uncited	unaligned	5	body	0											single-entry	S5		yes	yes	yes		
-technology-guide	ref/spell/make-whole	spell	Make Whole	2	2	uncited	unaligned		none	0											single-entry	S5		yes	yes			
+technology-guide	ref/skill/craft-any	skill	Craft (any)	2	3	uncited	unaligned	5	body	0								cite	5	section-printed	single-entry	done		yes	yes	yes		
+technology-guide	ref/skill/disable-device	skill	Disable Device	2	3	uncited	unaligned	5	body	0								cite	5	section-printed	single-entry	done		yes	yes	yes		
+technology-guide	ref/skill/heal	skill	Heal	3	4	uncited	unaligned	5	body	0								cite	5	section-printed	single-entry	done		yes	yes	yes		
+technology-guide	ref/skill/knowledge-engineering	skill	Knowledge (engineering)	2	3	uncited	unaligned	5	body	0								cite	5	section-printed	single-entry	done		yes	yes	yes		
+technology-guide	ref/skill/knowledge-geography	skill	Knowledge (geography)	2	3	uncited	unaligned	5	body	0								cite	5	section-printed	single-entry	done		yes	yes	yes		
+technology-guide	ref/skill/linguistics	skill	Linguistics	3	4	uncited	unaligned	5	body	0								cite	5	section-printed	single-entry	done		yes	yes	yes		
+technology-guide	ref/spell/make-whole	spell	Make Whole	2	2	uncited	unaligned		none	0								remove	10	variant-printed-base-absent	single-entry	done		yes	yes			
 the-first-world-realm-of-the-fey	ref/spell/charm-person-mass	spell	Mass Charm Person	2	3	family-leak	absent	12	row	0		variant	ref/spell/charm-person(title)					remove	12	wrong-credit-invalidated	single-entry	done			yes			
 the-first-world-realm-of-the-fey	ref/spell/hold-person-mass	spell	Mass Hold Person	2	2	family-leak	absent	12	row	0		variant	ref/spell/hold-person(title)					remove	12	wrong-credit-invalidated	single-entry	done			yes			
 ultimate-campaign	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	3	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			

@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "99"
 [[sources]]
+publication = "technology-guide"
+page = "5"
+[[sources]]
 publication = "pathfinder-unchained"
 page = "85"
 
@@ -61,7 +64,6 @@ on Knowledge checks in the fields that they cover.
 
 ### Researching Technology
 
-**Sources:** Technology Guide pg 5\
 When using the [technological equipment](ref/rule/technological-equipment) rules, a character can
 use Knowledge (geography) for astronomy.
 

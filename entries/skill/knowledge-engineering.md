@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "99"
 [[sources]]
+publication = "technology-guide"
+page = "5"
+[[sources]]
 publication = "pathfinder-unchained"
 page = "85"
 
@@ -70,7 +73,6 @@ on Knowledge checks in the fields that they cover.
 
 ### Researching Technology
 
-**Sources:** Technology Guide pg 5\
 When using the [technological equipment](ref/rule/technological-equipment) rules, Knowledge
 (engineering) is the most important skill. This can be used to identify a robot's abilities and
 weaknesses. It is also used to identify and understand unknown technological objects in a similar
