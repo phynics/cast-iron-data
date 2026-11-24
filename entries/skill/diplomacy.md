@@ -112,7 +112,6 @@ You can retry Diplomacy checks made to gather information.
 
 #### Calling for the Guards
 
-**Sources:** GameMastery Guide pg 204
 
 It's inevitable - sooner or later, the PCs will want to call upon the town guard or cause a
 situation where citizens do so instead. Calling for the guard requires a Diplomacy check modified by

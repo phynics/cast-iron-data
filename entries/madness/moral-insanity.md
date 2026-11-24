@@ -35,7 +35,6 @@ character whenever the madness is dominant. Evil characters can't gain this madn
 
 ### Psychosis (original rules version)
 
-**Sources:** GameMastery Guide pg 251\
 **Type** insanity; **Save** Will DC 20\
 **Onset** 3d6 days\
 **Effect** character becomes chaotic evil; gains +10 competence bonus on Bluff checks to hide
