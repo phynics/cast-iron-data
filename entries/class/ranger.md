@@ -3,13 +3,19 @@ id = "ref/class/ranger"
 kind = "class"
 title = "Ranger"
 aon = "ClassDisplay.aspx?ItemName=Ranger"
-source_ids = ["core-rulebook", "chronicle-of-legends", "plane-hoppers-handbook", "blood-of-the-sea", "monster-codex", "advanced-race-guide", "blood-of-shadows", "advanced-players-guide", "ultimate-wilderness", "goblins-of-golarion", "horror-adventures", "blood-of-the-beast"]
+source_ids = ["core-rulebook", "chronicle-of-legends", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranger", path = "json/classes7.json" },
 ]
 [[sources]]
 publication = "core-rulebook"
 page = "64"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "28-29"
+[[sources]]
+publication = "advanced-players-guide"
+page = "72"
 
 [fields]
 kind = "class"
@@ -378,7 +384,6 @@ not against the same creature more than once in a 24-hour period.
 
 ### Alternate Capstones
 
-**Source** Chronicle of Legends pg. 28\
 When a character reaches the 20th level of a class, she gains a powerful class feature or ability,
 sometimes referred to as a capstone. The following section provides new capstones for characters to
 select at 20th level. A character can select one of the following capstones in place of the capstone
@@ -398,7 +403,6 @@ bonus as an insight bonus on saves against spells and abilities used by his _fav
 
 ### Archetypes
 
-**Source** Advanced Player's Guide pg. 72\
 From the noble paladin to the skillful rogue, each class draws upon a central archetype. Yet, beyond
 that basic concept exists the potential for innumerable interpretations, details, and refinements;
 and some archetypes prove pervasive and exciting enough to see use in play time and time again.
