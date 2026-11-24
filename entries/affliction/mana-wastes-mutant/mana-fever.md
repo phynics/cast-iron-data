@@ -10,7 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "inner-sea-bestiary"
-page = "31"
+page = "29"
 
 [fields]
 kind = "none"
