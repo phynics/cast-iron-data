@@ -1239,7 +1239,7 @@ heroes-of-golarion	ref/class/arcanist	class	Arcanist	8	8	uncited	printed		none	3
 heroes-of-golarion	ref/class/oracle	class	Oracle	7	13	uncited	printed		none	3	3,6,14							remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/class/psychic	class	Psychic	7	8	uncited	printed		none	10	3,6,8,9,12							remove	6	class-options-only	class-hub	done			yes			
 heroes-of-golarion	ref/class/slayer	class	Slayer	8	8	uncited	printed		none	3	3,4,6							remove	4	class-options-only	class-hub	done			yes			
-heroes-of-golarion	ref/race/wyrwood	race	Wyrwood	3	3	uncited	printed		none	5	1,2,3,6,7										race-hub	S9		yes	yes			
+heroes-of-golarion	ref/race/wyrwood	race	Wyrwood	3	3	uncited	printed		none	5	1,2,3,6,7							remove	6	race-options-only	race-hub	done		yes	yes			
 heroes-of-golarion	ref/rule/universal-path-abilities	rule	Universal Path Abilities	5	6	uncited	printed		none	2	28,31										link-only-hub	S10	hub-design-a	yes	yes			
 heroes-of-golarion	ref/eq-weapon/alchemical-cartridge	item	Alchemical cartridge	3	4	review	printed	18	row	0								keep	18	title-on-cited-page	single-entry	S0			yes		yes	
 heroes-of-golarion	ref/eq-weapon/alchemical-cartridge-dragons-breath	item	Alchemical cartridge (dragon's breath)	3	4	review	printed	18	row	0											single-entry	S11			yes		yes	none
