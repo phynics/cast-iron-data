@@ -462,7 +462,7 @@ agents-of-evil	ref/racial-trait/half-orc/medium	racial_trait	Medium	12	18	family
 agents-of-evil	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal Speed	12	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
 agents-of-evil	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	12	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
 agents-of-evil	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	12	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	25	race-section-read-no-trait	standard-racial-trait	done			yes			
-agents-of-evil	ref/race/changeling	race	Changeling	6	7	uncited	printed		none	2	3,24										race-hub	S9		yes	yes			
+agents-of-evil	ref/race/changeling	race	Changeling	6	7	uncited	printed		none	2	3,24							remove	24	race-options-only	race-hub	done		yes	yes			
 agents-of-evil	ref/race/drow	race	Drow	5	6	uncited	printed		none	6	0,3,6,11,22							remove	24	race-options-only	race-hub	done		yes	yes			
 agents-of-evil	ref/race/fetchling	race	Fetchling	5	5	uncited	printed		none	5	3,24,25,28,31										race-hub	S9		yes	yes			
 agents-of-evil	ref/race/tiefling	race	Tiefling	5	7	uncited	printed		none	2	3,25							remove	25	race-options-only	race-hub	done		yes	yes			
@@ -832,7 +832,7 @@ carrion-hill	ref/monster/spawn-of-yog-sothoth	creature	Spawn of Yog-Sothoth	2	2	
 champions-of-corruption	ref/rule/feats-multiperson	rule	Multiperson Feats	2	3	hub-keep	off-page	22	row	1	20										hub-cited	S11			yes	yes	no	
 champions-of-corruption	ref/rule/feats-roleplaying	rule	Roleplaying Feats	4	6	hub-keep	absent	18	row	0											hub-cited	S11			yes	yes	no	
 cheliax-empire-of-devils	ref/trait/demon-hunter	trait	Demon Hunter	2	3	review	printed	19	row	0								keep	19	title-on-cited-page	single-entry	S0			yes		yes	
-cheliax-the-infernal-empire	ref/race/changeling	race	Changeling	7	7	weak	weak		none	1	57										race-hub	S9		yes	yes			
+cheliax-the-infernal-empire	ref/race/changeling	race	Changeling	7	7	weak	weak		none	1	57							remove	57	race-options-only	race-hub	done		yes	yes			
 chronicle-of-legends	ref/rule/optional-magic-changes	rule	Optional Magic Changes	3	4	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 chronicle-of-legends	ref/rule/types-of-traits	rule	Types of Traits	6	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
 chronicle-of-legends	ref/class/barbarian	class	Barbarian	6	10	family-leak	body		none	1	10	child	ref/rule/class-barbarian/barbarian(body)					cite	28	section-printed	class-hub	done			yes	yes		
