@@ -709,7 +709,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                     k = squash(nxt.plain())
                     if stops is None or k in stops or k.endswith("archetype"):
                         break
-                    out.append(Para("para", nxt.runs, nxt.page, nxt.col))
+                    out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
                 else:
                     out.append(nxt)
                 j += 1
@@ -1370,7 +1370,7 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     xref = re.sub(r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
                   r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
                   r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?\)", "", xref)
-    xref = re.sub(r"\s*\([^()]*\bpage\s*\d+[^()]*\)", "", xref)
+    xref = re.sub(r"\s*\((?=[^()]{0,70}\))[^()]*\bpage\s*\d+[^()]*\)", "", xref)     # a short one only: a long one has text
     if xref != text:
         notes.append("printed cross-reference left out")
         text = xref
@@ -1379,10 +1379,32 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     if keyless != text:
         notes.append("print's asterisk key left out")
         text = keyless.strip()
+    text = balance_marks(text)
     lost: list[str] = []
     if links:
         text, lost = apply_links(text, links)
     return render_marks(text), lost, notes
+
+
+def balance_marks(s: str) -> str:
+    """Drops an italic mark that has no partner (a cut that took the text between two marks)."""
+    out, depth, opened = [], 0, []
+    for ch in s:
+        if ch == I_OPEN:
+            depth += 1
+            opened.append(len(out))
+            out.append(ch)
+        elif ch == I_CLOSE:
+            if depth == 0:
+                continue
+            depth -= 1
+            opened.pop()
+            out.append(ch)
+        else:
+            out.append(ch)
+    for i in reversed(opened):
+        del out[i]
+    return "".join(out)
 
 
 def head_text(head: str) -> str:
@@ -2024,7 +2046,9 @@ def recheck(corpus: Path, args, written: list[Entry], originals: dict[Path, str]
     """Runs the checker on the written corpus; puts back each entry that it rejects and holds it."""
     fmt = subprocess.run([args.checker, "fmt", str(corpus)], capture_output=True, text=True)
     if fmt.returncode != 0:
-        raise SystemExit("fmt failed:\n" + fmt.stderr[-2000:])
+        for path, text in originals.items():      # leave the corpus as it was
+            path.write_text(text, encoding="utf-8")
+        raise SystemExit("fmt failed; every entry of this run is put back:\n" + fmt.stderr[-2000:])
     for _ in range(5):
         r = subprocess.run([args.checker, "check", str(corpus)], capture_output=True, text=True)
         if r.returncode == 0:
@@ -2215,6 +2239,7 @@ def self_test() -> int:
     # words that matter are not ignored; words that do not are
     eq(len(tokens("any all each both either neither")), 6, "quantifiers are rule words")
     eq(tokens("the she its but gains however"), [], "articles, pronouns and connectives are ignored")
+    eq(balance_marks(f"a {I_OPEN}b{I_CLOSE} c d{I_CLOSE} e {I_OPEN}f"), f"a {I_OPEN}b{I_CLOSE} c d e f", "an italic mark without a partner is dropped")
     # an opening note that print does not have
     eq(unprinted_notes([["Intro text."], ["> _**Note:** This is a rogue archetype, and has no relation to the class."]], ["Intro text."]), [1], "an unprinted note")
     eq(unprinted_notes([["> kept words here and more"]], ["kept words here and more"]), [], "a printed note stays")
