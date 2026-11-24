@@ -2,7 +2,7 @@
 id = "ref/racial-trait/halfling/keen-senses"
 kind = "racial_trait"
 title = "Keen Senses"
-source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes-from-the-fringe", "horror-adventures", "heroes-of-the-wild", "advanced-players-guide", "legacy-of-the-first-world", "legacy-of-dragons", "heroes-of-the-streets", "halflings-of-golarion", "blood-of-shadows", "heroes-of-the-high-court", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "halflings-of-golarion"]
 parent = "ref/race/halfling"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling|racial-trait:keen-senses", path = "json/races2.json" },
@@ -19,6 +19,9 @@ page = "26"
 [[sources]]
 publication = "advanced-race-guide"
 page = "60"
+[[sources]]
+publication = "halflings-of-golarion"
+page = "inside cover"
 
 [fields]
 kind = "racial_trait"

@@ -59,12 +59,12 @@ advanced-class-guide	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal 
 advanced-class-guide	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	15	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	71	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	15	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	71	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	15	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	71	race-section-read-no-trait	standard-racial-trait	done			yes			
-advanced-class-guide	ref/racial-trait/halfling/attributes	racial_trait	Attributes	7	10	family-leak	printed		none	3	22,26,108	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+advanced-class-guide	ref/racial-trait/halfling/attributes	racial_trait	Attributes	7	10	family-leak	printed		none	3	22,26,108	parent	ref/race/halfling(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	14	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	14	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
-advanced-class-guide	ref/racial-trait/halfling/languages	racial_trait	Languages	14	17	family-leak	printed		none	11	37,43,48,62,75	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+advanced-class-guide	ref/racial-trait/halfling/languages	racial_trait	Languages	14	17	family-leak	printed		none	11	37,43,48,62,75	parent	ref/race/halfling(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	14	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
-advanced-class-guide	ref/racial-trait/halfling/small	racial_trait	Small	14	17	family-leak	printed		none	38	16,18,20,23,41	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+advanced-class-guide	ref/racial-trait/halfling/small	racial_trait	Small	14	17	family-leak	printed		none	38	16,18,20,23,41	parent	ref/race/halfling(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	14	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	14	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-class-guide	ref/racial-trait/human/attributes	racial_trait	Attributes	7	10	family-leak	printed		none	3	22,26,108	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
@@ -101,7 +101,7 @@ advanced-class-guide	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	
 advanced-class-guide	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	12	15	review	printed	236	row	0								keep	236	title-on-cited-page	figurine	S0			yes		yes	page
 advanced-class-guide	ref/ability/combat-styles	rule	Combat Styles	6	7	weak	weak		none	1	118										link-only-hub	S10	hub-design-a	yes	yes			
 advanced-class-guide	ref/racial-trait/gnome/obsessive	racial_trait	Obsessive	10	10	weak	weak		none	1	128	parent	ref/race/gnome(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
-advanced-class-guide	ref/racial-trait/halfling/fearless	racial_trait	Fearless	12	14	weak	weak		none	1	116	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+advanced-class-guide	ref/racial-trait/halfling/fearless	racial_trait	Fearless	12	14	weak	weak		none	1	116	parent	ref/race/halfling(title)	yes				remove	70	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-players-guide	ref/ability/arcane-schools	rule	Arcane Schools	2	7	hub-keep	printed	143	body	0											hub-cited	S10		yes	yes	yes	yes	
 advanced-players-guide	ref/rule/basics	rule	Basics	3	5	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 advanced-players-guide	ref/rule/feats-multiperson	rule	Multiperson Feats	1	3	hub-keep	absent	150	body	0											hub-cited	S11			yes	yes	no	
@@ -173,14 +173,14 @@ advanced-players-guide	ref/racial-trait/half-orc/normal-speed	racial_trait	Norma
 advanced-players-guide	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	5	6	family-leak	printed		none	2	19,126	parent	ref/race/half-orc(title)	yes				remove	18-19	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-players-guide	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	10	13	family-leak	printed		none	3	13,19,126	parent	ref/race/half-orc(title)	yes				remove	18-19	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-players-guide	ref/racial-trait/halfling/attributes	racial_trait	Attributes	7	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	21	race-section-read-no-trait	standard-racial-trait	done			yes			
-advanced-players-guide	ref/racial-trait/halfling/fearless	racial_trait	Fearless	7	14	family-leak	printed		none	4	21,126,278,310	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+advanced-players-guide	ref/racial-trait/halfling/fearless	racial_trait	Fearless	7	14	family-leak	printed		none	4	21,126,278,310	parent	ref/race/halfling(title)	yes				remove	20-21	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-players-guide	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	7	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	21	race-section-read-no-trait	standard-racial-trait	done			yes			
-advanced-players-guide	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	7	14	family-leak	printed		none	15	19,21,32,79,126	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-advanced-players-guide	ref/racial-trait/halfling/languages	racial_trait	Languages	7	17	family-leak	printed		none	16	8,15,32,42,44	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+advanced-players-guide	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	7	14	family-leak	printed		none	15	19,21,32,79,126	parent	ref/race/halfling(title)	yes				remove	20-21	race-section-read-no-trait	standard-racial-trait	done			yes			
+advanced-players-guide	ref/racial-trait/halfling/languages	racial_trait	Languages	7	17	family-leak	printed		none	16	8,15,32,42,44	parent	ref/race/halfling(title)	yes				remove	20-21	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-players-guide	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	7	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	21	race-section-read-no-trait	standard-racial-trait	done			yes			
-advanced-players-guide	ref/racial-trait/halfling/small	racial_trait	Small	7	17	family-leak	printed		none	40	5,10,16,20,22	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-advanced-players-guide	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	6	10	family-leak	printed		none	4	21,100,126,321	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-advanced-players-guide	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	7	13	family-leak	printed		none	3	13,19,126	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+advanced-players-guide	ref/racial-trait/halfling/small	racial_trait	Small	7	17	family-leak	printed		none	40	5,10,16,20,22	parent	ref/race/halfling(title)	yes				remove	20-21	race-section-read-no-trait	standard-racial-trait	done			yes			
+advanced-players-guide	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	6	10	family-leak	printed		none	4	21,100,126,321	parent	ref/race/halfling(title)	yes				remove	20-21	race-section-read-no-trait	standard-racial-trait	done			yes			
+advanced-players-guide	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	7	13	family-leak	printed		none	3	13,19,126	parent	ref/race/halfling(title)	yes				remove	20-21	race-section-read-no-trait	standard-racial-trait	done			yes			
 advanced-players-guide	ref/racial-trait/human/attributes	racial_trait	Attributes	5	10	family-leak	body		none	1	23	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 advanced-players-guide	ref/racial-trait/human/bonus-feat	racial_trait	Bonus Feat	5	14	family-leak	printed		none	40	8,17,23,28,33	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 advanced-players-guide	ref/racial-trait/human/languages	racial_trait	Languages	5	15	family-leak	printed		none	16	8,15,32,42,44	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
@@ -670,12 +670,12 @@ blood-of-shadows	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapo
 blood-of-shadows	ref/racial-trait/halfling/attributes	racial_trait	Attributes	12	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/halfling/fearless	racial_trait	Fearless	12	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	12	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
-blood-of-shadows	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	12	14	family-leak	printed		none	2	5,15	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-blood-of-shadows	ref/racial-trait/halfling/languages	racial_trait	Languages	12	17	family-leak	printed		none	2	14,32	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+blood-of-shadows	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	12	14	family-leak	printed		none	2	5,15	parent	ref/race/halfling(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
+blood-of-shadows	ref/racial-trait/halfling/languages	racial_trait	Languages	12	17	family-leak	printed		none	2	14,32	parent	ref/race/halfling(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	12	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
-blood-of-shadows	ref/racial-trait/halfling/small	racial_trait	Small	12	17	family-leak	printed		none	5	6,16,21,25,30	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+blood-of-shadows	ref/racial-trait/halfling/small	racial_trait	Small	12	17	family-leak	printed		none	5	6,16,21,25,30	parent	ref/race/halfling(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	12	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
-blood-of-shadows	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	12	13	family-leak	printed		none	2	4,5	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+blood-of-shadows	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	12	13	family-leak	printed		none	2	4,5	parent	ref/race/halfling(title)	yes				remove	4-5	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/human/attributes	racial_trait	Attributes	8	15	family-leak	absent		none	0		parent	ref/race/human(title)	yes				remove	6, 14	race-section-read-no-trait	standard-racial-trait	done			yes			
 blood-of-shadows	ref/racial-trait/human/bonus-feat	racial_trait	Bonus Feat	8	14	family-leak	printed		none	5	5,8,9,16,18	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 blood-of-shadows	ref/racial-trait/human/languages	racial_trait	Languages	8	15	family-leak	printed		none	2	14,32	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
@@ -1145,15 +1145,15 @@ goblins-of-golarion	ref/race/goblin	race	Goblin	5	5	uncited	printed		none	36	-1,
 goblins-of-golarion	ref/trait/goblin-bravery	trait	Goblin Bravery	2	2	uncited	body		none	1	16										single-entry	S5		yes	yes			
 gods-and-magic	ref/magic-wondrous/bronze-skinning-knife	item	Bronze Skinning Knife	2	2	review	absent	55	row	0											single-entry	S11			yes		no	
 halflings-of-golarion	ref/race/halfling	race	Halfling	11	17	family-leak	printed		none	35	-1,0,1,2,3	child	ref/racial-trait/halfling/attributes(body),ref/racial-trait/halfling/fearless(body),ref/racial-trait/halfling/halfling-luck(title)								race-hub	S9		yes	yes			
-halflings-of-golarion	ref/racial-trait/halfling/attributes	racial_trait	Attributes	6	10	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-halflings-of-golarion	ref/racial-trait/halfling/fearless	racial_trait	Fearless	11	14	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-halflings-of-golarion	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	5	5	family-leak	printed		none	10	0,3,6,7,9	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-halflings-of-golarion	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	11	14	family-leak	printed		none	4	0,5,22,28	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-halflings-of-golarion	ref/racial-trait/halfling/languages	racial_trait	Languages	11	17	family-leak	printed		none	4	0,16,30,32	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-halflings-of-golarion	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	4	5	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-halflings-of-golarion	ref/racial-trait/halfling/small	racial_trait	Small	11	17	family-leak	printed		none	14	0,3,4,5,9	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-halflings-of-golarion	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	7	10	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-halflings-of-golarion	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	11	13	family-leak	printed		none	2	0,22	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+halflings-of-golarion	ref/racial-trait/halfling/attributes	racial_trait	Attributes	6	10	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
+halflings-of-golarion	ref/racial-trait/halfling/fearless	racial_trait	Fearless	11	14	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
+halflings-of-golarion	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	5	5	family-leak	printed		none	10	0,3,6,7,9	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
+halflings-of-golarion	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	11	14	family-leak	printed		none	4	0,5,22,28	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
+halflings-of-golarion	ref/racial-trait/halfling/languages	racial_trait	Languages	11	17	family-leak	printed		none	4	0,16,30,32	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
+halflings-of-golarion	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	4	5	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
+halflings-of-golarion	ref/racial-trait/halfling/small	racial_trait	Small	11	17	family-leak	printed		none	14	0,3,4,5,9	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
+halflings-of-golarion	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	7	10	family-leak	body		none	1	0	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
+halflings-of-golarion	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	11	13	family-leak	printed		none	2	0,22	parent	ref/race/halfling(title)	yes				cite	inside cover	section-printed	standard-racial-trait	done			yes			
 healers-handbook	ref/ability/blessings	rule	Warpriest Blessings	2	3	hub-keep	body		none	2	12,13										hub-cited	S10		yes	yes	yes		
 heroes-from-the-fringe	ref/race/dwarf	race	Dwarf	4	17	family-leak	printed		none	9	0,1,3,4,5	child	ref/racial-trait/dwarf/defensive-training(title),ref/racial-trait/dwarf/greed(title),ref/racial-trait/dwarf/hatred(title)								race-hub	S9		yes	yes			
 heroes-from-the-fringe	ref/race/elf	race	Elf	4	17	family-leak	printed		none	15	0,1,2,3,10	child	ref/racial-trait/elf/elven-immunities(title),ref/racial-trait/elf/elven-magic(title),ref/racial-trait/elf/keen-senses(title)								race-hub	S9		yes	yes			
@@ -1209,11 +1209,11 @@ heroes-from-the-fringe	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc F
 heroes-from-the-fringe	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	4	13	family-leak	printed		none	6	4,10,11,16,17	parent	ref/race/half-orc(title)	yes				remove	24-26	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/halfling/attributes	racial_trait	Attributes	4	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	28	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	4	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	28	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-from-the-fringe	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	4	14	family-leak	printed		none	4	11,16,20,28	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-heroes-from-the-fringe	ref/racial-trait/halfling/languages	racial_trait	Languages	4	17	family-leak	printed		none	5	3,7,13,21,32	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+heroes-from-the-fringe	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	4	14	family-leak	printed		none	4	11,16,20,28	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
+heroes-from-the-fringe	ref/racial-trait/halfling/languages	racial_trait	Languages	4	17	family-leak	printed		none	5	3,7,13,21,32	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	4	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	28	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-from-the-fringe	ref/racial-trait/halfling/small	racial_trait	Small	4	17	family-leak	printed		none	7	4,5,8,10,15	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-heroes-from-the-fringe	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	4	13	family-leak	printed		none	6	4,10,11,16,17	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+heroes-from-the-fringe	ref/racial-trait/halfling/small	racial_trait	Small	4	17	family-leak	printed		none	7	4,5,8,10,15	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
+heroes-from-the-fringe	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	4	13	family-leak	printed		none	6	4,10,11,16,17	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/race/merfolk	race	Merfolk	5	5	uncited	printed		none	3	3,30,31										race-hub	S9		yes	yes			
 heroes-from-the-fringe	ref/race/sahuagin	race	Sahuagin	2	2	uncited	printed		none	3	3,30,31										race-hub	S9		yes	yes			
 heroes-from-the-fringe	ref/arc-bloodrager/id-rager	archetype	Id Rager	3	3	weak	weak		none	1	19										single-entry	S5		yes	yes			
@@ -1225,8 +1225,8 @@ heroes-from-the-fringe	ref/racial-trait/dwarf/stability	racial_trait	Stability	4
 heroes-from-the-fringe	ref/racial-trait/gnome/obsessive	racial_trait	Obsessive	4	10	weak	weak		none	1	16	parent	ref/race/gnome(title)	yes				remove	16-17	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/half-elf/multitalented	racial_trait	Multitalented	4	9	weak	weak		none	1	21	parent	ref/race/half-elf(title)	yes				remove	20-23	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/half-orc/darkvision	racial_trait	Darkvision	4	17	weak	weak		none	1	16	parent	ref/race/half-orc(title)	yes				remove	24-26	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-from-the-fringe	ref/racial-trait/halfling/fearless	racial_trait	Fearless	4	14	weak	weak		none	1	28	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-heroes-from-the-fringe	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	4	10	weak	weak		none	1	28	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+heroes-from-the-fringe	ref/racial-trait/halfling/fearless	racial_trait	Fearless	4	14	weak	weak		none	1	28	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
+heroes-from-the-fringe	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	4	10	weak	weak		none	1	28	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/spell/spirit-bound-blade	spell	Spirit-Bound Blade	4	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
 heroes-of-golarion	ref/class/cleric	class	Cleric	9	9	family-leak	printed		none	4	6,14,15,17	child	ref/rule/class-cleric/cleric(title)								class-hub	S6		yes	yes			
 heroes-of-golarion	ref/class/rogue	class	Rogue	13	14	family-leak	printed		none	2	6,17	child	ref/rule/class-rogue/rogue(title)								class-hub	S7		yes	yes			
@@ -1303,10 +1303,10 @@ heroes-of-the-high-court	ref/racial-trait/gnome/weapon-familiarity	racial_trait	
 heroes-of-the-high-court	ref/racial-trait/halfling/attributes	racial_trait	Attributes	13	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/halfling/fearless	racial_trait	Fearless	13	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	13	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-high-court	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	13	14	family-leak	printed		none	2	14,15	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-heroes-of-the-high-court	ref/racial-trait/halfling/languages	racial_trait	Languages	13	17	family-leak	printed		none	4	5,15,23,32	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-high-court	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	13	14	family-leak	printed		none	2	14,15	parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
+heroes-of-the-high-court	ref/racial-trait/halfling/languages	racial_trait	Languages	13	17	family-leak	printed		none	4	5,15,23,32	parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	13	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-high-court	ref/racial-trait/halfling/small	racial_trait	Small	13	17	family-leak	printed		none	5	4,5,15,19,27	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-high-court	ref/racial-trait/halfling/small	racial_trait	Small	13	17	family-leak	printed		none	5	4,5,15,19,27	parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	13	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/human/attributes	racial_trait	Attributes	7	15	family-leak	absent		none	0		parent	ref/race/human(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/human/bonus-feat	racial_trait	Bonus Feat	7	14	family-leak	printed		none	6	8,9,15,22,23	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
@@ -1338,7 +1338,7 @@ heroes-of-the-high-court	ref/race/half-elf	race	Half-Elf	13	18	weak	weak		none	1
 heroes-of-the-high-court	ref/race/half-orc	race	Half-Orc	8	18	weak	weak		none	1	15	child	ref/racial-trait/half-orc/intimidating(title),ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)								race-hub	S9		yes	yes			
 heroes-of-the-high-court	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	12	16	weak	weak		none	1	15	parent	ref/race/dwarf(title)	yes				remove	14	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-high-court	ref/racial-trait/half-orc/darkvision	racial_trait	Darkvision	8	17	weak	weak		none	1	15			yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-high-court	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	8	10	weak	weak		none	1	15	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-high-court	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	8	10	weak	weak		none	1	15	parent	ref/race/halfling(title)	yes				remove	15	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/race/dwarf	race	Dwarf	11	17	family-leak	printed		none	3	7,8,15	child	ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)								race-hub	S9		yes	yes			
 heroes-of-the-streets	ref/race/elf	race	Elf	13	17	family-leak	printed		none	2	7,8	child	ref/racial-trait/elf/languages(title),ref/racial-trait/elf/medium(title)								race-hub	S9		yes	yes			
 heroes-of-the-streets	ref/race/half-orc	race	Half-Orc	14	18	family-leak	printed		none	3	8,9,22	child	ref/racial-trait/half-orc/languages(title),ref/racial-trait/half-orc/medium(title)								race-hub	S9		yes	yes			
@@ -1385,9 +1385,9 @@ heroes-of-the-streets	ref/racial-trait/half-elf/medium	racial_trait	Medium	14	18
 heroes-of-the-streets	ref/racial-trait/half-elf/multitalented	racial_trait	Multitalented	14	18	inherited	absent		none	0				yes				remove	8	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/halfling/attributes	racial_trait	Attributes	10	17	inherited	absent		none	0				yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	10	17	inherited	absent		none	0				yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-streets	ref/racial-trait/halfling/languages	racial_trait	Languages	10	17	inherited	printed		none	2	5,32			yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-streets	ref/racial-trait/halfling/languages	racial_trait	Languages	10	17	inherited	printed		none	2	5,32			yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	10	17	inherited	absent		none	0				yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-streets	ref/racial-trait/halfling/small	racial_trait	Small	10	17	inherited	printed		none	9	2,9,13,17,20			yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-streets	ref/racial-trait/halfling/small	racial_trait	Small	10	17	inherited	printed		none	9	2,9,13,17,20			yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	10	17	inherited	absent		none	0				yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/race/gnome	race	Gnome	12	16	weak	weak		none	1	8	child	ref/racial-trait/gnome/languages(title),ref/racial-trait/gnome/small(title)								race-hub	S9		yes	yes			
 heroes-of-the-streets	ref/race/half-elf	race	Half-Elf	14	18	weak	weak		none	1	8	child	ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/medium(title)								race-hub	S9		yes	yes			
@@ -1409,9 +1409,9 @@ heroes-of-the-streets	ref/racial-trait/half-elf/normal-speed	racial_trait	Normal
 heroes-of-the-streets	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal Speed	9	12	weak	weak		none	1	21	parent	ref/race/half-orc(title)	yes				remove	8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	12	13	weak	weak		none	1	9	parent	ref/race/half-orc(title)	yes				remove	8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	12	13	weak	weak		none	1	9	parent	ref/race/half-orc(title)	yes				remove	8-9	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-streets	ref/racial-trait/halfling/fearless	racial_trait	Fearless	10	14	weak	weak		none	1	9			yes							standard-racial-trait	S3		yes	yes			
-heroes-of-the-streets	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	10	14	weak	weak		none	1	8			yes							standard-racial-trait	S3		yes	yes			
-heroes-of-the-streets	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	10	13	weak	weak		none	1	9			yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-streets	ref/racial-trait/halfling/fearless	racial_trait	Fearless	10	14	weak	weak		none	1	9			yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
+heroes-of-the-streets	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	10	14	weak	weak		none	1	8			yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
+heroes-of-the-streets	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	10	13	weak	weak		none	1	9			yes				remove	9	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-streets	ref/racial-trait/human/normal-speed	racial_trait	Normal Speed	7	10	weak	weak		none	1	21	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 heroes-of-the-wild	ref/race/dwarf	race	Dwarf	5	17	family-leak	printed		none	2	5,6	child	ref/racial-trait/dwarf/languages(title),ref/racial-trait/dwarf/medium(title)								race-hub	S9		yes	yes			
 heroes-of-the-wild	ref/race/elf	race	Elf	11	17	family-leak	printed		none	2	5,6	child	ref/racial-trait/elf/keen-senses(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
@@ -1465,12 +1465,12 @@ heroes-of-the-wild	ref/racial-trait/human/medium	racial_trait	Medium	9	15	family
 heroes-of-the-wild	ref/racial-trait/human/normal-speed	racial_trait	Normal Speed	6	10	family-leak	printed		none	2	21,24	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 heroes-of-the-wild	ref/racial-trait/human/skilled	racial_trait	Skilled	9	15	family-leak	printed		none	3	5,20,23	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 heroes-of-the-wild	ref/racial-trait/halfling/attributes	racial_trait	Attributes	6	17	inherited	absent		none	0				yes				remove	5, 7	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-wild	ref/racial-trait/halfling/fearless	racial_trait	Fearless	6	14	inherited	body		none	1	23			yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-wild	ref/racial-trait/halfling/fearless	racial_trait	Fearless	6	14	inherited	body		none	1	23			yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	6	17	inherited	absent		none	0				yes				remove	5, 7	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-wild	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	6	14	inherited	printed		none	2	5,7			yes							standard-racial-trait	S3		yes	yes			
-heroes-of-the-wild	ref/racial-trait/halfling/languages	racial_trait	Languages	6	17	inherited	printed		none	2	5,32			yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-wild	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	6	14	inherited	printed		none	2	5,7			yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
+heroes-of-the-wild	ref/racial-trait/halfling/languages	racial_trait	Languages	6	17	inherited	printed		none	2	5,32			yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	6	17	inherited	absent		none	0				yes				remove	5, 7	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-wild	ref/racial-trait/halfling/small	racial_trait	Small	6	17	inherited	printed		none	7	2,8,9,15,17			yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-wild	ref/racial-trait/halfling/small	racial_trait	Small	6	17	inherited	printed		none	7	2,8,9,15,17			yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	6	17	inherited	absent		none	0				yes				remove	5, 7	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/race/halfling	race	Halfling	6	17	weak	weak		none	1	7	child	ref/racial-trait/halfling/fearless(body),ref/racial-trait/halfling/keen-senses(title),ref/racial-trait/halfling/languages(title)								race-hub	S9		yes	yes			
 heroes-of-the-wild	ref/racial-trait/dwarf/darkvision	racial_trait	Darkvision	5	16	weak	weak		none	1	5	parent	ref/race/dwarf(title)	yes				remove	5-6	race-section-read-no-trait	standard-racial-trait	done			yes			
@@ -1486,7 +1486,7 @@ heroes-of-the-wild	ref/racial-trait/half-elf/adaptability	racial_trait	Adaptabil
 heroes-of-the-wild	ref/racial-trait/half-elf/multitalented	racial_trait	Multitalented	9	9	weak	weak		none	1	5	parent	ref/race/half-elf(title)	yes				remove	6	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/half-orc/darkvision	racial_trait	Darkvision	6	17	weak	weak		none	1	5	parent	ref/race/half-orc(title)	yes				remove	6-7	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-of-the-wild	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	6	13	weak	weak		none	1	5	parent	ref/race/half-orc(title)	yes				remove	6-7	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-of-the-wild	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	6	13	weak	weak		none	1	5			yes							standard-racial-trait	S3		yes	yes			
+heroes-of-the-wild	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	6	13	weak	weak		none	1	5			yes				remove	7	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	3	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 horror-adventures	ref/class/barbarian	class	Barbarian	7	10	family-leak	printed		none	8	3,33,41,46,47	child	ref/rule/class-barbarian/barbarian(title)								class-hub	S6		yes	yes			
 horror-adventures	ref/class/bard	class	Bard	13	13	family-leak	printed		none	18	40,64,70,99,108	child	ref/rule/class-bard/bard(title)								class-hub	S6		yes	yes			
@@ -1548,13 +1548,13 @@ horror-adventures	ref/racial-trait/half-orc/medium	racial_trait	Medium	7	18	fami
 horror-adventures	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal Speed	7	12	family-leak	printed		none	2	111,128	parent	ref/race/half-orc(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	7	18	family-leak	absent		none	0		parent	ref/race/half-orc(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	7	13	family-leak	printed		none	3	38,40,41	parent	ref/race/half-orc(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
-horror-adventures	ref/racial-trait/halfling/fearless	racial_trait	Fearless	5	14	family-leak	printed		none	3	8,40,47	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-horror-adventures	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	5	14	family-leak	printed		none	2	39,40	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-horror-adventures	ref/racial-trait/halfling/languages	racial_trait	Languages	5	17	family-leak	printed		none	16	40,130,181,184,186	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+horror-adventures	ref/racial-trait/halfling/fearless	racial_trait	Fearless	5	14	family-leak	printed		none	3	8,40,47	parent	ref/race/halfling(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
+horror-adventures	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	5	14	family-leak	printed		none	2	39,40	parent	ref/race/halfling(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
+horror-adventures	ref/racial-trait/halfling/languages	racial_trait	Languages	5	17	family-leak	printed		none	16	40,130,181,184,186	parent	ref/race/halfling(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	5	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	40-41	race-section-read-no-trait	standard-racial-trait	done			yes			
-horror-adventures	ref/racial-trait/halfling/small	racial_trait	Small	5	17	family-leak	printed		none	40	17,18,19,20,21	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-horror-adventures	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	5	10	family-leak	printed		none	2	40,41	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-horror-adventures	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	5	13	family-leak	printed		none	3	38,40,41	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+horror-adventures	ref/racial-trait/halfling/small	racial_trait	Small	5	17	family-leak	printed		none	40	17,18,19,20,21	parent	ref/race/halfling(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
+horror-adventures	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	5	10	family-leak	printed		none	2	40,41	parent	ref/race/halfling(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
+horror-adventures	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	5	13	family-leak	printed		none	3	38,40,41	parent	ref/race/halfling(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/human/bonus-feat	racial_trait	Bonus Feat	6	14	family-leak	printed		none	15	37,40,41,57,60	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 horror-adventures	ref/racial-trait/human/languages	racial_trait	Languages	6	15	family-leak	printed		none	16	40,130,181,184,186	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 horror-adventures	ref/racial-trait/human/medium	racial_trait	Medium	6	15	family-leak	printed		none	40	3,17,18,19,20	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
@@ -1595,8 +1595,8 @@ horror-adventures	ref/racial-trait/half-elf/attributes	racial_trait	Attributes	6
 horror-adventures	ref/racial-trait/half-elf/multitalented	racial_trait	Multitalented	8	9	weak	weak		none	1	39	parent	ref/race/half-elf(title)	yes				remove	39-40	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/half-orc/attributes	racial_trait	Attributes	5	11	weak	weak		none	1	124	parent	ref/race/half-orc(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	7	13	weak	weak		none	1	40	parent	ref/race/half-orc(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
-horror-adventures	ref/racial-trait/halfling/attributes	racial_trait	Attributes	4	10	weak	weak		none	1	124	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-horror-adventures	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	4	5	weak	weak		none	1	40	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+horror-adventures	ref/racial-trait/halfling/attributes	racial_trait	Attributes	4	10	weak	weak		none	1	124	parent	ref/race/halfling(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
+horror-adventures	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	4	5	weak	weak		none	1	40	parent	ref/race/halfling(title)	yes				remove	40	race-section-read-no-trait	standard-racial-trait	done			yes			
 horror-adventures	ref/racial-trait/human/attributes	racial_trait	Attributes	6	10	weak	weak		none	1	124	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 horror-realms	ref/affliction/zombie/zombie-curse-su	affliction	Zombie Curse (Su)	2	3	family-leak	absent	33	row	0		parent	ref/template/zombie(title)	yes				remove	33	wrong-credit-invalidated	single-entry	done			yes			
 horror-realms	ref/affliction/zombie/zombie-rot	affliction	Zombie Rot	2	3	family-leak	absent	33	row	0		parent	ref/template/zombie(title)	yes				remove	33	wrong-credit-invalidated	single-entry	done			yes			
@@ -1663,10 +1663,10 @@ legacy-of-dragons	ref/racial-trait/elf/low-light-vision	racial_trait	Low-Light V
 legacy-of-dragons	ref/racial-trait/elf/medium	racial_trait	Medium	10	17	family-leak	printed		none	7	9,23,24,28,29	parent	ref/race/elf(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/elf/normal-speed	racial_trait	Normal Speed	10	17	family-leak	absent		none	0		parent	ref/race/elf(title)	yes				remove	10	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	9	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-mention-only	standard-racial-trait	done			yes			
-legacy-of-dragons	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	9	14	family-leak	printed		none	2	10,11	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-legacy-of-dragons	ref/racial-trait/halfling/languages	racial_trait	Languages	9	17	family-leak	printed		none	4	18,23,27,32	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+legacy-of-dragons	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	9	14	family-leak	printed		none	2	10,11	parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
+legacy-of-dragons	ref/racial-trait/halfling/languages	racial_trait	Languages	9	17	family-leak	printed		none	4	18,23,27,32	parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	9	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
-legacy-of-dragons	ref/racial-trait/halfling/small	racial_trait	Small	9	17	family-leak	printed		none	6	3,8,9,12,27	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+legacy-of-dragons	ref/racial-trait/halfling/small	racial_trait	Small	9	17	family-leak	printed		none	6	3,8,9,12,27	parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	9	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/human/bonus-feat	racial_trait	Bonus Feat	4	14	family-leak	printed		none	4	11,13,14,20	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 legacy-of-dragons	ref/racial-trait/human/languages	racial_trait	Languages	4	15	family-leak	printed		none	4	18,23,27,32	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
@@ -1723,9 +1723,9 @@ legacy-of-dragons	ref/racial-trait/half-elf/elven-immunities	racial_trait	Elven 
 legacy-of-dragons	ref/racial-trait/half-orc/attributes	racial_trait	Attributes	6	11	weak	weak		none	1	0			yes				remove	11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	8	13	weak	weak		none	1	11			yes				remove	11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	8	13	weak	weak		none	1	11			yes				remove	11	race-section-read-no-trait	standard-racial-trait	done			yes			
-legacy-of-dragons	ref/racial-trait/halfling/attributes	racial_trait	Attributes	5	10	weak	weak		none	1	0	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-legacy-of-dragons	ref/racial-trait/halfling/fearless	racial_trait	Fearless	9	14	weak	weak		none	1	11	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-legacy-of-dragons	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	9	13	weak	weak		none	1	11	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+legacy-of-dragons	ref/racial-trait/halfling/attributes	racial_trait	Attributes	5	10	weak	weak		none	1	0	parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
+legacy-of-dragons	ref/racial-trait/halfling/fearless	racial_trait	Fearless	9	14	weak	weak		none	1	11	parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
+legacy-of-dragons	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	9	13	weak	weak		none	1	11	parent	ref/race/halfling(title)	yes				remove	10-11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/human/attributes	racial_trait	Attributes	4	10	weak	weak		none	1	0	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 legacy-of-dragons	ref/rule/class-rogue/rogue	rule	Rogue	14	14	weak	weak		none	1	18			yes							class-hub	S8		yes	yes			
 legacy-of-dragons	ref/faith/general-susumu	rule	General Susumu	2	2	cite-off	off-page	31	row	1	8										faith-excerpt	S11	faith-link		yes	yes	no	
@@ -1819,9 +1819,9 @@ legacy-of-the-first-world	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc B
 legacy-of-the-first-world	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	13	18	inherited	absent		none	0				yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/halfling/attributes	racial_trait	Attributes	8	17	inherited	absent		none	0				yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	8	17	inherited	absent		none	0				yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
-legacy-of-the-first-world	ref/racial-trait/halfling/languages	racial_trait	Languages	8	17	inherited	printed		none	2	4,32			yes							standard-racial-trait	S3		yes	yes			
+legacy-of-the-first-world	ref/racial-trait/halfling/languages	racial_trait	Languages	8	17	inherited	printed		none	2	4,32			yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	8	17	inherited	absent		none	0				yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
-legacy-of-the-first-world	ref/racial-trait/halfling/small	racial_trait	Small	8	17	inherited	printed		none	5	9,10,16,17,18			yes							standard-racial-trait	S3		yes	yes			
+legacy-of-the-first-world	ref/racial-trait/halfling/small	racial_trait	Small	8	17	inherited	printed		none	5	9,10,16,17,18			yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	8	17	inherited	absent		none	0				yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/class/alchemist	class	Alchemist	7	12	uncited	printed		none	4	3,6,7,8										class-hub	S6		yes	yes			
 legacy-of-the-first-world	ref/class/mesmerist	class	Mesmerist	5	9	uncited	printed		none	2	9,13										class-hub	S6		yes	yes			
@@ -1842,9 +1842,9 @@ legacy-of-the-first-world	ref/racial-trait/gnome/weapon-familiarity	racial_trait
 legacy-of-the-first-world	ref/racial-trait/half-elf/keen-senses	racial_trait	Keen Senses	6	14	weak	weak		none	1	5	parent	ref/race/half-elf(title)	yes				remove	5, 12	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/half-orc/darkvision	racial_trait	Darkvision	13	17	weak	weak		none	1	15			yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-the-first-world	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	11	13	weak	weak		none	1	5			yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
-legacy-of-the-first-world	ref/racial-trait/halfling/fearless	racial_trait	Fearless	8	14	weak	weak		none	1	5			yes							standard-racial-trait	S3		yes	yes			
-legacy-of-the-first-world	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	8	14	weak	weak		none	1	5			yes							standard-racial-trait	S3		yes	yes			
-legacy-of-the-first-world	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	8	13	weak	weak		none	1	5			yes							standard-racial-trait	S3		yes	yes			
+legacy-of-the-first-world	ref/racial-trait/halfling/fearless	racial_trait	Fearless	8	14	weak	weak		none	1	5			yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
+legacy-of-the-first-world	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	8	14	weak	weak		none	1	5			yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
+legacy-of-the-first-world	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	8	13	weak	weak		none	1	5			yes				remove	5	race-section-read-no-trait	standard-racial-trait	done			yes			
 magic-tactics-toolbox	ref/rule/feats-class	rule	Class-Based Feats	7	7	hub-keep	absent	28	row	0											hub-cited	S11			yes	yes	no	
 magic-tactics-toolbox	ref/ability/advanced-weapon-training	rule	Advanced Weapon Training	3	3	uncited	printed		none	2	3,10										link-only-hub	S10	hub-design-a	yes	yes			
 magical-marketplace	ref/hex/cackle	class_option	Cackle	2	4	uncited	unaligned		none	0											single-entry	S5		yes	yes			
@@ -1963,13 +1963,13 @@ occult-adventures	ref/racial-trait/half-orc/medium	racial_trait	Medium	16	18	inh
 occult-adventures	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal Speed	11	12	inherited	printed		none	2	162,186			yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	16	18	inherited	absent		none	0				yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	16	18	inherited	absent		none	0				yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
-occult-adventures	ref/racial-trait/halfling/attributes	racial_trait	Attributes	8	10	inherited	printed		none	7	68,147,148,150,153			yes							standard-racial-trait	S3		yes	yes			
-occult-adventures	ref/racial-trait/halfling/fearless	racial_trait	Fearless	13	14	inherited	printed		none	2	118,264			yes							standard-racial-trait	S3		yes	yes			
+occult-adventures	ref/racial-trait/halfling/attributes	racial_trait	Attributes	8	10	inherited	printed		none	7	68,147,148,150,153			yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
+occult-adventures	ref/racial-trait/halfling/fearless	racial_trait	Fearless	13	14	inherited	printed		none	2	118,264			yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	15	17	inherited	absent		none	0				yes				remove	85	race-section-read-mention-only	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	15	17	inherited	absent		none	0				yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
-occult-adventures	ref/racial-trait/halfling/languages	racial_trait	Languages	15	17	inherited	printed		none	12	37,45,58,66,69			yes							standard-racial-trait	S3		yes	yes			
+occult-adventures	ref/racial-trait/halfling/languages	racial_trait	Languages	15	17	inherited	printed		none	12	37,45,58,66,69			yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	15	17	inherited	absent		none	0				yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
-occult-adventures	ref/racial-trait/halfling/small	racial_trait	Small	15	17	inherited	printed		none	40	23,30,40,47,57			yes							standard-racial-trait	S3		yes	yes			
+occult-adventures	ref/racial-trait/halfling/small	racial_trait	Small	15	17	inherited	printed		none	40	23,30,40,47,57			yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	15	17	inherited	absent		none	0				yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	15	17	inherited	absent		none	0				yes				remove	85	race-section-read-no-trait	standard-racial-trait	done			yes			
 occult-adventures	ref/race/gnome	race	Gnome	14	16	weak	weak		none	1	84	child	ref/racial-trait/gnome/attributes(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
@@ -2389,12 +2389,12 @@ ultimate-intrigue	ref/spell/charm-fey	spell	Charm Fey	3	3	family-leak	absent	206
 ultimate-intrigue	ref/spell/cyclic-reincarnation	spell	Cyclic Reincarnation	4	4	family-leak	absent	223	row	0		variant	ref/spell/reincarnate(title)					remove	223	wrong-credit-invalidated	single-entry	done			yes			
 ultimate-intrigue	ref/spell/escape-alarm	spell	Escape Alarm	3	3	family-leak	absent	224	row	0		variant	ref/spell/alarm(title)					remove	224	wrong-credit-invalidated	single-entry	done			yes			
 ultimate-intrigue	ref/spell/sympathetic-aura	spell	Sympathetic Aura	2	3	family-leak	absent	219	row	0		variant	ref/spell/magic-aura(title)					remove	219	wrong-credit-invalidated	single-entry	done			yes			
-ultimate-intrigue	ref/racial-trait/halfling/attributes	racial_trait	Attributes	10	10	inherited	printed		none	3	135,168,192			yes							standard-racial-trait	S3		yes	yes			
+ultimate-intrigue	ref/racial-trait/halfling/attributes	racial_trait	Attributes	10	10	inherited	printed		none	3	135,168,192			yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/halfling/fearless	racial_trait	Fearless	17	17	inherited	absent		none	0				yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	17	17	inherited	absent		none	0				yes				remove	17, 93	race-section-read-mention-only	standard-racial-trait	done			yes			
-ultimate-intrigue	ref/racial-trait/halfling/languages	racial_trait	Languages	17	17	inherited	printed		none	21	27,151,152,153,192			yes							standard-racial-trait	S3		yes	yes			
+ultimate-intrigue	ref/racial-trait/halfling/languages	racial_trait	Languages	17	17	inherited	printed		none	21	27,151,152,153,192			yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	17	17	inherited	absent		none	0				yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
-ultimate-intrigue	ref/racial-trait/halfling/small	racial_trait	Small	17	17	inherited	printed		none	40	11,26,44,59,62			yes							standard-racial-trait	S3		yes	yes			
+ultimate-intrigue	ref/racial-trait/halfling/small	racial_trait	Small	17	17	inherited	printed		none	40	11,26,44,59,62			yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/ability/combat-styles	rule	Combat Styles	3	7	uncited	printed		none	4	3,5,40,252										link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-intrigue	ref/feat/leadership	feat	Leadership	2	2	uncited	printed		none	14	3,5,24,35,45										single-entry	S5		yes	yes			
 ultimate-intrigue	ref/spell/identifiers-eye	spell	Identifier's Eye	4	5	review	absent	212	row	0											single-entry	S11			yes		no	
@@ -2412,9 +2412,9 @@ ultimate-intrigue	ref/racial-trait/half-elf/adaptability	racial_trait	Adaptabili
 ultimate-intrigue	ref/racial-trait/half-elf/keen-senses	racial_trait	Keen Senses	14	14	weak	weak		none	1	121	parent	ref/race/half-elf(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	13	13	weak	weak		none	1	27	parent	ref/race/half-orc(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	13	13	weak	weak		none	1	27	parent	ref/race/half-orc(title)	yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
-ultimate-intrigue	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	14	14	weak	weak		none	1	121			yes							standard-racial-trait	S3		yes	yes			
-ultimate-intrigue	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	10	10	weak	weak		none	1	16			yes							standard-racial-trait	S3		yes	yes			
-ultimate-intrigue	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	13	13	weak	weak		none	1	27			yes							standard-racial-trait	S3		yes	yes			
+ultimate-intrigue	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	14	14	weak	weak		none	1	121			yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
+ultimate-intrigue	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	10	10	weak	weak		none	1	16			yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
+ultimate-intrigue	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	13	13	weak	weak		none	1	27			yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/spell/teleport-greater	spell	Greater Teleport	2	2	cite-off	off-page	227	row	5	76,79,80,88,159	variant	ref/spell/teleport(title)					resolved	none	out-of-source-ids	single-entry	S0			yes			
 ultimate-magic	ref/ability/arcane-schools	rule	Arcane Schools	6	7	hub-keep	loose	88	body	0											hub-cited	S10		yes	yes	yes	no	
 ultimate-magic	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	2	4	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
@@ -2482,12 +2482,12 @@ ultimate-wilderness	ref/racial-trait/gnome/low-light-vision	racial_trait	Low-Lig
 ultimate-wilderness	ref/racial-trait/gnome/obsessive	racial_trait	Obsessive	15	16	family-leak	absent		none	0		parent	ref/race/gnome(title)	yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/gnome/small	racial_trait	Small	15	16	family-leak	printed		none	40	10,14,19,20,21	parent	ref/race/gnome(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/gnome/weapon-familiarity	racial_trait	Weapon Familiarity	15	16	family-leak	absent		none	0		parent	ref/race/gnome(title)	yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
-ultimate-wilderness	ref/racial-trait/halfling/fearless	racial_trait	Fearless	14	14	family-leak	printed		none	2	84,85	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+ultimate-wilderness	ref/racial-trait/halfling/fearless	racial_trait	Fearless	14	14	family-leak	printed		none	2	84,85	parent	ref/race/halfling(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling Luck	16	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	16	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
-ultimate-wilderness	ref/racial-trait/halfling/languages	racial_trait	Languages	16	17	family-leak	printed		none	8	10,17,21,26,78	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-ultimate-wilderness	ref/racial-trait/halfling/small	racial_trait	Small	16	17	family-leak	printed		none	40	10,14,19,20,21	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-ultimate-wilderness	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	9	10	family-leak	printed		none	3	156,181,182	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+ultimate-wilderness	ref/racial-trait/halfling/languages	racial_trait	Languages	16	17	family-leak	printed		none	8	10,17,21,26,78	parent	ref/race/halfling(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
+ultimate-wilderness	ref/racial-trait/halfling/small	racial_trait	Small	16	17	family-leak	printed		none	40	10,14,19,20,21	parent	ref/race/halfling(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
+ultimate-wilderness	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed	9	10	family-leak	printed		none	3	156,181,182	parent	ref/race/halfling(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	16	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/human/bonus-feat	racial_trait	Bonus Feat	13	14	family-leak	printed		none	34	11,12,16,17,29	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 ultimate-wilderness	ref/racial-trait/human/languages	racial_trait	Languages	14	15	family-leak	printed		none	8	10,17,21,26,78	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
@@ -2543,8 +2543,8 @@ ultimate-wilderness	ref/racial-trait/gnome/slow-speed	racial_trait	Slow Speed	4	
 ultimate-wilderness	ref/racial-trait/half-elf/adaptability	racial_trait	Adaptability	16	17	weak	weak		none	1	253			yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/half-elf/attributes	racial_trait	Attributes	10	11	weak	weak		none	1	257			yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/half-orc/attributes	racial_trait	Attributes	10	11	weak	weak		none	1	257			yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
-ultimate-wilderness	ref/racial-trait/halfling/attributes	racial_trait	Attributes	9	10	weak	weak		none	1	257	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
-ultimate-wilderness	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	5	5	weak	weak		none	1	21	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
+ultimate-wilderness	ref/racial-trait/halfling/attributes	racial_trait	Attributes	9	10	weak	weak		none	1	257	parent	ref/race/halfling(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
+ultimate-wilderness	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	5	5	weak	weak		none	1	21	parent	ref/race/halfling(title)	yes				remove	31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/human/attributes	racial_trait	Attributes	9	10	weak	weak		none	1	257	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 ultimate-wilderness	ref/rule/ability-weapon-groups/firearms	rule	Firearms	2	2	cite-off	off-page	51	row	1	75	parent	ref/ability/weapon-groups(title)	yes				resolved	none	out-of-source-ids	link-only-hub	S0			yes			
 ultimate-wilderness	ref/rule/ability-weapon-groups/monk	rule	Monk	2	2	cite-off	off-page	51	row	10	3,5,27,64,65	parent	ref/ability/weapon-groups(title)	yes				resolved	none	out-of-source-ids	link-only-hub	S0			yes			
