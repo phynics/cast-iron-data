@@ -3,7 +3,7 @@ id = "ref/spell/flare"
 kind = "spell"
 title = "Flare"
 aon = "SpellDisplay.aspx?ItemName=Flare"
-source_ids = ["core-rulebook", "advanced-players-guide"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flare", path = "json/spells4.json" },
 ]

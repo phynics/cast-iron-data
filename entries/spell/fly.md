@@ -3,7 +3,7 @@ id = "ref/spell/fly"
 kind = "spell"
 title = "Fly"
 aon = "SpellDisplay.aspx?ItemName=Fly"
-source_ids = ["core-rulebook", "advanced-players-guide"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fly", path = "json/spells4.json" },
 ]
