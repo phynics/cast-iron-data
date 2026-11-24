@@ -2,7 +2,7 @@
 id = "ref/racial-trait/half-orc/orc-ferocity"
 kind = "racial_trait"
 title = "Orc Ferocity"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes-from-the-fringe", "bastards-of-golarion", "heroes-of-the-wild", "horror-adventures", "legacy-of-dragons", "blood-of-shadows", "advanced-players-guide", "agents-of-evil", "heroes-of-the-streets", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/half-orc"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_orc|racial-trait:orc-ferocity", path = "json/races2.json" },

@@ -2,7 +2,7 @@
 id = "ref/racial-trait/half-orc/weapon-familiarity"
 kind = "racial_trait"
 title = "Weapon Familiarity"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes-from-the-fringe", "bastards-of-golarion", "heroes-of-the-wild", "horror-adventures", "legacy-of-dragons", "blood-of-shadows", "advanced-players-guide", "legacy-of-the-first-world", "heroes-of-the-streets", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/half-orc"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_orc|racial-trait:weapon-familiarity", path = "json/races2.json" },
