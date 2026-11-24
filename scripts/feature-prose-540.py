@@ -427,26 +427,25 @@ LINK_SPAN = re.compile(r"(?<!\\)\[[^\[\]]*\]\([^()\s]*\)")
 
 
 def apply_links(text: str, links: list[tuple[str, str]]) -> tuple[str, list[str]]:
-    """Wrap the first whole-word occurrence of each old link text that is not inside a link already.
-    The spans of the links already placed are found by their own shape (`[label](target)`, a target
-    holds no parenthesis), so printed parentheses and brackets do not fool the test. Returns the text
-    and the link texts that found no place."""
+    """Wrap an occurrence of each old link text that is not inside a link already: the longer labels first (so
+    "planar ally" does not take the words of "lesser planar ally"), and an occurrence with the same case as the
+    label before another one ("Animal" in a domain list, not "animal companion"). The spans of the links already
+    placed are found by their own shape (`[label](target)`, a target holds no parenthesis), so printed
+    parentheses and brackets do not fool the test. Returns the text and the link texts that found no place."""
     lost = []
-    for label, target in links:
-        words = [re.escape(w) for w in re.split(r"[\s-]+", label.replace("\\", "")) if w]
+    for label, target in sorted(links, key=lambda x: -len(x[0])):
+        plain = label.replace("\\", "")
+        words = [re.escape(w) for w in re.split(r"[\s-]+", plain) if w]
         if not words:
             continue
         pat = re.compile(r"(?<![\w\[])" + r"[\s-]+".join(words) + r"(?![\w\]])", re.I)
         spans = [(m.start(), m.end()) for m in LINK_SPAN.finditer(text)]
-        done = False
-        for m in pat.finditer(text):
-            if any(a <= m.start() < b for a, b in spans):
-                continue
-            text = text[: m.start()] + f"[{m.group(0)}]({target})" + text[m.end():]
-            done = True
-            break
-        if not done:
+        free = [m for m in pat.finditer(text) if not any(a <= m.start() < b for a, b in spans)]
+        chosen = next((m for m in free if m.group(0) == plain), free[0] if free else None)
+        if chosen is None:
             lost.append(label)
+            continue
+        text = text[: chosen.start()] + f"[{chosen.group(0)}]({target})" + text[chosen.end():]
     return text, lost
 
 
@@ -517,7 +516,7 @@ def fix_hyphens(s: str, vocab: set[str]) -> str:
             return f"{a}{b}"
         return f"{a}-{b}"
 
-    return re.sub(r"\b([A-Za-z]+)- (?=[a-z])([A-Za-z]+)\b", join, s)
+    return re.sub(r"\b([0-9]*[A-Za-z]+)- (?=[a-z])([A-Za-z]+)\b", join, s)
 
 
 def render_marks(s: str) -> str:
@@ -1294,6 +1293,19 @@ def head_text(head: str) -> str:
     return re.sub(r"\s+", " ", head.replace("’", "'").replace("‘", "'")).strip()
 
 
+def unprinted_notes(opening: list[list[str]], printed: list[str]) -> list[int]:
+    """Indices of the blockquote notes of the import's opening text that print does not have (ruling 10): fewer than
+    half of their words are in the printed opening."""
+    have = set(tokens(" ".join(printed)))
+    out = []
+    for i, block in enumerate(opening):
+        if block[0].lstrip().startswith(">"):
+            tk = tokens(" ".join(re.sub(r"^\s*>\s?", "", ln) for ln in block))
+            if tk and sum(1 for t in tk if t in have) * 2 < len(tk):
+                out.append(i)
+    return out
+
+
 def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     """The comparison of one archetype with its printed section: a row for each printed head, in print
     order, then one for each feature of the import that print lacks."""
@@ -1322,12 +1334,13 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     title_tokens = set(tokens(e.title)) | {w for c in e.classes for w in tokens(c.split("/")[-1].replace("-", " "))}
     rows = []
     for pf, idx in zip(pfeats, matched):
+        head = fix_ligatures(head_text(pf.head), vocab)
         if idx is None:
             text, _, pnotes = print_md(pf, [], vocab, e.id)
-            rows.append({"anchor": anchor_of(pf.head), "span": "", "page": pf.page, "pseudo": False, "draft": "",
-                         "level_import": None, "head": head_text(pf.head), "print": text, "status": "print",
+            rows.append({"anchor": anchor_of(head), "span": "", "page": pf.page, "pseudo": False, "draft": "",
+                         "level_import": None, "head": head, "print": text, "status": "print",
                          "notes": ["head printed, not in the import: added from print"] + pnotes,
-                         "listed": not is_scaffold(pf.head), "name": pf.head})
+                         "listed": not is_scaffold(head), "name": pf.head})
             continue
         f = feats[idx]
         draft = build_draft(f)
@@ -1335,19 +1348,20 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         cmp = compare_feature(draft, text, set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
         named = [x.strip() for it in f.items if it.label in ("Replaces", "Alters")
                  for x in re.split(r",| and ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)) if x.strip()]
-        row = {"anchor": anchor_of(pf.head), "span": f.span_sha(), "page": pf.page, "pseudo": f.pseudo,
-               "import_trades": named,
-               "draft": draft.text, "level_import": draft.level, "head": head_text(pf.head), "print": text,
+        row = {"anchor": anchor_of(head), "span": f.span_sha(), "page": pf.page, "pseudo": f.pseudo,
+               "import_trades": named, "links": [],
+               "draft": draft.text, "level_import": draft.level, "head": head, "print": text,
                "status": cmp.status, "notes": list(cmp.notes) + pnotes, "name": pf.head}
         if lost:
             row["notes"].append("link not placed: " + ", ".join(lost))
-        row["listed"] = not is_scaffold(pf.head) and not f.pseudo
+        row["listed"] = not is_scaffold(head) and not f.pseudo
         if (e.id, row["anchor"]) in PRINT_WINS and row["status"] == "hold":
             row["status"], row["notes"] = "print", [PRINT_WINS[(e.id, row["anchor"])]] + pnotes
         rows.append(row)
     for i, f in enumerate(feats):
         if i not in used:
             rows.append({"anchor": anchor_of(f.name), "span": f.span_sha(), "page": "", "pseudo": f.pseudo,
+                         "links": old_links(f),
                          "draft": build_draft(f).text, "level_import": None, "head": head_text(f.name), "print": "",
                          "status": "hold", "notes": ["head not printed"], "listed": False, "name": f.name})
     opening = [render_marks(finish_text(clean_runs(r), vocab)) for r in opening_print]
@@ -1355,7 +1369,24 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     for i, f in enumerate(feats):
         if i not in used:
             links += old_links(f)
-    return {"rows": rows, "problems": problems, "opening": [o for o in opening if o], "opening_links": links}
+    kept = [o for o in opening if o]
+    return {"rows": rows, "problems": problems, "opening": kept, "opening_links": links,
+            "opening_dropped": [logical(opening_imp[i]) for i in unprinted_notes(opening_imp, kept)]}
+
+
+def contained_in_longer(phrase: str, trades: list[dict], i: int) -> bool:
+    """Whether the phrase names a longer stored trade of the same op that holds the name of trade `i` ("replaces
+    mass suggestion" names `Mass suggestion`, so it does not also name `Suggestion`)."""
+    op, name = trade_name(trades[i])
+    mine = phrase_tokens(ABILITY_TAG.sub("", name))
+    for j, other in enumerate(trades):
+        if j == i or trade_name(other)[0] != op:
+            continue
+        theirs = phrase_tokens(ABILITY_TAG.sub("", trade_name(other)[1]))
+        if len(theirs) > len(mine) and any(theirs[k:k + len(mine)] == mine for k in range(len(theirs) - len(mine) + 1)) \
+                and covers(phrase, trade_name(other)[1]):
+            return True
+    return False
 
 
 def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tuple[dict[int, list[str]], list[str]]:
@@ -1370,10 +1401,12 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
     for i, t in enumerate(trades):
         op, name = trade_name(t)
         anchors = [f["anchor"] for f in listed
-                   if any(sop == op and covers(ph, name) for sop, ph, _ in sentences[f["anchor"]])]
+                   if any(sop == op and covers(ph, name) and not contained_in_longer(ph, trades, i)
+                          for sop, ph, _ in sentences[f["anchor"]])]
         if anchors:
             by[i] = anchors
-        elif any(sop == op and covers(ph, name) for sop, ph, _ in opening_sentences):
+        elif any(sop == op and covers(ph, name) and not contained_in_longer(ph, trades, i)
+                 for sop, ph, _ in opening_sentences):
             by[i] = []
         else:
             own = [f["anchor"] for f in listed
@@ -1409,13 +1442,39 @@ TRADE_ADDITIONS = {
 }
 
 
-def effective_trades(e: Entry) -> list[dict]:
-    out = []
-    for t in trades_of(e):
+# A stored trade that only repeats another one (Roughrider stores `Armor training 4` twice, once without
+# its feature link): the repeat is left out and the TSV note records it.
+TRADE_DROPS = {
+    "ref/arc-fighter/roughrider": [("replaces", "Armor training 4")],
+}
+
+
+def dropped_trade_indices(e: Entry) -> set[int]:
+    """The indices of the stored trades that repeat another one without a `feature`."""
+    out = set()
+    for i, t in enumerate(trades_of(e)):
+        key = trade_name(t)
+        if key in TRADE_DROPS.get(e.id, []) and "feature" not in t and any(
+                j != i and trade_name(u) == key and "feature" in u for j, u in enumerate(trades_of(e))):
+            out.add(i)
+    return out
+
+
+def effective_trades_origin(e: Entry) -> list[tuple[dict, int | None]]:
+    """The trades that the entry ends up with, each with the index of the stored trade it comes from (None for an addition)."""
+    out: list[tuple[dict, int | None]] = []
+    skip = dropped_trade_indices(e)
+    for i, t in enumerate(trades_of(e)):
+        if i in skip:
+            continue
         op, name = trade_name(t)
         new = TRADE_RENAMES.get((e.id, name))
-        out.append(dict(t, **{op: new}) if new else t)
-    return out + [dict(t) for t in TRADE_ADDITIONS.get(e.id, [])]
+        out.append((dict(t, **{op: new}) if new else t, i))
+    return out + [(dict(t), None) for t in TRADE_ADDITIONS.get(e.id, [])]
+
+
+def effective_trades(e: Entry) -> list[dict]:
+    return [t for t, _ in effective_trades_origin(e)]
 
 
 def opening_texts(rows: list[dict], opening: list[str]) -> list[str]:
@@ -1495,6 +1554,10 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         if dec and dec[0] == "print" and r["status"] == "hold":
             r["status"] = "print"
     res["opening"] = opening
+    for r in dropped:
+        for label, target in r.get("links", []):
+            if not any(f"[{label}]({target})" in o["print"] for o in rows):
+                r["notes"].append(f"link of the dropped section not placed: {label}")
     res["problems"] = [p for p in problems if not p.startswith("head not printed")]
     problems = res["problems"]
     left = [r["head"] for r in rows if "head not printed" in r["notes"] and r["status"] == "hold"]
@@ -1504,20 +1567,28 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     trades = effective_trades(e)
     by, more = assign_by(trades, listed, opening_texts(rows, res["opening"])) if all(r["print"] for r in listed) else ({}, [])
     problems += more
-    for i, t in enumerate(trades):
-        if i >= len(trades_of(e)):
+    for i, (t, origin) in enumerate(effective_trades_origin(e)):
+        if origin is None:
             anchors = by.get(i) or [rows[0]["anchor"]]
             note = f'trade added: {trade_name(t)[0]} "{trade_name(t)[1]}" (feature `{t["feature"]}`), which print states and the entry did not store'
             next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
             continue
-        old = trades_of(e)[i]
+        old = trades_of(e)[origin]
         if old != t:
             anchors = by.get(i) or [rows[0]["anchor"]]
             note = f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
             next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
+    for origin in sorted(dropped_trade_indices(e)):
+        old = trades_of(e)[origin]
+        rows[0]["notes"].append(f'duplicate trade left out: {trade_name(old)[0]} "{trade_name(old)[1]}" was stored twice, once without its feature link')
     for r in rows:
         first = r["print"].split("\n\n", 1)[0] if r["print"] else ""
         r["level"] = lead_level(first)
+        if r["level"] is None and r["listed"]:
+            m = re.match(r"[^.]*?\bgains this ability at (\d+)(st|nd|rd|th) level\b", first)
+            if m and 1 <= int(m.group(1)) <= 20 and m.group(2) == ordinal(int(m.group(1)))[len(m.group(1)):]:
+                r["level"] = int(m.group(1))
+                r["notes"].append(f"level {r['level']}: print says \"gains this ability at {ordinal(r['level'])} level\"")
         if r["level"] is None and r["listed"]:
             mine = [trades[i] for i, a in by.items() if a == [r["anchor"]]]
             levels = {tuple(t.get("levels") or ()) for t in mine}
@@ -1533,9 +1604,12 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 if all(firsts) and all(trade_name(t)[0] == "replaces" for t in mine):
                     r["level"] = 1
                     r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", gained at 1st level in the class table")
-        if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold":
+        if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold" \
+                and (e.id, r["anchor"]) not in decisions:
             r["status"] = "hold"
             r["notes"].append(f"level: corpus {ordinal(r['level_import'])}, print {ordinal(r['level'])}")
+    for text in res.get("opening_dropped", []):
+        rows[0]["notes"].append("opening note that print does not have dropped (ruling 10): \u201c" + " ".join(text.split()[:9]) + " \u2026\u201d")
     return {"rows": rows, "problems": problems, "by": by, "opening": res["opening"], "dropped": dropped,
             "opening_from_print": opening_from_print}
 
@@ -1655,9 +1729,10 @@ def convertible(e: Entry, rows: list[dict], prop: dict | None) -> str | None:
     return None
 
 
-def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades: int, added: list[dict] | None = None) -> str:
+def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades: int, added: list[dict] | None = None,
+               skip: set[int] = frozenset()) -> str:
     lines = front.split("\n")
-    out, in_fields, in_trades, k = [], False, False, 0
+    out, in_fields, in_trades, k, orig = [], False, False, 0, 0
     listed = [f for f in feats if f["listed"]]
     for ln in lines:
         if ln.strip() == "[fields]":
@@ -1690,13 +1765,17 @@ def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades
                 m = re.match(r"^(\s*\{.*?) \},?\s*$", ln)
                 if not m:
                     raise ValueError(f"trade line not understood: {ln}")
+                if orig in skip:
+                    orig += 1
+                    continue
                 if by.get(k):
                     anchors = ", ".join(f'"{a}"' for a in by[k])
                     ln = f"{m.group(1)}, by = [{anchors}] }},"
                 k += 1
+                orig += 1
         out.append(ln)
-    if k != n_trades + len(added or []):
-        raise ValueError(f"{k} trade lines, want {n_trades + len(added or [])}")
+    if k != n_trades - len(skip) + len(added or []):
+        raise ValueError(f"{k} trade lines, want {n_trades - len(skip) + len(added or [])}")
     return "\n".join(out)
 
 
@@ -1709,14 +1788,14 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
         raise ValueError("; ".join(problems))
     probe = {namekey(f["head"]) for f in feats}
     opening, _ = parse_import(e.body, probe)
-    parts = ["\n".join(b) for b in opening]
+    parts = ["\n".join(b) for i, b in enumerate(opening) if i not in unprinted_notes(opening, prop.get("opening", []))]
     if prop.get("opening_from_print"):
         parts = list(prop["opening"])
     for f in feats:
         parts.append(f"## {f['head']} {{#{f['anchor']}}}")
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
-    front = edit_front(e.front, feats, by, len(trades_of(e)), TRADE_ADDITIONS.get(e.id))
+    front = edit_front(e.front, feats, by, len(trades_of(e)), TRADE_ADDITIONS.get(e.id), dropped_trade_indices(e))
     for (eid, old), new in TRADE_RENAMES.items():
         if eid == e.id:
             front = front.replace(f'"{old}"', f'"{new}"', 1)
@@ -1936,6 +2015,40 @@ def self_test() -> int:
     text, _, notes = print_md(pf, [], set(), "ref/arc-rogue/spy")
     eq(text.startswith("At 3rd level, a spy"), True, "misprint fixed")
     eq(any("misprint fixed" in n for n in notes) and any("asterisks" in n for n in notes), True, "fixes are in the notes")
+    # a longer stored trade wins: "replaces mass suggestion" does not name `Suggestion`
+    trades = [{"replaces": "Suggestion"}, {"replaces": "Mass suggestion"}, {"replaces": "Evasion"}, {"replaces": "Improved evasion"}]
+    feats = [{"anchor": "a", "head": "A", "print": "This performance replaces mass suggestion."},
+             {"anchor": "b", "head": "B", "print": "This ability replaces improved evasion and alters nothing."}]
+    by, problems = assign_by(trades, feats, [])
+    eq(by.get(1), ["a"], "the longer trade is named")
+    eq(by.get(3), ["b"], "improved evasion is named")
+    eq(0 in by or 2 in by, False, "the shorter trades are not named by the longer phrase")
+    eq(len(problems), 2, "the shorter trades have no sentence of their own")
+    trades = [{"replaces": "Armor training 3"}, {"replaces": "Armor training 4"}]
+    by, _ = assign_by(trades, [{"anchor": "a", "head": "A", "print": "This ability replaces armor training 3 and 4."}], [])
+    eq(by, {0: ["a"], 1: ["a"]}, "a step list still names both trades")
+    # links: the longer label first, the same case first
+    got, lost = apply_links("a lesser planar ally and a planar ally later", [("planar ally", "ref/spell/planar-ally"), ("lesser planar ally", "ref/spell/lesser-planar-ally")])
+    eq(got, "a [lesser planar ally](ref/spell/lesser-planar-ally) and a [planar ally](ref/spell/planar-ally) later", "longer label first")
+    got, _ = apply_links("an animal companion and the Animal, Earth domains", [("Animal", "ref/domain/animal")])
+    eq(got, "an animal companion and the [Animal](ref/domain/animal), Earth domains", "same case first")
+    # ligature gap in a head, a digit before a line-end hyphen
+    eq(fix_ligatures("Humanoid (half ling)", {"halfling"}), "Humanoid (halfling)", "ligature in a head")
+    eq(fix_hyphens("the 4th- level list", set()), "the 4th-level list", "digit before a hyphen")
+    # stale rows: a changed span, and a name that is gone
+    body = "Intro.\n\n**Alpha (Ex)**\n\n**Passive:** One.\n\n**Beta (Ex)**\n\n**Passive:** Two.\n"
+    ent = Entry(Path("x.md"), "ref/x", "X", "archetype", "", body, {}, None, "", [])
+    feats_ = parse_import(body)[1]
+    rows_ = [{"feature": "Alpha (Ex)", "span_sha256": feats_[0].span_sha()}, {"feature": "Beta (Ex)", "span_sha256": feats_[1].span_sha()}]
+    eq(stale_rows(ent, rows_), [], "no stale row")
+    eq(stale_rows(ent, [dict(rows_[0], span_sha256="0" * 64), rows_[1]]), ["Alpha (Ex)"], "a changed span is stale")
+    eq(stale_rows(ent, rows_ + [{"feature": "Gamma (Ex)", "span_sha256": "1" * 64}]), ["Gamma (Ex)"], "a name that is gone is stale")
+    # words that matter are not ignored; words that do not are
+    eq(len(tokens("any all each both either neither")), 6, "quantifiers are rule words")
+    eq(tokens("the she its but gains however"), [], "articles, pronouns and connectives are ignored")
+    # an opening note that print does not have
+    eq(unprinted_notes([["Intro text."], ["> _**Note:** This is a rogue archetype, and has no relation to the class."]], ["Intro text."]), [1], "an unprinted note")
+    eq(unprinted_notes([["> kept words here and more"]], ["kept words here and more"]), [], "a printed note stays")
     # front matter edit
     front = 'id = "x"\n\n[fields]\nkind = "archetype"\ntrades = [\n  { replaces = "Bravery", feature = "bravery" },\n  { replaces = "Armor training", feature = "armor-training" },\n]'
     got = edit_front(front, [{"anchor": "a", "level": 2, "listed": True}, {"anchor": "b", "listed": True}], {0: ["a"], 1: []}, 2)
