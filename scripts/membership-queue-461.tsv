@@ -799,7 +799,7 @@ blood-of-the-coven	ref/monster/hag-storm-hag	creature	Storm Hag	3	3	uncited	prin
 blood-of-the-coven	ref/monster/hag-winter-hag	creature	Winter Hag	2	2	uncited	printed		none	4	0,9,12,13							cite	12-13	section-printed	single-entry	done			yes	yes		
 blood-of-the-elements	ref/race/oread	race	Oread	5	5	uncited	printed		none	13	0,1,2,3,5							remove	8	race-options-only	race-hub	done		yes	yes			
 blood-of-the-night	ref/rule/optional-subsystems	rule	Optional Subsystems	10	10	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
-blood-of-the-night	ref/race/dhampir	race	Dhampir	4	5	uncited	unaligned		none	0											race-hub	S9		yes	yes			
+blood-of-the-night	ref/race/dhampir	race	Dhampir	4	5	uncited	unaligned		none	0								remove	20	race-options-only	race-hub	done		yes	yes			
 blood-of-the-sea	ref/class/bard	class	Bard	10	13	family-leak	printed		none	4	9,12,13,21	child	ref/rule/class-bard/bard(title)					remove	9	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/druid	class	Druid	3	12	family-leak	printed		none	6	3,5,11,21,24	child	ref/rule/class-druid/druid(title)					remove	5	class-options-only	class-hub	done			yes			
 blood-of-the-sea	ref/class/monk	class	Monk	7	9	family-leak	printed		none	4	9,10,11,13	child	ref/rule/class-monk/monk(title)					remove	9	class-options-only	class-hub	done			yes			
