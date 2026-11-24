@@ -1214,7 +1214,7 @@ heroes-from-the-fringe	ref/racial-trait/halfling/languages	racial_trait	Language
 heroes-from-the-fringe	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	4	17	family-leak	absent		none	0		parent	ref/race/halfling(title)	yes				remove	28	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/halfling/small	racial_trait	Small	4	17	family-leak	printed		none	7	4,5,8,10,15	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
 heroes-from-the-fringe	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	4	13	family-leak	printed		none	6	4,10,11,16,17	parent	ref/race/halfling(title)	yes				remove	28-29	race-section-read-no-trait	standard-racial-trait	done			yes			
-heroes-from-the-fringe	ref/race/merfolk	race	Merfolk	5	5	uncited	printed		none	3	3,30,31										race-hub	S9		yes	yes			
+heroes-from-the-fringe	ref/race/merfolk	race	Merfolk	5	5	uncited	printed		none	3	3,30,31							remove	30	race-options-only	race-hub	done		yes	yes			
 heroes-from-the-fringe	ref/race/sahuagin	race	Sahuagin	2	2	uncited	printed		none	3	3,30,31										race-hub	S9		yes	yes			
 heroes-from-the-fringe	ref/arc-bloodrager/id-rager	archetype	Id Rager	3	3	weak	weak		none	1	19							expands	19	expansion-credited-via-whimsey	single-entry	done			yes			
 heroes-from-the-fringe	ref/arc-spiritualist/fractured-mind	archetype	Fractured Mind	4	4	weak	weak		none	1	19							expands	19	expansion-credited-via-whimsey	single-entry	done			yes			
