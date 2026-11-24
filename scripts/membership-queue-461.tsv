@@ -774,7 +774,7 @@ blood-of-the-beast	ref/class/unchained-rogue	class	Unchained Rogue	4	4	uncited	a
 blood-of-the-beast	ref/class/unchained-summoner	class	Unchained Summoner	4	4	uncited	printed		none	2	3,31							remove	31	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/vigilante	class	Vigilante	5	5	uncited	printed		none	6	3,7,12,13,15							remove	7	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/witch	class	Witch	4	11	uncited	printed		none	10	3,7,8,14,19							remove	8	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/race/catfolk	race	Catfolk	4	5	uncited	printed		none	9	0,1,2,4,5										race-hub	S9		yes	yes			
+blood-of-the-beast	ref/race/catfolk	race	Catfolk	4	5	uncited	printed		none	9	0,1,2,4,5							remove	4	race-options-only	race-hub	done		yes	yes			
 blood-of-the-beast	ref/race/grippli	race	Grippli	4	5	uncited	printed		none	8	0,1,2,8,10										race-hub	S9		yes	yes			
 blood-of-the-beast	ref/race/kitsune	race	Kitsune	6	7	uncited	printed		none	8	1,2,12,13,14										race-hub	S9		yes	yes			
 blood-of-the-beast	ref/race/nagaji	race	Nagaji	6	6	uncited	printed		none	6	1,3,16,17,18										race-hub	S9		yes	yes			
