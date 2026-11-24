@@ -210,7 +210,7 @@ advanced-players-guide	ref/spell/share-language-communal	spell	Communal Share La
 advanced-players-guide	ref/spell/walk-the-plank	spell	Walk the Plank	1	2	family-leak	absent		none	0		variant	ref/spell/create-pit(title)		primary	villain-codex	printed	remove	188	whole-book-absent-new-primary-printed	single-entry	done			yes			
 advanced-players-guide	ref/ability/domains	rule	Domains	2	2	uncited	printed	86	body	0											hub-cited	S10		yes	yes	yes	yes	
 advanced-players-guide	ref/class/arcanist	class	Arcanist	2	8	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
-advanced-players-guide	ref/class/bloodrager	class	Bloodrager	2	9	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
+advanced-players-guide	ref/class/bloodrager	class	Bloodrager	2	9	uncited	absent		none	0								cite	72	section-printed	class-hub	done			yes	yes		
 advanced-players-guide	ref/class/brawler	class	Brawler	2	5	uncited	printed		none	4	74,78,104,105										class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/gunslinger	class	Gunslinger	3	7	uncited	absent		none	0											class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/hunter	class	Hunter	2	8	uncited	printed		none	24	12,13,18,22,26										class-hub	S6		yes	yes	yes		
@@ -693,7 +693,7 @@ blood-of-shadows	ref/rule/class-ranger/ranger	rule	Ranger	7	12	family-leak	print
 blood-of-shadows	ref/rule/class-rogue/rogue	rule	Rogue	12	14	family-leak	printed		none	7	3,7,8,9,11	parent	ref/class/rogue(title)	yes							class-hub	S8		yes	yes			
 blood-of-shadows	ref/rule/class-wizard/wizard	rule	Wizard	4	11	family-leak	printed		none	9	11,12,15,16,28	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 blood-of-shadows	ref/class/alchemist	class	Alchemist	6	12	uncited	printed		none	10	3,7,11,15,16							remove	7	class-options-only	class-hub	done			yes			
-blood-of-shadows	ref/class/bloodrager	class	Bloodrager	5	9	uncited	printed		none	5	3,15,16,30,31										class-hub	S6		yes	yes			
+blood-of-shadows	ref/class/bloodrager	class	Bloodrager	5	9	uncited	printed		none	5	3,15,16,30,31							remove	15	class-options-only	class-hub	done			yes			
 blood-of-shadows	ref/class/inquisitor	class	Inquisitor	6	8	uncited	printed		none	4	7,15,16,29										class-hub	S6		yes	yes			
 blood-of-shadows	ref/class/magus	class	Magus	7	10	uncited	printed		none	5	7,16,28,29,30										class-hub	S6		yes	yes			
 blood-of-shadows	ref/class/medium	class	Medium	7	7	uncited	printed		none	7	11,15,16,22,28										class-hub	S6		yes	yes			
@@ -745,7 +745,7 @@ blood-of-the-beast	ref/ability/advanced-weapon-training	rule	Advanced Weapon Tra
 blood-of-the-beast	ref/class/alchemist	class	Alchemist	4	12	uncited	printed		none	7	4,7,10,11,19							remove	4	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/antipaladin	class	Antipaladin	5	5	uncited	printed		none	2	7,14							remove	7	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/arcanist	class	Arcanist	7	8	uncited	printed		none	3	12,20,28							remove	12	class-options-only	class-hub	done			yes			
-blood-of-the-beast	ref/class/bloodrager	class	Bloodrager	4	9	uncited	printed		none	6	3,4,7,11,16										class-hub	S6		yes	yes			
+blood-of-the-beast	ref/class/bloodrager	class	Bloodrager	4	9	uncited	printed		none	6	3,4,7,11,16							remove	4	class-options-only	class-hub	done			yes			
 blood-of-the-beast	ref/class/brawler	class	Brawler	4	5	uncited	printed		none	3	12,24,28										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/cavalier	class	Cavalier	8	8	uncited	printed		none	5	3,12,16,18,28										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/gunslinger	class	Gunslinger	8	8	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
@@ -882,7 +882,7 @@ chronicle-of-legends	ref/class/warpriest	class	Warpriest	5	6	uncited	printed		no
 chronicle-of-legends	ref/class/witch	class	Witch	6	11	uncited	printed		none	4	3,14,30,31										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/class/antipaladin	class	Antipaladin	2	5	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/arcanist	class	Arcanist	3	8	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
-chronicle-of-legends	ref/class/bloodrager	class	Bloodrager	3	9	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
+chronicle-of-legends	ref/class/bloodrager	class	Bloodrager	3	9	weak	weak		none	1	28							cite	28	section-printed	class-hub	done			yes	yes		
 chronicle-of-legends	ref/class/brawler	class	Brawler	3	5	weak	weak		none	1	28										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/investigator	class	Investigator	3	7	weak	weak		none	1	29										class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/oracle	class	Oracle	5	13	weak	weak		none	1	29										class-hub	S7		yes	yes	yes		
@@ -1697,7 +1697,7 @@ legacy-of-dragons	ref/racial-trait/half-orc/languages	racial_trait	Languages	9	1
 legacy-of-dragons	ref/racial-trait/half-orc/medium	racial_trait	Medium	9	18	inherited	printed		none	7	9,23,24,28,29			yes				remove	11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal Speed	9	18	inherited	absent		none	0				yes				remove	11	race-section-read-no-trait	standard-racial-trait	done			yes			
 legacy-of-dragons	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	9	18	inherited	absent		none	0				yes				remove	11	race-section-read-no-trait	standard-racial-trait	done			yes			
-legacy-of-dragons	ref/class/bloodrager	class	Bloodrager	9	9	uncited	printed		none	10	0,3,4,5,16										class-hub	S6		yes	yes			
+legacy-of-dragons	ref/class/bloodrager	class	Bloodrager	9	9	uncited	printed		none	10	0,3,4,5,16							remove	4	class-options-only	class-hub	done			yes			
 legacy-of-dragons	ref/class/mesmerist	class	Mesmerist	9	9	uncited	printed		none	6	3,13,18,28,29										class-hub	S6		yes	yes			
 legacy-of-dragons	ref/class/oracle	class	Oracle	9	13	uncited	printed		none	7	3,8,9,18,28										class-hub	S7		yes	yes			
 legacy-of-dragons	ref/race/wyvaran	race	Wyvaran	3	3	uncited	printed		none	4	1,3,18,19										race-hub	S9		yes	yes			
@@ -1990,7 +1990,7 @@ occult-realms	ref/ability/spirits	rule	Medium Spirits	2	2	uncited	body		none	1	1
 paizo-blog-golarion-day-subdomains	ref/domain/death	class_option	Death	2	7	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 paizo-blog-golarion-day-subdomains	ref/domain/repose	class_option	Repose	4	5	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 pathfinder-101-the-kintargo-contract	ref/rule/class-druid/druid	rule	Druid	12	12	inherited	no-pdf		none	0				yes							class-hub	S8		yes	no			
-pathfinder-101-the-kintargo-contract	ref/class/bloodrager	class	Bloodrager	8	9	uncited	no-pdf		none	0											class-hub	S6		yes	no			
+pathfinder-101-the-kintargo-contract	ref/class/bloodrager	class	Bloodrager	8	9	uncited	no-pdf		none	0								remove	none	no-pdf-structural-rule	class-hub	done			no			
 pathfinder-101-the-kintargo-contract	ref/class/brawler	class	Brawler	5	5	uncited	no-pdf		none	0											class-hub	S6		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/druid	class	Druid	12	12	uncited	no-pdf		none	0											class-hub	S6		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/hunter	class	Hunter	8	8	uncited	no-pdf		none	0											class-hub	S6		yes	no			
@@ -2146,7 +2146,7 @@ plane-hoppers-handbook	ref/rule/class-wizard/wizard	rule	Wizard	11	11	family-lea
 plane-hoppers-handbook	ref/class/alchemist	class	Alchemist	3	12	uncited	printed		none	3	10,13,15							remove	15	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/antipaladin	class	Antipaladin	4	5	uncited	printed		none	2	13,17							remove	17	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/arcanist	class	Arcanist	5	8	uncited	printed		none	5	3,7,8,17,19							remove	7	class-options-only	class-hub	done			yes			
-plane-hoppers-handbook	ref/class/bloodrager	class	Bloodrager	7	9	uncited	printed		none	2	13,23										class-hub	S6		yes	yes			
+plane-hoppers-handbook	ref/class/bloodrager	class	Bloodrager	7	9	uncited	printed		none	2	13,23							remove	23	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/hunter	class	Hunter	6	8	uncited	printed		none	3	15,16,19										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/inquisitor	class	Inquisitor	4	8	uncited	printed		none	4	10,12,13,15										class-hub	S6		yes	yes			
 plane-hoppers-handbook	ref/class/investigator	class	Investigator	4	7	uncited	printed		none	4	15,17,19,23										class-hub	S6		yes	yes			
@@ -2520,7 +2520,7 @@ ultimate-wilderness	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Fero
 ultimate-wilderness	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	17	18	inherited	absent		none	0				yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/ability/familiars	rule	Familiars	4	5	uncited	printed		none	36	3,4,5,92,113										link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-wilderness	ref/class/alchemist	class	Alchemist	10	12	uncited	printed		none	24	3,8,14,21,22							remove	34	class-options-only	class-hub	done			yes			
-ultimate-wilderness	ref/class/bloodrager	class	Bloodrager	6	9	uncited	printed		none	15	10,14,16,17,140										class-hub	S6		yes	yes			
+ultimate-wilderness	ref/class/bloodrager	class	Bloodrager	6	9	uncited	printed		none	15	10,14,16,17,140							remove	10	class-options-only	class-hub	done			yes			
 ultimate-wilderness	ref/class/cavalier	class	Cavalier	5	8	uncited	printed		none	10	3,5,10,44,45										class-hub	S6		yes	yes			
 ultimate-wilderness	ref/class/hunter	class	Hunter	7	8	uncited	printed		none	40	3,5,10,16,19										class-hub	S6		yes	yes			
 ultimate-wilderness	ref/class/kineticist	class	Kineticist	9	9	uncited	printed		none	15	3,5,21,23,24										class-hub	S6		yes	yes			
