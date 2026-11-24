@@ -485,6 +485,8 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(I_OPEN + r"\s+", " " + I_OPEN, s)
     s = re.sub(r"\s+" + I_CLOSE, I_CLOSE + " ", s)
     s = re.sub(I_CLOSE + I_OPEN, "", s)
+    s = re.sub(r"(\\\[|\()\s+", r"\1", s)        # no blank after an opening bracket or parenthesis
+    s = re.sub(r"\s+(\)|\\\])", r"\1", s)        # none before a closing one
     s = re.sub(r"\s+", " ", s).strip()
     return s
 

@@ -53,9 +53,9 @@ At 2nd level, a serpent shaman may adopt an aspect of the snake while retaining 
 This ability functions as the bear shaman ability, but the druid may select from the following
 bonuses: movement (climb speed 20 feet, swim speed 20 feet), scales (+2 natural armor bonus to AC),
 senses ([low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent)), or
-[natural weapons](ref/umr/natural-attacks) (bite \[1d4\], poison \[ _frequency_ 1 round (6),
-_effect_ 1 Con damage, _Cure_ 1 save, Con-based DC\] for a Medium druid, +2 CMB to grapple). While
-using totem transformation, the serpent shaman may speak normally and can cast _speak with animals_
+[natural weapons](ref/umr/natural-attacks) (bite \[1d4\], poison \[_frequency_ 1 round (6), _effect_
+1 Con damage, _Cure_ 1 save, Con-based DC\] for a Medium druid, +2 CMB to grapple). While using
+totem transformation, the serpent shaman may speak normally and can cast _speak with animals_
 (reptiles only) at will.
 
 ## Totemic Summons (Su) {#totemic-summons}
@@ -74,6 +74,6 @@ on the form of a snake, she instead uses her druid level + 2.
 
 At 9th level and every 4 levels thereafter, a serpent shaman gains one of the following bonus feats:
 [Combat Expertise](ref/feat/combat-expertise), [Improved Feint](ref/feat/improved-feint),
-[Skill Focus](ref/feat/skill-focus) (Bluff ), [Stealthy](ref/feat/stealthy), or
+[Skill Focus](ref/feat/skill-focus) (Bluff), [Stealthy](ref/feat/stealthy), or
 [Strike Back](ref/feat/strike-back). She must meet the prerequisites for these bonus feats. This
 ability replaces venom immunity.
