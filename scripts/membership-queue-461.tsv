@@ -1700,7 +1700,7 @@ legacy-of-dragons	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	9	1
 legacy-of-dragons	ref/class/bloodrager	class	Bloodrager	9	9	uncited	printed		none	10	0,3,4,5,16							remove	4	class-options-only	class-hub	done			yes			
 legacy-of-dragons	ref/class/mesmerist	class	Mesmerist	9	9	uncited	printed		none	6	3,13,18,28,29							remove	13	class-options-only	class-hub	done			yes			
 legacy-of-dragons	ref/class/oracle	class	Oracle	9	13	uncited	printed		none	7	3,8,9,18,28							remove	8	class-options-only	class-hub	done			yes			
-legacy-of-dragons	ref/race/wyvaran	race	Wyvaran	3	3	uncited	printed		none	4	1,3,18,19										race-hub	S9		yes	yes			
+legacy-of-dragons	ref/race/wyvaran	race	Wyvaran	3	3	uncited	printed		none	4	1,3,18,19							remove	18	race-options-only	race-hub	done		yes	yes			
 legacy-of-dragons	ref/faith/ardad-lili	rule	Ardad Lili	3	3	review	absent	31	row	0											faith-excerpt	S11	faith-link		yes	yes	no	
 legacy-of-dragons	ref/faith/draghignazzo	rule	Draghignazzo	3	3	review	absent	31	row	0											faith-excerpt	S11	faith-link		yes	yes	no	
 legacy-of-dragons	ref/class/rogue	class	Rogue	14	14	weak	weak		none	1	18							remove	18	class-options-only	class-hub	done			yes			
