@@ -2,7 +2,7 @@
 id = "ref/rule/basics"
 kind = "rule"
 title = "Basics"
-source_ids = ["core-rulebook", "advanced-class-guide"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basics", path = "json/rules_basics01.json" },
 ]

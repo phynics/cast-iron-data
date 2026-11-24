@@ -2,18 +2,12 @@
 id = "ref/family/elemental"
 kind = "rule"
 title = "Elemental"
-source_ids = ["bestiary", "bestiary-2", "bestiary-5"]
+source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental", path = "json/monster_families2.json" },
 ]
 [[sources]]
 publication = "bestiary"
-[[sources]]
-publication = "bestiary-2"
-page = "114-121"
-[[sources]]
-publication = "bestiary-5"
-page = "106-107"
 
 [fields]
 kind = "none"
@@ -33,7 +27,3 @@ following features.
   well as all lighter types. Elementals not indicated as wearing armor are not proficient with
   armor. Elementals are proficient with shields if they are proficient with any form of armor.
 - Elementals do not breathe, eat, or sleep.
-
-Other elementals also exist: [aether](ref/monster/aether-elemental),
-[ice](ref/monster/ice-elemental), [lightning](ref/monster/lightning-elemental),
-[magma](ref/monster/magma-elemental), and [mud](ref/monster/mud-elemental).

@@ -9,6 +9,10 @@ title = "Getting Started"
 entry = "ref/carried/core-rulebook/rules/getting-started"
 
 [[books.chapters.children]]
+title = "Basics"
+entry = "ref/rule/basics"
+
+[[books.chapters.children]]
 title = "Playing the Game"
 entry = "ref/carried/core-rulebook/rules/getting-started/playing-the-game"
 

@@ -3443,6 +3443,10 @@ title = "Variant Rules"
 entry = "ref/carried/ultimate-combat/rules/variant-rules/variant-rules"
 
 [[books.chapters.children]]
+title = "Optional Combat Changes"
+entry = "ref/rule/optional-combat-changes"
+
+[[books.chapters.children]]
 title = "Armor as Damage Reduction"
 entry = "ref/rule/armor-as-damage-reduction"
 

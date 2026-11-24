@@ -1,5 +1,5 @@
 book	entry	kind	title	member	n_books	tag	status	cited	cite	hits	found	via	family	parent_has_book	gate	proposed_primary	proposed_status	verdict	print_page	evidence	group	slice	ruling	in_warning	pdf	body_line	exact	paren
-advanced-class-guide	ref/rule/basics	rule	Basics	4	5	hub-keep	printed		none	2	241,242										link-only-hub	S10	hub-design-a	yes	yes			
+advanced-class-guide	ref/rule/basics	rule	Basics	4	5	hub-keep	printed		none	2	241,242							remove	none	hub-link ref/rule/classes	link-only-hub	done			yes			
 advanced-class-guide	ref/rule/gamemastery	rule	Gamemastery	6	8	hub-keep	weak		none	1	193							remove	none	hub-no-evidence weather	link-only-hub	done			yes			
 advanced-class-guide	ref/race/dwarf	race	Dwarf	14	17	family-leak	printed		none	3	69,161,251	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hardy(body)					expands	69	expansion-credited-no-via	race-hub	done			yes			
 advanced-class-guide	ref/race/elf	race	Elf	14	17	family-leak	printed		none	4	69,70,172,251	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/elven-magic(body),ref/racial-trait/elf/languages(title)					expands	69	expansion-credited-no-via	race-hub	done			yes			
@@ -237,8 +237,8 @@ advanced-players-guide	ref/class/vigilante	class	Vigilante	2	5	uncited	absent		n
 advanced-players-guide	ref/class/warpriest	class	Warpriest	2	6	uncited	absent		none	0								remove	72	generic-archetype-intro	class-hub	done			yes	yes		
 advanced-players-guide	ref/rule/favored-class	rule	Favored Class	2	2	uncited	printed	8	body	0								cite	8	section-printed	link-only-hub	done			yes		yes	
 advanced-players-guide	ref/rule/traits-and-other-details	rule	Filling Out the Details	2	3	uncited	absent		none	0								remove	326	hub-link ref/rule/traits	link-only-hub	done			yes			
-advanced-players-guide	ref/sidekick/animal-companion	rule	Animal Companion	2	2	uncited	printed		none	26	15,17,19,20,23							cite	72	section-printed	link-only-hub	done			yes			
-advanced-players-guide	ref/sidekick/familiar	rule	Familiar	2	2	uncited	printed		none	36	3,10,12,14,17							cite	72	section-printed	link-only-hub	done			yes			
+advanced-players-guide	ref/sidekick/animal-companion	rule	Animal Companion	2	2	uncited	printed		none	26	15,17,19,20,23							remove	72	generic-archetype-intro	link-only-hub	done			yes			
+advanced-players-guide	ref/sidekick/familiar	rule	Familiar	2	2	uncited	printed		none	36	3,10,12,14,17							remove	72	generic-archetype-intro	link-only-hub	done			yes			
 advanced-players-guide	ref/eq-misc/sextant	item	Sextant	3	4	review	body	185	row	0											single-entry	S11			yes		no	
 advanced-players-guide	ref/trait/canter	trait	Canter	2	3	review	printed	330	row	0								keep	330	title-on-cited-page	single-entry	S0			yes		yes	
 advanced-players-guide	ref/trait/child-of-nature	trait	Child of Nature	4	4	review	printed	333	row	0								keep	333	title-on-cited-page	single-entry	S0			yes		yes	
@@ -590,7 +590,7 @@ bestiary	ref/monster/yak	creature	Yak (Herd Animal)	1	3	review	absent	174	row	0	
 bestiary	ref/monster/mummy	creature	Mummy	1	2	cite-off	off-page	110	row	8	4,210,300,317,318										single-entry	S11			yes		no	
 bestiary-2	ref/affliction/xacarba/fiendish-bile	affliction	Fiendish Bile	1	2	family-leak	printed	288	row	0		parent	ref/monster/xacarba(title)	yes				keep	288	title-on-cited-page	single-entry	S0			yes		yes	
 bestiary-2	ref/affliction/xacarba/vile-disjunction	affliction	Vile Disjunction	1	2	family-leak	printed	288	row	0		parent	ref/monster/xacarba(title)	yes				keep	288	title-on-cited-page	single-entry	S0			yes		yes	
-bestiary-2	ref/family/elemental	rule	Elemental	2	3	uncited	printed		none	40	4,17,18,27,37							cite	114-121	section-printed	link-only-hub	done			yes			
+bestiary-2	ref/family/elemental	rule	Elemental	2	3	uncited	printed		none	40	4,17,18,27,37							remove	114	listed-link ref/monster/ice-elemental	link-only-hub	done			yes			
 bestiary-4	ref/rule/rare-races	rule	Rare Races	11	20	hub-keep	absent	122	body	0								cite	122, 174, 264, 280-281	section-printed	link-only-hub	done			yes		no	
 bestiary-4	ref/affliction/gholdako/seaside-rot	affliction	Seaside rot	1	2	family-leak	printed	125	row	0		parent	ref/monster/gholdako(title)	yes				keep	125	title-on-cited-page	single-entry	S0			yes		yes	
 bestiary-4	ref/affliction/ningyo/ningyo-flesh	affliction	Ningyo Flesh	2	2	family-leak	printed	206	row	0		parent	ref/monster/ningyo(title)	yes				keep	206	title-on-cited-page	single-entry	S0			yes		yes	
@@ -600,7 +600,7 @@ bestiary-5	ref/misc/damage-die-adjustments	rule	Damage Die Adjustments	2	3	hub-k
 bestiary-5	ref/rule/rare-races	rule	Rare Races	5	20	hub-keep	absent	37	row	0											hub-cited	S11			yes	yes	no	
 bestiary-5	ref/affliction/sea-urchin-giant-hunter-urchin/sea-urchin-venom	affliction	Sea Urchin Venom	2	2	family-leak	absent		none	0		parent	ref/monster/sea-urchin-giant-hunter-urchin(title)	yes				remove	223	wrong-credit-invalidated	single-entry	done			yes			
 bestiary-5	ref/affliction/sea-urchin-giant-spear-urchin/sea-urchin-venom	affliction	Sea Urchin Venom	2	2	family-leak	absent		none	0		parent	ref/monster/sea-urchin-giant-spear-urchin(title)	yes				remove	223	wrong-credit-invalidated	single-entry	done			yes			
-bestiary-5	ref/family/elemental	rule	Elemental	3	3	uncited	printed		none	26	3,11,14,20,21							cite	106-107	section-printed	link-only-hub	done			yes			
+bestiary-5	ref/family/elemental	rule	Elemental	3	3	uncited	printed		none	26	3,11,14,20,21							remove	106	listed-link ref/monster/aether-elemental	link-only-hub	done			yes			
 bestiary-5	ref/family/robot	rule	Robot	2	2	uncited	printed		none	14	3,4,205,206,207							cite	205	section-printed	link-only-hub	done			yes			
 black-markets	ref/rule/specific-rulesets	rule	Specific Rulesets	2	11	hub-keep	absent		none	0								remove	4	hub-link ref/rule/black-markets	link-only-hub	done			yes			
 black-markets	ref/spell/share-language-communal	spell	Communal Share Language	2	3	family-leak	absent	24	row	0		variant	ref/spell/share-language(title)					remove	24	wrong-credit-invalidated	single-entry	done			yes			
@@ -1062,7 +1062,7 @@ divine-anthology	ref/faith/desna	rule	Desna	3	5	uncited	printed		none	3	3,17,28	
 divine-anthology	ref/faith/erastil	rule	Erastil	3	4	uncited	printed		none	3	3,20,29							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 divine-anthology	ref/faith/irori	rule	Irori	3	4	uncited	printed		none	6	3,4,8,25,26							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 divine-anthology	ref/faith/lamashtu	rule	Lamashtu	4	6	uncited	printed		none	3	3,27,29							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
-divine-anthology	ref/faith/norgorber	rule	Norgorber	3	4	uncited	printed		none	6	3,4,6,7,22										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/norgorber	rule	Norgorber	3	4	uncited	printed		none	6	3,4,6,7,22							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 divine-anthology	ref/faith/rovagug	rule	Rovagug	3	4	uncited	printed		none	3	3,24,30							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 divine-anthology	ref/faith/sarenrae	rule	Sarenrae	3	4	uncited	printed		none	6	3,10,20,25,26							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 divine-anthology	ref/faith/torag	rule	Torag	3	4	uncited	printed		none	9	0,3,16,17,18							remove	28-31	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
@@ -2116,7 +2116,7 @@ pathfinder-society-primer	ref/magic-wondrous/ioun-stone	item	Ioun Stones	2	3	unc
 pathfinder-society-primer	ref/magic-wondrous/polish-of-inconspicuous-armor	item	Polish of Inconspicuous Armor	2	2	review	absent	25	row	0											single-entry	S11			yes		no	
 pathfinder-unchained	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	1	8	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 pathfinder-unchained	ref/rule/optional-alignment-changes	rule	Optional Alignment Changes	1	2	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
-pathfinder-unchained	ref/rule/optional-combat-changes	rule	Optional Combat Changes	2	2	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+pathfinder-unchained	ref/rule/optional-combat-changes	rule	Optional Combat Changes	2	2	hub-keep	absent		none	0								remove	110	hub-link ref/rule/removing-iterative-attacks	link-only-hub	done			yes			
 pathfinder-unchained	ref/rule/optional-magic-changes	rule	Optional Magic Changes	1	4	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 pathfinder-unchained	ref/rule/optional-subsystems	rule	Optional Subsystems	9	10	hub-keep	absent		none	0								remove	146	hub-link ref/rule/spell-alterations	link-only-hub	done			yes			
 people-of-the-wastes	ref/hex/cackle	class_option	Cackle	4	4	weak	weak		none	1	21							remove	21	mention-only	single-entry	done			yes			
@@ -2561,7 +2561,7 @@ wardens-of-the-reborn-forge	ref/affliction/capramace/waste-trembles	affliction	W
 weapon-masters-handbook	ref/rule/gamemastery	rule	Gamemastery	5	8	hub-keep	absent		none	0								remove	28	hub-link ref/rule/creating-new-weapons	link-only-hub	done			yes			
 weapon-masters-handbook	ref/faith/calistria	rule	Calistria	3	5	uncited	printed		none	2	10,11							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 weapon-masters-handbook	ref/faith/cayden-cailean	rule	Cayden Cailean	3	4	uncited	printed		none	2	11,31							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
-weapon-masters-handbook	ref/faith/iomedae	rule	Iomedae	3	4	uncited	printed		none	4	4,6,11,31										faith-excerpt	S10	faith-link	yes	yes	yes		
+weapon-masters-handbook	ref/faith/iomedae	rule	Iomedae	3	4	uncited	printed		none	4	4,6,11,31							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 weapon-masters-handbook	ref/faith/abadar	rule	Abadar	3	5	weak	weak		none	1	10							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 weapon-masters-handbook	ref/faith/gorum	rule	Gorum	3	4	weak	weak		none	1	11							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			
 weapon-masters-handbook	ref/faith/zon-kuthon	rule	Zon-Kuthon	3	4	weak	weak		none	1	11							remove	10-11	technique-linked ref/feat/divine-fighting-technique	link-only-hub	done			yes			

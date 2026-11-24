@@ -188,6 +188,24 @@ doesn't meet the prerequisites.\
 continuous damage from an injury for the purpose of determining whether a target must attempt a
 [concentration](ref/rule/concentration) check to cast spells.
 
+### Iomedae's Inspiring Sword {#sec-iomedae-s-inspiring-sword}
+
+[Iomedae](ref/faith/iomedae) demonstrates how to turn a [longsword](ref/eq-weapon/longsword) into a
+shining beacon of hope.\
+**Optional Replacement:** A [paladin](ref/class/paladin) who worships Iomedae can replace a mercy
+with this initial benefit, even if she doesn't meets its prerequisites.\
+**Initial Benefit:** While wielding a longsword, you can perform an impressive display of prowess as
+a full-round action. All allies within 30 feet who can see your display gain a +2 sacred bonus on
+attack rolls, saving throws, and skill checks for 1 round + 1 round per 5 points of base attack
+bonus you have.\
+**Advanced Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),
+[Weapon Focus](ref/feat/weapon-focus) (longsword), base attack bonus +10.\
+**Optional Replacement:** A paladin of at least 9th level who worships Iomedae can replace a mercy
+with the following advanced benefit, even if she doesn't meet the benefit's prerequisites.\
+**Advanced Benefit:** As a standard action or at the end of a charge, you can make an attack against
+a foe with a longsword. If you succeed, you grant all allies who can see your attack a +2 sacred
+bonus on attack rolls, saving throws, and skill checks for 1 minute.
+
 ### Irori's Perfected Fist {#sec-irori-s-perfected-fist}
 
 Practically synonymous with [Irori](ref/faith/irori) and his faith, The Woven Fist is among the best
@@ -238,6 +256,31 @@ kukri, that creature must succeed at a Fortitude save (DC = 10 + your base attac
 [staggered](ref/misc/staggered) for 1 round. Multiple attacks do not cause this condition to stack,
 and a creature that successfully saves against this staggering effect is immune to this effect for 1
 round.
+
+### Norgorber's Silent Shiv {#sec-norgorber-s-silent-shiv}
+
+Entombed within a volume known as The Reaper's Hand, the divine fighting techniques of
+[Norgorber](ref/faith/norgorber) are among the most elusive in the Inner Sea region, but are
+theorized to cover the techniques that acolytes of Father Skinsaw use to move and strike unseen.
+Copies of this manual are rare, and those who spill its secrets to anyone unworthy often meet a
+swift and bloody end at the hands of the faith's inquisitors.\
+**Optional Prerequisite:** A neutral evil [rogue](ref/class/rogue) of at least 2nd level who
+worships Norgorber can replace a rogue talent with the following initial benefit.\
+**Initial Benefit:** Whenever you attack an opponent that is completely unaware of your presence
+(such as when you are using the Stealth skill or invisible), your attack deals damage as if you were
+[one size category larger](ref/misc/damage-die-adjustments). This benefit applies only to the first
+attack that you make against the target, and only with attacks made with light or one-handed weapons
+intended for creatures of your size (including thrown attacks).\
+**Advanced Prerequisites:** [Divine Fighting Technique](ref/feat/divine-fighting-technique), Stealth
+10 ranks.\
+**Optional Advanced Prerequisite:** A neutral evil rogue of at least 10th level who worships
+Norgorber can replace an advanced rogue talent with the following advanced benefit without meeting
+its prerequisites.\
+**Advanced Benefit:** At the start of each round, choose one opponent that you can see and attempt a
+Stealth check as a swift action. If the result of your check exceeds the target's CMD, treat the
+target as if it were completely unaware of your presence for the purpose of the initial benefit of
+this divine fighting technique. If you beat the target's CMD by 5 or more, you also treat it as
+being completely unaware of your presence for the purposes of all class features and feats you have.
 
 ### Rovagug's Thunder {#sec-rovagug-s-thunder}
 

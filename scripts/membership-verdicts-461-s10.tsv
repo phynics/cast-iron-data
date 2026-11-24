@@ -17,8 +17,6 @@ ref/ability/arcane-schools	ultimate-magic	cite	88	section-printed
 ref/rule/races	advanced-players-guide	cite	8	section-printed	
 ref/rule/favored-class	advanced-players-guide	cite	8	section-printed	
 ref/ability/domains	advanced-players-guide	cite	86	section-printed	
-ref/sidekick/animal-companion	advanced-players-guide	cite	72	section-printed	
-ref/sidekick/familiar	advanced-players-guide	cite	72	section-printed	
 ref/rule/types-of-traits	adventurers-armory	cite	30	section-printed	
 ref/rule/types-of-traits	wilderness-origins	cite	23	section-printed	
 ref/rule/types-of-traits	occult-mysteries	cite	36-37	section-printed	
@@ -28,8 +26,6 @@ ref/rule/rare-races	bestiary	cite	115	section-printed
 ref/rule/rare-races	bestiary-4	cite	122, 174, 264, 280-281	section-printed	
 ref/rule/slimes-molds-and-fungi	bestiary	cite	273	section-printed	
 ref/umr/trample	bestiary	cite	174, 305	section-printed	
-ref/family/elemental	bestiary-2	cite	114-121	section-printed	
-ref/family/elemental	bestiary-5	cite	106-107	section-printed	
 ref/family/robot	bestiary-5	cite	205	section-printed	
 ref/template/hellbound-creature	bestiary-4	cite	56	section-printed	
 ref/misc/damage-die-adjustments	core-rulebook	cite	144-145	section-printed	
@@ -61,3 +57,9 @@ ref/faith/cayden-cailean	weapon-masters-handbook	remove	10-11	technique-linked r
 ref/faith/abadar	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
 ref/faith/gorum	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
 ref/faith/zon-kuthon	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
+ref/faith/norgorber	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the section was added to the feat entry from print (Divine Anthology p. 30), then linked
+ref/faith/iomedae	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the section was added to the feat entry from print (Weapon Master's Handbook p. 11), then linked
+ref/sidekick/animal-companion	advanced-players-guide	remove	72	generic-archetype-intro	the Archetypes introduction of p. 72 is generic; the copied text and its source line left the body (owner ruling of 2026-11-24)
+ref/sidekick/familiar	advanced-players-guide	remove	72	generic-archetype-intro	the Archetypes introduction of p. 72 is generic; the copied text and its source line left the body (owner ruling of 2026-11-24)
+ref/family/elemental	bestiary-2	remove	114	listed-link ref/monster/ice-elemental	the closing sentence and its source line left the body; the elementals it names carry the book
+ref/family/elemental	bestiary-5	remove	106	listed-link ref/monster/aether-elemental	the closing sentence and its source line left the body; the elemental it names carries the book
