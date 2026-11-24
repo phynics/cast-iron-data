@@ -16,9 +16,14 @@ page = "109"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "magical-expertise", level = 1 },
+  { anchor = "signature-wand", level = 4 },
+  { anchor = "wand-adept", level = 6 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Rogue talent gained at 4th level", feature = "rogue-talents", levels = [4] },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["magical-expertise"] },
+  { replaces = "Rogue talent gained at 4th level", feature = "rogue-talents", levels = [4], by = ["signature-wand"] },
 ]
 +++
 
@@ -27,36 +32,31 @@ further, parroting the motions and activation phrases used by arcane casters to 
 other magical accoutrements. While counterfeit mages rarely fool a real wizard, their command of the
 arcane is enough to convince most lay people.
 
-**Magical Expertise (Ex)**
+## Magical Expertise (Ex) {#magical-expertise}
 
-**Ability:** A counterfeit mage can use Disable Device to disarm magic traps.
+At 1st level, a counterfeit mage adds 1/2 his level to Disable Device checks to disarm magical
+traps, Perception checks to find magical traps, and Use Magic Device checks to activate scrolls and
+wands. A counterfeit mage can use Disable Device to disarm magic traps. This ability replaces
+trapfinding.
 
-**Gained:** At 1st Level
+## Signature Wand (Ex) {#signature-wand}
 
-**Passive:** A counterfeit mage adds 1/2 his level to Disable Device checks to disarm magical traps,
-Perception checks to find magical traps, and Use Magic Device checks to activate scrolls and wands.
+At 4th level, a counterfeit mage can spend 1 hour practicing with a wand to designate it as his
+signature wand. He can draw that wand as a free action, and can activate it without having to
+succeed at a Use Magic Device check. He can change his signature wand once per day. This ability
+replaces the rogue talent gained at 4th level.
 
-**Replaces:** Trapfinding
+## Wand Adept (Ex) {#wand-adept}
 
-**Signature Wand (Ex)**
-
-**Ability:** A counterfeit mage can spend 1 hour practicing with a wand to designate it as his
-signature wand. He can draw that wand as a **free action**, and can activate it without having to
-succeed at a Use Magic Device check. He can change his signature wand once per day.
-
-**Gained:** At 4th Level
-
-**Replaces:** Rogue talent gained at 4th level
-
-**Wand Adept (Ex)**
-
-**Ability:** A counterfeit mage can use his Dexterity modifier in place of his Charisma modifier
+At 6th level, a counterfeit mage can use his Dexterity modifier in place of his Charisma modifier
 when attempting Use Magic Device checks to activate wands.
 
-**Gained:** At 6th Level
+## Rogue Talents {#rogue-talents}
 
-**These rogue talents complement this archetype:** Deft palm, esoteric scholar, honeyed words, major
-magic, minor magic, trap spotter
+The following rogue talents complement the counterfeit mage archetype: deft palm, esoteric scholar,
+honeyed words, major magic, minor magic, and trap spotter.
 
-**These advanced rogue talents complement this archetype:** Dispelling attack, familiar, slippery
-mind
+## Advanced Talents {#advanced-talents}
+
+The following advanced rogue talents complement the counterfeit mage archetype: dispelling attack,
+familiar, and slippery mind.

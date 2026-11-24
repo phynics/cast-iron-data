@@ -16,10 +16,14 @@ page = "111"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mysteries-of-the-past" },
+  { anchor = "revelations-of-the-past" },
+]
 trades = [
-  { replaces = "Familiar", feature = "spirit-animal" },
-  { replaces = "Wandering spirit", feature = "wandering-spirit" },
-  { replaces = "wandering hex", feature = "wandering-hex" },
+  { replaces = "Familiar", feature = "spirit-animal", by = ["mysteries-of-the-past"] },
+  { replaces = "Wandering spirit", feature = "wandering-spirit", by = ["revelations-of-the-past"] },
+  { replaces = "wandering hex", feature = "wandering-hex", by = ["revelations-of-the-past"] },
 ]
 +++
 
@@ -29,29 +33,21 @@ the voice of experience, and a powerful resource that allows the past to aid the
 
 **Gained class skills:** ling, kh, kl, per, umd
 
-**Mysteries of the Past**
+## Mysteries of the Past {#mysteries-of-the-past}
 
-**Choice:** The speaker for the past must choose a time when she must spend 1 hour each day in quiet
-contemplation to regain her daily allotment of spells, but does not need to commune with a familiar
-during this time.
-
-**Info:** A speaker for the past adds the spells from the [ancestor](ref/mystery/ancestor) and
-[time](ref/mystery/time) oracle mysteries to her class spell list (at the oracle level for those
+A speaker for the past gains Linguistics, Knowledge (history), Knowledge (local), Perception, and
+Use Magic Device as class skills. She also adds the spells from the [ancestor](ref/mystery/ancestor)
+and [time](ref/mystery/time) oracle mysteries to her class spell list (as the cleric level for those
 spells).
 
-**Replaces:** Familiar
+This ability replaces the shaman's familiar. The speaker for the past must choose a time when she
+must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does
+not need to commune with a familiar during this time. Because she has no familiar, she does not gain
+a spirit familiar feature from any spirit she bonds with.
 
-**Special:** Because she has no familiar, she does not gain a _spirit familiar_ feature from any
-spirit she bonds with.
+## Revelations of the Past {#revelations-of-the-past}
 
-**Revelations of the Past**
-
-**At 4th Level:** The speaker for the past can select a revelation from the ancestor or time
-mysteries.
-
-**Repeat At:** She selects another such revelation., 6, 12, 14, 20
-
-**Replaces:** Wandering spirit, wandering hex
-
-**Special:** She uses her shaman level as her oracle level for these revelations, and uses her
-Wisdom modifier in place of her Charisma modifier for the purposes of the revelation.
+At 4th, 6th, 12th, 14th, and 20th levels, the speaker for the past can select a revelation from the
+ancestor or time mysteries. She uses her shaman level as her oracle level for these revelations, and
+uses her Wisdom modifier in place of her Charisma modifier for the purposes of the revelation. This
+ability replaces wandering spirit and wandering hex.

@@ -16,12 +16,20 @@ page = "130"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "blessings" },
+  { anchor = "smith-s-spells" },
+  { anchor = "forge-mastery", level = 2 },
+  { anchor = "craft-magic-arms-and-armor", level = 3 },
+  { anchor = "creator-s-bond", level = 4 },
+  { anchor = "heat-of-the-forge", level = 6 },
+]
 trades = [
-  { replaces = "2nd blessing normally gained by a warpriest", feature = "blessings" },
-  { replaces = "Bonus feat gained at 3rd level", feature = "bonus-feats", levels = [3] },
-  { replaces = "Channel energy", feature = "channel-energy" },
-  { replaces = "Bonus feat gained at 6th level", feature = "bonus-feats", levels = [6] },
-  { alters = "Blessings", feature = "blessings" },
+  { replaces = "2nd blessing normally gained by a warpriest", feature = "blessings", by = ["forge-mastery"] },
+  { replaces = "Bonus feat gained at 3rd level", feature = "bonus-feats", levels = [3], by = ["craft-magic-arms-and-armor"] },
+  { replaces = "Channel energy", feature = "channel-energy", by = ["creator-s-bond"] },
+  { replaces = "Bonus feat gained at 6th level", feature = "bonus-feats", levels = [6], by = ["heat-of-the-forge"] },
+  { alters = "Blessings", feature = "blessings", by = ["blessings"] },
   { alters = "Bonus feats", feature = "bonus-feats" },
 ]
 +++
@@ -29,69 +37,39 @@ trades = [
 Armorers of exquisite skill, forgepriests take inspiration from their deity to produce the most
 perfect weapons and armor they can, the better to equip the armies of the faithful.
 
-**Blessings**
+## Blessings {#blessings}
 
-**Alters:** Blessings
+A forgepriest selects only one blessing. This alters the blessings class feature.
 
-**Info:** A forgepriest selects only one blessing.
+## Smith's Spells {#smith-s-spells}
 
-**Smith's Spells**
+A forgepriest adds the following spells to his spell list: 1st—_jury rig_, _shield_; 2nd—_heat
+metal_, _shatter_; 3rd—_keen edge_, _quench_, _versatile weapon_; 4th—_wreath of blades_;
+5th—_fabricate_, _major creation_; 6th—_mage's sword_.
 
-**Info:** A forgepriest adds the following spells to his spell list at the listed spell level.
+## Forge Mastery (Ex) {#forge-mastery}
 
-**Spells:** Jury rig, shield
+At 2nd level, the forgepriest adds a bonus equal to half his level to all Craft checks to make metal
+items, armor, and weapons. (This benefit is gained from the altered version of blessings, above.)
 
-**Spells:** Heat metal, shatter
+## Bonus Feats {#bonus-feats}
 
-**Spells:** Keen edge, quench, versatile weapon
+A forgepriest can select item creation feats in addition to combat feats when he gains a bonus feat.
+This ability alters bonus feats.
 
-**Spells:** Wreath of blades
+## Craft Magic Arms and Armor {#craft-magic-arms-and-armor}
 
-**Spells:** Fabricate, major creation
+At 3rd level, a forgepriest gains [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor)
+as a bonus feat. This ability replaces the bonus feat gained at 3rd level.
 
-**Spells:** Mage's sword
+## Creator's Bond (Su) {#creator-s-bond}
 
-**Forge Mastery (Ex)**
+At 4th level, when a forgepriest uses his sacred weapon ability with an item he created personally,
+he can expend two uses of his fervor ability to increase the bonus granted by 1. Once the
+forgepriest has the sacred armor ability, he can also use this ability in conjunction with that.
+This ability replaces channel energy.
 
-**Gained:** At 2nd Level
+## Heat of the Forge (Su) {#heat-of-the-forge}
 
-**Passive:** A forgepriest adds a bonus equal to half his level to all Craft checks to make metal
-items, armor, and weapons.
-
-**Replaces:** 2nd blessing normally gained by a warpriest
-
-**Bonus Feats**
-
-**Alters:** Bonus feats
-
-**Info:** A forgepriest can select item creation feats in addition to combat feats when he gains a
-bonus feat.
-
-**Craft Magic Arms and Armor**
-
-**Ability:** A forgepriest gains [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor)
-as a bonus feat.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Bonus feat gained at 3rd level
-
-**Creator's Bond (Su)**
-
-**Ability:** When a forgepriest uses his _sacred weapon_ ability with an item he created personally,
-he can expend two uses of his _fervor_ ability to increase the bonus granted by 1.
-
-**Gained:** At 4th Level
-
-**Replaces:** Channel energy
-
-**Special:** Once the forgepriest has the _sacred armor_ ability, he can also use this ability in
-conjunction with that.
-
-**Heat of the Forge (Su)**
-
-**At 13th Level:** This resistance increases to 10.
-
-**At 6th Level:** A forgepriest gains fire resistance 5.
-
-**Replaces:** Bonus feat gained at 6th level
+At 6th level, a forgepriest gains fire resistance 5. At 13th level, this resistance increases to 10.
+This ability replaces the bonus feat gained at 6th level.

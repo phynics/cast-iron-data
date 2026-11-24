@@ -16,94 +16,44 @@ page = "86"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mutagen", level = 1 },
+  { anchor = "beastmorph", level = 4 },
+]
 trades = [
-  { replaces = "Martial flexibility", feature = "martial-flexibility" },
-  { replaces = "AC bonus", feature = "ac-bonus" },
+  { replaces = "Martial flexibility", feature = "martial-flexibility", by = ["mutagen"] },
+  { replaces = "AC bonus", feature = "ac-bonus", by = ["beastmorph"] },
 ]
 +++
 
 Not content with perfecting her body with natural methods, a mutagenic mauler resorts to alchemy to
 unlock the primal beast within.
 
-**Mutagen (Su)**
+## Mutagen (Su) {#mutagen}
 
-**Ability:** A mutagenic mauler discovers how to create a mutagen that she can imbibe in order to
+At 1st level, a mutagenic mauler discovers how to create a mutagen that she can imbibe in order to
 heighten her physical prowess, though at the cost of her personality. This functions as an
 [alchemist's](ref/class/alchemist) mutagen and uses the brawler's class level as her alchemist level
 for this ability (alchemist levels stack with brawler levels for determining the effect of this
-ability).
+ability). A mutagenic mauler counts as an alchemist for the purpose of imbibing a mutagen prepared
+by someone else.
 
-**At 10th Level:** A mutagenic mauler learns one of the following alchemist discoveries:
-[feral mutagen](ref/discovery/feral-mutagen), [infuse mutagen](ref/discovery/infuse-mutagen),
-[preserve organs](ref/discovery/preserve-organs),
-[spontaneous healing](ref/discovery/spontaneous-healing).
+At 6th level, a mutagenic mauler gains a +2 bonus on damage rolls when she attacks in melee while in
+her mutagenic form. This bonus increases to +3 at 11th level, and to +4 at 16th level. At 10th
+level, a mutagenic mauler learns one of the following alchemist discoveries (_Advanced Player's
+Guide_ 28): [feral mutagen](ref/discovery/feral-mutagen) or
+[infuse mutagen](ref/discovery/infuse-mutagen), [preserve organs](ref/discovery/preserve-organs),
+[spontaneous healing](ref/discovery/spontaneous-healing). At 12th level, the mutagenic mauler learns
+the [greater mutagen](ref/discovery/greater-mutagen) discovery.
 
-**At 11th Level:** The damage bonus becomes +3.
+This ability replaces martial flexibility.
 
-**At 12th Level:** The mutagenic mauler learns the [greater mutagen](ref/discovery/greater-mutagen)
-discovery.
+## Beastmorph (Su) {#beastmorph}
 
-**At 16th Level:** The damage bonus becomes +4.
-
-**At 6th Level:** A mutagenic mauler gains a +2 bonus on damage rolls when she attacks in melee
-while in her mutagenic form.
-
-**Gained:** At 1st Level
-
-**Replaces:** Martial flexibility
-
-**Special:** A mutagenic mauler counts as an alchemist for the purpose of imbibing a mutagen
-prepared by someone else.
-
-**Mutagen (Su)**
-
-**Action:** Info
-
-**Flavor:** Text from the alchemist class
-
-**Gained:** At 1st Level
-
-**Special:** A mutagen that is not in your possession becomes inert until you pick it up again.
-
-**Standard:** You can drink a mutagen to heighten your physical prowess at the cost of your
-personality. You gain a +2 natural armor bonus, a +4 alchemical bonus to a physical stat, and a -2
-penalty to a mental stat. See below for details.
-
-**Usage:** A mutagen lasts for 10 minutes per alchemist level.
-
-**Usage:** A mutagen lasts for 10 minutes per alchemist level.
-
-You learn how to create a mutagen that you can imbibe in order to heighten your physical prowess at
-the cost of your personality. It takes 1 hour to brew a dose of mutagen, and once brewed, it remains
-potent until used. You can only maintain one dose of mutagen at a time - if you brew a second dose,
-any existing mutagen becomes inert.
-
-When you brew a mutagen, you select one physical ability score for it to boost - either Strength,
-Dexterity, or Constitution. If the mutagen enhances your Strength, it applies a penalty to your
-Intelligence. If it enhances your Dexterity, it applies a penalty to your Wisdom. If it enhances
-your Constitution, it applies a penalty to your Charisma.
-
-A non-alchemist who drinks a mutagen must make a Fortitude save (DC 10 + 1/2 your alchemist level +
-your Intelligence modifier) or become [nauseated](ref/misc/nauseated) for 1 hour - a non-alchemist
-can never gain the benefit of a mutagen, but you can gain the effects of another alchemist's mutagen
-if you drink it. (Although if the other alchemist creates a different mutagen, the effects of the
-"stolen" mutagen immediately cease.) The effects of a mutagen do not stack. Whenever you drink a
-mutagen, the effects of any previous mutagen immediately end.
-
-**Beastmorph (Su)**
-
-**Ability:** A mutagenic mauler gains additional abilities when using her mutagen.
-
-**At 13th Level:** The enhancement bonus to her base speed increases to +15 feet and she gains the
-[scent](ref/umr/scent) ability within 30 feet.
-
-**At 18th Level:** Her climb speed increases to 30 feet, and the enhancement bonus to her base speed
-increases to +20 feet.
-
-**At 4th Level:** She gains [low-light vision](ref/rule/low-light-vision) and a +10 enhancement
-bonus to her base speed.
-
-**At 9th Level:** She gains [darkvision](ref/rule/darkvision) to a range of 30 feet and a climb
-speed of 15 feet.
-
-**Replaces:** AC bonus
+Starting at 4th level, a mutagenic mauler gains additional abilities when using her mutagen. At 4th
+level, she gains [low-light vision](ref/rule/low-light-vision) and a +10 enhancement bonus to her
+base speed. At 9th level, she gains [darkvision](ref/rule/darkvision) to a range of 30 feet and a
+climb speed of 15 feet. At 13th level, the enhancement bonus to her base speed increases to +15 feet
+and she gains the [scent](ref/umr/scent) ability within 30 feet. At 18th level, her climb speed
+increases to 30 feet, and the enhancement bonus to her base speed increases to +20 feet. This
+ability replaces AC bonus.

@@ -16,13 +16,20 @@ page = "90"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "champion-s-finesse", level = 1 },
+  { anchor = "nimble", level = 3 },
+  { anchor = "panache-and-deeds", level = 4 },
+  { anchor = "advanced-deeds", level = 11 },
+  { anchor = "champion-s-weapon-mastery", level = 20 },
+]
 trades = [
   { replaces = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { replaces = "Mount", feature = "mount" },
-  { replaces = "Cavalier's charge", feature = "cavalier-s-charge" },
-  { replaces = "Expert trainer", feature = "expert-trainer" },
-  { replaces = "Mighty charge", feature = "mighty-charge" },
-  { replaces = "Supreme charge", feature = "supreme-charge" },
+  { replaces = "Mount", feature = "mount", by = ["champion-s-finesse"] },
+  { replaces = "Cavalier's charge", feature = "cavalier-s-charge", by = ["nimble"] },
+  { replaces = "Expert trainer", feature = "expert-trainer", by = ["panache-and-deeds"] },
+  { replaces = "Mighty charge", feature = "mighty-charge", by = ["advanced-deeds"] },
+  { replaces = "Supreme charge", feature = "supreme-charge", by = ["champion-s-weapon-mastery"] },
 ]
 +++
 
@@ -30,85 +37,42 @@ While many cavaliers are the champions of old fighting forms, some younger, more
 mix a martial style influenced by the lighter armored and more flamboyant swashbuckler forms with
 the dedication of cavalier orders.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** Daring champions are proficient with all simple and martial weapons, light and medium
-armor, and bucklers.
+Daring champions are proficient with all simple and martial weapons, light and medium armor, and
+bucklers. This replaces the cavalier's weapon and armor proficiencies.
 
-**Replaces:** Weapon and armor proficiencies
+## Champion's Finesse (Ex) {#champion-s-finesse}
 
-**Champion's Finesse (Ex)**
-
-**Ability:** A daring champion gains the benefits of the [Weapon Finesse](ref/feat/weapon-finesse)
+At 1st level, a daring champion gains the benefits of the [Weapon Finesse](ref/feat/weapon-finesse)
 feat with light or one-handed piercing melee weapons, and he can use Charisma in place of
 Intelligence for the purpose of combat feats prerequisites. A daring champion also counts as having
-the Weapon Finesse feat for the purpose of meeting feat requirements.
+the Weapon Finesse feat for the purpose of meeting feat requirements. This ability replaces mount.
 
-**Gained:** At 1st Level
+## Nimble (Ex) {#nimble}
 
-**Replaces:** Mount
-
-**Nimble (Ex)**
-
-**At 11th Level:** The bonus becomes +3.
-
-**At 15th Level:** The bonus is now +4.
-
-**At 19th Level:** The bonus increases to +5.
-
-**At 3rd Level:** A daring champion gains a +1 dodge bonus to AC when wearing light or no armor and
+At 3rd level, a daring champion gains a +1 dodge bonus to AC when wearing light or no armor and
 carrying no more than a light load. Anything that causes the daring champion to lose his Dexterity
-bonus to AC also causes him to lose this dodge bonus.
+bonus to AC also causes him to lose this dodge bonus. This bonus increases by 1 for every 4 levels
+beyond 3rd (to a maximum of +5 at 19th level). This ability replaces cavalier's charge.
 
-**At 7th Level:** The bonus becomes +2.
+## Panache and Deeds (Ex) {#panache-and-deeds}
 
-**Replaces:** Cavalier's charge
-
-**Panache and Deeds (Ex)**
-
-**Ability:** A daring champion gains the [swashbuckler's](ref/class/swashbuckler) _panache_ class
+At 4th level, a daring champion gains the [swashbuckler's](ref/class/swashbuckler) panache class
 feature, along with the following swashbuckler deeds:
 [dodging panache](ref/swashdeed/dodging-panache), [precise strike](ref/swashdeed/precise-strike),
-and [swashbuckler initiative](ref/swashdeed/swashbuckler-initiative).
+and [swashbuckler initiative](ref/swashdeed/swashbuckler-initiative). This ability replaces expert
+trainer.
 
-**Gained:** At 4th Level
+## Advanced Deeds (Ex) {#advanced-deeds}
 
-**Replaces:** Expert trainer
-
-**Panache (Ex)**
-
-**Action:** Ability
-
-**Flavor:** Text from the swashbuckler class
-
-You spend panache to accomplish deeds, and regain panache in the following ways.
-
-Each time you confirm a critical hit with a light or one-handed piercing melee weapon, you regain 1
-panache point. Confirming a critical hit on a [helpless](ref/misc/helpless) or unaware creature or a
-creature that has fewer Hit Dice than [half](ref/misc/fractions-and-rounding) your character level
-doesn't restore panache.
-
-When you reduce a creature to 0 or fewer hit points with a light or one-handed piercing melee weapon
-attack while in combat, you regain 1 panache point. Destroying an unattended object, reducing a
-helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit
-Dice than half your character level to 0 or fewer hit points doesn't restore any panache.
-
-**Advanced Deeds (Ex)**
-
-**Ability:** A daring champion gains the following swashbuckler deeds:
+At 11th level, a daring champion gains the following swashbuckler deeds:
 [superior feint](ref/swashdeed/superior-feint), targeted strike,
 [subtle blade](ref/swashdeed/subtle-blade), and [dizzying defense](ref/swashdeed/dizzying-defense).
+This ability replaces mighty charge.
 
-**Gained:** At 11th Level
+## Champion's Weapon Mastery (Ex) {#champion-s-weapon-mastery}
 
-**Replaces:** Mighty charge
-
-**Champion's Weapon Mastery (Ex)**
-
-**Gained:** At 20th Level
-
-**Passive:** When a daring champion threatens a critical hit with a light or one-handed piercing
+At 20th level, when a daring champion threatens a critical hit with a light or one-handed piercing
 melee weapon, that critical is automatically confirmed. Furthermore, the critical modifier of those
-weapons increases by 1 (×2 becomes ×3, for example).
-
-**Replaces:** Supreme charge
+weapons increases by 1 (×2 becomes ×3, for example). This ability replaces supreme charge.

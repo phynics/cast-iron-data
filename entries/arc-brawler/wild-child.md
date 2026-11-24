@@ -16,11 +16,18 @@ page = "89"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "class-skills" },
+  { anchor = "animal-companion", level = 1 },
+  { anchor = "hunter-s-tricks", level = 5 },
+  { anchor = "maneuver-training" },
+  { anchor = "wild-tricks" },
+]
 trades = [
-  { replaces = "Bonus combat feats gained at 2nd, 5th, 11th, and 14th levels", feature = "bonus-combat-feats", levels = [2, 5, 11, 14] },
-  { replaces = "Close weapon mastery", feature = "close-weapon-mastery" },
-  { replaces = "Bonus combat feats gained at 5th, 8th, 11th, 14th, 17th, and 20th levels" },
-  { alters = "Maneuver training", feature = "maneuver-training" },
+  { replaces = "Bonus combat feats gained at 2nd, 8th, 14th, and 20th levels", feature = "bonus-combat-feats", levels = [2, 8, 14, 20], by = ["animal-companion"] },
+  { replaces = "Close weapon mastery", feature = "close-weapon-mastery", by = ["hunter-s-tricks"] },
+  { replaces = "Bonus combat feats gained at 5th, 11th, and 17th levels", by = ["wild-tricks"] },
+  { alters = "Maneuver training", feature = "maneuver-training", by = ["maneuver-training"] },
 ]
 +++
 
@@ -30,54 +37,42 @@ an exotic pet.
 
 **Gained class skills:** heal
 
-**Animal Companion (Ex)**
+## Class Skills {#class-skills}
 
-**Ability:** A wild child forms a bond with a loyal companion that accompanies the wild child on his
-adventures. A wild child can begin play with any of the animals available to a druid. The wild child
-uses his brawler level as his effective druid level for determining the abilities of his
-[animal companion](ref/sidekick/animal-companion).
+A wild child gains Heal as a class skill.
 
-**Replaces:** Bonus combat feats gained at 2nd, 5th, 11th, and 14th levels
+## Animal Companion (Ex) {#animal-companion}
 
-**Hunter's Tricks**
+At 1st level, a wild child forms a bond with a loyal companion that accompanies the wild child on
+his adventures. A wild child can begin play with any of the animals available to a druid. The wild
+child uses his brawler level as his effective druid level for determining the abilities of his
+[animal companion](ref/sidekick/animal-companion). This ability replaces the bonus combat feats
+gained at 2nd, 8th, 14th, and 20th levels.
 
-**Ability:** A wild child can expend a use of martial flexibility to use a _hunter's trick_ from the
-[ranger skirmisher archetype](ref/arc-ranger/skirmisher). Each time he activates this ability, the
-wild child can use a different hunter trick. He cannot choose any tricks that rely on ranged
-attacks. Activating this ability is not an action, but using the trick might require the wild child
-to use an action of a different type.
+## Hunter's Tricks {#hunter-s-tricks}
 
-**Gained:** At 5th Level
+At 5th level, a wild child can expend a use of martial flexibility to use a trick from the
+[ranger skirmisher archetype](ref/arc-ranger/skirmisher) (_Advanced Player's Guide_ 128). Each time
+he activates this ability, the wild child can use a different hunter trick. He cannot choose any
+tricks that rely on ranged attacks. Activating this ability is not an action, but using the trick
+might require the wild child to use an action of a different type. This ability replaces close
+weapon mastery.
 
-**Replaces:** Close weapon mastery
+## Maneuver Training (Ex) {#maneuver-training}
 
-**Maneuver Training (Ex)**
+Whenever the wild child chooses a new maneuver for this ability, his animal companion also learns a
+trick to make use of this combat maneuver. For example, if the wild child chooses maneuver training
+(dirty trick), his animal companion also learns a trick that allows it to use the dirty trick combat
+maneuver. He cannot choose any tricks that rely on ranged attacks. This bonus trick doesn't count
+against the animal companion's total tricks known and does not take any time or checks to train.
+Should the wild child gain a new animal companion (such as if the previous one dies), this new
+animal companion begins with the same number of bonus tricks. This ability alters maneuver training.
 
-**Ability:** Whenever the wild child chooses a new maneuver for this ability, his animal companion
-also learns a trick to make use of this combat maneuver. For example, if the wild child chooses
-maneuver training (dirty trick), his animal companion also learns a trick that allows it to use the
-dirty trick combat maneuver. He cannot choose any tricks that rely on ranged attacks.
+## Wild Tricks (Ex) {#wild-tricks}
 
-**Alters:** Maneuver training
-
-**Special:** This bonus trick doesn't count against the animal companion's total tricks known and
-does not take any time or checks to train. Should the wild child gain a new animal companion (such
-as if the previous one dies), this new animal companion begins with the same number of bonus tricks.
-
-**Wild Tricks (Ex)**
-
-**Flavor:** The wild child has learned a number of tricks to aid his allies and his animal
-companion, as well as to hinder his opponents.
-
-**At 11th Level:** The wild child learns a second hunter's trick, with the same restrictions.
-
-**At 17th Level:** The wild child learns a third hunter's trick, with the same restrictions.
-
-**At 5th Level:** The wild child learns one _hunter's trick_ from the ranger skirmisher archetype.
-He cannot choose a trick that relies on ranged attacks.
-
-**Replaces:** Bonus combat feats gained at 5th, 8th, 11th, 14th, 17th, and 20th levels
-
-**Special:** The wild child can use these tricks a number of times per day equal to
-[half](ref/misc/fractions-and-rounding) his brawler level + his Constitution modifier. This ability
-otherwise follows the rules of the hunter's tricks ability, including all action costs.
+The wild child has learned a number of tricks to aid his allies and his animal companion, as well as
+to hinder his opponents. At 5th level and every 6 levels thereafter, the wild child learns one
+hunter's trick. He cannot choose any tricks that rely on ranged attacks. The wild child can use
+these tricks a number of times per day equal to 1/2 his brawler level + his Constitution modifier.
+This ability otherwise follows the rules of the hunter's tricks ability, including all action costs.
+This ability replaces the bonus combat feats gained at 5th, 11th, and 17th levels.

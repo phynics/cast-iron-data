@@ -16,9 +16,14 @@ page = "76"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sword-bond", level = 1 },
+  { anchor = "sentient-sword", level = 3 },
+  { anchor = "adept-exploits" },
+]
 trades = [
-  { replaces = "The arcanist exploits gained at 1st and 9th levels", feature = "arcanist-exploits", levels = [1, 9] },
-  { replaces = "The arcanist exploit gained at 3rd level", feature = "arcanist-exploits", levels = [3] },
+  { replaces = "The arcanist exploits gained at 1st and 9th levels", feature = "arcanist-exploits", levels = [1, 9], by = ["sword-bond"] },
+  { replaces = "The arcanist exploit gained at 3rd level", feature = "arcanist-exploits", levels = [3], by = ["sentient-sword"] },
 ]
 +++
 
@@ -26,98 +31,57 @@ A small number of arcanists learn to use blades as part of their spellcasting an
 these blade adepts are not as capable with a sword as a true master duelist, their combination of
 swordplay and arcane power makes them quite deadly.
 
-**Sword Bond (Su)**
+## Sword Bond (Su) {#sword-bond}
 
-**Ability:** This ability works like a [wizard's](ref/class/wizard) _arcane bond_ ability save that
-the blade adept must bond to a one-handed piercing or slashing melee weapon. Additionally, the blade
-adept gains proficiency with the weapon if it is a simple or martial weapon.
+At 1st level, a blade adept develops a bond with a blade and infuses it with arcane power. This
+ability works like a [wizard's](ref/class/wizard) arcane bond ability save that the blade adept must
+bond to a one-handed piercing or slashing melee weapon. Additionally, the blade adept gains
+proficiency with the weapon if it is a simple or martial weapon. This ability replaces the arcanist
+exploits gained at 1st and 9th levels.
 
-**Flavor:** A blade adept develops a bond with a blade and infuses it with arcane power.
+## Sentient Sword (Su) {#sentient-sword}
 
-**Gained:** At 1st Level
+At 3rd level, the blade adept's bonded sword becomes a powerful, sentient
+_[black blade](ref/arc-magus/bladebound)_. The blade advances as a _black blade_ (_Ultimate Magic_
+47) using the blade adept's class level in place of the magus's class level and points from her
+arcane reservoir in place of the magus's arcane pool. A blade adept with this class feature cannot
+have a familiar of any kind, even from another class. This ability replaces the arcanist exploit
+gained at 3rd level.
 
-**Replaces:** The arcanist exploits gained at 1st and 9th levels
+## Adept Exploits {#adept-exploits}
 
-**Bonded Object**
+A blade adept can select from the following additional exploits.
 
-**Action:** Ability
+### Eldritch Blade {#eldritch-blade}
 
-**Flavor:** Text from the wizard class
+A blade adept with this exploit uses her caster level instead of her class level for the purpose of
+advancing her bonded sword's powers.
 
-If you select a bonded object, you begin play with one at no cost. These objects are always
-masterwork quality. Weapons acquired at 1st level are not made of any special material. If you
-attempt to cast a spell without your bonded object wielded, you must make a
-[concentration](ref/rule/concentration) check or lose the spell. The DC for this check is equal to
-20 + the spell's level.
+### Magus Arcana {#magus-arcana}
 
-You can add additional magic abilities to your bonded object as if you have the required item
-creation feats and if you meet the level prerequisites of the feat. For example, a wizard with a
-bonded dagger must be at least 5th level to add magic abilities to the dagger (see
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor)). The magic properties of a bonded
-object, including any magic abilities added to the object, only function for the wizard who owns it.
-If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary
-masterwork item of the appropriate type.
-
-If a bonded object is damaged, it is restored to full hit points the next time you prepare your
-spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a
-special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual
-takes 8 hours to complete. Items replaced in this way do not possess any of the additional
-enchantments of the previous bonded item. You can designate an existing magic item as his bonded
-item. This functions in the same way as replacing a lost or destroyed item except that the new magic
-item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.
-
-**Sentient Sword (Su)**
-
-**Flavor:** The blade adept's bonded sword becomes a powerful, sentient black blade.
-
-**Gained:** At 3rd Level
-
-**Passive:** The blade advances as a [black blade](ref/arc-magus/bladebound) using the blade adept's
-class level in place of the magus's class level and points from her arcane reservoir in place of the
-magus's arcane pool. A blade adept with this class feature cannot have a familiar of any kind, even
-from another class.
-
-**Replaces:** The arcanist exploit gained at 3rd level
-
-**Adept Exploits**
-
-**Ability:** A blade adept can select from the following five additional exploits.
-
-**Eldritch Blade**
-
-**Passive:** A blade adept with this exploit uses her caster level instead of her class level for
-the purpose of advancing her bonded sword's powers.
-
-**Magus Arcana**
-
-**Passive:** A blade adept can select any of the following magus arcana, using her arcane reservoir
-in place of the magus's arcane pool: [arcane accuracy](ref/arcana/arcane-accuracy),
+A blade adept can select any of the following magus arcana, using her arcane reservoir in place of
+the magus's arcane pool: [arcane accuracy](ref/arcana/arcane-accuracy),
 [close range](ref/arcana/close-range), [critical strike](ref/arcana/critical-strike),
 [dispelling strike](ref/arcana/dispelling-strike), and [hasted assault](ref/arcana/hasted-assault).
 The blade adept treats her arcanist level as her magus level when determining the effects of magus
-arcana and when specific arcana are available.
+arcana and when specific arcana are available. A blade adept can take this exploit multiple times.
+Each time it is taken, it applies to a different magus arcana.
 
-**Special:** A blade adept can take this exploit multiple times. Each time it is taken, it applies
-to a different magus arcana.
+### Spell Strike (Su) {#spell-strike}
 
-**Spell Strike (Su)**
-
-**Ability:** The blade adept can deliver touch spells with her bonded weapon. This works as the
+The blade adept can deliver touch spells with her bonded weapon. This works as the
 [magus](ref/class/magus) ability of the same name.
 
-**Student of the Blade (Ex)**
+### Student of the Blade (Ex) {#student-of-the-blade}
 
-**Ability:** A blade adept can choose from any of the following bonus feats:
+A blade adept can choose from any of the following bonus feats:
 [Arcane Strike](ref/feat/arcane-strike), [Weapon Finesse](ref/feat/weapon-finesse), and
-[Weapon Focus](ref/feat/weapon-focus) (in the weapon she is bonded to).
+[Weapon Focus](ref/feat/weapon-focus) (in the weapon she is bonded to). This exploit can be taken
+multiple times. Each time it is taken, it applies to a different feat.
 
-**Special:** This exploit can be taken multiple times. Each time it is taken, it applies to a
-different feat.
+### Weapon Specialization (Ex) {#weapon-specialization}
 
-**Weapon Specialization (Ex)**
-
-**Ability:** The arcanist gains [Weapon Specialization](ref/feat/weapon-specialization) with her
-chosen weapon as a bonus feat. The blade adept does not need to meet the prerequisites for this
-feat.
-
-**Prereq:** 5th-level blade adept, Weapon Focus with chosen weapon
+The arcanist gains [Weapon Specialization](ref/feat/weapon-specialization) with her chosen weapon as
+a bonus feat. The blade adept does not need to meet the prerequisites for this feat, but must have
+the Weapon Focus feat with her chosen weapon to select this exploit. The arcanist must be at least
+5th level to select this exploit.

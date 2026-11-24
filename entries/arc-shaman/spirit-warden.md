@@ -16,10 +16,16 @@ page = "112"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "unnatural-mien", level = 1 },
+  { anchor = "restless-magic" },
+  { anchor = "rebuke-spirits", level = 2 },
+  { anchor = "laugh-at-death", level = 10 },
+]
 trades = [
-  { replaces = "Spirit magic spells gained from the shaman's spirit", feature = "spirit-magic" },
-  { replaces = "Hex gained at 2nd level", feature = "hex", levels = [2] },
-  { replaces = "Hex gained at 10th level", feature = "hex", levels = [10] },
+  { replaces = "Spirit magic spells gained from the shaman's spirit", feature = "spirit-magic", by = ["restless-magic"] },
+  { replaces = "Hex gained at 2nd level", feature = "hex", levels = [2], by = ["rebuke-spirits"] },
+  { replaces = "Hex gained at 10th level", feature = "hex", levels = [10], by = ["laugh-at-death"] },
 ]
 +++
 
@@ -30,59 +36,29 @@ warden's duty to end these spirits' existence.
 
 **Lost class skills:** diplo, ha
 
-**Unnatural Mien (Ex)**
+## Unnatural Mien (Ex) {#unnatural-mien}
 
-**Flavor:** The spirit warden's dealings with the spirit world give her an unsettling demeanor.
+At 1st level, the spirit warden's dealings with the spirit world give her an unsettling demeanor.
+Diplomacy and Handle Animal are not class skills for a spirit warden. Intimidate is added as a class
+skill, and she gains a +2 bonus on Intimidate checks to demoralize a foe.
 
-**Gained:** At 1st Level
+## Restless Magic (Su) {#restless-magic}
 
-**Passive:** She gains a +2 bonus on Intimidate checks to demoralize a foe.
+The spirit warden adds the following spells to the list of spells she can cast using spirit magic:
+_detect undead_ (1st), _command undead_ (2nd), _halt undead_ (3rd), _death ward_ (4th), _possess
+object_ (5th), _undead to death_ (6th), _ethereal jaunt_ (7th), _control undead_ (8th), _foresight_
+(9th). This ability replaces the spirit magic spells gained from the shaman's spirit.
 
-**Restless Magic (Su)**
+## Rebuke Spirits (Su) {#rebuke-spirits}
 
-**Info:** The spirit warden adds the following spells to the list of spells she can cast using
-_spirit magic_ at the listed spell level:
-
-**Replaces:** Spirit magic spells gained from the shaman's spirit
-
-**Spells:** Detect undead
-
-**Spells:** Command undead
-
-**Spells:** Halt undead
-
-**Spells:** Death ward
-
-**Spells:** Possess object
-
-**Spells:** Undeath to death
-
-**Spells:** Ethereal jaunt
-
-**Spells:** Control undead
-
-**Spells:** Foresight
-
-**Rebuke Spirits (Su)**
-
-**Ability:** The spirit warden gains the ability to
+At 2nd level, the spirit warden gains the ability to
 [channel positive energy](ref/ability/channel-energy) as a cleric of her level. Regardless of her
-alignment, she can only use this ability to harm undead creatures.
+alignment, she can only use this ability to harm undead creatures. The spirit warden can use this
+ability a number of times per day equal to 3 + her Charisma modifier. This ability replaces the hex
+gained at 2nd level.
 
-**Gained:** At 2nd Level
+## Laugh at Death (Su) {#laugh-at-death}
 
-**Replaces:** Hex gained at 2nd level
-
-**Usage:** Charisma3 modifier times/day
-
-**Laugh at Death (Su)**
-
-**Flavor:** The spirit warden's familiarity with the dead has filled her with contempt for death
-itself.
-
-**Gained:** At 10th Level
-
-**Passive:** She gains a +4 insight bonus on saving throws against death effects and to avoid or
-remove negative levels.
-
-**Replaces:** Hex gained at 10th level
+At 10th level, the spirit warden's familiarity with the dead has filled her with contempt for death
+itself. She gains a +4 insight bonus on saving throws against death effects and to avoid or remove
+negative levels. This ability replaces the hex gained at 10th level.

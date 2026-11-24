@@ -16,11 +16,18 @@ page = "81"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bardic-performance" },
+  { anchor = "fire-dance", level = 1 },
+  { anchor = "song-of-the-fiery-gaze", level = 3 },
+  { anchor = "fire-break", level = 6 },
+  { anchor = "fan-the-flames", level = 8 },
+]
 trades = [
-  { replaces = "Countersong", feature = "bardic-performance", power = "countersong" },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
-  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion" },
-  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom" },
+  { replaces = "Countersong", feature = "bardic-performance", power = "countersong", by = ["fire-dance"] },
+  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["song-of-the-fiery-gaze"] },
+  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion", by = ["fire-break"] },
+  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["fan-the-flames"] },
 ]
 +++
 
@@ -28,61 +35,39 @@ A flame dancer studies the movements of fire, adding its grace to his repertoire
 fire's burning essence, and uses his performance to unleash the power of fire against those who dare
 oppose him.
 
-**Bardic Performance**
+## Bardic Performance {#bardic-performance}
 
-**Info:** A flame dancer gains the following bardic performances.
+A flame dancer gains the following bardic performances.
 
-**Fire Dance (Su)**
+## Fire Dance (Su) {#fire-dance}
 
-**Ability:** Each round of the _fire dance,_ he rolls a Perform (dance or sing) check. Any ally
-within 30 feet of the bard that has caught on fire or is affected by a fire effect or extreme heat
-can use the bard's Perform check result in place of its saving throw against that fire. Any ally
-within 30 feet of the bard who is suffering from [heatstroke](ref/rule/heat-dangers) can ignore the
-fatigue from heat exposure so long as the bard maintains this performance.
+At 1st level, a fire dancer learns to protect himself and others from the pain of fire, and
+discovers how to control the flame while enduring its heat. Each round of the fire dance, he rolls a
+Perform (dance or sing) check. Any ally within 30 feet of the bard that has caught on fire or is
+affected by a fire effect or extreme heat can use the bard's Perform check result in place of its
+saving throw against that fire. Any ally within 30 feet of the bard who is suffering from
+[heatstroke](ref/rule/heat-dangers) can ignore the fatigue from heat exposure so long as the bard
+maintains this performance. Fire dance relies on audible or visual components. This ability replaces
+countersong.
 
-**Flavor:** A fire dancer learns to protect himself and others from the pain of fire, and discovers
-how to control the flame while enduring its heat.
+## Song of the Fiery Gaze (Su) {#song-of-the-fiery-gaze}
 
-**Gained:** At 1st Level
-
-**Replaces:** Countersong
-
-**Special:** _Fire dance_ relies on audible or visual components.
-
-**Song of the Fiery Gaze (Su)**
-
-**Flavor:** A fire dancer can allow allies to see through flames without any distortion. Any ally
+At 3rd level, a fire dancer can allow allies to see through flames without any distortion. Any ally
 within 30 feet of the bard who can hear the performance can see through fire, fog, and smoke without
 penalty as long as the light is sufficient to allow him to see normally, as with the base effect of
-the [gaze of flames](ref/mystery/flame) oracle revelation.
+the [gaze of flames](ref/mystery/flame) oracle revelation (_Advanced Player's Guide_ 47). Song of
+the fiery gaze relies on audible components. This ability replaces inspire competence.
 
-**Gained:** At 3rd Level
+## Fire Break (Su) {#fire-break}
 
-**Replaces:** Inspire competence
+At 6th level, a fire dancer's performance can bend flames away from others. Any ally within 30 feet
+of the bard who can hear or see the bardic performance gains [resist](ref/umr/resistance) fire 20 as
+long as the performance is maintained. At 11th level, this resistance increases to 30. Fire break
+relies on audible or visual components. This ability replaces suggestion.
 
-**Special:** _Song of the fiery gaze_ relies on audible components.
+## Fan the Flames (Su) {#fan-the-flames}
 
-**Fire Break (Su)**
-
-**Ability:** Any ally within 30 feet of the bard who can hear or see the bardic performance gains
-[resist](ref/umr/resistance) fire 20 as long as the performance is maintained.
-
-**Flavor:** A fire dancer's performance can bend flames away from others.
-
-**At 11th Level:** This resistance increases to 30.
-
-**Gained:** At 6th Level
-
-**Replaces:** Suggestion
-
-**Special:** _Fire break_ relies on audible or visual components.
-
-**Fan the Flames (Su)**
-
-**Info:** A fire dancer adds [burning hands](ref/spell/burning-hands),
-[flaming sphere](ref/spell/flaming-sphere), and [fireball](ref/spell/fireball) to his list of bard
-spells known (as 1st-, 2nd-, and 3rd-level spells, respectively).
-
-**Gained:** At 8th Level
-
-**Replaces:** Dirge of doom
+At 8th level, a fire dancer adds _[burning hands](ref/spell/burning-hands)_,
+_[flaming sphere](ref/spell/flaming-sphere)_, and _[fireball](ref/spell/fireball)_ to his list of
+bard spells known (as 1st-, 2nd-, and 3rd-level spells, respectively). This ability replaces dirge
+of doom.

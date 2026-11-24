@@ -16,12 +16,19 @@ page = "105"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "panache", level = 1 },
+  { anchor = "menacing-swordplay", level = 3 },
+  { anchor = "ki-pool", level = 4 },
+  { anchor = "targeted-strike", level = 7 },
+  { anchor = "dizzying-defense", level = 15 },
+]
 trades = [
-  { replaces = "Stunning fist", feature = "stunning-fist" },
-  { replaces = "Still mind", feature = "still-mind" },
-  { replaces = "Wholeness of body", feature = "wholeness-of-body" },
-  { replaces = "Quivering palm", feature = "quivering-palm" },
-  { alters = "Ki pool", feature = "ki-pool" },
+  { replaces = "Stunning fist", feature = "stunning-fist", by = ["panache"] },
+  { replaces = "Still mind", feature = "still-mind", by = ["menacing-swordplay"] },
+  { replaces = "Wholeness of body", feature = "wholeness-of-body", by = ["targeted-strike"] },
+  { replaces = "Quivering palm", feature = "quivering-palm", by = ["dizzying-defense"] },
+  { alters = "Ki pool", feature = "ki-pool", by = ["ki-pool"] },
 ]
 +++
 
@@ -31,69 +38,33 @@ forsakes the mental discipline of her more contemplative brethren in favor of th
 exhibitions. She often performs in staged fights and tournaments, utilizing stylized forms to amaze
 the audience and shock and dismay her opponents.
 
-**Panache**
+## Panache {#panache}
 
-**Ability:** A kata master gains the [swashbuckler's](ref/class/swashbuckler) _panache_ class
-ability. At the start of each day, a kata master gains a number of _panache_ points equal to her
-Charisma bonus (minimum 1). Her _panache_ goes up or down throughout the day, but usually cannot go
+At 1st level, a kata master gains the [swashbuckler's](ref/class/swashbuckler) panache class
+ability. At the start of each day, a kata master gains a number of panache points equal to her
+Charisma bonus (minimum 1). Her panache goes up or down throughout the day, but usually cannot go
 higher than his Charisma bonus (minimum 1). A kata master gains the swashbuckler's
 [derring-do](ref/swashdeed/derring-do) and [dodging panache](ref/swashdeed/dodging-panache) deeds. A
 kata master can use an unarmed strike or monk special weapon in place of a light or one-handed
-piercing melee weapon for granted swashbuckler class features and deeds.
+piercing melee weapon for granted swashbuckler class features and deeds. This ability replaces
+stunning fist.
 
-**Gained:** At 1st Level
+## Menacing Swordplay (Ex) {#menacing-swordplay}
 
-**Replaces:** Stunning fist
+At 3rd level, a kata master gains the swashbuckler's
+[menacing swordplay](ref/swashdeed/menacing-swordplay) deed. This ability replaces still mind.
 
-**Panache (Ex)**
+## Ki Pool (Su) {#ki-pool}
 
-**Action:** Ability
+At 4th level, a kata master can treat ki points as panache points for any swashbuckler deed gained
+through this archetype. This ability modifies ki pool.
 
-**Flavor:** Text from the swashbuckler class
+## Targeted Strike (Ex) {#targeted-strike}
 
-You spend panache to accomplish deeds, and regain panache in the following ways.
+At 7th level, a kata master gains the swashbuckler's targeted strike deed. This ability replaces
+wholeness of body.
 
-Each time you confirm a critical hit with a light or one-handed piercing melee weapon, you regain 1
-panache point. Confirming a critical hit on a [helpless](ref/misc/helpless) or unaware creature or a
-creature that has fewer Hit Dice than [half](ref/misc/fractions-and-rounding) your character level
-doesn't restore panache.
+## Dizzying Defense (Ex) {#dizzying-defense}
 
-When you reduce a creature to 0 or fewer hit points with a light or one-handed piercing melee weapon
-attack while in combat, you regain 1 panache point. Destroying an unattended object, reducing a
-helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit
-Dice than half your character level to 0 or fewer hit points doesn't restore any panache.
-
-**Menacing Swordplay (Ex)**
-
-**Ability:** A kata master gains the swashbuckler's
-[menacing swordplay](ref/swashdeed/menacing-swordplay) deed.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Still mind
-
-**Ki Pool (Su)**
-
-**Ability:** A kata master can treat ki points as _panache_ points for any swashbuckler deed gained
-through this archetype.
-
-**Alters:** Ki pool
-
-**Gained:** At 4th Level
-
-**Targeted Strike (Ex)**
-
-**Ability:** A kata master gains the swashbuckler's targeted strike deed.
-
-**Gained:** At 7th Level
-
-**Replaces:** Wholeness of body
-
-**Dizzying Defense (Ex)**
-
-**Ability:** A kata master gains the [dizzying defense](ref/swashdeed/dizzying-defense) swashbuckler
-deed.
-
-**Gained:** At 15th Level
-
-**Replaces:** Quivering palm
+At 15th level, a kata master gains the [dizzying defense](ref/swashdeed/dizzying-defense)
+swashbuckler deed. This ability replaces quivering palm.

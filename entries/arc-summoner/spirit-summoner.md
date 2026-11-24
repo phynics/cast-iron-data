@@ -16,13 +16,18 @@ page = "123"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spirit" },
+  { anchor = "eidolon", level = 1 },
+  { anchor = "hex", level = 6 },
+]
 trades = [
-  { replaces = "Summon monster", feature = "summon-monster-i" },
-  { replaces = "Aspect", feature = "aspect" },
-  { replaces = "maker's call", feature = "maker-s-call" },
-  { replaces = "merge forms", feature = "merge-forms" },
-  { replaces = "transposition", feature = "transposition" },
-  { alters = "Eidolon", feature = "eidolon" },
+  { replaces = "Summon monster", feature = "summon-monster-i", by = ["spirit"] },
+  { replaces = "Aspect", feature = "aspect", by = ["hex"] },
+  { replaces = "maker's call", feature = "maker-s-call", by = ["hex"] },
+  { replaces = "merge forms", feature = "merge-forms", by = ["hex"] },
+  { replaces = "transposition", feature = "transposition", by = ["hex"] },
+  { alters = "Eidolon", feature = "eidolon", by = ["eidolon"] },
 ]
 +++
 
@@ -32,45 +37,38 @@ flesh to his protector spirit, or hostile, as an outlander or rival compelling s
 unwilling spirit. The summoner can draw upon the divine power of this spirit, but is not constrained
 by the spirit's morals or ethics.
 
-**Spirit (Su)**
+## Spirit (Su) {#spirit}
 
-**Ability:** A spirit summoner forms a mystical bond with one [spirit](ref/ability/shaman-spirits)
-from the shaman class. He gains the _spirit ability_ of that spirit and uses his summoner level as
-his shaman level for determining its effects. The spirit summoner can select spells granted by that
-spirit as summoner spells known, using the shaman level of the spell as the summoner spell level.
-The summoner cannot select spirit spells that are above 6th level.
+A [spirit](ref/ability/shaman-spirits) summoner forms a mystical bond with one spirit from the
+shaman class (see page 37). He gains the spirit ability of that spirit and uses his summoner level
+as his shaman level for determining its effects. The spirit summoner can select spells granted by
+that spirit as summoner spells known, using the shaman level of the spell as the summoner spell
+level. The summoner cannot select spirit spells that are above 6th level.
 
-**At 17th Level:** The summoner gains the abilities listed for the _true_ version of his selected
-spirit.
+At 9th level, the summoner gains the abilities listed in the greater version of his selected spirit.
 
-**At 9th Level:** The summoner gains the abilities listed in the _greater_ version of his selected
-spirit.
+At 17th level, the summoner gains the abilities listed for the true version of his selected spirit.
 
-**Replaces:** Summon monster
+This ability replaces _summon monster_.
 
-**Eidolon**
+## Eidolon {#eidolon}
 
-**Alters:** Eidolon
-
-**Info:** A spirit summoner begins play with a powerful outsider called an eidolon. The eidolon's
-form and abilities must be appropriate to his chosen spirit, at the GM's discretion - for example, a
-summoner with the [flame](ref/shamanspirit/flame) spirit cannot have an eidolon with ice or water
-abilities, a summoner with a [heavens](ref/shamanspirit/heavens) spirit cannot have a fiend-like
-eidolon, and so on. The summoner can use temporary effects (such as
+At 1st level, a spirit summoner begins play with a powerful outsider called an eidolon. The
+eidolon's form and abilities must be appropriate to his chosen spirit, at the GM's discretion—for
+example, a summoner with the [flame](ref/shamanspirit/flame) spirit cannot have an eidolon with ice
+or water abilities, a summoner with a [heavens](ref/shamanspirit/heavens) spirit cannot have a
+fiend-like eidolon, and so on. The summoner can use temporary effects (such as
 _[evolution surge](ref/spell/evolution-surge)_) to alter the eidolon into an inappropriate form, but
-cannot use permanent effects (such as _[transmogrify](ref/spell/transmogrify)_) to do so.
+cannot use permanent effects (such as _[transmogrify](ref/spell/transmogrify)_) to do so. This
+ability alters the eidolon class feature.
 
-**Gained:** At 1st Level
+## Hex {#hex}
 
-**Hex**
-
-**Ability:** A spirit summoner can select a shaman hex that is appropriate to his spirit, chosen
+At 6th level, a spirit summoner can select a shaman hex that is appropriate to his spirit, chosen
 from the general list of shaman hexes or the specific hexes allowed by his spirit. This otherwise
 functions as a shaman's hex, and uses his summoner level as his shaman level. Like a shaman, a
 spirit summoner uses his Wisdom modifier to determine hex DCs.
 
-**Gained:** At 6th Level
+At 8th, 10th, and 16th levels, the summoner can select another hex.
 
-**Repeat At:** The summoner can select another hex., 8, 10, 16
-
-**Replaces:** Aspect, maker's call, merge forms, transposition
+This ability replaces aspect, maker's call, merge forms, and transposition.
