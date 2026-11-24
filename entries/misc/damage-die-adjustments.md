@@ -49,8 +49,6 @@ _(Individual creatures vary from values below as appropriate.)_
 
 > _— From [Natural Attacks](ref/umr/natural-attacks)_
 
-**Sources:** PRPG Core Rulebook pg 144
-
 ### Table 6-5: Tiny and Large Weapon Damage
 
 |Tiny Weapon Damage|Small Weapon Damage|Medium Weapon Damage|Large Weapon Damage|

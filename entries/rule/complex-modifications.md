@@ -11,7 +11,7 @@ publication = "construct-handbook"
 page = "8"
 [[sources]]
 publication = "ultimate-magic"
-page = "114-115"
+page = "114-116"
 
 [fields]
 kind = "none"

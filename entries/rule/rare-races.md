@@ -138,7 +138,6 @@ land and underwater.
 comfortable with others of their kind, and typically cluster in small, insular settlements where
 they can assume positions of authority. They tend to have wide mouths, large eyes, and webbed hands.
 
-**Sources:** Pathfinder RPG Bestiary pg 115\
 **Drow Noble:** About one out of every 20 [drow](ref/race/drow) is gifted with special powers from
 birth. [Drow nobles](ref/race/drow-noble) are more powerful than the majority of their kin, and as
 such they quickly rise to power within their communities. Advancement through the hierarchy of a

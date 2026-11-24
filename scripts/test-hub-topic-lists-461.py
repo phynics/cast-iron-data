@@ -7,7 +7,7 @@ Cases: a hub in the warning (a non-first book without a row), with at most 40 wo
 is restored with one block per subtopic in upstream order; a subtopic record that two entries share
 resolves to the one from the same upstream file, then to the `json/rules_*` one; two entries from
 two other files stay unresolved and go to the review file; a second run changes nothing and
-`--check` is 1 before the run and 0 after; a hub with a `[[sources]]` row for every non-first book,
+`--check` is 1 before the run and 0 after, and 2 for a stray, a missing or a misordered block; a hub with a `[[sources]]` row for every non-first book,
 and an entry with real text, are left alone.
 """
 import json
@@ -100,6 +100,25 @@ class HubTopicLists(unittest.TestCase):
         r = self.run_script("--check")
         self.assertEqual(r.returncode, 2, r.stdout)
         self.assertIn("mismatch: ref/rule/hub", r.stdout)
+
+    def test_check_finds_a_missing_and_a_misordered_block(self):
+        self.run_script("--apply")
+        p = self.root / "entries" / "rule" / "hub.md"
+        good = p.read_text(encoding="utf-8")
+        solo = '::: entry-link\ntarget = "ref/rule/solo"\ntitle = "Solo"\n:::\n'
+        weather = '::: entry-link\ntarget = "ref/rule/weather"\ntitle = "Weather"\n:::\n'
+        self.assertIn(solo, good)
+        self.assertIn(weather, good)
+        p.write_text(good.replace("\n" + solo, ""), encoding="utf-8")
+        r = self.run_script("--check")
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("no block for ref/rule/solo", r.stdout)
+        p.write_text(good.replace(weather, "@@").replace(solo, weather).replace("@@", solo), encoding="utf-8")
+        r = self.run_script("--check")
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("another order", r.stdout)
+        p.write_text(good, encoding="utf-8")
+        self.assertEqual(self.run_script("--check").returncode, 0)
 
 
 if __name__ == "__main__":

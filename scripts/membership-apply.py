@@ -357,10 +357,21 @@ def split_segment(seg: str) -> tuple[str, str]:
     return seg, ""
 
 
+SERIES_PREFIX = re.compile(r"^(?:pathfinder rpg|pathfinder roleplaying game|prpg) ")
+
+
+def same_book(seg_title: str, ft: str) -> bool:
+    """The segment's title names the book, with or without the series prefix of the old citations
+    (`Pathfinder RPG Bestiary`, `PRPG Core Rulebook`). `Bestiary 5` is another book."""
+    s = fold(seg_title)
+    return s == ft or SERIES_PREFIX.sub("", s) == ft
+
+
 def convert_body_lines(text: str, title: str, page: str, name: str) -> tuple[str, int]:
     """Take the book's part out of the body `**Source**` lines. Returns the text and the number
     of parts taken out. Refuses a part whose page does not overlap `page`. A line that does not
-    name the book exactly (a longer title, another book) is left as it is."""
+    name the book exactly (a longer title, another book) is left as it is; the series prefix of the
+    old citations (`Pathfinder RPG Bestiary`, `PRPG Core Rulebook`) is not part of the title."""
     start = text.index("+++", 3) + 3 if text.startswith("+++") else 0
     head, body = text[:start], text[start:]
     ft = fold(title)
@@ -376,7 +387,7 @@ def convert_body_lines(text: str, title: str, page: str, name: str) -> tuple[str
         keep, found = [], 0
         for seg in re.split(r",\s*(?=[A-Z])", rest):
             seg_title, seg_page = split_segment(seg)
-            if fold(seg_title) != ft:
+            if not same_book(seg_title, ft):
                 keep.append(seg.strip())
                 continue
             if seg_page and not overlap(seg_page, page):

@@ -166,7 +166,7 @@ following advanced benefit without meeting its prerequisites.\
 a +4 Armor Class bonus to the selected adjacent ally and a +2 Armor Class bonus to all other allies
 within 30 feet of the selected adjacent ally against attacks by the targeted creature.
 
-### Gorum's Swordmanship {#sec-gorum-s-swordmanship}
+### Gorum's Swordsmanship {#sec-gorum-s-swordmanship}
 
 [Gorum](ref/faith/gorum) teaches devastating greatsword techniques.\
 **Optional Replacement:** A chaotic neutral [barbarian](ref/class/barbarian) or

@@ -362,6 +362,17 @@ class CiteTest(unittest.TestCase):
         self.assertEqual(r.returncode, 0, r.stderr)
         self.assertIn("**Sources:** Alpha Book pg 3\n", path.read_text())
 
+    def test_convert_body_reads_the_series_prefix_of_the_old_citations(self):
+        """`Pathfinder RPG Beta Book` and `PRPG Beta Book` are the book; `Beta Book 5` is another one."""
+        text = entry("", "Text.\n\n**Sources:** Pathfinder RPG Beta Book pg 12\\\nA.\n\n**Sources:** PRPG Beta Book pg 12\nB.\n\n"
+                         "**Sources:** Beta Book 5 pg 12\\\nC.\n")
+        r, path, *_ = self.run_cite(text, flags=["--convert-body"])
+        self.assertEqual(r.returncode, 0, r.stderr)
+        body = path.read_text().split("+++", 2)[2]
+        self.assertNotIn("Pathfinder RPG Beta Book", body)
+        self.assertNotIn("PRPG Beta Book", body)
+        self.assertIn("**Sources:** Beta Book 5 pg 12\\\nC.", body)
+
     def test_convert_body_with_another_page_is_refused_before_any_write(self):
         text = entry("", "Text.\n\n**Source** Beta Book pg. 40\\\n")
         r, path, *_ = self.run_cite(text, flags=["--convert-body"])

@@ -130,7 +130,7 @@ the Mammoth Lords, River Kingdoms\
 
 ## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
-[Gorum's Swordmanship](ref/feat/divine-fighting-technique#sec-gorum-s-swordmanship)
+[Gorum's Swordsmanship](ref/feat/divine-fighting-technique#sec-gorum-s-swordmanship)
 
 ## Follower Options
 

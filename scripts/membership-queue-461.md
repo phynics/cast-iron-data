@@ -104,7 +104,7 @@ on a class hub of a class it does not print (owner ruling of 2026-11-24): its p.
 introduction is generic and names only the core classes, so the book stays only on the six core
 classes. `hub-link <target>`, `hub-no-evidence <record>` and `listed-link <target>` record the design (a) verdicts
 of S10 (a hub keeps only its home book): a listed entry carries the book, no listed entry does, or a
-sentence or table row of the page links an entry of that book. `technique-linked` records a faith whose
+sentence or table row of the page links an entry of that book. `copied-generic-section` records a book whose only trace on the entry was a source line over text that the entry copied (generic text, or a sentence that names other entries); the line and the text left the body together with the book (owner ruling of 2026-11-24, as the Moon Hag in S5). `technique-linked` records a faith whose
 quoted technique is a link now. `expansion-no-entry` is a `expands` row whose text no entry holds.
 `membership-apply.py` lets a `hub-keep` row go only with `hub-link`, `listed-link` or `hub-no-evidence`
 evidence. A removal still

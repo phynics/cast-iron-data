@@ -4,7 +4,7 @@ ref/rule/sanity-and-madness	horror-adventures	remove	182	listed-link ref/rule/ma
 ref/rule/underwater-combat	aquatic-adventures	remove	none	listed-link ref/rule/fighting-underwater	a see-also line links the Aquatic Adventures rules, which have their own entry
 ref/ability/familiars	ultimate-wilderness	remove	198	listed-link ref/monster/familiar-giant-isopod	the table row links the familiar, which carries the book
 ref/ability/familiars	animal-archive	expands	10	expansion-no-entry	Animal Archive p. 10 prints one more familiar bonus for the giant isopod; the linked entry does not carry the book and no entry holds that bonus
-ref/rule/monster-sahuagin/sahuagin	monster-codex	remove	188	section-read-no-entry	the Sahuagin chapter (pp. 188-198) prints its own introduction and variants; the boxed description of this page is not printed there
+ref/rule/monster-sahuagin/sahuagin	monster-codex	remove	186	section-read-no-entry	the Sahuagin chapter (pp. 186-197) prints its own introduction and variants; the boxed description of this page is not printed there
 ref/rule/umr-trample/trample	bestiary	cite	305	section-printed	the universal monster rules appendix prints Trample (Ex) on p. 305
 ref/ability/combat-styles	advanced-class-guide	cite	118	section-printed	
 ref/ability/combat-styles	disciples-doctrine	cite	5	section-printed	
@@ -32,15 +32,15 @@ ref/misc/damage-die-adjustments	core-rulebook	cite	144-145	section-printed
 ref/ability/familiars	familiar-folio	cite	31	section-printed	
 ref/ability/familiars	ultimate-magic	cite	118	section-printed	
 ref/ability/blessings	healers-handbook	cite	12-13	section-printed	
-ref/template/vampire	monster-codex	cite	236-237	section-printed	
+ref/template/vampire	monster-codex	cite	236	section-printed	
 ref/ability/spirits	occult-realms	cite	10	section-printed	
 ref/ability/implements	psychic-anthology	cite	26-29	section-printed	
 ref/rule/feats-roleplaying	ultimate-campaign	cite	66	section-printed	
 ref/rule/feats-class	ultimate-combat	cite	78	section-printed	
 ref/rule/feats-other	ultimate-combat	cite	78	section-printed	
 ref/ability/orders	ultimate-combat	cite	21	section-printed	
-ref/rule/common-cursed-item-effects	ultimate-equipment	cite	340, 343	section-printed	
-ref/rule/complex-modifications	ultimate-magic	cite	114-115	section-printed	
+ref/rule/common-cursed-item-effects	ultimate-equipment	cite	340-341, 343	section-printed	
+ref/rule/complex-modifications	ultimate-magic	cite	114-116	section-printed	
 ref/sidekick/eidolon	ultimate-magic	cite	74-75	section-printed	
 ref/ability/sorcerer-bloodlines	ultimate-magic	cite	70	section-printed	
 ref/faith/asmodeus	divine-anthology	remove	28-31	technique-linked ref/feat/divine-fighting-technique	the quoted technique is now a link to its section of the feat entry
@@ -61,5 +61,5 @@ ref/faith/norgorber	divine-anthology	remove	28-31	technique-linked ref/feat/divi
 ref/faith/iomedae	weapon-masters-handbook	remove	10-11	technique-linked ref/feat/divine-fighting-technique	the section was added to the feat entry from print (Weapon Master's Handbook p. 11), then linked
 ref/sidekick/animal-companion	advanced-players-guide	remove	72	generic-archetype-intro	the Archetypes introduction of p. 72 is generic; the copied text and its source line left the body (owner ruling of 2026-11-24)
 ref/sidekick/familiar	advanced-players-guide	remove	72	generic-archetype-intro	the Archetypes introduction of p. 72 is generic; the copied text and its source line left the body (owner ruling of 2026-11-24)
-ref/family/elemental	bestiary-2	remove	114	listed-link ref/monster/ice-elemental	the closing sentence and its source line left the body; the elementals it names carry the book
-ref/family/elemental	bestiary-5	remove	106	listed-link ref/monster/aether-elemental	the closing sentence and its source line left the body; the elemental it names carries the book
+ref/family/elemental	bestiary-2	remove	none	copied-generic-section	the closing sentence and its source line (Bestiary 2, Bestiary 5) were copied generic text and left the body (owner ruling 3 of 2026-11-24); the book prints no Elemental section
+ref/family/elemental	bestiary-5	remove	none	copied-generic-section	the closing sentence and its source line (Bestiary 2, Bestiary 5) were copied generic text and left the body (owner ruling 3 of 2026-11-24); the book prints no Elemental section

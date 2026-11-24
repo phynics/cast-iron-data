@@ -41,7 +41,6 @@ creature can move up to twice its land speed as part of the trample.
 
 ## Stampede
 
-**Sources:** Pathfinder RPG Bestiary pg 174\
 A stampede occurs if three or more creatures with stampede make a trample attack while remaining
 adjacent to each other. While stampeding, the creatures can trample foes of their size or smaller,
 and the trample's save DC increases by +2.

@@ -14,7 +14,7 @@ publication = "classic-horrors-revisited"
 page = "50"
 [[sources]]
 publication = "monster-codex"
-page = "236-237"
+page = "236"
 
 [fields]
 kind = "none"

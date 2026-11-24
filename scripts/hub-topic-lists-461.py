@@ -34,7 +34,8 @@ body links already (an inline link or a block) is skipped, and so is a repeated 
 twice changes nothing.
 
 `--check` writes nothing. It exits 1 when a hub still lacks a block, and 2 when a block does not
-match what the dataset says (a block of the hub that no subtopic resolves to). Output has ids only.
+match what the dataset says: a block that no subtopic resolves to, a subtopic without its block, or
+blocks in another order than upstream. Output has ids only.
 """
 from __future__ import annotations
 
@@ -271,9 +272,15 @@ def verify_restored(root: Path, ds: Dataset) -> list[str]:
                 tid, _ = resolve(r, pv["path"], by_rec)
                 if tid and tid != eid and tid not in want:
                     want.append(tid)
+            linked = set(LINK.findall(BLOCK.sub("", body)))
             extra = [t for t in have if t not in want]
             if extra:
                 bad.append(f"{eid} has a block for {extra[0]} that no subtopic resolves to")
+            missing = [t for t in want if t not in have and t not in linked]
+            if missing:
+                bad.append(f"{eid} has no block for {missing[0]} ({len(missing)} missing)")
+            if [t for t in have if t in want] != [t for t in want if t in have]:
+                bad.append(f"{eid} lists its blocks in another order than the dataset")
             break
     return bad
 
