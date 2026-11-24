@@ -735,7 +735,7 @@ def split_print(section: list[Para], expected: list[str]) -> tuple[list[list], l
 # ---- trade sentences ---------------------------------------------------------------------------------
 
 TRADE_SENTENCE = re.compile(
-    r"(?:^|(?<=[.!?]\s))((?:This|These|It)\b(?:\s+(?:ability|abilities|class|feature|features|power|powers|archetype|also|otherwise|acts|works|functions|as|like|and))*\s+(replaces?|alters?)\b[^.]*\.)",
+    r"(?:^|(?<=[.!?]\s))((?:This|These|It)\b(?:\s+(?:ability|abilities|class|feature|features|power|powers|archetype|performance|performances|trick|tricks|talent|talents|hex|hexes|discovery|discoveries|revelation|revelations|mercy|mercies|deed|deeds|exploit|exploits|arcana|arcanum|feat|feats|also|otherwise|acts|works|functions|as|like|and))*\s+(replaces?|alters?)\b[^.]*\.)",
     re.I,
 )
 
@@ -751,7 +751,7 @@ def trade_sentences(text: str) -> list[tuple[str, str, bool]]:
         op = "replaces" if m.group(2).lower().startswith("replace") else "alters"
         sentence = m.group(1)
         subject = re.match(r"^(?:This|These|It)\b(.*?)\b(?:replaces?|alters?)\b", sentence, re.I).group(1)
-        bare = not re.search(r"\b(?:ability|abilities|feature|features|power|powers|archetype)\b", subject, re.I)
+        bare = not re.search(r"\b(?:ability|abilities|feature|features|power|powers|archetype|performances?|tricks?|talents?|hex(?:es)?|discover(?:y|ies)|revelations?|merc(?:y|ies)|deeds?|exploits?|arcana|arcanum)\b", subject, re.I)
         phrase = re.sub(r"^(?:This|These|It)\b.*?\b(?:replaces?|alters?)\b", "", sentence, flags=re.I).strip().rstrip(".")
         out.append((op, phrase, bare))
     return out
@@ -1308,12 +1308,13 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
 
 def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tuple[dict[int, list[str]], list[str]]:
     """For each trade, the anchors of the listed features whose printed text states it. A trade that print
-    states only in the opening text gets no `by`. Returns the map and the problems."""
+    states only in the opening text (the blocks before the first listed feature) gets no `by`. A trade that
+    print never states in a sentence takes the listed feature of its own name that prints no trade sentence
+    (owner ruling A of 2026-11-24: the feature prints the changed ability). Returns the map and the problems."""
     problems: list[str] = []
     by: dict[int, list[str]] = {}
     sentences = {f["anchor"]: trade_sentences(f["print"]) for f in listed}
     opening_sentences = [s for o in opening for s in trade_sentences(o)]
-    used_sentences: set[tuple[str, str]] = set()
     for i, t in enumerate(trades):
         op, name = trade_name(t)
         anchors = [f["anchor"] for f in listed
@@ -1323,14 +1324,57 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
         elif any(sop == op and covers(ph, name) for sop, ph, _ in opening_sentences):
             by[i] = []
         else:
-            problems.append(f"the {op} trade `{name}` is not printed in a feature or in the opening text")
+            own = [f["anchor"] for f in listed
+                   if not sentences[f["anchor"]] and namekey(f["head"]) == namekey(name)]
+            if own:
+                by[i] = own
+            else:
+                problems.append(f"the {op} trade `{name}` is not printed in a sentence, and no listed feature of that name prints it")
     for f in listed:
         for sop, ph, bare in sentences[f["anchor"]]:
-            if re.match(r"both\b", ph, re.I):
-                problems.append(f"{f['head']}: the app's sentence reader does not read \"{sop} both ...\"")
             if not bare and not any(sop == trade_name(t)[0] and covers(ph, trade_name(t)[1]) for t in trades):
                 problems.append(f"{f['head']}: the sentence \"This ability {sop} {ph}\" names no trade")
     return by, problems
+
+
+# A stored trade whose printed name the reader cannot match to the printed sentence takes the printed
+# words (owner instruction of 2026-11-24; the `feature` link and the ids stay). The TSV note records it.
+TRADE_RENAMES = {
+    ("ref/arc-druid/urban-druid", "Spontaneous casting"): "Ability to spontaneously cast summon nature's ally spells",
+    ("ref/arc-ranger/skirmisher", "Spellcasting ability"): "Spells",
+    ("ref/arc-monk/monk-of-the-empty-hand", "Weapon proficiencies"): "Normal monk weapon proficiencies",
+}
+
+
+def effective_trades(e: Entry) -> list[dict]:
+    out = []
+    for t in trades_of(e):
+        op, name = trade_name(t)
+        new = TRADE_RENAMES.get((e.id, name))
+        out.append(dict(t, **{op: new}) if new else t)
+    return out
+
+
+def opening_texts(rows: list[dict], opening: list[str]) -> list[str]:
+    """The text that the app reads as the opening: the printed opening and the unlisted sections before the
+    first listed feature."""
+    texts = list(opening)
+    for r in rows:
+        if r["listed"]:
+            break
+        texts.append(r["print"])
+    return texts
+
+
+def late_unlisted_sentences(rows: list[dict]) -> list[str]:
+    """Trade sentences in an unlisted section after the first listed feature: the check refuses them."""
+    seen, out = False, []
+    for r in rows:
+        if r["listed"]:
+            seen = True
+        elif seen and r["print"] and any(not bare for _, _, bare in trade_sentences(r["print"])):
+            out.append(r["head"])
+    return out
 
 
 def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
@@ -1370,9 +1414,17 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         if n > 1:
             problems.append(f"anchor `{a}` occurs {n} times")
     listed = [r for r in rows if r["listed"]]
-    trades = trades_of(e)
-    by, more = assign_by(trades, listed, res["opening"]) if all(r["print"] for r in listed) else ({}, [])
+    trades = effective_trades(e)
+    by, more = assign_by(trades, listed, opening_texts(rows, res["opening"])) if all(r["print"] for r in listed) else ({}, [])
     problems += more
+    for head in late_unlisted_sentences(rows):
+        problems.append(f"{head}: a trade sentence under a heading that is not a feature, after the first feature")
+    for i, t in enumerate(trades):
+        old = trades_of(e)[i]
+        if old != t:
+            anchors = by.get(i) or [rows[0]["anchor"]]
+            note = f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
+            next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
     for r in rows:
         first = r["print"].split("\n\n", 1)[0] if r["print"] else ""
         r["level"] = lead_level(first)
@@ -1388,7 +1440,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 for t in mine:
                     cls = t.get("class") or (e.classes[0] if e.classes else "")
                     firsts.append(bool(cls) and namekey(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache))
-                if all(firsts):
+                if all(firsts) and all(trade_name(t)[0] == "replaces" for t in mine):
                     r["level"] = 1
                     r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", gained at 1st level in the class table")
         if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold":
@@ -1543,7 +1595,7 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     status = {r["anchor"]: r["status"] for r in rows if r["anchor"]}
     feats = prop["feature"]
     listed = [dict(f, print=feature_text(f, status.get(f["anchor"], "print"))) for f in feats if f["listed"]]
-    by, problems = assign_by(trades_of(e), listed, prop.get("opening", []))
+    by, problems = assign_by(effective_trades(e), listed, opening_texts([dict(f, print=feature_text(f, status.get(f["anchor"], "print"))) for f in feats], prop.get("opening", [])))
     if problems:
         raise ValueError("; ".join(problems))
     probe = {namekey(f["head"]) for f in feats}
@@ -1554,6 +1606,9 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
     front = edit_front(e.front, feats, by, len(trades_of(e)))
+    for (eid, old), new in TRADE_RENAMES.items():
+        if eid == e.id:
+            front = front.replace(f'"{old}"', f'"{new}"', 1)
     return "+++\n" + front + "\n+++\n\n" + "\n\n".join(parts) + "\n"
 
 
