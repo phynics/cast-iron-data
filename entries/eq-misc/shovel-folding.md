@@ -2,7 +2,7 @@
 id = "ref/eq-misc/shovel-folding"
 kind = "item"
 title = "Shovel (folding)"
-source_ids = ["core-rulebook", "ultimate-equipment", "pathfinder-51-the-hungry-storm", "adventurers-armory"]
+source_ids = ["core-rulebook", "ultimate-equipment", "pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shovel_folding", path = "json/equipment_misc3.json" },
 ]

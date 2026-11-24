@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "91"
 [[sources]]
+publication = "technology-guide"
+page = "5"
+[[sources]]
 publication = "pathfinder-unchained"
 page = "83"
 
@@ -163,7 +166,6 @@ harvested poison and create antivenoms) and the [salvaging](ref/rule/salvaging) 
 
 ### Technology
 
-**Sources:** Technology Guide pg 5\
 Craft (mechanical) can be used with the [technological equipment](ref/rule/technological-equipment)
 rules.
 

@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "520"
 [[sources]]
+publication = "pathfinder-society-primer"
+page = "23"
+[[sources]]
 publication = "seekers-of-secrets"
 page = "46"
 
@@ -47,8 +50,6 @@ Cost: half the market price
 :::
 
 ### Resonant Powers
-
-**Sources:** Pathfinder Society Primer
 
 When an ioun stone is set within the special indentation in a
 [wayfinder](ref/magic-wondrous/wayfinder), a secondary resonant power sometimes manifests to augment

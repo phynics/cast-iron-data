@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "93"
 [[sources]]
+publication = "game-mastery-guide"
+page = "204"
+[[sources]]
 publication = "occult-adventures"
 page = "195"
 [[sources]]
@@ -108,8 +111,6 @@ Using Diplomacy to gather information takes 1d4 hours of work searching for rumo
 You can retry Diplomacy checks made to gather information.
 
 #### Calling for the Guards
-
-**Sources:** GameMastery Guide pg 204
 
 It's inevitable - sooner or later, the PCs will want to call upon the town guard or cause a
 situation where citizens do so instead. Calling for the guard requires a Diplomacy check modified by

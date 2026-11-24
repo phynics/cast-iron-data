@@ -3,7 +3,7 @@ id = "ref/trait/scourge-of-the-seas"
 kind = "trait"
 title = "Scourge of the Seas"
 aon = "TraitDisplay.aspx?ItemName=Scourge%20of%20the%20Seas"
-source_ids = ["advanced-class-origins", "inner-sea-npc-codex"]
+source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scourge_of_the_seas", path = "json/traits04.json" },
 ]

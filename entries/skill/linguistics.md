@@ -13,6 +13,9 @@ page = "100"
 publication = "occult-adventures"
 page = "194"
 [[sources]]
+publication = "technology-guide"
+page = "5"
+[[sources]]
 publication = "pathfinder-unchained"
 page = "85"
 
@@ -136,7 +139,6 @@ Yes. You can attempt to learn more about a subject, but can still attempt only o
 
 ### Technology
 
-**Sources:** Technology Guide pg 5\
 A character with the [Technologist](ref/feat/technologist) feat can attempt a Linguistics check to
 decipher certain complex messages that appear in ruins. Note that many of these messages are written
 in Androffan. This language is spoken outside only rarely, and even within its borders, some have

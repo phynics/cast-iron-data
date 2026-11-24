@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "cheliax-the-infernal-empire"
 page = "57"
+[[sources]]
+publication = "blood-of-the-coven"
+page = "12-13"
 
 [fields]
 kind = "creature"
@@ -128,8 +131,6 @@ Pyrophile: The changeling gains a +1 racial bonus on damage rolls when using spe
 descriptor. This bonus increases by 1 for every 4 levels the changeling has beyond 1st.
 
 ### Customizing Hag Covens
-
-**Sources:** Blood of the Coven
 
 Any group of three hags can form a coven, but realistically, many types of hags will never cross
 paths or deign to work with one another. Blood hags are loath to form covens that are not under

@@ -3,7 +3,7 @@ id = "ref/spell/tongues"
 kind = "spell"
 title = "Tongues"
 aon = "SpellDisplay.aspx?ItemName=Tongues"
-source_ids = ["core-rulebook", "ultimate-combat"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tongues", path = "json/spells10.json" },
 ]

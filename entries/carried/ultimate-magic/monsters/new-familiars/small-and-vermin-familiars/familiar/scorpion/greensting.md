@@ -8,6 +8,9 @@ tags = ["vermin", "familiar", "tiny"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Ultimate Magic/Monsters/New Familiars/Small and Vermin Familiars/Familiar/Scorpion/Greensting", path = "ultimate_magic/creature/familiar/familiar_scorpion_greensting.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "232"
 
 [fields]
 kind = "creature"

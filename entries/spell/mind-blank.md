@@ -3,7 +3,7 @@ id = "ref/spell/mind-blank"
 kind = "spell"
 title = "Mind Blank"
 aon = "SpellDisplay.aspx?ItemName=Mind%20Blank"
-source_ids = ["core-rulebook", "ultimate-combat"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_blank", path = "json/spells14.json" },
 ]

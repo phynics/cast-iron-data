@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "94"
 [[sources]]
+publication = "technology-guide"
+page = "5"
+[[sources]]
 publication = "pathfinder-unchained"
 page = "83"
 
@@ -101,7 +104,6 @@ You can retry checks made to open locks.
 
 ### Technology
 
-**Sources:** Technology Guide pg 5\
 Disable Device can be used with the [technological equipment](ref/rule/technological-equipment)
 rules.
 

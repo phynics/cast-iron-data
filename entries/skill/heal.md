@@ -13,6 +13,9 @@ page = "98"
 publication = "occult-adventures"
 page = "195"
 [[sources]]
+publication = "technology-guide"
+page = "5"
+[[sources]]
 publication = "pathfinder-unchained"
 page = "84"
 
@@ -196,7 +199,6 @@ permanently remove an affliction again.
 
 ### Researching Technology
 
-**Sources:** Technology Guide pg 5\
 When using the [technological equipment](ref/rule/technological-equipment) rules, a character can
 use Heal to identify and understand pharmaceuticals.
 

@@ -2,7 +2,7 @@
 id = "ref/affliction/hag-moon-hag/dreadful-ravings"
 kind = "affliction"
 title = "Dreadful Ravings"
-source_ids = ["planar-adventures", "blood-of-the-coven"]
+source_ids = ["planar-adventures"]
 parent = "ref/monster/hag-moon-hag"
 tags = ["curse"]
 provenance = [

@@ -2,7 +2,7 @@
 id = "ref/monster/yak"
 kind = "creature"
 title = "Yak (Herd Animal)"
-source_ids = ["bestiary", "pathfinder-51-the-hungry-storm", "ultimate-equipment"]
+source_ids = ["bestiary", "pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yak", path = "json/monsters13.json" },
 ]

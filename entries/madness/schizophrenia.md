@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "horror-adventures"
 page = "187"
+[[sources]]
+publication = "game-mastery-guide"
+page = "251"
 
 [fields]
 kind = "none"
@@ -30,7 +33,6 @@ throw or become [confused](ref/misc/confused) for 1d6 rounds.
 
 ### Schizophrenia (original rules version)
 
-**Sources:** GameMastery Guide pg 251\
 **Type** insanity; **Save** Will DC 16\
 **Onset** 1d6 days\
 **Effect** -4 penalty on Wisdom- and Charisma-based skill checks; chance of becoming confused (see

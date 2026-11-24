@@ -3,7 +3,7 @@ id = "ref/feat/leadership"
 kind = "feat"
 title = "Leadership"
 aon = "FeatDisplay.aspx?ItemName=Leadership"
-source_ids = ["core-rulebook", "ultimate-intrigue"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leadership", path = "json/feat10.json" },
 ]

@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "we-be-goblins"
 page = "14"
+[[sources]]
+publication = "goblins-of-golarion"
+page = "16"
 
 [fields]
 kind = "trait"

@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "horror-adventures"
 page = "186"
+[[sources]]
+publication = "game-mastery-guide"
+page = "250"
 
 [fields]
 kind = "none"
@@ -38,7 +41,6 @@ regains the full abilities of the class; recalculate his level based on his tota
 
 ### Amnesia (original rules version)
 
-**Sources:** GameMastery Guide pg 250\
 **Type** insanity; **Save** Will DC 20\
 **Onset** immediate\
 **Effect** -4 penalty on Will saving throws and all skill checks; loss of memory (see below)

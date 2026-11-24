@@ -43,7 +43,6 @@ violently, that the other personalities exist.
 
 ## Multiple Personality Disorder (original rules version)
 
-**Sources:** GameMastery Guide pg 251\
 **Type** insanity; **Save** Will DC 19\
 **Onset** 2d6 days\
 **Effect** -6 penalty on Will saving throws and Wisdom-based skill checks; multiple personalities

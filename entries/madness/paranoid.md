@@ -37,7 +37,6 @@ introverted.
 
 ### Paranoia (original rules version)
 
-**Sources:** GameMastery Guide pg 251\
 **Type** insanity; **Save** Will DC 17\
 **Onset** 2d6 days\
 **Effect** -4 penalty on Will saves and Charisma-based skill checks; cannot receive benefit from or

@@ -3,7 +3,7 @@ id = "ref/spell/simulacrum"
 kind = "spell"
 title = "Simulacrum"
 aon = "SpellDisplay.aspx?ItemName=Simulacrum"
-source_ids = ["core-rulebook", "ultimate-magic"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simulacrum", path = "json/spells9.json" },
 ]

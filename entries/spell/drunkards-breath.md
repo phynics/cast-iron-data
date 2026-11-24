@@ -3,7 +3,7 @@ id = "ref/spell/drunkards-breath"
 kind = "spell"
 title = "Drunkard's Breath"
 aon = "SpellDisplay.aspx?ItemName=Drunkard%27s%20Breath"
-source_ids = ["pathfinder-14-children-of-the-void", "inner-sea-gods"]
+source_ids = ["pathfinder-14-children-of-the-void"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunkards_breath", path = "json/spells13.json" },
 ]

@@ -3,7 +3,7 @@ id = "ref/spell/ironbloom-sprouts"
 kind = "spell"
 title = "Ironbloom Sprouts"
 aon = "SpellDisplay.aspx?ItemName=Ironbloom%20Sprouts"
-source_ids = ["pathfinder-62-curse-of-the-ladys-light", "inner-sea-gods"]
+source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironbloom_sprouts", path = "json/spells6.json" },
 ]
