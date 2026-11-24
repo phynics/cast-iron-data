@@ -2,7 +2,7 @@
 id = "ref/racial-trait/half-orc/orc-blood"
 kind = "racial_trait"
 title = "Orc Blood"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "bastards-of-golarion", "advanced-players-guide", "occult-adventures"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/half-orc"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_orc|racial-trait:orc-blood", path = "json/races2.json" },

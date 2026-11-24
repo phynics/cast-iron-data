@@ -25777,22 +25777,22 @@ basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-phobia"
-target = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-phobia"
+target = "ref/madness/mania"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/sanity-and-madness/types-of-insanity/multiple-personality-disorder"
-target = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/multiple-personality-disorder"
+target = "ref/madness/dissociated-identity"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/sanity-and-madness/types-of-insanity/paranoia"
-target = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/paranoia"
+target = "ref/madness/paranoid"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis"
-target = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis"
+target = "ref/madness/moral-insanity"
 basis = "carried"
 
 [[entries]]
@@ -32228,6 +32228,26 @@ basis = "shared"
 [[entries]]
 old = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia"
 target = "ref/madness/amnesia"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-phobia"
+target = "ref/madness/mania"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/multiple-personality-disorder"
+target = "ref/madness/dissociated-identity"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/paranoia"
+target = "ref/madness/paranoid"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis"
+target = "ref/madness/moral-insanity"
 basis = "shared"
 
 [[entries]]

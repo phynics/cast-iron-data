@@ -2,7 +2,7 @@
 id = "ref/racial-trait/halfling/attributes"
 kind = "racial_trait"
 title = "Attributes"
-source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "horror-adventures", "legacy-of-dragons", "halflings-of-golarion", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "halflings-of-golarion"]
 parent = "ref/race/halfling"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling|racial-trait:attributes", path = "json/races2.json" },
@@ -19,6 +19,9 @@ page = "26"
 [[sources]]
 publication = "advanced-race-guide"
 page = "60"
+[[sources]]
+publication = "halflings-of-golarion"
+page = "inside cover"
 
 [fields]
 kind = "racial_trait"

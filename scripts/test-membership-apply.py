@@ -326,6 +326,12 @@ class CiteTest(unittest.TestCase):
             self.assertNotEqual(r.returncode, 0, page)
             self.assertEqual(path.read_text(), text)
 
+    def test_inside_cover_is_a_page(self):
+        """Some books print an entry on the inside cover, which has no number (corpus convention)."""
+        r, path, *_ = self.run_cite(entry("", "Text.\n"), print_page="inside cover")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn('publication = "book-b"\npage = "inside cover"\n', path.read_text())
+
     def test_body_line_stays_unless_convert_body_is_given(self):
         text = entry("", "Text.\n\n**Source** Beta Book pg. 12\\\nMore text.\n")
         r, path, *_ = self.run_cite(text)

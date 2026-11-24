@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "horror-adventures"
 page = "187"
+[[sources]]
+publication = "game-mastery-guide"
+page = "251"
 
 [fields]
 kind = "none"
@@ -43,10 +46,10 @@ violently, that the other personalities exist.
 **Sources:** GameMastery Guide pg 251\
 **Type** insanity; **Save** Will DC 19\
 **Onset** 2d6 days\
-**Effect** -6 penalty on Will saving throws and Wisdom-based checks; disassociated identities (see
-below)
+**Effect** -6 penalty on Will saving throws and Wisdom-based skill checks; multiple personalities
+(see below)
 
-This is a complicated affliction that manifests as two or more distinct and different personalities
+This is a complicated disorder that manifests as 1 or more distinct and different personalities
 within the same body and mind. The number of additional personalities the victim manifests equals
 the DC of the insanity divided by 10 (round down, minimum of 1 additional personality). Should the
 insanity worsen in some way (such as by the save DC increasing), the number of additional

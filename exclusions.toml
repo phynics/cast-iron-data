@@ -57322,6 +57322,22 @@ reason = "duplicate of ref/spell/make-whole-greater"
 path = "ref/carried/technology-guide/rules/technology-in-the-world/spells/remove-radioactivity/greater"
 reason = "duplicate of ref/spell/remove-radioactivity-greater"
 
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-phobia"
+reason = "duplicate of ref/madness/mania"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis"
+reason = "duplicate of ref/madness/moral-insanity"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/paranoia"
+reason = "duplicate of ref/madness/paranoid"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/multiple-personality-disorder"
+reason = "duplicate of ref/madness/dissociated-identity"
+
 [[resolved]]
 path = "json/prestige_classes.json#thought_thief_arcane_trickster"
 entries = ["ref/pclass/thought-thief-arcane-trickster"]

@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "horror-adventures"
 page = "185"
+[[sources]]
+publication = "game-mastery-guide"
+page = "251"
 
 [fields]
 kind = "none"
@@ -32,7 +35,7 @@ A paranoid character is convinced that the world and society are conspiring towa
 Typically those afflicted with paranoia are fidgety, argumentative, sullen, or extremely
 introverted.
 
-## Paranoia (original rules version)
+### Paranoia (original rules version)
 
 **Sources:** GameMastery Guide pg 251\
 **Type** insanity; **Save** Will DC 17\

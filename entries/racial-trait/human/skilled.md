@@ -2,7 +2,7 @@
 id = "ref/racial-trait/human/skilled"
 kind = "racial_trait"
 title = "Skilled"
-source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "legacy-of-dragons", "advanced-players-guide", "horror-adventures", "heroes-of-the-high-court", "blood-of-shadows", "heroes-of-the-wild", "legacy-of-the-first-world", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook"]
 parent = "ref/race/human"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human|racial-trait:skilled", path = "json/races2.json" },
