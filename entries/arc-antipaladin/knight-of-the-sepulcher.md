@@ -16,25 +16,15 @@ page = "64"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "touch-of-the-crypt", level = 5 },
-  { anchor = "fortitude-of-the-crypt", level = 8 },
-  { anchor = "cloak-of-the-crypt", level = 10 },
-  { anchor = "will-of-the-crypt", level = 11 },
-  { anchor = "weapons-of-sin", level = 14 },
-  { anchor = "crypt-lord", level = 15 },
-  { anchor = "soul-of-the-crypt", level = 17 },
-  { anchor = "undying-champion", level = 20 },
-]
 trades = [
-  { replaces = "Fiendish boon", feature = "fiendish-boon", by = ["touch-of-the-crypt"] },
-  { replaces = "Aura of despair", feature = "aura-of-despair", by = ["fortitude-of-the-crypt"] },
-  { replaces = "The smite good use gained at 10th level", feature = "smite-good", levels = [10], by = ["cloak-of-the-crypt"] },
-  { replaces = "Aura of vengeance", feature = "aura-of-vengeance", by = ["will-of-the-crypt"] },
-  { replaces = "Aura of sin", feature = "aura-of-sin", by = ["weapons-of-sin"] },
-  { replaces = "Cruelty", feature = "cruelty", by = ["crypt-lord"] },
-  { replaces = "Aura of depravity", feature = "aura-of-depravity", by = ["soul-of-the-crypt"] },
-  { replaces = "Unholy champion", feature = "unholy-champion", by = ["undying-champion"] },
+  { replaces = "Fiendish boon", feature = "fiendish-boon" },
+  { replaces = "Aura of despair", feature = "aura-of-despair" },
+  { replaces = "The smite good use gained at 10th level", feature = "smite-good", levels = [10] },
+  { replaces = "Aura of vengeance", feature = "aura-of-vengeance" },
+  { replaces = "Aura of sin", feature = "aura-of-sin" },
+  { replaces = "Cruelty", feature = "cruelty" },
+  { replaces = "Aura of depravity", feature = "aura-of-depravity" },
+  { replaces = "Unholy champion", feature = "unholy-champion" },
 ]
 +++
 
@@ -43,60 +33,88 @@ sacrifices mortality along with morality.
 
 The knight of the sepulcher archetype is available only to the antipaladin alternate class.
 
-## Touch of the Crypt (Ex) {#touch-of-the-crypt}
+**Touch of the Crypt (Ex)**
 
-At 5th level, a knight of the sepulcher gains a +2 bonus on saving throws against mind-affecting
+**Gained:** At 5th Level
+
+**Passive:** A knight of the sepulcher gains a +2 bonus on saving throws against mind-affecting
 effects, death effects, and poison. He is harmed by positive energy effects and healed by negative
 energy effects as though he were undead, although negative energy effects that don't heal undead
 (such as [enervation](ref/spell/enervation)) affect him normally. The knight of the sepulcher has a
 25% chance of ignoring critical hits and the bonus damage from
-[sneak attacks](ref/ability/sneak-attack) as though he were wearing _armor of
-[light fortification](ref/magic-enh/fortification-light)_. This ability replaces the fiendish boon
-ability.
+[sneak attacks](ref/ability/sneak-attack) as though he were wearing armor of
+[light fortification](ref/magic-enh/fortification-light).
 
-## Fortitude of the Crypt (Ex) {#fortitude-of-the-crypt}
+**Replaces:** Fiendish boon
 
-At 8th level, a knight of the sepulcher gains immunity to poison. He also gains
-[darkvision](ref/rule/darkvision) 60 feet if he does not already possess it. This ability replaces
-the aura of despair ability.
+**Fortitude of the Crypt (Ex)**
 
-## Cloak of the Crypt (Ex) {#cloak-of-the-crypt}
+**Gained:** At 8th Level
 
-At 10th level, the knight of the sepulcher gains immunity to energy drain and harmful negative
-energy effects. His chance of ignoring critical hits and sneak attacks increases to 50%, as though
-he were wearing _armor of [moderate fortification](ref/magic-enh/fortification-moderate)_. This
-ability replaces the smite good use gained at 10th level.
+**Passive:** A knight of the sepulcher gains immunity to poison. He also gains
+[darkvision](ref/rule/darkvision) 60 feet if he does not already possess it.
 
-## Will of the Crypt (Ex) {#will-of-the-crypt}
+**Replaces:** Aura of despair
 
-At 11th level, a knight of the sepulcher's bonus on saving throws against mind-affecting effects and
-death effects increases to +4. This ability replaces the aura of vengeance ability.
+**Cloak of the Crypt (Ex)**
 
-## Weapons of Sin (Su) {#weapons-of-sin}
+**Gained:** At 10th Level
 
-At 14th level, a knight of the sepulcher's weapons are treated as evil-aligned for the purposes of
-overcoming [damage reduction](ref/rule/damage-reduction). This ability replaces aura of sin.
+**Passive:** The knight of the sepulcher gains immunity to energy drain and harmful negative energy
+effects. His chance of ignoring critical hits and sneak attacks increases to 50%, as though he were
+wearing armor of [moderate fortification](ref/magic-enh/fortification-moderate).
 
-## Crypt Lord (Ex) {#crypt-lord}
+**Replaces:** The smite good use gained at 10th level
 
-At 15th level, a knight of the sepulcher's chance of ignoring critical hits and sneak attacks
-increases to 75%, as though he were wearing _armor of
-[heavy fortification](ref/magic-enh/fortification-heavy)_. He gains immunity to death effects,
+**Will of the Crypt (Ex)**
+
+**Gained:** At 11th Level
+
+**Passive:** A knight of the sepulcher's bonus on saving throws against mind-affecting effects and
+death effects increases to +4.
+
+**Replaces:** Aura of vengeance
+
+**Weapons of Sin (Su)**
+
+**Gained:** At 14th Level
+
+**Passive:** A knight of the sepulcher's weapons are treated as evil-aligned for the purposes of
+overcoming [damage reduction](ref/rule/damage-reduction).
+
+**Replaces:** Aura of sin
+
+**Crypt Lord (Ex)**
+
+**Gained:** At 15th Level
+
+**Passive:** A knight of the sepulcher's chance of ignoring critical hits and sneak attacks
+increases to 75%, as though he were wearing armor of
+[heavy fortification](ref/magic-enh/fortification-heavy). He gains immunity to death effects,
 paralysis, sleep effects, and stunning. He no longer sleeps. The knight of the sepulcher also gains
 immunity to effects that cause fatigue, and effects that would cause him to become
-[exhausted](ref/misc/exhausted) instead cause him to become [fatigued](ref/misc/fatigued). This
-ability replaces cruelty.
+[exhausted](ref/misc/exhausted) instead cause him to become [fatigued](ref/misc/fatigued).
 
-## Soul of the Crypt (Su) {#soul-of-the-crypt}
+**Replaces:** Cruelty
 
-At 17th level, a knight of the sepulcher gains DR 5/bludgeoning and good. This ability replaces aura
-of depravity.
+**Soul of the Crypt (Su)**
 
-## Undying Champion (Ex) {#undying-champion}
+**Gained:** At 17th Level
 
-At 20th level, a knight of the sepulcher joins the ranks of the [undead](ref/type/undead). His DR
-increases to 10/bludgeoning and good. His type changes to undead, and he acquires all
-[undead traits](ref/umr/undead-traits). Although immune to disease, he can still carry and spread
-diseases with the antipaladin's plague bringer ability. The undying champion no longer has a
-Constitution score. He uses his Charisma score for calculating hit points, Fortitude saves, and any
-special abilities that rely on Constitution. This ability replaces unholy champion.
+**Passive:** A knight of the sepulcher gains DR 5/bludgeoning and good.
+
+**Replaces:** Aura of depravity
+
+**Undying Champion (Ex)**
+
+**Flavor:** A knight of the sepulcher joins the ranks of the undead.
+
+**Gained:** At 20th Level
+
+**Passive:** His DR increases to 10/bludgeoning and good. His type changes to
+[undead](ref/type/undead), and he acquires all [undead traits](ref/umr/undead-traits). Although
+immune to disease, he can still carry and spread diseases with the antipaladin's _plague bringer_
+ability. The undying champion no longer has a Constitution score. He uses his Charisma score for
+calculating hit points, Fortitude saves, and any special abilities that rely on Constitution.
+
+**Replaces:** Unholy champion

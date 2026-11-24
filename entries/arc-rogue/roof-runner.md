@@ -16,14 +16,9 @@ page = "74"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "roof-running", level = 1 },
-  { anchor = "tumbling-descent", level = 2 },
-  { anchor = "advanced-talents" },
-]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding", by = ["roof-running"] },
-  { replaces = "Trap sense", feature = "trap-sense", by = ["tumbling-descent"] },
+  { replaces = "Trapfinding", feature = "trapfinding" },
+  { replaces = "Trap sense", feature = "trap-sense" },
 ]
 +++
 
@@ -31,29 +26,33 @@ A specialized urban acrobat, the roof runner makes her home high atop the spires
 cities. She is skilled at traveling these uneven surfaces at full speed, performing daring leaps and
 deftly balancing upon narrow and precarious ledges.
 
-## Roof Running (Ex) {#roof-running}
+**Roof Running (Ex)**
 
-At 1st level, a roof runner becomes entirely adept at moving across the tops of buildings, spires,
-and similar locations. Provided she is wearing light armor or no armor, the roof runner can move at
-full speed while traveling across the tops of buildings or similar structures, and takes no
-penalties on any Dexterity-based Skill checks or Reflex saves that might be incurred from moving
-about on a roof. This ability replaces trapfinding.
+**Ability:** Provided she is wearing light armor or no armor, the roof runner can move at full speed
+while traveling across the tops of buildings or similar structures, and takes no penalties on any
+Dexterity-based Skill checks or Reflex saves that might be incurred from moving about on a roof.
 
-## Tumbling Descent (Ex) {#tumbling-descent}
+**Flavor:** A roof runner becomes entirely adept at moving across the tops of buildings, spires, and
+similar locations.
 
-At 2nd level, a roof runner can use her acrobatics skill to attempt a rapid descent from a rooftop
-or another surface, ricocheting against another surface and then diving through an opening (such as
-a balcony or window) directly below. So long as she has at least two surfaces no farther than 10
-feet apart to bounce against, she can ricochet her body back from one to the next, descending great
+**Gained:** At 1st Level
+
+**Replaces:** Trapfinding
+
+**Tumbling Descent (Ex)**
+
+**Ability:** A roof runner can use her Acrobatics skill to attempt a rapid descent from a rooftop or
+another surface, ricocheting against another surface and then diving through an opening (such as a
+balcony or window) directly below. So long as she has at least two surfaces no farther than 10 feet
+apart to bounce against, she can ricochet her body back from one to the next, descending great
 distances with a single check. The DC is 10 + 5 for every additional 10-foot increment descended
-beyond the initial 10 feet dropped. If she fails, she falls the full distance. This ability replaces
-trap sense.
+beyond the initial 10 feet dropped. If she fails, she falls the full distance.
 
-## Rogue Talents {#rogue-talents}
+**Gained:** At 2nd Level
 
-The following rogue talents complement the roof runner archetype: expert leaper\*, ledge walker,
-nimble climber\*, stand up, and terrain mastery.
+**Replaces:** Trap sense
 
-## Advanced Talents {#advanced-talents}
+**These rogue talents complement this archetype:** Expert leaper, ledge walker, nimble climber,
+stand up, terrain mastery
 
-The following advanced rogue talent complements the roof runner archetype: fast tumble\*.
+**This advanced rogue talent complements this archetype:** [Fast tumble](ref/talent/fast-tumble)

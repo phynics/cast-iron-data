@@ -16,20 +16,12 @@ page = "39"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "mysterious-stranger", level = 2 },
-  { anchor = "resist-death-s-touch", level = 4 },
-  { anchor = "many-lives", level = 5 },
-  { anchor = "wild-shape", level = 6 },
-  { anchor = "cheat-death", level = 9 },
-  { anchor = "tongue-of-the-sun-and-moon", level = 15 },
-]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride", by = ["mysterious-stranger"] },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["resist-death-s-touch"] },
-  { replaces = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
-  { replaces = "Venom immunity", feature = "venom-immunity", by = ["cheat-death"] },
-  { replaces = "Timeless body", feature = "timeless-body", by = ["tongue-of-the-sun-and-moon"] },
+  { replaces = "Woodland stride", feature = "woodland-stride" },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
+  { replaces = "Wild shape", feature = "wild-shape" },
+  { replaces = "Venom immunity", feature = "venom-immunity" },
+  { replaces = "Timeless body", feature = "timeless-body" },
 ]
 +++
 
@@ -37,41 +29,62 @@ Spun off into the endless circle of life, an incarnate druid is an embodiment of
 renewal. She lives many lives and wanders the world devoid of attachments, a stranger to all yet one
 with all life.
 
-## Mysterious Stranger (Ex) {#mysterious-stranger}
+**Mysterious Stranger (Ex)**
 
-At 2nd level, a reincarnated druids adds 1/2 her druid level to the DC of Sense Motive, Diplomacy,
-and Knowledge checks to learn about her. This ability replaces woodland stride.
+**Gained:** At 2nd Level
 
-## Resist Death's Touch (Ex) {#resist-death-s-touch}
+**Passive:** A reincarnated druids adds [half](ref/misc/fractions-and-rounding) her druid level to
+the DC of Sense Motive, Diplomacy, and Knowledge checks to learn about her.
 
-At 4th level, a reincarnated druid gains a +4 bonus on saving throws against death effects, energy
-drain, and necromancy effects, and on stabilization checks when dying. This ability replaces resist
-nature's lure.
+**Replaces:** Woodland stride
 
-## Many Lives (Ex) {#many-lives}
+**Resist Death's Touch (Ex)**
 
-At 5th level, if a reincarnated druid is killed, she may automatically
-_[reincarnate](ref/spell/reincarnate)_ (as the spell) 1 day later. The reincarnated druid appears in
-a safe location within 1 mile of her previous body. At will for the next 7 days, she can sense the
-presence of her remains as if using _[locate object](ref/spell/locate-object)_ as a
+**Gained:** At 4th Level
+
+**Passive:** A reincarnated druid gains a +4 bonus on saving throws against death effects, energy
+drain, and necromancy effects, and on stabilization checks when dying.
+
+**Replaces:** Resist nature's lure
+
+**Many Lives (Ex)**
+
+**Ability:** If a reincarnated druid is killed, she may automatically
+[reincarnate](ref/spell/reincarnate) (as the spell) 1 day later. The reincarnated druid appears in a
+safe location within 1 mile of her previous body. At will for the next 7 days, she can sense the
+presence of her remains as if using [locate object](ref/spell/locate-object) as a
 [spell-like ability](ref/umr/spell-like-abilities). If she is killed during these 7 days, she
-remains dead and does not reincarnate. The many lives ability does not function if the reincarnated
-druid is slain by a death effect. A reincarnated druid cannot be
-[raised from the dead](ref/spell/raise-dead) or [resurrected](ref/spell/resurrection), though she
-can be reincarnated.
+remains dead and does not reincarnate.
 
-## Wild Shape (Su) {#wild-shape}
+**Gained:** At 5th Level
 
-A reincarnated druid gains this ability at 6th level, and it functions at her druid level - 2.
+**Special:** The many lives ability does not function if the reincarnated druid is slain by a death
+effect. A reincarnated druid cannot be [raised from the dead](ref/spell/raise-dead) or
+[resurrected](ref/spell/resurrection), though she can be reincarnated.
 
-## Cheat Death (Ex) {#cheat-death}
+**Wild Shape (Su)**
 
-At 9th level, once per day, a reincarnated druid may reroll a save against a death effect, energy
+**Ability:** A reincarnated druid gains _wild shape,_ but it functions at her druid level - 2.
+
+**Gained:** At 6th Level
+
+**Replaces:** Wild shape
+
+**Cheat Death (Ex)**
+
+**Ability:** Once per day, a reincarnated druid may reroll a save against a death effect, energy
 drain, or necromancy effect before the result of the roll is revealed, or reroll a failed
 stabilization check while dying. She must take the result of the second roll, even if it is worse
-than the original roll. This ability replaces venom immunity.
+than the original roll.
 
-## Tongue of the Sun and Moon (Ex) {#tongue-of-the-sun-and-moon}
+**Gained:** At 9th Level
 
-At 15th level, a reincarnated druid can speak with any living creature. This ability replaces
-timeless body.
+**Replaces:** Venom immunity
+
+**Tongue of the Sun and Moon (Ex)**
+
+**Ability:** A reincarnated druid can speak with any living creature.
+
+**Gained:** At 15th Level
+
+**Replaces:** Timeless body
