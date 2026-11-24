@@ -1240,6 +1240,7 @@ def publication_title(corpus: Path, book: str) -> str:
 # Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
 # entry, the printed words, the words written, and why. The review table's note records each fix.
 MISPRINTS = [
+    ("ref/arc-alchemist/internal-alchemist", "Lighting Reflexes", "Lightning Reflexes", "the feat is Lightning Reflexes"),
     ("ref/arc-barbarian/elemental-kin", "at at 18th level", "at 18th level", "a doubled word"),
     ("ref/arc-druid/cave-druid", "A underground druid", "A cave druid",
      "every other feature of the entry says \"a cave druid\"; \"underground druid\" names nothing"),
@@ -1287,6 +1288,16 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
             notes.append(f"misprint fixed: print has \"{wrong}\", written \"{right}\" ({why})")
     # a page reference of the book ("Pathfinder RPG Core Rulebook page 469"): the corpus links instead
     text = re.sub(r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)", "", text)
+    # a cross-reference of the book ("(see page 83)", "(see Advanced Player's Guide page 54)"): the corpus links instead
+    xref = re.sub(r"\s*\((?:[Ss]ee)\b[^()]*\)", "", text)
+    if xref != text:
+        notes.append("printed cross-reference left out")
+        text = xref
+    # the key of print's asterisks ("An asterisk (*) indicates ...", "* Indicates a new feat in this book."): print apparatus
+    keyless = re.sub(r"(?:^|\n\n)(?:An asterisk \(\\\*\)|\\\*) [Ii]ndicates[^\n]*", "", text)
+    if keyless != text:
+        notes.append("print's asterisk key left out")
+        text = keyless.strip()
     lost: list[str] = []
     if links:
         text, lost = apply_links(text, links)
