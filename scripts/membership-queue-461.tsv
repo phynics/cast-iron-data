@@ -2157,7 +2157,7 @@ plane-hoppers-handbook	ref/class/shaman	class	Shaman	7	8	uncited	printed		none	2
 plane-hoppers-handbook	ref/class/skald	class	Skald	6	7	uncited	printed		none	2	17,23							remove	17	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/spiritualist	class	Spiritualist	4	7	uncited	printed		none	2	17,23							remove	17	class-options-only	class-hub	done			yes			
 plane-hoppers-handbook	ref/class/witch	class	Witch	10	11	uncited	printed		none	4	12,13,15,17							remove	15	class-options-only	class-hub	done			yes			
-plane-hoppers-handbook	ref/race/aphorite	race	Aphorite	2	2	uncited	printed		none	5	1,3,14,15,34										race-hub	S9		yes	yes			
+plane-hoppers-handbook	ref/race/aphorite	race	Aphorite	2	2	uncited	printed		none	5	1,3,14,15,34							remove	14	race-options-only	race-hub	done		yes	yes			
 plane-hoppers-handbook	ref/race/duskwalker	race	Duskwalker	2	2	uncited	printed		none	5	1,3,16,17,34										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/race/ifrit	race	Ifrit	4	4	uncited	printed		none	3	20,22,32										race-hub	S9		yes	yes			
 plane-hoppers-handbook	ref/race/oread	race	Oread	4	5	uncited	printed		none	2	20,32							remove	20	race-options-only	race-hub	done		yes	yes			
