@@ -913,15 +913,16 @@ CLASS_WORDS = {"alchemist", "barbarian", "bard", "cavalier", "cleric", "druid", 
                "magus", "monk", "oracle", "paladin", "ranger", "rogue", "sorcerer", "summoner", "witch", "wizard", "both"}
 
 
-def phrase_tokens(text: str) -> list[str]:
+def phrase_tokens(text: str, possessor: bool = True) -> list[str]:
     """Words of a trade name or of a printed phrase, as the app reads them: no articles, no class names, ordinals as
     digits, "gained at 4th level" as "4th-level", "1 to 4" as one range."""
     text = fold(text)
     text = text.replace(" as well as ", " and ")                                           # R7
     text = re.sub(r"\b(?:normal|normally)\s+", "", text)                                     # R2
     # R10: a possessor phrase before a name ("the sacred shield's holy champion ability") is not part of the name
-    text = re.sub(r"(?:\b(?:the|a|an)\s+)?(?:[a-z-]+\s+){0,2}[a-z-]+'s\s+", "", text)
-    text = text.replace("'s", "")
+    if possessor:
+        text = re.sub(r"(?:\b(?:the|a|an)\s+)?(?:[a-z-]+\s+){0,2}[a-z-]+'s\s+", "", text)
+    text = text.replace("'s", "") if possessor else text.replace("'s", "possessive")      # plain reading: a possessor stays a word
     text = re.sub(r"\b(\d+)(?:st|nd|rd|th)?\s*(?:to|-|through)\s*(\d+)(?:st|nd|rd|th)?\b(?!-level)", lambda m: " ".join(
         str(n) for n in range(int(m.group(1)), int(m.group(2)) + 1)) if 0 < int(m.group(1)) < int(m.group(2)) <= 20 else m.group(0), text)   # R6
     text = re.sub(r"\b(\w+) gained at (\d+(?:st|nd|rd|th)) levels?\b", r"\2-level \1", text)
@@ -940,8 +941,12 @@ def covers(phrase: str, trade_name: str) -> bool:
     """Whether the printed phrase of a trade sentence names the trade (a step list such as "armor training
     1, 2, 3, and 4" names the trade `Armor training 3`). The app's drift check is the authority; this
     only picks the features that print the trade."""
-    p = phrase_tokens(phrase)
-    t = phrase_tokens(ABILITY_TAG.sub("", trade_name))
+    # R10 is an alternative reading, tried after the plain one ("unarmed strike and brawler's flurry" names both)
+    return any(_covers(phrase_tokens(phrase, poss), phrase_tokens(ABILITY_TAG.sub("", trade_name), poss2))
+               for poss in (False, True) for poss2 in (False, True))
+
+
+def _covers(p: list[str], t: list[str]) -> bool:
     if not t:
         return False
     n = len(t)
@@ -2029,6 +2034,37 @@ def contained_in_longer(phrase: str, trades: list[dict], i: int) -> bool:
     return all(any(a <= x and y <= b for a, b in longer) for x, y in own)
 
 
+def trade_asides(text: str) -> list[tuple[str, str]]:
+    """[(op, aside)]: the final parenthesis of four or more words that a trade sentence carries (owner ruling 29,
+    "This ability replaces swift alchemy (a deep bomber never gains instant alchemy)"). An aside that starts with "see" states nothing."""
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    text = re.sub(r"[\\_*]", "", text)
+    text = re.sub(r"\s+", " ", text)
+    out = []
+    for m in TRADE_SENTENCE.finditer(text):
+        sentence = m.group(1)
+        verb = re.search(r"\b(replaces?|alters?|changes?)\b", sentence, re.I)
+        a = re.search(r"\s*\(([^()]*)\)\.?\s*$", sentence)
+        if a and len(a.group(1).split()) >= 4 and not a.group(1).lower().startswith("see"):
+            out.append((_op_of(verb.group(1)), a.group(1)))
+    return out
+
+
+def prose_sentences(text: str) -> list[str]:
+    """The sentences of a feature text that are not trade sentences (owner ruling 28: prose supports a trade): a
+    "(see ...)" parenthesis and the part from a comparison on ("functions as the X ability") state nothing."""
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    text = re.sub(r"[\\_*]", "", text)
+    text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"\s*\((?:see|See)\b[^()]*\)", "", text)
+    out = []
+    for sent in re.split(r"(?<=[.!?])\s+", text):
+        if TRADE_SENTENCE.search(sent) or re.match(r"(?:This|These|It)\b.{0,60}?\b(?:replaces?|alters?|changes?)\b", sent, re.I):
+            continue
+        out.append(re.split(r"\b(?:functions as|works like|as the)\b", sent, maxsplit=1)[0])
+    return out
+
+
 def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tuple[dict[int, list[str]], list[str]]:
     """For each trade, the anchors of the listed features whose printed text states it. A trade that print
     states only in the opening text (the blocks before the first listed feature) gets no `by`. A trade that
@@ -2065,7 +2101,14 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
                   and not any(sop == "alters" for sop, _, _ in opening_sentences)):
                 by[i] = []              # owner ruling 23, per operation: a proficiency section that prints no `alters` sentence
             else:
-                problems.append(f"the {op} trade `{name}` is not printed in a sentence, and no listed feature of that name prints it")
+                # owner rulings 28 and 29: the prose of a feature, or the aside of one of its trade sentences of the same op
+                prose = [f["anchor"] for f in listed
+                         if any(covers(sent, name) for sent in prose_sentences(f["print"]))
+                         or any(sop == op and covers(aside, name) for sop, aside in trade_asides(f["print"]))]
+                if len(prose) == 1:
+                    by[i] = prose
+                else:
+                    problems.append(f"the {op} trade `{name}` is not printed in a sentence, and no listed feature of that name prints it")
     for f in listed:
         for sop, ph, bare in sentences[f["anchor"]]:
             if not bare and not any(sop == trade_name(t)[0] and covers(ph, trade_name(t)[1]) for t in trades):
@@ -2128,6 +2171,18 @@ TRADE_RENAMES = {
     ("ref/arc-summoner/blood-god-disciple", "Summon monster II"): "Summon monster II spell-like ability",
     ("ref/arc-summoner/blood-god-disciple", "Summon monster IV"): "Summon monster IV spell-like ability",
     ("ref/arc-rogue/deadly-courtesan", "Trap sense"): "All levels of trap sense",
+    # Owner ruling 22 (reader of #710 reads "These bonus spells replace ..."): the level back-references of batch 2
+    ("ref/arc-oracle/psychic-searcher", "The bonus spells gained at 4th, 6th, 8th, 12th, 16th, and 18th levels from the oracle's mystery"):
+        "Mystery bonus spells at these levels",
+    ("ref/arc-oracle/community-guardian", "The bonus spells gained at 2nd, 4th, 6th, 10th, and 12th levels from the oracle's mystery"):
+        "Mystery bonus spells from these levels",
+    ("ref/arc-oracle/reincarnated-oracle", "The bonus spells gained at 2nd, 4th, 10th, 16th, and 18th levels from the oracle's mystery"):
+        "Mystery bonus spells at these levels",
+    ("ref/arc-oracle/shigenjo", "The bonus spells gained at 2nd, 4th, 8th, 12th, 14th, and 16th levels from the oracle's mystery"):
+        "Mystery bonus spells at these levels",
+    ("ref/arc-oracle/ancient-lorekeeper", "Bonus spells gained from the oracle's mystery"):
+        "Bonus spells she would normally gain at these levels from her chosen mystery",
+    ("ref/arc-oracle/shigenjo", "Final revelation"): "Final revelation of the shigenjo's mystery",
     ("ref/arc-druid/urban-druid", "Spontaneous casting"): "Ability to spontaneously cast summon nature's ally spells",
     ("ref/arc-ranger/skirmisher", "Spellcasting ability"): "Spells",
     ("ref/arc-monk/monk-of-the-empty-hand", "Weapon proficiencies"): "Normal monk weapon proficiencies",
@@ -2263,6 +2318,8 @@ TRADE_NO_BY = {
 TRADE_REMOVALS = {
     "ref/arc-druid/dragon-shaman": [("replaces", "Woodland stride")],
     "ref/arc-druid/saurian-shaman": [("replaces", "Woodland stride")],
+    # Purifier (Advanced Race Guide p. 86) lists its bonus spells and prints no sentence that replaces the mystery's
+    "ref/arc-oracle/purifier": [("replaces", "All bonus spells from the oracle's mystery")],
     # Buccaneer (ARG p. 74): Gun Training prints no sentence that replaces gun training 3
     "ref/arc-gunslinger/buccaneer": [("replaces", "Gun training 3")],
     "ref/arc-druid/shark-shaman": [("replaces", "Woodland stride")],
@@ -3036,6 +3093,14 @@ def self_test() -> int:
     eq(trade_sentences("This ability replaces bravery (see page 4).")[0][1], "bravery (see page 4)", "R9 a short parenthesis stays")
     eq(covers("the sacred shield's holy champion ability", "Holy champion"), True, "R10 possessor phrase")
     eq(covers("the sacred shield's holy champion ability", "Sacred shield"), False, "R10 the possessor is not a name")
+    eq(covers("unarmed strike and brawler's flurry", "Unarmed strike"), True, "R10 is an alternative reading: the plain one names both")
+    eq(covers("unarmed strike and brawler's flurry", "brawler's flurry"), True, "R10 plain reading of a possessor name")
+    eq(trade_asides("This ability replaces swift alchemy (the deep bomber gains swift alchemy at 18th level and never gains instant alchemy).")[0],
+       ("replaces", "the deep bomber gains swift alchemy at 18th level and never gains instant alchemy"), "ruling 29 aside")
+    eq(any(covers(x, "hunter tactics") for x in prose_sentences("This ability alters animal companion. The hunter tactics class ability allows her to grant feats.")), True,
+       "ruling 28 prose")
+    eq(any(covers(x, "hunter tactics") for x in prose_sentences("This ability replaces bravery. It works as the hunter tactics class ability.")), False,
+       "ruling 28: a comparison states nothing")
     eq(trade_sentences("This ability replaces tactician and alters the standard cavalier's selection of bonus feats.", "Bonus Feats (Ex)"),
        [("replaces", "tactician", False), ("alters", "the standard cavalier's selection of bonus feats", False)], "R11 two verbs, two sentences")
     eq(trade_sentences("Sermonic performance replaces inspire courage.", "Sermonic Performance (Su)"), [("replaces", "inspire courage", False)], "R12 the heading is a subject")
