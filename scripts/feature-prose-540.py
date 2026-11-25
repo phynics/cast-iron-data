@@ -1821,7 +1821,12 @@ def is_scaffold(head: str) -> bool:
 
 
 def place_elsewhere(rows: list[dict], label: str, target: str) -> str | None:
-    """Wraps the first free occurrence of `label` in the text of any section of the entry in a link; returns the anchor."""
+    """Wraps the first free occurrence of `label` in the text of any section of the entry in a link; returns the anchor.
+
+    A link to a heading of the entry itself (a footnote mark such as `1` to `#footnote-i`) is not placed: its heading is
+    printed text of a dropped section, and the link would point at nothing (Qinggong Monk's "1/2 the monk's level")."""
+    if "#" in target:
+        return None
     for r in rows:
         if r.get("print"):
             # the italic marks are underscores here: back to marks, so that a word inside italics is a word
@@ -3374,6 +3379,8 @@ def self_test() -> int:
     eq(finish_text("the law/ chaos axis and a thief \u2019s broad study", set()), "the law/chaos axis and a thief's broad study", "a slash at a line end, a spaced apostrophe")
     rows_t = [{"anchor": "a", "print": "a _mirror image_ and a [grease](x) spell"}, {"anchor": "b", "print": "he casts _mirror image_ too"}]
     eq((place_elsewhere(rows_t, "mirror image", "ref/spell/mirror-image"), rows_t[0]["print"]), ("a", "a _[mirror image](ref/spell/mirror-image)_ and a [grease](x) spell"), "a link inside italics")
+    rows_f = [{"anchor": "a", "print": "10 + 1/2 the monk's level"}]
+    eq((place_elsewhere(rows_f, "1", "ref/arc-monk/qinggong-monk#footnote-i"), rows_f[0]["print"]), (None, "10 + 1/2 the monk's level"), "a footnote link of a dropped section stays out")
     # a section ends at a parenthesized type title (owner review of batch 3), not only at an archetype title
     blocks = [Para("title", [("SILVER BALLADEER (BARD ARCHETYPE)", True, False)], 1, 0, 18), Para("para", [("Text.", False, False)], 1, 0),
               Para("title", [("ORDER OF THE SHROUD (CAVALIER ORDER)", True, False)], 1, 0, 18), Para("para", [("Order text.", False, False)], 1, 0)]
