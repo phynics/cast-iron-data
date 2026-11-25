@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/bull-catcher-wrangler"
 kind = "feat"
-title = "Bull-Catcher Wrangler"
+title = "Bull-Catcher Wrangle"
 aon = "FeatDisplay.aspx?ItemName=Bull-Catcher%20Wrangler"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
