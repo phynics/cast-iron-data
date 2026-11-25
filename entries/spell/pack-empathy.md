@@ -25,8 +25,6 @@ levels = [
   { class = "Sorcerer", level = 3 },
   { class = "Spiritualist", level = 3 },
   { class = "Summoner", level = 3 },
-  { class = "Unchained Summoner", level = 3 },
-  { class = "Warpriest", level = 3 },
   { class = "Witch", level = 3 },
   { class = "Wizard", level = 3 },
 ]
@@ -45,7 +43,7 @@ spell_resistance = "no"
 title = "Spell statistics"
 School: divination
 Level: 2: Hunter, Medium, Ranger\
-3: Arcanist, Bloodrager, Druid, Inquisitor, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Warpriest, Witch, Wizard
+3: Arcanist, Bloodrager, Druid, Inquisitor, Sorcerer, Spiritualist, Summoner, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)

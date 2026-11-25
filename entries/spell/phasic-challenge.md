@@ -16,6 +16,7 @@ kind = "spell"
 school = "transmutation"
 levels = [
   { class = "Cleric", level = 8 },
+  { class = "Oracle", level = 8 },
   { class = "Psychic", level = 8 },
   { class = "Shaman", level = 8 },
   { class = "Sorcerer", level = 8 },
@@ -39,7 +40,7 @@ title = "Spell statistics"
 School: transmutation
 Level: 6: Spiritualist\
 7: Witch\
-8: Cleric, Psychic, Shaman, Sorcerer, Wizard
+8: Cleric, Oracle, Psychic, Shaman, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a scrape of a knight's banner)
 Range: close (25 ft. + 5 ft./2 levels)

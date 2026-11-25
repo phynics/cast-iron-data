@@ -26,7 +26,6 @@ levels = [
   { class = "Psychic", level = 2 },
   { class = "Ranger", level = 2 },
   { class = "Shaman", level = 2 },
-  { class = "Summoner", level = 2 },
   { class = "Unchained Summoner", level = 2 },
   { class = "Warpriest", level = 2 },
 ]
@@ -44,7 +43,7 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 2: Alchemist, Bloodrager, Cleric, Druid, Hunter, Investigator, Oracle, Paladin, Psychic, Ranger, Shaman, Summoner, Unchained Summoner, Warpriest
+Level: 2: Alchemist, Bloodrager, Cleric, Druid, Hunter, Investigator, Oracle, Paladin, Psychic, Ranger, Shaman, Unchained Summoner, Warpriest
 Casting time: 1 standard action
 Components: V, S, M (a piece of shell)
 Range: touch

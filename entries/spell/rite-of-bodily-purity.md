@@ -19,6 +19,7 @@ levels = [
   { class = "Cleric", level = 1 },
   { class = "Druid", level = 1 },
   { class = "Hunter", level = 1 },
+  { class = "Oracle", level = 1 },
   { class = "Paladin", level = 1 },
   { class = "Ranger", level = 1 },
   { class = "Shaman", level = 1 },
@@ -38,7 +39,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 1: Cleric, Druid, Hunter, Paladin, Ranger, Shaman, Warpriest
+Level: 1: Cleric, Druid, Hunter, Oracle, Paladin, Ranger, Shaman, Warpriest
 Casting time: 1 hour
 Components: V, M (soothing incense worth 100 gp)
 Range: personal

@@ -24,7 +24,6 @@ levels = [
   { class = "Skald", level = 1 },
   { class = "Sorcerer", level = 1 },
   { class = "Summoner", level = 1 },
-  { class = "Unchained Summoner", level = 1 },
   { class = "Wizard", level = 1 },
 ]
 casting_time = "1 standard action"
@@ -41,7 +40,7 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 1: Arcanist, Bard, Inquisitor, Magus, Mesmerist, Skald, Sorcerer, Summoner, Unchained Summoner, Wizard
+Level: 1: Arcanist, Bard, Inquisitor, Magus, Mesmerist, Skald, Sorcerer, Summoner, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a blindfold)
 Range: touch

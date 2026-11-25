@@ -27,7 +27,6 @@ levels = [
   { class = "Ranger", level = 3 },
   { class = "Sorcerer", level = 2 },
   { class = "Summoner", level = 2 },
-  { class = "Unchained Summoner", level = 2 },
   { class = "Wizard", level = 2 },
 ]
 casting_time = "1 standard action"
@@ -44,7 +43,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 2: Alchemist, Antipaladin, Arcanist, Inquisitor, Investigator, Sorcerer, Summoner, Unchained Summoner, Wizard\
+Level: 2: Alchemist, Antipaladin, Arcanist, Inquisitor, Investigator, Sorcerer, Summoner, Wizard\
 3: Hunter, Ranger
 Casting time: 1 standard action
 Components: V, S, M (a drop of mercury)
