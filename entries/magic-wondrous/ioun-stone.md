@@ -63,7 +63,6 @@ Only 75% of ioun stones grant resonant powers when placed in a wayfinder.
 
 ### Inferior Ioun Stones
 
-**Sources:** Seekers of Secrets pg 46\
 There are very few reports of ioun stones that have negative side effects; even those created by
 incompetent item-crafters merely create inferior specimens - still valuable to poor adventurers who
 cannot afford the normal variety. They fall into one of the following categories.

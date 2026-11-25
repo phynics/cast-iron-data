@@ -13,13 +13,19 @@ page = "36"
 [fields]
 kind = "item"
 category = "Ioun Stones"
-price = "14,000 gp"
+price = "15,000 gp"
+slot = "none"
 aura = "strong enchantment and necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong enchantment and necromancy; **CL** 12th\
-Price 15,000 gp; Weight —
+::: statblock
+Aura: strong enchantment and necromancy
+CL: 12th
+Slot: none
+Price: 15,000 gp
+Weight: —
+:::
 
 #### Description
 

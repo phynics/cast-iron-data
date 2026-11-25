@@ -848,15 +848,111 @@ PRINT_FIXES = PRINT_FIXES + (
 )
 
 
-# Parts of an entry left as the corpus had them until a print source turns up (owner ruling 13 of
-# 2026-11-23). The rest of the entry is converted; the part stays prose and is listed in the TSV.
-HELD_FOR_PRINT = (
+# Hand work, print read in the Adventure Path volumes (2026-11-25): the nine rows of cast-iron #254 that
+# waited for a print check, the Azure Briolette price, and nothing else changed value.
+PRINT_FIXES = PRINT_FIXES + (
     (
-        "entries/monster/brambleblight.md",
-        "creature",
-        "the Animated Bramble (second statistics, no rating in the corpus): held for print, ruling 13 (Pathfinder #92 is not available)",
+        'entries/monster/herald-gravedragger.md',
+        'Pathfinder #89 p. 86',
+        'Subtype: the printed subtypes are `evil, herald`; the `othersubs` row folds into `Subtype` and `subtypes`',
+        (
+            ('Alignment: Neutral evil\nothersubs: Herald\nType: outsider\n', 'Alignment: Neutral evil\nType: outsider\n'),
+            ('Subtype: Evil\n', 'Subtype: Evil, Herald\n'),
+            ('subtypes = ["evil"]\n', 'subtypes = ["evil", "herald"]\n'),
+        ),
+    ),
+    (
+        'entries/monster/herald-great-elder-iuu.md',
+        'Pathfinder #93 p. 86',
+        'Subtype: the printed subtypes are `evil, giant, herald, lawful`; the `othersubs` row folds into `Subtype` and `subtypes`',
+        (
+            ('Alignment: Lawful evil\nothersubs: Herald\nType: outsider\n', 'Alignment: Lawful evil\nType: outsider\n'),
+            ('Subtype: Evil, Giant, Lawful\n', 'Subtype: Evil, Giant, Herald, Lawful\n'),
+            ('subtypes = ["evil", "giant", "lawful"]\n', 'subtypes = ["evil", "giant", "herald", "lawful"]\n'),
+        ),
+    ),
+    (
+        'entries/monster/herald-latten-mechanism.md',
+        'Pathfinder #86 p. 84',
+        'Subtype: the printed subtypes are `extraplanar, herald`; the `othersubs` row folds into `Subtype` and `subtypes`',
+        (
+            ('Alignment: Neutral\nothersubs: Herald\nPerception: +22\n', 'Alignment: Neutral\nPerception: +22\n'),
+            ('Subtype: Extraplanar\n', 'Subtype: Extraplanar, Herald\n'),
+            ('subtypes = ["extraplanar"]\n', 'subtypes = ["extraplanar", "herald"]\n'),
+        ),
+    ),
+    (
+        'entries/monster/oni-yamabushi-tengu.md',
+        'Pathfinder #49 p. 88',
+        'Subtype: the printed subtypes are `native, oni, shapechanger, tengu`; the `othersubs` row folds into `Subtype` and `subtypes`',
+        (
+            ('Size: medium\nothersubs: Tengu\nType: outsider\n', 'Size: medium\nType: outsider\n'),
+            ('Subtype: Native, Oni, Shapechanger\n', 'Subtype: Native, Oni, Shapechanger, Tengu\n'),
+            ('subtypes = ["native", "oni", "shapechanger"]\n', 'subtypes = ["native", "oni", "shapechanger", "tengu"]\n'),
+        ),
+    ),
+    (
+        'entries/monster/triaxian.md',
+        'Pathfinder #70 p. 86',
+        'Subtype: print sets `N Medium humanoid (Triaxian)`; the `othersubs` row becomes `Subtype: Triaxian` and `subtypes`',
+        (
+            ('Alignment: Neutral\nothersubs: Triaxian\nPerception: +8\n', 'Alignment: Neutral\nPerception: +8\n'),
+            ('Senses: Low-light vision\nExperience points: 200\n', 'Senses: Low-light vision\nSubtype: Triaxian\nExperience points: 200\n'),
+            ('creature_type = "humanoid"\nsize = "medium"\n', 'creature_type = "humanoid"\nsubtypes = ["triaxian"]\nsize = "medium"\n'),
+        ),
+    ),
+    (
+        'entries/monster/bog-strider.md',
+        'Pathfinder #34 p. 82',
+        'Senses: `tremorsense 120 ft. (in water)`: the `tremorParens` row folds into the `tremorsense` row; the claw damage prints `1d4+2`, the import wrote `1d4-2`',
+        (
+            ('tremorParens: in water\ntremorsense: 120\n', 'tremorsense: 120 ft. (in water)\n'),
+            ('melee = "spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4-2), bite +4 (1d6+2)"', 'melee = "spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4+2), bite +4 (1d6+2)"'),
+            ('Melee: spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4-2), bite +4 (1d6+2)', 'Melee: spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4+2), bite +4 (1d6+2)'),
+        ),
+    ),
+    (
+        'entries/monster/cauldron-bloom.md',
+        'Pathfinder #142 p. 86',
+        'Senses: `tremorsense 1 mi.`: the `tremorParens` row and the 5280 feet fold into the printed `tremorsense` row',
+        (
+            ('tremorParens: 1 mile\ntremorsense: 5280\n', 'tremorsense: 1 mi.\n'),
+        ),
+    ),
+    (
+        'entries/monster/stygira.md',
+        'Pathfinder #33 p. 88',
+        'Senses: print gives `blindsight 30 ft. (120 ft. with gem eye), scent, true seeing with gem eye`; the import wrote `green eyes`; the `blindsightParens` row folds into the `blindsight` row and the Senses row',
+        (
+            ('blindsight: 30\nblindsightParens: 120 ft. with green eyes), _[true seeing](ref/spell/true-seeing)_ (with gem eye\n', 'blindsight: 30 ft. (120 ft. with gem eye)\n'),
+            ('Senses: Scent\n', 'Senses: Scent, True seeing with gem eye\n'),
+        ),
+    ),
+    (
+        'entries/monster/lich-forsaken-lich.md',
+        'Pathfinder #48 p. 82',
+        'Subtype: print sets `NE Medium undead (augmented humanoid)`; the `augment` row becomes `Subtype: Augmented humanoid` and `subtypes`. Print gives XP 12,800 with CR 12; the corpus keeps XP 19,200 (the rating decides), as for the Molthuni Commander',
+        (
+            ('Challenge rating: 12\naugment: Humanoid\naura: delusory aura (100 ft.)\n', 'Challenge rating: 12\naura: delusory aura (100 ft.)\n'),
+            ('Type: undead\nExperience points: 19,200\n', 'Type: undead\nSubtype: Augmented humanoid\nExperience points: 19,200\n'),
+            ('creature_type = "undead"\nsize = "medium"\n', 'creature_type = "undead"\nsubtypes = ["augmented humanoid"]\nsize = "medium"\n'),
+        ),
+    ),
+    (
+        'entries/magic-ioun/azure-briolette.md',
+        'Pathfinder #125 p. 36',
+        'price field `15,000 gp` as the body and print give (the import wrote 14,000 gp); print sets `SLOT none`, so the field and the lead block get it; the lead paragraph becomes the stat block of the other ioun stones',
+        (
+            ('price = "14,000 gp"\naura = "strong enchantment and necromancy"\n', 'price = "15,000 gp"\nslot = "none"\naura = "strong enchantment and necromancy"\n'),
+            ('**Aura** strong enchantment and necromancy; **CL** 12th\\\nPrice 15,000 gp; Weight —\n', '::: statblock\nAura: strong enchantment and necromancy\nCL: 12th\nSlot: none\nPrice: 15,000 gp\nWeight: —\n:::\n'),
+        ),
     ),
 )
+
+
+# Parts of an entry left as the corpus had them until a print source turns up (owner ruling 13 of
+# 2026-11-23). The rest of the entry is converted; the part stays prose and is listed in the TSV. None is held now.
+HELD_FOR_PRINT: tuple = ()  # the Animated Bramble of the brambleblight is read in print (Pathfinder #92 p. 85) and converted
 
 
 class Queue(Exception):

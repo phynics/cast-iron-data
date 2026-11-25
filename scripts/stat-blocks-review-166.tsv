@@ -28,7 +28,8 @@ entries/magic-ioun/agate-ellipsoid.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/amber-spindle.md	item	print-fix	rows: the stone prints on p. 44, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 44) (Seekers of Secrets pp. 44, 46, 47)
 entries/magic-ioun/amber-spindle.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/amethyst-pyramid.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/azure-briolette.md	item	variant-paragraphs	Aura; Price; Price
+entries/magic-ioun/azure-briolette.md	item	print-fix	price field `15,000 gp` as the body and print give (the import wrote 14,000 gp); print sets `SLOT none`, so the field and the lead block get it; the lead paragraph becomes the stat block of the other ioun stones (Pathfinder #125 p. 36)
+entries/magic-ioun/azure-briolette.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/brown-thorny.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/clear-spindle.md	item	print-fix	rows: the stone prints on p. 48, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 47) (Seekers of Secrets pp. 48, 46, 47)
 entries/magic-ioun/clear-spindle.md	item	variant-paragraphs	Price; Price
@@ -127,34 +128,22 @@ entries/magic-wondrous/discriminating-cube.md	item	print-fix	row `13` kept (its 
 entries/magic-wondrous/helm-of-brilliance-lesser.md	item	variant-paragraphs	Aura; Requirements
 entries/magic-wondrous/helm-of-brilliance.md	item	variant-paragraphs	Aura; Requirements
 entries/magic-wondrous/independent-cube-of-force.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
-entries/magic-wondrous/ioun-stone.md	item	sources-unparsed	Pathfinder Society Primer
 entries/magic-wondrous/rechargeable-cube-of-force.md	item	print-fix	row `13-14`: the item starts at the foot of p. 13 and its Construction is the first line of p. 14 (Classic Treasures Revisited pp. 13-14)
 entries/magic-wondrous/remote-activation-cube.md	item	print-fix	row `14` kept (its own text, the foot of the Rechargeable block to the Remote Activation block of p. 14); row `13` added for the variant paragraphs of the body (Classic Treasures Revisited p. 14)
 entries/magic-wondrous/slashing-cloak.md	item	print-fix	Construction: the cost printed once; the import left `; Cost 10,000 gp` twice (Ultimate Equipment p. 268)
-entries/monster/bog-strider.md	creature	print-254	tremorParens: in water
-entries/monster/brambleblight.md	creature	held-for-print	the Animated Bramble (second statistics, no rating in the corpus): held for print, ruling 13 (Pathfinder #92 is not available)
-entries/monster/cauldron-bloom.md	creature	print-254	tremorParens: 1 mile
+entries/monster/bog-strider.md	creature	print-fix	Senses: `tremorsense 120 ft. (in water)`: the `tremorParens` row folds into the `tremorsense` row; the claw damage prints `1d4+2`, the import wrote `1d4-2` (Pathfinder #34 p. 82)
+entries/monster/cauldron-bloom.md	creature	print-fix	Senses: `tremorsense 1 mi.`: the `tremorParens` row and the 5280 feet fold into the printed `tremorsense` row (Pathfinder #142 p. 86)
 entries/monster/elemental-lord-ymeri.md	creature	print-fix	melee: `flaming burst` where the import left `EFB` (Planes of Power p. 54)
 entries/monster/ghul.md	creature	print-fix	rows: the Ghul on p. 62 and the Great Ghuls on p. 63 (Dark Markets, a Guide to Katapesh pp. 62-63)
 entries/monster/goblin-goblin-vulture-pilot.md	creature	print-fix	Combat Gear and Other Gear rows: `potions of barkskin (2)` and `mwk mithral chain shirt` as printed; the import wrote the count first (`2 potion of barkskin`), left the other counts the same way, and ran `mwk mithral` and `sunrods (2)` into `MM` and `srs` (Monster Codex p. 109)
-entries/monster/hag-annis-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/hag-ash-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/hag-blood-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/hag-dreamthief-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/hag-green-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/hag-moon-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/hag-mute-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/hag-sea-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/hag-storm-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/hag-winter-hag.md	creature	sources-unparsed	Blood of the Coven
-entries/monster/herald-gravedragger.md	creature	print-254	othersubs: Herald
-entries/monster/herald-great-elder-iuu.md	creature	print-254	othersubs: Herald
-entries/monster/herald-latten-mechanism.md	creature	print-254	othersubs: Herald
-entries/monster/lich-forsaken-lich.md	creature	print-254	augment: Humanoid
-entries/monster/oni-yamabushi-tengu.md	creature	print-254	othersubs: Tengu
+entries/monster/herald-gravedragger.md	creature	print-fix	Subtype: the printed subtypes are `evil, herald`; the `othersubs` row folds into `Subtype` and `subtypes` (Pathfinder #89 p. 86)
+entries/monster/herald-great-elder-iuu.md	creature	print-fix	Subtype: the printed subtypes are `evil, giant, herald, lawful`; the `othersubs` row folds into `Subtype` and `subtypes` (Pathfinder #93 p. 86)
+entries/monster/herald-latten-mechanism.md	creature	print-fix	Subtype: the printed subtypes are `extraplanar, herald`; the `othersubs` row folds into `Subtype` and `subtypes` (Pathfinder #86 p. 84)
+entries/monster/lich-forsaken-lich.md	creature	print-fix	Subtype: print sets `NE Medium undead (augmented humanoid)`; the `augment` row becomes `Subtype: Augmented humanoid` and `subtypes`. Print gives XP 12,800 with CR 12; the corpus keeps XP 19,200 (the rating decides), as for the Molthuni Commander (Pathfinder #48 p. 82)
+entries/monster/oni-yamabushi-tengu.md	creature	print-fix	Subtype: the printed subtypes are `native, oni, shapechanger, tengu`; the `othersubs` row folds into `Subtype` and `subtypes` (Pathfinder #49 p. 88)
 entries/monster/shadow.md	creature	print-fix	rows: the Shadow on p. 46 (the contents page) and its Variants on p. 49 (Undead Revisited pp. 46, 49)
-entries/monster/stygira.md	creature	print-254	blindsightParens: 120 ft. with green eyes), _[true seeing](ref/spell/true-seeing)_ (with gem eye
-entries/monster/triaxian.md	creature	print-254	othersubs: Triaxian
+entries/monster/stygira.md	creature	print-fix	Senses: print gives `blindsight 30 ft. (120 ft. with gem eye), scent, true seeing with gem eye`; the import wrote `green eyes`; the `blindsightParens` row folds into the `blindsight` row and the Senses row (Pathfinder #33 p. 88)
+entries/monster/triaxian.md	creature	print-fix	Subtype: print sets `N Medium humanoid (Triaxian)`; the `othersubs` row becomes `Subtype: Triaxian` and `subtypes` (Pathfinder #70 p. 86)
 entries/monster/wight.md	creature	print-fix	rows: the Wight on p. 58, Accursed Treasure on p. 61 and its Variants on p. 62 (Undead Revisited pp. 58, 61-62)
 entries/npc/axe-lord.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
 entries/npc/celestial-theurge.md	npc	spell-header	**Sorcerer Spells Known** (CL 6th; concentration +7; 25% spe

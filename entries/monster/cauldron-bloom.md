@@ -40,8 +40,7 @@ Alignment: Neutral
 Perception: +33
 Type: plant
 Senses: Low-light vision, True seeing
-tremorParens: 1 mile
-tremorsense: 5280
+tremorsense: 1 mi.
 Experience points: 51,200
 :::
 

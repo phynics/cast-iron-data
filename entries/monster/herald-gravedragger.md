@@ -14,7 +14,7 @@ page = "86"
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["evil"]
+subtypes = ["evil", "herald"]
 size = "large"
 alignment = "neutral evil"
 ac = "29/17/25"
@@ -38,11 +38,10 @@ aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 22), unluck (
 Initiative: +8
 Size: large
 Alignment: Neutral evil
-othersubs: Herald
 Type: outsider
 Perception: +23
 Senses: Darkvision 60 ft., Scent, See in darkness
-Subtype: Evil
+Subtype: Evil, Herald
 Experience points: 51,200
 :::
 
