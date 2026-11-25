@@ -80,5 +80,5 @@ his class level as his druid level for the purpose of qualifying for feats that 
 ## Rage Powers {#rage-powers}
 
 The following rage powers complement the totemic skald archetype: animal fury, beast totem (lesser,
-normal, and greater), knockback, knockdown, low-light vision, primal scent, scent, sprint, and swift
-foot.
+normal, and greater), knockback, knockdown, [low-light vision](ref/rule/low-light-vision), primal
+scent, scent, sprint, and swift foot.

@@ -41,13 +41,13 @@ track.
 
 ## Tactician (Ex) {#tactician}
 
-At 2nd level, a vanguard receives a teamwork feat as a bonus feat. He must meet the prerequisites
-for this feat. Once per day as a standard action, the vanguard can grant one of his teamwork feats
-to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for
-3 rounds plus 1 round for every 2 levels the vanguard possesses. Allies do not need to meet the
-prerequisites of this bonus feat. Whenever the vanguard is able to select a new slayer talent, he
-can instead choose to gain an additional use per day of this ability. This ability replaces the
-slayer talent gained at 2nd level.
+At 2nd level, a vanguard receives a teamwork [feat](ref/talent/feat) as a bonus feat. He must meet
+the prerequisites for this feat. Once per day as a standard action, the vanguard can grant one of
+his teamwork feats to all allies within 30 feet who can see and hear him. Allies retain the use of
+this bonus feat for 3 rounds plus 1 round for every 2 levels the vanguard possesses. Allies do not
+need to meet the prerequisites of this bonus feat. Whenever the vanguard is able to select a new
+slayer talent, he can instead choose to gain an additional use per day of this ability. This ability
+replaces the slayer talent gained at 2nd level.
 
 ## Vanguard's Bond (Ex) {#vanguard-s-bond}
 
@@ -73,5 +73,6 @@ fool, rogue crawl, surprise attack, terrain mastery, and weapon training.
 ## Advanced Slayer Talents {#advanced-slayer-talents}
 
 The following advanced slayer talents (and advanced rogue talents) complement the vanguard
-archetype: feat, opportunist, slayer camouflage, and unwitting ally. (Those with asterisks \[\*\]
-are detailed in the slayer class, starting on page 53.)
+archetype: feat, [opportunist](ref/talent/opportunist), slayer camouflage\*, and
+[unwitting ally](ref/talent/unwitting-ally). (Those with asterisks \[\*\] are detailed in the slayer
+class, starting on page 53.)

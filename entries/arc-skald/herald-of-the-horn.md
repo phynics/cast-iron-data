@@ -70,6 +70,6 @@ second and third daily uses of spell kenning gained at 11th and 17th levels.
 
 ## Rage Powers {#rage-powers}
 
-The following rage powers complement the herald of the horn archetype: battle roar, energy
+The following rage powers complement the herald of the horn archetype: battle roar\*, energy
 absorption, energy eruption, fearless rage, knockback, knockdown, smasher, and swift foot. (Those
 with asterisks \[\*\] are listed in the rage powers section above.)

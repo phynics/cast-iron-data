@@ -62,9 +62,10 @@ number of attacks. This ability replaces spell recall and improved spell recall.
 ## Weapon Training (Ex) {#weapon-training}
 
 At 6th level, a myrmidarch gains weapon training, as the [fighter](ref/class/fighter) ability,
-adding an additional weapon group every six levels after 6th (to a maximum of three groups at 18th
-level) and increasing the bonus on attack and damage rolls for weapon groups already chosen by +1.
-This ability replaces the magus arcana normally gained at 6th, 12th, and 18th levels.
+adding an additional [weapon group](ref/ability/weapon-groups) every six levels after 6th (to a
+maximum of three groups at 18th level) and increasing the bonus on attack and damage rolls for
+weapon groups already chosen by +1. This ability replaces the magus arcana normally gained at 6th,
+12th, and 18th levels.
 
 ## Fighter Training (Ex) {#fighter-training}
 

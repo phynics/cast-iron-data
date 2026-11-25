@@ -16,113 +16,110 @@ page = "108"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "ectoplasmic-lash", level = 1 },
+  { anchor = "spiritual-combat", level = 3 },
+  { anchor = "ectoplasmic-armor", level = 4 },
+]
 trades = [
-  { replaces = "Etheric tether", feature = "etheric-tether" },
-  { replaces = "phantom", feature = "phantom" },
-  { replaces = "shared consciousness", feature = "shared-consciousness" },
-  { replaces = "fused consciousness", feature = "fused-consciousness" },
-  { replaces = "spiritual bond", feature = "spiritual-bond" },
-  { replaces = "empowered consciousness", feature = "empowered-consciousness" },
-  { replaces = "Bonded manifestation", feature = "bonded-manifestation" },
-  { replaces = "phantom recall", feature = "phantom-recall" },
-  { replaces = "dual bond", feature = "dual-bond" },
-  { replaces = "Spiritual interference", feature = "spiritual-interference" },
-  { replaces = "greater spiritual interference", feature = "greater-spiritual-interference" },
+  { replaces = "Etheric tether", feature = "etheric-tether", by = ["ectoplasmic-lash"] },
+  { replaces = "phantom", feature = "phantom", by = ["ectoplasmic-lash"] },
+  { replaces = "shared consciousness", feature = "shared-consciousness", by = ["ectoplasmic-lash"] },
+  { replaces = "fused consciousness", feature = "fused-consciousness", by = ["ectoplasmic-lash"] },
+  { replaces = "spiritual bond", feature = "spiritual-bond", by = ["ectoplasmic-lash"] },
+  { replaces = "empowered consciousness", feature = "empowered-consciousness", by = ["ectoplasmic-lash"] },
+  { replaces = "Bonded manifestation", feature = "bonded-manifestation", by = ["spiritual-combat"] },
+  { replaces = "phantom recall", feature = "phantom-recall", by = ["spiritual-combat"] },
+  { replaces = "dual bond", feature = "dual-bond", by = ["spiritual-combat"] },
+  { replaces = "Spiritual interference", feature = "spiritual-interference", by = ["ectoplasmic-armor"] },
+  { replaces = "greater spiritual interference", feature = "greater-spiritual-interference", by = ["ectoplasmic-armor"] },
 ]
 +++
 
 Instead of calling upon a phantom from the Ethereal Plane, an ectoplasmatist infuses herself with
 the mysterious substance called ectoplasm.
 
-**Ectoplasmic Lash (Su)**
+## Ectoplasmic Lash (Su) {#ectoplasmic-lash}
 
-**Fullround:** An ectoplasmatist can manifest one or two lashes of ectoplasm tethered to her by
-wispy, ectoplasmic tendrils. If she manifests two lashes, she can wield them both as light melee
-weapons, each dealing 1d6 points of slashing damage (1d4 if the ectoplasmatist is Small) with a
-critical threat range and multiplier of 19-20/×2. If the ectoplasmatist manifests only one _lash,_
-she can manifest it either as a single one-handed melee weapon that deals 1d8 points of slashing
-damage (1d6 if the ectoplasmatist is Small) with a critical threat range and multiplier of 19-20/×2,
-or as a two-handed melee weapon that deals 2d6 points of bludgeoning damage (1d10 if the
+At 1st level, as a full-round action an ectoplasmatist can manifest one or two lashes of ectoplasm
+tethered to her by wispy, ectoplasmic tendrils. If she manifests two lashes, she can wield them both
+as light melee weapons, each dealing 1d6 points of slashing damage (1d4 if the ectoplasmatist is
+Small) with a critical threat range and multiplier of 19–20/×2. If the ectoplasmatist manifests only
+one lash, she can manifest it either as a single one-handed melee weapon that deals 1d8 points of
+slashing damage (1d6 if the ectoplasmatist is Small) with a critical threat range and multiplier of
+19–20/×2, or as a two-handed melee weapon that deals 2d6 points of bludgeoning damage (1d10 if the
 ectoplasmatist is Small) with a critical multiplier of ×2. Only the ectoplasmatist can wield or use
-these lashes. Dismissing any or all manifested lashes is a **free action**.
+these lashes. Dismissing any or all manifested lashes is a free action.
 
-**At 12th Level:** The ectoplasmatist chooses a single
-[emotional focus](ref/ability/emotional-focus) ([anger](ref/emotionalfocus/anger),
-[dedication](ref/emotionalfocus/dedication), [despair](ref/emotionalfocus/despair),
-[fear](ref/emotionalfocus/fear), [hatred](ref/emotionalfocus/hatred),
-[jealousy](ref/emotionalfocus/jealousy), [kindness](ref/emotionalfocus/kindness),
-[remorse](ref/emotionalfocus/remorse), [whimsey](ref/emotionalfocus/whimsey), or
-[zeal](ref/emotionalfocus/zeal)). The ectoplasmatist's lashes gain a special weapon ability as if
-affected by a [spirit-bound blade](ref/spell/spirit-bound-blade) spell matching the emotional energy
-of the focus the ectoplasmatist has chosen.
+At 2nd level, the ectoplasmatist's lashes gain a +1 enhancement bonus on attack and damage rolls,
+and are treated as magic weapons.
 
-**At 16th Level:** The ectoplasmatist chooses a second _emotional focus,_ and her lashes gain the
-special weapon abilities as if affected by a _[spirit-bound blade](ref/spell/spirit-bound-blade)_
-spell with the special weapon ability of both of the ectoplasmatist's chosen _emotional foci._
-
-**At 2nd Level:** The ectoplasmatist's lashes gain a +1 enhancement bonus on attack and damage
-rolls, and are treated as magic weapons.
-
-**At 4th Level:** The ectoplasmatist can use her lashes as [reach](ref/misc/reach) weapons or use
-them to manipulate objects from a distance. When used as weapons, the lashes gain an additional 5
-feet of reach. Unlike most other weapons with reach, the lashes can be used to attack foes anywhere
-within the ectoplasmatist's reach (including adjacent foes). Attacks with the lashes' extended reach
+At 4th level, the ectoplasmatist can use her lashes as [reach](ref/misc/reach) weapons or use them
+to manipulate objects from a distance. When used as weapons, the lashes gain an additional 5 feet of
+reach. Unlike most other weapons with reach, the lashes can be used to attack foes anywhere within
+the ectoplasmatist's reach (including adjacent foes). Attacks with the lashes' extended reach
 provoke attacks of opportunity just as if the ectoplasmatist were attacking with a ranged weapon.
 When the lashes are used to manipulate items, they have the same manual dexterity as the
 ectoplasmatist's hands. Using the lashes to manipulate items always provokes attacks of opportunity,
 even if the action the ectoplasmatist is taking normally wouldn't.
 
-**At 6th Level:** The lashes are treated as having the ectoplasmatist's alignment for the purpose of
-overcoming [damage reduction](ref/rule/damage-reduction).
+At 6th level, the lashes' enhancement bonus increases to +2, and they are treated as having the
+ectoplasmatist's alignment for the purpose of overcoming
+[damage reduction](ref/rule/damage-reduction).
 
-**At 8th Level:** The ectoplasmatist's lashes become [ghost touch](ref/magic-enh/ghost-touch-weapon)
+At 8th level, the ectoplasmatist's lashes become _[ghost touch](ref/magic-enh/ghost-touch-weapon)_
 weapons and their reach increases by another 5 feet (for a total increase of 10 feet). Additionally,
-attacks with the lashes against non-adjacent foes no longer provoke attacks of opportunity. Using
-the lashes to manipulate objects from a distance still provokes attacks of opportunity, but only if
-the action the ectoplasmatist is taking would normally provoke such attacks (instead of always
+attacks with the lashes against nonadjacent foes no longer provoke attacks of opportunity. Using the
+lashes to manipulate objects from a distance still provokes attacks of opportunity, but only if the
+action the ectoplasmatist is taking would normally provoke such attacks (instead of always
 provoking).
 
-**Gained:** At 1st Level
+At 10th level, the lashes' enhancement bonus increases to +3.
 
-**Replaces:** Etheric tether, phantom, shared consciousness, fused consciousness, spiritual bond,
-empowered consciousness
+At 12th level, the ectoplasmatist chooses a single [emotional focus](ref/ability/emotional-focus)
+([anger](ref/emotionalfocus/anger), [dedication](ref/emotionalfocus/dedication),
+[despair](ref/emotionalfocus/despair), [fear](ref/emotionalfocus/fear),
+[hatred](ref/emotionalfocus/hatred), [jealousy](ref/emotionalfocus/jealousy), or
+[zeal](ref/emotionalfocus/zeal)). The ectoplasmatist's lashes gain a special weapon ability as if
+affected by a _[spirit-bound blade](ref/spell/spirit-bound-blade)_ spell (see page 187) matching the
+emotional energy of the focus the ectoplasmatist has chosen.
 
-At 6th level: The lashes' enhancement bonus increases to +2.
+At 14th level, the lashes' enhancement bonus increases to +4.
 
-At 10th level: The lashes' enhancement bonus increases to +3.
+At 16th level, the ectoplasmatist chooses a second emotional focus, and her lashes gain the special
+weapon abilities as if affected by a _[spirit-bound blade](ref/spell/spirit-bound-blade)_ spell with
+the special weapon ability of both of the ectoplasmatist's chosen emotional foci.
 
-At 14th level: The lashes' enhancement bonus increases to +4.
+At 18th level, the lashes' enhancement bonus increases to +5.
 
-At 18th level: The lashes' enhancement bonus increases to +5.
+This ability replaces etheric tether, phantom, shared consciousness, fused consciousness, spiritual
+bond, and empowered consciousness.
 
-**Spiritual Combat (Su)**
+## Spiritual Combat (Su) {#spiritual-combat}
 
-**Ability:** Also, when the ectoplasmatist casts a spiritualist spell with a range of touch, she can
-deliver the spell through one of her _ectoplasmic lashes._ Instead of making the free melee touch
-attack she would normally use to deliver the spell, the ectoplasmatist can choose to make a free
-_ectoplasmic lash_ attack at her highest base attack bonus. A successful lash attack deals damage
-normally and imparts the spell's effects. The ectoplasmatist can't hold the charge if her lash
-attack misses.
+At 3rd level, as a full-round action, an ectoplasmatist can make all of her attacks with a single
+light or one-handed ectoplasmic lash wielded in one hand, and also cast a single spiritualist spell
+with a casting time of one standard action as a free action either before or after making the
+ectoplasmic lash attacks. The ectoplasmatist takes a -2 penalty on her attack rolls when using
+spiritual combat. If she decides to [cast the spell defensively](ref/rule/concentration), she can
+choose to take an additional penalty on her attack rolls up to her Wisdom bonus, and add the same
+amount as a circumstance bonus on her [concentration](ref/rule/concentration) check. If the
+concentration check fails, the spell is wasted, but the attacks still take the penalty.
 
-**Fullround:** An ectoplasmatist can make all of her attacks with a single light or one-handed
-_ectoplasmic lash_ wielded in one hand, and also cast a single spiritualist spell with a casting
-time of one standard action as a **free action** either before or after making the _ectoplasmic
-lash_ attacks. The ectoplasmatist takes a -2 penalty on her attack rolls when using _spiritual
-combat._ If she decides to [cast the spell defensively](ref/rule/concentration), she can choose to
-take an additional penalty on her attack rolls up to her Wisdom bonus, and add the same amount as a
-circumstance bonus on her [concentration](ref/rule/concentration) check. If the concentration check
-fails, the spell is wasted, but the attacks still take the penalty.
+Also, when the ectoplasmatist casts a spiritualist spell with a range of touch, she can deliver the
+spell through one of her ectoplasmic lashes. Instead of making the free melee touch attack she would
+normally use to deliver the spell, the ectoplasmatist can choose to make a free ectoplasmic lash
+attack at her highest base attack bonus. A successful lash attack deals damage normally and imparts
+the spell's effects. The ectoplasmatist can't hold the charge if her lash attack misses.
 
-**Gained:** At 3rd Level
+This ability replaces bonded manifestation, phantom recall, and dual bond.
 
-**Replaces:** Bonded manifestation, phantom recall, dual bond
+## Ectoplasmic Armor (Su) {#ectoplasmic-armor}
 
-**Ectoplasmic Armor (Su)**
+At 4th level when an ectoplasmatist manifests her spiritual lash ability, tendrils of ectoplasmic
+material envelop her body, granting her a +4 armor bonus to AC.
 
-**At 12th Level:** The ectoplasmatist's armor bonus to AC increases to +6 and is treated as
-[ghost touch](ref/magic-enh/ghost-touch-armor) armor.
+At 12th level, the ectoplasmatist's armor bonus to AC increases to +6 and is treated as
+_[ghost touch](ref/magic-enh/ghost-touch-armor)_ armor.
 
-**At 4th Level:** When an ectoplasmatist manifests her _ectoplasmic lash_ ability, tendrils of
-ectoplasmic material envelop her body, granting her a +4 armor bonus to AC.
-
-**Replaces:** Spiritual interference, greater spiritual interference
+This ability replaces spiritual interference and greater spiritual interference.

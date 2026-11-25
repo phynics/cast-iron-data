@@ -53,8 +53,8 @@ terrain, and she cannot be tracked such environments. This ability replaces wood
 
 ## Natural Swimmer (Ex) {#natural-swimmer}
 
-At 3rd level, an aquatic druid gains a swim speed equal to half her land speed. This ability
-replaces trackless step.
+At 3rd level, an aquatic druid gains a swim speed equal to [half](ref/misc/fractions-and-rounding)
+her land speed. This ability replaces trackless step.
 
 ## Resist Ocean's Fury (Ex) {#resist-ocean-s-fury}
 

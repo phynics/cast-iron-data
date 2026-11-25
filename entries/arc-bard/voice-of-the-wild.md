@@ -39,10 +39,9 @@ use his performance to bring out the bestial side in his allies.
 
 ## Wild Knowledge (Ex) {#wild-knowledge}
 
-At 1st level, a voice of the wild adds 1/2 his level (minimum 1)
-
-to all Knowledge (nature) checks. He can use Knowledge (geography) and Knowledge (nature) untrained.
-This ability replaces bardic knowledge.
+At 1st level, a voice of the wild adds 1/2 his level (minimum 1) to all Knowledge (nature) checks.
+He can use Knowledge (geography) and Knowledge (nature) untrained. This ability replaces bardic
+knowledge.
 
 ## Nature Magic {#nature-magic}
 

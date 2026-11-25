@@ -33,10 +33,6 @@ strong bonds with animals. Unique among rangers, they can bond with multiple ani
 creating a menagerie of wild yet loyal creatures, like a strange family. A beast master has the
 following class features.
 
-**Gained class skills:** acro, ea
-
-**Lost class skills:** kd, kg, prof, spc
-
 ## Class Skills {#class-skills}
 
 A beast master's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Escape Artist (Dex),

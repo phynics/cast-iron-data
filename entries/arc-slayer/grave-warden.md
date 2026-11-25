@@ -67,4 +67,4 @@ finesse rogue, surprise attack, swift poison, terrain mastery, trap spotter, and
 ## Advanced Slayer Talents {#advanced-slayer-talents}
 
 The following advanced slayer talents (also available to rogues) complement the grave warden
-archetype: hunter's surprise, and slayer camouflage.
+archetype: [hunter's surprise](ref/talent/hunters-surprise), and slayer camouflage\*.

@@ -29,12 +29,12 @@ trades = [
 +++
 
 There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies
-of the church— one must also devour those enemies' sins. More benign versions of the practice
-believe that sin, or evil, is taken out of the world when a sin is devoured, denying the enemy's
-soul to the enemy's god and purifying the world of its taint. Followers of malevolent churches
-believe that consuming the sins of good folk not only corrupts the enemy soul to keep it from the
-celestial planes, but also taints the souls of those who witness the sin-eating or the corpse of its
-victim. Consuming sins empowers the sin eater, at least for a time.
+of the church—one must also devour those enemies' sins. More benign versions of the practice believe
+that sin, or evil, is taken out of the world when a sin is devoured, denying the enemy's soul to the
+enemy's god and purifying the world of its taint. Followers of malevolent churches believe that
+consuming the sins of good folk not only corrupts the enemy soul to keep it from the celestial
+planes, but also taints the souls of those who witness the sin-eating or the corpse of its victim.
+Consuming sins empowers the sin eater, at least for a time.
 
 ## Eat Sin (Sp) {#eat-sin}
 

@@ -18,11 +18,11 @@ page = "84"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "sea-shanty" },
+  { anchor = "sea-shanty", level = 1 },
   { anchor = "still-water", level = 3 },
   { anchor = "whistle-the-wind" },
   { anchor = "call-the-storm", level = 18 },
-  { anchor = "world-traveler" },
+  { anchor = "world-traveler", level = 1 },
   { anchor = "familiar", level = 2 },
   { anchor = "sea-legs", level = 2 },
 ]

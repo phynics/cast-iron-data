@@ -46,7 +46,7 @@ A dreamweaver's patron is normally [portents](ref/patron/portents) or [stars](re
 
 A dreamweaver replaces some of her patron's spells with the following: 2nd—_sow thoughts_ (see
 below), 4th—_dust of twilight_ (_Pathfinder RPG Advanced Player's Guide_), 6th—_deep slumber_,
-8th—_modify memory_, 10th—_dream_, 12th— _cloak of dreams_ (_Advanced Player's Guide_),
+8th—_modify memory_, 10th—_dream_, 12th—_cloak of dreams_ (_Advanced Player's Guide_),
 14th—_ethereal jaunt_, 16th—_moment of prescience_, 18th—_astral projection_.
 
 ## Dream Spinner (Su) {#dream-spinner}

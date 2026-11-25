@@ -16,11 +16,17 @@ page = "31"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shared-judgments" },
+  { anchor = "protect-the-faithful", level = 1 },
+  { anchor = "bolster-the-wounded", level = 14 },
+  { anchor = "true-vengeance", level = 20 },
+]
 trades = [
-  { replaces = "Stern gaze", feature = "stern-gaze" },
-  { replaces = "Exploit weakness", feature = "exploit-weakness" },
-  { alters = "Judgment", feature = "judgment" },
-  { alters = "True judgment", feature = "true-judgment" },
+  { replaces = "Stern gaze", feature = "stern-gaze", by = ["protect-the-faithful"] },
+  { replaces = "Exploit weakness", feature = "exploit-weakness", by = ["bolster-the-wounded"] },
+  { alters = "Judgment", feature = "judgment", by = ["shared-judgments"] },
+  { alters = "True judgment", feature = "true-judgment", by = ["true-vengeance"] },
 ]
 +++
 
@@ -28,58 +34,52 @@ Some inquisitors focus more on protecting those who share their faiths and their
 actively hunting their enemies. These vigilant defenders often work alongside traveling clerics and
 paladins.
 
-**Shared Judgments (Su)**
+## Shared Judgments (Su) {#shared-judgments}
 
-**Alters:** Judgment
-
-**Swift:** Whenever a vigilant defender has pronounced judgment on her foes, she can grant all of
-her allies the bonus or special ability that the judgment bestows. If she has multiple active
+As a swift action whenever a vigilant defender has pronounced judgment on her foes, she can grant
+all of her allies the bonus or special ability that the judgment bestows. If she has multiple active
 judgments, they all affect her allies. When she does this, the judgments no longer affect her, and
 their effects only last for 1 round, after which that daily use of judgment ends immediately, even
 if the combat is not over. The vigilant defender cannot change any of these judgments to another
 type during this round.
 
-**Protect the Faithful (Ex)**
+This ability modifies judgment.
 
-**Ability:** Affected allies receive a morale bonus equal to
-[one-fourth](ref/misc/fractions-and-rounding) of the vigilant defender's inquisitor level (minimum
-+1) on all Bluff, Disguise, Perception, and Stealth checks outside of combat made to avoid, deceive,
-or notice other creatures. This bonus lasts for 10 minutes, and the vigilant defender can affect
-herself and a number of allies equal to her Wisdom modifier (minimum 1).
+## Protect the Faithful (Ex) {#protect-the-faithful}
 
-**Info:** A vigilant defender can spend 1 minute coaching and teaching a group of allies how best to
-avoid scrutiny from those who wish them harm. The vigilant defender and her allies cannot be in
-combat or threatened during this coaching, and allies must be able to see and hear the vigilant
-defender to benefit from this ability. This ability provides no benefits against enemies that have
-heard or seen the coaching.
+A vigilant defender can spend 1 minute coaching and teaching a group of allies how best to avoid
+scrutiny from those who wish them harm. The vigilant defender and her allies cannot be in combat or
+threatened during this coaching, and allies must be able to see and hear the vigilant defender to
+benefit from this ability. This ability provides no benefits against enemies that have heard or seen
+the coaching.
 
-**Replaces:** Stern gaze
+Affected allies receive a morale bonus equal to 1/4 the vigilant defender's inquisitor level
+(minimum +1) on all Bluff, Disguise, Perception, and Stealth checks outside of combat made to avoid,
+deceive, or notice other creatures. This bonus lasts for 10 minutes, and the vigilant defender can
+affect herself and a number of allies equal to her Wisdom modifier (minimum 1). She can coach allies
+in this way once per day at 1st level, plus one additional time per day for every 4 inquisitor
+levels she has, to a maximum of six times per day at 20th level.
 
-**Usage:** 1 time/day + 1 per 4 inquisitor levels
+This ability replaces stern gaze.
 
-**Bolster the Wounded (Ex)**
+## Bolster the Wounded (Ex) {#bolster-the-wounded}
 
-**Flavor:** A vigilant defender can preternaturally sense when her allies are in grave peril and can
-form a mystical conduit to protect them from the full effects of grievous wounds.
-
-**Immediate:** Whenever an enemy confirms a critical hit against an ally within 30 feet, the
+At 14th level, a vigilant defender can preternaturally sense when her allies are in grave peril and
+can form a mystical conduit to protect them from the full effects of grievous wounds. As an
+immediate action whenever an enemy confirms a critical hit against an ally within 30 feet, the
 vigilant defender can choose to accept half the damage. If she does so, similar to the
-[shield other](ref/spell/shield-other) spell, any of her
+_[shield other](ref/spell/shield-other)_ spell, any of her
 [damage reduction](ref/rule/damage-reduction), resistances, or immunities do not apply to the damage
 she takes.
 
-**Gained:** At 14th Level
+This ability replaces exploit weakness.
 
-**Replaces:** Exploit weakness
+## True Vengeance (Su) {#true-vengeance}
 
-**True Vengeance (Su)**
-
-**Alters:** True judgment
-
-**Gained:** At 20th Level
-
-**Passive:** When a vigilant defender calls _true judgment_ down upon a foe, if the foe has killed
+At 20th level, when a vigilant defender calls true judgment down upon a foe, if the foe has killed
 one of the vigilant defender's allies (permanent sentient allies, such as fellow party members or
 cohorts, not summoned monsters, animal companions, pets, or the like), the DC of the target's
 Fortitude save to avoid death is 2 higher. If the foe has not damaged any of the vigilant defender's
 allies, the DC to avoid death is instead 2 lower.
+
+This ability alters true judgment.

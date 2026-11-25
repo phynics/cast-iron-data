@@ -96,5 +96,5 @@ This ability replaces abundant step.
 ## Free Step (Su) {#free-step}
 
 At 13th level, the wanderer gains continuous _[freedom of movement](ref/spell/freedom-of-movement)_
-as a continuous [spell-like ability](ref/umr/spell-like-abilities)_._ This ability replaces diamond
+as a continuous [spell-like ability](ref/umr/spell-like-abilities). This ability replaces diamond
 soul.

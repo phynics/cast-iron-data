@@ -16,74 +16,63 @@ page = "19"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shapechanger", level = 1 },
+  { anchor = "mutagen", level = 1 },
+  { anchor = "adaptive-physiology", level = 3 },
+]
 trades = [
-  { replaces = "Alchemy", feature = "alchemy" },
-  { replaces = "bombs", feature = "bomb" },
-  { replaces = "extracts", feature = "extracts" },
-  { replaces = "mutagen", feature = "mutagen" },
-  { replaces = "Throw Anything", feature = "throw-anything" },
-  { replaces = "Swift alchemy", feature = "swift-alchemy" },
-  { replaces = "swift poisoning", feature = "swift-poisoning" },
-  { replaces = "instant alchemy", feature = "instant-alchemy" },
+  { replaces = "Alchemy", feature = "alchemy", by = ["shapechanger"] },
+  { replaces = "bombs", feature = "bomb", by = ["shapechanger"] },
+  { replaces = "extracts", feature = "extracts", by = ["shapechanger"] },
+  { replaces = "mutagen", feature = "mutagen", by = ["mutagen"] },
+  { replaces = "Throw Anything", feature = "throw-anything", by = ["shapechanger"] },
+  { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["adaptive-physiology"] },
+  { replaces = "swift poisoning", feature = "swift-poisoning", by = ["adaptive-physiology"] },
+  { replaces = "instant alchemy", feature = "instant-alchemy", by = ["adaptive-physiology"] },
 ]
 +++
 
 Metamorphs eschew traditional alchemy, focusing on internal chemistry and the transfiguration of
 living forms.
 
-**Gained class skills:** dis
+## Class Skills {#class-skills}
 
-**Shapechanger (Su)**
+A metamorph adds Disguise to her list of class skills.
 
-**At 11th Level:** This ability can also function as
-[monstrous physique III](ref/spell/monstrous-physique-3).
+This alters the alchemist's class skills.
 
-**At 13th Level:** This ability can also function as
-[monstrous physique IV](ref/spell/monstrous-physique-4) or [giant form I](ref/spell/giant-form-1).
+## Shapechanger (Su) {#shapechanger}
 
-**At 15th Level:** This ability can also function as [giant form II](ref/spell/giant-form-2).
+At 1st level, a metamorph gains the ability to transform herself into another form. This ability
+functions like _[alter self](ref/spell/alter-self)_, except as noted here. The effect lasts for 1
+hour per metamorph's alchemist level, or until she changes back. Changing form (to another form or
+back) is a standard action that doesn't provoke attacks of opportunity. The metamorph is
+[fatigued](ref/misc/fatigued) for 1 round each time she changes shape.
 
-**At 20th Level:** A metamorph can use _shapechanger_ as a **free action** once per round, either
-before or after all her other actions, with no daily limit.
+A metamorph can use this ability once per day at 1st level, and an additional time per day at 4th
+level, and every 2 alchemist levels thereafter, for a total of nine times at 18th level. At 20th
+level, a metamorph can use shapechanger as a free action once per round, either before or after all
+her other actions, with no daily limit.
 
-**At 5th Level:** This ability can also function as
-[monstrous physique I](ref/spell/monstrous-physique-1).
+This ability can also function as _[monstrous physique I](ref/spell/monstrous-physique-1)_ at 5th
+level, as _[monstrous physique II](ref/spell/monstrous-physique-2)_ at 9th level, as
+_[monstrous physique III](ref/spell/monstrous-physique-3)_ at 11th level, as
+_[monstrous physique IV](ref/spell/monstrous-physique-4)_ or
+_[giant form I](ref/spell/giant-form-1)_ at 13th level, and as
+_[giant form II](ref/spell/giant-form-2)_ at 15th level.
 
-**At 9th Level:** This ability can also function as
-[monstrous physique II](ref/spell/monstrous-physique-2).
+This ability replaces alchemy (which also includes bombs, extracts, and mutagen) and Throw Anything.
 
-**Gained:** At 1st Level
+## Mutagen (Ex) {#mutagen}
 
-**Provokes attack of opportunity:** No
+At 1st level, a metamorph gains mutagen as a normal alchemist. She can take mutagen and cognatogen
+discoveries despite not possessing the alchemy class feature that normally grants mutagen.
 
-**Replaces:** Alchemy, bombs, extracts, mutagen, Throw Anything
+## Adaptive Physiology (Ex) {#adaptive-physiology}
 
-**Special:** A metamorph can use this ability once per day at 1st level, and an additional time per
-day at 4th level, and every 2 alchemist levels thereafter, for a total of nine times at 18th level.
+At 3rd level, a metamorph gains a 25% chance to negate critical hits and precision damage, similar
+to the [preserve organs](ref/discovery/preserve-organs) discovery. This chance increases to 50% at
+6th level, and to 75% at 18th level.
 
-**Standard:** At 1st level, a metamorph gains the ability to transform herself into another form.
-This ability functions like [alter self](ref/spell/alter-self), except as noted here. The effect
-lasts for 1 hour per metamorph's alchemist level, or until she changes back. Changing form (to
-another form or back) is a standard action that doesn't provoke attacks of opportunity. The
-metamorph is [fatigued](ref/misc/fatigued) for 1 round each time she changes shape.
-
-**Mutagen (Ex)**
-
-**Ability:** A metamorph gains _mutagen_ as a normal alchemist. She can take _mutagen_ and
-_cognatogen_ discoveries despite not possessing the alchemy class feature that normally grants
-mutagen.
-
-**Gained:** At 1st Level
-
-**Adaptive Physiology (Ex)**
-
-**At 18th Level:** This chance increases to 75%.
-
-**At 6th Level:** This chance becomes 50%.
-
-**Gained:** At 3rd Level
-
-**Passive:** A metamorph gains a 25% chance to negate critical hits and precision damage, similar to
-the [preserve organs](ref/discovery/preserve-organs) discovery.
-
-**Replaces:** Swift alchemy, swift poisoning, instant alchemy
+This ability replaces swift alchemy, swift poisoning, and instant alchemy.

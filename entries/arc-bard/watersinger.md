@@ -86,7 +86,7 @@ still gains the use of lore master once per day at 11th level and twice per day 
 A watersinger adds certain water-themed spells to his spell list. He adds these abilities to his
 spell list as soon as his bard level allows him to cast spells of that spell level. 0—_create
 water_; 1st—_hydraulic push_ (_Advanced Player's Guide_), _slipstream_ (_Advanced Player's Guide_);
-2nd— _aqueous orb_ (_Advanced Player's Guide_), _hydraulic torrent_ (_Advanced Player's Guide_),
+2nd—_aqueous orb_ (_Advanced Player's Guide_), _hydraulic torrent_ (_Advanced Player's Guide_),
 _water walk_; 3rd—_fluid form_ (_Advanced Player's Guide_), _ride the waves_ (_Ultimate Magic_);
 4th—_control water_, _communal water walk_ (_Ultimate Combat_); 5th—_vortex_ (_Advanced Player's
 Guide_); 6th—_seamantle_ (_Advanced Player's Guide_).

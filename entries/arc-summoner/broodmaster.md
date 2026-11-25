@@ -117,18 +117,18 @@ many eidolons in the brood are within reach.
 
 ## Hordes of Summoned Monsters {#hordes-of-summoned-monsters}
 
-The broodmaster and master summoner archetypes can potentially have 5, 10, or even more summoned
-creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can
-potentially be a strong candidate for "solo" adventuring by one player. However, in the hands of an
-inexperienced or moderately experienced player, dealing with all of those creatures in combat can
-take a long time, forcing other players to wait extended periods between their turns in the
-initiative. It is strongly recommended that GMs only allow these archetypes for experienced players,
-or decide on a way to speed up the summoner's turn (such as by allowing other players to control
-some of the summoned monsters). Brood Bond (Su): At 14th level, a summoner's life becomes linked to
-his brood. This functions as the life bond ability, except the broodmaster can only transfer damage
-to one eidolon in the brood at a time. If that eidolon takes enough damage to send it back to its
-home plane, all excess damage remains with the broodmaster, killing him. This ability replaces life
-bond.
+The broodmaster and [master summoner](ref/arc-summoner/master-summoner) archetypes can potentially
+have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these
+archetypes, and means that the summoner can potentially be a strong candidate for "solo" adventuring
+by one player. However, in the hands of an inexperienced or moderately experienced player, dealing
+with all of those creatures in combat can take a long time, forcing other players to wait extended
+periods between their turns in the initiative. It is strongly recommended that GMs only allow these
+archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by
+allowing other players to control some of the summoned monsters). Brood Bond (Su): At 14th level, a
+summoner's life becomes linked to his brood. This functions as the life bond ability, except the
+broodmaster can only transfer damage to one eidolon in the brood at a time. If that eidolon takes
+enough damage to send it back to its home plane, all excess damage remains with the broodmaster,
+killing him. This ability replaces life bond.
 
 ## Merge Forms (Su) {#merge-forms}
 

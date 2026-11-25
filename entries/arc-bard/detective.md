@@ -18,10 +18,10 @@ page = "81"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "careful-teamwork" },
+  { anchor = "careful-teamwork", level = 1 },
   { anchor = "true-confession", level = 9 },
   { anchor = "show-yourselves", level = 15 },
-  { anchor = "eye-for-detail" },
+  { anchor = "eye-for-detail", level = 1 },
   { anchor = "arcane-insight", level = 2 },
   { anchor = "arcane-investigation" },
 ]
@@ -80,9 +80,9 @@ replaces inspire heroics.
 
 ## Eye for Detail (Ex) {#eye-for-detail}
 
-A detective gains a bonus equal to half his level on Knowledge (local), Perception, and Sense Motive
-checks, as well as Diplomacy checks to gather information (minimum +1). This ability replaces bardic
-knowledge.
+A detective gains a bonus equal to [half](ref/misc/fractions-and-rounding) his level on Knowledge
+(local), Perception, and Sense Motive checks, as well as Diplomacy checks to gather information
+(minimum +1). This ability replaces bardic knowledge.
 
 ## Arcane Insight (Ex) {#arcane-insight}
 
@@ -96,13 +96,12 @@ ability replaces well-versed.
 ## Arcane Investigation {#arcane-investigation}
 
 In addition, a detective's class spell list includes the following:
-1st—_[detect chaos](ref/spell/detect-chaos)/[evil](ref/spell/detect-evil)/[law](ref/spell/detect-law)/
-[good](ref/spell/detect-good)_; 2nd—_[zone of truth](ref/spell/zone-of-truth)_;
-3rd—_[arcane eye](ref/spell/arcane-eye), [speak with dead](ref/spell/speak-with-dead),
-[speak with plants](ref/spell/speak-with-plants)_; 4th—_[discern lies](ref/spell/discern-lies)_;
-5th—_[prying eyes](ref/spell/prying-eyes), [stone tell](ref/spell/stone-tell)_;
-6th—_[discern location](ref/spell/discern-location), [find the path](ref/spell/find-the-path),
-[greater prying eyes](ref/spell/prying-eyes-greater),
+1st—_[detect chaos](ref/spell/detect-chaos)/[evil](ref/spell/detect-evil)/[law](ref/spell/detect-law)/[good](ref/spell/detect-good)_;
+2nd—_[zone of truth](ref/spell/zone-of-truth)_; 3rd—_[arcane eye](ref/spell/arcane-eye),
+[speak with dead](ref/spell/speak-with-dead), [speak with plants](ref/spell/speak-with-plants)_;
+4th—_[discern lies](ref/spell/discern-lies)_; 5th—_[prying eyes](ref/spell/prying-eyes),
+[stone tell](ref/spell/stone-tell)_; 6th—_[discern location](ref/spell/discern-location),
+[find the path](ref/spell/find-the-path), [greater prying eyes](ref/spell/prying-eyes-greater),
 [moment of prescience](ref/spell/moment-of-prescience)_. A detective may add one of these spells or
 any divination spell on the bard spell list to his list of spells known at 2nd level and every four
 levels thereafter. This ability replaces versatile performance.

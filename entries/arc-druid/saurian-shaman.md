@@ -38,15 +38,10 @@ coming other animals dread.
 
 ## Nature Bond {#nature-bond}
 
-A saurian shaman who chooses
+A saurian shaman who chooses an animal companion must select a dinosaur.
 
-an animal companion must select a dinosaur.
-
-If choosing a domain, a saurian shaman
-
-must choose from the [Animal](ref/domain/animal), [Destruction](ref/domain/destruction),
-
-Strength, and [War](ref/domain/war) domains.
+If choosing a domain, a saurian shaman must choose from the [Animal](ref/domain/animal),
+[Destruction](ref/domain/destruction), Strength, and [War](ref/domain/war) domains.
 
 ## Wild Empathy (Ex) {#wild-empathy}
 

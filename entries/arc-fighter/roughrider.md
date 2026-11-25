@@ -38,8 +38,8 @@ trades = [
 +++
 
 Roughriders study and practice the fine points of mounted combat, drilling endlessly with
-warbeasts - from noble thoroughbreds to trained monsters - to form a perfect synergy between rider
-and steed.
+warbeasts—from noble thoroughbreds to trained monsters—to form a perfect synergy between rider and
+steed.
 
 ## Steadfast Mount (Ex) {#steadfast-mount}
 

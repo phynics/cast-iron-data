@@ -41,8 +41,8 @@ natural world to become its deadly champion and avenger.
 At 1st level, a nature fang gains the [slayer's](ref/class/slayer) studied target class feature. At
 5th level and every 5 levels thereafter, the nature fang's bonus against her studied target
 increases by 1. Unlike a slayer, a nature fang does not gain the ability to maintain more than one
-studied target at the same time. This ability replaces nature sense, wild empathy, and woodland
-stride.
+studied target at the same time. This ability replaces nature sense, wild empathy, and
+[woodland stride](ref/slayertalent/woodland-stride).
 
 ## Slayer Talent {#slayer-talent}
 
@@ -64,12 +64,19 @@ venom immunity.
 
 ## Slayer Talents {#slayer-talents}
 
-The following slayer talents complement the nature fang archetype: foil scrutiny, poison use, ranger
-combat style. Additionally, the following rogue talents, which are also available to slayers,
-complement the archetype: bleeding attack, camouflage, fast stealth, finesse rogue, lasting poison,
-rogue crawl, slow reactions, surprise attack, swift poison, terrain mastery.
+The following slayer talents complement the nature fang archetype:
+[foil scrutiny](ref/slayertalent/foil-scrutiny), [poison use](ref/slayertalent/poison-use),
+[ranger combat style](ref/slayertalent/ranger-combat-style). Additionally, the following rogue
+talents, which are also available to slayers, complement the archetype:
+[bleeding attack](ref/talent/bleeding-attack), [camouflage](ref/talent/camouflage),
+[fast stealth](ref/talent/fast-stealth), [finesse rogue](ref/talent/finesse-rogue),
+[lasting poison](ref/talent/lasting-poison), [rogue crawl](ref/talent/rogue-crawl),
+[slow reactions](ref/talent/slow-reactions), [surprise attack](ref/talent/surprise-attack),
+[swift poison](ref/talent/swift-poison), [terrain mastery](ref/talent/terrain-mastery).
 
 ## Advanced Talents {#advanced-talents}
 
-The following advanced talents complement the nature fang archetype: assassinate, slayer camouflage,
-woodland stride. The rogue advanced talent master of disguise also fits the archetype.
+The following advanced talents complement the nature fang archetype:
+[assassinate](ref/slayertalent/assassinate),
+[slayer camouflage](ref/slayertalent/slayer-camouflage), woodland stride. The rogue advanced talent
+[master of disguise](ref/talent/master-of-disguise) also fits the archetype.

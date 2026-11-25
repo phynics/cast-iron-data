@@ -16,14 +16,24 @@ page = "104"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "phrenic-charisma" },
+  { anchor = "formless-body" },
+  { anchor = "blurred-body", level = 1 },
+  { anchor = "gaseous-body", level = 5 },
+  { anchor = "incorporeal-body", level = 13 },
+  { anchor = "formless-spell", level = 1 },
+  { anchor = "psychic-possession", level = 15 },
+  { anchor = "formless-master", level = 20 },
+]
 trades = [
-  { replaces = "Psychic discipline", feature = "psychic-discipline" },
-  { replaces = "discipline powers", feature = "psychic-discipline", power = "discipline power" },
-  { replaces = "1st-level phrenic amplification", feature = "phrenic-amplifications", levels = [1] },
+  { replaces = "Psychic discipline", feature = "psychic-discipline", by = ["incorporeal-body"] },
+  { replaces = "discipline powers", feature = "psychic-discipline", power = "discipline power", by = ["incorporeal-body"] },
+  { replaces = "1st-level phrenic amplification", feature = "phrenic-amplifications", levels = [1], by = ["formless-spell"] },
   { replaces = "Discipline spells", feature = "psychic-discipline", power = "discipline spell" },
-  { replaces = "15th-level phrenic amplification", feature = "phrenic-amplifications", levels = [15] },
-  { replaces = "Remade self", feature = "remade-self" },
-  { alters = "Phrenic pool", feature = "phrenic-pool" },
+  { replaces = "15th-level phrenic amplification", feature = "phrenic-amplifications", levels = [15], by = ["psychic-possession"] },
+  { replaces = "Remade self", feature = "remade-self", by = ["formless-master"] },
+  { alters = "Phrenic pool", feature = "phrenic-pool", by = ["phrenic-charisma"] },
 ]
 +++
 
@@ -31,124 +41,79 @@ Formless adepts master their psychic powers to unshackle themselves from the con
 and empower their spellcasting. They learn to assume increasingly insubstantial forms until they
 become like living ghosts.
 
-**Phrenic Charisma**
+## Phrenic Charisma {#phrenic-charisma}
 
-**Alters:** Phrenic pool
+A formless adept uses his Charisma modifier to determine the number of points in his phrenic pool.
+This ability alters phrenic pool.
 
-**Info:** A formless adept uses his Charisma modifier to determine the number of points in his
-phrenic pool.
+## Formless Body {#formless-body}
 
-**Formless Body**
+A formless adept gradually sheds his body, taking on increasingly nebulous forms. A formless adept
+can assume a formless body as a standard action. He can remain in each formless body type for a
+number of rounds per day equal to 3 + his Charisma modifier. The rounds don't have to be used
+consecutively, but must be used in 1-round increments. Resuming his physical form takes another
+standard action; otherwise, the formless adept continues spending rounds of formless body until he
+runs out of them. The formless adept must return to his physical form before assuming a different
+formless body.
 
-**Flavor:** A formless adept gradually sheds his body, taking on increasingly nebulous forms.
+## Blurred Body (Su) {#blurred-body}
 
-**Replaces:** Psychic discipline, discipline powers
+At 1st level, a formless adept can act under the effect of a _[blur](ref/spell/blur)_ spell. At 5th
+level, the formless adept can use this ability for a number of minutes per day instead of rounds per
+day. These minutes don't have to be used consecutively, but must be used in 1-minute increments.
 
-**Special:** The types of _formless body_ are listed below.
+## Gaseous Body (Su) {#gaseous-body}
 
-**Standard:** A formless adept can assume a _formless body._ Resuming his physical form takes
-another standard action; otherwise, the formless adept continues spending rounds of _formless body_
-until he runs out of them. The formless adept must return to his physical form before assuming a
-different _formless body._
-
-**Usage:** Charisma3 modifier rounds/day; these rounds need not be consecutive, but must be spent in
-1-round increments
-
-**Blurred Body (Su)**
-
-**Ability:** A formless adept can act under the effect of a [blur](ref/spell/blur) spell.
-
-**At 5th Level:** The formless adept can use this ability for a number of minutes per day instead of
+At 5th level, a formless adept can become gaseous as _[gaseous form](ref/spell/gaseous-form)._ At
+13th level, the formless adept can use this ability for a number of minutes per day instead of
 rounds per day. These minutes don't have to be used consecutively, but must be used in 1-minute
 increments.
 
-**Prereq:** 1st level psychic
+## Incorporeal Body (Su) {#incorporeal-body}
 
-**Gaseous Body (Su)**
+At 13th level, a formless adept can become [incorporeal](ref/umr/incorporeal).
 
-**Ability:** A formless adept can become gaseous as [gaseous form](ref/spell/gaseous-form).
+This ability replaces the psychic discipline and discipline powers class features.
 
-**At 13th Level:** The formless adept can use this ability for a number of minutes per day instead
-of rounds per day. These minutes don't have to be used consecutively, but must be used in 1-minute
-increments.
+## Formless Spell {#formless-spell}
 
-**Prereq:** 5th level psychic
+At 1st level, a formless adept gains the formless spell phrenic amplification. He can spend 1 point
+from his phrenic pool to cast a spell with a standard-action casting time as part of the action he
+uses to assume his formless body, expending the spell slot as normal. This ability replaces the
+1st-level phrenic amplification.
 
-**Incorporeal Body (Su)**
+## Bonus Spells {#bonus-spells}
 
-**Ability:** A formless adept can become [incorporeal](ref/umr/incorporeal).
+The formless adept adds extra spells to his list of spells known while he's in a formless body
+(including when he uses the formless spell phrenic amplification). Spells with a duration last for
+their full duration, even if the psychic reverts to his physical form. For feats and other abilities
+that require these spells as prerequisites, the psychic counts as knowing the spells but can benefit
+from the feats and abilities only while in a formless body. The formless adept gains the following
+spells at the appropriate levels: _chill touch_ and _expeditious retreat_ (1st), _levitate_ and
+_stricken heart_ (4th), _gaseous form_ and _vampiric touch_ (6th), _shadow step_ and _telekinesis_
+(8th), _dominate person_ and _synapse overload_ (10th), _disintegrate_ and _enemy hammer_ (12th),
+_finger of death_ and _telekinetic sphere_ (14th), _etherealness_ and _power word stun_ (16th), and
+_dominate monster_ and _telekinetic storm_ (18th). This ability replaces discipline spells.
 
-**Prereq:** 13th level psychic
+## Psychic Possession (Su) {#psychic-possession}
 
-**Formless Spell**
+At 15th level, while using his _incorporeal body_ ability, a formless adept can attempt to
+psychically possess another living creature. To use this ability, the formless adept must be
+adjacent to the target. This effect works as the [greater possession](ref/spell/possession-greater)
+spell and can be maintained only as long as the formless adept maintains his _incorporeal body_
+form. The target can attempt a Will save with a DC equal to 10 + 1/2 the formless adept's class
+level + the formless adept's Intelligence modifier to resist the effect. A creature that
+successfully saves is immune to the formless adept's psychic possession for 24 hours. This ability
+replaces the 15th-level phrenic amplification.
 
-**Ability:** This is a phrenic amplification. The formless adept can spend 1 point from his phrenic
-pool to cast a spell with a standard-action casting time as part of the action he uses to assume his
-_formless body,_ expending the spell slot as normal.
+## Formless Master (Su) {#formless-master}
 
-**Gained:** At 1st Level
-
-**Replaces:** 1st-level phrenic amplification
-
-**Bonus Spells**
-
-**Ability:** The formless adept adds extra spells to his list of spells known while he's in a
-_formless body_ (including when he uses the _formless spell_ phrenic amplification). Spells with a
-duration last for their full duration, even if the psychic reverts to his physical form. The
-formless adept gains the following spells below at the given psychic level.
-
-**Replaces:** Discipline spells
-
-**Spells:** Chill touch, expeditious retreat
-
-**Spells:** Dominate person, synapse overload
-
-**Spells:** Disintegrate, enemy hammer
-
-**Spells:** Finger of death, telekinetic sphere
-
-**Spells:** Etherealness, power word stun
-
-**Spells:** Dominate monster, telekinetic storm
-
-**Spells:** Levitate, stricken heart
-
-**Spells:** Gaseous form, vampiric touch
-
-**Spells:** Shadow step, telekinesis
-
-**Special:** For feats and other abilities that require these spells as prerequisites, the psychic
-counts as knowing the spells but can benefit from the feats and abilities only while in a _formless
-body._
-
-**Psychic Possession (Su)**
-
-**Ability:** While using his _incorporeal body_ ability, a formless adept can attempt to psychically
-possess another living creature. To use this ability, the formless adept must be adjacent to the
-target. This effect works as the [greater possession](ref/spell/possession-greater) spell and can be
-maintained only as long as the formless adept maintains his _incorporeal body_ form.
-
-**Gained:** At 15th Level
-
-**Replaces:** 15th-level phrenic amplification
-
-**Special:** The target can attempt a Will save with a DC equal to 10 + 1/2 the formless adept's
-class level + the formless adept's Intelligence modifier to resist the effect. A creature that
-successfully saves is immune to the formless adept's psychic possession for 24 hours.
-
-**Formless Master (Su)**
-
-**Ability:** A formless adept can assume any _formless body_ as a **swift action** and change
-between _formless body_ types as a **standard action** (without returning to his physical form
-first). He can use the _formless spell_ phrenic amplification to cast any spell with a swift-action
-casting time when assuming a _formless body_ or any spell with a standard-action casting time while
-switching between formless bodies.
-
-**Gained:** At 20th Level
-
-**Passive:** The formless adept also adds his Charisma bonus as a deflection bonus to his AC while
-in a _formless body._ A formless adept can attempt a saving throw to bypass any spells that prevent
-entry of incorporeal creatures (such as [anti-incorporeal shell](ref/spell/anti-incorporeal-shell)),
-even if the spells don't normally allow one.
-
-**Replaces:** Remade self
+At 20th level, a formless adept can assume any formless body as a swift action and change between
+formless body types as a standard action (without returning to his physical form first). He can use
+the formless spell phrenic amplification to cast any spell with a swift-action casting time when
+assuming a formless body or any spell with a standard-action casting time while switching between
+formless bodies. The formless adept also adds his Charisma bonus as a deflection bonus to his AC
+while in a formless body. A formless adept can attempt a saving throw to bypass any spells that
+prevent entry of incorporeal creatures (such as
+_[anti-incorporeal shell](ref/spell/anti-incorporeal-shell)_), even if the spells don't normally
+allow one. This ability replaces remade self.

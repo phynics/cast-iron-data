@@ -60,11 +60,13 @@ ability replaces the slayer talent gained at 6th level.
 
 ## Slayer Talents {#slayer-talents}
 
-The following slayer talents (and rogue talents) complement the cutthroat archetype: fast stealth,
-poison use, slowing strike, surprise attack, and terrain mastery. (Those with asterisks \[\*\] are
-detailed in the slayer class, starting on page 53.)
+The following slayer talents (and rogue talents) complement the cutthroat archetype:
+[fast stealth](ref/talent/fast-stealth), poison use\*, slowing strike\*,
+[surprise attack](ref/talent/surprise-attack), and [terrain mastery](ref/talent/terrain-mastery).
+(Those with asterisks \[\*\] are detailed in the slayer class, starting on page 53.)
 
 ## Advanced Slayer Talents {#advanced-slayer-talents}
 
 The following advanced slayer talents (and advanced rogue talents) complement the cutthroat
-archetype: assassinate, knock-out blow, opportunist, and slayer camouflage.
+archetype: assassinate\*, [knock-out blow](ref/talent/knock-out-blow),
+[opportunist](ref/talent/opportunist), and slayer camouflage\*.

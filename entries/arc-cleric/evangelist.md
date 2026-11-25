@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "single-minded" },
   { anchor = "public-speaker" },
-  { anchor = "sermonic-performance" },
+  { anchor = "sermonic-performance", level = 1 },
   { anchor = "spontaneous-casting" },
 ]
 trades = [

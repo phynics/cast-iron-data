@@ -75,8 +75,8 @@ its Intelligence bonus.
 
 A _black blade_ has special abilities (or imparts abilities to its wielder) depending on the
 wielder's magus level. The abilities are cumulative. A _black blade_ normally refuses to use any of
-its abilities when wielded by anyone other than its magus, and acts as a masterwork weapon of its
-type.
+its abilities when wielded by anyone other than its magus, and acts as a
+[masterwork weapon](ref/rule/masterwork-weapons) of its type.
 
 Table 1–3: Black Blade Progression
 

@@ -16,16 +16,26 @@ page = "120"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "diminished-spellcasting" },
+  { anchor = "arcane-pool", level = 1 },
+  { anchor = "unarmed-strike", level = 1 },
+  { anchor = "unarmed-spellstrike", level = 1 },
+  { anchor = "ki-arcana", level = 4 },
+  { anchor = "tattooed-spell", level = 5 },
+  { anchor = "ac-bonus", level = 7 },
+  { anchor = "improved-tattooed-spell", level = 11 },
+]
 trades = [
-  { replaces = "Spell recall", feature = "spell-recall" },
-  { replaces = "Bonus feats", feature = "bonus-feats" },
-  { replaces = "Medium armor", feature = "medium-armor" },
-  { replaces = "heavy armor", feature = "heavy-armor" },
-  { replaces = "Improved spell recall", feature = "improved-spell-recall" },
+  { replaces = "Spell recall", feature = "spell-recall", by = ["ki-arcana"] },
+  { replaces = "Bonus feats", feature = "bonus-feats", by = ["tattooed-spell"] },
+  { replaces = "Medium armor", feature = "medium-armor", by = ["ac-bonus"] },
+  { replaces = "heavy armor", feature = "heavy-armor", by = ["ac-bonus"] },
+  { replaces = "Improved spell recall", feature = "improved-spell-recall", by = ["improved-tattooed-spell"] },
   { alters = "Weapon and armor proficiency", feature = "weapon-and-armor-proficiencies" },
-  { alters = "Spellcasting", feature = "spells" },
-  { alters = "Arcane pool", feature = "arcane-pool" },
-  { alters = "Spellstrike", feature = "spellstrike" },
+  { alters = "Spellcasting", feature = "spells", by = ["diminished-spellcasting"] },
+  { alters = "Arcane pool", feature = "arcane-pool", by = ["arcane-pool"] },
+  { alters = "Spellstrike", feature = "spellstrike", by = ["unarmed-spellstrike"] },
 ]
 +++
 
@@ -33,119 +43,70 @@ Esoterics are drawn to the mysticism of the occult and spend their lives delving
 texts and forbidden tomes. Each esoteric learns to inscribe his spells on his flesh in a complex
 series of occult symbols and arcane equations.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Alters:** Weapon and armor proficiency
+An esoteric is proficient with simple weapons only. This alters the magus's weapon and armor
+proficiency.
 
-**Info:** An esoteric is proficient with simple weapons only.
+## Diminished Spellcasting {#diminished-spellcasting}
 
-**Diminished Spellcasting**
+An esoteric has one fewer spell slot of each level than a regular magus. If this reduces his number
+of spell slots of a particular level to zero, he can cast spells of that level only if his
+Intelligence allows [bonus spells](ref/rule/determine-bonuses) of that level. This ability alters
+the magus's spellcasting.
 
-**Ability:** An esoteric has one fewer spell slot of each level than a regular magus. If this
-reduces his number of spell slots of a particular level to zero, he can cast spells of that level
-only if his Intelligence allows [bonus spells](ref/rule/determine-bonuses) of that level.
+## Arcane Pool (Su) {#arcane-pool}
 
-**Alters:** Spellcasting
+At 1st level, an esoteric can use his arcane pool to enhance his unarmed strikes as if they were
+manufactured weapons. At 5th level, he can use these bonuses to add any of the following weapon
+special abilities to his weapons or unarmed strikes: _[defending](ref/magic-enh/defending)_,
+_[flaming](ref/magic-enh/flaming)_, _[flaming burst](ref/magic-enh/flaming-burst)_,
+_[frost](ref/magic-enh/frost)_, _[icy burst](ref/magic-enh/icy-burst)_,
+_[impact](ref/magic-enh/impact)_, _[shock](ref/magic-enh/shock)_,
+_[shocking burst](ref/magic-enh/shocking-burst)_, _[speed](ref/magic-enh/speed)_, or
+_[thundering](ref/magic-enh/thundering)_.
 
-**Arcane Pool (Su)**
+This ability alters arcane pool.
 
-**Ability:** An esoteric can use his _arcane pool_ to enhance his unarmed strikes as if they were
-manufactured weapons.
+## Unarmed Strike {#unarmed-strike}
 
-**Alters:** Arcane pool
-
-**At 5th Level:** He can use these bonuses to add any of the following weapon special abilities to
-his weapons or unarmed strikes: [defending](ref/magic-enh/defending),
-[flaming](ref/magic-enh/flaming), [flaming burst](ref/magic-enh/flaming-burst),
-[frost](ref/magic-enh/frost), [icy burst](ref/magic-enh/icy-burst), [impact](ref/magic-enh/impact),
-[shock](ref/magic-enh/shock), [shocking burst](ref/magic-enh/shocking-burst),
-[speed](ref/magic-enh/speed), or [thundering](ref/magic-enh/thundering).
-
-**Gained:** At 1st Level
-
-**Unarmed Strike**
-
-**Ability:** An esoteric gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a
+At 1st level, an esoteric gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a
 bonus feat. He also treats his magus levels as [monk](ref/class/monk) levels when determining the
 amount of damage he deals with his unarmed strikes.
 
-**Gained:** At 1st Level
+## Unarmed Spellstrike (Su) {#unarmed-spellstrike}
 
-**Unarmed Strike**
+At 1st level, an esoteric gains the magus spellstrike class feature. However, an esoteric can
+deliver spells with spellstrike only with his unarmed strikes. This ability alters spellstrike.
 
-**Flavor:** Relevant text from the monk class ability.
+## Ki Arcana (Su) {#ki-arcana}
 
-**At 12th Level:** Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.
+At 4th level, an esoteric's arcane pool is also considered a ki pool for the purposes of meeting
+feat and ability requirements. Points from an esoteric's arcane pool can be used for abilities that
+normally require ki. If an esoteric gains a ki pool, he can use points from his arcane pool and ki
+pool interchangeably (though not special points such as drunken ki). This ability replaces spell
+recall.
 
-**At 16th Level:** Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.
+## Tattooed Spell (Sp) {#tattooed-spell}
 
-**At 20th Level:** Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.
-
-**At 4th Level:** Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.
-
-**At 8th Level:** Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.
-
-**At 1st Level:** Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.
-
-**Unarmed Spellstrike (Su)**
-
-**Ability:** An esoteric gains the magus _spellstrike_ class feature. However, an esoteric can
-deliver spells with _spellstrike_ only with his unarmed strikes.
-
-**Alters:** Spellstrike
-
-**Gained:** At 1st Level
-
-**Ki Arcana (Su)**
-
-**Ability:** An esoteric's _arcane pool_ is also considered a _ki pool_ for the purposes of meeting
-feat and ability requirements. Points from an esoteric's _arcane pool_ can be used for abilities
-that normally require ki. If an esoteric gains a _ki pool,_ he can use points from his _arcane pool_
-and _ki pool_ interchangeably (though not special points such as _drunken ki_).
-
-**Gained:** At 4th Level
-
-**Replaces:** Spell recall
-
-**Tattooed Spell (Sp)**
-
-**Ability:** An esoteric can permanently tattoo one spell from his magus spellbook onto his body.
-The spell that is tattooed must be of 2nd-level or lower and not have an expensive material
-component or a focus.
-
-**At 11th Level:** He can tattoo a second spell following the restrictions above, except the spell
-must be of 4th level or lower.
-
-**At 17th Level:** He can tattoo a third spell following the restrictions above, except the spell
-can be of any level.
-
-**Gained:** At 5th Level
-
-**Replaces:** Bonus feats
-
-**Special:** The esoteric can prepare any tattooed spell without needing his spellbook.
-Additionally, he can cast each of his tattooed spells as a
+At 5th level and every 6 levels thereafter, an esoteric can permanently tattoo one spell from his
+magus spellbook onto his body; the first tattooed spell must be of 2nd level or lower, the second
+must be of 4th level or lower, and the last can be of any level. The spell that is tattooed must not
+have an expensive material component or a focus. The esoteric can prepare any tattooed spell without
+needing his spellbook. Additionally, he can cast each of his tattooed spells as a
 [spell-like ability](ref/umr/spell-like-abilities) once per day. When the esoteric uses these
 spell-like abilities, the tattoo associated with the spell-like ability glows as
-[light](ref/spell/light) for a number of rounds equal to the spell's level.
+_[light](ref/spell/light)_ for a number of rounds equal to the spell's level. This ability replaces
+bonus feats.
 
-**AC Bonus (Ex)**
+## AC Bonus (Ex) {#ac-bonus}
 
-**At 13th Level:** The bonus increases to +2.
+At 7th level when an esoteric wears light or no armor, he gains a +1 dodge bonus to AC and CMD. This
+bonus increases by 1 at 13th level. He loses these bonuses while immobilized or helpless, or while
+wearing medium or heavy armor, using a shield, or carrying a medium or heavy load. This ability
+replaces medium armor and heavy armor.
 
-**Gained:** At 7th Level
+## Improved Tattooed Spell (Sp) {#improved-tattooed-spell}
 
-**Passive:** When an esoteric wears light or no armor, he gains a +1 dodge bonus to AC and CMD. He
-loses these bonuses while immobilized or helpless, or while wearing medium or heavy armor, using a
-shield, or carrying a medium or heavy load.
-
-**Replaces:** Medium armor, heavy armor
-
-**Improved Tattooed Spell (Sp)**
-
-**Ability:** An esoteric can use each of his [spell-like abilities](ref/umr/spell-like-abilities)
-from _tattooed spell_ one additional time per day.
-
-**Gained:** At 11th Level
-
-**Replaces:** Improved spell recall
+At 11th level, an esoteric can use each of his [spell-like abilities](ref/umr/spell-like-abilities)
+from tattooed spell one additional time per day. This ability replaces improved spell recall.

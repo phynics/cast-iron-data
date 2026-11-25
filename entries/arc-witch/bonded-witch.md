@@ -55,14 +55,14 @@ with each item type are as follows.
 
 ### Amulet {#amulet}
 
-2nd—_stonefist_; 4th— _bear's endurance_; 6th—_burst of speed_; 8th—_mnemonic enhancer;_
+2nd—_stonefist_; 4th—_bear's endurance_; 6th—_burst of speed_; 8th—_mnemonic enhancer;_
 10th—_stoneskin;_ 12th—_monstrous physique IV_; 14th—_firebrand_; 16th—_iron body_;
 18th—_overwhelming presence_.
 
 ### Ring {#ring}
 
-2nd—_shield;_ 4th—_ablative barrier_; 6th—_protection from energy;_ 8th—_nondetection;_ 10th— _life
-bubble_; 12th—_resinous skin_; 14th—_antimagic field;_ 16th— _deflection_; 18th—_spell immunity_.
+2nd—_shield;_ 4th—_ablative barrier_; 6th—_protection from energy;_ 8th—_nondetection;_ 10th—_life
+bubble_; 12th—_resinous skin_; 14th—_antimagic field;_ 16th—_deflection_; 18th—_spell immunity_.
 
 ### Staff {#staff}
 
@@ -72,8 +72,8 @@ bubble_; 12th—_resinous skin_; 14th—_antimagic field;_ 16th— _deflection_;
 ### Wand {#wand}
 
 2nd—_magic missile;_ 4th—_knock;_ 6th—_fireball;_ 8th—_restoration;_
-10th—[maximized](ref/feat/maximize-spell) _scorching ray_; 12th— _bull's strength_ (mass);
-14th—_greater restoration;_ 16th— [empowered](ref/feat/empower-spell) and maximized _fireball_;
+10th—[maximized](ref/feat/maximize-spell) _scorching ray_; 12th—_bull's strength_ (mass);
+14th—_greater restoration;_ 16th—[empowered](ref/feat/empower-spell) and maximized _fireball_;
 18th—empowered and maximized _fire shield_.
 
 ### Weapon {#weapon}
