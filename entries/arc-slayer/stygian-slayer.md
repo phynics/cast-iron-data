@@ -66,12 +66,14 @@ This ability replaces the advanced slayer talent gained at 10th level.
 
 ## Slayer Talents {#slayer-talents}
 
-The following slayer talents (and rogue talents) complement the stygian slayer archetype: bleeding
-attack, lasting poison, poison use, powerful sneak, rogue crawl, slow reactions, surprise attack,
-and swift poison. (Those with asterisks \[\*\] are detailed in the slayer class, starting on page
-53.)
+The following slayer talents (and rogue talents) complement the stygian slayer archetype:
+[bleeding attack](ref/talent/bleeding-attack), [lasting poison](ref/talent/lasting-poison), poison
+use\*, [powerful sneak](ref/talent/powerful-sneak), [rogue crawl](ref/talent/rogue-crawl),
+[slow reactions](ref/talent/slow-reactions), [surprise attack](ref/talent/surprise-attack), and
+[swift poison](ref/talent/swift-poison). (Those with asterisks \[\*\] are detailed in the slayer
+class, starting on page 53.)
 
 ## Advanced Slayer Talents {#advanced-slayer-talents}
 
 The following advanced slayer talents (and advanced rogue talents) complement the stygian slayer
-archetype: assassinate, hunter's surprise, and slayer camouflage.
+archetype: assassinate\*, [hunter's surprise](ref/talent/hunters-surprise), and slayer camouflage\*.

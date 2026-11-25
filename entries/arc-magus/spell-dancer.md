@@ -34,9 +34,7 @@ The strong emphasis on wizards within elven culture influences how even non-wiza
 themselves. Many elven magi do not consider themselves masters of a blend of martial and magical
 talents, but rather a sub-category of wizards who study the effect of physical movement and
 techniques upon spellcasting ability. They believe their ability to cast spells while fighting is an
-outgrowth of the concept of the "spell dance,"
-
-which itself is just another kind of wizardry.
+outgrowth of the concept of the "spell dance," which itself is just another kind of wizardry.
 
 A spell dancer has the following class features.
 

@@ -38,7 +38,7 @@ kind = "none"
 > per day each.
 >
 > 1. [river whip](ref/spell/river-whip)
-> 1. [phantasmal asphixiation](ref/spell/phantasmal-asphixiation)
+> 1. [phantasmal asphyxiation](ref/spell/phantasmal-asphixiation)
 > 1. [control water](ref/spell/control-water)
 
 ## Description

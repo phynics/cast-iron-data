@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/oblivating-stare"
 kind = "feat"
-title = "Oblivating Stare"
+title = "Obliviating Stare"
 aon = "FeatDisplay.aspx?ItemName=Oblivating%20Stare"
 source_ids = ["spymasters-handbook"]
 provenance = [

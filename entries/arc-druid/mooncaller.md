@@ -54,5 +54,5 @@ diseases. This ability replaces venom immunity.
 
 ## Wolfsbane (Su) {#wolfsbane}
 
-At 13th level, a mooncaller gains DR 3/ silver, increasing to DR 4/silver at 16th level and DR
+At 13th level, a mooncaller gains DR 3/silver, increasing to DR 4/silver at 16th level and DR
 5/silver at 19th level. This ability replaces a thousand faces.

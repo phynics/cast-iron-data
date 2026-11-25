@@ -18,12 +18,12 @@ page = "85"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "disappearing-act" },
+  { anchor = "disappearing-act", level = 1 },
   { anchor = "harmless-performer", level = 3 },
   { anchor = "madcap-prank", level = 9 },
   { anchor = "slip-through-the-crowd", level = 15 },
-  { anchor = "gladhanding" },
-  { anchor = "streetwise" },
+  { anchor = "gladhanding", level = 1 },
+  { anchor = "streetwise", level = 1 },
   { anchor = "quick-change", level = 5 },
 ]
 trades = [
@@ -93,9 +93,10 @@ This ability replaces countersong.
 
 ## Streetwise {#streetwise}
 
-A street performer gains a bonus equal to half his level on Bluff, Disguise, Knowledge (local), and
-Sleight of Hand checks, Diplomacy or Intimidate checks made to influence crowds, and Diplomacy
-checks to gather information (minimum +1). This replaces bardic knowledge.
+A street performer gains a bonus equal to [half](ref/misc/fractions-and-rounding) his level on
+Bluff, Disguise, Knowledge (local), and Sleight of Hand checks, Diplomacy or Intimidate checks made
+to influence crowds, and Diplomacy checks to gather information (minimum +1). This replaces bardic
+knowledge.
 
 ## Quick Change (Ex) {#quick-change}
 

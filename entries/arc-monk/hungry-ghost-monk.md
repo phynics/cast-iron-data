@@ -35,7 +35,7 @@ trades = [
 The hungry ghost monk looks to spirits that prey upon the living as models of perfection. He sees
 the life energy of the universe as a resource to be manipulated, even stealing it from other
 creatures. It is through this constant influx of energy that the hungry ghost monk reaches his
-ultimate goal: power - personal, pure, and simple. A hungry ghost monk has the following class
+ultimate goal: power—personal, pure, and simple. A hungry ghost monk has the following class
 features.
 
 ## Punishing Kick (Ex) {#punishing-kick}

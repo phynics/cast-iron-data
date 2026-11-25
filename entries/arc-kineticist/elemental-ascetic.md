@@ -16,76 +16,63 @@ page = "90"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "elemental-flurry", level = 1 },
+  { anchor = "elemental-wisdom" },
+  { anchor = "ac-bonus", level = 2 },
+  { anchor = "powerful-fist", level = 5 },
+]
 trades = [
-  { replaces = "Elemental overflow", feature = "elemental-overflow" },
-  { replaces = "Elemental defense", feature = "elemental-defense" },
-  { replaces = "5th-, 9th-, and 13th-level infusions", feature = "infusion", levels = [5, 9, 13] },
-  { alters = "Kinetic blast", feature = "kinetic-blast" },
-  { alters = "Key ability scores of wild talents" },
+  { replaces = "Elemental overflow", feature = "elemental-overflow", by = ["elemental-flurry"] },
+  { replaces = "Elemental defense", feature = "elemental-defense", by = ["ac-bonus"] },
+  { replaces = "5th-, 9th-, and 13th-level infusions", feature = "infusion", levels = [5, 9, 13], by = ["powerful-fist"] },
+  { alters = "Kinetic blast", feature = "kinetic-blast", by = ["elemental-flurry"] },
+  { alters = "Key ability scores of wild talents", by = ["elemental-wisdom"] },
 ]
 +++
 
 Combining the elemental powers of a kineticist with the rigid physical discipline of a monk, an
 elemental ascetic channels his powers through his body to enhance himself in combat.
 
-**Elemental Flurry (Su)**
+## Elemental Flurry (Su) {#elemental-flurry}
 
-**Ability:** An elemental ascetic gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike)
+At 1st level, an elemental ascetic gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike)
 as a bonus feat. He gains the [kinetic fist](ref/kinetic/kinetic-fist) form infusion and it costs 0
-points of burn instead of 1 point of burn. When using the _kinetic fist_ form infusion with a full
-attack, he can make a _flurry of blows_ as the [monk](ref/class/monk) class feature. He must use
-only his fists to make this flurry, no matter what other abilities he possesses. Like a monk, he can
-use this ability only when unarmored, not using a shield, and unencumbered. He can't use his kinetic
+points of burn instead of 1 point of burn. When using the kinetic fist form infusion with a full
+attack, he can make a flurry of blows as the [monk](ref/class/monk) class feature. He must use only
+his fists to make this flurry, no matter what other abilities he possesses. Like a monk, he can use
+this ability only when unarmored, not using a shield, and unencumbered. He can't use his kinetic
 blast without a form infusion, nor can he ever use his kinetic blast with the
 [chain](ref/kinetic/chain), [extended range](ref/kinetic/extended-range),
 [extreme range](ref/kinetic/extreme-range), [foe throw](ref/kinetic/foe-throw),
 [flurry of blasts](ref/kinetic/flurry-of-blasts), [many throw](ref/kinetic/many-throw), or
 [snake](ref/kinetic/snake) form infusions, or with any other form infusion that requires a ranged
-attack roll or ranged touch attack roll.
+attack roll or ranged touch attack roll. This ability alters kinetic blast and replaces elemental
+overflow.
 
-**Alters:** Kinetic blast
+## Elemental Wisdom (Su) {#elemental-wisdom}
 
-**Gained:** At 1st Level
+An elemental ascetic can use his Wisdom modifier instead of his Constitution modifier to determine
+the DCs of Constitution-based wild talents, the duration of wild talents with a Constitution-based
+duration, and his bonus on [concentration](ref/rule/concentration) checks for wild talents. This
+ability alters the key ability scores of wild talents.
 
-**Replaces:** Elemental overflow
+## AC Bonus (Ex) {#ac-bonus}
 
-**Elemental Wisdom (Su)**
-
-**Alters:** Key ability scores of wild talents
-
-**Choice:** An elemental ascetic can use his Wisdom modifier instead of his Constitution modifier to
-determine the DCs of Constitution-based wild talents, the duration of wild talents with a
-Constitution-based duration, and his bonus on [concentration](ref/rule/concentration) checks for
-wild talents.
-
-**AC Bonus (Ex)**
-
-**Gained:** At 2nd Level
-
-**Passive:** When unarmored, not using a shield, and unencumbered, an elemental ascetic adds his
+At 2nd level, when unarmored, not using a shield, and unencumbered, an elemental ascetic adds his
 Wisdom bonus (if any) to his AC and his CMD. These bonuses to AC apply even against touch attacks or
 when the elemental ascetic is [flat-footed](ref/rule/flat-footed). He loses these bonuses when he is
-immobilized or helpless.
+immobilized or helpless. This bonus increases by 1 for every 4 kineticist levels the elemental
+ascetic possesses beyond 2nd. The elemental ascetic's kineticist levels stack with monk levels for
+the purpose of determining when the bonus increases. An elemental ascetic can never take the
+[expanded defense](ref/kinetic/expanded-defense) utility wild talent. This ability replaces
+elemental defense.
 
-**Replaces:** Elemental defense
+## Powerful Fist (Su) {#powerful-fist}
 
-**Special:** This bonus increases by 1 for every 4 kineticist levels the elemental ascetic possesses
-beyond 2nd. The elemental ascetic's kineticist levels stack with monk levels for the purpose of
-determining when the bonus increases. An elemental ascetic can never take the
-[expanded defense](ref/kinetic/expanded-defense) utility wild talent.
-
-**Powerful Fist (Su)**
-
-**At 13th Level:** He can instead accept 4 additional points of burn to increase the damage dice
-from d6s to d12s.
-
-**At 5th Level:** An elemental ascetic can accept 2 additional points of burn when using _kinetic
-fist_ to increase that infusion's damage dice from d6s to d8s.
-
-**At 9th Level:** He can instead accept 3 additional points of burn to increase the damage dice from
-d6s to d10s.
-
-**Replaces:** 5th-, 9th-, and 13th-level infusions
-
-**Special:** All of these options count as burn from a form infusion and can thus be reduced by
-_infusion specialization._
+At 5th level, an elemental ascetic can accept 2 additional points of burn when using kinetic fist to
+increase that infusion's damage dice from d6s to d8s. At 9th level, he can instead accept 3
+additional points of burn to increase the damage dice from d6s to d10s. At 13th level, he can
+instead accept 4 additional points of burn to increase the damage dice from d6s to d12s. All of
+these options count as burn from a form infusion and can thus be reduced by infusion specialization.
+This ability replaces the 5th-, 9th-, and 13th-level infusions.

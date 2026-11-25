@@ -43,7 +43,7 @@ trades = [
 ]
 +++
 
-Some monks seek to become one with another weapon entirely - the bow. The zen archer takes a weapon
+Some monks seek to become one with another weapon entirely—the bow. The zen archer takes a weapon
 most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's
 limbs, and the flight of an arrow fired true.
 

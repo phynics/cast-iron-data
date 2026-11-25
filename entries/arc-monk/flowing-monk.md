@@ -43,16 +43,16 @@ and water.
 A flowing monk replaces the normal monk bonus feats with the following:
 [Agile Maneuvers](ref/feat/agile-maneuvers), [Combat Reflexes](ref/feat/combat-reflexes),
 [Deflect Arrows](ref/feat/deflect-arrows), [Dodge](ref/feat/dodge),
-[Improved Reposition](ref/feat/improved-reposition), [Improved Trip](ref/feat/improved-trip),
+[Improved Reposition](ref/feat/improved-reposition)\*, [Improved Trip](ref/feat/improved-trip),
 [Nimble Moves](ref/feat/nimble-moves), and [Weapon Finesse](ref/feat/weapon-finesse). At 6th level,
 the following feats are also available: [Acrobatic Steps](ref/feat/acrobatic-steps),
-[Bodyguard](ref/feat/bodyguard), [Improved Disarm](ref/feat/improved-disarm),
-[Improved Feint](ref/feat/improved-feint), [Ki Throw](ref/feat/ki-throw),
-[Mobility](ref/feat/mobility), [Second Chance](ref/feat/second-chance), and
-[Sidestep](ref/feat/sidestep). At 10th level, the following feats are added:
-[In Harm's Way](ref/feat/in-harms-way), [Repositioning Strike](ref/feat/repositioning-strike),
+[Bodyguard](ref/feat/bodyguard)\*, [Improved Disarm](ref/feat/improved-disarm),
+[Improved Feint](ref/feat/improved-feint), [Ki Throw](ref/feat/ki-throw)\*,
+[Mobility](ref/feat/mobility), [Second Chance](ref/feat/second-chance)\*, and
+[Sidestep](ref/feat/sidestep)\*. At 10th level, the following feats are added:
+[In Harm's Way](ref/feat/in-harms-way)\*, [Repositioning Strike](ref/feat/repositioning-strike)\*,
 [Snatch Arrows](ref/feat/snatch-arrows), [Spring Attack](ref/feat/spring-attack), and
-[Tripping Strike](ref/feat/tripping-strike). (Asterisks denotes feats from the _Advanced Player's
+[Tripping Strike](ref/feat/tripping-strike)\*. (Asterisks denotes feats from the _Advanced Player's
 Guide._)
 
 ## Redirection (Ex) {#redirection}

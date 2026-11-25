@@ -56,7 +56,7 @@ _[scrying](ref/spell/scrying)_. This ability replaces wandering spirit gained at
 ## Vision Spirit Magic {#vision-spirit-magic}
 
 At 4th level, the visionary adds the following spells to the list of spells she can cast using
-spirit magic: _see alignment_ (1st), _see invisibility_ (2nd), _clairaudience/ clairvoyance_ (3rd),
+spirit magic: _see alignment_ (1st), _see invisibility_ (2nd), _clairaudience/clairvoyance_ (3rd),
 _detect scrying_ (4th), _prying eyes_ (5th), _legend lore_ (6th), _vision_ (7th), _moment of
 prescience_ (8th), _foresight_ (9th). This ability replaces the spirit magic spells gained from the
 shaman's wandering spirit.

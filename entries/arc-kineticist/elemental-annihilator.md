@@ -16,134 +16,107 @@ page = "89"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "devastating-infusion", level = 1 },
+  { anchor = "dampened-versatility" },
+  { anchor = "increased-range", level = 3 },
+  { anchor = "ever-present-threat", level = 4 },
+  { anchor = "blast-training", level = 5 },
+  { anchor = "flurry-of-devastation", level = 6 },
+  { anchor = "omnicide", level = 20 },
+]
 trades = [
   { replaces = "2nd-, 8th-, 10th-, 14th-, and 18th-level utility wild talents", feature = "wild-talents", levels = [2, 8, 10, 14, 18] },
-  { replaces = "3rd- and 9th-level infusions", feature = "infusion", levels = [3, 9] },
-  { replaces = "4th-level utility wild talent", feature = "wild-talents", levels = [4] },
-  { replaces = "5th-level infusion", feature = "infusion", levels = [5] },
-  { replaces = "6th-, 12th-, and 16th level utility wild talents", feature = "wild-talents", levels = [6, 12, 16] },
-  { replaces = "Omnikinesis, 20th-level utility wild talent", feature = "wild-talents", levels = [20] },
-  { alters = "1st-level infusion", feature = "infusion", levels = [1] },
-  { alters = "the basic utility wild talent normally granted by selecting an element", feature = "elemental-focus", power = "basic utility wild talent" },
+  { replaces = "3rd- and 9th-level infusions", feature = "infusion", levels = [3, 9], by = ["increased-range"] },
+  { replaces = "4th-level utility wild talent", feature = "wild-talents", levels = [4], by = ["ever-present-threat"] },
+  { replaces = "5th-level infusion", feature = "infusion", levels = [5], by = ["blast-training"] },
+  { replaces = "6th-, 12th-, and 16th-level utility wild talents", feature = "wild-talents", levels = [6, 12, 16], by = ["flurry-of-devastation"] },
+  { replaces = "Omnikinesis and the 20th-level utility wild talent", feature = "wild-talents", levels = [20], by = ["omnicide"] },
+  { replaces = "1st-level infusion", feature = "infusion", levels = [1], by = ["devastating-infusion"] },
+  { replaces = "the basic utility wild talent normally granted by selecting an element", feature = "elemental-focus", power = "basic utility wild talent", by = ["devastating-infusion"] },
 ]
 +++
 
 For some kineticists, nothing in life is as sweet as destruction and pain. Elemental annihilators
 pursue only uses of their powers that harm others.
 
-**Devastating Infusion (Su)**
+## Devastating Infusion (Su) {#devastating-infusion}
 
-**Ability:** An elemental annihilator can either shoot her kinetic blast at a target within 30 feet
+At 1st level, an elemental annihilator can either shoot her kinetic blast at a target within 30 feet
 or make a single melee attack as if she were using [kinetic blade](ref/kinetic/kinetic-blade) as an
 attack action. For this attack, the elemental annihilator's base attack bonus from her kineticist
-levels is equal to her full kineticist level. A _devastating infusion_ always deals an amount of
+levels is equal to her full kineticist level. A devastating infusion always deals an amount of
 damage equal to 1d8 + the elemental annihilator's Constitution modifier, regardless of the
-annihilator's class level or use of composite blasts. When making a melee attack with _devastating
-infusion,_ the elemental annihilator doesn't provoke attacks of opportunity, and if she uses two
+annihilator's class level or use of composite blasts. When making a melee attack with devastating
+infusion, the elemental annihilator doesn't provoke attacks of opportunity, and if she uses two
 hands, the attack's damage is equal to 1d8 + 1-1/2 times her Constitution modifier. This is a
 1st-level form infusion that costs 0 points of burn and can be used with any physical blast (but not
-energy blasts). Unlike with _kinetic blade,_ the elemental annihilator can use
-[Vital Strike](ref/feat/vital-strike) with _devastating infusion._ The damage bonus from _elemental
-overflow_ doesn't apply to _devastating infusion's_ damage rolls.
+energy blasts). Unlike with kinetic blade, the elemental annihilator can use
+[Vital Strike](ref/feat/vital-strike) with devastating infusion. The damage bonus from elemental
+overflow doesn't apply to devastating infusion's damage rolls. This ability replaces the 1st-level
+infusion and the basic utility wild talent normally granted by selecting an element.
 
-**Alters:** 1st-level infusion, the basic utility wild talent normally granted by selecting an
-element
+## Dampened Versatility (Ex) {#dampened-versatility}
 
-**Gained:** At 1st Level
+An elemental annihilator can never gain utility wild talents.
 
-**Dampened Versatility (Ex)**
+## Bonus Feats {#bonus-feats}
 
-**Info:** An elemental annihilator can never gain utility wild talents.
-
-**Bonus Feats**
-
-**Ability:** An elemental annihilator can select a bonus feat from the following list:
+At 2nd level, an elemental annihilator can select a bonus feat from the following list:
 [Deadly Aim](ref/feat/deadly-aim), [Double Slice](ref/feat/double-slice),
 [Point-Blank Shot](ref/feat/point-blank-shot), [Power Attack](ref/feat/power-attack),
-[Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot),
-[Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Finesse](ref/feat/weapon-finesse), and
-[Weapon Focus](ref/feat/weapon-focus). Rapid Shot and Two-Weapon Fighting can be used with a kinetic
-blast only if the annihilator also possesses _flurry of devastation_ (see below).
-
-**At 10th Level:** She can also select from [Greater Weapon Focus](ref/feat/greater-weapon-focus),
+[Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot), Two- Weapon Fighting,
+[Weapon Finesse](ref/feat/weapon-finesse), and [Weapon Focus](ref/feat/weapon-focus). Rapid Shot and
+[Two-Weapon Fighting](ref/feat/two-weapon-fighting) can be used with a kinetic blast only if the
+annihilator also possesses flurry of devastation (see below). She gains an additional bonus feat at
+8th, 10th, 14th, and 18th levels. At 8th level, she can also select
+[Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting) and
+[Weapon Specialization](ref/feat/weapon-specialization). At 10th level, she can also select
+[Greater Weapon Focus](ref/feat/greater-weapon-focus),
 [Improved Critical](ref/feat/improved-critical),
 [Improved Precise Shot](ref/feat/improved-precise-shot), and
-[Two-Weapon Rend](ref/feat/two-weapon-rend).
+[Two-Weapon Rend](ref/feat/two-weapon-rend). An elemental annihilator doesn't need to meet the
+prerequisites for these feats to select them as bonus feats. This ability replaces the 2nd-, 8th-,
+10th-, 14th-, and 18th-level utility wild talents.
 
-**At 8th Level:** Her potential choices now include
-[Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting) and
-[Weapon Specialization](ref/feat/weapon-specialization).
+## Increased Range (Su) {#increased-range}
 
-**Gained:** At 2nd Level
+At 3rd level, an elemental annihilator gains the [extended range](ref/kinetic/extended-range)
+infusion. At 9th level, she gains the [extreme range](ref/kinetic/extreme-range) infusion. This
+ability replaces the 3rd- and 9th-level infusions.
 
-**Repeat At:** She gains an additional bonus feat., 8, 10, 14, 18
+## Ever-Present Threat (Su) {#ever-present-threat}
 
-**Replaces:** 2nd-, 8th-, 10th-, 14th-, and 18th-level utility wild talents
+At 4th level, an elemental annihilator threatens all foes within her natural reach. If anyone
+provokes an attack of opportunity from her, she can form her melee devastating infusion and make the
+attack, after which the weapon disappears. This ability replaces the 4th-level utility wild talent.
 
-**Special:** An elemental annihilator doesn't need to meet the prerequisites for these feats to
-select them as bonus feats.
+## Blast Training (Ex) {#blast-training}
 
-**Increased Range (Su)**
+At 5th level, an elemental annihilator gains a +1 bonus on attack rolls and damage rolls with her
+devastating infusion form infusion. This bonus increases by 1 at 9th level and every 4 levels
+thereafter. This ability replaces the 5th-level infusion.
 
-**At 3rd Level:** An elemental annihilator gains the [extended range](ref/kinetic/extended-range)
-infusion.
+## Flurry of Devastation (Su) {#flurry-of-devastation}
 
-**At 9th Level:** She gains the [extreme range](ref/kinetic/extreme-range) infusion.
-
-**Replaces:** 3rd- and 9th-level infusions
-
-**Ever-Present Threat (Su)**
-
-**Ability:** An elemental annihilator threatens all foes within her natural reach. If anyone
-provokes an attack of opportunity from her, she can form her melee _devastating infusion_ and make
-the attack, after which the weapon disappears.
-
-**Gained:** At 4th Level
-
-**Replaces:** 4th-level utility wild talent
-
-**Blast Training (Ex)**
-
-**Gained:** At 5th Level
-
-**Passive:** An elemental annihilator gains a +1 bonus on attack rolls and damage rolls with her
-_devastating infusion_ form infusion.
-
-**Replaces:** 5th-level infusion
-
-At 9th level: This bonus increases to +2.
-
-At 13th level: This bonus increases to +3.
-
-At 17th level: This bonus increases to +4.
-
-**Flurry of Devastation (Su)**
-
-**Ability:** An elemental annihilator can make a full attack of _devastating infusions_ against
+At 6th level, an elemental annihilator can make a full attack of devastating infusions against
 targets within 120 feet as a full-attack action. Each individual attack deals damage as a
-_devastating infusion._ This is a 3rd-level form infusion that costs 1 point of burn and can be used
-with the same blast types as _devastating infusion._ Abilities such as Rapid Shot and
-[haste](ref/spell/haste) that grant additional attacks apply normally to this full attack. If she
-makes only melee attacks with her _flurry of devastation,_ she can use the Two-Weapon Fighting feats
-(unlike with the _kinetic blade_ wild talent), but ranged _devastating infusions_ do not work with
+devastating infusion. This is a 3rd-level form infusion that costs 1 point of burn and can be used
+with the same blast types as devastating infusion. Abilities such as Rapid Shot and
+_[haste](ref/spell/haste)_ that grant additional attacks apply normally to this full attack. If she
+makes only melee attacks with her flurry of devastation, she can use the Two-Weapon Fighting feats
+(unlike with the kinetic blade wild talent), but ranged devastating infusions do not work with
 Two-Weapon Fighting. For the elemental annihilator's off-hand attacks with Two-Weapon Fighting, she
 adds half her Constitution modifier to the damage (increasing to her full Constitution modifier if
-she has Double Slice). Though she can normally mix melee and ranged attacks with her _flurry of
-devastation,_ she can't do so when she uses Two-Weapon Fighting. She can never use _metakinesis_ or
-substance infusions with _flurry of devastation._
+she has Double Slice). Though she can normally mix melee and ranged attacks with her flurry of
+devastation, she can't do so when she uses Two-Weapon Fighting. She can never use metakinesis or
+substance infusions with flurry of devastation. This ability replaces the 6th-, 12th-, and
+16th-level utility wild talents.
 
-**Gained:** At 6th Level
+## Omnicide (Su) {#omnicide}
 
-**Replaces:** 6th-, 12th-, and 16th level utility wild talents
-
-**Omnicide (Su)**
-
-**Ability:** An elemental annihilator can unleash _omnicide,_ a unique physical composite blast.
-_Omnicide_ deals 10d6+10 points of bludgeoning damage, 10d6+10 points of cold damage, 10d6+10 points
+At 20th level, an elemental annihilator can unleash omnicide, a unique physical composite blast.
+Omnicide deals 10d6+10 points of bludgeoning damage, 10d6+10 points of cold damage, 10d6+10 points
 of electricity damage, 10d6+10 points of fire damage, and 10d6+10 points of force damage, and counts
-as a blast of all five elements. _Omnicide_ costs 4 points of burn, which can be reduced by
-_composite specialization_ as normal.
-
-**Gained:** At 20th Level
-
-**Replaces:** Omnikinesis, 20th-level utility wild talent
+as a blast of all five elements. Omnicide costs 4 points of burn, which can be reduced by composite
+specialization as normal. This ability replaces omnikinesis and the 20th-level utility wild talent.

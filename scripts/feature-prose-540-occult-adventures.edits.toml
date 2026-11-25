@@ -1,0 +1,133 @@
+# Hand-written texts of the review of batch 3 (owner rulings 32 and 34 of 2026-11-25): see feature-prose-540.py `read_edits` and `read_adds`.
+
+[[edit]]
+entry = "ref/arc-psychic/amnesiac"
+anchor = "spells"
+note = 'hand-written from print (Occult Adventures pp. 103-105): the column wraps around the title of the next archetype, which cut the paragraph and ran its words into the entry after it'
+text = '''
+An amnesiac's ability to cast psychic spells is the same as that of the psychic class, with the following exceptions.
+
+An amnesiac's faulty memory makes remembering and casting spells difficult, but the increased flexibility can be a great benefit. Instead of choosing a number of spells known from Table 1–8: Psychic Spells Known, an amnesiac accesses spells she knew the previous day from the recesses of her mind. This requires 1 hour of meditation. Each day, for each spell level the amnesiac can cast, she retains a number of spells known equal to half the number listed on Table 1–8, rounded up. These spells must be selected from spells the amnesiac knew the previous day (including any spells she remembered using _spell recollection_; see below). The remainder of her spells known (half the number on Table 1–8, rounded down) become amnesia slots, which the amnesiac can use with her _spell recollection_ ability (see below). To determine the spells she knows on the day when she first takes this archetype, the amnesiac picks any one 1st-level spell from the psychic spell list.
+
+This change to spells doesn't apply to knacks (0-level spells) or discipline spells, which function the same way they do for a normal psychic. When the amnesiac gains access to 3rd-level spells, she gains full recall of her 1st-level spells and no longer gains 1st-level amnesia slots, instead gaining the full number of 1st-level spells known from Table 1–8 and casting them as a normal psychic. When this happens, the amnesiac can select any level-appropriate spells from the psychic spell list as her spells known, even if they were never among the spells she prepared or recalled; once selected, these spells can no longer be changed, as with a normal psychic. Each time the psychic gains access to a new level of spells, she gains full memory of spells 2 levels lower in the same way (gaining full memory and permanently selecting her 2nd-level spells when she gains access to 4th-level spells, and so on). This ability alters spellcasting.
+'''
+
+[[edit]]
+entry = "ref/arc-psychic/amnesiac"
+anchor = "spell-recollection"
+note = 'hand-written from print (Occult Adventures pp. 103-105): the paragraph and Table 2–1, which print sets at the top of the next page beside the entry after it'
+text = '''
+Once per hour as a swift action, an amnesiac can attempt to remember any spell from the psychic spell list of her choice from either of the 2 highest spell levels she can cast. When she does, she rolls on Table 2–1: Spell Recollection to determine the result. Because the mental stress of combat brings memories to the surface more easily, the amnesiac adds 1d10 to this roll's result if she's in combat when she attempts to recall a spell. Regardless of the result, the amnesiac expends an amnesia slot of the appropriate level for the spell she is attempting to remember; she must cast the spell remembered (if any) using that amnesia slot during the same round, or the spell slot is lost without effect. Once a spell has been remembered in this way, the amnesiac can cast it as one of her spells known for the rest of the day (even if she failed to cast the spell during the round in which she remembered it), unless _spell recollection_ allowed her to cast a spell of a higher level than she would normally be able to cast.
+
+Table 2–1: Spell Recollection
+
+| d% | Result |
+|---|---|
+| 1–10 | The amnesiac is unable to cast spells this round. |
+| 11–35 | The amnesiac can't remember the new spell (but can still cast spells this round). |
+| 36–95 | The amnesiac remembers and can cast the new spell. |
+| 96+ | The amnesiac can choose to treat this result as 36–95. Alternatively, once per day, she can instead temporarily recall any spell from the psychic spell list that's 1 level higher than the spell she's attempting to remember. When she does, her caster level counts as the minimum caster level required to cast the higher-level spell, and she forgets the spell after it's cast. |
+'''
+
+[[edit]]
+entry = "ref/arc-psychic/formless-adept"
+anchor = "psychic-possession"
+note = 'hand-written from print (Occult Adventures pp. 104-105): the paragraph is not cut off; it goes on at the top of the right column of the next page, below Table 2–1 of the Amnesiac'
+text = '''
+At 15th level, while using his _incorporeal body_ ability, a formless adept can attempt to psychically possess another living creature. To use this ability, the formless adept must be adjacent to the target. This effect works as the [greater possession](ref/spell/possession-greater) spell and can be maintained only as long as the formless adept maintains his _incorporeal body_ form. The target can attempt a Will save with a DC equal to 10 + 1/2 the formless adept's class level + the formless adept's Intelligence modifier to resist the effect. A creature that successfully saves is immune to the formless adept's psychic possession for 24 hours. This ability replaces the 15th-level phrenic amplification.
+'''
+
+[[add]]
+entry = "ref/arc-spiritualist/fractured-mind"
+anchor = "kindness"
+head = 'Kindness (Psychic Anthology page 5)'
+parent = "emotional-power"
+after = "zeal"
+note = 'text of another owner book (owner ruling 32): the Fractured Mind line of the emotional focus Kindness of Psychic Anthology page 5, checked against that print; the import held it as a list of spells without their levels'
+text = '''
+_Bless_ (5th), _calm emotions_ (7th), _heroism_ (9th), _good hope_ (16th).
+'''
+
+[[add]]
+entry = "ref/arc-spiritualist/fractured-mind"
+anchor = "remorse"
+head = 'Remorse (Occult Origins page 19)'
+parent = "emotional-power"
+after = "kindness"
+note = 'text of another owner book (owner ruling 32): the Fractured Mind line of the emotional focus Remorse of Occult Origins page 19, checked against that print; the import held it as a list of spells without their levels'
+text = '''
+_Doom_ (5th), _inflict pain_ (7th), _stricken heart_ (9th), _mind fog_ (16th).
+'''
+
+[[add]]
+entry = "ref/arc-spiritualist/fractured-mind"
+anchor = "whimsey"
+head = 'Whimsey (Heroes from the Fringe page 19)'
+parent = "emotional-power"
+after = "remorse"
+note = 'text of another owner book (owner ruling 32): the Fractured Mind line of the emotional focus Whimsey of Heroes from the Fringe page 19, checked against that print; the import held it as a list of spells without their levels'
+text = '''
+_Ventriloquism_ (5th), _absurdity_ (7th), _major image_ (9th), _rainbow pattern_ (16th).
+'''
+
+# Promethean Alchemist (Occult Adventures pp. 112-114, owner ruling 38 of 2026-11-25): the homunculus statistics, the advancement
+# block and Table 2-2 are unlisted sections under Homunculus Companion; Improved Evasion stays whole and listed.
+
+[[edit]]
+entry = "ref/arc-alchemist/promethean-alchemist"
+anchor = "improved-evasion"
+note = 'hand-written from print (Occult Adventures p. 113, ruling 38): the sidebar of the Homunculus Starting Statistics and the 4th-Level Advancement, which print sets in the column beside the end of the ability, is its own section and no longer runs on into its text'
+text = '''
+At 15th level, when subjected to an attack that allows a Reflex save for half damage, the homunculus takes no damage if it succeeds at the saving throw and only half damage if it fails the saving throw.
+'''
+
+[[add]]
+entry = "ref/arc-alchemist/promethean-alchemist"
+anchor = "homunculus-starting-statistics"
+head = 'Homunculus Starting Statistics'
+parent = "homunculus-companion"
+after = "special"
+note = 'hand-written from print (Occult Adventures p. 113, ruling 38): the sidebar beside the homunculus abilities, an unlisted section of Homunculus Companion; the stat block as printed'
+text = '''
+**Size** Small; **Speed** 20 ft., fly 30 ft. (poor); **AC** +2 natural armor; **Attack** bite (1d4); **Ability Scores** Str 10, Dex 15, Con —, Int 10, Wis 12, Cha 7; **Special Qualities** darkvision, low-light vision; **Languages** Common (can't speak).
+'''
+
+[[add]]
+entry = "ref/arc-alchemist/promethean-alchemist"
+anchor = "4th-level-advancement"
+head = '4th-Level Advancement'
+parent = "homunculus-starting-statistics"
+after = "homunculus-starting-statistics"
+note = 'hand-written from print (Occult Adventures p. 113, ruling 38): the second block of the sidebar, nested under Homunculus Starting Statistics; the poison is written as printed (the corpus section Homunculus Poison is a copy of these words)'
+text = '''
+**Size** Medium; **Speed** 30 ft., fly 40 ft. (average); **Attack** bite (1d6 plus poison), 2 claws (1d6); **Ability Scores** Str +4, Dex -2; **Special Attacks** poison (bite—injury _frequency_ 1/minute for 60 minutes, _effect_ sleep for 1 minute, _cure_ 1 save, Con-based DC with a +2 racial bonus).
+'''
+
+[[edit]]
+entry = "ref/arc-alchemist/promethean-alchemist"
+anchor = "table-2-2-homunculus-companions"
+note = 'hand-written from print (Occult Adventures p. 114, ruling 38): Table 2-2 as a Markdown table; each cell as printed, an empty Special cell is an em dash'
+text = '''
+| Level | HD | BAB | Saves | Skills | Feats | Str/Dex Bonus | Special |
+|---|---|---|---|---|---|---|---|
+| 1st | 1 | +1 | +0 | 2 | 1 | +0 | Darkvision, low-light vision, sympathetic alchemy, telepathic link, weapon and armor proficiency |
+| 2nd | 2 | +2 | +0 | 4 | 1 | +0 | — |
+| 3rd | 3 | +3 | +1 | 8 | 2 | +1 | Evasion |
+| 4th | 3 | +3 | +1 | 8 | 2 | +1 | — |
+| 5th | 4 | +4 | +1 | 10 | 2 | +1 | Ability score increase |
+| 6th | 5 | +5 | +1 | 12 | 3 | +2 | Speech |
+| 7th | 6 | +6 | +2 | 14 | 3 | +2 | — |
+| 8th | 6 | +6 | +2 | 14 | 3 | +2 | — |
+| 9th | 7 | +7 | +2 | 16 | 4 | +3 | Spell resistance |
+| 10th | 8 | +8 | +2 | 18 | 4 | +3 | Ability score increase |
+| 11th | 9 | +9 | +3 | 20 | 5 | +3 | — |
+| 12th | 9 | +9 | +3 | 20 | 5 | +4 | — |
+| 13th | 10 | +10 | +3 | 22 | 5 | +4 | — |
+| 14th | 11 | +11 | +3 | 24 | 6 | +4 | — |
+| 15th | 12 | +12 | +4 | 26 | 6 | +5 | Ability score increase, improved evasion |
+| 16th | 12 | +12 | +4 | 26 | 6 | +5 | — |
+| 17th | 13 | +13 | +4 | 28 | 7 | +5 | — |
+| 18th | 14 | +14 | +4 | 30 | 7 | +6 | — |
+| 19th | 15 | +15 | +5 | 32 | 8 | +6 | — |
+| 20th | 15 | +15 | +5 | 32 | 8 | +6 | Ability score increase |
+'''

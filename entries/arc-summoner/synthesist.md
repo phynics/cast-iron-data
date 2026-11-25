@@ -17,7 +17,7 @@ page = "81"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "fused-eidolon" },
+  { anchor = "fused-eidolon", level = 1 },
   { anchor = "fused-link", level = 1 },
   { anchor = "shielded-meld", level = 4 },
   { anchor = "maker-s-jump", level = 6 },

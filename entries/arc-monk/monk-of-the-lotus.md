@@ -32,9 +32,9 @@ trades = [
 
 Monks are warriors who hone their bodies into deadly weapons, but some monks eschew violence in
 favor of a more peaceful philosophy. While a monk of the lotus realizes that combat cannot always be
-avoided - and is more than capable in a fight - he understands that all creatures are connected, and
-to harm another is to harm the self. Instead, he strives to find peaceful resolutions to conflicts,
-and in doing so, hopes to achieve inner peace. A monk of the lotus has the following class features.
+avoided—and is more than capable in a fight—he understands that all creatures are connected, and to
+harm another is to harm the self. Instead, he strives to find peaceful resolutions to conflicts, and
+in doing so, hopes to achieve inner peace. A monk of the lotus has the following class features.
 
 ## Touch of Serenity (Su) {#touch-of-serenity}
 

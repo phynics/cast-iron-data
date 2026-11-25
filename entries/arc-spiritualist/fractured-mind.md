@@ -28,147 +28,80 @@ via = "ref/emotionalfocus/kindness"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "emotional-spellcasting" },
+  { anchor = "emotional-power" },
+]
 trades = [
-  { replaces = "Detect undead", feature = "detect-undead" },
-  { replaces = "calm spirit", feature = "calm-spirit" },
-  { replaces = "see invisibility", feature = "see-invisibility" },
-  { replaces = "call spirit", feature = "call-spirit" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Detect undead", feature = "detect-undead", by = ["emotional-power"] },
+  { replaces = "calm spirit", feature = "calm-spirit", by = ["emotional-power"] },
+  { replaces = "see invisibility", feature = "see-invisibility", by = ["emotional-power"] },
+  { replaces = "call spirit", feature = "call-spirit", by = ["emotional-power"] },
+  { alters = "Spellcasting", feature = "spells", by = ["emotional-spellcasting"] },
 ]
 +++
 
-Most spiritualists harbor the spirits of the deceased in their psyches, but a small number of them -
-known as fractured minds - draw their powers instead from a fraction of their own souls that
+Most spiritualists harbor the spirits of the deceased in their psyches, but a small number of
+them—known as fractured minds—draw their powers instead from a fraction of their own souls that
 resonates with extremely powerful emotions. These spiritualists' phantoms are not spiritual allies,
 but rather extensions of the fractured minds' own inner thoughts and emotions.
 
-**Emotional Spellcasting**
+## Emotional Spellcasting {#emotional-spellcasting}
 
-**Alters:** Spellcasting
+A fractured mind's ability to cast spells is tied to the force of her own spirit rather than her
+connection to the spirit world. As a result, she uses her Charisma score rather than her Wisdom
+score to determine the highest spell level she can cast, the saving throw DCs of spells she casts,
+and her bonus spells per day. This ability alters spellcasting.
 
-**Info:** A fractured mind's ability to cast spells is tied to the force of her own spirit rather
-than her connection to the spirit world. As a result, she uses her Charisma score rather than her
-Wisdom score to determine the highest spell level she can cast, the saving throw DCs of spells she
-casts, and her bonus spells per day.
+## Emotional Power (Sp) {#emotional-power}
 
-**Emotional Power (Sp)**
+The fractured mind gains a number of [spell-like abilities](ref/umr/spell-like-abilities), which are
+tied to her phantom's emotional focus. She gains one spell-like ability at 5th level, a second at
+7th level, a third at 9th level, and a fourth at 16th level. A fractured mind can use each of these
+abilities once per day, plus one additional time per day for every 4 spiritualist levels she
+possesses beyond the level at which she gained the spell-like ability. The saving throw DCs for
+these spell-like abilities are equal to 10 + 1/2 the fractured mind's spiritualist class level + the
+fractured mind's Charisma modifier, rather than being based on the spell's level. The spell-like
+abilities granted by each emotional focus are listed below.
 
-**Ability:** The fractured mind gains a number of
-[spell-like abilities](ref/umr/spell-like-abilities), which are tied to her phantom's emotional
-focus. She gains one spell-like ability at 5th level, a second at 7th level, a third at 9th level,
-and a fourth at 16th level. A fractured mind can use each of these abilities once per day, plus one
-additional time per day for every 4 spiritualist levels she possesses beyond the level at which she
-gained the spell-like ability. The saving throw DCs for these spell-like abilities are equal to 10 +
-1/2 the fractured mind's spiritualist class level + the fractured mind's Charisma modifier, rather
-than being based on the spell's level. The spell-like abilities granted by each emotional focus are
-listed below.
+### Anger {#anger}
 
-**At 20th Level:** She can use the 16th-level power 2 times a day.
+_Enlarge person_ (5th), _rage_ (7th), _longstrider_ (9th), _shout_ (16th).
 
-**At 9th Level:** She can use the 5th-level power 2 times a day.
+### Dedication {#dedication}
 
-**Replaces:** Detect undead, calm spirit, see invisibility, call spirit
+_Command_ (5th), _spiritual weapon_ (7th), _bless_ (9th), _death ward_ (16th).
 
-**Anger**
+### Despair {#despair}
 
-**Spells:** Shout
+_Bungle_ (5th), _stricken heart_ (7th), _doom_ (9th), _crushing despair_ (16th).
 
-**Spells:** Enlarge person
+### Fear {#fear}
 
-**Spells:** Rage
+_Bane_ (5th), _mad hallucination_ (7th), _doom_ (9th), _phantasmal killer_ (16th).
 
-**Spells:** Longstrider
+### Hatred {#hatred}
 
-**Dedication**
+_Doom_ (5th), _inflict moderate wounds_ (7th), _bane_ (9th), _bestow curse_ (16th).
 
-**Spells:** Death ward
+### Jealousy {#jealousy}
 
-**Spells:** Command
+_Sanctuary_ (5th), _resist energy_ (7th), _entropic shield_ (9th), _spell immunity_ (16th).
 
-**Spells:** Spiritual weapon
+### Zeal {#zeal}
 
-**Spells:** Bless
+_Bless_ (5th), _spiritual weapon_ (7th), _divine favor_ (9th), _freedom of movement_ (16th).
 
-**Despair**
+This ability replaces _detect undead_, _calm spirit_, _see invisibility_, and _call spirit_.
 
-**Spells:** Crushing despair
+### Kindness (Psychic Anthology page 5) {#kindness}
 
-**Spells:** Bungle
+_Bless_ (5th), _calm emotions_ (7th), _heroism_ (9th), _good hope_ (16th).
 
-**Spells:** Stricken heart
+### Remorse (Occult Origins page 19) {#remorse}
 
-**Spells:** Doom
+_Doom_ (5th), _inflict pain_ (7th), _stricken heart_ (9th), _mind fog_ (16th).
 
-**Fear**
+### Whimsey (Heroes from the Fringe page 19) {#whimsey}
 
-**Spells:** Phantasmal killer
-
-**Spells:** Bane
-
-**Spells:** Mad hallucination
-
-**Spells:** Doom
-
-**Hatred**
-
-**Spells:** Bestow curse
-
-**Spells:** Doom
-
-**Spells:** Inflict moderate wounds
-
-**Spells:** Bane
-
-**Jealousy**
-
-**Spells:** Spell immunity
-
-**Spells:** Sanctuary
-
-**Spells:** Resist energy
-
-**Spells:** Entropic shield
-
-**Kindness^1^**
-
-**Spells:** Good hope
-
-**Spells:** Bless
-
-**Spells:** Calm emotions
-
-**Spells:** Heroism
-
-**Remorse^2^**
-
-**Spells:** Mind fog
-
-**Spells:** Doom
-
-**Spells:** Inflict pain
-
-**Spells:** Stricken heart
-
-**Whimsey^3^**
-
-**Spells:** Rainbow pattern
-
-**Spells:** Ventriloquism
-
-**Spells:** Absurdity
-
-**Spells:** Major image
-
-**Zeal**
-
-**Spells:** Freedom of movement
-
-**Spells:** Bless
-
-**Spells:** Spiritual weapon
-
-**Spells:** Divine favor
-
-^\[Psychic Anthology^(source/psychic\_anthology) pg. 4\]\{from=1\} ^\[Occult
-Origins^(source/occult\_origins) pg. 19\]\{from=2\} ^\[Heroes from the
-Fringe^(source/heroes\_from\_the\_fringe) pg. 17\]\{from=3\}
+_Ventriloquism_ (5th), _absurdity_ (7th), _major image_ (9th), _rainbow pattern_ (16th).

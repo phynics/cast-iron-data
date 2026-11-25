@@ -1,7 +1,7 @@
 +++
 id = "ref/spell/judgement-undone"
 kind = "spell"
-title = "Judgement Undone"
+title = "Judgment Undone"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "judgement_undone", path = "json/spells6.json" },

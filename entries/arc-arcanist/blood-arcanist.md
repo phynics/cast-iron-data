@@ -17,7 +17,7 @@ page = "77"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "bloodline" },
+  { anchor = "bloodline", level = 1 },
 ]
 trades = [
   { replaces = "Arcanist exploits gained at 1st, 3rd, 9th, and 15th levels", feature = "arcanist-exploits", levels = [1, 3, 9, 15], by = ["bloodline"] },

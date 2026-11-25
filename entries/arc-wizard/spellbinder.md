@@ -51,5 +51,5 @@ This ability replaces arcane bond.
 
 ## Discoveries {#discoveries}
 
-The following discoveries complement the spellbinder archetype: Fast Study, Split Slot (_Ultimate
-Magic_).
+The following discoveries complement the spellbinder archetype:
+[Fast Study](ref/arcanedisc/fast-study), [Split Slot](ref/arcanedisc/split-slot) (_Ultimate Magic_).

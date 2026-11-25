@@ -55,4 +55,5 @@ nimble climber, stand up, and terrain mastery.
 
 ## Advanced Talents {#advanced-talents}
 
-The following advanced rogue talent complements the roof runner archetype: fast tumble.
+The following advanced rogue talent complements the roof runner archetype:
+[fast tumble](ref/talent/fast-tumble).

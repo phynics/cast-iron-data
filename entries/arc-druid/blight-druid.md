@@ -18,7 +18,7 @@ page = "98"
 kind = "archetype"
 features = [
   { anchor = "nature-bond" },
-  { anchor = "vermin-empathy" },
+  { anchor = "vermin-empathy", level = 1 },
   { anchor = "miasma", level = 5 },
   { anchor = "blightblooded", level = 9 },
   { anchor = "plaguebearer", level = 13 },

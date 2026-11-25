@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/embrace-of-the-dark-fey"
 kind = "feat"
-title = "Embrace of the Dark Fey"
+title = "Embrace the Dark Fey"
 aon = "FeatDisplay.aspx?ItemName=Embrace%20of%20the%20Dark%20Fey"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [

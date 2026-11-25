@@ -18,7 +18,7 @@ page = "84"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "inspiring-blow" },
+  { anchor = "inspiring-blow", level = 1 },
   { anchor = "incite-rage", level = 6 },
   { anchor = "song-of-the-fallen", level = 10 },
   { anchor = "berserkergang", level = 12 },

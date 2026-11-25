@@ -87,9 +87,9 @@ such feats with weapons other than his favored weapon. This ability replaces kno
 ## Iaijutsu (Ex) {#iaijutsu}
 
 At 7th level, a kensai applies his Intelligence modifier as well as his Dexterity modifier on
-initiative rolls (minimum 0). A kensai may make attacks of opportunity when flat-footed, and may
-draw his favored weapon as a free action as part of taking an attack of opportunity. This ability
-replaces the medium armor ability.
+initiative rolls (minimum 0). A kensai may make attacks of opportunity when
+[flat-footed](ref/rule/flat-footed), and may draw his favored weapon as a free action as part of
+taking an attack of opportunity. This ability replaces the medium armor ability.
 
 ## Critical Perfection (Ex) {#critical-perfection}
 

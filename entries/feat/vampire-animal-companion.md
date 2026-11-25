@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/vampire-animal-companion"
 kind = "feat"
-title = "Vampire Animal Companion"
+title = "Vampiric Animal Companion"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_animal_companion", path = "json/feat17.json" },

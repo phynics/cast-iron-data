@@ -76,10 +76,10 @@ overrun attempt succeeds. This ability replaces mighty charge.
 At 14th level, a fell rider can rear up his mount as a standard action, spreading terror among his
 enemies. Enemies within 60 feet who can see the fell rider must succeed at a Will save (DC 10 + 1/2
 the fell rider's level + the fell rider's Charisma modifier) or be [shaken](ref/misc/shaken) for 1
-round per level the fell rider possesses. Creatures with half or fewer Hit Dice than the fell rider
-become [frightened](ref/misc/frightened) instead. An opponent that succeeds at the saving throw is
-immune to that fell rider's terror ability for 24 hours. This ability is a mind-affecting fear
-effect, and replaces greater banner.
+round per level the fell rider possesses. Creatures with [half](ref/misc/fractions-and-rounding) or
+fewer Hit Dice than the fell rider become [frightened](ref/misc/frightened) instead. An opponent
+that succeeds at the saving throw is immune to that fell rider's terror ability for 24 hours. This
+ability is a mind-affecting fear effect, and replaces greater banner.
 
 ## Unstoppable Rampage (Ex) {#unstoppable-rampage}
 

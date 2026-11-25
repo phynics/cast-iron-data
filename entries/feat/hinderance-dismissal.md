@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/hinderance-dismissal"
 kind = "feat"
-title = "Hinderance Dismissal"
+title = "Hindrance Dismissal"
 aon = "FeatDisplay.aspx?ItemName=Hinderance%20Dismissal"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [

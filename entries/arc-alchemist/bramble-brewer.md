@@ -71,12 +71,13 @@ This otherwise works like the grand mutagen discovery and replaces that ability.
 
 ## Grand Discovery (Su) {#grand-discovery}
 
-At 20th level, a bramble brewer who selects the true mutagen grand discovery can create a dendrite
-mutagen that grants a +8 natural armor bonus and a +6 alchemical bonus to Strength, Dexterity, and
-Constitution. The bramble brewer takes a -2 penalty to his Intelligence, Wisdom, and Charisma scores
-as long as the mutagen persists. The bramble brewer's gains fast healing 10, but instead of only
-gaining fast healing in bright light, this fast healing persists in areas of bright or normal light.
-A bramble brewer must possess the grand mutagen discovery before selecting this discovery.
+At 20th level, a bramble brewer who selects the [true mutagen](ref/discovery/true-mutagen) grand
+discovery can create a dendrite mutagen that grants a +8 natural armor bonus and a +6 alchemical
+bonus to Strength, Dexterity, and Constitution. The bramble brewer takes a -2 penalty to his
+Intelligence, Wisdom, and Charisma scores as long as the mutagen persists. The bramble brewer's
+gains [fast healing](ref/umr/fast-healing) 10, but instead of only gaining fast healing in bright
+light, this fast healing persists in areas of bright or normal light. A bramble brewer must possess
+the grand mutagen discovery before selecting this discovery.
 
 ## Discoveries {#discoveries}
 

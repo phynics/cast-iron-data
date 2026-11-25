@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/ursurping-spell"
 kind = "feat"
-title = "Ursurping Spell"
+title = "Usurping Spell"
 aon = "FeatDisplay.aspx?ItemName=Ursurping%20Spell"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [

@@ -51,7 +51,7 @@ divine spellcaster, granting a +2 circumstance bonus on caster level checks and
 turn. This bonus increases by +1 at 4th level and every four levels thereafter (to a maximum of +7
 at 20th level). The allied caster must remain adjacent to the divine strategist to gain this
 benefit. Caster support can be used to assist arcane spellcasters or characters using magical items,
-but they gain only half the normal bonus.
+but they gain only [half](ref/misc/fractions-and-rounding) the normal bonus.
 
 ## Tactical Expertise (Ex) {#tactical-expertise}
 
