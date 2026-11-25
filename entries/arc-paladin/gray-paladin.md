@@ -16,20 +16,26 @@ page = "69"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "weakened-grace" },
+  { anchor = "code-of-conduct" },
+  { anchor = "enhanced-health", level = 3 },
+  { anchor = "smite-foe", level = 4 },
+  { anchor = "aura-of-subtlety", level = 11 },
+]
 trades = [
-  { replaces = "Aura of good", feature = "aura-of-good" },
-  { replaces = "divine grace", feature = "divine-grace" },
-  { replaces = "Code of conduct and associated abilities" },
-  { replaces = "Divine health", feature = "divine-health" },
-  { replaces = "Channel positive energy", feature = "channel-positive-energy" },
-  { replaces = "Aura of justice", feature = "aura-of-justice" },
+  { replaces = "Aura of good", feature = "aura-of-good", by = ["weakened-grace"] },
+  { replaces = "divine grace", feature = "divine-grace", by = ["weakened-grace"] },
+  { replaces = "Paladin's code of conduct and associated abilities", by = ["code-of-conduct"] },
+  { replaces = "Divine health", feature = "divine-health", by = ["enhanced-health"] },
+  { replaces = "Channel positive energy", feature = "channel-positive-energy", by = ["smite-foe"] },
+  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["aura-of-subtlety"] },
   { alters = "Alignment restrictions" },
-  { alters = "Smite evil", feature = "smite-evil" },
-  { alters = "aura of courage", feature = "aura-of-courage" },
-  { alters = "aura of resolve", feature = "aura-of-resolve" },
-  { alters = "aura of righteousness", feature = "aura-of-righteousness" },
-  { alters = "Ex-paladin", feature = "sec-ex-paladins" },
-  { alters = "Smite evil" },
+  { alters = "Smite evil", feature = "smite-evil", by = ["weakened-grace", "smite-foe"] },
+  { alters = "aura of courage", feature = "aura-of-courage", by = ["weakened-grace"] },
+  { alters = "aura of resolve", feature = "aura-of-resolve", by = ["weakened-grace"] },
+  { alters = "aura of righteousness", feature = "aura-of-righteousness", by = ["weakened-grace"] },
+  { alters = "Section on ex-paladins", feature = "sec-ex-paladins", by = ["code-of-conduct"] },
 ]
 +++
 
@@ -37,88 +43,68 @@ Gray paladins have discovered that in a world of intrigue, a strict code of hono
 options. Their divergence from the paladin's normal code still drains them, but somehow, they have
 found a way to avoid losing all of their powers.
 
-**Alignment**
+## Alignment {#alignment}
 
-**Alters:** Alignment restrictions
+A gray paladin can be lawful good, lawful neutral, or neutral good, though she must still follow a
+lawful good, neutral good, or lawful neutral deity.
 
-**Info:** A gray paladin can be lawful good, lawful neutral, or neutral good, though she must still
-follow a lawful good, neutral good, or lawful neutral deity.
+This alters the paladin's alignment restrictions.
 
-**Gained class skills:** bluff, dis, intm
+## Class Skills {#class-skills}
 
-**Weakened Grace**
+A gray paladin adds Bluff, Disguise, and Intimidate to her list of class skills.
 
-**Alters:** Smite evil, aura of courage, aura of resolve, aura of righteousness
+This alters the paladin's class skills.
 
-**Flavor:** A gray paladin's loosened code weakens her connection to the power that grants her
-paladin abilities.
+## Weakened Grace {#weakened-grace}
 
-**At 2nd Level:** She gains her first use of _smite evil_ at 2nd level, instead of 1st.
+A gray paladin's loosened code weakens her connection to the power that grants her paladin
+abilities. She gains her first use of smite evil at 2nd level, instead of 1st, though she still
+gains further uses of smite evil at the rate listed on Table 3–11 of the _Core Rulebook_. She never
+gains the aura of good or divine grace class features. Her aura of courage does not make her immune
+to fear, her aura of resolve does not make her immune to charms, and her aura of righteousness does
+not make her immune to compulsions.
 
-**Info:** She never gains the _aura of good_ or _divine grace_ class features. Her _aura of courage_
-does not make her immune to fear, her _aura of resolve_ does not make her immune to charms, and her
-_aura of righteousness_ does not make her immune to compulsions.
+This ability alters smite evil, aura of courage, aura of resolve, and aura of righteousness, and it
+replaces aura of good and divine grace.
 
-**Replaces:** Aura of good, divine grace
+## Code of Conduct {#code-of-conduct}
 
-At 4th level: She gains her 2nd use of _smite evil_ per day.
+A gray paladin must be of lawful good, lawful neutral, or neutral good alignment and loses all class
+features except proficiencies if she ever willingly commits an evil act (for example, casting a
+spell with the evil descriptor). She should strive to act with honor and uphold the tenets of her
+faith, but failing to do so is not a violation of her code, and other than evil actions, she can do
+whatever else she feels is necessary to uphold the causes of law and good.
 
-At 7th level: She gains her 3rd use of _smite evil_ per day.
+This ability replaces the paladin's code of conduct and associated abilities and alters the section
+on ex-paladins.
 
-At 10th level: She gains her 4th use of _smite evil_ per day.
+## Enhanced Health (Ex) {#enhanced-health}
 
-At 13th level: She gains her 5th use of _smite evil_ per day.
-
-At 16th level: She gains her 6th use of _smite evil_ per day.
-
-At 19th level: She gains her 7th use of _smite evil_ per day.
-
-**Code of Conduct**
-
-**Alters:** Ex-paladin
-
-**Info:** A gray paladin must be of lawful good, lawful neutral, or neutral good alignment and loses
-all class features except proficiencies if she ever willingly commits an evil act (for example,
-casting a spell with the evil descriptor). She should strive to act with honor and uphold the tenets
-of her faith, but failing to do so is not a violation of her code, and other than evil actions, she
-can do whatever else she feels is necessary to uphold the causes of law and good.
-
-**Replaces:** Code of conduct and associated abilities
-
-**Enhanced Health (Ex)**
-
-**Gained:** At 3rd Level
-
-**Passive:** A gray paladin is far less a stranger to poisons than a normal paladin. She gains a +4
+At 3rd level, a gray paladin is far less a stranger to poisons than a normal paladin. She gains a +4
 sacred bonus on all saving throws against poisons and diseases.
 
-**Replaces:** Divine health
+This ability replaces divine health.
 
-**Smite Foe (Su)**
+## Smite Foe (Su) {#smite-foe}
 
-**Ability:** A gray paladin can spend two uses of _smite evil_ in order to smite a nongood creature
+At 4th level, a gray paladin can spend two uses of smite evil in order to smite a nongood creature
 that is not evil and gain her full benefits. The gray paladin must truly believe that the creature
 she smites is an opponent to the cause of good. Even if this nonevil foe is an outsider, undead, or
 dragon, she doesn't add increased damage to her first attack.
 
-**Alters:** Smite evil
+This ability replaces channel positive energy and alters smite evil.
 
-**Gained:** At 4th Level
+## Aura of Subtlety (Sp, Su) {#aura-of-subtlety}
 
-**Replaces:** Channel positive energy
+At 11th level, a gray paladin learns how to protect herself from detection. She and her allies
+within 10 feet gain a +4 morale bonus on saving throws against divination effects. Furthermore,
+casters of divinations that target the gray paladin or her nearby allies must succeed at a caster
+level check as though the gray paladin and her nearby allies were under the effect of a
+_[nondetection](ref/spell/nondetection)_ spell cast by the gray paladin, with a caster level equal
+to the gray paladin's paladin level.
 
-**Aura of Subtlety (Sp, Su)**
+This ability functions while the gray paladin is conscious and while she is sleeping, but not if she
+is unconscious for any other reason, or dead.
 
-**Gained:** At 11th Level
-
-**Passive:** A gray paladin learns how to protect herself from detection. She and her allies within
-10 feet gain a +4 morale bonus on saving throws against divination effects. Furthermore, casters of
-divinations that target the gray paladin or her nearby allies must succeed at a caster level check
-as though the gray paladin and her nearby allies were under the effect of a
-[nondetection](ref/spell/nondetection) spell cast by the gray paladin, with a caster level equal to
-the gray paladin's paladin level.
-
-**Replaces:** Aura of justice
-
-**Special:** This ability functions while the gray paladin is conscious and while she is sleeping,
-but not if she is unconscious for any other reason, or dead.
+This ability replaces aura of justice.

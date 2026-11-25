@@ -60,7 +60,7 @@ the medium armor and heavy armor class abilities.
 ## Staff Weapon (Su) {#staff-weapon}
 
 At 10th level, a staff magus treats any magical staff he is wielding as a magical quarterstaff with
-an enhancement bonus to attack and damage equal to the staff 's caster level divided by 4 (minimum
+an enhancement bonus to attack and damage equal to the staff's caster level divided by 4 (minimum
 +1). The staff must have at least 1 charge for the magus to use this ability. A staff magus can
 restore 1 charge to a staff by expending a number of points from his arcane pool equal to the level
 of the highest-level spell cast in the staff, as long as at least one spell in the staff is on the

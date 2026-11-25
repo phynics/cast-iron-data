@@ -2310,6 +2310,10 @@ TRADE_RENAMES = {
     ("ref/arc-witch/dreamweaver", "10th-level hex"): "Witch's hex gained at 10th level",
     # Owner ruling 31 of 2026-11-25: the holds of the renamed shape convert in the same PR; the stored name is the printed wording.
     ("ref/arc-barbarian/feral-gnasher", "2nd-level rage power"): "Rage power gained at second level",
+    # Final review of batch 3 (ruling 22): the printed words of the sentence, as stored by the owner's rule
+    ("ref/arc-swashbuckler/guiding-blade", "Kip-up"): "Kip-up deed",
+    ("ref/arc-paladin/gray-paladin", "Code of conduct and associated abilities"): "Paladin's code of conduct and associated abilities",
+    ("ref/arc-paladin/gray-paladin", "Ex-paladin"): "Section on ex-paladins",
     ("ref/arc-barbarian/hateful-rager", "2nd, 8th, 14th, and 20th level rage powers"): "Barbarian's rage power gained at 2nd level",
     ("ref/arc-rogue/deadly-courtesan", "Rogue talent gained at 2nd level"): "Rogue trick gained at 2nd level",
     ("ref/arc-paladin/stonelord", "3rd-, 9th-, and 15th-level mercies"): "Her mercies gained at 3rd, 9th, and 15th level",

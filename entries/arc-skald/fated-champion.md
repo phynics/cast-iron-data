@@ -69,6 +69,6 @@ ability replaces master skald.
 ## Rage Powers {#rage-powers}
 
 The following rage powers complement the fated champion archetype: boasting taunt, clear mind, eater
-of magic, fierce fortitude, flesh wound, guarded life, intimidating glare, linnorm death curse
+of magic, fierce fortitude\*, flesh wound, guarded life, intimidating glare, linnorm death curse\*
 (cairn, tarn), and renewed vitality. (Those with asterisks \[\*\] are listed in the rage powers
 section on the previous page.)

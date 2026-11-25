@@ -69,14 +69,17 @@ ability replaces the advanced slayer talent gained at 10th level.
 
 ## Slayer Talents {#slayer-talents}
 
-The following slayer talents (and rogue talents) complement the deliverer archetype: combat trick,
-finesse rogue, foil scrutiny, terrain mastery, trap spotter, and trapfinding. (Those with asterisks
-\[\*\] are detailed in the slayer class, starting on page 53.)
+The following slayer talents (and rogue talents) complement the deliverer archetype:
+[combat trick](ref/talent/combat-trick), [finesse rogue](ref/talent/finesse-rogue), foil scrutiny\*,
+[terrain mastery](ref/talent/terrain-mastery), [trap spotter](ref/talent/trap-spotter), and
+trapfinding\*. (Those with asterisks \[\*\] are detailed in the slayer class, starting on page 53.)
 
 ## Advanced Slayer Talents {#advanced-slayer-talents}
 
 The following advanced slayer talents (and advanced rogue talents) complement the deliverer
-archetype: assassinate, evasion, hunter's surprise, and master of disguise.
+archetype: assassinate\*, [evasion](ref/ninjatrick/evasion),
+[hunter's surprise](ref/talent/hunters-surprise), and
+[master of disguise](ref/talent/master-of-disguise).
 
 ## Ex-Deliverers {#ex-deliverers}
 

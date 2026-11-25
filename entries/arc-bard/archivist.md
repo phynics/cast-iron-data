@@ -80,10 +80,11 @@ beyond 2nd. This ability replaces versatile performance.
 ## Magic Lore (Ex) {#magic-lore}
 
 At 2nd level, an archivist gains a bonus on Spellcraft checks to identify magic items or decipher
-scrolls equal to half his bard level and may take 10 on such checks. An archivist can use Disable
-Device to disarm magical traps as per a rogue's [trapfinding](ref/ability/trapfinding) ability and
-gains a +4 bonus on saves against magical traps, language-dependent effects, and symbols, glyphs,
-and magical writings of any kind. This ability replaces well-versed.
+scrolls equal to [half](ref/misc/fractions-and-rounding) his bard level and may take 10 on such
+checks. An archivist can use Disable Device to disarm magical traps as per a rogue's
+[trapfinding](ref/ability/trapfinding) ability and gains a +4 bonus on saves against magical traps,
+language-dependent effects, and symbols, glyphs, and magical writings of any kind. This ability
+replaces well-versed.
 
 ## Jack of All Trades (Ex) {#jack-of-all-trades}
 

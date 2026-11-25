@@ -79,11 +79,11 @@ mind-affecting ability that uses audible components. This performance replaces f
 
 ## Heraldic Expertise (Ex) {#heraldic-expertise}
 
-A court bard gains a bonus equal to half his bard level on Diplomacy, Knowledge (history), Knowledge
-(local), and Knowledge (nobility) checks (minimum +1). Once per day, the court bard can also reroll
-a check against one of these skills, though he must take the result of the second roll even if it is
-worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This
-ability replaces bardic knowledge.
+A court bard gains a bonus equal to [half](ref/misc/fractions-and-rounding) his bard level on
+Diplomacy, Knowledge (history), Knowledge (local), and Knowledge (nobility) checks (minimum +1).
+Once per day, the court bard can also reroll a check against one of these skills, though he must
+take the result of the second roll even if it is worse. He can reroll one additional time per day at
+5th level and every five levels thereafter. This ability replaces bardic knowledge.
 
 ## Wide Audience (Su) {#wide-audience}
 

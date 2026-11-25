@@ -51,9 +51,9 @@ ability. This ability replaces the hex gained at 2nd level.
 
 ## Hexes {#hexes}
 
-The following witch hexes complement the mountain witch archetype: beast of ill-omen, crystal sight,
-lodestone, metal curse, stone stability, and ward of stone. (Those with asterisks \[\*\] are
-detailed in the shaman class.)
+The following witch hexes complement the mountain witch archetype:
+[beast of ill-omen](ref/hex/beast-of-ill-omen), crystal sight\*, lodestone\*, metal curse\*, stone
+stability\*, and ward of stone\*. (Those with asterisks \[\*\] are detailed in the shaman class.)
 
 ## Major Hexes {#major-hexes}
 

@@ -51,9 +51,9 @@ and undergrowth. This ability replaces trackless step.
 
 At 4th level, a swamp druid gains a +4 bonus on saves against disease and the exceptional,
 supernatural, and [spell-like abilities](ref/umr/spell-like-abilities) of monstrous humanoids. A
-swamp druid also gains DR/— equal to half her druid level against attacks by swarms. If this damage
-resistance prevents damage, the druid is unaffected by distraction or other special attacks of the
-swarm. This ability replaces resist nature's lure.
+swamp druid also gains DR/— equal to [half](ref/misc/fractions-and-rounding) her druid level against
+attacks by swarms. If this damage resistance prevents damage, the druid is unaffected by distraction
+or other special attacks of the swarm. This ability replaces resist nature's lure.
 
 ## Wild Shape (Su) {#wild-shape}
 

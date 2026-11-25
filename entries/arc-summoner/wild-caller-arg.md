@@ -28,10 +28,10 @@ trades = [
 ]
 +++
 
-Often a half-elf 's ties to nature and elven heritage are so strong that they can dramatically
-affect the nature of his summonings. The wild caller calls eidolons that take more natural and
-savage forms and summons from nature rather than the Great Beyond. A wild caller has the following
-class features.
+Often a half-elf's ties to nature and elven heritage are so strong that they can dramatically affect
+the nature of his summonings. The wild caller calls eidolons that take more natural and savage forms
+and summons from nature rather than the Great Beyond. A wild caller has the following class
+features.
 
 ## Spells {#spells}
 
@@ -46,15 +46,17 @@ The eidolon of a wild caller tends to take more natural and more savage forms th
 eidolons. A wild caller gains 1/4 his class level as bonus evolution points in his eidolon's
 evolution pool, but his eidolon cannot take the following evolutions:
 
-_Advanced Player's Guide_—_1-point evolutions_: magic attacks, skilled (while the eidolon can select
-this evolution, it can only do so with the following skills: Acrobatics, Climb, Escape Artist, Fly,
-Intimidate, Perception, Survival, and Swim); _2-point evolutions_: energy attacks, immunity, weapon
-training; _3-point evolutions_: damage reduction, frightful presence; _4-point evolutions_: breath
-weapon, spell resistance.
+_Advanced Player's Guide_—_1-point evolutions_: magic attacks, [skilled](ref/evolution/skilled)
+(while the eidolon can select this evolution, it can only do so with the following skills:
+Acrobatics, Climb, Escape Artist, Fly, Intimidate, Perception, Survival, and Swim); _2-point
+evolutions_: energy attacks, immunity, weapon training; _3-point evolutions_:
+[damage reduction](ref/rule/damage-reduction), frightful presence; _4-point evolutions_: breath
+weapon, [spell resistance](ref/rule/spell-resistance).
 
-_Ultimate Magic_—_1-point evolutions_: basic magic, unnatural aura; _2-point evolutions_: channel
-resistance, head, minor magic, undead appearance; _3-point evolutions_: major magic; _4-point
-evolutions_: dimension door, incorporeal form, lifesense, no breath, ultimate magic.
+_Ultimate Magic_—_1-point evolutions_: basic magic, unnatural aura; _2-point evolutions_:
+[channel resistance](ref/rule/channel-resistance), head, minor magic, undead appearance; _3-point
+evolutions_: major magic; _4-point evolutions_: dimension door, incorporeal form, lifesense, no
+breath, ultimate magic.
 
 This ability alters the normal summoner's eidolon class feature, but is otherwise identical to that
 class feature.

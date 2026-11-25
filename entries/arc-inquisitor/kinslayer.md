@@ -47,8 +47,8 @@ and burns her personal symbol into the undead creature's flesh, bone, or even it
 From that point onward, the kinslayer can sense the existence of the branded creature as if it were
 the target of a _[locate creature](ref/spell/locate-creature)_ spell (caster level equal to 1/2 the
 kinslayer's inquisitor level). A slayer's brand lasts until the undead creature is destroyed or
-until the kinslayer uses this ability on another creature. This ability replaces the destruction
-judgment.
+until the kinslayer uses this ability on another creature. This ability replaces the
+[destruction](ref/spell/destruction) judgment.
 
 ## Greater Brand (Su) {#greater-brand}
 

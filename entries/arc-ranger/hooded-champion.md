@@ -60,8 +60,8 @@ At 1st level, the hooded champion's can spend 1 panache point when making a sing
 (not a full attack) with a bow to make a ranged touch attack instead. The target must be in the
 bow's first range increment.
 
-At 3rd level, the hooded champion gains the swashbuckler's kip-up deed as well as the following
-deed.
+At 3rd level, the hooded champion gains the swashbuckler's [kip-up](ref/swashdeed/kip-up) deed as
+well as the following deed.
 
 ## Hooded Champion's Initiative (Ex) {#hooded-champion-s-initiative}
 

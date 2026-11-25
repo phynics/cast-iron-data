@@ -93,9 +93,10 @@ This ability replaces countersong.
 
 ## Streetwise {#streetwise}
 
-A street performer gains a bonus equal to half his level on Bluff, Disguise, Knowledge (local), and
-Sleight of Hand checks, Diplomacy or Intimidate checks made to influence crowds, and Diplomacy
-checks to gather information (minimum +1). This replaces bardic knowledge.
+A street performer gains a bonus equal to [half](ref/misc/fractions-and-rounding) his level on
+Bluff, Disguise, Knowledge (local), and Sleight of Hand checks, Diplomacy or Intimidate checks made
+to influence crowds, and Diplomacy checks to gather information (minimum +1). This replaces bardic
+knowledge.
 
 ## Quick Change (Ex) {#quick-change}
 

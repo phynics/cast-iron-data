@@ -70,11 +70,15 @@ level.
 
 ## Slayer Talents {#slayer-talents}
 
-The following slayer talents (and rogue talents) complement the bounty hunter archetype: camouflage,
-fast stealth, hard to fool, slowing strike, snap shot, surprise attack, and terrain mastery. (Those
-with asterisks \[\*\] are detailed in the slayer class, starting on page 53.)
+The following slayer talents (and rogue talents) complement the bounty hunter archetype:
+[camouflage](ref/talent/camouflage), [fast stealth](ref/talent/fast-stealth),
+[hard to fool](ref/talent/hard-to-fool), slowing strike\*, [snap shot](ref/talent/snap-shot),
+[surprise attack](ref/talent/surprise-attack), and [terrain mastery](ref/talent/terrain-mastery).
+(Those with asterisks \[\*\] are detailed in the slayer class, starting on page 53.)
 
 ## Advanced Slayer Talents {#advanced-slayer-talents}
 
 The following advanced slayer talents (and advanced rogue talents) complement the bounty hunter
-archetype: hunter's surprise, knock-out blow, master of disguise, and woodland stride.
+archetype: [hunter's surprise](ref/talent/hunters-surprise),
+[knock-out blow](ref/talent/knock-out-blow), [master of disguise](ref/talent/master-of-disguise),
+and woodland stride\*.

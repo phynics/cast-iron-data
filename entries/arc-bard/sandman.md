@@ -86,11 +86,12 @@ the performance ends. This ability replaces inspire greatness.
 A sandman's stealspell power improves at 15th level. When a target fails a save against his
 stealspell performance, the sandman discovers its [spell resistance](ref/rule/spell-resistance) (if
 any) and all spells it has prepared or knows. He can then choose which spell to steal. The sandman
-may forgo stealing a spell and instead reduce the target's SR by an amount equal to half his bard
-level and gain that amount of [spell resistance](ref/rule/spell-resistance) for as long as he
-continues performing. If he steals additional spell resistance, it stacks with previously stolen SR.
-If he steals a spell or ceases performing, the spell resistance immediately reverts back to its
-owner. This performance replaces inspire heroics.
+may forgo stealing a spell and instead reduce the target's SR by an amount equal to
+[half](ref/misc/fractions-and-rounding) his bard level and gain that amount of
+[spell resistance](ref/rule/spell-resistance) for as long as he continues performing. If he steals
+additional spell resistance, it stacks with previously stolen SR. If he steals a spell or ceases
+performing, the spell resistance immediately reverts back to its owner. This performance replaces
+inspire heroics.
 
 ## Mass Slumber Song (Sp) {#mass-slumber-song}
 
