@@ -19,6 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "shadow-summoning" },
   { anchor = "shadow-eidolon" },
+  { anchor = "shadow-blend" },
   { anchor = "shadow-form" },
 ]
 trades = [
@@ -86,10 +87,13 @@ of light. This lack of a shadow replaces the magical symbol that identifies the 
 eidolon.
 
 This ability alters the summoner's eidolon ability. The following evolutions are available to all
-summoners. 2-Point Evolutions Shadow Blend (Su): In any condition of illumination other than bright
-light, the eidolon disappears into the shadows, giving it concealment (20% miss chance). If it has
-the shadow form evolution, it instead gains total concealment (50% miss chance). The eidolon can
-suspend or resume this ability as a free action.
+summoners. 2-Point Evolutions
+
+## Shadow Blend (Su) {#shadow-blend}
+
+In any condition of illumination other than bright light, the eidolon disappears into the shadows,
+giving it concealment (20% miss chance). If it has the shadow form evolution, it instead gains total
+concealment (50% miss chance). The eidolon can suspend or resume this ability as a free action.
 
 ## Shadow Form (Su) {#shadow-form}
 

@@ -43,10 +43,9 @@ spirits of legend. See pages 159–165 of _Pathfinder RPG Bestiary 3_ for more i
 
 A kami medium channels the kami at locations different from where a normal medium channels his
 spirits. The kami medium channels the [dosojin](ref/monster/kami-dosojin) (which acts as the
-[trickster](ref/spirit/trickster)) at crossroads and other major roadway milestones;
-
-the [fukujin](ref/monster/kami-fukujin) (which acts as the [marshal](ref/spirit/marshal)) at
-ornamental shrubs and bonsai trees; the [kaminari](ref/monster/kami-kaminari) (which acts as the
+[trickster](ref/spirit/trickster)) at crossroads and other major roadway milestones; the
+[fukujin](ref/monster/kami-fukujin) (which acts as the [marshal](ref/spirit/marshal)) at ornamental
+shrubs and bonsai trees; the [kaminari](ref/monster/kami-kaminari) (which acts as the
 [champion](ref/spirit/champion)) in the midst of storms; the [suijin](ref/monster/kami-suijin)
 (which acts as the [hierophant](ref/spirit/hierophant)) at pure lakes, ponds, springs, and wells;
 and the [zuishin](ref/monster/kami-zuishin) (which acts as the [guardian](ref/spirit/guardian)) at
