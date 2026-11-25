@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-36-sound-of-a-thousand-screams"
+page = "86"
 
 [fields]
 kind = "none"

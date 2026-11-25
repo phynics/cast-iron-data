@@ -13,6 +13,7 @@ publication = "bestiary-3"
 page = "261"
 [[sources]]
 publication = "pathfinder-31-stolen-land"
+page = "82"
 [[sources]]
 publication = "hollows-last-hope"
 page = "15"

@@ -35,14 +35,13 @@ a high, scarred brow devoid of nose or eyes._
 
 ::: statblock
 Challenge rating: 7
-blindsight: 30
-blindsightParens: 120 ft. with green eyes), _[true seeing](ref/spell/true-seeing)_ (with gem eye
+blindsight: 30 ft. (120 ft. with gem eye)
 Initiative: +7
 Alignment: Lawful evil
 Size: medium
 Type: Monstrous humanoid
 Perception: +23
-Senses: Scent
+Senses: Scent, True seeing with gem eye
 Experience points: 3,200
 :::
 

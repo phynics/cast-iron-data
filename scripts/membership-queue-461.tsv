@@ -2069,6 +2069,7 @@ pathfinder-53-tide-of-honor	ref/rule/caravan-events-cr-10-to-15	rule	Caravan Eve
 pathfinder-54-the-empty-throne	ref/rule/caravan-events-cr-1-2-to-3	rule	Caravan Events CR 1/2 to 3	4	4	hub-keep	no-pdf		none	0								cite	83	section-printed	hub-cited	done			yes	yes		
 pathfinder-54-the-empty-throne	ref/rule/caravan-events-cr-10-to-15	rule	Caravan Events CR 10 to 15	3	3	hub-keep	no-pdf		none	0								cite	83	section-printed	hub-cited	done			yes	yes		
 pathfinder-55-the-wormwood-mutiny	ref/rule/seafaring-and-piracy-rules	rule	Seafaring and Piracy Rules	3	3	uncited	no-pdf		none	0								remove	61	hub-link ref/rule/plunder-and-infamy	no-pdf	done			no			
+pathfinder-56-raiders-of-the-fever-sea	ref/affliction/sea-urchin-giant-ravenous-urchin-swarm/sea-urchin-venom	affliction	Sea Urchin Venom	1	2	review	absent		row	0				yes	primary	pathfinder-37-souls-for-smugglers-shiv	printed	remove	85	whole-book-absent-new-primary-printed	single-entry	done			yes			
 pathfinder-59-the-price-of-infamy	ref/rule/seafaring-and-piracy-rules	rule	Seafaring and Piracy Rules	2	3	uncited	no-pdf		none	0								remove	63	hub-link ref/rule/mass-naval-combat	no-pdf	done			no			
 pathfinder-70-the-frozen-stars	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	14	15	review	no-pdf	63	row	0								remove	63	wrong-credit-invalidated	figurine	done			yes			
 pathfinder-70-the-frozen-stars	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	14	15	review	no-pdf	63	row	0								remove	63	wrong-credit-invalidated	figurine	done			yes			
@@ -2094,6 +2095,7 @@ pathfinder-70-the-frozen-stars	ref/magic-wondrous/figurine-of-wondrous-power-sil
 pathfinder-70-the-frozen-stars	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	14	15	review	no-pdf	63	row	0								remove	63	wrong-credit-invalidated	figurine	done			yes			
 pathfinder-70-the-frozen-stars	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	14	15	review	no-pdf	63	row	0								remove	63	wrong-credit-invalidated	figurine	done			yes			
 pathfinder-8-seven-days-to-the-grave	ref/magic-wondrous/key-of-the-second-vault	item	Key of the Second Vault	3	3	uncited	no-pdf		none	0								remove	64-67	whole-book-absent	single-entry	done			yes			
+pathfinder-8-seven-days-to-the-grave	ref/affliction/daughter-of-urgathoa/bubonic-plague	affliction	Bubonic Plague	2	2	review	absent		row	0				yes				remove	none	whole-book-absent	single-entry	done			yes			
 pathfinder-82-secrets-of-the-sphinx	ref/spell/conditional-curse	spell	Conditional Curse	2	3	review	absent	75	row	0								remove	74-75	wrong-credit-invalidated	single-entry	done			yes			
 pathfinder-86-lords-of-rust	ref/tech-weapon/arc-grenade	item	Grenade (arc grenade)	2	2	uncited	no-pdf		none	0								remove	62	mention-only	single-entry	done			yes			
 pathfinder-86-lords-of-rust	ref/tech-weapon/atom-grenade	item	Grenade (atom grenade)	2	2	uncited	no-pdf		none	0								remove	62	whole-book-absent	single-entry	done			yes			

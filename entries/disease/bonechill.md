@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Dexterity damage 1d4 and any nonlethal damage incurred from being in a cold environment
+**Effect:** 1d4 Dex damage, and any nonlethal damage incurred from being in a cold environment
 becomes lethal damage (though it can still cause hypothermia)
 
 **Cure:** 2 consecutive saves

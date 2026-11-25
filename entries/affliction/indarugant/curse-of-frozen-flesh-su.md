@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "86"
 
 [fields]
 kind = "none"

@@ -14,7 +14,7 @@ page = "84"
 kind = "creature"
 cr = "15"
 creature_type = "construct"
-subtypes = ["extraplanar"]
+subtypes = ["extraplanar", "herald"]
 size = "large"
 alignment = "neutral"
 ac = "31/13/27"
@@ -38,10 +38,9 @@ Type: construct
 Initiative: +8
 Size: large
 Alignment: Neutral
-othersubs: Herald
 Perception: +22
 Senses: Darkvision 60 ft., Low-light vision
-Subtype: Extraplanar
+Subtype: Extraplanar, Herald
 Experience points: 51,200
 :::
 

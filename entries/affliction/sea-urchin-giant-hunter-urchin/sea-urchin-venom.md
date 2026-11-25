@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "85"
 
 [fields]
 kind = "none"

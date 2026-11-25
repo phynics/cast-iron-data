@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-93-forge-of-the-giant-god"
+page = "84"
 
 [fields]
 kind = "none"

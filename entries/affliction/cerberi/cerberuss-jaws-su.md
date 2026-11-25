@@ -13,6 +13,7 @@ publication = "bestiary-3"
 page = "51"
 [[sources]]
 publication = "pathfinder-28-the-infernal-syndrome"
+page = "84"
 
 [fields]
 kind = "none"
