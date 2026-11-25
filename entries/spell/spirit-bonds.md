@@ -18,6 +18,7 @@ descriptors = ["meditative"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Cleric", level = 3 },
+  { class = "Oracle", level = 3 },
   { class = "Shaman", level = 3 },
   { class = "Warpriest", level = 3 },
   { class = "Witch", level = 3 },
@@ -37,7 +38,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 3: Arcanist, Cleric, Shaman, Warpriest, Witch, Wizard
+Level: 3: Arcanist, Cleric, Oracle, Shaman, Warpriest, Witch, Wizard
 Casting time: 1 hour
 Components: V, M (soothing incense worth 300 gp)
 Range: personal

@@ -16,9 +16,9 @@ kind = "spell"
 school = "necromancy"
 descriptors = ["emotion", "fear", "haunted", "mind-affecting"]
 levels = [
-  { class = "Cleric", level = 6 },
+  { class = "Cleric", level = 5 },
   { class = "Inquisitor", level = 6 },
-  { class = "Oracle", level = 6 },
+  { class = "Oracle", level = 5 },
   { class = "Shaman", level = 6 },
   { class = "Spiritualist", level = 5 },
   { class = "Witch", level = 6 },
@@ -37,8 +37,8 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 5: Spiritualist\
-6: Cleric, Inquisitor, Oracle, Shaman, Witch
+Level: 5: Cleric, Oracle, Spiritualist\
+6: Inquisitor, Shaman, Witch
 Casting time: 1 standard action
 Components: V, S, M/DF (a vial of sea water)
 Range: close (25 ft. + 5 ft./2 levels)

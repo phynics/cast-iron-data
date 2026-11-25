@@ -27,7 +27,9 @@ levels = [
   { class = "Hunter", level = 1 },
   { class = "Investigator", level = 1 },
   { class = "Magus", level = 1 },
+  { class = "Medium", level = 1 },
   { class = "Oracle", level = 1 },
+  { class = "Psychic", level = 1 },
   { class = "Shaman", level = 1 },
   { class = "Sorcerer", level = 1 },
   { class = "Summoner", level = 1 },
@@ -48,7 +50,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 1: Alchemist, Antipaladin, Arcanist, Bloodrager, Cleric, Druid, Hunter, Investigator, Magus, Oracle, Shaman, Sorcerer, Summoner, Warpriest, Wizard
+Level: 1: Alchemist, Antipaladin, Arcanist, Bloodrager, Cleric, Druid, Hunter, Investigator, Magus, Medium, Oracle, Psychic, Shaman, Sorcerer, Summoner, Warpriest, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a dose of pesh worth 15 gp)
 Range: touch

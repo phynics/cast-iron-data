@@ -20,6 +20,7 @@ levels = [
   { class = "Cleric", level = 9 },
   { class = "Oracle", level = 9 },
   { class = "Psychic", level = 9 },
+  { class = "Shaman", level = 9 },
   { class = "Sorcerer", level = 9 },
   { class = "Witch", level = 9 },
   { class = "Wizard", level = 9 },
@@ -38,7 +39,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 9: Arcanist, Cleric, Oracle, Psychic, Sorcerer, Witch, Wizard
+Level: 9: Arcanist, Cleric, Oracle, Psychic, Shaman, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a flask of ectoplasmic residue)
 Range: 60 ft.

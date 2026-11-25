@@ -28,6 +28,7 @@ levels = [
   { class = "Skald", level = 4 },
   { class = "Sorcerer", level = 4 },
   { class = "Witch", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 round"
 components = "V, S"
@@ -35,7 +36,7 @@ range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
   { label = "Area", value = "several living creatures, no two of which may be more than 30 ft. apart" },
 ]
-duration = "2d4 rounds (D)"
+duration = "10 minutes/level (D)"
 saving_throw = "Will negates"
 spell_resistance = "yes"
 +++
@@ -43,12 +44,12 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 4: Arcanist, Bard, Mesmerist, Occultist, Psychic, Skald, Sorcerer, Witch
+Level: 4: Arcanist, Bard, Mesmerist, Occultist, Psychic, Skald, Sorcerer, Witch, Wizard
 Casting time: 1 round
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
 Area: several living creatures, no two of which may be more than 30 ft. apart
-Duration: 2d4 rounds (D)
+Duration: 10 minutes/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Subschool: Compulsion

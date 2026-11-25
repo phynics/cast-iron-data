@@ -20,7 +20,7 @@ levels = [
   { class = "Wizard", level = 2 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M (a shread of raw meat and a splinter of bone)"
+components = "V, S, M (a shred of raw meat and a splinter of bone)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
   { label = "Targets", value = "one undead creature" },
@@ -35,7 +35,7 @@ title = "Spell statistics"
 School: necromancy
 Level: 2: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
-Components: V, S, M (a shread of raw meat and a splinter of bone)
+Components: V, S, M (a shred of raw meat and a splinter of bone)
 Range: close (25 ft. + 5 ft./2 levels)
 Duration: 1 day/level
 Saving throw: Will negates; see text

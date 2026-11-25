@@ -16,6 +16,7 @@ kind = "spell"
 school = "evocation"
 levels = [
   { class = "Arcanist", level = 4 },
+  { class = "Occultist", level = 3 },
   { class = "Sorcerer", level = 4 },
   { class = "Wizard", level = 4 },
 ]
@@ -33,7 +34,8 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 4: Arcanist, Sorcerer, Wizard
+Level: 3: Occultist\
+4: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, F (one ioun stone worth at least 1,000 gp)
 Range: personal

@@ -19,6 +19,7 @@ kind = "spell"
 school = "abjuration"
 descriptors = ["evil"]
 levels = [
+  { class = "Antipaladin", level = 3 },
   { class = "Arcanist", level = 3 },
   { class = "Cleric", level = 3 },
   { class = "Inquisitor", level = 3 },
@@ -47,7 +48,7 @@ spell_resistance = "no; see text"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 3: Arcanist, Cleric, Inquisitor, Medium, Occultist, Oracle, Shaman, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Warpriest, Wizard
+Level: 3: Antipaladin, Arcanist, Cleric, Inquisitor, Medium, Occultist, Oracle, Shaman, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Warpriest, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (a 3-ft.-diameter circle of powdered silver)
 Range: touch

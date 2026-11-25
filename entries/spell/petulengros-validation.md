@@ -18,6 +18,8 @@ levels = [
   { class = "Alchemist", level = 1 },
   { class = "Inquisitor", level = 1 },
   { class = "Investigator", level = 1 },
+  { class = "Sorcerer", level = 1 },
+  { class = "Wizard", level = 1 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a bit of hair, a fingernail, or a similar portion of a creature)"
@@ -33,7 +35,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 1: Alchemist, Inquisitor, Investigator
+Level: 1: Alchemist, Inquisitor, Investigator, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a bit of hair, a fingernail, or a similar portion of a creature)
 Range: touch

@@ -31,7 +31,7 @@ range = "personal"
 effects = [
   { label = "Area", value = "30 ft.-radius emanation centered on you" },
 ]
-duration = "concentrationplus 1 round/level, up to 1 hour/level"
+duration = "concentration plus 1 round/level, up to 1 hour/level"
 saving_throw = "Will negates"
 spell_resistance = "yes"
 +++
@@ -45,7 +45,7 @@ Level: 3: Medium\
 Casting time: 1 standard action
 Components: V, S, F (a ceremonial dagger)
 Range: personal
-Duration: concentrationplus 1 round/level, up to 1 hour/level
+Duration: concentration plus 1 round/level, up to 1 hour/level
 Saving throw: Will negates
 Spell resistance: yes
 Area: 30 ft.-radius emanation centered on you

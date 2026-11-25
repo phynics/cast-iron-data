@@ -32811,6 +32811,11 @@ target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-
 basis = "shared"
 
 [[entries]]
+old = "ref/eq-weapon/combat-scabbard"
+target = "ref/eq-misc/combat-scabbard"
+basis = "shared"
+
+[[entries]]
 old = "ref/eq-weapon/gunsmiths-kit"
 target = "ref/eq-misc/gunsmiths-kit"
 basis = "shared"

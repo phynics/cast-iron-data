@@ -24,6 +24,7 @@ levels = [
   { class = "Druid", level = 6 },
   { class = "Hunter", level = 6 },
   { class = "Occultist", level = 6 },
+  { class = "Oracle", level = 6 },
   { class = "Psychic", level = 6 },
   { class = "Sorcerer", level = 5 },
   { class = "Summoner", level = 5 },
@@ -46,7 +47,7 @@ spell_resistance = "no"
 title = "Spell statistics"
 School: conjuration
 Level: 5: Arcanist, Sorcerer, Summoner, Unchained Summoner, Wizard\
-6: Cleric, Druid, Hunter, Occultist, Psychic, Warpriest
+6: Cleric, Druid, Hunter, Occultist, Oracle, Psychic, Warpriest
 Casting time: 1 standard action
 Components: V, S, M (powered diamond dust worth 10 gp)
 Range: medium (100 ft. + 10 ft./level)

@@ -1099,6 +1099,7 @@ faction-guide	ref/eq-armorenh/vitalguard	item	Vitalguard	2	2	review	absent	55	ro
 faction-guide	ref/eq-weapon/darkflare	item	Darkflare	2	2	review	absent	55	row	0								keep	55	page-confirmed	single-entry	done			yes		no	
 faction-guide	ref/trait/greater-adept-of-the-society	trait	Greater Adept of the Society	2	2	review	printed	63	row	0								keep	63	title-on-cited-page	single-entry	S0			yes		yes	
 faiths-and-philosophies	ref/feat/polytheistic-blessing	feat	Polytheistic Blessing	2	2	review	absent	21	row	0								keep	21	printed-under-former-title	single-entry	done			yes		no	
+faiths-and-philosophies	ref/spell/signs-of-the-land	spell	Signs of the Land	2	2	review	absent	29	row	0								remove	none	whole-book-absent	single-entry	done			yes			
 faiths-and-philosophies	ref/trait/traditionalist	trait	Traditionalist	2	2	weak	weak	inside cover	row	1	2							keep	inside cover	page-confirmed	single-entry	done			yes			
 faiths-of-balance	ref/trait/arcane-depth	trait	Arcane Depth	2	2	review	printed	15	row	0								keep	15	title-on-cited-page	single-entry	S0			yes		yes	
 faiths-of-balance	ref/trait/iron-grip	trait	Iron Grip	2	2	review	printed	9	row	0								keep	9	title-on-cited-page	single-entry	S0			yes		yes	

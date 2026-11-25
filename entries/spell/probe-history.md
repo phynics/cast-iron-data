@@ -19,6 +19,9 @@ levels = [
   { class = "Bard", level = 3 },
   { class = "Cleric", level = 4 },
   { class = "Inquisitor", level = 4 },
+  { class = "Medium", level = 2 },
+  { class = "Mesmerist", level = 3 },
+  { class = "Occultist", level = 3 },
   { class = "Oracle", level = 4 },
   { class = "Skald", level = 3 },
   { class = "Sorcerer", level = 4 },
@@ -39,7 +42,8 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 3: Bard, Skald\
+Level: 2: Medium\
+3: Bard, Mesmerist, Occultist, Skald\
 4: Arcanist, Cleric, Inquisitor, Oracle, Sorcerer, Warpriest, Wizard
 Casting time: 1 round
 Components: V, S, DF

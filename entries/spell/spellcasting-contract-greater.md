@@ -19,6 +19,7 @@ kind = "spell"
 school = "evocation"
 levels = [
   { class = "Cleric", level = 9 },
+  { class = "Oracle", level = 9 },
 ]
 casting_time = "10 minutes"
 components = "V, S, DF"
@@ -34,7 +35,7 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 9: Cleric
+Level: 9: Cleric, Oracle
 Casting time: 10 minutes
 Components: V, S, DF
 Range: touch

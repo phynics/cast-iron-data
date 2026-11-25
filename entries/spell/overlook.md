@@ -18,6 +18,8 @@ subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Bard", level = 3 },
+  { class = "Mesmerist", level = 3 },
+  { class = "Psychic", level = 4 },
   { class = "Skald", level = 3 },
 ]
 casting_time = "1 standard action"
@@ -34,7 +36,8 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 3: Bard, Skald
+Level: 3: Bard, Mesmerist, Skald\
+4: Psychic
 Casting time: 1 standard action
 Components: V, S
 Range: personal

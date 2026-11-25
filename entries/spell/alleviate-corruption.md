@@ -17,6 +17,7 @@ school = "abjuration"
 levels = [
   { class = "Cleric", level = 6 },
   { class = "Occultist", level = 6 },
+  { class = "Oracle", level = 6 },
   { class = "Psychic", level = 6 },
   { class = "Shaman", level = 6 },
   { class = "Spiritualist", level = 6 },
@@ -37,7 +38,7 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 6: Cleric, Occultist, Psychic, Shaman, Spiritualist, Warpriest, Witch
+Level: 6: Cleric, Occultist, Oracle, Psychic, Shaman, Spiritualist, Warpriest, Witch
 Casting time: 1 minute
 Components: V, S, M (rare herbs, incense, and jewels worth 500 gp/the target's character level or HD)
 Range: touch

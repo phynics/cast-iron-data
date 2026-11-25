@@ -20,6 +20,7 @@ levels = [
   { class = "Cleric", level = 1 },
   { class = "Inquisitor", level = 1 },
   { class = "Investigator", level = 1 },
+  { class = "Occultist", level = 1 },
   { class = "Oracle", level = 1 },
   { class = "Sorcerer", level = 1 },
   { class = "Warpriest", level = 1 },
@@ -39,7 +40,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 1: Alchemist, Arcanist, Cleric, Inquisitor, Investigator, Oracle, Sorcerer, Warpriest, Wizard
+Level: 1: Alchemist, Arcanist, Cleric, Inquisitor, Investigator, Occultist, Oracle, Sorcerer, Warpriest, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (a miniature magnifying glass or spectacles)
 Range: personal

@@ -21,6 +21,7 @@ levels = [
   { class = "Oracle", level = 3 },
   { class = "Sorcerer", level = 3 },
   { class = "Warpriest", level = 3 },
+  { class = "Witch", level = 3 },
   { class = "Wizard", level = 3 },
 ]
 casting_time = "1 minute"
@@ -37,7 +38,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 3: Arcanist, Cleric, Inquisitor, Oracle, Sorcerer, Warpriest, Wizard
+Level: 3: Arcanist, Cleric, Inquisitor, Oracle, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 minute
 Components: V, S
 Range: personal

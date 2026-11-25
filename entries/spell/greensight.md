@@ -21,6 +21,7 @@ levels = [
   { class = "Arcanist", level = 2 },
   { class = "Druid", level = 2 },
   { class = "Hunter", level = 2 },
+  { class = "Ranger", level = 2 },
   { class = "Shaman", level = 2 },
   { class = "Sorcerer", level = 2 },
   { class = "Wizard", level = 2 },
@@ -39,7 +40,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Arcanist, Druid, Hunter, Shaman, Sorcerer, Wizard
+Level: 2: Arcanist, Druid, Hunter, Ranger, Shaman, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a leaf)
 Range: touch

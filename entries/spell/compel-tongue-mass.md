@@ -23,6 +23,8 @@ levels = [
   { class = "Cleric", level = 5 },
   { class = "Druid", level = 5 },
   { class = "Hunter", level = 5 },
+  { class = "Medium", level = 4 },
+  { class = "Mesmerist", level = 4 },
   { class = "Oracle", level = 5 },
   { class = "Skald", level = 4 },
   { class = "Sorcerer", level = 5 },
@@ -44,7 +46,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 4: Bard, Skald\
+Level: 4: Bard, Medium, Mesmerist, Skald\
 5: Arcanist, Cleric, Druid, Hunter, Oracle, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a wooden block carved with a letter)

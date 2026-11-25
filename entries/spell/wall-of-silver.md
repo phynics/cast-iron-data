@@ -32,7 +32,7 @@ range = "medium (100 ft. + 10 ft./level)"
 effects = [
   { label = "Effect", value = "transparent wall 20 ft. high by up to 20 ft. long/level" },
 ]
-duration = "1 round/leve"
+duration = "1 round/level"
 saving_throw = "see text"
 spell_resistance = "yes"
 +++
@@ -45,7 +45,7 @@ Level: 5: Bard, Inquisitor, Skald\
 Casting time: 1 standard action
 Components: V, S
 Range: medium (100 ft. + 10 ft./level)
-Duration: 1 round/leve
+Duration: 1 round/level
 Saving throw: see text
 Spell resistance: yes
 Effect: transparent wall 20 ft. high by up to 20 ft. long/level
