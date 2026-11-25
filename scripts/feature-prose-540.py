@@ -104,6 +104,7 @@ PRINTINGS = {
     "ultimate-intrigue": "Ultimate Intrigue, 1st printing",
     "ultimate-wilderness": "Ultimate Wilderness, 1st printing",
     "adventurers-guide": "Adventurer's Guide, 1st printing",
+    "blood-of-the-ancients": "Blood of the Ancients, 2018 (the owner's copy states no printing)",
 }
 ROOT = HERE.parent
 FORGET_CHECKER_HOLDS = False
@@ -609,6 +610,7 @@ class Book:
     printed: dict[int, int]                              # pdf page -> printed page
     vocab: set[str]
     sans: frozenset = frozenset()                        # the font ids of the sans-serif type that sets a table
+    fams: dict = field(default_factory=dict)             # font id -> family, without the subset prefix
 
 
 SUPERSCRIPT_MARK = re.compile(r"([a-z]*)(?:APG|UM|UC|UE|UI|ARG|ACG|OA|ISM|B[2-6]|†)")
@@ -659,7 +661,8 @@ def load_book(xml_path: Path) -> Book:
         BODY_TOP = (BODY_TOP[0], foot[len(foot) // 2] - 9)
     vocab = {w for w, _ in words.items()}
     sans = frozenset(fid for fid, _sz, fam, _col in FONT_EL.findall(xml) if "Sans" in fam)
-    return Book(fonts, pages, printed, vocab, sans)
+    fams = {fid: re.sub(r"^[A-Z]{6}\+", "", fam) for fid, _sz, fam, _col in FONT_EL.findall(xml)}
+    return Book(fonts, pages, printed, vocab, sans, fams)
 
 
 def page_lines(book: Book, num: int) -> list[dict]:
@@ -673,11 +676,15 @@ def page_lines(book: Book, num: int) -> list[dict]:
     for col in (0, 1):
         cur: list[dict] = []
         for top, left, font, raw, width in sorted(by_col[col], key=lambda x: (x[0], x[1])):
-            if cur and abs(cur[-1]["top"] - top) <= 4:
+            # a title in small capitals sets its capitals and its small capitals 5 units apart (Blood of the Ancients): the
+            # same family of type, a larger size above
+            if cur and (abs(cur[-1]["top"] - top) <= 4 or (SMALL_CAP_TITLES["on"] and abs(cur[-1]["top"] - top) <= 6
+                                                           and cur[-1]["size"] >= 16 and book.fams.get(str(font)) == cur[-1]["fam"])):
                 cur[-1]["parts"].append((left, raw, width))
                 cur[-1]["size"] = max(cur[-1]["size"], book.fonts[str(font)])
             else:
-                cur.append({"col": col, "top": top, "size": book.fonts[str(font)], "parts": [(left, raw, width)]})
+                cur.append({"col": col, "top": top, "size": book.fonts[str(font)], "parts": [(left, raw, width)],
+                            "fam": book.fams.get(str(font))})
         for ln in cur:
             ln["parts"].sort()
             ends_in_sup = ln["parts"][-1][1].startswith(SUPERSCRIPT)
@@ -724,6 +731,7 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
     """Paragraphs and titles of the PDF pages `first`..`last`, columns in reading order."""
     out: list[Para] = []
     insets: dict[int, int | None] = {}
+    seen_big: list[str] = []
     for num in range(first, last + 1):
         if num not in book.pages:
             continue
@@ -739,6 +747,13 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
                 two = nxt is not None and nxt["col"] == ln["col"] and nxt["size"] >= 16 and CLASS_SUFFIX.search("".join(t for t, _, _ in nxt["runs"]))
                 if not CLASS_SUFFIX.search(ttl) and not two and squash(ttl) != "newracialrules":
                     continue
+            if SMALL_CAP_TITLES["on"] and ln["size"] >= 60:
+                # a chapter title that the page repeats unseen (Blood of the Ancients p. 21: "Imperial Lung Wa" again, in a
+                # clipped object over the first lines of the column): it is not a title, and it must not end the section
+                big = squash("".join(t for t, _, _ in ln["runs"]))
+                if any(len(b) >= 4 and (big.startswith(b) or b.startswith(big)) for b in seen_big):
+                    continue
+                seen_big.append(big)
             if ln["size"] >= 16:
                 insets[ln["col"]] = ln["left"] if indent >= 8 else None
                 if out and out[-1].kind == "title" and out[-1].col == ln["col"] and out[-1].page == shown:
@@ -804,6 +819,12 @@ UNTYPED_ARCHETYPE_TITLES = {squash(x) for x in ("Totem Warrior", "Animal Shamans
 SECTION_STOP = re.compile(r"^(?:AFFILIATION\b|.*\bAFFILIATION$|EQUIPMENT\b|FEATS?\b|MAGIC ITEMS?\b|SPELLS?$|CLASS OPTIONS?\b|"
                           r"VIGILANTE CLASS OPTION|INVESTIGATOR TALENTS|[A-Z]+ (?:EQUIPMENT|FEATS|MAGIC ITEMS?|SPELLS?)$)")
 SECTION_STOPS = {"on": False}
+# Blood of the Ancients: no archetype holds a box or a heading of its own, and what follows each one (a spell, a feat, a trait, an
+# item of the chapter) has a title of its own: any title ends the section.
+ANY_TITLE_ENDS = {"on": False}
+# Blood of the Ancients sets its titles in small capitals (a capital and its small capitals sit 5 units apart in one family of type), and
+# a chapter title that a page repeats unseen over the first lines of a column. Other books read as before.
+SMALL_CAP_TITLES = {"on": False}
 
 # A title with a parenthesized type that does not end the section: the box of rules that the archetype uses (owner ruling 41;
 # Elemental Aspects of the Elementalist Shifter, Ultimate Wilderness pp. 78-80, "(Elementalist Shifter Aspects)")
@@ -829,7 +850,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                     k = squash(nxt.plain())
                     # another archetype, a class, a chapter title (a larger font) or a title of a type of rules ends the
                     # section; so does the "NEW RACIAL RULES" title that follows the archetypes of a race chapter
-                    if (stops is None or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
+                    if (stops is None or ANY_TITLE_ENDS["on"] or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
                             or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
                             or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
                         break
@@ -2502,6 +2523,9 @@ TRADE_RENAMES = {
     ('ref/arc-swashbuckler/dashing-thief', 'Menacing swordplay'): 'Menacing swordplay deed',
     ('ref/arc-swashbuckler/dashing-thief', 'Dizzying defense'): 'Dizzying defense deed',
     ('ref/arc-fighter/skirmisher', '2nd level fighter bonus feat'): 'Bonus feat the fighter normally receives at 2nd level',
+    # Blood of the Ancients (ruling 22: the stored name is the printed wording)
+    ("ref/arc-investigator/antiquarian", "Alchemy (including Extracts)"): "Alchemy",
+    ("ref/arc-wizard/arcane-warden", "5th-, 10th-, 15th-, and 20th-level bonus feats"): "The bonus feats gained at 5th, 10th, 15th, and 20th levels",
 }
 
 
@@ -2543,6 +2567,7 @@ TRADE_OP_FIXES = {
     ("ref/arc-investigator/majordomo", "swift alchemy"): "replaces",
     ("ref/arc-skald/battle-scion", "Bardic knowledge"): "alters",
     ("ref/arc-skald/battle-scion", "Rage power"): "alters",
+    ("ref/arc-kineticist/ioun-kineticist", "Basic telekinesis utility wild talent granted by the aether element"): "replaces",   # Blood of the Ancients p. 12: "This replaces the basic telekinesis utility wild talent ..."
 }
 
 
@@ -2569,6 +2594,9 @@ TRADE_ADDITIONS = {
     "ref/arc-druid/dinosaur-druid": [{"alters": "Spontaneous casting", "feature": "spontaneous-casting"}],
     "ref/arc-summoner/leshy-caller": [{"alters": "Eidolon", "feature": "eidolon"}],
     "ref/arc-unchained-summoner/leshy-caller": [{"alters": "Eidolon", "feature": "eidolon"}],
+    # Blood of the Ancients: "This replaces poison resistance and poison immunity." (Antiquarian, Curse Resistance)
+    "ref/arc-investigator/antiquarian": [{"replaces": "Poison resistance and poison immunity", "feature": "poison-resistance"}],
+    "ref/arc-wizard/arcane-warden": [{"alters": "Class skills"}],       # "This alters the wizard's class skills." (Universal Magic)
 }
 
 
@@ -3023,14 +3051,21 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             "opening_from_print": opening_from_print}
 
 
-def run_compare(args) -> int:
-    corpus = Path(args.corpus).resolve()
-    book = args.book
-    title = publication_title(corpus, book)
+def configure_book(book: str) -> None:
+    """The layout switches of a book (the leaf tool `feature-prose-540-leaves.py` sets the same ones)."""
     ERRATA_CTX["book"] = book
     SKIP_TABLES["on"] = book == "advanced-race-guide"
     ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness")
+    ANY_TITLE_ENDS["on"] = book in ("blood-of-the-ancients",)
+    SMALL_CAP_TITLES["on"] = book in ("blood-of-the-ancients",)
+
+
+def run_compare(args) -> int:
+    corpus = Path(args.corpus).resolve()
+    book = args.book
+    title = publication_title(corpus, book)
+    configure_book(book)
     pdf = find_pdf(Path(args.books), title)
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
@@ -3638,6 +3673,31 @@ def self_test() -> int:
     text, _, notes = print_md(pf, [], set(), "ref/arc-monk/black-asp")
     eq(text, "Items (as if he had cast greater magic aura; see page 219) and and end.", "a citation with words stays, a bare one goes")
     eq(is_scaffold("Weapon and Armor Proficiencies") and is_scaffold("Class Skills") and is_scaffold("Skill Ranks per Level"), True, "scaffold variants")
+    # Blood of the Ancients: a title in small capitals sets a capital (size 18, top 469) and its small capitals (size 13, top 474) in one family
+    cap = Book({"5": 18, "6": 13, "28": 13}, {1: [(469, 108, 5, "a", 13), (474, 122, 6, "erial", 43), (469, 165, 5, " a", 18), (474, 184, 6, "ssaulter", 71),
+                                                  (492, 108, 28, "Body text starts here.", 200), (498, 400, 28, "x", 10)]}, {}, set(), fams={"5": "Didot", "6": "Didot", "28": "Nexus"})
+    SMALL_CAP_TITLES["on"] = True
+    got = ["".join(t for t, _, _ in ln["runs"]) for ln in page_lines(cap, 1)]
+    SMALL_CAP_TITLES["on"] = False
+    got_off = ["".join(t for t, _, _ in ln["runs"]) for ln in page_lines(cap, 1)]
+    eq(got[0], "aerial assaulter", "a small-capital title is one line (the capital and its small capitals are 5 units apart)")
+    eq(len(got_off), 4, "other books keep the tolerance of 4 units")
+    # a chapter title that a page repeats unseen is not a title, and does not end the section
+    big = Book({"7": 63, "28": 13}, {1: [(91, 108, 7, "mperiAlung", 200), (150, 108, 28, "Text of the first page.", 200)],
+                                      2: [(91, 108, 7, "mperiAlungA", 200), (96, 150, 28, "maneuver against the enemy", 200)]}, {1: 20, 2: 21}, set(),
+               fams={"7": "First-Order", "28": "Nexus"})
+    SMALL_CAP_TITLES["on"] = True
+    on_kinds = [b.kind for b in read_blocks(big, 1, 2)]
+    SMALL_CAP_TITLES["on"] = False
+    off_kinds = [b.kind for b in read_blocks(big, 1, 2)]
+    eq((on_kinds, off_kinds), (["title", "para", "para"], ["title", "para", "title", "para"]), "a repeated chapter title is dropped")
+    # in that book any title ends the section of an archetype
+    ANY_TITLE_ENDS["on"] = True
+    blocks = [Para("title", [("Aerial Assaulter (Fighter Archetype)", True, False)], 1, 0, 18), Para("para", [("Text.", False, False)], 1, 0),
+              Para("title", [("Shory Runes", True, False)], 1, 0, 18), Para("para", [("Spells.", False, False)], 1, 0)]
+    eq(len(find_section(blocks, "Aerial Assaulter", {"x"}) or []), 2, "any title ends the section")
+    ANY_TITLE_ENDS["on"] = False
+    eq(len(find_section(blocks, "Aerial Assaulter", {"x"}) or []), 4, "a sidebar title stays in the section of other books")
     eq(join_wrapped(["the vox's mesmerist spells use both", "thought and verbal components. Next."], set()), ["the vox's mesmerist spells use both thought and verbal components. Next."], "wrapped sidebar lines join")
     # ruling 11: the Special column of the class table, with its suffixes, never a spell-slot or fast-movement column
     import tempfile
@@ -3778,7 +3838,7 @@ def main() -> int:
         corpus = Path(args.corpus).resolve()
         books = [args.book] if args.book else sorted(
             p.name[len("feature-prose-540-"):-len(".tsv")] for p in (corpus / "scripts").glob("feature-prose-540-*.tsv")
-            if not p.name.endswith(".decisions.tsv"))
+            if not p.name.endswith((".decisions.tsv", ".queue.tsv")))
         status = 0
         for b in books:
             args.book = b
