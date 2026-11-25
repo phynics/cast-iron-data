@@ -20,9 +20,7 @@ table: one row per sheet row. Columns:
                   `present`: print confirms the row, and the entry already had it when the table
                   was made (an earlier change added it, or the sheet comparison did not see it);
                   `reject`: print does not give the class that level (`book` and `page` are the
-                  place that was read, `basis` says what it holds);
-                  `held-322`: print confirms the row, but the entry is in the file set of the open
-                  pull request #322, so another change writes it
+                  place that was read, `basis` says what it holds.
     basis         what the evidence is: the spell's own level line, a class spell list, or the rule
                   of the hunter list
 
@@ -47,7 +45,7 @@ import tempfile
 from pathlib import Path
 
 COLUMNS = ["entry", "spell", "class", "sheet_level", "printed_level", "book", "page", "decision", "basis"]
-DECISIONS = ("add", "present", "reject", "held-322")
+DECISIONS = ("add", "present", "reject")
 TSV = Path("scripts") / "spell-levels-284.tsv"
 LEVELS_RE = re.compile(r"^levels = \[\n(.*?)\n\]\n", re.S | re.M)
 ROW_RE = re.compile(r'^  \{ class = "([^"]+)", level = (\d+) \},?$')

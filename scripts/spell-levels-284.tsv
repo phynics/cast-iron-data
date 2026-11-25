@@ -39,7 +39,7 @@ ref/spell/compel-tongue-mass	Mass Compel Tongue	mesmerist	4	4	black-markets	24	a
 ref/spell/confusion-lesser	Confusion, Lesser	medium	1	1	occult-adventures	37	present	medium spell list
 ref/spell/confusion-lesser	Confusion, Lesser	mesmerist	1	1	occult-adventures	45	present	mesmerist spell list
 ref/spell/confusion-lesser	Confusion, Lesser	psychic	1	1	occult-adventures	69	present	psychic spell list
-ref/spell/contact-high	Contact High	mesmerist	3	3	black-markets	19	held-322	the spell's own level line
+ref/spell/contact-high	Contact High	mesmerist	3	3	black-markets	19	present	the spell's own level line
 ref/spell/covetous-aura	Covetous Aura	bard	5	5	inner-sea-world-guide	294	add	the spell's own level line
 ref/spell/create-demiplane	Create Demiplane	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Ultimate Magic p. 213) gives summoner 6
 ref/spell/curse-of-keeping	Curse of Keeping	mesmerist	2	2	black-markets	30	add	the spell's own level line
@@ -104,7 +104,7 @@ ref/spell/hold-person-mass	Hold Person, Mass	mesmerist	6	6	occult-adventures	45	
 ref/spell/hold-person-mass	Hold Person, Mass	psychic	7	7	occult-adventures	71	present	psychic spell list
 ref/spell/hostile-juxtaposition-greater	Greater Hostile Juxtaposition	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list
 ref/spell/human-potential-mass	Mass Human Potential	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Arcane Anthology p. 9) gives summoner 6
-ref/spell/hypnotism-greater	Greater Hypnotism	wizard	4	4	blood-of-the-beast	19	held-322	the spell's own level line
+ref/spell/hypnotism-greater	Greater Hypnotism	wizard	4	4	blood-of-the-beast	19	add	the spell's own level line
 ref/spell/imbue-with-addiction	Imbue With Addiction	mesmerist	3	3	black-markets	19	add	the spell's own level line
 ref/spell/impenetrable-veil	Impenetrable Veil	witch	9	9	magic-tactics-toolbox	25	add	the spell's own level line
 ref/spell/incendiary-cloud	Incendiary Cloud	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 300) does not list the unchained summoner
