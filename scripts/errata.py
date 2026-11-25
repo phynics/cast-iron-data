@@ -50,6 +50,7 @@ TSV = Path("scripts") / "errata.tsv"
 def norm_text(s: str) -> str:
     """The form in which a value and an entry are compared."""
     s = unicodedata.normalize("NFC", s)
+    s = re.sub(r"\\([\\`*_{}\[\]()#+.!-])", r"\1", s)  # Markdown backslash escapes
     s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)
     s = s.replace("*", "").replace("_", "")
     s = s.translate(str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"',
@@ -162,6 +163,7 @@ def self_test() -> int:
             print(f"FAIL {what}: got {got!r}, want {want!r}")
 
     eq(norm_text("A [bull rush](ref/rule/bull-rush) of\n  _the_ **bard’s** – x"), "a bull rush of the bard's - x", "norm_text")
+    eq(norm_text(r"Disarming Threat\*, an asterisk \[\*\] key"), norm_text("Disarming Threat*, an asterisk [*] key"), "norm_text drops Markdown escapes")
     eq(sha("a  b\n c") == sha("a b c"), True, "sha ignores white space runs")
     with tempfile.TemporaryDirectory() as d:
         root = Path(d)
