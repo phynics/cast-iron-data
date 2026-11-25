@@ -22,9 +22,9 @@ features = [
   { anchor = "greater-reprieve", level = 12 },
 ]
 trades = [
-  { replaces = "6th-level mercy", feature = "mercy", levels = [6], by = ["reprieve"] },
+  { replaces = "Mercy gained at 6th level", feature = "mercy", levels = [6], by = ["reprieve"] },
   { replaces = "Aura of justice", feature = "aura-of-justice", by = ["sacred-soul"] },
-  { replaces = "12th-level mercy", feature = "mercy", levels = [12], by = ["greater-reprieve"] },
+  { replaces = "Mercy gained at 12th level", feature = "mercy", levels = [12], by = ["greater-reprieve"] },
 ]
 +++
 

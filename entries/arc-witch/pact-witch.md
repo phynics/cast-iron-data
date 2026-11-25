@@ -22,7 +22,7 @@ features = [
 ]
 trades = [
   { replaces = "Patron", feature = "patron-spells", power = "patron", by = ["planar-pact"] },
-  { replaces = "6th-level hex", feature = "hex", levels = [6], by = ["planar-familiar"] },
+  { replaces = "Hex normally gained at 6th level", feature = "hex", levels = [6], by = ["planar-familiar"] },
   { alters = "Familiar", feature = "witch-s-familiar", by = ["planar-familiar"] },
 ]
 +++

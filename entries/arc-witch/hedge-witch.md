@@ -22,8 +22,8 @@ features = [
   { anchor = "empathic-healing", level = 8 },
 ]
 trades = [
-  { replaces = "4th-level hex", feature = "hex", levels = [4], by = ["spontaneous-healing"] },
-  { replaces = "8th-level hex", feature = "hex", levels = [8], by = ["empathic-healing"] },
+  { replaces = "Witch's hex gained at 4th level", feature = "hex", levels = [4], by = ["spontaneous-healing"] },
+  { replaces = "Witch's hex gained at 8th level", feature = "hex", levels = [8], by = ["empathic-healing"] },
 ]
 +++
 

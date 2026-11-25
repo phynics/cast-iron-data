@@ -27,9 +27,9 @@ features = [
 trades = [
   { replaces = "Familiar", feature = "witch-s-familiar", by = ["spell-poppet"] },
   { replaces = "1st-level hex", feature = "hex", levels = [1], by = ["aura-of-desecration"] },
-  { replaces = "4th-level hex", feature = "hex", levels = [4], by = ["bonethrall"] },
-  { replaces = "8th-level hex", feature = "hex", levels = [8], by = ["possess-undead"] },
-  { alters = "Patron spells", feature = "patron-spells", by = ["spells"] },
+  { replaces = "Witch's hex gained at 4th level", feature = "hex", levels = [4], by = ["bonethrall"] },
+  { replaces = "Witch's hex gained at 8th level", feature = "hex", levels = [8], by = ["possess-undead"] },
+  { replaces = "Patron spells", feature = "patron-spells", by = ["spells"] },
 ]
 +++
 
