@@ -57478,11 +57478,6 @@ entries = ["ref/domain/trickery"]
 reason = "The Trickery domain now ships as `ref/domain/trickery`. The converter rejected it because it failed on the inline `@list` directive and the `::clear` directive; the entry is now written in the corpus format. Refs phynics/cast-iron-data#103."
 
 [[resolved]]
-path = "json/feat11.json#pantheistic_blessing"
-entries = ["ref/feat/pantheistic-blessing"]
-reason = "Pantheistic Blessing now ships as `ref/feat/pantheistic-blessing`, written from Faiths and Philosophies p. 21 in the corpus format (the converter rejected the pantheon sections for the unknown attribute `extra` on `::h4`). Refs phynics/cast-iron-data#285."
-
-[[resolved]]
 path = "json/main04.json#traits_exemplar"
 entries = ["ref/trait/artist-of-battle-in-all-forms", "ref/trait/faith-unshakable-and-unassailable", "ref/trait/charming-smile-cunning-soul", "ref/trait/curator-of-mystic-secrets", "ref/trait/traveler-of-a-hundred-lands"]
 reason = "The five exemplar traits of Chronicle of Legends pp. 2-3 now ship as their own trait entries, written from print in the corpus format (the converter rejected the `traits_exemplar` page for unsupported directives). Refs phynics/cast-iron-data#285."
