@@ -155,7 +155,7 @@ strix favored class options that no entry holds, so the hub gets an `[[expanded_
 by `expansion-credits-apply.py`). `membership-verdicts-461-s12.py` writes the credit action for an `expands` row. Only the blog post of the Golarion Day subdomains is still
 `unverified-no-pdf`. The Conditional Curse removal of its first book (Core Rulebook) is recorded in `-s12b.tsv`
 and applied after the first file, because the new first book (Ultimate Intrigue) must be second in `source_ids` when
-`membership-apply.py` checks the row.
+`membership-apply.py` checks the row. The Bubonic Plague of the daughter of Urgathoa, which Pathfinder #8 does not print (found by the print recheck of #215), is recorded in `-s12c.tsv` (run `membership-verdicts-461-s12.py --verdicts scripts/membership-verdicts-461-s12c.tsv`, then `membership-apply.py`); the Sea Urchin Venom of Pathfinder #56 is not, because that book is the entry's only one.
 
 After S12 the warning is 1 (Gamemastery in the GameMastery Guide, which stays until phynics/cast-iron-data#277). An app PR then turns it into an error, and the issue closes when every
 row of the queue has a verdict (figurines and page rows included).
