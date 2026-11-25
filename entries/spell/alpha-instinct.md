@@ -24,7 +24,7 @@ levels = [
   { class = "Mesmerist", level = 3 },
   { class = "Ranger", level = 2 },
   { class = "Shaman", level = 2 },
-  { class = "Skald", level = 2 },
+  { class = "Skald", level = 3 },
 ]
 casting_time = "10 minutes"
 components = "V, S, M (a bit of musk from an alpha wolf or another socially dominant animal)"
@@ -40,8 +40,8 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 2: Druid, Hunter, Medium, Ranger, Shaman, Skald\
-3: Bard, Mesmerist
+Level: 2: Druid, Hunter, Medium, Ranger, Shaman\
+3: Bard, Mesmerist, Skald
 Casting time: 10 minutes
 Components: V, S, M (a bit of musk from an alpha wolf or another socially dominant animal)
 Range: personal

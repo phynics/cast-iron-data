@@ -19,13 +19,9 @@ kind = "spell"
 school = "divination"
 levels = [
   { class = "Druid", level = 7 },
-  { class = "Hunter", level = 4 },
-  { class = "Psychic", level = 5 },
-  { class = "Ranger", level = 4 },
-  { class = "Shaman", level = 5 },
 ]
 casting_time = "1 hour"
-components = "V, S"
+components = "V, S, DF"
 range = "personal"
 effects = [
   { label = "Target", value = "you" },
@@ -38,11 +34,9 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 4: Hunter, Ranger\
-5: Psychic, Shaman\
-7: Druid
+Level: 7: Druid
 Casting time: 1 hour
-Components: V, S
+Components: V, S, DF
 Range: personal
 Duration: instantaneous
 Saving throw: none

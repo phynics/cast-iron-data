@@ -20,7 +20,6 @@ school = "evocation"
 levels = [
   { class = "Cleric", level = 7 },
   { class = "Oracle", level = 7 },
-  { class = "Warpriest", level = 5 },
 ]
 casting_time = "10 minutes"
 components = "V, S, DF"
@@ -36,8 +35,7 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 5: Warpriest\
-7: Cleric, Oracle
+Level: 7: Cleric, Oracle
 Casting time: 10 minutes
 Components: V, S, DF
 Range: touch

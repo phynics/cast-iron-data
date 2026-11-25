@@ -19,7 +19,6 @@ levels = [
   { class = "Cleric", level = 8 },
   { class = "Inquisitor", level = 6 },
   { class = "Oracle", level = 8 },
-  { class = "Warpriest", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -35,7 +34,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 6: Inquisitor, Warpriest\
+Level: 6: Inquisitor\
 8: Cleric, Oracle
 Casting time: 1 standard action
 Components: V, S

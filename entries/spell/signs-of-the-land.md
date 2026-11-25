@@ -3,7 +3,7 @@ id = "ref/spell/signs-of-the-land"
 kind = "spell"
 title = "Signs of the Land"
 aon = "SpellDisplay.aspx?ItemName=Signs%20of%20the%20Land"
-source_ids = ["ultimate-wilderness", "faiths-and-philosophies"]
+source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signs_of_the_land", path = "json/spells12.json" },
 ]
@@ -13,17 +13,13 @@ relations = [
 [[sources]]
 publication = "ultimate-wilderness"
 page = "235"
-[[sources]]
-publication = "faiths-and-philosophies"
-page = "29"
 
 [fields]
 kind = "spell"
 school = "divination"
 levels = [
   { class = "Druid", level = 3 },
-  { class = "Hunter", level = 4 },
-  { class = "Psychic", level = 5 },
+  { class = "Hunter", level = 3 },
   { class = "Ranger", level = 3 },
   { class = "Shaman", level = 3 },
 ]
@@ -41,9 +37,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 3: Druid, Ranger, Shaman\
-4: Hunter\
-5: Psychic
+Level: 3: Druid, Hunter, Ranger, Shaman
 Casting time: 10 minutes
 Components: V, S
 Range: personal
