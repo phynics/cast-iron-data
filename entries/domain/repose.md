@@ -14,6 +14,9 @@ page = "86, 96"
 publication = "champions-of-balance"
 page = "17"
 [[sources]]
+publication = "paizo-blog-golarion-day-subdomains"
+page = "1"
+[[sources]]
 publication = "haunted-heroes-handbook"
 page = "9"
 

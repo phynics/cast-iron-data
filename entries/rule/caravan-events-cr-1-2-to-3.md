@@ -8,6 +8,15 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-49-the-brinewall-legacy"
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "9, 11-12"
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "81"
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "83"
 
 [fields]
 kind = "none"

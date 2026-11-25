@@ -2,7 +2,7 @@
 id = "ref/tech-weapon/zero-grenade"
 kind = "item"
 title = "Grenade (zero grenade)"
-source_ids = ["technology-guide", "pathfinder-86-lords-of-rust"]
+source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zero_grenade", path = "json/equipment_tech_weapons.json" },
 ]

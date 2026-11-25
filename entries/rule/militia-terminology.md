@@ -2,7 +2,7 @@
 id = "ref/rule/militia-terminology"
 kind = "rule"
 title = "Militia Terminology"
-source_ids = ["lands-of-conflict", "ironfang-invasion-players-guide"]
+source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "militia_terminology", path = "json/rules_campaign_types01.json" },
 ]

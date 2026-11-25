@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "paizo-blog-golarion-day-subdomains", "advanced-p
 publication = "core-rulebook"
 page = "42"
 [[sources]]
+publication = "paizo-blog-golarion-day-subdomains"
+page = "1"
+[[sources]]
 publication = "advanced-players-guide"
 page = "94, 97"
 [[sources]]
