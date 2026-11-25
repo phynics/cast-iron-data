@@ -16,8 +16,13 @@ page = "71"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "nature-s-call" },
+  { anchor = "fey-eidolon" },
+  { anchor = "fey-eidolons" },
+]
 trades = [
-  { alters = "Summon monster", feature = "summon-monster-i" },
+  { alters = "Summon monster spell-like ability", feature = "summon-monster-i", by = ["nature-s-call"] },
 ]
 +++
 
@@ -26,68 +31,30 @@ their own domains on other planes. Fey callers are summoners whose voices reach 
 strange faerie realms and call forth the fey who dwell there. The touch of the fey makes the fey
 caller different from those summoners who call other outsiders to their sides as eidolons.
 
-**Gained class skills:** bluff, diplo, dis, kna, kp, sur
+## Class Skills {#class-skills}
 
-**Lost class skills:** ka, kd, ke, kg, kh, kl, kno, kr
+A fey caller adds Bluff, Diplomacy, Disguise, Knowledge (nature), Knowledge (planes), and Survival
+to his list of class skills, instead of all Knowledge skills.
 
-**Nature's Call**
+This alters the unchained summoner's class skills.
 
-**Alters:** Summon monster
+## Nature's Call {#nature-s-call}
 
-**Info:** Instead of summoning creatures from the summon monster list, the fey caller's _summoning_
-[spell-like ability](ref/umr/spell-like-abilities) summons creatures from the list for the
-[summon nature's ally](ref/spell/summon-natures-ally) spell of the same level. It still follows the
-other rules and restrictions for the summoner's _[summon monster](ref/spell/summon-monster)_
-spell-like ability.
+Instead of summoning creatures from the _[summon monster](ref/spell/summon-monster)_ list, the fey
+caller's summoning [spell-like ability](ref/umr/spell-like-abilities) summons creatures from the
+list for the _[summon nature's ally](ref/spell/summon-natures-ally) spell_ of the same level. It
+still follows the other rules and restrictions for the summoner's _summon monster_ spell-like
+ability.
 
-**Fey Eidolon**
+This ability alters the summoner's _summon monster_ spell-like ability.
 
-**Info:** A fey caller's eidolon is still an outsider, and its base statistics don't change, but it
-also counts as a [fey](ref/type/fey). A fey caller's eidolon has the new subtype below.
+## Fey Eidolon {#fey-eidolon}
 
-**Fey**
+A [fey](ref/type/fey) caller's eidolon is still an outsider, and its base statistics don't change,
+but it also counts as a fey. It has the following outsider type, instead of one of the types listed
+in _Pathfinder RPG Pathfinder Unchained_.
 
-**Action:** Description
-
-**At 12th Level:** Fey eidolons gain DR 5/cold iron. They also grow gossamer wings, gaining the
-[flight](ref/unchevolution/flight) evolution.
-
-**At 16th Level:** Fey eidolons gain the ability to use either
-[blindness/deafness](ref/spell/blindness-deafness), [detect thoughts](ref/spell/detect-thoughts),
-[glitterdust](ref/spell/glitterdust), [hideous laughter](ref/spell/hideous-laughter),
-[invisibility](ref/spell/invisibility) (self only), [minor image](ref/spell/minor-image),
-[mirror image](ref/spell/mirror-image), or [tongues](ref/spell/tongues) as a
-[spell-like ability](ref/umr/spell-like-abilities) three times per day. They also can select an
-additional spell-like ability from the 1st-level list or the 8th-level list.
-
-**At 20th Level:** Fey eidolons increase their DR to DR 10/cold iron. They gain the ability to use
-either [mass suggestion](ref/spell/suggestion-mass), [mislead](ref/spell/mislead),
-[programmed image](ref/spell/programmed-image), or [veil](ref/spell/veil) as a
-[spell-like ability](ref/umr/spell-like-abilities) once per day. They also can select an additional
-spell-like ability from the 1st-level list, the 8th-level list, or the 16th-level list.
-
-**At 4th Level:** Fey eidolons gain [woodland stride](ref/ability/woodland-stride) (as the druid
-ability).
-
-**At 8th Level:** Fey eidolons gain the ability to use either
-[charm person](ref/spell/charm-person), [entangle](ref/spell/entangle), [grease](ref/spell/grease),
-[silent image](ref/spell/silent-image), [obscuring mist](ref/spell/obscuring-mist), or
-[vanish](ref/spell/vanish) as a [spell-like ability](ref/umr/spell-like-abilities) three times per
-day, and they can select an additional spell-like ability from the 1st-level list.
-
-**Alignment:** Any. Fey eidolons don't have alignment subtypes.
-
-**Base Form:** Biped ([limbs](ref/unchevolution/limbs) \[arms\], limbs \[legs\]).
-
-**Base Evolutions:** Starting at 1st level, fey eidolons gain Acrobatics, Diplomacy, Disguise,
-Escape Artist, Knowledge (nature), Perform, Sleight of Hand, and Use Magic Device as class skills
-instead of those gained by most eidolons. They also gain the
-[low-light vision](ref/rule/low-light-vision) evolution, the [skilled](ref/unchevolution/skilled)
-evolution (selecting one class skill), and the ability to use either
-[dancing lights](ref/spell/dancing-lights), [detect magic](ref/spell/detect-magic),
-[ghost sound](ref/spell/ghost-sound), or [prestidigitation](ref/spell/prestidigitation) at will as a
-[spell-like ability](ref/umr/spell-like-abilities). Once the summoner selects this and any other
-spell-like abilities for his fey eidolon, the selection cannot be changed.
+## Fey Eidolons {#fey-eidolons}
 
 Fey eidolons are whimsical and mysterious creatures, prone to flights of fancy, odd compulsions, and
 alien humor. While some creatures from the faerie realms have truly unusual shapes, the ones close
@@ -95,9 +62,46 @@ enough to the human mind to serve as eidolons tend to look like idealized humano
 features that set them apart, such as pointed ears or gossamer wings.
 
 Fey eidolons usually choose to bond with mortals for their own mysterious reasons that vary as much
-as their disparate temperaments; occasionally, their need may be immediate, such as when a
-[dryad](ref/monster/dryad) whose tree is dying decides to bond with a summoner instead and become
-something new. On the other hand, a [redcap](ref/monster/redcap) just looking for bloodshed might
-connect with an equally sadistic summoner. Whatever their reasons, they tend to have strong bonds of
-loyalty to their summoners entangled with equally strong emotional attachments, even evil fey
-eidolons.
+as their disparate temperaments; occasionally, their need may be immediate, such as when a dryad
+whose tree is dying decides to bond with a summoner instead and become something new. On the other
+hand, a redcap just looking for bloodshed might connect with an equally sadistic summoner. Whatever
+their reasons, they tend to have strong bonds of loyalty to their summoners entangled with equally
+strong emotional attachments, even evil fey eidolons.
+
+## Alignment {#alignment}
+
+Any. Fey eidolons don't have alignment subtypes.
+
+## Base Form {#base-form}
+
+Biped ([limbs](ref/unchevolution/limbs) \[arms\], limbs \[legs\]).
+
+## Base Evolutions {#base-evolutions}
+
+Starting at 1st level, fey eidolons gain Acrobatics, Diplomacy, Disguise, Escape Artist, Knowledge
+(nature), Perform, Sleight of Hand, and Use Magic Device as class skills instead of those gained by
+most eidolons. They also gain the [low-light vision](ref/rule/low-light-vision) evolution, the
+[skilled](ref/unchevolution/skilled) evolution (selecting one class skill), and the ability to use
+either _[dancing lights](ref/spell/dancing-lights)_, _[detect magic](ref/spell/detect-magic)_,
+_[ghost sound](ref/spell/ghost-sound)_, or _[prestidigitation](ref/spell/prestidigitation)_ at will
+as a [spell-like ability](ref/umr/spell-like-abilities). Once the summoner selects this and any
+other spell-like abilities for his fey eidolon, the selection cannot be changed.
+
+At 4th level, fey eidolons gain woodland stride (as the druid ability).
+
+At 8th level, fey eidolons gain the ability to use either _charm person_, _entangle_, _grease_,
+_silent image_, _obscuring mist_, or _vanish_as a spell-like ability three times per day, and they
+can select an additional spell-like ability from the 1st-level list.
+
+At 12th level, fey eidolons gain DR 5/ cold iron. They also grow gossamer wings, gaining the flight
+evolution.
+
+At 16th level, fey eidolons gain the ability to use either _blindness/deafness_, _detect thoughts_,
+_glitterdust_, _hideous laughter_, _invisibility_ (self only), _minor image_, _mirror image_, or
+_tongues_ as a spell-like ability three times per day. They also can select an additional spell-like
+ability from the 1st-level list or the 8th-level list.
+
+At 20th level, fey eidolons increase their DR to DR 10/cold iron. They gain the ability to use
+either _mass suggestion_, _mislead_, _programmed image_, or _veil_ as a spell-like ability once per
+day. They also can select an additional spell-like ability from the 1st-level list, the 8th-level
+list, or the 16th-level list.

@@ -16,13 +16,20 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bardic-performance" },
+  { anchor = "inspire-competence", level = 3 },
+  { anchor = "inspired-plan", level = 2 },
+  { anchor = "hidden-plans", level = 2 },
+  { anchor = "prepared", level = 5 },
+]
 trades = [
-  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom" },
-  { replaces = "frightening tune", feature = "bardic-performance", power = "frightening tune" },
-  { replaces = "Versatile performance", feature = "versatile-performance" },
-  { replaces = "Well-versed", feature = "well-versed" },
-  { replaces = "Lore master", feature = "lore-master" },
-  { alters = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
+  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["inspire-competence"] },
+  { replaces = "frightening tune", feature = "bardic-performance", power = "frightening tune", by = ["inspire-competence"] },
+  { replaces = "Versatile performance", feature = "versatile-performance", by = ["inspired-plan"] },
+  { replaces = "Well-versed", feature = "well-versed", by = ["hidden-plans"] },
+  { replaces = "Lore master", feature = "lore-master", by = ["prepared"] },
+  { alters = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["inspire-competence"] },
 ]
 +++
 
@@ -31,52 +38,50 @@ unexpected complications in advance. Often the masterminds behind elaborate heis
 infiltrations, ringleaders use their organizational abilities to make sure the plan goes without a
 hitch, even when the team is split up and unable to communicate with each other on the spot.
 
-**Inspire Competence (Su)**
+## Bardic Performance {#bardic-performance}
 
-**Alters:** Inspire competence
+A ringleader gains an altered version of inspire competence that grants greater effects at higher
+levels.
 
-**At 14th Level:** The ringleader's ally gains a competence bonus on an additional skill (for a
-total of three skills). In addition, he can take 10 on the affected skills when stressed or
-distracted.
+## Inspire Competence (Su) {#inspire-competence}
 
-**At 3rd Level:** A ringleader can use his performance to help an ally succeed at a task. This
-ability acts as the [inspire competence](ref/performance/inspire-competence) bardic performance with
-the following additions.
+At 3rd level, a ringleader can use his performance to help an ally succeed at a task. This ability
+acts as the [inspire competence](ref/performance/inspire-competence) bardic performance with the
+following additions.
 
-**At 8th Level:** The ringleader's ally gains a competence bonus on an additional skill (for a total
-of two skills). In addition, he can end the effect to reroll a check with one of the affected skills
+At 8th level, the ringleader's ally gains a competence bonus on an additional skill (for a total of
+two skills). In addition, he can end the effect to reroll a check with one of the affected skills
 (the reroll still applies the bonus from inspire competence). Each ally can only use this latter
 ability once per day, regardless of the number of skills affected and the number of times they are
 affected by inspire competence.
 
-**Replaces:** Dirge of doom, frightening tune
+At 14th level, the ringleader's ally gains a competence bonus on an additional skill (for a total of
+three skills). In addition, he can take 10 on the affected skills when stressed or distracted.
 
-**Inspired Plan (Su)**
+This ability alters inspire competence and replaces dirge of doom and frightening tune.
 
-**Action:** Ability
+## Inspired Plan (Su) {#inspired-plan}
 
-**Gained:** At 2nd Level
-
-**Replaces:** Versatile performance
-
-A ringleader can alter his performance so it affects a single ally at a later time. The ringleader
-must explain his plan to that ally for a number of minutes equal to the number of bardic performance
-rounds he expends on the effect, and use audible and/or visual components according to the
-performance altered. This costs the ringleader the chosen number of rounds of bardic performance.
+At 2nd level, a ringleader can alter his performance so it affects a single ally at a later time.
+The ringleader must explain his plan to that ally for a number of minutes equal to the number of
+bardic performance rounds he expends on the effect, and use audible and/or visual components
+according to the performance altered. This costs the ringleader the chosen number of rounds of
+bardic performance.
 
 At any time before the ringleader recovers bardic performance rounds for the day, the inspired
-character can activate the performance as a **standard action** wherever she is. When activated, the
+character can activate the performance as a standard action wherever she is. When activated, the
 altered performance affects only the inspired ally and has no audible or visible components. If the
 performance could normally affect any number of allies, its effects last 2 rounds for each round the
 ringleader spent on the performance. Otherwise, the effects last 1 round for each round the
 ringleader spent on the performance.
 
-A ringleader can alter only the _countersong, distraction, inspire courage, inspire competence,
-inspire greatness,_ and _inspire heroics_ performances in this way. The ringleader makes any
-necessary choices when establishing the performance, though in the case of _countersong_ and
-_[distraction](ref/carried/bestiary/rules/universal-monster-rules/distraction),_ the ringleader
-attempts Perform checks once his ally triggers the plan, ignoring any temporary bonuses or
-penalties, no matter whether they applied when he explained the plan or when the ally triggers it.
+A ringleader can alter only the countersong,
+[distraction](ref/carried/bestiary/rules/universal-monster-rules/distraction), inspire courage,
+inspire competence, inspire greatness, and inspire heroics performances in this way. The ringleader
+makes any necessary choices when establishing the performance, though in the case of countersong and
+distraction, the ringleader attempts Perform checks once his ally triggers the plan, ignoring any
+temporary bonuses or penalties, no matter whether they applied when he explained the plan or when
+the ally triggers it.
 
 A character can be subject to only one inspired plan at a time and cannot be subject to a
 ringleader's inspired plan and any of the ringleader's normal performances at the same time, but she
@@ -84,28 +89,25 @@ can benefit from other bardic performances in the interim. The ringleader cannot
 on himself, but he can have dormant plans ready to trigger on as many different allies as he can
 afford to affect at once.
 
-**Hidden Plans (Ex)**
+This ability replaces versatile performance.
 
-**Gained:** At 2nd Level
+## Hidden Plans (Ex) {#hidden-plans}
 
-**Passive:** A ringleader becomes a master of discretion. The ringleader gains a +4 bonus on saving
+At 2nd level, a ringleader becomes a master of discretion. The ringleader gains a +4 bonus on saving
 throws against effects that would read his thoughts or compel him to tell the truth.
 
-**Replaces:** Well-versed
+This ability replaces well-versed.
 
-**Prepared (Ex)**
+## Prepared (Ex) {#prepared}
 
-**Ability:** A ringleader expects the unexpected. When the ringleader is in a situation where he
+At 5th level, a ringleader expects the unexpected. When the ringleader is in a situation where he
 could use a particular piece of nonmagical gear, the ringleader can attempt a Knowledge check
 appropriate to his current situation to have purchased that item in advance. The DC of the check is
 equal to the item's cost in gp. If he succeeds, he deducts the appropriate cost of the item from his
 current gp total and now has the item in question on his person. He cannot use this ability to
 retroactively gain an item that would change his encumbrance to a different load category, though in
 this case, he can attempt to retrieve such objects from a pack mule, extradimensional storage space,
-or other location that would not affect his encumbrance.
+or other location that would not affect his encumbrance. He can use this ability once per day at 5th
+level, plus one additional time per day for every 5 bard levels beyond 5th.
 
-**Gained:** At 5th Level
-
-**Replaces:** Lore master
-
-**Usage:** 1 time/day per 5 bard levels
+This ability replaces lore master.

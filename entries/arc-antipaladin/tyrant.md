@@ -16,10 +16,14 @@ page = "64"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "tyrant-s-code" },
+  { anchor = "diabolic-boon", level = 5 },
+]
 trades = [
-  { alters = "Code of conduct and associated abilities" },
-  { alters = "ex-antipaladins", feature = "sec-ex-antipaladins" },
-  { alters = "Fiendish boon", feature = "fiendish-boon" },
+  { alters = "Code of conduct and associated abilities", by = ["tyrant-s-code"] },
+  { alters = "Section on ex-antipaladins", feature = "sec-ex-antipaladins", by = ["tyrant-s-code"] },
+  { alters = "Fiendish boon", feature = "fiendish-boon", by = ["diabolic-boon"] },
 ]
 +++
 
@@ -29,29 +33,30 @@ that whatever happens, evil always wins, and the tyrant along with it. Unlike ot
 tyrants are all too happy to associate with good creatures, the better to manipulate them into
 performing evil acts.
 
-**Tyrant's Code**
+## Tyrant's Code {#tyrant-s-code}
 
-**Alters:** Code of conduct and associated abilities, ex-antipaladins
+A tyrant must be of lawful evil alignment and loses all class features except proficiencies if he
+willingly and altruistically commits good acts. This does not mean the tyrant can't take actions
+someone else might qualify as good, only that such actions must always be in service of his own dark
+ambitions. A tyrant's code requires that he place his own sinister goals above all else, respect
+rightful authority even as he twists its loopholes to his own ends, impose tyranny, and punish all
+those who dare dissent. A tyrant can accept underlings of any alignment; he cares not who serves
+him, only that they are truly loyal to him. He can even work alongside good-aligned individuals, as
+long as he is secretly manipulating them.
 
-**Info:** A tyrant must be of lawful evil alignment and loses all class features except
-proficiencies if he willingly and altruistically commits good acts. This does not mean the tyrant
-can't take actions someone else might qualify as good, only that such actions must always be in
-service of his own dark ambitions. A tyrant's code requires that he place his own sinister goals
-above all else, respect rightful authority even as he twists its loopholes to his own ends, impose
-tyranny, and punish all those who dare dissent. A tyrant can accept underlings of any alignment; he
-cares not who serves him, only that they are truly loyal to him. He can even work alongside
-good-aligned individuals, as long as he is secretly manipulating them.
+This alters the antipaladin's code of conduct and associated abilities, as well as the section on
+ex-antipaladins.
 
-**Gained class skills:** diplo
+## Class Skills {#class-skills}
 
-**Lost class skills:** ride
+A tyrant adds Diplomacy to his list of class skills, instead of Ride.
 
-**Diabolic Boon (Sp)**
+This alters the antipaladin's class skills.
 
-**Ability:** If a tyrant chooses to gain the services of a fiendish servant with his _fiendish boon_
-ability, he must choose a [fiendish](ref/template/fiendish) animal or a creature with the lawful and
-evil subtypes.
+## Diabolic Boon (Sp) {#diabolic-boon}
 
-**Alters:** Fiendish boon
+At 5th level, if a tyrant chooses to gain the services of a [fiendish](ref/template/fiendish)
+servant with his fiendish boon ability, he must choose a fiendish animal or a creature with the
+lawful and evil subtypes.
 
-**Gained:** At 5th Level
+This ability alters fiendish boon.

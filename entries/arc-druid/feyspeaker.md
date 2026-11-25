@@ -16,14 +16,19 @@ page = "26"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "fey-magic", level = 1 },
+  { anchor = "fey-speech", level = 1 },
+  { anchor = "wild-mischief", level = 1 },
+]
 trades = [
-  { replaces = "Nature sense", feature = "nature-sense" },
-  { replaces = "The druid's proficiency with medium armor", feature = "weapon-and-armor-proficiencies", power = "medium armor" },
-  { alters = "Spellcasting", feature = "spells" },
-  { alters = "Base attack bonus" },
-  { alters = "class skills" },
-  { alters = "skills ranks per level" },
-  { alters = "Wild shape", feature = "wild-shape" },
+  { replaces = "Nature sense", feature = "nature-sense", by = ["fey-speech"] },
+  { replaces = "The druid's proficiency with medium armor", feature = "weapon-and-armor-proficiencies", power = "medium armor", by = ["wild-mischief"] },
+  { alters = "Spellcasting", feature = "spells", by = ["fey-magic"] },
+  { alters = "Base attack bonus", by = ["fey-speech"] },
+  { alters = "class skills", by = ["fey-speech"] },
+  { alters = "skills ranks per level", by = ["fey-speech"] },
+  { alters = "Wild shape", feature = "wild-shape", by = ["fey-magic"] },
 ]
 +++
 
@@ -32,88 +37,52 @@ tantalizing murmurs in order to influence the minds of both wild beasts and civi
 feyspeakers are often touched by the fey in some way, such as mortals who dared to eat the food and
 drink the wine while in the hidden halls of the fey.
 
-**Fey Magic (Part One)**
+## Fey Magic {#fey-magic}
 
-**Alters:** Spellcasting
+At 1st level, a feyspeaker allows the strange idylls of the fey to guide her magic. The feyspeaker
+uses her Charisma score instead of her Wisdom score as her key spellcasting ability score (to
+determine her spell DCs, bonus spells per day, concentration checks, and so on).
 
-**Flavor:** A feyspeaker allows the strange idylls of the fey to guide her magic.
+At 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th levels, a feyspeaker adds one enchantment or
+illusion spell from the sorcerer/wizard spell list to her druid spell list as a spell of 1 level
+higher (for instance, at 4th level, she could add _color spray_ as a 2nd-level druid spell). In
+order to select a spell, she must be of a level high enough (including the increased spell level) to
+cast it. Once selected, the spell cannot be changed.
 
-**At 10th Level:** She gains a fourth bonus spell.
+A feyspeaker loses the ability to spontaneously cast _summon nature's ally_ spells. She gains the
+wild shape ability at 6th level and gains all benefits related to wild shape 2 druid levels later
+than usual. She can never use wild shape to transform into an elemental.
 
-**At 12th Level:** She gains a fifth bonus spell.
+This ability alters wild shape and spellcasting.
 
-**At 14th Level:** She gains a sixth bonus spell.
+## Fey Speech (Ex) {#fey-speech}
 
-**At 16th Level:** She gains a seventh bonus spell.
-
-**At 18th Level:** She gains an eighth bonus spell.
-
-**At 4th Level:** A feyspeaker adds one enchantment or illusion spell from the sorcerer/wizard spell
-list to her druid spell list as a spell of 1 level higher (for instance, at 4th level, she could add
-[color spray](ref/spell/color-spray) as a 2nd-level druid spell). In order to select a spell, she
-must be of a level high enough (including the increased spell level) to cast it. Once selected, the
-spell cannot be changed.
-
-**At 6th Level:** She adds another bonus spell, following the same rules and restrictions above.
-
-**At 8th Level:** She adds a third such bonus spell.
-
-**Info:** The feyspeaker uses her Charisma score instead of her Wisdom score as her key spellcasting
-ability score (to determine her spell DCs, [bonus spells](ref/rule/determine-bonuses) per day,
-concentration checks, and so on). A feyspeaker loses the ability to spontaneously cast
-_[summon nature's ally](ref/spell/summon-natures-ally)_ spells.
-
-**Gained:** At 1st Level
-
-**Fey Speech (Ex)**
-
-**Alters:** Base attack bonus, class skills, skills ranks per level
-
-**Flavor:** A feyspeaker's words carry a tiny fragment of the otherworldly power of the fey's
-voices.
-
-**Info:** The feyspeaker's base attack bonus from her druid levels is equal to
+At 1st level, a feyspeaker's words carry a tiny fragment of the otherworldly power of the fey's
+voices. She gains [Bluff](ref/skill/bluff), [Diplomacy](ref/skill/diplomacy),
+[Disguise](ref/skill/disguise), and [Sense Motive](ref/skill/sense-motive) as class skills. A
+feyspeaker also learns Sylvan as a bonus language. In addition, the feyspeaker gains a number of
+skill ranks at each level equal to 6 + her Intelligence modifier, instead of 4 + her Intelligence
+modifier. The feyspeaker's base attack bonus from her druid levels is equal to
 [half](ref/misc/fractions-and-rounding) her druid level (much like a sorcerer's base attack bonus is
 calculated), rather than the usual druid base attack bonus.
 
-**Gained:** At 1st Level
+This ability replaces nature sense and alters the druid's base attack bonus, class skills, and
+skills ranks per level.
 
-**Passive:** She gains [Bluff](ref/skill/bluff) (CHA), [Diplomacy](ref/skill/diplomacy) (CHA),
-[Disguise](ref/skill/disguise) (CHA), and [Sense Motive](ref/skill/sense-motive) (WIS) as class
-skills. A feyspeaker also learns Sylvan as a bonus language. In addition, the feyspeaker gains a
-number of skill ranks at each level equal to 6 + her Intelligence modifier, instead of 4 + her
-Intelligence modifier.
+## Wild Mischief (Ex) {#wild-mischief}
 
-**Replaces:** Nature sense
-
-**Wild Mischief (Ex)**
-
-**Ability:** A feyspeaker can fool an animal into thinking there is food, a potential mate, or a
+At 1st level, a feyspeaker can fool an animal into thinking there is food, a potential mate, or a
 predator nearby. This ability functions just like a Bluff check to deceive a character. To determine
-the result of the _wild mischief_ check, the feyspeaker rolls 1d20 and adds her druid level and her
-Charisma modifier. As with Bluff checks, _wild mischief_ checks are modified depending on the
+the result of the wild mischief check, the feyspeaker rolls 1d20 and adds her druid level and her
+Charisma modifier. As with Bluff checks, wild mischief checks are modified depending on the
 believability of the false information. A typical domestic animal is not particularly suspicious of
 the feyspeaker (no circumstance modifier), whereas wild animals are usually suspicious (-5 penalty
-on the check). To use _wild mischief,_ the feyspeaker and the animal must be able to study each
-other, which means they must be within 30 feet of one another under normal conditions. Generally,
-influencing an animal in this way takes 1 minute, but as when influencing people, it could take more
-or less time.
+on the check).
 
-**Gained:** At 1st Level
+To use wild mischief, the feyspeaker and the animal must be able to study each other, which means
+they must be within 30 feet of one another under normal conditions. Generally, influencing an animal
+in this way takes 1 minute, but as when influencing people, it could take more or less time. A
+feyspeaker can also use this ability to influence a magical beast with an Intelligence score of 1 or
+2, but she takes a -4 penalty on the check.
 
-**Replaces:** The druid's proficiency with medium armor
-
-**Special:** A feyspeaker can also use this ability to influence a magical beast with an
-Intelligence score of 1 or 2, but she takes a -4 penalty on the check.
-
-**Fey Magic (Part Two)**
-
-**Alters:** Wild shape
-
-**Flavor:** A feyspeaker allows the strange idylls of the fey to guide her magic.
-
-**Info:** The feyspeaker gains the _wild shape_ ability and gains all benefits related to _wild
-shape_ 2 druid levels later than usual. She can never use _wild shape_ to transform into an
-elemental.
-
-**Gained:** At 6th Level
+This ability replaces the druid's proficiency with medium armor.

@@ -16,10 +16,16 @@ page = "49"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "raging-song" },
+  { anchor = "song-of-rabble-rousing", level = 5 },
+  { anchor = "song-of-riot", level = 10 },
+  { anchor = "revolutionary-heart", level = 7 },
+]
 trades = [
-  { replaces = "Spell kenning", feature = "spell-kenning" },
-  { replaces = "Dirge of doom", feature = "dirge-of-doom" },
-  { replaces = "Lore master", feature = "lore-master" },
+  { replaces = "Spell kenning", feature = "spell-kenning", by = ["song-of-rabble-rousing"] },
+  { replaces = "Dirge of doom", feature = "dirge-of-doom", by = ["song-of-riot"] },
+  { replaces = "Lore master", feature = "lore-master", by = ["revolutionary-heart"] },
 ]
 +++
 
@@ -28,51 +34,41 @@ of whether what the instigator says is true or not, he inflames emotions in othe
 their reason. Instigators are often revolutionaries, political or otherwise, but they might also be
 warmongering firebrands or wicked souls who spread prejudice against others.
 
-**Raging Song (Su)**
+## Raging Song (Su) {#raging-song}
 
-**Info:** An instigator gains the following _raging songs._
+An instigator gains the following raging songs.
 
-**Song of Rabble-Rousing (Sp)**
+## Song of Rabble-Rousing (Sp) {#song-of-rabble-rousing}
 
-**Ability:** The instigator can perform for 1 full round and spend 4 rounds of _raging song._ This
-affects those who hear the song for up to 1 hour as per [enthrall](ref/spell/enthrall).
+At 5th level, the instigator can perform for 1 full round and spend 4 rounds of raging song. This
+affects those who hear the song for up to 1 hour as per _[enthrall](ref/spell/enthrall)_. This
+ability replaces spell kenning.
 
-**Gained:** At 5th Level
+## Song of Riot (Sp, Su) {#song-of-riot}
 
-**Replaces:** Spell kenning
+At 10th level, the instigator can fill the hearts of his listeners with hatred and rouse them into a
+frenzy. He can use this performance on all targets with fewer than 4 Hit Dice and a Wisdom score
+lower than 16 who are currently enthralled, without disrupting the _[enthrall](ref/spell/enthrall)_
+effect (even if a creature succeeds at its saving throw). This ability requires a standard action to
+activate and costs 4 additional rounds of raging song.
 
-**Song of Riot (Sp, Su)**
-
-**Ability:** He can use this performance on all targets with fewer than 4 Hit Dice and a Wisdom
-score lower than 16 who are currently _enthralled,_ without disrupting the
-_[enthrall](ref/spell/enthrall)_ effect (even if a creature succeeds at its saving throw). This
-ability requires a **standard action** to activate and costs 4 additional rounds of _raging song._
-
-**Flavor:** The instigator can fill the hearts of his listeners with hatred and rouse them into a
-frenzy.
-
-**Gained:** At 10th Level
-
-**Replaces:** Dirge of doom
-
-**Special:** Enthralled creatures must each attempt a new saving throw against an effect that
-functions as the [foster hatred](ref/spell/foster-hatred) spell, except that, unlike with the spell,
-the instigator is free to choose subgroups, organizations, religions, or the like regardless of the
-targets' races. Creatures that fail the saving throw or choose to forego it also gain the effects of
-the instigator's _raging song_ whenever they attack the target of their hatred, for as long as the
+Enthralled creatures must each attempt a new saving throw against an effect that functions as the
+_[foster hatred](ref/spell/foster-hatred)_ spell, except that, unlike with the spell, the instigator
+is free to choose subgroups, organizations, religions, or the like regardless of the targets' races.
+Creatures that fail the saving throw or choose to forego it also gain the effects of the
+instigator's raging song whenever they attack the target of their hatred, for as long as the
 _[foster hatred](ref/spell/foster-hatred)_ effect lasts; however, they do not gain the effects of
-the instigator's rage powers when they're under the effects of _raging song_ in this way.
+the instigator's rage powers when they're under the effects of raging song in this way.
 
-**Revolutionary Heart (Su)**
+This ability replaces dirge of doom.
 
-**Ability:** Once per day, when he fails a saving throw against a compulsion effect, he can attempt
-another saving throw after 1 time increment (1 round if the effect is measured in rounds, 1 minute
-if the effect is measured in minutes, 10 minutes if the spell is measured in 10-minute increments,
-and so on).
+## Revolutionary Heart (Su) {#revolutionary-heart}
 
-**Flavor:** An instigator's tumultuous mastery of demagoguery and revolution makes it difficult for
-others' compulsions to sway him.
+At 7th level, an instigator's tumultuous mastery of demagoguery and revolution makes it difficult
+for others' compulsions to sway him. Once per day, when he fails a saving throw against a compulsion
+effect, he can attempt another saving throw after 1 time increment (1 round if the effect is
+measured in rounds, 1 minute if the effect is measured in minutes, 10 minutes if the spell is
+measured in 10-minute increments, and so on). Every 6 skald levels thereafter, he gains an
+additional daily use of this ability (to a maximum of 3 per day at 19th level).
 
-**Gained:** At 7th Level
-
-**Replaces:** Lore master
+This ability replaces lore master.
