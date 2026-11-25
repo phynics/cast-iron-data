@@ -41,7 +41,7 @@ afflicted character's memories, skills, and other abilities are unaffected by th
 but typically the various personalities have no knowledge of each other and will deny, often
 violently, that the other personalities exist.
 
-## Multiple Personality Disorder (original rules version)
+### Multiple Personality Disorder (original rules version)
 
 **Type** insanity; **Save** Will DC 19\
 **Onset** 2d6 days\
