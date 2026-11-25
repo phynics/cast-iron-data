@@ -16,16 +16,10 @@ page = "58"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "recommended-mysteries" },
-  { anchor = "revelations" },
-  { anchor = "mental-acuity" },
-  { anchor = "final-revelation" },
-]
 trades = [
-  { replaces = "Additional class skills from her mystery", feature = "mystery", power = "class skills" },
-  { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [4, 6, 8, 10, 12, 14, 16, 18], power = "bonus spells" },
-  { replaces = "Final revelation of the oracle's mystery", feature = "final-revelation", by = ["final-revelation"] },
+  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills" },
+  { replaces = "All bonus spells gained from the oracle's mystery after 2nd level", feature = "mystery", levels = [4, 6, 8, 10, 12, 14, 16, 18], power = "bonus spells" },
+  { replaces = "Final revelation", feature = "final-revelation" },
 ]
 +++
 
@@ -33,38 +27,73 @@ The enlightened philosopher seeks enlightenment through compassion, moderation, 
 following her philosophy's teachings, the enlightened philosopher seeks to reach enlightenment and
 become one with the universe.
 
-## Alignment {#alignment}
+**Prerequisites:** Alignment must be lawful
 
-Any lawful.
+**Recommended Mysteries:** [ancestor](ref/mystery/ancestor), [flame](ref/mystery/flame),
+[heavens](ref/mystery/heavens), [lore](ref/mystery/lore), [metal](ref/mystery/metal),
+[nature](ref/mystery/nature), [stone](ref/mystery/stone), [time](ref/mystery/time),
+[waves](ref/mystery/waves), [wood](ref/mystery/wood).
 
-## Recommended Mysteries {#recommended-mysteries}
+**Replaces:** Bonus skills from the oracle's mystery
 
-ancestor, fire, heavens, lore, metal, nature, stone, time, waves, wood.
+**Gained class skills:** ka, kd, ke, kg, kl, kna, kno, ling
 
-## Class Skills {#class-skills}
+**Bonus Spells**
 
-An enlightened philosopher adds Linguistics and all Knowledge skills to her list of class skills.
-These replace the additional class skills from her mystery.
+**Info:** The oracle gains these bonus spells at the listed levels.
 
-## Bonus Spells {#bonus-spells}
+**Replaces:** All bonus spells gained from the oracle's mystery after 2nd level
 
-_owl's wisdom_ (4th), _water walk_ (6th), _discern lies_ (8th), _true seeing_ (10th), _wind walk_
-(12th), _ethereal jaunt_ (14th), _moment of prescience_ (16th), _astral projection_ (18th). These
-bonus spells replace the oracle's mystery bonus spells at these levels.
+**Spells:** True seeing
 
-## Revelations {#revelations}
+**Spells:** Wind walk
 
-An enlightened philosopher must take the following revelation at 7th level.
+**Spells:** Ethereal jaunt
 
-## Mental Acuity (Ex) {#mental-acuity}
+**Spells:** Moment of prescience
 
-As the [lore](ref/mystery/lore) mystery revelation (see page 50 of the _Advanced Player's Guide_).
+**Spells:** Astral projection
 
-## Final Revelation {#final-revelation}
+**Spells:** Owl's wisdom
 
-Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You
-receive a bonus on all saving throws equal to your Charisma modifier. You become immune to
-confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge skill
-checks. Should you die, you are reborn 3 days later as a living example of the summoning of your
-chosen philosophy (treat as the _[reincarnate](ref/spell/reincarnate)_ spell). This replaces the
-final revelation of the oracle's mystery.
+**Spells:** Water walk
+
+**Spells:** Discern lies
+
+**Revelations**
+
+**At 7th Level:** An enlightened philosopher must take the following revelation.
+
+**Mental Acuity (Ex)**
+
+**Flavor:** Your explorations into the secret mysteries of the world have granted you a
+preternatural understanding of all things - and you just keep getting smarter.
+
+**Info:** This is the same as the [lore](ref/mystery/lore) mystery revelation of the same name.
+
+**Passive:** You gain a +1 inherent bonus to Intelligence upon taking this revelation and another at
+every third oracle level gained thereafter.
+
+At 10th level: The bonus to Intelligence increases to +2.
+
+At 13th level: The bonus to Intelligence increases to +3.
+
+At 16th level: The bonus to Intelligence increases to +4.
+
+At 19th level: The bonus to Intelligence increases to +5.
+
+**Final Revelation**
+
+**Ability:** You can take 20 on all Knowledge skill checks.
+
+**Flavor:** You achieve true enlightenment and become one with the universe.
+
+**Gained:** At 20th Level
+
+**Passive:** You receive a bonus on all saving throws equal to your Charisma modifier. You become
+immune to confusion, exhaustion, fatigue, nausea, and sickened effects.
+
+**Replaces:** Final revelation
+
+**Special:** Should you die, you are reborn 3 days later as a living example of the summoning of
+your chosen philosophy (treat as the [reincarnate](ref/spell/reincarnate) spell).

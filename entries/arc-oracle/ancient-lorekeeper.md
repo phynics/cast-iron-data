@@ -16,12 +16,9 @@ page = "24"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "elven-arcana", level = 2 },
-]
 trades = [
-  { replaces = "Bonus skills the ancient lorekeeper gains from her mystery", feature = "mystery", power = "class skills" },
-  { replaces = "Bonus spells she would normally gain at these levels from her chosen mystery", feature = "mystery", power = "bonus spells", by = ["elven-arcana"] },
+  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills" },
+  { replaces = "Bonus spells gained from the oracle's mystery", feature = "mystery", power = "bonus spells" },
 ]
 +++
 
@@ -31,26 +28,30 @@ creation legends at a young age, and as she matures her calling to serve as the 
 long-lived people becomes clear to all who know her. An ancient lorekeeper has the following class
 features.
 
-## Class Skills {#class-skills}
+**Prerequisites:** Elf
 
-An ancient lorekeeper adds Knowledge (arcane) and Knowledge (local) to her list of class skills.
-Whenever she makes a Knowledge check of any kind about a question regarding elves (creatures of the
-elf subtype), the ancient lorekeeper adds half her class level on her check. This replaces the bonus
-skills the ancient lorekeeper gains from her mystery.
+**Replaces:** Bonus skills from the oracle's mystery
 
-## Elven Arcana (Ex) {#elven-arcana}
+**Gained class skills:** ka, kl
 
-At 2nd level, an ancient lorekeeper's mastery of elven legends and philosophy has allowed her to
+**Passive Ability:** Whenever she makes a Knowledge check of any kind about a question regarding
+elves (creatures of the elf subtype), the ancient lorekeeper adds half her class level on her check.
+
+**Elven Arcana (Ex)**
+
+**Ability:** An ancient lorekeeper's mastery of elven legends and philosophy has allowed her to
 master one spell used by elven wizards. She selects one spell from the sorcerer/wizard spell list
 that is at least one level lower than the highest-level oracle spell she can cast. The ancient
 lorekeeper gains this as a bonus spell known. The spell is treated as one level higher than its true
-level for all purposes. The ancient lorekeeper may choose an additional spell at 4th, 6th, 8th,
-10th, 12th, 14th, 16th, and 18th levels. This ability replaces the bonus spells she would normally
-gain at these levels from her chosen mystery.
+level for all purposes.
 
-## Mysteries {#mysteries}
+**Gained:** At 2nd Level
 
-The following oracle mysteries complement the ancient lorekeeper archetype:
+**Repeat:** The ancient lorekeeper may choose an additional spell., 4, 2, 19
+
+**Replaces:** Bonus spells gained from the oracle's mystery
+
+**Mysteries:** The following oracle mysteries complement the ancient lorekeeper archetype:
 [Lore](ref/mystery/lore), [Nature](ref/mystery/nature), [Waves](ref/mystery/waves),
-[Wind](ref/mystery/wind) (_Advanced Player's Guide_); [Ancestor](ref/mystery/ancestor),
-[Time](ref/mystery/time), [Wood](ref/mystery/wood) (_Ultimate Magic_).
+[Wind](ref/mystery/wind), [Ancestor](ref/mystery/ancestor), [Time](ref/mystery/time),
+[Wood](ref/mystery/wood).

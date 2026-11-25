@@ -1444,6 +1444,9 @@ def publication_title(corpus: Path, book: str) -> str:
 # Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
 # entry, the printed words, the words written, and why. The review table's note records each fix.
 MISPRINTS = [
+    ("ref/arc-summoner/naturalist", "on its feat.", "on its feet.", "feet: the sentence is about the hooves of the eidolon (antlers and hoof like nails)"),
+    ("ref/arc-summoner/naturalist", "superficial physical charges", "superficial physical changes",
+     "changes: the same ability says \"superficial physical changes appropriate to that aspect\" two paragraphs earlier"),
     ("ref/arc-investigator/sleuth", "for a investigator", "for an investigator", "an article before a vowel"),
     ("ref/arc-brawler/strangler", "instead of a standard can.", "instead of a standard action.",
      "the sentence needs the word \"action\"; print has \"standard can\" at a column end"),
@@ -1787,6 +1790,12 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     xref = re.sub(r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
                   r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
                   r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?(?=\))", "", xref)
+    # a book reference in front of or behind a level inside a list ("(Advanced Player's Guide 212; 4th)", "(14th, Ultimate Magic)",
+    # "(Ultimate Combat, 2nd)", owner ruling 26): the level stays, the reference goes
+    book = (r"[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+            r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)[\x02_]*")
+    xref = re.sub(r"\(" + book + r"(?:\s*\d+(?:[–-]\d+)?)?[;,]\s*(?=\d+(?:st|nd|rd|th))", "(", xref)
+    xref = re.sub(r",\s*" + book + r"(?:\s*\d+(?:[–-]\d+)?)?(?=\))", "", xref)
     xref = re.sub(r"\s*\((?![Ss]ee\b)(?=[^()]{0,70}\))[^()]*\bpage\s*\d+[^()]*\)", "", xref)     # a short one only: a long one has text
     if xref != text:
         notes.append("printed cross-reference left out")
@@ -2219,11 +2228,16 @@ TRADE_RENAMES = {
 # A stored trade that gets the link and the levels of the errata'd text (Wild Child p. 89: the third trade now names
 # the bonus combat feats at 5th, 11th and 17th level, which the corrected Wild Tricks replaces).
 TRADE_LINKS = {
+    # Possessed Oracle (Ultimate Magic p. 59): the bonus-spell trade names the mystery's bonus spells at the printed levels
+    ("ref/arc-oracle/possessed-oracle", "Mystery bonus spells at these levels"): ("mystery", [1, 4, 6, 8, 10, 12, 16], "bonus spells"),
     ("ref/arc-brawler/wild-child", "Bonus combat feats gained at 5th, 11th, and 17th levels"): ("bonus-combat-feats", [5, 11, 17]),
 }
 
 # The levels of a stored trade that follow the errata (the entry, the name as renamed, the levels).
 TRADE_LEVELS = {
+    ("ref/arc-oracle/planar-oracle", "Mystery bonus spells at these levels"): [2, 4, 6, 8, 10, 12, 14, 16, 18],         # UM p. 59
+    ("ref/arc-oracle/ancient-lorekeeper", "Bonus spells she would normally gain at these levels from her chosen mystery"):
+        [4, 6, 8, 10, 12, 14, 16, 18],                                                                                   # ARG p. 24
     ("ref/arc-summoner/blood-god-disciple", "Summon monster I, III, V, VII, and IX spell-like abilities"): [1, 5, 9, 13, 17, 19],
     ("ref/arc-brawler/wild-child", "Bonus combat feats gained at 2nd, 8th, 14th, and 20th levels"): [2, 8, 14, 20],
 }
@@ -2559,7 +2573,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             if trade_name(old)[1] != trade_name(t)[1]:
                 note += ("; " if note else "") + f'trade renamed: "{trade_name(old)[1]}" to "{trade_name(t)[1]}" to match the printed sentence'
                 if (e.id, trade_name(t)[1]) in TRADE_LEVELS:
-                    note += f"; its levels are now {TRADE_LEVELS[(e.id, trade_name(t)[1])]} (Paizo errata)"
+                    note += f"; its levels are now {TRADE_LEVELS[(e.id, trade_name(t)[1])]}, the printed levels"
             next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
     for origin in sorted(dropped_trade_indices(e)):
         old = trades_of(e)[origin]
@@ -2833,13 +2847,17 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     for (eid, old), new in TRADE_RENAMES.items():
         if eid == e.id:
             front = front.replace(f'"{old}"', f'"{new}"', 1)
-    for (eid, name), (feat, lv) in TRADE_LINKS.items():
+    for (eid, name), link in TRADE_LINKS.items():
         if eid == e.id:
-            front = front.replace(f'"{name}"', f'"{name}", feature = "{feat}", levels = {lv}', 1)
+            feat, lv, *power = link
+            front = front.replace(f'"{name}"', f'"{name}", feature = "{feat}", levels = {lv}' + (f', power = "{power[0]}"' if power else ""), 1)
     for (eid, name), lv in TRADE_LEVELS.items():
         if eid == e.id:
-            front = "\n".join(re.sub(r"levels = \[[^\]]*\]", "levels = " + str(lv), ln) if f'"{name}"' in ln else ln
-                              for ln in front.split("\n"))
+            def set_levels(ln: str, lv=lv) -> str:
+                if re.search(r"levels = \[[^\]]*\]", ln):
+                    return re.sub(r"levels = \[[^\]]*\]", "levels = " + str(lv), ln)
+                return re.sub(r"(, power = |, by = | \},?$)", ", levels = " + str(lv) + r"\1", ln, count=1)      # levels come before power and by
+            front = "\n".join(set_levels(ln) if f'"{name}"' in ln else ln for ln in front.split("\n"))
     return "+++\n" + front + "\n+++\n\n" + "\n\n".join(parts) + "\n"
 
 
@@ -3093,6 +3111,8 @@ def self_test() -> int:
     eq(trade_sentences("This ability replaces bravery (see page 4).")[0][1], "bravery (see page 4)", "R9 a short parenthesis stays")
     eq(covers("the sacred shield's holy champion ability", "Holy champion"), True, "R10 possessor phrase")
     eq(covers("the sacred shield's holy champion ability", "Sacred shield"), False, "R10 the possessor is not a name")
+    eq(print_md(PrintFeature("X", [[("confess (Advanced Player's Guide 212; 4th), shield (Ultimate Magic, 2nd), ki shout (14th, Ultimate Magic).", False, False)]], 1),
+                [], set(), "ref/x")[0], "confess (4th), shield (2nd), ki shout (14th).", "ruling 26: the book reference in a list goes, the level stays")
     eq(covers("unarmed strike and brawler's flurry", "Unarmed strike"), True, "R10 is an alternative reading: the plain one names both")
     eq(covers("unarmed strike and brawler's flurry", "brawler's flurry"), True, "R10 plain reading of a possessor name")
     eq(trade_asides("This ability replaces swift alchemy (the deep bomber gains swift alchemy at 18th level and never gains instant alchemy).")[0],

@@ -16,16 +16,9 @@ page = "58"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "recommended-mysteries" },
-  { anchor = "oracle-s-curse" },
-  { anchor = "revelations" },
-  { anchor = "misfortune", level = 1 },
-  { anchor = "fortune", level = 5 },
-]
 trades = [
-  { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [2, 4, 6], power = "bonus spells" },
-  { alters = "Oracle's curse", feature = "oracle-s-curse", by = ["oracle-s-curse"] },
+  { replaces = "The bonus spells gained at 2nd, 4th, and 6th levels from the oracle's mystery", feature = "mystery", levels = [2, 4, 6], power = "bonus spells" },
+  { alters = "Oracle's curse", feature = "oracle-s-curse" },
 ]
 +++
 
@@ -33,43 +26,56 @@ All oracles are cursed to some degree, but some oracles bear an even heavier bur
 afflicted with supernatural or physical hindrances, a dual-cursed oracle can manipulate fortune and
 gains greater insights into her mystery.
 
-## Recommended Mysteries {#recommended-mysteries}
+**Recommended Mysteries:** Any.
 
-Any.
+**Oracle's Curse**
 
-## Oracle's Curse {#oracle-s-curse}
+**Alters:** Oracle's curse
 
-A dual-cursed oracle must choose two curses at 1st level. One of these curses (oracle's choice)
-never changes its abilities as the oracle gains levels; for example, an oracle with
+**Info:** A dual-cursed oracle must choose two curses at 1st level. One of these curses (oracle's
+choice) never changes its abilities as the oracle gains levels; for example, an oracle with
 [clouded vision](ref/oraclecurse/clouded-vision) never gains [darkvision](ref/rule/darkvision) 60
 feet, [blindsense](ref/rule/blindsight-and-blindsense), or blindsight. The other curse comes with
 its normal benefits.
 
-## Class Skills {#class-skills}
+**Class Skills**
 
-A dual-cursed oracle gains no additional class skills from her mystery.
+**Info:** A dual-cursed oracle gains no additional class skills from her mystery.
 
-## Bonus Spells {#bonus-spells}
+**Bonus Spells**
 
-_ill omen_ (2nd), _oracle's burden_ (4th), _bestow curse_ (6th). These bonus spells replace the
-oracle's mystery bonus spells at these levels.
+**Info:** The oracle gains these bonus spells at the listed levels.
 
-## Revelations {#revelations}
+**Replaces:** The bonus spells gained at 2nd, 4th, and 6th levels from the oracle's mystery
 
-A dual-cursed oracle gains a new revelation at 5th level and 13th level. These are in addition to
-the normal revelations she receives at 3rd level, 7th level, and so on. In addition, the cursed
-oracle may select the following revelations in place of a mystery revelation.
+**Spells:** Ill omen
 
-## Misfortune (Ex) {#misfortune}
+**Spells:** Oracle's burden
 
-At 1st level, as an immediate action, you can force a creature within 30 feet to reroll any one d20
-roll that it has just made before the results of the roll are revealed. The creature must take the
-result of the reroll, even if it's worse than the original roll. Once a creature has suffered from
-your misfortune, it cannot be the target of this revelation again for 1 day.
+**Spells:** Bestow curse
 
-## Fortune (Ex) {#fortune}
+**Revelations**
 
-At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before
-the results of the roll are revealed. You must take the result of the reroll, even if it's worse
-than the original roll. You can use this ability once per day at 5th level, and one additional time
-per day for every six oracle level beyond 5th.
+**Repeat At:** A dual-cursed oracle gains a bonus revelation., 5, 13
+
+**Special:** The cursed oracle may select the following revelations in place of a mystery
+revelation.
+
+**Misfortune (Ex)**
+
+**Immediate:** You can force a creature within 30 feet to reroll any one d20 roll that it has just
+made before the results of the roll are revealed. The creature must take the result of the reroll,
+even if it's worse than the original roll.
+
+**Special:** Once a creature has suffered from your misfortune, it cannot be the target of this
+revelation again for 1 day.
+
+**Fortune (Ex)**
+
+**Immediate:** You can reroll any one d20 roll that you have just made before the results of the
+roll are revealed. You must take the result of the reroll, even if it's worse than the original
+roll.
+
+**Prereq:** 5th-level oracle
+
+**Usage:** 1 time/day + 1 per 6 oracle levels beyond 5th

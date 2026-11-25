@@ -16,45 +16,67 @@ page = "59"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "recommended-mysteries" },
-  { anchor = "revelations" },
-  { anchor = "guiding-star" },
-  { anchor = "star-chart" },
-]
 trades = [
-  { replaces = "Additional class skills from her mystery", feature = "mystery", power = "class skills" },
-  { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [2, 4, 6, 8, 18], power = "bonus spells" },
+  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills" },
+  { replaces = "The bonus spells gained at 2nd, 4th, 6th, 8th, and 18th levels from the oracle's mystery", feature = "mystery", levels = [2, 4, 6, 8, 18], power = "bonus spells" },
 ]
 +++
 
 Some oracles seek meaning in the pattern of the stars across the night sky, the trails of comets,
 and the eternal orbits of the planets.
 
-## Recommended Mysteries {#recommended-mysteries}
+**Recommended Mysteries:** [dark tapestry](ref/mystery/dark-tapestry),
+[heavens](ref/mystery/heavens), [lore](ref/mystery/lore), [nature](ref/mystery/nature),
+[time](ref/mystery/time).
 
-dark tapestry, heavens, lore, nature, time.
+**Replaces:** Bonus skills from the oracle's mystery
 
-## Class Skills {#class-skills}
+**Gained class skills:** kna, perf, sur
 
-A stargazer adds Knowledge (nature), Perception, and Survival to her list of class skills. These
-replace the additional class skills from her mystery.
+**Bonus Spells**
 
-## Bonus Spells {#bonus-spells}
+**Info:** The oracle gains these bonus spells at the listed levels.
 
-_faerie fire_ (2nd), _glitterdust_ (4th), _guiding star_ (6th), _wandering star motes_ (8th),
-_meteor swarm_ (18th). These bonus spells replace the oracle's mystery bonus spells at these levels.
+**Replaces:** The bonus spells gained at 2nd, 4th, 6th, 8th, and 18th levels from the oracle's
+mystery
 
-## Revelations {#revelations}
+**Spells:** Meteor swarm
 
-A stargazer must take the following revelations at the listed levels.
+**Spells:** Faerie fire
 
-## Guiding Star (Su) {#guiding-star}
+**Spells:** Glitterdust
 
-As the [heavens](ref/mystery/heavens) mystery revelation (see page 48 of the _Advanced Player's
-Guide_). You must take this revelation at 1st level.
+**Spells:** Guiding star
 
-## Star Chart (Ex) {#star-chart}
+**Spells:** Wandering star motes
 
-As the heavens mystery revelation (see page 48 of the _Advanced Player's Guide_). You must take this
-revelation at 7th level.
+**Revelations**
+
+**Info:** A stargazer must take the following revelations at the listed levels.
+
+**Guiding Star (Su)**
+
+**Ability:** Whenever you can see the open sky at night, you can determine your precise location.
+
+**Ability2:** Once per night while outdoors, you can cast one spell as if it were modified by the
+[Empower Spell](ref/feat/empower-spell), [Extend Spell](ref/feat/extend-spell),
+[Silent Spell](ref/feat/silent-spell), or [Still Spell](ref/feat/still-spell) feat without
+increasing the spell's casting time or level.
+
+**Info:** This is the same as the [heavens](ref/mystery/heavens) mystery revelation of the same
+name.
+
+**Gained:** At 1st Level
+
+**Passive:** When the night sky is visible to you, you may also add your Charisma modifier to your
+Wisdom modifier on all Wisdom-based checks.
+
+**Star Chart (Ex)**
+
+**Ability:** Your copious notes contain a working model of the night sky expressed in artistic
+scribbles and arcane mathematical formulae. Once per day, you may spend 10 minutes contemplating
+your star chart to gain the benefit of the spell [commune](ref/spell/commune).
+
+**Info:** This is the same as the _heavens_ mystery revelation of the same name.
+
+**Gained:** At 7th Level

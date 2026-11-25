@@ -16,15 +16,8 @@ page = "199"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "recommended-mysteries" },
-  { anchor = "oracle-s-curse" },
-  { anchor = "revelations" },
-  { anchor = "location-memories" },
-  { anchor = "spirit-memories" },
-]
 trades = [
-  { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [2, 4, 10, 16, 18], power = "bonus spells" },
+  { replaces = "The bonus spells gained at 2nd, 4th, 10th, 16th, and 18th levels from the oracle's mystery", feature = "mystery", levels = [2, 4, 10, 16, 18], power = "bonus spells" },
 ]
 +++
 
@@ -32,38 +25,55 @@ A reincarnated oracle draws her knowledge and power from the experiences of her 
 memories guide her through a spiritual ascension leading the way to her ultimate incarnation. A
 reincarnated oracle has the following class features.
 
-## Recommended Mysteries {#recommended-mysteries}
+**Prerequisites:** Samsaran
 
-ancestor, lore, time.
+**Recommended Mysteries:** [ancestor](ref/mystery/ancestor), [lore](ref/mystery/lore),
+[time](ref/mystery/time).
 
-## Oracle's Curse {#oracle-s-curse}
+**Oracle's Curse**
 
-A reincarnated oracle must choose the [haunted](ref/oraclecurse/haunted) or
-[tongues](ref/oraclecurse/tongues) curse at 1st level.
+**At 1st Level:** A reincarnated oracle must choose the [haunted](ref/oraclecurse/haunted) or
+[tongues](ref/oraclecurse/tongues) curse.
 
-## Bonus Spells {#bonus-spells}
+**Bonus Spells**
 
-_see alignment_ (_Ultimate Combat_, 2nd), _detect thoughts_ (4th), _contact other plane_ (10th),
-_moment of prescience_ (16th), _overwhelming presence_ (_Ultimate Magic_, 18th). These spells
-replace the oracle's mystery bonus spells at these levels.
+**Info:** The oracle gains these bonus spells at the listed levels.
 
-## Revelations {#revelations}
+**Replaces:** The bonus spells gained at 2nd, 4th, 10th, 16th, and 18th levels from the oracle's
+mystery
 
-A reincarnated oracle must take the following revelations at one of the listed levels.
+**Spells:** Contact other plane
 
-## Location Memories (Su) {#location-memories}
+**Spells:** Moment of prescience
 
-As a swift action, you may search your past lives for memories of or insight about your current
-location. This grants you the [scent](ref/umr/scent) ability,
-[low-light vision](ref/rule/low-light-vision), and a +2 insight bonus on Perception and Survival
-checks for 1 minute. You can use this ability a number of times per day equal to 3 + your Charisma
-modifier. You must take this revelation at 1st level or 3rd level.
+**Spells:** Overwhelming presence
 
-## Spirit Memories (Su) {#spirit-memories}
+**Spells:** See alignment
 
-Once per day, you call upon the unfulfilled desires and goals of your past lives and project their
-frustration and despair through your eyes at a target. This is a [gaze](ref/umr/gaze) attack
-affecting one creature. The target must make a Will save (DC 10 + 1/2 your oracle level + your
-Charisma modifier) or be [sickened](ref/misc/sickened) and [staggered](ref/misc/staggered) for 1
-round. This is a mind-affecting compulsion effect. You can use this ability a number of times per
-day equal to 3 + your Charisma modifier. You must take this revelation at 1st, 3rd, or 7th level.
+**Spells:** Detect thoughts
+
+**Revelations**
+
+**Info:** A reincarnated oracle must take the following revelations at one of the listed levels.
+
+**Location Memories (Su)**
+
+**Special:** You must take this revelation at 1st level or 3rd level.
+
+**Swift:** You may search your past lives for memories of or insight about your current location.
+This grants you the [scent](ref/umr/scent) ability, [low-light vision](ref/rule/low-light-vision),
+and a +2 insight bonus on Perception and Survival checks for 1 minute.
+
+**Usage:** Charisma3 modifier times/day
+
+**Spirit Memories (Su)**
+
+**Ability:** Once per day, you call upon the unfulfilled desires and goals of your past lives and
+project their frustration and despair through your eyes at a target. This is a [gaze](ref/umr/gaze)
+attack affecting one creature. The target must make a Will save (DC 10 + 1/2 your oracle level +
+your Charisma modifier) or be [sickened](ref/misc/sickened) and [staggered](ref/misc/staggered) for
+1 round. This is a mind-affecting compulsion effect.
+
+**Special:** You must take this revelation at 1st, 3rd, or 7th level.
+
+**Usage:** Charisma3 modifier times/day
