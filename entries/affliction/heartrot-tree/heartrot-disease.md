@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-119-prisoners-of-the-blight"
+page = "86"
 
 [fields]
 kind = "none"

@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-128-songbird-scion-saboteur"
+page = "88"
 
 [fields]
 kind = "none"

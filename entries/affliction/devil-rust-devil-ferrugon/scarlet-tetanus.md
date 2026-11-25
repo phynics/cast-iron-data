@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-101-the-kintargo-contract"
+page = "82"
 
 [fields]
 kind = "none"

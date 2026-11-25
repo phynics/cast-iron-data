@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "82"
 
 [fields]
 kind = "none"

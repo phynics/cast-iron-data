@@ -9,7 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "serpents-skull-players-guide"
-page = "11"
+page = "10"
 
 [fields]
 kind = "trait"

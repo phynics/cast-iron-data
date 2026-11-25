@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-63-the-asylum-stone"
+page = "90"
 
 [fields]
 kind = "none"

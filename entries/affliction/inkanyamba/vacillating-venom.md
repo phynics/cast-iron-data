@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-41-the-thousand-fangs-below"
+page = "84"
 
 [fields]
 kind = "none"

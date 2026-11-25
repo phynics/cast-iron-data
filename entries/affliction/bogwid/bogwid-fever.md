@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "84"
 
 [fields]
 kind = "none"

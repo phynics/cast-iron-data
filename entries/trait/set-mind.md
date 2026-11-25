@@ -9,7 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "ruins-of-azlant-players-guide"
-page = "10"
+page = "11"
 
 [fields]
 kind = "trait"

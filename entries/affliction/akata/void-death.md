@@ -13,6 +13,7 @@ publication = "bestiary-2"
 page = "23"
 [[sources]]
 publication = "pathfinder-14-children-of-the-void"
+page = "81"
 
 [fields]
 kind = "none"

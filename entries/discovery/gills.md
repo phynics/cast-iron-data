@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-123-the-flooded-cathedral"
-page = "42"
+page = "52"
 
 [fields]
 kind = "class_option"

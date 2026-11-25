@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-113-what-grows-within"
+page = "87"
 
 [fields]
 kind = "none"

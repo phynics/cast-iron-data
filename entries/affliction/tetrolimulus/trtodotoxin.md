@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-58-island-of-empty-eyes"
+page = "88"
 
 [fields]
 kind = "none"

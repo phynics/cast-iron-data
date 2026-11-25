@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-109-in-search-of-sanity"
+page = "82"
 
 [fields]
 kind = "none"

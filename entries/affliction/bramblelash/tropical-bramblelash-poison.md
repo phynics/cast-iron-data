@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-115-trail-of-the-hunted"
+page = "85"
 
 [fields]
 kind = "none"

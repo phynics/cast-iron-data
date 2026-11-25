@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "rise-of-the-runelords-anniversary-edition"
+page = "413"
 
 [fields]
 kind = "none"

@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "89"
 
 [fields]
 kind = "none"

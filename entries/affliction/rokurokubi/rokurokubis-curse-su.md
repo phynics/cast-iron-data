@@ -13,6 +13,7 @@ publication = "bestiary-4"
 page = "227"
 [[sources]]
 publication = "pathfinder-54-the-empty-throne"
+page = "90"
 
 [fields]
 kind = "none"
