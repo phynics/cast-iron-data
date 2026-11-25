@@ -59,7 +59,7 @@ This alters the spiritualist's alignment.
 
 A necrologist adds the following spells to her class list: 1st—_hide from undead_; 2nd—_ghostly
 disguise_, _haunting mists_; 3rd—_haunting choir_; 4th—_lesser age resistance_; 5th—_age
-resistance_; 6th—_greater age resistance , create greater undead_.
+resistance_; 6th—_greater age resistance, create greater undead_.
 
 ## Shared Consciousness {#shared-consciousness}
 

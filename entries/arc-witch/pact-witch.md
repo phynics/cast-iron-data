@@ -17,7 +17,6 @@ page = "16"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "table-1-1-planar-pacts" },
   { anchor = "planar-pact" },
   { anchor = "planar-familiar" },
 ]
@@ -35,21 +34,23 @@ to an extreme by forging an inexorable pact with the Outer Planes.
 
 A pact witch's alignment must match that of his chosen plane. A pact witch whose alignment no longer
 matches his bonded plane becomes an ex–pact witch and loses all the benefits of this archetype until
-he atones for
+he atones for his transgressions. In time, likely after benefitting from an
+_[atonement](ref/spell/atonement)_ spell, an ex–pact witch can forge a bond with another plane that
+matches his new alignment.
 
 ## Table 1–1: Planar Pacts {#table-1-1-planar-pacts}
 
-Plane Alignment Familiar Abaddon Neutral evil [Cacodaemon](ref/monster/daemon-cacodaemon) or
-[doru](ref/monster/div-doru) Abyss Chaotic evil [Cythnigot](ref/monster/qlippoth-cythnigot) or
-[quasit](ref/monster/demon-quasit) Axis Lawful neutral [Arbiter](ref/monster/inevitable-arbiter)
-Boneyard Neutral [Nosoi](ref/monster/psychopomp-nosoi) Elysium Chaotic good CG
-[cassisian](ref/monster/angel-cassisian) or [lyrakien](ref/monster/azata-lyrakien) Heaven Lawful
-good LG cassisian or [harbinger archon](ref/monster/archon-harbinger-archon) Hell Lawful evil
-[Imp](ref/monster/devil-imp) or [tripurasura](ref/monster/asura-tripurasura) Maelstrom Chaotic
-neutral [Voidworm](ref/monster/protean-voidworm) Nirvana Neutral good NG cassisian or
-[silvanshee](ref/monster/agathion-silvanshee) his transgressions. In time, likely after benefitting
-from an _[atonement](ref/spell/atonement)_ spell, an ex–pact witch can forge a bond with another
-plane that matches his new alignment.
+|Plane|Alignment|Familiar|
+| --- | --- | --- |
+|Abaddon|Neutral evil|[Cacodaemon](ref/monster/daemon-cacodaemon) or [doru](ref/monster/div-doru)|
+|Abyss|Chaotic evil|[Cythnigot](ref/monster/qlippoth-cythnigot) or [quasit](ref/monster/demon-quasit)|
+|Axis|Lawful neutral|[Arbiter](ref/monster/inevitable-arbiter)|
+|Boneyard|Neutral|[Nosoi](ref/monster/psychopomp-nosoi)|
+|Elysium|Chaotic good|CG [cassisian](ref/monster/angel-cassisian) or [lyrakien](ref/monster/azata-lyrakien)|
+|Heaven|Lawful good|LG [cassisian](ref/monster/angel-cassisian) or [harbinger archon](ref/monster/archon-harbinger-archon)|
+|Hell|Lawful evil|[Imp](ref/monster/devil-imp) or [tripurasura](ref/monster/asura-tripurasura)|
+|Maelstrom|Chaotic neutral|[Voidworm](ref/monster/protean-voidworm)|
+|Nirvana|Neutral good|NG cassisian or [silvanshee](ref/monster/agathion-silvanshee)|
 
 ## Planar Pact (Su) {#planar-pact}
 
@@ -63,10 +64,11 @@ give a pact witch's skin strange rune patterns. The nature of this cosmetic chan
 to witch, but has no mechanical effect. Instead of learning new spells from a patron, a pact witch
 learns new spells from his planar pact, starting at 2nd level and again every 2 levels thereafter.
 
-_2nd Level: Protection from chaos/evil/good/law_ (choose one appropriate to your plane) _4th Level:
-Time shudder_.
+_2nd Level: Protection from chaos/evil/good/law_ (choose one appropriate to your plane)
 
-_6th Level: Infuse self_.
+_4th Level: Time shudder_.
+
+_6th Level: Infuse self_ (page 41).
 
 _8th Level: Lesser planar ally._
 

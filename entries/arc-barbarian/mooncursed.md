@@ -17,7 +17,6 @@ page = "47"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "race" },
   { anchor = "shifting-rage" },
   { anchor = "hybrid-rage", level = 5 },
   { anchor = "greater-shifting-rage", level = 11 },

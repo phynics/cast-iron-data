@@ -518,6 +518,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = fix_ligatures(s, vocab)
     s = fix_hyphens(s, vocab)
     s = re.sub("(?<=[A-Za-z0-9)_])\u2014 +(?=\\S)", "\u2014", s)   # a line that ends in an em dash joins the next one without a blank ("DR 5/\u2014 against" keeps its blank)
+    s = re.sub(r"(?<=[A-Za-z0-9" + I_CLOSE + r"]) +(?=[,;])", "", s)          # a superscript at a line end leaves "resistance , create"
     # an italic run of marks only (", " or "." between two words) is plain text: the period of "possession (see page 181)." is not italic
     s = re.sub(I_OPEN + r"([\s,.;:!?]+)" + I_CLOSE, r"\1", s)
     # the extraction pads italic runs with blanks
@@ -2065,9 +2066,31 @@ def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str]) -> bool:
     return False
 
 
+# Where the printed section of an archetype ends although no title follows: the next section of the chapter begins with a bold
+# line that is no feature of the archetype. Elder Mythos Cultist (Horror Adventures p. 49) is followed by "NEW DOMAIN" and "NEW
+# SUBDOMAINS" (the corpus has them as the Void domain and the subdomains); Psychokineticist (p. 57) by "UTILITY WILD TALENTS" (the
+# corpus has Elemental Whispers and Greater Elemental Whispers as wild talents).
+SECTION_ENDS = {
+    "ref/arc-cleric/elder-mythos-cultist": "NEW DOMAIN",
+    "ref/arc-kineticist/psychokineticist": "UTILITY WILD TALENTS",
+}
+
+
+def cut_section(entry_id: str, section: list[Para]) -> list[Para]:
+    """The section up to the line that SECTION_ENDS names for the entry."""
+    end = SECTION_ENDS.get(entry_id)
+    if not end:
+        return section
+    for i, p in enumerate(section[1:], 1):
+        if squash(p.plain()).startswith(squash(end)):
+            return section[:i]
+    return section
+
+
 def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
     """The comparison of one archetype with its printed section: a row for each printed head, in print
     order, then one for each feature of the import that print lacks."""
+    section = cut_section(e.id, section)
     plain_names = [m.group(1) for b in blocks_of(e.body) for m in [NAME_BLOCK.match(logical(b))] if m]
     probe = {namekey(h) for h in [head_of_para(p) for p in section[1:]] if h}
     opening_imp, feats = parse_import(e.body, probe)
