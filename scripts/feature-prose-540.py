@@ -854,9 +854,26 @@ TRADE_SUBJECT_WORDS = (r"ability|abilities|class|feature|features|power|powers|a
                        r"talent|talents|hex|hexes|discovery|discoveries|revelation|revelations|mercy|mercies|deed|deeds|exploit|"
                        r"exploits|arcana|arcanum|feat|feats|also|otherwise|acts|works|functions|as|like|and|bonus|spells|skills")
 TRADE_SENTENCE = re.compile(
-    r"(?:^|(?<=[.!?]\s)|(?<=[.!?]\)\s))((?:This|These|It)\b(?:\s+(?:" + TRADE_SUBJECT_WORDS + r"))*\s+(replaces?|alters?|changes?)\b[^.]*\.)",
+    r"(?:^|(?<=[.!?]\s)|(?<=[.!?]\)\s))((?:This|These|It)\b(?:\s+(?:bonus\s+feats?\s+choices?|" + TRADE_SUBJECT_WORDS + r"))*\s+(replaces?|alters?|changes?)\b[^.]*\.)",
     re.I,
 )
+
+
+def _trade_matches(text: str) -> list:
+    """The matches of TRADE_SENTENCE. A sentence that starts after ".)" counts only when that ")" closes a "(" opened
+    earlier in the text (the reader's rule of #714: "(Those marked with an asterisk are detailed in this book.) This
+    alters ..."); a stray ".) This ..." starts none. "choices" is a subject word only right after "bonus feat(s)"."""
+    out = []
+    for m in TRADE_SENTENCE.finditer(text):
+        at = m.start(1)
+        if at >= 2 and text[at - 2] == ")" and text[at - 3:at - 2] in ".!?":
+            before = text[:at - 2]
+            if before.count("(") <= before.count(")"):
+                continue
+        out.append(m)
+    return out
+
+
 ABILITY_NOUN = (r"\b(?:ability|abilities|feature|features|power|powers|archetype|performances?|tricks?|talents?|hex(?:es)?|"
                 r"discover(?:y|ies)|revelations?|merc(?:y|ies)|deeds?|exploits?|arcana|arcanum)\b")
 
@@ -885,7 +902,7 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
     text = re.sub(r"[\\_*]", "", text)
     text = re.sub(r"\s+", " ", text)        # a paragraph break inside a sentence (a column or page break) does not end it
     out = []
-    found = [(m.group(1), m.start(1)) for m in TRADE_SENTENCE.finditer(text)]
+    found = [(m.group(1), m.start(1)) for m in _trade_matches(text)]
     plain = ABILITY_TAG.sub("", head).strip() if head else ""
     if plain:                                 # R12
         for m in re.finditer(r"(?:^|(?<=[.!?]\s))(" + re.escape(plain) + r"\s+(?:replaces?|alters?|changes?)\b[^.]*\.)", text, re.I):
@@ -2050,7 +2067,7 @@ def trade_asides(text: str) -> list[tuple[str, str]]:
     text = re.sub(r"[\\_*]", "", text)
     text = re.sub(r"\s+", " ", text)
     out = []
-    for m in TRADE_SENTENCE.finditer(text):
+    for m in _trade_matches(text):
         sentence = m.group(1)
         verb = re.search(r"\b(replaces?|alters?|changes?)\b", sentence, re.I)
         a = re.search(r"\s*\(([^()]*)\)\.?\s*$", sentence)
@@ -3248,6 +3265,11 @@ def self_test() -> int:
     eq(print_md(PrintFeature("X", [[("Bore bomb** and talent*.", False, False)]], 1), [], set(), "ref/x")[0], "Bore bomb and talent.", "asterisks without a key are dropped whole")
     eq(print_md(PrintFeature("X", [[("Bore bomb*.", False, False)]], 1), [], set(), "ref/x", True)[0], "Bore bomb\\*.", "asterisks with a key stay")
     eq(bool(trade_sentences("(Those marked with an asterisk are detailed in this book.) This alters the bonus feat class ability.")), True, "a trade sentence after a closing parenthesis")
+    eq(trade_sentences("A bonus of 1.) This replaces bravery."), [], "a stray closing parenthesis starts no sentence")
+    eq(trade_sentences("A bravery bonus (Ex) This alters armor training."), [], "a tag is no sentence end")
+    eq(trade_sentences("These bonus feat choices replace Dodge, Mobility, and Spring Attack on his bonus feat list."),
+       [("replaces", "Dodge, Mobility, and Spring Attack on his bonus feat list", True)], "bonus feat choices are a bare subject")
+    eq(trade_sentences("These choices replace Dodge."), [], "choices alone is no subject word")
     print(f"self-test: {ok} checks passed")
     return 0
 
