@@ -16,48 +16,48 @@ page = "64"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "deeds" },
-  { anchor = "stacked-deck", level = 1 },
-  { anchor = "fist-fighter", level = 3 },
-  { anchor = "gun-twirl", level = 3 },
-]
 trades = [
-  { replaces = "Gunslinger's dodge deed", feature = "deeds", power = "gunslinger's dodge", by = ["stacked-deck"] },
-  { replaces = "Pistol whip deed", feature = "deeds", power = "pistol whip", by = ["fist-fighter"] },
-  { replaces = "Gunslinger initiative deed", feature = "deeds", power = "gunslinger initiative", by = ["gun-twirl"] },
+  { replaces = "Gunslinger's dodge deed", feature = "deeds", power = "gunslinger's dodge" },
+  { replaces = "Pistol whip deed", feature = "deeds", power = "pistol whip" },
+  { replaces = "Gunslinger initiative deed", feature = "deeds", power = "gunslinger initiative" },
 ]
 +++
 
 Trouble always finds a maverick, whether she is a con artist or an honest gambler. Quick with her
 gun and no stranger to barroom brawls, she can hold her own when bullets and punches start flying.
 
-## Deeds {#deeds}
+**Deeds**
 
-A maverick gains the following three deeds.
+**Info:** A maverick gains the following three deeds.
 
-## Stacked Deck (Ex) {#stacked-deck}
+**Stacked Deck (Ex)**
 
-At 1st level, the maverick can spend 1 grit point when she attempts a Bluff, Profession (gambler),
-or Sleight of Hand check to roll 1d6 and add the result to the check. She can do this after she
-rolls the check but before the result is revealed. If the result of the d6 roll is a natural 6, she
-rolls another 1d6 and adds it to the check. She can continue to do this as long as she rolls natural
-6s, up to a number of times equal to her Wisdom modifier (minimum 1).
+**Ability:** The maverick can spend 1 grit point when she attempts a Bluff, Profession (gambler), or
+Sleight of Hand check to roll 1d6 and add the result to the check. She can do this after she rolls
+the check but before the result is revealed. If the result of the d6 roll is a natural 6, she rolls
+another 1d6 and adds it to the check. She can continue to do this as long as she rolls natural 6s,
+up to a number of times equal to her Wisdom modifier (minimum 1).
 
-This deed replaces the gunslinger's dodge deed.
+**Gained:** At 1st Level
 
-## Fist Fighter (Ex) {#fist-fighter}
+**Replaces:** Gunslinger's dodge deed
 
-At 3rd level, as long as the maverick has at least 1 grit point, she gains the benefit of the
+**Fist Fighter (Ex)**
+
+**Ability:** As long as the maverick has at least 1 grit point, she gains the benefit of the
 [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat.
 
-This deed replaces the pistol whip deed.
+**Gained:** At 3rd Level
 
-## Gun Twirl (Ex) {#gun-twirl}
+**Replaces:** Pistol whip deed
 
-At 3rd level, as long as the maverick has at least 1 grit point, she can use flashy gunplay to
+**Gun Twirl (Ex)**
+
+**Ability:** As long as the maverick has at least 1 grit point, she can use flashy gunplay to
 intimidate her opponents. She gains the [Dazzling Display](ref/feat/dazzling-display) feat and can
 use it with any firearm, even if she doesn't have [Weapon Focus](ref/feat/weapon-focus) in that
 firearm.
 
-This deed replaces the gunslinger initiative deed.
+**Gained:** At 3rd Level
+
+**Replaces:** Gunslinger initiative deed

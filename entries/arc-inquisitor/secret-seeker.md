@@ -16,16 +16,11 @@ page = "29"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "occult-lore", level = 1 },
-  { anchor = "detect-mind", level = 5 },
-  { anchor = "seek-mind", level = 14 },
-]
 trades = [
-  { replaces = "Monster lore", feature = "monster-lore", by = ["occult-lore"] },
-  { replaces = "Bane", feature = "bane", by = ["detect-mind"] },
-  { replaces = "greater bane", feature = "greater-bane", by = ["detect-mind"] },
-  { replaces = "Exploit weakness", feature = "exploit-weakness", by = ["seek-mind"] },
+  { replaces = "Monster lore", feature = "monster-lore" },
+  { replaces = "Bane", feature = "bane" },
+  { replaces = "greater bane", feature = "greater-bane" },
+  { replaces = "Exploit weakness", feature = "exploit-weakness" },
 ]
 +++
 
@@ -33,38 +28,44 @@ Secret seekers are trained in the art of extracting answers from intransigent fo
 torture is a poor method of securing truthful intelligence, secret seekers instead prefer magical
 means of inquiry.
 
-## Occult Lore (Su) {#occult-lore}
+**Occult Lore (Su)**
 
-A secret seeker gains access to the [prognostication](ref/skill/sense-motive) and
-[read aura](ref/skill/perception) occult skill unlocks, but not the other occult skill unlocks. If
-she ever chooses to gain the [Psychic Sensitivity](ref/feat/psychic-sensitivity) feat or otherwise
-gains access to all occult skill unlocks, she receives [Psychic Maestro](ref/feat/psychic-maestro)
-as a bonus feat, with prognostication and read aura as the two occult skill unlocks selected.
+**Ability:** A secret seeker gains access to the [prognostication](ref/skill/sense-motive) and
+[read aura](ref/skill/perception) occult skill unlocks, but not the other occult skill unlocks.
 
-This ability replaces monster lore.
+**Replaces:** Monster lore
 
-## Detect Mind (Sp) {#detect-mind}
+**Special:** If she ever chooses to gain the [Psychic Sensitivity](ref/feat/psychic-sensitivity)
+feat or otherwise gains access to all occult skill unlocks, she receives
+[Psychic Maestro](ref/feat/psychic-maestro) as a bonus feat, with prognostication and read aura as
+the two occult skill unlocks selected.
 
-At 5th level, a secret seeker can _[detect anxieties](ref/spell/detect-anxieties)_ (see page 211),
-_[detect desires](ref/spell/detect-desires)_ (see page 211), or
-_[detect thoughts](ref/spell/detect-thoughts)_, as per the spells, for a number of rounds per day
-equal to twice her inquisitor level. These rounds need not be consecutive. A creature that succeeds
-at a saving throw against this ability is immune to that secret seeker's detect mind ability for 24
-hours. If the secret seeker has the [secrets](ref/inquisition/secrets) inquisition (see page 28),
-she doubles the number of rounds per day that she can use this ability.
+**Detect Mind (Sp)**
 
-At 12th level, a secret seeker can use her detect mind ability for a number of minutes per day equal
-to twice her inquisitor level, rather than rounds. These minutes need not be consecutive but must be
-spent in 1-minute increments. If the secret seeker has the secrets inquisition, she doubles the
-number of minutes per day she can use this ability.
+**Ability:** A secret seeker can [detect anxieties](ref/spell/detect-anxieties),
+[detect desires](ref/spell/detect-desires), or [detect thoughts](ref/spell/detect-thoughts), as per
+the spells, for a number of rounds per day equal to twice her inquisitor level. These rounds need
+not be consecutive. A creature that succeeds at a saving throw against this ability is immune to
+that secret seeker's detect mind ability for 24 hours. If the secret seeker has the
+[secrets](ref/inquisition/secrets) inquisition, she doubles the number of rounds per day that she
+can use this ability.
 
-This ability replaces bane and greater bane.
+**At 12th Level:** A secret seeker can use her _detect mind_ ability for a number of minutes per day
+equal to twice her inquisitor level, rather than rounds. These minutes need not be consecutive but
+must be spent in 1-minute increments. If the secret seeker has the _secrets_ inquisition, she
+doubles the number of minutes per day she can use this ability.
 
-## Seek Mind (Sp) {#seek-mind}
+**Gained:** At 5th Level
 
-At 14th level, a secret seeker can use her detect mind ability to seek out people with particular
-anxieties, desires, or thoughts. This functions as per _[seek thoughts](ref/spell/seek-thoughts)_
+**Replaces:** Bane, greater bane
+
+**Seek Mind (Sp)**
+
+**Ability:** A secret seeker can use her _detect mind_ ability to seek out people with particular
+anxieties, desires, or thoughts. This functions as per [seek thoughts](ref/spell/seek-thoughts)
 except that it works with any of the three types of mental output the secret seeker can detect with
 detect mind.
 
-This ability replaces exploit weakness.
+**Gained:** At 14th Level
+
+**Replaces:** Exploit weakness

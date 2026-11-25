@@ -16,17 +16,11 @@ page = "47"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "scam-artist", level = 1 },
-  { anchor = "sticky-fingers", level = 2 },
-  { anchor = "lucky-save", level = 3 },
-  { anchor = "audacious-overconfidence", level = 4 },
-]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding", by = ["scam-artist"] },
-  { replaces = "Rogue talents gained at 2nd, 6th, and 8th levels", feature = "rogue-talents", levels = [2, 6, 8], by = ["sticky-fingers"] },
-  { replaces = "Trap sense", feature = "trap-sense", by = ["lucky-save"] },
-  { replaces = "Rogue talents gained at 4th, 10th, and 16th levels", feature = "rogue-talents", levels = [4, 10, 16], by = ["audacious-overconfidence"] },
+  { replaces = "Trapfinding", feature = "trapfinding" },
+  { replaces = "Rogue talents gained at 2nd, 6th, and 8th levels", feature = "rogue-talents", levels = [2, 6, 8] },
+  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Rogue talents gained at 4th, 10th, and 16th levels", feature = "rogue-talents", levels = [4, 10, 16] },
 ]
 +++
 
@@ -36,47 +30,54 @@ of their schemes, which are usually impromptu, rather than carefully orchestrate
 consider themselves romantic figures and foster the image of a resourceful, dashing rogue living by
 wits and luck while subverting authority at every turn.
 
-## Scam Artist (Ex) {#scam-artist}
+**Scam Artist (Ex)**
 
-A sharper gains a bonus equal to half her rogue level (minimum +1) on all Bluff and Sleight of Hand
-checks.
+**Passive:** A sharper gains a bonus equal to half her rogue level (minimum +1) on all Bluff and
+Sleight of Hand checks.
 
-This ability replaces trapfinding.
+**Replaces:** Trapfinding
 
-## Sticky Fingers (Ex) {#sticky-fingers}
+**Sticky Fingers (Ex)**
 
-At 2nd level, a sharper receives [Improved Steal](ref/feat/improved-steal) as a bonus feat. At 6th
-level, she receives [Greater Steal](ref/feat/greater-steal) as a bonus feat, and at 8th level, she
-receives [Quick Steal](ref/feat/quick-steal) as a bonus feat. The sharper gains these feats even if
-she doesn't meet the prerequisites.
+**At 8th Level:** She receives [Quick Steal](ref/feat/quick-steal) as a bonus feat.
 
-This ability replaces the rogue talents gained at 2nd, 6th, and 8th levels.
+**At 2nd Level:** A sharper receives [Improved Steal](ref/feat/improved-steal) as a bonus feat.
 
-## Lucky Save (Su) {#lucky-save}
+**At 6th Level:** She receives [Greater Steal](ref/feat/greater-steal) as a bonus feat.
 
-At 3rd level, when a sharper's wits aren't enough to pull her out of a bad situation, her luck still
-just might save her. She gains a +1 luck bonus on all saving throws. This bonus increases to +2 at
-9th level and to +3 at 15th level.
+**Replaces:** Rogue talents gained at 2nd, 6th, and 8th levels
 
-This ability replaces trap sense.
+**Special:** The sharper gains these feats even if she doesn't meet the prerequisites.
 
-## Audacious Overconfidence (Ex) {#audacious-overconfidence}
+**Lucky Save (Su)**
 
-At 4th level, after failing an attack roll, skill check, or saving throw, a sharper can reduce her
-saving throw bonus from lucky save by 1 for 24 hours in order to reroll the failed roll. She can use
-this ability once per day at 4th level, plus an additional time per day at 10th level and again at
-16th level. The decreases to her bonus from lucky save stack with each other.
+**Flavor:** When a sharper's wits aren't enough to pull her out of a bad situation, her luck still
+just might save her.
 
-This ability replaces the rogue talents gained at 4th, 10th, and 16th levels.
+**At 3rd Level:** She gains a +1 luck bonus on all saving throws.
 
-## Rogue Talents {#rogue-talents}
+**Replaces:** Trap sense
 
-The following rogue talents complement the sharper archetype: charmer, convincing lie, deft palm,
-false friend, fast fingers, follow along, honeyed words, obfuscate story, shades of gray, and steal
-the story (as well as certainty for an unchained rogue).
+At 9th level: This bonus increases to +2.
 
-## Advanced Talents {#advanced-talents}
+At 15th level: This bonus increases to +3.
 
-The following advanced talents complement the sharper archetype: another day, defensive roll, hidden
-mind, improved evasion, redirect attack, and skill mastery (as well as cutting edge for an unchained
-rogue).
+**Audacious Overconfidence (Ex)**
+
+**Ability:** After failing an attack roll, skill check, or saving throw, a sharper can reduce her
+saving throw bonus from _lucky save_ by 1 for 24 hours in order to reroll the failed roll.
+
+**Gained:** At 4th Level
+
+**Replaces:** Rogue talents gained at 4th, 10th, and 16th levels
+
+**Special:** The decreases to her bonus from _lucky save_ stack with each other.
+
+**Usage:** 1 time/day + 1 per 6 rogue levels beyond 4th
+
+**These rogue talents complement this archetype:** Certainty\|unchained rogue only, charmer,
+convincing lie, deft palm, false friend, fast fingers, follow along, honeyed words, obfuscate story,
+shades of gray, steal the story
+
+**These advanced rogue talents complement this archetype:** Another day, cutting edge\|unchained
+rogue only, defensive roll, hidden mind, improved evasion, redirect attack, skill mastery

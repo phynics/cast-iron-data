@@ -16,69 +16,72 @@ page = "31"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "class-skills" },
-  { anchor = "dark-descent" },
-  { anchor = "judgment" },
-  { anchor = "swift-and-silent", level = 1 },
-  { anchor = "deadly-efficiency", level = 14 },
-]
 trades = [
-  { replaces = "Justice judgment", feature = "judgment", power = "justice", by = ["judgment"] },
-  { replaces = "Stern gaze", feature = "stern-gaze", by = ["swift-and-silent"] },
-  { alters = "Domain", feature = "domain", by = ["dark-descent"] },
-  { alters = "Exploit weakness", feature = "exploit-weakness", by = ["deadly-efficiency"] },
+  { replaces = "Justice judgment", feature = "judgment", power = "justice" },
+  { replaces = "Stern gaze", feature = "stern-gaze" },
+  { alters = "Domain", feature = "domain" },
+  { alters = "Exploit weakness", feature = "exploit-weakness" },
 ]
 +++
 
 As a consummate lurker in the shadows, an umbral stalker observes the enemies of her faith and
 strikes before the unfortunate victims even know she is skulking nearby.
 
-## Class Skills {#class-skills}
+**Gained class skills:** acro
 
-An umbral stalker adds Acrobatics to her list of class skills, instead of Diplomacy.
+**Lost class skills:** diplo
 
-This alters the inquisitor's class skills.
+**Dark Descent (Su)**
 
-## Dark Descent (Su) {#dark-descent}
+**Alters:** Domain
 
-An umbral stalker gains the Darkness domain with the Night subdomain, even if her deity normally
-doesn't offer it.
+**Info:** An umbral stalker gains the Darkness domain with the Night subdomain, even if her deity
+normally doesn't offer it.
 
-This ability alters domain.
+**Judgment**
 
-## Judgment {#judgment}
+**Ability:** Umbral stalkers are most effective when they get the drop on an opponent. An umbral
+stalker gains access to the following judgment.
 
-Umbral stalkers are most effective when they get the drop on an opponent. An umbral stalker gains
-access to the following judgment.
+**Stalking**
 
-### Stalking {#stalking}
+**Passive:** The umbral stalker gains a +2 sacred bonus on attack rolls against creatures that are
+unaware of her presence (typically because she is invisible or using Stealth).
 
-The umbral stalker gains a +2 sacred bonus on attack rolls against creatures that are unaware of her
-presence (typically because she is invisible or using Stealth). This bonus increases by 2 for every
-5 inquisitor levels she has.
+**Replaces:** Justice judgment
 
-This ability replaces the justice judgment.
+At 5th level: This bonus increases to +4.
 
-## Swift and Silent (Ex) {#swift-and-silent}
+At 10th level: This bonus increases to +6.
 
-Umbral stalkers often descend upon their prey with deadly grace and efficiency. An umbral stalker
-gains a morale bonus on all Acrobatics and Stealth checks equal to
+At 15th level: This bonus increases to +8.
+
+At 20th level: This bonus increases to +10.
+
+**Swift and Silent (Ex)**
+
+**Flavor:** Umbral stalkers often descend upon their prey with deadly grace and efficiency.
+
+**Passive:** An umbral stalker gains a morale bonus on all Acrobatics and Stealth checks equal to
 [half](ref/misc/fractions-and-rounding) her inquisitor level (minimum +1).
 
-This ability replaces stern gaze.
+**Replaces:** Stern gaze
 
-## Deadly Efficiency (Ex) {#deadly-efficiency}
+**Deadly Efficiency (Ex)**
 
-At 14th level, an umbral stalker becomes even deadlier against enemies who haven't yet noticed her
-in the shadows. Whenever she confirms a critical hit against a foe that is unaware of her presence,
-she ignores any [damage reduction](ref/rule/damage-reduction) the target might have and adds her
-Wisdom bonus to her damage roll (this multiplies on the critical hit as normal); in addition, if the
-target has [regeneration](ref/umr/regeneration), the creature loses regeneration on the round
-following the critical hit and can die normally during that round. Creatures whose regeneration
-always functions are immune to this ability.
+**Ability:** Whenever she confirms a critical hit against a foe that is unaware of her presence, she
+ignores any [damage reduction](ref/rule/damage-reduction) the target might have and adds her Wisdom
+bonus to her damage roll (this multiplies on the critical hit as normal); in addition, if the target
+has [regeneration](ref/umr/regeneration), the creature loses regeneration on the round following the
+critical hit and can die normally during that round. Creatures whose regeneration always functions
+are immune to this ability.
 
-Finally, if the umbral stalker deals energy damage to a creature unaware of her presence with
+**Alters:** Exploit weakness
+
+**Flavor:** An umbral stalker becomes even deadlier against enemies who haven't yet noticed her in
+the shadows.
+
+**Gained:** At 14th Level
+
+**Special:** If the umbral stalker deals energy damage to a creature unaware of her presence with
 vulnerability to that energy type, she deals 2 extra points of damage per die rolled.
-
-This ability alters exploit weakness.

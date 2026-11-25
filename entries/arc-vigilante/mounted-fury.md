@@ -16,20 +16,12 @@ page = "58"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "class-skills" },
-  { anchor = "thorough-change" },
-  { anchor = "mount", level = 1 },
-  { anchor = "furious-charge", level = 6 },
-  { anchor = "mighty-charge", level = 12 },
-  { anchor = "vengeance-strike", level = 20 },
-]
 trades = [
-  { replaces = "Vigilante specialization", feature = "vigilante-specialization", by = ["mount"] },
-  { replaces = "Vigilante talent gained at 6th level", feature = "vigilante-talent", levels = [6], by = ["furious-charge"] },
-  { replaces = "Vigilante talent gained at 12th level", feature = "vigilante-talent", levels = [12], by = ["mighty-charge"] },
-  { alters = "Dual identity", feature = "dual-identity", by = ["thorough-change"] },
-  { alters = "Vengeance strike", feature = "vengeance-strike", by = ["vengeance-strike"] },
+  { replaces = "Vigilante specialization", feature = "vigilante-specialization" },
+  { replaces = "Vigilante talent gained at 6th level", feature = "vigilante-talent", levels = [6] },
+  { replaces = "Vigilante talent gained at 12th level", feature = "vigilante-talent", levels = [12] },
+  { alters = "Dual identity", feature = "dual-identity" },
+  { alters = "Vengeance strike", feature = "vengeance-strike" },
 ]
 +++
 
@@ -37,82 +29,94 @@ Some vigilantes form special bonds with the creatures they use as steeds, consid
 and trusted mounts just as much heroes or antiheroes as they might be. Mounted furies often
 masquerade as anonymous stable hands or humble quartermasters to mask their vigilante activities.
 
-## Class Skills {#class-skills}
+**Gained class skills:** ha
 
-A mounted fury adds Handle Animal to his list of class skills, instead of Swim and Use Magic Device.
+**Lost class skills:** swim, umd
 
-This alters the vigilante's class skills.
+**Thorough Change**
 
-## Thorough Change {#thorough-change}
+**Alters:** Dual identity
 
-A mounted fury must take care when changing from one identity to another, including making any
-changes necessary to ensure that his mount is not associated with his social identity and vice versa
-(although if anyone suspects him of being anything other than what he appears to be while in his
-social identity, he need not make a separate Disguise check for his mount). The mounted fury always
-requires 1 minute to change identities, regardless of other effects that reduce the time required,
-and he cannot choose the [immediate change](ref/soctalent/immediate-change) or
+**Info:** A mounted fury must take care when changing from one identity to another, including making
+any changes necessary to ensure that his mount is not associated with his social identity and vice
+versa (although if anyone suspects him of being anything other than what he appears to be while in
+his social identity, he need not make a separate Disguise check for his mount). The mounted fury
+always requires 1 minute to change identities, regardless of other effects that reduce the time
+required, and he cannot choose the [immediate change](ref/soctalent/immediate-change) or
 [quick change](ref/soctalent/quick-change) social talents.
 
-This alters dual identity.
+**Mount (Ex)**
 
-## Mount (Ex) {#mount}
+**Ability:** A mounted fury gains the service of a loyal and trusty steed to carry him into battle.
+This mount functions as a druid's [animal companion](ref/sidekick/animal-companion), using the
+mounted fury's vigilante level as his effective druid level. The creature must be one that he is
+capable of riding and is suitable as a mount. A Medium mounted fury can select a
+[camel](ref/companion/camel) or a [horse](ref/companion/horse). A Small mounted fury can select a
+[pony](ref/companion/pony) or a [wolf](ref/companion/wolf), but can also select a
+[boar](ref/companion/boar) or a [riding dog](ref/companion/dog) if he is at least 4th level. The GM
+might approve other animals as suitable mounts. A mounted fury can exchange or replace his mount the
+same way that a druid exchanges or replaces her animal companion.
 
-A mounted fury gains the service of a loyal and trusty steed to carry him into battle. This mount
-functions as a druid's [animal companion](ref/sidekick/animal-companion), using the mounted fury's
-vigilante level as his effective druid level. The creature must be one that he is capable of riding
-and is suitable as a mount. A Medium mounted fury can select a [camel](ref/companion/camel) or a
-[horse](ref/companion/horse). A Small mounted fury can select a [pony](ref/companion/pony) or a
-[wolf](ref/companion/wolf), but can also select a [boar](ref/companion/boar) or a
-[riding dog](ref/companion/dog) if he is at least 4th level. The GM might approve other animals as
-suitable mounts. A mounted fury can exchange or replace his mount the same way that a druid
-exchanges or replaces her animal companion.
+**Ability2:** A mounted fury can select avenger vigilante talents, despite not being an avenger. He
+can also select a teamwork feat for which he qualifies in place of a vigilante talent.
 
-A mounted fury does not take an armor check penalty on Ride checks while riding his mount. The mount
-is always considered combat trained and begins play with
+**At 10th Level:** He gains an additional teamwork feat each time he selects a teamwork feat in
+place of a vigilante talent (if he selected any teamwork feats in place of vigilante talents before
+10th level, he gains an additional teamwork feat at 10th level for each time he did so).
+
+**At 3rd Level:** A mounted fury's bond with his mount is strong, with the pair learning to
+anticipate each other's moods and moves. The mounted fury's mount shares all his teamwork feats,
+without needing to meet the prerequisites (although while mounted, the mounted fury and his mount do
+not count as separate creatures for the purpose of these feats).
+
+**At 5th Level:** The mounted fury's mount benefits from the vigilante's _startling appearance_ as
+if it were the vigilante.
+
+**Passive:** A mounted fury does not take an armor check penalty on Ride checks while riding his
+mount. The mount is always considered combat trained and begins play with
 [Light Armor Proficiency](ref/feat/armor-proficiency-light) as a bonus feat. A mounted fury's mount
-does not gain the share spells ability.
+does not gain the _share spells_ ability.
 
-A mounted fury's bond with his mount is strong, with the pair learning to anticipate each other's
-moods and moves. At 3rd level, the mounted fury's mount shares all his teamwork feats, without
-needing to meet the prerequisites (although while mounted, the mounted fury and his mount do not
-count as separate creatures for the purpose of these feats). At 5th level, the mounted fury's mount
-benefits from the vigilante's startling appearance as if it were the vigilante. Should a mounted
-fury's mount die, the mounted fury may find another mount to serve him after 1 week of mourning.
-This new mount does not gain the link or devotion special abilities until the next time the mounted
-fury gains a level.
+**Replaces:** Vigilante specialization
 
-A mounted fury can select avenger vigilante talents, despite not being an avenger. He can also
-select a teamwork feat for which he qualifies in place of a vigilante talent; at 10th level, he
-gains an additional teamwork feat each time he does so (if he selected any teamwork feats in place
-of vigilante talents before 10th level, he gains an additional teamwork feat at 10th level for each
-time he did so).
+**Special:** Should a mounted fury's mount die, the mounted fury may find another mount to serve him
+after 1 week of mourning. This new mount does not gain the _link_ or _devotion_ special abilities
+until the next time the mounted fury gains a level.
 
-This ability replaces vigilante specialization.
+**Furious Charge (Ex)**
 
-## Furious Charge (Ex) {#furious-charge}
+**Flavor:** A mounted fury learns to make more accurate charge attacks while mounted.
 
-At 6th level, a mounted fury learns to make more accurate [charge](ref/rule/charge) attacks while
-mounted. The mounted fury and his mount receive a +4 bonus on melee attack rolls on a charge while
-mounted (instead of the normal +2). In addition, the mounted fury and his mount don't take any
-penalty to AC after making a charge attack while mounted.
+**Gained:** At 6th Level
 
-This replaces the vigilante talent gained at 6th level.
+**Passive:** The mounted fury and his mount receive a +4 bonus on melee attack rolls on a
+[charge](ref/rule/charge) while mounted (instead of the normal +2). In addition, the mounted fury
+and his mount don't take any penalty to AC after making a charge attack while mounted.
 
-## Mighty Charge (Ex) {#mighty-charge}
+**Replaces:** Vigilante talent gained at 6th level
 
-At 12th level, a mounted fury learns to make devastating charge attacks while mounted. He doubles
-the critical threat range of any weapons he wields during a charge while mounted, as well as the
-critical threat range of the mount's attacks. This increase does not stack with other effects that
-increase the threat range of weapons. In addition, the mounted fury can make a free
-[bull rush](ref/rule/bull-rush), [disarm](ref/rule/disarm), [sunder](ref/rule/sunder), or
-[trip](ref/rule/trip) combat maneuver if his charge attack is successful. This free combat maneuver
-does not provoke an attack of opportunity.
+**Mighty Charge (Ex)**
 
-This replaces the vigilante talent gained at 12th level.
+**Ability:** In addition, the mounted fury can make a free [bull rush](ref/rule/bull-rush),
+[disarm](ref/rule/disarm), [sunder](ref/rule/sunder), or [trip](ref/rule/trip) combat maneuver if
+his charge attack is successful. This free combat maneuver does not provoke an attack of
+opportunity.
 
-## Vengeance Strike (Ex) {#vengeance-strike}
+**Flavor:** A mounted fury learns to make devastating charge attacks while mounted.
 
-At 20th level, a mounted fury need not be mounted while he studies a target against whom he plans a
-vengeance strike, but he must be mounted when he makes the strike's attack.
+**Gained:** At 12th Level
 
-This ability alters vengeance strike.
+**Passive:** He doubles the critical threat range of any weapons he wields during a charge while
+mounted, as well as the critical threat range of the mount's attacks. This increase does not stack
+with other effects that increase the threat range of weapons.
+
+**Replaces:** Vigilante talent gained at 12th level
+
+**Vengeance Strike (Ex)**
+
+**Alters:** Vengeance strike
+
+**Info:** A mounted fury need not be mounted while he studies a target against whom he plans a
+_vengeance strike,_ but he must be mounted when he makes the strike's attack.
+
+**Gained:** At 20th Level

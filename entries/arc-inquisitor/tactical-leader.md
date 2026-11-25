@@ -16,54 +16,62 @@ page = "29"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "leader-s-words", level = 1 },
-  { anchor = "tactician", level = 3 },
-  { anchor = "battle-acumen", level = 14 },
-]
 trades = [
-  { replaces = "Stern gaze", feature = "stern-gaze", by = ["leader-s-words"] },
-  { replaces = "Solo tactics", feature = "solo-tactics", by = ["tactician"] },
-  { replaces = "teamwork feats", feature = "teamwork-feat", by = ["tactician"] },
-  { replaces = "Exploit weakness", feature = "exploit-weakness", by = ["battle-acumen"] },
+  { replaces = "Stern gaze", feature = "stern-gaze" },
+  { replaces = "Solo tactics", feature = "solo-tactics" },
+  { replaces = "teamwork feats", feature = "teamwork-feat" },
+  { replaces = "Exploit weakness", feature = "exploit-weakness" },
 ]
 +++
 
 Rather than pursuing their holy missions alone, some inquisitors see the inherent value of working
 with like-minded allies to accomplish mutual goals.
 
-## Leader's Words (Ex) {#leader-s-words}
+**Leader's Words (Ex)**
 
-Tactical leaders are skilled at speaking soothing words that keep the peace and bolster allies'
-resolve. A tactical leader receives a morale bonus on all Diplomacy checks equal to half his
+**Flavor:** Tactical leaders are skilled at speaking soothing words that keep the peace and bolster
+allies' resolve.
+
+**Passive:** A tactical leader receives a morale bonus on all Diplomacy checks equal to half his
 inquisitor level (minimum +1).
 
-This ability replaces stern gaze.
+**Replaces:** Stern gaze
 
-## Tactician (Ex) {#tactician}
+**Tactician (Ex)**
 
-At 3rd level, 9th level, and 18th level, a tactical leader gains a teamwork feat as a bonus feat. He
-must meet the prerequisites for this feat. As a standard action, the tactical leader can grant one
-of these feats to all allies within 30 feet who can see and hear him. Allies retain the use of this
-bonus feat for 3 rounds plus 1 round for every 2 inquisitor levels the tactical leader has. Allies
-do not need to meet the prerequisites of these bonus feats. The tactical leader can use this ability
-once per day at 3rd level, plus one additional time per day at 6th, 9th, 15th, and 18th level.
+**At 12th Level:** A tactical leader can use the _tactician_ ability as a **swift action**.
 
-At 12th level, a tactical leader can use the tactician ability as a swift action. At 18th level,
-whenever the tactical leader uses this ability, he grants any two teamwork feats that he knows. He
-can select from any of his teamwork feats, not just his bonus feats.
+**At 18th Level:** Whenever the tactical leader uses this ability, he grants any two teamwork feats
+that he knows. He can select from any of his teamwork feats, not just his bonus feats.
 
-If the tactical leader also has [cavalier](ref/class/cavalier) levels, these levels stack for
-determining the number of uses of this ability per day.
+**At 18th Level:** He gains a third teamwork feat, as above.
 
-This ability replaces solo tactics and teamwork feats.
+**At 3rd Level:** A tactical leader gains a teamwork feat as a bonus feat. He must meet the
+prerequisites for this feat.
 
-## Battle Acumen (Ex) {#battle-acumen}
+**At 9th Level:** He gains another teamwork feat, as above.
 
-At 14th level, a tactical leader can grant his judgment benefits to a single other ally within 30
-feet who can see and hear the tactical leader as an immediate action. These benefits last until the
-beginning of the tactical leader's next turn. A tactical leader must have a judgment active to use
-this ability and the benefits granted are the same as those selected by his judgment. A tactical
-leader can use this ability a number of times per day equal to his Wisdom modifier (minimum 1).
+**Replaces:** Solo tactics, teamwork feats
 
-This ability replaces exploit weakness.
+**Special:** If the tactical leader also has [cavalier](ref/class/cavalier) levels, these levels
+stack for determining the number of uses of this ability per day.
+
+**Standard:** The tactical leader can grant one of these feats to all allies within 30 feet who can
+see and hear him. Allies retain the use of this bonus feat for a number of rounds equal to 3 +
+[half](ref/misc/fractions-and-rounding) of his inquisitor level. Allies do not need to meet the
+prerequisites of these bonus feats.
+
+**Usage:** 1 time/day per 3 inquisitor levels
+
+**Battle Acumen (Ex)**
+
+**Immediate:** A tactical leader can grant his _judgment_ benefits to a single other ally within 30
+feet who can see and hear the tactical leader. These benefits last until the beginning of the
+tactical leader's next turn. A tactical leader must have a _judgment_ active to use this ability and
+the benefits granted are the same as those selected by his _judgment._
+
+**Gained:** At 14th Level
+
+**Replaces:** Exploit weakness
+
+**Usage:** Wis modifier times/day

@@ -110,6 +110,9 @@ SCAFFOLD = {
     "size", "speed", "attack", "ac", "ability scores", "companion type", "prerequisites", "effect", "use",
     "cost", "action", "bonus spells", "bonus feats", "weapon and armor proficiency",
     "skills", "alignment",     # owner ruling 19 of 2026-11-24 (an app list change)
+    # owner ruling 33 of 2026-11-25: the variants of the proficiency, skill ranks and class skills sections
+    "weapon and armor proficiencies", "weapon proficiencies", "weapon proficiency", "armor proficiency",
+    "armor proficiencies", "skill ranks per level", "class skills", "class skill",
 }
 
 # ---- text helpers -----------------------------------------------------------------------------------
@@ -721,6 +724,11 @@ CLASS_TITLES = {squash(x) for x in (
     "Magus", "Monk", "Oracle", "Paladin", "Ranger", "Rogue", "Sorcerer", "Summoner", "Witch", "Wizard", "Archetypes")}
 
 
+# a title that names a type of rules ("ORDER OF THE SHROUD (CAVALIER ORDER)", "NEW WILD TALENTS (KINETICIST)") ends the
+# section of an archetype: it is the next entry of the book, not a sidebar of this one
+TYPE_TITLE = re.compile(r"\([A-Z][A-Z' -]+\)\s*$")
+
+
 def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) -> list[Para] | None:
     """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
     title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
@@ -739,7 +747,8 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                 if nxt.kind == "title":
                     k = squash(nxt.plain())
                     # another archetype, a class, or a chapter title (a larger font) ends the section
-                    if stops is None or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30:
+                    if (stops is None or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
+                            or TYPE_TITLE.search(nxt.plain())):
                         break
                     out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
                 else:
@@ -1275,6 +1284,21 @@ def read_edits(corpus: Path, book: str) -> dict[tuple[str, str], tuple[str, str]
     return out
 
 
+def read_adds(corpus: Path, book: str) -> dict[str, list[dict]]:
+    """Sections that another owner book prints and that the entry carries (owner ruling 32 of 2026-11-25): `[[add]]` in
+    `scripts/feature-prose-540-<book>.edits.toml` with `entry`, `anchor`, `head`, `parent`, `after`, `note` and `text`.
+    The section is an unlisted subheading of `parent`, behind the feature `after`; its head and text name the other
+    book and page, checked against that book's print."""
+    path = corpus / "scripts" / f"feature-prose-540-{book}.edits.toml"
+    out: dict[str, list[dict]] = {}
+    if path.exists():
+        for row in tomllib.loads(path.read_text(encoding="utf-8")).get("add", []):
+            if set(row) != {"entry", "anchor", "head", "parent", "after", "note", "text"}:
+                raise SystemExit(f"{path}: an add needs exactly entry, anchor, head, parent, after, note and text")
+            out.setdefault(row["entry"], []).append(row)
+    return out
+
+
 def tsv_path(corpus: Path, book: str) -> Path:
     return corpus / "scripts" / f"feature-prose-540-{book}.tsv"
 
@@ -1441,24 +1465,29 @@ def is_scaffold(head: str) -> bool:
     return head.strip().rstrip(":").strip().lower() in SCAFFOLD
 
 
-def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], entry_id: str = "",
-             keep_marks: bool = False) -> tuple[str, list[str], list[str]]:
-    """The printed paragraphs as Markdown, the link texts that found no place, and the notes (misprint fixes,
-    dropped asterisks)."""
-    paras = []
-    for runs in feat.paras:
-        s = finish_text(clean_runs(runs), vocab)
+def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
+    """The finished paragraphs of cleaned runs. A line of a sidebar that print sets in a narrow column starts no
+    paragraph of its own: a paragraph that ends without a sentence end continues (a list item, a heading or a table
+    cell that print sets alone ends so too: those are hand-written, see `edits.toml`)."""
+    paras: list[str] = []
+    for raw in raw_paras:
+        s = finish_text(raw, vocab)
         if not s:
             continue
-        # a line of a sidebar that print sets in a narrow column starts no paragraph of its own: a paragraph that ends
-        # without a sentence end continues (a list item, a heading or a table cell that print sets alone ends so too:
-        # those are hand-written, see `edits.toml`)
         if paras and not re.search(r"(?:[.!?:;]|[.!?]\))\s*$", paras[-1].rstrip().removesuffix(I_CLOSE)):
             joined = fix_hyphens(paras[-1].rstrip() + " " + s, vocab)
             joined = re.sub(I_CLOSE + r"\s+" + I_OPEN + r"(?=[,;.)])", "", joined)      # an italic run that a line end cut
             paras[-1] = re.sub(I_CLOSE + r"\s+" + I_OPEN, " ", joined)
         else:
             paras.append(s)
+    return paras
+
+
+def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], entry_id: str = "",
+             keep_marks: bool = False) -> tuple[str, list[str], list[str]]:
+    """The printed paragraphs as Markdown, the link texts that found no place, and the notes (misprint fixes,
+    dropped asterisks)."""
+    paras = join_wrapped([clean_runs(runs) for runs in feat.paras], vocab)
     text = "\n\n".join(paras)
     notes: list[str] = []
     fixed = re.sub(r"^A (\d+(?:st|nd|rd|th) level\b)", r"At \1", text)
@@ -1488,7 +1517,10 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     xref = re.sub(r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
                   r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
                   r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?(?=\))", "", xref)
-    xref = re.sub(r"\s*\((?![Ss]ee\b)(?=[^()]{0,70}\))[^()]*\bpage\s*\d+[^()]*\)", "", xref)     # a short one only: a long one has text
+    # a parenthesis that is only "page 83" or "Core Rulebook page 469" (a title of capitalized words, then the page): a
+    # citation with words of its own ("as if he had cast greater magic aura; see page 219", "as lesser simulacrum on
+    # page 238 of Ultimate Magic") has a rule or a pointer and stays (owner rulings 16 and 26)
+    xref = re.sub(r"\s*\(\s*(?:[\x01_]*[A-Z][\w'\u2019:, \-]*?[\x02_]*\s+)?page[\s_\x01\x02]*\d+(?:[\u2013-]\d+)?\s*\)", "", xref)
     if xref != text:
         notes.append("printed cross-reference left out")
         text = xref
@@ -1553,6 +1585,19 @@ def import_name(entry_id: str, name: str) -> str:
     return IMPORT_HEAD_FIXES.get((entry_id, name), name)
 
 
+# Links the import lacks and the owner asked for (a feature of the entry, found by its printed head): the entry, the
+# anchor, the labels and targets. Gunmaster (Ultimate Intrigue p. 61): "the gunslinger's gunsmith ability".
+EXTRA_LINKS = {
+    ("ref/arc-vigilante/gunmaster", "gunmaster"): [("gunsmith", "ref/class/gunslinger#gunsmith")],
+}
+
+# A misprint of an opening text, which the compare keeps from the import when the words agree: the entry and the note
+# that the review table records (owner ruling 9).
+OPENING_NOTES = {
+    "ref/arc-bard/masked-performer": 'misprint fixed: print has "a entertainer" in the opening text, written "an entertainer" (the import has the article right)',
+}
+
+
 def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str]) -> bool:
     """Whether the printed section holds a key of its asterisks (a sentence that names the asterisk and is not the
     book's "An asterisk (*) indicates ..." line): then its marks stay (owner ruling 10)."""
@@ -1613,7 +1658,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
             continue
         f = feats[idx]
         draft = build_draft(f)
-        text, lost, pnotes = print_md(pf, old_links(f), vocab, e.id, keep)
+        text, lost, pnotes = print_md(pf, old_links(f) + EXTRA_LINKS.get((e.id, anchor_of(head)), []), vocab, e.id, keep)
         # a printed "(see ...)" cross-reference is kept in the text but is not a rule word: the corpus links instead
         cmp = compare_feature(draft, re.sub(r"\s*\([Ss]ee\b[^()]*\)", "", text), set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
         # the whole row, then its parts: a name that is a list ("The 1st-, 9th-, and 15th-level channel energy
@@ -1638,7 +1683,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                          "links": old_links(f),
                          "draft": build_draft(f).text, "level_import": None, "head": head_text(f.name), "print": "",
                          "status": "hold", "notes": ["head not printed"], "listed": False, "name": f.name})
-    opening = [render_marks(finish_text(clean_runs(r), vocab)) for r in opening_print]
+    opening = [render_marks(x) for x in join_wrapped([clean_runs(r) for r in opening_print], vocab)]
     links = [(m.group(2), m.group(3)) for b in opening_imp for m in LINK.finditer(logical(b))]
     for i, f in enumerate(feats):
         if i not in used:
@@ -2051,6 +2096,12 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             r["print"] = edit[0]
             r["status"] = "print"
             r["notes"] = [edit[1]] + [n for n in r["notes"] if n.startswith(("print:", "level", "ruling"))]
+    for add in res.get("adds", {}).get(e.id, []):
+        row = {"anchor": add["anchor"], "span": "", "page": "", "pseudo": False, "draft": "", "level_import": None,
+               "head": add["head"], "print": add["text"].strip("\n"), "status": "print", "notes": [add["note"]],
+               "listed": False, "name": add["head"], "option": False, "parent": add["parent"] or None}
+        at = next((i for i, x in enumerate(rows) if x["anchor"] == add["after"]), len(rows) - 1)
+        rows.insert(at + 1, row)
     # a decided row of the first kind that moved text into another row is re-decided there
     for r in rows:
         dec = decisions.get((e.id, r["anchor"]))
@@ -2142,13 +2193,17 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 for t in mine:
                     cls = t.get("class") or (e.classes[0] if e.classes else "")
                     firsts.append(bool(cls) and first_level_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache))
-                if all(firsts) and all(trade_name(t)[0] == "replaces" for t in mine):
+                # ruling 11, refined by ruling 35: one replaced 1st-level feature is enough, even when the feature also
+                # replaces later ones (Hussar's Fast Mount)
+                if any(f and trade_name(t)[0] == "replaces" for f, t in zip(firsts, mine)):
                     r["level"] = 1
-                    r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", gained at 1st level in the class table")
+                    r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for f, t in zip(firsts, mine) if f) + ", gained at 1st level in the class table")
         if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold" \
                 and (e.id, r["anchor"]) not in decisions:
             r["status"] = "hold"
             r["notes"].append(f"level: corpus {ordinal(r['level_import'])}, print {ordinal(r['level'])}")
+    if e.id in OPENING_NOTES:
+        rows[0]["notes"].append(OPENING_NOTES[e.id])
     for text in res.get("opening_dropped", []):
         rows[0]["notes"].append("opening note that print does not have dropped (ruling 10): \u201c" + " ".join(text.split()[:9]) + " \u2026\u201d")
     return {"rows": rows, "problems": problems, "by": by, "opening": res["opening"], "dropped": dropped,
@@ -2168,6 +2223,7 @@ def run_compare(args) -> int:
     old_props = read_proposals(proposals_path(corpus, book))
     decisions = read_decisions(corpus, book)
     edits = read_edits(corpus, book)
+    adds = read_adds(corpus, book)
     stops = {squash(x.title) for x in entries} | CLASS_TITLES
     whole = None
     done = {e.id for e in entries if e.converted}
@@ -2197,6 +2253,7 @@ def run_compare(args) -> int:
         res = compare_entry(e, section, bk)
         res["decisions"] = decisions
         res["edits"] = edits
+        res["adds"] = adds
         fin = finalize(e, res)
         if book in PRINTINGS and fin["rows"]:
             fin["rows"][0]["notes"].append(f"print: {PRINTINGS[book]}")
@@ -2653,6 +2710,16 @@ def self_test() -> int:
     pf = PrintFeature("Bullet Deflection (Ex)", [[("(including the alchemist's bomb class ability; ", False, False), ("Advanced Player's Guide", False, True), (" 28). It works.", False, False)]], 50)
     text, _, notes = print_md(pf, [("alchemist's", "ref/class/alchemist")], set(), "ref/arc-gunslinger/gun-tank")
     eq(text, "(including the [alchemist's](ref/class/alchemist) bomb class ability). It works.", "ruling 26: a bare book citation goes, the link stays")
+    # a section ends at a parenthesized type title (owner review of batch 3), not only at an archetype title
+    blocks = [Para("title", [("SILVER BALLADEER (BARD ARCHETYPE)", True, False)], 1, 0, 18), Para("para", [("Text.", False, False)], 1, 0),
+              Para("title", [("ORDER OF THE SHROUD (CAVALIER ORDER)", True, False)], 1, 0, 18), Para("para", [("Order text.", False, False)], 1, 0)]
+    eq(len(find_section(blocks, "Silver Balladeer", set()) or []), 2, "a type title ends the section")
+    # a parenthesis that has words of its own stays, a bare page citation goes
+    pf = PrintFeature("Hidden Magic (Sp)", [[("Items (as if he had cast greater magic aura; see page 219) and (page 83) and (Core Rulebook page 469) end.", False, False)]], 67)
+    text, _, notes = print_md(pf, [], set(), "ref/arc-monk/black-asp")
+    eq(text, "Items (as if he had cast greater magic aura; see page 219) and and end.", "a citation with words stays, a bare one goes")
+    eq(is_scaffold("Weapon and Armor Proficiencies") and is_scaffold("Class Skills") and is_scaffold("Skill Ranks per Level"), True, "scaffold variants")
+    eq(join_wrapped(["the vox's mesmerist spells use both", "thought and verbal components. Next."], set()), ["the vox's mesmerist spells use both thought and verbal components. Next."], "wrapped sidebar lines join")
     # ruling 11: the Special column of the class table, with its suffixes, never a spell-slot or fast-movement column
     import tempfile
     with tempfile.TemporaryDirectory() as tmp:

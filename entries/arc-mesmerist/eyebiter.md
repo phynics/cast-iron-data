@@ -16,18 +16,12 @@ page = "36"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "eyeball-familiar" },
-  { anchor = "ocular-occlusion", level = 3 },
-  { anchor = "staring-eye", level = 5 },
-  { anchor = "omnivisual", level = 11 },
-]
 trades = [
-  { replaces = "Consummate liar", feature = "consummate-liar", by = ["eyeball-familiar"] },
-  { replaces = "mesmerist trick gained at 1st level", feature = "mesmerist-tricks", levels = [1], by = ["eyeball-familiar"] },
-  { replaces = "All instances of touch treatment", feature = "touch-treatment", by = ["ocular-occlusion"] },
-  { replaces = "Mental potency", feature = "mental-potency", by = ["staring-eye"] },
-  { replaces = "Glib lie", feature = "glib-lie", by = ["omnivisual"] },
+  { replaces = "Consummate liar", feature = "consummate-liar" },
+  { replaces = "mesmerist trick gained at 1st level", feature = "mesmerist-tricks", levels = [1] },
+  { replaces = "All instances of touch treatment", feature = "touch-treatment" },
+  { replaces = "Mental potency", feature = "mental-potency" },
+  { replaces = "Glib lie", feature = "glib-lie" },
 ]
 +++
 
@@ -35,78 +29,96 @@ Mesmerists focus their abilities through the eyes, drawing forth their power as 
 mind and soul. Eyebiters take this a step further. An eyebiter's eyes become so infused with psychic
 might that they can leave the eyebiter's body and move about on their own.
 
-## Eyeball Familiar (Ex) {#eyeball-familiar}
+**Eyeball Familiar (Ex)**
 
-An eyebiter imbues one of his eyes with limited sentience, so that he can pluck it out and allow it
-to move on its own. The eyeball familiar functions similarly to the
-[tumor familiar](ref/discovery/tumor-familiar) alchemist discovery except as follows. The eyeball
-familiar does not have [fast healing](ref/umr/fast-healing). The eyeball familiar doesn't resemble
-an animal, and its size is Fine for a Medium or smaller eyebiter (or one size category larger for
-every size category the eyebiter is larger than Medium). It has a fly speed of 20 feet (perfect
-maneuverability) and no physical attacks (though it can still deliver touch spells once the eyebiter
-has reached 3rd level). The eyeball has a Strength score of 1, a Dexterity score of 12, and a
-Constitution score of 10. It has no set Hit Die, base saves, or skill ranks of its own, though it
+**Ability:** An eyebiter imbues one of his eyes with limited sentience, so that he can pluck it out
+and allow it to move on its own. The _eyeball familiar_ functions similarly to the
+[tumor familiar](ref/discovery/tumor-familiar) alchemist discovery except as follows. The _eyeball
+familiar_ does not have [fast healing](ref/umr/fast-healing). The _eyeball familiar_ doesn't
+resemble an animal, and its size is Fine for a Medium or smaller eyebiter (or one size category
+larger for every size category the eyebiter is larger than Medium). It has a fly speed of 20 feet
+(perfect maneuverability) and no physical attacks (though it can still deliver touch spells once the
+eyebiter has reached 3rd level). The eyeball has a Strength score of 1, a Dexterity score of 12, and
+a Constitution score of 10. It has no set Hit Die, base saves, or skill ranks of its own, though it
 uses its master's when a familiar normally would. It doesn't grant its master any familiar bonus,
-nor can it ever be an improved familiar.
+nor can it ever be an _improved familiar._
 
-Whenever the eyebiter's eyeball familiar leaves his body, he is [dazzled](ref/misc/dazzled) until it
-returns (if it is destroyed, the eyebiter loses that eye until he gains the effects of a
-_[regeneration](ref/spell/regenerate)_). An eyebiter must have at least one eye to use this ability,
-and an eyebiter with only one eye is [blinded](ref/misc/blinded) instead of dazzled until his
-familiar returns.
+**Replaces:** Consummate liar, mesmerist trick gained at 1st level
 
-This ability replaces consummate liar and the mesmerist trick gained at 1st level.
+**Special:** Whenever the eyebiter's _eyeball familiar_ leaves his body, he is
+[dazzled](ref/misc/dazzled) until it returns (if it is destroyed, the eyebiter loses that eye until
+he gains the effects of a [regeneration](ref/spell/regenerate)). An eyebiter must have at least one
+eye to use this ability, and an eyebiter with only one eye is [blinded](ref/misc/blinded) instead of
+dazzled until his familiar returns.
 
-## Ocular Occlusion (Su) {#ocular-occlusion}
+**Ocular Occlusion (Su)**
 
-At 3rd level, an eyebiter gains the ability to cloud the sight of others with a melee touch attack.
-He can use this ability as a standard action a number of times per day equal to 3 + his Charisma
-modifier. A successful Will save negates the effect (DC = 10 + 1/2 the eyebiter's mesmerist level +
-his Charisma modifier); this is a mind-affecting ability. If the eyebiter chooses to use an ocular
-occlusion of a lower level than the highest-level effect he has gained, he can instead use a
-standard action to target a creature within 30 feet with that effect as a ranged touch attack.
+**Gained:** At 3rd Level
 
-### Clouded Vision {#clouded-vision}
+**Replaces:** All instances of touch treatment
 
-At 3rd level, the eyebiter can cause the target to become dazzled for 1 minute and suffer a 20% miss
+**Special:** If the eyebiter chooses to use an _ocular occlusion_ of a lower level than the
+highest-level effect he has gained, he can instead use a standard action to target a creature within
+30 feet with that effect as a ranged touch attack.
+
+**Standard:** An eyebiter gains the ability to cloud the sight of others with a melee touch attack.
+A successful Will save negates the effect (DC = 10 + 1/2 the eyebiter's mesmerist level + his
+Charisma modifier); this is a mind-affecting ability.
+
+**Usage:** Charisma3 modifier times/day
+
+**Clouded Vision**
+
+**Ability:** The eyebiter can cause the target to become dazzled for 1 minute and suffer a 20% miss
 chance on all attacks the target makes against opponents within 60 feet. Opponents more than 60 feet
 away have [total concealment](ref/rule/concealment) from the target.
 
-### Cause or Cure Blindness {#cause-or-cure-blindness}
+**Gained:** At 3rd Level
 
-At 6th level, the eyebiter can blind the target for 1 minute or affect it as per the spells
-_[remove blindness](ref/spell/remove-blindness-deafness)_.
+**Cause or Cure Blindness**
 
-### Eyeless Horror {#eyeless-horror}
+**Ability:** The eyebiter can blind the target for 1 minute or affect it as per the spell
+[remove blindness](ref/spell/remove-blindness-deafness).
 
-At 10th level, the eyebiter creates a powerful illusion that causes the target's eyes to appear as
-if they have been ripped out, with blood pouring from the sockets. The target is blinded and
+**Gained:** At 6th Level
+
+**Eyeless Horror**
+
+**Ability:** The eyebiter creates a powerful illusion that causes the target's eyes to appear as if
+they have been ripped out, with blood pouring from the sockets. The target is blinded and
 [shaken](ref/misc/shaken) for 1 round per the eyebiter's mesmerist level, taking 1d4 points of
 nonlethal damage each round. The target can attempt a second Will save when attacked to negate the
 shaken effect and the nonlethal damage.
 
-### Spellblight {#spellblight}
+**Gained:** At 10th Level
 
-At 14th level, the eyebiter can afflict the target with the ebon eyes, the eldritch cataracts, or
-the hemoculysis spellblight.
+**Spellblight**
 
-This ability replaces all instances of touch treatment.
+**Ability:** The eyebiter can afflict the target with the _ebon eyes_ or the _hemoculysis_
+[minor spellblight](ref/rule/minor-spellblights), or the _eldritch cataracts_
+[major spellblight](ref/rule/major-spellblights).
 
-## Staring Eye (Su) {#staring-eye}
+**Gained:** At 14th Level
 
-At 5th level, an eyebiter can expend one use of his daily mesmerist tricks to either see through his
-eyeball familiar as if it were an _[arcane eye](ref/spell/arcane-eye)_, or to use his hypnotic stare
-(including related abilities like painful stare and bold stare), as well as any [gaze](ref/umr/gaze)
-attack he possesses (like _[burning gaze](ref/spell/burning-gaze)_ and
-_[eyebite](ref/spell/eyebite)_) through his eyeball familiar, as if he were at its location.
+**Staring Eye (Su)**
 
-This ability replaces mental potency.
+**Ability:** An eyebiter can expend one use of his daily mesmerist tricks to either see through his
+_eyeball familiar_ as if it were an [arcane eye](ref/spell/arcane-eye), or to use his _hypnotic
+stare_ (including related abilities like _painful stare_ and _bold stare_), as well as any
+[gaze](ref/umr/gaze) attack he possesses (like [burning gaze](ref/spell/burning-gaze) and
+[eyebite](ref/spell/eyebite)) through his _eyeball familiar,_ as if he were at its location.
 
-## Omnivisual (Ex) {#omnivisual}
+**Gained:** At 5th Level
 
-At 11th level, an eyebiter's roving eyeball familiar is constantly watching in all directions. As
-long as his eyeball familiar is outside his body and near enough to see the same things (such as
+**Replaces:** Mental potency
+
+**Omnivisual (Ex)**
+
+**Gained:** At 11th Level
+
+**Passive:** An eyebiter's roving _eyeball familiar_ is constantly watching in all directions. As
+long as his _eyeball familiar_ is outside his body and near enough to see the same things (such as
 being in the same room), the eyebiter gains [all-around vision](ref/umr/all-around-vision) and
 cannot be [flanked](ref/rule/flanking).
 
-This ability replaces glib lie.
+**Replaces:** Glib lie

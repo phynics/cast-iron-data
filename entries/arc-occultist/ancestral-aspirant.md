@@ -16,16 +16,10 @@ page = "67"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "class-skills" },
-  { anchor = "family-jewels" },
-  { anchor = "emotional-reading" },
-  { anchor = "courtly-contacts" },
-]
 trades = [
-  { replaces = "Object reading", feature = "object-reading", by = ["emotional-reading"] },
-  { replaces = "Outside contact", feature = "outside-contact", by = ["courtly-contacts"] },
-  { alters = "Implements", feature = "implements", by = ["family-jewels"] },
+  { replaces = "Object reading", feature = "object-reading" },
+  { replaces = "Outside contact", feature = "outside-contact" },
+  { alters = "Implements", feature = "implements" },
 ]
 +++
 
@@ -35,44 +29,46 @@ all the typical social functions of a noble, but they fill their conversations w
 great deeds of their family forebears, and they spend their nights researching old histories and
 primary sources, hungry for more.
 
-## Class Skills {#class-skills}
+**Gained class skills:** bluff, kno
 
-An ancestral aspirant adds Bluff and Knowledge (nobility) to his list of class skills, instead of
-Knowledge (planes) and Profession.
+**Lost class skills:** kp, prof
 
-This alters the occultist's class skills.
+**Family Jewels**
 
-## Family Jewels {#family-jewels}
+**Alters:** Implements
 
-An ancestral aspirant's implements are always objects connected to his family history. One of his
-starting implements must be an implement from the [enchantment](ref/implement/enchantment) school.
+**Info:** An ancestral aspirant's implements are always objects connected to his family history. One
+of his starting implements must be an implement from the [enchantment](ref/implement/enchantment)
+school.
 
-This ability alters implements.
+**Emotional Reading (Su)**
 
-## Emotional Reading (Su) {#emotional-reading}
+**Ability:** An ancestral aspirant doesn't care much about objects that didn't belong to his
+ancestors, but he is keenly attuned to his relatives and fellow nobles, allowing him to read the
+emotions of others. If he spends 1 minute examining a creature, he learns one fact, chosen by the
+GM, about the creature's current emotions. Since emotional auras are complex, this ability is
+unlikely to reveal the secret feelings of a professional spy; instead, it only touches upon surface
+emotions.
 
-An ancestral aspirant doesn't care much about objects that didn't belong to his ancestors, but he is
-keenly attuned to his relatives and fellow nobles, allowing him to read the emotions of others. If
-he spends 1 minute examining a creature, he learns one fact, chosen by the GM, about the creature's
-current emotions. Since emotional auras are complex, this ability is unlikely to reveal the secret
-feelings of a professional spy; instead, it only touches upon surface emotions.
+**Replaces:** Object reading
 
-This ability replaces object reading.
+**Courtly Contacts (Su)**
 
-## Courtly Contacts (Su) {#courtly-contacts}
+**Ability:** Ancestral aspirants have contacts among courtly circles rather than otherworldly
+circles. This works similarly to _outside contact_ except for the following differences: First, he
+doesn't need to use a _[magic circle](ref/spell/magic-circle)_ or make a payment (though he still
+expends 1 point of mental focus from his enchantment implement). Second, he can use those contacts
+to gather information for him (as per the Diplomacy skill to gather information) without spending
+the time himself, rather than asking a question and receiving a result similar to a divination.
 
-Ancestral aspirants have contacts among courtly circles rather than otherworldly circles. This works
-similarly to outside contact except for the following differences: First, he doesn't need to use a
-[magic circle](ref/spell/magic-circle) or make a payment (though he still expends 1 point of mental
-focus from his enchantment implement). Second, he can use those contacts to gather information for
-him (as per the Diplomacy skill to gather information) without spending the time himself, rather
-than asking a question and receiving a result similar to a _divination_. He can ask more questions
-over the same time period at 12th level and every 4 levels thereafter, as normal with outside
-contact. At 16th level, instead of delivering messages and objects, the courtly contacts can spread
+**At 16th Level:** Instead of delivering messages and objects, the courtly contacts can spread
 vicious rumors and gossip about a target throughout a settlement, causing any creatures in the
 settlement whose attitude toward the target wasn't helpful to have its attitude toward the target
 worsened by one step. These baseless rumors last 1 week or until the target spends 8 hours refuting
 them and succeeds at a Diplomacy check (DC = 10 + the ancestral aspirant's occultist level + his
 Intelligence modifier).
 
-This ability replaces outside contact.
+**Repeat:** He can ask an additional question over the same time period, as normal with _outside
+contact._, 12, 4
+
+**Replaces:** Outside contact

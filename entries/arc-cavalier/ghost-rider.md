@@ -16,23 +16,16 @@ page = "117"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "ghost-mount", level = 1 },
-  { anchor = "frightful-gaze", level = 1 },
-  { anchor = "fearless", level = 3 },
-  { anchor = "spirited-mount", level = 5 },
-  { anchor = "ghost-wind", level = 11 },
-]
 trades = [
-  { replaces = "Mount", feature = "mount", by = ["ghost-mount"] },
-  { replaces = "Tactician", feature = "tactician", by = ["frightful-gaze"] },
-  { replaces = "greater tactician", feature = "greater-tactician", by = ["frightful-gaze"] },
-  { replaces = "master tactician", feature = "master-tactician", by = ["frightful-gaze"] },
-  { replaces = "Cavalier's charge", feature = "cavalier-s-charge", by = ["fearless"] },
-  { replaces = "Expert trainer", feature = "expert-trainer", by = ["spirited-mount"] },
-  { replaces = "banner", feature = "banner", by = ["spirited-mount"] },
-  { replaces = "Mighty charge", feature = "mighty-charge", by = ["ghost-wind"] },
-  { replaces = "greater banner", feature = "greater-banner", by = ["ghost-wind"] },
+  { replaces = "Mount", feature = "mount" },
+  { replaces = "Tactician", feature = "tactician" },
+  { replaces = "greater tactician", feature = "greater-tactician" },
+  { replaces = "master tactician", feature = "master-tactician" },
+  { replaces = "Cavalier's charge", feature = "cavalier-s-charge" },
+  { replaces = "Expert trainer", feature = "expert-trainer" },
+  { replaces = "banner", feature = "banner" },
+  { replaces = "Mighty charge", feature = "mighty-charge" },
+  { replaces = "greater banner", feature = "greater-banner" },
 ]
 +++
 
@@ -41,67 +34,86 @@ out and banishing the corruption of undeath from plagued communities. Their stra
 them as outsiders and stoic loners, and they stay in one place only long enough to help the
 afflicted before riding off to unknown destinations.
 
-## Ghost Mount (Su) {#ghost-mount}
+**Ghost Mount (Su)**
 
-At 1st level, a ghost rider gains the ability to manifest a special mount of conjured ectoplasm
-rather than one of flesh and bone. This spectral companion functions like a
-[spiritualist](ref/class/spiritualist)'s [phantom](ref/sidekick/phantom) companion, using the ghost
-rider's cavalier level as her effective spiritualist level. The phantom takes the form of a ghostly
-creature analogous to one of a cavalier's normal mount options for her size and class level, such as
-a Large horse for a Medium ghost rider or a wolf for a Small ghost rider. A ghost rider must choose
-a mount that is capable of bearing her weight, that has four or more legs, and that lacks a fly
-speed (although the GM may allow mounts with a swim speed in certain environments). The GM might
-approve other animals as suitable mounts.
+**Action:** Ability
+
+**Gained:** At 1st Level
+
+**Replaces:** Mount
+
+A ghost rider gains the ability to manifest a special mount of conjured ectoplasm rather than one of
+flesh and bone. This spectral companion functions like a spiritualist's
+[phantom](ref/sidekick/phantom) companion, using the ghost rider's cavalier level as her effective
+[spiritualist](ref/class/spiritualist) level. The phantom takes the form of a ghostly creature
+analogous to one of a cavalier's normal mount options for her size and class level, such as a Large
+horse for a Medium ghost rider or a wolf for a Small ghost rider. A ghost rider must choose a mount
+that is capable of bearing her weight, that has four or more legs, and that lacks a fly speed
+(although the GM may allow mounts with a swim speed in certain environments). The GM might approve
+other animals as suitable mounts.
 
 The ghost rider can manifest her ghost mount only in ectoplasmic form, and she gains the
-spiritualist's etheric tether class feature, applied to her ghost mount. The mount shares the
+spiritualist's _etheric tether_ class feature, applied to her ghost mount. The mount shares the
 cavalier's alignment. Though the mount cannot speak, it understands its master's verbal commands and
-gains the phantom's link ability. The ghost mount has good Fortitude and Reflex saves, and can have
-ranks in any of the following skills: Acrobatics (Dex), Climb (Str), Escape Artist (Dex), Fly (Dex),
-Intimidate (Cha), Perception (Wis), Stealth (Dex), Survival (Wis), and Swim (Str). The ghost rider's
-ghost mount does not gain the share spells, deliver touch spells, or incorporeal flight abilities.
-Ghost mounts do not gain emotional focus abilities.
+gains the phantom's _link_ ability. The ghost mount has good Fortitude and Reflex saves, and can
+have ranks in any of the following skills: Acrobatics (Dex), Climb (Str), Escape Artist (Dex), Fly
+(Dex), Intimidate (Cha), Perception (Wis), Stealth (Dex), Survival (Wis), and Swim (Str). The ghost
+rider's ghost mount does not gain the _share spells, deliver touch spells,_ or _incorporeal flight_
+abilities. Ghost mounts do not gain emotional focus abilities.
 
 The ghost rider does not take an armor check penalty on Ride checks while riding her mount. The
 mount is always considered combat trained, and begins play with [Endurance](ref/feat/endurance) as a
 bonus feat.
 
-_Ghost Mount Starting Statistics_: Type animal (phantom); Size one size category larger than the
-ghost rider; Speed 50 ft.; AC +4 natural armor; Attack bite (1d4), 2 hooves (1d6; this is a
-secondary natural attack); Ability Scores Str 16, Dex 13, Con 15, Int 2, Wis 12, Cha 6.
+**Ghost Mount Starting Statistics:** **Type** animal (phantom); **Size** one size category larger
+than the ghost rider; **Speed** 50 ft.; **AC** +4 natural armor; **Attack** bite (1d4), 2 hooves
+(1d6; this is a secondary natural attack); **Ability Scores** Str 16, Dex 13, Con 15, Int 2, Wis 12,
+Cha 6.
 
-This ability replaces mount.
+**Frightful Gaze (Su)**
 
-## Frightful Gaze (Su) {#frightful-gaze}
+**At 9th Level:** This ability can affect creatures that are mindless or immune to mind-affecting
+effects, though it still counts as a fear effect.
 
-At 1st level, a ghost rider can use this ability on opponents within 30 feet as a standard action,
-which acts as a [gaze](ref/umr/gaze) attack until the ghost rider's next turn. Creatures within
-range that meet the ghost rider's gaze must succeed at a Will saving throw (DC = 10 + 1/2 the ghost
-rider's class level + the ghost rider's Charisma modifier) or stand [paralyzed](ref/rule/paralyzed)
-in fear for 1 round. This is a mind-affecting fear effect. Creatures that successfully save against
-that ghost rider's frightful gaze are immune to it for 24 hours. At 9th level, this ability can
-affect creatures that are mindless or immune to mind-affecting effects, though it still counts as a
-fear effect. The ghost rider can use this ability a number of times each day equal to her Charisma
-modifier.
+**Gained:** At 1st Level
 
-This ability replaces tactician, greater tactician, and master tactician.
+**Replaces:** Tactician, greater tactician, master tactician
 
-## Fearless (Su) {#fearless}
+**Standard:** A ghost rider can use this ability on opponents within 30 feet, which acts as a
+[gaze](ref/umr/gaze) attack until the ghost rider's next turn. Creatures within range that meet the
+ghost rider's gaze must succeed at a Will saving throw (DC = 10 +
+[half](ref/misc/fractions-and-rounding) the ghost rider's class level + the ghost rider's Charisma
+modifier) or stand [paralyzed](ref/rule/paralyzed) in fear for 1 round. This is a mind-affecting
+fear effect. Creatures that successfully save against that ghost rider's frightful gaze are immune
+to it for 24 hours.
 
-At 3rd level, a ghost rider becomes immune to fear. Each ally within 10 feet of the ghost rider
-gains a +4 morale bonus on saving throws against fear effects. This ability functions only while the
-ghost rider is conscious, not if she is unconscious or dead. This ability replaces cavalier's
-charge.
+**Usage:** Cha modifier times/day
 
-## Spirited Mount (Su) {#spirited-mount}
+**Fearless (Su)**
 
-At 5th level, the ghost rider's mount ignores [difficult terrain](ref/rule/terrain-and-obstacles).
-At 8th level, it gains the ability to use _[water walk](ref/spell/water-walk)_ at will. This ability
-replaces expert trainer and banner.
+**Gained:** At 3rd Level
 
-## Ghost Wind (Su) {#ghost-wind}
+**Passive:** A ghost rider becomes immune to fear. Each ally within 10 feet of the ghost rider gains
+a +4 morale bonus on saving throws against fear effects. This ability functions only while the ghost
+rider is conscious, not if she is unconscious or dead.
 
-At 11th level, the ghost rider's ghost mount can use _[air walk](ref/spell/air-walk)_ (as the spell,
-no action required) at will for up to 1 round at a time, after which it falls to the ground. At 14th
-level, the mount can fly at its speed with a bonus on Fly skill checks equal to the ghost rider's
-class level. This ability replaces mighty charge and greater banner.
+**Replaces:** Cavalier's charge
+
+**Spirited Mount (Su)**
+
+**At 5th Level:** The ghost rider's mount ignores
+[difficult terrain](ref/rule/terrain-and-obstacles).
+
+**At 8th Level:** It gains the ability to use [water walk](ref/spell/water-walk) at will.
+
+**Replaces:** Expert trainer, banner
+
+**Ghost Wind (Su)**
+
+**At 11th Level:** The ghost rider's ghost mount can use [air walk](ref/spell/air-walk) (as the
+spell, no action required) at will for up to 1 round at a time, after which it falls to the ground.
+
+**At 14th Level:** The mount can fly at its speed with a bonus on Fly skill checks equal to the
+ghost rider's class level.
+
+**Replaces:** Mighty charge, greater banner

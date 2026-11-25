@@ -16,18 +16,12 @@ page = "47"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "inspiration", level = 1 },
-  { anchor = "investigator-talents", level = 2 },
-  { anchor = "uncanny-snoop", level = 4 },
-  { anchor = "master-of-whispers", level = 8 },
-]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding", by = ["inspiration"] },
-  { replaces = "evasion", feature = "evasion", by = ["inspiration"] },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["uncanny-snoop"] },
-  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["uncanny-snoop"] },
-  { replaces = "Rogue talent gained at 8th level", feature = "rogue-talents", levels = [8], by = ["master-of-whispers"] },
+  { replaces = "Trapfinding", feature = "trapfinding" },
+  { replaces = "evasion", feature = "evasion" },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
+  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge" },
+  { replaces = "Rogue talent gained at 8th level", feature = "rogue-talents", levels = [8] },
 ]
 +++
 
@@ -35,51 +29,73 @@ Snoops are the underworld's version of detectives. They often act as information
 specializing in gathering secrets through investigation, subterfuge, and coercion, and selling or
 trading those secrets for personal gain.
 
-## Inspiration (Ex) {#inspiration}
+**Inspiration (Ex)**
 
-At 1st level, a snoop gains an ability similar to the [investigator's](ref/class/investigator)
+**Ability:** A snoop gains an ability similar to the [investigator's](ref/class/investigator)
 inspiration class ability. The snoop begins with an inspiration pool equal to
 [half](ref/misc/fractions-and-rounding) her rogue level plus her Intelligence modifier (minimum of
 1). Unlike an investigator, a snoop can only use inspiration on skill checks, not on attack rolls or
 saving throws. This ability is otherwise identical to the investigator class ability of the same
 name.
 
-This ability replaces trapfinding and evasion.
+**Gained:** At 1st Level
 
-## Investigator Talents (Ex) {#investigator-talents}
+**Replaces:** Trapfinding, evasion
 
-Beginning at 2nd level, and each time she selects a new rogue talent, a snoop can instead select one
-of the following investigator talents (_Advanced Class Guide_ 32–33):
-[eidetic recollection](ref/invtalent/eidetic-recollection), [empathy](ref/invtalent/empathy),
-[hidden agendas](ref/invtalent/hidden-agendas),
+**Inspiration (Ex)**
+
+**Ability:** Your inspiration pool refreshes each day, typically after you get a restful night's
+sleep.
+
+**Flavor:** Text from the investigator class.
+
+**Free:** You can expend one use of inspiration from your pool to add 1d6 to the result of a check,
+including any on which you take 10 or 20. This choice is made after the check is rolled and before
+the results are revealed.
+
+**Special:** You can use inspiration on any Knowledge, Linguistics, or Spellcraft skill checks
+without expending a use of inspiration, if you're trained in the skill.
+
+**Usage:** You can only use inspiration once per check or roll.
+
+**Usage:** You can only use inspiration once per check or roll.
+
+**Investigator Talents (Ex)**
+
+**Ability:** Each time she selects a new rogue talent, a snoop can instead select one of the
+following investigator talents: [eidetic recollection](ref/invtalent/eidetic-recollection),
+[empathy](ref/invtalent/empathy), [hidden agendas](ref/invtalent/hidden-agendas),
 [inspired alertness](ref/invtalent/inspired-alertness),
 [inspired intimidator](ref/invtalent/inspired-intimidator), [item lore](ref/invtalent/item-lore), or
 [underworld inspiration](ref/invtalent/underworld-inspiration). Her effective investigator level for
-the purpose of these talents is equal to her rogue level. She still can't use inspiration on attack
-rolls or saving throws (so, for instance, she can't use the second part of hidden agendas).
+the purpose of these talents is equal to her rogue level.
 
-## Uncanny Snoop (Ex) {#uncanny-snoop}
+**Gained:** At 2nd Level
 
-At 4th level, a snoop gains a +2 bonus on Intimidate checks when trying to force an opponent to give
-her information (or Bluff and Diplomacy checks for the same purpose if she has the
+**Special:** She still can't use inspiration on attack rolls or saving throws (so, for instance, she
+can't use the second part of _hidden agendas_).
+
+**Uncanny Snoop (Ex)**
+
+**At 8th Level:** These bonuses increase to +4.
+
+**At 4th Level:** A snoop gains a +2 bonus on Intimidate checks when trying to force an opponent to
+give her information (or Bluff and Diplomacy checks for the same purpose if she has the
 [coax information](ref/talent/coax-information) rogue talent). She also gains a +2 bonus on Sense
-Motive checks to tell if someone's information is false. At 8th level, these bonuses increase to +4.
+Motive checks to tell if someone's information is false.
 
-This ability replaces uncanny dodge and improved uncanny dodge.
+**Replaces:** Uncanny dodge, improved uncanny dodge
 
-## Master of Whispers (Ex) {#master-of-whispers}
+**Master of Whispers (Ex)**
 
-At 8th level, a snoop receives the [rumormonger](ref/talent/rumormonger) advanced rogue talent.
+**Ability:** A snoop receives the [rumormonger](ref/talent/rumormonger) advanced rogue talent.
 
-This ability replaces the rogue talent gained at 8th level.
+**Gained:** At 8th Level
 
-## Rogue Talents {#rogue-talents}
+**Replaces:** Rogue talent gained at 8th level
 
-The following rogue talents complement the snoop archetype: black market connections, coax
-information, fast stealth, follow clues, and strong impression (as well as certainty for an
-unchained rogue).
+**These rogue talents complement this archetype:** Black market connections, certainty\|unchained
+rogue only, coax information, fast stealth, follow clues, strong impression
 
-## Advanced Talents {#advanced-talents}
-
-The following advanced rogue talents complement the snoop archetype: hard minded, hidden mind, skill
-mastery, and thoughtful re-examining (as well as cutting edge for an unchained rogue).
+**These advanced rogue talents complement this archetype:** Cutting edge\|unchained rogue only, hard
+minded, hidden mind, skill mastery, thoughtful reexamining

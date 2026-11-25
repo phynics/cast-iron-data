@@ -16,19 +16,11 @@ page = "53"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "class-skills" },
-  { anchor = "deeds" },
-  { anchor = "quick-draw", level = 1 },
-  { anchor = "hidden-blade", level = 3 },
-  { anchor = "instant-unveil", level = 7 },
-  { anchor = "soul-veil", level = 15 },
-]
 trades = [
-  { replaces = "Opportune parry and riposte deed", feature = "deeds", power = "opportune parry and riposte", by = ["quick-draw"] },
-  { replaces = "Menacing swordplay deed", feature = "deeds", power = "menacing swordplay", by = ["hidden-blade"] },
-  { replaces = "Swashbuckler's grace deed", feature = "deeds", power = "swashbuckler's grace", by = ["instant-unveil"] },
-  { replaces = "Swashbuckler's edge deed", feature = "deeds", power = "swashbuckler's edge", by = ["soul-veil"] },
+  { replaces = "Opportune parry and riposte", feature = "deeds", power = "opportune parry and riposte" },
+  { replaces = "Menacing swordplay", feature = "deeds", power = "menacing swordplay" },
+  { replaces = "Swashbuckler's grace", feature = "deeds", power = "swashbuckler's grace" },
+  { replaces = "Swashbuckler's edge", feature = "deeds", power = "swashbuckler's edge" },
 ]
 +++
 
@@ -37,43 +29,50 @@ someone harmless and unarmed. When a fight breaks out, a veiled blade doffs that
 out her hidden trump cards. Those who have mastered the art of the veiled blade can even hide their
 weapons on their own bodies as brands.
 
-## Class Skills {#class-skills}
+**Gained class skills:** dis
 
-A veiled blade adds Disguise to her list of class skills, instead of Intimidate.
+**Lost class skills:** intm
 
-This alters the swashbuckler's class skills.
+**Deeds**
 
-## Deeds {#deeds}
+**Ability:** A veiled blade gains the following deeds.
 
-A veiled blade gains the following deeds.
+**Quick Draw (Ex)**
 
-## Quick Draw (Ex) {#quick-draw}
+**Gained:** At 1st Level
 
-At 1st level, whenever she has at least 1 panache point, a veiled blade gains the benefits of the
+**Passive:** Whenever she has at least 1 panache point, a veiled blade gains the benefits of the
 [Quick Draw](ref/feat/quick-draw) feat.
 
-This deed replaces the swashbuckler's opportune parry and riposte deed.
+**Replaces:** Opportune parry and riposte
 
-## Hidden Blade (Ex) {#hidden-blade}
+**Hidden Blade (Ex)**
 
-At 3rd level, whenever she has at least 1 panache point, a veiled blade can hide any light or
+**Ability:** Whenever she has at least 1 panache point, a veiled blade can hide any light or
 one-handed piercing melee weapon using Sleight of Hand, and she receives a +4 insight bonus on her
 check to hide the weapon.
 
-This deed replaces the menacing swordplay deed.
+**Gained:** At 3rd Level
 
-## Instant Unveil (Ex) {#instant-unveil}
+**Replaces:** Menacing swordplay
 
-At 7th level, when she uses her swashbuckler's initiative deed to draw a light or one-handed
-piercing weapon as part of an initiative check, she can draw that weapon even if it is hidden.
+**Instant Unveil (Ex)**
 
-This deed replaces the swashbuckler's grace deed.
+**Ability:** When she uses her [swashbuckler initiative](ref/swashdeed/swashbuckler-initiative) deed
+to draw a light or one-handed piercing weapon as part of an initiative check, she can draw that
+weapon even if it is hidden.
 
-## Soul Veil (Sp) {#soul-veil}
+**Gained:** At 7th Level
 
-At 15th level, a veiled blade can merge a light or one-handed piercing melee weapon with herself, as
-if using the spell _[ghost brand](ref/spell/ghost-brand)_ (see page 215), except that it takes only
-a swift action to manifest or store the weapon. This ability lasts until it is dispelled or until
-the veiled blade merges with a different light or one-handed piercing melee weapon.
+**Replaces:** Swashbuckler's grace
 
-This deed replaces the swashbuckler's edge deed.
+**Soul Veil (Sp)**
+
+**Ability:** A veiled blade can merge a light or one-handed piercing melee weapon with herself, as
+if using the spell [ghost brand](ref/spell/ghost-brand), except that it takes only a **swift
+action** to manifest or store the weapon. This ability lasts until it is dispelled or until the
+veiled blade merges with a different light or one-handed piercing melee weapon.
+
+**Gained:** At 15th Level
+
+**Replaces:** Swashbuckler's edge

@@ -16,32 +16,10 @@ page = "105"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "physical-mutation", level = 1 },
-  { anchor = "bodily-mutations", level = 3 },
-  { anchor = "adhesive" },
-  { anchor = "bite-attack" },
-  { anchor = "bulging-eyes" },
-  { anchor = "claws" },
-  { anchor = "elongated-fingers" },
-  { anchor = "elongated-legs" },
-  { anchor = "energy-resistance" },
-  { anchor = "enlarged-torso" },
-  { anchor = "rubbery" },
-  { anchor = "slimy" },
-  { anchor = "phrenic-empowerment", level = 7 },
-  { anchor = "improved-bodily-mutations", level = 11 },
-  { anchor = "aquatic-form" },
-  { anchor = "enlarged-body" },
-  { anchor = "multiple-eyes" },
-  { anchor = "recuperation" },
-  { anchor = "toppling-fists" },
-  { anchor = "wings" },
-]
 trades = [
-  { replaces = "1st-level phrenic amplification", feature = "phrenic-amplifications", levels = [1], by = ["physical-mutation"] },
-  { alters = "Phrenic amplifications", feature = "phrenic-amplifications", by = ["slimy"] },
-  { alters = "Major amplifications", feature = "major-amplifications", by = ["wings"] },
+  { replaces = "1st-level phrenic amplification", feature = "phrenic-amplifications", levels = [1] },
+  { alters = "Phrenic amplifications", feature = "phrenic-amplifications" },
+  { alters = "Major amplifications", feature = "major-amplifications" },
 ]
 +++
 
@@ -49,136 +27,152 @@ Exposure to unintended spell effects, curses, or sources of radiation cause some
 powers. When a mutation mind uses her psychic abilities, her physical body changes under the stress,
 and she risks losing control if she pushes too far.
 
-## Physical Mutation (Su) {#physical-mutation}
+**Physical Mutation (Su)**
 
-A mutation mind's psychic powers warp her body, allowing her to physically mutate herself as a swift
-action, which grants her a +4 enhancement bonus to Strength and a -2 penalty to Intelligence. At
-12th level, the bonus to Strength increases to +6. A mutation mind can assume her physically mutated
-form for a number of minutes per day equal to her psychic level. The minutes don't have to be used
-consecutively, but must be used in 1-minute increments. When the duration runs out, the mutation
-mind can spend 1 point from her phrenic pool to extend the duration by 1 round. She can continue
-extending it in this way until she runs out of points. After the mutation ends, the mutation mind is
-fatigued and can't activate a physical mutation again for 1 round. Turning back to normal before the
-end of a 1-minute increment takes a standard action. This ability replaces the 1st-level phrenic
-amplification.
+**Ability:** When the duration runs out, the mutation mind can spend 1 point from her phrenic pool
+to extend the duration by 1 round. She can continue extending it in this way until she runs out of
+points.
 
-## Bodily Mutations {#bodily-mutations}
+**At 12th Level:** The bonus to Strength increases to +6.
 
-Starting at 3rd level, whenever a mutation mind gains a phrenic amplification, she can select either
-a phrenic amplification or a bodily mutation. A bodily mutation grants its benefit only when the
-mutation mind is affected by her physical mutation. Each time she activates her physical mutation,
-she can activate any number of bodily mutations she possesses.
+**Replaces:** 1st-level phrenic amplification
 
-## Adhesive (Ex) {#adhesive}
+**Special:** After the mutation ends, the mutation mind is fatigued and can't activate a _physical
+mutation_ again for 1 round. Turning back to normal before the end of a 1-minute increment takes a
+**standard action**.
 
-The mutation mind's skin becomes sticky, granting her a +4 bonus on [disarm](ref/rule/disarm) and
-[grapple](ref/rule/grapple) combat maneuver checks.
+**Swift:** A mutation mind's psychic powers warp her body, allowing her to physically mutate
+herself, which grants her a +4 enhancement bonus to Strength and a -2 penalty to Intelligence.
 
-## Bite Attack (Ex) {#bite-attack}
+**Usage:** 1 minute/day per psychic level; these minutes need not be consecutive, but must be spent
+in 1-minute increments
 
-The mutation mind's mouth fills with sharp teeth, allowing her to make a
+**Bodily Mutations**
+
+**Ability:** Whenever a mutation mind gains a phrenic amplification, she can select either a phrenic
+amplification or a _bodily mutation._ A _bodily mutation_ grants its benefit only when the mutation
+mind is affected by her _physical mutation._ Each time she activates her _physical mutation,_ she
+can activate any number of _bodily mutations_ she possesses.
+
+**Alters:** Phrenic amplifications
+
+**Gained:** At 3rd Level
+
+**Adhesive (Ex)**
+
+**Passive:** The mutation mind's skin becomes sticky, granting her a +4 bonus on
+[disarm](ref/rule/disarm) and [grapple](ref/rule/grapple) combat maneuver checks.
+
+**Bite Attack (Ex)**
+
+**Ability:** The mutation mind's mouth fills with sharp teeth, allowing her to make a
 [bite attack](ref/umr/natural-attacks) as part of a full-attack action at her highest base attack
 bonus. This attack deals 1d4 points of damage (1d3 if Small) and counts as a primary attack unless
 combined with manufactured weapon attacks, as normal.
 
-## Bulging Eyes (Ex) {#bulging-eyes}
+**Bulging Eyes (Ex)**
 
-The mutation mind's eyes grow large and round, granting her [darkvision](ref/rule/darkvision) with a
-range of 60 feet.
+**Ability:** The mutation mind's eyes grow large and round, granting her
+[darkvision](ref/rule/darkvision) with a range of 60 feet.
 
-## Claws (Ex) {#claws}
+**Claws (Ex)**
 
-The mutation mind's hands turn into claws, allowing her to make two claw attacks as a full-attack
-action at her highest base attack bonus. Each of these attacks deals 1d4 points of damage (1d3 if
-Small) and counts as a primary attack unless combined with manufactured weapon attacks, as normal.
+**Ability:** The mutation mind's hands turn into claws, allowing her to make two claw attacks as a
+full-attack action at her highest base attack bonus. Each of these attacks deals 1d4 points of
+damage (1d3 if Small) and counts as a primary attack unless combined with manufactured weapon
+attacks, as normal.
 
-## Elongated Fingers (Ex) {#elongated-fingers}
+**Elongated Fingers (Ex)**
 
-The mutation mind's fingers grow long and supple, increasing her reach by 5 feet when she's making
-melee touch attacks.
+**Ability:** The mutation mind's fingers grow long and supple, increasing her reach by 5 feet when
+she's making melee touch attacks.
 
-## Elongated Legs (Ex) {#elongated-legs}
+**Elongated Legs (Ex)**
 
-The mutation mind's legs become long and spindly, increasing her base movement by 10 feet.
+**Ability:** The mutation mind's legs become long and spindly, increasing her base movement by 10
+feet.
 
-## Energy Resistance (Ex) {#energy-resistance}
+**Energy Resistance (Ex)**
 
-The mutation mind's body changes in color and texture, and gains energy resistance 5 to one energy
-type (acid, cold, electricity, fire, or sonic), chosen when this mutation is selected. This mutation
-can be selected multiple times. Each time it is selected, the mutation mind either chooses an
-additional energy type to gain energy resistance 5 against or increases the resistance granted to
-one existing type by 5.
+**Passive:** The mutation mind's body changes in color and texture, and gains energy resistance 5 to
+one energy type (acid, cold, electricity, fire, or sonic), chosen when this mutation is selected.
 
-## Enlarged Torso (Ex) {#enlarged-torso}
+**Special:** This mutation can be selected multiple times. Each time it is selected, the mutation
+mind either chooses an additional energy type to gain energy resistance 5 against or increases the
+resistance granted to one existing type by 5.
 
-The mutation mind's torso enlarges disproportionately with the rest of her body, granting her a +2
-natural armor bonus to AC.
+**Enlarged Torso (Ex)**
 
-## Rubbery (Ex) {#rubbery}
+**Passive:** The mutation mind's torso enlarges disproportionately with the rest of her body,
+granting her a +2 natural armor bonus to AC.
 
-The mutation mind's body becomes soft and rubbery, granting her DR 2/—.
+**Rubbery (Ex)**
 
-## Slimy (Ex) {#slimy}
+**Passive:** The mutation mind's body becomes soft and rubbery, granting her DR 2/-.
 
-The mutation mind exudes a thin layer of oily slime over her body, granting her a +4 bonus to CMD.
+**Slimy (Ex)**
 
-This ability alters phrenic amplifications.
+**Passive:** The mutation mind exudes a thin layer of oily slime over her body, granting her a +4
+bonus to CMD.
 
-## Phrenic Empowerment (Su) {#phrenic-empowerment}
+**Phrenic Empowerment (Su)**
 
-At 7th level, a mutation mind's phrenic amplifications empower her physical mutation. Whenever a
-mutation mind modifies a spell with a phrenic amplification while affected by her physical mutation,
-she can increase the bonus to her Strength score from her physical mutation by 2 for a number of
-rounds equal to the level of the spell she cast. This bonus doesn't stack; if the mutation mind
-activates it again, she uses the longer duration but doesn't increase the bonus.
+**Ability:** Whenever a mutation mind modifies a spell with a phrenic amplification while affected
+by her _physical mutation,_ she can increase the bonus to her Strength score from her _physical
+mutation_ by 2 for a number of rounds equal to the level of the spell she cast. This bonus doesn't
+stack; if the mutation mind activates it again, she uses the longer duration but doesn't increase
+the bonus.
 
-While under the effect of phrenic empowerment, whenever the mutation mind takes damage, she risks
-losing control of her powers. At the end of each turn that she takes hit point damage, the mutation
-mind must succeed at a Will save (DC = 15 + 1/2 her character level) or take a -2 penalty on Will
-saving throws and to Intelligence. These penalties last for 1 hour after the physical mutation ends
-and stack with themselves.
+**Flavor:** A mutation mind's phrenic amplifications empower her _physical mutation._
 
-If the penalty lowers her Intelligence score to 0, the mutation mind is comatose until 1 hour after
-physical mutation ends.
+**Gained:** At 7th Level
 
-## Improved Bodily Mutations {#improved-bodily-mutations}
+**Special:** While under the effect of phrenic empowerment, whenever the mutation mind takes damage,
+she risks losing control of her powers. At the end of each turn that she takes hit point damage, the
+mutation mind must succeed at a Will save (DC = 15 + 1/2 her character level) or take a -2 penalty
+on Will saving throws and to Intelligence. These penalties last for 1 hour after the _physical
+mutation_ ends and stack with themselves. If the penalty lowers her Intelligence score to 0, the
+mutation mind is comatose until 1 hour after _physical mutation_ ends.
 
-At 11th level, a mutation mind can select one of the following improved bodily mutations instead of
+**Improved Bodily Mutations**
+
+**Ability:** A mutation mind can select one of the following _improved bodily mutations_ instead of
 a phrenic amplification.
 
-## Aquatic Form (Ex) {#aquatic-form}
+**Alters:** Major amplifications
 
-The mutation mind's legs fuse into a tail and fins to sprout from her back and side, granting her a
-swim speed of 30 feet, [tremorsense](ref/umr/tremorsense) with a range of 30 feet (affecting other
-creatures in contact with the same body of water), and the [aquatic](ref/subtype/aquatic) subtype.
+**Gained:** At 11th Level
 
-Her base land speed is reduced to 10 feet.
+**Aquatic Form (Ex)**
 
-## Enlarged Body (Ex) {#enlarged-body}
+**Ability:** The mutation mind's legs fuse into a tail and fins to sprout from her back and side,
+granting her a swim speed of 30 feet, [tremorsense](ref/umr/tremorsense) with a range of 30 feet
+(affecting other creatures in contact with the same body of water), and the
+[aquatic](ref/subtype/aquatic) subtype. Her base land speed is reduced to 10 feet.
 
-The mutation mind's body swells and stretches, enlarging her as the
-_[enlarge person](ref/spell/enlarge-person)_ spell but up to two size categories larger (maximum
+**Enlarged Body (Ex)**
+
+**Passive:** The mutation mind's body swells and stretches, enlarging her as the
+[enlarge person](ref/spell/enlarge-person) spell but up to two size categories larger (maximum
 Huge).
 
-## Multiple Eyes (Ex) {#multiple-eyes}
+**Multiple Eyes (Ex)**
 
-Multiple eyes erupt all over the mutation mind's body. She can't be [flanked](ref/rule/flanking) and
-gains a +4 bonus on Perception checks.
+**Passive:** Multiple eyes erupt all over the mutation mind's body. She can't be
+[flanked](ref/rule/flanking) and gains a +4 bonus on Perception checks.
 
-## Recuperation (Ex) {#recuperation}
+**Recuperation (Ex)**
 
-The mutation mind heals quickly from physical wounds, gaining
+**Passive:** The mutation mind heals quickly from physical wounds, gaining
 [fast healing](ref/umr/fast-healing) 5.
 
-## Toppling Fists (Ex) {#toppling-fists}
+**Toppling Fists (Ex)**
 
-The mutation mind's fists become large masses of flesh, allowing her to attempt a
+**Ability:** The mutation mind's fists become large masses of flesh, allowing her to attempt a
 [bull rush](ref/rule/bull-rush) combat maneuver check against one creature within 10 feet of her as
-a standard action.
+a **standard action**.
 
-## Wings (Ex) {#wings}
+**Wings (Ex)**
 
-The mutation mind sprouts a pair of fleshy, batlike wings, giving her a fly speed of 60 feet with
-average maneuverability.
-
-This ability alters major amplifications.
+**Ability:** The mutation mind sprouts a pair of fleshy, bat-like wings, giving her a fly speed of
+60 feet with average maneuverability.

@@ -16,100 +16,98 @@ page = "68"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "class-skills" },
-  { anchor = "knowledge-is-power" },
-  { anchor = "broker-secrets", level = 2 },
-  { anchor = "share-memory", level = 4 },
-  { anchor = "steal-secret", level = 8 },
-  { anchor = "erase-secret", level = 12 },
-  { anchor = "purge-secret", level = 16 },
-]
 trades = [
-  { replaces = "Magic item skill", feature = "magic-item-skill", by = ["broker-secrets"] },
-  { replaces = "Shift focus", feature = "shift-focus", by = ["share-memory"] },
-  { replaces = "Magic circles", feature = "magic-circles", by = ["steal-secret"] },
-  { replaces = "Binding circles", feature = "binding-circles", by = ["erase-secret"] },
-  { replaces = "Fast circles", feature = "fast-circles", by = ["purge-secret"] },
-  { alters = "Implements", feature = "implements", by = ["knowledge-is-power"] },
-  { alters = "implement mastery", feature = "implement-mastery", by = ["knowledge-is-power"] },
+  { replaces = "Magic item skill", feature = "magic-item-skill" },
+  { replaces = "Shift focus", feature = "shift-focus" },
+  { replaces = "Magic circles", feature = "magic-circles" },
+  { replaces = "Binding circles", feature = "binding-circles" },
+  { replaces = "Fast circles", feature = "fast-circles" },
+  { alters = "Implements", feature = "implements" },
+  { alters = "implement mastery", feature = "implement-mastery" },
 ]
 +++
 
 Whether as spymasters, extortionists, political fixers, or puppet masters, secret brokers use their
 talents with objects to gain information, then leverage that information for their own purposes.
 
-## Class Skills {#class-skills}
+**Gained class skills:** bluff, kd, kg, kl, kna, kno
 
-A secret broker adds Bluff and all remaining Knowledge skills to her list of class skills.
+**Knowledge Is Power**
 
-This alters the occultist's class skills.
+**Ability:** A secret broker's _third eye_ resonant power grants an insight bonus on Profession and
+Sense Motive checks equal to the bonus it grants on Perception checks, and an insight bonus on all
+Knowledge checks equal to half that bonus.
 
-## Knowledge Is Power {#knowledge-is-power}
+**Alters:** Implements, implement mastery
 
-The secret broker starts play possessing a single [divination](ref/implement/divination) implement,
-typically a ledger of secrets. She gains new implements as normal at 2nd level and every 4 levels
-thereafter, and they can be of any school. A secret broker's third eye resonant power grants an
-insight bonus on Profession and Sense Motive checks equal to the bonus it grants on Perception
-checks, and an insight bonus on all Knowledge checks equal to half that bonus. She must select
-divination with implement mastery.
+**Info:** The secret broker starts play possessing a single [divination](ref/implement/divination)
+implement, typically a ledger of secrets. She gains new implements as normal at 2nd level and every
+4 levels thereafter, and they can be of any school.
 
-This ability alters implements and implement mastery.
+**Special:** She must select divination with _implement mastery._
 
-## Broker Secrets (Su) {#broker-secrets}
+**Broker Secrets (Su)**
 
-At 2nd level, a secret broker can trade her secrets to another. For the purpose of this ability, an
-object's secret is composed of pieces of information gained from a single object through object
-reading, object seer, psychometry, or _read object_ that the occultist didn't otherwise know and
+**Ability:** A secret broker can trade her secrets to another. For the purpose of this ability, an
+object's secret is composed of pieces of information gained from a single object through _object
+reading, object seer, psychometry,_ or _read object_ that the occultist didn't otherwise know and
 hasn't shared with another, written somewhere, or otherwise recorded or found a way to recover
 should she forget them and lose possession of the object. The secret broker can willingly use this
 ability in tandem with handing the object over to another creature in order to transfer the object's
 secret to that creature. The secret broker forgets the object's secret and the creature instantly
 learns the object's secret.
 
-The secret broker can also destroy an object to remove his memory of the object's secret without
-transferring it to another. In either case, any onlookers who understand what the secret broker is
-doing, and the recipient in the case of a transfer, can intrinsically tell that the secret broker
-has used this ability rather than simply sharing the memory through other means or destroying the
-object but keeping its secret.
+**Gained:** At 2nd Level
 
-This ability replaces magic item skill.
+**Replaces:** Magic item skill
 
-## Share Memory (Sp) {#share-memory}
+**Special:** The secret broker can also destroy an object to remove his memory of the object's
+secret without transferring it to another. In either case, any onlookers who understand what the
+secret broker is doing, and the recipient in the case of a transfer, can intrinsically tell that the
+secret broker has used this ability rather than simply sharing the memory through other means or
+destroying the object but keeping its secret.
 
-At 4th level, a secret broker learns to use her knowledge transference powers more flexibly,
-allowing her to use _[share memory](ref/spell/share-memory)_at will, but only with willing targets.
+**Share Memory (Sp)**
 
-This ability replaces shift focus.
+**Ability:** A secret broker learns to use her knowledge transference powers more flexibly, allowing
+her to use [share memory](ref/spell/share-memory) at will, but only with willing targets.
 
-## Steal Secret (Sp) {#steal-secret}
+**Gained:** At 4th Level
 
-At 8th level, a secret broker learns how to steal a secret from an unwilling target. This works as
-her [share memory](ref/spell/share-memory) ability, except it allows her to access memories from
-unwilling targets.
+**Replaces:** Shift focus
 
-A target that succeeds at its saving throw against a secret broker's steal secret ability is forever
-after immune to that secret broker's steal secret ability.
+**Steal Secret (Sp)**
 
-This ability replaces magic circles.
+**Ability:** A secret broker learns how to steal a secret from an unwilling target. This works as
+her _[share memory](ref/spell/share-memory)_ ability, except it allows her to access memories from
+unwilling targets. A target that succeeds at its saving throw against a secret broker's _steal
+secret_ ability is forever after immune to that secret broker's _steal secret_ ability.
 
-## Erase Secret (Sp) {#erase-secret}
+**Gained:** At 8th Level
 
-At 12th level, a secret broker can expend 1 point of mental focus from her divination implement in
+**Replaces:** Magic circles
+
+**Erase Secret (Sp)**
+
+**Ability:** A secret broker can expend 1 point of mental focus from her divination implement in
 order to erase a fact from someone's mind by touch. This works similarly to
-_[modify memory](ref/spell/modify-memory)_ to erase the memory of an event, except the effect is
+[modify memory](ref/spell/modify-memory) to erase the memory of an event, except the effect is
 instantaneous and leaves no magical trace (it can still be removed by
-_[break enchantment](ref/spell/break-enchantment)_, _[psychic surgery](ref/spell/psychic-surgery)_,
-_[limited wish](ref/spell/limited-wish)_, _[miracle](ref/spell/miracle)_, or
-_[wish](ref/spell/wish)_) and the secret broker can remove only one fact, such as "The queen and the
-general are having an affair" rather than a 5-minute event. Erasing the memory of a fact does not
-prevent the target from learning the fact again, or even potentially from deducing the fact again
-from evidence, given time.
+[break enchantment](ref/spell/break-enchantment), [psychic surgery](ref/spell/psychic-surgery),
+[limited wish](ref/spell/limited-wish), [miracle](ref/spell/miracle), or [wish](ref/spell/wish)) and
+the secret broker can remove only one fact, such as "The queen and the general are having an affair"
+rather than a 5-minute event. Erasing the memory of a fact does not prevent the target from learning
+the fact again, or even potentially from deducing the fact again from evidence, given time.
 
-This ability replaces binding circles.
+**Gained:** At 12th Level
 
-## Purge Secret (Sp) {#purge-secret}
+**Replaces:** Binding circles
 
-At 16th level, a secret broker can expend 3 points of mental focus from her divination implement to
-apply her erase secret ability to up to one creature per level within 30 feet of her. This ability
-replaces fast circles.
+**Purge Secret (Sp)**
+
+**Ability:** A secret broker can expend 3 points of mental focus from her divination implement to
+apply her _erase secret_ ability to up to one creature per level within 30 feet of her.
+
+**Gained:** At 16th Level
+
+**Replaces:** Fast circles

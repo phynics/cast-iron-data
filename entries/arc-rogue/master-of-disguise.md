@@ -16,14 +16,10 @@ page = "46"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "consummate-actor" },
-  { anchor = "grandmaster-of-disguise", level = 10 },
-]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding", by = ["consummate-actor"] },
-  { replaces = "rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2], by = ["consummate-actor"] },
-  { replaces = "Rogue talent gained at 10th level", feature = "rogue-talents", levels = [10], by = ["grandmaster-of-disguise"] },
+  { replaces = "Trapfinding", feature = "trapfinding" },
+  { replaces = "rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2] },
+  { replaces = "Rogue talent gained at 10th level", feature = "rogue-talents", levels = [10] },
 ]
 +++
 
@@ -31,32 +27,31 @@ A master of disguise feels no need to advertise her skills to build a reputation
 believes that never letting her adversaries know her true identity protects her from bad luck or
 missteps on a job.
 
-## Consummate Actor (Ex) {#consummate-actor}
+**Consummate Actor (Ex)**
 
-A master of disguise adds half her rogue level (minimum 1) on all Disguise checks and on Bluff
-checks to stay in character while using Disguise. At 2nd level, she gains the
-[quick disguise](ref/talent/quick-disguise) rogue talent, and she can create a disguise twice as
-quickly as normal even for that rogue talent (she can create a disguise that encompasses only minor
-details as a standard action).
+**At 1st Level:** A master of disguise adds half her rogue level (minimum 1) on all Disguise checks
+and on Bluff checks to stay in character while using Disguise.
 
-This ability replaces trapfinding and the rogue talent gained at 2nd level.
+**At 2nd Level:** She gains the [quick disguise](ref/talent/quick-disguise) rogue talent, and she
+can create a disguise twice as quickly as normal even for that rogue talent (she can create a
+disguise that encompasses only minor details as a **standard action**).
 
-## Grandmaster of Disguise (Ex) {#grandmaster-of-disguise}
+**Replaces:** Trapfinding, rogue talent gained at 2nd level
 
-At 10th level, a [master of disguise](ref/talent/master-of-disguise) gains the master of disguise
+**Grandmaster of Disguise (Ex)**
+
+**Ability:** A master of disguise gains the [master of disguise](ref/talent/master-of-disguise)
 advanced rogue talent and can use it an unlimited number of times per day. Because she must still
 don a physical disguise to gain this bonus, it doesn't stack with the bonuses from spells like
-_[alter self](ref/spell/alter-self)_ and _[disguise self](ref/spell/disguise-self)_, but since it is
+[alter self](ref/spell/alter-self) and [disguise self](ref/spell/disguise-self), but since it is
 completely nonmagical, it is more reliable when scrutinized under magical detection.
 
-This ability replaces the rogue talent gained at 10th level.
+**Gained:** At 10th Level
 
-## Rogue Talents {#rogue-talents}
+**Replaces:** Rogue talent gained at 10th level
 
-The following rogue talents complement the master of disguise archetype: camouflage, false friend,
-major magic, minor magic, obfuscate story, shades of gray, and steal the story.
+**These rogue talents complement this archetype:** Camouflage, false friend, major magic, minor
+magic, obfuscate story, shades of gray, steal the story
 
-## Advanced Talents {#advanced-talents}
-
-The following advanced rogue talents complement the master of disguise archetype: hard minded,
-hidden mind, skill mastery, slippery mind, and unwitting ally.
+**These advanced rogue talents complement this archetype:** Hard minded, hidden mind, skill mastery,
+slippery mind, unwitting ally

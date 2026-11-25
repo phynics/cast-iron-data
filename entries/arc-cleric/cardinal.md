@@ -16,17 +16,13 @@ page = "64"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "armor-proficiency" },
-  { anchor = "political-skill" },
-]
 trades = [
-  { replaces = "Armor proficiencies", feature = "weapon-and-armor-proficiencies", power = "armor", by = ["armor-proficiency"] },
-  { replaces = "Spontaneous casting ability", feature = "spontaneous-casting", by = ["political-skill"] },
-  { alters = "Domains", feature = "domains", by = ["political-skill"] },
-  { alters = "class skills", by = ["political-skill"] },
-  { alters = "skill ranks per level", by = ["political-skill"] },
-  { alters = "base attack bonus", by = ["political-skill"] },
+  { replaces = "Armor proficiencies", feature = "weapon-and-armor-proficiencies", power = "armor" },
+  { replaces = "Spontaneous casting ability", feature = "spontaneous-casting" },
+  { alters = "Domains", feature = "domains" },
+  { alters = "class skills" },
+  { alters = "skill ranks per level" },
+  { alters = "base attack bonus" },
 ]
 +++
 
@@ -37,21 +33,23 @@ retain the purity of their faith, many cardinals find that they must compromise 
 beliefs in pursuit of their church's political power, and some cardinals even fall prey to the
 corrupting influence of their power.
 
-## Armor Proficiency {#armor-proficiency}
+**Armor Proficiency**
 
-A cardinal is proficient in light armor, but not shields.
+**Info:** A cardinal is proficient in light armor, but not shields.
 
-This ability replaces the cleric's armor proficiencies.
+**Replaces:** Armor proficiencies
 
-## Political Skill {#political-skill}
+**Political Skill**
 
-A cardinal adds [Bluff](ref/skill/bluff), [Intimidate](ref/skill/intimidate),
-[Knowledge (geography)](ref/skill/knowledge-geography), and
-[Knowledge (local)](ref/skill/knowledge-local) to her list of class skills. She gains a number of
-skill ranks equal to 6 + her Intelligence modifier at each level, instead of the normal 2 + her
-Intelligence modifier. However, she gains only one domain, and her base attack bonus from cleric
-levels is equal to [half](ref/misc/fractions-and-rounding) her class level (which is the same as for
-a sorcerer or wizard).
+**Alters:** Domains, class skills, skill ranks per level, base attack bonus
 
-This ability replaces the cleric's spontaneous casting ability. It alters the cleric's domains, as
-well as her class skills, skill ranks per level, and base attack bonus.
+**Info:** A cardinal adds [Bluff](ref/skill/bluff) (CHA), [Intimidate](ref/skill/intimidate) (CHA),
+[Knowledge (geography)](ref/skill/knowledge-geography) (INT), and
+[Knowledge (local)](ref/skill/knowledge-local) (INT) to her list of class skills.
+
+**Passive:** She gains a number of skill ranks equal to 6 + her Intelligence modifier at each level,
+instead of the normal 2 + her Intelligence modifier. However, she gains only one domain, and her
+base attack bonus from cleric levels is equal to [half](ref/misc/fractions-and-rounding) her class
+level (which is the same as for a sorcerer or wizard).
+
+**Replaces:** Spontaneous casting ability

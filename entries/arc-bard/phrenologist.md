@@ -16,73 +16,85 @@ page = "114"
 
 [fields]
 kind = "archetype"
-features = [
-  { anchor = "phrenological-knowledge", level = 1 },
-  { anchor = "skull-versed", level = 2 },
-  { anchor = "phrenological-savant", level = 10 },
-  { anchor = "bardic-performance" },
-  { anchor = "skull-sonata", level = 1 },
-  { anchor = "in-your-head", level = 3 },
-  { anchor = "fingers-of-fascination" },
-]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["phrenological-knowledge"] },
-  { replaces = "Well-versed", feature = "well-versed", by = ["skull-versed"] },
-  { replaces = "Jack-of-all-trades", feature = "jack-of-all-trades", by = ["phrenological-savant"] },
-  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage", by = ["skull-sonata"] },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["in-your-head"] },
-  { alters = "Fascinate", feature = "bardic-performance", power = "fascinate", by = ["fingers-of-fascination"] },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
+  { replaces = "Well-versed", feature = "well-versed" },
+  { replaces = "Jack-of-all-trades", feature = "jack-of-all-trades" },
+  { replaces = "Inspire courage", feature = "bardic-performance", power = "inspire courage" },
+  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
+  { alters = "Fascinate", feature = "bardic-performance", power = "fascinate" },
 ]
 +++
 
 The phrenologist is an expert at reading creatures' skulls, and he learns to use this knowledge to
 his benefit.
 
-## Phrenological Knowledge (Ex) {#phrenological-knowledge}
+**Phrenological Knowledge (Ex)**
 
-A phrenologist is an expert at reading creatures' skulls. He gains
+**Ability:** A phrenologist is an expert at reading creatures' skulls. He gains
 [Psychic Sensitivity](ref/feat/psychic-sensitivity) as a bonus feat, and he can use the phrenology
-skill unlock even if he is untrained in [Knowledge (arcana)](ref/skill/knowledge-arcana). He adds
-[half](ref/misc/fractions-and-rounding) his class level (minimum 1) on all Knowledge (arcana) checks
-for the phrenology occult skill unlock. This ability replaces bardic knowledge.
+skill unlock even if he is untrained in [Knowledge (arcana)](ref/skill/knowledge-arcana).
 
-## Skull-Versed (Ex) {#skull-versed}
+**Passive:** He adds [half](ref/misc/fractions-and-rounding) his class level (minimum 1) on all
+Knowledge (arcana) checks for the phrenology occult skill unlock.
 
-Starting at 2nd level, a phrenologist can use knowledge gleaned from a creature's skull to tailor a
+**Replaces:** Bardic knowledge
+
+**Skull-Versed (Ex)**
+
+**Ability:** A phrenologist can use knowledge gleaned from a creature's skull to tailor a
 performance. All creatures on which the phrenologist has successfully used his phrenology skill
-unlock take a -2 penalty on all saving throws against the phrenologist's bardic performances. This
-ability replaces well-versed.
+unlock take a -2 penalty on all saving throws against the phrenologist's bardic performances.
 
-## Phrenological Savant {#phrenological-savant}
+**Gained:** At 2nd Level
 
-At 10th level, a phrenologist gains either [Psychic Maestro](ref/feat/psychic-maestro) or
+**Replaces:** Well-versed
+
+**Phrenological Savant**
+
+**Ability:** A phrenologist gains either [Psychic Maestro](ref/feat/psychic-maestro) or
 [Psychic Virtuoso](ref/feat/psychic-virtuoso) as a bonus feat. If he chooses Psychic Maestro, he
-must select phrenology as one of his two skill unlocks to use an additional time. This ability
-replaces jack-of-all-trades.
+must select phrenology as one of his two skill unlocks to use an additional time.
 
-## Bardic Performance {#bardic-performance}
+**Gained:** At 10th Level
 
-A phrenologist gains the following types of bardic performance.
+**Replaces:** Jack-of-all-trades
 
-## Skull Sonata (Su) {#skull-sonata}
+**Bardic Performance**
 
-At 1st level, a phrenologist learns to use the resonance of other creatures' skulls to increase
-sonic damage. All enemies within 30 feet of the phrenologist that have skulls take an amount of
-additional sonic damage equal to half the phrenologist's bard level (minimum 1) each time they take
-sonic damage. Skull sonata relies on audible components. This ability replaces inspire courage.
+**Info:** A phrenologist gains the following types of bardic performance.
 
-## In Your Head (Sp) {#in-your-head}
+**Skull Sonata (Su)**
 
-At 3rd level, a phrenologist can use his performance to send his own senses into another's skull, as
-the spell _[witness](ref/spell/witness)_ (DC = 10 + 1/2 the phrenologist's class level + his
-Charisma modifier). At 11th level, this performance's duration increases to 10 minutes per bard
-level, and at 19th level, the duration increases to 1 hour per bard level. In your head relies on
-audible components. This ability replaces inspire competence.
+**Ability:** A phrenologist learns to use the resonance of other creatures' skulls to increase sonic
+damage. All enemies within 30 feet of the phrenologist that have skulls take an amount of additional
+sonic damage equal to half the phrenologist's bard level (minimum 1) each time they take sonic
+damage.
 
-## Fingers of Fascination (Su) {#fingers-of-fascination}
+**Replaces:** Inspire courage
 
-When a phrenologist uses the [fascinate](ref/performance/fascinate) bardic performance, he can send
-forth psychic fingers along with his performance, allowing him to study one of the fascinated
-creatures with his phrenology skill unlock without touching its head physically and without it being
-helpless, willing, or paralyzed. This does not spend his daily use of the phrenology skill unlock.
-This ability alters fascinate.
+**Special:** _Skull sonata_ relies on audible components.
+
+**In Your Head (Sp)**
+
+**At 11th Level:** This performance's duration increases to 10 minutes per bard level.
+
+**At 19th Level:** The duration increases to 1 hour per bard level.
+
+**At 3rd Level:** A phrenologist can use his performance to send his own senses into another's
+skull, as the spell [witness](ref/spell/witness) (DC = 10 + 1/2 the phrenologist's class level + his
+Charisma modifier).
+
+**Replaces:** Inspire competence
+
+**Special:** _In your head_ relies on audible components.
+
+**Fingers of Fascination (Su)**
+
+**Ability:** When a phrenologist uses the [fascinate](ref/performance/fascinate) bardic performance,
+he can send forth psychic fingers along with his performance, allowing him to study one of the
+fascinated creatures with his phrenology skill unlock without touching its head physically and
+without it being helpless, willing, or paralyzed. This does not spend his daily use of the
+phrenology skill unlock.
+
+**Alters:** Fascinate
