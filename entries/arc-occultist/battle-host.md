@@ -16,20 +16,28 @@ page = "100"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "class-skills" },
+  { anchor = "panoply-bond", level = 1 },
+  { anchor = "battle-skill", level = 2 },
+  { anchor = "battle-reading", level = 2 },
+  { anchor = "spirit-warrior", level = 5 },
+  { anchor = "heroic-splendor", level = 6 },
+]
 trades = [
   { replaces = "Weapon and armor proficiency", feature = "weapon-and-armor-proficiencies" },
   { replaces = "Shift focus", feature = "shift-focus" },
   { replaces = "magic circles", feature = "magic-circles" },
   { replaces = "binding circles", feature = "binding-circles" },
   { replaces = "fast circles", feature = "fast-circles" },
-  { replaces = "Aura sight", feature = "aura-sight" },
-  { replaces = "Outside contact", feature = "outside-contact" },
-  { alters = "Implements", feature = "implements" },
-  { alters = "mental focus", feature = "mental-focus" },
-  { alters = "spellcasting", feature = "spells" },
-  { alters = "implement mastery", feature = "implement-mastery" },
-  { alters = "Magic item skill", feature = "magic-item-skill" },
-  { alters = "Object reading", feature = "object-reading" },
+  { replaces = "Aura sight", feature = "aura-sight", by = ["spirit-warrior"] },
+  { replaces = "Outside contact", feature = "outside-contact", by = ["heroic-splendor"] },
+  { alters = "Implements", feature = "implements", by = ["panoply-bond"] },
+  { alters = "mental focus", feature = "mental-focus", by = ["panoply-bond"] },
+  { alters = "spellcasting", feature = "spells", by = ["panoply-bond"] },
+  { alters = "implement mastery", feature = "implement-mastery", by = ["panoply-bond"] },
+  { alters = "Magic item skill", feature = "magic-item-skill", by = ["battle-skill"] },
+  { alters = "Object reading", feature = "object-reading", by = ["battle-reading"] },
 ]
 +++
 
@@ -38,107 +46,67 @@ supernatural bond with a chosen weapon, suit of armor, or shield, from which he 
 energy to cast spells, conjure the spirit of the object's former owner, increase his own physical
 might, and produce a number of other remarkable abilities.
 
-**Gained class skills:** kl, kno
+## Class Skills {#class-skills}
 
-**Weapon and Armor Proficiency**
+A battle host adds Knowledge (local) (Int) and Knowledge (nobility) (Int) as class skills. This
+alters the occultist's class skills.
 
-**Ability:** A battle host is proficient with all simple and martial weapons and with all types of
-armor (heavy, light, and medium) and shields (including tower shields).
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Replaces:** Weapon and armor proficiency
+A battle host is proficient with all simple and martial weapons and with all types of armor (heavy,
+light, and medium) and shields (including tower shields). This replaces the occultist's weapon and
+armor proficiency.
 
-**Panoply Bond (Su)**
+## Panoply Bond (Su) {#panoply-bond}
 
-**Ability:** A battle host forms a supernatural bond with a specific weapon, suit of armor, or
+At 1st level, a battle host forms a supernatural bond with a specific weapon, suit of armor, or
 shield. This selection is permanent and can never be changed. The bonded item is masterwork quality
 and the battle host begins play with it at no cost. The bonded item is immune to the
 [broken](ref/misc/broken) condition for as long as the battle host lives. If a battle host dies and
 is restored to life, the bonded item is also restored if it was destroyed. Any magic powers
 associated with a battle host's bonded item function only for the battle host; in the hands of
-anyone else it is only a masterwork item.
-
-**Alters:** Implements, mental focus, spellcasting, implement mastery
-
-**At 1st Level:** The bonded item starts as an implement for any single school of magic, granting
-access to its base focus powers and resonant powers.
-
-**Gained:** At 1st Level
-
-**Repeat At:** His bonded item gains access to an additional school of magic (and its focus and
-resonant powers, as usual)., 2, 10, 14, 18
-
-**Special:** The battle host's bonded item serves as his implement component to cast occultist
+anyone else it is only a masterwork item. The bonded item starts as an implement for any single
+school of magic at 1st level, and gains access to additional schools of magic at 2nd, 10th, 14th,
+and 18th levels, granting the battle host access to base focus powers and resonant powers
+accordingly. The battle host's bonded item serves as his implement component to cast occultist
 spells of all the schools that he knows. However, he must split his mental focus among the schools
 he knows for the purpose of determining resonant powers and using focus powers, even though he
-possesses only one physical item as an implement.
+possesses only one physical item as an implement. This ability alters implements, mental focus,
+spellcasting, and implement mastery.
 
-**Battle Skill**
+## Battle Skill {#battle-skill}
 
-**Alters:** Magic item skill
+At 2nd level, a battle host's magic item skill ability applies only on checks with weapons, armor,
+and shields. This ability alters magic item skill.
 
-**Info:** A battle host's _magic item skill_ ability applies only on checks with weapons, armor, and
-shields.
+## Battle Reading {#battle-reading}
 
-**Gained:** At 2nd Level
+At 2nd level, a battle host can use [object reading](ref/spell/object-reading) on only weapons,
+armor, and shields. This ability alters object reading.
 
-**Battle Reading**
+## Bonus Feats {#bonus-feats}
 
-**Alters:** Object reading
+At 4th, 8th, 12th, and 16th levels, a battle host gains a bonus feat in addition to those gained
+from normal advancement. These bonus feats must be selected from those listed as combat feats. The
+battle host must meet the prerequisites of these bonus feats. This ability replaces shift focus,
+magic circles, binding circles, and fast circles.
 
-**Info:** A battle host can use _[object reading](ref/spell/object-reading)_ on only weapons, armor,
-and shields.
+## Spirit Warrior (Sp) {#spirit-warrior}
 
-**Gained:** At 2nd Level
+At 5th level, a battle host can call forth the spirit of a dead warrior who once owned his bonded
+item. Calling the spirit is a standard action, and unlike the use of most
+[spell-like abilities](ref/umr/spell-like-abilities), it doesn't provoke an attack of opportunity.
+This ability functions as _[spiritual ally](ref/spell/spiritual-ally)_, using the battle host's
+occultist level as his caster level and his Intelligence modifier instead of his Wisdom modifier to
+determine the spell's effects. The battle host can summon a spirit warrior once per day at 5th
+level, plus one additional time per day for every 4 occultist levels he possesses beyond 5th. This
+ability replaces aura sight.
 
-**Bonus Feats**
+## Heroic Splendor (Su) {#heroic-splendor}
 
-**At 4th Level:** A battle host gains a bonus feat in addition to those gained from normal
-advancement. These bonus feats must be selected from those listed as combat feats.
-
-**Repeat At:** The battle host gains another bonus feat, following the restrictions above., 8, 12,
-16
-
-**Replaces:** Shift focus, magic circles, binding circles, fast circles
-
-**Special:** The battle host must meet the prerequisites of these bonus feats.
-
-**Spirit Warrior (Sp)**
-
-**Gained:** At 5th Level
-
-**Replaces:** Aura sight
-
-**Special:** Unlike the use of most [spell-like abilities](ref/umr/spell-like-abilities), this
-doesn't provoke an attack of opportunity.
-
-**Standard:** Once per day, a battle host can call forth the spirit of a dead warrior who once owned
-his bonded item. This ability functions as [spiritual ally](ref/spell/spiritual-ally), using the
-battle host's occultist level as his caster level and his Intelligence modifier instead of his
-Wisdom modifier to determine the spell's effects.
-
-At 9th level: He can use this ability 2 times a day.
-
-At 13th level: He can use this action 3 times a day.
-
-At 17th level: He can use this ability 4 times a day.
-
-**Heroic Splendor (Su)**
-
-**Flavor:** A battle host can draw power from his bonded item to imbue himself with superhuman
-strength, agility, or resilience.
-
-**Gained:** At 6th Level
-
-**Replaces:** Outside contact
-
-**Special:** If he activates _heroic splendor_ again before the duration expires, the new use of
-_heroic splendor_ replaces the old use.
-
-**Swift:** Once a day, a battle host can grant himself a +4 insight bonus to Strength, Dexterity, or
-Constitution for 1 minute.
-
-At 10th level: He can use this ability 2 times a day.
-
-At 14th level: He can use this power 3 times a day.
-
-At 18th level: He can use this ability 4 times a day.
+At 6th level, a battle host can draw power from his bonded item to imbue himself with superhuman
+strength, agility, or resilience. As a swift action, a battle host can grant himself a +4 insight
+bonus to Strength, Dexterity, or Constitution for 1 minute. The battle host can use this ability
+once per day at 6th level, plus one additional time per day for every 4 occultist levels he
+possesses beyond 6th. If he activates heroic splendor again before the duration expires, the new use
+of heroic splendor replaces the old use. This ability replaces outside contact.

@@ -16,16 +16,26 @@ page = "118"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "guarded-senses", level = 2 },
+  { anchor = "uncanny-dodge", level = 3 },
+  { anchor = "centered-senses", level = 5 },
+  { anchor = "improved-uncanny-dodge", level = 7 },
+  { anchor = "evasion", level = 11 },
+  { anchor = "steady", level = 15 },
+  { anchor = "perfect-senses", level = 19 },
+  { anchor = "precision", level = 20 },
+]
 trades = [
   { replaces = "Weapon and armor proficiency", feature = "weapon-and-armor-proficiencies" },
-  { replaces = "Bravery", feature = "bravery" },
-  { replaces = "Armor training 1", feature = "armor-training", levels = [3] },
-  { replaces = "Weapon training 2, 3, and 4", feature = "weapon-training", levels = [9, 13, 17] },
-  { replaces = "Armor training 2", feature = "armor-training", levels = [7] },
-  { replaces = "Armor training 3", feature = "armor-training", levels = [11] },
-  { replaces = "Armor training 4", feature = "armor-training", levels = [15] },
-  { replaces = "Armor mastery", feature = "armor-mastery" },
-  { replaces = "Weapon mastery", feature = "weapon-mastery" },
+  { replaces = "Bravery", feature = "bravery", by = ["guarded-senses"] },
+  { replaces = "Armor training 1", feature = "armor-training", levels = [3], by = ["uncanny-dodge"] },
+  { replaces = "Weapon training 2, 3, and 4", feature = "weapon-training", levels = [9, 13, 17], by = ["centered-senses"] },
+  { replaces = "Armor training 2", feature = "armor-training", levels = [7], by = ["improved-uncanny-dodge"] },
+  { replaces = "Armor training 3", feature = "armor-training", levels = [11], by = ["evasion"] },
+  { replaces = "Armor training 4", feature = "armor-training", levels = [15], by = ["steady"] },
+  { replaces = "Armor mastery", feature = "armor-mastery", by = ["perfect-senses"] },
+  { replaces = "Weapon mastery", feature = "weapon-mastery", by = ["precision"] },
 ]
 +++
 
@@ -33,109 +43,69 @@ A sensate perceives battle through senses beyond mortal ken, anticipating his op
 before they even begin to act. As long as he keeps his focus about him, he fights with a skill
 rivaling that of the finest masters-at-arms.
 
-**Gained class skills:** acro, per, sm
+## Skills {#skills}
 
-**Lost class skills:** ha, intm, kd, ke
+The sensate's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Perception (Wis),
+Profession (Wis), Ride (Dex), Sense Motive (Wis), Survival (Wis), and Swim (Str). This replaces the
+fighter's class skills.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** Sensates are proficient with all simple and martial weapons, light armor, medium armor,
-and shields (except tower shields).
+Sensates are proficient with all simple and martial weapons, light armor, medium armor, and shields
+(except tower shields). This replaces the fighter's weapon and armor proficiency.
 
-**Replaces:** Weapon and armor proficiency
+## Guarded Senses (Su) {#guarded-senses}
 
-**Guarded Senses (Su)**
+At 2nd level, a sensate gains a +1 bonus on saves against sonic effects, figments, glamers,
+patterns, [gaze](ref/umr/gaze) attacks, and scent-based attacks. This bonus increases by 1 for every
+4 levels the sensate possesses beyond 2nd. This ability replaces bravery.
 
-**Gained:** At 2nd Level
+## Uncanny Dodge (Su) {#uncanny-dodge}
 
-**Passive:** A sensate gains a +1 bonus on saves against sonic effects, figments, glamers, patterns,
-[gaze](ref/umr/gaze) attacks, and scent-based attacks.
+At 3rd level, a sensate gains [uncanny dodge](ref/ability/uncanny-dodge) as the
+[barbarian](ref/class/barbarian) ability of the same name, except supernatural in nature. This
+ability replaces armor training 1.
 
-**Replaces:** Bravery
+## Centered Senses (Su) {#centered-senses}
 
-At 6th level: This bonus increases to +2.
+At 5th level, a sensate can center his senses as a move action. While centered, a sensate gains a +1
+insight bonus on attack rolls, weapon damage rolls, and Will saves. This bonus increases by 1 at 9th
+level and every 4 levels thereafter. A sensate loses his centered state if he gains the confused,
+dazed, fascinated, staggered, or stunned condition; falls unconscious; or fails a Will save. This
+ability replaces weapon training 2, 3, and 4.
 
-At 10th level: This bonus increases to +3.
+## Improved Uncanny Dodge (Su) {#improved-uncanny-dodge}
 
-At 14th level: This bonus increases to +4.
+At 7th level, a sensate gains [improved uncanny dodge](ref/ability/improved-uncanny-dodge) as the
+barbarian ability of the same name, except supernatural in nature. This ability replaces armor
+training 2.
 
-At 18th level: This bonus increases to +5.
+## Evasion (Su) {#evasion}
 
-**Uncanny Dodge (Su)**
-
-**Gained:** At 3rd Level
-
-**Passive:** A sensate gains [uncanny dodge](ref/ability/uncanny-dodge) as the
-[barbarian](ref/class/barbarian) ability of the same name, except supernatural in nature.
-
-**Replaces:** Armor training 1
-
-**Centered Senses (Su)**
-
-**Gained:** At 5th Level
-
-**Move:** A sensate can center his senses. While centered, a sensate gains a +1 insight bonus on
-attack rolls, weapon damage rolls, and Will saves.
-
-**Replaces:** Weapon training 2, 3, and 4
-
-**Special:** A sensate loses his centered state if he gains the confused, dazed, fascinated,
-staggered, or stunned condition; falls unconscious; or fails a Will save.
-
-At 9th level: This bonus increases to +2.
-
-At 13th level: This bonus increases to +3.
-
-At 17th level: This bonus increases to +4.
-
-**Improved Uncanny Dodge (Su)**
-
-**Gained:** At 7th Level
-
-**Passive:** A sensate gains [improved uncanny dodge](ref/ability/improved-uncanny-dodge) as the
-barbarian ability of the same name, except supernatural in nature.
-
-**Replaces:** Armor training 2
-
-**Evasion (Su)**
-
-**Gained:** At 11th Level
-
-**Passive:** A sensate gains [evasion](ref/ability/evasion) while using centered senses. This
+At 11th level, a sensate gains [evasion](ref/ability/evasion) while using centered senses. This
 functions as the rogue ability of the same name, except that it is supernatural in nature and works
-regardless of the sensate's armor and encumbrance.
+regardless of the sensate's armor and encumbrance. This ability replaces armor training 3.
 
-**Replaces:** Armor training 3
+## Steady (Su) {#steady}
 
-**Steady (Su)**
+At 15th level, a sensate can center himself as a swift action. This ability replaces armor
+training 4.
 
-**Gained:** At 15th Level
+## Perfect Senses (Su) {#perfect-senses}
 
-**Replaces:** Armor training 4
+At 19th level, a sensate's senses reach perfection, and he can easily notice illusions and unseen
+foes by combining his senses. While centered, he gains the effects of
+_[true seeing](ref/spell/true-seeing)_ as well as [blindsense](ref/umr/blindsense) 60 feet. An
+unseen creature that makes no sound and leaves no scent (such as a creature under the effects of
+_[invisibility](ref/spell/invisibility)_, _[silence](ref/spell/silence)_, and
+_[negate aroma](ref/spell/negate-aroma)_) can still avoid both the
+_[true seeing](ref/spell/true-seeing)_ and the [blindsense](ref/rule/blindsight-and-blindsense).
 
-**Swift:** A sensate can center himself as a **swift action**.
+This ability replaces armor mastery.
 
-**Perfect Senses (Su)**
+## Precision (Su) {#precision}
 
-**Gained:** At 19th Level
-
-**Passive:** A sensate's senses reach perfection, and he can easily notice illusions and unseen foes
-by combining his senses. While centered, he gains the effects of
-[true seeing](ref/spell/true-seeing) as well as [blindsense](ref/umr/blindsense) 60 feet. An unseen
-creature that makes no sound and leaves no scent (such as a creature under the effects of
-[invisibility](ref/spell/invisibility), [silence](ref/spell/silence), and
-[negate aroma](ref/spell/negate-aroma)) can still avoid both the
-_[true seeing](ref/spell/true-seeing)_ and the _[blindsense](ref/rule/blindsight-and-blindsense)._
-
-**Replaces:** Armor mastery
-
-**Precision (Su)**
-
-**Gained:** At 20th Level
-
-**Passive:** A sensate rolls twice to confirm critical hits while centered, taking the more
+At 20th level, a sensate rolls twice to confirm critical hits while centered, taking the more
 favorable result. Opponents must roll twice to confirm critical hits against him, taking the less
 favorable result. The latter ability does not function when the sensate is denied his Dexterity
-bonus.
-
-**Replaces:** Weapon mastery
+bonus. This ability replaces weapon mastery.

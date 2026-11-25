@@ -16,18 +16,23 @@ page = "102"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bonded-tome", level = 1 },
+  { anchor = "devour-books-and-scrolls" },
+  { anchor = "word-sense", level = 5 },
+]
 trades = [
-  { replaces = "Shift focus", feature = "shift-focus" },
-  { replaces = "6th-level implement", feature = "implements", levels = [6] },
-  { replaces = "magic circles", feature = "magic-circles" },
-  { replaces = "outside contact", feature = "outside-contact" },
-  { replaces = "binding circles", feature = "binding-circles" },
-  { replaces = "fast circles", feature = "fast-circles" },
-  { replaces = "Aura sight", feature = "aura-sight" },
-  { alters = "Implements", feature = "implements" },
-  { alters = "mental focus", feature = "mental-focus" },
-  { alters = "spellcasting", feature = "spells" },
-  { alters = "implement mastery", feature = "implement-mastery" },
+  { replaces = "Shift focus", feature = "shift-focus", by = ["devour-books-and-scrolls"] },
+  { replaces = "Implement gained at 6th level", feature = "implements", levels = [6], by = ["devour-books-and-scrolls"] },
+  { replaces = "magic circles", feature = "magic-circles", by = ["devour-books-and-scrolls"] },
+  { replaces = "outside contact", feature = "outside-contact", by = ["devour-books-and-scrolls"] },
+  { replaces = "binding circles", feature = "binding-circles", by = ["devour-books-and-scrolls"] },
+  { replaces = "fast circles", feature = "fast-circles", by = ["devour-books-and-scrolls"] },
+  { replaces = "Aura sight", feature = "aura-sight", by = ["word-sense"] },
+  { alters = "Implements", feature = "implements", by = ["bonded-tome"] },
+  { alters = "mental focus", feature = "mental-focus", by = ["bonded-tome"] },
+  { alters = "spellcasting", feature = "spells", by = ["bonded-tome"] },
+  { alters = "implement mastery", feature = "implement-mastery", by = ["bonded-tome"] },
 ]
 +++
 
@@ -36,85 +41,68 @@ devouring books and scrolls to create magical effects and gain mystical insights
 bonded tomes to gain access to all sorts of magic, and as they grow in power, they gain an innate
 sense of the books and writings around them.
 
-**Bonded Tome (Su)**
+## Bonded Tome (Su) {#bonded-tome}
 
-**Ability:** As part of casting an occultist spell, a tome eater can expend 1 point of mental focus
-tied to the appropriate school to increase the spell's caster level by 1 or increase the spell's DC
-by 1.
+At 1st level, a tome eater forms a supernatural bond with a specific book. She can replace her
+bonded tome with another book at any time, though the tome eater must perform a 24-hour binding
+ritual to attune herself to the new book.
 
-**Alters:** Implements, mental focus, spellcasting, implement mastery
+The bonded tome starts as an implement for any two schools of magic at 1st level, and it gains
+access to additional schools of magic at 2nd, 10th, 14th, and 18th levels, granting the tome eater
+access to base focus powers and resonant powers accordingly. The tome eater's bonded tome serves as
+her implement component to cast occultist spells of all schools she knows. However, she must split
+her mental focus among the schools she knows for the purpose of determining resonant powers and
+using focus powers, even though she possesses only one physical item as an implement. Once per day
+as part of casting an occultist spell, a tome eater can expend 1 point of mental focus tied to the
+appropriate school to increase the spell's caster level by 1 or increase the spell's DC by 1. A tome
+eater can enhance a spell in this manner one additional time per day at 6th level, and another time
+per day for every 5 occultist levels she possesses beyond 6th. This ability alters implements,
+mental focus, spellcasting, and implement mastery.
 
-**Info:** A tome eater forms a supernatural bond with a specific book. She can replace her bonded
-tome with another book at any time, though the tome eater must perform a 24-hour binding ritual to
-attune herself to the new book.
+## Devour Books and Scrolls (Sp) {#devour-books-and-scrolls}
 
-**Gained:** At 1st Level
+A tome eater can devour books and scrolls in order to gain various benefits. Devouring a book or
+scroll is a full-round action that provokes attacks of opportunity. A devoured book or scroll is
+absorbed into the tome eater's body and completely destroyed.
 
-**Special:** The bonded tome starts as an implement for any two schools of magic at 1st level, and
-it gains access to additional schools of magic at 2nd, 10th, 14th, and 18th levels, granting the
-tome eater access to base focus powers and resonant powers accordingly. The tome eater's bonded tome
-serves as her implement component to cast occultist spells of all schools she knows. However, she
-must split her mental focus among the schools she knows for the purpose of determining resonant
-powers and using focus powers, even though she possesses only one physical item as an implement.
-
-**Usage:** 1 time/day + 1 per 5 occultist levels beyond 1st
-
-**Devour Books and Scrolls (Sp)**
-
-**Fullround:** A tome eater can devour books and scrolls in order to gain various benefits
-(described below). A devoured book or scroll is absorbed into the tome eater's body and completely
-destroyed.
-
-**At 12th Level:** A tome eater can devour a book or scroll as a **move action**. Additionally,
-whenever a tome eater successfully uses this ability to counter a spell being cast from a scroll,
-she can choose to turn the spell back on its caster (as [spell turning](ref/spell/spell-turning))
-instead of devouring the scroll. She can do this whether or not she has devoured a scroll or book
-yet that day.
-
-**At 16th Level:** The tome eater can use the spell-devouring ability as an **immediate action**
-without readying an action
-
-**At 4th Level:** Once per day a tome eater can devour a spell scroll or a book to regain mental
-focus, which she can divide as she likes among her schools of magic, to a maximum of the amount of
-mental focus she assigned to that school at the beginning of the day. If she devours a scroll, a
-tome eater regains a number of points of mental focus equal to the spell level of the highest-level
-spell contained on the scroll. If she devours a nonmagical book that contains at least 100 pages of
+At 4th level, once per day a tome eater can devour a spell scroll or a book to regain mental focus,
+which she can divide as she likes among her schools of magic, to a maximum of the amount of mental
+focus she assigned to that school at the beginning of the day. If she devours a scroll, a tome eater
+regains a number of points of mental focus equal to the spell level of the highest-level spell
+contained on the scroll. If she devours a nonmagical book that contains at least 100 pages of
 written text and is worth at least 25 gp, a tome eater regains 1 point of mental focus. If she
 devours a magical book, she regains a number of points of mental focus equal to half the caster
 level of the item. If the tome eater devours a spellbook with at least 50 pages of spells of 1st
 level or higher, she regains 4 points of mental focus.
 
-**At 6th Level:** A tome eater can [ready an action](ref/rule/ready) to devour an enemy's spell when
-an enemy within 30 feet attempts to cast a spell from a scroll. This ability works as the
+At 6th level, a tome eater can [ready an action](ref/rule/ready) to devour an enemy's spell when an
+enemy within 30 feet attempts to cast a spell from a scroll. This ability works as the
 [counterspell](ref/rule/counterspells) action as if the tome eater were using
-[dispel magic](ref/spell/dispel-magic), though the tome eater doesn't need to cast a spell to
-counter the enemy's spell. A tome eater can use this ability a number of times per day equal to
-[one-sixth](ref/misc/fractions-and-rounding) of her occultist level.
+_[dispel magic](ref/spell/dispel-magic)_, though the tome eater doesn't need to cast a spell to
+counter the enemy's spell. A tome eater can use this ability once per day at 6th level, plus one
+additional time per day for every 4 occultist levels beyond 6th. If a tome eater readies an action
+to use this ability and the readied action never triggers, she doesn't expend a daily use of this
+ability. At 16th level, the tome eater can use this ability as an immediate action without readying
+an action.
 
-**At 8th Level:** A tome eater can devour a book or scroll as a **standard action**. Additionally,
-whenever a tome eater successfully uses this ability to counter a spell being cast from a scroll,
-she can devour the enemy's scroll without spending any additional actions if she hasn't devoured a
-scroll or book yet that day.
+At 8th level, a tome eater can devour a book or scroll as a standard action. Additionally, whenever
+a tome eater successfully uses this ability to counter a spell being cast from a scroll, she can
+devour the enemy's scroll without spending any additional actions if she hasn't devoured a scroll or
+book yet that day.
 
-**Gained:** At 4th Level
+At 12th level, a tome eater can devour a book or scroll as a move action. Additionally, whenever a
+tome eater successfully uses this ability to counter a spell being cast from a scroll, she can
+choose to turn the spell back on its caster (as _[spell turning](ref/spell/spell-turning)_) instead
+of devouring the scroll. She can do this whether or not she has devoured a scroll or book yet that
+day.
 
-**Provokes attack of opportunity:** Yes
+This ability replaces shift focus, the implement gained at 6th level, magic circles, outside
+contact, binding circles, and fast circles.
 
-**Replaces:** Shift focus, 6th-level implement, magic circles, outside contact, binding circles,
-fast circles
+## Word Sense (Sp, Su) {#word-sense}
 
-**Special:** If a tome eater readies an action to devour a spell and the readied action never
-triggers, she doesn't expend a daily use of that ability.
-
-**Word Sense (Sp, Su)**
-
-**Ability:** If she spends 1 round concentrating on a text within 30 feet per 100 pages of the text,
-she can gain a sense of a text's contents as if she had skimmed the text.
-
-**Gained:** At 5th Level
-
-**Passive:** A tome eater is constantly under the effect of [read magic](ref/spell/read-magic).
+At 5th level, a tome eater is constantly under the effect of _[read magic](ref/spell/read-magic)_.
 Additionally, she can automatically detect the general topic of a piece of writing, and whether that
-writing is a magical scroll or tome, simply by looking at it.
-
-**Replaces:** Aura sight
+writing is a magical scroll or tome, simply by looking at it. If she spends 1 round concentrating on
+a text within 30 feet per 100 pages of the text, she can gain a sense of a text's contents as if she
+had skimmed the text. This ability replaces aura sight.
