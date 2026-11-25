@@ -27,7 +27,7 @@ features = [
 ]
 trades = [
   { replaces = "1st-level hex", feature = "hex", levels = [1], by = ["dancing-strings"] },
-  { replaces = "4th-, 8th-, 12th-, and 16th-level hexes", feature = "hex", levels = [4, 8, 12, 16], by = ["witchweaver"] },
+  { replaces = "Hexes gained at 4th, 8th, 12th, and 16th levels", feature = "hex", levels = [4, 8, 12, 16], by = ["unravel"] },
   { alters = "Weapon proficiencies", feature = "weapon-and-armor-proficiencies", power = "weapons" },
   { alters = "Cantrips", feature = "cantrips", by = ["cantrips"] },
   { alters = "Spells", feature = "spells", by = ["dancing-strings"] },

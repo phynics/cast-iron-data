@@ -26,6 +26,7 @@ trades = [
   { replaces = "proficiency with heavy armor", feature = "weapon-and-armor-proficiencies", power = "heavy armor", by = ["shadow-weapon"] },
   { replaces = "shields", feature = "weapon-and-armor-proficiencies", power = "shields", by = ["shadow-weapon"] },
   { alters = "Weapon training", feature = "weapon-training", by = ["shadow-weapon-training"] },
+  { alters = "Class skills", by = ["student-of-darkness"] },
 ]
 +++
 

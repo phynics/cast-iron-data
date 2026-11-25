@@ -2553,6 +2553,7 @@ TRADE_RENAMES = {
     ('ref/arc-swashbuckler/azatariel', 'Bleeding wound'): 'Bleeding wound deed',
     ('ref/arc-swashbuckler/azatariel', 'Bonus feats'): "The swashbuckler's bonus feats",
     ('ref/arc-fighter/skirmisher', '2nd level fighter bonus feat'): 'Bonus feat the fighter normally receives at 2nd level',
+    ('ref/arc-witch/tatterdemalion', '4th-, 8th-, 12th-, and 16th-level hexes'): 'Hexes gained at 4th, 8th, 12th, and 16th levels',
 }
 
 
@@ -2611,6 +2612,7 @@ TRADE_ADDITIONS = {
     "ref/arc-swashbuckler/rostland-bravo": [{"alters": "Class skills"}],
     "ref/arc-magus/magic-warrior": [{"alters": "Class skills"}],
     "ref/arc-kineticist/dark-elementalist": [{"alters": "Class skills"}],
+    "ref/arc-fighter/gloomblade": [{"alters": "Class skills"}],
     # Opus review of batch 4: a printed "This alters/replaces ..." sentence that no stored trade states (the check `printed_trade_gaps`)
     "ref/arc-fighter/savage-warrior": [{"replaces": "The normal attack roll bonus and AC penalty for charging"}],
     "ref/arc-paladin/scion-of-talmandor": [{"alters": "Class skills"}],
