@@ -13,6 +13,9 @@ page = "62"
 [[sources]]
 publication = "advanced-players-guide"
 page = "331"
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "8"
 
 [fields]
 kind = "trait"

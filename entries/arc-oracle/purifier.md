@@ -16,9 +16,18 @@ page = "86"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "diminished-spellcasting" },
+  { anchor = "revelations" },
+  { anchor = "see-sin", level = 3 },
+  { anchor = "celestial-armor", level = 7 },
+  { anchor = "sin-eater", level = 11 },
+  { anchor = "sacred-scourge", level = 5 },
+  { anchor = "holy-terror", level = 9 },
+  { anchor = "celestial-master", level = 13 },
+]
 trades = [
-  { replaces = "All bonus spells from the oracle's mystery", feature = "mystery", power = "bonus spells" },
-  { replaces = "Revelations from her mystery gained at 3rd, 7th, and 11th levels", feature = "revelation", levels = [3, 7, 11] },
+  { replaces = "Revelations from her mystery gained at 3rd, 7th, and 11th levels", feature = "revelation", levels = [3, 7, 11], by = ["revelations"] },
 ]
 +++
 
@@ -27,88 +36,64 @@ unwitting) servants for fiendish corruptors and their mortal minions. A purifier
 mind, body, and spirit from the bondage of sin and the taint of the unholy. A purifier gains the
 following class features.
 
-**Prerequisites:** Aasimar
+## Recommended Mysteries {#recommended-mysteries}
 
-**Recommended Mysteries:** [ancestor](ref/mystery/ancestor), [battle](ref/mystery/battle),
-[heavens](ref/mystery/heavens), [lore](ref/mystery/lore).
+ancestor, battle, heavens, lore.
 
-**Bonus Spells**
+## Bonus Spells {#bonus-spells}
 
-**Info:** The oracle gains these bonus spells at the listed levels.
+_veil of heaven_ (2nd), _confess_ (4th), _cast out_ (6th), _denounce_ (8th), _dispel evil_ (10th),
+_banishment_ (12th), _holy word_ (14th), _mind blank_ (16th), _freedom_ (18th).
 
-**Replaces:** All bonus spells from the oracle's mystery
+## Diminished Spellcasting {#diminished-spellcasting}
 
-**Spells:** Dispel evil
+A purifier can use one fewer spell per day of each level and does not automatically learn cure or
+inflict spells. Her number of oracle spells known is unchanged.
 
-**Spells:** Banishment
+## Revelations {#revelations}
 
-**Spells:** Holy word
+A purifier must take the following revelations at the listed levels.
 
-**Spells:** Mind blank
+## See Sin (Sp) {#see-sin}
 
-**Spells:** Freedom
+At 3rd level, a purifier gains a bonus equal to 1/2 her oracle level on Sense Motive checks to sense
+enchantments, which she can make as a full-round action. She also gains a bonus equal to 1/2 her
+oracle level on Spellcraft checks to identify enchantment school spells and spells with the curse or
+emotion descriptor (see page 251 of _Ultimate Magic_ for spells in the _Pathfinder RPG Core
+Rulebook_ and _Advanced Player's Guide_ that have the curse or emotion descriptor).
 
-**Spells:** Veil of heaven
+## Celestial Armor (Su) {#celestial-armor}
 
-**Spells:** Confess
+At 7th level, a purifier's armor takes on a golden or silvery sheen and becomes light as a feather.
+Her armor weighs half as much as long as she wears it, and she also gains armor training as a
+[fighter](ref/class/fighter) 4 levels lower than her oracle level. At 11th level, a purifier gains
+[heavy armor proficiency](ref/feat/armor-proficiency-heavy).
 
-**Spells:** Cast out
+## Sin Eater (Su) {#sin-eater}
 
-**Spells:** Denounce
+At 11th level, a purifier can consume a curse, enchantment, or emotion effect by touch as a
+full-round action. She can do this a number of times per day equal to her Charisma modifier, and
+must make a Charisma check with a bonus equal to her oracle level against a DC of 11 + the caster
+level of the effect (or the Hit Dice of the creator for a supernatural effect). If the check
+succeeds, the effect is negated; however, the purifier is [sickened](ref/misc/sickened) for 1d4
+rounds.
 
-**Diminished Spellcasting**
-
-**Info:** A purifier can use one fewer spell per day of each level and does not automatically learn
-cure or inflict spells. Her number of oracle spells known is unchanged.
-
-**Revelations**
-
-**Info:** A purifier must take the following revelations at the listed levels.
-
-**Replaces:** Revelations from her mystery gained at 3rd, 7th, and 11th levels
-
-**See Sin (Sp)**
-
-**At 3rd Level:** A purifier gains a bonus equal to 1/2 her oracle level on Sense Motive checks to
-sense enchantments, which she can make as a **full-round action**. She also gains a bonus equal to
-1/2 her oracle level on Spellcraft checks to identify enchantment school spells and spells with the
-curse or emotion descriptor.
-
-**Celestial Armor (Su)**
-
-**At 11th Level:** A purifier gains [heavy armor proficiency](ref/feat/armor-proficiency-heavy).
-
-**At 7th Level:** A purifier's armor takes on a golden or silvery sheen and becomes light as a
-feather. Her armor weighs half as much as long as she wears it, and she also gains _armor training_
-as a [fighter](ref/class/fighter) 4 levels lower than her oracle level.
-
-**Sin Eater (Su)**
-
-**At 11th Level:** A purifier can consume a curse, enchantment, or emotion effect by touch as a
-**full-round action**. She must make a Charisma check with a bonus equal to her oracle level against
-a DC of 11 + the caster level of the effect (or the Hit Dice of the creator for a supernatural
-effect). If the check succeeds, the effect is negated; however, the purifier is
-[sickened](ref/misc/sickened) for 1d4 rounds.
-
-**Special:** If the target is possessed (such as by a [magic jar](ref/spell/magic-jar) effect or a
+If the target is possessed (such as by a _[magic jar](ref/spell/magic-jar)_ effect or a
 [ghost's](ref/template/ghost) malevolence ability), the possessor is forced out on a successful
 check. Whether the check succeeds or fails, the possessor is sickened for 2d4 rounds.
 
-**Usage:** Charisma modifier times/day
+## Sacred Scourge (Su) {#sacred-scourge}
 
-**Sacred Scourge (Su)**
+At 5th level, a purifier may channel holy power to harm evil outsiders as a cleric of her level
+using the [Alignment Channel](ref/feat/alignment-channel) feat. She may use this ability a number of
+times per day equal to 1 + her Charisma modifier.
 
-**At 5th Level:** A purifier may channel holy power to harm evil outsiders as a cleric of her level
-using the [Alignment Channel](ref/feat/alignment-channel) feat.
+## Holy Terror (Su) {#holy-terror}
 
-**Usage:** Charisma1 modifier times/day
-
-**Holy Terror (Su)**
-
-**At 9th Level:** A purifier may use her _sacred scourge_ to panic evil outsiders as if using the
+At 9th level, a purifier may use her sacred scourge to panic evil outsiders as if using the
 [Turn Undead](ref/feat/turn-undead) feat against undead.
 
-**Celestial Master (Su)**
+## Celestial Master (Su) {#celestial-master}
 
-**At 13th Level:** A purifier may use her _sacred scourge_ to compel good outsiders to serve her, as
-if using the [Command Undead](ref/feat/command-undead) feat against undead.
+At 13th level, a purifier may use her sacred scourge to compel good outsiders to serve her, as if
+using the [Command Undead](ref/feat/command-undead) feat against undead.

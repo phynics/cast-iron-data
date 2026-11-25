@@ -14,6 +14,7 @@ book text, PDF names or paths. Cite books by title and page only.
 | `hub-verdicts-461.py` | S10: derives the `hub-link` and `hub-no-evidence` verdicts of the hub rows, writes them and the reviewed rows of `membership-verdicts-461-s10.tsv` into the queue (`--write`, `--check`), and refreshes `in_warning`, `body_line` and `group` after the apply scripts (`--refresh-warning`) |
 | `faith-technique-links-461.py` | S10: replaces the quoted divine fighting technique of a faith with a link to its section of the feat entry (`--check`) |
 | `membership-verdicts-461-s10.tsv` | The reviewed S10 verdicts that the scripts do not derive: cites, listed-link removals, the reads, the faith removals |
+| `membership-verdicts-461-s12.py` | S12: records the verdicts of `membership-verdicts-461-s12.tsv` (and `-s12b.tsv`, the Conditional Curse removal of its first book, which waits for the first step) in the queue and the audit file, adds the queue rows that the warning never listed, and sets `pdf = yes` and the group of every row of a book read in print |
 | `membership-citation-audit-461.tsv` | Releases a `[[sources]]` row whose membership goes (class `wrong-credit`, `family-ref`, `mention`) |
 
 ## What is in the queue
@@ -120,8 +121,8 @@ row without a page gets its page). Verdict `page` is for an entry outside the qu
 `page-corrected` (the book prints the entry on another page than the row said; `print_page` is the
 printed page: the page of the item's description, or of the table when the book has no description),
 `page-confirmed` (the cited page prints the entry), `home-book-kept` (the first book of a hub stays, owner ruling 3 of 2026-11-24, home books are post-v1 in phynics/cast-iron-data#277). Three first-book
-removals whose new first book is not among the owner's PDFs (Conditional Curse, Swampseer Poison, Yak) stay undecided with the evidence note `waits for S12`
-(owner ruling of 2026-11-24). `faith-unique-spell-rules-461-s11.py` removes the copied spell rule from two faith pages.
+removals whose new first book was not among the owner's PDFs (Conditional Curse, Swampseer Poison, Yak) waited with the evidence note `waits for S12`
+(owner ruling of 2026-11-24); S12 decided them from the Adventure Path volumes. `faith-unique-spell-rules-461-s11.py` removes the copied spell rule from two faith pages.
 
 ## Slices
 
@@ -139,9 +140,24 @@ Slices touch only `source_ids`, `[[sources]]`, `[[expanded_in]]` and placements.
 | S9 | Race hubs, under ruling 2 | 5 |
 | S10 | `hub-cited` rows (cite); `link-only-hub` rows (restore the lists of the 14 navigation hubs, then remove, cite or read: design (a)); `faith-excerpt` rows (replace the section with a link) | 5 |
 | S11 | Rows outside the warning: page corrections, `review` rows | 6 |
-| S12 | Books without an owner PDF, under ruling 4 | 7 |
+| S12 | Books that were not among the owner's PDFs, read in print since 2026-11-25 (Player's Guides, Adventure Path volumes); a book that is still missing keeps ruling 4 (`unverified-no-pdf`) | 7 |
 
-After S12 the warning is 0. An app PR then turns it into an error, and the issue closes when every
+S12 records its verdicts in `membership-verdicts-461-s12.tsv` (a `cite` verdict writes the `[[sources]]` row through
+`membership-apply.py`; a `remove` verdict of a row whose entry holds a `[[sources]]` row also adds the audit row).
+The 92 figurine memberships of the four volumes that had no PDF (Legacy of Fire Player's Guide, Pathfinder #122, #34 and #70)
+were read page by page: each volume prints one variant, which keeps `keep` with evidence `title-printed`; the other 22 rows
+of the volume are `remove` (`wrong-credit-invalidated`, or `passing-mention-recorded` where the volume names a variant in
+passing). The `no-pdf-structural-rule` removals (Pathfinder #101 on nine class hubs and the Strix, #124 on nine Elf
+traits and the Elf) were checked in print and now carry the evidence of the read: `class-options-only`,
+`race-section-read-no-trait` and `race-options-only`. The Strix is the exception: Pathfinder #101 p. 73 prints
+strix favored class options that no entry holds, so the hub gets an `[[expanded_in]]` credit without `via`
+(verdict `expands`, evidence `expansion-credited-no-via`; S9 ruling 1; `expansion-credits-461-s12.tsv`, applied
+by `expansion-credits-apply.py`). `membership-verdicts-461-s12.py` writes the credit action for an `expands` row. Only the blog post of the Golarion Day subdomains is still
+`unverified-no-pdf`. The Conditional Curse removal of its first book (Core Rulebook) is recorded in `-s12b.tsv`
+and applied after the first file, because the new first book (Ultimate Intrigue) must be second in `source_ids` when
+`membership-apply.py` checks the row.
+
+After S12 the warning is 1 (Gamemastery in the GameMastery Guide, which stays until phynics/cast-iron-data#277). An app PR then turns it into an error, and the issue closes when every
 row of the queue has a verdict (figurines and page rows included).
 
 ## Regenerate the queue
