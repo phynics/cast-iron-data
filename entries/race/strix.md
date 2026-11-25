@@ -20,6 +20,9 @@ page = "313"
 [[sources]]
 publication = "pathfinder-25-the-bastards-of-erebus"
 page = "83"
+[[expanded_in]]
+publication = "pathfinder-101-the-kintargo-contract"
+page = "73"
 
 [fields]
 kind = "none"

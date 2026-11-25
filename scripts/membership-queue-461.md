@@ -149,7 +149,10 @@ were read page by page: each volume prints one variant, which keeps `keep` with 
 of the volume are `remove` (`wrong-credit-invalidated`, or `passing-mention-recorded` where the volume names a variant in
 passing). The `no-pdf-structural-rule` removals (Pathfinder #101 on nine class hubs and the Strix, #124 on nine Elf
 traits and the Elf) were checked in print and now carry the evidence of the read: `class-options-only`,
-`race-section-read-no-trait` and `race-options-only`. Only the blog post of the Golarion Day subdomains is still
+`race-section-read-no-trait` and `race-options-only`. The Strix is the exception: Pathfinder #101 p. 73 prints
+strix favored class options that no entry holds, so the hub gets an `[[expanded_in]]` credit without `via`
+(verdict `expands`, evidence `expansion-credited-no-via`; S9 ruling 1; `expansion-credits-461-s12.tsv`, applied
+by `expansion-credits-apply.py`). `membership-verdicts-461-s12.py` writes the credit action for an `expands` row. Only the blog post of the Golarion Day subdomains is still
 `unverified-no-pdf`. The Conditional Curse removal of its first book (Core Rulebook) is recorded in `-s12b.tsv`
 and applied after the first file, because the new first book (Ultimate Intrigue) must be second in `source_ids` when
 `membership-apply.py` checks the row.

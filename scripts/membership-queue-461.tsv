@@ -1998,7 +1998,7 @@ pathfinder-101-the-kintargo-contract	ref/class/oracle	class	Oracle	11	13	uncited
 pathfinder-101-the-kintargo-contract	ref/class/shaman	class	Shaman	6	8	uncited	no-pdf		none	0								remove	73	class-options-only	class-hub	done			yes			
 pathfinder-101-the-kintargo-contract	ref/class/slayer	class	Slayer	7	8	uncited	no-pdf		none	0								remove	73	class-options-only	class-hub	done			yes			
 pathfinder-101-the-kintargo-contract	ref/class/witch	class	Witch	9	11	uncited	no-pdf		none	0								remove	73	class-options-only	class-hub	done			yes			
-pathfinder-101-the-kintargo-contract	ref/race/strix	race	Strix	5	5	uncited	no-pdf		none	0								remove	73	race-options-only	race-hub	done			yes			
+pathfinder-101-the-kintargo-contract	ref/race/strix	race	Strix	5	5	uncited	no-pdf		none	0								expands	73	expansion-credited-no-via	race-hub	done			yes			
 pathfinder-115-trail-of-the-hunted	ref/rule/optional-subsystems	rule	Optional Subsystems	8	10	hub-keep	no-pdf		none	0								remove	23	hub-link ref/rule/provision-points	link-only-hub	done			no			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	6	15	review	no-pdf	33	row	0								remove	33	wrong-credit-invalidated	figurine	done			yes			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	6	15	review	no-pdf	33	row	0								remove	33	wrong-credit-invalidated	figurine	done			yes			

@@ -10,8 +10,10 @@ Player's Guides and Adventure Path volumes (the owner added them on 2026-11-25).
 has one row per (book, entry), read in the book:
 
   * `verdict` is `cite` (the book prints the entry; `print_page` is the printed page, `membership-apply.py`
-    writes the `[[sources]]` row), `keep` (the entry has its row already), or `remove` (the book does not
-    print the entry). A row that is decided already takes a new verdict only when `replaces` names the old one
+    writes the `[[sources]]` row), `keep` (the entry has its row already), `remove` (the book does not
+    print the entry), or `expands` (the book is out of `source_ids` already and prints favored class options
+    or the like that no entry holds: the script adds a `credit` action of class `expands-no-via` with the
+    page `print_page` to `scripts/expansion-credits-461-s12.tsv`; S9 ruling 1 of 2026-11-24). A row that is decided already takes a new verdict only when `replaces` names the old one
     (the 92 figurine memberships: `keep` with evidence `unverified-no-pdf` becomes `remove`). Evidence
     `unverified-no-pdf` stays on a row whose book is still not among the PDFs (a blog post).
   * a pair that has no queue row yet (the book had a `[[sources]]` row, so the warning never listed it) gets
@@ -107,11 +109,11 @@ def main() -> int:
     pending = 0
     for v in verdicts:
         key = (v["book"], v["entry"])
-        if v["verdict"] not in ("keep", "cite", "remove"):
+        if v["verdict"] not in ("keep", "cite", "remove", "expands"):
             raise SystemExit(f"refused: {v['entry']} in {v['book']}: unknown verdict {v['verdict']!r}")
         q = qix.get(key)
         d = header(a.corpus, v["entry"])
-        if v["book"] not in d["source_ids"] and not (q and q["verdict"] == v["verdict"] == "remove"):
+        if v["book"] not in d["source_ids"] and not (q and (q["verdict"] == v["verdict"] == "remove" or v["verdict"] == "expands")):
             raise SystemExit(f"refused: {v['book']} is not in the source_ids of {v['entry']}")
         row = next((s for s in d.get("sources", []) if s["publication"] == v["book"]), None)
         if q is None:  # the book has a `[[sources]]` row, so the warning never listed the pair
@@ -133,7 +135,7 @@ def main() -> int:
                 q["proposed_primary"] = v["proposed_primary"]
                 q["proposed_status"] = v.get("proposed_status") or "printed"
                 q["gate"] = "primary"
-            elif v["verdict"] != "remove":
+            elif v["verdict"] not in ("remove", "expands"):
                 q["gate"] = q["proposed_primary"] = q["proposed_status"] = ""  # nothing to clear: the book stays
         if q["in_warning"] == "yes" and d["source_ids"][0] == v["book"]:
             q["member"] = "1"
@@ -147,6 +149,12 @@ def main() -> int:
                           "mention_pages": v.get("mention_pages", ""), "mention_kind": v.get("mention_kind", ""),
                           "read": v["read"], "evidence": v.get("audit_evidence") or (MENTION if cls == "mention" else WRONG),
                           "invalidated": f"{titles[v['book']]} p. {cited}" if cited else titles[v["book"]]})
+        if v["verdict"] == "expands" and (v["entry"], v["book"]) not in cix \
+                and not any(x["publication"] == v["book"] for x in d.get("expanded_in", [])):
+            pending += 1
+            credits.append({"entry": v["entry"], "book": v["book"], "action": "credit", "class": "expands-no-via",
+                            "cited_page": v["print_page"], "print_page": v["print_page"], "read": v["read"],
+                            "evidence": "the favored class options sit in a section of the book that no entry holds; the entry only gains an expanded_in credit without via"})
         if v["verdict"] == "keep" and row is not None and row.get("page") and row["page"] != v["print_page"] \
                 and (v["entry"], v["book"]) not in cix:
             pending += 1
