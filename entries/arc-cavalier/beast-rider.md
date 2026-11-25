@@ -17,7 +17,6 @@ page = "36"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "armor-proficiency" },
   { anchor = "exotic-mount", level = 1 },
 ]
 trades = [

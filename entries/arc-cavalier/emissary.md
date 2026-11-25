@@ -17,7 +17,6 @@ page = "36"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "armor-proficiency" },
   { anchor = "in-or-out-of-the-saddle", level = 1 },
   { anchor = "battlefield-agility", level = 5 },
   { anchor = "mounted-acrobatics", level = 9 },

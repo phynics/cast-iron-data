@@ -136,3 +136,6 @@ ref/arc-fighter/brawler	polearms	drop	hand review (ruling 18, structural): a wea
 ref/arc-fighter/brawler	spears	drop	hand review (ruling 18, structural): a weapon group of the Expanded Weapon Groups sidebar, written as a paragraph of that section (edits file)
 ref/arc-fighter/brawler	thrown	drop	hand review (ruling 18, structural): a weapon group of the Expanded Weapon Groups sidebar, written as a paragraph of that section (edits file)
 ref/arc-fighter/brawler	siege-engines	drop	hand review (ruling 18, structural): a weapon group of the Expanded Weapon Groups sidebar, written as a paragraph of that section (edits file)
+ref/arc-cavalier/beast-rider	armor-proficiency	unlist	scaffold variant (ruling 33): "Armor Proficiency" is a scaffold heading, never listed
+ref/arc-cavalier/emissary	armor-proficiency	unlist	scaffold variant (ruling 33): "Armor Proficiency" is a scaffold heading, never listed
+ref/arc-gunslinger/gun-tank	armor-proficiency	unlist	scaffold variant (ruling 33): "Armor Proficiency" is a scaffold heading, never listed
