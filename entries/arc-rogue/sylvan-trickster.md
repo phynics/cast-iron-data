@@ -16,11 +16,17 @@ page = "77"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "wild-empathy", level = 1 },
+  { anchor = "fey-tricks" },
+  { anchor = "resist-nature-s-lure", level = 4 },
+  { anchor = "fey-resistance", level = 8 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { alters = "Rogue talents", feature = "rogue-talents" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["wild-empathy"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["resist-nature-s-lure"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["fey-resistance"] },
+  { alters = "Rogue talents", feature = "rogue-talents", by = ["fey-tricks"] },
 ]
 +++
 
@@ -28,60 +34,54 @@ Sylvan tricksters are rogues who model themselves after the mischievous fey of l
 spellcasters, sylvan tricksters learn minor magical abilities reminiscent of those favored by fey
 creatures. The journey for many sylvan tricksters began in childhood, learning at an elder's knee
 the stories of the fey and the secrets of how to resist their tricks. Sylvan tricksters often live
-in areas where the boundary with the First World is thin, and a few have even been there:
-voluntarily or not.
+in areas where the boundary with the First World is thin, and a few have even been there—voluntarily
+or not.
 
-**Gained class skills:** kna
+## Class Skills {#class-skills}
 
-**Lost class skills:** kd
+A sylvan trickster adds Knowledge (nature) to her list of class skills and learns Sylvan as a bonus
+language. She does not gain Knowledge (dungeoneering) as a class skill.
 
-**Languages**
+This alters the rogue's class skills.
 
-**Ability:** A sylvan trickster learns Sylvan as a bonus language.
+## Wild Empathy (Ex) {#wild-empathy}
 
-**Wild Empathy (Ex)**
-
-**Ability:** A sylvan trickster can improve an animal's attitude. This ability functions as the
+A sylvan trickster can improve an animal's attitude. This ability functions as the
 [druid](ref/class/druid) ability of the [same name](ref/ability/wild-empathy), using the sylvan
 trickster's rogue level as her effective druid level.
 
-**Replaces:** Trapfinding
+This replaces trapfinding.
 
-**Fey Tricks**
+## Fey Tricks {#fey-tricks}
 
-**Ability:** A sylvan trickster can select a witch hex in place of a rogue talent.
+A sylvan trickster can select a witch hex in place of a rogue talent. At 10th level, the sylvan
+trickster can select a hex or major hex in place of a rogue talent. At 18th level, a sylvan
+trickster can select a hex, major hex, or grand hex in place of a rogue talent. She cannot select
+any hex more than once.
 
-**Alters:** Rogue talents
+This alters rogue talents.
 
-**At 10th Level:** The sylvan trickster can select a hex or major hex in place of a rogue talent.
+## Resist Nature's Lure (Ex) {#resist-nature-s-lure}
 
-**At 18th Level:** A sylvan trickster can select a hex, major hex, or grand hex in place of a rogue
-talent.
+At 4th level, a sylvan trickster gains [resist nature's lure](ref/ability/resist-natures-lure) as
+the druid ability of the same name.
 
-**Special:** She cannot select any hex more than once.
+This replaces uncanny dodge.
 
-**Resist Nature's Lure (Ex)**
+## Fey Resistance (Ex) {#fey-resistance}
 
-**Ability:** A sylvan trickster gains [resist nature's lure](ref/ability/resist-natures-lure) as the
-druid ability of the same name.
+At 8th level, a sylvan trickster gains DR 2/cold iron. At 11th level and every 3 levels thereafter,
+this [damage reduction](ref/rule/damage-reduction) increases by 2 (to a maximum of DR 10/cold iron
+at 20th level).
 
-**Gained:** At 4th Level
+This replaces improved uncanny dodge.
 
-**Replaces:** Uncanny dodge
+## Rogue Talents {#rogue-talents}
 
-**Fey Resistance (Ex)**
+The following rogue talents complement the sylvan trickster archetype: camouflage, charmer, honeyed
+words, major magic, minor magic, survivalist, terrain mastery.
 
-**At 8th Level:** A sylvan trickster gains DR 2/cold iron.
+## Advanced Talents {#advanced-talents}
 
-**Replaces:** Improved uncanny dodge
-
-At 14th level: This [damage reduction](ref/rule/damage-reduction) 4/cold iron.
-
-At 17th level: This [damage reduction](ref/rule/damage-reduction) 6/cold iron.
-
-At 20th level: This [damage reduction](ref/rule/damage-reduction) 8/cold iron.
-
-**These rogue talents complement this archetype:** Camouflage, charmer, honeyed words, major magic,
-minor magic, survivalist, terrain mastery
-
-**These advanced rogue talents complement this archetype:** Familiar, hide in plain sight
+The following advanced rogue talents complement the sylvan trickster archetype: familiar, hide in
+plain sight.

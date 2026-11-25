@@ -16,13 +16,20 @@ page = "174"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bardic-performance" },
+  { anchor = "limning-verse", level = 1 },
+  { anchor = "shattering-crescendo", level = 6 },
+  { anchor = "devilbane-refrain", level = 8 },
+  { anchor = "dedicated-performance" },
+]
 trades = [
-  { replaces = "Fascinate", feature = "bardic-performance", power = "fascinate" },
-  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion" },
-  { replaces = "mass suggestion", feature = "bardic-performance", power = "mass suggestion" },
-  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom" },
-  { replaces = "frightening tune", feature = "bardic-performance", power = "frightening tune" },
-  { alters = "Versatile performance", feature = "versatile-performance" },
+  { replaces = "Fascinate", feature = "bardic-performance", power = "fascinate", by = ["limning-verse"] },
+  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion", by = ["shattering-crescendo"] },
+  { replaces = "mass suggestion", feature = "bardic-performance", power = "mass suggestion", by = ["shattering-crescendo"] },
+  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["devilbane-refrain"] },
+  { replaces = "frightening tune", feature = "bardic-performance", power = "frightening tune", by = ["devilbane-refrain"] },
+  { alters = "Versatile performance", feature = "versatile-performance", by = ["dedicated-performance"] },
 ]
 +++
 
@@ -33,85 +40,68 @@ Cheliax's finest singers among their recruits. In part, this is mere shrewdness,
 performers are often invited into the halls of the wealthy and powerful, where a rebellion can do
 the most damage.
 
-However, there is another reason for the Silver Ravens to recruit singers from the Chelish opera.
-The Silver Ravens rely on talented voices to deploy their most powerful weapon in the defense of
-Kintargo - the "Song of Silver." While specially trained argent dramaturges can create lesser
-versions of this song, the true "Song of Silver" must be performed in Kintargo. Those among the
-Silver Ravens who dedicate themselves to the study of this magical performance are known as argent
-voices, and through practice and experience, these bards are able to modulate their own bardic
-performance abilities to reflect some measure of the power found in the "Song of Silver." For this
-reason, argent voices are among the most respected and treasured of the Silver Raven's agents. While
-some argent voices travel the Inner Sea, fighting tyranny and oppression, many others remain in
-Kintargo, ready to activate the city's defenses should the need arise.
+However, there is another reason for the [Silver Ravens](ref/rule/aff-rebels) to recruit singers
+from the Chelish opera. The Silver Ravens rely on talented voices to deploy their most powerful
+weapon in the defense of Kintargo—the "Song of Silver." While specially trained
+[argent dramaturges](ref/pclass/argent-dramaturge) can create lesser versions of this song, the true
+"Song of Silver" must be performed in Kintargo. Those among the Silver Ravens who dedicate
+themselves to the study of this magical performance are known as argent voices, and through practice
+and experience, these bards are able to modulate their own bardic performance abilities to reflect
+some measure of the power found in the "Song of Silver." For this reason, argent voices are among
+the most respected and treasured of the Silver Raven's agents. While some argent voices travel the
+Inner Sea, fighting tyranny and oppression, many others remain in Kintargo, ready to activate the
+city's defenses should the need arise.
 
 Argent voices who wish to further explore the magic and power of the "Song of Silver" often further
-focus their training so that they can become [argent dramaturges](ref/pclass/argent-dramaturge).
+focus their training so that they can become [argent dramaturges](ref/pclass/argent-dramaturge) (see
+page 172).
 
-**Bardic Performance**
+## Bardic Performance {#bardic-performance}
 
-**Info:** An argent voice gains the following bardic performances. The argent voice must use Perform
-(sing) with these performances.
+An argent voice gains the following bardic performances. The argent voice must use Perform (sing)
+with these performances.
 
-**Limning Verse (Su)**
+## Limning Verse (Su) {#limning-verse}
 
-**Ability:** An argent voice can sing a song that causes fiends to glow with an aura of silvery
+At 1st level, the argent voice can sing a song that causes fiends to glow with an aura of silvery
 light. Outsiders with the evil subtype within 10 feet of the argent voice are affected as per
-[faerie fire](ref/spell/faerie-fire).
+_[faerie fire](ref/spell/faerie-fire)_. At 4th level and every 4 levels thereafter, the range of
+this ability increases by 10 feet, to a maximum of 60 feet at 20th level. Any defense that prevents
+the detection of alignment or evil also prevents limning verse from outlining a creature.
 
-**At 4th Level:** The range of this ability increases by 10 feet for every four argent voice levels
-he has, to a maximum of 60 feet at 20th level.
+This replaces fascinate.
 
-**Replaces:** Fascinate
+## Shattering Crescendo (Sp) {#shattering-crescendo}
 
-**Special:** Any defense that prevents the detection of alignment or evil also prevents _limning
-verse_ from outlining a creature.
+At 6th level, the argent voice learns to sing at frequencies capable of shattering magical effects.
+As a full-round action, an argent voice can use 2 rounds of bardic performance to attempt to dispel
+a single evil spell or enchantment spell cast by an evil creature. This functions as per
+_[dispel magic](ref/spell/dispel-magic)_, using the bard's level as his caster level. At 18th level,
+this ability can be used on effects that can be removed by the spell
+_[break enchantment](ref/spell/break-enchantment)_.
 
-**Shattering Crescendo (Sp)**
+This replaces suggestion and mass suggestion.
 
-**Flavor:** The argent voice learns to sing at frequencies capable of shattering magical effects.
+## Devilbane Refrain (Su) {#devilbane-refrain}
 
-**Fullround:** An argent voice can use 2 rounds of bardic performance to attempt to dispel a single
-evil spell or enchantment spell cast by an evil creature. This functions as per
-[dispel magic](ref/spell/dispel-magic), using the bard's level as his caster level.
+At 8th level, the argent voice learns how to mimic aspects of the magical "Song of Silver" with his
+performance, enhancing his allies' ability to combat devils and similar fiends. To be affected, a
+creature must be able to hear the argent voice's singing and be within 30 feet of him. Natural and
+manufactured weapons wielded by affected allies are treated as though they were silver for the
+purpose of bypassing [damage reduction](ref/rule/damage-reduction). At 14th level, allies' natural
+and manufactured weapons also gain the benefit of the _evil outsider [bane](ref/magic-enh/bane)_
+weapon special ability.
 
-**At 18th Level:** This ability can be used on effects that can be removed by the spell
-[break enchantment](ref/spell/break-enchantment).
+This replaces dirge of doom and frightening tune.
 
-**Gained:** At 6th Level
+## Dedicated Performance (Ex) {#dedicated-performance}
 
-**Replaces:** Suggestion, mass suggestion
+An argent voice can call upon the training of the Chelish opera to influence and scrutinize his
+foes. At 2nd level, an argent voice must choose Perform (sing) as his versatile performance skill.
+At 6th level, the argent voice gains a bonus on Perform (sing) checks made as part of a versatile
+performance equal to the number of additional Perform skills in which he has the maximum number of
+ranks possible at his level. This bonus increases by 1 per maximized Perform skill at 10th level and
+every four levels thereafter, to a maximum of a +4 bonus per fully ranked Perform skill other than
+Perform (sing) at 18th level.
 
-**Devilbane Refrain (Su)**
-
-**Ability:** A creature must be able to hear the argent voice's singing and be within 30 feet of him
-to be affected. Natural and manufactured weapons wielded by affected allies are treated as though
-they were silver for the purpose of bypassing [damage reduction](ref/rule/damage-reduction).
-
-**Flavor:** The argent voice learns how to mimic aspects of the magical "Song of Silver" with his
-performance, enhancing his allies' ability to combat devils and similar fiends.
-
-**At 14th Level:** Allies' natural and manufactured weapons also gain the benefit of the evil
-outsider [bane](ref/magic-enh/bane) weapon special ability.
-
-**Gained:** At 8th Level
-
-**Replaces:** Dirge of doom, frightening tune
-
-**Dedicated Performance (Ex)**
-
-**Alters:** Versatile performance
-
-**Flavor:** An argent voice can call upon the training of the Chelish opera to influence and
-scrutinize his foes.
-
-**At 10th Level:** The bonus increases to +2 per additional maximized Perform skill.
-
-**At 14th Level:** The bonus increases to +3 per additional maximized Perform skill.
-
-**At 18th Level:** The bonus increases to +4 per additional maximized Perform skill.
-
-**At 2nd Level:** An argent voice must choose Perform (sing) as his versatile performance skill.
-
-**At 6th Level:** The argent voice gains a bonus on Perform (sing) checks made as part of a
-versatile performance equal to the number of **additional** Perform skills in which he has the
-maximum number of ranks possible at his level.
+This alters versatile performance.

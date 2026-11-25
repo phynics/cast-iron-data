@@ -16,9 +16,12 @@ page = "90"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "season-of-the-witch" },
+]
 trades = [
-  { alters = "Patron", feature = "patron-spells", power = "patron" },
-  { alters = "1st-level hex", feature = "hex", levels = [1] },
+  { alters = "Patron", feature = "patron-spells", power = "patron", by = ["season-of-the-witch"] },
+  { alters = "Hex gained at 1st level", feature = "hex", levels = [1], by = ["season-of-the-witch"] },
 ]
 +++
 
@@ -28,13 +31,11 @@ witches, with many believing that the season prior to their chosen focus is infe
 that replaces their favored time is an usurper of time, but at other times season witches work
 together, understanding that all are a part of the cycle of the natural world.
 
-**Season of the Witch (Su)**
+## Season of the Witch (Su) {#season-of-the-witch}
 
-**Alters:** Patron, 1st-level hex
-
-**Info:** A season witch observes the cycles of life through symbolic festivals and the very real
-passage of time. Their covens celebrate the seasons and their impact on magic. These seasonal cycles
-alter their magic and mind-set, focusing their spells and hexes on a predominant energy type and
+A season witch observes the cycles of life through symbolic festivals and the very real passage of
+time. Their covens celebrate the seasons and their impact on magic. These seasonal cycles alter
+their magic and mind-set, focusing their spells and hexes on a predominant energy type and
 philosophy.
 
 A season witch makes a commitment to embody the sacred symbolism of a season year round, and learns
@@ -42,47 +43,35 @@ her spells through communion with nature, divining secrets from shapes in the cl
 leaves on the wind. At 1st level, a season witch chooses the season that defines her abilities as
 her patron; this choice also provides her certain benefits.
 
-**Spring**
+A spring witch has dominion over the renewing spirit of life and youth. The save DCs of her spells
+that deal electricity damage increase by 1. At 1st level, she gains either the
+[charm](ref/hex/charm) hex or [disguise](ref/hex/disguise) hex as a bonus hex.
 
-**At 1st Level:** She gains either the [charm](ref/hex/charm) hex or [disguise](ref/hex/disguise)
-hex as a bonus hex.
-
-**Info:** A spring witch has dominion over the renewing spirit of life and youth.
-
-**Passive:** The save DCs of her spells that deal electricity damage increase by 1.
-
-**Summer**
-
-**At 1st Level:** She gains either the [fortune](ref/hex/fortune) hex or
+A summer witch has dominion over growth, the harvest, and toil. The save DCs of her spells that deal
+fire damage increase by 1. At 1st level, she gains either the [fortune](ref/hex/fortune) hex or
 [misfortune](ref/hex/misfortune) hex as a bonus hex.
 
-**Info:** A summer witch has dominion over growth, the harvest, and toil.
+An autumn witch has dominion over the provision of the land and the passing of life. The save DCs of
+her spells that deal acid damage increase by 1. At 1st level, she gains either the
+[blight](ref/hex/blight) hex or [slumber](ref/hex/slumber) hex as a bonus hex.
 
-**Passive:** The save DCs of her spells that deal fire damage increase by 1.
+A winter witch has dominion over hearth and home. The save DCs of her spells that deal cold damage
+increase by 1. At 1st level, she gains either the [healing](ref/hex/healing) hex or
+[ward](ref/hex/ward) hex as a bonus hex.
 
-**Autumn**
+This alters patron and the hex gained at 1st level.
 
-**At 1st Level:** She gains either the [blight](ref/hex/blight) hex or [slumber](ref/hex/slumber)
-hex as a bonus hex.
+## Hexes {#hexes}
 
-**Info:** An autumn witch has dominion over the provision of the land and the passing of life.
+The following hexes complement the season witch archetype: flight (spring), summer's heat (summer),
+poison steep (autumn), no place like home (winter).
 
-**Passive:** The save DCs of her spells that deal acid damage increase by 1.
+## Major Hexes {#major-hexes}
 
-**Winter**
+The following major hexes complement the season witch archetype: speak in dreams (spring), agony
+(summer), hoarfrost (autumn), major healing (winter).
 
-**At 1st Level:** She gains either the [healing](ref/hex/healing) hex or [ward](ref/hex/ward) hex as
-a bonus hex.
+## Grand Hexes {#grand-hexes}
 
-**Info:** A winter witch has dominion over hearth and home.
-
-**Passive:** The save DCs of her spells that deal cold damage increase by 1.
-
-**The following hexes complement this archetype:** Flight\|spring, summer's heat\|summer, poison
-steep\|autumn, no place like home\|winter
-
-**The following major hexes complement this archetype:** Speak in dreams\|spring, agony\|summer,
-hoarfrost\|autumn, major healing\|winter
-
-**The following grand hexes complement this archetype:** Forced reincarnation\|spring, natural
-disaster\|summer, death curse\|autumn, life giver\|winter
+The following grand hexes complement the season witch archetype: forced reincarnation (spring),
+natural disaster (summer), death curse (autumn), life giver (winter).

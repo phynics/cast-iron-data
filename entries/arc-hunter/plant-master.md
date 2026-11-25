@@ -16,12 +16,19 @@ page = "53"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "plant-companion", level = 1 },
+  { anchor = "plant-focus", level = 1 },
+  { anchor = "green-empathy", level = 1 },
+  { anchor = "plant-shield", level = 17 },
+  { anchor = "master-hunter", level = 20 },
+]
 trades = [
-  { replaces = "Animal companion", feature = "animal-companion" },
-  { replaces = "Animal focus", feature = "animal-focus" },
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "One with the wild", feature = "one-with-the-wild" },
-  { alters = "Master hunter", feature = "master-hunter" },
+  { replaces = "Animal companion", feature = "animal-companion", by = ["plant-companion"] },
+  { replaces = "Animal focus", feature = "animal-focus", by = ["plant-focus"] },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["green-empathy"] },
+  { replaces = "One with the wild", feature = "one-with-the-wild", by = ["plant-shield"] },
+  { alters = "Master hunter", feature = "master-hunter", by = ["master-hunter"] },
 ]
 +++
 
@@ -29,137 +36,109 @@ Some hunters form a bond with plant life instead of an animal and take on those 
 These hunters form potent bonds with plant creatures, and their leafy or fungal friends are more
 than capable of anything another hunter's animal allies can accomplish.
 
-**Plant Companion (Ex)**
+## Plant Companion (Ex) {#plant-companion}
 
-**Ability:** A plant master forms a mystic bond with a plant companion. A plant master can begin
-play with any plant companion. Except for the companion being a creature of the plant type, this
-ability otherwise works like the druid's animal companion.
+A plant master forms a mystic bond with a plant companion. A plant master can begin play with any
+plant companion (see page 182 and page 26 of the _Pathfinder RPG Advanced Race Guide_). Except for
+the companion being a creature of the plant type, this ability otherwise works like the druid's
+animal companion.
 
-**Replaces:** Animal companion
+This replaces animal companion.
 
-**Plant Focus (Su)**
+## Plant Focus (Su) {#plant-focus}
 
-**Ability:** The plant master can also apply one of these aspects to his plant companion. An aspect
-applied in this way does not count against the hunter's minutes of duration per day - it remains in
-effect until he changes it. The companion's aspect can be the same aspect the hunter has taken on or
-a different one.
+A plant master can take on the aspect of a plant as a swift action. He must select one type of plant
+to emulate, gaining a bonus or special ability based on the type of plant emulated and his hunter
+level. The plant master can use this ability for a number of minutes per day equal to his level.
+This duration does not need to be consecutive but must be spent in 1-minute increments. He can
+emulate only one plant at a time.
 
-**Replaces:** Animal focus
+The plant master can also apply one of these aspects to his plant companion. An aspect applied in
+this way does not count against the hunter's minutes of duration per day—it remains in effect until
+he changes it. The companion's aspect can be the same aspect the hunter has taken on or a different
+one. A plant master can select or change the plant foci on both himself and his plant companion as
+part of the same swift action.
 
-**Special:** A plant master can select or change the plant foci on both himself and his plant
-companion as part of the same swift action.
+### Assassin Vine {#assassin-vine}
 
-**Swift:** A plant master can take on the aspect of a plant. He must select one type of plant to
-emulate, gaining a bonus or special ability based on the type of plant emulated and his hunter
-level. He can emulate only one plant at a time.
+The creature gains a +2 bonus on combat maneuver checks to grapple. This bonus increases to +3 at
+8th level and +4 at 15th level.
 
-**Usage:** 1 minute/day per hunter level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
+### Brambles {#brambles}
 
-**Assassin Vine**
+When the creature is hit by an unarmed strike or natural attack, the attacker takes 1 point of
+piercing damage. This increases to 2 points at 8th level and 3 points at 15th level.
 
-**Passive:** The creature gains a +2 bonus on combat maneuver checks to grapple.
+### Creeping Vine {#creeping-vine}
 
-At 8th level: This bonus increases to +3.
+The creature gains a +4 competence bonus on Climb checks. This bonus increases to +6 at 8th level
+and +8 at 15th level.
 
-At 15th level: This bonus increases to +4.
+### Giant Flytrap {#giant-flytrap}
 
-**Brambles**
+The creature gains a +4 competence bonus on Stealth checks. This bonus increases to +6 at 8th level
+and +8 at 15th level.
 
-**At 15th Level:** This becomes 3 points.
+### Mushroom {#mushroom}
 
-**At 8th Level:** This increases to 2 points.
+The creature gains a +4 enhancement bonus on saves against poison. This bonus increases to +6 at 8th
+level and +8 at 15th level.
 
-**Passive:** When the creature is hit by an unarmed strike or natural attack, the attacker takes 1
-point of piercing damage.
+### Oak {#oak}
 
-**Creeping Vine**
+The creature gains a +2 enhancement bonus to CMD. This bonus increases to +4 at 8th level and +6 at
+15th level.
 
-**Passive:** The creature gains a +4 competence bonus on Climb checks.
+### Shrieker {#shrieker}
 
-At 8th level: This bonus increases to +6.
+The creature gains [darkvision](ref/rule/darkvision) with a range of 60 feet. At 8th level, the
+range increases by 30 feet. At 15th level, the creature also gains [blindsense](ref/umr/blindsense)
+with a range of 10 feet.
 
-At 15th level: This bonus increases to +8.
+### Spore {#spore}
 
-**Giant Flytrap**
+The creature gains a +4 competence bonus on Fly checks. This bonus increases to +6 at 8th level and
++8 at 15th level.
 
-**Passive:** The creature gains a +4 competence bonus on Stealth checks.
+### Water Lily {#water-lily}
 
-At 8th level: This bonus increases to +6.
+The creature gains a +4 competence bonus on Swim checks. This bonus increases to +6 at 8th level and
++8 at 15th level.
 
-At 15th level: This bonus increases to +8.
+This replaces animal focus.
 
-**Mushroom**
+## Green Empathy (Ex) {#green-empathy}
 
-**Passive:** The creature gains a +4 enhancement bonus on saves against poison.
+A plant master can improve the attitude of a plant creature.
 
-At 8th level: This bonus increases to +6.
+Green empathy functions like a Diplomacy check to improve the attitude of a person.
 
-At 15th level: This bonus increases to +8.
+The plant master rolls 1d20 and adds his hunter level and his Charisma modifier to determine the
+wild empathy check result. The typical wild plant creature has a starting attitude of indifferent.
 
-**Oak**
+To use green empathy, the plant master and the plant creature must be within 30 feet of each other
+under normal conditions.
 
-**Passive:** The creature gains a +2 enhancement bonus to CMD.
+Generally, influencing a plant creature in this way takes 1 minute, but as with influencing people,
+it might take more or less time.
 
-At 8th level: This bonus increases to +4.
+A plant master can also use this ability to influence an animal, but he takes a -4 penalty on the
+check. He has no ability to influence magical beasts.
 
-At 15th level: This bonus increases to +6.
+This replaces the wild empathy class feature.
 
-**Shrieker**
+## Plant Shield (Ex) {#plant-shield}
 
-**At 15th Level:** The creature also gains [blindsense](ref/umr/blindsense) with a range of 10 feet.
-
-**At 8th Level:** The range increases by 30 feet.
-
-**Passive:** The creature gains [darkvision](ref/rule/darkvision) with a range of 60 feet.
-
-**Spore**
-
-**Passive:** The creature gains a +4 competence bonus on Fly checks.
-
-At 8th level: This bonus increases to +6.
-
-At 15th level: This bonus increases to +8.
-
-**Water Lily**
-
-**Passive:** The creature gains a +4 competence bonus on Swim checks.
-
-At 8th level: This bonus increases to +6.
-
-At 15th level: This bonus increases to +8.
-
-**Green Empathy (Ex)**
-
-**Ability:** A plant master can improve the attitude of a plant creature. Green empathy functions
-like a Diplomacy check to improve the attitude of a person. The plant master rolls 1d20 and adds his
-hunter level and his Charisma modifier to determine the wild empathy check result. The typical wild
-plant creature has a starting attitude of indifferent. To use green empathy, the plant master and
-the plant creature must be within 30 feet of each other under normal conditions. Generally,
-influencing a plant creature in this way takes 1 minute, but as with influencing people, it might
-take more or less time.
-
-**Replaces:** Wild empathy
-
-**Special:** A plant master can also use this ability to influence an animal, but he takes a -4
-penalty on the check. He has no ability to influence magical beasts.
-
-**Plant Shield (Ex)**
-
-**Gained:** At 17th Level
-
-**Passive:** A plant master and his companion are distasteful to plant creatures. Creatures of the
+At 17th level, a plant master and his companion are distasteful to plant creatures. Creatures of the
 plant type with an Intelligence score of 2 or lower will not willingly attack either the plant
 master or his companion unless magically compelled to do so or the plant master or his companion
 attacks the creature first.
 
-**Replaces:** One with the wild
+This replaces one with the wild.
 
-**Master Hunter (Ex)**
+## Master Hunter (Ex) {#master-hunter}
 
-**Ability:** When a plant master prepares spells for the day, he chooses one _plant focus_ to be
+At 20th level, when a plant master prepares spells for the day, he chooses one plant focus to be
 active for the entire day.
 
-**Alters:** Master hunter
-
-**Gained:** At 20th Level
+This alters master hunter.

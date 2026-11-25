@@ -19,13 +19,21 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bound-to-the-land", level = 1 },
+  { anchor = "bardic-performance" },
+  { anchor = "thunder-call", level = 3 },
+  { anchor = "incite-rage", level = 6 },
+  { anchor = "call-lightning", level = 8 },
+  { anchor = "call-lightning-storm", level = 14 },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
-  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion" },
-  { replaces = "mass suggestion", feature = "bardic-performance", power = "mass suggestion" },
-  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom" },
-  { replaces = "Frightening tune", feature = "bardic-performance", power = "frightening tune" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["bound-to-the-land"] },
+  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["thunder-call"] },
+  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion", by = ["incite-rage"] },
+  { replaces = "mass suggestion", feature = "bardic-performance", power = "mass suggestion", by = ["incite-rage"] },
+  { replaces = "Dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["call-lightning"] },
+  { replaces = "Frightening tune", feature = "bardic-performance", power = "frightening tune", by = ["call-lightning-storm"] },
 ]
 +++
 
@@ -33,69 +41,59 @@ Thundercallers bear the knowledge of the ancients, wielding it like a weapon to 
 which they care so deeply. Their voices ring like thunder, calling the sky's wrath down upon their
 enemies and summoning furious rage to bolster their allies.
 
-**Bound to the Land (Ex)**
+## Bound to the Land (Ex) {#bound-to-the-land}
 
-**Passive:** A thundercaller gains a bonus equal to [half](ref/misc/fractions-and-rounding) her
-level on Handle Animal checks, Knowledge (nature) checks, and Survival checks.
+A thundercaller gains a bonus equal to [half](ref/misc/fractions-and-rounding) her level on Handle
+Animal checks, Knowledge (nature) checks, and Survival checks.
 
-**Replaces:** Bardic knowledge
+This replaces bardic knowledge.
 
-**Bardic Performance**
+## Bardic Performance {#bardic-performance}
 
-**Info:** A thundercaller gains the following types of bardic performance.
+A thundercaller gains the following types of bardic performance.
 
-**Thunder Call (Su)**
+## Thunder Call (Su) {#thunder-call}
 
-**At 11th Level:** The damage becomes 5d8.
+At 3rd level, the thundercaller can start a performance to unleash a deafening peal of thunder. This
+allows the thundercaller to spend a round of performance to create an effect similar to the spell
+_[sound burst](ref/spell/sound-burst)_ (having the same range and area and allowing the same saving
+throw). At 7th level, the sonic damage dealt by this blast of sound increases to 3d8. This damage
+further increases by 2d8 at 11th level, and every 4 levels thereafter. A creature that succeeds at
+its saving throw against thunder call is immune to the stunning effect but still takes sonic damage.
+Beginning this performance is always a standard action.
 
-**At 15th Level:** The damage becomes 7d8.
+This performance replaces inspire competence.
 
-**At 19th Level:** The damage becomes 9d8.
+## Incite Rage (Su) {#incite-rage}
 
-**At 3rd Level:** The thundercaller can start a performance to unleash a deafening peal of thunder.
-This allows the thundercaller to spend a round of performance to create an effect similar to the
-spell [sound burst](ref/spell/sound-burst) (having the same range and area and allowing the same
-saving throw).
-
-**At 7th Level:** The sonic damage dealt by this blast of sound increases to 3d8.
-
-**Replaces:** Inspire competence
-
-**Special:** A creature that succeeds at its saving throw against thunder call is immune to the
-stunning effect but still takes sonic damage. Beginning this performance is always a **standard
-action**.
-
-**Incite Rage (Su)**
-
-**At 6th Level:** The thundercaller can induce a furious rage in one creature within 30 feet. This
-effect functions as the [rage](ref/spell/rage) spell and lasts as long as the target can hear the
+At 6th level, the thundercaller can induce a furious [rage](ref/spell/rage) in one creature within
+30 feet. This effect functions as the _rage_ spell and lasts as long as the target can hear the
 thundercaller's performance. Any unwilling creature targeted is affected if it fails a Will saving
 throw (DC = 10 + half the thundercaller's level + the thundercaller's Charisma modifier). A target
 that succeeds at its saving throw is immune to this power for 24 hours. The thundercaller cannot
-target herself with this ability.
+target herself with this ability. If the target has the rage class feature, it can instead
+immediately rage and stay in this rage without consuming rounds of rage per day as long as the
+thundercaller continues performing. This performance is a mind-affecting effect and relies on
+audible components.
 
-**Replaces:** Suggestion, mass suggestion
+This replaces suggestion and mass suggestion.
 
-**Special:** If the target has the rage class feature, it can instead immediately rage and stay in
-this rage without consuming rounds of rage per day as long as the thundercaller continues
-performing. This performance is a mind-affecting effect and relies on audible components.
+## Call Lightning (Su) {#call-lightning}
 
-**Call Lightning (Su)**
-
-**At 8th Level:** The thundercaller can use her performance to summon bolts of lightning, as per the
-spell [call lightning](ref/spell/call-lightning). The lightning storm lasts for as long as she
-continues her performance, calling down one bolt of lightning per round as a **standard action**.
-The damage of these lightning bolts can be increased in stormy areas or can be limited as
+At 8th level, the thundercaller can use her performance to summon bolts of lightning, as per the
+spell _[call lightning](ref/spell/call-lightning)_. The lightning storm lasts for as long as she
+continues her performance, calling down one bolt of lightning per round as a standard action. The
+damage of these lightning bolts can be increased in stormy areas or can be limited as
 _[call lightning](ref/spell/call-lightning)_ describes.
 
-**Replaces:** Dirge of doom
+This performance replaces dirge of doom.
 
-**Call Lightning Storm (Su)**
+## Call Lightning Storm (Su) {#call-lightning-storm}
 
-**At 14th Level:** The thundercaller can use her performance to summon bolts of lightning, as per
-the spell [call lightning storm](ref/spell/call-lightning-storm). The lightning storm lasts for as
-long as she continues her performance, calling down one bolt of lightning per round as a **standard
-action**. The damage of these lightning bolts can be increased in stormy areas or can be limited as
+At 14th level, the thundercaller can use her performance to summon bolts of lightning, as per the
+spell _[call lightning storm](ref/spell/call-lightning-storm)_. The lightning storm lasts for as
+long as she continues her performance, calling down one bolt of lightning per round as a standard
+action. The damage of these lightning bolts can be increased in stormy areas or can be limited as
 _[call lightning](ref/spell/call-lightning)_ describes.
 
-**Replaces:** Frightening tune
+This performance replaces frightening tune.

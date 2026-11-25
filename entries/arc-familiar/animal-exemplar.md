@@ -12,36 +12,38 @@ page = "210"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "influence-animals" },
+]
 trades = [
-  { replaces = "Deliver touch spells" },
-  { replaces = "spell resistance" },
-  { replaces = "scry on familiar" },
-  { alters = "Speak with animals of its kind" },
+  { replaces = "Deliver touch spells", by = ["influence-animals"] },
+  { replaces = "spell resistance", by = ["influence-animals"] },
+  { replaces = "scry on familiar", by = ["influence-animals"] },
+  { alters = "Speak with animals of its kind", by = ["influence-animals"] },
 ]
 +++
 
 An animal exemplar is a paragon of its species, able to command the loyalty of others of its kind.
 
-**Special Requirement:** An animal exemplar familiar cannot be an improved familiar, plant, vermin,
-or other non-animal themed familiar.
+## Special Requirement {#special-requirement}
 
-**Gained class skills:** ha
+An animal exemplar familiar cannot be an improved familiar, plant, vermin, or other nonanimal themed
+familiar.
 
-**Influence Animals (Ex, Sp)**
+## Animal Exemplar Skills {#animal-exemplar-skills}
 
-**Alters:** Speak with animals of its kind
+An animal exemplar treats Handle Animal as a class skill.
 
-**At 11th Level:** It can cast [charm animal](ref/spell/charm-animal) three times per day as a
-[spell-like ability](ref/umr/spell-like-abilities) against animals of its kind
+## Influence Animals (Ex, Sp) {#influence-animals}
 
-**At 13th Level:** It can cast [dominate animal](ref/spell/dominate-animal) once per day as a
+An animal exemplar gains _speak with animals_ with respect to others of its kind at 3rd level
+instead of 7th level. At 7th level, it gains the ability to influence animals of its kind, as per
+the [wild empathy](ref/ability/wild-empathy) ability of a [druid](ref/class/druid) of its master's
+level with a +4 racial bonus on the check, but only for animals of its kind. At 11th level, it can
+cast _[charm animal](ref/spell/charm-animal)_ three times per day as a
+[spell-like ability](ref/umr/spell-like-abilities) against animals of its kind, and at 13th level,
+it can cast _[dominate animal](ref/spell/dominate-animal)_ once per day as a
 [spell-like ability](ref/umr/spell-like-abilities) against animals of its kind.
 
-**At 3rd Level:** An animal exemplar gains speak with animals with respect to others of its kind at
-3rd level instead of 7th level.
-
-**At 7th Level:** It gains the ability to influence animals of its kind, as per the
-[wild empathy](ref/ability/wild-empathy) ability of a [druid](ref/class/druid) of its master's level
-with a +4 racial bonus on the check, but only for animals of its kind.
-
-**Replaces:** Deliver touch spells, [spell resistance](ref/rule/spell-resistance), scry on familiar
+This alters speak with animals of its kind and replaces deliver touch spells,
+[spell resistance](ref/rule/spell-resistance), and scry on familiar.

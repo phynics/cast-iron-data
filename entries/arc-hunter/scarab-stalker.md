@@ -19,9 +19,13 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "sacred-animal-focus" },
+  { anchor = "desert-walker", level = 5 },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { alters = "Animal focus", feature = "animal-focus" },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["desert-walker"] },
+  { alters = "Animal focus", feature = "animal-focus", by = ["sacred-animal-focus"] },
 ]
 +++
 
@@ -29,133 +33,88 @@ The forgotten ruins in the desert sands have given rise to a breed of hunters wh
 powers of the pyramids to protect and explore the ancient sites of their people. These hunters form
 sacred bonds with desert-dwelling denizens.
 
-**Sacred Animal Focus (Su)**
+## Sacred Animal Focus (Su) {#sacred-animal-focus}
 
-**Ability:** A scarab stalker can select from the bull, falcon, and snake
-[animal foci](ref/ability/animal-foci), as well as the following new animal foci.
+A scarab stalker can select from the bull, falcon, and snake [animal foci](ref/ability/animal-foci),
+as well as the following new animal foci.
 
-**Alters:** Animal focus
+### Bee {#bee}
 
-**Bee**
+The creature gains a +4 competence bonus on Fly checks. This bonus increases to +6 at 8th level and
++8 at 15th level.
 
-**Passive:** The creature gains a +4 competence bonus on Fly checks.
+### Cat {#cat}
 
-At 8th level: This bonus increases to +6.
+The creature gains a +4 competence bonus on Acrobatics checks. This bonus increases to +6 at 8th
+level and +8 at 15th level.
 
-At 15th level: This bonus increases to +8.
+### Cow {#cow}
 
-**Cat**
+The creature gains a +1 resistance bonus on Fortitude saving throws. This bonus increases to +2 at
+8th level and +3 at 15th level.
 
-**Passive:** The creature gains a +4 competence bonus on Acrobatics checks.
+### Crocodile {#crocodile}
 
-At 8th level: This bonus increases to +6.
+The creature gains a +4 competence bonus on Swim checks. This bonus increases to +6 at 8th level and
++3 at 15th level.
 
-At 15th level: This bonus increases to +8.
+### Ibis {#ibis}
 
-**Cow**
+The creature gains a +2 resistance bonus on saving throws against disease. This bonus increases to
++4 at 8th level and +6 at 15th level.
 
-**Passive:** The creature gains a +1 resistance bonus on Fortitude saving throws.
+### Jackal {#jackal}
 
-At 8th level: This bonus increases to +2.
+The creature gains a +4 competence bonus on Survival checks. This bonus increases to +6 at 8th level
+and +8 at 15th level.
 
-At 15th level: This bonus increases to +3.
+### Kite {#kite}
 
-**Crocodile**
+The creature recovers 1 additional hit point whenever it receives magical healing. This increases to
+2 additional hit points at 8th level and 3 additional hit points at 15th level.
 
-**Passive:** The creature gains a +4 competence bonus on Swim checks.
+### Leopard {#leopard}
 
-At 8th level: This bonus increases to +6.
+The creature gains a +4 competence bonus on Escape Artist checks. This bonus increases to +6 at 8th
+level and +8 at 15th level.
 
-At 15th level: This bonus increases to +8.
+### Lion {#lion}
 
-**Ibis**
+The creature gains a +4 competence bonus on Intimidate checks. This bonus increases to +6 at 8th
+level and +8 at 15th level.
 
-**Passive:** The creature gains a +2 resistance bonus on saving throws against disease.
+### Ram {#ram}
 
-At 8th level: This bonus increases to +4.
+The creature gains a +1 bonus on damage rolls when making charge attacks. This bonus increases to +2
+at 8th level and +3 at 15th level.
 
-At 15th level: This bonus increases to +6.
+### Scarab Beetle {#scarab-beetle}
 
-**Jackal**
+The creature gains a +1 enhancement bonus to its natural armor bonus. This bonus increases to +2 at
+8th level and +3 at 15th level.
 
-**Passive:** The creature gains a +4 competence bonus on Survival checks.
+### Scorpion {#scorpion}
 
-At 8th level: This bonus increases to +6.
+The creature gains a +2 resistance bonus on saving throws against poison. This bonus increases to +4
+at 8th level and +6 at 15th level.
 
-At 15th level: This bonus increases to +8.
+### Sha {#sha}
 
-**Kite**
+The creature ignores the Perception penalty from sandstorms and can see twice as far in sandstorms.
+This increases to three times as far at 8th level and four times as far at 15th level.
 
-**At 15th Level:** This increases to 3 additional hit points.
+### Uraeus {#uraeus}
 
-**At 8th Level:** This increases to 2 additional hit points.
+The creature gains a +2 resistance bonus on saving throws against
+[breath weapons](ref/umr/breath-weapon). This bonus increases to +4 at 8th level and +6 at 15th
+level.
 
-**Passive:** The creature recovers 1 additional hit point whenever it receives magical healing.
+This alters animal focus.
 
-**Leopard**
+## Desert Walker (Ex) {#desert-walker}
 
-**Passive:** The creature gains a +4 competence bonus on Escape Artist checks.
-
-At 8th level: This bonus increases to +6.
-
-At 15th level: This bonus increases to +8.
-
-**Lion**
-
-**Passive:** The creature gains a +4 competence bonus on Intimidate checks.
-
-At 8th level: This bonus increases to +6.
-
-At 15th level: This bonus increases to +8.
-
-**Ram**
-
-**Passive:** The creature gains a +1 bonus on damage rolls when making charge attacks.
-
-At 8th level: This bonus increases to +2.
-
-At 15th level: This bonus increases to +3.
-
-**Scarab Beetle**
-
-**Passive:** The creature gains a +1 enhancement bonus to its natural armor bonus.
-
-At 8th level: This bonus increases to +2.
-
-At 15th level: This bonus increases to +3.
-
-**Scorpion**
-
-**Passive:** The creature gains a +2 resistance bonus on saving throws against poison.
-
-At 8th level: This bonus increases to +4.
-
-At 15th level: This bonus increases to +6.
-
-**Sha**
-
-**Passive:** The creature ignores the Perception penalty from sandstorms and can see twice as far in
-sandstorms.
-
-At 8th level: This 3× as far.
-
-At 15th level: This 4× as far.
-
-**Uraeus**
-
-**Passive:** The creature gains a +2 resistance bonus on saving throws against
-[breath weapons](ref/umr/breath-weapon).
-
-At 8th level: This bonus increases to +4.
-
-At 15th level: This bonus increases to +6.
-
-**Desert Walker (Ex)**
-
-**Ability:** A scarab stalker and her animal companion can move through desert terrain at normal
+At 5th level, a scarab stalker and her animal companion can move through desert terrain at normal
 speed without taking damage or suffering any other impairments unless that terrain has been
 enchanted or magically manipulated.
 
-**Gained:** At 5th Level
-
-**Replaces:** Woodland stride
+This replaces woodland stride.

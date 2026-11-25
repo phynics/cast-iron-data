@@ -16,11 +16,16 @@ page = "112"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "promise-of-faith" },
+  { anchor = "promise-of-purity" },
+  { anchor = "luminous-font" },
+]
 trades = [
-  { alters = "The cleric's armor proficiencies", feature = "weapon-and-armor-proficiencies", power = "armor" },
-  { alters = "Alignment" },
-  { alters = "Channel energy", feature = "channel-energy" },
-  { alters = "domains", feature = "domains" },
+  { alters = "The cleric's armor proficiencies", feature = "weapon-and-armor-proficiencies", power = "armor", by = ["promise-of-faith"] },
+  { alters = "Alignment", by = ["promise-of-purity"] },
+  { alters = "Channel energy", feature = "channel-energy", by = ["luminous-font"] },
+  { alters = "domains", feature = "domains", by = ["luminous-font"] },
 ]
 +++
 
@@ -42,50 +47,48 @@ the blossoming light have found the perfect place to flourish. These clerics are
 vanguard of the organization's efforts to redeem the fallen, particularly drow who seek to escape
 their society's strictures.
 
-**Promise of Faith**
+## Promise of Faith {#promise-of-faith}
 
-**Alters:** The cleric's armor proficiencies
-
-**Info:** A blossoming light vows to trust in her deity's protection over arms and armor. She is not
+A blossoming light vows to trust in her deity's protection over arms and armor. She is not
 proficient with any armor or shields. The blossoming light cannot use or benefit from any of her
 class features (including spellcasting) while wearing armor or using a shield, or for 1 minute
 thereafter.
 
-**Promise of Purity**
+This ability alters the cleric's armor proficiencies.
 
-**Alters:** Alignment
+## Promise of Purity {#promise-of-purity}
 
-**Info:** A blossoming light must be truly pure of heart. She must be good-aligned and worship a
-nonevil deity. If the blossoming light willfully commits an evil act, she loses all class features
+A blossoming light must be truly pure of heart. She must be good-aligned and worship a nonevil
+deity. If the blossoming light willfully commits an evil act, she loses all class features
 (including spellcasting) until she [atones](ref/spell/atonement).
 
-**Luminous Font (Su)**
+This alters the cleric's alignment.
 
-**Alters:** Channel energy, domains
+## Luminous Font (Su) {#luminous-font}
 
-**Flavor:** A blossoming light forsakes her deity's deeper mysteries to focus on benevolence,
-healing, and bringing light to darkness.
+A blossoming light forsakes her deity's deeper mysteries to focus on benevolence, healing, and
+bringing light to darkness. A blossoming light still selects domains and retains access to domain
+powers, but does not gain domain spell slots.
 
-**At 10th Level:** A blossoming light can use [atonement](ref/spell/atonement) once per day as a
-[spell-like ability](ref/umr/spell-like-abilities), but only to offer redemption to others (as per
-the spell). Using the spell in this way does not require a focus or material component.
+Blossoming lights are beacons of goodness, guiding others to follow their own best natures. A
+blossoming light adds [half](ref/misc/fractions-and-rounding) her level on Diplomacy checks against
+good creatures or to convince an evil creature to take an action against its evil nature.
 
-**At 3rd Level:** When a blossoming light channels energy to harm undead, her channeled energy also
+A blossoming light's channel energy is usable a number of times per day equal to 5 + her Charisma
+modifier. At 2nd level and every 2 levels thereafter, the blossoming light gains an additional use
+per day of channel energy.
+
+At 3rd level, when a blossoming light channels energy to harm undead, her channeled energy also
 harms chaotic evil outsiders, worshipers of chaotic evil deities, and evil creatures with
 [light sensitivity](ref/umr/light-sensitivity) or [light blindness](ref/umr/light-blindness) as if
 they were undead.
 
-**At 7th Level:** When a blossoming light channels energy, she can expend an additional use to fill
-the affected area with bright light (as per [daylight](ref/spell/daylight)) for a number of rounds
+At 7th level, when a blossoming light channels energy, she can expend an additional use to fill the
+affected area with bright light (as per _[daylight](ref/spell/daylight)_) for a number of rounds
 equal to her cleric level.
 
-**Info:** A blossoming light still selects domains and retains access to domain powers, but does not
-gain domain spell slots.
+At 10th level, a blossoming light can use _[atonement](ref/spell/atonement)_ once per day as a
+[spell-like ability](ref/umr/spell-like-abilities), but only to offer redemption to others (as per
+the spell). Using the spell in this way does not require a focus or material component.
 
-**Passive:** Blossoming lights are beacons of goodness, guiding others to follow their own best
-natures. A blossoming light adds [half](ref/misc/fractions-and-rounding) her level on Diplomacy
-checks against good creatures or to convince an evil creature to take an action against its evil
-nature.
-
-**Special:** A blossoming light's _channel energy_ is usable a number of times per day equal to 5 +
-her Charisma modifier + half her level.
+This ability alters channel energy and the cleric's domains.

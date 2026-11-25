@@ -12,32 +12,33 @@ page = "187"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bullying-thrill", level = 9 },
+]
 trades = [
   { replaces = "Share Spells" },
-  { replaces = "Multiattack" },
+  { replaces = "Multiattack", by = ["bullying-thrill"] },
 ]
 +++
 
 Bigger than others of its kind, a bully is used to winning fights and displays of dominance for its
 choice of mates, territory, or other privileges.
 
-**Bully Feats**
+## Bully Feats {#bully-feats}
 
-**Passive:** In addition to the standard feats available to animal companions, a bully can select
+In addition to the standard feats available to animal companions, a bully can select
 [Greater Bull Rush](ref/feat/greater-bull-rush), [Greater Overrun](ref/feat/greater-overrun),
 [Greater Reposition](ref/feat/greater-reposition), [Greater Trip](ref/feat/greater-trip),
 [Improved Reposition](ref/feat/improved-reposition), and [Improved Trip](ref/feat/improved-trip). It
 can use [Power Attack](ref/feat/power-attack) instead of
 [Combat Expertise](ref/feat/combat-expertise) as a prerequisite to qualify for feats on this list.
 
-**Replaces:** Share Spells
+This replaces share spells.
 
-**Bullying Thrill (Ex)**
+## Bullying Thrill (Ex) {#bullying-thrill}
 
-**Gained:** At 9th Level
-
-**Passive:** Whenever a bully succeeds at a bull rush, overrun, reposition, or trip combat maneuver
+At 9th level, whenever a bully succeeds at a bull rush, overrun, reposition, or trip combat maneuver
 check, after fully resolving the combat maneuver, it gains a +2 morale bonus on attack and damage
 rolls until the end of its next turn.
 
-**Replaces:** Multiattack
+This replaces Multiattack.

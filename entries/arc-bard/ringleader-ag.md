@@ -16,13 +16,19 @@ page = "33"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "cunning-plan" },
+  { anchor = "never-lose-face" },
+  { anchor = "sinister-mien", level = 2 },
+  { anchor = "countless-contingencies", level = 6 },
+]
 trades = [
-  { replaces = "Well-versed", feature = "well-versed" },
-  { replaces = "Versatile performance", feature = "versatile-performance" },
-  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion" },
-  { replaces = "mass suggestion", feature = "bardic-performance", power = "mass suggestion" },
-  { replaces = "soothing performance", feature = "bardic-performance", power = "soothing performance" },
-  { alters = "Bardic performance", feature = "bardic-performance" },
+  { replaces = "Well-versed", feature = "well-versed", by = ["never-lose-face"] },
+  { replaces = "Versatile performance", feature = "versatile-performance", by = ["sinister-mien"] },
+  { replaces = "Suggestion", feature = "bardic-performance", power = "suggestion", by = ["countless-contingencies"] },
+  { replaces = "mass suggestion", feature = "bardic-performance", power = "mass suggestion", by = ["countless-contingencies"] },
+  { replaces = "soothing performance", feature = "bardic-performance", power = "soothing performance", by = ["countless-contingencies"] },
+  { alters = "Bardic performance", feature = "bardic-performance", by = ["cunning-plan"] },
 ]
 +++
 
@@ -30,71 +36,55 @@ The [Aspis Consortium's](ref/rule/aff-profiteers) global operations are too exte
 without relying on contractors and hirelings. Ringleaders are specialists who oversee large
 operations in which trouble could strike at any moment and any place.
 
-**Cunning Plan (Su)**
+## Cunning Plan (Su) {#cunning-plan}
 
-**Ability:** By spending 1 minute laying out a plan, a ringleader can impart inspiring instructions
-to a number of allies equal to her bard level + her Charisma bonus. Upon concluding the plan, the
-ringleader chooses one of her bardic performances and expends a number of rounds of bardic
-performance equal to up to double her bard level. Thereafter, as a **move action**, the ringleader
-or any of the instructed allies can trigger the implanted instructions, causing that creature to
-immediately gain the benefits of the ringleader's implanted bardic performance (each creature can
-trigger the instructions for itself separately). This effect lasts for a number of rounds equal to
-the rounds of bardic performance the ringleader expended while creating the plan, though the effect
-also ends if the ringleader dismisses it as a **free action** or activates a different plan or
-bardic performance.
+By spending 1 minute laying out a plan, a ringleader can impart inspiring instructions to a number
+of allies equal to her bard level + her Charisma bonus. Upon concluding the plan, the ringleader
+chooses one of her bardic performances and expends a number of rounds of bardic performance equal to
+up to double her bard level. Thereafter, as a move action, the ringleader or any of the instructed
+allies can trigger the implanted instructions, causing that creature to immediately gain the
+benefits of the ringleader's implanted bardic performance (each creature can trigger the
+instructions for itself separately). This effect lasts for a number of rounds equal to the rounds of
+bardic performance the ringleader expended while creating the plan, though the effect also ends if
+the ringleader dismisses it as a free action or activates a different plan or bardic performance.
+For the purpose of this ability, the ringleader attempts any skill checks associated with the bardic
+performance once a creature triggers the plan. A ringleader's cunning plans all expire each time she
+regains her daily spell slots or after 24 hours (whichever comes first).
 
-**Alters:** Bardic performance
-
-**At 13th Level:** The ringleader can trigger a cunning plan as an **immediate action**.
-
-**At 7th Level:** The ringleader (but not an ally) can trigger a cunning plan as a **swift action**
-instead of as a move action.
-
-**Info:** A ringleader is less capable of improvising, and when she uses bardic performance without
+At 7th level, the ringleader (but not an ally) can trigger a cunning plan as a swift action instead
+of as a move action. At 13th level, the ringleader can trigger a cunning plan as an immediate
+action. A ringleader is less capable of improvising, and when she uses bardic performance without
 creating a cunning plan, she must expend 1 additional round of bardic performance to begin the
 performance.
 
-**Special:** For the purpose of this ability, the ringleader attempts any skill checks associated
-with the bardic performance once a creature triggers the plan. A ringleader's cunning plans all
-expire each time she regains her daily spell slots or after 24 hours (whichever comes first).
+This ability alters bardic performance.
 
-**Never Lose Face (Ex)**
+## Never Lose Face (Ex) {#never-lose-face}
 
-**Gained:** At 2nd Level
-
-**Passive:** A ringleader is never outdone by her minions. She gains a +2 bonus on saving throws
+A ringleader is never outdone by her minions. At 2nd level, she gains a +2 bonus on saving throws
 against effects that also target one or more of her allies.
 
-**Replaces:** Well-versed
+This ability replaces well-versed.
 
-**Sinister Mien (Ex)**
+## Sinister Mien (Ex) {#sinister-mien}
 
-**At 10th Level:** The ringleader can activate Dazzling Display as a **standard action**.
-
-**At 14th Level:** She can affect all enemies within 60 feet with Dazzling Display.
-
-**At 18th Level:** The range increases to 120 feet.
-
-**At 2nd Level:** A ringleader can use her Intimidate bonus in place of her Perform bonus when using
-her bardic performance class ability. When the ringleader uses Intimidate to improve a creature's
+At 2nd level, a ringleader can use her Intimidate bonus in place of her Perform bonus when using her
+bardic performance class ability. When the ringleader uses Intimidate to improve a creature's
 attitude, the creature's attitude remains friendly for 10 additional minutes per point by which the
-ringleader exceeded the check's DC.
+ringleader exceeded the check's DC. At 6th level, the ringleader gains
+[Dazzling Display](ref/feat/dazzling-display) as a bonus feat and does not need a weapon in her hand
+to use the feat. At 10th level, the ringleader can activate Dazzling Display as a standard action.
+At 14th level, she can affect all enemies within 60 feet with Dazzling Display. At 18th level, the
+range increases to 120 feet.
 
-**At 6th Level:** The ringleader gains [Dazzling Display](ref/feat/dazzling-display) as a bonus feat
-and does not need a weapon in her hand to use the feat.
+This ability replaces versatile performance.
 
-**Replaces:** Versatile performance
+## Countless Contingencies (Su) {#countless-contingencies}
 
-**Countless Contingencies (Su)**
+At 6th level, whenever a ringleader creates a plan using her cunning plan ability, she can choose
+two different bardic performances. When she triggers the plan, she chooses which of the two
+performances takes effect. At 12th level, a ringleader can spend a standard action and 2 rounds of
+bardic performance to extend the duration of a triggered plan by 1d4 rounds. At 18th level, the
+ringleader can choose three different bardic performances when using her cunning plan ability.
 
-**At 12th Level:** A ringleader can spend a **standard action** and 2 rounds of bardic performance
-to extend the duration of a triggered plan by 1d4 rounds.
-
-**At 18th Level:** The ringleader can choose three different bardic performances when using her
-cunning plan ability.
-
-**At 6th Level:** Whenever a ringleader creates a plan using her cunning plan ability, she can
-choose two different bardic performances. When she triggers the plan, she chooses which of the two
-performances takes effect.
-
-**Replaces:** Suggestion, mass suggestion, soothing performance
+This ability replaces suggestion, mass suggestion, and soothing performance.

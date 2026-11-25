@@ -16,38 +16,37 @@ page = "42"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "feral-aspect", level = 1 },
+]
 trades = [
-  { replaces = "Martial flexibility", feature = "martial-flexibility" },
+  { replaces = "Martial flexibility", feature = "martial-flexibility", by = ["feral-aspect"] },
 ]
 +++
 
 A feral striker taps into a reservoir of druidic power hidden inside herself, allowing her to take
 animalistic characteristics.
 
-**Feral Aspect (Su)**
+## Feral Aspect (Su) {#feral-aspect}
 
-**At 1st Level:** This functions as the [shifter aspect](ref/ability/aspects) class feature of the
-shifter, except the feral striker can choose only from the [bear](ref/aspect/bear),
-[bull](ref/aspect/bull), [falcon](ref/aspect/falcon), [snake](ref/aspect/snake),
-[stag](ref/aspect/stag), [tiger](ref/aspect/tiger), and [wolf](ref/aspect/wolf) aspects. She can
-shift into an aspect as a **swift action**. On her turn, she may dismiss it as a **free action**.
-She has access to only the minor versions all these aspects.
+This functions as the [shifter aspect](ref/ability/aspects) class feature of the shifter, except the
+feral striker can choose only from the [bear](ref/aspect/bear), [bull](ref/aspect/bull),
+[falcon](ref/aspect/falcon), [snake](ref/aspect/snake), [stag](ref/aspect/stag),
+[tiger](ref/aspect/tiger), and [wolf](ref/aspect/wolf) aspects. She has access to only the minor
+versions all these aspects.
 
-**At 10th Level:** The feral shifter adds her Constitution modifier to the total number of minutes
-per day in which she can use feral aspect.
+At 6th level, the feral striker can take on two minor aspects simultaneously as a move action. Each
+aspect counts toward her total number of minutes (so if a feral striker who normally has 9 total
+minutes of aspects takes on two aspects simultaneously for 4 minutes, she still has 1 minute
+remaining). She can end one or both aspects as a free action on her turn.
 
-**At 12th Level:** The feral striker can take on three aspects simultaneously as a **move action**
-or one or two aspects as a **swift action**.
+At 10th level, the feral shifter adds her Constitution modifier to the total number of minutes per
+day in which she can use feral aspect.
 
-**At 20th Level:** The feral striker can take on as many aspects as she wishes at once as a **swift
-action**, and they count as only one aspect for the purpose of calculating duration.
+At 12th level, the feral striker can take on three aspects simultaneously as a move action or one or
+two aspects as a swift action.
 
-**At 6th Level:** The feral striker can take on two minor aspects simultaneously as a **move
-action**. Each aspect counts toward her total number of minutes (so if a feral striker who normally
-has 9 total minutes of aspects takes on two aspects simultaneously for 4 minutes, she still has 1
-minute remaining). She can end one or both aspects as a **free action** on her turn.
+At 20th level, the feral striker can take on as many aspects as she wishes at once as a swift
+action, and they count as only one aspect for the purpose of calculating duration.
 
-**Replaces:** Martial flexibility
-
-**Usage:** 1 minute/day per brawler3 level; these minutes need not be consecutive, but must be spent
-in 1-minute increments
+This replaces martial flexibility.

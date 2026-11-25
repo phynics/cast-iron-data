@@ -16,12 +16,17 @@ page = "66"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "natural-focus" },
+  { anchor = "tree-talker", level = 8 },
+  { anchor = "reflect-on-the-land", level = 12 },
+]
 trades = [
-  { replaces = "Magic circles", feature = "magic-circles" },
-  { replaces = "fast circles", feature = "fast-circles" },
-  { replaces = "Outside contact", feature = "outside-contact" },
-  { replaces = "Binding circles", feature = "binding-circles" },
-  { alters = "Mental focus", feature = "mental-focus" },
+  { replaces = "Magic circles", feature = "magic-circles", by = ["natural-focus"] },
+  { replaces = "fast circles", feature = "fast-circles", by = ["natural-focus"] },
+  { replaces = "Outside contact", feature = "outside-contact", by = ["tree-talker"] },
+  { replaces = "Binding circles", feature = "binding-circles", by = ["reflect-on-the-land"] },
+  { alters = "Mental focus", feature = "mental-focus", by = ["natural-focus"] },
 ]
 +++
 
@@ -29,51 +34,45 @@ A naturalist eschews the contact with outsiders that other occultists use as the
 Instead, he attunes his mind to the natural spirits that exist everywhere, just out of sight for the
 unawakened mind.
 
-**Gained class skills:** kna
+## Class Skills {#class-skills}
 
-**Lost class skills:** kp
+A naturalist adds Knowledge (nature) to his list of class skills instead of Knowledge (planes).
 
-**Natural Focus (Su)**
+This alters the occultist's class skills.
 
-**Alters:** Mental focus
+## Natural Focus (Su) {#natural-focus}
 
-**Flavor:** A naturalist can always hear the spirits of nature whispering in his ears, and sometimes
-those whispers contain helpful advice.
+A naturalist can always hear the spirits of nature whispering in his ears, and sometimes those
+whispers contain helpful advice. As a free action, a naturalist can expend 1 point of generic mental
+focus before rolling an ability check, saving throw, or skill check to add 1d6 to the result. The
+naturalist must be conscious and aware to use this ability, and he can use this ability at most once
+per round.
 
-**Free:** A naturalist can expend 1 point of generic mental focus before rolling an ability check,
-saving throw, or skill check to add 1d6 to the result. The naturalist must be conscious and aware to
-use this ability, and he can use this ability at most once per round.
+At 8th level, the naturalist's natural focus die increases to 1d8, and at 16th level it increases to
+1d10.
 
-**At 16th Level:** It increases to 1d10.
+This ability doesn't function while the naturalist is wearing metal armor or using a metal shield
+(although he can wear a suit of armor or use a shield altered by the
+_[ironwood](ref/spell/ironwood)_ spell). This restriction is similar to the
+[druid's](ref/class/druid) armor restriction.
 
-**At 8th Level:** The naturalist's natural focus die increases to 1d8.
+This alters mental focus and replaces magic circles and fast circles.
 
-**Replaces:** Magic circles, fast circles
+## Tree Talker (Sp) {#tree-talker}
 
-**Special:** This ability doesn't function while the naturalist is wearing metal armor or using a
-metal shield (although he can wear a suit of armor or use a shield altered by the
-[ironwood](ref/spell/ironwood) spell). This restriction is similar to the [druid's](ref/class/druid)
-armor restriction.
-
-**Tree Talker (Sp)**
-
-**Ability:** A naturalist can cast [speak with plants](ref/spell/speak-with-plants) three times per
-day as a [spell-like ability](ref/umr/spell-like-abilities) with a caster level equal to his
+At 8th level, a naturalist can cast _[speak with plants](ref/spell/speak-with-plants)_ three times
+per day as a [spell-like ability](ref/umr/spell-like-abilities) with a caster level equal to his
 occultist level. In addition, when the naturalist uses this power, he can whisper a message of 25 or
 fewer words to the surrounding plant life and designate a creature with which he is familiar. The
 next time that creature is on the same plane of existence and in an area of similar vegetation, it
 receives the message.
 
-**Gained:** At 8th Level
+This replaces outside contact.
 
-**Replaces:** Outside contact
+## Reflect on the Land (Sp) {#reflect-on-the-land}
 
-**Reflect on the Land (Sp)**
+At 12th level, a naturalist can cast _[commune with nature](ref/spell/commune-with-nature)_ once per
+day as a [spell-like ability](ref/umr/spell-like-abilities) with a caster level equal to his
+occultist level.
 
-**Ability:** A naturalist can cast [commune with nature](ref/spell/commune-with-nature) once per day
-as a [spell-like ability](ref/umr/spell-like-abilities) with a caster level equal to his occultist
-level.
-
-**Gained:** At 12th Level
-
-**Replaces:** Binding circles
+This replaces binding circles.

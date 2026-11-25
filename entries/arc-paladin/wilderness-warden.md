@@ -16,88 +16,91 @@ page = "71"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "natural-defense", level = 2 },
+  { anchor = "smite-evil", level = 4 },
+  { anchor = "aura-of-comfort", level = 3 },
+  { anchor = "favored-terrain", level = 3 },
+  { anchor = "spells" },
+  { anchor = "aura-of-purity", level = 8 },
+  { anchor = "natural-shield", level = 11 },
+]
 trades = [
-  { replaces = "Divine grace", feature = "divine-grace" },
-  { replaces = "Aura of courage", feature = "aura-of-courage" },
-  { replaces = "3rd-, 9th-, and 15th-level mercies", feature = "mercy", levels = [3, 9, 15] },
-  { replaces = "Aura of resolve", feature = "aura-of-resolve" },
-  { replaces = "Aura of justice", feature = "aura-of-justice" },
-  { alters = "Smite evil", feature = "smite-evil" },
-  { alters = "Spells", feature = "spells" },
+  { replaces = "Divine grace", feature = "divine-grace", by = ["natural-defense"] },
+  { replaces = "Aura of courage", feature = "aura-of-courage", by = ["aura-of-comfort"] },
+  { replaces = "Mercies gained at 3rd level, 9th level, and 15th level", feature = "mercy", levels = [3, 9, 15], by = ["favored-terrain"] },
+  { replaces = "Aura of resolve", feature = "aura-of-resolve", by = ["aura-of-purity"] },
+  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["natural-shield"] },
+  { alters = "Smite evil", feature = "smite-evil", by = ["smite-evil"] },
+  { alters = "Spells", feature = "spells", by = ["spells"] },
 ]
 +++
 
 Wilderness wardens are vigilant guardians of natural places of all kinds, from mountain peaks to
 tangled thickets.
 
-**Gained class skills:** climb, kg, kna, sur, swim
+## Class Skills {#class-skills}
 
-**Lost class skills:** diplo, heal, kno, spc
+A wilderness warden gains Climb, Knowledge (geography), Knowledge (nature), Survival, and Swim as
+class skills. She does not gain Diplomacy, Heal, Knowledge (nobility), or Spellcraft as class
+skills.
 
-**Natural Defense (Su)**
+This alters the paladin's class skills.
 
-**Ability:** Once per day, a wilderness warden can grant herself energy resistance 10 to cold,
+## Natural Defense (Su) {#natural-defense}
+
+At 2nd level, once per day, a wilderness warden can grant herself energy resistance 10 to cold,
 electricity, or fire and a +2 insight bonus to her CMD for a number of minutes equal to her paladin
-level.
+level. The energy resistance increases by 5 and the CMD bonus increases by 1 at 5th level and every
+5 levels thereafter.
 
-**Gained:** At 2nd Level
+This replaces divine grace.
 
-**Replaces:** Divine grace
+## Smite Evil (Su) {#smite-evil}
 
-**Smite Evil (Su)**
+A wilderness warden gains this ability at 4th level, and it functions at her paladin level - 3. She
+can expend a daily use of smite evil to gain an additional daily use of natural defense. She deals
+additional damage on her first successful attack when the target of her smite evil is an evil fey,
+humanoid (giant), magical beast, or monstrous humanoid, rather than an evil dragon, outsider (evil),
+or undead.
 
-**Alters:** Smite evil
+This alters smite evil.
 
-**At 4th Level:** A wilderness warden gains this ability at 4th level, and it functions at her
-paladin level - 3. She can expend a daily use of _smite evil_ to gain an additional daily use of
-_natural defense._ She deals additional damage on her first successful attack when the target of her
-_smite evil_ is an evil fey, humanoid (giant), magical beast, or monstrous humanoid, rather than an
-evil dragon, outsider (evil), or undead.
+## Aura of Comfort (Ex) {#aura-of-comfort}
 
-**Aura of Comfort (Ex)**
-
-**Gained:** At 3rd Level
-
-**Passive:** A wilderness warden is comfortable in nearly any climate, as if she were affected by a
-constant [endure elements](ref/spell/endure-elements) spell, and she and allies within 10 feet of
+At 3rd level, a wilderness warden is comfortable in nearly any climate, as if she were affected by a
+constant _[endure elements](ref/spell/endure-elements)_ spell, and she and allies within 10 feet of
 her gain a +4 bonus on Constitution checks and saving throws to resist fatigue; exhaustion; and the
 effects of hunger, thirst, and hot or cold climates (including from magical effects).
 
-**Replaces:** Aura of courage
+This replaces aura of courage.
 
-**Favored Terrain (Ex)**
+## Favored Terrain (Ex) {#favored-terrain}
 
-**Ability:** A wilderness warden selects a [favored terrain](ref/ability/favored-terrain), as per
-the [ranger](ref/class/ranger) class feature.
+At 3rd level, a wilderness warden selects a [favored terrain](ref/ability/favored-terrain), as per
+the [ranger](ref/class/ranger) class feature. Every 6 levels after 3rd, she selects an additional
+favored terrain; each time she does so, the bonuses she gains in her previous favored terrain or
+terrains increase by 2.
 
-**Gained:** At 3rd Level
+This replaces the mercies gained at 3rd level , 9th level, and 15th level.
 
-**Repeat:** She selects an additional favored terrain, and the bonuses she gains in her previous
-favored terrain(s) increase by 2., 9, 6
+## Spells {#spells}
 
-**Replaces:** 3rd-, 9th-, and 15th-level mercies
+For each level of spell she can cast, a wilderness warden can prepare and cast one spell per day
+from the druid spell list rather than the paladin spell list.
 
-**Spells**
+This alters the paladin's spells.
 
-**Alters:** Spells
+## Aura of Purity (Su) {#aura-of-purity}
 
-**Passive:** For each level of spell she can cast, a wilderness warden can prepare and cast one
-spell per day from the druid spell list rather than the paladin spell list.
+At 8th level, a wilderness warden gains immunity to poison. Each ally within 10 feet gains a +2
+bonus on saving throws against disease and poison.
 
-**Aura of Purity (Su)**
+This replaces aura of resolve.
 
-**Gained:** At 8th Level
+## Natural Shield (Su) {#natural-shield}
 
-**Passive:** A wilderness warden gains immunity to poison. Each ally within 10 feet gains a +2 bonus
-on saving throws against disease and poison.
-
-**Replaces:** Aura of resolve
-
-**Natural Shield (Su)**
-
-**Ability:** A wilderness warden can expend two daily uses of her _natural defense_ ability to grant
+At 11th level, a wilderness warden can expend two daily uses of her natural defense ability to grant
 the benefits of that ability to all nonevil allies within 10 feet for 1 minute.
 
-**Gained:** At 11th Level
-
-**Replaces:** Aura of justice
+This replaces aura of justice.

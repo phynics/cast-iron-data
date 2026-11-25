@@ -16,12 +16,19 @@ page = "75"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "forceful-breath" },
+  { anchor = "poison-adept", level = 1 },
+  { anchor = "toxin-resistance" },
+  { anchor = "catalyst", level = 4 },
+  { anchor = "split-toxin", level = 8 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { alters = "Weapon proficiencies", feature = "weapon-and-armor-proficiencies", power = "weapons" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["poison-adept"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["toxin-resistance"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["catalyst"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["split-toxin"] },
+  { alters = "Weapon proficiencies", feature = "weapon-and-armor-proficiencies", power = "weapons", by = ["forceful-breath"] },
 ]
 +++
 
@@ -42,7 +49,7 @@ pushed the toxic talons into further obscurity. Their role is particularly prote
 Talons, who sometimes go as far as to outright lie to others in the Eagle Knights about the
 operations of a toxic talon. At other times, a toxic talon may choose to martyr his freedom by
 publicly accepting blame for a mission that has had unfortunate public repercussions. In such a
-case, the toxic talon is not abandoned by his kin - instead, he is placed on a fair and public trial
+case, the toxic talon is not abandoned by his kin—instead, he is placed on a fair and public trial
 whose purpose is as much to appease the masses as it is to determine whether any moral lines were
 crossed. In cases where such a toxic talon is found guilty, he is generally sentenced to hard labor
 or prison (in which case he often continues to run missions inside of prisons or other
@@ -57,61 +64,47 @@ Knights), such selfless characters can ensure that the organization survives sca
 outcry to carry on their good work. In such cases, while public recognition for their deeds may
 never manifest, their brothers and sisters never forget the toxic talon's sacrifice.
 
-**Forceful Breath (Ex)**
+## Forceful Breath (Ex) {#forceful-breath}
 
-**Ability:** A toxic talon is proficient with [blowguns](ref/eq-weapon/blowgun) instead of hand
-crossbows. He can use a blowgun without penalty while prone.
+A toxic talon is proficient with [blowguns](ref/eq-weapon/blowgun) instead of hand crossbows. He can
+use a blowgun without penalty while prone.
 
-**Alters:** Weapon proficiencies
+This alters the rogue's weapon proficiencies.
 
-**Poison Adept (Ex)**
+## Poison Adept (Ex) {#poison-adept}
 
-**Move:** He can apply poison to a projectile.
+A toxic talon is trained in the use of poison and cannot accidentally poison himself when applying
+poison to a projectile weapon. He can apply poison to a projectile as a move action. This counts as
+the [poison use](ref/ability/poison-use) ability for the purposes of qualifying for feats, prestige
+classes, and other options.
 
-**Passive:** A toxic talon is trained in the use of poison and cannot accidentally poison himself
-when applying poison to a projectile weapon.
+This ability replaces trapfinding.
 
-**Replaces:** Trapfinding
+## Toxin Resistance (Ex) {#toxin-resistance}
 
-**Special:** This counts as the [poison use](ref/ability/poison-use) ability for the purposes of
-qualifying for feats, prestige classes, and other options.
+A toxic talon's constant exposure to varied poisons grants him increasing resistance to them. At 3rd
+level, a toxic talon gains a +1 bonus on saving throws against diseases and poisons, and he gains a
++1 bonus on Heal checks to treat diseases and poisons. He also gains a +1 bonus on caster level
+checks (including when he activates a magic item) to treat or remove poisons and diseases, such as
+when using _[remove disease](ref/spell/remove-disease)_ or
+_[neutralize poison](ref/spell/neutralize-poison)_. Finally, he gains a +1 bonus on Perception
+checks to identify traps that utilize diseases or poisons. These bonuses increase to +2 at 6th
+level, to +3 at 9th level, to +4 at 12th level, to +5 at 15th level, and to +6 at 18th level.
 
-**Toxin Resistance (Ex)**
+This replaces trap sense.
 
-**Flavor:** A toxic talon's constant exposure to varied poisons grants him increasing resistance to
-them.
+## Catalyst (Su) {#catalyst}
 
-**Gained:** At 3rd Level
+At 4th level, a toxic talon can use secret alchemical techniques to enhance a poison as he applies
+it to a weapon, increasing the save DC of the poison by 1 (this bonus increases to +2 at 12th
+level). This increase to the save DC lasts for 1 minute or until the poison is used up, whichever
+comes first. A toxic talon can use catalyst once per hour.
 
-**Passive:** A toxic talon gains a bonus on saving throws against diseases and poisons, and he gains
-a bonus on Heal checks to treat diseases and poisons. He also gains a bonus on caster level checks
-(including when he activates a magic item) to treat or remove poisons and diseases, such as when
-using [remove disease](ref/spell/remove-disease) or
-[neutralize poison](ref/spell/neutralize-poison). Finally, he gains a bonus on Perception checks to
-identify traps that utilize diseases or poisons. These bonuses are equal to one-third of his rogue
-level.
+This ability replaces uncanny dodge.
 
-**Replaces:** Trap sense
+## Split Toxin (Su) {#split-toxin}
 
-**Catalyst (Su)**
-
-**Ability:** A toxic talon can use secret alchemical techniques to enhance a poison as he applies it
-to a weapon, increasing the save DC of the poison by 1. This increase to the save DC lasts for 1
-minute or until the poison is used up, whichever comes first.
-
-**At 12th Level:** The save DC now increases by 2.
-
-**Gained:** At 4th Level
-
-**Replaces:** Uncanny dodge
-
-**Special:** A toxic talon can use _catalyst_ once per hour.
-
-**Split Toxin (Su)**
-
-**Ability:** When a toxic talon uses _catalyst_ to enhance poison as he applies it, he can envenom
+At 8th level, when a toxic talon uses catalyst to enhance poison as he applies it, he can envenom
 two ranged weapons or units of ammunition simultaneously with the same dose.
 
-**Gained:** At 8th Level
-
-**Replaces:** Improved uncanny dodge
+This ability replaces the rogue's improved uncanny dodge.

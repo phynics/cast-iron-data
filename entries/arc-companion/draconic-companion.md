@@ -12,69 +12,62 @@ page = "188"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "not-quite-animal" },
+  { anchor = "draconic-sight" },
+  { anchor = "draconic-resistance", level = 3 },
+  { anchor = "improved-draconic-resistance", level = 6 },
+  { anchor = "breath-weapon", level = 9 },
+]
 trades = [
-  { replaces = "Share Spells" },
-  { replaces = "Evasion" },
-  { replaces = "Devotion" },
-  { replaces = "Multiattack" },
-  { replaces = "Improved Evasion" },
+  { replaces = "Share Spells", by = ["draconic-sight"] },
+  { replaces = "Evasion", by = ["draconic-resistance"] },
+  { replaces = "Devotion", by = ["improved-draconic-resistance"] },
+  { replaces = "Multiattack", by = ["breath-weapon"] },
+  { replaces = "Improved Evasion", by = ["breath-weapon"] },
 ]
 +++
 
 Draconic companions bear a faint trace of dragon blood that grants them special abilities.
 
-**Gained class skills:** intm
+## Draconic Skills {#draconic-skills}
 
-**Not Quite Animal**
+Draconic companions treat Intimidate as a class skill.
 
-**Passive:** The DC to use Handle Animal on a draconic companion is 5 higher, as if it were a
-nonanimal with an Intelligence score of 1 or 2.
+## Not Quite Animal {#not-quite-animal}
 
-**Draconic Sight (Ex)**
+The DC to use Handle Animal on a draconic companion is 5 higher, as if it were a nonanimal with an
+Intelligence score of 1 or 2.
 
-**Passive:** A draconic companion gains [low-light vision](ref/rule/low-light-vision) and
+## Draconic Sight (Ex) {#draconic-sight}
+
+A draconic companion gains [low-light vision](ref/rule/low-light-vision) and
 [darkvision](ref/rule/darkvision) to a range of 60 feet.
 
-**Replaces:** Share Spells
+This replaces share spells.
 
-**Draconic Resistance (Ex)**
+## Draconic Resistance (Ex) {#draconic-resistance}
 
-**Gained:** At 3rd Level
-
-**Passive:** Choose acid, cold, electricity, or fire, based on the draconic companion's draconic
+At 3rd level, choose acid, cold, electricity, or fire, based on the draconic companion's draconic
 ancestor. The draconic companion gains resistance 5 against the chosen energy type, as well as a +2
 racial bonus on saves against paralysis and sleep.
 
-**Replaces:** Evasion
+This replaces evasion.
 
-**Improved Draconic Resistance (Ex)**
+## Improved Draconic Resistance (Ex) {#improved-draconic-resistance}
 
-**At 15th Level:** Its energy resistance increases to 20.
+At 6th level, a draconic companion becomes immune to paralysis and sleep, and its energy resistance
+increases to 10. At 15th level, its energy resistance increases to 20.
 
-**Gained:** At 6th Level
+This replaces devotion.
 
-**Passive:** A draconic companion becomes immune to paralysis and sleep, and its energy resistance
-increases to 10.
+## Breath Weapon (Ex) {#breath-weapon}
 
-**Replaces:** Devotion
+At 9th level, a draconic companion gains a breath weapon, usable once per day, that deals 1d6 points
+of damage per Hit Dice of the energy type matching its draconic resistance in either a 30-foot cone
+or a 60-foot line (chosen when the draconic companion gains this ability). At 15th level, it can use
+the breath weapon three times per day, but it must wait 1d4 rounds between uses. Targets of this
+breath weapon can attempt a Reflex save (DC = 10 + [half](ref/misc/fractions-and-rounding) the
+draconic companion's Hit Dice + the draconic companion's Constitution modifier) for half damage.
 
-**Breath Weapon (Ex)**
-
-**Ability:** A draconic companion gains a breath weapon that deals 1d6 points of damage per Hit Dice
-of the energy type matching its draconic resistance in either a 30-foot cone or a 60-foot line
-(chosen when the draconic companion gains this ability).
-
-**At 15th Level:** It can use the breath weapon three times per day, but it must wait 1d4 rounds
-between uses.
-
-**Gained:** At 9th Level
-
-**Replaces:** Multiattack, Improved Evasion
-
-**Special:** Targets of this breath weapon can attempt a Reflex save (DC = 10 +
-[half](ref/misc/fractions-and-rounding) the draconic companion's Hit Dice + the draconic companion's
-Constitution modifier) for half damage.
-
-**Usage:** Once a day.
-
-**Usage:** Once a day.
+This replaces Multiattack and improved evasion.

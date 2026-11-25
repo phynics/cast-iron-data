@@ -15,42 +15,49 @@ page = "10"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "divine-guidance" },
+  { anchor = "share-will" },
+  { anchor = "domain-influence", level = 3 },
+]
 trades = [
-  { replaces = "Alertness" },
-  { replaces = "Share spells" },
-  { replaces = "Deliver touch spells" },
+  { replaces = "Alertness", by = ["divine-guidance"] },
+  { replaces = "Share spells", by = ["share-will"] },
+  { replaces = "Deliver touch spells", by = ["domain-influence"] },
 ]
 +++
 
 The emissary is touched by the divine, serving as a font of wisdom and a moral compass for its
 master.
 
-**Special Requirement:** An emissary familiar can serve only a master who worships a single deity.
+## Special Requirement {#special-requirement}
 
-**Gained class skills:** heal, kr, sm
+An emissary familiar can serve only a master who worships a single deity.
 
-**Divine Guidance (Sp)**
+## Emissary Skills {#emissary-skills}
 
-**Replaces:** Alertness
+An emissary treats Heal, Knowledge (religion), and Sense Motive as class skills.
 
-**Standard:** An emissary can cast [guidance](ref/spell/guidance) at will.
+## Divine Guidance (Sp) {#divine-guidance}
 
-**Share Will (Su)**
+An emissary can cast _[guidance](ref/spell/guidance)_ at will.
 
-**Passive:** Whenever an emissary or its master fails a saving throw against a mind-affecting effect
-that affects only one of them, the other can attempt the saving throw as well. If this second saving
-throw is a success, treat the original result as a success, and the emissary and its master can't
-use this ability again for 24 hours. On a failure, both the emissary and its master suffer the
-effects of the failed saving throw, even if one of them wouldn't ordinarily be a valid target.
+This replaces alertness.
 
-**Replaces:** Share spells
+## Share Will (Su) {#share-will}
 
-**Domain Influence (Sp or Su)**
+Whenever an emissary or its master fails a saving throw against a mind-affecting effect that affects
+only one of them, the other can attempt the saving throw as well. If this second saving throw is a
+success, treat the original result as a success, and the emissary and its master can't use this
+ability again for 24 hours. On a failure, both the emissary and its master suffer the effects of the
+failed saving throw, even if one of them wouldn't ordinarily be a valid target.
 
-**Gained:** At 3rd Level
+This replaces share spells.
 
-**Passive:** The emissary gains a spark of divine power from the deity its master worships. Choose
+## Domain Influence (Sp or Su) {#domain-influence}
+
+At 3rd level, the emissary gains a spark of divine power from the deity its master worships. Choose
 one of that deity's domains that grants a 1st-level domain power usable a number of times per day
 equal to 3 + the user's Wisdom modifier. The emissary can use that power once per day.
 
-**Replaces:** Deliver touch spells
+This replaces deliver touch spells.

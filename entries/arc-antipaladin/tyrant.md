@@ -24,6 +24,7 @@ trades = [
   { alters = "Code of conduct and associated abilities", by = ["tyrant-s-code"] },
   { alters = "Section on ex-antipaladins", feature = "sec-ex-antipaladins", by = ["tyrant-s-code"] },
   { alters = "Fiendish boon", feature = "fiendish-boon", by = ["diabolic-boon"] },
+  { alters = "Class skills" },
 ]
 +++
 

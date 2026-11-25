@@ -16,78 +16,66 @@ page = "83"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "speak-with-plants", level = 1 },
+  { anchor = "verdant-body", level = 1 },
+  { anchor = "wild-armor", level = 2 },
+  { anchor = "plant-shape", level = 6 },
+]
 trades = [
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "Shifter aspect", feature = "shifter-aspect" },
-  { replaces = "Defensive instinct", feature = "defensive-instinct" },
-  { replaces = "Chimeric form", feature = "chimeric-aspect" },
-  { replaces = "greater chimeric form", feature = "greater-chimeric-aspect" },
-  { alters = "Wild shape", feature = "wild-shape" },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["speak-with-plants"] },
+  { replaces = "Shifter aspect and all improvements of shifter aspect", feature = "shifter-aspect", by = ["verdant-body"] },
+  { replaces = "Defensive instinct", feature = "defensive-instinct", by = ["wild-armor"] },
+  { replaces = "Chimeric form", feature = "chimeric-aspect", by = ["plant-shape"] },
+  { replaces = "greater chimeric form", feature = "greater-chimeric-aspect", by = ["plant-shape"] },
+  { alters = "Wild shape", feature = "wild-shape", by = ["plant-shape"] },
 ]
 +++
 
-Verdant shifters have an affinity for plants rather than animals and gain a plant-like form that
+Verdant shifters have an affinity for plants rather than animals and gain a plantlike form that
 grows in power as they do. Verdant shifters are the enemies of creatures that would despoil the
 natural world, and they seek to maintain balance with civilization and industry to ensure the
 sanctity of wild spaces.
 
-**Speak with Plants (Sp)**
+## Speak with Plants (Sp) {#speak-with-plants}
 
-**Ability:** A verdant shifter gains the ability to cast
-[speak with plants](ref/spell/speak-with-plants) as a
-[spell-like ability](ref/umr/spell-like-abilities).
+At 1st level, a verdant shifter gains the ability to cast
+_[speak with plants](ref/spell/speak-with-plants)_ as a
+[spell-like ability](ref/umr/spell-like-abilities) a number of times per day equal to 3 plus her
+Charisma modifier.
 
-**Gained:** At 1st Level
+This replaces wild empathy.
 
-**Replaces:** Wild empathy
+## Verdant Body (Su) {#verdant-body}
 
-**Usage:** Charisma3 modifier times/day
-
-**Verdant Body (Su)**
-
-**Ability:** A verdant shifter takes on plant qualities as vines grow over her body, flowers bloom
+At 1st level, a verdant shifter takes on plant qualities as vines grow over her body, flowers bloom
 in her hair, and bark grows from her skin. The verdant shifter is treated as both her normal
 creature type and a plant creature for purposes of spells or effects that target a creature by type
-(such as [bane](ref/magic-enh/bane) weapons and a ranger's
-[favored enemy](ref/ability/favored-enemy)). _Verdant body_ also grants the verdant shifter a 25%
+(such as _[bane](ref/magic-enh/bane)_ weapons and a ranger's
+[favored enemy](ref/ability/favored-enemy)). Verdant body also grants the verdant shifter a 25%
 immunity to critical hits and precision damage (such as [sneak attack](ref/ability/sneak-attack)).
 
-**At 15th Level:** The enhancement bonus her Constitution score increases to +6.
+At 5th level, the verdant shifter gains a +2 enhancement bonus to her Constitution score. At 8th
+level, the enhancement bonus to her Constitution score increases to +4 and her immunity to critical
+hits increases to 50%. At 15th level, the enhancement bonus her Constitution score increases to +6.
 
-**At 5th Level:** The verdant shifter gains a +2 enhancement bonus to her Constitution score.
+This replaces shifter aspect and all improvements of shifter aspect.
 
-**At 8th Level:** The enhancement bonus to her Constitution score increases to +4 and her immunity
-to critical hits increases to 50%.
+## Wild Armor (Ex) {#wild-armor}
 
-**Gained:** At 1st Level
+At 2nd level, a verdant shifter gains a +2 natural armor bonus to her AC while unencumbered and
+either wearing no armor or wearing light or medium nonmetal armor. This bonus increases by 1 at 4th
+level and every 4 levels thereafter, to a maximum of a +7 natural armor bonus to AC at 20th level.
 
-**Replaces:** Shifter aspect
+This replaces defensive instinct.
 
-**Wild Armor (Ex)**
+## Plant Shape (Su) {#plant-shape}
 
-**Gained:** At 2nd Level
+At 6th level, a verdant shifter's wild shape ability instead functions as
+_[plant shape I](ref/spell/plant-shape-1)_. The verdant shifter can maintain this form for a number
+of rounds per day equal to her shifter level. At 12th level, this ability instead functions as
+_[plant shape II](ref/spell/plant-shape-2)_, and at 18th level, it functions as
+_[plant shape III](ref/spell/plant-shape-3)_. This ability otherwise functions as the standard wild
+shape shifter class feature.
 
-**Passive:** A verdant shifter gains a natural armor bonus to her AC while unencumbered and either
-wearing no armor or wearing light or medium nonmetal armor. This bonus is equal to 2 + one-fourth of
-her shifter level.
-
-**Replaces:** Defensive instinct
-
-**Plant Shape (Su)**
-
-**Ability:** A verdant shifter's _wild shape_ ability instead functions as
-[plant shape I](ref/spell/plant-shape-1).
-
-**Alters:** Wild shape
-
-**At 12th Level:** This ability instead functions as [plant shape II](ref/spell/plant-shape-2).
-
-**At 18th Level:** It functions as [plant shape III](ref/spell/plant-shape-3).
-
-**Gained:** At 6th Level
-
-**Replaces:** Chimeric form, greater chimeric form
-
-**Special:** This ability otherwise functions as the standard _wild shape_ shifter class feature.
-
-**Usage:** 1 time/day per shifter level
+This alters wild shape and replaces chimeric form and greater chimeric form.

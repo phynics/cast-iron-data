@@ -16,12 +16,19 @@ page = "104"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "feinting-flurry", level = 1 },
+  { anchor = "bonus-feat" },
+  { anchor = "efreeti-s-guile", level = 3 },
+  { anchor = "confounding-koan", level = 12 },
+  { anchor = "genie-apotheosis", level = 20 },
+]
 trades = [
-  { replaces = "Bonus feats gained at 1st level and at 6th level", feature = "bonus-feat", levels = [1, 6] },
-  { replaces = "Still mind", feature = "still-mind" },
-  { replaces = "Abundant step", feature = "abundant-step" },
-  { replaces = "Perfect self", feature = "perfect-self" },
-  { alters = "Bonus feats", feature = "bonus-feat" },
+  { replaces = "Monk's bonus feats at 1st level and at 6th level", feature = "bonus-feat", levels = [1, 6], by = ["feinting-flurry"] },
+  { replaces = "Still mind", feature = "still-mind", by = ["efreeti-s-guile"] },
+  { replaces = "Abundant step", feature = "abundant-step", by = ["confounding-koan"] },
+  { replaces = "Perfect self", feature = "perfect-self", by = ["genie-apotheosis"] },
+  { alters = "Bonus feats", feature = "bonus-feat", by = ["bonus-feat"] },
 ]
 +++
 
@@ -31,77 +38,69 @@ order to be admitted into the Monastery of Unblinking Flame and become one of th
 supplicant must prove his worth by outwitting an [efreeti](ref/monster/genie-efreeti). Those who
 succeed often become monks known as the brazen disciples.
 
-Brazen disciples believe that the best way to prepare for this test is to emulate the efreeti's own
-duplicitous ways. By studying genie contracts, brazen disciples learn how to take advantage of
-loopholes, and by pondering riddles, they learn how to obfuscate truth. They use deception in their
-fighting style, and many go a step further, incorporating fire and smoke both mundane and magical.
-Though most brazen disciples focus on joining the [Houses of Perfection](ref/rule/aff-monasteries),
-some become enamored with the efreet and instead seek out genie masters.
+Brazen disciples believe that the best way to prepare for this test is to emulate the
+[efreeti](ref/monster/genie-efreeti)'s own duplicitous ways. By studying genie contracts, brazen
+disciples learn how to take advantage of loopholes, and by pondering riddles, they learn how to
+obfuscate truth. They use deception in their fighting style, and many go a step further,
+incorporating fire and smoke both mundane and magical. Though most brazen disciples focus on joining
+the [Houses of Perfection](ref/rule/aff-monasteries), some become enamored with the efreet and
+instead seek out genie masters.
 
-**Gained class skills:** bluff, dis, kp
+## Class Skills {#class-skills}
 
-**Lost class skills:** kr, ride, swim
+A brazen disciple gains Bluff (Cha), Disguise (Cha), and Knowledge (planes) (Int) as class skills
+but loses Knowledge (religion), Ride, and Swim.
 
-**Feinting Flurry (Ex)**
+This alters the monk's class skills.
 
-**Ability:** When using _flurry of blows_ to make melee attacks, a brazen disciple can forgo his
-first attack to attempt a Bluff check to feint.
+## Feinting Flurry (Ex) {#feinting-flurry}
 
-**At 6th Level:** When a brazen disciple successfully feints, his opponent is denied its Dexterity
-bonus to AC until the end of the monk's turn.
+When using flurry of blows to make melee attacks, a brazen disciple can forgo his first attack to
+attempt a Bluff check to feint. At 6th level, when a brazen disciple successfully feints, his
+opponent is denied its Dexterity bonus to AC until the end of the monk's turn.
 
-**Replaces:** Bonus feats gained at 1st level and at 6th level
+This ability replaces the monk's bonus feats at 1st level and at 6th level.
 
-**Bonus Feats**
+## Bonus Feat {#bonus-feat}
 
-**Alters:** Bonus feats
-
-**At 10th Level:** The brazen disciple can also choose from the following feats:
-[Efreeti Stance](ref/feat/efreeti-stance), [Efreeti Touch](ref/feat/efreeti-touch),
-[Improved Critical](ref/feat/improved-critical), and [Spring Attack](ref/feat/spring-attack).
-
-**At 2nd Level:** At 2nd, 10th, 14th, and 18th levels, a brazen disciple can select a bonus feat.
-These feats must be chosen from the following list: [Catch Off-Guard](ref/feat/catch-off-guard),
+At 2nd, 10th, 14th, and 18th levels, a brazen disciple can select a bonus feat. These feats must be
+chosen from the following list: [Catch Off-Guard](ref/feat/catch-off-guard),
 [Combat Reflexes](ref/feat/combat-reflexes), [Deceitful](ref/feat/deceitful),
 [Dodge](ref/feat/dodge), [Elemental Fist](ref/feat/elemental-fist), and
-[Improved Initiative](ref/feat/improved-initiative).
+[Improved Initiative](ref/feat/improved-initiative). At 6th level, the brazen disciple can also
+choose from the following feats: [Efreeti Style](ref/feat/efreeti-style),
+[Improved Dirty Trick](ref/feat/improved-dirty-trick), [Improved Disarm](ref/feat/improved-disarm),
+[Improved Steal](ref/feat/improved-steal), [Improved Trip](ref/feat/improved-trip), and
+[Mobility](ref/feat/mobility). At 10th level, the brazen disciple can also choose from the following
+feats: [Efreeti Stance](ref/feat/efreeti-stance), [Efreeti Touch](ref/feat/efreeti-touch),
+[Improved Critical](ref/feat/improved-critical), and [Spring Attack](ref/feat/spring-attack). He
+need not meet the prerequisites normally required for these feats to select them.
 
-**At 6th Level:** The brazen disciple can also choose from the following feats:
-[Efreeti Style](ref/feat/efreeti-style), [Improved Dirty Trick](ref/feat/improved-dirty-trick),
-[Improved Disarm](ref/feat/improved-disarm), [Improved Steal](ref/feat/improved-steal),
-[Improved Trip](ref/feat/improved-trip), and [Mobility](ref/feat/mobility).
+This ability alters the monk's bonus feats.
 
-**Special:** He need not meet the prerequisites normally required for these feats to select them.
+## Efreeti's Guile (Ex) {#efreeti-s-guile}
 
-**Efreeti's Guile (Ex)**
-
-**Ability:** A brazen disciple can add his Wisdom modifier on Bluff and Disguise checks instead of
+At 3rd level, a brazen disciple can add his Wisdom modifier on Bluff and Disguise checks instead of
 his Charisma modifier.
 
-**Gained:** At 3rd Level
+This ability replaces still mind.
 
-**Replaces:** Still mind
+## Confounding Koan (Sp) {#confounding-koan}
 
-**Confounding Koan (Sp)**
+At 12th level, a brazen disciple can spend 2 ki points as a standard action to confuse a target
+within 30 feet with a riddle or paradox. This ability functions as per
+_[confusion](ref/spell/confusion)_, except that it is language-dependent. The DC is equal to 10 +
+half the monk's class level + his Wisdom modifier, and the caster level is equal to his class level.
 
-**Gained:** At 12th Level
+This ability replaces abundant step. (For the unchained monk from _Pathfinder Unchained_, this
+ability replaces the monk's ki ability gained at 12th level.)
 
-**Replaces:** Abundant step
+## Genie Apotheosis {#genie-apotheosis}
 
-**Standard:** A brazen disciple can spend 2 ki points to confuse a target within 30 feet with a
-riddle or paradox. This ability functions as per [confusion](ref/spell/confusion), except that it is
-language-dependent. The DC is equal to 10 + half the monk's class level + his Wisdom modifier, and
-the caster level is equal to his class level.
+At 20th level, a brazen disciple is treated as a native outsider with the fire subtype rather than
+as a humanoid (or whatever the monk's creature type was) for the purpose of spells and magical
+effects. He has immunity to fire and vulnerability to cold. Once per day, the brazen disciple can
+grant a [limited wish](ref/spell/limited-wish) (as per the spell _limited wish_) to a non-outsider
+as a [spell-like ability](ref/umr/spell-like-abilities) (CL 20th).
 
-**Genie Apotheosis**
-
-**Ability:** Once per day, the brazen disciple can grant a [limited wish](ref/spell/limited-wish) to
-a non-outsider as a [spell-like ability](ref/umr/spell-like-abilities) (CL 20th).
-
-**Gained:** At 20th Level
-
-**Passive:** A brazen disciple is treated as a native outsider with the fire subtype rather than as
-a humanoid (or whatever the monk's creature type was) for the purpose of spells and magical effects.
-He has immunity to fire and vulnerability to cold.
-
-**Replaces:** Perfect self
+This ability replaces perfect self.

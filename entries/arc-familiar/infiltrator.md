@@ -15,57 +15,62 @@ page = "20"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "alertness" },
+  { anchor = "share-spells" },
+  { anchor = "uncanny-stealth" },
+  { anchor = "scry-on-familiar", level = 7 },
+  { anchor = "telepathic-bond", level = 11 },
+]
 trades = [
-  { replaces = "Improved evasion" },
-  { replaces = "Speak with animals of its kind" },
-  { replaces = "Spell resistance" },
-  { alters = "Alertness" },
-  { alters = "Share spells" },
+  { replaces = "Improved evasion", by = ["uncanny-stealth"] },
+  { replaces = "Speak with animals of its kind", by = ["scry-on-familiar"] },
+  { replaces = "Spell resistance", by = ["telepathic-bond"] },
+  { alters = "Alertness", by = ["alertness"] },
+  { alters = "Share spells", by = ["share-spells"] },
 ]
 +++
 
 Familiars can be skilled spies, and infiltrators are the very best of their kind at the subtle art
 of espionage.
 
-**Gained class skills:** bluff, dis
+## Infiltrator Skills {#infiltrator-skills}
 
-**Alertness (Ex)**
+An infiltrator treats Bluff and Disguise as class skills.
 
-**Alters:** Alertness
+## Alertness (Ex) {#alertness}
 
-**Passive:** An infiltrator gains [Alertness](ref/feat/alertness) as a bonus feat rather than
-providing that feat to its master.
+An infiltrator gains [Alertness](ref/feat/alertness) as a bonus feat rather than providing that feat
+to its master.
 
-**Share Spells (Ex)**
+This alters alertness.
 
-**Alters:** Share spells
+## Share Spells (Ex) {#share-spells}
 
-**Passive:** An infiltrator can share only divination spells that have a target of "you" via this
-ability.
+An infiltrator can share only divination spells that have a target of "you" via this ability.
 
-**Uncanny Stealth (Ex)**
+This alters share spells.
 
-**Passive:** An infiltrator gains [uncanny dodge](ref/ability/uncanny-dodge) and
+## Uncanny Stealth (Ex) {#uncanny-stealth}
+
+An infiltrator gains [uncanny dodge](ref/ability/uncanny-dodge) and
 [improved uncanny dodge](ref/ability/improved-uncanny-dodge), treating its master's level as its
 effective [rogue](ref/class/rogue) level.
 
-**Replaces:** Improved evasion
+This replaces improved evasion.
 
-**Scry on Familiar (Sp)**
+## Scry on Familiar (Sp) {#scry-on-familiar}
 
-**Ability:** An infiltrator's master can [scry](ref/spell/scrying) on it for up to 1 minute per
+At 7th level, an infiltrator's master can [scry](ref/spell/scrying) on it for up to 1 minute per
 level per day. The duration does not need to be consecutive, but it must be used in 1-minute
 increments.
 
-**Gained:** At 7th Level
+This replaces speak with animals of its kind.
 
-**Replaces:** Speak with animals of its kind
+## Telepathic Bond (Sp) {#telepathic-bond}
 
-**Telepathic Bond (Sp)**
+At 11th level, an infiltrator gains a permanent [telepathic bond](ref/spell/telepathic-bond) with
+its master. This bond has no range limit as long as the familiar and its master are on the same
+plane.
 
-**Gained:** At 11th Level
-
-**Passive:** An infiltrator gains a permanent [telepathic bond](ref/spell/telepathic-bond) with its
-master. This bond has no range limit as long as the familiar and its master are on the same plane.
-
-**Replaces:** [Spell resistance](ref/rule/spell-resistance)
+This replaces [spell resistance](ref/rule/spell-resistance).

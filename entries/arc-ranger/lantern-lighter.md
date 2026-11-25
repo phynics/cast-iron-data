@@ -19,17 +19,29 @@ page = "42"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "daylight" },
+  { anchor = "enhanced-vision", level = 1 },
+  { anchor = "poison-resistance", level = 3 },
+  { anchor = "favored-terrain", level = 3 },
+  { anchor = "cavern-stride", level = 7 },
+  { anchor = "darkvision", level = 8 },
+  { anchor = "poison-immunity", level = 12 },
+  { anchor = "stunning-light", level = 13 },
+  { anchor = "camouflage", level = 17 },
+  { anchor = "paralyzing-light", level = 18 },
+]
 trades = [
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "Endurance", feature = "endurance" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "8th-level favored terrain", feature = "favored-terrain", levels = [8] },
-  { replaces = "Camouflage", feature = "camouflage" },
-  { replaces = "Favored terrain gained at 13th level", feature = "favored-terrain", levels = [13] },
-  { replaces = "Hide in plain sight", feature = "hide-in-plain-sight" },
-  { replaces = "Favored terrain gained at 18th level", feature = "favored-terrain", levels = [18] },
-  { alters = "Spells", feature = "spells" },
-  { alters = "Favored terrain", feature = "favored-terrain" },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["enhanced-vision"] },
+  { replaces = "Endurance", feature = "endurance", by = ["poison-resistance"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["cavern-stride"] },
+  { replaces = "Favored terrain gained at 8th level", feature = "favored-terrain", levels = [8], by = ["darkvision"] },
+  { replaces = "Camouflage", feature = "camouflage", by = ["poison-immunity"] },
+  { replaces = "Favored terrain gained at 13th level", feature = "favored-terrain", levels = [13], by = ["stunning-light"] },
+  { replaces = "Hide in plain sight", feature = "hide-in-plain-sight", by = ["camouflage"] },
+  { replaces = "Favored terrain gained at 18th level", feature = "favored-terrain", levels = [18], by = ["paralyzing-light"] },
+  { alters = "Spells", feature = "spells", by = ["daylight"] },
+  { alters = "Favored terrain", feature = "favored-terrain", by = ["favored-terrain"] },
 ]
 +++
 
@@ -50,97 +62,76 @@ ranks. As their efforts to spread the light to other regions beyond Kyonin grow,
 other races are beginning to round out the order's numbers, particularly in areas and regions that
 suffer under oppressive regimes.
 
-**Daylight**
+## Daylight {#daylight}
 
-**Ability:** A lantern lighter treats [daylight](ref/spell/daylight) as a 3rd-level ranger spell.
+A lantern lighter treats _[daylight](ref/spell/daylight)_ as a 3rd-level ranger spell.
 
-**Alters:** Spells
+This ability alters the ranger's spells.
 
-**Enhanced Vision (Ex)**
+## Enhanced Vision (Ex) {#enhanced-vision}
 
-**Ability:** He gains [low-light vision](ref/rule/low-light-vision). If the lantern lighter already
-has low-light vision, he can instead see three times as far as humans in areas of dim light.
+A lantern lighter hones his senses to better combat subterranean enemies. He gains
+[low-light vision](ref/rule/low-light-vision). If the lantern lighter already has low-light vision,
+he can instead see three times as far as humans in areas of dim light.
 
-**Flavor:** A lantern lighter hones his senses to better combat subterranean enemies.
+This ability replaces wild empathy.
 
-**Replaces:** Wild empathy
+## Poison Resistance (Ex) {#poison-resistance}
 
-**Poison Resistance (Ex)**
+At 3rd level, a lantern lighter gains a +4 bonus on saving throws against poison.
 
-**Gained:** At 3rd Level
+This ability replaces endurance.
 
-**Passive:** A lantern lighter gains a +4 bonus on saving throws against poison.
+## Favored Terrain (Ex) {#favored-terrain}
 
-**Replaces:** Endurance
+At 3rd level, a lantern lighter selects a favored terrain as normal. The skill bonus and initiative
+bonus granted in this favored terrain increase by 2 at 8th level and every 5 ranger levels
+thereafter.
 
-**Favored Terrain (Ex)**
+This ability alters favored terrain.
 
-**Ability:** A lantern lighter selects a _favored terrain_ as normal.
+## Cavern Stride (Ex) {#cavern-stride}
 
-**Alters:** Favored terrain
-
-**Gained:** At 3rd Level
-
-**Repeat:** The skill bonus and initiative bonus granted in this _favored terrain_ increase by 2.,
-8, 5
-
-**Cavern Stride (Ex)**
-
-**Ability:** A lantern lighter's movement is unimpeded by nonmagical
+At 7th level, a lantern lighter's movement is unimpeded by nonmagical
 [difficult terrain](ref/rule/terrain-and-obstacles) underground and nonmagical webs.
 
-**Gained:** At 7th Level
+This ability replaces woodland stride.
 
-**Replaces:** Woodland stride
+## Darkvision (Ex) {#darkvision}
 
-**Darkvision (Ex)**
-
-**Ability:** A lantern lighter's senses fully attune to the darkness, granting him
+At 8th level, a lantern lighter's senses fully attune to the darkness, granting him
 [darkvision](ref/rule/darkvision) to a distance of 60 feet. If the lantern lighter already has
 darkvision, its range increases by 30 feet.
 
-**Gained:** At 8th Level
+This replaces the favored terrain gained at 8th level.
 
-**Replaces:** 8th-level favored terrain
+## Poison Immunity (Ex) {#poison-immunity}
 
-**Poison Immunity (Ex)**
+At 12th level, a lantern lighter gains immunity to poison.
 
-**Gained:** At 12th Level
+This ability replaces camouflage.
 
-**Passive:** A lantern lighter gains immunity to poison.
+## Stunning Light (Su) {#stunning-light}
 
-**Replaces:** Camouflage
+At 13th level, a lantern lighter learns to increase the effectiveness of bright light on creatures
+with [light blindness](ref/umr/light-blindness). _[Daylight](ref/spell/daylight)_ spells cast by the
+lantern lighter or other sources of bright light he wields cause creatures with light blindness
+within the area of bright light to become [stunned](ref/misc/stunned) for 1 round in addition to
+being blinded.
 
-**Stunning Light (Su)**
+This ability replaces the favored terrain gained at 13th level.
 
-**Ability:** _[Daylight](ref/spell/daylight)_ spells cast by the lantern lighter or other sources of
-bright light he wields cause creatures with [light blindness](ref/umr/light-blindness) within the
-area of bright light to become [stunned](ref/misc/stunned) for 1 round in addition to being blinded.
+## Camouflage (Ex) {#camouflage}
 
-**Flavor:** A lantern lighter learns to increase the effectiveness of bright light on creatures with
-light blindness.
+At 17th level, a lantern lighter gains camouflage, as the ranger class feature.
 
-**Gained:** At 13th Level
+This ability replaces hide in plain sight.
 
-**Replaces:** Favored terrain gained at 13th level
+## Paralyzing Light (Su) {#paralyzing-light}
 
-**Camouflage (Ex)**
-
-**Ability:** A lantern lighter gains _camouflage,_ as the ranger class feature.
-
-**Gained:** At 17th Level
-
-**Replaces:** Hide in plain sight
-
-**Paralyzing Light (Su)**
-
-**Ability:** _[Daylight](ref/spell/daylight)_ spells cast by the lantern lighter or sources of
+At 18th level, a lantern lighter can stop light-blind enemies in their tracks, often gaining a great
+edge in battle. _[Daylight](ref/spell/daylight)_ spells cast by the lantern lighter or sources of
 bright light wielded by him cause creatures with light blindness within the area of bright light to
 become [paralyzed](ref/rule/paralyzed) for 1 round in addition to being blinded and stunned.
 
-**Flavor:** A lantern lighter can stop light-blind enemies in their tracks, often gaining a great
-edge in battle.
-
-**Gained:** At 18th Level
-
-**Replaces:** Favored terrain gained at 18th level
+This ability replaces the favored terrain gained at 18th level.

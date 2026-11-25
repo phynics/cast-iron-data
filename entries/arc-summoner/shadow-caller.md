@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "shadow-summoning" },
   { anchor = "shadow-eidolon" },
-  { anchor = "shadow-form" },
 ]
 trades = [
   { replaces = "Magical symbol that identifies the summoner and his eidolon", by = ["shadow-eidolon"] },
@@ -85,13 +84,21 @@ manifested, he and the eidolon do not have distinct shadows, regardless of the p
 of light. This lack of a shadow replaces the magical symbol that identifies the summoner and his
 eidolon.
 
-This ability alters the summoner's eidolon ability. The following evolutions are available to all
-summoners. 2-Point Evolutions Shadow Blend (Su): In any condition of illumination other than bright
-light, the eidolon disappears into the shadows, giving it concealment (20% miss chance). If it has
-the shadow form evolution, it instead gains total concealment (50% miss chance). The eidolon can
-suspend or resume this ability as a free action.
+This ability alters the summoner's eidolon ability.
 
-## Shadow Form (Su) {#shadow-form}
+## New Evolutions {#new-evolutions}
+
+The following evolutions are available to all summoners.
+
+### 2-Point Evolutions {#2-point-evolutions}
+
+#### Shadow Blend (Su) {#shadow-blend}
+
+In any condition of illumination other than bright light, the eidolon disappears into the shadows,
+giving it concealment (20% miss chance). If it has the shadow form evolution, it instead gains total
+concealment (50% miss chance). The eidolon can suspend or resume this ability as a free action.
+
+#### Shadow Form (Su) {#shadow-form}
 
 The eidolon's body becomes shadowy and more indistinct. This shadow form grants the eidolon constant
 concealment (20% miss chance), and its melee attacks affect incorporeal creatures as if it had the

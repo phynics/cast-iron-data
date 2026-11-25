@@ -15,57 +15,59 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bond-forged-in-blood" },
+  { anchor = "increased-strength", level = 3 },
+  { anchor = "battle-form", level = 3 },
+  { anchor = "damage-reduction", level = 11 },
+]
 trades = [
-  { replaces = "Speak with master" },
-  { replaces = "speak with animals of its kind" },
-  { replaces = "Deliver touch spells" },
-  { replaces = "Spell resistance" },
-  { alters = "The familiar's Intelligence score advancement" },
+  { replaces = "Speak with master", by = ["bond-forged-in-blood"] },
+  { replaces = "speak with animals of its kind", by = ["bond-forged-in-blood"] },
+  { replaces = "Deliver touch spells", by = ["battle-form"] },
+  { replaces = "Spell resistance", by = ["damage-reduction"] },
+  { alters = "The familiar's Intelligence score advancement", by = ["increased-strength"] },
 ]
 +++
 
 While most familiars are scouts and assistants, the mauler familiar cares only for the thrill of
 battle. A mauler often serves a bloodthirsty or martial-minded master.
 
-**Gained class skills:** intm
+## Mauler Skills {#mauler-skills}
 
-**Bond Forged in Blood (Su)**
+A mauler treats Intimidate as a class skill.
 
-**At 1st Level:** A mauler can't speak or communicate via language in any way, even if it's a type
-of creature that normally could.
+## Bond Forged in Blood (Su) {#bond-forged-in-blood}
 
-**At 5th Level:** Whenever the mauler's master drops a foe whose Hit Dice are at least half its
-level to below 0 hit points, the mauler's empathic link surges with power, granting both the mauler
-and its master a +2 morale bonus on attack and damage rolls for 1 round.
+A mauler isn't impressed by fancy words—only furious battle. A mauler can't speak or communicate via
+language in any way, even if it's a type of creature that normally could.
 
-**Replaces:** Speak with master, speak with animals of its kind
+At 5th level, whenever the mauler's master drops a foe whose Hit Dice are at least half its level to
+below 0 hit points, the mauler's empathic link surges with power, granting both the mauler and its
+master a +2 morale bonus on attack and damage rolls for 1 round.
 
-**Increased Strength (Ex)**
+This replaces speak with master and speak with animals of its kind.
 
-**Alters:** The familiar's Intelligence score advancement
+## Increased Strength (Ex) {#increased-strength}
 
-**Passive:** Starting at 3rd level, a mauler's Strength score increases by 1 at every odd-numbered
-level (3rd, 5th, 7th, 9th, and so on). The familiar's Intelligence score remains 6; a mauler can
-never have an Intelligence score higher than 6.
+At 3rd level and every 2 levels thereafter, a mauler's Strength score increases by 1. As a result of
+this ability, the familiar's Intelligence score remains 6; a mauler can never have an Intelligence
+score higher than 6.
 
-**Battle Form (Su)**
+This alters the familiar's Intelligence score advancement.
 
-**Gained:** At 3rd Level
+## Battle Form (Su) {#battle-form}
 
-**Replaces:** Deliver touch spells
+At 3rd level, a mauler gains the ability to transform into a larger, more ferocious form and back as
+a standard action three times per day. In battle form, the mauler's size becomes Medium and it gains
+a +2 size bonus to its Strength score. Since many familiars are Tiny or Diminutive, be sure to check
+for any additional Strength and Dexterity adjustments for increasing in size from Tiny or Diminutive
+to Medium. This is a polymorph effect.
 
-**Special:** In battle form, the mauler's size becomes Medium and it gains a +2 size bonus to its
-Strength score. Since many familiars are Tiny or Diminutive, be sure to check for any additional
-Strength and Dexterity adjustments for increasing in size from Tiny or Diminutive to Medium (using
-the [polymorph table](ref/spelldef/polymorph)). This is a polymorph effect.
+This replaces deliver touch spells.
 
-**Standard:** A mauler gains the ability to transform into a larger, more ferocious form and back
-three times per day.
+## Damage Reduction (Su) {#damage-reduction}
 
-**Damage Reduction (Su)**
+At 11th level, a mauler gains DR 5/magic.
 
-**Gained:** At 11th Level
-
-**Passive:** A mauler gains DR 5/magic.
-
-**Replaces:** [Spell resistance](ref/rule/spell-resistance)
+This replaces [spell resistance](ref/rule/spell-resistance).

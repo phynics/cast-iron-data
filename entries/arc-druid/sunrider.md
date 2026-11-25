@@ -16,13 +16,20 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "nature-bond" },
+  { anchor = "born-to-the-saddle", level = 2 },
+  { anchor = "mounted-advantage", level = 3 },
+  { anchor = "desert-born" },
+  { anchor = "concerted-effort", level = 4 },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "Wild shape", feature = "wild-shape" },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["born-to-the-saddle"] },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["mounted-advantage"] },
+  { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["desert-born"] },
+  { replaces = "Wild shape", feature = "wild-shape", by = ["concerted-effort"] },
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { alters = "Nature bond", feature = "nature-bond" },
+  { alters = "Nature bond", feature = "nature-bond", by = ["nature-bond"] },
 ]
 +++
 
@@ -34,89 +41,66 @@ upon invaders. Sunriders almost never leave their tribal homelands; those found 
 are usually either exiles or emissaries sent to deal with issues that can't be addressed from their
 holds.
 
-**Gained class skills:** kl
+## Class Skills {#class-skills}
 
-**Lost class skills:** prof
+A sunrider gains Knowledge (local) as a class skill, but does not gain Profession as a class skill.
 
-**Weapon and Armor Proficiencies**
+This alters the druid's class skills.
 
-**Ability:** A sunrider gains proficiency with the [shortbow](ref/eq-weapon/shortbow), but not with
-the scythe, sickle, or quarterstaff.
+## Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
-**Alters:** Weapon and armor proficiencies
+A sunrider gains proficiency with the [shortbow](ref/eq-weapon/shortbow), but not with the scythe,
+sickle, or quarterstaff.
 
-**Nature Bond (Ex)**
+This alters the druid's weapon and armor proficiencies.
 
-**Alters:** Nature bond
+## Nature Bond (Ex) {#nature-bond}
 
-**Choice:** A sunrider must use this ability to bond with a [horse](ref/companion/horse) or a
+A sunrider must use this ability to bond with a [horse](ref/companion/horse) or a
 [pony](ref/companion/pony) as an animal companion; she cannot choose a different animal or choose a
 domain instead of an animal companion.
 
-**Born to the Saddle (Ex)**
+This alters nature bond.
 
-**Gained:** At 2nd Level
+## Born to the Saddle (Ex) {#born-to-the-saddle}
 
-**Passive:** While wearing light or no armor, a sunrider does not need to attempt Ride checks for
+At 2nd level, while wearing light or no armor, a sunrider does not need to attempt Ride checks for
 any task listed in the Ride skill with a DC of 15 or lower. She does not take an armor check penalty
 on Ride checks while riding her mount.
 
-**Replaces:** Woodland stride
+This ability replaces woodland stride.
 
-**Mounted Advantage (Su)**
+## Mounted Advantage (Su) {#mounted-advantage}
 
-**Gained:** At 3rd Level
-
-**Passive:** Any allied mount within 30 feet of a sunrider can ignore the effects of rocky or sandy
+At 3rd level, any allied mount within 30 feet of a sunrider can ignore the effects of rocky or sandy
 [difficult terrain](ref/rule/terrain-and-obstacles).
 
-**Replaces:** Trackless step
+This ability replaces trackless step.
 
-**Desert Born (Ex)**
+## Desert Born (Ex) {#desert-born}
 
-**Flavor:** A sunrider is at home in the desert.
+A sunrider is at home in the desert. At 4th level, she gains a +2 bonus on initiative checks and on
+Knowledge (geography), Perception, Stealth, and Survival checks while she is in desert terrain.
+Mounted allies traveling with her likewise gain a +1 bonus on initiative checks and Perception and
+Survival checks while in desert terrain, as long as they are within 30 feet of the sunrider.
 
-**Gained:** At 4th Level
+This ability replaces resist nature's lure.
 
-**Passive:** She gains a +2 bonus on initiative checks and on Knowledge (geography), Perception,
-Stealth, and Survival checks while she is in desert terrain. Mounted allies traveling with her
-likewise gain a +1 bonus on initiative checks and Perception and Survival checks while in desert
-terrain, as long as they are within 30 feet of the sunrider.
+## Concerted Effort (Ex) {#concerted-effort}
 
-**Replaces:** Resist nature's lure
+At 4th level, a sunrider can extend the bond she shares with her horse to other nearby mounted
+companions, forming them into a fighting force that seems to share a single mind. Allied mounts
+within 60 feet of the sunrider gain [evasion](ref/ability/evasion) as per the
+[animal companion](ref/sidekick/animal-companion) special ability. At 6th level, the range expands
+to 90 feet and allied mounts gain a +10-foot enhancement bonus to their speed. At 8th level, the
+range expands to 120 feet and allied mounts gain devotion as per the animal companion special
+ability. At 10th level, allied mounts gain multiattack as per the animal companion special ability.
+At 12th level, allied mounts gain a +2 bonus on saving throws. At 14th level, allied mounts gain a
++20-foot enhancement bonus to their speed. At 16th level, allied mounts gain
+[improved evasion](ref/ability/improved-evasion) as per the animal companion special ability. At
+18th level, allied mounts gain a +2 dodge bonus to their Armor Class and a +2 bonus on attack rolls.
+At 20th level, allied mounts gain DR 5/— and energy resistance 10 to acid, cold, electricity, fire,
+and sonic damage. These abilities function only while allied mounts are within range of the sunrider
+(her own mount always counts as an ally).
 
-**Concerted Effort (Ex)**
-
-**Flavor:** A sunrider can extend the bond she shares with her horse to other nearby mounted
-companions, forming them into a fighting force that seems to share a single mind.
-
-**At 10th Level:** Allied mounts gain _multiattack_ as per the animal companion special ability.
-
-**At 12th Level:** Allied mounts gain a +2 bonus on saving throws.
-
-**At 14th Level:** Allied mounts gain a +20-foot enhancement bonus to their speed.
-
-**At 16th Level:** Allied mounts gain [improved evasion](ref/ability/improved-evasion) as per the
-animal companion special ability.
-
-**At 18th Level:** Allied mounts gain a dodge bonus to their Armor Class and a +2 bonus on attack
-rolls.
-
-**At 20th Level:** Allied mounts gain DR 5/- and energy resistance 10 to acid, cold, electricity,
-fire, and sonic damage.
-
-**At 6th Level:** The range expands to 90 feet and allied mounts gain a +10-foot enhancement bonus
-to their speed.
-
-**At 8th Level:** The range expands to 120 feet and allied mounts gain _devotion_ as per the animal
-companion special ability.
-
-**Gained:** At 4th Level
-
-**Passive:** Allied mounts within 60 feet of the sunrider gain [evasion](ref/ability/evasion) as per
-the [animal companion](ref/sidekick/animal-companion) special ability.
-
-**Replaces:** Wild shape
-
-**Special:** These abilities function only while allied mounts are within range of the sunrider (her
-own mount always counts as an ally).
+This ability replaces wild shape.
