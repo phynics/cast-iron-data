@@ -1,0 +1,11 @@
+# Book memberships that stay without a `[[sources]]` row on purpose (phynics/cast-iron#461).
+# `cargo xtask corpus-check` allows the pairs named here and fails on any other book in an entry's
+# `source_ids` (after the first) that no `[[sources]]` row cites. The list only shrinks: remove a
+# row when the book gets its row or leaves `source_ids`; a row that is no longer needed is an
+# error. Each row needs a reason and the issue that decides it (`owner/repo#number`).
+
+[[exception]]
+entry = "ref/rule/gamemastery"
+book = "game-mastery-guide"
+reason = "Gamemastery is in the GameMastery Guide, but print has not settled its home book (post-v1); the membership stays until the home-book question is ruled."
+issue = "phynics/cast-iron-data#277"
