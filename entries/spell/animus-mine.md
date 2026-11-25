@@ -17,7 +17,7 @@ school = "abjuration"
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Mesmerist", level = 2 },
-  { class = "Psychic", level = 2 },
+  { class = "Psychic", level = 3 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -33,7 +33,8 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 2: Mesmerist, Psychic
+Level: 2: Mesmerist\
+3: Psychic
 Casting time: 1 standard action
 Components: V, S
 Range: personal

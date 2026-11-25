@@ -35,7 +35,7 @@ range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
   { label = "Area", value = "several living creatures, no two of which may be more than 30 ft. apart" },
 ]
-duration = "2d4 rounds (D)"
+duration = "10 minutes/level (D)"
 saving_throw = "Will negates"
 spell_resistance = "yes"
 +++
@@ -48,7 +48,7 @@ Casting time: 1 round
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
 Area: several living creatures, no two of which may be more than 30 ft. apart
-Duration: 2d4 rounds (D)
+Duration: 10 minutes/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Subschool: Compulsion

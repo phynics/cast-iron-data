@@ -27,7 +27,7 @@ levels = [
   { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M/DF (pinch of powdered iron or iron fillings)"
+components = "V, S, M/DF (pinch of powdered iron or iron filings)"
 range = "10 ft."
 effects = [
   { label = "Area", value = "10-ft.-radius emanation, centered on you" },
@@ -44,7 +44,7 @@ Level: 6: Arcanist, Occultist, Sorcerer, Wizard\
 7: Psychic\
 8: Cleric, Oracle
 Casting time: 1 standard action
-Components: V, S, M/DF (pinch of powdered iron or iron fillings)
+Components: V, S, M/DF (pinch of powdered iron or iron filings)
 Range: 10 ft.
 Duration: 10 minutes/level (D)
 Saving throw: none

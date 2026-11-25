@@ -9,7 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-race-guide"
-page = "126"
+page = "125"
 
 [fields]
 kind = "spell"

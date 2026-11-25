@@ -19,9 +19,10 @@ levels = [
   { class = "Bard", level = 2 },
   { class = "Cleric", level = 3 },
   { class = "Investigator", level = 2 },
+  { class = "Mesmerist", level = 3 },
   { class = "Oracle", level = 3 },
   { class = "Shaman", level = 3 },
-  { class = "Skald", level = 2 },
+  { class = "Skald", level = 3 },
   { class = "Warpriest", level = 3 },
 ]
 casting_time = "1 standard action"
@@ -38,8 +39,8 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Alchemist, Bard, Investigator, Skald\
-3: Cleric, Oracle, Shaman, Warpriest
+Level: 2: Alchemist, Bard, Investigator\
+3: Cleric, Mesmerist, Oracle, Shaman, Skald, Warpriest
 Casting time: 1 standard action
 Components: V, S
 Range: touch
