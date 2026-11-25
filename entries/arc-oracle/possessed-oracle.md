@@ -16,49 +16,39 @@ page = "59"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "oracle-s-curse" },
+  { anchor = "two-minds" },
+]
 trades = [
-  { replaces = "The bonus spells gained at 1st, 4th, 6th, 8th, 10th, 12th, and 16th levels from the oracle's mystery" },
+  { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [1, 4, 6, 8, 10, 12, 16], power = "bonus spells" },
 ]
 +++
 
 Some oracles are possessed by spirits, demons, or similar beings. Instead of the possessed oracle
 drawing her powers from deities, these otherworldly forces work their magic through her.
 
-**Recommended Mysteries:** Any.
+## Recommended Mysteries {#recommended-mysteries}
 
-**Oracle's Curse**
+Any.
 
-**Info:** A possessed oracle must choose the [haunted](ref/oraclecurse/haunted),
-[pranked](ref/oraclecurse/pranked), or [tongues](ref/oraclecurse/tongues) curse at 1st level.
+## Oracle's Curse {#oracle-s-curse}
 
-**Bonus Spells**
+A possessed oracle must choose the [haunted](ref/oraclecurse/haunted) or
+[tongues](ref/oraclecurse/tongues) curse at 1st level.
 
-**Info:** The oracle gains these bonus spells at the listed levels.
+## Bonus Spells {#bonus-spells}
 
-**Replaces:** The bonus spells gained at 1st, 4th, 6th, 8th, 10th, 12th, and 16th levels from the
-oracle's mystery
+_ventriloquism_ (1st), _spider climb_ (4th), _screech_ (6th), _sleepwalk_ (8th), _telekinesis_
+(10th), _animate objects_ (12th), _divine vessel_ (16th). These bonus spells replace the oracle's
+normal mystery bonus spells at these levels.
 
-**Spells:** Ventriloquism\|^1-2^
+## Revelations {#revelations}
 
-**Spells:** Telekinesis
+A possessed oracle must take the following revelation at 1st level.
 
-**Spells:** Animate objects
+## Two Minds (Su) {#two-minds}
 
-**Spells:** Divine vessel
-
-**Spells:** Spider climb
-
-**Spells:** Screech
-
-**Spells:** Sleepwalk
-
-**Revelations**
-
-**At 1st Level:** A possessed oracle must take the following revelation.
-
-**Two Minds (Su)**
-
-**At 7th Level:** You may reroll a failed Will save once per day as an **immediate action**. You
-must take the second result, even if it is worse.
-
-**Passive:** You gain a +2 bonus on Will saves against enchantment spells or effects.
+You gain a +2 bonus on Will saves against enchantment spells or effects. At 7th level, you may
+reroll a failed Will save once per day as an immediate action. You must take the second result, even
+if it is worse.
