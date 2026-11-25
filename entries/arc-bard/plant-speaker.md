@@ -64,3 +64,27 @@ of bardic performance to gain the effects of _[legend lore](ref/spell/legend-lor
 information is always vague and incomplete.
 
 This replaces lore master.
+
+## Leshy Subdomain {#leshy-subdomain}
+
+You have a strong connection to these little manifestations of nature spirits.
+
+**Associated Domain:** Plant.
+
+**Associated Religions:** Gozreh, Green Faith.
+
+**Replacement Power:** The following granted power replaces the wooden fist power of the Plant
+domain.
+
+**Leshy Caller (Sp):** You can spontaneously swap out any of your domain spells for a summon
+nature's ally spell of the same level or lower, to a maximum of _summon nature's ally VII_. If you
+do, you must use the spell to summon one or more leshys. Add leaf leshy, gourd leshy, fungus leshy,
+seaweed leshy, and lotus leshy to your _summon nature's ally I_, _II_, _III_, _IV_, and _V_ lists,
+respectively. You count as a plant creature for the purpose of creating leshys (_Pathfinder RPG
+Bestiary 3_ 176).
+
+As a standard action, you can grant a single leshy within 30 feet a +4 sacred bonus on its next
+attack roll before the start of your next turn. You can use this ability a number of times per day
+equal to 3 + your Wisdom modifier.
+
+**Replacement Domain Spells:** 1st—_tree shape_, 5th—_commune with nature_.

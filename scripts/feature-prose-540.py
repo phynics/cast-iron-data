@@ -985,7 +985,10 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
         ops = [verb.group(1)] + [re.match(clause + r"(replaces?|alters?)", x, re.I).group(1) for x in parts[1:]]
         for op_word, part in zip(ops, parts):
             part = re.sub(r"^" + clause + r"(?:replaces?|alters?)\b", "", part.strip(), flags=re.I)
-            out.append((_op_of(op_word), _clean_phrase(part), bare))
+            ph = _clean_phrase(part)
+            if re.search(r"\bas indicated below$", ph, re.I):      # owner ruling 40: a cross-reference, like "(see ...)"; it stores no trade
+                continue
+            out.append((_op_of(op_word), ph, bare))
     return out
 
 
@@ -3514,6 +3517,10 @@ def self_test() -> int:
        [("replaces", "alchemy and Throw Anything", False)], "R18 an aside inside the phrase")
     eq(trade_asides("This ability replaces alchemy (which also includes bombs, extracts, and mutagen) and Throw Anything."),
        [("replaces", "which also includes bombs, extracts, and mutagen")], "R18 the aside states the same-op trades")
+    eq(trade_sentences("This ability alters hunter's bond and replaces specific ranger abilities as indicated below."),
+       [("alters", "hunter's bond", False)], "ruling 40: 'as indicated below' is a cross-reference, no trade")
+    eq(trade_sentences("This ability replaces specific ranger abilities as indicated below."), [], "ruling 40: alone, it names no trade")
+    eq(trade_sentences("This ability replaces woodland stride as indicated by the table."), [("replaces", "woodland stride as indicated by the table", False)], "ruling 40: only 'as indicated below'")
     eq(trade_sentences("This ability functions like alter self, except as noted here. This ability alters alchemy."),
        [("alters", "alchemy", False)], "R19 'alter self' is the spell")
     eq(trade_sentences("This ability functions as alter self, beast shape IV, or giant form II, as appropriate."), [], "R19 no verb at all")

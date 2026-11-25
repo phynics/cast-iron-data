@@ -3,7 +3,7 @@
 
 [[entry]]
 id = "ref/arc-ranger/raven-master"
-hold = "Raven Companion (Ex): the sentence \"This ability replaces specific ranger abilities as indicated below\" names no trade"
+hold = "checker: [fields] trades = \"alters: Hunter's bond\" disagrees with the trade sentences of the feature `raven-companion` = \"alters: hunter's bond; replaces: specific ranger abilities as indicated below\" (line 63)"
 opening_from_print = true
 opening = ["While the [Silver Ravens](ref/rule/aff-rebels) adopted their name as a way to honor the group of adventurers who defended Kintargo during the Chelish Civil War, some Silver Ravens have gone even farther, breeding and training actual ravens to serve both as living symbols of the organization and as fearsome weapons against House Thrune and its diabolic servants. These rangers, known as raven masters, eschew a ranger's usual connection to the natural world to form a mystic bond with their birds and to grant both animal and master a number of specialized abilities. Over time, the feathers of these raven companions take on a silvery sheen, causing them to resemble the birds produced by the _figurines of wondrous power_, which served as the original Silver Ravens' namesake.", "Raven masters serve as messengers and spies for the [Silver Ravens](ref/rule/aff-rebels), using their ravens to scout the border between Ravounel and Cheliax and report any suspicious Thrune troop movements. Outside of Cheliax, raven companions alight on the rooftops and window ledges of palaces and keeps to eavesdrop on tyrants and dictators, feeding these precious secrets to the raven master so that she can more efficiently foment and organize rebellion."]
 
