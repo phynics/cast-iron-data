@@ -17,7 +17,7 @@ page = "359"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Psychic", level = 7 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one touched object of up to 50 lbs./level and 3 cu. ft./level
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell functions like [teleport](ref/spell/teleport), except that it teleports an object, not

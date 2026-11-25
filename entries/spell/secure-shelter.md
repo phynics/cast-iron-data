@@ -14,7 +14,7 @@ page = "338"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 4 },
@@ -45,7 +45,7 @@ Duration: 2 hours/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: 20-ft.-square structure
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure a sturdy cottage or lodge made of material that is common in the area where the spell is

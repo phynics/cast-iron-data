@@ -14,7 +14,7 @@ page = "272"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Nature wardens are guardians of the wild places of the world, hunters and explorers par excellence,
@@ -59,7 +59,7 @@ The Nature Warden's class skills are [Climb](ref/skill/climb) (Str),
 [Survival](ref/skill/survival) (Wis), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

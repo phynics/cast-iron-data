@@ -14,7 +14,7 @@ page = "262"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["water"]
 levels = [
   { class = "Adept", level = 0 },
@@ -51,7 +51,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: up to 2 gallons of water/level
-Subschool: Creation
+Subschool: creation
 Descriptors: water
 :::
 

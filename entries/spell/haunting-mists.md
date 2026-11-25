@@ -14,7 +14,7 @@ page = "222"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 descriptors = ["fear", "shadow"]
 levels = [
   { class = "Arcanist", level = 2 },
@@ -49,7 +49,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will partial (see text)
 Spell resistance: no
 Effect: cloud spreads in 20-ft. radius, 20 ft. high
-Subschool: Figment
+Subschool: figment
 Descriptors: fear, shadow
 :::
 

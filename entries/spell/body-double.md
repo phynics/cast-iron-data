@@ -14,8 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bloodrager", level = 2 },
@@ -47,8 +46,7 @@ Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
 Target: two creatures; see text
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 Upon casting this spell, choose a primary target and a secondary target, both of which must be

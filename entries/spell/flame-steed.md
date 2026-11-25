@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Bloodrager", level = 3 },
   { class = "Cleric", level = 4 },
@@ -52,7 +52,7 @@ Duration: 1 hour/level (D)
 Saving throw: none, see text
 Spell resistance: no
 Effect: one quasi-real creature suitable for a mount
-Subschool: Creation
+Subschool: creation
 :::
 
 ### Flame Steed

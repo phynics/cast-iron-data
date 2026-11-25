@@ -17,7 +17,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bloodrager", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Area: 20-ft.-radius spread
-Subschool: Creation
+Subschool: creation
 :::
 
 ### Grasping Tentacles

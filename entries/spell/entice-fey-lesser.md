@@ -17,7 +17,7 @@ page = "213"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 levels = [
   { class = "Bard", level = 4 },
   { class = "Druid", level = 5 },
@@ -51,7 +51,7 @@ Effect: one called fey, with 6 Hit Dice or fewer
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Subschool: Calling
+Subschool: calling
 :::
 
 This spell functions as [lesser planar ally](ref/spell/planar-ally-lesser), except that you entice a

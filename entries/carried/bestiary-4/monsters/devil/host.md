@@ -14,8 +14,8 @@ kind = "creature"
 cr = "6"
 creature_type = "outsider"
 subtypes = ["devil", "evil", "extraplanar", "lawful"]
-size = "Medium"
-alignment = "LE"
+size = "medium"
+alignment = "lawful evil"
 ac = "23, touch 15, flat-footed 18 (+4 Dex, +1 dodge, +8 natural)"
 hp = "59 (7d10+21)"
 fortitude = "+8"
@@ -30,8 +30,8 @@ abilities = ["18", "19", "16", "10", "12", "11"]
 ::: statblock
 CR: 6
 XP: 2,400
-Alignment: LE
-Size: Medium
+Alignment: lawful evil
+Size: medium
 Type: Outsider (devil, evil, extraplanar, lawful)
 Init: +4
 Senses: [darkvision](ref/rule/darkvision) 60 ft., detect magic, see in darkness; Perception +11

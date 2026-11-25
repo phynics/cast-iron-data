@@ -15,8 +15,8 @@ kind = "creature"
 cr = "9"
 creature_type = "undead"
 subtypes = ["augmented humanoid"]
-size = "Medium"
-alignment = "CE"
+size = "medium"
+alignment = "chaotic evil"
 ac = "23, touch 17, flat-footed 18 (+2 deflection, +4 Dex, +1 dodge, +6 natural)"
 hp = "102 (8d6+72); fast healing 5"
 fortitude = "+13"
@@ -31,8 +31,8 @@ abilities = ["16", "18", "-", "14", "16", "26"]
 ::: statblock
 CR: 9
 XP: 6,400
-Alignment: CE
-Size: Medium
+Alignment: chaotic evil
+Size: medium
 Type: Undead (augmented humanoid)
 Race: human
 Sex: female

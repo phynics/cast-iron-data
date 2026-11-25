@@ -20,7 +20,7 @@ page = "12"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Bard", level = 6 },
@@ -53,7 +53,7 @@ Range: close (25 ft. + 5 ft./2 levels)
 Duration: 1 round/level; see text
 Saving throw: none
 Spell resistance: no
-Subschool: Creation
+Subschool: creation
 :::
 
 ### Fey Gate

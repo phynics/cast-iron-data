@@ -15,8 +15,8 @@ kind = "creature"
 cr = "4"
 creature_type = "humanoid"
 subtypes = ["human", "shapechanger"]
-size = "Medium"
-alignment = "LG"
+size = "medium"
+alignment = "lawful good"
 ac = "16, touch 12, flat-footed 14 (+4 armor, +2 Dex)"
 hp = "34 (4d10+8)"
 fortitude = "+5"
@@ -32,8 +32,8 @@ abilities = ["16", "14", "13", "12", "12", "8"]
 ::: statblock
 CR: 4
 XP: 1,200
-Alignment: LG
-Size: Medium
+Alignment: lawful good
+Size: medium
 Type: Humanoid (human, shapechanger)
 Race: human natural
 Class Levels: ranger 4

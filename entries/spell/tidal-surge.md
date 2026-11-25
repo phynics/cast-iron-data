@@ -14,7 +14,7 @@ page = "237"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["water"]
 levels = [
   { class = "Druid", level = 5 },
@@ -43,7 +43,7 @@ Duration: instantaneous
 Saving throw: Reflex half
 Spell resistance: no
 Area: cone-shaped burst or line; see text
-Subschool: Creation
+Subschool: creation
 Descriptors: water
 :::
 

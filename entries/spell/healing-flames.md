@@ -14,7 +14,7 @@ page = "8"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["fire", "good"]
 levels = [
   { class = "Cleric", level = 4 },
@@ -45,7 +45,7 @@ Duration: instantaneous
 Saving throw: Reflex half; see text
 Spell resistance: yes
 Area: 10-ft.-radius burst, centered on you
-Subschool: Healing
+Subschool: healing
 Descriptors: fire, good
 :::
 

@@ -14,7 +14,7 @@ page = "58"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Druid", level = 3 },
@@ -46,7 +46,7 @@ Duration: 1 day/level
 Saving throw: none
 Spell resistance: no
 Effect: Swarm of wasps that builds a nest; see text
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon a [wasp swarm](ref/monster/wasp-wasp-swarm) that builds a 10-foot-by-10-foot nest in the

@@ -16,8 +16,8 @@ page = "354"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text]"
-subschools = ["Summoning"]
+school = "conjuration"
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 9 },
   { class = "Shaman", level = 9 },
@@ -44,7 +44,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned creature
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Summon Nature's Ally IX

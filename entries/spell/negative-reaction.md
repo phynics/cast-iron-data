@@ -14,8 +14,7 @@ page = "238"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -50,8 +49,7 @@ Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 The target's actions and words fail to impress. The target of this spell takes a -10 penalty on any

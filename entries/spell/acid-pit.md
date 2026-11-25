@@ -17,7 +17,7 @@ page = "201"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["acid"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -48,7 +48,7 @@ Duration: 1 round + 1 round/level
 Saving throw: Reflex negates, see text
 Spell resistance: no
 Effect: 10-ft.-by-10-ft. hole, 10 ft. deep/2 levels
-Subschool: Creation
+Subschool: creation
 Descriptors: acid
 :::
 

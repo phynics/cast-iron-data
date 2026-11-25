@@ -14,8 +14,7 @@ page = "227"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Druid", level = 3 },
   { class = "Hunter", level = 2 },
@@ -44,8 +43,7 @@ Duration: 2 hours/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Area: one 20-ft. cube
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You make the area around a campsite appear to be a thicket of untouched and forbidding foliage, or

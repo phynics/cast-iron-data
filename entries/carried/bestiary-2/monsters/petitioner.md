@@ -15,7 +15,7 @@ kind = "creature"
 cr = "1"
 creature_type = "outsider"
 subtypes = ["extraplanar"]
-size = "Medium"
+size = "medium"
 alignment = "Any alignment"
 ac = "10, touch 10, flat-footed 10"
 hp = "16 (2d10+5)"
@@ -31,7 +31,7 @@ abilities = ["11", "10", "13", "10", "11", "10"]
 CR: 1
 XP: 400
 Alignment: Any alignment
-Size: Medium
+Size: medium
 Type: Outsider (extraplanar)
 Race: human
 Init: +0

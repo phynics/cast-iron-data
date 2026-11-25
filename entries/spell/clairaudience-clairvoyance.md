@@ -14,7 +14,7 @@ page = "255"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -52,7 +52,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: magical sensor
-Subschool: Scrying
+Subschool: scrying
 :::
 
 Clairaudience/clairvoyance creates an invisible magical sensor at a specific location that enables

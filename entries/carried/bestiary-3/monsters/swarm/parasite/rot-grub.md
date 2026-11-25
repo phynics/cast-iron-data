@@ -17,8 +17,8 @@ kind = "creature"
 cr = "7"
 creature_type = "vermin"
 subtypes = ["swarm"]
-size = "Fine"
-alignment = "N"
+size = "fine"
+alignment = "neutral"
 ac = "20, touch 20, flat-footed 18 (+2 Dex, +8 size)"
 hp = "85 (10d8+40)"
 fortitude = "+11"
@@ -32,8 +32,8 @@ abilities = ["1", "15", "18", "-", "10", "1"]
 ::: statblock
 CR: 7
 XP: 3,200
-Alignment: N
-Size: Fine
+Alignment: neutral
+Size: fine
 Type: Vermin (swarm)
 Init: +2
 Senses: [blindsense](ref/rule/blindsight-and-blindsense) 30 ft.; Perception +0

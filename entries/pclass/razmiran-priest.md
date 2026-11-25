@@ -14,7 +14,7 @@ page = "44"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Those who live within the boundaries of Razmir's holy lands know the power of the Living God. He
@@ -58,7 +58,7 @@ The Razmiran Priest's class skills are [Bluff](ref/skill/bluff) (Cha),
 (Wis), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

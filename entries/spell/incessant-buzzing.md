@@ -14,7 +14,7 @@ page = "62"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -48,7 +48,7 @@ Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
 Effect: 10-ft.-diameter sphere
-Subschool: Figment
+Subschool: figment
 :::
 
 You summon an illusory swarm of angry wasps that fills a 10-foot-diameter sphere. You can summon it

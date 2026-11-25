@@ -15,8 +15,8 @@ kind = "creature"
 cr = "2"
 creature_type = "humanoid"
 subtypes = ["human", "shapechanger"]
-size = "Medium"
-alignment = "LE"
+size = "medium"
+alignment = "lawful evil"
 ac = "16, touch 13, flat-footed 13 (+3 armor, +2 Dex, +1 dodge)"
 hp = "18 (2d8+6)"
 fortitude = "+2"
@@ -32,8 +32,8 @@ abilities = ["13", "15", "14", "10", "16", "6"]
 ::: statblock
 CR: 2
 XP: 600
-Alignment: LE
-Size: Medium
+Alignment: lawful evil
+Size: medium
 Type: Humanoid (human, shapechanger)
 Race: human natural
 Class Levels: rogue 2

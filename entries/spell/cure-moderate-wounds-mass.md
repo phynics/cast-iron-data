@@ -17,7 +17,7 @@ page = "263"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Bard", level = 6 },
   { class = "Cleric", level = 6 },
@@ -53,7 +53,7 @@ Duration: instantaneous
 Saving throw: Will half (harmless) or Will half; see text
 Spell resistance: yes (harmless) or yes; see text
 Target: one creature/level, no two of which can be more than 30 ft. apart
-Subschool: Healing
+Subschool: healing
 :::
 
 This spell functions like [mass cure light wounds](ref/spell/cure-light-wounds-mass), except that it

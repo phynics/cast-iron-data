@@ -14,7 +14,7 @@ page = "121"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Medium", level = 3 },
@@ -48,7 +48,7 @@ Duration: 1 minute/level
 Saving throw: Will negates
 Spell resistance: yes
 Area: contiguous area up to one 5-foot cube/caster level (S)
-Subschool: Figment
+Subschool: figment
 :::
 
 You cause the surrounding area to appear to distort. The angles and corners of the area subtly twist

@@ -14,7 +14,7 @@ page = "232"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Bard", level = 3 },
   { class = "Druid", level = 3 },
@@ -47,7 +47,7 @@ Duration: 2 hours/level (D)
 Saving throw: Will disbelief (see below)
 Spell resistance: yes
 Area: one 40-ft.-cube/level (S)
-Subschool: Figment
+Subschool: figment
 :::
 
 You create an image of a pool of water, a group of standing stones, a cove, an island, or another

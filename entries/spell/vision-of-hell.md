@@ -17,8 +17,8 @@ page = "47"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["evil", "fear", "glamer"]
+subschools = ["glamer"]
+descriptors = ["evil", "fear"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bloodrager", level = 3 },
@@ -57,8 +57,8 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates
 Spell resistance: no
 Effect: 50-ft.-radius emanation
-Subschool: Glamer
-Descriptors: evil, fear, glamer
+Subschool: glamer
+Descriptors: evil, fear
 :::
 
 You overlay a realistic illusion of a terrifying hellscape upon an area. Structures, equipment, and

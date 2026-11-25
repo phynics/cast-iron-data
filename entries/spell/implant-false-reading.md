@@ -14,8 +14,7 @@ page = "173"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Mesmerist", level = 2 },
   { class = "Occultist", level = 2 },
@@ -43,8 +42,7 @@ Duration: 1 day/level
 Saving throw: none, see text
 Spell resistance: no
 Target: object touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You implant a false psychometric reading into an object, imbuing the item with misleading

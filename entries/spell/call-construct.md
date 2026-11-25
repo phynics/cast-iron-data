@@ -17,7 +17,7 @@ page = "210"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Cleric", level = 8 },
@@ -50,7 +50,7 @@ Duration: permanent until discharged
 Saving throw: none
 Spell resistance: no
 Target: construct touched
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell functions as [instant summons](ref/spell/instant-summons), except it can only summon a

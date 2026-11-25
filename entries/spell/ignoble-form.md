@@ -14,7 +14,7 @@ page = "16"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Antipaladin", level = 2 },
@@ -54,7 +54,7 @@ Duration: 24 hours
 Saving throw: Fortitude negates (harmless)
 Spell resistance: no
 Target: one drow
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 The target takes on the form of a half-elf from the surface world. Its skin, hair, and eyes change

@@ -17,7 +17,7 @@ page = "13"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 6 },
@@ -55,7 +55,7 @@ Duration: 1 round/level
 Saving throw: Reflex negates
 Spell resistance: no
 Effect: mobile 10-ft.-by-10-ft. hold, 10 ft. deep/2 levels
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell functions as [create pit](ref/spell/create-pit), except the pit is capable of movement.

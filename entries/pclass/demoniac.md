@@ -20,7 +20,7 @@ page = "46"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Many demon worshipers understand that sinful souls become demons once the Abyss digests them, but
@@ -53,7 +53,7 @@ The Demoniac's class skills are [Bluff](ref/skill/bluff) (Cha), [Intimidate](ref
 (Wis), [Spellcraft](ref/skill/spellcraft) (Int), and [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

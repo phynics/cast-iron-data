@@ -14,7 +14,7 @@ page = "172"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Alchemist", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -46,7 +46,7 @@ Duration: 1 round/level or until discharged (see text)
 Saving throw: Reflex partial
 Spell resistance: no
 Target: one creature
-Subschool: Creation
+Subschool: creation
 :::
 
 Once during this spell's duration, you can spit a viscous liquid as a standard action. This liquid

@@ -14,7 +14,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -47,7 +47,7 @@ Duration: 1 hour/level
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Effect: magical icon
-Subschool: Scrying
+Subschool: scrying
 :::
 
 In order to cast this spell, you must have a piece of the ship you wish to track. Merchants often

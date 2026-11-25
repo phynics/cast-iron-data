@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "3"
 creature_type = "fey"
-size = "Large"
-alignment = "CN"
+size = "large"
+alignment = "chaotic neutral"
 ac = "15, touch 12, flat-footed 12 (+3 Dex, +3 natural, -1 size)"
 hp = "22 (3d8+9)"
 fortitude = "+6"
@@ -29,8 +29,8 @@ abilities = ["17", "17", "16", "3", "8", "8"]
 ::: statblock
 CR: 3
 XP: 800
-Alignment: CN
-Size: Large
+Alignment: chaotic neutral
+Size: large
 Type: Fey
 Init: +3
 Senses: [low-light vision](ref/rule/low-light-vision), scent; Perception +7

@@ -14,7 +14,7 @@ page = "260"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 In every army there are leaders who surpass the average cold-hearted mercenary, battle-scarred
@@ -47,7 +47,7 @@ The Battle Herald's class skills are [Bluff](ref/skill/bluff) (Cha), [Craft](ref
 [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

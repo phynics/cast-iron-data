@@ -14,7 +14,7 @@ page = "367"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Druid", level = 5 },
   { class = "Hunter", level = 5 },
@@ -42,7 +42,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: wall of thorny brush, up to one 10-ft. cube/level (S)
-Subschool: Creation
+Subschool: creation
 :::
 
 A wall of thorns spell creates a barrier of very tough, pliable, tangled brush bearing needle-sharp

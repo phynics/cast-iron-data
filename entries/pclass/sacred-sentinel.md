@@ -14,7 +14,7 @@ page = "24"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Torag is thought of by many as a god of forging, but his primary areas of concern also include
@@ -56,7 +56,7 @@ The Sacred Sentinel's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 (Wis), [Ride](ref/skill/ride) (Dex), and [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

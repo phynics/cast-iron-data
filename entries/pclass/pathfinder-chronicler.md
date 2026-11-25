@@ -17,7 +17,7 @@ page = "228"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Brave explorers and scavengers of lost or forgotten knowledge, Pathfinder chroniclers are
@@ -61,7 +61,7 @@ The Pathfinder Chronicler's class skills are [Appraise](ref/skill/appraise) (Int
 [Survival](ref/skill/survival) (Wis), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 8 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

@@ -14,8 +14,7 @@ page = "293"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 4 },
@@ -48,8 +47,7 @@ Duration: 2 hours/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Area: one 30-ft. cube/level (S)
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You make natural terrain look, sound, and smell like some other sort of natural terrain. Structures,

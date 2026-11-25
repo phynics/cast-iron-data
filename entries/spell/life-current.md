@@ -14,7 +14,7 @@ page = "60"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["water"]
 levels = [
   { class = "Cleric", level = 3 },
@@ -48,7 +48,7 @@ Duration: 1 round
 Saving throw: Will half
 Spell resistance: yes
 Area: current or portion of current
-Subschool: Healing
+Subschool: healing
 Descriptors: water
 :::
 

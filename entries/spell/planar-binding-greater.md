@@ -16,8 +16,8 @@ page = "321"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text for lesser planar binding]"
-subschools = ["Calling"]
+school = "conjuration"
+subschools = ["calling"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Elementalist Wizard", level = 8 },
@@ -49,7 +49,7 @@ Targets: up to three elementals or outsiders, totaling no more than 18 HD, no tw
 Duration: instantaneous
 Saving throw: Will negates
 Spell resistance: no and yes; see text
-Subschool: Calling
+Subschool: calling
 :::
 
 ### Greater Planar Binding

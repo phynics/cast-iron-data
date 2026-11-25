@@ -14,7 +14,7 @@ page = "60"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Many who seek to master the art of illusion turn to Sivanah, goddess of mysteries, reflections, and
@@ -46,7 +46,7 @@ The Veiled Illusionist's class skills are [Bluff](ref/skill/bluff) (Cha),
 (Int), and [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

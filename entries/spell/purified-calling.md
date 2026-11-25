@@ -14,7 +14,7 @@ page = "237"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Summoner", level = 4 },
   { class = "Unchained Summoner", level = 4 },
@@ -41,7 +41,7 @@ Duration: 1 minute
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Healing
+Subschool: healing
 :::
 
 Your eidolon is restored to full health when you summon it. Upon casting this spell, you must

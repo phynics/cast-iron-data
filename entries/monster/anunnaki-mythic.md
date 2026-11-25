@@ -13,7 +13,7 @@ page = "28"
 [fields]
 kind = "creature"
 cr = "18"
-creature_type = "monstrousHumanoid"
+creature_type = "monstrous humanoid"
 subtypes = ["mythic", "shapechanger"]
 size = "large"
 alignment = "neutral"

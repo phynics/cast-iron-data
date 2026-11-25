@@ -17,7 +17,7 @@ page = "240"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 9 },
 ]
@@ -43,7 +43,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned creature
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell functions as [summon nature's ally VIII](ref/spell/summon-natures-ally-8), except you

@@ -14,8 +14,8 @@ kind = "creature"
 cr = "6"
 creature_type = "humanoid"
 subtypes = ["giant", "mythic"]
-size = "Large"
-alignment = "CE"
+size = "large"
+alignment = "chaotic evil"
 ac = "18, touch 11, flat-footed 16 (+2 Dex, +7 natural, -1 size)"
 hp = "79 (6d8+52); regeneration 5 (acid or fire, see primal vigor)"
 fortitude = "+11"
@@ -29,8 +29,8 @@ abilities = ["23", "14", "23", "6", "9", "6"]
 ::: statblock
 CR: 6
 XP: 2,400
-Alignment: CE
-Size: Large
+Alignment: chaotic evil
+Size: large
 Type: Humanoid (giant, mythic)
 Init: +2
 Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision), scent; Perception +8

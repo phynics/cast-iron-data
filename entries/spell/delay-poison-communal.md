@@ -17,7 +17,7 @@ page = "227"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Bard", level = 3 },
@@ -55,7 +55,7 @@ Duration: 1 hour/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Targets: creatures touched
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Communal Delay Poison

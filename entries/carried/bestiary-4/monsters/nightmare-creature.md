@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "4"
 creature_type = "aberration"
-size = "Medium"
-alignment = "NE"
+size = "medium"
+alignment = "neutral evil"
 ac = "17, touch 15, flat-footed 12 (+5 Dex, +2 natural)"
 hp = "30 (4d8+12); regeneration 5 (good spells and weapons, silver)"
 fortitude = "+6"
@@ -29,8 +29,8 @@ abilities = ["14", "21", "17", "8", "15", "12"]
 ::: statblock
 CR: 4
 XP: 1,200
-Alignment: NE
-Size: Medium
+Alignment: neutral evil
+Size: medium
 Type: Aberration
 Init: +9
 Senses: [darkvision](ref/rule/darkvision) 120 ft., [low-light vision](ref/rule/low-light-vision); Perception +9

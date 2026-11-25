@@ -17,7 +17,7 @@ page = "245"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 5 },
@@ -52,7 +52,7 @@ Duration: see text
 Saving throw: Will half, see text
 Spell resistance: yes, see text
 Effect: one symbol
-Subschool: Shadow
+Subschool: shadow
 :::
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that using the

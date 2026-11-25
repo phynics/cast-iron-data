@@ -14,7 +14,7 @@ page = "209"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["language-dependant", "shadow"]
 levels = [
   { class = "Antipaladin", level = 1 },
@@ -53,7 +53,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: yes
 Targets: one creature/level
-Subschool: Shadow
+Subschool: shadow
 Descriptors: language-dependant, shadow
 :::
 

@@ -14,7 +14,7 @@ page = "249"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 9 },
   { class = "Cleric", level = 9 },
@@ -44,7 +44,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: three or more wood golems, no two of which can be more than 30 ft. apart (see text)
-Subschool: Creation
+Subschool: creation
 :::
 
 You create 1d4+2 wood golems with the advanced template. The golems willingly aid you in combat or

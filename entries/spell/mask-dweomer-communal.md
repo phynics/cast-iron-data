@@ -17,8 +17,7 @@ page = "236"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Occultist", level = 2 },
   { class = "Psychic", level = 2 },
@@ -46,8 +45,7 @@ Duration: 1 day/level (D)
 Saving throw: none, see text
 Spell resistance: no
 Targets: creatures or objects touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 ### Communal Mask Dweomer

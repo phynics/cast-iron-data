@@ -14,7 +14,7 @@ page = "226"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 3 },
@@ -48,7 +48,7 @@ Duration: instantaneous
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one object weighing no more than 5 lbs./level
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You cause the target object and the object used as a focus for the spell to immediately swap places.

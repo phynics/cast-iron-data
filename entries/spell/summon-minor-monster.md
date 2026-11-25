@@ -17,7 +17,7 @@ page = "241"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -56,7 +56,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: 1d3 summoned creatures
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell functions as [summon monster I](ref/spell/summon-monster-1), except you can summon 1d3

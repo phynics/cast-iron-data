@@ -14,7 +14,7 @@ page = "225"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["emotion"]
 levels = [
   { class = "Arcanist", level = 7 },
@@ -52,7 +52,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: yes
 Area: all allies and opponents within a 60-ft.-radius burst centered on you
-Subschool: Healing
+Subschool: healing
 Descriptors: emotion
 :::
 

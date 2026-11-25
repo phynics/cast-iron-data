@@ -15,8 +15,8 @@ kind = "creature"
 cr = "2"
 creature_type = "humanoid"
 subtypes = ["giant"]
-size = "Medium"
-alignment = "CE"
+size = "medium"
+alignment = "chaotic evil"
 ac = "14, touch 11, flat-footed 13 (+1 Dex, +3 natural)"
 hp = "25 (2d10+10)"
 fortitude = "+7"
@@ -30,8 +30,8 @@ abilities = ["21", "13", "18", "8", "12", "6"]
 ::: statblock
 CR: 2
 XP: 600
-Alignment: CE
-Size: Medium
+Alignment: chaotic evil
+Size: medium
 Type: Humanoid (giant)
 Race: human
 Sex: male

@@ -14,7 +14,7 @@ page = "166"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Mesmerist", level = 6 },
@@ -42,7 +42,7 @@ Duration: 1 hour/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Target: you and one creature/level
-Subschool: Teleportation
+Subschool: teleportation
 Descriptors: mind-affecting
 :::
 

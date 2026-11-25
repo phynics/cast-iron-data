@@ -12,13 +12,13 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "2"
-size = "Tiny"
+size = "tiny"
 abilities = ["11", "16", "13", "6", "9", "6"]
 +++
 
 ::: statblock
 CR: 2
-Size: Tiny
+Size: tiny
 Race: ce dragon (cold)
 Hit Dice: 3d12
 Speed: 60 ft., burrow 30 ft., swim 60 ft.

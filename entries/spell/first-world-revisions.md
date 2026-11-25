@@ -17,7 +17,7 @@ page = "11"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Antipaladin", level = 3 },
@@ -55,7 +55,7 @@ Duration: 24 hours (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: willing wayang touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 > _[Wayangs](ref/race/wayang) have access to the following spell. Because it draws on the wayangs'

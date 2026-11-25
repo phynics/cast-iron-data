@@ -14,7 +14,7 @@ page = "67"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -48,7 +48,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one incorporeal animal of size Tiny or smaller
-Subschool: Creation
+Subschool: creation
 :::
 
 You summon a spectral creature in the shape of the Tiny or smaller animal of your choice, which

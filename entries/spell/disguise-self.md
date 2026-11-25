@@ -14,8 +14,7 @@ page = "271"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 1 },
   { class = "Antipaladin", level = 1 },
@@ -54,8 +53,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You make yourself - including clothing, armor, weapons, and equipment - look different. You can seem

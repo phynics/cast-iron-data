@@ -14,8 +14,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -54,8 +53,7 @@ Duration: 10 minutes/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 > _Most know of elven magic for its power, but those who delve deeper discover its elegance and ties

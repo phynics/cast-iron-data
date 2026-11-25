@@ -14,8 +14,7 @@ page = "337"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Psychic", level = 8 },
@@ -44,8 +43,7 @@ Duration: 24 hours
 Saving throw: none or Will disbelief (if interacted with); see text
 Spell resistance: no
 Area: 30-ft. cube/level (S)
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell creates a powerful protection from scrying and observation. When casting the spell, you

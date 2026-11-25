@@ -14,7 +14,7 @@ page = "189"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 4 },
@@ -46,7 +46,7 @@ Duration: 1 minute/level (D)
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: one non-mutated sahuagin/level, no two of which can be more than 30 ft. apart
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You give the targets the appearance and many of the abilities of sahuagin mutants, with effects as

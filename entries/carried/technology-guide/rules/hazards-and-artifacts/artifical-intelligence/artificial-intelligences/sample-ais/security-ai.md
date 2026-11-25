@@ -13,7 +13,7 @@ provenance = [
 kind = "creature"
 cr = "8"
 creature_type = "construct"
-alignment = "LN"
+alignment = "lawful neutral"
 fortitude = "+2"
 reflex = "+2"
 will = "+9"
@@ -24,7 +24,7 @@ abilities = ["-", "-", "-", "14", "16", "14"]
 ::: statblock
 CR: 8
 XP: 4,800
-Alignment: LN
+Alignment: lawful neutral
 Type: Intelligence
 Init: +6
 Senses: Perception +16

@@ -14,7 +14,7 @@ page = "80"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Of those [Gray Maidens](ref/rule/aff-scarred-ladies) who remain loyal to the ideals of Queen Ileosa,
@@ -55,7 +55,7 @@ The Sanguine Angel's class skills are [Bluff](ref/skill/bluff) (Cha), [Climb](re
 (Wis), and [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

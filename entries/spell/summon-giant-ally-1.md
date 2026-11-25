@@ -16,8 +16,8 @@ page = "223"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text]"
-subschools = ["Summoning"]
+school = "conjuration"
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 6 },
   { class = "Hunter", level = 6 },
@@ -44,7 +44,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one or more giants
-Subschool: Summoning
+Subschool: summoning
 :::
 
 > _The following spells are available to the indicated race or ethnicity: Kellid_

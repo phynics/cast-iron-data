@@ -17,7 +17,7 @@ page = "108"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Arcanist", level = 3 },
@@ -58,7 +58,7 @@ Duration: 1 day/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This spell functions similarly to [alter self](ref/spell/alter-self), except for the following

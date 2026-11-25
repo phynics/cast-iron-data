@@ -14,7 +14,7 @@ page = "81"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Antipaladin", level = 3 },
@@ -50,7 +50,7 @@ Duration: instantaneous and 1 round; see text
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Shadow
+Subschool: shadow
 Descriptors: shadow
 :::
 

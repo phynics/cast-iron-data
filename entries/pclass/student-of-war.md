@@ -17,7 +17,7 @@ page = "62"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 To hear most warriors talk, battles are won by sharp iron and mighty thews. Yet the student of war
@@ -59,7 +59,7 @@ The Student of War's class skills are [Climb](ref/skill/climb) (Str), [Craft](re
 [Survival](ref/skill/survival) (Wis), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

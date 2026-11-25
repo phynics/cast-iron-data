@@ -14,8 +14,7 @@ page = "314"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -53,8 +52,7 @@ Duration: 1 hour/level
 Saving throw: none or Will negates; see text
 Spell resistance: no
 Target: one creature or object, up to a 10-ft. cube in size
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 By means of this spell, you misdirect the information from divination spells that reveal auras

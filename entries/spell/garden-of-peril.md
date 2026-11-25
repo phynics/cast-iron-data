@@ -14,7 +14,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["poison"]
 levels = [
   { class = "Arcanist", level = 2 },
@@ -48,7 +48,7 @@ Duration: 1 round/level (D)
 Saving throw: Fortitude negates
 Spell resistance: no
 Effect: one poisonous mushroom/level, no two of which can be more than 30 ft. apart
-Subschool: Creation
+Subschool: creation
 Descriptors: poison
 :::
 

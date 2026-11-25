@@ -14,7 +14,7 @@ page = "19"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 4 },
@@ -52,7 +52,7 @@ Duration: 1 day/level
 Saving throw: none
 Spell resistance: no
 Effect: One conjured ship
-Subschool: Creation
+Subschool: creation
 :::
 
 When you cast this spell, you must hold out a miniature model of the ship you intend to create. The

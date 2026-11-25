@@ -12,10 +12,10 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "10"
-creature_type = "magicalBeast"
+creature_type = "magical beast"
 subtypes = ["mythic"]
-size = "Large"
-alignment = "N"
+size = "large"
+alignment = "neutral"
 ac = "23, touch 11, flat-footed 21 (+2 Dex, +12 natural, -1 size)"
 hp = "165 (10d10+110); fast healing 5"
 fortitude = "+16"
@@ -30,8 +30,8 @@ abilities = ["27", "14", "24", "2", "14", "10"]
 ::: statblock
 CR: 10
 XP: 9,600
-Alignment: N
-Size: Large
+Alignment: neutral
+Size: large
 Type: Magical Beast (mythic)
 Race: advanced mythic owlbear
 Init: +10M

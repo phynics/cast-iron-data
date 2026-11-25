@@ -14,7 +14,7 @@ page = "48"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Among the most pious worshipers of the empyreal lords are those known as mystery cultists. These
@@ -44,7 +44,7 @@ The Mystery Cultist's class skills are [Diplomacy](ref/skill/diplomacy) (Cha),
 Spellcraft (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

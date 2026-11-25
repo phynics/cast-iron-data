@@ -12,8 +12,8 @@ provenance = [
 [fields]
 kind = "creature"
 creature_type = "animal"
-size = "Large"
-alignment = "N"
+size = "large"
+alignment = "neutral"
 ac = "28, touch 12, flat-footed 25 (+4 armor, +3 Dex, +12 natural, -1 size)"
 hp = "93 (11d8+44)"
 fortitude = "+10"
@@ -26,8 +26,8 @@ abilities = ["22", "17", "17", "2", "12", "6"]
 
 ::: statblock
 CR: —
-Alignment: N
-Size: Large
+Alignment: neutral
+Size: large
 Type: Animal
 Race: horse animal companion
 Init: +3

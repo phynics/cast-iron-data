@@ -14,7 +14,7 @@ page = "239"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["acid"]
 levels = [
   { class = "Arcanist", level = 0 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: one missile of acid
-Subschool: Creation
+Subschool: creation
 Descriptors: acid
 :::
 

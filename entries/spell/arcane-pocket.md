@@ -14,7 +14,7 @@ page = "27"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Sorcerer", level = 1 },
@@ -42,7 +42,7 @@ Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
 Effect: extradimensional space up to 1 cu. ft./level
-Subschool: Creation
+Subschool: creation
 :::
 
 With a touch, you conjure an extradimensional space inside a pouch or pocket. The pocket acts as a

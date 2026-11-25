@@ -16,7 +16,7 @@ page = "262"
 [fields]
 kind = "creature"
 cr = "25"
-creature_type = "magicalBeast"
+creature_type = "magical beast"
 subtypes = ["spawn of Rovagug"]
 size = "colossal"
 alignment = "chaotic evil"

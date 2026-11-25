@@ -13,7 +13,8 @@ page = "215"
 
 [fields]
 kind = "spell"
-school = "evocation [acid, cold, electricity, or fire]"
+school = "evocation"
+descriptors = ["acid", "cold", "electricity", "fire"]
 levels = [
   { class = "Alchemist", level = 4 },
   { class = "Arcanist", level = 4 },

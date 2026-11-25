@@ -14,7 +14,7 @@ page = "323"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Adept", level = 4 },
   { class = "Alchemist", level = 5 },
@@ -46,7 +46,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This spell transforms a willing creature into an animal, humanoid or elemental of your choosing; the

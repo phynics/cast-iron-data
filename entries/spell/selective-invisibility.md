@@ -14,8 +14,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Antipaladin", level = 3 },
@@ -51,8 +50,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: yes
 Target: you and one other creature
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 Upon casting this spell, you turn invisible, as per the [invisibility](ref/spell/invisibility)

@@ -21,7 +21,7 @@ via = "ref/feat/versatile-summon-monster"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Bard", level = 6 },
@@ -59,7 +59,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned creature
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Summon Monster VI

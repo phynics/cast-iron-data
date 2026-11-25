@@ -14,7 +14,7 @@ page = "68"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 5 },
@@ -51,7 +51,7 @@ Duration: 1 day/level
 Saving throw: Will disbelief
 Spell resistance: no
 Area: one 10-ft. cube per level
-Subschool: Figment
+Subschool: figment
 Descriptors: mind-affecting
 :::
 

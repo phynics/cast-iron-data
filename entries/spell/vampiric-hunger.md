@@ -14,7 +14,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "necromancy"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 descriptors = ["evil"]
 levels = [
   { class = "Antipaladin", level = 3 },
@@ -50,7 +50,7 @@ Duration: 1 minute/level
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Polymorph
+Subschool: polymorph
 Descriptors: evil
 :::
 

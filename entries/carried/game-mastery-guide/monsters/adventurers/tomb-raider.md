@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "5"
 creature_type = "humanoid"
-size = "Medium"
-alignment = "N"
+size = "medium"
+alignment = "neutral"
 ac = "17, touch 13, flat-footed 14 (+3 armor, +3 Dex, +1 shield)"
 hp = "45 (6d8+18)"
 fortitude = "+6"
@@ -30,8 +30,8 @@ abilities = ["12", "17", "14", "14", "10", "8"]
 ::: statblock
 CR: 5
 XP: 1,600
-Alignment: N
-Size: Medium
+Alignment: neutral
+Size: medium
 Type: Humanoid
 Race: human rogue 6
 Init: +3

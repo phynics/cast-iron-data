@@ -17,7 +17,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Druid", level = 2 },
   { class = "Hunter", level = 2 },
@@ -46,7 +46,7 @@ Duration: 10 minutes/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: a creature you are mounted upon
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 The target adapts to life in the water, gaining piscine scales that cover its body and growing fins

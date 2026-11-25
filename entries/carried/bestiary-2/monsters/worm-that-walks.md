@@ -15,8 +15,8 @@ kind = "creature"
 cr = "14"
 creature_type = "vermin"
 subtypes = ["augmented human"]
-size = "Medium"
-alignment = "NE"
+size = "medium"
+alignment = "neutral evil"
 ac = "23, touch 17, flat-footed 18 (+6 armor, +4 Dex, +1 dodge, +2 insight)"
 hp = "113 (13d6+65); fast healing 14"
 fortitude = "+11"
@@ -31,8 +31,8 @@ abilities = ["8", "18", "17", "20", "12", "10"]
 ::: statblock
 CR: 14
 XP: 38,400
-Alignment: NE
-Size: Medium
+Alignment: neutral evil
+Size: medium
 Type: Vermin (augmented human)
 Race: human
 Class Levels: conjurer 13

@@ -14,8 +14,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Antipaladin", level = 2 },
@@ -52,8 +51,7 @@ Duration: 10 minutes/level
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: weapon or ammunition touched; see text
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You render a target weapon or up to 50 pieces of ammunition invisible, granting the wielder a +20

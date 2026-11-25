@@ -17,8 +17,7 @@ page = "214"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Bard", level = 6 },
@@ -51,8 +50,7 @@ Target: one creature
 Duration: 1 hour/level (D)
 Saving throw: Will negates
 Spell resistance: no
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 ### Greater False Vision

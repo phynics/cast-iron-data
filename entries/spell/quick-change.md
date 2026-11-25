@@ -14,7 +14,7 @@ page = "125"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Arcanist", level = 2 },
@@ -60,7 +60,7 @@ Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 If you have the change shape special quality, you can revert to your true form as a swift action. If

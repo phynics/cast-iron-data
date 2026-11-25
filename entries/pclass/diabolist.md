@@ -17,7 +17,7 @@ page = "44"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Though diabolists seek to enslave the forces of Hell and turn them toward goals other than
@@ -46,7 +46,7 @@ The Diabolist's class skills are [Bluff](ref/skill/bluff) (Cha), [Diplomacy](ref
 (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

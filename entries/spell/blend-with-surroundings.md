@@ -14,8 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -53,8 +52,7 @@ Duration: 10 minutes/level
 Saving throw: Fortitude negates (harmless) or Will disbelieves (if interacted with)
 Spell resistance: yes
 Targets: one creature
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell changes the appearance of the affected creature so that it better blends in with its

@@ -14,7 +14,7 @@ page = "23"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 5 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level
 Saving throw: Reflex half or Reflex negates, see text
 Spell resistance: yes
 Effect: wall of bronze clockworks whose area is up to one 5-ft.-square/level (S)
-Subschool: Creation
+Subschool: creation
 :::
 
 An immobile, vertical wall of spinning cogs and gears springs into existence. Any creature passing

@@ -17,7 +17,7 @@ page = "26"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["cold"]
 levels = [
   { class = "Arcanist", level = 7 },
@@ -53,7 +53,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one frost mammoth
-Subschool: Creation
+Subschool: creation
 Descriptors: cold
 :::
 

@@ -14,7 +14,7 @@ page = "371"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Cleric", level = 6 },
   { class = "Druid", level = 8 },
@@ -46,7 +46,7 @@ Duration: instantaneous
 Saving throw: none or Will negates (harmless, object)
 Spell resistance: no or yes (harmless, object)
 Target: you and touched objects or other willing creatures
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 Word of recall teleports you instantly back to your sanctuary when the word is uttered. You must

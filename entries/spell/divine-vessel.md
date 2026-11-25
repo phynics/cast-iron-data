@@ -13,7 +13,8 @@ page = "216"
 
 [fields]
 kind = "spell"
-school = "transmutation [chaotic, evil, good, or lawful]"
+school = "transmutation"
+descriptors = ["chaotic", "evil", "good", "lawful"]
 levels = [
   { class = "Oracle", level = 8 },
 ]

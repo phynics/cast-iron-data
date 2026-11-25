@@ -20,7 +20,7 @@ page = "63"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Sorcerer", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Effect: magical sensor
-Subschool: Scrying
+Subschool: scrying
 :::
 
 This spell lets you look into a mirror near you and see an image that is reflected in another

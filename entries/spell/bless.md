@@ -14,7 +14,7 @@ page = "249"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Adept", level = 1 },
@@ -47,7 +47,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: yes
 Area: The caster and all allies within a 50-ft. burst, centered on the caster
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

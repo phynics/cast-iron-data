@@ -14,7 +14,7 @@ page = "307"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Psychic", level = 7 },
@@ -43,7 +43,7 @@ Duration: 2 hours/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: extradimensional mansion, up to three 10-ft. cubes/level (S)
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure up an extradimensional dwelling that has a single entrance on the plane from which the

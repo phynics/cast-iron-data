@@ -14,8 +14,7 @@ page = "188"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Bard", level = 2 },
   { class = "Cleric", level = 2 },
@@ -48,8 +47,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Targets: 1 ally/level
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You suppress sounds made by the targets, granting them a +4 bonus on Stealth checks. The targets

@@ -14,7 +14,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -54,7 +54,7 @@ Duration: 1 round/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Shadow
+Subschool: shadow
 :::
 
 You pin the target's shadow to its current location, causing the target to become entangled and

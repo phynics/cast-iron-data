@@ -14,7 +14,7 @@ page = "236"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Bard", level = 5 },
@@ -42,7 +42,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: phantom singer
-Subschool: Shadow
+Subschool: shadow
 Descriptors: shadow
 :::
 

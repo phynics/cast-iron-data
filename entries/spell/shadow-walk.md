@@ -14,7 +14,7 @@ page = "341"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Alchemist", level = 6 },
@@ -50,7 +50,7 @@ Duration: 1 hour/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Targets: up to one touched creature/level
-Subschool: Shadow
+Subschool: shadow
 Descriptors: shadow
 :::
 

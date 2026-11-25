@@ -17,7 +17,7 @@ cr = "6"
 creature_type = "humanoid"
 subtypes = ["giant"]
 size = "large"
-alignment = "CG or CE"
+alignment = "chaotic good or chaotic evil"
 ac = "19/9/19"
 hp = "68~8d8+32"
 fortitude = "+10"
@@ -33,7 +33,7 @@ _This slender giant dresses in simple clothes and has swirling patterns on her g
 
 ::: statblock
 Challenge rating: 6
-Alignment: CG or CE
+Alignment: chaotic good or chaotic evil
 Type: humanoid
 Initiative: +4
 Size: large

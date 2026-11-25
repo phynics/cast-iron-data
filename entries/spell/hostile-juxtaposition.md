@@ -14,7 +14,7 @@ page = "231"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Mesmerist", level = 4 },
@@ -48,7 +48,7 @@ Duration: 1 round/level or until discharged
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature of your size or smaller
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You create a dimensional link to the target creature. When attacked or the subject of a spell that

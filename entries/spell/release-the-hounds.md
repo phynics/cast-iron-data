@@ -14,7 +14,7 @@ page = "10"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 5 },
@@ -50,7 +50,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one pack of canines
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell summons a pack of canines that respond to the spellcaster's commands and act in perfect

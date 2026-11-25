@@ -14,7 +14,7 @@ page = "24"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Pirates of the Inner Sea region sail many different bodies of water in search of plunder, from the
@@ -47,7 +47,7 @@ The Inner Sea Pirate's class skills are [Appraise](ref/skill/appraise) (Int),
 [Profession (sailor)](ref/skill/profession-any) (Wis), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

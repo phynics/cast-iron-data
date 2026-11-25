@@ -17,7 +17,7 @@ page = "14"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["water"]
 levels = [
   { class = "Cleric", level = 4 },
@@ -54,7 +54,7 @@ Target: one creature/level, no two of which can be more than 20 ft. apart
 Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Subschool: Healing
+Subschool: healing
 Descriptors: water
 :::
 

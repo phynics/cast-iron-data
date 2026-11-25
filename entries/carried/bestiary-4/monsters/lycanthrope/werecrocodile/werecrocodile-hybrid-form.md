@@ -14,8 +14,8 @@ provenance = [
 kind = "creature"
 creature_type = "humanoid"
 subtypes = ["human", "shapechanger"]
-size = "Medium"
-alignment = "NE"
+size = "medium"
+alignment = "neutral evil"
 ac = "17, touch 11, flat-footed 16 (+1 Dex, +6 natural)"
 hp = "30 (3d10+9)"
 fortitude = "+8"
@@ -28,8 +28,8 @@ abilities = ["19", "13", "16", "12", "12", "6"]
 +++
 
 ::: statblock
-Alignment: NE
-Size: Medium
+Alignment: neutral evil
+Size: medium
 Type: Humanoid (human, shapechanger)
 Init: +5
 Senses: [low-light vision](ref/rule/low-light-vision), scent; Perception +4

@@ -14,7 +14,7 @@ page = "223"
 [fields]
 kind = "creature"
 cr = "7"
-creature_type = "monstrousHumanoid"
+creature_type = "monstrous humanoid"
 subtypes = ["shapechanger"]
 size = "small"
 alignment = "neutral evil"

@@ -14,7 +14,7 @@ page = "68"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Scourge of the seaborne slaver, Gray Corsairs augment existing class skills with specializations
@@ -60,7 +60,7 @@ The Gray Corsair's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 [Survival](ref/skill/survival) (Wis), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

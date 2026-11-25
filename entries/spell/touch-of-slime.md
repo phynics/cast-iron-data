@@ -14,7 +14,7 @@ page = "243"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["disease"]
 levels = [
   { class = "Alchemist", level = 4 },
@@ -50,7 +50,7 @@ Duration: instantaneous
 Saving throw: Fortitude negates
 Spell resistance: yes
 Target: living creature touched
-Subschool: Creation
+Subschool: creation
 Descriptors: disease
 :::
 

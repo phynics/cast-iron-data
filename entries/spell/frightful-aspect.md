@@ -14,7 +14,7 @@ page = "230"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Cleric", level = 8 },
@@ -47,7 +47,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You become a larger, awful version of yourself. You grow to size Large, and take on features that

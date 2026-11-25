@@ -14,7 +14,7 @@ page = "17"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Druid", level = 2 },
   { class = "Hunter", level = 2 },
@@ -43,7 +43,7 @@ Duration: 1 minute/level
 Saving throw: Fortitude negates
 Spell resistance: yes
 Area: 20-ft.-radius spread
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell creates a burst of spores that weaken the mind. Creatures within the area must succeed at

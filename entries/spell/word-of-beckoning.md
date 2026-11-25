@@ -17,7 +17,7 @@ page = "72"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Psychic", level = 7 },
@@ -46,7 +46,7 @@ Duration: 1 round; see text
 Saving throw: none
 Spell resistance: no
 Target: one creature
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 ### Word of Beckoning

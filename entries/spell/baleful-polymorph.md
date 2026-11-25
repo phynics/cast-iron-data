@@ -17,7 +17,7 @@ page = "246"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Adept", level = 5 },
   { class = "Arcanist", level = 5 },
@@ -54,7 +54,7 @@ Duration: permanent
 Saving throw: Fortitude negates, Will partial, see text
 Spell resistance: yes
 Target: one creature
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 As [beast shape III](ref/spell/beast-shape-3), except that you change the subject into a Small or

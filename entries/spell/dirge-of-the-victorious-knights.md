@@ -20,7 +20,7 @@ page = "22"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Bard", level = 6 },
   { class = "Skald", level = 6 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: Reflex half
 Spell resistance: yes
 Area: 120-ft. line, 10 ft. wide
-Subschool: Shadow
+Subschool: shadow
 :::
 
 By performing part of the Chelish opera Victory of the [Hellknights](ref/rule/aff-lawknights), you

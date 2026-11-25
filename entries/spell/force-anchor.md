@@ -14,7 +14,7 @@ page = "26"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["force"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -48,7 +48,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: yes
 Effect: one anchor of force
-Subschool: Creation
+Subschool: creation
 Descriptors: force
 :::
 

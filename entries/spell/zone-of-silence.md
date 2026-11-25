@@ -14,8 +14,7 @@ page = "371"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Bard", level = 4 },
   { class = "Mesmerist", level = 4 },
@@ -43,8 +42,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Area: 5-ft.-radius emanation centered on you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 By casting zone of silence, you manipulate sound waves in your immediate vicinity so that you and

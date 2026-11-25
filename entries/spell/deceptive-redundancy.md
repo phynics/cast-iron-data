@@ -14,8 +14,7 @@ page = "37"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 5 },
@@ -47,8 +46,7 @@ Duration: 10 minutes/level or until triggered, then 1 round/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You create a contingent ward that defies those who would dispel your magic, convincing them that

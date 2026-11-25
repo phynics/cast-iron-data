@@ -13,7 +13,7 @@ page = "192"
 [fields]
 kind = "creature"
 cr = "15"
-creature_type = "magicalBeast"
+creature_type = "magical beast"
 subtypes = ["mythic", "swarm"]
 size = "fine"
 alignment = "neutral evil"

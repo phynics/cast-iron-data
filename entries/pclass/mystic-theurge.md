@@ -14,7 +14,7 @@ page = "387"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Mystic theurges place no boundaries on their magical abilities and find no irreconcilable paradox in
@@ -53,7 +53,7 @@ The Mystic Theurge's class skills are [Knowledge (arcana)](ref/skill/knowledge-a
 (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

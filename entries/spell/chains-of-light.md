@@ -14,7 +14,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["good"]
 levels = [
   { class = "Arcanist", level = 6 },
@@ -50,7 +50,7 @@ Duration: 1 round/level (D)
 Saving throw: Reflex negates
 Spell resistance: no
 Target: one creature
-Subschool: Creation
+Subschool: creation
 Descriptors: good
 :::
 

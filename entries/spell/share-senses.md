@@ -14,7 +14,7 @@ page = "243"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Medium", level = 3 },
@@ -46,7 +46,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: your familiar
-Subschool: Scrying
+Subschool: scrying
 :::
 
 Spending a moment in meditation and conjuring an image of the creature to mind, you reshape your

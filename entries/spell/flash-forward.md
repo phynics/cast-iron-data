@@ -14,7 +14,7 @@ page = "5"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Alchemist", level = 4 },
   { class = "Antipaladin", level = 4 },
@@ -55,7 +55,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You cheat the laws of time and enter into combat before reverting back to your original position. As

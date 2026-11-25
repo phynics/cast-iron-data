@@ -14,7 +14,7 @@ page = "60"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Charm"]
+subschools = ["charm"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -49,7 +49,7 @@ Duration: 1 hour/level
 Saving throw: Will negates
 Spell resistance: yes
 Target: one humanoid creature
-Subschool: Charm
+Subschool: charm
 Descriptors: mind-affecting
 :::
 

@@ -14,7 +14,7 @@ page = "37"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Phantasm"]
+subschools = ["phantasm"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -46,7 +46,7 @@ Duration: 24 hours (D)
 Saving throw: none; see text
 Spell resistance: no
 Target: one touched page, scroll, inscription, book, or other document no more than 3 feet in any dimension
-Subschool: Phantasm
+Subschool: phantasm
 :::
 
 You create a latent illusion that clouds the judgment and reading ability of any creature that

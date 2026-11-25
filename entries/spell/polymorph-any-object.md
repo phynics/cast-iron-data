@@ -17,7 +17,7 @@ page = "323"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Sorcerer", level = 8 },
@@ -45,7 +45,7 @@ Duration: see text
 Saving throw: Fortitude negates (object); see text
 Spell resistance: yes (object)
 Target: one creature, or one nonmagical object of up to 100 cu. ft./level
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This spell functions like [greater polymorph](ref/spell/polymorph-greater), except that it changes

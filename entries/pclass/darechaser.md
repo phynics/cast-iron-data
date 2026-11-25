@@ -14,7 +14,7 @@ page = "10"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 While Kurgess's faithful thrive in sporting arenas, they understand that nature itself creates the
@@ -45,7 +45,7 @@ The Darechaser's class skills are [Acrobatics](ref/skill/acrobatics) (Dex), [Cli
 [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

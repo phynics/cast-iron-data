@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 creature_type = "animal"
 subtypes = ["aquatic"]
-size = "Large"
-alignment = "N"
+size = "large"
+alignment = "neutral"
 ac = "26, touch 12, flat-footed 23 (+4 armor, +2 Dex, +1 dodge, +10 natural, -1 size)"
 hp = "85 (9d8+45)"
 fortitude = "+10"
@@ -27,8 +27,8 @@ abilities = ["22", "14", "19", "3", "12", "2"]
 
 ::: statblock
 CR: —
-Alignment: N
-Size: Large
+Alignment: neutral
+Size: large
 Type: Animal (aquatic)
 Race: shark animal companion
 Init: +2

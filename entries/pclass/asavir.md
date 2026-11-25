@@ -14,7 +14,7 @@ page = "10"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 The fighting style of asavirs originated among the Althameri tribespeople. Most tribal holds have
@@ -49,7 +49,7 @@ The Asavir's class skills are [Bluff](ref/skill/bluff) (Cha), [Craft](ref/skill/
 [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

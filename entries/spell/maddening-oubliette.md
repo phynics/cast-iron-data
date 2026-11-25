@@ -14,7 +14,7 @@ page = "237"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Cleric", level = 7 },
@@ -45,7 +45,7 @@ Duration: special; see text
 Saving throw: Will negates, see text
 Spell resistance: yes
 Target: one creature
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 The target is transported to a dark and dank prison in some unspecified horrific demiplane, where

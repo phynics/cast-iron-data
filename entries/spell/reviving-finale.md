@@ -14,7 +14,7 @@ page = "239"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Bard", level = 3 },
   { class = "Skald", level = 3 },
@@ -41,7 +41,7 @@ Duration: instantaneous
 Saving throw: Will half (harmless)
 Spell resistance: yes (harmless)
 Area: a 20-ft.-radius burst centered on you
-Subschool: Healing
+Subschool: healing
 :::
 
 You must have a bardic performance in effect to cast this spell. With a flourish, you immediately

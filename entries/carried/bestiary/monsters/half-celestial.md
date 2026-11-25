@@ -14,8 +14,8 @@ kind = "creature"
 cr = "4"
 creature_type = "outsider"
 subtypes = ["native"]
-size = "Large"
-alignment = "CG"
+size = "large"
+alignment = "chaotic good"
 ac = "17, touch 13, flat-footed 13 (+4 Dex, +4 natural, -1 size; +2 deflection vs. evil)"
 hp = "42 (4d10+20)"
 fortitude = "+9"
@@ -30,8 +30,8 @@ abilities = ["22", "19", "20", "13", "25", "26"]
 ::: statblock
 CR: 4
 XP: 1,200
-Alignment: CG
-Size: Large
+Alignment: chaotic good
+Size: large
 Type: Outsider (native)
 Init: +4
 Senses: darkvison 60 ft., [low-light vision](ref/rule/low-light-vision), scent; Perception +14

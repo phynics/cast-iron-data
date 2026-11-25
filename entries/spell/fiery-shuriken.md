@@ -14,7 +14,7 @@ page = "229"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["fire"]
 levels = [
   { class = "Arcanist", level = 2 },
@@ -43,7 +43,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: yes
 Effect: Two or more fiery shuriken
-Subschool: Creation
+Subschool: creation
 Descriptors: fire
 :::
 

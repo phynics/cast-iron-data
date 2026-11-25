@@ -14,7 +14,7 @@ page = "239"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Occultist", level = 4 },
@@ -46,7 +46,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one quasi-real chariot and draft team
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure a quasi-real heavy chariot with four horse-like creatures in a team to pull it. (The

@@ -14,8 +14,7 @@ page = "228"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Hunter", level = 2 },
@@ -45,8 +44,7 @@ Duration: 1 day/level (D)
 Saving throw: none
 Spell resistance: no
 Target: trap touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You shroud a single trap with a powerful illusion to make it more difficult to locate. Spells like

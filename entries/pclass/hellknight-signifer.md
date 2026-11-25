@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Hellknight signifers form the spellcasting arm of the [Hellknight](ref/rule/aff-lawknights) orders.
@@ -56,7 +56,7 @@ The Hellknight Signifer's class skills are [Diplomacy](ref/skill/diplomacy) (Cha
 [Sense Motive](ref/skill/sense-motive) (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

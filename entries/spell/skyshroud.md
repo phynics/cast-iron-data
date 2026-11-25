@@ -14,7 +14,7 @@ page = "9"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -47,7 +47,7 @@ Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
 Effect: hemisphere that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)
-Subschool: Scrying
+Subschool: scrying
 :::
 
 The caster designates the area of a hemisphere within the spell's range. If a solid object would

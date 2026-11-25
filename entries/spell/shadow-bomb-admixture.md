@@ -14,7 +14,7 @@ page = "243"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Investigator", level = 2 },
@@ -41,7 +41,7 @@ Duration: 1 round/level
 Saving throw: special, see below
 Spell resistance: special, see below
 Target: you
-Subschool: Creation
+Subschool: creation
 :::
 
 Upon drinking an extract created with this formula, you make a significant change to your magical

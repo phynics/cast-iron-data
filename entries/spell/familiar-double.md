@@ -17,7 +17,7 @@ page = "181"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Witch", level = 7 },
 ]
@@ -43,7 +43,7 @@ Duration: 1 round/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Effect: one shadow duplicate
-Subschool: Shadow
+Subschool: shadow
 :::
 
 ### Familiar Double

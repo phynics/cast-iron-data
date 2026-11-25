@@ -14,7 +14,7 @@ page = "219"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 descriptors = ["evil", "pain"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -47,7 +47,7 @@ Duration: 1 round/level
 Saving throw: Fortitude partial
 Spell resistance: yes
 Target: creature touched
-Subschool: Polymorph
+Subschool: polymorph
 Descriptors: evil, pain
 :::
 

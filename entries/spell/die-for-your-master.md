@@ -17,7 +17,7 @@ page = "24"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 levels = [
   { class = "Antipaladin", level = 4 },
   { class = "Arcanist", level = 5 },
@@ -51,7 +51,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: your animal companion, familiar, or fiendish servant
-Subschool: Compulsion
+Subschool: compulsion
 :::
 
 ### Die for Your Master

@@ -14,7 +14,7 @@ page = "294"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Adept", level = 5 },
   { class = "Alchemist", level = 6 },
@@ -53,7 +53,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 Heal enables you to channel positive energy into a creature to wipe away injury and afflictions. It

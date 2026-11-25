@@ -14,7 +14,7 @@ page = "205"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["good", "mind-affecting"]
 levels = [
   { class = "Paladin", level = 4 },
@@ -41,7 +41,7 @@ Duration: instantaneous and 1 round/level; see text
 Saving throw: Will partial
 Spell resistance: yes
 Area: 30-ft.-radius burst centered on you
-Subschool: Healing
+Subschool: healing
 Descriptors: good, mind-affecting
 :::
 

@@ -14,7 +14,7 @@ page = "242"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Hunter", level = 2 },
@@ -45,7 +45,7 @@ Duration: 1 round/caster level (D)
 Saving throw: none
 Spell resistance: no
 Target: projectile weapon touched
-Subschool: Creation
+Subschool: creation
 :::
 
 Once per round, phantom hands load a single ranged weapon or firearm with conjured ammunition. This

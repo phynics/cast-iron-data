@@ -14,7 +14,7 @@ page = "21"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Magus", level = 5 },
@@ -51,7 +51,7 @@ Duration: 1 hour/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: no
 Targets: you plus up to one willing creature per 3 levels
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You instantly transport yourself and touched allies onto the nearest sky-facing surface directly

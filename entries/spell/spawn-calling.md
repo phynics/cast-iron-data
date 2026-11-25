@@ -14,7 +14,7 @@ page = "241"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 descriptors = ["chaotic", "evil"]
 levels = [
   { class = "Arcanist", level = 9 },
@@ -46,7 +46,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: one Spawn of Rovagug
-Subschool: Calling
+Subschool: calling
 Descriptors: chaotic, evil
 :::
 

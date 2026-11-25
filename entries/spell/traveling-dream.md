@@ -20,7 +20,7 @@ page = "72"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Cleric", level = 4 },
   { class = "Druid", level = 4 },
@@ -50,7 +50,7 @@ Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
 Effect: magical sensor
-Subschool: Scrying
+Subschool: scrying
 :::
 
 This spell functions like [arcane eye](ref/spell/arcane-eye), except as noted above. Upon casting

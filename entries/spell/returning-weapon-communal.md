@@ -17,7 +17,7 @@ page = "243"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -58,7 +58,7 @@ Duration: 1 minute/level
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Targets: weapons that can be thrown
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 ### Communal Returning Weapon

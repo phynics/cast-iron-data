@@ -14,7 +14,7 @@ page = "230"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Paladin", level = 4 },
 ]
@@ -40,7 +40,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell allows you to switch places with an ally. When you cast this spell, choose a single ally

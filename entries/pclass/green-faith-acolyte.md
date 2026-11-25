@@ -14,7 +14,7 @@ page = "26"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 All followers of the Green Faith appreciate and respect nature, but for a Green Faith acolyte this
@@ -56,7 +56,7 @@ The Green Faith Acolyte's class skills are [Climb](ref/skill/climb) (Str), [Fly]
 [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

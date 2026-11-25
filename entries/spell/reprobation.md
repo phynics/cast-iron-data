@@ -13,7 +13,8 @@ page = "234"
 
 [fields]
 kind = "spell"
-school = "transmutation [curse, see text]"
+school = "transmutation"
+descriptors = ["curse"]
 levels = [
   { class = "Cleric", level = 5 },
   { class = "Druid", level = 5 },

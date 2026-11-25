@@ -17,7 +17,7 @@ page = "58"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Not all Pathfinders are concerned with cataloging their exploits. Some are most at home treading
@@ -63,7 +63,7 @@ The Pathfinder Delver's class skills are [Acrobatics](ref/skill/acrobatics) (Dex
 (Str), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 8 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

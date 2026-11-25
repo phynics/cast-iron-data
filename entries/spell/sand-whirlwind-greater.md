@@ -17,7 +17,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Cleric", level = 5 },
   { class = "Oracle", level = 5 },
@@ -45,7 +45,7 @@ Area: 10-ft.-radius spread
 Duration: 1 round/level
 Saving throw: Will negates (blinding only)
 Spell resistance: no
-Subschool: Creation
+Subschool: creation
 :::
 
 ### Greater Sand Whirlwind

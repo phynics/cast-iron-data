@@ -14,7 +14,7 @@ page = "59"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -45,7 +45,7 @@ Duration: permanent or 1 minute/level (see text)
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: transparent gem touched
-Subschool: Figment
+Subschool: figment
 :::
 
 Kreighton Shaine researched this spell from the fragmentary notes of a Vudrani ascetic recorded in a

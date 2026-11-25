@@ -17,7 +17,7 @@ page = "294"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 9 },
   { class = "Oracle", level = 9 },
@@ -45,7 +45,7 @@ Targets: one or more creatures, no two of which can be more than 30 ft. apart
 Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Mass Heal

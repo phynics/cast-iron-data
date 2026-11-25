@@ -17,7 +17,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 9 },
   { class = "Psychic", level = 8 },
@@ -47,7 +47,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one duplicate
-Subschool: Creation
+Subschool: creation
 :::
 
 The spell creates an identical copy of you, along with everything you wear and carry, anywhere you

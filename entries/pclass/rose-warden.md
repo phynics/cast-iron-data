@@ -14,7 +14,7 @@ page = "20"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Tyrants may attempt to crush the seeds of dissent before they can ever bloom, but the goddess Milani
@@ -44,7 +44,7 @@ The Rose Warden's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 and [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

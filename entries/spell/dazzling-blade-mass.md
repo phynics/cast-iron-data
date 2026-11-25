@@ -17,7 +17,7 @@ page = "5"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Pattern"]
+subschools = ["pattern"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Red Mantis Assassin", level = 3 },
@@ -46,7 +46,7 @@ Target: one metal weapon/level, no two of which can be more than 30 ft. apart
 Duration: 1 minute/level
 Saving throw: Will negates (see text)
 Spell resistance: yes (harmless, object)
-Subschool: Pattern
+Subschool: pattern
 :::
 
 ### Mass Dazzling Blade

@@ -17,7 +17,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Hunter", level = 3 },
@@ -50,7 +50,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 ### Share Shape

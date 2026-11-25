@@ -14,7 +14,7 @@ page = "275"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Throughout the wilderness, there are those warriors whose powers are infused by the spirits, who see
@@ -61,7 +61,7 @@ The Rage Prophet's class skills are [Climb](ref/skill/climb) (Str), [Heal](ref/s
 (Wis), [Spellcraft](ref/skill/spellcraft) (Int), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

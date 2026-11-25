@@ -14,7 +14,7 @@ page = "176"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -54,7 +54,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: a monochromatic illustration up to 1 square foot in area
-Subschool: Creation
+Subschool: creation
 :::
 
 You touch a surface and produce a painted portrait of either yourself or a creature you can see

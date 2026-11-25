@@ -14,7 +14,7 @@ page = "12"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 A loosely organized order of nihilistic alienists and demonologists, the Blackfire Adepts study the
@@ -50,7 +50,7 @@ The Blackfire Adept's class skills are [Bluff](ref/skill/bluff) (Cha),
 (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

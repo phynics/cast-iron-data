@@ -17,7 +17,7 @@ page = "241"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Druid", level = 8 },
   { class = "Shaman", level = 8 },
@@ -44,7 +44,7 @@ Duration: 1 hour/level (D)
 Saving throw: none, see text
 Spell resistance: yes
 Targets: up to one willing creature per level, all within 30 ft. of each other
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 ### Animal Shapes

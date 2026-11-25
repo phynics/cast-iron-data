@@ -14,7 +14,7 @@ page = "247"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Sorcerer", level = 1 },
@@ -42,7 +42,7 @@ Duration: 1 round + 1 round/level
 Saving throw: Reflex partial
 Spell resistance: no
 Effect: see text
-Subschool: Creation
+Subschool: creation
 :::
 
 You create a shallow extradimensional hole perfectly sized to trip anyone who steps within it. This

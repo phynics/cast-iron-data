@@ -16,7 +16,7 @@ page = "229"
 
 [fields]
 kind = "spell"
-school = "transmutation [variable]"
+school = "transmutation"
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Occultist", level = 6 },

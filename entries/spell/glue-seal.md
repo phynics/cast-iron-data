@@ -14,7 +14,7 @@ page = "183"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -48,7 +48,7 @@ Duration: 1 minute/level (D)
 Saving throw: see text
 Spell resistance: no
 Target: one object or one 5-ft. square
-Subschool: Creation
+Subschool: creation
 :::
 
 You cover a solid surface with a layer of sticky glue. Anyone in the area when the spell is cast

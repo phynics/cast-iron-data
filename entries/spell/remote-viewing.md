@@ -14,7 +14,7 @@ page = "184"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Medium", level = 4 },
   { class = "Occultist", level = 5 },
@@ -44,7 +44,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Scrying
+Subschool: scrying
 :::
 
 Your body enters a trance as you send your psychic senses to a distant location and gain psychic

@@ -14,7 +14,7 @@ page = "228"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 2 },
@@ -49,7 +49,7 @@ Duration: 1 round
 Saving throw: none
 Spell resistance: no
 Target: two doors or other portals in range
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You set up a magical connection between two doors (or other physical portals, such as windows) that

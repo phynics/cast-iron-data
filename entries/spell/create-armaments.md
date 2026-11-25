@@ -14,7 +14,7 @@ page = "7"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 4 },
@@ -49,7 +49,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: one nonmagical weapon, shield, or set of armor
-Subschool: Creation
+Subschool: creation
 :::
 
 You create one nonmagical weapon, shield, or set of armor. To determine whether the item functions

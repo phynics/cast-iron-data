@@ -14,7 +14,7 @@ page = "202"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Hunter", level = 2 },
@@ -44,7 +44,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: yes
 Area: 30-ft.-radius burst
-Subschool: Creation
+Subschool: creation
 :::
 
 You create exact duplicates of the arrow or crossbow bolt you used to kill a creature in the

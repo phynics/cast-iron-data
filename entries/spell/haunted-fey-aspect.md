@@ -14,8 +14,7 @@ page = "230"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 0 },
   { class = "Bard", level = 0 },
@@ -48,8 +47,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Target: You
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You surround yourself with disturbing illusions, making you look and sound like a bizarre, insane

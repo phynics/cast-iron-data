@@ -17,7 +17,7 @@ page = "27"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Bloodrager", level = 4 },
@@ -54,7 +54,7 @@ Duration: 10 minutes/level
 Saving throw: none
 Spell resistance: no
 Effect: 1d4+1 summoned creatures
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon 1d4+1 giant eagles to serve as you designate. The summoned birds can fight if you wish,

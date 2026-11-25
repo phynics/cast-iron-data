@@ -14,7 +14,7 @@ page = "226"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Druid", level = 4 },
   { class = "Hunter", level = 4 },
@@ -44,7 +44,7 @@ Duration: 2 hours/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: 20-ft.-radius grove
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure a sheltered grove of trees surrounding a shallow spring. The grove appears from nowhere

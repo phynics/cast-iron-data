@@ -14,7 +14,7 @@ page = "265"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Those whose wanderlust drives them to push the boundary of safe environments sometimes seek the
@@ -56,7 +56,7 @@ The Horizon Walker's class skills are [Climb](ref/skill/climb) (Str),
 [Survival](ref/skill/survival) (Wis), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

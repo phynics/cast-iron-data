@@ -26,7 +26,7 @@ page = "67"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["evil"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -62,7 +62,7 @@ Target: creature touched
 Duration: 1 minute
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Subschool: Healing
+Subschool: healing
 Descriptors: evil
 :::
 

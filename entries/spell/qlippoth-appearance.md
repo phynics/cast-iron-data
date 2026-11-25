@@ -14,7 +14,7 @@ page = "74"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Alchemist", level = 3 },
@@ -48,7 +48,7 @@ Duration: 10 minutes/level (see text)
 Saving throw: Will negates (see text)
 Spell resistance: yes
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 Descriptors: mind-affecting
 :::
 

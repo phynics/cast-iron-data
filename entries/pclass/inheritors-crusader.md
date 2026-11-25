@@ -14,7 +14,7 @@ page = "71"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Honor, justice, and valor-while many righteous folk believe in these things, a select group of
@@ -46,7 +46,7 @@ The Inheritor's Crusader's class skills are [Craft](ref/skill/craft-any), Diplom
 (history), Knowledge (nobility), Knowledge (religion), Profession, and Sense Motive.
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

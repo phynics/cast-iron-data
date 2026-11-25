@@ -14,7 +14,7 @@ page = "350"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Cleric", level = 9 },
   { class = "Druid", level = 9 },
@@ -44,7 +44,7 @@ Duration: concentration (maximum 10 rounds) (D)
 Saving throw: see text
 Spell resistance: yes
 Effect: 360-ft.-radius storm cloud
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You create a huge black storm cloud in the air. Each creature under the cloud must succeed on a

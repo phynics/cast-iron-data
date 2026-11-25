@@ -14,7 +14,7 @@ page = "234"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 5 },
@@ -49,7 +49,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 When the caster hoists a flagon and delivers a toast to freedom, the target is transported up to 15

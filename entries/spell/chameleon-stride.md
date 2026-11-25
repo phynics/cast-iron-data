@@ -17,8 +17,7 @@ page = "177"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Hunter", level = 2 },
   { class = "Ranger", level = 2 },
@@ -45,8 +44,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You fade into the background, and while you are not truly invisible, you are hard to pinpoint due to

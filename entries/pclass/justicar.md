@@ -14,7 +14,7 @@ page = "69"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Justiciars embody law and civilization wherever they go, from the most corrupt depths of a city slum
@@ -50,7 +50,7 @@ The Justicar's class skills are [Appraise](ref/skill/appraise) (Int), [Bluff](re
 [Sense Motive](ref/skill/sense-motive) (Wis), [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

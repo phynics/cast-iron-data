@@ -17,7 +17,7 @@ page = "324"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Sorcerer", level = 7 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This spell functions as [polymorph](ref/spell/polymorph) except that it allows the creature to take

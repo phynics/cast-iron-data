@@ -14,7 +14,7 @@ page = "225"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Bard", level = 6 },
@@ -48,7 +48,7 @@ Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
 Targets: you and one willing creature/2 levels, all of which must be within 30 feet of you
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 Getaway teleports you and allies you designate at the time of casting to a predetermined location.

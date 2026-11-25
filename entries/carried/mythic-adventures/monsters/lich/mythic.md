@@ -14,8 +14,8 @@ kind = "creature"
 cr = "17"
 creature_type = "undead"
 subtypes = ["augmented humanoid", "human", "mythic"]
-size = "Medium"
-alignment = "LE"
+size = "medium"
+alignment = "lawful evil"
 ac = "36, touch 14, flat-footed 34 (+7 armor, +2 deflection, +2 Dex, +15 natural)"
 hp = "209 (13d8+147)"
 fortitude = "+16"
@@ -30,8 +30,8 @@ abilities = ["8", "14", "-", "15", "26", "20"]
 ::: statblock
 CR: 17
 XP: 102,400
-Alignment: LE
-Size: Medium
+Alignment: lawful evil
+Size: medium
 Type: Undead (augmented humanoid, human, mythic)
 Init: +13M
 Senses: [darkvision](ref/rule/darkvision) 60 ft., spell perception; Perception +29

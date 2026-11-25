@@ -14,7 +14,7 @@ page = "102"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Even the masters of the [Houses of Perfection](ref/rule/aff-monasteries) consider themselves
@@ -45,7 +45,7 @@ The Student of Perfection's class skills are [Acrobatics](ref/skill/acrobatics) 
 [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

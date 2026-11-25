@@ -14,7 +14,7 @@ page = "18"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 3 },
@@ -50,7 +50,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: fey pranksters
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon intangible forces of whimsy to perform a variety of tricks and pranks upon your foes.

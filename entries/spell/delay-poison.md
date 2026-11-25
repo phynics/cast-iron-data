@@ -14,7 +14,7 @@ page = "265"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Adept", level = 2 },
   { class = "Alchemist", level = 2 },
@@ -57,7 +57,7 @@ Duration: 1 hour/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it

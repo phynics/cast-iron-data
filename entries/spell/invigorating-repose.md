@@ -14,7 +14,7 @@ page = "22"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 5 },
   { class = "Oracle", level = 5 },
@@ -42,7 +42,7 @@ Duration: 1 hour or until discharged
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Healing
+Subschool: healing
 :::
 
 > _In order to prepare this spell, the caster must spend an hour performing a ritual in which he

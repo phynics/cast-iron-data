@@ -14,7 +14,7 @@ page = "224"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["emotion", "mind-affecting"]
 levels = [
   { class = "Inquisitor", level = 4 },
@@ -42,7 +42,7 @@ Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
 Target: one evil creature without the evil subtype
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: emotion, mind-affecting
 :::
 

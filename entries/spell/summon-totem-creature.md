@@ -16,7 +16,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Cleric", level = 3 },
@@ -52,7 +52,7 @@ Duration: 1 hour (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned creature
-Subschool: Summoning
+Subschool: summoning
 :::
 
 The Shoanti revere more than the deities of distant planes, but also the animals and natural forces

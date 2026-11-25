@@ -14,7 +14,7 @@ page = "56"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Druid", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 round/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature summoned by a spell or [spell-like ability](ref/umr/spell-like-abilities)
-Subschool: Compulsion
+Subschool: compulsion
 :::
 
 With a short command and a wave of the hand, you compel the target creature to attack the being who

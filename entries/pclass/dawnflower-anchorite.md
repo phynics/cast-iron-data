@@ -14,7 +14,7 @@ page = "12"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Although most of Sarenrae's worshipers seek to aid others or seek out those villains who can be
@@ -43,7 +43,7 @@ The Dawnflower Anchorite's class skills are [Climb](ref/skill/climb) (Str), [Fly
 [Survival](ref/skill/survival) (Wis), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

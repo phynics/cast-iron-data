@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Alchemist", level = 6 },
@@ -54,7 +54,7 @@ Duration: permanent
 Saving throw: Will disbelief, then Fortitude negates
 Spell resistance: yes
 Target: one creature
-Subschool: Shadow
+Subschool: shadow
 Descriptors: shadow
 :::
 

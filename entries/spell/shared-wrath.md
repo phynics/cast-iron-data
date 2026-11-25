@@ -17,7 +17,7 @@ page = "243"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Inquisitor", level = 4 },
@@ -38,7 +38,7 @@ Range: close (25 ft. + 5 ft./2 levels)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: up to one creature/level, no two of which can be more than 30 ft. apart
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

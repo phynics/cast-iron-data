@@ -14,8 +14,7 @@ page = "343"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Bard", level = 2 },
@@ -49,8 +48,7 @@ Duration: 1 round/level (D)
 Saving throw: Will negates; see text or none (object)
 Spell resistance: yes; see text or no (object)
 Area: 20-ft.-radius emanation centered on a creature, object, or point in space
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 Upon the casting of this spell, complete silence prevails in the affected area. All sound is

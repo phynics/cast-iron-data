@@ -14,7 +14,7 @@ page = "58"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Zon-Kuthon's agents in the mortal realm preserve the god's grip on the shadowy nation of Nidal
@@ -54,7 +54,7 @@ The Umbral Court Agent's class skills are [Bluff](ref/skill/bluff) (Cha),
 [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

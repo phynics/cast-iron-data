@@ -17,7 +17,7 @@ page = "241"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 3 },
   { class = "Occultist", level = 3 },
@@ -49,7 +49,7 @@ Duration: see text
 Saving throw: Will half (harmless) (see text)
 Spell resistance: yes (harmless) (see text)
 Effect: one symbol
-Subschool: Healing
+Subschool: healing
 :::
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except all creatures within 60

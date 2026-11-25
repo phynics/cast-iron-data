@@ -14,7 +14,7 @@ page = "17"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Magus", level = 1 },
@@ -43,7 +43,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: spellbook touched
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell sends a spellbook into a random but safe location on the Ethereal Plane, where it remains

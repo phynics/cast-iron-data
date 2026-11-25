@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "4"
 creature_type = "humanoid"
-size = "Medium"
-alignment = "LN"
+size = "medium"
+alignment = "lawful neutral"
 ac = "19, touch 18, flat-footed 16 (+1 armor, +2 Dex, +1 dodge, +1 monk, +4 Wis)"
 hp = "32 (5d8+10)"
 fortitude = "+6"
@@ -30,8 +30,8 @@ abilities = ["13", "14", "12", "10", "18", "8"]
 ::: statblock
 CR: 4
 XP: 1,200
-Alignment: LN
-Size: Medium
+Alignment: lawful neutral
+Size: medium
 Type: Humanoid
 Race: human monk 5
 Init: +2

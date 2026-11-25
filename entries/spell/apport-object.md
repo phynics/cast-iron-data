@@ -14,7 +14,7 @@ page = "157"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -49,7 +49,7 @@ Duration: instantaneous or 1 hour/level
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one touched object of up to 1 lb. and 1 cu. ft.
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell allows you to instantaneously transport a small nonliving object from one location to

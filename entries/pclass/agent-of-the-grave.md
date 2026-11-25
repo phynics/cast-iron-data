@@ -14,7 +14,7 @@ page = "67"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 On their twisted route to immortality, adherents of the [Whispering Way](ref/rule/f-gravepath) learn
@@ -59,7 +59,7 @@ The Agent of the Grave's class skills are [Bluff](ref/skill/bluff) (Cha), [Heal]
 (Cha).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

@@ -14,7 +14,7 @@ page = "154"
 [fields]
 kind = "creature"
 cr = "2"
-creature_type = "magicalBeast"
+creature_type = "magical beast"
 subtypes = ["shapechanger"]
 size = "medium"
 alignment = "chaotic evil"

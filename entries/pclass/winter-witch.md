@@ -17,7 +17,7 @@ page = "62"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 In the minds of the folk of the arctic north, the otherworldly powers of winter witches are
@@ -50,7 +50,7 @@ The Winter Witch's class skills are [Bluff](ref/skill/bluff) (Cha),
 and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

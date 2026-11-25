@@ -14,7 +14,7 @@ page = "127"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Bard", level = 4 },
@@ -49,7 +49,7 @@ Duration: 24 hours
 Saving throw: Will negates or none, see text
 Spell resistance: yes
 Target: one creature
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

@@ -17,7 +17,7 @@ page = "214"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 9 },
   { class = "Oracle", level = 9 },
@@ -44,7 +44,7 @@ Target: dead creature touched
 Duration: permanent
 Saving throw: none
 Spell resistance: yes (harmless)
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Greater False Resurrection

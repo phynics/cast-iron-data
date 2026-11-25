@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -53,7 +53,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: one 5-ft. cube of temporal possibility/2 levels
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You create one or more 5-foot cubes of temporal possibility where your timeline overlaps with those

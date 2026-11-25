@@ -17,7 +17,7 @@ page = "17"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Occultist", level = 5 },
@@ -52,7 +52,7 @@ Duration: instantaneous
 Saving throw: Will negates
 Spell resistance: no and yes; see text
 Target: one caulborn
-Subschool: Calling
+Subschool: calling
 :::
 
 This variant of planar binding is specifically used to call one of the most knowledgeable types of

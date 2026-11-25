@@ -14,8 +14,8 @@ provenance = [
 kind = "creature"
 creature_type = "humanoid"
 subtypes = ["human", "shapechanger"]
-size = "Large"
-alignment = "NE"
+size = "large"
+alignment = "neutral evil"
 ac = "20, touch 12, flat-footed 17 (+3 armor, +3 Dex, +5 natural, -1 size)"
 hp = "37 (4d8+26)"
 fortitude = "+4"
@@ -30,8 +30,8 @@ abilities = ["23", "16", "17", "10", "16", "8"]
 
 ::: statblock
 XP: 1,200
-Alignment: NE
-Size: Large
+Alignment: neutral evil
+Size: large
 Type: Humanoid (human, shapechanger)
 Race: human natural
 Class Levels: rogue 4

@@ -14,7 +14,7 @@ page = "14"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Druid", level = 9 },
   { class = "Shaman", level = 9 },
@@ -42,7 +42,7 @@ Duration: permanent
 Saving throw: Fortitude negates, Will partial (see text)
 Spell resistance: yes
 Target: one creature/two levels, no two of which can be more than 30 ft. apart
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This spell transforms your targets into trees as per [tree shape](ref/spell/tree-shape), except the
