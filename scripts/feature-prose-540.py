@@ -503,6 +503,12 @@ def clean_runs(runs: list[tuple[str, bool, bool]]) -> str:
         else:
             out.append(text)
     s = "".join(out)
+    if DAGGER in s:
+        if DAGGER_KEEP["on"]:
+            s = re.sub(r"^(\s*)" + DAGGER + r"+ ", "\\1\u2020", s)          # the key paragraph: "\u2020This spell is ..."
+            s = s.replace(DAGGER, "\u2020")
+        else:
+            s = re.sub(DAGGER + r"+ ?(?=[,.;:)])", "", s).replace(DAGGER, "")
     return s
 
 
@@ -573,6 +579,8 @@ FONT_EL = re.compile(r'<fontspec id="(\d+)" size="(\d+)" family="([^"]*)" color=
 TAG_SPLIT = re.compile(r"(</?[bi]>)")
 BODY_TOP = (88, 1075)
 SUPERSCRIPT = "\x04"
+DAGGER = "\x05"                 # a dagger of the book; DAGGER_KEEP says whether the entry keeps it
+DAGGER_KEEP = {"on": False}
 COL_SPLIT = 460
 COL_LEFT = (108, 468)      # the left edge of the two columns of the Advanced Player's Guide
 
@@ -586,7 +594,7 @@ class Para:
     size: int = 0                            # the font size of a title
 
     def plain(self) -> str:
-        return "".join(t for t, _, _ in self.runs)
+        return "".join(t for t, _, _ in self.runs).replace(DAGGER, "")
 
 
 def runs_of(raw: str) -> list[tuple[str, bool, bool]]:
@@ -640,7 +648,12 @@ def load_book(xml_path: Path) -> Book:
             mark = SUPERSCRIPT_MARK.fullmatch(plain) if (fonts.get(font, 99) <= 8 or int(_h) <= 11) else None
             if mark and mark.group(1):
                 raw, plain = mark.group(1), mark.group(1)
-            elif (mark and not mark.group(1)) or (int(_h) <= 11 and re.fullmatch(r"[A-Z]{2,4}|[\u2020\u2021]+", plain)):
+            elif int(_h) <= 11 and re.fullmatch(r"[\u2020\u2021]+", plain):
+                # a dagger: kept as DAGGER; the text of an entry that prints the key of its daggers keeps it (owner ruling 10), the
+                # others drop it with the other marks (`clean_runs`)
+                items.append((top, left, int(font), DAGGER * len(plain) + (" " if raw != raw.rstrip() else ""), int(_w)))
+                continue
+            elif (mark and not mark.group(1)) or (int(_h) <= 11 and re.fullmatch(r"[A-Z]{2,4}", plain)):
                 # left out of the text; `page_lines` keeps the blank that ends a line when the mark stood last
                 # a mark that carries the blank of the word space after it ("Performance" + "APG " + "feat") keeps it
                 items.append((top, left, int(font), SUPERSCRIPT + (" " if raw != raw.rstrip() else ""), int(_w)))
@@ -2058,6 +2071,17 @@ CONTEXT_LINKS = {
 }
 
 
+def dagger_key_printed(pfeats: list[PrintFeature], opening: list[list] | None = None) -> bool:
+    """Whether the printed section holds the key of its daggers: a paragraph that starts with the dagger ("†This spell is not
+    added to your cleric list ...", Idealist): then its marks stay (owner ruling 10)."""
+    paras = [runs for pf in pfeats for runs in pf.paras] + list(opening or [])
+    for runs in paras:
+        t = "".join(r[0] for r in runs).lstrip()
+        if t.startswith(DAGGER) and len(t.split()) >= 4:
+            return True
+    return False
+
+
 def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str]) -> bool:
     """Whether the printed section holds a key of its asterisks (a sentence that names the asterisk and is not the
     book's "An asterisk (*) indicates ..." line): then its marks stay (owner ruling 10)."""
@@ -2128,6 +2152,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                 used.add(idx)
                 matched[n] = idx
     keep = marks_key_printed(pfeats, vocab)
+    DAGGER_KEEP["on"] = dagger_key_printed(pfeats, opening_print)
     problems: list[str] = []
     lost_heads = [feats[i].name for i in range(len(feats)) if i not in used]
     if lost_heads:

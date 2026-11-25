@@ -64,16 +64,16 @@ _Plane of Air: Alter winds_, _air walk_, and _control weather_.
 
 _Plane of Earth: Magic stone_, _stoneskin_, and _statue_.
 
-_Plane of Fire: Produce flame_, _wall of fire_, and _delayed blast fireball_.
+_Plane of Fire: Produce flame_†, _wall of fire_, and _delayed blast fireball_.
 
 _Plane of Water: Hydraulic push_, _control water_, and _vortex_.
 
-_Shadow Plane: Cause fear_, _shadow conjuration_, and _destruction_.
+_Shadow Plane: Cause fear_, _shadow conjuration_†, and _destruction_.
 
 _Other (Including Positive and Negative Energy Planes, Material Plane, or Demiplane):_ Work with
 your GM to select three spells that match the themes of the deity you worship.
 
-This spell is not added to your cleric list—you can cast it spontaneously only using planar bond.
+†This spell is not added to your cleric list—you can cast it spontaneously only using planar bond.
 
 This alters spontaneous casting.
 
