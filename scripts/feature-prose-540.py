@@ -913,6 +913,8 @@ def _trade_matches(text: str) -> list:
     out = []
     for m in TRADE_SENTENCE.finditer(text):
         at = m.start(1)
+        if re.match(r"alters?\s+self\b", text[m.start(2):], re.I):      # R19: "functions as alter self" is the spell, not a verb
+            continue
         if at >= 2 and text[at - 2] == ")" and text[at - 3:at - 2] in ".!?":
             before = text[:at - 2]
             if before.count("(") <= before.count(")"):
@@ -932,9 +934,9 @@ def _op_of(verb: str) -> str:
 def _clean_phrase(phrase: str) -> str:
     phrase = phrase.strip().rstrip(".").strip()
     phrase = re.sub(r",\s+but\b.*$", "", phrase)                              # R8: the phrase ends at ", but "
-    m = re.search(r"\s*\(([^()]*)\)\s*$", phrase)                            # R9: a final parenthesis of 4+ words is an aside
-    if m and len(m.group(1).split()) >= 4:
-        phrase = phrase[:m.start()]
+    phrase = re.sub(r",\s+and\s+counts?\s+as\b.*$", "", phrase)               # R17: ", and counts as" ends the phrase
+    # R9 and R18: a parenthesis of 4+ words is an aside, at the end of the phrase or inside it
+    phrase = re.sub(r"\s*\(([^()]*)\)", lambda m: "" if len(m.group(1).split()) >= 4 else m.group(0), phrase)
     return phrase.strip().rstrip(".").strip()
 
 
@@ -961,10 +963,12 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
         bare = not re.search(ABILITY_NOUN, subject, re.I) and not (plain and subject.strip().lower() == plain.lower())
         rest = sentence[verb.end():]
         # R11: two verbs, two sentences; "changes" is a verb only as the first one (owner ruling 25)
-        parts = re.split(r"\s*,?\s+and\s+(?=(?:replaces?|alters?)\b)", rest, flags=re.I)
-        ops = [verb.group(1)] + [re.match(r"(replaces?|alters?)", x, re.I).group(1) for x in parts[1:]]
+        # R16: the second clause may have a subject: ", and it replaces X" (it, this, he, she, they, with "also")
+        clause = r"(?:(?:it|this|he|she|they)\s+(?:also\s+)?)?"
+        parts = re.split(r"\s*,?\s+and\s+(?=" + clause + r"(?:replaces?|alters?)\b)", rest, flags=re.I)
+        ops = [verb.group(1)] + [re.match(clause + r"(replaces?|alters?)", x, re.I).group(1) for x in parts[1:]]
         for op_word, part in zip(ops, parts):
-            part = re.sub(r"^(?:replaces?|alters?)\b", "", part.strip(), flags=re.I)
+            part = re.sub(r"^" + clause + r"(?:replaces?|alters?)\b", "", part.strip(), flags=re.I)
             out.append((_op_of(op_word), _clean_phrase(part), bare))
     return out
 
@@ -2207,9 +2211,9 @@ def trade_asides(text: str) -> list[tuple[str, str]]:
     for m in _trade_matches(text):
         sentence = m.group(1)
         verb = re.search(r"\b(replaces?|alters?|changes?)\b", sentence, re.I)
-        a = re.search(r"\s*\(([^()]*)\)\.?\s*$", sentence)
-        if a and len(a.group(1).split()) >= 4 and not a.group(1).lower().startswith("see"):
-            out.append((_op_of(verb.group(1)), a.group(1)))
+        for a in re.finditer(r"\(([^()]*)\)", sentence):           # R18: an aside inside the phrase states the trades too
+            if len(a.group(1).split()) >= 4 and not a.group(1).lower().startswith("see"):
+                out.append((_op_of(verb.group(1)), a.group(1)))
     return out
 
 
@@ -2540,6 +2544,10 @@ TRADE_REMOVALS = {
     # Buccaneer (ARG p. 74): Gun Training prints no sentence that replaces gun training 3
     "ref/arc-gunslinger/buccaneer": [("replaces", "Gun training 3")],
     "ref/arc-druid/shark-shaman": [("replaces", "Woodland stride")],
+    # Sage Counselor (Ultimate Intrigue p. 67): Feinting Flurry says he "can't spend 1 ki point to make an additional attack when
+    # making a flurry of blows", a restriction that the sentence "alters flurry of blows and ki pool" states; print names no
+    # trade of "the ability to spend ki to make an additional attack" (the import made one of the sentence; owner question)
+    "ref/arc-monk/sage-counselor": [("replaces", "The ability to spend ki to make an additional attack with a flurry of blows")],
 }
 
 
@@ -3365,6 +3373,20 @@ def self_test() -> int:
     eq(trade_sentences("This ability replaces tactician and alters the standard cavalier's selection of bonus feats.", "Bonus Feats (Ex)"),
        [("replaces", "tactician", False), ("alters", "the standard cavalier's selection of bonus feats", False)], "R11 two verbs, two sentences")
     eq(trade_sentences("Sermonic performance replaces inspire courage.", "Sermonic Performance (Su)"), [("replaces", "inspire courage", False)], "R12 the heading is a subject")
+    # the reader of app #716 (R16 to R19): a second clause with a subject, ", and counts as", an aside inside a phrase, "alter self"
+    eq(trade_sentences("This ability alters flurry of blows and ki pool, and it replaces the bonus feat gained at 10th level."),
+       [("alters", "flurry of blows and ki pool", False), ("replaces", "the bonus feat gained at 10th level", False)], "R16 ', and it replaces'")
+    eq(trade_sentences("This ability alters smite evil, and this also replaces aura of good."),
+       [("alters", "smite evil", False), ("replaces", "aura of good", False)], "R16 'this also'")
+    eq(trade_sentences("This ability replaces arcane pool, and counts as arcane pool for the purpose of feats, abilities, and class features."),
+       [("replaces", "arcane pool", False)], "R17 ', and counts as' ends the phrase")
+    eq(trade_sentences("This ability replaces alchemy (which also includes bombs, extracts, and mutagen) and Throw Anything."),
+       [("replaces", "alchemy and Throw Anything", False)], "R18 an aside inside the phrase")
+    eq(trade_asides("This ability replaces alchemy (which also includes bombs, extracts, and mutagen) and Throw Anything."),
+       [("replaces", "which also includes bombs, extracts, and mutagen")], "R18 the aside states the same-op trades")
+    eq(trade_sentences("This ability functions like alter self, except as noted here. This ability alters alchemy."),
+       [("alters", "alchemy", False)], "R19 'alter self' is the spell")
+    eq(trade_sentences("This ability functions as alter self, beast shape IV, or giant form II, as appropriate."), [], "R19 no verb at all")
     eq(trade_sentences("Sermonic performance replaces inspire courage.", ""), [], "R12 without the heading it is prose")
     eq(trade_sentences("This ability replaces tactician and changes the cavalier's feats.")[0][1], "tactician and changes the cavalier's feats", "ruling 25: a second `changes` is no verb")
     eq(trade_sentences("This ability changes the Arcane Pool class feature and replaces the magus arcana gained at 3rd level."),
