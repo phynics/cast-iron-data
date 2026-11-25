@@ -31,6 +31,7 @@ trades = [
   { replaces = "Weapon training 3", feature = "weapon-training", levels = [13], by = ["careful-claw"] },
   { replaces = "Weapon training 4", feature = "weapon-training", levels = [17], by = ["greater-savage-charge"] },
   { replaces = "Weapon mastery", feature = "weapon-mastery", by = ["natural-weapon-mastery"] },
+  { replaces = "The normal attack roll bonus and AC penalty for charging", by = ["savage-charge"] },
 ]
 +++
 

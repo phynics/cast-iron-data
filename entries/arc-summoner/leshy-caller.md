@@ -22,6 +22,7 @@ features = [
 ]
 trades = [
   { alters = "Summon monster", feature = "summon-monster-i", by = ["summon-nature-s-ally"] },
+  { alters = "Eidolon", feature = "eidolon", by = ["leshy-eidolon"] },
 ]
 +++
 
@@ -89,7 +90,7 @@ to her list of creatures for _summon nature's ally I_, _II_, _III_, _IV_, and _V
 
 This alters summon monster.
 
-## PLANT EIDOLON SUBTYPE {#plant-eidolon-subtype}
+## Plant Eidolon Subtype {#plant-eidolon-subtype}
 
 Plant eidolons consist of vegetable matter infused with raw natural spiritual power.
 
@@ -97,7 +98,7 @@ Plant eidolons consist of vegetable matter infused with raw natural spiritual po
 
 Any. Plant eidolons don't have alignment subtypes.
 
-### Base Form {#alignment-base-form}
+### Base Form {#plant-eidolon-base-form}
 
 Cactus (limbs \[arms\], limbs \[legs\], sting), conifer (claws, limbs \[arms\], limbs \[legs\]),
 fungus (bite, limbs \[arms\], limbs \[legs\]), leaf (limbs \[arms\], limbs \[legs\], slam), seaweed

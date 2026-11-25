@@ -28,6 +28,8 @@ trades = [
   { replaces = "Woodland stride", feature = "woodland-stride", by = ["shingle-stride"] },
   { replaces = "Swift tracker", feature = "swift-tracker", by = ["alley-ghost"] },
   { alters = "Master hunter", feature = "master-hunter", by = ["master-climber"] },
+  { alters = "Class skills", by = ["skilled"] },
+  { replaces = "The hunter's proficiency with medium armor and shields", by = ["skilled"] },
 ]
 +++
 

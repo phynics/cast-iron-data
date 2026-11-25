@@ -28,6 +28,7 @@ trades = [
   { replaces = "Aura of resolve", feature = "aura-of-resolve", by = ["consensus"] },
   { replaces = "Aura of justice", feature = "aura-of-justice", by = ["talmandor-s-gift"] },
   { alters = "Divine grace", feature = "divine-grace", by = ["egalitarian"] },
+  { alters = "Class skills", by = ["scion-s-faith"] },
 ]
 +++
 

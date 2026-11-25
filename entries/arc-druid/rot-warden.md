@@ -29,7 +29,7 @@ trades = [
   { replaces = "Trackless step", feature = "trackless-step", by = ["swarmcaller"] },
   { replaces = "venom immunity", feature = "venom-immunity", by = ["swarmcaller"] },
   { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["enduring-druid"] },
-  { replaces = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
+  { alters = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
   { alters = "Spontaneous casting", feature = "spontaneous-casting", by = ["invoke-decay"] },
   { alters = "Nature bond", feature = "nature-bond", by = ["nature-bond"] },
 ]

@@ -26,6 +26,7 @@ trades = [
   { replaces = "Resist nature's lure", feature = "resist-nature-s-lure", by = ["primeval-voice"] },
   { alters = "Nature's bond", feature = "nature-bond", by = ["dinosaur-bond"] },
   { alters = "Wild shape", feature = "wild-shape", by = ["dinosaur-shape"] },
+  { alters = "Spontaneous casting", feature = "spontaneous-casting", by = ["summon-dinosaur"] },
 ]
 +++
 
