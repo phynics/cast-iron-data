@@ -1,0 +1,32 @@
+# Hand-written texts of the review of batch 4 (Opus review of #324, 2026-11-25): see feature-prose-540.py `read_edits` and `read_adds`.
+
+[[edit]]
+entry = "ref/arc-summoner/shadow-caller"
+anchor = "shadow-eidolon"
+note = "hand-written from print (Advanced Race Guide p. 111): the paragraph ends at \"This ability alters the summoner's eidolon ability.\"; the lines that follow are the head New Evolutions, its sentence and the head 2-Point Evolutions, which the extraction had run into it"
+text = '''
+A shadow caller's eidolon is at once a thing of shadow called from the deep of the Shadow Plane and his own shadow; the two are inseparable. When his eidolon manifests, his shadow lengthens and finally detaches from him as a creature unto itself. For as long as the shadow caller's eidolon is manifested, he and the eidolon do not have distinct shadows, regardless of the presence or absence of light. This lack of a shadow replaces the magical symbol that identifies the summoner and his eidolon.
+
+This ability alters the summoner's eidolon ability.
+'''
+
+[[add]]
+entry = "ref/arc-summoner/shadow-caller"
+anchor = "new-evolutions"
+head = "New Evolutions"
+parent = ""
+after = "shadow-eidolon"
+note = "head and sentence printed under the Shadow Eidolon (Advanced Race Guide p. 111), which the extraction had lost; the evolutions that follow are available to all summoners, so they are unlisted (ruling 15)"
+text = '''
+The following evolutions are available to all summoners.
+'''
+
+[[add]]
+entry = "ref/arc-summoner/shadow-caller"
+anchor = "2-point-evolutions"
+head = "2-Point Evolutions"
+parent = "new-evolutions"
+after = "new-evolutions"
+note = "head printed above Shadow Blend (Advanced Race Guide p. 111): the evolutions of 2 points; the extraction had run it into the paragraph before"
+text = '''
+'''
