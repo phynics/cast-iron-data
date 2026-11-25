@@ -931,7 +931,7 @@ PRINT_FIXES = PRINT_FIXES + (
     (
         'entries/monster/lich-forsaken-lich.md',
         'Pathfinder #48 p. 82',
-        'Subtype: print sets `NE Medium undead (augmented humanoid)`; the `augment` row becomes `Subtype: Augmented humanoid` and `subtypes`. Print gives XP 12,800 with CR 12; the corpus keeps XP 19,200 (the rating decides), as for the Molthuni Commander',
+        'Subtype: print sets `NE Medium undead (augmented humanoid)`; the `augment` row becomes `Subtype: Augmented humanoid` and `subtypes`. The printed XP 12,800 is a misprint for CR 12; the corpus keeps XP 19,200 (the rating decides), as for the Molthuni Commander (owner ruling 14)',
         (
             ('Challenge rating: 12\naugment: Humanoid\naura: delusory aura (100 ft.)\n', 'Challenge rating: 12\naura: delusory aura (100 ft.)\n'),
             ('Type: undead\nExperience points: 19,200\n', 'Type: undead\nSubtype: Augmented humanoid\nExperience points: 19,200\n'),

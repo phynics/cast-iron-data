@@ -23,7 +23,7 @@ ergia	pathfinder-51-the-hungry-storm	67	1d4 Str damage and 1d4 Con damage, targe
 filth-fever	core-rulebook	557	1d3 Dex damage and 1d3 Con damage	rewrite
 final-rest	numeria-land-of-fallen-stars	24	1d2 Charisma damage	tail-in-body
 firegut	heart-of-the-jungle	7	target is staggered	matches
-fungal-flu	pathfinder-13-shadow-in-the-sky	81	1d4 Con damage	rewrite
+fungal-flu	pathfinder-13-shadow-in-the-sky	81	1d4 Con damage	tail-in-body
 ghoul-fever	bestiary	146	1d3 Con and 1d3 Dex damage	rewrite
 glacier-plague	irrisen-land-of-eternal-winter	48	1d6 points of Dex damage and target is exhausted, its speed is reduced by half, and it is unable to speak	rewrite
 green-haze	heart-of-the-jungle	7	-4 on Perception checks, target is permanently blinded if fails 3 saves	rewrite

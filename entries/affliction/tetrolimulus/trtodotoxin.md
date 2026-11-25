@@ -1,7 +1,7 @@
 +++
 id = "ref/affliction/tetrolimulus/trtodotoxin"
 kind = "affliction"
-title = "Trtodotoxin"
+title = "Tetrodotoxin"
 source_ids = ["pathfinder-58-island-of-empty-eyes"]
 parent = "ref/monster/tetrolimulus"
 tags = ["poison"]

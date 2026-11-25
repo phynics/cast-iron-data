@@ -94,7 +94,7 @@ Treasure: None
 
 **Poison (Ex)**
 
-- [Affliction: Trtodotoxin](ref/affliction/tetrolimulus/trtodotoxin)
+- [Affliction: Tetrodotoxin](ref/affliction/tetrolimulus/trtodotoxin)
 
 **Shoreline Mastery (Ex)** The multi-limbed nature of the crab half of the tetrolimulus allows it to
 ignore the effects of uneven or difficult terrain. This does not apply to terrain magically
