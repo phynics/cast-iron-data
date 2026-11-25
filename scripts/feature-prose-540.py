@@ -1927,20 +1927,6 @@ def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
     return paras
 
 
-def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]]) -> str:
-    """Owner ruling 26: a printed page citation after a name goes where the corpus links that name instead ("mutagen (Ultimate
-    Magic 14)"); where no link takes its place it stays as printed (Idealist's "arbitrament (page 39)"; Opus review of #329).
-    The name is the text just before the parenthesis; a label of the feature's links that ends it is the link."""
-    labels = [re.sub(r"[\x01\x02_*\\]", "", label).lower() for label, _ in links]
-
-    def rep(m: re.Match) -> str:
-        before = re.sub(r"[\x01\x02_*\\\s]+$", "", m.string[:m.start()]).lower()
-        before = re.sub(r"[\x01\x02_*\\]", "", before)
-        return "" if any(lb and before.endswith(lb) for lb in labels) else m.group(0)
-
-    return re.sub(pattern, rep, text)
-
-
 def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], entry_id: str = "",
              keep_marks: bool = False) -> tuple[str, list[str], list[str]]:
     """The printed paragraphs as Markdown, the link texts that found no place, and the notes (misprint fixes,
@@ -1964,12 +1950,12 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
             text = text.replace(wrong, right)
             notes.append(f"misprint fixed: print has \"{wrong}\", written \"{right}\" ({why})")
     # a page reference of the book ("Pathfinder RPG Core Rulebook page 469"): the corpus links instead
-    text = drop_linked_citation(r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)", text, links)
+    text = re.sub(r"\s*\(" + I_OPEN + r"?Pathfinder RPG[^()]*?(?:page[\s_\x01\x02]*|[\s\x01\x02]+)\d+(?:[–-]\d+)?\)", "", text)
     # a "(see ...)" cross-reference stays (owner ruling 16 of 2026-11-24). A page citation of another book without
     # "see" ("(Core Rulebook 123)", "(page 83)"): the corpus links instead
-    xref = drop_linked_citation(r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
-                                r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
-                                r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?\)", text, links)
+    xref = re.sub(r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+                  r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+                  r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?\)", "", text)
     # a bare book citation at the end of a parenthesis ("(including the alchemist's bomb class ability; Advanced
     # Player's Guide 28)", owner ruling 26): the corpus links the named rule
     xref = re.sub(r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
@@ -1984,7 +1970,7 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     # a parenthesis that is only "page 83" or "Core Rulebook page 469" (a title of capitalized words, then the page): a
     # citation with words of its own ("as if he had cast greater magic aura; see page 219", "as lesser simulacrum on
     # page 238 of Ultimate Magic") has a rule or a pointer and stays (owner rulings 16 and 26)
-    xref = drop_linked_citation(r"\s*\(\s*(?:[\x01_]*[A-Z][\w'\u2019:, \-]*?[\x02_]*\s+)?page[\s_\x01\x02]*\d+(?:[\u2013-]\d+)?\s*\)", xref, links)
+    xref = re.sub(r"\s*\(\s*(?:[\x01_]*[A-Z][\w'\u2019:, \-]*?[\x02_]*\s+)?page[\s_\x01\x02]*\d+(?:[\u2013-]\d+)?\s*\)", "", xref)
     if xref != text:
         notes.append("printed cross-reference left out")
         text = xref
@@ -3813,11 +3799,10 @@ def self_test() -> int:
     blocks = [Para("title", [("SILVER BALLADEER (BARD ARCHETYPE)", True, False)], 1, 0, 18), Para("para", [("Text.", False, False)], 1, 0),
               Para("title", [("ORDER OF THE SHROUD (CAVALIER ORDER)", True, False)], 1, 0, 18), Para("para", [("Order text.", False, False)], 1, 0)]
     eq(len(find_section(blocks, "Silver Balladeer", set()) or []), 2, "a type title ends the section")
-    # a parenthesis that has words of its own stays; a bare page citation goes where the corpus links the name before it, and stays
-    # where no link takes its place (owner ruling 26, Opus review of #329)
-    pf = PrintFeature("Hidden Magic (Sp)", [[("Items (as if he had cast greater magic aura; see page 219) and mutagen (page 83) and arbitrament (Core Rulebook page 469) end.", False, False)]], 67)
-    text, _, notes = print_md(pf, [("mutagen", "ref/discovery/mutagen")], set(), "ref/arc-monk/black-asp")
-    eq(text, "Items (as if he had cast greater magic aura; see page 219) and [mutagen](ref/discovery/mutagen) and arbitrament (Core Rulebook page 469) end.", "a citation with words stays, a linked bare one goes, an unlinked one stays")
+    # a parenthesis that has words of its own stays, a bare page citation goes
+    pf = PrintFeature("Hidden Magic (Sp)", [[("Items (as if he had cast greater magic aura; see page 219) and (page 83) and (Core Rulebook page 469) end.", False, False)]], 67)
+    text, _, notes = print_md(pf, [], set(), "ref/arc-monk/black-asp")
+    eq(text, "Items (as if he had cast greater magic aura; see page 219) and and end.", "a citation with words stays, a bare one goes")
     eq(is_scaffold("Weapon and Armor Proficiencies") and is_scaffold("Class Skills") and is_scaffold("Skill Ranks per Level"), True, "scaffold variants")
     eq(join_wrapped(["the vox's mesmerist spells use both", "thought and verbal components. Next."], set()), ["the vox's mesmerist spells use both thought and verbal components. Next."], "wrapped sidebar lines join")
     # ruling 11: the Special column of the class table, with its suffixes, never a spell-slot or fast-movement column
