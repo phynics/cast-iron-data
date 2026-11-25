@@ -29,7 +29,7 @@ head = "Resilience (Ex)"
 listed = true
 level = 2
 print = "At 2nd level, an ironskin monk can shake off the physical effects of certain attacks. If he makes a Fortitude saving throw against an attack that has a reduced effect on a successful save, he instead avoids the effect entirely. This ability can be used only if the monk is wearing light armor or no armor. A helpless monk does not gain the benefits of resilience. This ability replaces evasion."
-import_trades = ["Evasion", "Evasion"]
+import_trades = ["Evasion"]
 
 [[entry.feature]]
 anchor = "ki-pool"
@@ -37,7 +37,7 @@ head = "Ki Pool (Su)"
 listed = true
 level = 4
 print = "At 4th level, an ironskin monk can spend 1 point from his ki pool to gain a damage bonus equal to 1/2 his level against objects and constructs for 1 round. This replaces the ability to increase speed with ki."
-import_trades = ["The ability to increase speed with ki", "The ability to increase speed with ki"]
+import_trades = ["The ability to increase speed with ki"]
 
 [[entry.feature]]
 anchor = "staggering-blow"
@@ -45,7 +45,7 @@ head = "Staggering Blow (Ex)"
 listed = true
 level = 5
 print = "At 5th level, an ironskin monk attacking with an unarmed strike can spend 1 point from his ki pool as a free action after a successful critical hit to [stagger](ref/misc/staggered) the creature struck for 1 round (Fort DC 10 + 1/2 the ironskin monk's level + the ironskin monk's Wisdom modifier negates). This ability replaces high jump."
-import_trades = ["High jump", "High jump"]
+import_trades = ["High jump"]
 
 [[entry.feature]]
 anchor = "tough-as-nails"
@@ -61,7 +61,7 @@ head = "Evasion (Ex)"
 listed = true
 level = 9
 print = "At 9th level, an ironskin monk gains [evasion](ref/ability/evasion). This ability replaces improved evasion."
-import_trades = ["Improved evasion", "Improved evasion"]
+import_trades = ["Improved evasion"]
 
 [[entry.feature]]
 anchor = "surefooted"
@@ -77,4 +77,4 @@ head = "Unbreakable (Ex)"
 listed = true
 level = 20
 print = "At 20th level, an ironskin monk sets aside many of the frailties of mortal flesh. He becomes immune to death effects and stunning. He is not subject to [ability damage or ability drain](ref/rule/ability-damage-drain), and has a 75% chance of ignoring the extra damage dealt by critical hits and sneak attacks. This ability replaces perfect self."
-import_trades = ["Perfect self", "Perfect self"]
+import_trades = ["Perfect self"]

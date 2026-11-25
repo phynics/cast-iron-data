@@ -51,7 +51,7 @@ import_trades = ["Swift alchemy, swift poisoning, instant alchemy", "Swift alche
 
 [[entry]]
 id = "ref/arc-monk/sage-counselor"
-hold = "checker: [fields] trades = \"replaces: The ability to spend ki to make an additional attack with a flurry of blows; replaces: bonus feat gained at 10th level; alters: Flurry of blows; alters: ki pool\" disagrees with the trade sentences of the feature `feinting-flurry` = \"alters: flurry of blows and ki pool, and it replaces the bonus feat gained at 10th level\" (line 57)"
+hold = "checker: [fields] trades = \"replaces: The ability to spend ki to make an additional attack with a flurry of blows; replaces: bonus feat gained at 10th level; alters: Flurry of blows; alters: ki pool\" disagrees with the trade sentences of the feature `feinting-flurry` = \"alters: flurry of blows and ki pool, a"
 opening_from_print = true
 opening = ["Sage counselors are ascetics and mystics who leave the confines of the monastery walls to advise secular people about spiritual truths and to seek knowledge of the outside world. They often find work as mentors teaching religion and martial arts, and some of them even become counselors for people in high places. Sage counselors often speak in metaphors, knowing that indirect persuasion is more effective than speaking plainly, and they use indirect tactics in combat as well."]
 
@@ -98,7 +98,7 @@ import_trades = ["Ki pool", "The ability to spend ki to increase his speed by 20
 
 [[entry]]
 id = "ref/arc-paladin/gray-paladin"
-hold = "checker: [fields] trades = \"replaces: Aura of good; replaces: divine grace; alters: Smite evil; alters: aura of courage; alters: aura of resolve; alters: aura of righteousness\" disagrees with the trade sentences of the feature `weakened-grace` = \"alters: smite evil, aura of courage, aura of resolve, and aura of righteousness, and it replaces aura of good and divine grace\" (line 59)"
+hold = "checker: [fields] trades = \"replaces: Aura of good; replaces: divine grace; alters: Smite evil; alters: aura of courage; alters: aura of resolve; alters: aura of righteousness\" disagrees with the trade sentences of the feature `weakened-grace` = \"alters: smite evil, aura of courage, aura of resolve, and aura"
 opening = ["Gray paladins have discovered that in a world of intrigue, a strict code of honor hinders their options. Their divergence from the paladin's normal code still drains them, but somehow, they have found a way to avoid losing all of their powers."]
 
 [[entry.feature]]
