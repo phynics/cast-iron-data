@@ -16,10 +16,15 @@ page = "20"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "merciful-combatant", level = 3 },
+  { anchor = "subduing-knockout", level = 5 },
+  { anchor = "blade-reversal", level = 14 },
+]
 trades = [
-  { replaces = "Weapon expertise", feature = "weapon-expertise" },
-  { replaces = "Banner", feature = "banner" },
-  { replaces = "Greater banner", feature = "greater-banner" },
+  { replaces = "Weapon expertise", feature = "weapon-expertise", by = ["merciful-combatant"] },
+  { replaces = "Banner", feature = "banner", by = ["subduing-knockout"] },
+  { replaces = "Greater banner", feature = "greater-banner", by = ["blade-reversal"] },
 ]
 +++
 
@@ -29,54 +34,45 @@ prevalent during the peaceful and stable periods of Lung Wa, and reflected those
 techniques, an ironbound sword can subdue a foe without causing permanent harm, leaving the soul of
 the samurai unstained by deaths of her enemies.
 
-**Merciful Combatant (Ex)**
+## Merciful Combatant (Ex) {#merciful-combatant}
 
-**Flavor:** An ironbound sword becomes an expert at defeating foes without killing them.
+At 3rd level, an ironbound sword becomes an expert at defeating foes without killing them. An
+ironbound sword can use any weapon to deal nonlethal damage without taking the normal -4 penalty on
+attack rolls. Additionally, the ironbound sword gains a +2 bonus on combat maneuvers against a
+target so long as the last successful attack she made against that target dealt nonlethal damage.
+Her samurai levels count as fighter levels and stack with fighter levels for the purposes of fighter
+and samurai prerequisites and class features.
 
-**Gained:** At 3rd Level
+This replaces weapon expertise.
 
-**Passive:** An ironbound sword can use any weapon to deal nonlethal damage without taking the
-normal -4 penalty on attack rolls. Additionally, the ironbound sword gains a +2 bonus on combat
-maneuvers against a target so long as the last successful attack she made against that target dealt
-nonlethal damage.
+## Subduing Knockout (Ex) {#subduing-knockout}
 
-**Replaces:** Weapon expertise
-
-**Special:** Her samurai levels count as fighter levels and stack with fighter levels for the
-purposes of fighter and samurai prerequisites and class features.
-
-**Subduing Knockout (Ex)**
-
-**Ability:** Once per day, an ironbound sword can unleash a devastating attack that can instantly
+At 5th level, once per day, an ironbound sword can unleash a devastating attack that can instantly
 knock a target unconscious. She must announce this intent before making her attack roll. If the
 ironbound sword's attack hits and the target takes damage from the blow, the target must succeed at
 a Fortitude saving throw (DC = 10 + half the ironbound sword's level + the higher of the ironbound
 sword's Strength or Dexterity modifier) or fall unconscious for 1d6 rounds. Each round on its turn,
 the unconscious target can attempt a new saving throw to end the effect as a full-round action that
 does not provoke attacks of opportunity. Creatures immune to critical hits or nonlethal damage are
-immune to this ability.
+immune to this ability. At 10th level, the ironbound sword can use this ability twice per day; at
+15th level, she can use it three times per day.
 
-**Gained:** At 5th Level
+This replaces banner.
 
-**Replaces:** Banner
+## Blade Reversal (Ex) {#blade-reversal}
 
-**Blade Reversal (Ex)**
+At 14th level, an ironbound sword can turn the force of an opponent's attacks back against them.
+Whenever the ironbound sword takes a [full defense](ref/misc/total-defense) action, she can expend
+an attack of opportunity to attempt to counter melee attacks made against her. This counter is a
+single attack roll at the ironbound blade's full base attack bonus that resolves before the enemy's
+attack. If the counter successfully hits the attacking enemy's AC and if the ironbound sword's
+attack roll is higher than the attacking creature's attack roll, the ironbound sword takes no damage
+from the enemy's attack and can initiate a [disarm](ref/rule/disarm) combat maneuver against the
+attacking enemy as a free action. If the triggering attack was made with a natural attack or unarmed
+strike, a successful disarm combat maneuver renders that natural attack or unarmed strike unusable
+until the victim spends a standard action to reset dislocated joints.
 
-**Ability:** Whenever the ironbound sword takes a [full defense](ref/misc/total-defense) action, she
-can expend an attack of opportunity to attempt to counter melee attacks made against her. This
-counter is a single attack roll at the ironbound blade's full base attack bonus that resolves before
-the enemy's attack. If the counter successfully hits the attacking enemy's AC and if the ironbound
-sword's attack roll is higher than the attacking creature's attack roll, the ironbound sword takes
-no damage from the enemy's attack and can initiate a [disarm](ref/rule/disarm) combat maneuver
-against the attacking enemy as a free action. If the triggering attack was made with a natural
-attack or unarmed strike, a successful disarm combat maneuver renders that natural attack or unarmed
-strike unusable until the victim spends a standard action to reset dislocated joints.
+In addition, the ironbound sword can spend one use of her resolve when she hits with a nonlethal
+attack to initiate a disarm combat maneuver against her target as a free action.
 
-**Flavor:** An ironbound sword can turn the force of an opponent's attacks back against them.
-
-**Free:** In addition, the ironbound sword can spend one use of her _resolve_ when she hits with a
-nonlethal attack to initiate a disarm combat maneuver against her target.
-
-**Gained:** At 14th Level
-
-**Replaces:** Greater banner
+This replaces greater banner.

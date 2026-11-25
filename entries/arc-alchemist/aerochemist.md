@@ -16,13 +16,18 @@ page = "27"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "aeromantic-concoction", level = 1 },
+  { anchor = "bombs-away", level = 2 },
+  { anchor = "aerodynamic-prowess", level = 2 },
+]
 trades = [
-  { replaces = "Mutagen", feature = "mutagen" },
-  { replaces = "swift poisoning", feature = "swift-poisoning" },
-  { replaces = "persistent mutagen", feature = "persistent-mutagen" },
-  { replaces = "Poison use", feature = "poison-use" },
-  { replaces = "swift alchemy", feature = "swift-alchemy" },
-  { replaces = "Poison resistance", feature = "poison-resistance" },
+  { replaces = "Mutagen", feature = "mutagen", by = ["aeromantic-concoction"] },
+  { replaces = "swift poisoning", feature = "swift-poisoning", by = ["aeromantic-concoction"] },
+  { replaces = "persistent mutagen", feature = "persistent-mutagen", by = ["aeromantic-concoction"] },
+  { replaces = "Poison use", feature = "poison-use", by = ["bombs-away"] },
+  { replaces = "swift alchemy", feature = "swift-alchemy", by = ["bombs-away"] },
+  { replaces = "Poison resistance", feature = "poison-resistance", by = ["aerodynamic-prowess"] },
 ]
 +++
 
@@ -30,29 +35,11 @@ Although the specifics of the Aeromantic Infadibulum are lost to time, aerochemi
 emulate and replicate aspects of this lost magic. Aerochemists use scraps of Shory's magic in their
 concoctions to gain personal powers of flight.
 
-**Aeromantic Concoction (Su)**
-
-**Action:** Ability
-
-**At 10th Level:** The aerochemist can choose to gain the benefits of [air walk](ref/spell/air-walk)
-instead of _[fly](ref/spell/fly)_ for the concoction's duration.
-
-**At 14th Level:** The duration of the concoction increases to 1 hour per alchemist level, or 10
-minutes per alchemist level if shared.
-
-**At 6th Level:** The aerochemist gains the benefits of [fly](ref/spell/fly) for the concoction's
-duration.
-
-**Gained:** At 1st Level
-
-**Replaces:** Mutagen, swift poisoning, persistent mutagen
-
-**Special:** An aeromantic alchemist can never gain the _mutagen, cognatogen,_ or _inspired
-cognatogen_ ability, even from a discovery or another class.
+## Aeromantic Concoction (Su) {#aeromantic-concoction}
 
 An aerochemist learns to craft a special alchemical concoction. It takes 10 minutes to brew a dose
 of this concoction, and once brewed, it remains potent until used. An aerochemist can maintain only
-1 dose of this concoction at a time: if he brews a second dose, any existing concoction becomes
+1 dose of this concoction at a time—if he brews a second dose, any existing concoction becomes
 inert. As with an extract or bomb, an aeromantic concoction that is not in the aerochemist's
 possession becomes inert until he picks it up again. Anyone other than the aerochemist who attempts
 to drink his aeromantic concoction is affected in the same fashion as is a non-alchemist who drinks
@@ -62,39 +49,34 @@ When consumed, an aerochemist's aeromantic concoction makes his body become incr
 10 minutes per alchemist level. The concoction grants the aerochemist a +5 bonus on Acrobatics
 checks to attempt high jumps or long jumps, and he is always treated as having a running start when
 attempting long jumps. In addition, the aerochemist gains the benefits of
-[feather fall](ref/spell/feather-fall) for the concoction's duration.
+_[feather fall](ref/spell/feather-fall)_ for the concoction's duration. At 6th level, the
+aerochemist gains the benefits of _[fly](ref/spell/fly)_ for the concoction's duration. At 10th
+level, the aerochemist can choose to gain the benefits of _[air walk](ref/spell/air-walk)_ instead
+of _[fly](ref/spell/fly)_ for the concoction's duration. At 14th level, the duration of the
+concoction increases to 1 hour per alchemist level.
 
 An aerochemist with the [infusion](ref/discovery/infusion) discovery can instead create a shared
 alchemical concoction intended for his allies. This shared concoction grants the same benefits as
 the normal aeromantic concoction, except the duration is only 1 minute per alchemist level its
-creator has. An aerochemist can have only a standard concoction or shared concoction in effect, not
-both.
+creator has. At 14th level, the duration increases to 10 minutes per alchemist level. An aerochemist
+can have only a standard concoction or shared concoction in effect, not both.
 
-**Bombs Away (Ex)**
+This replaces mutagen, swift poisoning, and persistent mutagen. An aeromantic alchemist can never
+gain the mutagen, cognatogen, or inspired cognatogen ability, even from a discovery or another
+class.
 
-**Gained:** At 2nd Level
+## Bombs Away (Ex) {#bombs-away}
 
-**Passive:** An aerochemist becomes an expert at attacking from above. He gains a +1 bonus on attack
-rolls made with thrown weapons against targets that are at least 10 feet below him.
+At 2nd level, an aerochemist becomes an expert at attacking from above. He gains a +1 bonus on
+attack rolls made with thrown weapons against targets that are at least 10 feet below him. This
+bonus increases to +2 at 6th level, and increases by an additional 1 every 4 levels thereafter, to a
+maximum bonus of +5 at 18th level.
 
-**Replaces:** Poison use, swift alchemy
+This replaces poison use and swift alchemy.
 
-At 6th level: This bonus increases to +2.
+## Aerodynamic Prowess (Su) {#aerodynamic-prowess}
 
-At 10th level: This bonus increases to +3.
+At 2nd level, an aerochemist gains a +2 bonus on Fly checks. This bonus increases to +4 at 5th
+level, and +6 at 8th level.
 
-At 14th level: This bonus increases to +4.
-
-At 18th level: This bonus increases to +5.
-
-**Aerodynamic Prowess (Su)**
-
-**At 5th Level:** This bonus increases to +4.
-
-**At 8th Level:** This bonus increases to +6.
-
-**Gained:** At 2nd Level
-
-**Passive:** An aerochemist gains a +2 bonus on Fly checks.
-
-**Replaces:** Poison resistance
+This replaces poison resistance.

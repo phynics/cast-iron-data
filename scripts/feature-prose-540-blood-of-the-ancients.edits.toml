@@ -1,0 +1,38 @@
+[[edit]]
+entry = "ref/arc-brawler/hinyasi"
+anchor = "improvised-maneuver"
+note = "hand review of the hold by leaf records (ruling 26): The hold came from a stray a third-party web address anchor wrapped around \"hinyasi\" in the text layer; it is removed, and the APG superscripts after \"drag\" and \"reposition\" are dropped (ruling 26). The wording otherwise matches print, including the printed order (flavor, maneuver choice, the free-action sentence), and the printed sentence \"This replaces knockout\" is the only trade this feature states."
+text = '''
+At 4th level, a hinyasi learns to confound and befuddle her opponents with improvised weapons. She chooses one of the following combat maneuvers: bull rush, drag, disarm, sunder, reposition, or trip. When she hits an opponent with an improvised weapon, the hinyasi can perform her chosen combat maneuver against the same target as a free action. She takes a -4 penalty on the combat maneuver check, and she can't attempt an improvised maneuver check more than once per round. This combat maneuver still provokes attacks of opportunity unless the hinyasi has a feat or ability that allows her to perform it without provoking attacks of opportunity.
+
+At 10th level, she chooses a second combat maneuver that she can use with this ability, though she can still perform only one improvised maneuver per round. At 16th level, she chooses a third, though she can still perform only one improvised maneuver per round.
+'''
+
+[[edit]]
+entry = "ref/arc-kineticist/ioun-kineticist"
+anchor = "personal-resonance"
+note = "hand review of the hold by leaf records (rulings 9, 14, 26, 28; tie-break): Misprint fixes under ruling 9, recorded here. (1) 'deep rose sphere' names no ioun stone; the slot lists the six +2 ability-score ioun stones and the corpus links it as deep red sphere, so it is fixed to deep red sphere with its link. (2) The printed citation '(Pathfinder RPG Adventurer's Guide 149)' after 'resonant powers' stays: ruling 26 drops a bare citation only where the corpus links the named rule instead, and"
+text = '''
+At 6th level, an ioun kineticist can harmonize her body's energies with that of her ioun cloud. Whenever she has at least 3 points of burn, she gains the resonant powers (_Pathfinder RPG Adventurer's Guide_ 149) of two _ioun stones_ of her choice in her ioun cloud; she is treated as holding a _[wayfinder](ref/magic-wondrous/wayfinder)_ for the purpose of using any resonant powers (_Adventurer's Guide_ 148). As a standard action, she can switch which two _ioun stones_ are granting their resonance powers. At 11th level, whenever she has at least 5 points of burn, she can gain the resonance powers of up to four _ioun stones_ in her ioun cloud. At 16th level, whenever she has at least 7 points of burn, she gains the resonance powers of all of the _ioun stones_ in her ioun cloud.
+
+In place of gaining the resonant power of a _[deep red sphere](ref/magic-ioun/deep-red-sphere)_, _[incandescent blue sphere](ref/magic-ioun/incandescent-blue-sphere)_, _[pale blue rhomboid](ref/magic-ioun/pale-blue-rhomboid)_, _[pink and green sphere](ref/magic-ioun/pink-and-green-sphere)_, _[pink rhomboid](ref/magic-ioun/pink-rhomboid)_, or _[scarlet and blue sphere](ref/magic-ioun/scarlet-and-blue-sphere)_, the ioun kineticist can instead increase the enhancement bonus it grants to an ability score to +4. This bonus increases to +5 at 11th level when she has at least 5 points of burn and increases to +6 at 16th level when she has at least 7 points of burn. An ioun kineticist can increase only one _ioun stone's_ enhancement bonus in this way at a time.
+
+This replaces the ability score boosts granted by elemental overflow.
+'''
+
+[[edit]]
+entry = "ref/arc-warpriest/jistkan-magistrate"
+anchor = "channel-element"
+note = "hand-written by the batch lead from print (Blood of the Ancients p. 18, ruling 18): the table that the paragraph points to (\"as indicated by the table below\") is printed under the head, titled Channel Element Damage, as the table of blessing and damage type; the extraction does not carry it and the script had dropped the corpus's table (ruling 10); it is written as a Markdown table, each cell as printed. The printed \"The Jistkan artificer's blessing\" (for magistrate) is kept as printed."
+text = '''
+At 4th level, a Jistkan magistrate gains [Elemental Channel](ref/feat/elemental-channel) as a bonus feat, choosing the elemental subtype that matches his blessing. He doesn't gain the ability to harm undead with channeled energy (if he channels positive energy) or heal undead (if he channels negative energy). Instead, he can channel a blast of elemental matter and energy that buffets his targets. The Jistkan artificer's blessing determines the damage type of this attack, as indicated by the table below. A successful Reflex save halves the damage.
+
+This alters channel.
+
+|Blessing|Damage type|
+|---|---|
+|Air|Electricity|
+|Earth|Acid|
+|Fire|Fire|
+|Water|Cold|
+'''

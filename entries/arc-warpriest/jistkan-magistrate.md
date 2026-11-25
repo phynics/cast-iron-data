@@ -16,11 +16,17 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "elemental-binder" },
+  { anchor = "spontaneous-summons" },
+  { anchor = "bonus-languages" },
+  { anchor = "channel-element", level = 4 },
+]
 trades = [
-  { alters = "Blessings", feature = "blessings" },
-  { alters = "Spontaneous casting", feature = "spontaneous-casting" },
-  { alters = "Bonus languages", feature = "bonus-languages" },
-  { alters = "Channel", feature = "channel-energy" },
+  { alters = "Blessings", feature = "blessings", by = ["elemental-binder"] },
+  { alters = "Spontaneous casting", feature = "spontaneous-casting", by = ["spontaneous-summons"] },
+  { alters = "Bonus languages", feature = "bonus-languages", by = ["bonus-languages"] },
+  { alters = "Channel", feature = "channel-energy", by = ["channel-element"] },
 ]
 +++
 
@@ -28,55 +34,49 @@ Some warpriests study the ancient magic that the Jistkan magistrates used to bin
 make pacts with genies. By tapping into the elementals' primal magic, these warpriests gain powers
 that help them in combat.
 
-**Prerequisites:** Must worship a deity who grants the [Air](ref/blessing/air),
-[Earth](ref/blessing/earth), [Fire](ref/blessing/fire), or [Water](ref/blessing/water) blessing
+## Class Skills {#class-skills}
 
-**Gained class skills:** kp
+A Jistkan magistrate gains Knowledge (planes) as a class skill. Survival is not a class skill for a
+Jistkan magistrate.
 
-**Lost class skills:** sur
+This alters the warpriest's class skills.
 
-**Elemental Binder (Su)**
+## Elemental Binder (Su) {#elemental-binder}
 
-**Alters:** Blessings
+A Jistkan magistrate must worship a deity who grants the Air, Earth, Fire, or Water blessing, and he
+must select one of these blessings. He does not gain a second blessing.
 
-**Info:** A Jistkan magistrate must select the Air, Earth, Fire, or Water blessing. He does not gain
-a second blessing.
+This alters the warpriest's blessings.
 
-**Spontaneous Summons**
+## Spontaneous Summons {#spontaneous-summons}
 
-**Ability:** In addition to losing prepared spells to cast "cure" or "inflict" spells, he can also
-lose a prepared spell in order to cast any [summon monster](ref/spell/summon-monster) spell of the
-same level or lower. He can use this ability only to summon an [elemental](ref/family/elemental)
-whose subtype matches his blessing. He can expend one use of his _fervor_ ability to decrease the
-spell's casting time to 1 **standard action** and to increase the spell's duration to 1 minute per
-level.
+A Jistkan magistrate is extremely flexible in channeling his stored spell energy. In addition to
+losing prepared spells to cast "cure" or "inflict" spells, he can also lose a prepared spell in
+order to cast any _[summon monster](ref/spell/summon-monster)_ spell of the same level or lower. He
+can use this ability only to summon an [elemental](ref/family/elemental) whose subtype matches his
+blessing. He can expend one use of his fervor ability to decrease the spell's casting time to 1
+standard action and to increase the spell's duration to 1 minute per level.
 
-**Alters:** Spontaneous casting
+This alters spontaneous casting.
 
-**Flavor:** A Jistkan magistrate is extremely flexible in channeling his stored spell energy.
+## Bonus Languages {#bonus-languages}
 
-**Bonus Languages**
+A Jistkan magistrate's bonus language options include Aquan, Auran, Ignan, and Terran instead of
+Abyssal, Celestial, and Infernal. These choices are in addition to the bonus languages available to
+the character because of his race.
 
-**Alters:** Bonus languages
+This alters the warpriest's bonus languages.
 
-**Passive:** A Jistkan magistrate's bonus language options include Aquan, Auran, Ignan, and Terran
-instead of Abyssal, Celestial, and Infernal. These choices are in addition to the bonus languages
-available to the character because of his race.
+## Channel Element (Su) {#channel-element}
 
-**Channel Element (Su)**
+At 4th level, a Jistkan magistrate gains [Elemental Channel](ref/feat/elemental-channel) as a bonus
+feat, choosing the elemental subtype that matches his blessing. He doesn't gain the ability to harm
+undead with channeled energy (if he channels positive energy) or heal undead (if he channels
+negative energy). Instead, he can channel a blast of elemental matter and energy that buffets his
+targets. The Jistkan artificer's blessing determines the damage type of this attack, as indicated by
+the table below. A successful Reflex save halves the damage.
 
-**Action:** Ability
-
-**Alters:** Channel
-
-**Gained:** At 4th Level
-
-A Jistkan magistrate gains [Elemental Channel](ref/feat/elemental-channel) as a bonus feat, choosing
-the elemental subtype that matches his blessing. He doesn't gain the ability to harm undead with
-channeled energy (if he channels positive energy) or heal undead (if he channels negative energy).
-Instead, he can channel a blast of elemental matter and energy that buffets his targets. The Jistkan
-artificer's blessing determines the damage type of this attack, as indicated by the table below. A
-successful Reflex save halves the damage.
+This alters channel.
 
 |Blessing|Damage type|
 | --- | --- |

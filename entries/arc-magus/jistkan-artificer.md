@@ -16,135 +16,111 @@ page = "17"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "diminished-spellcasting" },
+  { anchor = "golem-arm" },
+  { anchor = "improved-unarmed-strike" },
+  { anchor = "empowered-arm", level = 3 },
+  { anchor = "unarmed-spellstrike" },
+]
 trades = [
-  { replaces = "The magus arcana gained at 3rd level", feature = "magus-arcana", levels = [3] },
-  { alters = "Spellcasting", feature = "spells" },
-  { alters = "Arcane pool", feature = "arcane-pool" },
-  { alters = "Cantrips", feature = "cantrips" },
-  { alters = "Spellstrike", feature = "spellstrike" },
+  { replaces = "The magus arcana gained at 3rd level", feature = "magus-arcana", levels = [3], by = ["empowered-arm"] },
+  { alters = "Spellcasting", feature = "spells", by = ["diminished-spellcasting"] },
+  { alters = "Arcane pool", feature = "arcane-pool", by = ["golem-arm"] },
+  { alters = "Cantrips", feature = "cantrips", by = ["improved-unarmed-strike"] },
+  { alters = "Spellstrike", feature = "spellstrike", by = ["unarmed-spellstrike"] },
 ]
 +++
 
 As part of studying the secret methods the original Jistkan artificers used to build golems, these
 magi graft construct parts onto their own arms.
 
-**Diminished Spellcasting**
+## Diminished Spellcasting {#diminished-spellcasting}
 
-**Alters:** Spellcasting
+A Jistkan artificer has one fewer spell slot of each level than a regular magus. If this reduces his
+number of spell slots of a particular level to zero, he can cast spells of that level only if his
+Intelligence allows [bonus spells](ref/rule/determine-bonuses) of that level.
 
-**Info:** A Jistkan artificer has one fewer spell slot of each level than a regular magus. If this
-reduces his number of spell slots of a particular level to zero, he can cast spells of that level
-only if his Intelligence allows [bonus spells](ref/rule/determine-bonuses) of that level.
+This alters the magus's spellcasting.
 
-**Golem Arm (Ex)**
+## Golem Arm (Ex) {#golem-arm}
 
-**Ability:** A Jistkan artificer begins play with a _golem arm_ grafted in place of one of his arms.
-The _golem arm_ is a [masterwork weapon](ref/rule/masterwork-weapons) that is treated as an unarmed
-strike and deals damage as if he were a [monk](ref/class/monk) 2 levels lower than his class level
-(minimum 1st level). The _golem arm_ is made from basic parts and mundane materials that grant no
-additional benefits. A Jistkan artificer can recreate his _golem arm_ from other materials by
-spending 1 day and paying an additional +50% of the normal cost of the special material used in the
-creation of this new _golem arm._ For the purposes of determining the weapon type and weight for
-special materials, the _golem arm_ is treated as a [heavy mace](ref/eq-weapon/heavy-mace).
+A Jistkan artificer begins play with a golem arm grafted in place of one of his arms. The golem arm
+is a [masterwork weapon](ref/rule/masterwork-weapons) that is treated as an unarmed strike and deals
+damage as if he were a [monk](ref/class/monk) 2 levels lower than his class level (minimum 1st
+level). The golem arm is made from basic parts and mundane materials that grant no additional
+benefits. A Jistkan artificer can recreate his golem arm from other materials by spending 1 day and
+paying an additional +50% of the normal cost of the special material used in the creation of this
+new golem arm. For the purposes of determining the weapon type and weight for special materials, the
+golem arm is treated as a [heavy mace](ref/eq-weapon/heavy-mace). If a Jistkan artificer recreates
+his golem arm, any previously used special materials are destroyed. The arm gains no benefits from
+items that enhance unarmed strikes, such as an
+_[amulet of mighty fists](ref/magic-wondrous/amulet-of-mighty-fists)_.
 
-**Alters:** Arcane pool
+At 1st level, a Jistkan artificer can use his arcane pool to enhance his unarmed strikes as if they
+were manufactured weapons. At 5th level, he can use this ability to add any of the following special
+abilities to his unarmed strikes: _[corrosive](ref/magic-enh/corrosive)_,
+_[corrosive burst](ref/magic-enh/corrosive-burst)_, _[defending](ref/magic-enh/defending)_,
+_[flaming](ref/magic-enh/flaming)_, _[flaming burst](ref/magic-enh/flaming-burst)_,
+_[frost](ref/magic-enh/frost)_, _[icy burst](ref/magic-enh/icy-burst)_,
+_[impact](ref/magic-enh/impact)_, _[shock](ref/magic-enh/shock)_,
+_[shocking burst](ref/magic-enh/shocking-burst)_, or _[thundering](ref/magic-enh/thundering)_. At
+11th level, he gains access to the following special abilities:
+_[brilliant energy](ref/magic-enh/brilliant-energy)_ and _[speed](ref/magic-enh/speed)_.
 
-**At 1st Level:** A Jistkan artificer can use his _arcane pool_ to enhance his unarmed strikes as if
-they were manufactured weapons.
+This alters arcane pool.
 
-**At 11th Level:** He he gains access to the following special abilities:
-[brilliant energy](ref/magic-enh/brilliant-energy) and [speed](ref/magic-enh/speed).
+## Improved Unarmed Strike {#improved-unarmed-strike}
 
-**At 5th Level:** He can use this ability to add any of the following special abilities to his
-unarmed strikes: [corrosive](ref/magic-enh/corrosive),
-[corrosive burst](ref/magic-enh/corrosive-burst), [defending](ref/magic-enh/defending),
-[flaming](ref/magic-enh/flaming), [flaming burst](ref/magic-enh/flaming-burst),
-[frost](ref/magic-enh/frost), [icy burst](ref/magic-enh/icy-burst), [impact](ref/magic-enh/impact),
-[shock](ref/magic-enh/shock), [shocking burst](ref/magic-enh/shocking-burst), or
-[thundering](ref/magic-enh/thundering).
+A Jistkan artificer gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus
+feat. He prepares one fewer cantrip per day than normal.
 
-**Special:** If a Jistkan artificer recreates his _golem arm,_ any previously used special materials
-are destroyed. The arm gains no benefits from items that enhance unarmed strikes, such as an
-[amulet of mighty fists](ref/magic-wondrous/amulet-of-mighty-fists).
+This alters cantrips.
 
-**Unarmed Strike**
+## Empowered Arm (Ex) {#empowered-arm}
 
-**Flavor:** Relevant text from the monk class ability.
+At 3rd level, a Jistkan artificer's golem arm is treated as a magic weapon and gains a +1
+enhancement bonus on attack and damage rolls. This bonus increases by 1 at 7th level and every 4
+levels thereafter, to a total bonus of +5 at 19th level.
 
-**At 12th Level:** Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.
+This replaces the magus arcana gained at 3rd level.
 
-**At 16th Level:** Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.
+## Unarmed Spellstrike (Su) {#unarmed-spellstrike}
 
-**At 4th Level:** Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.
+A Jistkan artificer can use spellstrike to deliver spells only when attacking with his unarmed
+strikes.
 
-**At 8th Level:** Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.
+This alters spellstrike.
 
-**At 1st Level:** Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.
+## Magus Arcana {#magus-arcana}
 
-**Improved Unarmed Strike**
+A Jistkan artificer gains access to the following arcana in addition to those normally available to
+the magus. He cannot select any arcana more than once.
 
-**Ability:** A Jistkan artificer gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike)
-as a bonus feat.
+### Break Spell (Ex) {#break-spell}
 
-**Alters:** Cantrips
+A Jistkan artificer can use his arm to disrupt spells targeted at him. When a ranged attack
+generated by a spell effect targets the Jistkan artificer, he can spend a point from his arcane pool
+to attempt a melee attack roll as an attack of opportunity. If the result is greater than the total
+attack roll of the ranged attack, the attack is negated. Spell effects that do not require attack
+rolls cannot be deflected. The magus must be at least 13th level and have the shielding arm arcana
+before selecting this arcana.
 
-**Special:** He prepares one fewer cantrip per day than normal.
+### Flurrying Arm (Ex) {#flurrying-arm}
 
-**Empowered Arm (Ex)**
+A Jistkan artificer can improve his golem arm to attack faster. He gains the flurry of blows monk
+class ability, treating his class level as his monk level. A Jistkan artificer makes only one
+additional attack when he uses flurry of blows. The magus must be at least 11th level to select this
+arcana.
 
-**Ability:** A Jistkan artificer's _golem arm_ is treated as a magic weapon and gains a +1
-enhancement bonus on attack and damage rolls.
+### Sharpened Arm (Ex) {#sharpened-arm}
 
-**Gained:** At 3rd Level
+A Jistkan artificer can rework his arm to more closely resemble a blade. He can choose to deal
+piercing or slashing damage with his golem arm. When he does so, the golem arm threatens a critical
+hit on 19–20. The artificer also adds _[keen](ref/magic-enh/keen)_ and
+_[wounding](ref/magic-enh/wounding)_ to his list of arcane pool weapon abilities.
 
-**Replaces:** The magus arcana gained at 3rd level
+### Shielding Arm (Ex) {#shielding-arm}
 
-At 7th level: This bonus increases to +2.
-
-At 11th level: This bonus increases to +3.
-
-At 15th level: This bonus increases to +4.
-
-At 19th level: This bonus increases to +5.
-
-**Unarmed Spellstrike (Su)**
-
-**Alters:** Spellstrike
-
-**Info:** A Jistkan artificer can use _spellstrike_ to deliver spells only when attacking with his
-unarmed strikes.
-
-**Magus Arcana**
-
-**Ability:** A Jistkan artificer gains access to the following arcana in addition to those normally
-available to the magus. He cannot select any arcana more than once.
-
-**Break Spell (Ex)**
-
-**Ability:** A Jistkan artificer can use his arm to disrupt spells targeted at him. When a ranged
-attack generated by a spell effect targets the Jistkan artificer, he can spend a point from his
-_arcane pool_ to attempt a melee attack roll as an attack of opportunity. If the result is greater
-than the total attack roll of the ranged attack, the attack is negated. Spell effects that do not
-require attack rolls cannot be deflected.
-
-**Prereq:** 13th-level magus and the _shielding arm_ magus arcana.
-
-**Flurrying Arm (Ex)**
-
-**Ability:** A Jistkan artificer can improve his _golem arm_ to attack faster. He gains the flurry
-of blows monk class ability, treating his class level as his monk level. A Jistkan artificer makes
-only one additional attack when he uses flurry of blows.
-
-**Prereq:** 11th-level magus
-
-**Sharpened Arm (Ex)**
-
-**Ability:** A Jistkan artificer can rework his arm to more closely resemble a blade. He can choose
-to deal piercing or slashing damage with his _golem arm._ When he does so, the _golem arm_ threatens
-a critical hit on 19-20. The artificer also adds [keen](ref/magic-enh/keen) and
-[wounding](ref/magic-enh/wounding) to his list of _arcane pool_ weapon abilities.
-
-**Shielding Arm (Ex)**
-
-**Passive:** A Jistkan artificer learns to deflect blows with his arm. If he is not wielding any
-other weapons, he gains a shield bonus to his AC equal to his _golem arm's_ enhancement bonus.
+A Jistkan artificer learns to deflect blows with his arm. If he is not wielding any other weapons,
+he gains a shield bonus to his AC equal to his golem arm's enhancement bonus.
