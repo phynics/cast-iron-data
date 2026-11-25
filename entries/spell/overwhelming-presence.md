@@ -23,7 +23,7 @@ levels = [
   { class = "Inquisitor", level = 6 },
   { class = "Mesmerist", level = 6 },
   { class = "Oracle", level = 9 },
-  { class = "Psychic", level = 9 },
+  { class = "Psychic", level = 4 },
   { class = "Skald", level = 6 },
   { class = "Sorcerer", level = 9 },
   { class = "Wizard", level = 9 },
@@ -42,8 +42,9 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 6: Bard, Inquisitor, Mesmerist, Skald\
-9: Arcanist, Cleric, Oracle, Psychic, Sorcerer, Wizard
+Level: 4: Psychic\
+6: Bard, Inquisitor, Mesmerist, Skald\
+9: Arcanist, Cleric, Oracle, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a swan feather)
 Range: medium (100 ft. + 10 ft./level)

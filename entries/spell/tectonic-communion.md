@@ -18,13 +18,13 @@ page = "29"
 kind = "spell"
 school = "divination"
 levels = [
-  { class = "Druid", level = 5 },
+  { class = "Druid", level = 7 },
   { class = "Hunter", level = 4 },
   { class = "Psychic", level = 5 },
   { class = "Ranger", level = 4 },
   { class = "Shaman", level = 5 },
 ]
-casting_time = "10 minutes"
+casting_time = "1 hour"
 components = "V, S"
 range = "personal"
 effects = [
@@ -39,8 +39,9 @@ spell_resistance = "no"
 title = "Spell statistics"
 School: divination
 Level: 4: Hunter, Ranger\
-5: Druid, Psychic, Shaman
-Casting time: 10 minutes
+5: Psychic, Shaman\
+7: Druid
+Casting time: 1 hour
 Components: V, S
 Range: personal
 Duration: instantaneous

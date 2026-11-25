@@ -33,7 +33,7 @@ range = "see text"
 effects = [
   { label = "Target", value = "one chamber and up to 10 cu. ft. of goods/caster level" },
 ]
-duration = "360 days or until discharged"
+duration = "60 days or until discharged"
 saving_throw = "none"
 spell_resistance = "no"
 +++
@@ -45,7 +45,7 @@ Level: 8: Arcanist, Sorcerer, Witch, Wizard
 Casting time: 10 minutes
 Components: V, S, F (the chest and its replica)
 Range: see text
-Duration: 360 days or until discharged
+Duration: 60 days or until discharged
 Saving throw: none
 Spell resistance: no
 Target: one chamber and up to 10 cu. ft. of goods/caster level
