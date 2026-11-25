@@ -63,7 +63,8 @@ At 3rd level, the buccaneer's baffling palaver of nautical jargon and piratical 
 bonus on Bluff and Intimidate checks. Furthermore, she can spend a swift action and 1 grit point to
 cause a single living creature within 30 feet to make a Will saving throw (DC = 10 + 1/2 her
 buccaneer level + her Charisma modifier) or become [confused](ref/misc/confused) for 1 round. This
-is a mind-affecting language-dependent effect. This replaces the pistol whip deed.
+is a mind-affecting language-dependent effect. This replaces the [pistol](ref/eq-weapon/pistol) whip
+deed.
 
 ## Rope Swing (Ex) {#rope-swing}
 

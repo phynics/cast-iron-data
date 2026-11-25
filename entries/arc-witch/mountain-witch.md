@@ -33,7 +33,7 @@ the lofty reaches.
 ## Spells {#spells}
 
 A mountain witch replaces some of her patron spells with the following: 2nd—_magic stone_,
-4th—_stone call_, 6th— _meld into stone_, 8th—_stoneskin_, 10th—_wall of stone_, 12th—_stone tell_,
+4th—_stone call_, 6th—_meld into stone_, 8th—_stoneskin_, 10th—_wall of stone_, 12th—_stone tell_,
 14th—_statue_, 16th—_repel metal or stone_, 18th—_clashing rocks_.
 
 ## Stone Spirit Hex {#stone-spirit-hex}
@@ -51,9 +51,9 @@ ability. This ability replaces the hex gained at 2nd level.
 
 ## Hexes {#hexes}
 
-The following witch hexes complement the mountain witch archetype: beast of ill-omen, crystal sight,
-lodestone, metal curse, stone stability, and ward of stone. (Those with asterisks \[\*\] are
-detailed in the shaman class.)
+The following witch hexes complement the mountain witch archetype:
+[beast of ill-omen](ref/hex/beast-of-ill-omen), crystal sight\*, lodestone\*, metal curse\*, stone
+stability\*, and ward of stone\*. (Those with asterisks \[\*\] are detailed in the shaman class.)
 
 ## Major Hexes {#major-hexes}
 

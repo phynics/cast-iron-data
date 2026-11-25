@@ -20,8 +20,8 @@ levels = [
   { class = "Bloodrager", level = 4 },
   { class = "Bard", level = 4 },
   { class = "Medium", level = 3 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Psychic", level = 3 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Psychic", level = 4 },
   { class = "Sorcerer", level = 4 },
   { class = "Wizard", level = 4 },
 ]
@@ -39,8 +39,8 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 3: Medium, Mesmerist, Psychic\
-4: Arcanist, Bloodrager, Bard, Sorcerer, Wizard
+Level: 3: Medium\
+4: Arcanist, Bloodrager, Bard, Mesmerist, Psychic, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: personal

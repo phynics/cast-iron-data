@@ -34,8 +34,8 @@ trades = [
 ]
 +++
 
-Not all climates are verdant paradises, but even in the sere deserts there is life - though often
-hidden from the sun and rarely friendly - and raw, desolate beauty. Here desert druids come to pay
+Not all climates are verdant paradises, but even in the sere deserts there is life—though often
+hidden from the sun and rarely friendly—and raw, desolate beauty. Here desert druids come to pay
 homage, protect and maintain the few habitable locales, and witness nature's majesty in all its
 burning, merciless glory.
 

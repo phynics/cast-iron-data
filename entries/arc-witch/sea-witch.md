@@ -38,7 +38,7 @@ earth or fire).
 ## Spells {#spells}
 
 A sea witch replaces some of her patron spells with the following: 2nd—_touch of sea_, 4th—_gust of
-wind_, 6th—_water breathing_, 8th—_control water_, 10th— _cloudkill_, 12th—_control wind_,
+wind_, 6th—_water breathing_, 8th—_control water_, 10th—_cloudkill_, 12th—_control wind_,
 14th—_control weather_, 16th—_vortex_, 18th—_tsunami_.
 
 ## Know Direction (Sp) {#know-direction}

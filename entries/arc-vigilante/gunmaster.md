@@ -16,11 +16,16 @@ page = "57"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "gunmaster", level = 1 },
+  { anchor = "gunmaster-talents" },
+  { anchor = "nimble", level = 4 },
+]
 trades = [
-  { replaces = "Vigilante specialization", feature = "vigilante-specialization" },
-  { replaces = "Unshakable", feature = "unshakable" },
+  { replaces = "Vigilante specialization", feature = "vigilante-specialization", by = ["gunmaster"] },
+  { replaces = "Unshakable", feature = "unshakable", by = ["nimble"] },
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { alters = "Vigilante talents", feature = "vigilante-talent" },
+  { alters = "Vigilante talents", feature = "vigilante-talent", by = ["gunmaster-talents"] },
 ]
 +++
 
@@ -28,107 +33,75 @@ Firearms can be potent tools for striking fear into the hearts of enemies, and c
 this to their advantage. Gunmasters brandish firearms like extensions of their will, taking down
 their foes with deadly accuracy and skill.
 
-**Weapon and Armor Proficiencies**
+## Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
-**Alters:** Weapon and armor proficiencies
+A gunmaster is proficient with all firearms but not with martial weapons or medium armor.
 
-**Info:** A gunmaster is proficient with all firearms but not with martial weapons or medium armor.
+This alters the vigilante's weapon and armor proficiencies.
 
-**Gunmaster**
+## Gunmaster {#gunmaster}
 
-**Ability:** A gunmaster gains the [gunslinger's](ref/class/gunslinger) gunsmith ability.
-Additionally, the [Gunsmithing](ref/feat/gunsmithing) bonus feat allows the gunmaster to repair and
-restore his initial battered firearm as if he were a gunslinger.
+At 1st level, a gunmaster gains the [gunslinger's](ref/class/gunslinger)
+[gunsmith](ref/class/gunslinger#gunsmith) ability. Additionally, the
+[Gunsmithing](ref/feat/gunsmithing) bonus feat allows the gunmaster to repair and restore his
+initial battered firearm as if he were a gunslinger. At 5th level, and every 4 vigilante levels
+thereafter, the gunmaster gains a +1 bonus on attack and damage rolls with all firearms.
 
-**At 5th Level:** The gunmaster gains a +1 bonus on attack and damage rolls with all firearms.
+This ability replaces vigilante specialization.
 
-**Replaces:** Vigilante specialization
+## Gunmaster Talents {#gunmaster-talents}
 
-At 9th level: This bonus increases to +2.
+A gunmaster can select from any of the following vigilante talents, in addition to general vigilante
+talents.
 
-At 13th level: This bonus increases to +3.
+This alters vigilante talents.
 
-At 17th level: This bonus increases to +4.
+### Deadeye (Ex) {#deadeye}
 
-**Gunsmith**
-
-**Ability:** You gain [Gunsmithing](ref/feat/gunsmithing) as a bonus feat, and one of the following
-firearms of your choice: [blunderbuss](ref/eq-weapon/blunderbuss), [musket](ref/eq-weapon/musket),
-or [pistol](ref/eq-weapon/pistol). Your starting weapon is battered, and only you know how to use it
-properly. All other creatures treat your gun as if it had the [broken](ref/misc/broken) condition.
-If the weapon already has the broken condition, it does not work at all for anyone else trying to
-use it.
-
-**Flavor:** Text from the gunslinger class ability.
-
-**Special:** This starting weapon can only be sold for scrap (it's worth 4d10 gp when sold).
-
-**Gunmaster Talents**
-
-**Alters:** Vigilante talents
-
-**Info:** A gunmaster can select from any of the following vigilante talents, in addition to general
-vigilante talents.
-
-**Deadeye (Ex)**
-
-**Ability:** The gunmaster can resolve an attack against touch AC instead of normal AC when firing
+Once per day, the gunmaster can resolve an attack against touch AC instead of normal AC when firing
 one increment beyond his firearm's first range increment. The gunmaster still takes the -2 penalty
-on attack rolls for shooting a target outside the firearm's first range increment.
+on attack rolls for shooting a target outside the firearm's first range increment. At 6th level and
+every 4 vigilante levels thereafter, he can use this ability one additional time per day. A
+gunmaster can spend multiple daily uses to resolve an attack at a further range increment (for
+instance, he can spend three uses to resolve an attack three increments beyond his first range
+increment).
 
-**Special:** A gunmaster can spend multiple daily uses to resolve an attack at a further range
-increment (for instance, he can spend three uses to resolve an attack three increments beyond his
-first range increment).
+### Death's Shot (Ex) {#death-s-shot}
 
-**Usage:** 1 time/day + 1 per 4 vigilante levels beyond 2nd
+Three times per day, as an immediate action when the gunmaster scores a critical hit, he can attempt
+to kill his enemy instantly. When the gunmaster uses this talent, the target must succeed at a
+Fortitude saving throw with a DC equal to 10 + 1/2 the gunmaster's vigilante level + his Dexterity
+modifier. On a failed saving throw, the target dies instantly. A gunmaster must be 20th level to
+select this talent.
 
-**Death's Shot (Ex)**
+### Gunmaster Initiative (Ex) {#gunmaster-initiative}
 
-**Immediate:** Three times per day, when the gunmaster scores a critical hit, he can attempt to kill
-his enemy instantly. When the gunmaster uses this talent, the target must succeed at a Fortitude
-saving throw with a DC equal to 10 + 1/2 the gunmaster's vigilante level + his Dexterity modifier.
-On a failed saving throw, the target dies instantly.
-
-**Prereq:** 20th-level vigilante
-
-**Gunmaster Initiative (Ex)**
-
-**Ability:** The gunmaster gains a +2 bonus on initiative checks. Furthermore, if he has the
+The gunmaster gains a +2 bonus on initiative checks. Furthermore, if he has the
 [Quick Draw](ref/feat/quick-draw) feat, his hands are free and unrestrained, and the firearm is not
-hidden, he can draw a single firearm as part of the initiative check.
+hidden, he can draw a single firearm as part of the initiative check. A gunmaster must be at least
+4th level to select this talent.
 
-**Prereq:** 4th-level vigilante
+### Lightning Reload (Ex) {#lightning-reload}
 
-**Lightning Reload (Ex)**
+A number of times per day equal to half his vigilante level, a gunmaster can reload a single barrel
+of a one-handed or two-handed firearm as a swift action once per round. If he has the
+[Rapid Reload](ref/feat/rapid-reload) feat or is using an alchemical cartridge (or both), he can
+reload a single barrel of the weapon as a free action each round instead. Using this talent does not
+provoke attacks of opportunity. A gunmaster must be at least 12th level to select this talent.
 
-**Prereq:** 12th-level vigilante
+### Quick Clear (Ex) {#quick-clear}
 
-**Provokes attack of opportunity:** No
+Once per day as a standard action, the gunmaster can remove the [broken](ref/misc/broken) condition
+from a single firearm he is currently wielding, as long as that condition was gained by a firearm
+misfire. Starting at 12th level, once per day, when the gunmaster rolls a misfire with a gun that
+has the broken condition, she can prevent the gun from exploding, though it retains the broken
+condition.
 
-**Swift:** A gunmaster can reload a single barrel of a one-handed or two-handed firearm once per
-round. If he has the [Rapid Reload](ref/feat/rapid-reload) feat or is using an alchemical cartridge
-(or both), he can reload a single barrel of the weapon as a **free action** each round instead.
+## Nimble (Ex) {#nimble}
 
-**Usage:** 1 time/day per 2 vigilante levels
+Starting at 4th level, a gunmaster gains a +1 dodge bonus to AC while wearing light or no armor.
+Anything that causes the gunmaster to lose her Dexterity bonus to AC also causes the gunmaster to
+lose this dodge bonus. This bonus increases by 1 for every 6 vigilante levels beyond 4th (to a
+maximum of +3 at 16th level).
 
-**Quick Clear (Ex)**
-
-**At 12th Level:** Once per day, when the gunmaster rolls a misfire with a gun that has the broken
-condition, she can prevent the gun from exploding, though it retains the broken condition.
-
-**Standard:** Once per day, the gunmaster can remove the broken condition from a single firearm he
-is currently wielding, as long as that condition was gained by a firearm misfire.
-
-**Nimble (Ex)**
-
-**Gained:** At 4th Level
-
-**Passive:** A gunmaster gains a +1 dodge bonus to AC while wearing light or no armor. Anything that
-causes the gunmaster to lose her Dexterity bonus to AC also causes the gunmaster to lose this dodge
-bonus.
-
-**Replaces:** Unshakable
-
-At 10th level: This bonus increases to +2.
-
-At 16th level: This bonus increases to +3.
+This ability replaces unshakable.

@@ -54,11 +54,12 @@ categories: feats, monk abilities, and spells.
 ### Feats {#feats}
 
 These _ki_ powers duplicate the effects of specific feats. A monk does not need to qualify for a
-feat to select it as a _ki_ power. For example, a qinggong monk can select Spring Attack as a _ki_
-power even if she doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating
-one of these _ki_ powers is a free action on the monk's turn; until the start of her next turn, the
-monk is treated as if she had that feat. Some of these _ki_ powers that duplicate feats may also be
-activated as an immediate action; these powers are noted in the _ki_ powers list.
+feat to select it as a _ki_ power. For example, a qinggong monk can select
+[Spring Attack](ref/feat/spring-attack) as a _ki_ power even if she doesn't meet the prerequisites
+for selecting Spring Attack as a feat. Activating one of these _ki_ powers is a free action on the
+monk's turn; until the start of her next turn, the monk is treated as if she had that feat. Some of
+these _ki_ powers that duplicate feats may also be activated as an immediate action; these powers
+are noted in the _ki_ powers list.
 
 ### Monk Abilities {#monk-abilities}
 
@@ -95,105 +96,105 @@ marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats mar
 
 |Ki power|Details|
 | --- | --- |
-|Acrobatic Steps|1 _ki_ point|
-|_augury_|1 _ki_ point|
-|_barkskin_|self only, 1 _ki_ point|
-|Deny Death\*, †|0 _ki_ points|
-|_feather step_\*\*|self only, 1 _ki_ point|
-|_hydraulic push_\*\*|1 _ki_ point|
-|_ki arrow\*_|1 _ki_ point|
+|[Acrobatic Steps](ref/feat/acrobatic-steps)|1 _ki_ point|
+|_[augury](ref/spell/augury)_|1 _ki_ point|
+|_[barkskin](ref/spell/barkskin)_|self only, 1 _ki_ point|
+|[Deny Death](ref/feat/deny-death)\*, †|0 _ki_ points|
+|_[feather step](ref/spell/feather-step)_\*\*|self only, 1 _ki_ point|
+|_[hydraulic push](ref/spell/hydraulic-push)_\*\*|1 _ki_ point|
+|_[ki arrow](ref/spell/ki-arrow)\*_|1 _ki_ point|
 |_Ki_ Stand\*, †|0 _ki_ points|
-|_message_|1 _ki_ point|
-|Power Attack|1 _ki_ point|
-|Quick Draw|1 _ki_ point|
-|_scorching ray_|2 _ki_ points|
+|_[message](ref/spell/message)_|1 _ki_ point|
+|[Power Attack](ref/feat/power-attack)|1 _ki_ point|
+|[Quick Draw](ref/feat/quick-draw)|1 _ki_ point|
+|_[scorching ray](ref/spell/scorching-ray)_|2 _ki_ points|
 |slow fall|monk ability, 0 _ki_ points|
-|Throw Anything|1 _ki_ point|
-|_true strike_|self only, 1 _ki_ point|
+|[Throw Anything](ref/feat/throw-anything)|1 _ki_ point|
+|_[true strike](ref/spell/true-strike)_|self only, 1 _ki_ point|
 
 ### 6th-Level Ki Powers {#6th-level-ki-powers}
 
 |Ki power|Details|
 | --- | --- |
-|_cloak of winds_\*\*|self only, 2 _ki_ points|
-|_gaseous form_|self only, 1 _ki_ point|
-|Heroic Recovery\*\*, †|1 _ki_ point|
+|_[cloak of winds](ref/spell/cloak-of-winds)_\*\*|self only, 2 _ki_ points|
+|_[gaseous form](ref/spell/gaseous-form)_|self only, 1 _ki_ point|
+|[Heroic Recovery](ref/feat/heroic-recovery)\*\*, †|1 _ki_ point|
 |high jump|monk ability, 1 _ki_ point|
-|_hydraulic torrent_ \*\*|2 _ki_ points|
-|_remove disease_|2 _ki_ points|
-|Sidestep \*\*, †|1 _ki_ point|
-|Snatch Arrows†|1 _ki_ point|
+|_[hydraulic torrent](ref/spell/hydraulic-torrent)_ \*\*|2 _ki_ points|
+|_[remove disease](ref/spell/remove-disease)_|2 _ki_ points|
+|[Sidestep](ref/feat/sidestep) \*\*, †|1 _ki_ point|
+|[Snatch Arrows](ref/feat/snatch-arrows)†|1 _ki_ point|
 |Spring Attack|1 _ki_ point|
 
 ### 8th-Level Ki Powers {#8th-level-ki-powers}
 
 |Ki power|Details|
 | --- | --- |
-|_dragon's breath_\*\*|2 _ki_ points|
-|Gliding Steps\*, †|1 _ki_ point|
-|_neutralize poison_|3 _ki_ points|
-|_poison_|2 _ki_ points|
-|_restoration_|self only, 2 _ki_ points|
-|_share memory_\*|0 _ki_ points|
-|_silk to steel_\*|1 _ki_ point|
-|Spider Step\*\*|1 _ki_ point|
-|Whirlwind Attack|2 _ki_ points|
+|_[dragon's breath](ref/spell/dragons-breath)_\*\*|2 _ki_ points|
+|[Gliding Steps](ref/feat/gliding-steps)\*, †|1 _ki_ point|
+|_[neutralize poison](ref/spell/neutralize-poison)_|3 _ki_ points|
+|_[poison](ref/spell/poison)_|2 _ki_ points|
+|_[restoration](ref/spell/restoration)_|self only, 2 _ki_ points|
+|_[share memory](ref/spell/share-memory)_\*|0 _ki_ points|
+|_[silk to steel](ref/spell/silk-to-steel)_\*|1 _ki_ point|
+|[Spider Step](ref/feat/spider-step)\*\*|1 _ki_ point|
+|[Whirlwind Attack](ref/feat/whirlwind-attack)|2 _ki_ points|
 |wholeness of body|monk ability, level 7, 2 _ki_ points|
 
 ### 10th-Level Ki Powers {#10th-level-ki-powers}
 
 |Ki power|Details|
 | --- | --- |
-|_discordant blast_\*\*|2 _ki_ points|
-|Greater Bull Rush|2 _ki_ points|
-|Greater Disarm|2 _ki_ points|
-|Greater Feint|2 _ki_ points|
-|Greater Sunder|2 _ki_ points|
-|Improved Blind-Fight\*\*, †|1 _ki_ point|
-|_ki leech_\*|0 _ki_ points|
-|Lunge|1 _ki_ point|
-|_shadow step_\*|1 _ki_ point|
-|_spit venom_\*|2 _ki_ points|
-|Step Up and Strike\*\*, †|2 _ki_ points|
-|Wind Stance|2 _ki_ points|
+|_[discordant blast](ref/spell/discordant-blast)_\*\*|2 _ki_ points|
+|[Greater Bull Rush](ref/feat/greater-bull-rush)|2 _ki_ points|
+|[Greater Disarm](ref/feat/greater-disarm)|2 _ki_ points|
+|[Greater Feint](ref/feat/greater-feint)|2 _ki_ points|
+|[Greater Sunder](ref/feat/greater-sunder)|2 _ki_ points|
+|[Improved Blind-Fight](ref/feat/improved-blind-fight)\*\*, †|1 _ki_ point|
+|_[ki leech](ref/spell/ki-leech)_\*|0 _ki_ points|
+|[Lunge](ref/feat/lunge)|1 _ki_ point|
+|_[shadow step](ref/spell/shadow-step)_\*|1 _ki_ point|
+|_[spit venom](ref/spell/spit-venom)_\*|2 _ki_ points|
+|[Step Up and Strike](ref/feat/step-up-and-strike)\*\*, †|2 _ki_ points|
+|[Wind Stance](ref/feat/wind-stance)|2 _ki_ points|
 
 ### 12th-Level Ki Powers {#12th-level-ki-powers}
 
 |Ki power|Details|
 | --- | --- |
 |abundant step|monk ability, 2 _ki_ points|
-|_battlemind link\*_|4 _ki_ points|
+|_[battlemind link](ref/spell/battlemind-link)\*_|4 _ki_ points|
 |diamond body|monk ability|
-|Elemental Fists\*\*|2 _ki_ points|
-|Improvised Weapon Mastery|2 _ki_ points|
+|[Elemental Fists](ref/feat/elemental-fist)\*\*|2 _ki_ points|
+|[Improvised Weapon Mastery](ref/feat/improvised-weapon-mastery)|2 _ki_ points|
 |_Ki_ Throw\*\*|2 _ki_ points|
-|Punishing Kick\*\*|2 _ki_ points|
-|_shadow walk_|3 _ki_ points|
+|[Punishing Kick](ref/feat/punishing-kick)\*\*|2 _ki_ points|
+|_[shadow walk](ref/spell/shadow-walk)_|3 _ki_ points|
 
 ### 14th-Level Ki Powers {#14th-level-ki-powers}
 
 |Ki power|Details|
 | --- | --- |
-|_blood crow strike_\*|2 _ki_ points|
-|Cloud Step\*\*|3 _ki_ points|
-|_cold ice strike\*_|3 _ki_ points|
+|_[blood crow strike](ref/spell/blood-crow-strike)_\*|2 _ki_ points|
+|[Cloud Step](ref/feat/cloud-step)\*\*|3 _ki_ points|
+|_[cold ice strike](ref/spell/cold-ice-strike)\*_|3 _ki_ points|
 |diamond soul|monk ability|
-|Disarming Strike\*\*|2 _ki_ points|
+|[Disarming Strike](ref/feat/disarming-strike)\*\*|2 _ki_ points|
 |Improved _Ki_ Throw\*\*|2 _ki_ points|
-|_ki shout_\*|3 _ki_ points|
-|_sonic thrust_\*|2 _ki_ points|
+|_[ki shout](ref/spell/ki-shout)_\*|3 _ki_ points|
+|_[sonic thrust](ref/spell/sonic-thrust)_\*|2 _ki_ points|
 
 ### 16th-Level Ki Powers {#16th-level-ki-powers}
 
 |Ki power|Details|
 | --- | --- |
-|Bleeding Critical|3 _ki_ points|
-|Greater Blind-Fight\*\*, †|2 _ki_ points|
-|Improved Vital Strike|2 _ki_ points|
-|Lightning Stance|3 _ki_ points|
-|Penetrating Strike|2 _ki_ points|
+|[Bleeding Critical](ref/feat/bleeding-critical)|3 _ki_ points|
+|[Greater Blind-Fight](ref/feat/greater-blind-fight)\*\*, †|2 _ki_ points|
+|[Improved Vital Strike](ref/feat/improved-vital-strike)|2 _ki_ points|
+|[Lightning Stance](ref/feat/lightning-stance)|3 _ki_ points|
+|[Penetrating Strike](ref/feat/penetrating-strike)|2 _ki_ points|
 |quivering palm|monk ability, 2 _ki_ points|
-|_strangling hair\*_|3 _ki_ points|
+|_[strangling hair](ref/spell/strangling-hair)\*_|3 _ki_ points|
 
 ### 18th-Level Ki Powers {#18th-level-ki-powers}
 
@@ -206,10 +207,10 @@ marked with two asterisks (\*\*) are in the _Advanced Player's Guide_. Feats mar
 
 |Ki power|Details|
 | --- | --- |
-|Blinding Critical|3 _ki_ points|
-|Crippling Critical\*\*|3 _ki_ points|
-|Deafening Critical|3 _ki_ points|
+|[Blinding Critical](ref/feat/blinding-critical)|3 _ki_ points|
+|[Crippling Critical](ref/feat/crippling-critical)\*\*|3 _ki_ points|
+|[Deafening Critical](ref/feat/deafening-critical)|3 _ki_ points|
 |empty body|monk ability, 3 _ki_ points|
-|Greater Penetrating Strike|3 _ki_ points|
+|[Greater Penetrating Strike](ref/feat/greater-penetrating-strike)|3 _ki_ points|
 |perfect self|monk ability, level 20|
-|Tiring Critical|3 _ki_ points|
+|[Tiring Critical](ref/feat/tiring-critical)|3 _ki_ points|

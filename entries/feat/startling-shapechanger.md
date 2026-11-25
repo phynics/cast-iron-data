@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/startling-shapechanger"
 kind = "feat"
-title = "Startling Shapechanger"
+title = "Startling Shapechange"
 aon = "FeatDisplay.aspx?ItemName=Startling%20Shapechanger"
 source_ids = ["blood-of-the-beast"]
 provenance = [

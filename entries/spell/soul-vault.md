@@ -22,7 +22,7 @@ levels = [
   { class = "Inquisitor", level = 3 },
   { class = "Oracle", level = 3 },
   { class = "Psychic", level = 5 },
-  { class = "Shaman", level = 4 },
+  { class = "Shaman", level = 3 },
   { class = "Sorcerer", level = 4 },
   { class = "Spiritualist", level = 2 },
   { class = "Warpriest", level = 3 },
@@ -44,8 +44,8 @@ spell_resistance = "yes"
 title = "Spell statistics"
 School: abjuration
 Level: 2: Spiritualist\
-3: Cleric, Inquisitor, Oracle, Warpriest\
-4: Arcanist, Druid, Hunter, Shaman, Sorcerer, Witch, Wizard\
+3: Cleric, Inquisitor, Oracle, Shaman, Warpriest\
+4: Arcanist, Druid, Hunter, Sorcerer, Witch, Wizard\
 5: Psychic
 Casting time: 1 standard action
 Components: V, S, DF

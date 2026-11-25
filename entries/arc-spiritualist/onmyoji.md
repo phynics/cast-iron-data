@@ -16,12 +16,17 @@ page = "111"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "divine-spellcasting" },
+  { anchor = "spiritual-resistance", level = 1 },
+  { anchor = "divine-teachings" },
+]
 trades = [
-  { replaces = "Shared consciousness", feature = "shared-consciousness" },
-  { replaces = "fused consciousness", feature = "fused-consciousness" },
-  { replaces = "Spiritual interference", feature = "spiritual-interference" },
-  { replaces = "greater spiritual interference", feature = "greater-spiritual-interference" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Shared consciousness", feature = "shared-consciousness", by = ["spiritual-resistance"] },
+  { replaces = "fused consciousness", feature = "fused-consciousness", by = ["spiritual-resistance"] },
+  { replaces = "Spiritual interference", feature = "spiritual-interference", by = ["divine-teachings"] },
+  { replaces = "greater spiritual interference", feature = "greater-spiritual-interference", by = ["divine-teachings"] },
+  { alters = "Spellcasting", feature = "spells", by = ["divine-spellcasting"] },
 ]
 +++
 
@@ -33,46 +38,31 @@ and the spiritual one, either working to ensure that troubles in the spiritual w
 over into the world of mortals, or stirring up spiritual trouble in order to achieve their ends
 among the living.
 
-**Divine Spellcasting**
+## Divine Spellcasting {#divine-spellcasting}
 
-**Alters:** Spellcasting
-
-**Info:** An onmyoji's spellcasting ability comes from divine rather than psychic power. As a divine
-caster, the onmyoji's spells use verbal components instead of thought components, and somatic
-components instead of emotional components, and she uses an ofuda as a divine focus. Ofudas are
-scrolls with holy writings written on parchment, cloth, or wood (having the same cost as a
+An onmyoji's spellcasting ability comes from divine rather than psychic power. As a divine caster,
+the onmyoji's spells use verbal components instead of thought components, and somatic components
+instead of emotional components, and she uses an ofuda as a divine focus. Ofudas are scrolls with
+holy writings written on parchment, cloth, or wood (having the same cost as a
 [wooden holy symbol](ref/eq-misc/wooden-holy-symbol)) or metal (having the same cost as a
-[silver holy symbol](ref/eq-misc/holy-symbol-silver)).
+[silver holy symbol](ref/eq-misc/holy-symbol-silver)). This ability alters spellcasting.
 
-**Spiritual Resistance (Su)**
+## Spiritual Resistance (Su) {#spiritual-resistance}
 
-**Flavor:** An onmyoji's phantom provides her with protection from supernatural forces.
+An onmyoji's phantom provides her with protection from supernatural forces. While the phantom is
+confined within the onmyoji's consciousness (not stranded on the Ethereal Plane or fully
+manifested), it grants her a +2 bonus on saving throws against the spell-like and supernatural
+abilities of fey, outsiders, and incorporeal undead. At 6th level and every 6 levels thereafter,
+this bonus increases by 1 (to a maximum of +5 at 18th level). This ability replaces shared
+consciousness and fused consciousness.
 
-**Passive:** While the phantom is confined within the onmyoji's consciousness (not stranded on the
-Ethereal Plane or fully manifested), it grants her a +2 bonus on saving throws against the
-spell-like and supernatural abilities of fey, outsiders, and incorporeal undead.
+## Divine Teachings (Su) {#divine-teachings}
 
-**Replaces:** Shared consciousness, fused consciousness
-
-At 6th level: This bonus increases to +3.
-
-At 12th level: This bonus increases to +4.
-
-At 18th level: This bonus increases to +5.
-
-**Divine Teachings (Su)**
-
-**Flavor:** An onmyoji gains the ability to call upon her phantom to help her cast spells she
-normally couldn't.
-
-**At 4th Level:** An onmyoji can choose a single spell from the cleric spell list with a spell level
-she is currently able to cast, and add that spell to her list of spells known, at the same spell
-level as it appears on the cleric spell list.
-
-**Repeat:** She selects another cleric spell, following the restrictions above., 7, 3
-
-**Replaces:** Spiritual interference, greater spiritual interference
-
-**Special:** Because the onmyoji relies on her phantom's influence in order to cast these spells,
-she can cast spells added in this way only while the phantom is confined within her consciousness
-(not stranded on the Ethereal Plane or fully manifested).
+An onmyoji gains the ability to call upon her phantom to help her cast spells she normally couldn't.
+At 4th level and every 3 levels thereafter, an onmyoji can choose a single spell from the cleric
+spell list with a spell level she is currently able to cast, and add that spell to her list of
+spells known, at the same spell level as it appears on the cleric spell list. Because the onmyoji
+relies on her phantom's influence in order to cast these spells, she can cast spells added in this
+way only while the phantom is confined within her consciousness (not stranded on the Ethereal Plane
+or fully manifested). This ability replaces spiritual interference and greater spiritual
+interference.

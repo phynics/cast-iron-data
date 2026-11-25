@@ -136,5 +136,6 @@ The forgemaster [gains this](ref/feat/craft-magic-arms-and-armor) as a bonus fea
 
 ## Master Smith (Ex) {#master-smith}
 
-At 5th level, a forgemaster can craft mundane metal items quickly, using half their gp value to
-determine progress, and can craft magical metal items in half the normal amount of time.
+At 5th level, a forgemaster can craft mundane metal items quickly, using
+[half](ref/misc/fractions-and-rounding) their gp value to determine progress, and can craft magical
+metal items in half the normal amount of time.

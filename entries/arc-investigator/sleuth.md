@@ -41,9 +41,10 @@ mysteries with wits, gumption, and the fickle consideration of luck.
 At 1st level, a sleuth gains a fluctuating pool of luck, measuring her ability to get out of
 scrapes. At the start of each day, a sleuth has a number of luck points equal to her Charisma
 modifier (minimum 1). Her luck goes up or down throughout the day, but usually cannot go higher than
-her Charisma modifier (minimum 1), though feats, magic items, and spells that grant either grit or
-panache points can also grant a sleuth luck points equal to the amount of grit or panache they
-grant. A sleuth spends luck to accomplish deeds (see below), and regains luck in the following ways.
+her Charisma modifier (minimum 1), though feats, magic items, and spells that grant either
+[grit](ref/class/gunslinger) or [panache](ref/class/swashbuckler) points can also grant a sleuth
+luck points equal to the amount of grit or panache they grant. A sleuth spends luck to accomplish
+deeds (see below), and regains luck in the following ways.
 
 _Rolling a Natural 20 on a Knowledge or Sense Motive Check_: While on an investigation, a sleuth
 regains luck by uncovering secrets. Rolling a natural 20 on these skill checks while actively
@@ -60,8 +61,9 @@ don't qualify for regaining luck. The GM is the final arbitrator for what rolls 
 possible for an investigator to regain 2 luck points on the same Skill check, if both the qualifying
 skill check is a natural 20 and any inspiration roll made is a 6 or higher.
 
-This and the 1st-level deeds below replace alchemy. A sleuth cannot take the alchemist discovery
-talent or any investigator talent that affects alchemy.
+This and the 1st-level deeds below replace alchemy. A sleuth cannot take the
+[alchemist discovery](ref/invtalent/alchemist-discovery) talent or any investigator talent that
+affects alchemy.
 
 ## Grit, Luck, and Panache {#grit-luck-and-panache}
 

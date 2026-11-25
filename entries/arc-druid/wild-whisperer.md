@@ -44,9 +44,10 @@ level as her investigator level when determining the effects of this ability. In
 of inspiration on Knowledge, Linguistics, or Spellcraft skill checks, the wild whisperer can use
 inspiration on Handle Animal, Heal, Knowledge (geography), Knowledge (nature), Ride, Sense Motive,
 and Survival skill checks without expending a use of inspiration, provided she's trained in the
-relevant skill. She can also use inspiration on any wild empathy check without expending a use of
-inspiration. A wild whisperer's inspiration pool refreshes each day when she prepares spells. This
-ability replaces woodland stride, trackless step, and resist nature's lure.
+relevant skill. She can also use inspiration on any wild [empathy](ref/invtalent/empathy) check
+without expending a use of inspiration. A wild whisperer's inspiration pool refreshes each day when
+she prepares spells. This ability replaces woodland stride, trackless step, and resist nature's
+lure.
 
 ## Wild Shape (Ex) {#wild-shape}
 
@@ -69,6 +70,12 @@ additional use of wild shape at 8th level.
 
 ## Investigator Talents {#investigator-talents}
 
-The following investigator talents complement the wild whisperer archetype: amazing inspiration,
-effortless aid, eidetic recollection, empathy, inspirational expertise, inspired alertness, inspired
-intimidator, perceptive tracking, tenacious inspiration.
+The following investigator talents complement the wild whisperer archetype:
+[amazing inspiration](ref/invtalent/amazing-inspiration),
+[effortless aid](ref/invtalent/effortless-aid),
+[eidetic recollection](ref/invtalent/eidetic-recollection), empathy,
+[inspirational expertise](ref/invtalent/inspirational-expertise),
+[inspired alertness](ref/invtalent/inspired-alertness),
+[inspired intimidator](ref/invtalent/inspired-intimidator),
+[perceptive tracking](ref/invtalent/perceptive-tracking),
+[tenacious inspiration](ref/invtalent/tenacious-inspiration).

@@ -33,7 +33,7 @@ range = "medium (100 ft. + 10 ft./level)"
 effects = [
   { label = "Target", value = "any number of creatures" },
 ]
-duration = "conecentration plus 1 round/level, up to 1 hour/level"
+duration = "concentration plus 1 round/level, up to 1 hour/level"
 saving_throw = "Will negates (see text)"
 spell_resistance = "no"
 +++
@@ -45,7 +45,7 @@ Level: 5: Arcanist, Bard, Cleric, Inquisitor, Mesmerist, Oracle, Psychic, Sorcer
 Casting time: 1 minute
 Components: V, S, M/DF (a handwritten sheet of notes)
 Range: medium (100 ft. + 10 ft./level)
-Duration: conecentration plus 1 round/level, up to 1 hour/level
+Duration: concentration plus 1 round/level, up to 1 hour/level
 Saving throw: Will negates (see text)
 Spell resistance: no
 Target: any number of creatures

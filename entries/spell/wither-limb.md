@@ -21,7 +21,7 @@ levels = [
   { class = "Oracle", level = 6 },
   { class = "Shaman", level = 6 },
   { class = "Sorcerer", level = 6 },
-  { class = "Spiritualist", level = 6 },
+  { class = "Spiritualist", level = 5 },
   { class = "Warpriest", level = 6 },
   { class = "Witch", level = 6 },
   { class = "Wizard", level = 6 },
@@ -40,7 +40,8 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 6: Arcanist, Cleric, Inquisitor, Oracle, Shaman, Sorcerer, Spiritualist, Warpriest, Witch, Wizard
+Level: 5: Spiritualist\
+6: Arcanist, Cleric, Inquisitor, Oracle, Shaman, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: touch

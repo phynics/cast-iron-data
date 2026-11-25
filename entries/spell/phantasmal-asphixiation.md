@@ -1,7 +1,7 @@
 +++
 id = "ref/spell/phantasmal-asphixiation"
 kind = "spell"
-title = "Phantasmal Asphixiation"
+title = "Phantasmal Asphyxiation"
 aon = "SpellDisplay.aspx?ItemName=Phantasmal%20Asphixiation"
 source_ids = ["horror-adventures"]
 provenance = [

@@ -16,12 +16,17 @@ page = "22"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "lyric-sorrow" },
+  { anchor = "darkness-denied", level = 2 },
+  { anchor = "spurn-harm" },
+]
 trades = [
-  { replaces = "Soothing performance", feature = "bardic-performance", power = "soothing performance" },
-  { replaces = "versatile performance", feature = "versatile-performance" },
-  { replaces = "Well-versed", feature = "well-versed" },
-  { replaces = "Lore master", feature = "lore-master" },
-  { alters = "Bardic performance", feature = "bardic-performance" },
+  { replaces = "Soothing performance", feature = "bardic-performance", power = "soothing performance", by = ["lyric-sorrow"] },
+  { replaces = "versatile performance", feature = "versatile-performance", by = ["lyric-sorrow"] },
+  { replaces = "Well-versed", feature = "well-versed", by = ["darkness-denied"] },
+  { replaces = "Lore master", feature = "lore-master", by = ["spurn-harm"] },
+  { alters = "Bardic performance", feature = "bardic-performance", by = ["lyric-sorrow"] },
 ]
 +++
 
@@ -30,66 +35,47 @@ deepest sadness or the most profound suffering. But while most bards who do so c
 performances for fame or wealth, the sorrowsoul has known tragedy and loss on a level so intimate,
 he has bound it to his soul.
 
-**Lyric Sorrow (Su)**
+## Lyric Sorrow (Su) {#lyric-sorrow}
 
-**Alters:** Bardic performance
+A sorrowsoul draws upon grief, rage, and tragedy to fuel his bardic performances. When a sorrowsoul
+begins a bardic performance, he can choose to alter its effects with lyric sorrow. If he does so, he
+uses twice the number of rounds of his bardic performance ability as normal, and even if the
+sorrowsoul has the [Lingering Performance](ref/feat/lingering-performance) feat, the performance's
+effects do not last for any additional rounds.
 
-**Info:** A sorrowsoul draws upon grief, rage, and tragedy to fuel his bardic performances. When a
-sorrowsoul begins a bardic performance, he can choose to alter its effects with _lyric sorrow._ If
-he does so, he uses twice the number of rounds of his bardic performance ability as normal, and even
-if the sorrowsoul has the [Lingering Performance](ref/feat/lingering-performance) feat, the
-performance's effects do not last for any additional rounds.
-
-**Replaces:** Soothing performance, versatile performance
-
-**Inspire Courage**
-
-**At 1st Level:** A sorrowsoul can use his lyric sorrow in conjunction with
+At 1st level, a sorrowsoul can use his lyric sorrow in conjunction with
 [inspire courage](ref/performance/inspire-courage). When he chooses to do so, he increases his
 bonuses on saving throws and on weapon attack and damage rolls from +1 to +2, but his other allies
-receive no benefit.
+receive no benefit. His bonuses when using lyric sorrow with inspire courage increase by 2 at 5th
+level and every 6 bard levels thereafter, to a maximum of +8 at 17th level.
 
-**At 11th Level:** His bonuses become +6.
-
-**At 17th Level:** His bonuses become +8.
-
-**At 5th Level:** His bonuses become +4.
-
-**Inspire Greatness**
-
-**At 12th Level:** A sorrowsoul can use his lyric sorrow ability in conjunction with
+At 12th level, a sorrowsoul can use his lyric sorrow ability in conjunction with
 [inspire greatness](ref/performance/inspire-greatness) to grant himself 3 bonus Hit Dice, a +3
 competence bonus on attack rolls, and a +2 competence bonus on Fortitude saves; if he does so,
-_inspire greatness_ only affects him, not any other allies.
+inspire greatness only affects him, not any other allies.
 
-**Inspire Heroics**
+At 15th level, a sorrowsoul can use his lyric sorrow ability in conjunction with the
+[inspire heroics](ref/performance/inspire-heroics) bardic performance. When using the lyric sorrow
+version of this performance, a sorrowsoul gains [fast healing](ref/umr/fast-healing) 5 and benefits
+from a 50% miss chance, as if under the effects of _[displacement](ref/spell/displacement)_, in
+addition to the standard bonuses conferred by this bardic performance, but if he does so, inspire
+heroics only affects him, not any other allies.
 
-**At 15th Level:** When a sorrowsoul uses his lyric sorrow ability in conjunction with the
-[inspire heroics](ref/performance/inspire-heroics) bardic performance, he gains
-[fast healing](ref/umr/fast-healing) 5 and benefits from a 50% miss chance, as if under the effects
-of [displacement](ref/spell/displacement), in addition to the standard bonuses conferred by this
-bardic performance. But if he does so, _inspire heroics_ only affects him, not any other allies.
+This ability alters bardic performance and replaces soothing performance and versatile performance.
 
-**Darkness Denied (Ex)**
+## Darkness Denied (Ex) {#darkness-denied}
 
-**Gained:** At 2nd Level
-
-**Passive:** A sorrowsoul gains a +4 bonus on saving throws against negative energy and death
+At 2nd level, a sorrowsoul gains a +4 bonus on saving throws against negative energy and death
 effects.
 
-**Replaces:** Well-versed
+This ability replaces well-versed.
 
-**Spurn Harm (Su)**
+## Spurn Harm (Su) {#spurn-harm}
 
-**Flavor:** A sorrowsoul can funnel his bardic powers to persevere in the face of seemingly certain
-death.
+A sorrowsoul can funnel his bardic powers to persevere in the face of seemingly certain death. At
+5th level, a sorrowsoul can spend 3 rounds of his daily bardic performance as an immediate action to
+gain a +2 insight bonus on all saving throws for 1 round. At 11th level, a sorrowsoul also gains
+[spell resistance](ref/rule/spell-resistance) equal to 11 + his bard level when using this ability.
+At 17th level, a sorrowsoul also gains DR 10/— when using this ability.
 
-**Immediate:** A sorrowsoul can spend 3 rounds of his daily bardic performance to gain a +2 insight
-bonus on all saving throws for 1 round.
-
-**At 11th Level:** A sorrowsoul also gains [spell resistance](ref/rule/spell-resistance) equal to
-11 + his bard level when using this ability.
-
-**At 17th Level:** He also gains DR 10/- when using this ability.
-
-**Replaces:** Lore master
+This ability replaces lore master.

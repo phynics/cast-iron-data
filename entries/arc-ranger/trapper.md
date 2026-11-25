@@ -56,14 +56,7 @@ weapon, allowing her to set the trap remotely or use it as a direct attack. Atta
 the projectile is part of the full-round action of creating a new trap. The trapped projectile is
 fired or thrown in the normal manner. If fired at a square, the trap is treated as if the ranger had
 set the trap in that square, except the DC is 5 lower than normal. If fired at a creature, the
-target takes damage from the ranged weapon and is treated as if it had triggered
-
-the trap (saving throw applies, if any). The attack has
-
-a maximum range of 60 feet, and range increments
-
-apply to the attack roll. The duration of the trapped
-
-projectile starts from when it is created, not from
-
-when it is used.
+target takes damage from the ranged weapon and is treated as if it had triggered the trap (saving
+throw applies, if any). The attack has a maximum range of 60 feet, and range increments apply to the
+attack roll. The duration of the trapped projectile starts from when it is created, not from when it
+is used.

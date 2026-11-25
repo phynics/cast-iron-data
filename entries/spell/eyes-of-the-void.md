@@ -30,7 +30,7 @@ range = "personal"
 effects = [
   { label = "Target", value = "you" },
 ]
-duration = "1 minute/level"
+duration = "10 minutes/level"
 saving_throw = "none"
 spell_resistance = "no"
 +++
@@ -42,7 +42,7 @@ Level: 4: Alchemist, Antipaladin, Arcanist, Investigator, Psychic, Red Mantis As
 Casting time: 1 standard action
 Components: V, S, M (a pinch of dried carrot or an agate)
 Range: personal
-Duration: 1 minute/level
+Duration: 10 minutes/level
 Saving throw: none
 Spell resistance: no
 Target: you

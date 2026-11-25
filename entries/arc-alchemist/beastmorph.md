@@ -37,7 +37,7 @@ use mutagens.
 
 ## Beastform Mutagen {#beastform-mutagen}
 
-At 3rd level, a beastmorph's mutagen causes him to take on animalistic features— whether those of an
+At 3rd level, a beastmorph's mutagen causes him to take on animalistic features—whether those of an
 animal, a magical beast, an animal-like humanoid (such as a lizardfolk), or a monstrous humanoid.
 For example, when the beastmorph uses his mutagen, he may gain a furry muzzle and pointed ears like
 a werewolf, scaly skin like a lizardfolk or sahuagin, or compound eyes and mandibles like a giant

@@ -1,0 +1,31 @@
+# Hand-written texts of the review of batch 3 (owner rulings 32 and 34 of 2026-11-25): see feature-prose-540.py `read_edits` and `read_adds`.
+
+[[add]]
+entry = "ref/arc-vigilante/wildsoul"
+anchor = "feline-natural-course"
+head = 'Feline Natural Course (Blood of the Beast page 7)'
+parent = "natural-course"
+after = "bear-form"
+note = 'text of another owner book (owner ruling 32): the feline natural course of the wildsoul, Blood of the Beast page 7, checked against that print (the import held it as four features of the archetype)'
+text = '''
+When a vigilante with the wildsoul archetype chooses a vigilante specialization, he can choose the following natural course. Feline wildsouls have the blood of great cats running through their veins.
+
+_Feline Attributes (Ex)_: At 2nd level, a feline wildsoul gains the [low-light vision](ref/umr/low-light-vision) and [scent](ref/umr/scent) special abilities and reduces any penalty he takes on Perception checks due to distance by an amount equal to [half](ref/misc/fractions-and-rounding) his vigilante level (minimum 0). If he also gains [low-light vision](ref/rule/low-light-vision) or scent from a feat or racial trait, he instead gains a +2 bonus on Perception checks for each ability he already has. In addition, he can take [Aspect of the Beast](ref/feat/aspect-of-the-beast), ignoring the feat's prerequisites.
+
+_Feline Grace (Ex)_: At 6th level, a feline wildsoul gains [uncanny dodge](ref/ability/uncanny-dodge), using his vigilante level as his effective [rogue](ref/class/rogue) level. At 12th level, he also gains [improved uncanny dodge](ref/ability/improved-uncanny-dodge).
+
+_Feline Pounce (Ex)_: At 12th level, a feline wildsoul can strike quickly and lethally at a moment's notice. He gains the [mad rush](ref/vigtalent/mad-rush) avenger vigilante talent, even if he is not an avenger.
+
+_Nine Lives (Su)_: At 18th level, a feline wildsoul can survive attacks that would kill lesser vigilantes. He gains the [defensive roll](ref/talent/defensive-roll) advanced rogue talent and can use this ability eight times per day.
+'''
+
+[[add]]
+entry = "ref/arc-vigilante/zealot"
+anchor = "harsh-judgment"
+head = 'Harsh Judgment (Su) (Inner Sea Intrigue page 33)'
+parent = "zealot-talents"
+after = "zealot-smite"
+note = 'text of another owner book (owner ruling 32): the zealot talent Harsh Judgment, Inner Sea Intrigue page 33, checked against that print (the import held it in the talents of the archetype without saying where it is printed)'
+text = '''
+A vigilante with this talent can pronounce _judgment_ upon his foes as per the [inquisitor](ref/class/inquisitor) class feature (see page 38 of the _Pathfinder RPG Advanced Player's Guide_). He can choose from among the following inquisitor judgments: _destruction, piercing, purity,_ and _smiting._ For the purpose of determining the bonuses provided by this ability, the vigilante's level stacks with levels in any other classes that grant _judgment_ or _harsh judgment._ The vigilante can use this ability once per day plus an additional time per day at 4th level and every 3 levels thereafter (up to a maximum of seven times per day at 19th level). Only a vigilante with the zealot archetype can select this talent.
+'''

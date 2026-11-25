@@ -36,10 +36,6 @@ trades = [
 For the urban ranger, the streets and sewers of the city are just as dangerous as the barren
 wastelands or the deep forests. An urban ranger has the following class features.
 
-**Gained class skills:** dd, kl
-
-**Lost class skills:** ha, kna
-
 ## Urban Ranger {#urban-ranger}
 
 At 1st level, an urban ranger adds Disable Device and Knowledge (local) to his list of class skills

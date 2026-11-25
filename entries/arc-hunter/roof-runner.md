@@ -16,11 +16,18 @@ page = "65"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "skilled" },
+  { anchor = "natural-leaper", level = 2 },
+  { anchor = "shingle-stride", level = 5 },
+  { anchor = "alley-ghost", level = 8 },
+  { anchor = "master-climber", level = 20 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Swift tracker", feature = "swift-tracker" },
-  { alters = "Master hunter", feature = "master-hunter" },
+  { replaces = "Track", feature = "track", by = ["natural-leaper"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["shingle-stride"] },
+  { replaces = "Swift tracker", feature = "swift-tracker", by = ["alley-ghost"] },
+  { alters = "Master hunter", feature = "master-hunter", by = ["master-climber"] },
 ]
 +++
 
@@ -28,45 +35,38 @@ Roof runners are skilled ambushers, skirmishers, and spies who eschew heavier ty
 order to remain light on their feet. They lurk in the shadows of the rooftops to find people or
 houses to rob, though some use their specialized skills for nobler purposes.
 
-**Gained class skills:** acro, ea, soh
+## Skilled (Ex) {#skilled}
 
-**Skilled (Ex)**
+A roof runner adds Acrobatics, Escape Artist, and Sleight of Hand to her list of class skills.
 
-**Passive:** A roof runner does not have proficiency with medium armor and shields.
+This alters the hunter's class skills and replaces the hunter's proficiency with medium armor and
+shields.
 
-**Natural Leaper (Ex)**
+## Natural Leaper (Ex) {#natural-leaper}
 
-**Gained:** At 2nd Level
-
-**Passive:** A roof runner adds [half](ref/misc/fractions-and-rounding) her hunter level on
+At 2nd level, a roof runner adds [half](ref/misc/fractions-and-rounding) her hunter level on
 Acrobatics checks to jump.
 
-**Replaces:** Track
+This ability replaces track.
 
-**Shingle Stride (Ex)**
+## Shingle Stride (Ex) {#shingle-stride}
 
-**Ability:** A roof runner and her animal companion can move at full speed without penalty when
+At 5th level, a roof runner and her animal companion can move at full speed without penalty when
 using Acrobatics to cross narrow or uneven surfaces, and climb at half speed (instead of one-quarter
-speed) without taking the - 5 penalty.
+speed) without taking the -5 penalty.
 
-**Gained:** At 5th Level
+This ability replaces woodland stride.
 
-**Replaces:** Woodland stride
+## Alley Ghost (Ex) {#alley-ghost}
 
-**Alley Ghost (Ex)**
-
-**Ability:** A roof runner gains the benefits of the [fast stealth](ref/talent/fast-stealth) rogue
+At 8th level, a roof runner gains the benefits of the [fast stealth](ref/talent/fast-stealth) rogue
 talent.
 
-**Gained:** At 8th Level
+This ability replaces swift tracker.
 
-**Replaces:** Swift tracker
+## Master Climber (Ex) {#master-climber}
 
-**Master Climber (Ex)**
-
-**Ability:** A roof runner gains a climb speed equal to her base land speed, instead of being able
+At 20th level, a roof runner gains a climb speed equal to her base land speed, instead of being able
 to move at full speed while tracking.
 
-**Alters:** Master hunter
-
-**Gained:** At 20th Level
+This ability alters master hunter.

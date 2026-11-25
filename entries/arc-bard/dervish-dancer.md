@@ -21,7 +21,7 @@ features = [
   { anchor = "rain-of-blows", level = 6 },
   { anchor = "razor-s-kiss", level = 8 },
   { anchor = "leaf-on-the-wind", level = 14 },
-  { anchor = "fleet" },
+  { anchor = "fleet", level = 1 },
   { anchor = "versatile-dance", level = 2 },
   { anchor = "dance-of-fury", level = 12 },
   { anchor = "battle-fury", level = 20 },
@@ -95,90 +95,34 @@ This ability replaces dirge of doom.
 At 14th level, a dervish dancer can use his battle dance to evade attacks with unearthly grace and
 to shake off the effects of his wounds. Unlike other battle dances, leaf on the wind requires a
 standard action each round to start or maintain the performance. Each round it is maintained,
-including the first, the dervish dancer
-
-gains a +6 dodge bonus to Armor Class and on
-
-Reflex saves. If wounded, he heals 1 hit point
-
-of damage per bard level. This ability
-
-replaces frightening performance.
+including the first, the dervish dancer gains a +6 dodge bonus to Armor Class and on Reflex saves.
+If wounded, he heals 1 hit point of damage per bard level. This ability replaces frightening
+performance.
 
 ## Fleet (Su) {#fleet}
 
-While performing a
-
-battle dance, a dervish dancer
-
-gains a +10 enhancement bonus
-
-to his land speed. This bonus
-
-increases by 5 feet for every
-
-four bard levels gained after 1st
-
-level, to a maximum of +30 feet
-
-at 19th level. This ability replaces
-
-bardic knowledge and lore master.
+While performing a battle dance, a dervish dancer gains a +10 enhancement bonus to his land speed.
+This bonus increases by 5 feet for every four bard levels gained after 1st level, to a maximum of
++30 feet at 19th level. This ability replaces bardic knowledge and lore master.
 
 ## Versatile Dance (Ex) {#versatile-dance}
 
-At 2nd level, a dervish dancer
-
-gains a bonus equal to [half](ref/misc/fractions-and-rounding) his level on Perform
-
-(dance) checks. He can use his bonus for his Perform
-
-(dance) skill in place of his bonus for Acrobatics. This
-
-ability replaces versatile performance.
+At 2nd level, a dervish dancer gains a bonus equal to [half](ref/misc/fractions-and-rounding) his
+level on Perform (dance) checks. He can use his bonus for his Perform (dance) skill in place of his
+bonus for Acrobatics. This ability replaces versatile performance.
 
 ## Dance of Fury (Su) {#dance-of-fury}
 
-At 12th level, a dervish dancer
-
-can attack more than once as he moves while
-
-performing a battle dance. He can combine a full-
-
-attack action with a single move, taking the attacks
-
-at any point during his movement, but must move
-
-at least 5 feet between each attack. This movement
-
-provokes attacks of opportunity as normal. This
-
-ability replaces soothing performance.
+At 12th level, a dervish dancer can attack more than once as he moves while performing a battle
+dance. He can combine a full-attack action with a single move, taking the attacks at any point
+during his movement, but must move at least 5 feet between each attack. This movement provokes
+attacks of opportunity as normal. This ability replaces soothing performance.
 
 ## Battle Fury (Su) {#battle-fury}
 
-At 20th level, the
+At 20th level, the dervish dancer can unleash a whirlwind of blows while performing a battle dance.
 
-dervish dancer can unleash a whirlwind
-
-of blows while performing a battle dance.
-
-As a full-round action, he can take a single
-
-move action and unleash a single attack
-
-at his highest bonus against each target
-
-within his reach during any point of
-
-his move, up to a maximum number of
-
-attacks equal to the dervish dancer's
-
-character level. This movement
-
-provokes attacks of opportunity
-
-as normal, and replaces
-
-deadly performance.
+As a full-round action, he can take a single move action and unleash a single attack at his highest
+bonus against each target within his reach during any point of his move, up to a maximum number of
+attacks equal to the dervish dancer's character level. This movement provokes attacks of opportunity
+as normal, and replaces deadly performance.

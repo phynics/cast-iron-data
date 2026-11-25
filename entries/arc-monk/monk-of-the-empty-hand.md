@@ -32,10 +32,10 @@ trades = [
 ]
 +++
 
-The monk of the empty hand eschews normal weapons in favor of whatever is lying around - rocks,
-chair legs, flagons of ale, even a simple quill pen all become deadly weapons in the hands of such a
-monk. A monk of the empty hand draws on his own ki to infuse his improvised weapons with power, and
-can transform a broken bottle into a magical weapon.
+The monk of the empty hand eschews normal weapons in favor of whatever is lying around—rocks, chair
+legs, flagons of ale, even a simple quill pen all become deadly weapons in the hands of such a monk.
+A monk of the empty hand draws on his own _ki_ to infuse his improvised weapons with power, and can
+transform a broken bottle into a magical weapon.
 
 ## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 

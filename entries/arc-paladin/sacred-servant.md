@@ -17,7 +17,7 @@ page = "117"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "smite-evil" },
+  { anchor = "smite-evil", level = 1 },
   { anchor = "spells", level = 4 },
   { anchor = "divine-bond", level = 5 },
   { anchor = "call-celestial-ally", level = 8 },
@@ -59,7 +59,7 @@ For every three levels beyond 5th, the spirit grants one additional bonus. These
 spent in a number of ways to grant the paladin enhanced abilities to channel positive energy and to
 cast spells. Each bonus can be used to grant one of the following enhancements: +1 caster level to
 any paladin spell cast, +1 to the DC to halve the damage of channel positive energy when used to
-harm undead, +1d6 to channel positive energy, +1 use/ day of lay on hands. These enhancements stack
+harm undead, +1d6 to channel positive energy, +1 use/day of lay on hands. These enhancements stack
 and can be selected multiple times. The enhancements granted by the spirit are determined when the
 spirit is called and cannot be changed until the spirit is called again. If the sacred servant
 increases her number of uses of lay on hands per day in this way, that choice is set for the rest of

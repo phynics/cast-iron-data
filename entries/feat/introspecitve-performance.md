@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/introspecitve-performance"
 kind = "feat"
-title = "Introspecitve Performance"
+title = "Introspective Performance"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "introspecitve_performance", path = "json/feat09.json" },
