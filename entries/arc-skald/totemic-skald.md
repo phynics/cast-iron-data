@@ -16,11 +16,17 @@ page = "117"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "totem", level = 3 },
+  { anchor = "song-of-the-beast", level = 3 },
+  { anchor = "totem-empathy", level = 4 },
+  { anchor = "wild-shape", level = 5 },
+]
 trades = [
-  { replaces = "Rage power gained at 3rd level", feature = "rage-powers", levels = [3] },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "Spell kenning", feature = "spell-kenning" },
+  { replaces = "Rage power gained at 3rd level", feature = "rage-powers", levels = [3], by = ["song-of-the-beast"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["totem-empathy"] },
+  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["totem-empathy"] },
+  { replaces = "Spell kenning", feature = "spell-kenning", by = ["wild-shape"] },
 ]
 +++
 
@@ -28,81 +34,51 @@ The totemic skald forms a close connection to an animal totem. Through the power
 ally, the skald can change shapes, assuming its form as his own. Additionally, the totem animal
 grants the skald a measure of its spiritual power that he can share with his allies.
 
-**Totem (Su)**
+## Totem (Su) {#totem}
 
-**Choice:** The totemic skald chooses one animal from the hunter's
-[animal focus](ref/ability/animal-foci) list. Once selected, this choice cannot be changed. This
-animal becomes the skald's personal totem animal and influences his later abilities. He gains the
-following rage power.
+At 3rd level, the totemic skald chooses one animal from the hunter's
+[animal focus](ref/ability/animal-foci) list (see page 27). Once selected, this choice cannot be
+changed. This animal becomes the skald's personal totem animal and influences his later abilities.
+He gains the following rage power.
 
-**Gained:** At 3rd Level
+## Song of the Beast (Su) {#song-of-the-beast}
 
-**Song of the Beast (Su)**
+The totemic skald grants the animal focus abilities of his totem animal (as the hunter's animal
+focus ability) to all allies affected by his raging song. He treats his skald level as his hunter
+level for determining the abilities of the animal focus (such as the improvements gained at 8th and
+15th level). This ability replaces the rage power gained at 3rd level.
 
-**Ability:** The totemic skald grants the _animal focus_ abilities of his totem animal (as the
-hunter's _animal focus_ ability) to all allies affected by his _raging song._ He treats his skald
-level as his hunter level for determining the abilities of the animal focus (such as the
-improvements gained at 8th and 15th level).
+## Totem Empathy (Ex and Sp) {#totem-empathy}
 
-**Replaces:** Rage power gained at 3rd level
-
-**Totem Empathy (Ex and Sp)**
-
-**Ability:** The totemic skald can improve the attitude of animals of the same type as his totem.
+At 4th level, the totemic skald can improve the attitude of animals of the same type as his totem.
 This ability functions just like a Diplomacy check to improve the attitude of a person. The skald
 rolls 1d20 and adds his skald level and his Charisma modifier to determine the totem empathy check
 result. The typical domestic animal has a starting attitude of indifferent, while wild animals are
 usually unfriendly.
 
-**Ability2:** In addition, the totemic skald can cast [charm animal](ref/spell/charm-animal) as a
-[spell-like ability](ref/umr/spell-like-abilities), using his skald level as his caster level and
-his Charisma modifier to determine the DC. He can do this a number of times a day equal to
-[one-fourth](ref/misc/fractions-and-rounding) of his skald level. This only functions against
-animals that are of the same type as his totem animal (subject to GM discretion).
+In addition, at 4th level, the totemic skald can cast _[charm animal](ref/spell/charm-animal)_ once
+per day as a [spell-like ability](ref/umr/spell-like-abilities), using his skald level as his caster
+level and his Charisma modifier to determine the DC. This only functions against animals that are of
+the same type as his totem animal (subject to GM discretion). At 8th level, and every 4 levels
+thereafter, he can use this ability one additional time per day.
 
-**Gained:** At 4th Level
+This ability replaces uncanny dodge and improved uncanny dodge.
 
-**Replaces:** Uncanny dodge, improved uncanny dodge
+## Wild Shape (Su) {#wild-shape}
 
-**Wild Shape (Su)**
-
-**Ability:** A totemic skald gains the ability to _wild shape_ into the form of a Small or Medium
+At 5th level, a totemic skald gains the ability to wild shape into the form of a Small or Medium
 version of his totem animal, as the [druid](ref/class/druid) class feature. His effective druid
-level for this ability is equal to his skald level - 1.
+level for this ability is equal to his skald level - 1. He can use this ability twice per day at
+11th level, and three times per day at 17th level. This doesn't allow the skald to assume other
+forms, such as elementals, plants, or other kinds of animals.
 
-**Gained:** At 5th Level
+When in animal form, the skald is treated as able to speak normally for the purpose of using raging
+song, but not for using other abilities that require speech (such as spellcasting). The skald uses
+his class level as his druid level for the purpose of qualifying for feats that affect wild shape
+(such as [Wild Speech](ref/feat/wild-speech)). This ability replaces spell kenning.
 
-**Replaces:** Spell kenning
+## Rage Powers {#rage-powers}
 
-**Special:** This doesn't allow the skald to assume other forms, such as elementals, plants, or
-other kinds of animals. When in animal form, the skald is treated as able to speak normally for the
-purpose of using _raging song,_ but not for using other abilities that require speech (such as
-spellcasting). The skald uses his class level as his druid level for the purpose of qualifying for
-feats that affect _wild shape_ (such as [Wild Speech](ref/feat/wild-speech)).
-
-**Wild Shape (Su)**
-
-**Flavor:** Relevant text from the druid class ability.
-
-**At 6th Level:** You can _wild shape_ twice a day as [beast shape II](ref/spell/beast-shape-2), and
-you can now change into a Large or Tiny animal.
-
-**At 8th Level:** You can _wild shape_ 3 times/day as [beast shape III](ref/spell/beast-shape-3),
-and you can now change into a Huge or Diminutive animal.
-
-**Provokes attack of opportunity:** No
-
-**Special:** You lose your ability to speak while in animal form because you are limited to the
-sounds that a normal, untrained animal can make, but you can communicate normally with other animals
-of the same general grouping as your new form. (The normal sound a wild parrot makes is a squawk, so
-changing to this form does not permit speech.)
-
-**Standard:** You gain the ability to turn yourself into any Small or Medium animal and back again.
-Your options for new forms include all creatures with the animal type. This ability functions like
-the [beast shape I](ref/spell/beast-shape-1) spell, except as noted here. The effect lasts for 1
-hour per druid level, or until you change back. The form chosen must be that of an animal with which
-you are familiar.
-
-**The following rage powers complement the totemic skald archetype:** animal fury, beast
-totem\|lesser, normal, and greater, knockback, knockdown,
-[low-light vision](ref/rule/low-light-vision), primal scent, scent, sprint, swift foot
+The following rage powers complement the totemic skald archetype: animal fury, beast totem (lesser,
+normal, and greater), knockback, knockdown, low-light vision, primal scent, scent, sprint, and swift
+foot.

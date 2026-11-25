@@ -16,15 +16,21 @@ page = "96"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "pack-bond", level = 1 },
+  { anchor = "pack-focus", level = 1 },
+  { anchor = "teamwork-feat", level = 3 },
+  { anchor = "second-pack-focus", level = 8 },
+  { anchor = "master-of-the-pack", level = 20 },
+]
 trades = [
-  { replaces = "Animal companion", feature = "animal-companion" },
-  { replaces = "Animal focus", feature = "animal-focus" },
-  { replaces = "Second animal focus", feature = "second-animal-focus" },
-  { replaces = "Master hunter", feature = "master-hunter" },
-  { alters = "Precise companion", feature = "precise-companion" },
-  { alters = "woodland stride", feature = "woodland-stride" },
-  { alters = "teamwork feats", feature = "teamwork-feat" },
-  { alters = "Teamwork feats" },
+  { replaces = "Animal companion", feature = "animal-companion", by = ["pack-bond"] },
+  { replaces = "Animal focus", feature = "animal-focus", by = ["pack-focus"] },
+  { replaces = "Second animal focus", feature = "second-animal-focus", by = ["second-pack-focus"] },
+  { replaces = "Master hunter", feature = "master-hunter", by = ["master-of-the-pack"] },
+  { alters = "Precise companion", feature = "precise-companion", by = ["pack-bond"] },
+  { alters = "woodland stride", feature = "woodland-stride", by = ["pack-bond"] },
+  { alters = "teamwork feats", feature = "teamwork-feat", by = ["teamwork-feat"] },
 ]
 +++
 
@@ -34,13 +40,7 @@ alongside her herd of dimetrodons, the packmaster revels in the thrill of the hu
 the kill. A packmaster is more comfortable in groups than alone, and although her animal companions
 may be weaker than a typical hunter's, what they lack in strength they make up for in numbers.
 
-**Pack Bond (Ex)**
-
-**Action:** Ability
-
-**Alters:** Precise companion, woodland stride, teamwork feats
-
-**Replaces:** Animal companion
+## Pack Bond (Ex) {#pack-bond}
 
 A packmaster can have more than one animal companion, but she must divide her effective druid level
 between her companions to determine the abilities of each one. For example, a 4th-level packmaster
@@ -52,62 +52,46 @@ companions, including whether or not to add a new 1st-level companion. Once a hu
 allocated to a particular companion, it cannot be redistributed while that companion is in the
 packmaster's service. She must release the companion or wait until the companion dies to allocate
 its levels to another companion, which she can then do the next time she refreshes her spell slots
-for the day. The _share spells_ animal companion ability applies to only one animal companion at a
-time - the packmaster cannot use it to cast a spell that affects only a single target and have the
+for the day. The share spells animal companion ability applies to only one animal companion at a
+time—the packmaster cannot use it to cast a spell that affects only a single target and have the
 spell affect all of her animal companions.
 
-A packmaster's _precise companion, woodland stride,_ and _teamwork feats_ apply to only one of her
-animal companions at a time. (For example, a packmaster can apply _precise companion_ to one
-companion, _woodland stride_ to another, and a given teamwork feat to a third, but cannot apply any
-of those to two animal companions at once.) As a **swift action**, she can change which companion
-gains any or all of these benefits.
+A packmaster's precise companion, woodland stride, and teamwork feats apply to only one of her
+animal companions at a time. (For example, a packmaster can apply precise companion to one
+companion, woodland stride to another, and a given teamwork feat to a third, but cannot apply any of
+those to two animal companions at once.) As a swift action, she can change which companion gains any
+or all of these benefits. This ability replaces animal companion.
 
-**Pack Focus (Su)**
+## Pack Focus (Su) {#pack-focus}
 
-**Ability:** This ability functions like [animal focus](ref/ability/animal-foci), with the following
-exceptions. A packmaster can apply her animal aspect to only one of her animal companions at a time
-without it counting against the number of minutes per day she can use that ability. When using
-_animal focus_ on herself or her other animal companion, the ability counts against her minutes per
-day as normal.
+This ability functions like [animal focus](ref/ability/animal-foci), with the following exceptions.
+A packmaster can apply her animal aspect to only one of her animal companions at a time without it
+counting against the number of minutes per day she can use that ability. When using animal focus on
+herself or her other animal companion, the ability counts against her minutes per day as normal. She
+can have only two animal aspects in effect at a time—one that counts against her minutes per day and
+one that doesn't—and they can't both target the same companion. Unless both her companions are dead,
+the hunter can't apply the companion's aspect to herself (and thereby gain the benefit of its
+unlimited duration). This ability replaces animal focus.
 
-**Replaces:** Animal focus
+## Teamwork Feat (Ex) {#teamwork-feat}
 
-**Special:** She can have only two animal aspects in effect at a time - one that counts against her
-minutes per day and one that doesn't - and they can't both target the same companion. Unless both
-her companions are dead, the hunter can't apply the companion's aspect to herself (and thereby gain
-the benefit of its unlimited duration).
+At 3rd level or any level at which a packmaster would gain a bonus teamwork feat, she can instead
+increase the number of her animal companions that gain the benefits of her precise companion,
+woodland stride, and teamwork feats by 1. She can select this ability multiple times. This ability
+alters teamwork feats.
 
-**Teamwork Feat (Ex)**
+## Second Pack Focus (Su) {#second-pack-focus}
 
-**Ability:** At any level at which a packmaster would gain a bonus teamwork feat, she can instead
-increase the number of her animal companions that gain the benefits of her _precise companion,
-woodland stride,_ and _teamwork feats_ by 1. She can select this ability multiple times.
-
-**Alters:** Teamwork feats
-
-**Gained:** At 3rd Level
-
-**Second Pack Focus (Su)**
-
-**Ability:** The hunter gains an ability that functions like the _second animal focus,_ but the
+At 8th level, the hunter gains an ability that functions like the second animal focus, but the
 hunter can either assign each companion one aspect each or assign both aspects to the same
 companion. The foci on the companions don't need to be the same, nor do they need to be the same as
-the one assigned to the packmaster.
+the one assigned to the packmaster. This ability replaces second animal focus.
 
-**Gained:** At 8th Level
+## Master of the Pack (Ex) {#master-of-the-pack}
 
-**Replaces:** Second animal focus
-
-**Master of the Pack (Ex)**
-
-**Ability:** Each day when a packmaster gains new spells for the day, she chooses one _animal focus_
-to be active on herself or one of her animal companions for the entire day (if all of her animal
-companions are dead, she instead chooses two animal foci to be active on herself for the entire
-day). This focus is in addition to her _pack focus_ class ability.
-
-**Gained:** At 20th Level
-
-**Passive:** A packmaster and her animal companions can always move at full speed while using
-Survival to follow tracks without penalty.
-
-**Replaces:** Master hunter
+At 20th level, a packmaster and her animal companions can always move at full speed while using
+Survival to follow tracks without penalty. Each day when a packmaster gains new spells for the day,
+she chooses one animal focus to be active on herself or one of her animal companions for the entire
+day (if all of her animal companions are dead, she instead chooses two animal foci to be active on
+herself for the entire day). This focus is in addition to her pack focus class ability. This ability
+replaces master hunter.

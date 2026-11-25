@@ -16,12 +16,18 @@ page = "126"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "avenger-finesse" },
+  { anchor = "secret-identity", level = 3 },
+  { anchor = "greater-charmed-life", level = 4 },
+  { anchor = "avenger-s-target", level = 5 },
+]
 trades = [
-  { replaces = "Nimble", feature = "nimble" },
-  { replaces = "4th-level bonus feat", feature = "bonus-feats", levels = [4] },
-  { replaces = "Swashbuckler weapon training", feature = "swashbuckler-weapon-training" },
+  { replaces = "Nimble", feature = "nimble", by = ["secret-identity"] },
+  { replaces = "Bonus feat gained at 4th level", feature = "bonus-feats", levels = [4], by = ["greater-charmed-life"] },
+  { replaces = "Swashbuckler weapon training", feature = "swashbuckler-weapon-training", by = ["avenger-s-target"] },
   { alters = "Weapon and armor proficiency", feature = "weapon-and-armor-proficiencies" },
-  { alters = "Swashbuckler finesse", feature = "swashbuckler-finesse" },
+  { alters = "Swashbuckler finesse", feature = "swashbuckler-finesse", by = ["avenger-finesse"] },
 ]
 +++
 
@@ -30,76 +36,61 @@ enhancement of their own reputations, the mysterious avenger fights directly for
 gaining personal glory for her heroic deeds, she keeps her identity hidden in order to fight for
 those who cannot fight for themselves.
 
-**Alignment**
+## Alignment {#alignment}
 
-**Info:** A mysterious avenger must be of a good alignment, and must be dedicated to the protection
-of the good and the powerless under her care. If she ceases to be good or betrays the trust of those
-she was sworn to protect, she loses her _secret identity_ and _greater charmed life_ class features.
-She can regain them if she atones for her violations by some means that the GM sees fit (possibly by
-way of the [atonement](ref/spell/atonement) spell if the mysterious avenger is especially
-religious).
+A mysterious avenger must be of a good alignment, and must be dedicated to the protection of the
+good and the powerless under her care. If she ceases to be good or betrays the trust of those she
+was sworn to protect, she loses her secret identity and greater charmed life class features. She can
+regain them if she atones for her violations by some means that the GM sees fit (possibly by way of
+the _[atonement](ref/spell/atonement)_ spell if the mysterious avenger is especially religious).
 
-**Gained class skills:** dis
+## Class Skills {#class-skills}
 
-**Weapon and Armor Proficiency**
+A mysterious avenger adds Disguise to her list of class skills. This alters the swashbuckler's class
+skills.
 
-**Ability:** A mysterious avenger loses her proficiency with bucklers, but gains proficiency in the
-[whip](ref/eq-weapon/whip) exotic weapon.
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Alters:** Weapon and armor proficiency
+A mysterious avenger loses her proficiency with bucklers, but gains proficiency in the
+[whip](ref/eq-weapon/whip) exotic weapon. This alters the swashbuckler's weapon and armor
+proficiency.
 
-**Avenger Finesse (Ex)**
+## Avenger Finesse (Ex) {#avenger-finesse}
 
-**Alters:** Swashbuckler finesse
+A mysterious avenger gains all of the benefits of the swashbuckler's finesse class feature, and
+gains the ability to use a whip in place of a light or one-handed piercing melee weapon for all
+swashbuckler class features and deeds. This ability alters swashbuckler finesse.
 
-**Info:** A mysterious avenger gains all of the benefits of the _swashbuckler finesse_ class
-feature, and gains the ability to use a whip in place of a light or one-handed piercing melee weapon
-for all swashbuckler class features and deeds.
+## Secret Identity (Su) {#secret-identity}
 
-**Secret Identity (Su)**
+At 3rd level, a mysterious avenger's force of personality and dedication to her cause give her the
+ability to keep her true identity secret, even from magical prying. She gains a +4 bonus on Disguise
+checks in a single disguise of her choice, typically her avenger persona. Once this disguise has
+been chosen, it can't be changed. She also gains a +4 bonus on saving throws against divination
+effect. At 11th level, she becomes immune to all _[scrying](ref/spelldef/scrying)_ effects and other
+magical effects used in attempts to uncover her secret identity. This ability replaces nimble.
 
-**Flavor:** A mysterious avenger's force of personality and dedication to her cause give her the
-ability to keep her true identity secret, even from magical prying.
+## Greater Charmed Life (Ex) {#greater-charmed-life}
 
-**At 11th Level:** She becomes immune to all [scrying](ref/spelldef/scrying) effects and other
-magical effects used in attempts to uncover her secret identity.
+At 4th level, the mysterious avenger gains three extra uses of charmed life. As an immediate action,
+she can expend one use of charmed life to gain a bonus to her AC equal to her Charisma modifier
+(minimum 1). She must choose to do this before the attack roll is made against her. This ability
+replaces the bonus feat gained at 4th level.
 
-**Gained:** At 3rd Level
+## Avenger's Target (Ex) {#avenger-s-target}
 
-**Passive:** She gains a +4 bonus on Disguise checks in a single disguise of her choice, typically
-her avenger persona. Once this disguise has been chosen, it can't be changed. She also gains a +4
-bonus on saving throws against divination effect.
+At 5th level, a mysterious avenger gains a +1 bonus on attack and damage rolls with light or
+one-handed piercing melee weapons and whips. Furthermore, a mysterious avenger can study an opponent
+she can see as a move action. The mysterious avenger then gains a +1 bonus on Bluff, Knowledge,
+Perception, Sense Motive, and Survival checks against that opponent, a +1 bonus on weapon attack and
+damage rolls against it, and a +1 bonus to DCs of any deeds used against that opponent. A mysterious
+avenger can maintain these bonuses against only one opponent at a time; these bonuses remain in
+effect until either the opponent is dead or the mysterious avenger studies a new target.
 
-**Replaces:** Nimble
+At 10th, 15th, and 20th levels, these mysterious avenger's bonuses against a studied target increase
+by 1. In addition, at each such interval, a mysterious avenger is able to maintain these bonuses
+against an additional studied target at the same time. A mysterious avenger can discard this
+connection to a studied target as a free action, allowing her to study another target in its place.
 
-**Greater Charmed Life (Ex)**
-
-**Immediate:** She can expend one use of charmed life to gain a bonus to her AC equal to her
-Charisma modifier (minimum 1). She must choose to do this before the attack roll is made against
-her.
-
-**Gained:** At 4th Level
-
-**Passive:** The mysterious avenger gains three extra uses of _charmed life._
-
-**Replaces:** 4th-level bonus feat
-
-**Avenger's Target (Ex)**
-
-**At 10th Level:** A mysterious avenger can discard this connection to a studied target as a **free
-action**, allowing her to study another target in its place. Finally, a mysterious avenger can study
-an opponent as a move or **swift action**.
-
-**Gained:** At 5th Level
-
-**Move:** A mysterious avenger can study an opponent she can see. The mysterious avenger then gains
-a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against that opponent,
-a +1 bonus on weapon attack and damage rolls against it, and a +1 bonus to DCs of any deeds used
-against that opponent. A mysterious avenger can maintain these bonuses against only one opponent at
-a time; these bonuses remain in effect until either the opponent is dead or the mysterious avenger
-studies a new target.
-
-**Passive:** A mysterious avenger gains a +1 bonus on attack and damage rolls with light or
-one-handed piercing melee weapons and whips.
-
-**Replaces:** Swashbuckler weapon training
+At 10th level, a mysterious avenger can study an opponent as a move or swift action. This ability
+replaces swashbuckler weapon training.

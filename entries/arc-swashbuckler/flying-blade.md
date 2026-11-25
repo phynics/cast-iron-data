@@ -16,122 +16,101 @@ page = "124"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "panache" },
+  { anchor = "deeds" },
+  { anchor = "subtle-throw", level = 1 },
+  { anchor = "disrupting-counter", level = 3 },
+  { anchor = "precise-throw", level = 3 },
+  { anchor = "targeted-throw", level = 7 },
+  { anchor = "bleeding-wound", level = 11 },
+  { anchor = "perfect-throw", level = 15 },
+  { anchor = "flying-blade-training", level = 5 },
+  { anchor = "flying-blade-mastery", level = 20 },
+]
 trades = [
-  { replaces = "Dodging panache", feature = "deeds", power = "dodging panache" },
-  { replaces = "Kip-up", feature = "deeds", power = "kip-up" },
-  { replaces = "Menacing swordplay", feature = "deeds", power = "menacing swordplay" },
-  { replaces = "Targeted strike", feature = "deeds", power = "targeted strike" },
-  { replaces = "Perfect thrust", feature = "deeds", power = "perfect thrust" },
-  { replaces = "Swashbuckler weapon training", feature = "swashbuckler-weapon-training" },
-  { replaces = "Swashbuckler weapon mastery", feature = "swashbuckler-weapon-mastery" },
-  { alters = "Panache", feature = "panache" },
-  { alters = "Bleeding wound", feature = "deeds", power = "bleeding wound" },
+  { replaces = "Dodging panache", feature = "deeds", power = "dodging panache", by = ["subtle-throw"] },
+  { replaces = "Kip-up", feature = "deeds", power = "kip-up", by = ["disrupting-counter"] },
+  { replaces = "Menacing swordplay", feature = "deeds", power = "menacing swordplay", by = ["precise-throw"] },
+  { replaces = "Targeted strike", feature = "deeds", power = "targeted strike", by = ["targeted-throw"] },
+  { replaces = "Perfect thrust", feature = "deeds", power = "perfect thrust", by = ["perfect-throw"] },
+  { replaces = "Swashbuckler weapon training", feature = "swashbuckler-weapon-training", by = ["flying-blade-training"] },
+  { replaces = "Swashbuckler weapon mastery", feature = "swashbuckler-weapon-mastery", by = ["flying-blade-mastery"] },
+  { alters = "Panache", feature = "panache", by = ["panache"] },
+  { alters = "Bleeding wound", feature = "deeds", power = "bleeding wound", by = ["bleeding-wound"] },
 ]
 +++
 
 While most swashbucklers prefer their battles up close, others prefer dealing death from a distance.
 
-**Panache**
+## Panache {#panache}
 
-**Alters:** Panache
+Unlike other swashbucklers, a flying blade regains panache only when she confirms a critical hit or
+makes a killing blow with a [dagger](ref/eq-weapon/dagger) or [starknife](ref/eq-weapon/starknife).
+This ability alters panache.
 
-**Info:** Unlike other swashbucklers, a flying blade regains panache only when she confirms a
-critical hit or makes a killing blow with a [dagger](ref/eq-weapon/dagger) or
-[starknife](ref/eq-weapon/starknife).
+## Deeds {#deeds}
 
-**Deeds**
+A flying blade gains the following deeds, each of which replaces an existing deed.
 
-**Ability:** A flying blade gains the following deeds.
+## Subtle Throw (Ex) {#subtle-throw}
 
-**Subtle Throw (Ex)**
+At 1st level, a flying blade can spend 1 panache point as part of a ranged attack with a dagger or
+starknife to make it without provoking attacks of opportunity. At 6th level, as a swift action she
+can spend 1 panache point to make all of her ranged attacks with daggers or starknives without
+provoking attacks of opportunity until the start of her next turn. This deed replaces dodging
+panache.
 
-**At 1st Level:** A flying blade can spend 1 panache point as part of a ranged attack with a dagger
-or starknife to make it without provoking attacks of opportunity.
+## Disrupting Counter (Ex) {#disrupting-counter}
 
-**At 6th Level:** As a **swift action** she can spend 1 panache point to make all of her ranged
-attacks with daggers or starknives without provoking attacks of opportunity until the start of her
-next turn.
-
-**Replaces:** Dodging panache
-
-**Disrupting Counter (Ex)**
-
-**Ability:** When an opponent makes a melee attack against her, she can spend 1 panache point to
+At 3rd level, when an opponent makes a melee attack against her, she can spend 1 panache point to
 make an attack of opportunity against the attacking foe. This attack of opportunity can be made with
 either a dagger or a starknife. If the attack hits, the opponent takes a -4 penalty on all attack
-rolls until the end of its turn.
+rolls until the end of its turn. This deed replaces kip-up.
 
-**Gained:** At 3rd Level
+## Precise Throw (Ex) {#precise-throw}
 
-**Replaces:** Kip-up
-
-**Precise Throw (Ex)**
-
-**Ability:** She can spend 1 panache point when she throws a dagger or a starknife to ignore all
-range increment penalties with that ranged attack.
-
-**Gained:** At 3rd Level
-
-**Passive:** As long as she has at least 1 panache point, a flying blade can use her
+At 3rd level, as long as she has at least 1 panache point, a flying blade can use her
 [precise strike](ref/swashdeed/precise-strike) with a thrown dagger or starknife as long as the
 target is within 60 feet of her, and she increases the range increment of these weapons by 5 feet.
+She can spend 1 panache point when she throws a dagger or a starknife to ignore all range increment
+penalties with that ranged attack. This deed replaces menacing swordplay.
 
-**Replaces:** Menacing swordplay
+## Targeted Throw (Ex) {#targeted-throw}
 
-**Targeted Throw (Ex)**
-
-**Ability:** A flying blade can target individual body parts. This deed functions as the
+At 7th level, a flying blade can target individual body parts. This deed functions as the
 swashbuckler's targeted strike deed, but the flying blade can also use this deed when making ranged
 attacks with either a dagger or a starknife as long as the target is within 60 feet of the flying
-blade.
+blade. This deed replaces targeted strike.
 
-**Gained:** At 7th Level
+## Bleeding Wound (Ex) {#bleeding-wound}
 
-**Replaces:** Targeted strike
-
-**Bleeding Wound (Ex)**
-
-**Ability:** A flying blade can deal [bleed](ref/umr/bleed) damage as part of an attack. This deed
+At 11th level, a flying blade can deal [bleed](ref/umr/bleed) damage as part of an attack. This deed
 functions as the swashbuckler's [bleeding wound](ref/swashdeed/bleeding-wound) deed, but the flying
 blade can also use this deed when making ranged attacks with either a dagger or a starknife as long
-as the target is within 60 feet of the flying blade.
+as the target is within 60 feet of the flying blade. This deed alters bleeding wound.
 
-**Alters:** Bleeding wound
+## Perfect Throw (Ex) {#perfect-throw}
 
-**Gained:** At 11th Level
-
-**Perfect Throw (Ex)**
-
-**Ability:** A flying blade can pool all of her attack potential into a single attack. This deed
+At 15th level, a flying blade can pool all of her attack potential into a single attack. This deed
 functions as the swashbuckler's [perfect thrust](ref/swashdeed/perfect-thrust) deed, but the flying
 blade must use this deed when making ranged attacks with either a dagger or a starknife, and she can
-use this deed only on targets within 60 feet of her.
+use this deed only on targets within 60 feet of her. This deed replaces perfect thrust.
 
-**Gained:** At 15th Level
+## Flying Blade Training (Ex) {#flying-blade-training}
 
-**Replaces:** Perfect thrust
-
-**Flying Blade Training (Ex)**
-
-**Ability:** When a flying blade wields a dagger or starknife, she gains the benefit of the
+At 5th level, a flying blade gains a +1 bonus on attack and damage rolls when using daggers or
+starknives in combat. When a flying blade wields a dagger or starknife, she gains the benefit of the
 [Improved Critical](ref/feat/improved-critical) feat with those weapons. Additionally, a flying
-blade increases the range increment of a thrown dagger or starknife by 5 feet.
+blade increases the range increment of a thrown dagger or starknife by 5 feet. The increase of range
+increment stacks with that of precise throw.
 
-**Gained:** At 5th Level
+Every 4 levels thereafter, the bonus on attack and damage rolls increases by 1, and the range
+increment increases by 5 feet. This ability replaces swashbuckler weapon training.
 
-**Passive:** A flying blade gains a +1 bonus on attack and damage rolls when using daggers or
-starknives in combat.
+## Flying Blade Mastery (Ex) {#flying-blade-mastery}
 
-**Replaces:** Swashbuckler weapon training
-
-**Special:** The increase of range increment stacks with that of _precise throw._
-
-**Flying Blade Mastery (Ex)**
-
-**Ability:** When an attack that a flying blade makes with a dagger or starknife threatens a
+At 20th level, when an attack that a flying blade makes with a dagger or starknife threatens a
 critical hit, that critical hit is automatically confirmed. Furthermore, the critical modifiers of
-daggers and starknives increase by 1 (×2 becomes ×3, and so on).
-
-**Gained:** At 20th Level
-
-**Replaces:** Swashbuckler weapon mastery
+daggers and starknives increase by 1 (×2 becomes ×3, and so on). This ability replaces swashbuckler
+weapon mastery.

@@ -16,11 +16,17 @@ page = "201"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "combat-flyer", level = 2 },
+  { anchor = "aerobatics", level = 5 },
+  { anchor = "flying-dodger", level = 9 },
+  { anchor = "plummeting-charge", level = 13 },
+]
 trades = [
-  { replaces = "Bravery", feature = "bravery" },
-  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5] },
-  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9] },
-  { replaces = "Weapon training 3 and 4", feature = "weapon-training", levels = [13, 17] },
+  { replaces = "Bravery", feature = "bravery", by = ["combat-flyer"] },
+  { replaces = "Weapon training 1", feature = "weapon-training", levels = [5], by = ["aerobatics"] },
+  { replaces = "Weapon training 2", feature = "weapon-training", levels = [9], by = ["flying-dodger"] },
+  { replaces = "Weapon training 3 and 4", feature = "weapon-training", levels = [13, 17], by = ["plummeting-charge"] },
 ]
 +++
 
@@ -28,55 +34,34 @@ Driven by suspicion and hatred, [strix](ref/race/strix) doggedly guard their ter
 deadly use of their flight. Using swift strikes from above, strix plummet onto their foes with
 lethal force.
 
-**Prerequisites:** Strix
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Weapon and Armor Proficiency**
+An airborne ambusher is not proficient with heavy armor or tower shields.
 
-**Info:** An airborne ambusher is not proficient with heavy armor or tower shields.
+## Class Skills {#class-skills}
 
-**Gained class skills:** fly
+An airborne ambusher adds Fly to his list of class skills and removes Climb from his list of class
+skills.
 
-**Lost class skills:** climb
+## Combat Flyer (Ex) {#combat-flyer}
 
-**Combat Flyer (Ex)**
+At 2nd level, an airborne ambusher may use his fighter bonus feats to select
+[Flyby Attack](ref/feat/flyby-attack) and [Hover](ref/feat/hover). This replaces bravery.
 
-**Choice:** An airborne ambusher may use his fighter bonus feats to select
-[Flyby Attack](ref/feat/flyby-attack) and [Hover](ref/feat/hover).
+## Aerobatics (Ex) {#aerobatics}
 
-**Gained:** At 2nd Level
+At 5th level, an airborne ambusher may make a Fly check instead of an Acrobatics check to move
+through a threatened area or an enemy's space. This replaces weapon training 1.
 
-**Replaces:** Bravery
+## Flying Dodger (Ex) {#flying-dodger}
 
-**Aerobatics (Ex)**
+At 9th level, when an airborne ambusher flies at least half its fly speed on its turn, it gains a +1
+dodge bonus to AC for 1 round. This bonus increases to +2 at 11th level and +4 at 17th level. This
+ability replaces weapon training 2.
 
-**Gained:** At 5th Level
+## Plummeting Charge (Ex) {#plummeting-charge}
 
-**Passive:** An airborne ambusher may make a Fly check instead of an Acrobatics check to move
-through a threatened area or an enemy's space.
-
-**Replaces:** Weapon training 1
-
-**Flying Dodger (Ex)**
-
-**At 11th Level:** The bonus becomes +2.
-
-**At 17th Level:** The bonus increases to +4.
-
-**Gained:** At 9th Level
-
-**Passive:** When an airborne ambusher flies at least half its fly speed on its turn, it gains a +1
-dodge bonus to AC for 1 round.
-
-**Replaces:** Weapon training 2
-
-**Plummeting Charge (Ex)**
-
-**At 17th Level:** These bonuses improve to +4 and +6.
-
-**Gained:** At 13th Level
-
-**Passive:** If an airborne ambusher flies at least half its fly speed as part of a
+At 13th level, if an airborne ambusher flies at least half its fly speed as part of a
 [charge](ref/rule/charge), it gains a +2 racial bonus on the attack roll (in addition to the normal
-charge bonus) and a +4 bonus on its critical confirmation roll.
-
-**Replaces:** Weapon training 3 and 4
+charge bonus) and a +4 bonus on its critical confirmation roll. These bonuses improve to +4 and +6
+at 17th level. This replaces weapon training 3 and 4.

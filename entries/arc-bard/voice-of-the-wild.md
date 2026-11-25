@@ -16,14 +16,20 @@ page = "81"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "wild-knowledge", level = 1 },
+  { anchor = "nature-magic", level = 1 },
+  { anchor = "bardic-performance" },
+  { anchor = "song-of-the-wild", level = 3 },
+]
 trades = [
-  { replaces = "Bardic knowledge", feature = "bardic-knowledge" },
-  { replaces = "Countersong", feature = "bardic-performance", power = "countersong" },
-  { replaces = "versatile performance", feature = "versatile-performance" },
-  { replaces = "jack-of-all-trades", feature = "jack-of-all-trades" },
-  { replaces = "Inspire competence", feature = "bardic-performance", power = "inspire competence" },
-  { replaces = "dirge of doom", feature = "bardic-performance", power = "dirge of doom" },
-  { replaces = "inspire heroics", feature = "bardic-performance", power = "inspire heroics" },
+  { replaces = "Bardic knowledge", feature = "bardic-knowledge", by = ["wild-knowledge"] },
+  { replaces = "Countersong", feature = "bardic-performance", power = "countersong", by = ["nature-magic"] },
+  { replaces = "All instances of versatile performance", feature = "versatile-performance", by = ["nature-magic"] },
+  { replaces = "jack-of-all-trades", feature = "jack-of-all-trades", by = ["nature-magic"] },
+  { replaces = "All increments of inspire competence", feature = "bardic-performance", power = "inspire competence", by = ["song-of-the-wild"] },
+  { replaces = "dirge of doom", feature = "bardic-performance", power = "dirge of doom", by = ["song-of-the-wild"] },
+  { replaces = "inspire heroics", feature = "bardic-performance", power = "inspire heroics", by = ["song-of-the-wild"] },
 ]
 +++
 
@@ -31,51 +37,34 @@ Most bards are inspired by the art of civilization, yet the voice of the wild's 
 and beauty of nature. The voice of the wild has discovered some of nature's magical secrets, and can
 use his performance to bring out the bestial side in his allies.
 
-**Wild Knowledge (Ex)**
+## Wild Knowledge (Ex) {#wild-knowledge}
 
-**Gained:** At 1st Level
+At 1st level, a voice of the wild adds 1/2 his level (minimum 1)
 
-**Passive:** A voice of the wild adds [half](ref/misc/fractions-and-rounding) his level (minimum 1)
 to all Knowledge (nature) checks. He can use Knowledge (geography) and Knowledge (nature) untrained.
+This ability replaces bardic knowledge.
 
-**Replaces:** Bardic knowledge
+## Nature Magic {#nature-magic}
 
-**Nature Magic**
+At 1st level, a voice of the wild can select a 1st-level druid or ranger spell as a bard spell known
+instead of a spell from the bard spell list. The voice of the wild can select another druid or
+ranger spell (of any bard spell level he can cast) at 4th, 7th, 10th, 13th, and 16th levels. If he
+chooses to learn a new spell in place of an old one, he can exchange a druid or ranger spell for
+another. This ability replaces countersong, all instances of versatile performance, and
+jack-of-all-trades.
 
-**At 1st Level:** A voice of the wild can select a 1st-level druid or ranger spell as a bard spell
-known instead of a spell from the bard spell list.
+## Bardic Performance {#bardic-performance}
 
-**At 10th Level:** He can choose another such spell.
+Voices of the wild gain the following bardic performance.
 
-**At 13th Level:** He can choose another such spell.
+## Song of the Wild (Su) {#song-of-the-wild}
 
-**At 16th Level:** He can choose another such spell.
+At 3rd level, the voice of the wild can use bardic performance to grant an animal aspect to an ally,
+as if using the hunter's [animal focus](ref/ability/animal-foci) class feature.
 
-**At 4th Level:** The voice of the wild can select another druid or ranger spell (of any bard spell
-level he can cast).
+The ally must be able to hear or see the performance. The voice of the wild uses his bard level as
+his hunter level for determining the effect of the animal aspect.
 
-**At 7th Level:** He can choose another such spell.
-
-**Replaces:** Countersong, versatile performance, jack-of-all-trades
-
-**Special:** If he chooses to learn a new spell in place of an old one, he can exchange a druid or
-ranger spell for another.
-
-**Bardic Performance**
-
-**Info:** Voices of the wild gain the following bardic performance.
-
-**Song of the Wild (Su)**
-
-**At 10th Level:** The bard can affect a second ally with this performance.
-
-**At 17th Level:** The bard can affect a third ally.
-
-**At 3rd Level:** The voice of the wild can use bardic performance to grant an animal aspect to an
-ally, as if using the hunter's [animal focus](ref/ability/animal-foci) class feature. The ally must
-be able to hear or see the performance. The voice of the wild uses his bard level as his hunter
-level for determining the effect of the animal aspect.
-
-**Replaces:** Inspire competence, dirge of doom, inspire heroics
-
-**Special:** Song of the wild relies on audible or visual components.
+The bard can affect a second ally with this performance at 10th level and a third at 17th level.
+Song of the wild relies on audible or visual components. This ability replaces all increments of
+inspire competence, dirge of doom, and inspire heroics.

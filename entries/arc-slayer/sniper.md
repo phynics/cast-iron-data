@@ -16,36 +16,36 @@ page = "120"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "accuracy", level = 1 },
+  { anchor = "deadly-sniper", level = 2 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
+  { replaces = "Track", feature = "track", by = ["accuracy"] },
 ]
 +++
 
 Whether it's with a bullet from a sling, a quarrel from a crossbow, or even an expertly thrown
 dagger, the sniper ensures that a single shot disables his targets.
 
-**Accuracy (Ex)**
+## Accuracy (Ex) {#accuracy}
 
-**Ability:** A sniper halves all range increment penalties when making ranged attacks with a bow,
-crossbow, or firearm.
+At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow,
+crossbow, or firearm. This ability replaces track.
 
-**Gained:** At 1st Level
+## Deadly Sniper (Ex) {#deadly-sniper}
 
-**Replaces:** Track
+At 2nd level, when the sniper makes an attack against a target who is within his weapon's first
+range increment and completely unaware of his presence, that attack ignores the 30 foot range limit
+on ranged sneak attacks, and if it is a sneak attack, he adds his sniper level as a bonus on his
+sneak attack damage roll. After this first attack, the target is aware of the sniper's presence.
 
-**Deadly Sniper (Ex)**
+## Slayer Talents {#slayer-talents}
 
-**Ability:** When the sniper makes an attack against a target who is within his weapon's first range
-increment and completely unaware of his presence, that attack ignores the 30 foot range limit on
-ranged sneak attacks, and if it is a sneak attack, he adds his sniper level as a bonus on his sneak
-attack damage roll.
+The following slayer talents (and rogue talents) complement the sniper archetype: camouflage, snap
+shot, sniper's eye, and weapon training.
 
-**Gained:** At 2nd Level
+## Advanced Slayer Talents {#advanced-slayer-talents}
 
-**Special:** After this first attack, the target is aware of the sniper's presence.
-
-**The following rogue talents complement the sniper archetype:** camouflage, snap shot, sniper's
-eye, weapon training
-
-**The following advanced rogue talents complement the sniper archetype:** deadly sneak, master of
-disguise, stealthy sniper
+The following advanced slayer talents (which are also available to rogues) complement the sniper
+archetype: deadly sneak, master of disguise, and stealthy sniper.

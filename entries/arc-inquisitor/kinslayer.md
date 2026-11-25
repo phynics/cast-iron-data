@@ -16,10 +16,16 @@ page = "98"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "judgment", level = 1 },
+  { anchor = "slayer-s-brand" },
+  { anchor = "greater-brand", level = 1 },
+  { anchor = "undead-sense", level = 2 },
+]
 trades = [
-  { replaces = "Destruction judgment", feature = "judgment", power = "destruction" },
-  { replaces = "Detect alignment", feature = "detect-alignment" },
-  { alters = "Teamwork feats", feature = "teamwork-feat" },
+  { replaces = "Destruction judgment", feature = "judgment", power = "destruction", by = ["slayer-s-brand"] },
+  { replaces = "Detect alignment", feature = "detect-alignment", by = ["undead-sense"] },
+  { alters = "Teamwork feats", feature = "teamwork-feat", by = ["greater-brand"] },
 ]
 +++
 
@@ -28,93 +34,76 @@ to eradicating the very creatures whose blood flows within her veins. She spends
 and slaying those vampiric monsters for whom humans have become prey. A kinslayer has the following
 class features.
 
-**Prerequisites:** Dhampir
+## Judgment (Su) {#judgment}
 
-**Judgment (Su)**
+At 1st level, a kinslayer gains the following judgment.
 
-**Info:** A kinslayer gains the following judgment.
+## Slayer's Brand (Su) {#slayer-s-brand}
 
-**Gained:** At 1st Level
+When using this judgment, the kinslayer gains the ability to brand undead creatures with positive
+energy. To do so, she must make a successful melee touch attack against the undead creature. This
+attack deals an amount of positive energy damage equal to 1d6 + the kinslayer's Charisma modifier,
+and burns her personal symbol into the undead creature's flesh, bone, or even its incorporeal form.
+From that point onward, the kinslayer can sense the existence of the branded creature as if it were
+the target of a _[locate creature](ref/spell/locate-creature)_ spell (caster level equal to 1/2 the
+kinslayer's inquisitor level). A slayer's brand lasts until the undead creature is destroyed or
+until the kinslayer uses this ability on another creature. This ability replaces the destruction
+judgment.
 
-**Replaces:** _[Destruction](ref/spell/destruction)_ judgment
+## Greater Brand (Su) {#greater-brand}
 
-**Slayer's Brand (Su)**
+At 1st level, a kinslayer learns to modify her slayer's brand judgment as she gains levels. Whenever
+she gains the ability to learn a teamwork feat, she can instead opt to learn one of the following
+modifications to her slayer's brand judgment.
 
-**Ability:** When using this judgment, the kinslayer gains the ability to brand undead creatures
-with positive energy. To do so, she must make a successful melee touch attack against the undead
-creature. This attack deals an amount of positive energy damage equal to 1d6 + the kinslayer's
-Charisma modifier, and burns her personal symbol into the undead creature's flesh, bone, or even its
-incorporeal form. From that point onward, the kinslayer can sense the existence of the branded
-creature as if it were the target of a [locate creature](ref/spell/locate-creature) spell (caster
-level equal to 1/2 the kinslayer's inquisitor level).
+### Branding Ray {#branding-ray}
 
-**Special:** A _slayer's brand_ lasts until the undead creature is destroyed or until the kinslayer
-uses this ability on another creature.
+The slayer's [brand](ref/spell/brand) judgment can be used as a ranged touch attack with a range of
+20 feet. A kinslayer can take this modification more than once. Whenever she does, she increases the
+range of her brand by 20 feet.
 
-**Greater Brand (Su)**
+### Debilitating Brand {#debilitating-brand}
 
-**Ability:** Whenever she gains the ability to learn a teamwork feat, she can instead opt to learn
-one of the following modifications to her _slayer's brand_ judgment.
+A creature currently affected by the slayer's [brand](ref/spell/brand) judgment takes a -2 penalty
+on attack rolls against the kinslayer who placed the brand.
 
-**Alters:** Teamwork feats
+### Devastating Brand {#devastating-brand}
 
-**Flavor:** A kinslayer learns to modify her _slayer's brand_ judgment as she gains levels.
+When the kinslayer attacks a creature that she has branded with her slayer's brand, she threatens a
+critical hit on a roll of 19–20. If the kinslayer is good, she also gains a +2 sacred bonus on all
+rolls to confirm critical hits on a branded creature.
 
-**Gained:** At 1st Level
+### Dual Brand {#dual-brand}
 
-**Special:** Each time the kinslayer opts to take a greater brand, it replaces her ability to gain a
-teamwork feat at that level.
+The kinslayer can have up to two creatures branded at a time.
 
-**Branding Ray**
+### Holy Brand {#holy-brand}
 
-**Ability:** The _slayer's brand_ judgment can be used as a ranged touch attack with a range of 20
-feet.
+The kinslayer can use her [brand](ref/spell/brand) on creatures with the evil subtype as well as
+undead.
 
-**Special:** A kinslayer can take this modification more than once. Whenever she does, she increases
-the range of her _[brand](ref/spell/brand)_ by 20 feet.
+### Searing Brand {#searing-brand}
 
-**Debilitating Brand**
+The kinslayer's slayer's brand deals an additional 1d6 points of damage for every five inquisitor
+levels she has. If the creature hit with the slayer's brand is particularly vulnerable to bright
+light, the damage dice of her slayer's brand increases to d8s. A kinslayer must be at least 6th
+level to take this modification.
 
-**Passive:** A creature currently affected by the _slayer's brand_ judgment takes a -2 penalty on
-attack rolls against the kinslayer who placed the _[brand](ref/spell/brand)._
+### Silver Brand {#silver-brand}
 
-**Devastating Brand**
+The kinslayer can use her [brand](ref/spell/brand) on lycanthropes and creatures with vulnerability
+to silver as well as undead.
 
-**Ability:** When the kinslayer attacks a creature that she has branded with her _slayer's brand,_
-she threatens a critical hit on a roll of 19-20. If the kinslayer is good, she also gains a +2
-sacred bonus on all rolls to confirm critical hits on a branded creature.
+Each time the kinslayer opts to take a greater brand, it replaces her ability to gain a teamwork
+feat at that level.
 
-**Dual Brand**
+## Undead Sense (Sp) {#undead-sense}
 
-**Ability:** The kinslayer can have up to two creatures branded at a time.
-
-**Holy Brand**
-
-**Ability:** The kinslayer can use her _[brand](ref/spell/brand)_ on creatures with the evil subtype
-as well as undead.
-
-**Searing Brand**
-
-**Ability:** The kinslayer's _slayer's brand_ deals an additional 1d6 points of damage for every
-five inquisitor levels she has. If the creature hit with the _slayer's brand_ is particularly
-vulnerable to bright light, the damage dice of her _slayer's brand_ increases to d8s.
-
-**Prereq:** 6th-Level Inquisitor
-
-**Silver Brand**
-
-**Ability:** The kinslayer can use her _[brand](ref/spell/brand)_ on lycanthropes and creatures with
-vulnerability to silver as well as undead.
-
-**Undead Sense (Sp)**
-
-**Ability:** A kinslayer gains the ability to use [detect undead](ref/spell/detect-undead) as a
+At 2nd level, a kinslayer gains the ability to use _[detect undead](ref/spell/detect-undead)_ as a
 [spell-like ability](ref/umr/spell-like-abilities) (caster level equal to the kinslayer's inquisitor
-level) at will. If she detects the presence of undead, she can use her _monster lore_ ability to
+level) at will. If she detects the presence of undead, she can use her monster lore ability to
 attempt to determine the type of undead detected as well as to reveal any strengths or weaknesses
 the undead might have. If any of the detected undead are vampires, she gains a bonus on the check
 equal to her inquisitor level to immediately identify them as such.
 
-**Gained:** At 2nd Level
-
-**Replaces:** Detect alignment
+This ability replaces _detect alignment_.

@@ -16,159 +16,108 @@ page = "16"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "stonestrike", level = 1 },
+  { anchor = "heartstone", level = 2 },
+  { anchor = "stoneblood", level = 3 },
+  { anchor = "defensive-stance", level = 4 },
+  { anchor = "earth-channel", level = 4 },
+  { anchor = "stone-servant", level = 5 },
+  { anchor = "stonebane", level = 11 },
+  { anchor = "phase-strike", level = 12 },
+  { anchor = "mobile-defense", level = 18 },
+  { anchor = "stone-body", level = 20 },
+]
 trades = [
-  { replaces = "Smite evil", feature = "smite-evil" },
-  { replaces = "Divine grace", feature = "divine-grace" },
-  { replaces = "Divine health", feature = "divine-health" },
-  { replaces = "3rd-, 9th-, and 15th-level mercies", feature = "mercy", levels = [3, 9, 15] },
-  { replaces = "Spells", feature = "spells" },
-  { replaces = "Channel positive energy", feature = "channel-positive-energy" },
-  { replaces = "Divine bond", feature = "divine-bond" },
-  { replaces = "Aura of justice", feature = "aura-of-justice" },
-  { replaces = "12th-level mercy", feature = "mercy", levels = [12] },
-  { replaces = "18th-level mercy", feature = "mercy", levels = [18] },
-  { replaces = "Holy champion", feature = "holy-champion" },
+  { replaces = "Smite evil", feature = "smite-evil", by = ["stonestrike"] },
+  { replaces = "Divine grace", feature = "divine-grace", by = ["heartstone"] },
+  { replaces = "Divine health", feature = "divine-health", by = ["stoneblood"] },
+  { replaces = "Her mercies gained at 3rd, 9th, and 15th level", feature = "mercy", levels = [3, 9, 15], by = ["stoneblood"] },
+  { replaces = "Spells", feature = "spells", by = ["defensive-stance"] },
+  { replaces = "Channel positive energy", feature = "channel-positive-energy", by = ["earth-channel"] },
+  { replaces = "Divine bond", feature = "divine-bond", by = ["stone-servant"] },
+  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["stonebane"] },
+  { replaces = "12th-level mercy", feature = "mercy", levels = [12], by = ["phase-strike"] },
+  { replaces = "18th-level mercy", feature = "mercy", levels = [18], by = ["mobile-defense"] },
+  { replaces = "Holy champion", feature = "holy-champion", by = ["stone-body"] },
 ]
 +++
 
 A stonelord is a devoted sentinel of dwarven enclaves, drawing the power of the earth and ancient
 stone to protect her people.
 
-**Prerequisites:** Dwarf
+## Stonestrike (Su) {#stonestrike}
 
-**Stonestrike (Su)**
+Once per day per paladin level, a stonelord can draw upon the power of the living rock. As a swift
+action, she treats her melee attacks until the beginning of her next turn (whether armed or unarmed)
+as magical and [adamantine](ref/eq-material/adamantine), including ignoring
+[hardness](ref/umr/hardness) up to twice her paladin level, with a +1 bonus on attack and damage
+rolls, as well as on combat maneuver checks. This bonus also applies to her CMD if she or her target
+is touching the ground or a stone structure. This bonus increases by +1 at 5th level and every 5
+levels thereafter. This ability replaces smite evil.
 
-**Flavor:** A stonelord can draw upon the power of the living rock.
+## Heartstone (Ex) {#heartstone}
 
-**Replaces:** Smite evil
+At 2nd level, a stonelord's flesh becomes progressively rockier. She gains a +1 natural armor bonus
+to AC and DR/adamantine equal to 1/2 her paladin level. The natural armor bonus increases by +1 at
+6th level, and every four levels thereafter, to a maximum of +5 at 18th level. These benefits are
+halved when not touching the ground or a stone structure. This ability replaces divine grace.
 
-**Swift:** She treats her melee attacks until the beginning of her next turn (whether armed or
-unarmed) as magical and [adamantine](ref/eq-material/adamantine), including ignoring
-[hardness](ref/umr/hardness) up to twice her paladin level, with a bonus on attack and damage rolls,
-as well as on combat maneuver checks. This bonus is equal to 1 + one-fifth of her paladin level, and
-it also applies to her CMD if she or her target is touching the ground or a stone structure.
+## Stoneblood (Ex) {#stoneblood}
 
-**Usage:** 1 time/day per paladin level
-
-**Heartstone (Ex)**
-
-**Gained:** At 2nd Level
-
-**Passive:** A stonelord's flesh becomes progressively rockier. She gains a +1 natural armor bonus
-to AC and DR/adamantine equal to 1/2 her paladin level.
-
-**Replaces:** Divine grace
-
-**Special:** These benefits are halved when not touching the ground or a stone structure.
-
-At 6th level: The natural armor bonus increases to +2.
-
-At 10th level: The natural armor bonus increases to +3.
-
-At 14th level: The natural armor bonus increases to +4.
-
-At 18th level: The natural armor bonus increases to +5.
-
-**Stoneblood (Ex)**
-
-**At 15th Level:** This chance increases to 75% and she becomes immune to [bleed](ref/rule/bleed)
-and [blood drain](ref/umr/blood-drain) effects.
-
-**At 3rd Level:** A stonelord's vitals begin to calcify and her blood transforms into liquid stone.
-She adds her paladin level on checks to stabilize at negative hit points and gains a 25% chance to
+At 3rd level, a stonelord's vitals begin to calcify and her blood transforms into liquid stone. She
+adds her paladin level on checks to stabilize at negative hit points and gains a 25% chance to
 ignore a critical hit or precision damage. This does not stack with
-[fortification](ref/magic-enh/fortification) armor or similar effects.
+_[fortification](ref/magic-enh/fortification)_ armor or similar effects. At 9th level, this chance
+increases to 50% and she becomes immune to petrification. At 15th level, this chance increases to
+75% and she becomes immune to [bleed](ref/rule/bleed) and [blood drain](ref/umr/blood-drain)
+effects. This ability replaces divine health and her mercies gained at 3rd, 9th, and 15th level.
 
-**At 9th Level:** This chance increases to 50% and she becomes immune to petrification.
+## Defensive Stance (Ex) {#defensive-stance}
 
-**Replaces:** Divine health, 3rd-, 9th-, and 15th-level mercies
+At 4th level, a stonelord gains the defensive stance ability, as a
+[stalwart defender](ref/pclass/stalwart-defender), and may select one defensive power at 8th level
+and every four levels thereafter. Levels of stalwart defender stack with her paladin levels when
+determining the total number of rounds that she can maintain her defensive stance per day. A
+stonelord does not gain any spells or spellcasting abilities, does not have a caster level, and
+cannot use spell trigger or spell completion magic items.
 
-**Defensive Stance (Ex)**
+## Earth Channel (Su) {#earth-channel}
 
-**Ability:** A stonelord gains the _defensive stance_ ability, as a
-[stalwart defender](ref/pclass/stalwart-defender). Levels of stalwart defender stack with her
-paladin levels when determining the total number of rounds that she can maintain her _defensive
-stance_ per day.
+At 4th level, a stonelord gains [Elemental Channel](ref/feat/elemental-channel) (earth) as a bonus
+feat, which she may activate by spending two uses of her lay on hands ability, using her paladin
+level as her effective cleric level. This ability replaces channel positive energy.
 
-**Gained:** At 4th Level
+## Stone Servant (Su) {#stone-servant}
 
-**Repeat:** The stonelord may select a _defensive power._, 8, 4
-
-**Replaces:** Spells
-
-**Special:** A stonelord does not gain any spells or spellcasting abilities, does not have a caster
-level, and cannot use spell trigger or spell completion magic items.
-
-**Earth Channel (Su)**
-
-**Ability:** A stonelord gains [Elemental Channel](ref/feat/elemental-channel) (earth) as a bonus
-feat, which she may activate by spending two uses of her _lay on hands_ ability, using her paladin
-level as her effective cleric level.
-
-**Gained:** At 4th Level
-
-**Replaces:** Channel positive energy
-
-**Stone Servant (Su)**
-
-**Ability:** A stonelord may call a [Small earth elemental](ref/monster/earth-elemental) to her
+At 5th level, a stonelord may call a [Small earth elemental](ref/monster/earth-elemental) to her
 side, as a paladin calls her mount. This earth elemental is Lawful Good in alignment and possesses
-the [celestial](ref/template/celestial) template.
+the [celestial](ref/template/celestial) template, and it increases in size as the stonelord gains
+levels, becoming Medium at 8th level, Large at 11th level, Huge at 14th level, Greater at 17th
+level, and Elder at 20th level. This ability replaces divine bond.
 
-**At 11th Level:** She now summons a [Large earth elemental](ref/monster/earth-elemental).
+## Stonebane (Su) {#stonebane}
 
-**At 14th Level:** She now summons a [Huge earth elemental](ref/monster/earth-elemental).
-
-**At 17th Level:** She now summons a [Greater earth elemental](ref/monster/earth-elemental).
-
-**At 20th Level:** She now summons an [Elder earth elemental](ref/monster/earth-elemental).
-
-**At 8th Level:** She now summons a [Medium earth elemental](ref/monster/earth-elemental).
-
-**Gained:** At 5th Level
-
-**Replaces:** Divine bond
-
-**Stonebane (Su)**
-
-**Gained:** At 11th Level
-
-**Passive:** When using _stonestrike,_ a stonelord's attack gains the [bane](ref/magic-enh/bane)
+At 11th level, when using stonestrike, a stonelord's attack gains the _[bane](ref/magic-enh/bane)_
 weapon special ability against creatures with the earth subtype and constructs or objects made of
-earth or stone.
+earth or stone. This ability replaces aura of justice.
 
-**Replaces:** Aura of justice
+## Phase Strike (Su) {#phase-strike}
 
-**Phase Strike (Su)**
+At 12th level, a stonelord's stonestrike may pass through stone and metal as if they weren't there.
+By spending 2 uses of her stonestrike ability, she may ignore any cover less than total cover
+provided by stone or metal, and she ignores any AC bonus from stone or metal armor or shields as if
+wielding a _[brilliant energy](ref/magic-enh/brilliant-energy)_ weapon. A phase strike cannot damage
+constructs, objects, or creatures with the earth subtype, but unlike a _brilliant energy_ weapon, it
+can harm undead. This ability replaces her 12th-level mercy.
 
-**Ability:** By spending 2 uses of her _stonestrike_ ability, she may ignore any cover less than
-total cover provided by stone or metal, and she ignores any AC bonus from stone or metal armor or
-shields as if wielding a [brilliant energy](ref/magic-enh/brilliant-energy) weapon.
+## Mobile Defense (Ex) {#mobile-defense}
 
-**Flavor:** A stonelord's _stonestrike_ may pass through stone and metal as if they weren't there.
+At 18th level, a stonelord can make one 5-foot step per round while maintaining her defensive
+stance. This ability replaces her 18th-level mercy.
 
-**Gained:** At 12th Level
+## Stone Body (Ex) {#stone-body}
 
-**Replaces:** 12th-level mercy
-
-**Special:** A _phase strike_ cannot damage constructs, objects, or creatures with the earth
-subtype, but unlike a _brilliant energy_ weapon, it can harm undead.
-
-**Mobile Defense (Ex)**
-
-**Ability:** A stonelord can make one 5-foot step per round while maintaining her _defensive
-stance._
-
-**Gained:** At 18th Level
-
-**Replaces:** 18th-level mercy
-
-**Stone Body (Ex)**
-
-**Info:** A stonelord's body transforms into living stone. She no longer needs to eat, drink,
+At 20th level, a stonelord's body transforms into living stone. She no longer needs to eat, drink,
 breathe, or sleep, and she becomes immune to paralysis, poison, and stunning. She is also no longer
-subject to critical hits or precision-based damage.
-
-**Gained:** At 20th Level
-
-**Replaces:** Holy champion
+subject to critical hits or precision-based damage. This ability replaces holy champion.

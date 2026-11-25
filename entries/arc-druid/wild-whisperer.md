@@ -16,13 +16,19 @@ page = "92"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "inspiration", level = 2 },
+  { anchor = "wild-shape", level = 4 },
+  { anchor = "natural-expertise", level = 6 },
+  { anchor = "investigator-talent", level = 8 },
+]
 trades = [
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "trackless step", feature = "trackless-step" },
-  { replaces = "resist nature's lure", feature = "resist-nature-s-lure" },
-  { replaces = "The additional use of wild shape at 6th level", feature = "wild-shape", levels = [6] },
-  { replaces = "The additional use of wild shape at 8th level", feature = "wild-shape", levels = [8] },
-  { alters = "Wild shape", feature = "wild-shape" },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["inspiration"] },
+  { replaces = "trackless step", feature = "trackless-step", by = ["inspiration"] },
+  { replaces = "resist nature's lure", feature = "resist-nature-s-lure", by = ["inspiration"] },
+  { replaces = "The additional use of wild shape at 6th level", feature = "wild-shape", levels = [6], by = ["natural-expertise"] },
+  { replaces = "The additional use of wild shape at 8th level", feature = "wild-shape", levels = [8], by = ["investigator-talent"] },
+  { alters = "Wild shape", feature = "wild-shape", by = ["wild-shape"] },
 ]
 +++
 
@@ -30,55 +36,39 @@ A wild whisperer is an expert at studying, predicting, and explaining animal beh
 interested in plants, fey, and other aspects of the natural world, and uses her gifts to tame or
 relocate dangerous beasts and soothe the hurts of wounded and sickly creatures.
 
-**Inspiration (Ex)**
+## Inspiration (Ex) {#inspiration}
 
-**Ability:** A wild whisperer gains an inspiration pool as the
-[investigator](ref/class/investigator) class ability. A wild whisperer uses her druid level as her
-investigator level when determining the effects of this ability. Instead of free uses of inspiration
-on Knowledge, Linguistics, or Spellcraft skill checks, the wild whisperer can use inspiration on
-Handle Animal, Heal, Knowledge (geography), Knowledge (nature), Ride, Sense Motive, and Survival
-skill checks without expending a use of inspiration, provided she's trained in the relevant skill.
-She can also use inspiration on any _wild empathy_ check without expending a use of inspiration. A
-wild whisperer's inspiration pool refreshes each day when she prepares spells.
+At 2nd level, a wild whisperer gains an inspiration pool as the
+[investigator](ref/class/investigator) class ability (see page 31). A wild whisperer uses her druid
+level as her investigator level when determining the effects of this ability. Instead of free uses
+of inspiration on Knowledge, Linguistics, or Spellcraft skill checks, the wild whisperer can use
+inspiration on Handle Animal, Heal, Knowledge (geography), Knowledge (nature), Ride, Sense Motive,
+and Survival skill checks without expending a use of inspiration, provided she's trained in the
+relevant skill. She can also use inspiration on any wild empathy check without expending a use of
+inspiration. A wild whisperer's inspiration pool refreshes each day when she prepares spells. This
+ability replaces woodland stride, trackless step, and resist nature's lure.
 
-**Gained:** At 2nd Level
+## Wild Shape (Ex) {#wild-shape}
 
-**Replaces:** Woodland stride, trackless step, resist nature's lure
+At 4th level, a wild whisperer gains the wild shape ability, but she never gains access to any forms
+beyond Small and Medium animal forms, as [beast shape I](ref/spell/beast-shape-1). This ability
+alters wild shape.
 
-**Wild Shape (Ex)**
+## Natural Expertise (Ex) {#natural-expertise}
 
-**Ability:** A wild whisperer gains the _wild shape_ ability, but she never gains access to any
-forms beyond Small and Medium animal forms, as [beast shape I](ref/spell/beast-shape-1).
-
-**Alters:** Wild shape
-
-**Gained:** At 4th Level
-
-**Natural Expertise (Ex)**
-
-**Gained:** At 6th Level
-
-**Passive:** A wild whisperer's powers of observation give her an advantage when she's fighting
+At 6th level, a wild whisperer's powers of observation give her an advantage when she's fighting
 natural creatures. When using inspiration on an attack roll against an animal or a vermin or on a
 saving throw against an effect from an animal or a vermin, a wild whisperer has to expend only one
-use of inspiration instead of two.
+use of inspiration instead of two. This ability replaces the additional use of wild shape at 6th
+level.
 
-**Replaces:** The additional use of _wild shape_ at 6th level
+## Investigator Talent {#investigator-talent}
 
-**Investigator Talent**
+At 8th level, wild whisperer selects an investigator talent (see page 32). This ability replaces the
+additional use of wild shape at 8th level.
 
-**Choice:** Wild whisperer selects an investigator talent.
+## Investigator Talents {#investigator-talents}
 
-**Gained:** At 8th Level
-
-**Replaces:** The additional use of _wild shape_ at 8th level
-
-**Special:** The following investigator talents complement the wild whisperer archetype:
-[amazing inspiration](ref/invtalent/amazing-inspiration),
-[effortless aid](ref/invtalent/effortless-aid),
-[eidetic recollection](ref/invtalent/eidetic-recollection), [empathy](ref/invtalent/empathy),
-[inspirational expertise](ref/invtalent/inspirational-expertise),
-[inspired alertness](ref/invtalent/inspired-alertness),
-[inspired intimidator](ref/invtalent/inspired-intimidator),
-[perceptive tracking](ref/invtalent/perceptive-tracking), and
-[tenacious inspiration](ref/invtalent/tenacious-inspiration).
+The following investigator talents complement the wild whisperer archetype: amazing inspiration,
+effortless aid, eidetic recollection, empathy, inspirational expertise, inspired alertness, inspired
+intimidator, perceptive tracking, tenacious inspiration.

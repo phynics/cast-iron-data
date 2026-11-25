@@ -16,11 +16,17 @@ page = "121"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "lookout", level = 1 },
+  { anchor = "tactician", level = 2 },
+  { anchor = "vanguard-s-bond", level = 4 },
+  { anchor = "ever-ready", level = 7 },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "Slayer talent gained at 2nd level", feature = "slayer-talents", levels = [2] },
-  { replaces = "Slayer talent gained at 4th level", feature = "slayer-talents", levels = [4] },
-  { replaces = "Stalker", feature = "stalker" },
+  { replaces = "Track", feature = "track", by = ["lookout"] },
+  { replaces = "Slayer talent gained at 2nd level", feature = "slayer-talents", levels = [2], by = ["tactician"] },
+  { replaces = "Slayer talent gained at 4th level", feature = "slayer-talents", levels = [4], by = ["vanguard-s-bond"] },
+  { replaces = "Stalker", feature = "stalker", by = ["ever-ready"] },
 ]
 +++
 
@@ -28,60 +34,44 @@ Vanguards are battlefield commanders who focus on the brutality of combat and le
 bloody victory. Quick to react to danger, a vanguard is a valuable scout, capable officer, and
 skilled tactician.
 
-**Lookout (Ex)**
+## Lookout (Ex) {#lookout}
 
-**Gained:** At 1st Level
+At 1st level, a vanguard adds 1/2 his level (minimum 1) to initiative checks. This ability replaces
+track.
 
-**Passive:** A vanguard adds 1/2 his level (minimum 1) to initiative checks.
+## Tactician (Ex) {#tactician}
 
-**Replaces:** Track
+At 2nd level, a vanguard receives a teamwork feat as a bonus feat. He must meet the prerequisites
+for this feat. Once per day as a standard action, the vanguard can grant one of his teamwork feats
+to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for
+3 rounds plus 1 round for every 2 levels the vanguard possesses. Allies do not need to meet the
+prerequisites of this bonus feat. Whenever the vanguard is able to select a new slayer talent, he
+can instead choose to gain an additional use per day of this ability. This ability replaces the
+slayer talent gained at 2nd level.
 
-**Tactician (Ex)**
+## Vanguard's Bond (Ex) {#vanguard-s-bond}
 
-**Ability:** A vanguard receives a teamwork feat as a bonus feat. He must meet the prerequisites for
-this feat.
+At 4th level, a vanguard forms a bond with his fighting companions. As a move action, he can choose
+one of his current studied targets and grant [half](ref/misc/fractions-and-rounding) his studied
+target bonus against that target to all allies within 30 feet who can see or hear him. This bonus
+lasts for a number of rounds equal to the slayer's Intelligence modifier (minimum 1). This bonus
+does not stack with any [favored enemy](ref/ability/favored-enemy) or studied target bonuses
+possessed by his allies; they use whichever bonus is higher. This ability replaces the slayer talent
+gained at 4th level.
 
-**Gained:** At 2nd Level
+## Ever Ready (Ex) {#ever-ready}
 
-**Replaces:** Slayer talent gained at 2nd level
-
-**Special:** Whenever the vanguard is able to select a new slayer talent, he can instead choose to
-gain an additional use per day of this ability.
-
-**Standard:** Once per day, the vanguard can grant one of his teamwork feats to all allies within 30
-feet who can see and hear him. Allies retain the use of this bonus feat for a number of rounds equal
-to 3 + [half](ref/misc/fractions-and-rounding) of his slayer level. Allies do not need to meet the
-prerequisites of this bonus feat.
-
-**Vanguard's Bond (Ex)**
-
-**Flavor:** A vanguard forms a bond with his fighting companions.
-
-**Gained:** At 4th Level
-
-**Move:** He can choose one of his current _studied targets_ and grant
-[half](ref/misc/fractions-and-rounding) his _studied target_ bonus against that target to all allies
-within 30 feet who can see or hear him. This bonus lasts for a number of rounds equal to the
-slayer's Intelligence modifier (minimum 1).
-
-**Replaces:** Slayer talent gained at 4th level
-
-**Special:** This bonus does not stack with any [favored enemy](ref/ability/favored-enemy) or
-_studied target_ bonuses possessed by his allies; they use whichever bonus is higher.
-
-**Ever Ready (Ex)**
-
-**Gained:** At 7th Level
-
-**Passive:** A vanguard is never considered an [unaware combatant](ref/rule/surprise) and is always
+At 7th level, a vanguard is never considered an [unaware combatant](ref/rule/surprise) and is always
 able to act in the surprise round. The vanguard is still [flat-footed](ref/rule/flat-footed) in the
-surprise round until he acts.
+surprise round until he acts. This ability replaces stalker.
 
-**Replaces:** Stalker
+## Slayer Talents {#slayer-talents}
 
-**The following rogue talents complement the vanguard archetype:** combat trick, finesse rogue, hard
-to fool, rogue crawl, surprise attack, terrain mastery, weapon training
+The following slayer talents complement the vanguard archetype: combat trick, finesse rogue, hard to
+fool, rogue crawl, surprise attack, terrain mastery, and weapon training.
 
-**The following advanced slayer talents complement the vanguard archetype:** advanced rogue
-talent\|[feat](ref/talent/feat), [opportunist](ref/talent/opportunist),
-[unwitting ally](ref/talent/unwitting-ally), slayer camouflage
+## Advanced Slayer Talents {#advanced-slayer-talents}
+
+The following advanced slayer talents (and advanced rogue talents) complement the vanguard
+archetype: feat, opportunist, slayer camouflage, and unwitting ally. (Those with asterisks \[\*\]
+are detailed in the slayer class, starting on page 53.)

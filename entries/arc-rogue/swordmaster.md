@@ -16,94 +16,81 @@ page = "164"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "trance", level = 3 },
+]
 trades = [
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "All increments of trap sense", feature = "trap-sense", by = ["trance"] },
 ]
 +++
 
 A swordmaster meditates to strengthen her spiritual connection to her blade. She strives to perfect
 her skills by mastering six deadly trances. A swordmaster has the following class features.
 
-**Prerequisites:** Tengu
+## Class Skills {#class-skills}
 
-**Gained class skills:** kna, sur
+The swordmaster adds Knowledge (nature) and Survival to her list of class skills and removes
+Disguise and Knowledge (dungeoneering) from her list of class skills.
 
-**Lost class skills:** dis, kd
+## Trance (Ex) {#trance}
 
-**Trance (Ex)**
+At 3rd level, a swordmaster learns to focus her martial prowess using an intense meditative trance.
+Under the influence of a trance, the swordmaster can perform fantastic martial feats. Entering a
+trance is a full-round action that provokes attacks of opportunity. The swordmaster can maintain the
+trance for a number of rounds per day equal to 4 + her Wisdom modifier. At each level beyond 3rd,
+she can remain in the trance for 1 additional round. She can end her trance as a free action.
+Following a trance, the swordmaster is [fatigued](ref/misc/fatigued) for a number of rounds equal to
+2 × the number of rounds she spent in the trance. A swordmaster cannot enter a new trance while
+fatigued but can otherwise enter a trance multiple times during a single encounter or combat. If a
+swordmaster falls unconscious, her trance immediately ends.
 
-**Choice:** The swordmaster chooses one trance from the list below.
+At 3rd level, the swordmaster chooses one trance from the list below. She chooses another trance at
+6th, 9th, 12th, 15th, and 18th level. She can only use one type of trance at a time.
 
-**Fullround:** Entering a trance provokes attacks of opportunity. The swordmaster can maintain the
-trance for a number of rounds per day equal to 1 + her rogue level + her Wisdom modifier. She can
-end her trance as a **free action**.
+### Crane Trance (Ex) {#crane-trance}
 
-**Info:** A swordmaster learns to focus her martial prowess using an intense meditative trance.
-Under the influence of a trance, the swordmaster can perform fantastic martial feats.
+The swordmaster's blade rises and falls with the graceful sweeping arcs of the mountain crane. When
+in this trance, a swordmaster gains the benefits of the [Crane Style](ref/feat/crane-style) feat.
 
-**Gained:** At 3rd Level
+### Dragon Trance (Ex) {#dragon-trance}
 
-**Repeat:** She chooses another trance from the list below., 6, 3
+Like the dragon, the swordmaster has honed the steadiness of her mind and body. When in this trance,
+a swordmaster gains the benefits of the [Dragon Style](ref/feat/dragon-style) feat.
 
-**Replaces:** Trap sense
+### Leopard Trance (Ex) {#leopard-trance}
 
-**Special:** The swordmaster can only use one type of trance at a time. Following a trance, the
-swordmaster is [fatigued](ref/misc/fatigued) for a number of rounds equal to 2 × the number of
-rounds she spent in the trance. A swordmaster cannot enter a new trance while fatigued but can
-otherwise enter a trance multiple times during a single encounter or combat. If a swordmaster falls
-unconscious, her trance immediately ends.
+Using the swiftness of the leopard, a swordmaster's evasive footwork confuses her opponents. When in
+this trance, a swordmaster gains the benefits of the [Mobility](ref/feat/mobility) feat.
 
-**Crane Trance (Ex)**
+### Monkey Trance (Ex) {#monkey-trance}
 
-**Ability:** When in this trance, a swordmaster gains the benefits of the
-[Crane Style](ref/feat/crane-style) feat.
+As the monkey springs, the swordmaster leaps from the reach of her enemies. While in this trance, a
+swordmaster can make an Acrobatics check opposed by an opponent's CMD. If she succeeds, she may move
+5 feet as a swift action within the opponent's threatened area; this movement does not provoke
+attacks of opportunity and does not count as a 5-foot step.
 
-**Flavor:** The swordmaster's blade rises and falls with the graceful sweeping arcs of the mountain
-crane.
+### Serpent Trance (Ex) {#serpent-trance}
 
-**Dragon Trance (Ex)**
+Like the serpent, the swordmaster's quick movements allow her to catch her opponent unawares. While
+in this trance, a swordmaster receives a +4 bonus on Bluff checks made to feint during combat.
 
-**Ability:** When in this trance, a swordmaster gains the benefits of the
-[Dragon Style](ref/feat/dragon-style) feat.
+### Tiger Trance (Ex) {#tiger-trance}
 
-**Flavor:** Like the dragon, the swordmaster has honed the steadiness of her mind and body.
+The swordmaster pounces upon her opponents, striking with the ferocity and brute force of a wild
+tiger. While in this trance, a swordmaster can make a combat maneuver check against an opponent
+within [charge](ref/rule/charge) range. If she succeeds, she may charge that opponent and make a
+full attack against that opponent.
 
-**Leopard Trance (Ex)**
+This ability replaces all increments of trap sense.
 
-**Ability:** When in this trance, a swordmaster gains the benefits of the
-[Mobility](ref/feat/mobility) feat.
+## Rogue Talents {#rogue-talents}
 
-**Flavor:** Using the swiftness of the leopard, a swordmaster's evasive footwork confuses her
-opponents.
+The following rogue talents complement the swordmaster archetype: combat trick, stand up, surprise
+attack, weapon training (_Core Rulebook_); befuddling strike, positioning strike (_Advanced Player's
+Guide_).
 
-**Monkey Trance (Ex)**
+## Advanced Talents {#advanced-talents}
 
-**Ability:** While in this trance, a swordmaster can make an Acrobatics check opposed by an
-opponent's CMD. If she succeeds, she may move 5 feet as a **swift action** within the opponent's
-threatened area; this movement does not provoke attacks of opportunity and does not count as a
-5-foot step.
-
-**Flavor:** As the monkey springs, the swordmaster leaps from the reach of her enemies.
-
-**Serpent Trance (Ex)**
-
-**Ability:** While in this trance, a swordmaster receives a +4 bonus on Bluff checks made to feint
-during combat.
-
-**Flavor:** Like the serpent, the swordmaster's quick movements allow her to catch her opponent
-unawares.
-
-**Tiger Trance (Ex)**
-
-**Ability:** While in this trance, a swordmaster can make a combat maneuver check against an
-opponent within [charge](ref/rule/charge) range. If she succeeds, she may charge that opponent and
-make a full attack against that opponent.
-
-**Flavor:** The swordmaster pounces upon her opponents, striking with the ferocity and brute force
-of a wild tiger.
-
-**These rogue talents complement this archetype:** Befuddling strike, combat trick, positioning
-attack, stand up, surprise attack, weapon training
-
-**These advanced rogue talents complement this archetype:** Confounding blades, crippling strike,
-defensive roll, hunter's surprise, redirect attack
+The following advanced rogue talents complement the swordmaster archetype: crippling strike,
+defensive roll (_Core Rulebook_); hunter's surprise, redirect attack (_Advanced Player's Guide_);
+confounding blade (_Ultimate Combat_).

@@ -16,41 +16,41 @@ page = "106"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bonded-spirit", level = 3 },
+]
 trades = [
-  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills" },
-  { replaces = "Revelations gained at 3rd, 7th, and 15th levels", feature = "revelation", levels = [3, 7, 15] },
+  { replaces = "Bonus class skills gained from the oracle's mystery", feature = "mystery", power = "class skills" },
+  { replaces = "Revelations gained at 3rd, 7th, and 15th levels", feature = "revelation", levels = [3, 7, 15], by = ["bonded-spirit"] },
 ]
 +++
 
 Through her exploration of the universe's mysteries, a spirit guide opens connections to the spirit
 world and forms bonds with the entities that inhabit it.
 
-**Replaces:** Bonus skills from the oracle's mystery
+## Class Skills {#class-skills}
 
-**Gained class skills:** ka, kd, ke, kg, kl, kna, kno
+A spirit guide gains all Knowledge skills as class skills. This replaces the bonus class skills
+gained from the oracle's mystery.
 
-**Bonded Spirit (Su)**
+## Bonded Spirit (Su) {#bonded-spirit}
 
-**Ability:** A spirit guide can form a temporary bond with a spirit, as the
-[shaman's](ref/class/shaman) _wandering spirit_ class feature. She must make this selection each day
-when she refreshes her spells. A spirit guide cannot bond with a
-[spirit](ref/ability/shaman-spirits) that is incompatible with her alignment, ethos, or mystery
-(GM's discretion).
+At 3rd level, a [spirit](ref/ability/shaman-spirits) guide can form a temporary bond with a spirit,
+as the [shaman's](ref/class/shaman) wandering spirit class feature (see page 37). She must make this
+selection each day when she refreshes her spells. A spirit guide cannot bond with a spirit that is
+incompatible with her alignment, ethos, or mystery (GM's discretion).
 
-**Ability2:** A spirit guide gains one hex of her choice from the list of hexes available from that
-spirit. She uses her oracle level as her shaman level, and she switches Wisdom for Charisma and vice
-versa for the purpose of determining the hex's effects.
+A spirit guide gains one hex of her choice from the list of hexes available from that spirit. She
+uses her oracle level as her shaman level, and she switches Wisdom for Charisma and vice versa for
+the purpose of determining the hex's effects.
 
-**At 15th Level:** She gains the _greater spirit ability_ of her current bonded spirit.
+At 4th level, she adds the bonded spirit's spirit magic spells to her oracle spells known for that
+day, but only of spell levels she can cast. At 7th level, she gains the spirit ability of her
+current bonded spirit. At 15th level, she gains the greater spirit ability of her current bonded
+spirit.
 
-**At 4th Level:** She adds the bonded spirit's _spirit magic_ spells to her oracle spells known for
-that day, but only of spell levels she can cast.
+This ability replaces the revelations gained at 3rd, 7th, and 15th levels.
 
-**At 7th Level:** She gains the _spirit ability_ of her current bonded spirit.
+## Recommended Mysteries {#recommended-mysteries}
 
-**Gained:** At 3rd Level
-
-**Replaces:** Revelations gained at 3rd, 7th, and 15th levels
-
-**Recommended Mysteries:** [Ancestor](ref/mystery/ancestor), [heavens](ref/mystery/heavens),
-[lore](ref/mystery/lore).
+[Ancestor](ref/mystery/ancestor), [heavens](ref/mystery/heavens), [lore](ref/mystery/lore).

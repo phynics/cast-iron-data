@@ -16,10 +16,15 @@ page = "111"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shared-skill", level = 1 },
+  { anchor = "crowded-vessel", level = 2 },
+  { anchor = "wandering-skills", level = 6 },
+]
 trades = [
-  { replaces = "Spirit magic", feature = "spirit-magic" },
-  { replaces = "Hex gained at 2nd level", feature = "hex", levels = [2] },
-  { replaces = "Wandering hex gained at 6th level", feature = "wandering-hex", levels = [6] },
+  { replaces = "Spirit magic", feature = "spirit-magic", by = ["shared-skill"] },
+  { replaces = "Hex gained at 2nd level", feature = "hex", levels = [2], by = ["crowded-vessel"] },
+  { replaces = "Wandering hex gained at 6th level", feature = "wandering-hex", levels = [6], by = ["wandering-skills"] },
 ]
 +++
 
@@ -27,47 +32,30 @@ For a possessed shaman, merely communing with the spirit world is insufficient. 
 the spirits to share her body, granting them the chance to experience corporeal existence. In
 return, they grant her their skills and protect her from otherworldly influence.
 
-**Shared Skill (Su)**
+## Shared Skill (Su) {#shared-skill}
 
-**Choice:** A possessed shaman selects two skills. Both of these skills must use the same ability
+At 1st level, a possessed shaman selects two skills. Both of these skills must use the same ability
 score. The possessed shaman treats these skills as if she had a number of ranks in them equal to her
 shaman level, and uses her Wisdom modifier in place of the ability modifier the skills would
-normally use.
-
-**Gained:** At 1st Level
-
-**Replaces:** Spirit magic
-
-**Special:** If either of the skills are class skills, she receives the usual +3 bonus on those
+normally use. If either of the skills are class skills, she receives the usual +3 bonus on those
 skill checks for having ranks in those skills. These ranks do not stack with her other skill ranks
-(only the higher number of ranks applies).
+(only the higher number of ranks applies). This ability replaces spirit magic.
 
-**Crowded Vessel (Su)**
+## Crowded Vessel (Su) {#crowded-vessel}
 
-**Gained:** At 2nd Level
-
-**Passive:** Whenever a possessed shaman fails a saving throw against a charm or compulsion spell or
-effect, she can attempt a new saving throw (using the original DC) at the end of her next turn as
+At 2nd level, whenever a possessed shaman fails a saving throw against a charm or compulsion spell
+or effect, she can attempt a new saving throw (using the original DC) at the end of her next turn as
 the spirits inside her attempt to regain control. If the saving throw is successful, the charm or
 compulsion effect ends. If the saving throw fails, she is affected as normal for the remainder of
-the duration.
+the duration. This ability replaces the hex gained at 2nd level.
 
-**Replaces:** Hex gained at 2nd level
+## Wandering Skills (Su) {#wandering-skills}
 
-**Wandering Skills (Su)**
-
-**Ability:** When choosing her _wandering spirit_ for the day, the possessed shaman chooses one
-skill. The possessed shaman treats this skill as if she had a number of ranks in it equal to her
-shaman level, and uses her Wisdom modifier in place of the ability modifier the skill would normally
-use. If the skill is a class skill, she receives the usual +3 bonus on skill checks for having ranks
-in that skill.
-
-**Flavor:** A possessed shaman is able to make room for another spirit.
-
-**Gained:** At 6th Level
-
-**Replaces:** Wandering hex gained at 6th level
-
-**Special:** Each time the possessed shaman changes her _wandering spirit,_ she can also change the
-skill gained through this ability. These ranks do not stack with her other skill ranks (only the
-higher number of ranks applies).
+At 6th level, a possessed shaman is able to make room for another spirit. When choosing her
+wandering spirit for the day, the possessed shaman chooses one skill. The possessed shaman treats
+this skill as if she had a number of ranks in it equal to her shaman level, and uses her Wisdom
+modifier in place of the ability modifier the skill would normally use. If the skill is a class
+skill, she receives the usual +3 bonus on skill checks for having ranks in that skill. Each time the
+possessed shaman changes her wandering spirit, she can also change the skill gained through this
+ability. These ranks do not stack with her other skill ranks (only the higher number of ranks
+applies). This ability replaces the wandering hex gained at 6th level.
