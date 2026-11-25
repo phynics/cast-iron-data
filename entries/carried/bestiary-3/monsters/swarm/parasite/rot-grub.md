@@ -8,6 +8,9 @@ tags = ["vermin", "swarm", "fine"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Swarm/Parasite/Rot Grub", path = "bestiary_3/creature/swarm_parasite_rot_grub.json" },
 ]
+[[sources]]
+publication = "pathfinder-25-the-bastards-of-erebus"
+page = "78"
 
 [fields]
 kind = "creature"

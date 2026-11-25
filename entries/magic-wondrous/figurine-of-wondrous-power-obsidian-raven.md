@@ -2,22 +2,13 @@
 id = "ref/magic-wondrous/figurine-of-wondrous-power-obsidian-raven"
 kind = "item"
 title = "Figurine of Wondrous Power (Obsidian Raven)"
-source_ids = ["ultimate-equipment", "pathfinder-34-blood-for-blood", "legacy-of-fire-players-guide", "pathfinder-122-into-the-shattered-continent", "pathfinder-70-the-frozen-stars"]
+source_ids = ["ultimate-equipment", "pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figurine_of_wondrous_power_obsidian_raven", path = "json/magic_wondrous_slotless03.json" },
 ]
 [[sources]]
 publication = "ultimate-equipment"
 page = "297-298"
-[[sources]]
-publication = "pathfinder-34-blood-for-blood"
-page = "67"
-[[sources]]
-publication = "legacy-of-fire-players-guide"
-page = "26"
-[[sources]]
-publication = "pathfinder-122-into-the-shattered-continent"
-page = "33"
 [[sources]]
 publication = "pathfinder-70-the-frozen-stars"
 page = "63"

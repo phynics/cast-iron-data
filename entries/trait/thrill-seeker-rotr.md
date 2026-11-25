@@ -2,7 +2,7 @@
 id = "ref/trait/thrill-seeker-rotr"
 kind = "trait"
 title = "Thrill Seeker (RotR)"
-source_ids = ["varisia-birthplace-of-legends", "rise-of-the-runelords-anniversary-edition-players-guide"]
+source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrill_seeker_rotr", path = "json/traits02.json" },
 ]

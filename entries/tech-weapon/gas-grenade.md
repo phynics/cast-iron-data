@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "technology-guide"
 page = "46"
+[[sources]]
+publication = "pathfinder-86-lords-of-rust"
+page = "62"
 
 [fields]
 kind = "item"
