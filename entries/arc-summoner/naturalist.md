@@ -62,14 +62,14 @@ When an animal aspect is applied to an eidolon, its form is altered by superfici
 appropriate to that aspect. For example, using aspect of the [bat](ref/aspect/bat) might give the
 eidolon larger ears and eyes and perhaps membranes of skin connecting its limbs to its body, while
 using aspect of the [stag](ref/aspect/stag) might give the eidolon antlers and hoof like nails on
-its feat. None of these changes interfere with any of the eidolon's natural or magical abilities.
+its feet. None of these changes interfere with any of the eidolon's natural or magical abilities.
 
 This ability replaces shield ally and greater shield ally.
 
 ## Second Animal Focus (Su) {#second-animal-focus}
 
 At 10th level, whenever a naturalist uses animal focus, he may apply two different animal aspects to
-his eidolon. The eidolon's form gains superficial physical charges appropriate to the chosen aspect.
+his eidolon. The eidolon's form gains superficial physical changes appropriate to the chosen aspect.
 This replaces the aspect summoner class ability.
 
 ## Shared Focus (Su) {#shared-focus}

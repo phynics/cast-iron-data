@@ -17,7 +17,6 @@ page = "58"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "recommended-mysteries" },
   { anchor = "oracle-s-curse" },
   { anchor = "revelations" },
   { anchor = "misfortune", level = 1 },

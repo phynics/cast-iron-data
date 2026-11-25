@@ -17,13 +17,12 @@ page = "59"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "recommended-mysteries" },
   { anchor = "revelations", level = 1 },
   { anchor = "planar-resistance", level = 3 },
   { anchor = "final-revelation", level = 20 },
 ]
 trades = [
-  { replaces = "Mystery bonus spells at these levels", feature = "mystery", power = "bonus spells" },
+  { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [2, 4, 6, 8, 10, 12, 14, 16, 18], power = "bonus spells" },
   { replaces = "3rd-level revelation", feature = "revelation", levels = [3], by = ["revelations"] },
   { replaces = "Final revelation of the oracle's mystery", feature = "final-revelation", by = ["final-revelation"] },
 ]

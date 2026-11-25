@@ -17,13 +17,11 @@ page = "59"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "recommended-mysteries" },
   { anchor = "oracle-s-curse" },
-  { anchor = "revelations" },
   { anchor = "two-minds" },
 ]
 trades = [
-  { replaces = "Mystery bonus spells at these levels" },
+  { replaces = "Mystery bonus spells at these levels", feature = "mystery", levels = [1, 4, 6, 8, 10, 12, 16], power = "bonus spells" },
 ]
 +++
 

@@ -17,8 +17,6 @@ page = "58"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "recommended-mysteries" },
-  { anchor = "revelations" },
   { anchor = "mental-acuity" },
   { anchor = "final-revelation" },
 ]

@@ -2,228 +2,6 @@
 # except the `edit` text of a feature (status `edit` in the review TSV).
 
 [[entry]]
-id = "ref/arc-brawler/strangler"
-hold = "the replaces trade `Unarmed strike` is not printed in a sentence, and no listed feature of that name prints it"
-opening_from_print = true
-opening = ["A strangler is trained to choke the life out of her victims with her vise-like grip. Some stranglers are self-taught and are little more than brutish murderers, unhinged sociopaths, or opportunistic alley-bashers. Others are members of murder cults or specialized schools of assassination, trained since the cradle to kill with their bare hands."]
-
-[[entry.feature]]
-anchor = "class-skills"
-head = "Class Skills"
-listed = false
-print = "A strangler gains Stealth as a class skill."
-
-[[entry.feature]]
-anchor = "strangle"
-head = "Strangle (Ex)"
-listed = true
-level = 1
-print = "At 1st level, a strangler deals +1d6 [sneak attack](ref/ability/sneak-attack) damage whenever she succeeds at a [grapple](ref/rule/grapple) check to damage or pin an opponent. The strangler is always considered flanking her target for the purpose of using this ability. This damage increases by +1d6 at 2nd, 8th and 15th levels. This ability replaces unarmed strike and brawler's flurry."
-import_trades = ["Unarmed strike, brawler's flurry", "Unarmed strike", "brawler's flurry"]
-
-[[entry.feature]]
-anchor = "practiced-strangler"
-head = "Practiced Strangler (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, when a strangler has the [grappled](ref/rule/grapple-conditions) condition, she does not take a -4 penalty to Dexterity and does not lose her Dexterity bonus to AC. At 9th level, a grappling or grappled strangler still threatens an area and is still able to make attacks of opportunity while grappling or grappled; when pinned, she is not denied her Dexterity bonus and does not take a -4 penalty to Armor Class. This ability replaces AC bonus."
-import_trades = ["AC bonus"]
-
-[[entry.feature]]
-anchor = "sleeper-hold"
-head = "Sleeper Hold (Ex)"
-listed = true
-level = 4
-print = "At 4th level, a strangler can instantly render a pinned opponent unconscious. This works like the knockout ability, but requires a successful grapple combat maneuver check against the pinned opponent and does not have to damage the opponent. Creatures that do not need to breathe, are immune to critical hits, or are immune to nonlethal damage are immune to this ability. At 10th level, a strangler can use this ability twice per day. At 16th level, she can use it three times per day. This alters knockout."
-import_trades = ["Knockout"]
-
-[[entry.feature]]
-anchor = "neckbreaker"
-head = "Neckbreaker (Ex)"
-listed = true
-level = 16
-print = "At 16th level, a strangler can attempt to instantly kill a pinned opponent as a standard action. This works like the sleeper hold ability, but imposes a -5 penalty on her grapple combat maneuver check. If the opponent succeeds at its Fortitude save, the strangler deals damage as if she had attempted the grapple check to damage her opponent; if the opponent fails its Fortitude save, it dies. Creatures that are immune to critical hits are immune to this ability. At 20th level, the strangler can attempt this as a move action instead of a standard action. This ability replaces awesome blow and improved awesome blow."
-import_trades = ["Awesome blow, improved awesome blow", "Awesome blow", "improved awesome blow"]
-
-[[entry]]
-id = "ref/arc-hunter/verminous-hunter"
-hold = "the alters trade `hunter tactics` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["A verminous hunter calls on the ceaseless, single-minded dedication of vermin to hunt and overwhelm her prey. Where other hunters invoke the cunning, animalistic powers of the alpha predators, she calls on the powers of the lowest life forms, reaching out to the spider instead of the monkey, the mantis instead of the snake, or the moth instead of the owl."]
-
-[[entry.feature]]
-anchor = "vermin-companion"
-head = "Vermin Companion (Ex)"
-listed = true
-level = 1
-print = "At 1st level, a verminous hunter must choose a vermin companion instead of an animal companion. This ability alters animal companion. The hunter tactics class ability allows a verminous hunter to grant her teamwork feats to a mindless vermin companion."
-import_trades = ["Animal companion, hunter tactics", "Animal companion", "hunter tactics"]
-
-[[entry.feature]]
-anchor = "vermin-empathy"
-head = "Vermin Empathy (Ex)"
-listed = true
-print = "A verminous hunter gains the wild empathy ability, but can use it only to influence vermin (not animals or magical beasts). This ability alters wild empathy."
-import_trades = ["Wild empathy"]
-
-[[entry.feature]]
-anchor = "vermin-focus"
-head = "Vermin Focus (Su)"
-listed = true
-level = 1
-print = "A verminous hunter can take on the aspect of a vermin. This functions as [animal focus](ref/ability/animal-foci), but allows only the following choices."
-
-[[entry.feature]]
-anchor = "ant"
-head = "Ant"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +2 enhancement bonus to Strength. This bonus increases to +4 at 8th level and +6 at 15th level."
-
-[[entry.feature]]
-anchor = "beetle"
-head = "Beetle"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +2 enhancement bonus to its natural armor bonus. This bonus increases to +4 at 8th level and +6 at 15th level. (A creature without natural armor has an effective natural armor bonus of +0.)"
-
-[[entry.feature]]
-anchor = "centipede"
-head = "Centipede"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +2 competence bonus on Climb checks and a +2 bonus to CMD against pull, push, reposition, and trip combat maneuvers. These bonuses increase to +4 at 8th level and +6 at 15th level."
-
-[[entry.feature]]
-anchor = "cockroach"
-head = "Cockroach"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +4 bonus on saves against cold dangers, disease, heat dangers, starvation, thirst, and on Constitution checks to avoid [suffocation](ref/rule/suffocation). These bonuses increase to +6 at 8th level and +8 at 15th level."
-
-[[entry.feature]]
-anchor = "crab"
-head = "Crab"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +4 competence bonus on Swim checks and a +2 competence bonus on [grapple](ref/rule/grapple) combat maneuver checks. These bonuses increase to +6 and +4 respectively at 8th level, and +8 and +6 at 15th level."
-
-[[entry.feature]]
-anchor = "flea"
-head = "Flea"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +4 competence bonus on saves against disease and Acrobatics checks to jump. These bonuses increase to +6 at 8th level and +8 at 15th level."
-
-[[entry.feature]]
-anchor = "fly"
-head = "Fly"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +2 bonus on Perception checks and on Acrobatics checks to balance or fall safely. These bonuses increase to +4 at 8th level and +6 at 15th level."
-
-[[entry.feature]]
-anchor = "leech"
-head = "Leech"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +2 competence bonus on grapple combat maneuver checks, and deals 1 point of [bleed](ref/rule/bleed) damage every time it succeeds at a grapple combat maneuver check to damage an opponent. These benefits increase to a +4 bonus and 3 points of bleed at 8th level, and a +6 bonus and 5 points of bleed at 15th level. Bleed damage from this ability does not stack with itself."
-
-[[entry.feature]]
-anchor = "mantis"
-head = "Mantis"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +2 bonus on attack of opportunity attack rolls and a +2 competence bonus on grapple combat maneuver checks. These bonuses increase to +4 at 8th level and +6 at 15th level."
-
-[[entry.feature]]
-anchor = "moth"
-head = "Moth"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains [darkvision](ref/rule/darkvision) to a range of 60 feet. At 8th level, the range increases by 30 feet. At 15th level, the creature gains [blindsense](ref/umr/blindsense) to a range of 10 feet."
-
-[[entry.feature]]
-anchor = "phasmid"
-head = "Phasmid"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains [low-light vision](ref/rule/low-light-vision) and a +4 competence bonus on Stealth checks in forests or plains. This bonus increases to +6 at 8th level and +8 at 15th level."
-
-[[entry.feature]]
-anchor = "scorpion"
-head = "Scorpion"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +2 competence bonus on Stealth checks and grapple combat maneuver checks. These bonuses increase to +6 and +4 respectively at 8th level, and +8 and +6 at 15th level."
-
-[[entry.feature]]
-anchor = "spider"
-head = "Spider"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +2 competence bonus on Stealth checks, saving throws against [web](ref/spell/web) effects (magical or otherwise), and checks to break free of webs. This bonus increases to +4 at 8th level and +6 at 15th level."
-
-[[entry.feature]]
-anchor = "wasp"
-head = "Wasp"
-listed = false
-parent = "vermin-focus"
-print = "The creature gains a +4 competence bonus on Perception checks. This bonus increases to +6 at 8th level and +8 at 15th level."
-
-[[entry.feature]]
-anchor = "worm"
-head = "Worm"
-listed = false
-parent = "vermin-focus"
-print = '''
-The creature gains a 25% chance to treat any critical hit or sneak attack as a normal hit (as the _[fortification](ref/magic-enh/fortification)_ armor special ability). This increases to 50% at 8th level, and 75% at 15th level.
-
-This ability replaces animal focus.'''
-import_trades = ["Animal focus"]
-
-[[entry.feature]]
-anchor = "swarm-stride"
-head = "Swarm Stride (Ex)"
-listed = true
-level = 5
-print = "At 5th level, a verminous hunter learns to move through vermin without danger. He can safely pass through [swarms](ref/subtype/swarm) of vermin and does not take swarm damage while within a vermin swarm's space. In addition, he is immune to a swarm's distraction ability. If the hunter or his animal companion attacks a swarm, they lose this protection against only that swarm. This ability replaces woodland stride."
-import_trades = ["Woodland stride"]
-
-[[entry]]
-id = "ref/arc-oracle/psychic-searcher"
-hold = "the replaces trade `The bonus spells gained at 4th, 6th, 8th, 12th, 16th, and 18th levels from the oracle's mystery` is not printed in a sentence, and no listed feature of that name prints it"
-opening = ["A psychic searcher is devoted to revealing the hidden within the world around her by sensing and communing with residual mental energy, haunts, and fragments of living spirits that can dwell in objects or rooms."]
-
-[[entry.feature]]
-anchor = "bonus-spells"
-head = "Bonus Spells"
-listed = false
-print = "_Augury_ (4th), _locate object_ (6th), _divination_ (8th), _find the path_ (12th), _discern location_ (16th), _foresight_ (18th). These bonus spells replace the oracle's normal mystery bonus spells at these levels."
-import_trades = ["The bonus spells gained at 4th, 6th, 8th, 12th, 16th, and 18th levels from the oracle's mystery", "The bonus spells gained at 4th", "6th", "8th", "12th", "16th", "18th levels from the oracle's mystery"]
-
-[[entry.feature]]
-anchor = "inspiration"
-head = "Inspiration (Ex)"
-listed = true
-level = 2
-print = "At 2nd level, a psychic searcher gains an inspiration pool, as the [investigator](ref/class/investigator) class ability. A psychic searcher uses her oracle level as her investigator level to determine the effects of this ability. She gains free uses of inspiration on Diplomacy, Knowledge (arcana, history, local, nobility, planes, religion), and Sense Motive skill checks without spending a use of inspiration, provided she's trained in that skill. A psychic searcher's inspiration pool refreshes each day, usually when she refreshes her spells. A psychic searcher's inspiration pool is based on her Charisma modifier, not her Intelligence modifier. This ability replaces the mystery spell gained at 2nd level."
-import_trades = ["Mystery spell gained at 2nd level"]
-
-[[entry.feature]]
-anchor = "psychic-talent"
-head = "Psychic Talent (Su)"
-listed = true
-level = 3
-print = "At 3rd level, a psychic searcher's mastery of her supernatural insight grows, granting her a new investigator talent from the following list: [amazing inspiration](ref/invtalent/amazing-inspiration), [eidetic recollection](ref/invtalent/eidetic-recollection), [empathy](ref/invtalent/empathy), [inspired alertness](ref/invtalent/inspired-alertness), [item lore](ref/invtalent/item-lore), [perceptive tracking](ref/invtalent/perceptive-tracking) (except using Sense Motive instead of Perception or Survival), [rogue talent](ref/invtalent/rogue-talent) (only for [hard to fool](ref/talent/hard-to-fool)), and [tenacious inspiration](ref/invtalent/tenacious-inspiration). Whenever a psychic searcher can select a new revelation, she can instead select an investigator or rogue talent from the above list. This ability replaces the revelation gained at 3rd level."
-import_trades = ["Revelations gained after 3rd level", "Revelation gained at 3rd level"]
-
-[[entry.feature]]
-anchor = "recommended-mysteries"
-head = "Recommended Mysteries"
-listed = false
-print = "[Ancestor](ref/mystery/ancestor), [lore](ref/mystery/lore), [nature](ref/mystery/nature)."
-
-[[entry]]
 id = "ref/arc-swashbuckler/daring-infiltrator"
 hold = "checker: [fields] trades = \"alters: Bonus feats\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 26)"
 opening_from_print = true
@@ -240,7 +18,7 @@ anchor = "bonus-feats"
 head = "Bonus Feats"
 listed = false
 print = "In addition to combat feats, a daring infiltrator's bonus feats at 4th, 8th, 12th, 16th, and 20th level can come from the following list: [Alertness](ref/feat/alertness), [Antagonize](ref/feat/antagonize), [Cosmopolitan](ref/feat/cosmopolitan), [Deceitful](ref/feat/deceitful), [Deft Hands](ref/feat/deft-hands), Disarming Threat\\*, [Persuasive](ref/feat/persuasive), [Prodigy](ref/feat/prodigy), and [Skill Focus](ref/feat/skill-focus). (Those marked with an asterisk \\[\\*\\] are detailed in this book.) This alters the bonus feat class ability."
-import_trades = ["Bonus feats"]
+import_trades = ["Bonus feats", "Bonus feats"]
 
 [[entry.feature]]
 anchor = "quick-tongued"
@@ -248,7 +26,7 @@ head = "Quick-Tongued (Ex)"
 listed = true
 level = 2
 print = "At 2nd level, a daring infiltrator gains a +1 bonus on Bluff checks. This bonus increases by 1 for every 4 levels beyond 2nd. This ability replaces charmed life."
-import_trades = ["Charmed life"]
+import_trades = ["Charmed life", "Charmed life"]
 
 [[entry.feature]]
 anchor = "deeds"
@@ -262,7 +40,7 @@ head = "Clandestine Expertise (Ex)"
 listed = true
 level = 3
 print = "At 3rd level, a daring infiltrator with at least 1 panache point gains a +2 bonus on Disguise and Stealth checks. Also, as long as she has at least 1 panache point, when she successfully aids another with a Disguise or Stealth check, she grants the subject a +4 bonus on the skill check instead of the normal +2. This deed replaces swashbuckler initiative."
-import_trades = ["Swashbuckler initiative"]
+import_trades = ["Swashbuckler initiative", "Swashbuckler initiative"]
 
 [[entry.feature]]
 anchor = "silence-is-golden"
@@ -270,7 +48,7 @@ head = "Silence Is Golden (Ex)"
 listed = true
 level = 3
 print = "At 3rd level, when a daring infiltrator with at least 1 panache point succeeds at a [trip](ref/rule/trip) or [grapple](ref/rule/grapple) combat maneuver check, the target is rendered mute for 1 round. For every 5 by which the result of the combat maneuver check exceeds the opponent's CMD, the target remains mute for an additional round. A mute creature cannot speak, use language-dependent effects or verbal components, or use command words. This deed replaces menacing swordplay."
-import_trades = ["Menacing swordplay"]
+import_trades = ["Menacing swordplay", "Menacing swordplay"]
 
 [[entry.feature]]
 anchor = "authoritative-bluff"
@@ -278,4 +56,4 @@ head = "Authoritative Bluff (Ex)"
 listed = true
 level = 11
 print = "At 11th level, a daring infiltrator can spend 1 panache point to reroll a Bluff check after the roll is made but before the results are revealed. She must take the result of the second roll, even if it is lower. Additionally, a daring infiltrator with at least 1 panache point gains a +5 bonus on Bluff checks to pretend to be someone's superior (socially or in the military). If she succeeds at the check, the target obeys any reasonable orders she gives as it would those of an actual superior in the situation. This deed replaces bleeding wound."
-import_trades = ["Bleeding wound"]
+import_trades = ["Bleeding wound", "Bleeding wound"]
