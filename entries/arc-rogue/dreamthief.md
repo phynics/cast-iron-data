@@ -29,6 +29,7 @@ trades = [
   { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["soothe-dreaming"] },
   { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["dream-infiltrator"] },
   { replaces = "rogue talent gained at 12th level", feature = "rogue-talents", levels = [12], by = ["dream-infiltrator"] },
+  { alters = "Class skills" },
 ]
 +++
 

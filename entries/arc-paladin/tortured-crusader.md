@@ -33,15 +33,12 @@ trades = [
   { alters = "lay on hands", feature = "lay-on-hands", by = ["torment", "alone-in-the-dark", "second-chance"] },
   { alters = "Class skills", by = ["self-sufficient"] },
   { alters = "skill ranks per level", by = ["self-sufficient"] },
-  { alters = "Smite evil", by = ["torment", "all-is-darkness"] },
-  { alters = "Lay on hands", by = ["torment", "alone-in-the-dark", "second-chance"] },
   { alters = "channel energy", feature = "channel-energy", by = ["alone-in-the-dark"] },
   { alters = "divine bond", feature = "divine-bond", by = ["alone-in-the-dark"] },
   { alters = "aura of courage", feature = "aura-of-courage", by = ["alone-in-the-dark"] },
   { alters = "aura of resolve", feature = "aura-of-resolve", by = ["alone-in-the-dark"] },
   { alters = "aura of faith", feature = "aura-of-faith", by = ["alone-in-the-dark"] },
   { alters = "aura of righteousness", feature = "aura-of-righteousness", by = ["alone-in-the-dark"] },
-  { alters = "Lay on hands", by = ["torment", "alone-in-the-dark", "second-chance"] },
   { alters = "mercy", feature = "mercy", by = ["second-chance"] },
 ]
 +++

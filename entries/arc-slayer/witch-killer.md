@@ -28,6 +28,7 @@ trades = [
   { replaces = "Slayer talent gained at 10th level", feature = "slayer-talents", levels = [10], by = ["burn-the-witch"] },
   { alters = "Studied target", feature = "studied-target", by = ["studied-witch"] },
   { alters = "Slayer talents", feature = "slayer-talents", by = ["superstitious"] },
+  { alters = "Class skills" },
 ]
 +++
 

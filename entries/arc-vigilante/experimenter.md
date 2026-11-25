@@ -32,6 +32,7 @@ trades = [
   { replaces = "Frightening appearance", feature = "frightening-appearance", by = ["craft-construct"] },
   { replaces = "Stunning appearance", feature = "stunning-appearance", by = ["mutable-mutagen"] },
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
+  { alters = "Class skills" },
 ]
 +++
 

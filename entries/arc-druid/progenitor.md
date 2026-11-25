@@ -77,7 +77,7 @@ This replaces nature bond.
 A progenitor never gains the ability to use wild shape to transform into an elemental.
 
 At 6th level, a progenitor can use wild shape to change into a Small or Medium fey. When doing so,
-her wild shape functions as _[fey form I](ref/spell/fey-form-1)_UW.
+her wild shape functions as _[fey form I](ref/spell/fey-form-1)_.
 
 At 8th level, a progenitor can use wild shape to change into a Tiny or Large fey. When she does so,
 her wild shape functions as _[fey form II](ref/spell/fey-form-2)_.

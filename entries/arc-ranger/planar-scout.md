@@ -28,6 +28,7 @@ trades = [
   { replaces = "improved evasion", feature = "improved-evasion", by = ["planar-adaptation"] },
   { alters = "Wild empathy", feature = "wild-empathy", by = ["planar-empathy"] },
   { alters = "Favored terrain", feature = "favored-terrain", by = ["planar-terrains"] },
+  { alters = "The ranger's skills" },
 ]
 +++
 

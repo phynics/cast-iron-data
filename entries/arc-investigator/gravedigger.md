@@ -36,7 +36,6 @@ trades = [
   { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["grave-lamp"] },
   { alters = "Alchemy", feature = "alchemy", by = ["limited-alchemy"] },
   { alters = "investigator talents", feature = "investigator-talent", by = ["limited-alchemy", "focus-talent"] },
-  { alters = "Investigator talents", by = ["limited-alchemy", "focus-talent"] },
   { alters = "Studied combat", feature = "studied-combat", by = ["kill-the-dead"] },
   { alters = "studied strike", feature = "studied-strike", by = ["kill-the-dead"] },
 ]
