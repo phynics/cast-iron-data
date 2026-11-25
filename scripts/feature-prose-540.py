@@ -2139,6 +2139,9 @@ def assign_by(trades: list[dict], listed: list[dict], opening: list[str]) -> tup
                  for sop, ph, _ in opening_sentences):
             by[i] = []
         else:
+            if t.get("_prose_by") and any(f["anchor"] == t["_prose_by"] for f in listed):
+                by[i] = [t["_prose_by"]]        # owner ruling 28: the prose of that feature states the trade
+                continue
             # ruling A per operation (owner ruling 24): the feature prints no sentence of the trade's own op
             quiet = lambda f: not any(sop == op for sop, _, _ in sentences[f["anchor"]])
             own = [f["anchor"] for f in listed if quiet(f) and namekey(f["head"]) == namekey(name)]
@@ -2259,6 +2262,7 @@ TRADE_RENAMES = {
     ("ref/arc-swashbuckler/veiled-blade", "Swashbuckler's edge"): "Swashbuckler's edge deed",
     ("ref/arc-swashbuckler/veiled-blade", "Swashbuckler's grace"): "Swashbuckler's grace deed",
     ("ref/arc-swashbuckler/noble-fencer", "Subtle blade"): "Subtle blade deed",
+    ("ref/arc-rogue/phantom-thief", "Rogue's edge (unchained rogue only)"): "Rogue's edge",
     ("ref/arc-paladin/divine-hunter", "Aura of righteousness"): "Aura of faith",
     ("ref/arc-monk/qinggong-monk", "The monk class abilities the qinggong monk gives up for a ki power"):
         "The monk class ability the qinggong monk gives up for this ki power",
@@ -2311,6 +2315,7 @@ TRADE_ADDITIONS = {
     "ref/arc-summoner/wild-caller-arg": [{"alters": "Eidolon", "feature": "eidolon"}],
     "ref/arc-druid/eagle-shaman": [{"replaces": "Venom immunity", "feature": "venom-immunity"}],
     "ref/arc-bard/silver-balladeer": [{"alters": "Alignment"}],
+    "ref/arc-rogue/phantom-thief": [{"alters": "Class skills"}],
 }
 
 
@@ -2318,6 +2323,8 @@ TRADE_ADDITIONS = {
 # its feature link): the repeat is left out and the TSV note records it.
 TRADE_DROPS = {
     "ref/arc-fighter/roughrider": [("replaces", "Armor training 4")],
+    "ref/arc-monk/sage-counselor": [("alters", "Ki pool")],
+    "ref/arc-paladin/gray-paladin": [("alters", "Smite evil")],
 }
 
 
@@ -2367,6 +2374,16 @@ LEVEL_IN_FIRST_PARAGRAPH = {
 }
 
 
+# A stored trade that print states in the prose of a feature and in no trade sentence (owner ruling 28 of 2026-11-25):
+# the entry, the stored name, the feature whose text states it. The check accepts the prose of the feature as support.
+TRADE_PROSE_BY = {
+    ("ref/arc-inquisitor/faith-hunter", "justice"): "sworn-enemy",
+    ("ref/arc-inquisitor/faith-hunter", "destruction judgments"): "sworn-enemy",
+    ("ref/arc-rogue/phantom-thief", "Debilitating injury"): "refined-education",
+    ("ref/arc-rogue/phantom-thief", "Rogue's edge (unchained rogue only)"): "refined-education",
+}
+
+
 # Stored trades that print's sentence names and that carry no `by`: print has only a bare sentence for them ("This
 # replaces the monk class ability the qinggong monk gives up for this ki power", Ultimate Magic p. 51).
 TRADE_NO_BY = {
@@ -2400,8 +2417,9 @@ def dropped_trade_indices(e: Entry) -> set[int]:
         key = trade_name(t)
         if key in TRADE_MERGED.get(e.id, []) or key in TRADE_REMOVALS.get(e.id, []):
             out.add(i)
-        elif key in TRADE_DROPS.get(e.id, []) and "feature" not in t and any(
-                j != i and trade_name(u) == key and "feature" in u for j, u in enumerate(trades_of(e))):
+        elif (key[0], key[1].lower()) in [(o, n.lower()) for o, n in TRADE_DROPS.get(e.id, [])] and "feature" not in t and any(
+                j != i and (trade_name(u)[0], trade_name(u)[1].lower()) == (key[0], key[1].lower()) and "feature" in u
+                for j, u in enumerate(trades_of(e))):
             out.add(i)
     return out
 
@@ -2421,6 +2439,8 @@ def effective_trades_origin(e: Entry) -> list[tuple[dict, int | None]]:
             t2 = {("replaces" if fixed == "replaces" else "alters") if k == op else k: v for k, v in t2.items()}
         if name in TRADE_NO_BY.get(e.id, []):
             t2 = dict(t2, _no_by=True)
+        if (e.id, name) in TRADE_PROSE_BY:
+            t2 = dict(t2, _prose_by=TRADE_PROSE_BY[(e.id, name)])
         out.append((t2, i))
     return out + [(dict(t), None) for t in TRADE_ADDITIONS.get(e.id, [])]
 
@@ -2615,6 +2635,9 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         if t.get("_no_by"):
             rows[0]["notes"].append(f'trade without `by`: {trade_name(old)[0]} "{trade_name(old)[1]}" has only a bare printed sentence')
             t = {k: v for k, v in t.items() if k != "_no_by"}
+        if t.get("_prose_by"):
+            rows[0]["notes"].append(f'trade by prose (ruling 28): {trade_name(old)[0]} "{trade_name(old)[1]}" is stated in the text of `{t["_prose_by"]}`, in no trade sentence')
+            t = {k: v for k, v in t.items() if k != "_prose_by"}
         if (e.id, trade_name(old)[1]) in TRADE_RELINKS:
             rows[0]["notes"].append(f'trade relinked: "{trade_name(old)[1]}" now names `{TRADE_RELINKS[(e.id, trade_name(old)[1])]}`, the feature that print says it replaces')
         if trade_name(old)[1] in TRADE_UNLINKS.get(e.id, []):
