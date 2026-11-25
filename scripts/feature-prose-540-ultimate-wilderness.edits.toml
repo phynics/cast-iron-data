@@ -19,7 +19,7 @@ This replaces versatile performance.
 [[edit]]
 entry = "ref/arc-fighter/viking"
 anchor = "berserker"
-note = "hand-written from print (Ultimate Wilderness p. 50): the sidebar Tribal Weapon Group, which print sets at the foot of the page, was read in the middle of the paragraph; the paragraph is whole here and the sidebar is with the Tribal Fighter, whose weapon group it is"
+note = "hand-written from print (Ultimate Wilderness p. 51): the sidebar Tribal Weapon Group, which print sets at the foot of the page, was read in the middle of the paragraph; the paragraph is whole here and the sidebar is with the Tribal Fighter, whose weapon group it is"
 text = '''
 At 5th level, a viking gains the rage ability as per the [barbarian](ref/class/barbarian) class feature, and she uses her fighter level as her barbarian level for the purposes of determining her rounds of rage, qualifying for rage powers, and determining the effects of rage powers.
 
@@ -32,7 +32,7 @@ anchor = "tribal-weapon-group"
 head = "Tribal Weapon Group"
 parent = "tribal-weapon-training"
 after = "tribal-weapon-training"
-note = "text of the rules box Tribal Weapon Group (Ultimate Wilderness p. 50, ruling 41), word for word from print: print sets it at the foot of the Viking's page, and the tribal weapon group is the one that the Tribal Fighter's Tribal Weapon Training names; the import of the Viking and the Tribal Fighter lacked it"
+note = "text of the rules box Tribal Weapon Group (Ultimate Wilderness p. 51, ruling 41), word for word from print: print sets it at the foot of the Viking's page, and the tribal weapon group is the one that the Tribal Fighter's Tribal Weapon Training names; the import of the Viking and the Tribal Fighter lacked it"
 text = '''
 The following new fighter weapon group consists of traditional melee weapons used by many indigenous peoples.
 
