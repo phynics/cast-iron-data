@@ -2,7 +2,7 @@ name: corpus
 
 # Checks every pull request the way the app reads the corpus. The checker is built from the
 # current `main` of Cast Iron, so a corpus change that the app's content build would reject
-# fails here, before a tag and a pin bump. Seven checks run:
+# fails here, before a tag and a pin bump. Eight checks run:
 #   1. `fmt --check`: every file is in canonical form.
 #   2. `check`: references resolve (the compiler runs it first and stops on any problem).
 #   3. The app's compiler, given the same inputs as `cargo xtask content`: every id in the app's
