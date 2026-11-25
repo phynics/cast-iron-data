@@ -354,7 +354,7 @@ ref/arc-paladin/undead-scourge	Aura of Life (Su)	aura-of-life	yes	8	print	print	
 ref/arc-paladin/undead-scourge	Undead Annihilation (Su)	undead-annihilation	yes	11	print	print		118	46038e2037530aeedde9f2d03d8b3294a94731fcb163da88e0a497032917a08a
 ref/arc-paladin/warrior-of-the-holy-light	Power of Faith (Su)	power-of-faith	yes	4	print	print	hand review (ruling 14, print): The corpus row is garbled. Print's rule is clear.	118	bda484b418f97753f5f3b069d46ed1efeb17d4568762f15fb4326edce54629e2
 ref/arc-paladin/warrior-of-the-holy-light	Shining Light (Su)	shining-light	yes	14	print	print	hand review (ruling 14, print): Same values.	118	596f406d4b2c8103af813d74c2c93bfac28221e5c6a8b649ae0b802fab099da7
-ref/arc-ranger/beast-master	Class Skills	class-skills	yes		print	print	head printed, not in the import: added from print	124	
+ref/arc-ranger/beast-master	Class Skills	class-skills	no		print	print	head printed, not in the import: added from print	124	
 ref/arc-ranger/beast-master	Animal Companion (Ex)	animal-companion	yes		print	print		124	9be65c811dec9067d63115244f62cf9116b48764269d7fc7cfe0fa23c3ed45a5
 ref/arc-ranger/beast-master	Improved Empathic Link (Su)	improved-empathic-link	yes	6	print	print	hand review (ruling 14, print): A stray citation mark in the corpus.; level from the trade	125	054179232827476dcf6458b06f5756986c46f7661ae13d14d07334d59e85c4a5
 ref/arc-ranger/beast-master	Strong Bond (Ex)	strong-bond	yes	12	print	print		125	d723c4530c6b7d832a5b84836badd167bf4f4b6e0c18774c73c8730e9c78f9da
