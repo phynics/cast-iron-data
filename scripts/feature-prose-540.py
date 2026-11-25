@@ -805,6 +805,10 @@ SECTION_STOP = re.compile(r"^(?:AFFILIATION\b|.*\bAFFILIATION$|EQUIPMENT\b|FEATS
                           r"VIGILANTE CLASS OPTION|INVESTIGATOR TALENTS|[A-Z]+ (?:EQUIPMENT|FEATS|MAGIC ITEMS?|SPELLS?)$)")
 SECTION_STOPS = {"on": False}
 
+# A title with a parenthesized type that does not end the section: the box of rules that the archetype uses (owner ruling 41;
+# Elemental Aspects of the Elementalist Shifter, Ultimate Wilderness pp. 78-80, "(Elementalist Shifter Aspects)")
+KEEP_TITLES = {squash("Elemental Aspects (Elementalist Shifter Aspects)")}
+
 
 def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) -> list[Para] | None:
     """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
@@ -826,7 +830,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                     # another archetype, a class, a chapter title (a larger font) or a title of a type of rules ends the
                     # section; so does the "NEW RACIAL RULES" title that follows the archetypes of a race chapter
                     if (stops is None or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
-                            or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or TYPE_TITLE.search(nxt.plain())
+                            or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
                             or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
                         break
                     out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
