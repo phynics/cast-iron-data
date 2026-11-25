@@ -21,13 +21,10 @@ page = "11"
 kind = "archetype"
 features = [
   { anchor = "school-focus", level = 2 },
-  { anchor = "mystery-of-unblinking-flame", level = 2 },
-  { anchor = "mystery-of-unfolding-wind", level = 2 },
-  { anchor = "mystery-of-untwisting-iron", level = 2 },
   { anchor = "monk-moves", level = 4 },
 ]
 trades = [
-  { replaces = "Bonus feats gained at 2nd, 8th, and 14th levels", feature = "bonus-combat-feats", levels = [2, 8, 14], by = ["mystery-of-untwisting-iron"] },
+  { replaces = "Bonus feats gained at 2nd, 8th, and 14th levels", feature = "bonus-combat-feats", levels = [2, 8, 14], by = ["school-focus"] },
   { replaces = "AC bonus", feature = "ac-bonus", by = ["monk-moves"] },
 ]
 +++
@@ -51,7 +48,7 @@ of the mystery taught at her old monastery. As the winding path renegade progres
 self-guided training, she gains a deeper understanding of her chosen monastery's mystery, which
 grants her new powers.
 
-## Mystery of Unblinking Flame (Su) {#mystery-of-unblinking-flame}
+### Mystery of Unblinking Flame (Su) {#mystery-of-unblinking-flame}
 
 At 2nd level, the winding path renegade increases her speed by 10 feet (this is treated as an
 enhancement bonus). If she uses her monk moves class ability to gain fast movement, the abilities
@@ -66,7 +63,7 @@ opportunity. She deals 10d6 points of fire damage to any creature whose square s
 this movement. A successful Reflex saving throw (DC = 10 + [half](ref/misc/fractions-and-rounding)
 her brawler level + her Dexterity bonus) halves this damage.
 
-## Mystery of Unfolding Wind (Su) {#mystery-of-unfolding-wind}
+### Mystery of Unfolding Wind (Su) {#mystery-of-unfolding-wind}
 
 At 2nd level, the winding path renegade adds 10 to the range increments of ranged weapons she wields
 and gains [Deflect Arrows](ref/feat/deflect-arrows) as a bonus feat. At 8th level, she can harness
@@ -78,7 +75,7 @@ attacker, using the same attack roll and damage roll the attacker rolled against
 deflected attack had more than one projectile (as with [Manyshot](ref/feat/manyshot)), the winding
 path renegade sends only one projectile back at the attacker. The others are deflected as normal.
 
-## Mystery of Untwisting Iron (Su) {#mystery-of-untwisting-iron}
+### Mystery of Untwisting Iron (Su) {#mystery-of-untwisting-iron}
 
 At 2nd level, metal weapons and armor in the winding path renegade's possession are treated as
 [masterwork](ref/rule/masterwork-weapons) unless they have the [broken](ref/misc/broken) condition.

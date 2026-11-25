@@ -19,17 +19,17 @@ kind = "archetype"
 features = [
   { anchor = "infernal-binding" },
   { anchor = "infernal-arcana", level = 1 },
-  { anchor = "infernal-affinity-ex-su-or-sp" },
+  { anchor = "infernal-affinity" },
   { anchor = "smite-chaos", level = 6 },
 ]
 trades = [
   { replaces = "Summon monster I", feature = "summon-monster-i", by = ["infernal-arcana"] },
-  { replaces = "Bond senses", feature = "bond-senses", by = ["infernal-affinity-ex-su-or-sp"] },
-  { replaces = "shield ally", feature = "shield-ally", by = ["infernal-affinity-ex-su-or-sp"] },
-  { replaces = "transposition", feature = "transposition", by = ["infernal-affinity-ex-su-or-sp"] },
-  { replaces = "greater shield ally", feature = "greater-shield-ally", by = ["infernal-affinity-ex-su-or-sp"] },
-  { replaces = "merge forms", feature = "merge-forms", by = ["infernal-affinity-ex-su-or-sp"] },
-  { replaces = "twin eidolon", feature = "twin-eidolon", by = ["infernal-affinity-ex-su-or-sp"] },
+  { replaces = "Bond senses", feature = "bond-senses", by = ["infernal-affinity"] },
+  { replaces = "shield ally", feature = "shield-ally", by = ["infernal-affinity"] },
+  { replaces = "transposition", feature = "transposition", by = ["infernal-affinity"] },
+  { replaces = "greater shield ally", feature = "greater-shield-ally", by = ["infernal-affinity"] },
+  { replaces = "merge forms", feature = "merge-forms", by = ["infernal-affinity"] },
+  { replaces = "twin eidolon", feature = "twin-eidolon", by = ["infernal-affinity"] },
   { replaces = "Maker's call", feature = "maker-s-call", by = ["smite-chaos"] },
   { replaces = "eidolon's devotion ability", by = ["smite-chaos"] },
   { alters = "Eidolon", feature = "eidolon", by = ["infernal-binding"] },
@@ -79,7 +79,7 @@ binder's eidolon can use each of its infernal arcana
 
 This replaces the summon monster I summoner class feature.
 
-## Infernal Affinity (Ex, Su, or Sp) {#infernal-affinity-ex-su-or-sp}
+## Infernal Affinity (Ex, Su, or Sp) {#infernal-affinity}
 
 A devil binder wrenches Hell's power from her eidolon. This grants the devil binder the bloodline
 powers of the [infernal](ref/sorcbloodline/infernal) sorcerer bloodline (gained at the following

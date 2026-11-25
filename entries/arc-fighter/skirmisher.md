@@ -16,14 +16,13 @@ kind = "archetype"
 features = [
   { anchor = "wilderness-training" },
   { anchor = "conditioning", level = 2 },
-  { anchor = "light-infantry-training" },
   { anchor = "reconnaissance-training" },
   { anchor = "mobility-training", level = 3 },
   { anchor = "mobile-mastery", level = 19 },
 ]
 trades = [
   { replaces = "The fighter's weapon and armor proficiency", feature = "weapon-and-armor-proficiencies" },
-  { replaces = "2nd level fighter bonus feat", feature = "bonus-feats", levels = [2], by = ["conditioning"] },
+  { replaces = "Bonus feat the fighter normally receives at 2nd level", feature = "bonus-feats", levels = [2], by = ["conditioning"] },
   { replaces = "Bravery", feature = "bravery", by = ["reconnaissance-training"] },
   { replaces = "Armor training", feature = "armor-training", by = ["mobility-training"] },
   { replaces = "Armor mastery", feature = "armor-mastery", by = ["mobile-mastery"] },
@@ -82,7 +81,7 @@ Through repeated exposure, a skirmisher operating in jungles and wetlands builds
 against pathogens and toxins. He gains a bonus on Fortitude saving throws against disease and
 poison.
 
-## Light Infantry Training (Ex) {#light-infantry-training}
+### Light Infantry Training (Ex) {#light-infantry-training}
 
 A skirmisher fighting in a light infantry unit learns to avoid fire from enemy artillery, siege
 weapons, and spellcasters. He gains a bonus on Reflex saving throws against attacks that deal half

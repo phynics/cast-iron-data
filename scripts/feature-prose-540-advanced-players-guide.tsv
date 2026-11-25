@@ -244,7 +244,7 @@ ref/arc-fighter/roughrider	Unavoidable Onslaught (Ex)	unavoidable-onslaught	yes	
 ref/arc-fighter/roughrider	Indomitable Steed (Ex)	indomitable-steed	yes	19	print	print		107	8146305d2d3fb86f70edb1f1a71df20da8955aa56aa44317f340ffc7d08a3489
 ref/arc-fighter/savage-warrior	Spark of Life (Ex)	spark-of-life	yes	2	print	print	print: Advanced Player's Guide, 2nd printing	107	eae59a4bfa420bdb6f124a04101fdd17779583dfa2dbdffa74767b573de8b7b8
 ref/arc-fighter/savage-warrior	Natural Savagery (Ex)	natural-savagery	yes	5	print	print		107	a5966bffe064e577589959c36e5b433fd09ae88bca2c20b4c68b272ea0b4f2a3
-ref/arc-fighter/savage-warrior	Savage Charge (Ex)	savage-charge	yes	9	print	print		107	e5f0c940b02f9d5443a2973ab53ee1878474681f5c065f64826f9024e579d5c5
+ref/arc-fighter/savage-warrior	Savage Charge (Ex)	savage-charge	yes	9	print	print	trade added: replaces "The normal attack roll bonus and AC penalty for charging", which print states and the entry did not store	107	e5f0c940b02f9d5443a2973ab53ee1878474681f5c065f64826f9024e579d5c5
 ref/arc-fighter/savage-warrior	Careful Claw (Ex)	careful-claw	yes	13	print	print		108	ea315a4db1924d56e65000608e62ea771a331fa66fc0b63fe1d21a6c6584e567
 ref/arc-fighter/savage-warrior	Greater Savage Charge (Ex)	greater-savage-charge	yes	17	print	print		108	7e86776dfd70fc6a51ed5c5467e0d04961d272ff8a958214f8ef72ea1bc0207c
 ref/arc-fighter/savage-warrior	Natural Weapon Mastery (Ex)	natural-weapon-mastery	yes	20	print	print		108	310b81bd4494fc0d08b34d7f55794ab59d4a616d9c1d57cbb9d1d248f9594047

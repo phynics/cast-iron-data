@@ -808,6 +808,10 @@ SECTION_STOP = re.compile(r"^(?:AFFILIATION\b|.*\bAFFILIATION$|EQUIPMENT\b|FEATS
                           r"VIGILANTE CLASS OPTION|INVESTIGATOR TALENTS|[A-Z]+ (?:EQUIPMENT|FEATS|MAGIC ITEMS?|SPELLS?)$)")
 SECTION_STOPS = {"on": False}
 
+# A title with a parenthesized type that does not end the section: the box of rules that the archetype uses (owner ruling 41;
+# Elemental Aspects of the Elementalist Shifter, Ultimate Wilderness pp. 78-80, "(Elementalist Shifter Aspects)")
+KEEP_TITLES = {squash("Elemental Aspects (Elementalist Shifter Aspects)")}
+
 
 def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) -> list[Para] | None:
     """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
@@ -829,7 +833,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                     # another archetype, a class, a chapter title (a larger font) or a title of a type of rules ends the
                     # section; so does the "NEW RACIAL RULES" title that follows the archetypes of a race chapter
                     if (stops is None or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30
-                            or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or TYPE_TITLE.search(nxt.plain())
+                            or CLASS_SUFFIX.search(nxt.plain()) or k == "newracialrules" or (TYPE_TITLE.search(nxt.plain()) and k not in KEEP_TITLES)
                             or (SECTION_STOPS["on"] and SECTION_STOP.match(re.sub(r"\s+", " ", nxt.plain()).strip()))):
                         break
                     out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
@@ -2548,6 +2552,7 @@ TRADE_RENAMES = {
     ('ref/arc-swashbuckler/azatariel', 'Targeted strike'): 'Targeted strike deed',
     ('ref/arc-swashbuckler/azatariel', 'Bleeding wound'): 'Bleeding wound deed',
     ('ref/arc-swashbuckler/azatariel', 'Bonus feats'): "The swashbuckler's bonus feats",
+    ('ref/arc-fighter/skirmisher', '2nd level fighter bonus feat'): 'Bonus feat the fighter normally receives at 2nd level',
 }
 
 
@@ -2573,6 +2578,7 @@ TRADE_LEVELS = {
 # the op that print says. Reanimator (Ultimate Magic p. 20): "functions as and replaces the standard alchemist
 # bomb class feature", stored as `alters`.
 TRADE_OP_FIXES = {
+    ("ref/arc-druid/rot-warden", "Wild shape"): "alters",       # Opus review of batch 4: "This alters wild shape."
     ("ref/arc-alchemist/reanimator", "Bombs"): "replaces",
     ("ref/arc-inquisitor/infiltrator", "Stern gaze"): "replaces",
     ("ref/arc-bard/geisha", "Armor and weapon proficiencies"): "replaces",
@@ -2605,6 +2611,16 @@ TRADE_ADDITIONS = {
     "ref/arc-swashbuckler/rostland-bravo": [{"alters": "Class skills"}],
     "ref/arc-magus/magic-warrior": [{"alters": "Class skills"}],
     "ref/arc-kineticist/dark-elementalist": [{"alters": "Class skills"}],
+    # Opus review of batch 4: a printed "This alters/replaces ..." sentence that no stored trade states (the check `printed_trade_gaps`)
+    "ref/arc-fighter/savage-warrior": [{"replaces": "The normal attack roll bonus and AC penalty for charging"}],
+    "ref/arc-paladin/scion-of-talmandor": [{"alters": "Class skills"}],
+    "ref/arc-alchemist/alchemical-sapper": [{"alters": "Class skills"}],
+    "ref/arc-antipaladin/tyrant": [{"alters": "Class skills"}],
+    "ref/arc-cavalier/hussar": [{"alters": "Class skills"}],
+    "ref/arc-hunter/roof-runner": [{"alters": "Class skills"}, {"replaces": "The hunter's proficiency with medium armor and shields"}],
+    "ref/arc-druid/dinosaur-druid": [{"alters": "Spontaneous casting", "feature": "spontaneous-casting"}],
+    "ref/arc-summoner/leshy-caller": [{"alters": "Eidolon", "feature": "eidolon"}],
+    "ref/arc-unchained-summoner/leshy-caller": [{"alters": "Eidolon", "feature": "eidolon"}],
 }
 
 
@@ -2673,15 +2689,20 @@ TRADE_PROSE_BY = {
 }
 
 
-# Stored trades that print's sentence names and that carry no `by`: print has only a bare sentence for them ("This
-# replaces the monk class ability the qinggong monk gives up for this ki power", Ultimate Magic p. 51).
+# An anchor that the dedupe of the extraction made long, or that reads unnaturally, written as the head says it (the TSV note records it).
 ANCHOR_FIXES = {
     # Winding Path Renegade (Adventurer's Guide p. 106): the table title "Monk Moves" is its own section, so the dedupe gave the
     # feature "Monk Moves (Ex)" the long anchor of its predecessor
     ("ref/arc-brawler/winding-path-renegade", "mystery-of-untwisting-iron-monk-moves"): "monk-moves",
+    # Opus review of batch 4: the anchor without the ability tag, and a name that reads naturally
+    ("ref/arc-unchained-summoner/devil-binder", "infernal-affinity-ex-su-or-sp"): "infernal-affinity",
+    ("ref/arc-summoner/leshy-caller", "alignment-base-form"): "plant-eidolon-base-form",
+    ("ref/arc-unchained-summoner/leshy-caller", "alignment-base-form"): "plant-eidolon-base-form",
 }
 
 
+# Stored trades that print's sentence names and that carry no `by`: print has only a bare sentence for them ("This
+# replaces the monk class ability the qinggong monk gives up for this ki power", Ultimate Magic p. 51).
 TRADE_NO_BY = {
 }
 
@@ -3243,6 +3264,13 @@ def edit_front(front: str, feats: list[dict], by: dict[int, list[str]], n_trades
     return "\n".join(out)
 
 
+# A head that print sets in capitals as the title of a box is written in title case, like the other boxes (Opus review of batch 4)
+HEAD_REWRITES = {
+    ("ref/arc-summoner/leshy-caller", "plant-eidolon-subtype"): "Plant Eidolon Subtype",
+    ("ref/arc-unchained-summoner/leshy-caller", "plant-eidolon-subtype"): "Plant Eidolon Subtype",
+}
+
+
 def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     status = {r["anchor"]: r["status"] for r in rows if r["anchor"]}
     feats = prop["feature"]
@@ -3260,7 +3288,8 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
         while up.get("parent"):
             depth += 1
             up = next((x for x in feats if x["anchor"] == up["parent"]), {})
-        parts.append(f"{'#' * (2 + depth)} {re.sub(r'(?<!\\)([*_])', r'\\\1', f['head'])} {{#{f['anchor']}}}")
+        head = HEAD_REWRITES.get((e.id, f["anchor"]), f["head"])
+        parts.append(f"{'#' * (2 + depth)} {re.sub(r'(?<!\\)([*_])', r'\\\1', head)} {{#{f['anchor']}}}")
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
     front = edit_front(e.front, feats, by, len(trades_of(e)), TRADE_ADDITIONS.get(e.id), dropped_trade_indices(e))
@@ -3379,6 +3408,37 @@ def recheck(corpus: Path, args, written: list[Entry], originals: dict[Path, str]
 
 # ---- --check --------------------------------------------------------------------------------------------
 
+# A printed trade sentence that states no trade on purpose (listed in the PR body): Weretouched's Lycanthrope Aspect says
+# "This alters her other class features, as detailed in each relevant class feature", a cross-reference to the features that follow.
+TRADE_GAPS_ALLOWED = {("ref/arc-shifter/weretouched", "her other class features, as detailed in each relevant class feature")}
+
+
+def printed_trade_gaps(e: Entry) -> list[str]:
+    """The printed trade sentences of a converted entry that no stored trade states (Opus review of batch 4: the app's check does
+    not require a stored trade for every printed sentence). Every "This alters X" or "This replaces X" in the text of a feature
+    (its unlisted subheadings count with it) needs a stored trade of that op whose name covers X; a phrase that ends "as indicated
+    below" is a cross-reference (ruling 40) and states none."""
+    fields = e.data.get("fields") or {}
+    listed = {f["anchor"] for f in fields.get("features") or []}
+    trades = [trade_name(t) for t in trades_of(e)]
+    out: list[str] = []
+    head = None
+    for part in re.split(r"(?m)^(?=#+ )", e.body):
+        m = re.match(r"#+ (.*?)(?: \{#([^}]+)\})?\n", part)
+        if not m:
+            continue
+        if m.group(2) in listed:
+            head = m.group(1)
+        if head is None:
+            continue
+        for sop, ph, _bare in trade_sentences(part[m.end():], ABILITY_TAG.sub("", head).strip()):
+            if re.match(r"(?:grants|to|does|do|not)\b", ph) or (e.id, ph) in TRADE_GAPS_ALLOWED:
+                continue                    # "This change to spells doesn't apply", "This ability does not alter ...": no trade sentence
+            if not any(op == sop and covers(ph, name) for op, name in trades):
+                out.append(f'{head}: the sentence "This {sop} {ph}" has no stored trade')
+    return out
+
+
 def run_check(args) -> int:
     corpus = Path(args.corpus).resolve()
     book = args.book
@@ -3407,6 +3467,7 @@ def run_check(args) -> int:
                 errors.append(f"{e.id}: converted, but a row is not decided")
             if e.id in props:
                 errors.append(f"{e.id}: converted, but still in the proposals")
+            errors += [f"{e.id}: {gap}" for gap in printed_trade_gaps(e)]
             continue
         if not mine:
             errors.append(f"{e.id}: not in the review TSV; run --compare")

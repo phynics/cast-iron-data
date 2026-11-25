@@ -20,10 +20,6 @@ features = [
   { anchor = "astrology" },
   { anchor = "starfinding", level = 1 },
   { anchor = "investigator-talents" },
-  { anchor = "horoscopic-scrolls" },
-  { anchor = "precognition" },
-  { anchor = "returning-star" },
-  { anchor = "shooting-star" },
 ]
 trades = [
   { replaces = "Trapfinding", feature = "trapfinding", by = ["starfinding"] },
@@ -83,7 +79,7 @@ This replaces trapfinding and trap sense.
 
 A star watcher can select the following talents, in addition to general investigator talents.
 
-## Horoscopic Scrolls (Su) {#horoscopic-scrolls}
+### Horoscopic Scrolls (Su) {#horoscopic-scrolls}
 
 The star watcher gains [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat. He can use the feat
 to create an arcane scroll of any formula he knows. Unlike horoscopes created with the astrology
@@ -92,7 +88,7 @@ the star watcher can use scrolls as if he were an arcane spellcaster. He can use
 (geography) to identify scrolls as if using _[detect magic](ref/spell/detect-magic)_. He must hold
 the scroll for 1 round to attempt such a check.
 
-## Precognition (Su) {#precognition}
+### Precognition (Su) {#precognition}
 
 A star watcher can glimpse into the mysterious possibilities of the future and prepare a horoscope
 he knows he'll need later. Once per day as a swift action, a star watcher can treat an open extract
@@ -100,13 +96,13 @@ slot as though he had prepared a horoscope keyed to himself in it, choosing one 
 appropriate level from his formula book. A star watcher must be at least 4th level to select this
 talent.
 
-## Returning Star (Ex) {#returning-star}
+### Returning Star (Ex) {#returning-star}
 
 Whenever the star watcher uses a starknife as a thrown weapon against a target of his studied
 combat, the starknife automatically returns as if it had the _[returning](ref/magic-enh/returning)_
 property. The star watcher must have the shooting star investigator talent to select this talent.
 
-## Shooting Star (Ex) {#shooting-star}
+### Shooting Star (Ex) {#shooting-star}
 
 A star watcher can calculate trajectories with terrifying accuracy. He can apply the benefits of
 studied combat, studied strike, and investigator talents that add effects to studied combat or
