@@ -30,6 +30,7 @@ trades = [
   { replaces = "Wild shape", feature = "wild-shape", by = ["concerted-effort"] },
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
   { alters = "Nature bond", feature = "nature-bond", by = ["nature-bond"] },
+  { alters = "Class skills" },
 ]
 +++
 

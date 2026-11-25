@@ -31,6 +31,7 @@ trades = [
   { alters = "Wild empathy", feature = "wild-empathy", by = ["avian-empathy"] },
   { alters = "Hunter's bond", feature = "hunter-s-bond", by = ["raven-companion"] },
   { alters = "Spellcasting", feature = "spells", by = ["argent-magic"] },
+  { alters = "Class skills" },
 ]
 +++
 

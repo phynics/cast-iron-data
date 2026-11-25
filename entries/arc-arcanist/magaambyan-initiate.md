@@ -27,6 +27,7 @@ features = [
 trades = [
   { replaces = "The arcanist exploits gained at 1st, 9th, and 17th levels", feature = "arcanist-exploits", levels = [1, 9, 17], by = ["halcyon-spell-lore"] },
   { replaces = "The arcanist exploit gained at 5th level", feature = "arcanist-exploits", levels = [5], by = ["spell-mastery"] },
+  { alters = "Alignment" },
 ]
 +++
 

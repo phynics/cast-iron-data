@@ -36,6 +36,7 @@ trades = [
   { replaces = "Venom immunity", feature = "venom-immunity", by = ["bend-bolt"] },
   { alters = "Armor and weapon proficiencies", feature = "weapon-and-armor-proficiencies", by = ["armor-and-weapon-proficiencies"] },
   { alters = "Nature bond", feature = "nature-bond", by = ["nature-bond"] },
+  { alters = "Alignment" },
 ]
 +++
 

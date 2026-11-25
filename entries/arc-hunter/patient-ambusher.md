@@ -31,6 +31,7 @@ trades = [
   { replaces = "Hunter tactics", feature = "hunter-tactics", by = ["snare-trap"] },
   { replaces = "Teamwork feats", feature = "teamwork-feat", by = ["additional-traps"] },
   { replaces = "Raise animal companion", feature = "raise-animal-companion", by = ["launch-trap"] },
+  { alters = "Class skills" },
 ]
 +++
 

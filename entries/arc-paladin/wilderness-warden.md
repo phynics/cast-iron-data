@@ -33,6 +33,7 @@ trades = [
   { replaces = "Aura of justice", feature = "aura-of-justice", by = ["natural-shield"] },
   { alters = "Smite evil", feature = "smite-evil", by = ["smite-evil"] },
   { alters = "Spells", feature = "spells", by = ["spells"] },
+  { alters = "Class skills" },
 ]
 +++
 

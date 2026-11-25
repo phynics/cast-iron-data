@@ -29,6 +29,7 @@ trades = [
   { replaces = "Menacing swordplay", feature = "deeds", power = "menacing swordplay", by = ["silence-is-golden"] },
   { replaces = "Bleeding wound", feature = "deeds", power = "bleeding wound", by = ["authoritative-bluff"] },
   { alters = "Bonus feats", feature = "bonus-feats" },
+  { alters = "The swashbuckler's class skill list" },
 ]
 +++
 

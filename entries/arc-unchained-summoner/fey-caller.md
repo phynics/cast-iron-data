@@ -22,6 +22,7 @@ features = [
 ]
 trades = [
   { alters = "Summon monster spell-like ability", feature = "summon-monster-i", by = ["nature-s-call"] },
+  { alters = "Class skills" },
 ]
 +++
 

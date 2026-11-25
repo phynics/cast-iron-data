@@ -30,6 +30,7 @@ trades = [
   { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["adaptive-physiology"] },
   { replaces = "swift poisoning", feature = "swift-poisoning", by = ["adaptive-physiology"] },
   { replaces = "instant alchemy", feature = "instant-alchemy", by = ["adaptive-physiology"] },
+  { alters = "Class skills" },
 ]
 +++
 

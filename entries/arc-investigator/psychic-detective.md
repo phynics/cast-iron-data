@@ -30,6 +30,7 @@ trades = [
   { replaces = "poison immunity", feature = "poison-resistance", levels = [11], by = ["psychic-meddler"] },
   { replaces = "Investigator talent gained at 3rd level", feature = "investigator-talent", levels = [3], by = ["phrenic-dabbler"] },
   { alters = "Investigator talents", feature = "investigator-talent", by = ["investigator-talents"] },
+  { alters = "Class skills" },
 ]
 +++
 

@@ -28,6 +28,7 @@ trades = [
   { replaces = "Subtle blade", feature = "deeds", power = "subtle blade", by = ["keen-gaze"] },
   { alters = "Derring-do", feature = "deeds", power = "derring-do", by = ["subterfuge"] },
   { alters = "swashbuckler's edge", feature = "deeds", power = "swashbuckler's edge", by = ["subterfuge"] },
+  { alters = "Class skills" },
 ]
 +++
 

@@ -28,6 +28,7 @@ trades = [
   { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["combat-advisor"] },
   { replaces = "All instances of trap sense", feature = "trap-sense" },
   { replaces = "Rogue talent normally gained at 10th level", feature = "rogue-talents", levels = [10], by = ["field-boss"] },
+  { alters = "Class skills" },
 ]
 +++
 

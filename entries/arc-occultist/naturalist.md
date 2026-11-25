@@ -27,6 +27,7 @@ trades = [
   { replaces = "Outside contact", feature = "outside-contact", by = ["tree-talker"] },
   { replaces = "Binding circles", feature = "binding-circles", by = ["reflect-on-the-land"] },
   { alters = "Mental focus", feature = "mental-focus", by = ["natural-focus"] },
+  { alters = "Class skills" },
 ]
 +++
 

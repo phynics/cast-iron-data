@@ -36,6 +36,7 @@ trades = [
   { alters = "aura of resolve", feature = "aura-of-resolve", by = ["weakened-grace"] },
   { alters = "aura of righteousness", feature = "aura-of-righteousness", by = ["weakened-grace"] },
   { alters = "Section on ex-paladins", feature = "sec-ex-paladins", by = ["code-of-conduct"] },
+  { alters = "Class skills" },
 ]
 +++
 

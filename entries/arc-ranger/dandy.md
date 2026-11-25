@@ -31,6 +31,7 @@ trades = [
   { alters = "Favored terrain", feature = "favored-terrain", by = ["favored-terrain"] },
   { alters = "Hunter's bond", feature = "hunter-s-bond", by = ["hobnob"] },
   { alters = "Spellcasting", feature = "spells", by = ["dandy-spells"] },
+  { alters = "Class skills" },
 ]
 +++
 

@@ -28,6 +28,7 @@ trades = [
   { replaces = "Vigilante talents gained at 2nd, 6th, 12th, and 18th levels", feature = "vigilante-talent", levels = [2, 6, 12, 18], by = ["implements-and-focus-powers"] },
   { replaces = "Unshakable", feature = "unshakable", by = ["object-reading"] },
   { alters = "Vengeance strike", feature = "vengeance-strike", by = ["psychometric-strike"] },
+  { alters = "Class skills" },
 ]
 +++
 

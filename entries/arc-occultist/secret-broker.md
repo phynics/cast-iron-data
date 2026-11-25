@@ -32,6 +32,7 @@ trades = [
   { replaces = "Fast circles", feature = "fast-circles", by = ["purge-secret"] },
   { alters = "Implements", feature = "implements", by = ["knowledge-is-power"] },
   { alters = "implement mastery", feature = "implement-mastery", by = ["knowledge-is-power"] },
+  { alters = "Class skills" },
 ]
 +++
 

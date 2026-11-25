@@ -27,6 +27,7 @@ trades = [
   { replaces = "Spirit magic spells gained from the shaman's spirit", feature = "spirit-magic", by = ["keeper-spirit-magic"] },
   { replaces = "Wandering spirit", feature = "wandering-spirit", by = ["pathfinders-past"] },
   { replaces = "Wandering hex", feature = "wandering-hex", by = ["versatile-hex"] },
+  { alters = "Class skills" },
 ]
 +++
 

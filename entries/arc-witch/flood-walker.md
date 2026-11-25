@@ -27,6 +27,7 @@ trades = [
   { replaces = "6th-level hex", feature = "hex", levels = [6], by = ["river-stride"] },
   { replaces = "10th-level hex", feature = "hex", levels = [10], by = ["breath-siphon"] },
   { alters = "Patron spells", feature = "patron-spells", by = ["patron-spells"] },
+  { alters = "Class skills" },
 ]
 +++
 

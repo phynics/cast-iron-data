@@ -28,6 +28,7 @@ trades = [
   { replaces = "investigator talent gained at 3rd level", feature = "investigator-talent", levels = [3], by = ["herbalism"] },
   { alters = "Inspiration", feature = "inspiration", by = ["natural-philosopher-s-inspiration"] },
   { alters = "Alchemy", feature = "alchemy", by = ["herbalism"] },
+  { alters = "Class skills" },
 ]
 +++
 

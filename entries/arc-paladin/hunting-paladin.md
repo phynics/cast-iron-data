@@ -30,6 +30,7 @@ trades = [
   { alters = "Detect evil", feature = "detect-evil", by = ["detect-evil"] },
   { alters = "Smite evil", feature = "smite-evil", by = ["smite-evil"] },
   { alters = "Spells", feature = "spells", by = ["spells"] },
+  { alters = "Class skills" },
 ]
 +++
 

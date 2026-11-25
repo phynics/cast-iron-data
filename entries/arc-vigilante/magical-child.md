@@ -31,6 +31,7 @@ trades = [
   { alters = "frightening appearance", feature = "frightening-appearance", by = ["staunch-ally"] },
   { alters = "stunning appearance", feature = "stunning-appearance", by = ["staunch-ally"] },
   { alters = "vengeance strike", feature = "vengeance-strike", by = ["staunch-ally"] },
+  { alters = "Class skills" },
 ]
 +++
 

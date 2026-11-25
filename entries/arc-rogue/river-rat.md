@@ -26,6 +26,7 @@ features = [
 trades = [
   { replaces = "Trapfinding", feature = "trapfinding", by = ["swamper"] },
   { replaces = "Trap sense", feature = "trap-sense", by = ["rat-s-resilience"] },
+  { alters = "Class skills" },
 ]
 +++
 
