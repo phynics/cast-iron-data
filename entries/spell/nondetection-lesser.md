@@ -21,6 +21,7 @@ levels = [
   { class = "Alchemist", level = 2 },
   { class = "Antipaladin", level = 2 },
   { class = "Arcanist", level = 2 },
+  { class = "Hunter", level = 3 },
   { class = "Inquisitor", level = 2 },
   { class = "Investigator", level = 2 },
   { class = "Ranger", level = 3 },
@@ -44,7 +45,7 @@ spell_resistance = "no"
 title = "Spell statistics"
 School: abjuration
 Level: 2: Alchemist, Antipaladin, Arcanist, Inquisitor, Investigator, Sorcerer, Summoner, Unchained Summoner, Wizard\
-3: Ranger
+3: Hunter, Ranger
 Casting time: 1 standard action
 Components: V, S, M (a drop of mercury)
 Range: close (25 ft. + 5 ft./2 levels)

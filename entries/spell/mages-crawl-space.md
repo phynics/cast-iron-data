@@ -19,6 +19,7 @@ levels = [
   { class = "Bard", level = 2 },
   { class = "Shaman", level = 2 },
   { class = "Sorcerer", level = 2 },
+  { class = "Witch", level = 2 },
   { class = "Wizard", level = 2 },
 ]
 casting_time = "1 standard action"
@@ -35,7 +36,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Arcanist, Bard, Shaman, Sorcerer, Wizard
+Level: 2: Arcanist, Bard, Shaman, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a piece of clay)
 Range: personal

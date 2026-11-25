@@ -20,7 +20,10 @@ school = "evocation"
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Magus", level = 4 },
+  { class = "Occultist", level = 4 },
+  { class = "Psychic", level = 3 },
   { class = "Sorcerer", level = 4 },
+  { class = "Spiritualist", level = 4 },
   { class = "Wizard", level = 4 },
 ]
 casting_time = "1 standard action"
@@ -37,7 +40,8 @@ spell_resistance = "yes (object)"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 4: Arcanist, Magus, Sorcerer, Wizard
+Level: 3: Psychic\
+4: Arcanist, Magus, Occultist, Sorcerer, Spiritualist, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: long (400 ft. + 40 ft./level)

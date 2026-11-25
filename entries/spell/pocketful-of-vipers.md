@@ -19,6 +19,7 @@ levels = [
   { class = "Druid", level = 3 },
   { class = "Hunter", level = 3 },
   { class = "Occultist", level = 3 },
+  { class = "Ranger", level = 3 },
   { class = "Shaman", level = 3 },
   { class = "Witch", level = 3 },
 ]
@@ -36,7 +37,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 3: Druid, Hunter, Occultist, Shaman, Witch
+Level: 3: Druid, Hunter, Occultist, Ranger, Shaman, Witch
 Casting time: 1 round
 Components: V, S, M (a snake scale and fang)
 Range: touch

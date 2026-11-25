@@ -21,6 +21,7 @@ subschools = ["Shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Bard", level = 5 },
+  { class = "Medium", level = 4 },
   { class = "Skald", level = 5 },
 ]
 casting_time = "1 round"
@@ -37,7 +38,8 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 5: Bard, Skald
+Level: 4: Medium\
+5: Bard, Skald
 Casting time: 1 round
 Components: V, S, F (your kapenia)
 Range: close (25 ft. + 5 ft./2 levels)

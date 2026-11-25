@@ -22,6 +22,7 @@ levels = [
   { class = "Skald", level = 6 },
   { class = "Sorcerer", level = 9 },
   { class = "Spiritualist", level = 6 },
+  { class = "Witch", level = 9 },
   { class = "Wizard", level = 9 },
 ]
 casting_time = "1 standard action"
@@ -39,7 +40,7 @@ spell_resistance = "yes (harmless)"
 title = "Spell statistics"
 School: abjuration
 Level: 6: Bard, Mesmerist, Skald, Spiritualist\
-9: Arcanist, Psychic, Sorcerer, Wizard
+9: Arcanist, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M (dust from the Dimension of Dreams worth 1,250 gp)
 Range: touch

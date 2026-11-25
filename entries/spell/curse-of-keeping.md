@@ -18,6 +18,7 @@ subschools = ["Compulsion"]
 descriptors = ["curse"]
 levels = [
   { class = "Antipaladin", level = 2 },
+  { class = "Mesmerist", level = 2 },
   { class = "Shaman", level = 2 },
   { class = "Witch", level = 2 },
 ]
@@ -35,7 +36,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 2: Antipaladin, Shaman, Witch
+Level: 2: Antipaladin, Mesmerist, Shaman, Witch
 Casting time: 1 standard action
 Components: V, S, DF
 Range: close (25 ft. + 5 ft./2 levels)

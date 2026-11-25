@@ -18,6 +18,7 @@ descriptors = ["language-dependant", "poison"]
 levels = [
   { class = "Antipaladin", level = 3 },
   { class = "Bard", level = 3 },
+  { class = "Mesmerist", level = 3 },
   { class = "Shaman", level = 3 },
   { class = "Skald", level = 3 },
   { class = "Witch", level = 3 },
@@ -36,7 +37,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 3: Antipaladin, Bard, Shaman, Skald, Witch
+Level: 3: Antipaladin, Bard, Mesmerist, Shaman, Skald, Witch
 Casting time: 1 standard action
 Components: S, M (a vial of poison)
 Range: touch

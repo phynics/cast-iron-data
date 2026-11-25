@@ -20,6 +20,7 @@ school = "abjuration"
 descriptors = ["evil"]
 levels = [
   { class = "Adept", level = 1 },
+  { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
   { class = "Bloodrager", level = 1 },
   { class = "Cleric", level = 1 },
@@ -48,7 +49,7 @@ spell_resistance = "no; see text"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 1: Adept, Arcanist, Bloodrager, Cleric, Inquisitor, Medium, Oracle, Shaman, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Warpriest, Wizard
+Level: 1: Adept, Antipaladin, Arcanist, Bloodrager, Cleric, Inquisitor, Medium, Oracle, Shaman, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Warpriest, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF
 Range: touch

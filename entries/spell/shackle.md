@@ -26,6 +26,7 @@ levels = [
   { class = "Oracle", level = 2 },
   { class = "Ranger", level = 2 },
   { class = "Sorcerer", level = 2 },
+  { class = "Summoner", level = 2 },
   { class = "Warpriest", level = 2 },
   { class = "Wizard", level = 2 },
 ]
@@ -43,7 +44,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 2: Arcanist, Cleric, Hunter, Inquisitor, Oracle, Ranger, Sorcerer, Warpriest, Wizard
+Level: 2: Arcanist, Cleric, Hunter, Inquisitor, Oracle, Ranger, Sorcerer, Summoner, Warpriest, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: touch

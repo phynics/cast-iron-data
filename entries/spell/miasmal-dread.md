@@ -21,6 +21,7 @@ levels = [
   { class = "Bloodrager", level = 2 },
   { class = "Bard", level = 2 },
   { class = "Inquisitor", level = 3 },
+  { class = "Mesmerist", level = 3 },
   { class = "Skald", level = 2 },
 ]
 casting_time = "1 standard action"
@@ -38,7 +39,7 @@ spell_resistance = "no"
 title = "Spell statistics"
 School: enchantment
 Level: 2: Antipaladin, Bloodrager, Bard, Skald\
-3: Inquisitor
+3: Inquisitor, Mesmerist
 Casting time: 1 standard action
 Components: V, S
 Range: 30 ft.

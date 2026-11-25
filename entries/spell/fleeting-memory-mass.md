@@ -22,6 +22,9 @@ descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Bard", level = 6 },
+  { class = "Mesmerist", level = 5 },
+  { class = "Occultist", level = 6 },
+  { class = "Psychic", level = 7 },
   { class = "Skald", level = 6 },
   { class = "Sorcerer", level = 8 },
   { class = "Wizard", level = 8 },
@@ -40,7 +43,9 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 6: Bard, Skald\
+Level: 5: Mesmerist\
+6: Bard, Occultist, Skald\
+7: Psychic\
 8: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V
