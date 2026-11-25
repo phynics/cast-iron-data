@@ -1037,7 +1037,8 @@ def phrase_tokens(text: str, possessor: bool = True) -> list[str]:
     text = text.replace("'s", "") if possessor else text.replace("'s", "possessive")      # plain reading: a possessor stays a word
     text = re.sub(r"\b(\d+)(?:st|nd|rd|th)?\s*(?:to|-|through)\s*(\d+)(?:st|nd|rd|th)?\b(?!-level)", lambda m: " ".join(
         str(n) for n in range(int(m.group(1)), int(m.group(2)) + 1)) if 0 < int(m.group(1)) < int(m.group(2)) <= 20 else m.group(0), text)   # R6
-    text = re.sub(r"\b(\w+) gained at (\d+(?:st|nd|rd|th)) levels?\b", r"\2-level \1", text)
+    # R4 no longer turns "hex gained at 4th level" into "4th-level hex": the app (#728) compares the printed words, so a stored name
+    # "4th-level hex" does not cover the sentence "the hex gained at 4th level" (owner ruling 22)
     words = re.findall(r"[a-z0-9]+(?:-[a-z0-9]+)*", text)
     out = []
     for w in words:
@@ -2586,6 +2587,18 @@ TRADE_RENAMES = {
     ('ref/arc-swashbuckler/azatariel', 'Bonus feats'): "The swashbuckler's bonus feats",
     ('ref/arc-fighter/skirmisher', '2nd level fighter bonus feat'): 'Bonus feat the fighter normally receives at 2nd level',
     ('ref/arc-witch/tatterdemalion', '4th-, 8th-, 12th-, and 16th-level hexes'): 'Hexes gained at 4th, 8th, 12th, and 16th levels',
+    # The app's check of the printed trade sentences (phynics/cast-iron#728): the stored name is the printed words (ruling 22)
+    ('ref/arc-paladin/soul-sentinel', '6th-level mercy'): 'Mercy gained at 6th level',
+    ('ref/arc-paladin/soul-sentinel', '12th-level mercy'): 'Mercy gained at 12th level',
+    ('ref/arc-witch/flood-walker', '1st-level hex'): 'Hex gained at 1st level',
+    ('ref/arc-witch/flood-walker', '6th-level hex'): 'Hex gained at 6th level',
+    ('ref/arc-witch/flood-walker', '10th-level hex'): 'Hex gained at 10th level',
+    ('ref/arc-witch/gravewalker', '4th-level hex'): "Witch's hex gained at 4th level",
+    ('ref/arc-witch/gravewalker', '8th-level hex'): "Witch's hex gained at 8th level",
+    ('ref/arc-witch/hedge-witch', '4th-level hex'): "Witch's hex gained at 4th level",
+    ('ref/arc-witch/hedge-witch', '8th-level hex'): "Witch's hex gained at 8th level",
+    ('ref/arc-witch/pact-witch', '6th-level hex'): 'Hex normally gained at 6th level',
+    ('ref/arc-witch/tatterdemalion', '1st-level hex'): 'Hex gained at 1st level',
 }
 
 
@@ -2611,6 +2624,7 @@ TRADE_LEVELS = {
 # the op that print says. Reanimator (Ultimate Magic p. 20): "functions as and replaces the standard alchemist
 # bomb class feature", stored as `alters`.
 TRADE_OP_FIXES = {
+    ("ref/arc-witch/gravewalker", "Patron spells"): "replaces",     # print: "This replaces the patron spells."
     ("ref/arc-druid/rot-warden", "Wild shape"): "alters",       # Opus review of batch 4: "This alters wild shape."
     ("ref/arc-alchemist/reanimator", "Bombs"): "replaces",
     ("ref/arc-inquisitor/infiltrator", "Stern gaze"): "replaces",
