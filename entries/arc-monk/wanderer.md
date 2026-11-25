@@ -17,7 +17,6 @@ page = "76"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
   { anchor = "far-traveler", level = 1 },
   { anchor = "long-walk", level = 3 },
   { anchor = "light-step", level = 5 },

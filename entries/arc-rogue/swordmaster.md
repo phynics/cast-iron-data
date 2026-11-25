@@ -17,17 +17,10 @@ page = "164"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
   { anchor = "trance", level = 3 },
-  { anchor = "crane-trance" },
-  { anchor = "dragon-trance" },
-  { anchor = "leopard-trance" },
-  { anchor = "monkey-trance" },
-  { anchor = "serpent-trance" },
-  { anchor = "tiger-trance" },
 ]
 trades = [
-  { replaces = "All increments of trap sense", feature = "trap-sense", by = ["tiger-trance"] },
+  { replaces = "All increments of trap sense", feature = "trap-sense", by = ["trance"] },
 ]
 +++
 
@@ -54,34 +47,34 @@ swordmaster falls unconscious, her trance immediately ends.
 At 3rd level, the swordmaster chooses one trance from the list below. She chooses another trance at
 6th, 9th, 12th, 15th, and 18th level. She can only use one type of trance at a time.
 
-## Crane Trance (Ex) {#crane-trance}
+### Crane Trance (Ex) {#crane-trance}
 
 The swordmaster's blade rises and falls with the graceful sweeping arcs of the mountain crane. When
 in this trance, a swordmaster gains the benefits of the [Crane Style](ref/feat/crane-style) feat.
 
-## Dragon Trance (Ex) {#dragon-trance}
+### Dragon Trance (Ex) {#dragon-trance}
 
 Like the dragon, the swordmaster has honed the steadiness of her mind and body. When in this trance,
 a swordmaster gains the benefits of the [Dragon Style](ref/feat/dragon-style) feat.
 
-## Leopard Trance (Ex) {#leopard-trance}
+### Leopard Trance (Ex) {#leopard-trance}
 
 Using the swiftness of the leopard, a swordmaster's evasive footwork confuses her opponents. When in
 this trance, a swordmaster gains the benefits of the [Mobility](ref/feat/mobility) feat.
 
-## Monkey Trance (Ex) {#monkey-trance}
+### Monkey Trance (Ex) {#monkey-trance}
 
 As the monkey springs, the swordmaster leaps from the reach of her enemies. While in this trance, a
 swordmaster can make an Acrobatics check opposed by an opponent's CMD. If she succeeds, she may move
 5 feet as a swift action within the opponent's threatened area; this movement does not provoke
 attacks of opportunity and does not count as a 5-foot step.
 
-## Serpent Trance (Ex) {#serpent-trance}
+### Serpent Trance (Ex) {#serpent-trance}
 
 Like the serpent, the swordmaster's quick movements allow her to catch her opponent unawares. While
 in this trance, a swordmaster receives a +4 bonus on Bluff checks made to feint during combat.
 
-## Tiger Trance (Ex) {#tiger-trance}
+### Tiger Trance (Ex) {#tiger-trance}
 
 The swordmaster pounces upon her opponents, striking with the ferocity and brute force of a wild
 tiger. While in this trance, a swordmaster can make a combat maneuver check against an opponent

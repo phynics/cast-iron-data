@@ -17,8 +17,7 @@ page = "110"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
-  { anchor = "shadow-guide" },
+  { anchor = "shadow-guide", level = 3 },
   { anchor = "shadow-bond", level = 4 },
   { anchor = "dark-sight", level = 12 },
 ]

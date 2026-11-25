@@ -17,13 +17,9 @@ page = "189"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
-  { anchor = "skill-ranks-per-level" },
   { anchor = "detect-magic", level = 2 },
   { anchor = "eldritch-intuition", level = 3 },
   { anchor = "new-talents" },
-  { anchor = "major-eldritch-magic" },
-  { anchor = "minor-eldritch-magic" },
 ]
 trades = [
   { replaces = "Rogue talent rogues gained at 2nd level", feature = "rogue-talents", levels = [2], by = ["detect-magic"] },
@@ -63,7 +59,7 @@ level, +5 at 15th level, and +6 at 18th level. This ability replaces the trap se
 An eldritch raider has access to the following new advanced talents when selecting rogue advanced
 talents.
 
-## Major Eldritch Magic (Sp) {#major-eldritch-magic}
+### Major Eldritch Magic (Sp) {#major-eldritch-magic}
 
 The eldritch raider gains the ability to cast a 3rd-level spell from the sorcerer/wizard spell list
 two times per day as a [spell-like ability](ref/umr/spell-like-abilities). The caster level for this
@@ -72,7 +68,7 @@ The eldritch raider must have an Intelligence of at least 13 to select this tale
 raider must have the major magic, minor eldritch magic, and minor magic rogue talents before
 choosing this talent.
 
-## Minor Eldritch Magic (Sp) {#minor-eldritch-magic}
+### Minor Eldritch Magic (Sp) {#minor-eldritch-magic}
 
 The eldritch raider gains the ability to cast a 2nd-level spell from the sorcerer/wizard spell list
 two times per day as a [spell-like ability](ref/umr/spell-like-abilities). The caster level for this

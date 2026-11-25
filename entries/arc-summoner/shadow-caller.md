@@ -16,110 +16,82 @@ page = "110"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "shadow-summoning" },
+  { anchor = "shadow-eidolon" },
+  { anchor = "shadow-form" },
+]
 trades = [
-  { replaces = "Magical symbol that identifies the summoner and his eidolon" },
-  { alters = "Eidolon", feature = "eidolon" },
+  { replaces = "Magical symbol that identifies the summoner and his eidolon", by = ["shadow-eidolon"] },
+  { alters = "Eidolon", feature = "eidolon", by = ["shadow-eidolon"] },
+  { replaces = "Summon monster spell-like abilities", feature = "summon-monster-i", by = ["shadow-summoning"] },
 ]
 +++
 
 While most summoners can call any manner of creature from across the planes to serve them in combat,
 supplementing the skills of their eidolon with a diverse range of creatures, others eschew this
 broad utility and instead concentrate upon calling forth entities from the
-[Shadow Plane](ref/rule/shadow-plane). A shadow caller has the following class features.
+[Shadow Plane](ref/rule/shadow-plane). A [shadow](ref/template/shadow) caller has the following
+class features.
 
-**Prerequisites:** Fetchling
+## Class Skills {#class-skills}
 
-**Gained class skills:** stl
+The shadow caller adds Stealth to his list of class skills and removes Use Magic Device from his
+list of class skills.
 
-**Lost class skills:** umd
+## Shadow Summoning (Sp) {#shadow-summoning}
 
-;;;ab\{title="Shadow Summoning (Sp)" icon=magic action=Ability replace=" summon monster
-spell-like"\}
+When a shadow caller uses his _summon monster_ ability or casts the _summon monster_ spell, he
+typically summons creatures from the Shadow Plane or creatures closely associated with shadow. When
+a creature on the _summon monster_ spell list indicates that it is summoned with either the
+celestial or the fiendish template based on the alignment of the caster, the creature summoned by
+the shadow caller has the shadow creature template instead (see sidebar). Furthermore, the _summon
+monster_ lists are modified in the following ways (these changes also apply to using a higher-level
+summon spell to summon multiple creatures from a lower-level list).
 
-When a shadow caller uses his _[summon monster](ref/spell/summon-monster)_ ability or casts the
-[summon monster](ref/spell/summon-monster) spell, he typically summons creatures from the Shadow
-Plane or creatures closely associated with shadow. When a creature on the
-_[summon monster](ref/spell/summon-monster)_ spell list indicates that it is summoned with either
-the celestial or the fiendish template based on the alignment of the caster, the creature summoned
-by the shadow caller has the [shadow](ref/template/shadow) creature template instead. Furthermore,
-the _[summon monster](ref/spell/summon-monster)_ lists are modified in the following ways (these
-changes also apply to using a higher-level
-_[summon](ref/carried/bestiary/rules/universal-monster-rules/summon)_ spell to summon multiple
-creatures from a lower-level list).
+_Summon Monster I_: No changes.
 
-_**Summon Monster I**_
+_Summon Monster II_: A shadow caller cannot summon Small elementals or lemures, but instead can
+summon zoogs.
 
-**Details:** No changes.
+_Summon Monster III_: A shadow caller cannot summon dretches or lantern archons, but can summon
+augur kytons.
 
-_**Summon Monster II**_
+_Summon Monster IV_: A shadow caller cannot summon Medium elementals, hell hounds, hound archons, or
+mephits, but can summon allips, gloomwings, and shadows.
 
-**Details:** A shadow caller cannot summon Small elementals or lemures, but instead can summon
-[zoogs](ref/monster/zoog).
+_Summon Monster V_: A shadow caller cannot summon babau, bearded devils, bralani azatas, Large
+elementals, salamanders, or xills, but can summon shadow mastiffs and shae.
 
-_**Summon Monster III**_
+_Summon Monster VI_: A shadow caller cannot summon Huge elementals, erinyes, lillend azatas, or
+succubi, but can summon cloakers.
 
-**Details:** A shadow caller cannot summon dretches or lantern archons, but can summon
-[augur kytons](ref/monster/kyton-augur).
+_Summon Monster VII_: A shadow caller cannot summon bebiliths, bone devils, greater elementals, or
+vrocks, but can summon greater shadows.
 
-_**Summon Monster IV**_
+_Summon Monster VIII_: A shadow caller can only summon derghodaemons and young umbral dragons.
 
-**Details:** A shadow caller cannot summon Medium elementals, hell hounds, hound archons, or
-mephits, but can summon [allips](ref/monster/allip), [gloomwings](ref/monster/gloomwing), and
-[shadows](ref/monster/shadow).
+_Summon Monster IX_: A shadow caller can only summon interlocutor kytons and nightwings.
 
-_**Summon Monster V**_
+This ability otherwise functions as and replaces the summoner's normal _summon monster_ spell-like
+abilities.
 
-**Details:** A shadow caller cannot summon babau, bearded devils, bralani azatas, Large elementals,
-salamanders, or xills, but can summon [shadow mastiffs](ref/monster/shadow-mastiff) and
-[shae](ref/monster/shae).
+## Shadow Eidolon {#shadow-eidolon}
 
-_**Summon Monster VI**_
+A shadow caller's eidolon is at once a thing of shadow called from the deep of the Shadow Plane and
+his own shadow; the two are inseparable. When his eidolon manifests, his shadow lengthens and
+finally detaches from him as a creature unto itself. For as long as the shadow caller's eidolon is
+manifested, he and the eidolon do not have distinct shadows, regardless of the presence or absence
+of light. This lack of a shadow replaces the magical symbol that identifies the summoner and his
+eidolon.
 
-**Details:** A shadow caller cannot summon Huge elementals, erinyes, lillend azatas, or succubi, but
-can summon [cloakers](ref/monster/cloaker).
+This ability alters the summoner's eidolon ability. The following evolutions are available to all
+summoners. 2-Point Evolutions Shadow Blend (Su): In any condition of illumination other than bright
+light, the eidolon disappears into the shadows, giving it concealment (20% miss chance). If it has
+the shadow form evolution, it instead gains total concealment (50% miss chance). The eidolon can
+suspend or resume this ability as a free action.
 
-_**Summon Monster VII**_
-
-**Details:** A shadow caller cannot summon bebiliths, bone devils, greater elementals, or vrocks,
-but can summon [greater shadows](ref/monster/shadow-greater-shadow).
-
-_**Summon Monster VIII**_
-
-**Details:** A shadow caller can only summon [derghodaemons](ref/monster/daemon-derghodaemon) and
-young [umbral dragons](ref/family/dragon-primal-umbral).
-
-_**Summon Monster IX**_
-
-**Details:** A shadow caller can only summon [interlocutor kytons](ref/monster/kyton-interlocutor)
-and [nightwings](ref/monster/nightshade-nightwing).
-
-;;;
-
-**Shadow Eidolon**
-
-**Alters:** Eidolon
-
-**Info:** A shadow caller's eidolon is at once a thing of shadow called from the deep of the Shadow
-Plane and his own shadow; the two are inseparable. When his eidolon manifests, his shadow lengthens
-and finally detaches from him as a creature unto itself. For as long as the shadow caller's eidolon
-is manifested, he and the eidolon do not have distinct shadows, regardless of the presence or
-absence of light.
-
-**Replaces:** Magical symbol that identifies the summoner and his eidolon
-
-## New Evolutions {#new-evolutions}
-
-The following evolutions are available to all summoners.
-
-### 2-Point Evolutions {#2-point-evolutions}
-
-#### Shadow Blend (Su) {#shadow-blend-su}
-
-In any condition of illumination other than bright light, the eidolon disappears into the shadows,
-giving it concealment (20% miss chance). If it has the shadow form evolution, it instead gains total
-concealment (50% miss chance). The eidolon can suspend or resume this ability as a free action.
-
-#### Shadow Form (Su) {#shadow-form-su}
+## Shadow Form (Su) {#shadow-form}
 
 The eidolon's body becomes shadowy and more indistinct. This shadow form grants the eidolon constant
 concealment (20% miss chance), and its melee attacks affect incorporeal creatures as if it had the

@@ -20,13 +20,12 @@ features = [
   { anchor = "packing-heat", level = 2 },
   { anchor = "investigator-talents" },
   { anchor = "shot-in-the-dark", level = 4 },
-  { anchor = "blind-shot" },
   { anchor = "talented-shot", level = 11 },
 ]
 trades = [
   { replaces = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
   { replaces = "Poison lore", feature = "poison-lore", by = ["packing-heat"] },
-  { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["blind-shot"] },
+  { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["shot-in-the-dark"] },
   { alters = "Investigator talents", feature = "investigator-talent", by = ["investigator-talents"] },
 ]
 +++
@@ -58,7 +57,7 @@ At 4th level, a steel hound gains the following deed. This deed works and intera
 same way as gunslinger deeds, but only the steel hound can use it. If the steel hound also has
 levels in gunslinger, he can spend grit points from that class to use this deed.
 
-## Blind Shot (Su) {#blind-shot}
+### Blind Shot (Su) {#blind-shot}
 
 A steel hound can spend 1 grit point to ignore all miss chances due to
 [concealment](ref/rule/concealment) when making firearm attacks. This effect lasts until the end of

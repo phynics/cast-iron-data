@@ -116,6 +116,9 @@ SCAFFOLD = {
     "size", "speed", "attack", "ac", "ability scores", "companion type", "prerequisites", "effect", "use",
     "cost", "action", "bonus spells", "bonus feats", "weapon and armor proficiency",
     "skills", "alignment",     # owner ruling 19 of 2026-11-24 (an app list change)
+    # owner ruling 33 of 2026-11-25: variants that are never listed (an app list change)
+    "class skills", "skill ranks per level", "weapon and armor proficiencies", "weapon proficiencies", "weapon proficiency",
+    "armor proficiency", "armor proficiencies",
 }
 
 # ---- text helpers -----------------------------------------------------------------------------------
@@ -1547,6 +1550,7 @@ ERRATA = [
      "Performing this deed costs 1 grit point.",
      "Performing this deed costs 1 grit point. This deed's cost cannot be reduced by any ability or effect that reduces the "
      "amount of grit points a deed costs (such as Signature Deed)."),
+    (_arc("ranger/divine-tracker"), "opening", 108, "His imbued weapon", "His weapon"),
     (_arc("hunter/divine-hunter"), "otherworldly-companion", 95,
      "it cannot be changed.",
      "it cannot be changed. The companion's CR is considered to be equal to its Hit Dice for the purpose of the celestial or "
@@ -1736,7 +1740,8 @@ def errata_unused(entry_id: str) -> list[str]:
 
 def is_scaffold(head: str) -> bool:
     """The app's list (`NOT_FEATURE_HEADINGS`): the whole heading, without case, surrounding space and a trailing colon."""
-    return head.strip().rstrip(":").strip().lower() in SCAFFOLD
+    key = head.strip().rstrip(":").strip().lower()
+    return key in SCAFFOLD or ABILITY_TAG.sub("", key).strip() in SCAFFOLD      # "Bonus Feats (Ex)" is "Bonus Feats"
 
 
 def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], entry_id: str = "",
@@ -1963,8 +1968,15 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                    + (["link not placed: " + ", ".join(lost)] if lost else []))
         at = 0 if after is None else next(n for n, r in enumerate(rows) if r["anchor"] == after) + 1
         rows.insert(at, row)
+    # the opening text is print's too, with the errata (Divine Tracker p. 108: the errata removes "imbued")
+    opening = []
+    for r in opening_print:
+        o_notes: list[str] = []
+        o = apply_errata(finish_text(clean_runs(r), vocab), e.id, "opening", o_notes)
+        opening.append(render_marks(o))
+        if o_notes and rows:
+            rows[0]["notes"] += o_notes
     problems += errata_unused(e.id)
-    opening = [render_marks(finish_text(clean_runs(r), vocab)) for r in opening_print]
     links = [(m.group(2), m.group(3)) for b in opening_imp for m in LINK.finditer(logical(b))]
     for i, f in enumerate(feats):
         if i not in used:
@@ -2073,13 +2085,10 @@ TRADE_RENAMES = {
     # Batch 2 (Advanced Class Guide, Advanced Race Guide): a stored name that is not the printed wording in the sentence
     # of its feature, rewritten as the sentence says it (the `feature` link, `levels` and ids stay; the TSV note records each).
     ("ref/arc-bard/voice-of-the-wild", "versatile performance"): "All instances of versatile performance",
-    ("ref/arc-magus/eldritch-scion", "Arcane pool"): "Arcane pool, and abilities that modify arcane pool also modify eldritch pool",
     ("ref/arc-paladin/holy-guide", "3rd-level mercy"): "Mercy gained at 3rd level",
     ("ref/arc-paladin/holy-guide", "6th-level mercy"): "Mercy gained at 6th level",
     ("ref/arc-ranger/wild-hunter", "Favored enemy"): "All instances of the favored enemy class ability",
     ("ref/arc-shaman/animist", "2nd-level hex"): "Hex gained at 2nd level",
-    ("ref/arc-skald/spell-warrior", "Inspired rage"): "Inspired rage raging song",
-    ("ref/arc-summoner/naturalist", "Aspect"): "Aspect summoner class ability",
     ("ref/arc-witch/hex-channeler", "2nd-level hex"): "Hex gained at 2nd level",
     ("ref/arc-witch/mountain-witch", "2nd-level hex"): "Hex gained at 2nd level",
     ("ref/arc-witch/dreamweaver", "2nd-level hex"): "Witch's hex gained at 2nd level",
@@ -2088,9 +2097,37 @@ TRADE_RENAMES = {
     ("ref/arc-ranger/wild-shadow", "Woodland stride"): "Ranger's woodland stride class feature gained at 7th level",
     ("ref/arc-rogue/swordmaster", "Trap sense"): "All increments of trap sense",
     ("ref/arc-bard/voice-of-the-wild", "Inspire competence"): "All increments of inspire competence",
-    ("ref/arc-skald/spell-warrior", "Dirge of doom"): "Dirge of doom raging song",
     ("ref/arc-witch/dreamweaver", "6th-level hex"): "Witch's hex gained at 6th level",
     ("ref/arc-witch/dreamweaver", "10th-level hex"): "Witch's hex gained at 10th level",
+    # Owner ruling 31 of 2026-11-25: the holds of the renamed shape convert in the same PR; the stored name is the printed wording.
+    ("ref/arc-barbarian/feral-gnasher", "2nd-level rage power"): "Rage power gained at second level",
+    ("ref/arc-barbarian/hateful-rager", "2nd, 8th, 14th, and 20th level rage powers"): "Barbarian's rage power gained at 2nd level",
+    ("ref/arc-rogue/deadly-courtesan", "Rogue talent gained at 2nd level"): "Rogue trick gained at 2nd level",
+    ("ref/arc-paladin/stonelord", "3rd-, 9th-, and 15th-level mercies"): "Her mercies gained at 3rd, 9th, and 15th level",
+    ("ref/arc-ranger/wave-warden", "All combat style bonus feats"):
+        "Standard ranger's combat style bonus feats, including the limitations on armor worn",
+    ("ref/arc-magus/spell-dancer", "5th-level bonus feat"): "Bonus feat a magus receives at 5th level",
+    ("ref/arc-swashbuckler/mysterious-avenger", "4th-level bonus feat"): "Bonus feat gained at 4th level",
+    ("ref/arc-wizard/wind-listener", "5th-level bonus feat"): "Bonus feat gained at 5th level",
+    ("ref/arc-wizard/wind-listener", "10th-level bonus feat"): "Bonus feat gained at 10th level",
+    ("ref/arc-wizard/wind-listener", "15th-level bonus feat"): "Bonus feat gained at 15th level",
+    ("ref/arc-sorcerer/wishcrafter", "All bloodline spells"): "Bloodline spells gained by the sorcerer's bloodline",
+    ("ref/arc-sorcerer/wishcrafter", "7th-level bloodline feat"): "Bloodline bonus feat gained at 7th level",
+    ("ref/arc-sorcerer/wishcrafter", "13th-level bloodline feat"): "Bloodline bonus feat gained at 13th level",
+    ("ref/arc-sorcerer/wishcrafter", "19th-level bloodline feat"): "Bloodline bonus feat gained at 19th level",
+    ("ref/arc-sorcerer/eldritch-scrapper", "Bloodline powers gained at 1st, 9th, and 15th level"):
+        "Sorcerer's bloodline powers gained 1st, 9th, and 15th levels",
+    ("ref/arc-wizard/spirit-whisperer", "Spellbook"): "Spellbooks class feature",
+    ("ref/arc-wizard/spirit-whisperer", "20th-level bonus feat"): "Bonus feat gained at 20th level",
+    ("ref/arc-wizard/spirit-whisperer", "5th-, 10th-, and 15th-level bonus feats"): "Bonus feats",
+    ("ref/arc-oracle/spirit-guide", "Bonus skills from the oracle's mystery"): "Bonus class skills gained from the oracle's mystery",
+    ("ref/arc-oracle/ancient-lorekeeper", "Bonus skills from the oracle's mystery"): "Bonus skills the ancient lorekeeper gains from her mystery",
+    ("ref/arc-oracle/community-guardian", "Bonus skills from the oracle's mystery"): "Additional class skills from her mystery",
+    ("ref/arc-monk/ironskin-monk", "and Spring Attack on the monk's bonus feat list"): "Spring Attack on his bonus feat list",
+    ("ref/arc-summoner/blood-god-disciple", "Summon monster I"): "Summon monster I, III, V, VII, and IX spell-like abilities",
+    ("ref/arc-summoner/blood-god-disciple", "Summon monster II"): "Summon monster II spell-like ability",
+    ("ref/arc-summoner/blood-god-disciple", "Summon monster IV"): "Summon monster IV spell-like ability",
+    ("ref/arc-rogue/deadly-courtesan", "Trap sense"): "All levels of trap sense",
     ("ref/arc-druid/urban-druid", "Spontaneous casting"): "Ability to spontaneously cast summon nature's ally spells",
     ("ref/arc-ranger/skirmisher", "Spellcasting ability"): "Spells",
     ("ref/arc-monk/monk-of-the-empty-hand", "Weapon proficiencies"): "Normal monk weapon proficiencies",
@@ -2124,8 +2161,15 @@ TRADE_RENAMES = {
 }
 
 
+# A stored trade that gets the link and the levels of the errata'd text (Wild Child p. 89: the third trade now names
+# the bonus combat feats at 5th, 11th and 17th level, which the corrected Wild Tricks replaces).
+TRADE_LINKS = {
+    ("ref/arc-brawler/wild-child", "Bonus combat feats gained at 5th, 11th, and 17th levels"): ("bonus-combat-feats", [5, 11, 17]),
+}
+
 # The levels of a stored trade that follow the errata (the entry, the name as renamed, the levels).
 TRADE_LEVELS = {
+    ("ref/arc-summoner/blood-god-disciple", "Summon monster I, III, V, VII, and IX spell-like abilities"): [1, 5, 9, 13, 17, 19],
     ("ref/arc-brawler/wild-child", "Bonus combat feats gained at 2nd, 8th, 14th, and 20th levels"): [2, 8, 14, 20],
 }
 
@@ -2138,6 +2182,7 @@ TRADE_OP_FIXES = {
     ("ref/arc-inquisitor/infiltrator", "Stern gaze"): "replaces",
     ("ref/arc-bard/geisha", "Armor and weapon proficiencies"): "replaces",
     ("ref/arc-bard/dervish-dancer", "Bardic performance"): "replaces",
+    ("ref/arc-alchemist/deep-bomber", "Swift alchemy"): "replaces",     # ruling 29: "This ability replaces swift alchemy (...)"
     ("ref/arc-cavalier/gendarme", "cavalier bonus feats"): "alters",
     ("ref/arc-fighter/gladiator", "Proficiency with heavy armor"): "alters",         # owner ruling 23: proficiency changes are `alters`
     ("ref/arc-fighter/gladiator", "tower shields"): "alters",
@@ -2147,6 +2192,9 @@ TRADE_OP_FIXES = {
 # A trade that print states in a trade sentence and that the entry does not store (data fix inside the
 # pilot's book; the TSV note records it). The other four shaman archetypes store `Venom immunity`.
 TRADE_ADDITIONS = {
+    # Printed sentences that name a base-class feature the import stored no trade for (ruling 31)
+    "ref/arc-summoner/shadow-caller": [{"replaces": "Summon monster spell-like abilities", "feature": "summon-monster-i"}],
+    "ref/arc-summoner/wild-caller-arg": [{"alters": "Eidolon", "feature": "eidolon"}],
     "ref/arc-druid/eagle-shaman": [{"replaces": "Venom immunity", "feature": "venom-immunity"}],
 }
 
@@ -2173,13 +2221,28 @@ TRADE_MERGED = {
     "ref/arc-alchemist/reanimator": [("replaces", "13th-level bomb damage increase"),
                                      ("replaces", "15th-level bomb damage increase")],
     "ref/arc-alchemist/psychonaut": [("replaces", "17th-level bomb damage increase")],
+    # Blood God Disciple (ARG p. 53): one printed sentence, "the summon monster I, III, V, VII, and IX spell-like abilities"
+    "ref/arc-summoner/blood-god-disciple": [("replaces", "III"), ("replaces", "V"), ("replaces", "VII"), ("replaces", "and IX")],
+    "ref/arc-hunter/packmaster": [("alters", "Teamwork feats")],         # stored twice; the second has no feature link
 }
 
 
 # Features whose first paragraph states the level after a flavor sentence or inside its first sentence (owner review
 # of batch 1): the level is the first "At Nth level" of the paragraph. The paragraphs of the other features hold
 # progressions ("At 6th level ..., at 9th level ...") that this reading would take for the level of the feature.
+LEVEL_ONE_REPLACES = {
+    ("ref/arc-warpriest/divine-commander", "mount"),
+}
+
 LEVEL_IN_FIRST_PARAGRAPH = {
+    ("ref/arc-brawler/wild-child", "wild-tricks"),
+    ("ref/arc-bloodrager/spelleater", "blood-of-life"),
+    ("ref/arc-investigator/empiricist", "ceaseless-observation"),
+    ("ref/arc-investigator/empiricist", "unfailing-logic"),
+    ("ref/arc-druid/naga-aspirant", "aspirant-s-bond"),
+    ("ref/arc-ranger/dusk-stalker", "shadow-guide"),
+    ("ref/arc-warpriest/forgepriest", "craft-magic-arms-and-armor"),
+    ("ref/arc-ranger/wild-shadow", "woodland-stride"),
     ("ref/arc-barbarian/true-primitive", "trophy-fetish"),
     ("ref/arc-gunslinger/gun-tank", "bullet-deflection"),
     ("ref/arc-inquisitor/exorcist", "closed-mind"),
@@ -2200,6 +2263,8 @@ TRADE_NO_BY = {
 TRADE_REMOVALS = {
     "ref/arc-druid/dragon-shaman": [("replaces", "Woodland stride")],
     "ref/arc-druid/saurian-shaman": [("replaces", "Woodland stride")],
+    # Buccaneer (ARG p. 74): Gun Training prints no sentence that replaces gun training 3
+    "ref/arc-gunslinger/buccaneer": [("replaces", "Gun training 3")],
     "ref/arc-druid/shark-shaman": [("replaces", "Woodland stride")],
 }
 
@@ -2355,7 +2420,7 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             r["print"] = paras[0]
             target = by_anchor[kind.split(":", 1)[1]]
             target["print"] += "\n\n" + tail
-            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor"))]
+            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "errata"))]
             r["status"] = "print"
         elif kind in ("drop", "to-opening"):
             rows.remove(r)
@@ -2366,17 +2431,17 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                 opening = [apply_links(o, res.get("opening_links", []))[0] for o in res["opening"]]
         elif kind == "hold":
             r["status"] = "hold"
-            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor"))]
+            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "errata"))]
         elif kind in ("unlist", "list") or kind.startswith("sub-of:"):
             r["listed"] = kind == "list"
             r["option"] = False
             r["parent"] = kind.split(":", 1)[1] if kind.startswith("sub-of:") else None
             if r["status"] == "hold":
                 r["status"] = "print"
-            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling", "trade"))]
+            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling", "trade", "errata"))]
         elif kind == "print" and r["status"] == "hold":
             r["status"] = "print"
-            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling", "trade"))]
+            r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "level 1", "rule 8", "ruling", "trade", "errata"))]
     for r in rows:
         edit = res.get("edits", {}).get((e.id, r["anchor"]))
         if edit:
@@ -2469,15 +2534,19 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             if mine and len(levels) == 1 and len(next(iter(levels))) == 1 and all("levels" in t for t in mine):
                 r["level"] = next(iter(levels))[0]
                 r["notes"].append("level from the trade")
+            elif (e.id, r["anchor"]) in LEVEL_ONE_REPLACES:
+                r["level"] = 1
+                r["notes"].append("level 1 (ruling 35): replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", a 1st-level feature of the class (the class table lists it as `Blessing (minor)`)")
             elif mine and r["level_import"] in (None, 1):
                 # ruling 11: the feature replaces features that the base class gains at 1st level
                 firsts = []
                 for t in mine:
                     cls = t.get("class") or (e.classes[0] if e.classes else "")
                     firsts.append(bool(cls) and first_level_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache))
-                if all(firsts) and all(trade_name(t)[0] == "replaces" for t in mine):
+                # ruling 35: level 1 when any feature that it replaces is a 1st-level feature, even if it also replaces later ones
+                if any(f and trade_name(t)[0] == "replaces" for f, t in zip(firsts, mine)):
                     r["level"] = 1
-                    r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", gained at 1st level in the class table")
+                    r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine if trade_name(t)[0] == "replaces") + ", of which one is gained at 1st level in the class table")
         if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold" \
                 and (e.id, r["anchor"]) not in decisions:
             r["status"] = "hold"
@@ -2707,6 +2776,9 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
     for (eid, old), new in TRADE_RENAMES.items():
         if eid == e.id:
             front = front.replace(f'"{old}"', f'"{new}"', 1)
+    for (eid, name), (feat, lv) in TRADE_LINKS.items():
+        if eid == e.id:
+            front = front.replace(f'"{name}"', f'"{name}", feature = "{feat}", levels = {lv}', 1)
     for (eid, name), lv in TRADE_LEVELS.items():
         if eid == e.id:
             front = "\n".join(re.sub(r"levels = \[[^\]]*\]", "levels = " + str(lv), ln) if f'"{name}"' in ln else ln

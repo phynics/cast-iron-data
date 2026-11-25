@@ -17,7 +17,7 @@ page = "85"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "blood-of-life" },
+  { anchor = "blood-of-life", level = 2 },
   { anchor = "spell-eating", level = 5 },
 ]
 trades = [

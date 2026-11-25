@@ -27,7 +27,7 @@ trades = [
 +++
 
 Blessed by his deity, a divine tracker hunts down those he deems deserving of his retribution. His
-imbued weapon is likely to find purchase in his favored enemy.
+weapon is likely to find purchase in his favored enemy.
 
 ## Alignment {#alignment}
 

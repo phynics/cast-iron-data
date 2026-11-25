@@ -17,7 +17,7 @@ page = "96"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "pack-bond" },
+  { anchor = "pack-bond", level = 1 },
   { anchor = "pack-focus", level = 1 },
   { anchor = "teamwork-feat", level = 3 },
   { anchor = "second-pack-focus", level = 8 },
@@ -31,7 +31,6 @@ trades = [
   { alters = "Precise companion", feature = "precise-companion", by = ["pack-bond"] },
   { alters = "woodland stride", feature = "woodland-stride", by = ["pack-bond"] },
   { alters = "teamwork feats", feature = "teamwork-feat", by = ["teamwork-feat"] },
-  { alters = "Teamwork feats", by = ["teamwork-feat"] },
 ]
 +++
 

@@ -18,12 +18,9 @@ page = "78"
 kind = "archetype"
 features = [
   { anchor = "signature-spells", level = 1 },
-  { anchor = "dismiss" },
-  { anchor = "spell-bender" },
-  { anchor = "spellwarp" },
 ]
 trades = [
-  { replaces = "The arcanist exploits gained at 1st, 7th, 13th, and 19th levels", feature = "arcanist-exploits", levels = [1, 7, 13, 19], by = ["spellwarp"] },
+  { replaces = "The arcanist exploits gained at 1st, 7th, 13th, and 19th levels", feature = "arcanist-exploits", levels = [1, 7, 13, 19], by = ["signature-spells"] },
 ]
 +++
 
@@ -45,18 +42,18 @@ The DC for signature spells increases by 1. The spell specialist gains a +2 bonu
 to +4 at 10th level. Additionally, a spell specialist can apply one of the following additional
 effects by spending 1 point from her arcane reservoir.
 
-## Dismiss (Su) {#dismiss}
+### Dismiss (Su) {#dismiss}
 
 A spell specialist can [dismiss](ref/misc/dismissible) a signature spell as a swift action instead
 of a standard action. Alternatively, the spell specialist can dismiss a signature spell that has a
 duration but isn't normally dismissible.
 
-## Spell Bender (Su) {#spell-bender}
+### Spell Bender (Su) {#spell-bender}
 
 The spell specialist can bend the line of a spell that has a line area of effect up to 90 degrees at
 any single point along the line's length.
 
-## Spellwarp (Su) {#spellwarp}
+### Spellwarp (Su) {#spellwarp}
 
 A spell specialist can reduce the radius of a [spread or burst](ref/misc/spread) effect or shorten
 the length of a cone. All changes must occur in 5-foot increments, to a minimum of 5 feet.

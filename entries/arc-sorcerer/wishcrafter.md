@@ -16,12 +16,19 @@ page = "128"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "wishbound-arcana", level = 1 },
+  { anchor = "expanded-wishcraft", level = 3 },
+  { anchor = "heart-s-desire", level = 7 },
+  { anchor = "twisted-wish", level = 13 },
+  { anchor = "perfect-wishcraft", level = 19 },
+]
 trades = [
-  { replaces = "Bloodline arcana", feature = "bloodline", power = "bloodline arcana" },
-  { replaces = "All bloodline spells", feature = "bloodline", power = "bloodline spell" },
-  { replaces = "7th-level bloodline feat", feature = "bloodline", levels = [7], power = "bloodline feat" },
-  { replaces = "13th-level bloodline feat", feature = "bloodline", levels = [13], power = "bloodline feat" },
-  { replaces = "19th-level bloodline feat", feature = "bloodline", levels = [19], power = "bloodline feat" },
+  { replaces = "Bloodline arcana", feature = "bloodline", power = "bloodline arcana", by = ["wishbound-arcana"] },
+  { replaces = "Bloodline spells gained by the sorcerer's bloodline", feature = "bloodline", power = "bloodline spell", by = ["expanded-wishcraft"] },
+  { replaces = "Bloodline bonus feat gained at 7th level", feature = "bloodline", levels = [7], power = "bloodline feat", by = ["heart-s-desire"] },
+  { replaces = "Bloodline bonus feat gained at 13th level", feature = "bloodline", levels = [13], power = "bloodline feat", by = ["twisted-wish"] },
+  { replaces = "Bloodline bonus feat gained at 19th level", feature = "bloodline", levels = [19], power = "bloodline feat", by = ["perfect-wishcraft"] },
 ]
 +++
 
@@ -29,89 +36,56 @@ Wishcrafters are born with a talent for manipulating reality inherited from thei
 However, like the genies they are descended from, wishcrafters can only draw upon this power to
 fulfill the desires of others. A wishcrafter has the following class features.
 
-**Prerequisites:** Ifrit
+## Wishbound Arcana (Su) {#wishbound-arcana}
 
-**Wishbound Arcana (Su)**
+At 1st level, the wishcrafter can use the wishes of non-genie creatures other than herself in place
+of the normal verbal components of her spells. A creature can make a wish as a free action at any
+time, even during the wishcrafter's turn. The wishcrafter must be able to hear and understand a wish
+in order to use it as a spell component. A spell that doesn't normally have a verbal component gains
+one when cast using this ability. A wish doesn't need to mention the name of a specific spell, but
+must describe an outcome that can be accomplished by casting a spell the wishcrafter knows (for
+example, wishing to be bigger could supply the verbal component for
+_[enlarge person](ref/spell/enlarge-person)_). A wishcrafter gains a +1 bonus to her caster level
+when using a creature's wish as a verbal component in this manner, but cannot include herself as a
+target of such spells. She can be affected by such a spell if it affects an area rather than a
+target or targets. A wishcrafter is under no compulsion to grant a creature's wish. Once the
+wishcrafter grants a creature's wish using this ability, she cannot use this ability to grant that
+creature any further wishes for 24 hours. This ability replaces bloodline arcana.
 
-**Ability:** A creature can make a wish as a **free action** at any time, even during the
-wishcrafter's turn. The wishcrafter must be able to hear and understand a wish in order to use it as
-a spell component. A spell that doesn't normally have a verbal component gains one when cast using
-this ability. A wish doesn't need to mention the name of a specific spell, but must describe an
-outcome that can be accomplished by casting a spell the wishcrafter knows (for example, wishing to
-be bigger could supply the verbal component for [enlarge person](ref/spell/enlarge-person)).
+## Expanded Wishcraft {#expanded-wishcraft}
 
-**Flavor:** The wishcrafter can use the wishes of non-genie creatures other than herself in place of
-the normal verbal components of her spells.
+At 3rd level and every 2 levels thereafter, the wishcrafter grows more adept at altering reality to
+fit the whims of others. She may add an additional spell selected from the sorcerer/wizard spell
+list to her list of spells known. This spell must be one level lower than the highest-level spell
+she can cast. A wishcrafter can only use these spells in conjunction with her wishbound arcana
+ability. For example, if she used this ability to learn _[cat's grace](ref/spell/cats-grace)_, she
+can only cast it when another creature wishes for it, and can't cast it on herself because it is a
+targeted spell. She cannot use these spells to craft or recharge magic items. These bonus spells
+replace the bloodline spells gained by the sorcerer's bloodline.
 
-**Gained:** At 1st Level
+## Heart's Desire (Su) {#heart-s-desire}
 
-**Passive:** A wishcrafter gains a +1 bonus to her caster level when using a creature's wish as a
-verbal component in this manner, but cannot include herself as a target of such spells. She can be
-affected by such a spell if it affects an area rather than a target or targets.
+At 7th level, as a swift action, a wishcrafter can force a single creature within 30 feet to confess
+its deepest desire. The target receives a Will save to negate this effect (DC 10 + 1/2 the
+wishcrafter's level + the wishcrafter's Charisma modifier). On a failed save, the creature must
+immediately wish aloud in a clear voice for something it truly desires, allowing the wishcrafter to
+activate her wishbound arcana ability if she knows a spell that can fulfill that wish. This is a
+mind-affecting effect. Regardless of whether the save is successful, a creature cannot be the target
+of the same wishcrafter's heart's desire ability again for 24 hours. The wishcrafter can use this
+ability a number of times per day equal to her Charisma bonus. This ability replaces the bloodline
+bonus feat gained at 7th level.
 
-**Replaces:** Bloodline arcana
+## Twisted Wish (Su) {#twisted-wish}
 
-**Special:** A wishcrafter is under no compulsion to grant a creature's wish. Once the wishcrafter
-grants a creature's wish using this ability, she cannot use this ability to grant that creature any
-further wishes for 24 hours.
+At 13th level, a wishcrafter becomes adept at corrupting wishes to negatively affect the creature
+that wished them. When a wishcrafter affects a creature with a spell using its wish as a spell
+component, she may twist the wish, applying a -4 penalty to the creature's saving throws against the
+spell. The effects of wishes twisted this way are difficult to remove; the DC of caster level checks
+to dispel them increases by 5. This ability replaces the bloodline bonus feat gained at 13th level.
 
-**Expanded Wishcraft**
+## Perfect Wishcraft (Su) {#perfect-wishcraft}
 
-**Ability:** She may add an additional spell selected from the sorcerer/wizard spell list to her
-list of spells known. This spell must be one level lower than the highest-level spell she can cast.
-
-**Flavor:** The wishcrafter grows more adept at altering reality to fit the whims of others.
-
-**Gained:** At 3rd Level
-
-**Repeat:** She may add another spell, following the restrictions above., 5, 2
-
-**Replaces:** All bloodline spells
-
-**Special:** A wishcrafter can only use these spells in conjunction with her _wishbound arcana_
-ability. For example, if she used this ability to learn [cat's grace](ref/spell/cats-grace), she can
-only cast it when another creature wishes for it, and can't cast it on herself because it is a
-targeted spell. She cannot use these spells to craft or recharge magic items.
-
-**Heart's Desire (Su)**
-
-**Gained:** At 7th Level
-
-**Replaces:** 7th-level bloodline feat
-
-**Special:** This is a mind-affecting effect. Regardless of whether the save is successful, a
-creature cannot be the target of the same wishcrafter's heart's desire ability again for 24 hours.
-
-**Swift:** A wishcrafter can force a single creature within 30 feet to confess its deepest desire.
-The target receives a Will save to negate this effect (DC 10 + 1/2 the wishcrafter's level + the
-wishcrafter's Charisma modifier). On a failed save, the creature must immediately wish aloud in a
-clear voice for something it truly desires, allowing the wishcrafter to activate her _wishbound
-arcana_ ability if she knows a spell that can fulfill that wish.
-
-**Usage:** Charisma modifier times/day
-
-**Twisted Wish (Su)**
-
-**Ability:** When a wishcrafter affects a creature with a spell using its wish as a spell component,
-she may twist the wish, applying a -4 penalty to the creature's saving throws against the spell. The
-effects of wishes twisted this way are difficult to remove; the DC of caster level checks to dispel
-them increases by 5.
-
-**Flavor:** A wishcrafter becomes adept at corrupting wishes to negatively affect the creature that
-wished them.
-
-**Gained:** At 13th Level
-
-**Replaces:** 13th-level bloodline feat
-
-**Perfect Wishcraft (Su)**
-
-**Ability:** Once per day, she may cast any spell on the sorcerer/wizard spell list as if it were on
-her list of spells known. Using this ability otherwise has all of the benefits and limitations of
-the _wishbound arcana_ ability.
-
-**Flavor:** The wishcrafter perfects her ability to manipulate reality.
-
-**Gained:** At 19th Level
-
-**Replaces:** 19th-level bloodline feat
+At 19th level, the wishcrafter perfects her ability to manipulate reality. Once per day, she may
+cast any spell on the sorcerer/wizard spell list as if it were on her list of spells known. Using
+this ability otherwise has all of the benefits and limitations of the wishbound arcana ability. This
+ability replaces the bloodline bonus feat gained at 19th level.

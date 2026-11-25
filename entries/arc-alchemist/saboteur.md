@@ -17,7 +17,6 @@ page = "36"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
   { anchor = "chameleon-mutagen", level = 1 },
   { anchor = "saboteur-discoveries" },
   { anchor = "grand-discoveries" },

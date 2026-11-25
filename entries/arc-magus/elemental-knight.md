@@ -18,9 +18,6 @@ page = "203"
 kind = "archetype"
 features = [
   { anchor = "elemental-arcana", level = 3 },
-  { anchor = "assault-synergy" },
-  { anchor = "energy-reflection" },
-  { anchor = "energy-resistance-boost" },
   { anchor = "elemental-matrix", level = 4 },
 ]
 trades = [
@@ -36,7 +33,7 @@ following class features.
 
 At 3rd level, elemental knights may select the following magus arcana available only to them.
 
-## Assault Synergy (Su) {#assault-synergy}
+### Assault Synergy (Su) {#assault-synergy}
 
 As a swift action, the elemental knight can expend 1 round of duration from elemental assault to add
 +1d6 points of energy damage to an offensive spell he casts that round. The spell must have the
@@ -44,7 +41,7 @@ acid, cold, electricity or fire descriptor. This extra energy damage matches the
 the spell. At 10th level, he may expend 2 rounds instead of 1 to add +2d6 points of energy damage to
 the spell.
 
-## Energy Reflection (Su) {#energy-reflection}
+### Energy Reflection (Su) {#energy-reflection}
 
 This functions like the [reflection](ref/arcana/reflection) magus arcana, except it only works on
 spells that deal acid, cold, electricity, or fire damage. As long as the elemental knight spends at
@@ -53,7 +50,7 @@ assault as if they were arcane pool points. For example, the knight could spend 
 and 3 rounds of elemental assault to reflect a spell of 4th-level or lower. The elemental knight
 must be at least 12th level before selecting this arcana.
 
-## Energy Resistance Boost (Su) {#energy-resistance-boost}
+### Energy Resistance Boost (Su) {#energy-resistance-boost}
 
 As a swift action, the elemental knight can expend 1 point from his arcane pool or 1 round of
 elemental assault to increase all of his racial energy resistances by +5 for 1 round.

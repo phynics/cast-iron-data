@@ -17,7 +17,6 @@ page = "74"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
   { anchor = "illiteracy", level = 1 },
   { anchor = "improved-unarmed-strike", level = 1 },
   { anchor = "beast-family", level = 1 },

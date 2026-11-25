@@ -17,14 +17,13 @@ page = "129"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "bonus-feats" },
   { anchor = "mystic-interference", level = 4 },
   { anchor = "banish-enchantment", level = 6 },
 ]
 trades = [
   { replaces = "Channel energy", feature = "channel-energy", by = ["mystic-interference"] },
   { replaces = "Bonus feat gained at 6th level", feature = "bonus-feats", levels = [6], by = ["banish-enchantment"] },
-  { alters = "Bonus feats", feature = "bonus-feats", by = ["bonus-feats"] },
+  { alters = "Bonus feats", feature = "bonus-feats" },
 ]
 +++
 

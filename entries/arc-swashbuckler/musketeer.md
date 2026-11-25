@@ -17,13 +17,12 @@ page = "126"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "weapon-proficiency" },
   { anchor = "musketeer-instruction", level = 1 },
   { anchor = "deed" },
   { anchor = "quick-clear", level = 1 },
 ]
 trades = [
-  { replaces = "Weapon proficiencies", feature = "weapon-and-armor-proficiencies", power = "weapons", by = ["weapon-proficiency"] },
+  { replaces = "Weapon proficiencies", feature = "weapon-and-armor-proficiencies", power = "weapons" },
   { replaces = "Swashbuckler finesse", feature = "swashbuckler-finesse", by = ["musketeer-instruction"] },
   { replaces = "Dodging panache", feature = "deeds", power = "dodging panache", by = ["quick-clear"] },
 ]

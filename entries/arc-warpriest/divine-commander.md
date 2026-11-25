@@ -17,7 +17,7 @@ page = "129"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "mount" },
+  { anchor = "mount", level = 1 },
   { anchor = "battle-tactician", level = 3 },
   { anchor = "blessed-mount", level = 6 },
   { anchor = "greater-battle-tactician", level = 12 },

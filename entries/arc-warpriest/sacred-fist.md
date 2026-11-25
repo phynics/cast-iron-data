@@ -17,7 +17,6 @@ page = "130"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
   { anchor = "ac-bonus" },
   { anchor = "flurry-of-blows", level = 1 },
   { anchor = "unarmed-strike", level = 1 },

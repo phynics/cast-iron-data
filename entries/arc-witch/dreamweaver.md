@@ -17,7 +17,6 @@ page = "185"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
   { anchor = "patron" },
   { anchor = "spells" },
   { anchor = "dream-spinner", level = 2 },

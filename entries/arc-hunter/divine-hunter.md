@@ -17,7 +17,6 @@ page = "95"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
   { anchor = "domain", level = 3 },
   { anchor = "otherworldly-companion", level = 3 },
 ]

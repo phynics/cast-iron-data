@@ -17,8 +17,6 @@ page = "128"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
-  { anchor = "skill-ranks-per-level" },
   { anchor = "well-hidden", level = 1 },
   { anchor = "sneak-attack", level = 3 },
   { anchor = "enthrall", level = 4 },

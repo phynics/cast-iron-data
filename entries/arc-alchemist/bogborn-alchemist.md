@@ -17,7 +17,6 @@ page = "191"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
   { anchor = "amphibious-mutagen", level = 1 },
   { anchor = "discovery-options" },
 ]

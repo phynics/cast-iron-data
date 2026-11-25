@@ -16,87 +16,57 @@ page = "44"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spells" },
+  { anchor = "eidolon" },
+  { anchor = "summon-nature-s-ally-i", level = 1 },
+]
 trades = [
-  { replaces = "Summon monster I", feature = "summon-monster-i" },
-  { alters = "Spell list of the summoner", feature = "spells", power = "spell list" },
+  { replaces = "Summon monster I", feature = "summon-monster-i", by = ["summon-nature-s-ally-i"] },
+  { alters = "Spell list of the summoner", feature = "spells", power = "spell list", by = ["spells"] },
+  { alters = "Eidolon", feature = "eidolon", by = ["eidolon"] },
 ]
 +++
 
-Often a half-elf's ties to nature and elven heritage are so strong that they can dramatically affect
-the nature of his summonings. The wild caller calls eidolons that take more natural and savage forms
-and summons from nature rather than the Great Beyond. A wild caller has the following class
-features.
+Often a half-elf 's ties to nature and elven heritage are so strong that they can dramatically
+affect the nature of his summonings. The wild caller calls eidolons that take more natural and
+savage forms and summons from nature rather than the Great Beyond. A wild caller has the following
+class features.
 
-**Prerequisites:** Half-elf
+## Spells {#spells}
 
-**Spells**
+A wild caller does not have access to _[summon monster](ref/spell/summon-monster)_ spells. Instead,
+he swaps out those spells on his spell list with
+_[summon nature's ally](ref/spell/summon-natures-ally)_ spells of the same level. This ability
+alters the normal spell list of the summoner.
 
-**Alters:** Spell list of the summoner
+## Eidolon {#eidolon}
 
-**Info:** A wild caller does not have access to _[summon monster](ref/spell/summon-monster)_ spells.
-Instead, he swaps out those spells on his spell list with
-[summon nature's ally](ref/spell/summon-natures-ally) spells of the same level.
+The eidolon of a wild caller tends to take more natural and more savage forms than other summoners'
+eidolons. A wild caller gains 1/4 his class level as bonus evolution points in his eidolon's
+evolution pool, but his eidolon cannot take the following evolutions:
 
-;;;ab\{icon=boost-down title=Eidolon flavor="The eidolon of a wild caller tends to take more natural
-and more savage forms than other summoners' eidolons." action=Info alter=Eidolon\}
+_Advanced Player's Guide_—_1-point evolutions_: magic attacks, skilled (while the eidolon can select
+this evolution, it can only do so with the following skills: Acrobatics, Climb, Escape Artist, Fly,
+Intimidate, Perception, Survival, and Swim); _2-point evolutions_: energy attacks, immunity, weapon
+training; _3-point evolutions_: damage reduction, frightful presence; _4-point evolutions_: breath
+weapon, spell resistance.
 
-A wild caller gains [one-fourth](ref/misc/fractions-and-rounding) of his class level as bonus
-evolution points in his eidolon's evolution pool, but his eidolon cannot take the following
-evolutions.
+_Ultimate Magic_—_1-point evolutions_: basic magic, unnatural aura; _2-point evolutions_: channel
+resistance, head, minor magic, undead appearance; _3-point evolutions_: major magic; _4-point
+evolutions_: dimension door, incorporeal form, lifesense, no breath, ultimate magic.
 
-**1-point evolutions**
+This ability alters the normal summoner's eidolon class feature, but is otherwise identical to that
+class feature.
 
-**Details:** Basic magic, magic attacks, [skilled](ref/evolution/skilled) (while the eidolon can
-select this evolution, it can only do so with the following skills: Acrobatics, Climb, Escape
-Artist, Fly, Intimidate, Perception, Survival, and Swim), unnatural aura
+## Summon Nature's Ally I (Sp) {#summon-nature-s-ally-i}
 
-**2-point evolutions**
-
-**Details:** Energy attacks, immunity, weapon training,
-[channel resistance](ref/rule/channel-resistance), head, minor magic, undead appearance
-
-**3-point evolutions**
-
-**Details:** [Damage reduction](ref/rule/damage-reduction), frightful presence, major magic
-
-**4-point evolutions**
-
-**Details:** Breath weapon, [spell resistance](ref/rule/spell-resistance), dimension door,
-incorporeal form, lifesense, no breath, ultimate magic
-
-;;;
-
-**Summon Nature's Ally I (Sp)**
-
-**Ability:** A wild caller can cast [summon nature's ally I](ref/spell/summon-natures-ally-1) a
-number of times per day equal to 3 + his Charisma modifier.
-
-**At 19th Level:** The wild caller cannot use _[gate](ref/spell/gate)_ as a
-[spell-like ability](ref/umr/spell-like-abilities), but can use either
-[summon elder worm](ref/spell/summon-elder-worm) or [summon froghemoth](ref/spell/summon-froghemoth)
-instead.
-
-**Gained:** At 1st Level
-
-**Replaces:** Summon monster I
-
-**Special:** This ability otherwise functions like the standard summoner's
-_[summon monster I](ref/spell/summon-monster-1)_ ability.
-
-**Usage:** Charisma3 modifier times/day
-
-At 3rd level: This ability improves to summon nature's ally +2.
-
-At 5th level: This ability improves to summon nature's ally +3.
-
-At 7th level: This ability improves to summon nature's ally +4.
-
-At 9th level: This ability improves to summon nature's ally +5.
-
-At 11th level: This ability improves to summon nature's ally +6.
-
-At 13th level: This ability improves to summon nature's ally +7.
-
-At 15th level: This ability improves to summon nature's ally +8.
-
-At 17th level: This ability improves to summon nature's ally +9.
+Starting at 1st level, a wild caller can cast _summon nature's ally_ a number of times per day equal
+to 3 + his Charisma modifier. At 3rd level and every 2 levels thereafter, the power of this ability
+increases by one spell level, allowing him to summon more powerful creatures (to a maximum of
+_summon nature's ally IX_ at 17th level). Furthermore, at 19th level, the wild caller cannot use
+_[gate](ref/spell/gate)_ as a [spell-like ability](ref/umr/spell-like-abilities), but can use either
+_[summon elder worm](ref/spell/summon-elder-worm)_ or
+_[summon froghemoth](ref/spell/summon-froghemoth)_ instead. This ability otherwise functions like
+the standard summoner's _[summon monster I](ref/spell/summon-monster-1)_ ability and replaces that
+ability.

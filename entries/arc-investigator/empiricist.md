@@ -17,8 +17,8 @@ page = "100"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "ceaseless-observation" },
-  { anchor = "unfailing-logic" },
+  { anchor = "ceaseless-observation", level = 2 },
+  { anchor = "unfailing-logic", level = 4 },
   { anchor = "master-intellect", level = 20 },
 ]
 trades = [

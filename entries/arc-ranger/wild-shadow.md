@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "wild-at-heart", level = 1 },
   { anchor = "favored-terrain", level = 3 },
-  { anchor = "woodland-stride" },
+  { anchor = "woodland-stride", level = 4 },
   { anchor = "unfettered-step", level = 7 },
   { anchor = "harrying-attack", level = 11 },
   { anchor = "wild-stalker", level = 14 },

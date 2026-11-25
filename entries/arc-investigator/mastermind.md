@@ -18,7 +18,7 @@ page = "101"
 kind = "archetype"
 features = [
   { anchor = "mastermind-s-inspiration" },
-  { anchor = "a-quiet-word" },
+  { anchor = "a-quiet-word", level = 1 },
   { anchor = "mastermind-defense", level = 4 },
   { anchor = "impregnable-mind", level = 9 },
 ]

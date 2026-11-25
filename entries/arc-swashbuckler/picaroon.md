@@ -17,7 +17,6 @@ page = "127"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "weapon-proficiency" },
   { anchor = "panache" },
   { anchor = "deeds" },
   { anchor = "melee-shooter", level = 1 },
@@ -27,7 +26,7 @@ features = [
   { anchor = "two-weapon-finesse", level = 1 },
 ]
 trades = [
-  { replaces = "Weapon proficiency", feature = "weapon-and-armor-proficiencies", power = "weapons", by = ["weapon-proficiency"] },
+  { replaces = "Weapon proficiency", feature = "weapon-and-armor-proficiencies", power = "weapons" },
   { replaces = "Opportune parry and riposte", feature = "deeds", power = "opportune parry and riposte", by = ["melee-shooter"] },
   { replaces = "Kip-up", feature = "deeds", power = "kip-up", by = ["quick-clear"] },
   { replaces = "Superior feint", feature = "deeds", power = "superior feint", by = ["gun-feint"] },

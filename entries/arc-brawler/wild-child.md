@@ -17,16 +17,15 @@ page = "89"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "class-skills" },
   { anchor = "animal-companion", level = 1 },
   { anchor = "hunter-s-tricks", level = 5 },
   { anchor = "maneuver-training" },
-  { anchor = "wild-tricks" },
+  { anchor = "wild-tricks", level = 5 },
 ]
 trades = [
   { replaces = "Bonus combat feats gained at 2nd, 8th, 14th, and 20th levels", feature = "bonus-combat-feats", levels = [2, 8, 14, 20], by = ["animal-companion"] },
   { replaces = "Close weapon mastery", feature = "close-weapon-mastery", by = ["hunter-s-tricks"] },
-  { replaces = "Bonus combat feats gained at 5th, 11th, and 17th levels", by = ["wild-tricks"] },
+  { replaces = "Bonus combat feats gained at 5th, 11th, and 17th levels", feature = "bonus-combat-feats", levels = [5, 11, 17], by = ["wild-tricks"] },
   { alters = "Maneuver training", feature = "maneuver-training", by = ["maneuver-training"] },
 ]
 +++

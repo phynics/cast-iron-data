@@ -17,21 +17,10 @@ page = "196"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "aspirant-s-bond" },
+  { anchor = "aspirant-s-bond", level = 1 },
   { anchor = "aspirant-s-enlightenment", level = 4 },
   { anchor = "naga-shape", level = 6 },
   { anchor = "augmented-form", level = 9 },
-  { anchor = "charming-gaze" },
-  { anchor = "darkvision" },
-  { anchor = "detect-thoughts" },
-  { anchor = "guarded-thoughts" },
-  { anchor = "poison-immunity" },
-  { anchor = "poisonous-sting" },
-  { anchor = "spit-venom" },
-  { anchor = "sting" },
-  { anchor = "swim" },
-  { anchor = "tough-scales" },
-  { anchor = "venomous-bite" },
   { anchor = "true-naga", level = 20 },
 ]
 trades = [
@@ -92,57 +81,57 @@ applies to her naga form. The caster level for these abilities is equal to her d
 unless otherwise stated, the DC is equal to 10 + 1/2 the druid's class level + the druid's Charisma
 bonus. This ability replaces venom immunity, a thousand faces, and timeless body.
 
-## Charming Gaze (Sp) {#charming-gaze}
+### Charming Gaze (Sp) {#charming-gaze}
 
 The druid gains a [gaze](ref/umr/gaze) attack that affects creatures within 30 feet as a
 _[charm person](ref/spell/charm-person)_ spell.
 
-## Darkvision (Su) {#darkvision}
+### Darkvision (Su) {#darkvision}
 
 The druid gains [darkvision](ref/rule/darkvision) with a range of 60 feet.
 
-## Detect Thoughts (Su) {#detect-thoughts}
+### Detect Thoughts (Su) {#detect-thoughts}
 
 The druid can use _[detect thoughts](ref/spell/detect-thoughts)_ at will.
 
-## Guarded Thoughts (Ex) {#guarded-thoughts}
+### Guarded Thoughts (Ex) {#guarded-thoughts}
 
 The druid gains a +2 racial bonus on saves against charm effects and immunity to any form of mind
 reading (such as _[detect thoughts](ref/spell/detect-thoughts)_).
 
-## Poison Immunity (Ex) {#poison-immunity}
+### Poison Immunity (Ex) {#poison-immunity}
 
 The druid gains immunity to all poisons. The druid's naga form must have at least one poison-based
 natural attack in order to select this ability.
 
-## Poisonous Sting (Ex) {#poisonous-sting}
+### Poisonous Sting (Ex) {#poisonous-sting}
 
 The druid's stinger becomes venomous. The naga form must have a tail stinger to take this ability.
 Sting—injury; save Fort DC 10 + 1/2 the druid's class level + the druid's Constitution modifier;
 _frequency_ 1 round; _effect_ sleep for 2d4 minutes; _cure_ 1 save.
 
-## Spit Venom (Ex) {#spit-venom}
+### Spit Venom (Ex) {#spit-venom}
 
 The naga form can spit her venom up to 30 feet as a standard action. This is a ranged touch attack
 with no range increment. Any opponent hit by this attack must make a successful save (see above) to
 avoid the effect. The naga form must have a [venomous bite](ref/spell/venomous-bite) to take this
 ability.
 
-## Sting (Ex) {#sting}
+### Sting (Ex) {#sting}
 
 The naga form grows a stinger on the end of her tail, granting her a sting natural attack that deals
 1d6 points of piercing damage.
 
-## Swim (Ex) {#swim}
+### Swim (Ex) {#swim}
 
 The naga form gains a swim speed equal to her base speed.
 
-## Tough Scales (Ex) {#tough-scales}
+### Tough Scales (Ex) {#tough-scales}
 
 The druid's enhancement bonus to her natural armor increases by +2. The druid may select this
 ability more than once. Its effects stack.
 
-## Venomous Bite (Ex) {#venomous-bite}
+### Venomous Bite (Ex) {#venomous-bite}
 
 The naga form's bite attack becomes poisonous. Bite—injury; _save_ Fortitude DC 10 + 1/2 the druid's
 class level + the druid's Constitution modifier; _frequency_ 1/ round for 6 rounds; _effect_ 1

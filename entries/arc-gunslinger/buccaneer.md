@@ -27,7 +27,7 @@ features = [
   { anchor = "bonus-feat" },
   { anchor = "exotic-pet", level = 5 },
   { anchor = "sword-and-pistol", level = 9 },
-  { anchor = "gun-training", level = 13 },
+  { anchor = "gun-training" },
   { anchor = "raider-s-riposte", level = 17 },
 ]
 trades = [
@@ -38,7 +38,6 @@ trades = [
   { replaces = "Nimble", feature = "nimble", by = ["liquid-courage"] },
   { replaces = "Gun training 1", feature = "gun-training", levels = [5], by = ["exotic-pet"] },
   { replaces = "Gun training 2", feature = "gun-training", levels = [9], by = ["sword-and-pistol"] },
-  { replaces = "Gun training 3", feature = "gun-training", levels = [13], by = ["gun-training"] },
   { replaces = "Gun training 4", feature = "gun-training", levels = [17], by = ["raider-s-riposte"] },
   { alters = "Grit", feature = "grit", by = ["grit"] },
 ]
