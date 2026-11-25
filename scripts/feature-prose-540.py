@@ -2651,6 +2651,81 @@ TRADE_ADDITIONS = {
 }
 
 
+# Batch 5 (Opus review of #329): the sentences "This alters the ...'s class skills" and the like that print sets in a section before the first
+# feature (Class Skills, Alignment) state a trade that the import did not store; each is stored without `by` (ruling 6, as for Magic Warrior).
+SCAFFOLD_TRADE_ADDITIONS = {
+    "ref/arc-swashbuckler/daring-infiltrator": [{"alters": "Class skills"}],
+    "ref/arc-swashbuckler/mysterious-avenger": [{"alters": "Class skills"}],
+    "ref/arc-warpriest/cult-leader": [{"replaces": "Class skills"}],
+    "ref/arc-warpriest/sacred-fist": [{"replaces": "Class skills"}],
+    "ref/arc-ranger/beast-master": [{"replaces": "Class skills"}],
+    "ref/arc-arcanist/magaambyan-initiate": [{"alters": "Alignment"}],
+    "ref/arc-druid/sunrider": [{"alters": "Class skills"}],
+    "ref/arc-druid/tempest-druid": [{"alters": "Alignment"}],
+    "ref/arc-monk/brazen-disciple": [{"alters": "Class skills"}],
+    "ref/arc-ranger/raven-master": [{"alters": "Class skills"}],
+    "ref/arc-shaman/name-keeper": [{"alters": "Class skills"}],
+    "ref/arc-slayer/witch-killer": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/experimenter": [{"alters": "Class skills"}],
+    "ref/arc-alchemist/ectochymist": [{"alters": "Class skills"}],
+    "ref/arc-fighter/sensate": [{"replaces": "Class skills"}],
+    "ref/arc-investigator/psychic-detective": [{"alters": "Class skills"}],
+    "ref/arc-mesmerist/vexing-daredevil": [{"alters": "Class skills"}],
+    "ref/arc-monk/karmic-monk": [{"alters": "Class skills"}],
+    "ref/arc-occultist/battle-host": [{"alters": "Class skills"}],
+    "ref/arc-ranger/planar-scout": [{"alters": "Class skills"}],
+    "ref/arc-rogue/dreamthief": [{"alters": "Class skills"}],
+    "ref/arc-alchemist/interrogator": [{"alters": "Class skills"}],
+    "ref/arc-alchemist/metamorph": [{"alters": "Class skills"}],
+    "ref/arc-druid/skinshaper": [{"alters": "Class skills"}],
+    "ref/arc-hunter/courtly-hunter": [{"alters": "Class skills"}],
+    "ref/arc-inquisitor/cloaked-wolf": [{"alters": "Class skills"}],
+    "ref/arc-inquisitor/umbral-stalker": [{"alters": "Class skills"}],
+    "ref/arc-mesmerist/fey-trickster": [{"alters": "Class skills"}],
+    "ref/arc-monk/sage-counselor": [{"alters": "Class skills"}],
+    "ref/arc-occultist/ancestral-aspirant": [{"alters": "Class skills"}],
+    "ref/arc-occultist/secret-broker": [{"alters": "Class skills"}],
+    "ref/arc-paladin/gray-paladin": [{"alters": "Class skills"}],
+    "ref/arc-ranger/code-runner": [{"alters": "Class skills"}],
+    "ref/arc-ranger/dandy": [{"alters": "Class skills"}],
+    "ref/arc-ranger/guildbreaker": [{"alters": "Class skills"}],
+    "ref/arc-rogue/consigliere": [{"alters": "Class skills"}],
+    "ref/arc-slayer/velvet-blade": [{"alters": "Class skills"}],
+    "ref/arc-swashbuckler/veiled-blade": [{"alters": "Class skills"}],
+    "ref/arc-unchained-summoner/fey-caller": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/cabalist": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/magical-child": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/mounted-fury": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/psychometrist": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/warlock": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/zealot": [{"alters": "Class skills"}, {"alters": "Skill ranks per level"}],
+    "ref/arc-barbarian/brutish-swamper": [{"alters": "Class skills"}],
+    "ref/arc-barbarian/cave-dweller": [{"alters": "Class skills"}],
+    "ref/arc-bard/cultivator": [{"alters": "Class skills"}],
+    "ref/arc-cavalier/saurian-champion": [{"alters": "Class skills"}],
+    "ref/arc-gunslinger/commando": [{"alters": "Class skills"}],
+    "ref/arc-hunter/chameleon-adept": [{"alters": "Class skills"}],
+    "ref/arc-hunter/patient-ambusher": [{"alters": "Class skills"}],
+    "ref/arc-investigator/natural-philosopher": [{"alters": "Class skills"}],
+    "ref/arc-occultist/geomancer": [{"alters": "Class skills"}],
+    "ref/arc-occultist/naturalist": [{"alters": "Class skills"}],
+    "ref/arc-oracle/river-soul": [{"alters": "Class skills"}],
+    "ref/arc-paladin/forest-preserver": [{"alters": "Class skills"}],
+    "ref/arc-paladin/hunting-paladin": [{"alters": "Class skills"}],
+    "ref/arc-paladin/wilderness-warden": [{"alters": "Class skills"}],
+    "ref/arc-ranger/wilderness-explorer": [{"alters": "Class skills"}],
+    "ref/arc-rogue/desert-raider": [{"alters": "Class skills"}],
+    "ref/arc-rogue/river-rat": [{"alters": "Class skills"}],
+    "ref/arc-rogue/sly-saboteur": [{"alters": "Class skills"}],
+    "ref/arc-rogue/sylvan-trickster": [{"alters": "Class skills"}],
+    "ref/arc-swashbuckler/wildstrider": [{"alters": "Class skills"}],
+    "ref/arc-vigilante/avenging-beast": [{"alters": "Class skills"}],
+    "ref/arc-witch/flood-walker": [{"alters": "Class skills"}],
+}
+for _eid, _adds in SCAFFOLD_TRADE_ADDITIONS.items():
+    TRADE_ADDITIONS[_eid] = TRADE_ADDITIONS.get(_eid, []) + [a for a in _adds if a not in TRADE_ADDITIONS.get(_eid, [])]
+
+
 # A stored trade that only repeats another one (Roughrider stores `Armor training 4` twice, once without
 # its feature link): the repeat is left out and the TSV note records it.
 TRADE_DROPS = {
@@ -3456,9 +3531,10 @@ def printed_trade_gaps(e: Entry) -> list[str]:
             continue
         if m.group(2) in listed:
             head = m.group(1)
-        if head is None:
-            continue
-        for sop, ph, _bare in trade_sentences(part[m.end():], ABILITY_TAG.sub("", head).strip()):
+        # an unlisted section before the first listed feature ("Class Skills", "Alignment") counts with its own heading (Opus
+        # review of #329: Planar Scout, Witch Killer, Dreamthief and Experimenter print "This alters the ... class skills" there)
+        sentences = trade_sentences(part[m.end():], ABILITY_TAG.sub("", head or m.group(1)).strip())
+        for sop, ph, _bare in sentences:
             if re.match(r"(?:grants|to|does|do|not)\b", ph) or (e.id, ph) in TRADE_GAPS_ALLOWED:
                 continue                    # "This change to spells doesn't apply", "This ability does not alter ...": no trade sentence
             if not any(op == sop and covers(ph, name) for op, name in trades):
