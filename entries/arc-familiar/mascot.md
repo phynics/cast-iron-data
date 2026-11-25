@@ -15,79 +15,76 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "affinity-for-my-team" },
+  { anchor = "lucky-mascot" },
+  { anchor = "share-spells", level = 3 },
+  { anchor = "deliver-touch-spells", level = 5 },
+  { anchor = "speak-with-team", level = 7 },
+  { anchor = "heart-of-the-team" },
+]
 trades = [
-  { replaces = "Alertness" },
-  { replaces = "Improved evasion" },
-  { replaces = "Speak with master" },
-  { replaces = "speak with animals of its kind" },
-  { replaces = "Spell resistance" },
-  { replaces = "scry on familiar" },
-  { alters = "Empathic link" },
-  { alters = "Share spells" },
-  { alters = "Deliver touch spells" },
+  { replaces = "Alertness", by = ["affinity-for-my-team"] },
+  { replaces = "Improved evasion", by = ["lucky-mascot"] },
+  { replaces = "Speak with master", by = ["speak-with-team"] },
+  { replaces = "speak with animals of its kind", by = ["speak-with-team"] },
+  { replaces = "Spell resistance", by = ["heart-of-the-team"] },
+  { replaces = "scry on familiar", by = ["heart-of-the-team"] },
+  { alters = "Empathic link", by = ["affinity-for-my-team"] },
+  { alters = "Share spells", by = ["share-spells"] },
+  { alters = "Deliver touch spells", by = ["deliver-touch-spells"] },
 ]
 +++
 
 A familiar sometimes serves as the centerpiece of an adventuring party. Known as a mascot, this type
 of familiar eventually treats the entire party as its master.
 
-**Gained class skills:** perf
+## Mascot Skills {#mascot-skills}
 
-**Affinity for My Team (Su)**
+A mascot treats all Perform skills as class skills.
 
-**Ability:** A mascot is the heart and soul of its team. At first, the team consists of only the
-familiar and its master, but at 3rd level and every 3 levels thereafter, a mascot can add an
-additional member to its team. A mascot's _empathic link_ extends to all members of its team. A
-mascot can add or remove one team member over the course of a day.
+## Affinity for My Team (Su) {#affinity-for-my-team}
 
-**Alters:** Empathic link
+A mascot is the heart and soul of its team. At first, the team consists of only the familiar and its
+master, but at 3rd level and every 3 levels thereafter, a mascot can add an additional member to its
+team. A mascot's empathic link extends to all members of its team. A mascot can add or remove one
+team member over the course of a day.
 
-**Replaces:** Alertness
+This replaces alertness and alters empathic link.
 
-**Lucky Mascot (Su)**
+## Lucky Mascot (Su) {#lucky-mascot}
 
-**Passive:** Whenever a mascot uses the aid another action to improve a team member's attack roll or
-AC, that team member also gains a +1 luck bonus to AC for 1 round.
+Whenever a mascot uses the aid another action to improve a team member's attack roll or AC, that
+team member also gains a +1 luck bonus to AC for 1 round.
 
-**Replaces:** Improved evasion
+This replaces improved evasion.
 
-**Share Spells (Ex)**
+## Share Spells (Ex) {#share-spells}
 
-**Alters:** Share spells
+At 3rd level, spells that target a mascot via its share spells ability function at its master's
+caster level - 2. The mascot also benefit from the spells of any team member when it is using share
+spells.
 
-**Gained:** At 3rd Level
+This alters share spells.
 
-**Passive:** Spells that target a mascot via its _share spells_ ability function at its master's
-caster level - 2. The mascot also benefit from the spells of any team member when it is using _share
-spells._
+## Deliver Touch Spells (Su) {#deliver-touch-spells}
 
-**Deliver Touch Spells (Su)**
-
-**Alters:** Deliver touch spells
-
-**Gained:** At 5th Level
-
-**Passive:** Spells delivered by a mascot's _deliver touch spells_ ability function at its master's
+At 5th level, spells delivered by a mascot's deliver touch spells ability function at its master's
 caster level - 2. The mascot can deliver the touch spells of any of its team members.
 
-**Speak with Team (Ex)**
+This alters deliver touch spells.
 
-**Gained:** At 7th Level
+## Speak with Team (Ex) {#speak-with-team}
 
-**Passive:** A mascot gains the ability to speak with all members of its team verbally as if using
-_speak with master._
+At 7th level, a mascot gains the ability to speak with all members of its team verbally as if using
+speak with master.
 
-**Replaces:** Speak with master, speak with animals of its kind
+This replaces speak with master and speak with animals of its kind.
 
-**Heart of the Team (Ex)**
+## Heart of the Team (Ex) {#heart-of-the-team}
 
-**Fullround:** A mascot can designate any member of its team as its master for the purpose of
-calculating its base attack bonus, Hit Dice, hit points, saving throws, and skill ranks.
+Once per day at 13th level, as a full-round action, a mascot can designate any member of its team as
+its master for the purpose of calculating its base attack bonus, Hit Dice, hit points, saving
+throws, and skill ranks.
 
-**Gained:** At 13th Level
-
-**Replaces:** [Spell resistance](ref/rule/spell-resistance), scry on familiar
-
-**Usage:** Once per day.
-
-**Usage:** Once per day.
+This replaces [spell resistance](ref/rule/spell-resistance) and scry on familiar.

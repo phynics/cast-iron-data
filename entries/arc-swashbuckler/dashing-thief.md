@@ -16,14 +16,22 @@ page = "51"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bold-thief" },
+  { anchor = "thief-s-confidence" },
+  { anchor = "rogue-talents" },
+  { anchor = "dazing-charm-deed" },
+  { anchor = "swaying-charm-deed" },
+]
 trades = [
-  { replaces = "Regain panache from a killing blow" },
-  { replaces = "Bonus feats", feature = "bonus-feats" },
-  { replaces = "Menacing swordplay", feature = "deeds", power = "menacing swordplay" },
-  { replaces = "Dizzying defense", feature = "deeds", power = "dizzying defense" },
-  { alters = "Derring-do", feature = "deeds", power = "derring-do" },
-  { alters = "swashbuckler's edge", feature = "deeds", power = "swashbuckler's edge" },
-  { alters = "Panache", feature = "panache" },
+  { replaces = "The swashbuckler's ability to regain panache from a killing blow", by = ["thief-s-confidence"] },
+  { replaces = "Bonus feats", feature = "bonus-feats", by = ["rogue-talents"] },
+  { replaces = "Menacing swordplay deed", feature = "deeds", power = "menacing swordplay", by = ["dazing-charm-deed"] },
+  { replaces = "Dizzying defense deed", feature = "deeds", power = "dizzying defense", by = ["swaying-charm-deed"] },
+  { alters = "Derring-do", feature = "deeds", power = "derring-do", by = ["bold-thief"] },
+  { alters = "Swashbuckler's edge deeds", feature = "deeds", power = "swashbuckler's edge", by = ["bold-thief"] },
+  { alters = "Panache", feature = "panache", by = ["thief-s-confidence"] },
+  { alters = "Class skills", by = ["bold-thief"] },
 ]
 +++
 
@@ -33,86 +41,61 @@ the wiser, but the dashing thief swings in through a window, charms the noble's 
 over the jewelry, and then duels her way out. [Council of Thieves](ref/rule/aff-thieves) heists
 often involve at least one dashing thief, as their attention-grabbing antics can provide a
 distraction for subtler agents, and their combat skills can be vital in tight spots. The majority of
-the Council's dashing thieves are personally trained by Sabriune Misraria - between her renounced
+the Council's dashing thieves are personally trained by Sabriune Misraria—between her renounced
 family's lust-fueled intrigues and their numerous enslaved succubi, the drow heretic has numerous
 sources for the tricks and stunts she teaches her agents.
 
-**Gained class skills:** dd
+## Bold Thief (Ex) {#bold-thief}
 
-**Lost class skills:** fly, ride
+A dashing thief fulfills the Council's larcenous goals with style. Her
+[derring-do](ref/swashdeed/derring-do) and [swashbuckler's edge](ref/swashdeed/swashbucklers-edge)
+deeds apply to Disable Device and Sleight of Hand, but not to Fly and Ride. She adds Disable Device
+to her list of class skills, but does not have Fly or Ride as class skills.
 
-**Bold Thief (Ex)**
+This ability alters the swashbuckler's class skills and the derring-do and swashbuckler's edge
+deeds.
 
-**Ability:** Her [derring-do](ref/swashdeed/derring-do) and
-[swashbuckler's edge](ref/swashdeed/swashbucklers-edge) deeds apply to Disable Device and Sleight of
-Hand, but not to Fly and Ride.
+## Thief 's Confidence (Ex) {#thief-s-confidence}
 
-**Alters:** Derring-do, swashbuckler's edge
+A dashing thief's panache is fueled by bold acts of thievery. Whenever a dashing thief uses the
+[steal](ref/rule/steal) combat maneuver to steal an object worth at least 100 gp × her class level
+from an opponent, she regains 1 panache point. She cannot regain panache in this way from a given
+opponent more than once per day.
 
-**Flavor:** A dashing thief fulfills the Council's larcenous goals with style.
+This ability alters panache and replaces the swashbuckler's ability to regain panache from a killing
+blow.
 
-**Thief's Confidence (Ex)**
+## Rogue Talents {#rogue-talents}
 
-**Ability:** Whenever a dashing thief uses the [steal](ref/rule/steal) combat maneuver to steal an
-object worth at least 100 gp × her class level from an opponent, she regains 1 panache point. She
-cannot regain panache in this way from a given opponent more than once per day.
+Council training grants a dashing thief numerous opportunities to learn trade secrets from fellow
+scoundrels. At 4th level and every 4 levels thereafter, a dashing thief gains a rogue talent,
+treating her class level as her rogue level when determining the talents' benefits. Starting at 12th
+level, the dashing thief can choose advanced rogue talents.
 
-**Alters:** Panache
+This ability replaces the swashbuckler's bonus feats.
 
-**Flavor:** A dashing thief's panache is fueled by bold acts of thievery.
+## Dazing Charm Deed (Ex) {#dazing-charm-deed}
 
-**Replaces:** Regain panache from a killing blow
+A dashing thief takes foes aback with her forwardness, shocking them into submission long enough to
+rush past or stage a getaway. At 3rd level, as a free action when she successfully feints against a
+foe, she can spend 1 panache point to pull the enemy into a quick kiss (or similar gesture). The
+target is [dazed](ref/misc/dazed) for 1 round unless it succeeds at a Will save (DC = 10 + half the
+dashing thief's class level + her Charisma modifier). A creature dazed this way is immune to that
+dashing thief's dazing charm deed for 24 hours. Whether or not a creature could potentially be
+affected by a dazing charm deed is ultimately subject to GM adjudication. As a general rule,
+however, it works on creatures of the dashing thief's creature type, or on those of a different type
+but who share significant thematic similarities (for example, a human dashing thief could use her
+dazing charm deed on any humanoid, but also potentially on creatures as diverse as dryads,
+tieflings, or even centaurs or sphinxes).
 
-**Rogue Talents**
+This ability replaces the menacing swordplay deed.
 
-**Flavor:** Council training grants a dashing thief numerous opportunities to learn trade secrets
-from fellow scoundrels.
+## Swaying Charm Deed (Su) {#swaying-charm-deed}
 
-**At 12th Level:** The dashing thief can now choose from advanced rogue talents, too.
+A dashing thief eventually becomes truly irresistible. At 15th level, when a dashing thief
+successfully dazes a creature using her dazing charm deed, she can instead charm the target for 1
+day (as per _[charm monster](ref/spell/charm-monster)_). Only one creature can be charmed this way
+at a time; if the dashing thief charms another creature this way, the first charm effect immediately
+ends.
 
-**At 4th Level:** A dashing thief gains a rogue talent, treating her class level as her rogue level
-when determining the talents' benefits.
-
-**Replaces:** Bonus feats
-
-At 8th level: She gains her 2nd such talent.
-
-At 12th level: She gains her 3rd such talent.
-
-At 16th level: She gains her 4th such talent.
-
-At 20th level: She gains her 5th such talent.
-
-**Dazing Charm Deed (Ex)**
-
-**Flavor:** A dashing thief takes foes aback with her forwardness, shocking them into submission
-long enough to rush past or stage a getaway.
-
-**Free:** When she successfully feints against a foe, she can spend 1 panache point to pull the
-enemy into a quick kiss (or similar gesture). The target is [dazed](ref/misc/dazed) for 1 round
-unless it succeeds at a Will save (DC = 10 + half the dashing thief's class level + her Charisma
-modifier). A creature dazed this way is immune to that dashing thief's _dazing charm_ deed for 24
-hours.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Menacing swordplay
-
-**Special:** Whether or not a creature could potentially be affected by a _dazing charm_ deed is
-ultimately subject to GM adjudication. As a general rule, however, it works on creatures of the
-dashing thief's creature type, or on those of a different type but who share significant thematic
-similarities (for example, a human dashing thief could use her _dazing charm_ deed on any humanoid,
-but also potentially on creatures as diverse as dryads, tieflings, or even centaurs or sphinxes).
-
-**Swaying Charm Deed (Su)**
-
-**Ability:** When a dashing thief successfully dazes a creature using her _dazing charm_ deed, she
-can instead charm the target for 1 day (as per [charm monster](ref/spell/charm-monster)). Only one
-creature can be charmed this way at a time; if the dashing thief charms another creature this way,
-the first charm effect immediately ends.
-
-**Flavor:** A dashing thief eventually becomes truly irresistible.
-
-**Gained:** At 15th Level
-
-**Replaces:** Dizzying defense
+This ability replaces the dizzying defense deed.

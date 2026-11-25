@@ -16,80 +16,71 @@ page = "72"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "combat-style-feat", level = 2 },
+  { anchor = "thundershot", level = 4 },
+  { anchor = "wind-treader", level = 8 },
+  { anchor = "flash-step", level = 11 },
+  { anchor = "control-weather", level = 16 },
+  { anchor = "flash-shot", level = 19 },
+]
 trades = [
-  { replaces = "Hunter's bond", feature = "hunter-s-bond" },
-  { replaces = "Swift tracker", feature = "swift-tracker" },
-  { replaces = "Quarry", feature = "quarry" },
-  { replaces = "Improved evasion", feature = "improved-evasion" },
-  { replaces = "Improved quarry", feature = "improved-quarry" },
-  { alters = "Combat style", feature = "combat-style-feat" },
+  { replaces = "Hunter's bond", feature = "hunter-s-bond", by = ["thundershot"] },
+  { replaces = "Swift tracker", feature = "swift-tracker", by = ["wind-treader"] },
+  { replaces = "Quarry", feature = "quarry", by = ["flash-step"] },
+  { replaces = "Improved evasion", feature = "improved-evasion", by = ["control-weather"] },
+  { replaces = "Improved quarry", feature = "improved-quarry", by = ["flash-shot"] },
+  { alters = "Combat style", feature = "combat-style-feat", by = ["combat-style-feat"] },
 ]
 +++
 
 Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become
 stormwalkers.
 
-**Combat Style Feat (Ex)**
+## Combat Style Feat (Ex) {#combat-style-feat}
 
-**Ability:** A stormwalker must choose the archery [combat style](ref/ability/combat-styles).
+At 2nd level, a stormwalker must choose archery style.
 
-**Alters:** Combat style
+This alters the ranger's [combat style](ref/ability/combat-styles).
 
-**Gained:** At 2nd Level
+## Thundershot (Su) {#thundershot}
 
-**Thundershot (Su)**
+At 4th level, a stormwalker can wreathe his weapon in lightning. As a standard action, he can grant
+a single weapon he holds the _[shock](ref/magic-enh/shock)_ special ability for 1 minute; while
+under this effect, the weapon counts as magic for the purpose of overcoming
+[damage reduction](ref/rule/damage-reduction). A stormwalker can use this ability a number of times
+per day equal to 3 + his Wisdom modifier. At 12th level, weapons affected by this ability gain the
+_[shocking burst](ref/magic-enh/shocking-burst)_ special ability.
 
-**Flavor:** A stormwalker can wreathe his weapon in lightning.
+This replaces hunter's bond.
 
-**At 12th Level:** Weapons affected by this ability gain the
-[shocking burst](ref/magic-enh/shocking-burst) special ability, instead.
+## Wind Treader (Ex) {#wind-treader}
 
-**Gained:** At 4th Level
-
-**Replaces:** Hunter's bond
-
-**Standard:** He can grant a single weapon he holds the [shock](ref/magic-enh/shock) special ability
-for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming
-[damage reduction](ref/rule/damage-reduction).
-
-**Usage:** Wisdom3 modifier times/day
-
-**Wind Treader (Ex)**
-
-**Gained:** At 8th Level
-
-**Passive:** A stormwalker becomes immune to the effects of strong [wind](ref/rule/winds). He can
+At 8th level, a stormwalker becomes immune to the effects of strong [wind](ref/rule/winds). He can
 move without hindrance in windy conditions, and his ranged attacks take no penalties from nonmagical
 wind.
 
-**Replaces:** Swift tracker
+This replaces swift tracker.
 
-**Flash Step (Su)**
+## Flash Step (Su) {#flash-step}
 
-**Flavor:** A stormwalker can move across the battlefield like a bolt of lightning.
-
-**Fullround:** He can transform into lightning and move to any unoccupied square within 60 feet
+At 11th level, a stormwalker can move across the battlefield like a bolt of lightning. As a
+full-round action, he can transform into lightning and move to any unoccupied square within 60 feet
 without provoking attacks of opportunity. He can make a single ranged attack before or after this
 movement.
 
-**Gained:** At 11th Level
+This replaces quarry.
 
-**Replaces:** Quarry
+## Control Weather (Sp) {#control-weather}
 
-**Control Weather (Sp)**
-
-**Ability:** A stormwalker can cast [control weather](ref/spell/control-weather) as a
+At 16th level, a stormwalker can cast _[control weather](ref/spell/control-weather)_ as a
 [spell-like ability](ref/umr/spell-like-abilities) once per day.
 
-**Gained:** At 16th Level
+This replaces improved evasion.
 
-**Replaces:** Improved evasion
+## Flash Shot (Su) {#flash-shot}
 
-**Flash Shot (Su)**
-
-**Ability:** When a stormwalker uses _flash step,_ he can make a ranged attack both before and after
+At 19th level, when a stormwalker uses flash step, he can make a ranged attack both before and after
 his movement. Both of these attacks are made at his highest base attack bonus.
 
-**Gained:** At 19th Level
-
-**Replaces:** Improved quarry
+This replaces improved quarry.

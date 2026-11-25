@@ -16,87 +16,87 @@ page = "89"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "patron-spells" },
+  { anchor = "gasping-breath-aura", level = 1 },
+  { anchor = "river-stride", level = 6 },
+  { anchor = "breath-siphon", level = 10 },
+]
 trades = [
-  { replaces = "1st-level hex", feature = "hex", levels = [1] },
-  { replaces = "6th-level hex", feature = "hex", levels = [6] },
-  { replaces = "10th-level hex", feature = "hex", levels = [10] },
-  { alters = "Patron spells", feature = "patron-spells" },
+  { replaces = "1st-level hex", feature = "hex", levels = [1], by = ["gasping-breath-aura"] },
+  { replaces = "6th-level hex", feature = "hex", levels = [6], by = ["river-stride"] },
+  { replaces = "10th-level hex", feature = "hex", levels = [10], by = ["breath-siphon"] },
+  { alters = "Patron spells", feature = "patron-spells", by = ["patron-spells"] },
 ]
 +++
 
 Witches who dwell in floodplains or along the banks of predictably dangerous rivers can tap into the
 underlying potential of surging waters in order to enhance their eerie powers.
 
-**Alignment**
+## Alignment {#alignment}
 
-**Info:** Flood walkers exult in the final gasp for air of a drowning victim and must be evil in
-alignment. A flood walker who becomes nonevil loses access to all abilities granted by this
-archetype but does not regain any abilities this archetype replaced.
+Flood walkers exult in the final gasp for air of a drowning victim and must be evil in alignment. A
+flood walker who becomes nonevil loses access to all abilities granted by this archetype but does
+not regain any abilities this archetype replaced.
 
-**Gained class skills:** sur, swim
+## Class Skills {#class-skills}
 
-**Lost class skills:** fly, heal
+A flood walker gains Survival and Swim as class skills but does not gain Fly and Heal as class
+skills.
 
-**Patron Spells**
+This alters the witch's class skills.
 
-**Alters:** Patron spells
+## Patron Spells {#patron-spells}
 
-**Info:** Regardless of which patron a flood walker selects, he replaces some of his patron spells
-with the following at the listed witch level.
+Regardless of which patron a flood walker selects, he replaces some of his patron spells with the
+following: 4th—_aboleth's lung_, 10th—_suffocation_, 16th—_seamantle_, 18th—_mass suffocation_.
 
-**Spells:** Suffocation
+This alters the witch's patron spells.
 
-**Spells:** Seamantle
+## Gasping Breath Aura (Su) {#gasping-breath-aura}
 
-**Spells:** Mass suffocation
+A creature attempting to [hold its breath](ref/misc/hold-your-breath) within 30 feet of a flood
+walker is treated as having taken a standard or full-round action when determining how long it can
+hold its breath, regardless of the number and type of actions it takes in a round. At 5th level,
+increase the DC of Swim checks attempted within 30 feet of the flood walker by 5, and creatures
+actively engaged in combat or a similarly strenuous activity use air twice as quickly within the
+aura. The flood walker can exempt creatures within this aura from these increased penalties.
 
-**Spells:** Aboleth's lung
+This replaces the hex gained at 1st level.
 
-**Gasping Breath Aura (Su)**
+## River Stride (Su) {#river-stride}
 
-**At 5th Level:** Increase the DC of Swim checks attempted within 30 feet of the flood walker by 5,
-and creatures actively engaged in combat or a similarly strenuous activity use air twice as quickly
-within the aura. The flood walker can exempt creatures within this aura from these increased
-penalties.
+At 6th level, a flood walker and his familiar can walk on the surface of water and other liquids as
+if under the effects of a _[water walk](ref/spell/water-walk)_ spell. The flood walker chooses at
+the beginning of his turn each round whether this ability is active or suppressed (for himself and
+his familiar separately), allowing him to walk on water or swim.
 
-**Passive:** A creature attempting to [hold its breath](ref/misc/hold-your-breath) within 30 feet of
-a flood walker is treated as having taken a standard or full-round action when determining how long
-it can hold its breath, regardless of the number and type of actions it takes in a round.
+This replaces the hex gained at 6th level.
 
-**Replaces:** 1st-level hex
+## Breath Siphon (Su) {#breath-siphon}
 
-**River Stride (Su)**
-
-**Ability:** A flood walker and his familiar can walk on the surface of water and other liquids as
-if under the effects of a [water walk](ref/spell/water-walk) spell. The flood walker chooses at the
-beginning of his turn each round whether this ability is active or suppressed (for himself and his
-familiar separately), allowing him to walk on water or swim.
-
-**Gained:** At 6th Level
-
-**Replaces:** 6th-level hex
-
-**Breath Siphon (Su)**
-
-**Ability:** Whenever a creature with an Intelligence of 3 or higher asphyxiates or drowns within 30
-feet of him, the flood walker gains the benefit of a [death knell](ref/spell/death-knell) spell for
-1 hour. If a flood walker drowns such a victim himself (such as by holding a grappled or helpless
-creature under water until it dies or by killing it with a _[suffocation](ref/spell/suffocation)_
-spell), the duration is doubled, and the flood walker gains 4d8
+At 10th level, a flood walker gains strength from his patron when creatures suffocate or drown.
+Whenever a creature with an Intelligence of 3 or higher asphyxiates or drowns within 30 feet of him,
+the flood walker gains the benefit of a _[death knell](ref/spell/death-knell)_ spell for 1 hour. If
+a flood walker drowns such a victim himself (such as by holding a grappled or helpless creature
+under water until it dies or by killing it with a _[suffocation](ref/spell/suffocation)_ spell), the
+duration is doubled, and the flood walker gains 4d8
 [temporary hit points](ref/rule/temporary-hit-points) and a +6 enhancement bonus to Strength instead
 of the usual temporary hit points and enhancement bonus to Strength from
-_[death knell](ref/spell/death-knell)._ Like _[death knell](ref/spell/death-knell)_ itself, this is
+_[death knell](ref/spell/death-knell)_. Like _[death knell](ref/spell/death-knell)_ itself, this is
 an evil act.
 
-**Flavor:** A flood walker gains strength from his patron when creatures suffocate or drown.
+This replaces the hex gained at 10th level.
 
-**Gained:** At 10th Level
+## Hexes {#hexes}
 
-**Replaces:** 10th-level hex
+The following witch hexes complement the flood walker archetype: blight, prehensile hair, swamp hag,
+water lung.
 
-**The following witch hexes complement this archetype:** Blight, prehensile hair, swamp hag, water
-lung
+## Major Hexes {#major-hexes}
 
-**The following major hex complements this archetype:** Weather control
+The following major hex complements the flood walker archetype: weather control.
 
-**The following grand hex complements this archetype:** Natural disaster
+## Grand Hexes {#grand-hexes}
+
+The following grand hex complements the flood walker archetype: natural disaster.

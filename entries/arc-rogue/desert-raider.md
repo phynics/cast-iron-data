@@ -16,56 +16,65 @@ page = "76"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "desert-tracker", level = 1 },
+  { anchor = "sun-at-your-back", level = 2 },
+  { anchor = "light-step", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2] },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["desert-tracker"] },
+  { replaces = "Rogue talent gained at 2nd level", feature = "rogue-talents", levels = [2], by = ["sun-at-your-back"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["light-step"] },
 ]
 +++
 
 Desert raiders constantly threaten caravans that cross vast, desolate expanses. Some desert raiders
 are tribespeople who raid to supplement their hardscrabble existence, while others are career
 thieves who take to the desert to avoid the noose. To survive, a desert raider must learn the
-secrets of the deserts and become inured to their dangers. Though most often associated with hot
-deserts, desert raiders can also operate in tundra, where sunlight on snow can blind as easily as on
-sand.
+secrets of the deserts and become inured to their dangers.
 
-**Gained class skills:** kg, sur
+Though most often associated with hot deserts, desert raiders can also operate in tundra, where
+sunlight on snow can blind as easily as on sand.
 
-**Lost class skills:** kd, swim
+## Class Skills {#class-skills}
 
-**Desert Tracker (Ex)**
+A desert raider adds Knowledge (geography) and Survival to her list of class skills instead of
+Knowledge (dungeoneering) and Swim.
 
-**Passive:** A desert raider is immune to the [dazzled](ref/misc/dazzled) condition. A desert raider
-adds half her level (minimum 1) as a bonus on Survival skill checks to follow or identify tracks in
-desert terrain.
+This alters the rogue's class skills.
 
-**Replaces:** Trapfinding
+## Desert Tracker (Ex) {#desert-tracker}
 
-**Sun at Your Back (Ex)**
+A desert raider is immune to the [dazzled](ref/misc/dazzled) condition. A desert raider adds half
+her level (minimum 1) as a bonus on Survival skill checks to follow or identify tracks in desert
+terrain.
 
-**Ability:** A desert raider in bright light can attempt Stealth checks without cover or concealment
+This replaces trapfinding.
+
+## Sun at Your Back (Ex) {#sun-at-your-back}
+
+At 2nd level, a desert raider can use the reflected light of the blinding sun to conceal her
+presence. A desert raider in bright light can attempt Stealth checks without cover or concealment
 but takes a -5 penalty on her check. The desert raider cannot use this ability to hide from
 creatures immune to the [blinded](ref/misc/blinded) or dazzled conditions.
 
-**Flavor:** A desert raider can use the reflected light of the blinding sun to conceal her presence.
+This replaces the rogue talent gained at 2nd level.
 
-**Gained:** At 2nd Level
+## Light Step (Ex) {#light-step}
 
-**Replaces:** Rogue talent gained at 2nd level
+At 3rd level, the DC of Survival checks to track the desert raider increase by 3. In addition, she
+gains a +1 bonus on Perception checks to avoid being surprised by a foe. The DC increase and the
+bonus on Perception checks increase by 1 every 3 rogue levels thereafter (to a maximum increase of 8
+and a maximum bonus of +6 at 18th level).
 
-**Light Step (Ex)**
+This replaces trap sense.
 
-**Gained:** At 3rd Level
+## Rogue Talents {#rogue-talents}
 
-**Passive:** The DC of Survival checks to track the desert raider increase by 2 +
-[one-third](ref/misc/fractions-and-rounding) of her rogue level. In addition, she gains a bonus on
-Perception checks to avoid being surprised by a foe. This bonus on is equal to one-third of her
-rogue level.
+The following rogue talents complement the desert raider archetype: fast stealth, getaway artist,
+ledge walker, rogue crawl, stand up, surprise attack.
 
-**Replaces:** Trap sense
+## Advanced Talents {#advanced-talents}
 
-**These rogue talents complement this archetype:** Fast stealth, getaway artist, ledge walker, rogue
-crawl, stand up, surprise attack
-
-**These advanced rogue talents complement this archetype:** Hide in plain sight, stealthy sniper
+The following advanced rogue talents complement the desert raider archetype: hide in plain sight,
+stealthy sniper.

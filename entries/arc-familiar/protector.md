@@ -15,45 +15,44 @@ page = "11"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "loyal-bodyguard" },
+  { anchor = "shield-master", level = 5 },
+  { anchor = "able-defender", level = 11 },
+]
 trades = [
-  { replaces = "Alertness" },
-  { replaces = "improved evasion" },
-  { replaces = "Deliver touch spells" },
-  { replaces = "speak with animals of its kind" },
-  { replaces = "Spell resistance" },
+  { replaces = "Alertness", by = ["loyal-bodyguard"] },
+  { replaces = "improved evasion", by = ["loyal-bodyguard"] },
+  { replaces = "Deliver touch spells", by = ["shield-master"] },
+  { replaces = "speak with animals of its kind", by = ["shield-master"] },
+  { replaces = "Spell resistance", by = ["able-defender"] },
 ]
 +++
 
 Protector familiars are so devoted that they would give their lives for their masters. A tumor
 familiar can't be a protector.
 
-**Loyal Bodyguard (Ex)**
+## Loyal Bodyguard (Ex) {#loyal-bodyguard}
 
-**Ability:** If the familiar is sharing its master's square, it can use Bodyguard to aid another to
+A protector gains [Bodyguard](ref/feat/bodyguard) and [Combat Reflexes](ref/feat/combat-reflexes) as
+bonus feats. If the familiar is sharing its master's square, it can use Bodyguard to aid another to
 improve its master's AC even if it doesn't threaten the attacking foe, though it still needs line of
 effect to its master and the attacker.
 
-**Passive:** A protector gains [Bodyguard](ref/feat/bodyguard) and
-[Combat Reflexes](ref/feat/combat-reflexes) as bonus feats.
+This replaces alertness and improved evasion.
 
-**Replaces:** Alertness, improved evasion
+## Shield Master (Su) {#shield-master}
 
-**Shield Master (Su)**
+At 5th level, whenever a protector or its master takes hit point damage, as long as the protector
+and its master are touching, its master can split the damage evenly between them as if under the
+effects of _[shield other](ref/spell/shield-other)_.
 
-**Ability:** Whenever a protector or its master takes hit point damage, as long as the protector and
-its master are touching, its master can split the damage evenly between them as if under the effects
-of [shield other](ref/spell/shield-other).
+This replaces deliver touch spells and speak with animals of its kind.
 
-**Gained:** At 5th Level
+## Able Defender (Ex) {#able-defender}
 
-**Replaces:** Deliver touch spells, speak with animals of its kind
+At 11th level, a protector gains [In Harm's Way](ref/feat/in-harms-way) as a bonus feat. In
+addition, the familiar's hit points are now equal to its master's total hit points (not including
+temporary hit points), regardless of its actual Hit Dice.
 
-**Able Defender (Ex)**
-
-**Gained:** At 11th Level
-
-**Passive:** A protector gains [In Harm's Way](ref/feat/in-harms-way) as a bonus feat. In addition,
-the familiar's hit points are now equal to its master's total hit points (not including temporary
-hit points), regardless of its actual Hit Dice.
-
-**Replaces:** [Spell resistance](ref/rule/spell-resistance)
+This replaces [spell resistance](ref/rule/spell-resistance).

@@ -16,29 +16,35 @@ page = "182"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "gozreh-s-domain", level = 1 },
+  { anchor = "storm-trance" },
+  { anchor = "dream-storm", level = 5 },
+  { anchor = "storm-seer", level = 7 },
+]
 trades = [
-  { replaces = "Spirit surge", feature = "spirit-surge" },
-  { replaces = "Haunt channeler", feature = "haunt-channeler" },
-  { replaces = "Location channel", feature = "location-channel" },
-  { replaces = "Connection channel", feature = "connection-channel" },
+  { replaces = "Spirit surge", feature = "spirit-surge", by = ["gozreh-s-domain"] },
+  { replaces = "Haunt channeler", feature = "haunt-channeler", by = ["storm-trance"] },
+  { replaces = "Location channel", feature = "location-channel", by = ["dream-storm"] },
+  { replaces = "Connection channel", feature = "connection-channel", by = ["storm-seer"] },
 ]
 +++
 
 Storm dreamers serve the [Storm Kindlers](ref/rule/aff-storms) by communing with their mystical
 predecessors. They serve as spiritual advisors for the organization, and are valued for the lore and
 wisdom they gain during their trances. During such a trance, a single storm dreamer can easily
-protect and defend a temple - or at the very least, provide suitably threatening defensive displays.
+protect and defend a temple—or at the very least, provide suitably threatening defensive displays.
 
 Mediums who become storm dreamers select their spirits normally, but the spirits with which they
-bond are supernatural remnants of the first Storm Kindlers - those reckless explorers who
-established the tradition but succumbed to their own arrogance and were consumed by the Eye of
-Abendego.
+bond are supernatural remnants of the first [Storm Kindlers](ref/rule/aff-storms)—those reckless
+explorers who established the tradition but succumbed to their own arrogance and were consumed by
+the Eye of Abendego.
 
 Some storm dreamers, though, become incapable of retaining their own personality and values, and
 transform into unpredictable forces of nature. Storm dreamers refer to this condition as being
 "stormcursed" and view these lost brothers and sisters with a mix of pity and horror. The
-stormcursed do not maintain ties with the Storm Kindlers, and in many cases their departure from the
-organization is violent and destructive. They are not viewed as heretics of
+stormcursed do not maintain ties with the [Storm Kindlers](ref/rule/aff-storms), and in many cases
+their departure from the organization is violent and destructive. They are not viewed as heretics of
 [Gozreh](ref/faith/gozreh) by the Storm Kindlers, but neither are they sought after as allies. They
 are typically treated as dangerous and unpredictable agents of the storm and allowed to dwell in
 relative peace in the remote locations where the stormcursed dreamers choose to dwell in. The exact
@@ -48,60 +54,50 @@ afflict their members almost randomly. Some believe these storm dreamers brushed
 pulled away and replaced with some of the half-mad fragments the dreamers speak to in trance. The
 truth, whatever it is, may never be fully understood.
 
-**Gozreh's Domain (Su)**
+## Gozreh's Domain (Su) {#gozreh-s-domain}
 
-**Ability:** All storm dreamers are deeply religious and select one of the domains granted by
-Gozreh: [Air](ref/domain/air), [Animal](ref/domain/animal), [Plant](ref/domain/plant),
+All storm dreamers are deeply religious and select one of the domains granted by Gozreh:
+[Air](ref/domain/air), [Animal](ref/domain/animal), [Plant](ref/domain/plant),
 [Water](ref/domain/water), or [Weather](ref/domain/weather). The storm dreamer gains the 1st-level
 granted power from her chosen domain, but never gains the second power at higher level. When
 determining the effect of the granted power, the storm dreamer's effective cleric level is equal to
-her storm dreamer level.
+her storm dreamer level. The 1st-through 6th-level bonus spells from this domain are added to her
+spell list. Despite her faith, these spells are cast normally, as psychic spells, by the medium.
 
-**Replaces:** Spirit surge
+This ability replaces spirit surge.
 
-**Special:** The 1st- through 6th-level bonus spells from this domain are added to her spell list.
-Despite her faith, these spells are cast normally, as psychic spells, by the medium.
+## Storm Trance (Su) {#storm-trance}
 
-**Storm Trance (Su)**
-
-**Ability:** A storm dreamer can enter a meditative trance during which she fuses her mind to the
-Eye of Abendego, mentally becoming one with the great storm. Entering the _trance_ is a **full-round
-action** that doesn't provoke attacks of opportunity, but once in a _storm trance,_ the storm
-dreamer can maintain the _trance_ as a **free action** for a number of minutes per day equal to her
-storm dreamer class level + her Charisma modifier. These minutes need not be consecutive, but they
-must be spent in 1-minute increments.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Haunt channeler
-
-**Special:** While in a _storm trance,_ the storm dreamer gains energy
+A 3rd-level storm dreamer can enter a meditative trance during which she fuses her mind to the Eye
+of Abendego, mentally becoming one with the great storm. Entering the trance is a full-round action
+that doesn't provoke attacks of opportunity, but once in a storm trance, the storm dreamer can
+maintain the trance as a free action for a number of minutes per day equal to her storm dreamer
+class level + her Charisma modifier. These minutes need not be consecutive, but they must be spent
+in 1-minute increments. While in a storm trance, the storm dreamer gains energy
 [resistance](ref/umr/resistance) 5 against cold and electricity, treats [wind](ref/rule/winds) as
 one step less severe, and gains a bonus equal to her Charisma modifier on all saving throws against
 wind effects, spells with the air or electricity descriptors, and effects that deal electricity
 damage.
 
-**Dream Storm (Sp)**
+This ability replaces haunt channeler.
 
-**Ability:** A storm dreamer's thoughts can cause magical weather effects to manifest. While in a
-_storm trance,_ she can cast [call lightning](ref/spell/call-lightning),
-[sleet storm](ref/spell/sleet-storm), and [wind wall](ref/spell/wind-wall) as
+## Dream Storm (Sp) {#dream-storm}
+
+At 5th level, a storm dreamer's thoughts can cause magical weather effects to manifest. While in a
+storm trance, she can cast _[call lightning](ref/spell/call-lightning)_,
+_[sleet storm](ref/spell/sleet-storm)_, and _[wind wall](ref/spell/wind-wall)_ as
 [spell-like abilities](ref/umr/spell-like-abilities) (CL = her character level). Each time she casts
-one of these spell-like abilities, she reduces the number of remaining minutes for her _storm
-trance_ by 1 minute; she can't use these spell-like abilities if she has less than 1 minute
-remaining for the day to use her _storm trance._
+one of these spell-like abilities, she reduces the number of remaining minutes for her storm trance
+by 1 minute; she can't use these spell-like abilities if she has less than 1 minute remaining for
+the day to use her storm trance.
 
-**Gained:** At 5th Level
+This ability replaces location channel.
 
-**Replaces:** Location channel
+## Storm Seer (Su) {#storm-seer}
 
-**Storm Seer (Su)**
+At 7th level, a storm dreamer gains a supernatural link to the weather and can sense her
+surroundings more clearly. While in her storm trance, she gains [blindsense](ref/umr/blindsense) 10
+feet and cannot be [flanked](ref/rule/flanking). If the weather conditions are stormy, these senses
+become [blindsight](ref/umr/blindsight) with a range of 30 feet.
 
-**Ability:** A storm dreamer gains a supernatural link to the weather and can sense her surroundings
-more clearly. While in her _storm trance,_ she gains [blindsense](ref/umr/blindsense) 10 feet and
-cannot be [flanked](ref/rule/flanking). If the weather conditions are stormy, these senses become
-[blindsight](ref/umr/blindsight) with a range of 30 feet.
-
-**Gained:** At 7th Level
-
-**Replaces:** Connection channel
+This ability replaces connection channel.

@@ -12,38 +12,36 @@ page = "186"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "camouflage" },
+  { anchor = "cunning-ambusher", level = 3 },
+]
 trades = [
-  { replaces = "Share Spells" },
-  { replaces = "Improved Evasion" },
-  { replaces = "Evasion" },
-  { replaces = "Devotion" },
-  { replaces = "Multiattack" },
+  { replaces = "Share Spells", by = ["camouflage"] },
+  { replaces = "Improved Evasion", by = ["camouflage"] },
+  { replaces = "Evasion", by = ["cunning-ambusher"] },
+  { replaces = "Devotion", by = ["cunning-ambusher"] },
+  { replaces = "Multiattack", by = ["cunning-ambusher"] },
 ]
 +++
 
 Ambushers sneak up on unsuspecting prey, pouncing on targets when they least expect it.
 
-**Camouflage (Ex)**
+## Camouflage (Ex) {#camouflage}
 
-**At 15th Level:** An ambusher can use the Stealth skill to hide in its natural environment, even if
-the environment doesn't grant [cover](ref/rule/cover) or [concealment](ref/rule/concealment).
+An ambusher gains a +4 racial bonus on Stealth checks in its natural environment (if this is
+unclear, use the environment in its _Bestiary_ entry). At 15th level, an ambusher can use the
+Stealth skill to hide in its natural environment, even if the environment doesn't grant
+[cover](ref/rule/cover) or [concealment](ref/rule/concealment).
 
-**Passive:** An ambusher gains a +4 racial bonus on Stealth checks in its natural environment (if
-this is unclear, use the environment in its Bestiary entry).
+This replaces share spells and improved evasion.
 
-**Replaces:** Share Spells, Improved Evasion
+## Cunning Ambusher (Ex) {#cunning-ambusher}
 
-**Cunning Ambusher (Ex)**
+At 3rd level, an ambusher gains [uncanny dodge](ref/ability/uncanny-dodge). At 6th level, an
+ambusher gains a +2 racial bonus on initiative checks, and during the surprise round, opponents are
+always considered [flat-footed](ref/rule/flat-footed) against the ambusher's attacks, even if they
+have already acted. At 9th level, an ambusher gains a +2 morale bonus on attack and damage rolls
+during a surprise round.
 
-**At 6th Level:** An ambusher gains a +2 racial bonus on initiative checks, and during the surprise
-round, opponents are always considered [flat-footed](ref/rule/flat-footed) against the ambusher's
-attacks, even if they have already acted.
-
-**At 9th Level:** An ambusher gains a +2 morale bonus on attack and damage rolls during a surprise
-round.
-
-**Gained:** At 3rd Level
-
-**Passive:** An ambusher gains [uncanny dodge](ref/ability/uncanny-dodge).
-
-**Replaces:** Evasion, Devotion, Multiattack
+This replaces evasion, devotion, and Multiattack.

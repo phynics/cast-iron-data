@@ -16,107 +16,96 @@ page = "91"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "deeds" },
+  { anchor = "trap-shot", level = 3 },
+  { anchor = "sniping-shot", level = 11 },
+  { anchor = "camouflage", level = 11 },
+  { anchor = "hide-in-plain-sight", level = 15 },
+  { anchor = "favored-terrain", level = 2 },
+  { anchor = "track", level = 4 },
+  { anchor = "trapsmith", level = 5 },
+]
 trades = [
-  { replaces = "Utility shot deed", feature = "deeds", power = "utility shot" },
-  { replaces = "Expert loading deed", feature = "deeds", power = "expert loading" },
-  { replaces = "Lightning reload deed", feature = "deeds", power = "lightning reload" },
-  { replaces = "Slinger's luck deed", feature = "deeds", power = "slinger's luck" },
-  { replaces = "Nimble", feature = "nimble" },
-  { replaces = "The bonus feat gained at 4th level", feature = "bonus-feats", levels = [4] },
-  { alters = "Gun training", feature = "gun-training" },
+  { replaces = "Utility shot", feature = "deeds", power = "utility shot", by = ["trap-shot"] },
+  { replaces = "Expert loading", feature = "deeds", power = "expert loading", by = ["sniping-shot"] },
+  { replaces = "Lightning reload", feature = "deeds", power = "lightning reload", by = ["camouflage"] },
+  { replaces = "Slinger's luck", feature = "deeds", power = "slinger's luck", by = ["hide-in-plain-sight"] },
+  { replaces = "Nimble", feature = "nimble", by = ["favored-terrain"] },
+  { replaces = "The bonus feat gained at 4th level", feature = "bonus-feats", levels = [4], by = ["track"] },
+  { alters = "Gun training", feature = "gun-training", by = ["trapsmith"] },
 ]
 +++
 
 Commandos are those rough and ready gunslingers who excel at hit-and-run tactics and leveraging
 their expertise in the wild against their enemies.
 
-**Gained class skills:** kg, kna, stl
+## Class Skills {#class-skills}
 
-**Lost class skills:** ke, kl, soh
+A commando gains Knowledge (geography), Knowledge (nature), and Stealth as class skills instead of
+Knowledge (engineering), Knowledge (local), and Sleight of Hand.
 
-**Deeds**
+This alters the gunslinger's class skills.
 
-**Ability:** A commando gains the following deeds; each of these deeds replaces an existing deed.
+## Deeds {#deeds}
 
-**Trap Shot (Ex)**
+A commando gains the following deeds; each of these deeds replaces an existing deed.
 
-**Ability:** The commando can spend 1 point of grit and target a 5-foot square with her firearm. If
-she succeeds at an attack against an AC of 10, she triggers a single trap within that 5-foot square,
-even if she is unaware of the trap. If a creature is occupying the same square as the triggered
-trap, the trap affects the creature as if it had triggered the trap.
+## Trap Shot (Ex) {#trap-shot}
 
-**Gained:** At 3rd Level
+At 3rd level, the commando can spend 1 point of grit and target a 5-foot square with her firearm.
 
-**Replaces:** Utility shot deed
+If she succeeds at an attack against an AC of 10, she triggers a single trap within that 5-foot
+square, even if she is unaware of the trap. If there are multiple traps within the same 5-foot
+square, the commando must declare which trap she is triggering; otherwise it is determined randomly.
+If a creature is occupying the same square as the triggered trap, the trap affects the creature as
+if it had triggered the trap.
 
-**Special:** If there are multiple traps within the same 5-foot square, the commando must declare
-which trap she is triggering; otherwise it is determined randomly.
+This deed replaces utility shot.
 
-**Sniping Shot (Ex)**
+## Sniping Shot (Ex) {#sniping-shot}
 
-**Gained:** At 11th Level
+At 11th level, the commando can spend 1 point of grit as a swift action to negate the -20 penalty on
+Stealth checks when sniping until the start of her next turn.
 
-**Replaces:** Expert loading deed
+This deed replaces expert loading.
 
-**Swift:** The commando can spend 1 point of grit to negate the -20 penalty on Stealth checks when
-sniping until the start of her next turn.
+## Camouflage (Ex) {#camouflage}
 
-**Camouflage (Ex)**
+At 11th level, as long as the commando has 1 point of grit, she gains the camouflage
+[ranger](ref/class/ranger) class feature.
 
-**Ability:** As long as the commando has 1 point of grit, she gains the _camouflage_
-[ranger](ref/class/ranger) class feature: She can use the Stealth skill to hide in any of her
-favored terrains, even if the terrain doesn't grant [cover](ref/rule/cover) or
-[concealment](ref/rule/concealment).
+This deed replaces lightning reload.
 
-**Gained:** At 11th Level
+## Hide in Plain Sight (Ex) {#hide-in-plain-sight}
 
-**Replaces:** Lightning reload deed
+At 15th level, as long as the commando has 1 point of grit, she gains the hide in plain sight ranger
+class feature.
 
-**Hide in Plain Sight (Ex)**
+This deed replaces slinger's luck.
 
-**Ability:** As long as the commando has 1 point of grit, she gains the _hide in plain sight_ ranger
-class feature: While in any of her favored terrains, she can use the Stealth skill even while being
-observed.
+## Favored Terrain (Ex) {#favored-terrain}
 
-**Gained:** At 15th Level
+At 2nd level, a commando gains the [favored terrain](ref/ability/favored-terrain) ranger class
+feature. At 6th level and every 4 levels thereafter, the commando can pick an additional favored
+terrain.
 
-**Replaces:** Slinger's luck deed
+This replaces nimble.
 
-**Favored Terrain (Ex)**
+## Track (Ex) {#track}
 
-**Ability:** A commando gains the [favored terrain](ref/ability/favored-terrain) ranger class
-feature.
+At 4th level, a commando adds half her level on Survival checks to follow tracks.
 
-**At 10th Level:** She can pick a third favored terrain.
+This replaces the bonus feat gained at 4th level.
 
-**At 14th Level:** A commando can pick a fourth favored terrain.
+## Trapsmith {#trapsmith}
 
-**At 18th Level:** The commando can select a fifth favored terrain.
-
-**At 6th Level:** The commando can select a second favored terrain.
-
-**Gained:** At 2nd Level
-
-**Replaces:** Nimble
-
-**Track (Ex)**
-
-**Gained:** At 4th Level
-
-**Passive:** A commando adds half her level on Survival checks to follow tracks.
-
-**Replaces:** The bonus feat gained at 4th level
-
-**Trapsmith**
-
-**Ability:** A commando can learn how to create one ranger trap in place of gaining the next level
+At 5th level, a commando can learn how to create one ranger trap in place of gaining the next level
 of gun training. A commando can use a known trap a number of times per day equal to her Wisdom bonus
 (minimum 1). The DC for a commando's trap is equal to 10 + half her commando level + her Wisdom
 bonus, and it lasts 1 day per 2 levels she has.
 
-**Alters:** Gun training
+A commando can set only extraordinary ranger traps with this ability; as with extraordinary ranger
+traps, the trap DC for these traps has a -2 penalty.
 
-**Gained:** At 5th Level
-
-**Special:** A commando can set only extraordinary ranger traps with this ability; as with
-extraordinary ranger traps, the trap DC for these traps has a -2 penalty.
+This alters gun training.

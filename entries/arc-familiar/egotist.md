@@ -12,58 +12,54 @@ page = "210"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "song-of-myself" },
+  { anchor = "order-master" },
+  { anchor = "receive-touch-spells", level = 5 },
+  { anchor = "scry-on-master", level = 11 },
+]
 trades = [
-  { replaces = "Deliver touch spells" },
-  { replaces = "Scry on familiar" },
-  { alters = "Alertness" },
-  { alters = "the variable familiar bonus" },
-  { alters = "Speak with master" },
+  { replaces = "Deliver touch spells", by = ["receive-touch-spells"] },
+  { replaces = "Scry on familiar", by = ["scry-on-master"] },
+  { alters = "Alertness", by = ["song-of-myself"] },
+  { alters = "the variable familiar bonus", by = ["song-of-myself"] },
+  { alters = "Speak with master", by = ["order-master"] },
 ]
 +++
 
-An egotist believes itself to be the real master in the relationship - the power behind the throne.
-It often attempts to communicate "orders" for its master as best it can, interfering in matters
-ranging from spell choices and tactical combat decisions to its master's love life.
+An egotist believes itself to be the real master in the relationship—the power behind the throne. It
+often attempts to communicate "orders" for its master as best it can, interfering in matters ranging
+from spell choices and tactical combat decisions to its master's love life.
 
-**Gained class skills:** intm
+## Egotist Skills {#egotist-skills}
 
-**Song of Myself (Ex)**
+An egotist treats Intimidate as a class skill.
 
-**Alters:** Alertness, the variable familiar bonus
+## Song of Myself (Ex) {#song-of-myself}
 
-**Passive:** An egotist gains [Alertness](ref/feat/alertness) as a bonus feat rather than providing
-that feat to its master. It gains the variable familiar bonus (such as the
-[bat's](ref/monster/familiar-bat) +3 bonus on Fly checks) instead of granting the bonus to its
-master.
+An egotist gains [Alertness](ref/feat/alertness) as a bonus feat rather than providing that feat to
+its master. It gains the variable familiar bonus (such as the [bat's](ref/monster/familiar-bat) +3
+bonus on Fly checks) instead of granting the bonus to its master.
 
-**Order Master (Ex)**
+This alters alertness and the variable familiar bonus.
 
-**Alters:** Speak with master
+## Order Master (Ex) {#order-master}
 
-**Gained:** At 3rd Level
+An egotist gains speak with master at 3rd level instead of 5th level.
 
-**Passive:** An egotist gains speak with master at 3rd level instead of 5th level.
+This alters speak with master.
 
-**Receive Touch Spells (Ex)**
+## Receive Touch Spells (Ex) {#receive-touch-spells}
 
-**Gained:** At 5th Level
+At 5th level, an egotist can demand a particular touch spell as a standard action. If it does so,
+until the egotist's next turn, its master can cast that spell on the egotist once as a ranged touch
+within close range, as if using [Reach Spell](ref/feat/reach-spell).
 
-**Replaces:** Deliver touch spells
+This replaces deliver touch spells.
 
-**Special:** If it does so, until the egotist's next turn, its master can cast that spell on the
-egotist once as a ranged touch within close range, as if using [Reach Spell](ref/feat/reach-spell).
+## Scry on Master (Sp) {#scry-on-master}
 
-**Standard:** An egotist can demand a particular touch spell.
+At 11th level, an egotist can scry on its master (as if casting the _[scrying](ref/spell/scrying)_
+spell) once per day.
 
-**Scry on Master (Sp)**
-
-**Ability:** At 11th level, an egotist can scry on its master (as if casting the
-[scrying](ref/spell/scrying) spell).
-
-**Gained:** At 11th Level
-
-**Replaces:** Scry on familiar
-
-**Usage:** Once a day.
-
-**Usage:** Once a day.
+This replaces scry on familiar.

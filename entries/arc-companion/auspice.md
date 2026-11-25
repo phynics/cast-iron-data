@@ -12,41 +12,41 @@ page = "187"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "aligned" },
+  { anchor = "auspicious-boon", level = 1 },
+  { anchor = "aligned-strike", level = 15 },
+]
 trades = [
-  { replaces = "Share Spells" },
-  { replaces = "Evasion" },
-  { replaces = "Improved Evasion" },
+  { replaces = "Share Spells", by = ["auspicious-boon"] },
+  { replaces = "Evasion", by = ["auspicious-boon"] },
+  { replaces = "Improved Evasion", by = ["aligned-strike"] },
 ]
 +++
 
 Auspices were born with a birthmark or other feature that seems to be in the shape of their master's
 deity's holy symbol; they are usually animal sacred to that deity's religion.
 
-**Aligned (Ex)**
+## Aligned (Ex) {#aligned}
 
-**Passive:** Even though an auspice is an animal, its connection to its associated deity allows it
-to be chaotic neutral, lawful neutral, neutral evil, or neutral good, whichever is closest to the
-deity's alignment, or it can remain true neutral.
+Even though an auspice is an animal, its connection to its associated deity allows it to be chaotic
+neutral, lawful neutral, neutral evil, or neutral good, whichever is closest to the deity's
+alignment, or it can remain true neutral.
 
-**Auspicious Boon (Sp, Su)**
+## Auspicious Boon (Sp, Su) {#auspicious-boon}
 
-**Fullround:** The auspice can cast [guidance](ref/spell/guidance) as a
-[spell-like ability](ref/umr/spell-like-abilities) at will.
+At 1st level, the auspice can cast _[guidance](ref/spell/guidance)_ as a
+[spell-like ability](ref/umr/spell-like-abilities) at will as a full-round action. At 3rd level, the
+auspice can access a spark of its associated deity's favor. Choose one of that deity's domains that
+grants a 1st-level domain power usable a number of times per day equal to 3 + the user's Wisdom
+modifier. The auspice can use that power once per day.
 
-**At 3rd Level:** The auspice can access a spark of its associated deity's favor. Choose one of that
-deity's domains that grants a 1st-level domain power usable a number of times per day equal to 3 +
-the user's Wisdom modifier. The auspice can use that power once per day.
+This replaces share spells and evasion.
 
-**Gained:** At 1st Level
+## Aligned Strike (Ex) {#aligned-strike}
 
-**Replaces:** Share Spells, Evasion
-
-**Aligned Strike (Ex)**
-
-**Gained:** At 15th Level
-
-**Passive:** An auspice's attacks count as chaotic, evil, good, or lawful (whichever matches its
+At 15th level, an auspice's attacks count as chaotic, evil, good, or lawful (whichever matches its
 alignment) for the purpose of overcoming [damage reduction](ref/rule/damage-reduction), unless the
 auspice is true neutral.
 
-**Replaces:** Improved Evasion
+This replaces improved evasion.

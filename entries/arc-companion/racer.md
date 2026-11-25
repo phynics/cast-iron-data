@@ -15,38 +15,36 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "fast-movement" },
+  { anchor = "sprint", level = 6 },
+]
 trades = [
-  { replaces = "Share Spells" },
-  { replaces = "Devotion" },
+  { replaces = "Share Spells", by = ["fast-movement"] },
+  { replaces = "Devotion", by = ["sprint"] },
 ]
 +++
 
 Some companions have uncanny speed, providing their masters with swift transport.
 
-**Racer Feats**
+## Racer Feats {#racer-feats}
 
-**Passive:** In addition to the standard feats available to animal companions, a racer can select
+In addition to the standard feats available to animal companions, a racer can select
 [Acrobatic Steps](ref/feat/acrobatic-steps), [Charge Through](ref/feat/charge-through),
 [Improved Lightning Reflexes](ref/feat/improved-lightning-reflexes),
 [Lightning Stance](ref/feat/lightning-stance), [Nimble Moves](ref/feat/nimble-moves), and
 [Wind Stance](ref/feat/wind-stance).
 
-**Fast Movement (Ex)**
+## Fast Movement (Ex) {#fast-movement}
 
-**Passive:** A racer's speed is 10 feet greater than that of typical animals of its kind when it is
-wearing no armor and carrying a light load.
+A racer's speed is 10 feet greater than that of typical animals of its kind when it is wearing no
+armor and carrying a light load.
 
-**Replaces:** Share Spells
+This replaces share spells.
 
-**Sprint (Ex)**
+## Sprint (Ex) {#sprint}
 
-**Ability:** A racer can move at 10 times its normal speed when it makes a [charge](ref/rule/charge)
-or uses the [run](ref/rule/run) action.
+At 6th level, once per hour a racer can move at 10 times its normal speed when it makes a
+[charge](ref/rule/charge) or uses the [run](ref/rule/run) action.
 
-**Gained:** At 6th Level
-
-**Replaces:** Devotion
-
-**Usage:** Once per hour.
-
-**Usage:** Once per hour.
+This replaces devotion.

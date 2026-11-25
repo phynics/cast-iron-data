@@ -16,11 +16,18 @@ page = "74"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "scion-s-faith" },
+  { anchor = "egalitarian", level = 2 },
+  { anchor = "bonded-eagle", level = 5 },
+  { anchor = "consensus", level = 8 },
+  { anchor = "talmandor-s-gift", level = 11 },
+]
 trades = [
-  { replaces = "Divine bond", feature = "divine-bond" },
-  { replaces = "Aura of resolve", feature = "aura-of-resolve" },
-  { replaces = "Aura of justice", feature = "aura-of-justice" },
-  { alters = "Divine grace", feature = "divine-grace" },
+  { replaces = "Divine bond", feature = "divine-bond", by = ["bonded-eagle"] },
+  { replaces = "Aura of resolve", feature = "aura-of-resolve", by = ["consensus"] },
+  { replaces = "Aura of justice", feature = "aura-of-justice", by = ["talmandor-s-gift"] },
+  { alters = "Divine grace", feature = "divine-grace", by = ["egalitarian"] },
 ]
 +++
 
@@ -40,61 +47,49 @@ communities both at home and abroad. Wherever possible, a scion of Talmandor opt
 grassroots solutions to problems facing the many oppressed peoples of the Inner Sea region,
 encouraging them to take a central role in bettering their lot in life.
 
-**Gained class skills:** fly
+## Scion's Faith (Ex) {#scion-s-faith}
 
-**Lost class skills:** ride
+A scion of Talmandor must worship a lawful good deity, and she gains Fly as a class skill instead of
+Ride.
 
-**Scion's Faith (Ex)**
+This alters class skills.
 
-**Info:** A scion of Talmandor must worship a lawful good deity.
+## Egalitarian (Su) {#egalitarian}
 
-**Egalitarian (Su)**
+At 2nd level, once per day as a swift action, a scion of Talmandor can halve her bonus on saving
+throws from divine grace (minimum +1) to grant the resulting bonus to herself and to all allies
+within 30 feet. This shared bonus lasts for a number of rounds equal to the scion's Charisma
+modifier, after which her divine grace is suppressed for 1 hour before returning to normal.
 
-**Alters:** Divine grace
+This ability alters divine grace.
 
-**Gained:** At 2nd Level
+## Bonded Eagle (Sp) {#bonded-eagle}
 
-**Swift:** Once per day, a scion of Talmandor can halve her bonus on saving throws from _divine
-grace_ (minimum +1) to grant the resulting bonus to herself and to all allies within 30 feet. This
-shared bonus lasts for a number of rounds equal to the scion's Charisma modifier, after which her
-_divine grace_ is suppressed for 1 hour before returning to normal.
-
-**Bonded Eagle (Sp)**
-
-**Ability:** A scion of Talmandor forms a bond with an [eagle](ref/companion/bird) using the
+At 5th level, a scion of Talmandor forms a bond with an [eagle](ref/companion/bird) using the
 statistics for a bird [animal companion](ref/sidekick/animal-companion). The eagle is a loyal
-companion that accompanies the scion on her adventures.
+companion that accompanies the scion on her adventures. When the scion activates smite evil, she can
+expend an additional use of smite evil to grant her eagle the bonuses granted from smite evil as
+well. This ability functions like the druid animal companion ability, using the scion's paladin
+level as her effective druid level.
 
-**Ability2:** When the scion activates _smite evil,_ she can expend an additional use of _smite
-evil_ to grant her eagle the bonuses granted from _smite evil_ as well.
+This ability replaces divine bond.
 
-**Gained:** At 5th Level
+## Consensus (Ex) {#consensus}
 
-**Replaces:** Divine bond
+At 8th level, twice per day as a swift action during the first full round of combat, a scion of
+Talmandor can take a vote from a number of allies equal to or less than 3 + the scion's Charisma
+modifier, all of whom must be within 30 feet of the scion of Talmandor. In initiative order, each
+ally can vote for Freedom, Justice, or Responsibility. Allies who vote receive a +2 sacred bonus
+either on attack rolls (if Justice wins), on saving throws (if Freedom wins), or to Armor Class (if
+Responsibility wins) until the end of combat. The scion of Talmandor votes last, and in the case of
+a tie, her vote breaks the tie.
 
-**Special:** This ability functions like the druid animal companion ability, using the scion's
-paladin level as her effective druid level.
+This ability replaces aura of resolve.
 
-**Consensus (Ex)**
+## Talmandor's Gift (Sp) {#talmandor-s-gift}
 
-**Gained:** At 8th Level
-
-**Replaces:** Aura of resolve
-
-**Swift:** Twice per day, during the first full round of combat, a scion of Talmandor can take a
-vote from a number of allies equal to or less than 3 + the scion's Charisma modifier, all of whom
-must be within 30 feet of the scion of Talmandor. In initiative order, each ally can vote for
-Freedom, Justice, or Responsibility. Allies who vote receive a +2 sacred bonus either on attack
-rolls (if Justice wins), on saving throws (if Freedom wins), or to Armor Class (if Responsibility
-wins) until the end of combat. The scion of Talmandor votes last, and in the case of a tie, her vote
-breaks the tie.
-
-**Talmandor's Gift (Sp)**
-
-**Ability:** A scion of Talmandor can summon an [avoral agathion](ref/monster/agathion-avoral) as if
-via [summon monster VII](ref/spell/summon-monster-7) (caster level equals the scion's character
+At 11th level, a scion of Talmandor can summon an [avoral agathion](ref/monster/agathion-avoral) as
+if via _[summon monster VII](ref/spell/summon-monster-7)_ (caster level equals the scion's character
 level).
 
-**Gained:** At 11th Level
-
-**Replaces:** Aura of justice
+This ability replaces aura of justice.

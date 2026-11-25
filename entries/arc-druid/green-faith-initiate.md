@@ -19,12 +19,19 @@ page = "10"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "mediator-s-ear" },
+  { anchor = "zephyr-message", level = 6 },
+  { anchor = "path-to-refuge", level = 9 },
+  { anchor = "secrets-across-lifetimes", level = 10 },
+  { anchor = "a-thousand-voices", level = 13 },
+]
 trades = [
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "Daily use of wild shape gained at 6th level", feature = "wild-shape", levels = [6] },
-  { replaces = "Venom immunity", feature = "venom-immunity" },
-  { replaces = "Daily use of wild shape gained at 10th level", feature = "wild-shape", levels = [10] },
-  { replaces = "A thousand faces", feature = "a-thousand-faces" },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["mediator-s-ear"] },
+  { replaces = "The druid's additional daily use of wild shape gained at 6th level", feature = "wild-shape", levels = [6], by = ["zephyr-message"] },
+  { replaces = "Venom immunity", feature = "venom-immunity", by = ["path-to-refuge"] },
+  { replaces = "The druid's additional daily use of wild shape gained at 10th level", feature = "wild-shape", levels = [10], by = ["secrets-across-lifetimes"] },
+  { replaces = "A thousand faces", feature = "a-thousand-faces", by = ["a-thousand-voices"] },
 ]
 +++
 
@@ -32,63 +39,48 @@ Druids who are initiated into the magic of nature as strict students of the
 [Green Faith's](ref/faith/green-faith) traditions sometimes demonstrate abilities unique to their
 organization.
 
-**Mediator's Ear (Ex)**
+## Mediator's Ear (Ex) {#mediator-s-ear}
 
-**Gained:** At 3rd Level
-
-**Passive:** A Green Faith initiate is respected for her neutrality and even-handed attitude toward
+By 3rd level, a Green Faith initiate is respected for her neutrality and even-handed attitude toward
 all people as well as other living things. She quickly develops a sense of other peoples' attitudes,
 much as she does with animals. A Green Faith initiate gains a bonus on Diplomacy and Sense Motive
 checks equal to [half](ref/misc/fractions-and-rounding) her druid level.
 
-**Replaces:** Trackless step
+This replaces trackless step.
 
-**Zephyr Message (Sp)**
+## Zephyr Message (Sp) {#zephyr-message}
 
-**Ability:** Once per day, a Green Faith initiate can cast
-[whispering wind](ref/spell/whispering-wind) as a
+At 6th level, once per day, a Green Faith initiate can cast
+_[whispering wind](ref/spell/whispering-wind)_ as a
 [spell-like ability](ref/umr/spell-like-abilities), treating her druid level as her caster level.
 
-**Gained:** At 6th Level
+This replaces the druid's additional daily use of wild shape gained at 6th level.
 
-**Replaces:** Daily use of _wild shape_ gained at 6th level
+## Path to Refuge (Sp) {#path-to-refuge}
 
-**Path to Refuge (Sp)**
-
-**Ability:** Once per day, a Green Faith initiate can travel as if with
-[transport via plants](ref/spell/transport-via-plants) to any major Green Faith druid circle or
+At 9th level, once per day, a Green Faith initiate can travel as if with
+_[transport via plants](ref/spell/transport-via-plants)_ to any major Green Faith druid circle or
 important holy site. Each of these sites is marked with special standing stones that allow all Green
-Faith followers within range using _[transport via plants](ref/spell/transport-via-plants)_ or
-[tree stride](ref/spell/tree-stride) to sense their distance from it and the direction to it.
+Faith followers within range using _[transport via plants](ref/spell/transport-via-plants)_ or _tree
+strid_e to sense their distance from it and the direction to it. At 14th level and again at 19th
+level, she can use this ability one additional time per day.
 
-**At 14th Level:** She can use this ability twice a day.
+This replaces venom immunity.
 
-**At 19th Level:** She can use this ability three times a day.
+## Secrets across Lifetimes (Sp) {#secrets-across-lifetimes}
 
-**Gained:** At 9th Level
-
-**Replaces:** Venom immunity
-
-**Secrets across Lifetimes (Sp)**
-
-**Ability:** A Green Faith initiate can use [legend lore](ref/spell/legend-lore) once per week as a
-[spell-like ability](ref/umr/spell-like-abilities), drawing upon the knowledge of Green Faith
+At 10th level, a Green Faith initiate can use _[legend lore](ref/spell/legend-lore)_ once per week
+as a [spell-like ability](ref/umr/spell-like-abilities), drawing upon the knowledge of Green Faith
 archdruids recorded in secret across the generations in places where magic such as this can retrieve
 it. This ability does not require material components.
 
-**Gained:** At 10th Level
+This replaces the druid's additional daily use of wild shape gained at 10th level.
 
-**Replaces:** Daily use of _wild shape_ gained at 10th level
+## A Thousand Voices (Su) {#a-thousand-voices}
 
-**A Thousand Voices (Su)**
+At 13th level, a Green Faith initiate can communicate with any creature that has a language or with
+any stone, as if using _[tongues](ref/spell/tongues)_ or _[stone tell](ref/spell/stone-tell)_,
+respectively, for up to 1 minute per druid level each day. This duration does not need to be
+consecutive, but it must be spent in 1-minute increments.
 
-**Ability:** A Green Faith initiate can communicate with any creature that has a language or with
-any stone, as if using [tongues](ref/spell/tongues) or [stone tell](ref/spell/stone-tell),
-respectively.
-
-**Gained:** At 13th Level
-
-**Replaces:** A thousand faces
-
-**Usage:** 1 minute/day per druid level; these minutes need not be consecutive, but must be spent in
-1-minute increments
+This replaces a thousand faces.

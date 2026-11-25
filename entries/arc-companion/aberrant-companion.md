@@ -12,46 +12,50 @@ page = "186"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "not-quite-animal" },
+  { anchor = "aberrant-sight" },
+  { anchor = "alien-mind", level = 6 },
+  { anchor = "fluid-bones", level = 9 },
+]
 trades = [
-  { replaces = "Share Spells" },
-  { replaces = "Devotion" },
-  { replaces = "Multiattack" },
-  { replaces = "The +2 natural armor increase at 9th level" },
+  { replaces = "Share Spells", by = ["aberrant-sight"] },
+  { replaces = "Devotion", by = ["alien-mind"] },
+  { replaces = "Multiattack", by = ["fluid-bones"] },
+  { replaces = "The +2 natural armor increase at 9th level", by = ["fluid-bones"] },
 ]
 +++
 
-There's something oddly wrong about aberrant companions. Though they're touched by eldritch magic or
-mutated by strange influences, they are still loyal, if unnatural, allies.
+There's something oddly wrong about aberrant companions. Yet though they're touched by eldritch
+magic or mutated by strange influences, they are still loyal, if unnatural, allies.
 
-**Gained class skills:** ea, intm
+## Aberrant Skills {#aberrant-skills}
 
-**Not Quite Animal**
+Aberrant companions treat Escape Artist and Intimidate as class skills.
 
-**Passive:** The DC to use Handle Animal on an aberrant companion is 5 higher, as if it were a
-nonanimal with an Intelligence score of 1 or 2.
+## Not Quite Animal {#not-quite-animal}
 
-**Aberrant Sight (Ex)**
+The DC to use Handle Animal on an aberrant companion is 5 higher, as if it were a nonanimal with an
+Intelligence score of 1 or 2.
 
-**Passive:** An aberrant companion gains [darkvision](ref/rule/darkvision) with a range of 60 feet.
+## Aberrant Sight (Ex) {#aberrant-sight}
 
-**Replaces:** Share Spells
+An aberrant companion gains [darkvision](ref/rule/darkvision) with a range of 60 feet.
 
-**Alien Mind (Ex)**
+This replaces share spells.
 
-**Gained:** At 6th Level
+## Alien Mind (Ex) {#alien-mind}
 
-**Passive:** An aberrant companion is immune to mind-affecting effects that specifically target
-animals, such as [charm animal](ref/spell/charm-animal). Anyone who attempts to use such an effect
+At 6th level, an aberrant companion is immune to mind-affecting effects that specifically target
+animals, such as _[charm animal](ref/spell/charm-animal)_. Anyone who attempts to use such an effect
 against it takes 1d4 points of [Wisdom damage](ref/rule/ability-damage-drain) (Will DC 20 half).
 
-**Replaces:** Devotion
+This replaces devotion.
 
-**Fluid Bones (Ex)**
+## Fluid Bones (Ex) {#fluid-bones}
 
-**Gained:** At 9th Level
-
-**Passive:** An aberrant companion gains [compression](ref/umr/compression) as per the universal
+At 9th level, an aberrant companion gains [compression](ref/umr/compression) as per the universal
 monster rule, though it can use the ability while carrying a rider only if the rider has
 compression.
 
-**Replaces:** Multiattack, The +2 natural armor increase at 9th level
+This replaces Multiattack and the +2 natural armor increase at 9th level.

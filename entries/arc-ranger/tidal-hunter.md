@@ -16,61 +16,60 @@ page = "73"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "waterborn", level = 1 },
+  { anchor = "keen-scent", level = 1 },
+  { anchor = "aquatic-mastery", level = 3 },
+  { anchor = "wave-rush", level = 7 },
+  { anchor = "tidal-surge", level = 16 },
+]
 trades = [
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "6th-level combat style feat", feature = "combat-style-feat", levels = [6] },
-  { replaces = "Track", feature = "track" },
-  { replaces = "camouflage", feature = "camouflage" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Improved evasion", feature = "improved-evasion" },
-  { alters = "Favored terrain", feature = "favored-terrain" },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["waterborn"] },
+  { replaces = "6th-level combat style feat", feature = "combat-style-feat", levels = [6], by = ["waterborn"] },
+  { replaces = "Track", feature = "track", by = ["keen-scent"] },
+  { replaces = "camouflage", feature = "camouflage", by = ["keen-scent"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["wave-rush"] },
+  { replaces = "Improved evasion", feature = "improved-evasion", by = ["tidal-surge"] },
+  { alters = "Favored terrain", feature = "favored-terrain", by = ["aquatic-mastery"] },
 ]
 +++
 
 The tidal hunter draws strength from the fish and other wildlife of the deep.
 
-**Waterborn (Su)**
+## Waterborn (Su) {#waterborn}
 
-**Ability:** A tidal hunter can breathe water for up to 10 minutes per ranger level each day.
+A tidal hunter can breathe water for up to 10 minutes per ranger level each day. At 6th level, he
+can breathe underwater indefinitely.
 
-**At 6th Level:** He can breathe underwater indefinitely.
+This replaces wild empathy and the 6th-level combat style feat.
 
-**Replaces:** Wild empathy, 6th-level combat style feat
+## Keen Scent (Ex) {#keen-scent}
 
-**Keen Scent (Ex)**
+A tidal hunter gains [scent](ref/umr/scent), as per the universal monster rule. At 12th level, while
+in water, the tidal hunter can detect particularly strong or distinct odors (such as blood) up to 1
+mile away.
 
-**Ability:** A tidal hunter gains [scent](ref/umr/scent) as per the universal monster rule.
+This replaces track and camouflage.
 
-**At 12th Level:** While in water, the tidal hunter can detect particularly strong or distinct odors
-(such as blood) up to 1 mile away.
+## Aquatic Mastery (Ex) {#aquatic-mastery}
 
-**Replaces:** Track, camouflage
+At 3rd level, a tidal hunter must select water as his favored terrain, and he doesn't gain
+additional favored terrains. At 8th level and every 5 levels thereafter, the bonus from this favored
+terrain increases by 2.
 
-**Aquatic Mastery (Ex)**
+This alters favored terrain.
 
-**Alters:** Favored terrain
+## Wave Rush (Ex) {#wave-rush}
 
-**At 3rd Level:** A tidal hunter must select water as his _favored terrain,_ and he doesn't gain
-additional _favored terrains._
-
-**Repeat:** The bonus from this _favored terrain_ increases by 2., 8, 5
-
-**Wave Rush (Ex)**
-
-**Ability:** A tidal hunter gains a swim speed equal to his base speed. If he already has a swim
+At 7th level, a tidal hunter gains a swim speed equal to his base speed. If he already has a swim
 speed, it increases by 10 feet.
 
-**Gained:** At 7th Level
+This replaces woodland stride.
 
-**Replaces:** Woodland stride
+## Tidal Surge (Sp) {#tidal-surge}
 
-**Tidal Surge (Sp)**
-
-**Ability:** Once per day, he can cast [tidal surge](ref/spell/tidal-surge) as a
+At 16th level, a tidal hunter gains control over water, and he can use the tides to attack his foes.
+Once per day, he can cast _[tidal surge](ref/spell/tidal-surge)_ (see page 237) as a
 [spell-like ability](ref/umr/spell-like-abilities).
 
-**Flavor:** A tidal hunter gains control over water, and he can use the tides to attack his foes.
-
-**Gained:** At 16th Level
-
-**Replaces:** Improved evasion
+This replaces improved evasion.

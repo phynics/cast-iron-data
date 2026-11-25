@@ -16,113 +16,79 @@ page = "64"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "claws", level = 1 },
+  { anchor = "wild-flurry" },
+  { anchor = "rebuking-strike", level = 1 },
+]
 trades = [
   { replaces = "Weapon and armor proficiency", feature = "weapon-and-armor-proficiencies" },
-  { replaces = "Unarmed strike", feature = "unarmed-strike" },
-  { replaces = "ki strike", feature = "ki-pool", power = "ki strike" },
-  { replaces = "Stunning fist", feature = "stunning-fist" },
-  { replaces = "high jump", feature = "high-jump" },
-  { replaces = "quivering palm", feature = "quivering-palm" },
+  { replaces = "Unarmed strike", feature = "unarmed-strike", by = ["claws"] },
+  { replaces = "ki strike", feature = "ki-pool", power = "ki strike", by = ["claws"] },
+  { replaces = "Stunning fist", feature = "stunning-fist", by = ["rebuking-strike"] },
+  { replaces = "high jump", feature = "high-jump", by = ["rebuking-strike"] },
+  { replaces = "quivering palm", feature = "quivering-palm", by = ["rebuking-strike"] },
   { alters = "Alignment requirement" },
-  { alters = "Ki pool", feature = "ki-pool" },
-  { alters = "Furry of blows", feature = "flurry-of-blows" },
+  { alters = "Ki pool", feature = "ki-pool", by = ["claws"] },
+  { alters = "Furry of blows", feature = "flurry-of-blows", by = ["wild-flurry"] },
 ]
 +++
 
 Menhir guardians are ascetic protectors of sacred druidic sites, less concerned with structure and
 maintaining internal order than they are with preserving the natural balance of the world.
 
-**Alignment**
+## Alignment {#alignment}
 
-**Alters:** Alignment requirement
+A menhir guardian can be lawful neutral, neutral good, neutral evil, or neutral. While they can work
+with chaotic allies, they cannot themselves be chaotic.
 
-**Info:** A menhir guardian can be lawful neutral, neutral good, neutral evil, or neutral. While
-they can work with chaotic allies, they cannot themselves be chaotic.
+This alters the monk's alignment requirement.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Ability:** A menhir guardian is proficient with the [club](ref/eq-weapon/club),
-[dagger](ref/eq-weapon/dagger), [dart](ref/eq-weapon/dart),
-[quarterstaff](ref/eq-weapon/quarterstaff), [sickle](ref/eq-weapon/sickle),
-[shortspear](ref/eq-weapon/shortspear), [sling](ref/eq-weapon/sling), and
-[spear](ref/eq-weapon/spear). A menhir guardian can use these weapons in conjunction with his _wild
-flurry_ ability.
+A menhir guardian is proficient with the [club](ref/eq-weapon/club), [dagger](ref/eq-weapon/dagger),
+[dart](ref/eq-weapon/dart), [quarterstaff](ref/eq-weapon/quarterstaff),
+[sickle](ref/eq-weapon/sickle), [shortspear](ref/eq-weapon/shortspear),
+[sling](ref/eq-weapon/sling), and [spear](ref/eq-weapon/spear). A menhir guardian can use these
+weapons in conjunction with his wild flurry ability.
 
-**Replaces:** Weapon and armor proficiency
+This replaces the monk's weapon and armor proficiency.
 
-**Claws (Ex)**
+## Claws (Ex) {#claws}
 
-**Ability:** He gains the [shifter's](ref/class/shifter) _shifter claws_ class feature and treats
-his monk level as his shifter level for the purposes of this ability.
+A menhir guardian learns to draw upon natural forces to subtly change his body. He gains the
+[shifter's](ref/class/shifter) shifter claws class feature and treats his monk level as his shifter
+level for the purposes of this ability. The menhir guardian cannot use the ki strike aspect of ki
+pool.
 
-**Alters:** Ki pool
+This replaces unarmed strike and alters ki pool.
 
-**Flavor:** A menhir guardian learns to draw upon natural forces to subtly change his body.
+## Wild Flurry (Ex) {#wild-flurry}
 
-**Replaces:** Unarmed strike, ki strike
+A menhir guardian gains flurry of blows. He can use this ability with the natural attacks provided
+by his shifter claws ability or the weapons specified above under weapon and armor proficiency.
 
-**Shifter Claws (Su)**
+This alters furry of blows.
 
-**Flavor:** Text from the shifter class
+## Rebuking Strike (Ex) {#rebuking-strike}
 
-**At 11th Level:** Your claw damage becomes 1d8 (1d6 if Small).
+At 1st level, a menhir guardian can channel his ki into a devastating strike that repels his
+enemies. A menhir guardian must declare that he is using rebuking strike before making a
+[natural attack](ref/umr/natural-attacks) with his claws. On a hit, a foe damaged by the menhir
+guardian's claws must succeed at a Fortitude saving throw (DC = 10 + half the menhir guardian's
+level + his Wisdom modifier) or be pushed back 5 feet directly away from the menhir guardian, plus
+an additional 5 feet for every 4 levels the menhir guardian has beyond 1st. If this movement would
+be blocked by a solid object, the target of rebuking strike takes 1d6 points of damage per 10 feet
+moved and falls [prone](ref/rule/prone) at the end of the movement.
 
-**At 17th Level:** Your claws' critical multiplier becomes ×3.
+At 5th level, a creature that fails its save against a menhir guardian's rebuking strike also has
+its speed reduced by half for a number of rounds equal to the menhir guardian's level.
 
-**At 19th Level:** Your claws ignore DR/adamantine and DR/-.
+At 15th level, a creature that fails its save is also affected by _[aversion](ref/spell/aversion)_,
+making it avoid the menhir guardian's current location for 1 round per level the menhir guardian
+has.
 
-**At 3rd Level:** Your claws ignore DR/cold iron, DR/magic, and DR/silver.
+The menhir guardian can attempt a rebuking strike a number of times per day equal to his monk level
+but only once per round.
 
-**At 7th Level:** Your claw damage becomes 1d6 (1d4 if Small).
-
-**Info:** The claws on each hand can be used as a primary [natural attack](ref/umr/natural-attacks),
-dealing 1d4 points of piercing and slashing damage (1d3 if you are Small). If you use one of your
-claw attacks in concert with a weapon held in the other hand, the claw acts as a secondary natural
-attack instead.
-
-**Swift:** In your natural form, you can extend your claws to use as a weapon.
-
-**Wild Flurry (Ex)**
-
-**Ability:** A menhir guardian gains _flurry of blows._ He can use this ability with the natural
-attacks provided by his _shifter claws_ ability or the weapons specified above under weapon and
-armor proficiency.
-
-**Alters:** Furry of blows
-
-**Rebuking Strike (Ex)**
-
-**Ability:** A menhir guardian must declare that he is using _rebuking strike_ before making a
-natural attack with his claws. On a hit, a foe damaged by the menhir guardian's claws must succeed
-at a Fortitude saving throw (DC = 10 + half the menhir guardian's level + his Wisdom modifier) or be
-pushed back 5 feet directly away from the menhir guardian.
-
-**Flavor:** A menhir guardian can channel his ki into a devastating strike that repels his enemies.
-
-**At 15th Level:** A pushed creature is also affected by [aversion](ref/spell/aversion), making it
-avoid the menhir guardian's current location for 1 round per level the menhir guardian has.
-
-**At 5th Level:** A creature pushed also has its speed reduced by half for a number of rounds equal
-to the menhir guardian's level.
-
-**Gained:** At 1st Level
-
-**Replaces:** Stunning fist, high jump, quivering palm
-
-**Special:** If this movement would be blocked by a solid object, the target of _rebuking strike_
-takes 1d6 points of damage per 10 feet moved and falls [prone](ref/rule/prone) at the end of the
-movement.
-
-**Usage:** The menhir guardian can attempt a _rebuking strike_ a number of times per day equal to
-his monk level, but only once per round.
-
-**Usage:** The menhir guardian can attempt a _rebuking strike_ a number of times per day equal to
-his monk level, but only once per round.
-
-At 5th level: The distance the foe is pushed 10 feet.
-
-At 9th level: The distance the foe is pushed 15 feet.
-
-At 13th level: The distance the foe is pushed 20 feet.
-
-At 17th level: The distance the foe is pushed 25 feet.
+This replaces stunning fist, high jump, and quivering palm.

@@ -15,66 +15,70 @@ page = "21"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "able-assistant" },
+  { anchor = "magical-manipulation" },
+  { anchor = "teammate" },
+  { anchor = "deliver-touch-spells", level = 3 },
+  { anchor = "deliver-aid", level = 7 },
+  { anchor = "aide-to-all", level = 13 },
+]
 trades = [
-  { replaces = "Alertness" },
-  { replaces = "Share spells" },
-  { replaces = "Improved evasion" },
-  { replaces = "Speak with animals of its kind" },
-  { replaces = "Scry on familiar" },
-  { alters = "Deliver touch spells" },
+  { replaces = "Alertness", by = ["able-assistant"] },
+  { replaces = "Share spells", by = ["magical-manipulation"] },
+  { replaces = "Improved evasion", by = ["teammate"] },
+  { replaces = "Speak with animals of its kind", by = ["deliver-aid"] },
+  { replaces = "Scry on familiar", by = ["aide-to-all"] },
+  { alters = "Deliver touch spells", by = ["deliver-touch-spells"] },
 ]
 +++
 
 A valet is a consummate personal servant, able to fetch, deliver, and perform for its master's every
 need.
 
-**Gained class skills:** craft, perf, prof
+## Valet Skills {#valet-skills}
 
-**Able Assistant (Ex)**
+A valet treats Craft, Perform, and Profession as class skills.
 
-**Passive:** A valet's master treats the valet as if it had the
+## Able Assistant (Ex) {#able-assistant}
+
+A valet's master treats the valet as if it had the
 [Cooperative Crafting](ref/feat/cooperative-crafting) feat and shares Craft skills and item creation
 feats with the valet.
 
-**Replaces:** Alertness
+This replaces alertness.
 
-**Magical Manipulation (Sp)**
+## Magical Manipulation (Sp) {#magical-manipulation}
 
-**Replaces:** Share spells
+A valet can cast _[open/close](ref/spell/open-close)_ and
+_[prestidigitation](ref/spell/prestidigitation)_ at will.
 
-**Standard:** A valet can cast [open/close](ref/spell/open-close) and
-[prestidigitation](ref/spell/prestidigitation) at will.
+This replaces share spells.
 
-**Teammate (Ex)**
+## Teammate (Ex) {#teammate}
 
-**Passive:** A valet is considered to have all the teamwork feats its master has.
+A valet is considered to have all the teamwork feats its master has.
 
-**Replaces:** Improved evasion
+This replaces improved evasion.
 
-**Deliver Touch Spells (Su)**
+## Deliver Touch Spells (Su) {#deliver-touch-spells}
 
-**Alters:** Deliver touch spells
-
-**Gained:** At 3rd Level
-
-**Passive:** When delivering a harmless touch spell to a willing creature, a valet can move before
+At 3rd level, when delivering a harmless touch spell to a willing creature, a valet can move before
 and after delivering the spell, as long as its total movement does not exceed its speed.
 
-**Deliver Aid (Ex)**
+This alters deliver touch spells.
 
-**Gained:** At 7th Level
+## Deliver Aid (Ex) {#deliver-aid}
 
-**Passive:** A valet can move before and after using the aid another action, as long as its total
+At 7th level, a valet can move before and after using the aid another action, as long as its total
 movement does not exceed its speed.
 
-**Replaces:** Speak with animals of its kind
+This replaces speak with animals of its kind.
 
-**Aide to All (Ex)**
+## Aide to All (Ex) {#aide-to-all}
 
-**Fullround:** A valet can use the aid another action to grant up to three adjacent creatures
-bonuses from this action. Each bonus can apply to the same action or check or to different actions
-or checks.
+At 13th level, a valet can use the aid another action as a full-round action to grant up to three
+adjacent creatures bonuses from this action. Each bonus can apply to the same action or check or to
+different actions or checks.
 
-**Gained:** At 13th Level
-
-**Replaces:** Scry on familiar
+This replaces scry on familiar.

@@ -12,70 +12,74 @@ page = "212"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "autonomous-link" },
+  { anchor = "improved-dirty-trick" },
+  { anchor = "magical-pranks" },
+  { anchor = "glib-comedy", level = 3 },
+  { anchor = "greater-dirty-trick", level = 11 },
+  { anchor = "unreliable-narrator", level = 13 },
+]
 trades = [
-  { replaces = "Alertness" },
-  { replaces = "Improved evasion" },
-  { replaces = "share spells" },
-  { replaces = "Deliver touch spells" },
-  { replaces = "Spell resistance" },
-  { alters = "Empathic link" },
-  { alters = "Scry on familiar" },
+  { replaces = "Alertness", by = ["improved-dirty-trick"] },
+  { replaces = "Improved evasion", by = ["magical-pranks"] },
+  { replaces = "share spells", by = ["magical-pranks"] },
+  { replaces = "Deliver touch spells", by = ["glib-comedy"] },
+  { replaces = "Spell resistance", by = ["greater-dirty-trick"] },
+  { alters = "Empathic link", by = ["autonomous-link"] },
+  { alters = "Scry on familiar", by = ["unreliable-narrator"] },
 ]
 +++
 
 Some familiars love to perform pranks on their unsuspecting masters, as well as on those around
-their masters - allies and enemies alike. While good-aligned pranksters' tricks are usually good
+their masters—allies and enemies alike. While good-aligned pranksters' tricks are usually good
 natured except against foes, evil pranksters play tricks that are mean spirited or even downright
 cruel.
 
-**Gained class skills:** bluff, dis, [Perform (comedy)](ref/skill/perform-any) (CHA), soh
+## Prankster Skills {#prankster-skills}
 
-**Autonomous Link (Ex)**
+A prankster treats Bluff, Disguise, Perform (comedy), and Sleight of Hand as class skills.
 
-**Ability:** A prankster can hide its feelings from its master via its _empathic link_ at will. It
-can also try to project a false emotion through the link by attempting a Bluff check opposed by its
-master's Sense Motive.
+## Autonomous Link (Ex) {#autonomous-link}
 
-**Alters:** Empathic link
+A prankster can hide its feelings from its master via its empathic link at will. It can also try to
+project a false emotion through the link by attempting a Bluff check opposed by its master's Sense
+Motive.
 
-**Improved Dirty Trick (Ex)**
+This alters empathic link.
 
-**Passive:** A prankster gains [Improved Dirty Trick](ref/feat/improved-dirty-trick) as a bonus
-feat.
+## Improved Dirty Trick (Ex) {#improved-dirty-trick}
 
-**Replaces:** Alertness
+A prankster gains [Improved Dirty Trick](ref/feat/improved-dirty-trick) as a bonus feat.
 
-**Magical Pranks (Sp)**
+This replaces alertness.
 
-**Replaces:** Improved evasion, share spells
+## Magical Pranks (Sp) {#magical-pranks}
 
-**Standard:** A prankster can cast [ghost sound](ref/spell/ghost-sound),
-[mage hand](ref/spell/mage-hand), and [prestidigitation](ref/spell/prestidigitation) at will as
+A prankster can cast _[ghost sound](ref/spell/ghost-sound)_, _[mage hand](ref/spell/mage-hand)_, and
+_[prestidigitation](ref/spell/prestidigitation)_ at will as
 [spell-like abilities](ref/umr/spell-like-abilities).
 
-**Glib Comedy (Ex)**
+This replaces improved evasion and share spells.
 
-**Gained:** At 3rd Level
+## Glib Comedy (Ex) {#glib-comedy}
 
-**Passive:** A prankster gains a competence bonus equal to [half](ref/misc/fractions-and-rounding)
+At 3rd level, a prankster gains a competence bonus equal to [half](ref/misc/fractions-and-rounding)
 its master's class level on Bluff, Disguise, and Perform (comedy) checks.
 
-**Replaces:** Deliver touch spells
+This replaces deliver touch spells.
 
-**Greater Dirty Trick (Ex)**
+## Greater Dirty Trick (Ex) {#greater-dirty-trick}
 
-**Gained:** At 11th Level
+At 11th level, a prankster gains [Greater Dirty Trick](ref/feat/greater-dirty-trick) as a bonus
+feat.
 
-**Passive:** A prankster gains [Greater Dirty Trick](ref/feat/greater-dirty-trick) as a bonus feat.
+This replaces [spell resistance](ref/rule/spell-resistance).
 
-**Replaces:** [Spell resistance](ref/rule/spell-resistance)
+## Unreliable Narrator (Sp) {#unreliable-narrator}
 
-**Unreliable Narrator (Sp)**
+At 13th level, whenever its master uses scry on familiar, a prankster can use _false vision_ to fool
+that ability; this doesn't affect any other divination (_scrying_) effects in the area, only its
+master's scry on familiar ability.
 
-**Ability:** Whenever its master uses _scry on familiar,_ a prankster can use false vision to fool
-that ability; this doesn't affect any other divination (scrying) effects in the area, only its
-master's _scry on familiar_ ability.
-
-**Alters:** Scry on familiar
-
-**Gained:** At 13th Level
+This alters scry on familiar.

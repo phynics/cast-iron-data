@@ -15,46 +15,50 @@ page = "20"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "improved-steal" },
+  { anchor = "nondetection" },
+  { anchor = "sneak", level = 3 },
+  { anchor = "greater-steal", level = 9 },
+]
 trades = [
-  { replaces = "Alertness" },
-  { replaces = "Improved evasion" },
-  { replaces = "Deliver touch spells" },
-  { replaces = "Speak with animals of its kind" },
+  { replaces = "Alertness", by = ["improved-steal"] },
+  { replaces = "Improved evasion", by = ["nondetection"] },
+  { replaces = "Deliver touch spells", by = ["sneak"] },
+  { replaces = "Speak with animals of its kind", by = ["greater-steal"] },
 ]
 +++
 
 Some familiars are stealthy pilferers that perform tricks of thievery or simple spying on their
 master's behalf.
 
-**Gained class skills:** dd, ea, soh
+## Pilferer Skills {#pilferer-skills}
 
-**Improved Steal (Ex)**
+A pilferer treats Disable Device, Escape Artist, and Sleight of Hand as class skills.
 
-**Passive:** A pilferer gains [Improved Steal](ref/feat/improved-steal) as a bonus feat.
+## Improved Steal (Ex) {#improved-steal}
 
-**Replaces:** Alertness
+A pilferer gains [Improved Steal](ref/feat/improved-steal) as a bonus feat.
 
-**Nondetection (Su)**
+This replaces alertness.
 
-**Passive:** A pilferer is under the constant effect of [nondetection](ref/spell/nondetection) with
-a caster level equal to its master's class level. The DC of the caster level check to penetrate this
-nondetection effect is equal to 15 + the master's caster level.
+## Nondetection (Su) {#nondetection}
 
-**Replaces:** Improved evasion
+A pilferer is under the constant effect of _[nondetection](ref/spell/nondetection)_ with a caster
+level equal to its master's class level. The DC of the caster level check to penetrate this
+_nondetection_ effect is equal to 15 + the master's caster level.
 
-**Sneak (Ex)**
+This replaces improved evasion.
 
-**Gained:** At 3rd Level
+## Sneak (Ex) {#sneak}
 
-**Passive:** A pilferer gains a competence bonus equal to [half](ref/misc/fractions-and-rounding)
+At 3rd level, a pilferer gains a competence bonus equal to [half](ref/misc/fractions-and-rounding)
 its master's class level on Sleight of Hand and Stealth checks.
 
-**Replaces:** Deliver touch spells
+This replaces deliver touch spells.
 
-**Greater Steal (Ex)**
+## Greater Steal (Ex) {#greater-steal}
 
-**Gained:** At 9th Level
+At 9th level, a pilferer gains [Greater Steal](ref/feat/greater-steal) as a bonus feat.
 
-**Passive:** A pilferer gains [Greater Steal](ref/feat/greater-steal) as a bonus feat.
-
-**Replaces:** Speak with animals of its kind
+This replaces speak with animals of its kind.

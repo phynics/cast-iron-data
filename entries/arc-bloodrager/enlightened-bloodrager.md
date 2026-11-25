@@ -19,14 +19,20 @@ page = "16"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "enlightened-spellcasting", level = 1 },
+  { anchor = "enlightened-bloodrage", level = 4 },
+  { anchor = "bloodline-feat", level = 6 },
+  { anchor = "bloodline-powers", level = 8 },
+]
 trades = [
-  { replaces = "1st-level bloodline power", feature = "bloodline", levels = [1], power = "bloodline power" },
-  { replaces = "bloodline bonus spells", feature = "bloodline", power = "bloodline spell" },
-  { replaces = "The bloodline power gained at 4th level", feature = "bloodline", levels = [4], power = "bloodline power" },
-  { replaces = "Damage reduction the bloodrager gains at 7th, 13th, and 19th levels", feature = "damage-reduction", levels = [7, 13, 19] },
-  { alters = "Spellcasting", feature = "spells" },
-  { alters = "Bloodrage", feature = "bloodrage" },
-  { alters = "The bloodrager's bloodline powers", feature = "bloodline", power = "bloodline power" },
+  { replaces = "Bloodline power the bloodrager normally gains at 1st level", feature = "bloodline", levels = [1], power = "bloodline power", by = ["enlightened-spellcasting"] },
+  { replaces = "All bonus spells gained as part of a bloodline", feature = "bloodline", power = "bloodline spell", by = ["enlightened-spellcasting"] },
+  { replaces = "The bloodline power gained at 4th level", feature = "bloodline", levels = [4], power = "bloodline power", by = ["enlightened-bloodrage"] },
+  { replaces = "Damage reduction the bloodrager gains at 7th, 13th, and 19th levels", feature = "damage-reduction", levels = [7, 13, 19], by = ["bloodline-feat"] },
+  { alters = "Spellcasting", feature = "spells", by = ["enlightened-spellcasting"] },
+  { alters = "Bloodrage", feature = "bloodrage", by = ["enlightened-bloodrage"] },
+  { alters = "The bloodrager's bloodline powers", feature = "bloodline", power = "bloodline power", by = ["bloodline-powers"] },
 ]
 +++
 
@@ -48,70 +54,55 @@ demeanor, interpreting the enlightened bloodrager as a pawn of intellectuals or 
 her ancestry or traditions by abandoning emotion and wrath. As one can well expect, such
 confrontations rarely result in lasting friendships!
 
-**Enlightened Spellcasting**
+## Enlightened Spellcasting {#enlightened-spellcasting}
 
-**Ability:** At 8th level and every three levels thereafter, she can swap out these spells using the
-normal rules for swapping out a spell. If she chooses to swap out one of her bonus druid spells, she
-must replace it with a druid spell of the same level. Any swapped-out spells are removed from her
-bloodrager class spell list.
+An enlightened bloodrager's unusually sophisticated outlook on the relationship between magic and
+emotional outbursts allows her to cast an expanded array of spells. She gains the ability to know
+and cast 0-level spells, which are cast like any other spells, but don't consume spell slots and can
+be used again. At 4th level, she gains a number of 0-level spells known equal to those of a
+[bard](ref/class/bard) whose level is 3 lower than her bloodrager level. She selects these 0-level
+spells from the druid's list of 0-level spells.
 
-**Alters:** Spellcasting
+At 4th level, the enlightened bloodrager gains one 1st-level druid spell as a bonus spell known. At
+7th level, she gains one 2nd-level druid spell as a bonus spell known. At 10th level, she gains one
+3rd-level druid spell as a bonus spell known. At 13th level, she gains one 4th-level druid spell as
+a bonus spell known.
 
-**Flavor:** An enlightened bloodrager's unusually sophisticated outlook on the relationship between
-magic and emotional outbursts allows her to cast an expanded array of spells.
+The bloodrager treats any druid spells she takes with this ability as bloodrager spells for the
+purposes of other abilities, and adds them to her bloodrager class spell list. At 8th level and
+every 3 spell levels thereafter, she can swap out these spells using the normal rules for swapping
+out at a spell. If she chooses to swap out one of her bonus druid spells, she must replace it with a
+druid spell of the same level. Any swapped-out spells are removed from her bloodrager class spell
+list.
 
-**At 10th Level:** She gains one 3rd-level druid spell as a bonus spell known.
+This ability alters the bloodrager's spellcasting, and replaces the bloodline power the bloodrager
+normally gains at 1st level and all bonus spells gained as part of a bloodline.
 
-**At 13th Level:** She gains one 4th-level druid spell as a bonus spell known.
+## Enlightened Bloodrage (Su) {#enlightened-bloodrage}
 
-**At 4th Level:** She gains the ability to know and cast 0-level spells, which are cast like any
-other spells, but don't consume spell slots and can be used again. She gains a number of 0-level
-spells known equal to those of a [bard](ref/class/bard) whose level is 3 lower than her bloodrager
-level. She selects these 0-level spells from the druid's list of 0-level spells. She also gains one
-1st-level druid spell as a bonus spell known.
+At 4th level, while bloodraging, an enlightened bloodrager can still use Intelligence-, Dexterity-,
+and Charisma-based skills and can use abilities that require patience or concentration. This ability
+alters bloodrage and replaces the bloodline power gained at 4th level.
 
-**At 7th Level:** She gains one 2nd-level druid spell as a bonus spell known.
+## Bloodline Feat {#bloodline-feat}
 
-**Replaces:** 1st-level bloodline power, bloodline bonus spells
-
-**Special:** The bloodrager treats any druid spells she takes with this ability as bloodrager spells
-for the purposes of other abilities, and adds them to her bloodrager class spell list.
-
-**Enlightened Bloodrage (Su)**
-
-**Alters:** Bloodrage
-
-**Gained:** At 4th Level
-
-**Passive:** While _bloodraging,_ an enlightened bloodrager can still use Intelligence-, Dexterity-,
-and Charisma-based skills and can use abilities that require patience or concentration.
-
-**Replaces:** The bloodline power gained at 4th level
-
-**Bloodline Feat**
-
-**Ability:** An enlightened bloodrager adds [Expanded Arcana](ref/feat/expanded-arcana),
+At 6th level, an enlightened bloodrager adds [Expanded Arcana](ref/feat/expanded-arcana),
 [Nameless One](ref/feat/nameless-one), and all feats that list Nameless One as a prerequisite to the
 list of feats she can select as a bloodline feat.
 
-**Info:** The bloodrager gains DR 1/- at 10th level, and this increases to DR 2/- at 16th level.
+See pages 124–125 for details on this series of feats.
 
-**Gained:** At 6th Level
+This ability replaces the [damage reduction](ref/rule/damage-reduction) the bloodrager gains at 7th,
+13th, and 19th levels;
 
-**Replaces:** [Damage reduction](ref/rule/damage-reduction) the bloodrager gains at 7th, 13th, and
-19th levels
+the bloodrager gains DR 1/— at 10th level, and this increases to DR 2/— at 16th level.
 
-**Bloodline Powers**
+## Bloodline Powers {#bloodline-powers}
 
-**Alters:** The bloodrager's bloodline powers
+At 8th level, an enlightened bloodrager gains the bloodline power normally granted at 1st level. At
+12th level she gains the bloodline power normally granted at 4th level, at 16th level she gains the
+bloodline power normally granted at 8th level, and at 20th level she gains the bloodline power
+normally gained at 12th level. She still uses her full bloodrager level when making level-based
+calculations in regard to these abilities.
 
-**At 12th Level:** She gains the bloodline power normally granted at 4th level.
-
-**At 16th Level:** She gains the bloodline power normally granted at 8th level.
-
-**At 20th Level:** She gains the bloodline power normally gained at 12th level.
-
-**At 8th Level:** An enlightened bloodrager gains the bloodline power normally granted at 1st level.
-
-**Special:** She still uses her full bloodrager level when making level-based calculations in regard
-to these abilities.
+This alters the bloodrager's bloodline powers.

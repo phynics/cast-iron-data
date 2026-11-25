@@ -16,16 +16,24 @@ page = "32"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "extensive-collection", level = 1 },
+  { anchor = "split-focus" },
+  { anchor = "adaptable-powers", level = 3 },
+  { anchor = "relic-resistance", level = 4 },
+  { anchor = "complex-collection", level = 8 },
+  { anchor = "mental-catalog", level = 8 },
+]
 trades = [
-  { replaces = "One of the two occultist implements learned at 1st level", feature = "implements", levels = [1] },
-  { replaces = "6th- and 14th-level implements", feature = "implements", levels = [6, 14] },
-  { replaces = "3rd-level focus power", feature = "focus-powers", levels = [3] },
-  { replaces = "Shift focus", feature = "shift-focus" },
-  { replaces = "Outsider contact", feature = "outside-contact" },
-  { replaces = "Magic circles", feature = "magic-circles" },
-  { replaces = "binding circles", feature = "binding-circles" },
-  { replaces = "fast circles", feature = "fast-circles" },
-  { alters = "Mental focus", feature = "mental-focus" },
+  { replaces = "One of the two occultist implements learned at 1st level", feature = "implements", levels = [1], by = ["extensive-collection"] },
+  { replaces = "Implements learned at 6th level and 14th level", feature = "implements", levels = [6, 14], by = ["extensive-collection"] },
+  { replaces = "Focus power gained at 3rd level", feature = "focus-powers", levels = [3], by = ["adaptable-powers"] },
+  { replaces = "Shift focus", feature = "shift-focus", by = ["relic-resistance"] },
+  { replaces = "Outsider contact", feature = "outside-contact", by = ["complex-collection"] },
+  { replaces = "Magic circles", feature = "magic-circles", by = ["mental-catalog"] },
+  { replaces = "binding circles", feature = "binding-circles", by = ["mental-catalog"] },
+  { replaces = "fast circles", feature = "fast-circles", by = ["mental-catalog"] },
+  { alters = "Mental focus", feature = "mental-focus", by = ["split-focus"] },
 ]
 +++
 
@@ -43,83 +51,64 @@ Instead, the curator lives up to his name, and seeks to access the ancient power
 objects so that he can use them in the best interest of the Aspis Consortium. Over time, the
 Consortium has been forced to admit the wisdom in this way of thinking.
 
-**Extensive Collection (Su)**
+## Extensive Collection (Su) {#extensive-collection}
 
-**Ability:** A curator acquires a collection of esoteric relics that function as occultist
+At 1st level, a curator acquires a collection of esoteric relics that function as occultist
 implements associated with two schools of magic; he must select these schools and their associated
-spells when he gains this feature.
+spells when he gains this feature. As a move action, the curator can empower a single piece of his
+collection, choosing one of the two selected schools, gaining that school's focus power, and
+accessing the selected spells for 10 minutes. The curator can empower only a single relic at a time
+in this way, and activating this ability a second time ends any other relic's ongoing benefits. A
+curator's relic collection has a number of points of mental focus equal to his Intelligence
+modifier. Empowered relics are automatically invested with these mental focus points; expending a
+relic's mental focus reduces this total for the day. A curator can use this ability once per day. He
+can use it an additional time per day at 2nd level and every 4 levels thereafter. At 6th level and
+again at 14th level, a curator chooses two additional schools of magic—in addition to their
+spells—and adds them to his collection.
 
-**Gained:** At 1st Level
+This ability replaces one of the two occultist implements learned at 1st level as well as the
+implements learned at 6th level and 14th level.
 
-**Move:** Once a day, the curator can empower a single piece of his collection, choosing one of the
-two selected schools, gaining that school's focus power, and accessing the selected spells for 10
-minutes. The curator can empower only a single relic at a time in this way, and activating this
-ability a second time ends any other relic's ongoing benefits. A curator's relic collection has a
-number of points of mental focus equal to his Intelligence modifier. Empowered relics are
-automatically invested with these mental focus points; expending a relic's mental focus reduces this
-total for the day.
+## Split Focus (Su) {#split-focus}
 
-**Repeat:** A curator chooses two additional schools of magic - in addition to their spells - and
-adds them to his collection., 6, 8
+A curator has a number of points of mental focus equal to only his occultist level.
 
-**Replaces:** One of the two occultist implements learned at 1st level, 6th- and 14th-level
-implements
+This ability alters mental focus.
 
-**Split Focus (Su)**
+## Adaptable Powers (Su) {#adaptable-powers}
 
-**Alters:** Mental focus
+At 3rd level, a curator learns one focus power from each of the schools associated with his
+extensive collection. Whenever he activates his collection, he can use those focus powers associated
+with his selected school of magic while the relic remains empowered. Whenever the curator would
+learn another focus power for an implement, he can instead select two new focus powers from
+different schools associated with his extensive relic collection.
 
-**Info:** A curator has a number of points of mental focus equal to only his occultist level.
+This ability replaces the focus power gained at 3rd level.
 
-**Adaptable Powers (Su)**
+## Relic Resistance (Ex) {#relic-resistance}
 
-**Ability:** A curator learns one focus power from each of the schools associated with his extensive
-collection. Whenever he activates his collection, he can use those focus powers associated with his
-selected school of magic while the relic remains empowered.
+At 4th level, a curator develops a resistance to harmful items. He never gains
+[negative levels](ref/rule/energy-drain-and-negative-levels) due to his alignment as a result of
+wielding or wearing magic items, and he gains a +4 bonus on Will saves to resolve personality
+conflicts with intelligent magic items. Whenever a cursed item's harmful condition would trigger, a
+curator can attempt a Will save (DC = 10 + the item's CL) to suppress the curse just long enough to
+discard the item before it activates. Finally, when identifying an item, a curator needs to exceed
+the item's DC by only 5 (instead of 10) to determine whether the item is cursed.
 
-**Gained:** At 3rd Level
+This ability replaces shift focus.
 
-**Replaces:** 3rd-level focus power
+## Complex Collection (Su) {#complex-collection}
 
-**Special:** Whenever the curator would learn another focus power for an implement, he can instead
-select two new focus powers from different schools associated with his extensive relic collection.
-
-**Relic Resistance (Ex)**
-
-**Ability:** Whenever a cursed item's harmful condition would trigger, a curator can attempt a Will
-save (DC = 10 + the item's CL) to suppress the curse just long enough to discard the item before it
-activates.
-
-**Flavor:** A curator develops a resistance to harmful items.
-
-**Gained:** At 4th Level
-
-**Passive:** He never gains [negative levels](ref/rule/energy-drain-and-negative-levels) due to his
-alignment as a result of wielding or wearing magic items, and he gains a +4 bonus on Will saves to
-resolve personality conflicts with intelligent magic items.
-
-**Replaces:** Shift focus
-
-**Special:** When identifying an item, a curator needs to exceed the item's DC by only 5 (instead of
-10) to determine whether the item is cursed.
-
-**Complex Collection (Su)**
-
-**Ability:** A curator can empower two relics that are in his collection simultaneously, and he
+At 8th level, a curator can empower two relics that are in his collection simultaneously, and he
 gains the benefits of both. When he does so, he must allocate his relic collection's mental focus
 between the two relics.
 
-**Gained:** At 8th Level
+This ability replaces outsider contact.
 
-**Replaces:** Outsider contact
+## Mental Catalog (Su) {#mental-catalog}
 
-**Mental Catalog (Su)**
+At 8th level, the points of mental focus invested in the curator's relic collection increase by 2.
 
-**At 12th Level:** The points instead increase by 3.
+This total increases by 1 additional point at 12th level and 16th level.
 
-**At 16th Level:** The total points now increase by 4 additional points.
-
-**At 8th Level:** The points of mental focus invested in the curator's relic collection increase
-by 2.
-
-**Replaces:** Magic circles, binding circles, fast circles
+This ability replaces an occultist's magic circles, binding circles, and fast circles.

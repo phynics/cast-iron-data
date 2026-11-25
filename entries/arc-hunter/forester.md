@@ -16,131 +16,111 @@ page = "52"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "animal-focus" },
+  { anchor = "favored-terrain", level = 1 },
+  { anchor = "bonus-feat", level = 2 },
+  { anchor = "tactician", level = 3 },
+  { anchor = "evasion", level = 4 },
+  { anchor = "camouflage", level = 7 },
+  { anchor = "breath-of-life", level = 10 },
+  { anchor = "improved-evasion", level = 11 },
+  { anchor = "hide-in-plain-sight", level = 14 },
+]
 trades = [
-  { replaces = "Precise companion", feature = "precise-companion" },
-  { replaces = "Hunter tactics", feature = "hunter-tactics" },
-  { replaces = "Improved empathic link", feature = "improved-empathic-link" },
-  { replaces = "Animal companion", feature = "animal-companion" },
-  { replaces = "Bonus tricks", feature = "bonus-tricks" },
-  { replaces = "Raise animal companion", feature = "raise-animal-companion" },
-  { replaces = "Speak with master", feature = "speak-with-master" },
-  { replaces = "Greater empathic link", feature = "greater-empathic-link" },
-  { alters = "Animal focus", feature = "animal-focus" },
+  { replaces = "Precise companion", feature = "precise-companion", by = ["bonus-feat"] },
+  { replaces = "Hunter tactics", feature = "hunter-tactics", by = ["tactician"] },
+  { replaces = "Improved empathic link", feature = "improved-empathic-link", by = ["evasion"] },
+  { replaces = "Animal companion", feature = "animal-companion", by = ["favored-terrain"] },
+  { replaces = "Bonus tricks", feature = "bonus-tricks", by = ["camouflage"] },
+  { replaces = "Raise animal companion", feature = "raise-animal-companion", by = ["breath-of-life"] },
+  { replaces = "Speak with master", feature = "speak-with-master", by = ["improved-evasion"] },
+  { replaces = "Greater empathic link", feature = "greater-empathic-link", by = ["hide-in-plain-sight"] },
+  { alters = "Animal focus", feature = "animal-focus", by = ["animal-focus"] },
 ]
 +++
 
 While all hunters have a bond with the natural world, a forester has a stronger tie to her
 environment than to the animals within it. While most foresters feel strong bonds with woodland
-regions, the archetype functions well in other terrains as well. In such cases, a forester might
-refer to herself by a different name that more accurately reflects her chosen terrain. For example,
-a forester who favors bogs and marshes might call herself a "swamper," while one who favors frozen
-regions might call herself a "glacier guardian." As foresters gain levels and take on new favored
-terrains, they often eschew such titles completely, viewing them as unnecessary, and merely refer to
-themselves as guardians of the wild or champions of nature's will - but regardless of the name,
-their devotion remains.
+regions, the archetype functions well in other terrains as well.
 
-**Animal Focus (Su)**
+In such cases, a forester might refer to herself by a different name that more accurately reflects
+her chosen terrain. For example, a forester who favors bogs and marshes might call herself a
+"swamper," while one who favors frozen regions might call herself a "glacier guardian." As foresters
+gain levels and take on new favored terrains, they often eschew such titles completely, viewing them
+as unnecessary, and merely refer to themselves as guardians of the wild or champions of nature's
+will—but regardless of the name, their devotion remains.
 
-**Ability:** As a forester has no animal companion, the aspects granted by this ability always apply
-to the forester herself, just as if a normal hunter's companion were dead.
+## Animal Focus (Su) {#animal-focus}
 
-**Alters:** Animal focus
+As a forester has no animal companion, the aspects granted by this ability always apply to the
+forester herself, just as if a normal hunter's companion were dead.
 
-**Bonus Feat (Ex)**
+This alters animal focus.
 
-**At 2nd Level:** A forester gains one bonus combat feat.
+## Favored Terrain (Ex) {#favored-terrain}
 
-**Replaces:** Precise companion
+A forester gains the ranger's [favored terrain](ref/ability/favored-terrain) ability. She gains her
+first favored terrain at 5th level and a new favored terrain every 4 levels thereafter. In addition,
+at each such interval, the bonuses on initiative checks and skill checks in one favored terrain
+(including the one just selected, if so desired) increase by 2. Starting at 5th level, a forester
+adds [half](ref/misc/fractions-and-rounding) her favored terrain bonus on damage rolls while in her
+favored terrain and fighting a creature native to that terrain.
 
-**Special:** She must meet the prerequisites for these feat as normal.
+This replaces animal companion.
 
-At 7th level: She gains a 2nd bonus combat feat.
+## Bonus Feat (Ex) {#bonus-feat}
 
-At 13th level: She gains a 3rd bonus combat feat.
+At 2nd level, a forester gains one bonus combat feat. She must meet the prerequisites for this feat
+as normal. She gains an additional bonus combat feat at 7th, 13th, and 19th levels.
 
-At 19th level: She gains a 4th bonus combat feat.
+This replaces precise companion.
 
-**Tactician (Ex)**
+## Tactician (Ex) {#tactician}
 
-**Gained:** At 3rd Level
+At 3rd level as a standard action, a forester can grant the benefits of one teamwork feat to all
+allies within 30 feet who can see and hear her. Allies retain the use of this bonus feat for 3
+rounds plus 1 round for every 2 levels the forester has. Allies do not need to meet the
+prerequisites of these bonus feats. The forester can use this ability once per day at 3rd level,
+plus one additional time per day at 7th level and every 5 levels thereafter.
 
-**Replaces:** Hunter tactics
+This replaces hunter tactics.
 
-**Standard:** A forester can grant the benefits of one teamwork feat to all allies within 30 feet
-who can see and hear her. Allies retain the use of this bonus feat for a number of rounds equal to
-3 + [half](ref/misc/fractions-and-rounding) of her hunter level. Allies do not need to meet the
-prerequisites of these bonus feats.
+## Evasion (Ex) {#evasion}
 
-**Usage:** 1 time/day + 1 per 5 hunter levels beyond 2nd
-
-**Evasion (Ex)**
-
-**Gained:** At 4th Level
-
-**Passive:** A forester can avoid even magical and unusual attacks with great agility. If she makes
+At 4th level, a forester can avoid even magical and unusual attacks with great agility. If she makes
 a successful Reflex saving throw against an attack that normally deals half damage on a successful
-save, she instead takes no damage. _Evasion_ can be used only if the forester is wearing light
-armor, medium armor, or no armor. A [helpless](ref/misc/helpless) forester does not gain the benefit
-of _evasion._
+save, she instead takes no damage. Evasion can be used only if the forester is wearing light armor,
+medium armor, or no armor. A [helpless](ref/misc/helpless) forester does not gain the benefit of
+evasion.
 
-**Replaces:** Improved empathic link
+This replaces improved empathic link.
 
-**Favored Terrain (Ex)**
+## Camouflage (Ex) {#camouflage}
 
-**Ability:** A forester gains the ranger's [favored terrain](ref/ability/favored-terrain) ability,
-gaining her first such terrain.
-
-**At 13th Level:** She gains a third terrain, and chooses one terrain in which to increase the
-initiative and skill check bonuses by 2.
-
-**At 17th Level:** She gains a fourth such terrain, and again chooses a terrain in which to increase
-her initiative and skill bonuses.
-
-**At 9th Level:** She gains a second favored terrain. In addition, the bonuses on initiative checks
-and skill checks in one favored terrain (including the one just selected, if so desired) increase
-by 2.
-
-**Gained:** At 5th Level
-
-**Passive:** A forester adds half her favored terrain bonus on damage rolls while in her favored
-terrain and fighting a creature native to that terrain.
-
-**Replaces:** Animal companion
-
-**Camouflage (Ex)**
-
-**Ability:** A forester can use the Stealth skill to hide in any of her favored terrains, even if
+At 7th level, a forester can use the Stealth skill to hide in any of her favored terrains, even if
 the terrain doesn't grant [cover](ref/rule/cover) or [concealment](ref/rule/concealment).
 
-**Gained:** At 7th Level
+This replaces bonus tricks.
 
-**Replaces:** Bonus tricks
+## Breath of Life (Sp) {#breath-of-life}
 
-**Breath of Life (Sp)**
-
-**Ability:** A forester can cast [breath of life](ref/spell/breath-of-life) once per day as a
+At 10th level, a forester can cast _[breath of life](ref/spell/breath-of-life)_ once per day as a
 [spell-like ability](ref/umr/spell-like-abilities).
 
-**Gained:** At 10th Level
+This replaces raise animal companion.
 
-**Replaces:** Raise animal companion
+## Improved Evasion (Ex) {#improved-evasion}
 
-**Improved Evasion (Ex)**
+At 11th level, a forester's evasion improves. Improved evasion works like evasion, except while the
+forester still takes no damage on a successful Reflex saving throw against attacks, she takes only
+half damage on a failed save. A helpless forester does not gain the benefit of improved evasion.
 
-**Gained:** At 11th Level
+This replaces speak with master.
 
-**Passive:** A forester's _evasion_ improves. _Improved evasion_ works like _evasion,_ except while
-the forester still takes no damage on a successful Reflex saving throw against attacks, she takes
-only half damage on a failed save. A helpless forester does not gain the benefit of _improved
-evasion._
+## Hide in Plain Sight (Ex) {#hide-in-plain-sight}
 
-**Replaces:** Speak with master
-
-**Hide in Plain Sight (Ex)**
-
-**Ability:** While in any of her favored terrains, a forester can use the Stealth skill even while
+At 14th level, while in any of her favored terrains, a forester can use the Stealth skill even while
 being observed.
 
-**Gained:** At 14th Level
-
-**Replaces:** Greater empathic link
+This replaces greater empathic link.

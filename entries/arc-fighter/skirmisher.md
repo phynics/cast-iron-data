@@ -13,18 +13,27 @@ relations = [
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "wilderness-training" },
+  { anchor = "conditioning", level = 2 },
+  { anchor = "alpine-training" },
+  { anchor = "counter-interrogation-training" },
+  { anchor = "jungle-training" },
+  { anchor = "light-infantry-training" },
+  { anchor = "reconnaissance-training" },
+  { anchor = "mobility-training", level = 3 },
+  { anchor = "mobile-mastery", level = 19 },
+]
 trades = [
-  { replaces = "The fighter's armor proficiency", feature = "weapon-and-armor-proficiencies" },
-  { replaces = "2nd level fighter bonus feat", feature = "bonus-feats", levels = [2] },
-  { replaces = "Bravery", feature = "bravery" },
-  { replaces = "Armor training", feature = "armor-training" },
-  { replaces = "Armor mastery", feature = "armor-mastery" },
-  { alters = "Class skills" },
-  { alters = "skill ranks per level" },
+  { replaces = "The fighter's weapon and armor proficiency", feature = "weapon-and-armor-proficiencies" },
+  { replaces = "2nd level fighter bonus feat", feature = "bonus-feats", levels = [2], by = ["conditioning"] },
+  { replaces = "Bravery", feature = "bravery", by = ["reconnaissance-training"] },
+  { replaces = "Armor training", feature = "armor-training", by = ["mobility-training"] },
+  { replaces = "Armor mastery", feature = "armor-mastery", by = ["mobile-mastery"] },
+  { alters = "Class skills", by = ["wilderness-training"] },
+  { alters = "skill ranks per level", by = ["wilderness-training"] },
 ]
 +++
-
-**Source** Ultimate Wilderness pg. 50
 
 Not all battles are fought between armies; sometimes, a settlement or nation faces a threat too dire
 to fight in the open. In order to repel a much larger enemy force, some soldiers must abandon
@@ -35,114 +44,84 @@ flee or fight back effectively. Many tribal warriors also employ small-unit tact
 part of their warrior culture, because they cannot field a large army, or simply because they refuse
 to fight on the enemy's terms.
 
-**Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** A skirmisher is proficient with light armor and shields but not with medium armor, heavy
-armor, or tower shields.
+A skirmisher is proficient with light armor and shields but not with medium armor, heavy armor, or
+tower shields.
 
-**Replaces:** The fighter's armor proficiency
+This replaces the fighter's weapon and armor proficiency.
 
-**Wilderness Training (Ex)**
+## Wilderness Training (Ex) {#wilderness-training}
 
-**Alters:** Class skills, skill ranks per level
+A skirmisher relies on his skills and the element of surprise rather than the heaviest shields and
+armor. He gains [Acrobatics](ref/skill/acrobatics) and [Stealth](ref/skill/stealth) as class skills.
+In addition, the skirmisher gains a number of skill ranks at each level equal to 4 + his
+Intelligence modifier, instead of 2 + his Intelligence modifier.
 
-**Info:** A skirmisher relies on his skills and the element of surprise rather than the heaviest
-shields and armor. He gains [Acrobatics](ref/skill/acrobatics) (DEX) and
-[Stealth](ref/skill/stealth) (DEX) as class skills. In addition, the skirmisher gains a number of
-skill ranks at each level equal to 4 + his Intelligence modifier, instead of 2 + his Intelligence
-modifier.
+This alters the fighter's class skills and skill ranks per level.
 
-**Conditioning (Ex)**
+## Conditioning (Ex) {#conditioning}
 
-**Choice:** A skirmisher becomes more resistant to mental and physical threats that are commonly
+At 2nd level, a skirmisher becomes more resistant to mental and physical threats that are commonly
 employed by his enemies or often encountered in the terrain in which he operates. The skirmisher
 must choose one of the specializations below, gaining a +1 bonus on saving throws of the appropriate
-type.
+type. This bonus increases by 1 for every 4 levels beyond 2nd.
 
-**Gained:** At 2nd Level
+## Alpine Training (Ex) {#alpine-training}
 
-**Replaces:** 2nd level fighter bonus feat
-
-At 6th level: The saving throw bonus increases to +2.
-
-At 10th level: The saving throw bonus increases to +3.
-
-At 14th level: The saving throw bonus increases to +4.
-
-At 18th level: The saving throw bonus increases to +5.
-
-**Alpine Training (Ex)**
-
-**Passive:** A skirmisher operating in mountainous terrain becomes resistant to cold climates and
-the rigors of long treks at high altitudes. He gains a bonus on Fortitude saving throws against
+A skirmisher operating in mountainous terrain becomes resistant to cold climates and the rigors of
+long treks at high altitudes. He gains a bonus on Fortitude saving throws against
 [altitude sickness](ref/rule/mountain-travel), exposure to [cold weather](ref/rule/cold-dangers),
 and other effects that cause [fatigue](ref/misc/fatigued) or [exhaustion](ref/misc/exhausted).
 
-**Counter-Interrogation Training (Ex)**
+## Counter-Interrogation Training (Ex) {#counter-interrogation-training}
 
-**Passive:** A skirmisher undertaking infiltration missions learns to resist interrogation and
-persuasion. The skirmisher gains a bonus on Will saving throws against charms and divinations.
+A skirmisher undertaking infiltration missions learns to resist interrogation and persuasion. The
+skirmisher gains a bonus on Will saving throws against charms and divinations.
 
-**Jungle Training (Ex)**
+## Jungle Training (Ex) {#jungle-training}
 
-**Passive:** Through repeated exposure, a skirmisher operating in jungles and wetlands builds up a
-tolerance against pathogens and toxins. He gains a bonus on Fortitude saving throws against disease
-and poison.
+Through repeated exposure, a skirmisher operating in jungles and wetlands builds up a tolerance
+against pathogens and toxins. He gains a bonus on Fortitude saving throws against disease and
+poison.
 
-**Light Infantry Training (Ex)**
+## Light Infantry Training (Ex) {#light-infantry-training}
 
-**Passive:** A skirmisher fighting in a light infantry unit learns to avoid fire from enemy
-artillery, siege weapons, and spellcasters. He gains a bonus on Reflex saving throws against attacks
-that deal half damage on a successful save (such as the [fireball](ref/spell/fireball) spell) but
-not against traps, natural hazards, or environmental effects.
+A skirmisher fighting in a light infantry unit learns to avoid fire from enemy artillery, siege
+weapons, and spellcasters. He gains a bonus on Reflex saving throws against attacks that deal half
+damage on a successful save (such as the _[fireball](ref/spell/fireball)_ spell) but not against
+traps, natural hazards, or environmental effects.
 
-**Reconnaissance Training (Ex)**
+This replaces the bonus feat the fighter normally receives at 2nd level.
 
-**Flavor:** A skirmisher operating in heavily trapped or naturally hazardous areas learns to
-expertly avoid them.
+## Reconnaissance Training (Ex) {#reconnaissance-training}
 
-**Gained:** At 2nd Level
+A skirmisher operating in heavily trapped or naturally hazardous areas learns to expertly avoid
+them. At 2nd level, he gains a +1 bonus on Reflex saving throws to avoid traps, natural hazards, and
+environmental effects. This bonus increases by 1 for every 4 levels beyond 2nd.
 
-**Passive:** He gains a +1 bonus on Reflex saving throws to avoid traps, natural hazards, and
-environmental effects.
+This replaces bravery.
 
-**Replaces:** Bravery
+## Mobility Training (Ex) {#mobility-training}
 
-At 6th level: This bonus increases to +2.
-
-At 10th level: This bonus increases to +3.
-
-At 14th level: This bonus increases to +4.
-
-At 18th level: This bonus increases to +5.
-
-**Mobility Training (Ex)**
-
-**At 11th Level:** The dodge bonus becomes +3.
-
-**At 15th Level:** The dodge bonus increases to +4.
-
-**At 7th Level:** The bonus to speed becomes +10 feet, and the dodge bonus becomes +2.
-
-**Gained:** At 3rd Level
-
-**Passive:** A skirmisher learns to be more maneuverable while wearing light or no armor. He gains a
-+1 dodge bonus to AC while wearing light or no armor and while carrying no more than a light load.
+At 3rd level, a skirmisher learns to be more maneuverable while wearing light or no armor. He gains
+a +1 dodge bonus to AC while wearing light or no armor and while carrying no more than a light load.
 Anything that causes the skirmisher to lose his Dexterity bonus to AC also causes the skirmisher to
-lose this dodge bonus. In addition, a skirmisher gains an enhancement bonus of +5 feet to his base
-speed. This benefit applies only when he is wearing no armor or light armor, and when he is carrying
-no more than a light load.
+lose this dodge bonus. This bonus increases by 1 for every 4 levels beyond 3rd (to a maximum of +4
+at 15th level).
 
-**Replaces:** Armor training
+In addition, a skirmisher gains an enhancement bonus of +5 feet to his base speed. At 7th level, the
+bonus increases to +10 feet. This benefit applies only when he is wearing no armor or light armor,
+and when he is carrying no more than a light load.
 
-**Mobile Mastery (Ex)**
+This replaces armor training.
 
-**Gained:** At 19th Level
+## Mobile Mastery (Ex) {#mobile-mastery}
 
-**Passive:** A skirmisher learns to position his body and conceal his body proportions with clothes
-so well that it is difficult to hit him. He gains a 20% miss chance on attacks against him. Mobile
-mastery functions even when the skirmisher is [flat-footed](ref/rule/flat-footed), but not when he
-is immobilized or [helpless](ref/misc/helpless), when he wears medium or heavy armor, or when he
-carries a medium or heavy load.
+At 19th level, a skirmisher learns to position his body and conceal his body proportions with
+clothes so well that it is difficult to hit him. He gains a 20% miss chance on attacks against him.
+Mobile mastery functions even when the skirmisher is [flat-footed](ref/rule/flat-footed), but not
+when he is immobilized or [helpless](ref/misc/helpless), when he wears medium or heavy armor, or
+when he carries a medium or heavy load.
 
-**Replaces:** Armor mastery
+This replaces armor mastery.

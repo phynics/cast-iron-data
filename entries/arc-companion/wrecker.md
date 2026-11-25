@@ -12,27 +12,28 @@ page = "189"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "destructive-wrecker" },
+]
 trades = [
-  { replaces = "Share Spells" },
-  { replaces = "Multiattack" },
+  { replaces = "Share Spells", by = ["destructive-wrecker"] },
+  { replaces = "Multiattack", by = ["destructive-wrecker"] },
 ]
 +++
 
 Like unruly pets, some companions have a tendency to destroy nearby objects while unsupervised, and
 their masters can channel these destructive impulses into an advantage in battle.
 
-**Wrecker Feats**
+## Wrecker Feats {#wrecker-feats}
 
-**Passive:** In addition to the standard feats available to animal companions, a wrecker can select
+In addition to the standard feats available to animal companions, a wrecker can select
 [Improved Sunder](ref/feat/improved-sunder) and [Greater Sunder](ref/feat/greater-sunder).
 
-**Destructive Wrecker (Ex)**
+## Destructive Wrecker (Ex) {#destructive-wrecker}
 
-**At 1st Level:** A wrecker's natural attacks ignore an inanimate object's first 5 points of
-[hardness](ref/umr/hardness).
-
-**At 9th Level:** A wrecker's natural attacks count as if they were
+A wrecker's natural attacks ignore an inanimate object's first 5 points of
+[hardness](ref/umr/hardness). At 9th level, a wrecker's natural attacks count as if they were
 [adamantine](ref/eq-material/adamantine) for the purpose of overcoming a construct's
 [damage reduction](ref/rule/damage-reduction).
 
-**Replaces:** Share Spells, Multiattack
+This replaces share spells and Multiattack.
