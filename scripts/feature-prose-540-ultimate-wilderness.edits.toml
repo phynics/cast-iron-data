@@ -1,0 +1,40 @@
+[[edit]]
+entry = "ref/arc-bard/fey-courtier"
+anchor = "fey-contacts"
+note = 'hand-written from print (Ultimate Wilderness p. 41, ruling 18): the table of the settlement base values and purchase limits, which the extraction ran into the end of the paragraph, as a Markdown table; each cell as printed'
+text = '''
+At 2nd level, thanks to his fey contacts and knowledge of the byzantine trade customs of the fey courts, a fey courtier can treat any wilderness area with fey residents as a settlement with a certain base value and purchase limit based on his bard level for the purpose of buying and selling magic items. See page 205 of the _Pathfinder RPG GameMastery Guide_ for rules on settlement base values and purchase limits. The fey courtier can also use these contacts to gather information about the residents, geography, and nearby areas with Diplomacy.
+
+This replaces versatile performance.
+
+| Bard Level | Base Value | Purchase Limit |
+|---|---|---|
+| 2nd | 50 gp | 500 gp |
+| 6th | 500 gp | 2,500 gp |
+| 10th | 2,000 gp | 10,000 gp |
+| 14th | 8,000 gp | 50,000 gp |
+| 18th | 32,000 gp | 200,000 gp |
+'''
+
+[[edit]]
+entry = "ref/arc-fighter/viking"
+anchor = "berserker"
+note = 'hand-written from print (Ultimate Wilderness p. 50): the sidebar Tribal Weapon Group, which print sets at the foot of the page, was read in the middle of the paragraph; the paragraph is whole here and the sidebar is with the Tribal Fighter, whose weapon group it is'
+text = '''
+At 5th level, a viking gains the rage ability as per the [barbarian](ref/class/barbarian) class feature, and she uses her fighter level as her barbarian level for the purposes of determining her rounds of rage, qualifying for rage powers, and determining the effects of rage powers.
+
+This replaces weapon training.
+'''
+
+[[add]]
+entry = "ref/arc-fighter/tribal-fighter"
+anchor = "tribal-weapon-group"
+head = 'Tribal Weapon Group'
+parent = "tribal-weapon-training"
+after = "tribal-weapon-training"
+note = 'text of the sidebar Tribal Weapon Group (Ultimate Wilderness p. 50), checked against print: print sets it at the foot of the page of the Viking, and the tribal weapon group is the one that Tribal Weapon Training names; the import of the Viking and the Tribal Fighter lacked it'
+text = '''
+The following new fighter weapon group consists of traditional melee weapons used by many indigenous peoples.
+
+_Tribal:_ Club, dagger, greatclub, handaxe, heavy shield, light shield, shortspear, spear, throwing axe, and unarmed strike.
+'''
