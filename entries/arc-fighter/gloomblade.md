@@ -16,94 +16,91 @@ page = "14"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "student-of-darkness" },
+  { anchor = "shadow-weapon" },
+  { anchor = "shadow-weapon-training", level = 5 },
+]
 trades = [
-  { replaces = "Armor training", feature = "armor-training" },
-  { replaces = "proficiency with heavy armor", feature = "weapon-and-armor-proficiencies", power = "heavy armor" },
-  { replaces = "shields", feature = "weapon-and-armor-proficiencies", power = "shields" },
-  { alters = "Weapon training", feature = "weapon-training" },
+  { replaces = "Armor training", feature = "armor-training", by = ["shadow-weapon"] },
+  { replaces = "proficiency with heavy armor", feature = "weapon-and-armor-proficiencies", power = "heavy armor", by = ["shadow-weapon"] },
+  { replaces = "shields", feature = "weapon-and-armor-proficiencies", power = "shields", by = ["shadow-weapon"] },
+  { alters = "Weapon training", feature = "weapon-training", by = ["shadow-weapon-training"] },
 ]
 +++
 
 The Shadow Plane's substance is legendary for its versatility. In shadow-shrouded lands, secretive
 martial practitioners long ago learned to shape supernatural weapons from ribbons of pure darkness.
 
-**Gained class skills:** acro, kp, per, stl
+## Student of Darkness (Ex) {#student-of-darkness}
 
-**Lost class skills:** climb, ha, ride, swim
+A gloomblade gains Acrobatics, Knowledge (planes), Perception, and Stealth as class skills, but does
+not gain Climb, Handle Animal, Ride, or Swim as class skills.
 
-**Shadow Weapon (Su)**
+This alters the fighter's class skills.
 
-**At 11th Level:** A gloomblade's shadow weapons each gain their full enhancement bonus if he
-creates two weapons. If a gloomblade creates only one shadow weapon, it gains additional weapon
-special abilities; the total effective bonus of these abilities cannot exceed +3. The gloomblade can
-now choose from the of [anarchic](ref/magic-enh/anarchic), [axiomatic](ref/magic-enh/axiomatic),
-[flaming burst](ref/magic-enh/flaming-burst), [icy burst](ref/magic-enh/icy-burst),
-[holy](ref/magic-enh/holy), [shocking burst](ref/magic-enh/shocking-burst),
-[unholy](ref/magic-enh/unholy), and [wounding](ref/magic-enh/wounding) weapon special abilities as
-well as those from the list above.
+## Shadow Weapon (Su) {#shadow-weapon}
 
-**At 15th Level:** A gloomblade's shadow weapons each gain magic weapon special abilities with a
-total effective bonus of +2 per weapon. If a gloomblade creates only one shadow weapon, its magic
-weapon special abilities cannot exceed a total effective bonus of +5. The gloomblade adds
-[brilliant energy](ref/magic-enh/brilliant-energy), [dancing](ref/magic-enh/dancing), and
-[speed](ref/magic-enh/speed) to the options he can choose as weapon special abilities for his shadow
-weapon.
+A gloomblade can create a shadowy weapon in a free hand as a move action. This can take the form of
+any melee weapon with which he is proficient. A gloomblade can have only one shadow weapon in
+existence at a time; creating a new shadow weapon causes an existing shadow weapon to vanish.
 
-**At 3rd Level:** The shadow weapon acts as a magic weapon with a +1 enhancement bonus.
+At 3rd level, the shadow weapon acts as a magic weapon with a +1 enhancement bonus; this bonus
+increases by 1 for every 4 levels a gloomblade has beyond 2nd, to a maximum enhancement bonus of +5
+at 18th level.
 
-**At 7th Level:** A gloomblade can create (and maintain) two shadow weapons at a time as a **move
-action**; if he does, each weapon has an enhancement bonus 1 lower than normal. If a gloomblade
-creates only one weapon, it gains a weapon special ability of his choice (chosen upon creation); the
-ability must be valid for the shadow weapon's weapon type and must be chosen from
-[defending](ref/magic-enh/defending), [flaming](ref/magic-enh/flaming),
-[frost](ref/magic-enh/frost), [keen](ref/magic-enh/keen),
-[ghost touch](ref/magic-enh/ghost-touch-weapon), [merciful](ref/magic-enh/merciful),
-[shock](ref/magic-enh/shock), [thundering](ref/magic-enh/thundering), or
-[vicious](ref/magic-enh/vicious). (Additional special abilities might qualify, at the GM's
+At 7th level, a gloomblade can create (and maintain) two shadow weapons at a time as a move action;
+if he does, each weapon has an enhancement bonus 1 lower than normal. If a gloomblade creates only
+one weapon, it gains a weapon special ability of his choice (chosen upon creation); the ability must
+be valid for the shadow weapon's weapon type and must be chosen from
+_[defending](ref/magic-enh/defending)_, _[flaming](ref/magic-enh/flaming)_,
+_[frost](ref/magic-enh/frost)_, _[keen](ref/magic-enh/keen)_,
+_[ghost touch](ref/magic-enh/ghost-touch-weapon)_, _[merciful](ref/magic-enh/merciful)_,
+_[shock](ref/magic-enh/shock)_, _[thundering](ref/magic-enh/thundering)_, or
+_[vicious](ref/magic-enh/vicious)_. (Additional special abilities might qualify, at the GM's
 discretion.)
 
-**Move:** A gloomblade can create a shadowy weapon in a free hand. This can take the form of any
-melee weapon with which he is proficient. A gloomblade can have only one shadow weapon in existence
-at a time; creating a new shadow weapon causes an existing shadow weapon to vanish.
+At 11th level, a gloomblade's shadow weapons each gain their full enhancement bonus if he creates
+two weapons. If a gloomblade creates only one shadow weapon, it gains additional weapon special
+abilities; the total effective bonus of these abilities cannot exceed +3. The gloomblade can now
+choose from the of _[anarchic](ref/magic-enh/anarchic)_, _[axiomatic](ref/magic-enh/axiomatic)_,
+_[flaming burst](ref/magic-enh/flaming-burst)_, _[icy burst](ref/magic-enh/icy-burst)_,
+_[holy](ref/magic-enh/holy)_, _[shocking burst](ref/magic-enh/shocking-burst)_,
+_[unholy](ref/magic-enh/unholy)_, and _[wounding](ref/magic-enh/wounding)_ weapon special abilities
+as well as those from the list above.
 
-**Replaces:** Armor training, proficiency with heavy armor, shields
+At 15th level, a gloomblade's shadow weapons each gain magic weapon special abilities with a total
+effective bonus of +2 per weapon. If a gloomblade creates only one shadow weapon, its magic weapon
+special abilities cannot exceed a total effective bonus of +5. The gloomblade adds
+_[brilliant energy](ref/magic-enh/brilliant-energy)_, _[dancing](ref/magic-enh/dancing)_, and
+_[speed](ref/magic-enh/speed)_ to the options he can choose as weapon special abilities for his
+shadow weapon.
 
-**Special:** He retains proficiency in light and medium armor
+This replaces the fighter's armor training and proficiency with heavy armor and shields (he retains
+proficiency in light and medium armor).
 
-At 6th level: The weapon's enhancement bonus increases to +2.
+## Shadow Weapon Training (Ex) {#shadow-weapon-training}
 
-At 10th level: The weapon's enhancement bonus increases to +3.
-
-At 14th level: The weapon's enhancement bonus increases to +4.
-
-At 18th level: The weapon's enhancement bonus increases to +5.
-
-**Shadow Weapon Training (Ex)**
-
-**Ability:** A gloomblade gains weapon training, except that he does not select a weapon group;
+At 5th level, a gloomblade gains weapon training, except that he does not select a weapon group;
 instead, the bonus applies to the shadow weapons he creates. A gloomblade does not select additional
 weapon groups as he gains levels.
 
-**Action:** At 9th Level
+At 9th level, whenever a gloomblade creates one or more shadow weapons, he can apply any one of the
+following shadow effects (chosen upon creation) to one of them.
 
-**Alters:** Weapon training
+• During the gloomblade's turn, he can increase his reach with that weapon by 5 feet.
 
-**At 13th Level:** The gloomblade can apply two effects to his shadow weapons. These effects can be
-split between multiple shadow weapons as a gloomblade desires, but they don't stack with themselves.
+• The gloomblade can increase a thrown shadow weapon's range increment (if any) by 20 feet.
 
-**At 17th Level:** The gloomblade can apply three effects to his shadow weapons. These effects can
-be split between multiple shadow weapons as a gloomblade desires, but they don't stack with
-themselves.
+• When he hits a foe with a melee attack with the weapon, he can use it to perform a
+[reposition](ref/rule/reposition) combat maneuver against the creature hit as a swift action. This
+does not provoke attacks of opportunity.
 
-**Gained:** At 5th Level
+• Attacks made with the weapon ignore [hardness](ref/umr/hardness) equal to or less than the
+gloomblade's fighter level.
 
-Whenever a gloomblade creates one or more shadow weapons, he can apply any one of the following
-shadow effects (chosen upon creation) to one of them.
+For every 4 levels he has beyond 9th, a gloomblade can apply an additional effect to his shadow
+weapons, to a maximum of three effects at 17th level; these effects can be split between multiple
+shadow weapons as a gloomblade desires, but they don't stack with themselves.
 
-- During the gloomblade's turn, he can increase his reach with that weapon by 5 feet.
-- The gloomblade can increase a thrown shadow weapon's range increment (if any) by 20 feet.
-- When he hits a foe with a melee attack with the weapon, he can use it to perform a
-  [reposition](ref/rule/reposition) combat maneuver against the creature hit as a **swift action**.
-  This does not provoke attacks of opportunity.
-- Attacks made with the weapon ignore [hardness](ref/umr/hardness) equal to or less than the
-  gloomblade's fighter level.
+This alters weapon training.

@@ -16,16 +16,28 @@ page = "69"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spells" },
+  { anchor = "shared-consciousness" },
+  { anchor = "undead-phantom" },
+  { anchor = "cling-of-the-grave" },
+  { anchor = "unnatural-aura", level = 5 },
+  { anchor = "channel-resistance", level = 6 },
+  { anchor = "lifedrinker", level = 13 },
+  { anchor = "bonded-manifestation" },
+  { anchor = "channel-energy", level = 4 },
+  { anchor = "necropsychic-conduit", level = 12 },
+]
 trades = [
-  { replaces = "Slam damage increase gained at 5th level", feature = "phantom", levels = [5], power = "slam damage" },
-  { replaces = "Devotion" },
-  { replaces = "Slam damage increase gained at 13th level", feature = "phantom", levels = [13], power = "slam damage" },
-  { replaces = "Spiritual interference", feature = "spiritual-interference" },
-  { replaces = "Greater spiritual interference", feature = "greater-spiritual-interference" },
+  { replaces = "Slam damage increase gained at 5th level", feature = "phantom", levels = [5], power = "slam damage", by = ["unnatural-aura"] },
+  { replaces = "Devotion", by = ["channel-resistance"] },
+  { replaces = "Slam damage increase gained at 13th level", feature = "phantom", levels = [13], power = "slam damage", by = ["lifedrinker"] },
+  { replaces = "Spiritual interference", feature = "spiritual-interference", by = ["channel-energy"] },
+  { replaces = "Greater spiritual interference", feature = "greater-spiritual-interference", by = ["necropsychic-conduit"] },
   { alters = "Alignment" },
-  { alters = "Bonded manifestation", feature = "bonded-manifestation" },
-  { alters = "Shared consciousness", feature = "shared-consciousness" },
-  { alters = "Share spells" },
+  { alters = "Bonded manifestation", feature = "bonded-manifestation", by = ["bonded-manifestation"] },
+  { alters = "Shared consciousness", feature = "shared-consciousness", by = ["shared-consciousness"] },
+  { alters = "Share spells", by = ["cling-of-the-grave"] },
 ]
 +++
 
@@ -34,150 +46,89 @@ and unresolved passion. The vile spiritualists known as necrologists reach farth
 Negative Energy Plane, however, and for whatever evil purpose, they bring back malevolent spirits
 whose passions have turned to vengeance and hate for all life.
 
-**Prerequisites:** Evil alignment
+## Alignment {#alignment}
 
-**Alignment**
+Only an evil character can contact a malevolent undead phantom and take the necrologist archetype.
+If a necrologist becomes nonevil, she can continue to take spiritualist levels, but her phantom
+ceases to give her benefits while in her consciousness, she can't use bonded manifestation, and if
+she manifests the phantom, it is no longer loyal to her and likely attacks her and her allies.
 
-**Alters:** Alignment
+This alters the spiritualist's alignment.
 
-**Info:** If a necrologist becomes nonevil, she can continue to take spiritualist levels, but her
-phantom ceases to give her benefits while in her consciousness, she can't use _bonded
-manifestation,_ and if she manifests the phantom, it is no longer loyal to her and likely attacks
-her and her allies.
+## Spells {#spells}
 
-**Spells**
+A necrologist adds the following spells to her class list: 1st—_hide from undead_; 2nd—_ghostly
+disguise_, _haunting mists_; 3rd—_haunting choir_; 4th—_lesser age resistance_; 5th—_age
+resistance_; 6th—_greater age resistance , create greater undead_.
 
-**Info:** A necrologist adds the following spells to her class list at the listed spell levels.
+## Shared Consciousness {#shared-consciousness}
 
-**Spells:** Hide from undead
+A necrologist gains a bonus on saving throws against death effects, energy drain, and negative
+energy rather than against mind-affecting effects (and can shunt such an effect onto the phantom)
+when her undead phantom is contained within her consciousness.
 
-**Spells:** Ghostly disguise, haunting mists
+This ability alters shared consciousness.
 
-**Spells:** Haunting choir
+## Undead Phantom {#undead-phantom}
 
-**Spells:** Lesser age resistance
+A necrologist's phantom is [undead](ref/type/undead), rather than an outsider. It has normal undead
+immunities and no Constitution score; uses d8 Hit Dice, each of which is modified by the phantom's
+Charisma modifier as normal; and gains the abilities below at the levels indicated. An undead
+phantom otherwise follows the standard phantom rules (for instance, its base attack bonus and skills
+don't change to match undead).
 
-**Spells:** Age resistance
+## Cling of the Grave (Su) {#cling-of-the-grave}
 
-**Spells:** Greater age resistance, create greater undead
+An undead phantom can [hold the charge](ref/rule/duration) on a touch spell of the necromancy school
+up to a maximum of 1 round per spiritualist level of the necrologist.
 
-**Bonded Manifestation**
+This ability alters share spells.
 
-**Alters:** Bonded manifestation
+## Unnatural Aura (Su) {#unnatural-aura}
 
-**Info:** A necrologist cannot use ectoplasmic bonded manifestation.
-
-**Shared Conciousness**
-
-**Alters:** Shared consciousness
-
-**Passive:** A necrologist gains a bonus on saving throws against death effects, energy drain, and
-negative energy rather than against mind-affecting effects (and can shunt such an effect onto the
-phantom) when her _undead phantom_ is contained within her consciousness.
-
-**Undead Phantom**
-
-**Info:** A necrologist's phantom is undead, rather than an outsider. It has normal
-[undead](ref/type/undead) immunities and no Constitution score; uses d8 Hit Dice, each of which is
-modified by the phantom's Charisma modifier as normal; and gains the abilities below at the levels
-indicated. An undead phantom otherwise follows the standard phantom rules (for instance, its base
-attack bonus and skills don't change to match undead).
-
-**Cling of the Grave (Su)**
-
-**Ability:** An undead phantom can [hold the charge](ref/rule/duration) on a touch spell of the
-necromancy school up to a maximum of 1 round per spiritualist level of the necrologist.
-
-**Alters:** Share spells
-
-**Gained:** At 1st Level
-
-**Unnatural Aura (Su)**
-
-**Gained:** At 5th Level
-
-**Passive:** Animals do not willingly approach within 30 feet of a fully manifested undead phantom
+At 5th level, animals do not willingly approach within 30 feet of a fully manifested undead phantom
 unless the necrologist succeeds at a Handle Animal, Ride, or wild empathy check (DC = 10 + 1/2 the
 necrologist's spiritualist level + the phantom's Charisma modifier).
 
-**Replaces:** Slam damage increase gained at 5th level
+This replaces the slam damage increase gained at 5th level.
 
-**Channel Resistance (Su)**
+## Channel Resistance (Su) {#channel-resistance}
 
-**Gained:** At 6th Level
+At 6th level, a necrologist's phantom gains a +4 bonus on saving throws to resist the effects of
+channel energy.
 
-**Passive:** A necrologist's phantom gains a +4 bonus on saving throws to resist the effects of
-_channel energy._
+This ability replaces devotion.
 
-**Replaces:** Devotion
+## Lifedrinker (Su) {#lifedrinker}
 
-**Lifedrinker (Su)**
+At 13th level, when a necrologist's phantom reduces a creature to fewer than 0 hit points with an
+attack or spell, the necrologist can expend one use of her channel energy ability as a swift action
+to affect the same target with _[death knell](ref/spell/death-knell)_. If the target fails its save,
+the necrologist can choose either herself or her phantom to gain the benefit of the spell.
 
-**Ability:** When a necrologist's phantom reduces a creature to fewer than 0 hit points with an
-attack or spell, the necrologist can expend one use of her _channel energy_ ability as a **swift
-action** to affect the same target with [death knell](ref/spell/death-knell). If the target fails
-its save, the necrologist can choose either herself or her phantom to gain the benefit of the spell.
+This replaces the necrologist's slam damage increase gained at 13th level.
 
-**Gained:** At 13th Level
+## Bonded Manifestation {#bonded-manifestation}
 
-**Replaces:** Slam damage increase gained at 13th level
+A necrologist cannot use ectoplasmic bonded manifestation.
 
-**Channel Energy (Su)**
+This ability alters bonded manifestation.
 
-**Ability:** A necrologist gains the ability to
+## Channel Energy (Su) {#channel-energy}
+
+At 4th level, a necrologist gains the ability to
 [channel negative energy](ref/ability/channel-energy), with an effective cleric level equal to her
-spiritualist level - 3.
+spiritualist level - 3. She can use this ability a number of times per day equal to 1 + her Charisma
+modifier.
 
-**Gained:** At 4th Level
+This ability replaces spiritual interference.
 
-**Replaces:** Spiritual interference
+## Necropsychic Conduit {#necropsychic-conduit}
 
-**Usage:** Charisma1 modifier times/day
-
-**Channel Energy (Su)**
-
-**Choice:** An evil cleric (or one who worships an evil deity) channels **negative energy** and can
-choose to deal damage to living creatures or to heal undead creatures.
-
-**Flavor:** Text from the cleric class ability.
-
-**Provokes attack of opportunity:** No
-
-**Special:** Creatures healed by channeled energy cannot exceed their maximum hit point total - all
-excess healing is lost.
-
-**Standard:** You must present your unholy symbol to channel energy. This causes a
-[burst](ref/misc/burst) that affects all creatures of one type (either undead or living) in a
-30-foot radius centered on you. This deals or heals (see below) 1d6 damage. You can choose whether
-or not to include yourself in this effect. Creatures that take damage from channeled energy receive
-a Will save to halve the damage, with a DC equal to 10 + [half](ref/misc/fractions-and-rounding)
-your cleric level + your Charisma modifier.
-
-At 6th level: The damage increases to 2d6.
-
-At 8th level: The damage increases to 3d6.
-
-At 10th level: The damage increases to 4d6.
-
-At 12th level: The damage increases to 5d6.
-
-At 14th level: The damage increases to 6d6.
-
-At 16th level: The damage increases to 7d6.
-
-At 18th level: The damage increases to 8d6.
-
-At 20th level: The damage increases to 9d6.
-
-**Necropsychic Conduit**
-
-**Ability:** A necrologist can cast psychic spells as if she had the
+At 12th level, a necrologist can cast psychic spells as if she had the
 [Thanatopic Spell](ref/feat/thanatopic-spell) and [Threnodic Spell](ref/feat/threnodic-spell)
 metamagic feats, using her undead phantom as a conduit to pierce the defenses of undead creatures.
+If her phantom has been banished or is not within 30 feet of her when she casts the spells, however,
+these feats have no effect.
 
-**Gained:** At 12th Level
-
-**Replaces:** Greater spiritual interference
-
-**Special:** If her phantom has been banished or is not within 30 feet of her when she casts the
-spells, however, these feats have no effect.
+This ability replaces greater spiritual interference.

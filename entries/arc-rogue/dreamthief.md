@@ -16,13 +16,19 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "dreamshard-focus", level = 1 },
+  { anchor = "lucid-dreamer", level = 3 },
+  { anchor = "soothe-dreaming", level = 4 },
+  { anchor = "dream-infiltrator" },
+]
 trades = [
-  { replaces = "Sneak attack", feature = "sneak-attack" },
-  { replaces = "master strike", feature = "master-strike" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "rogue talent gained at 12th level", feature = "rogue-talents", levels = [12] },
+  { replaces = "Sneak attack", feature = "sneak-attack", by = ["dreamshard-focus"] },
+  { replaces = "master strike", feature = "master-strike", by = ["dreamshard-focus"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["lucid-dreamer"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["soothe-dreaming"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["dream-infiltrator"] },
+  { replaces = "rogue talent gained at 12th level", feature = "rogue-talents", levels = [12], by = ["dream-infiltrator"] },
 ]
 +++
 
@@ -39,84 +45,57 @@ Using the unique power of her dreamshard, a knowledgeable dreamthief can crystal
 dreamers' deepest emotions. Such theft can alter dreamers in profound ways, whether for better or
 worse.
 
-**Gained class skills:** ka, kp
+## Skills {#skills}
 
-**Dreamshard Focus (Su)**
+Knowledge (arcana) and Knowledge (planes) are class skills for a dreamthief.
 
-**Ability:** Once per round when a dreamthief makes a melee attack, she can declare that attack to
-be a _dreamstrike._ This does not require an action, but a dreamthief must declare a _dreamstrike_
-before making the attack roll. A _dreamstrike_ is treated as a slam attack for the purpose of
-emotional focus abilities that apply to a phantom's slam attacks, such as _miserable strike._
+This alters the rogue's class skills.
 
-**Choice:** A dreamthief selects an [emotional focus](ref/ability/emotional-focus) from among those
-available to a spiritualist's phantom. She gains the abilities granted by that emotional focus (with
-the exception of the focus determining her good saving throws - she retains the typical rogue
+## Dreamshard Focus (Su) {#dreamshard-focus}
+
+At 1st level, a dreamthief selects an [emotional focus](ref/ability/emotional-focus) from among
+those available to a spiritualist's phantom. She gains the abilities granted by that emotional focus
+(with the exception of the focus determining her good saving throws—she retains the typical rogue
 saves). For each of the two skills associated with that emotional focus, a dreamthief gains ranks in
 that skill equal to her rogue level; this does not allow her ranks in these skills to exceed her Hit
 Dice.
 
-**At 20th Level:** Any melee attack a dreamthief makes automatically gains this benefit.
+A dreamthief is considered to be both a phantom and a spiritualist for the purpose of emotional
+focus abilities whose effect references both a phantom and a spiritualist, such as dutiful strike,
+and she treats her rogue level as both her spiritualist level and her phantom Hit Dice when
+determining abilities and save DCs.
 
-**Gained:** At 1st Level
+Once per round when a dreamthief makes a melee attack, she can declare that attack to be a
+dreamstrike. This does not require an action, but a dreamthief must declare a dreamstrike before
+making the attack roll. A dreamstrike is treated as a slam attack for the purpose of emotional focus
+abilities that apply to a phantom's slam attacks, such as miserable strike. At 20th level, any melee
+attack a dreamthief makes automatically gains this benefit.
 
-**Passive:** A dreamthief is considered to be both a phantom and a spiritualist for the purpose of
-emotional focus abilities whose effect references both a phantom and a spiritualist, such as
-_dutiful strike,_ and she treats her rogue level as both her spiritualist level and her phantom Hit
-Dice when determining abilities and save DCs.
+This replaces sneak attack and master strike.
 
-**Replaces:** Sneak attack, master strike
+## Lucid Dreamer (Ex) {#lucid-dreamer}
 
-**Lucid Dreamer (Ex)**
-
-**Ability:** A dreamthief can control her dreams, and gains [Lucid Dreamer](ref/feat/lucid-dreamer)
+At 3rd level, a dreamthief can control her dreams, and gains [Lucid Dreamer](ref/feat/lucid-dreamer)
 as a bonus feat.
 
-**Gained:** At 3rd Level
+This replaces trap sense.
 
-**Replaces:** Trap sense
+## Soothe Dreaming (Su) {#soothe-dreaming}
 
-**Soothe Dreaming (Su)**
+At 4th level, a dreamthief can steal negative emotions, freeing allies from harmful conditions. This
+acts as the [mesmerist's](ref/class/mesmerist) touch treatment ability, treating her rogue level as
+her mesmerist level; a dreamthief can use this ability once per day for every 3 rogue levels she
+has.
 
-**Ability:** A dreamthief can steal negative emotions, freeing allies from harmful conditions. This
-acts as the [mesmerist's](ref/class/mesmerist) _touch treatment_ ability, treating her rogue level
-as her mesmerist level.
+This replaces uncanny dodge.
 
-**Gained:** At 4th Level
+## Dream Infiltrator (Sp) {#dream-infiltrator}
 
-**Replaces:** Uncanny dodge
+A dreamthief can enter dreams, whether to learn secrets or meddle more directly. At 8th level, a
+dreamthief can cast _[dream scan](ref/spell/dream-scan)_ once per day as a
+[spell-like ability](ref/umr/spell-like-abilities). At 12th level, once per day she can cast either
+_[dream scan](ref/spell/dream-scan)_ or _[dream travel](ref/spell/dream-travel)_ as a
+[spell-like ability](ref/umr/spell-like-abilities). The caster level of these
+[spell-like abilities](ref/umr/spell-like-abilities) is equal to her rogue level.
 
-**Usage:** 1 time/day per 3 rogue levels
-
-**Dream Infiltrator (Sp)**
-
-**Flavor:** A dreamthief can enter dreams, whether to learn secrets or meddle more directly.
-
-**At 12th Level:** Once per day she can cast either _[dream scan](ref/spell/dream-scan)_ or
-[dream travel](ref/spell/dream-travel) as a [spell-like ability](ref/umr/spell-like-abilities).
-
-**At 8th Level:** A dreamthief can cast [dream scan](ref/spell/dream-scan) once per day as a
-[spell-like ability](ref/umr/spell-like-abilities).
-
-**Replaces:** Improved uncanny dodge, rogue talent gained at 12th level
-
-**Special:** The caster level of these [spell-like abilities](ref/umr/spell-like-abilities) is equal
-to her rogue level.
-
-**Touch Treatment (Su)**
-
-**Flavor:** Text from the mesmerist ability.
-
-**At 10th Level:** You can now also remove the _cowering, nauseated, panicked,_ and _stunned_
-conditions. This is the "greater" ability.
-
-**At 14th Level:** You can instead expend one use of touch treatment to replicate the effects of
-[break enchantment](ref/spell/break-enchantment). This targets only one creature you are touching
-and follows all other restrictions of touch treatment.
-
-**At 6th Level:** You can now also remove the _confused, dazed, frightened,_ and _sickened_
-conditions. This is the "moderate" ability.
-
-**At 3rd Level:** You can help allies shake off harmful conditions - especially those that affect
-their minds - by channeling psychic energy through your healing hands. You must be able to touch
-your target. You can remove the _fascinated_ or _shaken_ condition from your target each time you
-use this ability. This is the "minor" ability.
+This replaces improved uncanny dodge and the rogue talent gained at 12th level.

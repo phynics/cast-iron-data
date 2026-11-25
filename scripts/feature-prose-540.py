@@ -104,6 +104,8 @@ PRINTINGS = {
     "ultimate-intrigue": "Ultimate Intrigue, 1st printing",
     "ultimate-wilderness": "Ultimate Wilderness, 1st printing",
     "adventurers-guide": "Adventurer's Guide, 1st printing",
+    "horror-adventures": "Horror Adventures, 1st printing",
+    "planar-adventures": "Planar Adventures, 1st printing",
 }
 ROOT = HERE.parent
 FORGET_CHECKER_HOLDS = False
@@ -2497,6 +2499,32 @@ TRADE_RENAMES = {
     ('ref/arc-swashbuckler/dashing-thief', 'Regain panache from a killing blow'): "The swashbuckler's ability to regain panache from a killing blow",
     ('ref/arc-swashbuckler/dashing-thief', 'Menacing swordplay'): 'Menacing swordplay deed',
     ('ref/arc-swashbuckler/dashing-thief', 'Dizzying defense'): 'Dizzying defense deed',
+    # Batch 5 (Horror Adventures, Planar Adventures), owner ruling 22: the stored name is the printed wording (the TSV note records each)
+    ('ref/arc-alchemist/mad-scientist', '2nd-level discovery'): 'Discovery gained at 2nd level',
+    ('ref/arc-alchemist/energist', '2nd-level discovery'): 'Discovery gained at 2nd level',
+    ('ref/arc-cleric/elder-mythos-cultist', 'Alignment'): "The cleric's required alignment",
+    ('ref/arc-swashbuckler/azatariel', 'Menacing swordplay'): 'Menacing swordplay deed',
+    ('ref/arc-occultist/talisman-crafter', '5th- and 17th-level focus powers'): 'Focus powers normally gained at 5th and 17th levels',
+    ('ref/arc-spiritualist/exciter', 'ability to use emotional focus abilities that require a manifested phantom'): 'Use emotional focus abilities that require a manifested phantom',
+    ('ref/arc-alchemist/mad-scientist', '4th-level discovery'): 'Discovery gained at 4th level',
+    ('ref/arc-alchemist/mad-scientist', 'Mutagen'): "The alchemist's mutagen",
+    ('ref/arc-witch/gingerbread-witch', '4th-level hex'): 'Hex gained at 4th level',
+    ('ref/arc-swashbuckler/azatariel', 'Precise strike'): 'Precise strike deed',
+    ('ref/arc-witch/gingerbread-witch', '1st- and 10th-level hexes'): 'Hexes gained at 1st and 10th levels',
+    ('ref/arc-wizard/hallowed-necromancer', 'Grave touch necromancy school ability'): 'Grave touch',
+    ('ref/arc-wizard/hallowed-necromancer', '5th-level bonus feat'): 'Bonus feat gained at 5th level',
+    ('ref/arc-wizard/hallowed-necromancer', '10th-level bonus feat'): 'Bonus feat gained at 10th level',
+    ('ref/arc-wizard/hallowed-necromancer', 'Power over undead necromancy school ability'): 'Power over undead',
+    ('ref/arc-wizard/undead-master', '5th-, 10th-, and 15th-level bonus feats'): 'Bonus feats gained at 5th, 10th, and 15th levels',
+    ('ref/arc-wizard/undead-master', '20th-level bonus feat'): 'Bonus feat gained at 20th level',
+    ('ref/arc-wizard/worldseeker', '5th-level bonus feat'): 'Bonus feat gained at 5th level',
+    ('ref/arc-wizard/worldseeker', '15th-level bonus feat'): 'Bonus feat gained at 15th level',
+    ('ref/arc-witch/gingerbread-witch', '8th-level hex'): 'Hex gained at 8th level',
+    ('ref/arc-witch/gingerbread-witch', '12th-level hex'): 'Hex gained at 12th level',
+    ('ref/arc-witch/gingerbread-witch', '16th-level hex'): 'Hex gained at 16th level',
+    ('ref/arc-swashbuckler/azatariel', 'Targeted strike'): 'Targeted strike deed',
+    ('ref/arc-swashbuckler/azatariel', 'Bleeding wound'): 'Bleeding wound deed',
+    ('ref/arc-swashbuckler/azatariel', 'Bonus feats'): "The swashbuckler's bonus feats",
 }
 
 
@@ -2553,6 +2581,7 @@ TRADE_ADDITIONS = {
     "ref/arc-swashbuckler/dashing-thief": [{"alters": "Class skills"}],
     "ref/arc-swashbuckler/rostland-bravo": [{"alters": "Class skills"}],
     "ref/arc-magus/magic-warrior": [{"alters": "Class skills"}],
+    "ref/arc-kineticist/dark-elementalist": [{"alters": "Class skills"}],
 }
 
 
@@ -3008,8 +3037,8 @@ def run_compare(args) -> int:
     title = publication_title(corpus, book)
     ERRATA_CTX["book"] = book
     SKIP_TABLES["on"] = book == "advanced-race-guide"
-    ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness")
-    SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness")
+    ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide", "adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
+    SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
     pdf = find_pdf(Path(args.books), title)
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")

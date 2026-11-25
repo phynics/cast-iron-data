@@ -16,19 +16,26 @@ page = "20"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "nosoi-scribe", level = 1 },
+  { anchor = "psychopomp-s-bond" },
+  { anchor = "warding-vessel", level = 3 },
+  { anchor = "phantom-elegy", level = 8 },
+  { anchor = "algea-call", level = 20 },
+]
 trades = [
-  { replaces = "Phantom", feature = "phantom" },
-  { replaces = "etheric tether", feature = "etheric-tether" },
-  { replaces = "shared consciousness", feature = "shared-consciousness" },
-  { replaces = "spiritual interference", feature = "spiritual-interference" },
-  { replaces = "fused consciousness", feature = "fused-consciousness" },
-  { replaces = "greater spiritual interference", feature = "greater-spiritual-interference" },
-  { replaces = "Bonded manifestation", feature = "bonded-manifestation" },
-  { replaces = "Bonded manifestation increases" },
-  { replaces = "dual bond", feature = "dual-bond" },
-  { replaces = "Empowered consciousness", feature = "empowered-consciousness" },
-  { alters = "Bonded senses", feature = "bonded-senses" },
-  { alters = "phantom recall", feature = "phantom-recall" },
+  { replaces = "Phantom", feature = "phantom", by = ["nosoi-scribe"] },
+  { replaces = "etheric tether", feature = "etheric-tether", by = ["nosoi-scribe"] },
+  { replaces = "shared consciousness", feature = "shared-consciousness", by = ["nosoi-scribe"] },
+  { replaces = "spiritual interference", feature = "spiritual-interference", by = ["nosoi-scribe"] },
+  { replaces = "fused consciousness", feature = "fused-consciousness", by = ["nosoi-scribe"] },
+  { replaces = "greater spiritual interference", feature = "greater-spiritual-interference", by = ["nosoi-scribe"] },
+  { replaces = "Bonded manifestation", feature = "bonded-manifestation", by = ["warding-vessel"] },
+  { replaces = "Bonded manifestation increases", by = ["phantom-elegy"] },
+  { replaces = "dual bond", feature = "dual-bond", by = ["phantom-elegy"] },
+  { replaces = "Empowered consciousness", feature = "empowered-consciousness", by = ["algea-call"] },
+  { alters = "Bonded senses", feature = "bonded-senses", by = ["psychopomp-s-bond"] },
+  { alters = "phantom recall", feature = "phantom-recall", by = ["psychopomp-s-bond"] },
 ]
 +++
 
@@ -46,87 +53,60 @@ during play, and if the attempt is successful, she can apply this archetype retr
 the appropriate modifications to her class choices as if she had been a soul warden from first
 level.
 
-**Nosoi Scribe**
+## Nosoi Scribe {#nosoi-scribe}
 
-**Ability:** A soul warden gains a fledgling nosoi [familiar](ref/ability/familiars). Treat this as
-a [raven familiar](ref/monster/familiar-raven) until the soul warden reaches 4th level, at which
-point it is treated as a [nosoi](ref/monster/psychopomp-nosoi) (as though the soul warden had taken
-the [Improved Familiar](ref/feat/improved-familiar) feat).
+At 1st level, a soul warden gains a fledgling [nosoi](ref/monster/psychopomp-nosoi)
+[familiar](ref/ability/familiars). Treat this as a [raven familiar](ref/monster/familiar-raven)
+until the soul warden reaches 4th level, at which point it is treated as a nosoi (as though the soul
+warden had taken the [Improved Familiar](ref/feat/improved-familiar) feat). The familiar uses the
+soul warden's spiritualist level as its Hit Dice for the purpose of determining the effects and
+duration of its haunting melody ability and all other effects related to its HD. At 10th level, the
+nosoi scribe gains the ability to use its touch the spirit world ability three times per day,
+instead of once per day. At 12th level, it also gains the Repose domain's ward against death
+ability.
 
-**At 10th Level:** The nosoi scribe gains the ability to use its _touch the spirit world_ ability
-three times per day, instead of once per day.
+This replaces phantom, etheric tether, shared consciousness, spiritual interference, fused
+consciousness, and greater spiritual interference.
 
-**At 12th Level:** It also gains the Repose domain's _ward against death_ ability.
+## Psychopomp's Bond (Su) {#psychopomp-s-bond}
 
-**Info:** The familiar uses the soul warden's spiritualist level as its Hit Dice for the purpose of
-determining the effects and duration of its _haunting melody_ ability and all other effects related
-to its HD.
+A soul warden's bond with her nosoi scribe is stronger than usual for a master and familiar. At 2nd
+level, she can use bonded senses with her nosoi scribe, and at 6th level, she can use phantom recall
+to recall her nosoi scribe to her side.
 
-**Gained:** At 1st Level
+This alters bonded senses and phantom recall.
 
-**Replaces:** Phantom, etheric tether, shared consciousness, spiritual interference, fused
-consciousness, greater spiritual interference
+## Warding Vessel (Su) {#warding-vessel}
 
-**Ward Against Death (Su)**
-
-**Flavor:** Text from the Respose domain ability.
-
-**Standard:** You can emit a 30-foot aura that wards against death. Living creatures in this area
-are immune to all death effects, energy drain, and effects that cause
-[negative levels](ref/rule/energy-drain-and-negative-levels). This ward does not remove negative
-levels that a creature has already gained, but the negative levels have no effect while the creature
-is inside the warded area.
-
-**Usage:** 1 time/day per cleric level
-
-**Psychopomp's Bond (Su)**
-
-**Alters:** Bonded senses, phantom recall
-
-**Flavor:** A soul warden's bond with her nosoi scribe is stronger than usual for a master and
-familiar.
-
-**At 2nd Level:** She can use _bonded senses_ with her nosoi scribe.
-
-**At 6th Level:** She can use _phantom recall_ to recall her nosoi scribe to her side.
-
-**Warding Vessel (Su)**
-
-**Ability:** A soul warden can allow a spirit, soul, or incorporeal creature to hide inside her.
+At 3rd level, a soul warden can allow a spirit, soul, or incorporeal creature to hide inside her.
 While within the soul warden, the warded creature can communicate with the soul warden, and it can
 be targeted only by effects that could target a creature possessing another creature's body. The
-warded creature has no other influence over the soul warden or her body.
+warded creature has no other influence over the soul warden or her body. If the soul warden is
+reduced below 0 hit points, the warded creature is expelled.
 
-**Gained:** At 3rd Level
+This replaces bonded manifestation.
 
-**Replaces:** Bonded manifestation
+## Phantom Elegy (Su) {#phantom-elegy}
 
-**Special:** If the soul warden is reduced below 0 hit points, the warded creature is expelled.
+At 8th level, a soul warden's nosoi scribe learns to sing elegies that build on the soul warden's
+conduit to her former phantom. This allows it to create an effect identical to the 7th-level aura
+ability of an [anger](ref/emotionalfocus/anger), [dedication](ref/emotionalfocus/dedication),
+[despair](ref/emotionalfocus/despair), [fear](ref/emotionalfocus/fear),
+[hatred](ref/emotionalfocus/hatred), [jealousy](ref/emotionalfocus/jealousy), or
+[zeal](ref/emotionalfocus/zeal) phantom, except that the phantom elegy is also a sonic effect and
+continues only as long as the nosoi scribe sings. Each round of phantom elegy uses 1 round of the
+nosoi scribe's haunting melody. At 17th level, the nosoi scribe can blend any two of the phantom
+aura abilities into a single phantom elegy, although it uses 3 rounds of its haunting melody for
+each round it does so.
 
-**Phantom Elegy (Su)**
+This replaces bonded manifestation increases and dual bond.
 
-**At 17th Level:** The nosoi scribe can blend any two of the phantom aura abilities into a single
-_phantom elegy,_ although it uses 3 rounds of its _haunting melody_ for each round it does so.
+## Algea Call (Su) {#algea-call}
 
-**At 8th Level:** A soul warden's nosoi scribe learns to sing elegies that build on the soul
-warden's conduit to her former phantom. This allows it to create an effect identical to the
-7th-level _aura_ ability of an [anger](ref/emotionalfocus/anger),
-[dedication](ref/emotionalfocus/dedication), [despair](ref/emotionalfocus/despair),
-[fear](ref/emotionalfocus/fear), [hatred](ref/emotionalfocus/hatred),
-[jealousy](ref/emotionalfocus/jealousy), or [zeal](ref/emotionalfocus/zeal) phantom, except that the
-_phantom elegy_ is also a sonic effect and continues only as long as the nosoi scribe sings. Each
-round of _phantom elegy_ uses 1 round of the nosoi scribe's _haunting melody._
+At 20th level, as a standard action once per hour, a soul warden's nosoi scribe can summon countless
+other nosoi, which flock together to form an [algea](ref/monster/psychopomp-algea). This
+transformation lasts for 1 minute, after which the nosoi scribe returns unharmed, unless the algea
+is brought to 0 hit points or killed, in which case the nosoi scribe returns unconscious at 0 hit
+points. This is a summoning effect.
 
-**Replaces:** Bonded manifestation increases, dual bond
-
-**Algea Call (Su)**
-
-**Gained:** At 20th Level
-
-**Replaces:** Empowered consciousness
-
-**Standard:** Once per hour, a soul warden's nosoi scribe can summon countless other nosoi, which
-flock together to form an [algea](ref/monster/psychopomp-algea). This transformation lasts for 1
-minute, after which the nosoi scribe returns unharmed, unless the algea is brought to 0 hit points
-or killed, in which case the nosoi scribe returns unconscious at 0 hit points. This is a summoning
-effect.
+This replaces empowered consciousness.
