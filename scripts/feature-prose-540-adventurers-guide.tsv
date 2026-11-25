@@ -147,7 +147,7 @@ ref/arc-ranger/lantern-lighter	Poison Immunity (Ex)	poison-immunity	yes	12	print
 ref/arc-ranger/lantern-lighter	Stunning Light (Su)	stunning-light	yes	13	print	print		113	1f247c1081f36bdb9509e16544264f670a97bc1e739d6cc8be032a5ce9684e2d
 ref/arc-ranger/lantern-lighter	Camouflage (Ex)	camouflage	yes	17	print	print		113	13ffa6a8fc6e590e8e797b3908d998cf4dc4f3069b833418cbd90a199f03af6e
 ref/arc-ranger/lantern-lighter	Paralyzing Light (Su)	paralyzing-light	yes	18	print	print		113	5297145e86456385c128cd38b000d4ed055f9b53949a1bbd3616178f3b2363d8
-ref/arc-ranger/raven-master	Class Skills	class-skills	no			hold	checker: [fields] trades = "alters: Hunter's bond" disagrees with the trade sentences of the feature `raven-companion` = "alters: hunter's bond; replaces: specific ranger abilities as indicated below" (line 63)	175	
+ref/arc-ranger/raven-master	Class Skills	class-skills	no		print	print	head printed, not in the import: added from print; opening text written from print: the import differs in bluff, class, class, climb, dis, gained, heal, intm, lost, ride, skill, skill ...; print: Adventurer's Guide, 1st printing	175	
 ref/arc-ranger/raven-master	Avian Empathy (Ex)	avian-empathy	yes		print	print		175	9659f008d8d24b7e2216765f94181699b45cb80c6504af37ec027bd2857ab404
 ref/arc-ranger/raven-master	Raven Companion (Ex)	raven-companion	yes	4	print	print		175	2f291c197100b3ba50639426dbd5261a5fdc03e11bd2947a29b59a3205347dca
 ref/arc-ranger/raven-master	Silver Champion (Ex)	silver-champion	yes	7	print	print		175	6a840b9298abfe6ab88ada052e79252778f416f050cce4f1dbbc50889e027f7a
