@@ -12,7 +12,7 @@ kind = "trait"
 category = "Campaign"
 +++
 
-**Prerequisite:** Member of the The Exchange faction
+**Prerequisite:** Member of the Exchange faction
 
 **Campaign:** Pathfinder Society
 

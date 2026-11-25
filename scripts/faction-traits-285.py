@@ -209,6 +209,12 @@ def titles_and_ids(rows, taken_titles):
     return rows
 
 
+def faction_phrase(faction):
+    """"the Dark Archive". The Exchange is "the Exchange", as print has it ("Members of the
+    Exchange faction"), not "the The Exchange"."""
+    return "the " + faction[4:] if faction.startswith("The ") else f"the {faction}"
+
+
 def render(r):
     g = GUIDES[r["guide"]]
     page = r["page"]
@@ -227,7 +233,7 @@ def render(r):
         'category = "Campaign"\n'
         "+++\n"
         "\n"
-        f'**Prerequisite:** Member of the {r["faction"]} faction\n'
+        f'**Prerequisite:** Member of {faction_phrase(r["faction"])} faction\n'
         "\n"
         f'**Campaign:** Pathfinder Society\n'
         "\n"
@@ -312,6 +318,15 @@ def main():
                 bad += 1
         else:
             path.write_text(text, encoding="utf-8")
+    if args.check:
+        # a faction-trait file that no TSV row writes (a row that was deleted, or a hand-added file)
+        want = {f'{r["slug"]}.md' for r in rows}
+        own = {g["publication"] for g in GUIDES.values()}
+        for f in sorted((corpus / "entries" / "trait").glob("*.md")):
+            src = re.search(r"^source_ids = \[(.*)\]$", f.read_text(encoding="utf-8"), re.M)
+            if src and any(f'"{p}"' in src.group(1) for p in own) and f.name not in want:
+                print(f"no row in the table: {f}", file=sys.stderr)
+                bad += 1
     if bad:
         sys.exit(1)
     print(f"{len(rows)} entries", file=sys.stderr)

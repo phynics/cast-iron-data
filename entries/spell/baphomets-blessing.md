@@ -14,6 +14,8 @@ subschools = ["Polymorph"]
 levels = [
   { class = "Cleric", level = 4 },
   { class = "Druid", level = 4 },
+  { class = "Hunter", level = 4 },
+  { class = "Oracle", level = 4 },
   { class = "Sorcerer", level = 4 },
   { class = "Summoner", level = 4 },
   { class = "Witch", level = 4 },
@@ -33,7 +35,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 4: Cleric, Druid, Sorcerer, Summoner, Witch, Wizard
+Level: 4: Cleric, Druid, Hunter, Oracle, Sorcerer, Summoner, Witch, Wizard
 Casting time: 1 standard action
 Components: V, M/DF (powdered bull's horn)
 Range: touch

@@ -21,6 +21,9 @@ name: corpus
 #   7. `scripts/spell-levels-284.py --self-test` and `--check` (phynics/cast-iron-data#284):
 #      `scripts/spell-levels-284.tsv` is well formed, and every class level that print confirmed is in
 #      its spell entry (the `levels` table and the stat block row).
+#   8. `scripts/faction-traits-285.py generate --check` (phynics/cast-iron-data#285): the 85 faction
+#      traits of the two Pathfinder Society guild guides are the files that
+#      `scripts/faction-traits-285.tsv` writes, and no faction-trait file lacks a row.
 # When Cast Iron `main` changes the corpus format, this workflow fails until a corpus pull
 # request migrates the corpus; that is the point of building from `main`.
 on:
@@ -100,6 +103,11 @@ jobs:
         run: |
           python3 corpus/scripts/spell-levels-284.py --self-test
           python3 corpus/scripts/spell-levels-284.py corpus --check
+      - name: Faction traits of the guild guides (#285)
+        run: |
+          python3 corpus/scripts/faction-traits-285.py generate --check \
+            --tsv corpus/scripts/faction-traits-285.tsv --corpus corpus \
+            --published-ids app/sources/published-ids.txt
       - name: Check and content build
         run: |
           "$RUNNER_TEMP/checker/bin/cast-iron-compile" \
