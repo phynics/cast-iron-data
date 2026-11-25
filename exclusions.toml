@@ -57091,6 +57091,10 @@ path = "ref/eq-reagent/odor-stalk"
 reason = "duplicate of ref/eq-misc/odor-stalk"
 
 [[rejected]]
+path = "ref/eq-weapon/combat-scabbard"
+reason = "duplicate of ref/eq-misc/combat-scabbard; Adventurer's Armory p. 6 prints the combat scabbard as gear only, with no price and no weapon statistics (phynics/cast-iron-data#267, owner ruling 2026-11-25)"
+
+[[rejected]]
 path = "ref/carried/ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
 reason = "duplicate of ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
 
