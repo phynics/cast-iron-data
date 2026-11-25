@@ -8,6 +8,9 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-50-night-of-frozen-shadows"
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "12, 17"
 
 [fields]
 kind = "none"

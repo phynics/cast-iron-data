@@ -2,7 +2,7 @@
 id = "ref/magic-wondrous/key-of-the-second-vault"
 kind = "item"
 title = "Key of the Second Vault"
-source_ids = ["inner-sea-gods", "gods-and-magic", "pathfinder-8-seven-days-to-the-grave"]
+source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "key_of_the_second_vault", path = "json/magic_wondrous_neck.json" },
 ]
