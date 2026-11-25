@@ -71,39 +71,6 @@ Con 15, Int 7, Wis 10, Cha 11; Free Evolutions limbs (arms), slam, swim (2).
 
 This alters the summoner's eidolon.
 
-### PLANT EIDOLON SUBTYPE {#plant-eidolon-subtype}
-
-Plant eidolons consist of vegetable matter infused with raw natural spiritual power.
-
-#### Alignment {#alignment}
-
-Any. Plant eidolons don't have alignment subtypes.
-
-#### Base Form {#alignment-base-form}
-
-Cactus (limbs \[arms\], limbs \[legs\], sting), conifer (claws, limbs \[arms\], limbs \[legs\]),
-fungus (bite, limbs \[arms\], limbs \[legs\]), leaf (limbs \[arms\], limbs \[legs\], slam), seaweed
-(limbs \[arms\], slam, swim \[2\]).
-
-#### Base Evolutions {#base-evolutions}
-
-At 1st level, plant eidolons gain low-light vision as well as the resistance (electricity) and
-resistance (sonic) evolutions.
-
-At 4th level, plant eidolons gain constant _pass without trace_ and they can change shape into
-plants of the size category corresponding to their base form with results similar to _tree shape_.
-
-At 8th level, plant eidolons gain the ability to use _speak with plants_ for 1 minute per Hit Die
-per day with any plants related to the eidolon's base form. These minutes need not be consecutive.
-
-At 12th level, plant eidolons gain immunity to paralysis, poison, sleep, and stun.
-
-At 16th level, plant eidolons gain the ability to use _commune with nature_ once per day and can use
-their _speak with plants_ ability at will. At 20th level, plant eidolons gain a +8 resistance bonus
-on saving throws against mind-affecting effects. They lose their resistance (electricity) and
-resistance (sonic) evolutions and instead gain the immunity (electricity) and immunity (sonic)
-evolutions.
-
 ## Summon Nature's Ally (Sp) {#summon-nature-s-ally}
 
 A leshy caller can cast _[summon nature's ally](ref/spell/summon-natures-ally)_ as a
@@ -122,3 +89,36 @@ spell). She adds [leaf leshys](ref/monster/leshy-leaf-leshy),
 to her list of creatures for _summon nature's ally I_, _II_, _III_, _IV_, and _V_, respectively.
 
 This alters summon monster.
+
+## PLANT EIDOLON SUBTYPE {#plant-eidolon-subtype}
+
+Plant eidolons consist of vegetable matter infused with raw natural spiritual power.
+
+### Alignment {#alignment}
+
+Any. Plant eidolons don't have alignment subtypes.
+
+### Base Form {#alignment-base-form}
+
+Cactus (limbs \[arms\], limbs \[legs\], sting), conifer (claws, limbs \[arms\], limbs \[legs\]),
+fungus (bite, limbs \[arms\], limbs \[legs\]), leaf (limbs \[arms\], limbs \[legs\], slam), seaweed
+(limbs \[arms\], slam, swim \[2\]).
+
+### Base Evolutions {#base-evolutions}
+
+At 1st level, plant eidolons gain low-light vision as well as the resistance (electricity) and
+resistance (sonic) evolutions.
+
+At 4th level, plant eidolons gain constant _pass without trace_ and they can change shape into
+plants of the size category corresponding to their base form with results similar to _tree shape_.
+
+At 8th level, plant eidolons gain the ability to use _speak with plants_ for 1 minute per Hit Die
+per day with any plants related to the eidolon's base form. These minutes need not be consecutive.
+
+At 12th level, plant eidolons gain immunity to paralysis, poison, sleep, and stun.
+
+At 16th level, plant eidolons gain the ability to use _commune with nature_ once per day and can use
+their _speak with plants_ ability at will. At 20th level, plant eidolons gain a +8 resistance bonus
+on saving throws against mind-affecting effects. They lose their resistance (electricity) and
+resistance (sonic) evolutions and instead gain the immunity (electricity) and immunity (sonic)
+evolutions.
