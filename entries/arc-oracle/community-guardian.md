@@ -16,9 +16,15 @@ page = "63"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "recommended-mysteries" },
+  { anchor = "revelations" },
+  { anchor = "spirit-of-community" },
+  { anchor = "renewing-radiance" },
+]
 trades = [
-  { replaces = "Bonus skills from the oracle's mystery", feature = "mystery", power = "class skills" },
-  { replaces = "The bonus spells gained at 2nd, 4th, 6th, 10th, and 12th levels from the oracle's mystery", feature = "mystery", levels = [2, 4, 6, 10, 12], power = "bonus spells" },
+  { replaces = "Additional class skills from her mystery", feature = "mystery", power = "class skills" },
+  { replaces = "Mystery bonus spells from these levels", feature = "mystery", levels = [2, 4, 6, 10, 12], power = "bonus spells" },
 ]
 +++
 
@@ -26,60 +32,44 @@ The community guardian is chosen to protect and succor the weak and innocent wit
 Her calling also allows her to draw upon and focus the collective will in order to achieve those
 goals. A community guardian has the following class features.
 
-**Prerequisites:** Halfling; Alignment must be good.
+## Alignment {#alignment}
 
-**Recommended Mysteries:** [ancestor](ref/mystery/ancestor), [life](ref/mystery/life),
-[lore](ref/mystery/lore), [nature](ref/mystery/nature).
+Any good.
 
-**Replaces:** Bonus skills from the oracle's mystery
+## Recommended Mysteries {#recommended-mysteries}
 
-**Gained class skills:** kl, ling, per, sur
+ancestor, life, lore, nature.
 
-**Bonus Spells**
+## Class Skills {#class-skills}
 
-**Info:** The oracle gains these bonus spells at the listed levels.
+A community guardian adds Knowledge (local), Linguistics, Perception, and Survival to her list of
+class skills. These replace the additional class skills from her mystery.
 
-**Replaces:** The bonus spells gained at 2nd, 4th, 6th, 10th, and 12th levels from the oracle's
-mystery
+## Bonus Spells {#bonus-spells}
 
-**Spells:** Hallow
+_bless water_ (2nd), _consecrate_ (4th), _remove disease_ (6th), _hallow_ (10th), _heroes' feast_
+(12th). These bonus spells replace the oracle's mystery bonus spells from these levels.
 
-**Spells:** Heroes' feast
+## Revelations {#revelations}
 
-**Spells:** Bless water
+A community guardian must take the following revelations at the listed levels.
 
-**Spells:** Consecrate
+## Spirit of Community (Ex) {#spirit-of-community}
 
-**Spells:** Remove disease
+As a move action, you call upon the spirits of community. For the next round, you grant every ally
+within 30 feet a +1 competence bonus on a single skill check (of the ally's choice) that it makes
+before the end of this revelation's duration. Furthermore, allies within 30 feet can, as a free
+action, choose to forgo this bonus, and instead grant a single ally a +1 increase to its competence
+bonus granted by this ability (maximum +5). You can use this ability a number of times per day equal
+to 3 + your Charisma modifier. You must take this revelation at 1st level.
 
-**Revelations**
+## Renewing Radiance (Su) {#renewing-radiance}
 
-**Info:** A community guardian must take the following revelations at the listed levels.
-
-**Spirit of Community (Ex)**
-
-**Gained:** At 1st Level
-
-**Move:** You call upon the spirits of community. For the next round, you grant every ally within 30
-feet a +1 competence bonus on a single skill check (of the ally's choice) that it makes before the
-end of this revelation's duration. Furthermore, allies within 30 feet can, as a **free action**,
-choose to forgo this bonus, and instead grant a single ally a +1 increase to its competence bonus
-granted by this ability (maximum +5).
-
-**Usage:** Charisma3 modifier times/day
-
-**Renewing Radiance (Su)**
-
-**Ability:** Once per day you can produce a [burst](ref/misc/burst) of swirling white light that
-provides a measure of protection and renewal to allies within 30 feet for 1 round. On their turn,
-the allies can choose either to gain a +1 sacred bonus to AC for 1 round or to heal a number of hit
-points equal to 1d6 + your Charisma bonus (their choice). If an ally is [dying](ref/misc/dying), it
-is [stabilized](ref/misc/stable) instead.
-
-**At 14th Level:** The bonus to AC increases to +3, and the healing increases to 3d6 + your Charisma
-bonus hit points.
-
-**At 7th Level:** The bonus to AC increases to +2, and the healing increases to 2d6 + your Charisma
-bonus hit points.
-
-**Gained:** At 3rd Level
+Once per day you can produce a [burst](ref/misc/burst) of swirling white light that provides a
+measure of protection and renewal to allies within 30 feet for 1 round. On their turn, the allies
+can choose either to gain a +1 sacred bonus to AC for 1 round or to heal a number of hit points
+equal to 1d6 + your Charisma bonus (their choice). If an ally is [dying](ref/misc/dying), it is
+[stabilized](ref/misc/stable) instead. At 7th level, the bonus to AC increases to +2, and the
+healing increases to 2d6 + your Charisma bonus hit points, and at 14th level the bonus to AC
+increases to +3, and the healing increases to 3d6 + your Charisma bonus hit points. You must take
+this revelation at 3rd level.
