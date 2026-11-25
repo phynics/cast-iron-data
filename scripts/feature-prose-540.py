@@ -1025,10 +1025,38 @@ CLASS_WORDS = {"alchemist", "barbarian", "bard", "cavalier", "cleric", "druid", 
                "magus", "monk", "oracle", "paladin", "ranger", "rogue", "sorcerer", "summoner", "witch", "wizard", "both"}
 
 
+_ORD_STEM = re.compile(r"^(?:(?:the|a|an)\s+)?\d+(?:st|nd|rd|th)-$", re.I)
+_ORD_FULL = re.compile(r"^(?:(?:the|a|an)\s+)?\d+(?:st|nd|rd|th)-(\S+(?:\s+.*)?)$", re.I)
+
+
+def expand_suspended(text: str) -> str:
+    """The app's list expansion of suspended hyphens (app #727): each suspended item takes the tail of the next full item after it, so
+    "the 4th- and 14th-level vigilante talents and the 9th- and 19th-level social talents" expands per list. A suspended ordinal ("the
+    4th-") takes only the tail of a full item that starts with an ordinal ("level vigilante talents"); any other suspended item
+    ("low-") takes the hyphen tail of the next full hyphenated item ("level" of "high-level"). A suspended item with no full item
+    after it stays as it is: no tail is borrowed from an earlier list. Text without a suspended item is returned as it is."""
+    items = [x.strip() for x in re.split(r",|\band\b|\bor\b", text) if x.strip()]
+    if not any(x.endswith("-") for x in items):
+        return text
+    out = []
+    for i, item in enumerate(items):
+        if item.endswith("-"):
+            later = items[i + 1:]
+            if _ORD_STEM.match(item):
+                tail = next((m.group(1) for m in (_ORD_FULL.match(x) for x in later) if m), None)
+            else:
+                tail = next((x.split("-", 1)[1] for x in later if "-" in x and not x.endswith("-") and x.split("-", 1)[1]), None)
+            if tail:
+                out.append(item + tail)
+                continue
+        out.append(item)
+    return ", ".join(out)
+
+
 def phrase_tokens(text: str, possessor: bool = True) -> list[str]:
     """Words of a trade name or of a printed phrase, as the app reads them: no articles, no class names, ordinals as
     digits, "gained at 4th level" as "4th-level", "1 to 4" as one range."""
-    text = fold(text)
+    text = expand_suspended(fold(text))                                                     # app #727
     text = text.replace(" as well as ", " and ")                                           # R7
     text = re.sub(r"\b(?:normal|normally)\s+", "", text)                                     # R2
     # R10: a possessor phrase before a name ("the sacred shield's holy champion ability") is not part of the name
@@ -3765,6 +3793,14 @@ def self_test() -> int:
     eq(trade_sentences("This ability functions like alter self, except as noted here. This ability alters alchemy."),
        [("alters", "alchemy", False)], "R19 'alter self' is the spell")
     eq(trade_sentences("This ability functions as alter self, beast shape IV, or giant form II, as appropriate."), [], "R19 no verb at all")
+    # the list expansion of suspended hyphens (app #727)
+    eq(expand_suspended("the 4th- and 14th-level vigilante talents and the 9th- and 19th-level social talents"),
+       "the 4th-level vigilante talents, 14th-level vigilante talents, the 9th-level social talents, 19th-level social talents", "two suspended lists, each against its own tail")
+    eq(expand_suspended("low- and high-level"), "low-level, high-level", "a non-ordinal stem takes the generic hyphen tail")
+    eq(expand_suspended("the 4th- and low-light vision"), "the 4th-, low-light vision", "a suspended ordinal takes only an ordinal tail: no tail, no expansion")
+    eq(expand_suspended("1st-level hexes, 4th-"), "1st-level hexes, 4th-", "a trailing suspended item stays: no backward tail")
+    eq(expand_suspended("bonus feats gained at 2nd, 6th, and 10th levels"), "bonus feats gained at 2nd, 6th, and 10th levels", "no suspended item: unchanged")
+    eq(covers("the 4th- and 14th-level vigilante talents and the 9th- and 19th-level social talents", "9th- and 19th-level social talents"), True, "a name against its own list")
     eq(trade_sentences("This ability replaces arcane pool, and it counts as arcane pool for feats."), [("replaces", "arcane pool", False)], "R17 ', and it counts as'")
     eq(trade_sentences("This ability alters self, except as noted here."), [("alters", "self, except as noted here", False)], "R19 'alters self' is not skipped")
     eq(trade_sentences("This ability alters self-sufficiency."), [("alters", "self-sufficiency", False)], "R19 'self-' is not skipped")
