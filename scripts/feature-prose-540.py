@@ -754,7 +754,7 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
             else:
                 insets[ln["col"]] = None
                 starts = indent >= 8
-            if ILLUSTRATED["on"] and starts and out and out[-1].kind == "para" and not re.search(r"[.!?:;)\"”…]\s*$", out[-1].plain()) \
+            if ILLUSTRATED["on"] and starts and out and out[-1].kind == "para" and not re.search(r"[.!?:)\"”…]\s*$", out[-1].plain()) \
                     and not (all(bold for t, bold, _i in out[-1].runs if t.strip())
                              and not next((bold for t, bold, _i in ln["runs"] if t.strip()), True)):
                 # beside an illustration a line may be indented without starting a paragraph: a paragraph does not
@@ -1887,7 +1887,7 @@ def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
         s = finish_text(raw, vocab)
         if not s:
             continue
-        if paras and not re.search(r"(?:[.!?:;]|[.!?]\))\s*$", paras[-1].rstrip().removesuffix(I_CLOSE)):
+        if paras and not re.search(r"(?:[.!?:]|[.!?]\))\s*$", paras[-1].rstrip().removesuffix(I_CLOSE)):      # a semicolon ends no paragraph
             gap = "" if re.search(r"[A-Za-z0-9]/$", paras[-1].rstrip()) else " "      # a slash at a line end joins the next word ("DR 5/" "cold iron")
             joined = fix_hyphens(paras[-1].rstrip() + gap + s, vocab)
             joined = re.sub(I_CLOSE + r"\s+" + I_OPEN + r"(?=[,;.)])", "", joined)      # an italic run that a line end cut

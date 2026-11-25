@@ -77,11 +77,10 @@ companion is ever more than 100 feet away from the totem-bonded.
 While the shared strength ability is active, the totem-bonded manifests one aspect of her animal
 companion drawn from the following list: [low-light vision](ref/rule/low-light-vision),
 [scent](ref/umr/scent), +1 bonus to natural armor, +10-foot bonus to speed, climb speed 30 feet,
-swim speed 40 feet, 2 claws (1d4), bite (1d6), gore (1d6), or slam (1d6);
-
-the [natural attacks](ref/umr/natural-attacks) are all primary attacks, and the listed damage is for
-a Medium creature. The totem-bonded can select only a movement speed or natural attack that her
-animal companion also has, and an aspect cannot cause her speed or size to exceed that of her animal
+swim speed 40 feet, 2 claws (1d4), bite (1d6), gore (1d6), or slam (1d6); the
+[natural attacks](ref/umr/natural-attacks) are all primary attacks, and the listed damage is for a
+Medium creature. The totem-bonded can select only a movement speed or natural attack that her animal
+companion also has, and an aspect cannot cause her speed or size to exceed that of her animal
 companion with this ability. At 8th level, the totem-bonded manifests two aspects of her animal
 companion, and she adds the following to her list of available aspects: +20-foot bonus to speed, fly
 speed 50 feet (average), increased size (as _[enlarge person](ref/spell/enlarge-person)_), and

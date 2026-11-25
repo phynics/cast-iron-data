@@ -57,9 +57,7 @@ ability.
 
 Instead of the normal rage bonuses and penalties, a geminate invoker in a trance gains a +4 morale
 bonus to his Constitution; gains a +2 morale bonus on Reflex and Will saving throws; takes no
-penalties to AC;
-
-can still use Dexterity-, Intelligence-, and Charisma-based skills; and gains
+penalties to AC; can still use Dexterity-, Intelligence-, and Charisma-based skills; and gains
 [Diehard](ref/feat/diehard) as a bonus feat. The Constitution bonus increases to +6 and the save
 bonus increases to +3 when he gains greater rage, and they increase to a +8 Constitution bonus and a
 +4 bonus on saves when he gains mighty rage.

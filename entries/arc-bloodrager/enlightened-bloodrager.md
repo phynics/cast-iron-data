@@ -93,9 +93,8 @@ list of feats she can select as a bloodline feat.
 See pages 124–125 for details on this series of feats.
 
 This ability replaces the [damage reduction](ref/rule/damage-reduction) the bloodrager gains at 7th,
-13th, and 19th levels;
-
-the bloodrager gains DR 1/— at 10th level, and this increases to DR 2/— at 16th level.
+13th, and 19th levels; the bloodrager gains DR 1/— at 10th level, and this increases to DR 2/— at
+16th level.
 
 ## Bloodline Powers {#bloodline-powers}
 
