@@ -21,7 +21,7 @@ features = [
   { anchor = "rain-of-blows", level = 6 },
   { anchor = "razor-s-kiss", level = 8 },
   { anchor = "leaf-on-the-wind", level = 14 },
-  { anchor = "fleet" },
+  { anchor = "fleet", level = 1 },
   { anchor = "versatile-dance", level = 2 },
   { anchor = "dance-of-fury", level = 12 },
   { anchor = "battle-fury", level = 20 },

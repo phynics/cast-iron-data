@@ -3,7 +3,7 @@
 
 [[entry]]
 id = "ref/arc-oracle/dual-cursed-oracle"
-hold = "checker: [fields] trades = \"replaces: Mystery bonus spells at these levels\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 27)"
+hold = "checker: [fields] trades = \"replaces: Mystery bonus spells at these levels\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 26)"
 opening_from_print = true
 opening = ["All oracles are cursed to some degree, but some oracles bear an even heavier burden. Though doubly afflicted with supernatural or physical hindrances, a dual-cursed oracle can manipulate fortune and gains greater insights into her mystery."]
 
@@ -23,7 +23,7 @@ import_trades = ["Oracle's curse"]
 [[entry.feature]]
 anchor = "class-skills"
 head = "Class Skills"
-listed = true
+listed = false
 print = "A dual-cursed oracle gains no additional class skills from her mystery."
 
 [[entry.feature]]
@@ -55,7 +55,7 @@ print = "At 5th level, as an immediate action, you can reroll any one d20 roll t
 
 [[entry]]
 id = "ref/arc-oracle/enlightened-philosopher"
-hold = "checker: [fields] trades = \"replaces: Mystery bonus spells at these levels\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 26)"
+hold = "checker: [fields] trades = \"replaces: Additional class skills from her mystery\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 25)"
 opening_from_print = true
 opening = ["The enlightened philosopher seeks enlightenment through compassion, moderation, and humility. By following her philosophy's teachings, the enlightened philosopher seeks to reach enlightenment and become one with the universe."]
 
@@ -74,7 +74,7 @@ print = "ancestor, fire, heavens, lore, metal, nature, stone, time, waves, wood.
 [[entry.feature]]
 anchor = "class-skills"
 head = "Class Skills"
-listed = true
+listed = false
 print = "An enlightened philosopher adds Linguistics and all Knowledge skills to her list of class skills. These replace the additional class skills from her mystery."
 
 [[entry.feature]]
@@ -221,7 +221,7 @@ print = "Once per day, you can enter a trance to gain a glimpse of the future. T
 
 [[entry]]
 id = "ref/arc-oracle/stargazer"
-hold = "checker: [fields] trades = \"replaces: Mystery bonus spells at these levels\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 26)"
+hold = "checker: [fields] trades = \"replaces: Additional class skills from her mystery\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 25)"
 opening_from_print = true
 opening = ["Some oracles seek meaning in the pattern of the stars across the night sky, the trails of comets, and the eternal orbits of the planets."]
 
@@ -234,7 +234,7 @@ print = "dark tapestry, heavens, lore, nature, time."
 [[entry.feature]]
 anchor = "class-skills"
 head = "Class Skills"
-listed = true
+listed = false
 print = "A stargazer adds Knowledge (nature), Perception, and Survival to her list of class skills. These replace the additional class skills from her mystery."
 
 [[entry.feature]]
