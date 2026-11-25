@@ -108,6 +108,9 @@ A psychic detective selects investigator talents as normal, except she cannot se
 [Expanded Phrenic Pool](ref/feat/expanded-phrenic-pool) feat as a discovery even though she doesn't
 meet that feat's prerequisites, and she can select an extra phrenic amplification once as a
 discovery. The following investigator talents, which can be found on pages 32–34 of the _Pathfinder
-RPG Advanced Class Guide_, complement the psychic detective archetype: confusing strike, device
-talent, effortless aid, hidden agendas, inspired intelligence, item lore, and unconventional
-inspiration. This ability alters investigator talents.
+RPG Advanced Class Guide_, complement the psychic detective archetype:
+[confusing strike](ref/invtalent/confusing-strike), [device talent](ref/invtalent/device-talent),
+[effortless aid](ref/invtalent/effortless-aid), [hidden agendas](ref/invtalent/hidden-agendas),
+[inspired intelligence](ref/invtalent/inspired-intelligence), [item lore](ref/invtalent/item-lore),
+and [unconventional inspiration](ref/invtalent/unconventional-inspiration). This ability alters
+investigator talents.

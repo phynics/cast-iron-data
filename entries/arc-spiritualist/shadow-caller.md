@@ -20,10 +20,6 @@ features = [
   { anchor = "shadowcaster" },
   { anchor = "shade" },
   { anchor = "emotionless" },
-  { anchor = "weakening-touch" },
-  { anchor = "umbral-shroud" },
-  { anchor = "shadow-caster" },
-  { anchor = "midnight-shroud" },
   { anchor = "inhabit-shadow", level = 1 },
   { anchor = "shadow-bound", level = 1 },
   { anchor = "shadow-jump", level = 6 },
@@ -66,25 +62,26 @@ This ability alters phantom.
 ## Emotionless (Su) {#emotionless}
 
 A shadow caller's shade lacks an emotional focus; it is cold and devoid of all emotions. The shade
-gains a number of ranks in Intimidate and Stealth equal to its Hit Dice. The shadow caller gains
-[Skill Focus](ref/feat/skill-focus) in each of these skills while the shade inhabits her shadow. The
-shade has good Reflex and Will saves, gains [Lightning Reflexes](ref/feat/lightning-reflexes) as a
-bonus feat, and gains the following abilities.
+gains a number of ranks in Intimidate and [Stealth](ref/skill/stealth) equal to its Hit Dice. The
+shadow caller gains [Skill Focus](ref/feat/skill-focus) in each of these skills while the shade
+inhabits her shadow. The shade has good Reflex and Will saves, gains
+[Lightning Reflexes](ref/feat/lightning-reflexes) as a bonus feat, and gains the following
+abilities.
 
-## Weakening Touch (Su) {#weakening-touch}
+### Weakening Touch (Su) {#weakening-touch}
 
 A shade's slam attack causes its victim to take a -2 penalty to Strength for 1 round. As a standard
 action, a shade in incorporeal form can deliver the penalty as a touch attack. This penalty does not
 stack with itself. This is a negative energy effect.
 
-## Umbral Shroud (Su) {#umbral-shroud}
+### Umbral Shroud (Su) {#umbral-shroud}
 
 When the shadow caller reaches 7th level, her shade can emit a 10-foot aura of swirling shadows that
 grants all allies 20% [concealment](ref/rule/concealment) against creatures without
 [darkvision](ref/rule/darkvision) or the [see in darkness](ref/umr/see-in-darkness) ability, and a
 +4 bonus on Stealth checks.
 
-## Shadow Caster (Sp) {#shadow-caster}
+### Shadow Caster (Sp) {#shadow-caster}
 
 When the shadow caller reaches 12th level, her shade gains the ability to cast either
 _[shadow conjuration](ref/spell/shadow-conjuration)_ or
@@ -94,7 +91,7 @@ Instead of the normal spell level and percentage of reality for the two spells, 
 level of the duplicated spell is 4th level, and the effects are 40% real. When the shadow caller
 reaches 18th level, the maximum spell level improves to 6th level and effects are 60% real.
 
-## Midnight Shroud (Su) {#midnight-shroud}
+### Midnight Shroud (Su) {#midnight-shroud}
 
 When the shadow caller reaches 17th level, her shade's umbral shroud also lowers the
 [light level](ref/rule/vision-and-light) in its range to [darkness](ref/spell/darkness), regardless

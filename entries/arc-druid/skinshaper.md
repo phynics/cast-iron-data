@@ -50,8 +50,9 @@ level and every 2 druid levels thereafter, up to a total of eight times at 18th 
 level, she can use skinshaping at will.
 
 The skinshaper learns to intuitively use her body as a weapon. While skinshaping, she gains the
-benefit of the Improved Unarmed Strike feat, and her unarmed strike deals damage as if she were a
-monk with a monk level equal to her druid level - 3.
+benefit of the [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat, and her unarmed
+strike deals damage as if she were a [monk](ref/class/monk) with a monk level equal to her druid
+level - 3.
 
 At 6th level, a skinshaper gains the ability to channel the versatile nature of humanoids to enhance
 her body and mind. Whenever she uses skinshaping to assume a humanoid shape other than her own, she
@@ -61,15 +62,18 @@ ability score. She can distribute these bonuses as she wishes in increments of +
 enhancement bonus on any single ability score cannot exceed +4.
 
 At 8th level, a skinshaper can imitate humanoid creatures even more accurately. She gains any of the
-following abilities that the form she assumes has: darkvision 90 feet, low-light vision, scent,
-climb 60 feet, fly 60 feet (good maneuverability), swim 60 feet, ferocity, orc ferocity, and hold
-breath. If the form she assumes has the aquatic subtype, she gains the aquatic subtype and the
-amphibious special quality.
+following abilities that the form she assumes has: [darkvision](ref/rule/darkvision) 90 feet,
+[low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent), climb 60 feet, fly 60 feet
+(good maneuverability), swim 60 feet, [ferocity](ref/umr/ferocity),
+[orc ferocity](ref/race/half-orc), and [hold breath](ref/umr/hold-breath). If the form she assumes
+has the [aquatic](ref/subtype/aquatic) subtype, she gains the aquatic subtype and the
+[amphibious](ref/umr/amphibious) special quality.
 
 At 12th level, a skinshaper can access the racial memory of the humanoid she is imitating. If the
 form she assumes has any of the following racial abilities, she gains those abilities: defensive
-training, hatred, poison use, sneak attack +2d6, stability, and weapon familiarity. Additionally,
-she can speak any racial languages of the chosen form.
+training, hatred, [poison use](ref/ability/poison-use), [sneak attack](ref/ability/sneak-attack)
++2d6, stability, and weapon familiarity. Additionally, she can speak any racial languages of the
+chosen form.
 
 At 16th level, a skinshaper gains the racial skill bonuses of the imitated humanoid, to a maximum of
 a +4 bonus on a given skill. The skinshaper cannot benefit from any variable racial skill bonuses

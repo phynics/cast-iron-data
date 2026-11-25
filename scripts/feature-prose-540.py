@@ -506,6 +506,8 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     s = s.replace("\u00ad", "")
+    s = re.sub(r"(?<=[a-z])/ (?=[a-z])", "/", s)                                   # "law/" at a line end, "chaos" on the next
+    s = re.sub(r"(?<=[A-Za-z" + I_CLOSE + r"]) +(?=['\u2019]s\b)", "", s)         # "thief 's" (kerning of an italic or bold run)
     s = re.sub("\ufffd(?=\\d)", "\u00d7", s)             # a multiplication sign that the extraction lost ("a x2 becomes a x3")
     s = re.sub(r"(?<![\w)\]])–(?=\d)", "-", s)           # a minus sign
     s = re.sub(r"(?<=\w) – (?=\d)", " - ", s)             # a minus operator ("druid level – 2")
@@ -633,7 +635,8 @@ def load_book(xml_path: Path) -> Book:
                 raw, plain = mark.group(1), mark.group(1)
             elif (mark and not mark.group(1)) or (int(_h) <= 11 and re.fullmatch(r"[A-Z]{2,4}|[\u2020\u2021]+", plain)):
                 # left out of the text; `page_lines` keeps the blank that ends a line when the mark stood last
-                items.append((top, left, int(font), SUPERSCRIPT, int(_w)))
+                # a mark that carries the blank of the word space after it ("Performance" + "APG " + "feat") keeps it
+                items.append((top, left, int(font), SUPERSCRIPT + (" " if raw != raw.rstrip() else ""), int(_w)))
                 continue
             if top > BODY_TOP[1] and plain.isdigit():
                 printed[num] = int(plain)
@@ -673,8 +676,16 @@ def page_lines(book: Book, num: int) -> list[dict]:
                 cur.append({"col": col, "top": top, "size": book.fonts[str(font)], "parts": [(left, raw, width)]})
         for ln in cur:
             ln["parts"].sort()
-            ends_in_sup = ln["parts"][-1][1] == SUPERSCRIPT
-            ln["parts"] = [x for x in ln["parts"] if x[1] != SUPERSCRIPT]
+            ends_in_sup = ln["parts"][-1][1].startswith(SUPERSCRIPT)
+            kept = []
+            for k, (a, raw, w) in enumerate(ln["parts"]):
+                if not raw.startswith(SUPERSCRIPT):
+                    kept.append((a, raw, w))
+                elif raw.endswith(" ") and k + 1 < len(ln["parts"]):
+                    nxt = re.sub(r"</?[bi]>", "", ln["parts"][k + 1][1]).lstrip()[:1]
+                    if nxt and nxt not in ",.;:)":
+                        kept.append((a, " ", w))     # the blank of a mark in the middle of a line
+            ln["parts"] = kept
             if ln["parts"] and ends_in_sup:
                 a, raw, w = ln["parts"][-1]
                 ln["parts"][-1] = (a, raw.rstrip() + " ", w)
@@ -1809,6 +1820,20 @@ def is_scaffold(head: str) -> bool:
     return key in SCAFFOLD or ABILITY_TAG.sub("", key).strip() in SCAFFOLD      # "Bonus Feats (Ex)" is "Bonus Feats"
 
 
+def place_elsewhere(rows: list[dict], label: str, target: str) -> str | None:
+    """Wraps the first free occurrence of `label` in the text of any section of the entry in a link; returns the anchor."""
+    for r in rows:
+        if r.get("print"):
+            # the italic marks are underscores here: back to marks, so that a word inside italics is a word
+            marked = re.sub(r"(?<![\w\\])_(?=\S)", I_OPEN, r["print"])
+            marked = re.sub(r"(?<=\S)_(?!\w)", I_CLOSE, marked)
+            text, lost = apply_links(marked, [(label, target)])
+            if not lost:
+                r["print"] = render_marks(text)
+                return r["anchor"]
+    return None
+
+
 def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
     """The finished paragraphs of cleaned runs. A line of a sidebar that print sets in a narrow column starts no
     paragraph of its own: a paragraph that ends without a sentence end continues (a list item, a heading or a table
@@ -1885,6 +1910,12 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
         notes.append(f"errata: Paizo errata for {ERRATA_BOOKS.get(ERRATA_CTX['book'], '')} p. {feat.errata} replaces this ability")
     lost: list[str] = []
     if links:
+        links = list(links)
+        for label, target in list(links):
+            phrase = CONTEXT_LINKS.get((entry_id, label))
+            if phrase and phrase in text:
+                text = text.replace(phrase, phrase[: -len(label)] + f"[{label}]({target})", 1)
+                links.remove((label, target))
         text, lost = apply_links(text, links)
     return render_marks(text), lost, notes
 
@@ -1951,6 +1982,14 @@ OPENING_NOTES = {
 }
 
 
+# A link of the import that belongs on one phrase of the text, not on the first occurrence of its word: the entry, the
+# label and the words that end with it. Fey Caller (Ultimate Intrigue p. 71): the import links "fey" in "also counts as a
+# fey", the first "fey" of the text is the name of the archetype.
+CONTEXT_LINKS = {
+    ("ref/arc-unchained-summoner/fey-caller", "fey"): "counts as a fey",
+}
+
+
 def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str]) -> bool:
     """Whether the printed section holds a key of its asterisks (a sentence that names the asterisk and is not the
     book's "An asterisk (*) indicates ..." line): then its marks stay (owner ruling 10)."""
@@ -1958,7 +1997,7 @@ def marks_key_printed(pfeats: list[PrintFeature], vocab: set[str]) -> bool:
         for runs in pf.paras:
             t = finish_text(clean_runs(runs), vocab)
             t = re.sub(r"(?:^|\n\n)(?:An asterisk \(\\\*\)|\\\*) [Ii]ndicates[^\n]*", "", t)
-            if re.search(r"\basterisk\b", t, re.I):
+            if re.search(r"\basterisks?\b", t, re.I):
                 return True
     return False
 
@@ -2031,6 +2070,12 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                "status": cmp.status, "notes": list(cmp.notes) + pnotes, "name": pf.head}
         if lost:
             row["notes"].append("link not placed: " + ", ".join(lost))
+            pool = list(old_links(f) + EXTRA_LINKS.get((e.id, anchor_of(head)), []))
+            row["lost_links"] = []
+            for label in lost:
+                at = next((k for k, (lb, _t) in enumerate(pool) if lb == label), None)
+                if at is not None:
+                    row["lost_links"].append(pool.pop(at))
         row["option"] = (is_option_head(head, pf.bold) and not f.pseudo) or (e.id, row["anchor"]) in OPTION_HEADS
         row["listed"] = not is_scaffold(head) and not f.pseudo and not row["option"]
         if (e.id, row["anchor"]) in PRINT_WINS and row["status"] == "hold":
@@ -2674,10 +2719,27 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
         rows[0]["notes"].append("opening text written from print: the import differs in " + ", ".join(res["opening_diff"][:12])
                                 + (" ..." if len(res["opening_diff"]) > 12 else ""))
     res["opening"] = opening
+    # a link that its own section could not place goes on the first free occurrence of its words in any section of the
+    # entry (owner review of batch 3); only the links that find no place anywhere stay in the notes
+    for r in rows:
+        placed = []
+        for label, target in r.pop("lost_links", []):
+            at = place_elsewhere(rows, label, target)
+            if at:
+                placed.append((label, at))
+        if placed:
+            old = next((n for n in r["notes"] if n.startswith("link not placed: ")), "")
+            gone = {lb for lb, _ in placed}
+            rest = [x for x in old[len("link not placed: "):].split(", ") if x and x not in gone]
+            r["notes"] = [n for n in r["notes"] if not n.startswith("link not placed: ")]
+            if rest:
+                r["notes"].append("link not placed: " + ", ".join(rest))
+            r["notes"] += [f"link of `{lb}` placed in `{at}`" for lb, at in placed]
     for r in dropped:
         for label, target in r.get("links", []):
             if not any(f"[{label}]({target})" in o["print"] for o in rows):
-                r["notes"].append(f"link of the dropped section not placed: {label}")
+                at = place_elsewhere(rows, label, target)
+                r["notes"].append(f"link of the dropped section placed in `{at}`: {label}" if at else f"link of the dropped section not placed: {label}")
     res["problems"] = [p for p in problems if not p.startswith("head not printed")]
     problems = res["problems"]
     left = [r["head"] for r in rows if "head not printed" in r["notes"] and r["status"] == "hold"]
@@ -3303,6 +3365,15 @@ def self_test() -> int:
     text, _, notes = print_md(pf, [("alchemist's", "ref/class/alchemist")], set(), "ref/arc-gunslinger/gun-tank")
     eq(text, "(including the [alchemist's](ref/class/alchemist) bomb class ability). It works.", "ruling 26: a bare book citation goes, the link stays")
     eq(finish_text("gains DR 5/\u2014 against ranged attacks, 1st\u2014 _spell_", set()), "gains DR 5/\u2014 against ranged attacks, 1st\u2014_spell_", "an em dash joins the next line after a word, not after DR 5/")
+    # a mark in the middle of a line keeps the blank of its word space; before a comma it keeps none; at a line end the blank joins the line
+    bk = Book({"1": 16}, {1: [(500, 108, 1, "the Lingering Performance", 137), (501, 245, 1, SUPERSCRIPT + " ", 17), (500, 263, 1, "feat, and", 50),
+                              (520, 108, 1, "simulacrum", 60), (521, 170, 1, SUPERSCRIPT, 15), (520, 190, 1, ", then", 40),
+                              (540, 108, 1, "or vanish", 60), (541, 170, 1, SUPERSCRIPT, 15)]}, {}, set())
+    got = ["".join(t for t, _, _ in ln["runs"]) for ln in page_lines(bk, 1)]
+    eq(got, ["the Lingering Performance feat, and", "simulacrum, then", "or vanish "], "the blank of a superscript mark")
+    eq(finish_text("the law/ chaos axis and a thief \u2019s broad study", set()), "the law/chaos axis and a thief's broad study", "a slash at a line end, a spaced apostrophe")
+    rows_t = [{"anchor": "a", "print": "a _mirror image_ and a [grease](x) spell"}, {"anchor": "b", "print": "he casts _mirror image_ too"}]
+    eq((place_elsewhere(rows_t, "mirror image", "ref/spell/mirror-image"), rows_t[0]["print"]), ("a", "a _[mirror image](ref/spell/mirror-image)_ and a [grease](x) spell"), "a link inside italics")
     # a section ends at a parenthesized type title (owner review of batch 3), not only at an archetype title
     blocks = [Para("title", [("SILVER BALLADEER (BARD ARCHETYPE)", True, False)], 1, 0, 18), Para("para", [("Text.", False, False)], 1, 0),
               Para("title", [("ORDER OF THE SHROUD (CAVALIER ORDER)", True, False)], 1, 0, 18), Para("para", [("Order text.", False, False)], 1, 0)]

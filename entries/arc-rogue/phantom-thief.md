@@ -57,7 +57,7 @@ unchained rogue, it also alters rogue's edge and replaces debilitating injury.
 
 ## Broad Education (Ex) {#broad-education}
 
-A phantom thief 's broad studies with expensive tutors keep her up to speed in both martial and
+A phantom thief's broad studies with expensive tutors keep her up to speed in both martial and
 magical knowledge, as well as in her skills. She can select the
 [combat trick](ref/talent/combat-trick), [minor magic](ref/talent/minor-magic), and
 [major magic](ref/talent/major-magic) rogue talents as many times as she likes, and she can select

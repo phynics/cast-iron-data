@@ -77,7 +77,7 @@ This ability replaces magic item skill.
 ## Share Memory (Sp) {#share-memory}
 
 At 4th level, a secret broker learns to use her knowledge transference powers more flexibly,
-allowing her to use _[share memory](ref/spell/share-memory)_at will, but only with willing targets.
+allowing her to use _[share memory](ref/spell/share-memory)_ at will, but only with willing targets.
 
 This ability replaces shift focus.
 

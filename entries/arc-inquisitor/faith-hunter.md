@@ -37,7 +37,7 @@ they stop at nothing when obsessively hunting these foes down.
 ## Sworn Enemy (Sp, Su) {#sworn-enemy}
 
 A faith hunter chooses a single alignment (such as chaotic evil, rather than simply chaotic or evil)
-that directly opposes her own along either the law/ chaos axis or the good/evil axis (so a lawful
+that directly opposes her own along either the law/chaos axis or the good/evil axis (so a lawful
 good faith hunter can choose chaotic good, chaotic neutral, chaotic evil, neutral evil, or lawful
 evil, whereas a neutral good faith hunter can only choose chaotic evil, neutral evil, or lawful
 evil). Creatures of this alignment are her sworn enemies. She can detect creatures of that specific

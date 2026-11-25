@@ -41,17 +41,19 @@ drink the wine while in the hidden halls of the fey.
 
 At 1st level, a feyspeaker allows the strange idylls of the fey to guide her magic. The feyspeaker
 uses her Charisma score instead of her Wisdom score as her key spellcasting ability score (to
-determine her spell DCs, bonus spells per day, concentration checks, and so on).
+determine her spell DCs, [bonus spells](ref/rule/determine-bonuses) per day, concentration checks,
+and so on).
 
 At 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th levels, a feyspeaker adds one enchantment or
 illusion spell from the sorcerer/wizard spell list to her druid spell list as a spell of 1 level
-higher (for instance, at 4th level, she could add _color spray_ as a 2nd-level druid spell). In
-order to select a spell, she must be of a level high enough (including the increased spell level) to
-cast it. Once selected, the spell cannot be changed.
+higher (for instance, at 4th level, she could add _[color spray](ref/spell/color-spray)_ as a
+2nd-level druid spell). In order to select a spell, she must be of a level high enough (including
+the increased spell level) to cast it. Once selected, the spell cannot be changed.
 
-A feyspeaker loses the ability to spontaneously cast _summon nature's ally_ spells. She gains the
-wild shape ability at 6th level and gains all benefits related to wild shape 2 druid levels later
-than usual. She can never use wild shape to transform into an elemental.
+A feyspeaker loses the ability to spontaneously cast
+_[summon nature's ally](ref/spell/summon-natures-ally)_ spells. She gains the wild shape ability at
+6th level and gains all benefits related to wild shape 2 druid levels later than usual. She can
+never use wild shape to transform into an elemental.
 
 This ability alters wild shape and spellcasting.
 

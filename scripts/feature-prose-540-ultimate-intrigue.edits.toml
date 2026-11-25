@@ -3,10 +3,10 @@
 [[add]]
 entry = "ref/arc-vigilante/wildsoul"
 anchor = "feline-natural-course"
-head = 'Feline Natural Course (Blood of Beasts page 7)'
+head = 'Feline Natural Course (Blood of the Beast page 7)'
 parent = "natural-course"
-after = "ursine"
-note = 'text of another owner book (owner ruling 32): the feline natural course of the wildsoul, Blood of Beasts page 7, checked against that print (the import held it as four features of the archetype)'
+after = "bear-form"
+note = 'text of another owner book (owner ruling 32): the feline natural course of the wildsoul, Blood of the Beast page 7, checked against that print (the import held it as four features of the archetype)'
 text = '''
 When a vigilante with the wildsoul archetype chooses a vigilante specialization, he can choose the following natural course. Feline wildsouls have the blood of great cats running through their veins.
 

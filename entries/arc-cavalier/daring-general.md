@@ -60,11 +60,12 @@ battle. If she does, the mount's speed increases by 10 feet and its Dexterity sc
 These benefits last for 1 hour.
 
 _Squire_: The squire's main task is to care for the daring general's arms and armor. If the squire
-aids the daring general in donning his armor, it takes half as much time to don as it would if
-someone else aided the daring general. Additionally, when the squire is adjacent to the daring
-general, as a standard action, she can grant a +2 bonus to the daring general's AC against the first
-attack made against the daring general before the squire's next turn. This counts as an application
-of the aid another action, but the squire does not need to threaten the attacker in question.
+aids the daring general in donning his armor, it takes [half](ref/misc/fractions-and-rounding) as
+much time to don as it would if someone else aided the daring general. Additionally, when the squire
+is adjacent to the daring general, as a standard action, she can grant a +2 bonus to the daring
+general's AC against the first attack made against the daring general before the squire's next turn.
+This counts as an application of the [aid another](ref/rule/aid-another-2) action, but the squire
+does not need to threaten the attacker in question.
 
 _Standard Bearer_: The daring general's standard bearer can carry his banner in his stead, granting
 the benefits of his banner ability (and later, his greater banner ability) to all allies within 60

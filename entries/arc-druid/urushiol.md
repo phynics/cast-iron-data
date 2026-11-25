@@ -56,8 +56,9 @@ poison is wiped away.
 
 At 4th level, an urushiol's body becomes so saturated with poison that even his flesh is poisonous.
 
-Whenever a creature damages the urushiol with a bite or swallow whole attack, the urushiol can
-release ingested poison into the creature by spending 1 of his daily doses as an immediate action.
+Whenever a creature damages the urushiol with a bite or [swallow whole](ref/umr/swallow-whole)
+attack, the urushiol can release ingested poison into the creature by spending 1 of his daily doses
+as an immediate action.
 
 At 7th level, an urushiol can spend 2 daily doses of his poison as a standard action to secrete a
 contact poison and coat one of his limbs with the secreted poison. The urushiol can deliver the

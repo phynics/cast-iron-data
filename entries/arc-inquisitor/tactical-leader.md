@@ -35,8 +35,8 @@ with like-minded allies to accomplish mutual goals.
 ## Leader's Words (Ex) {#leader-s-words}
 
 Tactical leaders are skilled at speaking soothing words that keep the peace and bolster allies'
-resolve. A tactical leader receives a morale bonus on all Diplomacy checks equal to half his
-inquisitor level (minimum +1).
+resolve. A tactical leader receives a morale bonus on all Diplomacy checks equal to
+[half](ref/misc/fractions-and-rounding) his inquisitor level (minimum +1).
 
 This ability replaces stern gaze.
 

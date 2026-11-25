@@ -19,14 +19,10 @@ kind = "archetype"
 features = [
   { anchor = "geistform-phantom" },
   { anchor = "emotionless" },
-  { anchor = "unnerving-touch" },
-  { anchor = "poltergeist-s-knack", level = 7 },
-  { anchor = "spectral-protection", level = 12 },
-  { anchor = "malevolent-possession", level = 17 },
   { anchor = "spiritual-manifestation" },
 ]
 trades = [
-  { replaces = "The phantom's emotional focus", feature = "phantom", power = "emotional focus", by = ["malevolent-possession"] },
+  { replaces = "The phantom's emotional focus", feature = "phantom", power = "emotional focus", by = ["emotionless"] },
   { alters = "Phantom", feature = "phantom", by = ["geistform-phantom"] },
   { alters = "Bonded manifestation", feature = "bonded-manifestation", by = ["spiritual-manifestation"] },
   { alters = "Phantom", by = ["geistform-phantom"] },
@@ -68,7 +64,7 @@ channeler [Skill Focus](ref/feat/skill-focus) in each of these skills. The phant
 and Will saves, and gains [Iron Will](ref/feat/iron-will) as a bonus feat, as well as the following
 abilities.
 
-## Unnerving Touch (Su) {#unnerving-touch}
+### Unnerving Touch (Su) {#unnerving-touch}
 
 As a standard action, a geist channeler's phantom can make a melee touch attack against a living
 creature, even if that creature is corporeal. If the attack hits, the target is
@@ -78,7 +74,7 @@ damage corporeal creatures with its slam attack, its slam attacks against living
 gain this ability. Multiple attacks against the same creature don't cause the creature to become
 [frightened](ref/misc/frightened). This is a mind-affecting fear effect.
 
-## Poltergeist's Knack (Sp) {#poltergeist-s-knack}
+### Poltergeist's Knack (Sp) {#poltergeist-s-knack}
 
 At 7th level, a geist channeler's phantom can use _[telekinesis](ref/spell/telekinesis)_ as a
 [spell-like ability](ref/umr/spell-like-abilities). It can use only the sustained force and violent
@@ -86,7 +82,7 @@ thrust versions of this spell. The phantom can use this ability three times per 
 additional time at 10th level and every 3 levels thereafter (maximum seven times per day at 19th
 level). Its caster level for this spell-like ability is equal to the phantom's Hit Dice.
 
-## Spectral Protection (Su) {#spectral-protection}
+### Spectral Protection (Su) {#spectral-protection}
 
 At 12th level as a standard action, while a geist channeler's phantom is confined within his psyche,
 he can call upon its power to project an aura of spectral energy that prevents incorporeal creatures
@@ -98,7 +94,7 @@ forcing the aura against an incorporeal creature collapses the aura. The geist c
 this ability for a number of minutes per day equal to his spiritualist level. The minutes don't need
 to be continuous, but must be spent in 1-minute increments.
 
-## Malevolent Possession (Sp) {#malevolent-possession}
+### Malevolent Possession (Sp) {#malevolent-possession}
 
 At 17th level, a geist channeler's phantom can invade the bodies of other creatures. This functions
 as _[possession](ref/spell/possession)_ (see page 181)_._ To use this ability, the phantom must be

@@ -45,8 +45,9 @@ attempts to use it.
 
 Using an injection is a standard action that requires a melee touch attack. If the attack hits, the
 target of an injection takes a -2 penalty on its Will saving throws for a number of minutes equal to
-half the interrogator's class level (minimum 1). If the interrogator is also using a serum with this
-injection, the penalty on Will saves applies to any save against the serum.
+[half](ref/misc/fractions-and-rounding) the interrogator's class level (minimum 1). If the
+interrogator is also using a serum with this injection, the penalty on Will saves applies to any
+save against the serum.
 
 If the melee touch attack fails, the injection isn't delivered but can still be used again—once
 activated, it remains potent for 1 day. An injection that hasn't been administered becomes inert if

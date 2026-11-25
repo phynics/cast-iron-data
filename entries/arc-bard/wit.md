@@ -82,8 +82,8 @@ This ability replaces inspire competence, dirge of doom, and frightening tune.
 ## Quick Witted (Ex) {#quick-witted}
 
 At 2nd level, a wit can always act in a surprise round (though he remains
-[flat-footed](ref/rule/flat-footed) until he acts). In addition, the wit adds half his bard level on
-initiative checks.
+[flat-footed](ref/rule/flat-footed) until he acts). In addition, the wit adds
+[half](ref/misc/fractions-and-rounding) his bard level on initiative checks.
 
 This ability replaces versatile performance.
 

@@ -55,11 +55,12 @@ This ability replaces well-versed.
 A warlord gains the following raging song.
 
 _Fear Me_ (Su): At 5th level, the warlord can remind his allies that failing him is far more
-frightening than the opposition. This raging song works like distraction, except that it applies to
-saving throws against fear effects instead of patterns and figments, and the warlord attempts an
-Intimidate check with a -10 penalty instead of a Perform check. Additionally, the warlord's allies
-can use the warlord's Intimidate check result (with the -10 penalty) as the DC for attempts to
-demoralize them using Intimidate.
+frightening than the opposition. This raging song works like
+[distraction](ref/performance/distraction), except that it applies to saving throws against fear
+effects instead of patterns and figments, and the warlord attempts an Intimidate check with a -10
+penalty instead of a Perform check. Additionally, the warlord's allies can use the warlord's
+Intimidate check result (with the -10 penalty) as the DC for attempts to demoralize them using
+Intimidate.
 
 This ability replaces spell kenning.
 

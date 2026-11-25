@@ -45,8 +45,8 @@ A vox adds the following spells to his class list: 1st—_ear-piercing scream_; 
 disrupt silence_ (see page 212), _distracting cacophony, piercing shriek, sonic scream_; 4th—_shout,
 sonic thrust, wall of sound_; 5th—_cacophonous call (mass), echolocation, resonating word_;
 6th—_magnifying chime, shout (greater), sonic form._ Unlike most psychic spells, a vox's mesmerist
-spells use both thought and verbal components; like a bard, a vox cannot remove the verbal
-components of his spells.
+spells use both thought and verbal components; like a [bard](ref/class/bard), a vox cannot remove
+the verbal components of his spells.
 
 This alters the mesmerist's spellcasting and replaces towering ego, the mesmerist trick normally
 gained at 10th level, and touch treatment (break enchantment).

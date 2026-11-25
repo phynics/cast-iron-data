@@ -91,10 +91,11 @@ provoke attacks of opportunity. A gunmaster must be at least 12th level to selec
 
 ### Quick Clear (Ex) {#quick-clear}
 
-Once per day as a standard action, the gunmaster can remove the broken condition from a single
-firearm he is currently wielding, as long as that condition was gained by a firearm misfire.
-Starting at 12th level, once per day, when the gunmaster rolls a misfire with a gun that has the
-broken condition, she can prevent the gun from exploding, though it retains the broken condition.
+Once per day as a standard action, the gunmaster can remove the [broken](ref/misc/broken) condition
+from a single firearm he is currently wielding, as long as that condition was gained by a firearm
+misfire. Starting at 12th level, once per day, when the gunmaster rolls a misfire with a gun that
+has the broken condition, she can prevent the gun from exploding, though it retains the broken
+condition.
 
 ## Nimble (Ex) {#nimble}
 
