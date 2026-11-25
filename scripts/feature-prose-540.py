@@ -3563,9 +3563,12 @@ def recheck(corpus: Path, args, written: list[Entry], originals: dict[Path, str]
 
 # ---- --check --------------------------------------------------------------------------------------------
 
-# A printed trade sentence that states no trade on purpose (listed in the PR body): Weretouched's Lycanthrope Aspect says
-# "This alters her other class features, as detailed in each relevant class feature", a cross-reference to the features that follow.
-TRADE_GAPS_ALLOWED = {("ref/arc-shifter/weretouched", "her other class features, as detailed in each relevant class feature")}
+# The printed trade sentences that state no trade on purpose are listed in `trade-sentence-exceptions.toml` in the corpus root (the file
+# that the app's check reads; one `[[exception]]` row each with `entry`, `feature`, `sentence`, `reason` and `issue`); the script reads the
+# same file, so the two never disagree. A sentence matches when its squashed text contains the row's squashed `sentence`.
+def trade_sentence_exceptions(root: Path) -> list[dict]:
+    path = root / "trade-sentence-exceptions.toml"
+    return tomllib.loads(path.read_text(encoding="utf-8")).get("exception", []) if path.exists() else []
 
 
 def printed_trade_gaps(e: Entry) -> list[str]:
@@ -3588,7 +3591,8 @@ def printed_trade_gaps(e: Entry) -> list[str]:
         # review of #329: Planar Scout, Witch Killer, Dreamthief and Experimenter print "This alters the ... class skills" there)
         sentences = trade_sentences(part[m.end():], ABILITY_TAG.sub("", head or m.group(1)).strip())
         for sop, ph, _bare in sentences:
-            if re.match(r"(?:grants|to|does|do|not)\b", ph) or (e.id, ph) in TRADE_GAPS_ALLOWED:
+            if re.match(r"(?:grants|to|does|do|not)\b", ph) or any(
+                    x["entry"] == e.id and squash(x["sentence"]) in squash(ph) for x in trade_sentence_exceptions(e.path.parents[2])):
                 continue                    # "This change to spells doesn't apply", "This ability does not alter ...": no trade sentence
             if not any(op == sop and covers(ph, name) for op, name in trades):
                 out.append(f'{head}: the sentence "This {sop} {ph}" has no stored trade')
