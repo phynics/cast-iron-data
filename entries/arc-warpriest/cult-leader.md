@@ -16,12 +16,18 @@ page = "128"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "well-hidden", level = 1 },
+  { anchor = "sneak-attack", level = 3 },
+  { anchor = "enthrall", level = 4 },
+  { anchor = "hide-in-plain-sight", level = 12 },
+]
 trades = [
   { replaces = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { replaces = "Focus weapon", feature = "focus-weapon" },
-  { replaces = "Bonus feats gained at 3rd, 9th, and 15th levels", feature = "bonus-feats", levels = [3, 9, 15] },
-  { replaces = "Channel energy", feature = "channel-energy" },
-  { replaces = "Bonus feat gained at 12th level", feature = "bonus-feats", levels = [12] },
+  { replaces = "Focus weapon", feature = "focus-weapon", by = ["well-hidden"] },
+  { replaces = "Bonus feats gained at 3rd, 9th, and 15th levels", feature = "bonus-feats", levels = [3, 9, 15], by = ["sneak-attack"] },
+  { replaces = "Channel energy", feature = "channel-energy", by = ["enthrall"] },
+  { replaces = "Bonus feat gained at 12th level", feature = "bonus-feats", levels = [12], by = ["hide-in-plain-sight"] },
 ]
 +++
 
@@ -30,68 +36,48 @@ their deity. And the hierarchs of those devotees, the cult leaders, are the most
 all. Cult leaders are known for turning reasonable hearts toward corrupted teachings and striking at
 those that get in the way of their agenda.
 
-**Gained class skills:** acro, bluff, dis, ea, kl, per, soh, stl
+## Class Skills {#class-skills}
 
-**Lost class skills:** ha, ke, ride, sur, swim
+The cult leader's class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int),
+Diplomacy (Cha), Disguise (Cha), Escape Artist (Dex), Heal (Wis), Intimidate (Cha), Knowledge
+(local) (Int), Knowledge (religion) (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis),
+Slight of Hand (Dex), Spellcraft (Int), and Stealth (Dex). These skills replace the warpriest's
+class skills.
 
-**Skill Ranks per Level**
+## Skill Ranks per Level {#skill-ranks-per-level}
 
-**Info:** 4 + Int modifier.
+4 + Int modifier.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Info:** Cult leaders are proficient with all simple weapons, plus the
+Cult leaders are proficient with all simple weapons, plus the
 [hand crossbow](ref/eq-weapon/hand-crossbow), [rapier](ref/eq-weapon/rapier),
 [sap](ref/eq-weapon/sap), [shortbow](ref/eq-weapon/shortbow), and
 [short sword](ref/eq-weapon/short-sword), as well as the favored weapon of their deity. They are
 proficient with light armor and light shields. The cult leader does not gain
-[Weapon Focus](ref/feat/weapon-focus) as a bonus feat as a warpriest normally would.
+[Weapon Focus](ref/feat/weapon-focus) as a bonus feat as a warpriest normally would. This replaces
+the warpriest's weapon and armor proficiencies.
 
-**Replaces:** Weapon and armor proficiencies
+## Well-Hidden (Ex) {#well-hidden}
 
-**Well-Hidden (Ex)**
+A cult leader gains a +2 bonus on Disguise and Stealth checks. This ability replaces focus weapon.
 
-**Passive:** A cult leader gains a +2 bonus on Disguise and Stealth checks.
+## Sneak Attack (Ex) {#sneak-attack}
 
-**Replaces:** Focus weapon
-
-**Sneak Attack (Ex)**
-
-**Ability:** A cult leader gains the [sneak attack](ref/ability/sneak-attack) ability, as the rogue
+At 3rd level, a cult leader gains the [sneak attack](ref/ability/sneak-attack) ability, as the rogue
 class feature. If he already has sneak attack from another class, the extra damage from the classes
 that grant sneak attack stack for the purpose of determining the sneak attack's extra damage dice.
-This extra damage is 1d6.
+This extra damage is 1d6 at 3rd level and increases by 1d6 every 3 levels thereafter. This ability
+replaces the bonus feats gained at 3rd, 9th, and 15th levels.
 
-**Gained:** At 3rd Level
+## Enthrall (Sp) {#enthrall}
 
-**Replaces:** Bonus feats gained at 3rd, 9th, and 15th levels
+At 4th level, a cult leader can cast _[enthrall](ref/spell/enthrall)_. Using this ability consumes
+two uses of his fervor ability. This ability replaces channel energy.
 
-At 6th level: The damage increases to 2d6.
+## Hide in Plain Sight (Su) {#hide-in-plain-sight}
 
-At 9th level: The damage increases to 3d6.
-
-At 12th level: The damage increases to 4d6.
-
-At 15th level: The damage increases to 5d6.
-
-At 18th level: The damage increases to 6d6.
-
-**Enthrall (Sp)**
-
-**Ability:** A cult leader can cast [enthrall](ref/spell/enthrall). Using this ability consumes two
-uses of his _fervor_ ability.
-
-**Gained:** At 4th Level
-
-**Replaces:** Channel energy
-
-**Hide in Plain Sight (Su)**
-
-**Ability:** A cult leader can use the Stealth skill even while being observed. As long as he is
+At 12th level, a cult leader can use the Stealth skill even while being observed. As long as he is
 within 10 feet of an area of [dim light](ref/rule/vision-and-light), a cult leader can hide himself
 from view in the open without anything to actually hide behind. He cannot, however, hide in his own
-shadow.
-
-**Gained:** At 12th Level
-
-**Replaces:** Bonus feat gained at 12th level
+shadow. This ability replaces the bonus feat gained at 12th level.

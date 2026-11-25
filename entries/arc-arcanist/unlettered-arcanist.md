@@ -16,28 +16,28 @@ page = "79"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "familiar" },
+  { anchor = "witch-spells" },
+]
 trades = [
-  { replaces = "Spellbooks", feature = "spellbooks" },
-  { alters = "Spells", feature = "spells" },
+  { replaces = "Spellbooks", feature = "spellbooks", by = ["familiar"] },
+  { alters = "Spells", feature = "spells", by = ["witch-spells"] },
 ]
 +++
 
 Some arcanists store their spells as whispered secrets within familiars instead of on paper.
 
-**Familiar**
+## Familiar {#familiar}
 
-**Ability:** An unlettered arcanist does not keep a spellbook. Instead, she gains a
+An unlettered arcanist does not keep a spellbook. Instead, she gains a
 [familiar](ref/ability/familiars) in which she stores her spells as a [witch](ref/class/witch) does,
 though she does not gain a witch's patron. Treat her arcanist level as her witch level for
 determining the abilities and benefits granted by the [familiar](ref/sidekick/familiar). Anything
 that would allow an unlettered arcanist to add spells to her spellbook allows her to add spells to
-her familiar instead.
+her familiar instead. This ability replaces spellbooks.
 
-**Replaces:** Spellbooks
+## Witch Spells {#witch-spells}
 
-**Witch Spells**
-
-**Alters:** Spells
-
-**Passive:** An unlettered arcanist follows a different arcane tradition. She uses the witch spell
-list instead of the arcanist spell list.
+An unlettered arcanist follows a different arcane tradition. She uses the witch spell list instead
+of the wizard/sorcerer spell list. This ability alters the spells class feature.

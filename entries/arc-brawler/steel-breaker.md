@@ -16,51 +16,42 @@ page = "88"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "exploit-weakness", level = 5 },
+  { anchor = "sunder-training", level = 3 },
+]
 trades = [
-  { replaces = "Brawler's strike", feature = "brawler-s-strike" },
-  { alters = "Maneuver training", feature = "maneuver-training" },
+  { replaces = "Brawler's strike", feature = "brawler-s-strike", by = ["exploit-weakness"] },
+  { alters = "Maneuver training", feature = "maneuver-training", by = ["sunder-training"] },
 ]
 +++
 
 The steel-breaker studies destruction and practices it as an art form. She knows every defense has a
 breaking point, and can shatter those defenses with carefully planned strikes.
 
-**Gained class skills:** ke
+## Class Skills {#class-skills}
 
-**Lost class skills:** kd
+The steel-breaker gains Knowledge (engineering) as a class skill, and does not gain Knowledge
+(dungeoneering) as a class skill.
 
-**Exploit Weakness (Ex)**
+## Exploit Weakness (Ex) {#exploit-weakness}
 
-**Ability:** As a **swift action**, a steel-breaker can observe a creature or object to find its
-weak point by succeeding at a Wisdom check, adding her brawler level against a DC of 10 the object's
+At 5th level, as a swift action a steel-breaker can observe a creature or object to find its weak
+point by succeeding at a Wisdom check, adding her brawler level against a DC of 10 + the object's
 [hardness](ref/umr/hardness) or the target's CR. If it succeeds, the steel-breaker gains a +2 bonus
 on attack rolls until the end of her turn, and any attacks she makes until the end of her turn
 ignore the creature or object's DR or hardness.
 
-**Info:** A steel-breaker can instead use this ability as a **swift action** to analyze the
-movements and expressions of one creature within 30 feet, granting a bonus on Sense Motive checks
-and Reflex saving throws, as well as a dodge bonus to AC against that opponent equal to
-[half](ref/misc/fractions-and-rounding) her brawler level until the start of her next turn.
+A steel-breaker can instead use this ability as a swift action to analyze the movements and
+expressions of one creature within 30 feet, granting a bonus on Sense Motive checks and Reflex
+saving throws, as well as a dodge bonus to AC against that opponent equal to 1/2 her brawler level
+until the start of her next turn. This ability replaces brawler's strike.
 
-**Gained:** At 5th Level
+## Sunder Training (Ex) {#sunder-training}
 
-**Replaces:** Brawler's strike
-
-**Sunder Training (Ex)**
-
-**Alters:** Maneuver training
-
-**Flavor:** A steel-breaker receives additional training in sunder combat maneuvers.
-
-**At 11th Level:** The sunder bonuses become +4 and the disarm bonuses become +3.
-
-**At 15th Level:** These bonuses become +5 and +4, respectively.
-
-**At 19th Level:** These bonuses become +6 and +5.
-
-**At 3rd Level:** She gains a +2 bonus when attempting a [sunder](ref/rule/sunder) combat maneuver
-checks and a +2 bonus to her CMD when defending against this maneuver.
-
-**At 7th Level:** These bonuses increase to +3, and she gains a +2 bonus on
-[disarm](ref/rule/disarm) combat maneuver checks and a +2 bonus to her CMD when defending against a
-disarm maneuver.
+At 3rd level, a steel-breaker receives additional training in [sunder](ref/rule/sunder) combat
+maneuvers. She gains a +2 bonus when attempting a sunder combat maneuver checks and a +2 bonus to
+her CMD when defending against this maneuver. At 7th level, these bonuses increase by 1, and she
+gains a +2 bonus on [disarm](ref/rule/disarm) combat maneuver checks and a +2 bonus to her CMD when
+defending against a disarm maneuver. At 11th, 15th, and 19th levels, all of these bonuses increase
+by 1. This ability alters maneuver training.

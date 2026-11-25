@@ -16,13 +16,21 @@ page = "152"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "grit", level = 1 },
+  { anchor = "deeds" },
+  { anchor = "flash-and-shock", level = 1 },
+  { anchor = "powder-burns", level = 3 },
+  { anchor = "staggering-shot", level = 15 },
+  { anchor = "belly-shot", level = 9 },
+]
 trades = [
-  { replaces = "The ability to regain grit from a critical hit with a firearm", feature = "critical-hit-with-a-firearm" },
-  { replaces = "Deadeye deed", feature = "deeds", power = "deadeye" },
-  { replaces = "Pistol whip deed", feature = "deeds", power = "pistol whip" },
-  { replaces = "Menacing shot deed", feature = "deeds", power = "menacing shot" },
-  { replaces = "Gun training ability gained at 9th, 13th, and 17th level", feature = "gun-training", levels = [9, 13, 17] },
-  { alters = "Grit", feature = "grit" },
+  { replaces = "The ability to regain grit from a critical hit with a firearm", feature = "critical-hit-with-a-firearm", by = ["grit"] },
+  { replaces = "Deadeye deed", feature = "deeds", power = "deadeye", by = ["flash-and-shock"] },
+  { replaces = "Pistol whip deed", feature = "deeds", power = "pistol whip", by = ["powder-burns"] },
+  { replaces = "Menacing shot deed", feature = "deeds", power = "menacing shot", by = ["staggering-shot"] },
+  { replaces = "Gun training ability gained at 9th, 13th, and 17th level", feature = "gun-training", levels = [9, 13, 17], by = ["belly-shot"] },
+  { alters = "Grit", feature = "grit", by = ["grit"] },
 ]
 +++
 
@@ -34,92 +42,63 @@ close-quarters combat. These gulch gunners often specialize in proficiency with 
 (easily handled in tight spaces) and wander from warren to warren selling their tunnel-shooting
 skills to the highest bidder. A gulch gunner has the following class features.
 
-**Prerequisites:** Ratfolk
+## Class Skills {#class-skills}
 
-**Gained class skills:** dd, ea, kd
+A gulch gunner adds Disable Device, Escape Artist, and Knowledge (dungeoneering) to her list of
+class skills and removes Knowledge (local), Ride, and Swim from her list of class skills.
 
-**Lost class skills:** kl, ride, swim
+## Grit (Ex) {#grit}
 
-**Grit (Ex)**
+At 1st level, a gulch gunner gains grit as a standard gunslinger. However, the close-combat focus of
+the gulch gunner results in a slightly different set of circumstances for regaining grit.
 
-**Alters:** Grit
+### Daring Adjacent Shot {#daring-adjacent-shot}
 
-**Info:** A gulch gunner gains grit as a standard gunslinger. However, the close-combat focus of the
-gulch gunner results in a slightly different set of circumstances for regaining grit.
+The first time each round the gulch gunner makes a ranged firearm attack against an adjacent foe and
+provokes an attack of opportunity, she regains 1 grit point. Making an adjacent firearm attack
+against a [helpless](ref/misc/helpless) or unaware creature or on a creature that has fewer Hit Dice
+than half the gulch gunner's character level does not restore grit, nor do ranged attacks using some
+ability that prevents the gulch gunner from provoking an attack of opportunity. This ability
+replaces the ability to regain grit from a critical hit with a firearm.
 
-**Gained:** At 1st Level
+## Deeds {#deeds}
 
-**Daring Adjacent Shot**
+A gulch gunner has some unique deeds, which replace some of the standard gunslinger deeds as listed
+in each entry. These deeds follow all the general rules and restrictions of gunslinger deeds.
 
-**Ability:** The first time each round the gulch gunner makes a ranged firearm attack against an
-adjacent foe and provokes an attack of opportunity, she regains 1 grit point. Making an adjacent
-firearm attack against a [helpless](ref/misc/helpless) or unaware creature or on a creature that has
-fewer Hit Dice than half the gulch gunner's character level does not restore grit, nor do ranged
-attacks using some ability that prevents the gulch gunner from provoking an attack of opportunity.
+## Flash and Shock (Ex) {#flash-and-shock}
 
-**Replaces:** The ability to regain grit from a critical hit with a firearm
+At 1st level, the gulch gunner can take advantage of the flash and sound of a firearm to throw off
+an attacker's aim at close range. When she makes an attack against a foe within her firearm's first
+range increment, she may spend 1 grit point to gain a +4 circumstance bonus to AC against that
+opponent until the beginning of her next turn. She can only perform this deed while wearing medium,
+light, or no armor, and while carrying no more than a light load. This deed replaces the deadeye
+deed.
 
-**Deeds**
+## Powder Burns (Ex) {#powder-burns}
 
-**Info:** A gulch gunner has some unique deeds, which replace some of the standard gunslinger deeds
-as listed in each entry. These deeds follow all the general rules and restrictions of gunslinger
-deeds.
-
-**Flash and Shock (Ex)**
-
-**Ability:** When she makes an attack against a foe within her firearm's first range increment, she
-may spend 1 grit point to gain a +4 circumstance bonus to AC against that opponent until the
-beginning of her next turn.
-
-**Flavor:** The gulch gunner can take advantage of the flash and sound of a firearm to throw off an
-attacker's aim at close range.
-
-**Gained:** At 1st Level
-
-**Replaces:** Deadeye deed
-
-**Special:** She can only perform this deed while wearing medium, light, or no armor, and while
-carrying no more than a light load.
-
-**Powder Burns (Ex)**
-
-**Ability:** When the gulch gunner successfully hits an adjacent foe with a ranged firearm attack,
-she may spend 1 grit point to deal an additional 1d6 points of fire damage from the muzzle flash of
-her weapon. The target must also make a Reflex save (DC 10 + 1/2 the gulch gunner's level + the
-gulch gunner's Wisdom modifier) or [catch on fire](ref/rule/catching-on-fire).
-
-**Flavor:** The gulch gunner learns to maximize the damage dealt by a firearm at extremely close
+At 3rd level, the gulch gunner learns to maximize the damage dealt by a firearm at extremely close
 range.
 
-**Gained:** At 3rd Level
+When the gulch gunner successfully hits an adjacent foe with a ranged firearm attack, she may spend
+1 grit point to deal an additional 1d6 points of fire damage from the muzzle flash of her weapon.
 
-**Replaces:** Pistol whip deed
+The target must also make a Reflex save (DC 10 + 1/2 the gulch gunner's level + the gulch gunner's
+Wisdom modifier) or [catch on fire](ref/rule/catching-on-fire). This deed replaces the pistol whip
+deed.
 
-**Staggering Shot (Ex)**
+## Staggering Shot (Ex) {#staggering-shot}
 
-**Gained:** At 15th Level
+At 15th level, when the gulch gunner hits an adjacent target with a ranged firearm attack, the
+target must also make a Fortitude save (DC 10 + 1/2 the gulch gunner's level + the gulch gunner's
+Wisdom modifier) or be [staggered](ref/misc/staggered) for 1d4 rounds. This deed replaces the
+menacing shot deed.
 
-**Passive:** When the gulch gunner hits an adjacent target with a ranged firearm attack, the target
-must also make a Fortitude save (DC 10 + 1/2 the gulch gunner's level + the gulch gunner's Wisdom
-modifier) or be [staggered](ref/misc/staggered) for 1d4 rounds.
+## Belly Shot (Ex) {#belly-shot}
 
-**Replaces:** Menacing shot deed
-
-**Belly Shot (Ex)**
-
-**Ability:** When the gulch gunner successfully hits an adjacent target with a ranged firearm
-attack, she deals +1d6 points of damage.
-
-**Flavor:** A gulch gunner can press her firearm directly against a vulnerable location of an
-adjacent target, dealing additional damage.
-
-**Gained:** At 9th Level
-
-**Replaces:** Gun training ability gained at 9th, 13th, and 17th level
-
-**Special:** Creatures immune to precision damage, critical hits, or sneak attacks do not take this
-additional damage.
-
-At 13th level: The extra damage increases to +2d6.
-
-At 17th level: The extra damage increases to +3d6.
+At 9th level, a gulch gunner can press her firearm directly against a vulnerable location of an
+adjacent target, dealing additional damage. When the gulch gunner successfully hits an adjacent
+target with a ranged firearm attack, she deals +1d6 points of damage. This damage increases to +2d6
+at 13th level and to +3d6 at 17th level. Creatures immune to precision damage, critical hits, or
+sneak attacks do not take this additional damage. This ability replaces the gun training ability
+gained at 9th, 13th, and 17th level.

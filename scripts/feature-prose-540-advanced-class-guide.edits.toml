@@ -1,0 +1,25 @@
+# Hand-written texts of the review of batch 2 (owner ruling 18 of 2026-11-24): see feature-prose-540.py `read_edits`.
+
+[[edit]]
+entry = "ref/arc-investigator/sleuth"
+anchor = "sleuth-s-luck"
+note = "hand-written from print (Advanced Class Guide pp. 101-102): the sidebar \"Grit, Luck, and Panache\" stands inside the ability and the last paragraph of the ability continues after it (\"... luck points on the same Skill check ...\"), then \"This and the 1st-level deeds below replace alchemy.\"; the text layer reads them out of order. Misprint fixed: \"for a investigator\" is written \"for an investigator\"."
+text = '''
+At 1st level, a sleuth gains a fluctuating pool of luck, measuring her ability to get out of scrapes. At the start of each day, a sleuth has a number of luck points equal to her Charisma modifier (minimum 1). Her luck goes up or down throughout the day, but usually cannot go higher than her Charisma modifier (minimum 1), though feats, magic items, and spells that grant either grit or panache points can also grant a sleuth luck points equal to the amount of grit or panache they grant. A sleuth spends luck to accomplish deeds (see below), and regains luck in the following ways.
+
+_Rolling a Natural 20 on a Knowledge or Sense Motive Check_: While on an investigation, a sleuth regains luck by uncovering secrets. Rolling a natural 20 on these skill checks while actively investigating causes the sleuth to regain 1 luck point. Such skill checks made for more mundane reasons (such as normal research or using Sense Motive to gain information during normal bargaining or while gambling) do not regain luck for the sleuth. Determining which skill checks qualify is up to the GM.
+
+_Rolling a 6 or Higher on an Inspiration Roll_: When a sleuth rolls an inspiration die while on an investigation and the die comes up a 6 or higher, she regains 1 luck point. (If she rolls multiple inspiration dice at a time, she regains 1 luck point if the total is 6 or higher.) Like regaining luck via a natural 20 on a qualifying skill check, inspiration checks made for more mundane reasons don't qualify for regaining luck. The GM is the final arbitrator for what rolls qualify. It's possible for an investigator to regain 2 luck points on the same Skill check, if both the qualifying skill check is a natural 20 and any inspiration roll made is a 6 or higher.
+
+This and the 1st-level deeds below replace alchemy. A sleuth cannot take the alchemist discovery talent or any investigator talent that affects alchemy.
+'''
+
+[[edit]]
+entry = "ref/arc-investigator/sleuth"
+anchor = "grit-luck-and-panache"
+note = "hand-written from print (Advanced Class Guide p. 102, ruling 18): the book-wide sidebar, an unlisted section; the Paizo errata adds \"do not\" before \"gain twice\" (scripts/errata.tsv)."
+text = '''
+Grit, luck, and panache represent three different means by which heroes can gain access to the same heroic pool, using it to accomplish fantastic feats. For characters with a mix of grit, luck, and panache, they pool the three resources together into a combined pool. (Those who use panache and luck do not gain twice their Charisma bonus in their pool.) For feats, magic items, and other effects, a panache user can spend and gain luck points in place of grit or panache points, and vice versa.
+
+A luck user does not count as a grit or panache user to satisfy feat prerequisites.
+'''

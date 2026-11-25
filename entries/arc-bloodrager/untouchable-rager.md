@@ -16,11 +16,15 @@ page = "85"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "raging-resistance", level = 4 },
+  { anchor = "resistance-control", level = 14 },
+]
 trades = [
-  { replaces = "Spells", feature = "spells" },
-  { replaces = "blood casting", feature = "blood-casting" },
-  { replaces = "eschew materials", feature = "eschew-materials" },
-  { replaces = "bloodline spells", feature = "bloodline", power = "bloodline spell" },
+  { replaces = "Spells", feature = "spells", by = ["raging-resistance"] },
+  { replaces = "blood casting", feature = "blood-casting", by = ["raging-resistance"] },
+  { replaces = "eschew materials", feature = "eschew-materials", by = ["raging-resistance"] },
+  { replaces = "bloodline spells", feature = "bloodline", power = "bloodline spell", by = ["raging-resistance"] },
 ]
 +++
 
@@ -29,27 +33,19 @@ horrifying mix of martial terror and spellcasting fury, from time to time a bloo
 acts differently. Instead of empowering the bloodrager, it shields the bloodrager from magic of all
 types, often keeping the bloodrager untouched within the midst of magical effects.
 
-**Raging Resistance (Ex)**
+## Raging Resistance (Ex) {#raging-resistance}
 
-**Flavor:** Instead of gaining spells, a bloodrager becomes resistant to spells.
+At 4th level, instead of gaining spells, a bloodrager becomes resistant to spells. While
+bloodraging, he gains [spell resistance](ref/rule/spell-resistance) equal to 8 + his bloodrager
+level. Unlike normal [spell resistance](ref/rule/spell-resistance), the untouchable rager's spell
+resistance cannot be voluntarily lowered. As long as the untouchable is bloodraging, the spell
+resistance is persistent, and can only be lowered by ending the bloodrage. At 7th, 10th, 13th, and
+16th levels (when other bloodragers would gain bloodline spells), an untouchable rager's spell
+resistance from raging resistance is increased by 1. This ability replaces the spells, blood
+casting, eschew materials, and bloodline spells class features.
 
-**Gained:** At 4th Level
+## Resistance Control (Ex) {#resistance-control}
 
-**Passive:** While _bloodraging,_ he gains [spell resistance](ref/rule/spell-resistance) equal to
-8 + his bloodrager level. Unlike normal spell resistance, the untouchable rager's spell resistance
-cannot be voluntarily lowered. As long as the untouchable is _bloodraging,_ the spell resistance is
-persistent, and can only be lowered by ending the _bloodrage._
-
-**Replaces:** Spells, blood casting, eschew materials, bloodline spells
-
-**Special:** At 7th, 10th, 13th, and 16th levels (when other bloodragers would gain bloodline
-spells), an untouchable rager's [spell resistance](ref/rule/spell-resistance) from _raging
-resistance_ is increased by 1.
-
-**Resistance Control (Ex)**
-
-**Gained:** At 14th Level
-
-**Passive:** An untouchable rager gains the [spell resistance](ref/rule/spell-resistance) from
-_raging resistance_ even while not in a _bloodrage._ Additionally, as long as the untouchable rager
-isn't _bloodraging,_ he can turn off this spell resistance.
+At 14th level, an untouchable rager gains the [spell resistance](ref/rule/spell-resistance) from
+raging resistance even while not in a bloodrage. Additionally, as long as the untouchable rager
+isn't bloodraging, he can turn off this spell resistance.

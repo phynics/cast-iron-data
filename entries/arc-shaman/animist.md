@@ -16,14 +16,23 @@ page = "110"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "animist-spirit-magic" },
+  { anchor = "wrangle-condition", level = 2 },
+  { anchor = "exorcism", level = 8 },
+  { anchor = "dominate-spirit", level = 10 },
+  { anchor = "contact-with-the-spirit-world", level = 12 },
+  { anchor = "etherealness", level = 18 },
+  { anchor = "spirit-shaman", level = 20 },
+]
 trades = [
-  { replaces = "Spirit magic spells gained from the shaman's spirit", feature = "spirit-magic" },
-  { replaces = "2nd-level hex", feature = "hex", levels = [2] },
-  { replaces = "Hex gained at 8th level", feature = "hex", levels = [8] },
-  { replaces = "Hex gained at 10th level", feature = "hex", levels = [10] },
-  { replaces = "Hex gained at 12th level", feature = "hex", levels = [12] },
-  { replaces = "Hex gained at 18th level", feature = "hex", levels = [18] },
-  { replaces = "Manifestation", feature = "manifestation" },
+  { replaces = "Spirit magic spells gained from the shaman's spirit", feature = "spirit-magic", by = ["animist-spirit-magic"] },
+  { replaces = "Hex gained at 2nd level", feature = "hex", levels = [2], by = ["wrangle-condition"] },
+  { replaces = "Hex gained at 8th level", feature = "hex", levels = [8], by = ["exorcism"] },
+  { replaces = "Hex gained at 10th level", feature = "hex", levels = [10], by = ["dominate-spirit"] },
+  { replaces = "Hex gained at 12th level", feature = "hex", levels = [12], by = ["contact-with-the-spirit-world"] },
+  { replaces = "Hex gained at 18th level", feature = "hex", levels = [18], by = ["etherealness"] },
+  { replaces = "Manifestation", feature = "manifestation", by = ["spirit-shaman"] },
 ]
 +++
 
@@ -31,56 +40,21 @@ Even among mystical practitioners, the animist has a strange perspective and eve
 The animist perceives that all things have a spirit, including objects, constructs, illnesses,
 buildings, and the environment.
 
-**Animist Spirit Magic**
+## Animist Spirit Magic {#animist-spirit-magic}
 
-**Info:** The animist adds the following spells to the list of spells he can cast using _spirit
-magic_ at the given spell levels:
+The animist adds the following spells to the list of spells he can cast using spirit magic: _speak
+with animals_ (1st), _skinsend_ (2nd), _speak with plants_ (3rd), _malfunction_ (4th), _dream_
+(5th), _speak with stone_ (6th), _control construct_ (7th), _trap the soul_ (8th), _soul bind_
+(9th). This ability replaces the spirit magic spells gained from the shaman's spirit.
 
-**Replaces:** Spirit magic spells gained from the shaman's spirit
+## Wrangle Condition (Su) {#wrangle-condition}
 
-**Spells:** Speak with animals
-
-**Spells:** Skinsend
-
-**Spells:** Speak with plants
-
-**Spells:** Malfunction
-
-**Spells:** Dream
-
-**Spells:** Stone tell
-
-**Spells:** Control construct
-
-**Spells:** Trap the soul
-
-**Spells:** Soul bind
-
-**Wrangle Condition**
-
-**Action:** Ability
-
-**At 13th Level:** He can remove severe conditions without rolling.
-
-**At 17th Level:** He can dispatch dire conditions automatically.
-
-**At 5th Level:** The animist can use this ability to exorcise minor conditions without needing to
-attempt a Diplomacy check.
-
-**At 9th Level:** He can dispatch major conditions without a roll.
-
-**Gained:** At 2nd Level
-
-**Replaces:** 2nd-level hex
-
-**Special:** Even if he doesn't need to roll, removing a condition still requires one use of this
-ability per condition.
-
-The animist interacts directly with unwholesome spirits of the ills that trouble him or his people.
-To the animist, negative conditions manifest as anthropomorphic spirits or are caused by such
-spirits (visited upon the creature by bad magic). Either way, the animist can attempt to persuade
-the spirit to leave its victim alone, thus performing a miraculous healing. As the animist grows in
-power, he can simply inform these spirits that they are unwelcome and command them to depart.
+At 2nd level, the animist interacts directly with unwholesome spirits of the ills that trouble him
+or his people. To the animist, negative conditions manifest as anthropomorphic spirits or are caused
+by such spirits (visited upon the creature by bad magic). Either way, the animist can attempt to
+persuade the spirit to leave its victim alone, thus performing a miraculous healing. As the animist
+grows in power, he can simply inform these spirits that they are unwelcome and command them to
+depart.
 
 The animist can attempt a Diplomacy check to persuade the condition's spirit to leave. Conditions
 the animist can affect are ranked from minor to dire, with each category having an accompanying
@@ -91,80 +65,71 @@ only if the animist is willing. Failure by 10 or more means that not only is the
 with the condition, but the animist is as well (whether or not he is willing) for the remaining
 duration or until cured.
 
-- **Minor Conditions (DC 15):** Fatigued, shaken, and sickened.
-- **Major Conditions (DC 20):** Dazed and staggered.
-- **Severe Conditions (DC 25):** Exhausted, frightened, and nauseated.
-- **Dire Conditions (DC 30):** Blinded, deafened, paralyzed, and stunned.
+_Minor Conditions_ (DC 15): Fatigued, shaken, and sickened.
 
-The animist can use this ability a number of times per day equal to half his shaman level + his
-Wisdom modifier. Using this ability is a **standard action** that requires no contact or shared
-language with the target, but it relies on audible components and the target must be within 30 feet.
-If a target is afflicted with multiple conditions, the animist targets one condition at a time (of
-her choosing). The animist cannot use this ability on himself.
+_Major Conditions_ (DC 20): Dazed and staggered.
 
-**Exorcism (Su)**
+_Severe Conditions_ (DC 25): Exhausted, frightened, and nauseated.
 
-**Fullround:** The animist can attempt to end effects that control a creature or object, such as
-[magic jar](ref/spell/magic-jar), [possess object](ref/spell/possess-object),
-[dominate person](ref/spell/dominate-person), and [dominate monster](ref/spell/dominate-monster), or
-possessing entities such as [ghosts](ref/template/ghost). This requires the animist to touch the
+_Dire Conditions_ (DC 30): Blinded, deafened, paralyzed, and stunned.
+
+The animist can use this ability a number of times per day equal to 1/2 his shaman level + his
+Wisdom modifier. Using this ability is a standard action that requires no contact or shared language
+with the target, but it relies on audible components and the target must be within 30 feet. If a
+target is afflicted with multiple conditions, the animist targets one condition at a time (of her
+choosing). The animist cannot use this ability on himself.
+
+At 5th level, the animist can use this ability to exorcise minor conditions without needing to
+attempt a Diplomacy check. He can dispatch major conditions without a roll at 9th level, severe
+conditions at 13th level, and dire conditions at 17th level. Doing so still requires one use of this
+ability per condition.
+
+This ability replaces the hex gained at 2nd level.
+
+## Exorcism (Su) {#exorcism}
+
+At 8th level, the animist can attempt to end effects that control a creature or object, such as
+_[magic jar](ref/spell/magic-jar)_, _[possess object](ref/spell/possess-object)_,
+_[dominate person](ref/spell/dominate-person)_, and
+_[dominate monster](ref/spell/dominate-monster)_, or possessing entities such as
+[ghosts](ref/template/ghost). This is a full-round action that requires the animist to touch the
 target. The possessing or dominating creature must attempt a Will save with a DC equal to 10 + 1/2
 the shaman level + her Wisdom modifier. Failure means that the controlling effect ends or the entity
-is immediately cast out of the target, as appropriate.
+is immediately cast out of the target, as appropriate. If the possessing entity is exorcised, it
+cannot attempt to dominate or possess that target again for 24 hours. The animist can exorcise the
+same entity out of different targets, but once the entity successfully saves against the animist's
+exorcism, it cannot be affected by this ability again for 24 hours. This ability replaces the hex
+gained at 8th level.
 
-**Gained:** At 8th Level
+## Dominate Spirit (Sp) {#dominate-spirit}
 
-**Replaces:** Hex gained at 8th level
-
-**Special:** If the possessing entity is exorcised, it cannot attempt to dominate or possess that
-target again for 24 hours. The animist can exorcise the same entity out of different targets, but
-once the entity successfully saves against the animist's exorcism, it cannot be affected by this
-ability again for 24 hours.
-
-**Dominate Spirit (Sp)**
-
-**Ability:** The animist can attempt to possess creatures or objects as
-_[magic jar](ref/spell/magic-jar)_ or _[possess object](ref/spell/possess-object)._ When the animist
+At 10th level, the animist can attempt to possess creatures or objects as
+_[magic jar](ref/spell/magic-jar)_ or _[possess object](ref/spell/possess-object)_. When the animist
 is attempting to possess the creature, his familiar acts as the jar and must be within 10 feet when
 the animist attempts to possess a creature. The animist's soul can perceive his surroundings through
 the familiar's senses, clearly evaluate potential targets for possession, and communicate with his
 familiar telepathically. The familiar retains its autonomy while acting as the jar, and is not
-harmed by being used as a vessel for the animist's soul.
+harmed by being used as a vessel for the animist's soul. The animist can use this ability once per
+day at 10th level, plus an additional time per day every 4 levels thereafter. This ability replaces
+the hex gained at 10th level.
 
-**Gained:** At 10th Level
+## Contact with the Spirit World (Su) {#contact-with-the-spirit-world}
 
-**Replaces:** Hex gained at 10th level
+At 12th level, the shaman can interact with incorporeal entities as if his unarmed strikes and melee
+weapons had the _[ghost touch](ref/magic-enh/ghost-touch-weapon)_ weapon special ability. While
+using this ability, he can also see nearby ethereal entities and likewise strike at them as if they
+were incorporeal. He can use this ability for a number of rounds per day equal to his shaman level.
+The rounds need not be consecutive. This ability replaces the hex gained at 12th level.
 
-**Usage:** 1 time/day + 1 per 4 shaman levels beyond 10th
+## Etherealness (Sp) {#etherealness}
 
-**Contact with the Spirit World (Su)**
+At 18th level, the animist can cast _[etherealness](ref/spell/etherealness)_ once per day as a
+[spell-like ability](ref/umr/spell-like-abilities). This ability replaces the hex gained at 18th
+level.
 
-**Ability:** The shaman can interact with incorporeal entities as if his unarmed strikes and melee
-weapons had the [ghost touch](ref/magic-enh/ghost-touch-weapon) weapon special ability. While using
-this ability, he can also see nearby ethereal entities and likewise strike at them as if they were
-incorporeal.
+## Spirit Shaman (Sp) {#spirit-shaman}
 
-**Gained:** At 12th Level
-
-**Replaces:** Hex gained at 12th level
-
-**Usage:** 1 time/day per shaman level
-
-**Etherealness (Sp)**
-
-**Ability:** The animist can cast [etherealness](ref/spell/etherealness) once per day as a
-[spell-like ability](ref/umr/spell-like-abilities).
-
-**Gained:** At 18th Level
-
-**Replaces:** Hex gained at 18th level
-
-**Spirit Shaman (Sp)**
-
-**Ability:** The animist can use [ethereal jaunt](ref/spell/ethereal-jaunt) as at will as a
+At 20th level, the animist can use _[ethereal jaunt](ref/spell/ethereal-jaunt)_ as at will as a
 [spell-like ability](ref/umr/spell-like-abilities), and cast
-[astral projection](ref/spell/astral-projection) once per day as a spell-like ability.
-
-**Gained:** At 20th Level
-
-**Replaces:** Manifestation
+_[astral projection](ref/spell/astral-projection)_ once per day as a spell-like ability. This
+ability replaces manifestation.

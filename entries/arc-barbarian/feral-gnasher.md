@@ -16,15 +16,24 @@ page = "116"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "savage-bite", level = 1 },
+  { anchor = "impromptu-armament", level = 2 },
+  { anchor = "lockjaw", level = 3 },
+  { anchor = "improvised-weapon-mastery", level = 5 },
+  { anchor = "improved-lockjaw", level = 6 },
+  { anchor = "greater-lockjaw", level = 9 },
+  { anchor = "wicked-improvisation", level = 12 },
+]
 trades = [
-  { replaces = "Fast movement", feature = "fast-movement" },
-  { replaces = "2nd-level rage power", feature = "rage-powers", levels = [2] },
-  { replaces = "Trap sense +1", feature = "trap-sense", levels = [3] },
-  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { replaces = "Trap sense +2", feature = "trap-sense", levels = [6] },
-  { replaces = "Trap sense +3", feature = "trap-sense", levels = [9] },
-  { replaces = "trap sense +5", feature = "trap-sense", levels = [15] },
-  { replaces = "Trap sense +4", feature = "trap-sense", levels = [12] },
+  { replaces = "Fast movement", feature = "fast-movement", by = ["savage-bite"] },
+  { replaces = "Rage power gained at second level", feature = "rage-powers", levels = [2], by = ["impromptu-armament"] },
+  { replaces = "Trap sense +1", feature = "trap-sense", levels = [3], by = ["lockjaw"] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["improvised-weapon-mastery"] },
+  { replaces = "Trap sense +2", feature = "trap-sense", levels = [6], by = ["improved-lockjaw"] },
+  { replaces = "Trap sense +3", feature = "trap-sense", levels = [9], by = ["greater-lockjaw"] },
+  { replaces = "trap sense +5", feature = "trap-sense", levels = [15], by = ["greater-lockjaw"] },
+  { replaces = "Trap sense +4", feature = "trap-sense", levels = [12], by = ["wicked-improvisation"] },
 ]
 +++
 
@@ -33,94 +42,62 @@ learn to fend for themselves. These barbarians often utilize pieced-together arm
 their sharp teeth and whatever improvised weapons are within reach. A feral gnasher has the
 following class features.
 
-**Prerequisites:** Goblin
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Weapon and Armor Proficiency**
-
-**Passive:** A feral gnasher loses all martial weapon proficiencies except for
+A feral gnasher loses all martial weapon proficiencies except for
 [greatclub](ref/eq-weapon/greatclub) and loses proficiency with medium armor.
 
-**Savage Bite (Ex)**
+## Savage Bite (Ex) {#savage-bite}
 
-**Ability:** A feral gnasher gains a savage bite attack. This is a primary
+At 1st level, a feral gnasher gains a savage bite attack. This is a primary
 [natural attack](ref/umr/natural-attacks) that deals 1d4 points of damage. If the goblin already has
-the _hard head, big teeth_ racial trait, the damage increases to 1d6.
+the hard head, big teeth racial trait, the damage increases to 1d6. At 10th level, the damage from a
+feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has the hard head, big teeth racial
+trait) and deals ×3 damage on a critical hit. This ability replaces fast movement.
 
-**At 10th Level:** The damage from a feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has
-the hard head, big teeth racial trait) and deals ×3 damage on a critical hit.
+## Impromptu Armament (Ex) {#impromptu-armament}
 
-**Gained:** At 1st Level
+At 2nd level, a feral gnasher gains [Throw Anything](ref/feat/throw-anything) as a bonus feat and
+can pick up an unattended object that can be wielded in one hand as a free action. Additionally, the
+feral gnasher can take [Catch Off-Guard](ref/feat/catch-off-guard) in place of a rage power. This
+replaces the rage power gained at second level.
 
-**Replaces:** Fast movement
+## Lockjaw (Ex) {#lockjaw}
 
-**Impromptu Armament (Ex)**
+At 3rd level, a feral gnasher gains the [grab](ref/umr/grab) ability with her bite attack. A feral
+gnasher can use this ability on a creature up to one size category larger than she is. This replaces
+trap sense +1.
 
-**Ability:** A feral gnasher gains [Throw Anything](ref/feat/throw-anything) as a bonus feat and can
-pick up an unattended object that can be wielded in one hand as a **free action**. Additionally, the
-feral gnasher can take [Catch Off-Guard](ref/feat/catch-off-guard) in place of a rage power.
+## Improvised Weapon Mastery (Ex) {#improvised-weapon-mastery}
 
-**Replaces:** 2nd-level rage power
+At 5th level, a feral gnasher gains [Improvised Weapon Mastery](ref/feat/improvised-weapon-mastery)
+as a bonus feat. This replaces improved uncanny dodge.
 
-**Lockjaw (Ex)**
+## Improved Lockjaw (Ex) {#improved-lockjaw}
 
-**Ability:** A feral gnasher gains the [grab](ref/umr/grab) ability with her bite attack. A feral
-gnasher can use this ability on a creature up to one size category larger than she is.
+At 6th level, as long as a feral gnasher is controlling the grapple with her
+[lockjaw](ref/spell/lockjaw) attack, she does not gain the grappled condition, but is unable to move
+or use her mouth for anything other than grappling. This ability replaces trap sense +2.
 
-**Gained:** At 3rd Level
+## Greater Lockjaw (Ex) {#greater-lockjaw}
 
-**Replaces:** Trap sense +1
+At 9th level and again at 15th level, the size of a creature a feral gnasher is able to use her
+lockjaw's grab ability on increases by one size increment. This ability replaces trap sense +3 and
+trap sense +5.
 
-**Improvised Weapon Mastery (Ex)**
+## Wicked Improvisation (Ex) {#wicked-improvisation}
 
-**Ability:** A feral gnasher gains [Improvised Weapon Mastery](ref/feat/improvised-weapon-mastery)
-as a bonus feat.
+At 12th level, a feral gnasher becomes more capable with improvised weapons and natural attacks. The
+feral gnasher gains a +1 competence bonus on damage rolls when using natural attacks or improvised
+weapons while raging. At 14th level and every two levels thereafter, the damage bonus increases by
++1. This increase is not precision damage and is thus multiplied on a critical hit. This ability
+replaces trap sense +4.
 
-**Gained:** At 5th Level
+## Rage Powers {#rage-powers}
 
-**Replaces:** Improved uncanny dodge
-
-**Improved Lockjaw (Ex)**
-
-**Gained:** At 6th Level
-
-**Passive:** As long as a feral gnasher is controlling the grapple with her
-_[lockjaw](ref/spell/lockjaw)_ attack, she does not gain the grappled condition, but is unable to
-move or use her mouth for anything other than grappling.
-
-**Replaces:** Trap sense +2
-
-**Greater Lockjaw (Ex)**
-
-**At 15th Level:** A feral gnasher is able to use her _lockjaw's_ grab ability on creatures three
-size increments larger than her.
-
-**At 9th Level:** A feral gnasher is able to use her _lockjaw's_ grab ability on creatures two size
-increments larger than her.
-
-**Replaces:** Trap sense +3, trap sense +5
-
-**Wicked Improvisation (Ex)**
-
-**Gained:** At 12th Level
-
-**Passive:** The feral gnasher gains a +1 competence bonus on damage rolls when using natural
-attacks or improvised weapons while _raging._
-
-**Replaces:** Trap sense +4
-
-**Special:** This increase is not precision damage and is thus multiplied on a critical hit.
-
-At 14th level: The bonus increases to +2.
-
-At 16th level: The bonus increases to +3.
-
-At 18th level: The bonus increases to +4.
-
-At 20th level: The bonus increases to +5.
-
-**Rage Powers:** The following rage powers complement the feral gnasher archetype:
+The following rage powers complement the feral gnasher archetype:
 [increased damage reduction](ref/ragepower/increased-damage-reduction),
-[scent](ref/ragepower/scent), [superstition](ref/ragepower/superstition),
-[beast totem](ref/ragepower/beast-totem), [greater beast totem](ref/ragepower/greater-beast-totem),
-[lesser beast totem](ref/ragepower/lesser-beast-totem),
-[eater of magic](ref/ragepower/eater-of-magic), [ghost rager](ref/ragepower/ghost-rager).
+[scent](ref/ragepower/scent), [superstition](ref/ragepower/superstition) (_Core Rulebook_);
+[beast totem](ref/ragepower/beast-totem), beast totem (greater), beast totem (lesser) (_Advanced
+Player's Guide_); [eater of magic](ref/ragepower/eater-of-magic),
+[ghost rager](ref/ragepower/ghost-rager) (_Ultimate Combat_).

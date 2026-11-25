@@ -16,60 +16,48 @@ page = "100"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "ceaseless-observation", level = 2 },
+  { anchor = "unfailing-logic", level = 4 },
+  { anchor = "master-intellect", level = 20 },
+]
 trades = [
-  { replaces = "Poison lore", feature = "poison-lore" },
-  { replaces = "poison resistance", feature = "poison-resistance" },
-  { replaces = "Swift alchemy", feature = "swift-alchemy" },
-  { replaces = "True inspiration", feature = "true-inspiration" },
+  { replaces = "Poison lore", feature = "poison-lore", by = ["ceaseless-observation"] },
+  { replaces = "poison resistance", feature = "poison-resistance", by = ["ceaseless-observation"] },
+  { replaces = "Swift alchemy", feature = "swift-alchemy", by = ["unfailing-logic"] },
+  { replaces = "True inspiration", feature = "true-inspiration", by = ["master-intellect"] },
 ]
 +++
 
 Champions of deductive reasoning and logical insight, empiricists put their faith in facts, data,
-confirmed observations, and consistently repeatable experiments - these things are their currency of
+confirmed observations, and consistently repeatable experiments— these things are their currency of
 truth.
 
-**Ceaseless Observation (Ex)**
+## Ceaseless Observation (Ex) {#ceaseless-observation}
 
-**Flavor:** An empiricist's ability to notice the minutiae of almost everything that happens around
-him allows him to make shrewd and insightful calculations about people and even inanimate objects.
+An empiricist's ability to notice the minutiae of almost everything that happens around him allows
+him to make shrewd and insightful calculations about people and even inanimate objects. At 2nd
+level, an empiricist uses his Intelligence modifier instead of the skill's typical ability for all
+Disable Device, Perception, Sense Motive, and Use Magic Device checks. He can also use his
+Intelligence modifier instead of Charisma on any Diplomacy checks made to gather information. This
+ability replaces poison lore and poison resistance.
 
-**Gained:** At 2nd Level
+## Unfailing Logic (Ex) {#unfailing-logic}
 
-**Passive:** An empiricist uses his Intelligence modifier instead of the skill's typical ability for
-all Disable Device, Perception, Sense Motive, and Use Magic Device checks. He can also use his
-Intelligence modifier instead of Charisma on any Diplomacy checks made to gather information.
+An empiricist's grasp of facts and data teaches him to anchor himself in reality, granting
+resistance to even the most potent illusions. At 4th level, an empiricist gains a +2 insight bonus
+on all Will saving throws against illusion spells or
+[spell-like abilities](ref/umr/spell-like-abilities) that allow a save to disbelieve their effects.
+In addition he can spend one point from his inspiration pool as an immediate action to use his
+Intelligence bonus instead of her Wisdom bonus on all such saves for one round.
 
-**Replaces:** Poison lore, poison resistance
+At 8th level, the empiricist's insight bonus increases to +4. At 16th level, he gains immunity to
+all illusion spells and [spell-like abilities](ref/umr/spell-like-abilities) that allow a save to
+disbelieve the effects. This ability replaces swift alchemy.
 
-**Unfailing Logic (Ex)**
+## Master Intellect (Ex) {#master-intellect}
 
-**Flavor:** An empiricist's grasp of facts and data teaches him to anchor himself in reality,
-granting resistance to even the most potent illusions.
-
-**Immediate:** He can spend one point from his _inspiration pool_ to use his Intelligence bonus
-instead of his Wisdom bonus on all such saves for one round.
-
-**At 16th Level:** He gains immunity to all illusion spells and
-[spell-like abilities](ref/umr/spell-like-abilities) that allow a save to disbelieve the effects.
-
-**At 8th Level:** The empiricist's insight bonus increases to +4.
-
-**Gained:** At 4th Level
-
-**Passive:** An empiricist gains a +2 insight bonus on all Will saving throws against illusion
-spells or [spell-like abilities](ref/umr/spell-like-abilities) that allow a save to disbelieve their
-effects.
-
-**Replaces:** Swift alchemy
-
-**Master Intellect (Ex)**
-
-**Ability:** An empiricist can use _inspiration_ on all skills (even ones he is not trained in) and
-all ability checks (including initiative checks) without spending _inspiration._
-
-**Flavor:** An empiricist's powers of reason and deduction become almost superhuman, and he is able
-to use them in nearly all aspects of life.
-
-**Gained:** At 20th Level
-
-**Replaces:** True inspiration
+At 20th level, an empiricist's powers of reason and deduction become almost superhuman, and he is
+able to use them in nearly all aspects of life. At 20th level, an empiricist can use inspiration on
+all skills (even ones he is not trained in) and all ability checks (including initiative checks)
+without spending inspiration. This ability replaces true inspiration.
