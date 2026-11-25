@@ -69,3 +69,65 @@ note = 'text of another owner book (owner ruling 32): the Fractured Mind line of
 text = '''
 _Ventriloquism_ (5th), _absurdity_ (7th), _major image_ (9th), _rainbow pattern_ (16th).
 '''
+
+# Promethean Alchemist (Occult Adventures pp. 112-114, owner ruling 38 of 2026-11-25): the homunculus statistics, the advancement
+# block and Table 2-2 are unlisted sections under Homunculus Companion; Improved Evasion stays whole and listed.
+
+[[edit]]
+entry = "ref/arc-alchemist/promethean-alchemist"
+anchor = "improved-evasion"
+note = 'hand-written from print (Occult Adventures p. 113, ruling 38): the sidebar of the Homunculus Starting Statistics and the 4th-Level Advancement, which print sets in the column beside the end of the ability, is its own section and no longer runs on into its text'
+text = '''
+At 15th level, when subjected to an attack that allows a Reflex save for half damage, the homunculus takes no damage if it succeeds at the saving throw and only half damage if it fails the saving throw.
+'''
+
+[[add]]
+entry = "ref/arc-alchemist/promethean-alchemist"
+anchor = "homunculus-starting-statistics"
+head = 'Homunculus Starting Statistics'
+parent = "homunculus-companion"
+after = "special"
+note = 'hand-written from print (Occult Adventures p. 113, ruling 38): the sidebar beside the homunculus abilities, an unlisted section of Homunculus Companion; the stat block as printed'
+text = '''
+**Size** Small; **Speed** 20 ft., fly 30 ft. (poor); **AC** +2 natural armor; **Attack** bite (1d4); **Ability Scores** Str 10, Dex 15, Con —, Int 10, Wis 12, Cha 7; **Special Qualities** darkvision, low-light vision; **Languages** Common (can't speak).
+'''
+
+[[add]]
+entry = "ref/arc-alchemist/promethean-alchemist"
+anchor = "4th-level-advancement"
+head = '4th-Level Advancement'
+parent = "homunculus-starting-statistics"
+after = "homunculus-starting-statistics"
+note = 'hand-written from print (Occult Adventures p. 113, ruling 38): the second block of the sidebar, nested under Homunculus Starting Statistics; the poison is written as printed (the corpus section Homunculus Poison is a copy of these words)'
+text = '''
+**Size** Medium; **Speed** 30 ft., fly 40 ft. (average); **Attack** bite (1d6 plus poison), 2 claws (1d6); **Ability Scores** Str +4, Dex -2; **Special Attacks** poison (bite—injury _frequency_ 1/minute for 60 minutes, _effect_ sleep for 1 minute, _cure_ 1 save, Con-based DC with a +2 racial bonus).
+'''
+
+[[edit]]
+entry = "ref/arc-alchemist/promethean-alchemist"
+anchor = "table-2-2-homunculus-companions"
+note = 'hand-written from print (Occult Adventures p. 114, ruling 38): Table 2-2 as a Markdown table; each cell as printed, an empty Special cell is an em dash'
+text = '''
+| Level | HD | BAB | Saves | Skills | Feats | Str/Dex Bonus | Special |
+|---|---|---|---|---|---|---|---|
+| 1st | 1 | +1 | +0 | 2 | 1 | +0 | Darkvision, low-light vision, sympathetic alchemy, telepathic link, weapon and armor proficiency |
+| 2nd | 2 | +2 | +0 | 4 | 1 | +0 | — |
+| 3rd | 3 | +3 | +1 | 8 | 2 | +1 | Evasion |
+| 4th | 3 | +3 | +1 | 8 | 2 | +1 | — |
+| 5th | 4 | +4 | +1 | 10 | 2 | +1 | Ability score increase |
+| 6th | 5 | +5 | +1 | 12 | 3 | +2 | Speech |
+| 7th | 6 | +6 | +2 | 14 | 3 | +2 | — |
+| 8th | 6 | +6 | +2 | 14 | 3 | +2 | — |
+| 9th | 7 | +7 | +2 | 16 | 4 | +3 | Spell resistance |
+| 10th | 8 | +8 | +2 | 18 | 4 | +3 | Ability score increase |
+| 11th | 9 | +9 | +3 | 20 | 5 | +3 | — |
+| 12th | 9 | +9 | +3 | 20 | 5 | +4 | — |
+| 13th | 10 | +10 | +3 | 22 | 5 | +4 | — |
+| 14th | 11 | +11 | +3 | 24 | 6 | +4 | — |
+| 15th | 12 | +12 | +4 | 26 | 6 | +5 | Ability score increase, improved evasion |
+| 16th | 12 | +12 | +4 | 26 | 6 | +5 | — |
+| 17th | 13 | +13 | +4 | 28 | 7 | +5 | — |
+| 18th | 14 | +14 | +4 | 30 | 7 | +6 | — |
+| 19th | 15 | +15 | +5 | 32 | 8 | +6 | — |
+| 20th | 15 | +15 | +5 | 32 | 8 | +6 | Ability score increase |
+'''

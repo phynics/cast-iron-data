@@ -2549,6 +2549,8 @@ TRADE_NO_BY = {
 
 # Stored trades that print does not support in any sentence, and that are dropped (owner ruling 17 of 2026-11-24,
 # review of batch 1): the Totem Transformation of the dragon, saurian and shark shaman never mentions woodland stride.
+# The entries whose removal an owner ruling after ruling 17 confirms (ruling 39 of 2026-11-25: Sage Counselor keeps it).
+TRADE_REMOVAL_RULED = {"ref/arc-monk/sage-counselor"}
 TRADE_REMOVALS = {
     "ref/arc-druid/dragon-shaman": [("replaces", "Woodland stride")],
     "ref/arc-druid/saurian-shaman": [("replaces", "Woodland stride")],
@@ -2835,7 +2837,8 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     for origin in sorted(dropped_trade_indices(e)):
         old = trades_of(e)[origin]
         if trade_name(old) in TRADE_REMOVALS.get(e.id, []):
-            rows[0]["notes"].append(f'trade dropped (ruling 17): {trade_name(old)[0]} "{trade_name(old)[1]}" has no printed support in any sentence')
+            ruling = "ruling 39, which keeps the removal; ruling 17" if e.id in TRADE_REMOVAL_RULED else "ruling 17"
+            rows[0]["notes"].append(f'trade dropped ({ruling}): {trade_name(old)[0]} "{trade_name(old)[1]}" has no printed support in any sentence')
             continue
         if trade_name(old) in TRADE_MERGED.get(e.id, []):
             rows[0]["notes"].append(f'trade merged: {trade_name(old)[0]} "{trade_name(old)[1]}" is the printed trade of the sentence that each feature prints with the same words; one trade names all three features')
