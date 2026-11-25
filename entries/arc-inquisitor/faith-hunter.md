@@ -75,7 +75,7 @@ This ability replaces detect alignment.
 
 ## Hateful Bane (Su) {#hateful-bane}
 
-At 5th level, a faith hunter's [bane](ref/spell/bane) ability functions only against creatures that
-are both the selected creature type and her sworn enemy alignment.
+At 5th level, a faith hunter's [bane](ref/class/inquisitor#bane) ability functions only against
+creatures that are both the selected creature type and her sworn enemy alignment.
 
 This ability alters bane.

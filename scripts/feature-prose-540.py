@@ -2001,6 +2001,19 @@ EXTRA_LINKS = {
     ("ref/arc-vigilante/gunmaster", "gunmaster"): [("gunsmith", "ref/class/gunslinger#gunsmith")],
 }
 
+# A link of the import that points at the wrong thing: the entry and the label, retargeted (the TSV does not list it; the PR says so).
+# Faith Hunter's Hateful Bane means the inquisitor class feature, not the spell (owner review of batch 3).
+LINK_RETARGETS = {
+    ("ref/arc-inquisitor/faith-hunter", "bane"): "ref/class/inquisitor#bane",
+}
+
+
+def feature_links(entry_id: str, f, head: str) -> list[tuple[str, str]]:
+    """The links of a feature in the import, retargeted where LINK_RETARGETS says so, plus the extra ones."""
+    links = [(lb, LINK_RETARGETS.get((entry_id, lb), tg)) for lb, tg in old_links(f)]
+    return links + EXTRA_LINKS.get((entry_id, anchor_of(head)), [])
+
+
 # A misprint of an opening text, which the compare keeps from the import when the words agree: the entry and the note
 # that the review table records (owner ruling 9).
 OPENING_NOTES = {
@@ -2082,7 +2095,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
             continue
         f = feats[idx]
         draft = build_draft(f)
-        text, lost, pnotes = print_md(pf, old_links(f) + EXTRA_LINKS.get((e.id, anchor_of(head)), []), vocab, e.id, keep)
+        text, lost, pnotes = print_md(pf, feature_links(e.id, f, head), vocab, e.id, keep)
         # a printed "(see ...)" cross-reference is kept in the text but is not a rule word: the corpus links instead
         cmp = compare_feature(draft, re.sub(r"\s*\([Ss]ee\b[^()]*\)", "", text), set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
         # the whole row, then its parts: a name that is a list ("The 1st-, 9th-, and 15th-level channel energy
@@ -2096,7 +2109,7 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
                "status": cmp.status, "notes": list(cmp.notes) + pnotes, "name": pf.head}
         if lost:
             row["notes"].append("link not placed: " + ", ".join(lost))
-            pool = list(old_links(f) + EXTRA_LINKS.get((e.id, anchor_of(head)), []))
+            pool = list(feature_links(e.id, f, head))
             row["lost_links"] = []
             for label in lost:
                 at = next((k for k, (lb, _t) in enumerate(pool) if lb == label), None)
