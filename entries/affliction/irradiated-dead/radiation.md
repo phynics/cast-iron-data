@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-87-the-choking-tower"
+page = "84"
 
 [fields]
 kind = "none"

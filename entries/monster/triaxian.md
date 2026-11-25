@@ -15,6 +15,7 @@ page = "86"
 kind = "creature"
 cr = "1/2"
 creature_type = "humanoid"
+subtypes = ["triaxian"]
 size = "medium"
 alignment = "neutral"
 ac = "18/12/16"
@@ -40,9 +41,9 @@ Type: humanoid
 Initiative: +2
 Size: medium
 Alignment: Neutral
-othersubs: Triaxian
 Perception: +8
 Senses: Low-light vision
+Subtype: Triaxian
 Experience points: 200
 :::
 

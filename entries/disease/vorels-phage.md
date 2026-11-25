@@ -23,6 +23,6 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** 1d4 Cha and 1d4 Con.
+**Effect:** 1d4 Charisma and 1d4 Constitution damage
 
 **Cure:** 2 consecutive saves

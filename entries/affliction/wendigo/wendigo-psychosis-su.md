@@ -13,6 +13,7 @@ publication = "bestiary-2"
 page = "281"
 [[sources]]
 publication = "pathfinder-6-spires-of-xin-shalast"
+page = "89"
 
 [fields]
 kind = "none"

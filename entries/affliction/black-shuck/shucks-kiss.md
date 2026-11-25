@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-129-the-twilight-child"
+page = "82"
 
 [fields]
 kind = "none"

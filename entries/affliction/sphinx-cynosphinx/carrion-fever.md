@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "84"
 
 [fields]
 kind = "none"

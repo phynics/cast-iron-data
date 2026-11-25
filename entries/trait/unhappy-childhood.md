@@ -12,7 +12,7 @@ publication = "curse-of-the-crimson-throne"
 page = "9"
 [[sources]]
 publication = "curse-of-the-crimson-throne-players-guide"
-page = "15"
+page = "16"
 
 [fields]
 kind = "trait"

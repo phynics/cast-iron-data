@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-136-temple-of-the-peacock-spirit"
+page = "88"
 
 [fields]
 kind = "none"

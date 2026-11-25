@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Dexterity damage 1 and Constitution damage 1d4
+**Effect:** 1d4 Con damage and 1 Dex damage
 
 **Cure:** 2 consecutive saves
 

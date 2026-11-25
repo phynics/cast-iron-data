@@ -14,7 +14,7 @@ page = "86"
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["evil", "giant", "lawful"]
+subtypes = ["evil", "giant", "herald", "lawful"]
 size = "large"
 alignment = "lawful evil"
 ac = "30/13/26"
@@ -38,11 +38,10 @@ aura: courage (20 ft.)
 Initiative: +3
 Size: large
 Alignment: Lawful evil
-othersubs: Herald
 Type: outsider
 Perception: +21
 Senses: Darkvision 120 ft., Low-light vision
-Subtype: Evil, Giant, Lawful
+Subtype: Evil, Giant, Herald, Lawful
 Experience points: 51,200
 :::
 

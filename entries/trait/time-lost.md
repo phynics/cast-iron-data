@@ -9,7 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "return-of-the-runelords-players-guide"
-page = "11"
+page = "13"
 
 [fields]
 kind = "trait"

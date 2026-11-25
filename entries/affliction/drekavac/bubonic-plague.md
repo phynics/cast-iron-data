@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-31-stolen-land"
+page = "78"
 
 [fields]
 kind = "none"

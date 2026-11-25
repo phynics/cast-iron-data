@@ -22,7 +22,7 @@ hp = "15~2d10+4"
 fortitude = "+2"
 reflex = "+5"
 will = "+4"
-melee = "spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4-2), bite +4 (1d6+2)"
+melee = "spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4+2), bite +4 (1d6+2)"
 ranged = "spear +4 (1d8+2/×3) or mwk net +5 ranged touch (entangle)"
 special_qualities = "hold breath, water sprint"
 abilities = ["14", "14", "14", "11", "13", "9"]
@@ -41,8 +41,7 @@ Type: Monstrous humanoid
 Alignment: Neutral
 Perception: +6
 Senses: Darkvision 60 ft.
-tremorParens: in water
-tremorsense: 120
+tremorsense: 120 ft. (in water)
 Experience points: 600
 :::
 
@@ -63,7 +62,7 @@ Will: +4
 
 ::: statblock
 Speed: 30 ft.
-Melee: spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4-2), bite +4 (1d6+2)
+Melee: spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4+2), bite +4 (1d6+2)
 Ranged: spear +4 (1d8+2/×3) or mwk net +5 ranged touch (entangle)
 Sp Other: water stride 50 ft.
 :::

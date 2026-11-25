@@ -13,6 +13,7 @@ publication = "bestiary-3"
 page = "203"
 [[sources]]
 publication = "pathfinder-34-blood-for-blood"
+page = "88"
 
 [fields]
 kind = "none"

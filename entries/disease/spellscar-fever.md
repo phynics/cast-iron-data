@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1d2 and Charisma drain 1d2
+**Effect:** 1d2 Con damage, 1d2 Cha drain
 
 **Cure:** 2 consecutive saves
 

@@ -14,7 +14,7 @@ page = "88"
 kind = "creature"
 cr = "5"
 creature_type = "outsider"
-subtypes = ["native", "oni", "shapechanger"]
+subtypes = ["native", "oni", "shapechanger", "tengu"]
 size = "medium"
 alignment = "lawful evil"
 ac = "18/14/14"
@@ -37,11 +37,10 @@ Challenge rating: 5
 Initiative: +8
 Alignment: Lawful evil
 Size: medium
-othersubs: Tengu
 Type: outsider
 Perception: +15
 Senses: Darkvision 60 ft., Low-light vision, See invisibility
-Subtype: Native, Oni, Shapechanger
+Subtype: Native, Oni, Shapechanger, Tengu
 Experience points: 1,600
 :::
 

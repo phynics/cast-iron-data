@@ -1,9 +1,9 @@
 id	book	page	printed_effect	status
 blightburn-sickness	undead-unleashed	15	1d6 Con damage and 1d6 Cha damage	tail-in-body
 blinding-sickness	core-rulebook	557	1d4 Str damage, if more than 2 Str damage, target must make an additional Fort save or be permanently blinded	rewrite
-blood-veil	curse-of-the-crimson-throne	430		no-pdf
+blood-veil	curse-of-the-crimson-throne	430	1d4 Con damage and 1d4 Cha damage	rewrite
 bluespit	numeria-land-of-fallen-stars	23	1d6 nonlethal damage and fatigue. The fatigue and nonlethal damage cannot be cured while the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack with other sources of fatigue. A victim that accumulates sufficient damage to fall unconscious while infected with bluespit begins to suffocate (Pathfinder RPG Core Rulebook 445). Despite being unconscious, the victim is considered to be holding its breath rather than immediately progressing to negative hit points and death.	rewrite
-bonechill	pathfinder-51-the-hungry-storm	67		no-pdf
+bonechill	pathfinder-51-the-hungry-storm	67	1d4 Dex damage, and any nonlethal damage incurred from being in a cold environment becomes lethal damage (though it can still cause hypothermia)	rewrite
 bonecrusher-dengue	heart-of-the-jungle	6	1d4 Dex damage	rewrite
 boot-soup	heart-of-the-jungle	7	speed reduced by 5 feet and 1d3 Dex damage, creatures reduced to speed 0 feet are permanently paralyzed	rewrite
 brainworms	heart-of-the-jungle	7	1d3 Wis damage and 1d3 Int damage, if damaged in combat, target must make a second Fort save or gain the confused condition for the duration of the encounter	rewrite
@@ -12,18 +12,18 @@ cackle-fever	core-rulebook	557	1d6 Wis damage	rewrite
 chillbane-fever	irrisen-land-of-eternal-winter	48	1d4 Con damage and target is sickened and fatigued	rewrite
 cowards-mark	numeria-land-of-fallen-stars	24	1d2 Dexterity damage and 1d2 Wisdom damage. If the victim fails two saving throws 2 days in a row (not counting the initial save), he develops a secondary effect, or the existing secondary effect worsens. Curing the affliction immediately removes all accumulated secondary effects.	matches
 crypt-fever	tomb-of-the-iron-medusa	13	1d6 Str damage, 1d6 Cha damage, and victim is exhausted	rewrite
-daemonic-wasting	pathfinder-54-the-empty-throne	28		no-pdf
+daemonic-wasting	pathfinder-54-the-empty-throne	28	1d4 Con damage and 1d4 Cha damage	rewrite
 demon-fever	core-rulebook	557	1d6 Con damage, target must make a second Fort save or 1 point of the damage is drain instead	rewrite
 demonplague	the-worldwound	29	1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts (see page 56)	rewrite
 devil-chills	core-rulebook	557	1d4 Str damage	rewrite
-dvezda-plague	pathfinder-69-maiden-mother-crone	71		no-pdf
+dvezda-plague	pathfinder-69-maiden-mother-crone	71	1d4 Con damage and 1 Dex damage	rewrite
 dysentary	heart-of-the-jungle	7	1d6 nonlethal damage and target is fatigued and staggered	matches
 eidite-sickness	wardens-of-the-reborn-forge	19	1d3 Wis damage and -4 penalty on saving throws against poisons and diseases. Unlike other diseases, constructs are not immune to eidite sickness. After 3 days of being affected by the disease, a construct gains the advanced simple template and loses any programming or instructions given to it, effectively going berserk, and attacks all living creatures in sight until it is destroyed or the disease is removed	rewrite
-ergia	pathfinder-51-the-hungry-storm	67		no-pdf
+ergia	pathfinder-51-the-hungry-storm	67	1d4 Str damage and 1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead, and a creature that has suffered ability drain glows blue as if limned with faerie fire	matches
 filth-fever	core-rulebook	557	1d3 Dex damage and 1d3 Con damage	rewrite
 final-rest	numeria-land-of-fallen-stars	24	1d2 Charisma damage	tail-in-body
 firegut	heart-of-the-jungle	7	target is staggered	matches
-fungal-flu	pathfinder-13-shadow-in-the-sky	81		no-pdf
+fungal-flu	pathfinder-13-shadow-in-the-sky	81	1d4 Con damage	tail-in-body
 ghoul-fever	bestiary	146	1d3 Con and 1d3 Dex damage	rewrite
 glacier-plague	irrisen-land-of-eternal-winter	48	1d6 points of Dex damage and target is exhausted, its speed is reduced by half, and it is unable to speak	rewrite
 green-haze	heart-of-the-jungle	7	-4 on Perception checks, target is permanently blinded if fails 3 saves	rewrite
@@ -31,7 +31,7 @@ greenscale	heart-of-the-jungle	7	1d2 Cha damage and 1d2 Dex damage, target must 
 leprosy	core-rulebook	557	1d2 Cha damage	rewrite
 malaria-jungle-fever	heart-of-the-jungle	7	1d3 Str damage and 1d3 Con damage and target is fatigued	rewrite
 mindfire	core-rulebook	557	1d4 Int damage	rewrite
-moxixs-delectation	pathfinder-58-island-of-empty-eyes	67		no-pdf
+moxixs-delectation	pathfinder-58-island-of-empty-eyes	67	1d3 Con and 1d3 Wis damage	rewrite
 pallid-gift	villain-codex	68	1d6 Constitution damage and 1d6 Wisdom damage, the infected creature is fatigued, the ability damage can't be healed, and the fatigue can't be removed while the creature is infected	rewrite
 pulsing-puffs	heart-of-the-jungle	8	1d4 Dex damage	rewrite
 rabies	bestiary	87	1 Con damage plus 1d3 Wis damage (minimum reduction to 1 Wis)	rewrite
@@ -42,8 +42,8 @@ shakes	core-rulebook	557	1d8 Dex damage	rewrite
 shattermind	numeria-land-of-fallen-stars	24	1d4 Wis damage (cannot reduce Wisdom below 1); on any day the victim fails her saving throw, she suffers the effects of a type of insanity (GameMastery Guide 250). Unlike normal insanity, on any day she makes a successful saving throw (using the DC for shattermind, not her form of insanity), she regains her sanity for that day. A given variety of shattermind spreads the same form of insanity to all of its victims.	rewrite
 sleeping-sickness	heart-of-the-jungle	8	1d4 Wis damage and target is fatigued	rewrite
 slimy-doom	core-rulebook	557	1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead	rewrite
-spellscar-fever	pathfinder-119-prisoners-of-the-blight	63		no-pdf
-tetanus	pathfinder-1-burnt-offerings	43		no-pdf
+spellscar-fever	pathfinder-119-prisoners-of-the-blight	63	1d2 Con damage, 1d2 Cha drain	rewrite
+tetanus	pathfinder-1-burnt-offerings	43	1d4 Dex damage	rewrite
 the-scales	lost-cities-of-golarion	8	1d2 Dex damage and 1d2 Cha damage	rewrite
 the-tainted-plague	pathfinder-campaign-setting	149	1d6 Con and 1d6 Wis damage	rewrite
-vorels-phage	pathfinder-2-the-skinsaw-murders	27		no-pdf
+vorels-phage	pathfinder-2-the-skinsaw-murders	27	1d4 Charisma and 1d4 Constitution damage	rewrite

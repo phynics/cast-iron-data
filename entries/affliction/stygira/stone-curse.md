@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-33-the-varnhold-vanishing"
+page = "88"
 
 [fields]
 kind = "none"

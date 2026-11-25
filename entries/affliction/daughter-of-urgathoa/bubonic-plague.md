@@ -2,7 +2,7 @@
 id = "ref/affliction/daughter-of-urgathoa/bubonic-plague"
 kind = "affliction"
 title = "Bubonic Plague"
-source_ids = ["inner-sea-world-guide", "pathfinder-8-seven-days-to-the-grave"]
+source_ids = ["inner-sea-world-guide"]
 parent = "ref/monster/daughter-of-urgathoa"
 tags = ["disease"]
 provenance = [
@@ -11,8 +11,6 @@ provenance = [
 [[sources]]
 publication = "inner-sea-world-guide"
 page = "309"
-[[sources]]
-publication = "pathfinder-8-seven-days-to-the-grave"
 
 [fields]
 kind = "none"

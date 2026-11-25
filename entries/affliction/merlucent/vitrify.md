@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-104-wrath-of-thrune"
+page = "90"
 
 [fields]
 kind = "none"

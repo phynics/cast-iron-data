@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-111-dreams-of-the-yellow-king"
+page = "90"
 
 [fields]
 kind = "none"

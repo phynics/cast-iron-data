@@ -9,7 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "hells-rebels-players-guide"
-page = "13"
+page = "12"
 
 [fields]
 kind = "trait"

@@ -15,6 +15,7 @@ page = "82"
 kind = "creature"
 cr = "12"
 creature_type = "undead"
+subtypes = ["augmented humanoid"]
 size = "medium"
 alignment = "neutral evil"
 ac = "21/11/21"
@@ -36,7 +37,6 @@ dry, stretched skin._
 
 ::: statblock
 Challenge rating: 12
-augment: Humanoid
 aura: delusory aura (100 ft.)
 Initiative: +0
 Size: medium
@@ -44,6 +44,7 @@ Alignment: Neutral evil
 Perception: +20
 Senses: Darkvision 60 ft.
 Type: undead
+Subtype: Augmented humanoid
 Experience points: 19,200
 :::
 

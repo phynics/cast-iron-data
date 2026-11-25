@@ -13,6 +13,7 @@ publication = "bestiary-2"
 page = "288"
 [[sources]]
 publication = "pathfinder-18-descent-into-midnight"
+page = "89"
 
 [fields]
 kind = "none"
