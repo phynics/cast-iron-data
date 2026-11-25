@@ -653,6 +653,11 @@ def load_book(xml_path: Path) -> Book:
                 # others drop it with the other marks (`clean_runs`)
                 items.append((top, left, int(font), DAGGER * len(plain) + (" " if raw != raw.rstrip() else ""), int(_w)))
                 continue
+            elif int(_h) <= 11 and re.fullmatch(r"[A-Z]{2,4}[.,;:)]+", plain):
+                # a mark with the punctuation that follows it in one element ("UW."): the mark goes, the punctuation stays
+                items.append((top, left, int(font), SUPERSCRIPT, 0))
+                items.append((top, left, int(font), re.sub(r"^[A-Z]+", "", raw), int(_w)))
+                continue
             elif (mark and not mark.group(1)) or (int(_h) <= 11 and re.fullmatch(r"[A-Z]{2,4}", plain)):
                 # left out of the text; `page_lines` keeps the blank that ends a line when the mark stood last
                 # a mark that carries the blank of the word space after it ("Performance" + "APG " + "feat") keeps it
@@ -1566,6 +1571,8 @@ def publication_title(corpus: Path, book: str) -> str:
 # Misprints of the book that are fixed because the meaning is certain (owner ruling 9 of 2026-11-24): the
 # entry, the printed words, the words written, and why. The review table's note records each fix.
 MISPRINTS = [
+    ("ref/arc-vigilante/zealot", "This alter's the vigilante's skill ranks per level", "This alters the vigilante's skill ranks per level",
+     "alters: the printed \"alter's\" is a slip for the verb of the trade sentence"),
     ("ref/arc-spiritualist/involutionist", "available at 11th, 15th, and 17th levels", "available at 11th, 15th, and 19th levels",
      "19th: the spiritualist's calm spirit gains an additional use per 4 levels beyond 7th (11th, 15th, 19th), the ability itself says 'At 15th and 19th levels', and the stored trade says 19th"),
     ("ref/arc-summoner/naturalist", "on its feat.", "on its feet.", "feet: the sentence is about the hooves of the eidolon (antlers and hoof like nails)"),
@@ -2654,7 +2661,7 @@ TRADE_ADDITIONS = {
 # Batch 5 (Opus review of #329): the sentences "This alters the ...'s class skills" and the like that print sets in a section before the first
 # feature (Class Skills, Alignment) state a trade that the import did not store; each is stored without `by` (ruling 6, as for Magic Warrior).
 SCAFFOLD_TRADE_ADDITIONS = {
-    "ref/arc-swashbuckler/daring-infiltrator": [{"alters": "Class skills"}],
+    "ref/arc-swashbuckler/daring-infiltrator": [{"alters": "The swashbuckler's class skill list"}],
     "ref/arc-swashbuckler/mysterious-avenger": [{"alters": "Class skills"}],
     "ref/arc-warpriest/cult-leader": [{"replaces": "Class skills"}],
     "ref/arc-warpriest/sacred-fist": [{"replaces": "Class skills"}],
@@ -2673,7 +2680,7 @@ SCAFFOLD_TRADE_ADDITIONS = {
     "ref/arc-mesmerist/vexing-daredevil": [{"alters": "Class skills"}],
     "ref/arc-monk/karmic-monk": [{"alters": "Class skills"}],
     "ref/arc-occultist/battle-host": [{"alters": "Class skills"}],
-    "ref/arc-ranger/planar-scout": [{"alters": "Class skills"}],
+    "ref/arc-ranger/planar-scout": [{"alters": "The ranger's skills"}],
     "ref/arc-rogue/dreamthief": [{"alters": "Class skills"}],
     "ref/arc-alchemist/interrogator": [{"alters": "Class skills"}],
     "ref/arc-alchemist/metamorph": [{"alters": "Class skills"}],
@@ -2699,8 +2706,8 @@ SCAFFOLD_TRADE_ADDITIONS = {
     "ref/arc-vigilante/psychometrist": [{"alters": "Class skills"}],
     "ref/arc-vigilante/warlock": [{"alters": "Class skills"}],
     "ref/arc-vigilante/zealot": [{"alters": "Class skills"}, {"alters": "Skill ranks per level"}],
-    "ref/arc-barbarian/brutish-swamper": [{"alters": "Class skills"}],
-    "ref/arc-barbarian/cave-dweller": [{"alters": "Class skills"}],
+    "ref/arc-barbarian/brutish-swamper": [{"alters": "The barbarian's skills"}],
+    "ref/arc-barbarian/cave-dweller": [{"alters": "The barbarian's skills"}],
     "ref/arc-bard/cultivator": [{"alters": "Class skills"}],
     "ref/arc-cavalier/saurian-champion": [{"alters": "Class skills"}],
     "ref/arc-gunslinger/commando": [{"alters": "Class skills"}],
@@ -2843,6 +2850,10 @@ def dropped_trade_indices(e: Entry) -> set[int]:
     for i, t in enumerate(trades_of(e)):
         key = trade_name(t)
         if key in TRADE_MERGED.get(e.id, []) or key in TRADE_REMOVALS.get(e.id, []):
+            out.add(i)
+        elif "feature" not in t and any(     # owner ruling 5 (Opus review of #329): a repeat of a linked trade, names equal without case, is left out
+                j != i and (trade_name(u)[0], trade_name(u)[1].lower()) == (key[0], key[1].lower()) and "feature" in u
+                for j, u in enumerate(trades_of(e))):
             out.add(i)
         elif (key[0], key[1].lower()) in [(o, n.lower()) for o, n in TRADE_DROPS.get(e.id, [])] and "feature" not in t and any(
                 j != i and (trade_name(u)[0], trade_name(u)[1].lower()) == (key[0], key[1].lower()) and "feature" in u
