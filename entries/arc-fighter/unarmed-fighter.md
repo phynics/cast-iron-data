@@ -72,7 +72,7 @@ replaces bravery.
 
 ## Tough Guy (Ex) {#tough-guy}
 
-At 3rd level, an unarmed fighter gains DR/— equal to [half](ref/misc/fractions-and-rounding) his
+At 3rd level, an unarmed fighter gains DR/—equal to [half](ref/misc/fractions-and-rounding) his
 fighter level against nonlethal damage or damage taken while he is
 [grappled](ref/rule/grapple-conditions). This ability replaces armor training 1.
 

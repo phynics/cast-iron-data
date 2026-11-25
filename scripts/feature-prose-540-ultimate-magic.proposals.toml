@@ -18,7 +18,7 @@ anchor = "oracle-s-curse"
 head = "Oracle's Curse"
 listed = true
 print = "A dual-cursed oracle must choose two curses at 1st level. One of these curses (oracle's choice) never changes its abilities as the oracle gains levels; for example, an oracle with [clouded vision](ref/oraclecurse/clouded-vision) never gains [darkvision](ref/rule/darkvision) 60 feet, [blindsense](ref/rule/blindsight-and-blindsense), or blindsight. The other curse comes with its normal benefits."
-import_trades = ["Oracle's curse", "Oracle's curse"]
+import_trades = ["Oracle's curse"]
 
 [[entry.feature]]
 anchor = "class-skills"
@@ -82,7 +82,7 @@ anchor = "bonus-spells"
 head = "Bonus Spells"
 listed = false
 print = "_owl's wisdom_ (4th), _water walk_ (6th), _discern lies_ (8th), _true seeing_ (10th), _wind walk_ (12th), _ethereal jaunt_ (14th), _moment of prescience_ (16th), _astral projection_ (18th). These bonus spells replace the oracle's mystery bonus spells at these levels."
-import_trades = ["All bonus spells gained from the oracle's mystery after 2nd level", "All bonus spells gained from the oracle's mystery after 2nd level"]
+import_trades = ["All bonus spells gained from the oracle's mystery after 2nd level"]
 
 [[entry.feature]]
 anchor = "revelations"
@@ -101,7 +101,7 @@ anchor = "final-revelation"
 head = "Final Revelation"
 listed = true
 print = "Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You become immune to confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge skill checks. Should you die, you are reborn 3 days later as a living example of the summoning of your chosen philosophy (treat as the _[reincarnate](ref/spell/reincarnate)_ spell). This replaces the final revelation of the oracle's mystery."
-import_trades = ["Final revelation", "Final revelation"]
+import_trades = ["Final revelation"]
 
 [[entry]]
 id = "ref/arc-oracle/planar-oracle"
@@ -120,7 +120,7 @@ anchor = "bonus-spells"
 head = "Bonus Spells"
 listed = false
 print = "_endure elements_ (2nd), _elemental speech_ (4th), _tongues_ (6th), _planar adaptation_ (8th), _plane shift_ (10th), _mass planar adaptation_ (12th), _shadow walk_ (14th), _etherealness_ (16th), _gate_ (18th). These bonus spells replace the oracle's mystery bonus spells at these levels."
-import_trades = ["All bonus spells from the oracle's mystery", "All bonus spells from the oracle's mystery"]
+import_trades = ["All bonus spells from the oracle's mystery"]
 
 [[entry.feature]]
 anchor = "revelations"
@@ -128,7 +128,7 @@ head = "Revelations"
 listed = true
 level = 1
 print = "At 1st level, you must choose one Outer Plane with which you have an affinity. This choice cannot be changed. A planar oracle must take the following revelation at 3rd level."
-import_trades = ["3rd-level revelation", "3rd-level revelation"]
+import_trades = ["3rd-level revelation"]
 
 [[entry.feature]]
 anchor = "planar-resistance"
@@ -143,7 +143,7 @@ head = "Final Revelation"
 listed = true
 level = 20
 print = "At 20th level, you become an [extraplanar](ref/subtype/extraplanar) creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane (see the _Pathfinder RPG Bestiary_). For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to \"[outsider](ref/type/outsider) (extraplanar),\" except on your associated plane, where your type is \"outsider (native).\" In addition, you gain immunity to your associated energy type and gain [damage reduction](ref/rule/damage-reduction) 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. This replaces the final revelation of the oracle's mystery."
-import_trades = ["Final revelation", "Final revelation"]
+import_trades = ["Final revelation"]
 
 [[entry]]
 id = "ref/arc-oracle/possessed-oracle"
@@ -199,7 +199,7 @@ anchor = "bonus-spells"
 head = "Bonus Spells"
 listed = false
 print = "_detect thoughts_ (4th), _clairaudience/clairvoyance_ (6th), _scrying_ (8th), _true seeing_ (10th), _legend lore_ (12th), _greater scrying_ (14th), _vision_ (16th), _foresight_ (18th). These bonus spells replace the oracle's mystery bonus spells at these levels."
-import_trades = ["Bonus spells granted by the oracle's mystery after 2nd level", "Bonus spells granted by the oracle's mystery after 2nd level"]
+import_trades = ["Bonus spells granted by the oracle's mystery after 2nd level"]
 
 [[entry.feature]]
 anchor = "revelations"

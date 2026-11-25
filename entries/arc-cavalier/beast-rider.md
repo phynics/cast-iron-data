@@ -61,17 +61,10 @@ velociraptor).
 Medium beast riders can choose a camel or horse mount at 1st level. At 4th level, a Medium beast
 rider can also choose an allosaurus, ankylosaurus, arsinoitherium, aurochs, bison, brachiosaurus,
 elephant, glyptodon, hippopotamus, lion, mastodon, megaloceros, snapping turtle (giant), tiger,
-triceratops, or tyrannosaurus as
+triceratops, or tyrannosaurus as his mount. Additional mounts might be available with GM approval.
 
-his mount. Additional mounts might be
-
-available with GM approval.
-
-In addition, a 7th-level or higher Medium
-
-beast rider can select any other creature whose
-
-natural size is Large or Huge, provided that creature is normally available as a Medium-sized animal
+In addition, a 7th-level or higher Medium beast rider can select any other creature whose natural
+size is Large or Huge, provided that creature is normally available as a Medium-sized animal
 companion at 7th level (like a bear). To generate statistics for such a mount, apply the following
 modifications: Size Large; Ability Scores Str +2, Dex -2, Con +2. Increase the damage of each of the
 mount's natural attacks by one die size. A beast rider cannot choose a mount that is not capable of

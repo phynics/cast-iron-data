@@ -47,10 +47,10 @@ provided by the shield that the armor master is currently carrying. This ability
 
 ## Armored Defense (Ex) {#armored-defense}
 
-At 5th level, an armor master gains DR 1/— when wearing light armor, DR 2/— when wearing medium
-armor, and DR 3/— when wearing heavy armor. At 19th level, this
-[damage reduction](ref/rule/damage-reduction) increases to DR 4/— when wearing light armor, DR 8/—
-when wearing medium armor, and DR 12/— when wearing heavy armor. This
+At 5th level, an armor master gains DR 1/—when wearing light armor, DR 2/—when wearing medium armor,
+and DR 3/—when wearing heavy armor. At 19th level, this
+[damage reduction](ref/rule/damage-reduction) increases to DR 4/—when wearing light armor, DR
+8/—when wearing medium armor, and DR 12/—when wearing heavy armor. This
 [damage reduction](ref/rule/damage-reduction) stacks with that provided by
 [adamantine](ref/eq-material/adamantine) armor, but not with other forms of damage reduction. This
 damage reduction does not apply if the armor master is stunned, unconscious, or helpless. This

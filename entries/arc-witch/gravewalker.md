@@ -41,8 +41,8 @@ apparitions of tremendous power.
 ## Spells {#spells}
 
 A gravewalker replaces some of her patron spells with the following: 4th—_command undead_,
-6th—_animate dead_, 12th—_create undead_, 14th—_control undead_, 16th— _create greater undead_.
-These replace the patron spells
+6th—_animate dead_, 12th—_create undead_, 14th—_control undead_, 16th—_create greater undead_. These
+replace the patron spells
 
 ## Spell Poppet {#spell-poppet}
 
