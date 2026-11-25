@@ -23,18 +23,12 @@ features = [
   { anchor = "elemental-strike", level = 1 },
   { anchor = "elemental-form", level = 4 },
   { anchor = "omnielementalist", level = 9 },
-  { anchor = "ash-storm" },
-  { anchor = "downpour" },
-  { anchor = "mudslide" },
-  { anchor = "sandstorm" },
-  { anchor = "steam-cloud" },
-  { anchor = "volcanic-stride" },
 ]
 trades = [
   { replaces = "Wild empathy", feature = "wild-empathy", by = ["elemental-speech"] },
   { replaces = "Shifter claws", feature = "shifter-claws", by = ["elemental-strike"] },
-  { replaces = "Chimeric aspect", feature = "chimeric-aspect", by = ["volcanic-stride"] },
-  { replaces = "greater chimeric aspect", feature = "greater-chimeric-aspect", by = ["volcanic-stride"] },
+  { replaces = "Chimeric aspect", feature = "chimeric-aspect", by = ["omnielementalist"] },
+  { replaces = "greater chimeric aspect", feature = "greater-chimeric-aspect", by = ["omnielementalist"] },
   { alters = "Languages", feature = "bonus-languages", by = ["languages"] },
   { alters = "Shifter aspect", feature = "shifter-aspect", by = ["elemental-aspect"] },
   { alters = "Wild shape", feature = "wild-shape", by = ["elemental-form"] },
@@ -103,12 +97,12 @@ When the elementalist shifter takes on one minor form each from two of her eleme
 gains an additional ability as long as she maintains the form. The effects of the abilities depend
 on the elemental combination, as detailed below.
 
-## Ash Storm (Su) {#ash-storm}
+### Ash Storm (Su) {#ash-storm}
 
 By combining air and fire, the elementalist shifter surrounds herself with a storm of swirling ash,
 granting her a 20% miss chance against ranged attacks.
 
-## Downpour (Su) {#downpour}
+### Downpour (Su) {#downpour}
 
 The elementalist shifter combines the powers of air and water to generate a torrential downpour in
 her square and squares adjacent to her. This rain automatically extinguishes all nonmagical fires in
@@ -118,28 +112,28 @@ such as _[fireball](ref/spell/fireball)_) within or that enters the area, as if 
 shifter had cast _[dispel magic](ref/spell/dispel-magic)_, using her elementalist shifter level as
 her caster level for the effect.
 
-## Mudslide (Su) {#mudslide}
+### Mudslide (Su) {#mudslide}
 
 Combining the elements of earth and water causes the elementalist shifter to generate an aura of
 mud. This mud extends out to all squares adjacent to her and counts as
 [difficult terrain](ref/rule/terrain-and-obstacles); it moves with her and vanishes when she ends
 her elemental aspect.
 
-## Sandstorm (Su) {#sandstorm}
+### Sandstorm (Su) {#sandstorm}
 
 Combining the high winds of air and fine particulates of earth produces a sandstorm that extends out
 to a radius of 20 feet from the elementalist shifter. All [light levels](ref/rule/vision-and-light)
 in the area diminish by one step, and creatures caught in the effect take 1d6 points of nonlethal
 damage each round they remain within the sandstorm.
 
-## Steam Cloud (Su) {#steam-cloud}
+### Steam Cloud (Su) {#steam-cloud}
 
 When the elementalist shifter enters a minor form of fire and water at the same time, the heat of
 fire and moisture of water generate an explosive area of steam around her out to a radius of 20 feet
 as per _[obscuring mist](ref/spell/obscuring-mist)_. The mist remains in place until she ends her
 elemental aspect; it doesn't move with her.
 
-## Volcanic Stride (Su) {#volcanic-stride}
+### Volcanic Stride (Su) {#volcanic-stride}
 
 By combining earth and fire, the elementalist shifter can damage the ground around herself. As a
 standard action, she can deform a region of natural or artificial rock in her space, turning it into

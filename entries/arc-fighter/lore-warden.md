@@ -20,11 +20,6 @@ features = [
   { anchor = "scholastic" },
   { anchor = "skill-over-strength", level = 2 },
   { anchor = "swords-secret" },
-  { anchor = "exploit-weakness" },
-  { anchor = "hair-s-breadth" },
-  { anchor = "know-thy-enemy" },
-  { anchor = "maneuver-training" },
-  { anchor = "swift-assessment" },
 ]
 trades = [
   { replaces = "Proficiency with medium armor", feature = "weapon-and-armor-proficiencies", power = "medium armor", by = ["scholastic"] },
@@ -32,8 +27,8 @@ trades = [
   { replaces = "and shields", feature = "weapon-and-armor-proficiencies", power = "shields", by = ["scholastic"] },
   { replaces = "Bravery", feature = "bravery", by = ["skill-over-strength"] },
   { replaces = "the fighter bonus feat gained at 2nd level", feature = "bonus-feats", levels = [2], by = ["skill-over-strength"] },
-  { replaces = "Armor training", feature = "armor-training", by = ["swift-assessment"] },
-  { replaces = "armor mastery", feature = "armor-mastery", by = ["swift-assessment"] },
+  { replaces = "Armor training", feature = "armor-training", by = ["swords-secret"] },
+  { replaces = "armor mastery", feature = "armor-mastery", by = ["swords-secret"] },
 ]
 +++
 
@@ -69,7 +64,7 @@ A lore warden learns specialized techniques that help her to quickly analyze and
 every 4 fighter levels gained after 3rd. Except where noted, a lore warden cannot select the same
 swords secret more than once.
 
-## Exploit Weakness (Ex) {#exploit-weakness}
+### Exploit Weakness (Ex) {#exploit-weakness}
 
 The lore warden adds [one-third](ref/misc/fractions-and-rounding) her class level on attack rolls to
 confirm critical hits. At 11th level, whenever she confirms a critical hit, her weapon attacks
@@ -77,7 +72,7 @@ ignore the first 5 points of [damage reduction](ref/rule/damage-reduction) or
 [hardness](ref/umr/hardness) the target has until the end of her next turn. At 19th level, the lore
 warden can automatically confirm a critical hit once per round when she threatens a critical hit.
 
-## Hair's Breadth (Ex) {#hair-s-breadth}
+### Hair's Breadth (Ex) {#hair-s-breadth}
 
 Once per day when subject to a critical hit, the lore warden can attempt an Acrobatics check to
 reduce the damage as an immediate action. If the result of this Acrobatics check is greater than the
@@ -86,7 +81,7 @@ damage. The lore warden must be at least 11th level to select this swords secret
 
 At 15th level she can use this secret one additional time per day.
 
-## Know Thy Enemy (Ex) {#know-thy-enemy}
+### Know Thy Enemy (Ex) {#know-thy-enemy}
 
 When the lore warden succeeds at a Knowledge check to identify a creature's abilities and
 weaknesses, she can also use a standard action to grant herself a +2 insight bonus on all attack and
@@ -95,12 +90,12 @@ her class level (minimum 2 rounds), or until the lore warden uses this ability a
 creature. At 11th level, she also gains a +2 bonus to her AC against the creature when using this
 ability. At 19th level, the insight bonus increases to +3.
 
-## Maneuver Training (Ex) {#maneuver-training}
+### Maneuver Training (Ex) {#maneuver-training}
 
 The lore warden gains a [brawler](ref/class/brawler)'s maneuver training class feature, treating her
 fighter level as her brawler level.
 
-## Swift Assessment (Ex) {#swift-assessment}
+### Swift Assessment (Ex) {#swift-assessment}
 
 The lore warden can now use her know thy enemy swords secret as a move action. At 15th level, she
 can use this ability as a swift action. She must have the know thy enemy swords secret before

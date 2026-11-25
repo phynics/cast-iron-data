@@ -20,10 +20,6 @@ features = [
   { anchor = "harangue-giant" },
   { anchor = "smell-giants", level = 2 },
   { anchor = "giant-baiter", level = 3 },
-  { anchor = "giant-stalker-rage-powers" },
-  { anchor = "giant-stalker-defense" },
-  { anchor = "topple-giant" },
-  { anchor = "underfoot" },
 ]
 trades = [
   { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["smell-giants"] },
@@ -95,17 +91,17 @@ This ability replaces trap sense.
 
 A giant stalker gains access to the following rage powers.
 
-## Giant Stalker Defense (Ex) {#giant-stalker-defense}
+### Giant Stalker Defense (Ex) {#giant-stalker-defense}
 
 When raging, a giant stalker does not take a penalty to Armor Class against attacks from giants.
 
-## Topple Giant (Ex) {#topple-giant}
+### Topple Giant (Ex) {#topple-giant}
 
 When raging, the giant stalker does not provoke attacks of opportunity when she attempts to
 [trip](ref/rule/trip) a giant, and can attempt to trip a giant that is up to two size categories
 larger than she is.
 
-## Underfoot (Ex) {#underfoot}
+### Underfoot (Ex) {#underfoot}
 
 When raging, the giant stalker can attempt to enter a giant's space, provided she is at least one
 size category smaller than the giant. This does not provoke an attack of opportunity. Doing so takes

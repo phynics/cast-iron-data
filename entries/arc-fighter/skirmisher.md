@@ -16,9 +16,6 @@ kind = "archetype"
 features = [
   { anchor = "wilderness-training" },
   { anchor = "conditioning", level = 2 },
-  { anchor = "alpine-training" },
-  { anchor = "counter-interrogation-training" },
-  { anchor = "jungle-training" },
   { anchor = "light-infantry-training" },
   { anchor = "reconnaissance-training" },
   { anchor = "mobility-training", level = 3 },
@@ -67,19 +64,19 @@ employed by his enemies or often encountered in the terrain in which he operates
 must choose one of the specializations below, gaining a +1 bonus on saving throws of the appropriate
 type. This bonus increases by 1 for every 4 levels beyond 2nd.
 
-## Alpine Training (Ex) {#alpine-training}
+### Alpine Training (Ex) {#alpine-training}
 
 A skirmisher operating in mountainous terrain becomes resistant to cold climates and the rigors of
 long treks at high altitudes. He gains a bonus on Fortitude saving throws against
 [altitude sickness](ref/rule/mountain-travel), exposure to [cold weather](ref/rule/cold-dangers),
 and other effects that cause [fatigue](ref/misc/fatigued) or [exhaustion](ref/misc/exhausted).
 
-## Counter-Interrogation Training (Ex) {#counter-interrogation-training}
+### Counter-Interrogation Training (Ex) {#counter-interrogation-training}
 
 A skirmisher undertaking infiltration missions learns to resist interrogation and persuasion. The
 skirmisher gains a bonus on Will saving throws against charms and divinations.
 
-## Jungle Training (Ex) {#jungle-training}
+### Jungle Training (Ex) {#jungle-training}
 
 Through repeated exposure, a skirmisher operating in jungles and wetlands builds up a tolerance
 against pathogens and toxins. He gains a bonus on Fortitude saving throws against disease and
