@@ -14,7 +14,7 @@ page = "341"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 9 },
   { class = "Druid", level = 9 },
@@ -44,7 +44,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This spell allows you to take the form of a wide variety of creatures. This spell can function as

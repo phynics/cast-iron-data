@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Bard", level = 1 },
   { class = "Shaman", level = 1 },
@@ -43,7 +43,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Effect: one 10-ft. cube of illusory people
-Subschool: Figment
+Subschool: figment
 :::
 
 This spell creates an illusion of a stationary group of people milling about. They can be of any

@@ -14,8 +14,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Arcanist", level = 2 },
@@ -48,8 +47,7 @@ Duration: 10 minutes/level
 Saving throw: none or Will negates, see text
 Spell resistance: no
 Area: 10-ft.-radius emanation centered on you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 Peerless integrity conceals the alignment of creatures from divination magic. All creatures within

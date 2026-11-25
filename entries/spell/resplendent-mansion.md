@@ -14,7 +14,7 @@ page = "224"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 9 },
   { class = "Psychic", level = 9 },
@@ -43,7 +43,7 @@ Duration: 1 day/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: opulent mansion, up to 300 feet on a side and one story tall/4 levels
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell creates a towering mansion. While casting the spell, you hold an image of the mansion and

@@ -14,8 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -51,8 +50,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Area: 5-ft.-radius emanation centered on a point in space
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell forms an invisible bubble that filters all speech coming from inside the affected area so

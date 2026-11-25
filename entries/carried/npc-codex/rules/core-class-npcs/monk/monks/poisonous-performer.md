@@ -14,8 +14,8 @@ kind = "creature"
 cr = "10"
 creature_type = "humanoid"
 subtypes = ["human"]
-size = "Medium"
-alignment = "LE"
+size = "medium"
+alignment = "lawful evil"
 ac = "23, touch 21, flat-footed 18 (+2 armor, +1 deflection, +4 Dex, +1 dodge, +2 monk, +3 Wis)"
 hp = "60 (11d8+7)"
 fortitude = "+8"
@@ -31,8 +31,8 @@ abilities = ["12", "18", "10", "13", "17", "10"]
 ::: statblock
 CR: 10
 XP: 9,600
-Alignment: LE
-Size: Medium
+Alignment: lawful evil
+Size: medium
 Type: Humanoid (human)
 Race: human monk 11
 Init: +8

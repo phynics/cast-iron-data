@@ -14,7 +14,7 @@ page = "14"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 In Kaer Maga, a city known for its secrets, one of the greatest mysteries is the massive eldritch
@@ -49,7 +49,7 @@ The Brother of the Seal's class skills are [Disable Device](ref/skill/disable-de
 [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

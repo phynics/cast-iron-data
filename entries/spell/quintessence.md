@@ -14,8 +14,7 @@ page = "184"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -49,8 +48,7 @@ Duration: 10 minutes/level (D)
 Saving throw: Will negates (harmless) and Will disbelief, see text
 Spell resistance: see text
 Target: creature or object touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You draw forth the idealized image of the target creature or object, masking any flaws or damage. An

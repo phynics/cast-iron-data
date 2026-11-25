@@ -14,7 +14,7 @@ page = "248"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Alchemist", level = 6 },
   { class = "Arcanist", level = 7 },
@@ -49,7 +49,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 When under the effects of this spell, you can teleport up to 30 feet as a move action. You must end

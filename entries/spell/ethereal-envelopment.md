@@ -14,7 +14,7 @@ page = "170"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Psychic", level = 7 },
   { class = "Spiritualist", level = 5 },
@@ -42,7 +42,7 @@ Duration: 1 hour/level (D)
 Saving throw: Will negates, see text
 Spell resistance: yes
 Target: one creature
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell is similar to ethereal envelope, but it allows you to shunt an unwilling creature to the

@@ -17,7 +17,7 @@ page = "59"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 descriptors = ["evil", "lawful"]
 levels = [
   { class = "Arcanist", level = 5 },
@@ -54,7 +54,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: 1d4+1 lesser host devils or 1 greater host devil
-Subschool: Summoning
+Subschool: summoning
 Descriptors: evil, lawful
 :::
 

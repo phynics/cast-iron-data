@@ -14,7 +14,7 @@ page = "222"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 3 },
   { class = "Hunter", level = 3 },
@@ -45,7 +45,7 @@ Duration: 1 hour/level or until discharged (D)
 Saving throw: Fortitude negates (object)
 Spell resistance: no
 Target: object touched
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You set a magical ward upon the object touched, which must be a container such as a pouch, bag,

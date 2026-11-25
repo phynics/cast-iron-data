@@ -17,7 +17,7 @@ page = "72"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Cleric", level = 1 },
   { class = "Druid", level = 1 },
@@ -49,7 +49,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Creation
+Subschool: creation
 :::
 
 The next time the target sleeps (within the next 8 hours), she dreams of a rich feast with her

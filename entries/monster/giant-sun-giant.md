@@ -17,7 +17,7 @@ cr = "16"
 creature_type = "humanoid"
 subtypes = ["giant"]
 size = "huge"
-alignment = "CG or CE"
+alignment = "chaotic good or chaotic evil"
 ac = "31/11/28"
 hp = "241~23d8+138"
 fortitude = "+19"
@@ -34,7 +34,7 @@ amplify the light around her._
 
 ::: statblock
 Challenge rating: 16
-Alignment: CG or CE
+Alignment: chaotic good or chaotic evil
 aura: solar (60 ft., DC 24)
 Size: huge
 Type: humanoid

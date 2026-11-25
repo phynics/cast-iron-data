@@ -14,7 +14,7 @@ page = "5"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Pattern"]
+subschools = ["pattern"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level
 Saving throw: Will negates (see text)
 Spell resistance: yes (object)
 Target: one metal weapon
-Subschool: Pattern
+Subschool: pattern
 :::
 
 Dazzling blade makes a weapon appear dazzlingly shiny, as if crafted from pure silver and heavily

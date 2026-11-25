@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Cleric", level = 6 },
@@ -50,7 +50,7 @@ Target: one creature/level, no two of which can be more than 30 ft. apart
 Duration: 24 hours
 Saving throw: none
 Spell resistance: no
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Mass Minor Reversion

@@ -19,8 +19,8 @@ page = "14"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text]"
-subschools = ["Calling"]
+school = "conjuration"
+subschools = ["calling"]
 levels = [
   { class = "Cleric", level = 4 },
   { class = "Medium", level = 3 },
@@ -52,7 +52,7 @@ Effect: one called outsider of 6 HD or less
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Subschool: Calling
+Subschool: calling
 :::
 
 By casting this spell, you request your deity to send you an outsider (of 6 HD or less) of the

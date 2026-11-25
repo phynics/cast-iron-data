@@ -17,7 +17,7 @@ page = "239"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 4 },
@@ -52,7 +52,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: up to six quasi-real, horse-like creatures
-Subschool: Creation
+Subschool: creation
 :::
 
 ### Communal Phantom Steed

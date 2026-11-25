@@ -17,7 +17,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Paladin", level = 3 },
 ]
@@ -43,7 +43,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: a creature you are mounted upon
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 The target sprouts angelic wings and gains a fly speed equal to its base speed with average

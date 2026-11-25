@@ -17,7 +17,7 @@ page = "243"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 descriptors = ["electricity"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -52,7 +52,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: see text
 Target: you
-Subschool: Figment
+Subschool: figment
 Descriptors: electricity
 :::
 

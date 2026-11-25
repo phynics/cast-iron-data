@@ -17,8 +17,7 @@ page = "177"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Hunter", level = 3 },
   { class = "Ranger", level = 3 },
@@ -45,8 +44,7 @@ Area: allies in a 10-ft.-radius emanation centered on you
 Duration: 1 minute/level (see text)
 Saving throw: none
 Spell resistance: no
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 ### Greater Chameleon Stride

@@ -17,7 +17,7 @@ page = "213"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 levels = [
   { class = "Bard", level = 6 },
   { class = "Druid", level = 7 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: one or two called fey, totaling no more than 12 Hit Dice, which can't appear more than 30 ft. apart
-Subschool: Calling
+Subschool: calling
 :::
 
 ### Entice Fey

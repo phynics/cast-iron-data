@@ -14,7 +14,7 @@ page = "213"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Druid", level = 3 },
@@ -48,7 +48,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: one swarm of animate teeth
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon a swarm consisting of thousands of animate, flying teeth in a 10-foot-by-10-foot cube.

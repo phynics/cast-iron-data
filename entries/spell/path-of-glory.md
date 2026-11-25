@@ -14,7 +14,7 @@ page = "189"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Bard", level = 2 },
   { class = "Cleric", level = 2 },
@@ -44,7 +44,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Area: four 5-ft. squares/level (see text)
-Subschool: Healing
+Subschool: healing
 :::
 
 You cause four 5-foot squares (one of which must be your space) to glow with dim illumination.

@@ -14,7 +14,7 @@ page = "0"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 2 },
   { class = "Druid", level = 2 },
@@ -48,7 +48,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: 1 creature
-Subschool: Healing
+Subschool: healing
 :::
 
 The target of this spell causes several conditions that he suffers from to be lessened in severity

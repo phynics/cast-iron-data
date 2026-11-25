@@ -14,8 +14,8 @@ provenance = [
 kind = "creature"
 cr = "1/4"
 creature_type = "vermin"
-size = "Tiny"
-alignment = "N"
+size = "tiny"
+alignment = "neutral"
 ac = "18, touch 17, flat-footed 13 (+5 Dex, +1 natural, +2 size)"
 hp = "4 (1d8)"
 fortitude = "+2"
@@ -29,8 +29,8 @@ abilities = ["3", "21", "10", "-", "10", "2"]
 ::: statblock
 CR: 1/4
 XP: 100
-Alignment: N
-Size: Tiny
+Alignment: neutral
+Size: tiny
 Type: Vermin
 Init: +5
 Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +4

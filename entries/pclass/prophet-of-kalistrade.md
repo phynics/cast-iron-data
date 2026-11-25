@@ -14,7 +14,7 @@ page = "42"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Any fool off the street can earn a few copper pieces for his labor, but the white-gloved leaders of
@@ -49,7 +49,7 @@ The Prophet of Kalistrade's class skills are [Appraise](ref/skill/appraise) (Int
 (Cha).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features and Spells Per Day
 

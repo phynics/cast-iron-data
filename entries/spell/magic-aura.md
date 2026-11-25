@@ -20,8 +20,7 @@ page = "219"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -55,8 +54,7 @@ Duration: 1 day/level (D)
 Saving throw: none; see text
 Spell resistance: no
 Target: one touched object weighing up to 5 lbs./level
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You alter an item's aura so that it registers to detect spells (and spells with similar

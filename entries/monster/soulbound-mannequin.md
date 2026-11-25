@@ -16,7 +16,7 @@ kind = "creature"
 cr = "7"
 creature_type = "construct"
 size = "medium"
-alignment = "N (but see below)"
+alignment = "neutral (but see below)"
 ac = "19/13/16"
 hp = "85~10d10+30"
 fortitude = "+3"
@@ -31,7 +31,7 @@ _This strange construct is shaped like a masked humanoid made of wood and porcel
 
 ::: statblock
 Challenge rating: 7
-Alignment: N (but see below)
+Alignment: neutral (but see below)
 Type: construct
 Initiative: +7
 Size: medium

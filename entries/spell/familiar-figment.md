@@ -14,7 +14,7 @@ page = "24"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Red Mantis Assassin", level = 2 },
@@ -44,7 +44,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Target: your familiar
-Subschool: Figment
+Subschool: figment
 :::
 
 You create an illusory duplicate of your familiar that moves erratically around your familiar's

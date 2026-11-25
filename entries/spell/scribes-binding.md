@@ -14,7 +14,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 9 },
   { class = "Occultist", level = 6 },
@@ -45,7 +45,7 @@ Duration: permanent
 Saving throw: Fortitude negates
 Spell resistance: yes
 Target: creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 Hermea's benevolent Council of Enlightenment uses this spell to humanely preserve their society's

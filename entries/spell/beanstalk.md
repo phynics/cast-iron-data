@@ -14,7 +14,7 @@ page = "70"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Sorcerer", level = 4 },
@@ -45,7 +45,7 @@ Duration: 24 hours
 Saving throw: none
 Spell resistance: no
 Effect: a 5-foot-radius beanstalk that grows to a height of 50 ft./caster level
-Subschool: Creation
+Subschool: creation
 :::
 
 When casting this spell, you must plant the material components in soil. When you do, at the end of

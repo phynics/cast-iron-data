@@ -14,7 +14,7 @@ page = "18"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Guards patrol great cities and druids protect the deep forests, but what of the boundaries between
@@ -45,7 +45,7 @@ The Hinterlander's class skills are [Climb](ref/skill/climb) (Str),
 Perception (Wis), Ride (Dex), Survival (Wis), Stealth (Dex), and Swim (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

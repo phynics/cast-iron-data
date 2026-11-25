@@ -14,7 +14,7 @@ page = "24"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Bard", level = 4 },
   { class = "Cleric", level = 4 },
@@ -44,7 +44,7 @@ Duration: 10 minutes/level
 Saving throw: none
 Spell resistance: no
 Effect: magical weapon
-Subschool: Summoning
+Subschool: summoning
 :::
 
 A ghostly manifestation of one of your ancestors appears before you bearing a weapon of your choice

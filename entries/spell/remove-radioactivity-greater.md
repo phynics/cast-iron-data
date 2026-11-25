@@ -17,7 +17,7 @@ page = "11"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 8 },
   { class = "Druid", level = 8 },
@@ -46,7 +46,7 @@ Target: creature or object touched
 Duration: instantaneous
 Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Greater Remove Radioactivity

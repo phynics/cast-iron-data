@@ -14,7 +14,7 @@ page = "189"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["poison"]
 levels = [
   { class = "Druid", level = 1 },
@@ -43,7 +43,7 @@ Duration: instantaneous
 Saving throw: Fortitude partial (see text)
 Spell resistance: no
 Effect: one poisonous stinger
-Subschool: Creation
+Subschool: creation
 Descriptors: poison
 :::
 

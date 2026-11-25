@@ -14,7 +14,7 @@ page = "301"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Cleric", level = 5 },
   { class = "Druid", level = 5 },
@@ -48,7 +48,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Effect: one swarm of wasps per three levels, each of which be adjacent to at least one other swarm
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon a number of swarms of wasps (one per three levels, to a maximum of six swarms at 18th

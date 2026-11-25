@@ -14,7 +14,7 @@ page = "73"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 A spherewalker is one who embraces the philosophy of Desna: travel far and wide, fight for your
@@ -56,7 +56,7 @@ The Spherewalker's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 [Survival](ref/skill/survival) (Wis), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

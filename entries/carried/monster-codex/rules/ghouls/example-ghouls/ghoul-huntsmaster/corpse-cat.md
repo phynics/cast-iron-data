@@ -12,8 +12,8 @@ provenance = [
 [fields]
 kind = "creature"
 creature_type = "undead"
-size = "Small"
-alignment = "N"
+size = "small"
+alignment = "neutral"
 ac = "20, touch 17, flat-footed 14 (+6 Dex, +3 natural, +1 size)"
 hp = "16 (3d8+3)"
 fortitude = "+4"
@@ -27,8 +27,8 @@ abilities = ["13", "22", "-", "2", "12", "12"]
 ::: statblock
 CR: —
 XP: —
-Alignment: N
-Size: Small
+Alignment: neutral
+Size: small
 Type: Undead
 Init: +6
 Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision), scent; Perception +5

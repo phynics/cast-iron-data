@@ -14,7 +14,7 @@ page = "69"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 3 },
   { class = "Hunter", level = 3 },
@@ -44,7 +44,7 @@ Duration: 1 hour/level or instantaneous (see text)
 Saving throw: Will half (harmless, see text)
 Spell resistance: yes
 Target: you and one ally/level, no two of which can be more than 30 ft. apart (see text)
-Subschool: Healing
+Subschool: healing
 :::
 
 > _Priests of [Milani](ref/faith/milani) have access to the following spell._

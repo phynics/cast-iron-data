@@ -14,7 +14,7 @@ page = "16"
 [fields]
 kind = "spell"
 school = "necromancy"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["darkness"]
 levels = [
   { class = "Arcanist", level = 7 },
@@ -54,7 +54,7 @@ Duration: 1 round/level
 Saving throw: Fortitude partial
 Spell resistance: yes
 Target: 1 creature
-Subschool: Shadow
+Subschool: shadow
 Descriptors: darkness
 :::
 

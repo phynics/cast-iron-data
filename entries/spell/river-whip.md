@@ -14,7 +14,7 @@ page = "191"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["water"]
 levels = [
   { class = "Arcanist", level = 2 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level (d) or until discharged (see text)
 Saving throw: none
 Spell resistance: no
 Effect: whip of water
-Subschool: Creation
+Subschool: creation
 Descriptors: water
 :::
 

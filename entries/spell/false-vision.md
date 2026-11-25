@@ -14,8 +14,7 @@ page = "280"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 5 },
@@ -51,8 +50,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Area: 40-ft.-radius emanation
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell creates a subtle illusion, causing any divination (scrying) spell used to view anything

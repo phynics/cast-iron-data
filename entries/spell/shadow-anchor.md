@@ -14,7 +14,7 @@ page = "211"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Arcanist", level = 2 },
@@ -51,7 +51,7 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
 Effect: a shadowy shadow tether
-Subschool: Shadow
+Subschool: shadow
 Descriptors: shadow
 :::
 

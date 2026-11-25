@@ -17,7 +17,7 @@ page = "34"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Pledging their souls to Abaddon, souldrinkers are proxies of death, serving the architects of the
@@ -45,7 +45,7 @@ The Souldrinker's class skills are [Bluff](ref/skill/bluff) (Cha), [Diplomacy](r
 (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

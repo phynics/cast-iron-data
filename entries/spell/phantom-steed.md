@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bloodrager", level = 3 },
@@ -54,7 +54,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one quasi-real, horse-like creature
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure a Large, quasi-real, horse-like creature (the exact coloration can be customized as you

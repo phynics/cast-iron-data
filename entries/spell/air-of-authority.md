@@ -14,8 +14,7 @@ page = "218"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Bard", level = 3 },
   { class = "Medium", level = 3 },
@@ -46,8 +45,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 > _The following spell is available to the indicated race or ethnicity: Taldan_

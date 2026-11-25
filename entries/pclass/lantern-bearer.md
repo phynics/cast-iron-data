@@ -17,7 +17,7 @@ page = "32"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Originally, only elves were allowed to join the [Lantern Bearers](ref/rule/aff-lights), but with the
@@ -56,7 +56,7 @@ The Lantern Bearer's class skills are [Heal](ref/skill/heal) (Wis),
 [Stealth](ref/skill/stealth) (Dex), and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Bygone products of an ancient war, soul wardens are an enigma of themselves. The original soul
@@ -41,7 +41,7 @@ The Soul Warden's class skills are [Fly](ref/skill/fly) (Dex), [Heal](ref/skill/
 [Spellcraft](ref/skill/spellcraft) (Int), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

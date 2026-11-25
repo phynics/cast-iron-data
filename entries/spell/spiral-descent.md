@@ -17,7 +17,7 @@ page = "43"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Cleric", level = 2 },
   { class = "Inquisitor", level = 2 },
@@ -46,7 +46,7 @@ Duration: instantaneous
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: you and touched objects
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 ### Spiral Descent

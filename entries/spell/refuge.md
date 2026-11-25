@@ -14,7 +14,7 @@ page = "331"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 9 },
   { class = "Cleric", level = 7 },
@@ -48,7 +48,7 @@ Duration: permanent until discharged
 Saving throw: none
 Spell resistance: no
 Target: object touched
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 When you cast this spell, you create powerful magic in a specially prepared object. This object

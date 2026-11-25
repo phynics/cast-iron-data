@@ -14,7 +14,7 @@ page = "277"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d12."
+hit_die = "d12"
 +++
 
 Drawn from the ranks of guards, knights, mercenaries, and thugs alike, stalwart defenders are
@@ -57,7 +57,7 @@ The Stalwart Defender's class skills are [Acrobatics](ref/skill/acrobatics) (Dex
 [Perception](ref/skill/perception) (Wis), and [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d12.
+**Hit Die:** d12
 
 ### Class Features
 

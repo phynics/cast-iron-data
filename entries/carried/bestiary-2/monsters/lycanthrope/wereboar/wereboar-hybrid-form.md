@@ -14,8 +14,8 @@ provenance = [
 kind = "creature"
 creature_type = "humanoid"
 subtypes = ["human", "shapechanger"]
-size = "Medium"
-alignment = "CN"
+size = "medium"
+alignment = "chaotic neutral"
 ac = "14, touch 9, flat-footed 13 (+3 armor, +1 Dex, +2 natural, -2 rage)"
 hp = "30 (2d12+17)"
 fortitude = "+8"
@@ -30,8 +30,8 @@ abilities = ["23", "13", "23", "10", "14", "8"]
 
 ::: statblock
 XP: 600
-Alignment: CN
-Size: Medium
+Alignment: chaotic neutral
+Size: medium
 Type: Humanoid (human, shapechanger)
 Race: human natural
 Class Levels: barbarian 2

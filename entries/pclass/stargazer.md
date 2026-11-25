@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 The empyreal lord Pulura, the Shimmering Maiden, is said to dance among the lights of the aurora.
@@ -47,7 +47,7 @@ The Stargazer's class skills are [Acrobatics](ref/skill/acrobatics) (Dex), [Clim
 [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

@@ -14,7 +14,7 @@ page = "261"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Cleric", level = 3 },
   { class = "Occultist", level = 3 },
@@ -44,7 +44,7 @@ Duration: 24 hours; see text
 Saving throw: none
 Spell resistance: no
 Effect: food and water to sustain three humans or one horse/level for 24 hours
-Subschool: Creation
+Subschool: creation
 :::
 
 The food that this spell creates is simple fare of your choice-highly nourishing, if rather bland.

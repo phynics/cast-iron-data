@@ -13,7 +13,8 @@ page = "224"
 
 [fields]
 kind = "spell"
-school = "divination [chaotic, evil, good, or lawful]"
+school = "divination"
+descriptors = ["chaotic", "evil", "good", "lawful"]
 levels = [
   { class = "Inquisitor", level = 2 },
   { class = "Occultist", level = 3 },

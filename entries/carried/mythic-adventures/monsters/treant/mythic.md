@@ -14,8 +14,8 @@ kind = "creature"
 cr = "10"
 creature_type = "plant"
 subtypes = ["mythic"]
-size = "Huge"
-alignment = "NG"
+size = "huge"
+alignment = "neutral good"
 ac = "25, touch 7, flat-footed 25 (-1 Dex, +18 natural, -2 size)"
 hp = "146 (12d8+92)"
 fortitude = "+13"
@@ -31,8 +31,8 @@ abilities = ["31", "8", "21", "12", "18", "13"]
 ::: statblock
 CR: 10
 XP: 9,600
-Alignment: NG
-Size: Huge
+Alignment: neutral good
+Size: huge
 Type: Plant (mythic)
 Init: -1
 Senses: [low-light vision](ref/rule/low-light-vision); Perception +17

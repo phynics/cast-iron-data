@@ -14,7 +14,7 @@ page = "237"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["emotion", "good", "mind-affecting"]
 levels = [
   { class = "Paladin", level = 1 },
@@ -41,7 +41,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Area: one 5-ft. square
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: emotion, good, mind-affecting
 :::
 

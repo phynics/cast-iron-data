@@ -14,7 +14,7 @@ page = "229"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Bard", level = 1 },
   { class = "Druid", level = 1 },
@@ -50,7 +50,7 @@ Duration: 1 round/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: yes
 Area: one 10-ft. cube/level (S)
-Subschool: Figment
+Subschool: figment
 :::
 
 You cause a sound heard in the target area up to 1 round ago and lasting up to 1 round in duration

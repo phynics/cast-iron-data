@@ -14,7 +14,7 @@ page = "220"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 descriptors = ["evil"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -49,7 +49,7 @@ Duration: 1 round/level (D)
 Saving throw: Fortitude partial (see text)
 Spell resistance: yes
 Target: creature touched
-Subschool: Summoning
+Subschool: summoning
 Descriptors: evil
 :::
 

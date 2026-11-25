@@ -14,7 +14,7 @@ page = "267"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 When alchemists blithely use mutagens to turn themselves into hulking creatures of muscle and
@@ -57,7 +57,7 @@ The Master Chymist's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

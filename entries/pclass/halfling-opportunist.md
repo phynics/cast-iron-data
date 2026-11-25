@@ -14,7 +14,7 @@ page = "28"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Even more so than the rest of their kind, halfling opportunists make their own luck. Shamelessly
@@ -62,7 +62,7 @@ The Halfling Opportunist's class skills are [Acrobatics](ref/skill/acrobatics) (
 [Stealth](ref/skill/stealth) (Dex), and [Swim](ref/skill/swim) (Cha).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

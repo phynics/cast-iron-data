@@ -14,7 +14,7 @@ page = "14"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Charm"]
+subschools = ["charm"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Antipaladin", level = 3 },
@@ -50,7 +50,7 @@ Duration: 10 minutes/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Charm
+Subschool: charm
 Descriptors: mind-affecting
 :::
 

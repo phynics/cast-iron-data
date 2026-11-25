@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "7"
 creature_type = "dragon"
-size = "Medium"
-alignment = "N"
+size = "medium"
+alignment = "neutral"
 ac = "21, touch 9, flat-footed 21 (-1 Dex, +12 natural)"
 hp = "73 (7d10+35)"
 fortitude = "+12"
@@ -28,8 +28,8 @@ abilities = ["24", "8", "21", "4", "13", "13"]
 ::: statblock
 CR: 7
 XP: 3,200
-Alignment: N
-Size: Medium
+Alignment: neutral
+Size: medium
 Type: Dragon
 Race: half-black dragon basilisk
 Init: -1

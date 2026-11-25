@@ -14,7 +14,7 @@ page = "34"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 After centuries of raiding and pillaging throughout Avistan, the Ulfen have earned their reputation
@@ -48,7 +48,7 @@ The Ulfen Guard's class skills are [Diplomacy](ref/skill/diplomacy) (Cha),
 (Wis), [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

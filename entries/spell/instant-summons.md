@@ -14,7 +14,7 @@ page = "301"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Psychic", level = 7 },
@@ -44,7 +44,7 @@ Duration: permanent until discharged
 Saving throw: none
 Spell resistance: no
 Target: one object weighing 10 lbs. or less whose longest dimension is 6 ft. or less
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You call some nonliving item directly to your hand from virtually any location.

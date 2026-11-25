@@ -17,7 +17,7 @@ page = "9"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Cleric", level = 5 },
@@ -58,7 +58,7 @@ Duration: instantaneous
 Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched, or up to eight willing creatures joining hands
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You move yourself or some other creature to another plane of existence or alternate dimension. If

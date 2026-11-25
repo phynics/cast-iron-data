@@ -17,7 +17,7 @@ page = "345"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Magus", level = 4 },
@@ -51,7 +51,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Effect: fog spreads in 20-ft. radius
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell functions like [fog cloud](ref/spell/fog-cloud), but in addition to obscuring sight, the

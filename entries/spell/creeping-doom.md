@@ -14,7 +14,7 @@ page = "262"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 7 },
   { class = "Shaman", level = 7 },
@@ -45,7 +45,7 @@ Duration: 1 round/level
 Saving throw: Fortitude partial, see text
 Spell resistance: no
 Effect: four swarms of insects
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell summons four massive swarms of biting and stinging insects. These swarms appear adjacent

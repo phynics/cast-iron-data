@@ -13,7 +13,7 @@ page = "150"
 [fields]
 kind = "creature"
 cr = "27"
-creature_type = "monstrousHumanoid"
+creature_type = "monstrous humanoid"
 subtypes = ["chaotic", "Great Old One", "shapechanger"]
 size = "large"
 alignment = "chaotic neutral"

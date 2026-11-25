@@ -14,8 +14,8 @@ kind = "creature"
 cr = "9"
 creature_type = "undead"
 subtypes = ["augmented magical beast"]
-size = "Large"
-alignment = "NE"
+size = "large"
+alignment = "neutral evil"
 ac = "25, touch 10, flat-footed 24 (+1 Dex, +15 natural, –1 size)"
 hp = "114 (12d8+60)"
 fortitude = "+12"
@@ -29,8 +29,8 @@ abilities = ["26", "13", "-", "16", "19", "19"]
 ::: statblock
 CR: 9
 XP: 6,400
-Alignment: NE
-Size: Large
+Alignment: neutral evil
+Size: large
 Type: Undead (augmented magical beast)
 Init: +5
 Senses: [darkvision](ref/rule/darkvision) 60 ft., detect magic, [low-light vision](ref/rule/low-light-vision), see invisibility; Perception +21

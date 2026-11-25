@@ -14,7 +14,7 @@ page = "79"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -53,7 +53,7 @@ Duration: 1 minute/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature touched
-Subschool: Compulsion
+Subschool: compulsion
 :::
 
 > _[Humans](ref/race/human) have access to the following spells._

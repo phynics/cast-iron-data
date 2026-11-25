@@ -14,7 +14,7 @@ page = "23"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Druid", level = 2 },
@@ -47,7 +47,7 @@ Duration: 8 hours (D)
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: one willing animal companion, familiar, or spirit animal
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You transform the target into a harmless animal of the same approximate body type. The form assumed

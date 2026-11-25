@@ -22,8 +22,8 @@ page = "14"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text]"
-subschools = ["Calling"]
+school = "conjuration"
+subschools = ["calling"]
 levels = [
   { class = "Cleric", level = 8 },
   { class = "Oracle", level = 8 },
@@ -52,7 +52,7 @@ Effect: up to three called outsiders, totaling no more than 18 HD, no two of whi
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Subschool: Calling
+Subschool: calling
 :::
 
 ### Greater Planar Ally

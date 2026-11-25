@@ -17,7 +17,7 @@ page = "199"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Bard", level = 6 },
@@ -52,7 +52,7 @@ Duration: 1 round/level (d (see text)
 Saving throw: none
 Spell resistance: yes
 Effect: whip-like swarm
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Whip of Ants

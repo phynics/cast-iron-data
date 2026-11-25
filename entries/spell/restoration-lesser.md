@@ -14,7 +14,7 @@ page = "334"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Cleric", level = 2 },
@@ -52,7 +52,7 @@ Target: creature touched
 Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Lesser Restoration

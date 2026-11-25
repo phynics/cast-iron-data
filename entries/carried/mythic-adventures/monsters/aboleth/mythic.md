@@ -14,8 +14,8 @@ kind = "creature"
 cr = "9"
 creature_type = "aberration"
 subtypes = ["aquatic", "mythic"]
-size = "Huge"
-alignment = "LE"
+size = "huge"
+alignment = "lawful evil"
 ac = "23, touch 9, flat-footed 22 (+1 Dex, +14 natural, -2 size)"
 hp = "118 (9d8+78)"
 fortitude = "+9"
@@ -30,8 +30,8 @@ abilities = ["20", "12", "22", "15", "17", "19"]
 ::: statblock
 CR: 9
 XP: 6,400
-Alignment: LE
-Size: Huge
+Alignment: lawful evil
+Size: huge
 Type: Aberration (aquatic, mythic)
 Init: +8M
 Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +15

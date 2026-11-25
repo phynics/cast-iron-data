@@ -17,7 +17,7 @@ page = "233"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Druid", level = 5 },
   { class = "Hunter", level = 4 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: none, see text
 Spell resistance: yes
 Target: dead animal companion or bonded mount
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Raise Animal Companion

@@ -13,8 +13,8 @@ page = "61"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text]"
-subschools = ["Summoning"]
+school = "conjuration"
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 9 },
 ]
@@ -40,7 +40,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one chariot
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon a greater elemental (air, earth, fire, or water) bound in the form of a mighty chariot

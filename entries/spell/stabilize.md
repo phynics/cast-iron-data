@@ -14,7 +14,7 @@ page = "348"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Adept", level = 0 },
   { class = "Cleric", level = 0 },
@@ -52,7 +52,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one living creature
-Subschool: Healing
+Subschool: healing
 :::
 
 Upon casting this spell, you target a living creature that has -1 or fewer hit points. That creature

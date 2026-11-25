@@ -14,7 +14,7 @@ page = "225"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["fire", "water"]
 levels = [
   { class = "Arcanist", level = 5 },
@@ -47,7 +47,7 @@ Duration: concentration+ 1 round/level
 Saving throw: Reflex partial (see below)
 Spell resistance: no
 Effect: spout of boiling water filling a 5 ft. square and spraying upward 10 ft./2 levels
-Subschool: Creation
+Subschool: creation
 Descriptors: fire, water
 :::
 

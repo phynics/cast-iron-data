@@ -14,7 +14,7 @@ page = "203"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Druid", level = 2 },
   { class = "Hunter", level = 2 },
@@ -42,7 +42,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You take on an aspect of a bear. You gain a +2 enhancement bonus to natural armor and a +2

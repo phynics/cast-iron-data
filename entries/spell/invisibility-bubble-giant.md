@@ -17,8 +17,7 @@ page = "60"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -52,8 +51,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Area: 10-ft.-radius emanation centered on the touched creature's space
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 ### Giant Invisibility Bubble

@@ -14,7 +14,7 @@ page = "51"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Cleric", level = 6 },
   { class = "Druid", level = 6 },
@@ -47,7 +47,7 @@ Duration: 1 round/level
 Saving throw: Reflex halves (see text)
 Spell resistance: no
 Effect: 20-ft.-radius herd of animals
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You conjure a herd of aurochs or similar herd animal that immediately stampedes in the direction you

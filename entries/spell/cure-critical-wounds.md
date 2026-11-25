@@ -14,7 +14,7 @@ page = "262"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Adept", level = 4 },
   { class = "Alchemist", level = 4 },
@@ -55,7 +55,7 @@ Duration: instantaneous
 Saving throw: Will half (harmless)
 Spell resistance: yes (harmless); see text
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 This spell functions like cure light wounds, except that it cures 4d8 points of damage +1 point per

@@ -17,7 +17,7 @@ page = "22"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Shaman", level = 2 },
@@ -47,7 +47,7 @@ Duration: 10 minutes/level or until expended (see text)
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: your familiar or spirit animal
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 If the target takes hit point damage while within range of this spell, it immediately teleports to

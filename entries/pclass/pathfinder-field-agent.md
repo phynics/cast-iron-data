@@ -14,7 +14,7 @@ page = "18"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Equipped with a variety of skills and trained to keep a cool head even in the most dire
@@ -41,7 +41,7 @@ The Pathfinder Field Agent's class skills are [Bluff](ref/skill/bluff) (Cha),
 [Swim](ref/skill/swim) (Str), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

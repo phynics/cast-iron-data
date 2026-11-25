@@ -14,7 +14,7 @@ page = "60"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Bard", level = 4 },
   { class = "Skald", level = 4 },
@@ -41,7 +41,7 @@ Duration: 1 round/level or until performance ends or changes (see text)
 Saving throw: none
 Spell resistance: no
 Targets: up to 3 creatures, no two of which can be more than 30 ft. apart
-Subschool: Healing
+Subschool: healing
 :::
 
 Certain elven bards of Kyonin are known for the restorative power of their performances-mostly as a

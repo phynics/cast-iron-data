@@ -17,7 +17,7 @@ page = "11"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 5 },
@@ -52,7 +52,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned genie
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Summon Genie

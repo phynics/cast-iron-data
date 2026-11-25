@@ -17,7 +17,7 @@ page = "181"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Arcanist", level = 7 },
@@ -52,7 +52,7 @@ Duration: 1 round/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Effect: one shadow duplicate
-Subschool: Shadow
+Subschool: shadow
 Descriptors: shadow
 :::
 

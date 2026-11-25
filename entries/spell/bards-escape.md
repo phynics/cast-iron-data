@@ -17,7 +17,7 @@ page = "204"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Bard", level = 5 },
   { class = "Skald", level = 5 },
@@ -44,7 +44,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: you and up to 1 willing creature/2 caster levels, no two of which can be more than 30 ft. apart
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You whisk yourself and willing allies out of a tight jam, or instantly transfer yourselves to

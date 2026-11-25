@@ -14,7 +14,7 @@ page = "23"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Cleric", level = 6 },
   { class = "Oracle", level = 6 },
@@ -45,7 +45,7 @@ Duration: 8 hours (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned petitioner/caster level
-Subschool: Summoning
+Subschool: summoning
 :::
 
 Summon laborers summons one humanoid petitioner per caster level. These petitioners hail from one

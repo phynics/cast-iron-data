@@ -13,8 +13,9 @@ page = "190"
 
 [fields]
 kind = "spell"
-school = "enchantment [mind-affecting, see text]"
-subschools = ["Compulsion"]
+school = "enchantment"
+subschools = ["compulsion"]
+descriptors = ["mind-affecting"]
 levels = [
   { class = "Cleric", level = 5 },
   { class = "Inquisitor", level = 4 },
@@ -46,7 +47,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: yes
 Targets: allies within a 20-ft.-radius burst centered on you
-Subschool: Compulsion
+Subschool: compulsion
 :::
 
 The magic of your allies in the area becomes more potent against certain outsiders. Chose one

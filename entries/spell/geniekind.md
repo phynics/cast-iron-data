@@ -14,7 +14,7 @@ page = "55"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 5 },
@@ -49,7 +49,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 Keleshite wizards and clerics have always sought to emulate the genies that they bind. The geniekind

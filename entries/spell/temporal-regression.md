@@ -14,7 +14,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Druid", level = 9 },
@@ -46,7 +46,7 @@ Duration: 1 round/level or until discharged
 Saving throw: none
 Spell resistance: no
 Effect: see text
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 When you complete this spell, note your current location and condition, including your hit point

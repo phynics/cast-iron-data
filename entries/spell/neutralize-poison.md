@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Adept", level = 3 },
   { class = "Alchemist", level = 4 },
@@ -59,7 +59,7 @@ Duration: instantaneous or 10 min./level; see text
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: creature or object of up to 1 cu. ft./level touched
-Subschool: Healing
+Subschool: healing
 :::
 
 You detoxify any sort of venom in the creature or object touched. If the target is a creature, you

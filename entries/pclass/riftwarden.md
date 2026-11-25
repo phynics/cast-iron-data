@@ -14,7 +14,7 @@ page = "46"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Guardians of the Great Beyond's integrity and stability, the Riftwardens can be found virtually
@@ -43,7 +43,7 @@ The Riftwarden's class skills are [Intimidate](ref/skill/intimidate) (Cha),
 (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

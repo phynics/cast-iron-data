@@ -14,7 +14,7 @@ page = "124"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Phantasm"]
+subschools = ["phantasm"]
 descriptors = ["fear", "mind-affecting"]
 levels = [
   { class = "Arcanist", level = 6 },
@@ -48,7 +48,7 @@ Duration: 1 round/level (D)
 Saving throw: Will disbelief, then Fortitude partial (see text)
 Spell resistance: yes
 Target: one creature/level, no two of which can be omore than 30 ft. apart
-Subschool: Phantasm
+Subschool: phantasm
 Descriptors: fear, mind-affecting
 :::
 

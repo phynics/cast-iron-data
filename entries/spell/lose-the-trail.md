@@ -17,8 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Arcanist", level = 1 },
@@ -51,8 +50,7 @@ Duration: 1 hour/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one creature/level
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 The target or targets of this spell can obscure their tracks when fleeing from a pursuer. This

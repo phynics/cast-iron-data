@@ -14,7 +14,7 @@ page = "288"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["curse", "language-dependant", "mind-affecting"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -50,7 +50,7 @@ Target: one living creature with 7 HD or less
 Duration: 1 day/level or until discharged (D)
 Saving throw: Will negates
 Spell resistance: yes
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: curse, language-dependant, mind-affecting
 :::
 

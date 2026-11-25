@@ -17,7 +17,7 @@ page = "235"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Sorcerer", level = 7 },
@@ -45,7 +45,7 @@ Target: willing living creature touched
 Duration: 1 hour/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 ### Greater Shapechanger's Gift

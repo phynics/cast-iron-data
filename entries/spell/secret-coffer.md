@@ -20,7 +20,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Sorcerer", level = 3 },
@@ -49,7 +49,7 @@ Duration: 60 days or until discharged
 Saving throw: none
 Spell resistance: no
 Target: one small chest or coffer and up to 1 cu. ft. of goods
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Secret Coffer

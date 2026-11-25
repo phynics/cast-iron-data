@@ -17,7 +17,7 @@ page = "19"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Sorcerer", level = 6 },
@@ -45,7 +45,7 @@ Duration: permanent
 Saving throw: Fortitude negates, Will partial, see text
 Spell resistance: no
 Target: 1 creature or see text
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This functions like [baleful polymorph](ref/spell/baleful-polymorph), except the target becomes an

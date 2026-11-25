@@ -17,7 +17,7 @@ page = "19"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -52,7 +52,7 @@ Area: several living creatures, no two of which may be more than 30 ft. apart
 Duration: 10 minutes/level (D)
 Saving throw: Will negates
 Spell resistance: yes
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

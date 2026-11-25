@@ -14,8 +14,8 @@ kind = "creature"
 cr = "15"
 creature_type = "dragon"
 subtypes = ["mythic", "water"]
-size = "Large"
-alignment = "CE"
+size = "large"
+alignment = "chaotic evil"
 ac = "37, touch 10, flat-footed 36 (+1 Dex, +27 natural, -1 size)"
 hp = "260 (16d12+156)"
 fortitude = "+16"
@@ -30,8 +30,8 @@ abilities = ["29", "12", "23", "14", "17", "16"]
 ::: statblock
 CR: 15
 XP: 51,200
-Alignment: CE
-Size: Large
+Alignment: chaotic evil
+Size: large
 Type: Dragon (mythic, water)
 Init: +11M
 Senses: [blindsense](ref/rule/blindsight-and-blindsense) 60 ft., [darkvision](ref/rule/darkvision) 120 ft., [low-light vision](ref/rule/low-light-vision), mistsight; Perception +26

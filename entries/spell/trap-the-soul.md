@@ -20,7 +20,7 @@ page = "39"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Psychic", level = 8 },
@@ -50,7 +50,7 @@ Duration: permanent; see text
 Saving throw: see text
 Spell resistance: yes; see text
 Target: one creature
-Subschool: Summoning
+Subschool: summoning
 :::
 
 Trap the soul forces a creature's life force (and its material body) into a gem. The gem holds the

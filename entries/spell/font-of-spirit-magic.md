@@ -14,7 +14,7 @@ page = "182"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Shaman", level = 3 },
 ]
@@ -40,7 +40,7 @@ Duration: concentration+ 1 round/level
 Saving throw: Will negates (harmless)
 Spell resistance: no
 Area: 30-ft.-radius emanation centered on you
-Subschool: Creation
+Subschool: creation
 :::
 
 You amplify the effect of magic associated with your spirit and wandering spirit (any spells on the

@@ -17,7 +17,7 @@ page = "227"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 descriptors = ["ruse"]
 levels = [
   { class = "Arcanist", level = 6 },
@@ -53,7 +53,7 @@ Duration: instantaneous
 Saving throw: none and Will negates (object)
 Spell resistance: no and yes (object)
 Target: you and touched objects or other touched willing creatures
-Subschool: Teleportation
+Subschool: teleportation
 Descriptors: ruse
 :::
 

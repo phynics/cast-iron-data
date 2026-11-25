@@ -23,7 +23,7 @@ page = "71"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Antipaladin", level = 2 },
@@ -58,7 +58,7 @@ Duration: instantaneous
 Saving throw: Fortitude partial
 Spell resistance: no
 Effect: up to 1 flask of the waters of Lamashtu per 2 levels
-Subschool: Creation
+Subschool: creation
 :::
 
 **Sources:** Book of the Damned pg 186, Pathfinder \#5: Sins of the Saviors pg 71, Gods and Magic pg

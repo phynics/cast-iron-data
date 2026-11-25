@@ -14,7 +14,7 @@ page = "181"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Druid", level = 7 },
   { class = "Shaman", level = 7 },
@@ -42,7 +42,7 @@ Duration: 2 hours/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: extradimensional meadow, up to three 10-ft. cubes/level (S)
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure up an extradimensional meadow that can be accessed from a single entrance on the plane

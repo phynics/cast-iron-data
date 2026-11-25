@@ -14,8 +14,8 @@ kind = "creature"
 cr = "5"
 creature_type = "humanoid"
 subtypes = ["gnoll"]
-size = "Medium"
-alignment = "CE"
+size = "medium"
+alignment = "chaotic evil"
 ac = "18, touch 11, flat-footed 17 (+5 armor, +1 Dex, +2 natural)"
 hp = "31 (6d8+4)"
 fortitude = "+7"
@@ -30,8 +30,8 @@ abilities = ["17", "12", "10", "8", "16", "12"]
 ::: statblock
 CR: 5
 XP: 1,600
-Alignment: CE
-Size: Medium
+Alignment: chaotic evil
+Size: medium
 Type: Humanoid (gnoll)
 Init: +1
 Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +3

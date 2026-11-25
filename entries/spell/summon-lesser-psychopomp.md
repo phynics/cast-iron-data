@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 5 },
@@ -52,7 +52,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one or more summoned psychopomps (see text)
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell functions like [summon monster](ref/spell/summon-monster), except that it summons 1d3

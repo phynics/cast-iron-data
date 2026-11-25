@@ -15,8 +15,8 @@ kind = "creature"
 cr = "8"
 creature_type = "plant"
 subtypes = ["augmented humanoid"]
-size = "Medium"
-alignment = "LE"
+size = "medium"
+alignment = "lawful evil"
 ac = "20, touch 11, flat-footed 19 (+7 armor, +1 Dex, +2 shield)"
 hp = "90 (9d10+36)"
 fortitude = "+8"
@@ -32,8 +32,8 @@ abilities = ["19", "13", "14", "10", "12", "4"]
 ::: statblock
 CR: 8
 XP: 4,800
-Alignment: LE
-Size: Medium
+Alignment: lawful evil
+Size: medium
 Type: Plant (augmented humanoid)
 Race: human fighter 9
 Init: +5

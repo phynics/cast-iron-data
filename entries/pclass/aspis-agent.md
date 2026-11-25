@@ -17,7 +17,7 @@ page = "8"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 The [Aspis Consortium](ref/rule/aff-profiteers) employs many unscrupulous individuals in its ongoing
@@ -48,7 +48,7 @@ The Aspis Agent's class skills are [Bluff](ref/skill/bluff) (Cha), [Disguise](re
 [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

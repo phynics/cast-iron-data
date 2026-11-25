@@ -17,7 +17,7 @@ page = "229"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 4 },
   { class = "Arcanist", level = 4 },
@@ -50,7 +50,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 ### Monstrous Physique II

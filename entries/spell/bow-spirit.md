@@ -14,7 +14,7 @@ page = "207"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Hunter", level = 4 },
   { class = "Ranger", level = 4 },
@@ -41,7 +41,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Creation
+Subschool: creation
 :::
 
 A bow spirit is a shapeless force that hovers about you, taking ammunition from your quiver and

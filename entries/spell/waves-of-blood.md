@@ -14,7 +14,7 @@ page = "130"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bloodrager", level = 3 },
@@ -47,7 +47,7 @@ Duration: instantaneous and 1 round; see text
 Saving throw: Reflex negates, Fortitude negates (see text)
 Spell resistance: no
 Area: cone-shaped burst
-Subschool: Creation
+Subschool: creation
 :::
 
 You cause torrents of roiling blood to push your opponents away from you. This wave attempts a bull

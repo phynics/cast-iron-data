@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "20"
 creature_type = "dragon"
-size = "Gargantuan"
-alignment = "N"
+size = "gargantuan"
+alignment = "neutral"
 ac = "37, touch 6, flat-footed 37 (+31 natural, –4 size)"
 hp = "418 (27d12+243)"
 fortitude = "+24"
@@ -29,8 +29,8 @@ abilities = ["38", "11", "28", "23", "22", "23"]
 ::: statblock
 CR: 20
 XP: 307,200
-Alignment: N
-Size: Gargantuan
+Alignment: neutral
+Size: gargantuan
 Type: Dragon
 Init: +14
 Senses: detect magic, dragon senses, see in darkness; Perception +36

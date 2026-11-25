@@ -14,7 +14,7 @@ page = "109"
 [fields]
 kind = "creature"
 cr = "10"
-creature_type = "monstrousHumanoid"
+creature_type = "monstrous humanoid"
 size = "large"
 alignment = "lawful neutral"
 ac = "27/16/22"

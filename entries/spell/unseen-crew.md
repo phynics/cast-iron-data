@@ -14,7 +14,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 4 },
@@ -48,7 +48,7 @@ Duration: 1 day/level
 Saving throw: none
 Spell resistance: no
 Effect: one invisible sailor per level
-Subschool: Creation
+Subschool: creation
 :::
 
 An unseen crew member is an invisible, shapeless force that performs the duties of one crew member.

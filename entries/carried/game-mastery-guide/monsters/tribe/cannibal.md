@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "1"
 creature_type = "humanoid"
-size = "Medium"
-alignment = "CN"
+size = "medium"
+alignment = "chaotic neutral"
 ac = "13, touch 9, flat-footed 12 (+4 armor, +1 Dex, -2 rage)"
 hp = "25 (2d12+12)"
 fortitude = "+8"
@@ -30,8 +30,8 @@ abilities = ["19", "13", "20", "10", "12", "8"]
 ::: statblock
 CR: 1
 XP: 400
-Alignment: CN
-Size: Medium
+Alignment: chaotic neutral
+Size: medium
 Type: Humanoid
 Race: human barbarian 2
 Init: +1

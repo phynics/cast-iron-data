@@ -14,7 +14,7 @@ page = "313"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Adept", level = 4 },
   { class = "Arcanist", level = 4 },
@@ -50,7 +50,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level
-Subschool: Creation
+Subschool: creation
 :::
 
 You create a nonmagical, unattended object of nonliving vegetable matter. The volume of the item

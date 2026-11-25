@@ -14,7 +14,7 @@ page = "249"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Cleric", level = 2 },
@@ -52,7 +52,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: 5 ft.-10 ft. diameter web sphere or 5 ft.-20 ft. hemisphere
-Subschool: Creation
+Subschool: creation
 :::
 
 You create a shelter of slightly sticky webbing. The shelter has a hinged door large enough to

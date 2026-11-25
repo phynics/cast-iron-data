@@ -14,8 +14,7 @@ page = "27"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 0 },
   { class = "Bard", level = 0 },
@@ -45,8 +44,7 @@ Duration: 1 round/level (D)
 Saving throw: Will negates, see text
 Spell resistance: yes, see text
 Target: container touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell makes a single bag, chest, sack, or other container look and feel empty. The container

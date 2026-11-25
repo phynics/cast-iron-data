@@ -14,7 +14,7 @@ page = "337"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 3 },
@@ -58,7 +58,7 @@ Duration: 1 minute/level
 Saving throw: Will negates
 Spell resistance: yes
 Effect: magical sensor
-Subschool: Scrying
+Subschool: scrying
 :::
 
 You can observe a creature at any distance. If the subject succeeds on a Will save, the spell fails.

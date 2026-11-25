@@ -14,8 +14,7 @@ page = "232"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Occultist", level = 1 },
   { class = "Psychic", level = 1 },
@@ -43,8 +42,7 @@ Duration: 1 day/level (D)
 Saving throw: none, see text
 Spell resistance: no
 Target: creature or object touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You mask and manipulate a spell's magic aura to make it harder to detect. Select one spell effect on

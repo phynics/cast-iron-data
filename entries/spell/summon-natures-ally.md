@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 1 },
   { class = "Hunter", level = 1 },
@@ -39,7 +39,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned creature
-Subschool: Summoning
+Subschool: summoning
 :::
 
 - [Summon Nature's Ally I](ref/spell/summon-natures-ally-1)

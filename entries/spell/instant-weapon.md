@@ -14,7 +14,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["force"]
 levels = [
   { class = "Arcanist", level = 2 },
@@ -51,7 +51,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Effect: melee weapon of opaque force
-Subschool: Creation
+Subschool: creation
 Descriptors: force
 :::
 

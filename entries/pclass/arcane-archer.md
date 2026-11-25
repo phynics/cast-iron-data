@@ -14,7 +14,7 @@ page = "374"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Many who seek to perfect the use of the bow sometimes pursue the path of the arcane archer. Arcane
@@ -53,7 +53,7 @@ The Arcane Archer's class skills are [Perception](ref/skill/perception) (Wis),
 (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

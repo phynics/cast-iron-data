@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 6 },
   { class = "Bard", level = 6 },
@@ -54,7 +54,7 @@ Target: creature or object of up to 1 cu. ft./level touched
 Duration: instantaneous or 1 hour/level (D)
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Greater Neutralize Poison

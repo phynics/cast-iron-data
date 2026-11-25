@@ -15,8 +15,8 @@ kind = "creature"
 cr = "2"
 creature_type = "humanoid"
 subtypes = ["human", "shapechanger"]
-size = "Medium"
-alignment = "CN"
+size = "medium"
+alignment = "chaotic neutral"
 ac = "12, touch 9, flat-footed 11 (+3 armor, +1 Dex, -2 rage)"
 hp = "31 (2d12+13)"
 fortitude = "+7"
@@ -32,8 +32,8 @@ abilities = ["19", "13", "18", "10", "14", "8"]
 ::: statblock
 CR: 2
 XP: 600
-Alignment: CN
-Size: Medium
+Alignment: chaotic neutral
+Size: medium
 Type: Humanoid (human, shapechanger)
 Race: human natural
 Class Levels: barbarian 2

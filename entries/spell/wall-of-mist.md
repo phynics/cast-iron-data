@@ -14,7 +14,7 @@ page = "18"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["air"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Effect: wall of thin fog 10 ft. long/level or dense fog 5 ft. long/level; either form 20 ft. high
-Subschool: Creation
+Subschool: creation
 Descriptors: air
 :::
 

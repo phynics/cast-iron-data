@@ -14,7 +14,7 @@ page = "38"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Whether from a privileged upbringing or social elevation through worthy deeds, nobility is a station
@@ -49,7 +49,7 @@ The Noble Scion's class skills are [Appraise](ref/skill/appraise) (Int), [Bluff]
 [Ride](ref/skill/ride) (Dex), and [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

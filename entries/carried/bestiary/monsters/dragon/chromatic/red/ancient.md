@@ -14,8 +14,8 @@ kind = "creature"
 cr = "19"
 creature_type = "dragon"
 subtypes = ["fire"]
-size = "Gargantuan"
-alignment = "CE"
+size = "gargantuan"
+alignment = "chaotic evil"
 ac = "38, touch 5, flat-footed 38 (-1 Dex, +33 natural, -4 size)"
 hp = "362 (25d12+200)"
 fortitude = "+22"
@@ -29,8 +29,8 @@ abilities = ["39", "8", "27", "20", "21", "20"]
 ::: statblock
 CR: 19
 XP: 204,800
-Alignment: CE
-Size: Gargantuan
+Alignment: chaotic evil
+Size: gargantuan
 Type: Dragon (fire)
 Init: +3
 Senses: dragon senses, smoke vision; Perception +33

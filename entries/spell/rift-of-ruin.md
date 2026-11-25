@@ -17,7 +17,7 @@ page = "48"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 descriptors = ["chaotic", "evil"]
 levels = [
   { class = "Arcanist", level = 8 },
@@ -49,7 +49,7 @@ Duration: 1 round/level (see text)
 Saving throw: Reflex partial
 Spell resistance: no
 Effect: 5-ft.-wide, 60-ft.-deep extradimensional hole, up to 5 ft. long per level (S)
-Subschool: Calling
+Subschool: calling
 Descriptors: chaotic, evil
 :::
 

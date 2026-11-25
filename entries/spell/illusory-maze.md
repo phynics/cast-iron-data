@@ -14,7 +14,7 @@ page = "41"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -45,7 +45,7 @@ Duration: 1 round/level
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: yes
 Area: 20-ft.-radius spread
-Subschool: Figment
+Subschool: figment
 :::
 
 This spell creates the illusion of a translucent, ever-changing maze of glass in the target area.

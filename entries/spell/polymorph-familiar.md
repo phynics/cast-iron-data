@@ -17,7 +17,7 @@ page = "190"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Red Mantis Assassin", level = 3 },
@@ -48,7 +48,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: yes
 Target: your familiar
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This spell functions as [beast shape I](ref/spell/beast-shape-1), except it grants your familiar the

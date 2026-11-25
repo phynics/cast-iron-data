@@ -14,7 +14,7 @@ page = "13"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["lawful"]
 levels = [
   { class = "Inquisitor", level = 4 },
@@ -43,7 +43,7 @@ Duration: 1 round
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: lawful
 :::
 

@@ -14,7 +14,7 @@ page = "23"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Druid", level = 5 },
@@ -46,7 +46,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you and one summoned creature you control
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You can mold the ephemeral substance of the Outer Planes, mutating one summoned creature that you

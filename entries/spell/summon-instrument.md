@@ -14,7 +14,7 @@ page = "350"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Bard", level = 0 },
   { class = "Skald", level = 0 },
@@ -41,7 +41,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned handheld musical instrument
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell summons one handheld musical instrument of your choice. This instrument appears in your

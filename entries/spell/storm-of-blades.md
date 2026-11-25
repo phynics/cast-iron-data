@@ -14,7 +14,7 @@ page = "11"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Cleric", level = 3 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: one creature
-Subschool: Creation
+Subschool: creation
 :::
 
 You create floating swords of the type used as the material component for this spell (such as a

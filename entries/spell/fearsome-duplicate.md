@@ -14,7 +14,7 @@ page = "68"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Effect: monstrously distorted duplicate of you
-Subschool: Figment
+Subschool: figment
 :::
 
 > _[Halflings](ref/race/halfling) have access to the following spell._

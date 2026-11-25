@@ -14,7 +14,7 @@ page = "50"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Perhaps no event so shaped dwarven history or culture as the legendary Quest for Sky. Spurred by the
@@ -54,7 +54,7 @@ The Skyseeker's class skills are [Climb](ref/skill/climb) (Str), [Intimidate](re
 [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

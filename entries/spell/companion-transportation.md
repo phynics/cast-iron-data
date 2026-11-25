@@ -14,7 +14,7 @@ page = "228"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Antipaladin", level = 4 },
   { class = "Arcanist", level = 5 },
@@ -50,7 +50,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: yourself and one animal companion, familiar, or spirit animal within range
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You trade places with the other target, teleporting as if you were both affected by dimension door.

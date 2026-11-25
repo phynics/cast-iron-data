@@ -14,7 +14,7 @@ page = "21"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 1 },
   { class = "Bard", level = 1 },
@@ -53,7 +53,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: yes (harmless)
 Target: living creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 Bleed effects on the target immediately end when this spell is cast, and no blood flows out when the

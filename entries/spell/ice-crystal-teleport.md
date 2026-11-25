@@ -17,7 +17,7 @@ page = "224"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 descriptors = ["cold"]
 levels = [
   { class = "Arcanist", level = 6 },
@@ -50,7 +50,7 @@ Duration: 1d4 rounds and instantaneous
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Teleportation
+Subschool: teleportation
 Descriptors: cold
 :::
 

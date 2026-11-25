@@ -14,7 +14,7 @@ page = "376"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Few can match the guile and craftiness of arcane tricksters. These prodigious thieves blend the
@@ -61,7 +61,7 @@ The Arcane Trickster's class skills are [Acrobatics](ref/skill/acrobatics) (Dex)
 [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

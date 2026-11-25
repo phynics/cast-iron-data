@@ -14,7 +14,7 @@ page = "224"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["cold"]
 levels = [
   { class = "Arcanist", level = 1 },
@@ -48,7 +48,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Effect: one icicle
-Subschool: Creation
+Subschool: creation
 Descriptors: cold
 :::
 

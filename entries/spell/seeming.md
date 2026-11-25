@@ -17,8 +17,7 @@ page = "339"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 5 },
@@ -53,8 +52,7 @@ Duration: 12 hours (D)
 Saving throw: Will negates or Will disbelief (if interacted with)
 Spell resistance: yes or no; see text
 Targets: one creature per two levels, no two of which can be more than 30 ft. apart
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell functions like [disguise self](ref/spell/disguise-self), except that you can change the

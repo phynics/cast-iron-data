@@ -14,7 +14,7 @@ page = "234"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Charm"]
+subschools = ["charm"]
 descriptors = ["language-dependant", "mind-affecting"]
 levels = [
   { class = "Antipaladin", level = 4 },
@@ -43,7 +43,7 @@ Duration: 1 or more rounds (see below)
 Saving throw: no, see below
 Spell resistance: yes
 Target: one creature
-Subschool: Charm
+Subschool: charm
 Descriptors: language-dependant, mind-affecting
 :::
 

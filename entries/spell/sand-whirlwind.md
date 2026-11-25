@@ -14,7 +14,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Cleric", level = 3 },
   { class = "Oracle", level = 3 },
@@ -42,7 +42,7 @@ Duration: 1 round/level
 Saving throw: Will negates (blinding only)
 Spell resistance: no
 Target: one creature
-Subschool: Creation
+Subschool: creation
 :::
 
 A whirling cloud of sand strikes the target, blinding it and hampering its ability to speak. To

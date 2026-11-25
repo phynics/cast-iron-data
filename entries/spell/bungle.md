@@ -14,7 +14,7 @@ page = "209"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Mesmerist", level = 1 },
@@ -45,7 +45,7 @@ Duration: concentration+ 2 rounds or until triggered
 Saving throw: Will negates
 Spell resistance: yes
 Target: one humanoid
-Subschool: Compulsion
+Subschool: compulsion
 :::
 
 The target takes a -20 penalty on its next attack roll or check that requires a d20 roll. The action

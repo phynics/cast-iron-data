@@ -17,7 +17,7 @@ page = "245"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Red Mantis Assassin", level = 8 },
@@ -46,7 +46,7 @@ Duration: 1 minute/level (d) (see text)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 ### Undead Anatomy IV

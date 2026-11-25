@@ -14,7 +14,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Cleric", level = 3 },
@@ -47,7 +47,7 @@ Duration: 24 hours
 Saving throw: none
 Spell resistance: no
 Target: self
-Subschool: Healing
+Subschool: healing
 :::
 
 You create an imperfect replica of yourself within the Akashic Record at the time the spell is cast.

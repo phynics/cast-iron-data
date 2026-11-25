@@ -14,7 +14,7 @@ page = "365"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -51,7 +51,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Effect: intelligible sound, usually speech
-Subschool: Figment
+Subschool: figment
 :::
 
 You can make your voice (or any sound that you can normally make vocally) seem to issue from

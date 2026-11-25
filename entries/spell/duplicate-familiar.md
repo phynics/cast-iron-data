@@ -14,7 +14,7 @@ page = "22"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Alchemist", level = 4 },
   { class = "Arcanist", level = 5 },
@@ -46,7 +46,7 @@ Duration: 10 minutes/level
 Saving throw: Fortitude negates
 Spell resistance: no
 Effect: temporary duplicate of familiar touched
-Subschool: Creation
+Subschool: creation
 :::
 
 You create a duplicate of a familiar. The familiar's master can use the duplicate as if it were his

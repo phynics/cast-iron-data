@@ -17,7 +17,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Antipaladin", level = 2 },
@@ -53,7 +53,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Creation
+Subschool: creation
 :::
 
 Bristles burst from your body, lodging in your opponent and blossoming into entangling vines as you

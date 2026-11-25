@@ -17,7 +17,7 @@ page = "12"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation", "Calling"]
+subschools = ["creation", "calling"]
 levels = [
   { class = "Arcanist", level = 9 },
   { class = "Cleric", level = 9 },
@@ -48,7 +48,7 @@ Duration: instantaneous or concentration (up to 1 round/level); see text
 Saving throw: none
 Spell resistance: no
 Effect: see text
-Subschool: Creation, Calling
+Subschool: creation, calling
 :::
 
 Casting a gate spell has two effects. First, it creates an interdimensional connection between your

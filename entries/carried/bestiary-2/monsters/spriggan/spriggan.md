@@ -14,8 +14,8 @@ kind = "creature"
 cr = "3"
 creature_type = "humanoid"
 subtypes = ["gnome"]
-size = "Small"
-alignment = "CE"
+size = "small"
+alignment = "chaotic evil"
 ac = "17, touch 15, flat-footed 13 (+2 armor, +4 Dex, +1 size)"
 hp = "22 (4d8+4)"
 fortitude = "+5"
@@ -31,8 +31,8 @@ abilities = ["9", "19", "12", "10", "10", "9"]
 ::: statblock
 CR: 3
 XP: 800
-Alignment: CE
-Size: Small
+Alignment: chaotic evil
+Size: small
 Type: Humanoid (gnome)
 Init: +4; Senses [low-light vision](ref/rule/low-light-vision); Perception +7
 AC: 17, touch 15, flat-footed 13 (+2 armor, +4 Dex, +1 size)

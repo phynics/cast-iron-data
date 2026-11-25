@@ -13,7 +13,8 @@ page = "173"
 
 [fields]
 kind = "spell"
-school = "transmutation [acid, electricity, or fire]"
+school = "transmutation"
+descriptors = ["acid", "electricity", "fire"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bloodrager", level = 4 },

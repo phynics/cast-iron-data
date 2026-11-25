@@ -14,7 +14,7 @@ page = "22"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Arcanist", level = 2 },
@@ -53,7 +53,7 @@ Duration: instantaneous
 Saving throw: Will negates
 Spell resistance: yes
 Target: one summoned creature
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You swap a creature summoned by a conjuration (summoning) spell for a creature you could summon with

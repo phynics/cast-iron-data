@@ -20,8 +20,8 @@ page = "108"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["evil", "glamer"]
+subschools = ["glamer"]
+descriptors = ["evil"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 5 },
@@ -58,8 +58,8 @@ Target: one willing undead creature touched
 Duration: 1 hour/level
 Saving throw: Will disbelief or Will negates (see text)
 Spell resistance: no
-Subschool: Glamer
-Descriptors: evil, glamer
+Subschool: glamer
+Descriptors: evil
 :::
 
 ### Greater Appearance of Life

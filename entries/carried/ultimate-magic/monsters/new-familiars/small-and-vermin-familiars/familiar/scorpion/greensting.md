@@ -16,8 +16,8 @@ page = "232"
 kind = "creature"
 cr = "1/4"
 creature_type = "vermin"
-size = "Tiny"
-alignment = "N"
+size = "tiny"
+alignment = "neutral"
 ac = "18, touch 15, flat-footed 15 (+3 Dex, +3 natural, +2 size)"
 hp = "4 (1d8)"
 fortitude = "+2"
@@ -31,8 +31,8 @@ abilities = ["3", "16", "10", "-", "10", "2"]
 ::: statblock
 CR: 1/4
 XP: 100
-Alignment: N
-Size: Tiny
+Alignment: neutral
+Size: tiny
 Type: Vermin
 Init: +3
 Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +4

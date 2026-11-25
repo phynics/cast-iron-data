@@ -14,7 +14,7 @@ page = "67"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Druid", level = 3 },
   { class = "Hunter", level = 3 },
@@ -43,7 +43,7 @@ Duration: 2 hours/level (D)
 Saving throw: none
 Spell resistance: no
 Target: one 5-foot square of touched earth
-Subschool: Creation
+Subschool: creation
 :::
 
 When this spell is cast on a natural, unworked surface, it creates an extradimensional underground

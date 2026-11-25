@@ -14,7 +14,7 @@ page = "218"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["curse", "mind-affecting"]
 levels = [
   { class = "Antipaladin", level = 4 },
@@ -50,7 +50,7 @@ Duration: permanent
 Saving throw: Will negates
 Spell resistance: yes
 Target: one living creature
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: curse, mind-affecting
 :::
 

@@ -14,8 +14,7 @@ page = "315"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment", "Glamer"]
-descriptors = ["glamer"]
+subschools = ["figment", "glamer"]
 levels = [
   { class = "Alchemist", level = 6 },
   { class = "Arcanist", level = 6 },
@@ -53,8 +52,7 @@ Duration: 1 round/level (d) and concentration + 3 rounds; see text
 Saving throw: none or Will disbelief (if interacted with); see text
 Spell resistance: no
 Effect: one illusory double
-Subschool: Figment, Glamer
-Descriptors: glamer
+Subschool: figment, glamer
 :::
 
 You become invisible (as greater invisibility, a glamer), and at the same time, an illusory double

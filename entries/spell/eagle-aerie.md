@@ -14,7 +14,7 @@ page = "217"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 descriptors = ["good"]
 levels = [
   { class = "Druid", level = 6 },
@@ -44,7 +44,7 @@ Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
 Effect: summoned eagles
-Subschool: Summoning
+Subschool: summoning
 Descriptors: good
 :::
 

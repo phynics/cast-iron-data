@@ -14,7 +14,7 @@ page = "391"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Civilized folk have always feared the night, barring themselves behind doors or comforting
@@ -59,7 +59,7 @@ The Shadowdancer's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 [Sleight of Hand](ref/skill/sleight-of-hand) (Dex), and [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

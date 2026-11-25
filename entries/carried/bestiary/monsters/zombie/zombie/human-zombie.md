@@ -14,8 +14,8 @@ provenance = [
 kind = "creature"
 cr = "1/2"
 creature_type = "undead"
-size = "Medium"
-alignment = "NE"
+size = "medium"
+alignment = "neutral evil"
 ac = "12, touch 10, flat-footed 12 (+2 natural)"
 hp = "12 (2d8+3)"
 fortitude = "+0"
@@ -29,8 +29,8 @@ abilities = ["17", "10", "-", "-", "10", "10"]
 ::: statblock
 CR: 1/2
 XP: 200
-Alignment: NE
-Size: Medium
+Alignment: neutral evil
+Size: medium
 Type: Undead
 Init: +0
 Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +0

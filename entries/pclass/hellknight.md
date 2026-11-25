@@ -17,7 +17,7 @@ page = "278"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Not all who start as novice armigers have what it takes to become a full-fledged
@@ -45,7 +45,7 @@ The Hellknight's class skills are [Intimidate](ref/skill/intimidate) (Cha),
 [Ride](ref/skill/ride) (Dex), and [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

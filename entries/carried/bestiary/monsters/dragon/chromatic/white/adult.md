@@ -14,8 +14,8 @@ kind = "creature"
 cr = "10"
 creature_type = "dragon"
 subtypes = ["cold"]
-size = "Large"
-alignment = "CE"
+size = "large"
+alignment = "chaotic evil"
 ac = "27, touch 10, flat-footed 26 (+1 Dex, +17 natural, -1 size)"
 hp = "149 (13d12+65)"
 fortitude = "+13"
@@ -30,8 +30,8 @@ abilities = ["25", "12", "21", "12", "15", "12"]
 ::: statblock
 CR: 10
 XP: 9,600
-Alignment: CE
-Size: Large
+Alignment: chaotic evil
+Size: large
 Type: Dragon (cold)
 Init: +5
 Senses: dragon senses, snow vision; Perception +22

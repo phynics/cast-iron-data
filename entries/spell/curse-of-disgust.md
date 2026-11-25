@@ -14,7 +14,7 @@ page = "215"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["curse", "emotion", "mind-affecting"]
 levels = [
   { class = "Arcanist", level = 5 },
@@ -52,7 +52,7 @@ Duration: permanent
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: curse, emotion, mind-affecting
 :::
 

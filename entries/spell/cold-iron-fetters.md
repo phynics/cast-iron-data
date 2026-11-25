@@ -14,7 +14,7 @@ page = "13"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 5 },
@@ -55,7 +55,7 @@ Duration: 1 round/level (D)
 Saving throw: Reflex negates
 Spell resistance: no
 Target: one creature
-Subschool: Creation
+Subschool: creation
 :::
 
 Cold iron shackles materialize around the target's limbs, reducing each of the target's movement

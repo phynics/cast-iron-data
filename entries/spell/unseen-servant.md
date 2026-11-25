@@ -14,7 +14,7 @@ page = "364"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -53,7 +53,7 @@ Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
 Effect: one invisible, mindless, shapeless servant
-Subschool: Creation
+Subschool: creation
 :::
 
 An unseen servant is an invisible, mindless, shapeless force that performs simple tasks at your

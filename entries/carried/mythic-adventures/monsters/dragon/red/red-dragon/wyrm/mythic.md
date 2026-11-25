@@ -14,8 +14,8 @@ kind = "creature"
 cr = "25"
 creature_type = "dragon"
 subtypes = ["fire", "mythic"]
-size = "Gargantuan"
-alignment = "CE"
+size = "gargantuan"
+alignment = "chaotic evil"
 ac = "50, touch 4, flat-footed 50 (-2 Dex, +46 natural, -4 size)"
 hp = "518 (27d12+343); fast healing 5"
 fortitude = "+24"
@@ -30,8 +30,8 @@ abilities = ["45", "6", "29", "20", "21", "24"]
 ::: statblock
 CR: 25
 XP: 1,638,400
-Alignment: CE
-Size: Gargantuan
+Alignment: chaotic evil
+Size: gargantuan
 Type: Dragon (fire, mythic)
 Init: +12M
 Senses: [blindsight](ref/rule/blindsight-and-blindsense) 60 ft., [darkvision](ref/rule/darkvision) 120 ft., [low-light vision](ref/rule/low-light-vision), smoke vision, x-ray vision; Perception +35

@@ -14,7 +14,7 @@ page = "9"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Cleric", level = 3 },
@@ -52,7 +52,7 @@ Duration: instantaneous
 Saving throw: Fortitude partial (see below)
 Spell resistance: no
 Effect: special (see below)
-Subschool: Creation
+Subschool: creation
 :::
 
 The spell's area of effect floods with dangerous radiation. The strength of the radiation you create

@@ -14,7 +14,7 @@ page = "28"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 The faithful of Desna are legendary for their love of wayfaring, but the sphere singer takes this
@@ -53,7 +53,7 @@ The Sphere Singer's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 [Swim](ref/skill/swim) (Str), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

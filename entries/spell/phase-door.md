@@ -14,7 +14,7 @@ page = "320"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Psychic", level = 7 },
@@ -44,7 +44,7 @@ Duration: one usage per two levels
 Saving throw: none
 Spell resistance: no
 Effect: ethereal 5-ft.-by-8-ft. opening, 10 ft. deep + 5 ft. deep per three levels
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell creates an ethereal passage through wooden, plaster, or stone walls, but not other

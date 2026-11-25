@@ -13,8 +13,8 @@ provenance = [
 kind = "creature"
 cr = "13"
 creature_type = "dragon"
-size = "Huge"
-alignment = "CN"
+size = "huge"
+alignment = "chaotic neutral"
 ac = "28, touch 7, flat-footed 28 (–1 Dex, +21 natural, –2 size)"
 hp = "200 (16d12+96)"
 fortitude = "+15"
@@ -29,8 +29,8 @@ abilities = ["27", "9", "20", "20", "22", "21"]
 ::: statblock
 CR: 13
 XP: 25,600
-Alignment: CN
-Size: Huge
+Alignment: chaotic neutral
+Size: huge
 Type: Dragon
 Init: +3
 Senses: dragon senses, see in darkness; Perception +25

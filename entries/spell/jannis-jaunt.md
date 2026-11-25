@@ -17,7 +17,7 @@ page = "9"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Cleric", level = 4 },
@@ -57,7 +57,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: Up to eight willing creatures joining hands
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 ### Janni's Jaunt

@@ -14,7 +14,7 @@ page = "205"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["emotion"]
 levels = [
   { class = "Cleric", level = 2 },
@@ -44,7 +44,7 @@ Duration: 1 minute/level (see below)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one living creature
-Subschool: Healing
+Subschool: healing
 Descriptors: emotion
 :::
 

@@ -14,7 +14,7 @@ page = "44"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 The most ardent worshippers of the monitor demigods, called proctors, devote their lives to serving
@@ -42,7 +42,7 @@ The Proctor's class skills are [Diplomacy](ref/skill/diplomacy) (Cha),
 (Wis), [Sense Motive](ref/skill/sense-motive) (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

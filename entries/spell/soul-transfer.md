@@ -20,7 +20,7 @@ page = "39"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Cleric", level = 7 },
@@ -55,7 +55,7 @@ Duration: permanent see text
 Saving throw: Will negates
 Spell resistance: yes (see text)
 Target: one petitioner, incorporeal soul, or similar creature
-Subschool: Summoning
+Subschool: summoning
 :::
 
 ### Soul Transfer

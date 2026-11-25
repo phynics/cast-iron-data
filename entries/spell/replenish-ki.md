@@ -17,7 +17,7 @@ page = "73"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 4 },
   { class = "Oracle", level = 4 },
@@ -45,7 +45,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 You attune the target's internal store of supernatural energy to the cosmos, replenishing its ki

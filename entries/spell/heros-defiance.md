@@ -14,7 +14,7 @@ page = "226"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Paladin", level = 1 },
 ]
@@ -40,7 +40,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Healing
+Subschool: healing
 :::
 
 The instant before you are reduced to 0 or fewer hit points, you can expend a use of your lay on

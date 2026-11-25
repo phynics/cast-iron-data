@@ -14,7 +14,7 @@ page = "76"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Whether the trouble is a formidable lich draining power from thousands of enslaved ghosts or a
@@ -43,7 +43,7 @@ The Mortal Usher's class skills are [Bluff](ref/skill/bluff) (Cha), [Diplomacy](
 [Use Magic Device](ref/skill/use-magic-device) (Cha)..
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

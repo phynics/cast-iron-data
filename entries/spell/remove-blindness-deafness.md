@@ -14,7 +14,7 @@ page = "332"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Cleric", level = 3 },
@@ -49,7 +49,7 @@ Duration: instantaneous
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 Remove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or

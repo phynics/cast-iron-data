@@ -14,7 +14,7 @@ page = "113"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["shadow"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -46,7 +46,7 @@ Duration: instantaneous
 Saving throw: Reflex negates, see text
 Spell resistance: yes
 Effect: one or more bolts of energy
-Subschool: Creation
+Subschool: creation
 Descriptors: shadow
 :::
 

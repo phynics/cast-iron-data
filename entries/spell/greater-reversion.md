@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Cleric", level = 5 },
@@ -50,7 +50,7 @@ Target: self
 Duration: 24 hours
 Saving throw: none
 Spell resistance: no
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Greater Reversion
