@@ -18,6 +18,8 @@ descriptors = ["air", "meditative"]
 levels = [
   { class = "Cleric", level = 6 },
   { class = "Druid", level = 6 },
+  { class = "Hunter", level = 6 },
+  { class = "Oracle", level = 6 },
   { class = "Shaman", level = 6 },
   { class = "Warpriest", level = 6 },
 ]
@@ -35,7 +37,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 6: Cleric, Druid, Shaman, Warpriest
+Level: 6: Cleric, Druid, Hunter, Oracle, Shaman, Warpriest
 Casting time: 1 hour
 Components: V, M (soothing incense worth 600 gp)
 Range: personal

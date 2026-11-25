@@ -17,6 +17,7 @@ school = "transmutation"
 descriptors = ["fire"]
 levels = [
   { class = "Cleric", level = 3 },
+  { class = "Hunter", level = 3 },
   { class = "Inquisitor", level = 3 },
   { class = "Oracle", level = 3 },
   { class = "Paladin", level = 3 },
@@ -37,7 +38,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 3: Cleric, Inquisitor, Oracle, Paladin, Ranger, Warpriest
+Level: 3: Cleric, Hunter, Inquisitor, Oracle, Paladin, Ranger, Warpriest
 Casting time: 1 standard action
 Components: V, S, DF
 Range: personal

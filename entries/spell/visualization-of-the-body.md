@@ -19,7 +19,9 @@ levels = [
   { class = "Arcanist", level = 2 },
   { class = "Cleric", level = 2 },
   { class = "Druid", level = 2 },
+  { class = "Hunter", level = 2 },
   { class = "Magus", level = 2 },
+  { class = "Oracle", level = 2 },
   { class = "Ranger", level = 2 },
   { class = "Shaman", level = 2 },
   { class = "Warpriest", level = 2 },
@@ -39,7 +41,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Arcanist, Cleric, Druid, Magus, Ranger, Shaman, Warpriest, Wizard
+Level: 2: Arcanist, Cleric, Druid, Hunter, Magus, Oracle, Ranger, Shaman, Warpriest, Wizard
 Casting time: 1 hour
 Components: V, M (soothing incense worth 200 gp)
 Range: personal

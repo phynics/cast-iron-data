@@ -19,7 +19,10 @@ descriptors = ["darkness", "emotion", "evil", "mind-affecting"]
 levels = [
   { class = "Antipaladin", level = 4 },
   { class = "Bard", level = 4 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Psychic", level = 6 },
   { class = "Skald", level = 4 },
+  { class = "Spiritualist", level = 4 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -35,7 +38,8 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 4: Antipaladin, Bard, Skald
+Level: 4: Antipaladin, Bard, Mesmerist, Skald, Spiritualist\
+6: Psychic
 Casting time: 1 standard action
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)

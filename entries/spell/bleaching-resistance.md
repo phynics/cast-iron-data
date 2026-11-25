@@ -23,6 +23,7 @@ levels = [
   { class = "Hunter", level = 6 },
   { class = "Investigator", level = 4 },
   { class = "Sorcerer", level = 6 },
+  { class = "Spiritualist", level = 4 },
   { class = "Witch", level = 6 },
   { class = "Wizard", level = 6 },
 ]
@@ -40,7 +41,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 4: Alchemist, Investigator\
+Level: 4: Alchemist, Investigator, Spiritualist\
 6: Arcanist, Druid, Hunter, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S

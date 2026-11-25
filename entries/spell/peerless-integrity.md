@@ -20,6 +20,8 @@ levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
+  { class = "Mesmerist", level = 2 },
+  { class = "Psychic", level = 2 },
   { class = "Skald", level = 2 },
   { class = "Sorcerer", level = 2 },
   { class = "Wizard", level = 2 },
@@ -38,7 +40,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 2: Antipaladin, Arcanist, Bard, Skald, Sorcerer, Wizard
+Level: 2: Antipaladin, Arcanist, Bard, Mesmerist, Psychic, Skald, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, DF
 Range: personal

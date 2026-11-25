@@ -18,6 +18,7 @@ subschools = ["Creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Inquisitor", level = 2 },
+  { class = "Occultist", level = 3 },
   { class = "Sorcerer", level = 3 },
   { class = "Summoner", level = 2 },
   { class = "Witch", level = 3 },
@@ -38,7 +39,7 @@ spell_resistance = "no"
 title = "Spell statistics"
 School: conjuration
 Level: 2: Inquisitor, Summoner\
-3: Arcanist, Sorcerer, Witch, Wizard
+3: Arcanist, Occultist, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: personal

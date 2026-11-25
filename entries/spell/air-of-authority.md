@@ -18,6 +18,9 @@ subschools = ["Glamer"]
 descriptors = ["glamer"]
 levels = [
   { class = "Bard", level = 3 },
+  { class = "Medium", level = 3 },
+  { class = "Mesmerist", level = 3 },
+  { class = "Psychic", level = 5 },
   { class = "Skald", level = 3 },
 ]
 casting_time = "1 standard action"
@@ -34,7 +37,8 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 3: Bard, Skald
+Level: 3: Bard, Medium, Mesmerist, Skald\
+5: Psychic
 Casting time: 1 standard action
 Components: V, S
 Range: personal

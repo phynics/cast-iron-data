@@ -17,6 +17,9 @@ page = "11"
 [fields]
 kind = "spell"
 school = "necromancy"
+levels = [
+  { class = "Witch", level = 8 },
+]
 casting_time = "1 standard action"
 components = "V, S"
 range = "touch"
@@ -31,6 +34,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
+Level: 8: Witch
 Casting time: 1 standard action
 Components: V, S
 Range: touch

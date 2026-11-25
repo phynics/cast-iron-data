@@ -20,7 +20,7 @@ levels = [
   { class = "Cleric", level = 3 },
   { class = "Oracle", level = 3 },
   { class = "Paladin", level = 2 },
-  { class = "Shaman", level = 3 },
+  { class = "Sorcerer", level = 3 },
   { class = "Warpriest", level = 3 },
   { class = "Witch", level = 3 },
   { class = "Wizard", level = 3 },
@@ -40,7 +40,7 @@ spell_resistance = "yes"
 title = "Spell statistics"
 School: necromancy
 Level: 2: Antipaladin, Paladin\
-3: Arcanist, Cleric, Oracle, Shaman, Warpriest, Witch, Wizard
+3: Arcanist, Cleric, Oracle, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (a piece of muslin)
 Range: touch

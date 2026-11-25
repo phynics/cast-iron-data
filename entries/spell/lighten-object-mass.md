@@ -27,8 +27,8 @@ levels = [
   { class = "Oracle", level = 5 },
   { class = "Sorcerer", level = 5 },
   { class = "Summoner", level = 5 },
-  { class = "Unchained Summoner", level = 5 },
   { class = "Warpriest", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, M (goose down)"
@@ -44,7 +44,7 @@ spell_resistance = "yes (object)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 5: Arcanist, Cleric, Magus, Oracle, Sorcerer, Summoner, Unchained Summoner, Warpriest
+Level: 5: Arcanist, Cleric, Magus, Oracle, Sorcerer, Summoner, Warpriest, Wizard
 Casting time: 1 standard action
 Components: V, M (goose down)
 Range: close (25 ft. + 5 ft./2 levels)

@@ -21,6 +21,7 @@ levels = [
   { class = "Alchemist", level = 2 },
   { class = "Arcanist", level = 3 },
   { class = "Investigator", level = 2 },
+  { class = "Mesmerist", level = 3 },
   { class = "Sorcerer", level = 3 },
   { class = "Witch", level = 3 },
   { class = "Wizard", level = 3 },
@@ -40,7 +41,7 @@ spell_resistance = "yes"
 title = "Spell statistics"
 School: transmutation
 Level: 2: Alchemist, Investigator\
-3: Arcanist, Sorcerer, Witch, Wizard
+3: Arcanist, Mesmerist, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a dose of an addictive drug or substance)
 Range: touch

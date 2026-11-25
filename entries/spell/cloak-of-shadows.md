@@ -23,6 +23,7 @@ levels = [
   { class = "Mesmerist", level = 5 },
   { class = "Skald", level = 5 },
   { class = "Sorcerer", level = 5 },
+  { class = "Spiritualist", level = 5 },
   { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
@@ -40,7 +41,7 @@ spell_resistance = "no"
 title = "Spell statistics"
 School: illusion
 Level: 4: Antipaladin\
-5: Arcanist, Bard, Mesmerist, Skald, Sorcerer, Wizard
+5: Arcanist, Bard, Mesmerist, Skald, Sorcerer, Spiritualist, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: personal

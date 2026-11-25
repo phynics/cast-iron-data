@@ -18,6 +18,7 @@ levels = [
   { class = "Cleric", level = 5 },
   { class = "Inquisitor", level = 4 },
   { class = "Occultist", level = 5 },
+  { class = "Oracle", level = 5 },
   { class = "Paladin", level = 3 },
   { class = "Warpriest", level = 5 },
 ]
@@ -37,7 +38,7 @@ title = "Spell statistics"
 School: abjuration
 Level: 3: Paladin\
 4: Inquisitor\
-5: Cleric, Occultist, Warpriest
+5: Cleric, Occultist, Oracle, Warpriest
 Casting time: 1 standard action
 Components: V, S, DF
 Range: close (25 ft. + 5 ft./2 levels)
