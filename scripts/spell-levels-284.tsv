@@ -1,0 +1,252 @@
+entry	spell	class	sheet_level	printed_level	book	page	decision	basis
+ref/spell/adroit-retrieval	Adroit Retrieval	occultist	3	3	black-markets	30	add	the spell's own level line
+ref/spell/air-of-authority	Air of Authority	medium	3	3	inner-sea-races	218	add	the spell's own level line
+ref/spell/air-of-authority	Air of Authority	mesmerist	3	3	inner-sea-races	218	add	the spell's own level line
+ref/spell/air-of-authority	Air of Authority	psychic	5	5	inner-sea-races	218	add	the spell's own level line
+ref/spell/alleviate-corruption	Alleviate Corruption	oracle	6		horror-adventures	108	reject	oracle is not on the the spell's own level line
+ref/spell/alter-summoned-monster	Alter Summoned Monster	unchained summoner	2		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Monster Summoner's Handbook p. 22) gives summoner 2
+ref/spell/antipathy	Antipathy	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 243) does not list the unchained summoner
+ref/spell/apport-animal	Apport Animal	unchained summoner	3		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Occult Adventures p. 157) gives summoner 3
+ref/spell/arcane-sight-greater	Arcane Sight, Greater	psychic	7	7	occult-adventures	71	present	psychic spell list
+ref/spell/authenticating-gaze	Authenticating Gaze	occultist	1	1	black-markets	30	add	the spell's own level line
+ref/spell/baleful-shadow-transmutation	Baleful Shadow Transmutation	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Blood of Shadows p. 30) gives summoner 6
+ref/spell/banishing-blade	Banishing Blade	unchained summoner	5		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Arcane Anthology p. 7) gives summoner 5
+ref/spell/bears-endurance-mass	Bear's Endurance, Mass	psychic	6	6	occult-adventures	71	present	psychic spell list
+ref/spell/bears-endurance-mass	Bear's Endurance, Mass	unchained summoner	6	6	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/binding	Binding	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 248) does not list the unchained summoner
+ref/spell/bleaching-resistance	Bleaching Resistance	spiritualist	4	4	inner-sea-races	218	add	the spell's own level line
+ref/spell/blend-with-surroundings	Blend with Surroundings	unchained summoner	1		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Dirty Tactics Toolbox p. 30) does not list the unchained summoner
+ref/spell/blood-tentacles	Blood Tentacles	unchained summoner	4		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Agents of Evil p. 30) gives summoner 4
+ref/spell/bulls-strength-mass	Bull's Strength, Mass	psychic	6	6	occult-adventures	71	present	psychic spell list
+ref/spell/bulls-strength-mass	Bull's Strength, Mass	unchained summoner	6	6	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/castigate-mass	Castigate, Mass	mesmerist	5	5	occult-adventures	45	present	mesmerist spell list
+ref/spell/cats-grace-mass	Cat's Grace, Mass	psychic	6	6	occult-adventures	71	present	psychic spell list
+ref/spell/cats-grace-mass	Cat's Grace, Mass	unchained summoner	6	6	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/celestial-healing	Celestial Healing	unchained summoner	1		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Arcane Anthology p. 13) gives summoner 1
+ref/spell/celestial-healing-greater	Greater Celestial Healing	unchained summoner	4		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Arcane Anthology p. 13) gives summoner 4
+ref/spell/champions-bout	Champion's Bout	mesmerist	3	3	inner-sea-races	218	add	the spell's own level line
+ref/spell/charm-monster-mass	Charm Monster, Mass	mesmerist	6	6	occult-adventures	45	present	mesmerist spell list
+ref/spell/charm-monster-mass	Charm Monster, Mass	occultist	6	6	occult-adventures	59	present	occultist spell list
+ref/spell/charm-monster-mass	Charm Monster, Mass	psychic	8	8	occult-adventures	71	present	psychic spell list
+ref/spell/charm-monster-mass	Charm Monster, Mass	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 254) does not list the unchained summoner
+ref/spell/cloak-of-shadows	Cloak of Shadows	spiritualist	5	5	villain-codex	80	add	the spell's own level line
+ref/spell/command-greater	Command, Greater	medium	4	4	occult-adventures	37	present	medium spell list
+ref/spell/command-greater	Command, Greater	mesmerist	4	4	occult-adventures	45	present	mesmerist spell list
+ref/spell/command-greater	Command, Greater	occultist	5	5	occult-adventures	59	present	occultist spell list
+ref/spell/command-greater	Command, Greater	psychic	5	5	occult-adventures	71	present	psychic spell list
+ref/spell/compel-tongue-mass	Mass Compel Tongue	medium	4	4	black-markets	24	add	the spell's own level line
+ref/spell/compel-tongue-mass	Mass Compel Tongue	mesmerist	4	4	black-markets	24	add	the spell's own level line
+ref/spell/confusion-lesser	Confusion, Lesser	medium	1	1	occult-adventures	37	present	medium spell list
+ref/spell/confusion-lesser	Confusion, Lesser	mesmerist	1	1	occult-adventures	45	present	mesmerist spell list
+ref/spell/confusion-lesser	Confusion, Lesser	psychic	1	1	occult-adventures	69	present	psychic spell list
+ref/spell/contact-high	Contact High	mesmerist	3	3	black-markets	19	held-322	the spell's own level line
+ref/spell/covetous-aura	Covetous Aura	bard	5	5	inner-sea-world-guide	294	add	the spell's own level line
+ref/spell/create-demiplane	Create Demiplane	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Ultimate Magic p. 213) gives summoner 6
+ref/spell/curse-of-keeping	Curse of Keeping	mesmerist	2	2	black-markets	30	add	the spell's own level line
+ref/spell/damnation-of-memory	Damnation of Memory	mesmerist	6	6	inner-sea-races	218	add	the spell's own level line
+ref/spell/damnation-of-memory	Damnation of Memory	psychic	9	9	inner-sea-races	218	add	the spell's own level line
+ref/spell/death-pact	Death Pact	mesmerist	5	5	occult-origins	13	add	the spell's own level line
+ref/spell/death-pact	Death Pact	psychic	6	6	occult-origins	13	add	the spell's own level line
+ref/spell/deceitful-veneer	Deceitful Veneer	witch	5	5	ultimate-intrigue	210	add	the spell's own level line
+ref/spell/deft-digits	Deft Digits	unchained summoner	3		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Arcane Anthology p. 19) gives summoner 3
+ref/spell/detect-the-faithful	Detect the Faithful	oracle	1		ultimate-intrigue	212	reject	oracle is not on the the spell's own level line
+ref/spell/dimensional-lock	Dimensional Lock	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 270) does not list the unchained summoner
+ref/spell/discern-location	Discern Location	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 270) does not list the unchained summoner
+ref/spell/dispel-magic-greater	Dispel Magic, Greater	occultist	5	5	occult-adventures	59	present	occultist spell list
+ref/spell/dispel-magic-greater	Dispel Magic, Greater	psychic	6	6	occult-adventures	71	present	psychic spell list
+ref/spell/dispel-magic-greater	Dispel Magic, Greater	spiritualist	6	6	occult-adventures	78	present	spiritualist spell list
+ref/spell/dispel-magic-greater	Dispel Magic, Greater	unchained summoner	5	5	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/dissolution	Dissolution	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Arcane Anthology p. 19) gives summoner 6
+ref/spell/dominate-monster	Dominate Monster	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list
+ref/spell/energy-siege-shot	Energy Siege Shot	unchained summoner	5		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Ultimate Combat p. 228) gives summoner 5
+ref/spell/energy-siege-shot-greater	Greater Energy Siege Shot	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Ultimate Combat p. 229) gives summoner 6
+ref/spell/enlarge-person-mass	Enlarge Person, Mass	psychic	4	4	occult-adventures	70	present	psychic spell list
+ref/spell/enlarge-person-mass	Enlarge Person, Mass	unchained summoner	4	4	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/enlightened-step	Enlightened Step	hunter	6	6	divine-anthology	12	add	hunter spell list rule (Advanced Class Guide p. 26: druid levels to 6, ranger levels, the lower one); the spell's own level line gives druid 6
+ref/spell/enlightened-step	Enlightened Step	oracle	6		divine-anthology	12	reject	oracle is not on the the spell's own level line
+ref/spell/ether-step	Ether Step	summoner	5	5	planar-adventures	40	add	the spell's own level line
+ref/spell/evaluators-lens	Evaluator's Lens	occultist	3	3	black-markets	30	add	the spell's own level line
+ref/spell/evaluators-lens	Evaluator's Lens	unchained summoner	2		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Black Markets p. 30) gives summoner 2
+ref/spell/evolution-surge-greater	Evolution Surge, Greater	unchained summoner	4	4	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/fable-tapestry	Fable Tapestry	medium	4	4	inner-sea-races	219	add	the spell's own level line
+ref/spell/feather-step-mass	Feather Step, Mass	psychic	3	3	occult-adventures	70	present	psychic spell list
+ref/spell/final-sacrifice	Final Sacrifice	unchained summoner	2		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Monster Summoner's Handbook p. 22) gives summoner 2
+ref/spell/firewalkers-meditation	Firewalker's Meditation	hunter	4	4	divine-anthology	12	add	hunter spell list rule (Advanced Class Guide p. 26: druid levels to 6, ranger levels, the lower one); the spell's own level line gives druid 4
+ref/spell/firewalkers-meditation	Firewalker's Meditation	oracle	4		divine-anthology	12	reject	oracle is not on the the spell's own level line
+ref/spell/fleeting-memory	Fleeting Memory	mesmerist	2	2	black-markets	24	add	the spell's own level line
+ref/spell/fleeting-memory	Fleeting Memory	occultist	3	3	black-markets	24	add	the spell's own level line
+ref/spell/fleeting-memory	Fleeting Memory	psychic	3	3	black-markets	24	add	the spell's own level line
+ref/spell/fleeting-memory-mass	Mass Fleeting Memory	mesmerist	5	5	black-markets	25	add	the spell's own level line
+ref/spell/fleeting-memory-mass	Mass Fleeting Memory	occultist	6	6	black-markets	25	add	the spell's own level line
+ref/spell/fleeting-memory-mass	Mass Fleeting Memory	psychic	7	7	black-markets	25	add	the spell's own level line
+ref/spell/fleshwarping-swarm	Fleshwarping Swarm	unchained summoner	3		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Inner Sea Races p. 220) gives summoner 3
+ref/spell/fly-mass	Fly, Mass	psychic	7	7	occult-adventures	71	present	psychic spell list
+ref/spell/fools-teleport	Fool's Teleport	mesmerist	3	3	occult-origins	13	add	the spell's own level line
+ref/spell/fools-teleport	Fool's Teleport	psychic	4	4	occult-origins	13	add	the spell's own level line
+ref/spell/foxs-cunning-mass	Fox's Cunning, Mass	psychic	6	6	occult-adventures	71	present	psychic spell list
+ref/spell/foxs-cunning-mass	Fox's Cunning, Mass	unchained summoner	6	6	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/garden-of-peril	Garden of Peril	unchained summoner	2		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Dirty Tactics Toolbox p. 28) gives summoner 2
+ref/spell/ghostbane-dirge-mass	Ghostbane Dirge, Mass	occultist	5	5	occult-adventures	59	present	occultist spell list
+ref/spell/gird-ally	Gird Ally	unchained summoner	2		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Monster Summoner's Handbook p. 22) gives summoner 2
+ref/spell/globe-of-invulnerability-lesser	Globe Of Invulnerability, Lesser	occultist	4	4	occult-adventures	59	present	occultist spell list
+ref/spell/globe-of-invulnerability-lesser	Globe Of Invulnerability, Lesser	psychic	4	4	occult-adventures	71	present	psychic spell list
+ref/spell/grand-destiny	Grand Destiny	unchained summoner	5		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Arcane Anthology p. 8) gives summoner 5
+ref/spell/grasping-tentacles	Grasping Tentacles	unchained summoner	3		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Dirty Tactics Toolbox p. 30) gives summoner 3
+ref/spell/grease-greater	Greater Grease	unchained summoner	5		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Dirty Tactics Toolbox p. 30) gives summoner 5
+ref/spell/greensight	Greensight	ranger	2	2	ultimate-wilderness	231	add	the spell's own level line
+ref/spell/healing-leak	Healing Leak	sorcerer	3	3	plane-hoppers-handbook	13	add	the spell's own level line
+ref/spell/heroic-fortune-mass	Heroic Fortune, Mass	bard	4	4	advanced-players-guide	324	present	the spell's own level line
+ref/spell/heroism-greater	Heroism, Greater	psychic	6	6	occult-adventures	71	present	psychic spell list
+ref/spell/heroism-greater	Heroism, Greater	spiritualist	6	6	occult-adventures	78	present	spiritualist spell list
+ref/spell/heroism-greater	Heroism, Greater	unchained summoner	6	6	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/hold-monster-mass	Hold Monster, Mass	psychic	9	9	occult-adventures	71	present	psychic spell list
+ref/spell/hold-person-mass	Hold Person, Mass	mesmerist	6	6	occult-adventures	45	present	mesmerist spell list
+ref/spell/hold-person-mass	Hold Person, Mass	psychic	7	7	occult-adventures	71	present	psychic spell list
+ref/spell/hostile-juxtaposition-greater	Greater Hostile Juxtaposition	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list
+ref/spell/human-potential-mass	Mass Human Potential	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Arcane Anthology p. 9) gives summoner 6
+ref/spell/hypnotism-greater	Greater Hypnotism	wizard	4	4	blood-of-the-beast	19	held-322	the spell's own level line
+ref/spell/imbue-with-addiction	Imbue With Addiction	mesmerist	3	3	black-markets	19	add	the spell's own level line
+ref/spell/impenetrable-veil	Impenetrable Veil	witch	9	9	magic-tactics-toolbox	25	add	the spell's own level line
+ref/spell/incendiary-cloud	Incendiary Cloud	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 300) does not list the unchained summoner
+ref/spell/incendiary-runes	Incendiary Runes	occultist	1	1	black-markets	31	add	the spell's own level line
+ref/spell/inflict-light-wounds-mass	Inflict Light Wounds, Mass	occultist	5	5	occult-adventures	59	present	occultist spell list
+ref/spell/inflict-moderate-wounds-mass	Inflict Moderate Wounds, Mass	occultist	6	6	occult-adventures	59	present	occultist spell list
+ref/spell/instant-restoration	Instant Restoration	unchained summoner	4		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Monster Summoner's Handbook p. 22) gives summoner 4
+ref/spell/invigorate-mass	Invigorate, Mass	mesmerist	3	3	occult-adventures	45	present	mesmerist spell list
+ref/spell/invigorate-mass	Invigorate, Mass	psychic	4	4	occult-adventures	71	present	psychic spell list
+ref/spell/invisibility-bubble-giant	Giant Invisibility Bubble	summoner	3		aquatic-adventures	60	reject	the spell's own level line gives summoner (unchained) 3 only, which the entry already has
+ref/spell/invisibility-greater	Invisibility, Greater	medium	3	3	occult-adventures	37	present	medium spell list
+ref/spell/invisibility-greater	Invisibility, Greater	mesmerist	4	4	occult-adventures	45	present	mesmerist spell list
+ref/spell/invisibility-greater	Invisibility, Greater	occultist	4	4	occult-adventures	59	present	occultist spell list
+ref/spell/invisibility-greater	Invisibility, Greater	psychic	4	4	occult-adventures	71	present	psychic spell list
+ref/spell/invisibility-greater	Invisibility, Greater	spiritualist	4	4	occult-adventures	77	present	spiritualist spell list
+ref/spell/invisibility-greater	Invisibility, Greater	unchained summoner	4	4	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/invisibility-mass	Invisibility, Mass	mesmerist	6	6	occult-adventures	45	present	mesmerist spell list
+ref/spell/invisibility-mass	Invisibility, Mass	psychic	7	7	occult-adventures	71	present	psychic spell list
+ref/spell/invisibility-mass	Invisibility, Mass	unchained summoner	6	6	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/lighten-object-mass	Mass Lighten Object	wizard	5	5	inner-sea-gods	236	add	the spell's own level line
+ref/spell/lost-passage	Lost Passage	mesmerist	3	3	inner-sea-races	220	add	the spell's own level line
+ref/spell/lost-passage	Lost Passage	psychic	4	4	inner-sea-races	220	add	the spell's own level line
+ref/spell/mages-crawl-space	Mage's Crawl Space	witch	2	2	heroes-of-the-darklands	9	add	the spell's own level line
+ref/spell/magic-circle-against-good	Magic Circle Against Good	antipaladin	3	3	advanced-players-guide	191	add	antipaladin spell list, "Magic Circle against Good/Law"
+ref/spell/magic-circle-against-law	Magic Circle Against Law	antipaladin	3	3	advanced-players-guide	191	add	antipaladin spell list, "Magic Circle against Good/Law"
+ref/spell/magic-fang-greater	Magic Fang, Greater	spiritualist	3	3	occult-adventures	77	present	spiritualist spell list
+ref/spell/magic-fang-greater	Magic Fang, Greater	unchained summoner	3	3	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/magic-weapon-greater	Magic Weapon, Greater	occultist	3	3	occult-adventures	59	present	occultist spell list
+ref/spell/martial-telekinesis	Martial Telekinesis	occultist	4	4	inner-sea-races	221	add	the spell's own level line
+ref/spell/martial-telekinesis	Martial Telekinesis	psychic	3	3	inner-sea-races	221	add	the spell's own level line
+ref/spell/martial-telekinesis	Martial Telekinesis	spiritualist	4	4	inner-sea-races	221	add	the spell's own level line
+ref/spell/massacre	Massacre	shaman	9	9	horror-adventures	122	add	the spell's own level line
+ref/spell/masters-escape	Master's Escape	unchained summoner	3		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Monster Summoner's Handbook p. 22) gives summoner 3
+ref/spell/masters-mutation	Master's Mutation	unchained summoner	5		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Monster Summoner's Handbook p. 23) gives summoner 5
+ref/spell/maze	Maze	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 312) does not list the unchained summoner
+ref/spell/miasmal-dread	Miasmal Dread	mesmerist	3	3	inner-sea-races	221	add	the spell's own level line
+ref/spell/mind-swap	Mind Swap	unchained summoner	5		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Occult Adventures p. 176) gives summoner 5
+ref/spell/murderous-crow	Murderous Crow	unchained summoner	1		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Inner Sea Races p. 221) gives summoner 1
+ref/spell/naga-shape-2	Naga Shape II	bloodrager	5	5	blood-of-the-beast	19	add	the spell's own level line
+ref/spell/naga-shape-3	Naga Shape III	bloodrager	6	6	blood-of-the-beast	19	add	the spell's own level line
+ref/spell/nauseating-trail	Nauseating Trail	hunter	3		advanced-class-guide	189	reject	the spell's own level line has no druid or ranger level, so the hunter list rule gives no level
+ref/spell/night-blindness	Night Blindness	mesmerist	1	1	black-markets	19	add	the spell's own level line
+ref/spell/night-blindness	Night Blindness	psychic	1	1	black-markets	19	add	the spell's own level line
+ref/spell/night-blindness	Night Blindness	spiritualist	2	2	black-markets	19	add	the spell's own level line
+ref/spell/nondetection-lesser	Lesser Nondetection	hunter	3	3	magic-tactics-toolbox	25	add	hunter spell list rule (Advanced Class Guide p. 26: druid levels to 6, ranger levels, the lower one); the spell's own level line gives ranger 3
+ref/spell/overlook	Overlook	mesmerist	3	3	inner-sea-races	221	add	the spell's own level line
+ref/spell/overlook	Overlook	psychic	4	4	inner-sea-races	221	add	the spell's own level line
+ref/spell/owls-wisdom-mass	Owl's Wisdom, Mass	psychic	6	6	occult-adventures	71	present	psychic spell list
+ref/spell/owls-wisdom-mass	Owl's Wisdom, Mass	unchained summoner	6	6	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/pack-empathy	Pack Empathy	witch	3	3	ultimate-intrigue	221	add	the spell's own level line
+ref/spell/pain-strike-mass	Pain Strike, Mass	psychic	4	4	occult-adventures	71	present	psychic spell list
+ref/spell/pain-strike-mass	Pain Strike, Mass	spiritualist	5	5	occult-adventures	77	present	spiritualist spell list
+ref/spell/peerless-integrity	Peerless Integrity	mesmerist	2	2	black-markets	31	add	the spell's own level line
+ref/spell/peerless-integrity	Peerless Integrity	psychic	2	2	black-markets	31	add	the spell's own level line
+ref/spell/perceive-betrayal	Perceive Betrayal	oracle	6		heroes-of-the-high-court	25	reject	oracle is not on the the spell's own level line
+ref/spell/pesh-vigor	Pesh Vigor	medium	1	1	black-markets	19	add	the spell's own level line
+ref/spell/pesh-vigor	Pesh Vigor	psychic	1	1	black-markets	19	add	the spell's own level line
+ref/spell/pesh-vigor	Pesh Vigor	unchained summoner	1		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Dark Markets - A Guide to Katapesh p. 57) does not list the unchained summoner
+ref/spell/petulengros-validation	Petulengro's Validation	sorcerer	1	1	pathfinder-society-field-guide	58	add	the spell's own level line (sorcerer/wizard 1)
+ref/spell/petulengros-validation	Petulengro's Validation	wizard	1	1	pathfinder-society-field-guide	58	add	the spell's own level line (sorcerer/wizard 1)
+ref/spell/phantom-chariot	Phantom Chariot	unchained summoner	3		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Ultimate Combat p. 239) gives summoner 3
+ref/spell/phasic-challenge	Phasic Challenge	oracle	8		magic-tactics-toolbox	6	reject	oracle is not on the the spell's own level line
+ref/spell/phasic-challenge	Phasic Challenge	psychic	8	8	magic-tactics-toolbox	6	add	the spell's own level line
+ref/spell/planar-adaptation-mass	Planar Adaptation, Mass	occultist	6	6	occult-adventures	59	present	occultist spell list
+ref/spell/planar-adaptation-mass	Planar Adaptation, Mass	psychic	6	6	occult-adventures	71	present	psychic spell list
+ref/spell/planar-adaptation-mass	Planar Adaptation, Mass	unchained summoner	6	6	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/planar-ally-greater	Planar Ally, Greater	psychic	8	8	occult-adventures	71	present	psychic spell list
+ref/spell/planar-ally-lesser	Planar Ally, Lesser	medium	3	3	occult-adventures	37	present	medium spell list
+ref/spell/planar-ally-lesser	Planar Ally, Lesser	psychic	4	4	occult-adventures	71	present	psychic spell list
+ref/spell/planar-binding-greater	Planar Binding, Greater	psychic	8	8	occult-adventures	71	present	psychic spell list
+ref/spell/planar-binding-greater	Planar Binding, Greater	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 321) does not list the unchained summoner
+ref/spell/planar-binding-lesser	Planar Binding, Lesser	medium	4	4	occult-adventures	37	present	medium spell list
+ref/spell/planar-binding-lesser	Planar Binding, Lesser	occultist	5	5	occult-adventures	59	present	occultist spell list
+ref/spell/planar-binding-lesser	Planar Binding, Lesser	psychic	5	5	occult-adventures	71	present	psychic spell list
+ref/spell/planar-binding-lesser	Planar Binding, Lesser	unchained summoner	5	5	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/planar-refuge	Planar Refuge	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Heroes of the Wild p. 31) gives summoner 6
+ref/spell/pocketful-of-vipers	Pocketful of Vipers	ranger	3	3	ultimate-intrigue	222	add	the spell's own level line
+ref/spell/possession	Possession	unchained summoner	5		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Occult Adventures p. 180) gives summoner 5
+ref/spell/pressure-adaptation	Pressure Adaptation	paladin	3	3	aquatic-adventures	61	add	the spell's own level line
+ref/spell/probe-history	Probe History	medium	2	2	inner-sea-races	222	add	the spell's own level line
+ref/spell/probe-history	Probe History	mesmerist	3	3	inner-sea-races	222	add	the spell's own level line
+ref/spell/probe-history	Probe History	occultist	3	3	inner-sea-races	222	add	the spell's own level line
+ref/spell/protection-from-good	Protection from Good	antipaladin	1	1	advanced-players-guide	190	add	antipaladin spell list, "Protection from Good/Law"
+ref/spell/protection-from-good-communal	Communal Protection from Good	paladin	2		ultimate-combat	216	reject	the paladin spell list has communal protection from chaos and from evil only
+ref/spell/protection-from-law	Protection from Law	antipaladin	1	1	advanced-players-guide	190	add	antipaladin spell list, "Protection from Good/Law"
+ref/spell/protection-from-law-communal	Communal Protection from Law	paladin	2		ultimate-combat	216	reject	the paladin spell list has communal protection from chaos and from evil only
+ref/spell/protection-from-spells	Protection from Spells	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list
+ref/spell/punishing-armor	Punishing Armor	unchained summoner	1		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Agents of Evil p. 19) gives summoner 1
+ref/spell/reduce-person-mass	Reduce Person, Mass	psychic	4	4	occult-adventures	71	present	psychic spell list
+ref/spell/reduce-person-mass	Reduce Person, Mass	unchained summoner	4	4	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/rejuvenate-eidolon-greater	Rejuvenate Eidolon, Greater	unchained summoner	5	5	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/restoration-lesser	Restoration, Lesser	mesmerist	2	2	occult-adventures	45	present	mesmerist spell list
+ref/spell/restoration-lesser	Restoration, Lesser	spiritualist	2	2	occult-adventures	77	present	spiritualist spell list
+ref/spell/riding-possession	Riding Possession	unchained summoner	4		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Occult Adventures p. 185) gives summoner 4
+ref/spell/rite-of-bodily-purity	Rite of Bodily Purity	hunter	1	1	divine-anthology	13	add	hunter spell list rule (Advanced Class Guide p. 26: druid levels to 6, ranger levels, the lower one); the spell's own level line gives druid 1, ranger 1
+ref/spell/rite-of-bodily-purity	Rite of Bodily Purity	oracle	1		divine-anthology	13	reject	oracle is not on the the spell's own level line
+ref/spell/rite-of-centered-mind	Rite of Centered Mind	hunter	1	1	divine-anthology	13	add	hunter spell list rule (Advanced Class Guide p. 26: druid levels to 6, ranger levels, the lower one); the spell's own level line gives druid 1
+ref/spell/rite-of-centered-mind	Rite of Centered Mind	oracle	1		divine-anthology	13	reject	oracle is not on the the spell's own level line
+ref/spell/roaming-pit	Roaming Pit	oracle	6		magic-tactics-toolbox	13	reject	oracle is not on the the spell's own level line
+ref/spell/scrying-greater	Scrying, Greater	mesmerist	6	6	occult-adventures	45	present	mesmerist spell list
+ref/spell/scrying-greater	Scrying, Greater	occultist	6	6	occult-adventures	59	present	occultist spell list
+ref/spell/scrying-greater	Scrying, Greater	psychic	7	7	occult-adventures	71	present	psychic spell list
+ref/spell/see-beyond	See Beyond	oracle	3		divine-anthology	13	reject	oracle is not on the the spell's own level line
+ref/spell/seers-bane	Seer's Bane	sorcerer	6	6	pathfinder-102-breaking-the-bones-of-hell	75	add	the spell's own level line (wizard/sorcerer 6)
+ref/spell/seers-bane	Seer's Bane	wizard	6	6	pathfinder-102-breaking-the-bones-of-hell	75	add	the spell's own level line (wizard/sorcerer 6)
+ref/spell/selective-invisibility	Selective Invisibility	unchained summoner	3		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Dirty Tactics Toolbox p. 31) gives summoner 3
+ref/spell/shackle	Shackle	summoner	2	2	adventurers-guide	99	add	the spell's own level line
+ref/spell/shackle	Shackle	unchained summoner	2		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Adventurer's Guide p. 99) gives summoner 2
+ref/spell/shadow-enchantment	Shadow Enchantment	mesmerist	3	3	occult-realms	17	add	the spell's own level line
+ref/spell/shadow-enchantment	Shadow Enchantment	psychic	3	3	occult-realms	17	add	the spell's own level line
+ref/spell/shadow-of-doubt	Shadow of Doubt	mesmerist	4	4	inner-sea-races	222	add	the spell's own level line
+ref/spell/shadow-of-doubt	Shadow of Doubt	psychic	6	6	inner-sea-races	222	add	the spell's own level line
+ref/spell/shadow-of-doubt	Shadow of Doubt	spiritualist	4	4	inner-sea-races	222	add	the spell's own level line
+ref/spell/shadow-transmutation	Shadow Transmutation	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Blood of Shadows p. 30) gives summoner 6
+ref/spell/shadowfade	Shadowfade	magus	1	1	heroes-of-the-darklands	9	add	the spell's own level line
+ref/spell/share-skin-greater	Greater Share Skin	witch	8	8	blood-of-the-moon	11	add	the spell's own level line
+ref/spell/shield-of-wings	Shield of Wings	hunter	3	3	paths-of-the-righteous	9	add	hunter spell list rule (Advanced Class Guide p. 26: druid levels to 6, ranger levels, the lower one); the spell's own level line gives ranger 3
+ref/spell/shout-greater	Shout, Greater	psychic	8	8	occult-adventures	71	present	psychic spell list
+ref/spell/simulacrum	Simulacrum	unchained summoner	5		pathfinder-unchained	39	reject	not on the unchained summoner spell list
+ref/spell/spell-immunity-greater	Spell Immunity, Greater	psychic	8	8	occult-adventures	71	present	psychic spell list
+ref/spell/spellcasting-contract-greater	Greater Spellcasting Contract	oracle	9		pathfinder-29-mother-of-flies	68	reject	the spell's own level line gives cleric 9 (Asmodeus) only
+ref/spell/spirit-bonds	Spirit Bonds	oracle	3		divine-anthology	13	reject	oracle is not on the the spell's own level line
+ref/spell/stabilize-pressure	Stabilize Pressure	paladin	2	2	aquatic-adventures	61	add	the spell's own level line
+ref/spell/suffocation-mass	Suffocation, Mass	psychic	9	9	occult-adventures	71	present	psychic spell list
+ref/spell/suggestion-mass	Suggestion, Mass	mesmerist	5	5	occult-adventures	45	present	mesmerist spell list
+ref/spell/suggestion-mass	Suggestion, Mass	occultist	5	5	occult-adventures	59	present	occultist spell list
+ref/spell/suggestion-mass	Suggestion, Mass	psychic	5	5	occult-adventures	71	present	psychic spell list
+ref/spell/summon-laborers	Summon Laborers	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Monster Summoner's Handbook p. 23) gives summoner 6
+ref/spell/summon-monster-8	Summon Monster VIII	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 352) does not list the unchained summoner
+ref/spell/suppressing-stone	Suppressing Stone	occultist	3	3	inner-sea-races	223	add	the spell's own level line
+ref/spell/sword-to-snake	Sword to Snake	unchained summoner	4		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Dirty Tactics Toolbox p. 29) gives summoner 4
+ref/spell/sympathy	Sympathy	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 357) does not list the unchained summoner
+ref/spell/talisman-of-reprieve	Talisman of Reprieve	oracle	5		plane-hoppers-handbook	12	reject	oracle is not on the the spell's own level line
+ref/spell/teleport-greater	Teleport, Greater	psychic	7	7	occult-adventures	71	present	psychic spell list
+ref/spell/teleport-greater	Teleport, Greater	unchained summoner	6	6	pathfinder-unchained	39	present	unchained summoner spell list
+ref/spell/teleportation-circle	Teleportation Circle	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Core Rulebook p. 359) does not list the unchained summoner
+ref/spell/temporal-regression	Temporal Regression	sorcerer	8	8	legacy-of-the-first-world	31	add	the spell's own level line
+ref/spell/thaumaturgic-circle	Thaumaturgic Circle	unchained summoner	4		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Occult Adventures p. 189) gives summoner 4
+ref/spell/unspoken-name	Unspoken Name	witch	3	3	pathfinder-140-eulogy-for-roslars-coffer	73	add	the spell's own level line
+ref/spell/venomous-bite	Venomous Bite	unchained summoner	2		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Dirty Tactics Toolbox p. 29) gives summoner 2
+ref/spell/venomous-promise	Venomous Promise	mesmerist	3	3	black-markets	25	add	the spell's own level line
+ref/spell/visualization-of-the-body	Visualization of the Body	hunter	2	2	divine-anthology	13	add	hunter spell list rule (Advanced Class Guide p. 26: druid levels to 6, ranger levels, the lower one); the spell's own level line gives druid 2, ranger 2
+ref/spell/visualization-of-the-body	Visualization of the Body	oracle	2		divine-anthology	13	reject	oracle is not on the the spell's own level line
+ref/spell/visualization-of-the-mind	Visualization of the Mind	oracle	2		divine-anthology	14	reject	oracle is not on the the spell's own level line
+ref/spell/walk-through-space	Walk through Space	unchained summoner	6		pathfinder-unchained	39	reject	not on the unchained summoner spell list; the spell's own level line (Ultimate Combat p. 248) gives summoner 6
