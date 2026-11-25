@@ -24,10 +24,13 @@ levels = [
   { class = "Bloodrager", level = 1 },
   { class = "Bard", level = 1 },
   { class = "Cleric", level = 2 },
+  { class = "Mesmerist", level = 1 },
   { class = "Oracle", level = 2 },
+  { class = "Psychic", level = 1 },
   { class = "Shaman", level = 2 },
   { class = "Skald", level = 1 },
   { class = "Sorcerer", level = 1 },
+  { class = "Spiritualist", level = 2 },
   { class = "Warpriest", level = 2 },
   { class = "Witch", level = 1 },
   { class = "Wizard", level = 1 },
@@ -46,8 +49,8 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 1: Antipaladin, Arcanist, Bloodrager, Bard, Skald, Sorcerer, Witch, Wizard\
-2: Cleric, Oracle, Shaman, Warpriest
+Level: 1: Antipaladin, Arcanist, Bloodrager, Bard, Mesmerist, Psychic, Skald, Sorcerer, Witch, Wizard\
+2: Cleric, Oracle, Shaman, Spiritualist, Warpriest
 Casting time: 1 standard action
 Components: V
 Range: medium (100 ft. + 10 ft./level)

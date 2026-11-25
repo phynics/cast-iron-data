@@ -22,10 +22,10 @@ levels = [
   { class = "Hunter", level = 3 },
   { class = "Investigator", level = 3 },
   { class = "Oracle", level = 3 },
+  { class = "Paladin", level = 3 },
   { class = "Psychic", level = 3 },
   { class = "Ranger", level = 3 },
   { class = "Shaman", level = 3 },
-  { class = "Summoner", level = 3 },
   { class = "Unchained Summoner", level = 3 },
   { class = "Warpriest", level = 3 },
 ]
@@ -43,7 +43,7 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 3: Alchemist, Bloodrager, Cleric, Druid, Hunter, Investigator, Oracle, Psychic, Ranger, Shaman, Summoner, Unchained Summoner, Warpriest
+Level: 3: Alchemist, Bloodrager, Cleric, Druid, Hunter, Investigator, Oracle, Paladin, Psychic, Ranger, Shaman, Unchained Summoner, Warpriest
 Casting time: 1 standard action
 Components: V, S, M (slime from a cephalopod)
 Range: touch

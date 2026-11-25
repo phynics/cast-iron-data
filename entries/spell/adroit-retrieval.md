@@ -16,6 +16,7 @@ kind = "spell"
 school = "transmutation"
 levels = [
   { class = "Arcanist", level = 3 },
+  { class = "Occultist", level = 3 },
   { class = "Sorcerer", level = 3 },
   { class = "Wizard", level = 3 },
 ]
@@ -33,7 +34,7 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 3: Arcanist, Sorcerer, Wizard
+Level: 3: Arcanist, Occultist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: touch

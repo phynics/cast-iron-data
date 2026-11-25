@@ -20,6 +20,8 @@ school = "enchantment"
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Bard", level = 5 },
+  { class = "Mesmerist", level = 5 },
+  { class = "Psychic", level = 6 },
   { class = "Skald", level = 5 },
   { class = "Witch", level = 6 },
 ]
@@ -37,8 +39,8 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 5: Bard, Skald\
-6: Witch
+Level: 5: Bard, Mesmerist, Skald\
+6: Psychic, Witch
 Casting time: 1 minute
 Components: V, S, M (a contract signed in blood)
 Range: touch

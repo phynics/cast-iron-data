@@ -24,7 +24,7 @@ levels = [
   { class = "Mesmerist", level = 4 },
   { class = "Psychic", level = 4 },
   { class = "Skald", level = 4 },
-  { class = "Wizard", level = 5 },
+  { class = "Witch", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -42,7 +42,7 @@ title = "Spell statistics"
 School: illusion
 Level: 3: Antipaladin, Medium\
 4: Bard, Inquisitor, Mesmerist, Psychic, Skald\
-5: Wizard
+5: Witch
 Casting time: 1 standard action
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)

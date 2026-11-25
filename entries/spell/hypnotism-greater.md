@@ -28,6 +28,7 @@ levels = [
   { class = "Skald", level = 4 },
   { class = "Sorcerer", level = 4 },
   { class = "Witch", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 round"
 components = "V, S"
@@ -43,7 +44,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 4: Arcanist, Bard, Mesmerist, Occultist, Psychic, Skald, Sorcerer, Witch
+Level: 4: Arcanist, Bard, Mesmerist, Occultist, Psychic, Skald, Sorcerer, Witch, Wizard
 Casting time: 1 round
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)

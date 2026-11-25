@@ -21,6 +21,7 @@ levels = [
   { class = "Arcanist", level = 6 },
   { class = "Magus", level = 5 },
   { class = "Sorcerer", level = 6 },
+  { class = "Summoner", level = 5 },
   { class = "Wizard", level = 6 },
 ]
 casting_time = "1 immediate action"
@@ -37,7 +38,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 5: Magus\
+Level: 5: Magus, Summoner\
 6: Arcanist, Sorcerer, Wizard
 Casting time: 1 immediate action
 Components: S

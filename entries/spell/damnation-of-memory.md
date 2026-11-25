@@ -18,6 +18,8 @@ subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Bard", level = 6 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Psychic", level = 9 },
   { class = "Skald", level = 6 },
 ]
 casting_time = "1 hour"
@@ -34,7 +36,8 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 6: Bard, Skald
+Level: 6: Bard, Mesmerist, Skald\
+9: Psychic
 Casting time: 1 hour
 Components: V, S, F (a massive, flawless gemstone worth 5,000 gp)
 Range: long (400 ft. + 40 ft./level)

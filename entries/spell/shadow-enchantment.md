@@ -19,6 +19,8 @@ descriptors = ["shadow"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
+  { class = "Mesmerist", level = 3 },
+  { class = "Psychic", level = 3 },
   { class = "Skald", level = 3 },
   { class = "Sorcerer", level = 3 },
   { class = "Wizard", level = 3 },
@@ -37,7 +39,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 3: Arcanist, Bard, Skald, Sorcerer, Wizard
+Level: 3: Arcanist, Bard, Mesmerist, Psychic, Skald, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: see text

@@ -22,6 +22,8 @@ kind = "spell"
 school = "abjuration"
 levels = [
   { class = "Arcanist", level = 5 },
+  { class = "Bard", level = 5 },
+  { class = "Skald", level = 5 },
   { class = "Sorcerer", level = 5 },
   { class = "Witch", level = 5 },
   { class = "Wizard", level = 5 },
@@ -40,7 +42,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 5: Arcanist, Sorcerer, Witch, Wizard
+Level: 5: Arcanist, Bard, Skald, Sorcerer, Witch, Wizard
 Casting time: 1 round
 Components: V, S
 Range: personal

@@ -21,7 +21,9 @@ levels = [
   { class = "Cleric", level = 6 },
   { class = "Inquisitor", level = 6 },
   { class = "Oracle", level = 6 },
+  { class = "Sorcerer", level = 6 },
   { class = "Warpriest", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 round"
 components = "V, S"
@@ -37,7 +39,7 @@ spell_resistance = "yes (harmless) (object)"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 6: Cleric, Inquisitor, Oracle, Warpriest
+Level: 6: Cleric, Inquisitor, Oracle, Sorcerer, Warpriest, Wizard
 Casting time: 1 round
 Components: V, S
 Range: touch

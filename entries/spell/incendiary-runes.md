@@ -20,6 +20,7 @@ school = "abjuration"
 descriptors = ["fire"]
 levels = [
   { class = "Arcanist", level = 1 },
+  { class = "Occultist", level = 1 },
   { class = "Sorcerer", level = 1 },
   { class = "Wizard", level = 1 },
 ]
@@ -37,7 +38,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 1: Arcanist, Sorcerer, Wizard
+Level: 1: Arcanist, Occultist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: touch

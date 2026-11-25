@@ -19,6 +19,8 @@ descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 4 },
+  { class = "Mesmerist", level = 3 },
+  { class = "Psychic", level = 4 },
   { class = "Skald", level = 4 },
   { class = "Sorcerer", level = 4 },
   { class = "Wizard", level = 4 },
@@ -37,7 +39,8 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 4: Arcanist, Bard, Skald, Sorcerer, Wizard
+Level: 3: Mesmerist\
+4: Arcanist, Bard, Psychic, Skald, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: long (400 ft. + 40 ft./level)

@@ -18,6 +18,8 @@ subschools = ["Glamer"]
 descriptors = ["glamer"]
 levels = [
   { class = "Arcanist", level = 4 },
+  { class = "Mesmerist", level = 3 },
+  { class = "Psychic", level = 4 },
   { class = "Sorcerer", level = 4 },
   { class = "Wizard", level = 4 },
 ]
@@ -35,7 +37,8 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 4: Arcanist, Sorcerer, Wizard
+Level: 3: Mesmerist\
+4: Arcanist, Psychic, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V
 Range: personal and touch

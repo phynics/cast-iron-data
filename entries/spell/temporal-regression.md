@@ -19,6 +19,7 @@ levels = [
   { class = "Arcanist", level = 8 },
   { class = "Druid", level = 9 },
   { class = "Psychic", level = 8 },
+  { class = "Sorcerer", level = 8 },
   { class = "Witch", level = 8 },
   { class = "Wizard", level = 8 },
 ]
@@ -36,7 +37,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 8: Arcanist, Psychic, Witch, Wizard\
+Level: 8: Arcanist, Psychic, Sorcerer, Witch, Wizard\
 9: Druid
 Casting time: 1 standard action
 Components: V, S, F (hourglass filled with powdered horacalcum worth 1,500 gp)

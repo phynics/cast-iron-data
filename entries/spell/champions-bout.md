@@ -19,6 +19,7 @@ descriptors = ["mind-affecting"]
 levels = [
   { class = "Bard", level = 3 },
   { class = "Cleric", level = 3 },
+  { class = "Mesmerist", level = 3 },
   { class = "Oracle", level = 3 },
   { class = "Skald", level = 3 },
   { class = "Warpriest", level = 3 },
@@ -37,7 +38,7 @@ spell_resistance = "yes (see text)"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 3: Bard, Cleric, Oracle, Skald, Warpriest
+Level: 3: Bard, Cleric, Mesmerist, Oracle, Skald, Warpriest
 Casting time: 1 round
 Components: V, S
 Range: medium (100 ft. + 10 ft./level)

@@ -21,6 +21,7 @@ subschools = ["Polymorph"]
 levels = [
   { class = "Alchemist", level = 5 },
   { class = "Arcanist", level = 5 },
+  { class = "Bloodrager", level = 5 },
   { class = "Investigator", level = 5 },
   { class = "Magus", level = 5 },
   { class = "Sorcerer", level = 5 },
@@ -40,7 +41,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 5: Alchemist, Arcanist, Investigator, Magus, Sorcerer, Wizard
+Level: 5: Alchemist, Arcanist, Bloodrager, Investigator, Magus, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a piece of the creature whose form you want to assume)
 Range: personal

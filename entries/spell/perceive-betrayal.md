@@ -17,6 +17,7 @@ school = "divination"
 levels = [
   { class = "Cleric", level = 6 },
   { class = "Inquisitor", level = 4 },
+  { class = "Oracle", level = 6 },
   { class = "Sorcerer", level = 7 },
   { class = "Witch", level = 6 },
   { class = "Wizard", level = 7 },
@@ -36,7 +37,7 @@ spell_resistance = "no"
 title = "Spell statistics"
 School: divination
 Level: 4: Inquisitor\
-6: Cleric, Witch\
+6: Cleric, Oracle, Witch\
 7: Sorcerer, Wizard
 Casting time: 1 minute
 Components: V, S, M (12 drops of blood), F (a silver circlet worth 500 gp)

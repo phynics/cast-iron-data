@@ -19,6 +19,8 @@ levels = [
   { class = "Arcanist", level = 4 },
   { class = "Cleric", level = 4 },
   { class = "Druid", level = 4 },
+  { class = "Hunter", level = 4 },
+  { class = "Oracle", level = 4 },
   { class = "Paladin", level = 3 },
   { class = "Shaman", level = 4 },
   { class = "Warpriest", level = 4 },
@@ -39,7 +41,7 @@ spell_resistance = "no"
 title = "Spell statistics"
 School: abjuration
 Level: 3: Paladin\
-4: Arcanist, Cleric, Druid, Shaman, Warpriest, Wizard
+4: Arcanist, Cleric, Druid, Hunter, Oracle, Shaman, Warpriest, Wizard
 Casting time: 1 hour
 Components: V, M (soothing incense worth 400 gp)
 Range: personal

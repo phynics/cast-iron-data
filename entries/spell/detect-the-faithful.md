@@ -23,6 +23,7 @@ levels = [
   { class = "Druid", level = 1 },
   { class = "Hunter", level = 1 },
   { class = "Inquisitor", level = 1 },
+  { class = "Oracle", level = 1 },
   { class = "Paladin", level = 1 },
   { class = "Ranger", level = 1 },
   { class = "Shaman", level = 1 },
@@ -42,7 +43,7 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 1: Antipaladin, Cleric, Druid, Hunter, Inquisitor, Paladin, Ranger, Shaman, Warpriest
+Level: 1: Antipaladin, Cleric, Druid, Hunter, Inquisitor, Oracle, Paladin, Ranger, Shaman, Warpriest
 Casting time: 1 standard action
 Components: V, S, DF
 Range: 60 ft.
