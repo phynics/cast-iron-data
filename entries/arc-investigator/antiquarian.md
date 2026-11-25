@@ -18,7 +18,7 @@ page = "16"
 kind = "archetype"
 features = [
   { anchor = "relic-magic" },
-  { anchor = "item-lore" },
+  { anchor = "item-lore", level = 2 },
   { anchor = "curse-resistance", level = 2 },
   { anchor = "swift-search", level = 4 },
 ]

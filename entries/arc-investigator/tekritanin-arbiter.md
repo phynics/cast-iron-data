@@ -18,8 +18,8 @@ page = "33"
 kind = "archetype"
 features = [
   { anchor = "tekritanin", level = 1 },
-  { anchor = "expert-mediator" },
-  { anchor = "hidden-meaning" },
+  { anchor = "expert-mediator", level = 2 },
+  { anchor = "hidden-meaning", level = 2 },
   { anchor = "fluent-speaker", level = 3 },
 ]
 trades = [

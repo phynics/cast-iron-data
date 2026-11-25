@@ -2652,6 +2652,10 @@ LEVEL_IN_FIRST_PARAGRAPH = {
     ("ref/arc-paladin/empyreal-knight", "celestial-heart"),
     ("ref/arc-rogue/pirate", "unflinching"),
     ("ref/arc-paladin/divine-hunter", "precise-shot"),
+    # Blood of the Ancients: a flavor sentence, then "At 2nd level, he ..." in the first paragraph
+    ("ref/arc-investigator/antiquarian", "item-lore"),
+    ("ref/arc-investigator/tekritanin-arbiter", "expert-mediator"),
+    ("ref/arc-investigator/tekritanin-arbiter", "hidden-meaning"),
 }
 
 
