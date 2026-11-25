@@ -16,13 +16,22 @@ page = "41"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "class-skills" },
+  { anchor = "favored-nation" },
+  { anchor = "rumor-empathy", level = 1 },
+  { anchor = "favored-terrain", level = 3 },
+  { anchor = "hobnob", level = 4 },
+  { anchor = "dandy-spells", level = 4 },
+  { anchor = "party-crasher", level = 7 },
+]
 trades = [
-  { replaces = "Favored enemy", feature = "favored-enemy" },
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { alters = "Favored terrain", feature = "favored-terrain" },
-  { alters = "Hunter's bond", feature = "hunter-s-bond" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Favored enemy", feature = "favored-enemy", by = ["favored-nation"] },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["rumor-empathy"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["party-crasher"] },
+  { alters = "Favored terrain", feature = "favored-terrain", by = ["favored-terrain"] },
+  { alters = "Hunter's bond", feature = "hunter-s-bond", by = ["hobnob"] },
+  { alters = "Spellcasting", feature = "spells", by = ["dandy-spells"] },
 ]
 +++
 
@@ -31,99 +40,86 @@ of noble courts, the whispers of dark rumors, and the customs of the cultured wo
 is still a ranger at heart, and he hunts for rumors and gossip throughout the grand ballrooms of the
 wealthy and powerful just as most rangers hunt for enemies in the wilderness.
 
-**Gained class skills:** bluff, diplo, kl, kno, sm
+## Class Skills {#class-skills}
 
-**Lost class skills:** ha, kd, kg, kna, sur
+A dandy adds Bluff, Diplomacy, Knowledge (local), Knowledge (nobility), and Sense Motive to his list
+of class skills, instead of Handle Animal, Knowledge (dungeoneering), Knowledge (geography),
+Knowledge (nature), and Survival.
 
-**Favored Nation (Ex)**
+This alters the ranger's class skills.
 
-**Ability:** A dandy can attempt the appropriate Knowledge checks untrained to identify such people
-from the selected country.
+## Favored Nation (Ex) {#favored-nation}
 
-**Choice:** Each time he would select a _favored enemy,_ a dandy instead selects a country with
-whose courtly graces he is wholly versed and studied. He gains a +2 bonus on Bluff, Diplomacy,
-Knowledge, Perception, Sense Motive, and Survival checks against courtiers, officials, nobles, and
-gentry from that nation. Likewise, he gains a +2 bonus on weapon attack and damage rolls against
-them.
+Each time he would select a favored enemy, a dandy instead selects a country with whose courtly
+graces he is wholly versed and studied. He gains a +2 bonus on Bluff, Diplomacy, Knowledge,
+Perception, Sense Motive, and Survival checks against courtiers, officials, nobles, and gentry from
+that nation. Likewise, he gains a +2 bonus on weapon attack and damage rolls against them.
 
-**Replaces:** Favored enemy
+A dandy can attempt the appropriate Knowledge checks untrained to identify such people from the
+selected country. A dandy gains additional favored nations, and can increase the bonuses of one of
+his current favored nations, in the same way he would with a normal ranger's favored enemy.
 
-**Special:** A dandy gains additional favored nations, and can increase the bonuses of one of his
-current favored nations, in the same way he would with a normal ranger's _favored enemy._
+This ability replaces favored enemy.
 
-**Rumor Empathy (Ex)**
-
-**Action:** Ability
-
-**Replaces:** Wild empathy
+## Rumor Empathy (Ex) {#rumor-empathy}
 
 A dandy can alter the flow and spread of [rumors](ref/rule/rumors) in his favor. This functions
-similarly to _wild empathy,_ except that it takes 1 day (8 hours of work), instead of 1 minute, and
-it affects the general tenor of a rumor instead of a wild animal.
+similarly to wild empathy, except that it takes 1 day (8 hours of work), instead of 1 minute, and it
+affects the general tenor of a rumor instead of a wild animal.
 
-A successful _rumor empathy_ check allows the dandy to increase or decrease the rumor's tone by one
+A successful rumor empathy check allows the dandy to increase or decrease the rumor's tone by one
 step. For example, he could make an indifferent rumor friendly and thus positive toward its target,
 or an unfriendly rumor hostile and thus even more negative toward its target than it was originally.
 
-The difficulty of influencing a rumor depends on the size of the community in which it is spreading.
-The DC of the check is 15 in a village or smaller settlement. This DC increases by 5 and the number
-of days required to attempt the check increases by 2 for every
-[settlement size category](ref/rule/settlements-and-districts) larger than a village - to a maximum
-of DC 40 and 11 days to affect a rumor spreading through an entire metropolis.
+The difficulty of inf luencing a rumor depends on the size of the community in which it is
+spreading. The DC of the check is 15 in a village or smaller settlement. This DC increases by 5 and
+the number of days required to attempt the check increases by 2 for every
+[settlement size category](ref/rule/settlements-and-districts) larger than a village—to a maximum of
+DC 40 and 11 days to affect a rumor spreading through an entire metropolis.
 
 If the rumor is only spreading through a smaller segment of the population, such as the elven
 district in a larger metropolis, use the population of that smaller segment to determine the DC and
-number of days of work required to use _rumor empathy._ The DC also increases by 10 if the rumor is
+number of days of work required to use rumor empathy. The DC also increases by 10 if the rumor is
 about the dandy himself, since the dandy is obviously a biased source with respects to rumors about
 his own person.
 
-**Favored Terrain (Ex)**
+This ability replaces wild empathy.
 
-**Ability:** A dandy gains _favored terrain (urban),_ and though the ability continues to increase
-at the same levels, he doesn't add additional terrains.
+## Favored Terrain (Ex) {#favored-terrain}
 
-**Alters:** Favored terrain
+At 3rd level, a dandy gains favored terrain (urban), and though the ability continues to increase at
+the same levels, he doesn't add additional terrains. However, at 8th level, whenever he is at a
+courtly function or party, his favored terrain bonuses increase by an additional 2.
 
-**At 8th Level:** Whenever he is at a courtly function or party, his _favored terrain_ bonuses
-increase by an additional 2.
+This ability alters favored terrain.
 
-**Gained:** At 3rd Level
+## Hobnob (Ex) {#hobnob}
 
-**Hobnob (Ex)**
+At 4th level, a dandy must choose his allies as his hunter's bond, not an animal companion. In
+addition to the usual hunter's bond ability, the dandy can spend 10 minutes at a particular event or
+party hobnobbing and introducing his allies to the right people in order to provide them with half
+the skill bonuses of his favored nation (though not the bonuses on attack and damage rolls) for the
+duration of the event.
 
-**Ability:** In addition to the usual _hunter's bond_ ability, the dandy can spend 10 minutes at a
-particular event or party hobnobbing and introducing his allies to the right people in order to
-provide them with half the skill bonuses of his favored nation (though not the bonuses on attack and
-damage rolls) for the duration of the event.
+This ability alters hunter's bond.
 
-**Alters:** Hunter's bond
+## Dandy Spells (Su) {#dandy-spells}
 
-**Info:** A dandy must choose his allies as his _hunter's bond,_ not an animal companion.
+At 4th level, the dandy gains a different sort of spellcasting than most rangers. A dandy uses his
+Charisma instead of his Wisdom to determine spells per day, DCs, and other factors related to
+spellcasting. He casts spells spontaneously from the bard spell list (rather than the ranger spell
+list) with the same number of spells known and spells per day as a [medium](ref/class/medium) of his
+ranger level.
 
-**Gained:** At 4th Level
+This ability alters the ranger's spellcasting.
 
-**Dandy Spells (Su)**
+## Party Crasher (Ex) {#party-crasher}
 
-**Alters:** Spellcasting
+At 7th level, the dandy is able to finagle his way into fancy parties, kings' balls, and other
+social events meant for the cream of society. To do so, he must attempt a DC 25 Diplomacy check,
+which takes 1d4 hours. If he succeeds, he finds himself an invitation, an invitee looking for a
+date, a staff member willing to look the other way, or some other way to enter the party. This does
+not allow him to break into restricted areas or to infiltrate strictly closed gatherings, such as
+secret meetings; it only allows him access to social events.
 
-**Flavor:** The dandy gains a different sort of spellcasting than most rangers.
-
-**Info:** A dandy uses his Charisma instead of his Wisdom to determine spells per day, DCs, and
-other factors related to spellcasting. He casts spells spontaneously from the bard spell list
-(rather than the ranger spell list) with the same number of spells known and spells per day as a
-[medium](ref/class/medium) of his ranger level.
-
-**Gained:** At 4th Level
-
-**Party Crasher (Ex)**
-
-**Ability:** The dandy is able to finagle his way into fancy parties, kings' balls, and other social
-events meant for the cream of society. To do so, he must attempt a DC 25 Diplomacy check, which
-takes 1d4 hours. If he succeeds, he finds himself an invitation, an invitee looking for a date, a
-staff member willing to look the other way, or some other way to enter the party. This does not
-allow him to break into restricted areas or to infiltrate strictly closed gatherings, such as secret
-meetings; it only allows him access to social events.
-
-**Gained:** At 7th Level
-
-**Replaces:** Woodland stride
+This ability replaces woodland stride.

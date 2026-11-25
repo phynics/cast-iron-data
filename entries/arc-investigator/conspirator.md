@@ -16,11 +16,15 @@ page = "33"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "underhanded" },
+  { anchor = "watcher-sense", level = 3 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Trap sense", feature = "trap-sense" },
-  { replaces = "investigator talent gained at 7th level", feature = "investigator-talent", levels = [7] },
-  { alters = "Inspiration", feature = "inspiration" },
+  { replaces = "Trapfinding", feature = "trapfinding", by = ["underhanded"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["watcher-sense"] },
+  { replaces = "investigator talent gained at 7th level", feature = "investigator-talent", levels = [7], by = ["watcher-sense"] },
+  { alters = "Inspiration", feature = "inspiration", by = ["underhanded"] },
 ]
 +++
 
@@ -29,40 +33,31 @@ his rivals perform, carefully plotting acts of intrigue behind closed doors. Par
 conspirator always seems to know when someone else is watching him, and he takes numerous
 precautions to prevent anyone from observing his most illict actions.
 
-**Underhanded (Ex)**
+## Underhanded (Ex) {#underhanded}
 
-**Ability:** A conspirator can use _inspiration_ on any Bluff, Disable Device, Disguise, Intimidate,
-and Sleight of Hand check without expending a use of _inspiration,_ provided he is trained in the
-skill, instead of on any Knowledge, Linguistics, and Spellcraft check. He can later choose to trade
-an investigator talent for the ability to use _inspiration_ on any Knowledge, Linguistics, and
-Spellcraft check without expending a use of inspirtation, provided he is trained in the skill.
+Conspirators find their skill sets firmly aligned with the goals of the criminal underworld. At 1st
+level, a conspirator can use inspiration on any Bluff, Disable Device, Disguise, Intimidate, and
+Sleight of Hand check without expending a use of inspiration, provided he is trained in the skill,
+instead of on any Knowledge, Linguistics, and Spellcraft check. He can later choose to trade an
+investigator talent for the ability to use inspiration on any Knowledge, Linguistics, and Spellcraft
+check without expending a use of inspirtation, provided he is trained in the skill. A conspirator
+adds half his investigator level (minimum 1) on Bluff checks to appear innocent and on Disguise
+checks.
 
-**Alters:** Inspiration
+This ability replaces trapfinding and alters inspiration.
 
-**Flavor:** Conspirators find their skill sets firmly aligned with the goals of the criminal
-underworld.
+## Watcher Sense (Ex) {#watcher-sense}
 
-**Gained:** At 1st Level
+At 3rd level, a conspirator is able to sense when someone else is watching him. He gains a +1 bonus
+on Perception checks to notice [scrying](ref/spell/scrying) sensors,
+_[prying eyes](ref/spell/prying-eyes)_, and other magical effects used to watch him, as well as on
+Perception checks to act on the surprise round. This bonus increases by 1 at 6th level and every 3
+investigator levels thereafter.
 
-**Passive:** A conspirator adds half his investigator level (minimum 1) on Bluff checks to appear
-innocent and on Disguise checks.
-
-**Replaces:** Trapfinding
-
-**Watcher Sense (Ex)**
-
-**Ability:** A conspirator is able to sense when someone else is watching him. He gains a bonus on
-Perception checks to notice [scrying](ref/spell/scrying) sensors,
-[prying eyes](ref/spell/prying-eyes), and other magical effects used to watch him, as well as on
-Perception checks to act on the surprise round. This bonus is equal to one-third of his investigator
-level.
-
-**At 7th Level:** If a scrying sensor is invisible, the invisibility does not increase the DC of the
-conspirator's Perception check to notice it, regardless of whether or not he is using an ability
-that allows him to see invisible things. The DC for his Perception check is equal to 20 + the
-spell's level (with no +20 increase to the Perception DC for a moving invisible sensor or no +40
+Additionally, at 7th level, if a scrying sensor is invisible, the invisibility does not increase the
+DC of the conspirator's Perception check to notice it, regardless of whether or not he is using an
+ability that allows him to see invisible things. The DC for his Perception check is equal to 20 +
+the spell's level (with no +20 increase to the Perception DC for a moving invisible sensor or no +40
 increase for an immobile invisible sensor).
 
-**Gained:** At 3rd Level
-
-**Replaces:** Trap sense, investigator talent gained at 7th level
+This ability replaces trap sense and the investigator talent gained at 7th level.

@@ -16,9 +16,18 @@ page = "67"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "black-asp-s-path" },
+  { anchor = "forbidden-powers" },
+  { anchor = "black-asp-venom" },
+  { anchor = "empty-mind" },
+  { anchor = "greater-hidden-magic" },
+  { anchor = "hidden-magic" },
+  { anchor = "shifting-form" },
+]
 trades = [
-  { replaces = "Stunning fist", feature = "stunning-fist" },
-  { replaces = "still mind", feature = "still-mind" },
+  { replaces = "Stunning fist", feature = "stunning-fist", by = ["black-asp-s-path"] },
+  { replaces = "still mind", feature = "still-mind", by = ["black-asp-s-path"] },
 ]
 +++
 
@@ -27,59 +36,54 @@ for weapons to achieve their goals. Through meditation and study, they learn how
 any magics they choose to employ, and even empty their minds of thought to protect themselves from
 divinations.
 
-**Black Asp's Path (Ex)**
+## Black Asp's Path (Ex) {#black-asp-s-path}
 
-**Ability:** A black asp is trained in the use of poison and cannot accidentally poison himself when
-applying poison to a weapon or when rolling a natural 1 on an attack roll with a poisoned weapon.
-
-**At 3rd Level:** The black asp's ability to use poison improves. He gains
+A black asp is trained in the use of poison and cannot accidentally poison himself when applying
+poison to a weapon or when rolling a natural 1 on an attack roll with a poisoned weapon. At 3rd
+level, the black asp's ability to use poison improves. He gains
 [Adder Strike](ref/feat/adder-strike) as a bonus feat even if he does not meet the prerequisites.
 
-**Replaces:** Stunning fist, still mind
+This ability replaces stunning fist and still mind.
 
-**Forbidden Powers (Su)**
+## Forbidden Powers (Su) {#forbidden-powers}
 
-**Ability:** A black asp can select a _forbidden ki power_ in place of any of the following monk
-class abilities: _slow fall_ (4th), _high jump_ (5th), _wholeness of body_ (7th), _diamond body_
-(11th), _abundant step_ (12th), _diamond soul_ (13th), _quivering palm_ (15th), _tongue of the sun
-and moon_ (17th), and _empty body_ (19th). If he chooses to do so, he replaces the monk class
-ability the black asp gives up for the chosen _forbidden ki power._ The black asp can select any of
-the following _forbidden ki powers._
+A black asp can select a forbidden ki power in place of any of the following monk class abilities
+(or as a ki power if he is an unchained monk): slow fall (4th), high jump (5th), wholeness of body
+(7th), diamond body (11th), abundant step (12th), diamond soul (13th), quivering palm (15th), tongue
+of the sun and moon (17th), and empty body (19th). If he chooses to do so, he replaces the monk
+class ability the black asp gives up for the chosen forbidden ki power. The black asp can select any
+of the following forbidden ki powers.
 
-**Black Asp Venom (Su)**
+## Black Asp Venom (Su) {#black-asp-venom}
 
-**Prereq:** 12th-level monk
+As a swift action, a black asp with this ki power can [poison](ref/spell/poison) his unarmed strike
+or a weapon in his hand. The poison lasts for 1 minute or until expended. A creature damaged by the
+poisoned weapon is affected as per the _poison_ spell. The save DC is equal to 10 + 1/2 the black
+asp's monk level + his Wisdom modifier. Each use of this ability costs 2 ki points. A black asp must
+be at least 12th level before selecting this ki power.
 
-**Swift:** A black asp with this ki power can poison his unarmed strike or a weapon in his hand. The
-poison lasts for 1 minute or until expended. A creature damaged by the poisoned weapon is affected
-as per the [poison](ref/spell/poison) spell. The save DC is equal to 10 + 1/2 the black asp's monk
-level + his Wisdom modifier. Each use of this ability costs 2 ki points.
+## Empty Mind (Sp) {#empty-mind}
 
-**Hidden Magic (Sp)**
+A black asp with this ki power can choose to lower the number of ki points in his ki pool by 3 when
+he recovers his ki points for the day. If he does so, he gains the benefits of
+_[mind blank](ref/spell/mind-blank)_ for 24 hours. A black asp must be at least 16th level and
+possess the greater hidden magic ki power before selecting this ki power.
 
-**Immediate:** The black asp can spend 1 ki point to hide the auras of all magic items he is
-carrying (as if they were all under [magic aura](ref/spell/magic-aura)) for 1 hour per monk level.
+## Greater Hidden Magic (Sp) {#greater-hidden-magic}
 
-**Greater Hidden Magic (Sp)**
+As long as he has at least 1 point in his ki pool, all of the black asp's items are constantly under
+the effects of _[magic aura](ref/spell/magic-aura)_. As an immediate action, he can spend 2 ki
+points to cause himself and any magic items he is carrying to appear to be nonmagical for 1 hour per
+monk level. A black asp must be at least 8th level and possess the hidden magic ki power before
+selecting this ki power.
 
-**Immediate:** He can spend 2 ki points to cause himself and any magic items he is carrying to
-appear to be nonmagical (as if he had cast [greater magic aura](ref/spell/magic-aura-greater)) for 1
-hour per monk level.
+## Hidden Magic (Sp) {#hidden-magic}
 
-**Passive:** As long as he has at least 1 point in his _ki pool,_ all of the black asp's items are
-constantly under the effects of _[magic aura](ref/spell/magic-aura)._
+As an immediate action, the black asp can spend 1 ki point to hide the auras of all magic items he
+is carrying (as if they were all under _[magic aura](ref/spell/magic-aura)_) for 1 hour per monk
+level.
 
-**Prereq:** 8th-level monk, _hidden magic_ ki power
+## Shifting Form (Su) {#shifting-form}
 
-**Empty Mind (Sp)**
-
-**Ability:** A black asp with this ki power can choose to lower the number of ki points in his _ki
-pool_ by 3 when he recovers his ki points for the day. If he does so, he gains the benefits of
-[mind blank](ref/spell/mind-blank) for 24 hours.
-
-**Prereq:** 16th-level monk, _greater hidden magic_ ki power
-
-**Shifting Form (Su)**
-
-**Immediate:** A black asp can spend 1 ki point to make his outline shift and waver for 1 round.
-This ability otherwise functions as per the spell [blur](ref/spell/blur).
+As an immediate action, a black asp can spend 1 ki point to make his outline shift and waver for 1
+round. This ability otherwise functions as per the spell _[blur](ref/spell/blur)_.

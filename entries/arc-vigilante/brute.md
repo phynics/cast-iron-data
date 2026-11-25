@@ -16,62 +16,62 @@ page = "54"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "chaotic-vigilante" },
+  { anchor = "brutish-fortitude" },
+  { anchor = "brute-form", level = 1 },
+  { anchor = "brute-talents" },
+  { anchor = "awesome-blow" },
+  { anchor = "heavy-punches" },
+  { anchor = "scale-surroundings" },
+  { anchor = "sizing-equipment" },
+  { anchor = "total-destruction" },
+  { anchor = "tear-them-apart", level = 20 },
+]
 trades = [
-  { replaces = "Vigilante specialization", feature = "vigilante-specialization" },
-  { replaces = "Vengeance strike", feature = "vengeance-strike" },
-  { alters = "Dual identity", feature = "dual-identity" },
-  { alters = "Base saving throws" },
+  { replaces = "Vigilante specialization", feature = "vigilante-specialization", by = ["brute-form"] },
+  { replaces = "Vengeance strike", feature = "vengeance-strike", by = ["tear-them-apart"] },
+  { alters = "Dual identity", feature = "dual-identity", by = ["chaotic-vigilante"] },
+  { alters = "Base saving throws", by = ["brutish-fortitude"] },
   { alters = "Armor and weapon proficiencies", feature = "weapon-and-armor-proficiencies" },
-  { alters = "Vigilante talents", feature = "vigilante-talent" },
+  { alters = "Vigilante talents", feature = "vigilante-talent", by = ["brute-talents"] },
 ]
 +++
 
 Either through the results of magical experimentation or bizarre natural sparks, some vigilantes can
 transform into brutish versions of themselves, becoming larger, more terrifying in appearance, and
-far more formidable in combat - though at a price.
+far more formidable in combat—though at a price.
 
-**Chaotic Vigilante (Ex)**
+## Chaotic Vigilante (Ex) {#chaotic-vigilante}
 
-**Alters:** Dual identity
+A brute's vigilante alignment must be chaotic, and his vigilante identity and his social identity
+must be within one step of each other on the alignment axis.
 
-**Info:** A brute's vigilante alignment must be chaotic, and his vigilante identity and his social
-identity must be within one step of each other on the alignment axis.
+This ability alters dual identity.
 
-**Brutish Fortitude (Ex)**
+## Brutish Fortitude (Ex) {#brutish-fortitude}
 
-**Alters:** Base saving throws
+A brute's base Fortitude save bonus from his vigilante levels is equal to 2 + half his vigilante
+level, and his base Reflex and Will save bonuses are equal to 1/3 his vigilante level.
 
-**Info:** A brute's base Fortitude save bonus from his vigilante levels is equal to 2 + half his
-vigilante level, and his base Reflex and Will save bonuses are equal to 1/3 his vigilante level.
+This ability alters the vigilante's base saving throws.
 
-**Weapon and Armor Proficiency**
+## Weapon and Armor Proficiency {#weapon-and-armor-proficiency}
 
-**Alters:** Armor and weapon proficiencies
-
-**Info:** A brute isn't proficient with medium armor or martial weapons. However, he gains
+A brute isn't proficient with medium armor or martial weapons. However, he gains
 [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat.
 
-**Brute Form (Ex)**
+This alters the vigilante's armor and weapon proficiencies.
 
-**Action:** Ability
-
-**At 5th Level:** While in his vigilante identity, the brute gains a +1 bonus on melee attack and
-damage rolls.
-
-**Replaces:** Vigilante specialization
-
-At 13th level: This bonus increases to +2.
-
-At 19th level: This bonus increases to +3.
+## Brute Form (Ex) {#brute-form}
 
 Though it is sometimes difficult to maintain, a brute has a measure of control over his abilities.
 
 While in his vigilante identity, a brute becomes one size category larger, gaining no ability score
 adjustments but otherwise gaining [all adjustments](ref/rule/adding-racial-hit-dice) for his new
-size, including [additional reach](ref/rule/big-and-little-creatures-in-combat), if appropriate.
-
-A brute's vigilante identity is savage and dangerous. While in his vigilante identity, the brute
-takes a -2 penalty to AC, as well as to all ability checks and skill checks that rely on Charisma,
+size, including [additional reach](ref/rule/big-and-little-creatures-in-combat), if appropriate. A
+brute's vigilante identity is savage and dangerous. While in his vigilante identity, the brute takes
+a -2 penalty to AC, as well as to all ability checks and skill checks that rely on Charisma,
 Dexterity, or Intelligence. Furthermore, the brute cannot use any Charisma-, Dexterity-, or
 Intelligence-based skill (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires
 patience or concentration (such as spellcasting).
@@ -81,17 +81,21 @@ must succeed at a Will save (DC = 20 + 1/2 his vigilante level) or enter his vig
 Entering his vigilante identity in this way is a horrifying and painful process that takes 1 full
 round, during which he is [flat-footed](ref/rule/flat-footed), and it typically allows his enemies
 to see his transformation and learn his identity. The brute's vigilante identity can't always tell
-friend from foe. While he still attacks enemies preferentially during a battle, when there are no
-more enemies around, each round he must succeed at a Will save (DC = 20 + 1/2 his vigilante level)
-or continue fighting against his allies or bystanders. Allies can use the
-[aid another](ref/rule/aid-another) action to assist this saving throw with skills like Diplomacy,
-as they attempt to calm him down. On a successful save, he slowly turns back to his social identity
-over the course of 1 minute (or shorter if he has a social talent that reduces that time).
+friend from foe.
+
+While he still attacks enemies preferentially during a battle, when there are no more enemies
+around, each round he must succeed at a Will save (DC = 20 + 1/2 his vigilante level) or continue
+fighting against his allies or bystanders. Allies can use the [aid another](ref/rule/aid-another)
+action to assist this saving throw with skills like Diplomacy, as they attempt to calm him down. On
+a successful save, he slowly turns back to his social identity over the course of 1 minute (or
+shorter if he has a social talent that reduces that time).
 
 A brute uses his vigilante level as his base attack bonus, but only while he is in his vigilante
-identity. He uses his normal base attack bonus to qualify for feats and other abilities, although
-when in his vigilante identity, he uses his increased base attack bonus to determine the effects of
-feats (such as [Power Attack](ref/feat/power-attack)) and other abilities.
+identity. At 5th level, while in his vigilante identity, the brute gains a +1 bonus on melee attack
+and damage rolls. This bonus increases to +2 at 13th level and to +3 at 19th level. He uses his
+normal base attack bonus to qualify for feats and other abilities, although when in his vigilante
+identity, he uses his increased base attack bonus to determine the effects of feats (such as
+[Power Attack](ref/feat/power-attack)) and other abilities.
 
 A brute's mundane clothes and armor do not increase in size with him, and any such items he wears
 while changing into his vigilante identity lose one-quarter of their hit points. Magical clothes and
@@ -117,109 +121,76 @@ unconscious. In this state, a brute can be healed as normal (and, if he has 0 hi
 returns to consciousness after receiving any amount of magical healing or a DC 15 Heal check), but
 he cannot enter his vigilante identity for 1 hour.
 
-**Brute Talents**
+This ability replaces vigilante specialization.
 
-**Alters:** Vigilante talents
+## Brute Talents {#brute-talents}
 
-**Info:** A brute can select from any of the following vigilante talents, in addition to general
-vigilante talents.
+A brute can select from any of the following vigilante talents, in addition to general vigilante
+talents.
 
-**Awesome Blow (Ex)**
+This alters vigilante talents.
 
-**Ability:** He gains the [Awesome Blow](ref/feat/awesome-blow) monster feat as a bonus feat, but
-only while in his vigilante identity. He can ignore the feat's prerequisites. His _awesome blow_
-combat maneuver deals an amount of damage equal to 1d6 plus his Strength modifier, or his unarmed
-strike damage, whichever is better.
+## Awesome Blow (Ex) {#awesome-blow}
 
-**Flavor:** The brute has learned that his body is his most formidable weapon.
-
-**At 16th Level:** The brute can use Awesome Blow against a creature of any size, and he can
+The brute has learned that his body is his most formidable weapon. He gains the
+[Awesome Blow](ref/feat/awesome-blow) monster feat as a bonus feat, but only while in his vigilante
+identity. He can ignore the feat's prerequisites. His awesome blow combat maneuver deals an amount
+of damage equal to 1d6 plus his Strength modifier, or his unarmed strike damage, whichever is
+better. At 16th level, the brute can use Awesome Blow against a creature of any size, and he can
 [bull rush](ref/rule/bull-rush), [drag](ref/rule/drag), [reposition](ref/rule/reposition), and
-[trip](ref/rule/trip) creatures of any size.
+[trip](ref/rule/trip) creatures of any size. A brute must be at least 8th level to select this
+talent.
 
-**Prereq:** 8th-level vigilante
+## Heavy Punches (Ex) {#heavy-punches}
 
-**Heavy Punches (Ex)**
+The brute eschews civilized combat and prefers to wade into a fight with his fists swinging. While
+in his vigilante identity, the brute's unarmed strikes deal damage as if he were a
+[monk](ref/class/monk) of his size and vigilante level. If he has levels in other classes that
+provide monk advancement for unarmed strike damage, his vigilante level stacks with those levels
+whenever he is in his vigilante identity.
 
-**Ability:** While in his vigilante identity, the brute's unarmed strikes deal damage as if he were
-a [monk](ref/class/monk) of his size and vigilante level.
+## Scale Surroundings (Ex) {#scale-surroundings}
 
-**Flavor:** The brute eschews civilized combat and prefers to wade into a fight with his fists
-swinging.
+Instead of letting physical barriers stop him, the brute can simply climb over them. He gains a
+climb speed of 30 feet when he is in his vigilante identity. A brute must be at least 4th level to
+select this talent.
 
-**At 1st Level:** Your unarmed strike deals 1d6 (Medium) or 1d8 (Large) damage.
+## Sizing Equipment (Ex) {#sizing-equipment}
 
-**At 12th Level:** Your unarmed strike now deals 2d6 (Medium) or 3d6 (Large) damage.
+The brute has learned how to adjust his magic armor so that it provides him some protection while in
+his vigilante identity. Magic armor the brute wears that is sized for his social identity provides
+an armor bonus equal to its normal armor bonus - 1 while he is in his vigilante identity. In
+addition, wielding a magic weapon properly sized for his social identity deals damage as if it were
+a magic weapon properly sized for his vigilante identity, but it imposes a -1 penalty on attack
+rolls. At 6th level, he takes no penalties when using such weapons and armor, and his weapons and
+armor work in all ways (including damage dice) as if they were of the vigilante's new size. This
+talent only applies to magic arms and armor; inappropriately sized mundane arms and armor are not
+affected.
 
-**At 16th Level:** Your unarmed strike now deals 2d8 (Medium) or 3d8 (Large) damage.
+## Total Destruction (Ex) {#total-destruction}
 
-**At 20th Level:** Your unarmed strike now deals 2d10 (Medium) or 4d8 (Large) damage.
+The brute is adept at rampaging through an area, throwing whatever is available at his opponents.
+The brute gains [Throw Anything](ref/feat/throw-anything) as a bonus feat. As a standard action,
+while in his vigilante identity, he can throw any unattended object up to two size categories
+smaller than he is up to 60 feet if he is Medium and 80 feet if he is Large. This deals 1d6 points
+of bludgeoning damage if he is Medium or 1d8 if he is Large, and the brute adds 1-1/2 times his
+Strength modifier to this damage. At 8th level, he can also throw a creature up to two size
+categories smaller than himself, but he must succeed at a combat maneuver check against that
+creature's CMD to do so. The thrown creature lands [prone](ref/rule/prone) and takes an amount of
+damage equal to the damage dealt to the target of the throw (as noted above), whether the brute hits
+or misses. At 16th level, he can instead throw an object one size category larger than himself at
+creatures within a 10-foot radius from the object's point of impact. These creatures must succeed at
+a Reflex save (DC = 10 + 1/2 the brute's vigilante level + his Strength modifier) or take 1d6 points
+of damage per vigilante level.
 
-**At 4th Level:** Your unarmed strike now deals 1d8 (Medium) or 2d6 (Large) damage.
+## Tear Them Apart (Ex) {#tear-them-apart}
 
-**At 8th Level:** Your unarmed strike now deals 1d10 (Medium) or 2d8 (Large) damage.
-
-**Special:** If he has levels in other classes that provide monk advancement for unarmed strike
-damage, his vigilante level stacks with those levels whenever he is in his vigilante identity.
-
-**Scale Surroundings (Ex)**
-
-**Ability:** He gains a climb speed of 30 feet when he is in his vigilante identity.
-
-**Flavor:** Instead of letting physical barriers stop him, the brute can simply climb over them.
-
-**Prereq:** 4th-level vigilante
-
-**Sizing Equipment (Ex)**
-
-**Flavor:** The brute has learned how to adjust his magic armor so that it provides him some
-protection while in his vigilante identity.
-
-**At 6th Level:** He takes no penalties when using such weapons and armor, and his weapons and armor
-work in all ways (including damage dice) as if they were of the vigilante's new size.
-
-**Passive:** Magic armor the brute wears that is sized for his social identity provides an armor
-bonus equal to its normal armor bonus - 1 while he is in his vigilante identity. In addition,
-wielding a magic weapon properly sized for his social identity deals damage as if it were a magic
-weapon properly sized for his vigilante identity, but it imposes a -1 penalty on attack rolls.
-
-**Special:** This talent only applies to magic arms and armor; inappropriately sized mundane arms
-and armor are not affected.
-
-**Total Destruction (Ex)**
-
-**Ability:** The brute gains [Throw Anything](ref/feat/throw-anything) as a bonus feat.
-
-**Flavor:** The brute is adept at rampaging through an area, throwing whatever is available at his
-opponents.
-
-**At 16th Level:** He can instead throw an object one size category larger than himself at creatures
-within a 10-foot radius from the object's point of impact. These creatures must succeed at a Reflex
-save (DC = 10 + 1/2 the brute's vigilante level + his Strength modifier) or take 1d6 points of
-damage per vigilante level.
-
-**At 8th Level:** He can also throw a creature up to two size categories smaller than himself, but
-he must succeed at a combat maneuver check against that creature's CMD to do so. The thrown creature
-lands [prone](ref/rule/prone) and takes an amount of damage equal to the damage dealt to the target
-of the throw (as noted above), whether the brute hits or misses.
-
-**Standard:** While in his vigilante identity, he can throw any unattended object up to two size
-categories smaller than he is up to 60 feet if he is Medium and 80 feet if he is Large. This deals
-1d6 points of bludgeoning damage if he is Medium or 1d8 if he is Large, and the brute adds 1-1/2
-times his Strength modifier to this damage.
-
-**Tear Them Apart (Ex)**
-
-**Ability:** When he takes a full attack action while in his vigilante identity, if a brute hits an
+At 20th level, a brute has learned how to tear at his enemies' bodies when he hits with multiple
+attacks. When he takes a full attack action while in his vigilante identity, if a brute hits an
 opponent with at least two attacks, he deals an additional 1d10 points of damage plus 1-1/2 times
 his Strength modifier. If he hits an opponent with four attacks during a full attack action while in
 his vigilante identity, he instead deals an additional 3d10 points of damage plus 1-1/2 times his
 Strength modifier. The damage occurs after he has taken his last attack with the full attack action.
 This counts as a [rend](ref/umr/rend) and does not stack with other abilities that grant rend.
 
-**Flavor:** A brute has learned how to tear at his enemies' bodies when he hits with multiple
-attacks.
-
-**Gained:** At 20th Level
-
-**Replaces:** Vengeance strike
+This ability replaces vengeance strike.

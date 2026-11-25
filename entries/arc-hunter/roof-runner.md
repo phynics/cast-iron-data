@@ -16,11 +16,19 @@ page = "65"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "skilled" },
+  { anchor = "natural-leaper", level = 2 },
+  { anchor = "shingle-stride", level = 5 },
+  { anchor = "alley-ghost", level = 8 },
+  { anchor = "master-climber", level = 20 },
+  { anchor = "new-wild-talents-kineticist" },
+]
 trades = [
-  { replaces = "Track", feature = "track" },
-  { replaces = "Woodland stride", feature = "woodland-stride" },
-  { replaces = "Swift tracker", feature = "swift-tracker" },
-  { alters = "Master hunter", feature = "master-hunter" },
+  { replaces = "Track", feature = "track", by = ["natural-leaper"] },
+  { replaces = "Woodland stride", feature = "woodland-stride", by = ["shingle-stride"] },
+  { replaces = "Swift tracker", feature = "swift-tracker", by = ["alley-ghost"] },
+  { alters = "Master hunter", feature = "master-hunter", by = ["master-climber"] },
 ]
 +++
 
@@ -28,45 +36,104 @@ Roof runners are skilled ambushers, skirmishers, and spies who eschew heavier ty
 order to remain light on their feet. They lurk in the shadows of the rooftops to find people or
 houses to rob, though some use their specialized skills for nobler purposes.
 
-**Gained class skills:** acro, ea, soh
+## Skilled (Ex) {#skilled}
 
-**Skilled (Ex)**
+A roof runner adds Acrobatics, Escape Artist, and Sleight of Hand to her list of class skills.
 
-**Passive:** A roof runner does not have proficiency with medium armor and shields.
+This alters the hunter's class skills and replaces the hunter's proficiency with medium armor and
+shields.
 
-**Natural Leaper (Ex)**
+## Natural Leaper (Ex) {#natural-leaper}
 
-**Gained:** At 2nd Level
-
-**Passive:** A roof runner adds [half](ref/misc/fractions-and-rounding) her hunter level on
+At 2nd level, a roof runner adds [half](ref/misc/fractions-and-rounding) her hunter level on
 Acrobatics checks to jump.
 
-**Replaces:** Track
+This ability replaces track.
 
-**Shingle Stride (Ex)**
+## Shingle Stride (Ex) {#shingle-stride}
 
-**Ability:** A roof runner and her animal companion can move at full speed without penalty when
+At 5th level, a roof runner and her animal companion can move at full speed without penalty when
 using Acrobatics to cross narrow or uneven surfaces, and climb at half speed (instead of one-quarter
-speed) without taking the - 5 penalty.
+speed) without taking the -5 penalty.
 
-**Gained:** At 5th Level
+This ability replaces woodland stride.
 
-**Replaces:** Woodland stride
+## Alley Ghost (Ex) {#alley-ghost}
 
-**Alley Ghost (Ex)**
-
-**Ability:** A roof runner gains the benefits of the [fast stealth](ref/talent/fast-stealth) rogue
+At 8th level, a roof runner gains the benefits of the [fast stealth](ref/talent/fast-stealth) rogue
 talent.
 
-**Gained:** At 8th Level
+This ability replaces swift tracker.
 
-**Replaces:** Swift tracker
+## Master Climber (Ex) {#master-climber}
 
-**Master Climber (Ex)**
-
-**Ability:** A roof runner gains a climb speed equal to her base land speed, instead of being able
+At 20th level, a roof runner gains a climb speed equal to her base land speed, instead of being able
 to move at full speed while tracking.
 
-**Alters:** Master hunter
+This ability alters master hunter.
 
-**Gained:** At 20th Level
+## NEW WILD TALENTS (KINETICIST) {#new-wild-talents-kineticist}
+
+While many kineticists specialize in blasting their foes, some of a kineticist's powers are quite
+useful in an intrigue-based game, particularly the following five wild talents. EARTHMELD Element
+earth; Type utility (Sp); Level 4; Burn 0 Prerequisite earth climb You meld a creature into stone,
+where it can listen to conversations without being detected. This functions as the _meld into stone_
+spell, except it can work on any willing creature, not just you, and it lasts for 10 minutes per
+kineticist level or until you use earthmeld again. The melded creature, not you, decides when to
+step out of the stone. You can accept 1 point of burn to increase the duration of an earthmeld until
+the next time you recover burn. Such increased earthmelds don't end if you use earthmeld again,
+allowing you to maintain multiple earthmelds. FLAME TRAP Element fire; Type utility (Sp); Level 2;
+Burn 0 You lay a fiery trap on a container, ensuring the destruction of sensitive documents while
+punishing those who would steal your secrets. In order to weave the trap, you must spend 10 minutes
+in contact with the container you wish to trap. At the end of that time, the container is trapped
+until the next time you use this wild talent or until it triggers. Any creature other than you who
+opens the container takes damage as from your fire blast (or blue flame blast, if you have it). The
+damage affects the creature automatically if it is touching the container, but if it opens the
+container from within 30 feet, it can attempt a Reflex save to negate the damage, and if it opens
+the container from farther still, it takes no damage. Whether or not the creature that opened the
+container takes damage, your kinetic blast damage also affects any items within the container that
+you choose, as well as the container, if you wish it, and leaves all other items undamaged. This
+counts as a magical trap with a Perception and Disable Device DC equal to 10 + your kineticist
+level + your Dexterity modifier. You can accept 1 point of burn when using flame trap to make a new
+trap without dismissing any previous traps. If you do, the trap lasts until the next time you
+recover burn. TOUCHSIGHT, SPYING Element aether; Type utility (Sp); Level 4; Burn 0 Prerequisite
+touchsight You attach a sticky strand of invisible aether to a target and then project your senses
+along the strand, allowing you to spy on that target. Attaching the strand of aether requires a
+ranged touch attack, but if you activate this ability while your target is under the effect of your
+touchsight, you can use the strands from your touchsight instead. Once you have activated spying
+touchsight, you can concentrate on it to spy on your target with any of your five senses (though
+your own body no longer benefits from the senses you project); the strand lasts as long you
+concentrate, though you can switch which senses you are projecting each round. A creature using _see
+invisibility_ or a similar effect can notice the trailing strand of aether and follow it back to
+you. A creature can break your spying touchsight by dispelling it, but otherwise, the only way to
+break the strand is if one of you uses a teleportation effect, moves more than 1 mile from the
+other, or is completely blocked from the other in all directions (such as if one of you were inside
+a _telekinetic sphere_). VOICE OF THE WIND, GREATER Element air; Type utility (Sp); Level 2; Burn 0
+Prerequisite voice of the wind Your voice of the wind ability gains both power and finesse. You can
+use voice of the wind to create unusual sounds, as _ghost sound_, to throw your voice, as
+_ventriloquism_, and even to alter your voice, as _vocal alteration_. You can send messages at a
+much greater distance than before and at a faster rate. When using voice of the wind's _whispering
+wind_ effect, you can choose to have the wind rise high into the sky, where it can gust at 50 miles
+per hour before descending to deliver the message. While the gust is still small, abnormal wind that
+fast is noticeable, unlike the normal gentle zephyr from _whispering wind_. If you choose to use the
+faster gust, you can deliver a message as far as 50 miles per kineticist level, instead of 1 mile
+per kineticist level. WATERSENSE, GREATER Element water; Type utility (Su); Level 5; Burn 0
+Prerequisite watersense You project your watersense outward through the tides and water around you,
+allowing you to spy on others at a distance. You can take 10 minutes to project your senses,
+choosing a location within 480 feet that is connected to your current location via the same
+continuous body of water, or you can take 1 hour to attempt to spy on a specific creature within 1
+mile per kineticist level that is visible from a location connected to your current location via the
+same continuous body of water. In the latter case, the creature receives a Will save as per
+_scrying_ (including bonuses and penalties based on connection and knowledge); a target that saves
+is immune to your greater watersense for 24 hours. In either case, an extremely thin funnel of
+water, lasting for 1 minute per kineticist level, carries light and sound to your location, where
+your target area or location appears in the water next to you and you can view it as if through a
+_scrying_ sensor, allowing you to both see and hear the area immediately surrounding the other end
+of the funnel. In the case of a distance greater than 480 feet, the sound comes 1 round later than
+its corresponding visual information for every mile away you are (for instance, if you were 5 miles
+away, you would see your target start talking 5 rounds before you heard what it said). When you are
+tracking a creature, the funnel moves as best it can through the water to follow that creature, up
+to 150 feet per round, but the target can escape by simply moving away from the water. If you also
+possess the voice of the wind wild talent, you can use its _message_ effect to send your voice
+through the funnel with a delay of 1 round per mile. This wild talent is a divination and scrying
+effect.
