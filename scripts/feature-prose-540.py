@@ -506,7 +506,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     s = s.replace("\u00ad", "")
-    s = re.sub(r"(?<=[a-z])/ (?=[a-z])", "/", s)                                   # "law/" at a line end, "chaos" on the next
+    s = re.sub(r"(?<=[A-Za-z0-9])/ (?=[A-Za-z0-9])", "/", s)                       # "law/" at a line end, "chaos" on the next ("DR 5/", "cold iron"; "1/", "round")
     s = re.sub(r"(?<=[A-Za-z" + I_CLOSE + r"]) +(?=['\u2019]s\b)", "", s)         # "thief 's" (kerning of an italic or bold run)
     s = re.sub("\ufffd(?=\\d)", "\u00d7", s)             # a multiplication sign that the extraction lost ("a x2 becomes a x3")
     s = re.sub(r"(?<![\w)\]])–(?=\d)", "-", s)           # a minus sign
@@ -514,6 +514,8 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = fix_ligatures(s, vocab)
     s = fix_hyphens(s, vocab)
     s = re.sub("(?<=[A-Za-z0-9)_])\u2014 +(?=\\S)", "\u2014", s)   # a line that ends in an em dash joins the next one without a blank ("DR 5/\u2014 against" keeps its blank)
+    # an italic run of marks only (", " or "." between two words) is plain text: the period of "possession (see page 181)." is not italic
+    s = re.sub(I_OPEN + r"([\s,.;:!?]+)" + I_CLOSE, r"\1", s)
     # the extraction pads italic runs with blanks
     s = re.sub(I_OPEN + r"\s+", " " + I_OPEN, s)
     s = re.sub(r"\s+" + I_CLOSE, I_CLOSE + " ", s)
@@ -913,7 +915,7 @@ def _trade_matches(text: str) -> list:
     out = []
     for m in TRADE_SENTENCE.finditer(text):
         at = m.start(1)
-        if re.match(r"alters?\s+self\b", text[m.start(2):], re.I):      # R19: "functions as alter self" is the spell, not a verb
+        if re.match(r"alter\s+self(?![-\w])", text[m.start(2):], re.I):      # R19: "functions as alter self" is the spell, not a verb ("alters self" and "alter self-" are not skipped, as in the app)
             continue
         if at >= 2 and text[at - 2] == ")" and text[at - 3:at - 2] in ".!?":
             before = text[:at - 2]
@@ -934,7 +936,7 @@ def _op_of(verb: str) -> str:
 def _clean_phrase(phrase: str) -> str:
     phrase = phrase.strip().rstrip(".").strip()
     phrase = re.sub(r",\s+but\b.*$", "", phrase)                              # R8: the phrase ends at ", but "
-    phrase = re.sub(r",\s+and\s+counts?\s+as\b.*$", "", phrase)               # R17: ", and counts as" ends the phrase
+    phrase = re.sub(r",\s+and\s+(?:it\s+)?counts?\s+as\b.*$", "", phrase)    # R17: ", and counts as" and ", and it counts as" end the phrase
     # R9 and R18: a parenthesis of 4+ words is an aside, at the end of the phrase or inside it
     phrase = re.sub(r"\s*\(([^()]*)\)", lambda m: "" if len(m.group(1).split()) >= 4 else m.group(0), phrase)
     return phrase.strip().rstrip(".").strip()
@@ -1870,7 +1872,8 @@ def join_wrapped(raw_paras: list[str], vocab: set[str]) -> list[str]:
         if not s:
             continue
         if paras and not re.search(r"(?:[.!?:;]|[.!?]\))\s*$", paras[-1].rstrip().removesuffix(I_CLOSE)):
-            joined = fix_hyphens(paras[-1].rstrip() + " " + s, vocab)
+            gap = "" if re.search(r"[A-Za-z0-9]/$", paras[-1].rstrip()) else " "      # a slash at a line end joins the next word ("DR 5/" "cold iron")
+            joined = fix_hyphens(paras[-1].rstrip() + gap + s, vocab)
             joined = re.sub(I_CLOSE + r"\s+" + I_OPEN + r"(?=[,;.)])", "", joined)      # an italic run that a line end cut
             paras[-1] = re.sub(I_CLOSE + r"\s+" + I_OPEN, " ", joined)
         else:
@@ -2868,16 +2871,24 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             elif (e.id, r["anchor"]) in LEVEL_ONE_REPLACES:
                 r["level"] = 1
                 r["notes"].append("level 1 (ruling 35): replaces " + ", ".join(trade_name(t)[1] for t in mine) + ", a 1st-level feature of the class (the class table lists it as `Blessing (minor)`)")
-            elif mine and r["level_import"] in (None, 1):
-                # ruling 11: the feature replaces features that the base class gains at 1st level
+            elif mine:
+                # ruling 11: the feature replaces features that the base class gains at 1st level. Print states no level here, so
+                # the import's level (a line of the feature's own text, "At 2nd Level: ...") does not stop the rule (final review of
+                # batch 3); a differing import level is the hold below, which a hand decision settles.
                 firsts = []
                 for t in mine:
                     cls = t.get("class") or (e.classes[0] if e.classes else "")
-                    firsts.append(bool(cls) and first_level_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache))
+                    # a trade of the 1st level: its `levels` include 1, or its name states "1st" ("bonus feats gained at 1st, 2nd,
+                    # and 6th levels", "1st-, 7th-, and 15th-level deeds"), or the class table lists it at 1st level
+                    firsts.append(1 in (t.get("levels") or ()) or bool(re.search(r"\b1st\b", trade_name(t)[1]))
+                                  or (bool(cls) and first_level_key(trade_name(t)[1]) in class_first_level(corpus, cls, class_cache)))
                 # ruling 35: level 1 when any feature that it replaces is a 1st-level feature, even if it also replaces later ones
                 if any(f and trade_name(t)[0] == "replaces" for f, t in zip(firsts, mine)):
                     r["level"] = 1
-                    r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine if trade_name(t)[0] == "replaces") + ", of which one is gained at 1st level in the class table")
+                    named = any(f and (1 in (t.get("levels") or ()) or re.search(r"\b1st\b", trade_name(t)[1])) for f, t in zip(firsts, mine))
+                    r["notes"].append("level 1: replaces " + ", ".join(trade_name(t)[1] for t in mine if trade_name(t)[0] == "replaces")
+                                      + (", of which one is gained at 1st level (the printed level of the trade, or the class table)" if named
+                                         else ", of which one is gained at 1st level in the class table"))
         if r["level"] is not None and r["level_import"] is not None and r["level"] != r["level_import"] and r["status"] != "hold" \
                 and (e.id, r["anchor"]) not in decisions:
             r["status"] = "hold"
@@ -3403,6 +3414,13 @@ def self_test() -> int:
     eq(trade_sentences("This ability functions like alter self, except as noted here. This ability alters alchemy."),
        [("alters", "alchemy", False)], "R19 'alter self' is the spell")
     eq(trade_sentences("This ability functions as alter self, beast shape IV, or giant form II, as appropriate."), [], "R19 no verb at all")
+    eq(trade_sentences("This ability replaces arcane pool, and it counts as arcane pool for feats."), [("replaces", "arcane pool", False)], "R17 ', and it counts as'")
+    eq(trade_sentences("This ability alters self, except as noted here."), [("alters", "self, except as noted here", False)], "R19 'alters self' is not skipped")
+    eq(trade_sentences("This ability alters self-sufficiency."), [("alters", "self-sufficiency", False)], "R19 'self-' is not skipped")
+    eq(finish_text("gain DR 5/ cold iron and 1/ round for law/ chaos", set()), "gain DR 5/cold iron and 1/round for law/chaos", "a slash at a line end joins the next word")
+    eq(join_wrapped(["At 12th level, fey eidolons gain DR 5/", "cold iron. They also grow wings, gaining"], set()), ["At 12th level, fey eidolons gain DR 5/cold iron. They also grow wings, gaining"], "a slash at a line end joins the next line of a narrow column")
+    eq(finish_text("as \x01possession\x02 (see page 181)\x01.\x02 To use", set()), "as \x01possession\x02 (see page 181). To use", "the period of an italic run of its own is plain")
+    eq(finish_text("a \x01conductive\x02\x01, \x02\x01defending\x02", set()), "a \x01conductive\x02, \x01defending\x02", "a comma between italic words is plain")
     eq(trade_sentences("Sermonic performance replaces inspire courage.", ""), [], "R12 without the heading it is prose")
     eq(trade_sentences("This ability replaces tactician and changes the cavalier's feats.")[0][1], "tactician and changes the cavalier's feats", "ruling 25: a second `changes` is no verb")
     eq(trade_sentences("This ability changes the Arcane Pool class feature and replaces the magus arcana gained at 3rd level."),

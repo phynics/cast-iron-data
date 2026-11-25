@@ -17,7 +17,7 @@ page = "52"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "daring-teamwork" },
+  { anchor = "daring-teamwork", level = 1 },
   { anchor = "charmed-guardian", level = 2 },
   { anchor = "interfering-blade", level = 3 },
   { anchor = "deeds" },

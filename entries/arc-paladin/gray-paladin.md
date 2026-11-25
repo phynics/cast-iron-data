@@ -17,7 +17,7 @@ page = "69"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "weakened-grace" },
+  { anchor = "weakened-grace", level = 1 },
   { anchor = "code-of-conduct" },
   { anchor = "enhanced-health", level = 3 },
   { anchor = "smite-foe", level = 4 },

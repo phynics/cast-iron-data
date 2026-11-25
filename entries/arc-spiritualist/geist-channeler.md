@@ -97,7 +97,7 @@ to be continuous, but must be spent in 1-minute increments.
 ### Malevolent Possession (Sp) {#malevolent-possession}
 
 At 17th level, a geist channeler's phantom can invade the bodies of other creatures. This functions
-as _[possession](ref/spell/possession)_ (see page 181)_._ To use this ability, the phantom must be
+as _[possession](ref/spell/possession)_ (see page 181). To use this ability, the phantom must be
 adjacent to the target. The target can resist the effect with a successful Will save (DC = 10 + 1/2
 the phantom's Hit Dice + the phantom's Charisma modifier). The phantom can use this ability once per
 day.

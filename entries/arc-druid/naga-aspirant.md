@@ -134,7 +134,7 @@ ability more than once. Its effects stack.
 ### Venomous Bite (Ex) {#venomous-bite}
 
 The naga form's bite attack becomes poisonous. Bite—injury; _save_ Fortitude DC 10 + 1/2 the druid's
-class level + the druid's Constitution modifier; _frequency_ 1/ round for 6 rounds; _effect_ 1
+class level + the druid's Constitution modifier; _frequency_ 1/round for 6 rounds; _effect_ 1
 Constitution damage, _cure_ 1 save.
 
 ## True Naga (Su) {#true-naga}

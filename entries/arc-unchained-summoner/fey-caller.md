@@ -96,7 +96,7 @@ _[silent image](ref/spell/silent-image)_, _[obscuring mist](ref/spell/obscuring-
 _[vanish](ref/spell/vanish)_ as a spell-like ability three times per day, and they can select an
 additional spell-like ability from the 1st-level list.
 
-At 12th level, fey eidolons gain DR 5/ cold iron. They also grow gossamer wings, gaining the
+At 12th level, fey eidolons gain DR 5/cold iron. They also grow gossamer wings, gaining the
 [flight](ref/unchevolution/flight) evolution.
 
 At 16th level, fey eidolons gain the ability to use either

@@ -67,6 +67,6 @@ make it appear as if the ally was using an activated ability of her own.
 At 5th level, the vizier doesn't provoke attacks of opportunity when using power behind the throne,
 as if under the effects of a constant _[illusion of calm](ref/spell/illusion-of-calm)_. A creature
 that disbelieves this second effect becomes immune to that vizier's
-_[illusion of calm](ref/spell/illusion-of-calm)_ for 24 hours_._
+_[illusion of calm](ref/spell/illusion-of-calm)_ for 24 hours.
 
 This ability replaces towering ego and mental potency.

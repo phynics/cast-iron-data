@@ -49,7 +49,7 @@ enigma's next turn, the enigma gains the effects of [concealment](ref/rule/conce
 creature (unless it can see invisible creatures). Starting on the enigma's next turn, he gains the
 effect of _[invisibility](ref/spell/invisibility)_ against that creature. These effects last as long
 as the enigma continues to use his hypnotic stare, but if he takes an action that would end
-_invisibility_, it ends his hypnotic stare immediately_._ The enigma can reinstate this effect
+_invisibility_, it ends his hypnotic stare immediately. The enigma can reinstate this effect
 whenever he wishes, but each time it begins with 1 round of concealment. At 8th level, attacks that
 would end _invisibility_ do not end the enigma's hypnotic stare, and after 1 round of concealment,
 he gains the benefits of _[greater invisibility](ref/spell/invisibility-greater)_ against the target
