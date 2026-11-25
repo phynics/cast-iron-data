@@ -16,41 +16,48 @@ page = "119"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "spells", level = 1 },
+  { anchor = "psychic-meddler", level = 2 },
+  { anchor = "phrenic-dabbler", level = 3 },
+  { anchor = "investigator-talents" },
+]
 trades = [
-  { replaces = "Alchemy", feature = "alchemy" },
-  { replaces = "Poison lore", feature = "poison-lore" },
-  { replaces = "poison resistance", feature = "poison-resistance", levels = [2, 5, 8] },
-  { replaces = "swift alchemy", feature = "swift-alchemy" },
-  { replaces = "poison immunity", feature = "poison-resistance", levels = [11] },
-  { replaces = "Investigator talent gained at 3rd level", feature = "investigator-talent", levels = [3] },
-  { alters = "Investigator talents", feature = "investigator-talent" },
+  { replaces = "Alchemy", feature = "alchemy", by = ["spells"] },
+  { replaces = "Poison lore", feature = "poison-lore", by = ["psychic-meddler"] },
+  { replaces = "poison resistance", feature = "poison-resistance", levels = [2, 5, 8], by = ["psychic-meddler"] },
+  { replaces = "swift alchemy", feature = "swift-alchemy", by = ["psychic-meddler"] },
+  { replaces = "poison immunity", feature = "poison-resistance", levels = [11], by = ["psychic-meddler"] },
+  { replaces = "Investigator talent gained at 3rd level", feature = "investigator-talent", levels = [3], by = ["phrenic-dabbler"] },
+  { alters = "Investigator talents", feature = "investigator-talent", by = ["investigator-talents"] },
 ]
 +++
 
 A psychic detective supplements her keen insight with occult skill to unravel mysteries both
 ordinary and supernatural.
 
-**Lost class skills:** acro, climb, perf
+## Class Skills {#class-skills}
 
-**Spells**
+The psychic detective does not receive Acrobatics, Climb, or Perform as class skills. This alters
+the investigator's class skills.
 
-**Action:** Ability
+## Spells {#spells}
 
-A psychic detective casts psychic spells drawn from the psychic class spell list and augmented by a
-select set of additional spells (see _Psychic Detective Spells_ below). Only spells from the psychic
-class spell list of 6th level or lower and psychic detective spells are considered to be part of the
-psychic detective's spell list. If a spell appears on both the psychic detective and psychic class
-spell lists, the psychic detective uses the spell level from the psychic detective spell list. She
-can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, a psychic
-detective must have an Intelligence score equal to at least 10 + the spell's level. The saving throw
-DC against a psychic detective's spell is 10 + the spell's level + the psychic detective's
-Intelligence modifier.
+A psychic detective casts psychic spells drawn from the psychic class spell list (see page 69) and
+augmented by a select set of additional spells (see Psychic Detective Spells on page 120). Only
+spells from the psychic class spell list of 6th level or lower and psychic detective spells are
+considered to be part of the psychic detective's spell list. If a spell appears on both the psychic
+detective and psychic class spell lists, the psychic detective uses the spell level from the psychic
+detective spell list. She can cast any spell she knows without preparing it ahead of time. To learn
+or cast a spell, a psychic detective must have an Intelligence score equal to at least 10 + the
+spell's level. The saving throw DC against a psychic detective's spell is 10 + the spell's level +
+the psychic detective's Intelligence modifier.
 
 Like other spellcasters, a psychic detective can cast only a certain number of spells of each spell
 level per day. She knows the same number of spells and receives the same number of spells slots per
 day as a [bard](ref/class/bard) of her investigator level, and knows and uses 0-level knacks as a
 bard uses cantrips. In addition, she receives [bonus spells per day](ref/rule/determine-bonuses) if
-she has a high Intelligence score.
+she has a high Intelligence score (see Table 1–3 on page 17 of the _Core Rulebook_).
 
 At 5th level and every 3 levels thereafter, a psychic detective can choose to learn a new spell in
 place of one she already knows, using the same rules as a bard. In effect, the psychic detective
@@ -62,68 +69,45 @@ A psychic detective need not prepare her spells in advance. She can cast any psy
 she knows at any time, assuming she has not yet used up her allotment of spells per day for the
 spell's level.
 
-**Psychic Detective Spells**
+### Psychic Detective Spells {#psychic-detective-spells}
 
-**Info:** A psychic detective has the following spells on her spell list, in addition to psychic
-spells of 6th level or lower.
+A psychic detective has the following spells on her spell list, in addition to psychic spells of 6th
+level or lower.
 
-**Replaces:** Alchemy
+1st—_Detect chaos_, _detect evil_, _detect good_, _detect law_, _find traps_.
 
-**Spells:** Detect chaos, detect evil, detect good, detect law, find traps
+3rd—_Calm spirit_, _daylight_.
 
-**Spells:** Calm spirit, daylight
+4th—_Modify memory_.
 
-**Spells:** Modify memory
+6th—_Banishment_, _moment of prescience_, _scrying (greater)_.
 
-**Spells:** Banishment, moment of prescience, greater scrying
+This ability replaces alchemy.
 
-**Psychic Meddler (Su)**
+## Psychic Meddler (Su) {#psychic-meddler}
 
-**At 5th Level:** In addition, the psychic investigator now adds
-[half](ref/misc/fractions-and-rounding) this bonus on caster level checks to dispel psychic effects.
+At 2nd level, a psychic detective receives a +1 bonus on saves against psychic spells and
+[spell-like abilities](ref/umr/spell-like-abilities). This bonus increases by 1 at 5th level and
+every 3 levels thereafter, to a maximum of +6 at 17th level. Starting at 5th level, the psychic
+investigator adds [half](ref/misc/fractions-and-rounding) this bonus on caster level checks to
+dispel psychic effects. This ability replaces poison lore, poison resistance, swift alchemy, and
+poison immunity.
 
-**Gained:** At 2nd Level
+## Phrenic Dabbler (Su) {#phrenic-dabbler}
 
-**Passive:** A psychic detective receives a +1 bonus on saves against psychic spells and
-[spell-like abilities](ref/umr/spell-like-abilities).
+At 3rd level, a [psychic](ref/class/psychic) detective gains a small pool of phrenic points equal to
+1/2 her psychic detective level, as well as one phrenic amplification, as the psychic class feature.
+This does not allow the psychic detective to qualify for the
+[Extra Amplification](ref/feat/extra-amplification) feat. This ability replaces the investigator
+talent gained at 3rd level.
 
-**Replaces:** Poison lore, poison resistance, swift alchemy, poison immunity
+## Investigator Talents {#investigator-talents}
 
-At 5th level: This bonus increases to +2.
-
-At 8th level: This bonus increases to +3.
-
-At 11th level: This bonus increases to +4.
-
-At 14th level: This bonus increases to +5.
-
-At 17th level: This bonus increases to +6.
-
-At 20th level: This bonus increases to +7.
-
-**Phrenic Dabbler (Su)**
-
-**Ability:** A psychic detective gains a small pool of phrenic points equal to 1/2 her psychic
-detective level, as well as one phrenic amplification, as the [psychic](ref/class/psychic) class
-feature. This does not allow the psychic detective to qualify for the
-[Extra Amplification](ref/feat/extra-amplification) feat.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Investigator talent gained at 3rd level
-
-**Investigator Talents**
-
-**Ability:** A psychic detective selects investigator talents as normal, except she cannot select
-the [alchemist discovery](ref/invtalent/alchemist-discovery) investigator talent. She can select the
-[Expanded Phrenic Pool](ref/feat/expanded-phrenic-pool) feat as a talent even though she doesn't
-meet that feat's prerequisites, and she can select an extra phrenic amplification once as a talent.
-
-**Alters:** Investigator talents
-
-**Investigator Talents:** The following investigator talents complement the psychic detective
-archetype: [confusing strike](ref/invtalent/confusing-strike),
-[device talent](ref/invtalent/device-talent), [effortless aid](ref/invtalent/effortless-aid),
-[hidden agendas](ref/invtalent/hidden-agendas),
-[inspired intelligence](ref/invtalent/inspired-intelligence), [item lore](ref/invtalent/item-lore),
-and [unconventional inspiration](ref/invtalent/unconventional-inspiration).
+A psychic detective selects investigator talents as normal, except she cannot select the
+[alchemist discovery](ref/invtalent/alchemist-discovery) investigator talent. She can select the
+[Expanded Phrenic Pool](ref/feat/expanded-phrenic-pool) feat as a discovery even though she doesn't
+meet that feat's prerequisites, and she can select an extra phrenic amplification once as a
+discovery. The following investigator talents, which can be found on pages 32–34 of the _Pathfinder
+RPG Advanced Class Guide_, complement the psychic detective archetype: confusing strike, device
+talent, effortless aid, hidden agendas, inspired intelligence, item lore, and unconventional
+inspiration. This ability alters investigator talents.

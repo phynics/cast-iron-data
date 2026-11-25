@@ -284,14 +284,14 @@ import_trades = ["Heavy armor"]
 
 [[entry]]
 id = "ref/arc-mesmerist/vexing-daredevil"
-hold = "checker: [fields] trades = \"replaces: Touch treatment\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 25)"
+hold = "checker: [fields] trades = \"replaces: Touch treatment\" disagrees with the trade sentences of the text outside any feature = \"none\" (line 24)"
 opening_from_print = true
 opening = ["Vexing daredevils train their psychic powers for combat, specializing in momentarily blinding and confusing their foes with sudden feints and tricks."]
 
 [[entry.feature]]
 anchor = "class-skills"
 head = "Class Skills"
-listed = true
+listed = false
 print = "A vexing daredevil adds Acrobatics (Dex) to her list of class skills. This alters the mesmerist's class skills."
 
 [[entry.feature]]
@@ -373,115 +373,3 @@ listed = true
 level = 11
 print = "At 11th level, when a vexing daredevil moves in a round, until the beginning of her next turn, any target of her hypnotic stare sees her as a constantly shimmering form of light and treats her as if she were under a _[blur](ref/spell/blur)_ spell. This ability replaces glib lie."
 import_trades = ["Glib lie"]
-
-[[entry]]
-id = "ref/arc-psychic/amnesiac"
-opening_from_print = true
-opening = ["The amnesiac once possessed great psychic power, but mental blocks—resulting from either a traumatic event or intentional implantation—have caused her to forget what she knew before. The amnesiac's struggle to control her psychic magic leads to wild and unpredictable results."]
-
-[[entry.feature]]
-anchor = "repressed-memories"
-head = "Repressed Memories"
-listed = true
-print = "All the amnesiac's older memories have been deeply hidden, as though she had been affected by multiple _[repress memory](ref/spell/repress-memory)_ spells. She isn't prevented from remembering things that happen over the course of a game, but might be forgetful. If the amnesiac's memories are ever restored, she loses this archetype and reverts to a standard psychic."
-
-[[entry.feature]]
-anchor = "spells"
-head = "Spells"
-listed = true
-print = '''
-An amnesiac's ability to cast psychic spells is the same as that of the psychic class, with the following exceptions.
-
-An amnesiac's faulty memory makes remembering and casting spells difficult, but the increased flexibility can be a great benefit. Instead of choosing a number of spells known from Table 1–8: Psychic Spells Known, an amnesiac accesses spells she knew the previous day from the recesses of her mind. This requires 1 hour of meditation. Each day, for each spell level the amnesiac can cast, she retains a number of spells known equal to half the number listed on Table 1–8, rounded up. These spells must be selected from spells the amnesiac knew the previous day (including any spells she remembered using spell recollection; see below). The remainder of her spells known (half the number on Table 1–8, rounded down) become amnesia slots, which the amnesiac can use with her spell recollection ability (see below). To determine the spells she knows on the day when she first takes this archetype, the amnesiac picks any one 1st-level spell from the psychic spell list.
-
-This change to spells doesn't apply to knacks (0-level spells) or discipline spells, which function the same way they do for a normal psychic. When the amnesiac gains access to 3rd-level spells, she gains full recall of her 1st-level spells and no longer gains 1st-level amnesia slots, instead gaining the full number of 1st-level spells known from Table 1–8 and casting them as a normal psychic. When this happens, the amnesiac can select any level-appropriate spells from the psychic spell list as her spells known, even if they were never among the spells she prepared or recalled; once selected, these spells can no longer be changed, as with a normal psychic. Each time the psychic gains access to a new level of spells, she gains full memory of spells 2 levels lower in the same way (gaining full memory and permanently selecting her 2nd-level spells when she gains access to 4th-level spells, and so on). This ability alters spellcasting.'''
-import_trades = ["Spellcasting"]
-
-[[entry.feature]]
-anchor = "spell-recollection"
-head = "Spell Recollection (Ex)"
-listed = true
-print = '''
-Once per hour as a swift action, an amnesiac can attempt to remember any spell from the psychic spell list of her choice from either of the 2 highest spell levels she can cast. When she does, she rolls on Table 2–1: Spell Recollection to determine the result. Because the mental stress of combat brings memories to the surface more easily, the amnesiac adds 1d10 to this roll's result if she's in combat when she attempts to recall a spell. Regardless of the result, the amnesiac expends an amnesia slot of the appropriate level for the spell she is attempting to remember; she must cast the spell remembered (if any) using that amnesia slot during the same round, or the spell slot is lost without effect.
-
-Once a spell has been remembered in this way, the amnesiac can cast it as one of her spells known for the rest of the day (even if she failed to cast the spell during the round in which she remembered it), unless spell recollection allowed her to cast a spell of a higher level than she would normally be able to cast.'''
-
-[[entry]]
-id = "ref/arc-psychic/formless-adept"
-opening = ["Formless adepts master their psychic powers to", "unshackle themselves", "from the confines of the", "flesh and empower their", "spellcasting. They learn", "to assume increasingly", "insubstantial forms", "until they become like", "living ghosts."]
-
-[[entry.feature]]
-anchor = "phrenic-charisma"
-head = "Phrenic Charisma"
-listed = true
-print = "A formless adept uses his Charisma modifier to determine the number of points in his phrenic pool. This ability alters phrenic pool."
-import_trades = ["Phrenic pool"]
-
-[[entry.feature]]
-anchor = "formless-body"
-head = "Formless Body"
-listed = true
-print = "A formless adept gradually sheds his body, taking on increasingly nebulous forms. A formless adept can assume a formless body as a standard action. He can remain in each formless body type for a number of rounds per day equal to 3 + his Charisma modifier. The rounds don't have to be used consecutively, but must be used in 1-round increments. Resuming his physical form takes another standard action; otherwise, the formless adept continues spending rounds of formless body until he runs out of them. The formless adept must return to his physical form before assuming a different formless body."
-import_trades = ["Psychic discipline, discipline powers", "Psychic discipline", "discipline powers"]
-
-[[entry.feature]]
-anchor = "blurred-body"
-head = "Blurred Body (Su)"
-listed = true
-level = 1
-print = "At 1st level, a formless adept can act under the effect of a _[blur](ref/spell/blur)_ spell. At 5th level, the formless adept can use this ability for a number of minutes per day instead of rounds per day. These minutes don't have to be used consecutively, but must be used in 1-minute increments."
-
-[[entry.feature]]
-anchor = "gaseous-body"
-head = "Gaseous Body (Su)"
-listed = true
-level = 5
-print = "At 5th level, a formless adept can become gaseous as _[gaseous form](ref/spell/gaseous-form)._ At 13th level, the formless adept can use this ability for a number of minutes per day instead of rounds per day. These minutes don't have to be used consecutively, but must be used in 1-minute increments."
-
-[[entry.feature]]
-anchor = "incorporeal-body"
-head = "Incorporeal Body (Su)"
-listed = true
-level = 13
-print = '''
-At 13th level, a formless adept can become [incorporeal](ref/umr/incorporeal).
-
-This ability replaces the psychic discipline and discipline powers class features.'''
-
-[[entry.feature]]
-anchor = "formless-spell"
-head = "Formless Spell"
-listed = true
-level = 1
-print = "At 1st level, a formless adept gains the formless spell phrenic amplification. He can spend 1 point from his phrenic pool to cast a spell with a standard-action casting time as part of the action he uses to assume his formless body, expending the spell slot as normal. This ability replaces the 1st-level phrenic amplification."
-import_trades = ["1st-level phrenic amplification"]
-
-[[entry.feature]]
-anchor = "bonus-spells"
-head = "Bonus Spells"
-listed = false
-print = "The formless adept adds extra spells to his list of spells known while he's in a formless body (including when he uses the formless spell phrenic amplification). Spells with a duration last for their full duration, even if the psychic reverts to his physical form. For feats and other abilities that require these spells as prerequisites, the psychic counts as knowing the spells but can benefit from the feats and abilities only while in a formless body. The formless adept gains the following spells at the appropriate levels: _chill touch_ and _expeditious retreat_ (1st), _levitate_ and _stricken heart_ (4th), _gaseous form_ and _vampiric touch_ (6th), _shadow step_ and _telekinesis_ (8th), _dominate person_ and _synapse overload_ (10th), _disintegrate_ and _enemy hammer_ (12th), _finger of death_ and _telekinetic sphere_ (14th), _etherealness_ and _power word stun_ (16th), and _dominate monster_ and _telekinetic storm_ (18th). This ability replaces discipline spells."
-import_trades = ["Discipline spells"]
-
-[[entry.feature]]
-anchor = "psychic-possession"
-head = "Psychic Possession (Su)"
-listed = true
-level = 15
-print = "At 15th level, while using his incorporeal body ability, a formless adept can attempt to psychically possess another living creature. To use this"
-import_trades = ["15th-level phrenic amplification"]
-
-[[entry.feature]]
-anchor = "table-2-1-spell-recollection"
-head = "Table 2–1: Spell Recollection"
-listed = true
-level = 15
-print = "d% Result 1–10 The amnesiac is unable to cast spells this round. 11–35 The amnesiac can't remember the new spell (but can still cast spells this round). 36–95 The amnesiac remembers and can cast the new spell. 96+ The amnesiac can choose to treat this result as 36–95. Alternatively, once per day, she can instead temporarily recall any spell from the psychic spell list that's 1 level higher than the spell she's attempting to remember. When she does, her caster level counts as the minimum caster level required to cast the higher-level spell, and she forgets the spell after it's cast. ability, the formless adept must be adjacent to the target. This effect works as the _greater possession_ spell and can be maintained only as long as the formless adept maintains his incorporeal body form. The target can attempt a Will save with a DC equal to 10 + 1/2 the formless adept's class level + the formless adept's Intelligence modifier to resist the effect. A creature that successfully saves is immune to the formless adept's psychic possession for 24 hours. This ability replaces the 15th-level phrenic amplification."
-
-[[entry.feature]]
-anchor = "formless-master"
-head = "Formless Master (Su)"
-listed = true
-level = 20
-print = "At 20th level, a formless adept can assume any formless body as a swift action and change between formless body types as a standard action (without returning to his physical form first). He can use the formless spell phrenic amplification to cast any spell with a swift-action casting time when assuming a formless body or any spell with a standard-action casting time while switching between formless bodies. The formless adept also adds his Charisma bonus as a deflection bonus to his AC while in a formless body. A formless adept can attempt a saving throw to bypass any spells that prevent entry of incorporeal creatures (such as _[anti-incorporeal shell](ref/spell/anti-incorporeal-shell)_), even if the spells don't normally allow one. This ability replaces remade self."
-import_trades = ["Remade self"]

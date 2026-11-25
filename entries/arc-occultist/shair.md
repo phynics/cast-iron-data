@@ -16,15 +16,21 @@ page = "102"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "jin", level = 1 },
+  { anchor = "augment-jin", level = 2 },
+  { anchor = "manifest-jin", level = 7 },
+  { anchor = "jin-spy", level = 8 },
+]
 trades = [
-  { replaces = "Implements", feature = "implements" },
-  { replaces = "Magic item skill", feature = "magic-item-skill" },
-  { replaces = "object reading", feature = "object-reading" },
-  { replaces = "Aura sight", feature = "aura-sight" },
-  { alters = "Mental focus", feature = "mental-focus" },
-  { alters = "spellcasting", feature = "spells" },
-  { alters = "implement mastery", feature = "implement-mastery" },
-  { alters = "Outside contact", feature = "outside-contact" },
+  { replaces = "Implements", feature = "implements", by = ["jin"] },
+  { replaces = "Magic item skill", feature = "magic-item-skill", by = ["augment-jin"] },
+  { replaces = "object reading", feature = "object-reading", by = ["augment-jin"] },
+  { replaces = "Aura sight", feature = "aura-sight", by = ["manifest-jin"] },
+  { alters = "Mental focus", feature = "mental-focus", by = ["jin"] },
+  { alters = "spellcasting", feature = "spells", by = ["jin"] },
+  { alters = "implement mastery", feature = "implement-mastery", by = ["jin"] },
+  { alters = "Outside contact", feature = "outside-contact", by = ["jin-spy"] },
 ]
 +++
 
@@ -32,35 +38,16 @@ Sha'irs delve into the occult not through power over objects but instead via the
 minor servitor genies from the elemental planes. A sha'ir's jin is both a precious ally and a living
 implement for its master.
 
-**Jin (Su)**
+## Jin (Su) {#jin}
 
-**Action:** Ability
-
-**Alters:** Mental focus, spellcasting, implement mastery
-
-**At 14th Level:** The sha'ir contacts a third jin.
-
-**At 20th Level:** A sha'ir selects one of her jin and chooses one of its two schools instead of
-selecting an implement for _implement mastery._
-
-**At 6th Level:** The sha'ir learns how to contact a second jin.
-
-**Gained:** At 1st Level
-
-**Replaces:** Implements
-
-**Special:** If one of her jin is slain, the sha'ir is treated as if she didn't have the appropriate
-implement to cast the spells associated with that jin. The sha'ir can replace the slain jin the
-following morning by expending 1 point of mental focus in a special ritual that takes 1 hour to
-perform.
-
-A sha'ir learns how to contact a jin - a minor, insubstantial genie that makes its home on the
-elemental planes. She learns how to contact more jin as she gains levels. Each of these jin is
-connected to one of the eight schools of magic, just like an occultist
-[implement](ref/ability/implements), but also to the [air](ref/arcaneschool/air),
-[earth](ref/arcaneschool/earth), [fire](ref/arcaneschool/fire), or [water](ref/arcaneschool/water)
-school. Each jin works like a living implement for both of its schools. To provide the implement
-component for a spell or focus power, a jin must be within 30 feet of its master.
+At 1st level, a sha'ir learns how to contact a jin—a minor, insubstantial genie that makes its home
+on the [elemental](ref/family/elemental) planes. She learns how to contact a second jin at 6th level
+and a third jin at 14th level. Each of these jin is connected to one of the eight schools of magic,
+just like an occultist [implement](ref/ability/implements), but also to the
+[air](ref/arcaneschool/air), [earth](ref/arcaneschool/earth), [fire](ref/arcaneschool/fire), or
+[water](ref/arcaneschool/water) school. Each jin works like a living implement for both of its
+schools. To provide the implement component for a spell or focus power, a jin must be within 30 feet
+of its master.
 
 The elemental schools don't have focus powers or resonant powers. Instead, the sha'ir considers all
 wizard spells of 6th level and lower from the lists corresponding to her jin's elemental schools to
@@ -68,63 +55,49 @@ be on her occultist spell list. In addition, she adds additional spells to her l
 For every spell level she can cast, she adds one spell from each jin's elemental school and one
 spell from each jin's non-elemental school.
 
-A jin in its natural form has the base statistics of a Small [elemental](ref/family/elemental) of
-the chosen type with the [young](ref/template/young) simple template and without the _air mastery,
-burn, drench, earth glide, earth mastery, vortex, water mastery,_ or
-_[whirlwind](ref/spell/whirlwind)_ abilities.
+A jin in its natural form has the base statistics of a Small elemental of the chosen type with the
+[young](ref/template/young) simple template and without the air mastery, burn, drench, earth glide,
+earth mastery, vortex, water mastery, or [whirlwind](ref/spell/whirlwind) abilities.
 
-**Augment Jin (Sp, Su)**
+At 20th level, a sha'ir selects one of her jin and chooses one of its two schools instead of
+selecting an implement for implement mastery.
 
-**At 10th Level:** The cost of giving a jin the statistics of a Medium elemental decreases to 1
-point of mental focus, and the sha'ir can give a jin all the statistics of a Large elemental for 2
-points of mental focus.
+If one of her jin is slain, the sha'ir is treated as if she didn't have the appropriate implement to
+cast the spells associated with that jin. The sha'ir can replace the slain jin the following morning
+by expending 1 point of mental focus in a special ritual that takes 1 hour to perform.
 
-**At 12th Level:** The cost of giving a jin the statistics of a Large elemental decreases to 1 point
-of mental focus and the sha'ir can give a jin the statistics of a Huge elemental for 2 points of
-mental focus.
+This ability replaces implements and alters mental focus, spellcasting, and implement mastery.
 
-**At 14th Level:** The cost of giving a jin the statistics of a Huge elemental decreases to 1 point
-of mental focus and the sha'ir can give a jin the statistics of a greater elemental for 2 points of
-mental focus.
+## Augment Jin (Sp, Su) {#augment-jin}
 
-**At 16th Level:** The sha'ir can give a jin the statistics of an elder elemental for 3 points of
-mental focus.
-
-**At 8th Level:** She can instead expend 2 points of mental focus to give one of her jin all the
-statistics of a Medium elemental.
-
-**At 2nd Level:** A sha'ir's jin uses its master's base saving throws if they are better than its
-own, and it uses either its own hit point total or 1/2 its master's hit points, whichever is higher.
-
-**At 4th Level:** A sha'ir can concentrate for 1 full round and expend 1 point of mental focus
+Starting at 2nd level, a sha'ir's jin uses its master's base saving throws if they are better than
+its own, and it uses either its own hit point total or 1/2 its master's hit points, whichever is
+higher. At 4th level, a sha'ir can concentrate for 1 full round and expend 1 point of mental focus
 stored in a jin to grant that jin all the statistics of a Small elemental of its type for 1 round
-per occultist level (this includes gaining any of the following abilities, if applicable: _air
-mastery, burn, drench, earth glide, earth mastery, vortex, water mastery,_ and
-_[whirlwind](ref/spell/whirlwind)_).
+per occultist level (this includes gaining any of the following abilities, if applicable: air
+mastery, burn, drench, earth glide, earth mastery, vortex, water mastery, and
+[whirlwind](ref/spell/whirlwind)). At 8th level, she can instead expend 2 points of mental focus to
+give one of her jin all the statistics of a Medium elemental. At 10th level, the cost of giving a
+jin the statistics of a Medium elemental decreases to 1 point of mental focus, and the sha'ir can
+give a jin all the statistics of a Large elemental for 2 points of mental focus. At 12th level, the
+cost of giving a jin the statistics of a Large elemental decreases to 1 point of mental focus and
+the sha'ir can give a jin the statistics of a Huge elemental for 2 points of mental focus. At 14th
+level, the cost of giving a jin the statistics of a Huge elemental decreases to 1 point of mental
+focus and the sha'ir can give a jin the statistics of a greater elemental for 2 points of mental
+focus. At 16th level, the sha'ir can give a jin the statistics of an elder elemental for 3 points of
+mental focus. This ability replaces magic item skill and object reading.
 
-**Replaces:** Magic item skill, object reading
+## Manifest Jin (Su) {#manifest-jin}
 
-**Manifest Jin (Su)**
+At 7th level, the sha'ir can designate one of her jin and manifest its powers, allowing it to count
+as a Small elemental at all times, as if using augment jin to augment it to a Small elemental but
+with a permanent duration. By concentrating for 1 full round, she can change which of her jin she
+manifests in this way. This ability replaces aura sight.
 
-**Ability:** The sha'ir can designate one of her jin and manifest its powers, allowing it to count
-as a Small elemental at all times, as if using _augment jin_ to augment it to a Small elemental but
-with a permanent duration.
+## Jin Spy (Su) {#jin-spy}
 
-**Gained:** At 7th Level
-
-**Replaces:** Aura sight
-
-**Special:** By concentrating for 1 full round, she can change which of her jin she manifests in
-this way.
-
-**Jin Spy (Su)**
-
-**Ability:** When a sha'ir gains her _outside contact_ ability, instead of learning the true names
-of outsiders, she can ask one or more of her jin to perform tasks. She chooses from the same tasks
-listed under _outside contact_ (as appropriate to her occultist level). This doesn't require
+At 8th level, when a sha'ir gains her outside contact ability, instead of learning the true names of
+outsiders, she can ask one or more of her jin to perform tasks. She chooses from the same tasks
+listed under outside contact (as appropriate to her occultist level). This doesn't require
 negotiation or gifts, but the jin is not available to the sha'ir during the time it spends
-performing these tasks.
-
-**Alters:** Outside contact
-
-**Gained:** At 8th Level
+performing these tasks. This ability alters outside contact.
