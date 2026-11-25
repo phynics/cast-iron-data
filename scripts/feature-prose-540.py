@@ -92,6 +92,8 @@ PRINTINGS = {
     "advanced-players-guide": "Advanced Player's Guide, 2nd printing",
     "ultimate-magic": "Ultimate Magic, 2nd printing",
     "ultimate-combat": "Ultimate Combat, 3rd printing",
+    "occult-adventures": "Occult Adventures, 1st printing",
+    "ultimate-intrigue": "Ultimate Intrigue, 1st printing",
 }
 ROOT = HERE.parent
 FORGET_CHECKER_HOLDS = False
@@ -497,6 +499,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"(?<=\w) – (?=\d)", " - ", s)             # a minus operator ("druid level – 2")
     s = fix_ligatures(s, vocab)
     s = fix_hyphens(s, vocab)
+    s = re.sub("\u2014 +(?=\\S)", "\u2014", s)          # a line that ends in an em dash joins the next one without a blank
     # the extraction pads italic runs with blanks
     s = re.sub(I_OPEN + r"\s+", " " + I_OPEN, s)
     s = re.sub(r"\s+" + I_CLOSE, I_CLOSE + " ", s)
@@ -547,7 +550,8 @@ def render_marks(s: str) -> str:
 TEXT_EL = re.compile(r'<text top="(-?\d+)" left="(-?\d+)" width="(-?\d+)" height="(-?\d+)" font="(\d+)">(.*?)</text>', re.S)
 FONT_EL = re.compile(r'<fontspec id="(\d+)" size="(\d+)" family="([^"]*)" color="([^"]*)"')
 TAG_SPLIT = re.compile(r"(</?[bi]>)")
-BODY_TOP = (95, 1075)
+BODY_TOP = (88, 1075)
+SUPERSCRIPT = "\x04"
 COL_SPLIT = 460
 COL_LEFT = (108, 468)      # the left edge of the two columns of the Advanced Player's Guide
 
@@ -589,6 +593,7 @@ class Book:
 
 
 def load_book(xml_path: Path) -> Book:
+    global BODY_TOP
     xml = xml_path.read_text(encoding="utf-8")
     fonts = {fid: int(sz) for fid, sz, _fam, _col in FONT_EL.findall(xml)}
     pages: dict[int, list] = {}
@@ -604,6 +609,11 @@ def load_book(xml_path: Path) -> Book:
             seen.add(key)
             top, left = int(top), int(left)
             plain = html.unescape(re.sub(r"</?[bi]>", "", raw)).strip()
+            if int(_h) <= 11 and re.fullmatch(r"[A-Z]{2,4}|[\u2020\u2021]+", plain):
+                # a superscript that names a source book or marks a rule of another book (owner ruling 26): it is left
+                # out of the text; `page_lines` keeps the blank that ends a line when the superscript stood last
+                items.append((top, left, int(font), SUPERSCRIPT, int(_w)))
+                continue
             if top > BODY_TOP[1] and plain.isdigit():
                 printed[num] = int(plain)
             items.append((top, left, int(font), raw, int(_w)))
@@ -613,6 +623,12 @@ def load_book(xml_path: Path) -> Book:
                     for part in w.lower().split("-"):
                         words[part] += 1
         pages[num] = items
+    # the body ends nine units above the page numbers of the book: 1075 in the Advanced Player's Guide, Ultimate Magic
+    # and Ultimate Combat, 1090 in Ultimate Intrigue (its body runs lower)
+    foot = sorted(top for chunk_items in pages.values() for top, _l, _f, raw, _w in chunk_items
+                  if top > 1060 and html.unescape(re.sub(r"</?[bi]>", "", raw)).strip().isdigit())
+    if foot:
+        BODY_TOP = (BODY_TOP[0], foot[len(foot) // 2] - 9)
     vocab = {w for w, _ in words.items()}
     return Book(fonts, pages, printed, vocab)
 
@@ -633,6 +649,13 @@ def page_lines(book: Book, num: int) -> list[dict]:
                 cur.append({"col": col, "top": top, "size": book.fonts[str(font)], "parts": [(left, raw, width)]})
         for ln in cur:
             ln["parts"].sort()
+            ends_in_sup = ln["parts"][-1][1] == SUPERSCRIPT
+            ln["parts"] = [x for x in ln["parts"] if x[1] != SUPERSCRIPT]
+            if ln["parts"] and ends_in_sup:
+                a, raw, w = ln["parts"][-1]
+                ln["parts"][-1] = (a, raw.rstrip() + " ", w)
+        cur = [ln for ln in cur if ln["parts"]]
+        for ln in cur:
             ln["left"] = ln["parts"][0][0]
             ln["right"] = max(a + w for a, _, w in ln["parts"])
             runs: list = []
@@ -702,10 +725,13 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
     """The blocks of an archetype: from its title to the next title of another archetype or of a class. Another
     title in between (a sidebar, a table heading) is a heading of the section. With no `stops`, the next title of
     any kind ends it."""
-    key = squash(title)
+    key = squash(re.sub(r"\s*\([A-Z]{2,4}\)\s*$", "", title))        # "Ringleader (UI)": the corpus's mark of a second archetype of the name
     for i, b in enumerate(blocks):
         # Ultimate Magic and Ultimate Combat print "REANIMATOR (ARCHETYPE)"
-        if b.kind == "title" and squash(b.plain()) in (key, key + "archetype"):
+        # Occult Adventures and Ultimate Intrigue print the class on a second line: "ECTOCHYMIST (ALCHEMIST ARCHETYPE)"
+        sp = squash(b.plain()) if b.kind == "title" else ""
+        if b.kind == "title" and (sp in (key, key + "archetype") or (
+                sp.startswith(key) and sp.endswith("archetype") and len(sp) <= len(key) + len("archetype") + 24)):
             j = i + 1
             out = [b]
             while j < len(blocks):
@@ -713,7 +739,7 @@ def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) 
                 if nxt.kind == "title":
                     k = squash(nxt.plain())
                     # another archetype, a class, or a chapter title (a larger font) ends the section
-                    if stops is None or k in stops or k.endswith("archetype") or nxt.size >= 30:
+                    if stops is None or k in stops or k.endswith(("archetype", "mystery", "bloodline")) or nxt.size >= 30:
                         break
                     out.append(Para("para", [(t, True, i) for t, _, i in nxt.runs], nxt.page, nxt.col))
                 else:
@@ -902,7 +928,7 @@ def covers(phrase: str, trade_name: str) -> bool:
 
 # ---- comparing the draft with print ------------------------------------------------------------------
 
-LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?|changes?)\b[^.]*\.", re.I)
+LOOSE_TRADE = re.compile(r"(?:^|(?<=[.!?]\s)|(?<=\n))(?:This|These|It)\b[^.]{0,60}?\b(?:replaces?|alters?|changes?)\b[^.]*\.", re.I)
 PROGRESSION = re.compile(r"(?:every|per)\s+\w+\s+(?:\w+\s+)?levels?\s+(?:beyond|after|above|thereafter)|every\s+\w+\s+levels?\s+thereafter", re.I)
 
 
@@ -1395,6 +1421,8 @@ MISPRINTS = [
     ("ref/arc-ranger/horse-lord", "of the him", "of him", "the sentence needs no article before the pronoun"),
     ("ref/arc-monk/hungry-ghost-monk", "The ability replaces diamond soul", "This ability replaces diamond soul",
      "every other trade sentence of the book starts \"This ability\""),
+    ("ref/arc-mesmerist/vexing-daredevil", "replaces glib tongue", "replaces glib lie",
+     "the mesmerist class feature is glib lie (Occult Adventures, class table and feature); there is no glib tongue"),
     ("ref/arc-druid/world-walker", "resist nature's lore", "resist nature's lure",
      "the druid ability is resist nature's lure; the entry's own trade row names it"),
     ("ref/arc-druid/reincarnated-druid", "a reincarnated druids adds", "a reincarnated druid adds", "a stray plural ending"),
@@ -1420,7 +1448,16 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     paras = []
     for runs in feat.paras:
         s = finish_text(clean_runs(runs), vocab)
-        if s:
+        if not s:
+            continue
+        # a line of a sidebar that print sets in a narrow column starts no paragraph of its own: a paragraph that ends
+        # without a sentence end continues (a list item, a heading or a table cell that print sets alone ends so too:
+        # those are hand-written, see `edits.toml`)
+        if paras and not re.search(r"(?:[.!?:;]|[.!?]\))\s*$", paras[-1].rstrip().removesuffix(I_CLOSE)):
+            joined = fix_hyphens(paras[-1].rstrip() + " " + s, vocab)
+            joined = re.sub(I_CLOSE + r"\s+" + I_OPEN + r"(?=[,;.)])", "", joined)      # an italic run that a line end cut
+            paras[-1] = re.sub(I_CLOSE + r"\s+" + I_OPEN, " ", joined)
+        else:
             paras.append(s)
     text = "\n\n".join(paras)
     notes: list[str] = []
@@ -1581,9 +1618,9 @@ def compare_entry(e: Entry, section: list[Para], book: Book) -> dict:
         cmp = compare_feature(draft, re.sub(r"\s*\([Ss]ee\b[^()]*\)", "", text), set(tokens(ABILITY_TAG.sub("", f.name))), title_tokens)
         # the whole row, then its parts: a name that is a list ("The 1st-, 9th-, and 15th-level channel energy
         # abilities") is one stored trade, a row of several names is several
-        named = [x.strip() for it in f.items if it.label in ("Replaces", "Alters")
-                 for x in [re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)]
-                 + re.split(r",| and ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)) if x.strip()]
+        named = list(dict.fromkeys(x.strip() for it in f.items if it.label in ("Replaces", "Alters")
+                                   for x in [re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)]
+                                   + re.split(r",| and ", re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", it.content)) if x.strip()))
         row = {"anchor": anchor_of(head), "span": f.span_sha(), "page": pf.page, "pseudo": f.pseudo,
                "import_trades": named, "links": [],
                "draft": draft.text, "level_import": draft.level, "head": head, "print": text,
@@ -1725,6 +1762,26 @@ TRADE_RENAMES = {
     ("ref/arc-monk/sensei", "Bonus feats gained at 6th, 10th, and 14th level"): "Bonus feats at 6th, 10th, and 14th level",
     ("ref/arc-ranger/falconer", "6th-level combat style feat"): "Combat style feat the ranger gains at 6th level",
     ("ref/arc-cavalier/gendarme", "cavalier bonus feats"): "Selection of bonus feats",
+    ("ref/arc-kineticist/elemental-annihilator", "Omnikinesis, 20th-level utility wild talent"): "Omnikinesis and the 20th-level utility wild talent",
+    ("ref/arc-monk/karmic-monk", "The slow fall improvement; it remains at 70 feet"): "Slow fall 80 feet",
+    ("ref/arc-monk/karmic-monk", "Slow fall"): "Slow fall at 19th level to become slow fall 80 feet",
+    ("ref/arc-witch/ley-line-guardian", "1st- and 8th-level hexes"): "Hexes gained at 1st and 8th levels",
+    ("ref/arc-investigator/hallucinist", "3rd-level trap sense boost"): "Trap sense gained at 3rd level",
+    ("ref/arc-mesmerist/vox", "10th-level mesmerist trick"): "Mesmerist trick normally gained at 10th level",
+    ("ref/arc-occultist/tome-eater", "6th-level implement"): "Implement gained at 6th level",
+    ("ref/arc-antipaladin/tyrant", "ex-antipaladins"): "Section on ex-antipaladins",
+    ("ref/arc-rogue/consigliere", "Trap sense"): "All instances of trap sense",
+    ("ref/arc-skald/bold-schemer", "Bardic knowledge"): "Class skills and bardic knowledge",
+    ("ref/arc-swashbuckler/noble-fencer", "Dodging panache"): "Dodging panache deed",
+    ("ref/arc-swashbuckler/veiled-blade", "Opportune parry and riposte"): "Opportune parry and riposte deed",
+    ("ref/arc-unchained-summoner/fey-caller", "Summon monster"): "Summon monster spell-like ability",
+    ("ref/arc-kineticist/overwhelming-soul", "Key ability score of wild talents"): "Class skills and the key ability score of wild talents",
+    ("ref/arc-kineticist/elemental-annihilator", "6th-, 12th-, and 16th level utility wild talents"): "6th-, 12th-, and 16th-level utility wild talents",
+    ("ref/arc-swashbuckler/noble-fencer", "Superior feint"): "Superior feint deed",
+    ("ref/arc-swashbuckler/veiled-blade", "Menacing swordplay"): "Menacing swordplay deed",
+    ("ref/arc-swashbuckler/veiled-blade", "Swashbuckler's edge"): "Swashbuckler's edge deed",
+    ("ref/arc-swashbuckler/veiled-blade", "Swashbuckler's grace"): "Swashbuckler's grace deed",
+    ("ref/arc-swashbuckler/noble-fencer", "Subtle blade"): "Subtle blade deed",
     ("ref/arc-paladin/divine-hunter", "Aura of righteousness"): "Aura of faith",
     ("ref/arc-monk/qinggong-monk", "The monk class abilities the qinggong monk gives up for a ki power"):
         "The monk class ability the qinggong monk gives up for this ki power",
@@ -1745,6 +1802,13 @@ TRADE_OP_FIXES = {
     ("ref/arc-cavalier/gendarme", "cavalier bonus feats"): "alters",
     ("ref/arc-fighter/gladiator", "Proficiency with heavy armor"): "alters",         # owner ruling 23: proficiency changes are `alters`
     ("ref/arc-fighter/gladiator", "tower shields"): "alters",
+    ("ref/arc-kineticist/elemental-annihilator", "1st-level infusion"): "replaces",
+    ("ref/arc-kineticist/elemental-annihilator", "the basic utility wild talent normally granted by selecting an element"): "replaces",
+    ("ref/arc-investigator/cipher", "the investigator talent gained at 5th level"): "replaces",
+    ("ref/arc-investigator/majordomo", "Alchemy"): "replaces",
+    ("ref/arc-investigator/majordomo", "swift alchemy"): "replaces",
+    ("ref/arc-skald/battle-scion", "Bardic knowledge"): "alters",
+    ("ref/arc-skald/battle-scion", "Rage power"): "alters",
 }
 
 
@@ -1752,6 +1816,7 @@ TRADE_OP_FIXES = {
 # pilot's book; the TSV note records it). The other four shaman archetypes store `Venom immunity`.
 TRADE_ADDITIONS = {
     "ref/arc-druid/eagle-shaman": [{"replaces": "Venom immunity", "feature": "venom-immunity"}],
+    "ref/arc-bard/silver-balladeer": [{"alters": "Alignment"}],
 }
 
 
@@ -2021,7 +2086,8 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
     for i, (t, origin) in enumerate(effective_trades_origin(e)):
         if origin is None:
             anchors = by.get(i) or [rows[0]["anchor"]]
-            note = f'trade added: {trade_name(t)[0]} "{trade_name(t)[1]}" (feature `{t["feature"]}`), which print states and the entry did not store'
+            where = f' (feature `{t["feature"]}`)' if "feature" in t else ""
+            note = f'trade added: {trade_name(t)[0]} "{trade_name(t)[1]}"{where}, which print states and the entry did not store'
             next(r for r in rows if r["anchor"] == anchors[0])["notes"].append(note)
             continue
         old = trades_of(e)[origin]
