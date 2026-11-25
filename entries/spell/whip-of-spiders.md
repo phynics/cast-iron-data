@@ -14,7 +14,7 @@ page = "199"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -49,7 +49,7 @@ Duration: 1 round/level (d (see text)
 Saving throw: none
 Spell resistance: yes
 Effect: whip-like swarm
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon hundreds of Diminutive spiders, which cling together in the form of a whip made for a

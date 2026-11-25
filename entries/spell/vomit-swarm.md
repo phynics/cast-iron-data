@@ -14,7 +14,7 @@ page = "254"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Investigator", level = 2 },
@@ -42,7 +42,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: one swarm of spiders
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You vomit forth a [swarm of spiders](ref/monster/spider-spider-swarm) that attacks all other

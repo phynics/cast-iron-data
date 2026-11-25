@@ -14,7 +14,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 4 },
   { class = "Arcanist", level = 4 },
@@ -47,7 +47,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This spell transforms a creature into a Medium or smaller animal or humanoid of no more than 1 Hit

@@ -14,7 +14,7 @@ page = "385"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 The loremaster is a gatherer and keeper of secrets. He is often obsessed by the written word, with
@@ -64,7 +64,7 @@ The Loremaster's class skills are [Appraise](ref/skill/appraise) (Int),
 [Spellcraft](ref/skill/spellcraft) (Int), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

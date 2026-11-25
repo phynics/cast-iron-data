@@ -14,7 +14,7 @@ page = "237"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 day/level
 Saving throw: none
 Spell resistance: no
 Target: surface touched
-Subschool: Figment
+Subschool: figment
 :::
 
 You create a written message of 50 words or fewer, or else an image, a drawing, or a similar

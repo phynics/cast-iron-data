@@ -14,7 +14,7 @@ page = "193"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 descriptors = ["sonic"]
 levels = [
   { class = "Alchemist", level = 6 },
@@ -48,7 +48,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 Descriptors: sonic
 :::
 

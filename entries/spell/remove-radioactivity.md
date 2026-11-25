@@ -14,7 +14,7 @@ page = "11"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Bard", level = 4 },
   { class = "Cleric", level = 4 },
@@ -50,7 +50,7 @@ Duration: instantaneous
 Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: creature or object touched
-Subschool: Healing
+Subschool: healing
 :::
 
 You remove all ongoing radiation effects, both primary and secondary, on a single target if you

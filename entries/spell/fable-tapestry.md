@@ -17,7 +17,7 @@ page = "219"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 descriptors = ["shadow"]
 levels = [
   { class = "Bard", level = 5 },
@@ -47,7 +47,7 @@ Duration: 1 round/level
 Saving throw: Will disbelief
 Spell resistance: yes
 Effect: 1 legendary character/4 caster levels
-Subschool: Shadow
+Subschool: shadow
 Descriptors: shadow
 :::
 

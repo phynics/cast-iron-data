@@ -14,7 +14,7 @@ page = "233"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Summoner", level = 1 },
   { class = "Unchained Summoner", level = 1 },
@@ -41,7 +41,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Healing
+Subschool: healing
 :::
 
 You utilize life conduit to share hit points with your eidolon. While this spell is active, you can

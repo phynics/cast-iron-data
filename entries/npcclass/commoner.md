@@ -14,10 +14,10 @@ page = "449"
 [fields]
 kind = "class"
 class_type = "npc"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Skills
 

@@ -17,7 +17,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -51,7 +51,7 @@ Duration: 1 minute/level (D)
 Saving throw: see text
 Spell resistance: no
 Target: one object or 10-ft. square
-Subschool: Creation
+Subschool: creation
 :::
 
 A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when

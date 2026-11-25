@@ -17,7 +17,7 @@ page = "75"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Bard", level = 1 },
   { class = "Cleric", level = 1 },
@@ -53,7 +53,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You take on an aspect of a nightingale. Your voice becomes clear and pleasant. You gain a +2

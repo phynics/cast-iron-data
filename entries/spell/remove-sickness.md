@@ -14,7 +14,7 @@ page = "234"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Cleric", level = 1 },
   { class = "Druid", level = 1 },
@@ -47,7 +47,7 @@ Duration: 10 minutes/level; see text
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one creature
-Subschool: Healing
+Subschool: healing
 :::
 
 You quell feelings of illness and nausea in the target, giving it a +4 morale bonus on saving throws

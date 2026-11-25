@@ -15,8 +15,8 @@ kind = "creature"
 cr = "12"
 creature_type = "undead"
 subtypes = ["augmented humanoid"]
-size = "Medium"
-alignment = "NE"
+size = "medium"
+alignment = "neutral evil"
 ac = "23, touch 14, flat-footed 21 (+4 armor, +2 deflection, +2 Dex, +5 natural)"
 hp = "111 (11d6+55 plus 15 false life)"
 fortitude = "+6"
@@ -30,8 +30,8 @@ abilities = ["10", "14", "-", "22", "14", "16"]
 ::: statblock
 CR: 12
 XP: 19,200
-Alignment: NE
-Size: Medium
+Alignment: neutral evil
+Size: medium
 Type: Undead (augmented humanoid)
 Race: human
 Class Levels: necromancer 11

@@ -15,8 +15,8 @@ kind = "creature"
 cr = "22"
 creature_type = "undead"
 subtypes = ["fire"]
-size = "Gargantuan"
-alignment = "CE"
+size = "gargantuan"
+alignment = "chaotic evil"
 ac = "45, touch 9, flat-footed 45 (+4 deflection, -1 Dex, +36 natural, -4 size)"
 hp = "337 (27d8+216)"
 fortitude = "+23"
@@ -30,8 +30,8 @@ abilities = ["45", "8", "-", "24", "25", "26"]
 ::: statblock
 CR: 22
 XP: 614,400
-Alignment: CE
-Size: Gargantuan
+Alignment: chaotic evil
+Size: gargantuan
 Type: Undead (fire)
 Init: +3
 Senses: [blindsense](ref/rule/blindsight-and-blindsense) 120 ft., [darkvision](ref/rule/darkvision) 240 ft., smoke vision; Perception +45

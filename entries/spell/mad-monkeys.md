@@ -14,7 +14,7 @@ page = "227"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -48,7 +48,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: swarm of monkeys
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon a swarm of screeching, mischievous monkeys. The swarm understands and obeys your commands

@@ -14,7 +14,7 @@ page = "368"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Adept", level = 2 },
   { class = "Arcanist", level = 2 },
@@ -45,7 +45,7 @@ Duration: 10 minutes/level (D)
 Saving throw: Reflex negates; see text
 Spell resistance: no
 Effect: webs in a 20-ft.-radius spread
-Subschool: Creation
+Subschool: creation
 :::
 
 Web creates a many-layered mass of strong, sticky strands. These strands trap those caught in them.

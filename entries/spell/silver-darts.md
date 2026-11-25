@@ -14,7 +14,7 @@ page = "192"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bloodrager", level = 3 },
@@ -45,7 +45,7 @@ Duration: instantaneous
 Saving throw: Reflex half
 Spell resistance: yes
 Area: cone-shaped burst
-Subschool: Creation
+Subschool: creation
 :::
 
 A cone of silver darts springs from your hand. These darts act as a silver weapon that deals 1d6

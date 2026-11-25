@@ -17,7 +17,7 @@ page = "38"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Magus", level = 4 },
@@ -50,7 +50,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: you and up to four willing creatures, none of whom can be on their home plane
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell functions similarly to [plane shift](ref/spell/plane-shift), but instead of transporting

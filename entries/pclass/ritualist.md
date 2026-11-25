@@ -14,7 +14,7 @@ page = "12"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Long-forgotten occult rituals offer great power at a terrible price. While most traditional
@@ -55,7 +55,7 @@ The Ritualist's class skills are [Appraise](ref/skill/appraise) (Int),
 [Spellcraft](ref/skill/spellcraft) (Int), and [Use Magic Device](ref/skill/use-magic-device) (Cha)..
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

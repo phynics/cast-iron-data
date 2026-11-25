@@ -17,7 +17,7 @@ page = "311"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -53,7 +53,7 @@ Duration: concentration+ 3 rounds
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Effect: visual figment that cannot extend beyond four 10 ft. cubes + one 10 ft. cube/level (S)
-Subschool: Figment
+Subschool: figment
 :::
 
 ### Major Image

@@ -14,8 +14,7 @@ page = "225"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Antipaladin", level = 2 },
@@ -55,8 +54,7 @@ Duration: concentration+ 1 round/level (D)
 Saving throw: Will negates (harmless) and Will disbelief (if interacted with); see text
 Spell resistance: no
 Target: one creature or object up to 10 feet across
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You cause the target to sound as if it is elsewhere within range, including its movements, speech,

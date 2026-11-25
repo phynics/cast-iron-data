@@ -14,7 +14,7 @@ page = "278"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Charm"]
+subschools = ["charm"]
 descriptors = ["language-dependant", "mind-affecting", "sonic"]
 levels = [
   { class = "Bard", level = 2 },
@@ -50,7 +50,7 @@ Duration: 1 hour or less
 Saving throw: Will negates; see text
 Spell resistance: yes
 Targets: any number of creatures
-Subschool: Charm
+Subschool: charm
 Descriptors: language-dependant, mind-affecting, sonic
 :::
 

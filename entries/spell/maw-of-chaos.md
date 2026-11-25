@@ -14,7 +14,7 @@ page = "74"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 descriptors = ["chaotic"]
 levels = [
   { class = "Arcanist", level = 8 },
@@ -45,7 +45,7 @@ Duration: concentration (maximum 1 round/level)
 Saving throw: see text
 Spell resistance: yes
 Area: 5-foot-radius spread
-Subschool: Teleportation
+Subschool: teleportation
 Descriptors: chaotic
 :::
 

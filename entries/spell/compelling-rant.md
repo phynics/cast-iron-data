@@ -14,7 +14,7 @@ page = "111"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Charm"]
+subschools = ["charm"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 5 },
@@ -49,7 +49,7 @@ Duration: concentration plus 1 round/level, up to 1 hour/level
 Saving throw: Will negates (see text)
 Spell resistance: no
 Target: any number of creatures
-Subschool: Charm
+Subschool: charm
 :::
 
 You deliver a confusing but fascinating monologue, relaying conspiracies or metaphysical revelations

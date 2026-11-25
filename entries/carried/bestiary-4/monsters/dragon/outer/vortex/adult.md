@@ -14,8 +14,8 @@ kind = "creature"
 cr = "14"
 creature_type = "dragon"
 subtypes = ["fire"]
-size = "Huge"
-alignment = "LN"
+size = "huge"
+alignment = "lawful neutral"
 ac = "30, touch 9, flat-footed 29 (+1 Dex, +21 natural, –2 size)"
 hp = "195 (17d12+85)"
 fortitude = "+17"
@@ -30,8 +30,8 @@ abilities = ["27", "12", "21", "20", "19", "20"]
 ::: statblock
 CR: 14
 XP: 38,400
-Alignment: LN
-Size: Huge
+Alignment: lawful neutral
+Size: huge
 Type: Dragon (fire)
 Init: +5
 Senses: dragon senses, see in darkness; Perception +24

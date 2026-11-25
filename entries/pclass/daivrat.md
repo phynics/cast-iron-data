@@ -14,7 +14,7 @@ page = "20"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 The empire of Kelesh is built by genies, who create towering spires and opulent palaces for the
@@ -57,7 +57,7 @@ The Daivrat's class skills are [Appraise](ref/skill/appraise) (Int), [Bluff](ref
 [Spellcraft](ref/skill/spellcraft) (Int), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

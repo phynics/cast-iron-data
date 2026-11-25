@@ -14,8 +14,8 @@ kind = "creature"
 cr = "1/2"
 creature_type = "animal"
 subtypes = ["aquatic"]
-size = "Medium"
-alignment = "N"
+size = "medium"
+alignment = "neutral"
 ac = "12, touch 11, flat-footed 11 (+1 Dex, +1 natural)"
 hp = "13 (2d8+4)"
 fortitude = "+5"
@@ -28,8 +28,8 @@ abilities = ["10", "13", "15", "1", "13", "2"]
 ::: statblock
 CR: 1/2
 XP: 200
-Alignment: N
-Size: Medium
+Alignment: neutral
+Size: medium
 Type: Animal (aquatic)
 Init: +1
 Senses: [blindsense](ref/rule/blindsight-and-blindsense) 30 ft., [low-light vision](ref/rule/low-light-vision); Perception +8
@@ -96,5 +96,5 @@ Level: 4th
 Attack: sting (1d4 plus poison)
 Ability Scores: Str +4, Dex -2, Con +2
 Special Qualities: [blindsense](ref/rule/blindsight-and-blindsense) 30 ft.
-Size: Medium
+Size: medium
 :::

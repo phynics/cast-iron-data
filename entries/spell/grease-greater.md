@@ -17,7 +17,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 5 },
@@ -49,7 +49,7 @@ Target: one object/2 levels or 1 10-ft. square/2 levels; see text
 Duration: 1 minute/level (D)
 Saving throw: see text
 Spell resistance: no
-Subschool: Creation
+Subschool: creation
 :::
 
 ### Greater Grease

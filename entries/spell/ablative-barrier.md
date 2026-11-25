@@ -14,7 +14,7 @@ page = "221"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["force"]
 levels = [
   { class = "Alchemist", level = 2 },
@@ -52,7 +52,7 @@ Duration: 1 hour/level or until discharged
 Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: creature touched
-Subschool: Creation
+Subschool: creation
 Descriptors: force
 :::
 

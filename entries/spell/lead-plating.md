@@ -14,7 +14,7 @@ page = "27"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Arcanist", level = 2 },
@@ -52,7 +52,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: a creature or object weighing up to 100 lbs./level
-Subschool: Creation
+Subschool: creation
 :::
 
 You enclose the target in a thin sheath of lead. This doesn't restrict the target's movement or

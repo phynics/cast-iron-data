@@ -12,8 +12,8 @@ provenance = [
 [fields]
 kind = "creature"
 creature_type = "animal"
-size = "Medium"
-alignment = "N"
+size = "medium"
+alignment = "neutral"
 ac = "13, touch 12, flat-footed 11 (+2 Dex, +1 natural)"
 hp = "18 (2d8+9)"
 fortitude = "+6"
@@ -27,8 +27,8 @@ abilities = ["14", "15", "17", "2", "13", "4"]
 ::: statblock
 CR: —
 XP: —
-Alignment: N
-Size: Medium
+Alignment: neutral
+Size: medium
 Type: Animal
 Init: +2
 Senses: [low-light vision](ref/rule/low-light-vision), scent; Perception +5

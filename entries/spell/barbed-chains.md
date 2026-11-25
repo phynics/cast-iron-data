@@ -14,7 +14,7 @@ page = "109"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 descriptors = ["emotion", "fear", "mind-affecting"]
 levels = [
   { class = "Antipaladin", level = 1 },
@@ -49,7 +49,7 @@ Duration: instantaneous
 Saving throw: Will partial (see text)
 Spell resistance: no
 Effect: a chain sharpened at one end
-Subschool: Summoning
+Subschool: summoning
 Descriptors: emotion, fear, mind-affecting
 :::
 

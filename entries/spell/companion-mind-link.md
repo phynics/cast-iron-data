@@ -14,7 +14,7 @@ page = "226"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Charm"]
+subschools = ["charm"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Druid", level = 3 },
@@ -43,7 +43,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: your animal companion
-Subschool: Charm
+Subschool: charm
 Descriptors: mind-affecting
 :::
 

@@ -14,7 +14,7 @@ page = "179"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Psychic", level = 7 },
@@ -47,7 +47,7 @@ Duration: 1 round/level or until discharged
 Saving throw: none and Will negates (object)
 Spell resistance: no and yes (object)
 Targets: you and touched objects or other touched willing creatures
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You designate two locations within range and create a dimensional link between them; you must have

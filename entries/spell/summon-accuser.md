@@ -14,7 +14,7 @@ page = "59"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 descriptors = ["evil", "lawful"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -51,7 +51,7 @@ Duration: 10 minutes/level
 Saving throw: none
 Spell resistance: no
 Effect: 1 accuser devil
-Subschool: Summoning
+Subschool: summoning
 Descriptors: evil, lawful
 :::
 

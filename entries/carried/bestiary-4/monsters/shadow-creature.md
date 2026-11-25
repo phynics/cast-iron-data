@@ -14,8 +14,8 @@ kind = "creature"
 cr = "13"
 creature_type = "outsider"
 subtypes = ["augmented aberration"]
-size = "Large"
-alignment = "CE"
+size = "large"
+alignment = "chaotic evil"
 ac = "27, touch 10, flat-footed 26 (+1 Dex, +17 natural, –1 size)"
 hp = "162 (12d8+108)"
 fortitude = "+13"
@@ -30,8 +30,8 @@ abilities = ["34", "13", "29", "13", "16", "12"]
 ::: statblock
 CR: 13
 XP: 25,600
-Alignment: CE
-Size: Large
+Alignment: chaotic evil
+Size: large
 Type: Outsider (augmented aberration)
 Init: +5
 Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision); Perception +24

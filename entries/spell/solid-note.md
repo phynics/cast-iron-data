@@ -14,7 +14,7 @@ page = "245"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Bard", level = 1 },
   { class = "Skald", level = 1 },
@@ -41,7 +41,7 @@ Duration: concentration+ 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: one solidified musical note
-Subschool: Creation
+Subschool: creation
 :::
 
 You give temporary physical form to a single musical note and can hang it, suspended, wherever you

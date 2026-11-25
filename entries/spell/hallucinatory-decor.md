@@ -14,8 +14,7 @@ page = "19"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -47,8 +46,7 @@ Duration: 1 hour/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Area: one 10-ft. cube/level (S)
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You transform the decor of a courtyard, structure, or other edifice to meet your highest standards

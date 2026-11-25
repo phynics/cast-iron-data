@@ -14,7 +14,7 @@ page = "172"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["emotion"]
 levels = [
   { class = "Antipaladin", level = 4 },
@@ -47,7 +47,7 @@ Duration: 1 hour/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Target: any number of living creatures, no two of which can be more than 30 ft. apart
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: emotion
 :::
 

@@ -14,7 +14,7 @@ page = "48"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 The [Council of Thieves'](ref/rule/aff-thieves) premier agents - called "devils" as an ironic nod to
@@ -51,7 +51,7 @@ The Westcrown Devil's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 (Str), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

@@ -14,7 +14,7 @@ page = "19"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Arcanist", level = 6 },
@@ -47,7 +47,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Targets: all creatures in a 15-foot-radius burst centered on a single living creature
-Subschool: Polymorph
+Subschool: polymorph
 Descriptors: mind-affecting
 :::
 

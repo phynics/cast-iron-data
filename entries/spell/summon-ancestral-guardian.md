@@ -14,7 +14,7 @@ page = "24"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Bard", level = 3 },
   { class = "Cleric", level = 3 },
@@ -44,7 +44,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: yes
 Effect: two summoned ancestor spirits
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You call the spirits of two ancestors to manifest in the mortal world and attack your enemies. Each

@@ -14,8 +14,7 @@ page = "17"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -47,8 +46,7 @@ Duration: 1 round/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 A touched creature becomes invisible (as per invisibility) as long as it is in direct sunlight (or

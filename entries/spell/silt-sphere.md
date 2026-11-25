@@ -14,8 +14,7 @@ page = "21"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -45,8 +44,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: 20-ft.-radius centered on you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell generates an illusory silt cloud that drifts around you and moves with you. The cloud

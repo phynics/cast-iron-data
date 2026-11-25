@@ -14,7 +14,7 @@ page = "277"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 9 },
   { class = "Shaman", level = 9 },
@@ -42,7 +42,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: two or more summoned creatures, no two of which can be more than 30 ft. apart
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell opens a portal to an Elemental Plane and summons elementals from it. A druid can choose

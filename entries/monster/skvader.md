@@ -14,7 +14,7 @@ page = "86"
 [fields]
 kind = "creature"
 cr = "1/2"
-creature_type = "magicalBeast"
+creature_type = "magical beast"
 size = "tiny"
 alignment = "neutral"
 ac = "14/14/12"

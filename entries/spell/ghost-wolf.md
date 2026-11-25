@@ -20,7 +20,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bloodrager", level = 4 },
@@ -53,7 +53,7 @@ Duration: 1 hour/level (d) or 1 round/level; see text
 Saving throw: none (see description)
 Spell resistance: no
 Target: one quasi-real wolf-like creature
-Subschool: Creation
+Subschool: creation
 :::
 
 > _[Half-orcs](ref/race/half-orc) have access to the following spell._

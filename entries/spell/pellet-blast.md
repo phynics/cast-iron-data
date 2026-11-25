@@ -14,7 +14,7 @@ page = "238"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bloodrager", level = 4 },
@@ -48,7 +48,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Area: cone-shaped burst
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell creates an explosion of conjured metal pellets, striking everything within its area and

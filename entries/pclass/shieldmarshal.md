@@ -14,7 +14,7 @@ page = "48"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Shieldmarshals are the chieflaw enforcement officials of the Grand Duchy of Alkenstar, gunsmithing
@@ -47,7 +47,7 @@ The Shieldmarshal's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

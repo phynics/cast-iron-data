@@ -14,7 +14,7 @@ page = "179"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Charm"]
+subschools = ["charm"]
 descriptors = ["mind-affecting", "sonic"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -53,7 +53,7 @@ Duration: concentration+ 1 round/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Target: all creatures within a 300-ft.-radius burst centered on you
-Subschool: Charm
+Subschool: charm
 Descriptors: mind-affecting, sonic
 :::
 

@@ -14,8 +14,8 @@ kind = "creature"
 cr = "12"
 creature_type = "dragon"
 subtypes = ["earth"]
-size = "Large"
-alignment = "CG"
+size = "large"
+alignment = "chaotic good"
 ac = "29, touch 10, flat-footed 28 (+1 Dex, +19 natural, -1 size)"
 hp = "172 (15d12+75)"
 fortitude = "+14"
@@ -30,8 +30,8 @@ abilities = ["25", "12", "21", "18", "19", "18"]
 ::: statblock
 CR: 12
 XP: 19,200
-Alignment: CG
-Size: Large
+Alignment: chaotic good
+Size: large
 Type: Dragon (earth)
 Init: +5
 Senses: Perception +22

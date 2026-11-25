@@ -14,7 +14,7 @@ page = "27"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -44,7 +44,7 @@ Duration: permanent until discharged
 Saving throw: none
 Spell resistance: no
 Target: an unattended object weighing 1 lb. or less whose longest dimension is 6 inches or less
-Subschool: Calling
+Subschool: calling
 :::
 
 You call a specific nonliving item directly to your hand from a nearby location. First, you must

@@ -14,7 +14,7 @@ page = "231"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Alchemist", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -49,7 +49,7 @@ Duration: 1 minute/level
 Saving throw: Will disbelieve (on hit, see below)
 Spell resistance: no
 Target: you
-Subschool: Figment
+Subschool: figment
 :::
 
 When casting this spell, you create an illusory double that takes the same space of you. That double

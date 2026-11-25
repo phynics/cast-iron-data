@@ -14,7 +14,7 @@ page = "206"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Druid", level = 5 },
   { class = "Hunter", level = 4 },
@@ -43,7 +43,7 @@ Duration: 1 round/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 When you cast this on a creature, its skin turns slick and clammy and it is able to regenerate

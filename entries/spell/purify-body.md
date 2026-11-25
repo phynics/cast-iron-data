@@ -14,7 +14,7 @@ page = "9"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 4 },
   { class = "Cleric", level = 4 },
@@ -47,7 +47,7 @@ Duration: instantaneous and 1 hour or until discharged
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 You align the target's chakras and soothe any unwanted imperfections found within its physical form,

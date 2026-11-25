@@ -17,8 +17,7 @@ page = "37"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -52,8 +51,7 @@ Duration: 1 day/level (D)
 Saving throw: none (see text)
 Spell resistance: no
 Target: one touched object weighing up to 5 lbs./level
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 ### Sympathetic Aura

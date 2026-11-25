@@ -17,7 +17,7 @@ page = "75"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 descriptors = ["chaotic", "evil"]
 levels = [
   { class = "Arcanist", level = 9 },
@@ -49,7 +49,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned creature
-Subschool: Summoning
+Subschool: summoning
 Descriptors: chaotic, evil
 :::
 

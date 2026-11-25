@@ -14,7 +14,7 @@ page = "6"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 The Arclords of Nex trace their lineage to the personal retinue of the archmage Nex, and though the
@@ -59,7 +59,7 @@ The Arclord of Nex's class skills are [Diplomacy](ref/skill/diplomacy) (Cha),
 [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

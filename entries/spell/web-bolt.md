@@ -14,7 +14,7 @@ page = "107"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bloodrager", level = 1 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level
 Saving throw: Reflex negates, see text
 Spell resistance: no
 Effect: fist-sized blob of webbing
-Subschool: Creation
+Subschool: creation
 :::
 
 > _[Drow](ref/race/drow) have access to the following spell._

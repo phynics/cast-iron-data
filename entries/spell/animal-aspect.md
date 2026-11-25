@@ -14,7 +14,7 @@ page = "222"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Arcanist", level = 2 },
@@ -51,7 +51,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: yes
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You gain some of the beneficial qualities of an animal. Your base form is largely unchanged and your

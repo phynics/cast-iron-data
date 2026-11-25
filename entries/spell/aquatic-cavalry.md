@@ -14,7 +14,7 @@ page = "227"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Druid", level = 2 },
@@ -47,7 +47,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: 1 hippocampus plus 1 hippocampus/3 caster levels
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon a school of hippocampi (one plus one per 3 caster levels, to a maximum of six at 15th

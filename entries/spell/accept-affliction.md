@@ -14,7 +14,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["good"]
 levels = [
   { class = "Bard", level = 3 },
@@ -49,7 +49,7 @@ Duration: instantaneous
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 Descriptors: good
 :::
 

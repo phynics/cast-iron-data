@@ -14,7 +14,7 @@ page = "239"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 5 },
   { class = "Investigator", level = 5 },
@@ -41,7 +41,7 @@ Duration: 1 hour/level or until triggered, then 1 round/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Healing
+Subschool: healing
 :::
 
 Resurgent transformation grants you the ability to recover from deadly wounds with restored vitality

@@ -17,7 +17,7 @@ cr = "14"
 creature_type = "humanoid"
 subtypes = ["aquatic", "giant"]
 size = "huge"
-alignment = "CG or CE"
+alignment = "chaotic good or chaotic evil"
 ac = "28/8/28"
 hp = "218~19d8+133"
 fortitude = "+18"
@@ -34,7 +34,7 @@ _This blue-skinned giant's clothing and beard whip about like sails caught in a 
 
 ::: statblock
 Challenge rating: 14
-Alignment: CG or CE
+Alignment: chaotic good or chaotic evil
 Size: huge
 Type: humanoid
 Initiative: +4

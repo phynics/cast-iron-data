@@ -17,7 +17,7 @@ page = "189"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Bard", level = 4 },
   { class = "Cleric", level = 4 },
@@ -47,7 +47,7 @@ Area: four 5-ft. squares/level (see text)
 Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Greater Path of Glory

@@ -17,7 +17,7 @@ page = "294"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Paladin", level = 3 },
 ]
@@ -43,7 +43,7 @@ Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: your mount touched
-Subschool: Healing
+Subschool: healing
 :::
 
 This spell functions like [heal](ref/spell/heal), but it affects only the paladin's special mount

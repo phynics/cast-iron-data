@@ -17,7 +17,7 @@ page = "241"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Mesmerist", level = 2 },
@@ -49,7 +49,7 @@ Duration: see text
 Saving throw: Will partial (harmless)
 Spell resistance: yes
 Effect: one symbol
-Subschool: Figment
+Subschool: figment
 :::
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except it instead creates one

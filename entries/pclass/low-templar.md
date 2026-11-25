@@ -17,7 +17,7 @@ page = "226"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 _"I do so swear under the Light, by the Sword and Scales of Truth and all the fires of heaven, to
@@ -60,7 +60,7 @@ The Low Templar's class skills are [Appraise](ref/skill/appraise) (Int), [Bluff]
 [Stealth](ref/skill/stealth) (Dex), and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

@@ -14,8 +14,8 @@ provenance = [
 kind = "creature"
 cr = "3"
 creature_type = "undead"
-size = "Medium"
-alignment = "LE"
+size = "medium"
+alignment = "lawful evil"
 ac = "18, touch 16, flat-footed 14 (+3 Dex, +1 dodge, +2 Wis, +2 natural)"
 hp = "30 (5d8+8)"
 fortitude = "+3"
@@ -30,8 +30,8 @@ abilities = ["17", "16", "-", "12", "15", "10"]
 ::: statblock
 CR: 3
 XP: 800
-Alignment: LE
-Size: Medium
+Alignment: lawful evil
+Size: medium
 Type: Undead
 Race: human monk 3
 Sex: female

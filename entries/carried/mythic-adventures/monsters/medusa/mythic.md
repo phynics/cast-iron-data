@@ -12,10 +12,10 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "9"
-creature_type = "monstrousHumanoid"
+creature_type = "monstrous humanoid"
 subtypes = ["mythic"]
-size = "Medium"
-alignment = "LE"
+size = "medium"
+alignment = "lawful evil"
 ac = "23, touch 13, flat-footed 20 (+3 Dex, +10 natural)"
 hp = "115 (9d10+66)"
 fortitude = "+7"
@@ -30,8 +30,8 @@ abilities = ["10", "17", "18", "12", "15", "19"]
 ::: statblock
 CR: 9
 XP: 6,400
-Alignment: LE
-Size: Medium
+Alignment: lawful evil
+Size: medium
 Type: Monstrous Humanoid (mythic)
 Init: +10M
 Senses: all-around vision, [darkvision](ref/rule/darkvision) 60 ft.; Perception +18

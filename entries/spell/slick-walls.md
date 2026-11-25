@@ -14,7 +14,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 2 },
@@ -47,7 +47,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Area: 30-ft.-radius emanation centered on a point in space
-Subschool: Creation
+Subschool: creation
 :::
 
 You coat all walls and ceilings within the spell's area with a slick substance. The DC of all Climb

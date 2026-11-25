@@ -14,7 +14,7 @@ page = "234"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 descriptors = ["language-dependant"]
 levels = [
   { class = "Antipaladin", level = 2 },
@@ -44,7 +44,7 @@ Duration: 1 round
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Calling
+Subschool: calling
 Descriptors: language-dependant
 :::
 

@@ -14,8 +14,7 @@ page = "180"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -52,8 +51,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Target: manufactured weapon touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You make one manufactured weapon look like a different manufactured weapon of the same size and

@@ -14,7 +14,7 @@ page = "55"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Red Mantis Assassin", level = 2 },
@@ -43,7 +43,7 @@ Duration: 1 round/level
 Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one living or undead creature
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You warp the target creature's flesh, discoloring it and causing it to become misshapen and

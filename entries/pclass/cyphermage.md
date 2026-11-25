@@ -17,7 +17,7 @@ page = "44"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Based in the pirate city of Riddleport, [Cyphermages](ref/rule/aff-i-tradition) are students of
@@ -53,7 +53,7 @@ The Cyphermage's class skills are [Appraise](ref/skill/appraise) (Int), [Climb](
 [Survival](ref/skill/survival) (Wis), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

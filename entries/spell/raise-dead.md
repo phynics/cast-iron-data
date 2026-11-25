@@ -14,7 +14,7 @@ page = "329"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Adept", level = 5 },
   { class = "Cleric", level = 5 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: none, see text
 Spell resistance: yes
 Target: dead creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 You restore life to a deceased creature. You can raise a creature that has been dead for no longer

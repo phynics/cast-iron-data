@@ -17,7 +17,7 @@ page = "319"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 5 },
@@ -52,7 +52,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Effect: visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)
-Subschool: Figment
+Subschool: figment
 :::
 
 This spell functions like [silent image](ref/spell/silent-image), except that the figment includes

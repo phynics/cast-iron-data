@@ -14,8 +14,7 @@ page = "214"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Bard", level = 3 },
@@ -56,8 +55,7 @@ Duration: 1 hour/level (D)
 Saving throw: Will negates or Will disbelief (see text)
 Spell resistance: yes
 Target: creature or object touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You interfere with attempts to predict the target's future by preventing divinations from revealing

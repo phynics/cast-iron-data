@@ -14,7 +14,7 @@ page = "209"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Druid", level = 1 },
@@ -44,7 +44,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one animal whose CR is equal or less than your caster level
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

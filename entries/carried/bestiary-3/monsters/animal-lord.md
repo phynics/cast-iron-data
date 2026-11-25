@@ -14,8 +14,8 @@ kind = "creature"
 cr = "11"
 creature_type = "outsider"
 subtypes = ["native", "shapechanger"]
-size = "Medium"
-alignment = "NG"
+size = "medium"
+alignment = "neutral good"
 ac = "25, touch 18, flat-footed 18 (+3 armor, +1 deflection, +6 Dex, +1 dodge, +4 natural)"
 hp = "139 (10d10+80)"
 fortitude = "+13"
@@ -31,8 +31,8 @@ abilities = ["20", "24", "22", "12", "18", "14"]
 ::: statblock
 CR: 11
 XP: 12,800
-Alignment: NG
-Size: Medium
+Alignment: neutral good
+Size: medium
 Type: Outsider (native, shapechanger)
 Race: human animal lord ranger 10
 Init: +7

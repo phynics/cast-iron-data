@@ -14,7 +14,7 @@ page = "222"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["poison", "ruse"]
 levels = [
   { class = "Cleric", level = 4 },
@@ -48,7 +48,7 @@ Duration: instantaneous, then 1 hour or until triggered plus 6 rounds; see text
 Saving throw: Will partial (harmless), then Fortitude negates (see text)
 Spell resistance: yes
 Target: one creature
-Subschool: Healing
+Subschool: healing
 Descriptors: poison, ruse
 :::
 

@@ -17,7 +17,7 @@ page = "214"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 descriptors = ["chaotic", "evil", "ruse"]
 levels = [
   { class = "Cleric", level = 7 },
@@ -48,7 +48,7 @@ Duration: 1 day/level
 Saving throw: none
 Spell resistance: yes
 Target: dead creature touched
-Subschool: Calling
+Subschool: calling
 Descriptors: chaotic, evil, ruse
 :::
 

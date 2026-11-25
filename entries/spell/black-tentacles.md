@@ -17,7 +17,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bloodrager", level = 4 },
@@ -53,7 +53,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Area: 20-ft.-radius spread
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell causes a field of rubbery black tentacles to appear, burrowing up from the floor and

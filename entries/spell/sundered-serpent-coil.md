@@ -17,7 +17,7 @@ page = "200"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Magus", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Area: one 5-foot square
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell functions like [black tentacles](ref/spell/black-tentacles), except it creates a Large

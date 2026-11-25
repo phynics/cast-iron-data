@@ -14,7 +14,7 @@ page = "210"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Druid", level = 4 },
   { class = "Hunter", level = 4 },
@@ -42,7 +42,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon a wasp swarm, which fills your space (up to 5 feet by 5 feet) but does not attack you.

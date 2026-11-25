@@ -14,7 +14,7 @@ page = "210"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -54,7 +54,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Effect: one-handed improvised weapon
-Subschool: Creation
+Subschool: creation
 :::
 
 You create a one-handed object that you might expect to see in your current surroundings, which you

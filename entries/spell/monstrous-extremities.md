@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bloodrager", level = 3 },
@@ -52,7 +52,7 @@ Duration: 1 hour/level
 Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You change one of the extremities of the creature touched-arms or legs only-into another shape of

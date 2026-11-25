@@ -14,7 +14,7 @@ page = "202"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["water"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 round/level
 Saving throw: Reflex negates
 Spell resistance: no
 Effect: 10-ft.-diameter sphere
-Subschool: Creation
+Subschool: creation
 Descriptors: water
 :::
 

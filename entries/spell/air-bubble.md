@@ -14,7 +14,7 @@ page = "222"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Cleric", level = 1 },
@@ -50,7 +50,7 @@ Duration: 1 minute/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature or one object no larger than a Large two-handed weapon
-Subschool: Creation
+Subschool: creation
 :::
 
 Air bubble creates a small pocket of breathable air that surrounds the touched creature's head or

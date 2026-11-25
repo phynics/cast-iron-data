@@ -14,7 +14,7 @@ page = "358"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Magus", level = 5 },
@@ -51,7 +51,7 @@ Duration: instantaneous
 Saving throw: none and Will negates (object)
 Spell resistance: no and yes (object)
 Target: you and touched objects or other touched willing creatures
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell instantly transports you to a designated destination, which may be as distant as 100

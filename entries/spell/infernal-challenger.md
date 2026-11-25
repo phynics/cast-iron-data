@@ -17,7 +17,7 @@ page = "60"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Calling"]
+subschools = ["calling"]
 descriptors = ["lawful"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -51,7 +51,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Effect: one called bearded devil and testing ground; see text
-Subschool: Calling
+Subschool: calling
 Descriptors: lawful
 :::
 

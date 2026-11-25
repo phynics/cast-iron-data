@@ -13,7 +13,7 @@ page = "86"
 [fields]
 kind = "creature"
 cr = "6"
-creature_type = "magicalBeast"
+creature_type = "magical beast"
 subtypes = ["extraplanar"]
 size = "large"
 alignment = "neutral"

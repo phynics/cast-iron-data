@@ -14,7 +14,7 @@ page = "155"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Cleric", level = 2 },
@@ -52,7 +52,7 @@ Duration: 1 day
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 > _[Ratfolk](ref/race/ratfolk) have access to the following spell._

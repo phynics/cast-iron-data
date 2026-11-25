@@ -14,7 +14,7 @@ page = "25"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -49,7 +49,7 @@ Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 This spell alters details of your appearance so that you are no longer recognizable as yourself.

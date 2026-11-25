@@ -14,7 +14,7 @@ page = "74"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Arcanist", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 round/level (d; see below)
 Saving throw: none
 Spell resistance: yes
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You gain some of the appearance and qualities of the ja noi, oni who take hobgoblin form. Your skin

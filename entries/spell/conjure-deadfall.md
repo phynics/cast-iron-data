@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Magus", level = 5 },
@@ -46,7 +46,7 @@ Saving throw: Reflex negates (see text)
 Spell resistance: yes
 Area: see text
 Effect: one spiked, falling block
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure a large metal cube covered in sharp spikes. If you conjure the block so that it appears

@@ -14,7 +14,7 @@ page = "81"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Arcanist", level = 2 },
@@ -49,7 +49,7 @@ Duration: 10 minutes/level (D)
 Saving throw: yes (harmless)
 Spell resistance: yes
 Target: corporeal undead creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 The target's flesh fills out and gains a healthy, natural color. This gives the target the

@@ -14,8 +14,8 @@ kind = "creature"
 cr = "7"
 creature_type = "dragon"
 subtypes = ["water"]
-size = "Medium"
-alignment = "CE"
+size = "medium"
+alignment = "chaotic evil"
 ac = "21, touch 12, flat-footed 19 (+2 Dex, +9 natural)"
 hp = "76 (8d12+24)"
 fortitude = "+9"
@@ -30,8 +30,8 @@ abilities = ["19", "14", "17", "10", "13", "10"]
 ::: statblock
 CR: 7
 XP: 3,200
-Alignment: CE
-Size: Medium
+Alignment: chaotic evil
+Size: medium
 Type: Dragon (water)
 Init: +6
 Senses: dragon senses; Perception +14

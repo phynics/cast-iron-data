@@ -14,7 +14,7 @@ page = "14"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Cleric", level = 8 },
   { class = "Inquisitor", level = 6 },
@@ -43,7 +43,7 @@ Duration: 1 round/level
 Saving throw: Will negates (see text)
 Spell resistance: no
 Target: creature touched
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 All attacks made by the target match your alignment, counting as either chaotic, evil, good, or

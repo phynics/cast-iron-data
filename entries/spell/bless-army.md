@@ -14,7 +14,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Cleric", level = 6 },
@@ -43,7 +43,7 @@ Duration: 1 battle
 Saving throw: none
 Spell resistance: yes
 Target: one army
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

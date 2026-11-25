@@ -15,8 +15,8 @@ kind = "creature"
 cr = "7"
 creature_type = "undead"
 subtypes = ["augmented humanoid", "incorporeal"]
-size = "Medium"
-alignment = "CE"
+size = "medium"
+alignment = "chaotic evil"
 ac = "17, touch 17, flat-footed 15 (+1 Dex, +1 dodge, +5 deflection)"
 hp = "73 (7d8+42)"
 fortitude = "+7"
@@ -30,8 +30,8 @@ abilities = ["-", "12", "-", "10", "11", "20"]
 ::: statblock
 CR: 7
 XP: 3,200
-Alignment: CE
-Size: Medium
+Alignment: chaotic evil
+Size: medium
 Type: Undead (augmented humanoid, incorporeal)
 Race: human
 Class Levels: aristocrat 7

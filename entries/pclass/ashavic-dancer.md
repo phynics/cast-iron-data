@@ -14,7 +14,7 @@ page = "4"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Worshiped throughout the Inner Sea region, but particularly along Varisia's Lost Coast, the empyreal
@@ -43,7 +43,7 @@ The Ashavic Dancer's class skills are [Acrobatics](ref/skill/acrobatics) (Dex),
 [Survival](ref/skill/survival) (Wis), and [Spellcraft](ref/skill/spellcraft) (Int).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

@@ -14,7 +14,7 @@ page = "189"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["poison"]
 levels = [
   { class = "Alchemist", level = 3 },
@@ -49,7 +49,7 @@ Duration: 1 round/level
 Saving throw: none and Fortitude negates (see text)
 Spell resistance: no
 Target: one willing creature
-Subschool: Creation
+Subschool: creation
 Descriptors: poison
 :::
 

@@ -14,8 +14,7 @@ page = "10"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -50,8 +49,7 @@ Duration: 1 hour/level (D)
 Saving throw: none (harmless); see text
 Spell resistance: no
 Targets: one willing creature plus one/2 caster levels, no two of which can be more than 30 ft. apart
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 All affected creatures are veiled with a commonplace appearance. This appearance varies based on the

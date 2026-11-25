@@ -17,7 +17,7 @@ page = "54"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Those who focus their studies on the Eye of Abendego can unlock and master potent techniques to
@@ -59,7 +59,7 @@ The Storm Kindler's class skills are [Fly](ref/skill/fly) (Dex),
 (Wis), [Survival](ref/skill/survival) (Wis), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

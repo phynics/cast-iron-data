@@ -14,7 +14,7 @@ page = "235"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 5 },
   { class = "Arcanist", level = 5 },
@@ -45,7 +45,7 @@ Duration: 10 minutes/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: willing living creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You change the target into an animal (as per beast shape I), humanoid (as per alter self), or

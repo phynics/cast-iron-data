@@ -17,7 +17,7 @@ page = "65"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Adept", level = 1 },
   { class = "Antipaladin", level = 1 },
@@ -54,7 +54,7 @@ Duration: 1 minute/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You transform the target's face into a hideous shape, such as a half-melted visage with insect legs

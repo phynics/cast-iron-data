@@ -14,7 +14,7 @@ page = "343"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bard", level = 1 },
@@ -50,7 +50,7 @@ Duration: concentration
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Effect: visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)
-Subschool: Figment
+Subschool: figment
 :::
 
 This spell creates the visual illusion of an object, creature, or force, as visualized by you. The

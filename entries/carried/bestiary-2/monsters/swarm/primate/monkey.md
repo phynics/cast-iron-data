@@ -14,8 +14,8 @@ kind = "creature"
 cr = "2"
 creature_type = "animal"
 subtypes = ["swarm"]
-size = "Tiny"
-alignment = "N"
+size = "tiny"
+alignment = "neutral"
 ac = "15, touch 15, flat-footed 12 (+3 Dex, +2 size)"
 hp = "22 (3d8+9)"
 fortitude = "+6"
@@ -30,8 +30,8 @@ abilities = ["7", "16", "17", "2", "12", "11"]
 ::: statblock
 CR: 2
 XP: 600
-Alignment: N
-Size: Tiny
+Alignment: neutral
+Size: tiny
 Type: Animal (swarm)
 Init: +7
 Senses: [low-light vision](ref/rule/low-light-vision); Perception +5

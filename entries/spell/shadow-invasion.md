@@ -14,7 +14,7 @@ page = "44"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Magus", level = 4 },
@@ -45,7 +45,7 @@ Duration: 1 round/level (d); see text
 Saving throw: none
 Spell resistance: no
 Area: 30-ft. radius emanation centered on you
-Subschool: Summoning
+Subschool: summoning
 :::
 
 Using a slashing motion with the spell's focus as part of the casting of shadow invasion, you cut

@@ -14,7 +14,7 @@ page = "367"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Magus", level = 6 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: see text
 Spell resistance: no
 Effect: iron wall whose area is up to one 5-ft. square/level; see text
-Subschool: Creation
+Subschool: creation
 :::
 
 You cause a flat, vertical iron wall to spring into being. The wall inserts itself into any

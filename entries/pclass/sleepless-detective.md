@@ -14,7 +14,7 @@ page = "52"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Although it operates mainly in the mist-shrouded principality of Ustalav, the Sleepless Agency
@@ -44,7 +44,7 @@ The Sleepless Detective's class skills are [Bluff](ref/skill/bluff) (Cha),
 [Perception](ref/skill/perception) (Wis), and [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

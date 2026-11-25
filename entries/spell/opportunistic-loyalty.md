@@ -14,7 +14,7 @@ page = "75"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Cleric", level = 1 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Compulsion
+Subschool: compulsion
 :::
 
 Cast this spell when a creature within range casts a spell that provides an effect for its allies

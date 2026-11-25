@@ -14,7 +14,7 @@ page = "255"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Pattern"]
+subschools = ["pattern"]
 descriptors = ["light", "mind-affecting"]
 levels = [
   { class = "Arcanist", level = 4 },
@@ -50,7 +50,7 @@ Duration: 1 round/level
 Saving throw: Will negates, see text
 Spell resistance: yes
 Target: one living creature and special; see text
-Subschool: Pattern
+Subschool: pattern
 Descriptors: light, mind-affecting
 :::
 

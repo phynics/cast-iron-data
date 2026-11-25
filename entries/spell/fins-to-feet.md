@@ -14,7 +14,7 @@ page = "195"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Druid", level = 3 },
@@ -47,7 +47,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Target: willing creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 > _[Merfolk](ref/race/merfolk) have access to the following spell._

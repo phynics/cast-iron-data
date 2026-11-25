@@ -14,7 +14,7 @@ page = "26"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Thuvian alchemy evolved from the herbalism and horticulture of the ancient Tekritanin League. Their
@@ -47,7 +47,7 @@ The Thuvian Alchemist's class skills are [Heal](ref/skill/heal) (Wis),
 [Survival](ref/skill/survival) (Wis), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

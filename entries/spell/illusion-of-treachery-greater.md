@@ -17,8 +17,7 @@ page = "217"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Antipaladin", level = 4 },
   { class = "Arcanist", level = 6 },
@@ -53,8 +52,7 @@ Target: you and one creature
 Duration: 1 round/level (D)
 Saving throw: Will disbelief
 Spell resistance: yes
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 ### Greater Illusion of Treachery

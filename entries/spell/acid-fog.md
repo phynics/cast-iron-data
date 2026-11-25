@@ -14,7 +14,7 @@ page = "239"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["acid"]
 levels = [
   { class = "Arcanist", level = 6 },
@@ -45,7 +45,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: fog spreads in 20-ft. radius, 20 ft. high
-Subschool: Creation
+Subschool: creation
 Descriptors: acid
 :::
 

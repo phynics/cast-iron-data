@@ -19,7 +19,7 @@ kind = "creature"
 cr = "2"
 creature_type = "construct"
 size = "tiny"
-alignment = "N (but see below)"
+alignment = "neutral (but see below)"
 ac = "15/14/13"
 hp = "19~3d10+3"
 fortitude = "+1"
@@ -34,7 +34,7 @@ _This doll's glass eyes glisten with unmistakable curiosity as it comes to life 
 
 ::: statblock
 Challenge rating: 2
-Alignment: N (but see below)
+Alignment: neutral (but see below)
 Type: construct
 Initiative: +6
 Perception: +3

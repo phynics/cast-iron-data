@@ -19,8 +19,8 @@ page = "14"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text]"
-subschools = ["Calling"]
+school = "conjuration"
+subschools = ["calling"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Cleric", level = 3 },
@@ -58,7 +58,7 @@ Duration: instantaneous; see text
 Saving throw: none
 Spell resistance: no
 Effect: one called outsider who answers questions
-Subschool: Calling
+Subschool: calling
 :::
 
 ### Planar Inquiry

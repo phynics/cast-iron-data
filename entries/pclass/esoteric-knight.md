@@ -14,7 +14,7 @@ page = "10"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Mysterious warriors and wielders of psychic powers, esoteric knights are as rare as the obscure
@@ -47,7 +47,7 @@ The Esoteric Knight's class skills are [Appraise](ref/skill/appraise) (Int),
 [Swim](ref/skill/swim) (Str)..
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

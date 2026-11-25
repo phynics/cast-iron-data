@@ -17,7 +17,7 @@ page = "122"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 descriptors = ["evil", "mind-affecting"]
 levels = [
   { class = "Arcanist", level = 9 },
@@ -48,7 +48,7 @@ Duration: see text
 Saving throw: Will partial, see below
 Spell resistance: yes
 Target: one creature
-Subschool: Teleportation
+Subschool: teleportation
 Descriptors: evil, mind-affecting
 :::
 

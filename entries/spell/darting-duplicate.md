@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -48,7 +48,7 @@ Duration: instantaneous
 Saving throw: Will negates
 Spell resistance: yes
 Effect: visual figment of the caster
-Subschool: Figment
+Subschool: figment
 :::
 
 An illusory duplicate of you steps clumsily into an adjacent square, presenting a tempting target

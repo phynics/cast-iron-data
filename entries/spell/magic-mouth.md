@@ -14,8 +14,7 @@ page = "310"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Bard", level = 1 },
@@ -53,8 +52,7 @@ Duration: permanent until discharged
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one creature or object
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell imbues the chosen object or creature with an enchanted mouth that suddenly appears and

@@ -14,7 +14,7 @@ page = "332"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Adept", level = 3 },
   { class = "Alchemist", level = 3 },
@@ -52,7 +52,7 @@ Duration: instantaneous
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 Remove disease can cure all diseases from which the subject is suffering. You must make a caster

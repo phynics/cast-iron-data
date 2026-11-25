@@ -14,7 +14,7 @@ page = "202"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Every major deity boasts champions of some type, whether they are paladins sworn to Iomedae or
@@ -47,7 +47,7 @@ The Sentinel's class skills are [Climb](ref/skill/climb) (Str), [Craft](ref/skil
 [Survival](ref/skill/survival) (Wis), and [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

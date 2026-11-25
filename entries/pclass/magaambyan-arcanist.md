@@ -17,7 +17,7 @@ page = "34"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 A Magaambyan arcanist studies and follows traditions of magic originally discovered by Old-Mage
@@ -58,7 +58,7 @@ The Magaambyan Arcanist's class skills are [Diplomacy](ref/skill/diplomacy) (Cha
 [Spellcraft](ref/skill/spellcraft) (Int), and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

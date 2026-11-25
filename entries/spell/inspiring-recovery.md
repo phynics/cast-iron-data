@@ -14,7 +14,7 @@ page = "9"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Cleric", level = 6 },
@@ -48,7 +48,7 @@ Duration: instantaneous and 1 minute
 Saving throw: Will half (harmless)
 Spell resistance: yes (harmless)
 Target: one target creature and all its allies within 60 feet; see text
-Subschool: Healing
+Subschool: healing
 Descriptors: mind-affecting
 :::
 

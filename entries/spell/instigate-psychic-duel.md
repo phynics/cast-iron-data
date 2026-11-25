@@ -14,7 +14,7 @@ page = "174"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Phantasm"]
+subschools = ["phantasm"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Medium", level = 2 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level
 Saving throw: Will negates
 Spell resistance: yes
 Targets: one creature
-Subschool: Phantasm
+Subschool: phantasm
 Descriptors: mind-affecting
 :::
 

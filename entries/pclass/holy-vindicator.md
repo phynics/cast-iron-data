@@ -14,7 +14,7 @@ page = "263"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Many faiths have within their membership an order of the church militant, be they holy knights or
@@ -54,7 +54,7 @@ The Holy Vindicator's class skills are [Climb](ref/skill/climb) (Str), [Heal](re
 [Swim](ref/skill/swim) (Str).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

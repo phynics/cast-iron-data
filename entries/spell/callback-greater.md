@@ -20,7 +20,7 @@ page = "22"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Shaman", level = 5 },
@@ -50,7 +50,7 @@ Target: your familiar or spirit animal
 Duration: 1 hour/level or until expended
 Saving throw: Fortitude negates
 Spell resistance: yes (harmless)
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 ### Greater Callback

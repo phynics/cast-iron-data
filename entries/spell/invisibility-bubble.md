@@ -14,8 +14,7 @@ page = "60"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Antipaladin", level = 2 },
@@ -57,8 +56,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Area: touched creature's space, up to one 5-foot-cube
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 A glamered bubble surrounds the target's space, rendering her completely invisible underwater by

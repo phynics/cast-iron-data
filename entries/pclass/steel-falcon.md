@@ -17,7 +17,7 @@ page = "22"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 The Steel Falcons are Andoran's spiritual and physical vanguard, spreading the government's
@@ -59,7 +59,7 @@ The Steel Falcon's class skills are [Bluff](ref/skill/bluff) (Cha), [Diplomacy](
 (Str).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

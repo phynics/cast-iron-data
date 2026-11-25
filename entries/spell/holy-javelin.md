@@ -14,7 +14,7 @@ page = "119"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["good"]
 levels = [
   { class = "Cleric", level = 3 },
@@ -46,7 +46,7 @@ Duration: 1 round + 1 round/4 levels
 Saving throw: none
 Spell resistance: yes
 Effect: javelin of divine energy
-Subschool: Creation
+Subschool: creation
 Descriptors: good
 :::
 

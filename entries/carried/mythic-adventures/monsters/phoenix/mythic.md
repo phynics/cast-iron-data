@@ -12,10 +12,10 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "18"
-creature_type = "magicalBeast"
+creature_type = "magical beast"
 subtypes = ["fire", "mythic"]
-size = "Gargantuan"
-alignment = "NG"
+size = "gargantuan"
+alignment = "neutral good"
 ac = "37, touch 16, flat-footed 27 (+8 Dex, +2 dodge, +21 natural, -4 size)"
 hp = "280 (20d10+170); regeneration 10 (cold or evil)"
 fortitude = "+17"
@@ -30,8 +30,8 @@ abilities = ["29", "27", "20", "25", "22", "22"]
 ::: statblock
 CR: 18
 XP: 153,600
-Alignment: NG
-Size: Gargantuan
+Alignment: neutral good
+Size: gargantuan
 Type: Magical Beast (fire, mythic)
 Init: +12
 Senses: [darkvision](ref/rule/darkvision) 60 ft., detect magic, detect poison, [low-light vision](ref/rule/low-light-vision), see invisibility, true seeing; Perception +37

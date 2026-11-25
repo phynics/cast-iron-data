@@ -14,7 +14,7 @@ page = "170"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Psychic", level = 5 },
   { class = "Spiritualist", level = 4 },
@@ -42,7 +42,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You place yourself into a cataleptic meditative state and shunt yourself to the Ethereal Plane,

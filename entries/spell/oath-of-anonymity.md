@@ -14,8 +14,7 @@ page = "60"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 0 },
   { class = "Bard", level = 0 },
@@ -49,8 +48,7 @@ Duration: 10 minutes/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 You swear an oath not to reveal your identity, magically preventing anyone from discovering it so

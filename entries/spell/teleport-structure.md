@@ -14,7 +14,7 @@ page = "29"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Sorcerer", level = 6 },
@@ -42,7 +42,7 @@ Duration: instantaneous
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one building
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You instantly teleport a building in a settlement you control to another lot or series of lots in

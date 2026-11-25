@@ -14,7 +14,7 @@ page = "315"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 1 },
   { class = "Bloodrager", level = 1 },
@@ -48,7 +48,7 @@ Duration: 2 hours/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one mount
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon a light horse or a pony (your choice) to serve you as a mount. The steed serves willingly

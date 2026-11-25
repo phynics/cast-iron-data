@@ -14,7 +14,7 @@ page = "18"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["air"]
 levels = [
   { class = "Antipaladin", level = 3 },
@@ -48,7 +48,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Healing
+Subschool: healing
 Descriptors: air
 :::
 

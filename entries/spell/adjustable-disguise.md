@@ -17,8 +17,7 @@ page = "172"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Alchemist", level = 3 },
   { class = "Antipaladin", level = 3 },
@@ -58,8 +57,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell functions as [disguise self](ref/spell/disguise-self), except as a swift action you can

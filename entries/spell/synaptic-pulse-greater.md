@@ -17,7 +17,7 @@ page = "187"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Mesmerist", level = 4 },
@@ -46,7 +46,7 @@ Area: 30-ft.-radius spread centered on you
 Duration: 1d4 rounds; see text
 Saving throw: Will negates
 Spell resistance: yes
-Subschool: Compulsion
+Subschool: compulsion
 Descriptors: mind-affecting
 :::
 

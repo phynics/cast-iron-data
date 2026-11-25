@@ -14,7 +14,7 @@ page = "237"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Hunter", level = 2 },
   { class = "Ranger", level = 2 },
@@ -41,7 +41,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Creation
+Subschool: creation
 :::
 
 A protective spirit is an invisible, mindless, shapeless force that hovers about you, defending you

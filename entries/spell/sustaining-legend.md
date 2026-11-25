@@ -14,7 +14,7 @@ page = "15"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Bard", level = 5 },
   { class = "Cleric", level = 6 },
@@ -45,7 +45,7 @@ Duration: 1 round/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: one creature/level, no two of which can be more than 30 ft. apart
-Subschool: Healing
+Subschool: healing
 :::
 
 The rulers of Azlant are thought to have used this spell to amplify the mythic power of themselves

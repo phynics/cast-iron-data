@@ -17,8 +17,7 @@ page = "302"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Mesmerist", level = 6 },
@@ -52,8 +51,7 @@ Targets: any number of creatures, no two of which can be more than 180 ft. apart
 Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 ### Mass Invisibility

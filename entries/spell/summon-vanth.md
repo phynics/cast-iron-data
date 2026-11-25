@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Cleric", level = 6 },
@@ -52,7 +52,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned vanth psychopomp
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell functions like [summon monster](ref/spell/summon-monster), except that it summons a

@@ -14,7 +14,7 @@ page = "343"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Psychic", level = 7 },
@@ -45,7 +45,7 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: no
 Effect: one duplicate creature
-Subschool: Shadow
+Subschool: shadow
 :::
 
 Simulacrum creates an illusory duplicate of any creature. The duplicate creature is partially real

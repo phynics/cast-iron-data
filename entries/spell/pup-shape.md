@@ -14,7 +14,7 @@ page = "240"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Druid", level = 3 },
@@ -46,7 +46,7 @@ Duration: 1 round/level
 Saving throw: Fortitude negates (and Will special, see text)
 Spell resistance: yes
 Target: one animal
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You transform the subject animal into a Small magical beast (or a magical beast one size category

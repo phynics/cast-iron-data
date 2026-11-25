@@ -17,7 +17,7 @@ page = "12"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Cleric", level = 3 },
@@ -54,7 +54,7 @@ Duration: instantaneous or 1 round/level; see text
 Saving throw: Fortitude partial
 Spell resistance: no
 Effect: see text
-Subschool: Creation
+Subschool: creation
 :::
 
 This spell creates a 1-foot-long spike of cold iron that you fling at your target as a ranged touch

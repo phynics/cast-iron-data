@@ -14,7 +14,7 @@ page = "209"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 2 },
   { class = "Arcanist", level = 2 },
@@ -46,7 +46,7 @@ Duration: 1 minute/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 > _[Vishkanyas](ref/race/vishkanya) have access to the following spell._

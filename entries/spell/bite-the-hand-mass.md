@@ -17,7 +17,7 @@ page = "57"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Compulsion"]
+subschools = ["compulsion"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Druid", level = 6 },
@@ -52,7 +52,7 @@ Target: one creature summoned by a spell or spell-like ability/ level, no two of
 Duration: 1 round/level (D)
 Saving throw: Will negates
 Spell resistance: yes
-Subschool: Compulsion
+Subschool: compulsion
 :::
 
 ### Mass Bite the Hand

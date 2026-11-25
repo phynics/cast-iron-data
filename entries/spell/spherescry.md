@@ -14,7 +14,7 @@ page = "45"
 [fields]
 kind = "spell"
 school = "divination"
-subschools = ["Scrying"]
+subschools = ["scrying"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Sorcerer", level = 3 },
@@ -42,7 +42,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: sphere of annihilation
-Subschool: Scrying
+Subschool: scrying
 :::
 
 This spell allows remote viewing through spheres that have previously consumed some portion of the

@@ -14,7 +14,7 @@ page = "196"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["poison"]
 levels = [
   { class = "Druid", level = 1 },
@@ -44,7 +44,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: javelin-like thorn
-Subschool: Creation
+Subschool: creation
 Descriptors: poison
 :::
 

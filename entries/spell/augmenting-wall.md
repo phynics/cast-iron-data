@@ -13,7 +13,7 @@ page = "30"
 
 [fields]
 kind = "spell"
-school = "evocation [see text]"
+school = "evocation"
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Magus", level = 5 },

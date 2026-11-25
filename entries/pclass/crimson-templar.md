@@ -14,7 +14,7 @@ page = "8"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Even the most devout followers of good can recognize the need for ruthlessness when opposing true
@@ -43,7 +43,7 @@ The Crimson Templar's class skills are [Bluff](ref/skill/bluff) (Cha),
 (Wis), [Sense Motive](ref/skill/sense-motive) (Wis), and [Survival](ref/skill/survival) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

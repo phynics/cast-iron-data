@@ -14,7 +14,7 @@ page = "286"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Alchemist", level = 6 },
   { class = "Arcanist", level = 6 },
@@ -45,7 +45,7 @@ Duration: 1 minute/level (D)
 Saving throw: see below
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You become a Medium chromatic or metallic dragon. You gain a +4 size bonus to Strength, a +2 size

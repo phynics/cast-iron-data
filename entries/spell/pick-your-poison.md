@@ -17,7 +17,7 @@ page = "11"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 descriptors = ["mind-affecting"]
 levels = [
   { class = "Bard", level = 1 },
@@ -50,7 +50,7 @@ Duration: 10 minutes/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
-Subschool: Healing
+Subschool: healing
 Descriptors: mind-affecting
 :::
 

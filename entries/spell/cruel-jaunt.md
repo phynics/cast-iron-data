@@ -14,7 +14,7 @@ page = "114"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 descriptors = ["evil", "fear", "mind-affecting"]
 levels = [
   { class = "Antipaladin", level = 4 },
@@ -53,7 +53,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Teleportation
+Subschool: teleportation
 Descriptors: evil, fear, mind-affecting
 :::
 

@@ -16,8 +16,8 @@ page = "78"
 kind = "creature"
 cr = "3"
 creature_type = "vermin"
-size = "Small"
-alignment = "N"
+size = "small"
+alignment = "neutral"
 ac = "15, touch 12, flat-footed 14 (+1 Dex, +3 natural, +1 size)"
 hp = "34 (4d8+16)"
 fortitude = "+8"
@@ -31,8 +31,8 @@ abilities = ["14", "12", "18", "-", "10", "1"]
 ::: statblock
 CR: 3
 XP: 800
-Alignment: N
-Size: Small
+Alignment: neutral
+Size: small
 Type: Vermin
 Init: +1
 Senses: [blindsense](ref/rule/blindsight-and-blindsense) 30 ft.; Perception +0

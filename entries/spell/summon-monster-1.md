@@ -17,8 +17,8 @@ via = "ref/feat/versatile-summon-monster"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text]"
-subschools = ["Summoning"]
+school = "conjuration"
+subschools = ["summoning"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -58,7 +58,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one summoned creature
-Subschool: Summoning
+Subschool: summoning
 :::
 
 This spell summons an extraplanar creature (typically an outsider, elemental, or magical beast

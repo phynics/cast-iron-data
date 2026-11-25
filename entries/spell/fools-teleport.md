@@ -14,8 +14,7 @@ page = "13"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Mesmerist", level = 3 },
@@ -46,8 +45,7 @@ Duration: 1 minute/level
 Saving throw: Will negates (harmless), see text
 Spell resistance: no
 Target: you and other touched willing creatures
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 This spell instantly renders you unseen as per invisibility, but creates a visual and auditory

@@ -14,7 +14,7 @@ page = "206"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Druid", level = 3 },
@@ -46,7 +46,7 @@ Duration: 1 hour/level
 Saving throw: Fortitude negates
 Spell resistance: yes
 Target: animal touched
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 You transform the touched animal into a bipedal hybrid of its original form with a humanoid form,

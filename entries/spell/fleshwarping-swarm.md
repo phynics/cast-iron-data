@@ -16,7 +16,7 @@ page = "220"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Summoning"]
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Sorcerer", level = 3 },
@@ -46,7 +46,7 @@ Duration: concentration+ 2 rounds and 1 hour/level (see text)
 Saving throw: none
 Spell resistance: no
 Effect: one swarm of bats, rats, or spiders
-Subschool: Summoning
+Subschool: summoning
 :::
 
 > _The following spell is available to the indicated race or ethnicity: [Drow](ref/race/drow)_

@@ -14,7 +14,7 @@ page = "204"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Druid", level = 5 },
   { class = "Hunter", level = 4 },
@@ -43,7 +43,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 When you cast this spell, you take on an aspect of a wolf, including some of its physical

@@ -14,8 +14,8 @@ kind = "creature"
 cr = "11"
 creature_type = "dragon"
 subtypes = ["fire"]
-size = "Large"
-alignment = "CG"
+size = "large"
+alignment = "chaotic good"
 ac = "28, touch 10, flat-footed 27 (+1 Dex, +18 natural, -1 size)"
 hp = "161 (14d12+70)"
 fortitude = "+14"
@@ -30,8 +30,8 @@ abilities = ["25", "12", "21", "16", "17", "16"]
 ::: statblock
 CR: 11
 XP: 12,800
-Alignment: CG
-Size: Large
+Alignment: chaotic good
+Size: large
 Type: Dragon (fire)
 Init: +5
 Senses: [blindsense](ref/rule/blindsight-and-blindsense) 60 ft., dragon senses; Perception +24

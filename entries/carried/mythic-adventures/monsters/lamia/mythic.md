@@ -12,10 +12,10 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "7"
-creature_type = "monstrousHumanoid"
+creature_type = "monstrous humanoid"
 subtypes = ["mythic", "shapechanger"]
-size = "Large"
-alignment = "CE"
+size = "large"
+alignment = "chaotic evil"
 ac = "24, touch 14, flat-footed 19 (+3 Dex, +2 dodge, +10 natural, -1 size)"
 hp = "97 (9d10+48)"
 fortitude = "+7"
@@ -30,8 +30,8 @@ abilities = ["18", "16", "14", "13", "17", "15"]
 ::: statblock
 CR: 7
 XP: 3,200
-Alignment: CE
-Size: Large
+Alignment: chaotic evil
+Size: large
 Type: Monstrous Humanoid (mythic, shapechanger)
 Init: +3
 Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision); Perception +15

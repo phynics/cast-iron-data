@@ -15,8 +15,8 @@ kind = "creature"
 cr = "9"
 creature_type = "outsider"
 subtypes = ["air", "elemental", "extraplanar"]
-size = "Huge"
-alignment = "N"
+size = "huge"
+alignment = "neutral"
 ac = "22, touch 18, flat-footed 12 (+9 Dex, +1 dodge, +4 natural, -2 size)"
 hp = "110 (13d10+39)"
 fortitude = "+11"
@@ -30,8 +30,8 @@ abilities = ["22", "29", "16", "8", "11", "11"]
 ::: statblock
 CR: 9
 XP: 6,400
-Alignment: N
-Size: Huge
+Alignment: neutral
+Size: huge
 Type: Outsider (air, elemental, extraplanar)
 Init: +13
 Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +16

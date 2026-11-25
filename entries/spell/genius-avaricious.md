@@ -14,7 +14,7 @@ page = "68"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["evil"]
 levels = [
   { class = "Arcanist", level = 6 },
@@ -46,7 +46,7 @@ Duration: instantaneous (see text)
 Saving throw: none
 Spell resistance: no
 Effect: a vestige of the archdevil Mammon imbues a coin with a negotiable degree of power
-Subschool: Creation
+Subschool: creation
 Descriptors: evil
 :::
 

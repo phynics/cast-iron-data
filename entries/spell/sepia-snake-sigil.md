@@ -14,7 +14,7 @@ page = "339"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["force"]
 levels = [
   { class = "Arcanist", level = 3 },
@@ -47,7 +47,7 @@ Duration: permanent or until discharged; until released or 1d4 days + 1 day/leve
 Saving throw: Reflex negates
 Spell resistance: no
 Target: one touched book or written work
-Subschool: Creation
+Subschool: creation
 Descriptors: force
 :::
 

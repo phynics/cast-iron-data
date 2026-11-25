@@ -14,8 +14,7 @@ page = "222"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Bard", level = 3 },
   { class = "Cleric", level = 5 },
@@ -47,8 +46,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates
 Spell resistance: yes
 Targets: any number of creatures in a 30-ft.-radius burst
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 > _The following spell is available to the indicated race or ethnicity: Chelaxian_

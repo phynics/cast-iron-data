@@ -14,8 +14,8 @@ kind = "creature"
 cr = "17"
 creature_type = "dragon"
 subtypes = ["earth", "mythic"]
-size = "Huge"
-alignment = "LE"
+size = "huge"
+alignment = "lawful evil"
 ac = "39, touch 9, flat-footed 38 (+1 Dex, +30 natural, -2 size)"
 hp = "295 (18d12+178)"
 fortitude = "+17"
@@ -30,8 +30,8 @@ abilities = ["27", "12", "23", "16", "17", "16"]
 ::: statblock
 CR: 17
 XP: 102,400
-Alignment: LE
-Size: Huge
+Alignment: lawful evil
+Size: huge
 Type: Dragon (earth, mythic)
 Init: +12M
 Senses: [blindsense](ref/rule/blindsight-and-blindsense) 60 ft., [darkvision](ref/rule/darkvision) 120 ft., [low-light vision](ref/rule/low-light-vision); Perception +24

@@ -14,7 +14,7 @@ page = "314"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Adept", level = 2 },
   { class = "Arcanist", level = 2 },
@@ -52,7 +52,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Figment
+Subschool: figment
 :::
 
 This spell creates a number of illusory doubles of you that inhabit your square. These doubles make

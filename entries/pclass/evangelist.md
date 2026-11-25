@@ -14,7 +14,7 @@ page = "198"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Though all faiths have their dedicated priests and righteous warriors, gods inspire devotion from a
@@ -73,7 +73,7 @@ The Evangelist's class skills are [Craft](ref/skill/craft-any) (Int),
 (Wis), and [Profession](ref/skill/profession-any) (Wis).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 

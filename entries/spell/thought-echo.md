@@ -14,8 +14,7 @@ page = "189"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Mesmerist", level = 1 },
   { class = "Psychic", level = 1 },
@@ -42,8 +41,7 @@ Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 When you cast this spell, you establish a mental echo of up to 25 words. Any attempt to read the

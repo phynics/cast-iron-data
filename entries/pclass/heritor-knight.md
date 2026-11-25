@@ -14,7 +14,7 @@ page = "16"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d10."
+hit_die = "d10"
 +++
 
 Some seek to follow in the footsteps of Iomedae the Inheritor through study of the miracles of her
@@ -42,7 +42,7 @@ The Heritor Knight's class skills are [Diplomacy](ref/skill/diplomacy) (Cha),
 [Sense Motive](ref/skill/sense-motive) (Wis).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d10.
+**Hit Die:** d10
 
 ### Class Features
 

@@ -12,8 +12,8 @@ provenance = [
 [fields]
 kind = "creature"
 creature_type = "animal"
-size = "Large"
-alignment = "N"
+size = "large"
+alignment = "neutral"
 ac = "16, touch 9, flat-footed 16 (+7 natural, -1 size)"
 hp = "42 (5d8+20)"
 fortitude = "+10"
@@ -27,8 +27,8 @@ abilities = ["22", "10", "19", "2", "13", "5"]
 ::: statblock
 CR: —
 XP: —
-Alignment: N
-Size: Large
+Alignment: neutral
+Size: large
 Type: Animal
 Init: +0
 Senses: [darkvision](ref/rule/darkvision) 60 ft., scent; Perception +12

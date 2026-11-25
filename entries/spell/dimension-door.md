@@ -17,7 +17,7 @@ page = "17"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Bard", level = 4 },
@@ -57,7 +57,7 @@ Duration: instantaneous
 Saving throw: none and Will negates (object)
 Spell resistance: no and yes (object)
 Target: you and touched objects or other touched willing creatures
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You instantly transfer yourself from your current location to any other spot within range. You

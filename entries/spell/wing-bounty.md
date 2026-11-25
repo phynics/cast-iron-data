@@ -14,7 +14,7 @@ page = "14"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Druid", level = 2 },
   { class = "Hunter", level = 2 },
@@ -42,7 +42,7 @@ Duration: 1 day/level
 Saving throw: none
 Spell resistance: no
 Effect: 2d4 berries + 2 berries/level
-Subschool: Creation
+Subschool: creation
 :::
 
 > _[Gathlains](ref/race/gathlain) have access to the following spell._

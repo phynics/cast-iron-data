@@ -17,7 +17,7 @@ page = "26"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["cold", "water"]
 levels = [
   { class = "Druid", level = 2 },
@@ -47,7 +47,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Area: 20-ft.-radius spread
-Subschool: Creation
+Subschool: creation
 Descriptors: cold, water
 :::
 

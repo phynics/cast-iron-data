@@ -14,7 +14,7 @@ page = "130"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 descriptors = ["evil"]
 levels = [
   { class = "Antipaladin", level = 3 },
@@ -52,7 +52,7 @@ Duration: 1 hour/level
 Saving throw: Will negates (see text)
 Spell resistance: no
 Target: one or more dogs touched
-Subschool: Polymorph
+Subschool: polymorph
 Descriptors: evil
 :::
 

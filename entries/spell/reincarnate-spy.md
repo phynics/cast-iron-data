@@ -17,7 +17,7 @@ page = "223"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Healing"]
+subschools = ["healing"]
 levels = [
   { class = "Druid", level = 6 },
   { class = "Hunter", level = 6 },
@@ -47,7 +47,7 @@ Duration: instantaneous
 Saving throw: none (see text)
 Spell resistance: yes
 Target: dead creature touched
-Subschool: Healing
+Subschool: healing
 :::
 
 ### Reincarnate Spy

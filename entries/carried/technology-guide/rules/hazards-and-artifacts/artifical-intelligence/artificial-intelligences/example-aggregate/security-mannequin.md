@@ -14,8 +14,8 @@ kind = "creature"
 cr = "3"
 creature_type = "construct"
 subtypes = ["robot"]
-size = "Medium"
-alignment = "LN"
+size = "medium"
+alignment = "lawful neutral"
 ac = "15, touch 12, flat-footed 13 (+2 Dex, +3 natural)"
 hp = "31 (2d10+20)"
 fortitude = "+0"
@@ -31,8 +31,8 @@ abilities = ["15", "14", "-", "14", "16", "14"]
 ::: statblock
 CR: 3
 XP: 800
-Alignment: LN
-Size: Medium
+Alignment: lawful neutral
+Size: medium
 Type: Construct (robot)
 Race: aggregate security ai mannequin robot
 Init: +6

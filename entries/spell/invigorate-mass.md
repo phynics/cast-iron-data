@@ -17,7 +17,7 @@ page = "230"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Bard", level = 3 },
   { class = "Mesmerist", level = 3 },
@@ -47,7 +47,7 @@ Targets: creatures touched, up to one/level
 Duration: 10 minutes/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Subschool: Figment
+Subschool: figment
 :::
 
 ### Mass Invigorate

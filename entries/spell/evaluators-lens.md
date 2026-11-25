@@ -14,7 +14,7 @@ page = "30"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Inquisitor", level = 2 },
@@ -47,7 +47,7 @@ Duration: 1 minute/level or until discharged
 Saving throw: none
 Spell resistance: no
 Effect: see text
-Subschool: Creation
+Subschool: creation
 :::
 
 You summon an insubstantial lens of force 4 inches in diameter that hovers in front of your face.

@@ -17,7 +17,7 @@ page = "224"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 One of the most mysterious and mystical Varisian traditions, and certainly one that has captured the
@@ -61,7 +61,7 @@ The Harrower's class skills are [Bluff](ref/skill/bluff) (Cha), [Craft](ref/skil
 [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 2 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

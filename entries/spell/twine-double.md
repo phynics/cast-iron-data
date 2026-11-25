@@ -17,7 +17,7 @@ page = "23"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Shadow"]
+subschools = ["shadow"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Red Mantis Assassin", level = 3 },
@@ -46,7 +46,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one duplicate creature
-Subschool: Shadow
+Subschool: shadow
 :::
 
 As [simulacrum](ref/spell/simulacrum), except you can only duplicate yourself, and the duplicate is

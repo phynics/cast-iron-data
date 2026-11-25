@@ -17,7 +17,7 @@ page = "31"
 [fields]
 kind = "spell"
 school = "transmutation"
-subschools = ["Polymorph"]
+subschools = ["polymorph"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Druid", level = 8 },
@@ -47,7 +47,7 @@ Duration: 1 minute/level (D)
 Saving throw: see below
 Spell resistance: no
 Target: you
-Subschool: Polymorph
+Subschool: polymorph
 :::
 
 ### Form of the Exotic Dragon II

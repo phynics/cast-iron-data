@@ -14,7 +14,7 @@ page = "34"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d6."
+hit_die = "d6"
 +++
 
 Enchanting courtesans are elite information brokers who perfect their bodies and develop their minds
@@ -50,7 +50,7 @@ The Enchanting Courtesan's class skills are [Acrobatics](ref/skill/acrobatics) (
 [Sleight of Hand](ref/skill/sleight-of-hand) (Dex), and [Stealth](ref/skill/stealth) (Dex).
 
 **Skill Points at each Level:** 6 + Int modifier.\
-**Hit Die:** d6.
+**Hit Die:** d6
 
 ### Class Features
 

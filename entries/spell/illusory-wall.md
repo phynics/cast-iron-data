@@ -14,7 +14,7 @@ page = "299"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Figment"]
+subschools = ["figment"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Mesmerist", level = 4 },
@@ -46,7 +46,7 @@ Duration: permanent
 Saving throw: Will disbelief (if interacted with)
 Spell resistance: no
 Effect: image 1 ft. by 10 ft. by 10 ft.
-Subschool: Figment
+Subschool: figment
 :::
 
 This spell creates the illusion of a wall, floor, ceiling, or similar surface. It appears absolutely

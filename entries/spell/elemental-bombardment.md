@@ -13,8 +13,8 @@ page = "14"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text]"
-subschools = ["Summoning"]
+school = "conjuration"
+subschools = ["summoning"]
 levels = [
   { class = "Arcanist", level = 7 },
   { class = "Druid", level = 7 },
@@ -43,7 +43,7 @@ Duration: 1 round/2 levels (D)
 Saving throw: none
 Spell resistance: no
 Effect: one or more summoned elementals
-Subschool: Summoning
+Subschool: summoning
 :::
 
 You summon elementals from their elemental planes and hurl them onto your enemies with great force.

@@ -13,8 +13,8 @@ page = "221"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text]"
-subschools = ["Summoning"]
+school = "conjuration"
+subschools = ["summoning"]
 levels = [
   { class = "Antipaladin", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -49,7 +49,7 @@ Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
 Effect: one crow
-Subschool: Summoning
+Subschool: summoning
 :::
 
 > _The following spell is available to the indicated race or ethnicity: [Orc](ref/race/orc)_

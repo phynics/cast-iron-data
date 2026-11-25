@@ -14,7 +14,7 @@ page = "230"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Bard", level = 3 },
   { class = "Mesmerist", level = 3 },
@@ -42,7 +42,7 @@ Duration: instantaneous
 Saving throw: Will negates
 Spell resistance: yes
 Target: one living creature
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You teleport the target to a space you can see within 30 feet of the target. The destination must be

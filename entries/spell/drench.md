@@ -12,7 +12,7 @@ page = "1"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["water"]
 levels = [
   { class = "Sorcerer", level = 0 },

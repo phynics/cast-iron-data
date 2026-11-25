@@ -14,7 +14,7 @@ page = "317"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Adept", level = 1 },
   { class = "Arcanist", level = 1 },
@@ -54,7 +54,7 @@ Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: cloud spreads in 20-ft. radius from you, 20 ft. high
-Subschool: Creation
+Subschool: creation
 :::
 
 A misty vapor arises around you. It is stationary. The vapor obscures all sight, including

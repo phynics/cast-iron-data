@@ -13,7 +13,7 @@ page = "31"
 
 [fields]
 kind = "spell"
-school = "transmutation [see text]"
+school = "transmutation"
 levels = [
   { class = "Cleric", level = 4 },
   { class = "Oracle", level = 4 },

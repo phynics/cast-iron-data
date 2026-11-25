@@ -17,7 +17,7 @@ page = "28"
 [fields]
 kind = "spell"
 school = "enchantment"
-subschools = ["Charm"]
+subschools = ["charm"]
 descriptors = ["emotion", "mind-affecting"]
 levels = [
   { class = "Bard", level = 1 },
@@ -52,7 +52,7 @@ Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
-Subschool: Charm
+Subschool: charm
 Descriptors: emotion, mind-affecting
 :::
 

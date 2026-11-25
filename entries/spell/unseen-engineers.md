@@ -14,7 +14,7 @@ page = "27"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Sorcerer", level = 3 },
@@ -46,7 +46,7 @@ Duration: 1 minute/level
 Saving throw: none
 Spell resistance: no
 Effect: a team of tiny, invisible engineers
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure an invisible team of tiny engineers to construct a trap at alarming speed. Originating

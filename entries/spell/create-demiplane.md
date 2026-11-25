@@ -17,7 +17,7 @@ page = "213"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 8 },
   { class = "Cleric", level = 8 },
@@ -52,7 +52,7 @@ Duration: 1 day/level or instantaneous (see text)
 Saving throw: none
 Spell resistance: no
 Effect: extradimensional demiplane, up to 10 10-ft. cubes/level (S)
-Subschool: Creation
+Subschool: creation
 :::
 
 ### Create Demiplane

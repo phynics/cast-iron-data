@@ -17,7 +17,7 @@ page = "157"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Druid", level = 3 },
@@ -53,7 +53,7 @@ Duration: instantaneous or 1 hour/level
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one touched animal of Tiny or smaller size
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 This spell functions like [apport object](ref/spell/apport-object) except the target is an animal.

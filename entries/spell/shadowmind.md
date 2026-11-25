@@ -14,7 +14,7 @@ page = "16"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Phantasm"]
+subschools = ["phantasm"]
 levels = [
   { class = "Antipaladin", level = 2 },
   { class = "Arcanist", level = 3 },
@@ -55,7 +55,7 @@ Duration: 1 minute/level
 Saving throw: Will negates
 Spell resistance: yes
 Target: up to one creature/level, no two of which can be more than 30 ft. apart
-Subschool: Phantasm
+Subschool: phantasm
 :::
 
 You dim your targets' perceptions of light and shadow, convincing them the space they occupy is

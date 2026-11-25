@@ -14,7 +14,7 @@ page = "228"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 descriptors = ["earth"]
 levels = [
   { class = "Druid", level = 5 },
@@ -44,7 +44,7 @@ Duration: 1 day/level or until triggered (D)
 Saving throw: Reflex half (see below)
 Spell resistance: no
 Area: one 5-ft. square/level (S); the area must be a stone surface
-Subschool: Creation
+Subschool: creation
 Descriptors: earth
 :::
 

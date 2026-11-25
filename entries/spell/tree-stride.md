@@ -14,7 +14,7 @@ page = "362"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Druid", level = 5 },
   { class = "Hunter", level = 4 },
@@ -43,7 +43,7 @@ Duration: 1 hour/level or until expended; see text
 Saving throw: none
 Spell resistance: no
 Target: you
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 When you cast this spell, you gain the ability to step into a tree, magically infusing yourself with

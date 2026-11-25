@@ -16,8 +16,8 @@ page = "321"
 
 [fields]
 kind = "spell"
-school = "conjuration [see text for lesser planar binding]"
-subschools = ["Calling"]
+school = "conjuration"
+subschools = ["calling"]
 levels = [
   { class = "Arcanist", level = 6 },
   { class = "Occultist", level = 6 },
@@ -50,7 +50,7 @@ Duration: instantaneous
 Saving throw: Will negates
 Spell resistance: no and yes; see text
 Targets: up to three elementals or outsiders, totaling no more than 12 HD, no two of which can be more than 30 ft. apart when they appear
-Subschool: Calling
+Subschool: calling
 :::
 
 This spell functions like [lesser planar binding](ref/spell/planar-binding-lesser), except that you

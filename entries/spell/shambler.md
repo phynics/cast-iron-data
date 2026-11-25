@@ -14,7 +14,7 @@ page = "341"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Druid", level = 9 },
   { class = "Shaman", level = 9 },
@@ -41,7 +41,7 @@ Duration: 7 days or 7 months (d); see text
 Saving throw: none
 Spell resistance: no
 Effect: three or more shambling mounds, no two of which can be more than 30 ft. apart; see text
-Subschool: Creation
+Subschool: creation
 :::
 
 The shambler spell creates 1d4+2 shambling mounds with the advanced template. The creatures

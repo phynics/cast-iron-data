@@ -14,8 +14,7 @@ page = "75"
 [fields]
 kind = "spell"
 school = "illusion"
-subschools = ["Glamer"]
-descriptors = ["glamer"]
+subschools = ["glamer"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Cleric", level = 2 },
@@ -46,8 +45,7 @@ Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
 Target: construct touched
-Subschool: Glamer
-Descriptors: glamer
+Subschool: glamer
 :::
 
 > _Clerics of [Brigh](ref/faith/brigh) have access to the following spell._

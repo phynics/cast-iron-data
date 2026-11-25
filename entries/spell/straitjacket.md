@@ -14,7 +14,7 @@ page = "128"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 5 },
   { class = "Inquisitor", level = 4 },
@@ -47,7 +47,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: yes
 Target: one creature
-Subschool: Creation
+Subschool: creation
 :::
 
 You cause a straitjacket to spring into existence to restrain the target creature. You attempt a

@@ -14,7 +14,7 @@ page = "22"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Teleportation"]
+subschools = ["teleportation"]
 levels = [
   { class = "Arcanist", level = 4 },
   { class = "Cleric", level = 4 },
@@ -50,7 +50,7 @@ Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
 Target: you and one summoned creature you control
-Subschool: Teleportation
+Subschool: teleportation
 :::
 
 You create an extradimensional link between yourself and one summoned creature you control that

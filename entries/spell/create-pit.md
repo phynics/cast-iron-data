@@ -14,7 +14,7 @@ page = "213"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 2 },
   { class = "Sorcerer", level = 2 },
@@ -44,7 +44,7 @@ Duration: 1 round + 1 round/level
 Saving throw: Reflex negates
 Spell resistance: no
 Effect: 10-ft.-by-10-ft. hole, 10 ft. deep/2 levels
-Subschool: Creation
+Subschool: creation
 :::
 
 You create a 10-foot-by-10-foot extradimensional hole with a depth of 10 feet per two caster levels

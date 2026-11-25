@@ -14,7 +14,7 @@ page = "239"
 [fields]
 kind = "spell"
 school = "conjuration"
-subschools = ["Creation"]
+subschools = ["creation"]
 levels = [
   { class = "Arcanist", level = 3 },
   { class = "Bard", level = 3 },
@@ -46,7 +46,7 @@ Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
 Effect: one quasi-real, human-like creature
-Subschool: Creation
+Subschool: creation
 :::
 
 You conjure a Small or Medium, quasi-real, human-like creature (the exact physical features can be

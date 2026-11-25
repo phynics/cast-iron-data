@@ -14,7 +14,7 @@ page = "152"
 [fields]
 kind = "class"
 class_type = "prestige"
-hit_die = "d8."
+hit_die = "d8"
 +++
 
 Since their establishment, the [Red Mantis](ref/rule/aff-assassins) have abided by the divine laws
@@ -66,7 +66,7 @@ The Death Slayer's class skills are [Disguise](ref/skill/disguise) (Cha),
 [Stealth](ref/skill/stealth) (Dex), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
 
 **Skill Points at each Level:** 4 + Int modifier.\
-**Hit Die:** d8.
+**Hit Die:** d8
 
 ### Class Features
 
