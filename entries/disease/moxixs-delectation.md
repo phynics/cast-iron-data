@@ -23,7 +23,7 @@ kind = "none"
 
 **Frequency:** 1/day
 
-**Effect:** Constitution damage 1d3 and Wisdom damage 1d3
+**Effect:** 1d3 Con and 1d3 Wis damage
 
 **Cure:** 2 consecutive saves
 
