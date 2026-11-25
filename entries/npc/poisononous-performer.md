@@ -1,7 +1,7 @@
 +++
 id = "ref/npc/poisononous-performer"
 kind = "creature"
-title = "Poisononous Performer"
+title = "Poisonous Performer"
 source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisononous_performer", path = "json/npcs3.json" },

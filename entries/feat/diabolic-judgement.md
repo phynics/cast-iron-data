@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/diabolic-judgement"
 kind = "feat"
-title = "Diabolic Judgement"
+title = "Diabolic Judgment"
 aon = "FeatDisplay.aspx?ItemName=Diabolic%20Judgement"
 source_ids = ["planar-adventures"]
 provenance = [

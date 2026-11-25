@@ -46,7 +46,7 @@ swordmasters indiscriminately and without care to the traditions of the techniqu
 [Falling Water Gambit](ref/feat/falling-water-gambit),
 [Garen's Discipline](ref/feat/garens-discipline),
 [Redistributed Might](ref/feat/redistributed-might),
-[Serren's Masterstroke](ref/feat/serrens-masterstroke)
+[Sirian's Masterstroke](ref/feat/serrens-masterstroke)
 
 **Magic Items:** [rostland edge](ref/magic-weapon/rostland-edge),
 [swordlord's cloak](ref/magic-wondrous/swordlords-cloak)
