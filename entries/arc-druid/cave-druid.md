@@ -17,7 +17,7 @@ page = "99"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "cavesense" },
+  { anchor = "cavesense", level = 1 },
   { anchor = "nature-bond" },
   { anchor = "wild-empathy" },
   { anchor = "tunnelrunner", level = 2 },

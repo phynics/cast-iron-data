@@ -17,7 +17,7 @@ page = "117"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "smite-evil" },
+  { anchor = "smite-evil", level = 1 },
   { anchor = "spells", level = 4 },
   { anchor = "divine-bond", level = 5 },
   { anchor = "call-celestial-ally", level = 8 },

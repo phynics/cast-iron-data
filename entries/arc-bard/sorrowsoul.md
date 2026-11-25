@@ -74,6 +74,6 @@ A sorrowsoul can funnel his bardic powers to persevere in the face of seemingly 
 5th level, a sorrowsoul can spend 3 rounds of his daily bardic performance as an immediate action to
 gain a +2 insight bonus on all saving throws for 1 round. At 11th level, a sorrowsoul also gains
 [spell resistance](ref/rule/spell-resistance) equal to 11 + his bard level when using this ability.
-At 17th level, a sorrowsoul also gains DR 10/—when using this ability.
+At 17th level, a sorrowsoul also gains DR 10/— when using this ability.
 
 This ability replaces lore master.

@@ -22,15 +22,16 @@ features = [
   { anchor = "extended-effect" },
   { anchor = "faithful-creature" },
   { anchor = "punishing-thought-form" },
+  { anchor = "reciprocal-defense" },
   { anchor = "thought-made-real", level = 9 },
   { anchor = "expert-manifester", level = 17 },
 ]
 trades = [
   { replaces = "4th-level discipline spell", feature = "psychic-discipline", power = "discipline spell", by = ["psychic-duel-acumen"] },
-  { replaces = "7th-level phrenic amplification", feature = "phrenic-amplifications", levels = [7], by = ["punishing-thought-form"] },
+  { replaces = "7th-level phrenic amplification", feature = "phrenic-amplifications", levels = [7], by = ["reciprocal-defense"] },
   { replaces = "Telepathic bond", feature = "telepathic-bond", by = ["thought-made-real"] },
   { replaces = "Telepathy", feature = "telepathy", by = ["expert-manifester"] },
-  { alters = "Phrenic amplifications", feature = "phrenic-amplifications", by = ["punishing-thought-form"] },
+  { alters = "Phrenic amplifications", feature = "phrenic-amplifications", by = ["reciprocal-defense"] },
 ]
 +++
 
@@ -87,11 +88,13 @@ The psychic duelist can spend 1 point from her phrenic pool to increase the dama
 offensive manifestation by one step (d4 to d6, d6 to d8, or d8 to d10). This amplification can be
 linked only to offensive manifestations.
 
-_Reciprocal Defense (Su):_ The psychic duelist can spend 1 point from her phrenic pool when using a
-defensive manifestation to improve her defenses in the real world as well. Her physical body gains a
-+2 insight bonus to AC for the number of rounds the defensive manifestation lasts, or for 1 round if
-the manifestation doesn't have a duration. This bonus increases to +3 at 11th level and to +4 at
-15th level. This amplification can be linked only to defensive manifestations.
+## Reciprocal Defense (Su) {#reciprocal-defense}
+
+The psychic duelist can spend 1 point from her phrenic pool when using a defensive manifestation to
+improve her defenses in the real world as well. Her physical body gains a +2 insight bonus to AC for
+the number of rounds the defensive manifestation lasts, or for 1 round if the manifestation doesn't
+have a duration. This bonus increases to +3 at 11th level and to +4 at 15th level. This
+amplification can be linked only to defensive manifestations.
 
 This ability replaces the 7th-level phrenic amplification and alters phrenic amplifications.
 

@@ -511,7 +511,7 @@ def finish_text(s: str, vocab: set[str]) -> str:
     s = re.sub(r"(?<=\w) – (?=\d)", " - ", s)             # a minus operator ("druid level – 2")
     s = fix_ligatures(s, vocab)
     s = fix_hyphens(s, vocab)
-    s = re.sub("\u2014 +(?=\\S)", "\u2014", s)          # a line that ends in an em dash joins the next one without a blank
+    s = re.sub("(?<=[A-Za-z0-9)_])\u2014 +(?=\\S)", "\u2014", s)   # a line that ends in an em dash joins the next one without a blank ("DR 5/\u2014 against" keeps its blank)
     # the extraction pads italic runs with blanks
     s = re.sub(I_OPEN + r"\s+", " " + I_OPEN, s)
     s = re.sub(r"\s+" + I_CLOSE, I_CLOSE + " ", s)
@@ -739,11 +739,15 @@ def read_blocks(book: Book, first: int, last: int) -> list[Para]:
             else:
                 insets[ln["col"]] = None
                 starts = indent >= 8
-            if starts and out and out[-1].kind == "para" and not re.search(r"[.!?:;)\"”…]\s*$", out[-1].plain()):
+            if ILLUSTRATED["on"] and starts and out and out[-1].kind == "para" and not re.search(r"[.!?:;)\"”…]\s*$", out[-1].plain()) \
+                    and not (all(bold for t, bold, _i in out[-1].runs if t.strip())
+                             and not next((bold for t, bold, _i in ln["runs"] if t.strip()), True)):
                 # beside an illustration a line may be indented without starting a paragraph: a paragraph does not
-                # start in the middle of a sentence
+                # start in the middle of a sentence (a line of bold type only is a head, which has no sentence end, and
+                # the next line in plain type starts its text: "4th-Level Ki Powers" of the Qinggong Monk; a second line
+                # in bold type is the rest of the head: "Musketeer Instruction" over "(Ex)")
                 starts = False
-            if not starts and out and out[-1].kind == "para" and re.search(r"[.)!?\"”]\s*$", out[-1].plain()):
+            if ILLUSTRATED["on"] and not starts and out and out[-1].kind == "para" and re.search(r"[.)!?\"”]\s*$", out[-1].plain()):
                 # beside an illustration the lines have no common indent: a head ("Rope Swing (Ex):") after the end of a
                 # sentence still starts a paragraph
                 cand = head_candidate(Para("para", list(ln["runs"]), shown, ln["col"]))
@@ -765,10 +769,15 @@ CLASS_TITLES = {squash(x) for x in (
 
 # a title that names a type of rules ("ORDER OF THE SHROUD (CAVALIER ORDER)", "NEW WILD TALENTS (KINETICIST)") ends the
 # section of an archetype: it is the next entry of the book, not a sidebar of this one
-TYPE_TITLE = re.compile(r"\([A-Z][A-Z' -]+\)\s*$")
+TYPE_TITLE = re.compile(r"\([A-Za-z][A-Za-z' -]{3,}\)\s*$")           # the Advanced Player's Guide sets titles in mixed small caps
 
 CLASS_SUFFIX = re.compile(r"\s*\((?:Alchemist|Antipaladin|Barbarian|Bard|Cavalier|Cleric|Druid|Fighter|Gunslinger|Inquisitor|Magus|"
                           r"Monk|Oracle|Paladin|Ranger|Rogue|Sorcerer|Summoner|Witch|Wizard)\)\s*$")
+
+
+# The titles of archetypes that print sets in the section of the archetype before them and that the corpus holds as headed
+# prose of another entry (the Advanced Player's Guide's Totem Warrior and Animal Shamans): they end a section too.
+UNTYPED_ARCHETYPE_TITLES = {squash(x) for x in ("Totem Warrior", "Animal Shamans")}
 
 
 def find_section(blocks: list[Para], title: str, stops: set[str] | None = None) -> list[Para] | None:
@@ -1531,6 +1540,10 @@ MISPRINTS = [
 ERRATA_BOOKS = {"advanced-class-guide": "Advanced Class Guide"}
 ERRATA_CTX: dict = {"book": "", "used": set()}
 SKIP_TABLES = {"on": False}         # the Advanced Race Guide sets its tables in sans-serif type
+# The Advanced Class Guide and the Advanced Race Guide set text beside illustrations: a line may be indented without
+# starting a paragraph, and a head may follow a sentence end in a line without the common indent. The other books
+# have regular columns, where those two rules would join a head to the line before it.
+ILLUSTRATED = {"on": False}
 
 
 def _arc(entry: str) -> str:
@@ -2525,6 +2538,9 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
             r["notes"] = [note] + [n for n in r["notes"] if n.startswith(("print asterisks", "misprint", "link", "anchor", "errata"))]
             r["status"] = "print"
         elif kind in ("drop", "to-opening"):
+            if kind == "drop" and r.get("print", "").strip() and r.get("span"):
+                # the head is printed and the corpus has it: dropping it would leave print's text out
+                problems.append(f"the drop decision of `{r['anchor']}` leaves out printed text: the head is printed")
             rows.remove(r)
             r["notes"], r["status"] = [note], "print"
             dropped.append(r)
@@ -2674,6 +2690,7 @@ def run_compare(args) -> int:
     title = publication_title(corpus, book)
     ERRATA_CTX["book"] = book
     SKIP_TABLES["on"] = book == "advanced-race-guide"
+    ILLUSTRATED["on"] = book in ("advanced-class-guide", "advanced-race-guide")
     pdf = find_pdf(Path(args.books), title)
     if not pdf:
         raise SystemExit(f"no copy of {title!r} under {args.books}")
@@ -2684,7 +2701,7 @@ def run_compare(args) -> int:
     decisions = read_decisions(corpus, book)
     edits = read_edits(corpus, book)
     adds = read_adds(corpus, book)
-    stops = {squash(x.title) for x in entries} | CLASS_TITLES
+    stops = {squash(x.title) for x in entries} | CLASS_TITLES | UNTYPED_ARCHETYPE_TITLES
     whole = None
     done = {e.id for e in entries if e.converted}
     redo = {e.id for e in entries if not e.converted}
@@ -3177,6 +3194,7 @@ def self_test() -> int:
     pf = PrintFeature("Bullet Deflection (Ex)", [[("(including the alchemist's bomb class ability; ", False, False), ("Advanced Player's Guide", False, True), (" 28). It works.", False, False)]], 50)
     text, _, notes = print_md(pf, [("alchemist's", "ref/class/alchemist")], set(), "ref/arc-gunslinger/gun-tank")
     eq(text, "(including the [alchemist's](ref/class/alchemist) bomb class ability). It works.", "ruling 26: a bare book citation goes, the link stays")
+    eq(finish_text("gains DR 5/\u2014 against ranged attacks, 1st\u2014 _spell_", set()), "gains DR 5/\u2014 against ranged attacks, 1st\u2014_spell_", "an em dash joins the next line after a word, not after DR 5/")
     # a section ends at a parenthesized type title (owner review of batch 3), not only at an archetype title
     blocks = [Para("title", [("SILVER BALLADEER (BARD ARCHETYPE)", True, False)], 1, 0, 18), Para("para", [("Text.", False, False)], 1, 0),
               Para("title", [("ORDER OF THE SHROUD (CAVALIER ORDER)", True, False)], 1, 0, 18), Para("para", [("Order text.", False, False)], 1, 0)]

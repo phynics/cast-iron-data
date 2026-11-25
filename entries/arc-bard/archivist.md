@@ -18,7 +18,7 @@ page = "80"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "naturalist" },
+  { anchor = "naturalist", level = 1 },
   { anchor = "lamentable-belaborment", level = 6 },
   { anchor = "pedantic-lecture", level = 18 },
   { anchor = "lore-master", level = 2 },

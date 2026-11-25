@@ -18,13 +18,13 @@ page = "82"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "stealspell" },
+  { anchor = "stealspell", level = 1 },
   { anchor = "slumber-song", level = 6 },
   { anchor = "dramatic-subtext", level = 9 },
   { anchor = "greater-stealspell" },
   { anchor = "mass-slumber-song", level = 18 },
   { anchor = "spell-catching", level = 20 },
-  { anchor = "master-of-deception" },
+  { anchor = "master-of-deception", level = 1 },
   { anchor = "sneakspell", level = 2 },
   { anchor = "trap-sense", level = 3 },
   { anchor = "sneak-attack", level = 5 },

@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "convincing-attitude", level = 1 },
   { anchor = "combat-advisor", level = 4 },
-  { anchor = "bonus-feats", level = 4 },
   { anchor = "field-boss", level = 10 },
 ]
 trades = [
@@ -27,7 +26,7 @@ trades = [
   { replaces = "evasion", feature = "evasion", by = ["convincing-attitude"] },
   { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["combat-advisor"] },
   { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["combat-advisor"] },
-  { replaces = "All instances of trap sense", feature = "trap-sense", by = ["bonus-feats"] },
+  { replaces = "All instances of trap sense", feature = "trap-sense" },
   { replaces = "Rogue talent normally gained at 10th level", feature = "rogue-talents", levels = [10], by = ["field-boss"] },
 ]
 +++

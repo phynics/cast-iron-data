@@ -18,10 +18,10 @@ page = "81"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "careful-teamwork" },
+  { anchor = "careful-teamwork", level = 1 },
   { anchor = "true-confession", level = 9 },
   { anchor = "show-yourselves", level = 15 },
-  { anchor = "eye-for-detail" },
+  { anchor = "eye-for-detail", level = 1 },
   { anchor = "arcane-insight", level = 2 },
   { anchor = "arcane-investigation" },
 ]

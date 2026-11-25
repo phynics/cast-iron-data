@@ -18,11 +18,11 @@ page = "82"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "dweomercraft" },
+  { anchor = "dweomercraft", level = 1 },
   { anchor = "spell-suppression", level = 8 },
   { anchor = "metamagic-mastery", level = 14 },
-  { anchor = "magical-talent" },
-  { anchor = "improved-counterspell" },
+  { anchor = "magical-talent", level = 1 },
+  { anchor = "improved-counterspell", level = 1 },
   { anchor = "extended-performance", level = 2 },
   { anchor = "expanded-repertoire", level = 2 },
   { anchor = "arcane-bond", level = 5 },

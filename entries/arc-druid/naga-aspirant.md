@@ -48,7 +48,7 @@ druid spell list.
 0—_acid splash_, _bleed_, _daze_, _mage hand_, _open/close_, _ray of frost_; 1st—_charm person_,
 _divine favor_, _expeditious retreat_, _mage armor_, _magic missile, ray of enfeeblement, shield,
 shield of faith, silent image, true strike_; 2nd—_acid arrow_, _detect thoughts_, _invisibility_,
-_mirror image_, _scorching ray_, _see invisibility_; 3rd— _dispel magic, displacement, fireball,
+_mirror image_, _scorching ray_, _see invisibility_; 3rd—_dispel magic, displacement, fireball,
 lightning bolt, suggestion_; 4th—_divine power_, _greater invisibility_.
 
 This ability replaces spontaneous casting.

@@ -17,7 +17,7 @@ page = "80"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "arcane-strike" },
+  { anchor = "arcane-strike", level = 1 },
   { anchor = "bardic-performance" },
   { anchor = "rallying-cry", level = 1 },
   { anchor = "bladethirst" },

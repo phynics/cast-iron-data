@@ -18,11 +18,11 @@ page = "81"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "satire" },
+  { anchor = "satire", level = 1 },
   { anchor = "mockery" },
   { anchor = "glorious-epic" },
   { anchor = "scandal" },
-  { anchor = "heraldic-expertise" },
+  { anchor = "heraldic-expertise", level = 1 },
   { anchor = "wide-audience", level = 5 },
 ]
 trades = [

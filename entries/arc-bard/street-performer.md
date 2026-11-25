@@ -18,12 +18,12 @@ page = "85"
 kind = "archetype"
 features = [
   { anchor = "bardic-performance" },
-  { anchor = "disappearing-act" },
+  { anchor = "disappearing-act", level = 1 },
   { anchor = "harmless-performer", level = 3 },
   { anchor = "madcap-prank", level = 9 },
   { anchor = "slip-through-the-crowd", level = 15 },
-  { anchor = "gladhanding" },
-  { anchor = "streetwise" },
+  { anchor = "gladhanding", level = 1 },
+  { anchor = "streetwise", level = 1 },
   { anchor = "quick-change", level = 5 },
 ]
 trades = [
