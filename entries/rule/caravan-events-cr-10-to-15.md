@@ -8,6 +8,12 @@ provenance = [
 ]
 [[sources]]
 publication = "pathfinder-52-forest-of-spirits"
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "81"
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "83"
 
 [fields]
 kind = "none"

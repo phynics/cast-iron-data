@@ -2,7 +2,7 @@
 id = "ref/monster/herd-animal-oxen"
 kind = "creature"
 title = "Oxen (Herd Animal)"
-source_ids = ["bestiary", "pathfinder-51-the-hungry-storm"]
+source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herd_animal_oxen", path = "json/monsters13.json" },
 ]

@@ -4341,10 +4341,6 @@ title = "Striped Toadstool"
 entry = "ref/eq-poison/striped-toadstool"
 
 [[books.chapters.children.children]]
-title = "Swampseer poison"
-entry = "ref/eq-poison/swampseer-poison"
-
-[[books.chapters.children.children]]
 title = "Tears of Death"
 entry = "ref/eq-poison/tears-of-death"
 
