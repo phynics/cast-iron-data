@@ -78,7 +78,7 @@ title = "Psychic Magic"
 Caster level: 16
 Concentration: +22; Wisdom-based
 Power points: 27
-Psychoactive powers: catatonia, 3 PE, DC 19, cognitive block, 3 PE, DC 19, divide mind, 9 PE, mind thrust IV, 4 PE, DC 20, remote viewing, 5 PE, retrocognition, 5 PE, unshakeable zeal, 7 PE
+Psychoactive powers: catatonia, 3 PE, DC 19, cognitive block, 3 PE, DC 19, divide mind, 9 PE, mind thrust IV, 4 PE, DC 20, remote viewing, 5 PE, retrocognition, 5 PE, unshakable zeal, 7 PE
 :::
 
 ### Statistics

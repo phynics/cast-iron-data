@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/retributive-summoning"
 kind = "feat"
-title = "Retributive Summoning"
+title = "Retributive Summons"
 aon = "FeatDisplay.aspx?ItemName=Retributive%20Summoning"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [

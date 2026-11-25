@@ -219,7 +219,7 @@ roll to confirm a critical hit or save against a fear effect, you instead add 1d
 
 **4th:** righteous vigor
 
-**6th:** unshakeable zeal
+**6th:** unshakable zeal
 
 If you are evil, replace the domain spells _holy smite, holy sword,_ and
 _[holy aura](ref/spell/holy-aura)_ with [unholy blight](ref/spell/unholy-blight),

@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/modification-master"
 kind = "feat"
-title = "Modification Master"
+title = "Modification Mastery"
 aon = "FeatDisplay.aspx?ItemName=Modification%20Master"
 source_ids = ["adventurers-armory-2"]
 provenance = [

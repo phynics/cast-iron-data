@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/concilator"
 kind = "feat"
-title = "Concilator"
+title = "Conciliator"
 aon = "FeatDisplay.aspx?ItemName=Concilator"
 source_ids = ["spymasters-handbook"]
 provenance = [

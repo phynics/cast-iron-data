@@ -1,7 +1,7 @@
 +++
 id = "ref/spell/companion-transportation"
 kind = "spell"
-title = "Companion Transportation"
+title = "Companion Transposition"
 aon = "SpellDisplay.aspx?ItemName=Companion%20Transportation"
 source_ids = ["ultimate-wilderness"]
 provenance = [

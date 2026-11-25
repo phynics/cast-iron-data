@@ -1,7 +1,7 @@
 +++
 id = "ref/feat/serrens-masterstroke"
 kind = "feat"
-title = "Serren's Masterstroke"
+title = "Sirian's Masterstroke"
 aon = "FeatDisplay.aspx?ItemName=Serren%27s%20Masterstroke"
 source_ids = ["adventurers-guide"]
 provenance = [
