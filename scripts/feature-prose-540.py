@@ -5079,6 +5079,21 @@ for _eid in (        # "This alters the cavalier's class skills." (the Class Ski
         "ref/arc-medium/medium-of-the-master"):
     TRADE_ADDITIONS.setdefault(_eid, []).append({"alters": "Class skills"})
 TRADE_RENAMES.update({
+    ("ref/arc-bard/buccaneer", "Bardic knowledge"): "bardic knowledge",
+    ("ref/arc-bard/buccaneer", "Suggestion"): "suggestion",
+    ("ref/arc-bard/buccaneer", "Lore master"): "lore master",
+    ("ref/arc-bard/buccaneer", "Mass suggestion"): "mass suggestion",
+    ("ref/arc-fighter/corsair", "The fighter's 2nd-level bonus feat"): "the fighter's 2nd-level bonus feat",
+    ("ref/arc-fighter/corsair", "Armor training"): "armor training",
+    ("ref/arc-fighter/corsair", "The fighter's 6th-level bonus feat"): "the fighter's 6th-level bonus feat",
+    ("ref/arc-ranger/freebooter", "Favored enemy"): "favored enemy",
+    ("ref/arc-ranger/freebooter", "Hunter's bond"): "hunter's bond",
+    ("ref/arc-ranger/freebooter", "Woodland stride"): "woodland stride",
+    ("ref/arc-rogue/smuggler", "Trapfinding"): "trapfinding",
+    ("ref/arc-rogue/smuggler", "Evasion"): "Evasion",
+    ("ref/arc-rogue/smuggler", "Trap sense"): "trap sense",
+})
+TRADE_RENAMES.update({
     ("ref/arc-witch/jinx-witch", "2nd-level hex"): "Witch's hex normally gained at 2nd level",
     ("ref/arc-witch/jinx-witch", "6th-level hex"): "Hex normally gained at 6th level",
     ("ref/arc-witch/jinx-witch", "10th-level hex"): "Major hex gained at 10th level",
@@ -5293,7 +5308,7 @@ def letters_key(text: str) -> str:
 
 def printed_trade_sentences(section: list) -> list[str]:
     """Every "This replaces/alters/changes ..." sentence of the printed span of an archetype, in print order."""
-    text = " ".join(re.sub(r"\s+", " ", b.plain()) for b in section if b.kind == "para")
+    text = re.sub(r"\s+", " ", " ".join(b.plain() for b in section if b.kind == "para"))
     text = re.sub(r"\b1oth\b", "10th", text)      # the text layer reads a zero as a letter
     return [re.sub(r"\s+", " ", m.group(0)).strip() for m in PRINTED_TRADE.finditer(text)]
 
@@ -5979,6 +5994,8 @@ def self_test() -> int:
             Para("para", [("This replaces knockout.", False, False)], 1, 0),
             Para("para", [("This alters the warpriest\u2019s blessings.", False, False)], 1, 0)]
     eq(printed_trade_sentences(span), ["This replaces knockout.", "This alters the warpriest\u2019s blessings."], "printed trade sentences")
+    split_trade = [Para("para", [("This  ", False, False)], 1, 0), Para("para", [("ability replaces suggestion.", False, False)], 1, 0)]
+    eq(printed_trade_sentences(split_trade), ["This ability replaces suggestion."], "a trade sentence split between extracted paragraphs")
     eq(letters_key("This alters the warpriest\u2019s _[blessings](ref/x/y)_.") in letters_key("a\n\nThis alters the warpriest's blessings.\n"), True, "a printed sentence is found in the entry")
     eq(letters_key("This replaces knockout.") in letters_key("At 4th level, a hinyasi learns to confound."), False, "a missing printed sentence")
     import tempfile

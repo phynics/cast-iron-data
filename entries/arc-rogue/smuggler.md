@@ -16,10 +16,15 @@ page = "23"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bribery", level = 3 },
+  { anchor = "conceal-item", level = 1 },
+  { anchor = "distraction", level = 2 },
+]
 trades = [
-  { replaces = "Trapfinding", feature = "trapfinding" },
-  { replaces = "Evasion", feature = "evasion" },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "trapfinding", feature = "trapfinding", by = ["conceal-item"] },
+  { replaces = "Evasion", feature = "evasion", by = ["distraction"] },
+  { replaces = "trap sense", feature = "trap-sense", by = ["bribery"] },
 ]
 +++
 
@@ -30,36 +35,27 @@ help smuggle escaped slaves to freedom. Smugglers may work on a ship that does n
 goods from one port to another, or they may freelance, working on ships that require a smuggler's
 services for a short time.
 
-**Conceal Item**
+## Bribery {#bribery}
 
-**Ability:** A smuggler can use Sleight of Hand to conceal a small item in a container or room, such
-as the false bottom of a chest or beneath floorboards. Anyone attempting to find an item concealed
-by a smuggler makes a Perception check opposed by the Sleight of Hand check made by the smuggler
-when she concealed the object.
+An experienced smuggler knows how to smooth over interactions with customs officials. At 3rd level,
+when dealing with officials working at a checkpoint, conducting an inspection, or performing another
+such activity, a smuggler can make a Diplomacy check opposed by the presiding official's Sense
+Motive check to ensure her contraband makes it through. She gains a +1 bonus on this Diplomacy
+check. On a successful check, the smuggler pays a small bribe (5d4 gp) to guarantee her cargo
+remains undisturbed. This bonus rises to +2 when the smuggler reaches 6th level, +3 at 9th level, +4
+at 12th level, +5 at 15th level, and +6 at 18th level. This ability replaces trap sense.
 
-**Passive:** A smuggler adds 1/2 her level on Sleight of Hand checks (minimum +1).
+## Conceal Item {#conceal-item}
 
-**Replaces:** Trapfinding
+A smuggler adds 1/2 her level on Sleight of Hand checks (minimum +1). A smuggler can use Sleight of
+Hand to conceal a small item in a container or room, such as the false bottom of a chest or beneath
+floorboards. Anyone attempting to find an item concealed by a smuggler makes a Perception check
+opposed by the Sleight of Hand check made by the smuggler when she concealed the object. This
+ability replaces trapfinding.
 
-**Distraction**
+## Distraction {#distraction}
 
-**Flavor:** A smuggler uses patter and body language to deflect searchers from hidden items.
-
-**At 2nd Level:** A smuggler may make a Bluff check opposed by a searcher's Perception check when a
-searcher looks for items the smuggler has concealed. If the smuggler's Bluff check succeeds, the
-searcher must make a second Perception check and take the lower of the two rolls.
-
-**Replaces:** Evasion
-
-**Bribery**
-
-**Flavor:** An experienced smuggler knows how to smooth over interactions with customs officials.
-
-**At 3rd Level:** When dealing with officials working at a checkpoint, conducting an inspection, or
-performing another such activity, a smuggler can make a Diplomacy check opposed by the presiding
-official's Sense Motive check to ensure her contraband makes it through. She gains a bonus on this
-Diplomacy check equal to [one-third](ref/misc/fractions-and-rounding) of her rogue level. On a
-successful check, the smuggler pays a small bribe (5d4 gp) to guarantee her cargo remains
-undisturbed.
-
-**Replaces:** Trap sense
+A smuggler uses patter and body language to deflect searchers from hidden items. At 2nd level, a
+smuggler may make a Bluff check opposed by a searcher's Perception check when a searcher looks for
+items the smuggler has concealed. If the smuggler's Bluff check succeeds, the searcher must make a
+second Perception check and take the lower of the two rolls. This ability replaces Evasion.
