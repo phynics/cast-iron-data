@@ -2682,7 +2682,7 @@ def _close_italics(citation: str) -> str:
     """What stays of a dropped citation: the italic that the text layer set over a spell name and the title in its citation as one run
     ("_overwhelming presence (Pathfinder RPG Ultimate Magic_ 230)") closes where the citation was, so that the name keeps its italics."""
     extra = citation.count(I_CLOSE) - citation.count(I_OPEN)
-    return I_CLOSE * extra if CITE_EXT["on"] and extra > 0 else ""
+    return I_CLOSE * extra if extra > 0 else ""
 
 
 def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]], entry_id: str = "") -> str:
