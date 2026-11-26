@@ -16,8 +16,16 @@ page = "19"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "triadic-bond" },
+  { anchor = "bonded-channeler" },
+  { anchor = "bonded-domain", level = 1 },
+  { anchor = "bonded-power" },
+  { anchor = "bonded-unity" },
+  { anchor = "bonded-ritual" },
+]
 trades = [
-  { alters = "Domains", feature = "domains" },
+  { alters = "Domains", feature = "domains", by = ["bonded-domain"] },
 ]
 +++
 
@@ -25,80 +33,60 @@ Power comes not just from communion with one's deity, but also from the formatio
 triumvirates. At the head of these groups are triadic priests. Although witch covens and changelings
 are the most likely to pursue this tradition, the practice sometimes appears among other faiths.
 
-**Triadic Bond (Su)**
-
-**Action:** Ability
+## Triadic Bond (Su) {#triadic-bond}
 
 A triadic priest can perform a 10-minute ritual with exactly two allies in order to create an
 enduring bond between them that lasts until the triadic priest either dissolves the bond (a process
 that takes 1 minute of concentration) or creates a new bond. When performing the bonding ritual, the
 triadic priest can also include any of her allies' familiars or spirit animals; these creatures gain
-the benefits of the _bonded channeler_ ability and the drawbacks of being in the bond, but they are
-not treated as bonded allies for the purpose of the triadic priest's _bonded domain._ Only
-intelligent and fully independent creatures can serve as her two bonded companions. Animal
-companions, eidolons, familiars, phantoms, and similar nonsentient or dependent creatures are not
-suitable.
+the benefits of the bonded channeler ability and the drawbacks of being in the bond, but they are
+not treated as bonded allies for the purpose of the triadic priest's bonded domain. Only intelligent
+and fully independent creatures can serve as her two bonded companions. Animal companions, eidolons,
+familiars, phantoms, and similar nonsentient or dependent creatures are not suitable.
 
 The bonded allies gain numerous benefits and can help empower the triadic priest's spellcasting, as
 noted in the abilities below. However, if a bonded ally dies, the other members of the bond must
 each succeed at a Fortitude save (DC = 10 + the triadic priest's class level) or gain 1 permanent
 [negative level](ref/rule/energy-drain-and-negative-levels).
 
-**Bonded Channeler (Su)**
+## Bonded Channeler (Su) {#bonded-channeler}
 
-**Choice:** When a triadic priest uses her channel energy ability, she must choose to affect either
-only her bonded allies or everyone except her bonded allies.
+When a triadic priest uses her channel energy ability, she must choose to affect either only her
+bonded allies or everyone except her bonded allies.
 
-**Bonded Domain (Su)**
+## Bonded Domain (Su) {#bonded-domain}
 
-**Ability:** A triadic priest selects only one domain granted by her deity. However, while she is
-within 10 feet of least one of her bonded allies, she gains the following benefits.
+A triadic priest selects only one domain granted by her deity. However, while she is within 10 feet
+of at least one of her bonded allies, she gains the following benefits.
 
-**Alters:** Domains
+This alters the domains class feature.
 
-**Bonded Power (Su)**
+## Bonded Power (Su) {#bonded-power}
 
-**Ability:** A triadic priest gains either a witch's [coven](ref/hex/coven) hex or the
+A triadic priest gains either a witch's [coven](ref/hex/coven) hex or the
 [Allied Spellcaster](ref/feat/allied-spellcaster) feat as a bonus feat.
 
-**Bonded Unity (Su)**
+## Bonded Unity (Su) {#bonded-unity}
 
-**Move:** A triadic priest can share one teamwork feat she has with up to two bonded companions that
-are within 10 feet of her. Her bonded companions do not need to meet the feat's prerequisites and
-gain the benefits of the feat for 1 round plus 1 additional round for every 5 class levels the
-triadic priest has. A bonded companion can gain only one teamwork feat in this way at a time.
+As a move action, a triadic priest can share one teamwork feat she has with up to two bonded
+companions that are within 10 feet of her. Her bonded companions do not need to meet the feat's
+prerequisites and gain the benefits of the feat for 1 round plus 1 additional round for every 5
+class levels the triadic priest has. A bonded companion can gain only one teamwork feat in this way
+at a time. The triadic priest can use this ability a number of times per day equal to 3 + her Wisdom
+modifier.
 
-**Usage:** Wis3 modifier times/day
+## Bonded Ritual {#bonded-ritual}
 
-**Bonded Ritual**
+A triadic priest can prepare any of the spells below as though they were domain spells, though she
+can cast these domain spells only while she is within 10 feet of one of her bonded allies. At 8th
+level, once per day while within 10 feet of both her bonded allies, a triadic priest can cast any
+one of her domain spells of a spell level she can cast, whether she has prepared the spell or not,
+without expending a spell slot. If one of these domain spells has a casting time of more than one
+standard action, the triadic priest must succeed at a [concentration](ref/rule/concentration) check
+(DC = 20 + double the spell's level) or lose the spell if at any point during the casting she does
+not have a bonded ally within 10 feet.
 
-**Info:** The spells below are listed by spell level.
+### Domain Spells {#domain-spells}
 
-**At 1st Level:** A triadic priest can prepare any of the spells below as though they were domain
-spells, though she can cast these domain spells only while she is within 10 feet of one of her
-bonded allies.
-
-**At 8th Level:** Once per day while within 10 feet of both her bonded allies, a triadic priest can
-cast any one of her domain spells of a spell level she can cast, whether she has prepared the spell
-or not, without expending a spell slot. If one of these domain spells has a casting time of more
-than one standard action, the triadic priest must succeed at a
-[concentration](ref/rule/concentration) check (DC = 20 + double the spell's level) or lose the spell
-if at any point during the casting she does not have a bonded ally within 10 feet.
-
-**Spells:** Ill omen
-
-**Spells:** Blindness/deafness
-
-**Spells:** Bestow curse
-
-**Spells:** Charm monster
-
-**Spells:** Baleful polymorph
-
-**Spells:** Control weather
-
-**Spells:** Forcecage
-
-**Spells:** Mind blank
-
-**Spells:** Astral projection
+1st—_ill omen_, 2nd—_blindness/deafness_, 3rd—_bestow curse_, 4th—_charm monster_, 5th—_baleful
+polymorph_, 6th—_control weather_, 7th—_forcecage_, 8th—_mind blank_, 9th—_astral projection_.

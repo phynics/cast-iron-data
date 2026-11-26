@@ -1,0 +1,9 @@
+[[edit]]
+entry = "ref/arc-ranger/elemental-envoy"
+anchor = "planar-combatant"
+note = "the printed sentence, with the link to the ranger's combat style (review of #344)"
+text = '''
+At 2nd level, an elemental envoy must choose the elemental [combat style](ref/ability/combat-styles) on this page, choosing his combat style feats from that list.
+
+This alters the ranger's combat style feats.
+'''
