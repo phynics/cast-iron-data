@@ -16,11 +16,15 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "custom-mechanism", level = 1 },
+  { anchor = "mechanical-understanding", level = 3 },
+]
 trades = [
-  { replaces = "The trapfinding", feature = "trapfinding" },
-  { replaces = "poison lore", feature = "poison-lore" },
-  { replaces = "poison resistance", feature = "poison-resistance" },
-  { replaces = "Trap sense", feature = "trap-sense" },
+  { replaces = "The trapfinding", feature = "trapfinding", by = ["custom-mechanism"] },
+  { replaces = "poison lore", feature = "poison-lore", by = ["custom-mechanism"] },
+  { replaces = "poison resistance", feature = "poison-resistance", by = ["custom-mechanism"] },
+  { replaces = "Trap sense", feature = "trap-sense", by = ["mechanical-understanding"] },
 ]
 +++
 
@@ -28,34 +32,26 @@ A number of investigators use their vast knowledge to build machines that replic
 of the world. These investigators create devices to enhance the minds and bodies of their allies and
 themselves.
 
-**Custom Mechanism (Ex)**
+## Custom Mechanism (Ex) {#custom-mechanism}
 
-**Ability:** An engineer can create a mechanism, a small device that assists with the execution of
-an activity. Creating a mechanism requires 1 minute of time and expends 1 use from the engineer's
-_inspiration pool._ An engineer chooses a skill to associate with the mechanism when he creates it.
-As an **immediate action**, a mechanism can be activated to grant the engineer's inspiration die on
-a check of the associated skill. A mechanism remains active for a number of minutes equal to the
-engineer's Intelligence modifier (minimum 1).
-
-**At 11th Level:** An engineer's mechanisms remain active for a number of hours equal to the
-engineer's level.
-
-**At 5th Level:** An engineer's mechanisms remain active for a number of minutes equal to the
-engineer's level.
-
-**Replaces:** The trapfinding, poison lore, poison resistance
-
-**Special:** An engineer can create a mechanism that affects attack rolls or saving throws, but she
-expends 2 uses from her _inspiration pool_ to do so. Any creature can use a mechanism, but a
+An engineer can create a mechanism, a small device that assists with the execution of an activity.
+Creating a mechanism requires 1 minute of time and expends 1 use from the engineer's inspiration
+pool. An engineer chooses a skill to associate with the mechanism when he creates it. As an
+immediate action, a mechanism can be activated to grant the engineer's inspiration die on a check of
+the associated skill. An engineer can create a mechanism that affects attack rolls or saving throws,
+but she expends 2 uses from her inspiration pool to do so. Any creature can use a mechanism, but a
 creature can have only 1 mechanism at a time, as multiple mechanisms interfere with each other while
-in close proximity.
+in close proximity. A mechanism remains active for a number of minutes equal to the engineer's
+Intelligence modifier (minimum 1). At 5th level, an engineer's mechanisms remain active for a number
+of minutes equal to the engineer's level. At 11th level, an engineer's mechanisms remain active for
+a number of hours equal to the engineer's level.
 
-**Mechanical Understanding (Ex)**
+This replaces the trapfinding, poison lore, and poison resistance class features.
 
-**Gained:** At 3rd Level
+## Mechanical Understanding (Ex) {#mechanical-understanding}
 
-**Passive:** An engineer gains a deeper understanding of constructs and machines. He gains a bonus
-on Knowledge (arcana) checks to identify constructs and on Knowledge (engineering) checks. This
-bonus is equal to one-third of his investigator level.
+At 3rd level, an engineer gains a deeper understanding of constructs and machines. He gains a +1
+bonus on Knowledge (arcana) checks to identify constructs and a +1 bonus on Knowledge (engineering)
+checks. This bonus increases by 1 at 6th level and every 3 levels thereafter.
 
-**Replaces:** Trap sense
+This replaces trap sense.

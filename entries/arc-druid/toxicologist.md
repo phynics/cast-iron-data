@@ -16,14 +16,20 @@ page = "23"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "expanded-repertoire", level = 1 },
+  { anchor = "natural-poison-lore", level = 2 },
+  { anchor = "expert-poisoner", level = 4 },
+  { anchor = "toxic-shaper", level = 8 },
+]
 trades = [
-  { replaces = "Spontaneous casting", feature = "spontaneous-casting" },
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "woodland stride", feature = "woodland-stride" },
-  { replaces = "Trackless step", feature = "trackless-step" },
-  { replaces = "resist nature's lure", feature = "resist-nature-s-lure" },
-  { alters = "Spells", feature = "spells" },
-  { alters = "Wild shape", feature = "wild-shape" },
+  { replaces = "Spontaneous casting", feature = "spontaneous-casting", by = ["expanded-repertoire"] },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["natural-poison-lore"] },
+  { replaces = "woodland stride", feature = "woodland-stride", by = ["natural-poison-lore"] },
+  { replaces = "Trackless step", feature = "trackless-step", by = ["expert-poisoner"] },
+  { replaces = "resist nature's lure", feature = "resist-nature-s-lure", by = ["expert-poisoner"] },
+  { alters = "Spells", feature = "spells", by = ["expanded-repertoire"] },
+  { alters = "Wild shape", feature = "wild-shape", by = ["toxic-shaper"] },
 ]
 +++
 
@@ -34,60 +40,38 @@ targets. In the verdant depths of the Mwangi Expanse or the Valashmai Jungle of 
 druids work to root out their enemies by means of powerful toxins, believing word of their foes'
 horrifying deaths will deter others from attempting similar desecrations of the natural world.
 
-**Expanded Repertoire (Ex)**
+## Expanded Repertoire (Ex) {#expanded-repertoire}
 
-**Ability:** A toxicologist can channel stored spell energy only into summoning spells she has
-prepared ahead of time.
+A toxicologist adds the following extracts and spells to her druid spell list as druid spells of the
+listed spell level: _poisoned egg_ (1st level, _Pathfinder Campaign Setting: Inner Sea Gods_ 238),
+_transmute potion to poison_ (2nd level), _stinking cloud_ (3rd level), _toxic gift_ (4th level),
+and _cloudkill_ (5th level). A toxicologist can channel stored spell energy only into summoning
+spells she has prepared ahead of time.
 
-**Alters:** Spells
+This ability alters spells and replaces spontaneous casting.
 
-**Info:** A toxicologist adds the following extracts and spells to her druid spell list as druid
-spells of the listed spell level.
+## Natural Poison Lore (Ex) {#natural-poison-lore}
 
-**Replaces:** Spontaneous casting
+A toxicologist has a deep understanding of and appreciation for poisons. At 2nd level, she cannot
+accidentally poison herself when applying poison to a weapon and cannot accidentally poison an
+animal companion or summoned creature when applying poison to its claws (though poison obviously
+should not be applied to a creature's bite).
 
-**Spells:** Poisoned egg
+This ability replaces wild empathy and woodland stride.
 
-**Spells:** Transmute potion to poison
+## Expert Poisoner (Su) {#expert-poisoner}
 
-**Spells:** Stinking cloud
-
-**Spells:** Toxic gift
-
-**Spells:** Cloudkill
-
-**Natural Poison Lore (Ex)**
-
-**Ability:** She cannot accidentally poison herself when applying poison to a weapon and cannot
-accidentally poison an animal companion or summoned creature when applying poison to its claws
-(though poison obviously should not be applied to a creature's bite).
-
-**Flavor:** A toxicologist has a deep understanding of and appreciation for poisons.
-
-**Gained:** At 2nd Level
-
-**Replaces:** Wild empathy, woodland stride
-
-**Expert Poisoner (Su)**
-
-**Gained:** At 4th Level
-
-**Passive:** A toxicologist increases the DCs of any spells she casts with the poison descriptor
+At 4th level, a toxicologist increases the DCs of any spells she casts with the poison descriptor
 by 1.
 
-**Replaces:** Trackless step, resist nature's lure
+This ability replaces trackless step and resist nature's lure.
 
-**Toxic Shaper (Su)**
+## Toxic Shaper (Su) {#toxic-shaper}
 
-**Ability:** A toxicologist never gains the ability to use _wild shape_ to transform into an
-elemental or plant.
+A toxicologist never gains the ability to use wild shape to transform into an elemental or plant. At
+8th level, a toxicologist can transform into a Small or Medium vermin. When she takes this form, her
+wild shape functions as _[vermin shape I](ref/spell/vermin-shape-1)_. At 10th level, a toxicologist
+can transform into a tiny or large vermin. When she takes this form, her wild shape functions as
+_[vermin shape II](ref/spell/vermin-shape-2)_.
 
-**Alters:** Wild shape
-
-**At 10th Level:** A toxicologist can transform into a tiny or large vermin. When she takes this
-form, her _wild shape_ functions as [vermin shape II](ref/spell/vermin-shape-2).
-
-**At 8th Level:** A toxicologist can transform into a Small or Medium vermin. When she takes this
-form, her _wild shape_ functions as [vermin shape I](ref/spell/vermin-shape-1).
-
-**Gained:** At 4th Level
+This ability alters wild shape.

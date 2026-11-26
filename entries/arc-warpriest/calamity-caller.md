@@ -16,12 +16,17 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "catastrophic-blessing", level = 1 },
+  { anchor = "calamity", level = 1 },
+  { anchor = "aspect-of-disaster", level = 20 },
+]
 trades = [
-  { replaces = "Focus weapon", feature = "focus-weapon" },
-  { replaces = "sacred weapon", feature = "sacred-weapon" },
-  { replaces = "bonus feats", feature = "bonus-feats" },
-  { replaces = "Aspect of war", feature = "aspect-of-war" },
-  { alters = "Blessings", feature = "blessings" },
+  { replaces = "Focus weapon", feature = "focus-weapon", by = ["calamity"] },
+  { replaces = "sacred weapon", feature = "sacred-weapon", by = ["calamity"] },
+  { replaces = "bonus feats", feature = "bonus-feats", by = ["calamity"] },
+  { replaces = "Aspect of war", feature = "aspect-of-war", by = ["aspect-of-disaster"] },
+  { alters = "Blessings", feature = "blessings", by = ["catastrophic-blessing"] },
 ]
 +++
 
@@ -29,116 +34,85 @@ While all elves feel a deep connection to nature, some elven priests take this b
 their link to call down the wrath of nature upon their enemies. Ekujae are most inclined to harness
 this connection, but any elf can wield their bond to nature in this way.
 
-**Prerequisites:** Elf
+Calamity caller is a warpriest archetype that is available only to elves.
 
-**Catastrophic Blessing**
+## Catastrophic Blessing {#catastrophic-blessing}
 
-**Ability:** A calamity caller must select a disaster blessing
-([Earthquake](ref/blessing/earthquake), [Flood](ref/blessing/flood),
-[Tornado](ref/blessing/tornado), or [Wildfire](ref/blessing/wildfire)) as one of his two blessings,
-even if the calamity caller's deity does not grant the disaster blessing's associated domain.
+A calamity caller must select a disaster blessing (_Pathfinder RPG Ultimate Wilderness_ 97) as one
+of his two blessings, even if the calamity caller's deity does not grant the disaster blessing's
+associated domain.
 
-**Alters:** Blessings
+This alters blessings.
 
-**Calamity (Su)**
+## Calamity (Su) {#calamity}
 
-**At 12th Level:** Enhanced effects now persist for 2 additional rounds.
+As a standard action, a calamity caller can cause a 5-foot square within 30 feet to suffer a
+calamity. A calamity deals 1d6 damage plus an additional 1d6 damage for every 2 warpriest levels he
+has beyond 1st to creatures within that square. The type of calamity determines what type of damage
+the calamity deals (see below). An affected creature can attempt a saving throw to reduce this
+damage by [half](ref/misc/fractions-and-rounding) (DC = 10 + half the calamity caller's warpriest
+level + the calamity caller's Wisdom modifier); the type of save is determined by the calamity. The
+calamity caller can use this ability at will.
 
-**At 16th Level:** Enhanced effects now persist for 3 additional rounds.
-
-**At 4th Level:** A calamity caller can create an enhanced calamity when he uses this ability. An
+At 4th level, a calamity caller can create an enhanced calamity when he uses this ability. An
 enhanced calamity deals twice the calamity's normal damage; in addition, a creature that fails its
-save suffers an additional effect (see below). A creature must take damage from the calamity to
-suffer these additional effects. The calamity caller can create an _enhanced calamity_ a number of
-times per day equal to [half](ref/misc/fractions-and-rounding) of his warpriest level.
+save suffers an additional effect (see below). At 8th level and again at 12th level and 16th level,
+effects created by an enhanced calamity that last for 1 or more rounds persist for 1 additional
+round. The calamity caller can create an enhanced calamity once per day for every 2 warpriest levels
+he has. A creature must take damage from the calamity to suffer these additional effects.
 
-**At 8th Level:** Effects created by an _enhanced calamity_ that last for 1 or more rounds persist
-for 1 additional round.
+The calamities available to calamity callers, the type of damage they deal, the saving throw to
+resist the damage, and the secondary effect they cause when enhanced, are listed below.
 
-**Replaces:** Focus weapon, sacred weapon, bonus feats
+### Acid Rain {#acid-rain}
 
-**Special:** The calamities available to calamity callers, the type of damage they deal, the saving
-throw to resist the damage, and the secondary effect they cause when enhanced, are listed below.
+A brief rain shower deals acid damage to the target square, with a Fortitude save for half damage. A
+creature that fails its save against enhanced acid rain continues to dissolve for 1 round,
+automatically taking half the original damage.
 
-**Standard:** A calamity caller can cause a 5-foot square within 30 feet to suffer a calamity. A
-calamity deals 1d6 damage to creatures within that square. The type of calamity determines what type
-of damage the calamity deals (see below). An affected creature can attempt a saving throw to reduce
-this damage by half (DC = 10 + half the calamity caller's warpriest level + the calamity caller's
-Wisdom modifier); the type of save is determined by the calamity. The calamity caller can use this
-ability at will.
+### Blizzard {#blizzard}
 
-At 3rd level: The amount of damage increases to 2d6.
+Hail deals cold damage to the target square, with a Fortitude save for half damage. A creature that
+fails its save against an enhanced blizzard is [blinded](ref/misc/blinded) for 1 round.
 
-At 5th level: The amount of damage increases to 3d6.
+### Deadfall {#deadfall}
 
-At 7th level: The amount of damage increases to 4d6.
+A tree branch, stone boulder, or other heavy object falls on the target square. A deadfall deals
+bludgeoning damage, with a Reflex save for half damage. A creature that fails its save against an
+enhanced deadfall is knocked [prone](ref/rule/prone); at 12th level, the target is also
+[confused](ref/misc/confused) for 1 round.
 
-At 9th level: The amount of damage increases to 5d6.
+### Flash Flood {#flash-flood}
 
-At 11th level: The amount of damage increases to 6d6.
+A brief surge of stormy water deals bludgeoning damage to the target square, with a Reflex save for
+half damage. An enhanced flash [flood](ref/blessing/flood) does not cause additional effects;
+instead, an enhanced flash flood targets creatures in a 5-foot radius. At 12th level, the area
+increases to a 10-foot radius; at 16th level, the area increases to a 15-foot radius.
 
-At 13th level: The amount of damage increases to 7d6.
+### Lightning Strike {#lightning-strike}
 
-At 15th level: The amount of damage increases to 8d6.
-
-At 17th level: The amount of damage increases to 9d6.
-
-At 19th level: The amount of damage increases to 10d6.
-
-**Acid Rain**
-
-**Ability:** A brief rain shower deals acid damage to the target square, with a Fortitude save for
-half damage. A creature that fails its save against _enhanced_ acid rain continues to dissolve for 1
-round, automatically taking half the original damage.
-
-**Blizzard**
-
-**Ability:** Hail deals cold damage to the target square, with a Fortitude save for half damage. A
-creature that fails its save against an _enhanced_ blizzard is [blinded](ref/misc/blinded) for 1
-round.
-
-**Deadfall**
-
-**Ability:** A tree branch, stone boulder, or other heavy object falls on the target square. A
-deadfall deals bludgeoning damage, with a Reflex save for half damage. A creature that fails its
-save against an _enhanced_ deadfall is knocked [prone](ref/rule/prone).
-
-**At 12th Level:** The target is also [confused](ref/misc/confused) for 1 round.
-
-**Flash Flood**
-
-**Ability:** A brief surge of stormy water deals bludgeoning damage to the target square, with a
-Reflex save for half damage. An _enhanced_ flash flood does not cause additional effects; instead,
-an _enhanced_ flash flood targets creatures in a 5-foot radius.
-
-**At 12th Level:** The area increases to a 10-foot radius.
-
-**At 16th Level:** The area increases to a 15-foot radius.
-
-**Lightning Strike**
-
-**Ability:** A bolt of lightning deals electricity damage to the target square, with a Reflex save
-for half damage. A creature that fails its save against an _enhanced_ lightning strike is
+A bolt of lightning deals electricity damage to the target square, with a Reflex save for half
+damage. A creature that fails its save against an enhanced lightning strike is
 [staggered](ref/misc/staggered) for 1 round by electrical impulses.
 
-**Thorny Vines**
+### Thorny Vines {#thorny-vines}
 
-**Ability:** Vines covered with thick thorns wrap around the target square. The thorny vines deal
-piercing damage, with a Reflex save for half damage. A creature that fails its save against
-_enhanced_ thorny vines is [entangled](ref/rule/entangled) for 1 round.
+Vines covered with thick thorns wrap around the target square. The thorny vines deal piercing
+damage, with a Reflex save for half damage. A creature that fails its save against enhanced thorny
+vines is [entangled](ref/rule/entangled) for 1 round.
 
-**Volcanic Rift**
+### Volcanic Rift {#volcanic-rift}
 
-**Ability:** A magmatic rift emits a plume of fire into the air, dealing fire damage to the target
-square, with a Fortitude save for half damage. An _enhanced_ volcanic rift also emits poisonous and
-corrosive gases; a creature that fails its save against the _enhanced_ volcanic rift is
-[sickened](ref/misc/sickened) for 1 round.
+A magmatic rift emits a plume of fire into the air, dealing fire damage to the target square, with a
+Fortitude save for half damage. An enhanced volcanic rift also emits poisonous and corrosive gases;
+a creature that fails its save against the enhanced volcanic rift is [sickened](ref/misc/sickened)
+for 1 round.
 
-**Aspect of Disaster (Su)**
+This replaces focus weapon, sacred weapon, and bonus feats.
 
-**Gained:** At 20th Level
+## Aspect of Disaster (Su) {#aspect-of-disaster}
 
-**Passive:** A creature affected by a calamity caller's _enhanced calamity_ does not receive a save
+At 20th level, a creature affected by a calamity caller's enhanced calamity does not receive a save
 to reduce the damage or avoid the calamity's effects.
 
-**Replaces:** Aspect of war
+This replaces aspect of war.

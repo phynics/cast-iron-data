@@ -1,0 +1,20 @@
+[[edit]]
+entry = "ref/arc-alchemist/concocter"
+anchor = "extracting-mixology"
+note = "hand-written from print (Potions & Poisons p. 8, owner ruling 44): the table sits in the middle of the feature, its title \"Mixture Effects\" is a bold line directly above it, and the trade sentence follows the table (the extraction ends the print span at the table title). Cells and the en dashes of the percentile ranges as print gives them; the link of Extend Spell is the corpus's. \"mutagenic mixology\" stands in roman, as print sets it (review of #342)."
+text = '''
+At 6th level, a concocter can combine an extract and a potion, allowing him to consume this mixture simultaneously, albeit with some potential side effects. As a full-round action, the concocter can combine an extract with a potion in his possession. The concocter can then drink the mixture as a standard action. If he does not consume the mixture within 2 rounds of creating it, the mixture grows inert and both the extract and the potion are ruined. This ability cannot be used with a potion into which he has fused his mutagen using his mutagenic mixology ability.
+
+The exact effects of drinking one of these mixtures are volatile and unpredictable. Each time the concocter drinks a mixture, roll on the following table to determine the result.
+
+**Mixture Effects**
+
+|d4|Effect|
+| --- | --- |
+|1|Either the extract (01–50 on a d%) or potion (51–100 on a d%) has no effect. The consumable that takes effect treats its caster level or the concocter's alchemist level as 2 higher, whichever is appropriate.|
+|2|Both the extract and potion function normally.|
+|3|Both the extract and potion function normally but treat their caster level or the concocter's alchemist level as 2 higher, whichever is appropriate.|
+|4|Both the extract and potion function normally and are affected as though they were spells extended with the [Extend Spell](ref/feat/extend-spell) metamagic feat. If either the extract or the potion's duration is concentration, instantaneous, or permanent, both the extract and the potion simply function normally.|
+
+This replaces swift poisoning and the discovery gained at 6th level.
+'''

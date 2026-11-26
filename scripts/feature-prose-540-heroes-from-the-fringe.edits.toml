@@ -1,0 +1,89 @@
+[[edit]]
+entry = "ref/arc-bloodrager/symbol-striker"
+anchor = "rune-training"
+note = "hand-written from print (Heroes from the Fringe p. 7): the section stands in the right column above the table \"Dwarven Weapons\", which the extraction takes for the end of the archetype; the text is the printed paragraph with the corpus's links."
+text = '''
+A symbol striker can cast _[read magic](ref/spell/read-magic)_ at will and _[comprehend languages](ref/spell/comprehend-languages)_ once per day, but only to decipher written text. A symbol striker also adds _[arcane mark](ref/spell/arcane-mark)_ and _[erase](ref/spell/erase)_ to his bloodrager spell list as 1st-level spells, though he must select these as spells known to be able to cast them.
+
+This replaces fast movement.
+'''
+
+[[edit]]
+entry = "ref/arc-bloodrager/symbol-striker"
+anchor = "weapon-rune"
+note = "hand-written from print (Heroes from the Fringe p. 7): as for Rune Training; the print's \"magus\" source mark is left out (ruling 26) and the corpus's link kept."
+text = '''
+At 6th level, once per day as a standard action, a symbol striker can imbue any spell he knows that has a range of touch or greater and a defined number of targets (rather than an area or other non-target-based effect) into a melee weapon he is holding. The spell forms itself into a brightly glowing rune, which is obvious to a casual observer. This ability functions only while the symbol striker wields the weapon. If dropped or taken, the weapon ceases granting this ability until it is returned to the symbol striker. The symbol striker can have only a single weapon rune active at a time; if he casts an additional weapon rune while a previous rune is active, the earlier rune fades. Weapon runes also fade when the symbol striker regains his spell slots for the day. Otherwise, the rune remains until the spell is discharged or dispelled. At 12th level, a symbol striker can use this ability twice per day. At 18th level, he can use this ability three times per day.
+
+As a standard action, the symbol striker can make a melee attack with a weapon that has an active weapon rune and, if the attack is successful, deal normal weapon damage and also expend the weapon rune to discharge the stored spell into the target, as if delivering the spell with the [magus](ref/class/magus) spellstrike class feature.
+
+This replaces the bloodline feats gained at 6th, 12th, and 18th levels.
+'''
+
+[[edit]]
+entry = "ref/arc-bloodrager/symbol-striker"
+anchor = "rune-trap"
+note = "hand-written from print (Heroes from the Fringe pp. 7-8): the paragraph runs from the right column of p. 7, around the table \"Dwarven Weapons\", to the top of p. 8."
+text = '''
+At 9th level, as a standard action, the symbol striker can use a melee weapon to place a rune trap in any adjacent square. Any creature entering a square containing a rune trap takes 1d6 points of damage plus 1 additional point of damage for every 2 bloodrager levels the symbol striker has. This rune deals either acid, cold, electricity, or fire damage, which is decided at the rune's creation. The rune is clearly visible and lasts a number of minutes equal to the symbol striker's bloodrager level or until discharged. A symbol striker cannot create a rune trap in a square occupied by another creature. This rune counts as a 1st-level spell for the purpose of dispelling. A creature can disarm the rune by succeeding at a DC 26 Disable Device check. The symbol striker can use this ability a number of times per day equal to 3 plus his Charisma modifier.
+
+This replaces the bloodline feat gained at 9th level.
+'''
+
+[[edit]]
+entry = "ref/arc-kineticist/psammokinetic"
+anchor = "burning-winds"
+note = "hand-written from print (Heroes from the Fringe p. 6, ruling 18): the boxes \"Sand Blast\" and \"Sirocco Blast\" stand inside the feature, between its paragraph and the sentence \"This alters elemental focus\"; the extraction takes their titles for the end of the archetype. The text is the printed paragraph, the two boxes as the corpus has them (a quotation with its stat lines), and the sentence."
+text = '''
+A psammokinetic must select air as her [elemental focus](ref/ability/elements). In place of the [air blast](ref/kinetic/air-blast) and [electric blast](ref/kinetic/electric-blast) normally granted to an aerokinetic, the psammokinetic gains a sand blast or sirocco blast. Except as noted below, sand blast functions as air blast, and sirocco blast functions as electric blast (including when determining what infusion wild talents the psammokinetic can use with each blast). The psammokinetic is also treated as having the fire element type for the purposes of meeting the prerequisites for the [cold adaptation](ref/kinetic/cold-adaptation), [flame shield](ref/kinetic/flame-shield), [heat adaptation](ref/kinetic/heat-adaptation), and [heat wave](ref/kinetic/heat-wave) utility wild talents. A psammokinetic cannot take the [chain](ref/kinetic/chain), [magnetic infusion](ref/kinetic/magnetic-infusion), or [thundering infusion](ref/kinetic/thundering-infusion) wild talents or the [aerial adaptation](ref/kinetic/aerial-adaptation) or [celerity](ref/kinetic/celerity) utility wild talents.
+
+> **Sand Blast**\
+> **Element** air; **Type** simple blast (Sp); **Level** —; **Burn** 0\
+> **Blast Type** physical; **Damage** slashing\
+> You slice at a single foe with a stream of sand.
+>
+> **Sirocco Blast**\
+> **Element** air; **Type** simple blast (Sp); **Level** —; **Burn** 0\
+> **Blast Type** energy; **Damage** fire\
+> You shoot a wave of superheated air to burn a single foe.
+
+This alters elemental focus.
+'''
+
+[[edit]]
+entry = "ref/arc-kineticist/psammokinetic"
+anchor = "ki-pool"
+note = "hand-written from print (Heroes from the Fringe pp. 6-7): the section follows the two boxes of Burning Winds, which the extraction takes for the end of the archetype. The printed bullets are a list (ruling 45)."
+text = '''
+At 3rd level, a psammokinetic gains a pool of ki points, supernatural energy she can use to accomplish amazing feats. The number of points in a psammokinetic's ki pool is equal to half her kineticist level plus her Constitution modifier. As long as she has at least 1 point in her ki pool, she gains a +1 bonus on damage rolls with kinetic blasts. This bonus increases by 1 for every 3 kineticist levels she has. At 7th level, as long as she has at least 1 point in her ki pool, her sand blast is treated as cold iron for the purpose of overcoming damage reduction (regardless of what infusion it is used with). At 10th level, her sand blast is treated as a lawful weapon, and at 16th level, her sand blast is treated as adamantine for the purpose of overcoming damage reduction and bypassing hardness. The kinetic blade infusion does not add the bonus damage from this ability.
+
+By spending 1 point from her ki pool as a swift action, a psammokinetic can do one of the following:
+
+- Double her bonus (if any) on damage rolls for having at least 1 point in her ki pool, and gain a +1 bonus on attack rolls with her kinetic blasts. This bonus on attack rolls increases by 1 for every 3 kineticist levels she has. This effect remains for 1d4 rounds.
+- Gain a +2 dodge bonus to AC for 1 round.
+- Increase her base speed by 20 feet for 1 round.
+
+The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive. If the psammokinetic has levels in another class that grants points to a pool of ki points, her psammokinetic levels stack with the levels of that class to determine the total number of ki points in the combined pool, but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice cannot be changed. The psammokinetic can use ki points from this pool to power the abilities of every class she has that grants a ki pool.
+
+This replaces elemental overflow.
+'''
+
+[[edit]]
+entry = "ref/arc-kineticist/psammokinetic"
+anchor = "sand-element"
+note = "hand-written from print (Heroes from the Fringe p. 7): the section follows Ki Pool, which the extraction does not reach."
+text = '''
+At 7th level a psammokinetic must select the earth element as her expanded element. She treats her kineticist level as 2 levels lower (rather than 4 levels lower) for the purpose of determining which wild talents she can learn from the earth element. At 15th level, the psammokinetic must choose to expand her mastery of the air element as her expanded element.
+
+This alters expanded element.
+'''
+
+[[edit]]
+entry = "ref/arc-wizard/first-world-caller"
+anchor = "warp-reality"
+note = "hand-written from print (Heroes from the Fringe p. 17, ruling 41 and its exception, ruling 52, for a box that has its own entry): the sidebar \"Fey-Touched Creature (CR +0 or +1)\" with its defenses table stands in the middle of the sentence in the book (the template is the entry ref/template/fey-touched-creature, which Fey Familiar links where print says \"see sidebar\") and is left out here, so that the sentence is whole again. Ruling 9 fix, recorded: print has \"If successfully, he can apply\", written \"If successful\". The printed \"See page 58 of Pathfinder RPG Planar Adventures\" is a cross-reference (ruling 16)."
+text = '''
+At 10th level, a First World caller can reshape the nearby area at his whim, as he pulls in aspects of the mutable and primal First World. To use this ability, he must expend a spell slot of 5th level or higher as a standard action and succeed at a DC 15 Charisma check. If he succeeds, he can apply one of the following [planar traits](ref/rule/planar-traits) to the area in a 60-foot radius for 2d4 minutes: normal gravity, heavy gravity, light gravity, mildly aligned (chaos, evil, good, or law), enhanced magic, or impeded magic. At 15th level, he can instead expend a slot of 7th level or higher and attempt a DC 20 Charisma check. If successful, he can apply two planar traits from the previous list, or any one of the following traits: no gravity, subjective directional gravity, erratic time, fire-dominant, water-dominant, negative-dominant, positive-dominant, or wild magic. See page 58 of _Pathfinder RPG Planar Adventures_ for more information on planar traits.
+
+This replaces the bonus feats gained at 10th and 15th level.
+'''
