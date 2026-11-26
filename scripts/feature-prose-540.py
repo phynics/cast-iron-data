@@ -1423,7 +1423,7 @@ TRADE_SUBJECT_WORDS = (r"ability|abilities|class|feature|features|power|powers|a
                        r"talent|talents|hex|hexes|discovery|discoveries|revelation|revelations|mercy|mercies|deed|deeds|exploit|"
                        r"exploits|arcana|arcanum|feat|feats|also|otherwise|acts|works|functions|as|like|and|bonus|spells|skills")
 TRADE_SENTENCE = re.compile(
-    r"(?:^|(?<=[.!?]\s)|(?<=[.!?]\)\s))((?:This|These|It)\b(?:\s+(?:bonus\s+feats?\s+choices?|" + TRADE_SUBJECT_WORDS + r"))*\s+(replaces?|alters?|changes)\b[^.]*\.)",
+    r"(?:^|(?<=[.!?]\s)|(?<=[.!?]\)\s))((?:This|These|It)\b(?:\s+(?:bonus\s+feats?\s+choices?|" + TRADE_SUBJECT_WORDS + r"))*\s+(replaces?|alters?|changes|modifies)\b[^.]*\.)",
     re.I,
 )
 
@@ -1450,7 +1450,7 @@ ABILITY_NOUN = (r"\b(?:ability|abilities|feature|features|power|powers|archetype
 
 
 def _op_of(verb: str) -> str:
-    return "replaces" if verb.lower().startswith("replace") else "alters"      # ruling 25: "changes" is an alters verb
+    return "replaces" if verb.lower().startswith("replace") else "alters"      # rulings 25 and 55: "changes" and "modifies" are alters verbs
 
 
 def _clean_phrase(phrase: str) -> str:
@@ -1468,7 +1468,7 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
     ability, feature, power or archetype in its subject: the app counts it only when it names a stored trade.
     The reader rules of owner ruling 21 (R8, R9, R11, R12) and 25: a phrase ends at ", but "; a final parenthesis of
     four or more words is an aside; "X replaces Y and alters Z" is two sentences; the heading of the feature
-    (without its ability tag) is a subject too; "changes" is an `alters` verb."""
+    (without its ability tag) is a subject too; "changes" and "modifies" are `alters` verbs (rulings 25 and 55)."""
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[\\_*]", "", text)
     text = re.sub(r"\s+", " ", text)        # a paragraph break inside a sentence (a column or page break) does not end it
@@ -1476,11 +1476,11 @@ def trade_sentences(text: str, head: str = "") -> list[tuple[str, str, bool]]:
     found = [(m.group(1), m.start(1)) for m in _trade_matches(text)]
     plain = ABILITY_TAG.sub("", head).strip() if head else ""
     if plain:                                 # R12
-        for m in re.finditer(r"(?:^|(?<=[.!?]\s))(" + re.escape(plain) + r"\s+(?:replaces?|alters?|changes?)\b[^.]*\.)", text, re.I):
+        for m in re.finditer(r"(?:^|(?<=[.!?]\s))(" + re.escape(plain) + r"\s+(?:replaces?|alters?|changes?|modifies)\b[^.]*\.)", text, re.I):
             if all(m.start(1) != at for _, at in found):
                 found.append((m.group(1), m.start(1)))
     for sentence, _ in sorted(found, key=lambda x: x[1]):
-        verb = re.search(r"\b(replaces?|alters?|changes?)\b", sentence, re.I)
+        verb = re.search(r"\b(replaces?|alters?|changes?|modifies)\b", sentence, re.I)
         subject = sentence[:verb.start()]
         bare = not re.search(ABILITY_NOUN, subject, re.I) and not (plain and subject.strip().lower() == plain.lower())
         rest = sentence[verb.end():]
@@ -3293,7 +3293,7 @@ def trade_asides(text: str) -> list[tuple[str, str]]:
     out = []
     for m in _trade_matches(text):
         sentence = m.group(1)
-        verb = re.search(r"\b(replaces?|alters?|changes?)\b", sentence, re.I)
+        verb = re.search(r"\b(replaces?|alters?|changes?|modifies)\b", sentence, re.I)
         for a in re.finditer(r"\(([^()]*)\)", sentence):           # R18: an aside inside the phrase states the trades too
             if len(a.group(1).split()) >= 4 and not a.group(1).lower().startswith("see"):
                 out.append((_op_of(verb.group(1)), a.group(1)))
@@ -3309,7 +3309,7 @@ def prose_sentences(text: str) -> list[str]:
     text = re.sub(r"\s*\((?:see|See)\b[^()]*\)", "", text)
     out = []
     for sent in re.split(r"(?<=[.!?])\s+", text):
-        if TRADE_SENTENCE.search(sent) or re.match(r"(?:This|These|It)\b.{0,60}?\b(?:replaces?|alters?|changes?)\b", sent, re.I):
+        if TRADE_SENTENCE.search(sent) or re.match(r"(?:This|These|It)\b.{0,60}?\b(?:replaces?|alters?|changes?|modifies)\b", sent, re.I):
             continue
         out.append(re.split(r"\b(?:functions as|works like|as the)\b", sent, maxsplit=1)[0])
     return out
@@ -4949,7 +4949,7 @@ def printed_trade_gaps(e: Entry) -> list[str]:
 # ---- the printed trade sentences (opus audit of the Blood of the Ancients pilot) -----------------------------------
 
 PRINTED_TRADE = re.compile(r"This (?:(?:ability|class feature|performance|archetype|deed|hex|talent|trick|power|discovery|revelation|exploit|mercy) )?"
-                           r"(?:replaces|alters|changes)\b[^.]*\.")
+                           r"(?:replaces|alters|changes|modifies)\b[^.]*\.")
 
 
 def sentences_path(corpus: Path, book: str) -> Path:
