@@ -17,7 +17,7 @@ page = "14"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "no-aura" },
+  { anchor = "no-aura", level = 1 },
   { anchor = "locate-ally", level = 1 },
   { anchor = "vindictive-smite", level = 1 },
   { anchor = "faded-grace", level = 2 },

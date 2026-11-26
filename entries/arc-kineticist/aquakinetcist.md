@@ -1,7 +1,7 @@
 +++
 id = "ref/arc-kineticist/aquakinetcist"
 kind = "archetype"
-title = "Aquakinetcist"
+title = "Aquakineticist"
 aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Aquakinetcist"
 source_ids = ["aquatic-adventures"]
 provenance = [
@@ -17,7 +17,7 @@ page = "50"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "aquatic-focus" },
+  { anchor = "aquatic-focus", level = 7 },
   { anchor = "basis-aquakinesis", level = 1 },
   { anchor = "call-of-the-deep", level = 2 },
   { anchor = "ocean-s-caress", level = 2 },

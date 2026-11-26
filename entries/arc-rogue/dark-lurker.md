@@ -22,9 +22,6 @@ features = [
   { anchor = "improved-blind-fight", level = 8 },
   { anchor = "greater-blind-fight", level = 14 },
   { anchor = "instinctual-sense", level = 20 },
-  { anchor = "eerie-disappearance" },
-  { anchor = "false-attacker" },
-  { anchor = "pierce-the-darkness" },
 ]
 trades = [
   { replaces = "Evasion", feature = "evasion", by = ["blades-from-the-shadows"] },
@@ -82,7 +79,7 @@ The new talents below especially suit the dark lurker, but can also be taken by 
 their prerequisites (including characters using the unchained rogue class from _Pathfinder
 Unchained_).
 
-## Eerie Disappearance (Ex) {#eerie-disappearance}
+### Eerie Disappearance (Ex) {#eerie-disappearance}
 
 As a full-round action, the rogue can move up to her speed. If she successfully reaches a location
 that offers her cover or concealment, any creature observing her must attempt a Perception check
@@ -93,7 +90,7 @@ all foes within 60 feet who were aware of her at any point during her movement a
 her current location. She rolls the Intimidate check only once and compares her result to the DC for
 each opponent. The rogue must be at least 6th level to select this talent.
 
-## False Attacker (Ex) {#false-attacker}
+### False Attacker (Ex) {#false-attacker}
 
 Whenever the rogue strikes a foe from hiding, she can attempt a Bluff check as an immediate action
 (opposed by the target's Sense Motive or Perception check, whichever has a higher bonus) before
@@ -102,7 +99,7 @@ the normal modifiers for convincing a creature of a falsehood, but can be accomp
 physical trickery (a shared language is not required). If the Bluff is successful, and the rogue
 maintains concealment or cover, the rogue's stealth does not end.
 
-## Pierce the Darkness (Ex) {#pierce-the-darkness}
+### Pierce the Darkness (Ex) {#pierce-the-darkness}
 
 The rogue can extend her senses of hearing and smell in darkness or when blinded. She gains
 blindsense out to a range of 5 feet, but only against creatures concealed by darkness or her own

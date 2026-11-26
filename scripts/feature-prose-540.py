@@ -1293,6 +1293,7 @@ CHAPTER_TITLES = {"on": False}
 MARGIN_CAPTIONS = {"on": False}
 ITALIC_FIRST = {"on": False}            # the Campaign Setting books: the first letter of an italic word that the layer set apart ("s" + "un orchid elixir")
 LOWERCASE_CONTINUES = {"on": False}      # the Campaign Setting books: no paragraph starts in lower case
+RULE57 = {"on": True}           # owner ruling 57 (the level of a whole class feature at any level); `--rules` could turn it off
 LIST_CONTINUES = {"on": False}  # a line of a list item that print wraps without a bullet continues the item (Potions and Poisons: the bullets hang)
 BULLETS = {"on": False}         # a line that starts with a bullet starts a list item (Inner Sea Intrigue "Tinkering")
 MC_TITLES = {"on": False}       # Monster Codex: "Alchemical Trapper (Alchemist)" in a face of its own, no larger than the text
@@ -3929,6 +3930,7 @@ LEVEL_FROM_PRINT = {
 CHOICE_INTRO = re.compile(r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\b[^.]{0,100}?\b(?:from|among|of|in)\s+(?:the\s+|these\s+|those\s+)?"
                           r"(?:following|listed below|below)\b|\bfrom (?:those|the list) (?:listed )?below\b|"
                           r"\b(?:select|selects|choose|chooses|take|takes|pick|picks)\s+(?:any\s+of\s+)?the\s+following\b"
+                          r"|\bcan (?:also )?select the following additional\b|\bcan be selected by any\b|\bcan also be taken by any\b|\bselect the [^.]{0,60}\bbelow\b"
                           r"|\badds? the following (?!spells?\b)[^.]{0,120}\bto (?:the|her|his) list\b|\bways? listed below\b|\b(?:are|is) (?:listed|noted|described|shown) below\b|\bas noted below\b", re.I)
 LEVEL_IN_FIRST_PARAGRAPH = {
     ("ref/arc-paladin/invigorator", "champion-of-life"),     # a flavor sentence, then "At 20th level, three times per day ..."
@@ -4121,6 +4123,7 @@ def first_level_alt_key(name: str) -> str:
 # gunslinger's 1st-level deeds (the table lists "Deeds"; their entries say "Prereq: 1st-level gunslinger"). Names as `first_level_key` reads them.
 FIRST_LEVEL_EXTRA = {
     "ref/class/druid": ("Spontaneous casting",),
+    "ref/class/cleric": ("Spontaneous casting",),       # owner ruling 57 (review of #346): the cleric's spontaneous casting is a 1st-level feature that the table does not list, as the druid's
     "ref/class/gunslinger": ("Deadeye", "Deadeye deed", "Gunslinger's dodge", "Gunslinger's dodge deed", "Quick clear", "Quick clear deed"),
 }
 
@@ -4147,6 +4150,32 @@ def class_first_level(corpus: Path, class_id: str, cache: dict) -> set[str]:
     keys |= {first_level_key(x) for x in FIRST_LEVEL_EXTRA.get(class_id, ())}
     cache[class_id] = keys
     return keys
+
+
+def class_table_levels(corpus: Path, class_id: str, cache: dict) -> dict[str, int]:
+    """The names (see `first_level_key`) of the features that the Special column of the class table of a base class lists, each with the lowest level at
+    which it is listed (owner ruling 57: the rulings 35, 48 and 50 hold for any level), and the names of `FIRST_LEVEL_EXTRA` at level 1."""
+    ck = ("levels", class_id)
+    if ck in cache:
+        return cache[ck]
+    path = corpus / "entries" / (class_id.removeprefix("ref/") + ".md")
+    out: dict[str, int] = {}
+    if path.exists():
+        col = None
+        for ln in path.read_text(encoding="utf-8").split("\n"):
+            cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+            if col is None and ln.startswith("|Level|") and "Special" in cells:
+                col = cells.index("Special")
+            elif col is not None and (m := re.match(r"\|(\d+)(?:st|nd|rd|th)\|", ln)):
+                if col < len(cells):
+                    for item in re.split(r",(?![^()]*\))", cells[col]):
+                        out.setdefault(first_level_key(item), int(m.group(1)))
+                if int(m.group(1)) >= 20:
+                    break
+    for x in FIRST_LEVEL_EXTRA.get(class_id, ()):
+        out[first_level_key(x)] = 1
+    cache[ck] = out
+    return out
 
 
 def fold_table_sections(rows: list[dict], decisions: dict, entry_id: str, problems: list[str]) -> None:
@@ -4431,6 +4460,21 @@ def finalize(e: Entry, res: dict, class_cache: dict | None = None) -> dict:
                                                      else ", ".join(trade_name(t)[0] + " " + trade_name(t)[1] for t in ops))
                                       + (", of which one is gained at 1st level (the printed level of the trade, or the class table)" if named
                                          else ", of which one is gained at 1st level in the class table"))
+                elif RULE57["on"]:
+                    # owner ruling 57: the rulings 35, 48 and 50 hold for any level: a feature with no printed level that alters or replaces a whole class feature
+                    # that the class table lists at level N gets level N, the lowest of its trades (a trade of some levels or of a power is a part: none)
+                    found = []
+                    for t in mine:
+                        op, name = trade_name(t)
+                        cls = t.get("class") or (e.classes[0] if e.classes else "")
+                        if op in ("replaces", "alters") and cls and not t.get("levels") and not t.get("power"):
+                            table = class_table_levels(corpus, cls, class_cache)
+                            lv = table.get(first_level_key(name)) or table.get(first_level_alt_key(name))
+                            if lv:
+                                found.append((lv, op, name))
+                    if found:
+                        r["level"] = min(lv for lv, _o, _n in found)
+                        r["notes"].append(f"level {r['level']} (ruling 57): " + ", ".join(f"{o} {n} (gained at level {lv} in the class table)" for lv, o, n in found))
         if (e.id, r["anchor"]) in LEVEL_NONE and r["level"] is not None:
             r["notes"].append(f"no level: print states none and the feature alters a part of a class feature (owner rulings 4 and 48); the reader would take {r['level']}")
             r["level"] = None
@@ -4468,6 +4512,10 @@ PRINT_TITLES = {
 }
 
 
+# The corpus titles that are corrected to the printed ones (the id stays; the precedent is #283): `--write` puts the printed title in the entry.
+TITLE_FIXES = {"ref/arc-kineticist/aquakinetcist": ("Aquakinetcist", "Aquakineticist")}
+
+
 def ptitle(e: "Entry") -> str:
     return PRINT_TITLES.get(e.id, e.title)
 
@@ -4475,7 +4523,8 @@ def ptitle(e: "Entry") -> str:
 # An entry whose `[[sources]]` page row names a page other than the one that print has the archetype on (the page rows follow print): cited page,
 # printed page. `--compare` holds an entry that cites a wrong page and is not listed; `--write` puts the printed page in the row.
 PAGE_FIXES = {
-    "ref/arc-witch/invoker": ("14", "20"),          # Haunted Heroes Handbook: the Invoker is printed on page 20 (owner answer on #342)
+    "ref/arc-witch/invoker": ("14", "20"),
+    "ref/arc-paladin/pearl-seeker": ("54", "53"),      # Aquatic Adventures: the archetype starts on page 53 (review of #346)          # Haunted Heroes Handbook: the Invoker is printed on page 20 (owner answer on #342)
 }
 
 # The Player Companions that set their titles in small capitals and give each archetype no box of its own (batches 6 to 9).
@@ -4582,7 +4631,8 @@ LEVEL_FROM_PRINT.update({
     # owner ruling 50: altering the whole spellcasting of the class is altering a whole 1st-level class feature; the cleric's spontaneous casting is a 1st-level feature
     # that its table does not list, as the druid's (ruling 48): an owner question in the pull request
     ("ref/arc-cleric/channeler-of-the-unknown", "spells"): (1, "ruling 50: alters the cleric's spells (the whole spellcasting, a 1st-level class feature)"),
-    ("ref/arc-cleric/channeler-of-the-unknown", "spontaneous-casting"): (1, "ruling 48 by analogy: alters the cleric's spontaneous casting, a 1st-level class feature that the table does not list (owner question)"),
+    ("ref/arc-paladin/vindictive-bastard", "no-aura"): (1, "owner rulings 50 and 57: it alters the paladin's aura (a whole 1st-level class feature, the aura of good), and print states no level"),
+    ("ref/arc-antipaladin/fearmonger", "panicked"): (12, "ruling 47: print says in Frightening Cruelty \"At 12th level, the fearmonger gains the panicked cruelty\": a fixed ability that comes with no choice"),
     ("ref/arc-druid/planar-extremist", "spells"): (1, "ruling 50: alters the druid's spells (the whole spellcasting, a 1st-level class feature)"),
     ("ref/arc-magus/eldritch-archer", "arcane-pool"): (5, "print says \"choices of weapon special abilities to apply with arcane pool at 5th level\" in the feature itself (Heroes of the Streets p. 11): the level that the feature states wins over the 1st level of the arcane pool it modifies (ruling 51); an owner question in the pull request"),
     ("ref/arc-bard/dragon-yapper", "versatile-performance"): (2, "print says \"A dragon yapper must choose sing at 2nd level\" (Monster Codex p. 128): the level is stated inside the sentence (ruling 4)"),
@@ -4912,6 +4962,8 @@ def convert_text(e: Entry, prop: dict, rows: list[dict]) -> str:
         text = feature_text(f, status.get(f["anchor"], "print"))
         parts += [p for p in text.split("\n\n") if p.strip()]
     front = edit_front(e.front, feats, by, len(trades_of(e)), TRADE_ADDITIONS.get(e.id), dropped_trade_indices(e))
+    if e.id in TITLE_FIXES:
+        front = front.replace(f'title = "{TITLE_FIXES[e.id][0]}"', f'title = "{TITLE_FIXES[e.id][1]}"', 1)
     if e.id in PAGE_FIXES:
         front = front.replace(f'page = "{PAGE_FIXES[e.id][0]}"', f'page = "{PAGE_FIXES[e.id][1]}"', 1)
     for (eid, old), anchor in TRADE_RELINKS.items():
@@ -5383,6 +5435,7 @@ IMPORT_HEAD_FIXES.update({
 # no printed home in a listed feature, but the app does not read "modifies" as a trade verb and a trade without `by` then drifts; the trade stays on
 # Draconic Might, which gains no level from it (the owner asked for no `by`: reported in the PR)
 NO_LEVEL_ONE.add(("ref/arc-monk/scaled-fist", "draconic-might"))
+NO_LEVEL_ONE.add(("ref/arc-witch/coral-witch", "waves-spirit-hex"))       # it only widens which hexes can be chosen: a part of the hex feature (ruling 48, review of #346)
 EXTRA_LINKS[("ref/arc-druid/fungal-pilgrim", "fungal-companion")] = [("fungal creature", "ref/template/fungal-creature")]
 MISPRINTS.append(("ref/arc-slayer/sczarni-executioner", "must make a successful a Fortitude save", "must make a successful Fortitude save",
                   "a stray \"a\" in print (\"a successful a Fortitude save\"); the same book prints \"a successful Fortitude save\" elsewhere"))
@@ -5814,6 +5867,12 @@ def self_test() -> int:
                 "to manipulate the time stream in a variety of ways listed below."):
         eq(bool(CHOICE_INTRO.search(txt)), True, "a lead-in that offers a choice from the sections that follow: " + txt[:30])
     eq(bool(CHOICE_INTRO.search("At 3rd level, the bonus increases by 1.")), False, "no choice in a plain feature")
+    for txt in ("A winged marauder can select the following additional discovery.", "The following magus arcana can be selected by any magus who meets their prerequisites.",
+                "The new talents below can also be taken by any rogue that meets their prerequisites.", "She can select the two hexes below."):
+        eq(bool(CHOICE_INTRO.search(txt)), True, "review of #346: a lead-in of talents that a character chooses: " + txt[:30])
+    # owner ruling 57: a whole class feature at a later level of the class table gives its level; a part (a trade of some levels or of a power) gives none
+    tbl = class_table_levels(Path("."), "ref/class/none-such", {})
+    eq(tbl, {}, "no class table, no levels")
     # review of #339: an edit replaces the text of a row, so applying it twice gives the same row; an edit that repeats a paragraph is an error
     row0 = {"print": "text that print gives", "status": "hold", "notes": ["a hold note", "level 1: x"]}
     ed = ("The edit text.\n\n- A list item.", "hand-written note")

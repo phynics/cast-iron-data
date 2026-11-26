@@ -17,6 +17,7 @@ page = "25"
 [fields]
 kind = "archetype"
 features = [
+  { anchor = "raging-song" },
   { anchor = "controlled-inspired-rage", level = 1 },
   { anchor = "infuriating-mockery", level = 3 },
   { anchor = "humiliating-defamation", level = 10 },

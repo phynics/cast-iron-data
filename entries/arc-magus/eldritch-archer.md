@@ -22,8 +22,6 @@ features = [
   { anchor = "ranged-spell-combat", level = 1 },
   { anchor = "ranged-spellstrike", level = 2 },
   { anchor = "focusing-spellstrike", level = 16 },
-  { anchor = "distant-spellstrike" },
-  { anchor = "reach-spellstrike" },
 ]
 trades = [
   { replaces = "Counterstrike", feature = "counterstrike", by = ["focusing-spellstrike"] },
@@ -85,13 +83,13 @@ as a ray, affecting only the creature or object struck. This ability replaces co
 
 The following magus arcana can be selected by any magus who meets their prerequisites.
 
-## Distant Spellstrike (Su) {#distant-spellstrike}
+### Distant Spellstrike (Su) {#distant-spellstrike}
 
 The range of any spell the magus delivers through a ranged weapon attack increases to the maximum
 range of the weapon if that is greater than the spell's range. The magus must be at least 12th level
 and must have ranged spellstrike to select this arcana.
 
-## Reach Spellstrike (Su) {#reach-spellstrike}
+### Reach Spellstrike (Su) {#reach-spellstrike}
 
 The magus can deliver spells with a range of touch with ranged spellstrike up to a maximum range of
 close (25 feet + 5 feet per 2 caster levels). The magus must be at least 9th level and must have

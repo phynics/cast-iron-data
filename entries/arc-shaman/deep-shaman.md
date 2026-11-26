@@ -18,9 +18,7 @@ page = "51"
 kind = "archetype"
 features = [
   { anchor = "deep-spirit", level = 1 },
-  { anchor = "aquatic-hexes" },
-  { anchor = "buoyancy-control" },
-  { anchor = "deep-heart" },
+  { anchor = "aquatic-hexes", level = 2 },
   { anchor = "aquatic-spirit-abilities" },
   { anchor = "brine-dragon-form" },
 ]
@@ -60,14 +58,14 @@ the two hexes below.
 
 This alters hexes.
 
-## Buoyancy Control (Sp) {#buoyancy-control}
+### Buoyancy Control (Sp) {#buoyancy-control}
 
 The deep shaman touches a willing creature and changes its [buoyancy](ref/rule/buoyancy) (see page
 43) to whichever of the five states she wishes for 1 minute. A creature affected by this hex can't
 be affected by it again for 24 hours. The deep shaman has neutral buoyancy, regardless of what her
 normal buoyancy would be, though she can end or resume the effect as a standard action.
 
-## Deep Heart (Su) {#deep-heart}
+### Deep Heart (Su) {#deep-heart}
 
 The deep shaman gains the ability to breathe underwater and gains a swim speed equal to her
 unmodified base land speed. At 8th level, she takes only half the normal amount of

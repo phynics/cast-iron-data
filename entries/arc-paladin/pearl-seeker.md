@@ -12,7 +12,7 @@ relations = [
 ]
 [[sources]]
 publication = "aquatic-adventures"
-page = "54"
+page = "53"
 
 [fields]
 kind = "archetype"

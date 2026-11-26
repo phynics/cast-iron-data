@@ -18,7 +18,8 @@ page = "20"
 kind = "archetype"
 features = [
   { anchor = "feed-on-fear", level = 2 },
-  { anchor = "frightening-cruelty" },
+  { anchor = "frightening-cruelty", level = 3 },
+  { anchor = "panicked", level = 12 },
 ]
 trades = [
   { replaces = "Touch of corruption", feature = "touch-of-corruption", by = ["feed-on-fear"] },
@@ -50,10 +51,10 @@ The fearmonger must select [shaken](ref/misc/shaken) as his 3rd-level cruelty,
 [dazed](ref/misc/dazed) as his 6th-level cruelty, and [frightened](ref/misc/frightened) as his
 9th-level cruelty. At 12th level, the fearmonger gains the panicked cruelty.
 
-### Panicked {#panicked}
+This class feature alters cruelty.
+
+## Panicked {#panicked}
 
 The target is [panicked](ref/misc/panicked) for 1 round per 4 class levels the antipaladin
 possesses. The antipaladin must have the shaken and frightened cruelties before selecting this
 cruelty.
-
-This class feature alters cruelty.

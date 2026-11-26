@@ -20,7 +20,7 @@ features = [
   { anchor = "sworn-to-the-sea" },
   { anchor = "speech-of-the-sea" },
   { anchor = "balanced-channel", level = 1 },
-  { anchor = "spontaneous-casting" },
+  { anchor = "spontaneous-casting", level = 1 },
 ]
 trades = [
   { replaces = "Channel energy", feature = "channel-energy", by = ["balanced-channel"] },

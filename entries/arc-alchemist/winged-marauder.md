@@ -18,7 +18,6 @@ page = "104"
 kind = "archetype"
 features = [
   { anchor = "flying-beast-tamer", level = 1 },
-  { anchor = "sipping-pet" },
 ]
 trades = [
   { replaces = "Mutagen", feature = "mutagen", by = ["flying-beast-tamer"] },
@@ -50,7 +49,7 @@ replaces the mutagen and persistent mutagen class features.
 
 A winged marauder can select the following additional discovery.
 
-## Sipping Pet (Ex) {#sipping-pet}
+### Sipping Pet (Ex) {#sipping-pet}
 
 As a standard action, the marauder can administer a dose of a liquid (such as an extract,
 [infusion](ref/discovery/infusion), potion, or an alchemical liquid like

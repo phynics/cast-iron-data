@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "smite-deepest-evil", level = 1 },
   { anchor = "divine-immunity", level = 3 },
-  { anchor = "divine-bond" },
+  { anchor = "divine-bond", level = 5 },
   { anchor = "aura-of-elusion", level = 14 },
 ]
 trades = [

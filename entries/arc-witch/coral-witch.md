@@ -19,7 +19,7 @@ kind = "archetype"
 features = [
   { anchor = "patron" },
   { anchor = "coral-familiar", level = 1 },
-  { anchor = "waves-spirit-hex", level = 1 },
+  { anchor = "waves-spirit-hex" },
   { anchor = "immovability", level = 8 },
 ]
 trades = [

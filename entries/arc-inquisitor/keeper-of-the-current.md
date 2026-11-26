@@ -17,7 +17,7 @@ page = "24"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "underwater-hunter" },
+  { anchor = "underwater-hunter", level = 2 },
   { anchor = "marine-magic", level = 5 },
   { anchor = "rudderless-attack", level = 5 },
 ]

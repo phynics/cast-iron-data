@@ -18,7 +18,7 @@ page = "17"
 kind = "archetype"
 features = [
   { anchor = "splintered-identity", level = 1 },
-  { anchor = "sudden-change" },
+  { anchor = "sudden-change", level = 3 },
   { anchor = "surprising-change", level = 7 },
 ]
 trades = [
