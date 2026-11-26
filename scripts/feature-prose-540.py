@@ -2278,10 +2278,15 @@ CITE_BOOK = (r"\s*\([\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rul
 CITE_PAGE = r"\s*\(\s*(?:[\x01_]*[A-Z][\w'\u2019:, \-]*?[\x02_]*\s+)?page[\s_\x01\x02]*\d+(?:[\u2013-]\d+)?\s*\)"
 
 
+CITE_SEMI = (r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
+             r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
+             r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?(?=\))")
+
+
 def strip_citations(text: str) -> str:
     """The text without its bare page citations: a page number that stays as printed is not a rule word."""
     text = re.sub(r"_([^_]*)_", lambda m: I_OPEN + m.group(1) + I_CLOSE, text)    # the patterns read the marks that print_md sets
-    for pattern in (CITE_RPG, CITE_BOOK, CITE_PAGE):
+    for pattern in (CITE_RPG, CITE_BOOK, CITE_PAGE, CITE_SEMI):
         text = re.sub(pattern, "", text)
     return text.replace(I_OPEN, "_").replace(I_CLOSE, "_")
 
@@ -2344,7 +2349,8 @@ def drop_linked_citation(pattern: str, text: str, links: list[tuple[str, str]], 
 
 def drop_semicolon_citation(pattern: str, text: str, links: list[tuple[str, str]]) -> str:
     """The "; Book 28" at the end of a parenthesis ("(including the alchemist's bomb class ability; Advanced Player's Guide 28)"): it
-    goes where the parenthesis has a link before the semicolon, because the link names the rule (owner ruling 26)."""
+    goes where the parenthesis has a link before the semicolon, or follows a link directly ("[Expert Driver] (water vehicles only;
+    Ultimate Combat 100)"), because the link names the rule (owner ruling 26)."""
     probe = apply_links(text, links)[0]
     here, there = list(re.finditer(pattern, text)), list(re.finditer(pattern, probe))
     if len(here) != len(there):
@@ -2353,9 +2359,9 @@ def drop_semicolon_citation(pattern: str, text: str, links: list[tuple[str, str]
     for m, q in zip(here, there):
         out.append(text[at:m.start()])
         at = m.end()
-        seen = re.sub(r"\[([^\]]*)\]\([^)]*\)", "\x03\\1", probe[:q.start()])     # a link marks its label, its target has no parenthesis
+        seen = re.sub(r"\[([^\]]*)\]\([^)]*\)", "\x03\\1\x04", probe[:q.start()])    # a link marks its label, its target has no parenthesis
         opened = seen.rfind("(")
-        linked = opened >= 0 and ")" not in seen[opened:] and "\x03" in seen[opened:]
+        linked = opened >= 0 and ")" not in seen[opened:] and ("\x03" in seen[opened:] or seen[:opened].rstrip().endswith("\x04"))
         out.append("" if linked else m.group(0))
     out.append(text[at:])
     return "".join(out)
@@ -2392,10 +2398,7 @@ def print_md(feat: PrintFeature, links: list[tuple[str, str]], vocab: set[str], 
     xref = drop_linked_citation(CITE_BOOK, text, links, entry_id)
     # a bare book citation at the end of a parenthesis ("(including the alchemist's bomb class ability; Advanced
     # Player's Guide 28)", owner ruling 26): the corpus links the named rule
-    xref = drop_semicolon_citation(
-        r";\s*[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
-        r"Ultimate (?:Magic|Combat|Equipment|Campaign)|Advanced Race Guide|Game[Mm]astery Guide|Monster Codex|Occult Adventures)"
-        r"[\x02_]*[,\s]*(?:page[\s_\x01\x02]*)?\d+(?:[–-]\d+)?(?=\))", xref, links)
+    xref = drop_semicolon_citation(CITE_SEMI, xref, links)
     # a book reference in front of or behind a level inside a list ("(Advanced Player's Guide 212; 4th)", "(14th, Ultimate Magic)",
     # "(Ultimate Combat, 2nd)", owner ruling 26): the level stays, the reference goes
     book = (r"[\x01_]*(?:Pathfinder (?:RPG|Roleplaying Game) )?(?:Core Rulebook|Advanced Player.s Guide|Bestiary(?: [2-5])?|"
@@ -4429,6 +4432,8 @@ def self_test() -> int:
        "Bards cast spells, just as a [bard](ref/class/bard) does. See the bard (Core Rulebook 35) for more.", "a pointer (see) keeps it")
     eq(cited("It uses the mutagens' strength (Advanced Player's Guide 28) daily.", [("mutagens'", "ref/class/alchemist")]),
        "It uses the [mutagens'](ref/class/alchemist) strength (Advanced Player's Guide 28) daily.", "a plural possessive keeps it")
+    eq(cited("It takes Expert Driver (water vehicles only; Ultimate Combat 100) too.", [("Expert Driver", "ref/feat/expert-driver")]),
+       "It takes [Expert Driver](ref/feat/expert-driver) (water vehicles only) too.", "a link in front of the parenthesis takes its book citation")
     eq(cited("It is an ability (including a bomb ability; Advanced Player's Guide 28) here.", []),
        "It is an ability (including a bomb ability; Advanced Player's Guide 28) here.", "an unlinked parenthesis keeps its book citation")
     eq(cited("A steal is easy. She makes a steal combat maneuver (Advanced Player's Guide 322) now.", [("steal", "ref/rule/steal")]),
