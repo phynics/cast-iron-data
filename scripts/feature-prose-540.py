@@ -804,6 +804,8 @@ def load_book(xml_path: Path) -> Book:
             # a cross-reference mark: a book abbreviation (two to four capitals, or one named in `SUPERSCRIPT_MARK`) or a
             # dagger in small type after a name ("mutagen" + "UM"); the corpus links the name instead (owner ruling 26).
             # Letters that the extractor glued to the mark ("s" + "APG") are part of the word.
+            if int(_h) <= 3 and plain.isdigit():
+                continue                  # a watermark number set in tiny type at the page edge ("4412489"): it is no text of the page
             mark = SUPERSCRIPT_MARK.fullmatch(plain) if (fonts.get(font, 99) <= 8 or int(_h) <= 11) else None
             if mark and mark.group(1):
                 raw, plain = mark.group(1), mark.group(1)
@@ -4323,7 +4325,7 @@ def configure_book(book: str) -> None:
                                  "horror-adventures", "planar-adventures", "inner-sea-magic", "inner-sea-intrigue", "inner-sea-combat",
                                  "heroes-of-the-darklands", "legacy-of-dragons", "familiar-folio", "advanced-class-origins")
     SECTION_STOPS["on"] = book in ("adventurers-guide", "ultimate-wilderness", "horror-adventures", "planar-adventures")
-    ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
+    ANY_TITLE_ENDS["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS or book == "advanced-class-origins"
     SMALL_CAP_TITLES["on"] = book in SMALL_CAP_BOOKS or book in PLAYER_COMPANIONS
     CHAPTER_TITLES["on"] = book in PLAYER_COMPANIONS and book != "blood-of-the-ancients"
     # a title in small capitals and a chapter title can stand higher than the body of the other books (Heroes of the High Court p. 29: capital at 86; Martial Arts Handbook p. 18: chapter title at 70; the running heads stand at 13-29)
@@ -5027,6 +5029,7 @@ TRADE_RENAMES.update({
     ("ref/arc-sorcerer/bloodline-familiars", "1st-level bloodline power"): "1st-level bloodline power granted by the character's bloodline",
     ("ref/arc-bloodrager/bloodline-familiars", "The 1st-level bloodline power"): "The 1st-level bloodline power granted by the character's bloodline",
 })
+TRADE_RENAMES[("ref/arc-skald/belkzen-war-drummer", "7th-level versatile performance gained benefit")] = "Versatile performance gained benefit at 7th level"
 TRADE_ADDITIONS["ref/arc-fighter/dragonheir-scion"] = [{"alters": "Class skills"}]
 TRADE_ADDITIONS["ref/arc-druid/fungal-pilgrim"] = [{"replaces": "Wild shape if the fungal pilgrim selected an animal companion as her nature bond"}]
 TRADE_LEVELS[("ref/arc-alchemist/blightseeker", "Discoveries gained at 6th, 12th, and 18th levels")] = [6, 12, 18]

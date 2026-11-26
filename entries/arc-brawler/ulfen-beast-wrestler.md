@@ -16,45 +16,34 @@ page = "10"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "beast-training", level = 3 },
+  { anchor = "beast-defenses", level = 4 },
+]
 trades = [
-  { replaces = "Maneuver training", feature = "maneuver-training" },
-  { replaces = "AC bonus", feature = "ac-bonus" },
+  { replaces = "Maneuver training", feature = "maneuver-training", by = ["beast-training"] },
+  { replaces = "AC bonus", feature = "ac-bonus", by = ["beast-defenses"] },
 ]
 +++
 
-For these mighty grapplers, wrestling normal opponents has lost its challenge - they seek greater
+For these mighty grapplers, wrestling normal opponents has lost its challenge—they seek greater
 targets for glory. Ulfen beast-wrestlers challenge trolls to unarmed combat, and the greatest seek
 out the great linnorm their lands are known for and wrestle these primeval dragons into submission.
 
-**Beast Training (Ex)**
+## Beast Training (Ex) {#beast-training}
 
-**Choice:** An Ulfen beast-wrestler selects a creature type from the ranger's
-[favored enemies](ref/ability/favored-enemy) table. The only humanoid subtype the beast-wrestler can
+At 3rd level, an Ulfen beast-wrestler selects a creature type from the Ranger
+[Favored Enemies](ref/ability/favored-enemy) table. The only humanoid subtype the beast-wrestler can
 select is giant. She gains a +2 bonus on combat maneuver checks and to her CMD against creatures of
 the type she selected.
 
-**At 11th Level:** She chooses another type of creature and increases the bonuses against one type,
-as above.
+At 7th, 11th, 15th, and 19th levels, the Ulfen beast-wrestler can select an additional type of
+creature. In addition, at each such interval the bonuses against any one type of creature she's
+chosen (including the one just selected, if so desired) increase by 2. If a specific creature falls
+into more than one category, the beast-wrestler's bonuses don't stack; she simply uses whichever
+bonus is higher. This ability replaces maneuver training.
 
-**At 15th Level:** She chooses and increases again, as above.
+## Beast Defenses (Ex) {#beast-defenses}
 
-**At 19th Level:** She chooses and increases one more time.
-
-**At 7th Level:** The Ulfen beast-wrestler can select an additional type of creature. In addition,
-the bonuses against any one type of creature she's chosen (including the one just selected, if so
-desired) increase by 2.
-
-**Gained:** At 3rd Level
-
-**Replaces:** Maneuver training
-
-**Special:** If a specific creature falls into more than one category, the beast-wrestler's bonuses
-don't stack; she simply uses whichever bonus is higher.
-
-**Beast Defenses (Ex)**
-
-**Passive:** When facing enemies she selected with beast training, the beast-wrestler gains a bonus
-to AC equal to [half](ref/misc/fractions-and-rounding) her beast training bonus against that
-creature.
-
-**Replaces:** AC bonus
+At 4th level, when facing enemies she selected with beast training, the beast-wrestler gains a bonus
+to AC equal to 1/2 her beast training bonus against that creature. This ability replaces AC bonus.
