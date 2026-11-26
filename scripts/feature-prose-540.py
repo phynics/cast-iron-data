@@ -5576,6 +5576,8 @@ TRADE_ADDITIONS.setdefault("ref/arc-alchemist/ectoplasm-master", []).append({"al
 NO_LEVEL_ONE.add(("ref/arc-alchemist/ectoplasm-master", "ectoplasm-master-discoveries"))
 # Iron-Ring Striker (Martial Arts Handbook p. 5): the stored name is the printed words of "This modifies the bonus feat gained at 5th level"
 TRADE_RENAMES[("ref/arc-magus/iron-ring-striker", "5th-level bonus feat")] = "Bonus feat gained at 5th level"
+# Ilsurian Archer: the stored name is the printed words of "This modifies the ranger's combat style feat class feature" (ruling 22, app #737)
+TRADE_RENAMES[("ref/arc-ranger/ilsurian-archer", "Combat style")] = "The ranger's combat style feat class feature"
 # Eldritch Archer (Heroes of the Streets p. 11): "This ability modifies the magus's class skills." under the unlisted Class Skills section: an alters trade with no `by` (rulings 13 and 55)
 TRADE_ADDITIONS.setdefault("ref/arc-magus/eldritch-archer", []).append({"alters": "Class skills", "_no_by": True})
 NO_LEVEL_ONE.add(("ref/arc-witch/coral-witch", "waves-spirit-hex"))       # it only widens which hexes can be chosen: a part of the hex feature (ruling 48, review of #346)
