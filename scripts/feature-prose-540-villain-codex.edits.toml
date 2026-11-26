@@ -1,0 +1,77 @@
+[[edit]]
+entry = "ref/arc-bard/fortune-teller"
+anchor = "oracular-performance"
+note = "the table of d% results as print sets it: print has a table with the headings d%, Result for Ally and Result for Enemy and the rows 1-35 Woe/Weal, 36-65 Inconclusive/Inconclusive and 66+ Weal/Woe, which the corpus has as a list; ruling 44 (the table stands behind the sentence that introduces it)"
+text = '''
+A fortune-teller can use Perform (oratory) to read a fortune as part of a bardic performance. Once per hour when the bard performs a fortune-telling using a fortune-teller's deck, a crystal ball, or a similar item, he can read the fortune of one subject of the bardic performance. This is part of the same action used to activate the performance. The fortune-teller rolls d%, adds his bard level to the result, and consults the table below. The outcome depends on whether the chosen creature is an ally (for a beneficial performance) or an enemy (for a detrimental performance). 
+
+|d%|Result for Ally|Result for Enemy|
+|---|---|---|
+|1–35|Woe|Weal|
+|36–65|Inconclusive|Inconclusive|
+|66+|Weal|Woe|
+
+On an inconclusive result, the bard fails to get any information from the reading and the subject is affected by the performance normally. For an ally, on a weal result the subject's bonus from the performance increases by 1, and on a woe result the subject's bonus decreases by 1 (minimum 0). This affects only numeric bonuses. For example, a subject wouldn't gain another Hit Die from inspire greatness.
+
+For an enemy, on a weal result the subject gains a +2 bonus on its saving throw to negate the bard's performance, and on a woe result it takes a -2 penalty on its save. An oracular performance has no effect on an enemy if the performance doesn't require a saving throw.
+
+All adjustments from an oracular performance on a foe last only for that instance of the bardic performance. All adjustments on an ally last for 1 minute, applying each time the fortune-teller uses that particular bardic performance on that ally but ending when the duration expires, even if the performance continues.
+
+This ability alters bardic performance and replaces countersong and distraction.
+'''
+
+[[edit]]
+entry = "ref/arc-witch/mirror-witch"
+anchor = "cryptic-omens"
+note = "hand-written by the batch lead from print (Villain Codex pp. 152-153): the section as print sets it; the table floats in the foot of the column in the middle of its text and the last paragraph stands at the top of the next page, which the extraction read as a head (Int Special)"
+text = '''
+Each day, when a mirror witch consults with her patron mirror, the patron fragment can speak a few words of cryptic advice about the witch's future. While the words are often obscure when the fragment utters them, they nearly always make sense to the witch at just the right moment aid her in dealing with the threats of the day. Once per day, after the witch receives this advice, she can gain one of the following benefits without taking an action: gain a +2 insight bonus on a saving throw she is about to attempt; gain a +2 insight bonus on a Bluff, Diplomacy, or Sense Motive check she is about to attempt; or instead of rolling initiative, treat her initiative as if she rolled a 12 on the die. She can't use this last option if she can't act during a surprise round. She doesn't choose which benefit she gains while consulting the mirror; instead, she does so when she would be about to roll a saving throw, initiative check, or appropriate skill check.
+'''
+
+[[edit]]
+entry = "ref/arc-witch/mirror-witch"
+anchor = "patron-mirror"
+note = "hand-written by the batch lead from print (Villain Codex pp. 152-153): the section as print sets it, without the table that floats in the text and without the subhead Patron Mirror and the descriptions of the table's columns (they are the section `patron-mirror-table`, below it)"
+text = '''
+At 1st level, a [mirror](ref/eq-misc/mirror) witch creates a direct link to the power of her patron. She chooses a patron as normal, but instead of gaining a familiar that serves as the conduit to her patron, she uses a mirror (worth at least 10 gp) to speak to a fragment of her patron's power. This fragment teaches her magic and acts as a counselor.
+
+The mirror is essentially an immobile familiar. The mirror witch can activate it with a minute-long ritual that calls the patron fragment to manifest itself through the mirror. While this connection is open, she can prepare spells, add new spells to the mirror, and use the mirror's special abilities. In place of the boost granted by an ordinary familiar, the mirror grants the mirror witch a +2 bonus on Diplomacy checks regardless of whether the mirror is nearby. The mirror can't be used for abilities that require the presence of a familiar, such as the [blight](ref/hex/blight) hex.
+
+If the patron mirror is destroyed, the mirror witch can replace it 1 day later through a special ritual, attuning a new mirror to a different fragment of her patron. The mirror witch must purchase or procure a new, suitable mirror and spend 500 gp per witch level she has. The ritual takes 8 hours to complete, and when it is finished, the mirror witch establishes a connection with a new fragment of her patron and loses access to spells stored in the previous mirror, as normal for a lost witch's familiar.
+
+As the mirror witch progresses in level, the mirror's defenses increase, and the connection between it and the mirror witch becomes stronger, allowing the patron to manifest more of its personality—see the Patron Mirror section below.
+
+This ability replaces the witch's familiar.
+'''
+
+[[add]]
+entry = "ref/arc-witch/mirror-witch"
+anchor = "patron-mirror-table"
+head = "Patron Mirror"
+parent = "patron-mirror"
+after = "patron-mirror"
+note = "hand-written by the batch lead from print (Villain Codex pp. 152-153, ruling 44): the printed subhead Patron Mirror, the sentence that introduces the table, the table (set in the foot of a column in the middle of Cryptic Omens) and the descriptions of its four columns, which the corpus made four sections and the extraction read as heads"
+text = '''
+Instead of using the familiar abilities table on page 83 of the _Pathfinder RPG Core Rulebook_, use the table below to determine the strength of a mirror witch's patron mirror.
+
+|Witch Class Level|Hardness|Hit Points|Int|Special|
+|---|---|---|---|---|
+|1st–2nd|5|2|12|Cryptic omens, seek guidance|
+|3rd–4th|10|5|13|Greater omens|
+|5th–6th|15|5|14|Specialized knowledge|
+|7th–8th|20|5|15|Clairvoyance/clairaudience|
+|9th–10th|20|5|16|—|
+|11th–12th|25|10|17|Scrying|
+|13th–14th|25|10|18|Mirror casting|
+|15th–16th|25|10|19|—|
+|17th–18th|30|10|20|—|
+|19th–20th|30|15|21|—|
+
+**Hardness:** As the connection between the witch and her patron mirror becomes more powerful, so does the [hardness](ref/umr/hardness) of the mirror, making it more difficult to damage. This value is the hardness of the patron mirror.
+
+**Hit Points:** The base hit points of a mirror witch's patron mirror are based on what kind of mirror she chooses. A steel mirror has 4 hit points and a glass mirror has 1 hit point. The patron mirror gains the listed hit points in addition to the mirror's normal hit points, and the hit points increase as the link between the witch and her patron mirror strengthens.
+
+**Intelligence:** A patron is a powerful and unknowable entity, able to see great distances and offer sage council, but the power of the fragment it manifests through a patron mirror is proportional to the link the fragment has with the mirror witch. This column indicates the effective Intelligence score of the patron mirror as the witch progresses in level. The patron mirror is not a creature, and nothing can increase its Intelligence above the listed value.
+
+**Special:** As a mirror witch increases in level, her patron mirror grants her additional powers as indicated on the table.
+'''

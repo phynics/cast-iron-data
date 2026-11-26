@@ -16,59 +16,53 @@ page = "236"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "breaking-and-entering" },
+  { anchor = "rogue-talents" },
+  { anchor = "safecracking", level = 1 },
+  { anchor = "enhanced-safecracking", level = 3 },
+]
 trades = [
-  { replaces = "Brew Potion", feature = "brew-potion" },
-  { replaces = "Throw Anything", feature = "throw-anything" },
-  { replaces = "Poison use", feature = "poison-use" },
-  { alters = "Discoveries", feature = "discovery" },
-  { alters = "Bombs", feature = "bomb" },
-  { alters = "Bombs" },
+  { replaces = "The Brew Potion bonus feat", feature = "brew-potion", by = ["breaking-and-entering"] },
+  { replaces = "The Throw Anything bonus feat", feature = "throw-anything", by = ["safecracking"] },
+  { replaces = "Poison use", feature = "poison-use", by = ["enhanced-safecracking"] },
+  { alters = "Discoveries", feature = "discovery", by = ["rogue-talents"] },
+  { alters = "Bombs", feature = "bomb", by = ["safecracking", "enhanced-safecracking"] },
 ]
 +++
 
 The vaultbreaker combines stealth with his bomb-making talents to construct special focused charges
 that can disable or destroy hinges, locks, and similar mechanisms.
 
-**Breaking and Entering (Ex)**
+## Breaking and Entering (Ex) {#breaking-and-entering}
 
-**Passive:** A vaultbreaker gains [Stealth](ref/skill/stealth) (DEX) as a class skill and can disarm
-magical traps as if he were a [rogue](ref/class/rogue) with the
-[trapfinding](ref/ability/trapfinding) ability.
+A vaultbreaker gains [Stealth](ref/skill/stealth) as a class skill and can disarm magical traps as
+if he were a [rogue](ref/class/rogue) with the [trapfinding](ref/ability/trapfinding) ability.
 
-**Replaces:** Brew Potion
+This ability replaces the Brew Potion bonus feat.
 
-**Rogue Talents**
+## Rogue Talents {#rogue-talents}
 
-**Alters:** Discoveries
-
-**Passive:** A vaultbreaker can choose any of the following rogue talents in place of a discovery:
+A vaultbreaker can choose any of the following rogue talents in place of a discovery:
 [expert leaper](ref/talent/expert-leaper), [fast stealth](ref/talent/fast-stealth),
 [ledge walker](ref/talent/ledge-walker), [nimble climber](ref/talent/nimble-climber), or
 [wall scramble](ref/talent/wall-scramble).
 
-**Safecracking (Ex)**
+This ability alters discoveries.
 
-**Ability:** He gains [penetrating charge](ref/discovery/penetrating-charge) as a bonus discovery.
+## Safecracking (Ex) {#safecracking}
 
-**Alters:** Bombs
+At 1st level, a vaultbreaker's bombs can help him disable locks. He gains
+[penetrating charge](ref/discovery/penetrating-charge) (see above) as a bonus discovery. Because
+this ability replaces Throw Anything, the vaultbreaker's bombs do not add his Intelligence bonus to
+damage rolls.
 
-**Flavor:** A vaultbreaker's bombs can help him disable locks.
+This ability alters bombs and replaces the Throw Anything bonus feat.
 
-**Gained:** At 1st Level
+## Enhanced Safecracking (Ex) {#enhanced-safecracking}
 
-**Replaces:** Throw Anything
+At 3rd level, a vaultbreaker gains [incendiary charge](ref/discovery/incendiary-charge) (see above)
+as a bonus discovery, and his incendiary charges ignore 10 points of an object's
+[hardness](ref/umr/hardness) instead of 5.
 
-**Special:** Because this ability replaces Throw Anything, the vaultbreaker's bombs do not add his
-Intelligence bonus to damage rolls.
-
-**Enhanced Safecracking (Ex)**
-
-**Alters:** Bombs
-
-**Gained:** At 3rd Level
-
-**Passive:** A vaultbreaker gains [incendiary charge](ref/discovery/incendiary-charge) as a bonus
-discovery, and his incendiary charges ignore 10 points of an object's [hardness](ref/umr/hardness)
-instead of 5.
-
-**Replaces:** Poison use
+This ability alters bombs and replaces the poison use class ability.

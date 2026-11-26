@@ -1,0 +1,37 @@
+[[edit]]
+entry = "ref/arc-shifter/adaptive-shifter"
+anchor = "reactive-form"
+note = "hand-written by the batch lead from print (Distant Realms pp. 12-13, ruling 15): the reactive forms are run-in italic names of paragraphs of the section, not heads; print sets them in one running list, which the extraction read as three sections (Adaptive Defense, Durable Form, Restoring Form) and a head without a text (Stretching Form); the text is the print's, with its links, in print's order"
+text = '''
+An adaptive shifter learns two reactive forms from the list below. At 2nd level and every 2 levels thereafter, an adaptive shifter learns an additional reactive form. Forms marked with an asterisk (\*) are lasting forms. An adaptive shifter can spend two uses of reactive aspect to increase a lasting form's duration to 1 minute. Forms not marked with an asterisk always last only until the beginning of her next turn.
+
+_Adaptive Defense:_ When assuming this form, the adaptive shifter chooses one saving throw and gains a competence bonus on the selected save equal to her Wisdom modifier.
+
+_Aligned Adaptation\*:_ When assuming this form, the adaptive shifter chooses one alignment within one step of her own alignment on either the law/chaos axis or the good/evil axis. All spells, effects, and magic items affect the adaptive shifter as though that were her actual alignment. If she is at least 10th level, her natural weapon attacks overcome [damage reduction](ref/rule/damage-reduction) as if they were weapons of her assumed alignment.
+
+_Aquatic Form\*:_ The adaptive shifter gains a swim speed equal to her base speed, and she can breathe underwater.
+
+_Climbing Form\*:_ The adaptive shifter gains a climb speed equal to her base speed.
+
+_Durable Form:_ The adaptive shifter gains DR 5/adamantine. This damage reduction increases by 1 for every 2 levels she has beyond 8th. She must be at least 8th level to select this form.
+
+_Evasive Form\*:_ The adaptive shifter gains [compression](ref/umr/compression), a +4 dodge bonus to her CMD against grapple combat maneuvers, and a competence bonus equal to her Wisdom modifier on Escape Artist checks.
+
+_Giant Form\*:_ The adaptive shifter increases in size, as per _[enlarge person](ref/spell/enlarge-person)_. The adaptive shifter can assume this form only as a swift action.
+
+_Resistant Form\*:_ When assuming this form, the adaptive shifter chooses acid, cold, electricity, fire, or sonic damage. She gains [resistance](ref/umr/resistance) to the chosen damage type equal to 5 plus [half](ref/misc/fractions-and-rounding) her level. She can learn this form a second time, increasing the resistance granted to 10 plus her level.
+
+_Restoring Form:_ The adaptive shifter regains 1d8 hit points. For every 4 levels she has, the number of hit points she regains increases by 1d8. The adaptive shifter can assume this form only as a swift action.
+
+_Scouting Form\*:_ The adaptive shifter gains a competence bonus equal to her Wisdom modifier on Stealth checks, and she gains the benefits of the shifter's trackless step ability. At 12th level, she can use Stealth to hide, even if she does not have cover or concealment (but not if observed).
+
+_Sensory Form\*:_ The adaptive shifter gains [low-light vision](ref/rule/low-light-vision) and [scent](ref/umr/scent). She can learn this form a second time to also gain [darkvision](ref/rule/darkvision) with a range of 60 feet and a competence bonus on Perception checks equal to her Wisdom modifier.
+
+_Sky Hunter Form\*:_ The adaptive shifter gains a fly speed equal to her base speed with average maneuverability. She must be at least 6th level to select this form. She can learn this form a second time, increasing her fly speed by 20 feet and improving her maneuverability to good.
+
+_Spiked Form\*:_ The adaptive shifter grows spines over her body. Any foe striking her with an unarmed strike or a melee natural weapon takes an amount of piercing damage equal to the base damage of her shifter claws, which ignores any [damage reduction](ref/rule/damage-reduction) her shifter claws would ignore. She can learn this form a second time, allowing her to fling her spines as thrown natural weapons that deal piercing damage, have a range increment of 30 feet, and allow her to make multiple attacks with her spines as part of a full attack; these otherwise deal damage and overcome [damage reduction](ref/rule/damage-reduction) as her shifter claws.
+
+_Sprinting Form\*:_ The adaptive shifter's base speed increases by 20 feet.
+
+_Stretching Form:_ The adaptive shifter's reach with natural weapons increases by 5 feet.
+'''

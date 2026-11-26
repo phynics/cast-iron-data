@@ -16,17 +16,24 @@ page = "12"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "adaptive-claws", level = 1 },
+  { anchor = "reactive-aspect", level = 1 },
+  { anchor = "reactive-form" },
+  { anchor = "lasting-adaptation", level = 5 },
+  { anchor = "unfettered-wild-shape", level = 6 },
+]
 trades = [
-  { replaces = "Shifter aspect", feature = "shifter-aspect" },
-  { replaces = "chimeric aspect", feature = "chimeric-aspect" },
-  { replaces = "greater chimeric aspect", feature = "greater-chimeric-aspect" },
-  { replaces = "final aspect", feature = "final-aspect" },
-  { replaces = "Wild empathy", feature = "wild-empathy" },
-  { replaces = "track", feature = "track" },
-  { replaces = "woodland stride", feature = "woodland-stride" },
-  { replaces = "trackless step", feature = "trackless-step" },
-  { replaces = "Wild shape", feature = "wild-shape" },
-  { alters = "Shifter claws", feature = "shifter-claws" },
+  { replaces = "Shifter aspect", feature = "shifter-aspect", by = ["reactive-aspect"] },
+  { replaces = "chimeric aspect", feature = "chimeric-aspect", by = ["reactive-aspect"] },
+  { replaces = "greater chimeric aspect", feature = "greater-chimeric-aspect", by = ["reactive-aspect"] },
+  { replaces = "final aspect", feature = "final-aspect", by = ["reactive-aspect"] },
+  { replaces = "Wild empathy", feature = "wild-empathy", by = ["lasting-adaptation"] },
+  { replaces = "track", feature = "track", by = ["lasting-adaptation"] },
+  { replaces = "woodland stride", feature = "woodland-stride", by = ["lasting-adaptation"] },
+  { replaces = "trackless step", feature = "trackless-step", by = ["lasting-adaptation"] },
+  { replaces = "Wild shape", feature = "wild-shape", by = ["unfettered-wild-shape"] },
+  { alters = "Shifter claws", feature = "shifter-claws", by = ["adaptive-claws"] },
 ]
 +++
 
@@ -34,207 +41,120 @@ Rather than emulate other animals entirely, some shifters learn to reshape their
 response to a range of stimuli, rarely taking on a new form for longer than necessary to overcome a
 challenge.
 
-**Adaptive Claws (Su)**
+## Adaptive Claws (Su) {#adaptive-claws}
 
-**Ability:** When activating her _shifter claws_ ability in her natural form, an adaptive shifter
-can instead manifest a single bite attack that deals bludgeoning, piercing, and slashing damage; a
-gore attack that deals piercing damage; or a tail slap that deals bludgeoning damage. This natural
-attack otherwise deals damage as the shifter's claws.
+When activating her shifter claws ability in her natural form, an adaptive shifter can instead
+manifest a single bite attack that deals bludgeoning, piercing, and slashing damage; a gore attack
+that deals piercing damage; or a tail slap that deals bludgeoning damage. This natural attack
+otherwise deals damage as the shifter's claws.
 
-**Alters:** Shifter claws
+This alters shifter claws.
 
-**Reactive Aspect (Su)**
+## Reactive Aspect (Su) {#reactive-aspect}
 
-**Ability:** An adaptive shifter gains the ability to change parts of her body to avoid harm, gain a
-physical advantage, or overcome an obstacle. By activating this ability, either as an **immediate
-action** or as a **swift action**, an adaptive shifter gains the benefits of one of her _reactive
-forms_ until the beginning of her next turn (see below). An adaptive shifter can assume only one
-_reactive form_ at a time. Activating a new _reactive form_ (or forms) ends all _reactive forms_
-currently manifested.
+An adaptive shifter gains the ability to change parts of her body to avoid harm, gain a physical
+advantage, or overcome an obstacle. She can do so a number of times per day equal to 3 + her Wisdom
+modifier + her shifter level. By activating this ability, either as an immediate action or as a
+swift action, an adaptive shifter gains the benefits of one of her reactive forms until the
+beginning of her next turn (see below). An adaptive shifter can assume only one reactive form at a
+time. Activating a new reactive form (or forms) ends all reactive forms currently manifested.
 
-**At 14th Level:** She can assume up to three forms.
+At 9th level, an adaptive shifter gains the benefits of up to two reactive forms whenever she uses
+this ability. At 14th level, she can assume up to three forms. At 20th level, she learns all
+reactive forms and doubles her effective Wisdom modifier for the purpose of calculating her uses of
+reactive aspect per day.
 
-**At 20th Level:** She learns all _reactive forms_ and doubles her effective Wisdom modifier for the
-purpose of calculating her uses of _reactive aspect_ per day.
+This replaces shifter aspect, chimeric aspect, greater chimeric aspect, and final aspect.
 
-**At 9th Level:** An adaptive shifter gains the benefits of up to two _reactive forms_ whenever she
-uses this ability.
+## Reactive Form (Su) {#reactive-form}
 
-**Replaces:** Shifter aspect, chimeric aspect, greater chimeric aspect, final aspect
+An adaptive shifter learns two reactive forms from the list below. At 2nd level and every 2 levels
+thereafter, an adaptive shifter learns an additional reactive form. Forms marked with an asterisk
+(\*) are lasting forms. An adaptive shifter can spend two uses of reactive aspect to increase a
+lasting form's duration to 1 minute. Forms not marked with an asterisk always last only until the
+beginning of her next turn.
 
-**Usage:** shifter level + Wisdom3 modifier times/day
+_Adaptive Defense:_ When assuming this form, the adaptive shifter chooses one saving throw and gains
+a competence bonus on the selected save equal to her Wisdom modifier.
 
-**Reactive Form (Su)**
+_Aligned Adaptation\*:_ When assuming this form, the adaptive shifter chooses one alignment within
+one step of her own alignment on either the law/chaos axis or the good/evil axis. All spells,
+effects, and magic items affect the adaptive shifter as though that were her actual alignment. If
+she is at least 10th level, her natural weapon attacks overcome
+[damage reduction](ref/rule/damage-reduction) as if they were weapons of her assumed alignment.
 
-**Ability:** An adaptive shifter learns two _reactive forms_ from the list below.
+_Aquatic Form\*:_ The adaptive shifter gains a swim speed equal to her base speed, and she can
+breathe underwater.
 
-**Special:** Forms marked with an asterisk (\*) are _lasting forms._ An adaptive shifter can spend
-two uses of _reactive aspect_ to increase a _lasting form's_ duration to 1 minute. Forms not marked
-with an asterisk always last only until the beginning of her next turn.
+_Climbing Form\*:_ The adaptive shifter gains a climb speed equal to her base speed.
 
-At 4th level: An adaptive shifter learns her 3rd _reactive form._
+_Durable Form:_ The adaptive shifter gains DR 5/adamantine. This damage reduction increases by 1 for
+every 2 levels she has beyond 8th. She must be at least 8th level to select this form.
 
-At 6th level: An adaptive shifter chooses her 4th _reactive form._
+_Evasive Form\*:_ The adaptive shifter gains [compression](ref/umr/compression), a +4 dodge bonus to
+her CMD against grapple combat maneuvers, and a competence bonus equal to her Wisdom modifier on
+Escape Artist checks.
 
-At 8th level: An adaptive shifter gains her 5th _reactive form._
+_Giant Form\*:_ The adaptive shifter increases in size, as per
+_[enlarge person](ref/spell/enlarge-person)_. The adaptive shifter can assume this form only as a
+swift action.
 
-At 10th level: An adaptive shifter learns her 6th _reactive form._
+_Resistant Form\*:_ When assuming this form, the adaptive shifter chooses acid, cold, electricity,
+fire, or sonic damage. She gains [resistance](ref/umr/resistance) to the chosen damage type equal to
+5 plus [half](ref/misc/fractions-and-rounding) her level. She can learn this form a second time,
+increasing the resistance granted to 10 plus her level.
 
-At 12th level: An adaptive shifter chooses her 7th _reactive form._
+_Restoring Form:_ The adaptive shifter regains 1d8 hit points. For every 4 levels she has, the
+number of hit points she regains increases by 1d8. The adaptive shifter can assume this form only as
+a swift action.
 
-At 14th level: An adaptive shifter gains her 8th _reactive form._
+_Scouting Form\*:_ The adaptive shifter gains a competence bonus equal to her Wisdom modifier on
+Stealth checks, and she gains the benefits of the shifter's trackless step ability. At 12th level,
+she can use Stealth to hide, even if she does not have cover or concealment (but not if observed).
 
-At 16th level: An adaptive shifter learns her 9th _reactive form._
+_Sensory Form\*:_ The adaptive shifter gains [low-light vision](ref/rule/low-light-vision) and
+[scent](ref/umr/scent). She can learn this form a second time to also gain
+[darkvision](ref/rule/darkvision) with a range of 60 feet and a competence bonus on Perception
+checks equal to her Wisdom modifier.
 
-At 18th level: An adaptive shifter chooses her 10th _reactive form._
+_Sky Hunter Form\*:_ The adaptive shifter gains a fly speed equal to her base speed with average
+maneuverability. She must be at least 6th level to select this form. She can learn this form a
+second time, increasing her fly speed by 20 feet and improving her maneuverability to good.
 
-At 20th level: An adaptive shifter gains her 11th _reactive form._
+_Spiked Form\*:_ The adaptive shifter grows spines over her body. Any foe striking her with an
+unarmed strike or a melee natural weapon takes an amount of piercing damage equal to the base damage
+of her shifter claws, which ignores any [damage reduction](ref/rule/damage-reduction) her shifter
+claws would ignore. She can learn this form a second time, allowing her to fling her spines as
+thrown natural weapons that deal piercing damage, have a range increment of 30 feet, and allow her
+to make multiple attacks with her spines as part of a full attack; these otherwise deal damage and
+overcome [damage reduction](ref/rule/damage-reduction) as her shifter claws.
 
-**Adaptive Defense**
+_Sprinting Form\*:_ The adaptive shifter's base speed increases by 20 feet.
 
-**Passive:** When assuming this form, the adaptive shifter chooses one saving throw and gains a
-competence bonus on the selected save equal to her Wisdom modifier.
+_Stretching Form:_ The adaptive shifter's reach with natural weapons increases by 5 feet.
 
-**Aligned Adaptation\***
+## Lasting Adaptation (Su) {#lasting-adaptation}
 
-**At 10th Level:** Her natural weapon attacks overcome [damage reduction](ref/rule/damage-reduction)
-as if they were weapons of her assumed alignment.
+At 5th level, an adaptive shifter can spend 1 minute willing her body to adapt in a more enduring
+way. At the end of the minute, she expends two uses of her reactive aspect and selects one lasting
+form she knows. She assumes this form and can maintain it until she regains her daily uses of
+reactive aspect or uses this ability again. This adaptation does not count against the maximum
+number of forms she can assume at once. She can select a form that has a minimum level only if her
+character level is at least 3 higher than the minimum level.
 
-**Passive:** When assuming this form, the adaptive shifter chooses one alignment within one step of
-her own alignment on either the law/chaos axis or the good/evil axis. All spells, effects, and magic
-items affect the adaptive shifter as though that were her actual alignment.
-
-**Aquatic Form\***
-
-**Passive:** The adaptive shifter gains a swim speed equal to her base speed, and she can breathe
-underwater.
-
-**Climbing Form\***
-
-**Passive:** The adaptive shifter gains a climb speed equal to her base speed.
-
-**Durable Form**
-
-**Passive:** The adaptive shifter gains DR/adamantine. This DR is equal to 1 +
-[half](ref/misc/fractions-and-rounding) her skald level.
-
-**Prereq:** 8th-level shifter
-
-**Evasive Form\***
-
-**Passive:** The adaptive shifter gains [compression](ref/umr/compression), a +4 dodge bonus to her
-CMD against grapple combat maneuvers, and a competence bonus equal to her Wisdom modifier on Escape
-Artist checks.
-
-**Giant Form\***
-
-**Passive:** The adaptive shifter increases in size, as per
-[enlarge person](ref/spell/enlarge-person).
-
-**Special:** The adaptive shifter can assume this form only as a **swift action**.
-
-**Resistant Form\***
-
-**Passive:** When assuming this form, the adaptive shifter chooses acid, cold, electricity, fire, or
-sonic damage. She gains [resistance](ref/umr/resistance) to the chosen damage type equal to 5 plus
-[half](ref/misc/fractions-and-rounding) her level.
-
-**Special:** She can learn this form a second time, increasing the resistance granted to 10 plus her
-level.
-
-**Restoring Form**
-
-**Passive:** The adaptive shifter regains 1d8 hit points.
-
-**Special:** The adaptive shifter can assume this form only as a **swift action**.
-
-At 4th level: This increases to 2d8.
-
-At 8th level: This increases to 3d8.
-
-At 12th level: This increases to 4d8.
-
-At 16th level: This increases to 5d8.
-
-At 20th level: This increases to 6d8.
-
-**Scouting Form\***
-
-**At 12th Level:** She can use Stealth to hide, even if she does not have cover or concealment (but
-not if observed).
-
-**Passive:** The adaptive shifter gains a competence bonus equal to her Wisdom modifier on Stealth
-checks, and she gains the benefits of the shifter's _trackless step_ ability.
-
-**Sensory Form\***
-
-**Passive:** The adaptive shifter gains [low-light vision](ref/rule/low-light-vision) and
-[scent](ref/umr/scent).
-
-**Special:** She can learn this form a second time to also gain [darkvision](ref/rule/darkvision)
-with a range of 60 feet and a competence bonus on Perception checks equal to her Wisdom modifier.
-
-**Sky Hunter Form\***
-
-**Passive:** The adaptive shifter gains a fly speed equal to her base speed with average
-maneuverability.
-
-**Prereq:** 6th-level shifter
-
-**Special:** She can learn this form a second time, increasing her fly speed by 20 feet and
-improving her maneuverability to good.
-
-**Spiked Form\***
-
-**Passive:** The adaptive shifter grows spines over her body. Any foe striking her with an unarmed
-strike or a melee natural weapon takes an amount of piercing damage equal to the base damage of her
-_shifter claws,_ which ignores any [damage reduction](ref/rule/damage-reduction) her _shifter claws_
-would ignore.
-
-**Special:** She can learn this form a second time, allowing her to fling her spines as thrown
-natural weapons that deal piercing damage, have a range increment of 30 feet, and allow her to make
-multiple attacks with her spines as part of a full attack; these otherwise deal damage and overcome
-[damage reduction](ref/rule/damage-reduction) as her _shifter claws._
-
-**Sprinting Form\***
-
-**Passive:** The adaptive shifter's base speed increases by 20 feet.
-
-**Stretching Form**
-
-**Passive:** The adaptive shifter's reach with natural weapons increases by 5 feet.
-
-**Lasting Adaptation (Su)**
-
-**Ability:** An adaptive shifter can spend 1 minute willing her body to adapt in a more enduring
-way. At the end of the minute, she expends two uses of her _reactive aspect_ and selects one
-_lasting form_ she knows. She assumes this form and can maintain it until she regains her daily uses
-of _reactive aspect_ or uses this ability again. This adaptation does not count against the maximum
-number of forms she can assume at once.
-
-**At 15th Level:** The adaptive shifter can maintain up to two _lasting adaptations_ simultaneously,
-spending an additional minute and two uses of her _reactive aspect_ each time she assumes a new
+At 15th level, the adaptive shifter can maintain up to two lasting adaptations simultaneously,
+spending an additional minute and two uses of her reactive aspect each time she assumes a new
 adaptation.
 
-**Gained:** At 5th Level
+This replaces wild empathy, track, woodland stride, and trackless step.
 
-**Replaces:** Wild empathy, track, woodland stride, trackless step
+## Unfettered Wild Shape (Su) {#unfettered-wild-shape}
 
-**Special:** She can select a form that has a minimum level only if her character level is at least
-3 higher than the minimum level.
+At 6th level, an adaptive shifter gains the ability to turn into other creatures. This functions as
+a [druid's](ref/class/druid) wild shape ability, except she does not gain the ability to turn into
+an elemental. The shifter's effective druid level is equal to her class level. She can use this
+ability for a number of hours per day equal to half her effective druid level. This duration does
+not need to be consecutive, but must be spent in 1-hour increments. For abilities that function
+based on "uses of wild shape," each hour of unfettered wild shape counts as a use.
 
-**Unfettered Wild Shape (Su)**
-
-**Ability:** An adaptive shifter gains the ability to turn into other creatures. This functions as a
-[druid's](ref/class/druid) _wild shape_ ability, except she does not gain the ability to turn into
-an elemental. The shifter's effective druid level is equal to her shifter level.
-
-**Gained:** At 6th Level
-
-**Replaces:** Wild shape
-
-**Special:** For abilities that function based on _"uses of wild shape,"_ each hour of unfettered
-_wild shape_ counts as a use.
-
-**Usage:** 1 time/day per 2 shifter levels; these times need not be consecutive, but must be spent
-in 1-time increments
+This replaces wild shape.

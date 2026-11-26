@@ -16,11 +16,18 @@ page = "13"
 
 [fields]
 kind = "archetype"
+features = [
+  { anchor = "bloody-knuckles" },
+  { anchor = "reduced-spells-known" },
+  { anchor = "pugilist", level = 1 },
+  { anchor = "combat-style-student", level = 2 },
+  { anchor = "hand-to-hand-training", level = 3 },
+]
 trades = [
-  { replaces = "Fast movement", feature = "fast-movement" },
-  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
-  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge" },
-  { alters = "Spellcasting", feature = "spells" },
+  { replaces = "Fast movement", feature = "fast-movement", by = ["pugilist"] },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge", by = ["combat-style-student"] },
+  { replaces = "improved uncanny dodge", feature = "improved-uncanny-dodge", by = ["combat-style-student"] },
+  { alters = "Spellcasting", feature = "spells", by = ["reduced-spells-known"] },
 ]
 +++
 
@@ -30,58 +37,31 @@ are quick and effective, duplicating combat styles from professional brawlers, s
 even trapped animals. Rather than focusing on a single style, most bloody-knuckled rowdies dabble in
 multiple techniques, mixing and matching their array of vicious maneuvers to suit the occasion.
 
-**Bloody Knuckles**
+## Bloody Knuckles {#bloody-knuckles}
 
-**Info:** The bloody-knuckled rowdy does not gain [damage reduction](ref/rule/damage-reduction).
+The bloody-knuckled rowdy does not gain [damage reduction](ref/rule/damage-reduction).
 
-**Reduced Spells Known**
+## Reduced Spells Known {#reduced-spells-known}
 
-**Alters:** Spellcasting
+The bloody-knuckled rowdy focuses more on fighting tactics and less on his natural arcane powers. He
+receives one fewer spell known at each spell level. This ability modifies bloodrager spellcasting.
 
-**Info:** The bloody-knuckled rowdy focuses more on fighting tactics and less on his natural arcane
-powers. He receives one fewer spell known at each spell level.
+## Pugilist (Ex) {#pugilist}
 
-**Pugilist (Ex)**
+At 1st level, a bloody-knuckled rowdy gains
+[Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat. This ability replaces
+fast movement.
 
-**Ability:** A bloody-knuckled rowdy gains
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat.
+## Combat Style Student {#combat-style-student}
 
-**Gained:** At 1st Level
-
-**Replaces:** Fast movement
-
-**Combat Style Student**
-
-**Ability:** A bloody-knuckled rowdy gains a bonus feat. This bonus feat must be a style feat or a
+At 2nd level, a bloody-knuckled rowdy gains a bonus feat. This bonus feat must be a style feat or a
 feat with a style feat as a prerequisite. The bloody-knuckled rowdy treats his bloodrager levels as
 monk levels when qualifying for and calculating the effects of style feats and feats that have style
-feats as prerequisites.
-
-**At 5th Level:** The bloody-knuckled rowdy gains the
+feats as prerequisites. At 5th level, the bloody-knuckled rowdy gains the
 [Combat Style Master](ref/feat/combat-style-master) feat. He doesn't need to meet the prerequisites
-for this feat.
+for this feat. This ability replaces uncanny dodge and improved uncanny dodge.
 
-**Gained:** At 2nd Level
+## Hand-to-Hand Training (Ex) {#hand-to-hand-training}
 
-**Replaces:** Uncanny dodge, improved uncanny dodge
-
-**Hand-to-Hand Training (Ex)**
-
-**Ability:** A bloody-knuckled rowdy deals unarmed damage as a [monk](ref/class/monk) of a level
+At 3rd level, a bloody-knuckled rowdy deals unarmed damage as a [monk](ref/class/monk) of a level
 equal to his bloodrager level - 2.
-
-**Gained:** At 3rd Level
-
-**Unarmed Strike**
-
-**Flavor:** Relevant text from the monk class ability.
-
-**At 12th Level:** Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.
-
-**At 16th Level:** Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.
-
-**At 4th Level:** Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.
-
-**At 8th Level:** Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.
-
-**At 1st Level:** Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.
