@@ -18,7 +18,6 @@ page = "126"
 kind = "archetype"
 features = [
   { anchor = "musketeer-instruction", level = 1 },
-  { anchor = "deed" },
   { anchor = "quick-clear", level = 1 },
 ]
 trades = [

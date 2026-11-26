@@ -18,7 +18,7 @@ page = "92"
 kind = "archetype"
 features = [
   { anchor = "kami-channeler", level = 1 },
-  { anchor = "natural-taboo" },
+  { anchor = "natural-taboo", level = 1 },
   { anchor = "ofuda" },
   { anchor = "shikigami", level = 3 },
   { anchor = "ask-the-kami", level = 13 },

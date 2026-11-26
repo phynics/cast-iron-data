@@ -7,6 +7,7 @@ ref/arc-bard/arrowsong-minstrel	This ability replaces suggestion and mass sugges
 ref/arc-fighter/child-of-acavna-and-amaznen	This alters the fighter’s weapon and armor proficiency.
 ref/arc-fighter/child-of-acavna-and-amaznen	This alters the fighter’s skills and replaces the bonus fighter combat feat gained at 1st level.
 ref/arc-fighter/child-of-acavna-and-amaznen	This ability replaces the bonus feat gained at 2nd level.
+ref/arc-fighter/child-of-acavna-and-amaznen	This ability modifies armor training.
 ref/arc-fighter/child-of-acavna-and-amaznen	This replaces all weapon training and the bonus feats gained at 8th, 12th, 16th, and 20th level.
 ref/arc-magus/deep-marshal	This ability alters the magus’s armor proficiencies, the medium armor class feature, and the heavy armor class feature.
 ref/arc-magus/deep-marshal	This alters the magus’s spellcasting.
@@ -22,6 +23,9 @@ ref/arc-magus/puppetmaster	This ability replaces true magus.
 ref/arc-rogue/eldritch-scoundrel	This alters the rogue’s armor proficiencies.
 ref/arc-rogue/eldritch-scoundrel	This alters the rogue’s skills.
 ref/arc-rogue/eldritch-scoundrel	This ability replaces trap sense.
+ref/arc-rogue/eldritch-scoundrel	This modifies the rogue’s normal sneak attack progression.
+ref/arc-rogue/eldritch-scoundrel	This modifies the normal rogue talent progression and advanced talent.
+ref/arc-rogue/eldritch-scoundrel	This modifies uncanny dodge and improved uncanny dodge.
 ref/arc-skald/augur	This ability replaces well-versed.
 ref/arc-skald/augur	This ability replaces all types of versatile performance.
 ref/arc-skald/augur	This replaces spell kenning.

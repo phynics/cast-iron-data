@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "hair-trigger-reflexes", level = 2 },
   { anchor = "eye-for-trouble", level = 4 },
-  { anchor = "deeds" },
   { anchor = "warning-shot", level = 7 },
   { anchor = "opening-shot", level = 11 },
 ]

@@ -18,7 +18,6 @@ page = "14"
 kind = "archetype"
 features = [
   { anchor = "brigh-s-knowledge" },
-  { anchor = "bardic-performance" },
   { anchor = "brigh-s-soothing", level = 1 },
   { anchor = "brigh-s-anger", level = 8 },
   { anchor = "brigh-s-spark", level = 12 },

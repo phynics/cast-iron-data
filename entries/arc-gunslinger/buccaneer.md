@@ -17,7 +17,6 @@ page = "73"
 [fields]
 kind = "archetype"
 features = [
-  { anchor = "deeds" },
   { anchor = "seadog-s-gait", level = 1 },
   { anchor = "pirate-s-jargon", level = 3 },
   { anchor = "rope-swing", level = 7 },

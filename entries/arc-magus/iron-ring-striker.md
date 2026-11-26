@@ -35,7 +35,7 @@ trades = [
   { alters = "Spellcasting", feature = "spells", by = ["diminished-spellcasting"] },
   { alters = "Arcane pool", feature = "arcane-pool", by = ["arcane-pool"] },
   { alters = "Spellstrike", feature = "spellstrike", by = ["unarmed-spellstrike"] },
-  { alters = "5th-level bonus feat", feature = "bonus-feats", levels = [5], by = ["bonus-feat"] },
+  { alters = "Bonus feat gained at 5th level", feature = "bonus-feats", levels = [5], by = ["bonus-feat"] },
 ]
 +++
 

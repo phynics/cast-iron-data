@@ -19,8 +19,11 @@ ref/arc-fighter/opportunist	This ability replaces weapon training 1.
 ref/arc-inquisitor/ravener-hunter	This ability replaces domain.
 ref/arc-inquisitor/ravener-hunter	This ability alters the inquisitor’s spells.
 ref/arc-inquisitor/ravener-hunter	This ability replaces the teamwork feat gained at 3rd level.
+ref/arc-investigator/scavenger	This ability modifies alchemy.
+ref/arc-investigator/scavenger	This ability modifies inspiration.
 ref/arc-investigator/scavenger	This ability replaces poison lore.
 ref/arc-investigator/scavenger	This ability replaces the investigator’s poison resistance and poison immunity.
+ref/arc-medium/fiend-keeper	This ability modifies spirit.
 ref/arc-medium/fiend-keeper	This ability replaces haunt channeler, location channel, connection channel, and ask the spirits.
 ref/arc-ranger/fortune-finder	This replaces track.
 ref/arc-ranger/fortune-finder	This ability replaces hunter’s bond.
@@ -29,14 +32,18 @@ ref/arc-ranger/fortune-finder	This ability replaces quarry and improved quarry.
 ref/arc-ranger/fortune-finder	This ability replaces master hunter.
 ref/arc-ranger/poison-darter	This ability replaces favored enemy and master hunter.
 ref/arc-ranger/poison-darter	This ability replaces wild empathy.
+ref/arc-ranger/poison-darter	This ability modifies combat style feat.
 ref/arc-ranger/poison-darter	This ability replaces hunter’s bond.
 ref/arc-shaman/serendipity-shaman	This ability alters spirit.
+ref/arc-skald/red-tongue	This ability modifies the raging song and versatile performance abilities.
 ref/arc-skald/red-tongue	This ability replaces bardic knowledge.
 ref/arc-skald/red-tongue	This ability replaces the versatile performance selections normally gained at 7th, 12th, and 17th levels.
+ref/arc-skald/war-painter	This ability modifies the raging song class feature and does not prevent a war painter from performing other raging songs.
 ref/arc-skald/war-painter	This ability replaces spell kenning.
 ref/arc-skald/war-painter	This ability replaces lore master.
 ref/arc-sorcerer/nine-tailed-heir	This ability replaces the bloodline spell class feature.
 ref/arc-swashbuckler/courser	This ability replaces the swashbuckler’s opportune parry and riposte deeds.
+ref/arc-swashbuckler/courser	This ability modifies nimble.
 ref/arc-swashbuckler/courser	This ability replaces the bonus feat gained at 4th level.
 ref/arc-swashbuckler/courser	This deed replaces menacing swordplay.
 ref/arc-swashbuckler/courser	This deed replaces the superior feint deed.

@@ -18,12 +18,12 @@ page = "109"
 kind = "archetype"
 features = [
   { anchor = "geistform-phantom", level = 1 },
-  { anchor = "emotionless" },
+  { anchor = "emotionless", level = 1 },
   { anchor = "spiritual-manifestation" },
 ]
 trades = [
   { replaces = "The phantom's emotional focus", feature = "phantom", power = "emotional focus", by = ["emotionless"] },
-  { alters = "Phantom", feature = "phantom", by = ["geistform-phantom"] },
+  { alters = "Phantom", feature = "phantom", by = ["geistform-phantom", "emotionless"] },
   { alters = "Bonded manifestation", feature = "bonded-manifestation", by = ["spiritual-manifestation"] },
 ]
 +++

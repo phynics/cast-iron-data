@@ -18,7 +18,6 @@ page = "124"
 kind = "archetype"
 features = [
   { anchor = "quick-tongued", level = 2 },
-  { anchor = "deeds" },
   { anchor = "clandestine-expertise", level = 3 },
   { anchor = "silence-is-golden", level = 3 },
   { anchor = "authoritative-bluff", level = 11 },

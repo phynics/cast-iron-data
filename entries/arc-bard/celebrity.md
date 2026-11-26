@@ -18,7 +18,6 @@ page = "25"
 kind = "archetype"
 features = [
   { anchor = "famous", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "gather-crowd", level = 5 },
   { anchor = "shining-star", level = 8 },
 ]

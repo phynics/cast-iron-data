@@ -61,9 +61,9 @@ This ability alters phantom and emotional focus and replaces the 6th-level phant
 
 An exciter gains the ability to enter an ecstatic state in which he's consumed and overwhelmed by
 his passions and driven into a fighting fury. This functions similarly to a
-[bloodrager's](ref/class/bloodrager) bloodrage (_Pathfinder RPG_ _Advanced Class Guide_ 15),
-treating his spiritualist level as his bloodrager level, though he doesn't qualify for feats or
-other elements that require rage or bloodrage. When entering a rapture, the exciter loses all other
+[bloodrager's](ref/class/bloodrager) bloodrage (_Pathfinder RPG Advanced Class Guide_ 15), treating
+his spiritualist level as his bloodrager level, though he doesn't qualify for feats or other
+elements that require rage or bloodrage. When entering a rapture, the exciter loses all other
 benefits from having his phantom confined in his consciousness (such as the
 [Skill Focus](ref/feat/skill-focus) feats and bonus against mind-affecting effects), but he can
 choose to exchange the normal +4 morale bonus to his Strength and Constitution scores normally

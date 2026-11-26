@@ -20,7 +20,6 @@ features = [
   { anchor = "daring-teamwork", level = 1 },
   { anchor = "charmed-guardian", level = 2 },
   { anchor = "interfering-blade", level = 3 },
-  { anchor = "deeds" },
   { anchor = "opportune-redirection-and-riposte", level = 3 },
 ]
 trades = [

@@ -19,7 +19,6 @@ kind = "archetype"
 features = [
   { anchor = "studied-insight" },
   { anchor = "dwarven-training", level = 2 },
-  { anchor = "bardic-performance" },
   { anchor = "war-chant", level = 1 },
 ]
 trades = [

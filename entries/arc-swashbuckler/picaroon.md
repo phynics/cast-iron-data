@@ -18,7 +18,6 @@ page = "127"
 kind = "archetype"
 features = [
   { anchor = "panache", level = 1 },
-  { anchor = "deeds" },
   { anchor = "melee-shooter", level = 1 },
   { anchor = "quick-clear", level = 3 },
   { anchor = "gun-feint", level = 7 },

@@ -18,7 +18,6 @@ page = "6"
 kind = "archetype"
 features = [
   { anchor = "buffoonery", level = 1 },
-  { anchor = "bardic-performance" },
   { anchor = "distracting-motley", level = 1 },
   { anchor = "defuse-tension", level = 3 },
   { anchor = "caper-and-jeer", level = 5 },
