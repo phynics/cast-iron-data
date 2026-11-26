@@ -1011,6 +1011,13 @@ publication_date = "2008-08-01"
 aon = "SourceDisplay.aspx?FixedSource=Guide%20to%20Darkmoon%20Vale"
 
 [[publication]]
+id = "guide-to-pathfinder-society-organized-play-4-3"
+title = "Guide to Pathfinder Society Organized Play, Version 4.3"
+copyright = "Guide to Pathfinder Society Organized Play, Version 4.3 © 2013, Paizo Publishing, LLC; Authors: Mike Brock, Erik Mona, and Mark Moreland."
+category = "Web supplement"
+publication_date = "2013-01-07"
+
+[[publication]]
 id = "guide-to-the-river-kingdoms"
 title = "Guide to the River Kingdoms"
 copyright = "Pathfinder Chronicles: Guide to the River Kingdoms. Copyright 2010, Paizo Publishing, LLC; Authors: Eric Bailey, Kevin Carter, Elaine Cunningham, Adam Daigle, Mike Ferguson, Joshua J. Frost, Steve Kenson, Rob Manning, Alison McKenzie, Colin Moulder-McComb, China Miéville, Brock Mitchel-Slentz, Jason Nelson, Richard Pett, Chris Pramas, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Lisa Stevens, Neil Spicer, Matthew Stinson, and John Wick."
@@ -3312,6 +3319,13 @@ copyright = "Pathfinder Player Companion: Pathfinder Society Primer © 2013, Pai
 category = "Player Companion"
 publication_date = "2013-07-11"
 aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20Society%20Primer"
+
+[[publication]]
+id = "pathfinder-society-roleplaying-guild-guide-8-0"
+title = "Pathfinder Society Roleplaying Guild Guide, Version 8.0"
+copyright = "Pathfinder Society Roleplaying Guild Guide, Version 8.0 © 2016, Paizo Inc.; Authors: Mike Brock, John Compton, Erik Mona, Mark Moreland, and Tonya Woldridge."
+category = "Web supplement"
+publication_date = "2016-08-04"
 
 [[publication]]
 id = "pathfinder-society-s03-10-the-immortal-connundrum"
